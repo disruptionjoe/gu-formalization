@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_curvature_vev_trace_audit.py` enforces ledger v0.108's
+  same-carrier Layer-0 correction, exact zero-freedom scalar curvature-jet
+  branch and metric-trace cancellation, while keeping the global connection,
+  full derivative Euler, differential Bianchi, observation and physics fences
+  open and preserving all three action parents.
+
 - `selected_k77_direct_metric_euler_audit.py` enforces ledger v0.107's exact
   rank-one direct metric trace, nine-dimensional traceless kernel,
   fixed-field/fixed-source/co-moving lift-independence, residual-square

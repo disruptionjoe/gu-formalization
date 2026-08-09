@@ -8,19 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.107; six
-distance/evidence migrations; headline unchanged).** The repaired nontrivial
-branch closes all 1,470 low-grade connection equations and the raw residual,
-but its complete direct metric Euler is the nonzero rank-one Lorentz-trace
-covector with normalized magnitude `7/9126`; all nine traceless directions
-vanish. Connection criticality makes fixed-`B/T`, fixed-source-`varpi` and
-co-moving first variations agree. The residual-square second action has zero
-first variation at raw residual zero and cannot cancel the trace. The next
-gate is the exact dynamic `varpi`/curvature VEV metric-stress cancellation,
-without a fixed `Lambda` or new free counterterm; tangent selection and the
-full Hessian are deferred until a stationary branch exists. No verdict,
-residue, quotient, datum, canon or posture moves; all three action parents
-remain distinct.
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.108; seven
+distance/evidence migrations; headline unchanged).** Weinstein's dynamic
+dark-energy candidate and the source action's `T_omega` are the same typed
+connection-distortion carrier; a global display identity remains open. The
+previous finite fixture omitted the scalar derivative-curvature jet. Restoring
+`r(Phi1 wedge Phi1)` yields the unique nonzero-distortion local branch
+`(B,T,r)=(Phi1/208,-Phi1/104,1/129792)`. Three independent equations have
+rank three and determinant `-624`, hence zero local fitting freedom. The
+noncurvature and derivative-curvature density pieces cancel exactly, as do all
+ten gimmel-volume components; all 1,470 frozen-jet `B` and `T` equations and
+the raw residual vanish. This is not yet a global connection, full derivative
+Euler equation, observed Einstein equation or dark-energy magnitude. Next
+construct the patchwise `Y14` connection/full derivative `B` Euler and test
+differential Bianchi, atlas and observation descent before tangent/Hessian/BV.
+No verdict, residue, quotient, datum, canon or posture moves; all three action
+parents remain distinct.
 
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
 distance/evidence migrations; headline unchanged).** The source-owned

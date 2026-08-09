@@ -7,14 +7,18 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.107. The repaired common
-connection branch has an exact rank-one direct metric Euler covector with a
-nine-dimensional traceless kernel. The residual-square second action cannot
-cancel it at raw residual zero. The next gate constructs the source-guided
-dynamic `varpi`/curvature VEV metric stress and tests exact opposite-trace
-cancellation without a fixed `Lambda` or new free coefficient. Field-tangent,
-Hessian and BV work are deferred until a stationary branch exists. Registry:
-`selected-k77-direct-metric-euler.json`.
+Current append-only progress surface: ledger v0.108. The source-guided dynamic
+VEV is the existing connection-distortion carrier, not a second field. The
+omitted scalar derivative-curvature jet closes the selected local trace at
+`(B,T,r)=(Phi1/208,-Phi1/104,1/129792)` with zero local freedom and exact
+cancellation in all ten metric-volume directions. All frozen-jet connection
+directions remain stationary. Global realization is open: next construct the
+patchwise `Y14` connection/full derivative `B` Euler and test differential
+Bianchi, atlas and observation descent before tangent/Hessian/BV. Registry:
+`selected-k77-curvature-vev-trace-closure.json`.
+
+Predecessor progress surface: ledger v0.107. The repaired common connection
+branch exposed the exact rank-one direct metric trace demand.
 
 Predecessor progress surface: ledger v0.106. The old residual-zero
 fixture is now typed as only grade-two constrained-critical. A nontrivial

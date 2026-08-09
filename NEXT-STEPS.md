@@ -7,16 +7,20 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
-> **2026-08-09 DIRECT METRIC EULER TRACE DEMAND (ledger v0.107).** The repaired
-> `B=Phi1/156`, `T=-Phi1/78` branch is connection-critical and raw-residual-
-> zero but not a full metric saddle. Its exact ten-component first-action
-> metric Euler has rank one: normalized covector
-> `(-7/9126,0,0,0,+7/9126,0,0,+7/9126,0,+7/9126)` and a nine-dimensional
-> traceless kernel. The residual-square second action has zero first variation
-> here and cannot cancel it. Next construct the already-located dynamic
-> `varpi`/curvature VEV metric stress and test exact opposite-trace cancellation
-> with no fixed `Lambda` or new free counterterm. Only after stationarity may
-> the 321-versus-1,571 tangent, full Hessian and BV sequence resume. Keep the
+> **2026-08-09 CURVATURE/VEV TRACE CLOSURE (ledger v0.108).** Layer 0 identifies
+> Weinstein's dynamic dark-energy candidate with the source action's existing
+> equivariant connection-distortion carrier; adding a second VEV field would
+> double-count it. Restoring the omitted scalar first-jet curvature cell gives
+> the unique nonzero-distortion local branch `B=Phi1/208`, `T=-Phi1/104`,
+> `r=1/129792`. Three independent equations have rank three (determinant
+> `-624`), so the fit has zero local freedom. Its noncurvature and derivative-
+> curvature action pieces are `+7/21632` and `-7/21632`, cancelling the
+> ten-component gimmel-volume trace, while all 1,470 frozen-jet `B` and `T`
+> directions and the raw residual vanish. This is local scalar-jet closure,
+> not a global connection or Einstein solution. Next construct the full
+> derivative `B` Euler and patchwise `Y14` connection realizing the jet, then
+> test differential Bianchi, atlas and observation descent. Only after that
+> may the 321-versus-1,571 tangent, Hessian and BV sequence resume. Keep the
 > selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
 
 > **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**

@@ -7,7 +7,18 @@ updated_at: "2026-08-09"
 
 # Explorations
 
-## K77 direct metric Euler trace demand (2026-08-09)
+## K77 curvature/VEV trace closure (2026-08-09)
+
+`conditional-build/selected-k77-curvature-vev-trace-closure-2026-08-09.md`
+identifies the dynamic VEV with the existing connection-distortion carrier and
+restores the omitted scalar derivative-curvature jet. The exact local branch
+`(B,T,r)=(Phi1/208,-Phi1/104,1/129792)` has zero fitting freedom and cancels
+the rank-one metric trace while preserving every frozen-jet connection
+equation. Ledger v0.108 routes next to a patchwise `Y14` connection, the full
+derivative Euler equation, differential Bianchi and observation descent. It
+does not claim a global vacuum, Einstein equation or dark-energy magnitude.
+
+## K77 direct metric Euler trace demand (2026-08-09; predecessor)
 
 `conditional-build/selected-k77-direct-metric-euler-2026-08-09.md` composes
 the all-ten moving-gimmel bank with the repaired connection-critical branch.
