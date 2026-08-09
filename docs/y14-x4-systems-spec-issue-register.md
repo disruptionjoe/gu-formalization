@@ -210,3 +210,64 @@ uncommitted (4), multiplicity-vs-index is unstated (1), and the induced-gravity 
 
 No issue here is a finding about Geometric Unity. All 75 are about a document. The register is filed so the
 spec's known defects are legible from outside rather than living in one session's context.
+
+---
+
+# Addendum — coverage sweep, 2026-08-09 (filed against 1.0, actioned in 1.1)
+
+A sweep of the spec against all 57 `canon/` files. Distinct from the 75 issues above: those are about
+document quality, these are about **coverage** — canon results the spec does not represent at all.
+
+## Actioned in 1.1
+
+- **APS residual mis-stated (S1, was a live error in a published document).** 1.0 Sec 9.5 claimed the
+  function-space RS APS + family-index statement is "not closed," while listing in `follows:` the canon file
+  that closes it. `canon/function-space-index-conservation-residual-closure-RESULTS.md` discharges all three
+  residuals at computed + independently re-verified grade. **Corrected in 1.1**; the real residual is
+  `model -> true-RS-Y14-bundle` transfer.
+- **"Totally null" homonym guard (S2).** Sweep reported this as refuted by
+  `canon/hessian-z3-carrier-occupancy-RESULTS.md`. **Checked directly: not refuted.** That file targets the
+  *flat modulus / zero mode* reading (`ker(B) = 0`, spectrum `{+1 x96, -1 x96}`, `B^2 = I`), which the spec
+  never makes. "Totally null" here means *totally isotropic subspace*, ordinary for a balanced `(+n,-n)`
+  form. Both hold, of different objects. Guard note added in 1.1 so no later reader collapses them.
+  **This is itself a Layer-0 instance and is logged as one.**
+- **`mu_DW` provenance (S3).** No `canon/` referent; grade rests on `GEOMETER-VS-PHYSICS-OBJECTS.md` and
+  `papers/candidates/`. Caveat added in 1.1.
+
+## In-scope coverage gaps — canon results absent from the spec (ranked)
+
+| # | result | file | note |
+|---|---|---|---|
+| G1 | Good-stable compactification no-go | `canon/good-stable-compactification-no-go-RESULTS.md` | a theorem about `Sp(32,32;H)`, the exact arena the spec names |
+| G2 | `ker(Gamma)` Casimir split; the 192-dim `j=1` carrier | `canon/source-action-seiberg-witten-RESULTS.md` | spec quotes 1664 but never names the carrier every downstream theorem runs on. **Highest priority** |
+| G3 | The Seiberg-Witten source action itself | `canon/source-action-seiberg-witten-{RESULTS,construction}.md` | the object Sec 9.6 routes into |
+| G4 | `Omega^{Pin+}_14 = Z/2` | `canon/pin14-bordism-derivation-RESULTS.md` | a dimension-14 bordism fact about `Y14` |
+| G5 | Bulk RS index (`I_{3/2} = 21 sigma/8`; `ind Q = -38`) | `canon/rs-function-space-framework-SPEC.md`, `canon/gamma-traceless-38-adjudication-RESULTS.md` | spec has boundary eta, no bulk index |
+| G6 | Two-arena rep-theory core (Lean-checked) | `canon/two-arena-rep-theory-core-RESULTS.md` | `dim Hom(S+ (x) S+, Lambda^0) = 0`; `pi_3^s = Z/24` |
+| G7 | Order-3 equivariant rho | `canon/order3-equivariant-rho-RESULTS.md` | first nonzero order-3 spectral class in the program |
+| G8 | Boundary e-invariant on `RP^3`, tangential-vs-gauge fork | `canon/boundary-einvariant-and-the-tangential-fork.md` | unresolved fork on the spec's own fiber homotopy type |
+| G9 | Signed-readout boundary theorem; OC1/OC2 undischarged | `canon/signed-readout-boundary-theorem-RESULTS.md` | the analytic layer under Sec 2.2's "ends" row |
+| G10 | Antilinear index-nullity theorem | `canon/antilinear-bound-RESULTS.md` + `-nonkrein-` | operates on the 192 carrier |
+| G11 | Enum-completeness + KO ladder + two-primary lemma | `canon/enum-completeness-class-c-RESULTS.md`, `canon/ko-degree-obstruction-ladder-RESULTS.md`, `canon/two-primary-lemma.md` | the backing for Sec 9.3 |
+| G12 | Willmore section equation for `sigma` | `canon/schwarzschild-weak-field-rfail.md` | the section's own field equation; spec has the Gauss identity but not this |
+| G13 | Normal-bundle deflation `14 = 4 + 10` (H4b), Higgs `= ||F||^2` (H5), `Dirac^2 = Lichnerowicz` (H6) | `docs/NEXT-FRONTIER-HYPOTHESES.md` | unbuilt, in scope |
+| G14 | Lean certificate surface | `Lean/GUFormalization/*.lean` | spec cites w2 and 2-torsion without noting which are machine-checked |
+| G15 | Six-axis protocol is L1-L7 + Layer-0 | `canon/six-axis-specification-protocol.md` | how the spec's no-gos should be framed |
+
+## Reported contradictions NOT yet verified — do not act on these without checking
+
+The sweep reported five further contradictions. **Only the two above were verified by direct read; one of
+those turned out not to be a contradiction at all.** Given that hit rate, the remainder are logged as
+unverified leads, not findings.
+
+- **C3** — `Sp(32,32;H)` may not be settled: `canon/anchor-scale-graded-ig-algebra-RESULTS.md` reportedly
+  names an open real-form fork (`u(64,64)` vs centerless quaternionic `g_H`).
+- **C4** — ghost keep-and-grade `[P,S] = 0` reportedly near-closed **negative**
+  (`canon/ghost-parity-krein-synthesis.md` 2026-07-06 update; `canon/swing-ghost-parity-no-chiral-selection.md`).
+  If true this is material for Sec 7.6 and for the selector story.
+- **C5** — "families index 2-torsion 3-free" may be too strong; nonzero order-3 classes reported in the
+  equivariant/Nikulin sector.
+- **C6** — frame-triviality metatheorem reportedly **fails on the 192-dim carrier** while holding on 1792.
+- **C7** — `mu_DW` has no canon referent. **Verified and actioned in 1.1.**
+
+Each wants a direct read before it moves anything.

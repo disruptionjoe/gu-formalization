@@ -3,7 +3,7 @@ title: "Y14 / X4 systems spec sheet: substrate, projection, and section, specifi
 doc_type: orientation
 status: baseline
 created: 2026-08-09
-version: "1.0"
+version: "1.1"
 version_policy: |
   1.0 is the FROZEN BASELINE. It is not the best version of this document -- it is the first one, saved
   deliberately so later changes are diffable rather than silent.
@@ -213,6 +213,12 @@ A base metric on `X4` and a fiber metric-on-metrics (DeWitt/gimmel) on `Y14`, re
 **dimensionless ratios**; the magnitude is not determined (H24/H25: ratios geometric, magnitude free).
 `[MATH]`
 
+> **Provenance caveat (added 1.1).** `mu_DW` has **no entry anywhere in `canon/` or `CANON.md`.** The grade
+> above rests on `GEOMETER-VS-PHYSICS-OBJECTS.md` (the settled-fork table) plus
+> `papers/candidates/one-residual-complete-picture/` (H24/H25, with `C_RY` computed positive by two
+> independent methods). That is a real source chain but it is **not canon-grade**, and this row should be
+> read one tier below the canon-quoted rows around it.
+
 > Cleanest systems statement: **this system has logical time, not physical time.** Ratios are ordering
 > relations; the magnitude is the missing NTP. Do not expect the geometry to hand you `mu_DW` — it is not
 > underspecified in the documentation, it is underspecified in the object. `[ANALOGY]`
@@ -284,6 +290,15 @@ The gravitational action is `|II|^2`, the full second-fundamental-form norm of t
 1. `pi . sigma = id_X4` — the round-trip. `[MATH]`
 2. `dim ker Gamma = 1664` — structural for **any** signature; `Gamma` surjective since every `gamma^a` is invertible. `[MATH]`
 3. Krein signature on the generation sector `(+96, -96, 0)`, both chirality halves **totally null** (`~1.8e-14`). `[MATH]`
+
+   > **Read "totally null" correctly — this is a live homonym.** It means each 96-dim chirality half is a
+   > **totally isotropic subspace** (the form restricted to it vanishes), which is the ordinary maximal-isotropic
+   > structure of any balanced `(+n,-n)` form. It does **NOT** mean the form is degenerate and it does **NOT**
+   > mean there is a flat modulus or zero mode. The form is non-degenerate: spectrum `{+1 x96, -1 x96}`,
+   > `B^2 = I` (residual `5.2e-14`), **`ker(B) = 0`**, no zero eigenvalue
+   > (`canon/hessian-z3-carrier-occupancy-RESULTS.md`). That file explicitly calls the "flat modulus" reading a
+   > **category error** — a null *ray* of an indefinite form is not a modulus. Both statements are true of
+   > different objects; do not collapse them.
 4. Net chiral asymmetry `= 0` at representation-theory level, all signatures. `[MATH]`
 5. `w1(Y14) = 0`; `w2(Y14) = pi*w2(X4)`. `[MATH]`
 6. Ghost parity commutes with dynamics: `[P, S] = 0`. `[MATH]` **as a requirement**; not verified for the constructed action.
@@ -320,9 +335,22 @@ cannot read. `[MATH]`
 
 **9.4 The scale `mu_DW`.** Structurally free (Sec 4.2). Not a TODO — a property.
 
-**9.5 The APS/end condition.** The end **domain** is unique and forced (Sec 2.2), but the **index** question
-is open: on noncompact ends an APS eta/end term **can supply an unpaired chiral contribution**. The full
-function-space RS APS + family-index statement is not closed.
+**9.5 The model-to-true-bundle transfer.** *(CORRECTED in 1.1 — 1.0 stated this gap wrongly and too widely.)*
+
+1.0 said "the full function-space RS APS + family-index statement is not closed." **That is wrong.**
+`canon/function-space-index-conservation-residual-closure-RESULTS.md` is canon (promoted 2026-07-03) and
+**discharges all three residuals** — gap well-posedness, the APS/noncompact-end eta term, and the
+family-index/higher-topology term — at computed + independently re-verified grade, each by the same
+cross-chirality `sigma_1 (x) B` mechanism that carries the interior theorem.
+
+The residual that actually remains is narrower and should be named precisely: **model -> true-RS-Y14-bundle
+transfer.** The discharge is executed on faithful low-dimensional stand-in models (1D open-chain
+Krein-Dirac; class-generic random boundary operators; QWZ Chern-insulator family); the general-bundle
+statement is *standard APS + family-index machinery applied to the same structure*, **asserted-by-machinery,
+not re-derived on `Y14`**. Internal tier (caveat (e)).
+
+Net effect: the externality conclusion is **stronger** than 1.0 represented it, and its caveat is a transfer
+question rather than an open analytic hole.
 
 **9.6 The families pushforward — the single decider.** The pushforward over the **non-convex**
 `GL(4,R)/O(3,1)` fiber is unbuilt. This is the named single-decider computation, and it is why `-5376`
@@ -401,3 +429,27 @@ Known at freeze time and deferred to later versions:
 - the selector is typed as a missing function rather than a `Z2` parity per pair (register 14, S2) — MAJOR, lands in 2.0
 - `[ANALOGY]` content is not visually separated from `[MATH]` content (register 6, S1) — MINOR, lands in 1.1
 - no staleness/version contract with source files (register 8/17, S1) — MINOR, lands in 1.1
+
+### 1.1 — 2026-08-09 — coverage-sweep corrections
+Raised by a coverage sweep of the spec against all 57 `canon/` files. Three changes; one is a substantive
+correction to 1.0.
+
+- **Sec 9.5 CORRECTED (substantive).** 1.0 said "the full function-space RS APS + family-index statement is
+  not closed." That was **wrong**, and it cited a file in `follows:` that says the opposite.
+  `canon/function-space-index-conservation-residual-closure-RESULTS.md` (canon, 2026-07-03) **discharges all
+  three residuals** — gap well-posedness, APS/noncompact-end eta, and family index — at computed +
+  independently re-verified grade. The residual is retyped to the narrower and correct one: **model ->
+  true-RS-Y14-bundle transfer**, asserted-by-machinery rather than re-derived on `Y14`. The externality
+  conclusion is *stronger* than 1.0 represented it.
+- **Sec 7.3 clarified (homonym guard).** Added a note that "totally null" means **totally isotropic
+  subspace**, not a degenerate form and not a flat modulus. The sweep initially read this as a refuted
+  claim; on direct check of `canon/hessian-z3-carrier-occupancy-RESULTS.md` the two statements are about
+  different objects and both hold — the form is non-degenerate (`ker(B) = 0`, spectrum `{+1 x96, -1 x96}`,
+  `B^2 = I`) while each chirality half is isotropic, which is ordinary for a balanced `(+n,-n)` form. The
+  file's "category error" verdict targets the **flat modulus / zero mode** reading, which this spec does not
+  make. Note added so a later reader cannot slide from one to the other.
+- **Sec 4.2 provenance caveat.** `mu_DW` has no `canon/` entry; its grade rests on
+  `GEOMETER-VS-PHYSICS-OBJECTS.md` and `papers/candidates/`. Flagged as one tier below the rows around it.
+
+Coverage gaps found by the same sweep (16 in-scope canon results absent from this spec, plus five reported
+contradictions not yet verified) are filed in the companion issue register rather than folded here.
