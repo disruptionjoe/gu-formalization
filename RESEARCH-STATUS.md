@@ -8,20 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.110; seven
-distance/evidence migrations; headline unchanged).** A faithful local matrix
-model closes exact nonconstant, noncommuting three-patch connection descent;
-the affine `g^-1 dg` term is load-bearing, and recomputed curvature, `D_B T`,
-the raw source residual and its covariant derivative transport exactly. The
-primary source prints `Xi_omega=D_omega Upsilon_omega` and calls it redundant
-when `Upsilon_omega=0`, so `Xi` supplies no independent amplitude equation.
-A frozen homogeneous ansatz has two exact nonzero algebraic branches, but its
-extra assumption—not the source—selects their amplitudes. The actual moving
-selected-K77 `Phi`/Shiab/Hodge/density/observation port, complete primitive
-epsilon Euler/off-shell Ward factorization, branch survival and amplitude
-ownership remain open before tangent/Hessian/BV. No verdict, global residue,
-quotient, datum, canon or posture moves; selected Spin-native, two `U(32,32)`
-halves and full `U(64,64)` remain distinct.
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.111; seven
+distance/evidence migrations; headline unchanged).** Both exact nonzero
+algebraic branches survive the known local selected source-Euler pullback in
+`(g,varpi,epsilon)`. Exact interpolation covers every one of the 1,470
+low-grade connection directions. The source `varpi` Euler vanishes; all 91
+selected Spin primitive-epsilon bulk directions cancel after opposite `B/T`
+motion, moving Shiab and integration by parts; and all ten fixed-`varpi`
+metric directions vanish after the Levi-Civita and natural moving-coefficient
+packet is composed. The nonzero independent-`B` coefficient is retyped as
+live endpoint momentum, not erased. Amplitude ownership, global branch
+existence, action-parent choice, complete tangent, Hessian, BV and domain
+remain open. The known count 1,571 is not called complete. No verdict, global
+residue, quotient, datum, canon or posture moves; selected Spin-native, two
+`U(32,32)` halves and full `U(64,64)` remain distinct.
 
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
 distance/evidence migrations; headline unchanged).** The source-owned

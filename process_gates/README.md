@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_source_tangent_branch_stationarity_audit.py` enforces ledger
+  v0.111's exact source-coordinate pullback, both local branch survivals,
+  independent-`B` endpoint retyping, 1,571 completeness fence, distinct action
+  parents and amplitude/Hessian/BV/domain successor.
+
 - `selected_k77_nonconstant_atlas_xi_prolongation_audit.py` enforces ledger
   v0.110's exact nonconstant affine descent, source-confirmed Xi redundancy,
   two ansatz-selected algebraic witnesses, native-moving-geometry fences and

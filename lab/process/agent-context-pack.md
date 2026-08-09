@@ -9,15 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.110 nonconstant-atlas/Xi gate:** exact nonconstant,
-> noncommuting three-patch descent passes in a faithful local matrix model only
-> with the affine `g^-1 dg` connection term. The primary source confirms
-> `Xi=D_omega Upsilon` is redundant once `Upsilon=0`, so it is not an
-> independent amplitude selector. Two exact nonzero homogeneous frozen-frame
-> branches exist, but the ansatz—not GU—selects their amplitudes. Do not promote
-> this to the actual moving selected-K77 coefficient packet, global Y14,
-> amplitude prediction, Hessian or BV. Keep selected Spin-native, two
-> `U(32,32)` halves and full `U(64,64)` distinct. Ledger v0.110.
+> **Current v0.111 source-tangent branch gate:** both exact algebraic branches
+> survive the known local selected source-Euler pullback in
+> `(g,varpi,epsilon)`. All 1,470 low-grade `varpi`, 91 selected Spin epsilon
+> bulk and ten metric directions vanish after opposite `B/T` motion, moving
+> Shiab, variational integration by parts and the natural coefficient packet
+> are composed. The nonzero independent-`B` defect is not a bulk source
+> equation; preserve it as epsilon endpoint momentum. The amplitudes remain
+> ansatz-selected. Do not call the known count `10+1470+91=1571` a complete
+> tangent, and do not promote a Hessian/BV/domain or global Y14 vacuum. Keep
+> selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
+> Ledger v0.111.
 >
 > **Predecessor v0.107 metric-saddle gate:** the repaired branch
 > `B=Phi1/156`, `T=-Phi1/78` is connection-critical and raw-residual-zero but

@@ -102,11 +102,11 @@ current_refs = ["LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
                 "lab/process/agent-context-pack.md",
                 "lab/process/functional-channel-operating-contract-v1.0.md"]
 for relative in current_refs:
-    check(f"current pointer {relative}", "v0.110" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.110.json"))
+    check(f"current pointer {relative}", "v0.111" in read(relative))
+check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.111.json"))
 check("contract gate", contract["active_scientific_directives"][0]["next_gate"]
-      == registry["next_gate"])
-check("inventory", "(485 Python + 72 Sage)" in read("tests/README.md"))
+      == "CLASSIFY_BRANCH_AMPLITUDE_AS_MODULUS_BOUNDARY_CONDITION_OR_GLOBAL_OBSTRUCTION__DECIDE_ACTION_PARENT_AND_COMPLETE_TANGENT__ONLY_THEN_FULL_HESSIAN_BV_COMMON_DOMAIN")
+check("inventory", "(484 Python + 73 Sage)" in read("tests/README.md"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 nonconstant-atlas/Xi audit: "

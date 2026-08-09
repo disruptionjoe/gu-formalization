@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "BOTH_ALGEBRAIC_BRANCHES_LOCAL_SELECTED_SOURCE_STATIONARY__AMPLITUDE_AND_COMPLETE_PARENT_TANGENT_OPEN",
+  "ledger_version": "0.111",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_G_VARPI_EPSILON_TWO_CONNECTION_AND_XI_REDUNDANCY__SOURCE_SILENT_ALGEBRAIC_BRANCH_SOURCE_TANGENT_STATIONARITY_AND_TANGENT_COMPLETENESS",
+  "layer0": {
+    "source_coordinates": "(g,varpi,epsilon)",
+    "derived_coordinates": "B=B(epsilon), T=varpi-B",
+    "varpi_variation": "delta_B=0, delta_T=delta_varpi",
+    "epsilon_variation": "delta_B=D_B_eta, delta_T=-D_B_eta, Shiab_moves",
+    "metric_variation": "fixed_varpi_epsilon with delta_T=-delta_B_LC plus natural coefficient packet",
+    "independent_B_fixed_T": "RECONSTRUCTION_DIAGNOSTIC_NOT_SOURCE_BULK_EULER",
+    "epsilon_endpoint": "E_B-E_T is boundary momentum, not pointwise bulk equation"
+  },
+  "exact_result": {
+    "branches": [
+      {"t": "(-2+sqrt(3))/208", "b": "1/208-sqrt(3)/312"},
+      {"t": "(-2-sqrt(3))/208", "b": "1/208+sqrt(3)/312"}
+    ],
+    "connection_euler": {
+      "E_B": "312*t*(2*b+t)*Trace_Cl1",
+      "E_T": "(312*(b+t)^2+t)*Trace_Cl1",
+      "directions_checked": 1470,
+      "grade_two_identically_zero": 1274,
+      "rational_unisolvent_samples": 6
+    },
+    "branch_pullback": {
+      "varpi_euler": "ZERO_ALL_1470_KNOWN_LOW_GRADE_DIRECTIONS",
+      "independent_B_fixed_T": "NONZERO_BOTH_BRANCHES",
+      "primitive_epsilon_lower_order": "ZERO_ALL_91_SELECTED_SPIN_DIRECTIONS",
+      "primitive_epsilon_bulk_divergence": "ZERO_HOMOGENEOUS_INVARIANT_TRACE",
+      "primitive_epsilon_endpoint_momentum": "NONZERO",
+      "metric_levi_civita_chain": "ZERO_BY_GRADE1_GRADE2_ORTHOGONALITY",
+      "moving_coefficient_packet": "NATURAL_NO_NEW_OWNER",
+      "action_density": "ZERO_BOTH_BRANCHES",
+      "observation": "ZERO_COVECTOR_TRANSPORTS_TO_ZERO"
+    },
+    "known_source_coordinate_count": 1571,
+    "known_source_coordinate_breakdown": {"metric": 10, "varpi_low_grade": 1470, "epsilon_selected_spin": 91},
+    "tangent_completeness": false,
+    "amplitude_selected_by_source": false
+  },
+  "controls": {
+    "primary": "62/62 PASS",
+    "independent_sage": "21/21 PASS",
+    "independent_B_failure": "FIRED_BOTH_BRANCHES",
+    "endpoint_erasure": "REJECTED",
+    "1571_as_complete_tangent": "REJECTED",
+    "amplitude_prediction": "REJECTED",
+    "P1_P2_P3_unused": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_PARENT_USED",
+    "two_U32_32_halves": "RETAINED_UNTESTED_COMPARATOR",
+    "full_U64_64": "RETAINED_UNTESTED_COMPARATOR",
+    "collapsed": false
+  },
+  "next_gate": "CLASSIFY_BRANCH_AMPLITUDE_AS_MODULUS_BOUNDARY_CONDITION_OR_GLOBAL_OBSTRUCTION__DECIDE_ACTION_PARENT_AND_COMPLETE_TANGENT__ONLY_THEN_FULL_HESSIAN_BV_COMMON_DOMAIN"
+}

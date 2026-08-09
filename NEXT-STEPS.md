@@ -7,18 +7,18 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
-> **2026-08-09 NONCONSTANT ATLAS / XI PROLONGATION (ledger v0.110).** Exact
-> nonconstant, noncommuting three-patch descent passes only with the affine
-> `g^-1 dg` connection term; curvature, `D_B T`, the source residual and its
-> covariant derivative transport exactly. The primary source confirms
-> `Xi_omega=D_omega Upsilon_omega` is redundant once `Upsilon_omega=0`, so it
-> cannot select the remaining amplitude independently. A homogeneous
-> frozen-frame ansatz has two exact nonzero algebraic branches, but those
-> amplitudes are ansatz-selected, not GU predictions. Next port both branches
-> to the actual moving selected-K77 `Phi`/Shiab/Hodge/density/observation
-> packet and derive the complete primitive-epsilon Euler/off-shell Ward
-> factorization. Only then resume the 321-versus-1,571 tangent, Hessian and BV.
-> Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
+> **2026-08-09 SOURCE-TANGENT BRANCH STATIONARITY (ledger v0.111).** Both
+> exact nonzero algebraic branches survive the known local selected source-
+> Euler pullback in `(g,varpi,epsilon)`. All 1,470 low-grade `varpi`
+> directions, 91 selected Spin epsilon bulk directions and ten metric
+> directions vanish after opposite `B/T` motion, moving Shiab, integration by
+> parts and the natural moving coefficient packet are composed. The nonzero
+> independent-`B` defect is not a source bulk equation; it remains live as
+> epsilon endpoint momentum. The amplitudes are still ansatz-selected. Next
+> classify them as modulus, boundary condition or global obstruction, and
+> independently decide the action parent and complete tangent before any full
+> Hessian/BV/domain build. Do not call 1,571 complete. Keep selected Spin-
+> native, two `U(32,32)` halves and full `U(64,64)` distinct.
 
 > **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**
 > On the conditionally selected Spin-native K77 parent, the source-owned

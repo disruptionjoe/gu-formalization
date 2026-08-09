@@ -7,15 +7,17 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.110. Exact nonconstant affine
-three-patch descent passes in a faithful local matrix model with the
-load-bearing `g^-1 dg` term. Source reinspection confirms
-`Xi=D_omega Upsilon` is redundant rather than an independent amplitude
-selector. Two exact nonzero homogeneous frozen-frame branches are construction
-witnesses, not GU-derived magnitudes. Next port them to the actual moving K77
-coefficient/observation packet and derive the complete primitive-epsilon
-Euler/off-shell Ward factorization before tangent/Hessian/BV. Registry:
-`selected-k77-nonconstant-atlas-xi-prolongation.json`.
+Current append-only progress surface: ledger v0.111. Both exact algebraic
+branches survive the known local selected source-Euler pullback in
+`(g,varpi,epsilon)`. The 1,470 low-grade `varpi`, 91 selected Spin epsilon
+bulk and ten metric directions vanish after the moving packet and variational
+adjoint are composed. The nonzero independent-`B` defect remains live as
+epsilon endpoint momentum. Amplitudes, global branch class, action parent,
+complete tangent, Hessian, BV and domain remain open; 1,571 is not complete.
+Registry: `selected-k77-source-tangent-branch-stationarity.json`.
+
+Predecessor progress surface: ledger v0.110. Nonconstant affine descent and
+source Xi redundancy close and supply the two algebraic branches.
 
 Predecessor progress surface: ledger v0.107. The repaired common connection
 branch exposed the exact rank-one direct metric trace demand.

@@ -7,16 +7,27 @@ updated_at: "2026-08-09"
 
 # Explorations
 
-## K77 nonconstant atlas and Xi prolongation (2026-08-09)
+## K77 source-tangent branch stationarity (2026-08-09)
+
+`conditional-build/selected-k77-source-tangent-branch-stationarity-2026-08-09.md`
+proves both algebraic branches survive the known local selected source-Euler
+pullback in `(g,varpi,epsilon)`. The independent-`B` defect is retyped as live
+epsilon endpoint momentum rather than a source bulk failure. All 1,470 known
+low-grade `varpi`, 91 selected Spin epsilon bulk and ten metric directions
+close at this local grade. Ledger v0.111 routes next to amplitude/boundary/global
+classification and independent action-parent/tangent selection before a full
+Hessian/BV/domain build. The amplitudes remain ansatz-selected; 1,571 is not a
+complete tangent theorem; all three action parents remain distinct.
+
+## K77 nonconstant atlas and Xi prolongation (2026-08-09; predecessor)
 
 `conditional-build/selected-k77-nonconstant-atlas-xi-prolongation-2026-08-09.md`
 closes exact nonconstant affine three-patch descent in a faithful local matrix
 model and proves the connection's `g^-1 dg` term is load-bearing. Source
 reinspection confirms `Xi=D_omega Upsilon` is redundant, not an independent
 amplitude selector. Two exact nonzero homogeneous frozen-frame branches are
-construction witnesses, not GU-derived magnitudes. Ledger v0.110 routes next
-to the actual moving selected-K77 coefficient/observation packet and complete
-primitive-epsilon Euler/off-shell Ward factorization before tangent/Hessian/BV.
+construction witnesses, not GU-derived magnitudes. Ledger v0.110 supplied the
+branches composed by the v0.111 source-tangent gate.
 
 ## K77 direct metric Euler trace demand (2026-08-09; predecessor)
 
