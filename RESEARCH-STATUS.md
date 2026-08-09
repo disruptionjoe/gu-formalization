@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.123; six
+distance/evidence migrations; headline unchanged).** The complete selected-
+Spin primitive-epsilon first-action block has full/horizontal/off-slice ranks
+`91/6/88` on both exact branches and all causal representatives. The lower
+Cartan and every moving-Phi/Shiab correction are coefficientwise zero, so the
+selected `321` tangent is not Hessian-closed. This is not a parent-wide no-go:
+the two-`U(32,32)`-half and full-`U(64,64)` parents, an expanded tangent and a
+source/action-owned equation quotient remain open. A mandatory process gate
+now precedes further heavy exact work: extract a durable versioned K77 carrier
+and coefficient-bank API with hashes, stale-cache rejection and bounded
+equivalence replay. No verdict, residue, quotient, datum, canon or posture
+moves; P1/P2/P3 remain unused.
+
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.122; six
 distance/evidence migrations; headline unchanged).** The fixed-operator
 first-action metric/epsilon response has the same exact rank pattern for all

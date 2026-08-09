@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_moving_epsilon_first_action_completion_audit.py` enforces
+  ledger v0.123's exact zero lower-Cartan and moving-Phi/Shiab corrections,
+  surviving `91/6/88` epsilon ranks, selected-Spin 321 closure kill, broader-
+  parent and quotient fences, unchanged accounting, and mandatory durable
+  exact-bank successor before another heavy Hessian extension.
+
 - `selected_k77_fixed_operator_metric_epsilon_leakage_audit.py` enforces
   ledger v0.122's all-causal/both-branch fixed-operator rank pattern, the
   horizontal/off-slice split, total-moving-source fence, unchanged accounting

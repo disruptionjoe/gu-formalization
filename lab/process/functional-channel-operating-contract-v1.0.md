@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.122.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.122.md`.
+`lab/process/conditional-physics-ledger-v0.123.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.123.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,7 +502,22 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.122 construction frontier
+### Current v0.123 construction frontier
+
+v0.123 completes the selected-Spin primitive-epsilon first-action block. The
+lower Cartan term and every moving-Phi/Shiab derivative vanish
+coefficientwise against all 1,274 grade-two receivers for all 91 epsilon
+inputs, on both branches and all causal representatives. The total ranks stay
+`91/6/88` (full/horizontal/off-slice), killing selected-Spin 321 Hessian
+closure without promoting 1,571 or deciding the two-half/full-unitary parents.
+Before another heavy Hessian extension, Build must extract a durable,
+versioned exact K77 carrier/coefficient-bank API with source-revision and
+construction hashes, stale-cache rejection, bounded equivalence replay and no
+recursive full predecessor rebuild. Then complete the metric source Hessian
+and decide expanded tangent versus an action-owned equation quotient. No
+datum, verdict, residue or quotient moves.
+
+### Predecessor v0.122 construction frontier
 
 v0.122 computes the fixed-operator first-action response from all ten metric
 and 91 epsilon source directions into every 1,274 grade-two equation covector.

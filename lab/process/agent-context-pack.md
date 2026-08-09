@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
+> **Current v0.123 moving-epsilon gate and mandatory process repair:** every
+> lower-Cartan and differentiated moving-Phi/Shiab contribution to the
+> primitive-epsilon/grade-two first-action block is coefficientwise zero on
+> both exact branches and all causal representatives. The total block retains
+> full/horizontal/off-slice ranks `91/6/88`; selected-Spin 321 closure is
+> killed. Do not promote 1,571 or port to the two-`U(32,32)`-half/full-
+> `U(64,64)` parents. **The next Run must first create a durable versioned
+> exact K77 carrier/coefficient-bank API with source-revision and construction
+> hashes, stale-cache rejection, bounded equivalence replay and no recursive
+> full predecessor rebuild.** Only then complete the metric source Hessian and
+> choose expanded tangent versus an action-owned equation quotient.
+> P1/P2/P3 remain unused.
+
 > **Current v0.122 fixed-operator metric/epsilon gate:** on timelike,
 > spacelike and null representatives and both exact branches, the frozen
 > first-action response from metric 10 plus epsilon 91 has full ranks

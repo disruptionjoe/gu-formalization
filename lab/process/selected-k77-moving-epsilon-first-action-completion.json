@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_construction_result",
+  "created": "2026-08-09",
+  "status": "SELECTED_SPIN_321_EPSILON_CLOSURE_KILLED__EXPANDED_TANGENT_OR_SOURCE_DERIVED_EQUATION_QUOTIENT_REQUIRED",
+  "scope": {
+    "action": "SOURCE_SHAPED_FIRST_TRANSGRESSION_ACTION",
+    "parent": "CONDITIONALLY_SELECTED_REAL_SPIN77_LOW_GRADE_PARENT",
+    "source_direction": "PRIMITIVE_EPSILON_91",
+    "equation_receiver": "GRADE2_1274_EQUALS_HORIZONTAL24_PLUS_OFFSLICE1250",
+    "backgrounds": "TWO_EXACT_QQ_SQRT3_STATIONARY_BRANCHES",
+    "causal_representatives": ["timelike", "spacelike", "null"]
+  },
+  "layer0": {
+    "fixed_principal": "Q_ETA_PART_OF_DB_ETA_WITH_SHIAB_FROZEN",
+    "lower_cartan": "BRACKET_B_ETA_PART_OF_DB_ETA",
+    "moving_shiab": "DERIVATIVE_OF_EVERY_PHI_EPSILON_DEPENDENT_SHIAB_OCCURRENCE_IN_E_T",
+    "receiver_transport": "ZERO_ON_SELECTED_SPIN_GRADE2_AT_STATIONARY_FIRST_VARIATION",
+    "kept_distinct": [
+      "PRIMITIVE_EPSILON_SOURCE_DIRECTION",
+      "DIAGONAL_GAUGE_CHARACTERISTIC_DIRECTION",
+      "UNRESTRICTED_BOUNDARY_CHARGE",
+      "TEN_METRIC_MOVING_COMPLETION",
+      "RAW_RESIDUAL_WARD_DERIVATIVE",
+      "RESIDUAL_SQUARE_ACTION_HESSIAN"
+    ]
+  },
+  "exact_result": {
+    "fixed_principal_ranks": {"full": 91, "horizontal": 6, "offslice": 88},
+    "lower_cartan_ranks": {"full": 0, "horizontal": 0, "offslice": 0},
+    "moving_shiab_ranks": {"full": 0, "horizontal": 0, "offslice": 0},
+    "total_ranks": {"full": 91, "horizontal": 6, "offslice": 88},
+    "coefficientwise_total_equals_fixed": true,
+    "nonzero_counts": {
+      "timelike": {"full": 403, "offslice": 385},
+      "spacelike": {"full": 403, "offslice": 385},
+      "null": {"full": 806, "offslice": 770}
+    },
+    "branch_dependence": "NONE_IN_SUPPORT_RANK_OR_COEFFICIENTWISE_CORRECTION_VANISHING",
+    "consequence": "METRIC_SOURCE_COLUMNS_CANNOT_CANCEL_DISTINCT_EPSILON_SOURCE_COLUMNS__THE_321_TRUNCATION_IS_NOT_HESSIAN_CLOSED_ON_THIS_PARENT"
+  },
+  "prior_art_composition": {
+    "v0.66": "FINITE_TOY_MIXED_HESSIAN_ONLY",
+    "v0.67": "TEN_METRIC_GEOMETRY_BANK_ONLY",
+    "v0.94_v0.97": "RAW_RESIDUAL_NATURALITY_NOT_FIRST_ACTION_HESSIAN",
+    "v0.106": "OUTER_MOVING_SHIAB_TERM_LIVE_ON_GRADE1_AND_ZERO_ON_GRADE2",
+    "v0.122": "FIXED_PRINCIPAL_EPSILON_OFFSLICE_RANK88",
+    "new": "LOWER_CARTAN_AND_SECOND_MOVING_SHIAB_GRADE2_TERMS_ALSO_ZERO"
+  },
+  "source_return": "SOURCE_CONFIRMS_MOVING_PHI_SHIAB_AND_DB_ETA_GRAMMAR__SOURCE_SILENT_COMPLETE_FIRST_ACTION_EPSILON_HESSIAN_AND_321_TRUNCATION",
+  "accounting": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "parent_fence": {
+    "selected_spin77": "DECIDED_AS_STATED",
+    "two_U32_32_halves": "NOT_PORTED",
+    "full_U64_64": "NOT_PORTED"
+  },
+  "validation": {
+    "primary": "tests/channel-swings/selected_k77_moving_epsilon_first_action_completion_probe.py",
+    "primary_result": "399/399_PASS",
+    "independent": "tests/channel-swings/selected_k77_moving_epsilon_first_action_completion_independent.sage",
+    "independent_result": "6/6_STRUCTURAL_IDENTITIES__695604_EXACT_SCALAR_CHECKS_PASS",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-moving-epsilon-first-action-completion-review.md"
+  },
+  "mandatory_successor_process_gate": {
+    "name": "DURABLE_VERSIONED_EXACT_K77_COEFFICIENT_BANK_API",
+    "requirements": [
+      "SOURCE_REVISION_HASH",
+      "CONSTRUCTION_HASH",
+      "STALE_CACHE_REJECTION",
+      "BOUNDED_EQUIVALENCE_REPLAY",
+      "NO_RECURSIVE_FULL_PREDECESSOR_REBUILD"
+    ],
+    "priority": "BEFORE_NEXT_HEAVY_HESSIAN_EXTENSION"
+  },
+  "next_scientific_gate": "AFTER_PROCESS_GATE__COMPLETE_TEN_METRIC_SOURCE_HESSIAN__THEN_EXPAND_TANGENT_OR_DERIVE_EQUATION_QUOTIENT_WITHOUT_PROMOTING_1571_AUTOMATICALLY",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

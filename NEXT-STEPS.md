@@ -7,6 +7,20 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 MOVING-EPSILON FIRST-ACTION COMPLETION (ledger v0.123).**
+> The omitted lower Cartan term and every differentiated moving-Phi/Shiab
+> occurrence vanish coefficientwise against all 1,274 grade-two receivers for
+> all 91 primitive epsilon inputs, on both exact branches and all three causal
+> representatives. The total epsilon block therefore retains ranks `91/6/88`
+> (full/horizontal/off-slice), so the selected-Spin `321` truncation is not
+> Hessian-closed. This does not promote `1,571`, select an equation quotient,
+> or port to the two-`U(32,32)`-half or full-`U(64,64)` parents. **Before the
+> next heavy Hessian extension, build the mandatory durable, versioned exact
+> K77 coefficient-bank API with source/construction hashes, stale-cache
+> rejection and bounded equivalence replay.** Then complete the ten metric
+> source Hessian and decide expanded tangent versus an action-owned equation
+> quotient. P1/P2/P3 remain unused.
+
 > **2026-08-09 FIXED-OPERATOR METRIC/EPSILON LEAKAGE (ledger v0.122).**
 > Across timelike, spacelike and null representatives and both exact K77
 > branches, the frozen-Hodge/Phi/Shiab/frame/observation response from metric

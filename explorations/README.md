@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 moving-epsilon first-action completion (2026-08-09)
+
+`conditional-build/selected-k77-moving-epsilon-first-action-completion-2026-08-09.md`
+adds the lower Cartan and every moving-Phi/Shiab derivative to the primitive-
+epsilon first-action block. All corrections vanish against the 1,274 grade-two
+receivers, leaving exact full/horizontal/off-slice ranks `91/6/88`. Ledger
+v0.123 kills selected-Spin 321 Hessian closure only and requires an expanded
+tangent or action-owned equation quotient. Before another heavy Hessian wave,
+the successor must extract a durable versioned exact K77 coefficient-bank API.
+
 ## K77 fixed-operator metric/epsilon leakage (2026-08-09)
 
 `conditional-build/selected-k77-fixed-operator-metric-epsilon-leakage-2026-08-09.md`

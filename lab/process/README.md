@@ -7,7 +7,16 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.122. The fixed-operator
+Current append-only progress surface: ledger v0.123. The complete selected-
+Spin primitive-epsilon first-action block retains full/horizontal/off-slice
+ranks `91/6/88`: every lower-Cartan and moving-Phi/Shiab grade-two correction
+vanishes. The selected 321 tangent is therefore not Hessian-closed, while an
+expanded tangent or action-owned equation quotient and both broader parents
+remain open. The mandatory successor is the durable versioned exact K77
+coefficient-bank API before another heavy Hessian extension. Registry:
+`selected-k77-moving-epsilon-first-action-completion.json`.
+
+Predecessor v0.122. The fixed-operator
 metric/epsilon first-action response has common off-slice ranks `4/88/89` on
 all causal representatives and both exact branches. This kills frozen
 operator closure, not the total moving 321-field construction; the moving

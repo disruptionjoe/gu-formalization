@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_moving_epsilon_first_action_completion_probe.py`
+  composes the principal, lower-Cartan and every moving-Phi/Shiab primitive-
+  epsilon contribution against all 1,274 grade-two receivers, for all 91
+  generators, both exact branches and three causal representatives.
+- `channel-swings/selected_k77_moving_epsilon_first_action_completion_independent.sage`
+  independently verifies six grade-two vanishing identities with 695,604
+  exact scalar checks.
+
 - `channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_probe.py`
   computes the exact fixed-operator metric/epsilon first-action response into
   every grade-two equation covector on three causal representatives and both
