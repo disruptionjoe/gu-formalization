@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.142; six
+distance-only migrations; headline unchanged).** The local dynamic VEV stress
+was already built in v0.108--v0.114. Exact composition now shows that the
+existing curvature/distortion family cancels the rank-one metric-volume trace,
+while its corrected source-Euler Jacobian has rank two on three invariant
+values and leaves one amplitude. Zero-fermion current adds no equation; the
+full-rank pointwise Hessian acts on a different tangent; and built classical
+symplectic/BFV data are amplitude-blind. Primary Build is now a global
+normalized observer/source functional or explicitly typed external normalizer
+plus the common bulk Green/Krein and coupled BV--BFV domain. Observed Hilbert
+stress, screening and cosmology follow only after that. No verdict, residue,
+quotient, datum or public posture moves.
+
+**Priority correction:** v0.141's instruction below to construct the local VEV
+stress is superseded; its zero-fermion current-order theorem remains exact.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.141; four
 distance-only migrations; headline unchanged).** The frozen no-bridge
 `J_D+J_F` architecture has now been composed with the zero-fermion bosonic

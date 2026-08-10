@@ -7,6 +7,24 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 ZERO-FERMION VEV SELECTOR EXHAUSTION (ledger v0.142).**
+> The previous rank-one instruction was stale: v0.108--v0.114 already built
+> and hostile-reviewed an action-owned curvature/distortion family whose two
+> densities cancel the local ten-component metric-volume trace exactly. The
+> corrected source Euler system has rank two on three invariant values and
+> leaves one amplitude. Zero-fermion current adds no equation; the full-rank
+> pointwise connection Hessian acts on a different tangent; and the existing
+> classical symplectic/BFV structures are amplitude-blind. **Next construct a
+> global normalized observer/source functional or explicitly typed external
+> normalizer plus the common bulk Green/Krein and coupled BV--BFV domain.**
+> Then test observation Hilbert stress, vacuum-shift screening and cosmology.
+> Keep the nonzero-fermion source-operator branch separate. This is not a
+> global or quantum no-selector theorem. P1/P2/P3 remain unused.
+>
+> **Superseded priority:** the v0.141 instruction immediately below to
+> construct local VEV stress is discharged by this composition; retain its
+> zero-fermion derivative-order theorem.
+
 > **2026-08-10 ZERO-FERMION COUPLED HESSIAN / CURRENT-ORDER GATE
 > (ledger v0.141).** For every even action `S_B(b)+zbar D(b)z`, the
 > action-emitted `J_D+J_F` current and both one-boson/one-fermion Hessian

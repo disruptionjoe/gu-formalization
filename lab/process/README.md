@@ -7,14 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.141. The no-bridge `J_D+J_F`
-current and both one-boson/one-fermion Hessian blocks vanish at zero fermion;
-the fermion Hessian remains live and the current vertex begins at cubic order.
-The rank-one metric trace therefore survives unchanged. Primary Build advances
-the zero-fermion dynamic VEV/Hilbert-stress and bosonic BV problem, while the
-source-selected operator and nonzero-fermion stationary branch remain a
-separate Build. No verdict, residue, quotient or datum moves. Registry:
-`selected-k77-zero-fermion-coupled-hessian-current-order.json`.
+Current append-only progress surface: ledger v0.142. Prior-art composition
+shows that the local action-owned curvature/distortion family already cancels
+the rank-one metric-volume trace, while its corrected source-Euler Jacobian
+leaves one amplitude. Zero-fermion current, the pointwise parent Hessian and
+built classical symplectic/BFV structures add no independent amplitude
+equation. Primary Build now owns a global normalized functional or explicitly
+typed external normalizer plus the common bulk Green/Krein and coupled BV--BFV
+domain. No verdict, residue, quotient or datum moves. Registry:
+`selected-k77-zero-fermion-vev-selector-exhaustion.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

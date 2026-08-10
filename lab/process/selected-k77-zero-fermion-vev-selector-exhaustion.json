@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "status": "LOCAL_TRACE_ALREADY_CLOSED__ONE_AMPLITUDE_REMAINS__BUILT_LOCAL_CLASSICAL_SELECTORS_EXHAUSTED",
+  "ledger_version": "0.142",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_DYNAMIC_DISTORTION_CARRIER_AND_TWO_TO_ONE_GOAL__SOURCE_SILENT_NORMALIZER_GLOBAL_FUNCTIONAL_QUANTUM_MEASURE_AND_EXTERNAL_DATUM",
+  "layer0": {
+    "trace_cancellation": "LOCAL_SELECTED_GIMMEL_VOLUME_COVECTOR_NOT_OBSERVED_EINSTEIN_EQUATION",
+    "amplitude_tangent": "SOURCE_EULER_CURVATURE_FIRST_JET_FAMILY_NOT_POINTWISE_ZERO_JET_CONNECTION_COEFFICIENT",
+    "hessian": "FULL_RANK_POINTWISE_CONNECTION_HESSIAN_NOT_FUNCTIONAL_BV_OR_AMPLITUDE_JACOBIAN",
+    "symplectic": "CLASSICAL_REAL_SYMPLECTOMORPHISM_NOT_ACTION_OR_QUANTUM_MEASURE_EQUIVALENCE",
+    "two_to_one": "ONE_COMMON_FIELD_AMPLITUDE_NOT_FIRST_PRINCIPLES_MAGNITUDE_OR_SCREENING",
+    "normalizer": "GLOBAL_SOURCE_ACTION_QUANTUM_OR_EXPLICIT_EXTERNAL_OBJECT_NOT_ANOTHER_SYMMETRY_CONDITION"
+  },
+  "exact_result": {
+    "source_equations": [
+      "312(f+u+t^2)+t=0",
+      "624(f+u/2+t^2/3)+t=0"
+    ],
+    "source_equation_rank": 2,
+    "fu_minor_determinant": -97344,
+    "family": {
+      "f": "t^2/3",
+      "u": "-t/312-4t^2/3",
+      "tangent": ["2t/3", "-1/312-8t/3", "1"],
+      "local_amplitude_dimension": 1
+    },
+    "v0108_representative": {
+      "t": "-1/104",
+      "f": "1/32448",
+      "u": "-1/10816",
+      "status": "EXACT_MEMBER_NOT_UNIQUE_SOURCE_VACUUM"
+    },
+    "trace": {
+      "original_rank": 1,
+      "noncurvature_density": "7/21632",
+      "curvature_density": "-7/21632",
+      "total_density": "0",
+      "zero_components": 10,
+      "new_action_coefficients": 0
+    },
+    "selector_composition": {
+      "zero_fermion_current_rank": 0,
+      "pointwise_parent_hessian_radical": 0,
+      "pointwise_hessian_types_amplitude_tangent": false,
+      "classical_branch_symplectomorphism": true,
+      "classical_bfv_selects_branch_or_amplitude": false,
+      "planted_third_equation_rank": 3
+    }
+  },
+  "scope": {
+    "decides": "THE_ALREADY_BUILT_LOCAL_CLASSICAL_SELECTOR_LIST_SUPPLIES_NO_THIRD_INDEPENDENT_AMPLITUDE_EQUATION",
+    "does_not_decide": [
+      "EVERY_POSSIBLE_LOCAL_ACTION_TERM",
+      "GLOBAL_NORMALIZED_FUNCTIONAL",
+      "COMMON_BULK_BOUNDARY_BV_BFV_DOMAIN",
+      "QUANTUM_CONTOUR_MEASURE_OR_DETERMINANT",
+      "EXPLICIT_EXTERNAL_NORMALIZER",
+      "OBSERVED_DARK_ENERGY_MAGNITUDE_OR_SCREENING"
+    ]
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_PARENT_RETAINED",
+    "two_U32_32_halves": "RETAINED_COMPARATOR",
+    "full_U64_64": "SOURCE_FULL_PARENT_RETAINED",
+    "collapsed": false
+  },
+  "controls": {
+    "primary": "37/37 PASS",
+    "independent_equation_plant": "FIRED_RANK3",
+    "prior_receipts_reused": 6,
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED"
+  },
+  "next_gate": "GLOBAL_NORMALIZED_OBSERVER_SOURCE_FUNCTIONAL_OR_EXPLICIT_EXTERNAL_NORMALIZER__COMMON_BULK_GREEN_KREIN_AND_COUPLED_BV_BFV_DOMAIN__THEN_OBSERVED_HILBERT_STRESS_SCREENING_AND_COSMOLOGY"
+}

@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.142 zero-fermion VEV selector fence:** the local action-owned
+> curvature/distortion family already cancels the rank-one metric-volume trace.
+> Its corrected source-Euler Jacobian has rank two on three invariant values,
+> leaving one amplitude with tangent `(2t/3,-1/312-8t/3,1)`. Zero-fermion
+> current adds no equation; the pointwise parent Hessian is a different
+> zero-jet tangent; and built classical symplectic/BFV structures are
+> amplitude-blind. Never inflate this to observed Einstein recovery, global
+> no-selector, magnitude derivation or screening. Build next a global
+> normalized observer/source functional or explicitly typed external normalizer
+> and the common bulk Green/Krein plus coupled BV--BFV domain. P1/P2/P3 remain
+> unused.
+>
+> **Superseded priority:** v0.141's local-VEV-stress Build instruction below is
+> discharged by prior-art composition; retain only its derivative-order fence.
+
 > **Current v0.141 zero-fermion current-order fence:** for an even action
 > `S_B+zbar D(b)z`, `J_D+J_F` and both one-boson/one-fermion Hessian blocks
 > vanish at zero fermion. The fermion Hessian is still `D`; the current vertex

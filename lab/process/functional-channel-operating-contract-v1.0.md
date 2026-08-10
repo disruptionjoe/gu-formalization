@@ -24,15 +24,26 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.141.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.141.md`.
+`lab/process/conditional-physics-ledger-v0.142.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.142.md`.
+
+Current selector correction: the local action-owned curvature/distortion
+family already cancels the rank-one metric-volume trace. Its corrected source
+Euler Jacobian has rank two on three invariant values, leaving one amplitude.
+Zero-fermion current, the pointwise parent Hessian, and built classical
+symplectic/BFV structures supply no third equation. Build now owns a global
+normalized observer/source functional or explicitly typed external normalizer
+plus the common bulk Green/Krein and coupled BV--BFV domain. This is not a
+global no-selector, observed magnitude, or screening theorem.
 
 Current coupled-functional fence: for every even action
 `S_B(b)+zbar D(b)z`, the action-emitted current and both mixed
 one-boson/one-fermion Hessian blocks vanish at zero fermion. The fermion
 Hessian remains live and the current vertex begins at cubic order. This does
-not select `D`, a carrier, domain or BV quotient. It makes zero-fermion
-dynamic VEV/Hilbert-stress/BV the primary Build and the nonzero-fermion
+not select `D`, a carrier, domain or BV quotient. v0.142 preserves that
+derivative-order theorem but supersedes its local-VEV priority: prior-art
+composition already closes the local trace. Global normalization/domain is
+the primary Build and the nonzero-fermion
 source-operator/stationarity problem a separate Build.
 
 Current high-fanout premise correction: exact fixed-`W` theorems remain valid

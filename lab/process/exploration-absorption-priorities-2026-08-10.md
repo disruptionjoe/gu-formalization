@@ -9,6 +9,17 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.142 corrects the current priority by composing, rather than
+rebuilding, v0.108--v0.114. The local curvature/distortion family already
+cancels the rank-one metric-volume trace. Its corrected source-Euler Jacobian
+has rank two on three invariant values and leaves one amplitude. Zero-fermion
+current, the pointwise parent Hessian and built classical symplectic/BFV
+structures add no independent amplitude equation. Primary Build therefore
+moves to a global normalized observer/source functional or explicitly typed
+external normalizer plus the common bulk Green/Krein and coupled BV--BFV
+domain. v0.141's local-VEV-stress instruction is superseded; its derivative-
+order theorem remains exact.
+
 The 2026-08-09 explorations contain one high-fan-out correction and several
 useful leads. The program will absorb the correction without opening a new
 lane. The fixed `192`-carrier results remain conditional. Ledger v0.137 closes
@@ -67,10 +78,12 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — zero-fermion dynamic VEV/Hilbert stress and bosonic BV.**
-   Current cannot alter the quadratic zero-background problem. Construct the
-   action-owned negative rank-one stress, its Noether identity and bosonic BV
-   quotient without waiting for the unsettled fermion carrier.
+1. **Build A — global VEV normalizer and common bosonic BV--BFV domain.**
+   The local action-owned trace cancellation is already exact and leaves one
+   amplitude. Construct a global normalized observer/source functional or
+   explicitly typed external normalizer, the common Green/Krein domain and
+   coupled bulk--boundary BV--BFV complex. Then test observed Hilbert stress,
+   vacuum-shift screening and cosmology. Do not rebuild local VEV stress.
 2. **Build B — nonzero-fermion source-operator branch.** Select the complete
    source-family K77 Dirac/RS operator, solve a stationary nonzero spinor, and
    only then compute the live current, mixed Hessian and Krein/Green domain.
