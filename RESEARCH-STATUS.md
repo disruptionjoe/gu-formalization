@@ -8,16 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.129; six
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.130; six
+distance-only migrations; headline unchanged).** The epsilon-transported
+rank-`8,128` Spin projector, noncommuting cocycle and recomputed first-order
+Euler operator descend exactly on all `16,384` coefficient directions. Thus
+both moving Spin total `113,893` and full-U total `229,477` globalize. Source
+full `U(64,64)` `P_H` splits under the moving two-half reduction into `8,192`
+block-connection plus `8,192` bifundamental/coset directions; ordinary
+observation value pullback selects neither parent. Next derive action ownership
+of the moving projector or compatible reduced connection, including its first
+variation and complement Euler equation. No quotient, domain, spectrum or
+physics result is claimed; P1/P2/P3 are unused.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.129; six
 distance-only migrations; headline unchanged).** Exact complete enumeration
 shows grades `1+2+5` are not first-order Euler closed. The minimum closure made
 from complete Clifford grades is the `B`-adjoint-skew Spin sector, with total
 tangent `113,893`. Either advertised unitary covariance completes the field
 carrier to total tangent `229,477`, but the two-`U(32,32)` and full-`U(64,64)`
 parents retain different symmetry and pairing-coordinate burdens and remain
-unselected. Next globalize both carrier horns and test moving-epsilon
-equivariance plus observation reduction. No quotient, domain, spectrum or
-physics result is claimed; P1/P2/P3 are unused.
+unselected. The fixed-frame scope is retyped by v0.130's moving-projector
+successor. No quotient, domain, spectrum or physics result is claimed;
+P1/P2/P3 are unused.
 
 **Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.128; six
 distance-only migrations; headline unchanged).** The source-owned

@@ -30,6 +30,19 @@ updated_at: "2026-08-10"
 > **Also retracted this session** (do not cite): the `24 sqrt(2)` frame-charge
 > reading, the `mu`-asymmetry as an anomaly, and "domain unique and forced".
 
+> **2026-08-10 MOVING-PARENT BUNDLE / TWO-HALF REDUCTION (ledger v0.130).**
+> v0.129's full-carrier force is fixed-frame only. Transporting the rank-`8,128`
+> projector with the source-owned epsilon frame gives exact noncommuting cocycle
+> descent and Euler covariance on all `16,384` directions. Both moving Spin
+> total `113,893` and full-U total `229,477` globalize. The two `C^(32,32)`
+> halves are a moving `8,192+8,192` block/coset reduction inside source full
+> `U(64,64)` `P_H`, not automatically a second principal connection. Ordinary
+> observation value pullback gives totals `32,613/65,637` but selects neither
+> internal parent. **Next derive whether the selected action owns
+> `P_epsilon u=u` and/or `D_varpi chi_epsilon=0`, including projector variation
+> and the complement Euler equation.** Only then resume gauge/domain work.
+> P1/P2/P3 remain unused.
+
 > **2026-08-10 GRADE-FIVE / UNITARY-PARENT EULER CLOSURE (ledger v0.129).**
 > Grades `1+2+5` are not closed under the exact first-order K77 Euler operator:
 > grade five emits grade six. The minimum closure made from complete Clifford

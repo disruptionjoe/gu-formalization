@@ -7,13 +7,22 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.129. Exact complete enumeration
+Current append-only progress surface: ledger v0.130. The epsilon-transported
+rank-8128 projector, noncommuting cocycle and recomputed first-order Euler
+operator descend exactly on all 16384 directions. Both moving Spin total 113893
+and full-U total 229477 globalize. The two C32,32 halves form a moving
+8192+8192 block/coset reduction inside source full U64,64 P_H; ordinary
+observation value pullback selects neither parent. Action projector ownership
+and the complement Euler equation are next. Registry:
+`selected-k77-moving-parent-bundle-observation-reduction.json`.
+
+Predecessor v0.129. Exact complete enumeration
 shows grades 1+2+5 are not Euler closed. Their minimum complete-grade closure is
 the B-adjoint-skew Spin sector with total tangent 113893. Either two-U32,32 or
 full-U64,64 covariance requires the complete 229477 field tangent, while the
 parents' symmetry and pairing-coordinate burdens remain distinct and
 unselected. Globalize both carrier horns and test moving epsilon plus
-observation reduction next. Registry:
+observation reduction was discharged and re-scoped by v0.130. Registry:
 `selected-k77-grade5-unitary-parent-euler-closure.json`.
 
 Predecessor v0.128. The source-owned

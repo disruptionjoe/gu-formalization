@@ -9,7 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.129 grade-five/unitary-parent closure:** grades `1+2+5` are not
+> **Current v0.130 moving-parent reduction:** never extend v0.129's fixed-frame
+> escape into a no-moving-subbundle claim. The epsilon-transported rank-`8,128`
+> projector and moving Euler operator descend exactly, so both total tangents
+> `113,893` and `229,477` globalize. Source `P_H` remains full `U(64,64)`; the
+> two `C^(32,32)` halves define a moving `8,192+8,192` block/coset reduction,
+> not two principal connections by notation. Ordinary observation pullback
+> changes form slots but selects neither internal carrier. Next derive action
+> ownership of `P_epsilon u=u` and/or `D_varpi chi_epsilon=0`, including
+> projector variation and the complement Euler equation. P1/P2/P3 remain
+> unused.
+
+> **Predecessor v0.129 grade-five/unitary-parent closure:** grades `1+2+5` are not
 > Euler closed; grade five emits grade six. The minimum closure made from whole
 > Clifford grades is the `B`-skew Spin sector with total tangent `113,893`, but
 > it is not invariant under either advertised unitary parent. Two-`U(32,32)`

@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_moving_parent_bundle_observation_reduction_audit.py` enforces
+  ledger v0.130's exact moving-projector rank/cocycle/Euler descent, global
+  totals `113,893/229,477`, `8,192+8,192` block/coset typing, observation-value
+  counts `32,613/65,637`, no observation parent selection, action-ownership
+  fence, unchanged accounting and hostile-review scope.
+
 - `selected_k77_grade5_unitary_parent_euler_closure_audit.py` enforces ledger
   v0.129's exact grade graph, failure of grade `1+2+5` closure, complete-grade
   Spin total `113,893`, unitary-covariant total `229,477`, non-collapse of the

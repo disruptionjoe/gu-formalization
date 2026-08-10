@@ -7,6 +7,15 @@ updated_at: "2026-08-10"
 
 # Explorations
 
+## K77 moving-parent bundle and observation reduction (2026-08-10)
+
+`conditional-build/selected-k77-moving-parent-bundle-observation-reduction-2026-08-10.md`
+proves exact noncommuting cocycle and Euler descent for the epsilon-transported
+rank-`8,128` projector. Ledger v0.130 keeps both moving Spin `113,893` and full
+U `229,477` global carriers, types the two halves as an `8,192+8,192`
+block/coset reduction inside full `P_H`, and shows ordinary observation pullback
+does not select the action parent.
+
 ## K77 grade-five and unitary-parent Euler closure (2026-08-10)
 
 `conditional-build/selected-k77-grade5-unitary-parent-euler-closure-2026-08-10.md`

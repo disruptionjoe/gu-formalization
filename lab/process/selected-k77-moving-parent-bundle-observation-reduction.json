@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_construction_result",
+  "created": "2026-08-10",
+  "status": "MOVING_SPIN113893_AND_FULL_U229477_GLOBAL__TWO_HALF_REDUCTION_INSIDE_FULL_P_H__ACTION_PROJECTOR_OWNERSHIP_OPEN",
+  "moving_projector": {
+    "formula": "P_epsilon=Ad(epsilon^-1) P0 Ad(epsilon)",
+    "skew_rank": 8128,
+    "complement_rank": 8256,
+    "all_directions_tested": 16384,
+    "noncommuting_cocycle": "EXACT_PASS",
+    "idempotence": "EXACT_PASS",
+    "moving_euler_covariance": "EXACT_PASS_ALL_16384",
+    "sector_closure": "EXACT_PASS_ALL_16384",
+    "frozen_frame_control": "FAILS_AS_REQUIRED"
+  },
+  "global_carriers": {
+    "moving_spin_connection": 113792,
+    "moving_spin_total": 113893,
+    "full_u_connection": 229376,
+    "full_u_total": 229477,
+    "selection": "OPEN_ACTION_PROJECTOR_OWNERSHIP"
+  },
+  "two_half_reduction": {
+    "moving_chirality_involution": "chi_epsilon=Ad(epsilon^-1) chi0 Ad(epsilon)",
+    "block_connection_directions": 8192,
+    "bifundamental_coset_directions": 8192,
+    "spin_skew_block_intersection": 4096,
+    "spin_skew_coset_intersection": 4032,
+    "typing": "MOVING_REDUCTION_INSIDE_SOURCE_FULL_U6464_P_H__NOT_TWO_PRINCIPAL_GROUPS_BY_NOTATION"
+  },
+  "observation_value_pullback": {
+    "moving_spin_total": 32613,
+    "full_u_total": 65637,
+    "internal_parent_selected": false,
+    "scope": "VALUE_PULLBACK_ONLY__NOT_FIRST_JET_DOMAIN_OR_QUOTIENT"
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_U6464_P_H_TWO_C32_32_WEYL_HALVES_AND_EPSILON_MOVED_FRAME__SOURCE_SILENT_SPIN_SKEW_TANGENT_CONSTRAINT_AND_PHYSICAL_REDUCTION",
+  "layer0": [
+    "FIXED_INVARIANT_SUBSPACE_VERSUS_EPSILON_TRANSPORTED_MOVING_SUBBUNDLE",
+    "TWO_WEYL_VECTOR_BUNDLES_VERSUS_TWO_FACTOR_PRINCIPAL_CONNECTION",
+    "FULL_U_PRINCIPAL_BUNDLE_VERSUS_MOVING_BLOCK_REDUCTION",
+    "CONNECTION_VALUE_VERSUS_ADJOINT_CONNECTION_TANGENT",
+    "OBSERVATION_PULLBACK_VERSUS_STRUCTURE_GROUP_REDUCTION",
+    "MOVING_EULER_COVARIANCE_VERSUS_ACTION_PARENT_SELECTION"
+  ],
+  "accounting": {
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "validation": {
+    "primary": "39/39_PASS",
+    "independent_sage": "15/15_PASS"
+  },
+  "next_gate": "DERIVE_ACTION_OWNERSHIP_OF_P_EPSILON_U_EQUALS_U_AND_OR_D_VARPI_CHI_EPSILON_EQUALS_ZERO__VARY_MOVING_PROJECTOR_AND_COMPLEMENT_EULER__THEN_BV_DOMAIN",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
