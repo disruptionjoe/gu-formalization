@@ -7,17 +7,22 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
-> **2026-08-10 P3 CHIRAL-SPIN BUNDLE DIAGONAL (ledger v0.147).** The
-> replacement source reduction passes its global topological gate in exactly
-> one orientation: on `S4`, `(c2(S+),c2(S-))=(+1,-1)`, so P3 `n=+1` matches
-> `S+`, `n=-1` matches `S-`, and `n=0` matches neither. This removes the
-> bundle-class obstruction and adds no continuous topological coordinate after
-> gauge quotient. It does **not** identify connections. An arbitrary charge-one
-> ASD connection has five moduli; the round homogeneous chiral connection has
-> zero invariant deformations. **Next construct the actual support-pullback
-> connection diagonal and prove that P3's supplied BPST connection is the
-> source positive-chiral Levi-Civita connection. Only then restrict and vary
-> `I1`.** P1/P2/P3 stay unassigned; no canon, verdict, residue or quotient moves.
+> **2026-08-10 P3 NORMAL/TANGENTIAL SUPPORT GATE (ledger v0.148).** The
+> actual-base map kills the current nontrivial P3 support diagonal. P3 lives on
+> a normal four-cycle, which projects to one observer-base point; therefore the
+> tangential source bundle restricts with `c2=0`, while P3 `n=+1` has `c2=1`.
+> Normal and horizontal self-dual form slots also have disjoint rank-three
+> spans, so internal gauge cannot repair the mismatch. The v0.147 abstract
+> `S4` class theorem survives re-scoped. **Next design either a tangential/base
+> P3 support map or a source-owned horizontal-normal soldering reduction and
+> count its constraint surplus. Do not restrict or vary `I1` until one passes.**
+> P1/P2/P3 stay unassigned; no canon, verdict, residue or quotient moves.
+
+> **2026-08-10 P3 CHIRAL-SPIN BUNDLE DIAGONAL (ledger v0.147, re-scoped by
+> v0.148).** On one abstract model `S4`, P3 `n=+1` and `S+` have the same
+> `c2=1` class. This remains true, but it is not an actual support-pullback
+> connection map. v0.148 shows that P3's written normal cycle and the
+> observer-tangential source bundle are different actual carriers.
 
 > **2026-08-10 P3 SELF-DUAL SOURCE-REDUCTION GATE (ledger v0.146).**
 > The current-action revival is closed. The exact nonzero source curvature

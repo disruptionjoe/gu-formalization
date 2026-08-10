@@ -7,14 +7,18 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.147. One P3 orientation has
-the exact principal-`SU(2)` bundle class of the positive chiral spin bundle on
-`S4`; the opposite orientation matches the negative bundle. The class match
-adds no continuous topological coordinate after gauge quotient, but does not
-identify connections. An arbitrary charge-one ASD connection has five moduli;
-the round homogeneous chiral connection has zero invariant deformations.
-Next Build constructs the actual support-pullback connection diagonal before
-restricting and varying `I1`. Registry:
+Current append-only progress surface: ledger v0.148. The actual-base map kills
+the current nontrivial P3 normal-support/source diagonal: the tangential source
+class restricts to zero on the normal cycle while P3 `n=+1` has `c2=1`, and
+normal/horizontal self-dual form slots are disjoint. The v0.147 abstract `S4`
+class theorem survives re-scoped. Next Build compares a tangential/base support
+redesign with a source-owned horizontal-normal soldering and counts constraint
+surplus before action restriction. Registry:
+`selected-k77-p3-normal-tangential-support.json`.
+
+Predecessor v0.147. On an abstract common `S4`, one P3 orientation has the
+principal-`SU(2)` class of the positive chiral spin bundle. v0.148 shows this
+does not supply the actual normal-to-tangential support map. Registry:
 `selected-k77-p3-spin-bundle-diagonal.json`.
 
 Predecessor v0.146. The exact nonzero source

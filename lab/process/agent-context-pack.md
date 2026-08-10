@@ -9,16 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.147 P3/chiral-spin bundle fence:** one P3 orientation has the
-> exact topological class required for the positive chiral spin bundle on
-> `S4`: `n=+1` matches `S+`, `n=-1` matches `S-`, and `n=0` matches neither.
-> This closes only the bundle-class obstruction. A bundle isomorphism is not a
-> connection-preserving map; an arbitrary charge-one ASD connection has five
-> moduli, while the round homogeneous chiral connection has zero invariant
-> deformations. Construct the actual support-pullback connection diagonal
-> before restricting and varying `I1`. Do not count a gauge torsor as a
-> physical function-valued datum, and do not identify connections by equal
-> `c2`. P1/P2/P3 remain unassigned.
+> **Current v0.148 P3 normal/tangential support fence:** the actual P3 cycle is
+> normal/vertical while the proposed positive-chiral Levi-Civita source bundle
+> is observer-tangential. Because the normal cycle projects to one base point,
+> the source class restricts with `c2=0`; P3 `n=+1` has `c2=1`. Their
+> self-dual form-slot spans are disjoint and internal gauge cannot exchange
+> them. The v0.147 abstract `S4` theorem survives re-scoped. Build a
+> tangential/base support map or a source-owned H-N soldering with positive
+> constraint surplus before restricting `I1`. P1/P2/P3 remain unassigned.
+
+> **Predecessor v0.147 fence, re-scoped:** `n=+1` matches `S+` on one abstract
+> model `S4`, but equal model-space characteristic classes do not identify the
+> actual normal P3 support with the tangential source bundle.
 
 > **Current v0.146 P3/self-dual-reduction fence:** `D_B P_sd=0` preserves the
 > four-plane chiral split but does not select the single `su(2)+` factor. The

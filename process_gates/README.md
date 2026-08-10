@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `p3_normal_tangential_support_audit.py` enforces ledger v0.148's exact
+  actual-base pullback obstruction, normal-versus-horizontal form-slot fence,
+  internal-gauge kill, re-scoped abstract `S4` theorem, unchanged accounting
+  and tangential-support-or-soldering successor before action restriction.
+
 - `p3_spin_bundle_diagonal_audit.py` enforces ledger v0.147's exact P3/chiral-
   spin bundle class match, topology-versus-connection fence, five-dimensional
   arbitrary ASD moduli, zero homogeneous invariant deformations, unchanged

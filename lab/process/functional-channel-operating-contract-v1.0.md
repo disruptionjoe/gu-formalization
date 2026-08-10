@@ -24,17 +24,24 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.147.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.147.md`.
+`lab/process/conditional-physics-ledger-v0.148.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.148.md`.
 
-Current P3/chiral-spin-bundle correction: on `S4`, P3 `n=+1` has the same
-clutching degree and `c2` as `S+`, while `n=-1` matches `S-`. This is a
-bundle-class match only. Build must construct the support-pullback connection-
-preserving diagonal and prove that the supplied BPST connection is the source
-chiral Levi-Civita connection before restricting `I1`. Gauge-torsor freedom is
-not a physical function-valued cost after a valid quotient; arbitrary
-charge-one ASD freedom is five-dimensional unless the round homogeneous orbit
-is explicitly owned.
+Current P3/actual-support correction: P3's written four-cycle is normal while
+the proposed chiral Levi-Civita source bundle is observer-tangential. The
+source class pulls back to zero on that normal cycle and P3 `n=+1` pulls back
+to one; internal gauge cannot exchange their disjoint form slots. The current
+normal-support diagonal is killed. Design a tangential/base support map or a
+source-owned H-N soldering, count constraint surplus, and do not restrict the
+action before one passes.
+
+Predecessor P3/chiral-spin-bundle correction: on an abstract `S4`, P3 `n=+1`
+has the same clutching degree and `c2` as `S+`, while `n=-1` matches `S-`.
+This remains a bundle-class theorem only; the attempted actual support map was
+falsified by v0.148. Gauge-torsor freedom is not a physical function-valued
+cost after a valid correct-carrier map exists; arbitrary charge-one ASD
+freedom is five-dimensional unless the round homogeneous orbit is explicitly
+owned.
 
 Current P3/self-dual-reduction correction: `D_B P_sd=0` preserves the
 four-plane chiral split but does not select one `su(2)` ideal. The exact

@@ -2,12 +2,17 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-08"
+updated_at: "2026-08-10"
 ---
 
 # Source and Media Index
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
+
+- [`selected-k77-p3-normal-tangential-support-source-reinspection-2026-08-10.md`](selected-k77-p3-normal-tangential-support-source-reinspection-2026-08-10.md)
+  records `SOURCE-CONFIRMS` for the observer-tangent/normal-bundle separation
+  and `SOURCE-SILENT` for P3's collapse map, a normal-to-tangential diagonal,
+  either replacement support construction and the restricted action.
 
 - [`selected-k77-residual-pairing-source-reinspection-2026-08-08.md`](selected-k77-residual-pairing-source-reinspection-2026-08-08.md)
   records `SOURCE-CONFIRMS` for the norm-square and adjoint arena and

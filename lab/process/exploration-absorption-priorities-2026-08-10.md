@@ -9,15 +9,19 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.147 advances the replacement P3/source reduction through its first
-global gate. P3 `n=+1` and the positive chiral spin bundle on `S4` have the
-same clutching degree and `c2`; the opposite horn matches the negative bundle.
-The topology therefore costs no continuous datum modulo gauge. Primary Build
-is no longer another characteristic-class computation. It is the actual
-support-pullback connection-preserving diagonal. If P3 owns the round
-homogeneous BPST/Levi-Civita orbit, the invariant connection has no deformation
-freedom and Build may then restrict `I1`. If it owns an arbitrary charge-one
-ASD connection, price five moduli and stop before action work.
+Ledger v0.148 runs that actual support gate and kills the current nontrivial
+P3 normal-support diagonal. The P3 cycle is vertical and projects to one base
+point, so the tangential source class restricts to zero while P3 `n=+1`
+restricts to one. Normal/horizontal self-dual form slots are disjoint, and
+internal gauge cannot exchange them. The v0.147 abstract `S4` class theorem
+survives re-scoped. Primary Build now compares two genuine replacements: a
+tangential/base P3 support datum and a source-owned H-N soldering reduction.
+Count free objects and constraint surplus before action work; advance neither
+by analogy or shared dimension.
+
+Ledger v0.147 established the correct abstract clutching-class match and the
+gauge-torsor/moduli fences. v0.148 shows that connection-moduli analysis is not
+the next gate until a correct-carrier support map exists.
 
 Ledger v0.146 kills the current-action self-dual revival. The exact nonzero
 source curvature preserves chirality but occupies both rank-three `su(2)`

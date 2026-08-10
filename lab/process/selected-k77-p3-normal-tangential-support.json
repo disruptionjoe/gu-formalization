@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-151225-gu-p3-normal-tangential-support",
+  "verdict": "CURRENT_P3_NORMAL_SUPPORT_CANNOT_DIAGONALIZE_TANGENTIAL_SU2PLUS__ABSTRACT_S4_CLASS_MATCH_RESCOPED__TANGENTIAL_SUPPORT_OR_NEW_SOLDERING_REQUIRED",
+  "actual_base_maps": {
+    "rank_d_pi_on_normal_cycle": 0,
+    "rank_d_pi_on_horizontal_four_plane": 4
+  },
+  "source_c2_on_normal_cycle": 0,
+  "p3_c2_on_normal_cycle": {"-1": -1, "0": 0, "1": 1},
+  "matching_p3_horns_on_normal_cycle": [0],
+  "form_slot_ranks": {
+    "horizontal_selfdual": 3,
+    "normal_selfdual": 3,
+    "combined": 6
+  },
+  "internal_gauge_repairs_slot_mismatch": false,
+  "planted_horizontal_normal_soldering_repairs_slots": true,
+  "planted_soldering_preserves_observation_split": false,
+  "source_return": "SOURCE_CONFIRMS_HORIZONTAL_TANGENT_VERSUS_NORMAL_BUNDLE_SEPARATION__SOURCE_SILENT_P3_COLLAPSE_DIAGONAL_TANGENTIAL_SUPPORT_REDESIGN_AND_RESTRICTED_ACTION",
+  "p1_p2_p3_assignment_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "next_gate": "DESIGN_TANGENTIAL_P3_SUPPORT_MAP_OR_SOURCE_OWNED_HN_SOLDERING__COUNT_SURPLUS_BEFORE_ACTION_RESTRICTION"
+}
