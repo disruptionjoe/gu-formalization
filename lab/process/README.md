@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.128. The source-owned
+Current append-only progress surface: ledger v0.129. Exact complete enumeration
+shows grades 1+2+5 are not Euler closed. Their minimum complete-grade closure is
+the B-adjoint-skew Spin sector with total tangent 113893. Either two-U32,32 or
+full-U64,64 covariance requires the complete 229477 field tangent, while the
+parents' symmetry and pairing-coordinate burdens remain distinct and
+unselected. Globalize both carrier horns and test moving epsilon plus
+observation reduction next. Registry:
+`selected-k77-grade5-unitary-parent-euler-closure.json`.
+
+Predecessor v0.128. The source-owned
 fixed-epsilon first-order Euler operator shows that principal tangent 915 is
 not first-jet closed. Four observed jets force conditional total tangent 1131;
 all fourteen source-native Y14 jets force the complete selected low-grade

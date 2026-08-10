@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.129 grade-five/unitary-parent closure:** grades `1+2+5` are not
+> Euler closed; grade five emits grade six. The minimum closure made from whole
+> Clifford grades is the `B`-skew Spin sector with total tangent `113,893`, but
+> it is not invariant under either advertised unitary parent. Two-`U(32,32)`
+> or full-`U(64,64)` covariance plus Euler closure forces the full `229,477`
+> field tangent. Equal field size does not collapse their symmetry or pairing
+> fork, and `B`-adjoint parity is not Weyl chirality. Next globalize both
+> carrier horns and test moving epsilon plus observation reduction. P1/P2/P3
+> remain unused.
+
 > **Current v0.128 complete Euler-jet tangent:** never treat the source's
 > first-order Euler linearization as a pointwise symmetrized Hessian. A scalar
 > exterior covector couples grades one and two. The natural principal tangent

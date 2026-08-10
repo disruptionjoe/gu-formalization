@@ -8,7 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.128; six
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.129; six
+distance-only migrations; headline unchanged).** Exact complete enumeration
+shows grades `1+2+5` are not first-order Euler closed. The minimum closure made
+from complete Clifford grades is the `B`-adjoint-skew Spin sector, with total
+tangent `113,893`. Either advertised unitary covariance completes the field
+carrier to total tangent `229,477`, but the two-`U(32,32)` and full-`U(64,64)`
+parents retain different symmetry and pairing-coordinate burdens and remain
+unselected. Next globalize both carrier horns and test moving-epsilon
+equivariance plus observation reduction. No quotient, domain, spectrum or
+physics result is claimed; P1/P2/P3 are unused.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.128; six
 distance-only migrations; headline unchanged).** The source-owned
 fixed-epsilon first-order Euler operator closes on two separately typed jet
 domains. Four observed spacetime covectors enlarge the off-slice tangent

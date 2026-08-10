@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_construction_result",
+  "created": "2026-08-10",
+  "status": "GRADE125_NOT_EULER_CLOSED__SPIN_GRADE_SATURATED113893__UNITARY_PARENT_FULL229477__PARENT_FORK_OPEN",
+  "scope": {
+    "real_form": "K77_FIXED_EPSILON",
+    "operator": "FIRST_ORDER_DVARPI_UPSILON_EQUALS_SHIAB_DA_U_PLUS_HODGE_U",
+    "coefficient_search": "ALL_16384_REAL_CLIFFORD_DIRECTIONS",
+    "signature_orbits": ["PLUS_PLUS", "PLUS_MINUS", "MINUS_PLUS", "MINUS_MINUS"]
+  },
+  "exact_result": {
+    "transition_graph": {
+      "0": [3], "1": [2], "2": [1, 5], "3": [0, 4],
+      "4": [3, 7], "5": [2, 6], "6": [5, 9], "7": [4, 8],
+      "8": [7, 11], "9": [6, 10], "10": [9, 13],
+      "11": [8, 12], "12": [11], "13": [10, 14], "14": []
+    },
+    "selected_125_closed": false,
+    "grade_saturated_spin_closure": [1, 2, 5, 6, 9, 10, 13, 14],
+    "spin_coefficient_dimension": 8128,
+    "spin_connection_dimension": 113792,
+    "spin_total_with_metric_epsilon": 113893,
+    "self_complement_grades": [0, 3, 4, 7, 8, 11, 12],
+    "self_complement_dimension": 8256,
+    "background_A": "PRESERVES_EACH_CLIFFORD_GRADE",
+    "hodge_K_lift": "IDENTITY_ON_ALL_16384_INTERNAL_DIRECTIONS",
+    "two_half_prior_residual_carrier_dimension": 16382,
+    "full_U_prior_adjoint_carrier_dimension": 16383,
+    "unitary_completed_coefficient_dimension": 16384,
+    "unitary_connection_dimension": 229376,
+    "unitary_total_with_metric_epsilon": 229477,
+    "block_unitary_escape": "I_TIMES_GRADE4_GENERATOR_COMMUTATOR_WITH_SKEW_GRADE1_LANDS_IN_I_SELF_GRADE3"
+  },
+  "layer0": {
+    "badjoint_parity": "DISTINCT_FROM_WEYL_CHIRALITY_PARITY",
+    "connection_field_tangent": "DISTINCT_FROM_RESIDUAL_ACTION_PAIRING_CARRIER",
+    "grade_saturated_closure": "DISTINCT_FROM_MINIMUM_ARBITRARY_LINEAR_INVARIANT_SUBSPACE",
+    "two_half_full_field_carrier": "DISTINCT_FROM_FULL_U_SYMMETRY_AND_PAIRING_COORDINATES",
+    "euler_closure": "DISTINCT_FROM_UNITARY_COVARIANCE_AND_PARENT_SELECTION"
+  },
+  "parent_disposition": {
+    "spin_grade_saturated": "EULER_CLOSED_PROPER_RIVAL",
+    "two_U32_32_halves": "EULER_PLUS_COVARIANCE_FORCES_FULL_FIELD_CARRIER__THREE_PAIRING_WEIGHTS",
+    "full_U64_64": "EULER_PLUS_COVARIANCE_FORCES_FULL_FIELD_CARRIER__ONE_PAIRING_WEIGHT",
+    "selection": "OPEN"
+  },
+  "source_return": "SOURCE_CONFIRMS_TWO_C32_32_HALVES_AND_SEPARATE_U64_64_GROUP__SOURCE_SILENT_OPERATIVE_ACTION_PARENT_AND_REDUCTION",
+  "accounting": {
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "validation": {
+    "primary": "39/39_PASS__65536_K_LIFTS",
+    "independent_sage_flint": "17/17_PASS",
+    "negative_controls": [
+      "GRADE125_EMITS_GRADE6",
+      "BLOCK_EVEN_UNITARY_ACTION_ESCAPES_SPIN_SKEW_SECTOR"
+    ]
+  },
+  "next_gate": "GLOBALIZE_SPIN_SKEW113893_AND_UNITARY_FULL229477_ASSOCIATED_BUNDLES__TEST_MOVING_EPSILON_EQUIVARIANCE_AND_OBSERVATION_REDUCTION__THEN_GAUGE_GHOST_DOMAIN",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
+

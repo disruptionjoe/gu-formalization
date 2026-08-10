@@ -7,6 +7,14 @@ updated_at: "2026-08-10"
 
 # Explorations
 
+## K77 grade-five and unitary-parent Euler closure (2026-08-10)
+
+`conditional-build/selected-k77-grade5-unitary-parent-euler-closure-2026-08-10.md`
+computes the complete first-order Clifford-grade graph. Grades `1+2+5` are not
+closed; the grade-saturated Spin-skew total is `113,893`, while either advertised
+unitary covariance requires the full `229,477` field tangent. Ledger v0.129
+keeps two `U(32,32)` halves, full `U(64,64)`, and the proper Spin rival distinct.
+
 ## K77 complete Euler-jet tangent closure (2026-08-10)
 
 `conditional-build/selected-k77-complete-euler-jet-tangent-closure-2026-08-10.md`

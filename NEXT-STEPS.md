@@ -30,6 +30,17 @@ updated_at: "2026-08-10"
 > **Also retracted this session** (do not cite): the `24 sqrt(2)` frame-charge
 > reading, the `mu`-asymmetry as an anomaly, and "domain unique and forced".
 
+> **2026-08-10 GRADE-FIVE / UNITARY-PARENT EULER CLOSURE (ledger v0.129).**
+> Grades `1+2+5` are not closed under the exact first-order K77 Euler operator:
+> grade five emits grade six. The minimum closure made from complete Clifford
+> grade spaces is the `B`-skew Spin sector, with total tangent `113,893`.
+> Requiring either the two-`U(32,32)` symmetry or full-`U(64,64)` symmetry
+> forces the full field tangent `229,477`; equal carrier size does not collapse
+> their distinct symmetry and pairing-coordinate burdens. **Next globalize the
+> `113,893` and `229,477` carrier horns, then test moving-epsilon equivariance
+> and observation reduction before parent selection or gauge/domain work.**
+> P1/P2/P3 remain unused.
+
 > **2026-08-10 COMPLETE EULER-JET TANGENT CLOSURE (ledger v0.128).** The
 > natural principal tangent `915` is not closed under the source-owned
 > first-order Euler operator. Four observed `H*` jets fill

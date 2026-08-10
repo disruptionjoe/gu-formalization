@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_grade5_unitary_parent_euler_closure_audit.py` enforces ledger
+  v0.129's exact grade graph, failure of grade `1+2+5` closure, complete-grade
+  Spin total `113,893`, unitary-covariant total `229,477`, non-collapse of the
+  two-half/full-U symmetry and pairing fork, unchanged accounting, and all
+  hostile scope fences.
+
 - `selected_k77_complete_euler_jet_tangent_closure_audit.py` enforces ledger
   v0.128's observed `594 -> 810` and full-Y14 `594 -> 1250` first-jet closure,
   total tangents `1,131/1,571`, correctly typed unsymmetrized Euler owner and
