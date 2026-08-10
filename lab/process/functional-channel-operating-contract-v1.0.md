@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.143.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.143.md`.
+`lab/process/conditional-physics-ledger-v0.144.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.144.md`.
+
+Current characteristic-amplitude correction: for the remaining family
+`F_B=(t^2/3)Omega`, a fixed nonzero characteristic sector obeying
+`k_B=C_B t^4/9` conditionally discretizes the magnitude and leaves at most a
+sign. Current P3 is an auxiliary KO/BPST twist, not the varied source
+connection. Build therefore owns the source/P3 diagonal, native fixed nonzero
+pairing and global selected domain; a free `C_B` merely relocates the
+continuous freedom. Any P1 sign map is separate and unbuilt. No P1/P2/P3
+assignment follows from the conditional theorem.
 
 Current global-projector correction: the existing `Q=1-Pi0` horn
 conditionally screens independent constant source shifts but does not select

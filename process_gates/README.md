@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `p3_characteristic_amplitude_selector_audit.py` enforces ledger v0.144's
+  conditional characteristic-class magnitude selector, the current
+  auxiliary-P3/source-connection Layer-0 fence, fixed-versus-free pairing
+  distinction, remaining sign, unchanged accounting and parentwise
+  source/P3-diagonal successor.
+
 - `global_projector_amplitude_layer0_audit.py` enforces ledger v0.143's
   separation of conditional constant-shift screening from nonzero VEV
   amplitude selection, unchanged accounting, and amplitude-dependent global
@@ -562,6 +568,7 @@ selected notes below and in each script header.
 - `y14_k3_end_data_topography_gate_audit.py`
 - `global_projector_amplitude_layer0_audit.py`
 - `zero_fermion_vev_selector_exhaustion_audit.py`
+- `p3_characteristic_amplitude_selector_audit.py`
 
 ## Eric-lane decisive source-collision gate
 

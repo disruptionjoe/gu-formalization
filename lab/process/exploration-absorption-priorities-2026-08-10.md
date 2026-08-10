@@ -9,6 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.144 identifies a conditional external-datum route for the one
+remaining amplitude. On `F_B=(t^2/3)Omega`, a fixed nonzero source-connection
+characteristic sector obeys `k_B=C_B t^4/9` and discretizes `|t|`; a free
+`C_B` merely relocates the freedom and the even class leaves the sign. Current
+P3 is only an auxiliary KO/BPST twist. Primary Build therefore tests the
+source/P3 diagonal and native characteristic pairing parent-by-parent before
+spending on a generic normalizer. P1/P2/P3 remain unassigned.
+
 Ledger v0.143 composes the v0.15 normalized global projector with the v0.142
 one-amplitude family. The existing projector screens independent constant
 source shifts but adds no amplitude equation. Primary Build therefore narrows
@@ -85,12 +93,15 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — global VEV normalizer and common bosonic BV--BFV domain.**
-   The local action-owned trace cancellation is already exact and leaves one
-   amplitude. Construct a global normalized observer/source functional or
-   explicitly typed external normalizer, the common Green/Krein domain and
-   coupled bulk--boundary BV--BFV complex. Then test observed Hilbert stress,
-   vacuum-shift screening and cosmology. Do not rebuild local VEV stress.
+1. **Build A — source/P3 characteristic diagonal and native pairing.** The
+   local action-owned trace cancellation leaves one amplitude, and a fixed
+   nonzero characteristic sector can discretize its magnitude. Compute the
+   source connection's characteristic pairing on P3's framed four-cycle for
+   moving Spin, the two `U(32,32)` halves, and full `U(64,64)`. Kill any horn
+   whose pairing is zero, unowned, or continuously normalized. If one
+   survives, test the P1 sign map and carry the sector into the common
+   Green/Krein and coupled BV--BFV domain. Retain a generic external normalizer
+   only as a separately priced fallback.
 2. **Build B — nonzero-fermion source-operator branch.** Select the complete
    source-family K77 Dirac/RS operator, solve a stationary nonzero spinor, and
    only then compute the live current, mixed Hessian and Krein/Green domain.

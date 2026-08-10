@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.144 characteristic-amplitude fence:** for the remaining family
+> `F_B=(t^2/3)Omega`, a fixed nonzero characteristic sector would obey
+> `k_B=C_B t^4/9` and discretize the magnitude, leaving at most a sign. This is
+> a conditional construction, not a current P3 result. P3 is an auxiliary
+> KO/BPST operator twist, not the varied source connection. Build the
+> action-owned source/P3 diagonal and compute the native pairing for every
+> retained parent; kill zero, unowned, or continuously normalized horns. Keep
+> any P1 sign map separate. P1/P2/P3 remain unassigned.
+
 > **Current v0.143 global-projector/amplitude fence:** `Q=1-Pi0`
 > conditionally screens independent constant source shifts but adds no equation
 > for the one nonzero VEV amplitude. `ell` reads the amplitude; `T in im Q`

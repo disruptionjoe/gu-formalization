@@ -23,6 +23,18 @@ updated_at: "2026-08-10"
 > stabilizes, and the canonical-J question (does the moving reduction supply a fundamental symmetry — if
 > yes, the van den Dungen index route reopens).
 
+> **2026-08-10 P3 CHARACTERISTIC-AMPLITUDE CONDITIONAL (ledger
+> v0.144).** The remaining source-family amplitude need not be supplied as an
+> arbitrary real: if the varied source connection carries a fixed nonzero
+> characteristic sector on P3's existing framed four-cycle, then
+> `k_B=C_B t^4/9` discretizes `|t|`. This is a conditional construction, not a
+> current P3 result. P3 is presently an auxiliary KO/BPST operator twist, not
+> the source connection; the source/P3 diagonal, native nonzero pairing `C_B`,
+> global domain, and any P1 sign map remain unbuilt. **Next compute the source
+> connection's characteristic pairing for each retained parent and kill the
+> route if it is zero, unowned, or continuously normalized.** P1/P2/P3 remain
+> unassigned; no canon or residue moves.
+
 > **2026-08-10 GLOBAL PROJECTOR / VEV-AMPLITUDE LAYER-0 GATE (ledger
 > v0.143).** The v0.15 normalized projector is real prior art: `Q=1-Pi0`
 > conditionally screens independent constant source shifts. Composed with the

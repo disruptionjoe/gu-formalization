@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.144; five
+distance-only migrations; headline unchanged).** A fixed nonzero
+characteristic sector on P3's existing framed four-cycle would discretize the
+remaining source-family magnitude through `k_B=C_B t^4/9`, leaving at most a
+sign. The exact scaling and finite-root theorem pass, but current P3 is an
+auxiliary KO/BPST twist rather than the varied source connection. The
+source/P3 diagonal, native fixed nonzero pairing, global selected domain, and
+possible P1 sign map remain unbuilt. Build next computes that pairing for each
+retained parent and kills any zero, unowned, or continuously normalized horn.
+No P1/P2/P3 assignment, verdict, residue, quotient, canon, or public-posture
+change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.143; five
 distance-only migrations; headline unchanged).** The existing normalized
 zero-mode projector conditionally screens independent constant source shifts

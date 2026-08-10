@@ -7,15 +7,21 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.143. The existing normalized
-zero-mode projector conditionally screens independent constant source shifts
-but adds no equation for the nonzero VEV amplitude. `ell` reads the amplitude;
-`T in im Q` forces zero; `ell(T)=c` selects supplied `c`. Primary Build now
-owns an amplitude-dependent global compatibility condition on the common
-Green/Krein and coupled BV--BFV domain, with an explicit external-value horn
-retained. No verdict, residue, quotient or datum moves. Registry:
-`selected-k77-global-projector-amplitude-layer0.json`.
+Current append-only progress surface: ledger v0.144. A fixed nonzero
+characteristic sector on P3's framed four-cycle conditionally discretizes the
+remaining source-family magnitude through `k_B=C_B t^4/9`, leaving at most a
+sign. Current P3 is an auxiliary KO/BPST operator twist, not the varied source
+connection, so the source/P3 diagonal, native pairing, global domain, and P1
+sign map remain unbuilt. No P1/P2/P3 assignment, verdict, residue, quotient or
+datum moves. Registry:
+`selected-k77-p3-characteristic-amplitude-selector.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
+
+Predecessor v0.143. The existing normalized zero-mode projector conditionally
+screens independent constant source shifts but adds no equation for the
+nonzero VEV amplitude. `ell` reads the amplitude; `T in im Q` forces zero;
+`ell(T)=c` selects supplied `c`. Registry:
+`selected-k77-global-projector-amplitude-layer0.json`.
 
 Predecessor v0.130. The epsilon-transported
 rank-8128 projector, noncommuting cocycle and recomputed first-order Euler
