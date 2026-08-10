@@ -9,15 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.136 zero-order carrier fence:** the existing q-repaired
+> **Current v0.137 action-ownership fence:** the selected action's admissible
+> connection field tangent retains all three certified v0.136 leak witnesses,
+> and its nonzero-branch pointwise Hessian has no radical on their grades.
+> Never call this a gauge-orbit, coupled-solution, four-field, BV, domain,
+> spectrum, index, or count no-go. The next selector must be the complete
+> equation-9.16 four-field BV/constraint/domain cohomology or a different
+> source-compatible adapter. P1/P2/P3 remain unused.
+
+> **Predecessor v0.136 zero-order carrier fence:** the existing q-repaired
 > draft-9.16 middle family preserves neither rank-`192` `W` nor its rank-`384`
 > sum with the ASD mirror for one admitted witness in moving Spin, the two
 > `U(32,32)` halves and source-full `U(64,64)`. Cross-sector and outside-pair
 > leakage systems both have exact coefficient rank two. W and mirror remain
 > symmetric; J-commuting versus J-anticommuting witnesses prefer opposite
 > minimal-leakage ratios. Never call this a failure of the complete four-field
-> operator or a physical quotient. Derive the action-owned connection orbit or
-> BV/domain cohomology next. P1/P2/P3 remain unused.
+> operator or a physical quotient. Its smaller action-field-tangent successor
+> is closed negatively by v0.137; four-field BV/domain or another adapter is
+> next. P1/P2/P3 remain unused.
 
 > **Predecessor v0.135 induced-fermion principal fence:** the exact source-guided
 > K77 Dirac/RS principal symbol recognizes natural Lorentz modules but does not

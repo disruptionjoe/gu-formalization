@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 ACTION-OWNED LEAKAGE COMPOSITION (ledger v0.137).** The
+> selected action does not provide the smaller admissible connection field
+> tangent left open by v0.136. Moving Spin retains the leaking grade-two
+> witness, the two `U(32,32)` halves retain the leaking grade-six witness, and
+> source-full `U(64,64)` retains the leaking grade-one coset witness. The
+> nonzero-branch pointwise first-action Hessian has zero radical on all three
+> grades. This closes only the field-tangent/Hessian escape, not the coupled
+> solution tangent, gauge orbit, complete four-field operator, BV cohomology,
+> or analytic domain. **Next construct the complete equation-9.16 four-field
+> BV/constraint/domain cohomology or a different source-compatible adapter.**
+> No verdict, residue, quotient, datum, or P1/P2/P3 moves.
+
 > **2026-08-10 ZERO-ORDER W/MIRROR PARENT LEAKAGE (ledger v0.136).** The
 > already-built q-repaired draft-9.16 middle family preserves neither proposed
 > rank-`192` `W` nor its rank-`384` closure with the ASD mirror. For one
@@ -15,12 +27,10 @@ updated_at: "2026-08-10"
 > doubled pair have exact coefficient rank two; only the zero operator removes
 > either. W and mirror remain exactly symmetric. J-commuting witnesses minimize
 > leakage at `alpha=beta`, while the full-parent J-anticommuting coset witness
-> minimizes it at `alpha=-beta`. **Next derive the connection orbit owned by
-> the selected action and test whether it excludes both witness classes, or
-> construct the complete four-field BV/domain cohomology before imposing W.**
-> This does not kill a smaller orbit, different adapter, full four-field
-> operator or domain selection. No verdict, residue, quotient, datum or
-> P1/P2/P3 moves.
+> minimizes it at `alpha=-beta`. Its smaller action-field-tangent successor is
+> discharged negatively by v0.137. A different adapter, full four-field
+> operator, BV cohomology, or domain selection remains open. No verdict,
+> residue, quotient, datum, or P1/P2/P3 moves.
 
 > **2026-08-10 INDUCED FERMION PRINCIPAL DISCRIMINATOR (ledger v0.135).**
 > The exact source-guided K77 Dirac/RS principal symbol is informative but not

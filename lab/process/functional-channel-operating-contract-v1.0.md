@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.136.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.136.md`.
+`lab/process/conditional-physics-ledger-v0.137.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.137.md`.
 
 Current high-fanout premise correction: exact fixed-`W` theorems remain valid
 conditionally, but neither the old internal Casimir nor the bosonic pointwise
@@ -39,9 +39,11 @@ this principal fingerprint because their distinction is lower order. v0.136
 then composes the already-built q-repaired zero-order family with W,
 its mirror and the three parent witness classes. No nonzero coefficient
 preserves W or W plus mirror for any witness, and W/mirror remain symmetric.
-Build now derives the action-owned restricted connection orbit or constructs
-the complete four-field BV/domain cohomology. Characteristic or invariant
-subspace is not physical cohomology or count.
+v0.137 composes those witnesses with the source-native connection tangent and
+nonzero-branch pointwise first-action Hessian. Every parent retains its leak
+witness and none lies in a Hessian radical. Build now constructs the complete
+four-field BV/constraint/domain cohomology or a different adapter.
+Characteristic or invariant subspace is not physical cohomology or count.
 Verify owns the silent-Hermitization repair, carrier-mass scramble and hostile
 T1--T4 check. Compose owns the exact `40=32+8` neutral-state cross-tab without
 dark-matter inflation. Analytic index work reopens only after Build supplies a

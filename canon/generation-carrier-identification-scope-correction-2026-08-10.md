@@ -104,6 +104,16 @@ different adapter, the complete four-field operator, BV cohomology and domain
 selection remain open. The next carrier gate is the action-owned orbit or the
 complete BV/domain complex, not reconstruction of the zero-order family.
 
+Ledger v0.137 closes the “action-owned smaller connection orbit” phrase only
+at its admissible-field-tangent meaning. The complete selected connection
+tangent retains all three certified leak witnesses, and the nonzero-branch
+pointwise first-action Hessian has no radical on their grades. Gauge orbit,
+coupled solution tangent, complete four-field cancellation, BV cohomology and
+analytic domain are different objects and remain open. The next carrier gate
+is therefore the complete equation-9.16 four-field BV/constraint/domain
+complex or a different source-compatible adapter, not another search for a
+hidden restriction in the bosonic pointwise action.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
@@ -113,4 +123,5 @@ complete BV/domain complex, not reconstruction of the zero-order family.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-bosonic-parent-action-ownership-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-induced-fermion-principal-discriminator-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-zero-order-w-mirror-parent-leakage-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-leakage-composition-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

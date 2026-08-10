@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_action_owned_leakage_composition_probe.py`
+  composes the source-native connection tangent, complete nonzero-branch
+  pointwise first-action Hessian and v0.136 leak witnesses. Every named parent
+  retains its witness and no witness grade lies in the Hessian radical, while
+  planted parent exclusions and Layer-0 field/gauge/BV/domain distinctions
+  fire (`64/64`).
+
 - `channel-swings/selected_k77_zero_order_w_mirror_parent_leakage_probe.py`
   composes the prior q-repaired zero-order family with W, its exact ASD mirror,
   their rank-384 sum and one witness in each parent class. Cross-sector and

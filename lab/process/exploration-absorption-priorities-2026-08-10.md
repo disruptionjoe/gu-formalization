@@ -11,14 +11,22 @@ created: 2026-08-10
 
 The 2026-08-09 explorations contain one high-fan-out correction and several
 useful leads. The program will absorb the correction without opening a new
-lane. The fixed `192`-carrier results remain conditional; action-owned moving
-reduction becomes responsible for selecting or rejecting that carrier.
+lane. The fixed `192`-carrier results remain conditional. Ledger v0.137 closes
+the smaller action-field-tangent selector negatively, so the complete
+four-field BV/constraint/domain complex or a different adapter now owns
+selection.
+
+Ledger v0.137 composes the source-native connection tangent, nonzero-branch
+pointwise first-action Hessian and v0.136 leak witnesses. Every named parent
+retains a leak witness and none lies in a Hessian radical. Field tangent, gauge
+orbit, coupled solution tangent, BV distribution and analytic domain remain
+distinct.
 
 Ledger v0.136 composes the already-built q-repaired zero-order family with W,
 its mirror and three parent witnesses. No nonzero coefficient preserves W or
 W plus mirror for any tested witness; W and mirror remain symmetric. The
-action-owned connection orbit or complete BV/domain cohomology is now the
-rank-one Build.
+complete four-field BV/constraint/domain cohomology or a different adapter is
+now the rank-one Build.
 
 Ledger v0.135 closed the induced-fermion principal gate partially. At a
 base-null covector the source-guided operator rejects generic random rank-192
@@ -29,13 +37,13 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — action-owned orbit or BV/domain carrier.** The common principal
+1. **Build A — four-field BV/domain carrier or different adapter.** The common principal
    operator and q-repaired zero-order family now exist. The latter preserves
    neither `W` nor `W plus mirror` for admitted witnesses in source-full
-   `U(64,64)`, moving Spin and the two `U(32,32)` halves. Derive the actual
-   connection orbit owned by the selected action and test whether it excludes
-   both leaking parity classes, or construct the complete four-field BV/domain
-   cohomology before any spectrum, index or count claim.
+   `U(64,64)`, moving Spin and the two `U(32,32)` halves. v0.137 shows the
+   selected action field tangent and pointwise Hessian exclude none of those
+   witnesses. Construct the complete four-field BV/constraint/domain
+   cohomology or a different adapter before any spectrum, index or count claim.
 2. **Build B — coupled functional completion after the lower-order selector.**
    Extend the full-rank pointwise connection result through metric, epsilon,
    derivative and observation jets with the actual fermion current and Ward/BV
@@ -84,7 +92,7 @@ does not establish the phenomenology of the complete GU action.
 - Do not treat observation value pullback as a physical reduction.
 - The nonzero-branch bosonic Hessian did not discriminate the parents, and the
   induced fermion principal symbol did not distinguish `W` from mirror.
-  Ledgers v0.134/v0.135/v0.136 record those results. Do not re-open either by using a
+  Ledgers v0.134/v0.135/v0.136/v0.137 record those results. Do not re-open them by using a
   hard projector, characteristic kernel or `D_varpi chi=0` as an undeclared
   repair.
 - After three distance-only Runs on this cluster, compare the rank-one gate

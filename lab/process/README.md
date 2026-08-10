@@ -7,15 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.136. The already-built
-q-repaired draft-9.16 zero-order middle family preserves neither proposed `W`
-nor `W` plus its ASD mirror for one admitted witness in moving Spin, the two
-`U(32,32)` halves and source-full `U(64,64)`. Both cross-sector and
-outside-pair leakage coefficient systems have exact rank two. Build next
-derives the action-owned restricted connection orbit or constructs the
-complete four-field BV/domain cohomology. Fixed-`W` theorems remain
-conditional; no verdict, residue, quotient or datum moves. Registry:
-`selected-k77-zero-order-w-mirror-parent-leakage.json`.
+Current append-only progress surface: ledger v0.137. Every named connection
+parent retains an exact v0.136 W/mirror leak witness, and the nonzero-branch
+pointwise first-action Hessian has no radical on their grades. The selected
+action therefore supplies no smaller admissible connection field tangent.
+Build next constructs the complete four-field BV/constraint/domain cohomology
+or a different source-compatible adapter. Gauge orbit, coupled solution
+tangent, BV distribution and analytic domain remain distinct; no verdict,
+residue, quotient or datum moves. Registry:
+`selected-k77-action-owned-leakage-composition.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

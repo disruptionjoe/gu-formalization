@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `action_owned_leakage_composition_audit.py` enforces ledger v0.137's exact
+  composition: every named parent retains a certified leak witness, the
+  nonzero-branch pointwise action Hessian has no radical on their grades, the
+  field-tangent escape closes, and four-field/BV/domain/adapter scope remains
+  (`21/21`).
+
 - `zero_order_w_mirror_parent_leakage_audit.py` enforces ledger v0.136's
   exact q-repaired zero-order cross/outside-pair leakage ranks, W/mirror
   symmetry, moving-Spin/two-half/source-full parent distinction, hostile
