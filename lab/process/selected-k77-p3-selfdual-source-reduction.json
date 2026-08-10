@@ -1,0 +1,19 @@
+{
+  "artifact_type": "exact_construction_composition_and_scoped_kill_result",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-142640-gu-p3-selfdual-source-reduction",
+  "verdict": "CURRENT_NONZERO_SOURCE_FAMILY_NOT_SU2PLUS_REDUCED__DBP_SPLIT_PRESERVATION_INSUFFICIENT__PROJECTED_ACTION_REPLACEMENT_UNBUILT",
+  "factor_ranks": {"su2plus": 3, "su2minus": 3},
+  "quadratic_pairings": {"su2plus": 12, "su2minus": -12, "full": 0},
+  "current_family_intersection": "t=0_ONLY",
+  "split_preservation_selects_factor": false,
+  "p3_source_diagonal": "UNBUILT",
+  "restricted_action": "WELL_TYPED_GENERAL_CONSTRUCTION__GU_COEFFICIENTS_UNBUILT",
+  "constraint_accounting": "NO_CURRENT_COORDINATE_REMOVAL__AT_LEAST_ONE_FUNCTION_VALUED_REDUCTION_MAP_UNPRICED",
+  "source_return": "SOURCE_SILENT_P3_SOURCE_DIAGONAL_AND_RESTRICTED_ACTION__SOURCE_CORRECTS_SELF_DUALITY_AS_EINSTEINIAN_NOT_BARE_YANG_MILLS",
+  "p1_p2_p3": "UNCHANGED_AND_UNASSIGNED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "next_gate": "CONSTRUCT_EXPLICIT_P3_TO_SOURCE_SU2PLUS_BUNDLE_DIAGONAL_AND_RESTRICT_I1_BEFORE_VARIATION__RECOMPUTE_FULL_EULER_BV_DOMAIN"
+}

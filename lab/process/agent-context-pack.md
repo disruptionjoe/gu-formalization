@@ -9,13 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.146 P3/self-dual-reduction fence:** `D_B P_sd=0` preserves the
+> four-plane chiral split but does not select the single `su(2)+` factor. The
+> exact nonzero source family has rank-three components in both factors, so it
+> belongs to the one-factor field space only at `t=0`. The current-action
+> self-dual revival is killed. Reopening it requires an explicit P3-to-source
+> principal-bundle diagonal and restriction of `I1` before variation, followed
+> by a complete Euler/BV/domain rebuild. Never project the old solution after
+> variation or identify the auxiliary BPST bundle with the source subbundle by
+> the shared name `SU(2)`. P1/P2/P3 remain unassigned.
+
 > **Current v0.145 P3/native-pairing fence:** the direct quadratic P3
 > amplitude horn is killed. On the framed four-plane the unprojected source
 > curvature has equal opposite self-dual/anti-self-dual contributions, so the
 > moving-Spin, both `U(32,32)` halves, full `U(64,64)`, and central unitary
 > quadratic pairings all vanish. `n=+/-1` gives no direct amplitude; `n=0`
 > leaves all amplitudes. A self-dual `SU(2)` projection is nonzero but is a new
-> reduction/action-ownership burden. Never substitute P3 BPST curvature or a
+> reduction/action-ownership burden discharged negatively for the current
+> nonzero family by v0.146. Never substitute P3 BPST curvature or a
 > chirality-weighted trace for the current parent invariant. P1/P2/P3 remain
 > unassigned.
 

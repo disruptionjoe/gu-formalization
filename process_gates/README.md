@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `p3_selfdual_source_reduction_audit.py` enforces ledger v0.146's exact
+  split-versus-factor distinction, two rank-three `su(2)` components,
+  current-action self-dual revival kill, unbuilt P3/source diagonal and
+  restricted-action Euler/BV/domain successor.
+
 - `p3_native_characteristic_pairing_audit.py` enforces ledger v0.145's exact
   zero native quadratic pairings, direct P3 horn kill, nonzero-but-unowned
   self-dual reduction control, unchanged accounting and action/BV reduction

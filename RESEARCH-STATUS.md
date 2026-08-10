@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.146; five
+distance-only migrations; headline unchanged).** The exact nonzero source
+family preserves the four-plane chiral split but occupies both `su(2)` ideals,
+each with rank three. Thus `D_B P_sd=0` is insufficient and restriction to one
+self-dual factor intersects the current family only at `t=0`. The current-
+action self-dual P3 revival is falsified. A replacement remains possible only
+as a new P3-to-source principal-bundle diagonal plus restriction of `I1`
+before variation and a complete Euler/BV/domain recomputation. No P1/P2/P3
+assignment, verdict, residue, quotient, canon, or public-posture change is
+made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.145; five
 distance-only migrations; headline unchanged).** The direct P3 quadratic
 amplitude horn is falsified for every current parent. Exact Clifford and
@@ -16,7 +27,8 @@ contributions, so moving-Spin Killing/vector trace, both `U(32,32)` halves,
 full `U(64,64)`, and the unitary central quadratic invariant all have
 `C_B=0`. P3 `n=+/-1` then admits no direct amplitude and `n=0` leaves all
 amplitudes. A nonzero self-dual `SU(2)` control survives only as a new
-source-reduction/action-ownership candidate. No P1/P2/P3 assignment, verdict,
+source-reduction/action-ownership candidate; v0.146 kills its reuse of the
+current nonzero family. No P1/P2/P3 assignment, verdict,
 residue, quotient, canon, or public-posture change is made.
 
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.144; five

@@ -7,6 +7,17 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 P3 SELF-DUAL SOURCE-REDUCTION GATE (ledger v0.146).**
+> The current-action revival is closed. The exact nonzero source curvature
+> preserves four-plane chirality but has rank-three nonzero components in both
+> `su(2)+` and `su(2)-`; therefore `D_B P_sd=0` preserves a split but does not
+> select one factor, and pure `SU(2)+` membership forces `t=0`. **Next build or
+> kill an explicit P3-to-source `SU(2)+` principal-bundle diagonal, restrict
+> `I1` before variation, and recompute the complete Euler/BV/domain bank.** Do
+> not project the old two-factor solution afterward or identify the auxiliary
+> BPST bundle with the source subbundle by name. P1/P2/P3 stay unassigned; no
+> canon, verdict, residue or quotient moves.
+
 > **2026-08-10 VERIFICATION RECEIPTS + PROCESS PACKAGE (absorption surface).** Two hostile-verification
 > runs and the process-hardening package landed today; the machine-tracked banner backlog (17 gaps) prints
 > from `process_gates/correction_propagation_audit.py`, but several owed edits are text-level and live only
@@ -30,8 +41,8 @@ updated_at: "2026-08-10"
 > `U(64,64)`, and the unitary central invariant all give exactly `C_B=0`.
 > Thus `n=+/-1` allows no direct amplitude and `n=0` leaves every amplitude.
 > A self-dual `SU(2)` projection is nonzero but is not a current parent
-> invariant. **Next construct or kill the P3-framed self-dual source reduction,
-> including preservation by `B` and action/BV ownership.** Do not substitute
+> invariant. Its current-action successor is discharged negatively by v0.146:
+> split preservation does not select one factor. Do not substitute
 > auxiliary BPST curvature for the unprojected source curvature. P1/P2/P3 stay
 > unassigned; no canon, verdict, residue or quotient moves.
 

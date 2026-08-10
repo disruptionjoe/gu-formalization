@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.145.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.145.md`.
+`lab/process/conditional-physics-ledger-v0.146.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.146.md`.
+
+Current P3/self-dual-reduction correction: `D_B P_sd=0` preserves the
+four-plane chiral split but does not select one `su(2)` ideal. The exact
+nonzero source curvature has rank-three components in both ideals and belongs
+to a single self-dual factor only at `t=0`. The current-action revival is
+killed. Build may reopen it only by constructing an explicit P3-to-source
+principal-bundle diagonal, restricting `I1` before variation, and recomputing
+the complete Euler/BV/domain bank. Projecting the old solution afterward is a
+different theory, and the auxiliary BPST bundle is not the source subbundle.
 
 Current P3/native-pairing correction: every current parent-invariant
 quadratic pairing of the unprojected `Phi1 wedge Phi1` source curvature

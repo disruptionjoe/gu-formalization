@@ -9,6 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.146 kills the current-action self-dual revival. The exact nonzero
+source curvature preserves chirality but occupies both rank-three `su(2)`
+ideals; `D_B P_sd=0` is a split-preservation condition, not factor selection.
+Primary Build is now a genuinely new conditional construction: an explicit
+P3-to-source `SU(2)+` principal-bundle diagonal, restriction of `I1` before
+variation, and full Euler/BV/domain recomputation. Do not reuse the old
+two-factor source family in that reduced action.
+
 Ledger v0.145 kills the direct P3 quadratic amplitude horn. Every current
 parent-invariant trace of the unprojected source curvature cancels between
 self-dual and anti-self-dual Spin(4) pieces. The nonzero self-dual control is
@@ -100,13 +108,13 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — P3-framed self-dual source reduction.** The native pairings are
-   exactly zero, so the direct P3 quadratic horn is closed. Construct or kill
-   the nonzero self-dual `SU(2)` reduction using the framed four-plane, prove
-   `B` preserves it, and return the restricted field space to the action Euler
-   and BV maps. Only after that should a characteristic amplitude equation,
-   sign map or common Green/Krein and BV--BFV domain advance. Retain a generic
-   external normalizer only as a separately priced fallback.
+1. **Build A — P3-to-source bundle diagonal and restricted action.** Both the
+   direct and current-action self-dual P3 horns are closed. Construct or kill
+   an explicit embedding of P3's auxiliary `SU(2)` bundle as the tangential
+   `SU(2)+` source subbundle, restrict `I1` before variation, and recompute the
+   complete Euler/BV bank. Only after that should a characteristic amplitude
+   equation, sign map or common Green/Krein and BV--BFV domain advance. Retain
+   a generic external normalizer only as a separately priced fallback.
 2. **Build B — nonzero-fermion source-operator branch.** Select the complete
    source-family K77 Dirac/RS operator, solve a stationary nonzero spinor, and
    only then compute the live current, mixed Hessian and Krein/Green domain.

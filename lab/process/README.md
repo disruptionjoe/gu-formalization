@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.145. Every current
+Current append-only progress surface: ledger v0.146. The exact nonzero source
+curvature preserves the four-plane chiral split but has rank-three nonzero
+components in both `su(2)+` and `su(2)-`; `D_B P_sd=0` therefore does not
+select the self-dual factor, and one-factor membership forces `t=0`. The
+current-action P3 self-dual revival is killed. Reopening it requires an
+explicit P3-to-source principal-bundle diagonal plus restriction of `I1`
+before variation and a complete Euler/BV/domain rebuild. Registry:
+`selected-k77-p3-selfdual-source-reduction.json`.
+
+Predecessor v0.145. Every current
 parent-invariant quadratic pairing of the unprojected source curvature
 vanishes on P3's framed four-plane, killing the direct P3 amplitude horn.
 The nonzero self-dual `SU(2)` control is a new source reduction, not a current
