@@ -1,46 +1,60 @@
 r"""
 =============================================================================
-CORRECTION H10-01 (2026-08-09) -- READ BEFORE USING ANY NUMBER FROM THIS FILE
+DISPUTE H10-01 (2026-08-09) -- UNRESOLVED. DOWNGRADED FROM "CORRECTION".
 =============================================================================
-STELLE'S TWO YUKAWA COEFFICIENTS ARE SWAPPED HERE. The constants below are NOT
-edited (so nothing silently changes behaviour); this banner records the error.
+An earlier banner here asserted that this file's Yukawa assignment is WRONG.
+That assertion was landed on one agent's derivation plus one hostile verify,
+with NO specialist pre-flight, by someone who had not checked the primary
+source. It is DOWNGRADED to an open dispute. Nothing here is settled; the
+constants below are unchanged; do not act on either reading yet.
 
-  THIS FILE SAYS  : spin-2 (Weyl^2) = +1/3 ; spin-0 (R^2) = -4/3   [L82, L84-85]
-  CORRECT         : spin-0 (R^2)    = +1/3 ; spin-2 ghost (Weyl^2) = -4/3
+THE TWO READINGS
+  A (this file, and explorations/wave22/H10-ppn-weak-field-2026-07-11.md):
+      spin-2 (Weyl^2) = +1/3 ; spin-0 (R^2) = -4/3
+  B (derived 2026-08-09):
+      spin-0 (R^2)    = +1/3 ; spin-2 ghost (Weyl^2) = -4/3
 
-DERIVED, not quoted. Static T_00 = rho. Massless-graviton source
-T_mn - (1/2) eta_mn T -> (rho/2, rho/2 delta_ij). Massive spin-2 source
-T_mn - (1/3) eta_mn T -> (2rho/3, rho/3 delta_ij). Ratios to massless:
-temporal 4/3 (this IS the vDVZ discontinuity), spatial 2/3. The massive mode
-alone gives gamma = (1/3)/(2/3) = 1/2, reproducing vDVZ exactly. Ghost sign
-subtracts. Hence
-  Phi = -(GM/r)[1 + (1/3)e^{-m0 r} - (4/3)e^{-m2 r}]
-  Psi = -(GM/r)[1 - (1/3)e^{-m0 r} - (2/3)e^{-m2 r}]
-both brackets vanishing at r->0 (1+1/3-4/3 = 0 ; 1-1/3-2/3 = 0).
+ARGUMENT FOR B. Contract the propagator numerators with a static source
+T_00 = rho. Massless graviton: rho^2 - (1/2)rho^2 = (1/2)rho^2. Massive
+spin-2: rho^2 - (1/3)rho^2 = (2/3)rho^2. Ratio 4/3 -- this IS the
+van Dam-Veltman-Zakharov discontinuity. And the Weyl^2 spin-2 is a GHOST, so
+its contribution should be REPULSIVE, i.e. negative. Hence spin-2 = -4/3.
 
-WHY IT SURVIVED: the swap preserves the r->0 sum rule, AND preserves this
-file's own "anchor to literature" -- gamma = 1/2 is ALSO the f(R)/Brans-Dicke
-omega=0 light-scalaron value, (1-1/3)/(1+1/3) = 1/2. The cross-check provably
-cannot discriminate the two assignments. The (+1/3,-1/3) temporal/spatial split
-written here IS the R^2-scalaron structure -- the very mode GU says is ABSENT.
+ARGUMENT FOR A, and the one thing that is NOT in dispute. The exploration
+note reads the vDVZ structure as "massive spin-2 projector carries -1/3 trace
+vs -1/2 for the massless graviton". That clause is CORRECT about the
+projector. But -1/3 is the PROJECTOR TRACE COEFFICIENT, and 4/3 is the
+COUPLING RATIO; they are different quantities. Whatever the paper says,
+treating one as the other is an error, and the note does treat them as one.
 
-WHY IT IS LOAD-BEARING: GU has no R^2 term, so m0 -> oo deletes exactly one of
-the two Yukawas -- and this file deletes THE WRONG ONE.
+WHY THE FILE'S OWN CROSS-CHECKS CANNOT DECIDE IT
+  - The r -> 0 sum rule is symmetric: 1 + 1/3 - 4/3 = 0 either way round.
+  - The "anchor to literature" gamma = 1/2 is ALSO the f(R)/Brans-Dicke
+    omega = 0 light-scalaron value, (1-1/3)/(1+1/3) = 1/2.
+  So neither existing check discriminates the assignments. That is why the
+  swap, if it is one, could survive.
 
-CORRECTED VALUE: alpha_Y = -4/3, not +1/3. Magnitude x4; sign flips to
-REPULSIVE, as a ghost must be. gamma - 1 = +(2/3)w + O(w^2), versus the
-+/- opposite sign asserted here (w = e^{-m2 r}).
+WHY IT IS LOAD-BEARING. GU has no R^2 term, so m0 -> oo deletes exactly ONE
+of the two Yukawas. Which one is deleted flips the sign of gamma - 1, which
+is the entire observational content of this file.
 
-CONFIDENCE: the temporal -4/3 is HIGH (vDVZ, independently re-derived, and
-cross-checked two ways). The spatial -2/3 is DERIVED-AND-CONSISTENT, NOT
-literature-anchored -- verify against Stelle 1978 before citing it.
+BLOCKER TO RESOLUTION -- READ THE PRIMARY SOURCE.
+K.S. Stelle, "Classical gravity with higher derivatives", Gen. Rel. Grav. 9,
+353-371 (1978), cited by the exploration note as the origin of the formula.
+The formula is IMPORTED here with a citation, not derived, so this is a
+transcription question, not a question about GU. Secondary sources that quote
+the potential verbatim (e.g. Giacchini on the cancellation of Newtonian
+singularities; Salvio's Quadratic Gravity review) would also settle it.
+Sign/metric conventions are the specific risk: they could place the ghost
+factor somewhere non-obvious and make both readings correct in their own
+conventions.
 
-PROPAGATION (all inherit the swap; none edited): L31-34 docstring formula, L87,
-L91-92, L94, L105, L128-130, L265, and
-explorations/wave22/H10-ppn-weak-field-2026-07-11.md L33-34, L104, L117.
+WHAT IS UNAFFECTED EITHER WAY. The surrounding work is derived, not imported,
+and does not depend on this: the box(box + m2^2) TT operator, m^2_eff > 0
+(H15/H25), and the W126/W130 covariant-basis machinery (c_R = a2s + a3s/3).
 
-This is a TRANSCRIPTION/ASSIGNMENT error in an imported formula, NOT a broken
-GU derivation. Nothing here depends on GU being correct.
+STATUS: OPEN. Constants deliberately NOT edited. If you resolve it, replace
+this banner with the resolution and its source.
 =============================================================================
 """
 
