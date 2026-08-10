@@ -35,17 +35,55 @@ SURFACES = ["explorations", "canon", "tests", "papers", "docs", "lab"]
 MAX_PER_TERM = 12
 
 
-def search(term: str) -> list[str]:
-    cmd = ["grep", "-rn", "--include=*.md", "--include=*.py", "-F", term]
-    cmd += [str(ROOT / s) for s in SURFACES if (ROOT / s).exists()]
+STOP = {
+    "the","a","an","of","in","on","for","and","or","is","are","to","with","by","as","at","that",
+    "this","it","its","be","not","no","from","was","were","has","have","had","which","if","then",
+}
+
+
+def _files(term_words: list[str]) -> dict[str, set[str]]:
+    """Map file -> set of query words found in it. Word-level, so paraphrase survives."""
+    hits: dict[str, set[str]] = {}
+    for w in term_words:
+        cmd = ["grep", "-rlni", "--include=*.md", "--include=*.py", "-F", w]
+        cmd += [str(ROOT / s) for s in SURFACES if (ROOT / s).exists()]
+        try:
+            out = subprocess.run(cmd, capture_output=True, text=True, timeout=180).stdout
+        except Exception:
+            continue
+        for f in out.splitlines():
+            if not f.strip() or "novelty-check.py" in f:
+                continue
+            hits.setdefault(f, set()).add(w)
+    return hits
+
+
+def search(term: str) -> tuple[list[str], list[str]]:
+    """Return (exact_phrase_hits, cooccurrence_hits).
+
+    Exact-substring matching alone is NOT sufficient: on 2026-08-09 this tool
+    returned 0 hits for "totally isotropic chirality halves" while the repo
+    contained "both omega-halves totally isotropic" -- a paraphrase. The
+    co-occurrence pass exists because of that failure.
+    """
+    exact_cmd = ["grep", "-rn", "--include=*.md", "--include=*.py", "-Fi", term]
+    exact_cmd += [str(ROOT / s) for s in SURFACES if (ROOT / s).exists()]
     try:
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=120).stdout
-    except Exception as exc:  # pragma: no cover - defensive
-        print(f"  ! search failed for {term!r}: {exc}", file=sys.stderr)
-        return []
-    lines = [ln for ln in out.splitlines() if ln.strip()]
-    # never let this tool report itself as prior art
-    return [ln for ln in lines if "novelty-check.py" not in ln]
+        exact = [ln for ln in subprocess.run(exact_cmd, capture_output=True, text=True,
+                                             timeout=180).stdout.splitlines()
+                 if ln.strip() and "novelty-check.py" not in ln]
+    except Exception:
+        exact = []
+
+    words = [w for w in "".join(c if c.isalnum() or c in "_-." else " " for c in term).split()
+             if len(w) > 2 and w.lower() not in STOP]
+    co: list[str] = []
+    if len(words) >= 2:
+        fmap = _files(words)
+        need = max(2, (len(words) + 1) // 2)   # at least half the significant words
+        ranked = sorted(((len(v), k) for k, v in fmap.items() if len(v) >= need), reverse=True)
+        co = [f"{n}/{len(words)} words :: {k}" for n, k in ranked]
+    return exact, co
 
 
 def main(argv: list[str]) -> int:
@@ -57,16 +95,22 @@ def main(argv: list[str]) -> int:
 
     total = 0
     for term in terms:
-        hits = search(term)
-        total += len(hits)
-        print(f"\n=== {term!r}: {len(hits)} hit(s) ===")
-        for ln in hits[:MAX_PER_TERM]:
+        exact, co = search(term)
+        total += len(exact) + len(co)
+        print(f"\n=== {term!r}: {len(exact)} exact, {len(co)} co-occurrence ===")
+        for ln in exact[:MAX_PER_TERM]:
             try:
-                print("   ", str(Path(ln.split(':', 1)[0]).relative_to(ROOT)) + ":" + ln.split(':', 2)[1])
+                print("  EXACT ", str(Path(ln.split(':', 1)[0]).relative_to(ROOT)) + ":" + ln.split(':', 2)[1])
             except Exception:
-                print("   ", ln[:160])
-        if len(hits) > MAX_PER_TERM:
-            print(f"    ... and {len(hits) - MAX_PER_TERM} more")
+                print("  EXACT ", ln[:160])
+        for ln in co[:MAX_PER_TERM]:
+            n, f = ln.split(" :: ", 1)
+            try:
+                print(f"  NEAR  [{n}] " + str(Path(f).relative_to(ROOT)))
+            except Exception:
+                print(f"  NEAR  [{n}] " + f[:140])
+        if len(exact) + len(co) > 2 * MAX_PER_TERM:
+            print("    ... truncated")
 
     print("\n" + "=" * 70)
     if total:
