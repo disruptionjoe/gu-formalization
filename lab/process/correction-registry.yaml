@@ -26,7 +26,6 @@ corrections:
       - canon/core-theorems-symbolic-proof-RESULTS.md
       - canon/function-space-index-conservation-RESULTS.md
       - canon/function-space-index-conservation-residual-closure-RESULTS.md
-      - docs/y14-x4-systems-spec-issue-register.md
   - id: V15-2
     owner: canon/enum-completeness-class-c-RESULTS.md
     meaning: >-
@@ -39,7 +38,6 @@ corrections:
       # found by this gate's first run, 2026-08-10 (baseline, pre-existing):
       - canon/core-theorems-symbolic-proof-RESULTS.md
       - canon/two-arena-rep-theory-core-RESULTS.md
-      - docs/y14-x4-systems-spec-issue-register.md
   - id: CARRIER-20260810
     owner: canon/generation-carrier-identification-scope-correction-2026-08-10.md
     meaning: >-
@@ -56,7 +54,6 @@ corrections:
       - canon/function-space-index-conservation-RESULTS.md
       - canon/function-space-index-conservation-residual-closure-RESULTS.md
       - canon/two-arena-rep-theory-core-RESULTS.md
-      - docs/y14-x4-systems-spec-issue-register.md
   - id: W2-01
     owner: canon/w2-y14-spin-structure.md
     meaning: "Unconditional Y14 spin claim retracted; Y14 spin iff X4 spin."

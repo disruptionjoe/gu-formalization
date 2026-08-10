@@ -18,12 +18,10 @@ status; those live in the root status/canon surfaces and `papers/`.
   — dated deep-dive on the state of the GU reconstruction and the missing matter action.
 - [`paper-formalization-candidates.md`](paper-formalization-candidates.md) — inventory of results that could
   become papers.
-- [`y14-x4-systems-spec.md`](y14-x4-systems-spec.md) — versioned orientation spec for the `Y14`/`X4`
-  construction stated in distributed-systems vocabulary, with every field graded `[MATH]` / `[ANALOGY]` /
-  `[UNSPECIFIED]`. Currently v1.0 (frozen baseline). Analogy content is framing only and must never be
-  cited as a result.
-- [`y14-x4-systems-spec-issue-register.md`](y14-x4-systems-spec-issue-register.md) — companion defect
-  register for the spec above (75 issues, severity S1–S4). Process artifact; contains no physics claims.
+- The Y14/X4 systems spec and its issue register moved WHOLE to Joe's thinking wiki on 2026-08-10
+  (`joe-thinking-wiki/absorbed/y14-x4-systems-spec/`, all versions + migration receipt): Joe reclassified
+  it as a personal thought experiment, not repo truth. It was never citable for physics (its analogy layer
+  was zero-content by construction); nothing in this repo should cite it.
 
 ## Boundary Notes
 
