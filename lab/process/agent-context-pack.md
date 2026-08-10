@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.152 external relative-datum surplus fence:** the minimal
+> observed-boundary term with winding `n` and projective real-pairing ratio `r`
+> is a coherent conditional amplitude selector. Fixed compatible `(n,r)`
+> yields a finite magnitude and preserves small-gauge basicness, but one
+> characteristic equation has rank one against two supplied coordinates.
+> Strict/favorable surplus is `-1/0`; large-gauge compatibility selects no
+> component, and `n` is not P3. Derive the pairing/chiral horn or a typed
+> relative-index/P3 bridge and rerun surplus before restricted Euler, stress or
+> domain work. P1/P2/P3 remain unassigned.
+
 > **Current v0.151 relative chiral-selector ownership fence:** source-owned
 > `A0` and its same-bundle bitorsor globalize the relative construction, but
 > the canonical identity has winding zero and generic Chern--Simons

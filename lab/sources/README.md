@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-external-relative-datum-surplus-source-return-2026-08-10.md`](selected-k77-external-relative-datum-surplus-source-return-2026-08-10.md)
+  records `SOURCE-CONFIRMS` for the distinguished `A0` and Chern--Simons-like
+  action grammar, and `SOURCE-SILENT` for the external `(n,r)` coupling,
+  observed chiral reduction, reality/P3 bridge and surplus result.
+
 - [`selected-k77-relative-chiral-transgression-ownership-source-reinspection-2026-08-10.md`](selected-k77-relative-chiral-transgression-ownership-source-reinspection-2026-08-10.md)
   records `SOURCE-CONFIRMS` for the distinguished same-bundle `A0` and tilted
   bulk grammar, and `SOURCE-SILENT` for a nonzero relative chiral component,

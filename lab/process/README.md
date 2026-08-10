@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.151. The source-owned `A0`
+Current append-only progress surface: ledger v0.152. The minimal observed-
+boundary coupling with external winding `n` and real-pairing ratio `r` exists.
+Fixed compatible `(n,r)` conditionally selects a finite amplitude and preserves
+small-gauge basicness, but the datum Jacobian has rank one against two supplied
+coordinates: strict/favorable surplus is `-1/0`. Large-gauge compatibility
+selects no component and winding is not P3. Next derive the pairing/chiral horn
+or build a typed relative-index/P3 bridge, then rerun surplus before restricting
+the action. Registry: `selected-k77-external-relative-datum-surplus.json`.
+
+Predecessor v0.151. The source-owned `A0`
 same-bundle bitorsor globalizes the relative construction, but its canonical
 identity section has winding zero and a generic Chern--Simons interpolation is
 continuous rather than quantized. A nonzero integer requires an unowned

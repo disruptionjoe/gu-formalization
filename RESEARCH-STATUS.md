@@ -8,8 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.152; six
+distance-only migrations; headline unchanged).** An explicit relative
+boundary term now couples the external winding `n` and real-pairing ratio `r`
+to the selected first action. Fixed compatible `(n,r)` conditionally selects a
+finite stationary amplitude, preserves small-gauge basicness and leaves the
+existing local bulk Euler equations intact. The construction is not yet
+positive-surplus: one characteristic equation is rank one against two supplied
+coordinates, even the favorable row count reaches only zero, large-gauge
+compatibility selects no component, and boundary winding is not P3. Next Build
+attacks the pairing/chiral-horn derivation and a typed relative-index/P3 bridge
+independently, then reruns surplus before restricted Euler, observed stress or
+common-domain work. No P1/P2/P3 assignment, verdict, residue, quotient, canon
+or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.151; five
-distance-only migrations; headline unchanged).** The source-owned `A0`
+distance-only migrations; predecessor to v0.152).** The source-owned `A0`
 same-bundle bitorsor globalizes the relative construction, but its canonical
 identity section has winding zero. A generic Chern--Simons interpolation is
 continuous; a nonzero integer requires an unowned large-gauge component.

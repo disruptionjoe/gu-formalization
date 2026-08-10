@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_external_relative_datum_surplus_probe.py`
+  couples the minimal external boundary winding and real-pairing ratio to the
+  selected first action. Fixed `(n,r)` selects a finite amplitude, while the
+  datum Jacobian has rank one against two coordinates, giving strict/favorable
+  surplus `-1/0`; small gauge stays basic, large-gauge compatibility selects no
+  component, and winding is not P3 (`52 exact + 7 planted = 59 PASS`).
+
 - `channel-swings/selected_k77_relative_chiral_transgression_ownership_probe.py`
   composes the source-owned same-bundle `A0` bitorsor with the Lorentzian
   chiral-class gate. It verifies identity winding zero, continuous normalized

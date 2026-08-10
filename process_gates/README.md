@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `external_relative_datum_surplus_audit.py` enforces ledger v0.152's exact
+  minimal `(n,r)` boundary coupling, conditional finite-amplitude result,
+  strict/favorable surplus `-1/0`, boundary-winding/P3 separation, unchanged
+  accounting and two independent revival gates before action restriction.
+
 - `relative_chiral_transgression_ownership_audit.py` enforces ledger v0.151's
   same-bundle identity-zero result, continuous-versus-quantized transgression
   fence, explicit external-integer route, ambient-versus-observed chiral

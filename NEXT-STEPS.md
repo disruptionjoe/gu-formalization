@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 EXTERNAL RELATIVE-DATUM SURPLUS GATE (ledger v0.152).** The
+> minimal observed-boundary coupling
+> `I_cond[n,r]=I_G2+k CS_Br(a_plus,a0_plus;g_n)` exists. Fixed compatible
+> `(n,r)` conditionally selects a finite stationary amplitude and preserves
+> small-gauge basicness plus the existing local bulk Euler equations. But its
+> datum Jacobian has rank one against two supplied coordinates: strict surplus
+> is `-1`, favorable row surplus is `0`, large-gauge compatibility selects no
+> component, and winding `n` is not P3. **Next independently (1) derive or
+> kill the pairing ratio/chiral horn from action-owned reality and boundary
+> orientation, and (2) construct or kill a typed relative-index-to-P3 map.
+> Rerun surplus before restricted Euler, stress or domain work.** P1/P2/P3,
+> verdicts, residue, quotients and canon remain unchanged.
+
 > **2026-08-10 RELATIVE CHIRAL-TRANSGRESSION OWNERSHIP GATE (ledger v0.151).**
 > Source-owned `A0` and its same-bundle bitorsor globalize the relative
 > construction, but the canonical identity has winding zero and a generic

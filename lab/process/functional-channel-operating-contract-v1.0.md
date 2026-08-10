@@ -24,8 +24,16 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.151.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.151.md`.
+`lab/process/conditional-physics-ledger-v0.152.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.152.md`.
+
+Current external relative-datum correction: an explicit `(n,r)` boundary term
+conditionally selects a finite amplitude and preserves small-gauge basicness,
+but its strict/favorable constraint surplus is `-1/0`. Large-gauge phase
+compatibility chooses no winding component and winding is not P3. Build now
+attacks action-owned selection of the pairing/chiral horn and a typed
+relative-index/P3 bridge independently, then reruns surplus before restricted
+Euler, observed stress or common-domain work.
 
 Current relative-selector ownership correction: the source-owned `A0`
 same-bundle bitorsor globalizes every existing `P_H` sector, but its canonical

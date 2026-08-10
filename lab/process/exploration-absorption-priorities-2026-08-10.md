@@ -9,6 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.152 establishes the conditional external route and blocks its current
+promotion. The minimal `(n,r)` relative boundary term selects a finite amplitude
+for fixed compatible inputs and preserves small-gauge basicness, but its
+strict/favorable surplus is `-1/0`. Primary Build now splits into two cheap,
+independent revival gates: derive the pairing/chiral horn from action-owned
+reality and boundary orientation, or construct a same-object relative-index/P3
+map. Recompute surplus immediately if either closes. Do not spend on restricted
+Euler, observed stress or common domain before a positive-surplus result.
+
 Ledger v0.151 closes the current **internal** relative-selector route. The
 source-owned `A0` same-bundle bitorsor is globally nonempty, but its canonical
 identity section has winding zero; generic Chern--Simons interpolation is
