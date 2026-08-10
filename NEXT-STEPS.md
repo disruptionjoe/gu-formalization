@@ -7,6 +7,12 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **PARKED FOR JOE — surfaces at the GU stop of the one-repo-a-day rotation.** Decision packet:
+> **type Lane A stewardship as VSM System 2-5 channels** (observation reports -> S1 analyses/fixes) with a
+> 30-day staleness dead-man switch per level. Full packet, mapping, minimal build, and this week's seed
+> reports: `explorations/PARKED-FOR-JOE-vsm-stewardship-channels-2026-08-10.md`. Hourly/scheduled agents:
+> not an absorption item; leave in place.
+
 > **2026-08-10 ZERO-FERMION VEV SELECTOR EXHAUSTION (ledger v0.142).**
 > The previous rank-one instruction was stale: v0.108--v0.114 already built
 > and hostile-reviewed an action-owned curvature/distortion family whose two
