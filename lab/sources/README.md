@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-nonzero-fermion-stationary-schur-reduction-source-return-2026-08-10.md`](selected-k77-nonzero-fermion-stationary-schur-reduction-source-return-2026-08-10.md)
+  records source support for the draft-9.16 block grammar, independent barred
+  fields and southeast fork, and source silence on maximal ranks, the residual
+  map, source reality, stationary configuration, domain, index and count.
+
 - [`selected-k77-relative-boundary-p3-ko-interface-source-return-2026-08-10.md`](selected-k77-relative-boundary-p3-ko-interface-source-return-2026-08-10.md)
   records source support for the Chern--Simons-like and rolled-operator arenas,
   and source silence on the boundary-to-P3 real-`KO` map, its K77 right-`H`

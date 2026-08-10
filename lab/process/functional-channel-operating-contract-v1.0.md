@@ -24,8 +24,16 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.154.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.154.md`.
+`lab/process/conditional-physics-ledger-v0.155.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.155.md`.
+
+Current nonzero-fermion stationary correction: under maximal rank of the
+draft-9.16 off-diagonal blocks, the finite stationary kernel reduces exactly
+to `ker(C) -> coker(B)`, conditionally `64 x 64` on each desired/mirror K77
+`192+128` sector. Southeast zero does not force a mode and plain coefficient
+conjugation cannot split desired/mirror nullities. Build the actual source
+`A/B/C` ranks and effective maps across full `U(64,64)`, moving Spin and two
+`U(32,32)` halves before coupled saddle, BV/domain or index/count work.
 
 Current relative-boundary/P3 correction: observed boundary winding maps
 canonically into P3's relative real-`KO` input twist, with exact characteristic

@@ -7,14 +7,17 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.154. The observed boundary
-winding maps exactly through `SU(2)=Sp(1)` clutching into P3's relative
-real-`KO` input twist, with `c2=n` and distinct fundamental/adjoint `p1`
-normalizations. This is not yet a Fredholm index or count. The original P3
-right-`H` comparator is K95-specific; K77 still lacks the physical closed
-operator/domain/index/count output, and two `U(32,32)` halves do not supply it.
-Strict surplus remains `0`. Resume the nonzero-fermion source-operator branch,
-then run the dependent index/count gate before action restriction. Registry:
+Current append-only progress surface: ledger v0.155. Under maximal rank of the
+draft-9.16 off-diagonal blocks, nonzero-fermion stationarity reduces exactly to
+`ker(C) -> coker(B)`, conditionally `64 x 64` on the desired and mirror K77
+`192+128` sectors. Southeast zero does not force a mode; plain coefficient
+conjugation gives equal desired/mirror nullities. Actual source coefficients,
+reality, coupled stationarity, BV/Green domain, index and count remain open.
+Registry: `selected-k77-nonzero-fermion-stationary-schur-reduction.json`.
+
+Predecessor v0.154 constructs the observed-boundary-to-P3 relative real-`KO`
+input map while keeping the K95 right-`H` comparator separate from the unbuilt
+K77 operator/domain/index/count output. Strict surplus remains zero. Registry:
 `selected-k77-relative-boundary-p3-ko-interface.json`.
 
 Predecessor v0.153. The selected Spin-native scalar-Clifford trace restricts

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `nonzero_fermion_stationary_schur_reduction_audit.py` enforces ledger
+  v0.155's exact maximal-rank residual theorem, conditional K77 `64 x 64`
+  typing, plain-conjugation no-selector, southeast-rival separation and all
+  actual-source/reality/domain/index/count fences.
+
 - `relative_boundary_p3_ko_interface_audit.py` enforces ledger v0.154's exact
   boundary-winding-to-P3 relative-`KO` input map, characteristic
   normalizations, K95/K77 right-`H` port fence, absent relative index/count,

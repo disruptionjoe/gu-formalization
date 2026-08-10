@@ -9,6 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.155 narrows the nonzero-fermion Build to an exact residual-map
+problem. Under maximal off-diagonal rank the desired and mirror K77 sectors
+each reduce from `192+128` variables to one `64 x 64` effective map. Southeast
+zero does not force stationarity, and plain coefficient conjugation does not
+select desired over mirror. The highest-information next Build is the actual
+draft-9.16 `varpi` `A/B/C` map and rank calculation across the three retained
+lower-order parents. Pay for coupled stationarity/domain work only after a
+genuine effective rank loss survives.
+
 Ledger v0.154 constructs the exact boundary-winding-to-P3 relative real-`KO`
 input map, but keeps the K95 right-`H` comparator separate from the unbuilt
 K77 operator/domain/index/count output. Strict surplus remains zero, so the

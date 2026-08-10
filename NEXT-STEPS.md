@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 NONZERO-FERMION STATIONARY SCHUR REDUCTION (ledger v0.155).**
+> Under maximal rank of the draft-9.16 off-diagonal blocks, the finite
+> stationary kernel of `[A B; C 0]` is exactly the kernel of
+> `ker(C) -> coker(B)`. The desired and mirror K77 `192+128` sectors therefore
+> reduce conditionally to `64 x 64` effective maps. The southeast zero does
+> not force a nonzero mode, and ordinary coefficient-conjugate desired/mirror
+> maps have equal nullity. **Next assemble the actual `varpi` `A/B/C` cells,
+> test their ranks and effective maps across full `U(64,64)`, moving Spin and
+> two `U(32,32)` halves. Only after a genuine rank loss survives should Build
+> pay for coupled bosonic stationarity, source reality, BV/Green domain and the
+> dependent index/count gate.** No datum, P1/P2/P3, verdict, residue, quotient
+> or canon moves.
+
 > **2026-08-10 RELATIVE-BOUNDARY/P3 REAL-KO INTERFACE (ledger v0.154).** The
 > observed `SL(2,C)` boundary winding now maps canonically through
 > `SU(2)=Sp(1)` clutching into P3's relative real-`KO` input twist, with exact

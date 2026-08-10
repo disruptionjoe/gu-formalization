@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.155; six
+distance-only migrations; headline unchanged).** The source-displayed
+southeast-zero fermion equation has an exact finite reduction under maximal
+off-diagonal rank: its stationary kernel is controlled by
+`ker(C) -> coker(B)`. On the desired and mirror K77 `192+128` sectors the
+effective map is conditionally `64 x 64`. Southeast zero does not force a
+mode, and plain coefficient-conjugate desired/mirror maps have equal nullity.
+The actual `varpi` image, `B/C` ranks, source reality, coupled saddle,
+BV/Green domain, index and count remain unbuilt. Next Build assembles those
+actual maps across full `U(64,64)`, moving Spin and two `U(32,32)` halves. No
+datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change is
+made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.154; six
 distance-only migrations; headline unchanged).** The observed boundary winding
 now has an exact additive map into P3's relative real-`KO` input twist, with

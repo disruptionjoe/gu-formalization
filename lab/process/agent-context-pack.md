@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.155 nonzero-fermion stationary fence:** under maximal rank of
+> the draft-9.16 off-diagonal blocks, `ker([A B; C 0])` is exactly controlled
+> by `ker(C) -> coker(B)`. Desired and mirror K77 `192+128` sectors reduce
+> conditionally to `64 x 64`; southeast zero does not force a mode and plain
+> coefficient conjugation cannot split their nullities. Actual `varpi` cells,
+> `B/C` ranks, source reality, coupled saddle, BV/Green domain, index and count
+> remain open. Keep full `U(64,64)`, moving Spin and two `U(32,32)` halves
+> separate in the next ablation.
+>
 > **Current v0.154 relative-boundary/P3 real-KO fence:** observed `SL(2,C)`
 > boundary winding maps exactly through `SU(2)=Sp(1)` clutching into P3's
 > relative real-`KO` input twist. This is not a relative index or generation

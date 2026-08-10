@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_nonzero_fermion_stationary_schur_reduction_probe.py`
+  proves the exact `ker(C)->coker(B)` reduction for the draft-9.16 southeast-
+  zero candidate under maximal off-diagonal rank, instantiates the conditional
+  K77 `64 x 64` residual size, tests desired/mirror conjugation equality and a
+  symmetry-breaking control, and keeps the southeast-nonzero rival separate
+  (`48/48 PASS`, pinned SymPy 1.14.0).
+
 - `channel-swings/selected_k77_relative_boundary_p3_ko_interface_probe.py`
   constructs the exact additive map from observed `SL(2,C)` winding through
   `Sp(1)` clutching to P3's relative real-`KO` input class, verifies

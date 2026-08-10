@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "status": "MAXIMAL_OFFDIAGONAL_RANK_REDUCES_STATIONARITY_TO_RESIDUAL_MAP__SOUTHEAST_ZERO_NOT_A_MODE__PLAIN_CONJUGATION_NO_MIRROR_SELECTOR__ACTUAL_SOURCE_MAP_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "layer0": {
+    "computed_object": "finite stationary kernel of the draft-9.16 southeast-zero block candidate under maximal-rank off-diagonal hypotheses",
+    "not_computed": [
+      "actual varpi coefficient image",
+      "source C-reality and Krein placement",
+      "characteristic kernel",
+      "BV cohomology",
+      "closed-domain spectrum",
+      "Fredholm index",
+      "generation count"
+    ],
+    "stationary_configuration_not_vacuum_expectation": true,
+    "residual_dimension_not_generation_count": "64 != 3"
+  },
+  "source_return": "SOURCE_CONFIRMS_DRAFT916_BLOCK_GRAMMAR_INDEPENDENT_BARRED_FIELDS_AND_SOUTHEAST_FORK__SOURCE_SILENT_MAXIMAL_RANK_EFFECTIVE_MAP_NONZERO_STATIONARY_CONFIGURATION_REALITY_DOMAIN_BV_INDEX_AND_COUNT",
+  "theorem": {
+    "operator": "D=[[A,B],[C,0]] on X+Y",
+    "hypotheses": ["rank(B)=dim(Y)", "rank(C)=dim(Y)"],
+    "effective_map": "S_A=pi_coker(B) A restricted to ker(C)",
+    "kernel_isomorphism": "ker(D) is isomorphic to ker(S_A)",
+    "effective_shape": "(dim(X)-dim(Y)) by (dim(X)-dim(Y))",
+    "exact_fixture_nullities": [0, 1, 2]
+  },
+  "k77_conditional_instantiation": {
+    "desired_one_form_dimension": 192,
+    "mirror_one_form_dimension": 192,
+    "zero_form_dimension": 128,
+    "maximal_rank_effective_dimension": 64,
+    "actual_B_rank_built": false,
+    "actual_C_rank_built": false,
+    "actual_effective_map_built": false,
+    "principal_characteristic_kernel_is_not_imported_as_stationary_kernel": true
+  },
+  "mirror_test": {
+    "tested_relation": "ordinary coefficient conjugation with real B and C",
+    "effective_relation": "S_mirror=conjugate(S_desired)",
+    "equal_rank": true,
+    "equal_stationary_nullity": true,
+    "planted_independent_mirror_changes_nullity": true,
+    "source_reality_built": false,
+    "disposition": "plain conjugation-compatible reality is not a carrier selector; different source reality or action-derived asymmetry remains open"
+  },
+  "southeast_fork": {
+    "displayed_candidate": "E=0",
+    "rival": "E!=0 separately parameterized",
+    "rival_effective_operator_when_E_invertible": "A-B E^-1 C",
+    "exact_fixture_changes_nullity": true,
+    "parents_merged": false
+  },
+  "parent_ablations": {
+    "source_full_U64_64": "OPEN_LOWER_ORDER_MAP",
+    "moving_Spin": "OPEN_LOWER_ORDER_MAP",
+    "two_U32_32_halves": "OPEN_LOWER_ORDER_MAP",
+    "principal_fingerprint_shared": true,
+    "parents_selected": false
+  },
+  "progress": {
+    "headline_delta": "none",
+    "frontier_conditions_closed": 2,
+    "frontier_conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "accounting": {
+    "datum_booked": false,
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "residue_change": "none",
+    "quotient_change": "none",
+    "P1_P2_P3": "unchanged"
+  },
+  "next_gate": "ACTUAL_DRAFT916_VARPI_EFFECTIVE_MAP_WITH_THREE_PARENT_ABLATIONS",
+  "evidence": [
+    "tests/channel-swings/selected_k77_nonzero_fermion_stationary_schur_reduction_probe.py",
+    "explorations/conditional-build/selected-k77-nonzero-fermion-stationary-schur-reduction-2026-08-10.md",
+    "lab/process/hostile-reviews/2026-08-10-selected-k77-nonzero-fermion-stationary-schur-reduction-review.md"
+  ]
+}
