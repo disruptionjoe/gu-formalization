@@ -32,6 +32,22 @@ So the carrier is currently **asserted**, not identified. What would identify it
 Every one of these is a property of the **base `so(4)`** action or of how the state sits relative to the
 base/internal split. **None is an internal-Clifford statement.**
 
+> ## SELF-CORRECTION CC-01 (2026-08-09, same day) — THE SECTION BELOW OVERREACHES
+>
+> This note was landed without a pre-flight or a hostile verify. Applying one to it retroactively, the
+> heading "**PROVABLY CANNOT**" is stronger than the artifact supports, and it is the same
+> summary-outruns-artifact error this session spent the day cataloguing.
+>
+> **What is licensed:** the sector survived the *specific* internal scrambles that were run — internal gammas
+> replaced by `(s3 (x) s3) (x) U_random`, and by random Hermitian. That is a scramble *family*, not the space
+> of all internal-Clifford data.
+> **What is NOT licensed:** "no internal-Clifford criterion can discriminate." A different internal
+> deformation might break it. The correct statement is **"survived every internal scramble tried, which is
+> strong evidence of a closed class and not a proof of one."**
+>
+> The distinction matters operationally: a proof would end the search; strong evidence says the search is
+> unpromising but the class is not formally closed. Read the section below at that reduced strength.
+
 ## Criteria that PROVABLY CANNOT discriminate
 
 **Any criterion built from the internal Clifford structure.** The sweep destroyed all ten internal gammas —

@@ -263,6 +263,9 @@ forks:
         - canon/multiplicity-theorem.md
         - canon/no-go-quaternionic-parity-generation-sector.md
       needs_recheck:
+        # moved from survives_gu_independent 2026-08-09 -- see note above; the frame-charge fork
+        # result uses J_quat, which is (9,5)-only. The GATED headline is unaffected.
+        - canon/single-decider-integer-index-RESULTS.md
         - DERIVATION-PROGRESS.md
         - canon/anchor-scale-graded-ig-algebra-RESULTS.md
         - canon/anchored-leads-screen-RESULTS.md
@@ -290,7 +293,14 @@ forks:
         - canon/good-stable-compactification-no-go-RESULTS.md
         - canon/ko-degree-obstruction-ladder-RESULTS.md
         - canon/signed-readout-boundary-theorem-RESULTS.md
-        - canon/single-decider-integer-index-RESULTS.md
+        # MISFILING CORRECTED 2026-08-09: canon/single-decider-integer-index-RESULTS.md was
+        # listed here under survives_gu_independent. It does NOT survive: its fork result is
+        # computed with J_quat on the Cl(9,5) = M(64,H) substrate, and J_quat does not exist on
+        # (7,7) where J^2 = +1. Per this registry's own method note, classification was "by direct
+        # read where a dissolution condition was claimed and BY SIGNAL otherwise" -- that file
+        # claims no dissolution condition, so it was signal-classified, never read. Moved to
+        # needs_recheck below. Filed at explorations/lens-mechanism-salvage-scored-2026-08-09.md
+        # and explorations/run-six-move-workflow-results-2026-08-09.md.
         - canon/six-axis-escape-hatch-map-RESULTS.md
         - canon/source-action-seiberg-witten-RESULTS.md
         - canon/two-arena-rep-theory-core-RESULTS.md
