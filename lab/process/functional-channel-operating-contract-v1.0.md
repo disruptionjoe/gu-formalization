@@ -24,16 +24,22 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.155.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.155.md`.
+`lab/process/conditional-physics-ledger-v0.156.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.156.md`.
 
-Current nonzero-fermion stationary correction: under maximal rank of the
-draft-9.16 off-diagonal blocks, the finite stationary kernel reduces exactly
-to `ker(C) -> coker(B)`, conditionally `64 x 64` on each desired/mirror K77
-`192+128` sector. Southeast zero does not force a mode and plain coefficient
-conjugation cannot split desired/mirror nullities. Build the actual source
-`A/B/C` ranks and effective maps across full `U(64,64)`, moving Spin and two
-`U(32,32)` halves before coupled saddle, BV/domain or index/count work.
+Current nonzero-fermion stationary correction: the v0.155 quotient theorem
+survives, but its projected `64 x 64` W instantiation is conditional-only
+because neither accepted W nor W-plus-mirror graph closes. On full
+`Omega1(S)+Omega0(S)`, the q-repaired rival has rank/nullity `256/1664` but
+was already source-sign/graph scoped-killed. Both canonical source-faithful
+row/column trace-`q`/Pin candidates have exact rank/nullity `1920/0` at the
+fixed nonzero one-form fixture for full `U(64,64)`, moving Spin and two
+`U(32,32)` halves, which remain separate parent witnesses. Deleting the
+action-tied lower row manufactures 128 modes. Next compute the moving-`varpi`
+determinant/rank-loss locus and intersect it with existing bosonic stationary
+branches, keeping the southeast-nonzero rival separate. Do not retune the
+exhausted trace-`q` signs; only a nonempty nonzero intersection advances to
+coupled saddle, BV/domain and index/count work.
 
 Current relative-boundary/P3 correction: observed boundary winding maps
 canonically into P3's relative real-`KO` input twist, with exact characteristic

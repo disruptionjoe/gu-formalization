@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `full_carrier_stationary_residual_audit.py` enforces ledger v0.156's
+  projected-versus-full carrier correction, q-repaired/source-faithful split,
+  exact parentwise rank fingerprints, fixed-fixture and analytic/BV fences,
+  unchanged accounting and moving-`varpi` determinant-locus successor.
+
 - `nonzero_fermion_stationary_schur_reduction_audit.py` enforces ledger
   v0.155's exact maximal-rank residual theorem, conditional K77 `64 x 64`
   typing, plain-conjugation no-selector, southeast-rival separation and all

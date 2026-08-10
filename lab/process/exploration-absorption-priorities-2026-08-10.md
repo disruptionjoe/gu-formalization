@@ -9,6 +9,26 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.156 corrects the carrier before further determinant work. The v0.155
+quotient theorem is exact, but no accepted source operator preserves the
+rank-192 W carrier, so its `64 x 64` instantiation is conditional-only. The
+full q-repaired rival has a 1664-dimensional algebraic kernel but was already
+source-sign/graph scoped-killed; both canonical source-faithful row/column
+candidates are invertible at the fixed fixture across all three separately
+typed parent witnesses. The highest-information Build is now the moving-
+`varpi` determinant/rank-loss locus intersected with existing bosonic
+stationary branches. Keep the southeast-nonzero rival separate. Do not retune
+the exhausted trace-`q` signs, and do not pay for coupled Euler/domain work
+unless a nonzero rank-loss intersection survives.
+
+Postflight pre-registration sharpens how to read that successor. The current
+`0=0` nullities do not test mirror selection. On the moving locus, symmetric
+nonzero nullities strengthen the external-tiebreak reading; action-independent
+asymmetry falsifies it; action-owned asymmetry credits the source action with
+the required selection. Freeze these readings before computing. Keep the
+Schur “source residual” distinct from the `LT-GR3` residual-square action
+parent, which is not touched by this wave.
+
 Ledger v0.155 narrows the nonzero-fermion Build to an exact residual-map
 problem. Under maximal off-diagonal rank the desired and mirror K77 sectors
 each reduce from `192+128` variables to one `64 x 64` effective map. Southeast
@@ -187,29 +207,34 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — P3-to-source bundle diagonal and restricted action.** Both the
+1. **Build A — moving-`varpi` full-operator rank-loss locus.** Compute the
+   determinant/rank-loss variety of the canonical full source-faithful
+   row/column candidates and intersect it with the already-built bosonic
+   stationary branches. Keep the southeast-nonzero branch separate. Stop if
+   every nonzero intersection is empty; advance only a surviving intersection.
+2. **Build B — coupled nonzero-fermion functional, conditional on Build A.**
+   For a surviving nonzero rank-loss point, compute the live fermion current,
+   mixed Hessian, source reality and Krein/Green/BV domain. Do not use the
+   q-repaired 1664 kernel or an unclosed W projection as the input.
+3. **Build C — P3-to-source bundle diagonal and restricted action.** Both the
    direct and current-action self-dual P3 horns are closed. Construct or kill
    an explicit embedding of P3's auxiliary `SU(2)` bundle as the tangential
    `SU(2)+` source subbundle, restrict `I1` before variation, and recompute the
-   complete Euler/BV bank. Only after that should a characteristic amplitude
-   equation, sign map or common Green/Krein and BV--BFV domain advance. Retain
-   a generic external normalizer only as a separately priced fallback.
-2. **Build B — nonzero-fermion source-operator branch.** Select the complete
-   source-family K77 Dirac/RS operator, solve a stationary nonzero spinor, and
-   only then compute the live current, mixed Hessian and Krein/Green domain.
-3. **Source only if genuinely new — replacement operator.** A replacement
+   complete Euler/BV bank only after the operator/domain gate supplies an
+   eligible physical carrier.
+4. **Source only if genuinely new — replacement operator.** A replacement
    Shiab or source-derived restricted zero-order port must introduce a new
    typed object with positive constraint surplus. Do not retune the closed
    native-even, total-grading-q or trace-q degree-duality cells.
-4. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
+5. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
    fail closed on the silent Hermitization in `ghost_parity_krein.py`; then
    scramble the carrier mass test and hostile-review the T1--T4 ambient claim.
    Do not migrate those ambient results before this check.
-5. **Compose/representation — type the forty neutral states.** Cross-tab the
+6. **Compose/representation — type the forty neutral states.** Cross-tab the
    exact `32+8` neutral count against the moving-Spin carrier, the
    `8192+8192` block/coset reduction, the eventual mass operator and anomaly
    constraints. Do not call the states dark matter or physical survivors.
-6. **Conditional analytic/index route.** The arbitrary-signature spectral
+7. **Conditional analytic/index route.** The arbitrary-signature spectral
    triple and index literature is relevant, but it reopens only after the
    action reduction supplies a candidate fundamental symmetry, closed domain
    and Fredholm operator. Literature availability is not a GU realization.

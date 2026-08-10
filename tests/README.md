@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_full_carrier_stationary_residual_probe.py`
+  retypes the conditional projected `64 x 64` residual against the full
+  1920-dimensional source carrier, proves the q-repaired rival has exact
+  rank/nullity `256/1664`, and proves both canonical source-faithful row/column
+  candidates are full rank at the fixed fixture across full U, moving Spin and
+  two U-half parent witnesses. Deleting the action-tied lower row plants 128
+  false modes (`73/73 PASS`, exact Sage over `GF(1000033)` and `QQ(i)`).
+
 - `channel-swings/selected_k77_nonzero_fermion_stationary_schur_reduction_probe.py`
   proves the exact `ker(C)->coker(B)` reduction for the draft-9.16 southeast-
   zero candidate under maximal off-diagonal rank, instantiates the conditional

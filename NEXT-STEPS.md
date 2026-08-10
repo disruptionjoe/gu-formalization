@@ -7,6 +7,21 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 FULL-CARRIER STATIONARY RESIDUAL (ledger v0.156).** The
+> v0.155 quotient theorem survives, but its `64 x 64` W instantiation is
+> conditional-only: neither accepted operator preserves W or W plus mirror.
+> On full `Omega1(S)+Omega0(S)`, the q-repaired rival has rank/nullity
+> `256/1664` but was already source-sign/graph scoped-killed. Both canonical
+> source-faithful row/column trace-`q`/Pin candidates have exact rank/nullity
+> `1920/0` at the fixed nonzero one-form fixture for full `U(64,64)`, moving
+> Spin and two `U(32,32)`-half witnesses. Suppressing the action-tied lower
+> row manufactures 128 false modes. **Next compute the full moving-`varpi`
+> determinant/rank-loss locus and intersect it with existing bosonic
+> stationary branches, keeping the southeast-nonzero rival separate. Advance
+> to coupled fermion-current Euler and BV/Green domain only for a nonempty
+> nonzero intersection; do not retune the exhausted trace-`q` signs.** No
+> datum, P1/P2/P3, verdict, residue, quotient or canon moves.
+
 > **2026-08-10 NONZERO-FERMION STATIONARY SCHUR REDUCTION (ledger v0.155).**
 > Under maximal rank of the draft-9.16 off-diagonal blocks, the finite
 > stationary kernel of `[A B; C 0]` is exactly the kernel of

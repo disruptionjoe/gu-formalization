@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.156; six
+distance/evidence scope corrections; headline unchanged).** The v0.155
+quotient theorem is retained, but its `64 x 64` W instantiation is not an
+actual source-operator subproblem because neither accepted graph closes. On
+the full 1920-dimensional carrier, the q-repaired rival has nullity 1664 but
+was already source-sign/graph scoped-killed; both canonical source-faithful
+row/column trace-`q`/Pin candidates have nullity zero at the fixed fixture for
+full `U(64,64)`, moving Spin and two `U(32,32)`-half witnesses. The next Build
+computes the moving-`varpi` determinant-zero locus and its intersection with
+the bosonic stationary branches, keeping the southeast-nonzero rival
+separate. Only a nonempty nonzero intersection admits coupled fermion-current
+Euler and BV/Green-domain work. No datum, P1/P2/P3, verdict, residue, quotient,
+canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.155; six
 distance-only migrations; headline unchanged).** The source-displayed
 southeast-zero fermion equation has an exact finite reduction under maximal

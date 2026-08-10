@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-full-carrier-stationary-residual-source-return-2026-08-10.md`](selected-k77-full-carrier-stationary-residual-source-return-2026-08-10.md)
+  records source confirmation of the full four-field/southeast-fork grammar,
+  the Layer-0 correction from projected W to full `Omega1(S)`, and source
+  silence on W graphs, moving-`varpi` rank loss, BV selection and domain.
+
 - [`selected-k77-nonzero-fermion-stationary-schur-reduction-source-return-2026-08-10.md`](selected-k77-nonzero-fermion-stationary-schur-reduction-source-return-2026-08-10.md)
   records source support for the draft-9.16 block grammar, independent barred
   fields and southeast fork, and source silence on maximal ranks, the residual
