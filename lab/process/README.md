@@ -7,14 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.158. The exact 128-dimensional
-graph is action-active: both Pin placements have rank-128 induced Green
-matrices and rank-128 transverse connection-current cells, with exact radial
-current cancellation. But the full principal Euler residual leaks rank 128
-outside the graph receiver in timelike, spacelike and null tested strata.
-Build or kill an action/source-owned receiver or constraint completion before
-BV/domain work. Registry:
-`selected-k77-gamma-trace-graph-dynamics-gate.json`.
+Current append-only progress surface: ledger v0.159. The natural K77 southeast
+port is transverse to the v0.158 graph leak; the natural gauge image overlaps
+only rank 64 at the null covector and none nonnull; and the smallest receiver
+has rank 256 but requires 128 additional paired left fields not owned by the
+source. Build or kill a source-owned paired action hull, otherwise return to
+the unrestricted source operator. Registry:
+`selected-k77-high-conviction-receiver-completion.json`.
+
+Predecessor v0.158 supplies the action-active nonclosed graph and is narrowed
+only by eliminating three bounded completion routes.
 
 Predecessor v0.157 supplies the exact tautological stationary graph; it is
 narrowed from standalone carrier to action-active nonclosed reduction.

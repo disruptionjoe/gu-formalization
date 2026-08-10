@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 HIGH-CONVICTION RECEIVER COMPARISON (ledger v0.159).** Three
+> specialist outliers are now exact on the v0.158 K77 graph. The natural
+> two-coefficient southeast family is transverse to the leak; the natural
+> gauge image overlaps only rank 64 at the null covector and none nonnull; and
+> the smallest enclosing receiver has rank 256 but requires 128 additional
+> paired left fields not owned by the source. **Next construct or kill a
+> source-owned paired rank-256 field/action hull. If source grammar cannot own
+> it without an arbitrary map, stop the graph route and return to the
+> unrestricted source operator.** A broader southeast family must be typed and
+> parameter-counted before inspection. No verdict, datum, residue, quotient,
+> canon or public posture moves.
+
 > **2026-08-10 GRAPH-DYNAMICS GATE (ledger v0.158).** The exact
 > `Omega0`--gamma-trace graph is action-active: both Pin placements have
 > rank-128 induced Green matrices in tested observed timelike, spacelike and

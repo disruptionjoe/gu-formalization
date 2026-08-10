@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `high_conviction_receiver_completion_audit.py` enforces ledger v0.159's
+  two-track council learning, exact southeast/gauge/leak intersections,
+  rank-256 minimal-receiver action cost, scoped hostile review, unchanged
+  accounting and paired-hull-or-unrestricted-operator successor.
+
 - `gamma_trace_graph_dynamics_audit.py` enforces ledger v0.158's independent
   left/right/Krein action typing, rank-128 Green and transverse-current banks,
   radial cancellation, rank-128 full-Euler receiver leak, deferred BV/domain,

@@ -24,17 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.158.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.158.md`.
+`lab/process/conditional-physics-ledger-v0.159.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.159.md`.
 
-Current graph-dynamics correction: v0.157's exact 128-dimensional graph has a
-full-rank induced local Green/kinetic matrix and live transverse connection
-current, but the full principal Euler residual leaks rank 128 outside its
-equation receiver in timelike, spacelike and null tested strata. Do not build
-BV on the graph alone. Construct or kill an action/source-owned receiver or
-constraint completion, comparing the southeast-nonzero map, leaked-image
-extension and genuine gauge/BV image. Keep all parent and W/mirror scopes
-separate; no physical mode, index or count follows.
+Current receiver-completion correction: v0.158's exact action-active graph
+still leaks rank 128. Its natural two-coefficient K77 southeast port is
+transverse to that leak, including the K95 tied `-11/12` control. The natural
+gauge image overlaps only rank 64 at a null covector and none nonnull. The
+smallest enclosing receiver has rank 256 but requires 128 additional paired
+left field directions that the source action does not own. Next construct or
+kill a source-owned paired rank-256 field/action hull; if that needs an
+arbitrary map, return to the unrestricted source operator. Keep broader
+southeast maps, W/mirror and all action parents separate; no physical mode,
+index or count follows.
 
 Current relative-boundary/P3 correction: observed boundary winding maps
 canonically into P3's relative real-`KO` input twist, with exact characteristic
@@ -992,6 +994,30 @@ process/epistemic review runs after three to five material Builds or when a
 high-fanout premise changes; it does not run all lenses on every cell. This
 core-plus-triggered rule replaces persona-count theater while preserving
 genuine disciplinary divergence.
+
+### Two-track council synthesis
+
+A council synthesis must preserve two rankings rather than collapsing every
+recommendation into the modal answer:
+
+1. **broad convergence** -- support across genuinely different disciplines;
+2. **high-confidence specialist outliers** -- a minority proposal scored by
+   specialist fit, evidence mode, confidence, falsifiability, information gain
+   and cost.
+
+Every outlier receives an explicit disposition: `SELECTED`, `DEFERRED` with a
+revival trigger, or `REJECTED` with a reason. The synthesis states which
+ranking selected the next experiment. A pooled paragraph without the
+individual confidence and disposition record is not a durable council result.
+
+The acceptance test is operational: the council must change the next
+discriminator, prevent expensive work on a mistyped object, or explicitly
+record that it caused no priority change. Agreement by itself is not progress.
+This rule records the 2026-08-10 lesson that a 25-lens review correctly ordered
+the action/Green/receiver gate and prevented premature BV/domain construction,
+while its durable wave packet flattened the minority southeast, coisotropic
+completion and gauge-image proposals. Those proposals therefore survived only
+implicitly until the following Run restored them as separately scored rivals.
 
 ## Dispatch without percentages
 

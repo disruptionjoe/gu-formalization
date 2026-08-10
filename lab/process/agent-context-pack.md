@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.159 receiver-completion fence:** the natural two-coefficient
+> K77 southeast family is transverse to the exact v0.158 graph leak; the K95
+> tied `-11/12` control leaves residual rank 128. The natural gauge symbol is a
+> complex only at the null covector, where it overlaps rank 64 of the leak; it
+> is not a full BV differential. The smallest enclosing receiver has rank 256
+> but needs 128 additional paired left fields not owned by the source. Next
+> construct or kill a source-owned paired 256-field action hull; if it needs an
+> arbitrary map, return to the unrestricted source operator. Broader southeast
+> maps require advance typing and parameter counts.
+
 > **Current v0.158 graph-dynamics fence:** the exact 128-dimensional
 > `Omega0`--gamma-trace graph is action-active. Both Pin placements have
 > full-rank induced Green matrices in observed timelike, spacelike and null

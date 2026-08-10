@@ -9,15 +9,21 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.159 completes the bounded receiver-completion comparison selected
+from the high-confidence specialist outliers. The natural K77 southeast port
+is transverse to v0.158's leak; the natural gauge image overlaps only rank 64
+at the null covector and none nonnull; and the smallest receiver has rank 256
+but requires 128 additional paired left fields not owned by the source. The
+highest-information Build is now a source-ownership gate: derive both sides of
+a paired rank-256 field/action hull from the source action while preserving the
+rank-128 Green block. If this needs an arbitrary map, stop the graph route and
+return to the unrestricted source operator. A broader southeast class must be
+typed and parameter-counted before evaluation. Keep W, mirror and all parent
+descriptions separate.
+
 Ledger v0.158 establishes that v0.157's exact graph is action-active but not a
-closed full-Euler sector. Its induced Green and transverse-current matrices
-have rank 128, while the full principal residual leaks rank 128 outside the
-graph receiver in all three tested observed causal strata. The highest-
-information Build is now a bounded receiver-completion comparison: the
-source-admitted southeast-nonzero map, the smallest leaked-image extension,
-and a genuine gauge/BV image. Reject projection by fiat, preserve the induced
-Green form, and price any new object in constraint surplus before BV/domain
-work. Keep W, mirror and all parent descriptions separate.
+closed full-Euler sector. It is narrowed by v0.159's three failed bounded
+completion routes, not retracted.
 
 Ledger v0.157 remains the exact tautological moving-`varpi` intersection and
 is narrowed, not retracted: its 128-dimensional graph is real algebraic prior

@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.159; six
+distance/evidence migrations; headline unchanged).** Three high-confidence
+receiver-completion proposals are now separately exact. The natural K77
+southeast port is transverse to the graph leak, the natural gauge image covers
+only half the null leak, and the tautological rank-256 receiver requires 128
+additional paired left fields not owned by the source action. The graph route
+therefore advances only through a source-owned paired 256-field action hull or
+returns to the unrestricted source operator. A broader southeast class remains
+open subject to advance typing and parameter counting. No physical mode,
+chirality, index, count, datum, P1/P2/P3, verdict, residue, quotient, canon or
+public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.158; six
 distance/evidence migrations; headline unchanged).** The v0.157 graph is
 action-active: its local induced Green matrix and fourteen transverse

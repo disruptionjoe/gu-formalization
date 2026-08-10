@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-high-conviction-receiver-completion-source-return-2026-08-10.md`](selected-k77-high-conviction-receiver-completion-source-return-2026-08-10.md)
+  confirms that the source admits a nonzero southeast class, corrects the
+  displayed-zero reading as non-universal, and records silence on a selected
+  K77 map, coefficient, paired receiver hull, BV differential and domain.
+
 - [`selected-k77-gamma-trace-graph-dynamics-source-return-2026-08-10.md`](selected-k77-gamma-trace-graph-dynamics-source-return-2026-08-10.md)
   confirms independent barred/unbarred action fields and the fermion-current
   class, records no source correction, and records silence on the global
