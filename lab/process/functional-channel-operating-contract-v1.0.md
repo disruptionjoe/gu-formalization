@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.144.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.144.md`.
+`lab/process/conditional-physics-ledger-v0.145.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.145.md`.
+
+Current P3/native-pairing correction: every current parent-invariant
+quadratic pairing of the unprojected `Phi1 wedge Phi1` source curvature
+vanishes on the framed four-plane. The direct P3 amplitude horn is therefore
+killed: `n=+/-1` has no direct amplitude and `n=0` leaves all amplitudes. A
+self-dual `SU(2)` projection is nonzero but is a new source reduction rather
+than a moving-Spin, half-unitary or full-unitary invariant. Build owns its
+preservation by `B` and action/BV closure. Never substitute auxiliary BPST
+curvature or a chirality-weighted trace for the native parent invariant.
 
 Current characteristic-amplitude correction: for the remaining family
 `F_B=(t^2/3)Omega`, a fixed nonzero characteristic sector obeying

@@ -23,6 +23,18 @@ updated_at: "2026-08-10"
 > stabilizes, and the canonical-J question (does the moving reduction supply a fundamental symmetry — if
 > yes, the van den Dungen index route reopens).
 
+> **2026-08-10 P3 NATIVE CHARACTERISTIC-PAIRING KILL (ledger
+> v0.145).** The direct v0.144 horn is closed. On P3's framed four-plane,
+> `Phi1 wedge Phi1` has equal opposite self-dual/anti-self-dual quadratic
+> pairings. Moving-Spin Killing/vector trace, each `U(32,32)` half, full
+> `U(64,64)`, and the unitary central invariant all give exactly `C_B=0`.
+> Thus `n=+/-1` allows no direct amplitude and `n=0` leaves every amplitude.
+> A self-dual `SU(2)` projection is nonzero but is not a current parent
+> invariant. **Next construct or kill the P3-framed self-dual source reduction,
+> including preservation by `B` and action/BV ownership.** Do not substitute
+> auxiliary BPST curvature for the unprojected source curvature. P1/P2/P3 stay
+> unassigned; no canon, verdict, residue or quotient moves.
+
 > **2026-08-10 P3 CHARACTERISTIC-AMPLITUDE CONDITIONAL (ledger
 > v0.144).** The remaining source-family amplitude need not be supplied as an
 > arbitrary real: if the varied source connection carries a fixed nonzero

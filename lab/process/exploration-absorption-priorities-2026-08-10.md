@@ -9,6 +9,13 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.145 kills the direct P3 quadratic amplitude horn. Every current
+parent-invariant trace of the unprojected source curvature cancels between
+self-dual and anti-self-dual Spin(4) pieces. The nonzero self-dual control is
+not a current parent invariant. Primary Build therefore narrows again: build
+or kill the P3-framed `SU(2)` source reduction, its preservation by `B`, and
+its action/BV ownership before spending on sign or common-domain completion.
+
 Ledger v0.144 identifies a conditional external-datum route for the one
 remaining amplitude. On `F_B=(t^2/3)Omega`, a fixed nonzero source-connection
 characteristic sector obeys `k_B=C_B t^4/9` and discretizes `|t|`; a free
@@ -93,15 +100,13 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — source/P3 characteristic diagonal and native pairing.** The
-   local action-owned trace cancellation leaves one amplitude, and a fixed
-   nonzero characteristic sector can discretize its magnitude. Compute the
-   source connection's characteristic pairing on P3's framed four-cycle for
-   moving Spin, the two `U(32,32)` halves, and full `U(64,64)`. Kill any horn
-   whose pairing is zero, unowned, or continuously normalized. If one
-   survives, test the P1 sign map and carry the sector into the common
-   Green/Krein and coupled BV--BFV domain. Retain a generic external normalizer
-   only as a separately priced fallback.
+1. **Build A — P3-framed self-dual source reduction.** The native pairings are
+   exactly zero, so the direct P3 quadratic horn is closed. Construct or kill
+   the nonzero self-dual `SU(2)` reduction using the framed four-plane, prove
+   `B` preserves it, and return the restricted field space to the action Euler
+   and BV maps. Only after that should a characteristic amplitude equation,
+   sign map or common Green/Krein and BV--BFV domain advance. Retain a generic
+   external normalizer only as a separately priced fallback.
 2. **Build B — nonzero-fermion source-operator branch.** Select the complete
    source-family K77 Dirac/RS operator, solve a stationary nonzero spinor, and
    only then compute the live current, mixed Hessian and Krein/Green domain.

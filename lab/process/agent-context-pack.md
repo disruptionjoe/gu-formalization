@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.145 P3/native-pairing fence:** the direct quadratic P3
+> amplitude horn is killed. On the framed four-plane the unprojected source
+> curvature has equal opposite self-dual/anti-self-dual contributions, so the
+> moving-Spin, both `U(32,32)` halves, full `U(64,64)`, and central unitary
+> quadratic pairings all vanish. `n=+/-1` gives no direct amplitude; `n=0`
+> leaves all amplitudes. A self-dual `SU(2)` projection is nonzero but is a new
+> reduction/action-ownership burden. Never substitute P3 BPST curvature or a
+> chirality-weighted trace for the current parent invariant. P1/P2/P3 remain
+> unassigned.
+
 > **Current v0.144 characteristic-amplitude fence:** for the remaining family
 > `F_B=(t^2/3)Omega`, a fixed nonzero characteristic sector would obey
 > `k_B=C_B t^4/9` and discretize the magnitude, leaving at most a sign. This is

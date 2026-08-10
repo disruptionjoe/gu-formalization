@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "status": "NATIVE_QUADRATIC_PAIRING_ZERO_ALL_CURRENT_PARENTS__DIRECT_P3_AMPLITUDE_HORN_KILLED__SELF_DUAL_REDUCTION_REVIVAL_OPEN",
+  "predecessor": "lab/process/selected-k77-p3-characteristic-amplitude-selector.json",
+  "source_return": "SOURCE_SILENT_P3_SOURCE_CONNECTION_DIAGONAL_AND_SELF_DUAL_REDUCTION",
+  "native_pairings": {
+    "moving_spin_killing": 0,
+    "u3232_half_1": 0,
+    "u3232_half_2": 0,
+    "u6464_full": 0,
+    "unitary_central_quadratic": 0
+  },
+  "self_dual_controls": {
+    "u3232_half_1_relative": 192,
+    "u3232_half_2_relative": 192,
+    "u6464_full_relative": 384,
+    "parent_invariant_without_reduction": false
+  },
+  "p3_native_diagonal": {
+    "n_minus_1": "NO_REAL_AMPLITUDE",
+    "n_0": "ALL_AMPLITUDES",
+    "n_plus_1": "NO_REAL_AMPLITUDE",
+    "finite_nonempty_solution_set": false
+  },
+  "direct_horn": "KILLED",
+  "revival": "ACTION_OWNED_P3_FRAMED_SELF_DUAL_SU2_SOURCE_REDUCTION",
+  "next_gate": "CONSTRUCT_OR_KILL_P3_FRAMED_SU2_REDUCTION_WITH_SOURCE_CONNECTION_PRESERVATION_AND_ACTION_BV_OWNERSHIP__THEN_RECOMPUTE_CHARACTERISTIC_EULER_AND_COMMON_DOMAIN",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "p1_p2_p3": "UNCHANGED_AND_UNASSIGNED"
+}

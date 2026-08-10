@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `p3_native_characteristic_pairing_audit.py` enforces ledger v0.145's exact
+  zero native quadratic pairings, direct P3 horn kill, nonzero-but-unowned
+  self-dual reduction control, unchanged accounting and action/BV reduction
+  successor.
+
 - `p3_characteristic_amplitude_selector_audit.py` enforces ledger v0.144's
   conditional characteristic-class magnitude selector, the current
   auxiliary-P3/source-connection Layer-0 fence, fixed-versus-free pairing
@@ -569,6 +574,7 @@ selected notes below and in each script header.
 - `global_projector_amplitude_layer0_audit.py`
 - `zero_fermion_vev_selector_exhaustion_audit.py`
 - `p3_characteristic_amplitude_selector_audit.py`
+- `p3_native_characteristic_pairing_audit.py`
 
 ## Eric-lane decisive source-collision gate
 
