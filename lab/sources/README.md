@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-source-owned-hull-interface-source-return-2026-08-10.md`](selected-k77-source-owned-hull-interface-source-return-2026-08-10.md)
+  confirms the independent barred/unbarred `Omega0 plus Omega1` ambient field
+  types, corrects the new-field-type reading, and records silence on a fixed
+  finite reduction, action invariance, BV/domain and datum application.
+
 - [`selected-k77-high-conviction-receiver-completion-source-return-2026-08-10.md`](selected-k77-high-conviction-receiver-completion-source-return-2026-08-10.md)
   confirms that the source admits a nonzero southeast class, corrects the
   displayed-zero reading as non-universal, and records silence on a selected

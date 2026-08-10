@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 SOURCE-OWNED HULL INTERFACE (ledger v0.160).** Primary-source
+> collision corrects one Layer-0 type in v0.159: the additional paired left
+> directions have the already-declared independent barred/unbarred
+> `Omega^0 plus Omega^1` field type. They are not 128 new fundamental fields.
+> The source still does not select one fixed, covector-independent finite
+> reduction, and equal rank 256 in three causal strata does not prove equal
+> subspaces. **Next form the fixed common hull and test the action-owned moving
+> reduction conditions `P_epsilon u=u` and `D_varpi chi_epsilon=0` against the
+> graph, mirror, random graded 192s, 640 and 832. Stop if only a fitted
+> projector or unrestricted function-valued map selects it.** BV/domain,
+> observation/chirality/mirror, datum/index/count and the Higgs/Yukawa,
+> anomaly and cosmology rendezvous gates remain ordered downstream. No
+> verdict, residue, quotient, datum, canon or public posture moves.
+
 > **2026-08-10 HIGH-CONVICTION RECEIVER COMPARISON (ledger v0.159).** Three
 > specialist outliers are now exact on the v0.158 K77 graph. The natural
 > two-coefficient southeast family is transverse to the leak; the natural

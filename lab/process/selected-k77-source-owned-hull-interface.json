@@ -1,0 +1,65 @@
+{
+  "artifact_type": "construction_registry",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-235056-gu-k77-source-owned-hull-interface-expanded",
+  "status": "EXACT_INPUT_PLUS_TYPED_COMPOSITION_RESULT",
+  "predecessor": "lab/process/selected-k77-high-conviction-receiver-completion.json",
+  "checks": {
+    "new": 31,
+    "new_failures": 0,
+    "predecessor_exact_checks": 29,
+    "predecessor_replayed_by_predecessor": true
+  },
+  "declared_ledger_rows": {
+    "critical_path": [
+      "RA-D4",
+      "RA-F1",
+      "RA-F2",
+      "RA-G2",
+      "LT-SM3",
+      "LT-SM8",
+      "AC-A1",
+      "AC-F1",
+      "AC-F3",
+      "AC-F5",
+      "AC-G1a"
+    ],
+    "rendezvous_only": [
+      "RA-E1",
+      "RA-E2",
+      "RA-E3",
+      "RA-E7",
+      "LT-SM5",
+      "LT-SM6",
+      "LT-GR2c",
+      "LT-GR2d"
+    ],
+    "migrated": ["RA-D4", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"]
+  },
+  "exact_input": {
+    "per_stratum_receiver_rank": 256,
+    "added_equations": 128,
+    "paired_left_directions": 128,
+    "fixed_common_hull_rank": "UNTESTED",
+    "causal_strata": ["TIMELIKE", "SPACELIKE", "NULL"],
+    "pin_placements": 2
+  },
+  "layer0_correction": "SOURCE_OWNS_AMBIENT_BARRED_AND_UNBARRED_FIELD_TYPES__SOURCE_DOES_NOT_YET_SELECT_THE_FINITE_REDUCTION",
+  "acceptance_gates": [
+    "H1_SOURCE_TYPED_FIXED_REDUCTION",
+    "H2_FULL_EULER_CLOSURE",
+    "H3_VARIATIONAL_NOETHER_OWNERSHIP",
+    "H4_BV_AND_COMMON_DOMAIN",
+    "H5_OBSERVATION_CHIRALITY_MIRROR",
+    "H6_DATUM_INDEX_COUNT",
+    "H7_RENDEZVOUS"
+  ],
+  "early_stop_rule": "STOP_IF_ONLY_A_COVECTOR_DEPENDENT_FITTED_PROJECTOR_OR_NEW_UNRESTRICTED_FUNCTION_VALUED_MAP_SELECTS_THE_HULL",
+  "source_return": "SOURCE_CONFIRMS_AMBIENT_INDEPENDENT_BARRED_AND_UNBARRED_OMEGA0_PLUS_OMEGA1_CARRIERS__SOURCE_CORRECTS_NEW_FIELD_TYPE_READING__SOURCE_SILENT_ON_FIXED_FINITE_SUBBUNDLE_SELECTION_ACTION_INVARIANCE_BV_DOMAIN_AND_EXTERNAL_DATUM_APPLICATION",
+  "disposition": "RANK256_IS_PER_STRATUM_NOT_YET_ONE_FIXED_HULL__MISSING_DIRECTIONS_ARE_SOURCE_TYPED_BUT_SELECTOR_IS_UNOWNED__CONSTRUCTION_WORTH_CONTINUING_ONLY_THROUGH_ACTION_OWNED_MOVING_REDUCTION",
+  "next_gate": "TEST_MOVING_ACTION_OWNED_REDUCTION_P_EPSILON_U_EQUALS_U_AND_D_VARPI_CHI_EPSILON_EQUALS_ZERO_ON_THE_FIXED_COMMON_HULL_AGAINST_MIRROR_RANDOM192_640_AND832__STOP_IF_ONLY_A_FITTED_PROJECTOR_SELECTS_IT",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "p1_p2_p3": "UNCHANGED_UNUSED_FOR_LOCAL_CLOSURE"
+}

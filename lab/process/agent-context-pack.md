@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.160 source-owned-hull interface:** v0.159's 128 additional
+> paired directions have the source-declared independent barred/unbarred
+> `Omega0 plus Omega1` ambient field type. Do not call them new fundamental
+> fields. The source still does not select one fixed finite subbundle, and
+> equal per-stratum rank 256 does not imply one common hull. Next construct the
+> fixed common hull and test the action-owned moving reduction conditions
+> `P_epsilon u=u` and `D_varpi chi_epsilon=0` against graph, mirror, random
+> graded 192s, 640 and 832. Stop if only a fitted covector-dependent projector
+> or unrestricted function-valued map selects it. External datum cannot repair
+> local closure; BV/domain, observation/chirality/mirror, P3 index/count and
+> physics rendezvous remain downstream.
+
 > **Current v0.159 receiver-completion fence:** the natural two-coefficient
 > K77 southeast family is transverse to the exact v0.158 graph leak; the K95
 > tied `-11/12` control leaves residual rank 128. The natural gauge symbol is a

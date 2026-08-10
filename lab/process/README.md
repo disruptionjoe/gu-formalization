@@ -7,13 +7,17 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.159. The natural K77 southeast
-port is transverse to the v0.158 graph leak; the natural gauge image overlaps
-only rank 64 at the null covector and none nonnull; and the smallest receiver
-has rank 256 but requires 128 additional paired left fields not owned by the
-source. Build or kill a source-owned paired action hull, otherwise return to
-the unrestricted source operator. Registry:
-`selected-k77-high-conviction-receiver-completion.json`.
+Current append-only progress surface: ledger v0.160. The 128 additional paired
+directions required by v0.159 have the source-declared ambient barred/unbarred
+`Omega0 plus Omega1` field type; the source does not yet select one fixed,
+covector-independent finite reduction. Equal rank 256 in three strata is not
+a common-hull theorem. Build the common hull and test the action-owned moving
+reduction, rejecting a fitted projector or unrestricted map. Registry:
+`selected-k77-source-owned-hull-interface.json`.
+
+Predecessor v0.159 supplies the exact finite receiver ranks and three failed
+bounded completion routes. Its field-type ownership sentence is narrowed by
+v0.160; its ranks and route kills survive.
 
 Predecessor v0.158 supplies the action-active nonclosed graph and is narrowed
 only by eliminating three bounded completion routes.

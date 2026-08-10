@@ -9,6 +9,28 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.160 corrects the ownership type of v0.159's minimal receiver. The
+source already declares the ambient barred/unbarred `Omega0 plus Omega1`
+fields, so the additional paired directions do not require new fundamental
+field types. What remains unowned is one fixed, covector-independent moving
+reduction selecting them. The highest-information Build is now to construct
+the common tested-covector hull and test `P_epsilon u=u` plus
+`D_varpi chi_epsilon=0` against the graph, mirror, random graded 192s, 640 and
+832. Reject a fitted projector or unrestricted map. Only after this local
+variational gate should BV/domain, observation/chirality/mirror, P3 index/count
+and the Higgs/Yukawa, anomaly and cosmology rendezvous gates consume effort.
+
+Postflight mailbox review does not reorder that gate. The computational-spec
+requirements contract independently supports compiling scattered duties into
+an executable interface and is concordant with H1--H7; it is prior-art input
+for a later conformance comparison, not a replacement source. The exact
+three-state Krein `DEFINITE/POISED/COMPLEX` screen is retained as a candidate
+quadratic-channel diagnostic with revival trigger `ACTION_OWNED_FIXED_REDUCTION_AND_CORRECT_HERMITIZATION`.
+It must not run before the selector exists, and its current Cl(9,5)/SW
+calibration does not port a verdict into K77. The corrected five-indifference
+list and `LT-GR3` migration-scope warning are accepted as reading discipline;
+neither changes the present Build order.
+
 Ledger v0.159 completes the bounded receiver-completion comparison selected
 from the high-confidence specialist outliers. The natural K77 southeast port
 is transverse to v0.158's leak; the natural gauge image overlaps only rank 64

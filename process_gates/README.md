@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `source_owned_hull_interface_audit.py` enforces ledger v0.160's ambient-
+  carrier versus finite-selector correction, ordered H1--H7 acceptance
+  interface, scoped source return and hostile review, unchanged accounting and
+  fixed-moving-reduction successor.
+
 - `high_conviction_receiver_completion_audit.py` enforces ledger v0.159's
   two-track council learning, exact southeast/gauge/leak intersections,
   rank-256 minimal-receiver action cost, scoped hostile review, unchanged

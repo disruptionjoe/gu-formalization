@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.160; six
+distance/evidence migrations; headline unchanged).** The source's four-field
+grammar already owns the ambient independent barred/unbarred
+`Omega^0 plus Omega^1` field types needed by v0.159's extra paired directions.
+This retracts the new-field-type reading, not the finite-selector burden. The
+rank-256 receivers were computed separately at timelike, spacelike and null
+covectors; one fixed common hull and an action-owned moving reduction remain
+unbuilt. Next test `P_epsilon u=u` and `D_varpi chi_epsilon=0` on that fixed
+hull against graph, mirror, random graded 192s, 640 and 832, rejecting any
+fitted projector or unrestricted map. BV/domain, observed chirality/mirror,
+index/count and full physics rendezvous remain downstream. No physical mode,
+datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change is
+made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.159; six
 distance/evidence migrations; headline unchanged).** Three high-confidence
 receiver-completion proposals are now separately exact. The natural K77

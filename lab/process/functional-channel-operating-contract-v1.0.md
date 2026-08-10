@@ -24,19 +24,22 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.159.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.159.md`.
+`lab/process/conditional-physics-ledger-v0.160.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.160.md`.
 
-Current receiver-completion correction: v0.158's exact action-active graph
-still leaks rank 128. Its natural two-coefficient K77 southeast port is
-transverse to that leak, including the K95 tied `-11/12` control. The natural
-gauge image overlaps only rank 64 at a null covector and none nonnull. The
-smallest enclosing receiver has rank 256 but requires 128 additional paired
-left field directions that the source action does not own. Next construct or
-kill a source-owned paired rank-256 field/action hull; if that needs an
-arbitrary map, return to the unrestricted source operator. Keep broader
-southeast maps, W/mirror and all action parents separate; no physical mode,
-index or count follows.
+Current source-owned-hull correction: v0.159's exact per-stratum receiver
+still has rank 256 and needs 128 additional paired left directions. Primary-
+source collision shows that those directions have the already-declared
+independent barred/unbarred `Omega0 plus Omega1` field type. This retracts the
+new-fundamental-field reading only. The source does not select one fixed,
+covector-independent finite reduction, and equal ranks do not prove equal
+subspaces. Next form the common hull and test the action-owned moving reduction
+conditions `P_epsilon u=u` and `D_varpi chi_epsilon=0` against graph, mirror,
+random graded 192s, 640 and 832. Stop on a fitted projector or unrestricted
+function-valued map. Then, in order, build BV/domain, observed chirality/mirror,
+and only afterward apply P1/P3 to an actual relative index/count operator.
+Higgs/Yukawa, anomaly and cosmology remain same-action rendezvous tests; no
+physical mode, index or count follows from carrier typing.
 
 Current relative-boundary/P3 correction: observed boundary winding maps
 canonically into P3's relative real-`KO` input twist, with exact characteristic

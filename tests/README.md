@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_source_owned_hull_interface_probe.py` composes
+  the exact v0.159 receiver certificate with the primary four-field grammar.
+  It corrects the new-field-type reading while retaining the unowned fixed
+  reduction, forbids inferring one common hull from equal per-stratum rank
+  256, and emits the ordered H1--H7 acceptance contract (`31/31 PASS`).
+
 - `channel-swings/selected_k77_high_conviction_receiver_completion_probe.py`
   tests three high-confidence receiver-completion rivals on both Pin
   placements. It proves the natural K77 southeast span is transverse to the
