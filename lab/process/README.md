@@ -7,15 +7,14 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.137. Every named connection
-parent retains an exact v0.136 W/mirror leak witness, and the nonzero-branch
-pointwise first-action Hessian has no radical on their grades. The selected
-action therefore supplies no smaller admissible connection field tangent.
-Build next constructs the complete four-field BV/constraint/domain cohomology
-or a different source-compatible adapter. Gauge orbit, coupled solution
-tangent, BV distribution and analytic domain remain distinct; no verdict,
-residue, quotient or datum moves. Registry:
-`selected-k77-action-owned-leakage-composition.json`.
+Current append-only progress surface: ledger v0.138. The complete four-field
+zero-form connection port contains the preferred W/mirror leak on moving-Spin
+and two-half restricted parents at `alpha=beta`; the full-U odd coset requires
+`alpha=-beta`, so the source-full parent remains conflicted. Build next solves
+the graph-Riccati and lower-left adjoint gate before moving BV/domain descent.
+Port inclusion, graph invariance, BV cohomology and analytic domain remain
+distinct; no verdict, residue, quotient or datum moves. Registry:
+`selected-k77-four-field-zero-order-port.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

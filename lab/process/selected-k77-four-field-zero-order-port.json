@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260810-090656-gu-k77-four-field-zero-order-port",
+  "status": "EXACT_NECESSARY_PORT_COMPOSITION",
+  "layer0": {
+    "one_form_invariance": "V0_136_FAILS",
+    "zero_form_port_image_inclusion": "DECIDED_HERE",
+    "graph_invariance": "OPEN_DISTINCT",
+    "bv_cohomology": "OPEN_DISTINCT",
+    "analytic_domain": "OPEN_DISTINCT"
+  },
+  "exact_results": {
+    "fields": [
+      "GF(1000033)",
+      "QQ(i)"
+    ],
+    "carriers": [
+      "W_sd192",
+      "mirror_asd192"
+    ],
+    "parents": {
+      "moving_spin_grade2": {
+        "preferred_ratio": "alpha=beta",
+        "leak_rank_each": 64,
+        "port_rank_each": 128,
+        "joined_rank_each": 128,
+        "quotient_coefficient_rank_each": 1
+      },
+      "two_u32_32_halves_grade6": {
+        "preferred_ratio": "alpha=beta",
+        "leak_rank_each": 64,
+        "port_rank_each": 128,
+        "joined_rank_each": 128,
+        "quotient_coefficient_rank_each": 1
+      },
+      "source_full_u64_64_odd_coset_grade1": {
+        "preferred_ratio": "alpha=-beta",
+        "leak_rank_each": 64,
+        "port_rank_each": 128,
+        "joined_rank_each": 128,
+        "quotient_coefficient_rank_each": 1
+      }
+    },
+    "single_slot_plants_rejected": 12,
+    "common_ratio_for_even_and_odd_parent_classes": false
+  },
+  "disposition": "PARENT_SPLIT__RESTRICTED_PARENTS_HAVE_UNIQUE_PORT_COMPATIBLE_RATIO__SOURCE_FULL_PARENT_HAS_INCOMPATIBLE_PARITY_REQUIREMENTS",
+  "scope": {
+    "closed": "the source equation-9.16 zero-form connection cell has enough exact image to absorb the preferred-ratio W or mirror leakage on each restricted parent ablation",
+    "not_closed": [
+      "construction of a graph map G from W or mirror to Omega0(S)",
+      "lower-left adjoint compatibility and the nonlinear graph Riccati identity",
+      "one common coefficient on the source-full parent containing even and odd parity classes",
+      "moving overlap descent and complete BV or constraint cohomology",
+      "closed Krein or Green domain",
+      "physical spectrum index or generation count"
+    ]
+  },
+  "source_return": {
+    "SOURCE-CONFIRMS": "the complete four-field equation-9.16 grammar contains ordinary zero-form-to-one-form connection cells",
+    "SOURCE-SILENT": "a W graph adapter, parent selection, BV differential, physical cohomology and closed domain"
+  },
+  "frontier_delta": {
+    "conditions_closed": 1,
+    "conditions_opened": 2,
+    "remaining_named_conditions": 2
+  },
+  "next_gate": "solve or kill the complete W and mirror graph Riccati plus lower-left adjoint condition on the two restricted-parent horns; separately retain the source-full coefficient conflict, then test moving descent and BV cohomology",
+  "accounting": {
+    "verdict_change": false,
+    "residue_change": false,
+    "quotient_change": false,
+    "datum_change": false,
+    "p1_p2_p3_change": false
+  }
+}

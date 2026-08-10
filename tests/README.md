@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_four_field_zero_order_port_probe.py` composes
+  the complete equation-9.16 zero-form connection port with the exact W/mirror
+  leak witnesses. Over both `GF(1000033)` and `QQ(i)`, each preferred leak has
+  rank `64` inside a rank-`128` port and the quotient coefficient condition has
+  rank one. Moving Spin/two halves require `alpha=beta`; the full-U odd coset
+  requires `alpha=-beta`. Twelve broken-port plants fire; graph/BV/domain
+  closure remains open (`89/89`).
+
 - `channel-swings/selected_k77_action_owned_leakage_composition_probe.py`
   composes the source-native connection tangent, complete nonzero-branch
   pointwise first-action Hessian and v0.136 leak witnesses. Every named parent

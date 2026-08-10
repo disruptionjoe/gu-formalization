@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.138 four-field port fence:** the ordinary zero-form connection
+> port has exact rank `128` and contains the preferred rank-`64` W or mirror
+> leak. Port compatibility uniquely requires `alpha=beta` on moving Spin and
+> the two `U(32,32)` halves, but `alpha=-beta` on the full-U odd coset. Never
+> call this graph invariance, a parent selector, BV cohomology, domain,
+> chirality, spectrum, index or count. Solve the W/mirror graph-Riccati and
+> lower-left adjoint conditions on the restricted horns next; preserve the
+> source-full conflict. P1/P2/P3 remain unused.
+
 > **Current v0.137 action-ownership fence:** the selected action's admissible
 > connection field tangent retains all three certified v0.136 leak witnesses,
 > and its nonzero-branch pointwise Hessian has no radical on their grades.

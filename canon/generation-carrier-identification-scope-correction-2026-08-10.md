@@ -114,6 +114,16 @@ is therefore the complete equation-9.16 four-field BV/constraint/domain
 complex or a different source-compatible adapter, not another search for a
 hidden restriction in the bosonic pointwise action.
 
+Ledger v0.138 then checks the complete four-field port rather than the
+one-form block alone. The ordinary `Omega0(S) -> Omega1(S)` connection cell
+has rank 128 and contains the preferred rank-64 W or mirror leak on each
+parent ablation. The quotient condition uniquely requires `alpha=beta` on
+moving Spin/two halves and `alpha=-beta` on the full-U odd coset. Thus two
+restricted-parent adapter horns survive a necessary condition, while the
+source-full parent remains coefficient-conflicted. Graph invariance,
+lower-left adjoint compatibility, BV cohomology and domain selection remain
+open; this is still a scope correction, not a canon verdict.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
@@ -123,5 +133,6 @@ hidden restriction in the bosonic pointwise action.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-bosonic-parent-action-ownership-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-induced-fermion-principal-discriminator-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-zero-order-w-mirror-parent-leakage-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-four-field-zero-order-port-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-leakage-composition-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

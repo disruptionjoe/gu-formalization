@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.137.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.137.md`.
+`lab/process/conditional-physics-ledger-v0.138.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.138.md`.
 
 Current high-fanout premise correction: exact fixed-`W` theorems remain valid
 conditionally, but neither the old internal Casimir nor the bosonic pointwise
@@ -41,8 +41,12 @@ its mirror and the three parent witness classes. No nonzero coefficient
 preserves W or W plus mirror for any witness, and W/mirror remain symmetric.
 v0.137 composes those witnesses with the source-native connection tangent and
 nonzero-branch pointwise first-action Hessian. Every parent retains its leak
-witness and none lies in a Hessian radical. Build now constructs the complete
-four-field BV/constraint/domain cohomology or a different adapter.
+witness and none lies in a Hessian radical. v0.138 then composes the complete
+equation-9.16 zero-form connection port. Its rank-128 image contains the
+preferred rank-64 W or mirror leak, with a unique ratio `alpha=beta` on moving
+Spin/two halves and `alpha=-beta` on the full-U odd coset. The restricted
+horns advance to the graph-Riccati/lower-left gate; the source-full parent
+remains conflicted. Port inclusion is not graph invariance or BV cohomology.
 Characteristic or invariant subspace is not physical cohomology or count.
 Verify owns the silent-Hermitization repair, carrier-mass scramble and hostile
 T1--T4 check. Compose owns the exact `40=32+8` neutral-state cross-tab without

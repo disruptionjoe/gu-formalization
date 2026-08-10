@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 FOUR-FIELD ZERO-ORDER PORT (ledger v0.138).** The ordinary
+> `Omega0(S) -> Omega1(S)` connection cell in the already-built equation-9.16
+> grammar has rank `128` and contains the preferred rank-`64` W or mirror leak
+> on each parent ablation. The quotient condition has rank one: moving Spin
+> and the two `U(32,32)` halves require `alpha=beta`, while the full-U odd
+> coset requires `alpha=-beta`. The two restricted horns therefore pass a
+> necessary adapter gate; the source-full parent remains coefficient-conflicted.
+> **Next solve or kill the W/mirror graph-Riccati and lower-left adjoint
+> conditions before moving descent, BV cohomology or global domains.** Image
+> inclusion is not graph invariance, chirality, cohomology, spectrum or count.
+> No verdict, residue, quotient, datum, or P1/P2/P3 moves.
+
 > **2026-08-10 ACTION-OWNED LEAKAGE COMPOSITION (ledger v0.137).** The
 > selected action does not provide the smaller admissible connection field
 > tangent left open by v0.136. Moving Spin retains the leaking grade-two

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `four_field_zero_order_port_audit.py` enforces ledger v0.138's exact
+  parent-specific rank-64-in-rank-128 port theorem, unique projective ratios,
+  source-full coefficient conflict, hostile graph/BV/domain fence, unchanged
+  accounting and graph-Riccati/lower-left successor.
+
 - `action_owned_leakage_composition_audit.py` enforces ledger v0.137's exact
   composition: every named parent retains a certified leak witness, the
   nonzero-branch pointwise action Hessian has no radical on their grades, the
