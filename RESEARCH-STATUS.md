@@ -8,7 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.150; five
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.151; five
+distance-only migrations; headline unchanged).** The source-owned `A0`
+same-bundle bitorsor globalizes the relative construction, but its canonical
+identity section has winding zero. A generic Chern--Simons interpolation is
+continuous; a nonzero integer requires an unowned large-gauge component.
+Ambient `A0` is not automatically the observed Lorentzian chiral connection,
+and the real invariant pairing retains one projective ratio. The current
+internal relative selector is therefore killed, while an explicitly typed
+external `(n,r)` datum remains live. Next Build couples that datum through an
+action-owned tangential chiral reduction and computes multirow constraint
+surplus; it dies if it relabels P3, breaks BFV invariance or has nonpositive
+surplus. No P1/P2/P3 assignment, verdict, residue, quotient, canon or public-
+posture change is made.
+
+**Predecessor result 2026-08-10 (ledger v0.150; successor scoped by v0.151;
+five
 distance-only migrations; headline unchanged).** The absolute tangential unit
 selector is killed on both admissible Lorentzian global horns tested. Ordinary
 `H^4` vanishes on globally hyperbolic `R x Sigma3`; closed time-oriented

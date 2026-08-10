@@ -7,7 +7,22 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
-> **2026-08-10 LORENTZIAN CHIRAL-CLASS/PAIRING GATE (ledger v0.150).** The
+> **2026-08-10 RELATIVE CHIRAL-TRANSGRESSION OWNERSHIP GATE (ledger v0.151).**
+> Source-owned `A0` and its same-bundle bitorsor globalize the relative
+> construction, but the canonical identity has winding zero and a generic
+> Chern--Simons interpolation is continuous rather than quantized. A nonzero
+> integer requires an unowned large-gauge component; ambient `A0` is not
+> automatically the observed chiral connection; and the real pairing still
+> has one projective ratio. **Next type and couple the minimal explicit
+> external `(n,r)` datum through an action-owned tangential chiral reduction.
+> Rank its independent constraints across cosmological amplitude,
+> chirality/P3 and boundary charge. Kill it if it relabels P3, breaks BFV
+> invariance or has nonpositive surplus; restrict `I1` only after a positive-
+> surplus pass.** P1/P2/P3, verdicts, residue, quotients and canon remain
+> unchanged.
+
+> **2026-08-10 LORENTZIAN CHIRAL-CLASS/PAIRING GATE (ledger v0.150; successor
+> scoped by v0.151).** The
 > absolute tangential unit selector is unavailable on both admissible global
 > horns tested. Globally hyperbolic `X ~= R x Sigma3` has ordinary `H^4=0`;
 > closed time-oriented Lorentzian spin `X` has `chi=0`, `signature in 16Z` and

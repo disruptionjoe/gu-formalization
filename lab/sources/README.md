@@ -9,6 +9,12 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-relative-chiral-transgression-ownership-source-reinspection-2026-08-10.md`](selected-k77-relative-chiral-transgression-ownership-source-reinspection-2026-08-10.md)
+  records `SOURCE-CONFIRMS` for the distinguished same-bundle `A0` and tilted
+  bulk grammar, and `SOURCE-SILENT` for a nonzero relative chiral component,
+  observed tangential reduction, real-pairing ratio and physical boundary
+  disposition.
+
 - [`selected-k77-lorentzian-chiral-class-pairing-source-reinspection-2026-08-10.md`](selected-k77-lorentzian-chiral-class-pairing-source-reinspection-2026-08-10.md)
   records `SOURCE-CONFIRMS` for the Lorentzian observer sector and
   `SOURCE-SILENT` for absolute/relative `c2`, boundary trivialization and the

@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.150 Lorentzian chiral-class/pairing fence:** the absolute
+> **Current v0.151 relative chiral-selector ownership fence:** source-owned
+> `A0` and its same-bundle bitorsor globalize the relative construction, but
+> the canonical identity has winding zero and generic Chern--Simons
+> interpolation is continuous. A nonzero integer requires an unowned boundary
+> component. Ambient `A0` is not automatically the observed `SL(2,C)` chiral
+> connection, and the real pairing still has one projective ratio. The current
+> internal relative selector is killed; an explicit external `(n,r)` datum
+> remains live only after action coupling and positive multirow constraint
+> surplus. P1/P2/P3 remain unassigned.
+
+> **Predecessor v0.150 Lorentzian chiral-class/pairing fence:** the absolute
 > tangential unit selector is unavailable. Globally hyperbolic
 > `X ~= R x Sigma3` has ordinary `H^4=0`; closed time-oriented Lorentzian spin
 > `X` has chiral `c2 in 12Z`, excluding `+/-1`. Real invariant pairings on

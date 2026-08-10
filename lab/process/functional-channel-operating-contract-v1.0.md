@@ -24,10 +24,21 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.150.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.150.md`.
+`lab/process/conditional-physics-ledger-v0.151.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.151.md`.
 
-Current Lorentzian chiral-class/pairing correction: the absolute tangential
+Current relative-selector ownership correction: the source-owned `A0`
+same-bundle bitorsor globalizes every existing `P_H` sector, but its canonical
+identity section has relative winding zero. A generic Chern--Simons
+interpolation is continuous, and a nonzero integer requires an unowned large-
+gauge component. Ambient `A0` is not automatically the observed Lorentzian
+chiral connection, and the real pairing still has one projective ratio. The
+current internal relative-selector route is killed. Build now types and
+couples an explicit external `(n,r)` datum through an action-owned chiral
+reduction, computes multirow constraint surplus, and stops if it relabels P3,
+breaks BFV invariance or has nonpositive surplus.
+
+Predecessor Lorentzian chiral-class/pairing correction: the absolute tangential
 unit selector is unavailable. Globally hyperbolic `X ~= R x Sigma3` has
 ordinary `H^4=0`; closed time-oriented Lorentzian spin `X` has `chi=0`,
 `signature in 16Z` and chiral `c2 in 12Z`. Real invariant pairings on

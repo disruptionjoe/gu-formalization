@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `relative_chiral_transgression_ownership_audit.py` enforces ledger v0.151's
+  same-bundle identity-zero result, continuous-versus-quantized transgression
+  fence, explicit external-integer route, ambient-versus-observed chiral
+  reduction distinction, unchanged accounting and surplus successor.
+
 - `lorentzian_chiral_class_pairing_audit.py` enforces ledger v0.150's
   globally-hyperbolic ordinary-`H4` zero, closed Lorentzian-spin `12Z` chiral
   class lattice, two-dimensional neutral real invariant pairing space,

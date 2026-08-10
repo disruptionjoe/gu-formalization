@@ -7,7 +7,17 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.150. The actual Lorentzian
+Current append-only progress surface: ledger v0.151. The source-owned `A0`
+same-bundle bitorsor globalizes the relative construction, but its canonical
+identity section has winding zero and a generic Chern--Simons interpolation is
+continuous rather than quantized. A nonzero integer requires an unowned
+large-gauge component; ambient `A0` is not automatically the observed chiral
+connection; the real-pairing ratio remains unowned. Next type and couple an
+explicit external `(n,r)` datum through an action-owned chiral reduction and
+compute multirow constraint surplus before restricting the action. Registry:
+`selected-k77-relative-chiral-transgression-ownership.json`.
+
+Predecessor v0.150. The actual Lorentzian
 global-topology gate kills the absolute tangential unit selector: ordinary
 `H^4` is zero on globally hyperbolic `R x Sigma3`, while closed time-oriented
 Lorentzian spin backgrounds permit only a `12Z` chiral `c2` lattice. The real

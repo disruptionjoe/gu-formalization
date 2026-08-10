@@ -9,14 +9,26 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.150 closes the absolute tangential unit route on admissible
+Ledger v0.151 closes the current **internal** relative-selector route. The
+source-owned `A0` same-bundle bitorsor is globally nonempty, but its canonical
+identity section has winding zero; generic Chern--Simons interpolation is
+continuous; and neither a nonzero large-gauge component nor the observed
+chiral reduction/pairing is source-selected. The highest-information Build is
+now to type the minimal explicit external relative datum `(n,r)`, couple it to
+the selected action through an owned tangential chiral reduction, and compute
+multirow constraint surplus across cosmological amplitude, chirality/P3 and
+boundary charge. Kill it if it relabels P3, breaks BFV invariance or has
+nonpositive surplus. Only then restrict `I1`.
+
+Ledger v0.150 closed the absolute tangential unit route on admissible
 Lorentzian global backgrounds and retypes the live successor as a source-owned
 relative/compact-support/boundary transgression plus selected real pairing.
 Do not restrict `I1` while either the boundary integer/trivialization or the
 one-dimensional projective pairing ratio is free. The highest-information
 Build is to construct those from the source action and run the resulting
-presymplectic/BV edge test; if they remain unowned, kill this route rather than
-adding new datum. The H-N horn stays dormant unless source-derived.
+presymplectic/BV edge test; v0.151 finds they remain unowned and retypes the
+external datum rather than hiding it. The H-N horn stays dormant unless
+source-derived.
 
 Ledger v0.149 ranked the two successors opened by v0.148. The tangential
 same-bundle identity is preferred conditionally because it adds no independent

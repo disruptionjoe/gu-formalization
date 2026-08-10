@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_relative_chiral_transgression_ownership_probe.py`
+  composes the source-owned same-bundle `A0` bitorsor with the Lorentzian
+  chiral-class gate. It verifies identity winding zero, continuous normalized
+  Chern--Simons interpolation `3t^2-2t^3`, live integer large-gauge components,
+  boundary-charge/BFV no-selection and the unowned chiral reduction/pairing
+  fences (`31 exact + 5 planted = 36`).
+
 - `channel-swings/selected_k77_p3_spin_bundle_diagonal_probe.py` composes P3's
   clutching family with the chiral spin bundles on `S4`. Exactly, `n=+1`
   matches `S+`, `n=-1` matches `S-`, and `n=0` matches neither. It separates
