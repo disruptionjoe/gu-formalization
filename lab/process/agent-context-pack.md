@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.147 P3/chiral-spin bundle fence:** one P3 orientation has the
+> exact topological class required for the positive chiral spin bundle on
+> `S4`: `n=+1` matches `S+`, `n=-1` matches `S-`, and `n=0` matches neither.
+> This closes only the bundle-class obstruction. A bundle isomorphism is not a
+> connection-preserving map; an arbitrary charge-one ASD connection has five
+> moduli, while the round homogeneous chiral connection has zero invariant
+> deformations. Construct the actual support-pullback connection diagonal
+> before restricting and varying `I1`. Do not count a gauge torsor as a
+> physical function-valued datum, and do not identify connections by equal
+> `c2`. P1/P2/P3 remain unassigned.
+
 > **Current v0.146 P3/self-dual-reduction fence:** `D_B P_sd=0` preserves the
 > four-plane chiral split but does not select the single `su(2)+` factor. The
 > exact nonzero source family has rank-three components in both factors, so it

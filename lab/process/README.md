@@ -7,7 +7,17 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.146. The exact nonzero source
+Current append-only progress surface: ledger v0.147. One P3 orientation has
+the exact principal-`SU(2)` bundle class of the positive chiral spin bundle on
+`S4`; the opposite orientation matches the negative bundle. The class match
+adds no continuous topological coordinate after gauge quotient, but does not
+identify connections. An arbitrary charge-one ASD connection has five moduli;
+the round homogeneous chiral connection has zero invariant deformations.
+Next Build constructs the actual support-pullback connection diagonal before
+restricting and varying `I1`. Registry:
+`selected-k77-p3-spin-bundle-diagonal.json`.
+
+Predecessor v0.146. The exact nonzero source
 curvature preserves the four-plane chiral split but has rank-three nonzero
 components in both `su(2)+` and `su(2)-`; `D_B P_sd=0` therefore does not
 select the self-dual factor, and one-factor membership forces `t=0`. The

@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.147 advances the replacement P3/source reduction through its first
+global gate. P3 `n=+1` and the positive chiral spin bundle on `S4` have the
+same clutching degree and `c2`; the opposite horn matches the negative bundle.
+The topology therefore costs no continuous datum modulo gauge. Primary Build
+is no longer another characteristic-class computation. It is the actual
+support-pullback connection-preserving diagonal. If P3 owns the round
+homogeneous BPST/Levi-Civita orbit, the invariant connection has no deformation
+freedom and Build may then restrict `I1`. If it owns an arbitrary charge-one
+ASD connection, price five moduli and stop before action work.
+
 Ledger v0.146 kills the current-action self-dual revival. The exact nonzero
 source curvature preserves chirality but occupies both rank-three `su(2)`
 ideals; `D_B P_sd=0` is a split-preservation condition, not factor selection.

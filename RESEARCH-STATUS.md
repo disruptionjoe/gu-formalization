@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.147; five
+distance-only migrations; headline unchanged).** The proposed replacement
+P3/source reduction now passes its first global topological gate. On `S4`, P3
+`n=+1` has the same clutching degree and `c2` as the positive chiral spin
+bundle; the opposite orientation matches the negative bundle. The class match
+has no continuous topological coordinate after gauge quotient. It does not
+identify connections: an arbitrary charge-one ASD representative has five
+moduli, while the round homogeneous chiral connection has zero invariant
+deformations. Next Build constructs the actual support-pullback connection map
+and only then restricts and varies `I1`. No P1/P2/P3 assignment, verdict,
+residue, quotient, canon, or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.146; five
 distance-only migrations; headline unchanged).** The exact nonzero source
 family preserves the four-plane chiral split but occupies both `su(2)` ideals,

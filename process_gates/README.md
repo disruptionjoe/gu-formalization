@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `p3_spin_bundle_diagonal_audit.py` enforces ledger v0.147's exact P3/chiral-
+  spin bundle class match, topology-versus-connection fence, five-dimensional
+  arbitrary ASD moduli, zero homogeneous invariant deformations, unchanged
+  accounting and connection-preserving support-pullback successor.
+
 - `p3_selfdual_source_reduction_audit.py` enforces ledger v0.146's exact
   split-versus-factor distinction, two rank-three `su(2)` components,
   current-action self-dual revival kill, unbuilt P3/source diagonal and

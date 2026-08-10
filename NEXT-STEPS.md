@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 P3 CHIRAL-SPIN BUNDLE DIAGONAL (ledger v0.147).** The
+> replacement source reduction passes its global topological gate in exactly
+> one orientation: on `S4`, `(c2(S+),c2(S-))=(+1,-1)`, so P3 `n=+1` matches
+> `S+`, `n=-1` matches `S-`, and `n=0` matches neither. This removes the
+> bundle-class obstruction and adds no continuous topological coordinate after
+> gauge quotient. It does **not** identify connections. An arbitrary charge-one
+> ASD connection has five moduli; the round homogeneous chiral connection has
+> zero invariant deformations. **Next construct the actual support-pullback
+> connection diagonal and prove that P3's supplied BPST connection is the
+> source positive-chiral Levi-Civita connection. Only then restrict and vary
+> `I1`.** P1/P2/P3 stay unassigned; no canon, verdict, residue or quotient moves.
+
 > **2026-08-10 P3 SELF-DUAL SOURCE-REDUCTION GATE (ledger v0.146).**
 > The current-action revival is closed. The exact nonzero source curvature
 > preserves four-plane chirality but has rank-three nonzero components in both
