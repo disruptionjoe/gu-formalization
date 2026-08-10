@@ -1,60 +1,80 @@
 r"""
 =============================================================================
-DISPUTE H10-01 (2026-08-09) -- UNRESOLVED. DOWNGRADED FROM "CORRECTION".
+RESOLVED H10-01 (2026-08-09) -- THE ASSIGNMENT IN THIS FILE IS WRONG.
+Settled against the literature. Constants still NOT edited; see REMEDIATION.
 =============================================================================
-An earlier banner here asserted that this file's Yukawa assignment is WRONG.
-That assertion was landed on one agent's derivation plus one hostile verify,
-with NO specialist pre-flight, by someone who had not checked the primary
-source. It is DOWNGRADED to an open dispute. Nothing here is settled; the
-constants below are unchanged; do not act on either reading yet.
+PUBLISHED EQUATION. Lu, Perkins, Pope & Stelle, "Spherically Symmetric
+Solutions in Higher-Derivative Gravity", Phys. Rev. D 92, 124019 (2015),
+arXiv:1508.00010, Sec 4.3.1, Eq. (4.7a) -- a paper STELLE HIMSELF CO-AUTHORED,
+restating his 1978 point-mass result and citing "K. S. Stelle, Classical
+gravity with higher derivatives, Gen. Rel. Grav. 9 (1978) 353" as its ref [3]:
 
-THE TWO READINGS
-  A (this file, and explorations/wave22/H10-ppn-weak-field-2026-07-11.md):
-      spin-2 (Weyl^2) = +1/3 ; spin-0 (R^2) = -4/3
-  B (derived 2026-08-09):
-      spin-0 (R^2)    = +1/3 ; spin-2 ghost (Weyl^2) = -4/3
+    V(r) = C - M/(24 pi gamma r) ( e^{-m0 r} - 4 e^{-m2 r} + 3 )
 
-ARGUMENT FOR B. Contract the propagator numerators with a static source
-T_00 = rho. Massless graviton: rho^2 - (1/2)rho^2 = (1/2)rho^2. Massive
-spin-2: rho^2 - (1/3)rho^2 = (2/3)rho^2. Ratio 4/3 -- this IS the
-van Dam-Veltman-Zakharov discontinuity. And the Weyl^2 spin-2 is a GHOST, so
-its contribution should be REPULSIVE, i.e. negative. Hence spin-2 = -4/3.
+With C = 0, gamma = 1/16 pi G, and Phi = V/2 (since B = -g_00 = 1 + 2 Phi):
 
-ARGUMENT FOR A, and the one thing that is NOT in dispute. The exploration
-note reads the vDVZ structure as "massive spin-2 projector carries -1/3 trace
-vs -1/2 for the massless graviton". That clause is CORRECT about the
-projector. But -1/3 is the PROJECTOR TRACE COEFFICIENT, and 4/3 is the
-COUPLING RATIO; they are different quantities. Whatever the paper says,
-treating one as the other is an error, and the note does treat them as one.
+    Phi(r) = -(GM/r) [ 1 - (4/3) e^{-m2 r} + (1/3) e^{-m0 r} ]
 
-WHY THE FILE'S OWN CROSS-CHECKS CANNOT DECIDE IT
-  - The r -> 0 sum rule is symmetric: 1 + 1/3 - 4/3 = 0 either way round.
-  - The "anchor to literature" gamma = 1/2 is ALSO the f(R)/Brans-Dicke
-    omega = 0 light-scalaron value, (1-1/3)/(1+1/3) = 1/2.
-  So neither existing check discriminates the assignments. That is why the
-  swap, if it is one, could survive.
+    massive spin-2 GHOST (Weyl^2/C^2) : -4/3   REPULSIVE
+    massive spin-0 scalaron (R^2)     : +1/3   attractive
 
-WHY IT IS LOAD-BEARING. GU has no R^2 term, so m0 -> oo deletes exactly ONE
-of the two Yukawas. Which one is deleted flips the sign of gamma - 1, which
-is the entire observational content of this file.
+Same paper: "a massless graviton, a massive spin-two GHOST excitation with
+(m2)^2 = gamma/2 alpha, and a massive NON-GHOST spin-zero excitation with
+(m0)^2 = gamma/6 beta."
 
-BLOCKER TO RESOLUTION -- READ THE PRIMARY SOURCE.
-K.S. Stelle, "Classical gravity with higher derivatives", Gen. Rel. Grav. 9,
-353-371 (1978), cited by the exploration note as the origin of the formula.
-The formula is IMPORTED here with a citation, not derived, so this is a
-transcription question, not a question about GU. Secondary sources that quote
-the potential verbatim (e.g. Giacchini on the cancellation of Newtonian
-singularities; Salvio's Quadratic Gravity review) would also settle it.
-Sign/metric conventions are the specific risk: they could place the ghost
-factor somewhere non-obvious and make both readings correct in their own
-conventions.
+THREE INDEPENDENT CONFIRMATIONS, different routes, one with OPPOSITE signature:
+  - Modesto, Paula Netto & Shapiro, arXiv:1412.0740 Eq. (9), attributed
+    verbatim to [Stelle-77, Stelle-78]: phi = -GM(1/r - (4/3)e^{-m2 r}/r
+    + (1/3)e^{-m0 r}/r).
+  - Giacchini, Phys. Lett. B 766 (2017) 306, arXiv:1609.05432 Eq. (10):
+    phi = -(GM/r)[1 - (4/3)C2(r) + (1/3)C0(r)], signature (+,-,-,-) -- OPPOSITE
+    to Lu et al., same answer. So signature does NOT rescue the other reading.
+  - Alvarez-Gaume, Kehagias, Kounnas, Lust & Riotto, arXiv:1505.07657, from the
+    tree-level amplitude: "an additional contribution from the ghost massive
+    spin-2 state which produces a REPULSIVE Yukawa force."
+  - Stelle's own CERN slides, tagged "K.S.S. 1978": ratios -1 : +4/3 : -1/3.
 
-WHAT IS UNAFFECTED EITHER WAY. The surrounding work is derived, not imported,
-and does not depend on this: the box(box + m2^2) TT operator, m^2_eff > 0
-(H15/H25), and the W126/W130 covariant-basis machinery (c_R = a2s + a3s/3).
+THE ERROR, CONFIRMED. The exploration note's clause "massive spin-2 projector
+carries -1/3 trace vs -1/2 for the massless graviton" is CORRECT about the
+projector: P^(2) = 1/2(theta theta + theta theta) - (1/3) theta theta versus
+-1/2 theta theta massless. But -1/3 is the PROJECTOR TRACE COEFFICIENT; the
+POTENTIAL coefficient is the RATIO (1 - 1/3)/(1 - 1/2) = 4/3 -- the
+van Dam-Veltman-Zakharov enhancement. This file put a correct intermediate
+quantity in the coefficient slot, and then had to give the leftover -4/3 to the
+scalar.
 
-STATUS: OPEN. Constants deliberately NOT edited. If you resolve it, replace
-this banner with the resolution and its source.
+WHY NO EXISTING CHECK CAUGHT IT. The r->0 sum rule is symmetric
+(1 + 1/3 - 4/3 = 0 either way), and this file's "anchor to literature"
+gamma = 1/2 is ALSO the f(R)/Brans-Dicke omega=0 value. Neither discriminates.
+(The r->0 finiteness IS explicitly noted in the literature and credited to
+Stelle: "V and W are actually nonsingular as r -> 0".)
+
+TRAP TO AVOID WHEN FIXING. The SPATIAL potential has DIFFERENT numbers -- both
+same-sign: psi = -(GM/r)[1 - (2/3)e^{-m2 r} - (1/3)e^{-m0 r}] (Giacchini &
+Paula Netto, arXiv:1806.05664 Eq. (35); Stelle's W(r) in 4.7b agrees). A stray
+"1/3 on the spin-2 term" may come from misreading psi -- but even psi never
+yields this file's assignment.
+
+CONSEQUENCE FOR GU. GU has no R^2, so m0 -> oo deletes the +1/3 SCALAR and
+KEEPS the -4/3 spin-2 ghost. This file deletes the wrong one. Corrected:
+alpha_Y = -4/3 not +1/3 -- magnitude x4, sign REPULSIVE as a ghost must be, and
+gamma - 1 flips sign. That sign is the entire observational content here.
+
+REMEDIATION OWED (not done: changes behaviour and propagates).
+  this file: L82 comment, L84-85 constants, and L31-34, L87, L91-92, L94, L105,
+  L128-130, L265 ; and explorations/wave22/H10-ppn-weak-field-2026-07-11.md
+  L33-34, L104, L117. Re-run the wave22 suite after editing.
+
+METHODOLOGICAL WARNING, worth carrying repo-wide. During this check, an
+HTML-summary fetch of arXiv:1505.07657 returned a SWAPPED version of the
+equation; the LaTeX e-print source refutes it. If this file's assignment came
+from a rendered PDF/HTML read, that is a plausible mechanism. ALWAYS check the
+arXiv e-print source for equations.
+
+NOT OBTAINED: Stelle 1978 itself (Springer paywall, doi:10.1007/BF00760427), so
+no 1978 equation number or his internal notation. Confidence ~0.97 on the
+physics: a verbatim numbered equation from a Stelle-co-authored paper citing
+Stelle 1978, plus three independent confirmations.
 =============================================================================
 """
 
