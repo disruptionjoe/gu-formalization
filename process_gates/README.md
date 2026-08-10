@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `bosonic_parent_action_ownership_audit.py` enforces ledger v0.133's
+  zero-branch full-norm result, the distinct `B`-adjoint and Weyl reductions,
+  the hostile scope fence, unchanged accounting, and the dependency order
+  nonzero-branch normal Hessian then induced K77 Dirac/RS operator.
+
 - `action_owned_reduction_carrier_typing_audit.py` enforces ledger v0.132's
   connection-versus-fermion Layer-0 separation, local-linearized consistency
   scope, two-step Build queue, unchanged accounting and hostile-review fence.

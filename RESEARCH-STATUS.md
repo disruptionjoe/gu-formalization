@@ -8,7 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify scope correction 2026-08-10 (ledger
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.133; nine
+distance-only migrations; headline unchanged).** The source-confirmed full
+connection-displacement norm gives the rank-8256 `B`-adjoint complement a
+nonzero quadratic Hessian at the zero branch, so the action does not derive a
+hard moving-Spin restriction there. `D_varpi chi_epsilon=0` is a distinct
+Weyl block/coset restriction and excludes the known odd-`Phi1` nonzero
+invariant branch. Build now computes the complete selected-action nonzero-
+branch normal Hessian by both decompositions, then constructs the induced K77
+Dirac/RS operator. No verdict, residue, quotient, datum or public posture moves.
+
+**Predecessor Build/Compose/Source/Verify scope correction 2026-08-10 (ledger
 v0.132; nine distance-only migrations; headline unchanged).** The fixed-`192`
 theorems
 survive conditionally, but their old internal `Spin(10)` Casimir test is

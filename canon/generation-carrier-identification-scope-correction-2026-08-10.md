@@ -61,10 +61,20 @@ BV differential on one common fermion carrier and use its kernel, cohomology or
 spectral projector as the discriminating test. This preserves one lane without
 silently identifying different bundles.
 
+The v0.133 successor further narrows that dependency. The written full
+connection-displacement norm gives the `B`-adjoint complement a nonzero
+zero-branch Hessian, so the action does not derive the hard moving-Spin
+restriction there. The separate condition `D_varpi chi_epsilon=0` is a Weyl
+block/coset restriction and excludes the known odd-`Phi1` nonzero invariant
+line. Therefore the complete nonzero-branch bosonic normal Hessian must be
+computed before the induced fermion selector. This is a scope/dependency
+correction only; it changes no canon verdict about the fixed carrier.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
   guidance and carrier-identification findings.
 - `lab/process/hostile-reviews/2026-08-10-exploration-absorption-and-carrier-scope-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-reduction-carrier-typing-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-bosonic-parent-action-ownership-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

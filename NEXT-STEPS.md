@@ -7,7 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
-> **2026-08-10 ACTION-REDUCTION / FERMION-CARRIER TYPE CORRECTION (ledger v0.132).**
+> **2026-08-10 BOSONIC PARENT ACTION OWNERSHIP (ledger v0.133).** The written
+> source action norms the full connection displacement. Its exact quadratic
+> Hessian is nonzero on the rank-`8256` `B`-adjoint complement at the zero
+> branch for nonzero `kappa_1`, so a hard moving-Spin restriction is not an
+> action equation there. `D_varpi chi_epsilon=0` is a different
+> `8192+8192` Weyl block/coset restriction and excludes the known odd-`Phi1`
+> nonzero invariant branch. **Next compute the complete selected-action normal
+> Hessian at `T*=-(kappa_1/312)Phi1`, decomposed both ways.** Then construct the
+> induced K77 Dirac/RS operator on the source-full carrier with moving-Spin and
+> two-half comparators. No verdict, residue, quotient, datum or P1/P2/P3 moves.
+
+> **2026-08-10 ACTION-REDUCTION / FERMION-CARRIER TYPE CORRECTION (ledger v0.132; superseded in priority by v0.133).**
 > Exact fixed-`W` theorems survive conditionally, but the old internal
 > `Spin(10)` Casimir is scalar on the parent block and accepts a planted random
 > `192`; it cannot identify the physical generation carrier. The v0.130

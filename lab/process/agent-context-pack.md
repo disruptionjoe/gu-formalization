@@ -9,7 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.132 action-reduction/carrier typing correction:** every exact theorem on the
+> **Current v0.133 bosonic-parent action fence:** the source-confirmed first
+> action norms the full connection displacement. At the zero branch its
+> quadratic Hessian is nonzero on the rank-`8256` `B`-adjoint complement for
+> nonzero `kappa_1`; never call `P_epsilon varpi=varpi` an action equation.
+> `D_varpi chi_epsilon=0` is a distinct `8192+8192` Weyl block/coset
+> restriction and excludes the known odd-`Phi1` nonzero invariant branch.
+> Next compute the complete selected-action normal Hessian at that branch by
+> both decompositions. Only then build the induced K77 Dirac/RS operator on the
+> source-full carrier with moving-Spin and two-half comparators. The moving
+> Spin bundle survives conditionally; no verdict, residue, quotient, datum or
+> P1/P2/P3 changes.
+
+> **Predecessor v0.132 action-reduction/carrier typing correction:** every exact theorem on the
 > supplied `192` remains valid conditionally, but the old internal `Spin(10)`
 > Casimir is non-discriminating and accepts a planted random `192`. Never cite
 > fixed-`W` compatibility as derivation of the physical carrier. The v0.130

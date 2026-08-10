@@ -16,18 +16,21 @@ reduction becomes responsible for selecting or rejecting that carrier.
 
 ## Ranked frontier
 
-1. **Build A — bosonic action-parent ownership.** Exact first-order closure
-   makes the moving rank-8128 connection sector a local consistent-truncation
-   candidate, while the complementary sector also closes and both parent
-   tangents retain the same stationary branches. Decide whether a source term,
-   multiplier-free global constraint or BV mechanism actually owns one parent.
-   Do not price compatibility as selection.
-2. **Build B — induced fermion selector.** `P_epsilon` and
+1. **Build A — nonzero-branch bosonic normal Hessian.** The source-confirmed
+   full displacement norm gives the rank-8256 complement a nonzero quadratic
+   Hessian at the zero branch, so the written action does not derive a hard
+   moving-Spin restriction there. `D_varpi chi=0` is a distinct block/coset
+   restriction and excludes the known odd-`Phi1` nonzero invariant branch.
+   Compute the complete selected-action Hessian at that branch by both
+   decompositions, then classify the complement as dynamical, heavy, unstable,
+   effectively integrable or constrained by a separately owned mechanism.
+2. **Build B — induced fermion selector, serial after Build A.** `P_epsilon` and
    `D_varpi chi_epsilon=0` act on connection data, not directly on the distinct
    `640+832+192` RS split. Construct the common K77 fermion bundle and the
    action-derived Dirac/RS operator or BV differential. Only then test its
    kernel/cohomology/spectral projector on proposed `W`, mirror, planted random
-   `192`s, `640`, and `832`, and report constraint surplus.
+   `192`s, `640`, and `832`, and report constraint surplus. Keep source-full
+   `U(64,64)`, the two `U(32,32)` halves and moving Spin as explicit parents.
 3. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
    fail closed on the silent Hermitization in `ghost_parity_krein.py`; then
    scramble the carrier mass test and hostile-review the T1--T4 ambient claim.
@@ -70,8 +73,9 @@ does not establish the phenomenology of the complete GU action.
 - Do not apply a bosonic connection projector directly to a fermion subspace;
   require the induced representation/operator and physical domain first.
 - Do not treat observation value pullback as a physical reduction.
-- If the action test does not discriminate the proposed carrier, migrate the
-  relevant ledger distances and reassess the carrier before deeper domain work.
+- If the nonzero-branch bosonic Hessian does not discriminate the parents,
+  migrate the ledger before building the fermion operator; do not use a hard
+  projector or `D_varpi chi=0` as an undeclared repair.
 - After three distance-only Runs on this cluster, compare the rank-one gate
   against the disjoint Verify and neutral-state tasks using the functional-
   channel yield checkpoint.
