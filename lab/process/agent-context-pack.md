@@ -3,11 +3,21 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-09
+updated: 2026-08-10
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-09)
+# Agent context pack (updated 2026-08-10)
+
+> **Current v0.127 observation-stabilizer subbundle:** the rank-`594`
+> grade-two fiber is invariant under all `6+45` generators of
+> `so(1,3)+so(6,4)` and equals the rational block sum
+> `160+180+60+184+10`. It defines an associated subbundle only after an
+> observation reduction is supplied; a mixed ambient generator expands
+> `594 -> 727`, so never call it an upstairs Spin(7,7) subbundle. The exact
+> basis has a dependency-hashed nonrecursive API. Next build lower-order and
+> derivative-jet closure on total tangent `915`. Two `U(32,32)` halves and
+> full `U(64,64)` remain unported. P1/P2/P3 remain unused.
 
 > **Current v0.126 minimal K77 Hessian tangent:** distinguish the fixed-symbol
 > covector image `89`, its invariant tangent `174`, the three-representative

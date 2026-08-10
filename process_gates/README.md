@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_observation_stabilizer_subbundle_audit.py` enforces ledger
+  v0.127's dependency-hashed rank-594 bank, all-51-generator stabilizer
+  invariance, natural `160+180+60+184+10` decomposition, `594 -> 727` ambient
+  scope plant, conditional observation reduction, unchanged accounting and
+  unitary-parent fence.
+
 - `selected_k77_minimal_hessian_tangent_closure_audit.py` enforces ledger
   v0.126's `89 -> 174 -> 464 -> 594` object/scope separation, total tangent
   `915`, full-`X^4` and both-branch closure, no full-`1,571` promotion, no

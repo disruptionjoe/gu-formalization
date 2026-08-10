@@ -2,10 +2,19 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-09"
+updated_at: "2026-08-10"
 ---
 
 # Process
+
+Current append-only progress surface: ledger v0.127. The rank-594 grade-two
+tangent is an exact observation-stabilizer subrepresentation with natural
+decomposition `160+180+60+184+10`; it defines an associated subbundle
+conditional on a supplied observation reduction. One mixed ambient generator
+expands it to 727, preserving the observation/ambient fence. A dependency-
+hashed nonrecursive tangent bank now owns the coordinate basis. Lower-order and
+derivative-jet closure are next. Registry:
+`selected-k77-observation-stabilizer-subbundle.json`.
 
 Current append-only progress surface: ledger v0.126. Exact K-lifted
 first-action Hessian closure gives the minimum known selected-Spin local-

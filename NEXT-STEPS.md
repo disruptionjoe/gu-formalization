@@ -2,10 +2,22 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-09"
+updated_at: "2026-08-10"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-10 OBSERVATION-STABILIZER SUBBUNDLE (ledger v0.127).** The exact
+> rank-`594` grade-two fiber is preserved by all `6+45` generators of
+> `so(1,3)+so(6,4)` and has the rational natural decomposition
+> `160+180+60+184+10`. It therefore defines an associated subbundle conditional
+> on a supplied observation reduction, giving total local-principal tangent
+> `915`. A mixed ambient generator expands `594 -> 727`, so this is not an
+> upstairs `Spin(7,7)` subbundle before observation. The basis is now a small
+> dependency-hashed nonrecursive bank. **Next build lower-order and derivative-
+> jet first-action Hessian closure on this natural `915` tangent.** Do not
+> invent a BV quotient or port to two `U(32,32)` halves/full `U(64,64)`.
+> P1/P2/P3 are unused.
 
 > **2026-08-09 MINIMAL K77 HESSIAN TANGENT (ledger v0.126).** The local-
 > principal selected-Spin field tangent is now narrowed exactly: a fixed-symbol

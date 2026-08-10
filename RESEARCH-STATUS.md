@@ -2,11 +2,22 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-09"
+updated_at: "2026-08-10"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.127; six
+distance-only migrations; headline unchanged).** The rank-`594` grade-two
+extension is an exact subrepresentation of the complete connected observation
+stabilizer: all `51` `so(1,3)+so(6,4)` generator defects vanish. Its natural
+decomposition is `160+180+60+184+10`, so it defines an associated subbundle
+conditional on the observation reduction and gives total local-principal
+tangent `915`. A mixed ambient generator expands it to `727`; no ambient-
+Spin(7,7), global-reduction, lower-order, quotient or unitary-parent result is
+claimed. Next build lower-order/derivative-jet Hessian closure. P1/P2/P3 are
+unused.
 
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.126; six
 distance-only migrations; headline unchanged).** Exact first-action Hessian

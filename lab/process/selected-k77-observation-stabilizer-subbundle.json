@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_construction_result",
+  "created": "2026-08-10",
+  "status": "RANK594_OBSERVATION_STABILIZER_INVARIANT__CONDITIONAL_ASSOCIATED_SUBBUNDLE__LOWER_ORDER_OPEN",
+  "scope": {
+    "parent": "CONDITIONALLY_SELECTED_REAL_SPIN77",
+    "representation": "OFFSLICE_PART_OF_VSTAR_TENSOR_LAMBDA2_V",
+    "observation_stabilizer": "SPIN13_TIMES_SPIN64_IDENTITY_COMPONENT",
+    "differential_grade": "LOCAL_PRINCIPAL"
+  },
+  "exact_result": {
+    "tangent_bank_rank": 594,
+    "tangent_bank_nnz": 1850,
+    "total_selected_tangent": 915,
+    "stabilizer_generator_count": 51,
+    "so13_generator_count": 6,
+    "so64_generator_count": 45,
+    "stabilizer_quotient_defects": 0,
+    "mixed_ambient_generator_rank": [594, 727],
+    "block_profile": {
+      "HSTAR_H_WEDGE_N": {"ambient": 160, "projection": 160, "intersection": 160},
+      "HSTAR_LAMBDA2_N": {"ambient": 180, "projection": 180, "intersection": 180},
+      "NSTAR_LAMBDA2_H": {"ambient": 60, "projection": 60, "intersection": 60},
+      "NSTAR_H_WEDGE_N": {"ambient": 400, "projection": 184, "intersection": 184},
+      "NSTAR_LAMBDA2_N": {"ambient": 450, "projection": 10, "intersection": 10}
+    },
+    "natural_decomposition": "HSTAR_TENSOR_H_WEDGE_N__PLUS__HSTAR_TENSOR_LAMBDA2_N__PLUS__NSTAR_TENSOR_LAMBDA2_H__PLUS__H_TENSOR_R_ID_PLUS_SO64__PLUS__NORMAL_CONTRACTION_COPY",
+    "conditional_associated_subbundle": "P_OBS_TIMES_SPIN13_X_SPIN64_S594"
+  },
+  "layer0": {
+    "coordinate_span": "DISTINCT_FROM_INVARIANT_FIBER",
+    "invariant_fiber": "PROVED",
+    "associated_subbundle": "PROVED_CONDITIONAL_ON_OBSERVATION_REDUCTION",
+    "global_observation_reduction": "NOT_CONSTRUCTED",
+    "global_trivialization": "NOT_CLAIMED",
+    "full_ambient_spin77_invariance": "REFUTED_BY_594_TO727_CROSS_GENERATOR"
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_CONNECTION_AND_OBSERVED_13_PLUS_64_SPLIT__SOURCE_SILENT_RANK594_SELECTION_AND_LOWER_ORDER_CLOSURE",
+  "action_parent_fence": {
+    "selected_spin77": "DECIDED_AS_STATED",
+    "two_U32_32_halves": "NOT_PORTED",
+    "full_U64_64": "NOT_PORTED"
+  },
+  "accounting": {
+    "new_source_coordinate_types": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "validation": {
+    "primary": "78/78_PASS",
+    "independent_sage_flint": "12/12_PASS",
+    "bank_hash": "5dbb63c44f669bd84c718955d7d9aa0c59d42604d03938f3f4ab840dd5fdccff"
+  },
+  "next_gate": "BUILD_LOWER_ORDER_AND_DERIVATIVE_JET_FIRST_ACTION_HESSIAN_ON_NATURAL_TANGENT915__TEST_CLOSURE",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

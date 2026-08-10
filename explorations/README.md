@@ -2,10 +2,18 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-09"
+updated_at: "2026-08-10"
 ---
 
 # Explorations
+
+## K77 observation-stabilizer subbundle (2026-08-10)
+
+`conditional-build/selected-k77-observation-stabilizer-subbundle-2026-08-10.md`
+proves all `51` connected `so(1,3)+so(6,4)` generators preserve the exact
+rank-`594` tangent fiber and identifies its rational `160+180+60+184+10`
+decomposition. Ledger v0.127 promotes a conditional associated subbundle, not
+an ambient-Spin(7,7) or lower-order theorem.
 
 ## K77 minimal Hessian tangent closure (2026-08-09)
 
