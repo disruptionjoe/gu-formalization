@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.127 observation-stabilizer subbundle:** the rank-`594`
+> **Current v0.128 complete Euler-jet tangent:** never treat the source's
+> first-order Euler linearization as a pointwise symmetrized Hessian. A scalar
+> exterior covector couples grades one and two. The natural principal tangent
+> `915` is not first-jet closed: four observed `H*` covectors force conditional
+> tangent `1,131`, while all fourteen source-native `H*+N*` covectors force the
+> complete selected low-grade tangent `1,571`. Ordinary pullback forgets
+> conormal jets but is not a constraint or BV differential. Next port `1,571`
+> to grade five, both `U(32,32)` halves and full `U(64,64)`; keep `1,131`
+> conditional. P1/P2/P3 remain unused.
+
+> **Predecessor v0.127 observation-stabilizer subbundle:** the rank-`594`
 > grade-two fiber is invariant under all `6+45` generators of
 > `so(1,3)+so(6,4)` and equals the rational block sum
 > `160+180+60+184+10`. It defines an associated subbundle only after an

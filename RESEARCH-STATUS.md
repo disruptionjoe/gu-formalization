@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.127; six
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.128; six
+distance-only migrations; headline unchanged).** The source-owned
+fixed-epsilon first-order Euler operator closes on two separately typed jet
+domains. Four observed spacetime covectors enlarge the off-slice tangent
+`594 -> 810`, giving total selected low-grade tangent `1,131`. All fourteen
+source-native `Y^14` covectors fill the off-slice rank `1,250`, giving total
+`1,571`. Ordinary pullback does not derive the conormal restriction needed to
+select `1,131`, so that horn remains conditional. The next gate ports the
+complete low-grade `1,571` operator to grade five, both `U(32,32)` halves and
+full `U(64,64)`. No quotient, domain, spectrum or physics result is claimed;
+P1/P2/P3 are unused.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.127; six
 distance-only migrations; headline unchanged).** The rank-`594` grade-two
 extension is an exact subrepresentation of the complete connected observation
 stabilizer: all `51` `so(1,3)+so(6,4)` generator defects vanish. Its natural

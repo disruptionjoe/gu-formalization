@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 COMPLETE EULER-JET TANGENT CLOSURE (ledger v0.128).** The
+> natural principal tangent `915` is not closed under the source-owned
+> first-order Euler operator. Four observed `H*` jets fill
+> `H tensor Sym^2_0(N)` and force conditional tangent `1,131`; all fourteen
+> source-native `Y^14` jets fill the complete selected low-grade tangent
+> `1,571`. Ordinary pullback forgets conormal jets but does not constrain the
+> upstairs Euler equation, so `1,131` requires an independently source-owned
+> conormal constraint or BV differential. **Next port the rank-`1,571`
+> operator to grade five, the two `U(32,32)` halves and full `U(64,64)`.** Keep
+> `1,131` as a conditional rival, and do not infer a quotient, global domain or
+> physical spectrum. P1/P2/P3 are unused.
+
 > **2026-08-10 OBSERVATION-STABILIZER SUBBUNDLE (ledger v0.127).** The exact
 > rank-`594` grade-two fiber is preserved by all `6+45` generators of
 > `so(1,3)+so(6,4)` and has the rational natural decomposition

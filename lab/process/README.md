@@ -7,7 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.127. The rank-594 grade-two
+Current append-only progress surface: ledger v0.128. The source-owned
+fixed-epsilon first-order Euler operator shows that principal tangent 915 is
+not first-jet closed. Four observed jets force conditional total tangent 1131;
+all fourteen source-native Y14 jets force the complete selected low-grade
+tangent 1571. Ordinary pullback does not supply the conormal constraint needed
+to select 1131. Grade five and both unitary-parent ports are next. Registry:
+`selected-k77-complete-euler-jet-tangent-closure.json`.
+
+Predecessor v0.127. The rank-594 grade-two
 tangent is an exact observation-stabilizer subrepresentation with natural
 decomposition `160+180+60+184+10`; it defines an associated subbundle
 conditional on a supplied observation reduction. One mixed ambient generator

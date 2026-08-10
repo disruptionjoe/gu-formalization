@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_complete_euler_jet_tangent_closure_audit.py` enforces ledger
+  v0.128's observed `594 -> 810` and full-Y14 `594 -> 1250` first-jet closure,
+  total tangents `1,131/1,571`, correctly typed unsymmetrized Euler owner and
+  scalar covector, conditional conormal restriction, unchanged accounting and
+  grade-five/two-half/full-unitary parent fences.
+
 - `selected_k77_observation_stabilizer_subbundle_audit.py` enforces ledger
   v0.127's dependency-hashed rank-594 bank, all-51-generator stabilizer
   invariance, natural `160+180+60+184+10` decomposition, `594 -> 727` ambient

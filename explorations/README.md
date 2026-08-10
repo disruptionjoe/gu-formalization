@@ -7,6 +7,15 @@ updated_at: "2026-08-10"
 
 # Explorations
 
+## K77 complete Euler-jet tangent closure (2026-08-10)
+
+`conditional-build/selected-k77-complete-euler-jet-tangent-closure-2026-08-10.md`
+shows that the natural principal tangent `915` is not first-jet closed.
+Observed `X^4` jets force conditional tangent `1,131`, while all source-native
+`Y^14` jets force the complete selected low-grade tangent `1,571`. Ledger
+v0.128 keeps ordinary pullback distinct from a conormal constraint and sends
+the result to the grade-five/two-half/full-unitary parent port.
+
 ## K77 observation-stabilizer subbundle (2026-08-10)
 
 `conditional-build/selected-k77-observation-stabilizer-subbundle-2026-08-10.md`
