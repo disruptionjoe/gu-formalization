@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 ZERO-FERMION COUPLED HESSIAN / CURRENT-ORDER GATE
+> (ledger v0.141).** For every even action `S_B(b)+zbar D(b)z`, the
+> action-emitted `J_D+J_F` current and both one-boson/one-fermion Hessian
+> blocks vanish at zero fermion. The fermion Hessian remains `D`, while the
+> current vertex first appears in the one-boson/two-fermion third derivative
+> `dD/db`. The v0.107 rank-one metric trace therefore survives unchanged and
+> cannot be cancelled by matter at this background. Continue the zero-fermion
+> dynamic VEV/Hilbert-stress and bosonic BV Build as rank one. Construct the
+> source-selected K77 operator plus a nonzero-fermion stationary branch as a
+> separate, nonconflicting Build. Do not insert a second bridge: it erases the
+> action-owned cubic vertex. No verdict, residue, quotient, datum, or
+> P1/P2/P3 moves.
+>
 > **2026-08-10 SOURCE-SIGN TRACE-Q DEGREE-DUALITY GATE (ledger v0.140).**
 > Bare `gamma(q)` leaks rank `64` outside the gamma-traceless RS carrier. Its
 > Pin completion preserves RS but exchanges rank-`192` `W` with its ASD mirror,

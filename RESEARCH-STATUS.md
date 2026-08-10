@@ -8,7 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.140; six
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.141; four
+distance-only migrations; headline unchanged).** The frozen no-bridge
+`J_D+J_F` architecture has now been composed with the zero-fermion bosonic
+branch. For every even bilinear fermion action, the current and both mixed
+one-boson/one-fermion Hessian blocks vanish at zero fermion; the fermion
+Hessian remains live and the current vertex begins in the third derivative.
+The nonzero rank-one metric trace survives unchanged. Primary Build therefore
+continues the zero-fermion dynamic VEV/Hilbert-stress and bosonic BV problem;
+the source-selected K77 operator and nonzero-fermion stationary branch are a
+separate Build. No verdict, residue, quotient, datum, or public posture moves.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.140; six
 distance-only migrations; headline unchanged).** Bare trace-q leaks rank 64
 outside the gamma-traceless RS carrier; its Pin completion preserves RS only
 by exchanging W with its ASD mirror, forcing their rank-384 closure. Both

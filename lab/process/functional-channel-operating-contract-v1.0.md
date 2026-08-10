@@ -24,8 +24,16 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.140.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.140.md`.
+`lab/process/conditional-physics-ledger-v0.141.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.141.md`.
+
+Current coupled-functional fence: for every even action
+`S_B(b)+zbar D(b)z`, the action-emitted current and both mixed
+one-boson/one-fermion Hessian blocks vanish at zero fermion. The fermion
+Hessian remains live and the current vertex begins at cubic order. This does
+not select `D`, a carrier, domain or BV quotient. It makes zero-fermion
+dynamic VEV/Hilbert-stress/BV the primary Build and the nonzero-fermion
+source-operator/stationarity problem a separate Build.
 
 Current high-fanout premise correction: exact fixed-`W` theorems remain valid
 conditionally, but neither the old internal Casimir nor the bosonic pointwise

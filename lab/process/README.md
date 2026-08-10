@@ -7,15 +7,14 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.140. Bare trace-q leaks rank 64
-outside RS; its Pin completion preserves RS by exchanging W with mirror and
-forcing their rank-384 closure. Both source-sign degree-duality primalizers
-then have port/leak/joined ranks 128/128/256, so neither upper graph exists.
-This kills canonical trace-q degree duality only on the proposed RS carrier.
-The sign-repair cluster has reached its stopping rule: a replacement operator
-must be genuinely new and source-owned, otherwise Build advances the disjoint
-coupled-functional completion. No verdict, residue, quotient or datum moves.
-Registry: `selected-k77-degree-duality-pair-graph-gate.json`.
+Current append-only progress surface: ledger v0.141. The no-bridge `J_D+J_F`
+current and both one-boson/one-fermion Hessian blocks vanish at zero fermion;
+the fermion Hessian remains live and the current vertex begins at cubic order.
+The rank-one metric trace therefore survives unchanged. Primary Build advances
+the zero-fermion dynamic VEV/Hilbert-stress and bosonic BV problem, while the
+source-selected operator and nonzero-fermion stationary branch remain a
+separate Build. No verdict, residue, quotient or datum moves. Registry:
+`selected-k77-zero-fermion-coupled-hessian-current-order.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

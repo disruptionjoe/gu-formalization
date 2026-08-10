@@ -21,6 +21,13 @@ source-sign degree-duality repair and kills it on the proposed RS carrier:
 bare q leaks RS, Pin q exchanges W/mirror, and both pair upper graphs have
 joined rank 256. The sign-repair cluster has reached its stopping rule.
 
+Ledger v0.141 composes the already-frozen no-bridge current architecture with
+the zero-fermion bosonic branch. `J_D+J_F` and both mixed Hessian blocks
+vanish, the fermion Hessian remains live, and `dD/db` first enters at cubic
+order. The rank-one metric trace therefore cannot be cancelled by current at
+this background. This separates the primary zero-fermion bosonic stress/BV
+Build from the nonzero-fermion source-operator Build.
+
 Ledger v0.138 composes the ordinary equation-9.16 zero-form connection cell
 with the exact W/mirror leaks. Each preferred rank-64 leak lies in a rank-128
 port. Exact quotient rank one gives `alpha=beta` on the two restricted horns
@@ -60,23 +67,26 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — coupled functional completion after the sign-cluster stop.**
-   Extend the full-rank pointwise connection result through metric, epsilon,
-   derivative and observation jets with the actual fermion current and Ward/BV
-   owners. Finite indefinite inertia is not a spectrum or quotient.
-2. **Source only if genuinely new — replacement operator.** A replacement
+1. **Build A — zero-fermion dynamic VEV/Hilbert stress and bosonic BV.**
+   Current cannot alter the quadratic zero-background problem. Construct the
+   action-owned negative rank-one stress, its Noether identity and bosonic BV
+   quotient without waiting for the unsettled fermion carrier.
+2. **Build B — nonzero-fermion source-operator branch.** Select the complete
+   source-family K77 Dirac/RS operator, solve a stationary nonzero spinor, and
+   only then compute the live current, mixed Hessian and Krein/Green domain.
+3. **Source only if genuinely new — replacement operator.** A replacement
    Shiab or source-derived restricted zero-order port must introduce a new
    typed object with positive constraint surplus. Do not retune the closed
    native-even, total-grading-q or trace-q degree-duality cells.
-3. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
+4. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
    fail closed on the silent Hermitization in `ghost_parity_krein.py`; then
    scramble the carrier mass test and hostile-review the T1--T4 ambient claim.
    Do not migrate those ambient results before this check.
-4. **Compose/representation — type the forty neutral states.** Cross-tab the
+5. **Compose/representation — type the forty neutral states.** Cross-tab the
    exact `32+8` neutral count against the moving-Spin carrier, the
    `8192+8192` block/coset reduction, the eventual mass operator and anomaly
    constraints. Do not call the states dark matter or physical survivors.
-5. **Conditional analytic/index route.** The arbitrary-signature spectral
+6. **Conditional analytic/index route.** The arbitrary-signature spectral
    triple and index literature is relevant, but it reopens only after the
    action reduction supplies a candidate fundamental symmetry, closed domain
    and Fredholm operator. Literature availability is not a GU realization.

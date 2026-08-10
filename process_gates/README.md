@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `zero_fermion_coupled_hessian_current_order_audit.py` enforces ledger
+  v0.141's exact zero current/mixed-Hessian ranks, live fermion block, cubic
+  `dD/db` vertex, unchanged rank-one trace and accounting, hostile
+  symplectic/analytic fences, and split bosonic/nonzero-fermion successor.
+
 - `degree_duality_pair_graph_gate_audit.py` enforces ledger v0.140's exact
   bare-q RS leakage, Pin-completed W/mirror exchange, rank-384 closure,
   source-sign joined-rank-256 upper obstruction, unchanged accounting and

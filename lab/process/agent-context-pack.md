@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.141 zero-fermion current-order fence:** for an even action
+> `S_B+zbar D(b)z`, `J_D+J_F` and both one-boson/one-fermion Hessian blocks
+> vanish at zero fermion. The fermion Hessian is still `D`; the current vertex
+> first appears at cubic order as `dD/db`. Never call this total fermion
+> decoupling, a physical direct sum, a BV quotient, a domain, or a spectrum.
+> It only means the rank-one bosonic trace cannot be cancelled by current at
+> that background. Continue bosonic VEV/Hilbert-stress/BV as the primary Build;
+> keep the source-selected operator and nonzero-fermion stationary branch
+> separate. P1/P2/P3 remain unused.
+>
 > **Current v0.140 source-sign degree-duality fence:** bare `gamma(q)` leaks
 > rank `64` outside the gamma-traceless RS carrier. The Pin completion preserves
 > RS but exchanges `W` and its ASD mirror, forcing their rank-`384` closure. On
