@@ -126,4 +126,3 @@ existed. It is:
 
 Ledger v0.136 records distance/evidence migrations only. Coverage, verdicts,
 residue, five scoped quotients, P1/P2/P3, and public posture do not move.
-
