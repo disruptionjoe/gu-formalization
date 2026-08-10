@@ -7,6 +7,22 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 VERIFICATION RECEIPTS + PROCESS PACKAGE (absorption surface).** Two hostile-verification
+> runs and the process-hardening package landed today; the machine-tracked banner backlog (17 gaps) prints
+> from `process_gates/correction_propagation_audit.py`, but several owed edits are text-level and live only
+> in the receipts:
+> `explorations/hostile-verification-harness-receipt-2026-08-10.md` (T1-T4 carrier-BLIND sharpening; the
+> mass-scramble redesign requirement; the "W and mirror remain identical" clause fix; the canon
+> scope-correction homonym; the carrier-stack gate AssertionError),
+> `explorations/canon-spine-hostile-sweep-receipt-2026-08-10.md` (9 owed-edit groups incl. Theorem 3
+> false-as-written, the (7,7) contingency missing from the live successors, the rfail r-exponent), and
+> **`explorations/judge-corrected-claims-addendum-2026-08-10.md` — the judges' exact replacement sentences,
+> extracted from session-local journals so they are actually reachable.** Process package:
+> `explorations/process-hardening-manifest-2026-08-10.md` (two-phase promotion now in AGENTS.md).
+> Queued Fable-tier targets when capacity allows: the SG4 spec-conformance audit once the wave's action
+> stabilizes, and the canonical-J question (does the moving reduction supply a fundamental symmetry — if
+> yes, the van den Dungen index route reopens).
+
 > **2026-08-10 GLOBAL PROJECTOR / VEV-AMPLITUDE LAYER-0 GATE (ledger
 > v0.143).** The v0.15 normalized projector is real prior art: `Q=1-Pi0`
 > conditionally screens independent constant source shifts. Composed with the
