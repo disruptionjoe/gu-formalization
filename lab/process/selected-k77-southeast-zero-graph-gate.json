@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260810-100555-gu-k77-graph-lower-left-gate",
+  "status": "EXACT_SCOPED_GRAPH_OBSTRUCTION",
+  "layer0": {
+    "tested_operator": "CURRENT_Q_REPAIRED_K77_CONDITIONAL_RIVAL",
+    "source_faithful_ambient_half_operator": "OPEN_DISTINCT",
+    "upper_graph_equation": "DECIDED_HERE",
+    "lower_left_adjoint_equation": "DECIDED_HERE",
+    "bv_cohomology": "OPEN_DISTINCT",
+    "analytic_domain": "OPEN_DISTINCT"
+  },
+  "exact_results": {
+    "fields": ["GF(1000033)", "QQ(i)"],
+    "carriers": ["W_sd192", "mirror_asd192"],
+    "parents": [
+      "moving_spin_grade2",
+      "two_u32_32_halves_grade6",
+      "source_full_u64_64_odd_coset_grade1"
+    ],
+    "uniform_fingerprint": {
+      "projected_port_rank": 128,
+      "unique_graph_rank": 64,
+      "upper_residual_rank": 0,
+      "induced_carrier_action_rank": 0,
+      "lower_left_on_carrier_rank": 64,
+      "lower_residual_rank": 64,
+      "lower_residual_nonzero_entries": 384,
+      "sign_flipped_lower_residual_rank": 64,
+      "graph_plus_lower_row_rank": 128,
+      "same_carrier_southeast_factor_exists": false
+    },
+    "w_equals_mirror": true
+  },
+  "disposition": "CURRENT_Q_REPAIRED_GRAPH_KILLED__UNIQUE_UPPER_GRAPH_RANK64__LOWER_LEFT_RESIDUAL_RANK64__W_EQUALS_MIRROR",
+  "scope": {
+    "closed": "the existing q-repaired equation-9.16 rival cannot preserve W or its mirror through the v0.138 zero-form graph on any retained parent witness",
+    "not_closed": [
+      "a source-faithful resolution of the ambient-half-sign and degree-duality collision",
+      "a different source-family Shiab or additional moving odd tensor",
+      "an enlarged adapter changing more than the same-carrier southeast postcomposition",
+      "moving descent and BV or constraint cohomology",
+      "closed Krein or Green domain",
+      "physical spectrum index or generation count"
+    ]
+  },
+  "source_return": {
+    "SOURCE-CONFIRMS": "the displayed candidate has southeast zero and minus-adjoint lower-left cells and admits an unspecified nonzero southeast rival",
+    "SOURCE-CORRECTS": "none",
+    "SOURCE-SILENT": "a W graph adapter, source-faithful sign repair, BV differential and closed domain"
+  },
+  "frontier_delta": {
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 1
+  },
+  "next_gate": "resolve or kill the source-faithful ambient-half-sign and degree-duality collision; only a surviving Shiab returns to graph, BV or domain work",
+  "accounting": {
+    "verdict_change": false,
+    "residue_change": false,
+    "quotient_change": false,
+    "datum_change": false,
+    "p1_p2_p3_change": false
+  }
+}

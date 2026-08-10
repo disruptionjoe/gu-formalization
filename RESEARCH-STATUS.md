@@ -8,13 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.138; six
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.139; six
+distance-only migrations; headline unchanged).** The unique rank-64 upper
+graph supplied by the v0.138 port has zero residual and zero induced W/mirror
+action, but the complete K77 lower-left restriction and graph residual retain
+rank 64 for every parent witness. This kills the current q-repaired conditional
+rival, not the source-faithful equation-9.16 operator: its ambient-half-sign
+versus degree-duality collision remains open. Build next resolves that collision
+or constructs a different Shiab/enlarged adapter before BV/domain work. No
+verdict, residue, quotient, datum, or public posture moves.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.138; six
 distance-only migrations; headline unchanged).** The already-built
 equation-9.16 zero-form connection cell can absorb the preferred rank-64 W or
 mirror leak inside its rank-128 image on each parent ablation. Exact quotient
 rank one selects `alpha=beta` for moving Spin/two halves and `alpha=-beta` for
 the full-U odd coset. Restricted parents advance to the graph-Riccati and
-lower-left adjoint gate; the source-full parent remains coefficient-conflicted.
+lower-left adjoint gate, discharged negatively by v0.139; the source-full parent remains coefficient-conflicted.
 No graph, BV, domain, chirality, spectrum, index or count is claimed. No
 verdict, residue, quotient, datum, or public posture moves.
 

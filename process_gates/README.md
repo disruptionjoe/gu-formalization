@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `southeast_zero_graph_gate_audit.py` enforces ledger v0.139's exact unique
+  rank-64 upper graph, zero induced W/mirror action, rank-64 action-tied
+  lower-left obstruction, source-faithful sign/duality fence, unchanged
+  accounting and replacement-Shiab/adapter successor.
+
 - `four_field_zero_order_port_audit.py` enforces ledger v0.138's exact
   parent-specific rank-64-in-rank-128 port theorem, unique projective ratios,
   source-full coefficient conflict, hostile graph/BV/domain fence, unchanged

@@ -124,6 +124,16 @@ source-full parent remains coefficient-conflicted. Graph invariance,
 lower-left adjoint compatibility, BV cohomology and domain selection remain
 open; this is still a scope correction, not a canon verdict.
 
+Ledger v0.139 solves the unique upper graph exposed by that port and checks the
+complete K77 form-index lower-left adjoint. On W and its mirror for every
+retained parent witness, the graph has rank 64 and zero upper residual, but the
+induced carrier action is zero while the lower-left restriction and complete
+lower residual retain rank 64. The adapter route therefore closes negatively
+for the current q-repaired conditional rival. This is not a source-family or GU
+no-go: the source-faithful ambient-half-sign versus degree-duality collision
+remains unresolved, and W is still a supplied carrier. A different Shiab or
+enlarged adapter must clear that Layer-0 gate before BV/domain selection.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
@@ -134,5 +144,6 @@ open; this is still a scope correction, not a canon verdict.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-induced-fermion-principal-discriminator-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-zero-order-w-mirror-parent-leakage-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-four-field-zero-order-port-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-southeast-zero-graph-gate-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-leakage-composition-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

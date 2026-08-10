@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_southeast_zero_graph_gate_probe.py` solves the
+  unique W/mirror upper graph supplied by the equation-9.16 zero-form port and
+  tests its complete form-index K77 lower-left adjoint. Over `GF(1000033)` and
+  `QQ(i)`, every parent has graph rank `64`, upper residual zero, induced
+  carrier action zero and lower residual rank `64`; W and mirror are identical.
+  Sign-flip and suppressed-lower-left plants isolate the obstruction. The
+  result kills the current q-repaired rival, not the unresolved source-faithful
+  ambient-half operator (`132/132`).
+
 - `channel-swings/selected_k77_four_field_zero_order_port_probe.py` composes
   the complete equation-9.16 zero-form connection port with the exact W/mirror
   leak witnesses. Over both `GF(1000033)` and `QQ(i)`, each preferred leak has

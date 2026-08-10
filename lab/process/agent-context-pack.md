@@ -9,14 +9,22 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.138 four-field port fence:** the ordinary zero-form connection
+> **Current v0.139 graph/lower-left fence:** the v0.138 port determines a unique
+> rank-`64` W or mirror graph, but its induced carrier action is zero while the
+> action-tied lower-left restriction and complete residual retain rank `64` on
+> every parent witness. This kills only the current q-repaired total-grading
+> rival. Do not call it a source-faithful equation-9.16 or GU no-go: the source
+> ambient-half-sign/degree-duality collision is open. Resolve that collision or
+> build a replacement Shiab/adapter before BV/domain work. P1/P2/P3 remain
+> unused.
+>
+> **Predecessor v0.138 four-field port fence:** the ordinary zero-form connection
 > port has exact rank `128` and contains the preferred rank-`64` W or mirror
 > leak. Port compatibility uniquely requires `alpha=beta` on moving Spin and
 > the two `U(32,32)` halves, but `alpha=-beta` on the full-U odd coset. Never
 > call this graph invariance, a parent selector, BV cohomology, domain,
-> chirality, spectrum, index or count. Solve the W/mirror graph-Riccati and
-> lower-left adjoint conditions on the restricted horns next; preserve the
-> source-full conflict. P1/P2/P3 remain unused.
+> chirality, spectrum, index or count. Its graph/lower-left successor is
+> discharged negatively by v0.139. P1/P2/P3 remain unused.
 
 > **Current v0.137 action-ownership fence:** the selected action's admissible
 > connection field tangent retains all three certified v0.136 leak witnesses,

@@ -7,6 +7,17 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 Q-REPAIRED GRAPH / LOWER-LEFT GATE (ledger v0.139).** The
+> v0.138 port determines a unique rank-`64` W or mirror graph on each parent
+> witness. Its upper residual vanishes, but its induced carrier action is zero
+> while the action-tied lower-left restriction and complete lower residual
+> retain rank `64`. The current q-repaired conditional rival therefore has no
+> invariant W or mirror graph; W and mirror remain identical. **Next resolve
+> or kill the source-faithful ambient-half-sign and degree-duality collision
+> without relabeling the source fields.** Only a surviving Shiab/adapter
+> returns to moving descent, BV or domain work. No verdict, residue, quotient,
+> datum, or P1/P2/P3 moves.
+>
 > **2026-08-10 FOUR-FIELD ZERO-ORDER PORT (ledger v0.138).** The ordinary
 > `Omega0(S) -> Omega1(S)` connection cell in the already-built equation-9.16
 > grammar has rank `128` and contains the preferred rank-`64` W or mirror leak
@@ -14,8 +25,8 @@ updated_at: "2026-08-10"
 > and the two `U(32,32)` halves require `alpha=beta`, while the full-U odd
 > coset requires `alpha=-beta`. The two restricted horns therefore pass a
 > necessary adapter gate; the source-full parent remains coefficient-conflicted.
-> **Next solve or kill the W/mirror graph-Riccati and lower-left adjoint
-> conditions before moving descent, BV cohomology or global domains.** Image
+> Its graph-Riccati/lower-left successor is discharged negatively by v0.139.
+> Image
 > inclusion is not graph invariance, chirality, cohomology, spectrum or count.
 > No verdict, residue, quotient, datum, or P1/P2/P3 moves.
 

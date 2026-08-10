@@ -7,14 +7,14 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.138. The complete four-field
-zero-form connection port contains the preferred W/mirror leak on moving-Spin
-and two-half restricted parents at `alpha=beta`; the full-U odd coset requires
-`alpha=-beta`, so the source-full parent remains conflicted. Build next solves
-the graph-Riccati and lower-left adjoint gate before moving BV/domain descent.
-Port inclusion, graph invariance, BV cohomology and analytic domain remain
-distinct; no verdict, residue, quotient or datum moves. Registry:
-`selected-k77-four-field-zero-order-port.json`.
+Current append-only progress surface: ledger v0.139. The v0.138 port determines
+a unique rank-64 upper graph for W and mirror, but the action-tied lower-left
+restriction and complete graph residual retain rank 64 on every parent witness.
+The current q-repaired conditional rival is killed; the source-faithful
+ambient-half-sign and degree-duality collision remains open. Build resolves
+that collision or constructs a replacement Shiab/adapter before BV/domain
+descent. No verdict, residue, quotient or datum moves. Registry:
+`selected-k77-southeast-zero-graph-gate.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

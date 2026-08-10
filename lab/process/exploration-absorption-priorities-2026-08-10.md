@@ -12,17 +12,24 @@ created: 2026-08-10
 The 2026-08-09 explorations contain one high-fan-out correction and several
 useful leads. The program will absorb the correction without opening a new
 lane. The fixed `192`-carrier results remain conditional. Ledger v0.137 closes
-the smaller action-field-tangent selector negatively. Ledger v0.138 then
-shows that the complete four-field zero-form port passes a necessary image
-condition on moving-Spin and two-half horns, while the source-full parent
-remains coefficient-conflicted. The graph-Riccati/lower-left gate now owns
-selection.
+the smaller action-field-tangent selector negatively. Ledger v0.138 shows that
+the complete four-field zero-form port passes a necessary image condition.
+Ledger v0.139 then kills the resulting graph on the current q-repaired rival:
+the unique upper graph has rank 64 and zero residual, but its action-tied
+lower-left residual retains rank 64. The source-faithful sign/degree-duality
+collision now owns selection.
 
 Ledger v0.138 composes the ordinary equation-9.16 zero-form connection cell
 with the exact W/mirror leaks. Each preferred rank-64 leak lies in a rank-128
 port. Exact quotient rank one gives `alpha=beta` on the two restricted horns
 and `alpha=-beta` on the full-U odd coset. This is not graph invariance, BV
 cohomology or a domain.
+
+Ledger v0.139 composes that port with the complete K77 form-index adjoint.
+For W and mirror on every parent witness, the upper graph is unique and exact
+but the lower equation fails rank 64. This closes the q-repaired adapter route,
+not the source operator family: ambient-half labels still collide with the
+total-grading relabel used by the tested construction.
 
 Ledger v0.137 composes the source-native connection tangent, nonzero-branch
 pointwise first-action Hessian and v0.136 leak witnesses. Every named parent
@@ -45,11 +52,11 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — four-field graph/Riccati and lower-left adjoint.** The common
-   principal operator, q-repaired one-form family and ordinary zero-form port
-   now exist. Solve or kill graph invariance for W and mirror on moving Spin
-   and the two `U(32,32)` halves. Preserve the source-full ratio conflict.
-   Only a graph survivor advances to moving descent and BV/domain cohomology.
+1. **Build A — source-faithful sign/degree-duality resolution.** The current
+   q-repaired W/mirror graph is killed by its lower-left adjoint. Classify the
+   admissible native Shiab parities and degree-dependent row dualities against
+   the source's ambient-half labels without relabeling them. Only a surviving
+   operator/adapter returns to graph, moving descent and BV/domain cohomology.
 2. **Build B — coupled functional completion after the lower-order selector.**
    Extend the full-rank pointwise connection result through metric, epsilon,
    derivative and observation jets with the actual fermion current and Ward/BV
@@ -98,7 +105,7 @@ does not establish the phenomenology of the complete GU action.
 - Do not treat observation value pullback as a physical reduction.
 - The nonzero-branch bosonic Hessian did not discriminate the parents, and the
   induced fermion principal symbol did not distinguish `W` from mirror.
-  Ledgers v0.134/v0.135/v0.136/v0.137/v0.138 record those results. Do not re-open them by using a
+  Ledgers v0.134/v0.135/v0.136/v0.137/v0.138/v0.139 record those results. Do not re-open them by using a
   hard projector, characteristic kernel or `D_varpi chi=0` as an undeclared
   repair.
 - After three distance-only Runs on this cluster, compare the rank-one gate
