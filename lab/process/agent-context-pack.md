@@ -9,7 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.149 P3 replacement-surplus fence:** prefer the tangential
+> **Current v0.150 Lorentzian chiral-class/pairing fence:** the absolute
+> tangential unit selector is unavailable. Globally hyperbolic
+> `X ~= R x Sigma3` has ordinary `H^4=0`; closed time-oriented Lorentzian spin
+> `X` has chiral `c2 in 12Z`, excluding `+/-1`. Real invariant pairings on
+> `sl(2,C)_R` exist but have exact dimension two and neutral inertia; source
+> selection of their projective ratio/reality condition is absent. Keep
+> absolute, compact-support, relative and boundary classes distinct. Build a
+> source-owned relative transgression plus real pairing before restricting
+> `I1`; kill it if it adds a free boundary integer or ratio. P1/P2/P3 remain
+> unassigned.
+
+> **Predecessor v0.149 P3 replacement-surplus fence:** prefer the tangential
 > same-bundle identity conditionally because it adds zero continuous selector
 > coordinates. It inherits the actual background's `c2` (`S4=1`, `T4=0`
 > controls), and Lorentzian chirality is complex `SL(2,C)`, not a real compact

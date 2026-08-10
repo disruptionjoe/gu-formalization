@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-lorentzian-chiral-class-pairing-source-reinspection-2026-08-10.md`](selected-k77-lorentzian-chiral-class-pairing-source-reinspection-2026-08-10.md)
+  records `SOURCE-CONFIRMS` for the Lorentzian observer sector and
+  `SOURCE-SILENT` for absolute/relative `c2`, boundary trivialization and the
+  real-versus-imaginary chiral pairing choice.
+
 - [`selected-k77-p3-replacement-surplus-source-reinspection-2026-08-10.md`](selected-k77-p3-replacement-surplus-source-reinspection-2026-08-10.md)
   records `SOURCE-CONFIRMS` for the Lorentzian tangent/normal spinor split and
   `SOURCE-SILENT` for P3, tangential identity, H-N soldering and characteristic

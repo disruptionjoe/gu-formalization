@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.149. The replacement-surplus
+Current append-only progress surface: ledger v0.150. The actual Lorentzian
+global-topology gate kills the absolute tangential unit selector: ordinary
+`H^4` is zero on globally hyperbolic `R x Sigma3`, while closed time-oriented
+Lorentzian spin backgrounds permit only a `12Z` chiral `c2` lattice. The real
+invariant pairing space on `sl(2,C)_R` has dimension two and is neutral, so
+the source has not selected its ratio or reality condition. Next construct a
+source-owned relative/boundary transgression before action restriction.
+Registry: `selected-k77-lorentzian-chiral-class-pairing.json`.
+
+Predecessor v0.149. The replacement-surplus
 comparison prefers the tangential same-bundle identity because it adds no
 continuous selector. Its `c2` is background-dependent and its Lorentzian
 chiral bundle is complex; no universal `+1` or real compact BPST connection

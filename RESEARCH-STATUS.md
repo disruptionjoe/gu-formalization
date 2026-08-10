@@ -8,7 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.149; five
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.150; five
+distance-only migrations; headline unchanged).** The absolute tangential unit
+selector is killed on both admissible Lorentzian global horns tested. Ordinary
+`H^4` vanishes on globally hyperbolic `R x Sigma3`; closed time-oriented
+Lorentzian spin four-manifolds have `chi=0`, `signature in 16Z` and chiral
+`c2` in `12Z`. Real invariant Lorentzian chiral pairings exist, but their
+space has dimension two and neutral inertia, leaving an unowned projective
+ratio/reality condition. Next Build constructs a source-owned relative,
+compact-support or boundary transgression and real pairing before restricting
+the action. No P1/P2/P3 assignment, verdict, residue, quotient, canon or
+public-posture change is made.
+
+**Predecessor result 2026-08-10 (ledger v0.149; successor scoped by v0.150;
+five
 distance-only migrations; headline unchanged).** The tangential same-bundle
 identity is the only zero-continuous-cost P3 replacement, but it inherits the
 actual observation background's characteristic number and Lorentzian complex

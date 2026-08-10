@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `lorentzian_chiral_class_pairing_audit.py` enforces ledger v0.150's
+  globally-hyperbolic ordinary-`H4` zero, closed Lorentzian-spin `12Z` chiral
+  class lattice, two-dimensional neutral real invariant pairing space,
+  relative/boundary Layer-0 fence, unchanged accounting and successor gate.
+
 - `p3_replacement_surplus_audit.py` enforces ledger v0.149's zero natural H-N
   intertwiner, 24/three-function costs, exact one-vector DeWitt inertias,
   Lorentzian complex real-form fence, background-dependent tangential `c2`,

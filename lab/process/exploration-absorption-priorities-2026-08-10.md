@@ -9,7 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.149 ranks the two successors opened by v0.148. The tangential
+Ledger v0.150 closes the absolute tangential unit route on admissible
+Lorentzian global backgrounds and retypes the live successor as a source-owned
+relative/compact-support/boundary transgression plus selected real pairing.
+Do not restrict `I1` while either the boundary integer/trivialization or the
+one-dimensional projective pairing ratio is free. The highest-information
+Build is to construct those from the source action and run the resulting
+presymplectic/BV edge test; if they remain unowned, kill this route rather than
+adding new datum. The H-N horn stays dormant unless source-derived.
+
+Ledger v0.149 ranked the two successors opened by v0.148. The tangential
 same-bundle identity is preferred conditionally because it adds no independent
 selector connection, but it inherits a background-dependent `c2` and requires
 a Lorentzian real action pairing. An unowned H-N map is not cheap: exact

@@ -24,10 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.149.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.149.md`.
+`lab/process/conditional-physics-ledger-v0.150.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.150.md`.
 
-Current P3/replacement-surplus correction: the tangential same-bundle identity
+Current Lorentzian chiral-class/pairing correction: the absolute tangential
+unit selector is unavailable. Globally hyperbolic `X ~= R x Sigma3` has
+ordinary `H^4=0`; closed time-oriented Lorentzian spin `X` has `chi=0`,
+`signature in 16Z` and chiral `c2 in 12Z`. Real invariant pairings on
+`sl(2,C)_R` form a two-dimensional neutral space and the source does not
+select its projective ratio/reality condition. Build a source-owned relative,
+compact-support or boundary transgression and its real pairing before action
+restriction. Kill the route if it adds a free boundary integer or ratio.
+
+Predecessor P3/replacement-surplus correction: the tangential same-bundle identity
 is the only zero-continuous-cost replacement, but its characteristic number is
 background-dependent and its Lorentzian chiral bundle is complex, not a real
 compact self-dual `SU(2)+` connection. There is no natural zero-order

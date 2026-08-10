@@ -7,7 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
-> **2026-08-10 P3 REPLACEMENT SURPLUS GATE (ledger v0.149).** Of the two
+> **2026-08-10 LORENTZIAN CHIRAL-CLASS/PAIRING GATE (ledger v0.150).** The
+> absolute tangential unit selector is unavailable on both admissible global
+> horns tested. Globally hyperbolic `X ~= R x Sigma3` has ordinary `H^4=0`;
+> closed time-oriented Lorentzian spin `X` has `chi=0`, `signature in 16Z` and
+> chiral `c2` in `12Z`, so `+/-1` is impossible. Real invariant chiral
+> pairings exist but form a two-dimensional neutral space; the source does not
+> choose its projective ratio or reality condition. **Next construct a source-
+> owned relative/compact-support/boundary transgression and real pairing. Kill
+> it if it adds a free integer or ratio; restrict and vary `I1` only if it is
+> derived.** P1/P2/P3, verdicts, residue, quotients and canon remain unchanged.
+
+> **2026-08-10 P3 REPLACEMENT SURPLUS GATE (ledger v0.149; successor scoped by
+> v0.150).** Of the two
 > successors opened by v0.148, the tangential same-bundle identity is the only
 > zero-continuous-cost route. It inherits the actual observation background's
 > `c2` rather than universally supplying `+1`, and Lorentzian chirality is a
