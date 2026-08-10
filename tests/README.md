@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_relative_boundary_p3_ko_interface_probe.py`
+  constructs the exact additive map from observed `SL(2,C)` winding through
+  `Sp(1)` clutching to P3's relative real-`KO` input class, verifies
+  `c2=n`, fundamental `p1=-2n`, adjoint `p1=-4n`, separates the K95 right-`H`
+  comparator from K77 and its two `U(32,32)` halves, and keeps the absent
+  relative index/count plus strict surplus `0` explicit (`34 exact + 10
+  planted = 44 PASS`, pinned SymPy 1.14.0).
+
 - `channel-swings/selected_k77_action_induced_real_pairing_horn_probe.py`
   computes the exact restriction of the selected scalar-Clifford trace on
   `sl(2,C)_R`. It gives conjugation-even `B_Re`; `B_Im` requires chirality

@@ -8,8 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.154; six
+distance-only migrations; headline unchanged).** The observed boundary winding
+now has an exact additive map into P3's relative real-`KO` input twist, with
+`c2=n`, fundamental `p1=-2n` and adjoint `p1=-4n`. This is an input-class
+correlation, not a relative index or generation count. The original P3
+comparator is K95 quaternionic/right-`H`; a real `KO` twist can tensor K77, but
+right-`H`, a closed K77 relative Fredholm domain, index and count readout do
+not port automatically, including from two `U(32,32)` Weyl halves. Strict
+surplus remains exactly `0`. Next Build resumes the nonzero-fermion source-
+operator/stationarity branch to supply the physical K77 carrier and domain,
+then applies the dependent relative-index/count gate. No P1/P2/P3 assignment,
+verdict, residue, quotient, canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.153; six
-distance-only migrations; headline unchanged).** The selected Spin-native
+distance-only migrations; predecessor to v0.154).** The selected Spin-native
 scalar-Clifford trace restricts the observed Lorentz chiral invariant pairing
 to `B_Re`; `B_Im` requires a different chirality insertion. In this action
 parent the projective pairing coordinate and independent horn cost therefore

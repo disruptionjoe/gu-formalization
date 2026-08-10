@@ -7,13 +7,20 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.153. The selected Spin-native
-scalar-Clifford trace restricts the observed Lorentz chiral pairing to `B_Re`,
-closing projective `r` and the independent horn cost conditionally. Reality or
-orientation alone do not select it. One external integer remains against one
-amplitude equation, so strict surplus is `0`; BFV basicness is admissibility,
-not a second fit constraint. Next build or kill the typed relative-index/P3
-bridge before action restriction. Registry:
+Current append-only progress surface: ledger v0.154. The observed boundary
+winding maps exactly through `SU(2)=Sp(1)` clutching into P3's relative
+real-`KO` input twist, with `c2=n` and distinct fundamental/adjoint `p1`
+normalizations. This is not yet a Fredholm index or count. The original P3
+right-`H` comparator is K95-specific; K77 still lacks the physical closed
+operator/domain/index/count output, and two `U(32,32)` halves do not supply it.
+Strict surplus remains `0`. Resume the nonzero-fermion source-operator branch,
+then run the dependent index/count gate before action restriction. Registry:
+`selected-k77-relative-boundary-p3-ko-interface.json`.
+
+Predecessor v0.153. The selected Spin-native scalar-Clifford trace restricts
+the observed Lorentz chiral pairing to `B_Re`, closing projective `r` and the
+independent horn cost conditionally. One external integer remains against one
+amplitude equation, so strict surplus is `0`. Registry:
 `selected-k77-action-induced-real-pairing-horn.json`.
 
 Predecessor v0.152. The minimal observed-

@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.153.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.153.md`.
+`lab/process/conditional-physics-ledger-v0.154.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.154.md`.
+
+Current relative-boundary/P3 correction: observed boundary winding maps
+canonically into P3's relative real-`KO` input twist, with exact characteristic
+normalization and boundary trivialization. This is not a relative index or
+generation count. The original comparator is K95 quaternionic/right-`H`; K77
+still lacks the closed physical operator/domain/index/count output, and two
+`U(32,32)` Weyl halves do not supply it. Strict surplus remains zero. Resume
+the nonzero-fermion source-operator/stationarity branch, then run the dependent
+relative-index/count gate before action restriction.
 
 Current selected-pairing correction: the Spin-native scalar-Clifford trace
 restricts the observed Lorentz chiral pairing to conjugation-even `B_Re`.

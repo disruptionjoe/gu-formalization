@@ -9,7 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.153 selected real-pairing/horn fence:** inside the selected
+> **Current v0.154 relative-boundary/P3 real-KO fence:** observed `SL(2,C)`
+> boundary winding maps exactly through `SU(2)=Sp(1)` clutching into P3's
+> relative real-`KO` input twist. This is not a relative index or generation
+> count. The original P3 right-`H` comparator is K95-specific; K77 still lacks
+> the closed physical operator/domain/index/count output, and two `U(32,32)`
+> halves do not supply it. Strict surplus remains `0`. Resume the nonzero-
+> fermion source-operator/stationarity branch, then run the dependent index/
+> count gate before action restriction.
+>
+> **Predecessor v0.153 selected real-pairing/horn fence:** inside the selected
 > Spin-native scalar-Clifford-trace action parent, the observed Lorentz chiral
 > pairing is `B_Re`; `B_Im` requires a distinct chirality insertion. Projective
 > `r` and independent horn cost therefore close conditionally. Real-valuedness

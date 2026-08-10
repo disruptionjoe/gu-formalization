@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-relative-boundary-p3-ko-interface-source-return-2026-08-10.md`](selected-k77-relative-boundary-p3-ko-interface-source-return-2026-08-10.md)
+  records source support for the Chern--Simons-like and rolled-operator arenas,
+  and source silence on the boundary-to-P3 real-`KO` map, its K77 right-`H`
+  port, relative Fredholm index and generation-count readout.
+
 - [`selected-k77-action-induced-real-pairing-horn-source-return-2026-08-10.md`](selected-k77-action-induced-real-pairing-horn-source-return-2026-08-10.md)
   records source confirmation of the norm-square arena and two Weyl halves,
   source silence on the scalar-trace restriction/real pairing/horn/P3 bridge,

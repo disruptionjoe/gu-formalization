@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 RELATIVE-BOUNDARY/P3 REAL-KO INTERFACE (ledger v0.154).** The
+> observed `SL(2,C)` boundary winding now maps canonically through
+> `SU(2)=Sp(1)` clutching into P3's relative real-`KO` input twist, with exact
+> `c2=n`, fundamental `p1=-2n` and adjoint `p1=-4n`. This closes the typed
+> input-class gap but does not create a Fredholm index or generation count.
+> The original P3 right-`H` comparator is K95-specific; a real `KO` twist can
+> tensor K77, but neither two `U(32,32)` Weyl halves nor complexification
+> supplies the missing quaternionic commutant, closed K77 relative domain,
+> index or count. Strict surplus remains `1-1=0`. **Next resume the nonzero-
+> fermion source-operator/stationarity branch to build the physical K77
+> carrier and domain, then run the dependent relative-index/count gate. Do not
+> restrict the action at zero surplus.** P1/P2/P3, verdicts, residue, quotients
+> and canon remain unchanged.
+
 > **2026-08-10 ACTION-INDUCED REAL-PAIRING/HORN GATE (ledger v0.153).** In
 > the selected Spin-native scalar-Clifford-trace parent, the observed Lorentz
 > chiral pairing is exactly `B_Re`: the ordinary real trace adds the two

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `relative_boundary_p3_ko_interface_audit.py` enforces ledger v0.154's exact
+  boundary-winding-to-P3 relative-`KO` input map, characteristic
+  normalizations, K95/K77 right-`H` port fence, absent relative index/count,
+  strict surplus `0` and nonzero-fermion operator/domain successor.
+
 - `action_induced_real_pairing_horn_audit.py` enforces ledger v0.153's exact
   selected scalar-trace `B_Re` restriction, distinct chirality-inserted
   `B_Im` parent, zero projective/horn cost in the selected parent, corrected

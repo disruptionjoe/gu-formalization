@@ -9,7 +9,13 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.153 closes the projective pairing coordinate and horn cost inside the
+Ledger v0.154 constructs the exact boundary-winding-to-P3 relative real-`KO`
+input map, but keeps the K95 right-`H` comparator separate from the unbuilt
+K77 operator/domain/index/count output. Strict surplus remains zero, so the
+nonzero-fermion source-operator/stationarity branch now leads and the relative
+index/count readout is dependent. No action restriction is admitted.
+
+Predecessor ledger v0.153 closes the projective pairing coordinate and horn cost inside the
 selected Spin-native scalar-trace parent. It also corrects the surplus method:
 small-gauge/BFV basicness is admissibility, not a second fit equation. The
 external route now has exactly one integer and one amplitude condition for
