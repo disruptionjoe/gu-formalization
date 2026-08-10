@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-153236-gu-p3-replacement-surplus",
+  "verdict": "TANGENTIAL_IDENTITY_ZERO_CONTINUOUS_COST_BUT_BACKGROUND_AND_REAL_FORM_CONDITIONAL__HN_SOLDERING_NEGATIVE_SURPLUS_UNLESS_SOURCE_OWNED__NO_ACTION_RESTRICTION",
+  "natural_h_to_sym2_dimension": 0,
+  "hn_general_framed_injection_function_dimension": 30,
+  "hn_general_subspace_function_dimension": 24,
+  "hn_one_vector_function_dimension": 3,
+  "hn_one_vector_inertias": {
+    "timelike": [1, 3, 0],
+    "spacelike": [3, 1, 0],
+    "null": [0, 0, 4]
+  },
+  "hodge_star_square": {
+    "euclidean": 1,
+    "lorentzian": -1
+  },
+  "lorentzian_real_plus_one_eigenspace_dimension": 0,
+  "lorentzian_complex_plus_i_eigenspace_dimension": 3,
+  "background_c2_controls": {
+    "S4_round_spin_plus": 1,
+    "T4_flat_spin_plus": 0
+  },
+  "tangential_identity_new_continuous_coordinates": 0,
+  "tangential_plus_one_is_universal": false,
+  "source_return": "SOURCE_CONFIRMS_LORENTZIAN_TANGENT_NORMAL_SPINOR_SPLIT__SOURCE_SILENT_P3_TANGENTIAL_IDENTITY_HN_SOLDERING_AND_CHARACTERISTIC_AMPLITUDE",
+  "p1_p2_p3_assignment_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "next_gate": "TEST_ACTUAL_LORENTZIAN_CHIRAL_BUNDLE_C2_AND_REAL_ACTION_PAIRING_ON_AN_ADMISSIBLE_OBSERVATION_BACKGROUND__THEN_RESTRICT_ACTION_IF_NONZERO_AND_SOURCE_OWNED"
+}

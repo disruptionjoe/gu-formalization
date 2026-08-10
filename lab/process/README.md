@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.148. The actual-base map kills
+Current append-only progress surface: ledger v0.149. The replacement-surplus
+comparison prefers the tangential same-bundle identity because it adds no
+continuous selector. Its `c2` is background-dependent and its Lorentzian
+chiral bundle is complex; no universal `+1` or real compact BPST connection
+follows. No natural zero-order H-N map exists, while the general and minimal
+repairs cost 24 and three pointwise functions. Next test the actual-background
+class and real selected-action pairing before action restriction. Registry:
+`selected-k77-p3-replacement-surplus.json`.
+
+Predecessor v0.148. The actual-base map kills
 the current nontrivial P3 normal-support/source diagonal: the tangential source
 class restricts to zero on the normal cycle while P3 `n=+1` has `c2=1`, and
 normal/horizontal self-dual form slots are disjoint. The v0.147 abstract `S4`

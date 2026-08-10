@@ -24,10 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.148.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.148.md`.
+`lab/process/conditional-physics-ledger-v0.149.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.149.md`.
 
-Current P3/actual-support correction: P3's written four-cycle is normal while
+Current P3/replacement-surplus correction: the tangential same-bundle identity
+is the only zero-continuous-cost replacement, but its characteristic number is
+background-dependent and its Lorentzian chiral bundle is complex, not a real
+compact self-dual `SU(2)+` connection. There is no natural zero-order
+`SO(1,3)` map `H -> Sym2 H*`; a general H-N reduction costs 24 pointwise
+functions and the minimal timelike-vector ansatz costs three. Test the actual
+background class and real selected-action pairing before action restriction.
+Keep H-N soldering dormant unless the source action derives it with positive
+constraint surplus. P1 may orient a supplied line, not create it.
+
+Predecessor P3/actual-support correction: P3's written four-cycle is normal while
 the proposed chiral Levi-Civita source bundle is observer-tangential. The
 source class pulls back to zero on that normal cycle and P3 `n=+1` pulls back
 to one; internal gauge cannot exchange their disjoint form slots. The current

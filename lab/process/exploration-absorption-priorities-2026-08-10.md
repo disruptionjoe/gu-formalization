@@ -9,7 +9,18 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.148 runs that actual support gate and kills the current nontrivial
+Ledger v0.149 ranks the two successors opened by v0.148. The tangential
+same-bundle identity is preferred conditionally because it adds no independent
+selector connection, but it inherits a background-dependent `c2` and requires
+a Lorentzian real action pairing. An unowned H-N map is not cheap: exact
+equivariance kills the natural zero-order map, the general reduction costs 24
+pointwise functions and the timelike one-vector repair costs three. Primary
+Build now tests the actual observation background's nonzero source-owned
+chiral class and real action coupling. H-N soldering remains dormant unless
+derived by the source action with positive constraint surplus. Do not restrict
+`I1` before that test.
+
+Ledger v0.148 ran the actual support gate and killed the current nontrivial
 P3 normal-support diagonal. The P3 cycle is vertical and projects to one base
 point, so the tangential source class restricts to zero while P3 `n=+1`
 restricts to one. Normal/horizontal self-dual form slots are disjoint, and

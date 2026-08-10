@@ -7,7 +7,21 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
-> **2026-08-10 P3 NORMAL/TANGENTIAL SUPPORT GATE (ledger v0.148).** The
+> **2026-08-10 P3 REPLACEMENT SURPLUS GATE (ledger v0.149).** Of the two
+> successors opened by v0.148, the tangential same-bundle identity is the only
+> zero-continuous-cost route. It inherits the actual observation background's
+> `c2` rather than universally supplying `+1`, and Lorentzian chirality is a
+> complex `SL(2,C)` structure rather than a real compact self-dual `SU(2)+`
+> connection. Exact equivariance gives `Hom_SO(1,3)(H,Sym2 H*)=0`; a general
+> H-N reduction costs 24 pointwise functions and the minimal timelike-vector
+> repair costs three. **Next test a nonzero source-owned chiral `c2` and real
+> selected-action pairing on an admissible Lorentzian observation background.
+> Restrict and vary `I1` only if that gate passes.** H-N soldering reopens only
+> if the source action derives it with positive constraint surplus. P1/P2/P3,
+> verdicts, residue, quotients and canon remain unchanged.
+
+> **2026-08-10 P3 NORMAL/TANGENTIAL SUPPORT GATE (ledger v0.148; successor
+> ranked by v0.149).** The
 > actual-base map kills the current nontrivial P3 support diagonal. P3 lives on
 > a normal four-cycle, which projects to one observer-base point; therefore the
 > tangential source bundle restricts with `c2=0`, while P3 `n=+1` has `c2=1`.

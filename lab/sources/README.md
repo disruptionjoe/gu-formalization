@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-p3-replacement-surplus-source-reinspection-2026-08-10.md`](selected-k77-p3-replacement-surplus-source-reinspection-2026-08-10.md)
+  records `SOURCE-CONFIRMS` for the Lorentzian tangent/normal spinor split and
+  `SOURCE-SILENT` for P3, tangential identity, H-N soldering and characteristic
+  amplitude selection.
+
 - [`selected-k77-p3-normal-tangential-support-source-reinspection-2026-08-10.md`](selected-k77-p3-normal-tangential-support-source-reinspection-2026-08-10.md)
   records `SOURCE-CONFIRMS` for the observer-tangent/normal-bundle separation
   and `SOURCE-SILENT` for P3's collapse map, a normal-to-tangential diagonal,

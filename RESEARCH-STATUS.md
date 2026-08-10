@@ -8,7 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.148; five
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.149; five
+distance-only migrations; headline unchanged).** The tangential same-bundle
+identity is the only zero-continuous-cost P3 replacement, but it inherits the
+actual observation background's characteristic number and Lorentzian complex
+real form; it does not universally supply `n=+1` or a real compact BPST
+connection. Exact Lorentz equivariance returns no natural zero-order
+`H -> Sym2 H*` map. A general H-N reduction costs 24 pointwise functions; the
+smallest correct-signature timelike-vector repair costs three. Next Build
+tests a nonzero source-owned chiral `c2` and real selected-action pairing on an
+admissible Lorentzian observation background before action restriction. H-N
+soldering remains live only if action-derived. No P1/P2/P3 assignment,
+verdict, residue, quotient, canon or public-posture change is made.
+
+**Predecessor result 2026-08-10 (ledger v0.148; successor ranked by v0.149;
+five
 distance-only migrations; headline unchanged).** The actual-base map
 falsifies the current nontrivial P3 normal-support/source diagonal. P3's
 normal four-cycle projects to a base point, so the observer-tangential chiral

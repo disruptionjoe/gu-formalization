@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `p3_replacement_surplus_audit.py` enforces ledger v0.149's zero natural H-N
+  intertwiner, 24/three-function costs, exact one-vector DeWitt inertias,
+  Lorentzian complex real-form fence, background-dependent tangential `c2`,
+  unchanged accounting and actual-background pairing successor.
+
 - `p3_normal_tangential_support_audit.py` enforces ledger v0.148's exact
   actual-base pullback obstruction, normal-versus-horizontal form-slot fence,
   internal-gauge kill, re-scoped abstract `S4` theorem, unchanged accounting

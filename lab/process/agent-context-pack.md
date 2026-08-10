@@ -9,7 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.148 P3 normal/tangential support fence:** the actual P3 cycle is
+> **Current v0.149 P3 replacement-surplus fence:** prefer the tangential
+> same-bundle identity conditionally because it adds zero continuous selector
+> coordinates. It inherits the actual background's `c2` (`S4=1`, `T4=0`
+> controls), and Lorentzian chirality is complex `SL(2,C)`, not a real compact
+> self-dual `SU(2)+` connection. Exact equivariance gives no natural zero-order
+> `H -> Sym2 H*` map. A general H-N reduction costs 24 pointwise functions;
+> the timelike one-vector repair has the right inertia but costs three. P1 can
+> orient a supplied line, not select it. Test a nonzero source-owned actual-
+> background class and real selected-action pairing before restricting `I1`.
+> H-N soldering reopens only if action-derived. P1/P2/P3 remain unassigned.
+
+> **Predecessor v0.148 P3 normal/tangential support fence:** the actual P3 cycle is
 > normal/vertical while the proposed positive-chiral Levi-Civita source bundle
 > is observer-tangential. Because the normal cycle projects to one base point,
 > the source class restricts with `c2=0`; P3 `n=+1` has `c2=1`. Their
