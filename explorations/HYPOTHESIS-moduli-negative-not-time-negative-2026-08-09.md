@@ -249,3 +249,94 @@ That also resolves the REGIONAL-vs-CUT fork's shape: local sections always exist
   "the" global one.
 - **Homonym located, not yet fixed.** The `sigma` in `sigma = w_1` is the **ledger / orientation** `sigma`,
   not the **section** `sigma : X4 -> Y14`. Both usages are live in this repository. The rename is still owed.
+
+---
+
+# ERIC-LANE SOURCE DISPOSITION 2026-08-09
+
+Filed per the `AGENTS.md` contract: *"Eric-lane decisive dispositions require `SOURCE-CONFIRMS`,
+`SOURCE-CORRECTS` or `SOURCE-SILENT`. Source language directs and types work; it does not substitute for
+construction."*
+
+**ATTRIBUTION LEVELS — read before citing.** Two different grades appear below and must not be merged:
+(i) **verbatim, timestamped** interview language; (ii) the repository's own **six-axis specification draft**
+in `lab/sources/media-contributor-tasks-v1.md`, which is explicitly *"a draft starting point for contributor
+to complete"*, anchored to numbered claim-ledger rows. The L1/L2/L3 lines below are grade (ii) — the repo's
+source-anchored rendering, not Weinstein verbatim.
+
+## SOURCE-CONFIRMS — the observer IS the section, over a GIVEN base
+
+From the six-axis draft (grade ii, anchored to ledger row 5 / Oxford 2013 endogenous construction):
+
+> **L1 substrate:** `U^{14} = met(X^4)`, the space of metrics on a 4-manifold `X^4`,
+> dimension `14 = 4 (base) + 10 (symmetric 2-tensors on R^4)`.
+> **L2 observer: an observer is a section of `U` over a CHOSEN `X^4`, equivalently a chosen metric on `X^4`.**
+> **L3 pairing:** pullback via `pi` — ledger row 6 records the verbatim *"let me call this (pi) the
+> projection operator"* (grade i).
+
+**This CONFIRMS the item-1 correction on both of its load-bearing points:**
+
+1. `X^4` is *"a **chosen** `X^4`"* — chosen, therefore **given**, not emergent. The amendment's insistence
+   that `X^4` is the base and is presupposed by `Met(X^4)` is the source's own structure.
+2. **An observer *is* a section.** The object that could be observer-selected is the **section**, exactly as
+   the fix states.
+
+**Consequence for the descent retyping.** If an observer *is* a section, then many observers *are* many
+sections, and observers-agreeing-on-overlaps *is* sections-agreeing-on-overlaps — which is Cech descent.
+The item-1 fix is therefore **not an import onto GU**; it is what the source's own definition yields as soon
+as there is more than one observer.
+
+**Caution the source itself imposes:** the observer is **singular** in that definition — one section, one
+metric. "Many observers" is a **generalization** of it, not a reading of it.
+
+## A convergence, source-grounded
+
+The same draft carries a candidate refinement to L2 (anchored to ledger row 8, *"observerse contemplating
+itself"*):
+
+> Self-contemplation framing is a candidate L2 refinement: **observer = fixed point of a self-map.**
+
+And this repository has independently banked:
+`descent-sections == **Phi-fixed-points** == w1(L_time)` at degree 1.
+
+**Weinstein's candidate refinement and the banked descent object are the same thing.** Fixed points of a
+self-map, descent sections, and the degree-1 `Z/2` class are already identified in-repo. That is
+source-grounded support for the item-1 fix arriving from a direction nobody was arguing from.
+
+## SOURCE-CORRECTS — drop the pullback-only framing
+
+Weinstein--Jaimungal 2025, `00:29:45--00:30:49` (grade i):
+
+> the observerse is the whole package of spaces, fibres, bundles, sections, relationships and pullbacks,
+> **not just the total space**
+> -> `SOURCE-CORRECTS` a pullback-only reading of observation.
+
+So **"Y14 is the substrate, X4 is the shadow"** is a pullback-only reading and the source corrects it: the
+observerse includes the *relationships*, not merely the big space. Anyone building on the
+substrate/shadow framing should carry this correction. (Note separately that the record-substrate/shadow
+reading is exploration-tier in this repo and was never canon.)
+
+## SOURCE-SILENT — aggregation, records, finality, consensus
+
+A search of `lab/sources/` returns **nothing** on multiple observers, mutual consistency, records-as-physical,
+finality, or consensus. Every "record" hit is ledger bookkeeping, not physics.
+
+**And the silence is precisely located.** In the same six-axis draft:
+
+> **L4 causal order:** `<unfilled>` — the Oxford 2013 transcript does not specify the causal order on `U^{14}`.
+> **L5 emergence:** `<unfilled>` — what emerges and what is fundamental at the `U^{14}` level.
+
+**The two axes the aggregation hypothesis wants to fill are exactly the two the source leaves blank.**
+
+So Time-as-Finality neither agrees with nor contradicts Weinstein here — it proposes to **occupy slots he
+explicitly never filled**. That is a legitimate and well-typed position and is *stronger* stated that way,
+but it must be labelled: **the aggregation layer of the core is a TaF IMPORT into GU's unfilled L4/L5, not a
+GU claim.** Any writeup asserting that it "lines up cleanly with the GU picture" overstates; the correct
+disposition is that GU is silent there by its own accounting.
+
+## Net effect on the core
+
+- Item 1's **fix** is `SOURCE-CONFIRMS` on its load-bearing half (observer = section; `X^4` given).
+- Item 1's **aggregation layer** is `SOURCE-SILENT` and now carries an import label.
+- The substrate/shadow framing it was built in is `SOURCE-CORRECTS`.
+- Nothing here promotes any grade. Source language types the work; it does not substitute for construction.
