@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.143; five
+distance-only migrations; headline unchanged).** The existing normalized
+zero-mode projector conditionally screens independent constant source shifts
+but does not select the v0.142 nonzero VEV amplitude. `ell` reads the amplitude;
+`Q` removes the constant mode; `ell(T)=c` supplies the value `c`. The primary
+Build is now an action-owned amplitude-dependent global compatibility
+condition on the common Green/Krein and coupled BV--BFV domain, with an
+explicit external-value horn retained. No verdict, residue, quotient, datum or
+public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.142; six
 distance-only migrations; headline unchanged).** The local dynamic VEV stress
 was already built in v0.108--v0.114. Exact composition now shows that the

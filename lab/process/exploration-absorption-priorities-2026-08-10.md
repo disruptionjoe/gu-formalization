@@ -9,6 +9,13 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.143 composes the v0.15 normalized global projector with the v0.142
+one-amplitude family. The existing projector screens independent constant
+source shifts but adds no amplitude equation. Primary Build therefore narrows
+to the common domain plus an action-owned amplitude-dependent global
+compatibility condition, or an explicitly typed external value with counted
+surplus. Do not rebuild `Pi0/Q` or project the nonzero VEV field itself.
+
 Ledger v0.142 corrects the current priority by composing, rather than
 rebuilding, v0.108--v0.114. The local curvature/distortion family already
 cancels the rank-one metric-volume trace. Its corrected source-Euler Jacobian

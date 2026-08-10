@@ -7,15 +7,14 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.142. Prior-art composition
-shows that the local action-owned curvature/distortion family already cancels
-the rank-one metric-volume trace, while its corrected source-Euler Jacobian
-leaves one amplitude. Zero-fermion current, the pointwise parent Hessian and
-built classical symplectic/BFV structures add no independent amplitude
-equation. Primary Build now owns a global normalized functional or explicitly
-typed external normalizer plus the common bulk Green/Krein and coupled BV--BFV
-domain. No verdict, residue, quotient or datum moves. Registry:
-`selected-k77-zero-fermion-vev-selector-exhaustion.json`.
+Current append-only progress surface: ledger v0.143. The existing normalized
+zero-mode projector conditionally screens independent constant source shifts
+but adds no equation for the nonzero VEV amplitude. `ell` reads the amplitude;
+`T in im Q` forces zero; `ell(T)=c` selects supplied `c`. Primary Build now
+owns an amplitude-dependent global compatibility condition on the common
+Green/Krein and coupled BV--BFV domain, with an explicit external-value horn
+retained. No verdict, residue, quotient or datum moves. Registry:
+`selected-k77-global-projector-amplitude-layer0.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

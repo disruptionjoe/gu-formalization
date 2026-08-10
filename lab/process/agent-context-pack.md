@@ -9,6 +9,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.143 global-projector/amplitude fence:** `Q=1-Pi0`
+> conditionally screens independent constant source shifts but adds no equation
+> for the one nonzero VEV amplitude. `ell` reads the amplitude; `T in im Q`
+> forces it to zero; `ell(T)=c` selects supplied `c`. Build an
+> amplitude-dependent global compatibility condition on the common domain or
+> explicitly type external value data. Never merge screening with magnitude
+> selection. P1/P2/P3 remain unassigned.
+
 > **Current v0.142 zero-fermion VEV selector fence:** the local action-owned
 > curvature/distortion family already cancels the rank-one metric-volume trace.
 > Its corrected source-Euler Jacobian has rank two on three invariant values,

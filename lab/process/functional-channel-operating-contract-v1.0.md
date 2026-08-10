@@ -24,8 +24,15 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.142.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.142.md`.
+`lab/process/conditional-physics-ledger-v0.143.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.143.md`.
+
+Current global-projector correction: the existing `Q=1-Pi0` horn
+conditionally screens independent constant source shifts but does not select
+the nonzero VEV amplitude. `ell` reads the amplitude, `T in im Q` removes it,
+and `ell(T)=c` selects supplied `c`. Build now owns an amplitude-dependent
+global compatibility condition on the common domain or an explicitly typed
+external value. Screening is not magnitude selection.
 
 Current selector correction: the local action-owned curvature/distortion
 family already cancels the rank-one metric-volume trace. Its corrected source

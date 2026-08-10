@@ -7,6 +7,17 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 GLOBAL PROJECTOR / VEV-AMPLITUDE LAYER-0 GATE (ledger
+> v0.143).** The v0.15 normalized projector is real prior art: `Q=1-Pi0`
+> conditionally screens independent constant source shifts. Composed with the
+> v0.142 family it adds zero amplitude equations. `ell` reads `t`; requiring
+> `T in im Q` forces `t=0`; imposing `ell(T)=c` selects exactly the supplied
+> `c`. **Build the common Green/Krein and coupled BV--BFV domain, then derive
+> an action-owned amplitude-dependent global solvability, determinant,
+> boundary-charge or stability condition—or explicitly type an external value
+> and count its surplus.** Do not rebuild the projector or call screening a
+> magnitude derivation. P1/P2/P3 remain unassigned.
+
 > **2026-08-10 ZERO-FERMION VEV SELECTOR EXHAUSTION (ledger v0.142).**
 > The previous rank-one instruction was stale: v0.108--v0.114 already built
 > and hostile-reviewed an action-owned curvature/distortion family whose two

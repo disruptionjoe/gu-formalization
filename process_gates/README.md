@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `global_projector_amplitude_layer0_audit.py` enforces ledger v0.143's
+  separation of conditional constant-shift screening from nonzero VEV
+  amplitude selection, unchanged accounting, and amplitude-dependent global
+  compatibility/domain successor.
+
 - `zero_fermion_vev_selector_exhaustion_audit.py` enforces ledger v0.142's
   prior-art correction, exact rank-two source family, one amplitude, local
   ten-component trace cancellation, pointwise-Hessian Layer-0 fence,
@@ -555,6 +560,7 @@ selected notes below and in each script header.
 - `y14_k3_bridge_gate.py`
 - `y14_k3_bridge_loss_audit.py`
 - `y14_k3_end_data_topography_gate_audit.py`
+- `global_projector_amplitude_layer0_audit.py`
 - `zero_fermion_vev_selector_exhaustion_audit.py`
 
 ## Eric-lane decisive source-collision gate
