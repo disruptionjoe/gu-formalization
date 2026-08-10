@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-moving-varpi-stationary-intersection-source-return-2026-08-10.md`](selected-k77-moving-varpi-stationary-intersection-source-return-2026-08-10.md)
+  confirms the tautological source-connection and four-field/southeast-fork
+  grammar, corrects the fixed-fixture identification, and records source
+  silence on the componentwise Pin realization, coupled BV/domain and count.
+
 - [`selected-k77-full-carrier-stationary-residual-source-return-2026-08-10.md`](selected-k77-full-carrier-stationary-residual-source-return-2026-08-10.md)
   records source confirmation of the full four-field/southeast-fork grammar,
   the Layer-0 correction from projected W to full `Omega1(S)`, and source

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `moving_varpi_stationary_intersection_audit.py` enforces ledger v0.157's
+  fixed-fixture-versus-tautological Layer-0 correction, exact 1792/128 rank,
+  characteristic-zero Omega0--gamma-trace graph, RS/W/mirror exclusion,
+  unchanged accounting and coupled-current/differential-domain successor.
+
 - `full_carrier_stationary_residual_audit.py` enforces ledger v0.156's
   projected-versus-full carrier correction, q-repaired/source-faithful split,
   exact parentwise rank fingerprints, fixed-fixture and analytic/BV fences,

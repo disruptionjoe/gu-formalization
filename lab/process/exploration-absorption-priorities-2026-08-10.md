@@ -9,25 +9,20 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.156 corrects the carrier before further determinant work. The v0.155
-quotient theorem is exact, but no accepted source operator preserves the
-rank-192 W carrier, so its `64 x 64` instantiation is conditional-only. The
-full q-repaired rival has a 1664-dimensional algebraic kernel but was already
-source-sign/graph scoped-killed; both canonical source-faithful row/column
-candidates are invertible at the fixed fixture across all three separately
-typed parent witnesses. The highest-information Build is now the moving-
-`varpi` determinant/rank-loss locus intersected with existing bosonic
-stationary branches. Keep the southeast-nonzero rival separate. Do not retune
-the exhausted trace-`q` signs, and do not pay for coupled Euler/domain work
-unless a nonzero rank-loss intersection survives.
+Ledger v0.157 closes the actual tautological moving-`varpi` intersection. Both
+canonical displayed-zero candidates have exact rank/nullity `1792/128` on
+both nonzero bosonic source branches. The kernel is an explicit
+`Omega0`--gamma-trace graph outside RS, W and mirror. This is more informative
+than v0.156's fixed-fixture full rank, but it is still zero-order algebra rather
+than a physical fermion sector. The highest-information Build is now to couple
+this exact graph to the action-derived fermion current and full differential
+operator, then construct the BV/Green closed domain. Keep W, mirror and the
+southeast-nonzero rival separate. Do not infer family count or chirality from
+the 128-dimensional kernel.
 
-Postflight pre-registration sharpens how to read that successor. The current
-`0=0` nullities do not test mirror selection. On the moving locus, symmetric
-nonzero nullities strengthen the external-tiebreak reading; action-independent
-asymmetry falsifies it; action-owned asymmetry credits the source action with
-the required selection. Freeze these readings before computing. Keep the
-Schur “source residual” distinct from the `LT-GR3` residual-square action
-parent, which is not touched by this wave.
+The preregistered W/mirror tiebreak readings do not fire: the graph projects to
+zero in both sectors. Keep the Schur “source residual” distinct from the
+`LT-GR3` residual-square action parent, which is not touched by this wave.
 
 Ledger v0.155 narrows the nonzero-fermion Build to an exact residual-map
 problem. Under maximal off-diagonal rank the desired and mirror K77 sectors

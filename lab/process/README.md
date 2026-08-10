@@ -7,19 +7,18 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.156. The v0.155 quotient
-theorem survives, but its projected `64 x 64` W instantiation is conditional-
-only because neither accepted graph closes. The full q-repaired rival has
-rank/nullity `256/1664` but is already scoped-killed; both canonical
-source-faithful row/column candidates have exact rank/nullity `1920/0` at the
-fixed fixture across the separately typed full-U, moving-Spin and two-half
-parents. Next compute the moving-`varpi` determinant locus and bosonic-
-stationary intersection. Registry:
-`selected-k77-full-carrier-stationary-residual.json`.
+Current append-only progress surface: ledger v0.157. The v0.156 full-rank
+certificate survives at its fixed decomposable fixture, but the actual
+tautological source connection is different. Both canonical displayed-zero
+candidates have exact rank/nullity `1792/128` on both nonzero bosonic source
+branches. Their explicit characteristic-zero graph pairs `Omega0(S)` with
+gamma-trace `Omega1(S)` and lies outside RS, W and mirror. Next couple the
+graph to the action-derived fermion current and full differential operator,
+then construct its BV/Green closed domain. Registry:
+`selected-k77-moving-varpi-stationary-intersection.json`.
 
-Predecessor v0.155 proves the exact block quotient theorem and conditionally
-reduces a closed `192+128` carrier to `64 x 64`; v0.156 corrects its carrier
-instantiation without retracting the theorem.
+Predecessor v0.156 supplies the fixed-fixture and full-carrier correction; it
+is narrowed, not retracted.
 
 Predecessor v0.154 constructs the observed-boundary-to-P3 relative real-`KO`
 input map while keeping the K95 right-`H` comparator separate from the unbuilt

@@ -9,20 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.156 full-carrier stationary fence:** the v0.155 quotient theorem
-> survives, but its `64 x 64` W instantiation is conditional-only because no
-> accepted W or W-plus-mirror graph closes. On full
-> `Omega1(S)+Omega0(S)`, the q-repaired rival has nullity 1664 but was already
-> source-sign/graph scoped-killed. Both canonical source-faithful row/column
-> trace-`q`/Pin candidates have nullity zero at the fixed fixture across full
-> `U(64,64)`, moving Spin and two `U(32,32)` halves. Next compute the moving-
-> `varpi` determinant locus and bosonic-stationary intersection; keep the
-> southeast-nonzero rival separate and do not retune trace-`q` signs.
-> Fixed nullity `0=0` is not a mirror discriminator. Pre-register the moving-
-> locus readings: symmetric nonzero nullities strengthen an external tie-break;
-> action-independent asymmetry kills that reading; action-owned asymmetry is
-> the source action doing the required selection. “Source residual” here is
-> the Schur map, not the `LT-GR3` residual-square action parent.
+> **Current v0.157 moving-`varpi` stationary fence:** v0.156's fixed
+> decomposable fixture remains full rank, but the actual source connection is
+> `varpi=s Phi1`. On both exact nonzero bosonic branches, both canonical
+> displayed-zero candidates have exact rank/nullity `1792/128`. The explicit
+> `QQ(i)` graph pairs `Omega0(S)` with gamma-trace `Omega1(S)` and projects to
+> zero under RS, W and mirror. It is a zero-order algebraic kernel, not a
+> differential solution, BV cohomology, physical mode, index or count. Next
+> couple it to the action-derived fermion current and full differential
+> operator, then construct the BV/Green closed domain. Keep W, mirror, the
+> southeast-nonzero rival, full U, moving Spin and two U-halves separate.
 
 > **Current v0.155 nonzero-fermion stationary fence:** under maximal rank of
 > the draft-9.16 off-diagonal blocks, `ker([A B; C 0])` is exactly controlled

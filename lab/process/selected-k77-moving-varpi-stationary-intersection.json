@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-200828-gu-k77-moving-varpi-stationary-intersection",
+  "status": "BOTH_NONZERO_TAUTOLOGICAL_BOSONIC_BRANCHES_INTERSECT_EXACT_NULLITY128_LOCUS",
+  "field": "GF_1000033_RANK_PLUS_QQ_I_EXPLICIT_GRAPH_PLUS_QQ_SQRT3_BRANCH_NORM",
+  "operator_scope": "DISPLAYED_SOUTHEAST_ZERO_ZERO_DERIVATIVE_COMPONENTWISE_DRAFT916_BLOCK",
+  "componentwise_extension": {
+    "upper_left": "R_rc=delta_rc*sum_k(gamma_k V_k)-gamma_c V_r",
+    "upper_right": "stack_r(V_r)",
+    "lower_left": "L_r=-eta_r B V_r^T B",
+    "decomposable_controls": 3,
+    "planted_nondecomposable_control": "REJECTED_COLLAPSE_TO_A_TENSOR_P"
+  },
+  "tautological_family": {
+    "components": "V_i=s gamma_i",
+    "branch_amplitudes": [
+      "(-3+sqrt(3))/624",
+      "(-3-sqrt(3))/624"
+    ],
+    "branch_numerator_norm": 6,
+    "both_nonzero": true
+  },
+  "candidates": {
+    "column_pin": {
+      "rank": 1792,
+      "nullity": 128,
+      "upper_left_rank": 1792,
+      "port_rank": 128,
+      "lower_rank": 128
+    },
+    "row_pin": {
+      "rank": 1792,
+      "nullity": 128,
+      "upper_left_rank": 1792,
+      "port_rank": 128,
+      "lower_rank": 128
+    }
+  },
+  "characteristic_zero_certificate": {
+    "upper_left_good_prime_invertible": true,
+    "explicit_qq_i_kernel_graph_rank": 128,
+    "exact_nullity": 128
+  },
+  "kernel_typing": {
+    "graph": "OMEGA0_TO_GAMMA_TRACE_OMEGA1",
+    "pi_rs_projection": 0,
+    "w_projection": 0,
+    "mirror_projection": 0,
+    "physical_bv_domain": "OPEN",
+    "index_count": "OPEN"
+  },
+  "parent_scope": "SELECTED_TAUTOLOGICAL_SOURCE_BRANCH__FULL_U64_64_MOVING_SPIN_AND_TWO_U32_32_HALVES_REMAIN_DISTINCT__NO_TWO_HALF_PORT_CLAIM",
+  "source_return": "SOURCE_CONFIRMS_VARPI_ONE_FORM_FOUR_FIELD_GRAMMAR_AND_SOUTHEAST_FORK__SOURCE_SILENT_ON_COMPONENTWISE_TRACE_Q_REALIZATION_NONZERO_SOUTHEAST_MAP_BV_DOMAIN_AND_COUNT",
+  "ledger_rows": ["RA-D4", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"],
+  "ledger_effect": "DISTANCE_AND_EVIDENCE_ONLY__NO_VERDICT_RESIDUE_QUOTIENT_DATUM_CANON_OR_PUBLIC_POSTURE_MOVEMENT",
+  "next_gate": "COUPLE_THE_EXACT_GAMMA_TRACE_OMEGA0_GRAPH_TO_THE_ACTION_DERIVED_FERMION_CURRENT_AND_DIFFERENTIAL_BV_GREEN_DOMAIN__KEEP_W_MIRROR_AND_SOUTHEAST_NONZERO_AS_SEPARATE_COMPARATORS__NO_COUNT_INFERENCE"
+}
