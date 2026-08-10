@@ -19,6 +19,17 @@ follows:
 
 # The moduli-negative vs time-negative hypothesis
 
+> ### KILL CONDITION 1 IS PARTLY ANSWERED — read with Half B's antecedent narrowed.
+>
+> This hypothesis's Half B ("IF the moduli directions can be separated/reduced/gauge-fixed, THEN index
+> arguments may return") assumed no index framework exists for ultrahyperbolic signature. **One does** — van
+> den Dungen, arXiv:1807.11856 Prop 4.5, indefinite spectral triple in **arbitrary** signature `(t,s)`,
+> verify-confirmed verbatim. So the antecedent is narrower than stated: the obstacle is not the absence of a
+> framework but the **45-dimensions-per-point non-canonical choice of spacelike reflection**, which is GU's
+> own already-proved "no invariant Riemannian metric / no invariant `J`" no-go. Half A (provenance) is
+> unaffected. The warning that **provenance does not move a symbol** stands unchanged.
+
+
 ## Statement (two halves — keep them separate)
 
 **HALF A — PROVENANCE (computed, solid).** `Y14 = Met(X4)` has signature `(9,5) = (3,1)_base + (6,4)_fibre`.

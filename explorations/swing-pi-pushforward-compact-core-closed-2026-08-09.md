@@ -20,6 +20,16 @@ follows:
 
 # The compact-core route to `pi_!` is closed
 
+> ### KILL 3 IS SCOPED — "no index theory applies" was too strong.
+>
+> An index-theoretic framework covering **arbitrary signature** `(t,s)`, with no Lorentzian and no
+> parallel-time restriction, **does exist**: van den Dungen, arXiv:1807.11856 Prop 4.5 (verify-confirmed
+> verbatim). Non-ellipticity remains real and remains the serious obstruction relative to (A) compactness —
+> but the correct statement is that **no framework has been applied here**, not that none exists. The blocker
+> relocates onto the non-canonical choice of spacelike reflection, i.e. GU's own "no invariant `J`" no-go.
+> Kills 1 (degree mismatch) and 2 (rational triviality) are **unaffected**.
+
+
 ## What was proposed
 
 The fiber `GL(4,R)/O(3,1)` deformation-retracts to `RP^3`, which is compact, orientable and

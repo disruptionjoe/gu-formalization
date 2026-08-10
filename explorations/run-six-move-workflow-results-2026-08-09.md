@@ -15,6 +15,16 @@ public_posture_change: none
 
 # Six-move workflow: results
 
+> ### ONE ITEM RETRACTED, SAME DAY.
+>
+> This receipt records the `24 sqrt(2)` frame-charge result as *sharpening* the non-quantization finding.
+> **That interpretation is RETRACTED.** A gamma-scramble test showed `NET-SD` is a **pure dimension count with
+> zero Dirac content** — `n_SD * sqrt(DIM) = 3*sqrt(128)` analytically, bit-identical even with all 14 gammas
+> replaced by zero matrices — and the "`sqrt(2)` is generator normalization" reading is specifically refuted
+> (it is the leftover of `sqrt(128) = 8 sqrt(2)`). See the retraction banner on
+> `frame-charge-is-24-root-2-exactly-2026-08-09.md`. Everything else in this receipt stands.
+
+
 **Every agent was read-only.** Another agent was writing in this repo concurrently; no workflow agent
 created, edited, or committed any repo file. All scratch went to `/tmp`.
 

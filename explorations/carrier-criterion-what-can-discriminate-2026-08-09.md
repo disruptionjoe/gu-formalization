@@ -12,6 +12,18 @@ public_posture_change: none
 
 # What can discriminate the carrier
 
+> ### THE "NEXT TEST" BELOW HAS BEEN RUN — and returned a THIRD outcome.
+>
+> Neither predicted branch holds. T1-T4 **all break** under the internal scramble (so they DO carry
+> internal-Clifford content) — **but random chirality-graded subspaces pass them unscrambled**, so breaking is
+> **necessary, not sufficient**. The content belongs to the ambient operators `K` and `chir`, not to the 192.
+> **The carrier-identification gap is NOT closed.** See
+> `run-scramble-T1-T4-ambient-not-carrier-2026-08-09.md`.
+>
+> Still untested, and now the only untested leg: the **carrier mass results** (vectorlike, `{+64,0,-64}`,
+> massive-decouples-to-zero).
+
+
 ## The problem
 
 "The 192 is the pure `Spin(10)` generation spinor" is the sector's foundational identification. The sweep

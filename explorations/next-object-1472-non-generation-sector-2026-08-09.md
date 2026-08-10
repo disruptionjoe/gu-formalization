@@ -21,6 +21,21 @@ follows:
 
 # The 1472
 
+> ### STEPS 1 AND 2 ARE NOW DONE — this note's "not currently known" is stale.
+>
+> **Step 1 (content):** `ker(Gamma)` is exactly two-valued under the `Spin(10)` Casimir,
+> `(C+11.25)(C+21.25) = 0` at `6.78e-13` — **512 of 16-type, 1152 of 144-type, no `Spin(10)` singlets.** But
+> `Spin(10)`-singlet is NOT SM-singlet: building the actual `su(3)+su(2)+u(1)` subalgebra gives **40
+> SM-neutral states** (32 at `-11.25`, 8 at `-21.25`). **The dark-sector branch is NOT dead.**
+>
+> **Step 2 (Krein signature):** all sectors balanced — `640 -> (+320,-320,0)`, `832 -> (+416,-416,0)`,
+> `192 -> (+96,-96,0)`, every Gram eigenvalue exactly `+/-1`. K-orthogonality holds structurally. The balance
+> is **forced** by `{K,chir}=0`, so it is a corollary, not a discovery.
+>
+> Both in `run-fast-sweep-carrier-identification-non-discriminating-2026-08-09.md`. The open question is now
+> **what the 40 SM-neutral states are**, not whether the sectors are balanced.
+
+
 ## The object
 
 ```

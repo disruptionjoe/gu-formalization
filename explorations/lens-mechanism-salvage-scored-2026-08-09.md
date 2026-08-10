@@ -17,6 +17,21 @@ follows:
 
 # Lens-mechanism salvage
 
+> ### TWO ROWS SUPERSEDED, SAME DAY.
+>
+> **Tier 1, lens 5 ("no index theory applies to a non-elliptic operator") is TOO STRONG.** An index framework
+> for **arbitrary signature** exists — van den Dungen, arXiv:1807.11856 Prop 4.5, verify-confirmed verbatim.
+> The blocker does not vanish, it **relocates** onto the 45-dimensions-per-point non-canonical spacelike
+> reflection, which is GU's own invariant-`J` no-go. Note the verify also SCOPED that finding: "refuted"
+> overstates and one numeric certificate is false as written.
+>
+> **CONVERGENCE 1 survives and is strengthened** — non-ellipticity and non-quantization are still one finding
+> in two languages; what changes is that the class is "no framework has been APPLIED", not "none exists".
+>
+> Separately: the "reconcile the two 192s" action this note ranked has been **answered** — they are
+> indistinguishable, but *because the criterion is vacuous*, not because a second carrier exists.
+
+
 ## The problem this fixes
 
 A 25-lens council was synthesized to "a generation is an index, not an object" plus a three-way labor split.

@@ -33,6 +33,20 @@ follows:
 
 # Twenty-five lenses on: what *is* a generation of matter?
 
+> ### SUPERSEDED IN PART, SAME DAY — LENS 1 IS DEFLATED. Read this first.
+>
+> This council's **strongest item** — lens 1, *"a generation is an m-value"*, graded ACTUAL MATH very high and
+> called "the strongest single statement in the council" — rests on the `Casimir = -11.25` identification of
+> the 192 carrier. **That identification was later shown to be NON-DISCRIMINATING**: the Casimir is exactly a
+> scalar on the whole 128, and a **random 192-dim subspace** of the `(base-4)(x)128` block passes the
+> identical test. See `run-fast-sweep-carrier-identification-non-discriminating-2026-08-09.md`.
+>
+> The 192 *is* a `Spin(10)` spinor — but so is everything else in that block, so the criterion does not
+> select it. **"The 192 is the generation carrier" is an assertion, not a result.** Every lens below that
+> leans on the carrier inherits that caveat. Lens 3's `(+96,-96,0)` content was also later shown to be
+> **ambient** rather than carrier-specific (`run-scramble-T1-T4-ambient-not-carrier-2026-08-09.md`).
+
+
 **The question is not "why three."** Granting the math, granting a source action, granting an
 external datum — **what kind of thing is a generation?**
 
