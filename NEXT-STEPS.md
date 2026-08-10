@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 INDUCED FERMION PRINCIPAL DISCRIMINATOR (ledger v0.135).**
+> The exact source-guided K77 Dirac/RS principal symbol is informative but not
+> selective. At an observed base-null covector, proposed self-dual `W` and its
+> exact ASD mirror both have characteristic rank/kernel `224/96`; the natural
+> `832` and `640` sectors likewise retain half their one-form dimension. Three
+> planted random rank-`192` planes have kernels `1/0/0`, so this is genuine
+> module detection rather than dimension matching. Full `U(64,64)`, moving
+> Spin and two-`U(32,32)` parents coincide at principal order because their
+> distinctions are zero order. **Next assemble the exact draft-9.16
+> zero-order `varpi`, reality/BV and domain discriminator on all three parent
+> ablations, and require physical K-definite cohomology to select `W` over its
+> mirror.** Do not book a quotient, index or generation count from a
+> characteristic kernel. No verdict, residue, datum or P1/P2/P3 moves.
+
 > **2026-08-10 NONZERO-BRANCH PARENT HESSIAN (ledger v0.134).** At
 > `T*=-(kappa_1/312)Phi1`, the complete pointwise first-action connection
 > Hessian has rank `229,376` and inertia `(114,659,114,717,0)`. Both the

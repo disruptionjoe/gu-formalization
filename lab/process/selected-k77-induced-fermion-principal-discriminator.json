@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "status": "PRINCIPAL_OPERATOR_PARTIALLY_DISCRIMINATING__W_EQUALS_ASD_MIRROR__PARENT_SELECTION_LOWER_ORDER",
+  "lane": "1",
+  "functional_channels": [
+    "BUILD",
+    "COMPOSE",
+    "SOURCE",
+    "VERIFY"
+  ],
+  "layer0": {
+    "computed_object": "released-source-guided K77 principal symbol on Omega1(S)+Omega0(S), restricted to exact Lorentz representation submodules",
+    "not_computed": [
+      "complete draft-9.16 lower-order operator",
+      "physical kernel or BRST cohomology",
+      "closed-domain spectrum or Green operator",
+      "Krein-positive physical carrier",
+      "mirror-removing quotient",
+      "generation count"
+    ],
+    "signature": "plus-first (1,3)+(6,4)=(7,7)",
+    "complexification_scope": "exact Gaussian-rational Lorentz sl2 branching inside fixed real K77 only; not used to decide the real-form fork"
+  },
+  "source_return": "SOURCE_CONFIRMS_PRINCIPAL_CONTRACTION_PLUS_STAR_GRAMMAR_AND_SOUTHEAST_ZERO__SOURCE_SILENT_GLOBAL_OPERATOR_CARRIER_SELECTION_REALITY_BV_AND_DOMAIN",
+  "exact_result": {
+    "full_symbol": {
+      "nonnull_rank": 1920,
+      "null_rank": 1024,
+      "null_kernel": 896
+    },
+    "base_null_coupled_sector_ranks": {
+      "W_sd192": {"one_form_dimension": 192, "domain_dimension": 320, "rank": 224, "kernel": 96},
+      "mirror_asd192": {"one_form_dimension": 192, "domain_dimension": 320, "rank": 224, "kernel": 96},
+      "plus_doublet832": {"one_form_dimension": 832, "domain_dimension": 960, "rank": 544, "kernel": 416},
+      "plus_singlet640": {"one_form_dimension": 640, "domain_dimension": 768, "rank": 448, "kernel": 320}
+    },
+    "natural_sector_rule": "each tested Lorentz representation submodule has characteristic kernel equal to half its one-form dimension",
+    "random_192_controls": [
+      {"seed": 20260810, "rank": 319, "kernel": 1},
+      {"seed": 20260811, "rank": 320, "kernel": 0},
+      {"seed": 20260812, "rank": 320, "kernel": 0}
+    ],
+    "critical_pair_certificate": "W and ASD mirror both have exact Gaussian-rational rank/kernel 224/96",
+    "finite_field": 1000033
+  },
+  "parent_ablations": {
+    "source_full_U64_64": [1920, 1024],
+    "moving_Spin": [1920, 1024],
+    "two_U32_32_halves": [1920, 1024],
+    "reason": "connection-parent restrictions change zero-order coefficients, not the common principal derivative coefficient"
+  },
+  "disposition": {
+    "preregistered_horn": "PRINCIPAL_PARTIAL",
+    "informative": [
+      "generic planted rank-192 subspaces fail the natural half-kernel rule",
+      "the natural Lorentz representation sectors are not dimension-only artifacts"
+    ],
+    "not_selected": [
+      "W over its exact ASD mirror",
+      "one natural sector over another by a dimension-normalized kernel rule",
+      "full U64,64 over moving Spin or two U32,32 halves"
+    ],
+    "surviving_burden": "at least a W-versus-mirror binary fork plus lower-order/reality/BV/domain construction; no datum is booked",
+    "next_gate": "assemble the exact draft-9.16 zero-order varpi and reality/BV/domain discriminator on all three parent ablations"
+  },
+  "accounting": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "residue_change": "none",
+    "quotient_change": "none",
+    "P1_P2_P3": "unchanged and unused"
+  },
+  "evidence": [
+    "tests/channel-swings/selected_k77_induced_fermion_principal_discriminator.py",
+    "explorations/conditional-build/selected-k77-induced-fermion-principal-discriminator-2026-08-10.md",
+    "lab/process/hostile-reviews/2026-08-10-selected-k77-induced-fermion-principal-discriminator-review.md"
+  ]
+}

@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.135 induced-fermion principal fence:** the exact source-guided
+> K77 Dirac/RS principal symbol recognizes natural Lorentz modules but does not
+> select the proposed carrier. At an observed base-null covector, self-dual
+> `W` and its exact ASD mirror both have rank/kernel `224/96`; natural `832`
+> and `640` sectors each retain half their one-form dimension, while three
+> planted random rank-`192` planes have kernels `1/0/0`. Never identify a
+> characteristic kernel with physical kernel/cohomology/spectrum/count. Full
+> `U(64,64)`, moving Spin and two-`U(32,32)` parents coincide at principal
+> order; their discriminator is lower order. Build the exact draft-9.16
+> zero-order `varpi`, reality/BV and domain extension next and require physical
+> K-definite cohomology to distinguish `W` from mirror. P1/P2/P3 remain unused.
+
 > **Current v0.134 bosonic-parent action fence:** at the known nonzero branch
 > `T*=-(kappa_1/312)Phi1`, the complete pointwise first-action connection
 > Hessian has rank `229,376` and zero radical. Both `B`-adjoint sectors and

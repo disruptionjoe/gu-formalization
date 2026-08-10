@@ -14,24 +14,23 @@ useful leads. The program will absorb the correction without opening a new
 lane. The fixed `192`-carrier results remain conditional; action-owned moving
 reduction becomes responsible for selecting or rejecting that carrier.
 
-Ledger v0.134 closes the bosonic pointwise parent gate negatively. At the
-known odd-`Phi1` nonzero branch, the complete `229,376`-direction connection
-Hessian is full rank, including both `B`-adjoint sectors and both Weyl
-block/coset cells. No hard reduction is action-derived there. The induced
-fermion operator is now the rank-one Build.
+Ledger v0.135 closes the induced-fermion principal gate partially. At a
+base-null covector the source-guided operator rejects generic random rank-192
+planes, but proposed `W` and its exact ASD mirror have the same characteristic
+rank/kernel `224/96`; the natural 832 and 640 sectors share the normalized
+half-kernel rule. The draft-9.16 zero-order/reality/BV/domain discriminator is
+now the rank-one Build.
 
 ## Ranked frontier
 
-1. **Build A — induced fermion selector.** `P_epsilon` and
-   `D_varpi chi_epsilon=0` act on connection data, not directly on the distinct
-   `640+832+192` RS split. Construct the common K77 fermion bundle and the
-   action-derived Dirac/RS operator or BV differential on the source-full
-   carrier, retaining moving-Spin and two-half restrictions as ablations. Only
-   then test its
-   kernel/cohomology/spectral projector on proposed `W`, mirror, planted random
-   `192`s, `640`, and `832`, and report constraint surplus. Keep source-full
-   `U(64,64)`, the two `U(32,32)` halves and moving Spin as explicit parents.
-2. **Build B — coupled functional completion after the induced operator.**
+1. **Build A — lower-order fermion selector.** The common K77 principal
+   operator now exists and its exact controls are complete: it rejects generic
+   random `192`s but does not separate `W` from its ASD mirror or choose a
+   connection parent. Assemble the exact draft-9.16 zero-order `varpi`,
+   reality/BV and domain terms on source-full `U(64,64)`, moving Spin and the
+   two `U(32,32)` halves. Require physical K-definite cohomology to distinguish
+   `W` from mirror before any spectrum, index or count claim.
+2. **Build B — coupled functional completion after the lower-order selector.**
    Extend the full-rank pointwise connection result through metric, epsilon,
    derivative and observation jets with the actual fermion current and Ward/BV
    owners. Finite indefinite inertia is not a spectrum or quotient.
@@ -77,9 +76,11 @@ does not establish the phenomenology of the complete GU action.
 - Do not apply a bosonic connection projector directly to a fermion subspace;
   require the induced representation/operator and physical domain first.
 - Do not treat observation value pullback as a physical reduction.
-- The nonzero-branch bosonic Hessian did not discriminate the parents. Ledger
-  v0.134 records that result. Do not re-open it by using a hard projector or
-  `D_varpi chi=0` as an undeclared repair.
+- The nonzero-branch bosonic Hessian did not discriminate the parents, and the
+  induced fermion principal symbol did not distinguish `W` from mirror.
+  Ledgers v0.134/v0.135 record those results. Do not re-open either by using a
+  hard projector, characteristic kernel or `D_varpi chi=0` as an undeclared
+  repair.
 - After three distance-only Runs on this cluster, compare the rank-one gate
   against the disjoint Verify and neutral-state tasks using the functional-
   channel yield checkpoint.

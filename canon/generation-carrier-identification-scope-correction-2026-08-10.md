@@ -81,6 +81,18 @@ does not select the physical parent. It removes the bosonic selector shortcut
 and makes the source-full induced K77 Dirac/Rarita--Schwinger operator, with
 both reductions retained as ablations, the next carrier-identification gate.
 
+Ledger v0.135 executes that principal-symbol gate. The exact source-guided K77
+Dirac/Rarita--Schwinger symbol rejects generic planted rank-`192` planes, but
+the proposed self-dual `W` and its exact ASD mirror have identical base-null
+characteristic rank/kernel `224/96`; the natural `832` and `640` sectors obey
+the same normalized half-kernel rule. The three connection-parent ablations
+also coincide at principal order because their distinction is zero order.
+This is partial structural discrimination, not physical selection. The
+remaining admissible selector is the exact draft-9.16 zero-order `varpi`,
+reality/BV and domain extension, followed by physical K-definite cohomology.
+A characteristic kernel is not a physical kernel, Fredholm index or family
+count.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
@@ -88,4 +100,5 @@ both reductions retained as ablations, the next carrier-identification gate.
 - `lab/process/hostile-reviews/2026-08-10-exploration-absorption-and-carrier-scope-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-reduction-carrier-typing-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-bosonic-parent-action-ownership-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-induced-fermion-principal-discriminator-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

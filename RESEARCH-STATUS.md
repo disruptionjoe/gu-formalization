@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.135; six
+distance-only migrations; headline unchanged).** The exact source-guided K77
+Dirac/RS principal symbol distinguishes natural Lorentz modules from three
+planted random rank-`192` planes, but proposed self-dual `W` and its exact ASD
+mirror have the identical base-null characteristic rank/kernel `224/96`.
+Natural `832` and `640` sectors obey the same normalized half-kernel rule.
+The full-`U(64,64)`, moving-Spin and two-`U(32,32)` parent ablations share this
+principal fingerprint because their distinction is lower order. Build now
+assembles the exact draft-9.16 zero-order `varpi`, reality/BV and domain
+discriminator and requires physical cohomology before any mirror, chirality,
+index or count claim. No verdict, residue, quotient, datum or public posture
+moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.134; nine
 distance-only migrations; headline unchanged).** The complete pointwise
 first-action connection Hessian at the known odd-`Phi1` nonzero branch has

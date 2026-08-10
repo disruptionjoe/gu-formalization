@@ -24,19 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.134.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.134.md`.
+`lab/process/conditional-physics-ledger-v0.135.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.135.md`.
 
 Current high-fanout premise correction: exact fixed-`W` theorems remain valid
-conditionally, but the old internal Casimir test cannot identify the physical
-`192` carrier. v0.134 closes the bosonic pointwise parent gate: the complete
-nonzero-branch connection Hessian has rank `229,376` and zero radical on both
-the `B`-adjoint and Weyl block/coset decompositions. The action therefore
-generates neither hard reduction. The odd `Phi1` branch is outside the
-two-half reduction but is available in full `U(64,64)` and a separately
-posited moving-Spin domain. Build now constructs the induced source-full K77
-Dirac/RS operator, retaining those reductions as ablations, before using its
-kernel/cohomology against mirror/random/`640`/`832` controls.
+conditionally, but neither the old internal Casimir nor the bosonic pointwise
+parent Hessian identifies the physical `192` carrier. v0.135 constructs the
+source-guided K77 Dirac/RS principal symbol and runs the promised controls. It
+rejects three generic random rank-`192` planes, but the proposed self-dual `W`
+and its exact ASD mirror have the identical characteristic rank/kernel
+`224/96`; the natural `832` and `640` sectors obey the same normalized
+half-kernel rule. Full `U(64,64)`, moving Spin and two `U(32,32)` halves share
+this principal fingerprint because their distinction is lower order. Build
+now assembles the exact draft-9.16 zero-order `varpi`, reality/BV and domain
+discriminator. Characteristic kernel is not physical cohomology or count.
 Verify owns the silent-Hermitization repair, carrier-mass scramble and hostile
 T1--T4 check. Compose owns the exact `40=32+8` neutral-state cross-tab without
 dark-matter inflation. Analytic index work reopens only after Build supplies a

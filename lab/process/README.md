@@ -7,16 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.134. At the known nonzero
-branch the complete pointwise first-action connection Hessian has rank
-`229,376` and zero radical on both `B`-adjoint sectors and both Weyl
-block/coset cells. The action derives neither hard reduction. Odd `Phi1` is
-outside the two-half reduction but remains in full `U(64,64)` and a separately
-posited moving-Spin domain. Build next constructs the induced source-full K77
-Dirac/RS operator with both reductions as ablations, then tests
-mirror/random/`640`/`832` controls. Fixed-`W` theorems remain conditional; no
-verdict, residue, quotient or datum moves. Registry:
-`selected-k77-nonzero-branch-parent-hessian.json`.
+Current append-only progress surface: ledger v0.135. The exact source-guided
+K77 Dirac/RS principal symbol rejects generic random rank-192 planes but gives
+proposed `W` and its ASD mirror the identical characteristic rank/kernel
+`224/96`; natural `832` and `640` sectors share the normalized half-kernel
+rule. The full-U, moving-Spin and two-half parents coincide at principal order.
+Build next assembles the exact draft-9.16 zero-order varpi, reality/BV and
+domain discriminator. Fixed-`W` theorems remain conditional; no verdict,
+residue, quotient or datum moves. Registry:
+`selected-k77-induced-fermion-principal-discriminator.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

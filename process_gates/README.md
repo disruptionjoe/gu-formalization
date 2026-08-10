@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `induced_fermion_principal_discriminator_audit.py` enforces ledger v0.135's
+  exact K77 principal symbol anchors, W/mirror `224/96` equality, natural-sector
+  half-kernel rule, planted random controls, lower-order parent-ablation fence,
+  hostile symplectic/analytic review, unchanged accounting and draft-9.16
+  zero-order successor.
+
 - `nonzero_branch_parent_hessian_audit.py` enforces ledger v0.134's complete
   `229,376`-direction pointwise Hessian census, zero radical on both parent
   decompositions, two-half/full-U/moving-Spin Layer-0 fences, hostile and
