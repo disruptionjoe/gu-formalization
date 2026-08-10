@@ -319,6 +319,19 @@ The condition GU satisfies instead of DG-A6 is:
 > by any rank normalization". **So both terms of `16 + 8` are independently dead,
 > by two unrelated computations.** FIRING.
 >
+> **CORRECTION NGM-01 (2026-08-09).** Two defects in this file, filed at
+> `explorations/canon-met-x4-contractibility-type-defect-2026-08-09.md`.
+> **(D8)** Sec 2.3 states *"Met(X^4) is contractible (convex cone)"* -- that is the **RIEMANNIAN** fact under
+> the **LORENTZIAN** name. Sec 2.1 of this same file gives the Lorentzian fibre `GL(4,R)/O(3,1)`,
+> non-compact, homotopy `RP^3 x R^+`, which is **not** contractible. Load-bearing for the Freed-Hopkins
+> Option-B elimination (already held CONDITIONALLY_RESOLVED under FH-01, so no verdict moves) -- it supplies
+> an independent fourth reason that lane cannot close.
+> **(D9)** The Sec 2.3 CANON-5 scope tag claims Sec 2.1 *"explicitly admits X^4 = CP2"*; Sec 2.1 states the
+> opposite (*"CP2 is excluded -- it is non-spin"*). Stale tag, predates W2-FC1.
+> **Also:** the `pi_!` fence below says *non-convex*; the operative obstruction is **non-compactness**, and
+> the more serious one is **non-ellipticity**. See CORRECTION SD-01 in
+> `canon/single-decider-integer-index-RESULTS.md`.
+
 > **Fence, carried from the certificate itself and load-bearing.** The families
 > pushforward `pi_! : ch(S)/Y14 -> ch(S_X)/X4` is `NOT_DEFINED` on the non-convex
 > fibre `GL(4,R)/O(3,1)`, so `ch2(S_X)[K3]` "is not yet THE index". This retires

@@ -255,3 +255,18 @@ push request. Do not commit or push when a conflicting central owner claim or li
 repository-specific rule, failed verification, unrelated dirty changes, or
 Joe's explicit hold blocks it. GitHub push is routine versioning, not external
 publication; all other external-action rules remain in force.
+
+## Pre-claim novelty check (added 2026-08-09, measured requirement)
+
+Before asserting that any result, object, or route is NEW, run:
+
+```
+python3 lab/process/novelty-check.py "<term>" "<term>" ...
+```
+
+Exit 1 means prior art exists; read it before claiming. This is not optional
+hygiene — on 2026-08-09 a single session produced **seven** false-novelty claims
+(orchestrator and subagents alike), every one of which a 30-second grep would
+have caught. A hit is not automatically a refutation: it may be adjacent work, or
+a homonym (this repository carries at least six same-letter collisions). Read the
+hits and state what is new *relative to them*.

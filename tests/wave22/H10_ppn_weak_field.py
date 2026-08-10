@@ -1,3 +1,49 @@
+r"""
+=============================================================================
+CORRECTION H10-01 (2026-08-09) -- READ BEFORE USING ANY NUMBER FROM THIS FILE
+=============================================================================
+STELLE'S TWO YUKAWA COEFFICIENTS ARE SWAPPED HERE. The constants below are NOT
+edited (so nothing silently changes behaviour); this banner records the error.
+
+  THIS FILE SAYS  : spin-2 (Weyl^2) = +1/3 ; spin-0 (R^2) = -4/3   [L82, L84-85]
+  CORRECT         : spin-0 (R^2)    = +1/3 ; spin-2 ghost (Weyl^2) = -4/3
+
+DERIVED, not quoted. Static T_00 = rho. Massless-graviton source
+T_mn - (1/2) eta_mn T -> (rho/2, rho/2 delta_ij). Massive spin-2 source
+T_mn - (1/3) eta_mn T -> (2rho/3, rho/3 delta_ij). Ratios to massless:
+temporal 4/3 (this IS the vDVZ discontinuity), spatial 2/3. The massive mode
+alone gives gamma = (1/3)/(2/3) = 1/2, reproducing vDVZ exactly. Ghost sign
+subtracts. Hence
+  Phi = -(GM/r)[1 + (1/3)e^{-m0 r} - (4/3)e^{-m2 r}]
+  Psi = -(GM/r)[1 - (1/3)e^{-m0 r} - (2/3)e^{-m2 r}]
+both brackets vanishing at r->0 (1+1/3-4/3 = 0 ; 1-1/3-2/3 = 0).
+
+WHY IT SURVIVED: the swap preserves the r->0 sum rule, AND preserves this
+file's own "anchor to literature" -- gamma = 1/2 is ALSO the f(R)/Brans-Dicke
+omega=0 light-scalaron value, (1-1/3)/(1+1/3) = 1/2. The cross-check provably
+cannot discriminate the two assignments. The (+1/3,-1/3) temporal/spatial split
+written here IS the R^2-scalaron structure -- the very mode GU says is ABSENT.
+
+WHY IT IS LOAD-BEARING: GU has no R^2 term, so m0 -> oo deletes exactly one of
+the two Yukawas -- and this file deletes THE WRONG ONE.
+
+CORRECTED VALUE: alpha_Y = -4/3, not +1/3. Magnitude x4; sign flips to
+REPULSIVE, as a ghost must be. gamma - 1 = +(2/3)w + O(w^2), versus the
++/- opposite sign asserted here (w = e^{-m2 r}).
+
+CONFIDENCE: the temporal -4/3 is HIGH (vDVZ, independently re-derived, and
+cross-checked two ways). The spatial -2/3 is DERIVED-AND-CONSISTENT, NOT
+literature-anchored -- verify against Stelle 1978 before citing it.
+
+PROPAGATION (all inherit the swap; none edited): L31-34 docstring formula, L87,
+L91-92, L94, L105, L128-130, L265, and
+explorations/wave22/H10-ppn-weak-field-2026-07-11.md L33-34, L104, L117.
+
+This is a TRANSCRIPTION/ASSIGNMENT error in an imported formula, NOT a broken
+GU derivation. Nothing here depends on GU being correct.
+=============================================================================
+"""
+
 #!/usr/bin/env python3
 r"""H10 -- THE PPN / WEAK-FIELD SOLAR-SYSTEM BAR for GU's tree-level gravity.
 
