@@ -24,18 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.157.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.157.md`.
+`lab/process/conditional-physics-ledger-v0.158.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.158.md`.
 
-Current nonzero-fermion stationary correction: v0.156's fixed decomposable
-fixture remains full rank, while the actual tautological source connection
-has exact rank/nullity `1792/128` for both canonical displayed-zero candidates
-on both nonzero bosonic branches. The characteristic-zero kernel graph pairs
-`Omega0(S)` with gamma-trace `Omega1(S)` and projects to zero under RS, W and
-mirror. Next couple it to the action-derived fermion current and differential
-operator, then construct the BV/Green closed domain. Keep W, mirror and the
-southeast-nonzero rival separate; zero-order nullity is not a physical mode,
-index or count.
+Current graph-dynamics correction: v0.157's exact 128-dimensional graph has a
+full-rank induced local Green/kinetic matrix and live transverse connection
+current, but the full principal Euler residual leaks rank 128 outside its
+equation receiver in timelike, spacelike and null tested strata. Do not build
+BV on the graph alone. Construct or kill an action/source-owned receiver or
+constraint completion, comparing the southeast-nonzero map, leaked-image
+extension and genuine gauge/BV image. Keep all parent and W/mirror scopes
+separate; no physical mode, index or count follows.
 
 Current relative-boundary/P3 correction: observed boundary winding maps
 canonically into P3's relative real-`KO` input twist, with exact characteristic

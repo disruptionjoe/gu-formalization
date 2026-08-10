@@ -9,6 +9,12 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-gamma-trace-graph-dynamics-source-return-2026-08-10.md`](selected-k77-gamma-trace-graph-dynamics-source-return-2026-08-10.md)
+  confirms independent barred/unbarred action fields and the fermion-current
+  class, records no source correction, and records silence on the global
+  Krein/reality adjoint, equation receiver, BV/domain and explicit
+  southeast-nonzero map.
+
 - [`selected-k77-moving-varpi-stationary-intersection-source-return-2026-08-10.md`](selected-k77-moving-varpi-stationary-intersection-source-return-2026-08-10.md)
   confirms the tautological source-connection and four-field/southeast-fork
   grammar, corrects the fixed-fixture identification, and records source

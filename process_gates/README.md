@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `gamma_trace_graph_dynamics_audit.py` enforces ledger v0.158's independent
+  left/right/Krein action typing, rank-128 Green and transverse-current banks,
+  radial cancellation, rank-128 full-Euler receiver leak, deferred BV/domain,
+  unchanged accounting and owned-receiver successor.
+
 - `moving_varpi_stationary_intersection_audit.py` enforces ledger v0.157's
   fixed-fixture-versus-tautological Layer-0 correction, exact 1792/128 rank,
   characteristic-zero Omega0--gamma-trace graph, RS/W/mirror exclusion,

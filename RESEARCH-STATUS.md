@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.158; six
+distance/evidence migrations; headline unchanged).** The v0.157 graph is
+action-active: its local induced Green matrix and fourteen transverse
+connection-current cells have exact rank 128 for both Pin placements, while
+the radial current cancels. Yet the full principal Euler residual leaks rank
+128 outside the graph equation receiver at tested observed timelike,
+spacelike and null covectors. The graph is therefore not a consistent
+truncation and BV/domain work is deferred. Next compare an action/source-owned
+receiver completion from the southeast-nonzero map, leaked image or genuine
+gauge/BV differential. No physical-mode, chirality, index, count, datum,
+P1/P2/P3, verdict, residue, quotient, canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.157; six
 distance/evidence migrations; headline unchanged).** The fixed decomposable
 v0.156 fixture remains full rank, but the actual tautological source

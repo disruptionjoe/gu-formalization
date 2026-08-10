@@ -9,16 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.157 moving-`varpi` stationary fence:** v0.156's fixed
-> decomposable fixture remains full rank, but the actual source connection is
-> `varpi=s Phi1`. On both exact nonzero bosonic branches, both canonical
-> displayed-zero candidates have exact rank/nullity `1792/128`. The explicit
-> `QQ(i)` graph pairs `Omega0(S)` with gamma-trace `Omega1(S)` and projects to
-> zero under RS, W and mirror. It is a zero-order algebraic kernel, not a
-> differential solution, BV cohomology, physical mode, index or count. Next
-> couple it to the action-derived fermion current and full differential
-> operator, then construct the BV/Green closed domain. Keep W, mirror, the
-> southeast-nonzero rival, full U, moving Spin and two U-halves separate.
+> **Current v0.158 graph-dynamics fence:** the exact 128-dimensional
+> `Omega0`--gamma-trace graph is action-active. Both Pin placements have
+> full-rank induced Green matrices in observed timelike, spacelike and null
+> tested strata, and all fourteen natural transverse current cells have rank
+> 128 while their radial sum cancels. But the full principal Euler residual
+> leaks rank 128 outside the graph receiver in every stratum. Do not build BV
+> on the graph alone. Next construct or kill an action/source-owned receiver
+> or constraint completion, comparing the southeast-nonzero map, the leaked
+> image and a genuine gauge/BV image. Keep W, mirror, full U, moving Spin and
+> two U-halves separate.
+
+> **Predecessor v0.157 moving-`varpi` stationary fence:** the tautological
+> source branches carry the exact graph outside RS, W and mirror. It is now
+> narrowed from a possible standalone carrier to an action-active nonclosed
+> reduction by v0.158.
 
 > **Current v0.155 nonzero-fermion stationary fence:** under maximal rank of
 > the draft-9.16 off-diagonal blocks, `ker([A B; C 0])` is exactly controlled

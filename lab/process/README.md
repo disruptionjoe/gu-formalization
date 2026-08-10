@@ -7,15 +7,17 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.157. The v0.156 full-rank
-certificate survives at its fixed decomposable fixture, but the actual
-tautological source connection is different. Both canonical displayed-zero
-candidates have exact rank/nullity `1792/128` on both nonzero bosonic source
-branches. Their explicit characteristic-zero graph pairs `Omega0(S)` with
-gamma-trace `Omega1(S)` and lies outside RS, W and mirror. Next couple the
-graph to the action-derived fermion current and full differential operator,
-then construct its BV/Green closed domain. Registry:
-`selected-k77-moving-varpi-stationary-intersection.json`.
+Current append-only progress surface: ledger v0.158. The exact 128-dimensional
+graph is action-active: both Pin placements have rank-128 induced Green
+matrices and rank-128 transverse connection-current cells, with exact radial
+current cancellation. But the full principal Euler residual leaks rank 128
+outside the graph receiver in timelike, spacelike and null tested strata.
+Build or kill an action/source-owned receiver or constraint completion before
+BV/domain work. Registry:
+`selected-k77-gamma-trace-graph-dynamics-gate.json`.
+
+Predecessor v0.157 supplies the exact tautological stationary graph; it is
+narrowed from standalone carrier to action-active nonclosed reduction.
 
 Predecessor v0.156 supplies the fixed-fixture and full-carrier correction; it
 is narrowed, not retracted.

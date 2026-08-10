@@ -9,16 +9,19 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.157 closes the actual tautological moving-`varpi` intersection. Both
-canonical displayed-zero candidates have exact rank/nullity `1792/128` on
-both nonzero bosonic source branches. The kernel is an explicit
-`Omega0`--gamma-trace graph outside RS, W and mirror. This is more informative
-than v0.156's fixed-fixture full rank, but it is still zero-order algebra rather
-than a physical fermion sector. The highest-information Build is now to couple
-this exact graph to the action-derived fermion current and full differential
-operator, then construct the BV/Green closed domain. Keep W, mirror and the
-southeast-nonzero rival separate. Do not infer family count or chirality from
-the 128-dimensional kernel.
+Ledger v0.158 establishes that v0.157's exact graph is action-active but not a
+closed full-Euler sector. Its induced Green and transverse-current matrices
+have rank 128, while the full principal residual leaks rank 128 outside the
+graph receiver in all three tested observed causal strata. The highest-
+information Build is now a bounded receiver-completion comparison: the
+source-admitted southeast-nonzero map, the smallest leaked-image extension,
+and a genuine gauge/BV image. Reject projection by fiat, preserve the induced
+Green form, and price any new object in constraint surplus before BV/domain
+work. Keep W, mirror and all parent descriptions separate.
+
+Ledger v0.157 remains the exact tautological moving-`varpi` intersection and
+is narrowed, not retracted: its 128-dimensional graph is real algebraic prior
+art, but it is no longer a standalone physical-carrier candidate.
 
 The preregistered W/mirror tiebreak readings do not fire: the graph projects to
 zero in both sectors. Keep the Schur “source residual” distinct from the

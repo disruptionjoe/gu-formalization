@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 GRAPH-DYNAMICS GATE (ledger v0.158).** The exact
+> `Omega0`--gamma-trace graph is action-active: both Pin placements have
+> rank-128 induced Green matrices in tested observed timelike, spacelike and
+> null strata, and all fourteen natural transverse connection-current cells
+> have rank 128 while their radial sum cancels. But the full principal Euler
+> residual leaks rank 128 outside the graph receiver in every stratum. **Next
+> construct or kill an action/source-owned rank-128 equation receiver or
+> constraint completion. Compare the source-admitted southeast-nonzero map,
+> the smallest leaked-image extension, and a genuine gauge/BV image; reject
+> projection by fiat and preserve the Green form.** Only after closure build
+> BV/domain and then observed representations/index. No verdict, datum,
+> residue, quotient, canon or public posture moves.
+
 > **2026-08-10 MOVING-`VARPI` STATIONARY INTERSECTION (ledger v0.157).** The
 > v0.156 full-rank certificate survives at its fixed decomposable fixture, but
 > that fixture is not the tautological source connection. On both exact
