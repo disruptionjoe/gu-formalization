@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.135 induced-fermion principal fence:** the exact source-guided
+> **Current v0.136 zero-order carrier fence:** the existing q-repaired
+> draft-9.16 middle family preserves neither rank-`192` `W` nor its rank-`384`
+> sum with the ASD mirror for one admitted witness in moving Spin, the two
+> `U(32,32)` halves and source-full `U(64,64)`. Cross-sector and outside-pair
+> leakage systems both have exact coefficient rank two. W and mirror remain
+> symmetric; J-commuting versus J-anticommuting witnesses prefer opposite
+> minimal-leakage ratios. Never call this a failure of the complete four-field
+> operator or a physical quotient. Derive the action-owned connection orbit or
+> BV/domain cohomology next. P1/P2/P3 remain unused.
+
+> **Predecessor v0.135 induced-fermion principal fence:** the exact source-guided
 > K77 Dirac/RS principal symbol recognizes natural Lorentz modules but does not
 > select the proposed carrier. At an observed base-null covector, self-dual
 > `W` and its exact ASD mirror both have rank/kernel `224/96`; natural `832`

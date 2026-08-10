@@ -93,6 +93,17 @@ reality/BV and domain extension, followed by physical K-definite cohomology.
 A characteristic kernel is not a physical kernel, Fredholm index or family
 count.
 
+Ledger v0.136 composes the previously built q-repaired zero-order middle family
+with `W`, its ASD mirror, their rank-384 sum, and one admitted witness from each
+of moving Spin, the two `U(32,32)` halves and source-full `U(64,64)`. For every
+witness, both `W -> mirror` leakage and leakage outside the doubled pair have
+exact coefficient rank two. Thus no nonzero shared coefficient preserves `W`
+or `W plus mirror`, and the mirror remains exactly symmetric. This is a scope
+correction, not a canon verdict: an action-owned smaller connection orbit, a
+different adapter, the complete four-field operator, BV cohomology and domain
+selection remain open. The next carrier gate is the action-owned orbit or the
+complete BV/domain complex, not reconstruction of the zero-order family.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
@@ -101,4 +112,5 @@ count.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-reduction-carrier-typing-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-bosonic-parent-action-ownership-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-induced-fermion-principal-discriminator-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-zero-order-w-mirror-parent-leakage-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

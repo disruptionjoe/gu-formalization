@@ -14,22 +14,28 @@ useful leads. The program will absorb the correction without opening a new
 lane. The fixed `192`-carrier results remain conditional; action-owned moving
 reduction becomes responsible for selecting or rejecting that carrier.
 
-Ledger v0.135 closes the induced-fermion principal gate partially. At a
+Ledger v0.136 composes the already-built q-repaired zero-order family with W,
+its mirror and three parent witnesses. No nonzero coefficient preserves W or
+W plus mirror for any tested witness; W and mirror remain symmetric. The
+action-owned connection orbit or complete BV/domain cohomology is now the
+rank-one Build.
+
+Ledger v0.135 closed the induced-fermion principal gate partially. At a
 base-null covector the source-guided operator rejects generic random rank-192
 planes, but proposed `W` and its exact ASD mirror have the same characteristic
 rank/kernel `224/96`; the natural 832 and 640 sectors share the normalized
-half-kernel rule. The draft-9.16 zero-order/reality/BV/domain discriminator is
-now the rank-one Build.
+half-kernel rule. Its recorded draft-9.16 zero-order successor was discharged
+by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — lower-order fermion selector.** The common K77 principal
-   operator now exists and its exact controls are complete: it rejects generic
-   random `192`s but does not separate `W` from its ASD mirror or choose a
-   connection parent. Assemble the exact draft-9.16 zero-order `varpi`,
-   reality/BV and domain terms on source-full `U(64,64)`, moving Spin and the
-   two `U(32,32)` halves. Require physical K-definite cohomology to distinguish
-   `W` from mirror before any spectrum, index or count claim.
+1. **Build A — action-owned orbit or BV/domain carrier.** The common principal
+   operator and q-repaired zero-order family now exist. The latter preserves
+   neither `W` nor `W plus mirror` for admitted witnesses in source-full
+   `U(64,64)`, moving Spin and the two `U(32,32)` halves. Derive the actual
+   connection orbit owned by the selected action and test whether it excludes
+   both leaking parity classes, or construct the complete four-field BV/domain
+   cohomology before any spectrum, index or count claim.
 2. **Build B — coupled functional completion after the lower-order selector.**
    Extend the full-rank pointwise connection result through metric, epsilon,
    derivative and observation jets with the actual fermion current and Ward/BV
@@ -78,7 +84,7 @@ does not establish the phenomenology of the complete GU action.
 - Do not treat observation value pullback as a physical reduction.
 - The nonzero-branch bosonic Hessian did not discriminate the parents, and the
   induced fermion principal symbol did not distinguish `W` from mirror.
-  Ledgers v0.134/v0.135 record those results. Do not re-open either by using a
+  Ledgers v0.134/v0.135/v0.136 record those results. Do not re-open either by using a
   hard projector, characteristic kernel or `D_varpi chi=0` as an undeclared
   repair.
 - After three distance-only Runs on this cluster, compare the rank-one gate

@@ -7,15 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.135. The exact source-guided
-K77 Dirac/RS principal symbol rejects generic random rank-192 planes but gives
-proposed `W` and its ASD mirror the identical characteristic rank/kernel
-`224/96`; natural `832` and `640` sectors share the normalized half-kernel
-rule. The full-U, moving-Spin and two-half parents coincide at principal order.
-Build next assembles the exact draft-9.16 zero-order varpi, reality/BV and
-domain discriminator. Fixed-`W` theorems remain conditional; no verdict,
-residue, quotient or datum moves. Registry:
-`selected-k77-induced-fermion-principal-discriminator.json`.
+Current append-only progress surface: ledger v0.136. The already-built
+q-repaired draft-9.16 zero-order middle family preserves neither proposed `W`
+nor `W` plus its ASD mirror for one admitted witness in moving Spin, the two
+`U(32,32)` halves and source-full `U(64,64)`. Both cross-sector and
+outside-pair leakage coefficient systems have exact rank two. Build next
+derives the action-owned restricted connection orbit or constructs the
+complete four-field BV/domain cohomology. Fixed-`W` theorems remain
+conditional; no verdict, residue, quotient or datum moves. Registry:
+`selected-k77-zero-order-w-mirror-parent-leakage.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

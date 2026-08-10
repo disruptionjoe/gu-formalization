@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.135; six
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.136; six
+distance-only migrations; headline unchanged).** The already-built q-repaired
+draft-9.16 zero-order middle family preserves neither proposed rank-`192` `W`
+nor its rank-`384` sum with the ASD mirror for one admitted witness in each of
+moving Spin, the two `U(32,32)` halves and source-full `U(64,64)`. Exact
+cross-sector and outside-pair coefficient systems have rank two, so no nonzero
+shared coefficient supplies invariance. W and mirror remain symmetric, and
+the J-commuting versus J-anticommuting witness classes prefer opposite
+minimal-leakage ratios. Build now derives the action-owned restricted
+connection orbit or constructs the complete four-field BV/domain cohomology.
+No verdict, residue, quotient, datum or public posture moves.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.135; six
 distance-only migrations; headline unchanged).** The exact source-guided K77
 Dirac/RS principal symbol distinguishes natural Lorentz modules from three
 planted random rank-`192` planes, but proposed self-dual `W` and its exact ASD

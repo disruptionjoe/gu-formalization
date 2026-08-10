@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `zero_order_w_mirror_parent_leakage_audit.py` enforces ledger v0.136's
+  exact q-repaired zero-order cross/outside-pair leakage ranks, W/mirror
+  symmetry, moving-Spin/two-half/source-full parent distinction, hostile
+  analytic/symplectic scope fence, unchanged accounting and action-orbit/BV
+  successor.
+
 - `induced_fermion_principal_discriminator_audit.py` enforces ledger v0.135's
   exact K77 principal symbol anchors, W/mirror `224/96` equality, natural-sector
   half-kernel rule, planted random controls, lower-order parent-ablation fence,

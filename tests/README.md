@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_zero_order_w_mirror_parent_leakage_probe.py`
+  composes the prior q-repaired zero-order family with W, its exact ASD mirror,
+  their rank-384 sum and one witness in each parent class. Cross-sector and
+  outside-pair coefficient systems both have exact rank two, W/mirror remain
+  symmetric, and no nonzero coefficient preserves either carrier. Critical
+  ranks reproduce over Gaussian rationals; generic-ratio plants fire
+  (`52/52`).
+
 - `channel-swings/selected_k77_induced_fermion_principal_discriminator.py`
   constructs the exact source-guided K77 Dirac/RS principal symbol on
   `Omega1(S)+Omega0(S)`. At a base-null covector, proposed `W` and its ASD

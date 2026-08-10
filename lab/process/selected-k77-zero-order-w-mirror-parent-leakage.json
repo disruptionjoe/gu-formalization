@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260810-071020-gu-k77-zero-order-w-mirror-parent-leakage",
+  "status": "CONDITIONAL_EXACT_RESULT",
+  "layer0": {
+    "source_matrix": "the draft's four-field sixteen-cell candidate",
+    "tested_family": "the prior q-repaired one-projective-parameter middle one-form zero-order family",
+    "carrier_predicate": "invariance of W_sd192 or W_sd192 plus its ASD mirror",
+    "physical_object": "K-definite BV/domain cohomology; unbuilt and not inferred"
+  },
+  "parents": {
+    "moving_spin": "one B-skew grade-2 J-commuting witness",
+    "two_u32_32_halves": "one B-skew grade-6 J-commuting block-preserving witness outside Spin",
+    "source_full_u64_64": "one B-skew grade-1 J-anticommuting full-parent coset witness"
+  },
+  "exact_results": {
+    "W_rank": 192,
+    "mirror_rank": 192,
+    "intersection_rank": 0,
+    "sum_rank": 384,
+    "cross_leakage_coefficient_rank_each_witness": 2,
+    "outside_doubled_pair_coefficient_rank_each_witness": 2,
+    "preferred_rank_each_witness": {
+      "W_internal": 0,
+      "W_to_mirror": 64,
+      "W_outside_pair": 64
+    },
+    "preferred_ratio": {
+      "moving_spin": "alpha=beta",
+      "two_u32_32_halves": "alpha=beta",
+      "source_full_u64_64_coset": "alpha=-beta"
+    },
+    "mirror_symmetry": "identical at every tested ratio",
+    "characteristic_zero_receipt": "all three preferred-ratio critical cross ranks and both coefficient-rank obstructions reproduced over Q(i)"
+  },
+  "disposition": "ZERO_ORDER_PARENT_CONFLICT_AND_NONDISCRIMINATING__NO_NONZERO_COEFFICIENT_PRESERVES_W_OR_W_PLUS_MIRROR_FOR_THE_THREE_WITNESSES",
+  "scope": "A single admitted witness kills invariance under an unrestricted parent. It does not kill an action-selected smaller connection orbit, a different zero-order adapter, the complete four-field operator, BV cohomology or a domain selection.",
+  "source_return": {
+    "SOURCE-CONFIRMS": "zero-order connection port, contraction-plus-star grammar, southeast-zero branch and two-layer architecture",
+    "SOURCE-CORRECTS": "Curt's single-layer Higgs/Yukawa reading is not the author's complete two-layer architecture",
+    "SOURCE-SILENT": "q coefficient, action-owned connection orbit, carrier selection, BV completion and domain"
+  },
+  "constraint_surplus": "one projective parameter; rank-two cross and outside-pair leakage systems; only the zero coefficient solves either invariance demand for each witness",
+  "headline_delta": "NONE",
+  "frontier_delta": {
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 1
+  },
+  "next_gate": "derive the action-owned restricted connection orbit and test whether it excludes both leaking parity classes, or construct the BV/domain cohomology before imposing any W carrier restriction",
+  "verdict_change": false,
+  "residue_change": false,
+  "quotient_change": false,
+  "datum_change": false,
+  "p1_p2_p3_change": false
+}

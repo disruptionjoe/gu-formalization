@@ -7,6 +7,21 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 ZERO-ORDER W/MIRROR PARENT LEAKAGE (ledger v0.136).** The
+> already-built q-repaired draft-9.16 middle family preserves neither proposed
+> rank-`192` `W` nor its rank-`384` closure with the ASD mirror. For one
+> B-skew witness in each of moving Spin, the two `U(32,32)` halves, and
+> source-full `U(64,64)`, both cross-sector leakage and leakage outside the
+> doubled pair have exact coefficient rank two; only the zero operator removes
+> either. W and mirror remain exactly symmetric. J-commuting witnesses minimize
+> leakage at `alpha=beta`, while the full-parent J-anticommuting coset witness
+> minimizes it at `alpha=-beta`. **Next derive the connection orbit owned by
+> the selected action and test whether it excludes both witness classes, or
+> construct the complete four-field BV/domain cohomology before imposing W.**
+> This does not kill a smaller orbit, different adapter, full four-field
+> operator or domain selection. No verdict, residue, quotient, datum or
+> P1/P2/P3 moves.
+
 > **2026-08-10 INDUCED FERMION PRINCIPAL DISCRIMINATOR (ledger v0.135).**
 > The exact source-guided K77 Dirac/RS principal symbol is informative but not
 > selective. At an observed base-null covector, proposed self-dual `W` and its
