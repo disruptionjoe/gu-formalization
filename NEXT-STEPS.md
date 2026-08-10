@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 NONZERO-BRANCH PARENT HESSIAN (ledger v0.134).** At
+> `T*=-(kappa_1/312)Phi1`, the complete pointwise first-action connection
+> Hessian has rank `229,376` and inertia `(114,659,114,717,0)`. Both the
+> `113,792+115,584` `B`-adjoint split and the `114,688+114,688` Weyl
+> block/coset split have zero radical. The action therefore derives neither
+> hard reduction. Odd `Phi1` lies outside the two-half connection reduction,
+> but remains in full `U(64,64)` and a separately posited moving-Spin domain;
+> this branch does not select between them. **Next construct the induced
+> source-full K77 Dirac/RS operator, retaining moving-Spin and two-half
+> restrictions as ablations, and test `W`, mirror, random `192`, `640`, and
+> `832` through its kernel/cohomology/spectral projector.** No verdict,
+> residue, quotient, datum or P1/P2/P3 moves.
+
 > **2026-08-10 BOSONIC PARENT ACTION OWNERSHIP (ledger v0.133).** The written
 > source action norms the full connection displacement. Its exact quadratic
 > Hessian is nonzero on the rank-`8256` `B`-adjoint complement at the zero

@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `nonzero_branch_parent_hessian_audit.py` enforces ledger v0.134's complete
+  `229,376`-direction pointwise Hessian census, zero radical on both parent
+  decompositions, two-half/full-U/moving-Spin Layer-0 fences, hostile and
+  symplectic review, unchanged accounting, and the induced K77 Dirac/RS
+  successor.
+
 - `bosonic_parent_action_ownership_audit.py` enforces ledger v0.133's
   zero-branch full-norm result, the distinct `B`-adjoint and Weyl reductions,
   the hostile scope fence, unchanged accounting, and the dependency order

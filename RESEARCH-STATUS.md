@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.134; nine
+distance-only migrations; headline unchanged).** The complete pointwise
+first-action connection Hessian at the known odd-`Phi1` nonzero branch has
+rank `229,376`, inertia `(114,659,114,717,0)`, and zero radical in both the
+`B`-adjoint and Weyl block/coset decompositions. The action therefore derives
+neither a hard moving-Spin nor two-half reduction. The branch itself is
+outside the two-half connection but remains available in full `U(64,64)` and
+a separately posited moving-Spin domain, so physical parent selection stays
+open. Build now constructs the induced source-full K77 Dirac/RS operator with
+both reductions as ablations before five-way carrier discrimination. No
+verdict, residue, quotient, datum or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.133; nine
 distance-only migrations; headline unchanged).** The source-confirmed full
 connection-displacement norm gives the rank-8256 `B`-adjoint complement a

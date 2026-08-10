@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "status": "COMPLETE_POINTWISE_CONNECTION_HESSIAN_FULL_RANK__BOTH_PARENT_DECOMPOSITIONS_OWNED__NO_ACTION_DERIVED_REDUCTION",
+  "lane": "1",
+  "functional_channels": [
+    "BUILD",
+    "COMPOSE",
+    "SOURCE",
+    "VERIFY"
+  ],
+  "branch": {
+    "signature": "labelled K77",
+    "background": "T_star=-(kappa_1/312)Phi1",
+    "assumption": "kappa_1 != 0",
+    "normalization_used": "kappa_1=1; the complete Hessian scales by kappa_1"
+  },
+  "layer0": {
+    "computed_object": "pointwise first-transgression action Hessian on Omega1 tensor Cl(7,7) at fixed geometry and moving frame",
+    "not_computed": [
+      "residual Jacobian",
+      "residual-square Gram Hessian",
+      "metric or epsilon Hessian",
+      "functional derivative and boundary domain",
+      "BV quotient",
+      "fermion operator",
+      "physical spectrum"
+    ],
+    "parent_distinctions": [
+      "B-adjoint skew versus B-self complement",
+      "two-C32,32 Weyl-block reduction versus odd half-exchanging coset",
+      "selected moving Spin subbundle versus full U64,64 source parent"
+    ]
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_U6464_P_H_TWO_C32_32_WEYL_HALVES_AND_FIRST_TRANSGRESSION_ACTION_GRAMMAR__SOURCE_SILENT_OPERATIVE_PARENT_REDUCTION_AND_COMPLETE_HESSIAN",
+  "exact_result": {
+    "carrier_dimension": 229376,
+    "conserved_basis_label": "J xor {i} for e^i tensor gamma_J",
+    "grade_results": {
+      "0": {"dimension": 14, "rank": 14, "inertia": [7, 7, 0]},
+      "1": {"dimension": 196, "rank": 196, "inertia": [97, 99, 0]},
+      "2": {"dimension": 1274, "rank": 1274, "inertia": [637, 637, 0]},
+      "3": {"dimension": 5096, "rank": 5096, "inertia": [2541, 2555, 0]},
+      "4": {"dimension": 14014, "rank": 14014, "inertia": [7007, 7007, 0]},
+      "5": {"dimension": 28028, "rank": 28028, "inertia": [13993, 14035, 0]},
+      "6": {"dimension": 42042, "rank": 42042, "inertia": [21021, 21021, 0]},
+      "7": {"dimension": 48048, "rank": 48048, "inertia": [24024, 24024, 0]},
+      "8": {"dimension": 42042, "rank": 42042, "inertia": [21021, 21021, 0]},
+      "9": {"dimension": 28028, "rank": 28028, "inertia": [14014, 14014, 0]},
+      "10": {"dimension": 14014, "rank": 14014, "inertia": [7007, 7007, 0]},
+      "11": {"dimension": 5096, "rank": 5096, "inertia": [2548, 2548, 0]},
+      "12": {"dimension": 1274, "rank": 1274, "inertia": [637, 637, 0]},
+      "13": {"dimension": 196, "rank": 196, "inertia": [98, 98, 0]},
+      "14": {"dimension": 14, "rank": 14, "inertia": [7, 7, 0]}
+    },
+    "parents": {
+      "B_skew": {
+        "grades": [1, 2, 5, 6, 9, 10, 13, 14],
+        "dimension": 113792,
+        "rank": 113792,
+        "inertia": [56874, 56918, 0]
+      },
+      "B_self_complement": {
+        "grades": [0, 3, 4, 7, 8, 11, 12],
+        "dimension": 115584,
+        "rank": 115584,
+        "inertia": [57785, 57799, 0]
+      },
+      "Weyl_block_even": {
+        "grades": [0, 2, 4, 6, 8, 10, 12, 14],
+        "dimension": 114688,
+        "rank": 114688,
+        "inertia": [57344, 57344, 0]
+      },
+      "Weyl_coset_odd": {
+        "grades": [1, 3, 5, 7, 9, 11, 13],
+        "dimension": 114688,
+        "rank": 114688,
+        "inertia": [57315, 57373, 0]
+      },
+      "complete": {
+        "grades": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+        "dimension": 229376,
+        "rank": 229376,
+        "inertia": [114659, 114717, 0]
+      }
+    },
+    "radial_hessian": "-14*kappa_1",
+    "radical_dimension": 0
+  },
+  "disposition": {
+    "preregistered_horn": "NONZERO_HESSIAN_OWNS_BOTH",
+    "what_is_closed": [
+      "the known nonzero scalar branch has no pointwise connection-coefficient radical",
+      "neither the B-self complement nor the odd Weyl coset is removed by the action Hessian",
+      "the written action does not dynamically derive the moving-Spin or two-half reduction on this branch"
+    ],
+    "conditional_parent_statement": "the odd Phi1 branch is outside the two-half block reduction; among the advertised unitary comparators it requires the full U64,64 parent, while a separately posited moving-Spin field domain can also host it",
+    "what_remains_open": [
+      "source or field-domain selection between full U64,64 and moving Spin",
+      "coupled metric epsilon derivative and observation Hessian",
+      "gauge and BV tangent differential",
+      "closed Green or Krein domain",
+      "induced K77 Dirac Rarita-Schwinger operator",
+      "physical carrier spectrum and Standard Model recovery"
+    ]
+  },
+  "controls": {
+    "radial_replay": "-14",
+    "cross_grade_representatives": 210,
+    "alternative_signed_permutation_orbits": [1, 7, 13],
+    "P_only_complement_plant": "rejected",
+    "basis": "real K77; no complexified signature inference"
+  },
+  "accounting": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "residue_change": "none",
+    "quotient_change": "none",
+    "P1_P2_P3": "unchanged and unused"
+  },
+  "evidence": [
+    "tests/channel-swings/selected_k77_nonzero_branch_parent_hessian_probe.py",
+    "explorations/conditional-build/selected-k77-nonzero-branch-parent-hessian-2026-08-10.md",
+    "lab/process/hostile-reviews/2026-08-10-selected-k77-nonzero-branch-parent-hessian-review.md"
+  ]
+}

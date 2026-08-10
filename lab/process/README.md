@@ -7,15 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.133. The written full
-connection-displacement norm gives the rank-8256 `B`-adjoint complement a
-nonzero Hessian at the zero branch, so it does not derive a hard moving-Spin
-restriction there. `D_varpi chi_epsilon=0` is a distinct Weyl block/coset
-restriction and excludes the known odd-`Phi1` nonzero invariant branch. Build
-next computes the complete nonzero-branch normal Hessian by both
-decompositions, then constructs the induced K77 Dirac/RS operator before
-testing mirror/random/`640`/`832` controls. Fixed-`W` theorems remain
-conditional; no verdict, residue, quotient or datum moves.
+Current append-only progress surface: ledger v0.134. At the known nonzero
+branch the complete pointwise first-action connection Hessian has rank
+`229,376` and zero radical on both `B`-adjoint sectors and both Weyl
+block/coset cells. The action derives neither hard reduction. Odd `Phi1` is
+outside the two-half reduction but remains in full `U(64,64)` and a separately
+posited moving-Spin domain. Build next constructs the induced source-full K77
+Dirac/RS operator with both reductions as ablations, then tests
+mirror/random/`640`/`832` controls. Fixed-`W` theorems remain conditional; no
+verdict, residue, quotient or datum moves. Registry:
+`selected-k77-nonzero-branch-parent-hessian.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

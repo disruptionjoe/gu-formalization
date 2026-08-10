@@ -70,6 +70,17 @@ line. Therefore the complete nonzero-branch bosonic normal Hessian must be
 computed before the induced fermion selector. This is a scope/dependency
 correction only; it changes no canon verdict about the fixed carrier.
 
+Ledger v0.134 completes that pointwise connection Hessian. It has rank
+`229,376` and zero radical on the complete K77 coefficient tangent; both the
+`B`-adjoint skew/complement and Weyl block/coset pieces are nondegenerate and
+indefinite. Thus the bosonic action supplies no hard parent reduction at the
+known nonzero branch either. Because `Phi1` is odd, that branch lies outside
+the two-half block reduction, but it remains available in both the full
+`U(64,64)` comparator and a separately posited moving-Spin field domain. This
+does not select the physical parent. It removes the bosonic selector shortcut
+and makes the source-full induced K77 Dirac/Rarita--Schwinger operator, with
+both reductions retained as ablations, the next carrier-identification gate.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
