@@ -4,7 +4,7 @@
 - **Source repo:** gu-formalization
 - **Promoted by:** `RUN-20260810-032113-gu-exploration-absorption-priority-canon`
 - **Date:** 2026-08-10
-- **Commit:** pending in this atomic promotion; Runtime receipt records the final hash
+- **Commit:** `2e78b543` (this atomic promotion; final amended hash is recorded by Runtime)
 
 ## What was promoted
 
