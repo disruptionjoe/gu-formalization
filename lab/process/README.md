@@ -7,14 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.139. The v0.138 port determines
-a unique rank-64 upper graph for W and mirror, but the action-tied lower-left
-restriction and complete graph residual retain rank 64 on every parent witness.
-The current q-repaired conditional rival is killed; the source-faithful
-ambient-half-sign and degree-duality collision remains open. Build resolves
-that collision or constructs a replacement Shiab/adapter before BV/domain
-descent. No verdict, residue, quotient or datum moves. Registry:
-`selected-k77-southeast-zero-graph-gate.json`.
+Current append-only progress surface: ledger v0.140. Bare trace-q leaks rank 64
+outside RS; its Pin completion preserves RS by exchanging W with mirror and
+forcing their rank-384 closure. Both source-sign degree-duality primalizers
+then have port/leak/joined ranks 128/128/256, so neither upper graph exists.
+This kills canonical trace-q degree duality only on the proposed RS carrier.
+The sign-repair cluster has reached its stopping rule: a replacement operator
+must be genuinely new and source-owned, otherwise Build advances the disjoint
+coupled-functional completion. No verdict, residue, quotient or datum moves.
+Registry: `selected-k77-degree-duality-pair-graph-gate.json`.
 Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
 
 Predecessor v0.130. The epsilon-transported

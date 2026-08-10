@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.140 source-sign degree-duality fence:** bare `gamma(q)` leaks
+> rank `64` outside the gamma-traceless RS carrier. The Pin completion preserves
+> RS but exchanges `W` and its ASD mirror, forcing their rank-`384` closure. On
+> that pair both source-sign degree primalizers have port/leak/joined ranks
+> `128/128/256`; no upper graph exists. The older q-family control has joined
+> rank `128`. Never inflate this into a no-go for equation 9.16, another Shiab,
+> another carrier, BV/domain, spectrum, index, count or GU. The sign cluster has
+> hit its stopping rule: admit only a genuinely new source-owned operator or
+> advance the disjoint coupled-functional Build. P1/P2/P3 remain unused.
+>
 > **Current v0.139 graph/lower-left fence:** the v0.138 port determines a unique
 > rank-`64` W or mirror graph, but its induced carrier action is zero while the
 > action-tied lower-left restriction and complete residual retain rank `64` on

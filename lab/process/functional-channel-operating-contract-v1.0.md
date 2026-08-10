@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.139.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.139.md`.
+`lab/process/conditional-physics-ledger-v0.140.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.140.md`.
 
 Current high-fanout premise correction: exact fixed-`W` theorems remain valid
 conditionally, but neither the old internal Casimir nor the bosonic pointwise
@@ -53,6 +53,13 @@ action, while the lower-left restriction and complete residual retain rank 64
 on every parent witness. The current q-repaired rival is therefore killed.
 The source-faithful ambient-half-sign/degree-duality collision remains open and
 must be resolved before another Shiab/adapter advances to BV or domain.
+v0.140 tests the canonical trace-q source-sign degree-duality realization.
+Bare q leaks RS rank 64; Pin q preserves RS by exchanging W with mirror and
+forces their rank-384 closure. Both source-sign upper image pairs have joined
+rank 256, so neither graph exists. This closes that repair on the proposed RS
+carrier, not the equation-9.16 family. The sign cluster has reached its
+stopping rule: only a genuinely new source-owned operator may reopen it;
+otherwise Build advances the disjoint coupled-functional completion.
 Characteristic or invariant subspace is not physical cohomology or count.
 Verify owns the silent-Hermitization repair, carrier-mass scramble and hostile
 T1--T4 check. Compose owns the exact `40=32+8` neutral-state cross-tab without

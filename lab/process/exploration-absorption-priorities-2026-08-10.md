@@ -16,8 +16,10 @@ the smaller action-field-tangent selector negatively. Ledger v0.138 shows that
 the complete four-field zero-form port passes a necessary image condition.
 Ledger v0.139 then kills the resulting graph on the current q-repaired rival:
 the unique upper graph has rank 64 and zero residual, but its action-tied
-lower-left residual retains rank 64. The source-faithful sign/degree-duality
-collision now owns selection.
+lower-left residual retains rank 64. Ledger v0.140 tests the canonical trace-q
+source-sign degree-duality repair and kills it on the proposed RS carrier:
+bare q leaks RS, Pin q exchanges W/mirror, and both pair upper graphs have
+joined rank 256. The sign-repair cluster has reached its stopping rule.
 
 Ledger v0.138 composes the ordinary equation-9.16 zero-form connection cell
 with the exact W/mirror leaks. Each preferred rank-64 leak lies in a rank-128
@@ -30,6 +32,12 @@ For W and mirror on every parent witness, the upper graph is unique and exact
 but the lower equation fails rank 64. This closes the q-repaired adapter route,
 not the source operator family: ambient-half labels still collide with the
 total-grading relabel used by the tested construction.
+
+Ledger v0.140 composes the canonical trace direction with both exact
+source-sign row/column primalizers. The natural RS-preserving Pin action forces
+W plus mirror, and both source-faithful upper image pairs are independent. A
+replacement Shiab or restricted port now counts only if it is a genuinely new,
+source-owned typed object with positive constraint surplus.
 
 Ledger v0.137 composes the source-native connection tangent, nonzero-branch
 pointwise first-action Hessian and v0.136 leak witnesses. Every named parent
@@ -52,15 +60,14 @@ by v0.136 and retyped to the action-owned-orbit/BV-domain gate above.
 
 ## Ranked frontier
 
-1. **Build A — source-faithful sign/degree-duality resolution.** The current
-   q-repaired W/mirror graph is killed by its lower-left adjoint. Classify the
-   admissible native Shiab parities and degree-dependent row dualities against
-   the source's ambient-half labels without relabeling them. Only a surviving
-   operator/adapter returns to graph, moving descent and BV/domain cohomology.
-2. **Build B — coupled functional completion after the lower-order selector.**
+1. **Build A — coupled functional completion after the sign-cluster stop.**
    Extend the full-rank pointwise connection result through metric, epsilon,
    derivative and observation jets with the actual fermion current and Ward/BV
    owners. Finite indefinite inertia is not a spectrum or quotient.
+2. **Source only if genuinely new — replacement operator.** A replacement
+   Shiab or source-derived restricted zero-order port must introduce a new
+   typed object with positive constraint surplus. Do not retune the closed
+   native-even, total-grading-q or trace-q degree-duality cells.
 3. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
    fail closed on the silent Hermitization in `ghost_parity_krein.py`; then
    scramble the carrier mass test and hostile-review the T1--T4 ambient claim.

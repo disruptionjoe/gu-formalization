@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 SOURCE-SIGN TRACE-Q DEGREE-DUALITY GATE (ledger v0.140).**
+> Bare `gamma(q)` leaks rank `64` outside the gamma-traceless RS carrier. Its
+> Pin completion preserves RS but exchanges rank-`192` `W` with its ASD mirror,
+> forcing the rank-`384` pair. On that pair both source-sign row/column
+> primalizers have port/leak/joined ranks `128/128/256` on every parent over
+> both exact fields, so neither upper graph exists. The older q family has
+> joined rank `128`, proving this is not dimensional tautology. This kills only
+> canonical trace-q degree duality on the proposed RS carrier. **Do not retune
+> this sign cluster.** A replacement Shiab/restricted port must be a genuinely
+> new source-owned object; otherwise advance the disjoint coupled-functional
+> Build through metric, epsilon, observation, fermion-current, Ward and BV.
+> No verdict, residue, quotient, datum, or P1/P2/P3 moves.
+>
 > **2026-08-10 Q-REPAIRED GRAPH / LOWER-LEFT GATE (ledger v0.139).** The
 > v0.138 port determines a unique rank-`64` W or mirror graph on each parent
 > witness. Its upper residual vanishes, but its induced carrier action is zero

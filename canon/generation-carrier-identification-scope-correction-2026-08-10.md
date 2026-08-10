@@ -134,6 +134,16 @@ no-go: the source-faithful ambient-half-sign versus degree-duality collision
 remains unresolved, and W is still a supplied carrier. A different Shiab or
 enlarged adapter must clear that Layer-0 gate before BV/domain selection.
 
+Ledger v0.140 tests the canonical trace-q degree-duality version of that
+source-faithful repair. Bare `gamma(q)` leaks rank 64 outside the RS carrier;
+the Pin completion preserves RS by exchanging W with its ASD mirror and forces
+their rank-384 closure. Both source-sign primalizers then have independent
+rank-128 port and leak images with joined rank 256, so neither upper graph
+exists. This kills only canonical trace-q degree duality on the proposed RS
+carrier. It does not identify the physical carrier or close the source family.
+Further sign retuning is no longer the default: a replacement operator must be
+new and source-owned, or work returns to the disjoint coupled-functional Build.
+
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
@@ -145,5 +155,6 @@ enlarged adapter must clear that Layer-0 gate before BV/domain selection.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-zero-order-w-mirror-parent-leakage-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-four-field-zero-order-port-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-southeast-zero-graph-gate-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-degree-duality-pair-graph-review.md`.
 - `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-leakage-composition-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

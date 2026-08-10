@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.139; six
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.140; six
+distance-only migrations; headline unchanged).** Bare trace-q leaks rank 64
+outside the gamma-traceless RS carrier; its Pin completion preserves RS only
+by exchanging W with its ASD mirror, forcing their rank-384 closure. Both
+source-sign degree-duality primalizers then have independent rank-128 port and
+leak images with joined rank 256, so no upper graph exists. This kills only
+canonical trace-q degree duality on the proposed RS carrier. The sign-repair
+cluster has hit its stopping rule: require a genuinely new source-owned
+operator, or default to the disjoint coupled-functional Build through metric,
+epsilon, observation, fermion-current, Ward and BV. No verdict, residue,
+quotient, datum, or public posture moves.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-10 (ledger v0.139; six
 distance-only migrations; headline unchanged).** The unique rank-64 upper
 graph supplied by the v0.138 port has zero residual and zero induced W/mirror
 action, but the complete K77 lower-left restriction and graph residual retain

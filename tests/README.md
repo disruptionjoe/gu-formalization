@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_degree_duality_pair_graph_gate_probe.py`
+  constructs both source-sign trace-q degree primalizers without relabeling
+  source fields. Bare q leaks rank `64` outside RS; Pin q preserves RS by
+  exchanging W/mirror and forcing rank `384`. Both upper image pairs have
+  port/leak/joined ranks `128/128/256`, while the old-q control has joined
+  rank `128`. The scoped route is killed on this carrier (`98/98`).
+
 - `channel-swings/selected_k77_southeast_zero_graph_gate_probe.py` solves the
   unique W/mirror upper graph supplied by the equation-9.16 zero-form port and
   tests its complete form-index K77 lower-left adjoint. Over `GF(1000033)` and

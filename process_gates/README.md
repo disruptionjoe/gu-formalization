@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `degree_duality_pair_graph_gate_audit.py` enforces ledger v0.140's exact
+  bare-q RS leakage, Pin-completed W/mirror exchange, rank-384 closure,
+  source-sign joined-rank-256 upper obstruction, unchanged accounting and
+  sign-cluster stopping rule.
+
 - `southeast_zero_graph_gate_audit.py` enforces ledger v0.139's exact unique
   rank-64 upper graph, zero induced W/mirror action, rank-64 action-tied
   lower-left obstruction, source-faithful sign/duality fence, unchanged

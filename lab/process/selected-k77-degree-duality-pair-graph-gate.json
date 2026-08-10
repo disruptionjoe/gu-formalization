@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "lane": "1",
+  "ledger_version": "0.140",
+  "gate": "SOURCE_FAITHFUL_TRACE_Q_DEGREE_DUALITY_PAIR_GRAPH",
+  "layer0": {
+    "source_labels": "AMBIENT_HALF_SPINOR",
+    "degree_duality": "EXPLICIT_ROW_COLUMN_PRIMALIZER",
+    "bare_q": "SPINOR_INTERTWINER",
+    "pin_q": "ONE_FORM_REFLECTION_TENSOR_SPINOR_INTERTWINER",
+    "carrier_closure": "W_PLUS_MIRROR_RANK384",
+    "graph": "ALGEBRAIC_ONLY"
+  },
+  "exact_result": {
+    "fields": ["GF(1000033)", "QQ(i)"],
+    "parents": ["moving_spin_grade2", "two_half_block_grade6", "source_full_u_coset_grade1"],
+    "degree_solutions": [[-1, 1, 1, -1], [1, -1, -1, 1]],
+    "bare_q_outside_rs_rank": 64,
+    "pin_q_preserves_rs": true,
+    "pin_q_w_to_mirror": true,
+    "pin_q_mirror_to_w": true,
+    "closed_pair_rank": 384,
+    "each_source_faithful_projected_port_rank": 128,
+    "each_source_faithful_projected_leak_rank": 128,
+    "each_source_faithful_joined_rank": 256,
+    "upper_graph_exists": false,
+    "action_tied_lower_map_rank_held_out": 128,
+    "old_q_family_control_joined_rank": 128
+  },
+  "source_return": {
+    "SOURCE-CONFIRMS": "ambient half-spinor labels, displayed southeast-zero candidate, and admitted unspecified nonzero rival",
+    "SOURCE-CORRECTS": "none",
+    "SOURCE-SILENT": "replacement sign convention, another parity-compatible Shiab, restricted zero-order port, and physical W/mirror selection"
+  },
+  "disposition": "CANONICAL_TRACE_Q_DEGREE_DUALITY_KILLED_ON_PROPOSED_RS_CARRIER__BARE_Q_LEAKS_RS_RANK64__PIN_Q_SWAPS_W_MIRROR__BOTH_SOURCE_FAITHFUL_UPPER_GRAPHS_JOINED_RANK256",
+  "scope_fence": "NOT_A_NO_GO_FOR_FULL_D916_SOURCE_FAMILY_OTHER_SHIAB_OTHER_CARRIER_BV_DOMAIN_SPECTRUM_INDEX_COUNT_OR_GU",
+  "accounting": {
+    "coverage_changed": false,
+    "verdicts_changed": false,
+    "residue_changed": false,
+    "quotients_changed": false,
+    "datum_changed": false,
+    "P1_P2_P3_used": false,
+    "canon_verdict_changed": false,
+    "public_posture_changed": false
+  },
+  "next_gate": "REPLACEMENT_SHIAB_OR_SOURCE_DERIVED_RESTRICTED_ZERO_ORDER_PORT__OTHERWISE_ADVANCE_DISJOINT_COUPLED_FUNCTIONAL_COMPLETION"
+}
