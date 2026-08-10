@@ -2,7 +2,7 @@
 title: "Project Canon"
 status: canon
 doc_type: canon
-updated_at: "2026-08-03"
+updated_at: "2026-08-10"
 ---
 
 # Project Canon
@@ -70,8 +70,23 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 - `canon/signed-readout-boundary-theorem-RESULTS.md` (big-swing R3; GU-independent)
 - `canon/two-arena-rep-theory-core-RESULTS.md` (big-swing R4; GU-independent)
 - `canon/good-stable-compactification-no-go-RESULTS.md` (good-stable no-go; GU-independent; does not move bar(b)/H59/count)
+- `canon/generation-carrier-identification-scope-correction-2026-08-10.md` (fixed-`W` theorems remain conditional; old Casimir selector is non-discriminating; no verdict change)
 - `lab/specifications/six-axis/`
 - `lab/specifications/type-ii1-spectral-sm/`
+
+## Canon Scope Correction 2026-08-10
+
+The exact finite-dimensional theorems proved on the supplied
+`192`-dimensional carrier `W` remain citable at their existing grades, but they
+do not derive or uniquely identify `W` as the physical generation carrier. The
+old internal `Spin(10)` Casimir test is scalar on its parent block and accepts a
+planted random `192`; it therefore cannot select among candidate carriers. This
+does not show that `W` is wrong. It makes physical use of every fixed-`W`
+theorem conditional on an independently source/action-owned selection. The
+existing moving-reduction Build gate now owns that discrimination test. The
+exact `40` Standard-Model-neutral-state count is retained as representation
+content only, not as a dark-matter or physical-survival result. See
+`canon/generation-carrier-identification-scope-correction-2026-08-10.md`.
 
 The **located-not-forced structural spine** RESULTS files (`canon/enum-completeness-class-c-RESULTS.md`,
 `canon/core-theorems-symbolic-proof-RESULTS.md`, `canon/antilinear-bound-RESULTS.md`,

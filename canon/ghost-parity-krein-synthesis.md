@@ -10,6 +10,13 @@ external_ref: "Bateman & Turok, 'Escape from Ostrogradsky via Hidden Ghost Parit
 
 # Ghost parity, Krein structure, and the generation count
 
+> **CARRIER-SELECTION SCOPE CORRECTION (2026-08-10).** The exact ghost/Krein
+> statements below remain fixed-`W` results. They do not identify the proposed
+> `192` as the physical carrier: the old internal Casimir criterion is
+> non-discriminating and accepts a planted random `192`. Carrier selection and
+> the remaining mass scramble are action-owned open gates; see
+> `canon/generation-carrier-identification-scope-correction-2026-08-10.md`.
+
 > **UPDATE (2026-07-06 big swing + viability gauntlet; approved by Joe in chat 2026-07-07).** Two
 > statements below are corrected by machine-checked results
 > (`explorations/big-swing-2026-07-06/BIG-SWING-CONFORMAL-CLASS-BLOCKED.md`,

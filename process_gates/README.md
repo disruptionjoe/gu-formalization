@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `exploration_absorption_priority_canon_audit.py` enforces ledger v0.131's
+  six distance-only carrier-scope migrations, conditional fixed-`W` banners,
+  unchanged accounting, action-owned carrier-discrimination priority, neutral-
+  state anti-inflation fence and current functional-contract pointer.
+
 - `selected_k77_moving_parent_bundle_observation_reduction_audit.py` enforces
   ledger v0.130's exact moving-projector rank/cocycle/Euler descent, global
   totals `113,893/229,477`, `8,192+8,192` block/coset typing, observation-value

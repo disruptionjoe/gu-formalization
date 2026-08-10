@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Compose/Verify scope correction 2026-08-10 (ledger v0.131; six
+distance-only migrations; headline unchanged).** The fixed-`192` theorems
+survive conditionally, but their old internal `Spin(10)` Casimir test is
+non-discriminating and accepts a planted random `192`; it does not derive a
+physical carrier. The v0.130 action-owned moving reduction remains rank one and
+now must distinguish the proposed `W` from mirror/random/`640`/`832` controls.
+The exact `40=32+8` Standard-Model-neutral-state count remains representation
+content only. T1--T4, the mass scramble, physical neutral-state survival and a
+canonical GU Fredholm realization remain unpromoted checks. No verdict,
+residue, quotient, datum or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.130; six
 distance-only migrations; headline unchanged).** The epsilon-transported
 rank-`8,128` Spin projector, noncommuting cocycle and recomputed first-order

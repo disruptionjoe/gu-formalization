@@ -7,6 +7,22 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 CARRIER-SELECTION SCOPE CORRECTION / PRIORITY (ledger v0.131).**
+> Exact fixed-`W` theorems survive conditionally, but the old internal
+> `Spin(10)` Casimir is scalar on the parent block and accepts a planted random
+> `192`; it cannot identify the physical generation carrier. Keep the v0.130
+> action-owned moving-reduction gate first and make it discriminate proposed
+> `W` from mirror/random/`640`/`832` controls while deriving projector variation
+> and the complement Euler equation. Next, repair silent Hermitization and run
+> the carrier-mass scramble plus hostile T1--T4 check. Then cross-tab the exact
+> `40=32+8` SM-neutral states under the selected moving reduction, mass and
+> anomaly constraints. Do not call them dark matter. Index machinery reopens
+> only after the reduction supplies a fundamental symmetry, closed domain and
+> Fredholm operator. In parallel, a disjoint Verify Run should repair H10-01's
+> swapped `-4/3` spin-2 / `+1/3` scalar coefficients before wave22 is cited;
+> the independent `F_2`/UNSAT test is valid collision-fallback work. See
+> `lab/process/exploration-absorption-priorities-2026-08-10.md`.
+
 > **2026-08-09 SESSION INDEX + OWED ITEMS.** A long session produced findings,
 > retractions and owed work that otherwise live only in `explorations/`. Single
 > retrieval surface: **`explorations/SESSION-INDEX-2026-08-09.md`**.

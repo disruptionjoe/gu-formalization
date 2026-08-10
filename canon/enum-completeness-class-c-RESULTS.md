@@ -17,6 +17,14 @@ depends_on:
 
 # Enumeration completeness for Theorem 1: the class-C census and the extension engine
 
+> **CARRIER-SELECTION SCOPE CORRECTION (2026-08-10).** This result remains
+> exact on the supplied `192`-dimensional `W`; it does not derive or uniquely
+> identify `W` as the physical generation carrier. The formerly cited internal
+> `Spin(10)` Casimir is scalar on the parent block and accepts a planted random
+> `192`, so it is non-discriminating. Read this theorem conditionally on an
+> independently source/action-selected carrier; see
+> `canon/generation-carrier-identification-scope-correction-2026-08-10.md`.
+
 > **v2.15 scope correction (2026-07-23).** This 2026-07-03 result is retained
 > as the historical compact-carrier computation. Its C1--C5 Hom-space census
 > gives the computed lift into the exact fifteen-constructor type now named

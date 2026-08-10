@@ -15,6 +15,13 @@ depends_on:
 
 # Hessian-eigenvalue test of the carrier-occupancy direction: NULL, not a zero MODE
 
+> **CARRIER-SELECTION SCOPE CORRECTION (2026-08-10).** The negative Hessian
+> result remains valid on the supplied `192`-dimensional `W`; it does not
+> derive or select `W`. The formerly cited internal Casimir is scalar on the
+> parent block and accepts a planted random `192`. Any physical interpretation
+> is conditional on an action/source-selected carrier; see
+> `canon/generation-carrier-identification-scope-correction-2026-08-10.md`.
+
 We asked the dynamical version of "located, not forced": is the generation count a FLAT direction (a modulus /
 zero mode) or a CURVED minimum (a forced value) of the GU action? Operationally, compute the Hessian (second
 variation) of the action's quadratic part along the Z/3 carrier-occupancy direction on the 192-dim `j=1`
