@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-10 ACTION-INDUCED REAL-PAIRING/HORN GATE (ledger v0.153).** In
+> the selected Spin-native scalar-Clifford-trace parent, the observed Lorentz
+> chiral pairing is exactly `B_Re`: the ordinary real trace adds the two
+> conjugate Weyl blocks, while `B_Im` requires a different chirality insertion.
+> Thus the projective `r` and independent horn cost close conditionally. Reality
+> or orientation alone do not select this line, and the source does not settle
+> the action parent. One integer remains against one amplitude equation, so
+> strict surplus is exactly `0`; BFV basicness is admissibility, not a second
+> fit equation. **Next construct or kill a typed relative-boundary index map
+> into P3. If it exists, rerun surplus expecting `2-1=+1`; otherwise the route
+> remains zero-surplus and action restriction stays blocked.** P1/P2/P3,
+> verdicts, residue, quotients and canon remain unchanged.
+
 > **2026-08-10 EXTERNAL RELATIVE-DATUM SURPLUS GATE (ledger v0.152).** The
 > minimal observed-boundary coupling
 > `I_cond[n,r]=I_G2+k CS_Br(a_plus,a0_plus;g_n)` exists. Fixed compatible

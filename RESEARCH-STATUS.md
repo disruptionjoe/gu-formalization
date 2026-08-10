@@ -8,8 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.153; six
+distance-only migrations; headline unchanged).** The selected Spin-native
+scalar-Clifford trace restricts the observed Lorentz chiral invariant pairing
+to `B_Re`; `B_Im` requires a different chirality insertion. In this action
+parent the projective pairing coordinate and independent horn cost therefore
+close. Real-valuedness or fixed orientation alone do not select the line, and
+the source still does not settle the action parent. The current external datum
+is reduced to one boundary integer against one characteristic-amplitude
+equation, giving exact strict surplus `0`. Small-gauge/BFV basicness is treated
+as admissibility rather than double-counted as a fit condition. Next Build is
+the typed relative-boundary index/P3 bridge; if it closes, surplus becomes
+`+1`, otherwise action restriction remains blocked. No P1/P2/P3 assignment,
+verdict, residue, quotient, canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.152; six
-distance-only migrations; headline unchanged).** An explicit relative
+distance-only migrations; predecessor to v0.153).** An explicit relative
 boundary term now couples the external winding `n` and real-pairing ratio `r`
 to the selected first action. Fixed compatible `(n,r)` conditionally selects a
 finite stationary amplitude, preserves small-gauge basicness and leaves the

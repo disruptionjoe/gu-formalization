@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `action_induced_real_pairing_horn_audit.py` enforces ledger v0.153's exact
+  selected scalar-trace `B_Re` restriction, distinct chirality-inserted
+  `B_Im` parent, zero projective/horn cost in the selected parent, corrected
+  strict surplus `0` and typed P3 bridge successor.
+
 - `external_relative_datum_surplus_audit.py` enforces ledger v0.152's exact
   minimal `(n,r)` boundary coupling, conditional finite-amplitude result,
   strict/favorable surplus `-1/0`, boundary-winding/P3 separation, unchanged

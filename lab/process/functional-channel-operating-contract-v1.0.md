@@ -24,8 +24,16 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.152.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.152.md`.
+`lab/process/conditional-physics-ledger-v0.153.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.153.md`.
+
+Current selected-pairing correction: the Spin-native scalar-Clifford trace
+restricts the observed Lorentz chiral pairing to conjugation-even `B_Re`.
+`B_Im` requires a distinct chirality insertion. Projective `r` and independent
+horn cost close only within this selected parent; realness, orientation and the
+source do not select it. One external integer against one amplitude equation
+gives strict surplus zero. Treat BFV basicness as admissibility and build the
+typed relative-index/P3 bridge before action restriction.
 
 Current external relative-datum correction: an explicit `(n,r)` boundary term
 conditionally selects a finite amplitude and preserves small-gauge basicness,

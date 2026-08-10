@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_action_induced_real_pairing_horn_probe.py`
+  computes the exact restriction of the selected scalar-Clifford trace on
+  `sl(2,C)_R`. It gives conjugation-even `B_Re`; `B_Im` requires chirality
+  insertion, realness/orientation alone do not select, and the selected parent
+  closes `r` plus horn cost while leaving strict surplus `0` (`30/30 PASS`,
+  pinned SymPy 1.14.0).
+
 - `channel-swings/selected_k77_external_relative_datum_surplus_probe.py`
   couples the minimal external boundary winding and real-pairing ratio to the
   selected first action. Fixed `(n,r)` selects a finite amplitude, while the

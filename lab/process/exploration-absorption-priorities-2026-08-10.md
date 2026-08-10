@@ -9,6 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.153 closes the projective pairing coordinate and horn cost inside the
+selected Spin-native scalar-trace parent. It also corrects the surplus method:
+small-gauge/BFV basicness is admissibility, not a second fit equation. The
+external route now has exactly one integer and one amplitude condition for
+surplus `0`. The typed relative-boundary index/P3 map is therefore the single
+highest-information Build: it either raises surplus to `+1` using the same
+datum or leaves this route as a zero-surplus conditional fit. Do not launch
+restricted Euler work before that gate.
+
 Ledger v0.152 establishes the conditional external route and blocks its current
 promotion. The minimal `(n,r)` relative boundary term selects a finite amplitude
 for fixed compatible inputs and preserves small-gauge basicness, but its

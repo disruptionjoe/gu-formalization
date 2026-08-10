@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
+> **Current v0.153 selected real-pairing/horn fence:** inside the selected
+> Spin-native scalar-Clifford-trace action parent, the observed Lorentz chiral
+> pairing is `B_Re`; `B_Im` requires a distinct chirality insertion. Projective
+> `r` and independent horn cost therefore close conditionally. Real-valuedness
+> or fixed orientation alone do not select the line, and the source does not
+> settle the parent. One external integer versus one amplitude equation gives
+> strict surplus `0`; BFV basicness is admissibility. Build the typed
+> relative-index/P3 bridge for the only current `+1` route before restricting
+> the action. P1/P2/P3 remain unassigned.
+
 > **Current v0.152 external relative-datum surplus fence:** the minimal
 > observed-boundary term with winding `n` and projective real-pairing ratio `r`
 > is a coherent conditional amplitude selector. Fixed compatible `(n,r)`

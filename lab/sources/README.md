@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-action-induced-real-pairing-horn-source-return-2026-08-10.md`](selected-k77-action-induced-real-pairing-horn-source-return-2026-08-10.md)
+  records source confirmation of the norm-square arena and two Weyl halves,
+  source silence on the scalar-trace restriction/real pairing/horn/P3 bridge,
+  and the still-open action-parent fork.
+
 - [`selected-k77-external-relative-datum-surplus-source-return-2026-08-10.md`](selected-k77-external-relative-datum-surplus-source-return-2026-08-10.md)
   records `SOURCE-CONFIRMS` for the distinguished `A0` and Chern--Simons-like
   action grammar, and `SOURCE-SILENT` for the external `(n,r)` coupling,
