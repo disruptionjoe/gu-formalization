@@ -71,3 +71,59 @@ public_posture_change: none
 - **Two things shipped without pre-flight; both were walked back** (the `24 sqrt(2)` interpretation, and the H10 grade). Pre-flight caught kills *in advance* everywhere it was used.
 - **Cross-distance convergence** is the strongest evidence type available here: non-ellipticity (PDE) and non-quantization (watching a knob move) were one finding in two languages, neither aware of the other.
 - Mailbox proposals filed: `drafting-factory` (pre-registration methods seed), `dynamic-unity` (degenerate selection, indefinite-form convergence, the `w_1` result bearing on `sigma = w1`).
+
+---
+
+# E. ABSORPTION GUIDANCE — read this before promoting anything
+
+This index is an **absorption manifest**, not a promotion request. Everything below was staged in
+`explorations/` deliberately: it kept a live hourly campaign undisturbed, `explorations/` is this repo's
+designated lab surface, and **three claims in this session were retracted within hours of being made** — so
+the staging blast radius was the correct one. Absorb selectively.
+
+## E1 — DO NOT ABSORB (cite-blocking)
+
+- **The three retracted claims**: the `24 sqrt(2)` frame-charge reading, the `mu`-asymmetry as an anomaly,
+  and "domain unique and forced". All carry retraction banners. If any of these appears in a downstream
+  document, that document is stale.
+- **All analogy content** — the 25-lens councils, the distributed-systems / MMO / networking / sharding
+  framings, the `Y14`/`X4` systems spec's `[ANALOGY]` rows. **Zero physics content by construction.** These
+  are framing and process-diagnosis artifacts and must never become citable results.
+- **The `sigma = w1` posit** — kept as a POSIT throughout, and Dynamic Unity's own `CONNECTIONS.md` lists it
+  among things current evidence does **not** establish.
+
+## E2 — ABSORB WITH THE VERIFY STATUS ATTACHED
+
+| item | verify status | absorb as |
+|---|---|---|
+| **H10-01** (Stelle coefficients swapped; spin-2 ghost = `-4/3`) | settled against literature: Stelle-co-authored arXiv:1508.00010 Eq. (4.7a) + 3 independent confirmations, one with opposite signature | **highest-confidence item in the session.** Not a verdict flip -- a transcription correction to an imported formula. Remediation is 9 sites + wave22 re-run. |
+| **Carrier identification non-discriminating** | hostile-verified **SCOPED, upheld**; verify called the central claim *provable*, not merely observed | significant negative bearing on the generation sector. Absorb the finding, carry the SCOPED grade. |
+| **T1-T4 ambient not carrier** | **NOT hostile-verified** -- run as a bare agent without a verify pass | strong but unconfirmed. **Verify before promoting.** |
+| **40 SM-neutral states** | produced by a verifier *refuting* its own executing agent, on a from-scratch rebuild | reliable; revives the dark-sector branch. |
+| Monodromy = `pi_0(O(3,1))` time reflection | probe re-run, `EXIT=0`, ALL CHECKS PASSED | reliable. |
+| `Q(B)` not a discriminator; van den Dungen framework exists | SCOPED (the second overstated "refuted"; one numeric certificate false as written) | absorb the direction, not the strength. |
+
+## E3 — MECHANICAL, ABSORB FREELY (no judgement needed)
+
+Already landed on encountered surfaces, listed so absorption does not duplicate them: CORRECTION **SD-01**
+and **NGM-01** in canon; the `layer0-fork-registry` misfiling fix (single-decider -> `needs_recheck`);
+`lab/process/novelty-check.py` + its `AGENTS.md` rule; the `docs/README.md` entries.
+
+## E4 — OWED WORK, NEEDS AN OWNER (section C has the full list)
+
+Ranked for an absorbing agent by leverage-per-cost:
+
+1. **`ghost_parity_krein.py:76` silently Hermitizes** (`B = 0.5*(B+B^dag)`) -- manufactures integer
+   signatures from non-Hermitian input. A live defect producing plausible wrong numbers. Cheapest real fix.
+2. **H10-01 remediation** -- diagnosis settled, fix unapplied, blast radius known and bounded.
+3. **Scramble the carrier MASS results** -- the only untested leg, and the last place a discriminating
+   criterion could live.
+4. **`F_2`/UNSAT frustration test** -- specified 2026-07-15, never run, decides unique-vs-domains.
+5. **`sigma` rename** -- section vs orientation bit; bears on DU's `sigma = w1`.
+
+## E5 — THE STANDING QUESTION
+
+**"The 192 is the generation carrier" is an assertion, not a result.** No criterion has been found that
+distinguishes it from a random 192-dim subspace of the `(base-4)(x)128` block. That is upstream of the
+sector and it is the session's sharpest open question. **Do not absorb anything that presupposes the carrier
+identification without noting this.**
