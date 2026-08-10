@@ -7,6 +7,18 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 MINIMAL K77 HESSIAN TANGENT (ledger v0.126).** The local-
+> principal selected-Spin field tangent is now narrowed exactly: a fixed-symbol
+> rank-`89` covector image closes at `174`, the three stored representatives at
+> `464`, and the full `X^4` symbol basis on both stationary branches at a common
+> rank-`594` grade-two source subspace. Thus the minimum known tangent is
+> `321 + 594 = 915`, proper inside `1,571`, with no new coefficient or datum.
+> The matched-`q` Noether theorem is a kernel identity, not a quotient map, and
+> primitive epsilon retains a live boundary moment map. **Next build lower-order
+> and derivative-jet closure on `915` and a source-natural global subbundle
+> description.** Do not invent a BV quotient or port this selected-Spin result
+> to the two `U(32,32)` halves or full `U(64,64)`. P1/P2/P3 are unused.
+
 > **2026-08-09 MOVING-METRIC FIRST-ACTION HESSIAN (ledger v0.125).** Exact
 > co-moving naturality completes all ten selected-Spin metric/source columns:
 > the intrinsic first-action block equals the cached source-field block at the

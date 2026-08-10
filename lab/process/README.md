@@ -7,6 +7,15 @@ updated_at: "2026-08-09"
 
 # Process
 
+Current append-only progress surface: ledger v0.126. Exact K-lifted
+first-action Hessian closure gives the minimum known selected-Spin local-
+principal tangent `915 = 321 + 594`, common to the full `X^4` symbol family and
+both exact stationary branches. Rank `174` is fixed-symbol only and `464`
+covers only three stored representatives. No current Noether/BV differential
+owns the rival quotient. Lower-order/jet closure and a source-natural global
+subbundle are next. Registry:
+`selected-k77-minimal-hessian-tangent-closure.json`.
+
 Current append-only progress surface: ledger v0.125. Exact co-moving
 naturality completes the selected-Spin ten-metric first-action block with
 full/horizontal/off-slice ranks `9/9/4`; the complete epsilon block remains

@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.126; six
+distance-only migrations; headline unchanged).** Exact first-action Hessian
+closure replaces the false selected-Spin `321`/full-`1,571` binary. The
+fixed-symbol rank-`89` off-slice image closes at `174`; three stored causal
+representatives close at `464`; and the full `X^4` symbol basis on both exact
+branches closes on one rank-`594` grade-two source subspace, giving total
+local-principal tangent `915`. No existing Noether/BV differential owns the
+rival equation quotient. Lower-order/derivative-jet closure, a source-natural
+global subbundle, expanded parents, gauge/ghost, domain and BV-BFV remain open.
+The two `U(32,32)` halves and full `U(64,64)` are unported. P1/P2/P3 are unused.
+
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.125; six
 distance-only migrations; headline unchanged).** The selected-Spin moving
 metric first-action block is complete at local principal grade. Co-moving

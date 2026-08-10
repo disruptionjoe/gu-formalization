@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
+> **Current v0.126 minimal K77 Hessian tangent:** distinguish the fixed-symbol
+> covector image `89`, its invariant tangent `174`, the three-representative
+> closure `464`, and the full-field tangent. Exact spatial covariance supplies
+> the missing fourth `X^4` basis covector; both stationary branches close on a
+> common rank-`594` grade-two source subspace, giving total selected-Spin local-
+> principal tangent `915`, proper inside `1,571`. The matched-`q` Noether result
+> is a kernel identity, not a quotient differential, and primitive epsilon has
+> a live boundary moment map. Next build lower-order/derivative-jet closure and
+> a source-natural global subbundle. Two `U(32,32)` halves and full `U(64,64)`
+> remain unported. P1/P2/P3 remain unused.
+
 > **Current v0.125 moving metric first-action gate:** at either exact source-
 > stationary branch, the intrinsic ten-metric principal Hessian equals the
 > cached fixed-operator source-field block by exact co-moving naturality. Its

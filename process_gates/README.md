@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_minimal_hessian_tangent_closure_audit.py` enforces ledger
+  v0.126's `89 -> 174 -> 464 -> 594` object/scope separation, total tangent
+  `915`, full-`X^4` and both-branch closure, no full-`1,571` promotion, no
+  invented Noether/BV quotient, unchanged accounting and unitary-parent fence.
+
 - `selected_k77_moving_metric_first_action_hessian_audit.py` enforces ledger
   v0.125's local-principal selected-Spin `9/9/4` metric ranks, inherited
   `91/6/88` epsilon ranks, co-moving/stationary scope, no unitary-parent port,

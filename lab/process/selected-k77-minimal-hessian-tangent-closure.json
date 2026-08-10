@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_construction_result",
+  "created": "2026-08-09",
+  "status": "SELECTED_SPIN_LOCAL_PRINCIPAL_MINIMAL_COMMON_TANGENT_915__GRADE2_EXTENSION594__NO_DERIVED_CONSTRAINT_OWNED",
+  "scope": {
+    "action": "SOURCE_SHAPED_FIRST_TRANSGRESSION_ACTION",
+    "parent": "CONDITIONALLY_SELECTED_REAL_SPIN77_LOW_GRADE_PARENT",
+    "field_coordinates": "GRADE2_PART_OF_SOURCE_OWNED_ADJOINT_ONE_FORM",
+    "differential_grade": "LOCAL_PRINCIPAL_FULL_X4_SYMBOL_FAMILY",
+    "backgrounds": "BOTH_EXACT_QQ_SQRT3_SOURCE_STATIONARY_BRANCHES"
+  },
+  "layer0": {
+    "fixed_symbol_covector_image_rank": 89,
+    "fixed_symbol_K_lifted_invariant_tangent_rank": 174,
+    "three_representative_common_tangent_rank": 464,
+    "full_X4_symbol_common_tangent_rank": 594,
+    "algebraic_coordinate_support": 1250,
+    "noether_kernel_identity": "DISTINCT_FROM_CONSTRAINT_IMAGE",
+    "algebraic_cokernel": "NOT_A_BV_QUOTIENT"
+  },
+  "exact_result": {
+    "grade2_Kloc_inertia": [637, 637, 0],
+    "grade2_hessian_directed_nnz": 5642,
+    "fixed_symbol": {
+      "timelike": {"seed": 89, "closure": 174, "progression": [89, 174]},
+      "spacelike": {"seed": 89, "closure": 174, "progression": [89, 174]},
+      "null": {"seed": 89, "closure": 174, "progression": [89, 164, 174]}
+    },
+    "three_representatives_each_branch": {"seed": 259, "closure": 464},
+    "full_X4_each_branch": {"seed": 344, "closure": 594},
+    "full_X4_both_branches": {"seed": 594, "closure": 594},
+    "minimal_selected_tangent_dimension": 915,
+    "full_1571_promoted": false,
+    "equation_quotient_promoted": false
+  },
+  "derived_constraint_audit": {
+    "existing_matched_q_noether": "FOUR_PARAMETER_KERNEL_IDENTITY",
+    "existing_offslice_image_differential": "NOT_OWNED",
+    "primitive_epsilon_boundary_moment_map": "LIVE",
+    "future_BV_differential": "OPEN_NOT_FALSIFIED"
+  },
+  "controls": {
+    "three_representatives_as_field_tangent": "REJECTED_464_TO594",
+    "covector_image_as_tangent": "REJECTED_89_TO174",
+    "raw_support_as_minimal_tangent": "REJECTED_594_LT1250",
+    "unsigned_positive_pairing": "REJECTED_BALANCED637_637",
+    "sparse_stencil": "SYMMETRIC_AND_EXHAUSTIVE_HELDOUTS_PASS",
+    "primary": "48/48_PASS",
+    "independent_sage_flint": "19/19_PASS"
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_ADJOINT_ONE_FORM_AND_FIRST_ACTION_GRAMMAR__SOURCE_SILENT_321_915_1571_TANGENT_SELECTION_AND_CONSTRAINT_QUOTIENT",
+  "action_parent_fence": {
+    "selected_spin77": "DECIDED_AS_STATED",
+    "two_U32_32_halves": "NOT_PORTED",
+    "full_U64_64": "NOT_PORTED"
+  },
+  "analytic_fence": "NO_LOWER_ORDER_GLOBAL_SUBBUNDLE_DOMAIN_POSITIVITY_HYPERBOLICITY_BV_OR_SPECTRUM_CLAIM",
+  "accounting": {
+    "new_source_coordinate_types": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "validation": {
+    "primary": "tests/channel-swings/selected_k77_minimal_hessian_tangent_closure_probe.py",
+    "independent": "tests/channel-swings/selected_k77_minimal_hessian_tangent_closure_independent.sage",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-minimal-hessian-tangent-closure-review.md"
+  },
+  "next_gate": "BUILD_LOWER_ORDER_AND_DERIVATIVE_JET_FIRST_ACTION_HESSIAN_ON_DERIVED915__TEST_CLOSURE__SEEK_SOURCE_NATURAL_GLOBAL_DESCRIPTION_OF_EXTENSION594",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

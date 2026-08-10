@@ -7,6 +7,15 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 minimal Hessian tangent closure (2026-08-09)
+
+`conditional-build/selected-k77-minimal-hessian-tangent-closure-2026-08-09.md`
+K-lifts and closes the exact off-slice first-action response. Fixed-symbol
+`89 -> 174` and three-representative `259 -> 464` are scope controls; the full
+`X^4` symbol family on both branches closes at grade-two rank `594`, giving
+total local-principal tangent `915`. Ledger v0.126 promotes neither all `1,571`
+coordinates nor an unowned Noether/BV quotient.
+
 ## K77 moving metric first-action Hessian (2026-08-09)
 
 `conditional-build/selected-k77-moving-metric-first-action-hessian-2026-08-09.md`
