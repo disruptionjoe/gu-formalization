@@ -7,6 +7,29 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-09 SESSION INDEX + OWED ITEMS.** A long session produced findings,
+> retractions and owed work that otherwise live only in `explorations/`. Single
+> retrieval surface: **`explorations/SESSION-INDEX-2026-08-09.md`**.
+>
+> **Headline finding:** the generation-carrier identification is
+> **NON-DISCRIMINATING** -- `Casimir = -11.25` is exactly a scalar on the whole
+> 128 and a *random* 192-dim subspace passes the same test; and T1-T4 (Krein
+> signature, isotropy, `{K,chir}=0`, net chirality) turn out to be **ambient**
+> rather than carrier properties. **"The 192 is the generation carrier" is an
+> assertion, not a result**, and finding a criterion that discriminates is the
+> sharpest open question the session produced.
+>
+> **Owed, unowned:** H10-01 remediation (Stelle Yukawa coefficients are swapped;
+> spin-2 ghost carries `-4/3` -- diagnosis settled against the literature, fix
+> not applied, 9 sites + wave22 re-run); `ghost_parity_krein.py:76` silently
+> Hermitizes and manufactures signatures; the carrier mass results are the only
+> leg untested under scramble; the `sigma` homonym rename; the `F_2`/UNSAT
+> frustration test specified 2026-07-15 and never run. Full list in section C of
+> the index.
+>
+> **Also retracted this session** (do not cite): the `24 sqrt(2)` frame-charge
+> reading, the `mu`-asymmetry as an anomaly, and "domain unique and forced".
+
 > **2026-08-10 COMPLETE EULER-JET TANGENT CLOSURE (ledger v0.128).** The
 > natural principal tangent `915` is not closed under the source-owned
 > first-order Euler operator. Four observed `H*` jets fill
