@@ -52,13 +52,19 @@ action-owned reduction, are anomaly-free physical states, or are dark matter.
 ## Consequence for construction
 
 The moving-reduction frontier already asks whether the selected action owns
-`P_epsilon u = u` or `D_varpi chi_epsilon = 0`. That same variation must now be
-used as a discriminating carrier test. This integrates the correction into the
-rank-one Build dependency instead of creating a competing lane.
+`P_epsilon u = u` or `D_varpi chi_epsilon = 0`, but hostile review has now
+typed these as **bosonic connection constraints**. They cannot be applied
+directly to the distinct `640+832+192` fermion split. The rank-one Build
+dependency therefore has two serial parts: finish bosonic action-parent
+ownership, then construct the induced K77 Dirac/Rarita--Schwinger operator or
+BV differential on one common fermion carrier and use its kernel, cohomology or
+spectral projector as the discriminating test. This preserves one lane without
+silently identifying different bundles.
 
 ## Evidence and review
 
 - `explorations/SESSION-INDEX-2026-08-09.md`, especially the absorption
   guidance and carrier-identification findings.
 - `lab/process/hostile-reviews/2026-08-10-exploration-absorption-and-carrier-scope-review.md`.
+- `lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-reduction-carrier-typing-review.md`.
 - `process_gates/exploration_absorption_priority_canon_audit.py`.

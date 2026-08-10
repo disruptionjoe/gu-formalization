@@ -9,12 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-10)
 
-> **Current v0.131 carrier-selection correction:** every exact theorem on the
+> **Current v0.132 action-reduction/carrier typing correction:** every exact theorem on the
 > supplied `192` remains valid conditionally, but the old internal `Spin(10)`
 > Casimir is non-discriminating and accepts a planted random `192`. Never cite
 > fixed-`W` compatibility as derivation of the physical carrier. The v0.130
-> action-owned moving-reduction gate now also must distinguish proposed `W`
-> from mirror/random/`640`/`832` controls. Keep `40=32+8` SM-neutral states as
+> rank-8128 projector acts on bosonic connection coefficients, not directly on
+> the `640+832+192` RS split. Exact variation gives only a local first-order
+> consistent-truncation candidate. Finish bosonic parent ownership, then build
+> the induced K77 fermion operator/BV differential before testing proposed `W`
+> against mirror/random/`640`/`832`. Keep `40=32+8` SM-neutral states as
 > representation content, not dark matter. T1--T4 and the mass scramble remain
 > unpromoted; arbitrary-signature index literature is not a canonical GU
 > Fredholm realization.

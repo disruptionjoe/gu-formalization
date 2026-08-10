@@ -16,21 +16,27 @@ reduction becomes responsible for selecting or rejecting that carrier.
 
 ## Ranked frontier
 
-1. **Build — action-owned reduction plus carrier discrimination.** Derive the
-   first variation of `P_epsilon u=u` and/or `D_varpi chi_epsilon=0`, including
-   the complement Euler equation. Test the resulting condition on the proposed
-   `W`, its mirror, planted graded random `192`-subspaces, and the `640/832`
-   components. Report constraint surplus. A condition that accepts all controls
-   is not a selector.
-2. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
+1. **Build A — bosonic action-parent ownership.** Exact first-order closure
+   makes the moving rank-8128 connection sector a local consistent-truncation
+   candidate, while the complementary sector also closes and both parent
+   tangents retain the same stationary branches. Decide whether a source term,
+   multiplier-free global constraint or BV mechanism actually owns one parent.
+   Do not price compatibility as selection.
+2. **Build B — induced fermion selector.** `P_epsilon` and
+   `D_varpi chi_epsilon=0` act on connection data, not directly on the distinct
+   `640+832+192` RS split. Construct the common K77 fermion bundle and the
+   action-derived Dirac/RS operator or BV differential. Only then test its
+   kernel/cohomology/spectral projector on proposed `W`, mirror, planted random
+   `192`s, `640`, and `832`, and report constraint surplus.
+3. **Verify — repair and rerun the only untested fixed-carrier leg.** Remove or
    fail closed on the silent Hermitization in `ghost_parity_krein.py`; then
    scramble the carrier mass test and hostile-review the T1--T4 ambient claim.
    Do not migrate those ambient results before this check.
-3. **Compose/representation — type the forty neutral states.** Cross-tab the
+4. **Compose/representation — type the forty neutral states.** Cross-tab the
    exact `32+8` neutral count against the moving-Spin carrier, the
    `8192+8192` block/coset reduction, the eventual mass operator and anomaly
    constraints. Do not call the states dark matter or physical survivors.
-4. **Conditional analytic/index route.** The arbitrary-signature spectral
+5. **Conditional analytic/index route.** The arbitrary-signature spectral
    triple and index literature is relevant, but it reopens only after the
    action reduction supplies a candidate fundamental symmetry, closed domain
    and Fredholm operator. Literature availability is not a GU realization.
@@ -61,6 +67,8 @@ does not establish the phenomenology of the complete GU action.
 ## Stop and reconciliation rules
 
 - Do not promote a fixed-carrier theorem into a carrier-selection theorem.
+- Do not apply a bosonic connection projector directly to a fermion subspace;
+  require the induced representation/operator and physical domain first.
 - Do not treat observation value pullback as a physical reduction.
 - If the action test does not discriminate the proposed carrier, migrate the
   relevant ledger distances and reassess the carrier before deeper domain work.

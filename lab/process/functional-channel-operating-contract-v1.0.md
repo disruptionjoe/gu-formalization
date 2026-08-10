@@ -24,13 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.131.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.131.md`.
+`lab/process/conditional-physics-ledger-v0.132.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.132.md`.
 
 Current high-fanout premise correction: exact fixed-`W` theorems remain valid
 conditionally, but the old internal Casimir test cannot identify the physical
-`192` carrier. Build keeps the v0.130 action-owned moving-reduction gate first
-and must use it as a discriminator against mirror/random/`640`/`832` controls.
+`192` carrier. Build keeps the v0.130 moving-reduction gate first, but v0.132
+proves that its rank-8128 projector is connection-typed and only a local
+first-order consistent-truncation candidate. Build must finish bosonic parent
+ownership, then construct the induced K77 Dirac/RS operator or BV differential
+before using its kernel/cohomology as the discriminator against
+mirror/random/`640`/`832` controls.
 Verify owns the silent-Hermitization repair, carrier-mass scramble and hostile
 T1--T4 check. Compose owns the exact `40=32+8` neutral-state cross-tab without
 dark-matter inflation. Analytic index work reopens only after Build supplies a

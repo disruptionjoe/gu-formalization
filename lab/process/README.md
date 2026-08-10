@@ -7,10 +7,13 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.131. The old fixed-carrier
+Current append-only progress surface: ledger v0.132. The old fixed-carrier
 Casimir test is non-discriminating and cannot select the proposed `192`; all
-exact fixed-`W` theorems survive conditionally. The v0.130 action-owned moving-
-reduction gate remains rank one and now also owns a discriminator against
+exact fixed-`W` theorems survive conditionally. The v0.130 moving rank-8128
+projector is a bosonic connection-space object; exact variation and prior
+stationarity make it only a local consistent-truncation candidate, not a
+fermion selector. Build first finishes bosonic parent ownership, then constructs
+the induced K77 Dirac/RS operator or BV differential before testing
 mirror/random/`640`/`832` controls. The exact `40=32+8` SM-neutral states are
 representation content only. T1--T4, carrier mass scramble, physical neutral-
 state survival and canonical GU Fredholm realization remain unpromoted.

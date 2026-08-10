@@ -8,12 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Compose/Verify scope correction 2026-08-10 (ledger v0.131; six
-distance-only migrations; headline unchanged).** The fixed-`192` theorems
+**Current Build/Compose/Source/Verify scope correction 2026-08-10 (ledger
+v0.132; nine distance-only migrations; headline unchanged).** The fixed-`192`
+theorems
 survive conditionally, but their old internal `Spin(10)` Casimir test is
 non-discriminating and accepts a planted random `192`; it does not derive a
-physical carrier. The v0.130 action-owned moving reduction remains rank one and
-now must distinguish the proposed `W` from mirror/random/`640`/`832` controls.
+physical carrier. The v0.130 moving rank-8128 projector acts on connection
+coefficients, while `640+832+192` is a fermion RS split. Exact first variation
+and predecessor stationarity type the current result only as a local linearized
+consistent-truncation candidate, not a unique selector. Build now finishes
+bosonic parent ownership, then constructs the induced K77 fermion operator/BV
+differential before five-way carrier discrimination.
 The exact `40=32+8` Standard-Model-neutral-state count remains representation
 content only. T1--T4, the mass scramble, physical neutral-state survival and a
 canonical GU Fredholm realization remain unpromoted checks. No verdict,

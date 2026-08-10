@@ -7,13 +7,17 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
-> **2026-08-10 CARRIER-SELECTION SCOPE CORRECTION / PRIORITY (ledger v0.131).**
+> **2026-08-10 ACTION-REDUCTION / FERMION-CARRIER TYPE CORRECTION (ledger v0.132).**
 > Exact fixed-`W` theorems survive conditionally, but the old internal
 > `Spin(10)` Casimir is scalar on the parent block and accepts a planted random
-> `192`; it cannot identify the physical generation carrier. Keep the v0.130
-> action-owned moving-reduction gate first and make it discriminate proposed
-> `W` from mirror/random/`640`/`832` controls while deriving projector variation
-> and the complement Euler equation. Next, repair silent Hermitization and run
+> `192`; it cannot identify the physical generation carrier. The v0.130
+> rank-8128 projector acts on bosonic connection coefficients, not on the
+> distinct `640+832+192` fermion carrier. Exact projector variation and prior
+> stationarity show only a local first-order consistent-truncation candidate,
+> not unique action selection. Finish bosonic parent ownership first; then
+> construct the induced K77 Dirac/RS operator or BV differential and run the
+> mirror/random/`640`/`832` controls on its physical kernel or cohomology. Next,
+> repair silent Hermitization and run
 > the carrier-mass scramble plus hostile T1--T4 check. Then cross-tab the exact
 > `40=32+8` SM-neutral states under the selected moving reduction, mass and
 > anomaly constraints. Do not call them dark matter. Index machinery reopens

@@ -12,6 +12,10 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `action_owned_reduction_carrier_typing_audit.py` enforces ledger v0.132's
+  connection-versus-fermion Layer-0 separation, local-linearized consistency
+  scope, two-step Build queue, unchanged accounting and hostile-review fence.
+
 - `exploration_absorption_priority_canon_audit.py` enforces ledger v0.131's
   six distance-only carrier-scope migrations, conditional fixed-`W` banners,
   unchanged accounting, action-owned carrier-discrimination priority, neutral-
