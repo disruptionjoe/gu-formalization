@@ -42,6 +42,13 @@ From the source-action build, verbatim:
 
 > `"16" is false: mu also fires on j=1/2 (median 0.058) and vanishes only on j=0. The restriction to ...`
 
+> **DEFLATED 2026-08-09 (same day). This is a TRIVIALITY, not an anomaly.** `Cas_+ = sum_k J_k^dag J_k` is
+> positive semidefinite, so `Cas_+ v = 0` iff `J_+[k] v = 0` for every `k`. The moment map
+> `mu^k(Psi) = <Psi, J_+^k Psi>_K` is therefore **identically zero on the 640 BY CONSTRUCTION** --
+> the `su(2)_+` moment map vanishes on the `su(2)_+` invariants. Computed: `||J_+[k].W640||_F ~ 3.56e-13`
+> against `||W640||_F = 25.298`, versus `||J_+[0].W832||_F = 2.884e+01`. **There is no story to attach here,
+> and this note's claim that it was "the cheapest entry point" was wrong.**
+
 **The moment map couples to the 832 and not to the 640.** So the 1472 is not a spectator sector — it splits
 into a dynamically coupled half and a genuinely decoupled half, and **that asymmetry is computed, recorded,
 and unexplained.** Why the source action's moment map sees the doublets but not the singlets is a well-posed

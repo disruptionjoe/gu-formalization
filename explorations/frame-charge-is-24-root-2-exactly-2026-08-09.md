@@ -18,6 +18,25 @@ probes:
 
 # `NET-SD = 24 sqrt(2)`, exactly
 
+> ## RETRACTED 2026-08-09 (same day) — DO NOT CITE THE INTERPRETATION
+>
+> The **arithmetic** below stands: `NET-SD = 24 sqrt(2)` exactly. The **interpretation is REFUTED.**
+>
+> A gamma-scramble test (six-move workflow, hostile-verified, every number independently reproduced) shows
+> **NET-SD is a pure DIMENSION COUNT with ZERO Dirac content.** It equals `n_SD * sqrt(DIM) = 3 * sqrt(128)`
+> **analytically**, and is **bit-identical under every gamma scramble -- including replacing all 14 gammas
+> with zero matrices.**
+>
+> And this file's proposed reading is refuted specifically: **the `sqrt(2)` is NOT generator normalization.**
+> It is the leftover of `sqrt(128) = 8 sqrt(2)`. The "integer content is 24" claim is therefore **dead** --
+> the 24 is `3 x 8`, i.e. `n_SD` times a spinor-dimension factor, with no geometric Dirac content whatsoever.
+>
+> **`step7_integer_freeness.py`'s verdict stands unchallenged**: no honest scale-invariant integer with Dirac
+> content exists in the bridge data. This file briefly appeared to be a counterexample. It is not one.
+>
+> Also recorded: the workflow found this observation was **already in the repo**. Sixth false-novelty claim
+> of the session.
+
 ## The computation
 
 Re-run of the existing reference in `frame_active_antilinear_chiralizer_hunt.py`, printed at full precision
