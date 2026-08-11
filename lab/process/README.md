@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.169. The complete Spin-natural
+Current append-only progress surface: ledger v0.170. Craig--Weinstein scalar
+strict-center support alone retains the actual real-K77 rank-128 Jordan
+defect. The additional canonical frequency condition
+`N(k)u_hat=0`, `N=E^2-rho^2 I`, removes generalized chains at flat principal
+grade and retains rank-640 observation. It is a conditional domain ingredient;
+selected-action/Green, overlap/BFV, curved completion, nonlinear propagation
+and source selection remain open. Registry:
+`selected-k77-nonlocal-ultrahyperbolic-polarization-gate.json`.
+
+Predecessor v0.169. The complete Spin-natural
 zero-order constraint family on the actual real-K77 source-shaped evolution
 has one propagated projective line, `C=2 Gamma(zeta)-nu`. Its kernel contains
 the full rank-128 square-zero Jordan image, and the restricted remainder keeps

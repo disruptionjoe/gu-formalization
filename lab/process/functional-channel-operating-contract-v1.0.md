@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.169.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.169.md`.
+`lab/process/conditional-physics-ledger-v0.170.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.170.md`.
+
+Current nonlocal-domain correction: Craig--Weinstein scalar strict-center
+support alone retains the real-K77 matrix Jordan defect. The canonical
+frequency-dependent kernel of `N(k)=E(k)^2-rho(k)^2 I` removes it at flat
+principal grade and preserves rank-640 observation, but remains a conditional
+domain ingredient. Build next tests selected-action/Green compatibility,
+curved overlap/pseudodifferential and BFV compatibility, and nonlinear
+propagation. It may not relabel this restriction a BV quotient or a selected
+closed domain.
 
 Current natural-constraint correction: the complete Spin-natural zero-order
 family has one propagated line, `2 Gamma(zeta)-nu=0`, whose kernel retains the

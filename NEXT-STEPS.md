@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 NONLOCAL K77 ULTRAHYPERBOLIC/POLARIZATION GATE (ledger
+> v0.170).** Craig--Weinstein's scalar strict-center support condition alone
+> leaves the actual real-K77 rank-`128` square-zero Jordan defect. The operator
+> supplies a minimal additional frequency condition
+> `N(k) u_hat(k)=0`, `N(k)=E(k)^2-rho(k)^2 I`. On the strict center cone this
+> removes the generalized chains at flat principal grade, leaves a
+> `1792`-dimensional kernel and retains the complete rank-`640` observed
+> four-vector-plus-`nu` carrier. This is a **conditional flat principal-domain
+> ingredient**, not a selected closed physical domain. **Next test it against
+> the selected-action Green form and boundary coefficient, then curved
+> overlap/pseudodifferential and BFV compatibility before nonlinear
+> propagation. Keep the source-admitted wedge-Shiab/nonzero-southeast operator
+> completion as the separate operator-changing route.**
+
 > **2026-08-11 NATURAL K77 TRACE-CONSTRAINT GATE (ledger v0.169).** The
 > complete Spin-natural zero-order family
 > `C_(a,b)(zeta,nu)=a Gamma(zeta)+b nu` has exactly one propagated

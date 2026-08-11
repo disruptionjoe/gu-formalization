@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.170 nonlocal ultrahyperbolic/polarization gate:** scalar
+> Craig--Weinstein strict-center Fourier support alone leaves the actual K77
+> rank-128 Jordan remainder. Adding the canonical frequency condition
+> `N(k)u_hat=0`, with `N=E^2-rho^2 I`, removes generalized chains at flat
+> principal grade, leaves kernel dimension 1792 and preserves rank-640
+> observation. Do not call this a selected physical domain, BV quotient or
+> curved pseudodifferential construction. Next test the candidate against the
+> selected-action Green form, then overlap/BFV and nonlinear propagation. The
+> wedge-Shiab/nonzero-southeast operator completion remains separate.
+
 > **Current v0.169 natural trace-constraint gate:** every Spin-natural
 > zero-order spinor constraint is `a Gamma(zeta)+b nu`. Exactly one projective
 > line propagates, `2 Gamma(zeta)-nu=0`, but its kernel contains the complete

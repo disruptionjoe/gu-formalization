@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.170 types the primary Craig--Weinstein nonlocal theorem against the
+actual matrix operator. Scalar strict-center support alone retains the
+rank-128 Jordan defect. Strict-center support plus the canonical
+`N(k)=E(k)^2-rho(k)^2 I` kernel removes generalized chains at flat principal
+grade and retains rank-640 observation, so the immediate priority is now its
+selected-action Green compatibility. Curved overlap/pseudodifferential, BFV
+and nonlinear propagation follow only if that passes. Keep the source-admitted
+wedge-Shiab/nonzero-southeast completion separate because it changes the
+operator. Do not promote this candidate to a closed domain or quotient.
+
 Ledger v0.169 decides the complete Spin-natural zero-order constraint family
 on the actual real-K77 source-shaped evolution. The unique propagated line
 `2 Gamma(zeta)-nu=0` contains and retains the complete rank-128 square-zero

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `nonlocal_ultrahyperbolic_polarization_gate_audit.py` enforces ledger
+  v0.170's scalar-versus-matrix Layer-0 split, strict-center support failure,
+  conditional rank-128 frequency polarization, retained rank-640 observation,
+  open action/Green/BFV/overlap/nonlinear gates and unchanged accounting.
+
 - `natural_trace_constraint_gate_audit.py` enforces ledger v0.169's complete
   Spin-natural zero-order family, unique propagated trace line, preserved
   rank-128 Jordan defect, fitted-direction control, scoped successor and

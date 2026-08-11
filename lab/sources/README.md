@@ -9,6 +9,12 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-nonlocal-ultrahyperbolic-polarization-gate-source-return-2026-08-11.md`](selected-k77-nonlocal-ultrahyperbolic-polarization-gate-source-return-2026-08-11.md)
+  separates Walter Craig and Steven Weinstein's scalar nonlocal
+  ultrahyperbolic theorem from Eric Weinstein's GU source, and records source
+  silence on the GU-specific matrix polarization and its action/Green/BFV,
+  overlap and nonlinear completion.
+
 - [`selected-k77-natural-trace-constraint-gate-source-return-2026-08-11.md`](selected-k77-natural-trace-constraint-gate-source-return-2026-08-11.md)
   records source confirmation that `nu` and `zeta` are physical four-field
   variables, plus silence on the unique propagated trace relation, BV

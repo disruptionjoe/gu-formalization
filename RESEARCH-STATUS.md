@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.170; six
+distance/evidence migrations; headline unchanged).** The primary
+Craig--Weinstein scalar nonlocal strict-center support condition does not by
+itself repair the actual matrix operator: the rank-128 square-zero Jordan
+defect remains. The canonical additional frequency polarization
+`N(k)=E(k)^2-rho(k)^2 I`, restricted to `ker N(k)`, removes the generalized
+chains on the strict center cone at flat principal grade and preserves the
+complete rank-640 observed four-vector-plus-`nu` carrier. This is a
+conditional flat principal-domain ingredient, not a selected closed physical
+domain. Selected-action/Green, BFV, curved overlap/pseudodifferential,
+nonlinear propagation and source selection remain open. Source return:
+`SOURCE_CONFIRMS_ULTRAHYPERBOLIC_BOUNDARY_TECHNICAL_DEBT_AND_SCALAR_CRAIG_WEINSTEIN_NONLOCAL_REMEDY__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_GU_MATRIX_POLARIZATION_SELECTED_ACTION_DOMAIN_GREEN_BFV_AND_NONLINEAR_PROPAGATION`.
+No datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change
+is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.169; six
 distance/evidence migrations; headline unchanged).** The complete
 Spin-natural zero-order constraint family on the actual source-shaped real-K77
