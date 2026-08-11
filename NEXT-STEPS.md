@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 COUPLED ORDINARY-GAUGE NOETHER/BV GATE (ledger v0.164).** The
+> source-typed local ordinary-gauge differential now closes exactly on
+> `varpi`, all four independent fermion fields, all four operator blocks and
+> the nonabelian ghost; the fermion density is invariant off shell. But the
+> pointwise action is `I_15 tensor rho`, so every three-plane in the
+> zero/one-form multiplicity factor supplies a gauge-invariant rank-384
+> carrier. The graph chart alone is 36-dimensional: ordinary gauge symmetry
+> preserves supplied carriers but selects none. **Next build the coupled
+> selected-action boson-plus-four-fermion symmetrized Green/preboundary form
+> and classify gauge-basic constrained-real Lagrangian domains without a
+> fitted projector.** Global BV/BFV cohomology, observation, chirality,
+> index/count and physics rendezvous remain downstream. No verdict, residue,
+> quotient, datum, canon or public-posture change is made.
+
 > **2026-08-11 UNRESTRICTED SOUTHEAST/BV-KERNEL GATE (ledger v0.163).** The
 > smallest source-admitted K77 lower-right family is explicit, and a stronger
 > exact block theorem covers every southeast `128 x 128` matrix: it leaves the

@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.164; six
+distance/evidence migrations; headline unchanged).** The source-typed local
+ordinary-gauge Noether/BRST differential closes exactly on `varpi`, all four
+independent fermion fields, all four zero-order operator blocks and the
+nonabelian ghost; the independent-dual fermion density is invariant off shell.
+Ordinary gauge covariance nevertheless cannot select a unique rank-384
+carrier: its pointwise action is `I_15 tensor rho`, leaving at least the
+36-dimensional graph chart in `Gr(3,15)` invariant. Next build the coupled
+selected-action boson-plus-four-fermion symmetrized Green/preboundary form and
+classify gauge-basic constrained-real Lagrangian domains without a fitted
+projector. Source return:
+`SOURCE_CONFIRMS_FOUR_INDEPENDENT_FIELDS_AND_RHO_EPSILON_COVARIANCE_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_EXPLICIT_BRST_BV_UNIQUE_RANK384_SELECTION_AND_GLOBAL_DOMAIN`.
+No physical cohomology, datum, P1/P2/P3, verdict, residue, quotient, canon or
+public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.163; six
 distance/evidence migrations; headline unchanged).** The selected real-K77
 complete four-field determinant is independent of every lower-right

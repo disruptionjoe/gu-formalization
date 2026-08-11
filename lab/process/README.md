@@ -7,14 +7,18 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.163. The smallest
-source-admitted K77 southeast Clifford family is explicit, while an exact block
-theorem proves every southeast matrix leaves the complete nonnull four-field
-determinant unchanged and nonzero. No fixed member supplies a nonzero
-fermion-only principal gauge generator or Noether identity; the null kernel is
-propagation, not a BV quotient. Next build the coupled `varpi` plus
-four-fermion ordinary-gauge Noether/BV complex without a rank-384 projector.
-Registry: `selected-k77-unrestricted-southeast-bv-kernel.json`.
+Current append-only progress surface: ledger v0.164. The source-typed local
+ordinary-gauge Noether/BRST differential closes exactly on `varpi`, all four
+independent fermion fields and the ghost. Ordinary gauge action is
+`I_15 tensor rho`, however, and therefore preserves a `Gr(3,15)` family of
+rank-384 carriers rather than selecting one. Next build the coupled selected-
+action symmetrized Green/preboundary form and classify gauge-basic constrained-
+real Lagrangian domains without a fitted projector. Registry:
+`selected-k77-coupled-gauge-noether-bv.json`.
+
+Predecessor v0.163 kills the fermion-only principal gauge route and sends Build
+to the full-field ordinary-gauge complex; v0.164 constructs that complex and
+kills gauge covariance as a unique carrier selector.
 
 Predecessor v0.162 proves the rank-384 tested hull is a proper subspace of the
 unrestricted action image and returns Build to the unrestricted operator;

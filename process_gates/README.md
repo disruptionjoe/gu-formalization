@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `coupled_gauge_noether_bv_audit.py` enforces ledger v0.164's exact local
+  full-field ordinary-gauge BRST/Noether closure, the `Gr(3,15)` rank-384
+  no-selection theorem, source/hostile scope, unchanged accounting and the
+  coupled Green/domain successor.
+
 - `unrestricted_southeast_bv_kernel_audit.py` enforces ledger v0.163's
   parameter-independent nonnull southeast determinant theorem, null-
   propagation/gauge Layer-0 fence, fermion-only principal-BV kill, unchanged

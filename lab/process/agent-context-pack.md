@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.164 coupled ordinary-gauge Noether/BV gate:** the local
+> source-typed differential closes exactly on `varpi`, four independent
+> fermion fields, all four operator blocks and the nonabelian ghost, with
+> off-shell fermion-density invariance. It does not select a rank-384 carrier:
+> ordinary gauge action is `I_15 tensor rho`, so a 36-coordinate chart of
+> `Gr(3,15)` already gives distinct invariant rank-384 carriers. Next build the
+> total boson-plus-four-fermion symmetrized Green/preboundary form and classify
+> gauge-basic constrained-real Lagrangian domains. Preserve local BRST closure
+> separately from global BV/BFV cohomology and do not fit a projector.
+
 > **Current v0.163 unrestricted-southeast/BV gate:** every lower-right
 > southeast matrix is determinant-equivalent to the selected complete K77
 > four-field operator at non-null covectors. The explicit two-parameter

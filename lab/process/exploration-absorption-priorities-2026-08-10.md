@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.164 closes the local full-field ordinary-gauge Noether/BRST
+obligation and kills ordinary gauge covariance as a unique rank-384 carrier
+selector. The action is `I_15 tensor rho`, leaving at least `Gr(3,15)` of
+invariant three-plane carriers in form-multiplicity space. Do not resume finite
+projector searches or confuse preservation with selection. The highest-
+information Build is now the coupled selected-action boson-plus-four-fermion
+symmetrized Green/preboundary form and the classification of gauge-basic,
+constrained-real Lagrangian domains. Physical BV/BFV cohomology, observation,
+chirality and index/count remain downstream of that common domain.
+
 Ledger v0.163 closes the immediate southeast/principal-BV fork. The smallest
 source-admitted K77 southeast family is explicit, and every southeast matrix
 is nonnull determinant-equivalent to the selected complete four-field

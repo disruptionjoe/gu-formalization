@@ -24,8 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.163.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.163.md`.
+`lab/process/conditional-physics-ledger-v0.164.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.164.md`.
+
+Current coupled-gauge/BV correction: the source-typed local ordinary-gauge
+differential closes exactly on `varpi`, four independent fermion fields, four
+operator blocks and the nonabelian ghost, and the fermion density is off-shell
+invariant. This necessary closure does not select a smaller carrier. The
+pointwise action `I_15 tensor rho` leaves at least `Gr(3,15)` of rank-384
+carriers invariant. Build now moves to the total boson-plus-four-fermion
+symmetrized Green/preboundary form and gauge-basic constrained-real
+Lagrangian-domain classification. Preservation is not selection; local BRST
+closure is not global BV/BFV cohomology.
 
 Current unrestricted-southeast/BV correction: for the selected complete K77
 four-field upper/lower blocks, every lower-right southeast matrix leaves the
