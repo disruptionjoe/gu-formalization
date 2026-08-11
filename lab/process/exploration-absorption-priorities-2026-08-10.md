@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.180 closes the independent-projector gap on the noncharacteristic
+observed branch. The action derives the full variable rank-960 incoming
+projector family from `D_t,D_n`; boundary geometry selects a member. Moving
+frame/normal descent, connection naturality, negative flux and both doubled
+Majorana Green identities are exact. Rank one is now to compose this family
+with the source-derived constraint/BV differential and observation pullback,
+then compute boundary invariance and physical W-versus-mirror cohomology.
+Global-in-time nonlinear estimates, null BFV, horn/`p`, index and count stay
+separate.
+
 Ledger v0.179 closes the local flat action/energy boundary compatibility gate
 for both complete Majorana pairing horns. The one-sided independent-dual
 restriction remains full rank 960 and is now a planted wrong-object control;

@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.180 K77 variable incoming projector:** the action principal
+> coefficients derive `Pi_in(n)=(I-D_t^-1 D_n)/2`, rank 960 inside the full
+> conditional rank-1,920 carrier. The family descends across moving frames,
+> its derivative is connection-natural, its flux is negative, and both
+> doubled Majorana Green identities transport. Boundary geometry—not the
+> action—supplies the hypersurface and outward unit normal that select a
+> member. Next compose the family with the source-derived constraint/BV
+> differential and observation, then test physical W-versus-mirror
+> cohomology. Do not promote bundle descent to global-in-time well-posedness.
+> Selected Spin, the two `U(32,32)` halves and full `U(64,64)` remain
+> distinct; P1/P2/P3 are unused.
+
 > **Current v0.179 K77 energy/Green boundary composition:** the exact
 > incoming energy carrier is `ker(E+1)`, rank 960 inside the full rank-1,920
 > conditional real-K77 principal carrier. For both complete pairing horns the

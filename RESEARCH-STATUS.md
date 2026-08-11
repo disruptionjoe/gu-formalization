@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.180; six
+distance/evidence migrations; headline unchanged).** The completed K77 action
+principal pair derives the variable incoming projector family
+`(I-D_t^-1 D_n)/2`, rank 960 in the full rank-1,920 carrier. The family
+descends by conjugation, differentiates connection-naturally, has negative
+transported flux, and preserves both doubled-Majorana Green identities.
+Observation/boundary geometry supplies the hypersurface and outward unit
+normal that select a member; no unique global boundary is selected. The next
+gate is the source-derived constraint/BV differential, boundary invariance and
+physical mirror cohomology. Global-in-time nonlinear closure, ambient `Y^14`,
+null BFV, horn/`p`, index and count remain open. No verdict, residue, quotient,
+canon or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.179; six
 distance/evidence migrations; headline unchanged).** The full rank-1,920
 real-K77 principal carrier has exact incoming/outgoing halves of rank 960.

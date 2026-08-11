@@ -24,8 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.179.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.179.md`.
+`lab/process/conditional-physics-ledger-v0.180.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.180.md`.
+
+Current variable-projector result: the selected action's principal
+coefficients derive the moving incoming family
+`Pi_in(n)=(I-D_t^-1 D_n)/2`; no independent projector datum is needed once an
+oriented unit observed spatial conormal is given. The family has rank 960,
+descends as an associated-bundle projector, differentiates
+connection-naturally, carries negative transported flux, and preserves both
+doubled-Majorana Green identities. Boundary geometry selects a member; the
+action does not select a unique boundary. Build next composes the family with
+the source-derived constraint/BV differential and observation pullback, then
+tests boundary invariance and physical mirror cohomology. Global-in-time,
+null BFV, horn/`p` and index/count remain separate.
 
 Current energy/Green boundary correction: the exact rank-960 incoming energy
 half has full-rank one-sided `P D_n` restriction in both horns, but that is the

@@ -3031,3 +3031,19 @@ pairing, a vacuous zero carrier and the one-sided/doubled object collapse.
 sage -python tests/channel-swings/selected_k77_energy_green_boundary_horn_composition_probe.py
 python3 process_gates/k77_energy_green_boundary_horn_composition_audit.py
 ```
+
+## K77 variable incoming-projector descent v0.180
+
+`channel-swings/selected_k77_variable_incoming_projector_descent_probe.py`
+composes the immutable full-carrier K77 spatial-Clifford and doubled-Green
+receipts with a moving rational unit normal and noncommuting three-patch field
+frames. It proves the action polynomial projector has constant half rank,
+negative flux, associated-bundle descent and connection-natural derivative,
+then transports both complete doubled-Majorana horns. Six plants reject
+reversed overlap order, a frozen projector, omitted connection correction,
+unnormalized conormal and both one-sided wrong objects (`63/63 PASS`).
+
+```sh
+sage -python tests/channel-swings/selected_k77_variable_incoming_projector_descent_probe.py
+python3 process_gates/k77_variable_incoming_projector_descent_audit.py
+```

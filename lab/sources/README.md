@@ -7,6 +7,11 @@ updated_at: "2026-08-10"
 
 # Source and Media Index
 
+- [`selected-k77-variable-incoming-projector-descent-source-return-2026-08-11.md`](selected-k77-variable-incoming-projector-descent-source-return-2026-08-11.md)
+  records source support for the first-order four-field/covariance grammar and
+  silence on the action-derived incoming projector family, boundary-member
+  selection and variable analytic domain.
+
 - [`selected-k77-energy-green-boundary-horn-composition-source-return-2026-08-11.md`](selected-k77-energy-green-boundary-horn-composition-source-return-2026-08-11.md)
   records source silence on identifying the incoming energy half with an
   action-Green domain, selecting a pairing horn, or supplying the variable or

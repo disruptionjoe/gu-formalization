@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 VARIABLE INCOMING-PROJECTOR DESCENT (ledger v0.180).**
+> The selected action's principal coefficient pair derives the full moving
+> incoming projector family `Pi_in(n)=(I-D_t^-1 D_n)/2`. It has rank 960,
+> descends across moving frames, has a connection-natural derivative and
+> negative transported flux, and both doubled Majorana horns remain
+> Green-isotropic. Boundary geometry supplies the hypersurface and outward
+> unit normal that select one member; the action does not choose a unique
+> physical boundary. **Next compose this family with the source-derived
+> constraint/BV differential and observation pullback, then test boundary
+> invariance and physical W-versus-mirror cohomology. Keep global-in-time
+> estimates, null BFV, horn/`p` and index/count separate.**
+
 > **2026-08-11 K77 ENERGY/GREEN BOUNDARY-HORN COMPOSITION (ledger v0.179).**
 > The exact rank-960 incoming energy half appeared incompatible with both
 > action pairings only when the barred field was incorrectly left independent:

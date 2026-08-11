@@ -2781,3 +2781,12 @@ zero doubled-Majorana graded Green restrictions for both complete horns over
 two primes, and the hostile Layer-0 reversal. It rejects horn/`p`, variable or
 global domain, projector-ownership, datum, residue, quotient, canon or posture
 promotion.
+
+## K77 variable incoming-projector descent ledger v0.180
+
+`k77_variable_incoming_projector_descent_audit.py` requires the exact action
+polynomial projector, rank-960 half, associated-bundle and connection
+transport, negative flux, both transported doubled-Majorana horns, and the
+boundary-geometry member-selection fence. It rejects global-in-time,
+constraint/BV, physical-cohomology, horn/`p`, datum, residue, quotient, canon
+or posture promotion.

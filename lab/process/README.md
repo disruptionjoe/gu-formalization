@@ -7,13 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.179. The exact rank-960
-incoming energy half has full-rank one-sided independent-dual restriction for
-both pairing horns, but the correctly doubled Majorana Green pullback has rank
-zero for both. Local flat action/energy boundary compatibility closes without
-horn selection. Variable/global transport, action ownership, ambient/null and
-horn/`p` burdens remain open. Registry:
-`selected-k77-energy-green-boundary-horn-composition.json`.
+Current append-only progress surface: ledger v0.180. The selected action's
+principal coefficients derive the moving rank-960 incoming projector family.
+Associated-bundle descent, connection naturality, negative transported flux
+and both doubled-Majorana Green identities are exact. Boundary geometry
+selects a member. Constraint/BV invariance, physical mirror cohomology,
+global-in-time, ambient/null and horn/`p` burdens remain open. Registry:
+`selected-k77-variable-incoming-projector-descent.json`.
+
+Predecessor v0.179 composes the exact incoming energy half with both complete
+Majorana pairing horns and corrects the one-sided independent-dual no-go.
 
 Predecessor v0.178 separates the doubled-field Majorana graph, complete Cauchy
 data and the spatial incoming half, and conditionally supplies the local flat
