@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.184; six
+distance/evidence migrations; headline unchanged).** The exact observed
+`H640` graph closes the three spacetime spatial evolutions, but each of the ten
+transverse `Y^14` directions leaks rank 128 and joins it to rank 768. All
+thirteen spatial evolutions generate the full rank-1,920 carrier. Ordinary
+pullback annihilates every transverse covector. Both restricted pairing horns
+remain rank-640 and alternating on all fourteen axes, but this does not prove
+ambient invariance. The next gate is a source-action-owned vertical
+Higgs/soldering adapter before complete sixteen-cell Riccati, barred-adjoint
+and BV/Koszul--Tate closure. No verdict, residue, quotient, canon or public
+posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.183; six
 distance/evidence migrations; headline unchanged).** The exact conditional
 `H640` is a rank-128 action-derived graph over, not equal to, the coordinate

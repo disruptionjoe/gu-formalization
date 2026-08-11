@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-215742-gu-k77-h640-ambient-observed-riccati-boundary",
+  "status": "SCOPED_AMBIENT_OBSERVED_BOUNDARY_RESULT",
+  "checks": {
+    "total": 42,
+    "failures": 0,
+    "planted": 2,
+    "two_prime_exact": true
+  },
+  "ambient_observed_boundary": {
+    "h640_rank": 640,
+    "observed_spatial_indices": [7, 8, 9],
+    "observed_leakage_rank_each": 0,
+    "transverse_spatial_count": 10,
+    "transverse_leakage_rank_each": 128,
+    "single_transverse_join_rank": 768,
+    "all_spatial_hull_ranks": [640, 1920],
+    "ambient_hull_rank": 1920,
+    "ordinary_transverse_covector_pullback_rank_each": 0
+  },
+  "pairing": {
+    "horns": 2,
+    "restriction_rank_each": 640,
+    "restricted_grassmann_coefficients_alternating_all_fourteen_axes": true,
+    "alternation_implies_no_leakage": false
+  },
+  "source_return": "SOURCE_CONFIRMS_Y14_OPERATOR_AND_OBSERVATION_PULLBACK__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_H640_GRAPH_AND_VERTICAL_HIGGS_SOLDERING_ADAPTER_GRAPH_RICCATI_BV_KT_AND_GLOBAL_DOMAIN",
+  "hostile_verdict": "SURVIVES_SCOPED__H640_OBSERVED_GRAPH_EXACT__UNRESTRICTED_AMBIENT_HULL_FULL1920__VERTICAL_ADAPTER_OPEN",
+  "disposition": "H640_IS_EXACTLY_OBSERVED_THREE_AXIS__EVERY_TRANSVERSE_AXIS_LEAKS128_AND_ENLARGES_TO768__ALL_THIRTEEN_AXES_GENERATE_FULL1920__ORDINARY_PULLBACK_KILLS_TRANSVERSE_COVECTORS__NONZERO_VERTICAL_HIGGS_SURVIVAL_REQUIRES_AN_UNBUILT_ADAPTER",
+  "next_gate": "CONSTRUCT_OR_KILL_A_SOURCE_ACTION_OWNED_VERTICAL_HIGGS_SOLDERING_ADAPTER_SATISFYING_THE_TEN_RANK128_GRAPH_RICCATI_RESIDUALS_AND_BOTH_BARRED_ADJOINT_HORNS__OTHERWISE_KEEP_UNRESTRICTED_D916_ON_FULL1920_AND_H640_ONLY_AFTER_ORDINARY_PULLBACK",
+  "accounting": {
+    "P1_P2_P3_used": false,
+    "verdict_change": false,
+    "booked_residue_change": false,
+    "quotient_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  }
+}

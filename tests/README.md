@@ -3089,3 +3089,17 @@ gauge-frame leakage before full BV/Koszul--Tate.
 sage -python tests/channel-swings/selected_k77_h640_observation_pullback_bv_typing_probe.py
 python3 process_gates/k77_h640_observation_pullback_bv_typing_audit.py
 ```
+
+## K77 H640 ambient/observed Riccati boundary v0.184
+
+`channel-swings/selected_k77_h640_ambient_observed_riccati_boundary_probe.py`
+proves over two exact fields that H640 closes the three observed evolutions,
+each of ten transverse Y14 directions leaks rank 128 and joins to rank 768,
+and the unrestricted hull is rank 1,920. Ordinary pullback kills the
+transverse covectors. Both pairing horns remain alternating, with a plant
+showing that alternation does not imply ambient no-leakage.
+
+```sh
+sage -python tests/channel-swings/selected_k77_h640_ambient_observed_riccati_boundary_probe.py
+python3 process_gates/k77_h640_ambient_observed_riccati_boundary_audit.py
+```

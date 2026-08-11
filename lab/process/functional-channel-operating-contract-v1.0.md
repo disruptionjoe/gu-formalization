@@ -24,19 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.183.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.183.md`.
+`lab/process/conditional-physics-ledger-v0.184.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.184.md`.
 
-Current observation-graph/BV-typing result: `H640` is not the coordinate
-observed carrier; the two rank-640 spaces intersect in rank 512 and join in
-rank 768. Observation restricts isomorphically to `H640`, deriving a rank-128
-graph lift on which all three principal spatial generators have exact
-no-leakage. Individual lower-order witnesses leak rank 128 and a mixed
-gauge-frame witness leaks rank 256. Build next solves or kills the complete
-sixteen-cell lower-order graph/Riccati and barred-adjoint system with rank
-1,920 as control, before observed BV/Koszul--Tate, equation dual or physical
-cohomology. Isomorphism is not equality, and principal graph closure is not a
-closed analytic domain.
+Current ambient/observed boundary result: `H640` is the exact graph for the
+three observed spatial evolutions, but not for the unrestricted `Y^14`
+operator. Each of the ten transverse spatial directions leaks rank 128 and
+joins `H640` to rank 768; all thirteen spatial evolutions generate the full
+rank-1,920 carrier. Ordinary pullback kills all ten transverse covectors.
+Both action pairing horns remain nondegenerate and alternating on `H640`, but
+that does not imply ambient no-leakage. Build next constructs or kills a
+source-action-owned vertical Higgs/soldering adapter before solving the
+complete sixteen-cell graph/Riccati, barred-adjoint and BV/Koszul--Tate system.
+Ordinary pullback is not a nonzero vertical adapter, and finite alternating
+compression is not a closed analytic domain.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial

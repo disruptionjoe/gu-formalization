@@ -9,6 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.184 establishes that H640 is the observed graph, not the unrestricted
+ambient domain. Ten transverse `Y^14` directions each leak rank 128 and the
+complete ambient hull is rank 1,920, while ordinary pullback kills all ten
+transverse covectors. Rank one is therefore to construct or kill a source-
+action-owned vertical Higgs/soldering adapter satisfying those ten residuals
+and both barred-adjoint horns. Only after that typing should the complete
+sixteen-cell Riccati/BV solve run. Do not turn ordinary pullback into a Higgs
+mechanism or ambient closure into a four-dimensional no-go.
+
 Ledger v0.183 corrects the carrier/observation object before BV construction.
 The exact conditional H640 is not the coordinate observed rank-640 carrier;
 it is a rank-128 action-derived graph over it. Observation restricts

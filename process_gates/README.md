@@ -2819,3 +2819,13 @@ rank-1,280 barred/unbarred graph carrier, rank-2,560 formal non-ghost BV
 carrier and rank-640 restricted K77 pairing. It rejects complete lower-order
 graph/Riccati, BV/KT, global domain, physical cohomology, datum, residue,
 quotient, canon or posture promotion.
+
+## K77 H640 ambient/observed Riccati boundary ledger v0.184
+
+`k77_h640_ambient_observed_riccati_boundary_audit.py` requires the exact
+two-prime separation between observed H640 closure and unrestricted Y14
+closure: zero leakage on three observed evolutions, rank-128 leakage on each
+of ten transverse directions, rank-768 single joins, full rank-1,920 hull,
+and zero ordinary pullback for transverse covectors. It retains both
+symplectic pairing horns while rejecting alternation as a substitute for
+no-leakage, and routes the vertical adapter before complete Riccati/BV work.

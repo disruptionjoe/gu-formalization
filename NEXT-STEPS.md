@@ -7,6 +7,18 @@ updated_at: "2026-08-11"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 H640 AMBIENT/OBSERVED BOUNDARY (ledger v0.184).**
+> `H640` is exact for the three observed spatial evolutions, but every one of
+> the ten transverse `Y^14` directions leaks rank 128 and enlarges it to rank
+> 768; all thirteen spatial evolutions generate the full rank 1,920 carrier.
+> Ordinary pullback kills the transverse covectors. Both pairing horns remain
+> alternating and nondegenerate on `H640`, which does not imply ambient
+> no-leakage. **Next construct or kill a source-action-owned vertical
+> Higgs/soldering adapter satisfying the ten graph/Riccati residuals and both
+> barred-adjoint horns, with rank 1,920 as control; only then solve the complete
+> sixteen-cell BV/Koszul--Tate system.** Do not call ordinary pullback a Higgs
+> adapter or the ambient hull a four-dimensional no-go.
+
 > **2026-08-11 K77 H640 OBSERVATION GRAPH / BV TYPING (ledger v0.183).**
 > `H640` is not the coordinate `Omega^1(X,S) + Omega^0(X,S)` carrier: the
 > two rank-640 spaces intersect in rank 512 and span rank 768. Observation
