@@ -3062,3 +3062,16 @@ projectors, wrong ghost transport and false complete-Pin boundary symmetry.
 sage -python tests/channel-swings/selected_k77_boundary_bv_observation_cohomology_probe.py
 python3 process_gates/k77_boundary_bv_observation_cohomology_audit.py
 ```
+
+## K77 zero-seed H640 action-closure controls v0.182
+
+`channel-swings/selected_k77_zero_seed_h640_action_closure_controls_probe.py`
+computes the complete eight-word spatial action algebra and proves over `QQ`
+that the source-owned zero-form field alone generates `H640=512+128`. It
+replays W, mirror, prior 640/832 and three random rank-192 controls over two
+exact primes, including the equal-rank-not-equal-module negative control.
+
+```sh
+sage -python tests/channel-swings/selected_k77_zero_seed_h640_action_closure_controls_probe.py
+python3 process_gates/k77_zero_seed_h640_action_closure_controls_audit.py
+```

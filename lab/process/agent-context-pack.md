@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.182 K77 zero-seed action module:** the source-owned
+> `Omega^0(S)` spinor alone generates exact conditional `H640=512+128` under
+> the complete three-generator spatial principal-action algebra; the central
+> rank is certified over `QQ`. `W`, mirror and their union generate the same
+> module. Random rank-192 controls generate `1908..1920`; the old one-form
+> 640 and 832 generate distinct H1280 superspaces meeting exactly in H640 and
+> spanning rank 1,920. Next construct full BV/Koszul–Tate on candidate H640
+> with the full carrier as a mandatory control, first testing lower-order,
+> barred/dual, antifield, observation and boundary invariance. H640 is a
+> repository-derived principal action module, not a source-selected physical
+> carrier. Selected Spin, two `U(32,32)` halves and full `U(64,64)` remain
+> distinct; P1/P2/P3 are unused.
+
 > **Current v0.181 K77 boundary BRST / common action closure:** ordinary-gauge
 > BRST preserves the action-derived incoming relation and associated-bundle
 > observation descent is exact. `W`, its mirror and their union are not

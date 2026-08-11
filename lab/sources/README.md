@@ -441,3 +441,5 @@ identifications as separate grades.
   - confirms the four-independent-field parent and returns source-silent on the repository-derived graded Green sign, pairing-horn/`p` selection and closed domain.
 - [`selected-k77-observed-cauchy-domain-layer0-source-return-2026-08-11.md`](selected-k77-observed-cauchy-domain-layer0-source-return-2026-08-11.md)
   - confirms the four-independent-field parent and returns source-silent on the observed symmetric-hyperbolic domain, reality-versus-boundary distinction and spatial projector.
+- [`selected-k77-zero-seed-h640-action-closure-controls-source-return-2026-08-11.md`](selected-k77-zero-seed-h640-action-closure-controls-source-return-2026-08-11.md)
+  - confirms the independent `Omega0` and `Omega1` ingredients; attributes their `H640` principal action closure to the repository construction and returns source-silent on physical selection, BV cohomology and the global domain.

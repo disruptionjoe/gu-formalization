@@ -24,8 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.181.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.181.md`.
+`lab/process/conditional-physics-ledger-v0.182.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.182.md`.
+
+Current zero-seed action-module result: the source-owned `Omega^0(S)` field
+alone generates exact conditional `H640=512+128` under the complete spatial
+principal-action algebra; the central result is exact over `QQ`. `W`, mirror
+and their union generate the same module. Random rank-192 controls generate
+`1908..1920`. The old one-form 640 and 832 generate distinct rank-1280 modules
+that intersect in H640 and span the full carrier. Build next derives complete
+lower-order/barred/dual/antifield BV/Koszul--Tate on candidate H640 with rank
+1,920 as a mandatory control. Principal action ownership is not source
+selection or physical cohomology.
 
 Current boundary/BV typing result: ordinary-gauge BRST preserves the moving
 incoming relation and associated-bundle observation-frame naturality closes.

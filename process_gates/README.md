@@ -2800,3 +2800,11 @@ and their union, and the shared conditional `H640=512+128` action closure. It
 requires the old-one-form-640 and source-selection fences and rejects full
 BV/Koszul–Tate, global analytic, null BFV, index/count, datum, residue,
 quotient, canon or posture promotion.
+
+## K77 zero-seed H640 action-closure controls ledger v0.182
+
+`k77_zero_seed_h640_action_closure_controls_audit.py` requires the exact `QQ`
+zero-seed `H640=512+128`, two-prime W/mirror/random/640/832 controls, and the
+distinct-H1280 intersection/sum relation. It rejects promotion from a minimal
+principal-action module to source selection, full BV/Koszul--Tate cohomology,
+BFV reduction, global domain, datum, residue, quotient, canon or posture.

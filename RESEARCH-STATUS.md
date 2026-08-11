@@ -2,11 +2,23 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-10"
+updated_at: "2026-08-11"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.182; six
+distance/evidence migrations; headline unchanged).** The source-owned
+zero-form spinor alone generates the exact conditional principal-action
+module `H640=512+128`; its load-bearing rank is certified over `QQ`. `W`,
+mirror and their union generate the same module. Three random rank-192
+controls generate `1920`, `1916` and `1908`. The prior one-form 640 and 832
+generate distinct rank-1280 modules whose intersection is `H640` and whose
+sum is the full rank-1,920 carrier. Full BV/Koszul–Tate now proceeds on
+candidate `H640` with rank 1,920 as a mandatory control. Lower-order,
+barred/dual, antifield, observation, boundary and global-domain closure remain
+open. No verdict, residue, quotient, canon or public posture moves.
 
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.181; six
 distance/evidence migrations; headline unchanged).** Local ordinary-gauge

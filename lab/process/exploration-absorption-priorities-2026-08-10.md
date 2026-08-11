@@ -9,6 +9,17 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.182 closes the queued H640 control. The source-owned zero-form
+spinor alone generates exact conditional `H640=512+128`; `W` and mirror are
+unnecessary seeds at principal grade. Random rank-192 planes generate
+`1908..1920`. The old one-form 640 and 832 generate distinct H1280
+superspaces whose intersection is H640 and whose sum is the full carrier.
+Rank one is now the complete action BV/Koszul--Tate differential on candidate
+H640 with rank 1,920 as a mandatory control. Test lower-order, barred/dual,
+antifield, observation and boundary invariance before computing physical
+cohomology. If any block leaks, fail back to the full carrier. Do not call
+principal action ownership source selection.
+
 Ledger v0.181 closes local ordinary-gauge BRST covariance and observation-frame
 naturality, but rejects direct `W`-versus-mirror restricted cohomology: neither
 seed nor their union is invariant under the boundary dynamics. All three seeds

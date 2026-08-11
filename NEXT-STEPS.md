@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-10"
+updated_at: "2026-08-11"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-11 K77 ZERO-SEED H640 ACTION MODULE (ledger v0.182).** The
+> source-owned `Omega^0(S)` field alone generates exact conditional
+> `H640=512+128` under the complete spatial principal-action algebra; the
+> load-bearing rank is exact over `QQ`. `W`, mirror and their union generate
+> the same module, while random rank-192 controls generate `1908..1920`.
+> The old one-form 640 and 832 generate distinct rank-1280 superspaces that
+> meet exactly in `H640` and span rank 1,920. **Next derive the complete
+> action BV/Koszul–Tate differential on candidate `H640`, retaining rank
+> 1,920 as a mandatory control, and fail back to the full carrier if any
+> lower-order, barred/dual, antifield, observation or boundary block leaks.
+> Do not call principal action ownership source selection or physical
+> cohomology.**
 
 > **2026-08-11 K77 BOUNDARY BRST / COMMON ACTION CLOSURE (ledger v0.181).**
 > Ordinary-gauge BRST preserves the action-derived incoming relation and
