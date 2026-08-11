@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.174; six
+distance/evidence migrations; headline unchanged).** Exact two-prime
+classification of the complete local four-scalar Spin-natural pairing family
+corrects the v0.173 self-adjoint-only criterion. There is one nondegenerate
+symmetric/anti-adjoint line and one nondegenerate skew/self-adjoint line; both
+make the Grassmann quadratic coefficient alternating on all 14 axes for
+arbitrary nonzero chiral weights. The local action supplies zero weight
+equations. A pairing-preserving chiral isometry removes the weight ratio and
+leaves one invariant product `p=w_+w_-`. The next gate tests that product in
+the full nonlinear connection, Noether, normalization and observation maps;
+anti-linear reality and the global Green/domain problem remain open. Selected
+Spin, two `U(32,32)` halves and full `U(64,64)` remain distinct. No P1/P2/P3,
+verdict, booked residue, quotient, canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.173; six
 distance/evidence migrations; headline unchanged).** Exact two-prime real-K77
 construction shows that the source-admitted wedge-Shiab plus nonzero-southeast

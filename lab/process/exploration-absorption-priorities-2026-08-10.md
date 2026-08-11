@@ -9,6 +9,17 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.174 closes the local action-adjoint existence question and corrects
+the self-adjoint-only reading. The complete Spin-natural pairing family has
+exactly two nondegenerate projective lines, and both give an alternating
+Grassmann coefficient for arbitrary nonzero chiral weights. A
+pairing-preserving chiral isometry removes their ratio, leaving one invariant
+product `p=w_+w_-`; no local equation selects it. Rank one is therefore the
+cheap full-nonlinear test of `p` against connection covariance, Noether,
+normalization and observation. Only then proceed to anti-linear reality and
+the global Green/domain construction. Keep selected Spin, two `U(32,32)`
+halves and full `U(64,64)` distinct.
+
 Ledger v0.173 completes the promoted operator route: the source-admitted real-
 K77 wedge-Shiab/nonzero-southeast family removes the rank-128 principal Jordan
 remainder without quotient and gives a semisimple `960/960` characteristic

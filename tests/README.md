@@ -2944,3 +2944,18 @@ open reality adjoint. Zero-southeast and K95-sign plants both fire at rank 128.
 sage -python tests/channel-swings/selected_k77_wedge_shiab_southeast_completion_probe.py
 python3 process_gates/wedge_shiab_southeast_completion_audit.py
 ```
+
+## K77 action-adjoint and weight classification v0.174
+
+`channel-swings/selected_k77_action_adjoint_weight_classification_probe.py`
+classifies the complete four-scalar Spin-natural pairing family over two exact
+finite fields. It verifies the symmetric/anti-adjoint and skew/self-adjoint
+lines, nondegeneracy and Grassmann alternation on all 14 axes, then proves the
+local action gives no weight equation and that a pairing-preserving chiral
+isometry leaves only `p=w_+w_-` invariant. Wrong-sign and mistyped
+self-adjoint-plus-symmetric controls fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_action_adjoint_weight_classification_probe.py
+python3 process_gates/k77_action_adjoint_weight_classification_audit.py
+```

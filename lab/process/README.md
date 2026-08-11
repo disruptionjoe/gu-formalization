@@ -1602,3 +1602,5 @@ Runbooks:
   — two-sided hostile review with six material scope corrections.
 - `conditional-physics-ledger-v0.173.json` / `selected-k77-wedge-shiab-southeast-completion.json` — current ledger and exact real-K77 wedge-Shiab/nonzero-southeast completion packet; the principal Jordan obstruction is removed while weight, reality, domain and physics selection remain open.
 - `hostile-reviews/2026-08-11-selected-k77-wedge-shiab-southeast-completion-review.md` — three-charge review preserving the southeast-only and zero-fermion-quotient no-gos while rejecting a universal Jordan obstruction.
+- `conditional-physics-ledger-v0.174.json` / `selected-k77-action-adjoint-weight-classification.json` — complete local Spin-natural K77 pairing classification; both adjoint-parity lines give Grassmann alternation, while a chiral isometry reduces two weights to the single unselected invariant product `p=w_+w_-`.
+- `hostile-reviews/2026-08-11-selected-k77-action-adjoint-weight-classification-review.md` — hostile review correcting the self-adjoint-only criterion and fencing local bilinear existence from anti-linear reality and global domain claims.

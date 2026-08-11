@@ -2728,3 +2728,12 @@ parent scopes, residue, quotients, P1/P2/P3, canon and public posture.
 reciprocal relations, zero spatial Jordan ranks, the semisimple `960/960` null
 split, planted K95-sign failure, and explicit weight/reality/parent fences. It
 rejects any ledger-verdict, datum, quotient, canon or public-posture promotion.
+
+## K77 action-adjoint and weight classification ledger v0.174
+
+`k77_action_adjoint_weight_classification_audit.py` requires both exact
+nondegenerate pairing-parity lines, Grassmann alternation on all 14 axes over
+two finite fields, the zero-rank weight equation and the one-dimensional
+chiral-isometry invariant. It rejects promotion from a local real bilinear to
+an anti-linear reality involution, global closed domain, ledger verdict,
+datum, quotient, canon or public posture.

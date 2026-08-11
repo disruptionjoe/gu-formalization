@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.174 K77 action-adjoint/weight classification:** the complete
+> local four-scalar Spin-natural pairing family has a symmetric/anti-adjoint
+> line and a skew/self-adjoint line. Both give a nondegenerate alternating
+> Grassmann action coefficient on all 14 axes for arbitrary nonzero weights;
+> the v0.173 self-adjoint-only criterion was mistyped. A pairing-preserving
+> chiral isometry removes the weight ratio, leaving one invariant product
+> `p=w_+w_-`, but the local action supplies zero equations for it. Next test
+> `p` against the full nonlinear connection, Noether, normalization and
+> observation maps. Do not conflate this local real bilinear with an
+> anti-linear reality involution or a global closed domain, and keep selected
+> Spin, two `U(32,32)` halves and full `U(64,64)` distinct.
+
 > **Current v0.173 K77 wedge/southeast completion:** changing the Shiab middle
 > block, rather than adding only a southeast cell, removes the rank-128
 > principal Jordan defect. Exact real-K77 relations are `12 w+ ell- = 11` and

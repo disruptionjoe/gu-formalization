@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 REAL-K77 ACTION-ADJOINT/WEIGHT CLASSIFICATION (ledger
+> v0.174).** The local Grassmann action does not require the operator alone to
+> be self-adjoint. The complete Spin-natural pairing family has one
+> symmetric/anti-adjoint line and one skew/self-adjoint line; both make the
+> quadratic coefficient alternating on all 14 axes for arbitrary nonzero
+> chiral weights. A pairing-preserving chiral isometry removes the ratio and
+> leaves one invariant product `p=w_+w_-`; the local bilinear supplies no
+> equation selecting it. **Next test `p` against the full nonlinear
+> connection, Noether, normalization and observation maps. Then construct the
+> anti-linear reality involution and global Green/domain data. Keep selected
+> Spin, two `U(32,32)` halves and full `U(64,64)` distinct.**
+
 > **2026-08-11 REAL-K77 WEDGE-SHIAB/SOUTHEAST COMPLETION (ledger v0.173).**
 > The source-admitted operator family has now been constructed on real K77.
 > The K77 reciprocal relation has the opposite sign from K95 and removes the

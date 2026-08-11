@@ -416,3 +416,5 @@ identifications as separate grades.
     direct torsion cancels but a rank-three curvature/operator packet remains.
 - [`selected-k77-wedge-shiab-southeast-completion-source-return-2026-08-11.md`](selected-k77-wedge-shiab-southeast-completion-source-return-2026-08-11.md)
   - confirms the source-admitted wedge/contraction grammar and nonzero southeast rival; returns source-silent on the real-K77 `+11/12` relation, two chiral weights, reality adjoint and global domain.
+- [`selected-k77-action-adjoint-weight-classification-source-return-2026-08-11.md`](selected-k77-action-adjoint-weight-classification-source-return-2026-08-11.md)
+  - confirms the four independent barred/unbarred fields, opposite-half ordering and minus-star grammar; corrects the self-adjoint-only reconstruction to the Grassmann-alternation criterion and remains silent on the K77 pairing horn and invariant product selection.

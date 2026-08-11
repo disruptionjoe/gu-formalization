@@ -24,8 +24,21 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.173.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.173.md`.
+`lab/process/conditional-physics-ledger-v0.174.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.174.md`.
+
+Current K77 action-adjoint correction: the local Grassmann criterion is not
+"the operator is self-adjoint." The coefficient of the quadratic fermion
+action must be alternating. The complete four-scalar Spin-natural pairing
+family has exactly two nondegenerate projective solutions: a symmetric
+pairing with an anti-adjoint operator and a skew pairing with a self-adjoint
+operator. Both work on all 14 axes for arbitrary nonzero chiral weights, so
+the local action supplies zero weight equations. A pairing-preserving chiral
+isometry removes the weight ratio and leaves the single invariant product
+`p=w_+w_-`. Build next tests whether the full nonlinear connection, Noether,
+normalization or observation maps select `p`; anti-linear reality and the
+global Green/domain problem remain separate. Keep selected Spin, two
+`U(32,32)` halves and full `U(64,64)` distinct.
 
 Current K77 operator-completion correction: the source-admitted wedge-Shiab
 plus nonzero-southeast family has the real-K77 relations
