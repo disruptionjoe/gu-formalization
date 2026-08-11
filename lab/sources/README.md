@@ -7,6 +7,11 @@ updated_at: "2026-08-10"
 
 # Source and Media Index
 
+- [`selected-k77-boundary-bv-observation-cohomology-source-return-2026-08-11.md`](selected-k77-boundary-bv-observation-cohomology-source-return-2026-08-11.md)
+  records source support for the four-field covariance grammar and silence on
+  ordinary-gauge boundary BRST, observation basicness, `H640` selection and
+  physical `W`/mirror cohomology.
+
 - [`selected-k77-variable-incoming-projector-descent-source-return-2026-08-11.md`](selected-k77-variable-incoming-projector-descent-source-return-2026-08-11.md)
   records source support for the first-order four-field/covariance grammar and
   silence on the action-derived incoming projector family, boundary-member

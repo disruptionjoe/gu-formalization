@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.181 K77 boundary BRST / common action closure:** ordinary-gauge
+> BRST preserves the action-derived incoming relation and associated-bundle
+> observation descent is exact. `W`, its mirror and their union are not
+> invariant boundary subcomplexes; do not compute restricted physical
+> cohomology on them. Each supplied seed generates the same conditional
+> `H640`, with one-form/zero-form projection ranks `512+128`. Control this
+> against random rank-192 seeds, the old one-form 640 and 832 before deciding
+> whether full BV/Koszul–Tate belongs on `H640` or rank 1,920. `H640` is not
+> source-selected. Selected Spin, the two `U(32,32)` halves and full
+> `U(64,64)` remain distinct; P1/P2/P3 are unused.
+
 > **Current v0.180 K77 variable incoming projector:** the action principal
 > coefficients derive `Pi_in(n)=(I-D_t^-1 D_n)/2`, rank 960 inside the full
 > conditional rank-1,920 carrier. The family descends across moving frames,

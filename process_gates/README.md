@@ -2790,3 +2790,13 @@ transport, negative flux, both transported doubled-Majorana horns, and the
 boundary-geometry member-selection fence. It rejects global-in-time,
 constraint/BV, physical-cohomology, horn/`p`, datum, residue, quotient, canon
 or posture promotion.
+
+## K77 boundary BRST / observation / carrier closure ledger v0.181
+
+`k77_boundary_bv_observation_cohomology_audit.py` requires local
+ordinary-gauge BRST covariance of the moving incoming relation, three-patch
+observation naturality, two-prime full-carrier non-invariance of `W`, mirror
+and their union, and the shared conditional `H640=512+128` action closure. It
+requires the old-one-form-640 and source-selection fences and rejects full
+BV/Koszul–Tate, global analytic, null BFV, index/count, datum, residue,
+quotient, canon or posture promotion.

@@ -9,6 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.181 closes local ordinary-gauge BRST covariance and observation-frame
+naturality, but rejects direct `W`-versus-mirror restricted cohomology: neither
+seed nor their union is invariant under the boundary dynamics. All three seeds
+generate the same conditional `H640=512+128` spatial-action closure. Rank one
+is the cheap discriminator against random rank-192 seeds, the old one-form 640
+and 832. Full BV/Koszul–Tate follows on `H640` or rank 1,920 as those controls
+decide. Do not identify the two rank-640 objects or call `H640` source-selected.
+
 Ledger v0.180 closes the independent-projector gap on the noncharacteristic
 observed branch. The action derives the full variable rank-960 incoming
 projector family from `D_t,D_n`; boundary geometry selects a member. Moving

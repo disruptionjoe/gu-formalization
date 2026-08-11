@@ -3047,3 +3047,18 @@ unnormalized conormal and both one-sided wrong objects (`63/63 PASS`).
 sage -python tests/channel-swings/selected_k77_variable_incoming_projector_descent_probe.py
 python3 process_gates/k77_variable_incoming_projector_descent_audit.py
 ```
+
+## K77 boundary BRST / observation / carrier closure v0.181
+
+`channel-swings/selected_k77_boundary_bv_observation_cohomology_probe.py`
+composes exact ordinary-gauge BRST with the moving incoming relation and
+three-patch associated-bundle observation descent. On the full rank-1,920
+carrier over two finite fields it proves that `W`, mirror and their union are
+not invariant boundary subcomplexes, while all three seeds generate the same
+conditional `H640=512+128` spatial-action hull. Four plants reject frozen
+projectors, wrong ghost transport and false complete-Pin boundary symmetry.
+
+```sh
+sage -python tests/channel-swings/selected_k77_boundary_bv_observation_cohomology_probe.py
+python3 process_gates/k77_boundary_bv_observation_cohomology_audit.py
+```

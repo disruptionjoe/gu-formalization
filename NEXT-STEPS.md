@@ -7,6 +7,16 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 BOUNDARY BRST / COMMON ACTION CLOSURE (ledger v0.181).**
+> Ordinary-gauge BRST preserves the action-derived incoming relation and
+> descends across observation frames. Exact full-carrier tests show that `W`,
+> its mirror and their union are not invariant boundary subcomplexes, so
+> restricted physical cohomology is mistyped. All three supplied seeds instead
+> generate the same conditional `H640=512+128` spatial-action closure. **Next
+> control `H640` against random rank-192 seeds, the old one-form 640 and 832;
+> then derive full BV/Koszul–Tate on `H640` or rank 1,920 as those controls
+> decide. Keep global analytic, null BFV, horn/`p`, index and count separate.**
+
 > **2026-08-11 K77 VARIABLE INCOMING-PROJECTOR DESCENT (ledger v0.180).**
 > The selected action's principal coefficient pair derives the full moving
 > incoming projector family `Pi_in(n)=(I-D_t^-1 D_n)/2`. It has rank 960,

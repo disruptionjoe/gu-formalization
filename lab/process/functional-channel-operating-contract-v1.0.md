@@ -24,8 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.180.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.180.md`.
+`lab/process/conditional-physics-ledger-v0.181.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.181.md`.
+
+Current boundary/BV typing result: ordinary-gauge BRST preserves the moving
+incoming relation and associated-bundle observation-frame naturality closes.
+`W`, mirror and their union are not invariant boundary subcomplexes, so their
+restricted physical cohomology is not yet a valid target. All three supplied
+seeds generate the same conditional `H640=512+128` spatial-action closure.
+Build next controls `H640` against random rank-192 seeds, the old one-form 640
+and 832, then derives full BV/Koszul–Tate on `H640` or rank 1,920 as those
+controls decide. Do not call `H640` source-selected or identify it with the old
+640 by dimension.
 
 Current variable-projector result: the selected action's principal
 coefficients derive the moving incoming family

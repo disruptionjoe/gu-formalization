@@ -7,13 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.180. The selected action's
-principal coefficients derive the moving rank-960 incoming projector family.
-Associated-bundle descent, connection naturality, negative transported flux
-and both doubled-Majorana Green identities are exact. Boundary geometry
-selects a member. Constraint/BV invariance, physical mirror cohomology,
+Current append-only progress surface: ledger v0.181. Ordinary-gauge BRST
+preserves the moving incoming relation and descends across observation frames.
+`W`, mirror and their union are not invariant boundary subcomplexes; all three
+supplied seeds generate the same conditional `H640=512+128` spatial-action
+closure. Carrier controls, source selection, full BV/Koszul–Tate,
 global-in-time, ambient/null and horn/`p` burdens remain open. Registry:
-`selected-k77-variable-incoming-projector-descent.json`.
+`selected-k77-boundary-bv-observation-cohomology.json`.
+
+Predecessor v0.180 derives the moving rank-960 incoming projector family from
+the action coefficients and transports both doubled-Majorana Green identities.
 
 Predecessor v0.179 composes the exact incoming energy half with both complete
 Majorana pairing horns and corrects the one-sided independent-dual no-go.

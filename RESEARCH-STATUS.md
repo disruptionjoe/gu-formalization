@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.181; six
+distance/evidence migrations; headline unchanged).** Local ordinary-gauge
+BRST preserves the moving incoming relation and descends across three
+observation frames. On the full rank-1,920 conditional K77 carrier, `W`, its
+mirror and their union all leak by rank 128 and are not invariant boundary
+subcomplexes. Each nevertheless generates the same conditional rank-640
+spatial-action hull with `512+128` projection ranks. This `H640` is not
+source-selected and is not the old one-form 640 by dimension alone. The next
+gate is to compare it with random rank-192 seeds, the old 640 and 832, then build full
+BV/Koszul–Tate on the carrier those controls support. No verdict, residue,
+quotient, canon or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.180; six
 distance/evidence migrations; headline unchanged).** The completed K77 action
 principal pair derives the variable incoming projector family
