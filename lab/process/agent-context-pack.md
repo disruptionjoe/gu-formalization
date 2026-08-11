@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.172 polarized-radical BFV ownership gate:** on the zero-
+> fermion selected real-K77 branch, `im Nsharp` is not the existing ordinary-
+> gauge, small-gauge or edge characteristic image. Fermion gauge trace and
+> small-gauge tangential boundary trace are zero, moving cross terms vanish,
+> and the owned edge quotient leaves an observed dimension-256 fermion
+> radical. Stop the zero-fermion restriction route. Next construct the source-
+> admitted wedge-Shiab/nonzero-southeast operator completion and recompute its
+> symbol, Green adjoint and action domain. Keep nonzero-fermion BV separate.
+
 > **Current v0.171 polarized Green-dual gate:** v0.170 `ker N` survives only
 > as one-sided flat principal evolution data. With the actual normal Green
 > coefficient, `ker Nsharp x ker N` has rank-128 radicals. The perfect

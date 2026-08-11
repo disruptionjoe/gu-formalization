@@ -7,13 +7,19 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.171. The v0.170 one-sided
-`ker N` evolution ingredient survives, but its unique Green-adjoint
-dual-kernel action domain has rank-128 radicals. The perfect algebraic dual
-`Vbar/im Nsharp` is unowned and naive observation does not descend because it
-has rank 128 on the quotient directions. The next gate compares that radical
-with action-owned characteristic/BFV images and the full moving preboundary
-form before any quotient or modified-observation promotion. Registry:
+Current append-only progress surface: ledger v0.172. On the zero-fermion
+selected real-K77 branch, the v0.171 `im Nsharp` radical is not the existing
+ordinary-gauge, small-gauge or edge characteristic image. Fermion gauge trace
+is zero, moving cross terms vanish, and quotienting the owned edge gauge
+kernel leaves the exact observed 256-dimensional fermion radical. The
+zero-fermion restriction route stops; the source-admitted operator completion
+is next, with nonzero-fermion coupled BV kept separate. Registry:
+`selected-k77-polarized-radical-bfv-ownership-gate.json`.
+
+Predecessor v0.171. The v0.170 one-sided `ker N` evolution ingredient
+survives, but its unique Green-adjoint dual-kernel action domain has rank-128
+radicals. The perfect algebraic dual `Vbar/im Nsharp` is unowned and naive
+observation does not descend. Registry:
 `selected-k77-polarized-green-dual-gate.json`.
 
 Predecessor v0.170. Craig--Weinstein scalar

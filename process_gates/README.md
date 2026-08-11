@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `polarized_radical_bfv_ownership_gate_audit.py` enforces ledger v0.172's
+  zero-fermion carrier comparison, vanishing gauge/mixed terms, surviving
+  observed dimension-256 fermion radical after the owned edge quotient,
+  operator-completion successor and unchanged accounting.
+
 - `polarized_green_dual_gate_audit.py` enforces ledger v0.171's one-sided
   survival, exact rank-128 direct Green radicals, unowned perfect barred
   quotient, failed naive observation descent, scoped successor and unchanged

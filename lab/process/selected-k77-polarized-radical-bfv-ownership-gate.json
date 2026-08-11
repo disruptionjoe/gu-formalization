@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "work_item": "SELECTED_K77_POLARIZED_RADICAL_BFV_OWNERSHIP_GATE",
+  "run_id": "RUN-20260811-111511-gu-k77-polarized-radical-bfv-ownership",
+  "status": "ZERO_FERMION_RESTRICTION_ROUTE_STOPS__OPERATOR_COMPLETION_RISES",
+  "branch": "ZERO_FERMION_SELECTED_REAL_K77_CONDITIONAL",
+  "layer0": {
+    "green_radical": "frequency-dependent im Nsharp inside pure barred rank-1920 trace carrier",
+    "small_gauge": "action-owned total-field ordinary-gauge orbit with boundary-vanishing parameter",
+    "unrestricted_boundary_symmetry": "charged Hamiltonian symmetry before edge completion",
+    "edge_characteristic": "bosonic/connection plus edge orbit after completion",
+    "not_equal": "propagation characteristic, charged symmetry and presymplectic characteristic are not synonyms"
+  },
+  "green_radical": {
+    "im_Nsharp_rank": 128,
+    "pure_barred_carrier_dimension": 1920,
+    "observed_rank_each_strict_center_sample": 128,
+    "direct_independent_dual_radical_dimension": 256
+  },
+  "ordinary_gauge": {
+    "zero_fermion_pure_barred_trace_rank": 0,
+    "small_gauge_complete_tangential_boundary_trace_rank": 0,
+    "equals_im_Nsharp": false,
+    "unrestricted_boundary_before_edge": "CHARGED_BY_LIVE_MOMENT_MAP"
+  },
+  "moving_preboundary": {
+    "generic_mixed_terms": "LIVE",
+    "zero_fermion_mixed_terms": "ZERO",
+    "lifts_polarized_fermion_radical_at_zero_fermion": false
+  },
+  "existing_edge_completion": {
+    "extended_dimension": 60,
+    "form_rank": 40,
+    "owned_gauge_kernel_dimension": 20,
+    "fermionic_edge_carrier": false,
+    "post_gauge_quotient_residual_fermion_kernel_dimension": 256,
+    "owns_im_Nsharp": false
+  },
+  "checks": {
+    "total": 51,
+    "failures": 0,
+    "accounting": 1,
+    "adverse": 5,
+    "boundary": 2,
+    "contrary": 1,
+    "edge": 1,
+    "exact": 7,
+    "hostile": 3,
+    "layer0": 5,
+    "observation": 4,
+    "planted": 5,
+    "prior_art": 5,
+    "regression": 1,
+    "scope": 2,
+    "selection": 1,
+    "source": 2,
+    "symplectic": 2,
+    "type": 3,
+    "variational": 1
+  },
+  "open": {
+    "nonzero_fermion_full_coupled_characteristic_comparison": true,
+    "modified_basic_observation": true,
+    "global_analytic_bv_calderon_domain": true,
+    "nonlinear_constraint_propagation": true,
+    "source_admitted_operator_completion": true
+  },
+  "source_return": "SOURCE_CONFIRMS_INDEPENDENT_BARRED_AND_UNBARRED_FIELDS_AND_ORDINARY_COVARIANCE_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_NSHARP_GAUGE_BV_IDENTIFICATION_FERMION_EDGE_FIELD_AND_MODIFIED_OBSERVATION",
+  "hostile_verdict": "SCOPED_ADVERSE__EXISTING_SMALL_GAUGE_AND_EDGE_CHARACTERISTIC_IMAGES_DO_NOT_MATCH_IM_NSHARP_ON_THE_ZERO_FERMION_BRANCH__MOVING_CROSS_TERMS_VANISH_AND_THE_OWNED_EDGE_QUOTIENT_LEAVES_AN_OBSERVED_DIM256_FERMION_RADICAL__NONZERO_FERMION_AND_OPERATOR_CHANGING_ROUTES_SURVIVE",
+  "accounting": {
+    "P1_P2_P3": "UNCHANGED_UNUSED",
+    "verdict_change": false,
+    "residue_change": false,
+    "quotient_change": false,
+    "canon_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "CONSTRUCT_THE_SOURCE_ADMITTED_REAL_K77_WEDGE_SHIAB_NONZERO_SOUTHEAST_OPERATOR_COMPLETION__RECOMPUTE_ITS_SEMISIMPLICITY_CHARACTERISTIC_KERNEL_GREEN_ADJOINT_AND_SELECTED_ACTION_COMPATIBILITY__KEEP_THE_NONZERO_FERMION_COUPLED_BV_BRANCH_SEPARATE",
+  "probe": "tests/channel-swings/selected_k77_polarized_radical_bfv_ownership_gate_probe.py"
+}

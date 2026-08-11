@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.172; six
+distance/evidence migrations; headline unchanged).** Exact composition proves
+that the v0.171 rank-128 Green radical is not the existing action-owned
+ordinary-gauge or minimal-edge characteristic image on the zero-fermion
+selected real-K77 branch. The pure fermion gauge trace and small-gauge
+tangential boundary trace have rank zero, the moving boson--fermion cross
+terms vanish at that base point, and quotienting the owned rank-20 edge gauge
+kernel leaves the exact observed 256-dimensional fermion radical. The
+zero-fermion restriction route therefore stops; the source-admitted
+wedge-Shiab/nonzero-southeast operator completion rises to rank one. The
+nonzero-fermion coupled BV route remains open and separate. Source return:
+`SOURCE_CONFIRMS_INDEPENDENT_BARRED_AND_UNBARRED_FIELDS_AND_ORDINARY_COVARIANCE_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_NSHARP_GAUGE_BV_IDENTIFICATION_FERMION_EDGE_FIELD_AND_MODIFIED_OBSERVATION`.
+No datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change
+is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.171; six
 distance/evidence migrations; headline unchanged).** The v0.170
 strict-center `ker N` restriction remains a one-sided flat principal evolution

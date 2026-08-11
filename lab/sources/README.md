@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-polarized-radical-bfv-ownership-gate-source-return-2026-08-11.md`](selected-k77-polarized-radical-bfv-ownership-gate-source-return-2026-08-11.md)
+  records source ownership of the independent-field/covariance grammar and
+  silence on identifying `im Nsharp` with gauge/BV, adding a fermion edge
+  field, or modifying observation.
+
 - [`selected-k77-polarized-green-dual-gate-source-return-2026-08-11.md`](selected-k77-polarized-green-dual-gate-source-return-2026-08-11.md)
   records source ownership of independent barred/unbarred fermion variations
   and source silence on `Nsharp`, the algebraic/BV quotient, modified

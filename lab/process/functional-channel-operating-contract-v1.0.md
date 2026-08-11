@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.171.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.171.md`.
+`lab/process/conditional-physics-ledger-v0.172.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.172.md`.
+
+Current radical-ownership correction: on the zero-fermion selected real-K77
+branch, the v0.171 `im Nsharp` radical is not the existing ordinary-gauge,
+small-gauge or edge characteristic image. The fermion gauge trace is zero,
+the moving cross terms vanish, and the owned edge quotient leaves the exact
+observed 256-dimensional fermion radical. Build stops this restriction route
+and advances the source-admitted wedge-Shiab/nonzero-southeast operator
+completion. Nonzero-fermion coupled BV remains a separate route; no ghost
+lift, fermion edge field or modified observation may be supplied.
 
 Current Green-dual correction: v0.170 `ker N` remains a one-sided flat
 principal evolution ingredient, but its unique Green-adjoint dual-kernel

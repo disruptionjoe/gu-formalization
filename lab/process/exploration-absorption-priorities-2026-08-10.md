@@ -9,6 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.172 closes the cheap ownership comparison adversely. The existing
+ordinary-gauge, small-gauge and minimal-edge characteristic images do not own
+`im Nsharp` on the zero-fermion selected real-K77 branch. Moving mixed terms
+vanish there, and the owned edge quotient leaves the exact observed
+256-dimensional fermion radical. Stop the zero-fermion restriction route and
+shift Build to the source-admitted wedge-Shiab/nonzero-southeast operator
+completion. Keep nonzero-fermion coupled BV separate; do not fit a frequency-
+dependent ghost lift, fermion edge field or modified observation.
+
 Ledger v0.171 closes the first action-level test of v0.170 adversely. The
 one-sided `ker N` evolution restriction survives, but its direct Green dual
 has rank-128 radicals and its perfect algebraic barred quotient is neither

@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 POLARIZED-RADICAL BFV OWNERSHIP GATE (ledger v0.172).** The
+> v0.171 rank-`128` Green radical is not the existing action-owned gauge/BFV
+> image on the zero-fermion selected real-K77 branch. Ordinary gauge has zero
+> pure-fermion trace there, small gauge has zero tangential boundary trace,
+> the moving boson--fermion cross terms vanish, and quotienting the owned
+> rank-`20` edge gauge kernel leaves the exact observed rank-`256` fermion
+> radical. The zero-fermion restriction route therefore stops. **Next build
+> the source-admitted real-K77 wedge-Shiab/nonzero-southeast operator
+> completion and recompute its semisimplicity, characteristic kernel, Green
+> adjoint and selected-action compatibility. Keep the nonzero-fermion coupled
+> BV branch separate; do not fit a ghost lift, fermion edge field or modified
+> observation.**
+
 > **2026-08-11 POLARIZED K77 GREEN-DUAL GATE (ledger v0.171).** The
 > v0.170 strict-center `ker N` restriction survives as one-sided flat
 > principal evolution data, but direct promotion to an action domain fails.
