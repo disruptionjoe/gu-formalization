@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.183 K77 H640 observation graph / BV typing:** `H640` is not
+> the coordinate observed `Omega^1(X,S) + Omega^0(X,S)` carrier. Their exact
+> ranks are 640 and 640, intersection 512 and join 768. Observation restricts
+> isomorphically to `H640`, yielding a unique rank-128 graph lift with exact
+> principal no-leakage. Complete moving-frame transport closes, but individual
+> lower-order graph witnesses leak rank 128 and a mixed gauge-frame witness
+> leaks rank 256. Next solve or kill the complete sixteen-cell lower-order
+> graph/Riccati and barred-adjoint system with the full rank-1,920 carrier as
+> control, then build observed BV/Koszul--Tate and the equation dual. The graph
+> is not yet physical cohomology or a closed analytic domain; P1/P2/P3 remain
+> unused.
+
 > **Current v0.182 K77 zero-seed action module:** the source-owned
 > `Omega^0(S)` spinor alone generates exact conditional `H640=512+128` under
 > the complete three-generator spatial principal-action algebra; the central

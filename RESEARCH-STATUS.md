@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.183; six
+distance/evidence migrations; headline unchanged).** The exact conditional
+`H640` is a rank-128 action-derived graph over, not equal to, the coordinate
+observed rank-640 carrier. Observation restricts isomorphically and all three
+principal spatial generators intertwine without leakage. Complete frame
+transport closes, while individual lower-order graph tests leak by rank 128
+and the mixed gauge-frame witness leaks by rank 256. The barred/unbarred graph
+field carrier has rank 1,280, its formal non-ghost field-antifield extension
+rank 2,560, and the restricted K77 pairing is nondegenerate. The complete
+sixteen-cell lower-order graph/Riccati, barred adjoint, BV/Koszul--Tate,
+global observation/domain and physical cohomology remain open. No verdict,
+residue, quotient, canon or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.182; six
 distance/evidence migrations; headline unchanged).** The source-owned
 zero-form spinor alone generates the exact conditional principal-action

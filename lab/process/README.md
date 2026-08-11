@@ -7,13 +7,19 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.181. Ordinary-gauge BRST
-preserves the moving incoming relation and descends across observation frames.
-`W`, mirror and their union are not invariant boundary subcomplexes; all three
-supplied seeds generate the same conditional `H640=512+128` spatial-action
-closure. Carrier controls, source selection, full BV/Koszul–Tate,
-global-in-time, ambient/null and horn/`p` burdens remain open. Registry:
-`selected-k77-boundary-bv-observation-cohomology.json`.
+Current append-only progress surface: ledger v0.183. The exact conditional
+H640 is an action-derived rank-128 graph over, not equal to, the coordinate
+observed rank-640 carrier. Observation restricts isomorphically and principal
+no-leakage is exact; finite lower-order witnesses leak, so the complete
+sixteen-cell graph/Riccati and barred-adjoint gate precedes observed BV/KT.
+Registry: `selected-k77-h640-observation-pullback-bv-typing.json`.
+
+Predecessor v0.182 proves that the source zero-form alone generates the exact
+conditional H640 and controls it against W, mirror, random 192-planes and the
+old 640/832 carriers.
+
+Predecessor v0.181 establishes ordinary-gauge BRST and observation-frame
+descent while rejecting restricted W/mirror boundary cohomology.
 
 Predecessor v0.180 derives the moving rank-960 incoming projector family from
 the action coefficients and transports both doubled-Majorana Green identities.
@@ -1629,3 +1635,5 @@ Runbooks:
 - `hostile-reviews/2026-08-11-selected-k77-majorana-reality-graded-domain-scope-review.md` — hostile review preserving local reality while rejecting promotion of the even symmetric-graph theorem to a graded physical domain.
 - `conditional-physics-ledger-v0.182.json` / `selected-k77-zero-seed-h640-action-closure-controls.json` — the source-owned zero-form field alone generates exact conditional `H640=512+128`; random rank-192 controls generate `1908..1920`, while the old 640 and 832 generate distinct H1280 superspaces meeting in H640 and spanning the full carrier.
 - `hostile-reviews/2026-08-11-selected-k77-zero-seed-h640-action-closure-controls-review.md` — three-charge review fencing the minimal principal-action module from source selection, barred/antifield BV cohomology, BFV reduction and global analytic physics.
+- `conditional-physics-ledger-v0.183.json` / `selected-k77-h640-observation-pullback-bv-typing.json` — exact observation-graph packet: H640 and the coordinate observed carrier are distinct rank-640 spaces, but observation derives an isomorphic rank-128 graph lift with principal no-leakage; finite lower-order leakage keeps full graph/Riccati and BV/KT open.
+- `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.

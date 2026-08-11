@@ -7,6 +7,18 @@ updated_at: "2026-08-11"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 H640 OBSERVATION GRAPH / BV TYPING (ledger v0.183).**
+> `H640` is not the coordinate `Omega^1(X,S) + Omega^0(X,S)` carrier: the
+> two rank-640 spaces intersect in rank 512 and span rank 768. Observation
+> nevertheless restricts isomorphically to `H640`, deriving a unique rank-128
+> graph lift with exact no-leakage for all three principal spatial generators.
+> Individual lower-order and mixed gauge-frame witnesses leak by ranks 128
+> and 256. **Next solve or kill the complete sixteen-cell lower-order
+> graph/Riccati and barred-adjoint conditions with rank 1,920 as the mandatory
+> control; only then build observed BV/Koszul--Tate, equation-dual and physical
+> cohomology.** Do not identify an isomorphic graph with the coordinate
+> carrier, or infer a closed analytic domain, index, count or external datum.
+
 > **2026-08-11 K77 ZERO-SEED H640 ACTION MODULE (ledger v0.182).** The
 > source-owned `Omega^0(S)` field alone generates exact conditional
 > `H640=512+128` under the complete spatial principal-action algebra; the

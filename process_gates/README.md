@@ -2808,3 +2808,14 @@ zero-seed `H640=512+128`, two-prime W/mirror/random/640/832 controls, and the
 distinct-H1280 intersection/sum relation. It rejects promotion from a minimal
 principal-action module to source selection, full BV/Koszul--Tate cohomology,
 BFV reduction, global domain, datum, residue, quotient, canon or posture.
+
+## K77 H640 observation graph / BV typing ledger v0.183
+
+`k77_h640_observation_pullback_bv_typing_audit.py` requires the exact
+rank-640-versus-rank-640 Layer-0 distinction, rank-512 intersection, rank-768
+join, rank-128 graph correction, observation isomorphism and principal
+no-leakage. It records finite lower-order rank-128/rank-256 leakage, the
+rank-1,280 barred/unbarred graph carrier, rank-2,560 formal non-ghost BV
+carrier and rank-640 restricted K77 pairing. It rejects complete lower-order
+graph/Riccati, BV/KT, global domain, physical cohomology, datum, residue,
+quotient, canon or posture promotion.

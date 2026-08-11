@@ -24,8 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.182.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.182.md`.
+`lab/process/conditional-physics-ledger-v0.183.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.183.md`.
+
+Current observation-graph/BV-typing result: `H640` is not the coordinate
+observed carrier; the two rank-640 spaces intersect in rank 512 and join in
+rank 768. Observation restricts isomorphically to `H640`, deriving a rank-128
+graph lift on which all three principal spatial generators have exact
+no-leakage. Individual lower-order witnesses leak rank 128 and a mixed
+gauge-frame witness leaks rank 256. Build next solves or kills the complete
+sixteen-cell lower-order graph/Riccati and barred-adjoint system with rank
+1,920 as control, before observed BV/Koszul--Tate, equation dual or physical
+cohomology. Isomorphism is not equality, and principal graph closure is not a
+closed analytic domain.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial

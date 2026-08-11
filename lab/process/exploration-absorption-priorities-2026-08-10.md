@@ -9,6 +9,17 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.183 corrects the carrier/observation object before BV construction.
+The exact conditional H640 is not the coordinate observed rank-640 carrier;
+it is a rank-128 action-derived graph over it. Observation restricts
+isomorphically and all three principal generators intertwine without leakage,
+but individual lower-order cells leak rank 128 and a mixed gauge-frame cell
+leaks rank 256. Rank one is therefore the complete sixteen-cell lower-order
+graph/Riccati plus barred-adjoint system, with the full rank-1,920 carrier as
+mandatory control. Observed BV/Koszul--Tate and equation-dual construction
+follow only if that system closes. Do not replace equality by isomorphism or
+promote principal closure to physical cohomology.
+
 Ledger v0.182 closes the queued H640 control. The source-owned zero-form
 spinor alone generates exact conditional `H640=512+128`; `W` and mirror are
 unnecessary seeds at principal grade. Random rank-192 planes generate

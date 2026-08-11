@@ -3075,3 +3075,17 @@ exact primes, including the equal-rank-not-equal-module negative control.
 sage -python tests/channel-swings/selected_k77_zero_seed_h640_action_closure_controls_probe.py
 python3 process_gates/k77_zero_seed_h640_action_closure_controls_audit.py
 ```
+
+## K77 H640 observation graph / BV typing v0.183
+
+`channel-swings/selected_k77_h640_observation_pullback_bv_typing_probe.py`
+proves over `QQ` that H640 is not the coordinate observed carrier but is an
+exact rank-128 graph over it, with observation isomorphism and three-generator
+principal no-leakage. Two finite primes verify the complete coordinate-frame
+transport class and expose rank-128 lower-order and rank-256 mixed
+gauge-frame leakage before full BV/Koszul--Tate.
+
+```sh
+sage -python tests/channel-swings/selected_k77_h640_observation_pullback_bv_typing_probe.py
+python3 process_gates/k77_h640_observation_pullback_bv_typing_audit.py
+```
