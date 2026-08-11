@@ -1,0 +1,74 @@
+{
+  "artifact_type": "construction_result",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-033947-gu-k77-coupled-green-domain",
+  "ledger_version": "0.165",
+  "grade": "EXACT_FINITE_SYMPLECTIC_VARIATIONAL_COMPARATOR_AND_FULL_CARRIER_DIMENSION_THEOREM",
+  "boundary_form": {
+    "variables": ["q", "p", "psi", "bar_psi"],
+    "potential": "p delta_q + 1/2 (bar_psi A(q) delta_psi - delta_bar_psi A(q) psi)",
+    "antisymmetric": true,
+    "nondegenerate_in_exact_fixture": true,
+    "moving_normal_cross_terms_live": true,
+    "frozen_normal_plant_fires": true
+  },
+  "boundary_dimensions": {
+    "bosonic_position_rank": 10,
+    "fermion_unbarred_rank": 1920,
+    "fermion_barred_rank": 1920,
+    "total": 3860,
+    "lagrangian": 1930
+  },
+  "domain_family": {
+    "relation": "delta_bar_psi = (T tensor K) delta_psi with T symmetric invertible",
+    "bosonic_relation": "delta_q = 0 with delta_p free",
+    "distinct_exact_witnesses": 2,
+    "lagrangian": true,
+    "ordinary_gauge_invariant": true,
+    "small_gauge_basic": true,
+    "unrestricted_boundary_moment_map": "LIVE",
+    "minimum_symmetric_multiplicity_coordinates": 120,
+    "coordinate_status": "LOWER_BOUND_INSIDE_TESTED_SEPARABLE_FAMILY__NOT_BOOKED_AS_RESIDUE",
+    "unique_selection": false
+  },
+  "reality": {
+    "fixed_coefficient_fermion_involution": "ANTI_SYMPLECTIC_AND_FIXES_GRAPH",
+    "naive_total_extension": "REJECTED_BY_MOVING_NORMAL_MIXED_TERMS",
+    "physical_k77_antilinear_reality": "OPEN",
+    "calderon_or_maximal_dissipative_domain": "OPEN"
+  },
+  "prior_art_composition": {
+    "selected_k77_bosonic_action": "endpoint pair and unrestricted boundary moment map already exact",
+    "B2C9": "independent-dual unsymmetrized comparator; total symmetrized form explicitly open",
+    "B2C5": "K95 common energy/Green domain does not port to K77",
+    "v0.164": "local ordinary-gauge BRST closes and gauge covariance selects no rank-384 carrier",
+    "new_work": "total symplectic composition, conditional Lagrangian graph theorem, non-uniqueness and naive moving-reality obstruction"
+  },
+  "checks": {
+    "total": 47,
+    "failures": 0,
+    "accounting": 1,
+    "analytic": 2,
+    "datum": 1,
+    "exact": 7,
+    "gauge": 5,
+    "graded": 1,
+    "layer0": 6,
+    "planted": 3,
+    "prior_art": 4,
+    "reality": 4,
+    "scope": 3,
+    "selection": 2,
+    "source": 2,
+    "symplectic": 2,
+    "theorem": 3,
+    "variational": 1
+  },
+  "source_return": "SOURCE_CONFIRMS_FOUR_INDEPENDENT_FIELDS_AND_DISPLAYED_BILINEAR_PAIRING_ARENA__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_SYMMETRIZED_TOTAL_BOUNDARY_FORM_MOVING_ANTILINEAR_K77_REALITY_UNIQUE_DOMAIN_CALDERON_AND_BFV_EDGE_COMPLETION",
+  "disposition": "SYMMETRIZED_TOTAL_PREBOUNDARY_FORM_EXACT__FULL_CARRIER_SMALL_GAUGE_BASIC_LAGRANGIAN_GRAPHS_EXIST_CONDITIONALLY__FIXED_FERMION_REALITY_VALID__NAIVE_MOVING_TOTAL_REALITY_REJECTED__AT_LEAST_120_GRAPH_COORDINATES_UNSELECTED__ACTUAL_K77_ANTILINEAR_CALDERON_DOMAIN_NEXT",
+  "next_gate": "CONSTRUCT_THE_ACTUAL_K77_ANTILINEAR_REALITY_ANTI_DUALIZER_AND_TOTAL_CALDERON_OR_MAXIMAL_DISSIPATIVE_PROJECTOR_FROM_THE_SELECTED_ACTION__TEST_GLOBAL_DESCENT_AND_UNRESTRICTED_BFV_EDGE_COMPLETION__DO_NOT_SUPPLY_A_120_FUNCTION_GRAPH",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "p1_p2_p3_change": "none"
+}

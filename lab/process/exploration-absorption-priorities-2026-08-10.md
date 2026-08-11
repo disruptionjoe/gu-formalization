@@ -9,6 +9,17 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.165 closes the algebraic symmetrized total preboundary form and
+proves conditional full-carrier small-gauge-basic Lagrangian graph existence.
+It also exposes two selection boundaries: the smallest tested symmetric graph
+family has at least 120 coordinates, and the naive extension of the valid
+fixed-normal fermion reality fails on moving-normal mixed terms. Do not supply
+that graph as external data and do not port the K95 domain. The highest-
+information Build is the actual action-owned moving anti-linear K77
+anti-dualizer plus Calderon or maximal-dissipative projector, followed by
+global descent and unrestricted BFV edge completion. Observation, chirality,
+mirror and index/count remain downstream of the common physical domain.
+
 Ledger v0.164 closes the local full-field ordinary-gauge Noether/BRST
 obligation and kills ordinary gauge covariance as a unique rank-384 carrier
 selector. The action is `I_15 tensor rho`, leaving at least `Gr(3,15)` of

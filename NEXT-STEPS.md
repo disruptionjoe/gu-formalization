@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 COUPLED GREEN/DOMAIN GATE (ledger v0.165).** The selected
+> action's exact algebraic boson-plus-four-independent-fermion symmetrized
+> preboundary form is now nondegenerate and includes the live moving-normal
+> mixed terms. Full-carrier small-gauge-basic Lagrangian trace graphs exist
+> conditionally, but the smallest tested symmetric multiplicity family leaves
+> at least 120 coordinates and selects no member. The fixed-normal fermion
+> reality is anti-symplectic; its naive total moving extension fails on those
+> mixed terms. **Next derive the actual moving anti-linear K77 reality and its
+> total Calderon or maximal-dissipative projector from the selected action,
+> then test global descent and unrestricted BFV edge completion. Do not supply
+> a 120-function graph.** Observation, chirality, mirror, index/count and the
+> physics rendezvous remain downstream. No headline, residue, datum, canon or
+> public-posture change is made.
+
 > **2026-08-11 COUPLED ORDINARY-GAUGE NOETHER/BV GATE (ledger v0.164).** The
 > source-typed local ordinary-gauge differential now closes exactly on
 > `varpi`, all four independent fermion fields, all four operator blocks and

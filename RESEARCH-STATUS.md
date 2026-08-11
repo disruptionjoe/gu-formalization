@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.165; six
+distance/evidence migrations; headline unchanged).** The selected action's
+exact algebraic boson-plus-four-fermion symmetrized preboundary form is
+nondegenerate and contains the moving-normal cross terms. Full-carrier
+small-gauge-basic Lagrangian graphs exist conditionally, but even the smallest
+tested separable symmetric family leaves at least 120 coordinates and selects
+none. The fixed-normal fermion reality is anti-symplectic; its naive moving
+total extension is rejected. Next construct the actual action-owned moving
+anti-linear K77 reality and total Calderon/maximal-dissipative domain, then
+test global descent and unrestricted BFV edge completion. Source return:
+`SOURCE_CONFIRMS_FOUR_INDEPENDENT_FIELDS_AND_DISPLAYED_BILINEAR_PAIRING_ARENA__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_SYMMETRIZED_TOTAL_BOUNDARY_FORM_MOVING_ANTILINEAR_K77_REALITY_UNIQUE_DOMAIN_CALDERON_AND_BFV_EDGE_COMPLETION`.
+No physical cohomology, datum, P1/P2/P3, verdict, residue, quotient, canon or
+public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.164; six
 distance/evidence migrations; headline unchanged).** The source-typed local
 ordinary-gauge Noether/BRST differential closes exactly on `varpi`, all four

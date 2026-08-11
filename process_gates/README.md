@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `coupled_green_domain_audit.py` enforces ledger v0.165's exact total
+  symmetrized preboundary form, conditional full-carrier Lagrangian graph
+  theorem, 120-coordinate no-selection lower bound, naive moving-reality
+  rejection, source/hostile scope and unchanged headline accounting.
+
 - `coupled_gauge_noether_bv_audit.py` enforces ledger v0.164's exact local
   full-field ordinary-gauge BRST/Noether closure, the `Gr(3,15)` rank-384
   no-selection theorem, source/hostile scope, unchanged accounting and the

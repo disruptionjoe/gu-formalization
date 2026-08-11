@@ -24,8 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.164.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.164.md`.
+`lab/process/conditional-physics-ledger-v0.165.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.165.md`.
+
+Current coupled Green/domain correction: the exact selected-action
+boson-plus-four-fermion symmetrized preboundary form is nondegenerate and
+retains the moving-normal mixed terms. Full-carrier small-gauge-basic
+Lagrangian graphs exist conditionally, but the smallest tested symmetric
+multiplicity family leaves at least 120 coordinates and selects none. The
+fixed-normal fermion reality is anti-symplectic; its naive total moving
+extension fails. Build now moves to the action-owned moving anti-linear K77
+reality and total Calderon/maximal-dissipative domain, then global descent and
+unrestricted BFV edge completion. Supplying a 120-function graph is forbidden.
 
 Current coupled-gauge/BV correction: the source-typed local ordinary-gauge
 differential closes exactly on `varpi`, four independent fermion fields, four
@@ -1114,6 +1124,15 @@ Before closeout, reconcile the result against current `HEAD`, the latest ledger
 version/meter, active source directives, overlapping Run plans and every
 changed high-fanout premise. A result built against a superseded object is
 retyped before publication, not merely made more rigorous.
+
+After the scientific result and hostile review stabilize, inspect the GU
+mailbox once as a **postflight priority input**. Record whether any new note
+confirms, corrects or reorders the successor gate. Do not perform an unbounded
+mailbox archaeology pass and do not let mailbox content retroactively fit the
+completed result. Material corrections amend the current packet before
+closeout; nonurgent ideas enter the next-work queue. This keeps preflight thin
+while ensuring new cross-repo information is visible when the next gate is
+chosen.
 
 ## Standing ledger progress surface
 

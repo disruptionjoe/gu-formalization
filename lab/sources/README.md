@@ -9,6 +9,12 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-coupled-green-domain-source-return-2026-08-11.md`](selected-k77-coupled-green-domain-source-return-2026-08-11.md)
+  records source confirmation of the four independent fermion fields and
+  displayed bilinear pairing arena, plus silence on the symmetrized total boundary
+  form, moving anti-linear K77 reality, unique analytic domain, Calderon
+  projector and BFV edge completion.
+
 - [`selected-k77-coupled-gauge-noether-bv-source-return-2026-08-11.md`](selected-k77-coupled-gauge-noether-bv-source-return-2026-08-11.md)
   records source confirmation of the four independent matter fields and
   `rho(epsilon)` covariance grammar, plus silence on an explicit BRST/BV

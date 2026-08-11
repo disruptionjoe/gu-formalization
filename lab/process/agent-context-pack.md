@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.165 coupled Green/domain gate:** the selected action's exact
+> algebraic boson-plus-four-independent-fermion symmetrized preboundary form
+> is nondegenerate and retains the moving-normal mixed terms. Full-carrier
+> small-gauge-basic Lagrangian graphs exist conditionally, but the smallest
+> tested symmetric multiplicity family leaves at least 120 coordinates and
+> selects none. The fixed-normal fermion reality is anti-symplectic; its naive
+> total moving extension fails. Next derive the actual action-owned moving
+> anti-linear K77 reality and its Calderon/maximal-dissipative projector, then
+> test global descent and unrestricted BFV edge completion. Do not fit a
+> 120-function graph, do not port the K95 domain, and do not confuse a boundary
+> polarization with rank-384 carrier selection.
+
 > **Current v0.164 coupled ordinary-gauge Noether/BV gate:** the local
 > source-typed differential closes exactly on `varpi`, four independent
 > fermion fields, all four operator blocks and the nonabelian ghost, with
