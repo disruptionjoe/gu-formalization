@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 NATURAL K77 TRACE-CONSTRAINT GATE (ledger v0.169).** The
+> complete Spin-natural zero-order family
+> `C_(a,b)(zeta,nu)=a Gamma(zeta)+b nu` has exactly one propagated
+> projective line, `C=2 Gamma(zeta)-nu`. Its kernel contains the complete
+> rank-`128` square-zero Jordan image, and the restricted remainder still has
+> rank `128`. The natural zero-order constraint route is therefore killed.
+> **Next type the Craig-Weinstein-style nonlocal ultrahyperbolic constraint for
+> the actual operator; in parallel reconcile the source-admitted wedge-Shiab /
+> nonzero-southeast semisimple completion with the current real-K77 selected
+> action. Do not call the physical trace equation a BV differential, fit a
+> direction-dependent `Q_j`, or infer a domain from propagation alone.**
+
 > **2026-08-11 UNREDUCED K77 HYPERBOLIC-DOMAIN GATE (ledger v0.168).** The
 > actual source-shaped real-K77 dimension-`1920` one-time evolution has an
 > exact rank-`128` square-zero Jordan remainder in each observed spatial

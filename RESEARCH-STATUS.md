@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.169; six
+distance/evidence migrations; headline unchanged).** The complete
+Spin-natural zero-order constraint family on the actual source-shaped real-K77
+operator is `C_(a,b)=a Gamma(zeta)+b nu`. Exact coefficientwise propagation
+leaves one projective line, `C=2 Gamma(zeta)-nu`, but its kernel contains the
+complete rank-128 square-zero Jordan image and the restricted remainder keeps
+rank 128. Thus the natural zero-order constraint route is killed. Derivative
+or nonlocal constraints, an independently action-derived BV differential, and
+an action-owned Shiab/southeast operator completion remain open. Source return:
+`SOURCE_CONFIRMS_PHYSICAL_NU_ZETA_AND_FOUR_FIELD_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_C_EQUALS_2GAMMAZETA_MINUS_NU_BV_REDUCTION_AND_NONLOCAL_DOMAIN`.
+No datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change
+is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.168; six
 distance/evidence migrations; headline unchanged).** Exact rational
 calculation on the actual source-shaped real-K77 dimension-1920 operator gives

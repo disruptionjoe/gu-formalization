@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.169 natural trace-constraint gate:** every Spin-natural
+> zero-order spinor constraint is `a Gamma(zeta)+b nu`. Exactly one projective
+> line propagates, `2 Gamma(zeta)-nu=0`, but its kernel contains the complete
+> rank-128 square-zero Jordan image and the restricted remainder stays rank
+> 128. Do not rerun zero-order trace ratios, call this physical relation a BV
+> differential, or fit direction-dependent `Q_j`. Next type the explicit
+> nonlocal ultrahyperbolic constraint; separately reconcile the source-admitted
+> wedge-Shiab/nonzero-southeast operator completion in the current real-K77
+> action.
+
 > **Current v0.168 unreduced-domain gate:** the actual source-shaped real-K77
 > one-time evolution is non-diagonalizable: every observed spatial generator
 > has an exact rank-128 square-zero Jordan remainder. No positive symmetrizer

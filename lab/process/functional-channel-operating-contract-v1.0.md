@@ -24,8 +24,16 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.168.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.168.md`.
+`lab/process/conditional-physics-ledger-v0.169.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.169.md`.
+
+Current natural-constraint correction: the complete Spin-natural zero-order
+family has one propagated line, `2 Gamma(zeta)-nu=0`, whose kernel retains the
+entire rank-128 square-zero Jordan image. Build may not repeat zero-order trace
+ratios, relabel the physical trace equation as BV, or fit a direction-dependent
+`Q_j`. The admissible successors are an explicit derivative/nonlocal
+constraint, an independently action-derived BV differential, or an
+action-owned modification of the source-shaped operator.
 
 Current unreduced-domain correction: the actual source-shaped real-K77
 one-time evolution has exact rank-128 square-zero Jordan remainders in all

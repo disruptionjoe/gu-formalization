@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.168. The actual source-shaped
+Current append-only progress surface: ledger v0.169. The complete Spin-natural
+zero-order constraint family on the actual real-K77 source-shaped evolution
+has one propagated projective line, `C=2 Gamma(zeta)-nu`. Its kernel contains
+the full rank-128 square-zero Jordan image, and the restricted remainder keeps
+rank 128, killing the natural zero-order repair. Next type the explicit
+nonlocal ultrahyperbolic constraint and reconcile the source-admitted
+Shiab/southeast operator completion. Registry:
+`selected-k77-natural-trace-constraint-gate.json`.
+
+Predecessor v0.168. The actual source-shaped
 real-K77 dimension-1920 one-time evolution has rank-128 square-zero Jordan
 remainders in all three observed spatial directions. Its positive symmetrizer
 cone is empty, killing the standard unreduced maximal-dissipative Cauchy route.

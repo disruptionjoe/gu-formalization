@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.169 decides the complete Spin-natural zero-order constraint family
+on the actual real-K77 source-shaped evolution. The unique propagated line
+`2 Gamma(zeta)-nu=0` contains and retains the complete rank-128 square-zero
+Jordan image. Do not continue zero-order trace searches or relabel this
+physical relation as BV. The highest-information domain route is now the
+explicit Craig-Weinstein-style nonlocal ultrahyperbolic constraint. In
+parallel, reconcile the source-admitted wedge-Shiab/nonzero-southeast
+semisimple completion with the current real-K77 selected action; it changes
+the operator rather than quotienting physical `nu`.
+
 Ledger v0.168 kills the standard unreduced positive-symmetrizer/maximal-
 dissipative Cauchy route on the actual source-shaped real-K77 operator. The
 exact rank-128 square-zero Jordan remainder is present in all three observed

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `natural_trace_constraint_gate_audit.py` enforces ledger v0.169's complete
+  Spin-natural zero-order family, unique propagated trace line, preserved
+  rank-128 Jordan defect, fitted-direction control, scoped successor and
+  unchanged headline accounting.
+
 - `unreduced_hyperbolic_domain_gate_audit.py` enforces ledger v0.168's exact
   same-object real-K77 Jordan factorization, empty positive-symmetrizer cone,
   scoped unreduced maximal-dissipative kill, ultrahyperbolic domain fence and
