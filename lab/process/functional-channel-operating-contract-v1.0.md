@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.178.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.178.md`.
+`lab/process/conditional-physics-ledger-v0.179.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.179.md`.
+
+Current energy/Green boundary correction: the exact rank-960 incoming energy
+half has full-rank one-sided `P D_n` restriction in both horns, but that is the
+independent-dual object. After the required doubled Majorana pullback, the
+graded Green restriction is rank zero for both complete horns over two exact
+primes. This closes local flat action/energy boundary compatibility without
+selecting a horn. Build next globalizes the common incoming relation and tests
+action ownership or transport of its projector. Variable/global, ambient
+`Y^14`, null BFV, horn/`p` and physical-cohomology burdens stay separate.
 
 Current observed Cauchy-domain correction: the v0.177 Majorana graph is a
 doubled-field reality reduction, not a spatial maximal-dissipative projector.

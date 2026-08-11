@@ -3017,3 +3017,17 @@ flux, the reality/boundary rank conflation and unrestricted mixed closure.
 uv run --python 3.12 --with sympy==1.14.0 python tests/channel-swings/selected_k77_observed_cauchy_domain_layer0_probe.py
 python3 process_gates/k77_observed_cauchy_domain_layer0_audit.py
 ```
+
+## K77 energy/Green boundary-horn composition v0.179
+
+`channel-swings/selected_k77_energy_green_boundary_horn_composition_probe.py`
+checks the full 1,920-dimensional completed real-K77 carrier over two finite
+fields. It records rank 960 for both one-sided independent-dual incoming
+restrictions, then composes the required doubled Majorana graph and obtains
+rank zero for both complete pairing horns. Four plants reject a non-invariant
+pairing, a vacuous zero carrier and the one-sided/doubled object collapse.
+
+```sh
+sage -python tests/channel-swings/selected_k77_energy_green_boundary_horn_composition_probe.py
+python3 process_gates/k77_energy_green_boundary_horn_composition_audit.py
+```

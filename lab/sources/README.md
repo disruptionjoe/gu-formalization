@@ -7,6 +7,11 @@ updated_at: "2026-08-10"
 
 # Source and Media Index
 
+- [`selected-k77-energy-green-boundary-horn-composition-source-return-2026-08-11.md`](selected-k77-energy-green-boundary-horn-composition-source-return-2026-08-11.md)
+  records source silence on identifying the incoming energy half with an
+  action-Green domain, selecting a pairing horn, or supplying the variable or
+  global boundary projector.
+
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
 - [`selected-k77-polarized-radical-bfv-ownership-gate-source-return-2026-08-11.md`](selected-k77-polarized-radical-bfv-ownership-gate-source-return-2026-08-11.md)

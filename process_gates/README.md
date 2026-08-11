@@ -2772,3 +2772,12 @@ flat observed real symmetric-hyperbolic theorem, Dirichlet moving-mixed
 compatibility and explicit ambient/null/global fences. It rejects spatial-
 boundary, horn/`p`, verdict, datum, residue, quotient, canon and posture
 promotion.
+
+## K77 energy/Green boundary-horn composition ledger v0.179
+
+`k77_energy_green_boundary_horn_composition_audit.py` requires exact rank-960
+incoming/outgoing halves, full-rank one-sided independent-dual restrictions,
+zero doubled-Majorana graded Green restrictions for both complete horns over
+two primes, and the hostile Layer-0 reversal. It rejects horn/`p`, variable or
+global domain, projector-ownership, datum, residue, quotient, canon or posture
+promotion.

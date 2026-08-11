@@ -7,6 +7,16 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 ENERGY/GREEN BOUNDARY-HORN COMPOSITION (ledger v0.179).**
+> The exact rank-960 incoming energy half appeared incompatible with both
+> action pairings only when the barred field was incorrectly left independent:
+> the one-sided restriction has full rank 960. After the required doubled
+> Majorana pullback, the graded Green restriction is rank zero for both exact
+> horns over two primes. **Next globalize this common incoming relation to the
+> variable-coefficient observed system and test whether the selected action
+> owns or transports its projector. Keep ambient `Y^14`, null BFV, horn/`p`
+> selection and physical cohomology separate.**
+
 > **2026-08-11 K77 OBSERVED CAUCHY-DOMAIN LAYER-0 SPLIT (ledger v0.178).**
 > The Majorana graph is a doubled-field reality reduction, not a spatial
 > incoming-mode projector. In the exact comparator the reality graph and

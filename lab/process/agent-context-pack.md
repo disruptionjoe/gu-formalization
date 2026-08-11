@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.179 K77 energy/Green boundary composition:** the exact
+> incoming energy carrier is `ker(E+1)`, rank 960 inside the full rank-1,920
+> conditional real-K77 principal carrier. For both complete pairing horns the
+> one-sided independent-dual restriction `P D_n` has full rank 960, but the
+> physically required doubled Majorana pullback
+> `P^T D_n + D_n^T P` has rank zero over two primes. Retain the one-sided
+> result as a wrong-object control. Both horns locally admit the incoming half;
+> neither horn nor `p` is selected. Next globalize the relation and test action
+> ownership/transport. Selected Spin, the two `U(32,32)` halves and full
+> `U(64,64)` remain distinct; P1/P2/P3 are unused.
+
 > **Current v0.178 K77 observed Cauchy-domain split:** the Majorana graph is
 > a doubled-field reality reduction, not a spatial incoming projector. The
 > exact rank split is reality graph 4, complete Cauchy data 4 and nonpositive

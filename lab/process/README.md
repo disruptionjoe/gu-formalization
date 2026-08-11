@@ -7,13 +7,17 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.178. The Majorana graph is a
-doubled-field reality reduction, not a spatial boundary projector. An exact
-real Clifford comparator plus the completed positive common symmetrizer
-conditionally supplies a local flat observed real `H^s` Cauchy domain, and
-moving mixed terms vanish on bosonic Dirichlet tangent data. Variable/global
-observed, spatial-boundary, ambient/null and horn/`p` burdens remain open.
-Registry: `selected-k77-observed-cauchy-domain-layer0.json`.
+Current append-only progress surface: ledger v0.179. The exact rank-960
+incoming energy half has full-rank one-sided independent-dual restriction for
+both pairing horns, but the correctly doubled Majorana Green pullback has rank
+zero for both. Local flat action/energy boundary compatibility closes without
+horn selection. Variable/global transport, action ownership, ambient/null and
+horn/`p` burdens remain open. Registry:
+`selected-k77-energy-green-boundary-horn-composition.json`.
+
+Predecessor v0.178 separates the doubled-field Majorana graph, complete Cauchy
+data and the spatial incoming half, and conditionally supplies the local flat
+observed real `H^s` Cauchy domain.
 
 
 Current append-only progress surface: ledger v0.172. On the zero-fermion

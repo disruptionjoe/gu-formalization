@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.179; six
+distance/evidence migrations; headline unchanged).** The full rank-1,920
+real-K77 principal carrier has exact incoming/outgoing halves of rank 960.
+For both complete action-pairing horns, the one-sided independent-dual
+restriction has rank 960, but that is the wrong object after imposing the
+Majorana relation. The correctly doubled Majorana Green pullback has rank zero
+on the incoming half for both horns over two primes. Local flat energy/action
+boundary compatibility therefore closes without selecting a horn. Variable
+and global transport, action ownership of the projector, ambient `Y^14`, null
+BFV, unrestricted mixed terms, observation, cohomology, index and count remain
+open. No verdict, residue, quotient, canon or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.178; six
 distance/evidence migrations; headline unchanged).** Layer 0 separates the
 doubled-field Majorana graph, complete physical Cauchy data and a nonpositive

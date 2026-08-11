@@ -9,6 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.179 closes the local flat action/energy boundary compatibility gate
+for both complete Majorana pairing horns. The one-sided independent-dual
+restriction remains full rank 960 and is now a planted wrong-object control;
+the doubled graded Green pullback is rank zero for both horns. Rank one is
+variable/global transport of this common incoming relation plus a test of
+whether the selected action owns or selects its projector. Keep ambient
+`Y^14`, null BFV, horn/`p` selection and physical cohomology separate.
+
 Ledger v0.178 corrects the analytic-domain object before further construction.
 The Majorana graph is a doubled-field reality reduction, not a spatial
 incoming-mode projector. The completed positive common symmetrizer
