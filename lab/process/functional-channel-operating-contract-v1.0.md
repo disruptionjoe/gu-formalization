@@ -24,8 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.174.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.174.md`.
+`lab/process/conditional-physics-ledger-v0.175.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.175.md`.
+
+Current source-native weight correction: v0.174's product
+`p=w_+w_-` is invariant only on a reality-reduced congruent quadratic action.
+The source-native parent has four independent barred/unbarred fields. Its
+complete diagonal left/right field-redefinition orbit preserves both unit
+cross-degree blocks and removes both nonzero weights, including `p`, on the
+full 1,920-dimensional operator. The equivalence transports even connection
+cells, gauge/Noether action and observation. V0.174's two local pairing horns
+remain conditional reality branches. Build next constructs or kills the
+anti-linear reality involution and moving global Green/domain; only then may
+it retest `p`. Keep selected Spin, two `U(32,32)` halves and full `U(64,64)`
+distinct.
 
 Current K77 action-adjoint correction: the local Grassmann criterion is not
 "the operator is self-adjoint." The coefficient of the quadratic fermion

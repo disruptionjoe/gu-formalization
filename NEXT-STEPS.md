@@ -7,6 +7,17 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 SOURCE-NATIVE K77 WEIGHT ORBIT (ledger v0.175).** The four-
+> independent-field action admits a complete left/right field redefinition
+> that preserves both unit cross-degree blocks and sends every nonzero weight
+> pair to the equal-weight representative. This holds on the 1,920-dimensional
+> operator, all 14 axes, noncentral even connection cells, gauge/Noether
+> transport and transported observation. `p=w_+w_-` is therefore not a
+> source-native invariant; it survives only conditionally after a missing
+> anti-linear reality restricts equivalence to congruence. **Next construct or
+> kill that reality and its moving global Green/domain; only then retest `p`.
+> Keep selected Spin, two `U(32,32)` halves and full `U(64,64)` distinct.**
+
 > **2026-08-11 SIGNATURE-AMBIENT RESOLVER DESIGN PACKET AVAILABLE
 > (absorption pointer, binds nothing).** A Joe-directed design packet for
 > the resolver-less `SIGNATURE-AMBIENT` fork is filed at

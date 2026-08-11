@@ -2737,3 +2737,12 @@ two finite fields, the zero-rank weight equation and the one-dimensional
 chiral-isometry invariant. It rejects promotion from a local real bilinear to
 an anti-linear reality involution, global closed domain, ledger verdict,
 datum, quotient, canon or public posture.
+
+## K77 independent-dual weight trivialization ledger v0.175
+
+`k77_independent_dual_weight_trivialization_audit.py` requires zero weight
+invariants on the source-native four-field left/right orbit, preservation of
+both unit cross-degree blocks, even connection and gauge/Noether transport,
+rank-640 transported observation and the conditional survival of `p` only on
+a later reality-congruent branch. It rejects function-valued, quantum-measure,
+global-domain, verdict, datum, residue, quotient, canon and posture promotion.

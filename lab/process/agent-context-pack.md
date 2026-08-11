@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.175 independent-dual weight correction:** the source-native
+> action has four independent barred/unbarred fields. The complete
+> normalization-preserving left/right field-redefinition orbit removes both
+> nonzero K77 weights on the full 1,920-dimensional operator, while preserving
+> all 14 axes, even connection cells, gauge/Noether transport and transported
+> observation. Thus `p=w_+w_-` is not source-native invariant. V0.174's two
+> local pairing lines and `p` survive only conditionally after an anti-linear
+> reality identification restricts equivalence to congruence. Next build that
+> reality and its moving global Green/domain. Keep selected Spin, two
+> `U(32,32)` halves and full `U(64,64)` distinct.
+
 > **Current v0.174 K77 action-adjoint/weight classification:** the complete
 > local four-scalar Spin-natural pairing family has a symmetric/anti-adjoint
 > line and a skew/self-adjoint line. Both give a nondegenerate alternating

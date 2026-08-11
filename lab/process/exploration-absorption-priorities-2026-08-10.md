@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.175 runs the Layer-0 distinction v0.174 left open. On the
+source-native four-independent-field action, a complete left/right field
+redefinition preserves both normalized cross-degree blocks and removes both
+K77 weights; `p=w_+w_-` is not invariant. The two v0.174 pairing horns and `p`
+remain conditional only after an anti-linear reality ties the two action
+slots by congruence. Rank one is now that reality plus its moving global
+Green/domain, not another scalar selector search. Observation must be
+transported with field coordinates. Keep selected Spin, two `U(32,32)` halves
+and full `U(64,64)` distinct.
+
 Ledger v0.174 closes the local action-adjoint existence question and corrects
 the self-adjoint-only reading. The complete Spin-natural pairing family has
 exactly two nondegenerate projective lines, and both give an alternating

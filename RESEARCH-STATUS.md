@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.175; six
+distance/evidence migrations; headline unchanged).** Layer 0 separates the
+source-native four-independent-field action from v0.174's reality-reduced
+congruent quadratic action. The complete normalization-preserving left/right
+orbit removes both nonzero K77 weights on the full 1,920-dimensional operator
+over two exact primes, all 14 axes and noncentral even connection cells; it
+commutes with even gauge generators and transports rank-640 observation. The
+only scalar orbit invariants are the crossed products already fixed to
+`11/12`. `p=w_+w_-` survives only conditionally after an anti-linear reality
+identification. That reality, moving global Green/domain and physical
+cohomology remain open. Selected Spin, two `U(32,32)` halves and full
+`U(64,64)` remain distinct. No P1/P2/P3, verdict, booked residue, quotient,
+canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.174; six
 distance/evidence migrations; headline unchanged).** Exact two-prime
 classification of the complete local four-scalar Spin-natural pairing family

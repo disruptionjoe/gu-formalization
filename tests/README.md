@@ -2959,3 +2959,19 @@ self-adjoint-plus-symmetric controls fire.
 sage -python tests/channel-swings/selected_k77_action_adjoint_weight_classification_probe.py
 python3 process_gates/k77_action_adjoint_weight_classification_audit.py
 ```
+
+## K77 independent-dual weight trivialization v0.175
+
+`channel-swings/selected_k77_independent_dual_weight_trivialization_probe.py`
+classifies the complete normalization-preserving left/right scalar orbit of
+the source-native four-field K77 operator. Over two exact primes it checks the
+full 1,920-dimensional carrier, all 14 axes, noncentral even connection cells,
+gauge/Noether transport and rank-640 transported observation. It proves both
+weights are coordinates before reality and retains `p` only as a conditional
+congruence invariant. Fixed-observation, one-sided, odd-insertion and wrong-
+crossed-product plants fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_independent_dual_weight_trivialization_probe.py
+python3 process_gates/k77_independent_dual_weight_trivialization_audit.py
+```
