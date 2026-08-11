@@ -7,15 +7,18 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.160. The 128 additional paired
-directions required by v0.159 have the source-declared ambient barred/unbarred
-`Omega0 plus Omega1` field type; the source does not yet select one fixed,
-covector-independent finite reduction. Equal rank 256 in three strata is not
-a common-hull theorem. Build the common hull and test the action-owned moving
-reduction, rejecting a fitted projector or unrestricted map. Registry:
-`selected-k77-source-owned-hull-interface.json`.
+Current append-only progress surface: ledger v0.161. The exact tested common
+receiver hull has rank 384 for both Pin placements: every causal minimal
+receiver has rank 256, each pair intersects at 128 and joins at 384, and the
+common paired action hull adds 256 directions. The fixed-rank-256 reading is
+killed. Bosonic `P_epsilon`/`D_varpi chi` constraints cannot directly select
+the fermion receiver. Next compare rank 384 with the unrestricted four-field
+Euler image/action dual, returning to the unrestricted source operator on
+failure. Registry: `selected-k77-fixed-common-receiver-hull.json`.
 
-Predecessor v0.159 supplies the exact finite receiver ranks and three failed
+Predecessor v0.160 supplies the ambient-field ownership correction and the
+common-hull question; v0.161 answers the rank question and corrects its direct
+selector shortcut. Predecessor v0.159 supplies the exact finite receiver ranks and three failed
 bounded completion routes. Its field-type ownership sentence is narrowed by
 v0.160; its ranks and route kills survive.
 

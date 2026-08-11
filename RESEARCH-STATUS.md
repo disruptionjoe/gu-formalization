@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.161; six
+distance/evidence migrations; headline unchanged).** The three tested causal
+minimal receivers are each rank `256`, but their pairwise intersections are
+only the original rank-`128` receiver and their joins are rank `384`. Both Pin
+placements give the same tested rank-`384` common equation/action hull, adding
+`256` paired directions. This kills the fixed-rank-`256` reading. The ambient
+four-field types remain source-owned, but their unrestricted Euler image and
+action dual have not been identified with this hull. Bosonic `P_epsilon` and
+`D_varpi chi_epsilon` constraints cannot directly serve as fermion selectors.
+Next compare the common hull with the unrestricted four-field Euler/action
+dual; failure stops the bounded graph route, while success opens construction
+of the induced Dirac/RS/BV intertwiner. No physical mode, datum, P1/P2/P3,
+verdict, residue, quotient, canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-10 (ledger v0.160; six
 distance/evidence migrations; headline unchanged).** The source's four-field
 grammar already owns the ambient independent barred/unbarred

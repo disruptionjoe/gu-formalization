@@ -3,23 +3,23 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-10
+updated: 2026-08-11
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-10)
+# Agent context pack (updated 2026-08-11)
 
-> **Current v0.160 source-owned-hull interface:** v0.159's 128 additional
-> paired directions have the source-declared independent barred/unbarred
-> `Omega0 plus Omega1` ambient field type. Do not call them new fundamental
-> fields. The source still does not select one fixed finite subbundle, and
-> equal per-stratum rank 256 does not imply one common hull. Next construct the
-> fixed common hull and test the action-owned moving reduction conditions
-> `P_epsilon u=u` and `D_varpi chi_epsilon=0` against graph, mirror, random
-> graded 192s, 640 and 832. Stop if only a fitted covector-dependent projector
-> or unrestricted function-valued map selects it. External datum cannot repair
-> local closure; BV/domain, observation/chirality/mirror, P3 index/count and
-> physics rendezvous remain downstream.
+> **Current v0.161 fixed-common-hull gate:** each tested causal minimal receiver
+> is rank 256, but every pair intersects only in the original rank-128 receiver
+> and joins to rank 384. All three causal representatives and both Pin
+> placements give the same tested rank-384 common hull, with 256 paired left
+> additions. The fixed-rank-256 reading is killed. Existing canon already types
+> `P_epsilon` and `D_varpi chi` as bosonic parent constraints, not direct
+> fermion selectors. Next compare rank 384 with the unrestricted four-field
+> Euler image/action dual. On failure stop the bounded graph route and return to
+> the unrestricted source operator; only an induced fermion/BV intertwiner may
+> later run graph/mirror/random-192/640/832 controls. External datum cannot
+> repair local closure.
 
 > **Current v0.159 receiver-completion fence:** the natural two-coefficient
 > K77 southeast family is transverse to the exact v0.158 graph leak; the K95

@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-fixed-common-receiver-hull-source-return-2026-08-11.md`](selected-k77-fixed-common-receiver-hull-source-return-2026-08-11.md)
+  confirms the ambient four-field grammar and records source silence on the
+  repository-derived rank-384 common hull, its action selector, induced
+  fermion/BV intertwiner and domain.
+
 - [`selected-k77-source-owned-hull-interface-source-return-2026-08-10.md`](selected-k77-source-owned-hull-interface-source-return-2026-08-10.md)
   confirms the independent barred/unbarred `Omega0 plus Omega1` ambient field
   types, corrects the new-field-type reading, and records silence on a fixed

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-001119-gu-k77-fixed-common-receiver-hull",
+  "field": "GF(1000033) exact common-hull computation",
+  "predecessor": "lab/process/selected-k77-high-conviction-receiver-completion.json",
+  "checks": {
+    "failures": 0,
+    "prior_art": 2,
+    "layer0": 1,
+    "source": 1,
+    "planted": 3,
+    "exact": 8,
+    "symplectic": 2,
+    "scope": 2,
+    "variational": 1,
+    "bv": 1,
+    "analytic": 1,
+    "representation": 1,
+    "datum": 1
+  },
+  "pin_candidates": {
+    "column_pin": {
+      "receiver_rank": 128,
+      "per_stratum_minimal_rank": {
+        "timelike": 256,
+        "spacelike": 256,
+        "null": 256
+      },
+      "pairwise_join_rank": 384,
+      "pairwise_intersection_rank": 128,
+      "fixed_common_hull_rank": 384,
+      "fixed_common_added_equations": 256,
+      "fixed_common_paired_left_rank": 384,
+      "fixed_common_paired_left_added": 256
+    },
+    "row_pin": {
+      "receiver_rank": 128,
+      "per_stratum_minimal_rank": {
+        "timelike": 256,
+        "spacelike": 256,
+        "null": 256
+      },
+      "pairwise_join_rank": 384,
+      "pairwise_intersection_rank": 128,
+      "fixed_common_hull_rank": 384,
+      "fixed_common_added_equations": 256,
+      "fixed_common_paired_left_rank": 384,
+      "fixed_common_paired_left_added": 256
+    }
+  },
+  "pin_join_rank": 384,
+  "pin_intersection_rank": 384,
+  "rank_256_fixed_hull_survives": false,
+  "layer0": "P_EPSILON_AND_D_VARPI_CHI_ARE_BOSONIC_PARENT_CONSTRAINTS__NO_DIRECT_APPLICATION_TO_FERMION_RECEIVER_WITHOUT_INDUCED_INTERTWINER",
+  "source_return": "SOURCE_CONFIRMS_AMBIENT_FOUR_FIELD_GRAMMAR__SOURCE_SILENT_ON_FIXED_COMMON_RECEIVER_HULL_AND_ITS_ACTION_SELECTOR",
+  "disposition": "PER_STRATUM_RANK256_DOES_NOT_GLOBALIZE_TO_ONE_RANK256_HULL__EXACT_FIXED_COMMON_HULL_RANK384__BOUNDED_GRAPH_ROUTE_REQUIRES_PAIRED384_ACTION_OWNERSHIP_OR_RETURN_TO_UNRESTRICTED_SOURCE_OPERATOR",
+  "next_gate": "COMPARE_THE_EXACT_COMMON_HULL_WITH_THE_UNRESTRICTED_FOUR_FIELD_EULER_IMAGE_AND_ACTION_DUAL__ONLY_AN_INDUCED_FERMION_INTERTWINER_MAY_THEN_RUN_GRAPH_MIRROR_RANDOM192_640_832_CONTROLS"
+}

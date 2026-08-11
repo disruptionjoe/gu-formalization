@@ -24,22 +24,23 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.160.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.160.md`.
+`lab/process/conditional-physics-ledger-v0.161.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.161.md`.
 
-Current source-owned-hull correction: v0.159's exact per-stratum receiver
-still has rank 256 and needs 128 additional paired left directions. Primary-
-source collision shows that those directions have the already-declared
-independent barred/unbarred `Omega0 plus Omega1` field type. This retracts the
-new-fundamental-field reading only. The source does not select one fixed,
-covector-independent finite reduction, and equal ranks do not prove equal
-subspaces. Next form the common hull and test the action-owned moving reduction
-conditions `P_epsilon u=u` and `D_varpi chi_epsilon=0` against graph, mirror,
-random graded 192s, 640 and 832. Stop on a fitted projector or unrestricted
-function-valued map. Then, in order, build BV/domain, observed chirality/mirror,
-and only afterward apply P1/P3 to an actual relative index/count operator.
-Higgs/Yukawa, anomaly and cosmology remain same-action rendezvous tests; no
-physical mode, index or count follows from carrier typing.
+Current fixed-common-hull correction: every tested causal stratum separately
+has a rank-256 minimal receiver, but any pair intersects only in the original
+rank-128 receiver and joins to rank 384. Timelike, spacelike and null together,
+and both exact Pin placements, give the same tested rank-384 common hull with
+256 added paired left directions. The fixed-rank-256 reading is killed.
+Existing canon prior art also types `P_epsilon u=u` and
+`D_varpi chi_epsilon=0` as bosonic connection-parent constraints, so they may
+not be applied directly to the fermion receiver or graph/mirror/192/640/832
+carriers. Next compare the rank-384 hull with the unrestricted four-field Euler
+image and action dual. If equality and off-shell ownership fail, stop the
+bounded graph route and return to the unrestricted source operator. Only an
+induced fermion Dirac/RS/BV intertwiner may then run the five-way controls.
+BV/domain, observed chirality/mirror, P1/P3 index/count and the Higgs/Yukawa,
+anomaly and cosmology rendezvous remain downstream.
 
 Current relative-boundary/P3 correction: observed boundary winding maps
 canonically into P3's relative real-`KO` input twist, with exact characteristic

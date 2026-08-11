@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `fixed_common_receiver_hull_audit.py` enforces ledger v0.161's exact
+  per-stratum `256` versus tested common-hull `384` distinction, paired-left
+  accounting, bosonic-selector Layer-0 fence, unchanged headline accounting
+  and four-field-action-dual successor.
+
 - `source_owned_hull_interface_audit.py` enforces ledger v0.160's ambient-
   carrier versus finite-selector correction, ordered H1--H7 acceptance
   interface, scoped source return and hostile review, unchanged accounting and

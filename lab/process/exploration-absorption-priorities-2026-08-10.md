@@ -9,6 +9,18 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.161 kills the fixed-rank-256 common-receiver reading. The exact
+timelike, spacelike and null receivers are unequal rank-256 subspaces whose
+pairwise joins and tested common hull have rank 384; both Pin placements agree
+on that subspace. The next highest-information gate is therefore not another
+finite selector search. Compare this hull directly with the unrestricted
+four-field Euler image and action dual, including off-shell Noether ownership.
+If they differ, stop the bounded graph route and return to the unrestricted
+source operator. If they agree, construct the induced fermion Dirac/RS/BV
+intertwiner before running graph/mirror/random-192/640/832 controls. The
+bosonic `P_epsilon` and `D_varpi chi_epsilon` conditions cannot be applied
+directly across that Layer-0 boundary.
+
 Ledger v0.160 corrects the ownership type of v0.159's minimal receiver. The
 source already declares the ambient barred/unbarred `Omega0 plus Omega1`
 fields, so the additional paired directions do not require new fundamental

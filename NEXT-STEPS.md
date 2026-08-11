@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 FIXED COMMON RECEIVER HULL (ledger v0.161).** The exact
+> timelike, spacelike and null minimal receivers each have rank `256`, but
+> every pair intersects only in the original rank-`128` receiver and joins to
+> rank `384`. Both Pin placements give the same tested rank-`384` common hull
+> and paired action hull, so the fixed-rank-`256` reading is killed. The source
+> owns the ambient four-field grammar, not this finite reduction; moreover
+> `P_epsilon` and `D_varpi chi_epsilon` are bosonic parent constraints and
+> cannot directly select a fermion receiver. **Next compare the common hull
+> with the unrestricted four-field Euler image and action dual. If equality or
+> off-shell ownership fails, stop the bounded graph route and return to the
+> unrestricted source operator. Only an induced fermion Dirac/RS/BV
+> intertwiner may then run graph/mirror/random-192/640/832 controls.** No
+> verdict, residue, quotient, datum, canon or public-posture change is made.
+
 > **2026-08-10 SOURCE-OWNED HULL INTERFACE (ledger v0.160).** Primary-source
 > collision corrects one Layer-0 type in v0.159: the additional paired left
 > directions have the already-declared independent barred/unbarred
