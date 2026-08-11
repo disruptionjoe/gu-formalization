@@ -2721,3 +2721,10 @@ rank-1470 zero-jet low-grade `varpi` map and common selected principal Gram
 ranks `110/110/16`. It rejects principal-to-full-Frechet, selected-to-expanded-
 parent and finite-rank-to-domain promotion while preserving both actions, all
 parent scopes, residue, quotients, P1/P2/P3, canon and public posture.
+
+## K77 wedge-Shiab/southeast completion ledger v0.173
+
+`wedge_shiab_southeast_completion_audit.py` requires the real-K77 positive
+reciprocal relations, zero spatial Jordan ranks, the semisimple `960/960` null
+split, planted K95-sign failure, and explicit weight/reality/parent fences. It
+rejects any ledger-verdict, datum, quotient, canon or public-posture promotion.

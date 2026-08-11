@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.173 K77 wedge/southeast completion:** changing the Shiab middle
+> block, rather than adding only a southeast cell, removes the rank-128
+> principal Jordan defect. Exact real-K77 relations are `12 w+ ell- = 11` and
+> `12 w- ell+ = 11`; the old K95 negative sign fails. The corrected operator
+> has a semisimple `960/960` null split and positive common principal
+> symmetrizer without quotient. Do not promote this to source/action
+> selection: two chiral weights remain free and the current diagonal K77
+> pairing has full-rank adjoint defect. Next derive or kill weights plus a
+> compatible reality adjoint, keeping selected Spin, two `U(32,32)` halves,
+> and full `U(64,64)` distinct.
+
 > **Current v0.172 polarized-radical BFV ownership gate:** on the zero-
 > fermion selected real-K77 branch, `im Nsharp` is not the existing ordinary-
 > gauge, small-gauge or edge characteristic image. Fermion gauge trace and

@@ -9,7 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.172 closes the cheap ownership comparison adversely. The existing
+Ledger v0.173 completes the promoted operator route: the source-admitted real-
+K77 wedge-Shiab/nonzero-southeast family removes the rank-128 principal Jordan
+remainder without quotient and gives a semisimple `960/960` characteristic
+half. The K77 reciprocal sign is opposite K95. Rank one is now to derive or
+kill the two remaining chiral weights and a compatible reality adjoint from
+the selected independent-dual action, then globalize its Green/domain and
+observation. This is not a physics-cohomology or generation-count result.
+
+Ledger v0.172 closed the cheap ownership comparison adversely. The existing
 ordinary-gauge, small-gauge and minimal-edge characteristic images do not own
 `im Nsharp` on the zero-fermion selected real-K77 branch. Moving mixed terms
 vanish there, and the owned edge quotient leaves the exact observed

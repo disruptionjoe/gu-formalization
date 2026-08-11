@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.173; six
+distance/evidence migrations; headline unchanged).** Exact two-prime real-K77
+construction shows that the source-admitted wedge-Shiab plus nonzero-southeast
+family removes the rank-128 principal Jordan remainder without quotient. The
+correct K77 relations are `12 w+ ell- = 11` and `12 w- ell+ = 11`, opposite in
+sign to K95; the null symbol has rank/nullity `960/960`, the spatial evolution
+obeys exact Clifford relations, and a positive common principal symmetrizer
+exists. Two chiral weights remain unselected. The independent-dual Green time
+coefficient is nondegenerate, but the current diagonal K77 reality pairing has
+rank-1920 adjoint defect. Global domain, observation, BV/cohomology, index and
+count remain open. Selected Spin, two `U(32,32)` halves and full `U(64,64)`
+remain distinct. No P1/P2/P3, verdict, residue, quotient, canon, or public-
+posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.172; six
 distance/evidence migrations; headline unchanged).** Exact composition proves
 that the v0.171 rank-128 Green radical is not the existing action-owned

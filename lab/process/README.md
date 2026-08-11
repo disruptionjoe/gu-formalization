@@ -1600,3 +1600,5 @@ Runbooks:
   boundary; source return `SOURCE-CORRECTS`, P1/P2/P3 unused.
 - `hostile-reviews/2026-08-05-first-interaction-krein-global-zero-mode-review.md`
   — two-sided hostile review with six material scope corrections.
+- `conditional-physics-ledger-v0.173.json` / `selected-k77-wedge-shiab-southeast-completion.json` — current ledger and exact real-K77 wedge-Shiab/nonzero-southeast completion packet; the principal Jordan obstruction is removed while weight, reality, domain and physics selection remain open.
+- `hostile-reviews/2026-08-11-selected-k77-wedge-shiab-southeast-completion-review.md` — three-charge review preserving the southeast-only and zero-fermion-quotient no-gos while rejecting a universal Jordan obstruction.

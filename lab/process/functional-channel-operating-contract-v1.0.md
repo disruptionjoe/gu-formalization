@@ -24,8 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.172.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.172.md`.
+`lab/process/conditional-physics-ledger-v0.173.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.173.md`.
+
+Current K77 operator-completion correction: the source-admitted wedge-Shiab
+plus nonzero-southeast family has the real-K77 relations
+`12 w+ ell- = 11` and `12 w- ell+ = 11`, the opposite sign from K95. It
+removes the rank-128 principal Jordan remainder without quotient, gives a
+semisimple `960/960` null characteristic split, and admits a positive common
+principal symmetrizer. This does not select the two chiral weights or a real
+action: the independent-dual Green coefficient is nondegenerate while the
+current diagonal K77 adjoint defect has rank 1920. Build next derives or kills
+the weights and compatible reality adjoint from the selected action, then
+tests global descent/domain and observation. Keep selected Spin, two
+`U(32,32)` halves, and full `U(64,64)` distinct.
 
 Current radical-ownership correction: on the zero-fermion selected real-K77
 branch, the v0.171 `im Nsharp` radical is not the existing ordinary-gauge,

@@ -2930,3 +2930,17 @@ uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k7
 sage tests/channel-swings/selected_k77_two_branch_action_block_port_independent.sage
 python3 process_gates/selected_k77_two_branch_action_block_port_audit.py
 ```
+
+## K77 wedge-Shiab/southeast completion v0.173
+
+`channel-swings/selected_k77_wedge_shiab_southeast_completion_probe.py`
+constructs the `1920`-dimensional real-K77 family over two exact finite fields.
+It verifies the K77 positive reciprocal sign, spatial Clifford relations,
+zero Jordan ranks, `960/960` null split, positive common principal
+symmetrizer, nondegenerate independent-dual Green coefficient, and the still-
+open reality adjoint. Zero-southeast and K95-sign plants both fire at rank 128.
+
+```sh
+sage -python tests/channel-swings/selected_k77_wedge_shiab_southeast_completion_probe.py
+python3 process_gates/wedge_shiab_southeast_completion_audit.py
+```

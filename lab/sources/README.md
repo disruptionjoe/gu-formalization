@@ -414,3 +414,5 @@ identifications as separate grades.
     second-connection variable and the source does not identify the
     conditional grade-one gamma lift as the physical diffeomorphism law;
     direct torsion cancels but a rank-three curvature/operator packet remains.
+- [`selected-k77-wedge-shiab-southeast-completion-source-return-2026-08-11.md`](selected-k77-wedge-shiab-southeast-completion-source-return-2026-08-11.md)
+  - confirms the source-admitted wedge/contraction grammar and nonzero southeast rival; returns source-silent on the real-K77 `+11/12` relation, two chiral weights, reality adjoint and global domain.

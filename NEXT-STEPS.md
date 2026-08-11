@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 REAL-K77 WEDGE-SHIAB/SOUTHEAST COMPLETION (ledger v0.173).**
+> The source-admitted operator family has now been constructed on real K77.
+> The K77 reciprocal relation has the opposite sign from K95 and removes the
+> rank-`128` principal Jordan remainder without quotient; the null symbol is
+> semisimple with rank/nullity `960/960`, and a positive common principal
+> symmetrizer exists. This does not select the theory: two chiral weights
+> remain free and the current diagonal K77 pairing gives a rank-`1920`
+> adjoint defect. **Next derive or kill the two weights and a compatible
+> reality adjoint from the selected independent-dual action; only then build
+> global descent/domain and observation. Keep selected Spin, two `U(32,32)`
+> halves, and full `U(64,64)` distinct.**
+
 > **2026-08-11 POLARIZED-RADICAL BFV OWNERSHIP GATE (ledger v0.172).** The
 > v0.171 rank-`128` Green radical is not the existing action-owned gauge/BFV
 > image on the zero-fermion selected real-K77 branch. Ordinary gauge has zero
