@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-233153-gu-k77-first-jet-fermion-symbol-port-gate",
+  "status": "SCOPED_SPIN_CLIFFORD_PORT_RESULT",
+  "checks": {
+    "total": 55,
+    "failures": 0,
+    "two_prime_exact": true,
+    "transport_controls": 4
+  },
+  "raw_port": {
+    "h640_rank": 640,
+    "ambient_control_rank": 1920,
+    "transverse_residual_count": 10,
+    "transverse_residual_rank_each": 128,
+    "transverse_residual_coordinate_rank": 10,
+    "section_jet_rank": 4,
+    "field_shear_rank": 14,
+    "k77_orthogonality_defect_rank": 8,
+    "off_diagonal_rank": 4,
+    "tested_spatial_tilt_leak_rank_each": 128,
+    "levi_civita_fermion_principal_response_rank": 0
+  },
+  "spin_prolongation": {
+    "representatives": ["opposite_sign_boost", "same_sign_rotation"],
+    "fields": [1009, 1013],
+    "vector_orthogonal": true,
+    "spin_inverse": true,
+    "gamma_covariance": true,
+    "symbol_covariance": true,
+    "moving_graph_split": true,
+    "fixed_graph_leak_rank_each": 128,
+    "moving_graph_leak_rank_each": 0,
+    "pairing_horns_preserved": 2,
+    "pairing_horn_selected": false
+  },
+  "source_return": "SOURCE_CONFIRMS_GAUGE_ROTATED_LEVI_CIVITA_AND_RICH_OBSERVATION_ARE_SEPARATE_OWNERS__SOURCE_CORRECTS_NO_RAW_SHEAR_SPIN_LIFT_CLAIM__SOURCE_SILENT_ON_THE_EPSILON_IG_FERMION_PRINCIPAL_PROLONGATION",
+  "hostile_verdict": "SURVIVES_SCOPED__RAW_SHEAR_PORT_KILLED_ONLY_AS_FIXED_K77_SPIN_LIFT__LOCAL_EPSILON_IG_SPIN_CLIFFORD_PROLONGATION_WITNESS_LIVE__CANONICAL_ACTION_OWNED_MAP_OPEN",
+  "next_gate": "CONSTRUCT_OR_KILL_THE_CANONICAL_ACTION_OWNED_MAP_FROM_THE_ACTUAL_OBSERVATION_SECTION_JET_TO_A_K77_ORTHOGONAL_EPSILON_IG_CLIFFORD_ANCHOR_AND_MOVING_H640_GRAPH__THEN_RETEST_ALL40_MIXED_DIRECTIONS_BOTH_HORNS_AND_FULL1920_BEFORE_LOWER_ORDER16CELL_BV_KT",
+  "accounting": {
+    "P1_P2_P3_used": false,
+    "verdict_change": false,
+    "booked_residue_change": false,
+    "quotient_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  }
+}

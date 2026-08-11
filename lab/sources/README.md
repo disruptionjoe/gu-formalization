@@ -449,3 +449,5 @@ identifications as separate grades.
   - confirms the ambient `Y14` operator and observation pullback; records Curt's vertical-scalar reconstruction as guidance and returns source-silent on the H640 graph, vertical Higgs/soldering adapter, Riccati/BV system and global domain.
 - [`selected-k77-vertical-soldering-adapter-order-gate-source-return-2026-08-11.md`](selected-k77-vertical-soldering-adapter-order-gate-source-return-2026-08-11.md)
   - confirms Weinstein's displaced-connection and connection-bearing fermion arena, corrects the literal `q=Higgs` reading, and returns source-silent on `sigma_epsilon`, H640 and a principal moving observation/soldering adapter.
+- [`selected-k77-first-jet-fermion-symbol-port-gate-source-return-2026-08-11.md`](selected-k77-first-jet-fermion-symbol-port-gate-source-return-2026-08-11.md)
+  - confirms gauge-rotated Levi-Civita and rich observation as distinct source owners, corrects any raw-shear Spin-lift inference, and returns source-silent on the repository's canonical `epsilon_IG` fermion-principal prolongation.

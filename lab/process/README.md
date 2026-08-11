@@ -7,14 +7,15 @@ updated_at: "2026-08-11"
 
 # Process
 
-Current append-only progress surface: ledger v0.185. The complete rank-ten
-displaced-connection / `sigma_epsilon` / `gamma(h_omega)` family is zeroth
-order and has zero principal response, while all ten transverse H640
-residuals remain rank 128. It survives as a lower-order Higgs/Yukawa candidate.
-The already-built selected-action first-jet observation/equation dual and
-Levi-Civita soldering derivative must now be ported to the K77 fermion/H640
-symbol before complete lower-order Riccati, barred-adjoint and BV/KT work.
-Registry: `selected-k77-vertical-soldering-adapter-order-gate.json`.
+Current append-only progress surface: ledger v0.186. The raw observation shear
+is invertible but not K77 orthogonal and Levi-Civita is fermion-zero-order.
+Exact co-moving Spin/Clifford boost and rotation witnesses close fixed-H640
+leakage rank 128 to zero while preserving both pairings. The canonical
+action-owned section-jet to `epsilon_IG` map, all 40 directions and full BV/KT
+remain open. Registry: `selected-k77-first-jet-fermion-symbol-port-gate.json`.
+
+Predecessor v0.185 separates the lower-order Higgs chain from principal
+observation descent.
 
 Predecessor v0.184 proves H640 is the ordinary observed graph and the
 unrestricted ambient hull is rank 1,920.
@@ -1643,4 +1644,5 @@ Runbooks:
 - `conditional-physics-ledger-v0.183.json` / `selected-k77-h640-observation-pullback-bv-typing.json` — exact observation-graph packet: H640 and the coordinate observed carrier are distinct rank-640 spaces, but observation derives an isomorphic rank-128 graph lift with principal no-leakage; finite lower-order leakage keeps full graph/Riccati and BV/KT open.
 - `conditional-physics-ledger-v0.184.json` / `selected-k77-h640-ambient-observed-riccati-boundary.json` — exact two-prime ambient/observed boundary: H640 closes the three observed evolutions, ten transverse directions leak rank 128 each, the unrestricted hull is rank 1,920, and ordinary pullback kills transverse covectors.
 - `conditional-physics-ledger-v0.185.json` / `selected-k77-vertical-soldering-adapter-order-gate.json` — exact two-prime differential-order split: the complete rank-ten algebraic Higgs chain has zero principal response, all ten rank-128 targets survive, both pairing horns remain eligible, and the existing selected-action first-jet/soldering chain must now be ported to the fermion/H640 symbol.
+- `conditional-physics-ledger-v0.186.json` / `selected-k77-first-jet-fermion-symbol-port-gate.json` — raw observation shear is not a K77 Spin lift, but exact co-moving Clifford-anchor/H640 boost and rotation witnesses close the local rank-128 leak; the canonical action-owned prolongation remains open.
 - `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.

@@ -9,16 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.185 splits the previous vertical-adapter burden by differential
-order. The complete rank-ten displaced-connection / `sigma_epsilon` /
-`gamma(h_omega)` chain is zeroth order and has zero principal response, so it
-cannot repair the ten rank-128 transverse H640 residuals. It remains live for
-lower-order Higgs/Yukawa placement. Rank one is therefore to port the
-already-built selected-action first-jet observation/equation dual and
-Levi-Civita soldering derivative to the K77 fermion/H640 symbol; retest all ten
-residuals with both pairing horns and rank 1,920 as controls.
-Only then run the complete lower-order sixteen-cell Riccati/BV solve. Do not
-fit a replacement first jet or call the Higgs route dead.
+Ledger v0.186 shows that the raw observation shear is not a K77 Spin lift and
+Levi-Civita remains fermion-zero-order, but an exact local co-moving
+Spin/Clifford plus H640 prolongation closes the representative rank-128 leak.
+Rank one is now to construct or kill the canonical action-owned map from the
+actual section jet to that `epsilon_IG` prolongation and retest all 40 mixed
+directions, both pairing horns and rank 1,920. Only then run the lower-order
+sixteen-cell Riccati/BV solve. Do not fit a general first jet, call the raw
+bosonic map dead, or promote the local witness to source/action selection.
 
 Ledger v0.183 corrects the carrier/observation object before BV construction.
 The exact conditional H640 is not the coordinate observed rank-640 carrier;

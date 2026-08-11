@@ -7,21 +7,22 @@ updated_at: "2026-08-11"
 
 # Next Steps For Contributors
 
-> **2026-08-11 K77 VERTICAL ADAPTER ORDER GATE (ledger v0.185).** The complete
-> rank-ten `T_omega -> sigma_epsilon -> h_omega -> gamma(h_omega)` family is
-> zeroth order and has exact zero principal response. All ten transverse H640
-> residuals remain rank 128. Both barred-adjoint horns admit all ten
-> representative compressed Clifford terms as alternating coefficients, but
-> neither is selected. **Next port or kill the already-built selected-action
-> first-jet observation/equation dual and Levi-Civita soldering derivative on
-> the K77 fermion/H640 symbol; retest all ten residuals with rank 1,920 as
-> control, then insert the surviving
-> lower-order Higgs/Yukawa chain into the complete sixteen-cell BV/KT solve.**
-> Do not call the lower-order Higgs route dead or fit an arbitrary first-order
-> cancellation map.
-> The existing moving observation first jet is a distinct source/action-owned
-> construction, not another name for the zero-order Higgs term. Construct a
-> new fermionic `epsilon_IG` prolongation only if this port is ill-typed.
+> **2026-08-11 K77 FIRST-JET FERMION-SYMBOL PORT GATE (ledger v0.186).** The
+> raw v0.28 `4+10` observation shear is invertible but not K77 orthogonal
+> (defect rank 8), so it has no literal fixed-metric Spin lift. Levi-Civita is
+> first order in the metric but zeroth order in the fermion. Exact rational
+> Spin boost and rotation witnesses over two fields instead move the Clifford
+> anchor and `H640` graph together: fixed-graph leakage is rank 128 and the
+> co-moving leakage is zero, with gamma/symbol covariance and both pairing
+> identities exact. **Next construct or kill the canonical action-owned map
+> from the actual section jet to this `epsilon_IG` prolongation; retest all 40
+> mixed directions, both horns and rank 1,920 before lower-order BV/KT.** Do
+> not call the raw bosonic map dead, admit the witness as a selected map, or
+> collapse full `U(64,64)` with the two `U(32,32)` halves.
+
+> **Predecessor v0.185:** the rank-ten algebraic Higgs chain is fermion-zero-
+> order and cannot repair principal leakage; it survives for lower-order
+> Higgs/Yukawa placement.
 
 > **Predecessor v0.184:** `H640` is exact for the three observed spatial
 > evolutions, while ten transverse directions leak rank 128 and the complete

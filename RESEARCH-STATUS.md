@@ -8,19 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.185; eight
-distance/evidence migrations; headline unchanged).** The source-owned
-displaced connection and conditional rank-ten receiver produce a live
-`gamma(h_omega)` family, but it is zeroth order. Exact two-field filtration
-tests give principal-response rank zero, while each of the ten transverse
-H640 residuals remains rank 128. The representative zero-order and target
-operator spans have ranks ten and ten with joint rank twenty. Both pairing
-horns remain alternating for all ten tested Clifford terms. The lower-order
-Higgs/Yukawa route survives. The next gate ports the already-built
-selected-action first-jet observation/equation dual and Levi-Civita soldering
-derivative to the K77 fermion/H640 symbol before the complete lower-order
-Riccati/BV/KT solve. A new `epsilon_IG` prolongation is allowed only if that
-port is ill-typed. No verdict, residue, quotient, canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.186; eight
+distance/evidence migrations; headline unchanged).** The raw v0.28 `4+10`
+observation shear is invertible but not K77 orthogonal (defect rank eight), and
+Levi-Civita is fermion-zero-order. It therefore cannot be the literal fixed-
+metric Spin port. Exact rational boost and rotation witnesses over two fields
+move the Clifford anchor and `H640` graph together: fixed-graph leakage is rank
+128, co-moving leakage is zero, gamma and symbol covariance are exact, and
+both pairing horns are preserved without selection. This is a local
+conditional `epsilon_IG` prolongation class. The canonical action-owned map
+from the actual section jet, all 40 directions, full lower-order BV/KT and
+analytic domain remain open. No verdict, residue, quotient, canon or public
+posture moves.
+
+**Predecessor v0.185.** The complete rank-ten algebraic Higgs chain has zero
+fermion-principal response and survives only for lower-order Higgs/Yukawa work.
 
 **Predecessor v0.184.** The exact observed `H640` graph closes the three
 spacetime spatial evolutions, while each of ten transverse `Y^14` directions

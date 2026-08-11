@@ -24,20 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.185.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.185.md`.
+`lab/process/conditional-physics-ledger-v0.186.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.186.md`.
 
-Current vertical-adapter order result: the complete rank-ten displaced-
-connection / `sigma_epsilon` / `gamma(h_omega)` family is zeroth order and has
-zero principal response. It changes none of the ten rank-128 transverse H640
-residuals. Both action pairing horns admit all ten representative compressed
-Clifford terms as alternating coefficients, but neither is selected. The
-lower-order Higgs/Yukawa route survives. Build next ports or kills the
-already-built selected-action first-jet observation/equation dual and
-Levi-Civita soldering derivative on the K77 fermion/H640 symbol, retests all
-ten residuals with rank 1,920 as control, and only then
-inserts `gamma(h_omega)` into the complete lower-order sixteen-cell
-Riccati/BV/KT system. A fitted first-order cancellation is forbidden.
+Current first-jet fermion-symbol result: the raw observation shear is
+invertible but not K77 orthogonal and Levi-Civita is fermion-zero-order. Exact
+co-moving Spin/Clifford boost and rotation witnesses close fixed-graph leakage
+rank 128 to zero while preserving both pairing horns. Build next constructs or
+kills the canonical action-owned section-jet to `epsilon_IG` Clifford-anchor
+and moving-H640 map, retests all 40 mixed directions with rank 1,920 as
+control, and only then inserts `gamma(h_omega)` into the complete lower-order
+sixteen-cell Riccati/BV/KT system. A fitted first jet is forbidden.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial

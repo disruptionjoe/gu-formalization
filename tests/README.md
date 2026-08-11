@@ -3119,3 +3119,18 @@ fires and is rejected as unowned.
 sage -python tests/channel-swings/selected_k77_vertical_soldering_adapter_order_gate_probe.py
 python3 process_gates/k77_vertical_soldering_adapter_order_gate_audit.py
 ```
+
+## K77 first-jet fermion-symbol port gate v0.186
+
+`channel-swings/selected_k77_first_jet_fermion_symbol_port_gate_probe.py`
+separates the raw `4+10` observation shear, Levi-Civita coefficient and genuine
+Spin/Clifford frame transport over `GF(1009)` and `GF(1013)`. It proves the raw
+shear is invertible but not K77 orthogonal, Levi-Civita is fermion-zero-order,
+and exact boost/rotation transports close fixed-H640 leakage rank 128 to zero
+only when the Clifford anchor and graph move together. Gamma covariance,
+symbol covariance and both pairing identities are mandatory controls.
+
+```sh
+sage -python tests/channel-swings/selected_k77_first_jet_fermion_symbol_port_gate_probe.py
+python3 process_gates/k77_first_jet_fermion_symbol_port_gate_audit.py
+```

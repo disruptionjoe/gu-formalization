@@ -9,18 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
-> **Current v0.185 K77 vertical-adapter order gate:** the complete rank-ten
-> `T_omega -> sigma_epsilon -> h_omega -> gamma(h_omega)` chain has zero
-> principal response because it is zeroth order. It changes none of the ten
-> rank-128 transverse H640 residuals, though both pairing horns admit the ten
-> representative Clifford terms as alternating lower-order coefficients. The
-> Higgs/Yukawa route survives. Next port or kill the already-built
-> selected-action first-jet observation/equation dual and Levi-Civita soldering
-> derivative on the K77 fermion/H640 symbol, with full rank 1,920 as control,
-> before lower-order Riccati/BV/KT. Selected Spin, two
-> `U(32,32)` halves and full `U(64,64)` remain distinct; P1/P2/P3 are unchanged
-> and unused. A new fermionic `epsilon_IG` prolongation is fallback only if the
-> existing port is ill-typed.
+> **Current v0.186 K77 first-jet fermion-symbol port gate:** the raw v0.28
+> `4+10` shear is invertible but not K77 orthogonal and Levi-Civita is fermion-
+> zero-order, so neither is a literal fixed-frame principal repair. Exact
+> co-moving Spin/Clifford boost and rotation witnesses close rank-128 leakage
+> to zero when the Clifford anchor and `H640` graph move together, preserving
+> both pairings. Next construct the canonical action-owned section-jet to
+> `epsilon_IG` prolongation and retest all 40 directions plus rank 1,920 before
+> lower-order BV/KT. Selected Spin, two `U(32,32)` halves and full `U(64,64)`
+> remain distinct; P1/P2/P3 are unchanged and unused.
+
+> **Predecessor v0.185:** the rank-ten algebraic Higgs chain is fermion-zero-
+> order and survives only for lower-order Higgs/Yukawa placement.
 
 > **Predecessor v0.184:** H640 closes the three observed spatial evolutions,
 > but every transverse direction leaks rank 128 and the ambient hull is 1,920.

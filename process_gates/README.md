@@ -2842,3 +2842,24 @@ targets, checks the fixed-scale span and first-order firing plant, preserves
 both pairing horns without selection, and routes the existing selected-action
 observation/soldering first jet through the K77 fermion/H640 symbol before
 lower-order sixteen-cell Riccati/BV work.
+
+## K77 first-jet fermion-symbol port gate ledger v0.186
+
+Gate: `k77_first_jet_fermion_symbol_port_gate_audit.py`.
+
+```bash
+python3 process_gates/k77_first_jet_fermion_symbol_port_gate_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, requires the raw
+observation shear's nonorthogonality and Levi-Civita's fermion-zero-order
+typing, then verifies exact co-moving Spin/Clifford graph closure with gamma
+and symbol covariance over both fields. It routes the canonical action-owned
+section-jet to `epsilon_IG` map before all-40 and lower-order BV/KT work.
+
+## Live gate inventory catch-up
+
+The inventory audit also tracks these previously live but undocumented local
+gates: `k77_vertical_soldering_adapter_order_gate_audit.py`,
+`canon_docs_frontmatter_validity_audit.py`, `correction_propagation_audit.py`,
+`import_ban_audit.py`, and `retracted_claim_citation_audit.py`.
