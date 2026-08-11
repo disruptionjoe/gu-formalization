@@ -2829,3 +2829,16 @@ of ten transverse directions, rank-768 single joins, full rank-1,920 hull,
 and zero ordinary pullback for transverse covectors. It retains both
 symplectic pairing horns while rejecting alternation as a substitute for
 no-leakage, and routes the vertical adapter before complete Riccati/BV work.
+
+## K77 vertical soldering adapter order gate ledger v0.185
+
+```bash
+python3 process_gates/k77_vertical_soldering_adapter_order_gate_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies the
+rank-ten algebraic chain's zero principal response against ten rank-128
+targets, checks the fixed-scale span and first-order firing plant, preserves
+both pairing horns without selection, and routes the existing selected-action
+observation/soldering first jet through the K77 fermion/H640 symbol before
+lower-order sixteen-cell Riccati/BV work.

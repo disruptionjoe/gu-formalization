@@ -2,18 +2,22 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-10"
+updated_at: "2026-08-11"
 ---
 
 # Process
 
-Current append-only progress surface: ledger v0.184. The exact H640 graph
-closes the three observed spatial evolutions but not the unrestricted Y14
-operator: ten transverse directions each leak rank 128, any one joins to rank
-768, and all thirteen generate rank 1,920. Ordinary pullback kills the
-transverse covectors. A nonzero vertical Higgs/soldering adapter must be
-constructed before complete sixteen-cell Riccati, barred-adjoint and BV/KT.
-Registry: `selected-k77-h640-ambient-observed-riccati-boundary.json`.
+Current append-only progress surface: ledger v0.185. The complete rank-ten
+displaced-connection / `sigma_epsilon` / `gamma(h_omega)` family is zeroth
+order and has zero principal response, while all ten transverse H640
+residuals remain rank 128. It survives as a lower-order Higgs/Yukawa candidate.
+The already-built selected-action first-jet observation/equation dual and
+Levi-Civita soldering derivative must now be ported to the K77 fermion/H640
+symbol before complete lower-order Riccati, barred-adjoint and BV/KT work.
+Registry: `selected-k77-vertical-soldering-adapter-order-gate.json`.
+
+Predecessor v0.184 proves H640 is the ordinary observed graph and the
+unrestricted ambient hull is rank 1,920.
 
 Predecessor v0.182 proves that the source zero-form alone generates the exact
 conditional H640 and controls it against W, mirror, random 192-planes and the
@@ -1637,5 +1641,6 @@ Runbooks:
 - `conditional-physics-ledger-v0.182.json` / `selected-k77-zero-seed-h640-action-closure-controls.json` — the source-owned zero-form field alone generates exact conditional `H640=512+128`; random rank-192 controls generate `1908..1920`, while the old 640 and 832 generate distinct H1280 superspaces meeting in H640 and spanning the full carrier.
 - `hostile-reviews/2026-08-11-selected-k77-zero-seed-h640-action-closure-controls-review.md` — three-charge review fencing the minimal principal-action module from source selection, barred/antifield BV cohomology, BFV reduction and global analytic physics.
 - `conditional-physics-ledger-v0.183.json` / `selected-k77-h640-observation-pullback-bv-typing.json` — exact observation-graph packet: H640 and the coordinate observed carrier are distinct rank-640 spaces, but observation derives an isomorphic rank-128 graph lift with principal no-leakage; finite lower-order leakage keeps full graph/Riccati and BV/KT open.
-- `conditional-physics-ledger-v0.184.json` / `selected-k77-h640-ambient-observed-riccati-boundary.json` — exact two-prime ambient/observed boundary: H640 closes the three observed evolutions, ten transverse directions leak rank 128 each, the unrestricted hull is rank 1,920, ordinary pullback kills transverse covectors, and a vertical adapter is now the prerequisite to complete Riccati/BV closure.
+- `conditional-physics-ledger-v0.184.json` / `selected-k77-h640-ambient-observed-riccati-boundary.json` — exact two-prime ambient/observed boundary: H640 closes the three observed evolutions, ten transverse directions leak rank 128 each, the unrestricted hull is rank 1,920, and ordinary pullback kills transverse covectors.
+- `conditional-physics-ledger-v0.185.json` / `selected-k77-vertical-soldering-adapter-order-gate.json` — exact two-prime differential-order split: the complete rank-ten algebraic Higgs chain has zero principal response, all ten rank-128 targets survive, both pairing horns remain eligible, and the existing selected-action first-jet/soldering chain must now be ported to the fermion/H640 symbol.
 - `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.

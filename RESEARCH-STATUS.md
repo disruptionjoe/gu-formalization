@@ -8,17 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.184; six
-distance/evidence migrations; headline unchanged).** The exact observed
-`H640` graph closes the three spacetime spatial evolutions, but each of the ten
-transverse `Y^14` directions leaks rank 128 and joins it to rank 768. All
-thirteen spatial evolutions generate the full rank-1,920 carrier. Ordinary
-pullback annihilates every transverse covector. Both restricted pairing horns
-remain rank-640 and alternating on all fourteen axes, but this does not prove
-ambient invariance. The next gate is a source-action-owned vertical
-Higgs/soldering adapter before complete sixteen-cell Riccati, barred-adjoint
-and BV/Koszul--Tate closure. No verdict, residue, quotient, canon or public
-posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.185; eight
+distance/evidence migrations; headline unchanged).** The source-owned
+displaced connection and conditional rank-ten receiver produce a live
+`gamma(h_omega)` family, but it is zeroth order. Exact two-field filtration
+tests give principal-response rank zero, while each of the ten transverse
+H640 residuals remains rank 128. The representative zero-order and target
+operator spans have ranks ten and ten with joint rank twenty. Both pairing
+horns remain alternating for all ten tested Clifford terms. The lower-order
+Higgs/Yukawa route survives. The next gate ports the already-built
+selected-action first-jet observation/equation dual and Levi-Civita soldering
+derivative to the K77 fermion/H640 symbol before the complete lower-order
+Riccati/BV/KT solve. A new `epsilon_IG` prolongation is allowed only if that
+port is ill-typed. No verdict, residue, quotient, canon or public posture moves.
+
+**Predecessor v0.184.** The exact observed `H640` graph closes the three
+spacetime spatial evolutions, while each of ten transverse `Y^14` directions
+leaks rank 128 and the unrestricted hull is rank 1,920. Ordinary pullback
+annihilates every transverse covector.
 
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.183; six
 distance/evidence migrations; headline unchanged).** The exact conditional

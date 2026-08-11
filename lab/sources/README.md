@@ -447,3 +447,5 @@ identifications as separate grades.
   - confirms observation pullback and independent barred/unbarred `Omega0 + Omega1` fields; returns source-silent on the action-derived graph lift, variation/pullback commutation, full BV/Koszul--Tate and physical cohomology.
 - [`selected-k77-h640-ambient-observed-riccati-boundary-source-return-2026-08-11.md`](selected-k77-h640-ambient-observed-riccati-boundary-source-return-2026-08-11.md)
   - confirms the ambient `Y14` operator and observation pullback; records Curt's vertical-scalar reconstruction as guidance and returns source-silent on the H640 graph, vertical Higgs/soldering adapter, Riccati/BV system and global domain.
+- [`selected-k77-vertical-soldering-adapter-order-gate-source-return-2026-08-11.md`](selected-k77-vertical-soldering-adapter-order-gate-source-return-2026-08-11.md)
+  - confirms Weinstein's displaced-connection and connection-bearing fermion arena, corrects the literal `q=Higgs` reading, and returns source-silent on `sigma_epsilon`, H640 and a principal moving observation/soldering adapter.

@@ -3103,3 +3103,19 @@ showing that alternation does not imply ambient no-leakage.
 sage -python tests/channel-swings/selected_k77_h640_ambient_observed_riccati_boundary_probe.py
 python3 process_gates/k77_h640_ambient_observed_riccati_boundary_audit.py
 ```
+
+## K77 vertical soldering adapter differential-order gate v0.185
+
+`channel-swings/selected_k77_vertical_soldering_adapter_order_gate_probe.py`
+rebuilds H640 and the complete rank-ten `sigma_epsilon -> h_omega ->
+gamma(h_omega)` family over `GF(1009)` and `GF(1013)`. It proves the algebraic
+chain has principal-response rank zero while all ten transverse residuals keep
+rank 128. A representative fixed-scale placement has span rank ten, the
+targets span ten, and their joint span has rank twenty. Both pairing horns
+admit all ten tested lower-order Clifford terms; a fitted first-order plant
+fires and is rejected as unowned.
+
+```sh
+sage -python tests/channel-swings/selected_k77_vertical_soldering_adapter_order_gate_probe.py
+python3 process_gates/k77_vertical_soldering_adapter_order_gate_audit.py
+```

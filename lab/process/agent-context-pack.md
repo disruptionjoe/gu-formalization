@@ -9,15 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
-> **Current v0.184 K77 H640 ambient/observed boundary:** `H640` closes the
-> three observed spatial evolutions exactly. Each of the ten transverse `Y^14`
-> directions leaks rank 128 and joins it to rank 768; all thirteen spatial
-> evolutions generate rank 1,920. Ordinary pullback kills all ten transverse
-> covectors. Both pairing horns remain nondegenerate and alternating on H640,
-> but this is not ambient no-leakage. Next construct or kill a source-action-
-> owned vertical adapter before complete sixteen-cell Riccati, barred-adjoint
-> and BV/Koszul--Tate closure. Selected Spin, two `U(32,32)` halves and full
-> `U(64,64)` remain distinct; P1/P2/P3 are unchanged and unused.
+> **Current v0.185 K77 vertical-adapter order gate:** the complete rank-ten
+> `T_omega -> sigma_epsilon -> h_omega -> gamma(h_omega)` chain has zero
+> principal response because it is zeroth order. It changes none of the ten
+> rank-128 transverse H640 residuals, though both pairing horns admit the ten
+> representative Clifford terms as alternating lower-order coefficients. The
+> Higgs/Yukawa route survives. Next port or kill the already-built
+> selected-action first-jet observation/equation dual and Levi-Civita soldering
+> derivative on the K77 fermion/H640 symbol, with full rank 1,920 as control,
+> before lower-order Riccati/BV/KT. Selected Spin, two
+> `U(32,32)` halves and full `U(64,64)` remain distinct; P1/P2/P3 are unchanged
+> and unused. A new fermionic `epsilon_IG` prolongation is fallback only if the
+> existing port is ill-typed.
+
+> **Predecessor v0.184:** H640 closes the three observed spatial evolutions,
+> but every transverse direction leaks rank 128 and the ambient hull is 1,920.
 
 > **Current v0.183 K77 H640 observation graph / BV typing:** `H640` is not
 > the coordinate observed `Omega^1(X,S) + Omega^0(X,S)` carrier. Their exact

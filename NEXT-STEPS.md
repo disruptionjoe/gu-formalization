@@ -7,17 +7,25 @@ updated_at: "2026-08-11"
 
 # Next Steps For Contributors
 
-> **2026-08-11 K77 H640 AMBIENT/OBSERVED BOUNDARY (ledger v0.184).**
-> `H640` is exact for the three observed spatial evolutions, but every one of
-> the ten transverse `Y^14` directions leaks rank 128 and enlarges it to rank
-> 768; all thirteen spatial evolutions generate the full rank 1,920 carrier.
-> Ordinary pullback kills the transverse covectors. Both pairing horns remain
-> alternating and nondegenerate on `H640`, which does not imply ambient
-> no-leakage. **Next construct or kill a source-action-owned vertical
-> Higgs/soldering adapter satisfying the ten graph/Riccati residuals and both
-> barred-adjoint horns, with rank 1,920 as control; only then solve the complete
-> sixteen-cell BV/Koszul--Tate system.** Do not call ordinary pullback a Higgs
-> adapter or the ambient hull a four-dimensional no-go.
+> **2026-08-11 K77 VERTICAL ADAPTER ORDER GATE (ledger v0.185).** The complete
+> rank-ten `T_omega -> sigma_epsilon -> h_omega -> gamma(h_omega)` family is
+> zeroth order and has exact zero principal response. All ten transverse H640
+> residuals remain rank 128. Both barred-adjoint horns admit all ten
+> representative compressed Clifford terms as alternating coefficients, but
+> neither is selected. **Next port or kill the already-built selected-action
+> first-jet observation/equation dual and Levi-Civita soldering derivative on
+> the K77 fermion/H640 symbol; retest all ten residuals with rank 1,920 as
+> control, then insert the surviving
+> lower-order Higgs/Yukawa chain into the complete sixteen-cell BV/KT solve.**
+> Do not call the lower-order Higgs route dead or fit an arbitrary first-order
+> cancellation map.
+> The existing moving observation first jet is a distinct source/action-owned
+> construction, not another name for the zero-order Higgs term. Construct a
+> new fermionic `epsilon_IG` prolongation only if this port is ill-typed.
+
+> **Predecessor v0.184:** `H640` is exact for the three observed spatial
+> evolutions, while ten transverse directions leak rank 128 and the complete
+> ambient hull is rank 1,920. Ordinary pullback kills the transverse covectors.
 
 > **2026-08-11 K77 H640 OBSERVATION GRAPH / BV TYPING (ledger v0.183).**
 > `H640` is not the coordinate `Omega^1(X,S) + Omega^0(X,S)` carrier: the

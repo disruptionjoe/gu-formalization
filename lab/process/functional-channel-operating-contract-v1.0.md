@@ -24,20 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.184.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.184.md`.
+`lab/process/conditional-physics-ledger-v0.185.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.185.md`.
 
-Current ambient/observed boundary result: `H640` is the exact graph for the
-three observed spatial evolutions, but not for the unrestricted `Y^14`
-operator. Each of the ten transverse spatial directions leaks rank 128 and
-joins `H640` to rank 768; all thirteen spatial evolutions generate the full
-rank-1,920 carrier. Ordinary pullback kills all ten transverse covectors.
-Both action pairing horns remain nondegenerate and alternating on `H640`, but
-that does not imply ambient no-leakage. Build next constructs or kills a
-source-action-owned vertical Higgs/soldering adapter before solving the
-complete sixteen-cell graph/Riccati, barred-adjoint and BV/Koszul--Tate system.
-Ordinary pullback is not a nonzero vertical adapter, and finite alternating
-compression is not a closed analytic domain.
+Current vertical-adapter order result: the complete rank-ten displaced-
+connection / `sigma_epsilon` / `gamma(h_omega)` family is zeroth order and has
+zero principal response. It changes none of the ten rank-128 transverse H640
+residuals. Both action pairing horns admit all ten representative compressed
+Clifford terms as alternating coefficients, but neither is selected. The
+lower-order Higgs/Yukawa route survives. Build next ports or kills the
+already-built selected-action first-jet observation/equation dual and
+Levi-Civita soldering derivative on the K77 fermion/H640 symbol, retests all
+ten residuals with rank 1,920 as control, and only then
+inserts `gamma(h_omega)` into the complete lower-order sixteen-cell
+Riccati/BV/KT system. A fitted first-order cancellation is forbidden.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial

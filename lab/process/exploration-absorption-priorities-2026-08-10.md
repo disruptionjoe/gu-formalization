@@ -9,14 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.184 establishes that H640 is the observed graph, not the unrestricted
-ambient domain. Ten transverse `Y^14` directions each leak rank 128 and the
-complete ambient hull is rank 1,920, while ordinary pullback kills all ten
-transverse covectors. Rank one is therefore to construct or kill a source-
-action-owned vertical Higgs/soldering adapter satisfying those ten residuals
-and both barred-adjoint horns. Only after that typing should the complete
-sixteen-cell Riccati/BV solve run. Do not turn ordinary pullback into a Higgs
-mechanism or ambient closure into a four-dimensional no-go.
+Ledger v0.185 splits the previous vertical-adapter burden by differential
+order. The complete rank-ten displaced-connection / `sigma_epsilon` /
+`gamma(h_omega)` chain is zeroth order and has zero principal response, so it
+cannot repair the ten rank-128 transverse H640 residuals. It remains live for
+lower-order Higgs/Yukawa placement. Rank one is therefore to port the
+already-built selected-action first-jet observation/equation dual and
+Levi-Civita soldering derivative to the K77 fermion/H640 symbol; retest all ten
+residuals with both pairing horns and rank 1,920 as controls.
+Only then run the complete lower-order sixteen-cell Riccati/BV solve. Do not
+fit a replacement first jet or call the Higgs route dead.
 
 Ledger v0.183 corrects the carrier/observation object before BV construction.
 The exact conditional H640 is not the coordinate observed rank-640 carrier;
