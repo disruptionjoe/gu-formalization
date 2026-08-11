@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-011626-gu-k77-unrestricted-four-field-euler-image",
+  "field": "GF(1000033) with good-prime nonnull determinant certificate over QQ(i)",
+  "checks": {
+    "failures": 0,
+    "source": 3,
+    "prior_art": 3,
+    "layer0": 5,
+    "action": 5,
+    "exact": 8,
+    "theorem": 1,
+    "symplectic": 2,
+    "horn": 2,
+    "planted": 3,
+    "variational": 1,
+    "bv": 1,
+    "analytic": 1,
+    "representation": 1,
+    "datum": 1,
+    "scope": 2
+  },
+  "symbol_ranks": {
+    "timelike": 1920,
+    "spacelike": 1920,
+    "null": 1024
+  },
+  "tested_unrestricted_euler_image_rank": 1920,
+  "tested_unrestricted_action_dual_rank": 1920,
+  "candidates": {
+    "column_pin": {
+      "common_hull_rank": 384,
+      "unrestricted_euler_image_rank": 1920,
+      "common_in_unrestricted_intersection_rank": 384,
+      "common_unrestricted_join_rank": 1920,
+      "proper_codimension": 1536,
+      "paired_common_rank": 384,
+      "unrestricted_action_dual_rank": 1920,
+      "paired_common_action_dual_intersection_rank": 384,
+      "paired_common_action_dual_join_rank": 1920,
+      "null_image_rank": 1024,
+      "common_null_intersection_rank": 192,
+      "common_equals_unrestricted": false,
+      "paired_common_equals_unrestricted_dual": false
+    },
+    "row_pin": {
+      "common_hull_rank": 384,
+      "unrestricted_euler_image_rank": 1920,
+      "common_in_unrestricted_intersection_rank": 384,
+      "common_unrestricted_join_rank": 1920,
+      "proper_codimension": 1536,
+      "paired_common_rank": 384,
+      "unrestricted_action_dual_rank": 1920,
+      "paired_common_action_dual_intersection_rank": 384,
+      "paired_common_action_dual_join_rank": 1920,
+      "null_image_rank": 1024,
+      "common_null_intersection_rank": 192,
+      "common_equals_unrestricted": false,
+      "paired_common_equals_unrestricted_dual": false
+    }
+  },
+  "bounded_route_action_owned": false,
+  "source_return": "SOURCE_CONFIRMS_FOUR_FIELD_CANDIDATE_AND_EULER_RESIDUAL_CLASSES__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_SELECTED_K77_PRINCIPAL_REALIZATION_RANK384_RESTRICTION_BV_QUOTIENT_AND_DOMAIN",
+  "disposition": "TESTED_COMMON_HULL384_IS_PROPER_CODIMENSION1536_SUBSPACE_OF_FULL_NONNULL_FOUR_FIELD_EULER_IMAGE_AND_ACTION_DUAL__BOUNDED_GRAPH_ROUTE_NOT_ACTION_OWNED__RETURN_TO_UNRESTRICTED_SOURCE_OPERATOR",
+  "next_gate": "BUILD_THE_UNRESTRICTED_FOUR_FIELD_SOURCE_OPERATOR_WITH_THE_SOURCE_ADMITTED_SOUTHEAST_RIVAL_AND_DERIVE_ITS_OFFSHELL_BV_CONSTRAINT_COMPLEX__NO_POST_VARIATION_RANK384_PROJECTOR"
+}

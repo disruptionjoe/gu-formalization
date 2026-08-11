@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 UNRESTRICTED FOUR-FIELD EULER IMAGE (ledger v0.162).** The
+> selected complete timelike and spacelike four-field principal symbols are
+> full rank `1920`, and the nondegenerate Krein pairing gives a full-rank
+> action dual. The tested rank-`384` graph receiver and paired left hull are
+> proper codimension-`1536` subspaces for both Pin placements. The bounded
+> graph route is therefore not selected by the unrestricted action and stops
+> without a fitted projector. **Next build the unrestricted four-field source
+> operator with the source-admitted southeast rival typed explicitly, then
+> derive or kill its off-shell constraint/BV complex. A smaller carrier may
+> revive only if that pre-variation construction derives it.** Global domain,
+> observation, chirality, index/count and physics rendezvous remain downstream.
+> No verdict, residue, quotient, datum, canon or public-posture change is made.
+
 > **2026-08-11 FIXED COMMON RECEIVER HULL (ledger v0.161).** The exact
 > timelike, spacelike and null minimal receivers each have rank `256`, but
 > every pair intersects only in the original rank-`128` receiver and joins to

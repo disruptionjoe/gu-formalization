@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `unrestricted_four_field_euler_image_audit.py` enforces ledger v0.162's
+  full-rank nonnull four-field Euler/action-dual comparison, proper
+  codimension-1536 rank-384 hull, bounded-route stop, unchanged headline
+  accounting and unrestricted source/BV successor.
+
 - `fixed_common_receiver_hull_audit.py` enforces ledger v0.161's exact
   per-stratum `256` versus tested common-hull `384` distinction, paired-left
   accounting, bosonic-selector Layer-0 fence, unchanged headline accounting

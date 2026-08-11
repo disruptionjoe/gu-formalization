@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.162 unrestricted-four-field gate:** the selected complete
+> timelike and spacelike four-field principal Euler symbols and their
+> nondegenerate action dual are full rank 1920. Both Pin rank-384 graph
+> receiver/paired-left hulls are proper codimension-1536 subspaces. The bounded
+> graph route is not action-owned and stops without a fitted projector. Next
+> build the unrestricted four-field source operator, type the source-admitted
+> southeast rival and derive or kill its off-shell constraint/BV complex. A
+> smaller carrier revives only if derived before variation. Global domain,
+> observation, chirality, index/count and physics rendezvous remain downstream;
+> external datum cannot repair local closure.
+
 > **Current v0.161 fixed-common-hull gate:** each tested causal minimal receiver
 > is rank 256, but every pair intersects only in the original rank-128 receiver
 > and joins to rank 384. All three causal representatives and both Pin

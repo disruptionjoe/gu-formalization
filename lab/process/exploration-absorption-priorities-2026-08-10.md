@@ -9,6 +9,17 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.162 ends the bounded graph-receiver route as the leading Build. The
+complete selected nonnull four-field principal Euler image and paired action
+dual are rank 1920; the rank-384 graph hull is a proper codimension-1536
+subspace for both Pin placements. No action-owned equality or pre-variation
+restriction exists, and a fitted projector is forbidden. The next
+highest-information Build is the unrestricted four-field source operator with
+the source-admitted southeast rival typed explicitly, followed by an off-shell
+constraint/BV closure test. Preserve the displayed southeast-zero branch as a
+control. Revive a smaller carrier only if the unrestricted construction
+derives it before variation.
+
 Ledger v0.161 kills the fixed-rank-256 common-receiver reading. The exact
 timelike, spacelike and null receivers are unequal rank-256 subspaces whose
 pairwise joins and tested common hull have rank 384; both Pin placements agree

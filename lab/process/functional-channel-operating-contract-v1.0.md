@@ -24,8 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.161.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.161.md`.
+`lab/process/conditional-physics-ledger-v0.162.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.162.md`.
+
+Current unrestricted-four-field correction: the complete selected timelike
+and spacelike four-field principal Euler symbols are full rank `1920`, and the
+nondegenerate Krein pairing gives a full-rank action dual. Both Pin rank-`384`
+graph receiver/paired-left hulls are proper codimension-`1536` subspaces. The
+bounded graph route is not selected by the unrestricted action and stops
+without a fitted projector. Build now returns to the unrestricted four-field
+source operator, types the source-admitted southeast rival, and derives or
+kills its off-shell constraint/BV complex. A smaller carrier may revive only
+through a source-derived pre-variation restriction. Global domain,
+observation, chirality, index/count and the Higgs/Yukawa, anomaly and cosmology
+rendezvous remain downstream.
 
 Current fixed-common-hull correction: every tested causal stratum separately
 has a rank-256 minimal receiver, but any pair intersects only in the original

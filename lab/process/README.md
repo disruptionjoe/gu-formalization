@@ -7,14 +7,18 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.161. The exact tested common
-receiver hull has rank 384 for both Pin placements: every causal minimal
-receiver has rank 256, each pair intersects at 128 and joins at 384, and the
-common paired action hull adds 256 directions. The fixed-rank-256 reading is
-killed. Bosonic `P_epsilon`/`D_varpi chi` constraints cannot directly select
-the fermion receiver. Next compare rank 384 with the unrestricted four-field
-Euler image/action dual, returning to the unrestricted source operator on
-failure. Registry: `selected-k77-fixed-common-receiver-hull.json`.
+Current append-only progress surface: ledger v0.162. The complete selected
+nonnull four-field principal Euler image and nondegenerate action dual are
+rank 1920. Both Pin rank-384 graph receiver/paired-left hulls are proper
+codimension-1536 subspaces, so the bounded route is not action-owned and stops
+without a fitted projector. Next build the unrestricted four-field source
+operator, type the source-admitted southeast rival and derive or kill its
+off-shell BV/constraint complex. Registry:
+`selected-k77-unrestricted-four-field-euler-image.json`.
+
+Predecessor v0.161 computes the rank-384 tested common hull; v0.162 preserves
+that exact diagnostic while killing its identification with the unrestricted
+action image.
 
 Predecessor v0.160 supplies the ambient-field ownership correction and the
 common-hull question; v0.161 answers the rank question and corrects its direct

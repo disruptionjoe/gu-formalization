@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.162; six
+distance/evidence migrations; headline unchanged).** The selected real-K77
+timelike and spacelike complete four-field principal Euler matrices are full
+rank `1920` modulo the good prime, certifying nonzero determinant over
+`QQ(i)`. Their image and nondegenerate Krein/action dual are the full
+four-field spaces. Both Pin rank-`384` receiver/left hulls are proper
+codimension-`1536` subspaces. The bounded graph route is not action-owned and
+stops without a projector. Next build the unrestricted four-field source
+operator with the source-admitted southeast rival and derive its off-shell
+constraint/BV complex. The source-family Shiab choice, nonlinear lower order,
+global domain, observation, chirality, index/count and physics rendezvous
+remain open. No physical mode, datum, P1/P2/P3, verdict, residue, quotient,
+canon or public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.161; six
 distance/evidence migrations; headline unchanged).** The three tested causal
 minimal receivers are each rank `256`, but their pairwise intersections are
