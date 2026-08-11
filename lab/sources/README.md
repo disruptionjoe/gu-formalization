@@ -420,3 +420,5 @@ identifications as separate grades.
   - confirms the four independent barred/unbarred fields, opposite-half ordering and minus-star grammar; corrects the self-adjoint-only reconstruction to the Grassmann-alternation criterion and remains silent on the K77 pairing horn and invariant product selection.
 - [`selected-k77-independent-dual-weight-trivialization-source-return-2026-08-11.md`](selected-k77-independent-dual-weight-trivialization-source-return-2026-08-11.md)
   - confirms the four-independent-field source parent and operator-family status; corrects `p` from a source-native invariant to a conditional congruence invariant and remains silent on anti-linear reality, global domain and physical normalization.
+- [`selected-k77-majorana-reality-graded-domain-scope-source-return-2026-08-11.md`](selected-k77-majorana-reality-graded-domain-scope-source-return-2026-08-11.md)
+  - confirms the four-independent-field parent and returns source-silent on the local anti-linear choice, pairing horn, graded Green signs and global domain.

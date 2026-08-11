@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.176; six
+distance/evidence migrations; headline unchanged).** Local real-K77
+conjugation exists, squares to `+1`, commutes with the normalized operator and
+preserves real chirality. Composing either exact v0.174 action pairing with
+the obvious barred/unbarred reality relation produces a skew Darboux graph.
+The prior v0.165/v0.166 even comparator requires a symmetric graph and is not
+the odd Grassmann domain. This is a category correction, not a reality no-go.
+Graded Green signs, horn selection, global domain, BFV, observation and
+cohomology remain open. No P1/P2/P3, verdict, residue, quotient, canon or
+public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.175; six
 distance/evidence migrations; headline unchanged).** Layer 0 separates the
 source-native four-independent-field action from v0.174's reality-reduced

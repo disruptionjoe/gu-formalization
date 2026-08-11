@@ -24,8 +24,16 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.175.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.175.md`.
+`lab/process/conditional-physics-ledger-v0.176.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.176.md`.
+
+Current K77 reality/domain correction: local real conjugation exists, but the
+two action-pairing reality candidates induce skew Darboux graphs. The v0.166
+finite theorem is an even symplectic construction requiring symmetric graphs;
+it cannot certify the odd Grassmann domain. Build must next derive the graded
+Green form and moving anti-linear fixed locus from the four-field action, then
+test global overlap and analytic closure. It must not supply a graph or book
+the even `Sym(15)` family as physical residue.
 
 Current source-native weight correction: v0.174's product
 `p=w_+w_-` is invariant only on a reality-reduced congruent quadratic action.

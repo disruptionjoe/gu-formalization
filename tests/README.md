@@ -2975,3 +2975,16 @@ crossed-product plants fire.
 sage -python tests/channel-swings/selected_k77_independent_dual_weight_trivialization_probe.py
 python3 process_gates/k77_independent_dual_weight_trivialization_audit.py
 ```
+
+## K77 Majorana reality / graded-domain scope v0.176
+
+`channel-swings/selected_k77_majorana_reality_graded_domain_scope_probe.py`
+checks local real conjugation and composes the full-carrier two-prime v0.174
+pairing receipt with the v0.166 Darboux graph theorem. Both action-induced
+reality graphs are skew; a planted skew graph fails the even anti-symplectic
+criterion, exposing the required graded successor without claiming a no-go.
+
+```sh
+uv run --python 3.12 --with sympy==1.14.0 python tests/channel-swings/selected_k77_majorana_reality_graded_domain_scope_probe.py
+python3 process_gates/k77_majorana_reality_graded_domain_scope_audit.py
+```

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260811-152113-gu-k77-majorana-reality-graded-domain-scope",
+  "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN",
+  "carrier_dimension": 1920,
+  "exact_primes": [1009, 1013],
+  "directions_checked_each_prime": 14,
+  "checks": {
+    "total": 35,
+    "failures": 0
+  },
+  "local_antilinear_reality": "EXISTS__ENTRYWISE_CONJUGATION_ON_REAL_K77_COMPLEXIFICATION__SQUARE_PLUS_ONE__CHIRALITY_PRESERVING",
+  "action_pairing_horns": {
+    "symmetric_anti_adjoint": "ACTION_QUADRATIC_ALTERNATING__INDUCED_DARBOUX_GRAPH_SKEW",
+    "skew_self_adjoint": "ACTION_QUADRATIC_ALTERNATING__INDUCED_DARBOUX_GRAPH_SKEW"
+  },
+  "even_graph_import": "REJECTED_AS_CATEGORY_MISMATCH__V0166_REQUIRES_SYMMETRIC_S",
+  "graded_physical_domain": "OPEN__ODD_GREEN_FORM_GRADED_TRANSPOSE_AND_MOVING_ANTILINEAR_FIXED_LOCUS_REQUIRED",
+  "reality_selection": "SOURCE_SILENT__TWO_LOCAL_HORNS_UNSELECTED",
+  "p_status": "CONDITIONAL_CONGRUENCE_INVARIANT_ONLY_AFTER_A_REALITY_HORN_IS_SELECTED",
+  "source_return": "SOURCE_CONFIRMS_FOUR_INDEPENDENT_FIELDS_AND_REAL_CANDIDATE_ARENA__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_ANTILINEAR_REALITY_PAIRING_HORN_GRADED_DOMAIN_AND_GLOBAL_CLOSURE",
+  "ledger": "lab/process/conditional-physics-ledger-v0.176.json",
+  "verdict_change": false,
+  "booked_residue_change": false,
+  "quotient_change": false,
+  "p1_p2_p3_used": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "next_gate": "DERIVE_THE_GRADED_ODD_PREBOUNDARY_FORM_AND_MOVING_ANTILINEAR_FIXED_LOCUS_FROM_THE_FOUR_FIELD_ACTION__CLASSIFY_BOTH_PAIRING_HORNS_AND_GLOBAL_OVERLAP__ONLY_THEN_ATTEMPT_CALDERON_OR_MAXIMAL_DISSIPATIVE_CLOSURE"
+}

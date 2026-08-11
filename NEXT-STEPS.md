@@ -7,6 +7,15 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 LOCAL REALITY / GRADED-DOMAIN SCOPE (ledger v0.176).**
+> Real K77 entrywise conjugation gives a local `J^2=+1` anti-linear
+> involution compatible with the normalized operator and real chirality. The
+> two exact action-pairing reality candidates both induce skew Darboux graph
+> coefficients, so v0.166's **even symmetric-graph** theorem cannot certify
+> the physical odd Grassmann domain. **Next derive the graded odd Green form
+> and moving anti-linear fixed locus from the four-field action; only then
+> attempt global Calderon/maximal-dissipative closure. Do not supply a graph.**
+
 > **2026-08-11 SOURCE-NATIVE K77 WEIGHT ORBIT (ledger v0.175).** The four-
 > independent-field action admits a complete left/right field redefinition
 > that preserves both unit cross-degree blocks and sends every nonzero weight

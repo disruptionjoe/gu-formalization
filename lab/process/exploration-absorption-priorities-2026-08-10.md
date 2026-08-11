@@ -9,6 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.176 passes the local anti-linear existence gate but corrects the
+domain category. Real-K77 conjugation is available; neither action-pairing
+candidate lies in v0.166's even symmetric-graph family. Rank one is therefore
+the graded odd Green/preboundary derivation and moving fixed-locus
+classification, followed by global overlap and analytic closure. Do not spend
+another wave selecting inside the even 120-coordinate family and do not book
+that family as physical fermion residue.
+
 Ledger v0.175 runs the Layer-0 distinction v0.174 left open. On the
 source-native four-independent-field action, a complete left/right field
 redefinition preserves both normalized cross-degree blocks and removes both

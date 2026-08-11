@@ -2746,3 +2746,11 @@ both unit cross-degree blocks, even connection and gauge/Noether transport,
 rank-640 transported observation and the conditional survival of `p` only on
 a later reality-congruent branch. It rejects function-valued, quantum-measure,
 global-domain, verdict, datum, residue, quotient, canon and posture promotion.
+
+## K77 Majorana reality / graded-domain scope ledger v0.176
+
+`k77_majorana_reality_graded_domain_scope_audit.py` requires local real-K77
+conjugation, both exact action-pairing horns, rejection of the even symmetric-
+graph theorem as an odd-domain certificate, and an explicitly open graded
+Green/global domain. It rejects verdict, datum, residue, quotient, canon and
+posture promotion.

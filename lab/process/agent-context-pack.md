@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.176 K77 reality/domain scope:** entrywise conjugation supplies
+> local `J^2=+1` reality on the conditional real-K77 operator. It does not
+> select a barred/unbarred relation. Both v0.174 action-pairing candidates
+> induce skew graph coefficients, while v0.166 is an even symplectic theorem
+> for symmetric graphs. Do not use that theorem as the physical odd domain or
+> book its 120 coordinates as fermionic residue. Build the graded odd Green
+> form and moving anti-linear fixed locus next. Keep selected Spin, two
+> `U(32,32)` halves and full `U(64,64)` distinct.
+
 > **Current v0.175 independent-dual weight correction:** the source-native
 > action has four independent barred/unbarred fields. The complete
 > normalization-preserving left/right field-redefinition orbit removes both
