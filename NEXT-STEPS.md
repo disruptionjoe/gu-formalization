@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 GLOBAL K77 NORMAL-SYMBOL DESCENT (ledger v0.167).** The
+> action-owned coefficient is the complete four-field fermion normal principal
+> symbol—not the bosonic `E_B-E_T` bank, a residual Riesz map, or v0.165's
+> scalar comparator. It descends globally as an associated-bundle morphism;
+> its inverse and the v0.166 Darboux atlas descend on noncharacteristic
+> conormals, with the transition-owned cotangent shift. The null symbol has
+> exact rank `1024` and kernel `896`, so there is no everywhere-invertible
+> coefficient and the null kernel is characteristic data, not automatically a
+> gauge/BV quotient. **Next construct a noncharacteristic Cauchy or maximal-
+> dissipative closed domain; use Calderon only if an elliptic boundary problem
+> is explicitly owned. Treat the null characteristic/BFV relation separately,
+> and do not supply the still-unselected 120-coordinate graph.**
+
 > **2026-08-11 MOVING ANTI-DUALIZER/DARBOUX GATE (ledger v0.166).** The
 > v0.68 complete cotangent-lift theorem specializes exactly to v0.165's
 > independent-dual Green potential. The moving coefficient forces

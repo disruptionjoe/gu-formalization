@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.167; six
+distance/evidence migrations; headline unchanged).** The actual moving
+coefficient is the complete four-field fermion normal principal symbol. It
+descends globally as an associated-bundle morphism, and its inverse plus the
+v0.166 Darboux atlas glue exactly on the noncharacteristic locus with the
+transition-owned cotangent shift. The null symbol instead has rank `1024` and
+kernel `896`, killing the premise of one globally invertible coefficient and
+requiring a separate characteristic/BFV relation. Next construct the
+noncharacteristic Cauchy or maximal-dissipative closed domain; invoke Calderon
+only after owning an elliptic boundary problem. The graph remains unselected
+with at least 120 coordinates. Source return:
+`SOURCE_CONFIRMS_FIRST_ORDER_FOUR_FIELD_GRAMMAR_AND_RHO_EPSILON_COVARIANCE_ANSATZ__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_GREEN_CURRENT_GLOBAL_DOMAIN_AND_CAUSAL_STRATUM_PROJECTOR__REPO_COMPOSES_GLOBAL_SYMBOL_DESCENT_NONCHARACTERISTIC_INVERSE_NULL_DEGENERACY`.
+No datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change
+is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.166; six
 distance/evidence migrations; headline unchanged).** The complete cotangent
 owner repairs v0.165's naive moving exchange locally. For an invertible real

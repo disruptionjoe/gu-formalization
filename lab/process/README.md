@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.166. The v0.68 complete
+Current append-only progress surface: ledger v0.167. The action-owned moving
+coefficient is the complete four-field fermion normal principal symbol. It
+descends globally as an associated-bundle morphism; its inverse and the
+v0.166 Darboux atlas descend on noncharacteristic conormals. The null symbol
+has exact rank `1024` and kernel `896`, so one everywhere-invertible coefficient
+is impossible. Next construct the noncharacteristic Cauchy/maximal-dissipative
+closed domain and keep the null characteristic/BFV relation separate.
+Registry: `selected-k77-global-normal-symbol-descent.json`.
+
+Predecessor v0.166. The v0.68 complete
 cotangent-lift theorem specializes exactly to v0.165's independent-dual Green
 potential. The action coefficient and its first derivative force a half
 momentum shear, producing a local moving anti-symplectic involution wherever

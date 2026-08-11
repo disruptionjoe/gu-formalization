@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-060939-gu-k77-global-normal-symbol-descent",
+  "status": "ACTUAL_NORMAL_SYMBOL_TYPED__GLOBAL_ASSOCIATED_BUNDLE_DESCENT_NONCHARACTERISTIC_ONLY__NULL_INVERTIBILITY_KILLED__DARBOUX_ATLAS_GLUES__GRAPH_UNSELECTED",
+  "checks": {
+    "total": 46,
+    "failures": 0
+  },
+  "normal_symbol": {
+    "typed_owner": "FIRST_ORDER_FOUR_FIELD_FERMION_PRINCIPAL_SYMBOL",
+    "not_bosonic_EB_minus_ET_bank": true,
+    "not_v0165_scalar_comparator": true,
+    "global_associated_bundle_morphism": true,
+    "global_automorphism": false,
+    "nonnull_rank": 1920,
+    "null_rank": 1024,
+    "null_kernel": 896
+  },
+  "real_cl77_control": {
+    "spin_dimension": 128,
+    "nonnull_rank": 128,
+    "null_rank": 64,
+    "null_square_zero": true,
+    "not_substituted_for_full_symbol": true
+  },
+  "darboux_descent": {
+    "complete_potential": true,
+    "half_shear": true,
+    "cotangent_overlap_shift": true,
+    "three_patch_noncommuting_cocycle": true,
+    "requires_noncharacteristic_normal": true
+  },
+  "selection": {
+    "graph_selected": false,
+    "minimum_coordinates_transported": 120,
+    "P1_P2_P3": "UNUSED"
+  },
+  "analytic_successor": {
+    "nonnull": "OPEN__CAUCHY_OR_MAXIMAL_DISSIPATIVE_DOMAIN__CALDERON_ONLY_IF_ELLIPTIC_PROBLEM_OWNED",
+    "null": "SEPARATE_CHARACTERISTIC_RELATION_OR_BFV_EDGE_THEORY_REQUIRED"
+  },
+  "source_return": "SOURCE_CONFIRMS_FIRST_ORDER_FOUR_FIELD_GRAMMAR_AND_RHO_EPSILON_COVARIANCE_ANSATZ__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_GREEN_CURRENT_GLOBAL_DOMAIN_AND_CAUSAL_STRATUM_PROJECTOR__REPO_COMPOSES_GLOBAL_SYMBOL_DESCENT_NONCHARACTERISTIC_INVERSE_NULL_DEGENERACY",
+  "disposition": "ACTUAL_NORMAL_SYMBOL_TYPED_AS_FOUR_FIELD_PRINCIPAL_SYMBOL__GLOBAL_ASSOCIATED_BUNDLE_DESCENT_AND_NONCHARACTERISTIC_INVERSE_EXACT__GLOBAL_INVERTIBLE_EVERYWHERE_PREMISE_KILLED_BY_NULL_RANK1024_KERNEL896__DARBOUX_ATLAS_GLUES_WITH_TRANSITION_OWNED_COTANGENT_SHIFT__GRAPH_UNSELECTED",
+  "accounting": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "residue_change": "none",
+    "quotient_change": "none"
+  },
+  "next_gate": "CONSTRUCT_THE_NONCHARACTERISTIC_CLOSED_K77_DOMAIN_FROM_THE_ACTUAL_FOUR_FIELD_SYMBOL_AND_SELECTED_GREEN_FORM__USE_HYPERBOLIC_MAXIMAL_DISSIPATIVITY_OR_CAUCHY_DATA_UNLESS_AN_ELLIPTIC_CALDERON_PROBLEM_IS_EXPLICITLY_OWNED__KEEP_NULL_CHARACTERISTIC_BFV_AND_GRAPH_SELECTION_SEPARATE"
+}

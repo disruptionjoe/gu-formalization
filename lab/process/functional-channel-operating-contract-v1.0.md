@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.166.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.166.md`.
+`lab/process/conditional-physics-ledger-v0.167.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.167.md`.
+
+Current global normal-symbol correction: the action-owned coefficient is the
+complete four-field fermion normal principal symbol. It descends globally as
+an associated-bundle morphism, while its inverse and the Darboux atlas exist
+only on noncharacteristic conormals. The null rank `1024` and kernel `896`
+forbid one global inverse; Build must split noncharacteristic closed-domain
+construction from the null characteristic/BFV relation. Calderon is not a
+generic synonym for this domain and requires an explicitly owned elliptic
+problem. The graph family remains transported and unselected.
 
 Current moving anti-dualizer correction: v0.68 already proves complete
 cotangent-lift naturality. Specializing it to v0.165's independent-dual Green

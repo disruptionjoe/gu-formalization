@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `global_normal_symbol_descent_audit.py` enforces ledger v0.167's typing of
+  the complete four-field fermion normal principal symbol, global associated-
+  bundle descent, noncharacteristic-only inverse/Darboux atlas, exact null
+  degeneracy, causal domain split and unchanged headline accounting.
+
 - `moving_antidualizer_darboux_audit.py` enforces ledger v0.166's exact
   independent-dual cotangent specialization, forced half shear, local moving
   anti-symplectic involution, 120-coordinate no-selection result, adaptive

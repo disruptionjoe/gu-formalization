@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-global-normal-symbol-descent-source-return-2026-08-11.md`](selected-k77-global-normal-symbol-descent-source-return-2026-08-11.md)
+  records source confirmation of the first-order four-field grammar and
+  `rho(epsilon)` covariance ansatz, plus silence on the Green current, global
+  analytic domain and causal-stratum projector.
+
 - [`selected-k77-moving-antidualizer-darboux-source-return-2026-08-11.md`](selected-k77-moving-antidualizer-darboux-source-return-2026-08-11.md)
   records source confirmation of the independent-dual bilinear arena and
   silence on the Darboux anti-dualizer, graph selection, global K77 reality,

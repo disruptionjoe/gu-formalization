@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.167 identifies the action-owned moving coefficient as the complete
+four-field fermion normal principal symbol and proves global associated-bundle
+descent. Its inverse and v0.166 Darboux atlas glue only on noncharacteristic
+conormals; the exact null rank `1024` and kernel `896` kill an everywhere-
+invertible reading. The next highest-information Build is therefore the
+nonnull Cauchy/maximal-dissipative closed domain. A Calderon projector is
+admissible only if an elliptic problem is first constructed; the null
+characteristic/BFV relation and the unselected 120-coordinate graph remain
+separate successors.
+
 Ledger v0.166 repairs the finite moving-normal anti-dualizer obstruction by
 composing v0.68's complete cotangent lift with v0.165's independent-dual Green
 potential. The correction is action-owned and uniquely fixes the half shear,

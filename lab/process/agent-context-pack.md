@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.167 global normal-symbol gate:** the actual coefficient is the
+> complete four-field fermion normal principal symbol. It descends as an
+> associated-bundle morphism, and its inverse plus the v0.166 Darboux chart
+> glue on noncharacteristic conormals. The null symbol has rank `1024` and
+> kernel `896`: do not call it invertible, do not type its characteristic
+> kernel as gauge/BV cohomology, and do not use the inverse-symbol Darboux chart
+> there. Next construct a Cauchy/maximal-dissipative closed domain off the null
+> cone, with Calderon allowed only for an explicitly owned elliptic problem;
+> treat the null characteristic/BFV relation separately.
+
 > **Current v0.166 moving anti-dualizer gate:** v0.68 already owns the general
 > complete cotangent lift. Applied to v0.165's independent-dual potential, it
 > forces `v=A^T bar` and a half momentum shear and produces a local
