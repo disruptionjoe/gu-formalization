@@ -7,7 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.167. The action-owned moving
+Current append-only progress surface: ledger v0.168. The actual source-shaped
+real-K77 dimension-1920 one-time evolution has rank-128 square-zero Jordan
+remainders in all three observed spatial directions. Its positive symmetrizer
+cone is empty, killing the standard unreduced maximal-dissipative Cauchy route.
+Every closed graph and the ambient nonlocal ultrahyperbolic route remain open;
+next derive a constraint/BV reduction or explicit nonlocal constraint.
+Registry: `selected-k77-unreduced-hyperbolic-domain-gate.json`.
+
+Predecessor v0.167. The action-owned moving
 coefficient is the complete four-field fermion normal principal symbol. It
 descends globally as an associated-bundle morphism; its inverse and the
 v0.166 Darboux atlas descend on noncharacteristic conormals. The null symbol

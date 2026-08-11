@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.168; six
+distance/evidence migrations; headline unchanged).** Exact rational
+calculation on the actual source-shaped real-K77 dimension-1920 operator gives
+`rank(E_j^2-1)=128` and `(E_j^2-1)^2=0` in every observed spatial direction.
+The unreduced evolution is non-diagonalizable, so its positive symmetrizer
+cone is empty and the standard strong/symmetric-hyperbolic maximal-dissipative
+Cauchy route is killed. Every closed graph and the ambient nonlocal
+ultrahyperbolic route are not killed. Next construct a source/action-derived
+constraint or BV reduction, or an explicit nonlocal ambient constraint; do
+not fit the unselected 120-coordinate graph. Source return:
+`SOURCE_CONFIRMS_FIRST_ORDER_FOUR_FIELD_GRAMMAR_AND_ONE_TIME_VERSUS_ULTRAHYPERBOLIC_DISTINCTION__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_POSITIVE_SYMMETRIZER_JORDAN_REDUCTION_BV_DIFFERENTIAL_AND_NONLOCAL_DOMAIN`.
+No datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change
+is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.167; six
 distance/evidence migrations; headline unchanged).** The actual moving
 coefficient is the complete four-field fermion normal principal symbol. It

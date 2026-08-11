@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.167.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.167.md`.
+`lab/process/conditional-physics-ledger-v0.168.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.168.md`.
+
+Current unreduced-domain correction: the actual source-shaped real-K77
+one-time evolution has exact rank-128 square-zero Jordan remainders in all
+three observed spatial directions. The positive symmetrizer cone is empty, so
+Build may not continue through the standard unreduced maximal-dissipative
+Cauchy route. This is not nonexistence of every closed graph and not an
+ambient Y14 theorem. Build now derives a source/action-owned constraint or BV
+reduction, or constructs an explicit nonlocal ultrahyperbolic constraint. The
+characteristic-only `d` quotient and graph family may not be supplied.
 
 Current global normal-symbol correction: the action-owned coefficient is the
 complete four-field fermion normal principal symbol. It descends globally as

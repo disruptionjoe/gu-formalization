@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.168 kills the standard unreduced positive-symmetrizer/maximal-
+dissipative Cauchy route on the actual source-shaped real-K77 operator. The
+exact rank-128 square-zero Jordan remainder is present in all three observed
+spatial directions. The next highest-information Build is a source/action-
+derived invariant constraint or BV differential removing those generalized
+chains; the parallel analytic route is an explicit nonlocal ultrahyperbolic
+constraint for the actual operator. Do not port ordinary Cauchy theory, fit a
+graph, or promote the characteristic-only source `d` map to off-shell gauge
+symmetry.
+
 Ledger v0.167 identifies the action-owned moving coefficient as the complete
 four-field fermion normal principal symbol and proves global associated-bundle
 descent. Its inverse and v0.166 Darboux atlas glue only on noncharacteristic

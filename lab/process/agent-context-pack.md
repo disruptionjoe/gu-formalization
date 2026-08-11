@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.168 unreduced-domain gate:** the actual source-shaped real-K77
+> one-time evolution is non-diagonalizable: every observed spatial generator
+> has an exact rank-128 square-zero Jordan remainder. No positive symmetrizer
+> or standard unreduced maximal-dissipative Cauchy domain exists. Do not
+> generalize this to every closed graph, and do not port Lorentzian Cauchy
+> theory to ambient `(7,7)` Y14. Next derive a source/action-owned constraint
+> or BV reduction, or type an explicit nonlocal ultrahyperbolic constraint.
+> The characteristic-only `d` quotient and 120-coordinate graph remain
+> unselected and may not be supplied.
+
 > **Current v0.167 global normal-symbol gate:** the actual coefficient is the
 > complete four-field fermion normal principal symbol. It descends as an
 > associated-bundle morphism, and its inverse plus the v0.166 Darboux chart

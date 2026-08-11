@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-071031-gu-k77-unreduced-hyperbolic-domain-gate",
+  "status": "ACTUAL_UNREDUCED_K77_EVOLUTION_NONDIAGONALIZABLE__POSITIVE_SYMMETRIZER_CONE_EMPTY__STANDARD_CAUCHY_ROUTE_KILLED__NONLOCAL_OR_REDUCED_DOMAIN_OPEN",
+  "checks": {
+    "total": 52,
+    "failures": 0
+  },
+  "operator": {
+    "typed_owner": "REAL_K77_SOURCE_SHAPED_OMEGA1_PLUS_OMEGA0_FOUR_FIELD_PRINCIPAL_OPERATOR",
+    "dimension": 1920,
+    "not_isolated_W131": true,
+    "same_object_bridge": "D_CURRENT=-P_D_PRIOR_MINUS_P"
+  },
+  "observed_evolution": {
+    "directions": ["x", "y", "z"],
+    "jordan_remainder_rank_each": 128,
+    "jordan_remainder_square_zero": true,
+    "positive_simultaneous_symmetrizer_cone": "EMPTY",
+    "strong_hyperbolicity": "FAIL_UNREDUCED"
+  },
+  "domain": {
+    "standard_one_time_maximal_dissipative_route": "KILLED_UNREDUCED",
+    "every_closed_graph_realization": "NOT_KILLED",
+    "ambient_y14": "ULTRAHYPERBOLIC__NONLOCAL_CONSTRAINT_OR_OTHER_DOMAIN_THEORY_REQUIRED",
+    "source_derived_reduction": "OPEN",
+    "conditional_characteristic_quotient": "NOT_PROMOTED__NO_OFFSHELL_BV_DIFFERENTIAL"
+  },
+  "selection": {
+    "graph_selected": false,
+    "minimum_coordinates_transported": 120,
+    "P1_P2_P3": "UNUSED"
+  },
+  "source_return": "SOURCE_CONFIRMS_FIRST_ORDER_FOUR_FIELD_GRAMMAR_AND_ONE_TIME_VERSUS_ULTRAHYPERBOLIC_DISTINCTION__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_POSITIVE_SYMMETRIZER_JORDAN_REDUCTION_BV_DIFFERENTIAL_AND_NONLOCAL_DOMAIN",
+  "hostile_verdict": "SCOPED_SURVIVES__ACTUAL_K77_UNREDUCED_SECTION_EVOLUTION_HAS_EXACT_RANK128_SQUARE_ZERO_JORDAN_REMAINDER__POSITIVE_SYMMETRIZER_AND_STANDARD_MAXIMAL_DISSIPATIVE_ROUTE_KILLED__AMBIENT_NONLOCAL_AND_SOURCE_DERIVED_REDUCED_DOMAINS_OPEN",
+  "accounting": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "residue_change": "none",
+    "quotient_change": "none"
+  },
+  "next_gate": "CONSTRUCT_OR_KILL_A_SOURCE_ACTION_DERIVED_INVARIANT_CONSTRAINT_OR_BV_DIFFERENTIAL_THAT_REMOVES_THE_RANK128_GENERALIZED_CHARACTERISTIC_CHAINS__IN_PARALLEL_TYPE_THE_CRAIG_WEINSTEIN_STYLE_NONLOCAL_ULTRAHYPERBOLIC_CONSTRAINT_FOR_THE_ACTUAL_FIRST_ORDER_SYMBOL__DO_NOT_SUPPLY_A_GRAPH_OR_CALL_CHARACTERISTIC_D_AN_OFFSHELL_GAUGE_SYMMETRY"
+}

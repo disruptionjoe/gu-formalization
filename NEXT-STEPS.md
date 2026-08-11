@@ -7,6 +7,18 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 UNREDUCED K77 HYPERBOLIC-DOMAIN GATE (ledger v0.168).** The
+> actual source-shaped real-K77 dimension-`1920` one-time evolution has an
+> exact rank-`128` square-zero Jordan remainder in each observed spatial
+> direction. Therefore no positive symmetrizer exists, killing the standard
+> unreduced strong/symmetric-hyperbolic maximal-dissipative Cauchy route. This
+> does not kill every closed graph or the ambient nonlocal ultrahyperbolic
+> route. **Next construct or kill a source/action-derived invariant constraint
+> or BV differential removing the generalized characteristic chains; in
+> parallel type the Craig-Weinstein-style nonlocal constraint for the actual
+> first-order operator. Do not supply a graph, promote characteristic `d` to an
+> off-shell symmetry, or port ordinary Lorentzian Cauchy theory to Y14.**
+
 > **2026-08-11 GLOBAL K77 NORMAL-SYMBOL DESCENT (ledger v0.167).** The
 > action-owned coefficient is the complete four-field fermion normal principal
 > symbol—not the bosonic `E_B-E_T` bank, a residual Riesz map, or v0.165's

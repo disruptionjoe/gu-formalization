@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `unreduced_hyperbolic_domain_gate_audit.py` enforces ledger v0.168's exact
+  same-object real-K77 Jordan factorization, empty positive-symmetrizer cone,
+  scoped unreduced maximal-dissipative kill, ultrahyperbolic domain fence and
+  unchanged headline accounting.
+
 - `global_normal_symbol_descent_audit.py` enforces ledger v0.167's typing of
   the complete four-field fermion normal principal symbol, global associated-
   bundle descent, noncharacteristic-only inverse/Darboux atlas, exact null
