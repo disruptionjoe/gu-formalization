@@ -7,6 +7,25 @@ updated_at: "2026-08-11"
 
 # Next Steps For Contributors
 
+> **2026-08-11 FIVE FRONTIER DESIGN PACKETS AVAILABLE (absorption pointer,
+> binds nothing).** Five Joe-directed parallel design passes on hard
+> off-cadence problems are filed with same-run hostile reviews and an
+> umbrella index at `explorations/frontier-design-packets-index-2026-08-11.md`:
+> (1) the Nguyen pincer completed on the settled real form (AC-G1a) — with
+> a post-draft framing correction in the index: kills must name which
+> claim they kill (the draft's own position is 2+1/effective-imposter with
+> a non-chiral total theory, not three fundamental chiral generations);
+> (2) the dim-13 Z/3 count receptacle (stale COUNT anchor found; cheapest
+> decisive step is the M-H5 orientation bit); (3) M-H17 positivity exit
+> criteria (the descended H0 Gram inertia has never been computed — C1
+> runs on existing banks); (4) the B5 five-field packet (audit stale
+> per-field; two fields partially dissolve as audited); (5) the Lane 2
+> prediction packet with the XS-S decision typed four-horn (r(N(z)) refit
+> counted not packet-worthy as posed). All packets pinned at `bdd2c934`;
+> later waves supersede by default; every disposition wave-owned. Next
+> wave: absorb, schedule a packet's first decisive step, or decline with
+> reasons per the absorption protocol.
+
 > **2026-08-11 K77 FIRST-JET FERMION-SYMBOL PORT GATE (ledger v0.186).** The
 > raw v0.28 `4+10` observation shear is invertible but not K77 orthogonal
 > (defect rank 8), so it has no literal fixed-metric Spin lift. Levi-Civita is
