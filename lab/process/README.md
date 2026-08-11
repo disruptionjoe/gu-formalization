@@ -7,7 +7,17 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.165. The selected action's
+Current append-only progress surface: ledger v0.166. The v0.68 complete
+cotangent-lift theorem specializes exactly to v0.165's independent-dual Green
+potential. The action coefficient and its first derivative force a half
+momentum shear, producing a local moving anti-symplectic involution wherever
+the coefficient is real and invertible. This repairs the naive moving exchange
+but transports the at-least-120-coordinate symmetric graph family without
+selecting a member. Next type and globally descend the actual K77 coefficient,
+then build the Calderon/maximal-dissipative domain and unrestricted BFV edge
+completion. Registry: `selected-k77-moving-antidualizer-darboux.json`.
+
+Predecessor v0.165. The selected action's
 exact algebraic boson-plus-four-fermion symmetrized preboundary form is
 nondegenerate and includes live moving-normal mixed terms. Full-carrier
 small-gauge-basic Lagrangian graphs exist conditionally, but the smallest
@@ -16,7 +26,9 @@ none. The fixed-normal fermion reality is anti-symplectic; its naive moving
 total extension fails. Next construct the actual action-owned moving
 anti-linear K77 reality and total Calderon/maximal-dissipative domain, then
 test global descent and unrestricted BFV edge completion. Registry:
-`selected-k77-coupled-green-domain.json`.
+`selected-k77-coupled-green-domain.json`. v0.166 repairs its naive moving-map
+obstruction through the already-owned complete cotangent lift while preserving
+the graph-selection and analytic-domain burdens.
 
 Predecessor v0.164 closes the local full-field ordinary-gauge complex and
 kills gauge covariance as a unique carrier selector; v0.165 composes its total

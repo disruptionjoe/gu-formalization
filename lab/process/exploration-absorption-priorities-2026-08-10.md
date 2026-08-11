@@ -9,6 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.166 repairs the finite moving-normal anti-dualizer obstruction by
+composing v0.68's complete cotangent lift with v0.165's independent-dual Green
+potential. The correction is action-owned and uniquely fixes the half shear,
+but it transports rather than selects the at-least-120-coordinate graph
+family. The highest-information Build is now actual-coefficient global
+invertibility and overlap descent, followed by the Calderon or
+maximal-dissipative projector and unrestricted BFV completion. Do not repeat
+the general cotangent theorem, port K95 APS, or fit a graph.
+
 Ledger v0.165 closes the algebraic symmetrized total preboundary form and
 proves conditional full-carrier small-gauge-basic Lagrangian graph existence.
 It also exposes two selection boundaries: the smallest tested symmetric graph

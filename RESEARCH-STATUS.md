@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.166; six
+distance/evidence migrations; headline unchanged).** The complete cotangent
+owner repairs v0.165's naive moving exchange locally. For an invertible real
+normal coefficient, `v=A^T bar` and the forced half momentum shear pull the
+constant exchange to an exact anti-symplectic involution. This is a
+specialization of v0.68 prior art, not a new general cotangent theorem. It
+transports every supplied symmetric graph and therefore selects none of the at
+least 120 coordinates. Next identify and globally descend the actual selected
+K77 coefficient, then construct the Calderon/maximal-dissipative domain and
+unrestricted BFV completion. Source return:
+`SOURCE_CONFIRMS_INDEPENDENT_DUAL_BILINEAR_ARENA__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_DARBOUX_ANTIDUALIZER_GLOBAL_REALITY_CALDERON_AND_GRAPH_SELECTION`.
+No physical cohomology, datum, P1/P2/P3, verdict, residue, quotient, canon or
+public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.165; six
 distance/evidence migrations; headline unchanged).** The selected action's
 exact algebraic boson-plus-four-fermion symmetrized preboundary form is

@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 MOVING ANTI-DUALIZER/DARBOUX GATE (ledger v0.166).** The
+> v0.68 complete cotangent-lift theorem specializes exactly to v0.165's
+> independent-dual Green potential. The moving coefficient forces
+> `v=A^T bar` and the half momentum shear
+> `P_i=p_i+1/2 bar^T(partial_i A)psi`; pulling back the constant exchange
+> gives a local involutive anti-symplectic map wherever `A` is real and
+> invertible. This repairs the naive mixed-term obstruction but transports
+> every supplied symmetric graph, leaving at least 120 coordinates unselected.
+> **Next identify the actual selected K77 normal Green coefficient as a global
+> real invertible bundle map and test overlap descent, then construct the
+> Calderon or maximal-dissipative projector and unrestricted BFV completion.
+> Do not supply a graph.** No headline, residue, datum, canon or public-posture
+> change is made.
+
 > **2026-08-11 COUPLED GREEN/DOMAIN GATE (ledger v0.165).** The selected
 > action's exact algebraic boson-plus-four-independent-fermion symmetrized
 > preboundary form is now nondegenerate and includes the live moving-normal

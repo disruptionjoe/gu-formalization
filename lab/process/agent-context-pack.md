@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.166 moving anti-dualizer gate:** v0.68 already owns the general
+> complete cotangent lift. Applied to v0.165's independent-dual potential, it
+> forces `v=A^T bar` and a half momentum shear and produces a local
+> anti-symplectic involution wherever the actual coefficient is real and
+> invertible. This repairs the naive mixed-term obstruction but transports
+> every symmetric graph, leaving at least 120 coordinates unselected. Next
+> identify and globally descend the actual K77 coefficient, then build the
+> analytic domain and unrestricted BFV completion. Do not call the local map a
+> Calderon domain, do not port K95 APS, and do not supply a graph.
+
 > **Current v0.165 coupled Green/domain gate:** the selected action's exact
 > algebraic boson-plus-four-independent-fermion symmetrized preboundary form
 > is nondegenerate and retains the moving-normal mixed terms. Full-carrier

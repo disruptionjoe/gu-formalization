@@ -24,10 +24,21 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.165.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.165.md`.
+`lab/process/conditional-physics-ledger-v0.166.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.166.md`.
 
-Current coupled Green/domain correction: the exact selected-action
+Current moving anti-dualizer correction: v0.68 already proves complete
+cotangent-lift naturality. Specializing it to v0.165's independent-dual Green
+potential forces `v=A^T bar` and the half momentum shear and gives a local
+moving anti-symplectic involution wherever the coefficient is real and
+invertible. This repairs the naive mixed-term obstruction but transports every
+supplied symmetric graph, leaving at least 120 coordinates unselected. Build
+now identifies and globally descends the actual K77 coefficient, then
+constructs the Calderon/maximal-dissipative domain and unrestricted BFV edge
+completion. Do not repeat the general cotangent theorem, port K95 APS or supply
+a graph.
+
+Predecessor coupled Green/domain correction: the exact selected-action
 boson-plus-four-fermion symmetrized preboundary form is nondegenerate and
 retains the moving-normal mixed terms. Full-carrier small-gauge-basic
 Lagrangian graphs exist conditionally, but the smallest tested symmetric
@@ -1015,32 +1026,57 @@ preassessment names the relevant lenses before construction. A separate
 sub-agent per persona is not required. Controls verify the stated computation;
 Layer 0 verifies that it was the right question.
 
-### Efficient specialist routing
+### Adaptive preflight lens router
 
-Every material Build or adjudication uses the following **mandatory eight**
-inline lenses: Layer-0 semantics, prior-art archaeology, differential geometry,
-representation/Clifford theory, variational bicomplex, symplectic/BV-BFV,
-operator/Krein analysis and adversarial scope. They are roles in one compact
-assessment, not eight sub-agents and not eight repeated context loads.
+The preflight is selected from the Run's **mathematical object signatures**;
+it is not a standing generic council. Every material Build or adjudication has
+only three universal inline lenses:
 
-Additional lenses are object-triggered rather than ceremonial:
+1. **Layer-0 object typing** — name the construction, predicate and output
+   object and reject homonyms.
+2. **Prior-art/source collision** — check whether the repository or primary
+   source already owns, corrects or is silent on the proposed move.
+3. **Construction versus selection** — state whether the move builds or
+   transports an admissible family, or actually chooses a member.
 
-- exact-computation architecture for coefficient banks, CAS or certificates;
-- invariant theory for equivariant maps, stabilizers or multiplicities;
-- PDE/microlocal analysis for symbols, propagation, domains or Green maps;
-- index/KO theory for chirality, parity, zero modes or anomalies;
-- complex/signature analysis for complexification, Wick rotation, contours or
-  real-form-dependent claims; and
-- distributed provenance for caches, cross-file authority, reconciliation or
-  stale-state risk.
+The router then adds lenses only when their triggers occur:
 
-Every selected lens returns the exact object examined, `ACTUAL_MATH` or
-`ANALOGY`, confidence, strongest attack, cheapest decisive test and scope.
-Unselected lenses are recorded only when their omission is non-obvious. Broad
-process/epistemic review runs after three to five material Builds or when a
-high-fanout premise changes; it does not run all lenses on every cell. This
-core-plus-triggered rule replaces persona-count theater while preserving
-genuine disciplinary divergence.
+- action, variation or boundary form -> symplectic geometry plus variational
+  bicomplex;
+- reality, adjoint or indefinite pairing -> Krein/operator theory plus
+  real/complex structures;
+- domain, propagation, symbol or boundary condition -> microlocal and
+  hyperbolic PDE;
+- gauge, constraint or quotient -> gauge/BV plus homological algebra;
+- multiplicity, carrier or stabilizer selection -> representation/commutant
+  theory plus constraint-surplus accounting;
+- bundle patch, observation or global descent -> principal-bundle plus
+  sheaf/descent analysis;
+- coefficient bank, CAS or numerical certificate -> exact computation,
+  conditioning and negative-control design; and
+- cache, cross-file authority or stale state -> distributed provenance.
+
+Each selected lens records: **why it fired; the exact question it owns; a
+preregistered kill condition; the artifact/source it must inspect; and the
+inference it is forbidden to make.** For a material Build, route approximately
+six to ten lenses, capped at ten, including one contrary-path lens. Simple
+verification may use fewer when the three-core plus triggered coverage is
+complete. Unselected lenses are recorded only when their omission is
+non-obvious.
+
+This rule supersedes the generic mandatory-eight preflight. It was ratified
+after the v0.166 preflight's later prior-art check found that v0.68 had already
+proved the general cotangent-lift theorem: the new work was the
+independent-dual anti-dualizer specialization, not the general mechanism.
+Lens routing must make that distinction before construction rather than during
+hostile repair.
+
+Broad process/epistemic review still runs after three to five material Builds
+or when a high-fanout premise changes; it does not run all lenses on every
+cell. Every selected specialist result continues to return the exact object,
+`ACTUAL_MATH` or `ANALOGY`, confidence, strongest attack, cheapest decisive
+test and scope. This adaptive core-plus-triggered rule replaces persona-count
+theater while preserving genuine disciplinary divergence.
 
 ### Two-track council synthesis
 

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `moving_antidualizer_darboux_audit.py` enforces ledger v0.166's exact
+  independent-dual cotangent specialization, forced half shear, local moving
+  anti-symplectic involution, 120-coordinate no-selection result, adaptive
+  preflight router and unchanged headline accounting.
+
 - `coupled_green_domain_audit.py` enforces ledger v0.165's exact total
   symmetrized preboundary form, conditional full-carrier Lagrangian graph
   theorem, 120-coordinate no-selection lower bound, naive moving-reality

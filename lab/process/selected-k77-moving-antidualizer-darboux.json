@@ -1,0 +1,69 @@
+{
+  "artifact_type": "construction_result",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-040603-gu-k77-moving-antidualizer-darboux",
+  "ledger_version": "0.166",
+  "grade": "EXACT_FIRST_JET_SYMPLECTIC_SPECIALIZATION_AND_FINITE_ANTIDUALIZER_THEOREM",
+  "prior_art": {
+    "v0.68": "already proves complete K77 cotangent-lift naturality and all-ten normal momentum compensation",
+    "v0.165": "assembles the independent-dual total Green form and finds the naive moving exchange obstruction",
+    "new_work": "specializes the cotangent lift to the independent-dual coefficient A(q), fixes the half-shear, pulls back the exchange involution, and proves that the 120-coordinate graph family is transported rather than selected"
+  },
+  "darboux_completion": {
+    "u": "psi",
+    "v": "A(q)^T bar_psi",
+    "momentum": "P_i = p_i + 1/2 bar_psi^T (partial_i A) psi",
+    "potential_identity": true,
+    "shear_coefficient": "1/2__FORCED_IN_FIRST_JET_ANSATZ",
+    "requires": "A(q) invertible on the chart",
+    "square_root_or_positive_factorization": "NOT_USED"
+  },
+  "moving_antidualizer": {
+    "algebraic_involution": true,
+    "anti_symplectic": true,
+    "complexified_conjugate_linear_lift": true,
+    "fixed_locus": "Q=0, V=S U, equivalently q=0 and A(0)^T bar_psi=S psi",
+    "physical_k77_reality": "OPEN__ACTUAL_COEFFICIENT_GLOBAL_DESCENT_AND_KREIN_DOMAIN_UNBUILT"
+  },
+  "selection": {
+    "minimum_symmetric_multiplicity_coordinates": 120,
+    "family_transported": true,
+    "unique_graph_selected": false,
+    "P1_P2_P3_owner": "NONE"
+  },
+  "analytic_domain": {
+    "calderon": "OPEN",
+    "maximal_dissipative": "OPEN",
+    "unrestricted_bfv": "OPEN"
+  },
+  "checks": {
+    "total": 46,
+    "failures": 0,
+    "accounting": 1,
+    "analytic": 3,
+    "antilinear": 1,
+    "bfbv": 1,
+    "constraint": 2,
+    "datum": 1,
+    "exact": 2,
+    "gauge": 2,
+    "krein": 1,
+    "layer0": 6,
+    "planted": 3,
+    "prior_art": 4,
+    "reality": 4,
+    "scope": 3,
+    "selection": 3,
+    "source": 2,
+    "symplectic": 4,
+    "theorem": 1,
+    "variational": 2
+  },
+  "source_return": "SOURCE_CONFIRMS_INDEPENDENT_DUAL_BILINEAR_ARENA__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_DARBOUX_ANTIDUALIZER_GLOBAL_REALITY_CALDERON_AND_GRAPH_SELECTION",
+  "disposition": "V068_COTANGENT_LIFT_SPECIALIZED_TO_V0165_INDEPENDENT_DUAL_GREEN_FORM__MOVING_MIXED_TERM_OBSTRUCTION_REPAIRED_BY_FORCED_HALF_SHEAR_CONDITIONAL_ON_INVERTIBLE_REAL_A__ALGEBRAIC_ANTIDUALIZER_EXISTS_FOR_EVERY_SUPPLIED_SYMMETRIC_GRAPH__AT_LEAST_120_GRAPH_COORDINATES_TRANSPORTED_NOT_SELECTED__ACTUAL_K77_GLOBAL_ANTILINEAR_CALDERON_DOMAIN_OPEN",
+  "next_gate": "IDENTIFY_THE_ACTUAL_SELECTED_K77_NORMAL_GREEN_COEFFICIENT_AS_A_GLOBAL_INVERTIBLE_REAL_BUNDLE_MAP_AND_TEST_DARBOUX_DESCENT_ON_OVERLAPS__THEN_CONSTRUCT_THE_CALDERON_OR_MAXIMAL_DISSIPATIVE_PROJECTOR_AND_UNRESTRICTED_BFV_EDGE_COMPLETION__DO_NOT_SUPPLY_A_GRAPH",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "p1_p2_p3_change": "none"
+}
