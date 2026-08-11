@@ -422,3 +422,5 @@ identifications as separate grades.
   - confirms the four-independent-field source parent and operator-family status; corrects `p` from a source-native invariant to a conditional congruence invariant and remains silent on anti-linear reality, global domain and physical normalization.
 - [`selected-k77-majorana-reality-graded-domain-scope-source-return-2026-08-11.md`](selected-k77-majorana-reality-graded-domain-scope-source-return-2026-08-11.md)
   - confirms the four-independent-field parent and returns source-silent on the local anti-linear choice, pairing horn, graded Green signs and global domain.
+- [`selected-k77-graded-green-reality-graphs-source-return-2026-08-11.md`](selected-k77-graded-green-reality-graphs-source-return-2026-08-11.md)
+  - confirms the four-independent-field parent and returns source-silent on the repository-derived graded Green sign, pairing-horn/`p` selection and closed domain.

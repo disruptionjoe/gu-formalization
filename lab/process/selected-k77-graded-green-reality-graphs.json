@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260811-161937-gu-k77-graded-green-reality-graphs",
+  "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN",
+  "checks": {
+    "total": 70,
+    "failures": 0,
+    "planted": 4
+  },
+  "graded_green_form": "G_A=[[0,A^T],[A,0]]__SYMMETRIC_FOR_ODD_COORDINATES",
+  "graph_criterion": "P^T_A_PLUS_A^T_P_EQUALS_ZERO",
+  "action_pairing_horns": {
+    "symmetric_anti_adjoint": "NONCHARACTERISTIC_GRADED_LAGRANGIAN_REALITY_GRAPH",
+    "skew_self_adjoint": "NONCHARACTERISTIC_GRADED_LAGRANGIAN_REALITY_GRAPH"
+  },
+  "antilinear_exchange": "R_P(psi,bar)=(P^-1_conjugate(bar),P_conjugate(psi))__R_P_SQUARED_EQUALS_ONE__R_P_PULLS_G_TO_MINUS_G",
+  "overlap": "EXACT_TENSORIAL_THREE_PATCH_DESCENT__SPIN_NATURAL_CONDITIONAL",
+  "actual_normal_symbol": {
+    "nonnull_rank": 1920,
+    "null_rank": 1024,
+    "null_kernel": 896
+  },
+  "selection": "TWO_HORNS_PLUS_CONDITIONAL_P_REMAIN_UNSELECTED",
+  "even_graph_ambiguity": "DISSOLVED_ONLY_AS_PHYSICAL_AMBIGUITY_INSIDE_TESTED_ACTION_NATURAL_CLASS__EVEN_COMPARATOR_REMAINS_VALID_PRIOR_ART",
+  "full_moving_mixed_preboundary": "OPEN",
+  "analytic_domain": "OPEN__NULL_CHARACTERISTIC__CALDERON_OR_MAXIMAL_DISSIPATIVE__BFV",
+  "source_return": "SOURCE_CONFIRMS_FOUR_INDEPENDENT_FIELDS_AND_PARENT_ARENA__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_GRADED_GREEN_SIGN_REALITY_HORN_CONDITIONAL_P_AND_CLOSED_DOMAIN",
+  "ledger": "lab/process/conditional-physics-ledger-v0.177.json",
+  "verdict_change": false,
+  "booked_residue_change": false,
+  "quotient_change": false,
+  "p1_p2_p3_used": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "next_gate": "FOR_EACH_PAIRING_HORN_CONSTRUCT_OR_KILL_THE_NONNULL_CLOSED_MAXIMAL_DISSIPATIVE_OR_CAUCHY_DOMAIN_AND_FULL_MOVING_MIXED_PREBOUNDARY_COMPATIBILITY__KEEP_NULL_CHARACTERISTIC_BFV_AND_HORN_P_SELECTION_SEPARATE"
+}

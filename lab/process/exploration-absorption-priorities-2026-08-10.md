@@ -9,13 +9,20 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.177 completes the finite graded correction. Both complete
+action-pairing horns define exact noncharacteristic graded Lagrangian reality
+graphs and transport across Spin-natural overlaps. The ordinary-even
+120-coordinate graph family is not the physical ambiguity inside this tested
+class. Rank one is now per-horn closed Cauchy/maximal-dissipative construction
+plus full moving boson-fermion mixed compatibility. Horn/`p` selection and
+null-characteristic BFV remain separate; do not repeat the pointwise graph
+calculation or promote it to a closed physical domain.
+
 Ledger v0.176 passes the local anti-linear existence gate but corrects the
 domain category. Real-K77 conjugation is available; neither action-pairing
-candidate lies in v0.166's even symmetric-graph family. Rank one is therefore
-the graded odd Green/preboundary derivation and moving fixed-locus
-classification, followed by global overlap and analytic closure. Do not spend
-another wave selecting inside the even 120-coordinate family and do not book
-that family as physical fermion residue.
+candidate lies in v0.166's even symmetric-graph family. That predecessor is
+now superseded by v0.177's graded calculation; retain it only as the category
+correction that motivated the current theorem.
 
 Ledger v0.175 runs the Layer-0 distinction v0.174 left open. On the
 source-native four-independent-field action, a complete left/right field

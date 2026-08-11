@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.177; six
+distance/evidence migrations; headline unchanged).** The correct graded Green
+form accepts both exact action-pairing horns as noncharacteristic Lagrangian
+reality graphs, and the graphs transport tensorially across exact three-patch
+Spin-natural overlaps. The old ordinary-even `120`-coordinate graph family is
+not the physical ambiguity inside this tested class. Horn/`p` selection, full
+moving mixed terms, null BFV, closed analytic domains, observation and
+cohomology remain open. No verdict, residue, quotient, canon or public posture
+moves.
+
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.176; six
 distance/evidence migrations; headline unchanged).** Local real-K77
 conjugation exists, squares to `+1`, commutes with the normalized operator and

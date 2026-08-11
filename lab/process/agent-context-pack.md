@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.177 K77 graded Green/reality graphs:** use the graded-even
+> fermion Green matrix `G_A=[[0,A^T],[A,0]]`. Both complete v0.174 pairing
+> horns satisfy `P^T A+A^T P=0`, so `bar=P conjugate(psi)` is an exact
+> noncharacteristic graded Lagrangian fixed locus; the construction transports
+> tensorially across Spin-natural overlaps. Do not call this a closed analytic
+> domain, select either horn or `p`, or extend it silently to null data or the
+> full moving boson-fermion mixed form. Selected Spin, two `U(32,32)` halves
+> and full `U(64,64)` remain distinct.
+
+
 > **Current v0.176 K77 reality/domain scope:** entrywise conjugation supplies
 > local `J^2=+1` reality on the conditional real-K77 operator. It does not
 > select a barred/unbarred relation. Both v0.174 action-pairing candidates

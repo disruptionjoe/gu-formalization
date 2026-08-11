@@ -184,7 +184,7 @@ extensions:
   operating_architecture:
     contract_version: "2.0"
     operating_contract_refs: ["lab/process/OPERATING-MODEL.md", "lab/process/functional-channel-operating-contract-v1.0.md", "lab/process/functional-channel-operating-contract-v1.0.json"]
-    work_state_refs: ["CANON.md", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/research-portfolio.json", "lab/process/conditional-physics-ledger-v0.176.json", "explorations/conditional-build/conditional-physics-ledger-v0.176.md"]
+    work_state_refs: ["CANON.md", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/research-portfolio.json", "lab/process/conditional-physics-ledger-v0.177.json", "explorations/conditional-build/conditional-physics-ledger-v0.177.md"]
     channel_contract_refs: ["lab/process/functional-channel-operating-contract-v1.0.md", "lab/process/functional-channel-operating-contract-v1.0.json"]
     lane_a_portfolio_refs: ["LANE-STATE.yaml"]
     return_contract_refs: ["lab/process/OPERATING-MODEL.md", "lab/process/functional-channel-operating-contract-v1.0.md"]

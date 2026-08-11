@@ -7,6 +7,17 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 GRADED GREEN REALITY GRAPHS (ledger v0.177).** With the
+> correct graded signs, both complete action-pairing horns make
+> `bar=P conjugate(psi)` a noncharacteristic graded Lagrangian fixed locus.
+> The Green form, graph and anti-linear exchange descend exactly across
+> Spin-natural three-patch overlaps. This removes the ordinary-even
+> `120`-coordinate graph family as the physical ambiguity inside the tested
+> action-natural class. **Next construct or kill the closed Cauchy or maximal-
+> dissipative domain and full moving mixed compatibility for each horn. Keep
+> horn/`p` selection and null-characteristic BFV separate; do not promote the
+> pointwise graph to a physical domain.**
+
 > **2026-08-11 K77 LOCAL REALITY / GRADED-DOMAIN SCOPE (ledger v0.176).**
 > Real K77 entrywise conjugation gives a local `J^2=+1` anti-linear
 > involution compatible with the normalized operator and real chirality. The

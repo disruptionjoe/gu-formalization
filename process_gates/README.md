@@ -2754,3 +2754,12 @@ conjugation, both exact action-pairing horns, rejection of the even symmetric-
 graph theorem as an odd-domain certificate, and an explicitly open graded
 Green/global domain. It rejects verdict, datum, residue, quotient, canon and
 posture promotion.
+
+## K77 graded Green reality graphs ledger v0.177
+
+`k77_graded_green_reality_graphs_audit.py` requires both complete action
+pairing horns to define exact noncharacteristic graded Lagrangian fixed loci,
+four firing plants, tensorial Spin-natural overlap and explicit separation of
+the pointwise graph from full moving mixed, null-characteristic and closed
+analytic domains. It rejects horn/`p`, verdict, datum, residue, quotient,
+canon and posture promotion.

@@ -7,6 +7,15 @@ updated_at: "2026-08-10"
 
 # Process
 
+Current append-only progress surface: ledger v0.177. Both complete K77
+action-pairing horns now define exact noncharacteristic graded Lagrangian
+Majorana fixed loci and transport across Spin-natural overlaps. The earlier
+ordinary-even `Sym(15)` graph family is not booked as physical fermion
+residue. Horn/`p` selection, full moving mixed terms, null BFV and closed
+analytic domains remain open. Registry:
+`selected-k77-graded-green-reality-graphs.json`.
+
+
 Current append-only progress surface: ledger v0.172. On the zero-fermion
 selected real-K77 branch, the v0.171 `im Nsharp` radical is not the existing
 ordinary-gauge, small-gauge or edge characteristic image. Fermion gauge trace

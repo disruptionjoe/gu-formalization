@@ -24,8 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.176.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.176.md`.
+`lab/process/conditional-physics-ledger-v0.177.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.177.md`.
+
+Current graded Green/domain correction: the correct fermionic Green two-form
+is graded even and has symmetric block matrix on the odd boundary directions.
+Both complete action-pairing horns satisfy the graded Lagrangian graph
+condition, and their anti-linear fixed loci transport tensorially across exact
+Spin-natural overlaps on noncharacteristic data. The ordinary-even
+`120`-coordinate graph family is not the physical ambiguity inside this tested
+class. Build next constructs or kills a closed Cauchy/maximal-dissipative
+domain and full moving boson-fermion mixed compatibility for each horn. It
+keeps horn/`p` selection and null-characteristic BFV separate and does not
+promote a pointwise graph to a physical domain.
 
 Current K77 reality/domain correction: local real conjugation exists, but the
 two action-pairing reality candidates induce skew Darboux graphs. The v0.166
