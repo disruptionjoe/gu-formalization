@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.178 K77 observed Cauchy-domain split:** the Majorana graph is
+> a doubled-field reality reduction, not a spatial incoming projector. The
+> exact rank split is reality graph 4, complete Cauchy data 4 and nonpositive
+> spatial-flux half 2. The completed positive common symmetrizer conditionally
+> supplies a local flat observed real `H^s` Cauchy domain, and moving mixed
+> terms vanish on bosonic Dirichlet tangent data. Next build the variable/
+> global observed domain and action-owned spatial projector. Do not port the
+> result to ambient `Y^14` or null BFV, and do not infer horn/`p` selection.
+
 > **Current v0.177 K77 graded Green/reality graphs:** use the graded-even
 > fermion Green matrix `G_A=[[0,A^T],[A,0]]`. Both complete v0.174 pairing
 > horns satisfy `P^T A+A^T P=0`, so `bar=P conjugate(psi)` is an exact

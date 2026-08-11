@@ -2763,3 +2763,12 @@ four firing plants, tensorial Spin-natural overlap and explicit separation of
 the pointwise graph from full moving mixed, null-characteristic and closed
 analytic domains. It rejects horn/`p`, verdict, datum, residue, quotient,
 canon and posture promotion.
+
+## K77 observed Cauchy-domain Layer-0 ledger v0.178
+
+`k77_observed_cauchy_domain_layer0_audit.py` requires the exact separation of
+Majorana reality, complete Cauchy data and spatial incoming modes, the local
+flat observed real symmetric-hyperbolic theorem, Dirichlet moving-mixed
+compatibility and explicit ambient/null/global fences. It rejects spatial-
+boundary, horn/`p`, verdict, datum, residue, quotient, canon and posture
+promotion.

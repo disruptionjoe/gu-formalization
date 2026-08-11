@@ -7,6 +7,16 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 K77 OBSERVED CAUCHY-DOMAIN LAYER-0 SPLIT (ledger v0.178).**
+> The Majorana graph is a doubled-field reality reduction, not a spatial
+> incoming-mode projector. In the exact comparator the reality graph and
+> complete Cauchy data have rank four while the nonpositive spatial-flux half
+> has rank two. The completed positive common symmetrizer conditionally gives
+> a local flat observed real `H^s` Cauchy domain; moving mixed terms vanish on
+> bosonic Dirichlet tangent data. **Next construct the variable-coefficient
+> observed domain and an action-owned spatial-boundary projector or prove their
+> obstruction. Keep ambient `Y^14`, null BFV and horn/`p` selection separate.**
+
 > **2026-08-11 K77 GRADED GREEN REALITY GRAPHS (ledger v0.177).** With the
 > correct graded signs, both complete action-pairing horns make
 > `bar=P conjugate(psi)` a noncharacteristic graded Lagrangian fixed locus.

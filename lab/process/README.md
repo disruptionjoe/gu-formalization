@@ -7,13 +7,13 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.177. Both complete K77
-action-pairing horns now define exact noncharacteristic graded Lagrangian
-Majorana fixed loci and transport across Spin-natural overlaps. The earlier
-ordinary-even `Sym(15)` graph family is not booked as physical fermion
-residue. Horn/`p` selection, full moving mixed terms, null BFV and closed
-analytic domains remain open. Registry:
-`selected-k77-graded-green-reality-graphs.json`.
+Current append-only progress surface: ledger v0.178. The Majorana graph is a
+doubled-field reality reduction, not a spatial boundary projector. An exact
+real Clifford comparator plus the completed positive common symmetrizer
+conditionally supplies a local flat observed real `H^s` Cauchy domain, and
+moving mixed terms vanish on bosonic Dirichlet tangent data. Variable/global
+observed, spatial-boundary, ambient/null and horn/`p` burdens remain open.
+Registry: `selected-k77-observed-cauchy-domain-layer0.json`.
 
 
 Current append-only progress surface: ledger v0.172. On the zero-fermion

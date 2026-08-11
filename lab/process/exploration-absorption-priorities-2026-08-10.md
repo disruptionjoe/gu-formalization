@@ -9,6 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.178 corrects the analytic-domain object before further construction.
+The Majorana graph is a doubled-field reality reduction, not a spatial
+incoming-mode projector. The completed positive common symmetrizer
+conditionally supplies a local flat observed real `H^s` Cauchy domain, and
+moving mixed terms close on bosonic Dirichlet tangent data. Rank one is now the
+variable-coefficient observed domain plus an action-owned spatial-boundary
+projector or an obstruction. Keep the ambient `Y^14` ultrahyperbolic, null BFV
+and horn/`p` selection problems separate.
+
 Ledger v0.177 completes the finite graded correction. Both complete
 action-pairing horns define exact noncharacteristic graded Lagrangian reality
 graphs and transport across Spin-natural overlaps. The ordinary-even

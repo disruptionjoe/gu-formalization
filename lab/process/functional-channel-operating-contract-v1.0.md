@@ -24,8 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.177.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.177.md`.
+`lab/process/conditional-physics-ledger-v0.178.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.178.md`.
+
+Current observed Cauchy-domain correction: the v0.177 Majorana graph is a
+doubled-field reality reduction, not a spatial maximal-dissipative projector.
+In the exact comparator the reality graph and complete physical Cauchy carrier
+have rank four, while the nonpositive spatial-flux half has rank two. The
+completed K77 principal symbol's positive common symmetrizer conditionally
+supplies a local flat observed real `H^s` Cauchy domain by standard
+constant-coefficient symmetric-hyperbolic theory. Moving mixed terms vanish on
+bosonic Dirichlet tangent data. Build next constructs the variable-coefficient
+observed domain and an action-owned spatial-boundary projector or proves their
+obstruction. Ambient `Y^14`, null BFV, unrestricted moving terms and horn/`p`
+selection stay separate.
 
 Current graded Green/domain correction: the correct fermionic Green two-form
 is graded even and has symmetric block matrix on the odd boundary directions.

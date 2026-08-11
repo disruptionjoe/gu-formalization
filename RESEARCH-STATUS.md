@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.178; six
+distance/evidence migrations; headline unchanged).** Layer 0 separates the
+doubled-field Majorana graph, complete physical Cauchy data and a nonpositive
+spatial-boundary flux half. An exact real Clifford comparator plus the
+immutable full-carrier positive-symmetrizer receipt conditionally supplies a
+local flat observed real `H^s` Cauchy domain by standard
+constant-coefficient symmetric-hyperbolic theory. Moving mixed terms vanish
+on bosonic Dirichlet tangent data. Variable/global observed, spatial-boundary,
+ambient `Y^14`, null BFV, unrestricted mixed and horn/`p` selection remain
+open. No verdict, residue, quotient, canon or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.177; six
 distance/evidence migrations; headline unchanged).** The correct graded Green
 form accepts both exact action-pairing horns as noncharacteristic Lagrangian
