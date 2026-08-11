@@ -7,6 +7,19 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 DISCOVERY ROUTE REVIEW AVAILABLE (absorption pointer, binds
+> nothing).** A Joe-directed campaign-altitude route review of the K77
+> operator-anomaly big swing is filed at
+> `explorations/campaign-altitude-route-review-2026-08-11.md` (hostile review
+> alongside in `lab/process/hostile-reviews/`). It endorses ranks 1-3
+> unchanged and proposes: enter the global-domain rank from scratch on the
+> corrected operator (the v0.168 empty-symmetrizer kill was
+> old-operator-specific); add a non-displacing rank 4 pricing the
+> `SIGNATURE-AMBIENT` fork (over depth threshold, no named resolver since
+> M-H9's 2026-08-08 falsification); and adopt a standing family-vs-member
+> pre-flight question for obstruction-repair waves. Next wave: absorb,
+> amend, or reject per the absorption protocol.
+
 > **2026-08-11 REAL-K77 ACTION-ADJOINT/WEIGHT CLASSIFICATION (ledger
 > v0.174).** The local Grassmann action does not require the operator alone to
 > be self-adjoint. The complete Spin-natural pairing family has one
