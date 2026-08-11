@@ -9,6 +9,10 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-unrestricted-southeast-bv-kernel-source-return-2026-08-11.md`](selected-k77-unrestricted-southeast-bv-kernel-source-return-2026-08-11.md)
+  records source confirmation of the southeast-zero/nonzero fork and silence on
+  K77 coefficients, fermion-only BV, coupled full-field BV and domain.
+
 - [`selected-k77-unrestricted-four-field-euler-image-source-return-2026-08-11.md`](selected-k77-unrestricted-four-field-euler-image-source-return-2026-08-11.md)
   records that the draft confirms the candidate four-field/Euler-residual
   grammar while remaining silent on the selected K77 principal realization,

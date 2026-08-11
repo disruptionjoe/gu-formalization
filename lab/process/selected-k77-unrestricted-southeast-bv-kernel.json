@@ -1,0 +1,41 @@
+{
+  "artifact_type": "construction_result",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-020449-gu-k77-unrestricted-southeast-bv-kernel",
+  "ledger_version": "0.163",
+  "field": "GF(1000033) exact structural certificate with characteristic-zero Clifford identity",
+  "southeast_family": "gamma(xi)(ell_plus P_plus + ell_minus P_minus)",
+  "parameter_dimension": 2,
+  "nonnull": {
+    "timelike": {
+      "q": 1,
+      "base_rank": 1920,
+      "k95_11_12_coflip_comparator_rank": 1920,
+      "inverse_bottom_right_rank": 0,
+      "all_southeast_matrices_determinant_equivalent": true
+    },
+    "spacelike": {
+      "q": -1,
+      "base_rank": 1920,
+      "k95_11_12_coflip_comparator_rank": 1920,
+      "inverse_bottom_right_rank": 0,
+      "all_southeast_matrices_determinant_equivalent": true
+    }
+  },
+  "null": {
+    "zero_southeast_rank": 1024,
+    "k95_11_12_coflip_comparator_rank": 1024,
+    "right_nullity": 896,
+    "typed_as": "CHARACTERISTIC_PROPAGATION_NOT_GAUGE_IDENTITY"
+  },
+  "fermion_only_principal_gauge_generator": "PROVABLY_ZERO_FOR_EVERY_FIXED_SOUTHEAST_MEMBER",
+  "fermion_only_principal_noether_identity": "PROVABLY_ZERO_FOR_EVERY_FIXED_SOUTHEAST_MEMBER",
+  "full_field_ordinary_gauge_bv": "OPEN_DISTINCT_REQUIRES_CONNECTION_GHOST_AND_COUPLED_ACTION",
+  "source_return": "SOURCE_CONFIRMS_SOUTHEAST_ZERO_AND_ADMITS_NONZERO_RIVAL__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_K77_COEFFICIENT_SELECTION_FERMION_ONLY_BV_AND_FULL_FIELD_BV_DOMAIN",
+  "disposition": "UNRESTRICTED_K77_SOUTHEAST_FAMILY_CONSTRUCTED__NONNULL_DETERMINANT_INDEPENDENT_OF_SOUTHEAST__FERMION_ONLY_PRINCIPAL_CONSTRAINT_BV_ROUTE_KILLED__FULL_FIELD_GAUGE_BV_NEXT",
+  "next_gate": "BUILD_THE_COUPLED_VARPI_PLUS_FOUR_FERMION_ORDINARY_GAUGE_NOETHER_BV_COMPLEX_FROM_THE_SOURCE_ACTION__KEEP_NULL_PROPAGATION_SEPARATE_FROM_GAUGE_AND_DO_NOT_PROJECT_TO_RANK384",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "p1_p2_p3_change": "none"
+}

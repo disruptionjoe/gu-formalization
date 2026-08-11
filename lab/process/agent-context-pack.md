@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.163 unrestricted-southeast/BV gate:** every lower-right
+> southeast matrix is determinant-equivalent to the selected complete K77
+> four-field operator at non-null covectors. The explicit two-parameter
+> Clifford family and K95 `11/12` comparator therefore cannot create a
+> nonzero fermion-only principal gauge generator or Noether identity. The
+> sampled rank-896 null kernel is characteristic propagation, not BV
+> cohomology. Next build the coupled `varpi` plus four-independent-fermion
+> ordinary-gauge action, derive its off-shell Noether identity and minimal BV
+> differential, and test nilpotence/action invariance. Do not project to rank
+> 384; external datum cannot supply local Noether closure.
+
 > **Current v0.162 unrestricted-four-field gate:** the selected complete
 > timelike and spacelike four-field principal Euler symbols and their
 > nondegenerate action dual are full rank 1920. Both Pin rank-384 graph

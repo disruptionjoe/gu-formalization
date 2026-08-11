@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.163; six
+distance/evidence migrations; headline unchanged).** The selected real-K77
+complete four-field determinant is independent of every lower-right
+`128 x 128` southeast matrix at non-null covectors. The smallest
+source-admitted two-parameter Clifford family is explicit, and no fixed member
+can carry a nonzero fermion-only principal gauge generator or left Noether
+identity. The sampled rank-`896` null kernel is characteristic propagation,
+not a gauge/BV quotient. Next build the coupled `varpi` plus four-fermion
+ordinary-gauge action, derive its off-shell Noether identity and minimal BV
+differential, and test nilpotence/action invariance without a rank-384
+projector. Global domain, observation, chirality, index/count and physics
+rendezvous remain downstream. Source return:
+`SOURCE_CONFIRMS_SOUTHEAST_ZERO_AND_ADMITS_NONZERO_RIVAL__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_K77_COEFFICIENT_SELECTION_FERMION_ONLY_BV_AND_FULL_FIELD_BV_DOMAIN`.
+No physical mode, datum, P1/P2/P3, verdict, residue, quotient, canon or
+public-posture change is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.162; six
 distance/evidence migrations; headline unchanged).** The selected real-K77
 timelike and spacelike complete four-field principal Euler matrices are full

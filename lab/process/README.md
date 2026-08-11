@@ -7,14 +7,18 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.162. The complete selected
-nonnull four-field principal Euler image and nondegenerate action dual are
-rank 1920. Both Pin rank-384 graph receiver/paired-left hulls are proper
-codimension-1536 subspaces, so the bounded route is not action-owned and stops
-without a fitted projector. Next build the unrestricted four-field source
-operator, type the source-admitted southeast rival and derive or kill its
-off-shell BV/constraint complex. Registry:
-`selected-k77-unrestricted-four-field-euler-image.json`.
+Current append-only progress surface: ledger v0.163. The smallest
+source-admitted K77 southeast Clifford family is explicit, while an exact block
+theorem proves every southeast matrix leaves the complete nonnull four-field
+determinant unchanged and nonzero. No fixed member supplies a nonzero
+fermion-only principal gauge generator or Noether identity; the null kernel is
+propagation, not a BV quotient. Next build the coupled `varpi` plus
+four-fermion ordinary-gauge Noether/BV complex without a rank-384 projector.
+Registry: `selected-k77-unrestricted-southeast-bv-kernel.json`.
+
+Predecessor v0.162 proves the rank-384 tested hull is a proper subspace of the
+unrestricted action image and returns Build to the unrestricted operator;
+v0.163 constructs and decides its southeast/principal-BV successor.
 
 Predecessor v0.161 computes the rank-384 tested common hull; v0.162 preserves
 that exact diagnostic while killing its identification with the unrestricted

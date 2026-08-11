@@ -9,6 +9,17 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.163 closes the immediate southeast/principal-BV fork. The smallest
+source-admitted K77 southeast family is explicit, and every southeast matrix
+is nonnull determinant-equivalent to the selected complete four-field
+operator. No fixed coefficient branch can supply a nonzero fermion-only
+principal gauge or Noether generator; the null kernel is propagation rather
+than a quotient. The highest-information Build is now the coupled `varpi` plus
+four-independent-fermion ordinary-gauge action and its off-shell Noether/BV
+complex. Do not continue finite receiver/projector searches. K77 hyperbolicity
+after an independently selected southeast coefficient remains separate and
+downstream of action selection.
+
 Ledger v0.162 ends the bounded graph-receiver route as the leading Build. The
 complete selected nonnull four-field principal Euler image and paired action
 dual are rank 1920; the rank-384 graph hull is a proper codimension-1536

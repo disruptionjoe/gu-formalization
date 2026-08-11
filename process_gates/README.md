@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `unrestricted_southeast_bv_kernel_audit.py` enforces ledger v0.163's
+  parameter-independent nonnull southeast determinant theorem, null-
+  propagation/gauge Layer-0 fence, fermion-only principal-BV kill, unchanged
+  headline accounting and coupled full-field gauge-BV successor.
+
 - `unrestricted_four_field_euler_image_audit.py` enforces ledger v0.162's
   full-rank nonnull four-field Euler/action-dual comparison, proper
   codimension-1536 rank-384 hull, bounded-route stop, unchanged headline

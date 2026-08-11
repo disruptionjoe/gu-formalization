@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 UNRESTRICTED SOUTHEAST/BV-KERNEL GATE (ledger v0.163).** The
+> smallest source-admitted K77 lower-right family is explicit, and a stronger
+> exact block theorem covers every southeast `128 x 128` matrix: it leaves the
+> selected complete four-field determinant unchanged and nonzero at every
+> non-null covector. No fixed southeast member can therefore supply a nonzero
+> fermion-only principal gauge generator or left Noether identity. The sampled
+> null kernel has dimension `896`, but it is characteristic propagation, not a
+> gauge/BV quotient. **Next build the coupled `varpi` plus four-independent-
+> fermion ordinary-gauge action, derive its off-shell Noether identity and
+> minimal BV differential, and test nilpotence/action invariance without a
+> rank-384 projector.** Global domain, observation, chirality, index/count and
+> physics rendezvous remain downstream. No verdict, residue, quotient, datum,
+> canon or public-posture change is made.
+
 > **2026-08-11 UNRESTRICTED FOUR-FIELD EULER IMAGE (ledger v0.162).** The
 > selected complete timelike and spacelike four-field principal symbols are
 > full rank `1920`, and the nondegenerate Krein pairing gives a full-rank

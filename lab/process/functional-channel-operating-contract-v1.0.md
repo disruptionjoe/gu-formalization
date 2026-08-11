@@ -24,8 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.162.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.162.md`.
+`lab/process/conditional-physics-ledger-v0.163.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.163.md`.
+
+Current unrestricted-southeast/BV correction: for the selected complete K77
+four-field upper/lower blocks, every lower-right southeast matrix leaves the
+nonnull determinant unchanged and nonzero. The explicit two-parameter
+Clifford family and the K95 `11/12` comparator therefore cannot create a
+nonzero fermion-only principal gauge generator or left Noether identity. The
+sampled null kernel is characteristic propagation, not a gauge/BV quotient.
+Build now moves to the coupled `varpi` plus four-independent-fermion
+ordinary-gauge action, its off-shell Noether identity and minimal BV
+differential. No rank-384 projector or external datum may substitute for that
+local pre-variation closure.
 
 Current unrestricted-four-field correction: the complete selected timelike
 and spacelike four-field principal Euler symbols are full rank `1920`, and the
