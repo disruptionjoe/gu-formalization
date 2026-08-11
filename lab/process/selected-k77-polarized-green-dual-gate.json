@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "work_item": "SELECTED_K77_POLARIZED_GREEN_DUAL_GATE",
+  "run_id": "RUN-20260811-101210-gu-k77-polarized-green-dual-gate",
+  "status": "DIRECT_DUAL_KERNEL_ACTION_DOMAIN_ADVERSE__ONE_SIDED_PRINCIPAL_EVOLUTION_INGREDIENT_SURVIVES",
+  "layer0": {
+    "one_sided_object": "strict-center ker N restriction on the unbarred evolution field",
+    "action_object": "independent barred and unbarred fields paired by B(bar,psi)=bar^T A psi",
+    "not_equal": "propagated one-sided data are not automatically a nondegenerate action domain",
+    "not_bv": "an algebraic annihilator quotient is not a source-derived gauge or BV quotient",
+    "not_observed": "dimension preservation before quotient is not observation descent through quotient"
+  },
+  "exact_real_k77": {
+    "carrier_dimension_each_field": 1920,
+    "normal_green_coefficient": "actual noncharacteristic four-field D_t",
+    "tested_strict_center_covectors": 3,
+    "polarization_rank_each": 128,
+    "kernel_dimension_each": 1792,
+    "green_adjoint": "Nsharp=A^{-T} N^T A^T",
+    "green_adjoint_identity_exact": true,
+    "N_and_Nsharp_square_zero": true
+  },
+  "direct_dual_kernel": {
+    "domain": "ker Nsharp x ker N",
+    "left_radical_dimension": 128,
+    "right_radical_dimension": 128,
+    "nondegenerate": false,
+    "naive_barred_observation_ranks": {
+      "observed_x": 512,
+      "mixed_center": 640,
+      "generic_center": 640
+    }
+  },
+  "perfect_algebraic_dual": {
+    "object": "Vbar / im Nsharp",
+    "dimension": 1792,
+    "source_or_action_owned_as_gauge_or_bv": false,
+    "naive_observation_rank_on_quotient_directions_each": 128,
+    "naive_observation_descends": false
+  },
+  "prior_art_credit": {
+    "B2B_B2C1": "own older Jordan and observation-erasing quotient failures",
+    "v0_165": "owns the independent-dual Green comparator",
+    "v0_167": "owns the actual four-field normal coefficient",
+    "v0_170": "owns the one-sided strict-center plus ker N principal evolution ingredient",
+    "relative_increment": "constructs the exact Green adjoint of the current frequency polarization, computes both radicals and proves the unique perfect algebraic dual quotient is not observation-descended"
+  },
+  "open": {
+    "action_owned_characteristic_or_bv_image_match": true,
+    "full_moving_boson_fermion_preboundary_form": true,
+    "modified_observation_basicness": true,
+    "curved_pseudodifferential_overlap_completion": true,
+    "nonlinear_constraint_propagation": true,
+    "separate_operator_completion_route": true
+  },
+  "source_return": "SOURCE_CONFIRMS_INDEPENDENT_BARRED_AND_UNBARRED_FERMION_VARIATIONS__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_NSHARP_ALGEBRAIC_OR_BV_QUOTIENT_MODIFIED_OBSERVATION_FULL_MOVING_GREEN_FORM_AND_NONLINEAR_DOMAIN",
+  "hostile_verdict": "SCOPED_ADVERSE__DIRECT_DUAL_KERNEL_GREEN_DOMAIN_HAS_EXACT_RANK128_RADICALS__PERFECT_ALGEBRAIC_DUAL_REQUIRES_AN_UNOWNED_BARRED_QUOTIENT_WHOSE_NAIVE_OBSERVATION_DOES_NOT_DESCEND__V0170_REMAINS_A_ONE_SIDED_PRINCIPAL_EVOLUTION_INGREDIENT",
+  "accounting": {
+    "P1_P2_P3": "UNCHANGED_UNUSED",
+    "verdict_change": false,
+    "residue_change": false,
+    "quotient_change": false,
+    "canon_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "COMPARE_IM_NSHARP_WITH_THE_EXISTING_ACTION_OWNED_SMALL_GAUGE_CHARACTERISTIC_IMAGE_AND_BOUNDARY_MOMENT_MAP__THEN_ASSEMBLE_THE_FULL_MOVING_BOSON_FERMION_PREBOUNDARY_FORM_AND_TEST_COISOTROPIC_REDUCTION_PLUS_MODIFIED_OBSERVATION__IF_NO_OWNED_IMAGE_MATCHES_PRIORITIZE_OPERATOR_COMPLETION",
+  "probe": "tests/channel-swings/selected_k77_polarized_green_dual_gate_probe.py"
+}

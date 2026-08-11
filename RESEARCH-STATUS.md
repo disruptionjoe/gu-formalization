@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.171; six
+distance/evidence migrations; headline unchanged).** The v0.170
+strict-center `ker N` restriction remains a one-sided flat principal evolution
+ingredient. It does not directly extend to the source action's independent
+barred/unbarred pair: the unique Green-adjoint direct dual-kernel domain has
+exact rank-128 radicals on both sides. The perfect algebraic dual
+`Vbar/im Nsharp` has dimension 1792, but is not source/action-owned as gauge or
+BV and the naive observation map has rank 128 on the quotient directions, so
+it does not descend. For the observed-x sample the dual kernel itself retains
+rank 512 rather than 640. The next gate is to compare the radical with existing
+action-owned characteristic/BFV images and assemble the full moving
+preboundary form; otherwise the distinct operator-completion route takes
+priority. Source return:
+`SOURCE_CONFIRMS_INDEPENDENT_BARRED_AND_UNBARRED_FERMION_VARIATIONS__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_NSHARP_ALGEBRAIC_OR_BV_QUOTIENT_MODIFIED_OBSERVATION_FULL_MOVING_GREEN_FORM_AND_NONLINEAR_DOMAIN`.
+No datum, P1/P2/P3, verdict, residue, quotient, canon or public-posture change
+is made.
+
 **Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.170; six
 distance/evidence migrations; headline unchanged).** The primary
 Craig--Weinstein scalar nonlocal strict-center support condition does not by

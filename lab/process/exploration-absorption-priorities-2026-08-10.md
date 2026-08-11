@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.171 closes the first action-level test of v0.170 adversely. The
+one-sided `ker N` evolution restriction survives, but its direct Green dual
+has rank-128 radicals and its perfect algebraic barred quotient is neither
+action/BV-owned nor observation-descended. Before more curved or nonlinear
+domain work, run the cheap composition against existing small-gauge
+characteristic images and the boundary moment map, then the full moving
+preboundary form. If no owned coisotropic reduction appears, shift Build to
+the distinct source-admitted operator completion. Do not fit a quotient or
+observation map to rescue the restriction.
+
 Ledger v0.170 types the primary Craig--Weinstein nonlocal theorem against the
 actual matrix operator. Scalar strict-center support alone retains the
 rank-128 Jordan defect. Strict-center support plus the canonical

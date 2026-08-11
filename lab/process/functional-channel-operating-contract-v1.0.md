@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.170.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.170.md`.
+`lab/process/conditional-physics-ledger-v0.171.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.171.md`.
+
+Current Green-dual correction: v0.170 `ker N` remains a one-sided flat
+principal evolution ingredient, but its unique Green-adjoint dual-kernel
+action domain has rank-128 radicals. The perfect algebraic dual
+`Vbar/im Nsharp` is not action/BV-owned and naive observation is nonzero on
+the quotient directions, so it does not descend. Build must first compare the
+radical with existing action-owned characteristic/BFV images and the full
+moving preboundary form. It may not invent a quotient or modified observation
+to rescue the route.
 
 Current nonlocal-domain correction: Craig--Weinstein scalar strict-center
 support alone retains the real-K77 matrix Jordan defect. The canonical

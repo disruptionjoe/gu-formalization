@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-11)
 
+> **Current v0.171 polarized Green-dual gate:** v0.170 `ker N` survives only
+> as one-sided flat principal evolution data. With the actual normal Green
+> coefficient, `ker Nsharp x ker N` has rank-128 radicals. The perfect
+> algebraic dual `Vbar/im Nsharp` is not action/BV-owned and naive observation
+> has rank 128 on the quotient directions, so it does not descend. Do not call
+> that quotient gauge, BV or physical. Next compare the radical with the
+> existing action-owned small-gauge characteristic image/boundary moment map
+> and the full moving preboundary form; keep operator completion separate.
+
 > **Current v0.170 nonlocal ultrahyperbolic/polarization gate:** scalar
 > Craig--Weinstein strict-center Fourier support alone leaves the actual K77
 > rank-128 Jordan remainder. Adding the canonical frequency condition

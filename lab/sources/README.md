@@ -9,6 +9,11 @@ updated_at: "2026-08-10"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-polarized-green-dual-gate-source-return-2026-08-11.md`](selected-k77-polarized-green-dual-gate-source-return-2026-08-11.md)
+  records source ownership of independent barred/unbarred fermion variations
+  and source silence on `Nsharp`, the algebraic/BV quotient, modified
+  observation and the full moving/nonlinear domain.
+
 - [`selected-k77-nonlocal-ultrahyperbolic-polarization-gate-source-return-2026-08-11.md`](selected-k77-nonlocal-ultrahyperbolic-polarization-gate-source-return-2026-08-11.md)
   separates Walter Craig and Steven Weinstein's scalar nonlocal
   ultrahyperbolic theorem from Eric Weinstein's GU source, and records source

@@ -7,6 +7,20 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 POLARIZED K77 GREEN-DUAL GATE (ledger v0.171).** The
+> v0.170 strict-center `ker N` restriction survives as one-sided flat
+> principal evolution data, but direct promotion to an action domain fails.
+> For the actual normal Green coefficient, the unique adjoint `Nsharp` makes
+> `ker Nsharp x ker N` Green-degenerate with rank-`128` radicals. The perfect
+> algebraic dual `Vbar/im Nsharp` is not action/BV-owned, and naive observation
+> has rank `128` on those quotient directions, so it does not descend; the
+> purely observed-frequency dual kernel itself retains only rank `512` of
+> `640`. **Next compare `im Nsharp` with the existing action-owned small-gauge
+> characteristic image and boundary moment map, then assemble the full moving
+> boson-fermion preboundary form and test coisotropic/BFV reduction plus a
+> basic modified observation. If no owned image matches, prioritize the
+> separate wedge-Shiab/nonzero-southeast operator completion.**
+
 > **2026-08-11 NONLOCAL K77 ULTRAHYPERBOLIC/POLARIZATION GATE (ledger
 > v0.170).** Craig--Weinstein's scalar strict-center support condition alone
 > leaves the actual real-K77 rank-`128` square-zero Jordan defect. The operator

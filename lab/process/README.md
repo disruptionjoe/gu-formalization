@@ -7,7 +7,16 @@ updated_at: "2026-08-10"
 
 # Process
 
-Current append-only progress surface: ledger v0.170. Craig--Weinstein scalar
+Current append-only progress surface: ledger v0.171. The v0.170 one-sided
+`ker N` evolution ingredient survives, but its unique Green-adjoint
+dual-kernel action domain has rank-128 radicals. The perfect algebraic dual
+`Vbar/im Nsharp` is unowned and naive observation does not descend because it
+has rank 128 on the quotient directions. The next gate compares that radical
+with action-owned characteristic/BFV images and the full moving preboundary
+form before any quotient or modified-observation promotion. Registry:
+`selected-k77-polarized-green-dual-gate.json`.
+
+Predecessor v0.170. Craig--Weinstein scalar
 strict-center support alone retains the actual real-K77 rank-128 Jordan
 defect. The additional canonical frequency condition
 `N(k)u_hat=0`, `N=E^2-rho^2 I`, removes generalized chains at flat principal

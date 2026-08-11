@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `polarized_green_dual_gate_audit.py` enforces ledger v0.171's one-sided
+  survival, exact rank-128 direct Green radicals, unowned perfect barred
+  quotient, failed naive observation descent, scoped successor and unchanged
+  accounting.
+
 - `nonlocal_ultrahyperbolic_polarization_gate_audit.py` enforces ledger
   v0.170's scalar-versus-matrix Layer-0 split, strict-center support failure,
   conditional rank-128 frequency polarization, retained rank-640 observation,
