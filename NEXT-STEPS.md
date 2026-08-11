@@ -7,6 +7,21 @@ updated_at: "2026-08-10"
 
 # Next Steps For Contributors
 
+> **2026-08-11 SIGNATURE-AMBIENT RESOLVER DESIGN PACKET AVAILABLE
+> (absorption pointer, binds nothing).** A Joe-directed design packet for
+> the resolver-less `SIGNATURE-AMBIENT` fork is filed at
+> `explorations/signature-ambient-relative-sign-resolver-design-packet-2026-08-11.md`
+> with a green designer's certificate
+> (`tests/channel-swings/signature_ambient_relative_sign_design_certificate.py`)
+> and hostile review alongside. Core: the fork reduces to one relative-sign
+> bit; uniform-sum balances read it convention-free (draft display balance
+> 0 = `{7,7}`; transcript blocks balance 4 = `{9,5}`); an outcome-graded
+> Wave A (checks C1-C4) either resolves the fork at primary-display grade,
+> refutes the route on a displayed formula, or re-types the fork with the
+> freedom exactly characterized. This implements the route review's
+> rank-4(a). Next wave: absorb, schedule Wave A, or decline with reasons
+> per the absorption protocol.
+
 > **2026-08-11 DISCOVERY ROUTE REVIEW AVAILABLE (absorption pointer, binds
 > nothing).** A Joe-directed campaign-altitude route review of the K77
 > operator-anomaly big swing is filed at
