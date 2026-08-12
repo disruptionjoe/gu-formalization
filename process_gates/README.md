@@ -3198,3 +3198,19 @@ full-bank control, all-eight selector failure to reach rank four, source
 `Q_B` return, carrier-parent Layer-0 fence and hostile analytic/symplectic
 scope.  It fails closed on a constructed `Q_B`, coupled contact, expanded
 parent, gauge/BFV quotient, analytic domain, physical spectrum or datum use.
+
+## K77 I2B real-primalizer phase gate ledger v0.214
+
+Gate: `k77_i2b_real_primalizer_phase_gate_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_real_primalizer_phase_gate_audit.py
+```
+
+Verifies the exact `364+14+896` grade-two tensor decomposition, current
+rank-two complex-bilinear trace, rank-four phase-even candidate, rank-two
+`P_+`/`P_-` and two-half scalar-weight controls, noncompact `U(1,1)`
+invariance failure, source return and hostile analytic/symplectic scope. It
+fails closed on source/action selection of `Q_B`, a moving fundamental
+symmetry, coupled contact, observation/gauge reduction, analytic domain,
+physical spectrum or datum use.

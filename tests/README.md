@@ -6,6 +6,19 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_real_primalizer_phase_gate_probe.py`
+  classifies the exact v0.213 grade-two response as
+  `V tensor Lambda^2 V`, constructs its `364+14+896` tensor decomposition and
+  nine-weight restricted phase ansatz, and proves a phase-even candidate gives
+  Lorentz rank four. It separately proves that action-owned `P_+`/`P_-` and
+  two scalar Weyl-half weights remain rank two, while an exact `U(1,1)` plant
+  rejects noncompact-unitary invariance of the winning candidate. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0214_probe.py` enforces the
+  scoped three-row migration, rank-four conditional/rank-two owned split,
+  noncompact-unitary ownership burden, unchanged accounting and next gate.
+
 - `channel-swings/selected_k77_i2b_arbitrary_field_euler_green_bank_probe.py`
   computes the complete fixed-`H_q` `196`-real arbitrary-connection Euler
   polynomial. Its four supports are `14,12,12,2` with rank three; all four

@@ -1939,6 +1939,15 @@ Next type bosonic `Q_B` or compose coupled moving contact/expanded total
 residual, and require rank four.  Keep `C^(32,32)+C^(32,32)`, derived
 `U(32,32)xU(32,32)`, full `U(64,64)`, and independent connections distinct.
 
+V0.214 narrows that gate. A phase-even conjugation-sensitive `Q_B` candidate
+gives the exact four-real Lorentz rank-four principal symbol, so the response
+geometry can fit. The already action-owned `P_+`/`P_-` sectors and relative
+scalar weights on the two `C^(32,32)` half traces remain rank two, and the
+winning candidate fails a noncompact `U(1,1)` adjoint-invariance plant. Next
+construct or kill a moving action-owned fundamental symmetry/reduction that
+selects the phase-even pairing; retain coupled metric/section/gauge contact as
+the independent repair. Do not book a parameter, datum, action or spectrum.
+
 - lab/process/improvement-register-2026-08-03.md (+ Revision 1) — the work
   queue; cite item IDs in commits.
 - lab/process/eleven-lens-audit-2026-08-03.md — verified findings + fix
