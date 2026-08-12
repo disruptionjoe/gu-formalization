@@ -479,3 +479,5 @@ identifications as separate grades.
   - confirms the augmented-torsion quadratic eddy and quartic-from-squared-eddy route; returns source-silent on the fixed-`H_q` phase map, `J` completion, selected action coefficient and physical vacuum.
 - [`selected-k77-hq-action-owner-source-return-2026-08-12.md`](selected-k77-hq-action-owner-source-return-2026-08-12.md)
   - confirms `SC-ACT-01` as the released first-order action and the separate quartic-from-squared-eddy direction; returns source-silent on the complete second/Dirac-square action, co-moving background, its magnitude, and reduced physical Higgs spectrum.
+- [`selected-k77-source-i2b-hq-stationarity-source-return-2026-08-12.md`](selected-k77-source-i2b-hq-stationarity-source-return-2026-08-12.md)
+  - confirms SC-ACT-04 as the bosonic residual-square owner and returns source-silent on the exact moving-`H_q` reduction, background completion, transverse cancellation and physical vacuum.

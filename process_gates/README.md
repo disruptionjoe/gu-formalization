@@ -3069,3 +3069,17 @@ distinct conditional eddy-square potential `2(rho+r^2/3)^2`, branch and radial
 Hessian, source polarity and hostile scope fences. It fails closed on second
 action selection, background derivation, physical vacuum, photon/Yukawa/BV,
 analytic stability, datum or canon promotion.
+
+## K77 source-I2B moving-Hq stationarity gate ledger v0.201
+
+Gate: `k77_source_i2b_hq_stationarity_audit.py`.
+
+```bash
+python3 process_gates/k77_source_i2b_hq_stationarity_audit.py
+```
+
+Verifies that source claim SC-ACT-04 owns the restricted residual-square
+potential `96(rho+r^2/3)^2`, while its nonzero branch retains a nonzero
+Krein-null residual and fourteen live transverse fixed-`H_q` connection
+derivatives. It fails closed on full-stationarity, physical-vacuum,
+Goldstone/photon/Yukawa/BV/domain, datum or canon promotion.

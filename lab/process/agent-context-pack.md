@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.201 source-I2B moving-Hq stationarity gate:** source claim
+> `SC-ACT-04` owns the second bosonic residual-square action. On the exact
+> moving-`H_q` family it gives `I2B=96(rho+r^2/3)^2`, branch
+> `r^2=-3rho`, and positive restricted radial Hessian for `rho<0`. The branch
+> is not a full vacuum: its raw residual is nonzero but Krein-null and the
+> full 196-real fixed-`H_q` connection bank has fourteen nonzero transverse
+> derivatives, even though the correlated four-real doublet tangent cancels
+> them. Next derive an action-owned moving reduction or complete
+> connection-jet/background cancellation before kinetic, Goldstone/photon,
+> Yukawa, BV or analytic claims.
+
 > **Current v0.200 moving-Hq action-owner gate:** frozen-`q` tangent
 > substitution is not the moving-family potential. On four exact moving-`q`
 > representatives, the released first action `SC-ACT-01` has mass and cubic
