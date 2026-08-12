@@ -12,10 +12,17 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `k77_i2b_ambient_fibre_trace_split_correction_audit.py` enforces ledger
+  v0.209's append-only correction: ambient `91`, fibre `45`, exact `9+4`
+  q-motion split, subfamily ranks `280/140`, intersection rank `28`, radial
+  tenth metric direction and the remaining action-composition fences.
+
 - `k77_i2b_full_trace_orbit_derivative_audit.py` enforces ledger v0.208's
   exact `91=78+13` trace-stabilizer/orbit split, thirteen rank-56 `dot P_+`
   maps, joint rank 392, firing frozen/radial controls, zero datum cost and the
   source carrier-split/action-parent/Euler fences.
+  Its `so(6,4)` and complete-fibre labels are superseded by v0.209; the exact
+  ambient identities remain a predecessor regression.
 
 - `k77_i2b_global_primalizer_descent_audit.py` enforces ledger v0.207's
   sign-insensitive associated `P_+` descent, exact rank-56 pure-frame

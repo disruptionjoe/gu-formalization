@@ -9,17 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.208 full normalized trace-orbit derivative gate:** all 91
-> `so(6,4)` directions split exactly into a 78-dimensional normalized-trace
-> stabilizer and a 13-dimensional orbit. Every orbit direction gives a
-> rank-56 `dot P_+=[L,tau]/2`; their joint images span the complete 392-real
-> target, and freezing `P_+` fails in every direction. This exhausts the
-> fixed-norm tautological trace-q derivative with zero datum cost, not
-> arbitrary DeWitt/Hodge/Shiab/connection/observation/field variation. The
-> source object is `C^(32,32) + C^(32,32)` carrier halves; the
-> block-preserving `U(32,32) x U(32,32)` subgroup, full `U(64,64)` principal
-> parent and two independent connection fields remain distinct. Next derive
-> the remaining physical derivative packet and complete Euler/preboundary.
+> **Current v0.209 ambient/fibre correction gate:** v0.208's 91 generators
+> are ambient `so(7,7)`, not vertical-fibre `so(6,4)`, whose dimension is 45.
+> The thirteen q-moving directions split exactly into nine normalized fibre
+> directions and four base-fibre soldering directions. Their joint target
+> ranks are `280/140`, intersection rank `28`, and ambient union rank `392`.
+> All v0.208 projector/action identities survive; its complete-fibre summary
+> does not. The tenth metric direction is radial trace variation and remains
+> to be composed from the existing metric Frechet packet, separately from the
+> four physical soldering/observation derivatives. The source object remains
+> `C^(32,32) + C^(32,32)` carrier halves; block-preserving subgroup, full
+> `U(64,64)` parent and independent connection fields remain distinct.
+
+> **Predecessor v0.208:** supplies exact rank-56 `dot P_+` identities in all
+> thirteen ambient directions and joint rank 392. Its labels `91 so(6,4)` and
+> complete 13-dimensional fibre orbit are superseded by v0.209.
 
 > **Predecessor v0.207:** `P_+` descends globally without a chosen Spin frame,
 > and one pure-frame rank-56 derivative was exact. V0.208 closes its remaining

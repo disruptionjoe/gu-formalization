@@ -7,11 +7,19 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-ambient-fibre-trace-split-correction-source-return-2026-08-12.md`](selected-k77-i2b-ambient-fibre-trace-split-correction-source-return-2026-08-12.md)
+  uses authorial eq. `(12.19)` to keep `(1,3)`, `(6,4)` and `(7,7)` separately
+  typed, returns source-silent on the repository projector ranks, and records
+  the append-only correction from a 13-direction ambient orbit to nine fibre
+  plus four soldering directions.
+
 - [`selected-k77-i2b-full-trace-orbit-derivative-source-return-2026-08-12.md`](selected-k77-i2b-full-trace-orbit-derivative-source-return-2026-08-12.md)
   separates the source `C^(32,32) + C^(32,32)` carrier split from its derived
   block-preserving subgroup, the full `U(64,64)` principal parent and two
   independent connection fields, while returning the complete normalized
   trace-orbit `dot P_+` theorem as repository-derived.
+  Its `91 so(6,4)` interpretation is superseded by the v0.209 source return;
+  the exact ambient matrix theorem survives.
 
 - [`selected-k77-i2b-global-primalizer-descent-source-return-2026-08-12.md`](selected-k77-i2b-global-primalizer-descent-source-return-2026-08-12.md)
   records source ownership of moving epsilon-conjugation grammar, source

@@ -7,15 +7,21 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.208. The complete fixed-norm
-normalized trace-q orbit is `91=78+13`; all 13 moving directions give exact
-rank-56 `dot P_+=[L,tau]/2` terms whose joint images span the 392-real target.
-The family is frame-owned and adds no datum. The live gate is the remaining
-independent DeWitt/Hodge/Shiab/connection/observation/field derivative packet
-followed by the complete Euler/preboundary classes. Keep the source
+Current append-only progress surface: ledger v0.209. V0.208's exact
+91-generator theorem is ambient `so(7,7)`, not vertical-fibre `so(6,4)`. Its
+13 q-moving directions split into nine genuine normalized fibre motions and
+four base-fibre soldering motions, with exact joint ranks `280` and `140` and
+intersection rank `28`; the ambient union retains rank `392`. The tenth metric
+direction is radial trace variation. The live gate separately composes that
+radial metric Frechet packet and the four soldering/observation derivatives
+inside the action before deriving Euler/preboundary classes. Keep the source
 `C^(32,32) + C^(32,32)` carrier split, its derived block-preserving subgroup,
 the full `U(64,64)` principal parent and independent connection fields
-distinct. Registry: `selected-k77-i2b-full-trace-orbit-derivative.json`.
+distinct. Registry:
+`selected-k77-i2b-ambient-fibre-trace-split-correction.json`.
+
+Predecessor v0.208 supplies the exact ambient projector-derivative identities;
+its complete-fibre-orbit interpretation is corrected by v0.209.
 
 Predecessor v0.207 supplies global `P_+` descent and the first rank-56 orbit
 derivative.

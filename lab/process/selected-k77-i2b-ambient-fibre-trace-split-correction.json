@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-142442-gu-i2b-ambient-fibre-trace-split-correction",
+  "ledger_version": "0.209",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-CHI-03", "SC-SIG-52", "SC-ACT-02", "SC-ACT-04", "SC-GRP-01", "SC-GRP-02"],
+  "source_return": "SOURCE_CONFIRMS_AUTHORIAL_ONE_THREE_PLUS_SIX_FOUR_CARRIER_SPLIT_AND_C32_32_WEYL_SPLIT__SOURCE_SILENT_ON_PPLUS_SUBFAMILY_RANKS__REPO_CORRECTS_V0208_AMBIENT_FIBRE_TYPING",
+  "layer0": {
+    "ambient_so77_vs_vertical_fibre_so64": "DISTINCT",
+    "nine_fibre_orbit_vs_four_base_fibre_soldering_directions": "DISTINCT",
+    "radial_metric_trace_vs_normalized_projector_motion": "DISTINCT",
+    "metric_trace_radius_vs_higgs_amplitude_r": "DISTINCT",
+    "source_c32_32_split_vs_block_subgroup_vs_independent_connections": "DISTINCT"
+  },
+  "exact_results": {
+    "ambient_signature": [7, 7],
+    "base_signature": [1, 3],
+    "vertical_fibre_signature": [6, 4],
+    "ambient_so77_dimension": 91,
+    "base_so13_dimension": 6,
+    "vertical_so64_dimension": 45,
+    "mixed_block_dimension": 40,
+    "ambient_trace_stabilizer_dimension": 78,
+    "ambient_trace_orbit_dimension": 13,
+    "vertical_trace_stabilizer_dimension": 36,
+    "vertical_trace_orbit_dimension": 9,
+    "base_fibre_q_mixing_directions": 4,
+    "metric_fibre_radial_directions": 1,
+    "metric_fibre_total_directions": 10,
+    "dot_pplus_rank_per_direction": 56,
+    "vertical_fibre_joint_image_rank": 280,
+    "soldering_joint_image_rank": 140,
+    "ambient_joint_image_rank": 392,
+    "vertical_soldering_image_intersection_rank": 28,
+    "radial_scaling_delta_q_squared": -2,
+    "v0208_exact_matrix_identities_preserved": true,
+    "v0208_complete_fibre_orbit_interpretation_preserved": false,
+    "new_external_datum_required": false,
+    "complete_field_euler_preboundary_derived": false
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_quotients": 0,
+    "new_promoted_selectors": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "V0208_MATRIX_THEOREM_SURVIVES__AMBIENT_ORBIT_RETYPED__FIBRE_NINE_PLUS_RADIAL_ONE__SOLDERING_FOUR_SEPARATE",
+  "next_gate": "COMPOSE_RADIAL_METRIC_TRACE_FRECHET_PACKET_AND_FOUR_SOLDERING_OBSERVATION_DERIVATIVES_INSIDE_SELECTED_ACTION__THEN_DERIVE_EULER_PREBOUNDARY",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-ambient-fibre-trace-split-correction-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_ambient_fibre_trace_split_correction_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-ambient-fibre-trace-split-correction-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-ambient-fibre-trace-split-correction-review.md"
+  }
+}
