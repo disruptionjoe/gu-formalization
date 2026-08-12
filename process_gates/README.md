@@ -3000,3 +3000,17 @@ dimension 21 distinct from fixed-q compact dimension 18, and records the
 `v_PSB`/trace-q joint stabilizer dimension 9. It fails closed if abstract
 SM-algebra containment or the rank-nine defect is promoted into physical
 representation or Higgs recovery.
+
+## K77 moving-Hq, U(3,2), SM and Higgs-direction gate ledger v0.196
+
+Gate: `k77_moving_hq_u3_2_sm_higgs_direction_audit.py`.
+
+```bash
+python3 process_gates/k77_moving_hq_u3_2_sm_higgs_direction_audit.py
+```
+
+Verifies that v0.196 preserves headline accounting, constructs the exact
+12-dimensional special-unitary Pati-Salam intersection and actual chiral-spin
+16 hypercharges, retypes the dimension-nine fixed-q group as post-Higgs
+`SU(3)xU(1)`, and retains the 20-dimensional J family plus radial `varpi`
+action ownership as open. It fails closed on Higgs-action or datum promotion.

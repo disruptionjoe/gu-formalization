@@ -9,16 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.195 K77 trace-Hq connection/internal-chain gate:** fixed-trace
-> split-spin compatibility is exactly `Spin(1,3)xSpin(6,3)`, dimension `42`,
-> and `D H_q` has exact rank nine with a lossless reconstruction of the broken
-> normal coefficients. Freezing q loses full Pati-Salam; abstract SM-algebra
-> containment remains but the naive fermion branch and simultaneous use of
-> the existing `(4,1,2)` `v_PSB` fail (`dim=9`, not `12`). The rank-nine
-> `6+3` defect is not a Higgs doublet. Next build the source's full-Pati-
-> Salam/`U(3,2)` intersection relative to moving `H_q`, then the distinct
-> action-owned `varpi` scalar block. Full `U(64,64)`, two `U(32,32)` halves,
-> BV, domain, chirality, index and count remain open.
+> **Current v0.196 moving-Hq / U(3,2) SM and Higgs-direction gate:** the exact
+> Pati-Salam/`SU(3,2)` intersection is `S(U(3)xU(2))`, dimension 12, and the
+> actual chiral-spin 16 has the SM hypercharges. Fixed trace q then leaves
+> post-Higgs `SU(3)xU(1)`, dimension 9. Its compact orbit has three directions;
+> one radial coefficient would complete a four-real weak doublet of
+> `Y=-1/2`. This is a carrier, not a selected Higgs action. Next find the
+> radial coefficient in full `U(64,64)` or possible two `U(32,32)` `varpi`
+> and derive its kinetic/potential/Yukawa/stationary terms. The 20-dimensional
+> J-selection family, BV, domain, index and count remain open.
+
+> **Predecessor v0.195:** fixed trace-Hq compatibility and its rank-nine defect
+> were exact; the dimension-nine group had not yet been typed as post-Higgs.
 
 > **Predecessor v0.194:** canonical trace q owns the full/half Hermitian input
 > with zero datum cost; internal-chain compatibility was open.

@@ -8,19 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.195; six
-distance/evidence migrations; headline unchanged).** Fixed-trace
-split-spin compatibility is exactly `Spin(1,3)xSpin(6,3)`, dimension `42`,
-and `D H_q` has rank nine with exact recovery of the broken normal connection.
-This is a compatible connection construction, not selection of the operative
-full `varpi`. Freezing q removes full Pati-Salam `Spin(6)xSpin(4)`. The
-residual compact algebra contains an abstract SM algebra, but its naive
-fermion restriction is not the SM and its exact intersection with the
-independent `(4,1,2)` `v_PSB` stabilizer has dimension `9`, not `12`. The
-rank-nine `6+3` defect is not a Higgs doublet. The moving/full-`U(64,64)` or
-two-half parent, source `U(3,2)` intersection, distinct action-owned `varpi`
-scalar block, BV and domain remain open. No verdict, booked residue, quotient,
-canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.196; six
+distance/evidence migrations; headline unchanged).** The exact normal
+`SU(3,2)`/Pati-Salam intersection is `S(U(3)xU(2))`, dimension `12`, and the
+actual positive-chiral spin 16 carries precisely the SM hypercharges. A
+nonzero trace q in its negative complex two-plane leaves a dimension-nine
+algebra with derived dimension eight and center dimension one: post-Higgs
+`SU(3)xU(1)`. Thus v0.195's dimension-nine result is retyped from failed SM
+to expected post-Higgs stabilizer. The compact q orbit has three directions;
+one radial coefficient would complete a four-real `Y=-1/2` doublet. Selection
+of J from its 20-dimensional family, ownership of that coefficient by full
+`U(64,64)` or possible two `U(32,32)` `varpi`, and kinetic/potential/Yukawa
+dynamics remain open. No verdict, residue, quotient, canon or posture moves.
+
+**Predecessor v0.195.** Fixed trace-Hq compatibility and its rank-nine defect
+were exact; the source intersection and pre-/post-Higgs stage typing were open.
 
 **Predecessor v0.194.** The canonical trace q owns the full/half Hermitian
 input with zero datum cost; internal-chain compatibility was left open.

@@ -3272,3 +3272,19 @@ against algebra-containment-as-representation and `6+3`-as-Higgs shortcuts.
 sage -python tests/channel-swings/selected_k77_trace_hq_connection_internal_chain_probe.py
 python3 process_gates/k77_trace_hq_connection_internal_chain_audit.py
 ```
+
+## K77 moving-Hq, U(3,2), SM and Higgs-direction gate v0.196
+
+`channel-swings/selected_k77_moving_hq_u3_2_sm_higgs_direction_probe.py`
+constructs the exact Pati-Salam/`SU(3,2)` intersection, derives the actual
+chiral-spin 16 hypercharge weights, and proves fixed trace q leaves post-Higgs
+`SU(3)xU(1)`. It distinguishes the three-dimensional q orbit from the one
+radial coefficient required for a four-real weak doublet and keeps J/action
+selection open. Wrong weights, pre/post-Higgs collapse, orbit-only Higgs
+counting, full-versus-special unitary confusion and dimension-only naming
+plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_moving_hq_u3_2_sm_higgs_direction_probe.py
+python3 process_gates/k77_moving_hq_u3_2_sm_higgs_direction_audit.py
+```

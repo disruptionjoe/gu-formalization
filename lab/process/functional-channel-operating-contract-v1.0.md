@@ -24,19 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.195.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.195.md`.
+`lab/process/conditional-physics-ledger-v0.196.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.196.md`.
 
-Current trace-Hq connection/internal-chain result: fixed-trace compatibility
-at the split-spin layer is exactly `Spin(1,3)xSpin(6,3)`, dimension `42`, and
-the rank-nine `D H_q` defect reconstructs all reduction-breaking connection
-coefficients. Freezing q loses full Pati-Salam; abstract SM-algebra
-containment survives but the naive fermion branch and joint use of the
-existing `(4,1,2)` `v_PSB` fail (`dim=9`, not `12`). The `6+3` defect is not a
-Higgs doublet. Build next constructs the source's full-Pati-Salam/`U(3,2)`
-intersection relative to moving `H_q`, then decomposes the full or two-half
-`varpi` and tests a distinct scalar block. Ownership, compatibility, action
-adoption, representation recovery and physical identity remain distinct.
+Current moving-Hq / U(3,2) result: the exact Pati-Salam/`SU(3,2)` intersection
+is the 12-dimensional SM and its actual chiral-spin 16 has the SM
+hypercharges. Fixed q then leaves post-Higgs `SU(3)xU(1)`, dimension 9. Orbit
+plus one radial coefficient has the four real components of a weak doublet,
+but the 20-dimensional J family and the radial full/two-half `varpi` owner are
+unselected. Build next derives the radial coefficient's observation descent,
+kinetic term, potential, Yukawa placement and stationary nonzero amplitude.
+Carrier, action owner and physical Higgs remain distinct.
 
 Predecessor action-concomitant result: on the selected Lorentz-invariant
 background, the exact natural endomorphism algebra is only

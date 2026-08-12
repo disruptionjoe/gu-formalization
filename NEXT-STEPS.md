@@ -15,19 +15,21 @@ updated_at: "2026-08-12"
 > kill not fired, CN-1 dead, C3c and CHK-2 open). The traditional
 > framing is the recorded failure mode — do not regress.
 
-> **2026-08-12 K77 TRACE-HQ CONNECTION / INTERNAL-CHAIN GATE (ledger
-> v0.195).** At the split-spin layer, fixed-trace compatibility is exactly
-> `Spin(1,3)xSpin(6,3)`, dimension `42`; `D H_q` has rank nine and exactly
-> reconstructs every broken normal coefficient. Freezing q, however, loses
-> full Pati-Salam `Spin(6)xSpin(4)`. The residual algebra contains an abstract
-> SM algebra, but the naive fermion branch is wrong and its exact intersection
-> with the independent `(4,1,2)` `v_PSB` stabilizer has dimension `9`, not the
-> SM's `12`. The rank-nine `6+3` defect is also not a Higgs doublet. **Next
-> construct the source's exact full-Pati-Salam/`U(3,2)` intersection relative
-> to the moving trace-`H_q` family, verify the 12-dimensional stabilizer and
-> 16-state hypercharge branch, then decompose the full or two-half `varpi`
-> connection and require a distinct action-owned scalar doublet with kinetic,
-> potential and Yukawa surplus.**
+> **2026-08-12 K77 MOVING-HQ / U(3,2) SM AND HIGGS-DIRECTION GATE (ledger
+> v0.196).** The source's normal complex reduction now closes exactly:
+> Pati-Salam intersected with `SU(3,2)` is `S(U(3)xU(2))`, dimension `12`,
+> and the actual chiral-spin 16 has precisely the SM hypercharges. Fixing trace
+> q then leaves a dimension-nine algebra with derived dimension eight and
+> one-dimensional center: post-Higgs `SU(3)xU(1)`, not a failed pre-Higgs SM.
+> The q orbit supplies three real directions and one radial coefficient would
+> complete a `Y=-1/2` complex doublet. **Next locate that radial coefficient
+> in full `U(64,64)` or possible two `U(32,32)` `varpi`, derive kinetic,
+> potential, Yukawa and nonzero stationary amplitude, and keep selection of J
+> from its 20-dimensional family explicit.** This is a Higgs-carrier result,
+> not yet a Higgs action.
+
+> **Predecessor v0.195.** Fixed trace-Hq compatibility and its rank-nine defect
+> were exact; the dimension-nine group had not yet been typed as post-Higgs.
 
 > **Predecessor v0.194.** The canonical trace q owns the full/half Hermitian
 > input with zero datum cost; its internal-chain compatibility was open.

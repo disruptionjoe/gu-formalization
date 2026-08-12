@@ -9,6 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.196 constructs the exact normal `U(3,2)`/Pati-Salam intersection:
+pre-Higgs `S(U(3)xU(2))` with the actual chiral-spin SM hypercharges. Fixed
+trace q then leaves post-Higgs `SU(3)xU(1)`, so v0.195's dimension-nine result
+is retyped rather than discarded. Rank one is now to locate a radial scalar
+coefficient in full `U(64,64)` or possible two `U(32,32)` `varpi`, compose it
+with the q direction, and derive kinetic, potential, Yukawa and stationary
+nonzero amplitude. Keep selection of J from its 20-dimensional family visible.
+
 Ledger v0.193 closes the finite full-versus-two-half Hermitian compatibility
 problem conditionally. `H_q=i B gamma(q)` gives full signature `(64,64)` and
 two exact `(32,32)` Weyl restrictions, with an explicit Witt rotation from
