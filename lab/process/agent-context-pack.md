@@ -9,16 +9,22 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.220 source-normal-jet reconciliation:** the released
-> augmented-torsion operator owns a nontrivial normal-contact map.  At nonzero
-> `kappa`, the exact real-u source image has rank `8` per normal, hence rank
-> `80` inside the `160`-dimensional contact.  The complementary rank `80` is a
-> real-form cokernel, and v0.219's scalar destroy/create completions lie in it.
-> Do not import the unrestricted complex response or book either half as
-> theory parameters. Identify the cokernel module, then derive the coupled
-> Euler normal prolongation on a genuine stationary background and test the
-> physical image against the contact discriminant. `kappa=0`, complexified
-> response and action-reduced tangents remain controls. No accounting moves.
+> **Current v0.221 trace-Hq normal-contact correction:** v0.220 used the exact
+> grade-only B-skew bank but mistyped it as the source-sized embedded real form.
+> The trace-owned Hermitian form `H_q=iB gamma(g/2)` gives rank `12` per normal,
+> hence rank `120` inside the `160`-dimensional contact, with a local rank-40
+> cokernel. The scalar destroy/create completion is pointwise source-realizable;
+> its on-shell value still requires coupled Euler normal prolongation on a
+> stationary trace-Hq background. The actual fixed-observer SO3 acts trivially,
+> the 16-response bank is not closed under the full trace-q stabilizer, and the
+> cokernel is not the recurring rank-128 fermionic defect. Keep the primary
+> carrier typing `C^(32,32)_+ + C^(32,32)_-` distinct from its block subgroup,
+> full parent and independent connections. Also keep Hermitian `H_q` distinct
+> from generation hinge `H^- = X(S^+)`. No accounting moves.
+
+> **Predecessor v0.220 source-normal-jet reconciliation:** source ownership of
+> the operator survives. Its rank-80/cokernel-80 and scalar-exclusion
+> dispositions are append-corrected by v0.221.
 
 > **Current v0.219 full-contact identifiability result:** all currently owned
 > contact facts still leave `J1_normal(Upsilon_B)` unbuilt. Exact

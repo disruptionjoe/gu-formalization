@@ -7,11 +7,18 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-trace-hq-normal-contact-correction-source-return-2026-08-12.md`](selected-k77-i2b-trace-hq-normal-contact-correction-source-return-2026-08-12.md)
+  confirms the two-connection augmented-torsion term and two
+  `C^(32,32)` carrier halves, records source silence on the repository's
+  trace-`H_q` embedding and on-shell germ, and attributes the exact rank-120
+  pointwise contact plus rank-40 local cokernel to repository prior art.
+
 - [`selected-k77-i2b-source-normal-jet-reconciliation-source-return-2026-08-12.md`](selected-k77-i2b-source-normal-jet-reconciliation-source-return-2026-08-12.md)
   confirms the full upstairs two-connection augmented-torsion carrier and
   nonzero-`kappa` Hodge term, records source silence on a physical normal germ
   and domain, and attributes the exact rank-80 real-u image plus rank-80
-  live-contact cokernel to the repository.
+  live-contact cokernel to the repository; its concrete rank and scalar
+  exclusion are append-corrected by the trace-`H_q` return above.
 
 - [`selected-k77-i2b-full-contact-identifiability-source-return-2026-08-12.md`](selected-k77-i2b-full-contact-identifiability-source-return-2026-08-12.md)
   confirms the residual-square, observation, two-connection and

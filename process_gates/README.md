@@ -12,10 +12,16 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_trace_hq_normal_contact_correction_audit.py` enforces ledger
+  v0.221's two-`C^(32,32)` carrier typing, trace-`H_q` rank-120 contact,
+  rank-40 local cokernel, scalar pointwise availability, H-homonym fence,
+  full-stabilizer nonclosure and unchanged accounting.
+
 - `k77_i2b_source_normal_jet_reconciliation_audit.py` enforces ledger
   v0.220's distinction between a source-owned normal-jet operator and an
   admissible real-u germ, exact nonzero-`kappa` rank-80 image and rank-80
-  cokernel, module/prolongation successor and unchanged accounting.
+  cokernel, module/prolongation successor and unchanged accounting; its
+  embedded real-form rank is superseded by v0.221.
 
 - `k77_i2b_full_contact_identifiability_audit.py` enforces ledger v0.219's
   paired equivariant preserve/destroy/create completions, exact contact

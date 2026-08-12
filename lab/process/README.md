@@ -7,19 +7,23 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.220.  The released
-augmented-torsion term owns the normal-jet operator and, at nonzero `kappa`,
-has an exact real-u image of rank `80` inside the rank-`160` observer contact.
-The complementary rank `80` is a real-form cokernel; v0.219's scalar
-destroy/create completions lie in it.  The next owner is to identify that
-module and then compute coupled Euler normal prolongation plus physical
-gauge/domain/state conditions against the exact contact discriminant.  No
-datum or accounting moves. Registry:
-`selected-k77-i2b-source-normal-jet-reconciliation.json`.
+Current append-only progress surface: ledger v0.221. V0.220's operator
+ownership survives, but its B-skew real-form embedding is corrected to the
+trace-owned `H_q` structure on two `C^(32,32)` carrier halves. The exact image
+is rank `120/160`, with a local rank-40 cokernel; the scalar completion is
+pointwise source-realizable. The local cokernel is neither the recurring
+rank-128 fermionic defect nor a full-stabilizer module. The next owner is
+coupled Euler normal prolongation on a stationary trace-`H_q` background,
+followed by gauge/domain/state and contact-discriminant tests. No datum or
+accounting moves. Registry:
+`selected-k77-i2b-trace-hq-normal-contact-correction.json`.
+
+Predecessor v0.220 owns the normal-contact operator. Its rank-80/cokernel-80
+and scalar-exclusion dispositions are append-corrected by v0.221.
 
 Predecessor v0.219 supplies the exact identifiability theorem and contact
-discriminant; v0.220 types its completions against the released source real
-form rather than the unrestricted complex response.
+discriminant; v0.221 types its completions against the current trace-owned
+source real form rather than the unrestricted complex response.
 
 Current append-only progress surface: ledger v0.218.  The conditional
 observer-completed `SC-ACT-04` principal action has an exact constrained-`u`
