@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-source-normal-jet-reconciliation-source-return-2026-08-12.md`](selected-k77-i2b-source-normal-jet-reconciliation-source-return-2026-08-12.md)
+  confirms the full upstairs two-connection augmented-torsion carrier and
+  nonzero-`kappa` Hodge term, records source silence on a physical normal germ
+  and domain, and attributes the exact rank-80 real-u image plus rank-80
+  live-contact cokernel to the repository.
+
 - [`selected-k77-i2b-full-contact-identifiability-source-return-2026-08-12.md`](selected-k77-i2b-full-contact-identifiability-source-return-2026-08-12.md)
   confirms the residual-square, observation, two-connection and
   gauge-rotated Levi-Civita grammar, records source silence on the ambient

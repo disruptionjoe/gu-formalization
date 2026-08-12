@@ -9,16 +9,27 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.220 source-normal-jet reconciliation:** the released
+> augmented-torsion operator owns a nontrivial normal-contact map.  At nonzero
+> `kappa`, the exact real-u source image has rank `8` per normal, hence rank
+> `80` inside the `160`-dimensional contact.  The complementary rank `80` is a
+> real-form cokernel, and v0.219's scalar destroy/create completions lie in it.
+> Do not import the unrestricted complex response or book either half as
+> theory parameters. Identify the cokernel module, then derive the coupled
+> Euler normal prolongation on a genuine stationary background and test the
+> physical image against the contact discriminant. `kappa=0`, complexified
+> response and action-reduced tangents remain controls. No accounting moves.
+
 > **Current v0.219 full-contact identifiability result:** all currently owned
 > contact facts still leave `J1_normal(Upsilon_B)` unbuilt. Exact
 > `SO(3)`-equivariant ambient extensions with identical restricted data
 > preserve, destroy and create the v0.218 line. The scalar-contact
 > discriminant is `(a0+q s)^2+a1^2+a2^2+a3^2=0`; selection remains generic
 > off it but is not identifiable from current pullback. Do not fit `q`, call
-> the route killed, or repeat broad moving-term assembly. Build the one
-> source-native normal jet from two-connection/rotated-LC/augmented-torsion/
-> observation geometry, then recompute the coupled tensor with `A=0` and
-> nonzero-spatial controls. No datum or accounting moves.
+> the route killed, or repeat broad moving-term assembly. V0.220 supersedes
+> only that proposed unique-geometric-jet successor; the
+> identifiability theorem, discriminant and conditional live route survive.
+> No datum or accounting moves.
 
 > **Current v0.218 constrained observer Euler/Ward result:** the conditional
 > observer-completed `SC-ACT-04` principal action has exact blocks
