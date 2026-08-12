@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-radial-lc-section-qrow-composition-source-return-2026-08-12.md`](selected-k77-i2b-radial-lc-section-qrow-composition-source-return-2026-08-12.md)
+  confirms the gauge-rotated Levi-Civita/fixed-`varpi` and observation-section
+  grammar, returns source-silent on the repository's exact radial/q-row action
+  cancellation, and keeps `C^(32,32)+C^(32,32)`, its block subgroup, full
+  `U(64,64)` and independent connections distinct.
+
 - [`selected-k77-i2b-ambient-fibre-trace-split-correction-source-return-2026-08-12.md`](selected-k77-i2b-ambient-fibre-trace-split-correction-source-return-2026-08-12.md)
   uses authorial eq. `(12.19)` to keep `(1,3)`, `(6,4)` and `(7,7)` separately
   typed, returns source-silent on the repository projector ranks, and records

@@ -9,17 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.209 ambient/fibre correction gate:** v0.208's 91 generators
-> are ambient `so(7,7)`, not vertical-fibre `so(6,4)`, whose dimension is 45.
-> The thirteen q-moving directions split exactly into nine normalized fibre
-> directions and four base-fibre soldering directions. Their joint target
-> ranks are `280/140`, intersection rank `28`, and ambient union rank `392`.
-> All v0.208 projector/action identities survive; its complete-fibre summary
-> does not. The tenth metric direction is radial trace variation and remains
-> to be composed from the existing metric Frechet packet, separately from the
-> four physical soldering/observation derivatives. The source object remains
+> **Current v0.210 radial/section composition gate:** the four v0.209 mixed
+> directions are exactly the q-row of the existing forty-dimensional
+> observation-section Cartan lift after a signature-preserving permutation.
+> The radial metric trace restricts the spin Levi-Civita first-jet map to rank
+> four. Its residual derivative is nonzero in all four base directions, while
+> its selected-action derivative vanishes by exact grade-two/grade-one
+> orthogonality; a grade-one plant fires at `8/3`. This is local first-order
+> closure, not a selected physical section, nonlinear observation receiver,
+> complete Euler equation or preboundary class. The source object remains
 > `C^(32,32) + C^(32,32)` carrier halves; block-preserving subgroup, full
 > `U(64,64)` parent and independent connection fields remain distinct.
+
+> **Predecessor v0.209:** corrects v0.208's 91 generators to ambient
+> `so(7,7)`, splits thirteen q motions as nine fibre plus four base-fibre, and
+> locates the tenth metric direction as radial trace variation.
 
 > **Predecessor v0.208:** supplies exact rank-56 `dot P_+` identities in all
 > thirteen ambient directions and joint rank 392. Its labels `91 so(6,4)` and

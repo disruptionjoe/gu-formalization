@@ -10,7 +10,13 @@ etc.) - they do **not** perform mathematics. A green run here means the prose/go
 contracts hold; it says nothing about whether a GU claim is mathematically checked. For that,
 see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
-Current correction gate:
+Current composition gate:
+
+- `k77_i2b_radial_lc_section_qrow_composition_audit.py` enforces ledger
+  v0.210's exact local-first-order result: four mixed directions are the prior
+  section q-row, the radial Levi-Civita first jet has rank four with nonzero
+  residual but zero action derivatives, and nonlinear observation plus full
+  Euler/preboundary remain open.
 
 - `k77_i2b_ambient_fibre_trace_split_correction_audit.py` enforces ledger
   v0.209's append-only correction: ambient `91`, fibre `45`, exact `9+4`

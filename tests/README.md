@@ -6,8 +6,21 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_radial_lc_section_qrow_composition_probe.py`
+  identifies the four mixed v0.209 directions with the q-row of the existing
+  forty-dimensional section-Cartan lift, restricts the covariant Levi-Civita
+  first jet to the rank-four radial metric subspace, and proves all four
+  residual derivatives are nonzero while their selected-action derivatives
+  vanish by exact grade-two/grade-one orthogonality. A grade-one control fires
+  at `8/3`. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0210_probe.py` enforces the
+  scoped three-row migration while nonlinear observation, complete Euler/
+  preboundary and accounting remain open.
+
 - `channel-swings/selected_k77_i2b_full_trace_orbit_derivative_probe.py`
-  classifies all 91 `so(6,4)` generators into a 78-dimensional normalized
+  classifies all 91 ambient `so(7,7)` generators into a 78-dimensional normalized
   trace stabilizer and 13 orbit directions. It proves every `dot P_+` has rank
   56, their joint images span the 392-real target, moving covariance is exact,
   and frozen-projector plus radial-scaling controls fire. Run with
@@ -16,7 +29,7 @@ the map: which directory/group supports which claim.
 - `channel-swings/conditional_physics_ledger_v0208_probe.py` enforces the
   append-only three-row migration to complete normalized trace-orbit ownership
   while all independent field Euler/preboundary work and accounting remain
-  open.
+  open. Its complete-fibre interpretation is superseded by v0.209.
 
 - `channel-swings/selected_k77_i2b_global_primalizer_descent_probe.py`
   replays v0.206, then tests a noncommuting three-patch cocycle on the complete

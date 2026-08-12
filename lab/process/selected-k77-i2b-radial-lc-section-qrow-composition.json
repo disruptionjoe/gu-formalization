@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-145145-gu-i2b-radial-lc-section-qrow-composition",
+  "status": "LOCAL_FIRST_ORDER_COMPOSITION_PASSES__FULL_EULER_PREBOUNDARY_OPEN",
+  "source_return": "SOURCE_CONFIRMS_GAUGE_ROTATED_LEVI_CIVITA_AND_OBSERVATION_SECTION_GRAMMAR__SOURCE_SILENT_ON_EXACT_RADIAL_QROW_ACTION_CANCELLATION",
+  "section_q_row": {
+    "prior_section_cartan_dimension": 40,
+    "q_row_dimension": 4,
+    "signature_permutation_exact": true,
+    "maps_to_v0209_four_mixed_directions": true,
+    "inherits_v0208_moving_first_variation_failures": 0,
+    "physical_section_coefficients_selected": false
+  },
+  "radial_metric_first_jet": {
+    "full_spin_lc_rank": 20,
+    "radial_restriction_rank": 4,
+    "nonzero_residual_derivatives": 4,
+    "zero_action_derivatives": 4,
+    "branch_residual_clifford_grade": 1,
+    "radial_lc_clifford_grade": 2,
+    "grade_one_control": "8/3"
+  },
+  "scope": {
+    "local_first_order": "CLOSED_FOR_RADIAL_LC_AND_SECTION_Q_ROW",
+    "nonlinear_epsilon_ig": "OPEN",
+    "physical_observation_receiver": "OPEN",
+    "complete_euler": "OPEN",
+    "presymplectic_preboundary": "OPEN",
+    "analytic_domain_and_spectrum": "OPEN"
+  },
+  "accounting": {
+    "free_object_delta": 0,
+    "residue_delta": 0,
+    "quotient_delta": 0,
+    "external_datum": {
+      "P1": "UNUSED",
+      "P2": "UNUSED",
+      "P3": "UNUSED"
+    }
+  },
+  "hostile_verdict": "SURVIVES_SCOPED__LOCAL_FIRST_ORDER_RADIAL_AND_QROW_ACTION_CLOSURE_ONLY__FULL_NONLINEAR_EULER_PREBOUNDARY_OPEN",
+  "next_gate": "NONLINEAR_EPSILON_IG_OBSERVATION_RECEIVER_PLUS_ARBITRARY_FIELD_EULER_AND_PRESYMPLECTIC_PREBOUNDARY"
+}

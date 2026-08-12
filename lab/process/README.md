@@ -7,18 +7,21 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.209. V0.208's exact
-91-generator theorem is ambient `so(7,7)`, not vertical-fibre `so(6,4)`. Its
-13 q-moving directions split into nine genuine normalized fibre motions and
-four base-fibre soldering motions, with exact joint ranks `280` and `140` and
-intersection rank `28`; the ambient union retains rank `392`. The tenth metric
-direction is radial trace variation. The live gate separately composes that
-radial metric Frechet packet and the four soldering/observation derivatives
-inside the action before deriving Euler/preboundary classes. Keep the source
+Current append-only progress surface: ledger v0.210. The four base-fibre
+directions from v0.209 are exactly the q-row of the prior forty-dimensional
+section-Cartan lift. The radial metric trace has a rank-four Levi-Civita
+first-jet response: all four residual derivatives are nonzero while their
+selected-action derivatives vanish by exact Clifford grade orthogonality,
+with a grade-one `8/3` control. This closes the v0.209 conditions at local
+first-order grade only. The live gate is nonlinear `epsilon_IG`/observation
+plus arbitrary-field Euler and presymplectic preboundary. Keep the source
 `C^(32,32) + C^(32,32)` carrier split, its derived block-preserving subgroup,
 the full `U(64,64)` principal parent and independent connection fields
 distinct. Registry:
-`selected-k77-i2b-ambient-fibre-trace-split-correction.json`.
+`selected-k77-i2b-radial-lc-section-qrow-composition.json`.
+
+Predecessor v0.209 corrects the ambient/fibre split and locates the radial and
+q-row composition burdens now closed locally by v0.210.
 
 Predecessor v0.208 supplies the exact ambient projector-derivative identities;
 its complete-fibre-orbit interpretation is corrected by v0.209.
