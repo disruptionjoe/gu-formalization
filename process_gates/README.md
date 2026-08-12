@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `k77_i2b_full_trace_orbit_derivative_audit.py` enforces ledger v0.208's
+  exact `91=78+13` trace-stabilizer/orbit split, thirteen rank-56 `dot P_+`
+  maps, joint rank 392, firing frozen/radial controls, zero datum cost and the
+  source carrier-split/action-parent/Euler fences.
+
 - `k77_i2b_global_primalizer_descent_audit.py` enforces ledger v0.207's
   sign-insensitive associated `P_+` descent, exact rank-56 pure-frame
   derivative, firing frozen-projector control and the remaining source-

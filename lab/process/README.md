@@ -7,15 +7,18 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.207. The action-owned
-fixed-real `P_+` primalizer descends as a sign-insensitive associated-bundle
-endomorphism without a chosen global Spin frame. Its exact pure-frame
-derivative `dot P_+=[L,tau]/2` has rank 56 and is required for moving
-first-variation covariance. The live gate is the arbitrary composite
-trace-q/Hodge/Shiab/connection/observation/field derivative followed by the
-complete Euler/preboundary classes, with full `U(64,64)` and the two-half
-reduction kept separate. Registry:
-`selected-k77-i2b-global-primalizer-descent.json`.
+Current append-only progress surface: ledger v0.208. The complete fixed-norm
+normalized trace-q orbit is `91=78+13`; all 13 moving directions give exact
+rank-56 `dot P_+=[L,tau]/2` terms whose joint images span the 392-real target.
+The family is frame-owned and adds no datum. The live gate is the remaining
+independent DeWitt/Hodge/Shiab/connection/observation/field derivative packet
+followed by the complete Euler/preboundary classes. Keep the source
+`C^(32,32) + C^(32,32)` carrier split, its derived block-preserving subgroup,
+the full `U(64,64)` principal parent and independent connection fields
+distinct. Registry: `selected-k77-i2b-full-trace-orbit-derivative.json`.
+
+Predecessor v0.207 supplies global `P_+` descent and the first rank-56 orbit
+derivative.
 
 Predecessor v0.206 supplies fixed-real action ownership and refutes nonlinear
 replacement by retaining the nonzero anti-fixed action sector.

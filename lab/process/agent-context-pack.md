@@ -9,22 +9,27 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.207 global primalizer descent gate:** the action-owned
-> fixed-real `P_+` primalizer descends on the admitted associated residual
-> bundle without a chosen global Spin frame; the central Spin sign cancels in
-> adjoint transport. On the complete 392-real target, the exact pure-frame
-> derivative `dot P_+=[L,tau]/2` has rank 56, obeys the differentiated
-> projector/action identities and is required for moving first-variation
-> covariance. Do not identify this with source `epsilon`, select full
-> `U(64,64)` or the two-`U(32,32)` reduction, or call it the complete
-> Euler/preboundary class. Next assemble arbitrary trace-q, Hodge, Shiab,
-> connection, observation and field variations.
+> **Current v0.208 full normalized trace-orbit derivative gate:** all 91
+> `so(6,4)` directions split exactly into a 78-dimensional normalized-trace
+> stabilizer and a 13-dimensional orbit. Every orbit direction gives a
+> rank-56 `dot P_+=[L,tau]/2`; their joint images span the complete 392-real
+> target, and freezing `P_+` fails in every direction. This exhausts the
+> fixed-norm tautological trace-q derivative with zero datum cost, not
+> arbitrary DeWitt/Hodge/Shiab/connection/observation/field variation. The
+> source object is `C^(32,32) + C^(32,32)` carrier halves; the
+> block-preserving `U(32,32) x U(32,32)` subgroup, full `U(64,64)` principal
+> parent and two independent connection fields remain distinct. Next derive
+> the remaining physical derivative packet and complete Euler/preboundary.
+
+> **Predecessor v0.207:** `P_+` descends globally without a chosen Spin frame,
+> and one pure-frame rank-56 derivative was exact. V0.208 closes its remaining
+> 12 normalized trace-orbit directions.
 
 > **Predecessor v0.206 action-real projection:** the real residual-square
 > pairing derives `P_+` at fixed-real Euler grade on all 99,463 live columns,
 > with 90 nonzero couplings and exact fixed/anti orthogonality. The anti-fixed
 > witness `-11` refutes nonlinear replacement `A -> P_+A`; that fence survives
-> v0.207.
+> v0.207 and v0.208.
 
 > **Predecessor v0.205 compensator-naturality correction:** the exact signed
 > q13-to-q12 transport intertwines the moving field, K77/Hodge/Phi geometry,

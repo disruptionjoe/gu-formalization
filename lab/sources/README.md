@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-full-trace-orbit-derivative-source-return-2026-08-12.md`](selected-k77-i2b-full-trace-orbit-derivative-source-return-2026-08-12.md)
+  separates the source `C^(32,32) + C^(32,32)` carrier split from its derived
+  block-preserving subgroup, the full `U(64,64)` principal parent and two
+  independent connection fields, while returning the complete normalized
+  trace-orbit `dot P_+` theorem as repository-derived.
+
 - [`selected-k77-i2b-global-primalizer-descent-source-return-2026-08-12.md`](selected-k77-i2b-global-primalizer-descent-source-return-2026-08-12.md)
   records source ownership of moving epsilon-conjugation grammar, source
   silence on `H_q/P_+`, and the repository derivation of sign-insensitive
