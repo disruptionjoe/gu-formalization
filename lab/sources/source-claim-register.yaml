@@ -17,6 +17,9 @@ register:
     partition (council Seat 1).
   - 'Enforcement: process_gates/kill_target_claim_audit.py; escape hatch NONE-NOT-A-KILL is counted every
     run.'
+  - 'Relay rule (v1.1, ratified Joe direct chat 2026-08-12): any statement about a registered claim,
+    in any summary, relay, or return text, carries its SC- IDs inline and preserves the source
+    sentence polarity verbatim; frame regression under compression is the measured failure mode.'
   - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
     target claim.'
   adjudication_headline: 'ADHERED 82 / PARTIAL 17 / UNTYPED 11 / IGNORED 0 / CONTRADICTED 0; core: hard-core

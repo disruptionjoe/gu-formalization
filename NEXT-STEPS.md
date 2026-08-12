@@ -7,6 +7,20 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
+> **2026-08-12 NGUYEN C1/C2 CERTIFICATES + DECOUPLING PACKET FILED
+> (absorption pointer, binds nothing).** C1/C2 executed at 42/42 exact:
+> B symmetric signature (64,64), commutant R (Cl(9,5) control H),
+> ladder Spin(7,7)->SO(64,64), eq (8.5) reproduced, tripwire NOT
+> tripped, u(64,64) complex structure provably non-native — the group
+> pincer's remaining grip is the SOURCE-SILENT action-parent question
+> (O4; C3-C5 named). Decoupling constructibility packet types R1-R5 with
+> CHK-1 runnable today (deformation-cell dimensions on the 1,920 carrier;
+> kill = X-odd dim 0 both horns) and the 't Hooft ledger CHK-2 as
+> settled-horn successor to W224. Both artifacts carry target_claim and
+> brief_version — first live gate subjects. Files:
+> explorations/nguyen-c1c2-real-form-certificates-2026-08-12.md,
+> explorations/decoupling-constructibility-packet-2026-08-12.md.
+
 > **2026-08-11 SOURCE-CLAIM REGISTER AND KILL-TARGET GATE LIVE (ratified,
 > binds via gate from 2026-08-12).** `lab/sources/source-claim-register.yaml`
 > holds 110 verbatim, edition-pinned authorial claims with core partition
