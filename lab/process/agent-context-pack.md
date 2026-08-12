@@ -9,7 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.210 radial/section composition gate:** the four v0.209 mixed
+> **Current v0.211 nonlinear receiver composition:** the supposedly missing
+> nonlinear receiver was composition debt. The finite graph projector
+> `P_J/Q_J` and action-owned residual primalizer `P_+/P_-` give four exact
+> tangent/normal times fixed/anti-fixed sectors with ranks
+> `784+784+1960+1960=5488`. They reconstruct the identity, move naturally in
+> all four q-row directions and retain a ten-normal witness lost by ordinary
+> pullback. No new epsilon field or datum is needed for the receiver. Source
+> epsilon, physical section coefficients, arbitrary-field I2B Euler and
+> action-owned Green/preboundary coefficients, analytic domain and physical
+> vacuum remain open. Next assemble those action derivatives inside the
+> existing receiver; do not reopen receiver construction.
+
+> **Predecessor v0.210 radial/section composition gate:** the four v0.209 mixed
 > directions are exactly the q-row of the existing forty-dimensional
 > observation-section Cartan lift after a signature-preserving permutation.
 > The radial metric trace restricts the spin Levi-Civita first-jet map to rank

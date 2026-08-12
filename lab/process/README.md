@@ -7,18 +7,21 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.210. The four base-fibre
-directions from v0.209 are exactly the q-row of the prior forty-dimensional
-section-Cartan lift. The radial metric trace has a rank-four Levi-Civita
-first-jet response: all four residual derivatives are nonzero while their
-selected-action derivatives vanish by exact Clifford grade orthogonality,
-with a grade-one `8/3` control. This closes the v0.209 conditions at local
-first-order grade only. The live gate is nonlinear `epsilon_IG`/observation
-plus arbitrary-field Euler and presymplectic preboundary. Keep the source
-`C^(32,32) + C^(32,32)` carrier split, its derived block-preserving subgroup,
-the full `U(64,64)` principal parent and independent connection fields
-distinct. Registry:
-`selected-k77-i2b-radial-lc-section-qrow-composition.json`.
+Current append-only progress surface: ledger v0.211. The finite nonlinear
+observation projector and action-owned real Euler primalizer compose into four
+exact tangent/normal times fixed/anti-fixed sectors of ranks
+`784+784+1960+1960=5488`. The receiver is lossless, moves naturally in all
+four section q-row directions and retains a nonzero conormal witness erased by
+ordinary pullback. This closes the nonlinear receiver burden without adding
+another epsilon field. The live gate is the remaining arbitrary-field I2B
+Euler and action-owned Green/preboundary coefficient assembly. Keep source
+`C^(32,32) + C^(32,32)`, its derived block subgroup, full `U(64,64)` and
+independent connections distinct. Registry:
+`selected-k77-i2b-nonlinear-receiver-composition.json`.
+
+Predecessor v0.210 closes the radial and q-row conditions at local first-order
+action grade; its claim that the nonlinear receiver itself was unbuilt is
+superseded by the v0.211 prior-art composition.
 
 Predecessor v0.209 corrects the ambient/fibre split and locates the radial and
 q-row composition burdens now closed locally by v0.210.

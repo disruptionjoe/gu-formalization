@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_nonlinear_receiver_composition_audit.py` enforces ledger v0.211's
+  exact tangent/normal times fixed/anti-fixed product receiver, total rank
+  `5488`, moving q-row reconstruction, retained conormal witness and the
+  remaining arbitrary-field Euler/preboundary fence.
+
 - `k77_i2b_radial_lc_section_qrow_composition_audit.py` enforces ledger
   v0.210's exact local-first-order result: four mixed directions are the prior
   section q-row, the radial Levi-Civita first jet has rank four with nonzero

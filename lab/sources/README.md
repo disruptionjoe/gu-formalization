@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-nonlinear-receiver-composition-source-return-2026-08-12.md`](selected-k77-i2b-nonlinear-receiver-composition-source-return-2026-08-12.md)
+  records the source correction to naive pullback and its section/epsilon/
+  Levi-Civita/two-connection grammar, while attributing the exact nonlinear
+  product receiver to the repository and retaining source silence on the
+  arbitrary-field I2B Euler/preboundary bank.
+
 - [`selected-k77-i2b-radial-lc-section-qrow-composition-source-return-2026-08-12.md`](selected-k77-i2b-radial-lc-section-qrow-composition-source-return-2026-08-12.md)
   confirms the gauge-rotated Levi-Civita/fixed-`varpi` and observation-section
   grammar, returns source-silent on the repository's exact radial/q-row action

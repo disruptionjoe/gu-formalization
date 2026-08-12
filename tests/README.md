@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_nonlinear_receiver_composition_probe.py`
+  composes the exact finite observation projector with the action-owned real
+  Euler primalizer. It proves four complementary sectors of ranks
+  `784,784,1960,1960`, simultaneous moving q-row reconstruction, mixed-atlas
+  naturality and retention of the ten-normal packet lost by ordinary
+  pullback. Run with `uv run --with sympy==1.14.0 python`.
+
+- `channel-swings/conditional_physics_ledger_v0211_probe.py` enforces the
+  scoped three-row migration while arbitrary-field I2B Euler/preboundary,
+  physical section/source-epsilon identification and accounting remain open.
+
 - `channel-swings/selected_k77_i2b_radial_lc_section_qrow_composition_probe.py`
   identifies the four mixed v0.209 directions with the q-row of the existing
   forty-dimensional section-Cartan lift, restricts the covariant Levi-Civita
@@ -1336,7 +1347,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (602 Python + 92 Sage) | active channel and Lane-1 swing probes; the current count includes `selected_k77_i2b_ambient_fibre_trace_split_correction_probe.py`, which corrects v0.208's ambient/fibre typing and computes the exact `9+4` subfamily ranks/intersection, `conditional_physics_ledger_v0209_probe.py`, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (606 Python + 92 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.211 nonlinear product-receiver probe and ledger gate, the v0.210 radial/q-row packet, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
