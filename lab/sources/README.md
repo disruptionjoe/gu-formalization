@@ -463,3 +463,5 @@ identifications as separate grades.
   - confirms the authorial 4+10 split, two complex `C^(32,32)` halves and distinct full `U(64,64)` parent; corrects unscoped ambient no-`J` language and returns source-silent on Hermitian-form derivation and action selection.
 - [`selected-k77-moving-split-structure-action-selection-source-return-2026-08-12.md`](selected-k77-moving-split-structure-action-selection-source-return-2026-08-12.md)
   - confirms the two halves, distinct full parent and `varpi` gauge/Higgs-like/CKM/Yukawa assignments; returns source-silent on the intrinsic-torsion formulas, Hermitian compatibility map and physical block identities.
+- [`selected-k77-two-half-hermitian-witt-rotation-source-return-2026-08-12.md`](selected-k77-two-half-hermitian-witt-rotation-source-return-2026-08-12.md)
+  - confirms the authorial full `U(64,64)` arena, Curt's two `C^(32,32)` halves and the `varpi` function assignments; returns source-silent on `H_q`, ownership of `q`, the operative block parent, equation-9.16 grading and physical Higgs/Yukawa identification.

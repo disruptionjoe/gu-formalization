@@ -8,17 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.192; six
-distance/evidence migrations; headline unchanged).** The moving `omega/J4`
-covariant derivatives exactly reconstruct the two nested connection-breaking
-tensors. The canonical reduced K77 connection preserves both structures; a
-block connection preserves `omega` while breaking `J4`; and a full
-endomorphism connection adds a half-exchanging tensor. The existing
-nonzero-branch pointwise action Hessian keeps both breaking banks nonradical,
-so the compatible locus is constructed but not dynamically selected by the
-current action. The source assigns Higgs-like and Yukawa functions to `varpi`,
-but no full-unitary compatibility map or physical block identification is
-derived. No verdict, residue, quotient, datum, canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.193; six
+distance/evidence migrations; headline unchanged).** On the source-sized
+complexified K77 carrier, `H_q=i B gamma(q)` conditionally gives one full
+Hermitian signature `(64,64)` and exact `(32,32)` restrictions on both
+ambient Weyl halves. An explicit Witt rotation relates this to the neutral-
+half `B` presentation. The split alone has no invariant same-half form, and a
+fixed `q` reduces the spin symmetry, so this is a constructed path rather
+than a selected parent. The action/observation ownership and global descent
+of `q`, equation-9.16 block identity, physical Higgs/Yukawa placement, BV and
+domain remain open. No verdict, residue, quotient, datum, canon or public
+posture moves.
+
+**Predecessor v0.192.** The moving `omega/J4` covariant derivatives exactly
+reconstruct the nested connection-breaking tensors; the current pointwise
+action keeps both breaking banks live and does not select the compatible
+locus.
 
 **Predecessor v0.191.** The split commutant is `C+C`; each real Weyl half is
 complex-32 and complexifies to `32+32`. The same-half Hermitian form and

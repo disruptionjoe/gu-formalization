@@ -7,18 +7,23 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
-> **2026-08-12 K77 MOVING SPLIT / ACTION-SELECTION GATE (ledger v0.192).**
-> Moving `omega` and real `J4` now give an exact intrinsic-torsion
-> decomposition of the K77 spin connection. The canonical projector-reduced
-> connection preserves both; a block connection has `D omega=0` with
-> `D J!=0`; the full endomorphism connection additionally carries the exact
-> half-exchanging tensor `K_omega=(D omega)omega/2`. The existing nonzero-
-> branch pointwise action Hessian has zero radical on both breaking banks, so
-> the compatible locus exists but the current action does not select it.
-> **Next build the full-unitary-to-K77 compatibility map, derive or kill the
-> same-half Hermitian form and external-`i` placement, and test which `varpi`
-> block—if any—is the source Higgs-like channel without fitting it.** Keep
-> live off-diagonal fields distinct from errors that must vanish.
+> **2026-08-12 K77 TWO-HALF HERMITIAN/WITT GATE (ledger v0.193).** On the
+> source-sized complexification, a normalized non-null `q` gives the exact
+> Hermitian form `H_q=i B gamma(q)` of signature `(64,64)` whose two ambient
+> Weyl restrictions each have signature `(32,32)`. An explicit Witt rotation
+> relates this to the neutral-half `B` presentation. The split alone has no
+> invariant same-half form (`0/0`), so `q` is genuine reduction data: the
+> moving family is natural, but neither the action, observation geometry nor
+> P1/P2/P3 selects a global line. **Next construct or kill an observation- or
+> action-owned `q`, test descent and datum cost, then decompose the resulting
+> unitary `varpi` blocks under the observed stabilizer and require an
+> action-owned scalar doublet with kinetic, potential and Yukawa surplus.**
+> Do not infer the Higgs from block parity or identify equation-9.16 signs
+> with ambient chirality by fiat.
+
+> **Predecessor v0.192.** Moving `omega/J4` exactly reconstruct the nested
+> connection-breaking tensors; the current pointwise action does not select
+> the compatible locus.
 
 > **Predecessor v0.191.** The exact split commutant is `C+C`; each real Weyl
 > half is complex-32 and complexifies to `32+32`. It does not derive the

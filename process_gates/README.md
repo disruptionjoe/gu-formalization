@@ -2957,3 +2957,17 @@ Verifies exact reconstruction of the two nested connection-breaking tensors
 from moving `D omega` and `D J4`, the compatible/block/full locus separation,
 adapted-frame naturality, the scoped current-action nonselection result and
 unchanged residue. It fails closed on full-unitary or physical-block promotion.
+
+## K77 two-half Hermitian/Witt-rotation gate ledger v0.193
+
+Gate: `k77_two_half_hermitian_witt_rotation_audit.py`.
+
+```bash
+python3 process_gates/k77_two_half_hermitian_witt_rotation_audit.py
+```
+
+Verifies the source-sized carrier distinction, exact full and two-half
+Hermitian signatures, split-equivariant `0/0` same-half obstruction, explicit
+Witt rotation, fixed-`q` stabilizer costs, moving-`q` naturality and unchanged
+accounting. It fails closed if `q`, the action parent or a Higgs block is
+promoted to selected.

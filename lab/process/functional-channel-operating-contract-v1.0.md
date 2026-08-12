@@ -24,17 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.192.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.192.md`.
+`lab/process/conditional-physics-ledger-v0.193.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.193.md`.
 
-Current moving-split result: `D omega` and the `omega`-even part of `D J4`
-exactly reconstruct the half-exchanging and finer-split-breaking connection
-tensors. The canonical reduced K77 connection preserves both structures, but
-the current nonzero-branch pointwise action Hessian keeps both breaking banks
-nonradical and does not select that locus. Build next types the full-unitary-
-to-K77 compatibility map, the same-half Hermitian form and external scalar
-`i`, then tests which `varpi` block can carry the source Higgs-like assignment.
-Compatibility, action selection and physical block identity remain distinct.
+Current two-half Hermitian result: on the source-sized complexification,
+`H_q=i B gamma(q)` conditionally has full signature `(64,64)` and exact
+`(32,32)` restrictions on both ambient Weyl halves. The old neutral-half form
+and new block-nondegenerate form are Witt-related. The split alone supplies no
+invariant same-half form, so `q` is genuine unselected reduction data. Build
+next derives or kills observation/action ownership and global descent of `q`,
+then types the unitary `varpi` blocks and tests a scalar-doublet kinetic/
+potential/Yukawa surplus. Compatibility, selection and physical identity
+remain distinct.
 
 Predecessor action-concomitant result: on the selected Lorentz-invariant
 background, the exact natural endomorphism algebra is only

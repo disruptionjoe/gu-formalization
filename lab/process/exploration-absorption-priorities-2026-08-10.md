@@ -9,15 +9,19 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.192 closes the moving-split kinematics and negatively scopes current
-pointwise action selection. `D omega` and `D J4` exactly recover the two nested
-connection-breaking tensors; the canonical reduced K77 connection preserves
-both, while the existing action Hessian keeps both breaking banks nonradical.
-Rank one is now the full-unitary-to-K77 compatibility map, same-half Hermitian
-form/external-`i` placement, and target-blind identification of the resulting
-`varpi` blocks against the source Higgs-like assignment. Do not assume every
-breaking tensor must vanish or promote it to a Higgs. The nonhomogeneous
-`H,Q` selector remains a disjoint rank-two Build package.
+Ledger v0.193 closes the finite full-versus-two-half Hermitian compatibility
+problem conditionally. `H_q=i B gamma(q)` gives full signature `(64,64)` and
+two exact `(32,32)` Weyl restrictions, with an explicit Witt rotation from
+the predecessor's neutral-half presentation. The split alone has no invariant
+same-half form, so rank one is now to derive or kill a globally descending
+observation/action-owned non-null `q`, price its datum cost, and only then
+decompose the unitary `varpi` blocks under the observed stabilizer. A physical
+Higgs route must produce the scalar doublet plus kinetic, potential and Yukawa
+surplus; block parity is not selection. The nonhomogeneous `H,Q` selector
+remains a disjoint rank-two Build package.
+
+Ledger v0.192 closed the moving-split kinematics and negatively scoped current
+pointwise action selection.
 
 Ledger v0.191 supplied the split-native `C+C` commutant, native complex
 structures on both real Weyl halves and the `32+32` complexification typing.

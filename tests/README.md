@@ -3230,3 +3230,17 @@ collapse plants must fire.
 sage -python tests/channel-swings/selected_k77_moving_split_structure_action_selection_probe.py
 python3 process_gates/k77_moving_split_structure_action_selection_audit.py
 ```
+
+## K77 two-half Hermitian/Witt-rotation gate v0.193
+
+`channel-swings/selected_k77_two_half_hermitian_witt_rotation_probe.py`
+constructs the exact conditional `H_q=i B gamma(q)` form on the source-sized
+complexification, verifies full signature `(64,64)` and two Weyl restrictions
+of signature `(32,32)`, exhibits the Witt rotation, and prices fixed-`q`
+stabilizers and moving-family naturality. Missing-`i`, zero-`q`, frozen-`q`
+and neutral-half masquerade plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_two_half_hermitian_witt_rotation_probe.py
+python3 process_gates/k77_two_half_hermitian_witt_rotation_audit.py
+```

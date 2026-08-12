@@ -9,16 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.192 K77 moving split/action-selection gate:** moving `omega`
-> and real `J4` exactly reconstruct the nested connection-breaking tensors.
-> The canonical reduced K77 spin connection preserves both; a block
-> connection preserves `omega` only; a full endomorphism connection can
-> exchange halves. The current nonzero-branch pointwise action keeps both
-> breaking banks nonradical and does not select the compatible locus. Next
-> build the full-unitary-to-K77 compatibility map, derive or kill the
-> same-half Hermitian form/external-`i` placement, and test physical `varpi`
-> block identities. Never identify `K_J` or `K_omega` with Higgs/Yukawa from
-> the source assignment alone.
+> **Current v0.193 K77 two-half Hermitian/Witt gate:** on the source-sized
+> complexification, `H_q=i B gamma(q)` conditionally has full signature
+> `(64,64)` and two Weyl-half restrictions of signature `(32,32)`. The old
+> cross-paired `B` and new block-nondegenerate presentation are explicitly
+> Witt-related. The split alone has no invariant same-half form; a fixed `q`
+> reduces symmetry and is not selected by the action, observation geometry or
+> P1/P2/P3. Next derive or kill a globally descending observation/action-owned
+> `q`, then type the unitary `varpi` blocks and demand a scalar doublet with
+> action-owned kinetic/potential/Yukawa surplus. Never identify block parity
+> with a physical Higgs or equation-9.16 signs with `omega` by fiat.
+
+> **Predecessor v0.192:** moving `omega/J4` exactly reconstructs the nested
+> connection-breaking tensors; the current pointwise action does not select
+> the compatible locus.
 
 > **Predecessor v0.191:** the split commutant is `C+C`; each real-64 Weyl half
 > is complex-32 and complexifies to `32+32`.

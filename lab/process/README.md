@@ -7,12 +7,20 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.190. The exact Lorentz
-commutant on `Sym^2(T*X)` is `span{I,P_trace}`. The selected invariant natural
-action words therefore cannot produce a rank-four flag or invertible polar
-commutator. Nonhomogeneous reduced curvature/full-`II` and full-unitary
-compatibility remain live. Registry:
-`selected-k77-action-concomitant-residual-flag-gate.json`.
+Current append-only progress surface: ledger v0.193. On the source-sized
+complexification, `H_q=i B gamma(q)` conditionally gives full `U(64,64)`
+signature and two exact `U(32,32)` Weyl restrictions. The split alone has no
+invariant same-half form; `q` is unselected reduction data. Registry:
+`selected-k77-two-half-hermitian-witt-rotation-gate.json`.
+
+Predecessor v0.192 supplies the moving split intrinsic-torsion decomposition
+and current pointwise action nonselection.
+
+Predecessor v0.191 supplies the exact split commutant and native complex
+structures while leaving the source-sized same-half Hermitian problem open.
+
+Predecessor v0.190 closes the invariant action-concomitant selector class and
+leaves the nonhomogeneous reduced-curvature/full-`II` route live.
 
 Predecessor v0.189 supplies the stabilizer cocycle, reduced K77 connection and
 second-fundamental descent.
@@ -1663,5 +1671,6 @@ Runbooks:
 - `conditional-physics-ledger-v0.191.json` / `selected-k77-split-layer-commutant-action-parent-gate.json` — exact split-subgroup commutant `C + C`, native complex structure on each real Weyl half and `32+32` complexification; the same-half Hermitian form and action selection among full, block and finer split parents remain open.
 - `hostile-reviews/2026-08-12-selected-k77-split-layer-commutant-action-parent-gate-review.md` — rejects inference of Hermitian `(32,32)` from the real commutant and separates block preservation from the stronger split-`J` reduction.
 - `conditional-physics-ledger-v0.192.json` / `selected-k77-moving-split-structure-action-selection-gate.json` — exact moving `omega/J4` intrinsic-torsion decomposition; the compatible K77 connection path exists, while the current pointwise action keeps both breaking banks live and does not select it.
+- `conditional-physics-ledger-v0.193.json` / `selected-k77-two-half-hermitian-witt-rotation-gate.json` — exact conditional `H_q` compatibility between one full `(64,64)` Hermitian form and two `(32,32)` Weyl restrictions; the required non-null `q` and physical `varpi` block remain unselected.
 - `hostile-reviews/2026-08-12-selected-k77-moving-split-structure-action-selection-gate-review.md` — rejects full-unitary and Higgs identification overclaims, and scopes nonselection to the current pointwise branch.
 - `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.
