@@ -3014,3 +3014,17 @@ Verifies that v0.196 preserves headline accounting, constructs the exact
 16 hypercharges, retypes the dimension-nine fixed-q group as post-Higgs
 `SU(3)xU(1)`, and retains the 20-dimensional J family plus radial `varpi`
 action ownership as open. It fails closed on Higgs-action or datum promotion.
+
+## K77 varpi radial half-exchange gate ledger v0.197
+
+Gate: `k77_varpi_radial_half_exchange_audit.py`.
+
+```bash
+python3 process_gates/k77_varpi_radial_half_exchange_audit.py
+```
+
+Verifies the append-only five-row v0.197 migration, exact rank-one radial and
+rank-nine angular receiver decomposition, full `U(64,64)` admission with
+block-diagonal two-half rejection, moving equivariance, nonzero derivative
+carrier and zero isolated radial self-wedge. It fails closed on kinetic,
+potential, VEV, physical-chirality, Yukawa-texture, or new-datum promotion.

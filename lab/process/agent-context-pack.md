@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.197 full-unitary trace-radial half-exchange gate:** the missing
+> one-real radial coefficient has an exact zero-datum carrier
+> `a_rad(h)=h(q-flat/q^2) tensor gamma(q)`.  The moving soldering receiver sends
+> the natural trace-aligned line to `h q`; together with the compact orbit this
+> completes a four-real `Y=-1/2` doublet carrier.  Because `gamma(q)` exchanges
+> the two real Weyl halves, this component belongs to the full `U(64,64)`
+> connection and cannot live in a block-diagonal
+> `U(32,32)xU(32,32)` parent.  Its observed derivative is nonzero and
+> Yukawa-shaped, but the isolated radial cell is flat and has zero self-wedge:
+> no positive kinetic normalization, Mexican-hat potential, nonzero VEV,
+> physical chirality, or Yukawa texture is yet derived.  Next complete the
+> moving angular/radial doublet bank inside the selected action and compute its
+> curvature, Euler, and presymplectic terms.
+
 > **Current v0.196 moving-Hq / U(3,2) SM and Higgs-direction gate:** the exact
 > Pati-Salam/`SU(3,2)` intersection is `S(U(3)xU(2))`, dimension 12, and the
 > actual chiral-spin 16 has the SM hypercharges. Fixed trace q then leaves

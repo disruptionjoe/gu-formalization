@@ -3288,3 +3288,20 @@ plants must fire.
 sage -python tests/channel-swings/selected_k77_moving_hq_u3_2_sm_higgs_direction_probe.py
 python3 process_gates/k77_moving_hq_u3_2_sm_higgs_direction_audit.py
 ```
+
+## K77 varpi radial half-exchange gate v0.197
+
+`channel-swings/selected_k77_varpi_radial_half_exchange_probe.py` constructs
+the trace-radial `varpi` component, verifies the rank-one/rank-nine moving
+soldering decomposition, full-unitary Lie-algebra admission, two-half
+block-diagonal rejection, exact SM equivariance, cross-half rank 64 in both
+directions, and the nonzero observed derivative carrier. It also verifies that
+the isolated radial one-form has zero self-wedge and cannot by itself generate
+a Higgs potential. Frozen-q, frozen-component, block-only, orbit-only and
+potential-inflation plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_varpi_radial_half_exchange_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0197_probe.py
+python3 process_gates/k77_varpi_radial_half_exchange_audit.py
+```

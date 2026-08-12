@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-060541-gu-varpi-radial-half-exchange",
+  "status": "TRACE_RADIAL_VARPI_COMPONENT_CONSTRUCTED_IN_FULL_U64_64_HALF_EXCHANGE_COMPLEMENT__MOVING_SOLDERED_DOUBLET_EXACT__PURE_RADIAL_POTENTIAL_ZERO",
+  "target_claim": "NONE-NOT-A-KILL",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.197",
+  "ledger_rows": ["RA-E1", "RA-E3", "RA-E4", "LT-SM5", "LT-SM6"],
+  "result": {
+    "new_checks": 50,
+    "new_failures": 0,
+    "vertical_grade_one_receiver_rank": 10,
+    "radial_output_rank": 1,
+    "angular_output_rank": 9,
+    "complete_radial_preimage_dimension": 91,
+    "canonical_trace_aligned_input_dimension": 1,
+    "gamma_q_is_Hq_unitary": true,
+    "gamma_q_ambient_chirality_parity": "ODD_HALF_EXCHANGING",
+    "cross_half_rank_each_direction": 64,
+    "block_u32_32_product_contains_radial_cell": false,
+    "full_u64_64_contains_radial_cell": true,
+    "moving_SM_receiver_equivariant": true,
+    "soldered_doublet_real_dimension": 4,
+    "weak_doublet_hypercharge": "-1/2",
+    "base_derivative_carrier_rank": 4,
+    "pure_radial_self_wedge": 0,
+    "isolated_constant_radial_curvature": 0,
+    "ambient_cross_half_fermion_incidence": true,
+    "physical_yukawa_texture": "OPEN",
+    "kinetic_sign_and_normalization": "OPEN",
+    "full_potential_and_stationary_nonzero_amplitude": "OPEN",
+    "selected_J": "OPEN_DIMENSION20_FAMILY"
+  },
+  "controls": {
+    "so64_radial_generation_rejected": true,
+    "block_diagonal_parent_rejected_for_this_cell": true,
+    "frozen_component_breaks_moving_doublet": true,
+    "pure_radial_zero_not_promoted_to_vacuum": true
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_UNITARY_PARENT_AND_AD_VALUED_ONEFORM_HIGGS_LOCUS__SOURCE_SILENT_ON_TRACE_RADIAL_CELL_AND_ACTION",
+  "hostile_review": "SURVIVES_AFTER_LAYER_REPAIR__FULL_PARENT_COMPONENT_AND_MOVING_SOLDERED_DOUBLET_ONLY__PURE_RADIAL_POTENTIAL_ZERO",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 4
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "CONSTRUCT_THE_COMPLETE_MOVING_U3_2_DOUBLET_CONNECTION_BANK_AROUND_THE_TRACE_RADIAL_CELL__COMPUTE_CURVATURE_ACTION_QUARTIC_AND_DOUBLET_TRIPLET_MASS_MATRIX__TEST_STATIONARY_NONZERO_AMPLITUDE_PHOTON_KERNEL_AND_P0_RHO_YK_YC_REALITY_PLACEMENT__KEEP_FULL_U64_64_HALF_EXCHANGE_OWNER_AND_DIM20_J_SELECTION_EXPLICIT"
+}
+
