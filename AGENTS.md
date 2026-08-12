@@ -287,6 +287,12 @@ delegating to subagents inline `lab/process/subagent-brief.md` verbatim;
 subagent artifacts echo `brief_version:`. Rationale and council record:
 `explorations/source-claim-register-and-adherence-ledger-2026-08-11.md`.
 
+Verdict doctrine (ratified 2026-08-12): a critique aimed at an unclaimed
+target FAILS as a critique regardless of internal validity; verdicts use
+the two-component form (failure first, banked mathematics second) per
+`explorations/claim-indexed-verdict-doctrine-2026-08-12.md` — read it
+before writing any Nguyen/chirality/generations verdict.
+
 Relay rule (v1.1, same ratification): any statement about a registered
 claim — in a ledger block, status entry, summary, return text, or
 receipt — carries its SC- IDs inline and preserves the source sentence's

@@ -7,6 +7,14 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
+> **2026-08-12 CLAIM-INDEXED VERDICT DOCTRINE INSTALLED (ratified; read
+> before any Nguyen/chirality/generations verdict).**
+> `explorations/claim-indexed-verdict-doctrine-2026-08-12.md`: misaimed
+> critiques FAIL as critiques; two-component verdict form mandatory;
+> certificate scoreboard summarized there (C3a replicated twice, CHK-1
+> kill not fired, CN-1 dead, C3c and CHK-2 open). The traditional
+> framing is the recorded failure mode — do not regress.
+
 > **2026-08-12 K77 TAUTOLOGICAL TRACE-Q OWNERSHIP GATE (ledger v0.194).** The
 > metric bundle already owns the non-null receiver needed by the preceding
 > Hermitian construction: `q_g=g/2` is a global natural unit-DeWitt-negative

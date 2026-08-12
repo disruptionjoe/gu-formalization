@@ -17,6 +17,9 @@ register:
     partition (council Seat 1).
   - 'Enforcement: process_gates/kill_target_claim_audit.py; escape hatch NONE-NOT-A-KILL is counted every
     run.'
+  - 'Verdict doctrine (ratified 2026-08-12): a critique aimed at an unclaimed target FAILS as a
+    critique regardless of internal validity; two-component verdict form, failure first — read
+    explorations/claim-indexed-verdict-doctrine-2026-08-12.md before any Nguyen/chirality/generations verdict.'
   - 'Relay rule (v1.1, ratified Joe direct chat 2026-08-12): any statement about a registered claim,
     in any summary, relay, or return text, carries its SC- IDs inline and preserves the source
     sentence polarity verbatim; frame regression under compression is the measured failure mode.'
