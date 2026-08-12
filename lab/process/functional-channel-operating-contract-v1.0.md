@@ -24,17 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.186.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.186.md`.
+`lab/process/conditional-physics-ledger-v0.187.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.187.md`.
 
-Current first-jet fermion-symbol result: the raw observation shear is
-invertible but not K77 orthogonal and Levi-Civita is fermion-zero-order. Exact
-co-moving Spin/Clifford boost and rotation witnesses close fixed-graph leakage
-rank 128 to zero while preserving both pairing horns. Build next constructs or
-kills the canonical action-owned section-jet to `epsilon_IG` Clifford-anchor
-and moving-H640 map, retests all 40 mixed directions with rank 1,920 as
-control, and only then inserts `gamma(h_omega)` into the complete lower-order
-sixteen-cell Riccati/BV/KT system. A fitted first jet is forbidden.
+Current first-jet fermion-symbol result: the actual observation-section jet
+plus the conditional K77 split uniquely determines the 40-dimensional pure
+off-diagonal Cartan/Spin prolongation modulo block-stabilizer frame gauge.
+All 40 gamma, chirality and pairing-block identities pass over two exact
+fields and compose with the full-rank-1,920/moving-H640 control. The changing-
+gimmel compensator remains a distinct map. Build next constructs or kills the
+finite nonlinear normalized graph and atlas descent, then composes it with the
+action's `epsilon_IG`, gauge-rotated Levi-Civita and full complex-Cartan flag.
+Only afterward may it insert `gamma(h_omega)` into the complete lower-order
+sixteen-cell Riccati/BV/KT system. A fitted first jet remains forbidden.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial

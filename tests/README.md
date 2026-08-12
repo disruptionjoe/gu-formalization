@@ -3134,3 +3134,18 @@ symbol covariance and both pairing identities are mandatory controls.
 sage -python tests/channel-swings/selected_k77_first_jet_fermion_symbol_port_gate_probe.py
 python3 process_gates/k77_first_jet_fermion_symbol_port_gate_audit.py
 ```
+
+## K77 canonical section-jet Cartan/Spin prolongation v0.187
+
+`channel-swings/selected_k77_canonical_section_jet_cartan_spin_prolongation_probe.py`
+constructs all 40 pure observed-vertical K77 generators from the graph
+condition, checks their 128-spinor gamma, chirality and two pairing-block
+identities over `GF(1009)` and `GF(1013)`, and composes them with the v0.186
+full-rank-1,920/moving-H640 control. It also verifies all ten actual moving-
+gimmel compensators and rejects their identification with fixed-metric Cartan
+motion.
+
+```sh
+sage -python tests/channel-swings/selected_k77_canonical_section_jet_cartan_spin_prolongation_probe.py
+python3 process_gates/k77_canonical_section_jet_cartan_spin_prolongation_audit.py
+```

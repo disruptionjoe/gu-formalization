@@ -2,17 +2,21 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-11"
+updated_at: "2026-08-12"
 ---
 
 # Process
 
-Current append-only progress surface: ledger v0.186. The raw observation shear
-is invertible but not K77 orthogonal and Levi-Civita is fermion-zero-order.
-Exact co-moving Spin/Clifford boost and rotation witnesses close fixed-H640
-leakage rank 128 to zero while preserving both pairings. The canonical
-action-owned section-jet to `epsilon_IG` map, all 40 directions and full BV/KT
-remain open. Registry: `selected-k77-first-jet-fermion-symbol-port-gate.json`.
+Current append-only progress surface: ledger v0.187. The actual section jet and
+conditional K77 split uniquely determine all 40 pure mixed first-order
+Cartan/Spin generators modulo block-stabilizer frame gauge. The 18 rotations
+and 22 boosts preserve chirality and both pairing blocks over two exact fields
+and compose with the full-1,920 moving-H640 control. Finite nonlinear descent,
+the full `epsilon_IG` flag and lower-order BV/KT remain open. Registry:
+`selected-k77-canonical-section-jet-cartan-spin-prolongation.json`.
+
+Predecessor v0.186 kills the raw shear only as a fixed-K77 Spin lift and
+supplies the nonvacuous full-carrier moving-H640 control.
 
 Predecessor v0.185 separates the lower-order Higgs chain from principal
 observation descent.
@@ -1645,4 +1649,5 @@ Runbooks:
 - `conditional-physics-ledger-v0.184.json` / `selected-k77-h640-ambient-observed-riccati-boundary.json` — exact two-prime ambient/observed boundary: H640 closes the three observed evolutions, ten transverse directions leak rank 128 each, the unrestricted hull is rank 1,920, and ordinary pullback kills transverse covectors.
 - `conditional-physics-ledger-v0.185.json` / `selected-k77-vertical-soldering-adapter-order-gate.json` — exact two-prime differential-order split: the complete rank-ten algebraic Higgs chain has zero principal response, all ten rank-128 targets survive, both pairing horns remain eligible, and the existing selected-action first-jet/soldering chain must now be ported to the fermion/H640 symbol.
 - `conditional-physics-ledger-v0.186.json` / `selected-k77-first-jet-fermion-symbol-port-gate.json` — raw observation shear is not a K77 Spin lift, but exact co-moving Clifford-anchor/H640 boost and rotation witnesses close the local rank-128 leak; the canonical action-owned prolongation remains open.
+- `conditional-physics-ledger-v0.187.json` / `selected-k77-canonical-section-jet-cartan-spin-prolongation.json` — the actual section jet uniquely supplies all 40 local pure-mixed Cartan/Spin generators modulo stabilizer gauge; nonlinear atlas descent and the complete `epsilon_IG` flag remain open.
 - `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.

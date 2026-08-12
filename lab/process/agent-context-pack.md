@@ -3,21 +3,26 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-11
+updated: 2026-08-12
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-11)
+# Agent context pack (updated 2026-08-12)
 
-> **Current v0.186 K77 first-jet fermion-symbol port gate:** the raw v0.28
-> `4+10` shear is invertible but not K77 orthogonal and Levi-Civita is fermion-
-> zero-order, so neither is a literal fixed-frame principal repair. Exact
-> co-moving Spin/Clifford boost and rotation witnesses close rank-128 leakage
-> to zero when the Clifford anchor and `H640` graph move together, preserving
-> both pairings. Next construct the canonical action-owned section-jet to
-> `epsilon_IG` prolongation and retest all 40 directions plus rank 1,920 before
-> lower-order BV/KT. Selected Spin, two `U(32,32)` halves and full `U(64,64)`
-> remain distinct; P1/P2/P3 are unchanged and unused.
+> **Current v0.187 K77 canonical section-jet Cartan/Spin prolongation:** the
+> actual observation-section jet plus the conditional K77 split uniquely
+> determines the pure mixed first-order Cartan lift modulo block-stabilizer
+> frame gauge. All 40 directions lift to Spin over two exact fields—18
+> rotations and 22 boosts—and preserve gamma covariance, chirality and both
+> pairing blocks. This composes with the v0.186 full-rank-1,920/moving-H640
+> theorem. The ten moving-gimmel compensators are separately exact and are not
+> fixed-metric Cartan generators. Next build finite nonlinear normalization and
+> atlas descent, then the complete action-owned `epsilon_IG` flag and lower-
+> order BV/KT. Selected Spin, two `U(32,32)` halves and full `U(64,64)` remain
+> distinct; P1/P2/P3 are unchanged and unused.
+
+> **Predecessor v0.186:** the raw `4+10` shear is not a fixed-K77 Spin lift;
+> co-moving Clifford/H640 witnesses nevertheless close its local leak.
 
 > **Predecessor v0.185:** the rank-ten algebraic Higgs chain is fermion-zero-
 > order and survives only for lower-order Higgs/Yukawa placement.

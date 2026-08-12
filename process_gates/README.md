@@ -2857,6 +2857,20 @@ typing, then verifies exact co-moving Spin/Clifford graph closure with gamma
 and symbol covariance over both fields. It routes the canonical action-owned
 section-jet to `epsilon_IG` map before all-40 and lower-order BV/KT work.
 
+## K77 canonical section-jet Cartan/Spin gate ledger v0.187
+
+Gate: `k77_canonical_section_jet_cartan_spin_prolongation_audit.py`.
+
+```bash
+python3 process_gates/k77_canonical_section_jet_cartan_spin_prolongation_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies the
+40-dimensional pure mixed Cartan lift, 18/22 rotation/boost split, actual
+rank-four section jet, both pairing types and inherited full-1,920/H640
+control, and fences the local first-order observation-plane component from
+the nonlinear global `epsilon_IG` flag and lower-order BV/KT.
+
 ## Live gate inventory catch-up
 
 The inventory audit also tracks these previously live but undocumented local

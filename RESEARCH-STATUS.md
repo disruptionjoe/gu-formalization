@@ -2,24 +2,27 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-11"
+updated_at: "2026-08-12"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-11 (ledger v0.186; eight
-distance/evidence migrations; headline unchanged).** The raw v0.28 `4+10`
-observation shear is invertible but not K77 orthogonal (defect rank eight), and
-Levi-Civita is fermion-zero-order. It therefore cannot be the literal fixed-
-metric Spin port. Exact rational boost and rotation witnesses over two fields
-move the Clifford anchor and `H640` graph together: fixed-graph leakage is rank
-128, co-moving leakage is zero, gamma and symbol covariance are exact, and
-both pairing horns are preserved without selection. This is a local
-conditional `epsilon_IG` prolongation class. The canonical action-owned map
-from the actual section jet, all 40 directions, full lower-order BV/KT and
-analytic domain remain open. No verdict, residue, quotient, canon or public
-posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.187; eight
+distance/evidence migrations; headline unchanged).** The actual observation-
+section jet plus the conditional K77 split uniquely determines the pure mixed
+first-order Cartan lift modulo block-stabilizer frame gauge. All 40 directions
+lift to the 128-spinor over two exact fields—18 rotations and 22 boosts—with
+gamma covariance, chirality and both pairing block types exact. The result
+composes with v0.186's full-rank-1,920 symbol and moving-H640 theorem. The ten
+moving-gimmel compensators are separately exact and are not fixed-metric
+Cartan generators. The finite nonlinear normalized graph, atlas descent, full
+`epsilon_IG` flag, action/Levi-Civita composition and lower-order BV/KT remain
+open. No verdict, residue, quotient, canon or public posture moves.
+
+**Predecessor v0.186.** The raw observation shear is not a fixed-K77 Spin
+lift, but local co-moving Clifford/H640 boost and rotation witnesses close
+rank-128 leakage to zero and preserve both pairing horns.
 
 **Predecessor v0.185.** The complete rank-ten algebraic Higgs chain has zero
 fermion-principal response and survives only for lower-order Higgs/Yukawa work.

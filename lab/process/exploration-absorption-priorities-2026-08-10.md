@@ -9,14 +9,21 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.186 shows that the raw observation shear is not a K77 Spin lift and
-Levi-Civita remains fermion-zero-order, but an exact local co-moving
-Spin/Clifford plus H640 prolongation closes the representative rank-128 leak.
-Rank one is now to construct or kill the canonical action-owned map from the
-actual section jet to that `epsilon_IG` prolongation and retest all 40 mixed
-directions, both pairing horns and rank 1,920. Only then run the lower-order
-sixteen-cell Riccati/BV solve. Do not fit a general first jet, call the raw
-bosonic map dead, or promote the local witness to source/action selection.
+Ledger v0.187 closes the local canonical-map burden. The actual section jet
+plus the conditional K77 split uniquely supplies all 40 pure mixed first-order
+Cartan/Spin generators modulo block-stabilizer frame gauge. Rank one is now
+finite nonlinear graph normalization and atlas overlap descent, followed by
+composition with the selected action's `epsilon_IG`, gauge-rotated
+Levi-Civita and complete complex-Cartan flag. Only then run the lower-order
+sixteen-cell Riccati/BV solve. Do not fit a general first jet, identify the
+changing-gimmel compensator with a fixed-K77 Cartan element, or promote the
+local observation-plane component to the full reduction.
+
+The five frontier packets at `b1686d92` were explicitly absorbed for
+prioritization and do not displace this dependency. The descended H0 positivity
+inertia and dim-13 orientation bit are the strongest nonconflicting side gates;
+the Nguyen pincer, B5 pairing-table and XS-S four-horn block remain queued at
+their packet scopes.
 
 Ledger v0.183 corrects the carrier/observation object before BV construction.
 The exact conditional H640 is not the coordinate observed rank-640 carrier;

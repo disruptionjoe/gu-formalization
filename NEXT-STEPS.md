@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-11"
+updated_at: "2026-08-12"
 ---
 
 # Next Steps For Contributors
@@ -25,6 +25,20 @@ updated_at: "2026-08-11"
 > later waves supersede by default; every disposition wave-owned. Next
 > wave: absorb, schedule a packet's first decisive step, or decline with
 > reasons per the absorption protocol.
+
+> **2026-08-12 K77 CANONICAL SECTION-JET CARTAN/SPIN PROLONGATION (ledger
+> v0.187).** The actual observation-section jet and conditional K77 split
+> uniquely determine the pure off-diagonal first-order Cartan lift modulo
+> block-stabilizer frame gauge. All 40 directions lift to the 128-spinor over
+> two exact fields: 18 rotations and 22 boosts, with gamma covariance,
+> chirality and both pairing blocks exact. These identities compose with the
+> v0.186 full-rank-1,920 symbol and moving-H640 control. The ten changing-
+> gimmel compensators are separately exact and are not fixed-metric Cartan
+> elements. **Next construct or kill finite nonlinear graph normalization and
+> atlas descent, then compose with action `epsilon_IG`, gauge-rotated
+> Levi-Civita and the full complex-Cartan flag before lower-order BV/KT.** Do
+> not call the local observation-plane component the full reduction or collapse
+> full `U(64,64)` with the two `U(32,32)` halves.
 
 > **2026-08-11 K77 FIRST-JET FERMION-SYMBOL PORT GATE (ledger v0.186).** The
 > raw v0.28 `4+10` observation shear is invertible but not K77 orthogonal
