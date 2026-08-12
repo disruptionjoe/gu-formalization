@@ -3244,3 +3244,16 @@ and neutral-half masquerade plants must fire.
 sage -python tests/channel-swings/selected_k77_two_half_hermitian_witt_rotation_probe.py
 python3 process_gates/k77_two_half_hermitian_witt_rotation_audit.py
 ```
+
+## K77 tautological trace-q two-half ownership gate v0.194
+
+`channel-swings/selected_k77_tautological_trace_q_two_half_ownership_probe.py`
+composes the existing DeWitt trace receiver `q_g=g/2` with the exact `H_q`
+construction. It verifies zero datum cost, full/half inertias, normal-q
+stabilizer `42`, `J4/J10` anti-isometry and moving-family naturality. Zero-q,
+frozen-frame, base-axis-complex and base-axis-stabilizer plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_tautological_trace_q_two_half_ownership_probe.py
+python3 process_gates/k77_tautological_trace_q_two_half_ownership_audit.py
+```

@@ -24,18 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.193.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.193.md`.
+`lab/process/conditional-physics-ledger-v0.194.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.194.md`.
 
-Current two-half Hermitian result: on the source-sized complexification,
-`H_q=i B gamma(q)` conditionally has full signature `(64,64)` and exact
-`(32,32)` restrictions on both ambient Weyl halves. The old neutral-half form
-and new block-nondegenerate form are Witt-related. The split alone supplies no
-invariant same-half form, so `q` is genuine unselected reduction data. Build
-next derives or kills observation/action ownership and global descent of `q`,
-then types the unitary `varpi` blocks and tests a scalar-doublet kinetic/
-potential/Yukawa surplus. Compatibility, selection and physical identity
-remain distinct.
+Current trace-q ownership result: the metric fibre canonically supplies
+`q_g=g/2`, a global unit-DeWitt-negative vertical receiver, so the exact full
+`(64,64)` and two half `(32,32)` `H_q` forms cost no new datum and do not use
+P1. The actual normal trace q has split stabilizer `42`; both native `J4/J10`
+are `H_q` anti-isometries, so the native-J and externally complexified
+unitary carriers remain distinct. Build next tests `D_varpi H_q=0`, decomposes
+under the normal-q stabilizer, checks the intended internal chain, and only
+then tests a scalar-doublet kinetic/potential/Yukawa surplus. Ownership,
+action adoption and physical identity remain distinct.
 
 Predecessor action-concomitant result: on the selected Lorentz-invariant
 background, the exact natural endomorphism algebra is only

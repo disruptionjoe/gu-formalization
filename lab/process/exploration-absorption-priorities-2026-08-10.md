@@ -546,6 +546,13 @@ does not establish the phenomenology of the complete GU action.
 
 ## Stop and reconciliation rules
 
+- **2026-08-12 absorption:** the old K77 trace-receiver construction and the
+  new source-sized Hermitian gate have now been composed. `q_g=g/2` owns the
+  non-null input at zero datum cost; do not reopen generic q selection as the
+  primary gate. The new priority is `D_varpi H_q=0`, the actual normal-q
+  stabilizer/internal-chain test, and then the physical scalar-doublet action
+  surplus. Keep the predecessor's base-axis stabilizer `48` out of the owned
+  trace route; its exact value is `42`.
 - Do not promote a fixed-carrier theorem into a carrier-selection theorem.
 - Do not apply a bosonic connection projector directly to a fermion subspace;
   require the induced representation/operator and physical domain first.

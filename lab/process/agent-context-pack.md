@@ -9,16 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.193 K77 two-half Hermitian/Witt gate:** on the source-sized
-> complexification, `H_q=i B gamma(q)` conditionally has full signature
-> `(64,64)` and two Weyl-half restrictions of signature `(32,32)`. The old
-> cross-paired `B` and new block-nondegenerate presentation are explicitly
-> Witt-related. The split alone has no invariant same-half form; a fixed `q`
-> reduces symmetry and is not selected by the action, observation geometry or
-> P1/P2/P3. Next derive or kill a globally descending observation/action-owned
-> `q`, then type the unitary `varpi` blocks and demand a scalar doublet with
-> action-owned kinetic/potential/Yukawa surplus. Never identify block parity
-> with a physical Higgs or equation-9.16 signs with `omega` by fiat.
+> **Current v0.194 K77 trace-q ownership gate:** the metric bundle's
+> tautological vertical trace `q_g=g/2` is globally natural, has exact DeWitt
+> norm `-1`, and supplies the non-null input to `H_q=i B gamma(q)` with zero
+> new datum and no P1 use. Full `(64,64)` and both half `(32,32)` signatures
+> remain exact. Because the owned q is normal rather than the predecessor's
+> base-axis witness, the split stabilizer is `42` and both native `J4/J10` are
+> `H_q` anti-isometries. Next test `D_varpi H_q=0`, the normal stabilizer's
+> compatibility with the internal chain, and only then an action-owned scalar
+> doublet with kinetic/potential/Yukawa surplus. q ownership is closed; action
+> parent, block identity, BV, domain, chirality, index and count are not.
+
+> **Predecessor v0.193:** generic-q full/two-half Hermitian compatibility and
+> explicit Witt rotation were exact; q ownership was open.
 
 > **Predecessor v0.192:** moving `omega/J4` exactly reconstructs the nested
 > connection-breaking tensors; the current pointwise action does not select

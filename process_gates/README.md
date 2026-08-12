@@ -2971,3 +2971,17 @@ Hermitian signatures, split-equivariant `0/0` same-half obstruction, explicit
 Witt rotation, fixed-`q` stabilizer costs, moving-`q` naturality and unchanged
 accounting. It fails closed if `q`, the action parent or a Higgs block is
 promoted to selected.
+
+## K77 tautological trace-q two-half ownership gate ledger v0.194
+
+Gate: `k77_tautological_trace_q_two_half_ownership_audit.py`.
+
+```bash
+python3 process_gates/k77_tautological_trace_q_two_half_ownership_audit.py
+```
+
+Verifies the append-only v0.194 migration, exact trace-q probe receipt, zero
+new datum and P1 cost, normal-q split stabilizer `42`, native-J anti-isometry,
+source silence on action adoption, and unchanged headline accounting. It fails
+closed if q ownership is inflated into `D_varpi H_q`, an internal reduction or
+a physical Higgs/Yukawa identification.

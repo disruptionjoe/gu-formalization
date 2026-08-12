@@ -7,19 +7,22 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
-> **2026-08-12 K77 TWO-HALF HERMITIAN/WITT GATE (ledger v0.193).** On the
-> source-sized complexification, a normalized non-null `q` gives the exact
-> Hermitian form `H_q=i B gamma(q)` of signature `(64,64)` whose two ambient
-> Weyl restrictions each have signature `(32,32)`. An explicit Witt rotation
-> relates this to the neutral-half `B` presentation. The split alone has no
-> invariant same-half form (`0/0`), so `q` is genuine reduction data: the
-> moving family is natural, but neither the action, observation geometry nor
-> P1/P2/P3 selects a global line. **Next construct or kill an observation- or
-> action-owned `q`, test descent and datum cost, then decompose the resulting
-> unitary `varpi` blocks under the observed stabilizer and require an
-> action-owned scalar doublet with kinetic, potential and Yukawa surplus.**
-> Do not infer the Higgs from block parity or identify equation-9.16 signs
-> with ambient chirality by fiat.
+> **2026-08-12 K77 TAUTOLOGICAL TRACE-Q OWNERSHIP GATE (ledger v0.194).** The
+> metric bundle already owns the non-null receiver needed by the preceding
+> Hermitian construction: `q_g=g/2` is a global natural unit-DeWitt-negative
+> vertical trace vector. It gives exact full `(64,64)` and two half `(32,32)`
+> Hermitian signatures with zero new datum and no P1 use. Retyping the
+> predecessor's base-axis witness to the actual normal trace q changes the
+> split stabilizer `48 -> 42` and makes both native `J4/J10` anti-isometries
+> of `H_q`. **Next construct or kill `D_varpi H_q=0`, decompose `varpi` under
+> `Spin(1,3) x Stab_normal(q)`, test compatibility with the intended internal
+> chain, then require an action-owned observed scalar doublet with kinetic,
+> potential and Yukawa surplus.** Keep the left/right trace-q placement dial
+> as an action-selection problem, not a reopened datum search.
+
+> **Predecessor v0.193.** A generic non-null q gives exact full and two-half
+> Hermitian/Witt compatibility; its provisional free-q cost is now retired
+> for the canonical trace route.
 
 > **Predecessor v0.192.** Moving `omega/J4` exactly reconstruct the nested
 > connection-breaking tensors; the current pointwise action does not select

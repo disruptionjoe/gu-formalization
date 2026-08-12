@@ -465,3 +465,5 @@ identifications as separate grades.
   - confirms the two halves, distinct full parent and `varpi` gauge/Higgs-like/CKM/Yukawa assignments; returns source-silent on the intrinsic-torsion formulas, Hermitian compatibility map and physical block identities.
 - [`selected-k77-two-half-hermitian-witt-rotation-source-return-2026-08-12.md`](selected-k77-two-half-hermitian-witt-rotation-source-return-2026-08-12.md)
   - confirms the authorial full `U(64,64)` arena, Curt's two `C^(32,32)` halves and the `varpi` function assignments; returns source-silent on `H_q`, ownership of `q`, the operative block parent, equation-9.16 grading and physical Higgs/Yukawa identification.
+- [`selected-k77-tautological-trace-q-two-half-ownership-source-return-2026-08-12.md`](selected-k77-tautological-trace-q-two-half-ownership-source-return-2026-08-12.md)
+  - confirms trace reversal and the distinguished metric-fibre trace direction; attributes `q_g=g/2`, zero datum cost and the normal-q Hermitian/stabilizer composition to the repository, and returns source-silent on `D_varpi H_q`, the internal reduction and physical scalar block.

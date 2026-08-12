@@ -8,17 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.193; six
-distance/evidence migrations; headline unchanged).** On the source-sized
-complexified K77 carrier, `H_q=i B gamma(q)` conditionally gives one full
-Hermitian signature `(64,64)` and exact `(32,32)` restrictions on both
-ambient Weyl halves. An explicit Witt rotation relates this to the neutral-
-half `B` presentation. The split alone has no invariant same-half form, and a
-fixed `q` reduces the spin symmetry, so this is a constructed path rather
-than a selected parent. The action/observation ownership and global descent
-of `q`, equation-9.16 block identity, physical Higgs/Yukawa placement, BV and
-domain remain open. No verdict, residue, quotient, datum, canon or public
-posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.194; six
+distance/evidence migrations; headline unchanged).** The tautological
+vertical metric-fibre trace `q_g=g/2` has exact DeWitt norm `-1` and supplies
+the receiver for `H_q=i B gamma(q)` globally and naturally. Thus the exact
+full `(64,64)` and two half `(32,32)` Hermitian geometries cost no new datum
+and do not consume P1. The actual trace q lies in the normal ten-plane, so its
+fixed split stabilizer is `42`, not the predecessor base witness's `48`, and
+both `J4/J10` are `H_q` anti-isometries. The operative `D_varpi H_q=0`,
+normal/internal-chain compatibility, equation-9.16 block identity, physical
+Higgs/Yukawa placement, BV and domain remain open. No verdict, booked residue,
+quotient, canon or public posture moves.
+
+**Predecessor v0.193.** A generic non-null q gives exact full and two-half
+Hermitian/Witt compatibility; q ownership was left open.
 
 **Predecessor v0.192.** The moving `omega/J4` covariant derivatives exactly
 reconstruct the nested connection-breaking tensors; the current pointwise
