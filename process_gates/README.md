@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `k77_i2b_compensator_naturality_audit.py` enforces ledger v0.205's exact
+  q13/q12 pointwise transport, direct q12 target admission, append-only
+  correction of the v0.204 target-closure bug, and the remaining source-action,
+  Spin/epsilon, moving-derivative and Euler/preboundary fences.
+
 - `polarized_radical_bfv_ownership_gate_audit.py` enforces ledger v0.172's
   zero-fermion carrier comparison, vanishing gauge/mixed terms, surviving
   observed dimension-256 fermion radical after the owned edge quotient,
@@ -3125,3 +3130,18 @@ Verifies the exact mixed-reality ranks `170/195`, total realified defect rank
 held-out q12 naturality failure. It fails closed on action ownership, moving
 compensator, global Euler/preboundary, physical reduction, datum or canon
 promotion.
+
+## K77 I2B compensator-naturality correction gate ledger v0.205
+
+Gate: `k77_i2b_compensator_naturality_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_compensator_naturality_audit.py
+```
+
+Verifies the exact q13-to-q12 transport of the moving field, Hodge/Phi forms,
+complete selected-Shiab bank, Hq involution, rank-170 fixed-output image and
+target. It requires direct q12 target admission, reproduces v0.204's failure
+only against the hard-coded q13 target, and fails closed on source-action
+ownership, Spin/source-epsilon identification, moving derivatives,
+Euler/preboundary, datum or canon promotion.

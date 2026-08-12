@@ -7,12 +7,16 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.204. The complete selected
-Shiab has a rank-390 realified intertwining defect. Its fixed-output projection
-admits the displasion target at q13 but fails at held-out q12, so the live gate
-is compensator-aware naturality and source-action ownership rather than an
-additive Galois-descent class. Registry:
-`selected-k77-i2b-real-structure-intertwining-defect.json`.
+Current append-only progress surface: ledger v0.205. The exact q13-to-q12
+compensator transports the moving field, Hodge/Phi geometry, complete selected
+Shiab bank, Hq reality, rank-170 fixed-output image and target. The direct q12
+image contains its q12 target; v0.204's exclusion used a helper closed over
+q13 and is corrected append-only. The live gate is now source-action ownership
+of the projected map followed by moving derivatives and Euler/preboundary.
+Registry: `selected-k77-i2b-compensator-naturality.json`.
+
+Predecessor v0.204 supplies the exact mixed-reality ranks and kills additive
+descent, while its held-out q12/frame-artifact disposition is superseded.
 
 Predecessor v0.192 supplies the moving split intrinsic-torsion decomposition
 and current pointwise action nonselection.

@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_compensator_naturality_probe.py` applies the
+  exact signed q13-to-q12 quarter-turn to every tensorial layer. It verifies all
+  16,384 Hodge masks, 1,093 source phases and 99,463 selected-Shiab columns,
+  proves equality of transported/direct rank-170 fixed-output images and q12
+  target admission, and reproduces v0.204's false exclusion only when q13 is
+  deliberately held fixed.
+
+- `channel-swings/conditional_physics_ledger_v0205_probe.py` enforces the
+  append-only three-row migration to pointwise naturality with action
+  ownership, moving Euler/preboundary and physical reduction still open.
+
 - `channel-swings/selected_k77_polarized_radical_bfv_ownership_gate_probe.py`
   composes the v0.171 Green radical with the action-owned ordinary-gauge,
   moving-preboundary, moment-map and minimal-edge packets. It proves that the
@@ -3381,4 +3392,18 @@ fixed-output target admission, and fires a held-out q12 naturality control.
 uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_real_structure_intertwining_defect_probe.py
 python3 tests/channel-swings/conditional_physics_ledger_v0204_probe.py
 python3 process_gates/k77_i2b_real_structure_intertwining_defect_audit.py
+```
+
+## K77 I2B compensator-naturality correction gate v0.205
+
+`channel-swings/selected_k77_i2b_compensator_naturality_probe.py` transports
+the complete q13 pointwise construction to q12 and compares it to an
+independent direct q12 rebuild. All geometric, reality and image layers agree;
+the direct q12 image contains q12, while the old helper's q13 test is retained
+as a firing control.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_compensator_naturality_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0205_probe.py
+python3 process_gates/k77_i2b_compensator_naturality_audit.py
 ```

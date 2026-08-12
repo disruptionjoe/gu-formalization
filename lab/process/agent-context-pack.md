@@ -9,19 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.204 real-structure gate:** the v0.202 complex/real split is not
+> **Current v0.205 compensator-naturality correction:** the exact signed
+> q13-to-q12 transport intertwines the moving field, K77/Hodge/Phi geometry,
+> complete 99,463-column selected-Shiab bank, `H_q` reality, rank-170
+> fixed-output image and displasion target. The direct q12 image contains its
+> own q12 target. V0.204's contrary result used a membership helper closed
+> over q13, so its frame-artifact disposition is corrected append-only. Do
+> not promote this pointwise repository map to Weinstein's epsilon or the
+> source action: `P_+` ownership, the chosen Spin/source-epsilon lift, moving
+> derivatives, global connection and Euler/preboundary remain open. Next
+> derive action ownership, then differentiate the moving family; do not run
+> another pointwise image census.
+
+> **Predecessor v0.204 real-structure gate:** the v0.202 complex/real split is not
 > a nonzero additive `H^1(Z/2,ker Shiab)` class. The complete selected Shiab
 > fails to intertwine the operative `H_q` involutions: fixed and anti-fixed
 > output ranks are 170 and 195, and the total realified defect rank is 390.
-> The canonical fixed-output projection contains the target at q13, but the
-> identical q12 recipe does not. This is a real local escape and a failed
-> naturality test, not a source-action solution. Next construct the exact
-> moving compensator transporting source, selected Shiab, real structure and
-> target together; only then insert an action-owned result into the moving
-> Euler/preboundary map. Do not search another pointwise coefficient bank or
-> revive additive descent cohomology. The `J` quotient and universal rank-128
-> defect remain useful nonconflicting successors; the Higgs cone and `Z/3`
-> torsor remain downstream as previously fenced.
+> Its q12 exclusion and frame-specific disposition are superseded by v0.205;
+> its exact mixed-reality ranks and additive-descent correction remain valid.
 
 > **Predecessor v0.203:** the phase-completed `Cl(7,7)` basis is exactly the
 > complete pointwise `u(64,64)` algebra. The unmodified selected Shiab excludes

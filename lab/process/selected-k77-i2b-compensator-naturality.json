@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-114950-gu-i2b-compensator-naturality",
+  "ledger_version": "0.205",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-02", "SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_MOVING_CONJUGATED_CLIFFORD_FRAME_GRAMMAR__REPO_CORRECTS_V0204_Q12_TARGET_CLOSURE_BUG_AND_FRAME_ARTIFACT_READING__SOURCE_SILENT_ON_PPLUS_ACTION_OWNERSHIP_SPIN_LIFT_GLOBAL_CONNECTION_AND_EULER_PREBOUNDARY",
+  "layer0": {
+    "so_transport_vs_spin_lift": "DISTINCT",
+    "spin_lift_vs_source_epsilon": "DISTINCT",
+    "pointwise_projection_vs_action_owned_map": "DISTINCT",
+    "pointwise_naturality_vs_moving_derivative": "DISTINCT",
+    "local_transport_vs_global_connection_euler": "DISTINCT"
+  },
+  "exact_results": {
+    "target_relevant_source_columns": 99463,
+    "admissible_source_phases": 1093,
+    "hodge_basis_masks": 16384,
+    "hodge_transport_failures": 0,
+    "phi_transport_failures": 0,
+    "source_phase_transport_failures": 0,
+    "selected_shiab_transport_failures": 0,
+    "target_involution_transport_failures": 0,
+    "transported_fixed_output_rank": 170,
+    "transported_image_equals_direct_q12_image": true,
+    "q13_target_transports_to_q12_target": true,
+    "q12_fixed_projection_contains_q12_target": true,
+    "q12_fixed_projection_contains_q13_target": false,
+    "v0204_target_closure_bug_reproduced": true,
+    "pointwise_compensator_naturality": true
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_promoted_selectors": 0,
+    "unowned_candidate_postcompositions": 1,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "POINTWISE_COMPENSATOR_NATURALITY_EXACT__V0204_Q12_EXCLUSION_RETRACTED_BY_APPEND_ONLY_CORRECTION__ACTION_OWNER_OPEN",
+  "next_gate": "DERIVE_PPLUS_FROM_ACTION_OWNED_SPIN_EPSILON_LIFT_OR_LOCATE_IT_IN_SOURCE_ACTION__THEN_MOVING_DERIVATIVES_AND_GLOBAL_EULER_PREBOUNDARY",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-compensator-naturality-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_compensator_naturality_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-compensator-naturality-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-compensator-naturality-review.md"
+  }
+}

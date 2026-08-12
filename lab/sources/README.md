@@ -7,6 +7,12 @@ updated_at: "2026-08-10"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-compensator-naturality-source-return-2026-08-12.md`](selected-k77-i2b-compensator-naturality-source-return-2026-08-12.md)
+  confirms the moving conjugated Clifford-frame grammar, corrects v0.204's
+  q12 target-closure bug and frame-artifact reading, and records source silence
+  on `P_+` action ownership, the chosen Spin/source-epsilon lift, global
+  connection and Euler/preboundary.
+
 - [`selected-k77-boundary-bv-observation-cohomology-source-return-2026-08-11.md`](selected-k77-boundary-bv-observation-cohomology-source-return-2026-08-11.md)
   records source support for the four-field covariance grammar and silence on
   ordinary-gauge boundary BRST, observation basicness, `H640` selection and
