@@ -22,6 +22,22 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > and the global Euler/preboundary map; Bianchi, alternate selector, physical
 > reduction and domain remain open.
 
+> **Next-wave real-descent correction:** do not book the v0.202
+> complex-versus-real split as a nonzero additive
+> `H^1(Z/2,ker Shiab)` class. For an equivariant complexification of real
+> vector spaces in characteristic zero, averaging `x` with `tau(x)` always
+> produces a real preimage of a real target; additive finite-group cohomology
+> is killed by the same averaging. The observed split therefore proves that
+> at least one premise of that descent picture is false: the source/codomain
+> involutions are mistyped, the target is not fixed by the relevant real
+> structure, or selected Shiab fails to intertwine them. Before differentiating
+> the moving form, compute the exact defect
+> `Shiab tau_source - tau_target Shiab`. The action/observation quotient of the
+> 20-dimensional `J` orbit and the possible universal rank-128 leakage module
+> are high-value nonconflicting successors. Higgs-cone stratification is useful
+> after the physical `q/r` owner is typed; a nonadditive `Z/3` torsor action is
+> speculative until a physical BV/cohomology fibre exists.
+
 > **Current v0.202 real-Shiab displasion-image gate:** the v0.201 nonzero
 > displaced-torsion residual has an unrestricted complex selected-Shiab
 > bivector preimage, but no preimage in the complete fixed-`H_q` real
