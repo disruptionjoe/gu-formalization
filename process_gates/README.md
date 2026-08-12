@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_observer_inverse_adjoint_correction_audit.py` enforces ledger
+  v0.217's append-only inverse-adjoint correction, exact row immutability,
+  surviving naturality/nonbasicness, RB4/RB5 prior-art composition and the
+  current `SC-ACT-04` constrained-`u` Euler/Ward successor.
+
 - `k77_i2b_observer_associated_basicness_audit.py` enforces ledger
   v0.216's exact diagonal Spin/frame naturality across all 256 live pairings,
   coarse observation-projector nonselection, failed observer-forgetting

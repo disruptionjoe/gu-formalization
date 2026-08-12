@@ -7,6 +7,11 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-observer-inverse-adjoint-correction-source-return-2026-08-12.md`](selected-k77-i2b-observer-inverse-adjoint-correction-source-return-2026-08-12.md)
+  confirms the rich observation/action arena, returns source-silent on the
+  inverse-adjoint blocks and current constrained-`u` Euler equation, and
+  attributes the correction plus RB4--RB7 composition to the repository.
+
 - [`selected-k77-i2b-observer-associated-basicness-source-return-2026-08-12.md`](selected-k77-i2b-observer-associated-basicness-source-return-2026-08-12.md)
   records source support for rich observation/epsilon and two-half parent
   grammar, source silence on unit-time selection/basicness/`u` variation, and

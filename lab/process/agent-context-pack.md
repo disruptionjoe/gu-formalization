@@ -9,16 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.216 observer-associated/basicness result:** the v0.215
-> observer-Hermitian Lorentz rank-four response is exactly natural under
-> simultaneous Spin/frame transport across all eight live Clifford masks and
-> all 256 response pairings.  Use `H_u^-1 A^dagger H_u`: treating the boosted
-> Hermitian form as an involution manufactures a false failure.  The family is
-> not basic after forgetting `u`, and the built coarse observation projector
-> selects a Lorentz plane, not a unit timelike vector.  Full `epsilon_IG`/SO3
-> ownership and a constrained-`u` Euler/Ward equation remain open; external
-> datum is fallback only and not adopted.  Keep `C^(32,32)+C^(32,32)`, its
+> **Current v0.217 inverse-adjoint correction:** v0.216's diagonal Spin/frame
+> naturality and failed observer-forgetting basicness survive.  The inherited
+> fixed-field control must use `H_u^-1 A^dagger H_u`; its correct exact blocks
+> are `-328/9,+8,+8,+8`, not `-8,+328/9,+328/9,+328/9`.  RB4 already built the
+> moving-`u`/`SO(3)` family and RB5 already refuted complete-flag descent from
+> the coarse epsilon plane; RB6/RB7 tested older action grammars.  Do not build
+> another minimal `SO(3)` flag.  Derive the current `SC-ACT-04` constrained-`u`
+> Euler/Ward equation with the section chain rule and retain coupled contact.
+> No row meaning, datum or residue changes.  Keep `C^(32,32)+C^(32,32)`, its
 > block subgroup, full `U(64,64)` and independent connections distinct.
+
+> **Predecessor v0.216 observer-associated/basicness result:** proves exact
+> associated-family naturality on all 256 live pairings, coarse-projector
+> nonselection and failed vertical basicness.  Its ownership verdict survives;
+> only the fixed-field block coefficients are append-corrected by v0.217.
 
 > **Predecessor v0.215 observer-time Hermitian reduction:** supplies the exact
 > conditional rank-four pairing and trace-owner exclusion.  Its fixed-field

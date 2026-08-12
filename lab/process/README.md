@@ -7,14 +7,16 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.216.  The v0.215
-observer-Hermitian rank-four response is exactly natural under simultaneous
-Spin/frame transport across all 256 live pairings.  It is not basic after
-forgetting `u`, and the built coarse observation projector owns only a
-Lorentzian four-plane: its Lorentz stabilizer has no fixed timelike vector.
-Complete `epsilon_IG`/`SO(3)` composite ownership, a constrained-`u`
-Euler/Ward equation and coupled contact remain open.  No datum or residue is
-booked.  Registry: `selected-k77-i2b-observer-associated-basicness.json`.
+Current append-only progress surface: ledger v0.217.  V0.216's diagonal
+Spin/frame naturality and failed observer-forgetting basicness survive, but
+its inherited fixed-field control is corrected to exact blocks
+`-328/9,+8,+8,+8` under `H_u^-1 A^dagger H_u`.  RB4 already constructed the
+moving-`u`/`SO(3)` family and RB5 refuted a complete-flag descent from the
+coarse epsilon plane, so another flag-existence build is retired.  The live
+gate is the current `SC-ACT-04` constrained-`u` Euler/Ward equation with the
+section chain rule, retaining coupled contact.  No row meaning, datum or
+residue moves. Registry:
+`selected-k77-i2b-observer-inverse-adjoint-correction.json`.
 
 Predecessor v0.215 supplies the exact conditional observer-Hermitian pairing
 and trace-owner exclusion.  Its fixed-frame boost is now correctly typed as a
@@ -1748,3 +1750,5 @@ Runbooks:
 - `hostile-reviews/2026-08-12-selected-k77-i2b-observer-time-hermitian-reduction-review.md` — separates vertical trace, future observer, time orientation, indefinite Hermitian form and positive majorant; preserves only the finite conditional pairing and leaves action ownership open.
 - `conditional-physics-ledger-v0.216.json` / `selected-k77-i2b-observer-associated-basicness.json` — exact diagonal Spin/frame naturality on all 256 live pairings, refutation of coarse-projector unit-time selection and observer-forgetting basicness, with full `epsilon_IG`, constrained-`u` dynamics and coupled contact open.
 - `hostile-reviews/2026-08-12-selected-k77-i2b-observer-associated-basicness-review.md` — enforces the inverse-form adjoint, adapted `(0,7,8,9)` Lorentz plane, source-half/group/connection fence and analytic/symplectic scope.
+- `conditional-physics-ledger-v0.217.json` / `selected-k77-i2b-observer-inverse-adjoint-correction.json` — append-only correction of v0.216's fixed-field blocks to `-328/9,+8,+8,+8`, preserving naturality and failed basicness while composing RB4--RB7 and retiring a duplicate `SO(3)` successor.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-observer-inverse-adjoint-correction-review.md` — identifies the inherited involutive-adjoint defect, separates family existence from ownership, and routes the current selected action to constrained-`u` variation.
