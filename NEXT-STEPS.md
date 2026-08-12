@@ -21,19 +21,17 @@ updated_at: "2026-08-12"
 > GEOMETER-VS-PHYSICS-OBJECTS.md:19 retired-form teaching. Council record
 > and rationale in explorations/.
 
-> **2026-08-12 K77 ACTION/STABILIZER CONNECTION RECONCILIATION (ledger
-> v0.189).** The finite observation projector plus the action-carried K77
-> metric/gauge-rotated-Levi-Civita connection canonically own
-> `N=nabla P` and `A^P=A+[P,nabla P]`. On a noncommuting three-patch atlas the
-> block connection transforms affinely and the second fundamental tensor
-> tensorially over two exact fields. No preferred frame or new datum is
-> required. The August 5 global `gamma_epsilon` Clifford soldering theorem is
-> retained as a distinct object. A residual stabilizer still moves the finer
-> residual complex-Cartan flag without moving `P`. **Next build or kill a target-blind
-> action-derived `(H,Q)` concomitant selecting that residual flag, or prove the
-> refinement directions gauge; only then enter lower-order BV/KT.** Do not
-> identify the 14-by-14 K77 connection with arbitrary full-unitary `varpi`, or
-> call coarse reduction flag selection.
+> **2026-08-12 K77 ACTION-CONCOMITANT RESIDUAL-FLAG GATE (ledger v0.190).**
+> The exact Lorentz commutant on `Sym^2(T*X)` is only
+> `span{I,P_trace}`. Every natural zero-order word made from the selected
+> invariant distortion, directly contracted curvature, or complete nonzero
+> second-fundamental tensor therefore has only trace/traceless eigenvalues.
+> Rank-four spectral selection is impossible in this class and every current
+> commutator `Q` is zero. **Next build the smallest action-stationary
+> nonhomogeneous reduced-curvature plus full-`II` orbit and rerun the gap,
+> polar and stabilizer gates.** Keep the full `U(64,64)` or possible two
+> `U(32,32)` halves to K77 projection separate. Do not globalize this scoped
+> adverse result or set the constant-section `II` to zero.
 
 > **2026-08-11 FIVE FRONTIER DESIGN PACKETS AVAILABLE (absorption pointer,
 > binds nothing).** Five Joe-directed parallel design passes on hard

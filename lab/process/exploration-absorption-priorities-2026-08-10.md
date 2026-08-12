@@ -9,15 +9,14 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.189 closes the stabilizer-cocycle and reduced K77 connection burden.
-The observation projector plus the action-carried metric/gauge-rotated-Levi-
-Civita connection canonically own `nabla P` and `A^P`; no preferred frame or
-datum is needed. The August 5 global `gamma_epsilon` Clifford soldering theorem
-is retained separately. Rank one is now a target-blind action-derived `(H,Q)`
-concomitant selecting the residual complex-Cartan flag, or a proof that those
-refinement directions are gauge. Only then run the lower-order sixteen-cell
-Riccati/BV solve. Do not repeat cocycle searches, collapse full-unitary
-`varpi` into the K77 connection, or promote coarse reduction to the full flag.
+Ledger v0.190 closes the selected Lorentz-invariant natural `(H,Q)` selector
+class. Its exact endomorphism algebra is only identity plus trace projector;
+rank-four spectral selection is impossible and all commutators vanish. Rank
+one is now the smallest action-stationary nonhomogeneous reduced-curvature plus
+full-`II` orbit, followed by the same gap/polar/stabilizer tests. A
+nonconflicting side gate may construct the full-unitary or two-half to K77
+projection. Do not repeat invariant-word searches, set constant-section `II`
+to zero, globalize this scoped result, or fit a flag.
 
 The five frontier packets at `b1686d92` were explicitly absorbed for
 prioritization and do not displace this dependency. The descended H0 positivity

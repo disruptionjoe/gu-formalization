@@ -7,13 +7,15 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.189. The observation projector
-and action-carried K77 metric connection canonically own the stabilizer
-cocycle, reduced connection and second fundamental tensor. Exact noncommuting
-three-patch affine/tensorial descent closes over two fields. The global
-`gamma_epsilon` Clifford soldering theorem is retained separately; residual
-complex-Cartan flag selection and full-unitary compatibility remain open.
-Registry: `selected-k77-action-stabilizer-connection-flag-reconciliation.json`.
+Current append-only progress surface: ledger v0.190. The exact Lorentz
+commutant on `Sym^2(T*X)` is `span{I,P_trace}`. The selected invariant natural
+action words therefore cannot produce a rank-four flag or invertible polar
+commutator. Nonhomogeneous reduced curvature/full-`II` and full-unitary
+compatibility remain live. Registry:
+`selected-k77-action-concomitant-residual-flag-gate.json`.
+
+Predecessor v0.189 supplies the stabilizer cocycle, reduced K77 connection and
+second-fundamental descent.
 
 Predecessor v0.188 supplies the finite projector and mixed atlas descent while
 rejecting a preferred global adapted frame.
@@ -1657,4 +1659,5 @@ Runbooks:
 - `conditional-physics-ledger-v0.187.json` / `selected-k77-canonical-section-jet-cartan-spin-prolongation.json` — the actual section jet uniquely supplies all 40 local pure-mixed Cartan/Spin generators modulo stabilizer gauge; nonlinear atlas descent and the complete `epsilon_IG` flag remain open.
 - `conditional-physics-ledger-v0.188.json` / `selected-k77-finite-section-projector-atlas-descent.json` — the finite nondegenerate graph owns a canonical descending K77 projector; normalized O/Spin representatives remain local modulo stabilizer and the action-owned full flag remains open.
 - `conditional-physics-ledger-v0.189.json` / `selected-k77-action-stabilizer-connection-flag-reconciliation.json` — the K77 projector plus metric connection owns the stabilizer cocycle, reduced connection and second fundamental tensor; global Clifford soldering is retained while residual complex-Cartan flag selection stays open.
+- `conditional-physics-ledger-v0.190.json` / `selected-k77-action-concomitant-residual-flag-gate.json` — the exact Lorentz commutant closes the selected invariant natural H/Q selector class while retaining nonhomogeneous curvature/full-II and full-unitary projection as live successors.
 - `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.

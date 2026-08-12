@@ -3180,3 +3180,17 @@ is not selected by the coarse reduction.
 sage -python tests/channel-swings/selected_k77_action_stabilizer_connection_flag_reconciliation_probe.py
 python3 process_gates/k77_action_stabilizer_connection_flag_reconciliation_audit.py
 ```
+
+## K77 action-concomitant residual-flag gate v0.190
+
+`channel-swings/selected_k77_action_concomitant_residual_flag_gate_probe.py`
+solves the exact Lorentz centralizer on `Sym^2(T*X)`, directly contracts the
+curvature word, retains the complete nonzero Lorentz-natural `II` class, and
+checks the spectral-rank and polar gates. It rejects the totally-geodesic
+constant-section shortcut, an affine connection value used as a tensor, a
+fitted rank-four projector and a supplied complex structure.
+
+```sh
+uv run --with sympy python -B tests/channel-swings/selected_k77_action_concomitant_residual_flag_gate_probe.py
+python3 process_gates/k77_action_concomitant_residual_flag_gate_audit.py
+```

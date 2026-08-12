@@ -9,17 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.189 K77 action/stabilizer connection reconciliation:** the
-> finite observation projector plus the K77 metric/gauge-rotated-Levi-Civita
-> connection canonically own `nabla P`, `A^P=A+[P,nabla P]` and the local
-> `O(H)xO(V)` cocycle. Exact three-patch affine/tensorial descent closes over
-> two fields without a preferred frame or datum. The previously constructed
-> global `gamma_epsilon` Clifford soldering map is distinct and retained. A
-> residual stabilizer still moves the finer complex-Cartan flag. Next derive a
-> target-blind action `(H,Q)` selector or prove those refinement directions
-> gauge, then lower-order BV/KT. Full-unitary `varpi`, selected Spin, two
-> `U(32,32)` halves and full `U(64,64)` remain distinct; P1/P2/P3 are unchanged
-> and unused.
+> **Current v0.190 K77 action-concomitant residual-flag gate:** the exact
+> Lorentz commutant on `Sym^2(T*X)` is two-dimensional. Every natural
+> zero-order action word on the selected invariant background has only trace
+> and traceless eigenvalues, no rank-four spectral projector and zero
+> commutators. The full nonzero `II` class is included; never infer
+> `constant section => II=0`. Next construct the smallest nonhomogeneous
+> stationary reduced-curvature/full-`II` orbit and retest `H,Q`, while keeping
+> full `U(64,64)` or two `U(32,32)` halves to K77 projection separate.
+> P1/P2/P3 remain unchanged and unused.
+
+> **Predecessor v0.189:** projector, stabilizer cocycle, reduced connection and
+> second-fundamental descent are exact.
 
 > **Predecessor v0.188:** finite projector and mixed atlas descent are exact;
 > normalized adapted frames remain local modulo stabilizer.

@@ -457,3 +457,5 @@ identifications as separate grades.
   - confirms rich observation and gauge-rotated Levi-Civita, returns source-silent on the exact graph projector/fractional atlas law/stabilizer cocycle, and corrects any identification with the complete `epsilon_IG` flag.
 - [`selected-k77-action-stabilizer-connection-flag-reconciliation-source-return-2026-08-12.md`](selected-k77-action-stabilizer-connection-flag-reconciliation-source-return-2026-08-12.md)
   - confirms gauge-rotated Levi-Civita and epsilon-rotated Clifford grammar, returns source-silent on the exact reduced-connection/stabilizer formulas, and corrects any identification of Clifford soldering or observer reduction with the residual complex-Cartan flag.
+- [`selected-k77-action-concomitant-residual-flag-gate-source-return-2026-08-12.md`](selected-k77-action-concomitant-residual-flag-gate-source-return-2026-08-12.md)
+  - confirms the geometric reduction and gauge-rotated connection ingredients, returns source-silent on an action-derived H/Q flag selector, and fences the scoped background result from the source's separate reduction/intersection claim.

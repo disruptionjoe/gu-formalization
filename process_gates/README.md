@@ -2906,3 +2906,28 @@ The inventory audit also tracks these previously live but undocumented local
 gates: `k77_vertical_soldering_adapter_order_gate_audit.py`,
 `canon_docs_frontmatter_validity_audit.py`, `correction_propagation_audit.py`,
 `import_ban_audit.py`, and `retracted_claim_citation_audit.py`.
+
+## K77 action-concomitant residual-flag gate ledger v0.190
+
+Gate: `k77_action_concomitant_residual_flag_gate_audit.py`.
+
+```bash
+python3 process_gates/k77_action_concomitant_residual_flag_gate_audit.py
+```
+
+Verifies the two-dimensional Lorentz commutant, allowed projector ranks,
+vanishing commutator/polar branch, full nonzero second-fundamental scope,
+ledger migrations and current pointers. It fences the invariant-background
+result from arbitrary nonhomogeneous solutions and full-unitary projection.
+
+## Source-claim kill-target gate
+
+Gate: `kill_target_claim_audit.py`.
+
+```bash
+python3 process_gates/kill_target_claim_audit.py
+python3 process_gates/kill_target_claim_audit.py --self-test
+```
+
+Fails closed when a new kill/no-go-bearing exploration omits a registered
+source-claim target or the audited `NONE-NOT-A-KILL` escape hatch.

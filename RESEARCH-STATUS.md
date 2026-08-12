@@ -8,18 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.189; eight
-distance/evidence migrations; headline unchanged).** The finite observation
-projector and action-carried K77 metric/gauge-rotated-Levi-Civita connection
-canonically own the local stabilizer cocycle, reduced connection
-`A^P=A+[P,nabla P]` and second fundamental tensor. Affine/tensorial descent
-passes on a noncommuting three-patch atlas over two exact fields. The August 5
-global `gamma_epsilon` Clifford soldering theorem is retained separately. A
-residual stabilizer moves a finer flag without moving the coarse projector, so
-the residual complex-Cartan selector and full-unitary `varpi` compatibility
-remain open. Next build or kill a target-blind action-derived `(H,Q)`
-concomitant, or prove the refinement gauge, before lower-order BV/KT. No
-verdict, residue, quotient, canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.190; twelve
+distance/evidence migrations; headline unchanged).** The complete Lorentz
+commutant on `Sym^2(T*X)` is exactly two-dimensional. Thus every natural
+zero-order action concomitant on the selected invariant background has only
+trace/traceless eigenvalues; its gapped projector cannot have rank four and
+all current commutators vanish. The full nonzero second-fundamental class is
+included—the rejected shortcut `H_II=0` would contradict the established
+metric-bundle geometry. This closes only the invariant selector class.
+Nonhomogeneous reduced curvature/full-`II` and the full-unitary/two-half to K77
+projection remain live. No verdict, residue, quotient, canon or public posture
+moves.
+
+**Predecessor v0.189.** The finite observation projector plus K77 connection
+own the stabilizer cocycle, reduced connection and second-fundamental descent.
 
 **Predecessor v0.188.** The finite nondegenerate observation graph owns the
 canonical descending K77 projector; normalized adapted frames remain local

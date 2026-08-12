@@ -24,20 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.189.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.189.md`.
+`lab/process/conditional-physics-ledger-v0.190.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.190.md`.
 
-Current action/stabilizer result: the finite observation projector plus the
-K77 metric/gauge-rotated-Levi-Civita connection canonically own `nabla P`,
-`A^P=A+[P,nabla P]` and the local block-stabilizer cocycle. Exact
-noncommuting three-patch descent is affine for the reduced connection and
-tensorial for the second fundamental form. The prior global `gamma_epsilon`
-Clifford soldering map is retained separately. A residual stabilizer still
-moves the finer complex-Cartan flag. Build next constructs or kills a
-target-blind action `(H,Q)` concomitant selecting that refinement, or proves
-it gauge. Only afterward may it insert `gamma(h_omega)` into the lower-order
-sixteen-cell Riccati/BV/KT system. A fitted frame or flag remains forbidden,
-and full-unitary `varpi` is not identified with the K77 connection by fiat.
+Current action-concomitant result: on the selected Lorentz-invariant
+background, the exact natural endomorphism algebra is only
+`span{I,P_trace}`. Distortion, directly contracted curvature and the complete
+nonzero second-fundamental class cannot produce a rank-four spectral flag;
+all current commutators vanish. Build next constructs the smallest
+nonhomogeneous stationary reduced-curvature/full-`II` orbit and reruns the
+gap, polar and stabilizer gates. A fitted frame or flag remains forbidden, and
+full-unitary `varpi` or possible two `U(32,32)` halves are not identified with
+the K77 connection by fiat.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial
