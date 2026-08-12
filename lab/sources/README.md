@@ -483,3 +483,5 @@ identifications as separate grades.
   - confirms SC-ACT-04 as the bosonic residual-square owner and returns source-silent on the exact moving-`H_q` reduction, background completion, transverse cancellation and physical vacuum.
 - [`selected-k77-i2b-real-shiab-displasion-image-source-return-2026-08-12.md`](selected-k77-i2b-real-shiab-displasion-image-source-return-2026-08-12.md)
   - confirms the swervature/displasion shell, two connections, augmented torsion and residual-square architecture; returns source-silent on the fixed-`H_q` real Shiab cancellation, opposite-phase background, full-unitary identification and global connection realization.
+- [`selected-k77-i2b-full-unitary-image-covariance-source-return-2026-08-12.md`](selected-k77-i2b-full-unitary-image-covariance-source-return-2026-08-12.md)
+  - confirms the full `U(64,64)` parent, two complex `(32,32)` Weyl halves and residual-square action; corrects the v0.202 pointwise-complement fence and returns source-silent on the selected Shiab, moving-form derivatives and global connection/Euler realization.

@@ -3352,3 +3352,19 @@ uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k7
 python3 tests/channel-swings/conditional_physics_ledger_v0202_probe.py
 python3 process_gates/k77_i2b_real_shiab_displasion_image_audit.py
 ```
+
+## K77 I2B pointwise full-unitary image/covariance gate v0.203
+
+`channel-swings/selected_k77_i2b_full_unitary_image_covariance_probe.py`
+composes the v0.202 image theorem with the complete pointwise `u(64,64)`
+Clifford basis, reproduces all prior explicit real-form phases, and repeats
+the exact `364 -> 365` exclusion at a held-out trace representative. It proves
+the two-half block subgroup cannot restore the direct pointwise route while
+failing closed on moving derivatives, global connections, Bianchi, physical
+Euler/BV/domain, datum or canon promotion.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_full_unitary_image_covariance_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0203_probe.py
+python3 process_gates/k77_i2b_full_unitary_image_covariance_audit.py
+```

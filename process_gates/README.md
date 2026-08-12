@@ -3097,3 +3097,17 @@ contributor bound, 99,463-column fixed-`H_q` real bank, rank `364 -> 365`
 target exclusion, and the two-cell stationarity obstruction at nonzero
 `kappa_1`. It fails closed on moving-`H_q`, source-full-unitary, Bianchi,
 jet, vacuum, datum or canon promotion.
+
+## K77 I2B pointwise full-unitary image/covariance gate ledger v0.203
+
+Gate: `k77_i2b_full_unitary_image_covariance_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_full_unitary_image_covariance_audit.py
+```
+
+Verifies the `8256+8128=16384` exact pointwise `u(64,64)` phase basis,
+complete grade-one contributor theorem, q13/q12 `364 -> 365` target exclusion,
+block-subgroup consequence, source correction and hostile scope fences. It
+fails closed on global connections, moving derivatives, Bianchi, alternate
+Shiab, Euler/preboundary, physical reduction, datum or canon promotion.

@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.203 pointwise full-unitary image gate:** v0.202's finite-bank
+> fence was too weak. Exactly one of every real `Cl(7,7)` blade and its `i`
+> multiple is `H_q`-skew, giving `8256+8128=16384` independent directions:
+> the complete pointwise `u(64,64)` algebra. Since the selected Shiab can hit
+> grade one only from input grades `0,2,4`, the v0.202 `99,463` columns already
+> exhaust every relevant full-unitary direction. Their image has rank 364 and
+> the target raises it to 365 at both q13 and a held-out q12 frame. Thus neither
+> full pointwise `U(64,64)` nor its block `U(32,32)xU(32,32)` subgroup can
+> directly cancel the displasion target. Do not search another pointwise
+> coefficient complement. Next compute moving-`H_q`/Hodge/Shiab derivatives
+> and the global Euler/preboundary map; Bianchi, alternate selector, physical
+> reduction and domain remain open.
+
 > **Current v0.202 real-Shiab displasion-image gate:** the v0.201 nonzero
 > displaced-torsion residual has an unrestricted complex selected-Shiab
 > bivector preimage, but no preimage in the complete fixed-`H_q` real
@@ -16,8 +29,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > rank 364 and the target raises the rank to 365. The source-motivated
 > opposite-phase second connection supplies an exact negative curvature ray,
 > but full stationarity forces `kappa_1=0`. Do not retry fixed-`H_q` background
-> fitting or promote the complex preimage. Next construct the moving-`H_q`
-> derivative and compare the source-full `U(64,64)` or two-`U(32,32)` parent;
+> fitting or promote the complex preimage. Its claim that the pointwise full
+> `U(64,64)` parent remained an untested complement is superseded by v0.203;
 > derivative-jet, Bianchi, physical reduction and domain remain open.
 
 > **Current v0.201 source-I2B moving-Hq stationarity gate:** source claim
