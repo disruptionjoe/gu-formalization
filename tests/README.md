@@ -3215,3 +3215,18 @@ external-`i` and dimension-collapse controls must fire.
 python3 tests/channel-swings/selected_k77_split_layer_commutant_action_parent_probe.py
 python3 process_gates/k77_split_layer_commutant_action_parent_audit.py
 ```
+
+## K77 moving split structure/action-selection gate v0.192
+
+`channel-swings/selected_k77_moving_split_structure_action_selection_probe.py`
+uses exact real-Clifford matrices to transport moving `omega` and `J4`, recover
+the complete `K_omega` and `K_J` breaking tensors from their covariant
+derivatives, and separate compatible, block-only and full connection loci. It
+composes the prior full-rank pointwise action Hessian rather than mistaking
+compatibility for selection. Frozen-structure, missing-affine and grading-
+collapse plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_moving_split_structure_action_selection_probe.py
+python3 process_gates/k77_moving_split_structure_action_selection_audit.py
+```

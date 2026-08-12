@@ -461,3 +461,5 @@ identifications as separate grades.
   - confirms the geometric reduction and gauge-rotated connection ingredients, returns source-silent on an action-derived H/Q flag selector, and fences the scoped background result from the source's separate reduction/intersection claim.
 - [`selected-k77-split-layer-commutant-action-parent-source-return-2026-08-12.md`](selected-k77-split-layer-commutant-action-parent-source-return-2026-08-12.md)
   - confirms the authorial 4+10 split, two complex `C^(32,32)` halves and distinct full `U(64,64)` parent; corrects unscoped ambient no-`J` language and returns source-silent on Hermitian-form derivation and action selection.
+- [`selected-k77-moving-split-structure-action-selection-source-return-2026-08-12.md`](selected-k77-moving-split-structure-action-selection-source-return-2026-08-12.md)
+  - confirms the two halves, distinct full parent and `varpi` gauge/Higgs-like/CKM/Yukawa assignments; returns source-silent on the intrinsic-torsion formulas, Hermitian compatibility map and physical block identities.

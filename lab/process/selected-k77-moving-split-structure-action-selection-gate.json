@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-024031-gu-moving-split-structure-action-selection",
+  "status": "EXACT_MOVING_SPLIT_INTRINSIC_TORSION__CURRENT_POINTWISE_ACTION_NONSELECTION",
+  "target_claim": "NONE-NOT-A-KILL",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.192",
+  "ledger_rows": ["AC-G1a", "AC-F1", "RA-E3", "RA-F2", "RA-G2", "LT-SM3"],
+  "result": {
+    "checks": 40,
+    "failures": 0,
+    "moving_omega_square": 1,
+    "moving_J4_square": -1,
+    "compatible_connection_Domega_zero": true,
+    "compatible_connection_DJ_zero": true,
+    "block_connection_Domega_zero": true,
+    "block_connection_DJ_zero": false,
+    "full_endomorphism_Domega_zero": false,
+    "Komega_recovered_from_Domega": true,
+    "KJ_recovered_from_omega_even_DJ": true,
+    "adapted_frame_naturality": true,
+    "current_pointwise_action_reduction_selected": false,
+    "physical_block_identification": "OPEN"
+  },
+  "controls": {
+    "frozen_moving_structure_rejected": true,
+    "missing_affine_compensation_rejected": true,
+    "omega_J_collapse_rejected": true,
+    "predecessor_full_rank_hessian_composed": true
+  },
+  "source_return": "SOURCE_CONFIRMS_TWO_HALVES_FULL_PARENT_AND_VARPI_FUNCTION_ASSIGNMENTS__SOURCE_SILENT_ON_INTRINSIC_TORSION_DECOMPOSITION_AND_PHYSICAL_BLOCK_IDENTIFICATION",
+  "hostile_review": "SURVIVES_SCOPED_AFTER_REPAIR__EXACT_INTRINSIC_TORSION_DECOMPOSITION__CURRENT_POINTWISE_ACTION_NONSELECTION_ONLY",
+  "mailbox_postflight": "NO_NEW_GU_FORMALIZATION_SCIENTIFIC_ITEM_AFTER_2026_08_10__20260812_PROG004_POINTER_IS_PROCESS_ONLY_AND_NONDISPLACING",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 6
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "BUILD_FULL_UNITARY_TO_K77_SPLIT_INTRINSIC_TORSION_COMPATIBILITY_MAP__DERIVE_OR_KILL_HERMITIAN_FORM_AND_EXTERNAL_I_PLACEMENT__PORT_KJ_KOMEGA_INTO_SOURCE_VARPI_BLOCKS__TEST_HIGGS_LIKE_CHANNEL_WITHOUT_FITTING"
+}

@@ -2944,3 +2944,16 @@ Verifies the exact `C + C` split commutant, real-64/complex-32 half typing,
 `32+32` complexification, absence of a derived same-half real bilinear, all
 four planted scope controls, ledger migrations and unchanged residue. It
 fails closed if compatibility is promoted to action selection.
+
+## K77 moving split structure/action-selection gate ledger v0.192
+
+Gate: `k77_moving_split_structure_action_selection_audit.py`.
+
+```bash
+python3 process_gates/k77_moving_split_structure_action_selection_audit.py
+```
+
+Verifies exact reconstruction of the two nested connection-breaking tensors
+from moving `D omega` and `D J4`, the compatible/block/full locus separation,
+adapted-frame naturality, the scoped current-action nonselection result and
+unchanged residue. It fails closed on full-unitary or physical-block promotion.

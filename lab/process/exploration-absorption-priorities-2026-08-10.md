@@ -9,15 +9,18 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.191 promotes the split-layer action-parent test to rank one. The
-exact `Spin(1,3) x Spin(6,4)` commutant is `C + C`, so native complex
-structures exist on both real Weyl halves and each half complexifies as
-`32+32`. The immediate construction is no longer "find a complex structure";
-it is to compute `D_varpi omega` and `D_varpi J` for the moving observation
-reduction and ask which reduction the action actually owns. The Hermitian
-form, external scalar `i`, full parent, block product and finer split reduction
-must remain separate. The nonhomogeneous `H,Q` selector is now rank two and
-can proceed as a nonconflicting Build package.
+Ledger v0.192 closes the moving-split kinematics and negatively scopes current
+pointwise action selection. `D omega` and `D J4` exactly recover the two nested
+connection-breaking tensors; the canonical reduced K77 connection preserves
+both, while the existing action Hessian keeps both breaking banks nonradical.
+Rank one is now the full-unitary-to-K77 compatibility map, same-half Hermitian
+form/external-`i` placement, and target-blind identification of the resulting
+`varpi` blocks against the source Higgs-like assignment. Do not assume every
+breaking tensor must vanish or promote it to a Higgs. The nonhomogeneous
+`H,Q` selector remains a disjoint rank-two Build package.
+
+Ledger v0.191 supplied the split-native `C+C` commutant, native complex
+structures on both real Weyl halves and the `32+32` complexification typing.
 
 Ledger v0.190 closes the selected Lorentz-invariant natural `(H,Q)` selector
 class. Its exact endomorphism algebra is only identity plus trace projector;

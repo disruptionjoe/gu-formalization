@@ -8,16 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.191; five
-distance/evidence migrations; headline unchanged).** The exact
-`Spin(1,3) x Spin(6,4)` commutant on the real-128 Cl(7,7) carrier is
-four-dimensional, `C + C`, with a native complex structure on each real-64
-Weyl half. Each half is complex-32 and complexifies to conjugate `32+32`
-pieces. This explains the dimensions behind Curt's two `C^(32,32)` halves
-without identifying a real half with a complex-64 Hermitian half. The
-same-half Hermitian form and action selection among full `U(64,64)`, block
-`U(32,32) x U(32,32)` and the finer split-`J` reduction remain open. No
-verdict, residue, quotient, datum, canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.192; six
+distance/evidence migrations; headline unchanged).** The moving `omega/J4`
+covariant derivatives exactly reconstruct the two nested connection-breaking
+tensors. The canonical reduced K77 connection preserves both structures; a
+block connection preserves `omega` while breaking `J4`; and a full
+endomorphism connection adds a half-exchanging tensor. The existing
+nonzero-branch pointwise action Hessian keeps both breaking banks nonradical,
+so the compatible locus is constructed but not dynamically selected by the
+current action. The source assigns Higgs-like and Yukawa functions to `varpi`,
+but no full-unitary compatibility map or physical block identification is
+derived. No verdict, residue, quotient, datum, canon or public posture moves.
+
+**Predecessor v0.191.** The split commutant is `C+C`; each real Weyl half is
+complex-32 and complexifies to `32+32`. The same-half Hermitian form and
+action parent were left open.
 
 **Predecessor v0.190.** The invariant natural action-concomitant class is
 exactly nonselecting; nonhomogeneous reduced curvature/full-`II` stays live.

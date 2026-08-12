@@ -7,19 +7,22 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
-> **2026-08-12 K77 SPLIT-LAYER COMMUTANT / ACTION-PARENT GATE (ledger
-> v0.191).** The complete real commutant of
-> `Spin(1,3) x Spin(6,4)` on the exact real-128 carrier is four-dimensional,
-> `C + C`. Each real Weyl half is real-64 with a native `J`, hence complex-32;
-> complexification gives `32+32`, the exact dimensional content behind the
-> source's two `C^(32,32)` halves. This corrects only the scope of the ambient
-> no-`J` theorem. It does **not** derive the same-half Hermitian form or select
-> full `U(64,64)`, block `U(32,32) x U(32,32)`, or the finer `J` reduction.
-> **Next make `omega` and `J` moving observation-reduction structures, compute
-> their covariant derivatives under the action-owned connection, and test
-> which reduction stationarity or a declared source constraint preserves.**
-> Keep external scalar `i`, real `J`, chirality `omega` and all three parent
-> candidates separate.
+> **2026-08-12 K77 MOVING SPLIT / ACTION-SELECTION GATE (ledger v0.192).**
+> Moving `omega` and real `J4` now give an exact intrinsic-torsion
+> decomposition of the K77 spin connection. The canonical projector-reduced
+> connection preserves both; a block connection has `D omega=0` with
+> `D J!=0`; the full endomorphism connection additionally carries the exact
+> half-exchanging tensor `K_omega=(D omega)omega/2`. The existing nonzero-
+> branch pointwise action Hessian has zero radical on both breaking banks, so
+> the compatible locus exists but the current action does not select it.
+> **Next build the full-unitary-to-K77 compatibility map, derive or kill the
+> same-half Hermitian form and external-`i` placement, and test which `varpi`
+> block—if any—is the source Higgs-like channel without fitting it.** Keep
+> live off-diagonal fields distinct from errors that must vanish.
+
+> **Predecessor v0.191.** The exact split commutant is `C+C`; each real Weyl
+> half is complex-32 and complexifies to `32+32`. It does not derive the
+> Hermitian `(32,32)` form or choose an action parent.
 
 > **2026-08-12 NGUYEN C1/C2 CERTIFICATES + DECOUPLING PACKET FILED
 > (absorption pointer, binds nothing).** C1/C2 executed at 42/42 exact:
