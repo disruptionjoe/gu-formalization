@@ -24,19 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.187.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.187.md`.
+`lab/process/conditional-physics-ledger-v0.188.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.188.md`.
 
-Current first-jet fermion-symbol result: the actual observation-section jet
-plus the conditional K77 split uniquely determines the 40-dimensional pure
-off-diagonal Cartan/Spin prolongation modulo block-stabilizer frame gauge.
-All 40 gamma, chirality and pairing-block identities pass over two exact
-fields and compose with the full-rank-1,920/moving-H640 control. The changing-
-gimmel compensator remains a distinct map. Build next constructs or kills the
-finite nonlinear normalized graph and atlas descent, then composes it with the
-action's `epsilon_IG`, gauge-rotated Levi-Civita and full complex-Cartan flag.
-Only afterward may it insert `gamma(h_omega)` into the complete lower-order
-sixteen-cell Riccati/BV/KT system. A fitted first jet remains forbidden.
+Current finite observation-reduction result: the nondegenerate graph owns the
+canonical eta-self-adjoint rank-four K77 projector. Block and genuinely mixed
+fractional atlas descent are exact over two fields, and the tangent recovers
+all forty first-order Cartan directions. Normalized `O(7,7)`/Spin frames are
+only local modulo the block stabilizer; the null Gram boundary is explicit.
+Build next composes that local cocycle with action `epsilon_IG`, gauge-rotated
+Levi-Civita and the full complex-Cartan flag. Only afterward may it insert
+`gamma(h_omega)` into the lower-order sixteen-cell Riccati/BV/KT system. A
+fitted global frame remains forbidden.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-003609-gu-k77-finite-section-projector-atlas-descent",
+  "status": "SCOPED_FINITE_K77_GRAPH_PROJECTOR_AND_ATLAS_DESCENT",
+  "checks": {
+    "total": 39,
+    "failures": 0,
+    "fields": [1009, 1013],
+    "all_forty_tangent_directions": true,
+    "mixed_atlas_transitions_per_field": 3
+  },
+  "finite_reduction": {
+    "graph_dimension": 4,
+    "parameter_dimension": 40,
+    "projector_formula": "P_J=L_J*(L_J^T*eta*L_J)^-1*L_J^T*eta",
+    "idempotent": true,
+    "eta_self_adjoint": true,
+    "owns_graph": true,
+    "actual_graph_inertia": [1, 3],
+    "new_parameter_or_datum": false
+  },
+  "atlas": {
+    "block_stabilizer_descent": true,
+    "mixed_fractional_descent": true,
+    "transition_formula": "J'=(c+dJ)*(a+bJ)^-1",
+    "projector_naturality": "P_J'=g*P_J*g^-1",
+    "null_gram_boundary_explicit": true
+  },
+  "lift": {
+    "normalized_O77_representative": "LOCAL_MOD_BLOCK_STABILIZER",
+    "spin_lift": "LOCAL_MOD_STABILIZER_AND_DOUBLE_COVER_SIGN",
+    "first_derivative_matches_v0187": true,
+    "global_preferred_frame_owned": false,
+    "full_epsilon_IG_flag": "OPEN"
+  },
+  "plants": {
+    "naive_mixed_transition_rejected": true,
+    "euclidean_projector_rejected": true,
+    "missing_gram_inverse_rejected": true,
+    "degenerate_graph_rejected": true
+  },
+  "source_return": "SOURCE_CONFIRMS_RICH_OBSERVATION_AND_GAUGE_ROTATED_LEVI_CIVITA__SOURCE_SILENT_ON_EXACT_GRAPH_PROJECTOR_FRACTIONAL_ATLAS_LAW_AND_STABILIZER_COCYCLE__SOURCE_CORRECTS_ANY_IDENTIFICATION_WITH_THE_COMPLETE_EPSILON_IG_FLAG",
+  "hostile_verdict": "SURVIVES_SCOPED__FINITE_K77_GRAPH_PROJECTOR_AND_ATLAS_DESCENT_EXACT__NORMALIZED_O_SPIN_LIFT_LOCAL_MOD_STABILIZER__ACTION_EPSILON_IG_FLAG_OPEN",
+  "next_gate": "COMPOSE_LOCAL_PROJECTOR_LIFT_COCYCLE_WITH_ACTION_EPSILON_IG_GAUGE_ROTATED_LEVI_CIVITA_AND_FULL_COMPLEX_CARTAN_FLAG__THEN_LOWER_ORDER16CELL_BV_KT",
+  "accounting": {
+    "P1_P2_P3_used": false,
+    "verdict_change": false,
+    "booked_residue_change": false,
+    "quotient_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  }
+}

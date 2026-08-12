@@ -2871,6 +2871,20 @@ rank-four section jet, both pairing types and inherited full-1,920/H640
 control, and fences the local first-order observation-plane component from
 the nonlinear global `epsilon_IG` flag and lower-order BV/KT.
 
+## K77 finite section projector / atlas-descent gate ledger v0.188
+
+Gate: `k77_finite_section_projector_atlas_descent_audit.py`.
+
+```bash
+python3 process_gates/k77_finite_section_projector_atlas_descent_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies the
+rank-four eta-self-adjoint graph projector, exact block/mixed fractional atlas
+descent, all-forty tangent recovery, null Gram boundary and four planted
+failures, and fences the canonical projector/coset reduction from a preferred
+global O/Spin frame and the complete action-owned `epsilon_IG` flag.
+
 ## Live gate inventory catch-up
 
 The inventory audit also tracks these previously live but undocumented local

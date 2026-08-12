@@ -453,3 +453,5 @@ identifications as separate grades.
   - confirms gauge-rotated Levi-Civita and rich observation as distinct source owners, corrects any raw-shear Spin-lift inference, and returns source-silent on the repository's canonical `epsilon_IG` fermion-principal prolongation.
 - [`selected-k77-canonical-section-jet-cartan-spin-prolongation-source-return-2026-08-12.md`](selected-k77-canonical-section-jet-cartan-spin-prolongation-source-return-2026-08-12.md)
   - confirms gauge-rotated Levi-Civita and rich observation, corrects source epsilon/full `epsilon_IG` and moving-gimmel/fixed-Cartan identifications, and returns source-silent on the exact all-40 section-jet lift.
+- [`selected-k77-finite-section-projector-atlas-descent-source-return-2026-08-12.md`](selected-k77-finite-section-projector-atlas-descent-source-return-2026-08-12.md)
+  - confirms rich observation and gauge-rotated Levi-Civita, returns source-silent on the exact graph projector/fractional atlas law/stabilizer cocycle, and corrects any identification with the complete `epsilon_IG` flag.

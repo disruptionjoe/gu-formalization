@@ -8,17 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.187; eight
-distance/evidence migrations; headline unchanged).** The actual observation-
-section jet plus the conditional K77 split uniquely determines the pure mixed
-first-order Cartan lift modulo block-stabilizer frame gauge. All 40 directions
-lift to the 128-spinor over two exact fields—18 rotations and 22 boosts—with
-gamma covariance, chirality and both pairing block types exact. The result
-composes with v0.186's full-rank-1,920 symbol and moving-H640 theorem. The ten
-moving-gimmel compensators are separately exact and are not fixed-metric
-Cartan generators. The finite nonlinear normalized graph, atlas descent, full
-`epsilon_IG` flag, action/Levi-Civita composition and lower-order BV/KT remain
-open. No verdict, residue, quotient, canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.188; eight
+distance/evidence migrations; headline unchanged).** The finite nondegenerate
+observation graph owns an exact K77 eta-self-adjoint rank-four projector. It is
+idempotent, owns exactly the graph and descends under block and genuinely mixed
+fractional atlas changes over two exact fields. Its derivative recovers all 40
+v0.187 Cartan directions, and the actual rational receiver remains in the
+Lorentzian graph component. A normalized `O(7,7)`/Spin representative is only
+local modulo block-stabilizer gauge; a null graph makes the induced Gram matrix
+singular. The next gate composes that local cocycle with action `epsilon_IG`,
+gauge-rotated Levi-Civita and the complete complex-Cartan flag before lower-
+order BV/KT. No verdict, residue, quotient, canon or public posture moves.
+
+**Predecessor v0.187.** The actual section jet uniquely owns the local all-40
+first-order Cartan/Spin prolongation modulo block-stabilizer gauge.
 
 **Predecessor v0.186.** The raw observation shear is not a fixed-K77 Spin
 lift, but local co-moving Clifford/H640 boost and rotation witnesses close

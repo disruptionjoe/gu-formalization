@@ -9,17 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.187 K77 canonical section-jet Cartan/Spin prolongation:** the
-> actual observation-section jet plus the conditional K77 split uniquely
-> determines the pure mixed first-order Cartan lift modulo block-stabilizer
-> frame gauge. All 40 directions lift to Spin over two exact fields—18
-> rotations and 22 boosts—and preserve gamma covariance, chirality and both
-> pairing blocks. This composes with the v0.186 full-rank-1,920/moving-H640
-> theorem. The ten moving-gimmel compensators are separately exact and are not
-> fixed-metric Cartan generators. Next build finite nonlinear normalization and
-> atlas descent, then the complete action-owned `epsilon_IG` flag and lower-
-> order BV/KT. Selected Spin, two `U(32,32)` halves and full `U(64,64)` remain
-> distinct; P1/P2/P3 are unchanged and unused.
+> **Current v0.188 K77 finite section projector / atlas descent:** on every
+> nondegenerate graph chart the finite observation section owns the canonical
+> eta-self-adjoint rank-four projector
+> `P_J=L_J(L_J^T eta L_J)^-1L_J^T eta`. Block and genuinely mixed fractional
+> atlas descent are exact over two fields, and the tangent recovers all 40
+> v0.187 Cartan directions. A normalized `O(7,7)`/Spin frame is only local
+> modulo the block stabilizer; the null Gram boundary is explicit. Next compose
+> that local cocycle with action `epsilon_IG`, gauge-rotated Levi-Civita and the
+> complete flag, then lower-order BV/KT. Selected Spin, two `U(32,32)` halves
+> and full `U(64,64)` remain distinct; P1/P2/P3 are unchanged and unused.
+
+> **Predecessor v0.187:** the actual section jet uniquely owns the all-40 local
+> first-order Cartan/Spin prolongation modulo block-stabilizer gauge.
 
 > **Predecessor v0.186:** the raw `4+10` shear is not a fixed-K77 Spin lift;
 > co-moving Clifford/H640 witnesses nevertheless close its local leak.

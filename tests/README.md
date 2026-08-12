@@ -3149,3 +3149,18 @@ motion.
 sage -python tests/channel-swings/selected_k77_canonical_section_jet_cartan_spin_prolongation_probe.py
 python3 process_gates/k77_canonical_section_jet_cartan_spin_prolongation_audit.py
 ```
+
+## K77 finite section projector / atlas descent v0.188
+
+`channel-swings/selected_k77_finite_section_projector_atlas_descent_probe.py`
+constructs the canonical eta-self-adjoint projector onto the finite
+nondegenerate observation graph over `GF(1009)` and `GF(1013)`. It verifies
+rank, idempotence, graph ownership, all 40 tangent directions, block and three
+genuinely mixed fractional atlas transitions, and local-lift stabilizer
+ambiguity. Naive transition, Euclidean adjoint, missing Gram normalization and
+null-graph plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_finite_section_projector_atlas_descent_probe.py
+python3 process_gates/k77_finite_section_projector_atlas_descent_audit.py
+```
