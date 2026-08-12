@@ -7,6 +7,27 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
+> **2026-08-12 SECOND-ORDER PERSONA PASS AND ROUTE VOTE (absorption
+> pointer, binds nothing).**
+> `explorations/second-order-persona-pass-and-route-vote-2026-08-12.md`.
+> The real-descent correction is **independently corroborated** by a
+> second derivation (Speiser / additive Hilbert 90) — the cadence's own
+> `91839376` correction reached it first and states the sharper
+> successor (`Shiab tau_source - tau_target Shiab`); no absorption is
+> owed there. Additive content only: the indefinite-signature rigidity
+> trap (`U(3,2)` is pseudo-Hermitian — definite-signature rigidity does
+> not transfer); the `J`-quotient double-edge (a point-quotient makes
+> `D_varpi J = 0` automatic, typing C3c rather than only deleting
+> coordinates); a cheap pairwise-isomorphism first test for the
+> universal rank-128 module; atlas sequencing (finite parameter list
+> required — successor to debt reduction, seed from existing pairing
+> determinants); Krein-null complement choice as an unbooked selection
+> debt; and two proposed queue additions (aggregate debt recount by
+> fixer-type; independence-certificate verdict class). Vote converges
+> with the cadence's own top two. Also recorded: a false-novelty
+> near-miss — `novelty-check` on proper-noun terms returned zero exact
+> hits against five-hour-old prior art written in different vocabulary.
+
 > **2026-08-12 CLAIM-INDEXED VERDICT DOCTRINE INSTALLED (ratified; read
 > before any Nguyen/chirality/generations verdict).**
 > `explorations/claim-indexed-verdict-doctrine-2026-08-12.md`: misaimed
