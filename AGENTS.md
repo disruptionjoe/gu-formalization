@@ -273,3 +273,16 @@ hygiene — on 2026-08-09 a single session produced **seven** false-novelty clai
 have caught. A hit is not automatically a refutation: it may be adjacent work, or
 a homonym (this repository carries at least six same-letter collisions). Read the
 hits and state what is new *relative to them*.
+
+
+## Kill-target and subagent-ingest rule (ratified, Joe direct chat 2026-08-11)
+
+Every new kill/no-go/falsification artifact names the source claim it
+kills by ID from `lab/sources/source-claim-register.yaml`
+(`target_claim:` frontmatter; audited escape hatch `NONE-NOT-A-KILL`),
+enforced by `process_gates/kill_target_claim_audit.py`. The register is
+edition-pinned; weakening an ASSERTS row requires a new source edition or
+an adjudication artifact, never silent reinterpretation. Orchestrators
+delegating to subagents inline `lab/process/subagent-brief.md` verbatim;
+subagent artifacts echo `brief_version:`. Rationale and council record:
+`explorations/source-claim-register-and-adherence-ledger-2026-08-11.md`.

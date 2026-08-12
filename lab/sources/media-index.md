@@ -2,7 +2,7 @@
 title: "Media and Source Index"
 status: source
 doc_type: source_index
-updated_at: "2026-05-31"
+updated_at: "2026-08-11"
 ---
 
 # Media and Source Index
@@ -126,3 +126,27 @@ When a media item is processed, add rows like this beneath the relevant source e
 | source_id | timestamp / locator | claim type | exact topic | strength | repo implication |
 | --- | --- | --- | --- | --- | --- |
 | `GU-MEDIA-...` | `HH:MM:SS` | terminology / prediction / construction / critique | concise description | verified / reconstruction / speculation | where it affects README, appendix, paper, or project plan |
+
+
+## In-Repo Extractions (work -> upload -> extraction; check here BEFORE re-extracting)
+
+Three-level rows per the 2026-08-11 council record (Seat 3). EXTRACTION
+rows are the in-repo files; hash/pin status shown. The H1/H2 seminar
+residual is carried below.
+
+| WORK | MANIFESTATION | IN-REPO EXTRACTION | pin |
+|---|---|---|---|
+| GU draft (April 2021 v1.0) | official PDF mirror | lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md; lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md; claim rows in lab/sources/source-claim-register.yaml (60 draft rows, full-document sweep) | sha256:3f28d742... bit-verified |
+| TOE 2025 "40 Years in the Making" | TOE upload | lab/sources/transcripts/toe-weinstein-gu-40-years.md; claim-mining-toe-weinstein*.md; 33 register rows | transcript in-tree |
+| UCSD seminar (April 2025, recorded by Brian Keating) | see H1/H2 row | papers/drafts/"Transcript into the impossible.md" (= lab/literature/weinstein-ucsd-2025-04-transcript.md); 8 register rows | dual copy, content-identical |
+| Keating 2025-06-12 upload | ~2h23m item | lab/sources/keating-interview-2025-06-12-source-record.md (paraphrase-grade; NOT citable for GU claims — cite seminar counterparts) | record only |
+| Portal 2020 "A First Look" | Portal upload | lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md; 6 register rows | transcript in-tree |
+| Curt iceberg (EXPOSITOR, not author) | iceberg upload | lab/sources/curt-iceberg-77-primary-transcript-fetch-2026-08-08.md (signature passage); 2 register rows, expositor grade | fetched segment |
+
+**H1/H2 residual (open):** whether the 2025-06-12 upload is a separate
+~2h23m interview (H1) or one upload whose first ~50 minutes are the
+seminar (H2). Deciding check: one video-ID + runtime comparison against
+`GU-POD-2025-KEATING-DESI-GU` (media-index row) — never executed.
+
+**Claim-level lookup:** lab/sources/source-claim-register.yaml (110
+verbatim rows, edition-pinned, core-partitioned, dated adherence).

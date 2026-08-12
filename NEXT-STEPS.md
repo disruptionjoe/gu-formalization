@@ -7,6 +7,20 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
+> **2026-08-11 SOURCE-CLAIM REGISTER AND KILL-TARGET GATE LIVE (ratified,
+> binds via gate from 2026-08-12).** `lab/sources/source-claim-register.yaml`
+> holds 110 verbatim, edition-pinned authorial claims with core partition
+> (hard-core 48 / auxiliary 51 / disavowed 11) and dated adherence
+> (ADHERED 82 / PARTIAL 17 / UNTYPED 11 / CONTRADICTED 0). New
+> kill-bearing artifacts name their `target_claim:` (gate:
+> `process_gates/kill_target_claim_audit.py`; baseline 5-of-40 untyped).
+> Subagent delegation inlines `lab/process/subagent-brief.md` v1.0.
+> Top adherence gaps for wave absorption: SC-GEN-54 (spoken supercharge
+> count mechanism, UNTYPED with the IGG extension machine-complete
+> in-repo); the CHI/GEN source-claim column carried into packet bodies;
+> GEOMETER-VS-PHYSICS-OBJECTS.md:19 retired-form teaching. Council record
+> and rationale in explorations/.
+
 > **2026-08-12 K77 ACTION/STABILIZER CONNECTION RECONCILIATION (ledger
 > v0.189).** The finite observation projector plus the action-carried K77
 > metric/gauge-rotated-Levi-Civita connection canonically own
