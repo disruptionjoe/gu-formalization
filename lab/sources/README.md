@@ -540,3 +540,5 @@ identifications as separate grades.
   - confirms the bosonic residual square and distinct `Q_B` slot; corrects zero first Green versus second Hessian; attributes the exact Lorentz rank-two block and two live pairing-radical directions to the repository; returns source-silent on the K77 `Q_B` and rank-four repair.
 - [`selected-k77-i2b-real-primalizer-phase-gate-source-return-2026-08-12.md`](selected-k77-i2b-real-primalizer-phase-gate-source-return-2026-08-12.md)
   - confirms the bosonic residual norm-square and adjoint grammar; attributes the conditional phase-even rank-four pairing and its noncompact-unitary obstruction to the repository; returns source-silent on the exact real `Q_B` and any moving reduction that selects it.
+- [`selected-k77-i2b-observer-time-hermitian-reduction-source-return-2026-08-12.md`](selected-k77-i2b-observer-time-hermitian-reduction-source-return-2026-08-12.md)
+  - confirms the bosonic adjoint and two-half/full-parent grammar; attributes the exact observer-time invariant rank-four completion and trace rank-zero result to the repository; returns source-silent on selecting `u` or proving action basicness.

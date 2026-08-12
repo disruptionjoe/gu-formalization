@@ -9,6 +9,23 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.215 observer-time Hermitian reduction:** the v0.214 phase-even
+> Lorentz rank-four response has an exact pseudo-unitary completion from
+> `H_u=iB gamma(u)` when a future unit observer `u` is supplied.  The induced
+> blocks are `-8I4,+8I4,+8I4,+8I4` and an exact `U(1,1)` plant stays `1 -> 1`.
+> The canonical vertical trace gives rank zero on the same response.  Time
+> orientation selects a component, not a unit vector; the observer fibre has
+> three function-valued degrees before equations, and a rational boost changes
+> fixed-frame coefficients.  No datum or residue is booked.  Next derive `u`
+> from observation/soldering or prove the selected action is basic under its
+> change; retain coupled contact.  Keep `H_u` distinct from a positive Hilbert
+> majorant and `C^(32,32)+C^(32,32)` distinct from two connections.
+
+> **Predecessor v0.214 phase gate:** the four live grade-two responses admit
+> a raw phase-even Lorentz rank-four pairing, but it fails a noncompact
+> `U(1,1)` adjoint-invariance plant.  V0.215 supplies its conditional invariant
+> completion and supersedes the generic "moving fundamental symmetry" label.
+
 > **Current v0.212 arbitrary-field Euler/Green bank:** the actual `SC-ACT-04`
 > moving-`H_q` residual has a complete exact zero-order Euler covector on all
 > `196` fixed-`H_q` connection cells. Its four monomial supports are

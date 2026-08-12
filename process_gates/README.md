@@ -607,6 +607,7 @@ selected notes below and in each script header.
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
+- `k77_i2b_observer_time_hermitian_reduction_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
 - `k77_wave2_action_polarization_common_observation_domain_scope_audit.py`
@@ -3214,3 +3215,18 @@ invariance failure, source return and hostile analytic/symplectic scope. It
 fails closed on source/action selection of `Q_B`, a moving fundamental
 symmetry, coupled contact, observation/gauge reduction, analytic domain,
 physical spectrum or datum use.
+
+## K77 I2B observer-time Hermitian-reduction gate ledger v0.215
+
+Gate: `k77_i2b_observer_time_hermitian_reduction_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_observer_time_hermitian_reduction_audit.py
+```
+
+Verifies that observer-time `H_u` gives exact noncompact-unitary-invariant
+Lorentz rank four on the live response while the geometry-owned vertical
+trace gives rank zero. It records the conditional three-function observer
+cost without booking it, preserves the two-half/full-parent fence, and fails
+closed on source/action selection of `u`, basicness, complete Euler/Green/
+preboundary, analytic domain, physical spectrum or datum use.
