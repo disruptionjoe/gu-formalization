@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_action_real_projection_probe.py`
+  reconstructs the exact real residual action and checks all 99,463 live
+  columns. It proves `P_+` is the action-self-adjoint fixed-real Euler
+  primalizer with 90 nonzero couplings, then uses a nonzero anti-sector witness
+  `-11` to refute nonlinear residual replacement.
+
+- `channel-swings/conditional_physics_ledger_v0206_probe.py` enforces the
+  append-only three-row migration to fixed-real Euler ownership while global
+  moving Euler/preboundary, physical reduction and accounting remain open.
+
 - `channel-swings/selected_k77_i2b_compensator_naturality_probe.py` applies the
   exact signed q13-to-q12 quarter-turn to every tensorial layer. It verifies all
   16,384 Hodge masks, 1,093 source phases and 99,463 selected-Shiab columns,

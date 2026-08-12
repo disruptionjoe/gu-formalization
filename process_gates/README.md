@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `k77_i2b_action_real_projection_audit.py` enforces ledger v0.206's exact
+  fixed-real first-variation factorization through `P_+`, nonzero live
+  derivative, action-self-adjoint primalizer, anti-sector contrary control and
+  remaining global moving/Green/preboundary fences.
+
 - `k77_i2b_compensator_naturality_audit.py` enforces ledger v0.205's exact
   q13/q12 pointwise transport, direct q12 target admission, append-only
   correction of the v0.204 target-closure bug, and the remaining source-action,

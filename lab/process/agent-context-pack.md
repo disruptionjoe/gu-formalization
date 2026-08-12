@@ -9,17 +9,27 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.205 compensator-naturality correction:** the exact signed
+> **Current v0.206 action-real projection gate:** the real part of the selected
+> residual-square pairing derives `P_+` as the action-self-adjoint primalizer
+> in the first variation at the `H_q`-fixed residual. All 99,463 live columns
+> factor exactly, with 90 nonzero couplings; the rank-170 fixed image is
+> action-orthogonal to the rank-195 anti-fixed image. Do not replace the
+> nonlinear residual by `P_+A`: the anti-fixed sector has a live witness `-11`
+> and reappears off the fixed-real stratum. Next build the chosen global
+> Spin/source-epsilon real-bundle owner, move `P_+`, Hodge and Shiab together,
+> and derive the complete Euler/preboundary classes.
+
+> **Predecessor v0.205 compensator-naturality correction:** the exact signed
 > q13-to-q12 transport intertwines the moving field, K77/Hodge/Phi geometry,
 > complete 99,463-column selected-Shiab bank, `H_q` reality, rank-170
 > fixed-output image and displasion target. The direct q12 image contains its
 > own q12 target. V0.204's contrary result used a membership helper closed
 > over q13, so its frame-artifact disposition is corrected append-only. Do
 > not promote this pointwise repository map to Weinstein's epsilon or the
-> source action: `P_+` ownership, the chosen Spin/source-epsilon lift, moving
-> derivatives, global connection and Euler/preboundary remain open. Next
-> derive action ownership, then differentiate the moving family; do not run
-> another pointwise image census.
+> source action. Its `P_+` ownership burden is superseded at fixed-real Euler
+> grade by v0.206; the chosen Spin/source-epsilon lift, moving derivatives,
+> global connection and Euler/preboundary remain open. Do not run another
+> pointwise image census.
 
 > **Predecessor v0.204 real-structure gate:** the v0.202 complex/real split is not
 > a nonzero additive `H^1(Z/2,ker Shiab)` class. The complete selected Shiab

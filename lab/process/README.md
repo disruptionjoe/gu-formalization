@@ -7,13 +7,17 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.205. The exact q13-to-q12
-compensator transports the moving field, Hodge/Phi geometry, complete selected
-Shiab bank, Hq reality, rank-170 fixed-output image and target. The direct q12
-image contains its q12 target; v0.204's exclusion used a helper closed over
-q13 and is corrected append-only. The live gate is now source-action ownership
-of the projected map followed by moving derivatives and Euler/preboundary.
-Registry: `selected-k77-i2b-compensator-naturality.json`.
+Current append-only progress surface: ledger v0.206. The selected real
+residual-square action derives `P_+` as the exact action-self-adjoint
+primalizer in the first variation at the `H_q`-fixed displasion residual on
+all 99,463 live columns. The anti-fixed action sector remains nonzero and
+refutes replacement of the nonlinear residual by `P_+A`. The live gate is the
+global Spin/source-epsilon real-bundle owner followed by moving
+projector/Hodge/Shiab derivatives and Euler/preboundary. Registry:
+`selected-k77-i2b-action-real-projection.json`.
+
+Predecessor v0.205 supplies exact q13/q12 compensator naturality and corrects
+v0.204's target-closure bug.
 
 Predecessor v0.204 supplies the exact mixed-reality ranks and kills additive
 descent, while its held-out q12/frame-artifact disposition is superseded.

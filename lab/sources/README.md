@@ -2,10 +2,15 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-10"
+updated_at: "2026-08-12"
 ---
 
 # Source and Media Index
+
+- [`selected-k77-i2b-action-real-projection-source-return-2026-08-12.md`](selected-k77-i2b-action-real-projection-source-return-2026-08-12.md)
+  records source ownership of residual norm-square/adjoint grammar, source
+  silence on `H_q/P_+`, the repository derivation of `P_+` at fixed-real Euler
+  grade, and the exact refutation of nonlinear residual replacement.
 
 - [`selected-k77-i2b-compensator-naturality-source-return-2026-08-12.md`](selected-k77-i2b-compensator-naturality-source-return-2026-08-12.md)
   confirms the moving conjugated Clifford-frame grammar, corrects v0.204's

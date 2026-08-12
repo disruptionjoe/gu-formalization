@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-123851-gu-i2b-action-real-projection",
+  "ledger_version": "0.206",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_RESIDUAL_NORM_SQUARE_AND_ADJOINT_GRAMMAR__SOURCE_SILENT_ON_HQ_AND_PPLUS__REPO_DERIVES_PPLUS_AS_FIXED_REAL_EULER_PRIMALIZER__NONLINEAR_RESIDUAL_REPLACEMENT_REFUTED",
+  "layer0": {
+    "nonlinear_residual_vs_projected_residual": "DISTINCT",
+    "complex_bilinear_vs_real_action": "DISTINCT",
+    "quadratic_action_vs_first_variation": "DISTINCT",
+    "euler_primalizer_vs_target_image": "DISTINCT",
+    "pointwise_primalizer_vs_global_green_preboundary": "DISTINCT"
+  },
+  "exact_results": {
+    "target_relevant_source_columns": 99463,
+    "target_complex_coordinates": 196,
+    "pairing_comparator_mismatches": 0,
+    "fixed_residual_factorization_failures": 0,
+    "anti_to_fixed_target_pairing_failures": 0,
+    "nonzero_first_derivatives": 90,
+    "quadratic_sector_split_failures": 0,
+    "fixed_output_rank": 170,
+    "anti_fixed_output_rank": 195,
+    "fixed_anti_basis_pairs_tested": 33150,
+    "fixed_anti_orthogonality_failures": 0,
+    "pplus_idempotent": true,
+    "pplus_action_self_adjoint": true,
+    "anti_fixed_action_witness": "-11",
+    "nonfixed_background_factorization_fails": true,
+    "nonlinear_residual_replacement_derived": false
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_quotients": 0,
+    "new_promoted_selectors": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "PPLUS_ACTION_OWNED_AT_FIXED_REAL_EULER_GRADE__NONLINEAR_REPLACEMENT_REFUTED__MOVING_GLOBAL_OWNER_OPEN",
+  "next_gate": "GLOBAL_REAL_BUNDLE_AND_SPIN_EPSILON_OWNER__MOVING_DPPLUS_DHODGE_DSHIAB__COMPLETE_EULER_PREBOUNDARY",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-action-real-projection-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_action_real_projection_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-action-real-projection-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-action-real-projection-review.md"
+  }
+}
