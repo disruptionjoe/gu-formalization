@@ -7,26 +7,47 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
-> **2026-08-12 SECOND-ORDER PERSONA PASS AND ROUTE VOTE (absorption
-> pointer, binds nothing).**
-> `explorations/second-order-persona-pass-and-route-vote-2026-08-12.md`.
-> The real-descent correction is **independently corroborated** by a
-> second derivation (Speiser / additive Hilbert 90) — the cadence's own
-> `91839376` correction reached it first and states the sharper
-> successor (`Shiab tau_source - tau_target Shiab`); no absorption is
-> owed there. Additive content only: the indefinite-signature rigidity
-> trap (`U(3,2)` is pseudo-Hermitian — definite-signature rigidity does
-> not transfer); the `J`-quotient double-edge (a point-quotient makes
-> `D_varpi J = 0` automatic, typing C3c rather than only deleting
-> coordinates); a cheap pairwise-isomorphism first test for the
-> universal rank-128 module; atlas sequencing (finite parameter list
-> required — successor to debt reduction, seed from existing pairing
-> determinants); Krein-null complement choice as an unbooked selection
-> debt; and two proposed queue additions (aggregate debt recount by
-> fixer-type; independence-certificate verdict class). Vote converges
-> with the cadence's own top two. Also recorded: a false-novelty
-> near-miss — `novelty-check` on proper-noun terms returned zero exact
-> hits against five-hour-old prior art written in different vocabulary.
+> **2026-08-12 CATEGORICAL READING OF THE GEOMETRY + COUNCIL REVIEW
+> (absorption pointer, binds nothing; PROPOSED throughout).**
+> `explorations/categorical-reading-of-gu-geometry-2026-08-12.md` with
+> `explorations/science-council-categorical-reading-review-2026-08-12.md`.
+> Diagnostic, not productive: GU's founding move (work over the bundle of
+> metrics rather than choosing one) is a universal-object construction, so
+> the program's central claim is a NATURALITY claim — and the residue
+> ledger's surviving free choices measure distance-from-canonical (split
+> continuous moduli from discrete forks). Descent is the scheduled price of
+> ascending, so difficulty is forecastable at the pullback/restriction/
+> real-form steps. Family slots follow from spinor-functor monoidality
+> meeting the `TX (+) N` splitting — slots are cheap, quantum numbers are
+> the work. Multiplicity and index are different invariants with a lossy
+> comparison map (the vocabulary upgrade of the Rung-1 fence, not a new
+> finding), which is why the `Z/3` route must become a torsor question.
+> Chirality reads as the naturality of a mirror isomorphism — with the
+> physics guard that a mass term is still required. Council conditions:
+> no universality rows in the register (repo-side reading; the source
+> admits a connection choice), every categorical typing names its concrete
+> computation, all claims PROPOSED. Owner-routed proposals:
+> `descent_obligation:` at admission; controlled relay vocabulary; capped
+> machine-readable commutation diagram with a gate; two progress metrics
+> (free-choice count; fraction of squares with known status).
+
+> **2026-08-12 ADDITIVE PERSONA-PASS FINDINGS (absorption pointer, binds
+> nothing).**
+> `explorations/second-order-persona-pass-and-route-vote-2026-08-12.md`
+> — additive items only; the real-descent correction is cadence-owned
+> (`91839376`, sharper successor) and is not restated. New: the
+> indefinite-signature rigidity trap (`U(3,2)` is pseudo-Hermitian —
+> definite-signature rigidity does not transfer); the `J`-quotient
+> double-edge (a point-quotient makes `D_varpi J = 0` automatic, typing
+> that gate rather than only deleting coordinates); a cheap
+> pairwise-isomorphism first test for the universal rank-128 module
+> (equivariant, not merely abstract); atlas sequencing (finite parameter
+> list required; seed from existing pairing determinants); Krein-null
+> complement choice as unbooked selection debt; two proposed queue
+> additions (aggregate debt recount by fixer-type;
+> independence-certificate verdict class); and a recorded false-novelty
+> near-miss (proper-noun novelty grep missed five-hour-old prior art in
+> different vocabulary).
 
 > **2026-08-12 CLAIM-INDEXED VERDICT DOCTRINE INSTALLED (ratified; read
 > before any Nguyen/chirality/generations verdict).**
