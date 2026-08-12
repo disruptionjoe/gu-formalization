@@ -477,3 +477,5 @@ identifications as separate grades.
   - confirms the `varpi` Higgs-like locus and returns source-silent on the canonical common-leg lift, its zero quartic, and selection inside the soldering kernel.
 - [`selected-k77-moving-hq-eddy-quartic-source-return-2026-08-12.md`](selected-k77-moving-hq-eddy-quartic-source-return-2026-08-12.md)
   - confirms the augmented-torsion quadratic eddy and quartic-from-squared-eddy route; returns source-silent on the fixed-`H_q` phase map, `J` completion, selected action coefficient and physical vacuum.
+- [`selected-k77-hq-action-owner-source-return-2026-08-12.md`](selected-k77-hq-action-owner-source-return-2026-08-12.md)
+  - confirms `SC-ACT-01` as the released first-order action and the separate quartic-from-squared-eddy direction; returns source-silent on the complete second/Dirac-square action, co-moving background, its magnitude, and reduced physical Higgs spectrum.

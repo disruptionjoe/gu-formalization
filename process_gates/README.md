@@ -3055,3 +3055,17 @@ from even orbit compensators, unique coefficient-one `J` completion in the
 minimal two-leg family, exact quartic carrier, source polarity and hostile
 scope fences. It fails closed on physical-potential, vacuum, datum, global
 uniqueness or action-selection promotion.
+
+## K77 moving-Hq action-owner potential gate ledger v0.200
+
+Gate: `k77_hq_action_owner_potential_audit.py`.
+
+```bash
+python3 process_gates/k77_hq_action_owner_potential_audit.py
+```
+
+Verifies the exact moving-family zero of the released first action, the
+distinct conditional eddy-square potential `2(rho+r^2/3)^2`, branch and radial
+Hessian, source polarity and hostile scope fences. It fails closed on second
+action selection, background derivation, physical vacuum, photon/Yukawa/BV,
+analytic stability, datum or canon promotion.

@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.200 moving-Hq action-owner gate:** frozen-`q` tangent
+> substitution is not the moving-family potential. On four exact moving-`q`
+> representatives, the released first action `SC-ACT-01` has mass and cubic
+> scalars `(0,0)` and cannot select the weak amplitude. The distinct
+> source-guided eddy-square rival has Hodge coefficient `4` and, with a
+> co-moving curvature background, gives
+> `V_2(r)=2(rho+r^2/3)^2`, branch `r^2=-3rho`, positive radial Hessian for
+> `rho<0`, and three orbit-flat directions. This is a conditional Mexican-hat
+> construction, not a selected physical Higgs action: the complete second
+> action, `J`, `rho`, kinetic reduction, photon kernel, Yukawa placement and
+> analytic domain remain open.
+
 > **Current v0.199 moving-Hq eddy-quartic retyping gate:** fixed-`H_q`
 > unitarity forces a phase split across the four-real weak bank: three angular
 > `i gamma(H_perp)` cells and one radial real `gamma(q)` cell. The angular odd
