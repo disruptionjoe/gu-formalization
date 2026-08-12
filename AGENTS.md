@@ -286,3 +286,10 @@ an adjudication artifact, never silent reinterpretation. Orchestrators
 delegating to subagents inline `lab/process/subagent-brief.md` verbatim;
 subagent artifacts echo `brief_version:`. Rationale and council record:
 `explorations/source-claim-register-and-adherence-ledger-2026-08-11.md`.
+
+Relay rule (v1.1, same ratification): any statement about a registered
+claim — in a ledger block, status entry, summary, return text, or
+receipt — carries its SC- IDs inline and preserves the source sentence's
+polarity verbatim. Frame regression under compression is the measured
+failure mode (worked example in the decoupling packet's integration
+note); summaries are pointers, not content, for frame-critical material.
