@@ -3257,3 +3257,18 @@ frozen-frame, base-axis-complex and base-axis-stabilizer plants must fire.
 sage -python tests/channel-swings/selected_k77_tautological_trace_q_two_half_ownership_probe.py
 python3 process_gates/k77_tautological_trace_q_two_half_ownership_audit.py
 ```
+
+## K77 trace-Hq connection and internal-chain gate v0.195
+
+`channel-swings/selected_k77_trace_hq_connection_internal_chain_probe.py`
+composes the trace-owned Hermitian form with the exact split-spin connection.
+It proves the compatible algebra is `Spin(1,3)xSpin(6,3)` (dimension 42),
+that `D H_q` has rank nine and reconstructs the broken connection, and that a
+frozen trace q does not preserve full Pati-Salam or compose with the existing
+`(4,1,2)` `v_PSB` to the 12-dimensional SM stabilizer. It also plants failures
+against algebra-containment-as-representation and `6+3`-as-Higgs shortcuts.
+
+```sh
+sage -python tests/channel-swings/selected_k77_trace_hq_connection_internal_chain_probe.py
+python3 process_gates/k77_trace_hq_connection_internal_chain_audit.py
+```

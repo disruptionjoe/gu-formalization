@@ -2985,3 +2985,18 @@ new datum and P1 cost, normal-q split stabilizer `42`, native-J anti-isometry,
 source silence on action adoption, and unchanged headline accounting. It fails
 closed if q ownership is inflated into `D_varpi H_q`, an internal reduction or
 a physical Higgs/Yukawa identification.
+
+## K77 trace-Hq connection/internal-chain gate ledger v0.195
+
+Gate: `k77_trace_hq_connection_internal_chain_audit.py`.
+
+```bash
+python3 process_gates/k77_trace_hq_connection_internal_chain_audit.py
+```
+
+Verifies that v0.195 preserves headline accounting, records exact split-spin
+compatibility dimension 42 and defect rank nine, keeps full Pati-Salam
+dimension 21 distinct from fixed-q compact dimension 18, and records the
+`v_PSB`/trace-q joint stabilizer dimension 9. It fails closed if abstract
+SM-algebra containment or the rank-nine defect is promoted into physical
+representation or Higgs recovery.

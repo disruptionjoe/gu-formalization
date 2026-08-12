@@ -15,18 +15,22 @@ updated_at: "2026-08-12"
 > kill not fired, CN-1 dead, C3c and CHK-2 open). The traditional
 > framing is the recorded failure mode — do not regress.
 
-> **2026-08-12 K77 TAUTOLOGICAL TRACE-Q OWNERSHIP GATE (ledger v0.194).** The
-> metric bundle already owns the non-null receiver needed by the preceding
-> Hermitian construction: `q_g=g/2` is a global natural unit-DeWitt-negative
-> vertical trace vector. It gives exact full `(64,64)` and two half `(32,32)`
-> Hermitian signatures with zero new datum and no P1 use. Retyping the
-> predecessor's base-axis witness to the actual normal trace q changes the
-> split stabilizer `48 -> 42` and makes both native `J4/J10` anti-isometries
-> of `H_q`. **Next construct or kill `D_varpi H_q=0`, decompose `varpi` under
-> `Spin(1,3) x Stab_normal(q)`, test compatibility with the intended internal
-> chain, then require an action-owned observed scalar doublet with kinetic,
-> potential and Yukawa surplus.** Keep the left/right trace-q placement dial
-> as an action-selection problem, not a reopened datum search.
+> **2026-08-12 K77 TRACE-HQ CONNECTION / INTERNAL-CHAIN GATE (ledger
+> v0.195).** At the split-spin layer, fixed-trace compatibility is exactly
+> `Spin(1,3)xSpin(6,3)`, dimension `42`; `D H_q` has rank nine and exactly
+> reconstructs every broken normal coefficient. Freezing q, however, loses
+> full Pati-Salam `Spin(6)xSpin(4)`. The residual algebra contains an abstract
+> SM algebra, but the naive fermion branch is wrong and its exact intersection
+> with the independent `(4,1,2)` `v_PSB` stabilizer has dimension `9`, not the
+> SM's `12`. The rank-nine `6+3` defect is also not a Higgs doublet. **Next
+> construct the source's exact full-Pati-Salam/`U(3,2)` intersection relative
+> to the moving trace-`H_q` family, verify the 12-dimensional stabilizer and
+> 16-state hypercharge branch, then decompose the full or two-half `varpi`
+> connection and require a distinct action-owned scalar doublet with kinetic,
+> potential and Yukawa surplus.**
+
+> **Predecessor v0.194.** The canonical trace q owns the full/half Hermitian
+> input with zero datum cost; its internal-chain compatibility was open.
 
 > **Predecessor v0.193.** A generic non-null q gives exact full and two-half
 > Hermitian/Witt compatibility; its provisional free-q cost is now retired

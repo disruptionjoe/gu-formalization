@@ -8,17 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.194; six
-distance/evidence migrations; headline unchanged).** The tautological
-vertical metric-fibre trace `q_g=g/2` has exact DeWitt norm `-1` and supplies
-the receiver for `H_q=i B gamma(q)` globally and naturally. Thus the exact
-full `(64,64)` and two half `(32,32)` Hermitian geometries cost no new datum
-and do not consume P1. The actual trace q lies in the normal ten-plane, so its
-fixed split stabilizer is `42`, not the predecessor base witness's `48`, and
-both `J4/J10` are `H_q` anti-isometries. The operative `D_varpi H_q=0`,
-normal/internal-chain compatibility, equation-9.16 block identity, physical
-Higgs/Yukawa placement, BV and domain remain open. No verdict, booked residue,
-quotient, canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.195; six
+distance/evidence migrations; headline unchanged).** Fixed-trace
+split-spin compatibility is exactly `Spin(1,3)xSpin(6,3)`, dimension `42`,
+and `D H_q` has rank nine with exact recovery of the broken normal connection.
+This is a compatible connection construction, not selection of the operative
+full `varpi`. Freezing q removes full Pati-Salam `Spin(6)xSpin(4)`. The
+residual compact algebra contains an abstract SM algebra, but its naive
+fermion restriction is not the SM and its exact intersection with the
+independent `(4,1,2)` `v_PSB` stabilizer has dimension `9`, not `12`. The
+rank-nine `6+3` defect is not a Higgs doublet. The moving/full-`U(64,64)` or
+two-half parent, source `U(3,2)` intersection, distinct action-owned `varpi`
+scalar block, BV and domain remain open. No verdict, booked residue, quotient,
+canon or public posture moves.
+
+**Predecessor v0.194.** The canonical trace q owns the full/half Hermitian
+input with zero datum cost; internal-chain compatibility was left open.
 
 **Predecessor v0.193.** A generic non-null q gives exact full and two-half
 Hermitian/Witt compatibility; q ownership was left open.

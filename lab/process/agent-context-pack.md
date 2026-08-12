@@ -9,16 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.194 K77 trace-q ownership gate:** the metric bundle's
-> tautological vertical trace `q_g=g/2` is globally natural, has exact DeWitt
-> norm `-1`, and supplies the non-null input to `H_q=i B gamma(q)` with zero
-> new datum and no P1 use. Full `(64,64)` and both half `(32,32)` signatures
-> remain exact. Because the owned q is normal rather than the predecessor's
-> base-axis witness, the split stabilizer is `42` and both native `J4/J10` are
-> `H_q` anti-isometries. Next test `D_varpi H_q=0`, the normal stabilizer's
-> compatibility with the internal chain, and only then an action-owned scalar
-> doublet with kinetic/potential/Yukawa surplus. q ownership is closed; action
-> parent, block identity, BV, domain, chirality, index and count are not.
+> **Current v0.195 K77 trace-Hq connection/internal-chain gate:** fixed-trace
+> split-spin compatibility is exactly `Spin(1,3)xSpin(6,3)`, dimension `42`,
+> and `D H_q` has exact rank nine with a lossless reconstruction of the broken
+> normal coefficients. Freezing q loses full Pati-Salam; abstract SM-algebra
+> containment remains but the naive fermion branch and simultaneous use of
+> the existing `(4,1,2)` `v_PSB` fail (`dim=9`, not `12`). The rank-nine
+> `6+3` defect is not a Higgs doublet. Next build the source's full-Pati-
+> Salam/`U(3,2)` intersection relative to moving `H_q`, then the distinct
+> action-owned `varpi` scalar block. Full `U(64,64)`, two `U(32,32)` halves,
+> BV, domain, chirality, index and count remain open.
+
+> **Predecessor v0.194:** canonical trace q owns the full/half Hermitian input
+> with zero datum cost; internal-chain compatibility was open.
 
 > **Predecessor v0.193:** generic-q full/two-half Hermitian compatibility and
 > explicit Witt rotation were exact; q ownership was open.

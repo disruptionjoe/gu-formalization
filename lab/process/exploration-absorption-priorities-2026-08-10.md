@@ -546,13 +546,15 @@ does not establish the phenomenology of the complete GU action.
 
 ## Stop and reconciliation rules
 
-- **2026-08-12 absorption:** the old K77 trace-receiver construction and the
-  new source-sized Hermitian gate have now been composed. `q_g=g/2` owns the
-  non-null input at zero datum cost; do not reopen generic q selection as the
-  primary gate. The new priority is `D_varpi H_q=0`, the actual normal-q
-  stabilizer/internal-chain test, and then the physical scalar-doublet action
-  surplus. Keep the predecessor's base-axis stabilizer `48` out of the owned
-  trace route; its exact value is `42`.
+- **2026-08-12 absorption:** the trace-owned `H_q` connection gate is now
+  composed. Fixed-q split-spin compatibility is exactly
+  `Spin(1,3)xSpin(6,3)` with rank-nine defect, but it loses full Pati-Salam and
+  intersects the independent `(4,1,2)` `v_PSB` stabilizer in dimension `9`,
+  not SM dimension `12`. Do not reopen generic q selection, relabel abstract
+  SM-algebra containment as representation recovery, or call the `6+3`
+  defect a Higgs. The new priority is the source's exact full-Pati-Salam/
+  `U(3,2)` intersection relative to moving `H_q`, followed by the distinct
+  action-owned `varpi` scalar-doublet surplus test.
 - Do not promote a fixed-carrier theorem into a carrier-selection theorem.
 - Do not apply a bosonic connection projector directly to a fermion subspace;
   require the induced representation/operator and physical domain first.
