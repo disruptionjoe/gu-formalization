@@ -455,3 +455,5 @@ identifications as separate grades.
   - confirms gauge-rotated Levi-Civita and rich observation, corrects source epsilon/full `epsilon_IG` and moving-gimmel/fixed-Cartan identifications, and returns source-silent on the exact all-40 section-jet lift.
 - [`selected-k77-finite-section-projector-atlas-descent-source-return-2026-08-12.md`](selected-k77-finite-section-projector-atlas-descent-source-return-2026-08-12.md)
   - confirms rich observation and gauge-rotated Levi-Civita, returns source-silent on the exact graph projector/fractional atlas law/stabilizer cocycle, and corrects any identification with the complete `epsilon_IG` flag.
+- [`selected-k77-action-stabilizer-connection-flag-reconciliation-source-return-2026-08-12.md`](selected-k77-action-stabilizer-connection-flag-reconciliation-source-return-2026-08-12.md)
+  - confirms gauge-rotated Levi-Civita and epsilon-rotated Clifford grammar, returns source-silent on the exact reduced-connection/stabilizer formulas, and corrects any identification of Clifford soldering or observer reduction with the residual complex-Cartan flag.

@@ -7,14 +7,16 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.188. The finite nondegenerate
-observation graph owns an exact eta-self-adjoint rank-four K77 projector whose
-block and genuinely mixed fractional atlas descent closes over two exact
-fields. Its tangent recovers all 40 v0.187 Cartan directions. Normalized
-`O(7,7)`/Spin frames remain local modulo the block stabilizer, and the null
-Gram boundary is explicit. The action-owned `epsilon_IG` flag and lower-order
-BV/KT remain open. Registry:
-`selected-k77-finite-section-projector-atlas-descent.json`.
+Current append-only progress surface: ledger v0.189. The observation projector
+and action-carried K77 metric connection canonically own the stabilizer
+cocycle, reduced connection and second fundamental tensor. Exact noncommuting
+three-patch affine/tensorial descent closes over two fields. The global
+`gamma_epsilon` Clifford soldering theorem is retained separately; residual
+complex-Cartan flag selection and full-unitary compatibility remain open.
+Registry: `selected-k77-action-stabilizer-connection-flag-reconciliation.json`.
+
+Predecessor v0.188 supplies the finite projector and mixed atlas descent while
+rejecting a preferred global adapted frame.
 
 Predecessor v0.187 supplies the all-40 local first-order Cartan/Spin tangent.
 
@@ -1654,4 +1656,5 @@ Runbooks:
 - `conditional-physics-ledger-v0.186.json` / `selected-k77-first-jet-fermion-symbol-port-gate.json` — raw observation shear is not a K77 Spin lift, but exact co-moving Clifford-anchor/H640 boost and rotation witnesses close the local rank-128 leak; the canonical action-owned prolongation remains open.
 - `conditional-physics-ledger-v0.187.json` / `selected-k77-canonical-section-jet-cartan-spin-prolongation.json` — the actual section jet uniquely supplies all 40 local pure-mixed Cartan/Spin generators modulo stabilizer gauge; nonlinear atlas descent and the complete `epsilon_IG` flag remain open.
 - `conditional-physics-ledger-v0.188.json` / `selected-k77-finite-section-projector-atlas-descent.json` — the finite nondegenerate graph owns a canonical descending K77 projector; normalized O/Spin representatives remain local modulo stabilizer and the action-owned full flag remains open.
+- `conditional-physics-ledger-v0.189.json` / `selected-k77-action-stabilizer-connection-flag-reconciliation.json` — the K77 projector plus metric connection owns the stabilizer cocycle, reduced connection and second fundamental tensor; global Clifford soldering is retained while residual complex-Cartan flag selection stays open.
 - `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.

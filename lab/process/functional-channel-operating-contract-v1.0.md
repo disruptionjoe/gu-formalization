@@ -24,18 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.188.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.188.md`.
+`lab/process/conditional-physics-ledger-v0.189.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.189.md`.
 
-Current finite observation-reduction result: the nondegenerate graph owns the
-canonical eta-self-adjoint rank-four K77 projector. Block and genuinely mixed
-fractional atlas descent are exact over two fields, and the tangent recovers
-all forty first-order Cartan directions. Normalized `O(7,7)`/Spin frames are
-only local modulo the block stabilizer; the null Gram boundary is explicit.
-Build next composes that local cocycle with action `epsilon_IG`, gauge-rotated
-Levi-Civita and the full complex-Cartan flag. Only afterward may it insert
-`gamma(h_omega)` into the lower-order sixteen-cell Riccati/BV/KT system. A
-fitted global frame remains forbidden.
+Current action/stabilizer result: the finite observation projector plus the
+K77 metric/gauge-rotated-Levi-Civita connection canonically own `nabla P`,
+`A^P=A+[P,nabla P]` and the local block-stabilizer cocycle. Exact
+noncommuting three-patch descent is affine for the reduced connection and
+tensorial for the second fundamental form. The prior global `gamma_epsilon`
+Clifford soldering map is retained separately. A residual stabilizer still
+moves the finer complex-Cartan flag. Build next constructs or kills a
+target-blind action `(H,Q)` concomitant selecting that refinement, or proves
+it gauge. Only afterward may it insert `gamma(h_omega)` into the lower-order
+sixteen-cell Riccati/BV/KT system. A fitted frame or flag remains forbidden,
+and full-unitary `varpi` is not identified with the K77 connection by fiat.
 
 Current zero-seed action-module result: the source-owned `Omega^0(S)` field
 alone generates exact conditional `H640=512+128` under the complete spatial

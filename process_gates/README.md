@@ -2885,6 +2885,21 @@ descent, all-forty tangent recovery, null Gram boundary and four planted
 failures, and fences the canonical projector/coset reduction from a preferred
 global O/Spin frame and the complete action-owned `epsilon_IG` flag.
 
+## K77 action/stabilizer connection reconciliation gate ledger v0.189
+
+Gate: `k77_action_stabilizer_connection_flag_reconciliation_audit.py`.
+
+```bash
+python3 process_gates/k77_action_stabilizer_connection_flag_reconciliation_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies exact
+three-patch stabilizer-cocycle descent, the affine reduced connection,
+tensorial second fundamental form, frame-free `A^P=A+[P,nabla P]`, all firing
+plants and the retained global `gamma_epsilon` prior art. It fences the K77
+connection theorem from arbitrary full-unitary `varpi`, residual complex-
+Cartan flag selection and physical BV/BFV reduction.
+
 ## Live gate inventory catch-up
 
 The inventory audit also tracks these previously live but undocumented local

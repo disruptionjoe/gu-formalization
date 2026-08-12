@@ -9,16 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.188 K77 finite section projector / atlas descent:** on every
-> nondegenerate graph chart the finite observation section owns the canonical
-> eta-self-adjoint rank-four projector
-> `P_J=L_J(L_J^T eta L_J)^-1L_J^T eta`. Block and genuinely mixed fractional
-> atlas descent are exact over two fields, and the tangent recovers all 40
-> v0.187 Cartan directions. A normalized `O(7,7)`/Spin frame is only local
-> modulo the block stabilizer; the null Gram boundary is explicit. Next compose
-> that local cocycle with action `epsilon_IG`, gauge-rotated Levi-Civita and the
-> complete flag, then lower-order BV/KT. Selected Spin, two `U(32,32)` halves
-> and full `U(64,64)` remain distinct; P1/P2/P3 are unchanged and unused.
+> **Current v0.189 K77 action/stabilizer connection reconciliation:** the
+> finite observation projector plus the K77 metric/gauge-rotated-Levi-Civita
+> connection canonically own `nabla P`, `A^P=A+[P,nabla P]` and the local
+> `O(H)xO(V)` cocycle. Exact three-patch affine/tensorial descent closes over
+> two fields without a preferred frame or datum. The previously constructed
+> global `gamma_epsilon` Clifford soldering map is distinct and retained. A
+> residual stabilizer still moves the finer complex-Cartan flag. Next derive a
+> target-blind action `(H,Q)` selector or prove those refinement directions
+> gauge, then lower-order BV/KT. Full-unitary `varpi`, selected Spin, two
+> `U(32,32)` halves and full `U(64,64)` remain distinct; P1/P2/P3 are unchanged
+> and unused.
+
+> **Predecessor v0.188:** finite projector and mixed atlas descent are exact;
+> normalized adapted frames remain local modulo stabilizer.
 
 > **Predecessor v0.187:** the actual section jet uniquely owns the all-40 local
 > first-order Cartan/Spin prolongation modulo block-stabilizer gauge.

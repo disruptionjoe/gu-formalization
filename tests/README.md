@@ -3164,3 +3164,19 @@ null-graph plants must fire.
 sage -python tests/channel-swings/selected_k77_finite_section_projector_atlas_descent_probe.py
 python3 process_gates/k77_finite_section_projector_atlas_descent_audit.py
 ```
+
+## K77 action/stabilizer connection and residual flag v0.189
+
+`channel-swings/selected_k77_action_stabilizer_connection_flag_reconciliation_probe.py`
+constructs a noncommuting three-patch K77 atlas over `GF(1009)` and
+`GF(1013)`. It verifies the projector's block-stabilizer cocycle, affine
+descent of the reduced connection, tensorial descent of the second fundamental
+form and the frame-free `nabla P`/`A^P` formulas. Frozen-frame, missing affine
+derivative, missing frame derivative and tensor/connection-confusion plants
+must fire. A residual-stabilizer witness proves the finer complex-Cartan flag
+is not selected by the coarse reduction.
+
+```sh
+sage -python tests/channel-swings/selected_k77_action_stabilizer_connection_flag_reconciliation_probe.py
+python3 process_gates/k77_action_stabilizer_connection_flag_reconciliation_audit.py
+```

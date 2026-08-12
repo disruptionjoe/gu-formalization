@@ -7,18 +7,19 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
-> **2026-08-12 K77 FINITE SECTION PROJECTOR / ATLAS DESCENT (ledger
-> v0.188).** On every nondegenerate graph chart the finite observation section
-> canonically owns the eta-self-adjoint projector
-> `P_J=L_J(L_J^T eta L_J)^-1L_J^T eta`. It is rank four, idempotent, owns
-> exactly the graph and descends under block and genuinely mixed fractional
-> K77 atlas changes over two exact fields. Its tangent recovers all 40 v0.187
-> Cartan directions. A normalized `O(7,7)`/Spin representative is only local
-> modulo the block stabilizer; the null Gram boundary is explicit. **Next
-> compose that local stabilizer cocycle with the selected action's
-> `epsilon_IG`, gauge-rotated Levi-Civita and complete complex-Cartan flag.**
-> Do not fit a global frame, identify the projector with the full flag, or
-> enter lower-order BV/KT before action ownership closes.
+> **2026-08-12 K77 ACTION/STABILIZER CONNECTION RECONCILIATION (ledger
+> v0.189).** The finite observation projector plus the action-carried K77
+> metric/gauge-rotated-Levi-Civita connection canonically own
+> `N=nabla P` and `A^P=A+[P,nabla P]`. On a noncommuting three-patch atlas the
+> block connection transforms affinely and the second fundamental tensor
+> tensorially over two exact fields. No preferred frame or new datum is
+> required. The August 5 global `gamma_epsilon` Clifford soldering theorem is
+> retained as a distinct object. A residual stabilizer still moves the finer
+> residual complex-Cartan flag without moving `P`. **Next build or kill a target-blind
+> action-derived `(H,Q)` concomitant selecting that residual flag, or prove the
+> refinement directions gauge; only then enter lower-order BV/KT.** Do not
+> identify the 14-by-14 K77 connection with arbitrary full-unitary `varpi`, or
+> call coarse reduction flag selection.
 
 > **2026-08-11 FIVE FRONTIER DESIGN PACKETS AVAILABLE (absorption pointer,
 > binds nothing).** Five Joe-directed parallel design passes on hard

@@ -9,14 +9,15 @@ created: 2026-08-10
 
 ## Decision
 
-Ledger v0.188 closes the finite nondegenerate graph projector and atlas-
-descent burden. The canonical object is the eta-self-adjoint graph projector,
-not a preferred global `O(7,7)`/Spin frame; local lifts differ by the block
-stabilizer and the null Gram boundary is explicit. Rank one is now composition
-of that local cocycle with the selected action's `epsilon_IG`, gauge-rotated
-Levi-Civita and complete complex-Cartan flag. Only then run the lower-order
-sixteen-cell Riccati/BV solve. Do not fit a global frame, treat stabilizer gauge
-as an external datum, or promote the finite projector to the full flag.
+Ledger v0.189 closes the stabilizer-cocycle and reduced K77 connection burden.
+The observation projector plus the action-carried metric/gauge-rotated-Levi-
+Civita connection canonically own `nabla P` and `A^P`; no preferred frame or
+datum is needed. The August 5 global `gamma_epsilon` Clifford soldering theorem
+is retained separately. Rank one is now a target-blind action-derived `(H,Q)`
+concomitant selecting the residual complex-Cartan flag, or a proof that those
+refinement directions are gauge. Only then run the lower-order sixteen-cell
+Riccati/BV solve. Do not repeat cocycle searches, collapse full-unitary
+`varpi` into the K77 connection, or promote coarse reduction to the full flag.
 
 The five frontier packets at `b1686d92` were explicitly absorbed for
 prioritization and do not displace this dependency. The descended H0 positivity

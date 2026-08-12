@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-005420-gu-k77-action-stabilizer-connection-flag-reconciliation",
+  "status": "EXACT_SCOPED_K77_REDUCTIVE_CONNECTION_AND_STABILIZER_DESCENT__RESIDUAL_CARTAN_FLAG_OPEN",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.189",
+  "ledger_rows": ["RA-D4", "RA-E3", "RA-E5", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"],
+  "result": {
+    "fields": [1009, 1013],
+    "checks": 42,
+    "failures": 0,
+    "projector_three_patch_descent": true,
+    "stabilizer_cocycle": true,
+    "reduced_connection_affine_descent": true,
+    "second_fundamental_tensorial_descent": true,
+    "frame_free_reductive_connection": true,
+    "global_gamma_epsilon_retained": true,
+    "residual_flag_selected": false,
+    "full_unitary_varpi_compatibility": "OPEN"
+  },
+  "controls": {
+    "frozen_adapted_frame_rejected": true,
+    "missing_transition_derivative_rejected": true,
+    "missing_frame_derivative_rejected": true,
+    "tensor_affine_confusion_rejected": true,
+    "residual_flag_nonuniqueness_witness": true
+  },
+  "source_return": "SOURCE_CONFIRMS_GAUGE_ROTATED_LEVI_CIVITA_AND_EPSILON_ROTATED_CLIFFORD_GRAMMAR__SOURCE_SILENT_ON_EXACT_REDUCED_CONNECTION_AND_STABILIZER_COCYCLE__SOURCE_CORRECTS_ANY_IDENTIFICATION_OF_CLIFFORD_SOLDERING_OR_OBSERVER_REDUCTION_WITH_THE_RESIDUAL_COMPLEX_CARTAN_FLAG",
+  "hostile_review": "SURVIVES_AFTER_SCOPE_REPAIR__K77_REDUCTIVE_CONNECTION_AND_STABILIZER_DESCENT_EXACT__FULL_UNITARY_COMPATIBILITY_AND_RESIDUAL_CARTAN_FLAG_OPEN",
+  "mailbox_postflight": "NO_NEW_NOTE_AFTER_2026_08_10__SUCCESSOR_UNCHANGED",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "BUILD_OR_KILL_ACTION_DERIVED_TARGET_BLIND_H_Q_CONCOMITANT_FOR_RESIDUAL_COMPLEX_CARTAN_FLAG_OR_PROVE_REFINEMENT_GAUGE__THEN_LOWER_ORDER_BV_KT"
+}

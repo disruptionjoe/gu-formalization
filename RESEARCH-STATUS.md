@@ -8,17 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.188; eight
-distance/evidence migrations; headline unchanged).** The finite nondegenerate
-observation graph owns an exact K77 eta-self-adjoint rank-four projector. It is
-idempotent, owns exactly the graph and descends under block and genuinely mixed
-fractional atlas changes over two exact fields. Its derivative recovers all 40
-v0.187 Cartan directions, and the actual rational receiver remains in the
-Lorentzian graph component. A normalized `O(7,7)`/Spin representative is only
-local modulo block-stabilizer gauge; a null graph makes the induced Gram matrix
-singular. The next gate composes that local cocycle with action `epsilon_IG`,
-gauge-rotated Levi-Civita and the complete complex-Cartan flag before lower-
-order BV/KT. No verdict, residue, quotient, canon or public posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.189; eight
+distance/evidence migrations; headline unchanged).** The finite observation
+projector and action-carried K77 metric/gauge-rotated-Levi-Civita connection
+canonically own the local stabilizer cocycle, reduced connection
+`A^P=A+[P,nabla P]` and second fundamental tensor. Affine/tensorial descent
+passes on a noncommuting three-patch atlas over two exact fields. The August 5
+global `gamma_epsilon` Clifford soldering theorem is retained separately. A
+residual stabilizer moves a finer flag without moving the coarse projector, so
+the residual complex-Cartan selector and full-unitary `varpi` compatibility
+remain open. Next build or kill a target-blind action-derived `(H,Q)`
+concomitant, or prove the refinement gauge, before lower-order BV/KT. No
+verdict, residue, quotient, canon or public posture moves.
+
+**Predecessor v0.188.** The finite nondegenerate observation graph owns the
+canonical descending K77 projector; normalized adapted frames remain local
+modulo the block stabilizer.
 
 **Predecessor v0.187.** The actual section jet uniquely owns the local all-40
 first-order Cartan/Spin prolongation modulo block-stabilizer gauge.
