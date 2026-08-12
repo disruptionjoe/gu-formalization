@@ -7,6 +7,21 @@ updated_at: "2026-08-12"
 
 # Process
 
+Current append-only progress surface: ledger v0.219.  The owned co-moving
+coefficient transport, fixed-`varpi` radial Levi-Civita response and dependent
+observation receiver do not determine the ambient first normal jet of
+`Upsilon_B`. Exact `SO(3)`-equivariant completions with identical restricted
+data preserve, destroy and create the v0.218 observer line. The scalar-contact
+discriminant is `(a0+q s)^2+a1^2+a2^2+a3^2=0`: the route remains live
+generically, but current data cannot decide it. The precise next owner is
+`J1_normal(Upsilon_B)`, not a fitted coefficient or broad moving-term list.
+No datum or accounting moves. Registry:
+`selected-k77-i2b-full-contact-identifiability.json`.
+
+Predecessor v0.218 supplies the exact conditional observer Euler tensor and
+its `A>0`/`A=0` strata; v0.219 decides what current contact data can and cannot
+say about their survival.
+
 Current append-only progress surface: ledger v0.218.  The conditional
 observer-completed `SC-ACT-04` principal action has an exact constrained-`u`
 tensor on all 16 live coordinates.  Its gap is `-16A`: `A>0` selects a simple

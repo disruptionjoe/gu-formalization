@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_full_contact_identifiability_audit.py` enforces ledger v0.219's
+  paired equivariant preserve/destroy/create completions, exact contact
+  discriminant, live observer path, unowned ambient normal jet and unchanged
+  accounting.
+
 - `k77_i2b_constrained_observer_euler_ward_audit.py` enforces ledger
   v0.218's exact conditional constrained-`u` tensor, `A>0` simple-line and
   `A=0` flat strata, co-moving Ward identity, arrow nonselection and the

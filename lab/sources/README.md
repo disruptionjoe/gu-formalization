@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-full-contact-identifiability-source-return-2026-08-12.md`](selected-k77-i2b-full-contact-identifiability-source-return-2026-08-12.md)
+  confirms the residual-square, observation, two-connection and
+  gauge-rotated Levi-Civita grammar, records source silence on the ambient
+  first normal jet, and attributes the identifiability obstruction to the
+  repository.
+
 - [`selected-k77-i2b-constrained-observer-euler-ward-source-return-2026-08-12.md`](selected-k77-i2b-constrained-observer-euler-ward-source-return-2026-08-12.md)
   confirms the `SC-ACT-04` residual-square and temporal-dimension input,
   records source silence on `H_u`, the observer tensor, constrained-`u`
