@@ -215,3 +215,42 @@ Charge 3 -- what else must change if the result stands (wave-owned).
   parent-level invariance question becomes the next decisive step.
   SURVIVES as the open hinge.
 - No other items.
+
+## Integration correction — the split layer (Joe direct chat, 2026-08-12)
+
+The certificates above stand unchanged. Their TYPING is corrected in
+scope (relay-rule compliance: SC-GEO rows for eq (12.19); SC-FER rows
+for eq (11.6); SC-GRP rows and the standing two-halves fence):
+
+- C2's "no equivariant complex structure" is equivariance with respect
+  to the FULL ambient Spin(7,7), where the Weyl halves are real-64
+  (certified). The source's Standard-Model and generations explanation
+  does not operate at that layer: it operates after eq (12.19)'s split
+  `TX^{1,3} (+) N^{6,4}`, under `Spin(1,3) x Spin(6,4)` — whose even
+  algebras are COMPLEX-type, so the Weyl 2's and 16's of eq (11.6)
+  carry native complex structures. Restricting from the ambient group
+  to the split ENLARGES the commutant: the "factors of i" are native at
+  the split layer, supplied by the embedding's decomposition, not
+  imported by hand. "An addition, not native" is therefore true only
+  ambient-equivariantly and must not be quoted without that scope.
+- The two-halves structure completes the typing: `U(64,64)`'s Hermitian
+  `(64,64)` is the two chiral halves' `(32,32) + (32,32)` — the standing
+  fence's `C^{32,32}` halves and `U(32,32) x U(32,32)` block subgroup
+  are the group-side shadow of the split-native complex layer.
+- O4 accordingly refines: not "does the action import the
+  complexification?" but "WHICH LAYER owns the action — ambient-real or
+  split-complex — and is the split-native J the one the source's
+  unitary-bundle construction (Portal 01:21, TOE 02:41) uses?"
+- **New check C3-prime (bounded, exact, same solver):** compute the
+  exact commutant of `Spin(1,3) x Spin(6,4)` generators inside
+  `M(128,R)` on the certified gamma bank; expect a commutant strictly
+  larger than R containing an equivariant `J` (`J^2 = -I`); verify the
+  induced complex-32 structure per chiral half and the Hermitian
+  `(32,32)` forms recovering the two-halves fence exactly. A commutant
+  of dimension 1 would refute this correction's native-J claim and
+  restore the filed typing at full strength — planted both ways.
+
+Relay-rule note: this is the second same-day frame-regression instance
+caught by Joe — the first lost the source-native count typing, this one
+lost the source-operative LAYER. Both are now worked examples in the
+machinery's record.
