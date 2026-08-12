@@ -3041,3 +3041,17 @@ Verifies the complete rank-four common-leg lift, exact zero algebraic
 self-curvature, nonzero soldering-kernel control, source polarity and hostile
 scope fences. It fails closed on potential, vacuum, datum or source-level
 no-go promotion.
+
+## K77 moving-Hq eddy-quartic retyping gate ledger v0.199
+
+Gate: `k77_moving_hq_eddy_quartic_retype_audit.py`.
+
+```bash
+python3 process_gates/k77_moving_hq_eddy_quartic_retype_audit.py
+```
+
+Verifies the forced fixed-`H_q` phase placement, separation of odd Higgs cells
+from even orbit compensators, unique coefficient-one `J` completion in the
+minimal two-leg family, exact quartic carrier, source polarity and hostile
+scope fences. It fails closed on physical-potential, vacuum, datum, global
+uniqueness or action-selection promotion.

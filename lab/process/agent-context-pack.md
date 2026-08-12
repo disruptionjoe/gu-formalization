@@ -9,7 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.198 minimal moving-doublet curvature gate:** the complete
+> **Current v0.199 moving-Hq eddy-quartic retyping gate:** fixed-`H_q`
+> unitarity forces a phase split across the four-real weak bank: three angular
+> `i gamma(H_perp)` cells and one radial real `gamma(q)` cell. The angular odd
+> coefficients are not the even spin compensators that move `q`. In the
+> smallest two-leg family, `J`-linearity uniquely fixes the invisible
+> completion coefficient to one and its quadratic eddy has exact norm
+> `512(h1^2+h2^2+h3^2+h4^2)^2`, with no 90-parameter fit. This is a
+> conditional quartic carrier, not a selected Higgs potential. Next insert it
+> into the moving-Shiab/Hodge/Krein action, derive the quadratic term and solve
+> the stationary four-real Hessian before Yukawa or fermion work.
+
+> **Predecessor v0.198 minimal moving-doublet curvature gate:** the complete
 > canonical rank-four lift `L_q(H)=H(q-flat/q^2)` is exact and equivariant, but
 > every component shares the trace one-form leg, so its full algebraic
 > `A wedge A` curvature and quartic vanish.  A controlled element of the

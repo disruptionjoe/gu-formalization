@@ -70,3 +70,12 @@ corrections:
     owner: canon/theta-field-flrw-dark-energy-eos.md
     meaning: "Band-wide theta_star-calibrated exclusion; the f0 bound is M^2-dependent."
     enforce: false
+  - id: HQ-PHASE-20260812
+    owner: explorations/conditional-build/selected-k77-moving-hq-eddy-quartic-retype-2026-08-12.md
+    meaning: >-
+      V0.198's common-leg zero-curvature theorem survives, but its all-real
+      full-unitary wording was mistyped.  Relative to H_q=i B gamma(q), the
+      fixed-unitary weak bank is three angular i-gamma(H_perp) cells plus one
+      radial real gamma(q) cell.  The corrected phase typing does not by itself
+      derive the selected physical Higgs potential or vacuum.
+    enforce: false

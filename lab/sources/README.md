@@ -475,3 +475,5 @@ identifications as separate grades.
   - confirms the full `U(64,64)` parent and connection-one-form custody of gauge/Higgs-like/Yukawa functions; returns source-silent on the exact trace-radial cell and its dynamics, and prevents the two `U(32,32)` restrictions from being mistaken for a block-only parent capable of carrying the half-exchanging component.
 - [`selected-k77-minimal-moving-doublet-curvature-source-return-2026-08-12.md`](selected-k77-minimal-moving-doublet-curvature-source-return-2026-08-12.md)
   - confirms the `varpi` Higgs-like locus and returns source-silent on the canonical common-leg lift, its zero quartic, and selection inside the soldering kernel.
+- [`selected-k77-moving-hq-eddy-quartic-source-return-2026-08-12.md`](selected-k77-moving-hq-eddy-quartic-source-return-2026-08-12.md)
+  - confirms the augmented-torsion quadratic eddy and quartic-from-squared-eddy route; returns source-silent on the fixed-`H_q` phase map, `J` completion, selected action coefficient and physical vacuum.
