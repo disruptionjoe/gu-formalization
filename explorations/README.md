@@ -2,19 +2,30 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-10"
+updated_at: "2026-08-12"
 ---
 
 # Explorations
+
+## K77 I2B owner and two-connection tangent correction (2026-08-12)
+
+`conditional-build/selected-k77-i2b-two-connection-tangent-independence-2026-08-12.md`
+separates the path-average bracket, printed endpoint `Upsilon`, and corrected
+first-action Euler covector. Literal `SC-ACT-04` squares the endpoint, not the
+path-average bracket used in v0.201--v0.224. The endpoint rival has a distinct
+branch and its own twelve-cell determinant-80 obstruction. Exact `A=B+T`
+tangent algebra also kills any `B`-only background repair of the independent
+translation Euler equation. Ledger v0.225 leaves the corrected `E_act` square
+and a derived tangent/BV reduction open; no GU, datum or canon verdict moves.
 
 ## K77 I2B moving-Q_u contact and full fixed-background Euler (2026-08-12)
 
 `conditional-build/selected-k77-i2b-moving-qu-contact-full-euler-2026-08-12.md`
 proves that active `e3` equals the shifted radial Euler and closes on branch.
 The complete fixed-background connection Euler still has twelve diagonal
-cells in two independent shapes, so ledger v0.224 asks the unbuilt geometric
-background Frechet response to meet an exact rank-two interface.  No GU,
-source, datum or canon verdict moves.
+cells in two independent shapes. Ledger v0.225 now retypes this as a conditional
+path-average-square result rather than literal `SC-ACT-04`, and retires the
+`B`-only background-response successor.
 
 ## K77 I2B observer-Q_B radial stationarity (2026-08-12)
 

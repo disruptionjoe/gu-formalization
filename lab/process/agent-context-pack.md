@@ -9,17 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.224 moving-`Q_u` contact/full-Euler result:** active `e0,e1,e2`
-> vanish and `e3=(2r/9)(160r^2+480rho+9kappa^2)`, exactly the shifted radial
-> Euler equation, so all four Hodge-active contact rows close on branch.  The
-> complete `196`-cell fixed-background connection Euler does not: twelve
-> diagonal cells remain in one time and eleven equal rest slots.  Their two
-> coefficient equations have determinant `80`, so pure fixed-background
-> `I2B` has no nonzero full stationary point.  Do not promote this to a GU
-> no-go: the actual `F0(A,g,epsilon)` connection/metric/section/Shiab Frechet
-> response was frozen and is unbuilt.  Derive that map independently, then
-> test whether its image supplies both exact shapes.  Keep `Q_u` distinct from
-> source `Q_B`, and two `C^(32,32)` halves distinct from two connections.  No
+> **Current v0.225 `I2B` owner/tangent correction:** keep three objects
+> separate: the `1/3` path-average curvature inside `I1B`, the printed endpoint
+> `Upsilon_print=Shiab(F_A)+*kappa T`, and the repo-corrected Frechet-adjoint
+> `E_act`. Literal `SC-ACT-04` squares the printed endpoint; v0.201--v0.224
+> instead squared the path-average bracket. Their exact calculations survive
+> as a conditional construction, but the literal source-action attribution is
+> withdrawn. The endpoint rival has branch `rho=-r^2-kappa^2/160` and a
+> distinct twelve-cell determinant-80 obstruction. For `A=B+T`, a `B`-only
+> background response annihilates independent translation variation and cannot
+> cancel `E_T`; that successor is killed. Next assemble `||E_act||^2`, compare
+> the two action rivals, and derive any genuine `A/T`-dependent completion or
+> tangent/BV reduction. Keep `Q_u` distinct from source `Q_B`, and two
+> `C^(32,32)` halves distinct from two connections. No
 > accounting, datum, canon or public-posture moves.
 
 > **Predecessor v0.223 observer-`Q_B` radial composition:** the conditional

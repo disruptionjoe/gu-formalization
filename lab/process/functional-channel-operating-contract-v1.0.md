@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.224.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.224.md`.
+`lab/process/conditional-physics-ledger-v0.225.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.225.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -52,6 +52,15 @@ Finally, name the commuting square being used, its status (`PROVED`, `FAILED`
 or `OPEN`), and any forbidden transfers.  This compact receipt is the process
 answer to v0.220: the source-normal-jet operator was sound, but its result was
 transported from trace-`H_q` to a B-skew comparator without an adapter.
+
+For action work, a reused residual name is not an ownership proof. Before
+squaring or varying it, separate the bracket inside an integrand, the residual
+printed as an Euler equation, and the actual Frechet-adjoint derivative of the
+action. If these differ, keep literal-source and action-consistent rivals
+explicit. Likewise, for `A=B+T`, a `B`-only term has zero derivative under the
+independent source translation `delta B=0, delta T=alpha`; diagonal Ward
+closure cannot be transferred into the `T`-Euler equation without a derived
+tangent or BV reduction.
 
 Current moving-Hq / U(3,2) result: the exact Pati-Salam/`SU(3,2)` intersection
 is the 12-dimensional SM and its actual chiral-spin 16 has the SM
