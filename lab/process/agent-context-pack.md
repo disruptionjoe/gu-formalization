@@ -9,34 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.203 pointwise full-unitary image gate:** v0.202's finite-bank
-> fence was too weak. Exactly one of every real `Cl(7,7)` blade and its `i`
-> multiple is `H_q`-skew, giving `8256+8128=16384` independent directions:
-> the complete pointwise `u(64,64)` algebra. Since the selected Shiab can hit
-> grade one only from input grades `0,2,4`, the v0.202 `99,463` columns already
-> exhaust every relevant full-unitary direction. Their image has rank 364 and
-> the target raises it to 365 at both q13 and a held-out q12 frame. Thus neither
-> full pointwise `U(64,64)` nor its block `U(32,32)xU(32,32)` subgroup can
-> directly cancel the displasion target. Do not search another pointwise
-> coefficient complement. Next compute moving-`H_q`/Hodge/Shiab derivatives
-> and the global Euler/preboundary map; Bianchi, alternate selector, physical
-> reduction and domain remain open.
+> **Current v0.204 real-structure gate:** the v0.202 complex/real split is not
+> a nonzero additive `H^1(Z/2,ker Shiab)` class. The complete selected Shiab
+> fails to intertwine the operative `H_q` involutions: fixed and anti-fixed
+> output ranks are 170 and 195, and the total realified defect rank is 390.
+> The canonical fixed-output projection contains the target at q13, but the
+> identical q12 recipe does not. This is a real local escape and a failed
+> naturality test, not a source-action solution. Next construct the exact
+> moving compensator transporting source, selected Shiab, real structure and
+> target together; only then insert an action-owned result into the moving
+> Euler/preboundary map. Do not search another pointwise coefficient bank or
+> revive additive descent cohomology. The `J` quotient and universal rank-128
+> defect remain useful nonconflicting successors; the Higgs cone and `Z/3`
+> torsor remain downstream as previously fenced.
 
-> **Next-wave real-descent correction:** do not book the v0.202
-> complex-versus-real split as a nonzero additive
-> `H^1(Z/2,ker Shiab)` class. For an equivariant complexification of real
-> vector spaces in characteristic zero, averaging `x` with `tau(x)` always
-> produces a real preimage of a real target; additive finite-group cohomology
-> is killed by the same averaging. The observed split therefore proves that
-> at least one premise of that descent picture is false: the source/codomain
-> involutions are mistyped, the target is not fixed by the relevant real
-> structure, or selected Shiab fails to intertwine them. Before differentiating
-> the moving form, compute the exact defect
-> `Shiab tau_source - tau_target Shiab`. The action/observation quotient of the
-> 20-dimensional `J` orbit and the possible universal rank-128 leakage module
-> are high-value nonconflicting successors. Higgs-cone stratification is useful
-> after the physical `q/r` owner is typed; a nonadditive `Z/3` torsor action is
-> speculative until a physical BV/cohomology fibre exists.
+> **Predecessor v0.203:** the phase-completed `Cl(7,7)` basis is exactly the
+> complete pointwise `u(64,64)` algebra. The unmodified selected Shiab excludes
+> the target at q13 and q12; v0.204 does not retract this, because `P_+A` is a
+> different, currently unowned map.
 
 > **Current v0.202 real-Shiab displasion-image gate:** the v0.201 nonzero
 > displaced-torsion residual has an unrestricted complex selected-Shiab

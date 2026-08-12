@@ -7,11 +7,12 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.193. On the source-sized
-complexification, `H_q=i B gamma(q)` conditionally gives full `U(64,64)`
-signature and two exact `U(32,32)` Weyl restrictions. The split alone has no
-invariant same-half form; `q` is unselected reduction data. Registry:
-`selected-k77-two-half-hermitian-witt-rotation-gate.json`.
+Current append-only progress surface: ledger v0.204. The complete selected
+Shiab has a rank-390 realified intertwining defect. Its fixed-output projection
+admits the displasion target at q13 but fails at held-out q12, so the live gate
+is compensator-aware naturality and source-action ownership rather than an
+additive Galois-descent class. Registry:
+`selected-k77-i2b-real-structure-intertwining-defect.json`.
 
 Predecessor v0.192 supplies the moving split intrinsic-torsion decomposition
 and current pointwise action nonselection.
@@ -1691,3 +1692,5 @@ Runbooks:
 - `hostile-reviews/2026-08-12-selected-k77-i2b-real-shiab-displasion-image-review.md` — preserves only the scoped fixed-real route kill and keeps moving-`H_q`, source-full-unitary, derivative-jet, global connection and physical reductions open.
 - `conditional-physics-ledger-v0.203.json` / `selected-k77-i2b-full-unitary-image-covariance.json` — composes v0.202 with the complete `16,384`-direction pointwise `u(64,64)` Clifford basis, repeats the `364 -> 365` exclusion at q13 and q12, and closes the block-two-half direct route while retaining global/moving-derivative completion.
 - `hostile-reviews/2026-08-12-selected-k77-i2b-full-unitary-image-covariance-review.md` — corrects the v0.202 pointwise-complement fence without identifying a pointwise algebra with a global connection or the block subgroup with the full group.
+- `conditional-physics-ledger-v0.204.json` / `selected-k77-i2b-real-structure-intertwining-defect.json` — proves additive descent cannot explain v0.202, computes fixed/anti ranks `170/195` and defect rank `390`, and constructs a q13 fixed-output escape whose held-out q12 naturality fails.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-real-structure-intertwining-defect-review.md` — preserves the local q13 witness while rejecting action ownership, frame-independent promotion and any Euler/BV/domain conclusion.

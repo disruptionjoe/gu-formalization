@@ -3368,3 +3368,17 @@ uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k7
 python3 tests/channel-swings/conditional_physics_ledger_v0203_probe.py
 python3 process_gates/k77_i2b_full_unitary_image_covariance_audit.py
 ```
+
+## K77 I2B real-structure intertwining-defect gate v0.204
+
+`channel-swings/selected_k77_i2b_real_structure_intertwining_defect_probe.py`
+constructs the operative source/target involutions on the complete 99,463
+column bank. It proves the selected Shiab has fixed/anti ranks `170/195` and
+total defect rank `390`, kills additive Galois descent, constructs q13
+fixed-output target admission, and fires a held-out q12 naturality control.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_real_structure_intertwining_defect_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0204_probe.py
+python3 process_gates/k77_i2b_real_structure_intertwining_defect_audit.py
+```

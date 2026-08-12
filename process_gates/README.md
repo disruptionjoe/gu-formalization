@@ -3111,3 +3111,17 @@ complete grade-one contributor theorem, q13/q12 `364 -> 365` target exclusion,
 block-subgroup consequence, source correction and hostile scope fences. It
 fails closed on global connections, moving derivatives, Bianchi, alternate
 Shiab, Euler/preboundary, physical reduction, datum or canon promotion.
+
+## K77 I2B real-structure intertwining-defect gate ledger v0.204
+
+Gate: `k77_i2b_real_structure_intertwining_defect_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_real_structure_intertwining_defect_audit.py
+```
+
+Verifies the exact mixed-reality ranks `170/195`, total realified defect rank
+`390`, vanishing additive-descent route, q13 fixed-output target admission and
+held-out q12 naturality failure. It fails closed on action ownership, moving
+compensator, global Euler/preboundary, physical reduction, datum or canon
+promotion.

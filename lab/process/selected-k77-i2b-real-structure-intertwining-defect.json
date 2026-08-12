@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-112207-gu-i2b-real-structure-intertwining",
+  "ledger_version": "0.204",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-02", "SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_RESIDUAL_SHELL_SQUARE_AND_MOVING_CONJUGATED_SHIAB_INGREDIENTS__REPO_CORRECTS_NONZERO_ADDITIVE_DESCENT_AND_WHOLESALE_IMAGE_EXCLUSION_READINGS__SOURCE_SILENT_ON_HQ_REAL_INVOLUTIONS_FIXED_OUTPUT_PROJECTION_AND_COMPENSATOR_NATURALITY",
+  "layer0": {
+    "complex_preimage_vs_real_fixed_preimage": "DISTINCT",
+    "restriction_vs_postcomposed_projection": "DISTINCT",
+    "pointwise_q13_vs_natural_moving_family": "DISTINCT",
+    "local_map_vs_global_connection_euler": "DISTINCT"
+  },
+  "exact_results": {
+    "target_relevant_source_columns": 99463,
+    "unmodified_image_rank": 364,
+    "fixed_output_rank": 170,
+    "anti_fixed_output_rank": 195,
+    "independent_real_component_hull_rank": 196,
+    "fixed_source_intertwining_defect_rank": 195,
+    "total_realified_intertwining_defect_rank": 390,
+    "q13_fixed_projection_contains_target": true,
+    "q13_rephased_anti_projection_contains_target": false,
+    "q12_fixed_projection_rank": 170,
+    "q12_fixed_projection_contains_target": false,
+    "additive_galois_descent_obstruction_available": false,
+    "naive_frame_naturality": false
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_promoted_selectors": 0,
+    "unowned_candidate_postcompositions": 1,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "ADDITIVE_GALOIS_DESCENT_OBSTRUCTION_KILLED__Q13_FIXED_OUTPUT_ESCAPE_CONSTRUCTED__HELDOUT_Q12_NATURALITY_FAILS__ACTION_OWNER_OPEN",
+  "next_gate": "CONSTRUCT_COMPENSATOR_AWARE_TRANSPORT_OF_PPLUS_SELECTED_SHIAB_Q13_TO_Q12__THEN_SOURCE_ACTION_OWNERSHIP_AND_MOVING_EULER",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-real-structure-intertwining-defect-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_real_structure_intertwining_defect_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-real-structure-intertwining-defect-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-real-structure-intertwining-defect-review.md"
+  }
+}
