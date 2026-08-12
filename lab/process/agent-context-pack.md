@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.202 real-Shiab displasion-image gate:** the v0.201 nonzero
+> displaced-torsion residual has an unrestricted complex selected-Shiab
+> bivector preimage, but no preimage in the complete fixed-`H_q` real
+> Clifford bank capable of producing grade one. Its 99,463 real columns span
+> rank 364 and the target raises the rank to 365. The source-motivated
+> opposite-phase second connection supplies an exact negative curvature ray,
+> but full stationarity forces `kappa_1=0`. Do not retry fixed-`H_q` background
+> fitting or promote the complex preimage. Next construct the moving-`H_q`
+> derivative and compare the source-full `U(64,64)` or two-`U(32,32)` parent;
+> derivative-jet, Bianchi, physical reduction and domain remain open.
+
 > **Current v0.201 source-I2B moving-Hq stationarity gate:** source claim
 > `SC-ACT-04` owns the second bosonic residual-square action. On the exact
 > moving-`H_q` family it gives `I2B=96(rho+r^2/3)^2`, branch

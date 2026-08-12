@@ -3083,3 +3083,17 @@ potential `96(rho+r^2/3)^2`, while its nonzero branch retains a nonzero
 Krein-null residual and fourteen live transverse fixed-`H_q` connection
 derivatives. It fails closed on full-stationarity, physical-vacuum,
 Goldstone/photon/Yukawa/BV/domain, datum or canon promotion.
+
+## K77 I2B real-Shiab displasion-image gate ledger v0.202
+
+Gate: `k77_i2b_real_shiab_displasion_image_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_real_shiab_displasion_image_audit.py
+```
+
+Verifies the exact complex-versus-real image split, complete grade-one
+contributor bound, 99,463-column fixed-`H_q` real bank, rank `364 -> 365`
+target exclusion, and the two-cell stationarity obstruction at nonzero
+`kappa_1`. It fails closed on moving-`H_q`, source-full-unitary, Bianchi,
+jet, vacuum, datum or canon promotion.

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-100014-gu-i2b-real-shiab-displasion-image",
+  "ledger_version": "0.202",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-02", "SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_SWERVATURE_DISPLASION_SHELL_TWO_CONNECTIONS_AND_RESIDUAL_SQUARE__SOURCE_SILENT_ON_FIXED_HQ_REAL_SHIAB_CANCELLATION_AND_OPPOSITE_PHASE_BACKGROUND",
+  "layer0": {
+    "first_shell_vs_second_action_zero": "DISTINCT",
+    "null_residual_vs_zero_residual": "DISTINCT",
+    "complex_vs_fixed_Hq_real_preimage": "DISTINCT",
+    "curvature_value_vs_connection_realization": "DISTINCT",
+    "fixed_Hq_vs_moving_or_source_full_unitary": "DISTINCT"
+  },
+  "exact_results": {
+    "two_connection_background": {
+      "T0_square": "+E",
+      "B0_square": "-E",
+      "anticommutator": 0,
+      "stationarity_matrix_shape": [14, 4],
+      "stationarity_rank": 2,
+      "nonzero_kappa1_solution": false
+    },
+    "unrestricted_complex_bivector_image_rank": 1197,
+    "unrestricted_complex_contains_target": true,
+    "fixed_Hq_relevant_clifford_blades": 1093,
+    "fixed_Hq_real_phase_blades": 364,
+    "fixed_Hq_imaginary_phase_blades": 729,
+    "fixed_Hq_real_source_columns": 99463,
+    "fixed_Hq_grade1_image_rank": 364,
+    "fixed_Hq_grade1_rank_with_target": 365,
+    "fixed_Hq_contains_target": false
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "DIRECT_FIXED_HQ_REAL_SHIAB_CANCELLATION_KILLED__COMPLEX_PREIMAGE_REJECTED__MOVING_FULL_UNITARY_DIFFERENT_SELECTOR_AND_JET_ROUTES_OPEN",
+  "next_gate": "CONSTRUCT_MOVING_HQ_DSHIAB_DHODGE_AND_SOURCE_FULL_UNITARY_COMPLEMENT__RETEST_FIRST_SHELL_AND_SECOND_ACTION_STATIONARITY",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-real-shiab-displasion-image-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_real_shiab_displasion_image_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-real-shiab-displasion-image-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-real-shiab-displasion-image-review.md"
+  }
+}
