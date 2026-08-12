@@ -1,6 +1,6 @@
 # GU subagent brief — minimum ingest for any delegated agent
 
-brief_version: 1.1 (2026-08-12; v1.0 2026-08-11; ratified Joe direct chat — orchestrators
+brief_version: 1.2 (2026-08-12; v1.1 same day; v1.0 2026-08-11; ratified Joe direct chat — orchestrators
 inline this file verbatim in every GU subagent prompt; subagents echo
 `brief_version: 1.0` in their artifact frontmatter so ingest is provable)
 
@@ -72,3 +72,16 @@ itself clean. Three boundaries, three rules:
 
 Summaries are pointers, not content, for frame-critical material: the
 artifact section is the truth; consumers who need the frame read it.
+
+## v1.2 addendum (ratified, Joe direct chat 2026-08-12)
+
+14. **Minimum five specialist lenses, inline, as pre-flight.** Every
+    subagent runs at least five problem-specific specialist lenses as
+    part of its pre-flight, INLINE (never as sub-subagents), each
+    self-declaring its basis (DIRECT / PRINCIPLE / ANALOGY) and a
+    confidence, recorded in the artifact's pre-flight section before the
+    main work begins. Lens choice matches the problem (e.g. for an exact
+    algebra check: representation theory, Krein/operator theory,
+    source criticism, Layer-0 semantics, adversarial refutation; for a
+    design pass: add methodology and measurement). Lens outputs are
+    planning evidence, never scientific evidence.
