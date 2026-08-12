@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-020740-gu-split-layer-commutant-action-parent",
+  "status": "EXACT_SPLIT_NATIVE_COMPLEX_STRUCTURE__ACTION_SELECTION_OPEN",
+  "target_claim": "NONE-NOT-A-KILL",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.191",
+  "ledger_rows": ["AC-G1a", "AC-F1", "RA-F2", "RA-G2", "LT-SM3"],
+  "result": {
+    "checks": 20,
+    "failures": 0,
+    "split_subgroup": "Spin(1,3) x Spin(6,4)",
+    "real_commutant_dimension": 4,
+    "real_commutant_basis": ["IDENTITY", "J4", "J10", "OMEGA"],
+    "commutant_algebra": "C_PLUS_C",
+    "real_weyl_half_dimensions": [64, 64],
+    "complex_dimension_per_real_half": 32,
+    "complexification_eigenspace_dimensions_per_half": [32, 32],
+    "half_commutant_dimensions": [2, 2],
+    "invariant_real_bilinear_blocks_pp_mm_pm_mp": [0, 0, 2, 2],
+    "mixed_bivectors_preserving_omega_breaking_J": 40,
+    "odd_directions_breaking_omega": 14,
+    "action_parent_selection": "OPEN"
+  },
+  "controls": {
+    "wrong_split_commutant_reduction_fired": true,
+    "ambient_spin_no_J_control_fired": true,
+    "external_i_not_real_J_control_fired": true,
+    "dimension_collapse_control_fired": true,
+    "predecessor_c1c2_passed": true
+  },
+  "source_return": "SOURCE_CONFIRMS_SPLIT_AND_TWO_HALVES_AND_FULL_PARENT__SOURCE_CORRECTS_UNSCOPED_AMBIENT_NO_J__SOURCE_SILENT_ON_ACTION_SELECTION_AND_HERMITIAN_FORM_DERIVATION",
+  "hostile_review": "SURVIVES_AFTER_SCOPE_REPAIR__SPLIT_NATIVE_J_EXACT__HERMITIAN_FORM_AND_ACTION_SELECTION_OPEN",
+  "mailbox_postflight": "NO_NEW_GU_FORMALIZATION_MAILBOX_ITEM_AFTER_2026_08_10__PRIORITY_UNCHANGED",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 6
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "BUILD_MOVING_OMEGA_AND_J4_COVARIANT_DERIVATIVES_UNDER_ACTION_OWNED_CONNECTION__TEST_BLOCK_AND_SPLIT_REDUCTION_SELECTION__KEEP_HERMITIAN_FORM_EXTERNAL_I_AND_REAL_J_TYPED_SEPARATELY"
+}

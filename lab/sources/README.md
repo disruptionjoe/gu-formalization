@@ -459,3 +459,5 @@ identifications as separate grades.
   - confirms gauge-rotated Levi-Civita and epsilon-rotated Clifford grammar, returns source-silent on the exact reduced-connection/stabilizer formulas, and corrects any identification of Clifford soldering or observer reduction with the residual complex-Cartan flag.
 - [`selected-k77-action-concomitant-residual-flag-gate-source-return-2026-08-12.md`](selected-k77-action-concomitant-residual-flag-gate-source-return-2026-08-12.md)
   - confirms the geometric reduction and gauge-rotated connection ingredients, returns source-silent on an action-derived H/Q flag selector, and fences the scoped background result from the source's separate reduction/intersection claim.
+- [`selected-k77-split-layer-commutant-action-parent-source-return-2026-08-12.md`](selected-k77-split-layer-commutant-action-parent-source-return-2026-08-12.md)
+  - confirms the authorial 4+10 split, two complex `C^(32,32)` halves and distinct full `U(64,64)` parent; corrects unscoped ambient no-`J` language and returns source-silent on Hermitian-form derivation and action selection.

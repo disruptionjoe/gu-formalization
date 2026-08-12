@@ -2931,3 +2931,16 @@ python3 process_gates/kill_target_claim_audit.py --self-test
 
 Fails closed when a new kill/no-go-bearing exploration omits a registered
 source-claim target or the audited `NONE-NOT-A-KILL` escape hatch.
+
+## K77 split-layer commutant/action-parent gate ledger v0.191
+
+Gate: `k77_split_layer_commutant_action_parent_audit.py`.
+
+```bash
+python3 process_gates/k77_split_layer_commutant_action_parent_audit.py
+```
+
+Verifies the exact `C + C` split commutant, real-64/complex-32 half typing,
+`32+32` complexification, absence of a derived same-half real bilinear, all
+four planted scope controls, ledger migrations and unchanged residue. It
+fails closed if compatibility is promoted to action selection.

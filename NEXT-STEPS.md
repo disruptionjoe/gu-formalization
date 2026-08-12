@@ -7,6 +7,20 @@ updated_at: "2026-08-12"
 
 # Next Steps For Contributors
 
+> **2026-08-12 K77 SPLIT-LAYER COMMUTANT / ACTION-PARENT GATE (ledger
+> v0.191).** The complete real commutant of
+> `Spin(1,3) x Spin(6,4)` on the exact real-128 carrier is four-dimensional,
+> `C + C`. Each real Weyl half is real-64 with a native `J`, hence complex-32;
+> complexification gives `32+32`, the exact dimensional content behind the
+> source's two `C^(32,32)` halves. This corrects only the scope of the ambient
+> no-`J` theorem. It does **not** derive the same-half Hermitian form or select
+> full `U(64,64)`, block `U(32,32) x U(32,32)`, or the finer `J` reduction.
+> **Next make `omega` and `J` moving observation-reduction structures, compute
+> their covariant derivatives under the action-owned connection, and test
+> which reduction stationarity or a declared source constraint preserves.**
+> Keep external scalar `i`, real `J`, chirality `omega` and all three parent
+> candidates separate.
+
 > **2026-08-12 NGUYEN C1/C2 CERTIFICATES + DECOUPLING PACKET FILED
 > (absorption pointer, binds nothing).** C1/C2 executed at 42/42 exact:
 > B symmetric signature (64,64), commutant R (Cl(9,5) control H),
@@ -16,7 +30,9 @@ updated_at: "2026-08-12"
 > (O4; C3-C5 named). Decoupling constructibility packet types R1-R5 with
 > CHK-1 runnable today (deformation-cell dimensions on the 1,920 carrier;
 > kill = X-odd dim 0 both horns) and the 't Hooft ledger CHK-2 as
-> settled-horn successor to W224. Both artifacts carry target_claim and
+> settled-horn successor to W224. The later v0.191 split-layer certificate
+> scopes "complex structure non-native" to full ambient Spin equivariance;
+> after the 4+10 split a native `J` exists exactly. Both artifacts carry target_claim and
 > brief_version — first live gate subjects. Files:
 > explorations/nguyen-c1c2-real-form-certificates-2026-08-12.md,
 > explorations/decoupling-constructibility-packet-2026-08-12.md.

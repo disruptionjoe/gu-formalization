@@ -8,7 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.190; twelve
+**Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.191; five
+distance/evidence migrations; headline unchanged).** The exact
+`Spin(1,3) x Spin(6,4)` commutant on the real-128 Cl(7,7) carrier is
+four-dimensional, `C + C`, with a native complex structure on each real-64
+Weyl half. Each half is complex-32 and complexifies to conjugate `32+32`
+pieces. This explains the dimensions behind Curt's two `C^(32,32)` halves
+without identifying a real half with a complex-64 Hermitian half. The
+same-half Hermitian form and action selection among full `U(64,64)`, block
+`U(32,32) x U(32,32)` and the finer split-`J` reduction remain open. No
+verdict, residue, quotient, datum, canon or public posture moves.
+
+**Predecessor v0.190.** The invariant natural action-concomitant class is
+exactly nonselecting; nonhomogeneous reduced curvature/full-`II` stays live.
+
+**Build/Compose/Source/Verify result 2026-08-12 (ledger v0.190; twelve
 distance/evidence migrations; headline unchanged).** The complete Lorentz
 commutant on `Sym^2(T*X)` is exactly two-dimensional. Thus every natural
 zero-order action concomitant on the selected invariant background has only

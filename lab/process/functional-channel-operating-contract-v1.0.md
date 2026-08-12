@@ -24,10 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.190.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.190.md`.
+`lab/process/conditional-physics-ledger-v0.191.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.191.md`.
 
-Current action-concomitant result: on the selected Lorentz-invariant
+Current split-layer result: the exact `Spin(1,3) x Spin(6,4)` commutant on
+the real-128 K77 carrier is `C + C`; each real Weyl half has a native complex
+structure and complex dimension 32. Complexification gives `32+32` per half,
+matching the source's two-half dimensions. This does not derive the Hermitian
+`(32,32)` form or select the action parent. Build next makes `omega` and `J`
+moving observation-reduction structures and computes their action-owned
+covariant derivatives. Full `U(64,64)`, its block product, and the finer
+split-`J` reduction remain distinct.
+
+Predecessor action-concomitant result: on the selected Lorentz-invariant
 background, the exact natural endomorphism algebra is only
 `span{I,P_trace}`. Distortion, directly contracted curvature and the complete
 nonzero second-fundamental class cannot produce a rank-four spectral flag;

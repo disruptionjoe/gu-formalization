@@ -9,6 +9,16 @@ created: 2026-08-10
 
 ## Decision
 
+Ledger v0.191 promotes the split-layer action-parent test to rank one. The
+exact `Spin(1,3) x Spin(6,4)` commutant is `C + C`, so native complex
+structures exist on both real Weyl halves and each half complexifies as
+`32+32`. The immediate construction is no longer "find a complex structure";
+it is to compute `D_varpi omega` and `D_varpi J` for the moving observation
+reduction and ask which reduction the action actually owns. The Hermitian
+form, external scalar `i`, full parent, block product and finer split reduction
+must remain separate. The nonhomogeneous `H,Q` selector is now rank two and
+can proceed as a nonconflicting Build package.
+
 Ledger v0.190 closes the selected Lorentz-invariant natural `(H,Q)` selector
 class. Its exact endomorphism algebra is only identity plus trace projector;
 rank-four spectral selection is impossible and all commutators vanish. Rank

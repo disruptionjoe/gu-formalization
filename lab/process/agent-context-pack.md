@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.190 K77 action-concomitant residual-flag gate:** the exact
+> **Current v0.191 K77 split-layer commutant/action-parent gate:** the exact
+> `Spin(1,3) x Spin(6,4)` commutant on the real-128 carrier is `C + C`.
+> Each real-64 Weyl half has native complex structure and is complex-32; its
+> complexification is `32+32`. This is compatible with the source's two
+> `C^(32,32)` halves but does not derive their Hermitian form. Full
+> `U(64,64)`, block `U(32,32) x U(32,32)`, and the finer `J`-preserving
+> reduction remain distinct. Next compute action-owned `D_varpi omega` and
+> `D_varpi J` on the moving observation reduction. Never identify external
+> scalar `i` with real `J`, or block preservation with split-`J` preservation.
+
+> **Predecessor v0.190 K77 action-concomitant residual-flag gate:** the exact
 > Lorentz commutant on `Sym^2(T*X)` is two-dimensional. Every natural
 > zero-order action word on the selected invariant background has only trace
 > and traceless eigenvalues, no rank-four spectral projector and zero
