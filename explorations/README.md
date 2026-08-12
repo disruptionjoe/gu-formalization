@@ -7,6 +7,15 @@ updated_at: "2026-08-10"
 
 # Explorations
 
+## K77 I2B observer-Q_B radial stationarity (2026-08-12)
+
+`conditional-build/selected-k77-i2b-observer-qb-radial-stationarity-2026-08-12.md`
+composes the conditional observer pairing with the actual source-owned
+`S_q/H_q` residual. The exact Gram is `diag(160,2)`, the shifted branch is
+`r^2=-3rho-9kappa^2/160`, and its positive stratum locally selects a future
+rest representative. Ledger v0.223 keeps source `Q_B`, moving contact,
+complete Euler, global descent/domain and spectrum open.
+
 ## K77 I2B contact/Euler Hodge adapter (2026-08-12)
 
 `conditional-build/selected-k77-i2b-contact-euler-hodge-adapter-2026-08-12.md`

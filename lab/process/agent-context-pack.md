@@ -9,7 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.222 contact/Euler Hodge adapter:** do not compose the contact
+> **Current v0.223 observer-`Q_B` radial composition:** the conditional
+> observer-Hermitian pairing now works on both the principal kinetic response
+> and the actual `Upsilon_B=aS_q+bH_q` residual. Its exact residual Gram is
+> `diag(160,2)`, while the trace-`H_q` comparator is `diag(192,0)`. The
+> displaced torsion is therefore non-null under `Q_u`. The restricted action
+> is `c(u)[80(rho+r^2/3)^2+kappa^2r^2]`, with branch
+> `r^2=-3rho-9kappa^2/160` and strict threshold
+> `rho<-3kappa^2/160`. On the future unit hyperboloid the positive branch
+> locally selects the rest representative; time orientation selects its sign.
+> Do not identify repository `Q_u` with source `Q_B`, transfer the old `e3`
+> contact coefficient, or call the local line a global arrow/domain. Next
+> recompute moving-`Q_u` Hodge/contact on the shifted branch and derive the
+> complete coupled Euler and descent. No accounting or canon moves.
+
+> **Predecessor v0.222 contact/Euler Hodge adapter:** do not compose the contact
 > and Euler banks as coordinate matrices. Contact is `Omega^1(Cl^2)`, the
 > principal response is `Omega^13(Cl^2)`, and the lower response is
 > `Omega^13(Cl^1)`. The raw trace-`H_q` pairing is zero. Owned Hodge duality
