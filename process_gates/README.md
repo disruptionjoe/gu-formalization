@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_constrained_observer_euler_ward_audit.py` enforces ledger
+  v0.218's exact conditional constrained-`u` tensor, `A>0` simple-line and
+  `A=0` flat strata, co-moving Ward identity, arrow nonselection and the
+  remaining full-coupled-contact/source-ownership fence.
+
 - `k77_i2b_observer_inverse_adjoint_correction_audit.py` enforces ledger
   v0.217's append-only inverse-adjoint correction, exact row immutability,
   surviving naturality/nonbasicness, RB4/RB5 prior-art composition and the

@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-constrained-observer-euler-ward-source-return-2026-08-12.md`](selected-k77-i2b-constrained-observer-euler-ward-source-return-2026-08-12.md)
+  confirms the `SC-ACT-04` residual-square and temporal-dimension input,
+  records source silence on `H_u`, the observer tensor, constrained-`u`
+  variation and the arrow, and attributes the scoped principal line equation
+  to the repository.
+
 - [`selected-k77-i2b-observer-inverse-adjoint-correction-source-return-2026-08-12.md`](selected-k77-i2b-observer-inverse-adjoint-correction-source-return-2026-08-12.md)
   confirms the rich observation/action arena, returns source-silent on the
   inverse-adjoint blocks and current constrained-`u` Euler equation, and

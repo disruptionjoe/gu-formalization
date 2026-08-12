@@ -7,16 +7,20 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.217.  V0.216's diagonal
-Spin/frame naturality and failed observer-forgetting basicness survive, but
-its inherited fixed-field control is corrected to exact blocks
-`-328/9,+8,+8,+8` under `H_u^-1 A^dagger H_u`.  RB4 already constructed the
-moving-`u`/`SO(3)` family and RB5 refuted a complete-flag descent from the
-coarse epsilon plane, so another flag-existence build is retired.  The live
-gate is the current `SC-ACT-04` constrained-`u` Euler/Ward equation with the
-section chain rule, retaining coupled contact.  No row meaning, datum or
-residue moves. Registry:
-`selected-k77-i2b-observer-inverse-adjoint-correction.json`.
+Current append-only progress surface: ledger v0.218.  The conditional
+observer-completed `SC-ACT-04` principal action has an exact constrained-`u`
+tensor on all 16 live coordinates.  Its gap is `-16A`: `A>0` selects a simple
+unoriented timelike line, while `A=0` is observer-flat even for nonzero
+remaining response.  Co-moving Ward transport is exact over 768 live
+pairings; the fixed-field Euler equation is distinct and the action is even
+under `u -> -u`.  The full source-owned moving metric/Hodge/Shiab/projector/
+section contact, global line, arrow and analytic domain remain open. No datum
+or residue moves. Registry:
+`selected-k77-i2b-constrained-observer-euler-ward.json`.
+
+Predecessor v0.217 corrects the inverse-adjoint fixed-field control and
+supplies the prior-art routing that made the current Euler/Ward calculation
+the nonduplicate successor.
 
 Predecessor v0.215 supplies the exact conditional observer-Hermitian pairing
 and trace-owner exclusion.  Its fixed-frame boost is now correctly typed as a

@@ -9,7 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.217 inverse-adjoint correction:** v0.216's diagonal Spin/frame
+> **Current v0.218 constrained observer Euler/Ward result:** the conditional
+> observer-completed `SC-ACT-04` principal action has exact blocks
+> `C00=diag(-8 I4,+8 I12)`, `C11=C22=C33=-8 I16`, with zero mixed blocks.
+> Its raised gap is `-16A`: on `A>0` it selects a simple unoriented timelike
+> line with constrained Hessian `-16A I3`; on `A=0` it is observer-flat even
+> when the remaining response is nonzero. Co-moving Lorentz Ward transport is
+> exact over 768 live pairings, but fixed-field Euler variation is distinct
+> and `u -> -u` remains invisible. This is conditional principal selection,
+> not a source-owned observer, global line, arrow or full coupled action.
+> Next compose the moving metric/Hodge/Shiab/projector/section contact and
+> retain the `A=0` control. No datum or residue moves.
+
+> **Predecessor v0.217 inverse-adjoint correction:** v0.216's diagonal Spin/frame
 > naturality and failed observer-forgetting basicness survive.  The inherited
 > fixed-field control must use `H_u^-1 A^dagger H_u`; its correct exact blocks
 > are `-328/9,+8,+8,+8`, not `-8,+328/9,+328/9,+328/9`.  RB4 already built the
