@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-contact-euler-hodge-adapter-source-return-2026-08-12.md`](selected-k77-i2b-contact-euler-hodge-adapter-source-return-2026-08-12.md)
+  confirms the residual-square/adjoint and two-connection augmented-torsion
+  arena, records source silence on exact `Q_B` and the coupled normal
+  coefficient, and attributes the active rank-four Hodge intersection and
+  radial `e3` Euler factor to the repository.
+
 - [`selected-k77-i2b-trace-hq-normal-contact-correction-source-return-2026-08-12.md`](selected-k77-i2b-trace-hq-normal-contact-correction-source-return-2026-08-12.md)
   confirms the two-connection augmented-torsion term and two
   `C^(32,32)` carrier halves, records source silence on the repository's

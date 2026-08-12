@@ -7,6 +7,18 @@ updated_at: "2026-08-12"
 
 # Process
 
+Current append-only progress surface:
+[`conditional-physics-ledger-v0.222.json`](conditional-physics-ledger-v0.222.json),
+summarized as ledger v0.222. Contact is
+`Omega^1(Cl^2)`, the principal Euler response is `Omega^13(Cl^2)`, and the
+lower response is `Omega^13(Cl^1)`. Identity and raw-pairing shortcuts fail.
+The owned Hodge adapter gives exactly the observer-active rank-four
+intersection; trace-`H_q` source contact reaches three, while missing `e3` is
+the radial Euler row `128/3 r(r^2+3rho)`, zero on the restricted stationary
+branch. The next owner is the moving `Q_B`/metric/section/Shiab/gauge
+correction to that exact row. Registry:
+[`selected-k77-i2b-contact-euler-hodge-adapter.json`](selected-k77-i2b-contact-euler-hodge-adapter.json).
+
 Process hardening after v0.221: future wave handoffs carry the concrete
 structure fingerprint, variational altitude, globalization grade, commuting
 square status and forbidden transfers. A changed carrier/form/real
@@ -17,7 +29,7 @@ license transfer. The deterministic gate is
 indexed as `PD-STRUCTURE-TRANSPORT`, and the `H_q`/`H_u`/`H^\pm` collision is in
 `NAMES.md`.
 
-Current append-only progress surface: ledger v0.221. V0.220's operator
+Predecessor progress surface: ledger v0.221. V0.220's operator
 ownership survives, but its B-skew real-form embedding is corrected to the
 trace-owned `H_q` structure on two `C^(32,32)` carrier halves. The exact image
 is rank `120/160`, with a local rank-40 cokernel; the scalar completion is

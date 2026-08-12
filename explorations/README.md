@@ -7,6 +7,17 @@ updated_at: "2026-08-10"
 
 # Explorations
 
+## K77 I2B contact/Euler Hodge adapter (2026-08-12)
+
+`conditional-build/selected-k77-i2b-contact-euler-hodge-adapter-2026-08-12.md`
+types contact as `Omega^1(Cl^2)`, the principal Euler response as
+`Omega^13(Cl^2)` and the lower response as `Omega^13(Cl^1)`. The owned Hodge
+map gives exactly the observer-active four-dimensional principal/contact
+intersection. The trace-`H_q` source reaches three directions; local-cokernel
+`e3` is the radial row `128/3 r(r^2+3rho)`, zero on the restricted stationary
+branch. Ledger v0.222 leaves moving coupled corrections and physical descent
+open.
+
 ## K77 moving-parent bundle and observation reduction (2026-08-10)
 
 `conditional-build/selected-k77-moving-parent-bundle-observation-reduction-2026-08-10.md`

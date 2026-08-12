@@ -9,7 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.221 trace-Hq normal-contact correction:** v0.220 used the exact
+> **Current v0.222 contact/Euler Hodge adapter:** do not compose the contact
+> and Euler banks as coordinate matrices. Contact is `Omega^1(Cl^2)`, the
+> principal response is `Omega^13(Cl^2)`, and the lower response is
+> `Omega^13(Cl^1)`. The raw trace-`H_q` pairing is zero. Owned Hodge duality
+> yields exactly the observer-active four-dimensional principal/contact
+> intersection. The source contact reaches active `e0,e1,e2`; missing local
+> cokernel `e3` has radial preimage `(12,12)+(13,13)` and fixed-action Euler
+> factor `128/3 r(r^2+3rho)`, zero on the restricted stationary branch. Next
+> derive moving `Q_B`, metric, section, Shiab and gauge corrections to that
+> row; no nonzero on-shell contact, global descent, domain or spectrum is yet
+> selected. Two `C^(32,32)` halves remain primary; keep their block subgroup,
+> full parent, independent connections and generation `H^-` distinct.
+
+> **Predecessor v0.221 trace-Hq normal-contact correction:** v0.220 used the exact
 > grade-only B-skew bank but mistyped it as the source-sized embedded real form.
 > The trace-owned Hermitian form `H_q=iB gamma(g/2)` gives rank `12` per normal,
 > hence rank `120` inside the `160`-dimensional contact, with a local rank-40

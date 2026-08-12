@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-215541-gu-i2b-contact-euler-hodge-adapter",
+  "predecessors": [
+    "lab/process/selected-k77-i2b-trace-hq-normal-contact-correction.json",
+    "lab/process/selected-k77-i2b-arbitrary-field-euler-green-bank.json"
+  ],
+  "carrier": {
+    "primary": "C32_32_PLUS_HALF_DIRECT_SUM_C32_32_MINUS_HALF",
+    "block_subgroup": "U32_32_X_U32_32",
+    "full_parent": "U64_64",
+    "h_homonym": "HERMITIAN_HQ_DISTINCT_FROM_GENERATION_HMINUS_EQUALS_X_OF_SPLUS"
+  },
+  "structure_fingerprints": {
+    "contact": "OMEGA1_TENSOR_CL2__DIM16__ACTION_OWNED_CONTACT_TANGENT__POINTWISE",
+    "principal_euler_response": "OMEGA13_TENSOR_CL2__BANK196__EULER_ADMISSIBLE_VARIATION__POINTWISE",
+    "lower_euler_response": "OMEGA13_TENSOR_CL1__BANK196__EULER_ADMISSIBLE_VARIATION__POINTWISE"
+  },
+  "shortcut_checks": {
+    "identity": "ILL_TYPED_BY_EXTERIOR_DEGREE",
+    "raw_trace_hq_pairing_principal_rank": 0,
+    "raw_trace_hq_pairing_lower_rank": 0,
+    "commutation_status": "FAILED_FOR_IDENTITY_AND_RAW_PAIRING__SCOPED_PASS_FOR_HODGE_PRINCIPAL_INTERSECTION"
+  },
+  "hodge_principal_intersection": {
+    "contact_rank": 16,
+    "principal_rank": 182,
+    "joint_rank": 194,
+    "dimension": 4,
+    "carrier": "OBSERVER_ACTIVE_QUARTET",
+    "trace_hq_source_intersection_dimension": 3,
+    "local_contact_cokernel_intersection_dimension": 1,
+    "local_cokernel_direction": "E3",
+    "sparse_preimages": [
+      "-(12,11)+(13,10)",
+      "+(12,10)+(13,11)",
+      "-(12,13)+(13,12)",
+      "+(12,12)+(13,13)"
+    ]
+  },
+  "hodge_lower_intersection_dimension": 0,
+  "action_selection": "E3_RADIAL_EULER_COEFFICIENT_EXACT_128_OVER_3_R_TIMES_R2_PLUS_3RHO__ZERO_ON_RESTRICTED_STATIONARY_BRANCH__MOVING_COUPLED_TERMS_OPEN",
+  "variational_altitude": {
+    "contact": "ACTION_OWNED_TANGENT__POINTWISE",
+    "principal_response": "EULER_ADMISSIBLE_VARIATION__POINTWISE",
+    "selection": "NOT_YET_ACTION_OWNED"
+  },
+  "globalization_grade": "POINTWISE_ONLY__NO_ASSOCIATED_BUNDLE_OR_DOMAIN_CLAIM",
+  "forbidden_transfers": [
+    "NO_IDENTITY_BY_EQUAL_BANK_WIDTH",
+    "NO_RAW_TRACE_HQ_PAIRING_AS_ADAPTER",
+    "NO_CARRIER_AVAILABILITY_TO_ACTION_SELECTION",
+    "NO_LOCAL_PREIMAGE_TO_GLOBAL_SECTION",
+    "NO_PRINCIPAL_OVERLAP_TO_LOWER_ORDER_CLOSURE"
+  ],
+  "source_return": "SOURCE_CONFIRMS_RESIDUAL_SQUARE_ADJOINT_AND_TWO_CONNECTION_AUGMENTED_TORSION__SOURCE_SILENT_EXACT_QB_AND_COUPLED_NORMAL_COEFFICIENT__REPO_DERIVES_HODGE_PRINCIPAL_ACTIVE_INTERSECTION",
+  "accounting": "UNCHANGED__NO_FIELD_PARAMETER_SELECTOR_QUOTIENT_OR_DATUM__P1_P2_P3_UNUSED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "DERIVE_MOVING_QB_METRIC_SECTION_CORRECTIONS_TO_THE_E3_RADIAL_EULER_COEFFICIENT__THEN_TEST_STATIONARY_CONTACT_DISCRIMINANT"
+}

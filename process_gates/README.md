@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_contact_euler_hodge_adapter_audit.py` enforces ledger v0.222's
+  typed `Omega1-Cl2` / `Omega13-Cl2` / `Omega13-Cl1` separation, failed
+  identity/raw-pairing shortcuts, exact observer-active rank-four Hodge
+  intersection, trace-`H_q` source-three plus local-cokernel-`e3` split,
+  radial Euler factor and unchanged accounting.
+
 - `learning_transport_contract_audit.py` enforces the v0.221 process
   propagation: current ledger pointers, the `H_q`/`H_u`/`H^\pm` homonym,
   correction and path-dependency routing, typed structure fingerprints,
