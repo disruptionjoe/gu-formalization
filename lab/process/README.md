@@ -7,6 +7,19 @@ updated_at: "2026-08-12"
 
 # Process
 
+Current append-only progress surface: ledger v0.216.  The v0.215
+observer-Hermitian rank-four response is exactly natural under simultaneous
+Spin/frame transport across all 256 live pairings.  It is not basic after
+forgetting `u`, and the built coarse observation projector owns only a
+Lorentzian four-plane: its Lorentz stabilizer has no fixed timelike vector.
+Complete `epsilon_IG`/`SO(3)` composite ownership, a constrained-`u`
+Euler/Ward equation and coupled contact remain open.  No datum or residue is
+booked.  Registry: `selected-k77-i2b-observer-associated-basicness.json`.
+
+Predecessor v0.215 supplies the exact conditional observer-Hermitian pairing
+and trace-owner exclusion.  Its fixed-frame boost is now correctly typed as a
+basicness control, not a diagonal-covariance defect.
+
 Current append-only progress surface: ledger v0.212. The actual `SC-ACT-04`
 moving-`H_q` residual has a complete fixed-`H_q` arbitrary-connection Euler
 polynomial on all `196` real cells. Its four monomial supports are
@@ -1733,3 +1746,5 @@ Runbooks:
 - `hostile-reviews/2026-08-12-selected-k77-i2b-real-primalizer-phase-gate-review.md` — preserves conditional rank-four existence while rejecting source-action, noncompact-unitary, positive-Hilbert, preboundary, domain or spectrum promotion.
 - `conditional-physics-ledger-v0.215.json` / `selected-k77-i2b-observer-time-hermitian-reduction.json` — exact observer-time Hermitian completion of the live Lorentz rank-four response; the canonical vertical trace gives rank zero, while observer selection/basicness and coupled contact remain open with no datum booked.
 - `hostile-reviews/2026-08-12-selected-k77-i2b-observer-time-hermitian-reduction-review.md` — separates vertical trace, future observer, time orientation, indefinite Hermitian form and positive majorant; preserves only the finite conditional pairing and leaves action ownership open.
+- `conditional-physics-ledger-v0.216.json` / `selected-k77-i2b-observer-associated-basicness.json` — exact diagonal Spin/frame naturality on all 256 live pairings, refutation of coarse-projector unit-time selection and observer-forgetting basicness, with full `epsilon_IG`, constrained-`u` dynamics and coupled contact open.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-observer-associated-basicness-review.md` — enforces the inverse-form adjoint, adapted `(0,7,8,9)` Lorentz plane, source-half/group/connection fence and analytic/symplectic scope.

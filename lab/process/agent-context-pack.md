@@ -9,17 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.215 observer-time Hermitian reduction:** the v0.214 phase-even
-> Lorentz rank-four response has an exact pseudo-unitary completion from
-> `H_u=iB gamma(u)` when a future unit observer `u` is supplied.  The induced
-> blocks are `-8I4,+8I4,+8I4,+8I4` and an exact `U(1,1)` plant stays `1 -> 1`.
-> The canonical vertical trace gives rank zero on the same response.  Time
-> orientation selects a component, not a unit vector; the observer fibre has
-> three function-valued degrees before equations, and a rational boost changes
-> fixed-frame coefficients.  No datum or residue is booked.  Next derive `u`
-> from observation/soldering or prove the selected action is basic under its
-> change; retain coupled contact.  Keep `H_u` distinct from a positive Hilbert
-> majorant and `C^(32,32)+C^(32,32)` distinct from two connections.
+> **Current v0.216 observer-associated/basicness result:** the v0.215
+> observer-Hermitian Lorentz rank-four response is exactly natural under
+> simultaneous Spin/frame transport across all eight live Clifford masks and
+> all 256 response pairings.  Use `H_u^-1 A^dagger H_u`: treating the boosted
+> Hermitian form as an involution manufactures a false failure.  The family is
+> not basic after forgetting `u`, and the built coarse observation projector
+> selects a Lorentz plane, not a unit timelike vector.  Full `epsilon_IG`/SO3
+> ownership and a constrained-`u` Euler/Ward equation remain open; external
+> datum is fallback only and not adopted.  Keep `C^(32,32)+C^(32,32)`, its
+> block subgroup, full `U(64,64)` and independent connections distinct.
+
+> **Predecessor v0.215 observer-time Hermitian reduction:** supplies the exact
+> conditional rank-four pairing and trace-owner exclusion.  Its fixed-field
+> boost is a firing nonbasicness control, not a diagonal-frame covariance
+> defect.
 
 > **Predecessor v0.214 phase gate:** the four live grade-two responses admit
 > a raw phase-even Lorentz rank-four pairing, but it fails a noncompact

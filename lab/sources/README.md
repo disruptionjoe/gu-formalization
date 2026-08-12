@@ -7,6 +7,11 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-observer-associated-basicness-source-return-2026-08-12.md`](selected-k77-i2b-observer-associated-basicness-source-return-2026-08-12.md)
+  records source support for rich observation/epsilon and two-half parent
+  grammar, source silence on unit-time selection/basicness/`u` variation, and
+  the repo-derived diagonal naturality plus coarse-observation nonselection.
+
 - [`selected-k77-i2b-arbitrary-field-euler-green-bank-source-return-2026-08-12.md`](selected-k77-i2b-arbitrary-field-euler-green-bank-source-return-2026-08-12.md)
   records source ownership of the residual-square/adjoint arena, attributes
   the exact fixed-`H_q` Euler polynomial and zero physical principal Green

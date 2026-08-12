@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_observer_associated_basicness_audit.py` enforces ledger
+  v0.216's exact diagonal Spin/frame naturality across all 256 live pairings,
+  coarse observation-projector nonselection, failed observer-forgetting
+  basicness, full-`epsilon_IG` and dynamic horns, unchanged accounting and the
+  mandatory analytic/symplectic/source fences.
+
 - `k77_i2b_arbitrary_field_euler_green_bank_audit.py` enforces ledger
   v0.212's exact `196`-cell zero-order Euler polynomial of rank three, the
   live curvature-principal operator but rank-zero physical Green bank, the
