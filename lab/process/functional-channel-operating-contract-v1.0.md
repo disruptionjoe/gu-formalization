@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.223.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.223.md`.
+`lab/process/conditional-physics-ledger-v0.224.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.224.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.

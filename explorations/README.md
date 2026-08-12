@@ -7,6 +7,15 @@ updated_at: "2026-08-10"
 
 # Explorations
 
+## K77 I2B moving-Q_u contact and full fixed-background Euler (2026-08-12)
+
+`conditional-build/selected-k77-i2b-moving-qu-contact-full-euler-2026-08-12.md`
+proves that active `e3` equals the shifted radial Euler and closes on branch.
+The complete fixed-background connection Euler still has twelve diagonal
+cells in two independent shapes, so ledger v0.224 asks the unbuilt geometric
+background Frechet response to meet an exact rank-two interface.  No GU,
+source, datum or canon verdict moves.
+
 ## K77 I2B observer-Q_B radial stationarity (2026-08-12)
 
 `conditional-build/selected-k77-i2b-observer-qb-radial-stationarity-2026-08-12.md`

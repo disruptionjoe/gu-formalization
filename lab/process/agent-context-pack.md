@@ -9,19 +9,26 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.223 observer-`Q_B` radial composition:** the conditional
-> observer-Hermitian pairing now works on both the principal kinetic response
-> and the actual `Upsilon_B=aS_q+bH_q` residual. Its exact residual Gram is
-> `diag(160,2)`, while the trace-`H_q` comparator is `diag(192,0)`. The
-> displaced torsion is therefore non-null under `Q_u`. The restricted action
-> is `c(u)[80(rho+r^2/3)^2+kappa^2r^2]`, with branch
-> `r^2=-3rho-9kappa^2/160` and strict threshold
-> `rho<-3kappa^2/160`. On the future unit hyperboloid the positive branch
-> locally selects the rest representative; time orientation selects its sign.
-> Do not identify repository `Q_u` with source `Q_B`, transfer the old `e3`
-> contact coefficient, or call the local line a global arrow/domain. Next
-> recompute moving-`Q_u` Hodge/contact on the shifted branch and derive the
-> complete coupled Euler and descent. No accounting or canon moves.
+> **Current v0.224 moving-`Q_u` contact/full-Euler result:** active `e0,e1,e2`
+> vanish and `e3=(2r/9)(160r^2+480rho+9kappa^2)`, exactly the shifted radial
+> Euler equation, so all four Hodge-active contact rows close on branch.  The
+> complete `196`-cell fixed-background connection Euler does not: twelve
+> diagonal cells remain in one time and eleven equal rest slots.  Their two
+> coefficient equations have determinant `80`, so pure fixed-background
+> `I2B` has no nonzero full stationary point.  Do not promote this to a GU
+> no-go: the actual `F0(A,g,epsilon)` connection/metric/section/Shiab Frechet
+> response was frozen and is unbuilt.  Derive that map independently, then
+> test whether its image supplies both exact shapes.  Keep `Q_u` distinct from
+> source `Q_B`, and two `C^(32,32)` halves distinct from two connections.  No
+> accounting, datum, canon or public-posture moves.
+
+> **Predecessor v0.223 observer-`Q_B` radial composition:** the conditional
+> observer-Hermitian pairing works on both the principal kinetic response and
+> `Upsilon_B=aS_q+bH_q`, with Gram `diag(160,2)` and shifted branch
+> `r^2=-3rho-9kappa^2/160`.  Its positive stratum locally selects the rest
+> representative.  V0.224 supersedes only the open contact/full-Euler
+> disposition; the pairing, branch, threshold and local observer result
+> survive.
 
 > **Predecessor v0.222 contact/Euler Hodge adapter:** do not compose the contact
 > and Euler banks as coordinate matrices. Contact is `Omega^1(Cl^2)`, the
