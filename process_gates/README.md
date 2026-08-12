@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `k77_i2b_arbitrary_field_euler_green_bank_audit.py` enforces ledger
+  v0.212's exact `196`-cell zero-order Euler polynomial of rank three, the
+  live curvature-principal operator but rank-zero physical Green bank, the
+  off-family control, and the moving-contact/expanded-parent scope fence.
+
 - `k77_i2b_nonlinear_receiver_composition_audit.py` enforces ledger v0.211's
   exact tangent/normal times fixed/anti-fixed product receiver, total rank
   `5488`, moving q-row reconstruction, retained conormal witness and the

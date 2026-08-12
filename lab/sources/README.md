@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-arbitrary-field-euler-green-bank-source-return-2026-08-12.md`](selected-k77-i2b-arbitrary-field-euler-green-bank-source-return-2026-08-12.md)
+  records source ownership of the residual-square/adjoint arena, attributes
+  the exact fixed-`H_q` Euler polynomial and zero physical principal Green
+  theorem to the repository, and retains source silence on moving-contact,
+  expanded-parent and physical kinetic completion.
+
 - [`selected-k77-i2b-nonlinear-receiver-composition-source-return-2026-08-12.md`](selected-k77-i2b-nonlinear-receiver-composition-source-return-2026-08-12.md)
   records the source correction to naive pullback and its section/epsilon/
   Levi-Civita/two-connection grammar, while attributing the exact nonlinear

@@ -7,17 +7,22 @@ updated_at: "2026-08-12"
 
 # Process
 
-Current append-only progress surface: ledger v0.211. The finite nonlinear
-observation projector and action-owned real Euler primalizer compose into four
-exact tangent/normal times fixed/anti-fixed sectors of ranks
-`784+784+1960+1960=5488`. The receiver is lossless, moves naturally in all
-four section q-row directions and retains a nonzero conormal witness erased by
-ordinary pullback. This closes the nonlinear receiver burden without adding
-another epsilon field. The live gate is the remaining arbitrary-field I2B
-Euler and action-owned Green/preboundary coefficient assembly. Keep source
-`C^(32,32) + C^(32,32)`, its derived block subgroup, full `U(64,64)` and
-independent connections distinct. Registry:
-`selected-k77-i2b-nonlinear-receiver-composition.json`.
+Current append-only progress surface: ledger v0.212. The actual `SC-ACT-04`
+moving-`H_q` residual has a complete fixed-`H_q` arbitrary-connection Euler
+polynomial on all `196` real cells. Its four monomial supports are
+`14,12,12,2`, their family rank is three, and the result reconstructs through
+the observed-plus-normal receiver. All four curvature-principal response
+banks are nonzero, but their real Green pairing with both physical residual
+components is identically zero. This is a scoped fixed-geometry kinetic
+obstruction, not a theory-wide no-go. The live gate is moving
+metric/Hodge/Shiab/projector/section contact terms plus the separately typed
+expanded action parent. Keep source `C^(32,32) + C^(32,32)`, its derived block
+subgroup, full `U(64,64)` and independent connections distinct. Registry:
+`selected-k77-i2b-arbitrary-field-euler-green-bank.json`.
+
+Predecessor v0.211 supplies the exact nonlinear receiver; its remaining
+arbitrary-field Euler burden is closed at fixed-`H_q` zero-order grade by
+v0.212, while moving-contact and expanded-parent kinetics remain open.
 
 Predecessor v0.210 closes the radial and q-row conditions at local first-order
 action grade; its claim that the nonlinear receiver itself was unbuilt is
@@ -1721,3 +1726,4 @@ Runbooks:
 - `hostile-reviews/2026-08-12-selected-k77-i2b-full-unitary-image-covariance-review.md` — corrects the v0.202 pointwise-complement fence without identifying a pointwise algebra with a global connection or the block subgroup with the full group.
 - `conditional-physics-ledger-v0.204.json` / `selected-k77-i2b-real-structure-intertwining-defect.json` — proves additive descent cannot explain v0.202, computes fixed/anti ranks `170/195` and defect rank `390`, and constructs a q13 fixed-output escape whose held-out q12 naturality fails.
 - `hostile-reviews/2026-08-12-selected-k77-i2b-real-structure-intertwining-defect-review.md` — preserves the local q13 witness while rejecting action ownership, frame-independent promotion and any Euler/BV/domain conclusion.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-arbitrary-field-euler-green-bank-review.md` — preserves the exact rank-three zero-order Euler bank and rank-zero physical principal Green result while fencing it to the fixed-`H_q`, fixed-geometry selected parent.

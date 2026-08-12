@@ -9,7 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.211 nonlinear receiver composition:** the supposedly missing
+> **Current v0.212 arbitrary-field Euler/Green bank:** the actual `SC-ACT-04`
+> moving-`H_q` residual has a complete exact zero-order Euler covector on all
+> `196` fixed-`H_q` connection cells. Its four monomial supports are
+> `14,12,12,2`, their family rank is three, and it specializes to v0.201's
+> fourteen-cell gradient. Every curvature-principal response bank is live,
+> but its real Green pairing with both physical residual components is exactly
+> zero, with firing self-pairing and off-family controls. This kills only the
+> shortcut that the fixed-`H_q`, fixed-geometry selected parent already
+> supplies the Higgs kinetic/preboundary term. Next compute moving
+> metric/Hodge/Shiab/projector/section contact terms and separately test the
+> properly typed expanded action parent. Do not attempt a physical spectrum
+> before one route yields a nondegenerate kinetic/Green form.
+
+> **Predecessor v0.211 nonlinear receiver composition:** the supposedly missing
 > nonlinear receiver was composition debt. The finite graph projector
 > `P_J/Q_J` and action-owned residual primalizer `P_+/P_-` give four exact
 > tangent/normal times fixed/anti-fixed sectors with ranks
