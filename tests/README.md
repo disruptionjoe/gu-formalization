@@ -6,6 +6,18 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_global_primalizer_descent_probe.py`
+  replays v0.206, then tests a noncommuting three-patch cocycle on the complete
+  392-real target carrier. It proves sign-insensitive `P_+` descent, derives
+  rank-56 `dot P_+=[L,tau]/2`, checks differentiated projector and action
+  identities, and fires a 56-direction frozen-projector control. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0207_probe.py` enforces the
+  append-only three-row migration to global associated primalizer ownership
+  and pure-frame derivative while arbitrary field Euler/preboundary, physical
+  reduction and accounting remain open.
+
 - `channel-swings/selected_k77_i2b_action_real_projection_probe.py`
   reconstructs the exact real residual action and checks all 99,463 live
   columns. It proves `P_+` is the action-self-adjoint fixed-real Euler

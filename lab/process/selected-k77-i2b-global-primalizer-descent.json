@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-131002-gu-i2b-global-primalizer-descent",
+  "ledger_version": "0.207",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-02", "SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_MOVING_EPSILON_CONJUGATION_GRAMMAR__SOURCE_SILENT_ON_HQ_AND_PPLUS__REPO_DERIVES_SIGN_INSENSITIVE_ASSOCIATED_PPLUS_DESCENT_AND_MOVING_DPPLUS__UNITARY_PARENT_AND_FULL_EULER_PREBOUNDARY_OPEN",
+  "layer0": {
+    "associated_endomorphism_vs_global_frame": "DISTINCT",
+    "so_transition_vs_spin_lift_sign": "DISTINCT",
+    "adjoint_projector_vs_source_epsilon": "DISTINCT",
+    "selected_k77_action_vs_full_u6464_connection": "DISTINCT",
+    "full_u6464_vs_two_u3232_reduction": "DISTINCT",
+    "pure_frame_dpplus_vs_full_field_euler_preboundary": "DISTINCT"
+  },
+  "exact_results": {
+    "target_complex_coordinates": 196,
+    "target_real_coordinates": 392,
+    "noncommuting_transition_generators": true,
+    "triple_cocycle_failures": 0,
+    "tau_overlap_failures": 0,
+    "pplus_overlap_failures": 0,
+    "pplus_real_rank": 196,
+    "spin_central_sign_cancels_in_adjoint": true,
+    "dot_pplus_formula": "[L,tau]/2",
+    "dot_pplus_rank": 56,
+    "differentiated_idempotency_failures": 0,
+    "off_diagonal_derivative_failures": 0,
+    "moving_naturality_failures": 0,
+    "frozen_projector_firing_basis_vectors": 56,
+    "action_skew_transport_failures": 0,
+    "dot_pplus_action_adjoint_failures": 0,
+    "moving_first_variation_failures": 0,
+    "nontrivial_action_cancellations": 2,
+    "chosen_global_spin_frame_required": false,
+    "source_epsilon_identified": false,
+    "unitary_connection_parent_selected": false,
+    "full_field_euler_preboundary_derived": false
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_quotients": 0,
+    "new_promoted_selectors": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "PPLUS_ASSOCIATED_DESCENT_EXACT_WITHOUT_CHOSEN_GLOBAL_SPIN_FRAME__PURE_FRAME_DPPLUS_EXACT__UNITARY_PARENT_AND_FULL_FIELD_EULER_PREBOUNDARY_OPEN",
+  "next_gate": "ARBITRARY_FIELD_DPPLUS_DHODGE_DSHIAB_DCONNECTION_DOBSERVATION__COMPLETE_EULER_PREBOUNDARY__FULL_U6464_AND_TWO_HALF_COMPARATORS_SEPARATE",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-global-primalizer-descent-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_global_primalizer_descent_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-global-primalizer-descent-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-global-primalizer-descent-review.md"
+  }
+}

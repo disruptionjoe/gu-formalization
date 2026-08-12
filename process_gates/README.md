@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `k77_i2b_global_primalizer_descent_audit.py` enforces ledger v0.207's
+  sign-insensitive associated `P_+` descent, exact rank-56 pure-frame
+  derivative, firing frozen-projector control and the remaining source-
+  epsilon, full/two-half unitary-parent and full Euler/preboundary fences.
+
 - `k77_i2b_action_real_projection_audit.py` enforces ledger v0.206's exact
   fixed-real first-variation factorization through `P_+`, nonzero live
   derivative, action-self-adjoint primalizer, anti-sector contrary control and

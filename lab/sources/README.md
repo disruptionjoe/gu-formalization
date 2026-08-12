@@ -7,6 +7,12 @@ updated_at: "2026-08-12"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-global-primalizer-descent-source-return-2026-08-12.md`](selected-k77-i2b-global-primalizer-descent-source-return-2026-08-12.md)
+  records source ownership of moving epsilon-conjugation grammar, source
+  silence on `H_q/P_+`, and the repository derivation of sign-insensitive
+  associated `P_+` descent plus its pure-frame derivative, while the full/two-
+  half unitary parent and complete Euler/preboundary remain open.
+
 - [`selected-k77-i2b-action-real-projection-source-return-2026-08-12.md`](selected-k77-i2b-action-real-projection-source-return-2026-08-12.md)
   records source ownership of residual norm-square/adjoint grammar, source
   silence on `H_q/P_+`, the repository derivation of `P_+` at fixed-real Euler

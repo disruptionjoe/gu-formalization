@@ -9,15 +9,22 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.206 action-real projection gate:** the real part of the selected
-> residual-square pairing derives `P_+` as the action-self-adjoint primalizer
-> in the first variation at the `H_q`-fixed residual. All 99,463 live columns
-> factor exactly, with 90 nonzero couplings; the rank-170 fixed image is
-> action-orthogonal to the rank-195 anti-fixed image. Do not replace the
-> nonlinear residual by `P_+A`: the anti-fixed sector has a live witness `-11`
-> and reappears off the fixed-real stratum. Next build the chosen global
-> Spin/source-epsilon real-bundle owner, move `P_+`, Hodge and Shiab together,
-> and derive the complete Euler/preboundary classes.
+> **Current v0.207 global primalizer descent gate:** the action-owned
+> fixed-real `P_+` primalizer descends on the admitted associated residual
+> bundle without a chosen global Spin frame; the central Spin sign cancels in
+> adjoint transport. On the complete 392-real target, the exact pure-frame
+> derivative `dot P_+=[L,tau]/2` has rank 56, obeys the differentiated
+> projector/action identities and is required for moving first-variation
+> covariance. Do not identify this with source `epsilon`, select full
+> `U(64,64)` or the two-`U(32,32)` reduction, or call it the complete
+> Euler/preboundary class. Next assemble arbitrary trace-q, Hodge, Shiab,
+> connection, observation and field variations.
+
+> **Predecessor v0.206 action-real projection:** the real residual-square
+> pairing derives `P_+` at fixed-real Euler grade on all 99,463 live columns,
+> with 90 nonzero couplings and exact fixed/anti orthogonality. The anti-fixed
+> witness `-11` refutes nonlinear replacement `A -> P_+A`; that fence survives
+> v0.207.
 
 > **Predecessor v0.205 compensator-naturality correction:** the exact signed
 > q13-to-q12 transport intertwines the moving field, K77/Hodge/Phi geometry,
