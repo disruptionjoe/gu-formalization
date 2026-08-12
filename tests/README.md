@@ -1359,7 +1359,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (608 Python + 92 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.212 arbitrary-field Euler/Green probe and ledger gate, the v0.211 nonlinear product-receiver packet, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (610 Python + 92 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.213 moving-Higgs principal-Hessian probe and ledger gate, the v0.212 arbitrary-field Euler/Green packet, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -3476,4 +3476,19 @@ as a firing control.
 uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_compensator_naturality_probe.py
 python3 tests/channel-swings/conditional_physics_ledger_v0205_probe.py
 python3 process_gates/k77_i2b_compensator_naturality_audit.py
+```
+
+## K77 I2B moving-Higgs principal Hessian gate v0.213
+
+`channel-swings/selected_k77_i2b_moving_higgs_principal_hessian_probe.py`
+separates v0.212's zero first Green row from the second-variation top-order
+Gram.  It proves the actual four-real symbol is Lorentz rank two with two live
+pairing-radical directions, controls it against the rank-182 full connection
+Gram, tests all eight displayed Shiab triples and keeps bosonic `Q_B`, coupled
+contact, expanded parent, gauge/BFV and analytic-domain claims open.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_moving_higgs_principal_hessian_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0213_probe.py
+python3 process_gates/k77_i2b_moving_higgs_principal_hessian_audit.py
 ```

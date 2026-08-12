@@ -536,3 +536,5 @@ identifications as separate grades.
   - confirms the full `U(64,64)` parent, two complex `(32,32)` Weyl halves and residual-square action; corrects the v0.202 pointwise-complement fence and returns source-silent on the selected Shiab, moving-form derivatives and global connection/Euler realization.
 - [`selected-k77-i2b-real-structure-intertwining-defect-source-return-2026-08-12.md`](selected-k77-i2b-real-structure-intertwining-defect-source-return-2026-08-12.md)
   - confirms the residual-square and moving conjugated-Shiab grammar, corrects additive-descent and wholesale-image readings, and returns source-silent on the operative `H_q` real structures, fixed-output projection and moving compensator.
+- [`selected-k77-i2b-moving-higgs-principal-hessian-source-return-2026-08-12.md`](selected-k77-i2b-moving-higgs-principal-hessian-source-return-2026-08-12.md)
+  - confirms the bosonic residual square and distinct `Q_B` slot; corrects zero first Green versus second Hessian; attributes the exact Lorentz rank-two block and two live pairing-radical directions to the repository; returns source-silent on the K77 `Q_B` and rank-four repair.

@@ -1923,6 +1923,22 @@ Off-queue work on the backlog runs through
 
 ## Key coordination surfaces
 
+## Current Lane-1 frontier — ledger v0.213
+
+The v0.212 first-variation Green row remains exactly zero, but it did not
+decide the distinct second-variation kinetic Hessian.  V0.213 computes
+
+```text
+8(-k0^2+k1^2+k2^2+k3^2) diag(1,1,0,0)
+```
+
+on the actual four-real moving-`H_q` tangent.  The two radical directions have
+live principal responses, including radial; the full timelike connection Gram
+has rank 182.  None of the eight displayed Shiab triples reaches rank four.
+Next type bosonic `Q_B` or compose coupled moving contact/expanded total
+residual, and require rank four.  Keep `C^(32,32)+C^(32,32)`, derived
+`U(32,32)xU(32,32)`, full `U(64,64)`, and independent connections distinct.
+
 - lab/process/improvement-register-2026-08-03.md (+ Revision 1) — the work
   queue; cite item IDs in commits.
 - lab/process/eleven-lens-audit-2026-08-03.md — verified findings + fix

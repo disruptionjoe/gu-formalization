@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-155230-gu-i2b-moving-higgs-principal-hessian",
+  "status": "FIRST_GREEN_ZERO_BUT_SECOND_PRINCIPAL_HESSIAN_RANK2__TWO_LIVE_KREIN_RADICAL_DIRECTIONS__DISPLAYED_SHIAB_FAMILY_CANNOT_REPAIR",
+  "source_return": "SOURCE_CONFIRMS_BOSONIC_RESIDUAL_SQUARE_AND_QB_SLOT__SOURCE_SILENT_EXACT_K77_QB_AND_HESSIAN_REPAIR",
+  "selected_principal_hessian": {
+    "base_signature": [-1, 1, 1, 1],
+    "coefficient": 8,
+    "internal_diagonal": [1, 1, 0, 0],
+    "mixed_base_blocks_zero": true,
+    "nonnull_symbol_rank": 2,
+    "null_symbol_rank": 0,
+    "internal_radical_dimension": 2,
+    "radial_direction_in_radical": true,
+    "radical_response_supports": [2, 2],
+    "radical_responses_nonzero": true,
+    "radical_responses_pair_to_zero_with_local_image": true
+  },
+  "controls": {
+    "full_connection_real_dimension": 196,
+    "full_timelike_gram_rank": 182,
+    "displayed_shiab_channel_ranks": {
+      "comm/comm/comm": 2,
+      "comm/comm/symi": 2,
+      "comm/symi/comm": 2,
+      "comm/symi/symi": 2,
+      "symi/comm/comm": 0,
+      "symi/comm/symi": 0,
+      "symi/symi/comm": 2,
+      "symi/symi/symi": 2
+    },
+    "displayed_channel_rank_four_count": 0,
+    "first_action_principal_ranks": [0, 0, 0, 0, 0, 0, 0, 0],
+    "v0212_first_green_rank": 0
+  },
+  "layer0": {
+    "carrier_split": "C^(32,32)+C^(32,32)",
+    "derived_block_subgroup": "U(32,32)xU(32,32)",
+    "full_parent": "U(64,64)",
+    "objects_remain_distinct": true,
+    "fermionic_independent_dual_is_not_bosonic_Q_B": true
+  },
+  "scope": {
+    "closed": [
+      "first-variation Green coefficient does not decide second-variation kinetic Hessian",
+      "fixed-pairing four-real principal Hessian has exact Lorentz rank two",
+      "all eight displayed Shiab triples fail to remove the two-dimensional radical"
+    ],
+    "open": [
+      "type and construct or kill the source-owned bosonic Q_B primalizer and test radical removal",
+      "compose coupled moving metric section gauge contact or expanded total-residual parent, then test gauge basicness and analytic domain"
+    ]
+  },
+  "accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "external_data_used": []
+  },
+  "next_gate": "TYPE_SOURCE_QB_PRIMALIZER_OR_COUPLED_CONTACT_EXPANDED_PARENT_AND_TEST_RADICAL_REMOVAL"
+}

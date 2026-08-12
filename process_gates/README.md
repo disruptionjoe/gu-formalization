@@ -3183,3 +3183,18 @@ target. It requires direct q12 target admission, reproduces v0.204's failure
 only against the hard-coded q13 target, and fails closed on source-action
 ownership, Spin/source-epsilon identification, moving derivatives,
 Euler/preboundary, datum or canon promotion.
+
+## K77 I2B moving-Higgs principal-Hessian gate ledger v0.213
+
+Gate: `k77_i2b_moving_higgs_principal_hessian_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_moving_higgs_principal_hessian_audit.py
+```
+
+Verifies the append-only first-Green/second-Hessian correction, exact Lorentz
+rank-two four-real symbol, two live pairing-radical responses, rank-182
+full-bank control, all-eight selector failure to reach rank four, source
+`Q_B` return, carrier-parent Layer-0 fence and hostile analytic/symplectic
+scope.  It fails closed on a constructed `Q_B`, coupled contact, expanded
+parent, gauge/BFV quotient, analytic domain, physical spectrum or datum use.
