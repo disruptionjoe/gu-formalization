@@ -3305,3 +3305,18 @@ sage -python tests/channel-swings/selected_k77_varpi_radial_half_exchange_probe.
 python3 tests/channel-swings/conditional_physics_ledger_v0197_probe.py
 python3 process_gates/k77_varpi_radial_half_exchange_audit.py
 ```
+
+## K77 minimal moving-doublet curvature gate v0.198
+
+`channel-swings/selected_k77_minimal_moving_doublet_curvature_probe.py`
+constructs all four canonical weak-doublet lift cells and proves their shared
+vertical leg forces the complete algebraic self-curvature to vanish. An
+explicit soldering-kernel perturbation preserves the observed output and
+creates nonzero curvature, ensuring the zero is structural rather than a
+commuting-coefficient artifact.
+
+```sh
+sage -python tests/channel-swings/selected_k77_minimal_moving_doublet_curvature_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0198_probe.py
+python3 process_gates/k77_minimal_moving_doublet_curvature_audit.py
+```

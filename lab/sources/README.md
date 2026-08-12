@@ -473,3 +473,5 @@ identifications as separate grades.
   - confirms the source's Pati-Salam/`U(3,2)` intersection target, full `U(64,64)` parent and `varpi` Higgs-like custody; attributes exact SM/post-Higgs branching to the repository and returns source-silent on J selection, a radial `varpi` coefficient and Higgs action dynamics.
 - [`selected-k77-varpi-radial-half-exchange-source-return-2026-08-12.md`](selected-k77-varpi-radial-half-exchange-source-return-2026-08-12.md)
   - confirms the full `U(64,64)` parent and connection-one-form custody of gauge/Higgs-like/Yukawa functions; returns source-silent on the exact trace-radial cell and its dynamics, and prevents the two `U(32,32)` restrictions from being mistaken for a block-only parent capable of carrying the half-exchanging component.
+- [`selected-k77-minimal-moving-doublet-curvature-source-return-2026-08-12.md`](selected-k77-minimal-moving-doublet-curvature-source-return-2026-08-12.md)
+  - confirms the `varpi` Higgs-like locus and returns source-silent on the canonical common-leg lift, its zero quartic, and selection inside the soldering kernel.

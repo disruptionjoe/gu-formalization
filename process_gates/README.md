@@ -3028,3 +3028,16 @@ rank-nine angular receiver decomposition, full `U(64,64)` admission with
 block-diagonal two-half rejection, moving equivariance, nonzero derivative
 carrier and zero isolated radial self-wedge. It fails closed on kinetic,
 potential, VEV, physical-chirality, Yukawa-texture, or new-datum promotion.
+
+## K77 minimal moving-doublet curvature gate ledger v0.198
+
+Gate: `k77_minimal_moving_doublet_curvature_audit.py`.
+
+```bash
+python3 process_gates/k77_minimal_moving_doublet_curvature_audit.py
+```
+
+Verifies the complete rank-four common-leg lift, exact zero algebraic
+self-curvature, nonzero soldering-kernel control, source polarity and hostile
+scope fences. It fails closed on potential, vacuum, datum or source-level
+no-go promotion.

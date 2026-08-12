@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.198 minimal moving-doublet curvature gate:** the complete
+> canonical rank-four lift `L_q(H)=H(q-flat/q^2)` is exact and equivariant, but
+> every component shares the trace one-form leg, so its full algebraic
+> `A wedge A` curvature and quartic vanish.  A controlled element of the
+> 90-dimensional soldering kernel preserves the same observed doublet and
+> creates nonzero curvature.  The carrier is no longer the bottleneck: next
+> derive which nondecomposable invisible lift the selected action owns, or
+> identify another curvature/augmented-torsion owner, before computing a
+> vacuum or scalar masses.
+
 > **Current v0.197 full-unitary trace-radial half-exchange gate:** the missing
 > one-real radial coefficient has an exact zero-datum carrier
 > `a_rad(h)=h(q-flat/q^2) tensor gamma(q)`.  The moving soldering receiver sends
