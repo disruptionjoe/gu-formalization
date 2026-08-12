@@ -7,6 +7,16 @@ updated_at: "2026-08-12"
 
 # Process
 
+Process hardening after v0.221: future wave handoffs carry the concrete
+structure fingerprint, variational altitude, globalization grade, commuting
+square status and forbidden transfers. A changed carrier/form/real
+structure/grading/horn/embedding requires a constructed adapter receipt or an
+explicit Layer-0 reset; equal dimensions or abstract group labels do not
+license transfer. The deterministic gate is
+`process_gates/learning_transport_contract_audit.py`; the repeated failure is
+indexed as `PD-STRUCTURE-TRANSPORT`, and the `H_q`/`H_u`/`H^\pm` collision is in
+`NAMES.md`.
+
 Current append-only progress surface: ledger v0.221. V0.220's operator
 ownership survives, but its B-skew real-form embedding is corrected to the
 trace-owned `H_q` structure on two `C^(32,32)` carrier halves. The exact image

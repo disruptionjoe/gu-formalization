@@ -24,8 +24,34 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.196.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.196.md`.
+`lab/process/conditional-physics-ledger-v0.221.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.221.md`.
+Every ledger migration advances these two pointers and the corresponding
+`LANES.yaml` work-state references; the learning-transport gate compares them
+to the highest append-only ledger version and fails closed on drift.
+
+### Typed handoff: carry the structure, not only the result
+
+Every wave handoff records a **structure fingerprint** for each load-bearing
+object: carrier, pairing/form, real structure, grading, signature horn and
+ambient embedding.  Reusing an abstract label such as `u(p,q)`, an equal
+dimension, or the letter `H` is not evidence that the concrete object was
+preserved.  If a successor changes the fingerprint, it must cite an adapter
+theorem/receipt or declare `OBJECT_CHANGED__LAYER0_RESET`; otherwise the
+transfer is inadmissible.
+
+The handoff also states its **variational altitude** and **globalization grade**.
+Pointwise availability, action-owned tangency, Euler-admissible variation,
+stationary solution jets, gauge-reduced phase-space classes and observable
+physics are separate altitudes.  Pointwise, local-equivariant,
+associated-bundle, connection-preserved and globally-descended are separate
+globalization grades.  A later wave may strengthen these; it may not inherit a
+higher grade by prose.
+
+Finally, name the commuting square being used, its status (`PROVED`, `FAILED`
+or `OPEN`), and any forbidden transfers.  This compact receipt is the process
+answer to v0.220: the source-normal-jet operator was sound, but its result was
+transported from trace-`H_q` to a B-skew comparator without an adapter.
 
 Current moving-Hq / U(3,2) result: the exact Pati-Salam/`SU(3,2)` intersection
 is the 12-dimensional SM and its actual chiral-spin 16 has the SM

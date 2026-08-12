@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `learning_transport_contract_audit.py` enforces the v0.221 process
+  propagation: current ledger pointers, the `H_q`/`H_u`/`H^\pm` homonym,
+  correction and path-dependency routing, typed structure fingerprints,
+  variational/globalization grades and a planted trace-`H_q` to B-skew
+  transfer that must fail without an adapter or Layer-0 reset.
+
 - `k77_i2b_trace_hq_normal_contact_correction_audit.py` enforces ledger
   v0.221's two-`C^(32,32)` carrier typing, trace-`H_q` rank-120 contact,
   rank-40 local cokernel, scalar pointwise availability, H-homonym fence,

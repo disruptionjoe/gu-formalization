@@ -79,3 +79,13 @@ corrections:
       radial real gamma(q) cell.  The corrected phase typing does not by itself
       derive the selected physical Higgs potential or vacuum.
     enforce: false
+  - id: HQ-CONTACT-20260812
+    owner: explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md
+    meaning: >-
+      V0.220's source-normal-jet operator remains owned, but its concrete
+      B-skew embedded-real-form calculation was not the inherited trace-H_q
+      problem.  On the source-owned two-C^(32,32) carrier with
+      H_q=i B gamma(q/2), the exact contact image has rank 120/160 and local
+      cokernel rank 40, so the scalar completion is pointwise source-realizable.
+      H_q is a Hermitian form and is distinct from generation-hinge H^- and H^+.
+    enforce: false

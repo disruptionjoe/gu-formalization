@@ -15,8 +15,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.196.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.196.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.221.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.221.md",
     "accounting_ref": "lab/process/conditional-ledger-priority-decision-2026-08-07.json",
     "immutable_row_record_count": 84,
     "active_canonical_target_count": 82,
@@ -53,8 +53,45 @@
     "wave_required_fields": [
       "ledger_rows_declared_before_work",
       "ledger_meter_after",
-      "ledger_row_changes_or_explicit_no_change_reason"
+      "ledger_row_changes_or_explicit_no_change_reason",
+      "structure_fingerprint",
+      "variational_altitude",
+      "globalization_grade",
+      "commutation_status",
+      "forbidden_transfers",
+      "adapter_receipt_or_layer0_reset"
     ],
+    "current_pointer_rule": "REF_AND_HUMAN_REF_AND_LANES_WORK_STATE_REFS_MUST_MATCH_HIGHEST_APPEND_ONLY_LEDGER_VERSION",
+    "structure_fingerprint_required_fields": [
+      "carrier",
+      "pairing_or_form",
+      "real_structure",
+      "grading",
+      "signature_horn",
+      "ambient_embedding"
+    ],
+    "variational_altitudes": [
+      "ALGEBRAICALLY_AVAILABLE",
+      "ACTION_OWNED_TANGENT",
+      "EULER_ADMISSIBLE_VARIATION",
+      "STATIONARY_SOLUTION_JET",
+      "GAUGE_REDUCED_PHASE_SPACE_CLASS",
+      "OBSERVABLE_PHYSICS"
+    ],
+    "globalization_grades": [
+      "POINTWISE",
+      "LOCAL_EQUIVARIANT",
+      "ASSOCIATED_BUNDLE",
+      "CONNECTION_PRESERVED",
+      "GLOBALLY_DESCENDED"
+    ],
+    "commutation_status_values": [
+      "PROVED",
+      "FAILED",
+      "OPEN"
+    ],
+    "structure_change_rule": "CHANGED_FINGERPRINT_REQUIRES_ADAPTER_RECEIPT_OR_OBJECT_CHANGED_LAYER0_RESET__EQUAL_RANK_DIMENSION_OR_ABSTRACT_GROUP_LABEL_IS_NOT_AN_ADAPTER",
+    "altitude_transfer_rule": "NO_AUTOMATIC_TRANSFER_FROM_POINTWISE_OR_ALGEBRAIC_AVAILABILITY_TO_ACTION_OWNERSHIP_EULER_STATIONARITY_REDUCTION_OR_OBSERVABLE_PHYSICS",
     "freshness_failure": "ROW_TOUCHED_WITHOUT_LEDGER_MIGRATION_OR_EXPLICIT_EVIDENCE_BACKED_NO_CHANGE_REASON",
     "action_owner_directive": "CURVATURE_SQUARED_IS_NOT_AN_OWNER__NAME_FIRST_ORDER_TRANSGRESSION_OR_RESIDUAL_NORM_SQUARE_OR_OBSERVER_FULL_II__CONSTRUCT_EULER_AND_PREBOUNDARY_MAP_BEFORE_Q1",
     "zero_fermion_current_order_directive": "EVEN_BILINEAR_FERMION_ACTION__JD_PLUS_JF_AND_ONE_BOSON_ONE_FERMION_HESSIAN_ZERO_AT_ZERO_FERMION__FERMION_HESSIAN_D_LIVE__CURRENT_VERTEX_DD_DB_CUBIC__LOCAL_CURVATURE_DISTORTION_TRACE_ALREADY_CLOSED__SEPARATE_NONZERO_FERMION_SOURCE_OPERATOR_STATIONARITY__NO_DUPLICATE_BRIDGE__NO_PHYSICAL_DOMAIN_SPECTRUM_INDEX_OR_COUNT",

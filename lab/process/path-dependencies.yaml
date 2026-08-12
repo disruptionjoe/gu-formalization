@@ -317,3 +317,63 @@ chains:
       ultrahyperbolic operators on non-compact manifolds is found, or GU's
       ambient problem is re-typed so that it is not ultrahyperbolic.
     related: [PD-SIGNATURE-PARITY, PD-CONDITIONAL-VS-SETTLED]
+
+  - id: PD-STRUCTURE-TRANSPORT
+    headline: >-
+      Equal dimensions and equal abstract group labels do not identify concrete
+      carriers, real forms or pairings.  A result transfers only through a
+      structure-preserving adapter.
+    trigger: >-
+      Any successor wave that reuses a rank, cokernel, stabilizer, real-form
+      label, Hermitian/Krein signature or the letter H from a predecessor.
+    naive: >-
+      "Both objects are u(p,q), both are 160-dimensional, or both are called H,
+      so the previous calculation applies."  The carrier, form, real
+      involution, grading, horn and embedding can differ while all those labels
+      agree.
+    chain:
+      - fact: >-
+          The source-owned carrier is two C^(32,32) halves; the block-preserving
+          U(32,32)xU(32,32) subgroup and full U(64,64) parent are distinct.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-trace-hq-connection-internal-chain-gate-2026-08-12.md
+      - fact: >-
+          The inherited source real form is fixed by the trace-owned Hermitian
+          form H_q=i B gamma(q/2), not by an arbitrary B-skew comparator.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-hq-action-owner-potential-2026-08-12.md
+      - fact: >-
+          V0.220's source-normal-jet operator is valid, but its concrete
+          B-skew embedding has rank 80/160 and does not answer the inherited
+          trace-H_q contact question.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-i2b-source-normal-jet-reconciliation-2026-08-12.md
+      - fact: >-
+          Restoring the trace-H_q fingerprint changes the exact image to
+          rank 120/160, leaves a rank-40 local cokernel and makes the scalar
+          completion pointwise source-realizable.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md
+    check: >-
+      Inherit carrier, pairing/form, real structure, grading, signature horn
+      and ambient embedding as one structure fingerprint.  If any field
+      changes, cite a constructed adapter/intertwiner or return
+      OBJECT_CHANGED__LAYER0_RESET.  Equal rank, dimension or group label is
+      never enough.  Also state the variational altitude and globalization
+      grade reached; pointwise availability does not imply on-shell selection.
+    traps:
+      - date: 2026-08-12
+        what: >-
+          A source-normal-jet calculation silently replaced the inherited
+          trace-H_q embedded real form with a B-skew comparator, then promoted
+          the comparator's exact rank and scalar exclusion as the live contact
+          result.
+        cost: >-
+          Reported rank 80/cokernel 80 instead of rank 120/cokernel 40 and
+          incorrectly excluded the scalar completion until the append-only
+          v0.221 correction.
+        receipt: explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md
+    invalidates_if: >-
+      A receipt constructs an explicit intertwiner proving the two concrete
+      structures equivalent for the operator and variational problem at hand.
+    related: [PD-CONDITIONAL-VS-SETTLED, PD-SIGNATURE-PARITY]

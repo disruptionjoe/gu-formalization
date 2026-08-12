@@ -30,6 +30,16 @@ campaign context, do not restructure it mid-campaign.
 - Homonym table: `lab/process/NAMES.md` — ten seconds there beats collision #9
 - Correction index (machine-readable): `lab/process/correction-registry.yaml`
 
+## Typed handoff — when one wave consumes another
+
+- Copy the predecessor's structure fingerprint: `carrier`, `pairing_or_form`,
+  `real_structure`, `grading`, `signature_horn`, `ambient_embedding`.
+- State `variational_altitude`, `globalization_grade`, the relevant commuting
+  square and its status, plus `forbidden_transfers`.
+- A changed fingerprint requires an adapter receipt or the explicit return
+  `OBJECT_CHANGED__LAYER0_RESET`. Equal rank, dimension or abstract group name
+  is not an adapter.
+
 ## Measured base rates (3 days, 16 hostile verifies — load this as your prior)
 
 - **Zero arithmetic failures anywhere.** Every material defect was claim-strength or correction-propagation.
