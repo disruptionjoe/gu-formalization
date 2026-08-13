@@ -7,6 +7,15 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B real-curvature Euler image (2026-08-13)
+
+`conditional-build/selected-k77-i2b-real-curvature-euler-image-2026-08-13.md`
+proves that the real residual-to-Euler transfer is an exact 392-dimensional
+isomorphism while the complete pointwise full-`U(64,64)` curvature image stays
+rank 364 and excludes the fourteen-cell target. Ledger v0.235 closes
+pointwise real curvature-value cancellation and sends rank one to a genuinely
+derivative-dependent real source-connection jet, nonzero fermions or full BV.
+
 ## K77 I2B released source-action grammar exhaustion (2026-08-13)
 
 `conditional-build/selected-k77-i2b-source-action-grammar-exhaustion-2026-08-13.md`

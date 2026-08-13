@@ -9,14 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
-> **Current v0.234 released source-action grammar exhaustion:** at the selected
+> **Current v0.235 real-curvature Euler-image theorem:** the exact real
+> residual-to-Euler transfer is a 392-dimensional isomorphism. The complete
+> pointwise real full-`U(64,64)` selected-Shiab curvature image and its Euler
+> image both have rank 364, while the fourteen-cell target raises rank to 365.
+> The two-half subgroup cannot do better. Together with v0.230, pointwise
+> curvature/background values and geometry-only cancellation are closed.
+> Rank one is a genuinely derivative-dependent real source-connection jet
+> with Bianchi/descent, a nonzero-fermion saddle, or a source-derived full-field
+> BV tangent. No accounting move.
+
+> **Predecessor v0.234 released source-action grammar exhaustion:** at the selected
 > moving-`H_q`, zero-fermion grade, `I1B` is blind, `I2B` retains fourteen
 > transverse Euler cells, and the fermion current vanishes. No unexamined
 > released zero-fermion bosonic term or relative `I1B/I2B` weight repairs the
 > branch. Rank one is now one bounded decider among complete moving background
 > jets, a source-family nonzero-fermion coupled saddle, and a source-derived
 > full-field BV tangent. Carrier retyping remains downstream. No accounting
-> moves.
+> moves. V0.235 supersedes only its generic pointwise-background successor.
 
 > **Current v0.233 minimal covariant-reduction action ownership:** on the
 > selected 196-cell Cl1 bank, fixed `D omega=0` has rank 196 and erases the

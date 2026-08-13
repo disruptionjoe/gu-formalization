@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.234.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.234.md`.
+`lab/process/conditional-physics-ledger-v0.235.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.235.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -61,6 +61,16 @@ explicit. Likewise, for `A=B+T`, a `B`-only term has zero derivative under the
 independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
+
+The v0.235 real-curvature Euler-image theorem closes the complete pointwise
+real full-`U(64,64)` curvature-value route. The exact residual-to-Euler
+transfer is a 392-dimensional isomorphism, the complete curvature image and
+its Euler image both have rank 364, and the fourteen-cell target raises rank
+to 365. The two-half subgroup cannot do better. Composed with v0.230, Build
+must not retry pointwise curvature/background values or geometry-only
+cancellation. Its bosonic successor must be genuinely derivative-dependent
+and carry Bianchi/descent burdens; nonzero fermions and full-field BV remain
+separate routes.
 
 The v0.234 source-action grammar theorem composes the v0.233 minimal
 covariant-reduction result with the released nonlinear actions. At the

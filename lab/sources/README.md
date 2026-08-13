@@ -7,6 +7,11 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-real-curvature-euler-image-source-return-2026-08-13.md`](selected-k77-i2b-real-curvature-euler-image-source-return-2026-08-13.md)
+  confirms the I2B/full-`U(64,64)`/two-`C^(32,32)` source typing, records
+  source silence on a derivative-dependent real background-jet solution, and
+  attributes the exact pointwise Euler-image exclusion to the repository.
+
 - [`selected-k77-i2b-source-action-grammar-exhaustion-source-return-2026-08-13.md`](selected-k77-i2b-source-action-grammar-exhaustion-source-return-2026-08-13.md)
   confirms the source-explicit `I1B`, `I2B`, and total fermionic residual;
   records source silence on an additional zero-fermion bosonic cancellation

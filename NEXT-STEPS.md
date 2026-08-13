@@ -7,8 +7,20 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B REAL-CURVATURE EULER IMAGE (ledger v0.235).**
+> The exact real residual-to-Euler transfer is a `392 x 392` isomorphism.
+> The complete pointwise real full-`U(64,64)` selected-Shiab curvature image
+> and its Euler image both have rank `364`; the fourteen-cell target raises
+> rank to `365`. Thus no pointwise real full-unitary curvature value cancels
+> the Euler covector, and the two-half block subgroup cannot either. Composed
+> with v0.230, geometry-only response is also closed. **Do not rerun another
+> pointwise curvature/background-value search. Construct a genuinely
+> derivative-dependent real source-connection jet with Bianchi and descent,
+> or advance the disjoint nonzero-fermion/full-field-BV routes.** No verdict,
+> accounting, datum, canon or public-posture move.
+
 > **2026-08-13 K77 I2B RELEASED SOURCE-ACTION GRAMMAR EXHAUSTION (ledger
-> v0.234).** On the selected moving-`H_q`, zero-fermion branch, the source's
+> v0.234, predecessor).** On the selected moving-`H_q`, zero-fermion branch, the source's
 > nonlinear first action `I1B` is blind, the residual-square `I2B` retains
 > fourteen transverse connection Euler cells, and the fermion current
 > vanishes by parity/order. Every nonzero relative weighting preserves the
@@ -18,6 +30,7 @@ updated_at: "2026-08-13"
 > actual source-family nonzero-fermion coupled saddle, and a source-derived
 > full-field BV tangent.** Carrier retyping is a downstream fallback, not this
 > wave's conclusion. No accounting, datum, canon or public-posture move.
+> V0.235 supersedes only its generic pointwise-background successor.
 
 > **2026-08-13 K77 I2B MINIMAL COVARIANT-REDUCTION ACTION OWNERSHIP (ledger
 > v0.233, predecessor).** Fixed `D omega=0` has rank 196 and erases the whole selected Cl1

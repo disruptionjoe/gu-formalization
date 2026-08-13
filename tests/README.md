@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_real_curvature_euler_image_probe.py`
+  constructs the exact 392-dimensional real residual-to-Euler isomorphism,
+  transports the complete rank-364 pointwise full-unitary curvature image,
+  and proves the fourteen-cell target remains outside it. It preserves
+  derivative-dependent jets, nonzero fermions and full-field BV. Run with
+  pinned SymPy `1.14.0` and NumPy `2.5.1`; it passes `50/50`.
+
+- `channel-swings/conditional_physics_ledger_v0235_probe.py` enforces the
+  no-verdict v0.235 migration and the narrowed three-route successor.
+
 - `channel-swings/selected_k77_i2b_source_action_grammar_exhaustion_probe.py`
   composes the exact `I1B`, `I2B`, zero-fermion current-order and v0.233
   receipts; proves no unexamined released zero-fermion bosonic term or
@@ -1573,7 +1583,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (655 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.233 minimal covariant-reduction action-ownership theorem and ledger gate, v0.232 source/BV--KT exact sequence, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (659 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.235 real-curvature Euler-image theorem and ledger gate, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
