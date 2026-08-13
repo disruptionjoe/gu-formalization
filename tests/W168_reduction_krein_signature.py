@@ -24,7 +24,7 @@ takes the fiber from (7,3) to (6,4)); the geometric graviton mode Sym^2_0(R^3) i
 Krein-POSITIVE.  OPPOSITE ==> alpha+beta < 0 admissible ==> c_R > 0 ==> tachyon
 SPURIOUS ==> bar (b) CLEARS.
 
-FIVE personas inline (Cl(9,5) rep-theory; Krein/indefinite-metric; differential
+FIVE perspectives inline (Cl(9,5) rep-theory; Krein/indefinite-metric; differential
 geometer; symbolic engineer; adversarial skeptic).  Positive controls FIRST.
 Run:  python -u tests/W168_reduction_krein_signature.py   (exit 0 iff all PASS).
 
@@ -165,11 +165,11 @@ check("PC4: canonical O(3)xO(1) fiber split (canon/w2-y14): 5 + 3 + 1 + 1 = 10 (
       + dims["R3(x)sgn time-space shift"] + dims["R relative-trace"] == 9)
 
 # ===========================================================================
-# PERSONA 1 (Cl(9,5) rep-theory) + PERSONA 3 (differential geometer):
+# PERSPECTIVE 1 (Cl(9,5) rep-theory) + PERSPECTIVE 3 (differential geometer):
 #   the isotypic decomposition and each block's trace-form / DeWitt Krein sign.
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 1 + 3 -- isotypic decomposition and the Krein sign each block carries")
+log("PERSPECTIVE 1 + 3 -- isotypic decomposition and the Krein sign each block carries")
 log("=" * 78)
 
 # K1 -- the pure trace-form signature of the full fiber Sym^2(R^{3,1}).
@@ -227,10 +227,10 @@ check("K3c: the relative-trace direction (trace-free: tr_eta = -3 + 3 = 0) is Kr
       f"tr_eta = {tr_eta(rel_trace)}, G = {dewitt(rel_trace, rel_trace, lam)}")
 
 # ===========================================================================
-# PERSONA 2 (Krein / indefinite-metric): the RELATIVE signature and the translation.
+# PERSPECTIVE 2 (Krein / indefinite-metric): the RELATIVE signature and the translation.
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 2 -- Krein specialist: the RELATIVE signature and the sign translation")
+log("PERSPECTIVE 2 -- Krein specialist: the RELATIVE signature and the sign translation")
 log("=" * 78)
 
 # K4 -- THE DECISIVE BIT.  record-count (conformal full-trace) sign vs geometric
@@ -267,10 +267,10 @@ check("K5b (cross-check, W130): the naive channel couplings ALREADY carry opposi
       and cR_phys > 0 and sp.sign(cR_phys) == sp.sign(c_W))
 
 # ===========================================================================
-# PERSONA 5 (adversarial skeptic): steelman SAME-signature; the load-bearing controls.
+# PERSPECTIVE 5 (adversarial skeptic): steelman SAME-signature; the load-bearing controls.
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 5 -- adversarial skeptic: negative controls and the honest residual")
+log("PERSPECTIVE 5 -- adversarial skeptic: negative controls and the honest residual")
 log("=" * 78)
 
 # NC1 -- the (6,4) conformal-mode flip is LOAD-BEARING and GU-specific, not automatic.

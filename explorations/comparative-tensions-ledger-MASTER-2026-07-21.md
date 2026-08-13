@@ -9,9 +9,7 @@ inputs:
   - explorations/comparative-tensions-ledger-particle-qm-2026-07-21.md
   - explorations/comparative-tensions-ledger-qg-toe-2026-07-21.md
   - explorations/parsimony-unexplained-joints-ledger-2026-07-21.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # The physics landscape, and where GU honestly sits

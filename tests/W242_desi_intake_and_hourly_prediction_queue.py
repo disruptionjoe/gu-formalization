@@ -4,7 +4,7 @@
 This deterministic receipt does not validate cosmology from first principles and does
 not create a GU prediction. It checks the external-report provenance, demonstrates the
 material distance-table mismatch against the already primary-source-verified H46B
-values, preserves the verified CPL summaries, and proves that the ten-persona W239
+values, preserves the verified CPL summaries, and proves that the ten-perspective W239
 register is covered exactly once by the new work packets.
 
 Run: python -u tests/W242_desi_intake_and_hourly_prediction_queue.py
@@ -170,7 +170,7 @@ def main() -> int:
           and "bar(b) and H59 remain OPEN" in w242)
 
     print("\n== W239 THIRTY-TARGET COVERAGE ==")
-    proposals = extract_literal_assignment(W239, "persona_proposals")
+    proposals = extract_literal_assignment(W239, "perspective_proposals")
     targets = [row[2] for row in proposals]
     check("M1 W239 still contains exactly 30 targets", len(targets) == 30)
     check("M2 W239 targets are unique", len(targets) == len(set(targets)))

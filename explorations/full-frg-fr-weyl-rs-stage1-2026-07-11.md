@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; STAGE 1 of 2 of the full combined FRG computation; deterministic test)
+status: exploration (5-perspective inline team; STAGE 1 of 2 of the full combined FRG computation; deterministic test)
 created: 2026-07-13
 hypothesis: "STAGE 1 -- do the genuine FRG setup + the native ker-Gamma spin-3/2 heat-kernel + REGULATOR FAMILY 1 (Litim/optimized), and COMPUTE (not port) the ker-Gamma spin-3/2 (and leading graviton) contribution to beta_{f_2^2} to read off whether f_2^2* is lifted off zero at regulator 1 -- the HORN-K-vs-HORN-Q decider W87 named as the open deciding computation."
 branch: "W88 -- Stage 1 of the full FRG f(R)+Weyl^2 + ker-Gamma spin-3/2 computation. Truncation setup (York/TT on sphere/dS; spin-2 TT / spin-1 / spin-0 blocks + Weyl 4th-derivative block); native transverse gamma-traceless spin-3/2 heat-kernel a_2 = (7/20)W^2 + (31/120)E_4; regulator family 1 = Litim/optimized threshold functions Phi^p_n(0)=1/n!; the full FRG beta_{f_2^2} STRUCTURE with the graviton-dressing term eta_C; the regulator-1 FP incl. f_2^2*. Reuses W82 (ker-Gamma a_2), W83 (Reuter FP calibration + f_0^2 relevance), W87 (the horn-K-vs-Q fork this settles functionally at regulator 1). Stage 2 reuses this setup for regulators 2-3 and the eta_C off-diagonal computation + cross-regulator verdict."
@@ -184,7 +184,7 @@ scheme -- Codello-Percacci-Rahmede / Reuter-Saueressig). The higher-derivative s
 marginally-irrelevant one -- **exactly consistent with the PART 3 readout `f_2^2* = 0`.** The machinery
 reproduces pure gravity before GU matter is added, so the combined computation is trustworthy.
 
-## 5. Adversary pressure + referee (persona passes)
+## 5. Adversary pressure + referee (perspective passes)
 
 **Referee (computed vs ported).** COMPUTED here: the ker-Gamma spin-3/2 `a_2` and its `f_2^4`-proportional
 entry into `beta_{f_2^2}` (SIGN + structure robust; magnitude schematic); `d_RS_R2 = 0`; the Litim

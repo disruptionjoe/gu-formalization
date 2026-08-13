@@ -19,7 +19,7 @@ scripts:
 
 **Role.** Branch E of the blind Path-2 keep-and-grade loop-positivity wave. My job is the opposite of
 A–D: not to make the rescue work, but to construct the strongest explicit **obstruction** and grade it
-honestly. I ran the five-persona team inline (below). I did **not** synthesize across the other blind
+honestly. I ran the five-perspective team inline (below). I did **not** synthesize across the other blind
 branches; this is Branch E's kill-attempt only.
 
 ## The construction forks I attack (stated per GEOMETER-VS-PHYSICS-OBJECTS.md)
@@ -52,7 +52,7 @@ safely inside." It gives **zero** protection against the renormalization-group t
 boundary, on which the grading provably ceases to exist. **Loop positivity is therefore RG-contingent,
 not structural.**
 
-## Persona 1 — the no-go / locality-theorem specialist: the explicit construction
+## Perspective 1 — the no-go / locality-theorem specialist: the explicit construction
 
 The mechanism is exhibited in closed form on the minimal exceptional-point model — the 2×2 PT
 Hamiltonian, which is the per-mode skeleton of every fourth-order ghost problem (Pais–Uhlenbeck reduces
@@ -87,7 +87,7 @@ This is exactly the structure R1 measured on the full Pais–Uhlenbeck oscillato
 two-line nonexistence theorem at the boundary). The 2×2 model is the clean analytic distillate:
 same mechanism, closed form, no truncation.
 
-## Persona 2 — the math-physics referee: grade, and the circularity check
+## Perspective 2 — the math-physics referee: grade, and the circularity check
 
 - **What is rigorous.** (i) `eta_+` genuinely intertwines `H` (checked to machine zero). (ii) The
   domain structure unbroken/exceptional/broken is exact and closed-form. (iii) The degeneration
@@ -106,7 +106,7 @@ same mechanism, closed form, no truncation.
   **plausibility**. This is a *reframing-strength* no-go: it flips the burden, it does not close the
   question.
 
-## Persona 3 — the adversary-to-the-adversary: a fair repair attempt
+## Perspective 3 — the adversary-to-the-adversary: a fair repair attempt
 
 I genuinely tried to repair the theory against my own obstruction. Four repairs, honestly assessed:
 
@@ -132,7 +132,7 @@ principle* but only by performing the exact open computation — so it confirms 
 unmet burden rather than an artifact. **The no-go is class-wide at the grading level and survives fair
 steelmanning, but it is not a completed kill.** Honest.
 
-## Persona 4 — the cross-checker: the concrete toy
+## Perspective 4 — the cross-checker: the concrete toy
 
 Encoded deterministically in `tests/W52_path2_E_nogo.py` (pure Python, no numpy, exit 0, 7/7):
 
@@ -153,7 +153,7 @@ is `≤ 5.6e-17`. This is the same qualitative structure R1 found on the four-mo
 (`min|nu| ~ eps²`), here reduced to an exact 2×2 skeleton — a genuine second derivation of the
 degeneration, not a re-run.
 
-## Persona 5 — the synthesizer: branch verdict
+## Perspective 5 — the synthesizer: branch verdict
 
 **Graded verdict on the three sub-questions.**
 

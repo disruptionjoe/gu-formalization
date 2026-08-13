@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (directed firm-up swing; 5-persona inline team; literature check read-only + deterministic test)
+status: exploration (directed firm-up swing; 5-perspective inline team; literature check read-only + deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture sectorial closing) -- condition (iii): the two W54/W91-grade facts
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -73,9 +73,9 @@ it is a mass-gap quantity, and mass gaps are all-orders-protected (exponential c
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- Krein-QFT / operator specialist (the two computations)
+### Perspective 1 -- Krein-QFT / operator specialist (the two computations)
 
 **Half (a), the analytic-structure computation.** The keep-and-grade positive metric symbol is, at
 free level, a strictly-signed positive combination of `1/om_i = 1/sqrt(k^2+m_i^2)` (`W54` D1), with
@@ -99,7 +99,7 @@ arbitrary type-III von Neumann algebras with faithful weights (Connes RN cocycle
 the weights. So this half does not degrade order-by-order the way a metric-kernel computation would.
 (`W97` T5: the cocycle identity is exact -- residual `~3e-16` -- at every coupling.)
 
-### Persona 2 -- math referee (all-orders-vs-truncation, graded honestly)
+### Perspective 2 -- math referee (all-orders-vs-truncation, graded honestly)
 
 | Claim | Setting | Grade |
 |---|---|---|
@@ -118,7 +118,7 @@ to an unconditional all-orders theorem: it depends on the reality of the interac
 The referee refuses to let "mass-scale protection" be inflated into "all-orders theorem," and refuses
 to let the value-selection half's algebraic rigor be understated.
 
-### Persona 3 -- ADVERSARY ("interactions delocalize the metric")
+### Perspective 3 -- ADVERSARY ("interactions delocalize the metric")
 
 - *Push 1: "Higher-loop corrections resum into a symbol whose kernel is long-range -- the `~1/m`
   localization is a free-theory accident."* **Answered (`W97` T2).** For the kernel to become
@@ -144,7 +144,7 @@ to let the value-selection half's algebraic rigor be understated.
 The three pushes are consistent: the exp-localization is mass-scale-protected wherever the ghost
 spectrum is real, and the reality of that spectrum is the shared definitizability residual.
 
-### Persona 4 -- cross-checker + literature (read-only, 2026-07-13)
+### Perspective 4 -- cross-checker + literature (read-only, 2026-07-13)
 
 - **Connes RN cocycle theorem** confirmed: `(D psi:D phi)_t` is an exact unitary cocycle in `M` for
   arbitrary type-III von Neumann algebras with faithful normal weights; it intertwines the two modular
@@ -169,7 +169,7 @@ closing only at `t->inf`; T4 real ghost -> branch point on the imaginary axis, c
 booleans. Two faces agree: the localization is mass-gap-protected, the value-selection half is
 algebraic/all-orders, the residual is definitizability.
 
-### Persona 5 -- synthesizer
+### Perspective 5 -- synthesizer
 
 See Sections 2-4.
 

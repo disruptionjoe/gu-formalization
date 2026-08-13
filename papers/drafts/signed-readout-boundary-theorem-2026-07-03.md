@@ -451,7 +451,7 @@ The certificate `tests/big-swing/R3_signed_readout_certificate.py` verifies ever
 Run:
 
 ```
-cd C:/Users/joe/JB/CapacityOS/repos/public/gu-formalization
+cd .
 python tests/big-swing/R3_signed_readout_certificate.py
 ```
 

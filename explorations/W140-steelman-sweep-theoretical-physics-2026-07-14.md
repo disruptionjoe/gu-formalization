@@ -1,10 +1,10 @@
 ---
 artifact_type: exploration
-status: exploration (W140; full-roster steelman sweep, THEORETICAL PHYSICS family; assumption-first by design; 14 personas inline, 28 stories, internal scoring pass against the W138 battery; mid-wave framing correction from Joe applied before finalizing, Section 0)
+status: exploration (W140; full-roster steelman sweep, THEORETICAL PHYSICS family; assumption-first by design; 14 perspectives inline, 28 stories, internal scoring pass against the W138 battery; mid-wave framing correction from Joe applied before finalizing, Section 0)
 created: 2026-07-14
 wave: W140
-hypothesis: "Joe's framing, steelmanned, with the mid-wave correction applied: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it in repo units: rho_Lambda ~ (2.24 meV)^4; bookkeeping issuance Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume (to 3%); dimensionless q_B/(H0^3 M_Pl,red^2) = 9 Omega_L = 6.16. The steelman question per persona: IF that known, measured number is DECLARED as the issuance input to the source action, distributed through the observers, what OTHER information can be backed out (which spec FITs, scales, relations), to be rigorously checked later. Exotic schedules are OUT OF SCOPE by the correction (and independently dead in W135's own taxonomy: drip, holographic, halving). NOT the falsified naive claim that record-creation consumes positive issuance (W137 killed that pointwise; only the signed ledger survives)."
-title: "W140 -- theoretical-physics-family steelman sweep of the issuance-distribution function. 14 personas (Family A, orthodox/rigor/mainstream-physics partition of the 2026-07-11 roster), 2 stories each = 28 candidate distribution functions F, each with an assumption leg (which spec FIT or open object it pins) and a concrete test, scored against the W138 kill battery (G1-G6) and the standing physics (W122/W123/W126 tachyon chain, W128 AS branch, W130 native tree point, W132 C-operator equivalence, W133 family-fork declaration, W136 issuance propagation, W137 signed ledger). 11 stories KILLED-AT-GENERATION with computed or cited reasons; 3 reclassified OUT-OF-SCOPE by the mid-wave framing correction (schedule-drift stories A1-1/A7-1/A12-1: the declared input is the KNOWN MEASURED rate, not a schedule freedom); 14 in-scope survivors; top tier = (1) the Krein-excess distribution (issuance = the pseudo-unitarity excess the C-metric re-books; SET collectively, DISTRIBUTED per positive-subspace observer; positive per observer where the |II|^2 ledger was signed), (2) the C-compression trace distribution (per-observer share = trace density of the compressed C-metric; cheapest test = W137 K2), (3) the two-scale-band uniform issuance (q = 3 H c mu_emb^4; the escape band and the H52 floor envelope intersect almost exactly, computed; falsifiable by a ~1.4x sub-mm floor improvement), (4) the Gibbs-measure AS selector (the distribution exists only if the scalaron is non-tachyonic, so the issuance reading REQUIRES the AS branch: the fork's first issuance-side selector), (5) the observer-dilution exact-LCDM function (total set, per-observer share = total / N_obs(a); pins B_i = 0, f0 = 0 as the prediction). Deterministic scoring arithmetic in tests/W140_steelman_scoring_checks.py (16/16, exit 0; the W135 measured-rate identities Q_tot/L_Planck = (3/2) Omega_L = 1.027 and 9 Omega_L = 6.16 reproduced as anchors N7/N8)."
+hypothesis: "Joe's framing, steelmanned, with the mid-wave correction applied: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it in repo units: rho_Lambda ~ (2.24 meV)^4; bookkeeping issuance Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume (to 3%); dimensionless q_B/(H0^3 M_Pl,red^2) = 9 Omega_L = 6.16. The steelman question per perspective: IF that known, measured number is DECLARED as the issuance input to the source action, distributed through the observers, what OTHER information can be backed out (which spec FITs, scales, relations), to be rigorously checked later. Exotic schedules are OUT OF SCOPE by the correction (and independently dead in W135's own taxonomy: drip, holographic, halving). NOT the falsified naive claim that record-creation consumes positive issuance (W137 killed that pointwise; only the signed ledger survives)."
+title: "W140 -- theoretical-physics-family steelman sweep of the issuance-distribution function. 14 perspectives (Family A, orthodox/rigor/mainstream-physics partition of the 2026-07-11 roster), 2 stories each = 28 candidate distribution functions F, each with an assumption leg (which spec FIT or open object it pins) and a concrete test, scored against the W138 kill battery (G1-G6) and the standing physics (W122/W123/W126 tachyon chain, W128 AS branch, W130 native tree point, W132 C-operator equivalence, W133 family-fork declaration, W136 issuance propagation, W137 signed ledger). 11 stories KILLED-AT-GENERATION with computed or cited reasons; 3 reclassified OUT-OF-SCOPE by the mid-wave framing correction (schedule-drift stories A1-1/A7-1/A12-1: the declared input is the KNOWN MEASURED rate, not a schedule freedom); 14 in-scope survivors; top tier = (1) the Krein-excess distribution (issuance = the pseudo-unitarity excess the C-metric re-books; SET collectively, DISTRIBUTED per positive-subspace observer; positive per observer where the |II|^2 ledger was signed), (2) the C-compression trace distribution (per-observer share = trace density of the compressed C-metric; cheapest test = W137 K2), (3) the two-scale-band uniform issuance (q = 3 H c mu_emb^4; the escape band and the H52 floor envelope intersect almost exactly, computed; falsifiable by a ~1.4x sub-mm floor improvement), (4) the Gibbs-measure AS selector (the distribution exists only if the scalaron is non-tachyonic, so the issuance reading REQUIRES the AS branch: the fork's first issuance-side selector), (5) the observer-dilution exact-LCDM function (total set, per-observer share = total / N_obs(a); pins B_i = 0, f0 = 0 as the prediction). Deterministic scoring arithmetic in tests/W140_steelman_scoring_checks.py (16/16, exit 0; the W135 measured-rate identities Q_tot/L_Planck = (3/2) Omega_L = 1.027 and 9 Omega_L = 6.16 reproduced as anchors N7/N8)."
 grade: "exploration / hypothesis-generation, conditional register throughout. Every statement of the form 'the issuance is/does X' is to be read 'under the issuance declaration (W136 sense), X'; nothing here asserts the declaration. COMPUTED (this wave, deterministic): the two-scale band vs floor-envelope intersection, the SFH-schedule mimic-gate kill factor (~9x), the curvature-invariant dimensional kill (~6e120), the halo-weighting G1b margin (~4e12 headroom), the pinned-point Gibbs sign (f0^2 = -1/8 < 0), plus four positive controls reproducing W138 anchors and two reproducing the W135 measured rate. CITED (not re-derived): the entire W135/W136/W137/W138 evidence pack and the standing-physics chain. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; no FIT row moves; H41 stays unbuilt; H59 stays OPEN."
 construction: "fork named per GEOMETER-VS-PHYSICS-OBJECTS.md, per story below. The observer object is program-native throughout (section sigma: X4 -> Y14, the W137 skeleton); the cosmological gates are standard-field (FRW continuity, ephemeris, Landauer) exactly as W138 built them so they bind any construction. Stories state which side their F lives on."
 depends_on:
@@ -12,8 +12,8 @@ depends_on:
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
-  - explorations/two-track-persona-sweep-2026-07-11/A-orthodox-rigor.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/A-orthodox-rigor.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - explorations/W130-native-graviton-oneloop-block-2026-07-14.md
   - explorations/W132-graded-optical-theorem-physical-subspace-2026-07-14.md
   - explorations/source-action-requirements-spec-2026-07-13.md
@@ -46,7 +46,7 @@ The corrected claim is minimal: science ALREADY KNOWS the dark-energy rate. W135
 - the dimensionless ladder q_B/(H0^3 M_Pl,red^2) = **9 Omega_L = 6.16** (THE O(1) ratio per
   W135; q_B/H0^4 ~ 1e121 is not; reproduced as check N8).
 
-The steelman question per persona is exactly: IF that known measured number is DECLARED as the
+The steelman question per perspective is exactly: IF that known measured number is DECLARED as the
 issuance input to the source action, what OTHER information can be backed out (which spec
 FITs, scales, relations), to be rigorously checked later. Consequences applied to this sweep:
 
@@ -75,9 +75,9 @@ FITs, scales, relations), to be rigorously checked later. Consequences applied t
 Scoring below is re-framed accordingly; kills and gate sheets are unchanged (the battery is
 schedule-agnostic); the survivor count is restated as 14 in-scope.
 
-**Roster.** Family A of the 2026-07-11 two-track persona sweep (orthodox / rigor /
+**Roster.** Family A of the 2026-07-11 two-track perspective sweep (orthodox / rigor /
 mainstream-physics gatekeeper) is the theoretical-physics partition of the roster; all 14
-personas are taken, run inline, sequentially, one context, no sub-agents:
+perspectives are taken, run inline, sequentially, one context, no independent reviewers:
 (1) orthodox gravity theorist, (2) heterodox-rigorous professor (signature crux),
 (3) constructive/lattice QFT theorist, (4) anomaly/index theorist, (5) numerical
 relativist/observational phenomenologist, (6) particle phenomenologist, (7) renormalization/EFT
@@ -89,7 +89,7 @@ theorist, (8) mathematical-physics referee, (9) falsifiability gatekeeper, (10) 
 of WHAT (Hubble volume, horizon area, section count/density, C-operator subspace structure,
 matter content, curvature invariants); (ii) the assumption leg: which spec FIT or open object
 declaring F pins (candidates: mu_DW, B_i, the two-scale escape band, m2_eff, the AF-vs-AS
-branch, the C-operator's structure); (iii) the persona's concrete test.
+branch, the C-operator's structure); (iii) the perspective's concrete test.
 
 **Binding constraints honored throughout** (violations are kills, not caveats):
 
@@ -119,7 +119,7 @@ Landauer stellar gap 1.32e6 -- and two reproduce the W135 measured rate (N7: Q_t
 
 ---
 
-## Part 1: the 28 stories (per persona, two each)
+## Part 1: the 28 stories (per perspective, two each)
 
 Notation: q = issuance rate density (energy per volume per time); the SET total at background is
 q_tot = 3 H rho_L per comoving volume (the fixed-rho_L bookkeeping rate, W138 G1; per the
@@ -128,7 +128,7 @@ Planck luminosities per Hubble volume, dimensionless 9 Omega_L = 6.16); sigma = 
 observer slice = a section X4 -> Y14 (W137 skeleton); H_C+ = the C-operator's maximal positive
 subspace (W132); P_sigma = the sigma-localized compression (W137 C1).
 
-### Persona 1: orthodox gravity theorist (Bach / Stelle / Ostrogradsky lens)
+### Perspective 1: orthodox gravity theorist (Bach / Stelle / Ostrogradsky lens)
 
 **A1-1 (unimodular ledger drift).** F: work in unimodular gravity where Lambda is the
 integration constant; the issuance is its slow drift sourced by a comoving current,
@@ -154,7 +154,7 @@ rho_L it was declared to be. (Secondary kill: Schwarzschild is an Einstein space
 the function is also blind to every vacuum strong-field region.) One line, no computation
 needed beyond the classical identities.
 
-### Persona 2: heterodox-rigorous professor (signature crux)
+### Perspective 2: heterodox-rigorous professor (signature crux)
 
 **A2-1 (causally graded distribution; the signature as the distribution law).** F: the
 per-deformation issuance exchange of an observer slice is the W137 signed form itself, read as
@@ -176,7 +176,7 @@ KILLED-AT-GENERATION: W133 established the family fork is empirically a PERMANEN
 it pins nothing (no FIT moves; the count is source-action-gated) and names no test that could
 distinguish q_i = q_tot/3 from no partition at all. Fails the sweep's own sharpness bar.
 
-### Persona 3: constructive / lattice QFT theorist
+### Perspective 3: constructive / lattice QFT theorist
 
 **A3-1 (the Gibbs measure over sections; the AS-branch selector). TOP-TIER.** F: the issuance
 distributes over observer slices as a Gibbs measure, d mu(sigma) = Z^{-1} exp(-S_ind[sigma])
@@ -204,7 +204,7 @@ the de Sitter identity with no new degree of freedom -- a G5 novelty kill; at an
 schedule is unanchored (no rule picks the blocking rate) and the story is not mathematically
 specific enough to score.
 
-### Persona 4: anomaly / index theorist
+### Perspective 4: anomaly / index theorist
 
 **A4-1 (spectral-flow issuance).** F: q(sigma) = epsilon_0 * (spectral-flow rate through zero
 of the compressed operator P_sigma D P_sigma), records = eigenvalue crossings of the observer's
@@ -225,7 +225,7 @@ Z_(3) = 0, roster file Section synthesis) says no canonical integer-valued invar
 there; the story asks the issuance to be counted by an invariant that provably does not exist
 in that arena.
 
-### Persona 5: numerical relativist / observational phenomenologist
+### Perspective 5: numerical relativist / observational phenomenologist
 
 **A5-1 (record-tracking schedule; SFH-weighted).** F: rho_iss(a) tracks the record-creation
 rate of the observer population, proxied by the cosmic star-formation history:
@@ -253,7 +253,7 @@ wiggle (G2 discipline: it predicts the wiggle is NOT real). Status: SURVIVES (cl
 sheet of the sweep; its weakness is that the background prediction is null, so its novelty
 lives entirely in the distribution leg, which needs A13-1/A13-2 to be measurable).
 
-### Persona 6: particle phenomenologist
+### Perspective 6: particle phenomenologist
 
 **A6-1 (Majorana-channel transduction).** F: the issuance enters the matter sector solely
 through the one dimensionful channel W136 found reachable -- the Majorana mass (SA-Y8):
@@ -271,7 +271,7 @@ the 3:2:1 split is gamma_TT : gamma_phi : gamma_slice, a DEFORMATION-SECTOR spli
 section (W130, W137 C3), not a family split; no repo object connects deformation sectors to
 generations, and W133 makes the family fork empirically a permanent declaration anyway.
 
-### Persona 7: renormalization / EFT theorist
+### Perspective 7: renormalization / EFT theorist
 
 **A7-1 (running-Lambda schedule on the AS branch).** F: rho_iss(a) = rho_L(k(a)) with
 k = xi H(a), the RG-improved running cosmological constant near the Reuter fixed point;
@@ -296,7 +296,7 @@ verbatim the killed B2 form (W138 G4: f0, c_L, alpha_W all failed exactly this w
 the quotiented Connes fiber and cannot appear in rate-invariant structural content). Cited,
 no new computation; included so the family's most tempting move is on the record as dead.
 
-### Persona 8: mathematical-physics referee
+### Perspective 8: mathematical-physics referee
 
 **A8-1 (Q-curvature / conformally covariant density).** F: q(x) = c_Q Q_g(x), the issuance
 density as the Q-curvature (the unique conformally covariant scalar of the right weight,
@@ -314,7 +314,7 @@ identically to E_Lambda = T_dS S_dS / 1.46 with no new degree of freedom -- the 
 equilibrium relabeled, the exact case W138 G5 was built to catch (control confirming the gate
 fires: C3 reproduces the 1.4605). Included as the sweep's positive control on the novelty gate.
 
-### Persona 9: falsifiability gatekeeper
+### Perspective 9: falsifiability gatekeeper
 
 **A9-1 (two-scale-band uniform issuance). TOP-TIER.** F: q = 3 H c mu_emb^4, uniform comoving
 issuance whose scale is the EMBEDDING scale mu_emb (the second scale of W136's named-not-taken
@@ -344,7 +344,7 @@ overlap correction cannot be made exact the partition is ill-defined. G5 risk fl
 weights are uniform the normalization collapses to the horizon identity (relabel). Status:
 SURVIVES provisionally, low rank (well-posed falsifier, weak leg).
 
-### Persona 10: rigor gatekeeper ([speculation] discipline)
+### Perspective 10: rigor gatekeeper ([speculation] discipline)
 
 **A10-1 (two-postulate factorization).** F: q(sigma, a) = q_0(a) * w(sigma) with the SET
 schedule q_0 [POSTULATE 1, the W136 declaration] and the distribution weight w, integral 1,
@@ -369,12 +369,12 @@ slot) or die. Assumption leg: pins C2 and the W103 slot as the unique boundary h
 named integration-by-parts computation (tractable next wave, per W137). Status: SURVIVES as a
 decisive-computation proposal (it is a test-of-the-others more than a rival F).
 
-### Persona 11: historical-priority lens
+### Perspective 11: historical-priority lens
 
 **A11-1 (the Padmanabhan collision; a new novelty sub-gate).** F: the emergent-gravity
 equipartition law dV/dt = l_p^2 (N_surf - N_bulk) H, issuance distributed per bulk degree of
 freedom -- this is Padmanabhan's holographic equipartition, in the literature since 2010. The
-persona's contribution is a G5-extension: any candidate F whose normalization OR distribution
+perspective's contribution is a G5-extension: any candidate F whose normalization OR distribution
 reduces to (N_surf - N_bulk) equipartition (or to Verlinde's entropic force bookkeeping) is
 prior-art relabeled even if it clears the strict dS-identity form of G5. Applied to the sweep:
 A9-2 in its uniform-weight limit fails this sub-gate; A13-1/A13-2 pass it (the C-operator
@@ -384,18 +384,18 @@ criterion (it IS the prior art).
 
 **A11-2 (the Hoyle-Narlikar boundary).** F: continuous-creation C-field, q sourcing matter
 (w = 0) rather than the Lambda channel. KILLED-AT-GENERATION as a rival but kept as a
-boundary marker: steady-state creation is historically dead (CMB), and the persona's verdict
+boundary marker: steady-state creation is historically dead (CMB), and the perspective's verdict
 is that the issuance framing is NOT the C-field precisely when the issuance stays in the
 Lambda channel with w = -1 (+/- the G2 band) -- a useful demarcation line: any story that lets
 issuance source MATTER re-enters the killed steady-state lane and inherits its falsifiers.
 
-### Persona 12: advanced-statistics expert
+### Perspective 12: advanced-statistics expert
 
 **A12-1 (pre-registered one-parameter schedule test).** F: rho_iss(a) = rho_0 exp(integral of
 nu(a) d ln a) with nu pre-registered from whichever surviving story is being tested (A1-1's
 epsilon, A7-1's Reuter-IR nu), then confronted with the actual W129 band-sweep likelihood --
 never fit. Assumption leg: pins B_i as the schedule moments (the statistician's reading of the
-same FIT A1-1 pins). Test: the W129 machinery IS the test; the persona's requirement is
+same FIT A1-1 pins). Test: the W129 machinery IS the test; the perspective's requirement is
 pre-registration discipline (record nu, then run). Status: RECLASSIFIED OUT-OF-SCOPE
 (framing correction, Section 0): under the corrected framing there is no schedule parameter
 to pre-register (the rate is the known measured constant). The methodological residue --
@@ -417,7 +417,7 @@ likelihood extended with a DE-clustering parameter (named work, machinery partia
 the background test passes by construction. Status: SURVIVES (the distribution leg's best
 observable; upgrade path named).
 
-### Persona 13: operator algebraist
+### Perspective 13: operator algebraist
 
 **A13-1 (the C-compression trace distribution). TOP-TIER.** F: q(sigma) = q_tot *
 Tr(P_sigma eta_+ P_sigma) / Tr(eta_+), the per-observer issuance share as the trace density of
@@ -468,7 +468,7 @@ the channel density needs the source-action normalization (H41-adjacent; named b
 Status: SURVIVES, ranked first on novelty + use of standing physics + sign correctness; its
 missing cosmological half is the named price.
 
-### Persona 14: index / K-theory rigorist
+### Perspective 14: index / K-theory rigorist
 
 **A14-1 (eta-invariant flow at the W103 boundary).** F: q(sigma) = epsilon_0 *
 d/dt [eta_APS(P_sigma D P_sigma)] with the APS boundary condition supplied by the W103
@@ -554,7 +554,7 @@ running-Lambda schedule (branch residue folded into A3-1), A12-1 pre-registered 
 
 ### 2.3 What the sweep converges on (the assumption leg, stated once)
 
-Three independent personas' top stories back into the SAME object: **the C-operator.** A13-2
+Three independent perspectives' top stories back into the SAME object: **the C-operator.** A13-2
 needs it to exist (the collective ledger IS the C-metric); A13-1 needs its compression to have
 finite positive trace density (the distribution weight); A3-1 needs the branch on which its
 positive subspace supports a measure (AS). The steelmanned framing, made maximally specific,

@@ -4,7 +4,7 @@ date: 2026-06-24
 status: exploration
 verdict: "OPEN_BACKGROUND_DEPENDENT: the raw constrained K3 RS symbol class is computable and gives an other index in the flat-F branch; the physical gauge-fixed GU RS complex and ch_2(F) are not yet fixed."
 depends_on:
-  - explorations/persona-and-dialectic/persona-review-cross-panel-synthesis-2026-06-24.md
+  - explorations/perspective-and-dialectic/perspective-review-cross-panel-synthesis-2026-06-24.md
   - explorations/generation-sector/generation-count-rs-rank-gate-2026-06-24.md
   - explorations/generation-sector/generation-count-rs-symbol-index-contract-2026-06-24.md
   - explorations/generation-sector/generation-count-rs-clifford-projector-computation-2026-06-24.md
@@ -54,7 +54,7 @@ best status: OPEN_BACKGROUND_DEPENDENT / OPEN_MISSING_SYMBOL_DATA
 
 Required files read in this pass:
 
-- `explorations/persona-and-dialectic/persona-review-cross-panel-synthesis-2026-06-24.md`
+- `explorations/perspective-and-dialectic/perspective-review-cross-panel-synthesis-2026-06-24.md`
 - `explorations/generation-sector/generation-count-rs-rank-gate-2026-06-24.md`
 - `explorations/generation-sector/generation-count-rs-symbol-index-contract-2026-06-24.md`
 - `explorations/generation-sector/generation-count-rs-clifford-projector-computation-2026-06-24.md`

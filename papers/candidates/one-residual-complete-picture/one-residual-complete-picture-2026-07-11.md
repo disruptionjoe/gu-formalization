@@ -121,7 +121,7 @@ wall where the generation count actually lives.
 
 ## 2026-07-13 three-wave consolidation (W119-W126, H46C, H52, Track 2, Yukawa, requirements spec) -- this block GOVERNS Secs 2.4, 4, 6 and the Open premises / honest negatives
 
-Three adversarial waves ran on 2026-07-13 (each result a 5-persona inline team with a deterministic
+Three adversarial waves ran on 2026-07-13 (each result a 5-perspective inline team with a deterministic
 test; every test re-run for this consolidation, W127, exit codes recorded below). Two hard movements
 and one sharpening govern everything downstream of this block:
 

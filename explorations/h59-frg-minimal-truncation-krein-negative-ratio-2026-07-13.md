@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; deterministic test; H59 North-Star flow/grading-side advance)
+status: exploration (5-perspective inline team; deterministic test; H59 North-Star flow/grading-side advance)
 created: 2026-07-13
 hypothesis: H59
 branch: "W119 -- FIRST minimal FRG truncation probing the Krein grading at the negative fixed-ratio: does the one-loop AF picture (unique Gaussian UV FP, negative fixed ratio f_0^2/f_2^2 < 0, RG-stable spin-2 grading) SURVIVE or BREAK when the one-loop betas are replaced by a Wetterich-equation truncation (EH + Weyl^2 + R^2, three regulator families), with the ghost-mass construction fork carried on both branches?"
@@ -57,7 +57,7 @@ Deterministic test: `tests/W119_h59_frg_krein_negative_ratio.py` (17/17, exit 0;
 | **Positivity object** | positive Hilbert space | Krein keep-and-grade `[P,S]=0` | Keep-and-grade. What is tracked here is the GRADING's distance to the exceptional locus `m2^2 = 0` (branch-E/W53 object), NOT loop positivity itself (out of scope; W48 gate). |
 | **eta_C scheme** (within-physics, W89) | EH-adapted `Z_h = Z_N` -> `eta_C > 0` | Weyl-adapted `Z_h = 1/f_2^2` -> `eta_C = 0` | IMPORTED as W89's open two-scheme fork; both branches' consequences for the grading computed (Section 4, D3). Not re-decided. |
 
-## 1. Persona 1 -- FRG practitioner: truncation, regulators, ported-vs-derived
+## 1. Perspective 1 -- FRG practitioner: truncation, regulators, ported-vs-derived
 
 **Truncation chosen (minimal defensible).** Polynomial `f(R)`-to-`R^2` + `Weyl^2` + canonical
 Einstein-Hilbert dimensionless pair `(g = G k^2, lambda = Lambda/k^2)` -- the W88 Stage-1 truncation,
@@ -87,7 +87,7 @@ all families and the three relevant `(p,n)` types is `[0.50, 2.47]` (deliberatel
   marginal couplings are universal (regulator-independent), so the dressing question only bites along
   the flow at finite `(g, lambda)`.
 
-## 2. Persona 2 -- Krein/PT specialist: where positivity enters, and what would falsify grading stability
+## 2. Perspective 2 -- Krein/PT specialist: where positivity enters, and what would falsify grading stability
 
 The Krein grading enters the truncation at exactly one place: the **spin-2 TT block's pole structure**.
 The positivity-defining grading `eta_+` degenerates precisely on the exceptional locus `m2^2 = 0`
@@ -114,7 +114,7 @@ So within this truncation, grading RG-stability at all finite scales is not mere
 *forced* by threshold positivity plus the sign of `b_2`. The only remaining soft spot is the UV endpoint
 itself, and that is exactly where the two named forks (ghost-mass branch, eta_C scheme) live.
 
-## 3. Persona 3 -- higher-derivative gravity expert: against known 4th-order results; the fork carried
+## 3. Perspective 3 -- higher-derivative gravity expert: against known 4th-order results; the fork carried
 
 **Check against Stelle/agravity/FT-AB.** At the Gaussian point the dressed system reduces to the known
 one-loop 4th-order results by universality: `b_2 = 133/10 + matter` (Fradkin-Tseytlin;
@@ -142,7 +142,7 @@ asymptotically free alongside the non-Gaussian EH-sector FP. Nothing found here 
   fork-branch combinations end clear of the locus; only (agravity mass) x (Weyl-adapted scheme) pinches,
   and that pinch is at the free point where the ghost decouples.
 
-## 4. Persona 4 -- numerical/symbolic engineer: the reproducible system
+## 4. Perspective 4 -- numerical/symbolic engineer: the reproducible system
 
 `tests/W119_h59_frg_krein_negative_ratio.py`, 17/17 checks, exit 0. Structure:
 
@@ -164,7 +164,7 @@ asymptotically free alongside the non-Gaussian EH-sector FP. Nothing found here 
   Margin 2.9x on the deliberately worst-case reading; the realistic band (p=2 integrals only, per W89:
   `[0.5, 1.12]`) supplies 5.0, margin 14x.
 
-## 5. Persona 5 -- adversarial skeptic: trying to break AF
+## 5. Perspective 5 -- adversarial skeptic: trying to break AF
 
 **Attack 1: "the one-loop no-interacting-FP theorem (H60) is an artifact -- beyond one loop a
 non-Gaussian FP appears and kills the AF story."** PARTLY LANDS, in the already-catalogued way. The

@@ -166,7 +166,7 @@ Weyl²-shape) is needed to get a non-scalar curvature-squared symbol at all.
 
 - **Imported definiteness (BIG-SWING-1's killer)?** NOT present — and that is the point. Nothing here
   imports a positive metric; the swing *measures whether the dynamics can supply one* and finds it
-  cannot. The only definite object in the run is the C3 control, explicitly labeled NOT GU-native and
+  cannot. The only definite object in the investigation is the C3 control, explicitly labeled NOT GU-native and
   used solely as the discriminator.
 - **Tautological closure / zero discriminating power (BIG-SWING-1 defects 2–3, R2's forced-parity
   trap)?** NOT present. The classifier returns three different verdicts on three different input

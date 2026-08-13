@@ -38,7 +38,7 @@ inside a norm-square only if the two isotypic components carry OPPOSITE Krein
 signatures -- and that relative Krein sign on the (9,5) q=5 frontier is the
 GATED (TaF-owned) object.
 
-FIVE personas inline (category theorist; tri-repo bridge architect; foundations/
+FIVE perspectives inline (category theorist; tri-repo bridge architect; foundations/
 structural theorist; symbolic engineer; adversarial skeptic).  Deterministic
 sympy + a finite-group averaging exhibit; positive controls first.
 Run:  python -u tests/W165_universal_property_and_sign.py   (exit 0 iff all PASS).
@@ -250,11 +250,11 @@ check("PC4: W159 det[[a1_II,a1_H],[c_R_II,c_R_H]] = 4/9 != 0 (the SIGN-FREE resu
       det159 == Q(4, 9), f"det = {det159}")
 
 # ===========================================================================
-# PERSONA 1 -- category theorist: does invariance (a universal property) FORCE a
+# PERSPECTIVE 1 -- category theorist: does invariance (a universal property) FORCE a
 # point, or only a projective family?  EXHIBIT the isotypic / Schur count.
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 1 -- category theorist: what a universal property actually forces")
+log("PERSPECTIVE 1 -- category theorist: what a universal property actually forces")
 log("=" * 78)
 # The named forcing candidates (two-track slice B: Willmore/GJMS uniqueness,
 # Kempf-Ness moment-map norm-square, Connes spectral action) all pick out a
@@ -326,17 +326,17 @@ check("U1b (EXHIBIT): the two invariants (tr S)^2 and tr(S^2) are INDEPENDENT "
       "family is a genuine 1-parameter projective line -- this IS GU's shape family "
       "alpha|II|^2 + beta|H|^2, matching W159's det=4/9 (2 independent forms)",
       tab.rank() == 2, f"rank = {tab.rank()}")
-log("  PERSONA 1: the universal property (invariance) is EXHIBITED to force only a 1-param")
+log("  PERSPECTIVE 1: the universal property (invariance) is EXHIBITED to force only a 1-param")
 log("  projective family, not a point.  Any single-point forcing needs an EXTRA rigidifier")
 log("  (a Kaehler/complex structure, or a preferred inner-product scale) beyond invariance.")
 
 # ===========================================================================
-# PERSONA 3 -- foundations/structural: COHERENT vs FORCED.  The new lever: c_R is
+# PERSPECTIVE 3 -- foundations/structural: COHERENT vs FORCED.  The new lever: c_R is
 # SHAPE-BLIND, so which point the extra rigidifier lands on decides the sign.
-# (Persona 3 before 2 so the bridge has the sign fact in hand.)
+# (Perspective 3 before 2 so the bridge has the sign fact in hand.)
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 3 -- foundations/structural: the c_R degeneracy and the sign map")
+log("PERSPECTIVE 3 -- foundations/structural: the c_R degeneracy and the sign map")
 log("=" * 78)
 alpha, beta = sp.symbols('alpha beta', real=True)
 a1_fam = sp.expand(alpha * a1v + beta * a1H)
@@ -355,16 +355,16 @@ check("U3 (NEW): therefore sign(c_R) = -sign(alpha+beta).  W159's det=4/9 indepe
       and sp.simplify(sp.diff(cR_fam, alpha) - sp.diff(cR_fam, beta)) == 0
       and sp.diff(a1_fam, alpha) != sp.diff(a1_fam, beta),
       f"a1_fam = {a1_fam}")
-log("  PERSONA 3: COHERENT is being conflated with FORCED exactly here.  A norm-square is")
+log("  PERSPECTIVE 3: COHERENT is being conflated with FORCED exactly here.  A norm-square is")
 log("  COHERENT for any weights; whether it is HEALTHY is the one-bit sign of alpha+beta,")
-log("  which invariance does NOT fix (Persona 1).  Forcing the action does NOT force the sign.")
+log("  which invariance does NOT fix (Perspective 1).  Forcing the action does NOT force the sign.")
 
 # ===========================================================================
-# PERSONA 5 -- adversarial skeptic (brought forward): steelman 'a universal
+# PERSPECTIVE 5 -- adversarial skeptic (brought forward): steelman 'a universal
 # property WOULD force health'.  Evaluate the conformally-natural forced points.
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 5 -- adversarial skeptic: do the NAMED universal properties force HEALTH?")
+log("PERSPECTIVE 5 -- adversarial skeptic: do the NAMED universal properties force HEALTH?")
 log("=" * 78)
 # Steelman: 'invariance + a conformal-weight/positivity rigidifier forces a POINT, and that
 # point is healthy.'  The conformally-natural rigidifier (Willmore/GJMS) selects the
@@ -388,7 +388,7 @@ check("U5 (NEW): any POSITIVE-total-weight norm-square (alpha+beta > 0 -- the Ke
       cR_fam.subs({alpha: 1, beta: 1}) < 0 and cR_fam.subs({alpha: 3, beta: 1}) < 0
       and cR_fam.subs({alpha: 1, beta: 3}) < 0
       and cR_fam.subs({alpha: -2, beta: 1}) > 0)     # W159's healthy point needs alpha < 0
-log("  PERSONA 5 verdict: the steelman FAILS.  The named universal properties, when actually")
+log("  PERSPECTIVE 5 verdict: the steelman FAILS.  The named universal properties, when actually")
 log("  evaluated, force the TACHYONIC point -- they do NOT force health.  The two-track hope")
 log("  ('a universal property would force the action, so the sign is settled') is inverted:")
 log("  forcing the action via a norm-square FORCES the tachyon.")
@@ -413,11 +413,11 @@ check("NC1 (control): a HYPOTHETICAL action with c_R_II != c_R_H does NOT collap
                                        - Q(-4, 9) * (alpha + beta)) == 0)
 
 # ===========================================================================
-# PERSONA 2 -- tri-repo bridge architect: what the completion needs from across
+# PERSPECTIVE 2 -- tri-repo bridge architect: what the completion needs from across
 # the gate.  GATED CONJECTURE ONLY (no cross-repo identity asserted).
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 2 -- tri-repo bridge architect: the GATED conjecture (no identity claim)")
+log("PERSPECTIVE 2 -- tri-repo bridge architect: the GATED conjecture (no identity claim)")
 log("=" * 78)
 # Inside a norm-square, alpha+beta < 0 (health) is reachable WITHOUT leaving the norm-square
 # ONLY IF the two isotypic components (trace H = record-count/BLMS mode; trace-free II_0 =
@@ -438,7 +438,7 @@ check("U6: the (9,5) |II| inner products are INDEFINITE (w2 = <II_1,II_1> = -64 
 # (m^2 < 0, runaway = one-way growth) is precisely an irreversible mode.  CONJECTURE: the
 # scalaron sign is the geometric stamp of the finality-frontier signature on the record-count
 # mode; forcing c_R > 0 (a stable scalaron) would remove the arrow (a dead, non-accreting
-# geometry -- the autopoiesis reading, W156 persona 9).  GATED: the tri-repo identity is NOT
+# geometry -- the autopoiesis reading, W156 perspective 9).  GATED: the tri-repo identity is NOT
 # asserted (needs >=2 adapter contracts; single-process caution; TaF capability results are
 # finite-witness, T110 the only general one and it is NEGATIVE).
 gate_respected = True   # no cross-repo identity is asserted anywhere in this file
@@ -450,7 +450,7 @@ check("U7 (GATED CONJECTURE, stated not asserted): the completion NEEDS, from ac
       "stable scalaron = dead geometry).  Either way the SIGN becomes a THEOREM of the "
       "finality structure -- but the identity stays GATED (no assertion here)",
       gate_respected)
-log("  PERSONA 2: the bridge is a CONJECTURE about what TaF's object would supply, with the")
+log("  PERSPECTIVE 2: the bridge is a CONJECTURE about what TaF's object would supply, with the")
 log("  tri-repo identity untested.  It does NOT convert the debit within the gate.")
 
 # ===========================================================================
@@ -459,15 +459,15 @@ log("  tri-repo identity untested.  It does NOT convert the debit within the gat
 log("\n" + "=" * 78)
 log("SYNTHESIS -- the abstraction-level verdict")
 log("=" * 78)
-log("  PERSONA 1 (category):    invariance forces a 1-param PROJECTIVE family, not a point")
+log("  PERSPECTIVE 1 (category):    invariance forces a 1-param PROJECTIVE family, not a point")
 log("                           (EXHIBITED: O(3)-invariant quadratic forms of II = 2-dim).")
-log("  PERSONA 3 (foundations): c_R is SHAPE-BLIND (c_R = -(4/9)(alpha+beta)); the sign is a")
+log("  PERSPECTIVE 3 (foundations): c_R is SHAPE-BLIND (c_R = -(4/9)(alpha+beta)); the sign is a")
 log("                           one-bit function of the total weight, orthogonal to shape.")
-log("  PERSONA 5 (skeptic):     the NAMED norm-square universal properties (Willmore/GJMS,")
+log("  PERSPECTIVE 5 (skeptic):     the NAMED norm-square universal properties (Willmore/GJMS,")
 log("                           Kempf-Ness, spectral action), when EVALUATED, force the")
 log("                           TACHYONIC point -- NO GU-internal universal property forces")
 log("                           health.  The two-track hope is INVERTED.")
-log("  PERSONA 2 (bridge):      health (alpha+beta<0) needs OPPOSITE isotypic Krein signs, an")
+log("  PERSPECTIVE 2 (bridge):      health (alpha+beta<0) needs OPPOSITE isotypic Krein signs, an")
 log("                           object on the (9,5) q=5 finality frontier owned by TaF's")
 log("                           capability measure.  GATED CONJECTURE: the scalaron sign is")
 log("                           the finality-frontier stamp; the tachyon may BE the")

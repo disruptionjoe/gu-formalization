@@ -44,7 +44,7 @@ WHAT IS COMPUTED PER BAND POINT (M^2, ansatz):
      exclusion claim attaches to "the theta sector as the DESI signal", not to one
      number.
 
-ESCAPE CRITERION (stated in advance, statistician persona).  Burnham-Anderson
+ESCAPE CRITERION (stated in advance, statistician perspective).  Burnham-Anderson
 conventional AIC reading: dAIC <= 2 substantial support, 4-7 considerably less,
 >= 10 essentially none.  We call a band point an ESCAPE if it is (i) ADMISSIBLE per
 the OQ2 analysis (ground eigenvalue of a named root-system assignment, not an excited

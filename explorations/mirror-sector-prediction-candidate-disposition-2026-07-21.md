@@ -3,10 +3,9 @@ title: "Mirror-sector prediction candidate disposition: blocked at physical prod
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-run_ref: RUN-20260721-083518-repository-work-cycle-cai-hourly
+run_ref: historical-investigation
 portfolio_item: PRED-CANDIDATE-PACKETS
 outcome: MIRROR-PACKET-BLOCKED-PRODUCIBILITY
-claim_status_change: none
 ---
 
 # Mirror-sector candidate does not freeze

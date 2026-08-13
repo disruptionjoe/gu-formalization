@@ -4,7 +4,7 @@
 HOSTILE-REFEREE re-verification of LEG: tmf / string-oriented escape.
 
 Independent re-derivation (NOT trusting the leg's own script). Every string/tmf/
-triality/bordism fact is re-fetched from primary sources this run and the numeric
+triality/bordism fact is re-fetched from primary sources this investigation and the numeric
 core re-computed with exact arithmetic. Two hostile attacks are added that the leg
 did not run:
 

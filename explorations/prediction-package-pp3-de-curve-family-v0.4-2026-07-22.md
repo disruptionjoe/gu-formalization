@@ -8,7 +8,6 @@ package_status: FROZEN_CONDITIONAL_THREE_BRANCH_CURVE_FAMILY
 frozen_at: "2026-07-22T17:38:45-05:00"
 supersedes: explorations/prediction-package-pp3-de-curve-family-v0.3-2026-07-22.md
 owner_item: PRED-CANDIDATE-PACKETS
-lane_id: "2"
 directed_by: "Joe direct chat, 2026-07-22 (prepare, adversarially check, commit, and push everything required before publication approval)"
 extends:
   - lab/process/prediction-package-standing-rule.md
@@ -22,9 +21,7 @@ receipts:
   - explorations/receipts/pp3-v0.4/pp3-v0.4-locus.csv
   - explorations/receipts/pp3-v0.4/pp3-v0.4-observables.csv
   - explorations/receipts/pp3-v0.4/pp3-v0.4-summary.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

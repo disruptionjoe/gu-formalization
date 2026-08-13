@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W178 / TEAM BUILD-NUMERICAL, label W178; coherence-first BUILD sprint, exploration grade; 5 personas inline, one worker, no sub-agents; one deterministic test 14/14 exit 0 with positive + negative controls)"
+status: "exploration (W178 / TEAM BUILD-NUMERICAL, label W178; coherence-first BUILD sprint, exploration grade; 5 perspectives inline, one worker, no independent reviewers; one deterministic test 14/14 exit 0 with positive + negative controls)"
 created: 2026-07-14
 wave: W178
 label: W178
@@ -40,7 +40,7 @@ spontaneously broken PT = no positive metric = **NOT-OPERATIVE** -- but *only if
 **reaches the physical sheet**, which W124 established only on a MODEL self-energy and which is
 H59's open W48 object. This team builds a finite **numerical** model that respects the load-bearing
 structure and computes the two decisive quantities the analytic route could not reach. Five
-personas ran inline, one worker; deterministic test `tests/W178_build_numerical_spectral_model.py`
+perspectives ran inline, one worker; deterministic test `tests/W178_build_numerical_spectral_model.py`
 (**14/14, exit 0**).
 
 ## 0. The one object and the construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md)
@@ -53,7 +53,7 @@ personas ran inline, one worker; deterministic test `tests/W178_build_numerical_
 | **PT symmetry** | unbroken (real spectrum, C exists) vs spontaneously broken (complex pair, no C) | the exceptional point / physical-sheet crossing is exactly the boundary. |
 | **The ghost kinematics** | ghost BELOW the continuum threshold (gap-protected, stable) vs ABOVE it (can decay = Stelle massless-graviton case, W51 open channel) | **The whole verdict brackets on this axis** -- Model A is the first regime, Model B the second. |
 
-## 1. Persona 1 -- numerical-QFT / lattice specialist: the finite model and the truncation
+## 1. Perspective 1 -- numerical-QFT / lattice specialist: the finite model and the truncation
 
 Two complementary finite models, each respecting a different part of the load-bearing structure.
 
@@ -79,7 +79,7 @@ physical coupling or its exact dressed self-energy. So both **decide the STRUCTU
 **locates thresholds**, but the absolute verdict inherits the H59/W48 gap. Stated up front; not
 walked back later.
 
-## 2. Persona 2 -- Krein / PT specialist: the C-metric positivity sweep (Model A, reusing W171/W132/W132)
+## 2. Perspective 2 -- Krein / PT specialist: the C-metric positivity sweep (Model A, reusing W171/W132/W132)
 
 For a K-pseudo-Hermitian `H(g)` with real spectrum the positive metric is
 `eta_+ = (P P^dag)^{-1}` (with `P` the right-eigenvector matrix; equivalently W171's `eta_+ = e^{-Q}`,
@@ -110,7 +110,7 @@ spontaneously broken, no positive metric, NOT-OPERATIVE**. The **normal-sign con
 vertex, metric `= I`, no ghost) stays real for all `g` up to 20: **the exceptional point is
 specific to the Krein/ghost (indefinite-metric) sign**, not a generic feature.
 
-## 3. Persona 3 -- spectral / resummation specialist: the ghost-pole sheet (Model B, the W172 decider)
+## 3. Perspective 3 -- spectral / resummation specialist: the ghost-pole sheet (Model B, the W172 decider)
 
 The physically-anchored kinematics: the massive spin-2 ghost sits **above** the two-graviton
 threshold (`M^2 = 1.0 > s_th = 0.1`) -- this is exactly the Stelle massless-graviton decay channel,
@@ -144,7 +144,7 @@ W132 wrong-sign width / W51 `Im Sigma > 0` realized numerically.
 So on the physically-anchored kinematics the ghost pole **does** reach the physical sheet: the
 W172 no-go's *signal* is *realized* in a rigorous (argument-principle) model computation.
 
-## 4. Persona 4 -- symbolic / numerical engineer: the test and its controls
+## 4. Perspective 4 -- symbolic / numerical engineer: the test and its controls
 
 `tests/W178_build_numerical_spectral_model.py`, **14/14, exit 0** (numpy only; seed 20260714 pins
 the single fixed random vertex block). **Positive controls run FIRST**: **PC1** the
@@ -159,7 +159,7 @@ second sheet (0 physical-sheet poles). Every load-bearing number has two routes 
 control (W138 discipline). Exactness where it matters: Model A's K-Hermiticity residual is `0.0`;
 the argument-principle counts are integers to 3-4 digits.
 
-## 5. Persona 5 -- adversarial skeptic: do not over-read a finite model
+## 5. Perspective 5 -- adversarial skeptic: do not over-read a finite model
 
 **Steelman the kill (Model B).** On the physically-correct Stelle kinematics -- massive ghost above
 the two-graviton threshold, `Im Sigma(M^2) > 0` established (W51), width sign anti-damping

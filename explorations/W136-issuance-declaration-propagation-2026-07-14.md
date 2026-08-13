@@ -1,12 +1,12 @@
 ---
 artifact_type: exploration
-status: exploration (assume-and-propagate wave; 5-persona inline team; deterministic test)
+status: exploration (assume-and-propagate wave; 5-perspective inline team; deterministic test)
 created: 2026-07-14
 wave: W136
 hypothesis: "H41 lineage / the 2026-07-14 propose-then-kill wave -- ASSUME the issuance postulate, PROPAGATE it through the source-action requirements spec, record what clicks and what dies"
 title: "W136 -- the ISSUANCE-DECLARATION propagation run. DECLARED POSTULATE (never asserted): the observed dark-energy density rho_Lambda,obs ~ (2.3 meV)^4 is a fixed issuance supplied through the source action from outside the geometry, entering via the source/boundary term (a boundary energy flux whose bulk signature is a Lambda-mimic), NOT via the falsified H36 route. VERDICT of the propagation: ONE new exact structural product plus one determined FIT pair plus two kills plus one honest nothing. (1) NEW EXACT NUMBER: the |H|^2 (Willmore) slice decomposition is computed for the first time, h = (h0, h1, h2, h3) = (-1, 4/3, -4/9, 0), so the wave35 family flat constant is a0(alpha,beta) = 2 alpha - beta and BULK-FLATNESS selects the UNIQUE ratio beta/alpha* = 2: under the issuance declaration plus the physical-constant reading plus the sub-mm floor, SA-G5 is pinned to 2 within |x-2| <~ 2e-60 -- the first propagation that DETERMINES a spec FIT row. At the point: the Einstein channel survives attractive (family a1 = 3), the flat tadpole vanishes (flat space becomes a genuine vacuum, discharging the W130 Lambda = -1 tadpole note), the MSS reduction is F(R) = 3R - R^2, and the tree scalaron STAYS tachyonic (family c_R = -4/3 < 0): the issuance selection does NOT cure the tachyon. (2) DETERMINED PAIR: B_i = 0 and f0 = 0 become the natural point (the constant is carried by the boundary supply); exact LCDM in the DE channel, strictly inside every W129 band bound -- the issuance reading converts W129's 'everything allowed is a mimic' from an embarrassment into the prediction. (3) KILLS: the naive do-not-subtract reading of the W126 constant a0 = +2 is DEAD in both measure-fork charts at any allowed mu_DW (Einstein-anchored chart: Lambda_ind/mu^2 = a0/(2 a1) = 3 exactly, Omega-independent, so matching observation forces mu = sqrt(Omega_L) H0 ~ 1.2e-33 eV, ~30 orders below the sub-mm floor, and at the floor the induced Lambda overshoots by ~8e60; mu^4-anchored chart: mu_emb = 1.93/2.94 meV, both below the floor, overshoot 1.9-35x). The two-scale escape (an embedding scale distinct from the operator scale) is named, not taken: it needs an O(1) geometric ratio mu_emb/mu_DW in [0.41, 0.57] (c = 2 chart) and a revision of the H24 one-scale structure. (4) SPURIONS: one dimensionful issuance datum provably cannot feed the dimensionless Yukawa-hierarchy data (SA-Y7b/SA-Y5 untouched); the single order-of-magnitude alignment is the Majorana channel (2.3 meV within ~1 order of the neutrino band; seesaw conversion v^2/rho^{1/4} = 1.3e16 GeV), OOM-tier, comparison-only. (5) CURE SECTOR: honest NO -- the leakage law is dimensionless and Hom-disjoint from the Lambda channel; no cure-sector scale relation unlocks."
 grade: "exploration / conditional-theorem register throughout. The issuance is a DECLARED postulate in the spec's DECLARATION sense; nothing here asserts it; every 'X under the issuance' is a statement of the conditional theory, never of GU. COMPUTED (exact sympy): the NEW |H|^2 slice decomposition (replicating the W126 Route-1 machinery verbatim, regression-pinned to the W126 slice coefficients (2, 1/3, 8/9, -4) and the Part-0 curvature pin before extraction); the bulk-flatness point beta/alpha* = 2 and the family coefficients at it; the fork-A ratio identity a0/(2 a1) = 3 (Omega-independent). COMPUTED (floats vs cited anchors): the kill arithmetic (Planck anchor, H52-cited floor envelope recomputed), the pin width, the f0/W129 containment, the spurion OOM ledger. BINDING constraints honored: H36 (rho = c_L mu_DW^4) FALSIFIED and never re-adopted (mu_DW is nowhere re-identified with the DE scale); the B2 rate-identity is FALSE and no rate identity is used; tri-repo gating: 'issuance' is used here as a named local postulate label only -- the issuance CONCEPT is owned by the temporal-issuance repo and NO cross-repo identity claim is made (the R5 issuance-bridge kill stands). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; no FIT row moves in the spec (the determinations are conditional on the declaration); H41 stays unbuilt; H59 stays OPEN."
-construction: "program-native throughout (GEOMETER-VS-PHYSICS-OBJECTS.md): the |H|^2 computation uses the pinned ii-s Convention-B literal-graph construction (the same code path as W126 Route 1); the boundary-term formulation (Persona 1) is a standard-field EFT wrapper explicitly labeled as such; forks carried, not resolved (keep-vs-subtract slice reference: the ENTIRE beta/alpha* = 2 selection lives on the KEEP branch; measure fork: the selection condition is measure-stable because both flat constants live on the dphi = 0 slice where the measures agree pointwise)."
+construction: "program-native throughout (GEOMETER-VS-PHYSICS-OBJECTS.md): the |H|^2 computation uses the pinned ii-s Convention-B literal-graph construction (the same code path as W126 Route 1); the boundary-term formulation (Perspective 1) is a standard-field EFT wrapper explicitly labeled as such; forks carried, not resolved (keep-vs-subtract slice reference: the ENTIRE beta/alpha* = 2 selection lives on the KEEP branch; measure fork: the selection condition is measure-stable because both flat constants live on the dphi = 0 slice where the measures agree pointwise)."
 depends_on:
   - explorations/source-action-requirements-spec-2026-07-13.md
   - explorations/W126-beyond4th-vacuum-lift-2026-07-13.md
@@ -46,7 +46,7 @@ one previously built bridge attempt in this repo (R5, the chiral-block-tie selec
 KILLED, and no cross-repo identity claim is made or implied here. The B2 rate identity is
 FALSE (binding); no rate statement is used anywhere below.
 
-Five personas inline, one context, no sub-agents. Deterministic test:
+Five perspectives inline, one context, no independent reviewers. Deterministic test:
 `tests/W136_issuance_declaration_propagation.py` (31 checks, exit 0; the symbolic part
 replicates the W126 Route-1 machinery verbatim and regression-pins it to the W126 slice
 coefficients before extracting anything new).
@@ -58,10 +58,10 @@ coefficients before extracting anything new).
 | II / H of the section | ii-s Convention-B literal graph, vertical representative + normal lift (the W126 Route-1 code path, replicated verbatim) | The repo's pinned construction; the |H|^2 slice decomposition is NEW but computed inside the pinned convention, controls first. |
 | Keep-vs-subtract slice reference | KEEP branch | The beta/alpha* = 2 selection EXISTS ONLY on the keep branch: on the subtract branch the flat constant is identically zero for every (alpha, beta) and the issuance is a pure boundary datum with no SA-G5 leverage. FORK-DEPENDENT, flagged, not resolved. |
 | Measure | slice-stable | Both flat constants (a0 = 2, h0 = -1) live on the dphi = 0 slice where the two measures agree pointwise (W126), so the selection CONDITION is measure-fork-stable; quadratic-operator magnitudes differ by sector exactly as W130 quantified. |
-| Boundary-term wrapper | standard-field EFT (labeled) | Persona 1's covariant bookkeeping is the standard boundary-source formulation; the GU-native home of the flux (which boundary of Y14 or of X4, and which source-action term carries it) is DECLARED, not derived. |
+| Boundary-term wrapper | standard-field EFT (labeled) | Perspective 1's covariant bookkeeping is the standard boundary-source formulation; the GU-native home of the flux (which boundary of Y14 or of X4, and which source-action term carries it) is DECLARED, not derived. |
 | The two-scale escape (fork B) | named, not taken | A second dimensionful scale mu_emb distinct from mu_DW contradicts the H24 ratio-only one-scale structure unless a new mechanism supplies the O(1) ratio; carried as a named target with its band computed. |
 
-## 1. Persona 1 -- EFT theorist: the boundary-flux formulation and its bookkeeping
+## 1. Perspective 1 -- EFT theorist: the boundary-flux formulation and its bookkeeping
 
 **The wrapper.** Declare a source term whose variation contributes a pure-trace,
 covariantly constant stress piece: S_iss supplies T^iss_{mu nu} = -rho_iss g_{mu nu} in
@@ -77,10 +77,10 @@ data already in the repo.
 **Where it must NOT enter.** The declaration explicitly does not route through
 rho = c_L mu_DW^4: the bulk DeWitt constant is a property of the geometry, the issuance is
 a property of the source. That distinction is what the whole propagation below turns on:
-if the geometry's own constant is kept physical it must be confronted separately (Persona
+if the geometry's own constant is kept physical it must be confronted separately (Perspective
 2), and the honest finding is that the issuance reading FORCES a position on it.
 
-## 2. Persona 2 -- differential geometer: thread B1, the W126 constant, worked exactly
+## 2. Perspective 2 -- differential geometer: thread B1, the W126 constant, worked exactly
 
 **The question as posed.** W126 computed the |II|^2 flat constant EXACTLY: a0 = +2,
 sitting next to the Einstein coefficient a1 = +1/3, currently subtracted as background
@@ -167,7 +167,7 @@ then the sub-mm phenomenology numbers (m2_eff, the floor itself) are quoted at t
 existing construction and FLAGGED for recomputation at the selected ratio. This is the
 settling computation this thread hands to a successor wave.
 
-## 3. Persona 3 -- rep theorist: SHIAB-05 and the spurion rows
+## 3. Perspective 3 -- rep theorist: SHIAB-05 and the spurion rows
 
 Do the Majorana channel (SA-Y8) and the Yukawa hierarchy (SA-Y5/SA-Y7b) admit ONE
 issuance normalization that also feeds the Lambda-mimic?
@@ -196,7 +196,7 @@ brief's question is: no INCOMPATIBILITY (no kill), no consistent SINGLE normaliz
 either -- the two spurion demands (dimensionless hierarchy data, dimensionful Majorana
 scale) are of different kinds, and only the second is even in the issuance's reach.
 
-## 4. Persona 4 -- the C2/cure sector: is the issuance the missing scale input?
+## 4. Perspective 4 -- the C2/cure sector: is the issuance the missing scale input?
 
 W125 proved the causal cure pins only dimensionless numbers (g = 1, t* = -1/6, both exact)
 and unlocked zero gated numbers, with the missing ingredient identified as a dimensionful
@@ -219,7 +219,7 @@ scale input" diagnosis is answered in the gravity sector, not the cure sector. T
 bridge into the RS sector would be mu_DW itself, and identifying the issuance scale with
 mu_DW is the falsified H36 (refused, binding).
 
-## 5. Persona 5 -- adversarial skeptic: the kill list, and the steelman
+## 5. Perspective 5 -- adversarial skeptic: the kill list, and the steelman
 
 **The steelman NOTHING-CLICKS was run first**, and it loses on one count and wins on
 three:
@@ -305,7 +305,7 @@ and one fork dependence (keep-branch).
   evidence.
 - The sub-mm floor, W129 bounds, Planck anchors are cited/recomputed, not re-derived.
 
-*Filed 2026-07-14. Five personas run inline in one session (EFT theorist, differential
+*Filed 2026-07-14. Five perspectives run inline in one session (EFT theorist, differential
 geometer, rep theorist, numerical engineer, adversarial skeptic). Reproducible:
 `python -u tests/W136_issuance_declaration_propagation.py` (31/31, exit 0). Exploration
 grade; no canon movement; H41 stays unbuilt; H59 stays OPEN.*

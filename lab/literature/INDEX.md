@@ -7,7 +7,7 @@ updated_at: "2026-05-31"
 
 # Deep-Research Briefs — Navigation Index
 
-Four literature-anchored synthesis briefs surveying existing published work on the four highest-priority substrate-level invariant questions identified by the persona-pass synthesis.
+Four literature-anchored synthesis briefs surveying existing published work on the four highest-priority substrate-level invariant questions identified by the perspective-pass synthesis.
 
 ## Brief 1: Connes Type II_1 non-embeddable internal algebra
 

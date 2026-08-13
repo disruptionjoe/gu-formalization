@@ -1,12 +1,10 @@
 ---
-title: "Pre-registration: the WHAT-IS-THIS wave — four big swings, each a sub-agent running an inline persona team, to characterize what the object we've built actually IS"
+title: "Pre-registration: the WHAT-IS-THIS wave — four big swings, each a independent reviewer running an inline perspective team, to characterize what the object we've built actually IS"
 status: preregistration
 doc_type: scoping_decision_tree
 created: 2026-07-21
-directed_by: "Joe direct chat, 2026-07-21 (next set of big swings; a wave, multiple personas per sub-agent, to really explore and figure out what this is)"
-claim_status_change: none
+directed_by: "Joe direct chat, 2026-07-21 (next set of big swings; a wave, multiple perspectives per independent reviewer, to really explore and figure out what this is)"
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
@@ -23,8 +21,8 @@ helix, and the two-time scaffold surround it. EVERYTHING open converges on ONE o
 the operator-grade **base-uniting map (F↔S³) / product-uniformity theorem**.
 
 ## Structure (Joe's spec)
-A WAVE of 4 sub-swings. EACH is ONE sub-agent running MULTIPLE PERSONAS INLINE
-(members reason independently in one worker → synthesize; NEVER one agent per persona).
+A WAVE of 4 sub-swings. EACH is ONE independent reviewer running MULTIPLE PERSPECTIVES INLINE
+(members reason independently in one worker → synthesize; NEVER one agent per perspective).
 Each swing asks "what IS this [facet], really?" and delivers: (a) each member's
 characterization from their lens; (b) a synthesized deepest characterization; (c) each
 claim tagged ANALOGY vs EXACT-AND-REAL; (d) any INDEPENDENT consequence or productive

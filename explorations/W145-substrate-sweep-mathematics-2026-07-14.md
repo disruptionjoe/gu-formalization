@@ -1,15 +1,15 @@
 ---
 artifact_type: exploration
-status: exploration (W145 / full-roster substrate steelman sweep, MATHEMATICS family = slice B geometric/structural; 14 personas inline, one worker, no sub-agents; two record-substrate stories per persona; scored against the W138 kill battery + the new novelty gate + the ported everpresent-Lambda anchor)
+status: exploration (W145 / full-roster substrate steelman sweep, MATHEMATICS family = slice B geometric/structural; 14 perspectives inline, one worker, no independent reviewers; two record-substrate stories per perspective; scored against the W138 kill battery + the new novelty gate + the ported everpresent-Lambda anchor)
 created: 2026-07-14
 wave: W145
 label: W145
-hypothesis: "Joe's REVERSED-ARROW reframe, steelmanned per persona. The fundamental object is NOT an observable cosmological energy issuance distributed to observers (the W135-W142 wave). It is a SUBSTRATE where records are held, and -- per Joe's three mid-wave clarifications -- that substrate IS Y14 itself: the 14-dimensional observerse houses records that we cannot see until they are projected into the X4 shadow. The GLOBAL GROWTH of new records (in a DAG / hypergraph / poset sense) inside Y14 is more fundamental than cosmic expansion; what we call dark energy / Lambda is a SHADOW of the substrate's record-accretion, not a primary issuance. The projection Y14 -> X4 is MEASUREMENT-GATED by a capability hierarchy GLOBAL -> REGIONAL -> INDIVIDUAL: an individual observation is the promotion operator that solders a hidden Y14 record into the shared regional X4 record, and the firewall-boundary is the frontier where that capability constraint bites (the boundary is an artifact of the hierarchy, not fundamental). The MATHEMATICS family's charge: say what the record substrate mathematically IS on the GU side -- order theory, C-operator kinematics, the covariant operator on Y14 -- with the real-physics template PORTED honestly (Bombelli-Lee-Meyer-Sorkin causal sets; Sorkin's everpresent Lambda ~ +/- 1/sqrt(N))."
-title: "W145 -- MATHEMATICS-family substrate sweep: 28 candidate record-substrate structures (two per persona) for 'Y14 is the substrate where records are held and dark energy is the shadow of their global growth', each stated as (substrate object / growth law / shadow map / assumption leg / test), scored against the W138 battery + the novelty gate + the everpresent-Lambda anchor. 11 killed at generation; 17 survive; top 5 ranked. Direct verdict: the C-operator positive subspace = the substrate element-set is YES-CONJECTURE, gated on H59 / C1's kill conditions. Computed scoring result (tests/W145_substrate_shadow_scoring.py): the LEADING everpresent term 1/sqrt(N) equals pi/S_dS EXACTLY, so it is degenerate with the W138 de Sitter relabel (gate 5); GU novelty is therefore forced into the SUBLEADING structure -- the {2,7,13}-smooth number-variance factor and the Krein-graded SIGN of Lambda -- which is exactly this family's comparative-advantage output."
+hypothesis: "Joe's REVERSED-ARROW reframe, steelmanned per perspective. The fundamental object is NOT an observable cosmological energy issuance distributed to observers (the W135-W142 wave). It is a SUBSTRATE where records are held, and -- per Joe's three mid-wave clarifications -- that substrate IS Y14 itself: the 14-dimensional observerse houses records that we cannot see until they are projected into the X4 shadow. The GLOBAL GROWTH of new records (in a DAG / hypergraph / poset sense) inside Y14 is more fundamental than cosmic expansion; what we call dark energy / Lambda is a SHADOW of the substrate's record-accretion, not a primary issuance. The projection Y14 -> X4 is MEASUREMENT-GATED by a capability hierarchy GLOBAL -> REGIONAL -> INDIVIDUAL: an individual observation is the promotion operator that solders a hidden Y14 record into the shared regional X4 record, and the firewall-boundary is the frontier where that capability constraint bites (the boundary is an artifact of the hierarchy, not fundamental). The MATHEMATICS family's charge: say what the record substrate mathematically IS on the GU side -- order theory, C-operator kinematics, the covariant operator on Y14 -- with the real-physics template PORTED honestly (Bombelli-Lee-Meyer-Sorkin causal sets; Sorkin's everpresent Lambda ~ +/- 1/sqrt(N))."
+title: "W145 -- MATHEMATICS-family substrate sweep: 28 candidate record-substrate structures (two per perspective) for 'Y14 is the substrate where records are held and dark energy is the shadow of their global growth', each stated as (substrate object / growth law / shadow map / assumption leg / test), scored against the W138 battery + the novelty gate + the everpresent-Lambda anchor. 11 killed at generation; 17 survive; top 5 ranked. Direct verdict: the C-operator positive subspace = the substrate element-set is YES-CONJECTURE, gated on H59 / C1's kill conditions. Computed scoring result (tests/W145_substrate_shadow_scoring.py): the LEADING everpresent term 1/sqrt(N) equals pi/S_dS EXACTLY, so it is degenerate with the W138 de Sitter relabel (gate 5); GU novelty is therefore forced into the SUBLEADING structure -- the {2,7,13}-smooth number-variance factor and the Krein-graded SIGN of Lambda -- which is exactly this family's comparative-advantage output."
 grade: "exploration / hypothesis-generation, conditional register throughout. NOTHING here is asserted; every story is of the form 'under the Y14-substrate reframe plus this story's own named assumption leg'. COMPUTED (deterministic, tests/W145_substrate_shadow_scoring.py, all PASS): the W135 anchors as positive controls (rho_L^(1/4) = 2.239 meV, 9 Omega_L = 6.162, (3/2) Omega_L = 1.027); the ported everpresent relation 1/sqrt(N) = pi/S_dS as an EXACT identity (the G5 degeneracy); the W138 G5 factor 1.46; and the number-variance novelty factor sqrt(c) for c in {2,7,13} plus the Krein SIGN handle. THEOREM-CITED (not re-derived): the Y14/section machinery (W2 spin structure, H15/H21/H25, W126, W131 parallel Pi/K and (9,5) verification, W130 3:2:1 split, W132 expansion identity, the Multiplicity theorem's {2,7,13}-smooth spectrum). CONJECTURE: the substrate identification and every story's assumption leg, each with kill conditions, none asserted. Tri-repo gating enforced: capability MEASURE = TaF; record/issuance/finality semantics = temporal-issuance + time-as-finality; GU owns the substrate MATH only; the causal-set order-dimension estimator already lives in TaF (myrheim-meyer). No canon / RESEARCH-STATUS / claim-status / verdict / posture change."
 depends_on:
-  - explorations/two-track-persona-sweep-2026-07-11/B-geometric-structural.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/B-geometric-structural.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - explorations/W135-issuance-structure-taxonomy-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
@@ -30,12 +30,12 @@ external_refs:
 # W145 -- MATHEMATICS family: the record-substrate sweep (reversed arrow)
 
 Team: FAMILY TEAM 1 (MATHEMATICS) of the five-team full-roster substrate steelman sweep.
-Fourteen personas run INLINE (one worker, sequential lenses; no sub-agents), each producing
+Fourteen perspectives run INLINE (one worker, sequential lenses; no independent reviewers), each producing
 two record-substrate stories, then an internal scoring pass. Test
 `tests/W145_substrate_shadow_scoring.py` (all PASS, deterministic seed-free arithmetic).
 
 The MATHEMATICS family is slice B (geometric / structural) of the 2026-07-11 roster, exactly as
-W139 fixed it. The 14 personas are listed in Section 1 (coverage). This sweep does NOT re-use
+W139 fixed it. The 14 perspectives are listed in Section 1 (coverage). This sweep does NOT re-use
 W135-W144 (assigned to other teams); W144 was still running at generation and is not cited.
 
 ---
@@ -122,7 +122,7 @@ finality reading is GATED. No identity claim across repos.
 
 ---
 
-## 1. Coverage (the 14 MATHEMATICS-family personas)
+## 1. Coverage (the 14 MATHEMATICS-family perspectives)
 
 Slice B, verbatim roster: (1) differential geometer (Cartan / soldering / torsion); (2) geometric
 analyst (Willmore / second fundamental form); (3) higher-spin / Rarita-Schwinger (Velo-Zwanziger);
@@ -136,17 +136,17 @@ calculus-of-variations. All 14 covered; two stories each = 28 stories.
 
 Common substrate-object anchor (per clarification 1, applied to every story): the substrate is Y14;
 records live in the DeWitt fiber; the shadow map is the measurement-gated promotion Y14 -> X4 along
-a section (clarification 3). Each persona specializes WHAT the record-set-in-Y14 mathematically IS
+a section (clarification 3). Each perspective specializes WHAT the record-set-in-Y14 mathematically IS
 and the growth law.
 
 ---
 
-## 2. The 28 stories (two per persona; KILLED-AT-GENERATION marked inline)
+## 2. The 28 stories (two per perspective; KILLED-AT-GENERATION marked inline)
 
 Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) assumption leg,
 (v) test. Kills carry a one-line reason and are retained.
 
-### Persona 1 -- differential geometer (Cartan / soldering / torsion)
+### Perspective 1 -- differential geometer (Cartan / soldering / torsion)
 
 - **1a [SURVIVES, low].** (i) The record-set = the holonomy data of the single Cartan connection on
   Y14 (soldering + curvature as one datum); records are parallel-transport classes. (ii) Growth: new
@@ -159,7 +159,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   Reason: metric compatibility fixes the connection to so(9,5)-valued (W131), leaving no torsion
   accretion freedom; the reading collapses to a torsion "rate", dead by W138 G4 (B2 rate-identity).
 
-### Persona 2 -- geometric analyst (Willmore / second fundamental form)
+### Perspective 2 -- geometric analyst (Willmore / second fundamental form)
 
 - **2a [SURVIVES, TOP 5 -> ranked #3].** The signed |II|^2 record ledger. (i) Records = normal
   deformation modes of the section, each carrying the exact deformation-cost density |II|^2 (W137
@@ -175,7 +175,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   accretion), and off it reduces to the dS scale with no new degree of freedom (G5). The signed
   refinement that saves it IS story 2a.
 
-### Persona 3 -- higher-spin / Rarita-Schwinger (Velo-Zwanziger)
+### Perspective 3 -- higher-spin / Rarita-Schwinger (Velo-Zwanziger)
 
 - **3a [SURVIVES, low].** (i) Records = RS modes in ker Gamma of the W131 bundle T*Y14 (x) S(9,5);
   hidden = fiber RS modes; (ii) growth = RS-mode promotion along the section; (iii) shadow = the
@@ -185,7 +185,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   count. Reason: the count 3 is IMPORTED (Multiplicity theorem: 3 divides no GU-native dimension,
   {2,7,13}-smooth), not a growth law; and this is a count claim, not a Lambda shadow.
 
-### Persona 4 -- representation theorist (noncompact real forms, discrete series)
+### Perspective 4 -- representation theorist (noncompact real forms, discrete series)
 
 - **4a [SURVIVES, TOP 5 -> ranked #1].** The Krein-graded record block; the SIGN of Lambda from the
   C-operator. (i) Substrate element-set = eigenstates of the C-operator over Y14, graded by the Krein
@@ -203,7 +203,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   1/sqrt(dim of the promoted rep block). The {2,7,13} block dimensions give non-Poisson number
   variance -- feeds stories 5a and 11a. Leg: rep-canonicity of the frame real form.
 
-### Persona 5 -- index theorist (Atiyah-Singer / APS / weighted Fredholm)
+### Perspective 5 -- index theorist (Atiyah-Singer / APS / weighted Fredholm)
 
 - **5a [SURVIVES, TOP 5 -> ranked #4].** The index-density record count with a {2,7,13} subleading
   pin. (i) Records = the index-density-graded modes of the W131 covariant operator D on Y14;
@@ -219,7 +219,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   boundary promotion. Directly models the firewall-boundary as the eta-spectral frontier
   (clarification 3). Leg: APS boundary datum (e = 1/12 vs 3/8 fork).
 
-### Persona 6 -- spin-geometry / Clifford (Cl(9,5), omega-parity)
+### Perspective 6 -- spin-geometry / Clifford (Cl(9,5), omega-parity)
 
 - **6a [SURVIVES, feeds #1].** J^2 = -1 forces the +/- structure: the quaternionic Kramers wall of
   Cl(9,5) = M(64,H) is what makes the Krein grading eta = P+ - P- non-trivial, so the everpresent SIGN
@@ -228,11 +228,11 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   H-class module type (firewall-boundary round 2: (9,5) keeps the wall, (7,7) does not). (v) Test: the
   signature_sweep machinery already distinguishes J^2 = -1 vs +1.
 - **6b [KILLED-AT-GENERATION].** Records graded by omega-parity even/odd (H20 volume-form grading).
-  Reason: the H20 even/odd split is a RELABEL that removes 0 of 4 unforced choices (slice B persona 6,
+  Reason: the H20 even/odd split is a RELABEL that removes 0 of 4 unforced choices (slice B perspective 6,
   W131 landscape); it organizes but does not select -- fails the novelty gate (no GU-specific pin),
   and it lives on the dead physical Krein-TT leg.
 
-### Persona 7 -- symplectic / Poisson geometer (moment maps)
+### Perspective 7 -- symplectic / Poisson geometer (moment maps)
 
 - **7a [SURVIVES, TOP 5 -> ranked #5].** The moment-map record volume. (i) Records = points in the
   symplectic quotient of the Y14 field space; the source action S = |theta|^2 is the moment-map
@@ -246,7 +246,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   norm-square is arbitrary; and leaf-volume / Lambda is a bare-Sorkin volume relabel (novelty fail).
   The pinned version IS 7a.
 
-### Persona 8 -- category theorist (bicategorical / fibrational)
+### Perspective 8 -- category theorist (bicategorical / fibrational)
 
 - **8a [SURVIVES, low].** (i) Records = objects in the fiber of the D2 section functor; the promotion
   Y14 -> X4 is the functor's action, and the record-set = the C-operator positive subspace realized as
@@ -260,20 +260,20 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   Reason: no growth law and no computable Lambda shadow with existing machinery -- fails testability
   outright.
 
-### Persona 9 -- homotopy theorist (bordism / tmf)
+### Perspective 9 -- homotopy theorist (bordism / tmf)
 
 - **9a [KILLED-AT-GENERATION].** Records = bordism classes, growth = a bordism invariant.
   Reason: the mod-3 arena is EMPTY (Omega^Spin_5(BG_SM) tensor Z_(3) = 0, firewall-boundary /
-  slice B persona 9); no odd growth invariant lives there, and sprinkling-into-bordism is
+  slice B perspective 9); no odd growth invariant lives there, and sprinkling-into-bordism is
   bare-Sorkin-flavored -- fails the empty-arena test and the novelty gate together.
 - **9b [SURVIVES, very low].** Records = tmf q-expansion coefficients; growth = a geometry-dependent
   coefficient flow that pi_3^s cannot see. The one route to odd substructure, but untestable now
   (tmf on the relevant class is not computed). Leg: tmf sees the class 3-adically (open).
 
-### Persona 10 -- twistor / conformal-geometry (tractor calculus)
+### Perspective 10 -- twistor / conformal-geometry (tractor calculus)
 
 - **10a [SURVIVES, mid].** (i) Records = GJMS / tractor modes on the (6,4) DeWitt-conformal fiber
-  (native so(4,2) on the DeWitt form, W131 / slice B persona 10); hidden records = tractor modes not
+  (native so(4,2) on the DeWitt form, W131 / slice B perspective 10); hidden records = tractor modes not
   yet promoted. (ii) Growth = conformal-weight accretion as the section sweeps the fiber. (iii) Shadow:
   Lambda = the shadow of the GJMS-generated conformally invariant functional of the promoted modes;
   the conformal weight fixes its scaling. (iv) Leg: the (6,4) DeWitt form is canonical (VG-V3
@@ -283,7 +283,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   Bach sector. Reason: the fourth-order ghost is the dead physical leg; unitarity-killed / H59 territory,
   and it is a mode-count "rate" reading.
 
-### Persona 11 -- K-theory / noncommutative-geometry (spectral triples)
+### Perspective 11 -- K-theory / noncommutative-geometry (spectral triples)
 
 - **11a [SURVIVES, TOP 5 -> ranked #2].** The D-spectrum record count / number-variance handle.
   (i) Records = spectral projections of the W131 covariant operator D on Y14 (the C-operator-positive
@@ -302,7 +302,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   cosmological coefficient with c_L ~ O(1). Reason: that IS the H36 identification rho_Lambda =
   c_L mu_DW^4, excluded by W138 G3 at >= 4.78x (envelope), 6.77-15.18x central.
 
-### Persona 12 -- gauge-theory / moduli-space geometer (Donaldson / Uhlenbeck)
+### Perspective 12 -- gauge-theory / moduli-space geometer (Donaldson / Uhlenbeck)
 
 - **12a [SURVIVES, low].** (i) Records = points in the IG vacuum moduli space over Y14; the
   Pati-Salam breaking v_PSB -> G_SM is the promotion to X4. (ii) Growth = moduli-volume (Uhlenbeck
@@ -312,7 +312,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
 - **12b [KILLED-AT-GENERATION].** Records = instanton number, Lambda ~ instanton density.
   Reason: instanton density is a rate (G4) and instanton-Lambda is a known relabel; no GU-specific pin.
 
-### Persona 13 -- wild frontier mathematician
+### Perspective 13 -- wild frontier mathematician
 
 - **13a [SURVIVES, mid].** The four-object fusion as one Y14 record-generator: (conformal-native (6,4))
   + (signature-forced grading) + (VZ-causality-forced promotion coupling) + (RS 2+1 structure)
@@ -326,7 +326,7 @@ Format per story: (i) substrate object, (ii) growth law, (iii) shadow map, (iv) 
   fails the NEW novelty gate by construction (it is exactly "GU is a causal set"). Retained as the
   control that shows the novelty gate has teeth: it is the story every survivor must out-distance.
 
-### Persona 14 -- geometric-measure-theory / calculus-of-variations
+### Perspective 14 -- geometric-measure-theory / calculus-of-variations
 
 - **14a [SURVIVES, feeds #3].** Direct-method foundation for the signed |II|^2 ledger (2a): prove
   lower semicontinuity + coercivity of the record functional on the section space, so the promoted set
@@ -382,7 +382,7 @@ control: bare "GU is a causal set", novelty gate). 17 survive.
 Ranking by (a) sharpness of the assumption leg, (b) testability with existing machinery, (c) novelty
 vs bare causal-set relabeling AND vs the dS / Omega_L board.
 
-**#1 -- Krein-graded record block; sign(Lambda) = + (personas 4 + 6, stories 4a/6a).**
+**#1 -- Krein-graded record block; sign(Lambda) = + (perspectives 4 + 6, stories 4a/6a).**
 - Substrate object (one line): the C-operator eigenstates over Y14, graded by eta = P+ - P-; records
   = the positive (measured) modes, hidden records = the not-yet-promoted Krein complement.
 - Growth law: promotion of positive-graded modes into the regional measured set (the soldering /
@@ -398,7 +398,7 @@ vs bare causal-set relabeling AND vs the dS / Omega_L board.
   Sharpest novelty leg on the board: it predicts sign(Lambda) = +, which the dS / Omega_L board and
   bare Sorkin both cannot.
 
-**#2 -- D-spectrum record count / number-variance (persona 11, story 11a).**
+**#2 -- D-spectrum record count / number-variance (perspective 11, story 11a).**
 - Substrate object: spectral projections of the W131 covariant operator D on Y14; N = promoted Weyl
   count of D-modes.
 - Growth law: spectral action Tr f(D/Lambda_cut); accretion = spectral flow of D along the section.
@@ -411,7 +411,7 @@ vs bare causal-set relabeling AND vs the dS / Omega_L board.
   bare dS/Sorkin amplitude), NEW novelty (the {2,7,13}-degenerate D spectrum), everpresent. Best
   testability of the five (W131 machinery is built).
 
-**#3 -- Signed |II|^2 record ledger (personas 2 + 14, stories 2a/14a).**
+**#3 -- Signed |II|^2 record ledger (perspectives 2 + 14, stories 2a/14a).**
 - Substrate object: normal deformation modes of the section, cost density |II|^2 (W137, EXACT);
   hidden records = un-promoted fiber-normal deformations.
 - Growth law: activation of new normal modes as the section sweeps Y14; cost integral of |II|^2.
@@ -423,7 +423,7 @@ vs bare causal-set relabeling AND vs the dS / Omega_L board.
   (|II|^2 on Y14, bare Sorkin has no II), everpresent. Sharp because the cost is a repo THEOREM (exact),
   not a posit.
 
-**#4 -- Index-density record count with the {2,7,13} subleading pin (persona 5, story 5a).**
+**#4 -- Index-density record count with the {2,7,13} subleading pin (perspective 5, story 5a).**
 - Substrate object: index-density-graded D-modes on Y14; N = integrated index density.
 - Growth law: spectral flow / index density = record-accretion rate along the section.
 - Shadow map: unimodular Lambda / 4-volume conjugacy with 4-volume -> index count; everpresent
@@ -434,7 +434,7 @@ vs bare causal-set relabeling AND vs the dS / Omega_L board.
 - Gates cleared: G1-G4, G5 (novelty in the subleading {2,7,13} defect, HONESTLY FLAGGED: the leading
   term is Sorkin), NEW novelty (the index arena is GU-specific), everpresent.
 
-**#5 -- Moment-map record volume (persona 7, story 7a).**
+**#5 -- Moment-map record volume (perspective 7, story 7a).**
 - Substrate object: points in the symplectic quotient of Y14 field space; S = |theta|^2 = moment-map
   norm-square (Kempf-Ness).
 - Growth law: Duistermaat-Heckman symplectic-volume growth; N = Liouville volume of the promoted set.
@@ -482,8 +482,8 @@ independently converged on). The honest register: YES-CONJECTURE / GATED-on-H59.
 
 ## 6. Counts, files, grade
 
-- Personas: 14 (all of slice B / MATHEMATICS, listed Section 1).
-- Stories: 28 (two per persona).
+- Perspectives: 14 (all of slice B / MATHEMATICS, listed Section 1).
+- Stories: 28 (two per perspective).
 - Killed at generation: 11 (Section 3 list). Survivors: 17. Top 5 ranked (Section 4).
 - Computed: `tests/W145_substrate_shadow_scoring.py` (all PASS) -- W135 anchors as positive controls;
   the everpresent 1/sqrt(N) = pi/S_dS EXACT identity (the G5 degeneracy that forces novelty subleading);

@@ -3,11 +3,9 @@ title: "PROPOSAL FOR JOE (rev. 2 — reframed to Joe's definitions) — founding
 status: approved_charter
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat via coordinator, 2026-07-21. Rev. 2 applies Joe's explicit redefinition of Purpose/Passion/Practice/Connections/Objectives/Lanes. Companion to explorations/council-dynamic-unity-assessment-2026-07-21.md."
-supersedes_note: "Rev. 1 (council draft) framed the repo narrowly around the tachyon-transducer as the core. Joe reframed it as a broad unification-discovery lab; the transducer is now one channel in Lane 1, not the lane. Rev. 1 content preserved in git history."
+supersedes_note: "Rev. 1 (council draft) framed the repo narrowly around the tachyon-transducer as the core. Joe reframed it as a broad unification-discovery lab; the transducer is now one channel in truth-status research, not the lane. Rev. 1 content preserved in git history."
 ---
 
 # PROPOSAL FOR JOE (rev. 2) — founding scaffolding for the "Dynamic Unity" repo
@@ -71,7 +69,7 @@ and so is any genuine route to understanding). Ideas — including the ones Joe 
 
 The discipline is **honesty, not conservatism.** It bites at the **banking / shipping gate**,
 not at the exploration gate: explore by any means; when a result is *counted* or *published*,
-grade it honestly and let it face verification (Lane 3). Honesty is separating what is shown
+grade it honestly and let it face verification (result-hardening research). Honesty is separating what is shown
 from what is asserted, keeping posits labeled, and not fooling yourself about what you actually
 have — it is **not** a bias against new or unconventional ideas.
 
@@ -98,7 +96,7 @@ settled truth.
 
 ### How agents work the lanes
 
-Load root `LANES.yaml` after governance, before selecting work. Numbered lanes = Progress,
+Load root `lab/process/RESEARCH-AGENDA.json` after governance, before selecting work. Numbered lanes = Progress,
 lettered = Stewardship, Discovery = lane-less. Durable artifacts live **in the repo** at
 honest grade; a work-card is a spec, not the product. Absolute paths, explicit-path staging,
 no `git add -A`. Commit/push is normal versioning for Joe's repos once a coherent batch is
@@ -204,12 +202,12 @@ live in the lanes below.)*
 > Numbered lanes = Progress; lettered = Stewardship; Discovery = lane-less. Channels
 > (a.k.a. branches) are the durable work-surfaces within a lane.
 
-**Lane 1 — Dynamics beyond the static GU picture (NORTH STAR).**
+**truth-status research — Dynamics beyond the static GU picture (NORTH STAR).**
 Scope: **given that the bit (σ) and the trit (τ) can be supplied in a way that makes the
 *static* GU picture coherent, determine what DYNAMICS are needed to make a clearer, more
 complete picture beyond it.** GU-anchored by design — it takes the static picture as the
 working substrate and asks what dynamics extend it. (The broad Purpose leaves room for a
-*future* lane that pursues unification without assuming GU at all; Lane 1 is not the program's
+*future* lane that pursues unification without assuming GU at all; truth-status research is not the program's
 only possible frame.) Default-skeptical; central claims OPEN. **Lead bet (broad in admission,
 focused in priority):** the B5 source action → a natively-derived dark-energy amplitude — the
 assessment's one bankable joint.
@@ -230,7 +228,7 @@ assessment's one bankable joint.
 - *(open)* — additional unification-candidate channels admitted from Discovery as they earn a
   program-native object + a kill test.
 
-**Lane 2 — Prediction extraction.** *(Joe: correct as proposed.)*
+**prediction research — Prediction extraction.** *(Joe: correct as proposed.)*
 Turn candidate cores into exposed, falsifiable predictions.
 - *2.1 — DE amplitude via 1/√N:* the native-derivation test of `φ = 1/(3·Ω_Λ)²` — the
   distinctness bank.
@@ -239,12 +237,12 @@ Turn candidate cores into exposed, falsifiable predictions.
 - *2.3 — Cross-domain co-variance:* the parity leg as a candidate second observable —
   proposal-grade, pursued not counted.
 
-**Lane 3 — Result hardening / publication readiness.** *(Joe: correct as proposed.)*
+**result-hardening research — Result hardening / publication readiness.** *(Joe: correct as proposed.)*
 Adversarial verification, machine probes with real-falsifier positive controls, grade labels,
 rollback conditions, VERIFICATION-style honesty maps. Terminal state = a Joe-review draft;
 **Joe publishes.**
 
-**Lane A — Stewardship.**
+**research maintenance — Stewardship.**
 Governance, the self-checking duty, the anti-crank/method discipline, the parsimony ledger +
 its rigged control, cross-repo ingest/share hygiene, lane hygiene.
 
@@ -258,7 +256,7 @@ kill/confirm test.
 ## Boundary
 
 Exploration/proposal tier; successive revisions in git history. **No repo created, no
-`AGENTS.md`/`LANES.yaml` instantiated, no commit to any new repo, nothing external.** All physics grades consumed as found, not moved (type wall, hosts-not-derives,
+`AGENTS.md`/`lab/process/RESEARCH-AGENDA.json` instantiated, no commit to any new repo, nothing external.** All physics grades consumed as found, not moved (type wall, hosts-not-derives,
 `PRED-NORM-RANK = RESOLVED_NO_GO`, DE amplitude as pure import, W157 coincidence demotion,
 W224 singlet input-failure, DE-sign toy/conditional, the `BLOCKED_PRODUCIBILITY` fork). This
 is a **draft for Joe's review**; the **repo-creation, the name, and the Weinstein-attribution

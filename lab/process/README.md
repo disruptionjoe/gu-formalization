@@ -7,7 +7,7 @@ updated_at: "2026-07-19"
 
 # Process
 
-Persona passes, dialectical method, synthesis history, runbooks, templates, and
+Perspective passes, dialectical method, synthesis history, runbooks, templates, and
 process-quality notes.
 
 This surface is process navigation. It does not change claim status, canon
@@ -19,7 +19,7 @@ consistency workflow.
 
 - `dialectics/` - dialectical method and dialogue records.
 - `hegelian-method/` - Hegelian method material.
-- `persona-passes/` - persona-pass records and method variants.
+- `perspective-passes/` - perspective-pass records and method variants.
 - `public-surface-refresh-2026-05-31/` - public surface refresh provenance.
 - `runbooks/` - standard repo-local process workflows.
 - `syntheses/` - synthesis history and consolidation notes.
@@ -27,7 +27,7 @@ consistency workflow.
 
 Runbooks:
 
-- `runbooks/five-lane-frontier-run.md` - standard repo-local five-sub-agent frontier run.
+- `runbooks/five-lane-frontier-run.md` - standard repo-local five-independent reviewer frontier run.
 - `runbooks/daily-research-portfolio-stewardship.md` - daily priority and dependency reconciliation.
 - `runbooks/draft-factory-paper-seed-handoff.md` - cheap paper-seed routing and capacity-backed source-hardening requests.
 - `runbooks/meaningful-hourly-progress-swing.md` - default substantial hourly Progress swing.
@@ -57,5 +57,5 @@ Runbooks:
 - `recovery-contract-construction-manifest-2026-07-16.json` - branch-local recovery-contract construction manifest.
 - `recovery-no-go-defense-protocol.md` - bounded defense protocol for branch-local recovery no-gos.
 - `recovery-no-go-defense-register.json` - hourly-updatable defense register for branch-local recovery no-gos.
-- `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
+- `research-portfolio.json` - machine-readable GU truth-status research/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.

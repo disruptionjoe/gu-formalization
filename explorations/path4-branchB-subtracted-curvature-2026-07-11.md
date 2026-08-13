@@ -7,7 +7,7 @@ on `Y^14 = Met(X^4)` -- horizontal tautological block `g`, **trace-reversed Frob
 `(7,3)->(6,4)`. NOT the single spacetime metric `g`. The object under test lives on the fiber geometry, so the
 metric-on-metrics is the correct and load-bearing construction.
 
-5-persona team run INLINE (sequential, one context). No canon / RESEARCH-STATUS / claim-status / verdict change.
+5-perspective team run INLINE (sequential, one context). No canon / RESEARCH-STATUS / claim-status / verdict change.
 
 ---
 
@@ -23,7 +23,7 @@ family-invariant** dark-energy contribution -- distinct from the `mu_DW`-scaled 
 
 ---
 
-## Persona 1 -- Differential-geometry specialist: IDENTIFY and COMPUTE the O(M^0) term
+## Perspective 1 -- Differential-geometry specialist: IDENTIFY and COMPUTE the O(M^0) term
 
 For the constant section (`g = eta`, `partial g = 0`) the vertical SFF reduces (ii-s-coordinate-formula sec 6.1)
 to the pure DeWitt vertical Christoffel:
@@ -51,7 +51,7 @@ Exact (sympy) properties, all O(M^0), no field / no derivative / no fitted input
 **Identification:** the subtracted O(M^0) term is the **DeWitt-Lambda** -- a genuine, `Lambda`-shaped vacuum-
 energy contribution forced to be PRESENT by the curvature of the space of metrics.
 
-## Persona 2 -- Referee: forced-vs-convention, novel-vs-known
+## Perspective 2 -- Referee: forced-vs-convention, novel-vs-known
 
 - **Forced that it EXISTS / its SHAPE:** YES. The curvature of `Met(X^4)` is not optional; the constant section
   is provably not totally geodesic (nonzero `B^V`; thread A3: the shape operators don't even commute). Its
@@ -68,7 +68,7 @@ energy contribution forced to be PRESENT by the curvature of the space of metric
   every EFT carries a `Lambda` counterterm. The narrow novel-and-forced content is the *specific* geometric
   coefficient/sign and the cross-observable lock (below).
 
-## Persona 3 -- Intra-team adversary (PRESENTS, does not veto)
+## Perspective 3 -- Intra-team adversary (PRESENTS, does not veto)
 
 Two attacks, both land partially:
 
@@ -86,7 +86,7 @@ Two attacks, both land partially:
    `c_L * mu_DW^4` with `mu_DW` free. **Strength: DECISIVE against a forced DE-magnitude claim.** What survives
    is only the dimensionless coefficient/sign and the `mu_DW`-cancelling lock.
 
-## Persona 4 -- Cross-checker: independent known-geometry limit
+## Perspective 4 -- Cross-checker: independent known-geometry limit
 
 The curvature of `Met(M)` with the DeWitt supermetric is classically known: **Freed-Groisser (1989)** and
 **Gil-Medrano-Michor (1991)** show `Met(M)` is fiberwise a symmetric space of **non-compact type**
@@ -97,7 +97,7 @@ known-geometry fact, not a GU artifact. The GU-specific normalization (`-3/16` /
 the model input; the *non-vanishing and the negative sign* are the model-independent Freed-Groisser /
 Gil-Medrano-Michor limit. Cross-check **passes**.
 
-## Persona 5 -- Synthesizer
+## Perspective 5 -- Synthesizer
 
 ### Graded verdict
 

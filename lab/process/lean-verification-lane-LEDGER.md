@@ -5,16 +5,16 @@ doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
 updated: 2026-07-16
-owner_surface: lab/process/runbooks/lean-verification-run.md
+owner_surface: lab/methods/lean-verification.md
 ---
 
 # Lean verification lane: ledger and queue
 
 ## Purpose and boundary
 
-This is the standing Lean queue inside Lane 3, result hardening and publication readiness. Hourly Progress
-uses it only when `lab/process/research-portfolio.json` selects the relevant Lane 3 work item. A finishable
-formalization must not displace protected Lane 1 merely because Lean has a monotone success condition.
+This is the standing Lean queue inside result-hardening research, result hardening and publication readiness. Hourly Progress
+uses it only when `lab/process/RESEARCH-AGENDA.json` selects the relevant result-hardening research work item. A finishable
+formalization must not displace protected truth-status research merely because Lean has a monotone success condition.
 
 Lean hardens the deduction from explicit premises. It does not establish carrier faithfulness, physical
 realization, full-arena transfer, Proposition 1, the W235 record bit, interacting QFT, or external

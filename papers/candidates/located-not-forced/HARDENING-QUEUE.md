@@ -5,7 +5,6 @@ doc_type: hardening-queue
 scope: paper-local
 created: 2026-07-07
 source: "adversarial review 2026-07-07 (external-style, maintainer-supplied)"
-run_type: convergent-progress (hourly-pickable; see lab/process/runbooks/lean-verification-run.md)
 ---
 
 # Located, Not Forced — hardening queue

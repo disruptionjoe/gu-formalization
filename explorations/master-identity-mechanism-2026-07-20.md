@@ -15,9 +15,7 @@ inputs:
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 runnable:
   - tests/channel-swings/master_identity_mechanism_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # The master identity, derived

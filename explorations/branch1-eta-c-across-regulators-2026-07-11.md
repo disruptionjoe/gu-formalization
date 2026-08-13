@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (Branch 1 / Front B "the dissolver"; STAGE 2 of the full-FRG horn computation; 5-persona inline team; deterministic test)
+status: exploration (Branch 1 / Front B "the dissolver"; STAGE 2 of the full-FRG horn computation; 5-perspective inline team; deterministic test)
 created: 2026-07-13
 hypothesis: "Compute eta_C -- the shared-Z_h off-diagonal Einstein-Hilbert x Weyl spin-2 TT trace in the FRG (the additive f_2^2 term of beta_{f_2^2}) -- across at least TWO regulator families and settle its SIGN. eta_C>0 robust -> f_2^2*>0 lifted -> HORN Q (ghost removable, quasi-Hermitian, the type-III Krein-TT frontier DISSOLVES); eta_C<=0 -> f_2^2*=0 -> HORN K (genuine non-definitizable ghost, frontier REAL). The sign is the whole result."
 branch: "W89 -- Stage 2 decider handed off by W88. Reuses W88's truncation (polynomial f(R) to R^2 + Weyl^2 + ker-Gamma spin-3/2; sphere/dS; York/TT), the ker-Gamma spin-3/2 a_2 coefficients, and the beta_{f_2^2} = -kappa f_2^4 (b_2^grav+b_2^RS) + eta_C(g,lambda) f_2^2 structure (f_2^2*=0 a structural root at every regulator; lift iff eta_C>0). Computes eta_C at the W83/W88 Reuter FP (g*=0.674, lambda*=0.151) for regulator family 2 (exponential r=y/(e^y-1)) and family 3 (exponential shape sweep r_s=s*y/(e^y-1)) alongside family 1 (Litim), by direct off-diagonal FRG trace (D1) cross-checked against the graviton anomalous-dimension identity eta_C=-eta_h (D2). Reads off the sign and the horn."
@@ -179,7 +179,7 @@ scheme choice of `Z_h`, a truncation-level question the regulator family cannot 
 
 ---
 
-## 4. Adversary + referee (persona passes)
+## 4. Adversary + referee (perspective passes)
 
 **Referee (computed vs ported).** COMPUTED here: the three `Phi^2_2(0)` (Litim closed form + exponential
 + shape sweep, by quadrature); `c_reg > 0` for all three; `eta_C = -eta_h c_reg` per scheme per

@@ -3,13 +3,10 @@ title: "Construction-space GR R0 lemma, C9 before C3"
 status: exploration
 doc_type: construction_space_probe
 created: 2026-07-19
-run_id: RUN-20260719-534-repository-work-cycle-cai-hourly
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 probe: P1-GR-R0-LEMMA-C9-C3
 test: tests/recovery-contract/construction_space_gr_r0_c9_c3_gate.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Construction-space GR R0 lemma, C9 before C3

@@ -8,9 +8,7 @@ owner_channel: CH-SRC
 contract: "research-portfolio.json channel_structure.ch_src_contract"
 axiom: lab/process/boundary-adapter-standing-axiom.md
 update_rule: "CH-SRC is the lagging integrator: each CH-SRC run re-reads every explorations/channel-swing-CH-*-<date>.md and the interface contract, moves PENDING rows to FROZEN/CONSUMED as sibling channels land, re-runs tests/channel-swings/ch_src_minimal_action_toy.py against the updated constraint set, and records any new conflict as a first-class computed result under the P0 pre-registered endings. This file is the only surface CH-SRC runs are expected to mutate."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source-Action Build Ledger
@@ -79,7 +77,7 @@ current skeleton stands against the row.
    D-QM-1 composition gap and CH-REC's G1.
 2. **Non-abelian completion**: the toy's gauge algebra is abelian and
    field-independent; `(S,S) = 0` carries no Jacobi content yet. The real
-   `S_IG` must survive the non-abelian grade (BV/BRST persona warning).
+   `S_IG` must survive the non-abelian grade (BV/BRST perspective warning).
 3. **Action-level antighost field**: the KT leg is complex-level (as in the
    verified test); promote to an antighost field with its own antifield.
 4. **Metric sector / DEM-GR-3(iii)**: no theta-metric coupling exists in

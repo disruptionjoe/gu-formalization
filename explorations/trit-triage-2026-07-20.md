@@ -5,12 +5,9 @@ doc_type: triage
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (trit-interpretation triage)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-lane: 1
 channel: TRIT-INTERPRETATION
 provenance_grade: triage (cheapest discriminating check per candidate; asserts nothing beyond the receipts + the frozen Z/6 fact)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Trit-interpretation triage
@@ -79,7 +76,7 @@ The honest residue is precise and worth carrying: the trit is an **UNDIRECTED
 3-cycle** -- a genuine, coprime, irreducible Z/3 (candidate 4's defeat) with no
 chirality (candidate 1's symmetry). An undirected 3-cycle is exactly the shape
 a 3-CHAIN takes when it CLOSES into a cycle without acquiring a preferred
-direction. Both places the personas expected the triple to live -- G's L1
+direction. Both places the perspectives expected the triple to live -- G's L1
 grading (candidate 2) and P2C's access prose (candidate 5) -- present it as a
 CHAIN / NESTING, never a native cycle. So the triage's real finding is unified:
 **every structural home for the triple is a nesting; the trit's cyclicity is,

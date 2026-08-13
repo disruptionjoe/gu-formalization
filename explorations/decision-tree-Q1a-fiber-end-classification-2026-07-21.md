@@ -15,15 +15,13 @@ inputs:
 probe: tests/channel-swings/decision_tree_Q1a_fiber_end_classification_probe.py (foreground, EXIT 0)
 outcome: Q1a-FORCED (limit-point; unique forced domain; θ dissolves) — flagged for hostile verification, NOT over-claimed
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
 # Q1a: the fiber-end limit-point / limit-circle classification
 
-Adversarial truth-test, not advocacy. This run is Q1a of the σ/θ/τ decision tree.
+Adversarial truth-test, not advocacy. This investigation is Q1a of the σ/θ/τ decision tree.
 It does **not** re-prove externality (that is the closed premise; re-deriving it is
 circling). It returns a **verdict** on the upstream question HV re-shaped: on the
 TRUE NONCOMPACT fiber, is the first-order operator `A~ = B(s)∂_s + W~(s)`,

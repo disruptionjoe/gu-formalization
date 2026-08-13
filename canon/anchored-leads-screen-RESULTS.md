@@ -6,7 +6,7 @@ created: 2026-06-29
 grade: "computed + adversarially verified. 6 leads x (initial-result + independent refutation) + meta-synthesis; 13 agents, ~829k tokens (workflow wf_48684ee0-87d); each lead ran python on the verified Cl(9,5)=M(64,H) substrate, all reproduced under refutation. Grades after refutation: spin8-triality GATED (maybe-build); tmf-elliptic GATED; km-n-geq-3 GATED; thooft-rg-lever GATED; sm-z6 DEAD; jones-subfactor DEAD. Zero PROMISING, zero genuinely-new source-action-free routes, NO fabricated 3. The screen's positive contribution is convergence, not a forcing route: five independent heterodox routes all terminate at the carrier Dirac-mass question."
 method: "anchored-leads-screen workflow: 6 leads (Spin(8) triality; SM Z/6 global form; Jones subfactor in M(64,H); tmf/elliptic genus; KM n>=3; 't Hooft RG matching) -> initial check (python where possible) -> adversarial verify -> meta-synthesis ranking + carrier-mass decision."
 depends_on:
-  - canon/double-major-persona-sweep-RESULTS.md
+  - canon/double-major-perspective-sweep-RESULTS.md
   - canon/hessian-z3-carrier-occupancy-RESULTS.md
   - canon/single-decider-integer-index-RESULTS.md
   - canon/forcing-slot-toy-rs-RESULTS.md

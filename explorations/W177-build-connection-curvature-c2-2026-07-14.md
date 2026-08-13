@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration
 label: W177
-status: exploration (W177 / BUILD-CURVATURE; 5-persona inline team; one deterministic test 17/17 exit 0; the coherence-first build of W173's residual object)
+status: exploration (W177 / BUILD-CURVATURE; 5-perspective inline team; one deterministic test 17/17 exit 0; the coherence-first build of W173's residual object)
 created: 2026-07-14
 branch: "Team W177 (BUILD-CURVATURE): build the connection-curvature 2-form F_A of the W131 Y14 connection algebraically (Cl(9,5) rep-theory + ker-Gamma), and determine whether it closes the secondary constraint C2 = Gamma.M_D.Pi_RS (=155.36) by selecting a distinguished null plane."
 title: "W177 VERDICT: DOES-NOT-CLOSE-C2 (needs external non-metric datum). The connection-curvature 2-form F_A of the W131 gimmel Levi-Civita connection is BUILT at a curved point of Y14 = Met(X4) (Riemann curvature, frame-projected, lifted to the Cl(9,5) rep), is nonzero (||Omega|| = 8.12: Y14 is genuinely curved), and is so(9,5)-VALUED (the fully-lowered frame curvature Omega_ab is antisymmetric to finite-diff precision 3.9e-7; the holonomy algebra sits in so(9,5)). BECAUSE it is so(9,5)-valued it inherits W131's exact leakage theorem: [F_A, Pi] = 0 and Gamma F_A Pi = 0 (leakage-free, numeric witness 2e-6, EXACT for all so(9,5) generators to 3e-14). C2 = Gamma.M_D.Pi_RS is Gamma-INDEPENDENT (its residual against Gamma equals its full norm 155.36) -- i.e. transverse to the so(9,5) action -- so NO metric-compatible curvature dressing can move it: dressing C2 by the curvature holonomy exp(t F_A) leaves the Gamma-independent residual at O(155) for all t (never approaches 0), reproducing bicomplex's 'C2 survives and grows under every carrier' now for the ACTUAL curvature, not a-priori named connections. F_A also does NOT select a distinguished null plane: it treats the 4 fiber-timelike directions symmetrically (curvature-charge relative spread 0.12) in a base(1)+fiber(4) pattern, so it does not break the 5-fold null-pair symmetry to one plane -> it does NOT force the SG4 carrier declaration (A vs B). The object C2 needs is a SYMMETRIC, NON-metric datum outside so(9,5) (W131's C3b protection boundary: eta.II_sym is not antisymmetric; such an insert DOES leak, 10.9 vs F_A's 2e-6, a 6-order separation) -- external, per the program's standing thesis. NET: the record reading (W173) is CONFIRMED-not-demoted (no GU-native geometric object pairs the mirror into a BV doublet); bar(b) stays RECORD (Krein grading OPERATIVE); the generation count stays at the measured 2-bit SG4 residual."
@@ -34,7 +34,7 @@ decisive question: **does F_A close C2?**
 
 The answer is clean and negative-for-closure, and it is decided by a structure W131 already made
 exact: the curvature of a metric-compatible connection is **so(9,5)-valued**, and C2 is
-**Gamma-independent** (transverse to the so(9,5) action). Five personas ran inline; deterministic test
+**Gamma-independent** (transverse to the so(9,5) action). Five perspectives ran inline; deterministic test
 `tests/W177_connection_curvature_c2.py`, 17/17, exit 0.
 
 ## 0. Scope: what 2-form, and what "closes C2" means
@@ -52,7 +52,7 @@ selects a **distinguished null plane / spectral section** that drives C2 to 0 on
 which would either (i) pair `(generation, mirror)` into a BV doublet (demote the mirror to REDUNDANCY),
 or (ii) fix the field-space declaration (carrier A vs B, the 2-bit SG4 residual).
 
-## 1. Persona 1 -- Cl(9,5) rep-theory: F_A on the record bundle, and the leakage theorem
+## 1. Perspective 1 -- Cl(9,5) rep-theory: F_A on the record bundle, and the leakage theorem
 
 The curvature is built and lifted through the exact so(9,5) machinery W131/W173 used (the verified
 `Cl(9,5) = M(64,H)` rep). Two rep-theory facts do all the work:
@@ -70,7 +70,7 @@ The curvature is built and lifted through the exact so(9,5) machinery W131/W173 
 So the curvature acts **within** the record sector and produces **zero gamma-trace leakage**. This is the
 rep-theoretic wall.
 
-## 2. Persona 2 -- BV/BRST: why leakage-free means C2-invariant (no doublet pairing)
+## 2. Perspective 2 -- BV/BRST: why leakage-free means C2-invariant (no doublet pairing)
 
 C2 = Gamma . M_D . Pi_RS is **Gamma-INDEPENDENT** (test P3: its residual against Gamma equals its full
 norm 155.36) -- it is transverse to the gauge/so(9,5) action, which is exactly why `bv-bicomplex` found
@@ -82,7 +82,7 @@ approaching 0. This reproduces `bv-bicomplex`'s "C2 survives and grows under eve
 supply the differential that would pair `(generation, mirror)` into a doublet/quartet, so the mirror is
 NOT demoted. The demotion channel W173 identified stays closed under the metric curvature.
 
-## 3. Persona 3 -- differential geometer: F_A is real but symmetric across the null pairs
+## 3. Perspective 3 -- differential geometer: F_A is real but symmetric across the null pairs
 
 The build confirms Y14 is genuinely curved: at a curved Lorentzian point the frame Riemann 2-form has
 `||Omega|| = 8.12` (test F1), so there IS a curvature to use -- the failure to close is not "the space is
@@ -95,7 +95,7 @@ does **not single out ONE null plane** among the fiber directions. So it cannot 
 distinguished null plane C2 needs, and it does not force the SG4 carrier declaration (N2): the measured
 2-bit SG4 residual (`canon/gu-forces-field-space-declaration`, B-leaning) survives.
 
-## 4. Persona 4 -- symbolic engineer: the test, controls, exit code
+## 4. Perspective 4 -- symbolic engineer: the test, controls, exit code
 
 `tests/W177_connection_curvature_c2.py`, 17/17, exit 0, deterministic (seed 20260714). Positive controls,
 per mandate:
@@ -117,7 +117,7 @@ exactly as W131 treats its Block B/C geometry); the DECISIVE content (D4) is EXA
 rep. No number was reverse-engineered; the 5-fold-symmetry finding and the leakage separation are read off,
 not fitted.
 
-## 5. Persona 5 -- adversarial skeptic: steelman STILL-NEEDS-EXTERNAL
+## 5. Perspective 5 -- adversarial skeptic: steelman STILL-NEEDS-EXTERNAL
 
 **The steelman (the program's standing thesis, now sharpened).** The right way to read this is not "we
 failed to close C2" but "we proved the metric-compatible curvature is the wrong KIND of object to close

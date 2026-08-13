@@ -14,9 +14,7 @@ inputs:
 runnable:
   - tests/channel-swings/externality_substantiveness_HV_probe.py
 outcome: HV-BRIDGE-GAP
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

@@ -3,10 +3,8 @@ title: "Phase-0 decision tree for ID-1: the native Sp(1)-torsor identification w
 doc_type: scoping_decision_tree
 status: phase0_scoping (no Phase-1 node executed; small computations only, exit 0)
 created: 2026-07-20
-directed_by: "Joe direct chat, 2026-07-20 (Phase 0 scout A, ten-persona-amended)"
-claim_status_change: none
+directed_by: "Joe direct chat, 2026-07-20 (Phase 0 scout A, ten-perspective-amended)"
 canon_verdict_change: none
-public_posture_change: none
 target: "ID-1 of explorations/torsion-generation-arena-2026-07-20.md (as re-specified by verify-torsion-arena-2026-07-20.md Sections B/E): the rep-weight half of the torsor demand -- the framing transforming in the carrier representation. Only the Z/2 co-flip shadow is verified, and it is rep-weight-blind."
 probe: tests/channel-swings/phase0_torsor_checks.py
 related:

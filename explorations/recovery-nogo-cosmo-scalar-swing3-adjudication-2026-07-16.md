@@ -3,7 +3,6 @@ title: "Recovery no-go cosmology scalar Swing 3 adjudication"
 status: exploration
 doc_type: recovery_no_go_defense
 created: 2026-07-16
-run_id: GUH-20260716T200824Z-cosmo-swing3
 target: RECOVERY-NOGO-COSMO-SCALAR
 test: tests/recovery-contract/cosmo_nogo_swing3_adjudication_gate.py
 register: lab/process/recovery-no-go-defense-register.json
@@ -94,9 +93,9 @@ and an unfrozen adapter remains an invalid escape.
 
 ## Next work
 
-Within Lane 1, the next eligible no-go-defense work is `RECOVERY-NOGO-SM-SELECTOR`
-Swing 2 unless daily stewardship changes the order. Lane 2 `DE-AMP-DIAGNOSTIC`
-and Lane 3 `PROOF-STABLE-KERNELS` remain eligible but were not promoted by this
+Within truth-status research, the next eligible no-go-defense work is `RECOVERY-NOGO-SM-SELECTOR`
+Swing 2 unless daily stewardship changes the order. prediction research `DE-AMP-DIAGNOSTIC`
+and result-hardening research `PROOF-STABLE-KERNELS` remain eligible but were not promoted by this
 result.
 
 Paper seed proposal: none.

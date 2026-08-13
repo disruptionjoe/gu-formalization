@@ -14,9 +14,7 @@ inputs:
   - explorations/channel-swing-CH-SRC-2026-07-19.md
   - explorations/channel-swing-CH-COSMO-2026-07-19.md
 test: tests/channel-swings/bb_p2_vacuum_theorem_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Blockbuster P2: the vacuum cancellation theorem

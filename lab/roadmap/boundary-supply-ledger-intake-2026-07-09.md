@@ -6,16 +6,14 @@ created: 2026-07-09
 source_mailbox:
   - system/mailboxes/gu-formalization/20260709-profound-cracks-synthesis-to-gu-formalization.md
   - system/mailboxes/gu-formalization/20260709-cross-repo-boundary-polarity-triangle.md
-  - system/mailboxes/gu-formalization/20260709-taf-persona-panel-hidden-model-synthesis.md
-claim_status_change: none
-canon_change: none
+  - system/mailboxes/gu-formalization/20260709-taf-perspective-panel-hidden-model-synthesis.md
 ---
 
 # Boundary Supply Ledger Intake
 
 ## Status Boundary
 
-This is roadmap intake from CapacityOS mailbox proposals. It is not canon, a
+This is roadmap intake from private orchestration overlay mailbox proposals. It is not canon, a
 verdict change, a claim-status change, or evidence that GU Formalization,
 Temporal Issuance, and Time as Finality have found one shared object.
 
@@ -74,7 +72,7 @@ GU invoice, not a broad tri-repo synthesis. Good candidates are:
 
 ## Receipt
 
-Processed from CapacityOS mailbox proposals during
-`RUN-20260709-268-mailbox-processing-fanout-hourly`. The proposals were
+Processed from private orchestration overlay mailbox proposals during
+`historical-investigation`. The proposals were
 preserved as roadmap/open-problem intake only. No tests were run. No claim,
 verdict, canon, public posture, license, or external action changed.

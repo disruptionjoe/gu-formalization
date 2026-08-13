@@ -87,7 +87,7 @@ class GithubReadmeSurfaceMapAudit(unittest.TestCase):
         self.assertIn("do not validate research claims", normalized)
         self.assertIn("not instructions to change research truth", normalized)
         self.assertIn(
-            "../lab/process/runbooks/claim-status-consistency-quality-workflow.md",
+            "../lab/methods/claim-status-consistency.md",
             self.text,
         )
 

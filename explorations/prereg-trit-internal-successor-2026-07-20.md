@@ -4,9 +4,7 @@ status: pre_registration
 doc_type: pre_registration
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (council-unanimous: pre-register before looking; the kernel is epistemically hot)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 binding: >
   This registration BINDS the successor check before any computation
   looks. Commit timestamp = the notary. The executor may not modify the

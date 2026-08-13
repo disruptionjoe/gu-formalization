@@ -4,9 +4,7 @@ status: verdict_record
 doc_type: verdict_record
 created: 2026-07-20
 ratified_by: "Joe direct chat, 2026-07-20 (explicit: 'it's fine to close it because we already established that it's most likely located, not forced')"
-claim_status_change: "generations-transport-native line: OPEN -> CLOSED-within-frozen-inventory"
 canon_verdict_change: none (GU global verdict untouched; this closes ONE line at its stated scope)
-public_posture_change: none
 ---
 
 # Verdict: native generations transport — CLOSED (located, not forced)

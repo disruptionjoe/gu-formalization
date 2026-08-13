@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM LENS-ACTION, W161; five personas inline, one worker, no sub-agents; deterministic test with W126/W130/W159 positive controls, exit 0)
+status: exploration (TEAM LENS-ACTION, W161; five perspectives inline, one worker, no independent reviewers; deterministic test with W126/W130/W159 positive controls, exit 0)
 created: 2026-07-14
 wave: W161
 label: W161
@@ -39,11 +39,11 @@ is GU's gravitational law, so that its covariant `c_R = -4/9 < 0` is a real phys
 mass. The prompt names this exactly: *the tachyon is real IF `|II|^2` is GU's law.*
 
 This wave attacks that assumption directly, by reading GU's OWN action from the primary source
-(`Geometric_UnityDraftApril1st2021.pdf`, treated as DATA, no canon change). Five personas
-inline, one worker, no sub-agents. Deterministic test `tests/W161_foundational_action_lens.py`,
+(`Geometric_UnityDraftApril1st2021.pdf`, treated as DATA, no canon change). Five perspectives
+inline, one worker, no independent reviewers. Deterministic test `tests/W161_foundational_action_lens.py`,
 15/15 exit 0, W126/W130/W159 positive controls first.
 
-## 1. What GU's actual action IS (persona 2 -- primary-source scholar)
+## 1. What GU's actual action IS (perspective 2 -- primary-source scholar)
 
 The April 2021 draft states the fundamental Bosonic action twice, identically. Section 9.1,
 eq (9.4):
@@ -88,7 +88,7 @@ The load-bearing facts, in Weinstein's own words:
 So GU's law is a first-order, LINEAR-in-curvature, shiab-projected Einstein-Chern-Simons-Palatini
 action on Y14. It is not `|II|^2`.
 
-## 2. Where the tachyon actually came from (persona 3 -- field theorist)
+## 2. Where the tachyon actually came from (perspective 3 -- field theorist)
 
 `|II|^2` is a **Willmore functional**: quadratic in the extrinsic curvature (second fundamental
 form) of the Y14 embedding. It is the object W126/W130 reduced to `(a0,a1,a2s,a3s)=(2,1/3,8/9,-4)`,
@@ -116,7 +116,7 @@ So the tachyon is a coefficient of the induced Willmore shadow, computed from a 
 DIFFERENT class (quadratic-in-extrinsic-curvature) than GU's actual law (linear-in-Ehresmann-
 curvature). **We have been computing the debit from the shadow's class, not the law's class.**
 
-## 3. The structure of eq (9.4): Palatini, not Willmore (persona 1 -- differential geometer)
+## 3. The structure of eq (9.4): Palatini, not Willmore (perspective 1 -- differential geometer)
 
 Could the induced shadow of eq (9.4) nonetheless BE `|II|^2` with the tachyonic coefficients? The
 functional-class analysis says the reduction does not go there uniquely. eq (9.4) is
@@ -133,7 +133,7 @@ T0), but it is a loop-induced effective coefficient, not the fundamental law -- 
 higher-curvature terms famously carry cutoff-scale poles outside EFT validity (exactly the
 "gradient saturation OUT-OF-VALIDITY" W159 found at `v^2 = 1/16`, `|m_0^2| = 1/4 = 4x`).
 
-## 4. Even as a shadow, the sign is not forced (persona 3 + persona 5)
+## 4. Even as a shadow, the sign is not forced (perspective 3 + perspective 5)
 
 Grant the strongest opposing reading -- that GU is fundamentally an induced-gravity theory (the X4
 metric IS derived, sec 12.2/12.3, so X4 gravity is a shadow) and the `|II|^2` shadow IS the
@@ -148,7 +148,7 @@ effective gravitational law. Even then the tachyonic sign is not forced by GU's 
   reduction among many, and the shiab that controls the reduction is EXPLICITLY non-unique in the
   source (sec 9.1, footnote 10). GU's actual formulation does not force `beta=0`.
 
-## 5. The defense attorney for the debit (persona 5 -- adversarial skeptic)
+## 5. The defense attorney for the debit (perspective 5 -- adversarial skeptic)
 
 The debit's strongest steelman: W157 proved `c_R = -4/9` is COVARIANT and SIGNATURE-BLIND for the
 pure `|II|^2` shadow with GU's rep content -- so no basis or signature move rescues it, and `a1=1/3`
@@ -231,9 +231,9 @@ whose reduction is unbuilt and whose sign the source does not force.
   no cross-repo identity asserted. No canon / RESEARCH-STATUS / claim-status / verdict / posture
   change; H59 OPEN. Zero em dashes in paper-facing text.
 
-*Filed 2026-07-14 by Team LENS-ACTION (W161). Lens: THE FOUNDATIONAL ACTION. Five personas inline in
+*Filed 2026-07-14 by Team LENS-ACTION (W161). Lens: THE FOUNDATIONAL ACTION. Five perspectives inline in
 one worker (differential geometer; GU-primary-source scholar; field theorist; symbolic engineer;
-adversarial skeptic); no sub-agents. Primary source read as data:
+adversarial skeptic); no independent reviewers. Primary source read as data:
 `Geometric_UnityDraftApril1st2021.pdf` sec 8-9, 12. Reproducible:
 `python -u tests/W161_foundational_action_lens.py` (15/15, exit 0; W126/W130/W159 positive controls
 first). Exploration grade; conditional register; no canon movement.*

@@ -149,7 +149,7 @@ carry a nilradical). W241 itself carries a dated correction block pointing here 
 5. **No dependency on internal work artifacts.** The next action (attack the two escapes) is fully specified
    by in-repo explorations, tests, and the frozen packet GU-002; no internal work-artifact system is needed.
 6. **No stale stronger status after the consistency sweep.** The claim-status-consistency sweep
-   (`lab/process/runbooks/claim-status-consistency-quality-workflow.md`) was run across `RESEARCH-STATUS.md`,
+   (`lab/methods/claim-status-consistency.md`) was run across `RESEARCH-STATUS.md`,
    `CANON.md`, the `canon/*` RESULTS docs, and the W-notes; no owner surface asserts a stronger status than
    this scoped structural no-go, and W241's overstated mechanism is marked superseded on its own surface.
 

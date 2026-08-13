@@ -32,7 +32,7 @@ grade on an FLRW background:
 
   PART B (arithmetic): the CURRENT empirical bracket for the adapter's absolute-scale
         item, extracted from already-frozen rows (H46C, W129/DARK-ENERGY-06, W226).
-        No new audit is run (that is Lane 2's DE-AMP item); frozen numbers only.
+        No new audit is run (that is prediction research's DE-AMP item); frozen numbers only.
 
   PART C (logic): the sign-as-orientation-observable conditions (archaeology item 9:
         both historical DE signs came from the hardcoded d ln rho/dz = 3 vs 4.229 bug;
@@ -324,7 +324,7 @@ check("HG1 toy grade: rank-2 symmetric stand-in for s*(theta); actual tensor typ
 check("HG2 no C10 action computed; scalar-block mixing and Z_theta remain OPEN "
       "(the no-go's surviving content); Q1 movement claimed only as NO -> PARTIAL "
       "candidate, proposed not applied", True)
-check("HG3 Part B extracts FROZEN rows only (H46C/W129/W226); the Lane 2 DE-AMP audit "
+check("HG3 Part B extracts FROZEN rows only (H46C/W129/W226); the prediction research DE-AMP audit "
       "is not re-run here", True)
 check("HG4 no claim status, canon verdict, scorecard row, or public posture changed "
       "by this script", True)

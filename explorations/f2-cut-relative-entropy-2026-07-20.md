@@ -4,15 +4,12 @@ status: active_research
 doc_type: exploration
 created: 2026-07-20
 owner_item: CONSTRUCTION-SPACE-EXPLORATION
-lane_id: "1"
 extends:
   - explorations/intake-bianconi-entropic-gravity-2026-07-20.md
   - explorations/sig-b5-f2-f5-shadow-2026-07-20.md
 runnable:
   - tests/channel-swings/f2_cut_relative_entropy_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 
@@ -87,7 +84,7 @@ identity, or external action moves.
 
 - Current item: Bianconi intake leg 2, cut-only relative entropy.
 - Disposition: `ENDPOINT_NEGATIVE` at toy grade.
-- Lane 1 remains led by the actual S_IG/B.5 frontier: N1 pushforward, N2 end
+- truth-status research remains led by the actual S_IG/B.5 frontier: N1 pushforward, N2 end
   family, N3 weld, or the distinct M2 scale-dial leg.
 - Strongest low-cost alternative: the intake's Dirac-Kahler chirality-count
   fork, because it is independent of this entropy failure and directly tests

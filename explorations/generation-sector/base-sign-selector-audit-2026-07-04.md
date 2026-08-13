@@ -15,7 +15,7 @@ depends_on:
 
 The `(9,5)` vs `(7,7)` decide-tournament left one cheap follow-up: test whether
 the base metric convention `g -> -g` is detected by the three GU-native proxy
-surfaces named in the run notes:
+surfaces named in the investigation notes:
 
 - observerse tautological metric / trace-reversed fiber form
 - canon shiab contraction channel

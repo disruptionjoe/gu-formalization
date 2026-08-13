@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; THE SETTLING COMPUTATION; deterministic test)
+status: exploration (5-perspective inline team; THE SETTLING COMPUTATION; deterministic test)
 created: 2026-07-12
 hypothesis: THE HINGE -- run the full FRG f(R)+Weyl^2 truncation W82 named as the settling computation, and try to SELECT the AF-vs-AS fork
 branch: "W83 -- the settling computation. A functional-RG f(R)+Weyl^2 truncation with GU's TRUE field content (induced Einstein-Hilbert (g,lambda) + higher-derivative (f_2^2 Weyl, f_0^2 R^2) + ker-Gamma Rarita-Schwinger matter), following the established f(R)-FRG lines (Codello-Percacci-Rahmede; Benedetti-Machado-Saueressig; Dona-Eichhorn-Percacci). TASKS: locate BOTH fixed points (Gaussian/AF and Reuter/AS); confirm GU's RS matter preserves the Reuter FP + critical-surface dimension + robustness under enlargement; THE SELECTION -- flow GU's FIXED IR data toward the UV and determine which FP UV-completes a non-tachyonic trajectory; sign(f_0^2) at the selected FP; verdict {AF-NOGO / AS-CLOSES / STILL-AMBIGUOUS}. TWO derivations: (D1) direct FRG fixed-point + IR-flow-connection; (D2) IR-consistency (a tachyonic UV completion is not a consistent theory)."
@@ -53,7 +53,7 @@ full FRG `f(R)+Weyl^2` truncation with GU's true ker-Gamma content and the induc
 | **RS sector** | `ker Gamma`-projected spin-3/2 = transverse gamma-traceless vector-spinor (H58) | Its `a_2` (W82): `W^2>0` (anti-screens; DEP-favorable) and no independent `R^2` (`d_RS_R2=0`). The anti-screening is the DEP-preservation input; the `d_RS_R2=0` keeps the AF branch forced-negative. |
 | **arena/value** | H62/W80: arena = forced; value = free relevant direction | `sign(f_0^2)` = arena (forced) on AF; value (free relevant) at the Reuter FP. The **selection** picks which is GU's. |
 
-## 1. Persona 1 -- FRG specialist: both FPs, RS preservation, robustness, and the IR-flow selection
+## 1. Perspective 1 -- FRG specialist: both FPs, RS preservation, robustness, and the IR-flow selection
 
 ### 1.1 The FRG truncation and BOTH fixed points
 
@@ -124,7 +124,7 @@ Flow each toward the UV:
 is a **selection PRINCIPLE** (a satisfiability criterion), not W82's presence-lean -- and it selects
 AS.
 
-## 2. Persona 2 -- math referee: real FP or artifact? is the selection principled or asserted?
+## 2. Perspective 2 -- math referee: real FP or artifact? is the selection principled or asserted?
 
 - **Both FPs and the RS preservation are as solid as the paradigm.** The Gaussian FP is exact; the
   Reuter FP rests on the canonical `+2g` (a robust sign) and GU's anti-screening content (DEP-robust
@@ -143,7 +143,7 @@ AS.
   **AS-SELECTED-CLOSES (CONDITIONAL)**, not unconditional -- an upgrade over W82's TRUNCATION-AMBIGUOUS,
   short of a proof.
 
-## 3. Persona 3 -- adversary (presses all three verdict branches)
+## 3. Perspective 3 -- adversary (presses all three verdict branches)
 
 **"The Reuter FP is a truncation artifact a better scheme kills."** Fair; asymptotic safety is unproven.
 If AS is not genuine, the only UV completion is AF, `f_0^2` is forced negative, and the **no-go stands
@@ -171,7 +171,7 @@ survives the filter.
 (ii) tachyon genuine. Neither is established; neither is excluded. This is exactly the honest
 `AS-SELECTED-CLOSES (CONDITIONAL)` register.
 
-## 4. Persona 4 -- cross-checker: the IR-consistency second derivation + the literature
+## 4. Perspective 4 -- cross-checker: the IR-consistency second derivation + the literature
 
 - **Second derivation (D2, IR-consistency, independent of the FRG algebra).** A tachyonic UV completion
   is not a consistent physical theory. `M_0^2 = gamma/(6 f_0^2)`, `gamma>0` (H25),
@@ -193,7 +193,7 @@ survives the filter.
   staying forced-negative. **Every load-bearing fact matches a known result; the new increment is the
   SELECTION -- the satisfiability filter that lands on AS.**
 
-## 5. Persona 5 -- synthesizer: the verdict
+## 5. Perspective 5 -- synthesizer: the verdict
 
 **BOTH FIXED POINTS -- LOCATED.** Gaussian/AF `(0,0,0,0)`; finite Reuter/AS FP `(g*=0.674,
 lambda*=0.151, 0, 0)` from the canonical `+2g` breaking homogeneity.

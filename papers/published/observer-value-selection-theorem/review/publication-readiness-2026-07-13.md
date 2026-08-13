@@ -2,7 +2,7 @@
 
 Candidate: *A Diagonal No-Go for Self-Valuations and an Invariance Classification*
 
-This report reconciles the hostile referee triage and the ten-persona bulletproof review against the repaired source, formalization, tests, compiled PDF, and proposed Zenodo package. It records local readiness only. No submission, upload, DOI reservation, email, account action, commit, tag, or push was performed.
+This report reconciles the hostile referee triage and the ten-perspective bulletproof review against the repaired source, formalization, tests, compiled PDF, and proposed Zenodo package. It records local readiness only. No submission, upload, DOI reservation, email, account action, commit, tag, or push was performed.
 
 ## Outcome
 
@@ -28,9 +28,9 @@ The final seven-page PDF compiles and passes visual QA. The Lean module and axio
 | 12 | Limits omitted major negative results | **Fixed** | Section 7 excludes arbitrary-category, operator-algebra, mechanism, canonical residual, prediction, number/count, full-paper formalization, and component-novelty claims. |
 | 13 | Classification recommendation was physics-adjacent | **Fixed** | Proposed arXiv routing is `math.LO` primary. `math-ph` is explicitly rejected; no categorical cross-list is recommended for the Set-only release. |
 
-## Ten-persona review reconciliation
+## Ten-perspective review reconciliation
 
-| Persona concern | Disposition |
+| Perspective concern | Disposition |
 |---|---|
 | Bell 1966 was at risk of being described as adding locality | The prior-art paragraph now distinguishes Bell's Gleason-based hidden-variable route from Kochen–Specker finite noncolorability and from later contextuality formalisms. |
 | Curie's principle could be misused as a theorem of forced asymmetry | Curie, Earman, and Norton are presented as interpretive symmetry precedents only; the paper uses no causal principle. |

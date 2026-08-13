@@ -27,7 +27,7 @@ were sorted by reading each note's content.)
 | [`representation-theory-noncompact/`](representation-theory-noncompact/) | 18 | harmonic analysis on noncompact groups: discrete series, Plancherel, Casimir, root multiplicities, Weyl/tau |
 | [`type-ii1-spectral/`](type-ii1-spectral/) | 17 | Connes-style type II_1 semifinite spectral Standard-Model selector and no-go theorems |
 | [`shiab-operator/`](shiab-operator/) | 16 | the shiab map, Spin(7,7) spinor branching, shiab-vs-codifferential intertwiner structure |
-| [`persona-and-dialectic/`](persona-and-dialectic/) | 14 | multi-persona steelman / Hegelian / N-lens adversarial review passes |
+| [`perspective-and-dialectic/`](perspective-and-dialectic/) | 14 | multi-perspective steelman / Hegelian / N-lens adversarial review passes |
 | [`firewall-and-two-geometries/`](firewall-and-two-geometries/) | 12 | the iO/firewall obfuscation lens, two-arena adapter, escape-hatch/no-go maps, reverse-engineered source-action spec |
 | [`signed-calm-jordan/`](signed-calm-jordan/) | 12 | the signed-readout boundary theorem and its Jordan/CALM factorization provenance |
 | [`dark-energy-cosmology/`](dark-energy-cosmology/) | 11 | theta-field FLRW cosmology, DESI w_a sign window, Lambda / dark-energy provenance |
@@ -62,7 +62,7 @@ were sorted by reading each note's content.)
 
 Per-wave artifacts from the council-ranked hypothesis waves (H-numbered items; each wave's tests live under
 `tests/` with matching names). Companion cross-wave records: [`threads/`](threads/) (first-swing thread pass)
-and [`two-track-persona-sweep-2026-07-11/`](two-track-persona-sweep-2026-07-11/) (the ~60-persona two-track
+and [`two-track-perspective-sweep-2026-07-11/`](two-track-perspective-sweep-2026-07-11/) (the ~60-perspective two-track
 restructure synthesis).
 
 Current cross-wave synthesis and execution:
@@ -88,5 +88,5 @@ Current cross-wave synthesis and execution:
 
 ## Archived
 
-- [`hourly-cycles/`](hourly-cycles/) -- **archived** output from the hourly research-automation cadence
+- [`research-cycles/`](research-cycles/) -- **archived** output from the hourly research-automation cadence
   (~530 notes + transition ledgers). Not load-bearing; kept for provenance. Do not cite as a result.

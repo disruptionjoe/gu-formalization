@@ -16,9 +16,7 @@ inputs:
 runnable:
   - tests/channel-swings/prongI_info_channel_probe.py
 hostile_verify_flag: "SUB-Q1 zero-inward-capacity is theorem-grade (Schur Hom(triv,sign)=0 = identical channel rows = capacity 0). Flagged for hostile verify."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

@@ -1,11 +1,11 @@
 ---
 artifact_type: exploration
-status: exploration (W142; full-roster steelman sweep, PHILOSOPHY / EPISTEMOLOGY / FOUNDATIONS family; 13 personas inline, one context, no sub-agents)
+status: exploration (W142; full-roster steelman sweep, PHILOSOPHY / EPISTEMOLOGY / FOUNDATIONS family; 13 perspectives inline, one context, no independent reviewers)
 created: 2026-07-14
 wave: W142
 hypothesis: "W142 -- steelman Joe's framing at full strength: IF the dark-energy / cosmological-constant sector is a SET ISSUANCE, it gets DISTRIBUTED THROUGH THE OBSERVERS; find the FUNCTION F describing that distribution as an ASSUMPTION LEG and back into the rest of the story. Companion mandate: steelman the METHOD itself -- when is assumption-first legitimate, and what discipline keeps it honest."
-title: "W142 -- the philosophy/foundations family steelman sweep of the issuance-distribution framing. 13 personas, 26 stories (two per persona: the distribution function F or the methodological structure, the assumption leg, and the test / demarcation criterion), scored against the W138 kill battery plus a PROGRESSIVE-vs-DEGENERATING axis, with the E1 one-object tripwire built into every survivor. TOP SURVIVORS: (1) F = the graded-optical-theorem excess B^dag B read as the issuance ledger (quantum-foundations persona; the one candidate that is a POSITIVE operator-valued distribution located exactly where W137 said the positive ledger must live, the C-metric functional; test = the W48 loop computation of B plus a cross-sector sign/normalization consistency check); (2) the uniform boundary-supply F with bulk-flatness selection (the W136 story itself, steelmanned; all six W138 gates cleared by construction; carries the family's one novel-fact candidate, beta/alpha* = 2); (3) F = the C-compression share (C1-based; the only F that makes 'distributed through observers' a positive MEASURE inside the repo's own operators; cheapest test = the K2 compressed-metric positivity check); (4) the C2 boundary-balance F (sharpest kill condition on the board: compact-support boundary terms vanish identically); (5) the Cartwright capacity-profile reading with W137's C3 as its decision computation. FAMILY VERDICT on the W136 pin: beta/alpha* = 2 QUALIFIES as a Lakatosian novel-fact CANDIDATE in the use-novelty (Zahar/Worrall) sense -- forced, not fitted -- but is not yet an empirical novel fact and stays candidate-grade until one independent consequence at the pinned ratio survives. f0 = 0 is scored PROGRESSIVE with an honesty note: half accommodation of W129, half genuine excess content (exactness is strictly sharper than any standing bound). METHOD VERDICT: assumption-first is legitimate exactly under the seven-point discipline enumerated in Section 4; Joe's 'bad science if naive, another angle, then rigorously check' is the Lakatos positive heuristic stated in plain language, and the repo already runs the required discipline (declare-never-assert, pre-frozen battery, machine-checked propagation, kill lists, E1 tripwire)."
-grade: "exploration / conditional register throughout. METHOD AND ANALYSIS, not evidence: no new computation is run in this wave; every number cited is a standing repo result (W136 cc227b0, W137 9cb9f4c, W138 ec00fbd, W129-W132, E1 meta-audit). Every statement of the form 'X' below a declared postulate is to be read 'X under the issuance declaration'; nothing asserts the declaration. Personas inline (one worker). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; no spec FIT row moves; no cross-repo claim (tri-repo gate honored: capability measure belongs to TaF, issuance semantics to temporal-issuance; 'issuance' is the W136 local postulate label only)."
+title: "W142 -- the philosophy/foundations family steelman sweep of the issuance-distribution framing. 13 perspectives, 26 stories (two per perspective: the distribution function F or the methodological structure, the assumption leg, and the test / demarcation criterion), scored against the W138 kill battery plus a PROGRESSIVE-vs-DEGENERATING axis, with the E1 one-object tripwire built into every survivor. TOP SURVIVORS: (1) F = the graded-optical-theorem excess B^dag B read as the issuance ledger (quantum-foundations perspective; the one candidate that is a POSITIVE operator-valued distribution located exactly where W137 said the positive ledger must live, the C-metric functional; test = the W48 loop computation of B plus a cross-sector sign/normalization consistency check); (2) the uniform boundary-supply F with bulk-flatness selection (the W136 story itself, steelmanned; all six W138 gates cleared by construction; carries the family's one novel-fact candidate, beta/alpha* = 2); (3) F = the C-compression share (C1-based; the only F that makes 'distributed through observers' a positive MEASURE inside the repo's own operators; cheapest test = the K2 compressed-metric positivity check); (4) the C2 boundary-balance F (sharpest kill condition on the board: compact-support boundary terms vanish identically); (5) the Cartwright capacity-profile reading with W137's C3 as its decision computation. FAMILY VERDICT on the W136 pin: beta/alpha* = 2 QUALIFIES as a Lakatosian novel-fact CANDIDATE in the use-novelty (Zahar/Worrall) sense -- forced, not fitted -- but is not yet an empirical novel fact and stays candidate-grade until one independent consequence at the pinned ratio survives. f0 = 0 is scored PROGRESSIVE with an honesty note: half accommodation of W129, half genuine excess content (exactness is strictly sharper than any standing bound). METHOD VERDICT: assumption-first is legitimate exactly under the seven-point discipline enumerated in Section 4; Joe's 'bad science if naive, another angle, then rigorously check' is the Lakatos positive heuristic stated in plain language, and the repo already runs the required discipline (declare-never-assert, pre-frozen battery, machine-checked propagation, kill lists, E1 tripwire)."
+grade: "exploration / conditional register throughout. METHOD AND ANALYSIS, not evidence: no new computation is run in this wave; every number cited is a standing repo result (W136 cc227b0, W137 9cb9f4c, W138 ec00fbd, W129-W132, E1 meta-audit). Every statement of the form 'X' below a declared postulate is to be read 'X under the issuance declaration'; nothing asserts the declaration. Perspectives inline (one worker). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; no spec FIT row moves; no cross-repo claim (tri-repo gate honored: capability measure belongs to TaF, issuance semantics to temporal-issuance; 'issuance' is the W136 local postulate label only)."
 construction_used: "not applicable at object level (no new geometric object is built); where a story fixes a construction it names it inline per GEOMETER-VS-PHYSICS-OBJECTS.md (the pinned Convention-B section machinery for slice-anchored F; standard-field FRW/EFT wrappers for the gates, as in W138)."
 framing_correction: "2026-07-14 mid-wave, from Joe via coordinator, applied in Sections 0-bis, 2.4, 3-bis, and 4-bis (the W140/W141 amendment pattern: the pre-correction generation record in Sections 0-4 is retained unedited; the correction is applied at scoring, nothing rewritten to look prescient). Corrected minimal claim: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it (rho_Lambda ~ (2.24 meV)^4; Q_tot = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume; dimensionless ladder 9 Omega_L = 6.16; null-structure separator: at w = -1 the covariant Q = 0 IDENTICALLY, the rate is bookkeeping, ALL physical content lives in the distribution leg). All Bitcoin-specific schedule characteristics dropped from the steelman target. The steelman question is exactly: declaring that known measured number as the issuance input, what can be backed out for later rigorous checking. Reclassification audit result: ZERO stories moved out of scope (the family's Section-0 rate discipline had already fixed the schedule to the set/constant case); one gate-table cell tightened (2A's G2 conditional now holds identically). Re-rank: 4B > 4A > 10A > 10B > 5B (distribution content promoted; the uniform story re-labeled the null point of the distribution leg). Novelty ruling UPDATED and STRENGTHENED: an already-public measured input has zero tuning freedom, so the direction of fit for the beta/alpha* = 2 pin is unambiguous (use-novelty strengthened); the known-number-carries-no-risk objection is conceded FOR THE RATE LEG and answered by W135's own separator -- the rate is bookkeeping, so risk was never the rate leg's to carry; all risk and all empirical novel-fact opportunity live in the distribution leg and the internal forcing. f0 = 0 upgraded: under the corrected claim exact LCDM is the null structure of the measured input, not an accommodation choice; the accommodation discount partially lifts. Method verdict amended: discipline 4's pricing is re-specified -- what is declared (and priced) is the READING, never the number."
 depends_on:
@@ -13,8 +13,8 @@ depends_on:
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
-  - explorations/two-track-persona-sweep-2026-07-11/C-foundations-observer.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/C-foundations-observer.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - explorations/threads/E-one-object-recurrence-meta-audit-2026-07-11.md
   - explorations/W132-graded-optical-theorem-physical-subspace-2026-07-14.md
   - explorations/W129-oq2-m2-band-sweep-de-exclusion-2026-07-14.md
@@ -44,7 +44,7 @@ kill (W138 gate G4) makes one reading dead on arrival: no structural constant (f
 alpha_W, a Willmore coefficient) may be READ AS a rate, because rates are the quotiented
 Connes fiber and drop out of rate-invariant content. The steelman therefore reads "set
 issuance rate" as: the TOTAL issuance schedule is SET (fixed; at background, constant, w = -1
-exactly, the conservation-clean case of W136 Persona 1), and the open question is the
+exactly, the conservation-clean case of W136 Perspective 1), and the open question is the
 DISTRIBUTION function F over observers. F is a measure/schedule/filtration-type object, which
 gate G4 explicitly allows. Every story below is phrased under this discipline; any story that
 cannot be so phrased is discarded at G4.
@@ -92,8 +92,8 @@ scope-not-kill relabel.
 
 **Family partition.** The assigned family is PHILOSOPHY / EPISTEMOLOGY / FOUNDATIONS. The
 roster's nearest partition is Slice C of the two-track sweep (FOUNDATIONS / INFORMATION /
-OBSERVER, `explorations/two-track-persona-sweep-2026-07-11/C-foundations-observer.md`).
-Coverage: all 13 personas of that slice are taken, none skipped:
+OBSERVER, `explorations/two-track-perspective-sweep-2026-07-11/C-foundations-observer.md`).
+Coverage: all 13 perspectives of that slice are taken, none skipped:
 
 1. Philosopher of science (Lakatosian; Sci-Advisory archetype 4)
 2. Information-first / entropic theorist (Bianconi lens; 22)
@@ -109,7 +109,7 @@ Coverage: all 13 personas of that slice are taken, none skipped:
 12. Mathematical minimalist (52)
 13. Philosopher of mathematics (26)
 
-All run inline, sequentially, one context, no sub-agents.
+All run inline, sequentially, one context, no independent reviewers.
 
 **Instruments (binding):**
 
@@ -134,15 +134,15 @@ All run inline, sequentially, one context, no sub-agents.
 
 ---
 
-## 1. Per-persona pass: two steelman stories each
+## 1. Per-perspective pass: two steelman stories each
 
-Format per story: **(i)** the distribution function F, or for method personas the
+Format per story: **(i)** the distribution function F, or for method perspectives the
 methodological structure; **(ii)** the assumption leg (what is declared, never asserted);
 **(iii)** the TEST -- for object stories the falsifier, for method stories the DEMARCATION
 CRITERION (the observable commitment separating it from unfalsifiable narrative) plus the
 retreat/degeneration signature.
 
-### Persona 1: Philosopher of science (Lakatosian)
+### Perspective 1: Philosopher of science (Lakatosian)
 
 **Story 1A (method): the issuance postulate as hard core plus positive heuristic.**
 (i) Structure: hard core = { rho_Lambda,obs is a boundary-supplied issuance, constant at
@@ -175,7 +175,7 @@ spec's independently derived band); f0 = 0 stamps MIXED (see Section 3).
 the confirming computation is run; retreat signature = re-stamping FITTED results as FORCED
 after they survive. Survives trivially (it is an instrument, not a claim).
 
-### Persona 2: Information-first / entropic theorist (Bianconi lens)
+### Perspective 2: Information-first / entropic theorist (Bianconi lens)
 
 **Story 2A (object): F proportional to the metric-mismatch density.**
 (i) F(x) = rho_Lambda * s(x) / <s>, where s(x) is the local density of the g-vs-G action
@@ -208,7 +208,7 @@ absorb external inputs (an anthropic weighting, a fitted schedule) while still c
 action-only reading. Note W136 already concedes the VALUE 2.3 meV is an input everywhere;
 this story polices that the concession stays explicit.
 
-### Persona 3: Observer-first / observerse theorist
+### Perspective 3: Observer-first / observerse theorist
 
 **Story 3A (object): F proportional to the slice's cost density (the naive native guess).**
 (i) F(sigma) = rho_Lambda * W(sigma)/<W> with W = |II_sigma|^2 the pointwise cost density --
@@ -233,9 +233,9 @@ that any attempt to compute operator-level issuance shares will fail to glue (a 
 structural commitment: exhibiting gluing operator data would misplace the story). Retreat
 signature: sliding back to operator-level share talk when class-level shares prove too coarse
 to say anything. Named next computation: none of its own; it rides C1's K3 fallback (Section
-1, Persona 4). Survives at conjecture grade.
+1, Perspective 4). Survives at conjecture grade.
 
-### Persona 4: Quantum-foundations theorist
+### Perspective 4: Quantum-foundations theorist
 
 **Story 4A (object): F = the C-compression share.**
 (i) F(sigma) = rho_Lambda * tr(P_sigma eta_+ P_sigma) / N, where eta_+ = eta C is the
@@ -288,7 +288,7 @@ pass. Named next computation: W48 loop-level B. PROGRESSIVE-candidate, the famil
 strongest: it PREDICTS a relation between two sectors (DE supply, unitarity excess) that were
 built by different waves for different reasons.
 
-### Persona 5: Thermodynamic-gravity theorist (Jacobson / Verlinde)
+### Perspective 5: Thermodynamic-gravity theorist (Jacobson / Verlinde)
 
 **Story 5A (object): F = horizon-thermodynamic supply, distributed by causal-diamond area.**
 (i) F(observer) = T_dS dS(diamond)/dt, issuance per observer proportional to its horizon
@@ -297,7 +297,7 @@ area's entropy flux.
 (iii) Verdict: DEAD at G5 by direct application: the normalization reduces to
 E_Lambda = T_dS S_dS / 1.46 with no new degree of freedom -- the Gibbons-Hawking / Cai-Kim
 identity relabeled. Novelty kill, not truth kill: the story is not wrong, it is not a
-hypothesis. The thermodynamic persona's honest contribution is to CONCEDE its own most
+hypothesis. The thermodynamic perspective's honest contribution is to CONCEDE its own most
 natural story to the battery and pivot to 5B. Discard.
 
 **Story 5B (method): the Cartwright capacities reading, with C3 as its decision computation.**
@@ -320,7 +320,7 @@ dropped (its lever was never exercised). Retreat signature: keeping capacity tal
 null C3. Named next computation: C3. Survives as the method steelman with the sharpest
 built-in exit.
 
-### Persona 6: Relational / Rovelli-style physicist
+### Perspective 6: Relational / Rovelli-style physicist
 
 **Story 6A (method): the pragmatist operationalization of "observer" that makes F
 well-defined.**
@@ -346,7 +346,7 @@ the family's definitional gate; every surviving object story is checked against 
 events" independent of the section machinery; the story cannot state its own domain. Discard
 (same disposal class as W137's "transduction" clause: labeled, not laundered).
 
-### Persona 7: Category-theoretic foundations
+### Perspective 7: Category-theoretic foundations
 
 **Story 7A (object): F as a global section of the class-level sheaf.**
 (i) The three-row ladder (W137 Section 3) is the collective/single structure: ambient
@@ -376,7 +376,7 @@ scoring (4A passes formally -- compressions are functorial in the region; 2A pas
 profile is by construction the OBSTRUCTION to naturality, which is fine because 5B claims
 capacity variation, not naturality).
 
-### Persona 8: Computational-irreducibility theorist (Wolfram / Gorard)
+### Perspective 8: Computational-irreducibility theorist (Wolfram / Gorard)
 
 **Story 8A (object): F = issuance bounded by per-slice computational absorption capacity.**
 (i) F(sigma) proportional to what sigma's computation can absorb per update.
@@ -398,7 +398,7 @@ signature: waves where the "propagation" is prose reclassification of existing r
 Survives as an instrument; W136 passes it, W137 passes it (14/14 with double-routing), this
 wave deliberately makes no object claim so it does not need to.
 
-### Persona 9: Bayesian / epistemics-of-physics lens
+### Perspective 9: Bayesian / epistemics-of-physics lens
 
 **Story 9A (method): the assumption leg as a prior that must repay its cost.**
 (i) Structure: a declared postulate LOWERS the prior of the conditional theory (it is an
@@ -428,7 +428,7 @@ the CONTROL story -- and this is the family's answer to "bad science if naive": 
 version forgets to carry the null; the disciplined version keeps uniform-F on the board so
 that richer distribution stories must EARN their structure.
 
-### Persona 10: Differential geometer
+### Perspective 10: Differential geometer
 
 **Story 10A (object): the uniform boundary-supply F with bulk-flatness selection (the W136
 story, steelmanned as the family's floor).**
@@ -468,7 +468,7 @@ second retreat available. That pre-declared two-step exhaustion is what makes th
 steelman rather than a moving target. Named next computation: the C2 boundary computation.
 Survives at conjecture grade with the best kill hygiene on the board.
 
-### Persona 11: Scientific skeptic
+### Perspective 11: Scientific skeptic
 
 **Story 11A (method): the null-F control arm.**
 (i) Structure: same object as 9B, held for a different reason: the skeptic's job is to keep
@@ -493,7 +493,7 @@ exactness is infinitely more falsifiable), so it passes the tripwire -- with the
 logged that the NEXT such conversion in the issuance program must pass the same test, and
 two conversions that merely coincide with standing bounds = degeneration declared. Survives.
 
-### Persona 12: Mathematical minimalist
+### Perspective 12: Mathematical minimalist
 
 **Story 12A (method): the minimal-F rule.**
 (i) Structure: F earns structure only by determination count. Uniform F costs zero free
@@ -520,7 +520,7 @@ the reading survives it precisely by not claiming the magnitude.
 energy" -- W136's own text calls this a double misquotation; this story makes it the
 family's standing quote-audit. Survives.
 
-### Persona 13: Philosopher of mathematics
+### Perspective 13: Philosopher of mathematics
 
 **Story 13A (method): modal hygiene as the register that makes assumption-first legitimate.**
 (i) Structure: the difference between "bad science if naive" and "another angle" is
@@ -601,7 +601,7 @@ signature inline above, and each is exercised at least once in this document (th
    pre-declared retreat (W103 tail-quotient slot), terminal exhaustion after that. The
    model for what "assumption leg with discipline" means at object level.
 5. **5B -- the Cartwright capacity-profile reading with C3 as decision computation**
-   (thermodynamic persona, post-concession). The best METHOD steelman of Joe's phrase
+   (thermodynamic perspective, post-concession). The best METHOD steelman of Joe's phrase
    "distributed through the observers somehow": it names the somehow (per-slice exchange
    capacity), the measuring number (-8u exchange coefficient), the decision computation
    (C3, tractable, either outcome informative), and the exit (drop the vocabulary on a
@@ -832,5 +832,5 @@ The four discarded stories are disposed with reasons, not silently dropped; the 
 on-notice stories carry counters, not verdicts.
 
 *Filed 2026-07-14, W142, philosophy/epistemology/foundations family (slice-C roster, 13
-personas, 26 stories, run inline in one session). Exploration grade, conditional register
+perspectives, 26 stories, run inline in one session). Exploration grade, conditional register
 throughout.*

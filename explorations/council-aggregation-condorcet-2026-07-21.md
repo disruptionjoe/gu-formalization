@@ -1,14 +1,12 @@
 ---
-title: "Council aggregation (Condorcet + confidence-weighted): consensus across the two boundary-meaning councils (5 science + 7 systems = 12 personas as voters). Real pairwise-majority vote over the 12 STEELMEN and over the 10 QUESTION-finalists, plus a confidence x mode-weight ranking of the steelmen and a cross-lens (rigor vs interpretive vs structural) consensus read. Headline: INFO (sigma = 1 external bit / zero inward capacity) is the Condorcet winner AND co-tops the confidence-weighted list (robust); FLP (relativized-computability / host-vs-source) is the most uniformly-placed steelman across opposed lenses; COMMERCIAL is high-confidence but Condorcet-dismissed (solid-but-narrow); the questions have NO single Condorcet winner (a P1 / I2 tie at the top), and the standpoint-exhaustiveness question P1 is the one pivot rigor AND wild lenses both rate top."
+title: "Council aggregation (Condorcet + confidence-weighted): consensus across the two boundary-meaning councils (5 science + 7 systems = 12 perspectives as voters). Real pairwise-majority vote over the 12 STEELMEN and over the 10 QUESTION-finalists, plus a confidence x mode-weight ranking of the steelmen and a cross-lens (rigor vs interpretive vs structural) consensus read. Headline: INFO (sigma = 1 external bit / zero inward capacity) is the Condorcet winner AND co-tops the confidence-weighted list (robust); FLP (relativized-computability / host-vs-source) is the most uniformly-placed steelman across opposed lenses; COMMERCIAL is high-confidence but Condorcet-dismissed (solid-but-narrow); the questions have NO single Condorcet winner (a P1 / I2 tie at the top), and the standpoint-exhaustiveness question P1 is the one pivot rigor AND wild lenses both rate top."
 status: active_research
 doc_type: exploration
 created: 2026-07-21
 inputs:
   - explorations/council-science-boundary-meaning-2026-07-21.md
   - explorations/council-systems-boundary-meaning-2026-07-21.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Council aggregation: what has CONSENSUS across differing opinions
@@ -17,7 +15,7 @@ This is a read-only aggregation pass over two completed councils. It does **not*
 re-open any council judgment, move any claim/canon/verdict, or take any external
 action. It asks one question Joe posed: **across genuinely differing lenses, what
 do the councils actually agree on?** — answered as a *real* Condorcet vote with
-the 12 council personas reconstituted as an inline voting panel, plus a
+the 12 council perspectives reconstituted as an inline voting panel, plus a
 confidence-weighted ranking held up against the vote.
 
 The two source councils:
@@ -29,7 +27,7 @@ The two source councils:
 
 Each member produced a **steelman** (with MODE ∈ {EXACT, MIXED, ANALOGY} and a
 CONFIDENCE %) and **three escalating questions** (Q1 grounded → Q2 cross-domain →
-Q3 wild). That is **12 steelmen** and **36 questions**. The 12 personas are the
+Q3 wild). That is **12 steelmen** and **36 questions**. The 12 perspectives are the
 voters — reconstituting them as a panel and taking pairwise majorities *is* the
 operational meaning of "consensus across differing opinions."
 
@@ -60,14 +58,14 @@ code 0**.
 
 ## 2. Method
 
-1. **Reconstitute the 12 personas as an inline voting panel** (each reasons
+1. **Reconstitute the 12 perspectives as an inline voting panel** (each reasons
    in-character; no agents spawned).
-2. **Steelmen:** each persona produced a full strict **preference ranking** of
+2. **Steelmen:** each perspective produced a full strict **preference ranking** of
    all 12 steelmen by *"which best captures what the missing piece really is."*
    Each author ranks their own steelman #1 (self-vote noted, §7 sensitivity).
-3. **Questions:** each persona scored all 36 questions **1–5** on *"most
+3. **Questions:** each perspective scored all 36 questions **1–5** on *"most
    interesting + generative."* Top-10 by mean become finalists; the finalist
-   ballots are the personas' score-orders (ties → 0.5 in pairwise).
+   ballots are the perspectives' score-orders (ties → 0.5 in pairwise).
 4. **Tabulate deterministically:** pairwise-majority matrix → Condorcet winner if
    one exists, else Copeland ordering + Smith set, for both races.
 5. **Confidence-weighted steelman ranking** (separate): score = author CONF ×
@@ -105,7 +103,7 @@ and FLP into their top-4 (see §6).
 
 ### 3b. Question scores → finalists
 
-The 36 questions scored 1–5 by each persona (full 12×36 matrix in the probe).
+The 36 questions scored 1–5 by each perspective (full 12×36 matrix in the probe).
 Top-10 means (the finalists):
 
 | id | mean | question (abbreviated) |
@@ -251,7 +249,7 @@ score = author-CONF × mode-weight (EXACT 1.0 / MIXED 0.6 / ANALOGY 0.3):
   the method + limitative result genuinely exist and are checkable, but the panel
   won't crown it as *the description of the missing piece* because it deliberately
   **declines** the central question ("the philosophy does not change the invoice").
-  High personal confidence, low consensus — it is confident *about a narrower
+  High perspectivel confidence, low consensus — it is confident *about a narrower
   thing than the question asked.*
 - **FLP: broadly-agreeable-but-hedged (Δ = +2).** #2 by Condorcet but only #4 by
   confidence — because its author honestly typed it MIXED (72%), not EXACT. The
@@ -380,7 +378,7 @@ the *other* eleven lenses routing them high.
 Exploration tier. Read-only aggregation of two existing council artifacts; no
 re-opening of any council judgment, no claim/canon/verdict/ledger/portfolio
 movement, no external action, no commit/push. The ballots are the aggregator's
-in-character elicitation of the 12 personas from the councils' own steelmen and
+in-character elicitation of the 12 perspectives from the councils' own steelmen and
 questions — they are a *model* of each lens's preferences, not a re-run of the
 councils; a hostile reviewer should attack the ballots first (particularly the
 INFO/FLP placements that drive the result, and the score cut that admits

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W133 / H71; 5-persona inline team; one deterministic test; the even-cut inter-family disagreement attacked as a DISCRIMINATOR on three fronts)
+status: exploration (W133 / H71; 5-perspective inline team; one deterministic test; the even-cut inter-family disagreement attacked as a DISCRIMINATOR on three fronts)
 created: 2026-07-14
 hypothesis: H71 (feeds H59)
 branch: "Path-2 wave-5 (Team H71 / W133): can the even-cut +1-vs-0 disagreement between the grading and removal families DISCRIMINATE? Front 1: dispersion/sum rule. Front 2: in-principle observable. Front 3: fork formalization (two quantizations of one Lagrangian)"
@@ -39,7 +39,7 @@ positive phase-space cut), the CLOP band endpoints are exactly these two answers
 intermediates are optical-theorem orphans. The 2026-07-14 landscape assessment named the natural
 next question (H71): can this disagreement DISCRIMINATE -- is there a consistency condition or an
 in-principle observable that selects one family? This wave attacks it on three fronts with five
-personas inline, sequentially. Deterministic test: `tests/W133_evencut_discriminator_dispersion.py`
+perspectives inline, sequentially. Deterministic test: `tests/W133_evencut_discriminator_dispersion.py`
 (15/15, exit 0). Units `M = 1` where dimensionless; all cut statements in the fixed positive
 normalization of W120/W124.
 
@@ -52,7 +52,7 @@ normalization of W120/W124.
 | **Ghost mass scale** | (i) agravity branch `m2 ~ f_2 M_Pl`; (ii) fixed-scale branch `m2 = sqrt(m2_eff) mu_DW` (GU-native) | BOTH branches priced in the observable front; neither defaulted |
 | **Positivity** | Krein-graded optical theorem only | W48 gate discipline: nothing here is loop positivity |
 
-## 1. Persona 1 -- S-matrix/dispersion theorist: the sum rule (Front 1)
+## 1. Perspective 1 -- S-matrix/dispersion theorist: the sum rule (Front 1)
 
 **The object.** The even cut appears FIRST at one loop: the two-ghost bubble `b0(s; M^2, M^2)`
 (in the graviton self-energy this is the massive-spin-2 pair channel). This is below the CLOP
@@ -104,9 +104,9 @@ time-domain identification; the magnitudes are computed).
 
 **Front-1 verdict: FORCES-GRADED-GIVEN-REAL-AXIS-ANALYTICITY / PERMITS-BOTH-ABSOLUTELY.**
 The dispersion relation is a discriminator exactly conditional on the analyticity axiom -- and
-choosing that axiom is choosing the family (see persona 5).
+choosing that axiom is choosing the family (see perspective 5).
 
-## 2. Persona 2 -- Lee-Wick specialist: what the removal family pays, precisely
+## 2. Perspective 2 -- Lee-Wick specialist: what the removal family pays, precisely
 
 The removal family's `Im = 0` at the even cut is load-bearing for its unitarity story: its
 optical theorem is over a ghost-free asymptotic space, and a nonzero two-ghost absorptive part
@@ -130,7 +130,7 @@ dispersion framework and differing only in bookkeeping; the sum-rule computation
 framework itself splits with them. The families differ not just in `Im` at a threshold but in
 WHICH dispersion relation their amplitudes satisfy.
 
-## 3. Persona 3 -- Krein specialist: the fork formalized (Front 3)
+## 3. Perspective 3 -- Krein specialist: the fork formalized (Front 3)
 
 **The exact arithmetic (X1).** The Lagrangian fixes the ghost residue sign `eps = -1`. In ANY
 quantization whose absorptive content lives on the real axis, cut weights are products of Krein
@@ -178,7 +178,7 @@ GEOMETER-VS-PHYSICS-OBJECTS.md is a runbook decision):**
 > native (keep-and-grade), and relative to that declared datum the even cut is +1 -- W133's
 > dispersion relation is the consistency condition that makes the declared choice binding.
 
-## 4. Persona 4 -- phenomenologist: the in-principle observable, honestly (Front 2)
+## 4. Perspective 4 -- phenomenologist: the in-principle observable, honestly (Front 2)
 
 **Where the threshold sits.** On the GU-native fixed-scale branch, `m2 = sqrt(m2_eff) mu_DW`
 with `m2_eff in [5/6, 5/4]` (W119 fork table) and the resolved `mu_DW` floor band
@@ -218,7 +218,7 @@ reheating scale ever mattered at meV -- not developed here) would face an O(1) d
 absorptive weight at threshold, since the +1-vs-0 split is not itself small; only its coupling
 into IR observables is.
 
-## 5. Persona 5 -- adversarial skeptic: the no-discrimination steelman
+## 5. Perspective 5 -- adversarial skeptic: the no-discrimination steelman
 
 **Steelman.** "Front 1 is circular: real-axis analyticity is not a neutral axiom both families
 accept and one fails -- it is the graded family's membership card. Choosing (A) IS choosing
@@ -229,8 +229,8 @@ postulate, and no experiment or shared axiom decides it. The fork is a permanent
 
 **Where the steelman holds.** Almost everywhere, and the verdict says so plainly: there is no
 unconditional discriminator. The dispersion relation does not convict removal of inconsistency
-(persona 2); the comparison quantity is exactly symmetric (persona 3); the observable is
-hopeless (persona 4). Anselmi-Piva's repair (the fakeon average, `Im = 0`) even cures the CLOP
+(perspective 2); the comparison quantity is exactly symmetric (perspective 3); the observable is
+hopeless (perspective 4). Anselmi-Piva's repair (the fakeon average, `Im = 0`) even cures the CLOP
 formulation defect that was the removal family's one extra wart, so "removal is sloppier" does
 not survive either.
 

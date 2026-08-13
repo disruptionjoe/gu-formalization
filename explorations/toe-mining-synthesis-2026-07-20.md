@@ -10,9 +10,7 @@ inputs:
   - lab/sources/claim-mining-toe-mannheim-2026-07-20.md
   - lab/sources/transcripts/toe-bianconi-gravity-from-entropy-2026-07-13.md
   - lab/sources/transcripts/toe-mannheim-conformal-gravity-2026-07-06.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Synthesis of the two transcript mines
@@ -126,4 +124,4 @@ the decision walk; nothing here moves any claim, verdict, or posture.
 Synthesis of hearsay-grade mining under the standing axiom; no claim,
 canon, scorecard, or posture movement; all transfers fork-typed and
 gated on primary reads with kill conditions. Consumable by the hourly
-cadence as ranked Lane 1/2 work items.
+cadence as ranked truth-status research/2 work items.

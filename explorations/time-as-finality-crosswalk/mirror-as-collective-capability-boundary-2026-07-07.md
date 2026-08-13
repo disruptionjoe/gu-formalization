@@ -10,7 +10,7 @@ depends_on:
   - canon/swing-ghost-parity-no-chiral-selection.md
   - explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md
   - explorations/big-swing-2026-07-07/BIG-SWING-MIRROR-PREDICTIONS-CHARGED-CONSTRAINED.md
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
 external_refs:
   - "time-as-finality: C(R) (bounded-region capability object); T392/T393 (finality relative to a bounded control region); T395 (a capability difference can have zero statistical trace on the region); the reciprocal bridge / boundary-adapter contract (open-problems/gu-ti-taf-reciprocal-bridge-contract.md); Coordination - Tri-Repo Division of Labor.md"
 ---
@@ -62,7 +62,7 @@ probabilities. That is word-for-word the TaF **T395** result: a capability diffe
 **zero statistical trace** on the bounded region. So "collective records not touching individual
 capability" already has a formal home -- it is not a fresh metaphor, it is the ghost/zero-trace property
 meeting a measured TaF result. And the test for it is already named: the info-resource bloc's **T12'**
-leg (all-persona tri-theory combination pass), "mirrors as a capability difference with zero statistical
+leg (all-perspective tri-theory combination pass), "mirrors as a capability difference with zero statistical
 trace on the physical sector -- provable or refutable on the existing carrier."
 
 ## The falsifiable leg: T12' (runnable on the carrier)

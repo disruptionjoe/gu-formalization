@@ -1,12 +1,10 @@
 ---
 artifact_type: exploration
 doc_type: scoping_decision_tree
-status: "Phase-0 scouting decision tree for ID-2 (the dictionary gate: Z/24-class -> generation number); ten-persona council amendments baked in; small arithmetic probe exit 0; no results claimed, tree only"
+status: "Phase-0 scouting decision tree for ID-2 (the dictionary gate: Z/24-class -> generation number); ten-perspective council amendments baked in; small arithmetic probe exit 0; no results claimed, tree only"
 created: 2026-07-20
-directed_by: "Joe direct chat, 2026-07-20 (Phase 0 scout B, ten-persona-amended)"
-claim_status_change: none
+directed_by: "Joe direct chat, 2026-07-20 (Phase 0 scout B, ten-perspective-amended)"
 canon_verdict_change: none
-public_posture_change: none
 target_identification: "ID-2: the passage from 'a GU-native class in Z/24 of order exactly 3' to 'the number of fermion generations' (H6 limit (b), the standing gate)"
 probe: tests/channel-swings/phase0_dictionary_checks.py
 related:
@@ -206,7 +204,7 @@ cheapest possible death and should be checked first whenever new content freezes
   line holds that GU-native interiors are balanced and chirality arrives at a boundary.
   If the generation counter is boundary-emergent, it may never touch pi_3^s at all, and
   both scouts are digging in the wrong arena. This tree cannot detect that from inside.
-- **Occupant ambiguity.** The 45-persona collapse warning (locate-not-force canon): many
+- **Occupant ambiguity.** The 45-perspective collapse warning (locate-not-force canon): many
   maps locating the same slot is not evidence the slot's occupant is the generation
   count. The order-3 class could be the dark-energy carrier's or nothing's.
 - **Precedent survivorship.** TKNN and FQHE are remembered because the dictionary closed;

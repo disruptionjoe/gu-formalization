@@ -78,7 +78,7 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 ### Claim-Status Consistency Rule
 
 Any promotion, downgrade, or substantial re-scoping must run
-`lab/process/runbooks/claim-status-consistency-quality-workflow.md` before commit. Downstream
+`lab/methods/claim-status-consistency.md` before commit. Downstream
 claims cannot outrank their weakest load-bearing dependency, and historical stronger
 wording must be removed or explicitly marked superseded on owner surfaces.
 
@@ -104,7 +104,7 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
 | positive GU constructions lane | exploration | `explorations/misc/positive-gu-constructions-lane-proposal-2026-06-22.md` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
-| persona process and dialectics | process | `lab/process/` |
+| perspective process and dialectics | process | `lab/process/` |
 | early frontier packets | archive | `lab/archive/` |
 | source and media provenance | source | `lab/sources/` |
 | literature briefs | source | `lab/literature/` |

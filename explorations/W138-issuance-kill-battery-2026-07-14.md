@@ -36,7 +36,7 @@ positive controls first (SI constants reproduce rho_crit, the 2.3 meV DE scale, 
 
 ---
 
-## Persona 1: GR theorist -- GATE 1 (CONSERVATION)
+## Perspective 1: GR theorist -- GATE 1 (CONSERVATION)
 
 **The structure.** The Bianchi identity nabla_mu G^{mu nu} = 0 is not negotiable. With
 G^{mu nu} = 8 pi G T_total^{mu nu}, a genuine bulk issuance Q^nu in the matter/DE sector must be
@@ -77,7 +77,7 @@ matter), or couples through a non-metric channel, in which case:
   alpha = 1/3 (the H52-cited boundary). These are the channels the repo has already paid for;
   an issuance proposal that re-enters them inherits the exclusions unchanged.
 
-## Persona 2: cosmologist -- GATE 2 (MIMIC, from W129, binding)
+## Perspective 2: cosmologist -- GATE 2 (MIMIC, from W129, binding)
 
 W129 (`tests/W129_oq2_m2_band_sweep.py`, 13/13, exit 0; CORRECTION DARK-ENERGY-06) established
 band-wide: everything allowed at any admissible (M^2, ansatz) point is an LCDM mimic with
@@ -103,7 +103,7 @@ the continuity equation instead of the likelihood, so the two computations cross
 criterion for a proposal: its predicted schedule deviation must sit inside 0.3 per e-fold, i.e.
 the proposal must be an LCDM mimic and must NOT claim to explain the DESI w0-wa signal.
 
-## Persona 3: phenomenologist -- GATES 3 and 4 (NON-REIMPORT, exact numbers)
+## Perspective 3: phenomenologist -- GATES 3 and 4 (NON-REIMPORT, exact numbers)
 
 ### GATE 3: the H36 non-reimport gate
 
@@ -161,7 +161,7 @@ alpha_W all failed. What the gate does NOT forbid: identifying the issuance with
 {F_tau} (structural, explicitly allowed by Branch C's own closing note) or with a structural
 schedule rho(a); those are not rates in the killed sense.
 
-## Persona 4: thermodynamicist -- GATES 5 and 6
+## Perspective 4: thermodynamicist -- GATES 5 and 6
 
 ### GATE 5: the de Sitter relabeling gate (novelty, not truth)
 
@@ -217,7 +217,7 @@ temperature; the exact saturation at T_dS is the relabeling case).
 
 ---
 
-## Persona 5: synthesis judge -- THE SCORECARD
+## Perspective 5: synthesis judge -- THE SCORECARD
 
 Run every issuance-type proposal (W135/W136/W137 outputs, next wave) through this table in
 order. G1-G4 are truth gates; G5 is a novelty gate; G6 emits structure. Each check is

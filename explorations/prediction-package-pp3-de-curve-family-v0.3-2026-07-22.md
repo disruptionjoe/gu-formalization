@@ -10,7 +10,6 @@ superseded_at: "2026-07-22T17:38:45-05:00"
 superseded_by: explorations/prediction-package-pp3-de-curve-family-v0.4-2026-07-22.md
 supersedes: explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
 owner_item: PRED-CANDIDATE-PACKETS
-lane_id: "2"
 directed_by: "Joe direct chat, 2026-07-22 (re-freeze approved; Science Council grounded in GU Purpose/Passion/Practice; numbers independently reproduced via cross-modal check before freeze)"
 extends:
   - lab/process/prediction-package-standing-rule.md
@@ -21,9 +20,7 @@ extends:
   - tests/channel-swings/de_amplitude_audit_probe.py
 runnable:
   - tests/channel-swings/pp3_curve_family_locus.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

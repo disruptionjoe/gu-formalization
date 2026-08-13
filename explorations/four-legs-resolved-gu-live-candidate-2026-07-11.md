@@ -2,7 +2,7 @@
 
 2026-07-11. Culminates the posture-corrected North Star (work the legs, not the count). Two adversarial
 swings: a disproof-hunt (granting a working action + 3 generations, try to kill every non-count leg) and
-a resolution swing (one sub-agent per remaining leg doing REAL computation to CLEAR to a YES or DISPROVE).
+a resolution swing (one independent reviewer per remaining leg doing REAL computation to CLEAR to a YES or DISPROVE).
 **Net: 4 of 5 physics legs are CLEARED to a genuine YES; no leg produced a whole-GU disproof; the 5th
 (gravity) is one scalar coefficient from resolution -- and that scalar, the located-not-forced count, and
 the vacuum/sub-block selection are all gated on the SAME unwritten object: the source action.**
@@ -61,7 +61,7 @@ honest form is a forced/derived construction.
 ## Grade / provenance
 
 Swings grounded in the repo canon + independent computation (SM `psb_stabilizer.py`, forces `forces_leg.py`,
-gravity `el_projected_gr_shadow.py` -- run in sub-agent scratchpads, results returned; the SM and forces
+gravity `el_projected_gr_shadow.py` -- run in independent reviewer scratchpads, results returned; the SM and forces
 group-theory computations should be re-landed as in-repo tests during hardening). No claim-ledger movement
 asserted; the legs' clears are existence/consistency grade, selection remains source-action-gated. Feeds
 WI-068 and the 2026-07-11 posture/priority pivot.

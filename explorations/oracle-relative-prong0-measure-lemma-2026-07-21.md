@@ -16,9 +16,7 @@ inputs:
   - tests/channel-swings/decision_tree_Q1a_hostile_verify_true_end_probe.py
 probe: tests/channel-swings/oracle_relative_prong0_measure_lemma_probe.py (foreground, deterministic two-run-identical, EXIT 0)
 outcome: P0-FAILS-OBSTRUCTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 ---
 
@@ -26,7 +24,7 @@ kill_conditions_declared_before_computation: true
 
 Adversarial truth-test, maximum skepticism (a `P0-HOLDS` would be a paper, so it
 gets no benefit of the doubt; the two prior wins this session were both refuted
-for planting). This run attacks the exact reopen lemma the Q1a hostile verify
+for planting). This investigation attacks the exact reopen lemma the Q1a hostile verify
 named, the single lemma that decides whether the pencil theorem
 `OPERATOR-END-PENCIL` closes from GU structure (θ=0) or stays open (θ external),
 or -- the sharper possibility -- whether the operator has no self-adjoint

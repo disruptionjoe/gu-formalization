@@ -1,7 +1,7 @@
 # Non-LNF open frontier, prioritized by credible physics impact (2026-07-11)
 
 All items below are **OPEN for progress** -- none closed, each with a concrete next step. Priority order
-is the persona Condorcet/credible-impact verdict: **GU-independence dominates credibility** (a physicist
+is the perspective Condorcet/credible-impact verdict: **GU-independence dominates credibility** (a physicist
 invests in a result that is true regardless of GU; a GU-conditional claim carries a fatal discount). The
 TaF-bridge threads (emergent geometry as spacetime-from-records, substrate-choice) are deliberately routed
 to the **TaF repo**, not here. LNF itself is at maximum hardening (see `sg4-forcing-rubric-complete`);

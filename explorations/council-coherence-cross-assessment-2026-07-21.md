@@ -3,9 +3,7 @@ title: "Council coherence cross-assessment: the 22 committed constructions rate 
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 probe: tests/channel-swings/council_coherence_cross_assessment_probe.py (foreground, deterministic two-run-identical, EXIT 0)
 inputs:
   - explorations/council-committed-constructions-science-2026-07-21.md

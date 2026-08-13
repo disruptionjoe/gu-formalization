@@ -8,24 +8,24 @@ updated_at: "2026-05-31"
 # Hegelian Meta-Synthesis — GU First-Principles Path Forward
 
 **Date:** 2026-05-28
-**Source:** 20 persona passes (10 first-principles + 5 loophole + 5 computation-substrate), spawned across two dispatch rounds in the 2026-05-28 review session.
+**Source:** 20 perspective passes (10 first-principles + 5 loophole + 5 computation-substrate), spawned across two dispatch rounds in the 2026-05-28 review session.
 **Predecessors:** `00-synthesis-best-path-from-first-principles.md` (thesis), `00b-loophole-synthesis-witten-evasion-test.md` (antithesis).
 **Joe's directive:** Apply Hegelian dialectic. Find the Aufhebung. Better path forward from first principles rather than from source.
 
 ## The dialectical structure across 20 lenses
 
-### Thesis (10 first-principles personas)
+### Thesis (10 first-principles perspectives)
 
 GU's chirality / SM-emergence derivation fails through smooth-KK reduction. Four named no-go theorems converge across independent settings:
 
 - **Witten 1981** (smooth KK chirality)
 - **Distler-Garibaldi** (3 SM generations + gravity in E_8 with SM as centralizer)
-- **Nielsen-Ninomiya** (discrete / lattice fermion doubling, named by CA persona P2)
-- **Freed-Hopkins** (K-theoretic / cobordism anomaly classification, named by higher/derived persona P4)
+- **Nielsen-Ninomiya** (discrete / lattice fermion doubling, named by CA perspective P2)
+- **Freed-Hopkins** (K-theoretic / cobordism anomaly classification, named by higher/derived perspective P4)
 
 These four are **theorem-class-stable across the smooth-discrete-derived-cobordism divide**. The chirality obstruction is robust.
 
-### Antithesis (5 loophole personas)
+### Antithesis (5 loophole perspectives)
 
 Witten 1981 is narrowly construed. The formal loophole opens against it for five non-standard reduction classes:
 
@@ -41,9 +41,9 @@ The strongest adjacent positive research directions: **Connes spectral triple wi
 
 ### The dialectical breaks (computation P1 Wolfram + P4 complexity)
 
-Two computation personas refuse the dialectical frame as posed:
+Two computation perspectives refuse the dialectical frame as posed:
 
-**P1 Wolfram Physics:** all 5 loophole personas plus the 4 same-substrate computation personas presuppose **the substrate is some kind of section-bundle**. The Wolfram lens denies that premise. The substrate is combinatorial / multiway / hypergraph; the bundle is **observer artifact**; chirality is **induced by observer-bounded coarse-graining** of a directional substrate, not derived from bundle reduction. Witten 1981 and Freed-Hopkins **answer the wrong question** because they constrain what observer-frames can extract from the substrate, not what the substrate itself produces.
+**P1 Wolfram Physics:** all 5 loophole perspectives plus the 4 same-substrate computation perspectives presuppose **the substrate is some kind of section-bundle**. The Wolfram lens denies that premise. The substrate is combinatorial / multiway / hypergraph; the bundle is **observer artifact**; chirality is **induced by observer-bounded coarse-graining** of a directional substrate, not derived from bundle reduction. Witten 1981 and Freed-Hopkins **answer the wrong question** because they constrain what observer-frames can extract from the substrate, not what the substrate itself produces.
 
 **P4 Complexity/Decidability:** Witten 1981 + Freed-Hopkins are **decidable sub-instances of an in-general undecidable class**. Smooth-KK and cobordism are the regular regions where Rice's theorem allows decidability; outside those, decidability is not guaranteed. The lane's three-year family-frontier-exhaustion pattern (observerse → deformation → pullback → Sector I) is **consistent with searching across an undecidable substrate where no termination is guaranteed by analytic means**.
 

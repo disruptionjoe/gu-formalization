@@ -166,7 +166,7 @@ def recent_window_classification(since: str) -> dict[str, object]:
 
 
 def hourly_cycle_activity() -> dict[str, int]:
-    d = ROOT / "explorations" / "hourly-cycles"
+    d = ROOT / "explorations" / "research-cycles"
     per = Counter()
     if d.exists():
         for f in d.iterdir():

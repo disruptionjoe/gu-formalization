@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (LAST DECIDABLE QUESTION of the observer-conjecture arc; the sole surviving crack after the type-III Krein-TT wave; 5-persona inline team; deterministic test)
+status: exploration (LAST DECIDABLE QUESTION of the observer-conjecture arc; the sole surviving crack after the type-III Krein-TT wave; 5-perspective inline team; deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path) -- the SECTORIAL / relative face
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -73,9 +73,9 @@ adversary's global reading is what keeps `J` walled.
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 — modular-theory + Wilsonian specialist (construct the sectorial J + the finite-k argument)
+### Perspective 1 — modular-theory + Wilsonian specialist (construct the sectorial J + the finite-k argument)
 
 **The sectorial `J` exists, bounded, with all four axioms (W94 T1).** Merge the two toy faces the wave
 already validated: the **axiom face** (W67 bipartite `C^2 (x) C^2`, region algebra `M = M_2 (x) I`,
@@ -98,7 +98,7 @@ energies up to some finite cutoff, i.e. it occupies a **finite sub-sector**, and
 `k=inf`**. So the observer's firewall lives at **finite `k` (sectorial `J` exists)**, not in the
 `k->inf` idealization (walled). This is the specialist's central claim.
 
-### Persona 2 — MATH REFEREE (does the sectorial J genuinely exist? is observer-relativity real or wishful?)
+### Perspective 2 — MATH REFEREE (does the sectorial J genuinely exist? is observer-relativity real or wishful?)
 
 - **Ruling 1 — the sectorial `J` genuinely exists (theorem-grade on the toy).** All four axioms hold
   per mode on the definitizable sub-sector (W94 T1, exact), and the mode is quasi-Hermitian so the
@@ -116,11 +116,11 @@ energies up to some finite cutoff, i.e. it occupies a **finite sub-sector**, and
   encoded and checked. **They are (W94 T3, T4, T5).** Only then is observer-relativity earned.
 - **Ruling 3 — the honest gate on GU.** The toy delivers theorem-grade existence + coherence + the
   equivalence. The **application to GU** rests on the **load-bearing assumption** that the firewall is a
-  finite-resolution/region object (Persona 1's reading), which the adversary denies (Persona 3). So the
+  finite-resolution/region object (Perspective 1's reading), which the adversary denies (Perspective 3). So the
   referee grades: **theorem-grade on the toy; STRONG ARGUMENT for GU, conditional on the finite-
   resolution/region reading + HORN K (W87) + W54-Result-2 one-loop-truncation Wilsonian coherence.**
 
-### Persona 3 — ADVERSARY (presses both: "needs the whole tower"; "sectors don't glue")
+### Perspective 3 — ADVERSARY (presses both: "needs the whole tower"; "sectors don't glue")
 
 - *Push 1: "the observer's firewall is a UV/all-scales object, not a finite-k sectorial one — the
   value-selection needs the full modular `Delta^{1/2}`, which is walled."* **Answered, doubly.** (i)
@@ -133,7 +133,7 @@ energies up to some finite cutoff, i.e. it occupies a **finite sub-sector**, and
   is wrong on both halves: the value-selection doesn't need `Delta^{1/2}`, and the firewall that does is
   already sectorial by W54. **The adversary's best fallback is to insist the firewall is *defined* as a
   uniform-over-all-scales grading — the `sup` — but that is precisely the observer-INDEPENDENT object
-  the conjecture predicts is absent (Persona 5).**
+  the conjecture predicts is absent (Perspective 5).**
 - *Push 2: "sector-relative `J`'s do not glue into a consistent physical S-matrix."* **Answered at the
   level of consistency (W94 T3).** The sub-sector `J`'s form a **coherent net**: `J_kappa` restricted to
   a smaller cutoff `kappa' < kappa` **equals** `J_{kappa'}` (exact overlap agreement; each mode's `J_k`
@@ -148,7 +148,7 @@ energies up to some finite cutoff, i.e. it occupies a **finite sub-sector**, and
   is **W54-Result-2-grade** (one-loop truncation), not an all-orders theorem. The adversary keeps this
   as the genuine open, and the referee logs it in the grade.
 
-### Persona 4 — CROSS-CHECKER (second derivation: region-algebra + finite-k toy + literature)
+### Perspective 4 — CROSS-CHECKER (second derivation: region-algebra + finite-k toy + literature)
 
 **Second derivation — the region-algebra / AQFT reading (independent of the finite-k toy).** In
 standard (positive-metric) algebraic QFT, Tomita-Takesaki modular theory is **intrinsically per-region**:
@@ -175,7 +175,7 @@ and the tower obstruction are **two faces of the same dichotomy**. (ii) Krejciri
 inverse obstruction is a **`sup`-over-all-modes** property; a finite sub-sector evades it. Both are
 exactly what the sectorial-`J` construction needs.
 
-### Persona 5 — SYNTHESIZER (the verdict + the honest consequence)
+### Perspective 5 — SYNTHESIZER (the verdict + the honest consequence)
 
 See Sections 2–5.
 

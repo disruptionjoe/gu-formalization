@@ -316,7 +316,7 @@ check("S2 FORCING NOT CLOSED (honest): both arguments pass through the SAME two 
       (not forcing_closed) and shared_joint_descent and shared_joint_semantics,
       "shared joints open => selection is not unconditional forcing")
 
-# The re-declaration tripwire (adversarial persona 5): assert the joints as GU theorems and the
+# The re-declaration tripwire (adversarial perspective 5): assert the joints as GU theorems and the
 # 'forcing' collapses to W133's declaration wearing consensus vocabulary. Guard against it.
 would_be_redeclaration_if_asserted = shared_joint_descent and shared_joint_semantics
 check("S3 re-declaration tripwire: IF one simply ASSERTS the two joints as GU theorems, the "

@@ -77,7 +77,7 @@ WHAT THIS SCRIPT CERTIFIES (deterministic, numpy-only, exact-in-effect).
 
 FAILURE CONDITION (report, do not patch): any admissible operator with chi_C(P) != 0 --
 this would kill the paper's Section 6 escape analysis.  Every assert below enforces the
-opposite; a nonzero index aborts the run loudly.
+opposite; a nonzero index aborts the investigation loudly.
 
 RESULT: the paper's antilinear caveat (d) closes over S: the hunt's "no frame-non-trivial
 antilinear chiralizer found" upgrades to "frame-non-trivial Krein-compatible antilinear

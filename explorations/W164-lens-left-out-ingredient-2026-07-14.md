@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM LENS-INGREDIENT, W164; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (TEAM LENS-INGREDIENT, W164; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W164
 label: W164
@@ -12,7 +12,7 @@ construction: "program-native where the objects are GU's (the record field Psi o
 depends_on:
   - explorations/W154-reverse-engineered-source-action-2026-07-14.md
   - explorations/W153-marble-corrected-and-tachyon-cheapwood-test-2026-07-14.md
-  - explorations/W155-ten-divergent-personas-tachyon-2026-07-14.md
+  - explorations/W155-ten-divergent-perspectives-tachyon-2026-07-14.md
   - explorations/W157-a2-equals-minus-a1-squared-keystone-2026-07-14.md
   - explorations/W159-tachyon-escapes-2026-07-14.md
   - explorations/W160-debit3-forced-binary-2026-07-14.md
@@ -55,12 +55,12 @@ The lens: the scalaron IS the record-count (conformal) mode (W153 Section 4), an
 accretion dynamically SOURCES the scalaron. A coupled system can behave very
 differently from its gravity-only truncation: a matter coupling can add a positive
 `m^2` (chameleon), and a one-way driven-dissipative process can stabilize a linearly
-unstable mode (the control-systems reading, W155 persona 4). This wave couples the
+unstable mode (the control-systems reading, W155 perspective 4). This wave couples the
 matter/record sector in and asks, honestly, whether the tachyon dissolves in the FULL
 theory -- computing the backreaction sign, and requiring any driven-dissipative
 stabilization to be SHOWN, not asserted.
 
-Five personas ran inline in one worker, sequentially (no sub-agents): (1) coupled-
+Five perspectives ran inline in one worker, sequentially (no independent reviewers): (1) coupled-
 system field theorist, (2) driven-dissipative / control theorist, (3) GU matter-sector
 specialist, (4) symbolic engineer, (5) adversarial skeptic. Deterministic test
 `tests/W164_left_out_ingredient.py`, 18/18 exit 0, positive controls first.
@@ -75,7 +75,7 @@ specialist, (4) symbolic engineer, (5) adversarial skeptic. Deterministic test
 | Feedback path | the measurement-gated `Y14 -> X4` promotion (W150/W158), clocked by W160 | The driven-dissipative loop; its bandwidth is the record-promotion rate. |
 | Zeroed sectors | cure (`g=1` ker-Gamma), Yukawa, non-minimal `xi R Psi^2`, `B` background | W125/W136 Hom-disjointness certificate; the honest "did we drop something" check. |
 
-## 2. Persona 1 -- coupled-system field theorist: the backreaction m^2, sign and ceiling
+## 2. Perspective 1 -- coupled-system field theorist: the backreaction m^2, sign and ceiling
 
 **The sign is right (BR1).** Couple the record matter to the scalaron the way any
 matter couples in an induced/`f(R)` gravity: in the Einstein frame a non-relativistic
@@ -119,12 +119,12 @@ mu = mu_DW:   (H0/mu_DW)^2  = 3.9e-61     (mu_DW = 2.3 meV, the DE scale)
 
 Right sign, hopelessly small. To make the lift COMPETE one must set `mu ~ H` -- which
 is precisely the W138 G5 de Sitter relabeling (content-free, a novelty kill), not a
-stabilization. So persona 1: **backreaction sign POSITIVE, magnitude IR-inert, and the
+stabilization. So perspective 1: **backreaction sign POSITIVE, magnitude IR-inert, and the
 density-mass channel structurally absent.**
 
-## 3. Persona 2 -- driven-dissipative / control theorist: does the one-way promotion place the pole?
+## 3. Perspective 2 -- driven-dissipative / control theorist: does the one-way promotion place the pole?
 
-The control-systems hope (W155 persona 4A): `m_0^2 < 0` is a right-half-plane pole, and
+The control-systems hope (W155 perspective 4A): `m_0^2 < 0` is a right-half-plane pole, and
 an open-loop RHP pole is not a verdict -- a feedback loop can move it into the LHP. The
 measurement-gated promotion (records get confirmed, a one-way process) is the candidate
 stabilizing loop. Now with the ACTUAL coupling, not a toy.
@@ -143,7 +143,7 @@ gamma/H = mu/H = 1.6e30 (mu = mu_DW)  to  1.7e60 (mu = M_pl) ,   vs  gain 3.1 .
 ```
 
 The feedback is 30 to 60 orders too SLOW to catch the pole. This is the same scale
-mismatch as persona 1, now in the time domain: an IR (Hubble-rate) loop cannot move a
+mismatch as perspective 1, now in the time domain: an IR (Hubble-rate) loop cannot move a
 UV (induced-scale) pole.
 
 **And the one-way promotion is a DRIVE, not a restoring feedback (DD2).** The promotion
@@ -152,12 +152,12 @@ sources, `Lambda = c/sqrt(N)`, is therefore monotone DECREASING (`Q_mean = dLamb
 for `Ndot > 0`) -- W154's withdrawal obstruction, reproduced here. A monotone process
 has no oscillatory / restoring component at the pole frequency; it is overdamped. Worse
 for the completion story: the record-accretion drive rolls the scalaron DOWN the hilltop
-(roll = record accretion, W155 persona 1A), which points the SAME way as the instability.
+(roll = record accretion, W155 perspective 1A), which points the SAME way as the instability.
 So the coupled record dynamics is a destabilizing drive, not a stabilizing feedback.
-Persona 2: **driven-dissipative stabilization DOES-NOT.** Shown, not asserted -- it fails
+Perspective 2: **driven-dissipative stabilization DOES-NOT.** Shown, not asserted -- it fails
 the bandwidth ledger and the process is monotone.
 
-## 4. Persona 3 -- GU matter-sector specialist: is a sector wrongly set to zero?
+## 4. Perspective 3 -- GU matter-sector specialist: is a sector wrongly set to zero?
 
 The charge names four candidates for a wrongly-zeroed coupling: the guardian / cure
 term, a non-minimal `xi R Psi^2`, the `B_i` background, and the cure term's coupling to
@@ -182,12 +182,12 @@ in coupling clothing.
 `Psi`-INDEPENDENT (a kind-mismatch with the matter current `J`), and closing the
 `J == theta` identity reduces to the unbuilt matter->connection route-beta bridge
 (W151). So the `B` background is not a wrongly-zeroed knob; it is a named unbuilt object,
-and even when built its contribution is IR-scale by the same argument. Persona 3: **no
+and even when built its contribution is IR-scale by the same argument. Perspective 3: **no
 sector is wrongly zeroed;** the honest residue is the long-standing route-beta bridge,
 which cannot supply a UV-scale positive `m^2` without breaking Hom-disjointness or
 fine-tuning.
 
-## 5. Persona 4 -- symbolic engineer: what the test pins
+## 5. Perspective 4 -- symbolic engineer: what the test pins
 
 `tests/W164_left_out_ingredient.py`, 18 checks, exit 0, exact sympy plus SI-derived
 float constants, positive controls first.
@@ -215,7 +215,7 @@ The one modelling choice to flag: the matter coupling uses the standard Einstein
 verdict depends only on the scale separation `(H/mu)^2`, which is robust across the
 choice of `mu` between the DE scale and the Planck scale.
 
-## 6. Persona 5 -- adversarial skeptic: no-free-lunch and EFT validity
+## 6. Perspective 5 -- adversarial skeptic: no-free-lunch and EFT validity
 
 **Steelman "the coupling does not stabilize."** The pro-completion case wants either a
 positive `m^2` big enough to flip the sign, or a feedback loop fast enough to place the
@@ -302,9 +302,9 @@ story the pure-gravity verdicts had not explicitly ruled out.
   only; no cross-repo identity claim. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team LENS-INGREDIENT (W164). Coherence-first: suggest what we left
-out, then attempt to complete the picture. Five personas inline in one worker
+out, then attempt to complete the picture. Five perspectives inline in one worker
 (coupled-system field theorist, driven-dissipative/control theorist, GU matter-sector
-specialist, symbolic engineer, adversarial skeptic); no sub-agents. Reproducible:
+specialist, symbolic engineer, adversarial skeptic); no independent reviewers. Reproducible:
 `python -u tests/W164_left_out_ingredient.py` (18/18, exit 0; positive controls first).
 Exploration grade; conditional register; no canon movement; H41 unbuilt; H59 OPEN; the
 count stays {1,3}. Completion verdict: COUPLED-SYSTEM-DOES-NOT-STABILIZE, NARROWED --

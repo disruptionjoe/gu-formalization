@@ -16,9 +16,7 @@ inputs:
   - explorations/W113-world-contact-2026-07-11.md
   - explorations/parsimony-unexplained-joints-ledger-2026-07-21.md
   - VERIFICATION.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

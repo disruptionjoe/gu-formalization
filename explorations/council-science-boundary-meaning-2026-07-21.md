@@ -3,9 +3,7 @@ title: "Science Council (inline, 5-member): what IS the boundary / missing piece
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Science Council: the boundary, what comes through it, what is outside, what it means

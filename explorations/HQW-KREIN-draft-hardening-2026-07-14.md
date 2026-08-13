@@ -21,8 +21,8 @@ depends_on:
 **Role.** Harden the W188 DRAFT (`papers/drafts/open-krein-loop-unitarity-bistability/`) with four register
 quick wins (H06-H09 from the W189 hardening register / W188's hardening ledger) plus an abstract-lead fix.
 All edits are honesty / scholarship edits that make the draft referee-honest. DRAFTS ONLY; no promotion to
-candidate (Joe-gated); no external action. Five personas ran inline (draft editor; PT-QFT prior-art
-scholar; Lee-Wick/CLOP scholar; Krein/non-locality specialist; hostile referee); no sub-agents.
+candidate (Joe-gated); no external action. Five perspectives ran inline (draft editor; PT-QFT prior-art
+scholar; Lee-Wick/CLOP scholar; Krein/non-locality specialist; hostile referee); no independent reviewers.
 
 ## The edits
 
@@ -78,7 +78,7 @@ selection-conditionality before any theorem. Additional light citations added to
 remaining prior-art bullets (Mostafazadeh, Bognar, Fano/Friedrichs/Feshbach, non-Hermitian bistability
 reviews).
 
-## Hostile-referee check (persona 5)
+## Hostile-referee check (perspective 5)
 
 The hardened draft leads with the correct creditable point, quarantines the fade, prices the non-locality,
 and delineates the two prior-art families with citations. It does not claim to prove loop unitarity, does
@@ -91,7 +91,7 @@ Drafts only; no promotion; no external action; honest grading; zero em dashes in
 canon / RESEARCH-STATUS / claim-status / verdict / posture change. Candidate promotion and external
 publication remain Joe-gated.
 
-*Filed 2026-07-14 by TEAM QW-KREIN (HQW-KREIN). Five personas inline (draft editor; PT-QFT prior-art
-scholar; Lee-Wick/CLOP scholar; Krein/non-locality specialist; hostile referee); no sub-agents. Draft
+*Filed 2026-07-14 by TEAM QW-KREIN (HQW-KREIN). Five perspectives inline (draft editor; PT-QFT prior-art
+scholar; Lee-Wick/CLOP scholar; Krein/non-locality specialist; hostile referee); no independent reviewers. Draft
 hardening only.*
 </content>

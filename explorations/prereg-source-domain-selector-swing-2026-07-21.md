@@ -3,12 +3,10 @@ title: "Pre-registration: the SOURCE-DOMAIN-SELECTOR swing — attack the one bl
 status: preregistration
 doc_type: scoping_decision_tree
 created: 2026-07-21
-directed_by: "Joe direct chat, 2026-07-21 (repoint Lane 1 from lattice-enumeration to the two-paper-gating theorem work; scope the concrete swing)"
-portfolio_item: OPERATOR-END-PENCIL (reopened, leading Lane 1) + serves B5-MIDDLE-DIFFERENTIAL
+directed_by: "Joe direct chat, 2026-07-21 (repoint truth-status research from lattice-enumeration to the two-paper-gating theorem work; scope the concrete swing)"
+portfolio_item: OPERATOR-END-PENCIL (reopened, leading truth-status research) + serves B5-MIDDLE-DIFFERENTIAL
 run_ref: pre-registration only; execution is the next Progress hourly
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---

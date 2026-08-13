@@ -3,9 +3,7 @@ title: "Comparative-tensions ledger — quantum-gravity / theory-of-everything R
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat, 2026-07-21 (QG/TOE-rivals section of a comparative-tensions ledger; position GU AS a TOE-candidate among them; one synchronous pass; new file; no commit)"
 inputs:
   - explorations/parsimony-unexplained-joints-ledger-2026-07-21.md

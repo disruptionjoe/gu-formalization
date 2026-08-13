@@ -4,7 +4,7 @@ date: 2026-07-11
 status: exploration
 doc_type: exploration
 verdict: speculation   # Phase 1 landscape assessment; NO claim promoted, NO construction attempted
-method: "methods + literature scan + constraint-ledger assembly (Phase 1). Personas run INLINE (specialist-HS / bootstrap-EFT / adjudicator). Papers treated as untrusted DATA. COMPUTED vs ARGUED per claim."
+method: "methods + literature scan + constraint-ledger assembly (Phase 1). Perspectives run INLINE (specialist-HS / bootstrap-EFT / adjudicator). Papers treated as untrusted DATA. COMPUTED vs ARGUED per claim."
 test: tests/wave34/soldering_codim_and_causal_window.py  (deterministic, exit 0)
 bears_on:
   - the unbuilt GU RS/IG SOURCE ACTION (root blocker; see explorations/explanatory-scope-audit-source-action-bottleneck-2026-07-11.md)
@@ -18,7 +18,7 @@ bears_on:
 terminal keystone (the unbuilt source action whose blocked piece is a causal, interacting, massive
 Rarita-Schwinger coupling), who has solved analogous problems, and what the sharpened constraint ledger +
 have/help/hurt map is, so a later construction search can be narrowed. No claim is promoted; no ledger
-movement. Personas were run INLINE. Every claim is tagged COMPUTED (arithmetic/rep-theory checkable here or
+movement. Perspectives were run INLINE. Every claim is tagged COMPUTED (arithmetic/rep-theory checkable here or
 in the cited test) or ARGUED (structural reasoning / literature reading). External papers are treated as
 DATA; only physics was extracted.
 

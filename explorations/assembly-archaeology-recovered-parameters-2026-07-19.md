@@ -9,7 +9,6 @@ sources:
   - canon/no-go-quaternionic-parity-generation-sector.md
   - "DERIVATION-PROGRESS.md entries W2-01, SHIAB-01..06, ANOMALY-03/04, DARK-ENERGY-03, RS-BRST, SOURCE-01..04, GHOST-01, BICOMPLEX-01"
   - "mid-July: canon/ghost-parity-krein-synthesis.md + tri-repo Krein-sign reduction (bar-b, one external Z/2)"
-claim_status_change: none
 ---
 
 # Assembly archaeology: the prior work DID give us parameters
@@ -84,7 +83,7 @@ axiom now bans. The channels inherit the following, immediately.
    a bug (hard-coded 3 vs real 4.229); the data-facing sign is OPEN. The
    card must not inherit any old sign value; the sign plausibly ties to the
    same Z/2 (H-REC), which would make the DE-sign audit an indirect
-   orientation measurement — flag for the Lane 2 DE audit.
+   orientation measurement — flag for the prediction research DE audit.
 
 ### CH-REC
 

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM REDUCTION-DIRECT, W167; five personas inline, one worker, no sub-agents; deterministic test with W126/W130/W159/W165 positive controls, 26/26 exit 0)
+status: exploration (TEAM REDUCTION-DIRECT, W167; five perspectives inline, one worker, no independent reviewers; deterministic test with W126/W130/W159/W165 positive controls, 26/26 exit 0)
 created: 2026-07-14
 wave: W167
 label: W167
@@ -47,13 +47,13 @@ April 2021 eq 9.4) to the effective 4D action and READ OFF the induced `(alpha,b
 than defaulting to the postulated pure `|II|^2` (`alpha=1, beta=0`, tachyonic) the session
 inherited.
 
-Five personas inline, one worker, no sub-agents. Deterministic test
+Five perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W167_reduction_direct_sign_alpha_beta.py`, 26/26 exit 0, W126/W130/W159/W165 positive
 controls first. Led with the STRUCTURAL route (the auxiliary-field / Legendre trick and the
 targeted pullback comparison), not a 14-dimensional brute-force integrate-out (Joe's redirect,
 2026-07-14).
 
-## 1. Persona 1 -- GU-action specialist: the law is linear; the shadow is a Legendre transform
+## 1. Perspective 1 -- GU-action specialist: the law is linear; the shadow is a Legendre transform
 
 GU's actual fundamental action is (April 2021, eq 9.4):
 
@@ -82,7 +82,7 @@ transform, not a convention. The `+|II|^2` default the session inherited OMITTED
 shadow as a POSITIVE norm-square. The direct reduction says the shadow is MINUS one-half a
 norm-square of the Einstein-projected curvature.
 
-## 2. Persona 2 -- differential geometer: the shadow is Ricci-class (Weyl-annihilated)
+## 2. Perspective 2 -- differential geometer: the shadow is Ricci-class (Weyl-annihilated)
 
 Because `star_shiab` annihilates the Weyl curvature (source eq 9.3), `J = star_shiab(F)` is a pure
 Ricci-class tensor: `J = Ric - t R g` for the shiab trace-parameter `t` (Einstein value `t = 1/2`).
@@ -105,7 +105,7 @@ Weyl content (slice `a3s = -4`), giving `c_R = -4/9`. The shiab shadow (Ricci-cl
 gives `c_R(1/2) = -1/6`. The shiab projection removes exactly the Weyl content the geometric
 `|II|^2` keeps. The two induced objects are NOT equal.
 
-## 3. Persona 3 -- higher-derivative theorist: the shiab-family sign sweep is ROBUST
+## 3. Perspective 3 -- higher-derivative theorist: the shiab-family sign sweep is ROBUST
 
 The source leaves the shiab non-unique (sec 9.1, fn 10). Sweep the whole trace-parameter family:
 
@@ -154,7 +154,7 @@ it can re-enter ONLY as an induced/radiative coefficient, whose sign is the gate
 (Section 6). This is the cheap structural resolution: at the level of GU's actual law the tachyon
 is not there.
 
-## 6. Persona 5 -- adversarial skeptic (RUTHLESS): steelman all three outcomes
+## 6. Perspective 5 -- adversarial skeptic (RUTHLESS): steelman all three outcomes
 
 The main risk is ASSUMING the answer. All three outcomes are steelmanned; none is defaulted.
 
@@ -240,8 +240,8 @@ plausible sign-lever) is SWEPT and does not flip the sign.
   count stays {1,3}. No forbidden target assumed or inserted. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team REDUCTION-DIRECT (W167). Route: DIRECT REDUCTION FROM GU'S ACTUAL ACTION.
-Five personas inline in one worker (GU-action specialist; differential geometer; higher-derivative-
-gravity theorist; symbolic engineer; adversarial skeptic); no sub-agents. Primary source read as
+Five perspectives inline in one worker (GU-action specialist; differential geometer; higher-derivative-
+gravity theorist; symbolic engineer; adversarial skeptic); no independent reviewers. Primary source read as
 data: `Geometric_UnityDraftApril1st2021.pdf` sec 9. Reproducible:
 `python -u tests/W167_reduction_direct_sign_alpha_beta.py` (26/26, exit 0; W126/W130/W159/W165
 positive controls first). Sibling W168 computes the same bit by the independent Krein-signature

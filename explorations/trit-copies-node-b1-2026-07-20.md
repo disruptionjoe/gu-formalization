@@ -4,9 +4,7 @@ doc_type: results_of_preregistered_node
 status: "Execution of pre-registered Node B1. CORRECTED OUTCOME: B1-HOLDS only for equal Cartan weight-space geometry (same dimension/signature and pairwise vector/Krein-space isometries). The three W_m are weights of one nontrivial SU(2)+ spin-1 module, not three invariant family modules; the generation-copy interpretation and 'external S3 is the only distinction' conclusion are retracted."
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (pre-registered Node B1: identical-copies test)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 preregistration: "explorations/prereg-trit-symmetry-and-fork-2026-07-20.md (commit cafcbc7), Node B1; executed as bound, no mid-flight scope change"
 probe: tests/channel-swings/trit_copies_node_b1_probe.py
 grade: "COMPUTED for the Cartan weight-space facts (float64 with exact structural anchors; 22 checks all pass). REPRESENTATION-TYPING CORRECTION: equal weight spaces and ladder bijections do not make three SU(2)+ submodules or physical family copies. No claim/canon/verdict/posture movement."

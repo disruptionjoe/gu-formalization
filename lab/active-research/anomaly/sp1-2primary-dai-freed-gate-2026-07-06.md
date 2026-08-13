@@ -68,7 +68,7 @@ Under that assumption the gravitational `tr R^8` channel remains nonzero. A chir
 2. If yes, independently review the null-line AHSS support calculation.
 3. If no, define the exact twist, tangential structure, or background replacing `BSp(1)`.
 4. Keep local `I_16` and physical-content assumptions separate from the global torsion gate.
-5. Run `lab/process/runbooks/claim-status-consistency-quality-workflow.md` before any claim-status or canon movement.
+5. Run `lab/methods/claim-status-consistency.md` before any claim-status or canon movement.
 
 ## Validation
 

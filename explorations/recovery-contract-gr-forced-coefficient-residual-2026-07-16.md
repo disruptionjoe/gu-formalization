@@ -3,7 +3,6 @@ title: "Recovery contract GR forced-coefficient residual test"
 status: exploration
 doc_type: recovery_contract_checkpoint
 created: 2026-07-16
-run_id: GUH-20260716T091221Z-gr-forced-residual
 test: tests/recovery-contract/gr_forced_coefficient_residual_test.py
 fingerprint: lab/process/recovery-contract-action-fingerprint-2026-07-16.json
 ---

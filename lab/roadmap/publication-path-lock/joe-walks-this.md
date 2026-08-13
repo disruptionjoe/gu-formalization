@@ -25,7 +25,7 @@ Three convergent v3 results (internal origin artifact factorization iff + intern
 
 Why: the convergence is the load-bearing finding; companion-set framing makes it visible to readers without burying any single paper under a 30-50 page integrated load; per-paper reviewer overhead is bounded; reputation strategy is "research program signal" rather than "one big swing" or "diversified portfolio"; the v3 source notes (especially internal origin artifact v3 §2.5 recommending "O5 companion-to-internal origin artifact" structure) already pre-figure this shape.
 
-5-persona dialectic converges 5/5 on Option II with explicit trade-offs named.
+5-perspective dialectic converges 5/5 on Option II with explicit trade-offs named.
 
 ---
 
@@ -79,7 +79,7 @@ If you lock Option II, you accept:
 3. **Consistent disclosure obligation.** One GU-affiliation disclosure decision (Phase 2 Q4) governs all three papers; inconsistency surfacing later is a reputational risk.
 4. **No single paper carries the full architectural story.** Readers picking up one paper get one theorem; the C_MPR convergence is visible only across the set.
 5. **Three revision cycles.** Each paper has its own; ×3 vs Option I (×1) or Option III (×3 decoupled).
-6. **Higher total agent-time.** ~1560-1980 min total (vs ~600-900 min for Option I), but parallelizable as 3 sub-agent workers (real-time ~600-780 min).
+6. **Higher total agent-time.** ~1560-1980 min total (vs ~600-900 min for Option I), but parallelizable as 3 independent reviewer workers (real-time ~600-780 min).
 
 If any trade-off is unacceptable, fall back:
 - Trade-off #1 unacceptable → fall back to Option I.
@@ -138,7 +138,7 @@ These decisions are scoped per option and can be answered in the same walk OR de
 
 - **`decision-packet.md`** — Joe-readable executive summary with the recommendation and rationale.
 - **`per-option-comparison.md`** — full seven-dimension comparison matrix.
-- **`persona-dialectic.md`** — 5-persona dialectic with explicit trade-offs and fallback paths.
+- **`perspective-dialectic.md`** — 5-perspective dialectic with explicit trade-offs and fallback paths.
 - **`phase-3-dispatch-brief-templates.md`** — three dispatch contract templates, one per option, ready for internal origin artifact Phase 3 worker.
 - **`joe-walks-this.md`** — this file.
 

@@ -16,9 +16,9 @@ pass, not a rewrite.
 | Phase | Commit | Result |
 |---|---|---|
 | Paper staging | `f1f6e4c` | 2 publishable papers graduated to `papers/candidates/` (lifecycle codified) |
-| 2 -- hourly corral | `2ee9c26` | 525 `hourly-*.md` -> `explorations/hourly-cycles/`; explorations root 830 -> 304 loose |
+| 2 -- hourly corral | `2ee9c26` | 525 `hourly-*.md` -> `explorations/research-cycles/`; explorations root 830 -> 304 loose |
 | 1 -- root declutter | `99b89ba` | 4 peripheral docs -> `docs/`; root 14 -> 10 `.md` (operational trio kept) |
-| 4a -- hourly tests | `49d1504` | 290 `hourly_*.py` -> `tests/hourly-cycles/`; loose tests 384 -> 94 |
+| 4a -- hourly tests | `49d1504` | 290 `hourly_*.py` -> `tests/research-cycles/`; loose tests 384 -> 94 |
 | 4b -- test manifest | `2623341` | `tests/README.md` indexes the 94 in place (provenance refs protected) |
 | 5 -- index + naming | `9ee08fd` | READMEs for lab/automation/, lab/deep-research/, lab/specifications/; conventions in CONTRIBUTING |
 | 3 -- topical note sort | `a2098ca` | 296 notes -> 15 topical subfolders (content-categorized); `explorations/README` index |
@@ -92,8 +92,8 @@ lab/process/  lab/roadmap/  lab/sources/  lab/literature/  lab/active-research/ 
 
 ### Phase 2 -- corral the hourly output (turns 830 loose into ~300)
 
-- `git mv explorations/hourly-*.md explorations/hourly-cycles/`, and move `HOURLY-CYCLES-INDEX.md` in with
-  them as `explorations/hourly-cycles/README.md`. This single move removes 530 files from the top of
+- `git mv explorations/hourly-*.md explorations/research-cycles/`, and move `HOURLY-CYCLES-INDEX.md` in with
+  them as `explorations/research-cycles/README.md`. This single move removes 530 files from the top of
   `explorations/` and is what makes the directory navigable.
 
 ### Phase 3 -- topical subfolders for the remaining ~300 exploration notes
@@ -104,7 +104,7 @@ Group by the prefixes that already exist in the filenames (no renames, just fold
 - `explorations/vz-evasion/` (vz*, oq*, oc2* -- the VZ/evasion line)
 - `explorations/observer-and-time/` (observer-*, time-as-finality-crosswalk already a subdir, dark-*)
 - `explorations/geometry-notes/` (codazzi-*, cartan-*, type-*, layer-split, signed-*)
-- `explorations/persona-and-dialectic/` (persona-*, *-steelman-hegelian-*)
+- `explorations/perspective-and-dialectic/` (perspective-*, *-steelman-hegelian-*)
 - `explorations/misc/` for the long tail; **add `explorations/README.md` as a topical index.**
 - Exact prefix-to-folder mapping to be confirmed before moving (grep-driven, ~10 buckets).
 

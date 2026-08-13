@@ -8,9 +8,7 @@ inputs:
   - explorations/operator-grade-end-2026-07-20.md
   - explorations/product-typing-and-resolvent-pencil-swing-2026-07-20.md
   - explorations/sector-relative-section-theory-2026-07-20.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

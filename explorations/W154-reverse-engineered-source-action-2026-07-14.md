@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM REVERSE, W154; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (TEAM REVERSE, W154; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W154
 label: W154
@@ -43,11 +43,11 @@ and the X4 metric is a DERIVED functional `g[Psi, C]` -- its causal cone is the 
 count (BLMS leg, A1). This is exactly W151's route beta made into the definition of `S`'s field
 content, rather than a comparison run after the fact.
 
-Assumption-first by design; the rigorous kill comes after (Section 7). Five personas ran inline in
+Assumption-first by design; the rigorous kill comes after (Section 7). Five perspectives ran inline in
 one worker; the deterministic test `tests/W154_reverse_engineered_source_action.py` (25/25, exit 0)
 runs its four positive controls first.
 
-## 1. Persona 1 -- constructive field theorist: S assembled backward, term by term
+## 1. Perspective 1 -- constructive field theorist: S assembled backward, term by term
 
 The record field `Psi` is a section over Y14 valued in `ker Gamma` = carrier B (dim 1664 of the RS
 carrier 1792 = 14 x 128), graded by the Krein/C-operator inner product `K = eta_V (x) beta_S`. Every
@@ -70,7 +70,7 @@ bulk constant is `a0_fam = 2 alpha - beta` (F2). So F2 and F4 are not separate p
 they are what the derived-metric sector MUST be. This is where forward builds spent an unbuilt
 object and the reverse-engineering spends none.
 
-## 2. Persona 2 -- rep theorist: the FORCED rows carried by one S, and the sign that signs Lambda
+## 2. Perspective 2 -- rep theorist: the FORCED rows carried by one S, and the sign that signs Lambda
 
 The 8 FORCED rows are carried by T1/T2/T5 exactly as W125's joint-carve certified NONEMPTY, and
 nothing in the metric-is-derived move disturbs that certificate (the cure sector is Hom-disjoint
@@ -87,7 +87,7 @@ from the gravity and Yukawa clusters, W125/W136):
 - **SA-U1 / SA-U3** (H59 loop packet, Krein positivity bound): T2's grading; the tree leg holds
   (`nabla K = 0`), the loop arena stays OPEN (H59).
 
-**The load-bearing new content of this persona: C-positivity SIGNS Lambda.** In a bare causal set
+**The load-bearing new content of this perspective: C-positivity SIGNS Lambda.** In a bare causal set
 the everpresent fluctuation `Lambda ~ +/- 1/sqrt(N)` has a coin-flip sign (W146 Section 2.5). Here
 `N(x) = Tr(P_sigma eta_+ P_sigma)` with `eta_+ = eta C` the C-positive metric (W132/W137), so `N`
 is a trace over the POSITIVE subspace and is non-negative by construction; the everpresent
@@ -97,7 +97,7 @@ extra postulate. (Honest boundary: that the C-metric BIAS actually delivers `Lam
 fluctuation level, not just the mean, is the W146 named-unbuilt "signed-positive-Lambda" prediction;
 here it is the reason the sign is not free, carried at the conditional grade W146 set.)
 
-## 3. Persona 3 -- interacting-DE / GR theorist: does S's variation give W144's Q(a)?
+## 3. Perspective 3 -- interacting-DE / GR theorist: does S's variation give W144's Q(a)?
 
 This is the debit-2 question, and the reverse-engineering answers it with a sharp PARTIAL that is
 more informative than a yes.
@@ -140,7 +140,7 @@ so the bulk must be flat). The Einstein channel stays attractive there (`a1_fam 
 scalaron stays tachyonic (`a2 = -1/9`): S inherits GU's own R^2 problem (H59), exactly W152's
 "marble augmented."
 
-## 4. Persona 4 -- numerical engineer: positive controls and the over/under-determination count
+## 4. Perspective 4 -- numerical engineer: positive controls and the over/under-determination count
 
 `tests/W154_reverse_engineered_source_action.py`, 25/25, exit 0. Positive controls first:
 
@@ -164,7 +164,7 @@ set of free objects (Section 6). The reverse-engineering also REDUCES freedom re
 builds: the 10 metric functions `g_munu` are removed (metric derived), `sign(Lambda)` is fixed +,
 and the SA-G5 shape-dim-1 freedom collapses to `beta/alpha = 2`.
 
-## 5. Persona 5 -- honesty auditor / E1: is S a coherent object or a wish-list?
+## 5. Perspective 5 -- honesty auditor / E1: is S a coherent object or a wish-list?
 
 Per E1, a reverse-engineered S that merely re-lists the constraints is NOT progress; it must either
 DERIVE a fit, EXPOSE a conflict, or REDUCE the free-function count. This S does the first and third
@@ -234,8 +234,8 @@ bridge (SA-G9). It is the load-bearing unbuilt object, now named on the boundary
   GU owns the field-equation / emergent-metric math only; no cross-repo identity claim. Zero em dashes
   in paper-facing text. W138 battery honored (G1-G6); B2 rate-identity FALSE and unused; H36 refused.
 
-*Filed 2026-07-14 by Team REVERSE (W154). Five personas inline in one worker (constructive field
+*Filed 2026-07-14 by Team REVERSE (W154). Five perspectives inline in one worker (constructive field
 theorist, rep theorist, interacting-DE/GR theorist, numerical engineer, honesty auditor/E1); no
-sub-agents. Reproducible: `python -u tests/W154_reverse_engineered_source_action.py` (25/25, exit 0;
+independent reviewers. Reproducible: `python -u tests/W154_reverse_engineered_source_action.py` (25/25, exit 0;
 four positive controls first). Exploration grade; conditional register; no canon movement; H41
 unbuilt; H59 OPEN.*

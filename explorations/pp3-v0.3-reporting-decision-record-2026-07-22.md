@@ -33,14 +33,14 @@ here is the program practicing its own Purpose/Passion/Practice on its flagship 
    time-as-finality) for the PP3 v0.3 supersession. Root defect: the frozen v0.2 DESI-DR2 disclosure
    overstated the exclusion (uncontestability-audit S1, 2026-07-21). Both flags are number-*adjacent*, not
    frozen prediction numbers.
-2. **10 divergent personas** (methodological/epistemic lenses) — pre-registration methodologist,
+2. **10 divergent perspectives** (methodological/epistemic lenses) — pre-registration methodologist,
    metrologist, adversarial referee, reproducibility officer, Bayesian epistemologist, physics editor,
    forensic chain-of-custody, VCS engineer, lay-clarity advocate, Popperian. Convergence: Flag A is a
    floating-referent defect (disambiguate, don't pick one "%"); Flag B correct-to-emitter; both as logged
    amendments certifying the bet unchanged.
-3. **Science Council** (registered: `rccm-library/.../PERSONA-REGISTRY.md#science-council` —
+3. **Science Council** (registered: `rccm-library/.../PERSPECTIVE-REGISTRY.md#science-council` —
    heterodox / orthodox / wild-frontier / commercial / philosopher), run **grounded in GU's
-   Purpose/Passion/Practice**. Additions over the personas: (a) make the σ-tension explicitly conditional
+   Purpose/Passion/Practice**. Additions over the perspectives: (a) make the σ-tension explicitly conditional
    on own-θ\* pinning; (b) demote the bare "%"; (c) the amendment must be *progressive* /
    manipulability-reducing (the philosopher's decisive framing, from the charter's "make narratives harder
    to manipulate"); (d) Flag B gets a regenerate-guard; (e) the residual becomes a future prediction seed.
@@ -54,7 +54,7 @@ here is the program practicing its own Purpose/Passion/Practice on its flagship 
    trusting the gather: `pp3_curve_family_locus.py` (exit 0, locus table cell-for-cell, receipt 7+1=8);
    `de_amplitude_audit_probe.py` (A_GU=31.9715 +5.66% vs Planck; overshoot vs A*=31.4709 = +5.74σ;
    dAIC=+35.79); `W113_world_contact.py` (A*=30.8059 +1.81% vs Planck; canonical f0=0.125 inside Δχ²≤1;
-   pinning A→Planck costs +41.3 χ²). **This run corrected the ledger** from 3 quantities to 4 (it exposed
+   pinning A→Planck costs +41.3 χ²). **This investigation corrected the ledger** from 3 quantities to 4 (it exposed
    the two distinct `A*`), which is exactly why it was run.
 
 ## Verified ledger (the numbers of record)
@@ -78,4 +78,4 @@ here is the program practicing its own Purpose/Passion/Practice on its flagship 
 - **Related:** staged packet `prediction-package-pp3-v0.3-STAGED-supersession-2026-07-22.md`; frozen v0.2
   `prediction-package-pp3-de-curve-family-2026-07-20.md`; audit `uncontestability-audit-pp3-packet-2026-07-21.md`;
   awareness `system-attention/awareness/20260722-pp3-v0.3-refreeze-decision.md`; council registry
-  `rccm-library/research/personas/PERSONA-REGISTRY.md`.
+  `rccm-library/research/perspectives/PERSPECTIVE-REGISTRY.md`.

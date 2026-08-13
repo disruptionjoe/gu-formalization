@@ -4,7 +4,6 @@ status: exploration
 doc_type: results-adjudication
 created: 2026-07-22
 updates: explorations/sigma-w1-keystone-adversarial-assault-synthesis-2026-07-22.md
-lane: "1 (OPERATOR-END-PENCIL)"
 grade: exploration-tier; NO value asserted; no claim/canon/verdict/freeze movement
 ---
 
@@ -63,7 +62,7 @@ Dirac operator** — gated on constructing the 14-geometry (T2/T3), independent 
 
 ## Lane-1 entry point (to actually close leg A)
 
-Directed Lane-1 run (`OPERATOR-END-PENCIL`), not hourly-eligible (Lane 1 is `waiting_external`). Two routes,
+Directed Lane-1 run (`OPERATOR-END-PENCIL`), not hourly-eligible (truth-status research is `waiting_external`). Two routes,
 in priority: (1) the **Smith LES** (arXiv:2405.04649) → known Spin data; (2) a completed **Adams-SS/`ext`**
 run with the **correct published ABP module list** (Guo/GPW). Team C's validated resolution engine is a
 reusable starting tool (it lives in session scratch — would need re-creating and committing into

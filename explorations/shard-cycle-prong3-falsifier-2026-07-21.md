@@ -21,9 +21,7 @@ inputs:
   - explorations/W221-falsify-generation-count-structure-2026-07-14.md
 runnable:
   - tests/channel-swings/prong3_falsifier_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

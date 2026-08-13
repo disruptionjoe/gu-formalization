@@ -5,9 +5,7 @@ doc_type: intake_note
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (Joe-supplied source block; TOE episode 0AC-Ol1z5vI; guest identified as Edward Frenkel at intake)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 intake_semantics: >
   IMPORTED-shape evidence only; hearsay grade. HONESTY NOTE: this
   intake's GU-relevance legs are THIN and typed as such — recorded so

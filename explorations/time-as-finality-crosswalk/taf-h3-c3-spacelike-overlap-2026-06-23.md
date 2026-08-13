@@ -132,7 +132,7 @@ In a CHSH experiment:
 - Each run involves ONE pair of settings (A,B), (A,B'), (A',B), or (A',B').
 - The "overlap" U_A cap U_B at the Cech level captures the consistent assignment of values
   to the A and B settings across runs.
-- Alice and Bob are ALWAYS spacelike-separated during the run (this is the locality condition
+- Alice and Bob are ALWAYS spacelike-separated during the investigation (this is the locality condition
   of the CHSH setup).
 
 Therefore, U_A cap U_B exists in the Cech cover PRECISELY BECAUSE Alice and Bob are

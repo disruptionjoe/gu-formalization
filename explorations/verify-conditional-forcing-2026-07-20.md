@@ -4,16 +4,14 @@ doc_type: adversarial_verification
 status: "hostile verification of explorations/conditional-forcing-minimal-input-2026-07-20.md + tests/channel-swings/conditional_forcing_probe.py (commit f513fcf); independent probe exit 0 (14 [E] + 2 [F] + 4 [T], 286.2 s full breadth; reduced-breadth ladder 247.7 s); verdict NOT-DRY (zero computational refutations; one material attribution fork, one material X1.5 reframe, one closed exhaustion gap)"
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (hostile verify: conditional forcing)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 target: explorations/conditional-forcing-minimal-input-2026-07-20.md
 target_probe: tests/channel-swings/conditional_forcing_probe.py
 probe: tests/channel-swings/verify_conditional_forcing_probe.py
 related:
   - explorations/conditional-forcing-minimal-input-2026-07-20.md
   - explorations/prereg-trit-internal-successor-2026-07-20.md
-  - explorations/63-persona-steelman-narratives-2026-07-20.md
+  - explorations/63-perspective-steelman-narratives-2026-07-20.md
   - tests/channel-swings/k1_reframe_probe.py
 sources:
   - "P. Olum, Mappings of manifolds and the notion of degree (Ann. of Math. 1953): degree of a map of 3-dim lens spaces L(n,1) inducing multiplication by r on pi_1 is r^2 mod n; the weight-matched equivariant maps here descend to L(n,1) with r = 1, so every member is 1 mod n. Used at the same grade the original used it (cited theorem + per-rung witnesses); consistent with all witnessed degrees across five rungs including two members the original never ran (+13 at Z/6, +21 at Z/5)."
@@ -66,7 +64,7 @@ values.
 | 5 | Minimality ladder: Z/2, Z/3, Z/4 fail; Z/6 first sufficient; "the subgroup lattice between X1 and X2 is exhausted" | **REVISED (immaterial to the rung, material to the wording)** | Z/5 was NEVER EXAMINED -- the written exhaustion has a hole. Closed here: join(21,1) is Z/5-equivariant, exactly deck-odd, degree +21 by closed-form enumeration, 3 \| 21 -> order 1. With Sp(1)'s unique involution (q^2 = 1, \|q\| = 1 => q = +-1: no Klein group, no S_3), the order-<=-6 lattice is exactly {Z/2..Z/6} and exhaustion becomes genuinely complete -- one rung later than the original left it |
 | 6 | Z/6 rung: every member 1 mod 6; class moves (+1, +7) but stays order-3 | **CONFIRMED, extended** | join(7,1) re-certified on independent machinery (+7, 7 enumerated preimages); NEW member join(13,1) = +13 = 1 mod 6, order 3; u1 generic member +1 on my counter; Olum congruence consistent with all eight witnessed degrees across five rungs |
 | 7 | "The minimal X is ONE ORDER-SIX PHASE REFERENCE; the bit is exactly its cube" | **REVISED (MATERIAL)** | the accounting fork, below. Under the program's own gate semantics the minimal EXTERNAL input is ONE TRIT (Z/3); the Z/2 factor is native. The Z/6 headline holds only under a second semantics that contradicts the machinery the probe itself imports |
-| 8 | "Its cube is the payload bit" as an identity of actions | **CONFIRMED as arithmetic; the NAMING is an unproven identification** | act(zeta6^3, v) = -v exactly (the anchor's cube IS the fiber deck action); but the target's own legs A/B prove the PROGRAM's payload bit (K_S/pin-plane orientation, "externally valued" per the probe's own X1 definition) is gate-inert and class-inert -- it never acts on the fiber at all. Equating the deck Z/2 with the payload Z/2 is exactly steelman question #4 (63-persona doc), marked OPEN there and silently assumed closed here |
+| 8 | "Its cube is the payload bit" as an identity of actions | **CONFIRMED as arithmetic; the NAMING is an unproven identification** | act(zeta6^3, v) = -v exactly (the anchor's cube IS the fiber deck action); but the target's own legs A/B prove the PROGRAM's payload bit (K_S/pin-plane orientation, "externally valued" per the probe's own X1 definition) is gate-inert and class-inert -- it never acts on the fiber at all. Equating the deck Z/2 with the payload Z/2 is exactly steelman question #4 (63-perspective doc), marked OPEN there and silently assumed closed here |
 | 9 | Planted weight-blind oracle rejected by G1 while passing the Z/2 shadow | **CONFIRMED** | rebuilt independently on the other complex axis: deck shadow 0.0, reach 0.0, 2.0 discontinuity jump |
 | 10 | X1.5 receipt "43-run scout sweep across 3 readers" | **REPRODUCED-ONLY (receipt hygiene)** | no artifact of the sweep exists in the repo (comment-only); the probe itself runs 2 readers x 4 cases. The CONCLUSION survives anyway (my independent 8-case non-Gaussian sweep reproduces the scatter), but the 43-run/3-reader numbers are unverifiable as stated |
 

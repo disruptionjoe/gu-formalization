@@ -3,7 +3,7 @@ title: "P-RANK-FOLD: the chain datum cannot carry the generation selector"
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-run_ref: RUN-20260721-023512-repository-work-cycle-cai-hourly
+run_ref: historical-investigation
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 outcome: P-RANK-FOLD-DIRECT-FAIL
 ---

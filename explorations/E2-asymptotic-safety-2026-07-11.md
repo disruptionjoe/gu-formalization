@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; the E2 escape; deterministic test)
+status: exploration (5-perspective inline team; the E2 escape; deterministic test)
 created: 2026-07-12
 hypothesis: E2 -- the asymptotic-safety escape of the W79/W80 observer-conjecture Krein-TT no-go
 branch: "E2 -- does GU admit a NON-Gaussian (asymptotic-safety / Reuter) UV completion, and does the conformal-scalaron sign f_0^2 LIFT there (M_0^2>0, non-tachyonic) as opposed to the FORCED f_0^2<0 on the one-loop asymptotic-FREEDOM route? TWO derivations: (D1) ported Reuter-FP + Dona-Eichhorn-Percacci matter-bound analysis for GU's ker-Gamma RS + fermions; (D2) direct fixed-point search in the enlarged (g, lambda, f_2^2, f_0^2) truncation, homogeneity broken by the dimensionful couplings' canonical terms."
@@ -49,7 +49,7 @@ E2 needs its own (FRG) computation. **This document works E2.** Test:
 | **RS sector** | `ker Gamma`-projected spin-3/2: transverse, gamma-traceless, background-independent (H58) | **THE native input for the matter-bound check.** As a spin-3/2 carrier it ANTI-SCREENS (same sign as the graviton, Dona-Eichhorn-Percacci) -- it is on the side that FAVORS the Reuter FP, the opposite of a screening scalar/fermion. |
 | **arena/value** | H62/W80: arena = symmetry-invariant/forced; value = free relevant direction | Used to classify sign(f_0^2). W80: forced (arena) on AF. E2: FREE (value) at the Reuter FP -- the de-forcing IS the escape. |
 
-## 1. Persona 1 -- asymptotic-safety / FRG specialist: the Reuter FP + the matter bound
+## 1. Perspective 1 -- asymptotic-safety / FRG specialist: the Reuter FP + the matter bound
 
 ### 1.1 Why one loop missed it, and what the FRG adds (the mechanism)
 
@@ -105,7 +105,7 @@ negative and no trajectory crosses them (test C1, reproducing W80). The non-tach
 exactly the branch **AS-Starobinsky inflation** realizes (positive R^2, non-tachyonic scalaron;
 arXiv:1311.0881) (test C4).
 
-## 2. Persona 2 -- math referee: real FP or truncation artifact? sign computed or assumed?
+## 2. Perspective 2 -- math referee: real FP or truncation artifact? sign computed or assumed?
 
 - **Real FP vs artifact.** The Reuter FP is a **truncation-dependent** object -- this must be stated
   loudly. But it is not a lone-truncation fluke: it is found **robustly across all quasilocal
@@ -125,7 +125,7 @@ arXiv:1311.0881) (test C4).
 - **Not re-derived (imported, each cited):** the Reuter FP existence (Reuter et al.); the DEP
   screening signs; the BMS relevance count; `gamma>0` (H25); the forced-negative AF sign (W80).
 
-## 3. Persona 3 -- adversary (presses (a)/(b)/(c))
+## 3. Perspective 3 -- adversary (presses (a)/(b)/(c))
 
 **"The Reuter FP is a truncation artifact" (the strongest attack).** Fair -- asymptotic safety is not
 proven; every result is truncation-bounded. **Answer:** (i) the FP is found in every quasilocal
@@ -152,7 +152,7 @@ Krein-TT spin-0 obstruction **dissolves** (the healthy branch is admissible), ra
 (truncation) and (ii) sitting on the positive-`f_0^2` relevant direction (a free choice, favored by
 observation via Starobinsky, not forced by GU here).
 
-## 4. Persona 4 -- cross-checker: second derivation + the DEP literature
+## 4. Perspective 4 -- cross-checker: second derivation + the DEP literature
 
 - **Second derivation (direct enlarged fixed-point search, independent of the ported Reuter result).**
   Reusing the H57/W45 machinery extended with the dimensionful `(g,lambda)`: the perturbative
@@ -172,7 +172,7 @@ observation via Starobinsky, not forced by GU here).
   Starobinsky (1311.0881): the positive-R^2, non-tachyonic branch is the observationally-selected one.
   **Consistent with C2-C4.**
 
-## 5. Persona 5 -- synthesizer: verdict
+## 5. Perspective 5 -- synthesizer: verdict
 
 **TASK 1 -- DOES GU ADMIT A REUTER FP GIVEN ITS MATTER? PLAUSIBLY YES (inside the DEP bounds).**
 GU's distinctive matter field, the ker-Gamma RS spin-3/2 carrier, **anti-screens with the graviton

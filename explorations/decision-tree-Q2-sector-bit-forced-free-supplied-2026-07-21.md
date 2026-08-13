@@ -18,9 +18,7 @@ inputs:
   - explorations/boundary-law-operator-lift-2026-07-20.md
 runnable:
   - tests/channel-swings/q2_sector_bit_standpoint_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

@@ -4,9 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (cross-pollination scout across sibling repos)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 inputs:
   - explorations/prereg-construction-swing-posit-sigma-cycle-2026-07-21.md
@@ -27,7 +25,7 @@ siblings_scanned:
 
 Read-only scout. No sibling canon edited, no GU claim/verdict/canon moved, nothing
 committed or published. Mailbox note DRAFTS are placed as unprocessed proposals in
-`system-runtime/mailboxes/<sibling>/` (each receiving steward adjudicates and
+`private orchestration runtime/mailboxes/<sibling>/` (each receiving steward adjudicates and
 appends its own processing receipt; that is not this scout's to write).
 
 ## Standing guards honored throughout
@@ -53,7 +51,7 @@ the 2026-07-20/21 mailbox frontier). None is manufactured. All three drafts are
 placed at mailbox root, `Status: proposed`.
 
 ### TI — WARRANTED (strongest). 
-Draft: `system-runtime/mailboxes/temporal-issuance/20260721-gu-three-h1-coincide-on-ti-finality-sheaf.md`
+Draft: `private orchestration runtime/mailboxes/temporal-issuance/20260721-gu-three-h1-coincide-on-ti-finality-sheaf.md`
 - **What's new to TI.** TI last logged (2026-07-20) GU's co-flip/Krein habitat as a
   grade update to *conditional comparison evidence*. New since: GU's construction
   swing landed **on TI's object by name** — the "three H¹'s coincide" result
@@ -75,7 +73,7 @@ Draft: `system-runtime/mailboxes/temporal-issuance/20260721-gu-three-h1-coincide
   object appeared), not offered as TI support, does not touch TI-C019/020/022.
 
 ### TaF — WARRANTED (awareness; reframed after mining — TaF already HOLDS the proposal). 
-Draft: `system-runtime/mailboxes/time-as-finality/20260721-gu-sigma-reflection-anomaly-arrow-protection.md`
+Draft: `private orchestration runtime/mailboxes/time-as-finality/20260721-gu-sigma-reflection-anomaly-arrow-protection.md`
 - **Reframe from mining.** TaF is more current than first assumed: it already frames
   the arrow as an anomaly/cobordism object (`open-problems/finality-as-anomaly-
   cancellation.md`, `arrow-of-time-as-constructor-theorem.md`), independently reached
@@ -94,7 +92,7 @@ Draft: `system-runtime/mailboxes/time-as-finality/20260721-gu-sigma-reflection-a
 - **Ask: none.** Does not move bar-b; not TaF support.
 
 ### P2C — WARRANTED (home of the object; carries the one genuine two-way pointer). 
-Draft: `system-runtime/mailboxes/possibility-to-capability/20260721-gu-sigma-spin-cover-deck-one-bit-pin-anomaly.md`
+Draft: `private orchestration runtime/mailboxes/possibility-to-capability/20260721-gu-sigma-spin-cover-deck-one-bit-pin-anomaly.md`
 - **What's new to P2C.** P2C homes the signed-graph value bit, last typed
   (2026-07-15 adapter contract) as "a single forgotten orientation bit … the
   generation-count bit." GU now **splits that value cleanly**: σ = one Z/2
@@ -169,8 +167,8 @@ bridge**. TI also proves the TaF causal-past operator is a **retraction** π (π
 **distinct** from the fixpoint-free involution (they coincide only on the degenerate
 k=1 Z/2 fiber) — GU must keep the retraction and involution legs distinct in any
 `C_read`. Prevents a latent GU over-claim; names the two extra bridges.
-  - `temporal-issuance/agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md`,
-    `RUN-0191-*`, `temporal-issuance/memory/steward-memory-summary.md`
+  - `temporal-issuance/agent-runs/historical-investigation`,
+    `historical-investigation*`, `temporal-issuance/memory/steward-memory-summary.md`
 
 **#3 — P2C, Thread 4 — FORCES (concrete importable source-action candidate).** P2C
 extracted and exactly instantiated Bianconi's entropic-action ("Quantum entropy
@@ -237,7 +235,7 @@ orientation datum is external). Same object as TI's #2 and P2C's arrow ⊥ secto
 **#8 — TaF, Thread 3 — RESONATE + names the make-or-break test.** T112 builds a finite
 spin-lift ("Y_spin") Z/2 host and identifies the T63 Čech `H¹(4-cycle,Z/2)=Z/2` rep
 with a spin-holonomy sign — but *conditionally* on an external Z/2 posit (matches
-GU's one-external-bit posture). Persona-46 independently frames σ as a Z/2 global
+GU's one-external-bit posture). Perspective-46 independently frames σ as a Z/2 global
 obstruction (mod-2 index / spin-cobordism, "invisible in every patch, decisive
 globally") — then does the honest thing: the actual T411 separator is a **continuous
 0.124 gap, not manifestly mod-2**, so the reading "may be decorative" unless a fixture
@@ -245,7 +243,7 @@ shows it is **quantized**. That is the exact test GU inherits to promote σ from
 decorative Z/2 label to forced anomaly invariant. (TaF's one APS/eta channel, T424,
 came out **null at n=3** — no usable bordism number from TaF.)
   - `time-as-finality/models/t112_spin_observerse_holonomy.py`,
-    `explorations/physical-boundary-persona-pass-2026-07-02/cluster-E-sheaf-geometry.md`
+    `explorations/physical-boundary-perspective-pass-2026-07-02/cluster-E-sheaf-geometry.md`
 
 **#9 — TaF, Thread 1 — RESONATE (finite descent template).** The T54 finite-finality
 descent theorem (finite conditions ⇒ unique global reconstruction, every failure

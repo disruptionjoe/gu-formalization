@@ -226,7 +226,7 @@ grading sign** (a residual `Z/2`, the sign external / Godel-independent / must b
 *Filed 2026-07-14 by Team DECISIVE-BIT-R12 (W209). Route: topos internal-logic / sheaf semantics over
 the observer/capability site. Five viewpoints inline in one worker (topos-theorist; rep-theorist
 porting W203 Schur; Krein/DeWitt geometer; internal-logic / Heyting-algebra specialist; adversarial
-skeptic on the site choice); no sub-agents. Reproducible:
+skeptic on the site choice); no independent reviewers. Reproducible:
 `python -u tests/W209_decisive_bit_topos_internal_logic.py` (32/32, exit 0; positive controls first).
 Exploration grade; conditional register; RUTHLESS self-verification (no false positive); no canon
 movement; tri-repo gating strict; the count stays {1,3}; bar (b) UNCHANGED; H59 OPEN. VERDICT:
