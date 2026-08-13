@@ -7,6 +7,18 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B CONSTANT-PARAMETER MOVING-SHIAB WARD CLOSURE
+> (ledger no-change).** The frozen rank-90 constant-parameter response is not
+> an obstruction. Moving `Phi1/Phi2`/Shiab has rank 90 but leaves rank 24; the
+> latter is exactly the co-motion of the `rho=-1/3` curvature-source input.
+> Together they cancel coefficientwise to rank zero for all 91 generators,
+> with `e12e13` retained as a zero-column control. **Do not say moving Shiab
+> alone closes Ward, and do not call this full gauge/BV invariance. Next
+> assemble first-parameter-jet plus symmetric second-parameter-jet affine,
+> observation/section and live `Q_B/H_q` responses; cancel the independent
+> rank-25 trace, then run Spencer compatibility.** No ledger, verdict,
+> accounting, datum, canon or posture move.
+
 > **2026-08-13 FIVE STAGED RESULTS WITHOUT POINTERS — absorb or decline
 > (binds nothing; none touches the ledger).** Filed to `explorations/`
 > over 08-12/13 by Joe-directed side sessions and previously reachable

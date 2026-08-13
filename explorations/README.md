@@ -7,6 +7,14 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B constant-parameter moving-Shiab Ward closure (2026-08-13)
+
+`conditional-build/selected-k77-i2b-stationary-constant-moving-shiab-ward-2026-08-13.md`
+closes the predecessor's frozen rank-90 constant-parameter burden. Moving
+Shiab alone leaves rank 24; the co-moving `rho=-1/3` curvature-source input is
+exactly rank 24 and cancels it, giving coefficientwise rank zero for all 91
+generators. The independent second-parameter-jet rank 25 remains open.
+
 ## K77 I2B stationary product-rule Ward response (2026-08-13)
 
 `conditional-build/selected-k77-i2b-stationary-product-rule-ward-2026-08-13.md`

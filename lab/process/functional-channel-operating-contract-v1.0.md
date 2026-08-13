@@ -62,6 +62,15 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The stationary constant-parameter successor closes the predecessor's rank-90
+burden exactly. Moving `Phi1/Phi2`/Shiab alone leaves rank 24; the co-moving
+`rho=-1/3` curvature-source input is exactly the missing rank-24 response, and
+their complete constant Ward sum is zero for all 91 generators. Build must not
+compress the branch residual to its point value `H_q=*T_q` when taking a
+derivative, nor say moving Shiab alone closes Ward. First-parameter jets and
+the independent rank-25 second-parameter-jet trace remain the active gate,
+followed by Spencer compatibility; no BV or physical quotient is implied.
+
 The stationary product-rule Ward successor further decomposes the remaining
 gauge burden. The nonzero stationary two-jet supplies a rank-91 constant-
 parameter principal response; the complete owned lower-order response has

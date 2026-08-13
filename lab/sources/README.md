@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-stationary-constant-moving-shiab-ward-source-return-2026-08-13.md`](selected-k77-i2b-stationary-constant-moving-shiab-ward-source-return-2026-08-13.md)
+  - confirms the moving `Phi1/Phi2`/Shiab and residual-square grammar;
+    returns source-silent on the exact `90 -> 24 -> 0` constant-parameter
+    cancellation and independent rank-25 second-parameter-jet trace; and
+    attributes those selected real-K77 ranks to the repository.
+
 - [`selected-k77-i2b-stationary-product-rule-ward-source-return-2026-08-13.md`](selected-k77-i2b-stationary-product-rule-ward-source-return-2026-08-13.md)
   - confirms the inhomogeneous connection/adjoint distortion and residual-
     square grammar; returns source-silent on the exact constant `90` plus

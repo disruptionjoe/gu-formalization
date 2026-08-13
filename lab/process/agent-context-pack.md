@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current constant-parameter moving-Shiab Ward closure (ledger no-change):**
+> the predecessor's frozen rank-90 response is fully cancelled, but not by
+> moving Shiab alone. Moving `Phi1/Phi2`/Shiab has rank 90 and leaves rank 24;
+> the exact co-motion of the `rho=-1/3` curvature-source input has rank 24 and
+> cancels the remainder. All 91 constant generators close coefficientwise and
+> `e12e13` stays a zero-column control. Rank one is now first-parameter jets
+> plus the independent rank-25 symmetric second-jet trace, with affine,
+> observation/section and live `Q_B/H_q` owners, then Spencer compatibility.
+> This is not full BV invariance or a physical quotient.
+
 > **Current stationary product-rule Ward response (ledger no-change):** the
 > nonzero stationary two-jet contributes a rank-91 constant-parameter
 > product-rule response. The complete owned lower-order response has rank 25;
