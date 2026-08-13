@@ -75,7 +75,7 @@ check("acausal-trap guard: bare commutator held NONZERO as premise", BARE_COMMUT
 # ----------------------------------------------------------------------------
 GU = {
   "matter_not_gauge_field": dict(
-    quote="Vela Zwanziger says that if you have spin three halves matter that is "
+    quote="Velo-Zwanziger says that if you have spin three halves matter that is "
           "coupled, to some sort of nontrivial acting group, you have to be very careful",
     src="transcript [00:41:48] L140", verified=True,
     note="VZ-exemption plea = ungauged-matter framing; + [00:39:18] L128 third generation "

@@ -7,6 +7,13 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-trace-hq-connection-compatibility-source-return-2026-08-13.md`](selected-k77-trace-hq-connection-compatibility-source-return-2026-08-13.md)
+  - confirms Weinstein's full `U(64,64)` arena and Curt's distinct two
+    `C^(32,32)` carrier halves; attributes the complete phase and affine-
+    compatibility theorems to the repository; and returns source-silent on
+    trace `H_q` as the defining form, action-parent selection, half asymmetry
+    and physical cohomology.
+
 - [`selected-k77-i2b-principal-preserving-moving-coefficient-absorption-source-return-2026-08-13.md`](selected-k77-i2b-principal-preserving-moving-coefficient-absorption-source-return-2026-08-13.md)
   - confirms the `SC-ACT-04` residual-square/two-connection grammar; attributes
     the universal cubic/quartic coefficient-jet absorption theorem to the

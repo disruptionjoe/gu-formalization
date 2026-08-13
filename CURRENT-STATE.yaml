@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: agent/operator-anomaly-big-swing
-revision_basis: c3d6b8efb43bf591fcdaba70e324914151bf444c
+revision_basis: ed9fa2f8976e299e06b92169de0439485345809f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,22 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    On the exact compatible stationary jet, the constrained cubic and quartic
-    absorbers are onto their complete 140- and 280-cell targets. Consequently
-    every first principal-preserving algebraic moving-coefficient contribution
-    has zero torsion class through quartic order, not only the representatives
-    already computed. Principal-changing action/Q_B/receiver choices, the
-    physical tangent/BV graph, higher orders and the separate E_act/Q_u rival
-    remain open.
+    The trace-owned Hermitian family admits the complete source-sized
+    connection arena exactly: all 16,384 Clifford directions have one forced
+    real or i phase. The 8,192 even directions are the two-half block algebra
+    and the 8,192 odd directions extend it to full U(64,64). Moving-H_q
+    compatibility is an affine torsor admitting both parents, so it cannot
+    select the action parent, luminous half, mirror quotient or physical
+    carrier. The preceding cubic/quartic absorption theorem remains intact.
   evidence:
+    - explorations/conditional-build/selected-k77-trace-hq-connection-compatibility-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
     - lab/process/conditional-physics-ledger-v0.237.json
 current_question: >-
-  Does the source supply a principal-changing completed action or Q_B owner,
-  or can an action-owned physical tangent/BV graph be constructed and tested
-  on its correctly retyped principal symbol?
+  Can the selected action or physical BV/domain complex produce a
+  half-asymmetric physical cohomology or fermion projector that distinguishes
+  W, mirror, random 192s, H640 and 832 without fitting a member of the large
+  trace-Hq compatibility fibre?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -33,7 +35,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Test one bounded principal-changing source-action candidate or construct the
-  physical tangent/BV packet with a full Layer-0 fingerprint reset. Keep
-  higher fixed-owner nonlinear orders as fallback work.
+  Construct the induced physical fermion/BV operator on the full carrier and
+  require action ownership, half asymmetry, exact five-way discrimination and
+  out-of-sample consequences. Do not rerun Hq compatibility or apply the
+  bosonic projector directly to fermion subspaces. Keep principal-changing
+  I2B and higher fixed-owner nonlinear work as disjoint fallbacks.
 what_needs_joe: none

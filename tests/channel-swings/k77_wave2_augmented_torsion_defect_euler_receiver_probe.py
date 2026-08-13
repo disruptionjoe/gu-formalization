@@ -95,7 +95,7 @@ check(
 check(
     "source",
     "TOE says GU uses gauge-rotated Levi-Civita in the contorsion slot",
-    "gauge rotated Levy-Chevita connection" in toe
+    "gauge rotated Levi-Civita connection" in toe
     and "what would be the contortion" in toe,
 )
 check(

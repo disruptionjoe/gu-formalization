@@ -379,7 +379,7 @@ def source_and_ledger_checks(all_left_states: dict[str, tuple[F, F, F]]) -> None
     )
 
     check("source", "Eric explicitly says GU is fundamentally nonchiral",
-          "I don't think the world is chiral" in toe and "GU is not Cairo" in toe)
+          "I don't think the world is chiral" in toe and "GU is not chiral" in toe)
     check("source", "Eric describes curvature/VEV-dependent Dirac-to-Weyl decoupling",
           "Dirac type operator decouples into Weyl type operators" in toe)
     check("source", "Eric locates spinors in the chimeric rolled fermion sector",

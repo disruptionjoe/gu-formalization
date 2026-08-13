@@ -184,7 +184,7 @@ def main() -> None:
     pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
     toe = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
     source_check("source owns epsilon-varpi and B/T grammar", all(token in pack for token in ("B_\\omega", "T_\\omega", "\\frac12", "\\frac13")))
-    source_check("source owns gauge-rotated Levi-Civita", "[02:19:17]" in toe and "gauge rotated Levy-Chevita" in toe)
+    source_check("source owns gauge-rotated Levi-Civita", "[02:19:17]" in toe and "gauge rotated Levi-Civita" in toe)
     source_check("source owns double-coset continuation", "[02:20:33]" in toe and "double co-set" in toe)
     source_check("source remains silent on c3:c11", any("c3:c11" in item for item in data["source_disposition"]["SOURCE_SILENT"]))
 

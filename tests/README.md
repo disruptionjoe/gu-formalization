@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_trace_hq_connection_compatibility_probe.py`
+  classifies all `2^14` Clifford monomials under the trace-`H_q` adjoint,
+  proves the exact `8,192+8,192` block/full-parent split, and constructs the
+  moving compatibility affine torsor with both parent types. Run with pinned
+  SymPy `1.14.0`; it passes `51/51` with three firing plants.
+
 - `channel-swings/selected_k77_i2b_principal_preserving_moving_coefficient_absorption_probe.py`
   composes the pushed exact rank receipts with the known moving coefficient
   packets, proves the constrained rank-difference criterion on an exact

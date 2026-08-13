@@ -7,6 +7,15 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 trace-Hq full-connection compatibility (2026-08-13)
+
+`conditional-build/selected-k77-trace-hq-connection-compatibility-2026-08-13.md`
+classifies all `16,384` Clifford directions and proves that exactly one real
+or `i` phase lies in `u(H_q)` for each. The even half is precisely the two-
+block algebra and the odd half extends it to full `u(64,64)`. Moving-Hq
+compatibility admits both, so it is not the missing action-parent or physical-
+carrier selector.
+
 ## K77 I2B principal-preserving moving-coefficient absorption (2026-08-13)
 
 `conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md`

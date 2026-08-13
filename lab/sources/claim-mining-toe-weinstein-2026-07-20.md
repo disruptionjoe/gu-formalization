@@ -200,7 +200,7 @@ see rows 9, 14, 18. N6 remains Joe-gated; nothing was run.
 - [02:19:17] "one proportion combination is the torsion, one proportion
   combination is the contortion. They're equivalent. Neither one of those
   works. And so ... you know you're in geometric unity when you use the
-  gauge rotated Levy-Chevita connection in what would be the contortion
+  gauge rotated Levi-Civita connection in what would be the contortion
   instead of the torsion tensor. Because that thing has incredible
   invariance properties and equivariance properties under the gauge group"
 - [02:19:49] "acting on the inhomogeneous gauge group."
@@ -213,7 +213,7 @@ see rows 9, 14, 18. N6 remains Joe-gated; nothing was run.
   dark-energy/cosmological term [02:22:20]-[02:23:28] is built from the
   gauge-rotated object ("VAR pi, an add-valued one-form, minus the epsilon
   gauge transformation inverted, counter-rotating the exterior derivative
-  ... the sort of the Moirer-Cartan form. That thing is what solves the
+  ... the sort of the Maurer-Cartan form. That thing is what solves the
   cosmological constant problem").
 
 ### 2.2 Typing
@@ -322,7 +322,7 @@ rhetoric, recorded for the ledger only. Provenance: [P]/[M]/[R] as above.
 | 1 | [00:03:06] | "it starts basically from four degrees of freedom and a tiny amount of sectoral information ... That's really the only starting point" | [P] | S2 | Reconstruction import ledgers: chirality split = import (dk-fork); DE amplitude = import (de-amplitude-audit); shiab selector open; source action missing (B.1-B.5) | The minimal-input story is contradicted in four documented places; each import is a named debit, not a refutation of the starting point itself |
 | 2 | [00:11:27] | "The quantum is happening on a 14 manifold, and the classical is happening on a four manifold" | [P] | S3 | No repo object adjudicates the quantum/classical split; Y14 construction itself is reconstruction-grade | Framing only; no confrontation possible |
 | 3 | [00:28:49] | "there are precisely four metrics you can define ... two of them are consistent with experiment and two of them are ruled out ... The trace reversed ones remain in the game" | [P] | S2 | No repo receipt derives the 4-metric enumeration on the fiber; the fiber-metric issue appears at [00:26:28] ("a 3,7 metric on the fiber, which can't work") | Candidate bounded check: enumerate the invariant metrics on the verified rep's fiber; cheap and typed |
-| 4 | [00:25:04] | "the input is a one and a three ... And that begets you the 14. ... In each one of those [1,7; 1,11 towers] there's a petit salam analog" | [P] | S2 | Repo works (9,5)/Cl(9,5) only; no tower receipts | Watch; the tower claim is unconfronted |
+| 4 | [00:25:04] | "the input is a one and a three ... And that begets you the 14. ... In each one of those [1,7; 1,11 towers] there's a Pati-Salam analog" | [P] | S2 | Repo works (9,5)/Cl(9,5) only; no tower receipts | Watch; the tower claim is unconfronted |
 | 5 | [00:41:24]+[00:52:46] | "the equations occurred around 1987 at Harvard as a flake of GU ... The equations, yes, the theory, no ... They came from Einstein, not Yang-Nelson [Yang-Mills]" | [P] | S3 | canon/source-action-seiberg-witten-{RESULTS,construction}.md: the repo independently found the SW system the nearest standard-field scaffold for the missing source action | Priority/history claim is out of scope; the STRUCTURAL kinship is independently supported in-repo — a rare convergence worth one ledger line |
 | 6 | [01:10:37]-[01:13:43] | the six-safety sieve; "the theory that we all agree [the standard model] goes through that sieve" | [P] | S3 | RESEARCH-POSTURE: repo tests GU against its own stated content, not against a sieve | Method rhetoric; no row action |
 | 7 | [01:36:08] | "You know you're in GU when the Higgs field comes out of an add-valued 1-form" | [P] | S1 | Intake row: shiab non-uniqueness (selector open), source action missing (B.1-B.5), scale ratio-only; UNRESOLVED, spec'd | "No ad-hoc Higgs" remains an unbuilt-sector claim; unchanged |
@@ -342,7 +342,7 @@ rhetoric, recorded for the ledger only. Provenance: [P]/[M]/[R] as above.
 | 21 | [02:50:38]-[02:51:50] | "As we go to the higher and higher groups in GU ... those dimensions of the spaces won't change. You will see something that looks like dark matter coming out of its non-luminous phase ... at higher [curvature] regimes" | [P] | S2 | Lane 2: 3 of 3 native prediction routes no-go; no repo route derives a dark-sector coupling curve | Untestable as spoken (no scale); ledger row only |
 | 22 | [02:52:38]-[02:53:14] | "GU makes the prediction that there will be spin three halves matter coupled to a 16 dimensional vector space that looks awfully familiar, but that the parity is sort of reversed and flipped" | [P] | S1 | Carrier-bit campaign: ungauged spin-3/2 MATTER is carrier B's shape; the bit rides SG4 and is provably undecidable by symbol arithmetic | A third independent author-statement matching carrier B (after the two UCSD passages); still evidence, NOT a verdict — SG4 discipline unchanged |
 | 23 | [02:53:14]-[02:54:14] | "an additional collection of spin one half fermions that are coupled to ... 144 complex dimensional vector space that nobody's ever seen ... will combine with a third generation ... Do you have a mass? Right? I don't really know" | [P] | S2 | No 144-dim rep appears anywhere in the repo's Cl(9,5) decompositions; no mass scale given ("I don't really know") | Unconfrontable numerology until a primary derives the 144; watch row; note his own mass-scale concession kills near-term testability |
-| 24 | [02:53:14] | "there will be a grand unification at a petit salam level ... the electron and the electron neutrino become the fourth color of the quarks for the SU4 that contains the SU3, which is really spin six" | [P] | S2 | Repo has no Pati-Salam-embedding receipt; spin(6)=SU(4) is standard | Standard-GUT content restated in GU vocabulary; nothing to confront |
+| 24 | [02:53:14] | "there will be a grand unification at a Pati-Salam level ... the electron and the electron neutrino become the fourth color of the quarks for the SU4 that contains the SU3, which is really spin six" | [P] | S2 | Repo has no Pati-Salam-embedding receipt; spin(6)=SU(4) is standard | Standard-GUT content restated in GU vocabulary; nothing to confront |
 | 25 | [02:44:06]-[02:45:43] | the unreleased cyclic two-connection complex (Section 3 verbatim) | [P] unreleased | S2 | No comparison object exists; repo bicomplex line is the standing comparator | WATCH ROW (Section 3); cannot thaw N6; revisit only on release |
 
 ---
@@ -461,15 +461,15 @@ file says so explicitly (Section 1.5).
   [02:24:25]-[02:27:42]) is credit/institutions narrative, not claims —
   excluded from the table by design.
 - **Auto-transcript hazards (suspect-term ledger):** "spinner" = spinor;
-  "Levyia Vida / Levitia Vida / Levy-Chevita / Levy-Civita" = Levi-Civita;
+  "Levyia Vida / Levitia Vida / Levi-Civita / Levy-Civita" = Levi-Civita;
   "contortion" = contorsion; "add value(d)" = ad-valued; "DORAM / DRAM /
   DURAM" = de Rham; "Cyberg-Witten / cyber Whitten" = Seiberg-Witten;
-  "Patissalam / petit salam" = Pati-Salam; "Cairo" = chiral; "vile
+  "Patissalam / Pati-Salam" = Pati-Salam; "chiral" = chiral; "vile
   spinners" = Weyl spinors; "columnologies" = cohomologies; "Dirac,
   Rurida, we are" = Dirac-Rarita-Schwinger; "Salam Strati / Strathi" =
   Salam-Strathdee; "Robbie" = Rabi; "Wojt" = Woit; "Yang-Nelson /
   Yang-Milzean" = Yang-Mills(-ian); "oil of Lagrange" = Euler-Lagrange;
-  "Bohm-Aronoff" = Aharonov-Bohm; "Moirer-Cartan" = Maurer-Cartan;
+  "Bohm-Aronoff" = Aharonov-Bohm; "Maurer-Cartan" = Maurer-Cartan;
   "modulized space" = moduli space; "GLV" = GL(4)/GL(n) (context);
   "Gia / GIA" = GU. The [02:44:36] operator-matrix entries are garbled
   beyond reliable reconstruction and are quoted as-is with that flag.

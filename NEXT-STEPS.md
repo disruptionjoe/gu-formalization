@@ -7,6 +7,21 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 TRACE-HQ COMPATIBILITY ADMITS BOTH FULL AND TWO-HALF
+> PARENTS (ledger migration deferred to a separately authorized Compose
+> step).** All `16,384` real-Clifford endomorphism directions admit exactly
+> one `H_q`-unitary phase: `8,256` are real and `8,128` require `i`. The
+> `8,192` even directions exactly form `u(32,32)+u(32,32)`; the `8,192` odd
+> directions exchange the halves and extend it to full `u(64,64)`. The moving
+> equation `D_varpi H_q=0` is an affine torsor with both block and full-parent
+> solutions. **Retain compatibility, but stop using it as an action-parent,
+> luminous-half, mirror or physical-carrier selector. Next construct an
+> action-owned physical fermion/BV operator and test W, mirror, random 192s,
+> H640 and 832 without a fitted projector.** Source owns full `U(64,64)` and
+> Curt exposes two `C^(32,32)` carrier halves; it does not declare two
+> independent half connections or select the physical half. No verdict,
+> canon, accounting, datum or public-posture move.
+
 > **2026-08-13 K77 I2B PRINCIPAL-PRESERVING MOVING-COEFFICIENT TORSION
 > UNIVERSALLY ABSORBS THROUGH QUARTIC (ledger no-change).** The exact
 > constrained rank differences are `910-770=140` and `2184-1904=280`, equal

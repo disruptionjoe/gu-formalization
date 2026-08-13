@@ -290,7 +290,7 @@ def main() -> None:
     source_pack = SOURCE_PACK.read_text()
     toe = TOE.read_text()
     source_receipt("source owns epsilon-varpi action coordinates", all(token in source_pack for token in ("B_\\omega", "T_\\omega", "epsilon", "varpi")))
-    source_receipt("source owns gauge-rotated LC statement", "[02:19:17]" in toe and "gauge rotated Levy-Chevita" in toe)
+    source_receipt("source owns gauge-rotated LC statement", "[02:19:17]" in toe and "gauge rotated Levi-Civita" in toe)
     source_receipt("source owns double-coset continuation", "[02:20:33]" in toe and "double co-set" in toe)
     source = data["source_disposition"]
     type_level("source collision and derivation buckets complete", all(source[key] for key in ("SOURCE_CONFIRMS", "SOURCE_CORRECTS", "SOURCE_SILENT", "REPOSITORY_DERIVED")))

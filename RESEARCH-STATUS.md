@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-13 (ledger migration
+deferred; headline unchanged).** Exact all-grade classification shows that
+every one of the `16,384` real-Clifford endomorphism directions has exactly one
+phase—real or `i`—that is unitary for the trace-owned `H_q`. The `8,192` even
+directions saturate `u(32,32)+u(32,32)` and the `8,192` odd directions extend
+that block algebra to full `u(64,64)`. The moving compatibility equation is a
+nonempty affine torsor admitting both parents. It therefore cannot select an
+action parent, luminous half, mirror quotient or physical carrier. The next
+gate is an action-owned physical fermion/BV/domain operator with exact
+W/mirror/random-192/H640/832 controls. No verdict, residue, quotient, canon,
+datum or public-posture move.
+
 **Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
 headline unchanged).** The already-certified constrained absorber is onto the
 entire cubic and quartic compatibility target: rank differences `140/140` and

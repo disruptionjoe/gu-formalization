@@ -44,13 +44,13 @@ def main() -> int:
     portal_path = ROOT / "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md"
 
     paths = {
-        pack_path: "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f",
+        pack_path: "e8e195ede8e34f33d9e8a74daf9bea867bdb649fe1e9efddd8c896383f94708d",
         rendered_path: "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4",
         o_report_path: "e0af5b3d128945b426d0856f3d134e1a987f9cd27b4fcec817d1eefb9b0219eb",
         p_report_path: "0942abe2fe3154902c0631180427cc3828e8ff62f5cc715237de5391c44877a1",
         o_registry_path: "44f2d7766e886577f972b34b89fb8255ae8e51a72535a8916657a2e6de5017f0",
         p_registry_path: "a2c1e536f0039e6f5eac2ef6ca5a74b34c3bfdae8e4831b40d10784102ee1b9a",
-        toe_path: "f4dfda897a181369103cde913b49b1bb57a61c455092ad5eeac0664eb0da9d24",
+        toe_path: "056d188eb46b1756cb211b0e1758f9be12334391f892ee51250008f2c5f88bea",
         portal_path: "bd9f53ab7dc631fb01265c7a89893a773592e6a1215211b21a5833cc5cd4165d",
     }
     check(
@@ -69,7 +69,7 @@ def main() -> int:
     check("source", "the author-draft custody records omega=(epsilon,varpi) and T_omega=varpi-epsilon^-1 d0 epsilon", "T_\\omega=\\varpi-\\epsilon^{-1}d_0\\epsilon" in pack)
     check("source", "the rendered draft identifies varpi as a connection difference from nabla^g", "varpi=nabla^varpi-nabla^g" in rendered)
     check("source", "the rendered draft identifies T as the difference from the gauge-rotated Levi-Civita connection", "T_omega=nabla^varpi-nabla^{g*epsilon}" in rendered)
-    check("source", "the modern TOE interview explicitly puts gauge-rotated Levi-Civita in the contorsion slot", "02:19:17" in toe and "gauge rotated Levy-Chevita connection" in toe)
+    check("source", "the modern TOE interview explicitly puts gauge-rotated Levi-Civita in the contorsion slot", "02:19:17" in toe and "gauge rotated Levi-Civita connection" in toe)
     check("source", "Portal states the Zorro chain connection-on-X to metric-on-Y to LC/spin connection", "02:23:30" in portal and "02:23:52" in portal and r"metric on \(Y\)" in portal)
     check("source", "the source action retains the one-half and one-third transgression coefficients", "\\frac12d_{B_\\omega}T_\\omega" in pack and "\\frac13[T_\\omega,T_\\omega]" in pack)
     check(
