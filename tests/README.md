@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_first_nonlinear_torsion_absorption_probe.py`
+  expands the exact endpoint Euler equation on the sixteen-support compatible
+  stationary jet. It proves cubic torsion support `0/140`, quartic support
+  `3/280`, and kernel-restricted absorber ranks `140/140` and `280/280` at two
+  primes. Run with SageMath 10.9; it passes `50/50`.
+
 - `channel-swings/selected_k77_i2b_cartan_symbol_involutivity_probe.py`
   computes the complete regular flag and Cartan characters
   `(784,588,378,14)`, proves `dim g_3=3150` equals Cartan's bound, matches the

@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B first nonlinear torsion absorption (2026-08-13)
+
+`conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md`
+computes the cubic and first live quartic compatibility classes on the exact
+compatible stationary two-jet. The cubic representative is zero; the quartic
+representative has support `3/280` but zero class because admissible fourth
+jets cover all `280/280` targets. The cubic absorber independently has rank
+`140/140`. Moving action coefficients, physical BV and analytic/global
+existence remain open.
+
 ## K77 I2B fixed-grade Cartan-symbol involutivity (2026-08-13)
 
 `conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md`

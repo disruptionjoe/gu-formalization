@@ -9,6 +9,18 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
+headline unchanged).** On the exact compatible stationary two-jet, the
+fixed-natural endpoint cubic torsion vanishes. The first live quartic
+compatibility representative has support `3/280`, but its class vanishes:
+fourth jets already in the second prolonged symbol kernel induce rank
+`280/280`. The cubic absorber likewise has rank `140/140`. Thus no formal
+obstruction survives through the tested quartic bidegree on this stratum.
+Moving `Q_B/H_q`/Shiab/metric/section/observation coefficients, the physical
+tangent/BV graph, higher nonlinear orders, analytic/global existence and the
+separate `E_act/Q_u` rival remain open. No physics verdict, residue, quotient,
+canon or public posture moves.
+
+**Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
 headline unchanged).** The source-natural fixed-grade I2B endpoint principal
 tableau is Cartan-involutive. A regular flag has characters
 `(784,588,378,14)`; `dim g_3=3150` exactly equals Cartan's bound, and the

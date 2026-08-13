@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-first-nonlinear-torsion-source-return-2026-08-13.md`](selected-k77-i2b-first-nonlinear-torsion-source-return-2026-08-13.md)
+  - confirms the `SC-ACT-04` endpoint residual-square and connection grammar;
+    attributes the cubic zero, live quartic representative and exact absorber
+    ranks to the repository; and returns source-silent on moving-action
+    torsion, physical BV and analytic/global closure.
+
 - [`selected-k77-i2b-cartan-symbol-involutivity-source-return-2026-08-13.md`](selected-k77-i2b-cartan-symbol-involutivity-source-return-2026-08-13.md)
   - confirms `SC-ACT-04` endpoint residual-square and connection grammar;
     attributes the regular flag, Cartan characters and coframe test to the

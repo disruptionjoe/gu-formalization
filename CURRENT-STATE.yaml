@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: agent/operator-anomaly-big-swing
-revision_basis: 49f5ee0ad7aed62b871330ffcfa0956764474f0a
+revision_basis: e50991d589e01ae2a879064690e73cbabd32393d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,20 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The source-faithful fixed-natural K77 I2B endpoint principal tableau is
-    Cartan-involutive at the tested local grade. Its regular-flag characters
-    are (784,588,378,14), its first-prolongation dimension meets Cartan's
-    bound exactly at 3150, and a nontrivial coframe preserves the result.
-    Nonlinear moving-coefficient torsion, the physical tangent/BV graph and
-    the repository-composed E_act/Q_u rival remain separate and open.
+    On the exact compatible stationary jet, the fixed-natural K77 I2B endpoint
+    cubic torsion vanishes and the first live quartic representative has
+    support 3/280 but zero class modulo admissible fourth jets. The induced
+    third- and fourth-jet absorber ranks are 140/140 and 280/280. Moving action
+    coefficients, the physical tangent/BV graph and the separate E_act/Q_u
+    rival remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
-    - explorations/conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md
     - lab/process/conditional-physics-ledger-v0.237.json
 current_question: >-
-  Does the first nonlinear moving-coefficient compatibility torsion vanish or
-  absorb on the nonempty stationary affine jet fibre, and what independent
-  physical tangent/BV graph governs admissible variations?
+  Does the first action-owned moving Q_B/H_q/Shiab/metric/section/observation
+  coefficient packet preserve formal absorption or introduce genuine torsion,
+  and what independent physical tangent/BV graph governs variations?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -31,7 +31,7 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compute the first nonlinear moving-coefficient torsion on the existing
-  stationary affine jet, while independently constructing the physical
-  tangent/BV graph before promoting nonlinear, analytic or global claims.
+  Assemble the first moving-coefficient torsion packet on the compatible
+  stationary jet, while independently constructing the physical tangent/BV
+  graph before promoting nonlinear, analytic or global claims.
 what_needs_joe: none

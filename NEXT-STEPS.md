@@ -7,6 +7,20 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B FIRST NONLINEAR TORSION CLASSES ABSORB (ledger
+> no-change).** On the exact sixteen-support compatible stationary two-jet,
+> the cubic endpoint compatibility representative is zero. The first live
+> quartic representative occupies `3/280` cells, but the fourth-jet absorber
+> restricted to the second prolonged symbol kernel has rank `280/280`; its
+> class is zero. The cubic analogue independently has induced rank `140/140`.
+> Both ranks reproduce at two primes. **Stop treating a nonzero representative
+> as an obstruction before the prolonged-symbol quotient, and move the primary
+> Lane-1 gate to the action-owned moving `Q_B/H_q`/Shiab/metric/Levi-Civita/
+> section/observation coefficient packet. Keep physical tangent/BV separate.**
+> Higher fixed-natural nonlinear orders remain a fallback. This is not full
+> nonlinear formal integrability, analytic/global existence or BV/BFV. No
+> verdict, accounting, datum, canon or public-posture move.
+
 > **2026-08-13 K77 I2B FIXED-GRADE CARTAN SYMBOL INVOLUTIVE (ledger
 > no-change).** The complete source-natural endpoint principal tableau has a
 > regular flag with characters `(784,588,378,14)`. Its first prolongation has
