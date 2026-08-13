@@ -287,6 +287,25 @@ delegating to subagents inline `lab/process/subagent-brief.md` verbatim;
 subagent artifacts echo `brief_version:`. Rationale and council record:
 `explorations/source-claim-register-and-adherence-ledger-2026-08-11.md`.
 
+Trunk rule (ratified 2026-08-13, Joe direct chat). **`main` is this
+repository's trunk. Scheduled progress and stewardship runs commit and push
+to `main`.** Do not move the canonical checkout onto a long-lived
+`agent/*` branch. Short-lived branches are for genuinely destructive
+sweeps only and merge back the same day or are deleted.
+
+Rationale, so this is not undone by someone reasoning from first
+principles: the push rule above ("commit and push the current branch by
+default") fires correctly every run, but nothing named which branch to be
+on and nothing owned merging forward. Between 2026-08-06 and 2026-08-13
+that left 343 commits of research on `agent/operator-anomaly-big-swing`
+while `main`, the branch every citation and every reader resolves to, took
+one. The identical automation published correctly in `system-runtime`,
+whose checkout stands on `main`. Same rule, opposite outcomes, decided
+only by where the checkout was standing. Readiness is already encoded in
+content here (claim grades, exploration vs canon, corrections logged
+inline), so a branch was never doing that job and only deferred
+visibility.
+
 Verdict doctrine (ratified 2026-08-12; BOUND-FORM AMENDMENT 2026-08-13,
 Joe direct chat): a critique aimed at an unclaimed target FAILS as a
 critique regardless of internal validity; verdicts use the two-component
