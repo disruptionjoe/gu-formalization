@@ -9,7 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
-> **Current v0.230 independent-tangent queue correction:** the source's
+> **Current v0.231 source-natural primalizer classification:** on the live
+> traceless Clifford-grade-one residual, both source-supported fixed-parent
+> readings leave one natural pairing scale. The full `U(64,64)` center-product
+> term vanishes there, while the distinct two-`C^(32,32)`-half odd
+> bifundamental has one invariant Hermitian line. A nonzero scale cannot alter
+> an Euler zero set. Do not search another fixed pairing or independently
+> weight the two halves. Construct the smallest source-derived constraint/full
+> BV--Koszul--Tate tangent and test it against the fourteen-cell source-natural
+> and twelve-cell conditional-`Q_u` obstructions. A moving or field-dependent
+> action-owned reduction remains a separate rival. No accounting moves.
+
+> **Predecessor v0.230 independent-tangent queue correction:** the source's
 > arbitrary `varpi` variation is independent at fixed `epsilon` and geometry.
 > The exact cotangent block theorem preserves the twelve-cell `T` Euler
 > component under every geometry-only response, so the two selected

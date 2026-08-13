@@ -2,10 +2,16 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-12"
+updated_at: "2026-08-13"
 ---
 
 # Source and Media Index
+
+- [`selected-k77-i2b-source-natural-primalizer-classification-source-return-2026-08-13.md`](selected-k77-i2b-source-natural-primalizer-classification-source-return-2026-08-13.md)
+  confirms the bosonic norm-square grammar, two `C^(32,32)` halves and full
+  `U(64,64)` arena; records source silence on the exact real-K77 `Q_B`, moving
+  reduction and BV--KT tangent; and attributes the unique-up-to-scale fixed
+  grade-one pairing classification to the repository.
 
 - [`selected-k77-i2b-contact-euler-hodge-adapter-source-return-2026-08-12.md`](selected-k77-i2b-contact-euler-hodge-adapter-source-return-2026-08-12.md)
   confirms the residual-square/adjoint and two-connection augmented-torsion

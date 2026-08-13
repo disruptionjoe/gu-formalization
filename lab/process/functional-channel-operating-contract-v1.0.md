@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.230.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.230.md`.
+`lab/process/conditional-physics-ledger-v0.231.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.231.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -62,7 +62,19 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
-The v0.230 independent-tangent theorem closes the mistyped moving-geometry
+The v0.231 source-natural primalizer classification closes fixed-pairing
+freedom as a repair on the live traceless Clifford-grade-one branch. Under
+either the full `U(64,64)` parent or the distinct two-`C^(32,32)`-half block
+reading, the relevant fixed natural pairing is unique up to one nonzero
+scale; that scale cannot change an Euler zero set. Build must not search more
+fixed pairings or assign independent weights to the two halves. Its rank-one
+successor is the smallest source-derived constraint/full BV--Koszul--Tate
+tangent, tested against both the fourteen-cell source-natural obstruction and
+the twelve-cell conditional-`Q_u` shapes. An action-owned moving or
+field-dependent reduction remains a separate rival, not a result already in
+the source.
+
+The predecessor v0.230 independent-tangent theorem closes the mistyped moving-geometry
 repair. Since `varpi` varies independently at fixed `epsilon` and geometry,
 the `varpi` Euler block remains exactly the nonzero `T` partial under any
 reference/metric/section/Hodge/Shiab/trace-frame/observer response. The two

@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B source-natural primalizer classification (2026-08-13)
+
+`conditional-build/selected-k77-i2b-source-natural-primalizer-classification-2026-08-13.md`
+classifies every fixed gauge-natural symmetric pairing on the live traceless
+Clifford-grade-one residual. Both the full `U(64,64)` parent and the distinct
+two-`C^(32,32)`-half block reading leave one nonzero scale, which cannot alter
+the Euler zero set. Ledger v0.231 closes fixed-pairing freedom as a repair and
+sends the rank-one successor to a source-derived constraint/full BV--KT
+tangent; moving or field-dependent action ownership remains a rival.
+
 ## K77 I2B independent-tangent queue correction (2026-08-13)
 
 `conditional-build/selected-k77-i2b-independent-tangent-queue-correction-2026-08-13.md`

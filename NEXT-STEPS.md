@@ -7,8 +7,22 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
-> **2026-08-13 K77 I2B INDEPENDENT-TANGENT QUEUE CORRECTION (ledger
-> v0.230).** The source varies `varpi` independently at fixed `epsilon` and
+> **2026-08-13 K77 I2B SOURCE-NATURAL PRIMALIZER CLASSIFICATION (ledger
+> v0.231).** On the live traceless Clifford-grade-one residual, both
+> source-supported fixed-parent readings leave exactly one natural pairing
+> scale: the full `U(64,64)` center-product term vanishes, and the distinct
+> two-`C^(32,32)`-half odd bifundamental has one invariant Hermitian line.
+> Nonzero scaling cannot alter the Euler zero set, so fixed `Q_B` freedom
+> cannot remove either the fourteen-cell source-natural obstruction or the
+> twelve-cell conditional-`Q_u` shapes. **Do not search another fixed pairing
+> or weight the two halves independently. Construct the smallest
+> source-derived constraint/full BV--Koszul--Tate tangent and test its image
+> against both obstruction families.** Retain an action-owned moving or
+> field-dependent reduction as a separate rival. No accounting, datum, canon
+> or public-posture move.
+
+> **Predecessor v0.230 — K77 I2B INDEPENDENT-TANGENT QUEUE CORRECTION.**
+> The source varies `varpi` independently at fixed `epsilon` and
 > geometry. The exact cotangent block theorem therefore preserves the nonzero
 > twelve-cell `T` Euler component under every reference/metric/section/Hodge/
 > Shiab/trace-frame/observer response. The two selected conditional `Q_u`
