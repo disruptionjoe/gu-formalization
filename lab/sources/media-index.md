@@ -97,7 +97,20 @@ These entries are worth adding once direct links, dates, and transcripts are ver
 
 | source_id | date | episode | guest | local transcript | related intake | status |
 | --- | --- | --- | --- | --- | --- | --- |
-| `GU-POD-TOE-WEINSTEIN-40YRS` | (episode date TBD) | Theories of Everything, "Geometric Unity: 40 Years in the Making" / "Unifying All Forces + Generations" | Eric Weinstein | `lab/sources/transcripts/toe-weinstein-gu-40-years.md` (~29.9k words) | `explorations/intake-weinstein-toe-gu-claims-2026-07-20.md` (claim-confrontation table = the deliverable) | `transcript-available` |
+| `GU-POD-TOE-WEINSTEIN-40YRS` | 2025-06-02/03 | Theories of Everything, "Geometric Unity: 40 Years in the Making" / "Unifying All Forces + Generations" / "The Theory He Kept Secret for Four Decades" | Eric Weinstein | `lab/sources/transcripts/toe-weinstein-gu-40-years.md` (~29.9k words) | `explorations/intake-weinstein-toe-gu-claims-2026-07-20.md` (claim-confrontation table = the deliverable) | `transcript-available`; **public URLs resolved 2026-08-13** |
+
+**`GU-POD-TOE-WEINSTEIN-40YRS` public links** (resolved 2026-08-13; this is the source
+of the `toe-2025` loci in `lab/sources/source-claim-register.yaml`, including the
+`SC-CHI-50/51/52/53` chirality cluster at 02:36:02 onward). Runtime 3h10m.
+
+- YouTube (**use this for timestamp citation**, register loci resolve directly):
+  https://www.youtube.com/watch?v=ILlhFKuu3NQ
+- Spotify: https://open.spotify.com/episode/0QtwbYwalY1dXUfDJNG7dn
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/geometric-unity-40-years-in-the-making-eric-weinstein/id1521758802?i=1000711063303
+
+Note the episode is published under three different titles across platforms; all three
+resolve to the same 2025-06 conversation. Cite the YouTube URL plus the register
+timestamp, not a platform title.
 
 ## Program-Adjacent Method Sources (not GU-discussion media)
 
