@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (Objective 2 -- turns the W98 BREAK of the sectorial closure into a clean STRUCTURAL THEOREM with an explicit falsification boundary; 5-persona inline team; reconstruction/strong-argument grade, symmetric with W98/W94)
+status: exploration (Objective 2 -- turns the W98 BREAK of the sectorial closure into a clean STRUCTURAL THEOREM with an explicit falsification boundary; 5-perspective inline team; reconstruction/strong-argument grade, symmetric with W98/W94)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path) -- the sectorial closure, having BROKEN under interaction (W98), is restated as an IFF-form NO-GO with the boundary condition X made explicit
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -74,9 +74,9 @@ independent of `m_gap`. Hence the UV limit of `r_k = g(k)/(g(k) + Dw(k)/2)` is f
 
 ---
 
-## 2. Five-persona team (inline, sequential, single context)
+## 2. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- AQFT / modular specialist (state the three legs)
+### Perspective 1 -- AQFT / modular specialist (state the three legs)
 
 The observer-relativity net is `N = P1 ^ P2 ^ P3`. On a type-III_1 region (C), a **finite region already
 contains all UV modes**, so `sup_{k in region} cond = sup_{k, global} cond`. Therefore, for **every**
@@ -92,7 +92,7 @@ Leg (1), the **net biconditional**, is then a pure metric-conditioning fact from
 `P1 ^ P2` (a coherent net of bounded regional `J`'s) exists **iff** `g` is UV-soft (`O(1/k)` for
 boundedness; `o(1/k) = X` for clean `cond->1`).
 
-### Persona 2 -- MATH REFEREE (is the IFF real, and honestly graded?)
+### Perspective 2 -- MATH REFEREE (is the IFF real, and honestly graded?)
 
 - **Ruling 1 -- the biconditional is genuine, both directions.** `(<=)` UV-soft `g` gives `r_k` bounded
   away from 1 (or `->0`), so `sup cond < inf` -- bounded regional `J`; mode-diagonality then coheres them
@@ -108,7 +108,7 @@ boundedness; `o(1/k) = X` for clean `cond->1`).
   readings, not proved continuum theorems. `P2`'s continuum status is a model surrogate (interacting
   double-cone modular conjugation is unsolved). The theorem is not dressed above its evidence.
 
-### Persona 3 -- ADVERSARY (attack the IFF; try to keep `N` alive)
+### Perspective 3 -- ADVERSARY (attack the IFF; try to keep `N` alive)
 
 - **Attack: "UV-soft `X` grants `P1` -- so take `X` and keep `P3` too, giving `N`."** **Rebuttal:** on a
   type-III_1 region the same soft coupling that bounds `sup_region` bounds `sup_global` (they are equal),
@@ -124,7 +124,7 @@ boundedness; `o(1/k) = X` for clean `cond->1`).
   couples through **derivative** vertices -- `g(k)` does **not** decay. This is the **one** honest
   survival window and it is the **falsification boundary** `X`, stated plainly, not hidden. `W100` T8.
 
-### Persona 4 -- CROSS-CHECKER (second derivation; literature)
+### Perspective 4 -- CROSS-CHECKER (second derivation; literature)
 
 **D2 (AQFT structure, independent of the mode computation).** (1) A finite region is type III_1 /
 infinite rank (Connes-Haagerup; Buchholz-D'Antoni-Fredenhagen) -> `sup_region = sup_global` and the
@@ -136,7 +136,7 @@ survives, the conjugation half does not (Gottschalk). **D1 (mode conditioning) a
 AGREE**: `N` requires an `eta`-positive square root that a genuine region under non-soft interaction
 denies; the whole result pivots on the coupling exponent `X`.
 
-### Persona 5 -- SYNTHESIZER
+### Perspective 5 -- SYNTHESIZER
 
 See Sections 3-4.
 

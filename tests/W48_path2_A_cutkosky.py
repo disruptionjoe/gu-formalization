@@ -43,7 +43,7 @@ WHAT THE ONE-LOOP CUT SHOWS (the branch's honest finding, asserted below):
      2 Im M = sum_phys |M|^2 hold ON THE PHYSICAL SUBSPACE AT ONE LOOP. That prescription is the
      LOAD-BEARING ASSUMPTION -- Krein grading alone does not do it -- and it costs micro-causality.
 
-  Reduction sanity check (persona 4): the Pais-Uhlenbeck / PT quantum mechanics optical theorem
+  Reduction sanity check (perspective 4): the Pais-Uhlenbeck / PT quantum mechanics optical theorem
   (Bender-Mannheim) is 0+1 dimensional: NO continuum threshold, so the ghost cut never opens and
   positivity is automatic. The loop is exactly where the continuum cut appears and infects Im M.
   That is why tree/QM positivity does NOT imply loop positivity.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Computation B: IS the obstruction the commutator [Pi_RS, c.d*] = 343.73?
 
-World-model claim under test (persona 39, world-model / MMO game-engine):
+World-model claim under test (perspective 39, world-model / MMO game-engine):
 
     "Take Phi := P o c o d*  with  P = Pi_RS (the constraint projector).
      Then d^2 = 0  iff  [Pi_RS, c o d*] = 0,

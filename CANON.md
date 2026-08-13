@@ -102,7 +102,7 @@ outstanding. The generation-count VERDICT itself stays OPEN (see Not Yet Canon);
 **Promotion reconciled 2026-07-03 (Joe-authorized, coherent-cluster scope).** The RESULTS files in the
 table below carried `status: staged` while this spine already narrated them as canon; their file-level status is
 now flipped to `canon` (`canon_promoted_at: 2026-07-03`), and the owner-surface consistency sweep
-(`lab/process/runbooks/claim-status-consistency-quality-workflow.md`) was run across `RESEARCH-STATUS.md`,
+(`lab/methods/claim-status-consistency.md`) was run across `RESEARCH-STATUS.md`,
 this file, the `canon/` RESULTS, `DERIVATION-PROGRESS.md`, `NEXT-STEPS.md`, and the paper. Two 2026-07-03
 entries are added: STEP-2 RS boundary eta (2-primary on the actual `RP^3` boundary) and the function-space
 residual closure (items (1)-(3) discharged on faithful models). Grade discipline is preserved: canon here means
@@ -146,7 +146,7 @@ Promoted under the agent-owned Promotion Rule (`RESEARCH-STATUS.md`); JoeOps awa
 These remain exploratory until formal obligations are met:
 
 Before promoting any item from this list, run
-`lab/process/runbooks/claim-status-consistency-quality-workflow.md` and update all owner
+`lab/methods/claim-status-consistency.md` and update all owner
 surfaces that might still carry a stronger historical verdict.
 
 - Anomaly cancellation for Sp(64) — Nguyen's U(128) anomaly pincer is defused by the Sp(64) replacement, but full GU anomaly cancellation is OPEN / not canon: local 14D anomaly requires an explicit I_16/index-density computation for the actual chiral field content; global anomaly requires a spin-bordism/Dai-Freed/eta check, not only pi_15(Sp). **CORRECTION MOVE1-01 (2026-06-30, MOVE-1 chase):** the "irreducible Sp(64) gauge octic" reading of the local non-factorization is a GAUGE-READING ARTIFACT — under the genuine Clifford commutant Sp(1)=right-H, Str_S F^8 = 128 (y^2)^4 is a pure product of quadratic Casimirs with NO independent order-8 invariant (Green-Schwarz reducible; gauge octic red flag flips True->False). The TOTAL local non-factorizability SURVIVES but is reclassified as pure-gravitational/net-chirality: the reading-independent gravitational tr R^8 (A-hat(TY14) deg-16 coefficient, matches Alvarez-Gaume-Witten; K3^4->16, HP^2^2->0 index checks pass) is nonzero solely because the ASSUMED truncated content has net chirality n_+-n_- = 1-14 = -13. This is EXPLICITLY CONDITIONAL on the assumed truncated fermion content (chirally balanced -> vanishes) and is NO promotion to an anomaly-cancellation claim; the global eta/Dai-Freed/spin-bordism leg stays OPEN. tests/chase/MOVE-1/move1_octic_sp64_vs_sp1.py, tests/chase/MOVE-1/verify/indep_ahat16.py

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W181 / TEAM EXT-GAP; label W181; coherence-first, exploration grade, conditional register, honest grading; five inline personas, one worker, no sub-agents; one deterministic test 13/13 exit 0 with positive controls first; TESTS whether external source input to the source action moves the build-sprint NOT-OPERATIVE lean via a CONTINUUM-GAP / THRESHOLD-SHIFT of the graviton spectrum)"
+status: "exploration (W181 / TEAM EXT-GAP; label W181; coherence-first, exploration grade, conditional register, honest grading; five inline perspectives, one worker, no independent reviewers; one deterministic test 13/13 exit 0 with positive controls first; TESTS whether external source input to the source action moves the build-sprint NOT-OPERATIVE lean via a CONTINUUM-GAP / THRESHOLD-SHIFT of the graviton spectrum)"
 created: 2026-07-14
 label: W181
 posture: coherence-first; exploration grade; conditional register; honest grading
@@ -46,7 +46,7 @@ GAPS the effective graviton continuum, the threshold rises to `2*(gap)`, and the
 sub-threshold -> W179's OPERATIVE regime -> bar (b) clears. The decisive question is **quantitative**:
 what IR scale is honestly supplied, and does the meV-to-Planck ghost sit below `2*(that gap)`?
 
-Five personas ran inline, sequentially, one worker, no sub-agents. Deterministic test
+Five perspectives ran inline, sequentially, one worker, no independent reviewers. Deterministic test
 `tests/W181_external_input_continuum_gap.py`, **13/13, exit 0**, positive controls first.
 
 ## 1. Construction fork (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -63,7 +63,7 @@ graviton continuum the de Sitter scale `H0 ~ 1e-33 eV`, or the meV density scale
 (the dynamical IR scale of a de Sitter background), that `rho_L^{1/4}` is a density scale not a mass
 gap, and that reading it as a meV graviton mass is exactly the H36-forbidden re-import.
 
-## 2. Persona 1 -- cosmological-IR / de Sitter QFT specialist: what the external source gaps, and at what scale
+## 2. Perspective 1 -- cosmological-IR / de Sitter QFT specialist: what the external source gaps, and at what scale
 
 The external issuance (W135 dark-energy current; W146 everpresent-Lambda) manifests cosmologically as a
 de Sitter-like background with `Lambda ~ H0^2`. In a de Sitter background the graviton is IR-modified at
@@ -73,7 +73,7 @@ relation (test PC-C, reproduced to 0.18%):
 
 >  `H0 = rho_L^{1/2} / (sqrt(3 Omega_L) M_Pl) = 1.44e-33 eV.`
 
-**The crux this persona owns.** The dark-energy scale that appears in the repo as `rho_L^{1/4} = 2.24
+**The crux this perspective owns.** The dark-energy scale that appears in the repo as `rho_L^{1/4} = 2.24
 meV` is an **energy-density** scale (`rho^{1/4}`), NOT a graviton mass gap. The dynamical scale that
 gaps the graviton continuum in a de Sitter background is `H0 = (DE scale)^2 / M_Pl`: the DE scale
 **Planck-suppressed by one power of `mu_DW/M_Pl ~ 1e-30`**. So the honest external gap is
@@ -82,7 +82,7 @@ graviton mass, plasma-like screening) is additionally capped model-independently
 bound `m_g < 1.27e-23 eV` (LIGO GWTC-3): whatever gaps the graviton, observation forbids it above
 `~1e-23 eV`.
 
-## 3. Persona 2 -- threshold/decay specialist: the gapped two-graviton threshold (reuse W179)
+## 3. Perspective 2 -- threshold/decay specialist: the gapped two-graviton threshold (reuse W179)
 
 Reuse W179's machinery verbatim (`D(k1,k2) = om2(k1+k2) - om1(k1) - om1(k2)`, on-shell zero iff
 `m_ghost >= 2 m_phys`). With a gapped graviton `m_phys -> g` (the effective one-graviton gap), the
@@ -98,7 +98,7 @@ So the mechanism the brief proposes is genuine: a big-enough graviton gap does m
 sub-threshold and would clear bar (b). The entire question collapses to whether the honest gap
 `g >= m2/2`.
 
-## 4. Persona 3 -- GU-scale specialist + Persona 4 -- symbolic/numerical engineer: the decisive numbers
+## 4. Perspective 3 -- GU-scale specialist + Perspective 4 -- symbolic/numerical engineer: the decisive numbers
 
 **The ghost (W25/track2).** `m2 = sqrt(m2_eff) mu_DW`, `m2_eff in [5/6,5/4]`, so `m2 ~ mu_DW`. The most
 favourable case for OPERATIVE is the *lightest* ghost: `mu_DW` at the floor 3.4 meV, `m2_eff = 5/4`,
@@ -129,7 +129,7 @@ the ghost scale suppressed by **one power of the hierarchy** `mu_DW/M_Pl`. The g
 un-suppressed scale; the gap does not. Symbolically (test C1c):
 `g_dS/g_needed = 2 mu_DW / (sqrt(3 Omega_L m2_eff) M_Pl)`, linear in `mu_DW/M_Pl`.
 
-## 5. Persona 5 -- adversarial skeptic: does the gap gap the DECAY channel, and the H36 trap
+## 5. Perspective 5 -- adversarial skeptic: does the gap gap the DECAY channel, and the H36 trap
 
 **Steelman the escape.** The band `m2_eff in [5/6,5/4]` is all `< 4`, so IF the graviton were gapped at
 `g = mu_DW`, sub-threshold `m2 < 2 mu_DW <=> sqrt(m2_eff) < 2` HOLDS (test C1a). So there *is* a regime
@@ -203,9 +203,9 @@ OPEN.** No canon / RESEARCH-STATUS / claim-status / verdict / posture change.
 **Artifacts:** this file + `tests/W181_external_input_continuum_gap.py` (13/13, exit 0; positive controls
 first, negative control last).
 
-*Filed 2026-07-14 by Team EXT-GAP (W181). Five personas inline in one worker (cosmological-IR/de Sitter
+*Filed 2026-07-14 by Team EXT-GAP (W181). Five perspectives inline in one worker (cosmological-IR/de Sitter
 QFT specialist, threshold/decay specialist, GU-scale specialist, symbolic/numerical engineer,
-adversarial skeptic); no sub-agents. Reproducible: `python -u tests/W181_external_input_continuum_gap.py`
+adversarial skeptic); no independent reviewers. Reproducible: `python -u tests/W181_external_input_continuum_gap.py`
 (13/13, exit 0). Exploration grade; conditional register; no canon movement; H59 OPEN. Verdict:
 GAP-INSUFFICIENT-NOT-OPERATIVE-STANDS -- the external de Sitter IR gap (H0 ~ 1e-33 eV) is 20-30 orders of
 magnitude too small to move the meV-to-Planck ghost below the two-graviton decay threshold; bar (b) does

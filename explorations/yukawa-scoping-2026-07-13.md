@@ -25,7 +25,7 @@ Test: `tests/yukawa-scoping/yukawa_trilinear_channels.py` (deterministic, fixed 
 20/20 asserts, exit 0). One bounded wave; a fast honest SILENT was pre-declared as a fully valid
 outcome, and SILENT (on hierarchy) is what the computation returns.
 
-Run as a 5-persona inline team (one worker, sequential): (1) representation theorist;
+Run as a 5-perspective inline team (one worker, sequential): (1) representation theorist;
 (2) flavor physicist; (3) model-building skeptic; (4) K-theory/torsion mathematician;
 (5) honesty auditor.
 
@@ -43,7 +43,7 @@ magnitudes (a Froggatt-Nielsen-type engine).
 
 ---
 
-## Persona 1 -- Representation theorist: the complete channel table [COMPUTED]
+## Perspective 1 -- Representation theorist: the complete channel table [COMPUTED]
 
 Method: exact computation on the verified 128-dim rep, same machinery and checksums as
 SHIAB-05 / MOVE-4 (Jordan-Wigner gammas; trace-orthonormal Clifford words; block nullspace
@@ -76,10 +76,10 @@ Two structural facts worth naming:
    Same epistemic class as SHIAB-05, and exact.
 3. **Transpose structure:** C^T maps the (+-) solution to the (-+) solution (overlap 1.000000).
    So a Dirac pairing psi_+^T C chi_- carries NO transpose-symmetry constraint -- the
-   generation Yukawa matrix is not forced (anti)symmetric. (Load-bearing for Persona 2: no
+   generation Yukawa matrix is not forced (anti)symmetric. (Load-bearing for Perspective 2: no
    forced degeneracy.)
 
-## Persona 2 -- Flavor physicist: what a hierarchy mechanism needs vs what is here
+## Perspective 2 -- Flavor physicist: what a hierarchy mechanism needs vs what is here
 
 A real hierarchy mechanism needs at least one of: (i) a graded symmetry with a small order
 parameter (Froggatt-Nielsen: charges + flavon + epsilon = vev/M); (ii) texture zeros from a
@@ -105,12 +105,12 @@ eigenvalues {1, zeta, zeta^2}, fixed axis = democratic (1,1,1)/sqrt3 -- all repr
   **PATTERN-COMPATIBLE (block level), NOT PREDICTED** -- and note the data do not show the
   degenerate-pair sub-texture at all (H64: mu/tau split by 17x), so even pattern-compatibility
   is at the weakest level.
-- **FN engine, provably no (the sharp new negative):** see Persona 4.
+- **FN engine, provably no (the sharp new negative):** see Perspective 4.
 
 Rank-1 dominance: the texture does contain a natural rank-1 candidate (y00 alone on the
 democratic axis), but nothing suppresses y12, y21 relative to it. Not supplied.
 
-## Persona 3 -- Model-building skeptic: attack every hook (the W60 discipline)
+## Perspective 3 -- Model-building skeptic: attack every hook (the W60 discipline)
 
 - **"The 1+2 texture predicts the fermion pattern."** No. (a) The 3 sectors are Z/3 GRADING
   slots, not flavor eigenstates -- identifying sector 0 with "the top quark" (or any physical
@@ -125,14 +125,14 @@ democratic axis), but nothing suppresses y12, y21 relative to it. Not supplied.
 - **"rho = (0,2,1) distinguishes the generations, so B carries a hierarchy seed."** The rho
   classes are Q/Z spectral labels of the Z/3 SECTORS of carrier B, and they are non-uniform
   (0, 2/3, 1/3 distinct) -- the sectors are genuinely spectrally distinguishable. But a label
-  is not a coupling: turning labels into magnitudes needs an FN-type engine, and Persona 4
+  is not a coupling: turning labels into magnitudes needs an FN-type engine, and Perspective 4
   shows the mod-3 arithmetic makes that engine impossible with these charges. The hook
   survives only as a LABEL, not as a grading.
 - **Answer-as-premise audit of the whole wave:** the only "3" used is dim Lambda^2_+(R^4)
   (derived, H38); no mass, ratio, angle, or generation assignment was imported; the FN
   positive control uses deliberately NON-derived integer charges and is labeled a control.
 
-## Persona 4 -- Mathematician (K-theory/torsion): does order-3 constrain TEXTURE or only count?
+## Perspective 4 -- Mathematician (K-theory/torsion): does order-3 constrain TEXTURE or only count?
 
 **Result: the order-3 structure constrains the texture's SUPPORT, and provably cannot
 constrain its MAGNITUDES.** Two computed statements:
@@ -156,7 +156,7 @@ So the order-3/K-class structure grades the COUNT arena (index-changing, H39) an
 SUPPORT, and is arithmetically incapable of grading mass magnitudes. This is the same
 "arena reaches the form, never the value" shape as H62/H64, now proved at the channel level.
 
-## Persona 5 -- Honesty auditor: final verdict, not exceeding the computations
+## Perspective 5 -- Honesty auditor: final verdict, not exceeding the computations
 
 ### Verdict per scoping question
 

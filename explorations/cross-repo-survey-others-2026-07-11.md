@@ -36,7 +36,7 @@ verdict), Evolvability (second-order).
 - **Epistemic-improvement measurability (C005):** seven-metric bundle for
   measuring whether the machinery actually improves knowledge.
 - **Higher-order epistemic search / evolvability (C011):** can a system mutate
-  its own O2/O3 machinery (operators, personas, gates, ontology) and show
+  its own O2/O3 machinery (operators, perspectives, gates, ontology) and show
   durable lift under matched budget? Order taxonomy O0-O4.
 - **Founder-independent claim-space measure (E038):** the convergent open
   problem shared by C006/C009/C010 — a measure on claim space not fixed by the
@@ -89,7 +89,7 @@ Zero killed top-level claims; two killed theorem paths.
   measured? Harness exists; **no scored data ever collected**. Gates every
   realized-advantage claim.
 - C002 independence: find one control loop in an outside program not built by
-  this author and not on the CapacityOS package (Joe-gated decisive test).
+  this author and not on the private orchestration overlay package (Joe-gated decisive test).
 - SCS-3 implementation faithfulness and class richness (spec-level only now).
 - EXP-0002 (C011 matched-budget O2/O3 lift) awaits genuinely independent
   execution.

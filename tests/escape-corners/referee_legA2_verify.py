@@ -397,7 +397,7 @@ print()
 print("=" * 78)
 print("R-S7: verbatim needles -- BOTH primaries (the leg needled only one)")
 print("=" * 78)
-REPO = r"C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization"
+REPO = r"C:\Users\joe\JB\private orchestration overlay\repos\public\gu-formalization"
 TR = REPO + r"\papers\drafts\Transcript into the impossible.md"
 with open(TR, encoding="utf-8", errors="replace") as f:
     T = f.read()

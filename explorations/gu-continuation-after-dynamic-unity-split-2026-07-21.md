@@ -3,13 +3,11 @@ title: "GU continuation after the Dynamic Unity split — the non-dynamic work G
 status: proposal
 doc_type: roadmap
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
-directed_by: "Joe direct chat via coordinator, 2026-07-21 (produce the LIST of GU updates for the non-dynamic continuation after the Dynamic Unity split; LIST/proposal only — do NOT edit research-portfolio.json / LANES.yaml / NEXT-STEPS, the hourly cycle co-owns those)"
+directed_by: "Joe direct chat via coordinator, 2026-07-21 (produce the LIST of GU updates for the non-dynamic continuation after the Dynamic Unity split; LIST/proposal only — do NOT edit research-portfolio.json / lab/process/RESEARCH-AGENDA.json / NEXT-STEPS, the hourly cycle co-owns those)"
 inputs:
-  - LANES.yaml
-  - lab/process/research-portfolio.json (all work_items)
+  - lab/process/RESEARCH-AGENDA.json
+  - lab/process/RESEARCH-AGENDA.json (all work_items)
   - NEXT-STEPS.md (front-door operational block)
   - RESEARCH-PROGRAM.md, RESEARCH-STATUS.md, VERIFICATION.md
   - explorations/proposed-dynamic-unity-repo-scaffolding-2026-07-21.md (the DU charter, approved)
@@ -31,7 +29,7 @@ external_actions: none
 **non-dynamic** work now that the dynamic frontier is standing up its own repo (Dynamic Unity,
 "DU"; charter `explorations/proposed-dynamic-unity-repo-scaffolding-2026-07-21.md`, approved by
 Joe 2026-07-21, not yet instantiated). This is a **list/proposal only.** Nothing here edits
-`research-portfolio.json`, `LANES.yaml`, or `NEXT-STEPS.md` — the hourly/steward cycle co-owns
+`research-portfolio.json`, `lab/process/RESEARCH-AGENDA.json`, or `NEXT-STEPS.md` — the hourly/steward cycle co-owns
 those; every portfolio state change below is written as a **PROPOSED** update for the daily
 steward / Joe to apply. No claim, canon verdict, paper status, or public posture moves; every
 grade is **consumed as found, not moved.**
@@ -43,8 +41,8 @@ grade is **consumed as found, not moved.**
   object), the **DE amplitude via `Λ ~ 1/√N`** (native derivation of `φ = 1/(3·Ω_Λ)²`),
   **record-accretion / volume→Λ**, the **finality/issuance bridge** (issuance grounding of the
   DE magnitude, the `N`-growth "does anything cross" reading drawn from TaF/TI), and the
-  **dynamic tension-reframe sweep** (make each GU tension dynamic). These are DU Lane 1
-  (channels 1.1/1.2) and DU Lane 2.1.
+  **dynamic tension-reframe sweep** (make each GU tension dynamic). These are DU truth-status research
+  (channels 1.1/1.2) and DU prediction research.1.
 - **GU keeps (the STATIC / non-dynamic substrate):** paper hardening, non-dynamic prediction
   extraction, and hardening the static GU results to completion. **GU is the static substrate
   Dynamic Unity consumes** (`σ`/`τ` data, the type wall, hosts-not-derives, the Rung-2 results,
@@ -67,7 +65,7 @@ lived as Lane-1 exploration content, which is exactly what DU is being stood up 
 
 ## THREAD 1 — Paper hardening / publication-readiness (per paper)
 
-*Lane 3 + the Drafting-Factory seam. Joe always publishes; the terminal agent state is a
+*result-hardening research + the Drafting-Factory seam. Joe always publishes; the terminal agent state is a
 Joe-review draft. All items STAY in GU. The uncontestability audit
 (`uncontestability-audit-math-spine-2026-07-21.md`) supplies the concrete fix list; the spine
 is honestly graded (Lean flagships kernel-check with no axioms; `reproduce_all.py` 31/31), so
@@ -83,7 +81,7 @@ the contestable joints are FRAMING + VERIFICATION-TIER, not mathematics.*
 - **Concrete update:** none inside GU (the GU repo by design does not surface factory release
   states). PROPOSED steward note only: the `DECISIONS.md` ~2-day READY-escalation clock is the
   intended remedy for "it's ready but nobody flagged it"; DF's own `PAPER-SEEDS.md`/
-  `LANE-STATE.yaml` are slightly behind `DECISIONS.md` and should be synced by the DF steward.
+  `CURRENT-STATE.yaml` are slightly behind `DECISIONS.md` and should be synced by the DF steward.
 - **Next step:** hold at REGISTRATION-READY; Joe's GO is the single external gate. No GU work.
 
 ### 1.2 Located, Not Forced — the flagship generation-count paper
@@ -122,7 +120,7 @@ the contestable joints are FRAMING + VERIFICATION-TIER, not mathematics.*
 - **Concrete update:** retitle/refold to "Seven-Axis + Layer-0" and relabel explicitly as a
   **protocol pre-registration (methods; benchmark unrun)**, not a candidate *result*. No physics
   claim moves — tier/title only.
-- **Next step:** the retitle+relabel edit (cheap, Lane 3); decide whether to run the benchmark or
+- **Next step:** the retitle+relabel edit (cheap, result-hardening research); decide whether to run the benchmark or
   leave it as a pre-registration.
 
 ### 1.5 VERIFICATION.md — the outsider honesty map (root)
@@ -133,7 +131,7 @@ the contestable joints are FRAMING + VERIFICATION-TIER, not mathematics.*
   natively 3 (a representation dimension); net chiral count interior-even / external-by-structure;
   only unconditionally computable integer = 1; three not derived." The honesty map must be the
   *most* conservative surface, never a looser one.
-- **Next step:** the one-line rewrite (Lane 3). Load-bearing because it is the document outsiders
+- **Next step:** the one-line rewrite (result-hardening research). Load-bearing because it is the document outsiders
   are told to trust.
 
 ### 1.6 Other paper seeds (carried, not activated)
@@ -141,13 +139,13 @@ the contestable joints are FRAMING + VERIFICATION-TIER, not mathematics.*
   distinctiveness. Stays; activate only after an explicit overlap/novelty gate (see Thread 3).
 - The remaining candidates (`generation-number-boundary-odd-primary`, `keep-and-grade-loop-cost`,
   `one-residual-complete-picture`, `observer-value-selection`) are staged seeds; route via
-  `PAPER-SEED-ROUTING` (Lane A) to Drafting Factory, do not open a parallel GU drafting queue.
+  `PAPER-SEED-ROUTING` (research maintenance) to Drafting Factory, do not open a parallel GU drafting queue.
 
 ---
 
 ## THREAD 2 — Finding more predictions (non-dynamic)
 
-*Lane 2. The static-`σ`-based prediction surface. Adversarial finding (parsimony ledger +
+*prediction research. The static-`σ`-based prediction surface. Adversarial finding (parsimony ledger +
 more-predictions hunt): GU's evidential surface is **one bit with currently one observable
 readout** (the DE no-phantom-crossing). The honest yield of the hunt is one new observable
 window, not a zoo. All items STAY.*
@@ -157,9 +155,9 @@ window, not a zoo. All items STAY.*
   `w(z) ≥ −1` pointwise, R0_COND) and PP3 (the curve family). Owner node
   `PRED-CANDIDATE-PACKETS` (BLOCKED_SOURCE_GAP for the *mirror* candidate; PP1/PP2/PP3 unchanged).
   **The DE SPLITS at the sign/amplitude line:** sign+shape = static (stay); the **amplitude**
-  (`φ = 1/(3·Ω_Λ)²` native derivation) = dynamic → **MOVES→DU Lane 2.1**.
+  (`φ = 1/(3·Ω_Λ)²` native derivation) = dynamic → **MOVES→DU prediction research.1**.
 - **Concrete update:** none to the packets. PROPOSED clarity note in the node: PP1/PP3 stay GU
-  Lane 2; the amplitude-derivation route leaves GU (was never a GU node — it is DU's distinctness
+  prediction research; the amplitude-derivation route leaves GU (was never a GU node — it is DU's distinctness
   bank). Public mentions should foreground the **joint rigidity surface** (sign + no-crossing +
   amplitude-ceiling + one-bit co-flip), never the bare sign (audit item 3).
 - **Next step:** route PP1/PP3 observational confrontation via `P-OBS-LEG`/`DE-F1-TRIPWIRE` on
@@ -173,7 +171,7 @@ window, not a zoo. All items STAY.*
   (`LCDM`-forbidden cross-domain correlation). Grade: **FORCED only at the proposal grade of the
   anomaly ID + one UNBUILT descent map with a definite sign.** Lives as target **T3** of
   `ANOMALY-DESCENT-HARDENING` (PARTIAL_ACTIVE). Non-dynamic (anomaly/`σ`-based) — **stays.**
-- **Concrete update:** PROPOSED — keep T3 in GU Lane 1/2 as the prediction-extraction candidate;
+- **Concrete update:** PROPOSED — keep T3 in GU truth-status research/2 as the prediction-extraction candidate;
   its two gates are (1) bank the anomaly ID at operator grade, (2) build the fiber-`w1`→spacetime
   descent-with-signs. Gate 2 discharges via `SRC-COH-1`, which `B5-INDEPENDENT-RECONSTRUCTION`
   (SHARED) addresses. One descent map lights up four faces at once (parity A, `θ_QCD`/neutron-EDM
@@ -187,7 +185,7 @@ window, not a zoo. All items STAY.*
   K-negative modes must be producible asymptotic states while the same dependency removes them as
   negative-norm ghosts (`PRED-CANDIDATE-PACKETS` assessment; `MIRROR-NATIVE-ROUTE =
   RESOLVED_NO_GO` for every native order-parameter class). The ghost-vs-physical fork needs the
-  L7 Born-rule/superselection rule (source-gated). DU Lane 2.2 carries "the TeV mirror state
+  L7 Born-rule/superselection rule (source-gated). DU prediction research.2 carries "the TeV mirror state
   (ghost-vs-physical fork + reopen conditions)" as a live candidate with blockers.
 - **Concrete update:** PROPOSED — GU keeps the frozen candidate + its four reopen conditions;
   tag the ghost-fork resolution as **SHARED** (it rides the source/dynamics work DU/P2C own). Do
@@ -304,7 +302,7 @@ throughout is the internal→external tier boundary, which only an outside human
 - **Next step:** stage these edits as a Lane-3 hardening batch for maintainer/Joe review (the
   README/VERIFICATION edits are content, not the frozen paper body).
 
-### 3.6 The static recovery no-gos and construction space (Lane 1, banked)
+### 3.6 The static recovery no-gos and construction space (truth-status research, banked)
 - `RECOVERY-CERTIFICATION` (+ GR/SM/QM/COSMO internal items, mostly `BOUNDED_NO_GO` /
   `COMPLETE_CONDITIONAL_FAIL`), `CONSTRUCTION-SPACE-EXPLORATION` (WAITING_EXTERNAL; the lattice is
   source-gapped at C1's L7 Krein-probability slot), `OPERATOR-END-PENCIL` (`RESOLVED_NO_GO`,
@@ -325,7 +323,7 @@ the forward work is DU's.
 | Dynamic thread (current GU exploration home) | DU destination | GU-side grade CONSUMED (not moved) |
 |---|---|---|
 | **Tachyon-transducer** (source action → tachyonic `N=e^{4p}` roll → record-accretion → DE sign+magnitude+arrow as one object; roll↔accretion computation; the mirror-sector vacuum W224 gap) | DU **Channel 1.1** | unbuilt / B5-gated; W157 centrality = coincidence-grade; W224 singlet input-failure |
-| **DE amplitude via `Λ ~ 1/√N`** (native derivation of `φ = 1/(3·Ω_Λ)²`) | DU **Lane 2.1** (the distinctness bank) | DE amplitude currently a **pure import**; `PRED-NORM-RANK = RESOLVED_NO_GO` (no GU-native absolute scale) |
+| **DE amplitude via `Λ ~ 1/√N`** (native derivation of `φ = 1/(3·Ω_Λ)²`) | DU **prediction research.1** (the distinctness bank) | DE amplitude currently a **pure import**; `PRED-NORM-RANK = RESOLVED_NO_GO` (no GU-native absolute scale) |
 | **Record-accretion / volume→Λ link** | DU **Channel 1.1** | roll↔accretion identification = **conjecture** |
 | **Finality / issuance bridge** (issuance grounding of the DE magnitude; `N`-growth "does anything cross", drawn from TaF/TI) | DU (draws TaF `λ_max=1/t_obs` + TI issuance) | GU↔TaF↔TI identity is a **hypothesis to test in DU**, not a granted premise |
 | **Dynamic tension-reframe sweep** (make each GU tension dynamic) | DU **Channel 1.2** | consumes GU's static tension ledger (§3.4), re-verified |
@@ -333,7 +331,7 @@ the forward work is DU's.
 **Concrete update (PROPOSED):** GU does NOT create nodes for these; it adds a one-line pointer in
 its front-door / steward log that the dynamic frontier is owned by DU, and that any hourly
 "dynamic" idea (making a static result dynamic) is **out of GU scope** — route to DU Discovery.
-GU's `PACKET-AND-MAILBOX-INTAKE` (Lane A) accepts frozen DU packets on the same seam it uses for
+GU's `PACKET-AND-MAILBOX-INTAKE` (research maintenance) accepts frozen DU packets on the same seam it uses for
 P2C; DU re-verifies GU substrate rather than importing GU grades on say-so.
 
 ### 4.2 What is SHARED (GU keeps running it; it feeds DU/P2C; home coordinated with P2C)
@@ -357,7 +355,7 @@ P2C; DU re-verifies GU substrate rather than importing GU grades on say-so.
   No new lane or channel (mirror the anti-duplication guard already in the canon).
 
 ### 4.4 Lane-1 lead re-designation after the split (steward reconciliation, pending)
-- **Current state:** the dynamic frontier was part of what Lane 1 chased; with it gone, GU's
+- **Current state:** the dynamic frontier was part of what truth-status research chased; with it gone, GU's
   Lane-1 **static** leads are `B5-INDEPENDENT-RECONSTRUCTION` (SHARED, `lane_one_lead: true`),
   the `OPERATOR-END-PENCIL` residuals + `ANOMALY-DESCENT-HARDENING` T1 (static hardening), and
   `FALSIFICATION-BATTERY` (fallback). The **`difficulty_demotion_reconciliation_flag`** is still
@@ -420,7 +418,7 @@ the ledgers, the README/VERIFICATION uncontestability fixes — to their honest 
 ## Boundary
 
 Proposal/roadmap tier. **One new file written — this document.** GU otherwise read-only: no edit
-to `research-portfolio.json`, `LANES.yaml`, `NEXT-STEPS.md`, `CANON.md`, any paper body,
+to `research-portfolio.json`, `lab/process/RESEARCH-AGENDA.json`, `NEXT-STEPS.md`, `CANON.md`, any paper body,
 `VERIFICATION.md`, or any other agent's artifact; **no commit, no push, no external action.**
 Every portfolio state change is a **PROPOSED** update for the daily steward / Joe, applied to
 nothing here. All physics grades are **consumed as found, not moved** — `σ`/`τ` external

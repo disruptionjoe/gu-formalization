@@ -24,9 +24,7 @@ inputs:
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 runnable:
   - tests/channel-swings/s1_pairing_family_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 > **CORRECTION (2026-07-20, hostile verify — verify-s1-pairing-2026-07-20.md, commit a4a402c). Verdict NOT-DRY, outcome demoted U-a -> U-b (PARTIAL). No kill, but the headline overclaimed:**

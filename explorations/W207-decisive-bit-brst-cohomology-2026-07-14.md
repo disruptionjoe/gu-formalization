@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (R9 Dirac-BRST / constraint cohomology; one of five parallel methods on the decisive bit; five viewpoints inline in one worker, no sub-agents; deterministic test 31/31 exit 0, positive controls first)
+status: exploration (R9 Dirac-BRST / constraint cohomology; one of five parallel methods on the decisive bit; five viewpoints inline in one worker, no independent reviewers; deterministic test 31/31 exit 0, positive controls first)
 created: 2026-07-14
 wave: W207
 label: W207
@@ -22,7 +22,7 @@ scripts:
 # W207 -- the decisive bit via R9 (Dirac-BRST / constraint cohomology)
 
 Test: `tests/W207_decisive_bit_brst_cohomology.py` (31/31, exit 0). Deterministic. Five viewpoints ran
-inline in one worker, sequentially (no sub-agents): (1) BRST/constraint-quantization specialist,
+inline in one worker, sequentially (no independent reviewers): (1) BRST/constraint-quantization specialist,
 (2) representation-theorist, (3) geometer of the (3,1)+(6,4) DeWitt split, (4) coherence-first
 synthesizer, (5) skeptic. Positive controls run first.
 

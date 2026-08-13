@@ -16,7 +16,7 @@ REMOVES the state; GU KEEPS-and-grades it. Same tree S-matrix, different loop co
 to "what is the ghost."
 
 Branch C's construction of "unitarity": BY PRESCRIPTION. The fakeon never appears in a Cutkosky cut by
-definition, so the physical-projection S-matrix is unitary by construction. The referee persona flags
+definition, so the physical-projection S-matrix is unitary by construction. The referee perspective flags
 this as tautological -- the real, non-trivial content Branch C decides is (a) that such a Lorentz-
 invariant, RG-stable prescription EXISTS, and (b) its CAUSALITY PRICE.
 
@@ -169,7 +169,7 @@ log("=" * 96)
 log("W50 / PATH-2 BRANCH C -- FAKEON (ANSELMI-PIVA) PRESCRIPTION ON THE STELLE SPIN-2 GHOST")
 log("=" * 96)
 
-# --- Persona 1 (Fakeon specialist) + Persona 2 (referee): the prescription itself. --------------
+# --- Perspective 1 (Fakeon specialist) + Perspective 2 (referee): the prescription itself. --------------
 log("\n[A] Average-continuation prescription on a single ghost denominator (x = p^2 - m2^2):")
 eps = 1e-3
 xs = [-2.0, -0.5, -1e-2, 1e-2, 0.5, 2.0]
@@ -198,7 +198,7 @@ check(
     f"max|Re diff| = {re_match:.2e}",
 )
 
-# --- Persona 1 + Persona 4 (cross-checker): the one-loop bubble, Q-cut by construction. ----------
+# --- Perspective 1 + Perspective 4 (cross-checker): the one-loop bubble, Q-cut by construction. ----------
 log("\n[B] One-loop scalar bubble -- Q-cut arithmetic (phys+phys cut present; phys+fakeon cut absent):")
 m1, mghost = 1.0, 3.0            # ghost/fakeon mass m2 = 3 in these units
 s_test = (m1 + mghost) ** 2 + 8.0  # well ABOVE the phys+ghost threshold, so a Feynman cut is open
@@ -240,7 +240,7 @@ check(
     f"Im(pp, s<thr) = {im_below:.2e}  vs open cut {im_pp_expected:.4f}",
 )
 
-# --- Persona 4 (cross-checker): independent PV computation reproduces the fakeon amplitude. -------
+# --- Perspective 4 (cross-checker): independent PV computation reproduces the fakeon amplitude. -------
 log("\n[C] Cross-check: fakeon amplitude == Cauchy principal value (independent symmetric quadrature):")
 
 
@@ -272,7 +272,7 @@ check(
     "PV is real-valued",
 )
 
-# --- Persona 3 (adversary) + Persona 2 (referee): the causality PRICE, quantified. ---------------
+# --- Perspective 3 (adversary) + Perspective 2 (referee): the causality PRICE, quantified. ---------------
 log("\n[D] Q-caus -- the causality price (average continuation is non-analytic across threshold):")
 # The averaged (PV) prescription does NOT satisfy the Feynman analyticity that a proper i eps encodes;
 # the Fourier transform of a PV/theta-less amplitude does not vanish outside the light cone. The a-causal
@@ -316,7 +316,7 @@ check(
     "prescription depends on p^2 alone -> Lorentz invariant; local commutativity fails at Dx~1/m2",
 )
 
-# --- Persona 2 (referee): honesty gate -- unitarity here is BY CONSTRUCTION, not derived. ---------
+# --- Perspective 2 (referee): honesty gate -- unitarity here is BY CONSTRUCTION, not derived. ---------
 log("\n[E] Referee honesty gate (is the unitarity genuine or tautological-by-construction?):")
 check(
     "E1  Q-cut is TRUE BY CONSTRUCTION, not derived from a positive-norm state space: the fakeon is "

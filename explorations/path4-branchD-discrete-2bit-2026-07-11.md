@@ -24,9 +24,9 @@ forced but a ceiling not a value, and not operationally discriminating.
 
 ---
 
-## 1. The five personas, inline
+## 1. The five perspectives, inline
 
-### Persona 1 -- representation/topology specialist: enumerate the DISCRETE forced structure
+### Perspective 1 -- representation/topology specialist: enumerate the DISCRETE forced structure
 
 Everything discrete the family forces, listed, with the free-scale dependence checked for each:
 
@@ -48,9 +48,9 @@ phenomenon. Hence the family forces a *correlation between two discrete data*:
 
 > **(the small finite generation ceiling is `3`)  <==>  (spacetime is 4-dimensional).**
 
-This is the strongest candidate for a forced discrete RELATION (not just "the count is 3"). Persona 2 grades it.
+This is the strongest candidate for a forced discrete RELATION (not just "the count is 3"). Perspective 2 grades it.
 
-### Persona 2 -- referee: grade forced-vs-input and novel-vs-known, ruthlessly
+### Perspective 2 -- referee: grade forced-vs-input and novel-vs-known, ruthlessly
 
 - **D1-D4 are FORCED** (choice-independent: none moves with `mu_DW`, `alpha`, or the residual shape `beta/alpha`)
   -- but **all four are ALREADY KNOWN**. "The ceiling is 3", "the count is 3-primary in `{1,3}`", "the count
@@ -69,7 +69,7 @@ This is the strongest candidate for a forced discrete RELATION (not just "the co
 No fact clears BOTH "forced across the family" AND "new beyond the established discrete set". Demand met by
 none.
 
-### Persona 3 -- intra-team adversary (PRESENTS, does not veto)
+### Perspective 3 -- intra-team adversary (PRESENTS, does not veto)
 
 Two attacks, both landing:
 
@@ -90,7 +90,7 @@ the one forced-and-novel-ish relation is not discriminating. And the genuinely s
 
 Both attacks are presented, not vetoed. The synthesizer weighs them.
 
-### Persona 4 -- cross-checker: verify the discrete structure independently
+### Perspective 4 -- cross-checker: verify the discrete structure independently
 
 - **`dim Lambda^2_+(R^4) = 3` and the `d=4` uniqueness:** verified from the Hodge-star degree map `Lambda^k(R^d)
   -> Lambda^{d-k}`; a self-dual 2-form *eigenspace* requires `d-k = k = 2 => d = 4`. For `d = 4`, `dim Lambda^2 =
@@ -112,7 +112,7 @@ All five structural facts check out. The cross-checker adds one negative control
 quantity in the built content that is (forced AND novel AND discriminating) simultaneously -- searched over the
 count, the DOF, the carrier arithmetic, the arena split.
 
-### Persona 5 -- synthesizer: the verdict
+### Perspective 5 -- synthesizer: the verdict
 
 The discrete structure is genuinely rich, and every piece of it is real. But it partitions cleanly:
 

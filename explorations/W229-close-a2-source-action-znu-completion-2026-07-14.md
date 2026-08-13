@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM CLOSE-A2, W229; four personas inline, one worker, no sub-agents; deterministic test, 39/39 exit 0, positive controls first)
+status: exploration (TEAM CLOSE-A2, W229; four perspectives inline, one worker, no independent reviewers; deterministic test, 39/39 exit 0, positive controls first)
 created: 2026-07-14
 wave: W229
 label: W229
@@ -29,7 +29,7 @@ external_refs:
 
 Test: `tests/W229_source_action_znu_completion.py` (39/39, exit 0). Deterministic (seed 20260714);
 the algebra runs on the repo's verified `Cl(9,5) = M(64,H)` representation via `gen_sector_bridge`.
-Four personas ran inline in one worker, sequentially (no sub-agents): (1) variational / field-equation
+Four perspectives ran inline in one worker, sequentially (no independent reviewers): (1) variational / field-equation
 specialist, (2) nonlocal-completion / induced-Yang-Mills specialist, (3) shiab / Legendre specialist,
 (4) ruthless skeptic. The four positive controls run first.
 
@@ -61,7 +61,7 @@ with `U` the connection-distortion 1-form (`theta = A - Gamma(eps) - U`), `P_IG 
 (degree 2 because `D_A U` is a 2-form), and `Z_U` the gradient stiffness. This is the induced-Yang-Mills
 route: the connection carries no fundamental kinetic term; `Z_U` is the induced (Sakharov) stiffness.
 
-## 1. Persona 1 (variational / field-equation specialist) -- the full field equations
+## 1. Perspective 1 (variational / field-equation specialist) -- the full field equations
 
 The parent exposes every field equation without hiding it in second-order notation. Stationarity in
 each field (the gate's `E_P`, `E_U`, `E_A`), with the sign convention `delta_A theta = delta A`,
@@ -90,7 +90,7 @@ each field (the gate's `E_P`, `E_U`, `E_A`), with the sign convention `delta_A t
 
 So the completed action has full field equations, and (Section 3) they REDUCE to W203's when `Z_U -> 0`.
 
-## 2. Persona 2 (nonlocal-completion / induced-YM specialist) -- ultralocal becomes nonlocal
+## 2. Perspective 2 (nonlocal-completion / induced-YM specialist) -- ultralocal becomes nonlocal
 
 The decisive structural content: **adding `S_grad` promotes W203's ALGEBRAIC (ultralocal) kernel to a
 DIFFERENTIAL (nonlocal) one.** In W203 `theta` was eliminated algebraically, `theta = kappa eta^{-1} J`
@@ -124,7 +124,7 @@ the `T_ij` generators as the covariant lattice transport):
   `J` is not covariantly constant under a nontrivial holonomy, so the covariant divergence check is
   ill-posed on the toy -- stated, not fudged).
 
-## 3. Persona 3 (shiab / Legendre specialist) -- the forced fiber and the forced differential operator
+## 3. Perspective 3 (shiab / Legendre specialist) -- the forced fiber and the forced differential operator
 
 Two of the three ingredients of `Z_U` are FORCED; only the third is free.
 
@@ -146,7 +146,7 @@ Two of the three ingredients of `Z_U` are FORCED; only the third is free.
 
 The one thing NOT forced is the **magnitude `Z_U`** (Section 4).
 
-## 4. Persona 4 (ruthless skeptic) -- is Z_U forced or free? is this a real completion or a relabel?
+## 4. Perspective 4 (ruthless skeptic) -- is Z_U forced or free? is this a real completion or a relabel?
 
 Three sharp challenges, answered honestly.
 
@@ -217,9 +217,9 @@ Three sharp challenges, answered honestly.
   target assumed or inserted. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team CLOSE-A2 (W229). Route: Legendre / induced-Yang-Mills (eliminate the Gaussian
-parent `P_IG`; promote the ultralocal kernel to a nonlocal Green's function). Four personas inline in
+parent `P_IG`; promote the ultralocal kernel to a nonlocal Green's function). Four perspectives inline in
 one worker (variational / field-equation specialist; nonlocal-completion / induced-YM specialist; shiab
-/ Legendre specialist; ruthless skeptic); no sub-agents. Reproducible:
+/ Legendre specialist; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W229_source_action_znu_completion.py` (39/39, exit 0; four positive controls first).
 Exploration grade; conditional register; RUTHLESS self-verification; no canon movement; tri-repo gating
 strict; the debit count stays {1,3}; H41 unbuilt (narrowed); bar (b) UNCHANGED. E1: the nonlocal Z_U

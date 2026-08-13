@@ -141,7 +141,7 @@ table without treating roadmap prose as a research claim.
 ## Internal ops gitignore gate
 
 `internal_ops_gitignore_audit.py` checks that `steward/runs/` remains ignored and contains no
-tracked files. This protects local CapacityOS run records from being published with the public
+tracked files. This protects local private orchestration overlay run records from being published with the public
 research repo while leaving those records available for collision checks.
 
 ## Lab README surface-map gate

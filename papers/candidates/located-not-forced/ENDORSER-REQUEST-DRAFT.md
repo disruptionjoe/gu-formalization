@@ -34,7 +34,7 @@ Pick the one whose paper you engage most directly; that makes the ask legitimate
 > Dear Dr. [ENDORSER NAME],
 >
 > I'm writing to ask whether you'd consider endorsing me to submit to hep-th on arXiv. I'm an independent
-> researcher without an institutional affiliation, so under arXiv's current policy I need a personal
+> researcher without an institutional affiliation, so under arXiv's current policy I need a perspectivel
 > endorsement.
 >
 > My paper, *Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a

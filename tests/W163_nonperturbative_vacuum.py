@@ -45,7 +45,7 @@ THE LENS -- FIVE non-perturbative questions (each a way the tachyon could be the
     ADVERSARIAL: does a STABLE stationary true vacuum even exist, or does the monotone
     record accretion (W154/W160) roll eternally (no minimum, W159-route-2 speed-limit echo)?
 
-FIVE personas inline (non-perturbative QFT theorist; cosmological-phase-transition theorist;
+FIVE perspectives inline (non-perturbative QFT theorist; cosmological-phase-transition theorist;
 RG/AF specialist; symbolic/numerical engineer; adversarial skeptic).  Deterministic sympy,
 positive controls first.
 Run:  python -u tests/W163_nonperturbative_vacuum.py   (exit 0 iff all PASS).

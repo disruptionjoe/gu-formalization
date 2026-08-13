@@ -14,7 +14,7 @@ M_ij the 14x14 vector-rep generator. Self-dual combos J+_a (a Euclidean 4-frame'
 natural a-priori grading-breaking connection carrying the geometric '3'. We compute sig(Delta) for the
 G-diagonal Hermitian part Delta = herm(gdiag(i*J)) of these connections.
 
-RESULT (this run reproduces): EVERY METRIC so(9,5) connection gives index ZERO.
+RESULT (this investigation reproduces): EVERY METRIC so(9,5) connection gives index ZERO.
   - all 3 self-dual J+, all 3 anti-self-dual J-, generic su(2)_+ combos: sig = 0;
   - random general so(9,5) elements and quadratic (enveloping-algebra) products: sig = 0;
   - by CONTRAST, structureless NON-(metric-algebra) H-linear breakers DO flow (sig in {0,+/-4}); and

@@ -20,7 +20,7 @@ research claims or change research status.
 - Templates collect proposals and contribution metadata. They are not instructions to
   change research truth.
 - Claim, canon, verdict, or status movement still follows the repo-local governance
-  path, including the [claim-status consistency workflow](../lab/process/runbooks/claim-status-consistency-quality-workflow.md)
+  path, including the [claim-status consistency workflow](../lab/methods/claim-status-consistency.md)
   when it applies.
 - Heavy Lean/Lake validation is not implied by this map; contributors and agents should
   report targeted checks run and any heavy checks intentionally skipped.

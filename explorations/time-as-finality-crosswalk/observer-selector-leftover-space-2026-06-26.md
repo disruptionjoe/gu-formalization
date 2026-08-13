@@ -29,7 +29,7 @@ the family from 8R to 4R and **stop**. The residual **3 real dimensions** GU doe
 A *selector* is added structure that constrains these 3 dims. **Discipline (non-negotiable):**
 a candidate counts only if it imposes a REAL, ideally COMPUTABLE constraint on those 4 coordinates,
 testable on `tests/shiab_family_basis.py`. A vocabulary match that merely renames the gap does **not** count.
-We were burned before (kappa tautology; persona "shiab = d_A*" false; "obstruction = 343.73" a different object).
+We were burned before (kappa tautology; perspective "shiab = d_A*" false; "obstruction = 343.73" a different object).
 
 ---
 
@@ -159,7 +159,7 @@ addressed only by the unbuilt signed-readout sign, Section 5.)
 - **Distortion-residue E048** (TI Cand 4). Binary source-vs-observer discriminator on a schema-relabeling
   bundle; no shared carrier with the Lambda^2 V (x) S Hom-space.
 - **Issuance-rate / source-measure** `lambda*(s), mu` (TI Cand 5). Scalar/measure; cannot pick a direction
-  in a 4-real-dim coefficient space; TI's own personas rate it ABSORBED by optimal control / WBE / thermo.
+  in a 4-real-dim coefficient space; TI's own perspectives rate it ABSORBED by optimal control / WBE / thermo.
 
 ---
 
@@ -218,7 +218,7 @@ free, and "the observer chooses" is a philosophical gloss on an underdeterminati
 
 Every cross-repo "convergence" so far has been DISCIPLINE/VOCABULARY convergence (two programs naming the same
 gap), never MACHINERY convergence (a computation that cuts the gap) — exactly the trap that burned the kappa,
-persona, and obstruction "leads." The best live lead (Section 1) imported an EXTERNAL preference (PO1's "prefer
+perspective, and obstruction "leads." The best live lead (Section 1) imported an EXTERNAL preference (PO1's "prefer
 the forgetful projection-with-loss") that GU never asserts — and when that preference was actually **computed**
 (Section 2) its load-bearing kernel/loss leg **FAILED**: both channels have identical kernels (nullity 4928),
 the wedge channel is *not* injective, so "forgetful" does not even pick contract. What is left is only a

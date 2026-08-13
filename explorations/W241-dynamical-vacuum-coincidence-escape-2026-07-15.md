@@ -41,9 +41,9 @@ cross_repo:
 > W244 Section 7. This correction annotates, and does not delete, the content below.
 
 Test / characterization certificate: `tests/W241_dynamical_vacuum_coincidence_escape.py`
-(46/46, exit 0, positive controls first). Four personas ran INLINE in one worker (Krein /
+(46/46, exit 0, positive controls first). Four perspectives ran INLINE in one worker (Krein /
 Prop-1 positive-majorant specialist; Lie-isotropy / centralizer specialist; GU-structure /
-grading-boost specialist; ruthless skeptic); no sub-agents. Zero em dashes. This is lane B of
+grading-boost specialist; ruthless skeptic); no independent reviewers. Zero em dashes. This is lane B of
 the Wave 4 escape hunt: while lane A (W240) tests whether the condensate no-go generalizes to a
 structural no-go for ALL Z2-even VEVs, lane B attacks the DIFFERENT escape route flagged by
 W235/W228 -- the coincidence-admitting smaller dynamical isotropy group.
@@ -199,7 +199,7 @@ the boost; there is no compact avatar of it.
 
 Stated explicitly, as the brief requires.
 
-- **Lane A (W240)** attacks the order-parameter side: does the condensate no-go (W234/W237)
+- **research maintenance (W240)** attacks the order-parameter side: does the condensate no-go (W234/W237)
   generalize to a structural no-go for **all** Z2-even VEVs (bilinear through higher rank)? If yes,
   no chirality-safe **order parameter** can compactify the arena.
 - **Lane B (W241, here)** attacks the front-door side: can a **smaller / coincidence-admitting
@@ -212,7 +212,7 @@ Stated explicitly, as the brief requires.
 the good stable **is** compact image (Proposition 1, unconditional and order-parameter-agnostic),
 and reaching compact image **is** selecting a `~ P` (Z2-odd) reduction. The two escapes are
 exactly (A) "make the reducing order parameter Z2-even" and (B) "avoid fully reducing / use a
-coincidence instead." Lane A closes (A); lane B closes (B). **If both hold, the located flaw
+coincidence instead." research maintenance closes (A); lane B closes (B). **If both hold, the located flaw
 HARDENS from "no native condensate delivers the good stable on the record-conserved branch"
 (W237) to "no dynamical vacuum whatsoever delivers a chirality-safe good stable," modulo the one
 residual below.**
@@ -308,9 +308,9 @@ by a non-majorant positivity" or "structural no-go."
 **Artifacts:** this file + `tests/W241_dynamical_vacuum_coincidence_escape.py` (46/46, exit 0;
 positive controls first).
 
-*Filed 2026-07-15 by W241 (lane B of the Wave 4 escape hunt). Four personas inline in one worker
+*Filed 2026-07-15 by W241 (lane B of the Wave 4 escape hunt). Four perspectives inline in one worker
 (Krein / Prop-1 positive-majorant; Lie-isotropy / centralizer; GU-structure / grading-boost;
-ruthless skeptic); no sub-agents. Reproducible:
+ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W241_dynamical_vacuum_coincidence_escape.py` (46/46, exit 0). Exploration grade;
 characterization not resolution; no canon movement; `bar(b)` / `H59` / the count OPEN. Zero em
 dashes.*

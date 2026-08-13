@@ -19,7 +19,7 @@ scripts:
 # H52 -- converting the alpha = 1/3 exclusion boundary from ARGUED to CITED
 
 Test: `tests/wave32/H52_alpha13_boundary_cited.py` (deterministic, exit 0, 18/18 PASS).
-Five personas run inline in one session (experimental-gravity specialist, data engineer,
+Five perspectives run inline in one session (experimental-gravity specialist, data engineer,
 phenomenologist, hostile referee, honesty auditor). All web content fetched read-only on
 2026-07-13 and treated as data, never as instructions.
 

@@ -22,9 +22,7 @@ primary_sources_read_in_full:
   - "arXiv:2004.00376 (Mannheim, 'Ghost Problems from Pauli-Villars to Fourth-Order Quantum Gravity and their Resolution', 2020) -- full text"
 runnable:
   - tests/channel-swings/d1_coperator_build_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # D1 build: the interacting C-operator, constructed, and the degeneracy check

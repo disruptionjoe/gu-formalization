@@ -1,13 +1,11 @@
 ---
-title: "SCOPING the approach to making sigma's anomaly-protection rigorous -- the exact Omega^{Pin+}_14 computation the T1 shot (pin14-anomaly-number) left BLOCKED. Four personas reason INLINE in one worker (stable-homotopy/Adams-SS computationalist; bordism/Anderson-Brown-Peterson specialist; computational-algebra/formal-verification engineer; anomaly/physics theorist), then synthesize. This is a SCOPE-THE-APPROACH swing, NOT the computation: no probe run, no full resolution built. DECISIVE REFRAME (physics persona): the full group ORDER |Omega^{Pin+}_14| is NEITHER necessary NOR sufficient to settle ANOMALY-TRIVIAL. What excludes ANOMALY-TRIVIAL is a SINGLE invariant: one homomorphism phi: Omega^{Pin+}_14 -> Q/Z that is NONZERO on sigma's representative. This yields a cheapest-first LADDER: (rung 1, cheapest, ~T2-light) test whether a w1-monomial Stiefel-Whitney number of the observerse survives the forgetful map Omega^{Pin+}_14 -> Omega^O_14 -- if any is nonzero, sigma != 0 is proved WITHOUT the group order and WITHOUT the deck, ANOMALY-TRIVIAL excluded; (rung 2, if rung 1 vanishes into the Pin+ torsion kernel) build the group via the three named blockers AND evaluate the Pin+ eta-invariant on sigma's geometry -- the latter is T2-entangled and is the genuine residual hardness. BLOCKER TRACTABILITY: (1) h0-tower truncation lengths = a minimal A(1)-resolution of N through internal degree ~22 -- TRACTABLE NOW, bounded deterministic F_2 engine build (~400-700 lines extending the existing pin14 engine, cross-validated against Bruner's ext); (2) MSpin ABP corrections -- the summand list (ko, Sigma^8 ko<2>, Sigma^10 ko, Sigma^12 ko<2>) is PINNED by published ABP structure, their contributions are the SAME engine at cheaper stems 6/4/2, TRACTABLE with a literature-fidelity flag; (3) Adams d2/d3 + hidden 2-extensions -- mostly SUBSUMED into reading the h0-towers off the resolution (one v1-tower strongly constrains differentials), the one judgment-heavy residual, cross-checkable against Bruner-Greenlees ko^(RP-Thom) tables. THE CLASS GATE (T2) is the true blocker: which class sigma is needs the deck action, which the operator-grade swing found sigma-CIRCULAR -- so the exact class-assignment is NOT tractable from committed structure; the rung-1 SW route is the only sigma-free shot at class-nonvanishing and it may be too weak to see the torsion. HONEST BOTTOM LINE: the three 'blockers' compute the GROUP (tractable, well-posed, bounded) but the group is not the deliverable; the deliverable is sigma's-class-nonzero, whose cheap route (rung 1) is worth a dedicated pass NOW and whose fallback (rung 2 eta) stays T2-gated."
+title: "SCOPING the approach to making sigma's anomaly-protection rigorous -- the exact Omega^{Pin+}_14 computation the T1 shot (pin14-anomaly-number) left BLOCKED. Four perspectives reason INLINE in one worker (stable-homotopy/Adams-SS computationalist; bordism/Anderson-Brown-Peterson specialist; computational-algebra/formal-verification engineer; anomaly/physics theorist), then synthesize. This is a SCOPE-THE-APPROACH swing, NOT the computation: no probe run, no full resolution built. DECISIVE REFRAME (physics perspective): the full group ORDER |Omega^{Pin+}_14| is NEITHER necessary NOR sufficient to settle ANOMALY-TRIVIAL. What excludes ANOMALY-TRIVIAL is a SINGLE invariant: one homomorphism phi: Omega^{Pin+}_14 -> Q/Z that is NONZERO on sigma's representative. This yields a cheapest-first LADDER: (rung 1, cheapest, ~T2-light) test whether a w1-monomial Stiefel-Whitney number of the observerse survives the forgetful map Omega^{Pin+}_14 -> Omega^O_14 -- if any is nonzero, sigma != 0 is proved WITHOUT the group order and WITHOUT the deck, ANOMALY-TRIVIAL excluded; (rung 2, if rung 1 vanishes into the Pin+ torsion kernel) build the group via the three named blockers AND evaluate the Pin+ eta-invariant on sigma's geometry -- the latter is T2-entangled and is the genuine residual hardness. BLOCKER TRACTABILITY: (1) h0-tower truncation lengths = a minimal A(1)-resolution of N through internal degree ~22 -- TRACTABLE NOW, bounded deterministic F_2 engine build (~400-700 lines extending the existing pin14 engine, cross-validated against Bruner's ext); (2) MSpin ABP corrections -- the summand list (ko, Sigma^8 ko<2>, Sigma^10 ko, Sigma^12 ko<2>) is PINNED by published ABP structure, their contributions are the SAME engine at cheaper stems 6/4/2, TRACTABLE with a literature-fidelity flag; (3) Adams d2/d3 + hidden 2-extensions -- mostly SUBSUMED into reading the h0-towers off the resolution (one v1-tower strongly constrains differentials), the one judgment-heavy residual, cross-checkable against Bruner-Greenlees ko^(RP-Thom) tables. THE CLASS GATE (T2) is the true blocker: which class sigma is needs the deck action, which the operator-grade swing found sigma-CIRCULAR -- so the exact class-assignment is NOT tractable from committed structure; the rung-1 SW route is the only sigma-free shot at class-nonvanishing and it may be too weak to see the torsion. HONEST BOTTOM LINE: the three 'blockers' compute the GROUP (tractable, well-posed, bounded) but the group is not the deliverable; the deliverable is sigma's-class-nonzero, whose cheap route (rung 1) is worth a dedicated pass NOW and whose fallback (rung 2 eta) stays T2-gated."
 status: active_research
 doc_type: exploration
 created: 2026-07-21
 outcome: "SCOPED (approach + minimum-sufficient computation identified). Recommended: run the cheapest-first ladder -- rung 1 (w1-SW-number survival under Omega^{Pin+}_14 -> Omega^O_14) is a bounded, largely T2-light pass that could settle ANOMALY-TRIVIAL now; the full |Omega^{Pin+}_14| order is a well-posed bounded engine build but is neither necessary nor sufficient; the class-assignment (rung-2 eta) stays T2-gated."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
-directed_by: "Joe direct chat, 2026-07-21 (SCOPE the anomaly-rigor approach; 4 personas inline in one worker; scoping only -- no full computation, no commit/push)"
+directed_by: "Joe direct chat, 2026-07-21 (SCOPE the anomaly-rigor approach; 4 perspectives inline in one worker; scoping only -- no full computation, no commit/push)"
 inputs:
   - explorations/pin14-anomaly-number-2026-07-21.md
   - tests/channel-swings/pin14_anomaly_number_probe.py
@@ -20,8 +18,8 @@ probe: NONE -- scoping pass only. No probe was run; no resolution engine was bui
 
 # SCOPING the anomaly-rigor approach -- the exact Omega^{Pin+}_14 computation, scoped
 
-Four personas reason INLINE in this one worker (each in-character and independent,
-then a synthesis; NEVER one agent per persona -- Joe's standing rule). This is a
+Four perspectives reason INLINE in this one worker (each in-character and independent,
+then a synthesis; NEVER one agent per perspective -- Joe's standing rule). This is a
 **scope-the-approach** swing: it designs the best route to the number the T1 shot
 (`pin14-anomaly-number`) left BLOCKED and identifies the MINIMUM computation that
 rigorously excludes ANOMALY-TRIVIAL. It does **not** run the computation, build the
@@ -57,7 +55,7 @@ analysis.
 
 ---
 
-## Persona (i) -- Stable-homotopy / Adams-SS computationalist
+## Perspective (i) -- Stable-homotopy / Adams-SS computationalist
 
 **The route to the verified minimal A(1)-resolution of `N` through stem 14.**
 
@@ -106,7 +104,7 @@ independent authority. Estimated engine: ~400-700 lines on top of the existing p
 
 ---
 
-## Persona (ii) -- Bordism / Anderson-Brown-Peterson specialist
+## Perspective (ii) -- Bordism / Anderson-Brown-Peterson specialist
 
 **The MSpin correction modules and whether published ABP structure pins them.**
 
@@ -154,7 +152,7 @@ literature-transcription fidelity, mitigated by cross-checking against a second 
 
 ---
 
-## Persona (iii) -- Computational-algebra / formal-verification engineer
+## Perspective (iii) -- Computational-algebra / formal-verification engineer
 
 **Can the resolution be machine-checked and reproducible, and at what build cost?**
 
@@ -188,7 +186,7 @@ resolves over the full `A`; overkill.
 
 **Build-cost estimate.** The pure-Python A(1)-resolution engine: **~400-700 lines** extending
 the existing ~430-line probe (the resolution loop + `h_0`/`h_1` bookkeeping + control battery).
-The ABP corrections (persona ii): **+~150-250 lines** (the `ko<2>` module + smash + three
+The ABP corrections (perspective ii): **+~150-250 lines** (the `ko<2>` module + smash + three
 cheaper resolutions). Cross-validation against Bruner `ext`: **hours-to-a-day of environment
 work**, not code. Total: a **single dedicated engine-build pass**, foreground-feasible over one
 focused session -- the same shape as the existing big-swing probes, materially larger than a
@@ -201,7 +199,7 @@ blocker.
 
 ---
 
-## Persona (iv) -- Anomaly / physics theorist (the decisive reframe)
+## Perspective (iv) -- Anomaly / physics theorist (the decisive reframe)
 
 **Do we actually need the full exact `|Omega^{Pin+}_14|` order -- or only "is `sigma`'s
 14-class NONZERO (and its 2-adic order)"?**
@@ -363,7 +361,7 @@ for a future Track B, never as a deliverable (reciting it as computed remains th
 over-claim the T1 shot declined). Nothing routes externally (Joe alone publishes).
 
 **Contribution.** Scopes the best approach to the T1-BLOCKED `Omega^{Pin+}_14` computation via
-four inline personas, and delivers the decisive reframe: the three named blockers compute the
+four inline perspectives, and delivers the decisive reframe: the three named blockers compute the
 GROUP (tractable now -- a bounded, deterministic, two-engine-verifiable minimal-A(1)-resolution
 build, ~600-950 lines in-repo), but the group is **neither necessary nor sufficient** to settle
 ANOMALY-TRIVIAL. The minimum-sufficient computation is a **single Pin+ bordism invariant nonzero

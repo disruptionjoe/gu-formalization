@@ -4,12 +4,9 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 portfolio_item: P-OBS-LEG
-lane: "2"
 outcome: P-OBS-LEG-ROUTED
 scientific_grade: owner-evidence routing audit
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # P-OBS-LEG admission and routing after PP1 freeze
@@ -53,18 +50,18 @@ bridge. No present release or bridge is asserted here.
 
 ## Boundary
 
-This is Lane 2 prediction-routing work at exploration grade. It changes no
+This is prediction research prediction-routing work at exploration grade. It changes no
 packet, threshold, claim, canon, verdict, public posture, P2C ownership, or T-D
 disposition. It performs no external data fetch or external action and creates
 no new attention mechanism.
 
 ## Next-work handoff
 
-- **Lane 2:** `DE-AMP-DIAGNOSTIC` is the strongest presently hourly-eligible
+- **prediction research:** `DE-AMP-DIAGNOSTIC` is the strongest presently hourly-eligible
   internal item. `P-OBS-LEG` waits on an official release or finite-`z*` bridge.
-- **Lane 1:** keep `OPERATOR-END-PENCIL` source-gated; do not rerun Q1a or Q2.
+- **truth-status research:** keep `OPERATOR-END-PENCIL` source-gated; do not rerun Q1a or Q2.
   Reopen only on a frozen source-owned end/asymptotic packet. Keep the
   falsification battery's T-D dispositions and P2C boundary intact.
-- **Lane 3:** retain normal hardening priority, but no Lean/Lake work was
+- **result-hardening research:** retain normal hardening priority, but no Lean/Lake work was
   eligible in this bounded run.
 

@@ -77,7 +77,7 @@ because it silently passes to `C` at a step where GU's prose does not flag it.
 **Status of this objection in the repo's own gap assessment.** In
 `explorations/nguyen-gu-critique/nguyen-critique-gap-assessment.md`, §3.1 is recorded as
 Nguyen's **"strongest hit"**: Column A ("Nguyen is correct") is affirmed by all five specialist
-personas, and Column C ("Nguyen provably wrong") is **empty ("None found")**. This note does
+perspectives, and Column C ("Nguyen provably wrong") is **empty ("None found")**. This note does
 **not** demote that finding. The point below is narrower and structural: it addresses only the
 *universal quantifier* implicit in "the construction *only works* after complexification."
 

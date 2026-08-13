@@ -7,8 +7,8 @@ was run blind to the other branches; nothing here references or synthesizes acro
 
 Deterministic companion test: `tests/W50_path2_C_fakeon.py` (15/15 checks, exit 0).
 
-Ran as a single worker with a 5-persona team INLINE (specialist -> referee -> adversary -> cross-checker
--> synthesizer), per the standing personas-always-inline rule.
+Ran as a single worker with a 5-perspective team INLINE (specialist -> referee -> adversary -> cross-checker
+-> synthesizer), per the standing perspectives-always-inline rule.
 
 ---
 
@@ -27,13 +27,13 @@ Two load-bearing objects have rival constructions; I name which I use and why.
   fork rule, this branch's result is a result *in the fakeon construction*; whether it transfers to GU's
   Krein construction is a separate question the orchestrator must not assume.
 - **"Unitarity."** Constructed **by prescription**, not derived. The fakeon is *defined* to be absent from
-  the cuts, so the projected S-matrix is unitary by construction. The referee persona holds this at
+  the cuts, so the projected S-matrix is unitary by construction. The referee perspective holds this at
   arm's length throughout: the interesting content is not "is it unitary" (yes, tautologically) but
   "does a consistent, Lorentz-invariant, RG-stable such prescription exist, and what does it cost."
 
 ---
 
-## 1. Persona 1 -- Fakeon specialist: the prescription, concretely, on the Stelle ghost
+## 1. Perspective 1 -- Fakeon specialist: the prescription, concretely, on the Stelle ghost
 
 The 4th-order (Stelle) spin-2 sector propagator has the schematic partial fraction
 
@@ -75,7 +75,7 @@ Test coverage (`W50` block A): `fakeon_denominator(x, eps)` is verified to have 
 shell (A2); the two share an identical real (dispersive) part (A3). So the *entire* content of the
 prescription lives in the removed absorptive part.
 
-## 1b. Persona 1 -- the one-loop bubble (Q-cut arithmetic)
+## 1b. Perspective 1 -- the one-loop bubble (Q-cut arithmetic)
 
 Take the one-loop scalar self-energy bubble in dispersive form, spectral density = the two-body phase
 space of masses `(m1, m2)`:
@@ -101,7 +101,7 @@ Concrete numbers used in `W50` block B: `m1 = 1`, ghost/fakeon mass `m2 = 3`, ex
 
 **=> Q-cut = YES, by construction, verified arithmetically.**
 
-## 2. Persona 2 -- Math-physics referee: what is proven vs argued
+## 2. Perspective 2 -- Math-physics referee: what is proven vs argued
 
 - **Q-cut is TRUE BY CONSTRUCTION, not derived** (graded: *proven-but-tautological*). The fakeon is
   *defined* to have no absorptive part; B2 is a consistency check on the arithmetic of the definition, not
@@ -115,7 +115,7 @@ Concrete numbers used in `W50` block B: `m1 = 1`, ghost/fakeon mass `m2 = 3`, ex
   (it acts on the scalar denominator `p^2 - m2^2` common to every spin-2 numerator), so the Q-cut result
   is expected to survive dressing; but "expected" is argued, not proven.
 
-## 3. Persona 3 -- Adversary: is the causality violation actually fatal? frame/regulator dependence?
+## 3. Perspective 3 -- Adversary: is the causality violation actually fatal? frame/regulator dependence?
 
 Attack 1 -- **regulator/frame dependence.** Could Q-cut be an artifact of the `i eps -> average` choice or
 of a preferred frame (the failure mode that sinks naive Lee-Wick contour prescriptions)? No: the average
@@ -145,7 +145,7 @@ So the causality violation is **real and permanent**, but its lethality is **con
 adversary's honest verdict: not fatal *as an EFT statement at the Planck cutoff*, fatal *as a claim of a
 fundamentally micro-causal theory* and fatal outright if phenomenology ever forces `m2` down.
 
-## 4. Persona 4 -- Cross-checker: independent derivation + the known Anselmi result
+## 4. Perspective 4 -- Cross-checker: independent derivation + the known Anselmi result
 
 Independent recomputation of the fakeon amplitude as a genuine Cauchy **principal value**, via a
 symmetric subtracted quadrature that never uses any `i eps` at all (skips the singular cell so its
@@ -160,7 +160,7 @@ Known-result anchor: in Anselmi-Piva's scalar/Yukawa fakeon models the prescript
 `S`-matrix on the physical subspace (fakeons never in cuts) and (ii) violates micro-causality only within
 `~1/m_fakeon`. Our toy reproduces both features qualitatively and the cut-removal exactly.
 
-## 5. Persona 5 -- Synthesizer: the branch verdict
+## 5. Perspective 5 -- Synthesizer: the branch verdict
 
 **Q-cut -- YES, BY CONSTRUCTION (verified).** Confidence HIGH on the mechanism, but explicitly
 tautological: the fakeon is *defined* cut-absent; the bubble arithmetic confirms the definition is

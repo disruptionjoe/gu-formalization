@@ -16,9 +16,7 @@ inputs:
   - tests/channel-swings/decision_tree_Q1a_fiber_end_classification_probe.py
 probe: tests/channel-swings/decision_tree_Q1a_hostile_verify_true_end_probe.py (foreground, EXIT 0)
 outcome: HV-REFUTE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

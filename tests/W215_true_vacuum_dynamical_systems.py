@@ -27,7 +27,7 @@ roots +/- 1/2; W126/W159 gradient rational W(v)=2(2688v^6-544v^4+40v^2-1)/(16v^2
 degeneration v^2=1/16, positive series 2,16,320,5888; |m_0^2|=1/4=4x(1/16) margin;
 W145 N=e^{4p} monotone.
 
-FIVE personas inline, one worker, no sub-agents (phase-portrait analyst; DBI-clock
+FIVE perspectives inline, one worker, no independent reviewers (phase-portrait analyst; DBI-clock
 specialist; attractor/Lyapunov-stability specialist; record-accretion-roll specialist;
 ruthless skeptic).  Deterministic sympy + numpy, positive controls first.
 Run:  python -u tests/W215_true_vacuum_dynamical_systems.py   (exit 0 iff all PASS).
@@ -112,7 +112,7 @@ check("PC5  W145 N = e^{4p}, dN/dp = 4 e^{4p} > 0 (record count monotone in scal
 #   it -> 1 at v=0 and -> 0 as v -> v_max, so it CAPS velocity (W159 speed-limit fact).
 # Gamma >= 0 is Hubble/everpresent drag.
 # ===========================================================================
-log("\n-- PERSONA 1: phase-portrait analyst -- fixed points + stability (eigenvalues) --")
+log("\n-- PERSPECTIVE 1: phase-portrait analyst -- fixed points + stability (eigenvalues) --")
 
 pS, vS, G, c = sp.symbols("p v Gamma c", real=True)
 
@@ -157,7 +157,7 @@ log("     The native (empty, no-record) initial condition sits AT / near this sa
 log("     Its unstable manifold is the ROLL: the field leaves the hilltop; N = e^{4p} grows.")
 
 # ===========================================================================
-log("\n-- PERSONA 2: DBI-clock specialist -- the endpoint is a TERMINAL-VELOCITY attractor --")
+log("\n-- PERSPECTIVE 2: DBI-clock specialist -- the endpoint is a TERMINAL-VELOCITY attractor --")
 # ===========================================================================
 # On a minimum-free runaway hilltop, F_drive > 0 stays bounded-away-from-zero as p grows
 # (physical c>=0 branch), and the DBI factor forces v -> v_max.  Integrate numerically.
@@ -210,7 +210,7 @@ log("     Endpoint = a 'fixed point at infinity' (p -> +inf, v = v_max): a de Si
 log("     attractor.  Bounded VELOCITY, unbounded FIELD/VOLUME.  N = e^{4 v_max tau} finite-rate.")
 
 # ===========================================================================
-log("\n-- PERSONA 3: attractor / Lyapunov-stability specialist --")
+log("\n-- PERSPECTIVE 3: attractor / Lyapunov-stability specialist --")
 # ===========================================================================
 # (a) v_max is a STABLE fixed point of the reduced velocity dynamics on the unstable
 #     manifold: for fixed drive F>0, dv/dtau = (1-(v/v_max)^2)^{3/2} F, and near v=v_max
@@ -245,7 +245,7 @@ check("DS3c  endpoint spectrum: V''(p) = m_0^2 = -1/4 EVERYWHERE (exact-quadrati
       "no stable-minimum spectrum; curvature stays tachyonic at the endpoint")
 
 # ===========================================================================
-log("\n-- PERSONA 4: record-accretion-roll specialist -- arrow / DBI clock reading holds --")
+log("\n-- PERSPECTIVE 4: record-accretion-roll specialist -- arrow / DBI clock reading holds --")
 # ===========================================================================
 # W166: m^2<0 <=> N grows = arrow.  W185/W187 accretion r(N) = kappa0 sqrt(N).  Show the
 # DBI clock is graceful-in-rate at the attractor and the everpresent drive DECELERATES.
@@ -273,7 +273,7 @@ check("DS4c  accretion r(N)=kappa0 sqrt(N) monotone; r*Lambda = kappa0 const (mo
       "one-way accretion, no oscillatory restoring component -> rolls, never settles")
 
 # ===========================================================================
-log("\n-- PERSONA 5: RUTHLESS skeptic -- is there ANY stable fixed-point true vacuum? --")
+log("\n-- PERSPECTIVE 5: RUTHLESS skeptic -- is there ANY stable fixed-point true vacuum? --")
 # ===========================================================================
 # Try BOTH everpresent branches to manufacture a finite stable minimum.
 # V_tot(p) = (1/2) m_0^2 p^2 + c e^{-2p}.  A stable vacuum needs V_tot'(p*)=0 AND

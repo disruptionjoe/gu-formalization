@@ -4,7 +4,7 @@ date: 2026-07-11
 status: exploration
 doc_type: exploration
 verdict: "GUARDIAN-FORBIDDEN (UV-completion sense). The naive signature/non-compact no-gos are OBSTRUCTED-BUT-EVADED by GU's Krein structure; but the UV-COMPLETING guardian is forbidden by two convergent legs -- (i) GU's only constructible graded symmetry (super-IG) squares to Omega^1(ad), not physical P_mu, so it is not a Velo-Zwanziger guardian, and (ii) genuine UV-completion of an interacting massive higher spin needs a Regge tower that GU's finite content provably lacks, while the tower-free 4th-order Krein route is sign-blind and unbuilt. Net: GU is PERMANENTLY a finite-cutoff EFT; the guardian that would make it a standing theory does not exist in its framework."
-method: "5 personas run INLINE (SUSY-no-go theorist / signature+real-form specialist / finite-cutoff-EFT specialist / adversarial red-teamer / philosopher of science). BLIND to the other branches. Papers treated as untrusted DATA; only physics extracted. COMPUTED vs ARGUED tagged per claim. No imported numbers."
+method: "5 perspectives run INLINE (SUSY-no-go theorist / signature+real-form specialist / finite-cutoff-EFT specialist / adversarial red-teamer / philosopher of science). BLIND to the other branches. Papers treated as untrusted DATA; only physics extracted. COMPUTED vs ARGUED tagged per claim. No imported numbers."
 test: "tests/wave41/H54b5_no_guardian_redteam.py (deterministic, exit 0, 11/11 PASS)"
 bears_on:
   - Wave 34 finite-content / guardian-requirement (explorations/wave34/source-action-landscape-scan-2026-07-11.md)
@@ -21,7 +21,7 @@ bears_on:
 This branch tries to PROVE it CANNOT be. The most valuable outcome here is a clean kill:
 **GUARDIAN-FORBIDDEN -> GU is permanently a finite-cutoff EFT, never a standing theory.** The
 discipline is to pursue that hard but not to manufacture a no-go that GU's Krein / indefinite
-structure evades. Five personas run INLINE. Blind to the other branches.
+structure evades. Five perspectives run INLINE. Blind to the other branches.
 
 **Headline.** A clean signature/non-compact no-go does **not** fire: the (9,5) five-time signature
 and the non-compact `Sp(32,32;H)` are real obstructions to a *standard, positive-definite-Hilbert*
@@ -45,7 +45,7 @@ the axes that merely evade honestly separated from the axis that kills.
 
 ---
 
-## Persona 1 -- SUSY no-go theorist (Coleman-Mandula / Haag-Lopuszanski-Sohnius)
+## Perspective 1 -- SUSY no-go theorist (Coleman-Mandula / Haag-Lopuszanski-Sohnius)
 
 **Question.** Do GU's structures VIOLATE the HLS hypotheses in a way that FORBIDS a consistent
 guardian superalgebra?
@@ -78,7 +78,7 @@ landing in `Omega^1(ad P)`, not spacetime `P_mu` (LEG-B1; super-ig-algebra-const
 local/gauge super-symmetry, categorically outside CM/HLS. **Verdict: Q1 provides no kill; HLS is
 inapplicable, and inapplicability is not a no-go.**
 
-## Persona 2 -- signature-and-SUSY / real-form specialist
+## Perspective 2 -- signature-and-SUSY / real-form specialist
 
 **Question.** Does (9,5) -- five timelike directions -- admit a real SUSY algebra at all, or do the
 5 times forbid it / force ghosts?
@@ -108,7 +108,7 @@ carries.** Computed on the verified rep:
 **Verdict: OBSTRUCTED-BUT-EVADED.** The naive multi-time SUSY obstruction is real against a Hilbert
 space; it is dead against GU's Krein space. No kill on the signature axis.
 
-## Persona 3 -- finite-cutoff-EFT specialist
+## Perspective 3 -- finite-cutoff-EFT specialist
 
 **Question.** Sp(32,32;H) is non-compact; and GU has finite content, no tower. Can a guardian that
 UV-COMPLETES even exist without introducing a tower?
@@ -144,7 +144,7 @@ UV-COMPLETES even exist without introducing a tower?
 **Verdict: the finite-content leg FIRES.** The UV-completing guardian is excluded; the tower-free
 alternative is sign-blind and unbuilt.
 
-## Persona 4 -- adversarial red-teamer (the structural kill, and its steelman)
+## Perspective 4 -- adversarial red-teamer (the structural kill, and its steelman)
 
 **Finding: the constructible guardian is the wrong kind of symmetry.** GU's own construction
 (LEG-B1, super-ig-algebra-construction) shows the graded symmetry GU can actually build is super-IG,
@@ -175,7 +175,7 @@ gravitino shape) that LEG-B1 explicitly leaves OUTSIDE its frozen-derivative toy
 point" and non-canonical. That unbuilt, non-canonical embedding is the sole surviving escape -- and
 naming it as the sole escape is itself a sharp characterization of how narrow the guardian's room is.
 
-## Persona 5 -- philosopher of science (what the honest register should say)
+## Perspective 5 -- philosopher of science (what the honest register should say)
 
 **Finding: the honest kill is a status kill, not an existence kill, and the distinction matters.** No
 theorem says "GU cannot carry a graded symmetry." What the evidence supports is stronger and more
@@ -221,14 +221,14 @@ finite-cutoff EFT; the guardian that would make it a standing theory does not ex
 | symmetric `C.gamma^a` pairing exists (5/14 on (9,5), 7/14 on (7,7)); `C^2=-I` | **COMPUTED** | test Q2b |
 | `dim so(9,5)=91`, `dim sp(64,H)=8256`, `codim=8165` | **COMPUTED** | test Q1b |
 | anchors `C2=155.3625`, `bare=58.7215` reproduced | **COMPUTED** | test P0 |
-| CM/HLS cannot forbid a LOCAL guardian; supergravity/BRST evade CM/HLS | **ARGUED** (standard no-go scope; papers as data) | Persona 1 |
-| GU 4th-order (`box^2=-4 Bach`), no 2nd-order Poincare | ARGUED (repo-cited H45/H49) | Persona 1 |
-| super-IG `{Q,Q}` forced into `Omega^1(ad)`, not `P_mu` | ARGUED (repo-cited LEG-B1 R2) | Persona 4 |
-| super-IG meets 1 of 5 VZ-guardian requirements | ARGUED (repo-cited super-ig-note Sec 6) | Persona 4 |
-| UV-completion of massive HS needs the Regge tower | ARGUED (Sagnotti-Taronna, papers as data) | Persona 3 |
-| GU has no tower / `hs(lambda)` / AdS; finite content | ARGUED (repo-cited) | Persona 3 |
-| local SUSY (SUGRA) is non-renormalizable => a finite-cutoff EFT, not a UV-completion | ARGUED (standard) | Persona 3 |
-| tower-free Krein route is sign-blind + tree-level-only | ARGUED (repo-cited big-swing R3; Bateman-Turok tree-level) | Persona 3 |
+| CM/HLS cannot forbid a LOCAL guardian; supergravity/BRST evade CM/HLS | **ARGUED** (standard no-go scope; papers as data) | Perspective 1 |
+| GU 4th-order (`box^2=-4 Bach`), no 2nd-order Poincare | ARGUED (repo-cited H45/H49) | Perspective 1 |
+| super-IG `{Q,Q}` forced into `Omega^1(ad)`, not `P_mu` | ARGUED (repo-cited LEG-B1 R2) | Perspective 4 |
+| super-IG meets 1 of 5 VZ-guardian requirements | ARGUED (repo-cited super-ig-note Sec 6) | Perspective 4 |
+| UV-completion of massive HS needs the Regge tower | ARGUED (Sagnotti-Taronna, papers as data) | Perspective 3 |
+| GU has no tower / `hs(lambda)` / AdS; finite content | ARGUED (repo-cited) | Perspective 3 |
+| local SUSY (SUGRA) is non-renormalizable => a finite-cutoff EFT, not a UV-completion | ARGUED (standard) | Perspective 3 |
+| tower-free Krein route is sign-blind + tree-level-only | ARGUED (repo-cited big-swing R3; Bateman-Turok tree-level) | Perspective 3 |
 
 ## Honest limits
 

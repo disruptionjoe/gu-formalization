@@ -1,11 +1,11 @@
 ---
 artifact_type: exploration
-status: exploration (W148; full-roster substrate-primary steelman sweep, PHILOSOPHY / EPISTEMOLOGY / FOUNDATIONS family; 13 personas inline, one context, no sub-agents)
+status: exploration (W148; full-roster substrate-primary steelman sweep, PHILOSOPHY / EPISTEMOLOGY / FOUNDATIONS family; 13 perspectives inline, one context, no independent reviewers)
 created: 2026-07-14
 wave: W148
 hypothesis: "W148 -- steelman Joe's ONTOLOGY-REVERSING reframe at full strength: the fundamental object is a SUBSTRATE where records are held, NOT an observable cosmological energy issuance distributed to observers. Two mid-wave clarifications from Joe are load-bearing: (1) the substrate is Y14 ITSELF (the 14-dim observerse houses the records we cannot see until they project into X4; X4 is the shadow via GU's Y14 -> X4 projection) -- so the reframe is a reading of GU's own geometry, not an imported causal set; (2) the firewall/boundary is an ARTIFACT of the capability hierarchy GLOBAL -> REGIONAL -> INDIVIDUAL, with Y14 -> X4 projection MEASUREMENT-GATED (individual observation promotes hidden Y14 records into shared regional measured reality), a participatory-realist ontology that DERIVES the firewall-boundary canon object. Records exist somewhere; that substrate is the ground; something provides energy for records / observer / system to CONTINUE, bounded by region / global / individual. The GLOBAL GROWTH of Y14 records is the more-fundamental thing; cosmic expansion / dark energy is its X4 SHADOW. Steelman BOTH candidate substrate structures AND the ontology: is 'Y14 records are fundamental, X4 expansion is derivative' a demarcatable physical claim beyond the standard 'Y14 = bundle of metrics' reading, or interpretation on identical mathematics, and what discipline makes the causal-arrow reversal honest."
-title: "W148 -- the philosophy/foundations family steelman sweep of the SUBSTRATE-PRIMARY reframe, updated for Joe's two mid-wave clarifications (the substrate is Y14 ITSELF, GU-native, not an imported causal set; and the firewall boundary is an ARTIFACT of the global/regional/individual capability hierarchy, with Y14 -> X4 projection MEASUREMENT-GATED). 13 personas, 26 stories (each as: (i) the substrate object OR ontological structure, (ii) the growth/continuation law, (iii) the shadow map to expansion/Lambda, (iv) the assumption leg, (v) the TEST / DEMARCATION CRITERION), scored against the W138 battery + the novelty gate + progressive/degenerating + a NOVEL / DUAL-TO-ISSUANCE / PRE-MATHEMATICAL trichotomy. KEY DELIVERABLE (revised under the clarifications): reading Y14 as 'the record substrate we cannot see' and X4 as 'its projected shadow' is NEITHER free-floating metaphysics NOR causal-set relabeling -- it is a GU-native reading of GU's own Y14/X4 projection, which clears both deflations at the ONTOLOGY level. The novel/dual line therefore reduces to ONE map: does the Y14-record-count -> X4-shadow-Lambda map (the everpresent number->volume->Lambda mechanism, gated by the capability tiers) yield a number the standard 'Y14 = bundle of metrics, static Lambda' reading does not. It does so via one concrete falsifiable observable: MEASUREMENT-GATED PROMOTION makes the DE shadow observer/structure-DENSITY-dependent (a DE-vs-density cross-correlation, the object the W147 team is chasing), which the un-tiered reading lacks -- so substrate-primary is NOVEL-conditional on that cross-correlation, DUAL for all background numbers (rho' = Q is arrow-agnostic), and no longer PRE-MATHEMATICAL as an ontology (Y14 is a built object). SECONDARY DELIVERABLE: the capability-hierarchy reading DERIVES the firewall-boundary canon object (boundary = the interface where individual observation promotes hidden Y14 records into shared regional measured reality) rather than relabeling it -- a genuine explanatory-win SHAPE, but tri-repo-GATED because it imports TaF's capability measure to explain a GU canon object. C-OPERATOR ADJUDICATION (under literal Y14): C+ is the admissible-record structure on the Y14 fibers; the five-family convergence is a REAL CLICK at the ontology level and an EQUIVOCATION WARNING at the cardinality level (a subspace is not a countable growing set), redeemed by exhibiting N = Tr(P eta_+) over the Y14->X4 fiber as a well-defined growing count that the promotion map gates (K2)."
-grade: "exploration / conditional register throughout. METHOD AND ANALYSIS, not evidence: no new computation is run; every number cited is a standing repo result (W132/W135/W136/W137/W138, W142, the Sorkin causal-set axis note, E1 meta-audit) or a labelled pointer to external literature (Sorkin/Bombelli everpresent Lambda, Wheeler it-from-bit, Leibniz/Barbour relationalism -- pointer-grade, from memory, flagged inline). Every statement below a declared postulate reads 'X under the substrate declaration'; nothing asserts the declaration. Personas inline (one worker). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; no spec FIT row moves; tri-repo gate honored (record/finality semantics belong to temporal-issuance + time-as-finality; 'substrate', 'record growth' and 'continuation' are W148 local postulate labels only; no cross-repo identity asserted)."
+title: "W148 -- the philosophy/foundations family steelman sweep of the SUBSTRATE-PRIMARY reframe, updated for Joe's two mid-wave clarifications (the substrate is Y14 ITSELF, GU-native, not an imported causal set; and the firewall boundary is an ARTIFACT of the global/regional/individual capability hierarchy, with Y14 -> X4 projection MEASUREMENT-GATED). 13 perspectives, 26 stories (each as: (i) the substrate object OR ontological structure, (ii) the growth/continuation law, (iii) the shadow map to expansion/Lambda, (iv) the assumption leg, (v) the TEST / DEMARCATION CRITERION), scored against the W138 battery + the novelty gate + progressive/degenerating + a NOVEL / DUAL-TO-ISSUANCE / PRE-MATHEMATICAL trichotomy. KEY DELIVERABLE (revised under the clarifications): reading Y14 as 'the record substrate we cannot see' and X4 as 'its projected shadow' is NEITHER free-floating metaphysics NOR causal-set relabeling -- it is a GU-native reading of GU's own Y14/X4 projection, which clears both deflations at the ONTOLOGY level. The novel/dual line therefore reduces to ONE map: does the Y14-record-count -> X4-shadow-Lambda map (the everpresent number->volume->Lambda mechanism, gated by the capability tiers) yield a number the standard 'Y14 = bundle of metrics, static Lambda' reading does not. It does so via one concrete falsifiable observable: MEASUREMENT-GATED PROMOTION makes the DE shadow observer/structure-DENSITY-dependent (a DE-vs-density cross-correlation, the object the W147 team is chasing), which the un-tiered reading lacks -- so substrate-primary is NOVEL-conditional on that cross-correlation, DUAL for all background numbers (rho' = Q is arrow-agnostic), and no longer PRE-MATHEMATICAL as an ontology (Y14 is a built object). SECONDARY DELIVERABLE: the capability-hierarchy reading DERIVES the firewall-boundary canon object (boundary = the interface where individual observation promotes hidden Y14 records into shared regional measured reality) rather than relabeling it -- a genuine explanatory-win SHAPE, but tri-repo-GATED because it imports TaF's capability measure to explain a GU canon object. C-OPERATOR ADJUDICATION (under literal Y14): C+ is the admissible-record structure on the Y14 fibers; the five-family convergence is a REAL CLICK at the ontology level and an EQUIVOCATION WARNING at the cardinality level (a subspace is not a countable growing set), redeemed by exhibiting N = Tr(P eta_+) over the Y14->X4 fiber as a well-defined growing count that the promotion map gates (K2)."
+grade: "exploration / conditional register throughout. METHOD AND ANALYSIS, not evidence: no new computation is run; every number cited is a standing repo result (W132/W135/W136/W137/W138, W142, the Sorkin causal-set axis note, E1 meta-audit) or a labelled pointer to external literature (Sorkin/Bombelli everpresent Lambda, Wheeler it-from-bit, Leibniz/Barbour relationalism -- pointer-grade, from memory, flagged inline). Every statement below a declared postulate reads 'X under the substrate declaration'; nothing asserts the declaration. Perspectives inline (one worker). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; no spec FIT row moves; tri-repo gate honored (record/finality semantics belong to temporal-issuance + time-as-finality; 'substrate', 'record growth' and 'continuation' are W148 local postulate labels only; no cross-repo identity asserted)."
 depends_on:
   - explorations/W135-issuance-structure-taxonomy-2026-07-14.md
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
@@ -15,8 +15,8 @@ depends_on:
   - explorations/W132-graded-optical-theorem-physical-subspace-2026-07-14.md
   - explorations/sorkin-causal-set/sorkin-causal-set-axis-note.md
   - lab/specifications/six-axis/examples/example-02-sorkin-causal-set.md
-  - explorations/two-track-persona-sweep-2026-07-11/C-foundations-observer.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/C-foundations-observer.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - explorations/threads/E-one-object-recurrence-meta-audit-2026-07-11.md
   - canon/firewall-boundary-hypothesis.md
 ---
@@ -46,7 +46,7 @@ own, so this family polices the gate harder than any prior wave).
 
 **Family partition.** Assigned family PHILOSOPHY / EPISTEMOLOGY / FOUNDATIONS; nearest roster
 partition is Slice C of the two-track sweep (FOUNDATIONS / INFORMATION / OBSERVER,
-`explorations/two-track-persona-sweep-2026-07-11/C-foundations-observer.md`). All 13 personas
+`explorations/two-track-perspective-sweep-2026-07-11/C-foundations-observer.md`). All 13 perspectives
 taken, none skipped:
 
 1. Philosopher of science (Lakatosian)
@@ -63,11 +63,11 @@ taken, none skipped:
 12. Mathematical minimalist
 13. Philosopher of mathematics
 
-All run inline, sequentially, one context, no sub-agents.
+All run inline, sequentially, one context, no independent reviewers.
 
 **Two mid-wave clarifications from Joe (load-bearing; applied throughout, decisive for the
-ontology ruling).** These arrived after the per-persona pass was drafted and are applied at
-scoring (Sections 3, 3-bis, 4); the per-persona generation record in Section 1 is retained and
+ontology ruling).** These arrived after the per-perspective pass was drafted and are applied at
+scoring (Sections 3, 3-bis, 4); the per-perspective generation record in Section 1 is retained and
 the clarifications sharpen rather than reverse it.
 
 - **CLARIFICATION 1 -- the substrate is Y14 ITSELF, not an imported causal set.** "The whole
@@ -156,7 +156,7 @@ contain.
 
 ---
 
-## 1. Per-persona pass: two substrate steelman stories each
+## 1. Per-perspective pass: two substrate steelman stories each
 
 Format per story: **(i)** the substrate object or ontological structure; **(ii)** the growth /
 continuation law; **(iii)** the shadow map to expansion / Lambda; **(iv)** the assumption leg
@@ -164,12 +164,12 @@ continuation law; **(iii)** the shadow map to expansion / Lambda; **(iv)** the a
 observable commitment separating substrate-primary from observable-primary, plus the
 degeneration signature).
 
-### Persona 1: Philosopher of science (Lakatosian)
+### Perspective 1: Philosopher of science (Lakatosian)
 
 **Story 1A (ontology as hard core + positive heuristic).**
 (i) Hard core = { there is a growing record substrate; observable geometry is its coarse-grain
 shadow }. (ii) Growth law = an ORDERED problem sequence the core dictates: identify the
-substrate's countable element-set (candidate: C+ spectral basis, Persona 4) -> its growth rate
+substrate's countable element-set (candidate: C+ spectral basis, Perspective 4) -> its growth rate
 -> the number-to-volume conjugacy -> the fluctuation law -> the correlation signature.
 (iii) Shadow map = volume/Lambda read off the number leg (Sorkin-shaped). (iv) Assumption leg:
 the substrate declaration held in the DECLARATION register. (v) Demarcation: the program is
@@ -188,7 +188,7 @@ find the observable at which "growth-primary" and "expansion-primary" disagree, 
 reversal is interpretation. **This is the wave's sharpest method result** and feeds Section 3.
 Survives.
 
-### Persona 2: Information-first / entropic theorist (Bianconi / it-from-bit lens)
+### Perspective 2: Information-first / entropic theorist (Bianconi / it-from-bit lens)
 
 **Story 2A (Wheeler it-from-bit substrate).**
 (i) Substrate = the bit-registry: reality is participatory records ("it from bit", Wheeler 1990,
@@ -197,7 +197,7 @@ registered per participatory act. (iii) Shadow = expansion is the growing inform
 Lambda ~ (rate of new bits)/(volume). (iv) Assumption leg: bits precede geometry. (v)
 Demarcation: it-from-bit is notoriously non-demarcatable unless the bit-count is a SPECIFIC
 functional of repo objects. Here the only GU-native candidate bit-count is the C+ spectral
-count (Persona 4). Absent that, **PRE-MATHEMATICAL**: the story cannot state its own domain
+count (Perspective 4). Absent that, **PRE-MATHEMATICAL**: the story cannot state its own domain
 (same disposal class as W142's "bare events"). On notice, not discarded, pending the C+
 identification.
 
@@ -211,7 +211,7 @@ correlation commitment (DE perturbations track the matter-induced-metric perturb
 fixed functional form). **DUAL-TO-ISSUANCE**, and the weight is rival-native (Bianconi, not GU)
 until S_IG exists. Honesty flag inherited from W142: capacities-transplant, not a GU click.
 
-### Persona 3: Observer-first / observerse theorist
+### Perspective 3: Observer-first / observerse theorist
 
 **Story 3A (the observerse as the substrate; sections as its element-classes).**
 (i) Substrate = the observerse (the bundle of sections of Met(X4)); "records held somewhere" =
@@ -231,9 +231,9 @@ one GU-native interface class and count its growth. Survives, top-tier.
 (i) Substrate element weighted by |II_sigma|^2 pointwise cost. (ii)/(iii) as W142 3A. (v) DEAD at
 definition: |II|^2 is Krein-signed (W137 exact witnesses, h0 = -1); a signed density cannot count
 elements of a substrate. Discard -- the cleanest illustration that the substrate must route
-through a POSITIVE functional (Persona 4).
+through a POSITIVE functional (Perspective 4).
 
-### Persona 4: Quantum-foundations theorist
+### Perspective 4: Quantum-foundations theorist
 
 **Story 4A (the C+ subspace IS the substrate element-set; N = spectral count of C+).**
 (i) Substrate = the positive subspace H_C+ of the interacting C-operator (W132), which the five
@@ -265,13 +265,13 @@ DUAL of W142's #1 story** -- same operator, same test, arrow reversed. Its novel
 inherited from 4A: if C+ is the substrate, B^dag B is its continuation ledger; if not, this is
 issuance re-labelled. DUAL-to-issuance with a NOVEL-conditional upgrade riding on 4A.
 
-### Persona 5: Thermodynamic-gravity theorist (Jacobson / Verlinde)
+### Perspective 5: Thermodynamic-gravity theorist (Jacobson / Verlinde)
 
 **Story 5A (horizon-bit substrate).**
 (i) Substrate = horizon degrees of freedom; records = horizon bits. (ii) Growth = area growth.
 (iii) Shadow = Lambda = de Sitter horizon heat. (v) DEAD at G5 by direct application: the shadow
 map reduces to E_Lambda = T_dS S_dS / 1.46 with no new degree of freedom (Gibbons-Hawking / Cai-
-Kim relabeled). The thermodynamic persona's honest move is to concede its most natural substrate
+Kim relabeled). The thermodynamic perspective's honest move is to concede its most natural substrate
 story to the battery. Discard. **Note for the reframe specifically:** this is the trap the
 substrate story is MOST prone to, because "records held on a boundary" invites "records = horizon
 bits"; G5 is the standing guard.
@@ -289,7 +289,7 @@ vocabulary must be dropped (its lever was never exercised). **Best METHOD steelm
 provides energy to continue"**: it names the somehow, the measuring number, the decision
 computation, and the exit. Survives, top-tier. Named computation: C3.
 
-### Persona 6: Relational / Rovelli-style physicist (Leibniz / Barbour ported)
+### Perspective 6: Relational / Rovelli-style physicist (Leibniz / Barbour ported)
 
 **Story 6A (relations before substance -- the substrate is the relation-net, not a container).**
 (i) Substrate = the network of correlations between subsystems (Leibniz/Barbour relationalism,
@@ -304,7 +304,7 @@ substantivalism Leibniz/Barbour deny. So the reframe faces a fork: either (a) th
 substantival (a container of records) -- then it is a new absolute space, philosophically
 retrograde and empirically idle, or (b) the substrate is relational -- then "substrate-primary"
 just means "relations-primary," which is the issuance program's Q read relationally, i.e. DUAL.
-The relational persona forces the reframe to declare which, and neither branch is novel by
+The relational perspective forces the reframe to declare which, and neither branch is novel by
 itself. Survives as the fork-forcing gate.
 
 **Story 6B (frame-independence test on the growth law).**
@@ -316,7 +316,7 @@ Tr P eta_+ is foliation-tagged only through the physical horizon P, which is rel
 (fails: horizon-bit count is foliation-dependent -- a second reason 5A dies). Survives as
 instrument.
 
-### Persona 7: Category-theoretic foundations
+### Perspective 7: Category-theoretic foundations
 
 **Story 7A (the substrate as a growing colimit / the number leg as a counting functor).**
 (i) Substrate = a diagram whose colimit is the observable geometry; records = objects entering
@@ -343,7 +343,7 @@ computes." **Second sharp ontology result**: substrate-primary as a metaphysical
 non-demarcatable; substrate-primary as "the coarse-graining functor has computable content" is
 fine and is DUAL to the issuance functor. Survives.
 
-### Persona 8: Computational-irreducibility theorist (Wolfram / Gorard)
+### Perspective 8: Computational-irreducibility theorist (Wolfram / Gorard)
 
 **Story 8A (the hypergraph rewrite substrate -- Joe's DAG made literal).**
 (i) Substrate = a Wolfram-model hypergraph; records = nodes/edges; the growth is the rewrite
@@ -374,7 +374,7 @@ hope for. (v) Demarcation: ratio of computed to interpretive steps per wave; deg
 where "growth" is prose reclassification. Survives as instrument; this wave makes no object claim
 so it passes trivially.
 
-### Persona 9: Bayesian / epistemics-of-physics lens
+### Perspective 9: Bayesian / epistemics-of-physics lens
 
 **Story 9A (the reversal as a prior swap that must repay).**
 (i) Structure: reversing the arrow LOWERS the prior (it is an extra unforced commitment on top of
@@ -394,7 +394,7 @@ the reframe's true adversary** and the reason the NOVEL bin is empty-so-far: the
 only earns its structure where a growth-induced fluctuation is detected, and none is. Survives as
 the control arm -- the substrate analogue of W142's uniform-F null.
 
-### Persona 10: Differential geometer
+### Perspective 10: Differential geometer
 
 **Story 10A (Order + Number = Geometry as a metric-reconstruction statement).**
 (i) Substrate = order + number; the metric is RECONSTRUCTED (Sorkin: number gives volume, order
@@ -423,7 +423,7 @@ reading retreats to asymptotic deformations (one landing spot, the W103 tail-quo
 is terminal. **DUAL of W142 10B**, arrow reversed; best kill hygiene. Named computation: the C2
 integration-by-parts. Survives at conjecture grade.
 
-### Persona 11: Scientific skeptic
+### Perspective 11: Scientific skeptic
 
 **Story 11A (the feature-framing tripwire on the reversal itself).**
 (i) Structure: "the obstruction is really a substrate" has the EXACT shape of the repo's known
@@ -445,7 +445,7 @@ orthogonal data, then positing a growing record substrate UNDER it adds unfalsif
 constant-Lambda description cannot produce. This is the same bar as 9B from the parsimony side.
 Survives; it is the class-level death condition for the reframe.
 
-### Persona 12: Mathematical minimalist
+### Perspective 12: Mathematical minimalist
 
 **Story 12A (the minimal-substrate rule).**
 (i) Structure: the substrate earns ontological weight only by determination count. "Constant
@@ -470,7 +470,7 @@ is CAUSAL-SET's, not GU's; claiming it for GU is exactly the novelty-gate violat
 minimalist's ruling: the reframe may HONESTLY point at the Sorkin magnitude result as motivation,
 but may not book it as a GU determination. Survives as the standing quote-audit for the reframe.
 
-### Persona 13: Philosopher of mathematics
+### Perspective 13: Philosopher of mathematics
 
 **Story 13A (modal hygiene on the arrow).**
 (i) Structure: "substrate is fundamental, expansion is derivative" carries a MODAL claim
@@ -530,7 +530,7 @@ and each is exercised at least once.
    most exposed. Named computation: K2 positivity, then the Y14-fiber count -> X4 density-tied
    Lambda modulation.
 2. **3A -- the observerse / Y14 substrate, fused with the capability-tier firewall derivation**
-   (observerse persona + Clarification 2). The most GU-NATIVE substrate ontology: Y14 as the
+   (observerse perspective + Clarification 2). The most GU-NATIVE substrate ontology: Y14 as the
    ground the records are held in, X4 as the measurement-promoted shadow, and the firewall as the
    capability-tier interface (Section 3-bis) -- which DERIVES a canon object (explanatory-win
    shape) but is tri-repo-gated. Carries the wave's one demarcating observable: observer/
@@ -538,7 +538,7 @@ and each is exercised at least once.
    chasing. NOVEL-conditional; the strongest motivation on the board. Named computation: the
    density cross-correlation amplitude from the Y14 fiber, handed to W147.
 3. **5B -- continuation as a Cartwright capacity profile, C3 as decision computation**
-   (thermodynamic persona, post-concession). The best steelman of "something provides energy to
+   (thermodynamic perspective, post-concession). The best steelman of "something provides energy to
    CONTINUE": names the somehow (per-slice exchange capacity), the number (-8u), the decision
    computation (C3), and the exit (drop the vocabulary on a null). Named computation: C3.
 4. **4B -- B^dag B as the continuation-energy ledger** (quantum-foundations). The positive
@@ -752,6 +752,6 @@ constraints (Convention-A/B separator, Omega_L-collapse novelty tripwire) only. 
 issuance function) present as an uncommitted test file only and not relied upon. The four discarded
 stories are disposed with reasons; the on-notice story (2A) carries a counter, not a verdict.
 
-*Filed 2026-07-14, W148, philosophy/epistemology/foundations family (slice-C roster, 13 personas,
+*Filed 2026-07-14, W148, philosophy/epistemology/foundations family (slice-C roster, 13 perspectives,
 26 stories, run inline in one session). Exploration grade, conditional register throughout. Zero
 em dashes in paper-facing text.*

@@ -23,7 +23,7 @@ Lee-Wick mechanism at one loop: the pole moves off the real axis as a complex-co
 cut on real external states carries no negative ghost contribution. The named obstruction was higher-loop
 CLOP stability for a broad, derivative-coupled gravitational resonance.
 
-This run does not claim to solve that obstruction. It makes the obstruction exact enough that the next
+This investigation does not claim to solve that obstruction. It makes the obstruction exact enough that the next
 Target 2 swing has a single computation target.
 
 ## 1. Construction Forks

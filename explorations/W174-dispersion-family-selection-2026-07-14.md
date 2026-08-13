@@ -1,11 +1,11 @@
 ---
 artifact_type: exploration
-status: exploration (W174 / TEAM FAMILY-SELECT; 5 personas inline; one deterministic test; the W133 two-family standoff attacked as a GU-STRUCTURAL SELECTION problem -- does GU's specific structure FORCE the positivity/keep-and-grade family, breaking W133's symmetric permanent-declaration?)
+status: exploration (W174 / TEAM FAMILY-SELECT; 5 perspectives inline; one deterministic test; the W133 two-family standoff attacked as a GU-STRUCTURAL SELECTION problem -- does GU's specific structure FORCE the positivity/keep-and-grade family, breaking W133's symmetric permanent-declaration?)
 created: 2026-07-14
 label: W174
 hypothesis: "advances W133 (H71) / feeds H59. W133 established that the two consistent quantizations of GU's one ghost-carrying Lagrangian are two INEQUIVALENT quantizations, each saturating exactly one of two JOINTLY-UNSATISFIABLE Kallen-Lehmann axioms -- analyticity/microcausality (the removal/Lee-Wick family, pays the off-axis microcausality violation ~1/m2) vs positivity (the graded/keep-and-grade family, pays the odd-cut leak) -- one-to-one with the CLOP band endpoints, and concluded PERMANENT DECLARATION (dispersion alone does not select), the two costs being EXACTLY SYMMETRIC (0,1) vs (1,0). W174 asks whether GU's SPECIFIC structure (the proven-indefinite (9,5) q=5 tangent Krein signature, the record substrate, the C-operator = consistent-global-ledger W150, the finality frontier / firewall) SELECTS the positivity family as FORCED, breaking that symmetry, or whether the selection is a re-declaration in disguise."
 title: "W174 VERDICT: NARROWED. GU's substrate is NOT axiom-neutral, so W133's symmetric permanent-declaration is BROKEN AT THE FRAMING LEVEL -- but the selection is NOT closed to OPERATIVE-grade forcing. TWO convergent GU-structural arguments both lean on the positivity/keep-and-grade family and against the removal family: (ARG-1) the removal family TRUNCATES the negative-norm sector, giving a definite physical space = effective q=0 = a CLOSED COMPLETION (H_C+ = whole space, finality frontier empty), which GU's proven (9,5) q=5 indefiniteness (W131) + firewall criterion 1 (no closed completion) forbid, whereas the graded family gives a PROPER H_C+ with a q=5 latent remainder = frontier never empty (W150 verdict D); (ARG-2) the removal family PAYS a bounded ~1/m2 microcausality violation (off-axis absorptive content, N_A=1) while the graded family PRESERVES microcausality (N_A=0), so a record causal-ordering requirement excludes removal and forces graded. BOTH arguments converge on graded, which is the genuine advance over W133's symmetry: within GU the two axioms are not interchangeable, the structure carries a directional/indefinite commitment (finality frontier, irreversible promotion, proven-indefinite q=5) aligned with analyticity+graded and against positivity-truncation. BUT both arguments pass through the SAME two open joints: (i) the tangent-(9,5)->asymptotic-state Krein DESCENT (the field-space signature's descent to the asymptotic space where the ghost truncation actually lives -- 'stated as origin, not proven', W150 verdict D; = the W49/W121 C-operator derivation W133 already named as the only route to unconditional selection; UNGATED, program-internal, unproven), and (ii) the identification of the S-matrix/off-shell ghost structure with the record-finality SEMANTICS (TI/TaF-gated by the W150 one-way rule; the removal family's acausality is bounded and macroscopically emergent-causal per Grinstein-O'Connell-Wise, so a MACROSCOPIC finality DAG cannot exclude it -- only MICRO-causality does, and asserting micro-record-ordering as a GU theorem is a re-declaration in disguise). Because the forcing rests on those two open joints -- one ungated-but-unproven, one gated -- it is NOT OPERATIVE-grade. VERDICT: NARROWED, not POSITIVITY-FAMILY-FORCED, not GENUINELY-FREE-DECLARATION. bar (b) does NOT clear; UNCHANGED as a status (engine, re-posed), but the re-pose is SHARPENED from W133's 'free declaration' to a single named, program-internal, ungated descent question: does the tangent (9,5) q=5 Krein indefiniteness descend to the asymptotic state space, forbidding the removal-family truncation? No canon change."
-grade: "EXACT for the reproduced W133 arithmetic (the jointly-unsatisfiable-axiom weights eps^2=+1 / eps=-1, the (9,5)=(3,1)+(6,4) split, the KL-deviation pairs (0,1)/(1,0)); NUMERICAL-CONTROLLED for the reproduced W133 CLOP-band dispersion residual selecting +1 (positive control PC1); STRUCTURAL/ARGUED for the two selection arguments and, decisively, for the identification of their shared joints as the honest ceiling; the two joints are cited from standing artifacts (firewall canon: (9,5) DECLARED INPUT, closed completion 'NOT proven impossible'; W150 verdict D: tangent->asymptotic descent 'stated as origin, not proven'; W150 one-way gate). The adversarial persona's re-declaration tripwire is enforced as a test guard (S3): no joint is asserted as proven, so no forcing is manufactured. Scalar core only (no spin-2 tensor numerators -- W124 Stage C / W134). Test: tests/W174_family_selection_gu_structure.py, 15/15, exit 0, positive controls PC1-PC3 (PC3 = eps=+1 negative control: no split). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change. bar (b) UNCHANGED. H59 and H71 remain OPEN."
+grade: "EXACT for the reproduced W133 arithmetic (the jointly-unsatisfiable-axiom weights eps^2=+1 / eps=-1, the (9,5)=(3,1)+(6,4) split, the KL-deviation pairs (0,1)/(1,0)); NUMERICAL-CONTROLLED for the reproduced W133 CLOP-band dispersion residual selecting +1 (positive control PC1); STRUCTURAL/ARGUED for the two selection arguments and, decisively, for the identification of their shared joints as the honest ceiling; the two joints are cited from standing artifacts (firewall canon: (9,5) DECLARED INPUT, closed completion 'NOT proven impossible'; W150 verdict D: tangent->asymptotic descent 'stated as origin, not proven'; W150 one-way gate). The adversarial perspective's re-declaration tripwire is enforced as a test guard (S3): no joint is asserted as proven, so no forcing is manufactured. Scalar core only (no spin-2 tensor numerators -- W124 Stage C / W134). Test: tests/W174_family_selection_gu_structure.py, 15/15, exit 0, positive controls PC1-PC3 (PC3 = eps=+1 negative control: no split). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change. bar (b) UNCHANGED. H59 and H71 remain OPEN."
 depends_on:
   - explorations/path2-wave5-evencut-family-discriminator-2026-07-14.md
   - explorations/W150-substrate-sweep-consensus-crypto-2026-07-14.md
@@ -40,7 +40,7 @@ proven-indefinite `(9,5)` q=5 tangent Krein signature, the record substrate, the
 consistent-global-ledger (W150), the finality frontier / firewall -- SELECT the positivity/graded
 family as FORCED (breaking W133's symmetry), or is any such selection a re-declaration in disguise?
 
-Five personas inline, sequentially. Deterministic test: `tests/W174_family_selection_gu_structure.py`
+Five perspectives inline, sequentially. Deterministic test: `tests/W174_family_selection_gu_structure.py`
 (15/15, exit 0). Units `M = 1` where dimensionless; all cut statements in the fixed positive
 normalization of W120/W124/W133. Binding: the W138 kill battery discipline (honest gating, one-way
 TI/TaF rule); scalar core only.
@@ -54,7 +54,7 @@ TI/TaF rule); scalar core only.
 | **"Records are causally ordered"** | (i) MACROSCOPIC/emergent (GOW-compatible); (ii) MICRO-causal (axiom A at off-shell scale) | Only (ii) excludes removal; (ii) is TI/TaF-gated -- GAP-2b |
 | **The finality frontier / firewall** | consensus-finality reading of firewall criterion 1 (W150 verdict D) | Conditional-register; the S-matrix<->finality identification is the gated joint |
 
-## 1. Persona 1 -- S-matrix/dispersion theorist: the two-family map, reproduced
+## 1. Perspective 1 -- S-matrix/dispersion theorist: the two-family map, reproduced
 
 The object is W133's: the Lagrangian fixes the ghost residue sign `eps = -1`; Krein-weight
 multiplicativity makes every even cut carry `eps^2 = +1` and every odd cut carry `eps = -1`, so the
@@ -80,7 +80,7 @@ selection question tracks the Krein sign / the indefiniteness. **This is W133 in
 nothing here except the reproduction the brief required. The novelty is whether GU BREAKS the `(0,1)`
 vs `(1,0)` symmetry.**
 
-## 2. Persona 2 -- causality/microcausality specialist: does GU's finality forbid removal's ~1/m2 violation?
+## 2. Perspective 2 -- causality/microcausality specialist: does GU's finality forbid removal's ~1/m2 violation?
 
 The removal family's price is precisely a bounded microcausality violation. Its even-cut absorptive
 content is relocated to conjugate branch points OFF the real axis (W133 D4: the `(++)` pair channel
@@ -109,7 +109,7 @@ conclusion. Asserting "GU's records are MICRO-causally ordered, therefore remova
 therefore a **re-declaration in disguise**, not a structural forcing. **ARG-2 does not force
 unconditionally; it narrows.**
 
-## 3. Persona 3 -- GU-structure specialist: does (9,5) q=5 / the firewall force graded? (ARG-1)
+## 3. Perspective 3 -- GU-structure specialist: does (9,5) q=5 / the firewall force graded? (ARG-1)
 
 This is the stronger argument and the heart of W174. It does not go through causality at all; it goes
 through the *indefiniteness* directly.
@@ -151,7 +151,7 @@ GAP-1c is the same object W133 named as the only route to unconditional selectio
 C-operator derivation (W49/W121). **ARG-1 is a genuine, GU-native, UNGATED forcing that is not yet
 closed because its central premise -- the tangent->asymptotic descent -- is unproven.**
 
-## 4. Persona 4 -- symbolic engineer: the test
+## 4. Perspective 4 -- symbolic engineer: the test
 
 `tests/W174_family_selection_gu_structure.py` (15/15, exit 0). Positive controls PC1-PC3 reproduce
 W133 (the CLOP-band residual selecting `+1`; the jointly-unsatisfiable weights and symmetric KL pairs;
@@ -164,7 +164,7 @@ enforces the adversarial guard -- the test asserts that no joint is asserted as 
 cannot manufacture forcing); V1-V2 + H1 (verdict NARROWED, bar (b) unchanged, honesty guard). The
 test is deterministic and reuses the exact W133 bubble/dispersion machinery for PC1.
 
-## 5. Persona 5 -- adversarial skeptic: steelman GENUINELY-FREE, and where it holds
+## 5. Perspective 5 -- adversarial skeptic: steelman GENUINELY-FREE, and where it holds
 
 **Steelman.** "W133's `PERMANENT DECLARATION` stands. Both W174 arguments are the declared
 keep-and-grade datum viewed twice. ARG-1 says 'GU is indefinite, so it must grade' -- but `(9,5)` is a

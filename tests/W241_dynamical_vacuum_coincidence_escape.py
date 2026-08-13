@@ -309,7 +309,7 @@ print("\n=== D. Composition with lane A (W240) + exhaustiveness ===\n")
 # algebra (compact image vs an unbroken grading boost), so it binds BOTH the
 # condensate route (lane A) AND the dynamical-vacuum-isotropy route (lane B, here).
 #
-#   Lane A (W240): no Z2-EVEN order parameter (bilinear -> all ranks) COMPACTIFIES
+#   research maintenance (W240): no Z2-EVEN order parameter (bilinear -> all ranks) COMPACTIFIES
 #                  -> closes the "chirality-safe compactifying order parameter" route.
 #   Lane B (W241): no SMALLER / coincidence-admitting dynamical isotropy escapes,
 #                  because ANY compact-image isotropy already requires breaking the

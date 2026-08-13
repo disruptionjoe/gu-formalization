@@ -6,7 +6,6 @@ created: 2026-07-19
 directed_by: "Joe direct chat, 2026-07-19"
 source: "papers/drafts/Transcript into the impossible.md (UCSD April 2025, timestamped)"
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
-claim_status_change: none
 ---
 
 # Transcript re-read: the distortion vacuum-field family

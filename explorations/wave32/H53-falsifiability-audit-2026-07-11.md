@@ -10,7 +10,7 @@ OFF-LIMITS. The sharp Popperian question: does GU make ANY falsifiable predictio
 
 **Discipline.** Adversarial, honest, Popperian -- not a defense of GU. (b) DECOUPLED and (c)
 UNFALSIFIABLE are honest, valuable outcomes; a scale-independent prediction is NOT manufactured to
-rescue GU. Personas run INLINE. Reproducible: `python tests/wave32/H53_falsifiability_audit.py`
+rescue GU. Perspectives run INLINE. Reproducible: `python tests/wave32/H53_falsifiability_audit.py`
 (exit 0). COMPUTED vs ARGUED labeled throughout. Tree left dirty.
 
 ---

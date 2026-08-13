@@ -15,7 +15,7 @@ depends_on:
 # Building the source action (H1 keystone)
 
 The program's universal blocker is one unbuilt object: a **stabilized RS / inhomogeneous-gauge (IG) sector
-action** `S_IG^susy`. The persona sprint found its template is named in the transcript's first 90 seconds --
+action** `S_IG^susy`. The perspective sprint found its template is named in the transcript's first 90 seconds --
 the Seiberg-Witten 1994 nonlinearity (self-dual curvature coupled to a spinor bilinear, plus Dirac). This
 doc states the construction problem precisely, on the repo's actual objects, with a numerical verification
 plan. The honest target is **an explicit candidate action plus a verified accounting of which of its claimed

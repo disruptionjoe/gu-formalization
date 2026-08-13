@@ -4,9 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 outcome: "BLOCKED on |Omega^{Pin+}_14| (exact order not certified); RECONSTRUCTION-PARTIAL of the ABP/A(1) structure; residual sharpened to three named steps; sigma's 14-class T2-gated"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 directed_by: "Joe direct chat, 2026-07-21 (T1 operator-grade anomaly banking; genuine shot at Omega^{Pin+}_14; one synchronous pass, foreground probe)"
 inputs:

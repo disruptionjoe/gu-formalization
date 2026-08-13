@@ -4,7 +4,7 @@ status: active
 doc_type: result
 created: 2026-06-29
 grade: "the LOCATE result is referee-proof and GU-independent (the 2-primary blindness theorem + the homotopy backbone + the novel mechanism). The FORCE claim ('GU forces three') is closed from the selector side (computed DECOUPLE), reconstruction-grade on the carrier identification, open and possibly a category error on order-3-class -> integer-3, and tilts AGAINST three (GU's own verified Pati-Salam chain gives one)."
-method: "45 local personas (3 cluster agents, channeled INLINE per the no-per-persona-subagent constraint) steelmanned how exactly three chiral generations arise, grounded against the just-computed DECOUPLE; Hegelian thesis-antithesis-sublation; meta-synthesis. 5 agents."
+method: "45 local perspectives (3 cluster agents, channeled INLINE per the no-per-perspective-subagent constraint) steelmanned how exactly three chiral generations arise, grounded against the just-computed DECOUPLE; Hegelian thesis-antithesis-sublation; meta-synthesis. 5 agents."
 depends_on:
   - canon/boundary-eta-of-mu-RESULTS.md
   - canon/two-primary-lemma.md
@@ -47,9 +47,9 @@ see an odd count would be wrong; a surviving order-3 carrier in the complementar
 correct no-go requires. **Steelman and no-go were never contradictory -- they are complementary halves of one
 structure**, measuring the two CRT summands.
 
-## The 45-persona collapse (the tell)
+## The 45-perspective collapse (the tell)
 
-Across all 45 personas, every "3" sorts into exactly three bins: (a) a **cardinal/real** (state count,
+Across all 45 perspectives, every "3" sorts into exactly three bins: (a) a **cardinal/real** (state count,
 threshold, critical exponent, L-packet multiplicity, equilibrium count) -- instant kind-mismatch death by the
 2-primary lemma; (b) a **2-primary class** (`Z/2` ghost parity, the T-odd CPT arrow, any selector-side index)
 -- alive but decoupled from the count; (c) **the single order-3 object re-expressed** -- topologist = GR
@@ -61,7 +61,7 @@ maps locating the same empty slot.**
 
 ## The strongest surviving path, and why it locates but cannot force
 
-The framed-bordism **Adams e-invariant** (`e_R = 1/12`, class 2 in `pi_3^s`), with the GR persona supplying
+The framed-bordism **Adams e-invariant** (`e_R = 1/12`, class 2 in `pi_3^s`), with the GR perspective supplying
 the Lorentzian `RP^3` tangential channel and anomaly inflow binding the carrier to chirality. It is the only
 genuinely 3-primary object on the board. Four deflations keep it at LOCATE, not FORCE:
 
@@ -137,7 +137,7 @@ and the one decider computation named. The headline is "located, not forced," an
 
 ## Cross-repo hardening (temporal-issuance + time-as-finality + local rosters)
 
-A second steelman over the full cross-repo panel (TaF's 62 experts + temporal-issuance's 75-persona
+A second steelman over the full cross-repo panel (TaF's 62 experts + temporal-issuance's 75-perspective
 expansion + the local 41, channeled inline) HARDENED the verdict into a cross-repo result and added three
 things:
 
@@ -176,5 +176,5 @@ as the rebalancing engine" is the antisymmetric connection part, NOT homotopy `Z
 strengthening the selector/legitimacy/architecture side and surfacing the one real but stranded SU(3)-family
 `Z/3`. Both steelmans (local and cross-repo) reach the identical verdict: **located, not forced; tilts toward
 one; the single decider is the integer computation on GU's actual 14-manifold.** Everything short of it --
-every additional persona, every cross-repo lens, every new `Z/3` found in an internal fiber -- only
+every additional perspective, every cross-repo lens, every new `Z/3` found in an internal fiber -- only
 re-locates the same empty slot.

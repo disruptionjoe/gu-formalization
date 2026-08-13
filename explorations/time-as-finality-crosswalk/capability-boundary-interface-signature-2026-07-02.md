@@ -3,7 +3,6 @@ title: "Capability-boundary interface signature"
 status: exploration
 doc_type: crosswalk
 created: 2026-07-02
-claim_status_change: none
 ---
 
 # Capability-Boundary Interface Signature

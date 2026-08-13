@@ -4,9 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 outcome: "VANISH -> ANOMALY-TRIVIAL INCONCLUSIVE (Track A cannot fire from committed structure; the sigma-free SW route collapses onto the sigma-circular T2 class-gate; NOT excluded, NOT trivialized)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 directed_by: "Joe direct chat, 2026-07-21 (run Track A from the anomaly-rigor scoping; minimum-sufficient sigma-FREE shot at excluding ANOMALY-TRIVIAL; one foreground pass, deterministic, no commit/push)"
 inputs:

@@ -10,7 +10,7 @@ depends_on:
   - explorations/big-swing-2026-07-06/VG-V1-condensate-ghost-parity-scan.md
   - explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md
   - explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - papers/drafts/Transcript into the impossible.md
 scripts:
   - tests/big-swing/vg_v8_t5_map_attempt.py

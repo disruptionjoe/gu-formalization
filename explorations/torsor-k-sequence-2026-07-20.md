@@ -4,9 +4,7 @@ doc_type: phase1_kill_sequence
 status: exploration tier; all three executed nodes KILLED per pre-declared conditions (probe exit 0)
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (Phase 1: torsor kill sequence K3-K4-K2, pre-registered)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 target: "The MINIMAL SUFFICIENT STATEMENT (MS) of explorations/phase0-torsor-identification-tree-2026-07-20.md (commit f31f8d7): a native, algebra-equivariant framing transport around the S^3 cover, restricting to the verified co-flip on the deck, torsor-type degree c = +-1. Executed nodes: K3 (Node 1), K4 (Node 3), K2 (Node 2), in the tree's kill order, plus the k = 64c general-m bookkeeping re-derivation."
 probe: tests/channel-swings/torsor_k_sequence_probe.py
 related:

@@ -163,7 +163,7 @@ check("B2 the leak opens at s=M^2, not 4M^2 (odd, one-ghost cut): so at ANY loop
 
 # =================================================================================================
 # THE INTERACTING-SURVIVAL CHECK
-# Persona 4 (symbolic engineer): W132 construction on the +/-norm basis (fundamental symmetry).
+# Perspective 4 (symbolic engineer): W132 construction on the +/-norm basis (fundamental symmetry).
 # =================================================================================================
 log("")
 log("C+D. Interacting survival: PARITY leg holds all-orders; POSITIVITY leg fails on free grading")
@@ -238,7 +238,7 @@ check("D4 THE SEPARATION (decisive): the SAME S is pseudo-unitary (PARITY, holds
       "pseudo-unitary + naive-violation + C-unitary coexist exactly")
 
 # =================================================================================================
-# Persona 2 (Krein/PT) + Persona 3 (GU-model): R1's two-line theorem -- the parity->positivity bridge.
+# Perspective 2 (Krein/PT) + Perspective 3 (GU-model): R1's two-line theorem -- the parity->positivity bridge.
 # =================================================================================================
 log("")
 log("E. R1 two-line theorem: [P,H]=0 & P^2=I give positivity IFF eta*P > 0 (commutation not enough)")
@@ -284,7 +284,7 @@ check("E3 BRIDGE: TB's ghost parity delivers the PARITY leg [P_ghost, S] = 0 (al
       True, "parity leg all-orders; positivity leg tree-only")
 
 # =================================================================================================
-# Persona 5 (adversarial skeptic) + honesty guard: the FREE-THEORY-ONLY steelman, and GU narrowing.
+# Perspective 5 (adversarial skeptic) + honesty guard: the FREE-THEORY-ONLY steelman, and GU narrowing.
 # =================================================================================================
 log("")
 log("F. Adversarial steelman (FREE-ONLY) + GU-specific narrowing + honesty guard")

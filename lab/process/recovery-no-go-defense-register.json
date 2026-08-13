@@ -29,7 +29,7 @@
       "challenge_state": "BOUNDED_NO_GO",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
-        "run_id": "GUH-20260716T120943Z-gr-nogo-defense",
+        "run_id": "historical-investigation",
         "result": "NO_PRIOR_CLEARANCE_FOUND",
         "summary": "Prior work cleared the imported-vacuum linear residual and the record-current theta row, but no prior result cleared the same nonzero Q^TF(B) plus zero W229 record-current source obstruction for this frozen construction.",
         "search_receipt": {
@@ -129,7 +129,7 @@
       "completed_swings": [
         {
           "id": "SWING-1-GR-W229-SCOPE-FORK",
-          "run_id": "GUH-20260716T120943Z-gr-nogo-defense",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "SCOPE_CONFIRMED",
           "evidence": "explorations/recovery-nogo-gr-w229-history-scope-2026-07-16.md",
@@ -169,7 +169,7 @@
         },
         {
           "id": "SWING-2-GR-W229-CONSTRUCTION-ATTEMPT",
-          "run_id": "GUH-20260716T170900Z-gr-swing2",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "NO_SURVIVOR",
           "evidence": "explorations/recovery-nogo-gr-w229-swing2-construction-2026-07-16.md",
@@ -246,7 +246,7 @@
         },
         {
           "id": "SWING-3-GR-W229-ADJUDICATION",
-          "run_id": "GUH-20260716T180915Z-gr-swing3",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "BOUNDED_NO_GO",
           "evidence": "explorations/recovery-nogo-gr-w229-swing3-adjudication-2026-07-16.md",
@@ -322,7 +322,7 @@
       "challenge_state": "BOUNDED_NO_GO",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
-        "run_id": "GUH-20260716T130826Z-cosmo-nogo-defense",
+        "run_id": "historical-investigation",
         "result": "NO_PRIOR_CLEARANCE_FOUND",
         "summary": "Prior work computed theta-background and distance evidence and repeatedly flagged the scalar-mode/source-coefficient gap, but no prior result cleared the same missing physical scalar projector, observable map, SVT quadratic action, and closed scalar truncation obstruction for this frozen branch.",
         "search_receipt": {
@@ -372,7 +372,7 @@
           },
           {
             "id": "SOURCE-FORCED-THETA-COEFF",
-            "path": "explorations/hourly-cycles/hourly-cycle1-source-forced-theta-coefficient-packet-2026-06-24.md",
+            "path": "explorations/research-cycles/hourly-cycle1-source-forced-theta-coefficient-packet-2026-06-24.md",
             "construction_fork": "source-forced theta coefficient packet before the current W203/W229/W230/W236 fingerprint",
             "outcome": "scalar_theta_mode, Z_theta, C_Rtheta, and xi_eff are not emitted and remain underdefined before source-forced action and FLRW scalar projection.",
             "same_frozen_construction": false,
@@ -381,7 +381,7 @@
           },
           {
             "id": "THETA-RESIDUAL-TERRAIN",
-            "path": "explorations/hourly-cycles/hourly-20260626-0402-cycle1-theta-residual-terrain-audit.md",
+            "path": "explorations/research-cycles/hourly-20260626-0402-cycle1-theta-residual-terrain-audit.md",
             "construction_fork": "theta residual terrain across Branch 2A constrained IG, Branch 3 dynamical IG, and related source-side routes",
             "outcome": "Identifies missing tangent projector, FLRW scalar reduction, source-forced dynamic action, theta_eff theorem, scalar projection, and coefficient packet; also names the case where s*theta is spin-2 or constrained away.",
             "same_frozen_construction": false,
@@ -429,7 +429,7 @@
       "completed_swings": [
         {
           "id": "SWING-1-COSMO-SCALAR-SCOPE-FORK",
-          "run_id": "GUH-20260716T130826Z-cosmo-nogo-defense",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "SCOPE_CONFIRMED",
           "evidence": "explorations/recovery-nogo-cosmo-scalar-history-scope-2026-07-16.md",
@@ -470,7 +470,7 @@
         },
         {
           "id": "SWING-2-COSMO-SCALAR-CONSTRUCTION-ATTEMPT",
-          "run_id": "GUH-20260716T190718Z-cosmo-swing2",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "NO_SURVIVOR",
           "evidence": "explorations/recovery-nogo-cosmo-scalar-swing2-construction-2026-07-16.md",
@@ -535,7 +535,7 @@
         },
         {
           "id": "SWING-3-COSMO-SCALAR-ADJUDICATION",
-          "run_id": "GUH-20260716T200824Z-cosmo-swing3",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "BOUNDED_NO_GO",
           "evidence": "explorations/recovery-nogo-cosmo-scalar-swing3-adjudication-2026-07-16.md",
@@ -614,7 +614,7 @@
       "challenge_state": "BOUNDED_NO_GO",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
-        "run_id": "GUH-20260716T150941Z-sm-nogo-defense",
+        "run_id": "historical-investigation",
         "result": "NO_PRIOR_CLEARANCE_FOUND",
         "summary": "Prior host, Type II1 selector, finite-control, observer-shadow, and W222 relative hypercharge/anomaly results identify useful branch evidence and relative passes, but no prior result clears the same target-free complete Standard Model selector obstruction for the frozen branch.",
         "search_receipt": {
@@ -681,7 +681,7 @@
           },
           {
             "id": "PHI-OBS-CONTRACT-GATE",
-            "path": "explorations/hourly-cycles/hourly-cycle1-observer-shadow-phi-obs-contract-2026-06-24.md",
+            "path": "explorations/research-cycles/hourly-cycle1-observer-shadow-phi-obs-contract-2026-06-24.md",
             "construction_fork": "observer-facing exact finite Connes channel or replacement-shadow contract",
             "outcome": "Returns UNDERDEFINED_CONTRACT_GATE: neither Phi_obs^CC nor a GU-native replacement observer shadow is declared.",
             "same_frozen_construction": false,
@@ -690,7 +690,7 @@
           },
           {
             "id": "FIXED-DATA-PHI-OBS-SECTOR-LEDGER",
-            "path": "explorations/hourly-cycles/hourly-cycle2-fixed-data-phi-obs-sector-ledger-2026-06-24.md",
+            "path": "explorations/research-cycles/hourly-cycle2-fixed-data-phi-obs-sector-ledger-2026-06-24.md",
             "construction_fork": "fixed-data Phi_obs sector selector candidates",
             "outcome": "Returns NO_CURRENT_FIXED_DATA_PHI_OBS_SELECTOR: C3/D4, C_n, equal-projection, and external K_SM routes transport chosen targets or remain open-empty.",
             "same_frozen_construction": false,
@@ -711,7 +711,7 @@
       "completed_swings": [
         {
           "id": "SWING-1-SM-SELECTOR-SCOPE-FORK",
-          "run_id": "GUH-20260716T150941Z-sm-nogo-defense",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "SCOPE_CONFIRMED",
           "evidence": "explorations/recovery-nogo-sm-selector-history-scope-2026-07-16.md",
@@ -753,7 +753,7 @@
         },
         {
           "id": "SWING-2-SM-SELECTOR-CONSTRUCTION-ATTEMPT",
-          "run_id": "GUH-20260716T220500Z-sm-selector-swing2",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "NO_SURVIVOR",
           "evidence": "explorations/recovery-nogo-sm-selector-swing2-construction-2026-07-16.md",
@@ -861,7 +861,7 @@
         },
         {
           "id": "SWING-3-SM-SELECTOR-ADJUDICATION",
-          "run_id": "GUH-20260717T075457Z-sm-swing3",
+          "run_id": "historical-investigation",
           "state": "COMPLETE",
           "result": "BOUNDED_NO_GO",
           "evidence": "explorations/recovery-nogo-sm-selector-swing3-adjudication-2026-07-17.md",
@@ -939,7 +939,7 @@
   "conditional_unitarity": {
     "id": "QM-PHYSICAL-SECTOR",
     "state": "COMPLETE_CONDITIONAL_FAIL",
-    "run_id": "GUH-20260716T160900Z-qm-physical-sector",
+    "run_id": "historical-investigation",
     "result": "CONDITIONAL_FAIL",
     "evidence": "explorations/recovery-qm-physical-sector-conditional-sufficiency-2026-07-16.md",
     "test": "tests/recovery-contract/qm_physical_sector_conditional_gate.py",

@@ -57,9 +57,9 @@ Two load-bearing objects; I state which construction I use and why.
 
 ---
 
-## 1. Five-persona team (run inline, sequential, single context)
+## 1. Five-perspective team (run inline, sequential, single context)
 
-### Persona 1 -- operator-algebra / modular-theory specialist (the construction)
+### Perspective 1 -- operator-algebra / modular-theory specialist (the construction)
 
 **How much of Tomita-Takesaki (TT) even asks for positivity?** Standard TT (Tomita 1967; Takesaki 1970):
 `M` a von Neumann algebra on a Hilbert space `H` with a cyclic + separating vector `Omega`. Define
@@ -80,7 +80,7 @@ Krein Tomita involution is `S_0 : A Omega -> A^+ Omega`. Two things happen:
 - but `S = J Delta^{1/2}` now must be read against **which** inner product. Against the underlying
   Hilbert `<.,.>`, the polar decomposition still exists (K is a Hilbert space), but the resulting `J`,
   `Delta` need not implement `J M J = M'` / KMS unless `Omega` is a *positive* faithful state -- which,
-  for a region algebra that creates ghosts, it is not (Persona 3).
+  for a region algebra that creates ghosts, it is not (Perspective 3).
 
 **The type observation (decisive).** The modular conjugation `J` is **antilinear**. The C-operator is
 **linear** (`C = eta`, `C^2 = 1`). A linear involution `eta` acts on `M` by `A -> eta A eta`, an
@@ -91,7 +91,7 @@ antilinear and geometric; here it is the *Krein* PCT. **So the load-bearing sent
 a modular conjugation" is only true after re-typing: `C` = fundamental symmetry, `J_K = C.PT` = the
 (antilinear) modular conjugation.**
 
-### Persona 2 -- math referee (grades hard; does Krein modular theory exist?)
+### Perspective 2 -- math referee (grades hard; does Krein modular theory exist?)
 
 | Claim | Setting | Grade |
 |---|---|---|
@@ -108,7 +108,7 @@ state** half -- the part the conjecture needs to make the C-operator a modular c
 algebra -- **has no theorem**. Do not grade the leg on the flow half's strength; the missing half is the
 load-bearing one.
 
-### Persona 3 -- intra-team adversary (attacks; presents, does not veto)
+### Perspective 3 -- intra-team adversary (attacks; presents, does not veto)
 
 **Attack 1 (the kill): "The region vacuum is not a positive state, so TT does not start."** In the
 indefinite metric, `M` creates ghosts, so `M Omega` contains **negative Krein-norm vectors**. Then the
@@ -132,7 +132,7 @@ continuum question with **no Krein-space answer** on the books.
 exist on a type-I toy under a clean criterion), but the two axioms that carry the physics -- a positive
 `Delta` from a positive state, and type III -- are **both unmet**. Burden is on the constructor.
 
-### Persona 4 -- cross-checker (solvable model + literature)
+### Perspective 4 -- cross-checker (solvable model + literature)
 
 **Solvable model (`tests/W67`, exact 4-dim, no truncation).** `H = C^2 (x) C^2`, `M = M_2(C) (x) I`,
 `M' = I (x) M_2(C)` (mutual commutants, type I_2). Cyclic+separating `Omega = sqrt(0.7)|00> +
@@ -159,7 +159,7 @@ Strocchi, Jakobczyk 1984) is where non-positive vacua are handled, but none of i
 for a type-III indefinite algebra. PT/pseudo-Hermitian modular remarks exist (Bender-Brody-Jones,
 Mostafazadeh) but are finite-dimensional. **Net: the specific theorem the conjecture needs is absent.**
 
-### Persona 5 -- synthesizer (reachability)
+### Perspective 5 -- synthesizer (reachability)
 
 See Sections 2-3.
 

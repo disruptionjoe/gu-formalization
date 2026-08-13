@@ -22,7 +22,7 @@ BACKTICK_PATH = re.compile(r"`([^`]+)`")
 EXPECTED_PROCESS_DIRS = {
     "dialectics",
     "hegelian-method",
-    "persona-passes",
+    "perspective-passes",
     "public-surface-refresh-2026-05-31",
     "runbooks",
     "syntheses",

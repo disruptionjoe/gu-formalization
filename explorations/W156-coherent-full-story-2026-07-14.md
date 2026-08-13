@@ -1,13 +1,13 @@
 ---
 artifact_type: exploration
-status: exploration (W156; TEAM COHERENT-STORY; ten divergent personas inline, one worker, no sub-agents; deterministic convergence-pass test with positive controls)
+status: exploration (W156; TEAM COHERENT-STORY; ten divergent perspectives inline, one worker, no independent reviewers; deterministic convergence-pass test with positive controls)
 created: 2026-07-14
 wave: W156
 label: W156
 posture: coherence-first synthesis (Joe 2026-07-14; memory feedback-coherence-first-then-kill); exploration grade; conditional register; honest grading
-title: "W156 -- the capstone of the substrate/record arc. Each of the ten divergent personas, now holding the full assembled picture (W150-W155), proposes ONE COHERENT FULL STORY that ties records-in-Y14 -> measurement-gated projection -> metric+Lambda as derived shadows -> the single source action S -> the tachyon into one account, and states honestly where it falls short. HEADLINE (the convergence, COMPUTED): all ten independently route through the SAME spine, and the load-bearing convergence is that the tachyon lives in the record-count / conformal mode -- the same BLMS mode that sources Lambda -- with personas 6 and 10 landing on a2 = -(a1)^2 as the keystone that makes the tachyon the R^2-channel image of attractive gravity. The convergent story is STRONGLY UNIFYING but clears NEITHER two-bar test yet; exactly ONE named computation (proving a2 = -a1^2 is structural, not coincidental) stands between it and bar (b)."
-hypothesis: "Joe's 2026-07-14 capstone directive: the substrate/record arc has assembled a full picture (corrected marble/wood W153, substrate W145-W150, emergence W151, the single source action S W154, the divergent tachyon sweep W155). Ask each of the ten divergent personas -- now holding ALL the results -- to propose WHAT THE COHERENT FULL STORY IS: a single narrative from its vantage. The convergence of ten independent vantages on one spine is the load-bearing structure; their divergences localize the real open questions."
-grade: "exploration / conditional register throughout. Every 'the story is X' reads 'under the declared conditional synthesis, X'; nothing asserts GU, asserts a vacuum, that the DESI wiggle is real, or changes any verdict. COMPUTED (deterministic, tests/W156_coherent_full_story_checks.py, 12/12 exit 0, positive controls first): the W126 interpolant P(u) = -64u^2 - 8u + 2 -> F(R) = 2 + R/3 - R^2/9 (PC4); the a2 = -a1^2 identity in four independent forms -- exact (S1), equivalent to (a2/a1) = -a1 (S2), equivalent to the polynomial-coefficient relation w2 = -w1^2 (S3/S4), and scale-mode invariant under the conformal factor p (S5, inheriting W153 T1); the HONEST negative control that a generic tachyonic a2 does NOT satisfy the identity (S6, so it is a real constraint requiring derivation, not automatic); the consequence lock m^2 = -1/(6 a1) < 0 iff a1 > 0 (S7/S7b). STRUCTURAL-vs-COINCIDENCE VERDICT: STRUCTURAL-CANDIDATE -- more than a bare coincidence (exact, scale-invariant, reduces to a clean coefficient relation) but LESS than proven-structural (no first-principles |II|^2 symmetry or family-invariance derivation yet). CITED (not re-derived): W122/W123/W126/W128/W130 (the induced action, the tachyon, the AF/AS fork), W132/W137 (C-operator positive subspace, signed |II|^2), W136 (bulk-flatness beta/alpha=2), W143 (control gains), W144 (DESI-fitted Q, z_x=0.405), W145-W150 (everpresent-Lambda, substrate, (9,5)=(3,1)+(6,4), q=5 firewall), W151 (Malament+BLMS+Jacobson emergence, two routes), W152/W153 (marble corrected, tachyon-as-cheap-wood FAILS), W154 (the single source action S, under-determined, 6 free objects, keystone = promotion-gate boundary term / discharge C3), W155 (the ten-divergent-persona sweep, a2=-a1^2 headline). No canon / RESEARCH-STATUS / claim-status / verdict / posture change; H41 unbuilt; H59/H61a OPEN; the E2 AF/AS fork carried, not closed; the count stays {1,3}."
+title: "W156 -- the capstone of the substrate/record arc. Each of the ten divergent perspectives, now holding the full assembled picture (W150-W155), proposes ONE COHERENT FULL STORY that ties records-in-Y14 -> measurement-gated projection -> metric+Lambda as derived shadows -> the single source action S -> the tachyon into one account, and states honestly where it falls short. HEADLINE (the convergence, COMPUTED): all ten independently route through the SAME spine, and the load-bearing convergence is that the tachyon lives in the record-count / conformal mode -- the same BLMS mode that sources Lambda -- with perspectives 6 and 10 landing on a2 = -(a1)^2 as the keystone that makes the tachyon the R^2-channel image of attractive gravity. The convergent story is STRONGLY UNIFYING but clears NEITHER two-bar test yet; exactly ONE named computation (proving a2 = -a1^2 is structural, not coincidental) stands between it and bar (b)."
+hypothesis: "Joe's 2026-07-14 capstone directive: the substrate/record arc has assembled a full picture (corrected marble/wood W153, substrate W145-W150, emergence W151, the single source action S W154, the divergent tachyon sweep W155). Ask each of the ten divergent perspectives -- now holding ALL the results -- to propose WHAT THE COHERENT FULL STORY IS: a single narrative from its vantage. The convergence of ten independent vantages on one spine is the load-bearing structure; their divergences localize the real open questions."
+grade: "exploration / conditional register throughout. Every 'the story is X' reads 'under the declared conditional synthesis, X'; nothing asserts GU, asserts a vacuum, that the DESI wiggle is real, or changes any verdict. COMPUTED (deterministic, tests/W156_coherent_full_story_checks.py, 12/12 exit 0, positive controls first): the W126 interpolant P(u) = -64u^2 - 8u + 2 -> F(R) = 2 + R/3 - R^2/9 (PC4); the a2 = -a1^2 identity in four independent forms -- exact (S1), equivalent to (a2/a1) = -a1 (S2), equivalent to the polynomial-coefficient relation w2 = -w1^2 (S3/S4), and scale-mode invariant under the conformal factor p (S5, inheriting W153 T1); the HONEST negative control that a generic tachyonic a2 does NOT satisfy the identity (S6, so it is a real constraint requiring derivation, not automatic); the consequence lock m^2 = -1/(6 a1) < 0 iff a1 > 0 (S7/S7b). STRUCTURAL-vs-COINCIDENCE VERDICT: STRUCTURAL-CANDIDATE -- more than a bare coincidence (exact, scale-invariant, reduces to a clean coefficient relation) but LESS than proven-structural (no first-principles |II|^2 symmetry or family-invariance derivation yet). CITED (not re-derived): W122/W123/W126/W128/W130 (the induced action, the tachyon, the AF/AS fork), W132/W137 (C-operator positive subspace, signed |II|^2), W136 (bulk-flatness beta/alpha=2), W143 (control gains), W144 (DESI-fitted Q, z_x=0.405), W145-W150 (everpresent-Lambda, substrate, (9,5)=(3,1)+(6,4), q=5 firewall), W151 (Malament+BLMS+Jacobson emergence, two routes), W152/W153 (marble corrected, tachyon-as-cheap-wood FAILS), W154 (the single source action S, under-determined, 6 free objects, keystone = promotion-gate boundary term / discharge C3), W155 (the ten-divergent-perspective sweep, a2=-a1^2 headline). No canon / RESEARCH-STATUS / claim-status / verdict / posture change; H41 unbuilt; H59/H61a OPEN; the E2 AF/AS fork carried, not closed; the count stays {1,3}."
 construction: "program-native where the objects are GU's (Y14 = Met(X4), the record field Psi, the induced |II|^2 action, the gimmel (9,5) null cone, the C-operator positive subspace H_C+, the q=5 finality frontier); standard-field where the machinery binds any construction (the f(R) scalaron mass formula, Malament 1977, BLMS 1987, Jacobson 1995, the interacting-vacuum decomposition, Ginzburg-Landau, Turing/Swift-Hohenberg, root-locus, Thom normal forms, plasma saturation, autopoiesis). Every real-physics analogy is PORTED and labelled; NONE is asserted of GU. Forks named per GEOMETER-VS-PHYSICS-OBJECTS.md."
 depends_on:
   - explorations/W150-substrate-sweep-consensus-crypto-2026-07-14.md
@@ -15,7 +15,7 @@ depends_on:
   - explorations/W152-marble-and-wood-source-fix-2026-07-14.md
   - explorations/W153-marble-corrected-and-tachyon-cheapwood-test-2026-07-14.md
   - explorations/W154-reverse-engineered-source-action-2026-07-14.md
-  - explorations/W155-ten-divergent-personas-tachyon-2026-07-14.md
+  - explorations/W155-ten-divergent-perspectives-tachyon-2026-07-14.md
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 scripts:
   - tests/W156_coherent_full_story_checks.py
@@ -50,7 +50,7 @@ external_refs:
 ## 0. The capstone brief, and the assembled picture the ten must weave
 
 This closes the substrate/record arc. The prior waves ASSEMBLED a picture; this wave asks each of
-the ten divergent personas (same roster as W155), now holding the full results, to propose ONE
+the ten divergent perspectives (same roster as W155), now holding the full results, to propose ONE
 COHERENT FULL STORY -- a single narrative from its vantage that ties the whole picture together, with
 an honest statement of where it still falls short. The point is not to relitigate any element; it is to
 see where ten independent vantages LAND (that convergence is the load-bearing structure) and where they
@@ -89,16 +89,16 @@ DISAGREE (those divergences localize the real open questions).
   the tachyon (debit 1), `Q`'s specific crossing being fluctuation-carried (debit 2, half-derived),
   the keystone boundary term unbuilt (debit 3).
 
-Ten personas inline, one worker, no sub-agents. Deterministic convergence-pass test
+Ten perspectives inline, one worker, no independent reviewers. Deterministic convergence-pass test
 `tests/W156_coherent_full_story_checks.py`, 12/12 exit 0, positive controls first.
 
 ## 1. The ten coherent full stories
 
-Each persona reports: (i) the one-paragraph narrative; (ii) the distinctive load-bearing move its
+Each perspective reports: (i) the one-paragraph narrative; (ii) the distinctive load-bearing move its
 vantage ADDS; (iii) how it handles the tachyon; (iv) which of Joe's two bars it targets and the honest
 gap; (v) the single sharpest computation that would most advance THIS story.
 
-### Persona 1 -- inflation cosmologist
+### Perspective 1 -- inflation cosmologist
 
 **(i)** Records accreting in Y14 is the growth of the consistent-record set = the clock; the
 measurement-gated Y14 -> X4 projection is a horizon-crossing that promotes modes to "measured"; the
@@ -114,7 +114,7 @@ energy + curvature growth into one roll; gap: the specific crossing `z=0.405` is
 the free fluctuation). **(v)** Identify the scalaron roll coordinate with the BLMS number-leg and test
 whether `dR/dt > 0` along the roll matches record-accretion monotonicity.
 
-### Persona 2 -- condensed-matter / phase-transition theorist
+### Perspective 2 -- condensed-matter / phase-transition theorist
 
 **(i)** Y14 is the order-parameter space; the measurement-gated projection is a condensation
 (promoted records = the ordered phase); the derived metric and `Lambda` are the Landau free energy of
@@ -128,7 +128,7 @@ removes debit-1 IF the vacuum is on the AS branch; gap: which phase the vacuum o
 selection) is undetermined. **(v)** Compute a Landau free energy in `f_0^2` across the Reuter FP -- is
 the sign change a genuine order-parameter transition (does the curvature flip there)?
 
-### Persona 3 -- morphogenesis / Turing theorist
+### Perspective 3 -- morphogenesis / Turing theorist
 
 **(i)** Records in Y14 self-organize into pattern via a diffusion-driven instability; the
 measurement-gated projection selects a PREFERRED scale; the derived metric and `Lambda` are the
@@ -144,7 +144,7 @@ structure formation with the instability; gap: the finite-`k` band is unproven. 
 full `(k^2 + m_0^2)(k^2 + m_2^2)` dispersion from the W130 propagator -- does a finite-wavelength peak
 exist?
 
-### Persona 4 -- control-systems engineer
+### Perspective 4 -- control-systems engineer
 
 **(i)** Y14 is the plant state; the measurement-gated Y14 -> X4 projection is the measurement/feedback
 loop; the derived metric and `Lambda` are the closed-loop output replacing the cheap wood; S is the
@@ -158,7 +158,7 @@ measured records feed back on the curvature that sources them, and W143's acquis
 gap: the gain sign/magnitude is not yet shown to stabilize. **(v)** Port the W143 gain to the scalaron
 pole -- does the record-accretion loop move `m_0^2` into the left half-plane?
 
-### Persona 5 -- catastrophe theorist
+### Perspective 5 -- catastrophe theorist
 
 **(i)** The whole picture sits at a bifurcation in COUPLING space; the Y14 -> X4 projection is the
 unfolding; the derived metric and `Lambda` are the selected branch; S's control parameter is `f_0^2`;
@@ -172,7 +172,7 @@ Targets NEITHER bar directly -- its contribution is a kill that removes a false 
 real bifurcation; gap: it prunes rather than clears. **(v)** Classify the `f_0^2*(g)` normal form
 (transcritical / pitchfork) at the Reuter FP.
 
-### Persona 6 -- number theorist
+### Perspective 6 -- number theorist
 
 **(i)** The whole picture is held together by exact rational structure: `a1 = 1/3`, `a2 = -1/9 =
 -a1^2`, the 3:2:1 sector split (W130), the `(9,5) = (3,1) + (6,4)` split, the prime-3 binding gap
@@ -189,7 +189,7 @@ computation; this wave grades it STRUCTURAL-CANDIDATE, Section 3). **(v)** Re-de
 `a2 = -a1^2` is forced by the `|II|^2` normalization (W126 `P(u)` machinery, family + normalization
 dependence) or accidental.
 
-### Persona 7 -- nonlinear-plasma / saturation physicist
+### Perspective 7 -- nonlinear-plasma / saturation physicist
 
 **(i)** The linear tachyon is only the LINEAR story; records in Y14 saturate the roll nonlinearly; the
 measurement-gated projection is the saturated state; the derived metric and `Lambda` are the saturated
@@ -203,7 +203,7 @@ may be perfectly healthy. **(iv)** Targets bar (a) -- removes debit-1 IF the gra
 bounded fixed point; gap: the bounded attractor is unproven. **(v)** Does the `320 v^4` gradient
 quartic provide a bounded rolling-scalaron attractor (a saturating fixed point for `dphi`)?
 
-### Persona 8 -- topos / category theorist
+### Perspective 8 -- topos / category theorist
 
 **(i)** The picture is a structure of OBSTRUCTIONS: the Y14 -> X4 projection is a functor whose
 failure to be invertible is the finality frontier; the derived metric and `Lambda` are its image; the
@@ -219,7 +219,7 @@ index / Fredholm operator is identified, and W122 undercuts the direct subspace 
 **(v)** Find the GU operator (if any) whose spectral-flow / eta-invariant sign is `sign(m_0^2)` --
 i.e. exhibit the index object, or concede the analogy floats free.
 
-### Persona 9 -- autopoiesis / metabolism biologist
+### Perspective 9 -- autopoiesis / metabolism biologist
 
 **(i)** The picture is a self-producing living system: records in Y14 self-produce (metabolism); the
 measurement-gated projection is the operational closure (what the system recognizes as itself); the
@@ -235,7 +235,7 @@ record growth / the arrow of time; gap: "continuation requires `m^2 < 0`" is unp
 record-accretion (the BLMS number leg) provably INCOMPATIBLE with a stable scalaron -- does continuation
 REQUIRE `m^2 < 0`?
 
-### Persona 10 -- philosopher of the negative / wild-frontier mathematician
+### Perspective 10 -- philosopher of the negative / wild-frontier mathematician
 
 **(i)** The negative is not a defect but the shadow the positive casts when squared into a higher
 channel; the whole picture is a disciplined play of the positive (records, the C-positive subspace,
@@ -245,10 +245,10 @@ both faces. **(ii)** Supplies the principle that makes `a2 = -(a1)^2` NECESSARY 
 (the negative-as-square-shadow) AND draws the sharp distinction the arc needs: there are TWO different
 negatives -- the `q=5` Krein-signature negative (in the NORM, the firewall) and the tachyon's `m^2`
 negative (in a COUPLING, `f_0^2 < 0`), and W122 proves they are NOT the same object. **(iii)**
-Necessary-shadow-of-attraction (converges with persona 6); the `(9,5)` Krein reading of the tachyon
+Necessary-shadow-of-attraction (converges with perspective 6); the `(9,5)` Krein reading of the tachyon
 (10B) is explicitly UNDERCUT by W122's positive-norm result, so the tachyon's negative is a
-coupling-sign fact, not a signature fact. **(iv)** Targets bar (b) -- same unification as persona 6,
-plus the two-negatives clarification; gap: the same structural check as persona 6. **(v)** Same
+coupling-sign fact, not a signature fact. **(iv)** Targets bar (b) -- same unification as perspective 6,
+plus the two-negatives clarification; gap: the same structural check as perspective 6. **(v)** Same
 structural re-derivation as 6, plus: confirm the `q=5` (norm) negative and the `m^2` (coupling)
 negative are genuinely distinct (W122), so the firewall and the tachyon are two negatives, not one.
 
@@ -290,7 +290,7 @@ route the tachyon into the record-accretion / conformal mode and read it as feat
    (hiding) read it as a fixed KINEMATIC map. This is the deepest divergence about what Y14 -> X4 IS,
    and it maps onto W150's own gated result (the kinematic pullback-homomorphism is real; the dynamic
    `[sigma*, D]` transduction is pre-mathematical, W137).
-4. **Are debit-1 and debit-2 the SAME object or two?** Personas 1 and 9 assert the tachyonic roll IS
+4. **Are debit-1 and debit-2 the SAME object or two?** Perspectives 1 and 9 assert the tachyonic roll IS
    the record-accretion that sources `Q` (one object); W154 treats them separately (the tachyon in the
    induced action, `Q` at the boundary term). If they are one, discharging the keystone boundary term
    (debit-3) would resolve debit-1 and debit-2 at once.
@@ -341,8 +341,8 @@ computation as the hinge.
 5. **[7] Test whether the W126 gradient quartic `320 v^4` gives a bounded rolling-scalaron attractor**
    -- the nonlinear-saturation branch of divergence (B2).
 
-Below the cut: persona 8's spectral-flow operator hunt (undercut by W122's positive-norm result) and
-persona 10's two-negatives confirmation (folds into 6 and W122). Above ALL of these as the structural
+Below the cut: perspective 8's spectral-flow operator hunt (undercut by W122's positive-norm result) and
+perspective 10's two-negatives confirmation (folds into 6 and W122). Above ALL of these as the structural
 prerequisite for debit-3 sits W154's keystone unbuilt object -- the promotion-gate boundary term on the
 `q=5` frontier (discharge C3) -- which is the object, not a computation from the ten (v)'s, whose
 closure would supply `Q` genuinely and open the same-source `T_munu` bridge.
@@ -394,8 +394,8 @@ STRUCTURAL-CANDIDATE and the debit-1 conversion that would clear bar (b).
   C3) stays unbuilt. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team COHERENT-STORY (W156). Coherence-first synthesis, capstone of the
-substrate/record arc. Ten divergent personas inline in one worker (inflation cosmologist,
+substrate/record arc. Ten divergent perspectives inline in one worker (inflation cosmologist,
 phase-transition, morphogenesis, control-systems, catastrophe, number theorist, plasma-saturation,
-topos, autopoiesis, philosopher-of-the-negative); no sub-agents. Reproducible:
+topos, autopoiesis, philosopher-of-the-negative); no independent reviewers. Reproducible:
 `python -u tests/W156_coherent_full_story_checks.py` (12/12, exit 0; four positive controls first).
 Exploration grade; conditional register; no canon movement.*

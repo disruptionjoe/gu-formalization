@@ -57,7 +57,7 @@ Two prior branches saw the coupling in tension:
   M/rho^2` (Branch-3 source-law, `source_action_intersection.py`).
 - **`mu_DW` = DeWitt/gimmel scale** (ratio-only, H24): free.
 
-Five personas ran inline in one context (specialist computes; adversary attacks the emerging
+Five perspectives ran inline in one context (specialist computes; adversary attacks the emerging
 verdict; referee grades; cross-checker; synthesizer). Combined result follows.
 
 ---

@@ -2,7 +2,7 @@
 artifact_type: exploration
 label: W225
 created: 2026-07-15
-status: exploration (GRAVITY LEG, CHEAP HALF; imported exact Schwarzschild; surviving conservative IG branch; Psi=0 gravitational vacuum; personas inline, one worker, no sub-agents; deterministic sympy test with GR-shadow + Willmore positive controls that FIRE on real nonzero-residual falsifiers, exit 0)
+status: exploration (GRAVITY LEG, CHEAP HALF; imported exact Schwarzschild; surviving conservative IG branch; Psi=0 gravitational vacuum; perspectives inline, one worker, no independent reviewers; deterministic sympy test with GR-shadow + Willmore positive controls that FIRE on real nonzero-residual falsifiers, exit 0)
 posture: coherence-first (Joe 2026-07-14); exploration grade; adversarial, native-object first, truth-seeking (a clear hardens the gravity leg's cheap half, a nonzero linear falsifier would be an EARLY DISPROOF SIGNAL; report either honestly; no rooting)
 title: "W225 -- Projected GR-shadow / section-equation residual on imported exact Schwarzschild (cheap half of GU's sole open physics leg)"
 leg: GRAVITY -- ELProjectedGRShadowTheorem, imported-metric slice
@@ -161,9 +161,9 @@ results in C2/C3 are not blind spots.
 Exploration grade. NO canon / RESEARCH-STATUS / verdict movement:
 `canon/schwarzschild-weak-field-rfail.md` stays OPEN; the gravity-leg verdict is Joe-gated.
 This note reports a genuine-YES SIGNAL for the imported-metric slice and explicitly does NOT
-declare the leg verdict. No Lean/Lake build was run (Python/sympy only). Personas inline
+declare the leg verdict. No Lean/Lake build was run (Python/sympy only). Perspectives inline
 (GR/curvature specialist; Willmore/immersion-variational specialist; IG-branch/theta
-specialist; ruthless skeptic); one worker, no sub-agents. Reproducible:
+specialist; ruthless skeptic); one worker, no independent reviewers. Reproducible:
 `python -u tests/W225_gravity_projected_shadow_schwarzschild.py` (exit 0; GR-shadow and
 Willmore positive controls FIRST, both fire on real falsifiers). Zero em dashes in
 paper-facing text.

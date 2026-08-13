@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W184 / TEAM MIRROR-SUPERSELECT; label W184; coherence-first, exploration grade, conditional register, honest grading; five inline personas, one worker, no sub-agents; one deterministic test 11/11 exit 0 with positive controls first + a genuine-superselection control + the channel-removed re-run; RUTHLESS skeptic pass on the superselection-rescue conjecture)"
+status: "exploration (W184 / TEAM MIRROR-SUPERSELECT; label W184; coherence-first, exploration grade, conditional register, honest grading; five inline perspectives, one worker, no independent reviewers; one deterministic test 11/11 exit 0 with positive controls first + a genuine-superselection control + the channel-removed re-run; RUTHLESS skeptic pass on the superselection-rescue conjecture)"
 created: 2026-07-14
 label: W184
 posture: coherence-first; exploration grade; conditional register; honest grading; the rescue is attacked hard, not wished
@@ -47,7 +47,7 @@ physical-sheet pole never forms `->` PT unbroken `->` the interacting C-operator
 OPERATIVE `->` bar (b) clears.
 
 This wave tests that rigorously, and attacks it hard (a clean rescue would reverse the sprint, so it
-must be earned). Five personas ran inline, one worker, no sub-agents. Deterministic test
+must be earned). Five perspectives ran inline, one worker, no independent reviewers. Deterministic test
 `tests/W184_mirror_superselection_decay.py`, **11/11, exit 0**, positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -65,7 +65,7 @@ the Cartan (ghost-parity) charge (`->` genuine superselection `->` decay forbidd
 VIOLATE it (`->` a mere grading `->` decay allowed `->` NOT-OPERATIVE stands)?* We show it VIOLATES
 it, and that the rescue is logically equivalent to the standing open condition `[P_ghost,S]=0`.
 
-## 2. Persona 1 -- superselection / algebraic-QFT specialist: is the Cartan grading a superselection RULE?
+## 2. Perspective 1 -- superselection / algebraic-QFT specialist: is the Cartan grading a superselection RULE?
 
 A **superselection rule** (Wick-Wightman-Wigner; DHR) is not merely a global grading. It requires a
 charge `Q` that **commutes with every observable** and, decisively, **with the dynamics** (the
@@ -90,7 +90,7 @@ honest statement is: **the mirror is a global GRADING that becomes a superselect
 the unproven `[K,S]=0`.** Answer to task (1): **WEAKER-grading** -- a genuine superselection rule is
 NOT established; it is conditional on `[K,S]=0`.
 
-## 3. Persona 2 -- BRST/Krein specialist: the Cartan charge of the ghost vs two gravitons, and "Krein-odd"
+## 3. Perspective 2 -- BRST/Krein specialist: the Cartan charge of the ghost vs two gravitons, and "Krein-odd"
 
 On Fock space the ghost-parity operator `P = (-1)^{n_ghost}` **is** the Krein fundamental-symmetry
 sign: a state with `n` ghost quanta has Krein norm sign `(-1)^n` (C0, `P^2 = 1`). This is the same Z2
@@ -107,7 +107,7 @@ quantum. The canon and W179 label it **"Krein-odd."** The machine identity that 
 later; it is already written into the sprint's own construction. The very object that produces the
 decay is the object that breaks the charge Joe hopes will forbid it.
 
-## 4. Persona 3 -- self-energy / decay specialist: the DECISIVE vertex check, and the pole re-count
+## 4. Perspective 3 -- self-energy / decay specialist: the DECISIVE vertex check, and the pole re-count
 
 **The decisive computation (C2).** Compute the parity of GU's cross vertex `A` under `P`:
 
@@ -138,7 +138,7 @@ rescue's conclusion is arithmetically correct **conditional on removing the chan
 **circular**: it is not delivered by the Cartan GRADING (PC2), which the actual P-odd vertex (C2)
 violates. The pole disappears exactly when, and only when, you assume the conclusion.
 
-## 5. Persona 3 (cont.) -- the MIRROR-THRESHOLD alternative and the relational-scale point
+## 5. Perspective 3 (cont.) -- the MIRROR-THRESHOLD alternative and the relational-scale point
 
 **The reframe.** Perhaps the ghost decays into MIRROR gravitons (at the fourth-derivative / mirror
 scale), not our massless ones, so the relevant threshold is the MIRROR two-graviton threshold, and
@@ -165,7 +165,7 @@ cannot be raised without a GW-excluded graviton mass. Answer to task (3): the mi
 does **not** move the ghost sub-threshold in the decisive channel; the correct threshold for the
 process that drives NOT-OPERATIVE is the OUR-massless one W179 used.
 
-## 6. Persona 4 -- symbolic/numerical engineer: the test and its controls
+## 6. Perspective 4 -- symbolic/numerical engineer: the test and its controls
 
 `tests/W184_mirror_superselection_decay.py`, **11/11, exit 0** (numpy only, seed 20260714). Positive
 controls run FIRST (W138 discipline):
@@ -187,7 +187,7 @@ controls run FIRST (W138 discipline):
 Every load-bearing number has two routes or a matched control. Exactness where it matters: the vertex
 parity residuals and the Cartan-involution residuals are `0.0e+00`; the pole counts are integers.
 
-## 7. Persona 5 -- adversarial skeptic (RUTHLESS): steelman DECAY-ALLOWED, and why the rescue fails
+## 7. Perspective 5 -- adversarial skeptic (RUTHLESS): steelman DECAY-ALLOWED, and why the rescue fails
 
 **Steelman the rescue (at full strength).** W173 proved (residual `0.0e+00`) that `K` is the Cartan
 involution -- a genuine GLOBAL automorphism defining the non-compact real form. A global involution
@@ -262,9 +262,9 @@ posture change.
 
 **Artifacts:** this file + `tests/W184_mirror_superselection_decay.py` (11/11, exit 0).
 
-*Filed 2026-07-14 by Team MIRROR-SUPERSELECT (W184). Five personas inline in one worker
+*Filed 2026-07-14 by Team MIRROR-SUPERSELECT (W184). Five perspectives inline in one worker
 (superselection/algebraic-QFT specialist, BRST/Krein specialist, self-energy/decay specialist,
-symbolic/numerical engineer, adversarial skeptic RUTHLESS); no sub-agents. Reproducible:
+symbolic/numerical engineer, adversarial skeptic RUTHLESS); no independent reviewers. Reproducible:
 `python -u tests/W184_mirror_superselection_decay.py` (11/11, exit 0). Exploration grade; conditional
 register; no canon movement; H59 OPEN. Verdict: DECAY-ALLOWED-NOT-OPERATIVE-STANDS,
 CONDITIONAL-on-[P_ghost,S]=0 -- the mirror is a global Cartan grading, not a proven superselection

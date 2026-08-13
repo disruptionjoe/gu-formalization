@@ -33,7 +33,7 @@ THE THREE ROUTES (each a live way debit-1 could stop being a flaw):
   DISPERSION (folded in).  Does the tachyonic pole sit at a physical k, or is there a
     finite-k band (scale selection) that changes its interpretation?
 
-FIVE personas inline (FRG/branch; nonlinear-saturation; higher-derivative/dispersion;
+FIVE perspectives inline (FRG/branch; nonlinear-saturation; higher-derivative/dispersion;
 symbolic engineer; adversarial skeptic).  Deterministic sympy, positive controls first.
 Run:  python -u tests/W159_tachyon_escapes.py   (exit 0 iff all PASS).
 

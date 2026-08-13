@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration
 label: W186
-status: "exploration (W186 / TEAM SOURCE-CONTENT, label W186; coherence-first, exploration grade; conditional register; five personas inline, one worker, no sub-agents; one deterministic test 36/36 exit 0 with positive controls first + matched negative controls; RUTHLESS skeptic pass)"
+status: "exploration (W186 / TEAM SOURCE-CONTENT, label W186; coherence-first, exploration grade; conditional register; five perspectives inline, one worker, no independent reviewers; one deterministic test 36/36 exit 0 with positive controls first + matched negative controls; RUTHLESS skeptic pass)"
 created: 2026-07-14
 wave: W186
 posture: coherence-first; exploration grade; honest grading; RUTHLESS skeptic; no manufactured rescue
@@ -40,7 +40,7 @@ IFF the reservoir the ghost issues into is LIKE-Krein-signed; opposite-signed is
 W183 left the deciding object -- the reservoir Krein type -- as an external, cross-repo datum. But the
 reservoir is not free-floating: it just IS whatever is sent through the source action from outside. So
 this wave asks the question W183's conditional turns on: **what is sent through the source action, and
-what is its Krein type?** Five personas ran inline, one worker, no sub-agents; deterministic test
+what is its Krein type?** Five perspectives ran inline, one worker, no independent reviewers; deterministic test
 `tests/W186_source_content_reservoir_krein_type.py` (**36/36, exit 0**), positive controls first.
 
 The answer has a sharp crux and it resolves W183's conditional into a **self-consistency / fixed-point**
@@ -56,7 +56,7 @@ problem, not a flat lookup.
 | **"operative"** | (C-tot) a positive TOTAL metric exists (real total spectrum) | the W183 object; here shown to be a bistable fixed point |
 | **The decision** | GU-native-forced vs external finality datum | **external at the SELECTION level; GU determines the issued content and the favorable fixed point's EXISTENCE** |
 
-## 1. Persona 1 -- open-quantum-systems / reservoir specialist: reuse W183, and what the reservoir IS
+## 1. Perspective 1 -- open-quantum-systems / reservoir specialist: reuse W183, and what the reservoir IS
 
 W183's Friedrichs / Fano-Anderson model is the right stand-in and it is reused verbatim as the positive
 control (PC1, reproducing SAME-sign REAL-at-all-`g` and the OPP-sign exceptional point `g_c`; PC2, the
@@ -65,9 +65,9 @@ abstract bath: it is the content the source action injects across the `q=5` fina
 that content is the **record current** `J`, and by W158/W182 the injection is the **promotion-gate
 boundary flux** `S_gate = oint n_a J^a`. So "the reservoir the ghost issues into" is **the record /
 finality sector**, and its Krein type is the Krein type of the record content -- which is exactly what
-Persona 2 must compute, because it is not fixed until the metric is fixed.
+Perspective 2 must compute, because it is not fixed until the metric is fixed.
 
-## 2. Persona 2 -- Krein / C-operator specialist: the issued content's sign is metric-dependent (the crux)
+## 2. Perspective 2 -- Krein / C-operator specialist: the issued content's sign is metric-dependent (the crux)
 
 This is the decisive computation and it is exact (Block A). Build the minimal Krein null pair of W173: a
 generation (naive `+`) and its mirror (naive `-`), `eta = diag(+1, -1)`. The mirror IS the record (W173:
@@ -81,11 +81,11 @@ the mirror is BRST-closed-not-exact, a genuine record, = the C-operator positive
 So the Krein sign of the issued record content is **exactly metric-dependent**. Whether the issuance is
 "like-signed" (favorable, W183) or "opposite-signed" (pathology) is not a fact GU reads off; it is the
 very question of whether the C-metric governs. **The loop is real, not rhetorical** -- which is why the
-answer cannot be a flat lookup and must be a self-consistency (Persona 4). The negative control confirms
+answer cannot be a flat lookup and must be a self-consistency (Perspective 4). The negative control confirms
 the structure: under a positive-definite metric the mirror has positive naive norm and there is no flip
 and no crux (NC1). The metric-dependence needs the Krein indefiniteness.
 
-## 3. Persona 3 -- GU-source-content specialist: what is ACTUALLY sent, exactly
+## 3. Perspective 3 -- GU-source-content specialist: what is ACTUALLY sent, exactly
 
 The object crossing the boundary is the W180 record current, and W180's result is reproduced exactly
 here (Block B). The minimally-coupled record action `S_D[Psi, A] = Re<Psi, K_S c(A) Psi>`,
@@ -120,10 +120,10 @@ relative to the ghost.
 So W182 and W183 are not two conditions; they are one, and it is the sign of the reservoir the source
 couples the ghost into.
 
-## 4. Persona 4 -- self-consistency / bootstrap / fixed-point specialist: the bistable fixed point
+## 4. Perspective 4 -- self-consistency / bootstrap / fixed-point specialist: the bistable fixed point
 
-Because the issued content's sign is metric-dependent (Persona 2) and the operative verdict is the
-reservoir sign (Persona 3), the system is a genuine fixed point (Block D). The construction is built to
+Because the issued content's sign is metric-dependent (Perspective 2) and the operative verdict is the
+reservoir sign (Perspective 3), the system is a genuine fixed point (Block D). The construction is built to
 be **non-question-begging**: a metric-**independent** kinematic coupling `g_kin` between the ghost and
 the opposite-signed graviton band (the W178 two-graviton default) is **always present**, and it alone
 drives the total complex (D1: with the source off, `kappa = 0`, the total is pathological). The
@@ -165,12 +165,12 @@ edge, unbuilt normalization), it assumes the fade acts on the kinematic channel,
 **finite-N non-unitary window** (E3) -- record-genesis goes through a genuinely complex phase before the
 fade rescues it.
 
-## 5. Persona 5 -- adversarial skeptic RUTHLESS: the C-positive reading is question-begging
+## 5. Perspective 5 -- adversarial skeptic RUTHLESS: the C-positive reading is question-begging
 
 **Steelman OPPOSITE-SIGNED / PATHOLOGY and NO-SELF-CONSISTENT-SOLUTION, at full strength.**
 
 (a) *The C-positive reading assumes the conclusion.* To call the issued record content "C-positive" you
-must already have the C-metric, whose operativity is the entire question (Persona 2 proved the sign flips
+must already have the C-metric, whose operativity is the entire question (Perspective 2 proved the sign flips
 with the metric). Declaring the input positive by using the C-metric is textbook circularity: you assumed
 the C-operator to prove the C-operator.
 
@@ -282,8 +282,8 @@ fixed point exists) from what it cannot (selection between two equally self-cons
 **Artifacts:** this file + `tests/W186_source_content_reservoir_krein_type.py` (36/36, exit 0).
 
 *Filed 2026-07-14 by Team SOURCE-CONTENT (W186). Coherence-first; exploration grade; conditional register;
-RUTHLESS skeptic. Five personas inline in one worker (open-quantum-systems / reservoir specialist;
+RUTHLESS skeptic. Five perspectives inline in one worker (open-quantum-systems / reservoir specialist;
 Krein / C-operator specialist; GU-source-content specialist; self-consistency / bootstrap / fixed-point
-specialist; adversarial skeptic RUTHLESS); no sub-agents. Reproducible:
+specialist; adversarial skeptic RUTHLESS); no independent reviewers. Reproducible:
 `python -u tests/W186_source_content_reservoir_krein_type.py` (36/36, exit 0; positive controls first).
 No canon movement; H59 remains OPEN.*

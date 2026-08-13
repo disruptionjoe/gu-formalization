@@ -9,7 +9,7 @@ modular objects (the antilinear conjugation J and the flow Delta^{it}) for the A
 operator S(a Omega) = a^+ Omega with a^+ = eta a* eta the KREIN adjoint (NOT the Hilbert adjoint that
 W67/W74 used), and tests the four modular properties on a rank-2 (Pi_2) space.
 
-VERDICT ENCODED (persona 5): PARTIAL-CONDITIONAL.
+VERDICT ENCODED (perspective 5): PARTIAL-CONDITIONAL.
   * The modular FLOW extends UNCONDITIONALLY: Delta = S^+ S is exactly eta-selfadjoint, so Delta^{it}
     is eta-unitary and sigma_t(M)=M for EVERY rank -- even when Delta has non-real spectrum.  (Matches
     Gottschalk 2002: the flow half survives the indefinite metric.)
@@ -324,7 +324,7 @@ check("T4  CONJUGATION is the leading-edge failure at rank 2.  type A (non-real 
       f"B flow resid={B_flow_resid:.2e} (want >>0)")
 
 # ==================================================================================================
-# T5 -- VERDICT BOOLEANS (persona 5): PARTIAL-CONDITIONAL.
+# T5 -- VERDICT BOOLEANS (perspective 5): PARTIAL-CONDITIONAL.
 # ==================================================================================================
 log("\n[T5] VERDICT = PARTIAL-CONDITIONAL")
 verdict = {

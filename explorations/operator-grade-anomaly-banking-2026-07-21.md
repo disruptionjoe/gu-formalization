@@ -4,9 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 outcome: "PARTIAL / leaning BLOCKED on operator-grade banking (no target reaches operator grade; three obstructions pinned)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 directed_by: "Joe direct chat, 2026-07-21 (OPERATOR-GRADE anomaly banking; three separated targets; one synchronous pass, foreground probe)"
 inputs:

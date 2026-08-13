@@ -67,10 +67,10 @@ free scale), or (c) not discriminating / not testable. Return arguments tagged b
 weak). Do NOT render the verdict -- the orchestrator decides. Be genuinely adversarial (the "compression not
 prediction" prior is real -- H34 found the honest register is accommodation), but present, do not veto.
 
-## 4. Team composition (each branch = one worker running a 5-persona team INLINE)
-Per the standing rule (personas always inline). Five agents total (A-E), parallel; A-D mutually blind and blind
+## 4. Team composition (each branch = one worker running a 5-perspective team INLINE)
+Per the standing rule (perspectives always inline). Five agents total (A-E), parallel; A-D mutually blind and blind
 to E; E is briefed on the candidate LIST (public thread items) but not on the constructive teams' reasoning.
-5-persona template (specialize persona 1 per candidate): (1) the domain specialist (cosmology/EOS for A;
+5-perspective template (specialize perspective 1 per candidate): (1) the domain specialist (cosmology/EOS for A;
 differential geometry / Met(X^4) for B; observerse/information theory for C; representation/topology for D;
 the skeptic-of-novelty for E); (2) the referee (grades forced/family-invariant vs choice-dependent, novel vs
 known); (3) the intra-team adversary (attacks the branch's own claim -- PRESENTS, the branch synthesizer weighs);

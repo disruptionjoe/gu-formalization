@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM EMERGENCE, W151; 5 personas inline, one context, no sub-agents; deterministic test)
+status: exploration (TEAM EMERGENCE, W151; 5 perspectives inline, one context, no independent reviewers; deterministic test)
 created: 2026-07-14
 wave: W151
 hypothesis: "W151 -- Joe's strongest structural substrate conjecture: records are held in the Y14 substrate and COMMUNICATED THROUGH LIGHT (causal order); TIME is the growing set of mutually-consistent shared records across the global/regional/individual capability tiers (the number/volume leg); and GENERAL RELATIVITY and the SPEED OF LIGHT should POP OUT of this record/light/consistency structure. CRUX: does GU make the emergence NATIVE (forced by Y14 = Met(X4)) rather than a generic import, and does the record-thermodynamic route reproduce GU's already-computed native Einstein coefficient (W126/W130 a1 = 1/3, split 3:2:1)?"
@@ -37,7 +37,7 @@ relativity and the speed of light should fall out. The substrate arc's concurren
 (W145-W149) take the number-to-Lambda leg (everpresent-Lambda, `delta Lambda ~ 1/sqrt(N)`).
 W151 takes the complementary GEOMETRY and DYNAMICS leg: the Malament -> causal-set -> Jacobson
 chain, and the sharp GU-native test against GU's own already-computed native Einstein
-coefficient (W126/W130). Five personas inline, one context, no sub-agents. Deterministic test
+coefficient (W126/W130). Five perspectives inline, one context, no independent reviewers. Deterministic test
 `tests/W151_gr_and_c_emergence_from_records.py` (25 checks, exit 0).
 
 Two things are kept strictly separate throughout, following the W138 discipline: whether the
@@ -60,7 +60,7 @@ rest of this note assesses each leg for NATIVITY and runs the two-route Einstein
 
 ---
 
-## 1. Persona 1 -- causal-structure / GR theorist: what the causal order gives, exactly
+## 1. Perspective 1 -- causal-structure / GR theorist: what the causal order gives, exactly
 
 **Malament, precisely.** For a past- and future-distinguishing spacetime, a bijection preserving
 the causal precedence relation is a smooth conformal isometry. So the causal order fixes the
@@ -88,7 +88,7 @@ gimmel null cone natively, and the causal order that Malament turns into conform
 gimmel order, not a generic sprinkle. **This leg is GU-NATIVE**: the conformal-structure output is
 the (9,5) gimmel conformal structure, computed in W131, not an import.
 
-## 2. Persona 2 -- causal-set theorist: number = volume = Joe's consistent-record-time
+## 2. Perspective 2 -- causal-set theorist: number = volume = Joe's consistent-record-time
 
 **BLMS, precisely.** Order gives `[g]` (Malament). NUMBER gives the missing factor: in a Poisson
 sprinkling at density `rho`, the expected count in a region equals `rho x Vol`, so counting
@@ -99,7 +99,7 @@ already carries the causal-set axis as a scoped program (`sorkin-causal-set-axis
 **Joe's time IS the number leg.** `time = the consistent additional records across the global,
 regional, and all individual observers` = the growth of the count = the volume element. Joe's
 addition beyond bare BLMS is the word CONSISTENT: not any count, but the mutually-agreed count
-across the capability tiers. That agreement condition is what Persona 4 examines.
+across the capability tiers. That agreement condition is what Perspective 4 examines.
 
 **Positive control (test PC1, M2/M3).** With density defined per unit Minkowski volume
 (`dt dx = (1/2) du dv`), an Alexandrov interval's cardinality divided by the density recovers its
@@ -122,7 +122,7 @@ everpresent amplitude to land (the shadow-map constraint). That dimension-collap
 pin on the number leg; the counting mechanism itself is imported. **This leg is IMPORTED, with one
 GU-specific rider (14 -> 4).**
 
-## 3. Persona 3 -- thermodynamic / emergent-gravity theorist: the Jacobson leg and the two-route test
+## 3. Perspective 3 -- thermodynamic / emergent-gravity theorist: the Jacobson leg and the two-route test
 
 **Jacobson, precisely.** On a local Rindler causal horizon through any point, take heat
 `delta Q = integral T_ab chi^a dSigma^b` (matter energy flux across the horizon), entropy
@@ -210,7 +210,7 @@ tachyon; GU's geometry does. The departure between "records give GR" and "GU's o
 lives exactly at the `R^2` sector, and it is an order-of-approximation departure, not a sign or
 structural contradiction in the Einstein term.
 
-## 4. Persona 4 -- relational-time theorist: consistent record accretion as an emergent time
+## 4. Perspective 4 -- relational-time theorist: consistent record accretion as an emergent time
 
 **The construction.** Joe's time is not a coordinate; it is the growth of the mutually-consistent
 shared record set across the capability tiers. In relational terms (Rovelli, Barbour), this is a
@@ -241,7 +241,7 @@ a well-defined emergent metric and a monotone emergent time, but the field EQUAT
 supplied by the dynamics, which GU already has natively (alpha) and which the record route (beta)
 re-supplies generically. Consistency is the arena, not the law.
 
-## 5. Persona 5 -- adversarial skeptic: is this a GU-specific pin, or a relabel?
+## 5. Perspective 5 -- adversarial skeptic: is this a GU-specific pin, or a relabel?
 
 **Steelman IT-IS-A-RELABEL, at full strength.** Emergent gravity is non-unique and notoriously hard
 to falsify. The entire chain here is prior art: Malament 1977 (order -> conformal), BLMS 1987 (order +
@@ -345,5 +345,5 @@ W145-W149 siblings' object, cited not duplicated. No native `eta`-from-gimmel-ar
 attempted (named as the missing bridge for the magnitude match). The Hauptvermutung and LIV bounds are
 stated as standing constraints, not resolved. Exploration grade; conditional register throughout.
 
-*Filed 2026-07-14. Wave W151 (TEAM EMERGENCE), five personas inline in one session. Reproducible:
+*Filed 2026-07-14. Wave W151 (TEAM EMERGENCE), five perspectives inline in one session. Reproducible:
 `python -u tests/W151_gr_and_c_emergence_from_records.py` (25 checks, exit 0).*

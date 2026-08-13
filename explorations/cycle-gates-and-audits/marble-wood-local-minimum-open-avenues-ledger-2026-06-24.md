@@ -8,7 +8,7 @@ owned_path: "explorations/cycle-gates-and-audits/marble-wood-local-minimum-open-
 optional_audit: "tests/marble_wood_open_avenues_audit.py"
 depends_on:
   - "lab/process/runbooks/five-lane-frontier-run.md"
-  - "explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/perspective-and-dialectic/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md"
   - "explorations/firewall-and-two-geometries/quantum-gravity-reframing-no-go-map-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md"
@@ -586,7 +586,7 @@ already solved.
 ## Sources Read
 
 - `lab/process/runbooks/five-lane-frontier-run.md`
-- `explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
+- `explorations/perspective-and-dialectic/all-perspective-wall-break-steelman-hegelian-2026-06-24.md`
 - `explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md`
 - `explorations/firewall-and-two-geometries/quantum-gravity-reframing-no-go-map-2026-06-24.md`
 - `explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md`

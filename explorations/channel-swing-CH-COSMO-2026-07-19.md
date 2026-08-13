@@ -22,7 +22,6 @@ inputs:
   - explorations/conformal-factor-mode-gauge-status-2026-07-11.md
 scripts:
   - tests/channel-swings/ch_cosmo_magnitude_mode_probe.py
-claim_status_change: none
 ---
 
 # Channel swing CH-COSMO (2026-07-19)
@@ -31,12 +30,12 @@ CH-COSMO is the scorecard's weakest leg (Q1: NO — no physical scalar projector
 ever been exhibited; RECOVERY-NOGO-COSMO-SCALAR is a bounded no-go with a seven-item
 missing list). This swing attacks Q1 directly under the standing axiom and H-COSMO
 (the scalar channel is the magnitude mode of the C10 distortion VEV, H-GR'
-curvature-conditioned), extracts the empirical bracket the frozen Lane 2 rows already
+curvature-conditioned), extracts the empirical bracket the frozen prediction research rows already
 imply for the adapter's absolute-scale item, and works the sign question with no
 inherited historical value (archaeology item 9: both prior signs came from the
 hardcoded `d ln rho/dz = 3` vs `4.229` bug — the sign is OPEN).
 
-Personas run inline in one context: GR perturbation theorist (Section 1), cosmologist
+Perspectives run inline in one context: GR perturbation theorist (Section 1), cosmologist
 (Section 2), data analyst (frozen-row extraction, Sections 2-3). Receipt:
 `tests/channel-swings/ch_cosmo_magnitude_mode_probe.py`, exit 0, 32/32 checks.
 
@@ -147,7 +146,7 @@ magnitude/scalaron mixing angle would be a computable output, not an unknown unk
 
 ## 2. The empirical bracket for the adapter's absolute-scale item
 
-Frozen rows only (H46C, DARK-ENERGY-05/06 + W129, W226); the Lane 2 DE-AMP audit is
+Frozen rows only (H46C, DARK-ENERGY-05/06 + W129, W226); the prediction research DE-AMP audit is
 NOT re-run. The adapter item splits into a two-sided TOTAL and a one-sided SPLIT:
 
 **Total scale (two-sided, pinned).** The CMB-calibrated amplitude leg pins the total
@@ -216,7 +215,7 @@ The sharp version of "the DE sign ties to the transmitted Z/2" (H-REC):
   local-unreadability of the topologically stored bit (H-QM/p2c storage) — it is the
   kind of access the storage mechanism permits. The DE sign is currently the only
   candidate GLOBAL READOUT CHANNEL for payload item 1 anywhere on the board.
-- Flag for Lane 2 (per archaeology item 9): when the DE amplitude audit next runs,
+- Flag for prediction research (per archaeology item 9): when the DE amplitude audit next runs,
   the sign of any detected deviation doubles as the orientation-consistency datum.
 
 ## 4. Draft CH-COSMO parameter card
@@ -293,6 +292,6 @@ All conditional constructions under the standing axiom, toy grade where computed
 The no-go register entry RECOVERY-NOGO-COSMO-SCALAR is not cleared, reopened, or
 edited; the scorecard row change is a PROPOSAL recorded here, not applied. No claim
 status, canon verdict, or public posture moves. Frozen data rows are cited, not
-re-audited (Lane 2 owns the audit). Receipt:
+re-audited (prediction research owns the audit). Receipt:
 `tests/channel-swings/ch_cosmo_magnitude_mode_probe.py` (sympy, deterministic,
 exit 0, 32/32).

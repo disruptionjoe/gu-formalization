@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W211 = SYNTHESIS of the 2026-07-14 decisive-bit arc; five methods W206-W210 aggregated; one worker, viewpoints inline, no sub-agents; convergence certificate tests/W211_five_method_convergence.py exit 0, positive controls first)"
+status: "exploration (W211 = SYNTHESIS of the 2026-07-14 decisive-bit arc; five methods W206-W210 aggregated; one worker, viewpoints inline, no independent reviewers; convergence certificate tests/W211_five_method_convergence.py exit 0, positive controls first)"
 created: 2026-07-14
 wave: W211
 label: W211
@@ -30,7 +30,7 @@ Test / convergence certificate: `tests/W211_five_method_convergence.py` (exit 0,
 first). This is a SYNTHESIS note. It derives no new linear algebra; it aggregates the five
 independently machine-checked decisive-bit computations filed earlier today (W206-W210) and records
 what their agreement means. Viewpoints (aggregator; skeptic/guardrail; coherence synthesizer) ran
-INLINE in this one worker, no sub-agents. Zero em dashes.
+INLINE in this one worker, no independent reviewers. Zero em dashes.
 
 ## 0. The whole program reduced to one bit
 
@@ -171,7 +171,7 @@ TaF/temporal-issuance-gated. Promotion stays Joe-gated.
 
 *Filed 2026-07-14. Synthesis of the five decisive-bit methods (W206 R16, W207 R9, W208 R7, W209 R12,
 W210 R1) on the branch-3 source action built by W203 with the signature decoupled by W202. Viewpoints
-inline in one worker (aggregator; skeptic/guardrail; coherence synthesizer); no sub-agents. Reproducible
+inline in one worker (aggregator; skeptic/guardrail; coherence synthesizer); no independent reviewers. Reproducible
 convergence certificate: `python -u tests/W211_five_method_convergence.py` (exit 0; positive controls
 first, including the recomputed full-group `nulldim = 1` -> stabilizer invariant-form `dim = 2` jump).
 VERDICT: RESIDUAL-BIT-STANDS, unanimous 5/5; LOCATED-NOT-FORCED; bar (b) does not self-clear. No canon

@@ -188,9 +188,9 @@ check("C2 the H36 candidate is retained as a killed conditional",
       == "KILLED_CONDITIONAL")
 
 
-print("\n== TEN DIVERGENT PERSONAS: 30 PREDICTION TARGETS ==")
-persona_proposals = (
-    # persona, leg, target, impact (1..5), difficulty (1..5), readiness, first kill
+print("\n== TEN DIVERGENT PERSPECTIVES: 30 PREDICTION TARGETS ==")
+perspective_proposals = (
+    # perspective, leg, target, impact (1..5), difficulty (1..5), readiness, first kill
     ("flavor_rep_theorist", "flavor", "basis-invariant Yukawa singular-value ratio", 5, 5,
      "target", "any independent surviving flavor coefficient remains"),
     ("flavor_rep_theorist", "flavor", "Z/3 texture-zero mixing sum rule", 4, 4,
@@ -262,20 +262,20 @@ persona_proposals = (
      "target", "a standard effective model reproduces it with equal or fewer assumptions"),
 )
 
-personas = {row[0] for row in persona_proposals}
-check("P1 exactly ten divergent personas participated", len(personas) == 10, str(sorted(personas)))
-check("P2 every persona supplied exactly three targets",
-      all(sum(row[0] == persona for row in persona_proposals) == 3 for persona in personas))
-check("P3 the register contains exactly thirty targets", len(persona_proposals) == 30)
+perspectives = {row[0] for row in perspective_proposals}
+check("P1 exactly ten divergent perspectives participated", len(perspectives) == 10, str(sorted(perspectives)))
+check("P2 every perspective supplied exactly three targets",
+      all(sum(row[0] == perspective for row in perspective_proposals) == 3 for perspective in perspectives))
+check("P3 the register contains exactly thirty targets", len(perspective_proposals) == 30)
 check("P4 every impact and difficulty score is on the 1..5 scale",
-      all(1 <= row[3] <= 5 and 1 <= row[4] <= 5 for row in persona_proposals))
+      all(1 <= row[3] <= 5 and 1 <= row[4] <= 5 for row in perspective_proposals))
 check("P5 every target has an explicit first-kill condition",
-      all(len(row[6].strip()) >= 20 for row in persona_proposals))
-check("P6 no persona labels a proposal as an existing standing prediction",
+      all(len(row[6].strip()) >= 20 for row in perspective_proposals))
+check("P6 no perspective labels a proposal as an existing standing prediction",
       all(row[5] in {"target", "structural_seed", "killed_conditional"}
-          for row in persona_proposals))
+          for row in perspective_proposals))
 check("P7 the search spans at least nine supporting legs",
-      len({row[1] for row in persona_proposals}) >= 9)
+      len({row[1] for row in perspective_proposals}) >= 9)
 
 
 print("\n== PRIORITY ROUTE: YUKAWA MAGNITUDES ==")

@@ -3,7 +3,7 @@
 council_coherence_cross_assessment_probe.py  (foreground, deterministic, NO RNG)
 
 Tabulates the COHERENCE CROSS-ASSESSMENT of the 22 committed council
-constructions. Each of the 22 personas, reconstituted IN CHARACTER as an
+constructions. Each of the 22 perspectives, reconstituted IN CHARACTER as an
 ASSESSOR, rated every OTHER construction (21 of them) on a 1-10 COHERENCE scale
 (1 = contradicts a banked result / internally incoherent; 10 = possibly a
 different substrate but the story fully hangs together, respects everything we

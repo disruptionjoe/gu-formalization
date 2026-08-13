@@ -1,10 +1,9 @@
 ---
 artifact_type: exploration
-status: exploration (W232; GAP-CLOSURE lane A5; four personas inline, one worker, no sub-agents; deterministic parity/bordism test, exit 0, positive controls first)
+status: exploration (W232; GAP-CLOSURE lane A5; four perspectives inline, one worker, no independent reviewers; deterministic parity/bordism test, exit 0, positive controls first)
 created: 2026-07-14
 wave: W232
 label: W232
-lane: A5
 posture: coherence-first; exploration grade; conditional register; truth-seeking (report value under either outcome); RUTHLESS self-verification; tri-repo gating STRICT
 verdict: COMPLETED-GENUINE-CHOICE
 title: "W232 (lane A5) -- PIN the (9,5)-vs-(7,7) signature via the open 2-primary Witten / Dai-Freed Z/2 (global) anomaly. RESULT: the lever does NOT fire against (9,5). The Witten Z/2 anomaly VANISHES on the (9,5)/quaternionic side by THREE independent mechanisms: (B) the mapping-torus dimension 15 = D+1 (D=14) sits in a DEAD KO/KSp degree -- KO_15 = KO_7 = 0 (real/(7,7) side) and KSp_15 = KO_19 = KO_3 = 0 (quaternionic/(9,5) side) -- so the point-level (gravitational) mod-2 index vanishes for BOTH signatures; (C) the reduced spin-bordism global-anomaly group on the (9,5) side is EMPTY, Omega~^spin_15(BSp(64)) = 0, because H*(BSp;Z) lives only in degrees = 0 mod 4 and Omega^spin_q = 0 for q in {3,7,11} (AHSS), leaving NO room for any global anomaly perturbative or torsion; (D) in the 4D-reduced reading the genuine candidate pi_4(Sp(64)) = Z/2 (the Witten-SU(2) mechanism) is killed by the EVEN quaternionic multiplicity dim_H(S) = 64, while the (7,7)/real side has NO candidate at all since pi_4(SO(128)) = 0. Therefore (9,5) is NOT excluded, (7,7) is NOT forced, and the generation-count leg (which dissolves ONLY if (7,7) is forced) does NOT dissolve. The signature is a GENUINE FREE CHOICE fixed solely by the declared base Lorentzian convention sign(d) via W202's closed form p-q = d + d^2/2, NOT by any anomaly-consistency requirement. This CLOSES W202's sole live lever and converts the standing conditional into a characterized free choice. HONEST CORRECTION to W202's conjectured asymmetry: the direction W202 feared (Z/2 excludes the H-class -> forces (7,7) -> dissolves count) is exactly the direction proven CLOSED; if anything is left open it is on the (7,7)/real side (BSO(128)-type bordism), which could only bear on excluding (7,7) and pointing toward (9,5), never on forcing (7,7). Deterministic test tests/W232_signature_witten_z2_anomaly.py, all checks exit 0, positive controls first (Witten SU(2)=Sp(1) single doublet reproduced as ANOMALOUS)."
@@ -35,7 +34,7 @@ external_refs:
 
 ## 0. The charge and the one-paragraph answer
 
-Lane A5 of the GAP-CLOSURE wave. W202 left the (9,5)-vs-(7,7) signature UNDER_DETERMINED
+research maintenance5 of the GAP-CLOSURE wave. W202 left the (9,5)-vs-(7,7) signature UNDER_DETERMINED
 with exactly one live lever: the open 2-primary Witten / Dai-Freed Z/2 (global) anomaly,
 which W202's skeptic conjectured could only push toward (7,7) (exclude the H-class),
 dissolving the generation count (which is theorem-forbidden from the fermion index and
@@ -65,7 +64,7 @@ The ONLY structural datum that changes across the crux is the **reality class** 
 spinor: quaternionic H (KSp) on (9,5), real R (KO) on (7,7). Everything below is the
 consequence of chasing that single change through the anomaly machinery.
 
-## 2. Persona 1 (global-anomaly / Witten specialist): what the anomaly actually is, and the two readings
+## 2. Perspective 1 (global-anomaly / Witten specialist): what the anomaly actually is, and the two readings
 
 The perturbative anomaly is already closed at verified grade (the anomaly audit: `tr_R F^8`
 is reality-class-blind and vanishes for the even Casimir; BIG-SWING angle 1). The OPEN
@@ -86,7 +85,7 @@ There are two physically natural readings, and I run BOTH:
 The two readings probe DIFFERENT KO-degrees and so are an independent cross-check. If either
 gave an anomaly on (9,5), the H-class would be excluded. Neither does.
 
-## 3. Persona 2 (cobordism / bordism specialist): the dead degree at 15, and the empty bordism group
+## 3. Perspective 2 (cobordism / bordism specialist): the dead degree at 15, and the empty bordism group
 
 **(B) The point-level (gravitational) mod-2 index is dead at dimension 15 for BOTH reality
 types.** The Atiyah-Singer mod-2 index theorem says a closed-manifold Z/2 index exists only
@@ -122,7 +121,7 @@ This tightens the Sp(64) note (which reduced to a 16-dim mod-2 index and used th
 Fact A): the empty `Omega~^spin_15(BSp(64))` says the answer is forced by the ambient bordism
 group before any index is computed.
 
-## 4. Persona 3 (signature / Clifford specialist): the reality class is the whole story
+## 4. Perspective 3 (signature / Clifford specialist): the reality class is the whole story
 
 `p - q mod 8` is the sole determinant of the spinor reality type (real Clifford Morita
 theory): `(9,5) -> 4 -> H` (quaternionic, `M(64,H)`), `(7,7) -> 0 -> R` (real, `M(128,R)`).
@@ -137,7 +136,7 @@ SU(2), dim 5). Getting the direction right requires knowing the mapping-torus di
 quaternionic side lands in the dead slot `3 mod 8`; at `5` (the 4D reading) it lands in the
 live slot `1 mod 8`, and Section 5 handles that case by multiplicity.
 
-## 5. Persona 1 again (Witten specialist): the 4D-reduced reading and the even-multiplicity kill
+## 5. Perspective 1 again (Witten specialist): the 4D-reduced reading and the even-multiplicity kill
 
 The 4D reading is where the H-class is genuinely at risk, so it is the honest stress test.
 `pi_4(Sp(64)) = Z/2` (stable Bott: `pi_4(Sp) = pi_8(O) = pi_0(O) = Z/2`) -- a real candidate,
@@ -157,7 +156,7 @@ On the (7,7)/real side there is no candidate at all: `pi_4(SO(128)) = 0` (stable
 are clean in the 4D reading -- (9,5) by even multiplicity, (7,7) by an absent homotopy
 class.** Independent of, and concordant with, the 14D bordism verdict.
 
-## 6. Persona 4 (ruthless skeptic): is the vanishing cheap, and did I get the direction right?
+## 6. Perspective 4 (ruthless skeptic): is the vanishing cheap, and did I get the direction right?
 
 **Push 1 -- is `Omega~^spin_15(BSp(64)) = 0` too cheap?** No; it is a structural consequence
 of two robust facts: `H*(BSp;Z)` sits only in degrees `= 0 mod 4` (symplectic Pontryagin
@@ -251,9 +250,9 @@ Sp(64) gauge determination (9,5 side) and the standard Dai-Freed / Freed-Hopkins
 
 *Filed 2026-07-14 by lane A5 (W232), GAP-CLOSURE wave. Coherence-first; truth-seeking (value
 reported under either outcome, and W202's conjectured direction corrected on the evidence);
-RUTHLESS self-verification. Four personas inline in one worker (global-anomaly / Witten
+RUTHLESS self-verification. Four perspectives inline in one worker (global-anomaly / Witten
 specialist; cobordism / bordism-group specialist; signature / Clifford-structure specialist;
-ruthless skeptic); no sub-agents. Reproducible:
+ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W232_signature_witten_z2_anomaly.py` (all checks, exit 0; positive controls
 first). Exploration grade; conditional register; no canon movement; tri-repo gating strict.
 VERDICT: COMPLETED-GENUINE-CHOICE -- the Witten Z/2 does not fire against (9,5); the signature

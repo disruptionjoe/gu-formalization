@@ -3,10 +3,8 @@ title: "WHAT-IS-THIS wave, Swing 1 (THE LEMMA): what the operator-grade base-uni
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
-directed_by: "Joe direct chat, 2026-07-21 (WHAT-IS-THIS wave, Swing 1 THE LEMMA; 4 personas inline in one worker)"
+directed_by: "Joe direct chat, 2026-07-21 (WHAT-IS-THIS wave, Swing 1 THE LEMMA; 4 perspectives inline in one worker)"
 inputs:
   - explorations/prereg-what-is-this-wave-2026-07-21.md
   - explorations/prereg-construction-swing-posit-sigma-cycle-2026-07-21.md
@@ -19,7 +17,7 @@ probe: tests/channel-swings/wave_swing1_spin_cover_base_uniting_probe.py (foregr
 
 # Swing 1 -- THE LEMMA
 
-Four personas reasoned inline in one worker, each answering "what IS this lemma,
+Four perspectives reasoned inline in one worker, each answering "what IS this lemma,
 from my lens?", then a convergence read. Discipline: every claim tagged
 **EXACT** (forced by banked structure / machine-checkable identity) or
 **ANALOGY** (structural resemblance / declared proposal, not forced). No
@@ -298,4 +296,4 @@ pushes. Only two NEW files written -- this document and the probe
 `tests/channel-swings/wave_swing1_spin_cover_base_uniting_probe.py`; no existing
 file edited; TaF/TI/other repos untouched. The probe is a topology/algebra
 certificate for Member 3's identification only and is explicit that it does not
-touch the analytic burden. All personas ran inline in this one worker.
+touch the analytic burden. All perspectives ran inline in this one worker.

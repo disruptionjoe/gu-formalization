@@ -4,9 +4,7 @@ doc_type: results_of_preregistered_node
 status: "Phase-1 execution of pre-registered node N6 of the dictionary gate tree (the fingerprint hunt). OUTCOME: ABSENT -- the prediction is WELL-POSED (the canonical Z/3 from the N4 data exists, unique up to exactly the admissible inversion) and its equivariant decomposition of ker(Gamma) CONTRADICTS the pre-bound cyclic-permutation pattern: the commutant Z/3 acts fixed-point-freely (division-algebra theorem), trivial-character multiplicity 0, vs the predicted regular pattern. The order-reading's second statement fails as bound; the dictionary gate stays OPEN; no program-kill."
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (N6 fired: 'We are seeking truth here')"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 preregistration: "explorations/phase0-dictionary-gate-tree-2026-07-20.md, node N6; prediction armed by explorations/n4-two-z3s-2026-07-20.md Section 4.2 (order-3 cyclic permutation of the triplet's 3 (generation, mirror) pairs per 16-unit in ker(Gamma), characters pinned via Phi onto {0, 8nu, 16nu}, determinate up to exactly the inversion {Phi_D, Phi_B}); executed as bound, no mid-flight scope change"
 probe: tests/channel-swings/n6_fingerprint_probe.py
 grade: "COMPUTED (float64 with exact structural anchors; several certificates land at literal 0.0; 28 checks = 8 [T] + 12 [E] + 8 [F], exit 0, deterministic seeded). The load-bearing negative (trivial-character multiplicity 0) is theorem-grade: H is a division algebra, so the frozen commutant acts freely. No claim/canon/verdict/posture movement; the dictionary gate (H6 limit b) stays OPEN."

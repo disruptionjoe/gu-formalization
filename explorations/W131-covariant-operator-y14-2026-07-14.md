@@ -27,7 +27,7 @@ Test: `tests/W131_covariant_operator_y14.py` (12/12, exit 0). Deterministic (fix
 geometry runs on the explicit gimmel metric (base block h, trace-reversed DeWitt fiber block)
 at native base dimension n = 4, Lorentzian.
 
-Run as a 5-persona inline team (one worker, sequential): (1) differential geometer;
+Run as a 5-perspective inline team (one worker, sequential): (1) differential geometer;
 (2) representation theorist; (3) higher-spin/causality specialist; (4) computational engineer;
 (5) honesty auditor (E1/Lakatos).
 
@@ -64,7 +64,7 @@ Y14 = Met(X4), and it must have:
 | P7 | Flat limit reproduces W125 | positive control | **machine-checked (C1: all anchors reproduced)** |
 | P8 | Analytic layer: propagator/Fredholm theory on non-compact Y14; loop arena | SA-U1 loop items, leg (d) | **NOT BUILT (named residual; section 5)** |
 
-## 1. Persona 1 (differential geometer): the geometry supplies the hypotheses
+## 1. Perspective 1 (differential geometer): the geometry supplies the hypotheses
 
 The whole build stands on one classical fact: **a metric-compatible connection has an
 so(p,q)-valued connection form in any orthonormal frame.** Everything the covariant operator
@@ -85,12 +85,12 @@ rho_S. The wave machine-checks that this hypothesis is the ACTUAL Y14 geometry, 
   normal residual II_s = s*(theta) is nonzero (norm 1.63) and symmetric (3e-14). So II_s is
   a real datum, and it enters the section-pulled RS operator as a BLOCK OF THE so(9,5)
   CONNECTION FORM (the tangent-normal mixing block, skew by metric compatibility of both the
-  ambient and adapted connections) -- which is exactly what feeds Persona 3.
+  ambient and adapted connections) -- which is exactly what feeds Perspective 3.
 
 The induced connection is then P2: Levi-Civita on the T*Y14 factor, spin lift on S. Nothing
 else is available without adding non-metric structure, and the build needs nothing else.
 
-## 2. Persona 2 (representation theorist): [nabla, Pi] = 0 is a theorem
+## 2. Perspective 2 (representation theorist): [nabla, Pi] = 0 is a theorem
 
 The question the task named as the crux -- does the soldering make Gamma parallel -- has a
 sharper answer: **Gamma is parallel for EVERY metric-compatible connection; the soldering is
@@ -130,7 +130,7 @@ isometry eta_V (x) 1); all norms, leakage values, and symbol spectra are identic
 eta-corrected M_ij used here is the unique vector action making the repo's Gamma strictly
 equivariant, and it is so(9,5) (A2's membership check).
 
-## 3. Persona 3 (higher-spin/causality specialist): SA-C4 on curved Y14
+## 3. Perspective 3 (higher-spin/causality specialist): SA-C4 on curved Y14
 
 What SA-C4's curved clause needed: that the exact degree-1 symbol property protecting
 causality at the flat level survives curvature. W125 argued this by citation (II_s enters
@@ -171,7 +171,7 @@ estimates, no globally hyperbolic foliation of Y14 exhibited); and the 4D sectio
 Schur route (cure A, the unpinned E-block) is untouched, so the repo-level VZ verdict
 (CONDITIONALLY_RESOLVED) is NOT upgraded.
 
-## 4. Persona 4 (computational engineer): the test
+## 4. Perspective 4 (computational engineer): the test
 
 `tests/W131_covariant_operator_y14.py`, 12/12, exit 0, ~2 min. Design points:
 
@@ -191,7 +191,7 @@ Schur route (cure A, the unpinned E-block) is untouched, so the repo-level VZ ve
   rides on them -- they are witnesses for cited theorems, with the exact content carried by
   Block A.
 
-## 5. Persona 5 (honesty auditor, E1/Lakatos): ledger, verdict, and the pattern
+## 5. Perspective 5 (honesty auditor, E1/Lakatos): ledger, verdict, and the pattern
 
 ### 5.1 Consumption ledger
 
@@ -263,7 +263,7 @@ argued -> machine-checked.** No unbuildability obstruction was found; none was n
 - Time-box honesty: this was the pre-declared first swing. The analytic layer was not
   attempted, by design; a sharp partial beats a mush.
 
-*Filed 2026-07-14. Wave W131 (H68), five personas inline in one session. Reproducible:
+*Filed 2026-07-14. Wave W131 (H68), five perspectives inline in one session. Reproducible:
 `python -u tests/W131_covariant_operator_y14.py` (12/12, exit 0). Exploration-grade; no
 canon movement; the spec document receives an append-only status note for the SA-C4 row's
 curved clause only.*

@@ -55,7 +55,7 @@ the orchestrator weighs it against the constructive legs and decides. The conjec
 -- so a genuine forcing here is the decisive falsification, and a failure-to-force is a (weak) corroboration.
 
 ## 4. Team composition
-Each branch = one worker running a 5-persona team INLINE (specialist / math-referee / intra-team-adversary
+Each branch = one worker running a 5-perspective team INLINE (specialist / math-referee / intra-team-adversary
 [presents] / cross-checker / synthesizer), per the standing rule. A-D cross-shared (given the conjecture doc +
 each other's leg descriptions); E blind. Deliverables per branch: an exploration + a deterministic test where a
 concrete piece is checkable; a reachability map {constructible-now / needs-new-math / blocked} for the leg.

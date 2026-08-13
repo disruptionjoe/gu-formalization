@@ -11,9 +11,7 @@ inputs:
   - explorations/sector-relative-section-theory-2026-07-20.md
   - explorations/uniformity-hostile-verification-2026-07-20.md
 probe: tests/channel-swings/product_typing_and_pencil_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

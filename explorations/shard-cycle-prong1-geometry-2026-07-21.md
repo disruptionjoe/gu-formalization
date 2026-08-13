@@ -13,9 +13,7 @@ inputs:
   - tests/channel-swings/sig_b5_habitat_probe.py (the canonical generator loop, reused verbatim)
 probe: tests/channel-swings/shard_cycle_prong1_geometry_probe.py (foreground, deterministic two-run-identical, EXIT 0; 12 [E] + 2 [F] = 14 ALL PASS)
 outcome: G-PARTIAL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 ---
 
@@ -25,7 +23,7 @@ Adversarial truth-test, MAXIMUM skepticism. This is the make-or-break prong: a
 "constructed" result would be a real find, so it gets zero benefit of the doubt,
 and the numerology gate is armed -- if the object cannot be CONSTRUCTED from
 canonical GU structure, it is dropped. Three clean fits died on hostile verify
-this session for planting a convenient object; this run plants nothing and reports
+this session for planting a convenient object; this investigation plants nothing and reports
 the one FAIL the first pass produced (Sec. 4) rather than tuning it away.
 
 ## 0. Verdict up front

@@ -5,9 +5,7 @@ doc_type: partial_execution
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (uniformity execution; run stopped at Joe's request, handed off)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Uniformity execution — partial results and handoff

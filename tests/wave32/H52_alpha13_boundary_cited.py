@@ -7,7 +7,7 @@ disagreed on the implied mu_DW floor (H50: ~3.0-3.6 meV; Track-2 T2A: ~3.4-4.8 m
 This test replaces the argued boundary with PUBLISHED anchors and published fit
 functions, resolves the floor discrepancy, and grades every number.
 
-THE KEY EXTRACTION (persona 1+2, sources fetched 2026-07-13; content treated as data):
+THE KEY EXTRACTION (perspective 1+2, sources fetched 2026-07-13; content treated as data):
   The n = 1 RADION benchmark in the Eot-Wash analyses has Yukawa strength
   alpha = n/(n+2) = 1/3 EXACTLY, with published range-vs-unification-mass fit
       lambda ~= 2.4 * (1 TeV / (M* c^2))^2 mm        [PUBLISHED-QUOTED, Adelberger

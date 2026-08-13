@@ -25,7 +25,7 @@ The strongest results are:
 2. **No-go theorems are useful as forgetful-image probes, but Distler-Garibaldi is the stress case.** The public claim must be weaker and more honest than "unified across four."
 3. **Type II_1 remains the highest-upside math lane.** Its load-bearing questions are KO-dimension 6 mod 8, subfactor principal graphs, generation count, and Freed-Hopkins compatibility after Connes-channel pairing.
 4. **Nielsen-Ninomiya as a protocol contract cleared the "more than metaphor" bar.** The CALM/Ginsparg-Wilson bridge is the cleanest theorem-shaped follow-up.
-5. **Stochastic parity mostly closes as analogy, with one precise upgrade gate.** The open gate is the GFF/Hairer/Type II_1 parity question from persona 21(e).
+5. **Stochastic parity mostly closes as analogy, with one precise upgrade gate.** The open gate is the GFF/Hairer/Type II_1 parity question from perspective 21(e).
 6. **Causal-set and RG lanes are admissible public open problems, not lead claims.** Their value is in crisp falsification handles: a substrate-native causal-set chirality witness and a fixed-point SM-chirality operator scan.
 7. **Media cards are provenance scaffolding, not theorem movement.** They are useful for contributors and public defensibility, but WRK-379/380 should not be read as changing the research priority until the v2 transcript batch lands.
 
@@ -45,7 +45,7 @@ The strongest results are:
 | WRK-384 Sorkin causal set | Open-problem insight found | The route turns on whether partial orders can carry more than a time-orientation bit. | `WORK-000-reputation-gu-causal-set-chirality-witness-enumeration.md` |
 | WRK-385 RG universality | Axis insight found | L5/L6 coupling is constitutive; Form C anomaly-compatible emergent data is the credible version. | `WORK-000-reputation-gu-rg-fixed-point-chirality-candidate-scan.md` |
 
-## Partial-Pass Persona Critiques
+## Partial-Pass Perspective Critiques
 
 ### WRK-379 - Media Claim-Mining Starter
 
@@ -73,11 +73,11 @@ Alternatives:
 
 1. Hold public synthesis until WRK-379 v2 lands, or publish it only as "v1 provenance synthesis" with visible caveats.
 2. Split issue tasks into "ready now" vs "ledger-gated."
-3. Resolve repo numbering before promotion to the main claim ledger; the suggested `08-` path collides with the existing 15-persona ranking artifact.
+3. Resolve repo numbering before promotion to the main claim ledger; the suggested `08-` path collides with the existing 15-perspective ranking artifact.
 
 ## Hegelian Dialectic
 
-**Thesis:** The single-pass batch shows that divergent personas can convert a vague heterodox program into bounded research handles. The cards produced a six-axis specification language, per-theorem no-go map, Type II_1 checklist, Nielsen protocol bridge, and several public open-problem surfaces.
+**Thesis:** The single-pass batch shows that divergent perspectives can convert a vague heterodox program into bounded research handles. The cards produced a six-axis specification language, per-theorem no-go map, Type II_1 checklist, Nielsen protocol bridge, and several public open-problem surfaces.
 
 **Antithesis:** Most outputs are still maps, guardrails, or scaffolds. A map is not a theorem; a guardrail is not a construction; a media claim is not mathematical evidence. The biggest failure mode now is mistaking disciplined vocabulary for progress, especially when a lane has no constructed invariant yet.
 

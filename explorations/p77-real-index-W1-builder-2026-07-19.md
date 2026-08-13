@@ -19,9 +19,7 @@ inputs:
   - tests/generation-sector/signature_77_rerun.py
   - DERIVATION-PROGRESS.md (generation-count-rank3-resolution entry: the ind_H = 24 = 16+8, 24/8 = 3 packaging and its GEN-01/GEN-03 leg-split caveats)
 tests: tests/channel-swings/p77_real_index_builder.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # P-77-REAL-INDEX (W1 builder): the (7,7) real-index generation arithmetic

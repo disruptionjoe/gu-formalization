@@ -4,7 +4,7 @@ date: 2026-06-24
 status: exploration/gate
 verdict: OPEN_MISSING_GU_MEASUREMENT_POSTULATE
 depends_on:
-  - explorations/persona-and-dialectic/persona-review-cross-panel-synthesis-2026-06-24.md
+  - explorations/perspective-and-dialectic/perspective-review-cross-panel-synthesis-2026-06-24.md
   - explorations/time-as-finality-crosswalk/observer-finality-physical-forcing-gate-2026-06-24.md
   - explorations/time-as-finality-crosswalk/observer-finality-pati-salam-chsh-fixture-2026-06-24.md
   - explorations/time-as-finality-crosswalk/observer-finality-gu-derived-chsh-state-attempt-2026-06-24.md
@@ -43,7 +43,7 @@ fixture settings, and gives no CHSH violation.
 
 Required surfaces:
 
-- `explorations/persona-and-dialectic/persona-review-cross-panel-synthesis-2026-06-24.md`
+- `explorations/perspective-and-dialectic/perspective-review-cross-panel-synthesis-2026-06-24.md`
 - `explorations/time-as-finality-crosswalk/observer-finality-physical-forcing-gate-2026-06-24.md`
 - `explorations/time-as-finality-crosswalk/observer-finality-pati-salam-chsh-fixture-2026-06-24.md`
 - `explorations/time-as-finality-crosswalk/observer-finality-gu-derived-chsh-state-attempt-2026-06-24.md`

@@ -19,9 +19,7 @@ inputs:
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 runnable:
   - tests/channel-swings/sector_relative_section_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 > **CORRECTION (2026-07-20, second dry round — verify-section-theory-2026-07-20.md, commit 5afb44b).**

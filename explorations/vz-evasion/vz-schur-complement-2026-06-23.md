@@ -1039,7 +1039,7 @@ See §17 for the resolution at reconstruction grade: CONDITIONALLY_RESOLVED.
 
 **OQ4.** GU-Vasiliev comparison: does the GU RS embedding strategy (Leibniz cross-term as
 RS definition) provide a new class of consistent higher-spin theories, distinct from Vasiliev's
-higher-spin gravity? This is the P53-NOVEL target from the 62-persona steelman.
+higher-spin gravity? This is the P53-NOVEL target from the 62-perspective steelman.
 
 ---
 
@@ -2004,7 +2004,7 @@ The 4D EFT RS characteristic cone argument SURVIVES the KK mass-gap condition at
 - `explorations/vz-evasion/vz1-schur-complement-symbol-2026-06-23.md` (horizontal minimal result)
 - `explorations/vz-evasion/vz1-schur-vertical-extension-2026-06-23.md` (vertical extension, horizontal xi)
 - `explorations/vz-evasion/vz1-velo-zwanziger-analysis-2026-06-22.md` (VZ setup)
-- `explorations/persona-and-dialectic/vz1-62-persona-steelman-hegelian-2026-06-22.md` (evasion candidate)
+- `explorations/perspective-and-dialectic/vz1-62-perspective-steelman-hegelian-2026-06-22.md` (evasion candidate)
 - `explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (Cl(9,5) algebra)
 - `explorations/geometry-curvature-emergence/codazzi-sp64-bundle-2026-06-23.md` (4D reduction, F4 context)
 - `explorations/geometry-curvature-emergence/codazzi-sp64-2026-06-23.md` (Codazzi equation for Sp(64), OQ3-F4 context)

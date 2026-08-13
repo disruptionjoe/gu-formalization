@@ -29,7 +29,7 @@ local SUSY, super-IG, or an equivalent local odd gauge principle.  A yes would b
 super-Higgs/gravitino template is the known way to avoid the Rahman finite-cutoff branch and might also pin
 `mu_DW`.
 
-This run does not try to build that action.  It only guards the definition of "guardian."
+This investigation does not try to build that action.  It only guards the definition of "guardian."
 
 ## Necessary conditions
 

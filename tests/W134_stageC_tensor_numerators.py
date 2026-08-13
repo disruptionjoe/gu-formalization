@@ -53,7 +53,7 @@ CONTROLS. Positive control: the massless graviton's two helicity tensors give th
 positive cut form (Gram = identity). Negative control: deliberately flipping ONE
 polarization's norm (the longitudinal, weight -1) makes the form indefinite with a negative
 eigenvalue that GROWS with |k| on the phase space -- the detector sees exactly the
-longitudinal failure mode the skeptic persona pushes, and the true projector does not have it.
+longitudinal failure mode the skeptic perspective pushes, and the true projector does not have it.
 
 Honest labels: COMPUTED (machine-checked exact identities + eigenvalue scans over the full
 phase-space grids at the four s values) for the positivity, fork-resolution and parity
@@ -86,7 +86,7 @@ def log(msg: str = "") -> None:
 
 
 # ------------------------------------------------------------------------------------------
-# Kinematics and tensor machinery (persona 1, tensor-loop engineer).
+# Kinematics and tensor machinery (perspective 1, tensor-loop engineer).
 # ------------------------------------------------------------------------------------------
 ETA = np.diag([1.0, -1.0, -1.0, -1.0])
 M2 = 1.0
@@ -163,7 +163,7 @@ def lower2(e: np.ndarray) -> np.ndarray:
 
 
 # ------------------------------------------------------------------------------------------
-# Three-body phase-space sampler for the sunset cut (persona 4).
+# Three-body phase-space sampler for the sunset cut (perspective 4).
 # p = (sqrt(s),0,0,0); ghost pair (k1,k2) with pair invariant mass mu; scalar q.
 # ------------------------------------------------------------------------------------------
 
@@ -205,7 +205,7 @@ log("W134 STAGE C -- SPIN-2 TENSOR NUMERATORS ON THE TWO-LOOP CUTS (upgrading AR
 log("=" * 96)
 
 log("")
-log("1. Exact on-shell identities (personas 1 + 2): basis properties and P2 = sum eps eps")
+log("1. Exact on-shell identities (perspectives 1 + 2): basis properties and P2 = sum eps eps")
 
 # A generic on-shell test momentum (boosted, off-axis).
 k_test = None
@@ -255,7 +255,7 @@ check("E3 the delta-weighted sum is polarization-basis independent (a genuine co
 
 # ------------------------------------------------------------------------------------------
 log("")
-log("2. The Krein-twist fork (persona 3): internal metric on little-group indices")
+log("2. The Krein-twist fork (perspective 3): internal metric on little-group indices")
 
 # Schur: the commutant of the SO(3) Wigner action on the 5-dim polarization space is trivial.
 def wigner5(R3: np.ndarray) -> np.ndarray:
@@ -300,7 +300,7 @@ check("F3 fork identification: the repo's keep-and-grade grading carries the Kre
 
 # ------------------------------------------------------------------------------------------
 log("")
-log("3. Positivity scans on the Stage-A cut phase space (personas 4 + 5)")
+log("3. Positivity scans on the Stage-A cut phase space (perspectives 4 + 5)")
 log("   min/max eigenvalues of the sesquilinear form T* P2(k) T over ALL complex T (16-dim);")
 log("   rank is 5, so the correct positive verdict is: 5 positive eigenvalues, 11 zeros,")
 log("   min eigenvalue = 0 within tolerance, at EVERY sampled phase-space point.")
@@ -345,7 +345,7 @@ check("S1 single-line positivity (COMPUTED-AT-POINTS, full grids): at every samp
       "worst min eig across all scans: "
       + f"{min(r['gmin'] for r in scan_report.values() if not r.get('empty')):+.2e}")
 
-# The longitudinal growth (persona 5's failure mode, quantified): the max eigenvalue grows
+# The longitudinal growth (perspective 5's failure mode, quantified): the max eigenvalue grows
 # with |k| (the 1/M^2, 1/M^4 pieces) while the min stays pinned at zero: the vDVZ/contact
 # growth is a MAGNITUDE effect, never a sign effect, on-shell.
 r6, r12 = scan_report[(6.0, 0.0)], scan_report[(12.0, 0.0)]
@@ -392,7 +392,7 @@ check("S4 vertex-independence, two routes (NUMERICAL-CONTROLLED): for random com
 
 # ------------------------------------------------------------------------------------------
 log("")
-log("4. Controls (persona 4)")
+log("4. Controls (perspective 4)")
 
 # Positive control: massless graviton, helicity basis, standard positive cut form.
 E0 = 2.0

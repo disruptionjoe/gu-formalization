@@ -2,7 +2,7 @@
 status: issued
 kind: source-owned downstream interface
 created: 2026-07-14
-source_request: CapacityOS/system/mailboxes/gu-formalization/20260714-possibility-to-capability-request-gu-001-frozen-packet.md
+source_request: private orchestration overlay/system/mailboxes/gu-formalization/20260714-possibility-to-capability-request-gu-001-frozen-packet.md
 ---
 
 # GU-001 Frozen Packet Issuance Plan

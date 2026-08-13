@@ -8,7 +8,7 @@ updated_at: "2026-05-31"
 # Nielsen-Ninomiya as a Distributed-Systems Protocol Contract — Pilot Map
 
 **Status.** Public draft artifact.
-**Source basis.** `lab/literature/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md`, `lab/process/syntheses/00e-problem-shape-distributed-systems-meta-synthesis.md`, `lab/roadmap/15-persona-pathway-ranking.md` (pathway E ranks 6/16 on the 15-persona panel; "best heterodox operational bridge"). Cross-built against the six-axis protocol (internal origin artifact) and the no-go-forgetful image map (internal origin artifact).
+**Source basis.** `lab/literature/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md`, `lab/process/syntheses/00e-problem-shape-distributed-systems-meta-synthesis.md`, `lab/roadmap/15-perspective-pathway-ranking.md` (pathway E ranks 6/16 on the 15-perspective panel; "best heterodox operational bridge"). Cross-built against the six-axis protocol (internal origin artifact) and the no-go-forgetful image map (internal origin artifact).
 **Generated.** 2026-05-30
 **WRK artifact.** internal origin artifact.
 **Sibling cross-refs.** internal origin artifact six-axis (this draft is the first candidate to exercise L3 = (g) FLP/CAP/BFT protocol-class pairing); internal origin artifact no-go-map (predicts: assumption (5) is the Lüscher-class point, modified-consistency-model is the cleanest evasion); internal origin artifact Cartan-G_2 (potential L1 substrate-side analog, not engaged in this pilot).

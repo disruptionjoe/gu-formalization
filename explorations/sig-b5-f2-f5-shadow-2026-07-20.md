@@ -20,9 +20,7 @@ inputs:
 runnable:
   - tests/channel-swings/f2_shadow_two_section_probe.py
   - tests/channel-swings/f5_shadow_c2_flip_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # S_IG/B.5: the two named computations, run

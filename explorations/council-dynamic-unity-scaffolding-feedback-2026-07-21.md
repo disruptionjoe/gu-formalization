@@ -1,12 +1,10 @@
 ---
-title: "SCIENCE COUNCIL feedback on Joe's founding CHARTER for the 'Dynamic Unity' repo (rev. 2 scaffolding). Six personas reason INLINE in one worker (Lakatos research-program strategist, philosopher-of-science/demarcation, anti-crank skeptic, agent-orchestration/research-methods, applied-practitioner, governance/structure), then a Chairman synthesis. This is JOE-DIRECTED review of HIS charter -- per-section STRENGTHS / RISKS / a concrete SUGGESTED REFINEMENT for each of the six sections (PURPOSE, PASSION, PRACTICE, CONNECTIONS, OBJECTIVES, LANES), then the Chairman's top 2-3 highest-value refinements. The council does NOT rewrite the charter, does NOT create/name the repo, does NOT decide attribution -- those are Joe's. NET: the charter is SOUND as a founding document, and its every weakness is of ONE kind -- it states its guiding claims at the ASPIRATION altitude ('unifying laws of reality', 'produce novel outputs', 'works on anything') while the discipline that makes those claims credible lives at the OBJECT/PROGRAM altitude, and it does not consistently carry the falsifiability down into the founding statements. The single recurring fix: name the aspiration AS aspiration, and bind the operative claim to a bounded object with a kill condition -- anchored on the companion assessment's one bankable joint, the B5 source-action -> native DE-amplitude closure. Three load-bearing refinements: (1) two-tier every aspirational statement (horizon vs bounded-hard-core-with-a-kill); (2) make 'produce novel outputs' mean 'bank SURVIVED outputs' everywhere and credit clean kills, with a pre-registered apparatus success/null so 'the apparatus works at a frontier' is a verdict not a vibe; (3) fix the CONNECTIONS gate -- self-check substitutes for INGEST, not for the jointly-held tri-repo IDENTITY gate, which is self-graded and unilateral where the gate is jointly-held and was built precisely because an interested party's self-audit cannot be trusted on the merger."
+title: "SCIENCE COUNCIL feedback on Joe's founding CHARTER for the 'Dynamic Unity' repo (rev. 2 scaffolding). Six perspectives reason INLINE in one worker (Lakatos research-program strategist, philosopher-of-science/demarcation, anti-crank skeptic, agent-orchestration/research-methods, applied-practitioner, governance/structure), then a Chairman synthesis. This is JOE-DIRECTED review of HIS charter -- per-section STRENGTHS / RISKS / a concrete SUGGESTED REFINEMENT for each of the six sections (PURPOSE, PASSION, PRACTICE, CONNECTIONS, OBJECTIVES, LANES), then the Chairman's top 2-3 highest-value refinements. The council does NOT rewrite the charter, does NOT create/name the repo, does NOT decide attribution -- those are Joe's. NET: the charter is SOUND as a founding document, and its every weakness is of ONE kind -- it states its guiding claims at the ASPIRATION altitude ('unifying laws of reality', 'produce novel outputs', 'works on anything') while the discipline that makes those claims credible lives at the OBJECT/PROGRAM altitude, and it does not consistently carry the falsifiability down into the founding statements. The single recurring fix: name the aspiration AS aspiration, and bind the operative claim to a bounded object with a kill condition -- anchored on the companion assessment's one bankable joint, the B5 source-action -> native DE-amplitude closure. Three load-bearing refinements: (1) two-tier every aspirational statement (horizon vs bounded-hard-core-with-a-kill); (2) make 'produce novel outputs' mean 'bank SURVIVED outputs' everywhere and credit clean kills, with a pre-registered apparatus success/null so 'the apparatus works at a frontier' is a verdict not a vibe; (3) fix the CONNECTIONS gate -- self-check substitutes for INGEST, not for the jointly-held tri-repo IDENTITY gate, which is self-graded and unilateral where the gate is jointly-held and was built precisely because an interested party's self-audit cannot be trusted on the merger."
 status: proposal
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
-directed_by: "Joe direct chat via coordinator, 2026-07-21. Joe-directed SCIENCE COUNCIL feedback on HIS founding charter (rev. 2 scaffolding). Six personas inline + Chairman, one synchronous read-only pass, new file. Companion to explorations/proposed-dynamic-unity-repo-scaffolding-2026-07-21.md (the target) and explorations/council-dynamic-unity-assessment-2026-07-21.md (the prior substance assessment)."
+directed_by: "Joe direct chat via coordinator, 2026-07-21. Joe-directed SCIENCE COUNCIL feedback on HIS founding charter (rev. 2 scaffolding). Six perspectives inline + Chairman, one synchronous read-only pass, new file. Companion to explorations/proposed-dynamic-unity-repo-scaffolding-2026-07-21.md (the target) and explorations/council-dynamic-unity-assessment-2026-07-21.md (the prior substance assessment)."
 inputs:
   - explorations/proposed-dynamic-unity-repo-scaffolding-2026-07-21.md
   - explorations/council-dynamic-unity-assessment-2026-07-21.md
@@ -18,8 +16,8 @@ inputs:
 
 # SCIENCE COUNCIL — feedback on Joe's founding charter for "Dynamic Unity"
 
-Six personas reason **INLINE** in this one worker (each in character, independent
-analysis; **NEVER one agent per persona**, Joe's standing rule), then a Chairman
+Six perspectives reason **INLINE** in this one worker (each in character, independent
+analysis; **NEVER one agent per perspective**, Joe's standing rule), then a Chairman
 synthesizes. This is **Joe-directed review of Joe's own charter** — the goal is to
 help Joe sharpen it: honest and adversarial where it matters (crank-risk, scope,
 discipline, governance), affirming where it is sound. The council does **not** rewrite
@@ -173,7 +171,7 @@ sharpest crank vector in the document. Read as a co-equal purpose-axis, Practice
 with truth-seeking for primacy.
 
 **SUGGESTED REFINEMENT.** (1) *Downstream-only ordering:* "Practice is downstream-only.
-Nothing is transferred until it is banked at honest grade in Lane 3; the transfer question
+Nothing is transferred until it is banked at honest grade in result-hardening research; the transfer question
 ('how does this serve Joe / DJC / Church of AI?') is never asked of an un-survived result
 and never influences what the repo pursues or how a result is graded." (2) *Split channels
 by type:* "Methods and orchestration patterns transfer freely; *findings* transfer only
@@ -404,7 +402,7 @@ Exploration/proposal tier, read-only interpretation of Joe's draft charter and t
 settled state. **One NEW file written** (this document). No probe (the council interprets
 the charter text and already-banked receipts — the two `sigma`/`tau` councils, the
 `dynamic-unity-assessment`, README / RESEARCH-POSTURE — none is a new computation). **No
-repo created, no `AGENTS.md` / `LANES.yaml` instantiated, no commit, no push, nothing
+repo created, no `AGENTS.md` / `lab/process/RESEARCH-AGENDA.json` instantiated, no commit, no push, nothing
 external.** No edit to the charter draft, canon, README, RESEARCH-PROGRAM, RESEARCH-STATUS,
 the tri-repo division, or any other agent's artifact. **No claim_status_change,
 canon_verdict_change, paper_status, or public_posture change.** All physics grades and the

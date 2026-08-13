@@ -33,7 +33,7 @@ THE TWO PRESCRIPTIONS.
         a_+^eff = M^2 + i(M*Gamma - eps),   a_-^eff = M^2 - i(M*Gamma + eps).
     The two-ghost channel decomposes with weights (++):1/4, (--):1/4, (+-)+(-+): 1/2.
 
-WHERE CLOP LIVES AT TWO LOOPS (persona 2, Lee-Wick/CLOP specialist). The mixed (+-) sub-bubble
+WHERE CLOP LIVES AT TWO LOOPS (perspective 2, Lee-Wick/CLOP specialist). The mixed (+-) sub-bubble
 b0(mu^2; a_+, a_-) has its branch point at (m_+ + m_-)^2 -- EXACTLY REAL (= 4M^2 as
 Gamma -> 0) -- and the value on the real mu^2 axis depends on the order in which the pair
 width M*Gamma and the residual contour parameter eps are removed:
@@ -52,7 +52,7 @@ width M*Gamma and the residual contour parameter eps are removed:
         (negative control validating the machinery); the same differencing applied to a
         no-pair (real-mass) sunset gives zero (the ambiguity requires the complex pair).
 
-RESONANCE WINDOW (persona 5 guard, and the R-block below): the graded ghost is unstable
+RESONANCE WINDOW (perspective 5 guard, and the R-block below): the graded ghost is unstable
 (Im Sigma(M^2) > 0, W51's proven sign). Resumming the graded propagator pushes the pole pair
 onto the PHYSICAL sheet (complex pair) -- verified here on a dispersion-consistent model
 self-energy: the ghost-sign root sits at complex z on the principal branch while the
@@ -375,10 +375,10 @@ log(f"     order F (Feynman first)  : {ratios_F[-1]:+.4f}")
 log("     => Im S_LW in { -1/2, 0, +1/2, +1 } x Im S_graded, ambiguity width = the graded cut")
 
 # ------------------------------------------------------------------------------------------
-# 5. Krein/optical-theorem arithmetic (persona 3 + 4).
+# 5. Krein/optical-theorem arithmetic (perspective 3 + 4).
 # ------------------------------------------------------------------------------------------
 log("")
-log("5. Cut-weight arithmetic and the odd-ghost check (personas 3 and 4)")
+log("5. Cut-weight arithmetic and the odd-ghost check (perspectives 3 and 4)")
 
 # Admissible cut weights from ANY state-space assignment with Krein signs +-1 and integer
 # multiplicities are integers (in units of the positive phase-space cut). The graded theory
@@ -402,7 +402,7 @@ check("K2 odd-ghost two-loop cut (one ghost line, sunset M,m,m): graded weight (
       f"ImS_graded(one-ghost, s={s_odd}) = {im_odd:.6f}")
 
 # ------------------------------------------------------------------------------------------
-# 6. The resonance window (persona 5): resummation forces the contour question back.
+# 6. The resonance window (perspective 5): resummation forces the contour question back.
 # ------------------------------------------------------------------------------------------
 log("")
 log("6. Resonance window: dressed graded ghost = physical-sheet complex pair (model check)")

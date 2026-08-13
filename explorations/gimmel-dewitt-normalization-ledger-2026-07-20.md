@@ -9,9 +9,7 @@ sources:
   - explorations/W131-covariant-operator-y14-2026-07-14.md
   - explorations/geometry-curvature-emergence/ii-s-coordinate-formula-2026-06-23.md
   - canon/w2-y14-spin-structure.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Gimmel/DeWitt normalization ledger

@@ -224,7 +224,7 @@ configurations. The fixture exhibits the subclass criterion explicitly.
 
 ### 4.1 The No-Anticipation Constraint Must Be Stated Explicitly
 
-The NEXT-TRIGGER-PLAN.md entry (RUN-0041) warns: "Do not run the Cech/sheaf fixture as a
+The NEXT-TRIGGER-PLAN.md entry (historical-investigation) warns: "Do not run the Cech/sheaf fixture as a
 free-standing novelty claim until the no-hidden-schema / no-anticipation class is explicit."
 
 A valid fixture must explicitly state what no-anticipation means in the two-patch setting.

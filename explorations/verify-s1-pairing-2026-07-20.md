@@ -4,9 +4,7 @@ status: active_research
 doc_type: adversarial_verification
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (hostile verify: S1 pairing-family)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 targets:
   - explorations/s1-pairing-family-2026-07-20.md
   - tests/channel-swings/s1_pairing_family_probe.py

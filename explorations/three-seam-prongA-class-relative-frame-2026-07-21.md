@@ -5,9 +5,7 @@ doc_type: exploration
 created: 2026-07-21
 prereg: explorations/prereg-three-seam-swing-2026-07-21.md
 outcome: A-NUMEROLOGY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 probe: tests/channel-swings/three_seam_prongA_class_relative_frame_probe.py
@@ -28,7 +26,7 @@ inputs:
 Adversarial truth-test, MAXIMUM skepticism, numerology gate ARMED. A construction
 here would resolve the #1 contested seam, so it gets zero benefit of the doubt.
 Three clean fits died on hostile verify this session for planting a convenient
-object; this run plants nothing it does not then reject, and reports the outcome
+object; this investigation plants nothing it does not then reject, and reports the outcome
 the discipline forces rather than the outcome that would be a "find."
 
 ## 0. Verdict up front

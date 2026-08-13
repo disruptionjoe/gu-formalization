@@ -7,16 +7,13 @@ version: "0.1"
 package_status: FROZEN_CONDITIONAL_EVENT_CLASS
 frozen_at: "2026-07-19T22:45:19-05:00"
 owner_item: PRED-CANDIDATE-PACKETS
-lane_id: "2"
 extends:
   - lab/process/prediction-package-standing-rule.md
   - explorations/channel-swing-CH-SM-2026-07-19.md
   - explorations/blockbuster-p4-generation-doors-2026-07-19.md
   - tests/channel-swings/ch_sm_chain_sweep.py
   - tests/channel-swings/bb_p4_generation_doors_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 
@@ -117,6 +114,6 @@ couplings, and accessible window are not frozen.
 
 ## Next Work
 
-Packet 2 is frozen at conditional event-class grade. The next Lane 2 work is
+Packet 2 is frozen at conditional event-class grade. The next prediction research work is
 either packet 3's weld probes or a quantitative follow-up that freezes a
 mass/coupling/window for PP2 without using target data to tune it.

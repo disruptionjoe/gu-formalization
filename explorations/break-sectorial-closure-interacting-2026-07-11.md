@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (ADVERSARIAL break-test of the observer-conjecture's sectorial closure in a LARGER interacting model; 5-persona inline team; literature read-only + deterministic test)
+status: exploration (ADVERSARIAL break-test of the observer-conjecture's sectorial closure in a LARGER interacting model; 5-perspective inline team; literature read-only + deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path) -- the sectorial closure (W94) STRESS-TESTED under relaxed assumptions
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -114,9 +114,9 @@ This is the **load-bearing assumption**, named and boxed as a boolean in the tes
 
 ---
 
-## 2. Five-persona team (inline, sequential, single context)
+## 2. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- AQFT / modular specialist (build the model; test P1, P2, P3)
+### Perspective 1 -- AQFT / modular specialist (build the model; test P1, P2, P3)
 
 **P1 is where it breaks.** In `W94`'s free mode-diagonal toy every mode is definitizable because the
 ghost is a clean `-1` grading. The moment (i) the algebra is a genuine finite region -- which is **type
@@ -125,9 +125,9 @@ III_1** and contains all UV momenta (Reeh-Schlieder) -- and (ii) the theory inte
 **unbounded** (`W98` T2: `8890 -> 17779 -> 35557` as the UV reach doubles), so there is **no bounded
 `Delta_O^{-1/2}`** and **no bounded `J_O`**. `P1` **fails** for a genuine finite region. `P3` (no global
 `J`) is then **automatic but not independent** -- it is the same UV divergence (`W98` T4). `P2` is tested
-in Persona 3.
+in Perspective 3.
 
-### Persona 2 -- MATH REFEREE (is the break real, or a modelling artifact?)
+### Perspective 2 -- MATH REFEREE (is the break real, or a modelling artifact?)
 
 - **Ruling 1 -- the break is real, not a numerical fudge.** `cond(eta_+(r_k)) = (1+r_k)/(1-r_k)` is the
   repo's own W84/W94 metric-conditioning; `r_k -> 1` is the exceptional-point approach they already use.
@@ -145,7 +145,7 @@ in Persona 3.
   theorem (no more than `W94`'s closure was). But it **removes** `W94`'s survival: the closure does not
   survive relaxation, so its "sectorially closed" grade is **withdrawn**.
 
-### Persona 3 -- ADVERSARY (drive the break: P2 overlap coherence + the P1-vs-P3 type-III tension)
+### Perspective 3 -- ADVERSARY (drive the break: P2 overlap coherence + the P1-vs-P3 type-III tension)
 
 - **P2 (overlap coherence -- THE CRUX) breaks.** In the free mode-diagonal toy the per-region `J`'s
   cohere **trivially** because the `C`-grading is region-independent (`W94` T3: exact nesting). Under
@@ -175,7 +175,7 @@ in Persona 3.
   **not** definitize a finite region: it protects the wrong thing. The escape conflates position-space
   decay with momentum-space metric boundedness.
 
-### Persona 4 -- CROSS-CHECKER (second derivation + literature)
+### Perspective 4 -- CROSS-CHECKER (second derivation + literature)
 
 **Second derivation (D2), independent of the mode computation.** Purely from AQFT structure:
 1. **A finite region is type III_1** (Connes-Haagerup; Buchholz-D'Antoni-Fredenhagen), and its
@@ -197,7 +197,7 @@ in Persona 3.
 **D1 (mode computation) and D2 (AQFT structure + literature) AGREE:** the closure does not survive to a
 genuine interacting continuum region; it holds only on finite-rank truncations.
 
-### Persona 5 -- SYNTHESIZER (the verdict)
+### Perspective 5 -- SYNTHESIZER (the verdict)
 
 See Sections 3-5.
 

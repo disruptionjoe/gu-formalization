@@ -17,9 +17,7 @@ inputs:
 runnable:
   - tests/channel-swings/sig_b5_habitat_probe.py
 frozen_at_commit: 32e3603f12aae3fc76298534c47a204b5584b171
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 packet_semantics: >
   FROZEN EVIDENCE PACKET, GU-owned. This file freezes what gu-formalization
@@ -172,7 +170,7 @@ Explicit NONCLAIMS — none of the following exists or moved:
 
 ### possibility-to-capability (primary consumer, designated home of the value)
 
-P2C's gate language (read-only: `LANE-STATE.yaml` Lane 1;
+P2C's gate language (read-only: `CURRENT-STATE.yaml` truth-status research;
 `steward/research-portfolio.json#P2C-CROSS-REPO-ADJUDICATION`):
 "Wait for source-grounded specimen; do not build GU ETA/Z2 habitat from
 mailbox text alone"; prior GU note recorded as "not importable source
@@ -217,7 +215,7 @@ adoption ladder, and it says so.
 ### time-as-finality
 
 TaF's disposition of the prior co-flip note (their archive,
-2026-07-19): "source-adjacent watch evidence only"; Lane 1 "parked until
+2026-07-19): "source-adjacent watch evidence only"; truth-status research "parked until
 a provenance-valid physical source packet, frozen witness, source-owned
 native record-issuance rule, or sharper counterexample changes the T587
 contract."
@@ -318,7 +316,7 @@ names the kill — never edited in place, never silently withdrawn:
 Freeze artifact under the standing axiom, R0_COND working grade. No
 claim status, canon verdict, scorecard, register, or public posture
 moves; no cross-owner writes (consumer surfaces read read-only:
-p2c LANE-STATE.yaml + research-portfolio.json, TaF and TI mailbox
+p2c CURRENT-STATE.yaml + research-portfolio.json, TaF and TI mailbox
 archive notes, TI NEXT-TRIGGER-PLAN.md); no external actions; no Lean
 run required (the Lean certificate is cited at its landing commit).
 Cross-repo routing happens by mailbox proposal notes only, per this

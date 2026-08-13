@@ -75,8 +75,8 @@ CORRECTS W161's optimistic "the reduction lands healthy at the fundamental level
 the reduction, actually performed, lands tachyonic-or-gated, not healthy-by-default.
 Bar (b) UNCHANGED / conditional -- consistent with W159/W161/W165.
 
-FIVE personas inline (GU-action specialist; differential geometer; higher-
-derivative-gravity theorist; symbolic engineer; adversarial skeptic); no sub-agents.
+FIVE perspectives inline (GU-action specialist; differential geometer; higher-
+derivative-gravity theorist; symbolic engineer; adversarial skeptic); no independent reviewers.
 
 Run:  python -u tests/W167_reduction_direct_sign_alpha_beta.py   (exit 0 iff all PASS)
 
@@ -310,11 +310,11 @@ check("PC6: covariant map controls -- GB (1,-4,1) in kernel of c_R; +R^2 (Starob
       and cR_of(0, -1, 0) == Q(-1, 3) and cR_of(0, 0, 0) == 0)
 
 # ===========================================================================
-# PERSONA 1 -- GU-action specialist: the LAW is linear (c_R=0); the SHADOW is the
+# PERSPECTIVE 1 -- GU-action specialist: the LAW is linear (c_R=0); the SHADOW is the
 # LEGENDRE transform of the first-order action, carrying a structural MINUS sign.
 # ===========================================================================
 log("\n" + "=" * 82)
-log("PERSONA 1 -- GU-action specialist: the linear law, and the Legendre integrate-out")
+log("PERSPECTIVE 1 -- GU-action specialist: the linear law, and the Legendre integrate-out")
 log("=" * 82)
 check("R0 (law level, W161): GU's actual action is linear in curvature (a=b=c=0), so at the "
       "field-equation level c_R = 0 -- NO propagating scalaron.  The tachyon question lives "
@@ -333,10 +333,10 @@ check("R1 (LEGENDRE MINUS SIGN, structural): integrating out the algebraic torsi
       f"T* = {T_star}, S_eff = {S_eff}")
 
 # ===========================================================================
-# PERSONA 2 -- differential geometer: the shadow is RICCI-CLASS (Weyl-annihilated).
+# PERSPECTIVE 2 -- differential geometer: the shadow is RICCI-CLASS (Weyl-annihilated).
 # ===========================================================================
 log("\n" + "=" * 82)
-log("PERSONA 2 -- differential geometer: J = star_shiab(F) is Ricci-class (kills Weyl)")
+log("PERSPECTIVE 2 -- differential geometer: J = star_shiab(F) is Ricci-class (kills Weyl)")
 log("=" * 82)
 t = sp.Symbol('t', real=True)             # shiab trace-subtraction parameter (Einstein: t=1/2)
 a_pos, b_pos, c_pos = (4 * t**2 - 2 * t), sp.Integer(1), sp.Integer(0)
@@ -357,10 +357,10 @@ check("R2c: the shiab shadow (Ricci-class, c_R(1/2)=-1/6) is a DIFFERENT covaria
       cR_shiab.subs(t, Q(1, 2)) == Q(-1, 6) and c_R_II == Q(-4, 9) and Q(-1, 6) != Q(-4, 9))
 
 # ===========================================================================
-# PERSONA 3 -- higher-derivative-gravity theorist: sweep the shiab family; read the sign.
+# PERSPECTIVE 3 -- higher-derivative-gravity theorist: sweep the shiab family; read the sign.
 # ===========================================================================
 log("\n" + "=" * 82)
-log("PERSONA 3 -- higher-derivative theorist: shiab-family sign sweep of c_R(t)")
+log("PERSPECTIVE 3 -- higher-derivative theorist: shiab-family sign sweep of c_R(t)")
 log("=" * 82)
 inner = sp.Poly(2 * t**2 - t + Q(1, 6), t)
 disc = sp.discriminant(inner.as_expr(), t)
@@ -427,10 +427,10 @@ check("R9b (POINT 3 consequence): at GU's LAW level the action is linear -> seco
       cR_of(0, 0, 0) == 0)
 
 # ===========================================================================
-# PERSONA 5 -- adversarial skeptic (RUTHLESS): steelman ALL THREE outcomes.
+# PERSPECTIVE 5 -- adversarial skeptic (RUTHLESS): steelman ALL THREE outcomes.
 # ===========================================================================
 log("\n" + "=" * 82)
-log("PERSONA 5 -- adversarial skeptic (RUTHLESS): steelman all three outcomes")
+log("PERSPECTIVE 5 -- adversarial skeptic (RUTHLESS): steelman all three outcomes")
 log("=" * 82)
 cR_wrong_healthy = sp.simplify(-Q(1, 2) * c_R_II)
 check("R6 (STEELMAN-HEALTHY REFUTED): '-(1/2)|II|^2_W126 -> c_R = -(1/2)(-4/9) = +2/9 > 0 "

@@ -5,7 +5,6 @@ doc_type: research_protocol_amendment
 created: 2026-07-19
 authorized_by: "Joe direct chat, 2026-07-19"
 amends: lab/process/construction-space-exploration-protocol.md
-claim_status_change: none
 ---
 
 # Boundary Adapter Standing Axiom

@@ -20,9 +20,7 @@ inputs:
   - tests/channel-swings/p77_real_index_twin.py
   - "DERIVATION-PROGRESS.md (generation-count-rank3-resolution entry)"
 tests: tests/channel-swings/bb_p4_generation_doors_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Blockbuster P4: the two generation doors

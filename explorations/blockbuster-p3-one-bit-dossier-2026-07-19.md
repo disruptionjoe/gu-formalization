@@ -19,12 +19,10 @@ inputs:
   - tests/channel-swings/ch_qm_graded_quotient_toy.py
   - explorations/channel-swing-CH-COSMO-2026-07-19.md
   - tests/channel-swings/ch_cosmo_magnitude_mode_probe.py
-  - lab/process/research-portfolio.json (PAPER-SEED-ROUTING conventions)
+  - lab/process/RESEARCH-AGENDA.json (PAPER-SEED-ROUTING conventions)
 runnable_receipts_reverified:
   - "all five probes re-run 2026-07-19 during assembly, exit 0 each (consolidation check; no script modified)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 audience: "INTERNAL dossier. Paper-SHAPED, not a paper. Joe alone ever publishes; routing to Drafting Factory is the steward/parent's move (PAPER-SEED-ROUTING), never this document's."
 ---
@@ -532,7 +530,7 @@ direction are one datum" at construction grade)
 - **G-B3. Continuum / stat-mech form.** A coarse-graining under which the
   register becomes a fluctuation-theorem-grade asymmetry with sign eps.
   Until then the paper says "record direction," never "entropy
-  production" (persona ruling already on the CH-REC card).
+  production" (perspective ruling already on the CH-REC card).
 
 ### Tier C — the empirical appendix (never the paper's spine)
 

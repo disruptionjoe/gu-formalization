@@ -37,9 +37,9 @@ Dirac-square-root *shadow*. The guardian is a genuinely separate structure and i
 
 ---
 
-## Five-persona team, inline
+## Five-perspective team, inline
 
-### Persona 1 -- SUSY-Ward-identity / cohomology theorist
+### Perspective 1 -- SUSY-Ward-identity / cohomology theorist
 
 The SUSY positivity mechanism has a precise shape that must be matched, not merely evoked.
 `{Q, Q^dag} = 2H`; for any state `|psi>`, `<psi|H|psi> = (1/2)(||Q psi||^2 + ||Q^dag psi||^2)
@@ -58,9 +58,9 @@ Cohomologically: SUSY gives a `Q`-cohomology (`Q^2 = 0` on shell) whose classes 
 `P` gives a `Z/2` eigenspace decomposition (`P^2 = I`), an entirely different homological object
 (a grading, not a differential).
 
-### Persona 2 -- Krein / indefinite-metric QFT specialist
+### Perspective 2 -- Krein / indefinite-metric QFT specialist
 
-This is the decisive persona for the verdict. The whole point of a Krein construction is that
+This is the decisive perspective for the verdict. The whole point of a Krein construction is that
 the inner product is *indefinite* -- signature `(+896, -896)` on the `1792`-dim matter module
 (C3, exact). SUSY positivity lives in the *opposite* regime: a *positive-definite* Hilbert metric
 where `{Q,Q^dag}` is manifestly `>= 0`. You cannot have both intrinsically; if the metric were
@@ -75,7 +75,7 @@ GU needs Bateman-Turok:** the ghost is not removed by a positive `H` (SUSY's way
 and *graded* by a `Z/2`, with positivity re-imposed afterward by the projector Born rule on the
 `P`-even subspace. The mechanism is a Krein/Born-rule fix, categorically not a SUSY algebra.
 
-### Persona 3 -- BRST/BV specialist
+### Perspective 3 -- BRST/BV specialist
 
 Both `P` and `(-1)^F` are `Z/2` gradings that commute with the dynamics; in the BV/BRST idiom
 both look like ghost-number-type or `R`-type parities. But they sit at different grades. `(-1)^F`
@@ -91,7 +91,7 @@ gauge sector, whereas `(-1)^F` is the Grassmann parity. The radiative-stability 
 0) is a statement about a *bosonic* automorphism of the covariant vertex structure -- it never
 invokes a Grassmann-odd generator, confirming `P`'s bosonic character.
 
-### Persona 4 -- Bateman-Turok hidden-parity specialist
+### Perspective 4 -- Bateman-Turok hidden-parity specialist
 
 The BT hidden ghost parity is, by construction, **bosonic**. Their mechanism (arXiv:2607.00096)
 is a *two-field O(1,1) embedding* of a four-derivative *bosonic* theory: the ghost parity is the
@@ -103,7 +103,7 @@ identifies the BT parity with the Bender-Mannheim `C` operator on the PT-unbroke
 kind, which is the antithesis of SUSY's remove-the-ghost-with-a-positive-`H` kind. Two different
 ghost-clearance philosophies; GU is on the BT (bosonic Krein) side, not the SUSY side.
 
-### Persona 5 -- philosopher of science
+### Perspective 5 -- philosopher of science
 
 The trap here is *structural mimicry*: `[P,S]=0` and `(-1)^F` are both order-2 gradings commuting
 with the dynamics, so a pattern-matcher wants to declare them the same (the "H54 = SUSY" reading).

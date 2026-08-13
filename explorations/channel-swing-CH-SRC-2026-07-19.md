@@ -27,9 +27,7 @@ cross_repo_reads_cited_as_evidence:
   - "temporal-issuance (read-only, Joe-authorized): memory/steward-memory-summary.md + E179/E180 (GU kinematic Krein sign trends forced-internal; out-of-band sign reading killed/inadmissible)"
 tests: tests/channel-swings/ch_src_minimal_action_toy.py
 ledger: lab/process/source-action-build-ledger.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Channel swing CH-SRC: the minimal source-action toy
@@ -249,7 +247,7 @@ with receipts; the card can freeze once CH-SM's rows land in the ledger and
 the K2 (gauge covariance) verdict from CH-GR's predeclared next computation
 is known.
 
-## 7. Inline persona passes (three, inline only)
+## 7. Inline perspective passes (three, inline only)
 
 **BV/BRST theorist.** The two-tier presentation is the right honesty split:
 Tier 1's identity `M_KT A' = B_W^+ (B_W A')` is the genuine content of

@@ -3,9 +3,7 @@ title: "Tension ledger of the SUCCESSFUL theories — the spine is the open prob
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat, 2026-07-21 (tension ledger of the confirmed-prediction theories, typed CONFLICT/BOUNDARY/BOTH; one synchronous pass, read-only, new file)"
 inputs:
   - explorations/parsimony-unexplained-joints-ledger-2026-07-21.md

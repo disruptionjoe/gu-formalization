@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W150 / substrate-sweep FAMILY TEAM 6 -- distributed-consensus / cryptography / network-systems; propose-then-kill; personas run inline; one deterministic test)
+status: exploration (W150 / substrate-sweep FAMILY TEAM 6 -- distributed-consensus / cryptography / network-systems; propose-then-kill; perspectives run inline; one deterministic test)
 created: 2026-07-14
 label: W150
 hypothesis: "Joe's record-substrate reframe -- the fundamental object is a SUBSTRATE (the Y14 observerse) where records are held; global record growth is more fundamental than cosmic expansion; dark energy / expansion is a SHADOW of record accretion; the Y14 -> X4 projection is how a hidden record becomes observable; and (third clarification) the firewall/boundary is NOT fundamental but an artifact of the capability-tier hierarchy GLOBAL -> REGIONAL -> INDIVIDUAL in which an individual OBSERVATION promotes a record to a regional MEASURED/CONFIRMED component -- given the distributed-consensus / cryptography / network-systems lens, which formalizes exactly this structure (commit/reveal, virtual-voting finality tiers, area-of-interest sharding, holographic representation)."
@@ -20,24 +20,24 @@ scripts:
 
 # W150 -- The record substrate through the distributed-consensus / cryptography / network lens
 
-**Why this team exists.** The 2026-07-11 full-roster sweep (`explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md`)
+**Why this team exists.** The 2026-07-11 full-roster sweep (`explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md`)
 had no consensus/crypto/network family. Joe added it because his record-substrate reframe IS the
 structure these fields already formalize: a commitment is a record that exists and is verifiable but
 hidden until it is opened; area-of-interest sharding is capabilities bounded by region / global /
 individual observer; a DAG consensus is a growing record graph reaching agreement; holographic
 consensus is a local slice provably representing the collective. This wave runs that roster inline,
-two steelmen per persona, scores every story against the **W138 kill battery** plus a **novelty gate**
+two steelmen per perspective, scores every story against the **W138 kill battery** plus a **novelty gate**
 (a story earns novelty only by pinning a GU-specific object -- a spec FIT, the C-operator, (9,5), the
 record count, the projection normalization) and an **empty-analogy tripwire** (a pure analogy with no
 pinned GU number FAILS; these fields are especially prone to seductive-but-empty analogy, so the
-adversarial persona is ruthless about it). Failures are kept as one-line KILLED-AT-GENERATION entries.
+adversarial perspective is ruthless about it). Failures are kept as one-line KILLED-AT-GENERATION entries.
 
-**Personas covered (inline, no sub-agents):** (1) Avalanche-consensus engineer, (2) Hashgraph /
+**Perspectives covered (inline, no independent reviewers):** (1) Avalanche-consensus engineer, (2) Hashgraph /
 gossip-about-gossip engineer, (3) MMO network engineer (interest management / sharding / AoI),
 (4) ZK-cryptography researcher, (5) homomorphic-encryption / secure-MPC researcher, (6) holographic-
 consensus designer; **adjacent added:** (7) state-machine-replication theorist (framing for the
 consensus-safety reading) and (8) a DAG-ledger/epidemic-broadcast theorist (folded into the causal-set
-control). Eight persona seats, sixteen candidate stories, five survivors.
+control). Eight perspective seats, sixteen candidate stories, five survivors.
 
 **Three Joe clarifications carried (chat, 2026-07-14), in order.** (1) The substrate is Y14 itself:
 records live in the 14-dim observerse, X4 is the visible projection/shadow, GU's section sigma: X4 ->
@@ -72,7 +72,7 @@ below points back to it rather than re-deriving it.
 
 ---
 
-## 1. Persona-by-persona generation (two steelmen each), with at-generation scoring
+## 1. Perspective-by-perspective generation (two steelmen each), with at-generation scoring
 
 Scoring shorthand: **PIN** = the GU-specific object the story fastens to (empty-analogy tripwire fails
 if this is blank); gate cells cite the W138 letter. G4 (no rate reading) and G5 (no bare de-Sitter
@@ -228,7 +228,7 @@ promote when the transduction operator is built). **KILLED-AT-GENERATION (8):** 
 8A, plus the "physics is FHE" grand claim without the pullback-homomorphism pin -- each a one-line
 reason above (novelty / empty-analogy / duplicate / no-pin).
 
-Counts: **8 persona seats, 16 candidate stories, 5 survivors, 1 gated, 8 killed-at-generation.**
+Counts: **8 perspective seats, 16 candidate stories, 5 survivors, 1 gated, 8 killed-at-generation.**
 
 ---
 

@@ -9,9 +9,7 @@ repos_searched:
   - gu-formalization (working tree + full git history, 1168 commits, all branches)
   - temporal-issuance (working tree + full history, 250 commits) — NOTHING FOUND (both predictions absent)
   - time-as-finality (working tree + full history, 679 commits) — connection material only (see Section 4)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Lost-predictions recovery (2026-07-21)
@@ -161,7 +159,7 @@ oldest to newest, then the honest verdict.
   Yukawa (`α = 1/3`, range `λ ∈ [76.7, 94.0] µm`).
 - **Grade / why dropped:** the identification is a POSTULATE (ranker H36, tagged `[wild]`),
   not GU-forced; the **H49 Λ-magnitude no-go** (COMPUTED, "settled-FAIL", cf.
-  `explorations/two-track-persona-sweep-2026-07-11/*` and `path4-branchE`) proves a scale-free
+  `explorations/two-track-perspective-sweep-2026-07-11/*` and `path4-branchE`) proves a scale-free
   `g`-vs-`G` action **cannot** contain `Λ/M_Pl⁴ ~ 1e-123` — the meV scale must be **imported**.
   Under the postulate, the sub-mm prediction is **EXCLUDED by Eöt-Wash/HUST at face value**
   (H52 CITED). So the only way to make a *number* was to import `ρ_Λ`, and importing it then

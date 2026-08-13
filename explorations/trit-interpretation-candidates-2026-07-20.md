@@ -3,14 +3,11 @@ title: "What is the trit? — five candidate interpretations of the Z/3 half of 
 status: active_research
 doc_type: interpretation_candidates
 created: 2026-07-20
-directed_by: "Joe direct chat, 2026-07-20 (five-persona test of the trit's meaning)"
+directed_by: "Joe direct chat, 2026-07-20 (five-perspective test of the trit's meaning)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-lane: 1
 channel: TRIT-INTERPRETATION
 provenance_grade: speculative-steelman (interpretations of a fixture-grade result; assert nothing beyond the receipts)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # What is the trit?
@@ -31,10 +28,10 @@ or chain — this is the first discriminator any story must pass.
 Three generations = three relative capability spaces: the global
 ("in quotes"), the regional/accessible capability space of the
 observer, and the observer themselves. Tension flagged by all five
-personas: nested scopes are a CHAIN (partial order); the trit is a
+perspectives: nested scopes are a CHAIN (partial order); the trit is a
 CYCLE. Fit requires the three to ROTATE roles, not stack.
 
-## The five candidates (persona-sourced), each with its discriminator
+## The five candidates (perspective-sourced), each with its discriminator
 
 1. **ROLE-ROTATION (orthodox rescue of Joe's idea).** The three are not
    nested but rotate whose-frame-reads-whom: world-from-observer,
@@ -66,7 +63,7 @@ CYCLE. Fit requires the three to ROTATE roles, not stack.
    — is "access" a primitive third category or a blend collapsing the
    three to the proven two?
 
-## Convergence (four of five personas)
+## Convergence (four of five perspectives)
 
 Candidates 2 and 5 are the same claim; the role-rotation (1) and the
 clock (3) both need a third irreducible thing that 2/5 supply (access).
@@ -88,4 +85,4 @@ layering that must fail. Any adverse outcome stays adverse.
 Speculative interpretation of a fixture-grade result; asserts nothing
 beyond conditional-forcing (f513fcf) + the trit check (0314958) + the
 boundary law (56304e8). No claim/canon/posture movement. This is the
-seed content for the Lane 1 TRIT-INTERPRETATION channel.
+seed content for the truth-status research TRIT-INTERPRETATION channel.

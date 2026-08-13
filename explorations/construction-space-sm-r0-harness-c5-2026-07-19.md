@@ -3,13 +3,10 @@ title: "Construction-space SM R0 harness for C5"
 status: exploration
 doc_type: construction_space_probe
 created: 2026-07-19
-run_id: RUN-20260719-534-repository-work-cycle-cai-hourly
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 probe: P2-SM-R0-HARNESS-C5
 test: tests/recovery-contract/construction_space_sm_r0_c5_harness.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Construction-space SM R0 harness for C5

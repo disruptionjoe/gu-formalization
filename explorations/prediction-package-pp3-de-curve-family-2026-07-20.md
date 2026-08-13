@@ -7,7 +7,6 @@ version: "0.2"
 package_status: FROZEN_CONDITIONAL_CURVE_FAMILY
 frozen_at: "2026-07-20T06:48:12-05:00"
 owner_item: PRED-CANDIDATE-PACKETS
-lane_id: "2"
 directed_by: "Joe direct chat, 2026-07-20 (proposed by Joe; ten-lens council steelman run inline before freeze)"
 extends:
   - lab/process/prediction-package-standing-rule.md
@@ -16,9 +15,7 @@ extends:
   - tests/channel-swings/de_amplitude_audit_probe.py
 runnable:
   - tests/channel-swings/pp3_curve_family_locus.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 
