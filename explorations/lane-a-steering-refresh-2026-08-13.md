@@ -53,7 +53,40 @@ updated to the current ledger while `evaluated_at` had not. That is the
 gate doing exactly its job on the person who had just extended it.
 Recorded rather than quietly fixed.
 
-## Deliberately NOT refreshed
+## Lanes 2 and 3 — EVALUATED 2026-08-13 (supersedes the note below)
+
+Both were subsequently evaluated in the same Lane A run rather than left
+with bumped timestamps. They had moved in OPPOSITE directions.
+
+**Lane 3 has genuinely moved; its `reason_code` named only the superseded
+2026-08-03 publication.** Since the previous refresh the lane drafted the
+2+1 mechanism paper *One Generation, Not Three* (~15pp plus evidence map),
+resolved the imposter A/B fork as Reading A at confidence 0.90 with a J5
+hostile review passed-with-corrections, documented the Boyle-Turok foil as
+the sharpest published fence marker, and DECLINED two externally-facing
+candidates after a novelty check found both already known. Two releases
+stand at v1.0.0. Green/moving/up was correct; only the reason was stale.
+New publication-readiness item recorded: the KO-degree obstruction ladder
+is `status: staged` at `tier: internal`, and its GU-independent
+disjointness core is the strongest publishable unit not requiring the
+main path.
+
+**Lane 2's `waiting_external` was a MISTYPING, not merely stale.** Its own
+work has not advanced since 2026-08-03 — the three intervening commits
+matching prediction/DESI terms are Lane 1 and Lane 3 work plus two
+side-session design packets. And the 2026-08-11 Lane 2 packet counted the
+lane's PRIMARY route, the `r(N(z))` dark-energy refit, as NOT
+packet-worthy on any horn (strict surplus at most `-4`, because the rise
+realization is free). **The lane is not waiting on external data: its
+primary route was counted out on internal grounds, and its live decision
+needs no data at all.** Retyped `blocked_on_internal_decision`. Strongest
+banked asset is the hardened FC-d tripwire at margin `+1.11` (W226),
+which supersedes the `+0.032` figure still quoted in some anchors.
+
+Lane lights were NOT changed: the evidence moved the reasons, not the
+colours.
+
+## Superseded note (retained for provenance)
 
 Lanes 2 and 3 were left as found. Their movement was not independently
 verified in this run, and inventing movement to make a steering surface

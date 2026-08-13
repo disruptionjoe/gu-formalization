@@ -93,14 +93,17 @@ lanes:
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
   light: yellow
-  reason_code: de_language_calibrated_monitors_active
+  reason_code: primary_route_counted_not_packet_worthy_xs_s_decision_pending
   evidence_ref: canon/theta-field-flrw-dark-energy-eos.md
-  work_status: waiting_external
-  last_movement: Executed the DARK-ENERGY-07 statistical-language calibration
-    (2026-08-03, register M-H12) - the 3.2 is a 2-dof radius (~2.7 sigma 1-D),
-    f0 bounds are ~3x looser profiled, the mechanism is shape not amplitude,
-    the SNe-can-only-hurt sentence is retracted, and the family-level claim is
-    scoped to signal-level-excluded / family-unconstrained.
+  work_status: blocked_on_internal_decision
+  last_movement: Evaluated 2026-08-13. The lane's OWN work has not advanced since
+    2026-08-03; the three intervening commits that mention prediction or DESI
+    terms are Lane 1 and Lane 3 work plus two side-session design packets. The
+    2026-08-11 Lane 2 prediction packet counted the primary route - the r(N(z))
+    dark-energy refit - as NOT packet-worthy on any horn, strict surplus at most
+    -4, because the rise realization is free. The strongest banked asset is the
+    hardened FC-d tripwire at margin +1.11 (W226), which supersedes the older
+    +0.032 figure still quoted in some anchors.
   movement_ref: canon/theta-field-flrw-dark-energy-eos.md
   steering_attention: none
   steering_prompt: none
@@ -132,20 +135,27 @@ lanes:
   decision_default: Keep PP1/PP3 immutable, do not rescore known DR2 values, and
     reopen DE-AMP only on corrected data, changed frozen structure, or a defect.
   needs_joe: false
-  evaluated_at: '2026-08-03T13:00:00-05:00'
+  evaluated_at: '2026-08-13T19:15:00-05:00'
   run_ref: REGISTER-20260803-P-H14-lane-state-refresh
 - lane_id: '3'
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
   light: green
-  reason_code: compact_image_published_state_reconciled
+  reason_code: two_releases_stand_2plus1_paper_drafted_imposter_fork_resolved
   evidence_ref: papers/candidates/located-not-forced/FINAL-RELEASE-RECEIPT-v1.0.0.md;
     papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
   work_status: moving
-  last_movement: Published Compact-Image Obstructions v1.0.0 on Zenodo on
-    2026-08-03 after zero-action hostile saturation, exact computational and
-    Lean checks, clean-room reproduction, and 13-page visual QA. The public
-    record and all 15 deposited-file checksums were inspected and reconciled.
+  last_movement: Evaluated 2026-08-13 and genuinely moving. Since the previous
+    refresh the lane drafted the 2+1 mechanism paper One Generation, Not Three
+    (~15pp plus evidence map), resolved the imposter A/B fork as Reading A at
+    confidence 0.90 with a J5 hostile review passed-with-corrections, documented
+    the Boyle-Turok foil as the sharpest published fence marker, and DECLINED two
+    externally-facing candidates after a novelty check found both already known.
+    Two releases stand at v1.0.0 - good-stable-compactification-no-go and
+    located-not-forced. Publication-readiness item now open - the KO-degree
+    obstruction ladder is status staged with tier internal, and its GU-independent
+    disjointness core is the strongest publishable unit not requiring the main
+    path.
   movement_ref: papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
   steering_attention: none
   steering_prompt: none
@@ -182,7 +192,7 @@ lanes:
     file correction requires a new Zenodo version; external distribution is
     separately Joe-directed and never blocks repo work.
   needs_joe: false
-  evaluated_at: '2026-08-03T14:50:00-05:00'
+  evaluated_at: '2026-08-13T19:15:00-05:00'
   run_ref: papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
 - lane_id: A
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
