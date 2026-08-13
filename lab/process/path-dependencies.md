@@ -117,6 +117,19 @@ graph TD
   PD_STRUCTURE_TRANSPORT_s3 --> PD_STRUCTURE_TRANSPORT_chk
   PD_STRUCTURE_TRANSPORT_t0("TRAP 2026-08-12")
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t0
+  PD_I2B_ACTION_OWNER["PD-I2B-ACTION-OWNER"]
+  PD_I2B_ACTION_OWNER_s0["AUTHOR-STATED: The source prints Upsilon_print=S(F_A)+*kappa T and separately gives E_act=..."]
+  PD_I2B_ACTION_OWNER --> PD_I2B_ACTION_OWNER_s0
+  PD_I2B_ACTION_OWNER_s1["EXACT: The repo-composed E_act square and literal endpoint square have equal Euler..."]
+  PD_I2B_ACTION_OWNER_s0 --> PD_I2B_ACTION_OWNER_s1
+  PD_I2B_ACTION_OWNER_s2["EXACT: The literal endpoint has 182 live raw responses per observed direction and ..."]
+  PD_I2B_ACTION_OWNER_s1 --> PD_I2B_ACTION_OWNER_s2
+  PD_I2B_ACTION_OWNER_s3["EXACT: Pairing those same raw responses against every selected connection test wit..."]
+  PD_I2B_ACTION_OWNER_s2 --> PD_I2B_ACTION_OWNER_s3
+  PD_I2B_ACTION_OWNER_chk{"CHECK: Name the action/residual owner before importing any symbol or Spencer result"}
+  PD_I2B_ACTION_OWNER_s3 --> PD_I2B_ACTION_OWNER_chk
+  PD_I2B_ACTION_OWNER_t0("TRAP 2026-08-13")
+  PD_I2B_ACTION_OWNER_chk -.-> PD_I2B_ACTION_OWNER_t0
   PD_SIGNATURE_PARITY === PD_SOURCE_NOTATION
   PD_SIGNATURE_PARITY === PD_GHOST_PARITY
   PD_GHOST_PARITY === PD_SIGNATURE_PARITY
@@ -129,6 +142,8 @@ graph TD
   PD_ULTRAHYPERBOLIC_DOMAIN === PD_CONDITIONAL_VS_SETTLED
   PD_STRUCTURE_TRANSPORT === PD_CONDITIONAL_VS_SETTLED
   PD_STRUCTURE_TRANSPORT === PD_SIGNATURE_PARITY
+  PD_I2B_ACTION_OWNER === PD_STRUCTURE_TRANSPORT
+  PD_I2B_ACTION_OWNER === PD_CONDITIONAL_VS_SETTLED
 ```
 
 ## PD-SIGNATURE-PARITY
@@ -303,4 +318,28 @@ graph TD
   - *Receipt:* `explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md`
 
 **Invalidates if:** A receipt constructs an explicit intertwiner proving the two concrete structures equivalent for the operator and variational problem at hand.
+
+## PD-I2B-ACTION-OWNER
+
+**Equal Euler values at one background do not identify differential operators. A Spencer or jet result transfers only after the action owner and its principal covector agree.**
+
+- **Trigger:** Any work transferring an I2B symbol, Hessian, compatibility row, stationary jet or nonlinear prolongation between the printed endpoint, the first-action Euler covector and a squared-Euler rival.
+- **Naive reading:** "The endpoint square and E_act square have the same Euler covector on the constant trace-H_q bank, so the endpoint jet repair advances both." They agree in value there but have different Frechet maps and different selected principal owners.
+
+| # | evidence | fact | receipt |
+|---|---|---|---|
+| 1 | `AUTHOR-STATED` | The source prints Upsilon_print=S(F_A)+*kappa T and separately gives E_act=S(Fbar)+L_T^!S^!T+*kappa T. | `lab/sources/gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md` |
+| 2 | `EXACT` | The repo-composed E_act square and literal endpoint square have equal Euler covectors on the fixed constant trace-H_q bank, while their Frechet maps are explicitly different. | `explorations/conditional-build/selected-k77-i2b-action-euler-square-2026-08-12.md` |
+| 3 | `EXACT` | The literal endpoint has 182 live raw responses per observed direction and its symmetric holonomic second-jet image reaches rank 196. | `explorations/conditional-build/selected-k77-i2b-holonomic-jet-euler-image-2026-08-13.md` |
+| 4 | `EXACT` | Pairing those same raw responses against every selected connection test with the first action gives the zero 196x196 matrix in all four directions; the formal E_act principal covector and Riesz representative are zero on this fixed bank. | `explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md` |
+
+**CHECK.** Name the action/residual owner before importing any symbol or Spencer result. Equality at one background is insufficient. Require exact equality of the action-paired Frechet/principal maps, or return ACTION_OWNER_CHANGED__NO_TRANSFER. Keep a fixed-bank zero distinct from the full moving metric, section, Shiab, Q_B and BV-owned action.
+
+**Traps that actually happened:**
+
+- **2026-08-13** — After v0.236, the next queue almost ported the endpoint's compatible two-jet directly to E_act because v0.226 had equal fixed-background squared Euler covectors. The full action-pairing comparison instead gave endpoint principal rank 182 and E_act principal rank zero.
+  - *Cost:* Would have launched nonlinear Spencer/involutivity work for a different PDE while reporting progress on the action-derived rival.
+  - *Receipt:* `lab/process/hostile-reviews/2026-08-13-selected-k77-i2b-action-euler-principal-owner-comparison-review.md`
+
+**Invalidates if:** A source/action receipt proves the operative completed second action and constructs a structure-preserving equality between its full moving principal map and one of the compared operators.
 

@@ -265,6 +265,20 @@ updated_at: "2026-08-13"
 > Nonzero fermions and full-field BV remain separate routes. No verdict,
 > accounting, datum, canon or public-posture move.
 
+> **2026-08-13 K77 I2B ACTION-EULER PRINCIPAL OWNER (ledger v0.237).**
+> The literal printed endpoint still has 182 live raw responses per observed
+> direction and its full holonomic jet image remains rank 196. But the exact
+> first-action pairing against every selected connection test is zero in all
+> four directions, so the fixed-bank formal `E_act` principal covector and
+> action-Riesz representative have rank zero. **Do not transfer the endpoint
+> jet witness, compatibility complex or nonlinear successor to `E_act` merely
+> because the two squared Euler covectors agree on one constant background.
+> First derive or source-grade the operative completed second action and build
+> its moving metric/section/Shiab/`Q_B` principal map. In parallel, build the
+> physical tangent/BV graph.** Continue nonlinear endpoint prolongation only
+> if the literal endpoint remains an operative owner. No verdict, accounting,
+> datum, canon or public-posture move.
+
 > **Predecessor v0.235 — K77 I2B REAL-CURVATURE EULER IMAGE.**
 > The exact real residual-to-Euler transfer is a `392 x 392` isomorphism.
 > The complete pointwise real full-`U(64,64)` selected-Shiab curvature image

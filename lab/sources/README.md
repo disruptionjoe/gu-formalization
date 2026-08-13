@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-action-euler-principal-owner-comparison-source-return-2026-08-13.md`](selected-k77-i2b-action-euler-principal-owner-comparison-source-return-2026-08-13.md)
+  - confirms the separately printed endpoint and first-action Euler formulas;
+    attributes the exact zero fixed-bank action-dual principal projection and
+    endpoint non-transfer to the repository; and returns source-silent on the
+    operative completed second action and full moving principal owner.
+
 - [`selected-k77-i2b-stationary-affine-spencer-source-return-2026-08-13.md`](selected-k77-i2b-stationary-affine-spencer-source-return-2026-08-13.md)
   - confirms the printed endpoint and connection/covariant-derivative grammar;
     attributes the nonempty stationary-affine intersection, 16-support witness

@@ -153,6 +153,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > supersedes the generic representative search and makes constraint
 > propagation the next gate. No accounting move.
 
+> **Current v0.237 action-Euler principal-owner comparison:** v0.236 remains
+> exact for the literal printed endpoint, whose raw response has 182 live
+> cells per observed direction and whose holonomic image is rank 196. It does
+> not transfer to the action-derived rival. On the same fixed selected bank,
+> every first-action pairing matrix and formal `E_act` principal Riesz
+> representative has rank zero. Name the action owner before importing any
+> jet/Spencer result. Rank one is derivation of the operative completed second
+> action plus its full moving metric/section/Shiab/`Q_B` principal map; build
+> the physical tangent/BV graph in parallel. No row, canon or datum move.
+
 > **Predecessor v0.235 real-curvature Euler-image theorem:** the exact real
 > residual-to-Euler transfer is a 392-dimensional isomorphism. The complete
 > pointwise real full-`U(64,64)` selected-Shiab curvature image and its Euler

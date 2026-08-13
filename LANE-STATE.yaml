@@ -2,8 +2,8 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-08-13T18:30:00-05:00'
-run_ref: RUN-20260813-183000-gu-lane-a-steering-refresh
+updated_at: '2026-08-13T12:51:09-05:00'
+run_ref: RUN-20260813-175109-gu-i2b-action-euler-principal-owner
 provenance: refreshed 2026-08-03 per audit CG-08/F-04 (eleven-lens B14 ledger-drift
   cluster; register P-H14). Mechanical fields are henceforth checked by
   lab/automation/derive_lane_state.py and process_gates/lane_state_freshness_audit.py
@@ -15,8 +15,10 @@ provenance: refreshed 2026-08-03 per audit CG-08/F-04 (eleven-lens B14 ledger-dr
   fields below refreshed; Lanes 2 and 3 left as found because their movement was
   not independently verified, and that omission is recorded in the run record.
 bottom_line: The live Lane 1 front is the K77 operator/observation campaign on
-  agent/operator-anomaly-big-swing, at conditional-physics ledger v0.236 with
-  82/82 targets mapped and the headline unmoved by design. 478 commits landed
+  agent/operator-anomaly-big-swing, at conditional-physics ledger v0.237 with
+  82/82 targets mapped and the headline unmoved by design. The printed endpoint
+  has a rank-196 holonomic jet image, but that result does not transfer to the
+  fixed-bank action-derived E_act principal map, whose rank is zero. 478 commits landed
   between this file's previous refresh (2026-08-03) and 2026-08-13. The B5
   five-field packet remains blocked but is NO LONGER the live front, and the
   pw2fr repair branch named by the previous refresh is not the current work.
@@ -26,7 +28,7 @@ bottom_line: The live Lane 1 front is the K77 operator/observation campaign on
 decision_default: P-H29 stands unchanged - do not cite an FD-read null or kill
   until it is certified with exact derivatives or interval arithmetic. The
   five-field B5 packet requirement still gates any INTERIOR wave but no longer
-  describes the live front; route new work against the current ledger v0.236
+  describes the live front; route new work against the current ledger v0.237
   queue and the eight still-live items recovered by the 2026-08-13 drain pass
   (explorations/lane-a-mailbox-drain-pass-2026-08-13.md). Do not substitute an
   imposed positive-Hilbert wall for a target-blind dynamical selector.
@@ -37,30 +39,26 @@ lanes:
     without sector-specific repair.
   light: yellow
   reason_code: k77_operator_observation_campaign_live_interior_still_blocked
-  evidence_ref: lab/process/conditional-physics-ledger-v0.236.json;
+  evidence_ref: lab/process/conditional-physics-ledger-v0.237.json;
     explorations/lane-a-mailbox-drain-pass-2026-08-13.md;
     lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md
   work_status: moving
-  last_movement: The 2026-07-29 B5 native-packet source audit returned BLOCKED
-    (none of the five required packet fields is fixed by a repository-owned
-    construction); RB7 (2026-07-30) killed the stationary non-metric order
-    parameter (isotropic Hessian {-m^2, -m^2, 2m^2}, every generic branch a
-    saddle, W177 vertical component killed); the pw2fr campaign continues on
-    agent/null-clifford-omega1-repair (latest 32f700d, 2026-08-03); the M-C3
-    commutant-trichotomy and M-H1 J-restriction probes executed with
-    hostile-review corrections (2026-08-03).
-  movement_ref: explorations/observable-algebra-commutant-trichotomy-2026-08-03.md;
-    explorations/oq-rk1-j-restriction-on-branched-slots-2026-08-03.md
+  last_movement: Ledger v0.237 distinguishes the literal printed endpoint from
+    the action-derived Euler rival at principal grade. Endpoint raw responses
+    remain live and holonomically full-rank, while the selected first-action
+    pairing annihilates them in all four observed directions. The endpoint jet
+    repair therefore cannot be ported to E_act without a full moving owner.
+  movement_ref: explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
-  summary: The interior is blocked-plus-killed at its current rungs (B5 five-field
-    packet gap; RB7 saddle), while the boundary/repair program keeps moving on
-    its own branch under the newly adopted wave-scheduling and exact-derivative
-    acceptance rules (P-H28/29).
-  progress_delta: Replaced the stale green-up-moving story with the recorded
-    2026-07-29/30 results and the live campaign; no interior claim was
-    manufactured to keep the lane green.
+  summary: Lane 1 now has two explicitly typed action owners rather than one
+    blended PDE. Rank one is to derive the operative completed second action
+    and its moving metric/section/Shiab/Q_B principal map, with the physical
+    tangent/BV graph as a disjoint parallel gate.
+  progress_delta: Closed one false transfer between the endpoint and E_act
+    Spencer problems; exposed one owner decision without moving a physics
+    verdict, residue coordinate, datum, canon claim or public posture.
   scope_position: The imposed-wall comparator (2026-07-26) remains the last
     interior positive control; a target-blind dynamical selector, the five-field
     operator/domain packet, and exact-derivative recertification of the RB6/RB7/

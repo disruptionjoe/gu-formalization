@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.236.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.236.md`.
+`lab/process/conditional-physics-ledger-v0.237.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.237.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -168,6 +168,20 @@ must not rerun image hunting or equate surjectivity with selection. The local
 stationary-jet successor above closes base-point existence and retypes the
 remaining burden as formal integrability plus physical quotient. Nonzero
 fermions and full-field BV remain separate.
+
+The v0.237 principal-owner comparison prevents that endpoint theorem from
+silently migrating to a different action. The printed endpoint retains 182
+live raw responses per observed direction and the rank-196 holonomic image,
+but pairing those responses against all 196 selected connection tests with
+the released first action gives zero in every direction. Hence the formal
+fixed-bank `E_act` principal covector and action-Riesz representative are
+zero. Build must name the residual/action owner before importing a symbol,
+jet witness or Spencer complex. Equality of Euler values on one constant
+background is not an adapter. The next primary gate is to derive or
+source-grade the operative completed second action and construct its full
+moving metric/section/Shiab/`Q_B` principal map; the physical tangent/BV graph
+is the disjoint parallel gate. Nonlinear endpoint prolongation remains useful
+only if the literal endpoint is retained as the operative owner.
 
 The principal-constraint quotient successor sharpens v0.236 without migrating
 the ledger. The timelike block has a fourteen-dimensional cokernel and the

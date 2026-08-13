@@ -7,6 +7,17 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B action-Euler principal owner comparison (2026-08-13)
+
+`conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md`
+separates the literal printed endpoint from the action-derived Euler rival at
+principal grade. The endpoint has 182 live raw responses per observed
+direction and retains v0.236's rank-196 holonomic image. The first action's
+own pairing annihilates all those responses on the selected 196-real bank, so
+the fixed-bank formal `E_act` principal rank is zero. The endpoint two-jet
+repair therefore does not transfer; the operative second-action owner and
+full moving principal map are now rank one.
+
 ## K77 I2B stationary-affine Spencer intersection (2026-08-13)
 
 `conditional-build/selected-k77-i2b-stationary-affine-spencer-intersection-2026-08-13.md`
