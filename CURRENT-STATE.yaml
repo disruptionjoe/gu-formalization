@@ -1,0 +1,30 @@
+schema_version: "1.0"
+repository: observerse-research-program
+branch: agent/pp3-v0.4-release-hardening
+revision_basis: 15c7e63650947f163cf995d9835ab3b9a1eeb710
+purpose: >-
+  Establish the honest truth-status of the Observerse / Geometric Unity
+  program and harden reproducible results at their licensed grade.
+current_result:
+  status: release_hardening_evidence
+  summary: >-
+    PP3 v0.4 freezes a three-branch dark-energy curve-family source package
+    with its locus, observables, summary, and executable verification; it does
+    not upgrade the branch's broader GU verdict.
+  evidence:
+    - explorations/prediction-package-pp3-de-curve-family-v0.4-2026-07-22.md
+    - explorations/pp3-v0.4-release-hardening-decision-record-2026-07-22.md
+    - tests/channel-swings/pp3_curve_family_locus_v04.py
+current_question: >-
+  Does the frozen PP3 package satisfy its own reproducibility and release
+  criteria without overstating family-level exclusion?
+acceptance:
+  - RESEARCH-POSTURE.md
+  - VERIFICATION.md
+contribution_path:
+  - CONTRIBUTING.md
+  - NEXT-STEPS.md
+next_condition: >-
+  Reproduce the v0.4 source package and preserve its licensed claim boundary;
+  any publication or distribution remains a separate human-owned action.
+what_needs_joe: none
