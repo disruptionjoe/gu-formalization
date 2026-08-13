@@ -9,14 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current principal-constraint quotient theorem (ledger no-change):** the
+> v0.236 timelike block leaves an exact fourteen-dimensional cokernel, and the
+> first symmetric mixed block maps onto all fourteen missing quotient
+> directions, including the target class. This is a principal differential-
+> constraint split, not a missing action coefficient. Do not call the mixed
+> jet free Cauchy data or choose a fourteen-column complement by basis. Rank
+> one is Bianchi/Noether propagation, admitted-time and gauge typing, followed
+> by nonlinear atlas/observation and presymplectic/BV ownership. The
+> 196-dimensional affine fibre is field-jet freedom, not ledger residue.
+
 > **Current v0.236 holonomic-jet Euler-image theorem:** v0.235's pointwise
 > real-curvature obstruction remains exact, but the derivative route survives.
 > The timelike I2B principal block has rank 182 and misses the target; the
 > symmetric `(0,1)` mixed block completes the observed holonomic second-jet
 > image to the full 196-dimensional field cotangent, which contains the
-> target. Rank one is no longer image hunting: construct and source-select one
-> stationary jet, then prove nonlinear Bianchi/atlas/observation/lower-order
-> `Q_B`/preboundary-BV realization. No accounting move.
+> target. Rank one is no longer image hunting. The quotient successor above
+> supersedes the generic representative search and makes constraint
+> propagation the next gate. No accounting move.
 
 > **Predecessor v0.235 real-curvature Euler-image theorem:** the exact real
 > residual-to-Euler transfer is a 392-dimensional isomorphism. The complete

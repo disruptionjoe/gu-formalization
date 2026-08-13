@@ -72,6 +72,16 @@ bosonic gate is one source-owned stationary jet with nonlinear Bianchi,
 nonconstant atlas, observation, lower-order moving-`Q_B` and preboundary/BV
 closure. Nonzero fermions and full-field BV remain separate.
 
+The principal-constraint quotient successor sharpens v0.236 without migrating
+the ledger. The timelike block has a fourteen-dimensional cokernel and the
+first symmetric mixed block maps onto that entire quotient, including the
+target class. Build must treat this as a principal differential-constraint
+problem, not a missing local action coefficient and not yet freely
+specifiable Cauchy data. Its next gate is Bianchi/Noether propagation plus
+noncharacteristic-time and gauge typing, followed by nonlinear atlas,
+observation and presymplectic/BV ownership. A chosen complement and the
+196-dimensional affine solution fibre are not new theory parameters.
+
 The predecessor v0.235 real-curvature Euler-image theorem closes the complete pointwise
 real full-`U(64,64)` curvature-value route. The exact residual-to-Euler
 transfer is a 392-dimensional isomorphism, the complete curvature image and

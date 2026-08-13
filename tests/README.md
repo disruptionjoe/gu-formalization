@@ -3726,3 +3726,15 @@ uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k7
 python3 tests/channel-swings/conditional_physics_ledger_v0213_probe.py
 python3 process_gates/k77_i2b_moving_higgs_principal_hessian_audit.py
 ```
+
+## K77 I2B principal constraint-quotient gate
+
+`channel-swings/selected_k77_i2b_principal_constraint_quotient_probe.py`
+replays v0.236 and computes the exact induced map from the first symmetric
+mixed jet block into the timelike cokernel. It verifies cokernel dimension 14,
+induced rank 14, target admission, and a 196-dimensional two-block affine
+fibre while rejecting complement, uniqueness and free-Cauchy-data overreads.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_constraint_quotient_probe.py
+```

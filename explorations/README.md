@@ -7,14 +7,24 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B principal constraint quotient (2026-08-13)
+
+`conditional-build/selected-k77-i2b-principal-constraint-quotient-2026-08-13.md`
+proves that the timelike cokernel is exactly fourteen-dimensional and that the
+first mixed holonomic block maps onto all fourteen missing directions,
+including the target class. This is a ledger no-change frontier refinement:
+the next problem is constraint propagation, noncharacteristic/gauge typing,
+and nonlinear/global/BV ownership—not another local action coefficient.
+
 ## K77 I2B holonomic-jet Euler image (2026-08-13)
 
 `conditional-build/selected-k77-i2b-holonomic-jet-euler-image-2026-08-13.md`
 composes the pointwise curvature kill with the actual residual-square
 principal Hessian. The timelike block has rank 182 and misses the target, but
 the symmetric mixed `(0,1)` block completes the observed holonomic second-jet
-image to rank 196 and contains it. Ledger v0.236 moves the gate from image
-existence to source selection plus nonlinear/global realization.
+image to rank 196 and contains it. Ledger v0.236 moved the gate from image
+existence; the principal-constraint quotient successor above now sharpens the
+remaining local problem.
 
 ## Predecessor: K77 I2B real-curvature Euler image (2026-08-13)
 

@@ -7,6 +7,11 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-principal-constraint-quotient-source-return-2026-08-13.md`](selected-k77-i2b-principal-constraint-quotient-source-return-2026-08-13.md)
+  - confirms the I2B connection grammar; attributes the exact `182+14`
+    quotient theorem to the repository; returns source-silent on propagation,
+    Cauchy ownership, and nonlinear/global representative selection.
+
 - [`selected-k77-i2b-holonomic-jet-euler-image-source-return-2026-08-13.md`](selected-k77-i2b-holonomic-jet-euler-image-source-return-2026-08-13.md)
   - confirms the I2B connection grammar; attributes the full-rank observed holonomic principal image to the repository and returns source-silent on stationary-jet selection, nonlinear Bianchi realization and global descent.
 - [`selected-k77-i2b-real-curvature-euler-image-source-return-2026-08-13.md`](selected-k77-i2b-real-curvature-euler-image-source-return-2026-08-13.md)

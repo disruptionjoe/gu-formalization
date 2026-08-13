@@ -7,14 +7,26 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B PRINCIPAL CONSTRAINT QUOTIENT (ledger no-change).**
+> The timelike block's cokernel is exactly dimension `14`, and the symmetric
+> `(0,1)` mixed block maps onto all fourteen missing quotient directions; the
+> target class lies in that image. This retypes the local obstruction as a
+> principal differential-constraint problem rather than a missing action
+> coefficient. **Do not call the mixed jet free Cauchy data. Next derive the
+> Bianchi/Noether propagation complex, test the admitted time direction and
+> gauge quotient, then globalize through atlas, observation and BV boundary
+> ownership.** The solution fibre is field-jet freedom, not booked theory
+> residue. No ledger, verdict, accounting, datum, canon or posture move.
+
 > **2026-08-13 K77 I2B HOLONOMIC-JET EULER IMAGE (ledger v0.236).**
 > Pointwise real curvature values remain unable to cancel the target, but the
 > actual derivative-dependent route is live. The timelike I2B principal block
 > has rank `182` and misses the target; adding the symmetric `(0,1)` mixed
 > second-jet block makes the observed holonomic image full rank `196`, and the
 > target lies inside it. **Do not rerun image hunting or infer selection from
-> surjectivity. Construct and source-own one stationary jet, then test
-> nonlinear Bianchi realization, nonconstant atlas descent, observation
+> surjectivity. The principal-constraint quotient successor above supersedes
+> the generic representative search: derive propagation, then test nonlinear
+> Bianchi realization, nonconstant atlas descent, observation
 > contact, lower-order moving-`Q_B` Euler terms and preboundary/BV ownership.**
 > Nonzero fermions and full-field BV remain separate routes. No verdict,
 > accounting, datum, canon or public-posture move.
