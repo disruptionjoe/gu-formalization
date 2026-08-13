@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 3 DGU Symbol Transition Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 3
-lane: "DGU"
 doc_type: "closeout_gate"
 artifact_id: "DGUSymbolTransitionGate_2302_C3_DGU_V1"
 verdict: "BLOCKED_TRANSITION_GATE_SOURCE_SECTOR_RECEIPT_NOT_ADMITTED"

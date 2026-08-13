@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 3 Receipt Transition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 3
-lane: 1
 doc_type: receipt_transition_matrix
 artifact_id: "ReceiptTransitionMatrixAfterHourly20260625_0703_V1"
 verdict: "NO_TRANSITIONS_ZERO_ACCEPTED_RECEIPTS"
@@ -28,7 +26,7 @@ rows**. None transitions to:
 - `global_no_go`;
 - `claim_promotion`.
 
-The run improved source state in several places: Oxford official stills became
+The investigation improved source state in several places: Oxford official stills became
 checksummed visual candidates, TOE/Jaimungal captions became a transiently
 searched QFT surface, Keating storyboard/thumbnail capture became a scoped
 negative, and RS alternate public-source search extended the negative ledger.

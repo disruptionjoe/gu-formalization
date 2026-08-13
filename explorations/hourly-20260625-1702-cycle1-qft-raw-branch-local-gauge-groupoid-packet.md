@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 1 QFT Raw Branch Local Gauge Groupoid Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 1
-lane: 5
 doc_type: qft_raw_branch_local_gauge_groupoid_packet
 artifact_id: "SourceDefinedRawBranchLocalGaugeGroupoidPacketForRRawBO_1702_C1_L5_V1"
 verdict: "UNDERDEFINED_REQUIRED_SOURCE_FIELDS_ABSENT_NON_IMPORT_SCREEN_ACTIVE"

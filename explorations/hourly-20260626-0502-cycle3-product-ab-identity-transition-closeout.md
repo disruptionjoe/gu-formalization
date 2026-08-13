@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 3 Product A/B Identity Transition Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 3
-lane: "ProductABIdentityTransitionCloseout"
 doc_type: "frontier_closeout"
 artifact_id: "ProductABIdentityTransitionCloseout_0502_C3_V1"
 verdict: "blocked_transition_locked_until_product_ab_family_member_inventory_admits_member"

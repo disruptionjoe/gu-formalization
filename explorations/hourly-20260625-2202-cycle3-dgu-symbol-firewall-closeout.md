@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 3 DGU Symbol Firewall Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 3
-lane: "DGU"
 doc_type: "closeout_gate"
 artifact_id: "DGUSymbolFirewallCloseout_2202_C3_L4_V1"
 verdict: "blocked"

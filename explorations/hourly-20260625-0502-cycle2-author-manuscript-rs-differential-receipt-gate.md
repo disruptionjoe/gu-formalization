@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 2 Author Manuscript RS Differential Receipt G
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 2
-lane: 3
 doc_type: author_manuscript_rs_differential_receipt_gate
 artifact_id: "AuthorManuscriptRSDifferentialReceiptGate_V1"
 verdict: "QUARANTINED_UNDERDEFINED_ZERO_ACCEPTED_RS_RECEIPTS"
@@ -18,7 +17,6 @@ companion_audit: "tests/hourly_20260625_0502_cycle2_author_manuscript_rs_differe
 Verdict: **quarantined / underdefined**.
 
 The acquired 2021 author manuscript object is a valid source surface for this
-lane:
 
 ```text
 AcquiredAuthorManuscriptObject_V1:GU-MEDIA-2021-DRAFT-RELEASE

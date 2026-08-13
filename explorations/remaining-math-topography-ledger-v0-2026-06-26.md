@@ -155,5 +155,5 @@ Which mathematical terrain is this wall on, what shortcut would misroute it,
 and what first invariant would confirm or kill that routing?
 ```
 
-Only after that should the run choose a theorem, computation, certificate, or
+Only after that should the investigation choose a theorem, computation, certificate, or
 no-go attempt.

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 3 RS Frame Evidence Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 3
-lane: "RS"
 doc_type: "frontier_closeout"
 artifact_id: "RSFrameEvidenceTransitionCloseout_0103_C3_RS_V1"
 verdict: "blocked_no_accepted_frame_branch"
@@ -16,7 +14,7 @@ owned_path: "explorations/hourly-20260626-0103-cycle3-rs-frame-evidence-transiti
 
 Verdict: **blocked / no accepted frame branch**.
 
-The prior run admitted the local browser toolchain, but this run confirms that
+The prior run admitted the local browser toolchain, but this investigation confirms that
 non-frame alternatives cannot replace a timestamp-verified target frame.
 Metadata, thumbnails, transcripts, challenge pages, and unchecksummed
 screenshots remain rejected.
@@ -41,7 +39,7 @@ Approved capture toolchain
   -> typed RS intake
 ```
 
-This run did not produce the target-window frame or external package, so the
+This investigation did not produce the target-window frame or external package, so the
 transition stops at the first edge.
 
 ## 4. First Exact Obstruction

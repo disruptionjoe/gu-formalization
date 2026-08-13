@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 2 Product A/B Operator-Family Inventory"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 2
-lane: "ProductABOperatorFamilyInventory"
 doc_type: "frontier_gate"
 artifact_id: "ProductABOperatorFamilyInventory_0502_C2_V1"
 verdict: "blocked_family_member_inventory_absent"

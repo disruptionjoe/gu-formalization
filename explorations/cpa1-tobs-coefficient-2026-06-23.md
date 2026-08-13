@@ -24,7 +24,7 @@ lambda_max = 1 / t_obs
 
 as the maximum observer finalization rate absorbed by L2+L4.
 
-**This run targets two specific sub-problems (cpa1-tobs task):**
+**This investigation targets two specific sub-problems (cpa1-tobs task):**
 
 1. **CAS-verify** the Lichnerowicz TT eigenvalue lambda_2 = 8/R^2 on S^4 using explicit
    representation theory of SO(5), showing C_GU = 8.
@@ -39,7 +39,7 @@ as the maximum observer finalization rate absorbed by L2+L4.
 
 ### 2.1 Section energy and Tikhonov system
 
-From `4d-reduction-62-persona-steelman-hegelian-2026-06-22.md` (P62) and
+From `4d-reduction-62-perspective-steelman-hegelian-2026-06-22.md` (P62) and
 `4d-reduction-section-pullback-2026-06-22.md`:
 
 - Section: s: X^4 -> Y^14 = Met(X^4), s(x) = (x, g_{ab}(x))
@@ -786,5 +786,5 @@ Casimir and the null-cone dimension -- that explains this universality?
 - `explorations/observer-section-error-model-2026-06-23.md`: B1-B3 original formulation.
 - `explorations/time-as-finality-crosswalk/fr2-bvn-rate-of-classicality-derivation-2026-06-22.md`:
   lambda_max = 1/t_obs derivation.
-- `explorations/4d-reduction-62-persona-steelman-hegelian-2026-06-22.md` (P62): Tikhonov
+- `explorations/4d-reduction-62-perspective-steelman-hegelian-2026-06-22.md` (P62): Tikhonov
   proposal; cross-program contact identified.

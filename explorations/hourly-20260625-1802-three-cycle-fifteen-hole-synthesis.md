@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Three Cycle Fifteen Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 3
-lane: "synthesis"
 doc_type: three_cycle_fifteen_hole_synthesis
 artifact_id: "Hourly20260625_1802_ThreeCycleFifteenHoleSynthesis_V1"
 verdict: "FIFTEEN_QUALITY_HOLES_ZERO_ACCEPTED_RECEIPTS_NO_PROOF_RESTART"
@@ -91,7 +89,7 @@ Blocked or underdefined:
 
 No-go:
 
-- No global no-go or class-relative no-go is promoted. The run records scoped
+- No global no-go or class-relative no-go is promoted. The investigation records scoped
   admission blockers and missing objects, not theorem-class impossibility.
 
 ## 4. Final Mathematical And Category Review

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 1 RS Equation 10.10 Image-Level Recheck"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 1
-lane: 4
 doc_type: rs_equation_1010_image_level_recheck
 artifact_id: "ManualImageLevelRSFormulaDiagramAudit_V1"
 verdict: "FAIL_MANUSCRIPT_RS_ROUTE_SCOPED_NEGATIVE_PRESERVED"
@@ -282,7 +280,7 @@ global_no_go_promoted: false
     "tmp_pdf_text_pages/page-048.txt",
     "tmp_pdf_text_pages/page-049.txt",
     "tmp_pdf_text_pages/page-050.txt",
-    "scratch_render:C:/Users/joe/AppData/Local/Temp/gu_rs_eq_10_10_page.png"
+    "scratch_render:<private-local-path>"
   ],
   "accepted_receipt_count": 0,
   "scoped_negative_preserved": true,

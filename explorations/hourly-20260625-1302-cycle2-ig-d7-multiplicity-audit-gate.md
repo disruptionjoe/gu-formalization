@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 2 IG D7 Multiplicity Audit Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 2
-lane: 2
 doc_type: ig_d7_multiplicity_audit_gate
 artifact_id: "IG_D7_MULTIPLICITY_AUDIT_GATE"
 verdict: "BLOCKED_NOT_PROOF"

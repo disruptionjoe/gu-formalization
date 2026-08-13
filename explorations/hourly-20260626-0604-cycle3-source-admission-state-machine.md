@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 3 Source Admission State Machine"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "SourceAdmissionStateMachine_0604_C3_V1"
 verdict: "state_machine_defined_zero_admissions"
 owned_path: "explorations/hourly-20260626-0604-cycle3-source-admission-state-machine.md"
 companion_audit: "tests/hourly_20260626_0604_cycle3_closeout_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 3 Source Admission State Machine
@@ -29,7 +26,6 @@ state_machine_defined: true
 source_admissions_count: 0
 proof_restart_allowed_any_route: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. State Machine

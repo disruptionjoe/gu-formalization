@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 1 Keating Source Surface Receipt Execution"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 1
-lane: 4
 doc_type: keating_source_surface_receipt_execution
 artifact_id: "KeatingSourceSurfaceReceiptExecution_V1"
 verdict: "BLOCKED_ONE_SOURCE_SIDE_LOCATOR_CANDIDATE_ZERO_ACCEPTED_RECEIPTS"

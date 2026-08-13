@@ -2,9 +2,7 @@
 title: "Hourly 20260625 0711 Cycle 3 Receipt Transition Matrix"
 status: draft
 doc_type: exploration
-run_id: "hourly-20260625-0711"
 cycle: 3
-lane: 2
 artifact_id: "ReceiptTransitionMatrixAfter0711_V1"
 verdict: "ZERO_TRANSITIONS_TO_ACCEPTED_ROUTING_OR_PROOF_RESTART"
 ---

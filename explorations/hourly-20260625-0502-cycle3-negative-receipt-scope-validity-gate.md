@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 3 Negative Receipt Scope Validity Gate"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 3
-lane: 3
 doc_type: negative_receipt_scope_validity_gate
 artifact_id: "NegativeReceiptScopeValidityGate_V1"
 verdict: "SCOPED_QFT_MANUSCRIPT_NEGATIVE_VALID_GLOBAL_NO_GO_BLOCKED"
@@ -18,7 +17,7 @@ companion_audit: "tests/hourly_20260625_0502_cycle3_negative_receipt_scope_valid
 Verdict: **scoped valid negative for the QFT manuscript pass; no global no-go or
 global demotion**.
 
-The run produced one decision-grade negative receipt, but only for this acquired
+The investigation produced one decision-grade negative receipt, but only for this acquired
 object and this required object:
 
 ```text

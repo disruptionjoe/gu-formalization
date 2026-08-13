@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 1 RS Alternate Minus-One Source Bundle Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 1
-lane: 4
 doc_type: rs_alternate_minus_one_source_bundle_gate
 artifact_id: "AlternatePrimarySourceRSMinusOneRuleSearchBundle_V1"
 verdict: "UCSD_HOSTED_CANDIDATE_UNDERDEFINED_ZERO_ACCEPTED_RS_RECEIPTS"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 1 PTUJ Branch Packet Field Ledger"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 1
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchPacketFieldLedger_0103_C1_PTUJ_V1"
 verdict: "blocked_no_complete_branch_field_set"
@@ -49,7 +47,7 @@ claim_status_consistency_triggered: false
 
 The minimum field ledger is now explicit:
 
-| branch | required fields | admitted fields this run | first missing field |
+| branch | required fields | admitted fields this investigation | first missing field |
 |---|---|---|---|
 | official/custodian | source asset record, custodian URL or archive, access method, content scope, checksum/custody, formula visibility scope | media locator metadata only | `custodian_source_asset_record` |
 | lawful local | lawful byte object, byte checksum, toolchain identity, decode command, output manifest, output checksums, formula visibility scope | schema only | `lawful_basis_for_a_concrete_source_byte_object` |

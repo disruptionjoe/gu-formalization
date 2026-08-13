@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 3 DGU Symbol VZ Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 3
-lane: "DGU"
 doc_type: "frontier_closeout"
 artifact_id: "DGUSymbolVZTransitionCloseout_0103_C3_DGU_V1"
 verdict: "blocked_before_symbol_and_vz"

@@ -2,7 +2,6 @@
 doc_type: manuscript_dgu01_operator_source_identity_gate
 run: hourly-20260625-0301
 cycle: 2
-lane: 3
 owned_path: "explorations/hourly-20260625-0301-cycle2-manuscript-dgu01-operator-source-identity.md"
 companion_audit: "tests/hourly_20260625_0301_cycle2_manuscript_dgu01_operator_source_identity_audit.py"
 source_pdf: "Geometric_UnityDraftApril1st2021.pdf"

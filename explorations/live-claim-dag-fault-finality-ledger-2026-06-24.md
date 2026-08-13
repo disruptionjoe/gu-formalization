@@ -6,8 +6,8 @@ doc_type: live_claim_dag_fault_finality_ledger
 verdict: "LIVE_GOVERNANCE_LAYER_CREATED; USE_AS_STATUS_DISCIPLINE_NOT_PROOF"
 owner: "claim-dag-governance"
 depends_on:
-  - "explorations/persona-review-cross-panel-synthesis-2026-06-24.md"
-  - "explorations/persona-review-distributed-systems-2026-06-24.md"
+  - "explorations/perspective-review-cross-panel-synthesis-2026-06-24.md"
+  - "explorations/perspective-review-distributed-systems-2026-06-24.md"
   - "RESEARCH-STATUS.md"
   - "NEXT-STEPS.md"
   - "CANON.md"

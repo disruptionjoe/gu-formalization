@@ -1,8 +1,6 @@
 ---
 artifact_id: "QFTSourceDefinedRawBranchLocalGaugeGroupoidPacket_1602_C1_L5_V1"
-run_id: "hourly-20260625-1602"
 cycle: 1
-lane: 5
 verdict: "UNDERDEFINED_TEMPLATE_COMPATIBILITY_SKETCH_PRESENT_SOURCE_DEFINED_PACKET_ABSENT"
 owned_path: "explorations/hourly-20260625-1602-cycle1-qft-source-defined-raw-branch-local-gauge-groupoid.md"
 companion_audit: "tests/hourly_20260625_1602_cycle1_qft_source_defined_raw_branch_local_gauge_groupoid_audit.py"

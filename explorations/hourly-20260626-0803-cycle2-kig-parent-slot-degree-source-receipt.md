@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 2 KIG Parent Slot Degree Source Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 2
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGParentSlotDegreeSourceReceipt_0803_C2_V1_Result"
 verdict: "blocked_parent_slot_degree_not_source_forced"
 owned_path: "explorations/hourly-20260626-0803-cycle2-kig-parent-slot-degree-source-receipt.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 2 KIG Parent Slot Degree Source Receipt

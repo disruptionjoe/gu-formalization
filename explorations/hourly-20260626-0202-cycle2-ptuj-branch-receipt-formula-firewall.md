@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 2 PTUJ Branch Receipt Formula Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 2
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchReceiptFormulaFirewall_0202_C2_PTUJ_V1"
 verdict: "blocked_formula_visibility_firewalled_before_branch_receipt"

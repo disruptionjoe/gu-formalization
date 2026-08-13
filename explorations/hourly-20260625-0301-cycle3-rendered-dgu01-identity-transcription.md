@@ -2,7 +2,6 @@
 doc_type: rendered_dgu01_identity_transcription_gate
 run: hourly-20260625-0301
 cycle: 3
-lane: 3
 owned_path: "explorations/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
 companion_audit: "tests/hourly_20260625_0301_cycle3_rendered_dgu01_identity_transcription_audit.py"
 source_pdf: "Geometric_UnityDraftApril1st2021.pdf"

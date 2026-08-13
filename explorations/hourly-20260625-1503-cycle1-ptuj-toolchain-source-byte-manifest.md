@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 1 PTUJ Toolchain Source Byte Manifest"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 1
-lane: 1
 doc_type: ptuj_toolchain_source_byte_manifest
 artifact_id: "PTUJToolchainSourceByteOutputManifestDecision_1503_Cycle1_Lane1_V1"
 verdict: "blocked"

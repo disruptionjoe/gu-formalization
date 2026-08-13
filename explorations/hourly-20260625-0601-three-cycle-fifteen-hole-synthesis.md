@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260625 0601 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-0601"
 status: synthesis
 doc_type: three_cycle_closeout
 artifact_id: "Hourly20260625_0601_ThreeCycleFifteenHoleSynthesis_V1"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 2 QFT Branch Row Carrier Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 2
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchRowCarrierFirewall_0202_C2_QFT_V1"
 verdict: "underdefined_carrier_firewalled_before_branch_rows"

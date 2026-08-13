@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 2 DGU Same-Operator Intake Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 2
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGUSameOperatorIntakeGate_0002_C2_DGU_V1"
 verdict: "blocked_primary_source_row_absent"

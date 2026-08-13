@@ -2,9 +2,7 @@
 title: "Hourly 20260625 1802 Cycle 2 RS Capture Unavailability Branch Gate"
 status: blocked
 doc_type: exploration
-run_id: "hourly-20260625-1802"
 cycle: 2
-lane: 4
 artifact_id: "RSCaptureUnavailabilityBranchGate_1802_C2_L4_V1"
 owned_path: "explorations/hourly-20260625-1802-cycle2-rs-capture-unavailability-branch-gate.md"
 companion_audit: "tests/hourly_20260625_1802_cycle2_rs_capture_unavailability_branch_gate_audit.py"

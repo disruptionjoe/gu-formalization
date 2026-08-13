@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 2 QFT Source Equivalence Descent Schema Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 2
-lane: 5
 doc_type: qft_source_equivalence_descent_schema_gate
 artifact_id: "SourceDefinedLocalPhysicalFieldEquivalenceRelationAndDescentData_V1"
 verdict: "BLOCKED_SCHEMA_SPECIFIED_SOURCE_DATA_ABSENT"

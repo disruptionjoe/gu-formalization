@@ -28,7 +28,7 @@ The main update is not "the synthesis was wrong." The update is layer discipline
 Primary v1 orientation:
 
 - `32-potential-insights-novelty-and-tests.md`
-- `33-five-persona-value-ranking.md`
+- `33-five-perspective-value-ranking.md`
 
 Single-pass artifacts and v2 applications:
 
@@ -37,7 +37,7 @@ Single-pass artifacts and v2 applications:
 - internal origin artifact: Type II1 spectral Standard Model checklist
 - internal origin artifact: Nielsen-Ninomiya protocol analogy pilot
 - internal origin artifact / internal origin artifact: media claim and insight mining
-- internal origin artifact: Hegelian persona protocol method note
+- internal origin artifact: Hegelian perspective protocol method note
 - internal origin artifact: stochastic parity-breaking test
 - internal origin artifact: Cartan / twistor / G2 guardrail
 - internal origin artifact: Sorkin causal-set axis note
@@ -101,7 +101,7 @@ The answer is:
 2. The strongest mathematical spine is now signed-readout/provenance factorization, not raw CALM/GW equivalence.
 3. The strongest contributor surface is still the no-go map, six-axis protocol, Type II1 checklist, and bounded theorem-core tasks.
 4. C_MPR is useful, but should be introduced as a proposed formalization program.
-5. The Hegelian/persona method is valuable, but only if every synthesis gets a post-synthesis layer audit.
+5. The Hegelian/perspective method is valuable, but only if every synthesis gets a post-synthesis layer audit.
 
 ## Original Insights With Current Status
 
@@ -123,7 +123,7 @@ The answer is:
 | I14 | Distler-Garibaldi is the outlier that makes the unified no-go frame hard and therefore valuable. | 4 | 4 | Medium | Survived. DG must stay a stress test; do not smuggle it into a generalized BvN wall or smooth forgetful functor without proof. | 4 | Run the DG forgetful-functor stress test separately from anomaly/topology examples. |
 | I15 | Computational irreducibility / undecidability may explain why bundle-level branch search keeps exhausting without converging. | 4 | 4 | Low-Medium | Still speculative, but gained support as a Wolfram/local-rule lens in internal origin artifact/390. Not ready for lead publication. | 2 | Try one toy computational-irreducibility obstruction; otherwise keep as discussion-section lens. |
 | I16 | Sorkin causal-set and RG/universality axes are more mature than many other heterodox axes. | 3 | 4 | Medium | Partially survived. internal origin artifact and internal origin artifact are useful open-problem lanes, but their C_MPR/BvN applications were overstrong and have been redirected. | 3 | For Sorkin: one signed/global observable and local-certification test. For RG: anomaly matching as Form C, not PCP iff. |
-| I17 | Hegelian divergent personas worked because they forced thesis/antithesis preservation before synthesis. | 3 | 3 | High | Survived and improved. internal origin artifact v2 added examples, but C_MPR must be reframed as provisional, not canonical success. | 4 | Add "post-synthesis layer audit" as a required step in the public method note. |
+| I17 | Hegelian divergent perspectives worked because they forced thesis/antithesis preservation before synthesis. | 3 | 3 | High | Survived and improved. internal origin artifact v2 added examples, but C_MPR must be reframed as provisional, not canonical success. | 4 | Add "post-synthesis layer audit" as a required step in the public method note. |
 | I18 | The repo should not publish "GU proof" framing; it should publish an open research map with falsifiable test artifacts. | 2 | 4 | High | Strongly survived and became more important after the rigor redirect. | 5 | Public README posture: open research map, falsifiable tests, marked conjectures, no proof claims. |
 
 ## New Paths Surfaced After V1
@@ -154,7 +154,7 @@ The answer is:
 | 2 | Six-axis specification protocol | 5 | Forces discipline before speculation; reusable across all paths. | Six axes stay primary; 9-tuple is optional/stress-test only. |
 | 3 | Type II1 spectral SM checklist | 5 | Genuine unexplored math-adjacent open problem with clear controls. | Requirements, not construction. |
 | 4 | Signed-readout boundary theorem | 5 | The strongest current theorem-grade result if written narrowly. | CALM/GW equivalence failed; boundary theorem survived. |
-| 5 | Hegelian/persona protocol with layer audit | 4 | Transparent method; useful to contributors; explains how heterodox paths were filtered. | Method, not proof. Include failure modes. |
+| 5 | Hegelian/perspective protocol with layer audit | 4 | Transparent method; useful to contributors; explains how heterodox paths were filtered. | Method, not proof. Include failure modes. |
 | 6 | Media claim ledger | 4 | Good provenance/onboarding artifact. | Verified transcript claims only; never technical evidence by itself. |
 | 7 | Sorkin/RG open problem notes | 3 | Good exploratory contributor prompts. | Do not lead with BvN/C_MPR claims. |
 | 8 | C_MPR / 9-tuple / BvN wall | 3 now | Potentially profound but not proof-ready. | Publish only as proposed formalization program or internal scaffold. |

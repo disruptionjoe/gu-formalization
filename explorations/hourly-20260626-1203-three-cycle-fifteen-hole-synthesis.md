@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 3
-lane: 6
 doc_type: "three_cycle_fifteen_hole_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_1203_V1"
 verdict: "fifteen_holes_integrated_no_claim_promotion"
 owned_path: "explorations/hourly-20260626-1203-three-cycle-fifteen-hole-synthesis.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Three-Cycle Fifteen-Hole Synthesis
@@ -55,7 +52,7 @@ cycle3_commit: pending_main_thread
 
 ## 3. Candidate Bank Used
 
-The run used an 18-object candidate bank and selected the top five parallel-safe
+The investigation used an 18-object candidate bank and selected the top five parallel-safe
 routes in each cycle.
 
 Immediate candidates:

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 1 QFT Congruence Generators"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 1
-lane: 5
 doc_type: qft_congruence_generators
 artifact_id: "CandidateCongruenceGeneratorsForLocalGUPhysicalFieldEquivalence_V1"
 verdict: "UNDERDEFINED_GENERATOR_TAXONOMY_ONLY_SOURCE_MAPS_ABSENT"

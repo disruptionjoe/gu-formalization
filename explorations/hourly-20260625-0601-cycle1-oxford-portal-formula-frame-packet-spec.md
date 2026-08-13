@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 1 Oxford Portal Formula Frame Packet Spec"
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 1
-lane: 5
 doc_type: visual_formula_acquisition_spec_gate
 artifact_id: "OxfordPortalPowerPointFormulaFramePacket_V1"
 verdict: "BLOCKED_FORMULA_FRAME_PACKET_MISSING_ZERO_ACCEPTED_VISUAL_RECEIPTS"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 1 QFT Precarrier Source Row Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 1
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTPrecarrierSourceRowGate_0103_C1_QFT_V1"
 verdict: "underdefined_no_precarrier_source_rows"

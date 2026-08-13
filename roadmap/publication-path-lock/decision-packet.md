@@ -98,7 +98,7 @@ Three independent papers, each anchored to its venue's house style without compa
 
 ## 3. Recommendation — Option II (tight companion set)
 
-**5-persona dialectic verdict:** 5/5 lean Option II.
+**5-perspective dialectic verdict:** 5/5 lean Option II.
 
 - **P1 Strategic research PM:** Option II maximizes impact-controlled-by-risk; convergence is the load-bearing finding and companion-set framing makes it visible.
 - **P2 Math-physics author with publication experience:** Option II distributes non-academic-author risk across three papers; co-authoring opportunities cluster naturally on Paper A.
@@ -113,9 +113,9 @@ Three independent papers, each anchored to its venue's house style without compa
 3. **Consistent disclosure obligation** — one GU-affiliation disclosure decision (Phase 2 editor Q4) governs all three papers; inconsistency surfacing later is a reputational risk.
 4. **No single paper carries the full architectural story** — readers of one paper get one theorem; the C_MPR convergence is visible only across the set.
 5. **Three revision cycles** — each paper has its own; ×3 vs Option I (×1) or Option III (×3 decoupled).
-6. **Higher total agent-time** — ~1560-1980 min total (vs ~600-900 min for Option I), but parallelizable as 3 sub-agent workers (real-time ~600-780 min).
+6. **Higher total agent-time** — ~1560-1980 min total (vs ~600-900 min for Option I), but parallelizable as 3 independent reviewer workers (real-time ~600-780 min).
 
-**Named fallback paths** (per `persona-dialectic.md` §5(e)):
+**Named fallback paths** (per `perspective-dialectic.md` §5(e)):
 
 - Trade-off #1 (coordination) unacceptable → fall back to Option I.
 - Trade-off #2 (timing) unacceptable → fall back to Option III.

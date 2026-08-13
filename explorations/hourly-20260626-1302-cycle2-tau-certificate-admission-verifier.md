@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 2 Tau Certificate Admission Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 2
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "InhabitedTauFixedAlephCertificateAdmissionVerifier_1302_C2_L2_V1"
 verdict: "verifier_defined_rejects_at_action_field_space"
 owned_path: "explorations/hourly-20260626-1302-cycle2-tau-certificate-admission-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 2 Tau Certificate Admission Verifier
@@ -43,7 +40,6 @@ target_erasure_witness_present: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

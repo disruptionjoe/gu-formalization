@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 2 RS Visual Route Unavailability Strengthening Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 2
-lane: 4
 doc_type: rs_visual_route_unavailability_strengthening_gate
 artifact_id: "RSVisualRouteUnavailabilityStrengtheningGate_1602_C2_L4_V1"
 verdict: "BLOCKED_REPO_LOCAL_ABSENCE_NOT_STRONG_DOCUMENTED_UNAVAILABILITY_PACKET"

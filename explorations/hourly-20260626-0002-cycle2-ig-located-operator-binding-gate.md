@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 2 IG Located Operator Binding Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 2
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "ProductABLocatedSourceOperatorBindingGate_0002_C2_IG_V1"
 verdict: "blocked_locator_absent_binding_not_evaluable"

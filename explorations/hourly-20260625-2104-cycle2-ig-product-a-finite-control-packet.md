@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 2 IG Product A Finite Control Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 2
-lane: "2 IG Product A"
 doc_type: ig_product_a_finite_control_packet
 artifact_id: "ProductAFullKernelCokernelHighestWeightPacket_2104_C2_L2_V1"
 verdict: "PRODUCT_A_PACKET_CLOSED_SELECTOR_BLOCKED_BY_RETAINED_RIVAL_ROW"

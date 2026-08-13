@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 2 RS First Frame Execution Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 2
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSFirstFrameExecutionGate_0002_C2_RS_V1"
 verdict: "blocked_public_route_challenge_not_target_frame"

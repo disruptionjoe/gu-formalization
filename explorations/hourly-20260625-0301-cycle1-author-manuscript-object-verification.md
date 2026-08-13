@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 1 Author Manuscript Object Verification"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 1
-lane: 1
 doc_type: author_manuscript_object_verification
 artifact_id: "AcquiredAuthorManuscriptObjectVerification_V1"
 verdict: "CONDITIONAL_LOCAL_AUTHOR_MANUSCRIPT_OBJECT_ACQUIRED_PENDING_QUERY"

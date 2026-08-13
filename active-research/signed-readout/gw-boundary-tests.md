@@ -9,7 +9,7 @@ updated_at: "2026-05-31"
 
 **artifact:** internal origin artifact
 **Status.** Local-only draft. Generated 2026-05-31.
-**Predecessor inputs.** `01-jordan-calm-formalization.md`; `02-option-b-metric-cointegration.md`; internal origin artifact `falsification-result.md` (the original GW-bridge failure); 21-persona §1 Lattice QFT theorist + §3 Anomaly theorist + §4 Numerical lattice physicist (GW-side authority).
+**Predecessor inputs.** `01-jordan-calm-formalization.md`; `02-option-b-metric-cointegration.md`; internal origin artifact `falsification-result.md` (the original GW-bridge failure); 21-perspective §1 Lattice QFT theorist + §3 Anomaly theorist + §4 Numerical lattice physicist (GW-side authority).
 
 This document tests whether each framework bridges to Ginsparg-Wilson observables. The two tests are independent. The combined verdict drives `05-verdict.md`.
 
@@ -100,9 +100,9 @@ The bridge from CALM to GW has *two distinct readout targets* that ε-local CALM
 
 ---
 
-## 4. Connection to the 21-persona meta-assessment's "layer split" insight
+## 4. Connection to the 21-perspective meta-assessment's "layer split" insight
 
-The 21-persona assessment §S.2 issue B named "wrong target observable; layer conflation" as a structural issue the validators missed. Specifically: the bridge work *conflated*
+The 21-perspective assessment §S.2 issue B named "wrong target observable; layer conflation" as a structural issue the validators missed. Specifically: the bridge work *conflated*
 
 - **propagation-layer** (per-site contribution accumulates monotonically) — survives
 - **decision-layer** (signed readout flips sign under input growth) — fails
@@ -116,9 +116,9 @@ The JD-CALM and AC-CALM exploration in internal origin artifact *operationalizes
 - AC-CALM's `Q_A,r ± ε(r)` is a **bounded-error decision-layer** object that explicitly carries its scale.
 - The integer index `n₊ - n₋` returned by Atiyah-Singer is the **anomaly-class / topological-invariant** object, which lives one layer above what JD-CALM or AC-CALM directly capture.
 
-This is consistent with the 21-persona meta-verdict's recommendation: the surviving bridge is at the *propagation layer*, the failing bridge is at the *integer-topological-invariant decision layer*, and the structural insight is the layer split itself.
+This is consistent with the 21-perspective meta-verdict's recommendation: the surviving bridge is at the *propagation layer*, the failing bridge is at the *integer-topological-invariant decision layer*, and the structural insight is the layer split itself.
 
-`[speculation, this draft's read]` — the internal origin artifact exploration *confirms* the 21-persona meta-verdict's "Option II-Retreat" framing rather than overturning it. The signed-CALM repair gives a tighter, more publishable version of the propagation-layer survival claim (via JD-CALM or AC-CALM as the technical machinery), but does not rescue the integer-index decision-layer claim.
+`[speculation, this draft's read]` — the internal origin artifact exploration *confirms* the 21-perspective meta-verdict's "Option II-Retreat" framing rather than overturning it. The signed-CALM repair gives a tighter, more publishable version of the propagation-layer survival claim (via JD-CALM or AC-CALM as the technical machinery), but does not rescue the integer-index decision-layer claim.
 
 ---
 

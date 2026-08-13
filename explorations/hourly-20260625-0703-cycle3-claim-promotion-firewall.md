@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 3 Claim Promotion Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 3
-lane: 5
 doc_type: claim_promotion_firewall
 artifact_id: "ClaimPromotionFirewallAfterHourly20260625_0703_V1"
 verdict: "NO_PROMOTION_NO_DEMOTION_NO_CANON_OR_ACTIVE_RESEARCH_STATUS_CHANGE"

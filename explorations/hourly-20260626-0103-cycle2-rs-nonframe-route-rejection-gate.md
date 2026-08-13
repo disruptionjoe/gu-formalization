@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 2 RS Nonframe Route Rejection Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 2
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSNonframeRouteRejectionGate_0103_C2_RS_V1"
 verdict: "blocked_nonframe_routes_rejected"

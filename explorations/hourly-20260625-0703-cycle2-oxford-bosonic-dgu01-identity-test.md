@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 2 Oxford Bosonic DGU01 Identity Test"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 2
-lane: 1
 doc_type: oxford_bosonic_dgu01_identity_test
 artifact_id: "BosonicOxfordReplacementToDGU01IdentityTest_V1"
 verdict: "BLOCKED_CATEGORY_CHANGE_GUARD_ACTIVE_ZERO_ACCEPTED_DGU_01_RECEIPTS"

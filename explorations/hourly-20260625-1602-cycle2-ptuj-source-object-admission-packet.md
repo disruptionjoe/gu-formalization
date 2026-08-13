@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 2 PTUJ Source Object Admission Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 2
-lane: 1
 doc_type: ptuj_source_object_admission_packet
 artifact_id: "PTUJ_SourceObjectAdmissionPacket_1602_V1"
 verdict: "blocked"

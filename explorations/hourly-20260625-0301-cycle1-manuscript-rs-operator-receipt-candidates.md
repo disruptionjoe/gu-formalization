@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 1 Manuscript RS Operator Receipt Candidates"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: "1"
-lane: "3"
 doc_type: manuscript_rs_operator_receipt_candidates
 artifact_id: "ManuscriptRSOperatorReceiptCandidates_V1"
 verdict: "BLOCKED_ADJACENT_CONTEXT_ZERO_ACCEPTED_RS_RECEIPTS"

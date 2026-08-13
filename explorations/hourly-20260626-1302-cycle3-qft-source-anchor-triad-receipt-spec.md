@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 3 QFT Source Anchor Triad Receipt Spec"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 3
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSameContextSourceAnchorTriadReceipt_1302_C3_L5_V1"
 verdict: "receipt_spec_defined_uninhabited"
 owned_path: "explorations/hourly-20260626-1302-cycle3-qft-source-anchor-triad-receipt-spec.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 3 QFT Source Anchor Triad Receipt Spec
@@ -41,7 +38,6 @@ same_context_candidate_allowed: false
 qft_cover_declaration_retry_allowed: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Required Receipt Fields

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 2 QFT Branch Ordering Ledger"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 2
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchOrderingLedger_2202_C2_L5_V1"
 verdict: "underdefined"

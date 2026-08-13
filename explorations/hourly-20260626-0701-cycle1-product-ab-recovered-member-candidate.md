@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 1 Product A/B Recovered Member Candidate Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 1
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "RecoveredNotesOrFrameProductABMemberCandidateGate_0701_C1_L4_V1"
 verdict: "blocked_scoped_negative_remains_no_recovered_member_candidate"
 owned_path: "explorations/hourly-20260626-0701-cycle1-product-ab-recovered-member-candidate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 1 Product A/B Recovered Member Candidate Gate

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 1 PTUJ Branch Source Byte Preflight"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 1
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchSourceBytePreflight_2202_C1_L3_V1"
 verdict: "blocked"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 2 ProductAB Branch Pure Accepted Payload Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "FormulaBearingPTUJOrKeatingAcceptedBranchPayloadVerifier_1003_C2_L4_V1"
 verdict: "negative_payload_receipt_no_branch_pure_accepted_payload"
 owned_path: "explorations/hourly-20260626-1003-cycle2-productab-branch-pure-accepted-payload-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 2 ProductAB Branch Pure Accepted Payload Verifier
@@ -37,7 +34,6 @@ negative_payload_receipt_emitted: true
 visible_formula_transcription_allowed: false
 productab_member_emitted: false
 target_import_used: false
-claim_status_change: false
 ```
 
 The obstruction is not uncertainty about which route matters. The route identity

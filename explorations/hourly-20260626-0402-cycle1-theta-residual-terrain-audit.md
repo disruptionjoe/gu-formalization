@@ -3,13 +3,10 @@ title: "Theta Residual Terrain Audit V0"
 date: "2026-06-26"
 status: exploration
 doc_type: terrain_audit
-run_id: "hourly-20260626-0402"
 cycle: 1
-lane: "ThetaResidualTerrainAudit"
 artifact_id: "ThetaResidualTerrainAudit_V0"
 owned_path: "explorations/hourly-20260626-0402-cycle1-theta-residual-terrain-audit.md"
 verdict: "BLOCKED_UNDERDEFINED_NO_DERIVED_NONMINIMAL_COUPLING_OR_RESIDUAL_LAW"
-claim_status_change: false
 ---
 
 # Theta Residual Terrain Audit V0

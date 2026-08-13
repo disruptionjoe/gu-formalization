@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 1 Product A/B Locator Receipt Search"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 1
-lane: "ProductABSourceOperatorSourceLocatorReceiptSearch"
 doc_type: "frontier_gate"
 artifact_id: "ProductABSourceOperatorSourceLocatorReceiptSearch_0502_C1_V1"
 verdict: "blocked_locator_receipt_not_admitted"

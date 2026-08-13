@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 1 ProductAB One Branch Payload Acquisition"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 1
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OneBranchFormulaBearingPTUJOrKeatingPayloadAcquisition_1102_C1_L4_V1"
 verdict: "closed_scoped_negative_no_one_branch_payload_present_after_public_check"
 owned_path: "explorations/hourly-20260626-1102-cycle1-productab-one-branch-payload-acquisition.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 1 ProductAB One Branch Payload Acquisition
@@ -43,7 +40,6 @@ visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. What Was Derived Directly From Repo/Public Sources
@@ -196,7 +192,6 @@ Permitted state:
 visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
-claim_status_change: false
 ```
 
 This is not a global disproof of PTUJ, Keating, ProductAB, Shiab, or `K_IG`. It

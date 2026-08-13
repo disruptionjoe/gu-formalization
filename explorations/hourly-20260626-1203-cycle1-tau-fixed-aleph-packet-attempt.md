@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 1 Tau Fixed-Aleph Packet Attempt"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 1
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauFixedAlephPacketAttempt_1203_C1_L2_V1"
 verdict: "conditional_scaffold_packet_incomplete"
 owned_path: "explorations/hourly-20260626-1203-cycle1-tau-fixed-aleph-packet-attempt.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 1 Tau Fixed-Aleph Packet Attempt
@@ -43,7 +40,6 @@ full_EL_tuple_present: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

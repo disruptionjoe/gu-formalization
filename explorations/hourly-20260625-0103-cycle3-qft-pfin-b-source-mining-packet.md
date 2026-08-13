@@ -6,7 +6,6 @@ doc_type: qft_pfin_b_source_mining_packet
 artifact_id: "QFTPFinBSourceMiningPacket_V1"
 run: "hourly-20260625-0103"
 cycle: 3
-lane: 3
 verdict: "BLOCKED_SOURCE_FIRST_PACKET_SPECIFIED_NO_PROJECTOR_RECEIPT"
 owned_path: "explorations/hourly-20260625-0103-cycle3-qft-pfin-b-source-mining-packet.md"
 companion_audit: "tests/hourly_20260625_0103_cycle3_qft_pfin_b_source_mining_packet_audit.py"

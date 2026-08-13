@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 3 UCSD Visual Frame Capture Feasibility Gate"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 3
-lane: 5
 doc_type: visual_frame_capture_feasibility_gate
 artifact_id: "UCSDVisualFrameCaptureFeasibilityGate_V1"
 verdict: "BLOCKED_LOCAL_VISUAL_MATERIAL_MISSING_ROW_PACKETS_ONLY_ACCEPTED_RECEIPTS_ZERO"

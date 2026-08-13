@@ -9,7 +9,7 @@ updated_at: "2026-06-26"
 # Five-Lane Frontier Run
 
 This is the standard repo-local run type for advancing the GU formalization frontier with
-sub-agents. Use it when the maintainer asks for a "run", "another five", "five tasks", or
+independent reviewers. Use it when the maintainer asks for a "run", "another five", "five tasks", or
 similar language in the context of moving the repository forward.
 
 ## STOP RULE — no-progress halt (check BEFORE every run)
@@ -210,7 +210,7 @@ The final response should include:
 - commit hash and message;
 - tests/audits run;
 - one plain-English finding per lane;
-- whether the run produced a new next-frontier target;
+- whether the investigation produced a new next-frontier target;
 - any lane that should be followed sequentially rather than in the next parallel batch.
 
 ## Reference Instance

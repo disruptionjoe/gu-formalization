@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 3 ProductAB Official PTUJ Acquisition Request"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 3
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialTzSEvmqxu48FormulaSourceAssetAcquisitionRequest_1102_C3_L4_V1"
 verdict: "closed_request_defined_ready_missing_official_formula_source_asset"
 owned_path: "explorations/hourly-20260626-1102-cycle3-productab-official-ptuj-acquisition-request.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 3 ProductAB Official PTUJ Acquisition Request
@@ -39,7 +36,6 @@ first_missing_source_object:
 visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
-claim_status_change: false
 ```
 
 The immediate frontier is not another locator search. The first exact object to
@@ -267,7 +263,6 @@ visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 The repo may now say that the next acquisition request is defined and ready.

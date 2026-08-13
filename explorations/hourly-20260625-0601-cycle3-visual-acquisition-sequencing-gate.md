@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0601 Cycle 3 Visual Acquisition Sequencing Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0601"
 cycle: 3
-lane: 4
 doc_type: visual_acquisition_sequencing_gate
 artifact_id: "VisualAcquisitionSequencingGate_V1"
 verdict: "CONDITIONAL_SEQUENTIAL_OXFORD_FIRST_PARALLEL_RAW_RETRIEVAL_ONLY_ZERO_ACCEPTED_RECEIPTS"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Three Cycle Fifteen Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 3
-lane: "synthesis"
 doc_type: three_cycle_fifteen_hole_synthesis
 artifact_id: "Hourly20260625_2028_ThreeCycleFifteenHoleSynthesis_V1"
 verdict: "fifteen_quality_holes_zero_accepted_receipts_order_firewalls_added"

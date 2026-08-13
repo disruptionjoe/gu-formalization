@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 3 Family Identity Check Matrix"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 3
-lane: 1
 doc_type: family_identity_check_matrix
 artifact_id: "FamilyIdentityCheckMatrix_Cycle3_V1"
 verdict: "BLOCKED_ZERO_FAMILY_IDENTITY_CHECKS_PASSED_NO_PROOF_RESTART"
@@ -44,7 +43,7 @@ family objects.
 
 ## 2. Direct Inputs From Cycle-2 Artifacts
 
-This matrix uses only the cycle-2 candidate rows and the run posture/runbook.
+This matrix uses only the cycle-2 candidate rows and the investigation posture/runbook.
 
 Control inputs:
 

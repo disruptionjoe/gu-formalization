@@ -3,13 +3,10 @@ title: "Hourly 20260626 0502 Cycle 2 Tau Fixed Reference Slice Certificate"
 date: "2026-06-26"
 status: exploration
 doc_type: frontier_run_lane_artifact
-run_id: "hourly-20260626-0502"
 cycle: 2
-lane: "TauFixedReferenceSliceCertificate"
 artifact_id: "TauFixedReferenceSliceCertificate_2A_V0"
 verdict: "NOT_ADMITTED_TAU_PLUS_EQUIVARIANCE_ONLY_NO_SOURCE_LOCKED_FIXED_REFERENCE_GRAPH"
 owned_path: "explorations/hourly-20260626-0502-cycle2-tau-fixed-reference-slice-certificate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0502 Cycle 2 Tau Fixed Reference Slice Certificate

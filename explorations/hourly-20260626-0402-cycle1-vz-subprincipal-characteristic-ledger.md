@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 1 VZ Subprincipal Characteristic Ledger"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 1
-lane: "VZSubprincipalCharacteristicLedger"
 doc_type: "frontier_ledger"
 artifact_id: "VZSubprincipalCharacteristicLedger_V0"
 verdict: "blocked_principal_symbol_not_full_vz_closure"

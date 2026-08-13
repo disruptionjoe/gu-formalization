@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 3 Next Frontier Dependency DAG"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 3
-lane: 5
 doc_type: next_frontier_dependency_dag
 artifact_id: "NextFrontierDependencyDagAfter2028_C3_L5_V1"
 verdict: "next_frontier_upstream_producer_admission"

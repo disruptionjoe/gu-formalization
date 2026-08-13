@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260626 0502 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0502_V1"
 verdict: "fifteen_source_first_holes_completed_no_claim_status_changes_no_proof_restart"
@@ -12,7 +11,7 @@ owned_path: "explorations/hourly-20260626-0502-three-cycle-fifteen-hole-synthesi
 
 ## Plain-English Closeout
 
-This run completed fifteen decision-grade holes across three sequential cycles.
+This investigation completed fifteen decision-grade holes across three sequential cycles.
 It did not close a proof object, admit a source row, select an IG branch, admit a
 Product A/B source operator, or emit a QFT branch provenance row. It also did not
 promote, demote, or rescope any claim.

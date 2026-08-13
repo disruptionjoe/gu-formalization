@@ -3,9 +3,7 @@ title: "Primary GU Variational Interface V0 Gate"
 date: "2026-06-26"
 status: exploration
 doc_type: frontier_run_lane_artifact
-run_id: "hourly-20260626-0402"
 cycle: 1
-lane: "PrimaryGUVariationalInterface"
 artifact_id: "PrimaryGUVariationalInterface_V0"
 verdict: "UNDERDEFINED_BLOCKED_BRANCH_FIXED_IG_VARIATION_PACKET_MISSING"
 owned_path: "explorations/hourly-20260626-0402-cycle1-primary-gu-variational-interface.md"

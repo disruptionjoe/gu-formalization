@@ -2,9 +2,7 @@
 title: "Hourly 20260625 1802 Cycle 1 RS UCSD Capture Stack Execution Ledger"
 status: blocked
 doc_type: exploration
-run_id: "hourly-20260625-1802"
 cycle: 1
-lane: 4
 artifact_id: "UCSDCaptureStackExecutionLedgerForRolledOperatorWindow_1802_C1_L4_V1"
 owned_path: "explorations/hourly-20260625-1802-cycle1-rs-ucsd-capture-stack-execution-ledger.md"
 companion_audit: "tests/hourly_20260625_1802_cycle1_rs_ucsd_capture_stack_execution_ledger_audit.py"

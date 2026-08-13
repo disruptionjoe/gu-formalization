@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 1 QFT Branch Provenance Intake Readiness"
 date: "2026-06-26"
-run_id: "hourly-20260626-0301"
 cycle: 1
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchProvenanceIntakeReadiness_0301_C1_QFT_V1"
 verdict: "underdefined_intake_not_ready_no_branch_row_provenance"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 2 Tau Source-To-Slice Restriction Theorem"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 2
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauSourceToSliceRestrictionTheorem_2A_0701_C2_V1"
 verdict: "blocked_reference_only_source_to_slice_not_proved"
 owned_path: "explorations/hourly-20260626-0701-cycle2-tau-source-to-slice-restriction-theorem.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 2 Tau Source-To-Slice Restriction Theorem

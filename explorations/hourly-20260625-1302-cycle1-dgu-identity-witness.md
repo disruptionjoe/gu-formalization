@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 1 DGU Identity Witness"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 1
-lane: 3
 doc_type: dgu_identity_witness
 artifact_id: "ActualDGU01IdentityWitnessSearch_V1"
 verdict: "UNDERDEFINED_BLOCKED_NO_SOURCE_CLEAN_ACTUAL_D_GU_EPSILON_0_1_IDENTITY_WITNESS"

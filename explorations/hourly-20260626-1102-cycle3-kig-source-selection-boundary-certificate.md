@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 3 KIG Source-Selection Boundary Certificate"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 3
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGSourceSelectionBoundaryCertificate_1102_C3_L3_V1"
 verdict: "certificate_defined_applied_no_source_selected_branch3_candidate"
 owned_path: "explorations/hourly-20260626-1102-cycle3-kig-source-selection-boundary-certificate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 3 KIG Source-Selection Boundary Certificate
@@ -52,7 +49,6 @@ trace_eliminator_retry_allowed: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 The strongest admissible object remains:

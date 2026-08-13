@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 1 IG Two-Row Source Operator Receipt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 1
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "IGTwoRowSourceOperatorReceipt_2202_C1_L1_V1"
 verdict: "blocked"

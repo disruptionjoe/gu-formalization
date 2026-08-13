@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 3 Receipt Transition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 3
-lane: 2
 doc_type: receipt_transition_matrix
 artifact_id: "ReceiptTransitionMatrixAfter0803_V1"
 verdict: "ZERO_TRANSITIONS_TO_ACCEPTED_ROUTING_OR_PROOF_RESTART"

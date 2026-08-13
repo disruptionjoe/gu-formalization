@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 3 QFT Cover To Local Record Readiness"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 3
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTCoverToLocalRecordReadinessMatrix_0904_C3_L5_V1"
 verdict: "closed_readiness_matrix_local_records_not_ready"
 owned_path: "explorations/hourly-20260626-0904-cycle3-qft-cover-to-local-record-readiness.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 3 QFT Cover To Local Record Readiness

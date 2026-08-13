@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 3 Oxford Portal Exact Locator Batch"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: 3
-lane: 2
 doc_type: oxford_portal_exact_locator_batch
 artifact_id: "OxfordPortalExactLocatorBatch_V1"
 verdict: "BLOCKED_BATCH_SPECIFIED_ZERO_ACCEPTED_RECEIPTS"

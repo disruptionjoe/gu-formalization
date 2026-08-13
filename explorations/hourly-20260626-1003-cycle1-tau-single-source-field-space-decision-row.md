@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 1 Tau Single Source Field Space Decision Row"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 1
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "SingleSourceTauActionFieldSpaceDecisionRow_1003_C1_L2_V1"
 verdict: "underdefined_source_decision_row_absent"
 owned_path: "explorations/hourly-20260626-1003-cycle1-tau-single-source-field-space-decision-row.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 1 Tau Single Source Field Space Decision Row
@@ -55,7 +52,6 @@ dynamic_a_graph_selected: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. What Was Derived Directly From Repo Sources

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 2 Repo Local Primary GU Source Receipt Map"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "2"
-lane: "1"
 doc_type: repo_local_primary_gu_source_receipt_map
 artifact_id: "RepoLocalPrimaryGUSourceReceiptMap_V1"
 verdict: "BLOCKED_MAP_EXISTS_ZERO_ACCEPTED_RECEIPTS"

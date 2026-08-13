@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0711 Cycle 2 Oxford Frame DGU VZ Family Identity Test"
 date: "2026-06-25"
-run_id: "hourly-20260625-0711"
 cycle: 2
-lane: 1
 doc_type: oxford_frame_dgu_vz_family_identity_test
 artifact_id: "BosonicOxfordReplacementToDGU01IdentityTest_0711_Cycle2_Lane1_V1"
 verdict: "BLOCKED_MISSING_SOURCE_CLEAN_DGU_01_FAMILY_IDENTITY_ZERO_ACCEPTED_RECEIPTS"

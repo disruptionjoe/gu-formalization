@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 1 RS Frame Evidence Intake Readiness"
 date: "2026-06-25"
-run_id: "hourly-20260626-0301"
 cycle: 1
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSFrameEvidenceIntakeReadiness_0301_C1_RS_V1"
 verdict: "blocked_not_ready_for_frame_intake"

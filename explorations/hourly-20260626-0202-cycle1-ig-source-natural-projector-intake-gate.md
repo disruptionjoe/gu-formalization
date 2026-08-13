@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 1 IG Source Natural Projector Intake Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 1
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "IGSourceNaturalProjectorIntakeGate_0202_C1_IG_V1"
 verdict: "blocked_no_source_natural_projector_identity"
@@ -85,7 +83,7 @@ The upstream field still missing inside it is:
 ProductABSourceOperatorSourceLocatorReceipt_V1.source_native_operator_locator
 ```
 
-This run refines the hole: a Product A/B source operator locator is necessary
+This investigation refines the hole: a Product A/B source operator locator is necessary
 but not enough. The admitted object must also bind the rival-projector
 identity or explain why one common row is source-natural and the other is not.
 

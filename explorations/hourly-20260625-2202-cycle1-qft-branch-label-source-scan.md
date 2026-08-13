@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 1 QFT Branch Label Source Scan"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 1
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchLabelSourceScan_2202_C1_L5_V1"
 verdict: "underdefined"

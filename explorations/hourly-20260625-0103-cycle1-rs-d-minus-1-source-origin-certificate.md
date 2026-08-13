@@ -3,7 +3,6 @@ title: "Hourly 20260625 0103 Cycle 1 RS d_RS,-1 Source Origin Certificate"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "1"
-lane: "2"
 status: exploration
 doc_type: frontier_run_artifact
 verdict: "BLOCKED_SOURCE_ACTION_OR_OPERATOR_MISSING"

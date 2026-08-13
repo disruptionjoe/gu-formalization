@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 2 DGU Sector-Rule Root Admission Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 2
-lane: 3
 doc_type: dgu_sector_rule_root_admission_gate
 artifact_id: "DGUSectorRuleRootAdmissionGate_V1"
 verdict: "BLOCKED_ROOT_GATE_REQUIRES_SOURCE_EMITTED_SECTOR_RULE_AND_SAME_OPERATOR_RECEIPT"

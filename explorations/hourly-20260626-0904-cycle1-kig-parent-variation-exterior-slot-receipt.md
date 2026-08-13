@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 1 KIG Parent Variation Exterior Slot Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 1
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauPlusParentVariationExteriorSlotReceiptForKIG_0904_C1_L3_V1"
 verdict: "blocked_no_source_independent_parent_variation_slot"
 owned_path: "explorations/hourly-20260626-0904-cycle1-kig-parent-variation-exterior-slot-receipt.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 1 KIG Parent Variation Exterior Slot Receipt

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 3 ProductAB Formula Visibility Prerequisite"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 3
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "PTUJFormulaVisibilityPrerequisiteGate_0904_C3_L4_V1"
 verdict: "closed_prerequisite_gate_visibility_audit_blocked"
 owned_path: "explorations/hourly-20260626-0904-cycle3-productab-formula-visibility-prereq.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 3 ProductAB Formula Visibility Prerequisite

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 2 RS Alternate Source Minus-One Rule Search"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 2
-lane: 4
 doc_type: rs_alternate_source_minus_one_rule_search
 artifact_id: "AlternatePrimarySourceSearchForSourceEmittedRSMinusOneRule_V1"
 verdict: "NO_ALTERNATE_SOURCE_RECEIPT_FOUND_SCOPED_NEGATIVE_EXTENDED_GLOBAL_NO_GO_BLOCKED"

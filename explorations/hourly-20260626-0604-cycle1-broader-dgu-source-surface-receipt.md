@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 1 Broader DGU Source Surface Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "BroaderPrimarySourceSurfaceDGU01SectorRuleRowReceipt_0604_C1_V1"
 verdict: "blocked_scoped_negative_no_primary_dgu_01_row_admitted"
 owned_path: "explorations/hourly-20260626-0604-cycle1-broader-dgu-source-surface-receipt.md"
 companion_audit: "tests/hourly_20260626_0604_cycle1_source_admission_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 1 Broader DGU Source Surface Receipt
@@ -45,7 +42,6 @@ typed_D_roll_used_as_source_row: false
 same_operator_witness_allowed: false
 proof_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

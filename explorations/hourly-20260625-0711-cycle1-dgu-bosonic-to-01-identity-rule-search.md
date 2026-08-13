@@ -1,8 +1,6 @@
 ---
 title: "Hourly 20260625 0711 Cycle 1 DGU Bosonic To 0/1 Identity Rule Search"
-run_id: "hourly-20260625-0711"
 cycle: 1
-lane: 4
 doc_type: dgu_bosonic_to_01_identity_rule_search
 artifact_id: "BosonicToDGU01SectorIdentityRuleSearch_V1"
 verdict: "MISSING_SOURCE_CLEAN_BOSONIC_TO_DGU_01_SECTOR_IDENTITY_RULE_ZERO_ACCEPTED_RECEIPTS"

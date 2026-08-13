@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 3 RS Image Delta Intake Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 3
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "RSImageDeltaIntakeCloseout_0604_C3_V1"
 verdict: "image_delta_accounted_no_rs_or_dgu_restart"
 owned_path: "explorations/hourly-20260626-0604-cycle3-rs-image-delta-intake-closeout.md"
 companion_audit: "tests/hourly_20260626_0604_cycle3_closeout_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 3 RS Image Delta Intake Closeout
@@ -18,7 +15,7 @@ claim_status_change: false
 
 Verdict: **image delta accounted / no RS or DGU proof restart**.
 
-The commit immediately before this run added:
+The commit immediately before this investigation added:
 
 ```text
 automation/tmp/hourly-20260625-0711-rs-images/pdf_page_46.png

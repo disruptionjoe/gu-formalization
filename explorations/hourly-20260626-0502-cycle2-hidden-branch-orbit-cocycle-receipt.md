@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 2 Hidden Branch Orbit Cocycle Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 2
-lane: "QFTHiddenBranchOrbitCocycleReceipt"
 doc_type: "frontier_receipt"
 artifact_id: "QFTHiddenBranchOrbitCocycleReceipt_0502_C2_QFT_V0"
 verdict: "underdefined_orbit_cocycle_receipt_not_admitted"

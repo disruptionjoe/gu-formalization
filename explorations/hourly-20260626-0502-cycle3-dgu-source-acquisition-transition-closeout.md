@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 3 DGU Source Acquisition Transition Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 3
-lane: "dgu-source-acquisition-transition-closeout"
 doc_type: "transition_closeout"
 artifact_id: "DGUSourceAcquisitionTransitionCloseout_V1"
 verdict: "closed_no_restart_before_broader_primary_source_row"

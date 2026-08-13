@@ -65,7 +65,7 @@ empirical consequence can be trusted. The current candidates are:
 | C07 | RS/KK mass scale and mass ratio. | `gu-testable-predictions`, VZ/RS sector notes. | Underdetermined and not near observation; depends on fixed `R_s` and physical RS spectrum. |
 | C08 | Cosmological constant/Tikhonov scale `Lambda * t_obs^2`. | `gu-testable-predictions`, CPA/Tikhonov notes. | Order-of-magnitude retrodiction/control, not a precision prediction. |
 | C09 | Type II1/subfactor generation selector. | `type-ii1-selector-anti-smuggling-theorem`, `type-ii1-selector-or-nogo-theorem`, `sm-gauge-higgs-finite-control-extraction-ledger`. | Current cardinality-only selectors fail; no positive fixed-data selector yet. |
-| C10 | Substrate chirality hooks in Wolfram/stochastic/CA/decidability lanes. | `objection-triage-register`, substrate persona reviews. | Lowest proof grade; most hooks insert chirality or lack an SM invariant. |
+| C10 | Substrate chirality hooks in Wolfram/stochastic/CA/decidability lanes. | `objection-triage-register`, substrate perspective reviews. | Lowest proof grade; most hooks insert chirality or lack an SM invariant. |
 
 ## 3. Ranking Criteria
 

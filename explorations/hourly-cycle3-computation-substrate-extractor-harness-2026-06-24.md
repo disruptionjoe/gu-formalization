@@ -10,9 +10,9 @@ companion_audit:
 depends_on:
   - "RESEARCH-POSTURE.md"
   - "process/runbooks/five-lane-frontier-run.md"
-  - "explorations/persona-review-computation-substrate-2026-06-24.md"
+  - "explorations/perspective-review-computation-substrate-2026-06-24.md"
   - "explorations/stochastic/stochastic-parity-breaking-test.md"
-  - "explorations/persona-review-heterodox-math-2026-06-24.md"
+  - "explorations/perspective-review-heterodox-math-2026-06-24.md"
   - "explorations/hourly-cycle2-fixed-data-phi-obs-sector-ledger-2026-06-24.md"
   - "explorations/hourly-cycle2-qft-source-mode-quotient-data-ledger-2026-06-24.md"
 ---

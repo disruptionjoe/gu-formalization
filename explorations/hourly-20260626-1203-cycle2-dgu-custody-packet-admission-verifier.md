@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 2 DGU Custody Packet Admission Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 2
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "LawfulLocalUCSDDGU01CustodyPacketAdmissionVerifier_1203_C2_L1_V1"
 verdict: "verifier_defined_applied_rejects_current_state"
 owned_path: "explorations/hourly-20260626-1203-cycle2-dgu-custody-packet-admission-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 2 DGU Custody Packet Admission Verifier
@@ -41,7 +38,6 @@ custody_record_present: false
 extraction_policy_present: false
 retry_unlocks: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Verifier Predicate

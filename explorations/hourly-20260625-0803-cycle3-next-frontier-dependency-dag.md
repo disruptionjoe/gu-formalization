@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 3 Next Frontier Dependency DAG"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 3
-lane: 5
 doc_type: next_frontier_dependency_dag
 artifact_id: "NextFrontierDependencyDagAfter0803_V1"
 verdict: "NEXT_FRONTIER_ORDERED_BY_SOURCE_OBJECTS_PARALLEL_ONLY_FOR_DISJOINT_UPSTREAM_GATES"

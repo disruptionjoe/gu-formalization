@@ -3,7 +3,6 @@ title: "CycleLocalTransitionLedger_3_1_5_4_V1 classifier gate"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "3-1-5-4 cycle 1"
-lane: 5
 status: exploration/gate
 doc_type: cycle_local_transition_ledger_classifier_gate
 verdict: "CONDITIONAL_CYCLE1_LEDGER_CLASSIFIER_GATE_PASSED_PROCESS_ONLY"
@@ -168,7 +167,7 @@ repetition.
 The relevant claim is process-only:
 
 ```text
-The run wrapper can lock pre-transition identity before workers act, and the coordinator
+The investigation wrapper can lock pre-transition identity before workers act, and the coordinator
 can later classify transition behavior only from paired pre/post rows.
 ```
 

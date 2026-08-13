@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 1 ProductAB Content Access Current State"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 1
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialTzSEvmqxu48ContentAccessCustodyPacket_1302_C1_L4_V1"
 verdict: "blocked_content_access_packet_absent"
 owned_path: "explorations/hourly-20260626-1302-cycle1-productab-content-access-current-state.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 1 ProductAB Content Access Current State
@@ -44,7 +41,6 @@ visible_formula_transcription_allowed: false
 productab_member_test_allowed: false
 productab_kig_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

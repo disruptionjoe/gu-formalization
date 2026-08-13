@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 1 IG Source Operator Producer Contract"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 1
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "ProductABSourceOperatorSourceLocatorReceiptProducerContract_2302_C1_IG_V1"
 verdict: "HOST_NOT_PRODUCER_SOURCE_NATIVE_LOCATOR_ABSENT"

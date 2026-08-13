@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 1 Positive Primary Source DGU Row Candidate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "PositivePrimarySourceDGU01SectorRuleRowCandidate_0701_C1_L1_V1"
 verdict: "blocked_positive_candidate_not_admitted"
 owned_path: "explorations/hourly-20260626-0701-cycle1-positive-primary-source-dgu-row-candidate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 1 Positive Primary Source DGU Row Candidate

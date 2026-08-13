@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 1 QFT Candidate Packet Current State"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 1
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSameContextLocatorAuthorityCandidatePacket_1302_C1_L5_V1"
 verdict: "blocked_candidate_packet_absent"
 owned_path: "explorations/hourly-20260626-1302-cycle1-qft-candidate-packet-current-state.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 1 QFT Candidate Packet Current State
@@ -45,7 +42,6 @@ local_records_unlocked: false
 brsch_checks_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

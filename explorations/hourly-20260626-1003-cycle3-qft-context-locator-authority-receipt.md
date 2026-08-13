@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 3 QFT Context Locator Authority Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 3
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceContextLocatorAndCoverAuthorityReceipt_1003_C3_L5_V1"
 verdict: "closed_scoped_negative_no_source_context_locator_or_cover_authority_receipt"
 owned_path: "explorations/hourly-20260626-1003-cycle3-qft-context-locator-authority-receipt.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 3 QFT Context Locator Authority Receipt
@@ -47,7 +44,6 @@ local_records_unlocked: false
 brsch_checks_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 The negative decision is not a global no-go theorem for GU/QFT. It is a

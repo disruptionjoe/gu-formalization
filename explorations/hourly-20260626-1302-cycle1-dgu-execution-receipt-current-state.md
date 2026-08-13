@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 1 DGU Execution Receipt Current State"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "UCSDDGU01LawfulLocalByteAcquisitionExecutionReceipt_1302_C1_L1_V1"
 verdict: "blocked_execution_receipt_absent"
 owned_path: "explorations/hourly-20260626-1302-cycle1-dgu-execution-receipt-current-state.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 1 DGU Execution Receipt Current State
@@ -50,7 +47,6 @@ producer_retry_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

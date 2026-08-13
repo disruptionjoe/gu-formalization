@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 1 Oxford DGU01 Two Anchor Family Identity Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 1
-lane: 3
 doc_type: oxford_dgu01_two_anchor_family_identity_gate
 artifact_id: "OxfordBosonicTwoAnchorDGU01FamilyIdentityPacket_V1"
 verdict: "UNDERDEFINED_BLOCKED_MISSING_SOURCE_CLEAN_TWO_ANCHOR_DGU_01_FAMILY_IDENTITY"

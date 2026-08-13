@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 2 DGU Visual Frame Asset Manifest"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 2
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "UCSDDGU01VisualFrameAssetManifestOrNegativeReceipt_0904_C2_L1_V1"
 verdict: "negative_no_repo_local_ucsd_visual_asset_manifest"
 owned_path: "explorations/hourly-20260626-0904-cycle2-dgu-visual-frame-asset-manifest.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 2 DGU Visual Frame Asset Manifest

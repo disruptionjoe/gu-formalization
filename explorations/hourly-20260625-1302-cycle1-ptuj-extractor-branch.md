@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 1 PTUJ Extractor Branch"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 1
-lane: 1
 doc_type: ptuj_extractor_branch_gate
 artifact_id: "LawfulLocalTzSEvmqxu48FrameExtractorBranchDecision_V1"
 verdict: "BLOCKED_NO_CURRENT_REPO_LOCAL_LAWFUL_REPRODUCIBLE_EXTRACTOR_BRANCH"

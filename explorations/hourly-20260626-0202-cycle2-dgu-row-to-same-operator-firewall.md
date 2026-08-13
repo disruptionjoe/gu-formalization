@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 2 DGU Row To Same Operator Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 2
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGURowToSameOperatorFirewall_0202_C2_DGU_V1"
 verdict: "blocked_same_operator_firewalled_before_primary_row"

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0103 Cycle 3 RS Source Action Mining Packet"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "3"
-lane: "2"
 status: exploration
 doc_type: frontier_run_artifact
 artifact_id: "RSSourceActionMiningPacket_V1"

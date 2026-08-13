@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 3 KIG Primary Source Locator Row"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 3
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "Branch3ParentVariationPrimarySourceLocatorRow_1003_C3_L3_V1_Result"
 verdict: "blocked_no_primary_locator_row_pre_codomain"
 owned_path: "explorations/hourly-20260626-1003-cycle3-kig-primary-source-locator-row.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 3 KIG Primary Source Locator Row
@@ -47,7 +44,6 @@ trace_eliminator_retry_allowed: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a no-go against a future primary source. It is a decision that the
@@ -256,7 +252,6 @@ source_row_passing_firewall_allowed: false
 trace_eliminator_retry_allowed: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
-claim_status_change: false
 ```
 
 No claim-status consistency workflow is triggered because this artifact does

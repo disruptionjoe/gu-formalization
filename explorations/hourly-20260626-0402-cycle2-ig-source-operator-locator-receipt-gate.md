@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 2 IG Source Operator Locator Receipt Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 2
-lane: "IGSourceOperatorLocatorReceiptGate"
 doc_type: "frontier_gate"
 artifact_id: "ProductABSourceOperatorLocatorReceiptGate_0402_C2_IG_V1"
 verdict: "blocked_locator_receipt_not_admitted_source_native_locator_absent"

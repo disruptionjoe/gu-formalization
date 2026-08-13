@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 2 PTUJ Branch Purity Recheck Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 2
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchPurityRecheckGate_0002_C2_PTUJ_V1"
 verdict: "blocked_no_candidate_packet_to_accept"

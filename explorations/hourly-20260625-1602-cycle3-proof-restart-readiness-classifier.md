@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 3 Proof Restart Readiness Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 3
-lane: 1
 doc_type: proof_restart_readiness_classifier
 artifact_id: "ProofRestartReadinessClassifierAfter1602_V1"
 verdict: "ALL_ROUTES_BLOCKED_NO_PROOF_RESTART_ZERO_ACCEPTED_RECEIPTS"
@@ -31,9 +29,7 @@ accepted receipt
 Decision state:
 
 ```text
-run_id: hourly-20260625-1602
 cycle: 3
-lane: 1
 routes_examined: 7
 routes_ready_count: 0
 accepted_receipt_count: 0

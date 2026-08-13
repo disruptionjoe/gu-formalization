@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 3 DGU Byte Acquisition Manifest"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "UCSDDGU01LawfulLocalByteAcquisitionManifest_1203_C3_L1_V1"
 verdict: "manifest_defined_no_acquisition_executed"
 owned_path: "explorations/hourly-20260626-1203-cycle3-dgu-byte-acquisition-manifest.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 3 DGU Byte Acquisition Manifest
@@ -44,7 +41,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Manifest Fields

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 3 QFT Source Shadow Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 3
-lane: "QFT"
 doc_type: "frontier_closeout"
 artifact_id: "QFTSourceShadowCloseout_0202_C3_QFT_V1"
 verdict: "underdefined_no_restart_before_branch_rows"

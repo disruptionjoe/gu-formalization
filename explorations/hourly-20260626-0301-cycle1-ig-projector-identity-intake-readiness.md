@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 1 IG Projector Identity Intake Readiness"
 date: "2026-06-26"
-run_id: "hourly-20260626-0301"
 cycle: 1
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "IGProjectorIdentityIntakeReadiness_0301_C1_IG_V1"
 verdict: "blocked_intake_contract_ready_source_operator_absent"

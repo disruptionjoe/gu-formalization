@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 2 ProductAB Content Access Admission Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialTzSEvmqxu48ContentAccessPacketAdmissionVerifier_1302_C2_L4_V1"
 verdict: "verifier_defined_rejects_at_content_route"
 owned_path: "explorations/hourly-20260626-1302-cycle2-productab-content-access-admission-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 2 ProductAB Content Access Admission Verifier
@@ -42,7 +39,6 @@ formula_bearing_source_object_present: false
 visible_formula_transcription_allowed: false
 productab_member_test_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

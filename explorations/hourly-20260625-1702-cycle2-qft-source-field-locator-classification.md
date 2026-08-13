@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 2 QFT Source Field Locator Classification"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 2
-lane: 5
 doc_type: qft_source_field_locator_classification
 artifact_id: "QFTSourceFieldLocatorClassificationForIotaRRawG_1702_C2_L5_V1"
 verdict: "UNDERDEFINED_SCHEMA_ONLY_SOURCE_FIELD_LOCATOR_PACKET_NOT_ADMITTED"

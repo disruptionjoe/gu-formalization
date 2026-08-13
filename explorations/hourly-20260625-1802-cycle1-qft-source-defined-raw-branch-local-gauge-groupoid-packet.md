@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 1 QFT Source-defined Raw Branch Local Gauge Groupoid Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 1
-lane: 5
 doc_type: qft_source_defined_raw_branch_local_gauge_groupoid_packet
 artifact_id: "SourceDefinedRawBranchLocalGaugeGroupoidPacketForRRawBO_1802_C1_L5_V1"
 verdict: "UNDERDEFINED_SOURCE_DEFINED_PACKET_NOT_ADMITTED_FIRST_FIELD_SET_IOTA_AND_R_RAW"

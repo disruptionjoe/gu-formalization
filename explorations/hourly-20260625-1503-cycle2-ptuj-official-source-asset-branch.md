@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 2 PTUJ Official Source Asset Branch"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 2
-lane: 1
 doc_type: ptuj_official_source_asset_branch
 artifact_id: "OfficialTzSEvmqxu48FormulaSourceAssetPacketDecision_1503_Cycle2_Lane1_V1"
 verdict: "blocked"

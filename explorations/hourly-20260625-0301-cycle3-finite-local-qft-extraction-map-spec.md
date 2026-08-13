@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 3 Finite Local QFT Extraction Map Spec"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 3
-lane: 4
 doc_type: finite_local_qft_extraction_map_spec
 artifact_id: "FiniteLocalQFTExtractionMapSpec_V1"
 verdict: "CONDITIONAL_RECONSTRUCTION_GRADE_SPEC_SOURCE_DERIVATION_UNDERDEFINED"

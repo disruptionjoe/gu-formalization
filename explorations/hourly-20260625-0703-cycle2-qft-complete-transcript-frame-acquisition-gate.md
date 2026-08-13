@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 2 QFT Complete Transcript Frame Acquisition Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 2
-lane: 3
 doc_type: qft_complete_transcript_frame_acquisition_gate
 artifact_id: "CompleteTranscriptAndFrameAcquisitionForQFTFiniteProjector_V1"
 verdict: "BLOCKED_PARTIAL_ACQUISITION_NO_PFINB_PAYLOAD"

@@ -7,7 +7,7 @@ verdict: "SOURCE_GEOMETRY_REFRAME_ACCEPTED_AS_CONTRACT_NOT_PROOF"
 owned_path: "explorations/source-geometry-not-quantized-gravity-contract-2026-06-24.md"
 audit_script: "tests/source_geometry_contract_audit.py"
 depends_on:
-  - "explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/primary-gu-interface-contract-2026-06-24.md"
   - "explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md"
   - "README.md"
@@ -603,7 +603,7 @@ source_geometry_primary -> interface-only or control-only for the affected claim
 
 ## Sources Read
 
-- `explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
+- `explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md`
 - `explorations/primary-gu-interface-contract-2026-06-24.md`
 - `explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md`
 - `README.md`

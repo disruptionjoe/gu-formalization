@@ -3,13 +3,10 @@ title: "Hourly 20260626 0502 Cycle 3 Branch IG Source Lock Transition Closeout"
 date: "2026-06-26"
 status: exploration
 doc_type: frontier_run_lane_artifact
-run_id: "hourly-20260626-0502"
 cycle: 3
-lane: "BranchIGSourceLockTransitionCloseout"
 artifact_id: "BranchFixedIGVariationSourceLockTransitionCloseout_V0"
 verdict: "BLOCKED_UNDERDEFINED_NO_BRANCH_SOURCE_LOCK"
 owned_path: "explorations/hourly-20260626-0502-cycle3-branch-ig-source-lock-transition-closeout.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0502 Cycle 3 Branch IG Source Lock Transition Closeout
@@ -39,7 +36,6 @@ exact_gr_restart_allowed:      false
 theta_restart_allowed:         false
 residual_restart_allowed:      false
 target_import_used:            false
-claim_status_change:           false
 ```
 
 This is not a rejection of Branch 2A or Branch 3 as possible GU reconstructions. It

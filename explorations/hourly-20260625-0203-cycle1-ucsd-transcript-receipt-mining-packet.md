@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 1 UCSD Transcript Receipt Mining Packet"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "1"
-lane: "2"
 doc_type: primary_source_receipt_mining_packet
 artifact_id: "UCSDTranscriptReceiptMiningPacket_V1"
 verdict: "BLOCKED_UCSD_TRANSCRIPT_HAS_HINTS_NO_ACCEPTED_FAMILY_RECEIPT"

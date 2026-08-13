@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 1 Keating Pull That Up Jamie Asset Reacquisition"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 1
-lane: 2
 doc_type: keating_pullthatupjamie_asset_reacquisition
 artifact_id: "KeatingPullThatUpJamieShiabProjectionFormulaAssetPacketExecution_V1"
 verdict: "BLOCKED_CAPTION_AND_MANUSCRIPT_FORMULA_ONLY_NO_EXECUTED_ASSET_RECEIPT"
@@ -106,7 +104,7 @@ Live source access actually fetched:
 | `https://i.ytimg.com/vi/TzSEvmqxu48/hqdefault.jpg` | thumbnail image | Reachable thumbnail inspected temporarily; it shows the ship/connection visual and no legible formula/projection rule. |
 | `https://theportal.group/into-the-impossible-eric-weinstein-geometric-unity-revealed/` | official transcript page | Confirms the `01:41:43`-`01:42:50` window names the missing Shiab/projection calculations and says the paper sheet has not been found. |
 
-`yt-dlp` was checked and is not installed in this environment, so this run did
+`yt-dlp` was checked and is not installed in this environment, so this investigation did
 not acquire timestamped YouTube frames or subtitles from the video stream.
 
 ## 4. Strongest Positive Construction Attempt
@@ -145,7 +143,7 @@ More specifically:
 
 ```text
 KeatingRevealed_ShiabProjectionSheet_V1 remains missing, and the Pull That Up
-Jamie `TzSEvmqxu48` source access available in this run supplied only caption,
+Jamie `TzSEvmqxu48` source access available in this investigation supplied only caption,
 metadata, and a non-formula thumbnail. The manuscript supplies a generic Shiab
 formula but also preserves the missing-note obstruction for the representation-
 theory/highest-weight/Bianchi-selected operator.

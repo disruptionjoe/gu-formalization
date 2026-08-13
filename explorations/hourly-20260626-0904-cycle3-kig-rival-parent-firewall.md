@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 3 KIG Rival Parent Firewall"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 3
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGRivalParentClassFirewallForFutureSourceRows_0904_C3_L3_V1"
 verdict: "closed_firewall_trace_retry_still_blocked"
 owned_path: "explorations/hourly-20260626-0904-cycle3-kig-rival-parent-firewall.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 3 KIG Rival Parent Firewall

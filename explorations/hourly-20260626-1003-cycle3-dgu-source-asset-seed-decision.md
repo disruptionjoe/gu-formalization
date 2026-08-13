@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 3 DGU Source Asset Seed Decision"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "BranchPureUCSDDGU01SourceAssetSeedDecision_1003_C3_L1_V1"
 verdict: "closed_scoped_negative_no_branch_pure_seed_present"
 owned_path: "explorations/hourly-20260626-1003-cycle3-dgu-source-asset-seed-decision.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 3 DGU Source Asset Seed Decision
@@ -41,7 +38,6 @@ external_source_acquisition_required: true
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 Therefore the cycle-2 producer should not be rerun positively on current
@@ -282,9 +278,7 @@ Negative seed receipt emitted by this decision:
 ```text
 receipt_id: NegativeBranchPureUCSDDGU01SourceAssetSeedReceipt_V1
 predicate_id: BranchPureUCSDDGU01SourceAssetSeed_V1
-run_id: hourly-20260626-1003
 cycle: 3
-lane: 1
 scope: repo-local assigned sources plus narrow exact-object/source-identity inventory
 seed_attempted: true
 branch_pure_seed_present: false
@@ -297,7 +291,6 @@ external_source_acquisition_required: true
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 10. JSON Summary

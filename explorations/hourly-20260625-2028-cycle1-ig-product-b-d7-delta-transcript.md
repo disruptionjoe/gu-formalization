@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 1 IG Product B D7 Delta Transcript"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 1
-lane: 2
 doc_type: frontier_delta_receipt
 artifact_id: "IGProductBD7DeltaTranscript_2028_C1_L2_V1"
 verdict: "blocked"

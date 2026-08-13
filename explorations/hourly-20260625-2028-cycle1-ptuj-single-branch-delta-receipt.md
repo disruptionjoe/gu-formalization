@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 1 PTUJ Single Branch Delta Receipt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 1
-lane: 1
 doc_type: frontier_delta_receipt
 artifact_id: "PTUJSingleBranchDeltaReceipt_2028_C1_L1_V1"
 verdict: "blocked"
@@ -25,7 +23,7 @@ branch, custody row, byte manifest, toolchain output, or formula-bearing asset.
 
 | source | use |
 |---|---|
-| `RESEARCH-POSTURE.md` | Kept the run constructive but blocked target import and compatibility-as-derivation. |
+| `RESEARCH-POSTURE.md` | Kept the investigation constructive but blocked target import and compatibility-as-derivation. |
 | `process/runbooks/five-lane-frontier-run.md` | Applied the decision-grade lane contract and verdict vocabulary. |
 | `explorations/hourly-20260625-1802-cycle1-ptuj-branch-field-completion-receipt.md` | Inherited the two admitted branch shapes and the zero-accepted-branch result. |
 | `explorations/hourly-20260625-1802-cycle2-ptuj-single-branch-nonconflation-gate.md` | Inherited the nonconflation rule: one branch must be complete by itself. |

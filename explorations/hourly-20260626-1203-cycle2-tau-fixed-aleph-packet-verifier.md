@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 2 Tau Fixed-Aleph Packet Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 2
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauFixedAlephGraphPacketVerifier_1203_C2_L2_V1"
 verdict: "verifier_defined_applied_packet_rejected"
 owned_path: "explorations/hourly-20260626-1203-cycle2-tau-fixed-aleph-packet-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 2 Tau Fixed-Aleph Packet Verifier
@@ -47,7 +44,6 @@ source_promotion_gate_satisfied: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Verifier Predicate

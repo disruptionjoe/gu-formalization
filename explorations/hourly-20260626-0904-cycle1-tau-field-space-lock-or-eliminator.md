@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 1 Tau Field Space Lock Or Eliminator"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 1
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauAlephGraphFieldSpaceLockOrEliminator_0904_C1_L2_V1"
 verdict: "still_blocked_no_action_field_space_lock_or_eliminator"
 owned_path: "explorations/hourly-20260626-0904-cycle1-tau-field-space-lock-or-eliminator.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 1 Tau Field Space Lock Or Eliminator

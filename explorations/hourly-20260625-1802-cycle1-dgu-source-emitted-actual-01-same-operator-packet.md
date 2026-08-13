@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 1 DGU Source-Emitted Actual 01 Same-Operator Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 1
-lane: 3
 doc_type: dgu_source_emitted_actual_01_same_operator_packet
 artifact_id: "SourceEmittedActualDGU01SameOperatorPacket_V1"
 verdict: "BLOCKED_MISSING_SOURCE_EMITTED_SECTOR_RULE_AND_SAME_OPERATOR_WITNESS"

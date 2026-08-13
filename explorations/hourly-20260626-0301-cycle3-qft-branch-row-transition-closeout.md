@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 3 QFT Branch Row Transition Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0301"
 cycle: 3
-lane: "QFT"
 doc_type: "frontier_closeout"
 artifact_id: "QFTBranchRowTransitionCloseout_0301_C3_QFT_V1"
 verdict: "underdefined_no_restart_sequential_before_carrier_work"

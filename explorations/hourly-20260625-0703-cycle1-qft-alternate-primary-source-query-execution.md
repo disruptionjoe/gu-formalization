@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 1 QFT Alternate Primary Source Query Execution"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 1
-lane: 3
 doc_type: qft_alternate_primary_source_query_execution
 artifact_id: "QFTAlternatePrimarySourceQueryBundle_V1"
 verdict: "CONDITIONAL_LOCATORS_ONLY_NO_ACCEPTED_QFT_PFINB_RECEIPT"

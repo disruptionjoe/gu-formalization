@@ -4,7 +4,7 @@ date: 2026-06-24
 status: exploration/gate
 verdict: OPEN_MISSING_GU_MEASUREMENT_POSTULATE
 depends_on:
-  - explorations/persona-review-cross-panel-synthesis-2026-06-24.md
+  - explorations/perspective-review-cross-panel-synthesis-2026-06-24.md
   - explorations/observer-finality-physical-forcing-gate-2026-06-24.md
   - explorations/observer-finality-pati-salam-chsh-fixture-2026-06-24.md
   - explorations/observer-finality-gu-derived-chsh-state-attempt-2026-06-24.md
@@ -43,7 +43,7 @@ fixture settings, and gives no CHSH violation.
 
 Required surfaces:
 
-- `explorations/persona-review-cross-panel-synthesis-2026-06-24.md`
+- `explorations/perspective-review-cross-panel-synthesis-2026-06-24.md`
 - `explorations/observer-finality-physical-forcing-gate-2026-06-24.md`
 - `explorations/observer-finality-pati-salam-chsh-fixture-2026-06-24.md`
 - `explorations/observer-finality-gu-derived-chsh-state-attempt-2026-06-24.md`

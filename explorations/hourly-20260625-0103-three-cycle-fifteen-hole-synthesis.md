@@ -16,7 +16,7 @@ promotion.
 
 The main result is that the next frontier is no longer "try the downstream
 physics proof again." The next frontier is primary-source receipt work. Across
-IG, RS, QFT, and DGU/VZ, the run found no accepted repo-local primary receipt
+IG, RS, QFT, and DGU/VZ, the investigation found no accepted repo-local primary receipt
 for the source objects needed before target-facing proof workers can restart.
 
 Cycle 1 built and tested the immediate source gates. Cycle 2 searched the repo
@@ -155,7 +155,7 @@ Parallel-safe:
 ## 7. Wrapper Assessment
 
 The three-cycle wrapper improved quality. Cycle 1 made the gates exact. Cycle 2
-prevented the run from pretending those gates were already satisfied. Cycle 3
+prevented the investigation from pretending those gates were already satisfied. Cycle 3
 converted absence into executable source-mining contracts.
 
 The wrapper also stopped a likely failure mode: cycling through IG, RS, QFT, and

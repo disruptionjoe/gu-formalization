@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 2 RS GU Physical Symbol Packet Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 2
-lane: "RSGUPhysSymbolPacketGate"
 doc_type: "frontier_gate"
 artifact_id: "RSGUPhysSymbolPacketGate_0402_C2_V1"
 verdict: "blocked_packet_not_instantiable_as_physical"

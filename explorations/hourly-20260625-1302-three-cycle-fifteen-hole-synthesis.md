@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Three Cycle Fifteen Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 3
-lane: "synthesis"
 doc_type: three_cycle_fifteen_hole_synthesis
 artifact_id: "Hourly20260625_1302_ThreeCycleFifteenHoleSynthesis_V1"
 verdict: "FIFTEEN_QUALITY_HOLES_ZERO_ACCEPTED_RECEIPTS_NO_PROOF_RESTART"
@@ -177,7 +175,7 @@ acceptance rule.
 
 ## 9. What Materially Changed
 
-The run did not change receipt counts, but it sharpened the next five goals:
+The investigation did not change receipt counts, but it sharpened the next five goals:
 
 - PTUJ is now a manifest-and-source-byte problem, not a metadata problem.
 - IG is now a transcript-bearing D7 computation problem, not a broad source

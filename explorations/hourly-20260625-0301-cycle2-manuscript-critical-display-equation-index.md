@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 2 Manuscript Critical Display Equation Index"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 2
-lane: 5
 doc_type: manuscript_critical_display_equation_index
 artifact_id: "ManuscriptCriticalDisplayEquationIndex_V1"
 verdict: "CONDITIONAL_NAVIGATION_INDEX_BLOCKED_FOR_IDENTITY_GRADE_TEXT_EXTRACTION"

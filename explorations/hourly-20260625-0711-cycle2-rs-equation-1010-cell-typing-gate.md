@@ -2,9 +2,7 @@
 title: "Hourly 20260625 0711 Cycle 2 RS Equation 10.10 Cell Typing Gate"
 status: draft
 doc_type: high_resolution_equation_1010_cell_map
-run_id: hourly-20260625-0711
 cycle: 2
-lane: 4
 owned_path: "explorations/hourly-20260625-0711-cycle2-rs-equation-1010-cell-typing-gate.md"
 companion_audit: "tests/hourly_20260625_0711_cycle2_rs_equation_1010_cell_typing_gate_audit.py"
 ---

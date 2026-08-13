@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 2 Manuscript IG Selector Identity Packet"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 2
-lane: 1
 doc_type: author_manuscript_ig_selector_identity_packet
 artifact_id: "AuthorManuscriptIGSelectorIdentityPacket_V1"
 verdict: "BLOCKED_QUARANTINED_CANDIDATE_SCOPED_MISSING_SELECTOR_ZERO_ACCEPTED_RECEIPTS"

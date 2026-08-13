@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 3 Tau Action Field Space Declaration Spec"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 3
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauFixedAlephActionFieldSpaceDeclaration_1302_C3_L2_V1"
 verdict: "declaration_spec_defined_uninhabited"
 owned_path: "explorations/hourly-20260626-1302-cycle3-tau-action-field-space-declaration-spec.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 3 Tau Action Field Space Declaration Spec
@@ -41,7 +38,6 @@ tangent_certificate_allowed: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Required Declaration Fields

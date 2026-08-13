@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 1 QFT Iota R Raw Delta Receipt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 1
-lane: 5
 doc_type: frontier_delta_receipt
 artifact_id: "QFTIotaRRawDeltaReceipt_2028_C1_L5_V1"
 verdict: "underdefined"

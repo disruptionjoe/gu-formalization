@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 3 DGU UCSD Frame Acquisition Preconditions"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "DGUCompleteUCSDFrameAcquisitionPreconditionMatrix_0904_C3_L1_V1"
 verdict: "closed_precondition_matrix_no_acquisition_branch_ready"
 owned_path: "explorations/hourly-20260626-0904-cycle3-dgu-ucsd-frame-acquisition-preconditions.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 3 DGU UCSD Frame Acquisition Preconditions

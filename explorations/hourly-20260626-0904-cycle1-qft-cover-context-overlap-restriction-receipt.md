@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 1 QFT Cover Context Overlap Restriction Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 1
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceCoverContextAndOverlapRestrictionReceipt_0904_C1_L5_V1"
 verdict: "scoped_negative_no_source_cover_context_or_restriction_receipt"
 owned_path: "explorations/hourly-20260626-0904-cycle1-qft-cover-context-overlap-restriction-receipt.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 1 QFT Cover Context Overlap Restriction Receipt

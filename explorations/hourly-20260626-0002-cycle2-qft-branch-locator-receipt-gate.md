@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 2 QFT Branch Locator Receipt Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 2
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchLocatorReceiptGate_0002_C2_QFT_V1"
 verdict: "underdefined_no_source_rows_for_receipt"

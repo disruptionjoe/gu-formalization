@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 2 QFT Branch Row Provenance Source Audit"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 2
-lane: "QFTBranchRowProvenanceSourceAudit"
 doc_type: "frontier_audit"
 artifact_id: "QFTBranchRowProvenanceSourceAudit_0402_C2_QFT_V1"
 verdict: "underdefined_packet_not_admitted_no_source_branch_rows"

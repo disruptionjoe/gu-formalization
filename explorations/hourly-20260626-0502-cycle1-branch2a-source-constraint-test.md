@@ -3,13 +3,10 @@ title: "Hourly 20260626 0502 Cycle 1 Branch 2A Source Constraint Test"
 date: "2026-06-26"
 status: exploration
 doc_type: frontier_run_lane_artifact
-run_id: "hourly-20260626-0502"
 cycle: 1
-lane: "TauPlusBranch2AConstraintSourceTest"
 artifact_id: "TauPlusBranch2AConstraintSourceTest_V0"
 verdict: "BLOCKED_UNDERDEFINED_NO_SOURCE_DERIVED_A_INDEPENDENT_PHI"
 owned_path: "explorations/hourly-20260626-0502-cycle1-branch2a-source-constraint-test.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0502 Cycle 1 Branch 2A Source Constraint Test

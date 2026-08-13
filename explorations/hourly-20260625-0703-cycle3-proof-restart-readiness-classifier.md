@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 3 Proof Restart Readiness Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 3
-lane: 2
 doc_type: proof_restart_readiness_classifier
 artifact_id: "ProofRestartReadinessClassifierAfterHourly20260625_0703_V1"
 verdict: "NO_FAMILY_PROOF_RESTART_READY_AFTER_NEW_ACQUISITION_AND_IDENTITY_RESULTS"
@@ -210,7 +208,7 @@ The next computation is not proof restart. It is targeted source/identity work:
 | Oxford_visual | `VisualFormulaReceiptCandidatePacket_V1` ledger plus family-specific identity tests, beginning with the DGU two-anchor identity packet |
 | Keating_visual | `DecodableTzSEvmqxu48ArchiveOrSourceAssetWithFormulaFrameAudit_V1` |
 
-The next frontier object for the run as a whole is:
+The next frontier object for the investigation as a whole is:
 
 ```text
 FamilyReceiptIdentityGateLedgerAfterHourly20260625_0703_V1

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 3 Receipt State Machine Restart Policy"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 3
-lane: 2
 doc_type: receipt_state_machine_restart_policy
 artifact_id: "ReceiptStateMachineRestartPolicy_V1"
 verdict: "BLOCKED_NO_CURRENT_CANDIDATE_CAN_REACH_PROOF_RESTART"
@@ -67,7 +66,7 @@ source intake acceptance
 
 It also records that no family had an accepted receipt plus identity check.
 
-Cycle-2 manuscript gates for this run supply the current candidates:
+Cycle-2 manuscript gates for this investigation supply the current candidates:
 
 | family | cycle-2 artifact | direct state fact used here |
 |---|---|---|
@@ -158,7 +157,7 @@ four families.
 Claim impact:
 
 ```text
-The run now has a receipt-state transition policy that prevents source
+The investigation now has a receipt-state transition policy that prevents source
 acquisition, locator discovery, target-cleanliness, or manuscript formula
 adjacency from being treated as proof-restart authorization.
 ```

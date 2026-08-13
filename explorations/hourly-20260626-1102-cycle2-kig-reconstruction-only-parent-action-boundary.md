@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 2 KIG Reconstruction-Only Parent Action Boundary"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 2
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGReconstructionOnlyParentActionBoundary_1102_C2_L3_V1"
 verdict: "boundary_defined_reconstruction_only_template_allowed_firewall_barred"
 owned_path: "explorations/hourly-20260626-1102-cycle2-kig-reconstruction-only-parent-action-boundary.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 2 KIG Reconstruction-Only Parent Action Boundary

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 1 Tau Omega Variation Source Span Audit"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 1
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauActionOmegaVariationDeclarationSourceSpanAudit_1102_C1_L2_V1"
 verdict: "NEGATIVE_NO_DECLARATION_SPAN"
 owned_path: "explorations/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 1 Tau Omega Variation Source Span Audit

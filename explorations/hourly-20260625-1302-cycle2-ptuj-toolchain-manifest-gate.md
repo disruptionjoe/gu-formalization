@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 2 PTUJ Toolchain Manifest Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 2
-lane: 1
 doc_type: ptuj_toolchain_manifest_gate
 artifact_id: "LawfulLocalTzSEvmqxu48ToolchainManifestGate_V1"
 verdict: "BLOCKED_NO_ADMISSIBLE_TOOLCHAIN_SOURCE_BYTE_MANIFEST"

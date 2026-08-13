@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 2 KIG Parent Slot Source Row"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 2
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "Branch3ParentVariationSlotSourceRowOrNegativeReceipt_0904_C2_L3_V1"
 verdict: "negative_no_branch3_parent_slot_source_row"
 owned_path: "explorations/hourly-20260626-0904-cycle2-kig-parent-slot-source-row.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 2 KIG Parent Slot Source Row

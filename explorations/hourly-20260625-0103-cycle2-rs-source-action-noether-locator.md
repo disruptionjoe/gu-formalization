@@ -3,7 +3,6 @@ title: "Hourly 20260625 0103 Cycle 2 RS Source Action/Noether Locator"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "2"
-lane: "2"
 status: exploration
 doc_type: frontier_run_artifact
 artifact_id: "RSSourceActionNoetherLocator_V1"

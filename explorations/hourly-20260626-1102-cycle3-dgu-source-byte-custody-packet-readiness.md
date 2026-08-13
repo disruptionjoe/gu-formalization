@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 3 DGU Source Byte Custody Packet Readiness"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "LawfulLocalUCSDDGU01SourceByteCustodyPacketReadiness_1102_C3_L1_V1"
 verdict: "closed_scoped_negative_packet_readiness_defined_and_applied_packet_absent"
 owned_path: "explorations/hourly-20260626-1102-cycle3-dgu-source-byte-custody-packet-readiness.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 3 DGU Source Byte Custody Packet Readiness
@@ -47,7 +44,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 The packet schema is ready. The packet itself is not present. The current repo
@@ -355,9 +351,7 @@ Negative readiness receipt emitted here:
 ```text
 receipt_id: NegativeLawfulLocalUCSDDGU01SourceByteCustodyPacketReadinessReceipt_V1
 predicate_id: LawfulLocalUCSDDGU01SourceByteCustodyPacketReadiness_V1
-run_id: hourly-20260626-1102
 cycle: 3
-lane: 1
 source_id: GU-MEDIA-KEATING-QG-FBOZSSLXFVI
 source_url_or_locator_present: true
 transcript_window_tie_present: true
@@ -373,7 +367,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 10. JSON Summary

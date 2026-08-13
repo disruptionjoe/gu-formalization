@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 2 DGU Actual 01 Source Window Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 2
-lane: 3
 doc_type: dgu_actual_01_source_window_packet
 artifact_id: "DGUActual01SectorIdentityPacket_V1"
 verdict: "SCOPED_SOURCE_WINDOW_NEGATIVE_ACTUAL_DGU_01_PACKET_ABSENT"

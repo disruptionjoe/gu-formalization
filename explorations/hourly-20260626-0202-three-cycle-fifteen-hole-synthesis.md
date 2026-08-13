@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260626 0202 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0202_V1"
 verdict: "fifteen_holes_no_new_receipts_no_proof_restart"
@@ -12,12 +11,12 @@ owned_path: "explorations/hourly-20260626-0202-three-cycle-fifteen-hole-synthesi
 
 ## Plain-English Closeout
 
-This run completed fifteen quality holes across three cycles. It admitted no
+This investigation completed fifteen quality holes across three cycles. It admitted no
 new source, proof, or route-local receipts. No proof restart was allowed, no
 claim was promoted, demoted, or rescoped, and the claim-status consistency
 workflow was not triggered.
 
-The run did materially sharpen the next frontier:
+The investigation did materially sharpen the next frontier:
 
 - IG now needs a source-natural Product A/B rival-projector identity, not just
   another finite host table.

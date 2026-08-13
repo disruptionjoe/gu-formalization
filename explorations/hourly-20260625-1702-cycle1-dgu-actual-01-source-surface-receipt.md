@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 1 DGU Actual 01 Source Surface Receipt"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 1
-lane: 3
 doc_type: dgu_actual_01_source_surface_receipt
 artifact_id: "OxfordManuscriptUCSDSourceSurfaceReceiptForSourceEmittedActualDGU01IdentityPacket_V1"
 verdict: "BLOCKED_SOURCE_SURFACE_RECEIPT_NO_SOURCE_EMITTED_ACTUAL_DGU_01_PACKET"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 1 IG Rival Projector Terrain Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 1
-lane: "IGRivalProjectorTerrainGate"
 doc_type: "terrain_gate"
 artifact_id: "IGRivalProjectorTerrainGate_0402_C1_IG_V1"
 verdict: "blocked_identity_not_evaluable_locator_first"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 3 QFT Carrier Groupoid Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 3
-lane: "QFT"
 doc_type: "frontier_closeout"
 artifact_id: "QFTCarrierGroupoidTransitionCloseout_0103_C3_QFT_V1"
 verdict: "underdefined_before_carrier_and_groupoid"

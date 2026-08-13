@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 1 UCSD Transcript Exact Receipt Candidates"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 1
-lane: 5
 doc_type: transcript_exact_receipt_candidate_rows
 artifact_id: "UCSDTranscriptExactReceiptCandidates_V1"
 verdict: "CONDITIONAL_TRANSCRIPT_EXACT_CANDIDATES_ZERO_ACCEPTED_VISUAL_CAPTURE_REQUIRED"

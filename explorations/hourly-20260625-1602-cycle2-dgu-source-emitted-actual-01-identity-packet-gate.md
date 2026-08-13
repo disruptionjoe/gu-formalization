@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 2 DGU Source-Emitted Actual 01 Identity Packet Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 2
-lane: 3
 doc_type: dgu_source_emitted_actual_01_identity_packet_gate
 artifact_id: "SourceEmittedActualDGU01IdentityPacket_V1"
 verdict: "STRICT_GATE_BLOCKED_NO_SOURCE_EMITTED_ACTUAL_DGU_01_IDENTITY_PACKET"

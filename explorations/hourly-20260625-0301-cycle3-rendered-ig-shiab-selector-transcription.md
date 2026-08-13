@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 3 Rendered IG Shiab Selector Transcription"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 3
-lane: 1
 doc_type: rendered_manual_ig_shiab_selector_transcription_packet
 artifact_id: "RenderedCriticalDisplayTranscriptionPacket_IG_V1"
 verdict: "BLOCKED_RENDERED_TRANSCRIPTION_CONFIRMS_CANDIDATE_BUT_SELECTOR_REMAINS_SCOPED_MISSING"

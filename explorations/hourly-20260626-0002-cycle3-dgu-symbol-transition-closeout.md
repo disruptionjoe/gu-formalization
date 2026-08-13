@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 3 DGU Symbol Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 3
-lane: "DGU"
 doc_type: "closeout_gate"
 artifact_id: "DGUSymbolTransitionCloseout_0002_C3_DGU_V1"
 verdict: "blocked_primary_source_row_absent"

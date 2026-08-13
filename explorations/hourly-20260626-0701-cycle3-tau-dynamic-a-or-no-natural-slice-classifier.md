@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 3 Tau Dynamic-A Or No-Natural-Slice Classifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 3
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauDynamicAOrNoNaturalSliceClassifier_2B_3_0701_C3_V1"
 verdict: "classifier_defined_both_possible_not_admitted"
 owned_path: "explorations/hourly-20260626-0701-cycle3-tau-dynamic-a-or-no-natural-slice-classifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 3 Tau Dynamic-A Or No-Natural-Slice Classifier

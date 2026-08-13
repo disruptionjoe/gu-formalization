@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0711 Cycle 2 IG Visual Manuscript Selector Bridge"
 date: "2026-06-25"
-run_id: "hourly-20260625-0711"
 cycle: 2
-lane: 3
 doc_type: ig_visual_manuscript_selector_bridge
 artifact_id: "IGVisualManuscriptSelectorBridge_V1"
 verdict: "BLOCKED_TRIANGULATED_CANDIDATE_NO_SOURCE_FORCED_SELECTOR"

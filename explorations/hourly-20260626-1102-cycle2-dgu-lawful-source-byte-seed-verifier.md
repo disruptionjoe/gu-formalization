@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 2 DGU Lawful Source Byte Seed Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 2
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "LawfulLocalUCSDDGU01SourceByteSeedVerifier_1102_C2_L1_V1"
 verdict: "closed_scoped_negative_verifier_defined_no_lawful_local_source_byte_seed_present"
 owned_path: "explorations/hourly-20260626-1102-cycle2-dgu-lawful-source-byte-seed-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 2 DGU Lawful Source Byte Seed Verifier
@@ -47,7 +44,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a DGU mathematical failure. It is a source-byte provenance gate.
@@ -398,9 +394,7 @@ Negative witness emitted here:
 ```text
 receipt_id: NegativeLawfulLocalUCSDDGU01SourceByteSeedVerifierReceipt_V1
 predicate_id: LawfulLocalUCSDDGU01SourceByteSeedVerifier_V1
-run_id: hourly-20260626-1102
 cycle: 2
-lane: 1
 scope: repo-local assigned sources plus narrow lawful-local source-byte inventory
 source_locator_present: true
 transcript_window_tie_present: true
@@ -416,7 +410,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 10. JSON Summary

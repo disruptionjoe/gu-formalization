@@ -1,8 +1,6 @@
 ---
 artifact: ActualDGU01OperatorCertificateFieldBlockerAfter0711_V1
-run_id: hourly-20260625-0711
 cycle: 3
-lane: 4
 owned_path: "explorations/hourly-20260625-0711-cycle3-dgu-actual-operator-certificate-field-blocker.md"
 companion_audit: "tests/hourly_20260625_0711_cycle3_dgu_actual_operator_certificate_field_blocker_audit.py"
 ---

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 2 DGU Identity Field Protocol Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 2
-lane: 3
 doc_type: dgu_identity_field_protocol_gate
 artifact_id: "DGUIdentityFieldProtocolGate_V1"
 verdict: "BLOCKED_PROTOCOL_SCOPED_NEGATIVE_NOT_JUSTIFIED_INCOMPLETE_SOURCE_COVERAGE"

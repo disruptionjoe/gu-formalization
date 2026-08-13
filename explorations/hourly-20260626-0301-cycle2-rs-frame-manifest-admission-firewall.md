@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 2 RS Frame Manifest Admission Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0301"
 cycle: 2
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSFrameManifestAdmissionFirewall_0301_C2_RS_V1"
 verdict: "blocked_manifest_not_admitted_before_lawful_frame"

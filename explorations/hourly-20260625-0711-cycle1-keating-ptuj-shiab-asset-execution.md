@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0711 Cycle 1 Keating PTUJ Shiab Asset Execution"
 date: "2026-06-25"
-run_id: "hourly-20260625-0711"
 cycle: 1
-lane: 2
 doc_type: keating_ptuj_shiab_asset_execution
 artifact_id: "KeatingPullThatUpJamieShiabProjectionFormulaAssetPacketExecution_0711_V1"
 verdict: "BLOCKED_SOURCE_SURFACES_RECHECKED_NO_FORMULA_ASSET_CAPTURED"
@@ -128,7 +126,7 @@ Receipt rows after execution:
 The first exact obstruction in this execution is:
 
 ```text
-No lawful/local retrieval path in this run produced a formula-bearing frame,
+No lawful/local retrieval path in this investigation produced a formula-bearing frame,
 sheet scan/photo, source asset package, or manuscript-equivalence proof for
 KeatingPullThatUpJamieShiabProjectionFormulaAssetPacket_V1.
 ```
@@ -137,7 +135,7 @@ The first operational obstruction was:
 
 ```text
 YOUTUBE_WATCH_ATTEMPT_0711 timed out after 60 seconds, and yt_dlp is not
-available locally, so the run could not extract or inspect frame sequences from
+available locally, so the investigation could not extract or inspect frame sequences from
 TzSEvmqxu48.
 ```
 
@@ -149,7 +147,7 @@ object identifies the caption/metadata/manuscript candidate with
 SourceForcedCodomainSelectorForK_IG.
 ```
 
-The obstruction is not target-import contamination. This run did not use DESI,
+The obstruction is not target-import contamination. This investigation did not use DESI,
 dark-energy, FLRW, QFT, generation-count, or other target-facing outcomes to
 select the source object. The obstruction is missing source capture plus missing
 family identity.
@@ -345,7 +343,7 @@ Until then, `proof_restart_allowed` remains `false`.
   },
   "first_exact_obstruction": {
     "id": "NoFormulaBearingFrameSheetAssetOrEquivalenceProof_0711",
-    "operational_obstruction": "YOUTUBE_WATCH_ATTEMPT_0711 timed out after 60 seconds and yt_dlp is not available locally, so this run could not extract or inspect frame sequences from TzSEvmqxu48.",
+    "operational_obstruction": "YOUTUBE_WATCH_ATTEMPT_0711 timed out after 60 seconds and yt_dlp is not available locally, so this investigation could not extract or inspect frame sequences from TzSEvmqxu48.",
     "source_obstruction": "KeatingRevealed_ShiabProjectionSheet_V1 remains missing, and no inspected source object identifies the caption/metadata/manuscript candidate with SourceForcedCodomainSelectorForK_IG.",
     "missing_objects": [
       "KeatingRevealed_ShiabProjectionSheet_V1",

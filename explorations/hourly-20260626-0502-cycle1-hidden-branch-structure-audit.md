@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 1 Hidden Branch Structure Audit"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 1
-lane: "HiddenBranchStructureAudit"
 doc_type: "frontier_audit"
 artifact_id: "HiddenBranchStructureAudit_0502_C1_QFT_V0"
 verdict: "underdefined_no_source_hidden_branch_rows"

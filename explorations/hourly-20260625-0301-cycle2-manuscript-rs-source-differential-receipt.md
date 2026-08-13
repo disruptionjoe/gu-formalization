@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 2 Manuscript RS Source Differential Receipt"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 2
-lane: 2
 doc_type: manuscript_rs_source_differential_receipt
 artifact_id: "ManuscriptRSSourceDifferentialReceipt_V1"
 verdict: "BLOCKED_SCOPED_NEGATIVE_ZERO_ACCEPTED_RS_SOURCE_DIFFERENTIAL"

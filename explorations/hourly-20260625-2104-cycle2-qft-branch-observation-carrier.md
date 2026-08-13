@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 2 QFT Branch Observation Carrier"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 2
-lane: 5
 doc_type: qft_branch_observation_carrier_attempt
 artifact_id: "QFTBranchObservationAndYNativeFieldCarrier_2104_C2_L5_V1"
 verdict: "UNDERDEFINED_CONDITIONAL_CARRIER_SCHEMA_ISOLATED_NOT_ADMITTED"

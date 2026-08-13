@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 3 Cross-Route Frontier Matrix"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 3
-lane: "CrossRouteFrontierMatrix"
 doc_type: "frontier_transition_matrix"
 artifact_id: "CrossRouteFrontierMatrix_0502_C3_V1"
 verdict: "locked_cross_route_frontier_no_claim_status_changes"
@@ -16,7 +14,7 @@ owned_path: "explorations/hourly-20260626-0502-cycle3-cross-route-frontier-matri
 
 Verdict: **locked / cross-route frontier matrix / no claim-status changes**.
 
-The first ten holes in this run did not admit any source row, proof object,
+The first ten holes in this investigation did not admit any source row, proof object,
 branch packet, operator member, or QFT branch provenance row that would allow a
 proof restart. The useful cycle-3 decision is therefore a sequencing decision:
 the next five lanes should remain source-first and should close, reject, or

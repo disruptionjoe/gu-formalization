@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 2 Keating TzSEvmqxu48 Frame Capture Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 2
-lane: 2
 doc_type: keating_tzsevmqxu48_frame_capture_gate
 artifact_id: "FrameLevelPullThatUpJamieTzSEvmqxu48FormulaCaptureAndManuscriptIdentityCheck_V1"
 verdict: "BLOCKED_FRAME_STREAM_DECODE_STORYBOARD_NEGATIVE_ZERO_ACCEPTED_RECEIPTS"
@@ -17,14 +15,14 @@ companion_audit: "tests/hourly_20260625_0703_cycle2_keating_tzsevmqxu48_frame_ca
 
 Verdict: **blocked / frame-level negative at available resolution**.
 
-This run advanced the prior caption-only check to an actual YouTube watch-page
+This investigation advanced the prior caption-only check to an actual YouTube watch-page
 and storyboard acquisition attempt for video id `TzSEvmqxu48`. The strongest
 available frame-level object was the YouTube storyboard grid: 69 one-second
 source-derived thumbnails for a 68-second video, plus the public `hqdefault`
 thumbnail. Those frames show a ship/connection/curvature animation and visible
 labels, not a formula sheet or equation-bearing frame.
 
-The run did **not** acquire decoded full-resolution video frames. The watch page
+The investigation did **not** acquire decoded full-resolution video frames. The watch page
 exposed one direct progressive `itag 18` MP4 stream URL, but a local ffmpeg
 attempt and a Python requests download attempt both received HTTP 403 from the
 media host. Native local tooling also lacked `yt-dlp`, `youtube-dl`, `ffmpeg`,

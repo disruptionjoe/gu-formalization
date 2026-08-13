@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 2 IG D7 Proof Object Admission"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 2
-lane: 2
 doc_type: ig_d7_proof_object_admission
 artifact_id: "IG_D7_FORMAL_OR_CAS_PROOF_OBJECT_ADMISSION_1503_C2_L2_V1"
 verdict: "BLOCKED_FORMAL_PROOF_NOT_ADMITTED"

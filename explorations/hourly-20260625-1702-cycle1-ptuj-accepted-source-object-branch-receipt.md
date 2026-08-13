@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 1 PTUJ Accepted Source Object Branch Receipt"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 1
-lane: 1
 doc_type: ptuj_accepted_source_object_branch_receipt
 artifact_id: "PTUJ_ACCEPTED_SOURCE_OBJECT_BRANCH_RECEIPT_1702_C1_L1_V1"
 verdict: "blocked"

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 1 Keating TOE Receipt Mining Packet"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "1"
-lane: "4"
 doc_type: keating_toe_receipt_mining_packet
 artifact_id: "KeatingTOEModernReceiptMiningPacket_V1"
 verdict: "BLOCKED_MODERN_SURFACES_ONLY_LOCATOR_CANDIDATES"

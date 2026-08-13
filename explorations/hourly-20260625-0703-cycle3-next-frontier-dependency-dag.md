@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 3 Next Frontier Dependency DAG"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 3
-lane: 4
 doc_type: next_frontier_dependency_dag
 artifact_id: "NextFrontierDependencyDAGAfterHourly20260625_0703_V1"
 verdict: "BLOCKED_DAG_UPDATED_PROOF_RESTART_FORBIDDEN_NEXT_GOALS_MATERIALLY_CHANGED"

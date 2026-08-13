@@ -6,7 +6,7 @@ doc_type: bridge_loss_ledger
 verdict: "K3_CONTROL_ONLY_NOT_CURRENT_PHYSICAL_GU_GENERATION_EVIDENCE"
 owned_path: "explorations/y14-k3-bridge-loss-ledger-2026-06-24.md"
 depends_on:
-  - "explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/y14-k3-index-bridge-theorem-or-nogo-2026-06-24.md"
   - "explorations/goal-draft-physical-rs-index-problem-2026-06-24.md"
   - "explorations/generation-count-rs-k3-symbol-index-attempt-2026-06-24.md"

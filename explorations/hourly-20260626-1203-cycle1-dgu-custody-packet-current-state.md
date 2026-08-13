@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 1 DGU Custody Packet Current State"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "LawfulLocalUCSDDGU01CustodyPacketCurrentState_1203_C1_L1_V1"
 verdict: "blocked_packet_instance_absent"
 owned_path: "explorations/hourly-20260626-1203-cycle1-dgu-custody-packet-current-state.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 1 DGU Custody Packet Current State
@@ -42,7 +39,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 2 Negative Receipt and Quarantine Policy"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "2"
-lane: "4"
 doc_type: negative_receipt_quarantine_policy
 artifact_id: "NegativeReceiptQuarantinePolicy_V1"
 verdict: "CONDITIONAL_POLICY_READY_NEGATIVE_RECEIPTS_REQUIRE_COMPLETE_SURFACE"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 1 RS Evidence Route Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 1
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSEvidenceRouteClassifier_0103_C1_RS_V1"
 verdict: "blocked_no_acceptable_frame_evidence_branch"

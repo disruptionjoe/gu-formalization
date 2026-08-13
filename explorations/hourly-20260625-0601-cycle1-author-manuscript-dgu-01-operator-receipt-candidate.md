@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 1 Author Manuscript DGU 01 Operator Receipt C
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 1
-lane: 2
 doc_type: author_manuscript_dgu_01_operator_receipt_candidate
 artifact_id: "ActualDGU01OperatorReceiptCandidateFromAuthorManuscript_V1"
 verdict: "QUARANTINED_POSITIVE_BOSONIC_ACTION_LOCATOR_ZERO_ACCEPTED_DGU_01_RECEIPTS"

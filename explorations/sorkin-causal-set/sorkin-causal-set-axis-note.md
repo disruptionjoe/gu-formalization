@@ -60,7 +60,7 @@ Recovery direction: the smooth Lorentzian manifold appears as the **Cauchy-slice
 
 Nothing — no extra structure is imported. The axis-drop is a substrate **simplification** (poset is structurally simpler than smooth manifold + bundle), not a substrate enrichment. This distinguishes the Sorkin path from substrate-enrichment paths like L1 = c (Type II_1 spectral triple, WRK-377) or L1 = f (higher / motivic / tmf / prismatic). The **bet** is that chirality content can survive — and even be enriched — under substrate simplification, because the partial-order data is finer than the Cauchy-slice-linearization preserves.
 
-This is the same bet as the partial-order DAG lens (`process/persona-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md`) but on the spacetime substrate rather than on the protocol substrate. Sorkin causal-sets and the distributed-systems partial-order axis are sibling axis-drops on the **same axis** (L4), populating different classes (L4 = d vs. L4 = b CALM-monotonic).
+This is the same bet as the partial-order DAG lens (`process/perspective-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md`) but on the spacetime substrate rather than on the protocol substrate. Sorkin causal-sets and the distributed-systems partial-order axis are sibling axis-drops on the **same axis** (L4), populating different classes (L4 = d vs. L4 = b CALM-monotonic).
 
 ### 2.3 What survives by hypothesis
 
@@ -322,14 +322,14 @@ Following the issue-template convention of `wrk-380-gu-insight-mining`:
 
 **Finding to propagate.** The combined L4+L5 Sorkin-emergence drop is a third candidate worth filling, distinct from both this note (L4 alone) and #34 (L5 alone with default L4). The emergence-class concern that #34 will treat (chirality as RG-relevant operator at fixed point) and the substrate-shadow concern this note treats (chirality as substrate-native combinatorial invariant) are **complementary**, not competing. A worked sextuple `(L1=k, L2=a, L3=a, L4=d, L5=b, L6=a)` would address both at once. Flag for coordination pass; not built as part of this note.
 
-### 9.5 Sibling — non-pipeline cross-ref: `process/persona-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md`
+### 9.5 Sibling — non-pipeline cross-ref: `process/perspective-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md`
 
-**Relation.** The DAG / partial-order lens in `process/persona-passes/05` introduces L4 = b (CALM-monotonic partial-order) as the distributed-systems sibling of L4 = d (Sorkin causal-set). The two are **different classes on the same axis**, populating L4 differently:
+**Relation.** The DAG / partial-order lens in `process/perspective-passes/05` introduces L4 = b (CALM-monotonic partial-order) as the distributed-systems sibling of L4 = d (Sorkin causal-set). The two are **different classes on the same axis**, populating L4 differently:
 
 - L4 = b: CALM-monotonic partial-order. The substrate has a partial order from coordination-free data-flow constraints (CRDT safety, CALM monotonicity); the substrate object itself (Leg 1) is whatever it would be otherwise (a smooth bundle, Type II_1 algebra, etc.).
 - L4 = d: Sorkin causal-set. The substrate object IS the partial order. L1 and L4 collapse (Section 4).
 
-**Finding to propagate.** The two L4 classes are structurally distinct in a way the `process/persona-passes/05` synthesis already names: "Sorkin's causal-set program already proposes discrete posets as the spacetime substrate, with continuum Lorentzian geometry as coarse-graining." The CALM/CRDT direction is a different axis-drop that may bear on the chirality question via a different mechanism (a CRDT-merge linearization rather than a Cauchy-slice linearization). Both are L4 = partial-order drops; the substrate-object axis (L1) distinguishes them. The coordination pass may want to make this CALM vs Sorkin distinction explicit in the six-axis README.
+**Finding to propagate.** The two L4 classes are structurally distinct in a way the `process/perspective-passes/05` synthesis already names: "Sorkin's causal-set program already proposes discrete posets as the spacetime substrate, with continuum Lorentzian geometry as coarse-graining." The CALM/CRDT direction is a different axis-drop that may bear on the chirality question via a different mechanism (a CRDT-merge linearization rather than a Cauchy-slice linearization). Both are L4 = partial-order drops; the substrate-object axis (L1) distinguishes them. The coordination pass may want to make this CALM vs Sorkin distinction explicit in the six-axis README.
 
 ---
 
@@ -355,11 +355,11 @@ This note scopes the Sorkin causal-set substrate as a single-axis-drop (L4 = d i
 
 - Originating bounded pass: WRK-384.
 - Generated: 2026-05-30 as the single-pass output of WRK-384.
-- Persona dialectic applied per the card's Divergent Persona Dialectic Seed (causal-set theorist, general relativist, QFT-on-causal-sets lens, chirality skeptic, distributed-systems partial-order lens, heterodox synthesizer).
+- Perspective dialectic applied per the card's Divergent Perspective Dialectic Seed (causal-set theorist, general relativist, QFT-on-causal-sets lens, chirality skeptic, distributed-systems partial-order lens, heterodox synthesizer).
 - Source-basis files in this repo:
-  - `process/persona-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md` (the DAG / partial-order lens that introduced the L4 axis-drop framing).
+  - `process/perspective-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md` (the DAG / partial-order lens that introduced the L4 axis-drop framing).
   - `process/syntheses/00d-problem-shape-meta-synthesis.md` and `process/syntheses/00e-problem-shape-distributed-systems-meta-synthesis.md` (the three- and four-leg substrate-observer-pairing specifications this candidate extends).
-  - `roadmap/15-persona-pathway-ranking.md` (per the card's "The Work" section).
+  - `roadmap/15-perspective-pathway-ranking.md` (per the card's "The Work" section).
   - `literature/03-assumption-decomposition-no-go-evasion-literature.md` (Witten 1981 published evasions; explicit confirmation that no published evasion uses causal-set language).
 - Related public artifacts:
   - WRK-375 six-axis specification (`specifications/six-axis/`), especially `examples/example-02-sorkin-causal-set.md` (the L4 = d worked sextuple this note expands on) and `examples/example-03-rg-universality-class.md` (the L5 sibling).

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 3 Global Negative Bundle Precondition Matrix"
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 3
-lane: 3
 doc_type: global_negative_bundle_precondition_matrix
 artifact_id: "GlobalNegativeBundlePreconditionMatrix_V1"
 verdict: "NO_GLOBAL_NO_GO_SCOPED_NEGATIVES_PRESERVED_ZERO_ACCEPTED_RECEIPTS"

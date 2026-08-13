@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 1 DGU Sector Same Operator Receipt Attempt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 1
-lane: "3 DGU/VZ"
 doc_type: dgu_sector_same_operator_receipt_attempt
 artifact_id: "SourceEmittedDGU01SectorRuleAndSameOperatorReceiptAttempt_2104_C1_L3_V1"
 verdict: "BLOCKED_NO_SOURCE_EMITTED_DGU_01_SECTOR_RULE_AND_SAME_OPERATOR_RECEIPT"
@@ -28,7 +26,6 @@ Oxford bosonic anchors
 ```
 
 But this region still does not source-emit both root fields required by this
-lane:
 
 ```text
 source-emitted 0/1 sector rule

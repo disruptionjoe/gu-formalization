@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 2 Tau No Declaration Branch Mode Firewall"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 2
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauNoDeclarationBranchModeFirewall_1102_C2_L2_V1"
 verdict: "closed_firewall_no_source_selected_branch_mode"
 owned_path: "explorations/hourly-20260626-1102-cycle2-tau-no-declaration-branch-mode-firewall.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 2 Tau No Declaration Branch Mode Firewall

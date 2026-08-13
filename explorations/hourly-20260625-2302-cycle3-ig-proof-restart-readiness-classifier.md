@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 3 IG Proof Restart Readiness Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 3
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "IGProofRestartReadinessClassifier_2302_C3_IG_V1"
 verdict: "BLOCKED_NOT_PROOF_RESTART_READY_SOURCE_LOCATOR_ABSENT"

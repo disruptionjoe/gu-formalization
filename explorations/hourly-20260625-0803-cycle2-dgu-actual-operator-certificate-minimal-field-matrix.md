@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 2 DGU Actual Operator Certificate Minimal Field Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 2
-lane: 3
 doc_type: dgu_actual_operator_certificate_minimal_field_matrix
 artifact_id: "ActualDGU01OperatorCertificateInstance_V1"
 verdict: "BLOCKED_ZERO_ACCEPTED_CERTIFICATE_FIELDS_MISSING_ACTUAL_D_GU_EPSILON_0_1_IDENTITY_WITNESS"

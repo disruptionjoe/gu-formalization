@@ -3,13 +3,10 @@ title: "Cycle 3 Branch IG Source Lock Closeout"
 date: "2026-06-26"
 status: exploration
 doc_type: frontier_run_lane_artifact
-run_id: "hourly-20260626-0402"
 cycle: 3
-lane: "BranchIGSourceLockCloseout"
 artifact_id: "BranchIGSourceLockCloseout_V0"
 verdict: "BLOCKED_UNDERDEFINED_NO_BRANCH_SOURCE_LOCK"
 owned_path: "explorations/hourly-20260626-0402-cycle3-branch-ig-source-lock-closeout.md"
-claim_status_change: false
 ---
 
 # Cycle 3 Branch IG Source Lock Closeout

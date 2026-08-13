@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 3 QFT Descent Cover Local Record Inventory"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 3
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceDescentCoverAndLocalRecordInventory_0803_C3_L5_V1"
 verdict: "negative_scoped_no_source_cover_or_local_records_admitted"
 owned_path: "explorations/hourly-20260626-0803-cycle3-qft-descent-cover-local-record-inventory.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 3 QFT Descent Cover Local Record Inventory

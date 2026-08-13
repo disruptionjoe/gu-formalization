@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 3 Receipt Transition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 3
-lane: 2
 doc_type: receipt_transition_matrix
 artifact_id: "RECEIPT_TRANSITION_MATRIX_AFTER_1702_C3_L2_V1"
 verdict: "blocked"
@@ -35,7 +33,7 @@ route until the named next receipt object is produced.
 
 ## 2. Sources read and transition rule
 
-I read the run posture, both runbooks, all five cycle 1 artifacts, and all five
+I read the investigation posture, both runbooks, all five cycle 1 artifacts, and all five
 cycle 2 artifacts for `hourly-20260625-1702`.
 
 The transition rule used here is strict:

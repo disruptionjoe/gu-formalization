@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 2 QFT Source-Defined Branch Packet Minimal Schema"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 2
-lane: 5
 doc_type: qft_source_defined_branch_packet_minimal_schema
 artifact_id: "SourceDefinedRawBranchLocalGaugeGroupoidPacketForRRawBO_V1_MinimalSchema_1602_C2_L5"
 verdict: "UNDERDEFINED_TEMPLATE_COMPATIBILITY_SKETCH_ONLY_SOURCE_DEFINED_PACKET_ABSENT"

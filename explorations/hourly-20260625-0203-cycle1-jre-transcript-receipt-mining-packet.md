@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 1 JRE Transcript Receipt Mining Packet"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "1"
-lane: "3"
 doc_type: jre_transcript_receipt_mining_packet
 artifact_id: "JRETranscriptReceiptMiningPacket_V1"
 verdict: "BLOCKED_TRANSCRIPT_EXTRACTION_REQUIRED_NO_ACCEPTED_RECEIPTS"

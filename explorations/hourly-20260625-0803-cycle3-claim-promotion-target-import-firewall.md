@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 3 Claim Promotion Target Import Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 3
-lane: 4
 doc_type: claim_promotion_target_import_firewall
 artifact_id: "ClaimPromotionTargetImportFirewallAfter0803_V1"
 verdict: "ALL_NAMED_PROMOTIONS_BLOCKED_NO_TARGET_IMPORT_NO_PROOF_RESTART"
@@ -23,7 +21,6 @@ promotion firewall:
 
 ```text
 artifact: ClaimPromotionTargetImportFirewallAfter0803_V1
-run_id: hourly-20260625-0803
 audited_cycle_count: 2
 audited_artifact_count: 10
 promotion_allowed_count: 0

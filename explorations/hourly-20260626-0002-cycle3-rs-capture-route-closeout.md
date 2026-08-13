@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 3 RS Capture Route Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 3
-lane: "RS"
 doc_type: "closeout_gate"
 artifact_id: "RSCaptureRouteCloseout_0002_C3_RS_V1"
 verdict: "conditional_toolchain_admitted_first_frame_blocked_by_challenge"

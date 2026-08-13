@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 2 Source Surface Coverage Delta Ledger"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "2"
-lane: "5"
 doc_type: source_surface_coverage_delta_ledger
 artifact_id: "SourceSurfaceCoverageDeltaLedger_V1"
 verdict: "BLOCKED_SURFACE_COVERAGE_IMPROVED_ACCEPTED_RECEIPT_DELTA_ZERO"

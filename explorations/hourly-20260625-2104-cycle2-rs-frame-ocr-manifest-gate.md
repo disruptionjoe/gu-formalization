@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 2 RS Frame OCR Manifest Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 2
-lane: "4 RS"
 route: "RS"
 doc_type: frame_ocr_manifest_gate
 artifact_id: "RSFrameCropOCRChecksumManifestGate_2104_C2_L4_V1"

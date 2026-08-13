@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 1 Oxford Portal Frame Reacquisition"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 1
-lane: 1
 doc_type: oxford_portal_frame_reacquisition
 artifact_id: "OxfordPortalPowerPointFormulaFrameReacquisition_V1"
 verdict: "CONDITIONAL_EXECUTED_SOURCE_HOSTED_FRAME_PACKET_ZERO_ACCEPTED_ROUTING_RECEIPTS"
@@ -150,7 +148,7 @@ Per family:
 - QFT: none of the five frames displays a finite projector
   `P_fin^b: F_phys^b(O) -> K_b`.
 
-There is also a preservation limitation: this run did not add repo-local image
+There is also a preservation limitation: this investigation did not add repo-local image
 files or archive IDs. It records official hosted URLs and live-computed SHA-256
 checksums. If the integration standard requires repo-local image possession,
 that remains a separate acquisition step.

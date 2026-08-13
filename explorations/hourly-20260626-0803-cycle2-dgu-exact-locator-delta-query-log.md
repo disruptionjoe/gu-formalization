@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 2 DGU Exact Locator Delta Query Log"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 2
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "DGU01ExpandedExactLocatorDeltaQueryLog_0803_C2_L1_V1"
 verdict: "closed_negative_v3_positive_delta_packet_not_admitted"
 owned_path: "explorations/hourly-20260626-0803-cycle2-dgu-exact-locator-delta-query-log.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 2 DGU Exact Locator Delta Query Log

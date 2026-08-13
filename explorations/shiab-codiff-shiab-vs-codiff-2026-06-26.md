@@ -3,7 +3,7 @@ title: "Is GU's shiab the codifferential d_A*?  Explicit Cl(9,5) resolution"
 date: 2026-06-26
 problem_label: "shiab-vs-codiff"
 status: reconstruction
-verdict: DISTINCT (shiab != d_A*; canon SC1 sec 3.5 CONFIRMED, persona adjointness-collapse REFUTED)
+verdict: DISTINCT (shiab != d_A*; canon SC1 sec 3.5 CONFIRMED, perspective adjointness-collapse REFUTED)
 ---
 
 # Is GU's shiab the codifferential d_A*?  Explicit Cl(9,5) resolution
@@ -18,7 +18,7 @@ Two readings of GU's "ship-in-a-bottle" (shiab) middle map collide:
   as the formal codifferential `d_A* : Omega^2(S) -> Omega^1(S)` but a *different
   formula* ("no Clifford contraction; uses connection and Hodge star"). SC1 calls
   them **DISTINCT**.
-- **Persona steel-man** (`rs-middle-map-persona-steelman-2026-06-26.md`, lead C1):
+- **Perspective steel-man** (`rs-middle-map-perspective-steelman-2026-06-26.md`, lead C1):
   the FHE / Homomorphic-Encryption, Info-Coding, Probabilist, and Clifford-04
   lenses each independently argue **adjointness forces shiab = (d_A)\***, i.e. the
   shiab IS the metric codifferential of the spinor-twisted complex ("the single
@@ -114,15 +114,15 @@ definite matrix pairing for the single lambda number only.
 ## 5. Verdict
 
 **DISTINCT. The GU shiab is NOT the codifferential d_A* (nor its principal symbol).**
-canon SC1 sec 3.5 is **confirmed**; the persona "adjointness forces shiab = (d_A)\*"
+canon SC1 sec 3.5 is **confirmed**; the perspective "adjointness forces shiab = (d_A)\*"
 convergence (lead C1) is **refuted** at the level of the explicit rep.
 
-The grain of truth in the persona reading: the shiab *is* an adjoint -- but the
+The grain of truth in the perspective reading: the shiab *is* an adjoint -- but the
 adjoint of **Clifford multiplication on the spinor factor**, not of the **exterior
 derivative on the form factor**. Concretely, the genuine Hermitian adjoint
 `Phi* : Lambda^1(x)S -> Lambda^2(x)S` *raises* form degree (so it is not any
 codifferential) and is itself S-nontrivial (Clifford). The two "adjoints" the
-personas conflated are:
+perspectives conflated are:
 - de Rham codifferential = adjoint of `d` on the FORM factor -> symbol `iota_xi (x) id_S`, S-trivial, chirality-even;
 - Clifford contraction (the shiab) = adjoint of `c(.)` on the SPINOR factor -> S-nontrivial, chirality-odd.
 
@@ -137,4 +137,4 @@ question; it does not rest on the shiab being d_A*, which it is not.
 - anchor: `tests/oq_rk1_cl95_explicit_rep.py`
 - canon claim resolved: `canon/shiab-existence-cl95.md`,
   `explorations/sc1-shiab-domain-codomain-2026-06-23.md` sec 3.5 / 3.6(B)
-- persona lead refuted: `explorations/rs-middle-map-persona-steelman-2026-06-26.md` lead C1
+- perspective lead refuted: `explorations/rs-middle-map-perspective-steelman-2026-06-26.md` lead C1

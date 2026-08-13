@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 3 Claim Promotion Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 3
-lane: 4
 doc_type: claim_promotion_firewall
 artifact_id: "ClaimPromotionFirewallAfter1602_V1"
 verdict: "ALL_PROMOTIONS_BLOCKED_NO_TARGET_IMPORT"
@@ -27,9 +25,7 @@ Decision state:
 
 ```text
 artifact_id: ClaimPromotionFirewallAfter1602_V1
-run_id: hourly-20260625-1602
 cycle: 3
-lane: 4
 accepted_receipt_count: 0
 promotions_allowed: 0
 proof_restart_allowed: false
@@ -91,7 +87,7 @@ Required controls read:
 | RS typed operator/generation/index | UCSD transcript and official locator remain capture targets. Repo-local absence is weaker than documented unavailability; no frame/OCR packet or typed pure-RS operator exists. | `UCSDFrameSequenceForRolledOperatorWindow_V1` or a full documented unavailability packet; then `UCSDTypedRSMinusOneOperator_V1` with pure-RS domain, codomain, slot, rule, quotient/projection, and family identity. | blocked |
 | QFT source branch/quotient/CHSH | A source-clean template and minimal schema exist. They do not source-define `iota_b`, `R_raw^b(O)`, `G_b(O)`, restrictions, restriction stability, quotient/descent, `rho_AB`, Bell, or CHSH. | `SourceDefinedRawBranchLocalGaugeGroupoidPacketForRRawBO_V1`, passing non-import screen and restriction-stability test before quotient/descent or finite state construction. | blocked |
 | dark-energy/generation major physics | DGU actual packet, VZ certificate, RS typed operator, source quotient, and analytic index/physical derivation are all absent. | Family-specific source receipts plus accepted DGU/VZ, RS, QFT, and analytic proof chains that derive the physics without target selection. | blocked |
-| major GU reconstruction | The run produced producer objects, schemas, scoped negatives, and strict gates, not a cross-family proof chain. | Accepted source/proof objects for PTUJ, IG, DGU/VZ, RS, and QFT plus a theorem tying them into a GU reconstruction. | blocked |
+| major GU reconstruction | The investigation produced producer objects, schemas, scoped negatives, and strict gates, not a cross-family proof chain. | Accepted source/proof objects for PTUJ, IG, DGU/VZ, RS, and QFT plus a theorem tying them into a GU reconstruction. | blocked |
 | global no-go | Repeated scoped blockers do not exhaust all primary-source surfaces or all GU-compatible reconstruction routes. | Explicit theorem class, assumptions, route-exhaustion proof, and no-go assumption audit. | blocked |
 
 ## 4. Rejected promotion bases.

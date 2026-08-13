@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 3 Claim Promotion Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 3
-lane: 4
 doc_type: claim_promotion_firewall
 artifact_id: "ClaimPromotionFirewallAfter1302_V1"
 verdict: "ALL_NAMED_PROMOTIONS_BLOCKED_NO_TARGET_IMPORT"
@@ -27,7 +25,6 @@ Decision state:
 
 ```text
 artifact: ClaimPromotionFirewallAfter1302_V1
-run_id: hourly-20260625-1302
 audited_cycle_count: 2
 audited_artifact_count: 10
 promotions_allowed: 0
@@ -64,7 +61,7 @@ source object or proof computation required before the claim can be reconsidered
 | QFT `F_phys` | Cycle 1 produced a candidate generator taxonomy with zero source-defined, restriction-stable generators. Cycle 2 found a gauge-action candidate but no local groupoid or restriction proof. | `LocalGaugeActionGroupoidOnObservedRawGUFields_V1` or another source-defined generator packet on typed `R_raw^b(O)`, with restriction stability and congruence proof. | blocked |
 | QFT `P_fin` | `P_fin^b` has no valid source-defined domain because `tilde_phys^b(O)` and `F_phys^b(O)` are not constructed. | `SourceDefinedLocalPhysicalFieldEquivalenceRelationAndDescentData_V1`, including quotient, restriction maps, descent, and naturality. | blocked |
 | QFT `rho_AB` / CHSH | `rho_AB`, Bell states, Pauli controls, target Hilbert states, and CHSH values remain downstream and cannot define the source quotient. | Source-defined `F_phys^b(O)`, descended natural `P_fin^b`, certified local finite images, and target-clean state construction. | blocked |
-| dark-energy / generation / global GU claims | The run names missing objects but does not close theta/FLRW, dark-energy recovery, generation count, or global reconstruction. | Accepted source objects and proof chains for the relevant families, independently of target physics outcomes. | blocked |
+| dark-energy / generation / global GU claims | The investigation names missing objects but does not close theta/FLRW, dark-energy recovery, generation count, or global reconstruction. | Accepted source objects and proof chains for the relevant families, independently of target physics outcomes. | blocked |
 | global no-go | Route-local missing receipts and blocked protocols do not exhaust all GU-compatible source routes. | A stated theorem class, explicit assumptions, and proof of route exhaustion. | blocked |
 | target-import-derived promotion | No audited row used target data to select a source object. This clean screen is necessary but not sufficient for promotion. | Positive source object plus recorded non-import proof before any proof restart. | blocked |
 
@@ -121,7 +118,7 @@ Forbidden promotions:
 | UCSD two-plus-one language to generation-count restart | typed RS operator and analytic index proof object are absent |
 | Gauge-action candidate to `F_phys` | local groupoid, action on typed `R_raw^b(O)`, restriction proof, and congruence proof are absent |
 | Ordinary QFT/Bell objects to `rho_AB` or CHSH recovery | source quotient, descent, finite images, and target-clean state construction are absent |
-| Dark-energy, generation, or global GU promotion from this run | the run supplies blockers and next objects, not cross-family proof chains |
+| Dark-energy, generation, or global GU promotion from this investigation | the investigation supplies blockers and next objects, not cross-family proof chains |
 | Global no-go from blocked local routes | no theorem class or route-exhaustion proof exists |
 
 ## 5. Machine-readable JSON summary.

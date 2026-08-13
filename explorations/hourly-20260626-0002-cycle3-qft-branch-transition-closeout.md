@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 3 QFT Branch Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 3
-lane: "QFT"
 doc_type: "closeout_gate"
 artifact_id: "QFTBranchTransitionCloseout_0002_C3_QFT_V1"
 verdict: "underdefined_source_rows_absent"
@@ -42,7 +40,7 @@ claim_status_consistency_triggered: false
 
 ## Strongest Positive Result
 
-The run preserves the carrier firewall:
+The investigation preserves the carrier firewall:
 
 ```text
 generic Y = Met(X) is host infrastructure, not a branch-selected Y_b receipt.

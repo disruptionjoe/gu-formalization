@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 3 Proof Restart Readiness Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 3
-lane: 1
 doc_type: proof_restart_readiness_classifier
 artifact_id: "ProofRestartReadinessClassifierAfter0803_V1"
 verdict: "GLOBAL_PROOF_RESTART_FORBIDDEN_ZERO_READY_ROUTES"
@@ -37,7 +35,7 @@ global_proof_restart_state: forbidden
 global_claim_promotion_allowed: false
 ```
 
-The run did not produce a negative theorem against GU. It produced a
+The investigation did not produce a negative theorem against GU. It produced a
 restart-readiness decision: every route remains upstream of the first accepted
 receipt or family identity witness required before proof work can restart.
 

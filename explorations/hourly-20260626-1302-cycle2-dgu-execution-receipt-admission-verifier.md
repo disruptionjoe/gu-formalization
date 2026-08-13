@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 2 DGU Execution Receipt Admission Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 2
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "UCSDDGU01ExecutionReceiptAdmissionVerifier_1302_C2_L1_V1"
 verdict: "verifier_defined_rejects_at_route_decision"
 owned_path: "explorations/hourly-20260626-1302-cycle2-dgu-execution-receipt-admission-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 2 DGU Execution Receipt Admission Verifier
@@ -42,7 +39,6 @@ sha256_recomputable: false
 custody_packet_instantiable: false
 producer_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

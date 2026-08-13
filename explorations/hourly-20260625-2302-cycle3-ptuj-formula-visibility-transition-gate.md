@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 3 PTUJ Formula Visibility Transition Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 3
-lane: "PTUJ"
 doc_type: "closeout_gate"
 artifact_id: "PTUJFormulaVisibilityTransitionGate_2302_C3_LPTUJ_V1"
 verdict: "blocked"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 2 PTUJ Single Branch Nonconflation Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 2
-lane: 1
 doc_type: ptuj_single_branch_nonconflation_gate
 artifact_id: "PTUJ_SINGLE_BRANCH_NONCONFLATION_GATE_1802_C2_L1_V1"
 verdict: "blocked"

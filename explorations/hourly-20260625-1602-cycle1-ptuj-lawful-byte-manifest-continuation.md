@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 1 PTUJ Lawful Byte Manifest Continuation"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 1
-lane: 1
 doc_type: ptuj_lawful_byte_manifest_continuation
 artifact_id: "PTUJLawfulByteManifestContinuation_1602_Cycle1_Lane1_V1"
 verdict: "blocked"

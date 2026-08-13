@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 1 PTUJ Asset Custody Bifurcation Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 1
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJAssetCustodyBifurcationGate_0202_C1_PTUJ_V1"
 verdict: "blocked_no_branch_complete_asset_custody"

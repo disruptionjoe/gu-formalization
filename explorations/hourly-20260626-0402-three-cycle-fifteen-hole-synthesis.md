@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260626 0402 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0402_V1"
 verdict: "fifteen_holes_completed_no_claim_status_changes_no_proof_restart"
@@ -12,7 +11,7 @@ owned_path: "explorations/hourly-20260626-0402-three-cycle-fifteen-hole-synthesi
 
 ## Plain-English Closeout
 
-This run completed fifteen decision-grade holes across three sequential cycles.
+This investigation completed fifteen decision-grade holes across three sequential cycles.
 It produced terrain gates, source-object gates, and transition closeouts. No
 claim was promoted, demoted, or rescoped, so the claim-status consistency
 workflow was not triggered.

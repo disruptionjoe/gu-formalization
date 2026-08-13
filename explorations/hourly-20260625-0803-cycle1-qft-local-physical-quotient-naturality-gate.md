@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 1 QFT Local Physical Quotient Naturality Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 1
-lane: 5
 doc_type: qft_local_physical_quotient_naturality_gate
 artifact_id: "LocalPhysicalFieldQuotientAndNaturalityLemma_V1"
 verdict: "UNDERDEFINED_MISSING_SOURCE_PHYSICAL_QUOTIENT_AND_DESCENT_DATA"

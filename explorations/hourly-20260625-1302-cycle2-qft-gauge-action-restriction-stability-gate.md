@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 2 QFT Gauge Action Restriction Stability Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 2
-lane: 5
 doc_type: qft_gauge_action_restriction_stability_gate
 artifact_id: "QFTGaugeActionRestrictionStabilityGate_V1"
 verdict: "UNDERDEFINED_GAUGE_ACTION_CANDIDATE_PRESENT_LOCAL_GROUPOID_AND_RESTRICTION_PROOF_ABSENT"

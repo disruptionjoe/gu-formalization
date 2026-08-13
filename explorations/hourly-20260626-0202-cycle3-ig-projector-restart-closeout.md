@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 3 IG Projector Restart Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 3
-lane: "IG"
 doc_type: "frontier_closeout"
 artifact_id: "IGProjectorRestartCloseout_0202_C3_IG_V1"
 verdict: "blocked_no_restart_before_projector_identity"

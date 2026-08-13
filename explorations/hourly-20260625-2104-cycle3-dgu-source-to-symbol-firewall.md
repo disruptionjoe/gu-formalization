@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 3 DGU Source-To-Symbol Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 3
-lane: "2 DGU/VZ"
 doc_type: dgu_source_to_symbol_firewall_gate
 artifact_id: "DGUSourceToSymbolFirewallGate_2104_C3_L2_V1"
 verdict: "BLOCKED_FIREWALL_NO_IMPORT_UNTIL_SOURCE_EMITTED_DGU_01_SECTOR_RULE_AND_SAME_OPERATOR_RECEIPT"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 1 RS Lawful Route Or Denial Receipt Attempt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 1
-lane: 4
 route: "RS"
 doc_type: frontier_receipt_attempt
 artifact_id: "RSLawfulRouteOrDenialReceiptAttempt_2104_C1_L4_V1"

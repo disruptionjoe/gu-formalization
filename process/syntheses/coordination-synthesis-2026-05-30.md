@@ -110,8 +110,8 @@ Worker-suggested public-repo paths conflict:
 | WRK-376 | not explicit | open slot |
 | WRK-377 | `syntheses/11-...md` | none |
 | WRK-378 | `active-research/calm-gw-boundary/nielsen-protocol-analogy-pilot.md` | none |
-| WRK-380 | `syntheses/08-media-claim-and-insight-mining.md` | **COLLISION** with existing `08-supplementary-15-persona-pathway-ranking.md` |
-| WRK-381 | `process/hegelian-method/hegelian-persona-protocol.md` | none |
+| WRK-380 | `syntheses/08-media-claim-and-insight-mining.md` | **COLLISION** with existing `08-supplementary-15-perspective-pathway-ranking.md` |
+| WRK-381 | `process/hegelian-method/hegelian-perspective-protocol.md` | none |
 | WRK-385 | `explorations/rg-universality/rg-universality-axis-note.md` | gap 14-16 unfilled |
 | WRK-383 | not explicit | open slot |
 | WRK-384 | not explicit | open slot |
@@ -121,9 +121,9 @@ Worker-suggested public-repo paths conflict:
 
 ---
 
-## Section 10. Persona 21 (e) as standalone WRK candidate
+## Section 10. Perspective 21 (e) as standalone WRK candidate
 
-WRK-382 names persona 21 (e) as the **single most concrete upgrade gate** for the stochastic lane: "Does parity-breaking RP-preserving log-correlated GFF in d=4 with Hairer-RG II_1 large-N limit exist?"
+WRK-382 names perspective 21 (e) as the **single most concrete upgrade gate** for the stochastic lane: "Does parity-breaking RP-preserving log-correlated GFF in d=4 with Hairer-RG II_1 large-N limit exist?"
 
 **Coordination should consider:** spawn as standalone WRK card (12th in pipeline) OR note as open question on WRK-382's body. Joe's call.
 
@@ -151,7 +151,7 @@ WRK-385 names three forms of universality-class data and recommends Form C:
 | WRK-379 (claim mining starter) | §7 (WebFetch unblock + next-batch source list) | Next pass MUST have WebFetch authorized; sources named in §7 |
 | WRK-380 (insight mining) | §6 (provenance scaffolding self-classification), §7 (await v2), §8 (sector qualification for #25), §9 (numbering collision) | Resolve numbering before push; do not publish without v2 ledger |
 | WRK-381 (Hegelian) | §6 (provenance scaffolding classification), §9 (numbering — 13 vs 10), §2 (Cartan as worked example option) | Use WRK-383 Cartan as worked example of "dialectic catches numerology" if Section 5/6 is revised |
-| WRK-382 (stochastic parity) | §4 (Item 3 reduction), §10 (persona 21 (e) candidate decision) | No new findings to absorb; verdict stands |
+| WRK-382 (stochastic parity) | §4 (Item 3 reduction), §10 (perspective 21 (e) candidate decision) | No new findings to absorb; verdict stands |
 | WRK-383 (Cartan) | §1d (L1 h vs h'), §2 (DG hard line preserved), §6 (Hegelian worked-example role) | If v2 pass, formalize h/h' distinction in six-axis row |
 | WRK-384 (Sorkin) | §1c (L1/L4 constitutive coupling table), §3c (ϕ_CSL distinct functor), §2 (DG-pattern parallel at different axis) | Coupling table in §4 is load-bearing — don't accept sextuples that violate it |
 | WRK-385 (RG) | §1a (L5/L6 constitutive), §11 (Form C trichotomy), §9 (numbering 14 vs 17) | Category-error framing for decoupled L5/L6 is hardest line; preserve in any v2 |
@@ -162,13 +162,13 @@ WRK-385 names three forms of universality-class data and recommends Form C:
 
 1. Does not modify sibling card bodies. Per-card tags below (separate write pass) point each card at the relevant sections.
 2. Does not finalize repo numbering. Coordination pass at push time owns final allocation.
-3. Does not spawn the persona 21 (e) WRK or the WebFetch-unblocked next-batch mining pass. Both are Joe-decisions; this doc surfaces them as candidates.
+3. Does not spawn the perspective 21 (e) WRK or the WebFetch-unblocked next-batch mining pass. Both are Joe-decisions; this doc surfaces them as candidates.
 4. Does not push to public repo. Joe pushes after walking the per-card walkthroughs.
 
 ## Open coordination decisions for Joe
 
 1. **WRK-380 numbering:** ship as `09-` (sequential), `14-` (post-current-block), or rename to `media-claim-and-insight-mining.md` without numeric prefix?
-2. **Persona 21 (e):** spawn standalone WRK or annotate on WRK-382?
+2. **Perspective 21 (e):** spawn standalone WRK or annotate on WRK-382?
 3. **WebFetch-unblocked next-batch mining:** dispatch follow-on for WRK-379 immediately or hold until Joe walks v1 ledger?
 4. **Sector I qualification:** apply to WRK-376 in same pass or wait for public-push pass?
 5. **L1 (h)/(h') split + L1 sub-flavors:** revise WRK-375 six-axis README now or after the first public-repo contributor lands a draft that needs the distinction?

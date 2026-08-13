@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 3 Proof Restart Readiness Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 3
-lane: 1
 doc_type: proof_restart_readiness_classifier
 artifact_id: "ProofRestartReadinessAfter2028_C3_L1_V1"
 verdict: "blocked_all_routes"
@@ -32,7 +30,7 @@ downstream replay, or claim promotion.
 
 ## 3. Exact Decision
 
-No proof restart is allowed. The run has no accepted route object and no
+No proof restart is allowed. The investigation has no accepted route object and no
 accepted-for-routing transition.
 
 ## 4. Constructive Next Objects

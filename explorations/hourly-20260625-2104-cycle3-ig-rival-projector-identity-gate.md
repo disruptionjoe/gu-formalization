@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 3 IG Rival Projector Identity Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 3
-lane: "1 IG"
 doc_type: ig_rival_projector_identity_gate
 artifact_id: "SourceNaturalProductABRivalProjectorIdentityGate_2104_C3_L1_V1"
 verdict: "BLOCKED_SOURCE_NATURAL_PROJECTOR_IDENTITY_ABSENT"

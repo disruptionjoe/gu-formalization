@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 1 RS Visual Frame Capture Or Unavailability Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 1
-lane: 4
 doc_type: rs_visual_frame_capture_or_unavailability_packet
 artifact_id: "RSVisualFrameCaptureOrUnavailabilityPacket_1602_C1_L4_V1"
 verdict: "BLOCKED_REPO_LOCAL_VISUAL_UNAVAILABILITY_DOCUMENTED_NO_FRAMES_OCR_OR_TYPED_RS_OPERATOR"

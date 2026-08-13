@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 2 PTUJ Branch Purity Audit Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 2
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchPurityAuditGate_2302_C2_LPTUJ_V1"
 verdict: "blocked"

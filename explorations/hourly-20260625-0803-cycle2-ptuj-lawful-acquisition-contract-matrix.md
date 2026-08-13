@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 2 PTUJ Lawful Acquisition Contract Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 2
-lane: 1
 doc_type: ptuj_lawful_acquisition_contract_matrix
 artifact_id: "LawfulLocalTzSEvmqxu48FrameExtractorOrSourceAsset_V1"
 verdict: "BLOCKED_CONTRACT_DEFINED_NO_ACCEPTABLE_PATH_PRESENT"

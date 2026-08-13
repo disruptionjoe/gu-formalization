@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 2 IG Source Window Bianchi Selector Inventory"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 2
-lane: 5
 doc_type: ig_source_window_bianchi_selector_inventory
 artifact_id: "SourceWindowFormulaInventoryAndBianchiSelectorForShiab_V1"
 verdict: "PREPARES_SELECTOR_THEOREM_RIVALS_NOT_ELIMINATED"

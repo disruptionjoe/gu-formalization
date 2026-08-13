@@ -8,18 +8,18 @@ repos_surveyed:
   - https://github.com/disruptionjoe/gu-formalization
   - https://github.com/disruptionjoe/time-as-finality
   - https://github.com/disruptionjoe/ai-native-epistemic-systems
-method: 5 divergent math-specialist personas + synthesis
+method: 5 divergent math-specialist perspectives + synthesis
 ---
 
 # Gap Assessment: Timothy Nguyen's Critique of Geometric Unity
 
 **Source:** Timothy Nguyen, *A Response to Geometric Unity* — https://files.timothynguyen.org/geometric_unity.pdf
 
-**Method:** Five divergent mathematical specialist personas, each evaluating Nguyen's critique section by section and cross-referencing prior work in the three repos above. No citable case was found where Nguyen is provably wrong. Several places were found where the repos point to possible escape programs, but none constitute completed GU repairs.
+**Method:** Five divergent mathematical specialist perspectives, each evaluating Nguyen's critique section by section and cross-referencing prior work in the three repos above. No citable case was found where Nguyen is provably wrong. Several places were found where the repos point to possible escape programs, but none constitute completed GU repairs.
 
 ---
 
-## Personas
+## Perspectives
 
 - **Elena Voss** — Principal Bundle & Gauge Theory Specialist (connections, spinors, gauge groups, anomalies, curvature)
 - **Marcus Hale** — Sheaf & Cohomological Obstruction Theorist (sheaves, descent, holonomy, gluing obstructions, H¹)
@@ -51,7 +51,7 @@ method: 5 divergent math-specialist personas + synthesis
 
 **Column A — Nguyen is correct**
 
-Nguyen correctly identifies a genuine defect: no natural real-linear isomorphism exists between u(128) (real Lie algebra of the gauge group) and the real Clifford algebra structures in dimension 14 that would support the required "pure trace" identification for shiab. The step as presented in GU is undefined or unjustified without complexification. All five personas agree this is a concrete mathematical gap in the construction as written.
+Nguyen correctly identifies a genuine defect: no natural real-linear isomorphism exists between u(128) (real Lie algebra of the gauge group) and the real Clifford algebra structures in dimension 14 that would support the required "pure trace" identification for shiab. The step as presented in GU is undefined or unjustified without complexification. All five perspectives agree this is a concrete mathematical gap in the construction as written.
 
 **Column B — Nguyen is missing something**
 
@@ -73,7 +73,7 @@ None. The objection to the missing complexification step is mathematically accur
 
 **Column A — Nguyen is correct**
 
-Nguyen correctly flags that the central U(1) in U(128) induces a chiral (axial) anomaly in 14 dimensions. This renders the quantum theory inconsistent (non-unitary or non-invariant). All personas concur this is a genuine defect in the gauge group choice for a theory aiming at quantum consistency. Elena Voss and Sophia Kline emphasize it is a standard, well-established obstruction.
+Nguyen correctly flags that the central U(1) in U(128) induces a chiral (axial) anomaly in 14 dimensions. This renders the quantum theory inconsistent (non-unitary or non-invariant). All perspectives concur this is a genuine defect in the gauge group choice for a theory aiming at quantum consistency. Elena Voss and Sophia Kline emphasize it is a standard, well-established obstruction.
 
 **Column B — Nguyen is missing something**
 
@@ -143,7 +143,7 @@ Nguyen correctly notes that Lemma 2.1's mathematical significance is unclear bey
 
 **Column B — Nguyen is missing something**
 
-All personas note that `gu-formalization`'s dialectical approach (treating constructions as potentially having non-standard substrate realizations) and `time-as-finality`'s finite gluing + typed transport formalisms could supply a rigorous reconstruction layer for metrics, connections, and transport on multiscale or chimeric spaces. These provide tools to make such lemmas well-posed and testable.
+All perspectives note that `gu-formalization`'s dialectical approach (treating constructions as potentially having non-standard substrate realizations) and `time-as-finality`'s finite gluing + typed transport formalisms could supply a rigorous reconstruction layer for metrics, connections, and transport on multiscale or chimeric spaces. These provide tools to make such lemmas well-posed and testable.
 
 **Column C — Nguyen is provably wrong**
 

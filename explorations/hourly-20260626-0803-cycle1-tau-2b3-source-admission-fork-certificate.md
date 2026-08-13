@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 1 Tau 2B/3 Source Admission Fork Certificate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 1
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "Tau2B3SourceAdmissionForkCertificate_0803_C1_L2_V1"
 verdict: "closed_both_possible_not_admitted"
 owned_path: "explorations/hourly-20260626-0803-cycle1-tau-2b3-source-admission-fork-certificate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 1 Tau 2B/3 Source Admission Fork Certificate

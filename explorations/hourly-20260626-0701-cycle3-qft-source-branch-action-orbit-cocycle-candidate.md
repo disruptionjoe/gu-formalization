@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 3 QFT Source Branch Action Orbit Cocycle Candidate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 3
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceBranchActionOrbitCocycleCandidate_0701_C3_L4_V1"
 verdict: "underdefined_schema_category_available_no_source_action_orbit_stabilizer_cocycle_admitted"
 owned_path: "explorations/hourly-20260626-0701-cycle3-qft-source-branch-action-orbit-cocycle-candidate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 3 QFT Source Branch Action Orbit Cocycle Candidate
@@ -89,7 +86,7 @@ QFT = primitive_schema_no_category_action_cocycle
 source_admissions_count = 0
 ```
 
-Cycle 2 of this run upgrades only the "no category" part: the repo now has a
+Cycle 2 of this investigation upgrades only the "no category" part: the repo now has a
 strict schema category, but still has no source-admitted action/cocycle data.
 
 ## 3. Schema Category As Provenance Infrastructure

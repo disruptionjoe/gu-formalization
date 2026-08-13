@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 1 KIG Parent Variation Acquisition Extraction Row"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 1
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "Branch3ParentVariationPrimarySourceAcquisitionExtractionRow_1102_C1_L3_V1_Result"
 verdict: "blocked_acquired_primary_negative_for_pre_codomain_parent_degree_row"
 owned_path: "explorations/hourly-20260626-1102-cycle1-kig-parent-variation-acquisition-extraction-row.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 1 KIG Parent Variation Acquisition Extraction Row
@@ -76,7 +73,6 @@ trace_eliminator_retry_allowed: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is a scoped negative for the acquired/re-extracted local source surfaces,
@@ -284,7 +280,6 @@ source_row_passing_firewall_allowed: false
 trace_eliminator_retry_allowed: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
-claim_status_change: false
 ```
 
 ## 8. Terrain Classification, Forbidden Shortcut, Invariant, Kill Condition

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 1 IG Product B D7 Table Receipt Attempt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 1
-lane: "2 IG Product B"
 doc_type: product_b_d7_table_receipt_attempt
 artifact_id: "ProductBFullD7SummandMultiplicityDimensionTableReceiptAttempt_2104_C1_L2_V1"
 verdict: "closed_product_b_table"

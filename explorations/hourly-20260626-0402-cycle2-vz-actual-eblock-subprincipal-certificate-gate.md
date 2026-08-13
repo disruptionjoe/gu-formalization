@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 2 VZ Actual E-Block Subprincipal Certificate Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 2
-lane: "VZActualEBlockSubprincipalCertificateGate"
 doc_type: "frontier_gate"
 artifact_id: "VZActualEBlockSubprincipalCertificateGate_C2_V0"
 target_certificate: "VZActualEBlockAndSubprincipalCharacteristicCertificate_V0"

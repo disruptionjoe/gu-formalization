@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 1 KIG Source Row Rival Parent Firewall Test"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 1
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "SourceRowPassingKIGRivalParentFirewall_1003_C1_L3_V1_Result"
 verdict: "blocked_source_row_not_present_trace_retry_not_allowed"
 owned_path: "explorations/hourly-20260626-1003-cycle1-kig-source-row-rival-parent-firewall-test.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 1 KIG Source Row Rival Parent Firewall Test
@@ -32,7 +29,6 @@ coderivative_trace_addressed: true
 rival_terms_addressed: true
 trace_eliminator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a no-go against a future primary-source receipt. It is a scoped

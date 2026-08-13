@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 1 DGU UCSD Visual Frame Rows"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "UCSDVisualFrameRows_DGU01_0904_C1_L1_V1"
 verdict: "blocked_repo_local_visual_frame_asset_absent"
 owned_path: "explorations/hourly-20260626-0904-cycle1-dgu-ucsd-visual-frame-rows.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 1 DGU UCSD Visual Frame Rows

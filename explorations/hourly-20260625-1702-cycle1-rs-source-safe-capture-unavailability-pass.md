@@ -2,9 +2,7 @@
 title: "Hourly 20260625 1702 Cycle 1 RS Source-Safe Capture / Unavailability Pass"
 status: blocked
 doc_type: exploration
-run_id: "hourly-20260625-1702"
 cycle: 1
-lane: 4
 artifact_id: "RSSourceSafeCaptureUnavailabilityPass_1702_C1_L4_V1"
 owned_path: "explorations/hourly-20260625-1702-cycle1-rs-source-safe-capture-unavailability-pass.md"
 companion_audit: "tests/hourly_20260625_1702_cycle1_rs_source_safe_capture_unavailability_pass_audit.py"

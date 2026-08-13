@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Three Cycle Fifteen Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 3
-lane: "synthesis"
 doc_type: three_cycle_fifteen_hole_synthesis
 artifact_id: "Hourly20260625_1503_ThreeCycleFifteenHoleSynthesis_V1"
 verdict: "FIFTEEN_QUALITY_HOLES_ZERO_ACCEPTED_RECEIPTS_NO_PROOF_RESTART"

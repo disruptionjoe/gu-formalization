@@ -34,7 +34,7 @@ whether the local source surface can admit a source-clean actual `D_GU^epsilon`
 
 **Verdict: scoped negative.**
 
-The run finds candidate source payloads, but no admissible primary row. The
+The investigation finds candidate source payloads, but no admissible primary row. The
 UCSD transcript has strong zero/one-form and rolled Dirac-DeRham/Rarita-
 Schwinger language. The rendered manuscript receipts have a real
 action/operator/Euler-Lagrange cluster. Neither source surface emits the actual
@@ -51,7 +51,7 @@ target_import_used = false
 ```
 
 This is not a global GU no-go. It is a scoped negative over the source surfaces
-read by this run and the already rendered manuscript receipts.
+read by this investigation and the already rendered manuscript receipts.
 
 ## 3. Source Surface Inspected
 

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 2 IG Representation-Natural Rival Eliminator Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 2
-lane: 2
 doc_type: ig_representation_natural_rival_eliminator_matrix
 artifact_id: "CombinedSourceRepresentationTheoryBianchiRivalEliminatorForK_IG_V1"
 verdict: "BLOCKED_MATRIX_BUILT_ZERO_SOURCE_NATURAL_RIVAL_ELIMINATIONS"

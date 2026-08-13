@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 2 RS UCSD Typed Operator Source-Origin Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 2
-lane: 4
 doc_type: rs_ucsd_typed_operator_source_origin_classifier
 artifact_id: "UCSDTypedRSMinusOneOperatorSourceOriginClassifier_V1"
 verdict: "CONDITIONAL_SOURCE_ORIGIN_HOST_UNDERDEFINED_ZERO_ACCEPTED_RS_OPERATOR"

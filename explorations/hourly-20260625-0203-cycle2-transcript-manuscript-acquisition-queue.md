@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 2 Transcript Manuscript Acquisition Queue"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: 2
-lane: 2
 doc_type: transcript_manuscript_acquisition_queue
 artifact_id: "TranscriptManuscriptAcquisitionQueue_V1"
 verdict: "CONDITIONAL_QUEUE_READY_RECEIPTS_NOT_ACQUIRED"

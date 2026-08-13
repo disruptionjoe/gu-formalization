@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 1 RS UCSD Frame Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 1
-lane: 4
 doc_type: rs_ucsd_frame_packet
 artifact_id: "RSUCSDFramePacket_V1"
 verdict: "BLOCKED_TRANSCRIPT_WINDOW_PRESENT_FRAME_SEQUENCE_ABSENT_ZERO_ACCEPTED_RS_RECEIPTS"

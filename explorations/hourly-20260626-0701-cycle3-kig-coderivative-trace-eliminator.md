@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 3 KIG Coderivative Trace Eliminator"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 3
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "CoderivativeTraceEliminatorForK_IG_0701_C3_V1_Result"
 verdict: "blocked_coderivative_trace_survives_no_positive_exterior_degree_rule"
 owned_path: "explorations/hourly-20260626-0701-cycle3-kig-coderivative-trace-eliminator.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 3 KIG Coderivative Trace Eliminator

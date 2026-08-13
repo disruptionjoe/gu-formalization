@@ -3,7 +3,6 @@ title: "Hourly 20260625 0711 Cycle 2 QFT Finite Local Extraction Spec Gate"
 date: "2026-06-25"
 run: "hourly-20260625-0711"
 cycle: 2
-lane: 5
 doc_type: qft_finite_local_extraction_spec_gate
 artifact_id: "FiniteLocalQFTExtractionMapSpecGate_V1"
 verdict: "UNDERDEFINED_NOT_VALID_RECONSTRUCTION_SPEC"

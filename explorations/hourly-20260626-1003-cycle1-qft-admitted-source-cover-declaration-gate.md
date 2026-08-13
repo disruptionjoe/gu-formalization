@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 1 QFT Admitted Source Cover Declaration Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 1
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTAdmittedSourceCoverDeclarationGate_1003_C1_L5_V1"
 verdict: "blocked_no_admitted_source_cover_declaration"
 owned_path: "explorations/hourly-20260626-1003-cycle1-qft-admitted-source-cover-declaration-gate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 1 QFT Admitted Source Cover Declaration Gate
@@ -45,7 +42,6 @@ source_cover_declaration_admitted: false
 local_records_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. What Was Derived Directly From Repo Sources

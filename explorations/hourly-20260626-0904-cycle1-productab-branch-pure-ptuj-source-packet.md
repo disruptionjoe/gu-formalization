@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 1 ProductAB Branch Pure PTUJ Source Packet"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 1
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "SingleCompletePTUJBranchReceipt_0904_C1_L4_V1"
 verdict: "blocked_no_complete_branch_pure_ptuj_source_packet"
 owned_path: "explorations/hourly-20260626-0904-cycle1-productab-branch-pure-ptuj-source-packet.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 1 ProductAB Branch Pure PTUJ Source Packet

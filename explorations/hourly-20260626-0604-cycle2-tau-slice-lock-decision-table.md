@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 2 Tau Slice Lock Decision Table"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 2
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauSliceLockDecisionTable_2A_2B_0604_C2_V1"
 verdict: "decision_table_defined_current_result_reference_only"
 owned_path: "explorations/hourly-20260626-0604-cycle2-tau-slice-lock-decision-table.md"
 companion_audit: "tests/hourly_20260626_0604_cycle2_admission_predicates_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 2 Tau Slice Lock Decision Table

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 1 PTUJ Branch Field Completion Receipt"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 1
-lane: 1
 doc_type: ptuj_branch_field_completion_receipt
 artifact_id: "PTUJ_BRANCH_FIELD_COMPLETION_RECEIPT_1802_C1_L1_V1"
 verdict: "blocked"

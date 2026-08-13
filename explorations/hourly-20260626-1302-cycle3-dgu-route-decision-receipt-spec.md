@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 3 DGU Route Decision Receipt Spec"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "UCSDDGU01LawfulAcquisitionRouteDecisionReceipt_1302_C3_L1_V1"
 verdict: "receipt_spec_defined_uninhabited"
 owned_path: "explorations/hourly-20260626-1302-cycle3-dgu-route-decision-receipt-spec.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 3 DGU Route Decision Receipt Spec
@@ -41,7 +38,6 @@ execution_receipt_present: false
 custody_packet_instantiable: false
 producer_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Required Receipt Fields

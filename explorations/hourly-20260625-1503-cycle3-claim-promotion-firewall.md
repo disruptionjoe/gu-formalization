@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 3 Claim Promotion Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 3
-lane: 4
 doc_type: claim_promotion_firewall
 artifact_id: "ClaimPromotionFirewallAfter1503_V1"
 verdict: "ALL_PROMOTIONS_BLOCKED_NO_TARGET_IMPORT"
@@ -36,9 +34,7 @@ Decision state:
 
 ```text
 artifact: ClaimPromotionFirewallAfter1503_V1
-run_id: hourly-20260625-1503
 cycle: 3
-lane: 4
 audited_predecessor_cycles: 2
 cycle_1_commit: b1a2cc5
 cycle_2_commit: 74090c4
@@ -73,7 +69,7 @@ locator, metadata, source-window negative, candidate template, or scoped blocker
 | QFT finite extraction / `rho_AB` / CHSH / Bell | Cycle 1 wrote a candidate local gauge-action groupoid. Cycle 2 wrote a candidate source-observed raw branch packet. QFT candidate/raw branch templates are not local groupoid receipts, restriction-stable quotients, descent data, or finite physical images; `rho_AB`, CHSH, and Bell remain blocked. | `SourceObservedRawFieldBranchPacketForRRawBO_V1`, `LocalGaugeActionGroupoidOnObservedRawGUFields_V1`, source-defined restriction-stable quotient/descent data, certified finite images, and target-clean state construction. | blocked |
 | generation count | RS two-plus-one language and QFT/Bell downstream fixtures remain motivation only. No typed RS operator, source quotient, family identity, or analytic index proof exists. | Noncompact `Y^14` analytic index/generation-count proof object downstream of a typed source operator and quotient. | blocked |
 | dark energy | DGU epsilon, source-window, and VZ-adjacent locators do not provide a source-emitted actual DGU operator or VZ-safe certificate. | Accepted DGU actual identity, symbol/projector certificate, VZ assumption audit, and a source-clean dark-energy derivation. | blocked |
-| major GU claim | The run produces missing-object packets and scoped blockers, not a cross-family proof chain. | Accepted family-specific source objects plus proof chains tying PTUJ/IG/DGU/RS/QFT outputs to a reconstruction theorem. | blocked |
+| major GU claim | The investigation produces missing-object packets and scoped blockers, not a cross-family proof chain. | Accepted family-specific source objects plus proof chains tying PTUJ/IG/DGU/RS/QFT outputs to a reconstruction theorem. | blocked |
 | global no-go | Local blockers, scoped negatives, and absent receipts do not exhaust all GU-compatible source routes. | Explicit theorem class, assumptions, route-exhaustion proof, and no-go assumption audit. | blocked |
 | target-import-derived promotion | No row uses target data to select a source object. This clean screen is necessary but not sufficient for promotion. | Positive source object plus non-import proof before any proof restart or promotion. | blocked |
 
@@ -122,7 +118,7 @@ Forbidden promotions:
 | DGU scoped negatives to actual DGU identity witness or VZ certificate | negative packets bound absence; they do not instantiate source identity or certificate fields |
 | RS transcript/locator to typed pure-RS operator | no frame sequence, OCR, visible pure-RS typing, quotient, or family identity |
 | QFT candidate/raw branch template to finite extraction | no source-defined local groupoid, restriction-stable quotient, descent, finite images, `rho_AB`, CHSH, or Bell recovery |
-| generation count or dark energy from this run | missing typed operator, DGU certificate, source quotient, and analytic/physical proof chain |
+| generation count or dark energy from this investigation | missing typed operator, DGU certificate, source quotient, and analytic/physical proof chain |
 | major GU claim from blockers | no cross-family theorem has been proved |
 | global no-go from local blockers | no theorem class or route-exhaustion proof exists |
 

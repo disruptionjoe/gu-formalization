@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 1 Author Manuscript QFT Finite Projector Loca
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 1
-lane: 4
 doc_type: author_manuscript_qft_finite_projector_locator_row
 artifact_id: "AuthorManuscriptQFTFiniteProjectorLocatorRow_V1"
 verdict: "BLOCKED_SCOPED_NEGATIVE_NOT_GLOBAL_NO_GO"

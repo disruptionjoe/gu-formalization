@@ -9,7 +9,7 @@ updated_at: "2026-05-31"
 
 **Status.** Local-only draft. internal origin artifact deliverable. Generated 2026-05-31.
 **Scope.** Compares Option I (Single integrated), Option II (Tight companion set), Option III (Three separate papers, different venues) on the seven dimensions named in internal origin artifact DoD #2.
-**Inputs.** internal origin artifact v3, internal origin artifact v3, internal origin artifact v3 reframe notes; internal origin artifact Phase 2 editor outputs; v2.1 parallel-artifact synthesis; six-persona meta-layer dialectic.
+**Inputs.** internal origin artifact v3, internal origin artifact v3, internal origin artifact v3 reframe notes; internal origin artifact Phase 2 editor outputs; v2.1 parallel-artifact synthesis; six-perspective meta-layer dialectic.
 **Convention.** `[speculation]` tags applied to venue-fit and reviewer-vector estimates that are not directly evidenced by editor pass or prior receipts.
 
 ---
@@ -90,7 +90,7 @@ These three results all converge on the **C_MPR architecture** (monotone-provena
 | | Option I — Single integrated paper | Option II — Tight companion set (3) | Option III — Three separate papers, different venues |
 |---|---|---|---|
 | Single-paper draft time | ~600-900 min agent (one ~30-50 page draft) | N/A | N/A |
-| Three-paper draft time (parallel) | N/A | ~480-600 min agent per paper × 3 = ~1440-1800 min total, but dispatchable in parallel as 3 sub-agent workers (real-time ~480-600 min if 3-way parallel) | ~480-600 min per paper, but each paper needs venue-specific style adaptation; ~540-720 min per paper = ~1620-2160 min total |
+| Three-paper draft time (parallel) | N/A | ~480-600 min agent per paper × 3 = ~1440-1800 min total, but dispatchable in parallel as 3 independent reviewer workers (real-time ~480-600 min if 3-way parallel) | ~480-600 min per paper, but each paper needs venue-specific style adaptation; ~540-720 min per paper = ~1620-2160 min total |
 | Coordination overhead | None | ~120-180 min for cross-citation and definition consistency pass | ~60-120 min for cross-citation; no coordination on definitions (each paper self-contained) |
 | Joe review window | One paper to walk; ~2-4 hours | Three papers to walk in coordinated session; ~3-5 hours | Three papers to walk in independent sessions; ~4-6 hours spread over weeks |
 | Total agent-time | ~600-900 min | ~1560-1980 min (parallel real-time ~600-780 min) | ~1680-2280 min serial; less parallelizable than companion set because per-venue style adaptation is per-paper |
@@ -135,7 +135,7 @@ The v3-packaged decision is upstream of the Phase 2 editor's Q1-Q10. Joe's earli
 - **Q1 (Title).** Under Option I, one title needed (the v3 reframe note recommends Lüscher-school physicist title-shape "Monotone Provenance, Non-Monotone Readout: A Factorization Iff Theorem"). Under Option II, three titles needed. Under Option III, three titles + venue-style alignment per title.
 - **Q2 (Venue).** Resolved per §1.1 above; Joe's decision under each option scopes to confirming the recommended venue sequence.
 - **Q3 (Authorship).** Under all three options, solo for arXiv first remains the editor's default. Option II's companion set may benefit from one invited co-author if a Lüscher-school physicist engages post-arXiv; Option III's three-paper split may benefit from per-paper co-authoring opportunities.
-- **Q4 (GU-affiliation visibility).** Resolved consistently across all three options as Option B (minimal mention, "structured multi-persona dialectical review" framing). Inconsistency across companion-set or three-paper-set papers is a real reputational risk per §1.5; one decision needs to govern all papers in the chosen option.
+- **Q4 (GU-affiliation visibility).** Resolved consistently across all three options as Option B (minimal mention, "structured multi-perspective dialectical review" framing). Inconsistency across companion-set or three-paper-set papers is a real reputational risk per §1.5; one decision needs to govern all papers in the chosen option.
 
 ---
 

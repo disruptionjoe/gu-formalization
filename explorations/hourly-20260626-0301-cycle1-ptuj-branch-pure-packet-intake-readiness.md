@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 1 PTUJ Branch-Pure Packet Intake Readiness"
 date: "2026-06-25"
-run_id: "hourly-20260626-0301"
 cycle: 1
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchPurePacketIntakeReadiness_0301_C1_PTUJ_V1"
 verdict: "blocked_no_branch_complete_packet_for_single_receipt"

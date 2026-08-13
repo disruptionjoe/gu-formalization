@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 3 Tau Reconstruction Only Branch Packet Schema"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 3
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauReconstructionOnlyBranchPacketSchema_1102_C3_L2_V1"
 verdict: "closed_schema_no_branch_packet_ready"
 owned_path: "explorations/hourly-20260626-1102-cycle3-tau-reconstruction-only-branch-packet-schema.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 3 Tau Reconstruction Only Branch Packet Schema
@@ -156,7 +153,6 @@ A valid reconstruction-only packet must contain:
 packet_id:
   stable object name, e.g. TauRecon_FixedAlephGraphPacket_V1
 
-mode:
   one canonical packet mode from the table above
 
 status:
@@ -338,7 +334,6 @@ aleph graph scaffold:
 packet_id:
   TauRecon_FixedAlephGraphPacket_V1
 
-mode:
   GRAPH_CONSTRAINED_FIXED_ALEPH
 
 candidate field space:

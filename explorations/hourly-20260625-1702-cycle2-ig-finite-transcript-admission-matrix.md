@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 2 IG Finite Transcript Admission Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 2
-lane: 2
 doc_type: ig_finite_transcript_admission_matrix
 artifact_id: "IG_FINITE_TRANSCRIPT_ADMISSION_MATRIX_1702_C2_L2_V1"
 verdict: "BLOCKED_PRODUCT_B_FULL_SUMMAND_MULTIPLICITY_DIMENSION_TABLE_MISSING"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 1 RS Capture Toolchain Producer Contract"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 1
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "ApprovedBrowserCaptureToolchainProducerContract_2302_C1_RS_V1"
 verdict: "blocked"
@@ -95,7 +93,7 @@ The repo also has no `package.json`, lockfile, `pyproject.toml`,
 `requirements.txt`, or Playwright config that would admit a repo-pinned browser
 capture producer.
 
-Non-capture tool preflight in this run found:
+Non-capture tool preflight in this investigation found:
 
 | tool or module | status | relevance |
 |---|---:|---|

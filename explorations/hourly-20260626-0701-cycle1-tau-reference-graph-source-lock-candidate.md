@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 1 Tau Reference Graph Source-Lock Candidate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 1
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauReferenceGraphSourceLockCandidate_0701_C1_V1"
 verdict: "blocked_reference_only_no_tau_graph_lock"
 owned_path: "explorations/hourly-20260626-0701-cycle1-tau-reference-graph-source-lock-candidate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 1 Tau Reference Graph Source-Lock Candidate

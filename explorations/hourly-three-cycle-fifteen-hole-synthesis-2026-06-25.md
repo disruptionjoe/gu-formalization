@@ -34,7 +34,7 @@ discipline, not as evidence. It separates source construction, projection/readou
 record finality, and loss accounting across the same five blocker families isolated by
 the prior hourly run.
 
-In all five mathematical families, the run pushed a broad blocker down to a sharper
+In all five mathematical families, the investigation pushed a broad blocker down to a sharper
 first missing object. In the process lane, it made future convergence instrumentation
 prospective rather than retroactive.
 

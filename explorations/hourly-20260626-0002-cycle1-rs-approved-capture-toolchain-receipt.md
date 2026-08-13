@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 1 RS Approved Capture Toolchain Receipt"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 1
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "ApprovedBrowserCaptureToolchainForFBozSSLxFvIWindow_0002_C1_RS_V1"
 verdict: "conditional_toolchain_admitted_no_frame"

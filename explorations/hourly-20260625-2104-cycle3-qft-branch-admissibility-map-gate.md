@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 3 QFT Branch Admissibility Map Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 3
-lane: 4
 doc_type: qft_branch_admissibility_map_gate
 artifact_id: "BranchAdmissibilityAndObservationMapReceipt_2104_C3_L4_V1"
 verdict: "UNDERDEFINED_SOURCE_BRANCH_ADMISSIBILITY_AND_IOTA_B_ROWS_ABSENT"

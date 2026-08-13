@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 3 QFT Branch Provenance Transition Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 3
-lane: "QFTBranchProvenanceTransitionCloseout"
 doc_type: "frontier_closeout"
 artifact_id: "QFTBranchProvenanceTransitionCloseout_0502_C3_QFT_V0"
 verdict: "underdefined_no_restart_until_source_branch_record_category_action_cocycle_packet"

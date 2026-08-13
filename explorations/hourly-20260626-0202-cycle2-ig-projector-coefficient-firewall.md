@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 2 IG Projector Coefficient Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 2
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "IGProjectorCoefficientFirewall_0202_C2_IG_V1"
 verdict: "blocked_coefficients_firewalled_before_projector_identity"

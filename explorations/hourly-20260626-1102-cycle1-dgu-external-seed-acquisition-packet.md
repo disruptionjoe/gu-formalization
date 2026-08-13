@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 1 DGU External Seed Acquisition Packet"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "ExternalUCSDDGU01BranchPureSourceAssetSeedAcquisitionPacket_1102_C1_L1_V1"
 verdict: "closed_scoped_negative_no_branch_pure_external_seed_present"
 owned_path: "explorations/hourly-20260626-1102-cycle1-dgu-external-seed-acquisition-packet.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 1 DGU External Seed Acquisition Packet
@@ -35,7 +32,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a DGU mathematical failure. It is a scoped negative acquisition
@@ -254,9 +250,7 @@ Negative acquisition receipt emitted here:
 ```text
 receipt_id: NegativeExternalUCSDDGU01BranchPureSourceAssetSeedAcquisitionReceipt_V1
 predicate_id: ExternalUCSDDGU01BranchPureSourceAssetSeedAcquisitionPacket_V1
-run_id: hourly-20260626-1102
 cycle: 1
-lane: 1
 scope: repo-local assigned sources plus lightweight public lookup, no large media download
 official_event_metadata_present: true
 public_video_locator_present: true
@@ -269,7 +263,6 @@ producer_positive_rerun_allowed: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 10. JSON Summary

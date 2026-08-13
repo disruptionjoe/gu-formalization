@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 1 PTUJ Single Complete Branch Receipt Attempt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 1
-lane: "1 PTUJ"
 doc_type: ptuj_single_complete_branch_receipt_attempt
 artifact_id: "SingleCompletePTUJBranchReceiptAttempt_2104_C1_L1_V1"
 verdict: "blocked"

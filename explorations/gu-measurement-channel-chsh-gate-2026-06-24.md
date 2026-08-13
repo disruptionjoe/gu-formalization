@@ -5,7 +5,7 @@ status: exploration/provenance-gate
 doc_type: gu_measurement_channel_chsh_gate
 verdict: OBS_CHSH_PARK_STRONG_ANSATZ_ONLY
 depends_on:
-  - explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md
+  - explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md
   - explorations/observer-finality-physical-forcing-gate-2026-06-24.md
   - explorations/observer-finality-pati-salam-chsh-fixture-2026-06-24.md
   - explorations/observer-finality-gu-derived-chsh-state-attempt-2026-06-24.md

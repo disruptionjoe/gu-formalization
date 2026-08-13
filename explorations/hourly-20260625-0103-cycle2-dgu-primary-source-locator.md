@@ -3,7 +3,6 @@ title: "Hourly 20260625-0103 Cycle 2 DGU Primary Source Locator"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "2"
-lane: "4"
 doc_type: dgu_primary_source_locator
 locator_id: "DGUPrimarySourceLocator_V1"
 verdict: "UNDERDEFINED_BLOCKED__NO_PRIMARY_SOURCE_EMITS_ACTUAL_DGU01_OPERATOR"

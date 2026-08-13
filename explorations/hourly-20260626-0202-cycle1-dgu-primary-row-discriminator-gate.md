@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 1 DGU Primary Row Discriminator Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 1
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGUPrimaryRowDiscriminatorGate_0202_C1_DGU_V1"
 verdict: "blocked_no_primary_row_payload_discriminator"

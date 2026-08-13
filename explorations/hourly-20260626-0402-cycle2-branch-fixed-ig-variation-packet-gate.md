@@ -3,13 +3,10 @@ title: "Cycle 2 Branch-Fixed IG Variation Packet Gate"
 date: "2026-06-26"
 status: exploration
 doc_type: frontier_run_lane_artifact
-run_id: "hourly-20260626-0402"
 cycle: 2
-lane: "BranchFixedIGVariationPacketGate"
 artifact_id: "BranchFixedIGVariationPacketGate_V0"
 verdict: "BLOCKED_UNDERDEFINED_NEITHER_BRANCH_2A_NOR_BRANCH_3_INSTANTIATES_PACKET"
 owned_path: "explorations/hourly-20260626-0402-cycle2-branch-fixed-ig-variation-packet-gate.md"
-claim_status_change: false
 ---
 
 # Cycle 2 Branch-Fixed IG Variation Packet Gate
@@ -446,7 +443,7 @@ The source geometry supplies only legal templates and no branch selector.
 Recommended split if this is run in parallel:
 
 ```text
-Lane A: TauPlusBranch2AConstraintSourceTest_V0
+research maintenance: TauPlusBranch2AConstraintSourceTest_V0
 Lane B: K_IGSourceSelectionTest_V0
 Integration lane: BranchFixedIGVariationSourceLock_V0
 ```

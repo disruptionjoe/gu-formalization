@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 2 RS Negative Receipt Scope Gate"
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 2
-lane: 3
 doc_type: rs_negative_receipt_scope_gate
 artifact_id: "RSNegativeReceiptScopeGate_V1"
 verdict: "SCOPED_RS_MANUSCRIPT_FORMULA_DIAGRAM_FAIL_GLOBAL_NO_GO_BLOCKED"

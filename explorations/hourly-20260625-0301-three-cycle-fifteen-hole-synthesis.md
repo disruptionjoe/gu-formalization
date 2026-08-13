@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260625 0301 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-0301"
 runbook: "process/runbooks/three-cycle-fifteen-hole-run.md"
 status: synthesis
 doc_type: three_cycle_closeout
@@ -15,7 +14,7 @@ companion_audit: "tests/hourly_20260625_0301_three_cycle_synthesis_audit.py"
 ## 1. Verdict
 
 This 3-1-5-4 run completed three five-lane cycles and produced fifteen quality
-holes. The run materially improved the source state by acquiring and hashing a
+holes. The investigation materially improved the source state by acquiring and hashing a
 repo-local author-manuscript PDF, then converting broad manuscript mining into
 rendered source-identity, rival-elimination, finite-extraction, and visual
 artifact gates.
@@ -190,9 +189,9 @@ physical-recovery claim receives improved evidential status from this run.
   "version": "2026-06-25",
   "run_id": "hourly-20260625-0301",
   "runbook": "process/runbooks/three-cycle-fifteen-hole-run.md",
-  "orchestrator_model": "gpt-5.5",
+  "orchestrator_model": "a privately selected research model.5",
   "orchestrator_reasoning": "high",
-  "worker_model": "gpt-5.5",
+  "worker_model": "a privately selected research model.5",
   "worker_reasoning": "medium",
   "final_review_reasoning": "high",
   "verdict": "FIFTEEN_QUALITY_HOLES_LOCAL_MANUSCRIPT_ACQUIRED_ZERO_ACCEPTED_RECEIPTS_NO_PROOF_RESTART",

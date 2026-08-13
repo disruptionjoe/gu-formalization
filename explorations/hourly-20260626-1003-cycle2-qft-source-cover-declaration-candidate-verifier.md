@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 2 QFT Source Cover Declaration Candidate Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 2
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTAdmittedSourceCoverDeclarationCandidateVerifier_1003_C2_L5_V1"
 verdict: "candidate_verifier_specified_and_applied_rejected_at_source_context_locator"
 owned_path: "explorations/hourly-20260626-1003-cycle2-qft-source-cover-declaration-candidate-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 2 QFT Source Cover Declaration Candidate Verifier
@@ -39,7 +36,6 @@ admissibility_authority_found: false
 local_records_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 The candidate-verifier step consumes the cycle-1 obstruction in the narrow

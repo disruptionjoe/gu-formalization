@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 3 Author Manuscript Acquisition Row"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: 3
-lane: 4
 doc_type: author_manuscript_acquisition_row
 artifact_id: "AuthorManuscriptAcquisitionRow_V1"
 verdict: "BLOCKED_MANUSCRIPT_NOT_ACQUIRED_RELEASE_PAGE_NOT_RECEIPT"

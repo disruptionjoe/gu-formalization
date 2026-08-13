@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 3
-lane: 5
 doc_type: "three_cycle_fifteen_hole_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0701_V1"
 verdict: "fifteen_holes_integrated_qft_schema_close_only_no_proof_restart"
 owned_path: "explorations/hourly-20260626-0701-three-cycle-fifteen-hole-synthesis.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Three-Cycle Fifteen-Hole Synthesis

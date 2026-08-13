@@ -7,7 +7,7 @@ verdict: "BRIDGE_MODEL_FORMULATED; GENERIC_TOLERANCES_DO_NOT_MATCH; CONTACT_REQU
 depends_on:
   - "explorations/cross-program-lambda-coefficient-2026-06-23.md"
   - "explorations/time-as-finality-crosswalk/fr2-bvn-rate-of-classicality-derivation-2026-06-22.md"
-  - "explorations/4d-reduction-62-persona-steelman-hegelian-2026-06-22.md"
+  - "explorations/4d-reduction-62-perspective-steelman-hegelian-2026-06-22.md"
   - "NEXT-STEPS.md F5"
 ---
 
@@ -287,6 +287,6 @@ F4. If the two programs use different definitions of `t_obs`, the shared scaling
 - `explorations/cross-program-lambda-coefficient-2026-06-23.md` (GU/TaF comparison)
 - `explorations/time-as-finality-crosswalk/fr2-bvn-rate-of-classicality-derivation-2026-06-22.md`
   (Gamma_min derivation)
-- `explorations/4d-reduction-62-persona-steelman-hegelian-2026-06-22.md` (P62 Tikhonov proposal)
+- `explorations/4d-reduction-62-perspective-steelman-hegelian-2026-06-22.md` (P62 Tikhonov proposal)
 - H. M. Wiseman and G. J. Milburn, "Quantum Measurement and Control," CUP (2009), Ch. 4
   (standard quantum limit and decoherence in continuous measurement).

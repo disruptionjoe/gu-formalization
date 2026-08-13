@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 3 PTUJ Formula Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 3
-lane: "PTUJ"
 doc_type: "frontier_closeout"
 artifact_id: "PTUJFormulaTransitionCloseout_0202_C3_PTUJ_V1"
 verdict: "blocked_no_restart_before_branch_receipt"

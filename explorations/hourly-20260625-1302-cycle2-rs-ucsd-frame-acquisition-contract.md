@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 2 RS UCSD Frame Acquisition Contract"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 2
-lane: 4
 doc_type: rs_ucsd_frame_acquisition_contract
 artifact_id: "RS_UCSD_FRAME_ACQUISITION_CONTRACT"
 verdict: "BLOCKED_FRAME_ACQUISITION_REMAINS_FIRST_MISSING_SOURCE_OBJECT"

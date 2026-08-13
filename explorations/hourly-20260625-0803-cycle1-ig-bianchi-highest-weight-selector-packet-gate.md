@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 1 IG Bianchi Highest Weight Selector Packet Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 1
-lane: 2
 doc_type: ig_bianchi_highest_weight_selector_packet_gate
 artifact_id: "PrimarySourceOrRecoveredNotes_BianchiHighestWeightShiabSelectorPacket_V1"
 verdict: "BLOCKED_ZERO_ACCEPTED_SELECTOR_PACKET_NO_PROOF_RESTART"

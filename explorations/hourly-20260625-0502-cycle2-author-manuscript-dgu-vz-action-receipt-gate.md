@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 2 Author Manuscript DGU/VZ Action Receipt Gat
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 2
-lane: 1
 doc_type: author_manuscript_dgu_vz_action_receipt_gate
 artifact_id: "AuthorManuscriptDGUVZActionReceiptGate_V1"
 verdict: "QUARANTINED_POSITIVE_BOSONIC_ACTION_LOCATOR_ZERO_ACCEPTED_DGU_VZ_RECEIPTS"

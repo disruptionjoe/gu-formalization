@@ -7,7 +7,7 @@ verdict: "CONTRACT_TYPED_FOR_CITATION_GOVERNANCE; PRIMARY_ACTION_STILL_UNDERDEFI
 owned_path: "explorations/primary-gu-interface-contract-2026-06-24.md"
 audit_script: "tests/primary_gu_interface_contract_audit.py"
 depends_on:
-  - "explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "process/runbooks/five-lane-frontier-run.md"
   - "explorations/goal-draft-primary-gu-action-operator-spec-2026-06-24.md"
   - "explorations/gu-typed-operator-action-spine-2026-06-24.md"
@@ -599,7 +599,7 @@ The next step is not another global summary. It is a branch-closing proof packet
 
 ## Sources Read
 
-- `explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
+- `explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md`
 - `process/runbooks/five-lane-frontier-run.md`
 - `explorations/goal-draft-primary-gu-action-operator-spec-2026-06-24.md`
 - `explorations/gu-typed-operator-action-spine-2026-06-24.md`

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 2 IG Product B First Admission Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 2
-lane: 2
 doc_type: ig_product_b_first_admission_gate
 artifact_id: "IG_PRODUCT_B_FIRST_ADMISSION_GATE_1802_C2_L2_V1"
 verdict: "BLOCKED_PRODUCT_B_FIRST_REQUIRED_NO_BYPASS"
@@ -252,7 +250,7 @@ decompose V([0,1,0,0,0,0,0]) tensor V([0,0,0,0,0,1,0])
 The acceptable source is raw output from a D7-capable tool such as LiE,
 SageMath, GAP with an appropriate package, Magma, or a formal D7 branching
 proof that supplies the same finite data. Only after Product B is admitted
-should the run spend proof-restart effort on:
+should the investigation spend proof-restart effort on:
 
 ```text
 decompose V([1,0,0,0,0,0,0]) tensor V([0,0,0,0,0,0,1])

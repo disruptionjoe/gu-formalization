@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 3 Proof Restart Readiness Matrix"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 3
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "ProofRestartReadinessMatrix_0604_C3_V1"
 verdict: "all_routes_locked_no_claim_status_changes"
 owned_path: "explorations/hourly-20260626-0604-cycle3-proof-restart-readiness-matrix.md"
 companion_audit: "tests/hourly_20260626_0604_cycle3_closeout_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 3 Proof Restart Readiness Matrix

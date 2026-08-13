@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 3 DGU Scoped Negative Delta Receipt Classifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "NegativeSourceStableDGU01SectorRuleIdAndFamilyIdentityDeltaReceipt_0701_C3_L1_V1"
 verdict: "closed_scoped_negative_delta_receipt_emitted"
 owned_path: "explorations/hourly-20260626-0701-cycle3-dgu-scoped-negative-delta-receipt-classifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 3 DGU Scoped Negative Delta Receipt Classifier

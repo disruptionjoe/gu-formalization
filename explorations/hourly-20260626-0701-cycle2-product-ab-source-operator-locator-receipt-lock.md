@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 2 Product A/B Source Operator Locator Receipt Lock"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "ProductABSourceOperatorLocatorReceiptLockGate_0701_C2_L4_V1"
 verdict: "blocked_locator_receipt_locked_by_absent_recovered_member"
 owned_path: "explorations/hourly-20260626-0701-cycle2-product-ab-source-operator-locator-receipt-lock.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 2 Product A/B Source Operator Locator Receipt Lock

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 3 PTUJ Proof Restart Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 3
-lane: "PTUJ"
 doc_type: "closeout_gate"
 artifact_id: "PTUJProofRestartClassifier_2202_C3_L3_V1"
 verdict: "blocked"

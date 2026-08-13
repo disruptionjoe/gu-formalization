@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 2 PTUJ Cross-Branch Assembly Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 2
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJCrossBranchAssemblyFirewall_0103_C2_PTUJ_V1"
 verdict: "blocked_cross_branch_assembly_forbidden"

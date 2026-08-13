@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit IGVisualManuscriptSelectorBridge_V1 for Cycle 2 Lane 3."""
+"""Audit IGVisualManuscriptSelectorBridge_V1 for Cycle 2 result-hardening research."""
 
 from __future__ import annotations
 

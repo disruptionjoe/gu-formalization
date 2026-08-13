@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 2 IG Two-Row Coefficient Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 2
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "ProductABSourceOperatorTwoRowCoefficientGate_2302_C2_IG_V1"
 verdict: "BLOCKED_SOURCE_LOCATOR_ABSENT_COEFFICIENT_DERIVATION_FORBIDDEN"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 2 DGU Sector-Rule Same-Operator Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 2
-lane: 3
 doc_type: dgu_sector_rule_same_operator_matrix
 artifact_id: "DGUSectorRuleSameOperatorAdmissionMatrix_V1"
 verdict: "BLOCKED_MISSING_SOURCE_EMITTED_SECTOR_RULE_FOR_SAME_OPERATOR_PACKET"

@@ -233,7 +233,7 @@ The constructive next object is:
 CycleLocalTransitionLedger_3_1_5_4_V1
 ```
 
-It should be created by the run wrapper before future workers start and updated after each
+It should be created by the investigation wrapper before future workers start and updated after each
 worker returns. It is a concrete JSON ledger with:
 
 - a `pre_rows` array emitted by the coordinator;

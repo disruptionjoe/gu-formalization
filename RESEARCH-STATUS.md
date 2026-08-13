@@ -56,7 +56,7 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
 | positive GU constructions lane | exploration | `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
-| persona process and dialectics | process | `process/` |
+| perspective process and dialectics | process | `process/` |
 | early frontier packets | archive | `archive/` |
 | source and media provenance | source | `sources/` |
 | literature briefs | source | `literature/` |

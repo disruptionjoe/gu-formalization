@@ -44,7 +44,7 @@ class Hourly202606250301ThreeCycleSynthesisAudit(unittest.TestCase):
             self.summary["runbook"],
             "process/runbooks/three-cycle-fifteen-hole-run.md",
         )
-        self.assertEqual(self.summary["orchestrator_model"], "gpt-5.5")
+        self.assertEqual(self.summary["orchestrator_model"], "a privately selected research model.5")
         self.assertEqual(self.summary["orchestrator_reasoning"], "high")
         self.assertEqual(self.summary["worker_reasoning"], "medium")
         self.assertEqual(self.summary["final_review_reasoning"], "high")

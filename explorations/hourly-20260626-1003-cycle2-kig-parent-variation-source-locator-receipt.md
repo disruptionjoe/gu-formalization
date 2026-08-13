@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 2 KIG Parent Variation Source Locator Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 2
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGParentVariationSourceLocatorReceipt_1003_C2_L3_V1_Result"
 verdict: "blocked_source_locator_not_found_trace_retry_barred"
 owned_path: "explorations/hourly-20260626-1003-cycle2-kig-parent-variation-source-locator-receipt.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 2 KIG Parent Variation Source Locator Receipt
@@ -44,7 +41,6 @@ exterior_degree_pre_operator_found: false
 source_row_passing_firewall_constructible: false
 trace_eliminator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 The cycle-1 obstruction is consumed as a narrower negative: the missing field is
@@ -214,7 +210,6 @@ trace_eliminator_retry_allowed: false
 source_row_passing_firewall_constructible: false
 exact_GR_restart_allowed: false
 theta_restart_allowed: false
-claim_status_change: false
 ```
 
 No claim-status workflow is triggered because no claim is promoted, demoted, or

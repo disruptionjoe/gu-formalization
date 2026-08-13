@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0202 Cycle 1 RS Immutable Frame Package Intake Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0202"
 cycle: 1
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSImmutableFramePackageIntakeGate_0202_C1_RS_V1"
 verdict: "blocked_no_immutable_target_frame_package"
@@ -102,7 +100,7 @@ The next object remains:
 RSBrowserCaptureToolchainAndFirstFrameReceipt_V1
 ```
 
-but this run separates its two legal producers:
+but this investigation separates its two legal producers:
 
 ```text
 lawful_timestamp_verified_browser_frame

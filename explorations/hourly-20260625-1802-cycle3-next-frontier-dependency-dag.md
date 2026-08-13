@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 3 Next Frontier Dependency DAG"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 3
-lane: 5
 doc_type: next_frontier_dependency_dag
 artifact_id: "NextFrontierDependencyDagAfter1802_C3_L5_V1"
 verdict: "NEXT_FRONTIER_REMAINS_UPSTREAM_PRODUCER_ADMISSION_ZERO_RECEIPTS"

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 3 Target Import Guard Receipt Audit"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "3"
-lane: "5"
 doc_type: target_import_guard_receipt_audit
 artifact_id: "TargetImportGuardReceiptAudit_V1"
 verdict: "BLOCKED_NO_PROOF_RESTART_GUARD_READY_FOR_FUTURE_RECEIPTS"

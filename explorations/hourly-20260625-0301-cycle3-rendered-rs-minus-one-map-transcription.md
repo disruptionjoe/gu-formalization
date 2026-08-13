@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 3 Rendered RS Minus-One Map Transcription"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 3
-lane: 2
 doc_type: rendered_rs_minus_one_map_transcription
 artifact_id: "RenderedCriticalDisplayTranscriptionPacket_RS_V1"
 verdict: "BLOCKED_RENDERED_SCOPED_NEGATIVE_ZERO_ACCEPTED_RS_MINUS_ONE_MAP"

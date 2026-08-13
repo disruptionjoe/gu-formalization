@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 1 DGU Official Lawful Frame Source Asset Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialOrLawfulUCSDDGU01FrameSourceAssetGate_1003_C1_L1_V1"
 verdict: "closed_scoped_negative_no_repo_local_official_or_lawful_ucsd_dgu01_frame_source_asset"
 owned_path: "explorations/hourly-20260626-1003-cycle1-dgu-official-lawful-frame-source-asset-gate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 1 DGU Official Lawful Frame Source Asset Gate
@@ -39,7 +36,6 @@ alternate_equivalent_asset_present: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a global DGU failure. It is a repo-local source-asset gate: visual

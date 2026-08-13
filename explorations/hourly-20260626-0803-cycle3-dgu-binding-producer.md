@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 3 DGU Binding Producer"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 3
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "SourceStableDGU01SectorRuleIdAndFamilyIdentityBindingProducer_0803_C3_L1_V1"
 verdict: "closed_negative_v4_positive_delta_packet_rejected"
 owned_path: "explorations/hourly-20260626-0803-cycle3-dgu-binding-producer.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 3 DGU Binding Producer

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 2 DGU Source Scope Expansion Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 2
-lane: "dgu-source-scope-expansion"
 doc_type: "source_scope_expansion_receipt"
 artifact_id: "NegativePrimarySourceDGU01SectorRuleRowReceipt_V2"
 verdict: "blocked_expanded_scope_does_not_admit_primary_row"

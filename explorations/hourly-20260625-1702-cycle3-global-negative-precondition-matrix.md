@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 3 Global Negative Precondition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 3
-lane: 3
 doc_type: global_negative_precondition_matrix
 artifact_id: "GLOBAL_NEGATIVE_PRECONDITION_MATRIX_1702_C3_L3_V1"
 verdict: "BLOCKED_NO_GLOBAL_OR_CLASS_RELATIVE_NO_GO_PROMOTED"
@@ -74,7 +72,7 @@ closure proof covering the relevant class.
 
 ## 3. Strongest Positive Result
 
-The strongest positive result is a strict cross-lane firewall. It prevents
+The strongest positive result is a strict cross-agenda firewall. It prevents
 three common errors:
 
 1. Treating absence of a current source receipt as proof that the source object
@@ -112,7 +110,7 @@ does not provide a no-go theorem.
 The first exact obstruction to a global negative bundle is:
 
 ```text
-NoGlobalNegativeBundle_1702 because the run lacks theorem-class coverage,
+NoGlobalNegativeBundle_1702 because the investigation lacks theorem-class coverage,
 route exhaustion, source exhaustion, proof-object coverage, and branch closure.
 ```
 

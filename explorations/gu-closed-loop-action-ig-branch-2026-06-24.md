@@ -8,7 +8,7 @@ verdict: "BRANCH_DECISION_NO_XI_DERIVED"
 owned_path: "explorations/gu-closed-loop-action-ig-branch-2026-06-24.md"
 branch_gate_script: "tests/gu_action_branch_gate.py"
 depends_on:
-  - "explorations/persona-review-cross-panel-synthesis-2026-06-24.md"
+  - "explorations/perspective-review-cross-panel-synthesis-2026-06-24.md"
   - "explorations/gu-action-4d-physics-gate-2026-06-24.md"
   - "explorations/gu-minimal-action-spec-2026-06-24.md"
   - "explorations/ig-dynamics-nonzero-theta-action-gate-2026-06-24.md"
@@ -765,7 +765,7 @@ OPEN_ACTION_GATE:
 
 Required:
 
-- `explorations/persona-review-cross-panel-synthesis-2026-06-24.md`
+- `explorations/perspective-review-cross-panel-synthesis-2026-06-24.md`
 - `explorations/gu-action-4d-physics-gate-2026-06-24.md`
 - `explorations/gu-minimal-action-spec-2026-06-24.md`
 - `explorations/ig-dynamics-nonzero-theta-action-gate-2026-06-24.md`

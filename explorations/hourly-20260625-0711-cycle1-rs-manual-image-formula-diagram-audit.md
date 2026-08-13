@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0711 Cycle 1 RS Manual Image Formula Diagram Audit"
 date: "2026-06-25"
-run_id: "hourly-20260625-0711"
 cycle: 1
-lane: 5
 doc_type: rs_manual_image_formula_diagram_audit
 artifact_id: "ManualImageLevelRSFormulaDiagramAudit_V1"
 verdict: "IMAGE_AUDIT_PRESERVES_SCOPED_RS_FAIL_ZERO_ACCEPTED_RECEIPTS"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 2 QFT Source Field Upgrade Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 2
-lane: 5
 doc_type: qft_source_field_upgrade_gate
 artifact_id: "QFTSourceFieldUpgradeGate_1802_C2_L5_V1"
 verdict: "UNDERDEFINED_NO_SCHEMA_OR_DOWNSTREAM_UPGRADE_SOURCE_IOTA_AND_TYPED_R_RAW_FIRST"

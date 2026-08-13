@@ -31,7 +31,7 @@ updated_at: "2026-05-31"
 
 ## 1. What was tested (in plain terms)
 
-The six-persona meta-layer dialectic and the 21-persona meta-verdict surfaced a structural hypothesis: maybe the right superclass for the GU bridge work is not "monotone-distributed-query systems" (CALM, too narrow) but "local-rule substrates with projected observables" (CA-class, broader, with CALM as its monotone-reducible corner).
+The six-perspective meta-layer dialectic and the 21-perspective meta-verdict surfaced a structural hypothesis: maybe the right superclass for the GU bridge work is not "monotone-distributed-query systems" (CALM, too narrow) but "local-rule substrates with projected observables" (CA-class, broader, with CALM as its monotone-reducible corner).
 
 WRK-395 tested three things to evaluate that hypothesis:
 
@@ -127,7 +127,7 @@ Per validation/4 + walkthrough_review, the decisions Joe makes are:
 
 ## 5. Confidence and gaps
 
-**Confidence: medium-high.** The empirical findings (Q_A recoding, rr-axis canonical instances) are concrete and persona-stable. The synthesis verdict (COMPLEMENTARY) is reasoned and 5-persona-supported but `[speculation]` rather than theorem.
+**Confidence: medium-high.** The empirical findings (Q_A recoding, rr-axis canonical instances) are concrete and perspective-stable. The synthesis verdict (COMPLEMENTARY) is reasoned and 5-perspective-supported but `[speculation]` rather than theorem.
 
 **Top three gaps:**
 
@@ -148,7 +148,7 @@ Per validation/4 + walkthrough_review, the decisions Joe makes are:
 - ✓ **DoD 3b: Class-4 CA ↔ comp-irred?** `rr-axis-empirical-validation.md` §1.4 (confirmed; Rule 110 + halting-problem).
 - ✓ **DoD 3c: Reversible CA ↔ signed-BV?** `rr-axis-empirical-validation.md` §2 (NO, reversibility doesn't pin rr; observable does).
 - ✓ **DoD 4: CI deeper / complementary / orthogonal vs BvN?** `ci-vs-bvn-structural-verdict.md` §1-8 (verdict: COMPLEMENTARY).
-- ✓ **DoD 5: Output bears cross-references to persona-flagged finding + 21-persona meta-verdict.** This file §3 + `persona-dialectic.md` §6 + `ci-vs-bvn-structural-verdict.md` §7.1 (Option II-Retreat unchanged; CA-class is v4 lane).
+- ✓ **DoD 5: Output bears cross-references to perspective-flagged finding + 21-perspective meta-verdict.** This file §3 + `perspective-dialectic.md` §6 + `ci-vs-bvn-structural-verdict.md` §7.1 (Option II-Retreat unchanged; CA-class is v4 lane).
 
 ---
 

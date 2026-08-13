@@ -3,7 +3,6 @@ title: "Hourly 20260625 0103 Cycle 2 Primary GU Source Receipt Availability Ledg
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "2"
-lane: "5"
 doc_type: primary_gu_source_receipt_availability_ledger
 artifact_id: "PrimaryGUSourceReceiptAvailabilityLedger_V1"
 verdict: "BLOCKED_NO_FAMILY_HAS_PRIMARY_SOURCE_RECEIPT"
@@ -42,7 +41,7 @@ No GU claim is promoted by this ledger.
 
 ## 2. Direct Source Derivations
 
-`RESEARCH-POSTURE.md` requires the run to optimize for Mission A reconstruction
+`RESEARCH-POSTURE.md` requires the investigation to optimize for Mission A reconstruction
 while preserving source discipline: compatibility is not derivation, process
 discipline is not physics evidence, and missing source objects must stay missing
 until supplied.

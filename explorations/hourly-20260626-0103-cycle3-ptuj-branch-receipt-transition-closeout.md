@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 3 PTUJ Branch Receipt Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 3
-lane: "PTUJ"
 doc_type: "frontier_closeout"
 artifact_id: "PTUJBranchReceiptTransitionCloseout_0103_C3_PTUJ_V1"
 verdict: "blocked_no_single_branch_receipt"

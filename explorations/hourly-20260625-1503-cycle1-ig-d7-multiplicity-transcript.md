@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 1 IG D7 Multiplicity Transcript"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 1
-lane: 2
 doc_type: ig_d7_multiplicity_transcript
 artifact_id: "IG_D7_MULTIPLICITY_TRANSCRIPT_1503_C1_L2_V1"
 verdict: "BLOCKED_NO_RAW_D7_TRANSCRIPT"

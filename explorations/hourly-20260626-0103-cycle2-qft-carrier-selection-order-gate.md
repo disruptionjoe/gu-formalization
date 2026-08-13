@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 2 QFT Carrier Selection Order Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 2
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTCarrierSelectionOrderGate_0103_C2_QFT_V1"
 verdict: "underdefined_carrier_selection_blocked"

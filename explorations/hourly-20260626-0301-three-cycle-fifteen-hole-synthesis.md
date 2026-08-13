@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260626 0301 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-26"
-run_id: "hourly-20260626-0301"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0301_V1"
 verdict: "fifteen_holes_no_new_receipts_no_proof_restart"
@@ -12,7 +11,7 @@ owned_path: "explorations/hourly-20260626-0301-three-cycle-fifteen-hole-synthesi
 
 ## Plain-English Closeout
 
-This run completed fifteen quality holes across three sequential cycles. It
+This investigation completed fifteen quality holes across three sequential cycles. It
 admitted no new source, proof, frame, branch, row, carrier, formula, or
 route-local receipts. No claim was promoted, demoted, or rescoped, so the
 claim-status consistency workflow was not triggered.

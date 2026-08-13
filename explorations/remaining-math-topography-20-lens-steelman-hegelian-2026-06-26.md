@@ -5,9 +5,9 @@ status: exploration
 doc_type: topography_steelman_hegelian_synthesis
 verdict: "NO_CLAIM_PROMOTIONS; TOPOGRAPHY_MAP_BEFORE_CERTIFICATE"
 depends_on:
-  - "process/hegelian-method/hegelian-persona-protocol.md"
+  - "process/hegelian-method/hegelian-perspective-protocol.md"
   - "explorations/quantum-chaos-crypto-ten-lens-steelman-hegelian-2026-06-26.md"
-  - "explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
 ---
 
 # Remaining Math Topography: Twenty-Lens Steelman And Hegelian Synthesis

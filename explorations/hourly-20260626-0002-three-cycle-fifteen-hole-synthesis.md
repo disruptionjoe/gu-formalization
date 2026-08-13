@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260626 0002 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0002_V1"
 verdict: "one_toolchain_receipt_no_proof_restart"
@@ -12,7 +11,7 @@ owned_path: "explorations/hourly-20260626-0002-three-cycle-fifteen-hole-synthesi
 
 ## Plain-English Closeout
 
-This run completed fifteen quality holes across three cycles. It admitted one
+This investigation completed fifteen quality holes across three cycles. It admitted one
 narrow route-local RS producer receipt:
 
 ```text

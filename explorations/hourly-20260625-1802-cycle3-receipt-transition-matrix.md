@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1802 Cycle 3 Receipt Transition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-1802"
 cycle: 3
-lane: 2
 doc_type: receipt_transition_matrix
 artifact_id: "RECEIPT_TRANSITION_MATRIX_AFTER_1802_C3_L2_V1"
 verdict: "blocked"
@@ -37,7 +35,7 @@ downstream proof work.
 
 ## 2. Sources read and transition rule
 
-I read the run posture, both frontier runbooks, all five 1802 cycle 1 producer
+I read the investigation posture, both frontier runbooks, all five 1802 cycle 1 producer
 artifacts, all five 1802 cycle 2 admission artifacts, and the 1702 transition
 matrix for format only.
 

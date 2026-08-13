@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 3 UCSD Visual Slide Capture Batch"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: 3
-lane: 3
 doc_type: visual_slide_capture_batch_gate
 artifact_id: "UCSDVisualSlideCaptureBatch_V1"
 verdict: "CONDITIONAL_BATCH_SPECIFIED_VISUAL_MATERIAL_NOT_CAPTURED_ACCEPTED_RECEIPTS_ZERO"

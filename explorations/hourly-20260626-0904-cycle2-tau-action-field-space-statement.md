@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 2 Tau Action Field Space Statement"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 2
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauActionAdmissibleIGFieldSpaceStatement_0904_C2_L2_V1"
 verdict: "underdefined_no_source_statement_selects_full_or_graph_field_space"
 owned_path: "explorations/hourly-20260626-0904-cycle2-tau-action-field-space-statement.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 2 Tau Action Field Space Statement

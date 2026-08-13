@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 2 Tau Beta Variation Domain Source Row"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 2
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauActionBetaVariationDomainSourceRow_1003_C2_L2_V1"
 verdict: "closed_negative_verifier_returns_UNDECLARED_no_branch_unlocked"
 owned_path: "explorations/hourly-20260626-1003-cycle2-tau-beta-variation-domain-source-row.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 2 Tau Beta Variation Domain Source Row
@@ -58,7 +55,6 @@ branch_unlocked: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. What Was Derived Directly From Repo Sources

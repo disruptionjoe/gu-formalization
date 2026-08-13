@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 1 DGU Sector Rule Producer Contract"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 1
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGU01SourceSectorRuleLocatorProducerContract_2302_C1_DGU_V1"
 verdict: "BLOCKED_CONTRACT_DEFINED_NO_SOURCE_EMITTED_0_1_SECTOR_RULE"

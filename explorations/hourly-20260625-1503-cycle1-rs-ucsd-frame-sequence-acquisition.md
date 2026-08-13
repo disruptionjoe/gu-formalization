@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 1 RS UCSD Frame Sequence Acquisition"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 1
-lane: 4
 doc_type: rs_ucsd_frame_sequence_acquisition
 artifact_id: "UCSDFrameSequenceForRolledOperatorWindow_V1"
 verdict: "BLOCKED_REPO_LOCAL_FRAME_SEQUENCE_ABSENT_TRANSCRIPT_AGGREGATE_ONLY_ZERO_RS_RECEIPTS"

@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 2 KIG Rival Class Eliminator Preorder"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 2
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGRivalClassEliminatorPreorder_0604_C2_V1"
 verdict: "preorder_defined_multiple_classes_survive"
 owned_path: "explorations/hourly-20260626-0604-cycle2-kig-rival-class-eliminator-preorder.md"
 companion_audit: "tests/hourly_20260626_0604_cycle2_admission_predicates_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 2 KIG Rival Class Eliminator Preorder

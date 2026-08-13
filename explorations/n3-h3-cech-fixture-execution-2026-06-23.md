@@ -36,10 +36,10 @@ GU formalization:
 Temporal-issuance:
 
 - `explorations/E015-holonomy-fixture.md`.
-- `agent-runs/RUN-0037-holonomy-fixture.md`.
+- `agent-runs/historical-investigation`.
 - `agent-governance/NEXT-TRIGGER-PLAN.md`.
 - `explorations/E024-presheaf-ab-absorber-test.md`.
-- `agent-runs/RUN-0044-presheaf-ab-absorber-test.md`.
+- `agent-runs/historical-investigation`.
 - Search results across the repo for `cech_sheaf_fixture`, `Cech/sheaf`,
   `Cech`, `sheaf fixture`, `holonomy fixture`, and related terms.
 
@@ -165,7 +165,7 @@ E015. It shows that filtered sheaf data can matter; it does not show that
 Temporal Issuance admissibility forces the sheaf, compatibility predicate, or
 cocycle values.
 
-E024/RUN-0044 sharpen the same point from the temporal-issuance side. Generic
+E024/historical-investigation sharpen the same point from the temporal-issuance side. Generic
 Cech/no-global-section witnesses are absorbed by Abramsky-Brandenburger-style
 sheaf contextuality. TI-C017 survives only if C-typed admissibility
 independently determines the sheaf or compatibility predicate. That is exactly

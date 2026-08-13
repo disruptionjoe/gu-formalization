@@ -99,7 +99,7 @@ GU's own primary source, that this object is absent:
   `hourly-20260626-1302-cycle3` verdict: "declaration uninhabited"; the trichotomy
   `FULL_IG_FREE_BETA / FIXED_ALEPH_GRAPH / DYNAMIC_A_GRAPH` is source-unselected.
 
-## 3. The load-bearing machine fact, re-verified this run in BOTH models
+## 3. The load-bearing machine fact, re-verified this investigation in BOTH models
 
 If the pure-gauge image `im(d_A)` were annihilated inside the gamma-trace kernel,
 then `R^phys = ker(Gamma)/im(gauge)` would be a clean subspace subtraction and **no

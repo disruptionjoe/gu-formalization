@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 2 QFT Source Row Inventory Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 2
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchLabelAdmissibilitySourceRowInventory_2302_C2_QFT_V1"
 verdict: "underdefined_negative_source_row_inventory_only_host_schema_target_candidates"

@@ -8,7 +8,7 @@ owned_path: "explorations/marble-wood-local-minimum-open-avenues-ledger-2026-06-
 optional_audit: "tests/marble_wood_open_avenues_audit.py"
 depends_on:
   - "process/runbooks/five-lane-frontier-run.md"
-  - "explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/source-geometry-not-quantized-gravity-contract-2026-06-24.md"
   - "explorations/quantum-gravity-reframing-no-go-map-2026-06-24.md"
   - "explorations/gr-shadow-recovery-certificate-2026-06-24.md"
@@ -586,7 +586,7 @@ already solved.
 ## Sources Read
 
 - `process/runbooks/five-lane-frontier-run.md`
-- `explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
+- `explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md`
 - `explorations/source-geometry-not-quantized-gravity-contract-2026-06-24.md`
 - `explorations/quantum-gravity-reframing-no-go-map-2026-06-24.md`
 - `explorations/gr-shadow-recovery-certificate-2026-06-24.md`

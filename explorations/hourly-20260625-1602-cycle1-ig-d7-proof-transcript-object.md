@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 1 IG D7 Proof Transcript Object"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 1
-lane: 2
 doc_type: ig_d7_proof_transcript_object
 artifact_id: "IG_D7_PROOF_TRANSCRIPT_OBJECT_1602_C1_L2_V1"
 verdict: "BLOCKED_NO_FORMAL_D7_PROOF_OR_RAW_TRANSCRIPT"

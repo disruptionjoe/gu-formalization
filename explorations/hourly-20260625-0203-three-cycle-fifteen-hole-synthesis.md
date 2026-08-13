@@ -33,7 +33,7 @@ companion_audit: "tests/hourly_20260625_0203_three_cycle_synthesis_audit.py"
 This 3-1-5-4 run produced fifteen quality holes and no GU mathematical or
 physics claim promotion.
 
-The run changed the source frontier from:
+The investigation changed the source frontier from:
 
 ```text
 RepoLocalPrimaryGUSourceReceiptMap_V1 missing
@@ -105,7 +105,7 @@ Blocked:
 Failed or no-go:
 
 - No global no-go was promoted.
-- No source was shown globally to lack a required object; the run mostly found
+- No source was shown globally to lack a required object; the investigation mostly found
   non-acquisition and quarantine, not complete negative receipts.
 - The only failed interpretation is process inflation: map existence, outlines,
   metadata, generated excerpts, release pages, and target-facing success cannot

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 3 Cross-Route Transition Matrix"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 3
-lane: "CrossRouteTransitionMatrix"
 doc_type: "frontier_transition_matrix"
 artifact_id: "CrossRouteTransitionMatrix_0402_C3_V1"
 verdict: "locked_multi_route_transition_matrix_no_claim_status_changes"
@@ -18,7 +16,7 @@ Verdict: **locked / multi-route transition matrix / no claim-status changes**.
 
 The 0402 run should not proceed to final synthesis as if any route has become a
 proof restart. All current routes remain locked at named first missing objects.
-The run has produced useful ordering information:
+The investigation has produced useful ordering information:
 
 ```text
 proof_restart_allowed_any_route = false
@@ -132,7 +130,7 @@ Recommended next-frontier order before any proof restart:
 
 ## 7. Final Synthesis Rule
 
-The final synthesis should report this run as a route-locking and scheduling run,
+The final synthesis should report this investigation as a route-locking and scheduling run,
 not as a claim-updating run.
 
 Allowed synthesis language:

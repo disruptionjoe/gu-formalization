@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 1 KIG Exterior Singleton Survival Certificate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 1
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGExteriorSingletonSurvivalCertificate_0701_C1_V1_Result"
 verdict: "underdefined_blocked_multiple_survivors_no_singleton_certificate"
 owned_path: "explorations/hourly-20260626-0701-cycle1-kig-exterior-singleton-survival-certificate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 1 KIG Exterior Singleton Survival Certificate

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 2 IG Coefficient Firewall Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 2
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "IGCoefficientFirewallGate_0103_C2_IG_V1"
 verdict: "blocked_before_source_coefficients"

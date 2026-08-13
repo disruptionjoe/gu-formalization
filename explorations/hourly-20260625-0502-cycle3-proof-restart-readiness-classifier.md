@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 3 Proof Restart Readiness Classifier"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 3
-lane: 5
 doc_type: proof_restart_readiness_classifier
 artifact_id: "ProofRestartReadinessClassifierAfterCycles1And2_V1"
 verdict: "NO_FAMILY_READY_ZERO_PROOF_RESTARTS"
@@ -39,7 +38,7 @@ DGU_VZ: not ready; quarantined bosonic action locator; missing actual D_GU^epsil
 
 ## 2. Direct Inputs
 
-This gate reads the run posture, the two frontier-run runbooks, and the
+This gate reads the investigation posture, the two frontier-run runbooks, and the
 cycle 1/2 source-gate artifacts listed in the assignment.
 
 Direct controlling rules:

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 2 Manuscript QFT Finite Extraction Receipt"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 2
-lane: 4
 doc_type: manuscript_qft_finite_extraction_receipt_candidate_search
 artifact_id: "AuthorManuscriptQFTFiniteExtractionReceiptSearch_V1"
 verdict: "UNDERDEFINED_ZERO_ACCEPTED_QFT_FINITE_EXTRACTION_RECEIPTS"

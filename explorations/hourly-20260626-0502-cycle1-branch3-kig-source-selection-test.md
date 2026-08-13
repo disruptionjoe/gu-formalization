@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0502 Cycle 1 Branch 3 K_IG Source Selection Test"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 1
-lane: "Branch3KIGSourceSelectionTest"
 doc_type: "frontier_gate"
 artifact_id: "K_IGSourceSelectionTest_V0"
 verdict: "blocked_underdefined_no_source_forced_branch3_dynamics_selector"
 owned_path: "explorations/hourly-20260626-0502-cycle1-branch3-kig-source-selection-test.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0502 Cycle 1 Branch 3 K_IG Source Selection Test

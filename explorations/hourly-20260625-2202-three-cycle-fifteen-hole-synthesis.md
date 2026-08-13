@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260625 2202 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_2202_V1"
 verdict: "no_proof_restart"
@@ -12,7 +11,7 @@ owned_path: "explorations/hourly-20260625-2202-three-cycle-fifteen-hole-synthesi
 
 ## 1. Plain-English Closeout
 
-The run completed fifteen quality holes across three cycles. One narrow
+The investigation completed fifteen quality holes across three cycles. One narrow
 precondition closed: the RS route now has a tracked owned directory/policy row
 for future `fBozSSLxFvI` visual evidence. No route admitted enough source-native
 data for proof restart.

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 1 DGU Identity Field Receipt Bundle"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 1
-lane: 3
 doc_type: dgu_identity_field_receipt_bundle
 artifact_id: "DGUIdentityFieldReceiptBundle_V1"
 verdict: "SCOPED_REPO_LOCAL_NEGATIVE_ACTUAL_DGU_01_IDENTITY_WITNESS_ABSENT"
@@ -225,7 +223,7 @@ or a checked manuscript page-window around Sections 8-12 with formula-level
 typing.
 ```
 
-The run should emit either:
+The investigation should emit either:
 
 1. `DGUActual01SectorIdentityPacket_V1`, if the sector rule and typed packet are
    source-emitted; or

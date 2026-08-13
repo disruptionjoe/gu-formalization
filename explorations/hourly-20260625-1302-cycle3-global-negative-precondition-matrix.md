@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 3 Global Negative Precondition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 3
-lane: 3
 doc_type: global_negative_precondition_matrix
 artifact_id: "GlobalNegativeReceiptBundlePreconditionAfter1302_V1"
 verdict: "NO_GLOBAL_NO_GO_PROMOTED_SCOPED_NEGATIVES_REMAIN_ROUTE_LOCAL"
@@ -32,7 +30,7 @@ allowed_now: route-local demotion and source-object construction
 blocked_now: global no-go promotion
 ```
 
-The conservative rule for this run is:
+The conservative rule for this investigation is:
 
 ```text
 Scoped absence is not global absence.

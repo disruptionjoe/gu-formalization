@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 1 IG Raw Formal D7 Branching Transcript"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 1
-lane: 2
 doc_type: ig_raw_formal_d7_branching_transcript
 artifact_id: "RawOrFormalD7BranchingTranscriptForShiabHomSpace_1702_C1_L2_V1"
 verdict: "BLOCKED_NO_RAW_OR_FORMAL_D7_BRANCHING_TRANSCRIPT_CONSTRUCTED"

@@ -22,7 +22,7 @@ to a special case of Vasiliev's construction at some truncation order N, the VZ 
 claim loses novelty and GU's RS sector is subsumed by known higher-spin theory.
 
 This exploration is the P53-NOVEL object identified in
-`explorations/vz1-62-persona-steelman-hegelian-2026-06-22.md` and named as a remaining
+`explorations/vz1-62-perspective-steelman-hegelian-2026-06-22.md` and named as a remaining
 open item in `explorations/vz-14d-mixed-covectors-2026-06-23.md` (OQ-RS-3).
 
 ---
@@ -128,7 +128,7 @@ The RS sector of D_GU couples to the spin-1/2 sector through the Leibniz product
 Concretely, the off-diagonal block D_{RS,1/2} of D_GU (in the RS/spin-1/2 decomposition of
 S = H^64) is nonzero BY CONSTRUCTION: the RS sector is defined as the Leibniz cross-term
 in D_GU's action on Y = V + W (where V is the horizontal/spacetime factor and W is the
-vertical/fiber factor). See vz1-62-persona-steelman-hegelian-2026-06-22.md, P46/P52.
+vertical/fiber factor). See vz1-62-perspective-steelman-hegelian-2026-06-22.md, P46/P52.
 
 The coupling of the RS sector to the Sp(64) gauge field is kinematic: the Sp(64) connection
 acts on the FULL spinor module H^64 simultaneously, with no independently specified coupling

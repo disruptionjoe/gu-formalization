@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260625 2302 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_2302_V1"
 verdict: "no_proof_restart"
@@ -12,7 +11,7 @@ owned_path: "explorations/hourly-20260625-2302-three-cycle-fifteen-hole-synthesi
 
 ## 1. Plain-English Closeout
 
-This run completed fifteen quality holes across three cycles. It did not admit
+This investigation completed fifteen quality holes across three cycles. It did not admit
 any new proof-restart receipt. The run's value is stricter ordering: each route
 now has a named producer or transition gate that blocks downstream proof work
 until a source-native object is actually supplied.
@@ -79,7 +78,7 @@ non-admission audits.
 The three-cycle wrapper improved quality compared with isolated five-lane runs:
 cycle 1 defined producer contracts, cycle 2 tested the first downstream gate
 after those contracts, and cycle 3 classified transition/proof-restart
-readiness. That structure prevented the run from repeating the same source scan
+readiness. That structure prevented the investigation from repeating the same source scan
 three times and made the next-frontier objects narrower.
 
 ## 6. Machine-Readable JSON Summary

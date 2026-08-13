@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 3 RS Manifest Transition Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 3
-lane: "RS"
 doc_type: "closeout_gate"
 artifact_id: "RSManifestTransitionGate_2302_C3_RS_V1"
 verdict: "blocked"

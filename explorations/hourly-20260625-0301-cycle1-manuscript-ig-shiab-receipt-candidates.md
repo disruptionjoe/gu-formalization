@@ -3,7 +3,6 @@ title: "Hourly 20260625 0301 Cycle 1 Manuscript IG Shiab Receipt Candidates"
 date: "2026-06-25"
 run: "hourly-20260625-0301"
 cycle: 1
-lane: 2
 doc_type: manuscript_ig_shiab_receipt_candidates
 artifact_id: "ManuscriptIGShiabReceiptCandidateSearch_V1"
 verdict: "CONDITIONAL_QUARANTINED_STRONG_CANDIDATE_ZERO_ACCEPTED_IG_RECEIPTS"

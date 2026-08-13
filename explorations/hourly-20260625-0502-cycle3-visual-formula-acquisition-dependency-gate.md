@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 3 Visual Formula Acquisition Dependency Gate"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 3
-lane: 4
 doc_type: visual_formula_acquisition_dependency_gate
 artifact_id: "VisualFormulaAcquisitionDependencyGate_V1"
 verdict: "CONDITIONAL_DEPENDENCY_GATE_NO_ACCEPTED_VISUAL_RECEIPTS"

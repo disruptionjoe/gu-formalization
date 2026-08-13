@@ -1,8 +1,6 @@
 ---
 title: "Hourly 20260625 0502 Cycle 2 Author Manuscript IG Selector Receipt Gate"
-run_id: "hourly-20260625-0502"
 cycle: 2
-lane: 2
 doc_type: author_manuscript_ig_selector_receipt_gate
 artifact_id: "AuthorManuscriptIGSelectorReceiptGate_V1"
 verdict: "QUARANTINED_STRONG_CANDIDATE_ZERO_ACCEPTED_RECEIPTS"

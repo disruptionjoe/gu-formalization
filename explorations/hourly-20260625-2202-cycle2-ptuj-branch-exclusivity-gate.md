@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 2 PTUJ Branch Exclusivity Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 2
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchExclusivityGate_2202_C2_L3_V1"
 verdict: "blocked"

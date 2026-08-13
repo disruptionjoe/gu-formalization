@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 3 KIG Candidate Packet Spec"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 3
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "PreCodomainParentMomentumDegreeCandidatePacket_1203_C3_L3_V1"
 verdict: "candidate_packet_spec_defined_no_candidate"
 owned_path: "explorations/hourly-20260626-1203-cycle3-kig-candidate-packet-spec.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 3 KIG Candidate Packet Spec
@@ -40,7 +37,6 @@ trace_eliminator_retry_allowed: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Required Packet Fields

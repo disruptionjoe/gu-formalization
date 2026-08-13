@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 3 KIG Parent Degree Selector"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 3
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "ParentSlotDegreeSelectorForK_IG_0803_C3_V1_Result"
 verdict: "blocked_scoped_negative_no_independent_parent_degree_selector"
 owned_path: "explorations/hourly-20260626-0803-cycle3-kig-parent-degree-selector.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 3 KIG Parent Degree Selector

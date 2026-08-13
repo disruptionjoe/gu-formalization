@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 2 PTUJ Branch Local Source Packet Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 2
-lane: "1 PTUJ"
 doc_type: ptuj_branch_local_source_packet_gate
 artifact_id: "PTUJBranchLocalSourcePacketGate_2104_C2_L1_V1"
 verdict: "blocked"

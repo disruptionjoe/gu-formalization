@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 3 Proof-Restart Transition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 3
-lane: "5 cross-route"
 doc_type: proof_restart_transition_matrix
 artifact_id: "ProofRestartTransitionMatrix_2104_C3_L5_V1"
 verdict: "NO_PROOF_RESTART_ALLOWED"
@@ -132,7 +130,7 @@ route and excludes all downstream siblings whose prerequisites are still absent.
 
 ## 7. What changed because of the 3-cycle wrapper.
 
-The wrapper changed the run from five isolated notes into a dependency update:
+The wrapper changed the investigation from five isolated notes into a dependency update:
 
 | route | cycle-1 state | cycle-2 state | wrapper effect |
 |---|---|---|---|

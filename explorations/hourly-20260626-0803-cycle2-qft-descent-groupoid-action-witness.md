@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 2 QFT Descent Groupoid Action Witness"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 2
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceDescentGroupoidActionWitness_0803_C2_L5_V1"
 verdict: "negative_scoped_no_source_descent_groupoid_action_witness_admitted"
 owned_path: "explorations/hourly-20260626-0803-cycle2-qft-descent-groupoid-action-witness.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 2 QFT Descent Groupoid Action Witness

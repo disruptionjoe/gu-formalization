@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 3 IG Representation Host Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 3
-lane: "IG"
 doc_type: "closeout_gate"
 artifact_id: "IGRepresentationHostFirewall_2202_C3_L1_V1"
 verdict: "host"

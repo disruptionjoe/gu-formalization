@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 1 PTUJ Branch Source Packet Mining"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 1
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchSourcePacketMining_0002_C1_PTUJ_V1"
 verdict: "blocked_no_single_branch_packet"

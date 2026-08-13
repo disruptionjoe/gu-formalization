@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 1 DGU Source Row Payload Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 1
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGUSourceRowPayloadGate_0103_C1_DGU_V1"
 verdict: "blocked_missing_source_row_payload"

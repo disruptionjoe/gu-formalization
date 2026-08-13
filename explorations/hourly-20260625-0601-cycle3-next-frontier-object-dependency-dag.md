@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0601 Cycle 3 Next Frontier Object Dependency DAG"
 date: "2026-06-25"
-run_id: "hourly-20260625-0601"
 cycle: 3
-lane: 5
 doc_type: next_frontier_object_dependency_dag
 artifact_id: "NextFrontierObjectDependencyDAGAfterHourly20260625_0601_V1"
 verdict: "BLOCKED_DAG_BUILT_PROOF_RESTART_FORBIDDEN_NEXT_GOALS_MATERIALLY_CHANGED"
@@ -194,7 +192,7 @@ Family-specific first obstructions:
 
 ## 5. Impact If Closed
 
-Closing the upstream source objects would materially change the run plan:
+Closing the upstream source objects would materially change the investigation plan:
 
 - IG could move from hosted Shiab candidate to selector identity review.
 - DGU/VZ could test the actual source operator instead of a bosonic locator.

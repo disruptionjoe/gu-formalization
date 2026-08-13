@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 1 Author Manuscript Acquisition Execution"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 1
-lane: 5
 doc_type: author_manuscript_acquisition_execution
 artifact_id: "AuthorManuscriptAcquisitionExecution_V1"
 verdict: "CONDITIONAL_REMOTE_MANUSCRIPT_ACQUIRED_ZERO_ACCEPTED_RECEIPTS"

@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 3 Transcript Extraction Batch"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: 3
-lane: 1
 doc_type: transcript_extraction_batch
 artifact_id: "TranscriptExtractionBatch_V1"
 verdict: "READY_PROTOCOL_TRANSCRIPTS_NOT_ACQUIRED_ACCEPTED_RECEIPTS_ZERO_PROOF_RESTART_BLOCKED"

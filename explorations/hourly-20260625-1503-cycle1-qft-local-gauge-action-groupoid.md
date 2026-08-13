@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 1 QFT Local Gauge Action Groupoid"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 1
-lane: 5
 doc_type: qft_local_gauge_action_groupoid
 artifact_id: "LocalGaugeActionGroupoidOnObservedRawGUFields_V1"
 verdict: "UNDERDEFINED_CANDIDATE_PACKET_DRAFTED_REPO_SOURCE_OBJECTS_MISSING_NO_GENERATOR_PROMOTED"

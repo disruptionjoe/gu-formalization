@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 3 Global Negative Precondition Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 3
-lane: 3
 doc_type: global_negative_precondition_matrix
 artifact_id: "GlobalNegativePreconditionMatrixAfterHourly20260625_0703_V1"
 verdict: "BLOCKED_NO_GLOBAL_NO_GO_SCOPED_NEGATIVES_AND_ACQUISITION_FAILURES_ONLY"

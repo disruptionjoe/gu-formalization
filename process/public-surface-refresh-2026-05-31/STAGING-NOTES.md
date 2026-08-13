@@ -23,7 +23,7 @@ The sibling card WRK-391 (C_MPR convergence synthesis) is **NOT present at the d
 
 All four are extant. The C_MPR and wall theorem mentions in this packet's drafts are `[speculation]`-tagged AND framed as "in-progress bridge work / formalization in progress" — they are not cited as published or fully-formalized results.
 
-**Joe's call before desk push:** Push the full bundle now (Option A — see persona-dialectic.md P5) or split into a two-phase push that holds the C_MPR + wall theorem edits until a dedicated WRK-391 convergence synthesis lands (Option B). The persona dialectic recommends Option A; the cost of letting the superseded "CALM = GW" framing propagate during the WRK-391 indeterminate window is structurally larger than the cost of public in-progress framing under explicit tags. Either choice preserves scope honesty.
+**Joe's call before desk push:** Push the full bundle now (Option A — see perspective-dialectic.md P5) or split into a two-phase push that holds the C_MPR + wall theorem edits until a dedicated WRK-391 convergence synthesis lands (Option B). The perspective dialectic recommends Option A; the cost of letting the superseded "CALM = GW" framing propagate during the WRK-391 indeterminate window is structurally larger than the cost of public in-progress framing under explicit tags. Either choice preserves scope honesty.
 
 ## 1. Files staged for push (per-file diff summary)
 
@@ -109,7 +109,7 @@ For each of the four framing-discipline edits, the rationale and source:
 
 ## 3. Suggested commit messages
 
-Push messages are framed for the public repo's reader, not for CapacityOS internal context.
+Push messages are framed for the public repo's reader, not for private orchestration overlay internal context.
 
 **Commit 1 (OVERVIEW.md):**
 ```
@@ -196,7 +196,7 @@ NEXT-STEPS: add Distler-Garibaldi triple discipline, sector enumeration as contr
 
 **Atomic alternative:** push as a single commit if Joe prefers atomicity over per-file granularity; all four file changes are coordinated and the diff is sized for one review pass.
 
-**Two-phase alternative (Option B from persona-dialectic.md P5):**
+**Two-phase alternative (Option B from perspective-dialectic.md P5):**
 - Phase 1 (push now): Sector I qualification + DG hardest-line edits across all four files. Defer the C_MPR + wall theorem edits (§3a in OVERVIEW; §4.4 in formal paper; "What an in-progress piece..." in blog; C_MPR follow-on section in NEXT-STEPS; CALM-equivalence "what to avoid" rule in NEXT-STEPS).
 - Phase 2 (push after WRK-391 lands at the documented path): the deferred edits, with `[speculation]` tags possibly converted to clean citations of the new `syntheses/-numbered` artifact.
 
@@ -208,7 +208,7 @@ For the push session at desk:
 
 1. Open each diff in the public repo using a side-by-side view (current public file vs. the corresponding `-draft-v2*.md` file in `work/drafts/wrk-392-repo-public-surface-refresh/`).
 2. Review the diff per §1 of this STAGING-NOTES.md.
-3. Decide between Option A (full bundle) and Option B (two-phase). See §0 blocking-dependency note and persona-dialectic.md P5.
+3. Decide between Option A (full bundle) and Option B (two-phase). See §0 blocking-dependency note and perspective-dialectic.md P5.
 4. Decide between per-file commits (§4 recommended order) and atomic single commit (§4 alternative).
 5. Copy the appropriate `-draft-v2*.md` contents into the corresponding public-repo file (or apply as a patch).
 6. `git commit` with the suggested message from §3 (one per file, or a single combined message for atomic).

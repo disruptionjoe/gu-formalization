@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 1 Physical RS K-Theory Class Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 1
-lane: "PhysicalRSKTheoryClassGate"
 doc_type: "frontier_gate"
 artifact_id: "PhysicalRSKTheoryClassGate_0402_C1_V1"
 verdict: "underdefined_open_missing_symbol_data"

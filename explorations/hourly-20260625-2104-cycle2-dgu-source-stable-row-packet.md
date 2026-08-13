@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 2 DGU Source-Stable Row Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 2
-lane: "3 DGU/VZ"
 doc_type: dgu_source_stable_sector_same_operator_row_packet
 artifact_id: "SourceStableDGU01SectorRuleSameOperatorRowPacket_2104_C2_L3_V1"
 verdict: "SCOPED_NEGATIVE_RECEIPT_SOURCE_STABLE_ROWS_NO_SECTOR_RULE_OR_SAME_OPERATOR_WITNESS"

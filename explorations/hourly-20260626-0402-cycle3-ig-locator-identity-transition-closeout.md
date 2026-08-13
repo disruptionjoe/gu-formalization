@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 3 IG Locator Identity Transition Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 3
-lane: "IGLocatorIdentityTransitionCloseout"
 doc_type: "frontier_closeout"
 artifact_id: "IGLocatorIdentityTransitionCloseout_0402_C3_IG_V1"
 verdict: "blocked_no_transition_until_source_locator_receipt_admitted"
@@ -55,7 +53,7 @@ Required sources:
 | `explorations/hourly-20260626-0301-cycle3-ig-source-operator-transition-closeout.md` | Preserved the prior transition closeout: no coefficients, identity, or restart before locator. |
 
 Automation memory for `hourly-20260626-0402` was also checked. It confirms the
-cycle 1 and cycle 2 IG decisions for this run and records no later admission
+cycle 1 and cycle 2 IG decisions for this investigation and records no later admission
 override.
 
 ## 3. Consumed cycle 1 decision

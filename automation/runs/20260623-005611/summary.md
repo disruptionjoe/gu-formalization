@@ -1,6 +1,5 @@
 ---
 title: "Hourly Frontier Run Summary"
-run_id: "20260623-005611"
 run_started: "2026-06-23T00:56:11"
 status: completed
 ---

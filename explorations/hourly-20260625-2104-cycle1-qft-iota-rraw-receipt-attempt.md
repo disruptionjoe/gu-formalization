@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 1 QFT Iota R Raw Receipt Attempt"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 1
-lane: 5
 doc_type: qft_iota_rraw_receipt_attempt
 artifact_id: "QFTSourceDefinedIotaBAndTypedRRawBOReceiptAttempt_2104_C1_L5_V1"
 verdict: "UNDERDEFINED_CONDITIONAL_PULLBACK_SCHEMA_ISOLATED_RECEIPT_NOT_ADMITTED"

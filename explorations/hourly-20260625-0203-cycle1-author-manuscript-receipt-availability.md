@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 1 Author Manuscript Receipt Availability"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "1"
-lane: "5"
 doc_type: author_manuscript_receipt_availability_packet
 artifact_id: "AuthorManuscriptReceiptAvailabilityPacket_V1"
 verdict: "BLOCKED_NO_LOCAL_OR_INDEXED_AUTHOR_MANUSCRIPT_RECEIPTS"

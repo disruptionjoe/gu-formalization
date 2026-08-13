@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 1 Author Manuscript RS Rule Extraction Candid
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 1
-lane: 3
 doc_type: author_manuscript_rs_rule_extraction_candidate
 artifact_id: "AuthorManuscriptRSRuleExtractionCandidate_V1"
 verdict: "FAIL_FOR_RS_DIFFERENTIAL_RECEIPT_ZERO_ACCEPTED_RS_RECEIPTS"

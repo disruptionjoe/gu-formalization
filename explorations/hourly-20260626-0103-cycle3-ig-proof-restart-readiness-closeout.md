@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 3 IG Proof Restart Readiness Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 3
-lane: "IG"
 doc_type: "frontier_closeout"
 artifact_id: "IGProofRestartReadinessCloseout_0103_C3_IG_V1"
 verdict: "blocked_no_proof_restart"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 1 QFT Locator Authority Receipt Retry"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 1
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceContextLocatorAndCoverAuthorityReceiptRetry_1102_C1_L5_V1"
 verdict: "closed_scoped_negative_no_joint_source_context_locator_or_cover_authority"
 owned_path: "explorations/hourly-20260626-1102-cycle1-qft-locator-authority-receipt-retry.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 1 QFT Locator Authority Receipt Retry
@@ -46,7 +43,6 @@ local_records_unlocked: false
 brsch_checks_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a global no-go theorem for GU/QFT. It is a scoped repo-local

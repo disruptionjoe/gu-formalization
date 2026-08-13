@@ -2,9 +2,7 @@
 title: "Hourly 20260625 1702 Cycle 2 RS Capture-Stack / Unavailability Ledger"
 status: blocked
 doc_type: exploration
-run_id: "hourly-20260625-1702"
 cycle: 2
-lane: 4
 artifact_id: "RSCaptureStackUnavailabilityLedger_1702_C2_L4_V1"
 owned_path: "explorations/hourly-20260625-1702-cycle2-rs-capture-stack-unavailability-ledger.md"
 companion_audit: "tests/hourly_20260625_1702_cycle2_rs_capture_stack_unavailability_ledger_audit.py"

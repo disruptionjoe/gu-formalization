@@ -1,9 +1,7 @@
 ---
 artifact: "IGSelectorRivalEliminatorMatrix_V1"
 doc_type: ig_selector_rival_eliminator_matrix
-run_id: "hourly-20260625-0601"
 cycle: 2
-lane: 1
 verdict: "BLOCKED_HOSTED_CANDIDATE_ZERO_ACCEPTED_RECEIPTS"
 owned_path: "explorations/hourly-20260625-0601-cycle2-ig-selector-rival-eliminator-matrix.md"
 companion_audit: "tests/hourly_20260625_0601_cycle2_ig_selector_rival_eliminator_matrix_audit.py"

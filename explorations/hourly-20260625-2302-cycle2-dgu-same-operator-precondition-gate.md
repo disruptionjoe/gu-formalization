@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 2 DGU Same-Operator Precondition Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 2
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGU01SameOperatorPreconditionGate_2302_C2_DGU_V1"
 verdict: "BLOCKED_PRECONDITION_GATE_SECTOR_RULE_LOCATOR_NOT_ADMITTED"

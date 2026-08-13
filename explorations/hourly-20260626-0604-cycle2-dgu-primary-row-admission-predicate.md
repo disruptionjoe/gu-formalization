@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 2 DGU Primary Row Admission Predicate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 2
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "DGUPrimaryRowAdmissionPredicate_0604_C2_V1"
 verdict: "predicate_defined_no_row_admitted"
 owned_path: "explorations/hourly-20260626-0604-cycle2-dgu-primary-row-admission-predicate.md"
 companion_audit: "tests/hourly_20260626_0604_cycle2_admission_predicates_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 2 DGU Primary Row Admission Predicate

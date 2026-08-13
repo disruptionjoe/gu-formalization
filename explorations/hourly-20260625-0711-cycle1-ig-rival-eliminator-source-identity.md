@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0711 Cycle 1 IG Rival Eliminator Source Identity"
 date: "2026-06-25"
-run_id: "hourly-20260625-0711"
 cycle: 1
-lane: 3
 doc_type: ig_rival_eliminator_source_identity
 artifact_id: "IGRivalEliminatorSourceIdentity_0711_Cycle1_V1"
 verdict: "BLOCKED_HOSTED_CANDIDATE_ZERO_ACCEPTED_RECEIPTS"

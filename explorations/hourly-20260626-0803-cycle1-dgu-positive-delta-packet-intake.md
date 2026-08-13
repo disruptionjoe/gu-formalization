@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 1 DGU Positive Delta Packet Intake"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 1
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "NegativeSourceStableDGU01SectorRuleIdAndFamilyIdentityDeltaReceipt_0803_C1_L1_V2"
 verdict: "blocked_scoped_negative_v2_positive_delta_packet_not_source_admitted"
 owned_path: "explorations/hourly-20260626-0803-cycle1-dgu-positive-delta-packet-intake.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 1 DGU Positive Delta Packet Intake

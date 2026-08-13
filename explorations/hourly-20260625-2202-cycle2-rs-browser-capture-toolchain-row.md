@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 2 RS Browser Capture Toolchain Row"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 2
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSBrowserCaptureToolchainRow_2202_C2_L2_V1"
 verdict: "blocked"

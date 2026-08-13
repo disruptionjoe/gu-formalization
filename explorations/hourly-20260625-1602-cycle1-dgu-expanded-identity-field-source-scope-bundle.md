@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Cycle 1 DGU Expanded Identity Field Source Scope Bundle"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 1
-lane: 3
 doc_type: dgu_expanded_identity_field_source_scope_bundle
 artifact_id: "DGUExpandedIdentityFieldSourceScopeBundle_1602_C1_L3_V1"
 verdict: "BLOCKED_EXPANDED_SCOPE_NO_SOURCE_EMITTED_ACTUAL_DGU_01_IDENTITY_PACKET"

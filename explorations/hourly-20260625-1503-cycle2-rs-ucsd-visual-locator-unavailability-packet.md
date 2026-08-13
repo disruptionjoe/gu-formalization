@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 2 RS UCSD Visual Locator Unavailability Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 2
-lane: 4
 doc_type: rs_ucsd_visual_locator_unavailability_packet
 artifact_id: "RS_UCSD_VISUAL_LOCATOR_OR_UNAVAILABILITY_PACKET"
 verdict: "BLOCKED_STABLE_OFFICIAL_VIDEO_LOCATOR_PRESENT_VISUAL_PACKET_ABSENT_UNAVAILABILITY_NOT_DOCUMENTED"

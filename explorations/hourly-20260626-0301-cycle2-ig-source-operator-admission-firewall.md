@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 2 IG Source Operator Admission Firewall"
 date: "2026-06-26"
-run_id: "hourly-20260626-0301"
 cycle: 2
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "IGSourceOperatorAdmissionFirewall_0301_C2_IG_V1"
 verdict: "blocked_no_coefficient_or_restart_admission_before_source_operator_receipt"

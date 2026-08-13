@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 2 QFT Source Observed Raw Branch Packet"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 2
-lane: 5
 doc_type: qft_source_observed_raw_branch_packet
 artifact_id: "SourceObservedRawFieldBranchPacketForRRawBO_V1"
 verdict: "UNDERDEFINED_SOURCE_BRANCH_PACKET_ABSENT_CANDIDATE_TEMPLATE_NOT_PROMOTED"

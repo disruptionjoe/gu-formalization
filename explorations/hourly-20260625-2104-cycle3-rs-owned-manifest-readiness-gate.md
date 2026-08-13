@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2104 Cycle 3 RS Owned Manifest Readiness Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2104"
 cycle: 3
-lane: "3 RS"
 route: "RS"
 doc_type: owned_manifest_readiness_gate
 artifact_id: "RSOwnedManifestReadinessGate_2104_C3_L3_V1"

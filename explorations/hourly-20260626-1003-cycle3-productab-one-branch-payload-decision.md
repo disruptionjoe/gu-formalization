@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 3 ProductAB One Branch Payload Decision"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 3
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OneBranchFormulaBearingPTUJOrKeatingPayloadDecision_1003_C3_L4_V1"
 verdict: "closed_scoped_negative_no_one_branch_payload_present"
 owned_path: "explorations/hourly-20260626-1003-cycle3-productab-one-branch-payload-decision.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 3 ProductAB One Branch Payload Decision
@@ -44,7 +41,6 @@ visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 All ProductAB and `K_IG` work depending on this visual/source route remains
@@ -211,7 +207,6 @@ Current permitted state:
 visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
-claim_status_change: false
 ```
 
 This is not a global disproof of PTUJ, Keating, ProductAB, or `K_IG`. It is a

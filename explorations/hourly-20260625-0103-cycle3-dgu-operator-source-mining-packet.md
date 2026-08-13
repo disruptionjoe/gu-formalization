@@ -3,7 +3,6 @@ title: "Hourly 20260625 0103 Cycle 3 DGU Operator Source Mining Packet"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "3"
-lane: "4"
 doc_type: dgu_operator_source_mining_packet
 artifact_id: "DGUOperatorSourceMiningPacket_V1"
 verdict: "BLOCKED_PACKET_READY_NO_ACTUAL_DGU01_SOURCE_RECEIPT"

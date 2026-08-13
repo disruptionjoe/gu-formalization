@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 3 QFT Hidden Branch Transition Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 3
-lane: "QFTHiddenBranchTransitionCloseout"
 doc_type: "frontier_closeout"
 artifact_id: "QFTHiddenBranchTransitionCloseout_0402_C3_QFT_V1"
 verdict: "underdefined_no_restart_hidden_branch_structure_audit_required"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 2 PTUJ Branch Packet Admission Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0301"
 cycle: 2
-lane: "PTUJ"
 doc_type: "frontier_gate"
 artifact_id: "PTUJBranchPacketAdmissionFirewall_0301_C2_PTUJ_V1"
 verdict: "blocked_no_downstream_admission_before_branch_pure_packet"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0803 Cycle 1 PTUJ Lawful Source Asset Admission Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0803"
 cycle: 1
-lane: 1
 doc_type: ptuj_lawful_source_asset_admission_gate
 artifact_id: "LawfulLocalTzSEvmqxu48FrameExtractorOrSourceAsset_V1"
 verdict: "BLOCKED_NO_LAWFUL_LOCAL_EXTRACTOR_OR_FORMULA_SOURCE_ASSET"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 2 ProductAB Official PTUJ Packet Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialTzSEvmqxu48FormulaSourceAssetPacketVerifier_1102_C2_L4_V1"
 verdict: "negative_official_ptuj_locator_present_packet_absent"
 owned_path: "explorations/hourly-20260626-1102-cycle2-productab-official-ptuj-packet-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 2 ProductAB Official PTUJ Packet Verifier
@@ -256,7 +253,6 @@ visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a global disproof of PTUJ, Shiab Projection, ProductAB, or `K_IG`.

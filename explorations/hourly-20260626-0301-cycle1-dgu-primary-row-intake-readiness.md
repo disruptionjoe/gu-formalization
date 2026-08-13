@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 1 DGU Primary Row Intake Readiness"
 date: "2026-06-25"
-run_id: "hourly-20260626-0301"
 cycle: 1
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGUPrimaryRowIntakeReadiness_0301_C1_DGU_V1"
 verdict: "blocked_primary_row_instance_not_intake_ready"

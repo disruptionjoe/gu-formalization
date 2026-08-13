@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 3 IG Source Operator Transition Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0301"
 cycle: 3
-lane: "IG"
 doc_type: "frontier_closeout"
 artifact_id: "IGSourceOperatorTransitionCloseout_0301_C3_IG_V1"
 verdict: "blocked_no_transition_before_source_operator_locator"
@@ -17,7 +15,7 @@ owned_path: "explorations/hourly-20260626-0301-cycle3-ig-source-operator-transit
 Verdict: **blocked / no transition / no restart**.
 
 Cycle 1 made the Product A/B intake contract precise. Cycle 2 enforced the
-admission firewall. Cycle 3 closes the run by deciding that the IG lane may not
+admission firewall. Cycle 3 closes the investigation by deciding that the IG lane may not
 move from host-level finite rows into coefficients, `K_IG` selector restart, or
 family-proof restart.
 

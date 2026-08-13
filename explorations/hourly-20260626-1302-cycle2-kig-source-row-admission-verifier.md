@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 2 KIG Source Row Admission Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 2
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "PreCodomainParentMomentumDegreeSourceRowAdmissionVerifier_1302_C2_L3_V1"
 verdict: "verifier_defined_rejects_at_source_window_order_log"
 owned_path: "explorations/hourly-20260626-1302-cycle2-kig-source-row-admission-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 2 KIG Source Row Admission Verifier
@@ -43,7 +40,6 @@ target_replacement_witness_present: false
 source_selected_branch3_admitted: false
 trace_eliminator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

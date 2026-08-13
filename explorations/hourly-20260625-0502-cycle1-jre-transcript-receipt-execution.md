@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 1 JRE Transcript Receipt Execution"
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 1
-lane: 2
 doc_type: jre_transcript_receipt_execution
 artifact_id: "JRETranscriptReceiptExecution_V1"
 verdict: "TRANSCRIPT_SURFACES_REACHABLE_LOCATORS_FOUND_ACCEPTED_RECEIPTS_ZERO_PROOF_RESTART_BLOCKED"

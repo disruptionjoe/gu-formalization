@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 1 ProductAB Formula Bearing Source Asset Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 1
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "FormulaBearingPTUJOrKeatingSourceAssetGate_1003_C1_L4_V1"
 verdict: "blocked_no_formula_bearing_ptuj_or_keating_source_asset"
 owned_path: "explorations/hourly-20260626-1003-cycle1-productab-formula-bearing-source-asset-gate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 1 ProductAB Formula Bearing Source Asset Gate
@@ -42,7 +39,6 @@ formula_visibility_scope_present: false
 visible_formula_transcription_allowed: false
 productab_member_emitted: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is a repo-local asset gate decision, not a global no-go over PTUJ, Keating,

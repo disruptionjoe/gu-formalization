@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 1 QFT Same-Context Edge Current State"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 1
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSameContextEdgeCurrentState_1203_C1_L5_V1"
 verdict: "blocked_same_context_edge_absent"
 owned_path: "explorations/hourly-20260626-1203-cycle1-qft-same-context-edge-current-state.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 1 QFT Same-Context Edge Current State
@@ -42,7 +39,6 @@ local_records_unlocked: false
 brsch_checks_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

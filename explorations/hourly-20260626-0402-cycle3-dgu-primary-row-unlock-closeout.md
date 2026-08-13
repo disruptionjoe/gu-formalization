@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0402 Cycle 3 DGU Primary Row Unlock Closeout"
 date: "2026-06-26"
-run_id: "hourly-20260626-0402"
 cycle: 3
-lane: "DGUPrimaryRowUnlockCloseout"
 doc_type: "frontier_closeout"
 artifact_id: "DGUPrimaryRowUnlockCloseout_0402_C3_V1"
 verdict: "blocked_no_rs_or_vz_restart_before_primary_dgu_row_and_same_operator_witness"

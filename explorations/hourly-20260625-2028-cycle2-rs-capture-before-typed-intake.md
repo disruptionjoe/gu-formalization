@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 2 RS Capture Before Typed Intake"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 2
-lane: 4
 doc_type: admission_order_firewall
 artifact_id: "RSCaptureBeforeTypedIntake_2028_C2_L4_V1"
 verdict: "blocked"

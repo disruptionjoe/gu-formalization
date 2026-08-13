@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 1 DGU Primary Source Row Scan"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 1
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGUPrimarySourceRowScan_2202_C1_L4_V1"
 verdict: "blocked"

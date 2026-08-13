@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 1 TOE Jaimungal Modern Transcript Receipt Exe
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 1
-lane: 3
 doc_type: toe_jaimungal_modern_transcript_receipt_execution
 artifact_id: "TOEJaimungalModernTranscriptReceiptExecution_V1"
 source_id: "GU-POD-2025-TOE-JAIMUNGAL-GU-40"

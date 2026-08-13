@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 3 QFT Carrier Firewall Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 3
-lane: "QFT"
 doc_type: "closeout_gate"
 artifact_id: "QFTCarrierFirewallCloseout_2202_C3_L5_V1"
 verdict: "underdefined"
@@ -16,7 +14,7 @@ owned_path: "explorations/hourly-20260625-2202-cycle3-qft-carrier-firewall-close
 
 Verdict: **underdefined**.
 
-The run fixed the QFT row order but admitted no source-native branch label,
+The investigation fixed the QFT row order but admitted no source-native branch label,
 admissibility rule, branch-selected carrier, observation section, `iota_b`,
 typed `R_raw^b(O)`, or local groupoid.
 

@@ -2,7 +2,6 @@
 doc_type: manuscript_dgu_vz_operator_receipt_candidates
 run: hourly-20260625-0301
 cycle: 1
-lane: 4
 owned_path: "explorations/hourly-20260625-0301-cycle1-manuscript-dgu-vz-operator-receipt-candidates.md"
 companion_audit: "tests/hourly_20260625_0301_cycle1_manuscript_dgu_vz_operator_receipt_candidates_audit.py"
 source_pdf: "Geometric_UnityDraftApril1st2021.pdf"

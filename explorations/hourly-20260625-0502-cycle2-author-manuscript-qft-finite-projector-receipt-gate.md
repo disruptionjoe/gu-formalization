@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 2 Author Manuscript QFT Finite Projector Rece
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 2
-lane: 4
 doc_type: author_manuscript_qft_finite_projector_receipt_gate
 artifact_id: "AuthorManuscriptQFTFiniteProjectorReceiptGate_V1"
 verdict: "BLOCKED_NEGATIVE_NO_QFT_FINITE_PROJECTOR_LOCATOR_IN_ACQUIRED_AUTHOR_MANUSCRIPT"

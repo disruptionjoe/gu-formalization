@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 2 QFT Branch Record Primitive Schema"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 2
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTBranchRecordPrimitiveSchema_0604_C2_V1"
 verdict: "primitive_schema_defined_no_action_or_cocycle"
 owned_path: "explorations/hourly-20260626-0604-cycle2-qft-branch-record-primitive-schema.md"
 companion_audit: "tests/hourly_20260626_0604_cycle2_admission_predicates_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 2 QFT Branch Record Primitive Schema

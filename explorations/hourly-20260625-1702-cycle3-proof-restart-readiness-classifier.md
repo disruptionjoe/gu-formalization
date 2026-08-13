@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 3 Proof-Restart Readiness Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 3
-lane: 1
 doc_type: proof_restart_readiness_classifier
 artifact_id: "PROOF_RESTART_READINESS_CLASSIFIER_1702_C3_L1_V1"
 verdict: "NO_ROUTE_READY_FOR_PROOF_RESTART"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1503 Cycle 3 Next Frontier Dependency DAG"
 date: "2026-06-25"
-run_id: "hourly-20260625-1503"
 cycle: 3
-lane: 5
 doc_type: next_frontier_dependency_dag
 artifact_id: "NextFrontierDependencyDagAfter1503_V1"
 verdict: "UPSTREAM_SOURCE_OBJECTS_NO_RECEIPTS_NO_PROOF_RESTART"
@@ -90,7 +88,7 @@ reconstruction map. Summary-only review and proof replay are not counted.
 | `QFT_PHYSICAL_QUOTIENT_FUNCTOR_FROM_SOURCE_PACKET` | Define `tilde_phys^b(O)` and `F_phys^b(O)` only after a source-defined restriction-stable generator exists. | sequential | `QFT_GAUGE_RESTRICTION_STABILITY_TEST` | It prevents `F_phys` from selecting the raw branch. |
 | `QFT_PRAW_PFIN_DESCENT_AFTER_QUOTIENT` | Define `P_raw`, `P_fin`, and descent/naturality only after physical quotient and source codomain exist. | sequential | `QFT_PHYSICAL_QUOTIENT_FUNCTOR_FROM_SOURCE_PACKET` | It parks finite-QFT extraction until the source quotient exists. |
 | `QFT_RHO_AB_CHSH_BELL_FIREWALL` | Maintain firewall against `rho_AB`, Bell, CHSH, Pauli, and target Hilbert-state selection of upstream packets. | demoted backup | `C2_QFT_SOURCE_OBSERVED_RAW_BRANCH_PACKET` | It is useful as a guard, but lower value than constructing the source packet. |
-| `GLOBAL_NO_RECEIPT_CLAIM_PROMOTION_FIREWALL` | Enforce no claim promotion or proof restart while accepted receipt count is zero. | demoted backup | all five cycle 2 artifacts | It protects the run but does not itself produce a missing source object. |
+| `GLOBAL_NO_RECEIPT_CLAIM_PROMOTION_FIREWALL` | Enforce no claim promotion or proof restart while accepted receipt count is zero. | demoted backup | all five cycle 2 artifacts | It protects the investigation but does not itself produce a missing source object. |
 | `THREE_CYCLE_SYNTHESIS_WITH_ROUTE_STATUS` | Synthesize the three-cycle result into closed/blocked/underdefined/source-negative statuses. | demoted backup | all cycle 3 artifacts | Useful closeout, but not a frontier source-object producer. |
 
 Quality candidates claimed: **28**. The first 25 are direct source-object,

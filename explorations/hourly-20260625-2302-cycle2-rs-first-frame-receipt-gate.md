@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 2 RS First Frame Receipt Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 2
-lane: "RS"
 doc_type: "frontier_gate"
 artifact_id: "RSFirstFrameReceiptGate_2302_C2_RS_V1"
 verdict: "blocked"

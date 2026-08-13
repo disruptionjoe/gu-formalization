@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 3 Claim Promotion Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 3
-lane: 4
 doc_type: claim_promotion_firewall
 artifact_id: "ClaimPromotionFirewallAfter2028_C3_L4_V1"
 verdict: "all_promotions_blocked"

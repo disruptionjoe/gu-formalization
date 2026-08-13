@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 2 QFT Same-Context Edge Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 2
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "SameContextSourceLocatorAuthorityEdgeVerifier_QFT_1203_C2_L5_V1"
 verdict: "verifier_defined_applied_edge_rejected"
 owned_path: "explorations/hourly-20260626-1203-cycle2-qft-same-context-edge-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 2 QFT Same-Context Edge Verifier
@@ -43,7 +40,6 @@ local_records_unlocked: false
 brsch_checks_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Verifier Predicate

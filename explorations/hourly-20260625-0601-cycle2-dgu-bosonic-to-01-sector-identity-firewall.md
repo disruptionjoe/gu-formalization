@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 2 DGU Bosonic To 0/1 Sector Identity Firewall
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 2
-lane: 2
 doc_type: dgu_bosonic_to_01_sector_identity_firewall
 artifact_id: "DGUBosonicTo01SectorIdentityFirewall_V1"
 verdict: "FIREWALL_BLOCKS_BOSONIC_LOCATOR_PROMOTION_ZERO_ACCEPTED_DGU_01_RECEIPTS"

@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 2 Product A/B Negative Coverage Bundle"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "ProductABOperatorMemberNegativeCoverageBundle_0604_C2_V1"
 verdict: "scoped_negative_bundle_defined_no_member_admitted"
 owned_path: "explorations/hourly-20260626-0604-cycle2-product-ab-negative-coverage-bundle.md"
 companion_audit: "tests/hourly_20260626_0604_cycle2_admission_predicates_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 2 Product A/B Negative Coverage Bundle

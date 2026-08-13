@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 3 RS Frame Evidence Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0301"
 cycle: 3
-lane: "RS"
 doc_type: "frontier_closeout"
 artifact_id: "RSFrameEvidenceTransitionCloseout_0301_C3_RS_V1"
 verdict: "blocked_no_transition_before_lawful_frame_object"

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 1 DGU Primary Source Row Mining"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 1
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGUPrimarySourceRowMining_0002_C1_DGU_V1"
 verdict: "blocked_negative_primary_source_row_inventory"

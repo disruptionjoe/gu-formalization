@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1302 Cycle 1 IG Selector Theorem"
 date: "2026-06-25"
-run_id: "hourly-20260625-1302"
 cycle: 1
-lane: 2
 doc_type: ig_selector_theorem_attempt
 artifact_id: "SourceNaturalBianchiHighestWeightSelectorTheoremForK_IG_V1"
 verdict: "CONDITIONAL_NOT_CLOSED"
@@ -32,7 +30,6 @@ Decision state:
 
 ```text
 artifact: SourceNaturalBianchiHighestWeightSelectorTheoremForK_IG_V1
-run_id: hourly-20260625-1302
 verdict_class: conditional
 theorem_closed: false
 source_natural_eliminations: 2

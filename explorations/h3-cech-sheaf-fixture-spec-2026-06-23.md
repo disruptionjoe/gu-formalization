@@ -38,14 +38,14 @@ GU formalization:
 Temporal Issuance, read-only:
 
 - `explorations/E014-cetext-witness-obligations-lens-survey.md`.
-- `agent-runs/RUN-0036-cetext-witness-obligations.md`.
+- `agent-runs/historical-investigation`.
 - `explorations/E015-holonomy-fixture.md`.
-- `agent-runs/RUN-0037-holonomy-fixture.md`.
+- `agent-runs/historical-investigation`.
 - `agent-governance/NEXT-TRIGGER-PLAN.md`.
 - `explorations/E019-online-schema-sys-no-anticipation.md`.
-- `agent-runs/RUN-0042-online-schema-sys-no-anticipation.md`.
+- `agent-runs/historical-investigation`.
 - `explorations/E024-presheaf-ab-absorber-test.md`.
-- `agent-runs/RUN-0044-presheaf-ab-absorber-test.md`.
+- `agent-runs/historical-investigation`.
 - `tests/README.md`.
 
 ## Current H3 State
@@ -88,7 +88,7 @@ artifact_discovery:
   executable_scripts_found: none
   fixture_files_found:
     - explorations/E015-holonomy-fixture.md
-    - agent-runs/RUN-0037-holonomy-fixture.md
+    - agent-runs/historical-investigation
   cech_sheaf_fixture_found: false
 ```
 
@@ -219,7 +219,7 @@ Does C-typed admissibility independently determine allowed overlap cocycles?
 ```
 
 It must not merely demonstrate that a nontrivial Cech class exists. `E024` and
-`RUN-0044` show that generic no-global-section or Cech witnesses are absorbed by
+`historical-investigation` show that generic no-global-section or Cech witnesses are absorbed by
 Abramsky-Brandenburger-style sheaf contextuality. The fixture only survives if the
 sheaf or compatibility predicate is determined by the source admissibility rule.
 

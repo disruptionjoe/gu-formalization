@@ -3,7 +3,6 @@ title: "Hourly 20260625-0103 Cycle 1 DGU 01 Operator Source Receipt"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "1"
-lane: "4"
 doc_type: dgu_operator_source_receipt
 receipt_id: "DGU01OperatorSourceReceipt_V1"
 verdict: "UNDERDEFINED_BLOCKED__REJECT_NO_PRIMARY_ACTION_OR_EL"

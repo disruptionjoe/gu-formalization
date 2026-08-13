@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 3 Tau Corrected 2A Reference Graph Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 3
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauCorrected2AReferenceGraphAdmissionOrElimination_0803_C3_L2_V1"
 verdict: "still_blocked_formal_reference_graph_passes_tangent_tests_no_action_field_space_lock"
 owned_path: "explorations/hourly-20260626-0803-cycle3-tau-corrected-2a-reference-graph-gate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 3 Tau Corrected 2A Reference Graph Gate

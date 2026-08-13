@@ -7,7 +7,7 @@ scope: "Task 5 of 5: GU Tikhonov Lambda vs TaF observer-rate/decoherence coeffic
 depends_on:
   - "DERIVATION-PROGRESS.md"
   - "NEXT-STEPS.md"
-  - "explorations/4d-reduction-62-persona-steelman-hegelian-2026-06-22.md"
+  - "explorations/4d-reduction-62-perspective-steelman-hegelian-2026-06-22.md"
   - "explorations/4d-reduction-section-pullback-2026-06-22.md"
   - "explorations/pc2-met-x4-bundle-formalization-stub-2026-06-22.md"
   - "explorations/time-as-finality-crosswalk/fr1-sorkin-absorption-worked-check-2026-06-22.md"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 2 ProductAB PTUJ Acquisition Manifest"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "PTUJBranchPureSourceAssetAcquisitionManifest_0904_C2_L4_V1"
 verdict: "negative_no_branch_pure_acquisition_manifest"
 owned_path: "explorations/hourly-20260626-0904-cycle2-productab-ptuj-acquisition-manifest.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 2 ProductAB PTUJ Acquisition Manifest

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 3 ProductAB Content Access Packet"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 3
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialTzSEvmqxu48ContentAccessCustodyPacket_1203_C3_L4_V1"
 verdict: "custody_packet_spec_defined_object_absent"
 owned_path: "explorations/hourly-20260626-1203-cycle3-productab-content-access-packet.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 3 ProductAB Content Access Packet
@@ -41,7 +38,6 @@ visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Required Packet Fields

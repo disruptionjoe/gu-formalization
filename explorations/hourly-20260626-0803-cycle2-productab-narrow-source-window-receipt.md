@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 2 Product A/B Narrow Source Window Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "ProductABNarrowSourceWindowRecoveredMemberReceipt_0803_C2_L4_V1"
 verdict: "scoped_window_negative_no_recovered_product_ab_member_acquisition_subtask_emitted"
 owned_path: "explorations/hourly-20260626-0803-cycle2-productab-narrow-source-window-receipt.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 2 Product A/B Narrow Source Window Receipt

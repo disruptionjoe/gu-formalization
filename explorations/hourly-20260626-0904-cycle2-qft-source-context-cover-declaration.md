@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 2 QFT Source Context Cover Declaration"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 2
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceContextCoverDeclarationOrNegativeReceipt_0904_C2_L5_V1"
 verdict: "negative_no_source_context_cover_declaration"
 owned_path: "explorations/hourly-20260626-0904-cycle2-qft-source-context-cover-declaration.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 2 QFT Source Context Cover Declaration

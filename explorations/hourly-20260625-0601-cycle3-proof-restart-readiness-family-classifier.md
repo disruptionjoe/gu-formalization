@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0601 Cycle 3 Proof Restart Readiness Family Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-0601"
 cycle: 3
-lane: 2
 doc_type: proof_restart_readiness_family_classifier
 artifact_id: "ProofRestartReadinessFamilyClassifier_V1"
 verdict: "NO_FAMILY_PROOF_RESTART_READY_ZERO_ACCEPTED_RECEIPTS"

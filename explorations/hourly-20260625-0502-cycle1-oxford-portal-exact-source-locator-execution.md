@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 1 Oxford Portal Exact Source Locator Executio
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 1
-lane: 1
 doc_type: oxford_portal_exact_source_locator_execution
 artifact_id: "OxfordPortalExactSourceLocatorExecution_V1"
 verdict: "BLOCKED_ZERO_ACCEPTED_PRIMARY_SOURCE_RECEIPTS"

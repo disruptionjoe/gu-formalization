@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 1 QFT Category Identity Composition Laws"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 1
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTBranchRecordCategoryIdentityCompositionLaws_0701_C1_L5_V1"
 verdict: "conditional_missing_morphism_typing_equality_no_source_action_or_cocycle"
 owned_path: "explorations/hourly-20260626-0701-cycle1-qft-category-identity-composition-laws.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 1 QFT Category Identity Composition Laws

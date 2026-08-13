@@ -3,7 +3,6 @@ title: "Hourly 20260625 0601 Cycle 2 QFT Alternate Primary Source Requirement Ga
 date: "2026-06-25"
 run: "hourly-20260625-0601"
 cycle: 2
-lane: 4
 doc_type: qft_alternate_primary_source_requirement_gate
 artifact_id: "QFTAlternatePrimarySourceRequirementGate_V1"
 verdict: "BLOCKED_SCOPED_NEGATIVE_NOT_GLOBAL_DEMOTION"

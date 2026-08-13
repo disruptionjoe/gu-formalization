@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1702 Cycle 2 PTUJ Branch Field Completion Matrix"
 date: "2026-06-25"
-run_id: "hourly-20260625-1702"
 cycle: 2
-lane: 1
 doc_type: ptuj_branch_field_completion_matrix
 artifact_id: "PTUJ_BRANCH_FIELD_COMPLETION_MATRIX_1702_C2_L1_V1"
 verdict: "blocked"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1203 Cycle 2 ProductAB Source Object Verifier"
 date: "2026-06-26"
-run_id: "hourly-20260626-1203"
 cycle: 2
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialTzSEvmqxu48FormulaBearingSourceObjectVerifier_1203_C2_L4_V1"
 verdict: "verifier_defined_applied_source_object_rejected"
 owned_path: "explorations/hourly-20260626-1203-cycle2-productab-source-object-verifier.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1203 Cycle 2 ProductAB Source Object Verifier
@@ -43,7 +40,6 @@ visible_formula_transcription_allowed: false
 productab_member_emitted: false
 productab_kig_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Verifier Predicate

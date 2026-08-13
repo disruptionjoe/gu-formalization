@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 1 Oxford Portal Receipt Mining Packet"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: 1
-lane: 1
 doc_type: oxford_portal_receipt_mining_packet
 artifact_id: "OxfordPortalReceiptMiningPacket_V1"
 verdict: "CONDITIONAL_SOURCE_SURFACE_USEFUL_RECEIPTS_MISSING"

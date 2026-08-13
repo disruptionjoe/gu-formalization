@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 1 KIG Positive Exterior Degree Rule"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 1
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "PositiveExteriorDegreeRuleForK_IG_0803_C1_V1_Result"
 verdict: "blocked_parent_degree_not_source_forced_coderivative_trace_survives"
 owned_path: "explorations/hourly-20260626-0803-cycle1-kig-positive-exterior-degree-rule.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 1 KIG Positive Exterior Degree Rule

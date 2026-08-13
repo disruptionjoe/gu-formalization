@@ -7,7 +7,7 @@ verdict: "NOT_QUANTIZING_GR_IS_A_VALID_PRIMARY_FRAMING_EXIT; QFT_AND_EXACT_GR_RE
 owned_path: "explorations/quantum-gravity-reframing-no-go-map-2026-06-24.md"
 audit_script: "tests/quantum_gravity_reframing_audit.py"
 depends_on:
-  - "explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/primary-gu-interface-contract-2026-06-24.md"
   - "explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md"
   - "canon/no-go-class-relative-map.md"
@@ -450,7 +450,7 @@ then test Kerr only if Schwarzschild closes.
 
 ## Sources Read
 
-- `explorations/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
+- `explorations/all-perspective-wall-break-steelman-hegelian-2026-06-24.md`
 - `explorations/primary-gu-interface-contract-2026-06-24.md`
 - `explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md`
 - `canon/no-go-class-relative-map.md`

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0601 Cycle 2 Keating Shiab Projection Formula Asset Packet Spec"
 date: "2026-06-25"
-run_id: "hourly-20260625-0601"
 cycle: 2
-lane: 5
 doc_type: keating_shiab_projection_formula_asset_packet_spec
 artifact_id: "KeatingPullThatUpJamieShiabProjectionFormulaAssetPacket_V1"
 verdict: "BLOCKED_ASSET_PACKET_SPECIFIED_NO_ACCEPTED_VISUAL_FORMULA_RECEIPTS"

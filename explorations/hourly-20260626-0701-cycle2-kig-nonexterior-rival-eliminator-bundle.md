@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 2 KIG Non-Exterior Rival Eliminator Bundle"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 2
-lane: 3
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "KIGNonExteriorRivalEliminatorBundle_0701_C2_V1_Result"
 verdict: "blocked_first_missing_coderivative_trace_eliminator_bundle_not_admitted"
 owned_path: "explorations/hourly-20260626-0701-cycle2-kig-nonexterior-rival-eliminator-bundle.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 2 KIG Non-Exterior Rival Eliminator Bundle

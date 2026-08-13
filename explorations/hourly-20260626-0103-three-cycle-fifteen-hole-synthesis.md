@@ -1,7 +1,6 @@
 ---
 title: "Hourly 20260626 0103 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 doc_type: "three_cycle_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0103_V1"
 verdict: "fifteen_holes_no_new_receipts_no_proof_restart"
@@ -12,8 +11,8 @@ owned_path: "explorations/hourly-20260626-0103-three-cycle-fifteen-hole-synthesi
 
 ## Plain-English Closeout
 
-This run completed fifteen quality holes across three cycles. It admitted no
-new source, proof, or route-local receipts. The value of the run is sharper
+This investigation completed fifteen quality holes across three cycles. It admitted no
+new source, proof, or route-local receipts. The value of the investigation is sharper
 negative order:
 
 - IG cannot derive Product A/B coefficients from finite common rows without a

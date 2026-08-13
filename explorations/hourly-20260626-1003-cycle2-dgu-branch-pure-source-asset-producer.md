@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1003 Cycle 2 DGU Branch-Pure Source Asset Producer"
 date: "2026-06-26"
-run_id: "hourly-20260626-1003"
 cycle: 2
-lane: 1
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "OfficialOrLawfulUCSDDGU01FrameSourceAssetProducer_1003_C2_L1_V1"
 verdict: "closed_scoped_negative_branch_pure_producer_specified_and_executed"
 owned_path: "explorations/hourly-20260626-1003-cycle2-dgu-branch-pure-source-asset-producer.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1003 Cycle 2 DGU Branch-Pure Source Asset Producer
@@ -36,7 +33,6 @@ branch_purity_enforced: true
 frame_retry_allowed: false
 same_operator_retry_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a DGU no-go. It is a repo-local source-asset decision. The repo has
@@ -53,7 +49,7 @@ Direct derivations:
 
 | repo source | direct fact used by the producer |
 |---|---|
-| `RESEARCH-POSTURE.md` | The run may pursue constructive objects, but must not hide target data inside reconstruction evidence. |
+| `RESEARCH-POSTURE.md` | The investigation may pursue constructive objects, but must not hide target data inside reconstruction evidence. |
 | `process/runbooks/five-lane-frontier-run.md` | A lane must name the exact missing object, terrain, forbidden shortcut, invariant, and kill condition without overclaiming. |
 | `explorations/remaining-math-topography-ledger-v0-2026-06-26.md` | DGU same-operator is provenance-verifier plus spectral-phase terrain; the shortcut is calling two formulae the same without source handles. |
 | `explorations/hourly-20260626-1003-cycle1-dgu-official-lawful-frame-source-asset-gate.md` | The exact obstruction is `OfficialOrLawfulUCSDDGU01FrameSourceAsset_V1.source_asset_identity_absent`; all three acquisition branches were absent. |
@@ -323,9 +319,7 @@ Negative receipt shape emitted by this run:
 ```text
 receipt_id: NegativeOfficialOrLawfulUCSDDGU01FrameSourceAssetReceipt_V1
 predicate_id: OfficialOrLawfulUCSDDGU01FrameSourceAssetProducer_V1
-run_id: hourly-20260626-1003
 cycle: 2
-lane: 1
 scope: repo-local read-first artifacts plus narrow UCSD/DGU01 asset-identity check
 official_ucsd_still_identity_present: false
 lawful_local_ucsd_video_or_source_byte_identity_present: false
@@ -334,7 +328,6 @@ first_failed_atom: selected_branch.source_asset_identity_absent_for_all_branches
 target_import_used: false
 frame_retry_allowed: false
 same_operator_retry_allowed: false
-claim_status_change: false
 ```
 
 ## 10. JSON Summary

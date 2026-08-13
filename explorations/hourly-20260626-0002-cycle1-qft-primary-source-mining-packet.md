@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 1 QFT Primary Source Mining Packet"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 1
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchLabelAdmissibilityPrimarySourceMiningPacket_0002_C1_QFT_V1"
 verdict: "underdefined_negative_primary_source_mining"

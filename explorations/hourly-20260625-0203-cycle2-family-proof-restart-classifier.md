@@ -3,7 +3,6 @@ title: "Hourly 20260625 0203 Cycle 2 Family Proof-Restart Classifier"
 date: "2026-06-25"
 run: "hourly-20260625-0203"
 cycle: "2"
-lane: "3"
 doc_type: family_proof_restart_classifier
 artifact_id: "FamilyProofRestartClassifier_V1"
 verdict: "BLOCKED_NO_FAMILY_CAN_RESTART_DOWNSTREAM_PROOF_WORK"

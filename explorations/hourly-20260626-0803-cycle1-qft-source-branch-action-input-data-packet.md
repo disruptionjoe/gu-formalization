@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Cycle 1 QFT Source Branch Action Input Data Packet"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 1
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTSourceBranchActionInputDataPacket_0803_C1_L5_V1"
 verdict: "packet_schema_defined_no_source_action_orbit_cocycle_key_predicate_admitted"
 owned_path: "explorations/hourly-20260626-0803-cycle1-qft-source-branch-action-input-data-packet.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Cycle 1 QFT Source Branch Action Input Data Packet

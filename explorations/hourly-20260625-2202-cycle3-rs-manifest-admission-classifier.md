@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2202 Cycle 3 RS Manifest Admission Classifier"
 date: "2026-06-25"
-run_id: "hourly-20260625-2202"
 cycle: 3
-lane: "RS"
 doc_type: "closeout_gate"
 artifact_id: "RSManifestAdmissionClassifier_2202_C3_L2_V1"
 verdict: "conditional"
@@ -16,7 +14,7 @@ owned_path: "explorations/hourly-20260625-2202-cycle3-rs-manifest-admission-clas
 
 Verdict: **conditional row closed; manifest blocked**.
 
-The run closed one narrow RS precondition:
+The investigation closed one narrow RS precondition:
 
 ```text
 directory_policy_row_admitted: true

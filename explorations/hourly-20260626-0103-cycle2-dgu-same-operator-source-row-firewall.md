@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 2 DGU Same Operator Source Row Firewall"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 2
-lane: "DGU"
 doc_type: "frontier_gate"
 artifact_id: "DGUSameOperatorSourceRowFirewall_0103_C2_DGU_V1"
 verdict: "blocked_same_operator_witness_unevaluable"

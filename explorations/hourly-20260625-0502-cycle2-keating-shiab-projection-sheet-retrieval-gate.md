@@ -3,7 +3,6 @@ title: "Hourly 20260625 0502 Cycle 2 Keating Shiab Projection Sheet Retrieval Ga
 date: "2026-06-25"
 run: "hourly-20260625-0502"
 cycle: 2
-lane: 5
 doc_type: keating_shiab_projection_sheet_retrieval_gate
 artifact_id: "KeatingRevealed_ShiabProjectionSheetRetrievalGate_V1"
 verdict: "BLOCKED_SHEET_NOT_LOCATED_MANUSCRIPT_FORMULA_CANDIDATE_QUARANTINED"

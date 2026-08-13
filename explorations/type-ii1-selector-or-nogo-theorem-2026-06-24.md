@@ -6,7 +6,7 @@ doc_type: selector_or_nogo_theorem
 verdict: "OPEN_NARROW_SELECTOR_REMAINS"
 owner: "Codex"
 depends_on:
-  - "explorations/persona-review-cross-panel-synthesis-2026-06-24.md"
+  - "explorations/perspective-review-cross-panel-synthesis-2026-06-24.md"
   - "explorations/type-ii1-construction-or-nogo-gate-2026-06-24.md"
   - "explorations/type-ii1-selector-candidate-2026-06-24.md"
   - "explorations/type-ii1-selector-anti-smuggling-theorem-2026-06-24.md"

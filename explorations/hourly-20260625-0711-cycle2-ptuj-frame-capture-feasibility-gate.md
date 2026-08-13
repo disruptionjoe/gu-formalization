@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0711 Cycle 2 PTUJ Frame Capture Feasibility Gate"
 date: "2026-06-25"
-run_id: "hourly-20260625-0711"
 cycle: 2
-lane: 2
 doc_type: ptuj_frame_capture_feasibility_gate
 artifact_id: "FrameLevelPullThatUpJamieTzSEvmqxu48FormulaCaptureFeasibilityGate_V1"
 verdict: "BLOCKED_TOOL_SOURCE_ACQUISITION_NO_FORMULA_FRAME_PACKET"

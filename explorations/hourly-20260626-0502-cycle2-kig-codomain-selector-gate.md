@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0502 Cycle 2 K_IG Codomain Selector Gate"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 2
-lane: "KIGCodomainSelectorGate"
 doc_type: "frontier_gate"
 artifact_id: "SourceForcedCodomainSelectorForK_IG_V1_Result"
 verdict: "blocked_underdefined_multiple_no_exterior_codomain_finality_axiom"
 owned_path: "explorations/hourly-20260626-0502-cycle2-kig-codomain-selector-gate.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0502 Cycle 2 K_IG Codomain Selector Gate
@@ -37,7 +34,6 @@ D_A U admissible:                true
 D_A U source-forced:             false
 rival_operator_classes_survive:  true
 target_import_used:              false
-claim_status_change:             false
 ```
 
 The strongest valid statement is:

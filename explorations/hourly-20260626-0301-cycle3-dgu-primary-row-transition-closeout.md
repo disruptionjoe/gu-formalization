@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0301 Cycle 3 DGU Primary Row Transition Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0301"
 cycle: 3
-lane: "DGU"
 doc_type: "frontier_closeout"
 artifact_id: "DGUPrimaryRowTransitionCloseout_0301_C3_DGU_V1"
 verdict: "blocked_no_downstream_admission_before_primary_row_payload_and_operator_handle"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1302 Cycle 1 Tau Inhabited Certificate Current State"
 date: "2026-06-26"
-run_id: "hourly-20260626-1302"
 cycle: 1
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "InhabitedTauFixedAlephGraphDerivationAndTangentCertificate_1302_C1_L2_V1"
 verdict: "blocked_certificate_uninhabited"
 owned_path: "explorations/hourly-20260626-1302-cycle1-tau-inhabited-certificate-current-state.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1302 Cycle 1 Tau Inhabited Certificate Current State
@@ -45,7 +42,6 @@ source_promotion_gate_satisfied: false
 exact_gr_restart_allowed: false
 theta_restart_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 ## 2. Sources Read First

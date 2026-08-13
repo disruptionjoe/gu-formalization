@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0803 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-26"
-run_id: "hourly-20260626-0803"
 cycle: 3
-lane: 6
 doc_type: "three_cycle_fifteen_hole_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0803_V1"
 verdict: "fifteen_holes_integrated_no_proof_restart"
 owned_path: "explorations/hourly-20260626-0803-three-cycle-fifteen-hole-synthesis.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0803 Three-Cycle Fifteen-Hole Synthesis
@@ -200,7 +197,7 @@ converted the broadest remaining blockers into concrete next source components:
 UCSD visual DGU rows, tau field-space lock, K_IG parent-variation slot, PTUJ
 branch-pure source packet, and QFT source-cover receipt.
 
-No lane padded the batch with weak work. The run did not close a GU proof
+No lane padded the batch with weak work. The investigation did not close a GU proof
 route, but it materially reduced ambiguity around what source object must be
 acquired or proved next.
 

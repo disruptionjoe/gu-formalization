@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 2 QFT Iota R Raw Before Groupoid"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 2
-lane: 5
 doc_type: admission_order_firewall
 artifact_id: "QFTIotaRRawBeforeGroupoid_2028_C2_L5_V1"
 verdict: "underdefined"

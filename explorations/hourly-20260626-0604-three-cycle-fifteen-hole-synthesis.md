@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Three-Cycle Fifteen-Hole Synthesis"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 3
-lane: 5
 doc_type: "three_cycle_fifteen_hole_synthesis"
 artifact_id: "ThreeCycleFifteenHoleSynthesis_0604_V1"
 verdict: "fifteen_holes_completed_predicates_defined_zero_source_admissions_no_proof_restart"
 owned_path: "explorations/hourly-20260626-0604-three-cycle-fifteen-hole-synthesis.md"
 companion_audit: "tests/hourly_20260626_0604_cycle3_closeout_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Three-Cycle Fifteen-Hole Synthesis

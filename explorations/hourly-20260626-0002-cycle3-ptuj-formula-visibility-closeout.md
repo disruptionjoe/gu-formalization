@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0002 Cycle 3 PTUJ Formula Visibility Closeout"
 date: "2026-06-25"
-run_id: "hourly-20260626-0002"
 cycle: 3
-lane: "PTUJ"
 doc_type: "closeout_gate"
 artifact_id: "PTUJFormulaVisibilityCloseout_0002_C3_PTUJ_V1"
 verdict: "blocked_before_formula_visibility"
@@ -38,7 +36,7 @@ claim_status_consistency_triggered: false
 
 ## Strongest Positive Result
 
-The run preserves a strict transition predicate:
+The investigation preserves a strict transition predicate:
 
 ```text
 one complete branch-pure source packet

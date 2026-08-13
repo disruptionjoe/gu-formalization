@@ -3,7 +3,6 @@ title: "Hourly 20260625 0103 Cycle 3 Primary Source Receipt Intake Protocol"
 date: "2026-06-25"
 run: "hourly-20260625-0103"
 cycle: "3"
-lane: "5"
 doc_type: primary_source_receipt_intake_protocol
 artifact_id: "PrimarySourceReceiptIntakeProtocol_V1"
 verdict: "CONDITIONAL_PROTOCOL_READY_RECEIPTS_STILL_MISSING"

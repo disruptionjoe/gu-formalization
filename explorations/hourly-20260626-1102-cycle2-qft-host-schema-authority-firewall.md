@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 2 QFT Host Schema Authority Firewall"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 2
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTHostSchemaToAuthorityFirewall_1102_C2_L5_V1"
 verdict: "closed_repo_local_governance_firewall_host_schema_not_locator_or_cover_authority"
 owned_path: "explorations/hourly-20260626-1102-cycle2-qft-host-schema-authority-firewall.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 2 QFT Host Schema Authority Firewall
@@ -57,7 +54,6 @@ qft_cover_declaration_retry_allowed: false
 local_records_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This is not a global no-go theorem against GU/QFT. It is a local firewall over

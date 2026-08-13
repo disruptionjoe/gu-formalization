@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0711 Cycle 1 Oxford Portal Frame Capture Execution"
 date: "2026-06-25"
-run_id: "hourly-20260625-0711"
 cycle: 1
-lane: 1
 doc_type: oxford_portal_frame_capture_execution
 artifact_id: "OxfordPortalFrameCaptureExecution_0711_Cycle1_Lane1_V1"
 verdict: "CONDITIONAL_VERIFIED_SOURCE_HOSTED_FRAMES_ZERO_ACCEPTED_RECEIPTS"
@@ -20,7 +18,7 @@ Verdict: **conditional / blocked for receipt acceptance**.
 The Oxford/Portal frame acquisition gate can be advanced beyond the 0601
 specification. Official source-hosted frame surfaces for all five required
 anchors were already located by the 0703 packet and were re-verified live in
-this run on 2026-06-25. The official Oxford page returned HTTP 200 and contains
+this investigation on 2026-06-25. The official Oxford page returned HTTP 200 and contains
 all five embedded PNG still filenames. Each PNG returned HTTP 200 as
 `image/png`, and its live SHA-256 digest matched the 0703 packet.
 
@@ -49,7 +47,7 @@ Directly from required repo files:
 | `five-lane-frontier-run.md` | frontier lanes must identify exact obstructions and avoid overclaiming. | verdict split between verified frame substep and blocked receipt acceptance |
 | `three-cycle-fifteen-hole-run.md` | a quality hole must record impact, falsification, and next object. | artifact records receipt counts, obstruction, and next computation |
 | `hourly-20260625-0601-three-cycle-fifteen-hole-synthesis.md` | zero accepted receipts and no proof restart; Oxford frame packet is next frontier object. | proof restart remains false |
-| `hourly-20260625-0601-cycle1-oxford-portal-formula-frame-packet-spec.md` | five required anchors and acceptance criteria. | this run checks exactly those five anchors |
+| `hourly-20260625-0601-cycle1-oxford-portal-formula-frame-packet-spec.md` | five required anchors and acceptance criteria. | this investigation checks exactly those five anchors |
 | `hourly_20260625_0601_cycle1_oxford_portal_formula_frame_packet_spec_audit.py` | audit invariants for artifact identity, anchors, zero receipts, proof restart, obstruction, and next object. | new audit follows the same machine-checkable contract |
 | `sources/media-index.md` | `GU-MEDIA-2013-OXFORD`, `GU-MEDIA-2020-PORTAL-SPECIAL`, and `GU-POD-2020-PORTAL-SPECIAL` are official/high-priority source surfaces, but media index is a provenance map, not proof. | official media can support source/frame rows only after timestamp/context checking |
 
@@ -57,7 +55,7 @@ Additional repo-local state discovered during this execution:
 
 | source surface | direct content used | decision effect |
 | --- | --- | --- |
-| `hourly-20260625-0703-cycle1-oxford-portal-frame-reacquisition.md` | a newer packet already located official hosted stills, checksums, and transcriptions for all five anchors. | this run re-verifies those URLs and hashes rather than duplicating a stale spec |
+| `hourly-20260625-0703-cycle1-oxford-portal-frame-reacquisition.md` | a newer packet already located official hosted stills, checksums, and transcriptions for all five anchors. | this investigation re-verifies those URLs and hashes rather than duplicating a stale spec |
 | `hourly_20260625_0703_cycle1_oxford_portal_frame_reacquisition_audit.py` | 0703 rows opened candidate packet status but not accepted routing. | 0711 preserves zero accepted receipts |
 
 Live source checks performed in this run:

@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0502 Cycle 1 Negative Primary DGU Source Receipt"
 date: "2026-06-26"
-run_id: "hourly-20260626-0502"
 cycle: 1
-lane: "negative-primary-dgu-source-receipt"
 doc_type: "negative_primary_source_receipt"
 artifact_id: "NegativePrimarySourceReceiptForDGU01SameOperatorPacket_V1"
 verdict: "closed_scoped_negative_primary_source_receipt"

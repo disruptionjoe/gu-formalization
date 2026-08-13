@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2028 Cycle 2 IG Product B Before FC Gates"
 date: "2026-06-25"
-run_id: "hourly-20260625-2028"
 cycle: 2
-lane: 2
 doc_type: admission_order_firewall
 artifact_id: "IGProductBBeforeFCGates_2028_C2_L2_V1"
 verdict: "blocked"

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0701 Cycle 2 QFT Morphism Typing Equality Law"
 date: "2026-06-26"
-run_id: "hourly-20260626-0701"
 cycle: 2
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTBranchRecordMorphismTypingEqualityLaw_0701_C2_L5_V1"
 verdict: "schema_morphism_typing_equality_law_defined_category_laws_close_no_source_action_cocycle"
 owned_path: "explorations/hourly-20260626-0701-cycle2-qft-morphism-typing-equality-law.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0701 Cycle 2 QFT Morphism Typing Equality Law

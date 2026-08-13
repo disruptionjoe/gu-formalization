@@ -1,15 +1,12 @@
 ---
 title: "Hourly 20260626 0604 Cycle 3 Next Frontier Sequencing Matrix"
 date: "2026-06-26"
-run_id: "hourly-20260626-0604"
 cycle: 3
-lane: 4
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "NextFrontierSequencingMatrix_0604_C3_V1"
 verdict: "ranked_frontier_updated_parallel_source_intake_only"
 owned_path: "explorations/hourly-20260626-0604-cycle3-next-frontier-sequencing-matrix.md"
 companion_audit: "tests/hourly_20260626_0604_cycle3_closeout_audit.py"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0604 Cycle 3 Next Frontier Sequencing Matrix

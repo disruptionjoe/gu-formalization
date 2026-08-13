@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260626 0103 Cycle 1 IG Source Locator Specificity Gate"
 date: "2026-06-25"
-run_id: "hourly-20260626-0103"
 cycle: 1
-lane: "IG"
 doc_type: "frontier_gate"
 artifact_id: "ProductABSourceLocatorSpecificityGate_0103_C1_IG_V1"
 verdict: "blocked_locator_not_specific_enough"
@@ -85,7 +83,7 @@ The first exact missing field remains:
 ProductABSourceOperatorSourceLocatorReceipt_V1.source_native_operator_locator
 ```
 
-This run sharpens the obstruction: a generic Shiab/highest-weight source
+This investigation sharpens the obstruction: a generic Shiab/highest-weight source
 neighborhood is not enough. The locator must be Product A/B specific and must
 bind the comparison direction before any coefficient or selector work starts.
 

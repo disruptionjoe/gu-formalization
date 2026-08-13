@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 0904 Cycle 3 Tau Field Space Trichotomy"
 date: "2026-06-26"
-run_id: "hourly-20260626-0904"
 cycle: 3
-lane: 2
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "TauFieldSpaceTrichotomyDecisionTable_0904_C3_L2_V1"
 verdict: "closed_trichotomy_table_all_states_unselected"
 owned_path: "explorations/hourly-20260626-0904-cycle3-tau-field-space-trichotomy.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 0904 Cycle 3 Tau Field Space Trichotomy

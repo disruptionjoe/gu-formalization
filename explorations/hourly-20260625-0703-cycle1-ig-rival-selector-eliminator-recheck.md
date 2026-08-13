@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 0703 Cycle 1 IG Rival Selector Eliminator Recheck"
 date: "2026-06-25"
-run_id: "hourly-20260625-0703"
 cycle: 1
-lane: 5
 doc_type: ig_rival_selector_eliminator_recheck
 artifact_id: "ManuscriptRepresentationTheoryBianchiRivalEliminatorForShiab_Recheck_V1"
 verdict: "UNDERDEFINED_HOSTED_SHIAB_CANDIDATE_NOT_SELECTED"

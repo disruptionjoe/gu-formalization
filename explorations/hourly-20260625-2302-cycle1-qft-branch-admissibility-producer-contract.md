@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 2302 Cycle 1 QFT Branch Admissibility Producer Contract"
 date: "2026-06-25"
-run_id: "hourly-20260625-2302"
 cycle: 1
-lane: "QFT"
 doc_type: "frontier_gate"
 artifact_id: "QFTBranchLabelAndAdmissibilitySourceLocatorReceipt_2302_C1_QFT_V1"
 verdict: "underdefined_producer_contract_not_admitted"

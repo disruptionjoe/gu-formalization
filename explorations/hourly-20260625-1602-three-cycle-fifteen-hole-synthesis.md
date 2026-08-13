@@ -1,9 +1,7 @@
 ---
 title: "Hourly 20260625 1602 Three Cycle Fifteen Hole Synthesis"
 date: "2026-06-25"
-run_id: "hourly-20260625-1602"
 cycle: 3
-lane: "synthesis"
 doc_type: three_cycle_fifteen_hole_synthesis
 artifact_id: "Hourly20260625_1602_ThreeCycleFifteenHoleSynthesis_V1"
 verdict: "FIFTEEN_QUALITY_HOLES_ZERO_ACCEPTED_RECEIPTS_NO_PROOF_RESTART"
@@ -21,7 +19,7 @@ restart**.
 The 1602 wrapper did not promote a GU reconstruction claim, physics-recovery
 claim, or global no-go. It did improve the current frontier by turning the 1503
 next-five producer objects into stricter source/proof admission gates, then
-closing the run with readiness, transition, global-negative, promotion-firewall,
+closing the investigation with readiness, transition, global-negative, promotion-firewall,
 and next-frontier artifacts.
 
 Run-level decision:
@@ -89,7 +87,7 @@ Blocked or underdefined:
 
 No-go:
 
-- No global no-go is promoted. The run contains scoped/source/underdefined
+- No global no-go is promoted. The investigation contains scoped/source/underdefined
   blockers, not exhaustive theorem-class route eliminations.
 
 ## 4. Next Frontier Objects

@@ -1,14 +1,11 @@
 ---
 title: "Hourly 20260626 1102 Cycle 3 QFT Firewall-Crossing Witness Spec"
 date: "2026-06-26"
-run_id: "hourly-20260626-1102"
 cycle: 3
-lane: 5
 doc_type: "frontier_run_lane_artifact"
 artifact_id: "QFTFirewallCrossingWitness_1102_C3_L5_V1"
 verdict: "closed_witness_spec_defined_and_applied_no_firewall_crossing_witness_present"
 owned_path: "explorations/hourly-20260626-1102-cycle3-qft-firewall-crossing-witness-spec.md"
-claim_status_change: false
 ---
 
 # Hourly 20260626 1102 Cycle 3 QFT Firewall-Crossing Witness Spec
@@ -41,7 +38,6 @@ local_records_unlocked: false
 brsch_checks_unlocked: false
 carrier_work_allowed: false
 target_import_used: false
-claim_status_change: false
 ```
 
 This does not repeat the QFT source search. It consumes the prior negative

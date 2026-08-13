@@ -10,7 +10,7 @@ companion_audit:
 depends_on:
   - "RESEARCH-POSTURE.md"
   - "process/runbooks/five-lane-frontier-run.md"
-  - "explorations/persona-review-distributed-systems-2026-06-24.md"
+  - "explorations/perspective-review-distributed-systems-2026-06-24.md"
   - "explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md"
   - "NEXT-STEPS.md"
   - "explorations/hourly-cycle1-observer-shadow-phi-obs-contract-2026-06-24.md"
@@ -304,7 +304,7 @@ derived GU result.
   live top-gate dependency management.
 - Owner files: `RESEARCH-POSTURE.md`,
   `process/runbooks/five-lane-frontier-run.md`,
-  `explorations/persona-review-distributed-systems-2026-06-24.md`, and
+  `explorations/perspective-review-distributed-systems-2026-06-24.md`, and
   `explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md`.
 - Accepted inputs: explicit assumptions; source files; machine-readable gate registries;
   independent proof/computation artifacts; audits that check no upgrades; correction logs.
@@ -736,7 +736,7 @@ keeps the observer/QFT lanes from consuming target-like data before the source-m
       "owner_files": [
         "RESEARCH-POSTURE.md",
         "process/runbooks/five-lane-frontier-run.md",
-        "explorations/persona-review-distributed-systems-2026-06-24.md",
+        "explorations/perspective-review-distributed-systems-2026-06-24.md",
         "explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md"
       ],
       "accepted_inputs": [
