@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-projected-adjoint-jet-prolongation-source-return-2026-08-13.md`](selected-k77-i2b-projected-adjoint-jet-prolongation-source-return-2026-08-13.md)
+  - confirms the inhomogeneous connection and tilted/distortion grammar;
+    returns source-silent on the selected real-K77 ten-block prolongation and
+    exact `250/225/25` ranks; and attributes the Ward-completion diagnostic to
+    the repository.
+
 - [`selected-k77-i2b-local-stationary-bianchi-jet-source-return-2026-08-13.md`](selected-k77-i2b-local-stationary-bianchi-jet-source-return-2026-08-13.md)
   - confirms `SC-ACT-04` connection/residual-square ownership; returns source-
     silent on the exact rational stationary jet, its formal prolongation and

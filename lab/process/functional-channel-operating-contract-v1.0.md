@@ -62,6 +62,18 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The projected-adjoint prolongation successor sharpens the local stationary
+gate without migrating the ledger. Ten symmetric jet copies of the exact
+rank-25 field adjoint image have rank 250, but their restriction to the frozen
+stationary Euler symbol has rank 25, so only rank 225 is tangent. The defect is
+one Lorentz trace, not four independent diagonal failures. Build must not
+subtract all 250 or treat the rank-25 complement as physical. It next owns the
+actual product-rule jet gauge/BV differential through the nonzero stationary
+connection jet, including moving `Q_B`, `H_q`, Shiab and observation Ward
+terms and the affine connection contribution where applicable. Only after
+that image lies in the full linearized Euler kernel may Spencer or symplectic
+reduction proceed.
+
 The local stationary Bianchi-jet successor constructs the representative that
 v0.236 left open. A sparse rational symmetric two-jet with fourteen nonzero
 coefficients cancels all 196 frozen selected Euler cells at the base point,
@@ -70,7 +82,7 @@ componentwise linear Bianchi checks. The `196 x 392` map has rank 196 and thus
 a 196-dimensional affine solution fibre. Build must not turn that fibre into
 theory residue or require the action to select a unique classical history.
 Its next gate is first formal/Spencer prolongation plus the jet prolongation of
-the actual rank-25 `Cl2` source gauge/BV distribution, followed by moving
+the rank-25 `Cl2` projected adjoint image, followed by moving
 `Q_B`/`H_q`/observation compatibility. Global descent, preboundary data and
 physical-carrier comparison remain downstream.
 
@@ -103,8 +115,9 @@ selected rank `25`. The Euler target annihilates that actual gauge image; the
 isolated `(8/3)k` contraction is therefore not a Ward-totalization obligation.
 On null covectors the raw differential complex has quotient dimensions
 `168/168`, versus Einstein `2/2`, but these are not gauge cohomologies or
-particles. Its first lower-order successor is recorded below; the actual
-source BV distribution and physical-carrier null quotient remain downstream.
+particles. Its first lower-order successor is recorded below; a full source BV
+differential extending the rank-25 projected adjoint image and the physical-
+carrier null quotient remain downstream.
 
 The lower-order exact-form successor closes only the fixed-`H_q` restricted
 radial critical branch. Both terms of the residual-square Hessian are
@@ -115,7 +128,8 @@ Thus the non-gauge exact-form family is lifted in the full finite-frequency
 linearization there, but the principal characteristic kernel remains. Because
 the branch is nonstationary on the full 196-cell bank, Build next constructs
 a source/action-owned full stationary jet before any spectrum, and only then
-induces the actual rank-25 source BV distribution on the physical carrier.
+induces a full source BV differential extending the rank-25 projected adjoint
+image on the physical carrier.
 
 The predecessor v0.235 real-curvature Euler-image theorem closes the complete pointwise
 real full-`U(64,64)` curvature-value route. The exact residual-to-Euler

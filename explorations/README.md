@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B projected-adjoint jet prolongation (2026-08-13)
+
+`conditional-build/selected-k77-i2b-projected-adjoint-jet-prolongation-2026-08-13.md`
+prolongs the exact field-level rank-25 projected adjoint image over all ten
+symmetric observed second-jet blocks. Its rank-250 prolongation meets the
+rank-1764 stationary symbol kernel in rank 225; the rank-25 complement is one
+Lorentz-trace Ward-completion burden. This retypes the next gate as the full
+jet gauge/BV differential with moving geometry, not a quotient by all 250 or
+a physical mode count.
+
 ## K77 I2B local stationary Bianchi-jet witness (2026-08-13)
 
 `conditional-build/selected-k77-i2b-local-stationary-bianchi-jet-witness-2026-08-13.md`

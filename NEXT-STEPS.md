@@ -7,6 +7,21 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B PROJECTED-ADJOINT JET PROLONGATION (ledger
+> no-change).** The field-level rank-25 `Cl2` projected adjoint image does not
+> by itself supply the full stationary two-jet gauge/BV quotient. Across all
+> ten symmetric observed blocks its frozen prolongation has rank `250`, but
+> only rank `225` is tangent to the rank-`1764` stationary symbol kernel. The
+> remaining rank `25` is one Lorentz-trace response: mixed blocks vanish and
+> the three spatial diagonal responses equal minus the timelike response.
+> **Do not subtract all 250 directions or call the rank-25 complement physical.
+> Next construct the actual jet gauge differential with product-rule terms,
+> the nonzero stationary connection jet, moving `Q_B`/`H_q`/Shiab/observation,
+> and the connection-affine term where applicable; require Ward tangency, then
+> run Spencer compatibility.** The frozen tangent quotient rank `1539` is not
+> a phase-space or particle count. No ledger, verdict, accounting, datum,
+> canon or posture move.
+
 > **2026-08-13 K77 I2B LOCAL STATIONARY BIANCHI-JET WITNESS (ledger
 > no-change).** An exact sparse rational symmetric connection two-jet with
 > fourteen nonzero coefficients cancels all `196` cells of the frozen selected
@@ -15,7 +30,7 @@ updated_at: "2026-08-13"
 > checks. The `196 x 392` map has rank `196`, so the stationary jets form a
 > `196`-dimensional affine fibre. **Do not ask the source action to choose a
 > unique classical history or book that fibre as theory residue. Next prolong
-> the actual rank-25 `Cl2` source gauge/BV distribution to this symmetric
+> the rank-25 `Cl2` projected adjoint image to this symmetric
 > two-jet equation, compute the quotient/intersection, and run the first
 > Spencer/formal-integrability gate with moving `Q_B`, `H_q` and observation.**
 > A local stationary jet is not yet a solution germ, global field, phase space,
@@ -32,8 +47,8 @@ updated_at: "2026-08-13"
 > spectrum because the branch is nonstationary on the full 196-cell bank.
 > **Do not run another frequency scan or relabel the lift as gauge fixing.**
 > The local stationary-jet successor above now closes the base-point existence
-> gate; proceed through formal prolongation and the actual rank-25 source BV
-> distribution before any physical-carrier spectrum. No ledger, verdict,
+> gate; proceed through formal prolongation and a full source BV differential
+> extending the rank-25 projected adjoint image before any physical-carrier spectrum. No ledger, verdict,
 > accounting, datum, canon or posture move.
 
 > **2026-08-13 K77 I2B PRINCIPAL-DEGENERACY RETYPE (ledger no-change).** The
@@ -44,8 +59,8 @@ updated_at: "2026-08-13"
 > only the non-gauge exact-form map produces `(8/3)k`. **Do not run a
 > lower-order Ward-cancellation wave or call `168/168` gauge cohomology. The
 > fixed-branch lower-order successor above now closes automatic survival there;
-> next construct a full stationary jet, then induce the source-owned rank-25
-> BV distribution on the physical carrier and compare
+> next construct a full stationary jet, then induce a source-owned BV
+> differential extending that rank-25 image on the physical carrier and compare
 > its null classes with Einstein `2/2`.** The null rank jump remains a real
 > symbol burden; its gauge/Noether interpretation is retracted. No ledger,
 > verdict, accounting, datum, canon or posture move.
@@ -58,7 +73,7 @@ updated_at: "2026-08-13"
 > coefficient. **Do not call the mixed jet free Cauchy data. The fixed-branch
 > lower-order successor above lifts the fourteen exact-form directions there
 > but does not supply a full stationary solution. Next construct that
-> stationary jet; only then should the actual rank-25 gauge/BV image be induced
+> stationary jet; only then should a full gauge/BV differential extending the rank-25 image be induced
 > on the physical carrier and globalized
 > through atlas, observation and boundary ownership.** The solution fibre is field-jet freedom, not booked theory
 > residue. No ledger, verdict, accounting, datum, canon or posture move.

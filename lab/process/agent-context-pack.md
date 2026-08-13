@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current projected-adjoint jet prolongation (ledger no-change):** the exact
+> rank-25 field-level `Cl2` adjoint image is not yet the full stationary-jet
+> gauge/BV differential. Its ten-copy symmetric observed prolongation has rank
+> 250; only rank 225 lies in the rank-1764 stationary symbol kernel. The
+> remaining rank 25 is one Lorentz-trace response, with all mixed blocks zero
+> and spatial diagonals minus the timelike diagonal. Do not quotient all 250
+> or interpret the complement as physical. Rank one is the product-rule
+> prolongation through the nonzero stationary jet plus moving `Q_B`, `H_q`,
+> Shiab and observation Ward terms, followed by Spencer compatibility.
+
 > **Current local stationary Bianchi-jet witness (ledger no-change):** an exact
 > sparse rational symmetric two-jet with fourteen nonzero coefficients cancels
 > the entire 196-cell frozen selected I2B Euler covector at the base point. It
@@ -17,7 +27,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > 196-dimensional affine stationary-jet fibre. This is solution-jet freedom,
 > not 196 external theory parameters; an action need not choose one unique
 > classical history. Rank one is now the first Spencer/formal-integrability
-> gate together with prolongation of the actual rank-25 `Cl2` source gauge/BV
+> gate together with prolongation of the rank-25 `Cl2` projected adjoint
 > distribution and moving `Q_B`, `H_q` and observation. No local/global
 > solution, phase space, spectrum or physical carrier is yet established.
 
