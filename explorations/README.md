@@ -7,14 +7,23 @@ updated_at: "2026-08-13"
 
 # Explorations
 
-## K77 I2B source tangent and gauge/BV image (2026-08-13)
+## K77 I2B independent-tangent queue correction (2026-08-13)
+
+`conditional-build/selected-k77-i2b-independent-tangent-queue-correction-2026-08-13.md`
+proves that moving geometry cannot cancel the independent `varpi/T` Euler
+component. The two selected conditional `Q_u` action rivals therefore have no
+nonzero joint stationary point on the declared ansatz. Ledger v0.230 sends the
+successor to source `Q_B`/action-parent `T` dependence or a source-derived
+constraint/full BV-KT tangent; no physics verdict or accounting moves.
+
+## Predecessor: K77 I2B source tangent and gauge/BV image (2026-08-13)
 
 `conditional-build/selected-k77-i2b-source-gauge-bv-image-2026-08-13.md`
 proves that the tilted source graph has zero image in `T`, while the residual
 rank-25 adjoint gauge image is disjoint from the twelve fixed-background Euler
-cells. The nonzero Euler covector descends to the quotient. Ledger v0.229 sends
-the rank-one successor to the actual moving geometric Fréchet response; no
-physics verdict, residue, quotient or datum moves.
+cells. The nonzero Euler covector descends to the quotient. Ledger v0.230
+supersedes only its moving-geometry successor; no physics verdict, residue,
+quotient or datum moves.
 
 ## K77 rank-128 observation-kernel module (2026-08-13)
 

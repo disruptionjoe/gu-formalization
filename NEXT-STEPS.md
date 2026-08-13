@@ -7,16 +7,27 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
-> **2026-08-13 K77 I2B SOURCE/GUAGE-BV IMAGE (ledger v0.229).** On the
+> **2026-08-13 K77 I2B INDEPENDENT-TANGENT QUEUE CORRECTION (ledger
+> v0.230).** The source varies `varpi` independently at fixed `epsilon` and
+> geometry. The exact cotangent block theorem therefore preserves the nonzero
+> twelve-cell `T` Euler component under every reference/metric/section/Hodge/
+> Shiab/trace-frame/observer response. The two selected conditional `Q_u`
+> action rivals have no nonzero joint stationary point on the declared trace-
+> `H_q` ansatz. **Do not run another geometry-only cancellation. Inspect the
+> source `Q_B` and full/two-half action parent for genuine `T` dependence, or
+> derive a source-owned constraint/full BV-KT tangent, then test it against the
+> determinant-80 shapes.** This is not a GU or source-action no-go; `Q_u` is
+> not source `Q_B`. No accounting, datum, canon or public-posture move.
+
+> **Predecessor v0.229 — K77 I2B SOURCE/GAUGE-BV IMAGE.** On the
 > selected 196-real Cl1 distortion bank, arbitrary `varpi` translation is a
 > physical field tangent, the 91-dimensional tilted graph has zero `T` image,
 > and the complete projected adjoint gauge image has rank 25 with zero
 > intersection against the twelve diagonal Euler cells. The nonzero Euler
 > covector annihilates gauge directions and therefore descends to the quotient;
 > it does not vanish there. **Do not quotient source translations or retry a
-> local gauge repair. Construct the coupled moving reference/metric/section/
-> Hodge/Shiab/trace-Hq Fréchet response and test its independently derived
-> image against the two determinant-80 shapes.** Full BV/KT, BFV, the two
+> local gauge repair.** V0.230 supersedes only its moving-geometry successor.
+> Full BV/KT, BFV, the two
 > `C^(32,32)` halves and full `U(64,64)` remain open. No accounting, datum,
 > canon or public-posture move.
 

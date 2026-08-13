@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.229.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.229.md`.
+`lab/process/conditional-physics-ledger-v0.230.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.230.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -62,13 +62,22 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The v0.230 independent-tangent theorem closes the mistyped moving-geometry
+repair. Since `varpi` varies independently at fixed `epsilon` and geometry,
+the `varpi` Euler block remains exactly the nonzero `T` partial under any
+reference/metric/section/Hodge/Shiab/trace-frame/observer response. The two
+selected conditional `Q_u` action rivals therefore have no nonzero joint
+stationary point on the declared ansatz. Build must inspect source `Q_B` and
+full/two-half action ownership for genuine `T` dependence, or derive a source
+constraint/full BV-KT tangent. It may not substitute `Q_u` for `Q_B` or run
+another geometry-only cancellation.
+
 The v0.229 source/gauge theorem closes the local quotient escape for the
 twelve-cell I2B Euler obstruction. Arbitrary `varpi` translation is a field
 tangent, the tilted graph has zero `T` image, and the rank-25 residual adjoint
 image is disjoint from the twelve cells; a nonzero gauge-annihilating Euler
-covector descends rather than vanishes. Build must now target the independently
-derived moving geometric Fréchet response and may not quotient all source
-translations or fit a cancellation.
+covector descends rather than vanishes. V0.230 supersedes only its proposed
+moving-geometry successor; source translations still may not be quotiented.
 
 The v0.228 module theorem composes v0.227's ten pairwise-disjoint rank-128
 defects into the exact 1,280-dimensional observation kernel `N* tensor S`.

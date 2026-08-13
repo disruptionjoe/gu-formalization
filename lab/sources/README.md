@@ -114,6 +114,11 @@ updated_at: "2026-08-12"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-i2b-independent-tangent-queue-correction-source-return-2026-08-13.md`](selected-k77-i2b-independent-tangent-queue-correction-source-return-2026-08-13.md)
+  confirms independent `varpi+s alpha` variation at fixed `epsilon`, preserves
+  source silence on repository `Q_u` and any `T`-dependent `Q_B` or constraint,
+  and records the exact geometry-only queue correction.
+
 - [`selected-k77-i2b-source-gauge-bv-image-source-return-2026-08-13.md`](selected-k77-i2b-source-gauge-bv-image-source-return-2026-08-13.md)
   confirms the source `delta T=alpha-D_A zeta` tilted grammar, keeps arbitrary
   `varpi` translation distinct from gauge, and returns source-silent on the

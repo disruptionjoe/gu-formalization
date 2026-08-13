@@ -6,14 +6,23 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_independent_tangent_queue_correction_probe.py`
+  proves the `varpi` Euler block is identically the nonzero `T` partial under
+  every geometry-only response and that on-shell auxiliary elimination cannot
+  cancel it. It replays the exact twelve-cell/gauge result and preserves source
+  `Q_B` or constraint/BV exits.
+
+- `channel-swings/conditional_physics_ledger_v0230_probe.py` enforces the
+  no-verdict v0.230 migration and rejects the mistyped moving-geometry queue.
+
 - `channel-swings/selected_k77_i2b_source_gauge_bv_image_probe.py` proves on
   the exact 196-real selected distortion bank that the source chart has rank
   196, the tilted graph has zero `T` image, and the rank-25 residual adjoint
   gauge image has zero intersection with the twelve Euler cells. The nonzero
   Euler covector descends. It passes `53/53` under pinned SymPy `1.14.0`.
 
-- `channel-swings/conditional_physics_ledger_v0229_probe.py` enforces the
-  no-verdict v0.229 migration and moving-geometric-Fréchet successor.
+- `channel-swings/conditional_physics_ledger_v0229_probe.py` preserves the
+  no-verdict v0.229 gauge-descent predecessor; v0.230 supersedes its successor.
 
 - `channel-swings/portfolio_rank128_observation_kernel_module_probe.py`
   composes the ten pairwise-disjoint defect images and proves their sum is
@@ -1524,7 +1533,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (645 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.229 source/gauge-BV image and ledger gate, v0.228 rank-128 observation-kernel module, v0.227 portfolio checks, v0.226 corrected action-Euler square, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (647 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.230 independent-tangent queue correction and ledger gate, v0.229 source/gauge-BV image, v0.228 rank-128 observation-kernel module, v0.227 portfolio checks, v0.226 corrected action-Euler square, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
