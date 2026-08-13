@@ -1,0 +1,31 @@
+schema_version: "1.0"
+repository: observerse-research-program
+branch: main
+revision_basis: 4968884e5978874fca8c3e9a5df4209cb77473f1
+purpose: >-
+  Establish the honest truth-status of the Observerse / Geometric Unity
+  program by forcing, falsifying, or precisely locating its claims.
+current_result:
+  status: conditional_research_front
+  summary: >-
+    The selected Cl2 second-layer residual pullback is exact at rank 100 with
+    inertia (54,46); other Clifford grades, the total residual, Euler and
+    preboundary structure, helicity, and common-domain/BV/BFV claims remain
+    open on this branch.
+  evidence:
+    - explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md
+    - RESEARCH-STATUS.md
+current_question: >-
+  Which other Clifford grades survive in the source-total residual, and what
+  do they imply before higher variational or physical-carrier promotion?
+acceptance:
+  - RESEARCH-POSTURE.md
+  - VERIFICATION.md
+contribution_path:
+  - CONTRIBUTING.md
+  - NEXT-STEPS.md
+next_condition: >-
+  Layer-0 type the source-total residual, enumerate other Clifford grades,
+  prove zero blocks without the killed shortcut, and compute any survivors
+  before cubic, Euler, preboundary, helicity, domain, or BV/BFV claims.
+what_needs_joe: none
