@@ -9,16 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
-> **Current v0.231 source-natural primalizer classification:** on the live
-> traceless Clifford-grade-one residual, both source-supported fixed-parent
-> readings leave one natural pairing scale. The full `U(64,64)` center-product
-> term vanishes there, while the distinct two-`C^(32,32)`-half odd
-> bifundamental has one invariant Hermitian line. A nonzero scale cannot alter
-> an Euler zero set. Do not search another fixed pairing or independently
-> weight the two halves. Construct the smallest source-derived constraint/full
-> BV--Koszul--Tate tangent and test it against the fourteen-cell source-natural
-> and twelve-cell conditional-`Q_u` obstructions. A moving or field-dependent
-> action-owned reduction remains a separate rival. No accounting moves.
+> **Current v0.232 source/BV--Koszul--Tate exact sequence:** the selected
+> 196-cell source chart is onto, its tilted graph is a 91-dimensional
+> coordinate kernel, the ordinary gauge image has rank 25 and its first
+> reducibility has dimension 66. The fourteen-cell source-natural and
+> twelve-cell conditional-`Q_u` Euler covectors satisfy the Ward/KT identities
+> and remain nonzero after descent. KT resolves the Euler ideal; it is not a
+> primal tangent constraint. Do not run another ordinary gauge/BV quotient.
+> Construct a new action-owned primal constraint or moving/field-dependent
+> reduction and test both obstruction families. No accounting moves.
+
+> **Predecessor v0.231 source-natural primalizer classification:** both fixed
+> source-supported parent readings leave one natural pairing scale on the live
+> grade-one residual, which cannot alter an Euler zero set. V0.232 supersedes
+> only its BV/KT successor; fixed-pairing search stays closed.
 
 > **Predecessor v0.230 independent-tangent queue correction:** the source's
 > arbitrary `varpi` variation is independent at fixed `epsilon` and geometry.

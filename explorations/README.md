@@ -7,15 +7,22 @@ updated_at: "2026-08-13"
 
 # Explorations
 
-## K77 I2B source-natural primalizer classification (2026-08-13)
+## K77 I2B source/BV--Koszul--Tate exact sequence (2026-08-13)
+
+`conditional-build/selected-k77-i2b-source-bvkt-exact-sequence-2026-08-13.md`
+constructs the exact local source chart, rank-25 gauge map and 66-column first
+reducibility. Both live Euler covectors satisfy KT nilpotence and descend
+nonzero. Ledger v0.232 closes ordinary current-source BV/KT as an escape and
+sends rank one to a new action-owned primal constraint or moving reduction.
+
+## Predecessor: K77 I2B source-natural primalizer classification (2026-08-13)
 
 `conditional-build/selected-k77-i2b-source-natural-primalizer-classification-2026-08-13.md`
 classifies every fixed gauge-natural symmetric pairing on the live traceless
 Clifford-grade-one residual. Both the full `U(64,64)` parent and the distinct
 two-`C^(32,32)`-half block reading leave one nonzero scale, which cannot alter
-the Euler zero set. Ledger v0.231 closes fixed-pairing freedom as a repair and
-sends the rank-one successor to a source-derived constraint/full BV--KT
-tangent; moving or field-dependent action ownership remains a rival.
+the Euler zero set. Ledger v0.231 closes fixed-pairing freedom as a repair;
+v0.232 supersedes only its BV/KT successor.
 
 ## K77 I2B independent-tangent queue correction (2026-08-13)
 

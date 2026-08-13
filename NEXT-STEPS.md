@@ -7,19 +7,24 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
-> **2026-08-13 K77 I2B SOURCE-NATURAL PRIMALIZER CLASSIFICATION (ledger
-> v0.231).** On the live traceless Clifford-grade-one residual, both
-> source-supported fixed-parent readings leave exactly one natural pairing
-> scale: the full `U(64,64)` center-product term vanishes, and the distinct
-> two-`C^(32,32)`-half odd bifundamental has one invariant Hermitian line.
-> Nonzero scaling cannot alter the Euler zero set, so fixed `Q_B` freedom
-> cannot remove either the fourteen-cell source-natural obstruction or the
-> twelve-cell conditional-`Q_u` shapes. **Do not search another fixed pairing
-> or weight the two halves independently. Construct the smallest
-> source-derived constraint/full BV--Koszul--Tate tangent and test its image
-> against both obstruction families.** Retain an action-owned moving or
-> field-dependent reduction as a separate rival. No accounting, datum, canon
-> or public-posture move.
+> **2026-08-13 K77 I2B SOURCE/BV--KOSZUL--TATE EXACT SEQUENCE (ledger
+> v0.232).** The 196-cell source chart, rank-25 ordinary gauge image and
+> 66-column first reducibility close exactly, but the fourteen-cell
+> source-natural and twelve-cell conditional-`Q_u` Euler covectors both
+> descend nonzero. Koszul--Tate resolves their Euler ideal; it does not
+> restrict primal `varpi/T` variations or imply stationarity. **Do not run
+> another ordinary gauge/BV quotient. Construct the smallest new action-owned
+> primal-constraint term or moving/field-dependent reduction, preregister its
+> added fields and parameters, and test its action-derived tangent image
+> against both obstruction families.** Keep selected K77, two
+> `C^(32,32)` halves, their block subgroup and full `U(64,64)` distinct. No
+> accounting, datum, canon or public-posture move.
+
+> **Predecessor v0.231 — K77 I2B SOURCE-NATURAL PRIMALIZER
+> CLASSIFICATION.** Both source-supported fixed-parent readings leave one
+> natural pairing scale on the live grade-one residual, and scaling cannot
+> alter either Euler zero set. V0.232 supersedes only its BV/KT successor;
+> fixed-pairing and independent-half-weight searches remain closed.
 
 > **Predecessor v0.230 — K77 I2B INDEPENDENT-TANGENT QUEUE CORRECTION.**
 > The source varies `varpi` independently at fixed `epsilon` and
