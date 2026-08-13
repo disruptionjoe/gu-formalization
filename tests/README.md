@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_source_action_grammar_exhaustion_probe.py`
+  composes the exact `I1B`, `I2B`, zero-fermion current-order and v0.233
+  receipts; proves no unexamined released zero-fermion bosonic term or
+  nonzero relative action weight cancels the fourteen-cell obstruction; and
+  preserves moving-background, nonzero-fermion and full-field BV routes. It
+  passes `40/40` under the pinned research environment.
+
+- `channel-swings/conditional_physics_ledger_v0234_probe.py` enforces the
+  no-verdict v0.234 migration and the three-route successor.
+
 - `channel-swings/selected_k77_i2b_minimal_covariant_reduction_action_ownership_probe.py`
   exactly classifies fixed and moving `omega/J4` compatibility, penalty and
   multiplier action families on the 196-cell Cl1 bank; proves fixed `omega`

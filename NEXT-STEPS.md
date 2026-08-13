@@ -7,8 +7,20 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B RELEASED SOURCE-ACTION GRAMMAR EXHAUSTION (ledger
+> v0.234).** On the selected moving-`H_q`, zero-fermion branch, the source's
+> nonlinear first action `I1B` is blind, the residual-square `I2B` retains
+> fourteen transverse connection Euler cells, and the fermion current
+> vanishes by parity/order. Every nonzero relative weighting preserves the
+> obstruction; zero weight deletes `I2B`. **Do not search another released
+> zero-fermion bosonic term or tune an `I1B/I2B` coefficient. Rank and execute
+> one bounded decider among complete moving connection/background jets, an
+> actual source-family nonzero-fermion coupled saddle, and a source-derived
+> full-field BV tangent.** Carrier retyping is a downstream fallback, not this
+> wave's conclusion. No accounting, datum, canon or public-posture move.
+
 > **2026-08-13 K77 I2B MINIMAL COVARIANT-REDUCTION ACTION OWNERSHIP (ledger
-> v0.233).** Fixed `D omega=0` has rank 196 and erases the whole selected Cl1
+> v0.233, predecessor).** Fixed `D omega=0` has rank 196 and erases the whole selected Cl1
 > bank including the current half-exchanging Higgs-like carrier. Fixed
 > `D J4=0` has rank 56 and preserves the normal carrier but leaves ten
 > source-natural and eight conditional-`Q_u` Euler cells. Moving compatibility
@@ -20,7 +32,8 @@ updated_at: "2026-08-13"
 > intrinsic-torsion/Higgs carrier, or certify source silence and explicitly
 > retype the carrier.** Keep selected K77, two
 > `C^(32,32)` halves, their block subgroup and full `U(64,64)` distinct. No
-> accounting, datum, canon or public-posture move.
+> accounting, datum, canon or public-posture move. V0.234 supersedes only its
+> nonlinear-source search successor.
 
 > **Predecessor v0.232 — SOURCE/BV--KOSZUL--TATE EXACT SEQUENCE.** The local
 > source chart, gauge image and first reducibility close, but both Euler

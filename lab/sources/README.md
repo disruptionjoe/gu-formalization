@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-source-action-grammar-exhaustion-source-return-2026-08-13.md`](selected-k77-i2b-source-action-grammar-exhaustion-source-return-2026-08-13.md)
+  confirms the source-explicit `I1B`, `I2B`, and total fermionic residual;
+  records source silence on an additional zero-fermion bosonic cancellation
+  owner; and attributes the exact selected-branch grammar classification to
+  the repository.
+
 - [`selected-k77-i2b-minimal-covariant-reduction-action-ownership-source-return-2026-08-13.md`](selected-k77-i2b-minimal-covariant-reduction-action-ownership-source-return-2026-08-13.md)
   confirms the two `C^(32,32)` halves, full `U(64,64)` parent and `varpi`
   component assignments; records source silence on `omega/J4` penalties,

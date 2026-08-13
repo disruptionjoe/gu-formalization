@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current v0.234 released source-action grammar exhaustion:** at the selected
+> moving-`H_q`, zero-fermion grade, `I1B` is blind, `I2B` retains fourteen
+> transverse Euler cells, and the fermion current vanishes. No unexamined
+> released zero-fermion bosonic term or relative `I1B/I2B` weight repairs the
+> branch. Rank one is now one bounded decider among complete moving background
+> jets, a source-family nonzero-fermion coupled saddle, and a source-derived
+> full-field BV tangent. Carrier retyping remains downstream. No accounting
+> moves.
+
 > **Current v0.233 minimal covariant-reduction action ownership:** on the
 > selected 196-cell Cl1 bank, fixed `D omega=0` has rank 196 and erases the
 > current half-exchanging Higgs-like carrier. Fixed `D J4=0` has rank 56 and
@@ -17,8 +26,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > first variation; the only local full cancellation is a 196-component
 > zero-surplus `omega` multiplier that enforces `K_omega=0`. Do not rerun fixed
 > projectors, penalties or a free multiplier. Extract a nonlinear source-action
-> owner with positive surplus or explicitly retype the carrier. No accounting
-> moves.
+> owner with positive surplus or explicitly retype the carrier. V0.234 closes
+> only that released-source search successor; the v0.233 classification stays
+> live prior art.
 
 > **Predecessor v0.232 source/BV--Koszul--Tate exact sequence:** the local
 > source/gauge/reducibility sequence closes, while both Euler covectors descend

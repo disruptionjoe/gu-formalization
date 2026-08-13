@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.233.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.233.md`.
+`lab/process/conditional-physics-ledger-v0.234.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.234.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -61,6 +61,15 @@ explicit. Likewise, for `A=B+T`, a `B`-only term has zero derivative under the
 independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
+
+The v0.234 source-action grammar theorem composes the v0.233 minimal
+covariant-reduction result with the released nonlinear actions. At the
+selected moving-`H_q`, zero-fermion grade, `I1B` is blind, `I2B` retains
+fourteen transverse Euler cells, and the fermion current vanishes. Build must
+not search another released zero-fermion bosonic term or tune a relative
+`I1B/I2B` weight. It must rank and execute one bounded decider among complete
+moving background jets, a nonzero-fermion coupled saddle, and a source-derived
+full-field BV tangent; carrier retyping remains downstream if those fail.
 
 The v0.233 minimal covariant-reduction action-ownership theorem exhausts the
 fixed/moving constraint, penalty and multiplier families built from existing

@@ -15,8 +15,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.233.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.233.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.234.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.234.md",
     "accounting_ref": "lab/process/conditional-ledger-priority-decision-2026-08-07.json",
     "immutable_row_record_count": 84,
     "active_canonical_target_count": 82,

@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B released source-action grammar exhaustion (2026-08-13)
+
+`conditional-build/selected-k77-i2b-source-action-grammar-exhaustion-2026-08-13.md`
+composes the source-explicit `I1B`, `I2B`, and total fermionic residual at the
+selected moving-`H_q`, zero-fermion grade. `I1B` is blind, `I2B` retains
+fourteen transverse Euler cells, and the fermion current vanishes. Ledger
+v0.234 closes the search for another released zero-fermion bosonic term and
+retains moving background jets, a nonzero-fermion saddle, and a source-derived
+full-field BV tangent.
+
 ## K77 I2B minimal covariant-reduction action ownership (2026-08-13)
 
 `conditional-build/selected-k77-i2b-minimal-covariant-reduction-action-ownership-2026-08-13.md`
@@ -14,8 +24,8 @@ classifies the complete minimal fixed/moving `omega/J4` constraint, penalty and
 multiplier families. Fixed `omega` erases the current carrier, fixed `J4`
 leaves ten/eight Euler cells, moving compatibility transports, penalties have
 zero first variation, and only a zero-surplus `omega` multiplier fits both.
-Ledger v0.233 sends rank one to a nonlinear source-action owner or explicit
-carrier retyping.
+Ledger v0.233 sent rank one to a nonlinear source-action owner or explicit
+carrier retyping; v0.234 supersedes that search successor.
 
 ## Predecessor: K77 I2B source/BV--Koszul--Tate exact sequence (2026-08-13)
 
