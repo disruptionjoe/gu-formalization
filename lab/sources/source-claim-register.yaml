@@ -1560,9 +1560,12 @@ claims:
     timestamp: 02:36:02
     extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:660
   grade: claim-mine-verified
-  notes: 'Reuses 2026-07-20 mining row 16 / complete-ledger WG-F07; quote re-verified. Internal tension:
-    thirty seconds later the author concedes nature is chiral ''at an effective level'' (SC-CHI-51) —
-    the headline sentence exceeds the reconciled fundamental-vs-effective form. 2020 antecedent at portal:57.'
+  notes: 'Reuses 2026-07-20 mining row 16 / complete-ledger WG-F07; quote re-verified. Compressed spoken form
+    of the fundamental-vs-effective distinction the author states explicitly in 2020 (SC-CHI-54,
+    hands analogy) and heads a draft section with (p.60, per SC-CHI-02). CORRECTION 2026-08-13 - an
+    earlier note here typed this as an internal tension whose headline exceeded the reconciled form;
+    that reading collapsed the very distinction the author was drawing and is withdrawn. 2020
+    antecedent at portal:57.'
   core: hard-core
   adherence:
     adherence: ADHERED
@@ -1579,9 +1582,9 @@ claims:
   polarity: ASSERTS
   claim: GU, though non-chiral, must produce an effectively chiral world, via a field VEV sitting in a
     Dirac-Rarita-Schwinger-like operator.
-  verbatim: So, GU is not Cairo, but it has to produce a Cairo world because effected at an effective
-    level nature is Cairo. So what you have is you have a field of VEV in a Dirac like operator. Again,
-    this Dirac, Rurida, we are thing that comes up to meet.
+  verbatim: 'So, GU is not chiral, but it has to produce a chiral world because in effect at an effective level
+    nature is chiral. So what you have is you have a field of VEV in a Dirac like operator. Again,
+    this Dirac, Rarita-Schwinger thing that comes up to meet.'
   locus:
     source: toe-2025
     timestamp: 02:36:29
@@ -1685,11 +1688,12 @@ claims:
   claim: The fermion carrier is zero-forms-tensor-spinors direct-sum one-forms-tensor-spinors, with the
     first generation labeled as the zero-form spinors (offered tentatively), the second as the Clifford
     contraction across the tensor product, and the third as the kernel of that contraction map.
-  verbatim: So the claim is that you're looking at zero forms tensor spinors direct sum one forms tensor
-    spinors. So I call zero forms tensor spinors the first generation. Now it could turn out to be not
-    right, but I believe that's the way it'll go. ... Then I claim the second generation is what you get
-    when you take one form valued spinners and you Clifford multiply across the tensor product. ... The
-    easy thing to say is the third generation piece, which is the kernel of that map.
+  verbatim: 'So the claim is that you''re looking at zero forms tensor spinors direct sum one forms tensor
+    spinors. So I call zero forms tensor spinors the first generation. Now it could turn out to be
+    not right, but I believe that''s the way it''ll go. ... Then I claim the second generation is
+    what you get when you take one form valued spinors and you Clifford multiply across the tensor
+    product. ... The easy thing to say is the third generation piece, which is the kernel of that
+    map.'
   locus:
     source: toe-2025
     timestamp: 02:28:46
@@ -1818,8 +1822,8 @@ claims:
   polarity: ASSERTS
   claim: One generation of standard-model fermions is just the pullback of a properly-understood Weyl
     spinor from the space of pointwise Lorentz metrics to the four-manifold.
-  verbatim: one generation of standard model fermions is just the pullback of a vile spinner Properly
-    understood from the space of point wise Lorentz metrics to the four-dimensional manifold
+  verbatim: 'one generation of standard model fermions is just the pullback of a Weyl spinor Properly understood
+    from the space of point wise Lorentz metrics to the four-dimensional manifold'
   locus:
     source: toe-2025
     timestamp: 01:29:19
@@ -1870,9 +1874,9 @@ claims:
   claim: The rolled-up Dirac-de-Rham-Rarita-Schwinger gadget yields three families that are really two
     plus one, the third family being an imposter for representation-theoretic reasons that looks the same
     at low energy.
-  verbatim: You roll this up, and you can create a Dirac, Diram, Ruidu Schwinger gadget, which will yield
-    you three families, really two plus one. The third family is an imposter for representation theoretic
-    reasons, but at low energy, it'll look the same as the other two.
+  verbatim: 'You roll this up, and you can create a Dirac, de Rham, Rarita-Schwinger gadget, which will yield you
+    three families, really two plus one. The third family is an imposter for representation
+    theoretic reasons, but at low energy, it''ll look the same as the other two.'
   locus:
     source: ucsd-seminar-2025
     timestamp: 00:36:13
@@ -2103,10 +2107,10 @@ claims:
   claim: The input is a (1,3) signature and that begets the 14-dimensional total space, with a tower of
     higher GU sectors (1,7), (1,11), and so on, each carrying Pati-Salam, standard-model, and Spin(10)/SU(5)
     analogs.
-  verbatim: I'm saying the input is a one and a three. Uh-huh. And that begets you the 14. ... I see what
-    you're saying is one in seven and then it's one in 11 and then it's one in 15, et cetera, et cetera.
-    In each one of those, there's a petit salam analog. In each one of those, there's a standard model
-    analog.
+  verbatim: 'I''m saying the input is a one and a three. Uh-huh. And that begets you the 14. ... I see what
+    you''re saying is one in seven and then it''s one in 11 and then it''s one in 15, et cetera, et
+    cetera. In each one of those, there''s a Pati-Salam analog. In each one of those, there''s a
+    standard model analog.'
   locus:
     source: toe-2025
     timestamp: 00:24:44
@@ -2238,10 +2242,11 @@ claims:
   claim: Torsion and contorsion decompose into three Lorentz-irreducible components, and GU instead uses
     the displacement from the gauge-rotated Levi-Civita connection, valued for its invariance and equivariance
     under the gauge group acting on the inhomogeneous gauge group.
-  verbatim: I believe that the torsion and contortion have three separate representational theoretic components.
-    ... you know you're in geometric unity when you use the gauge rotated Levy-Chevita connection in what
-    would be the contortion instead of the torsion tensor. Because that thing has incredible invariance
-    properties and equivariance properties under the gauge group acting on the inhomogeneous gauge group.
+  verbatim: 'I believe that the torsion and contorsion have three separate representational theoretic components.
+    ... you know you''re in geometric unity when you use the gauge rotated Levi-Civita connection in
+    what would be the contorsion instead of the torsion tensor. Because that thing has incredible
+    invariance properties and equivariance properties under the gauge group acting on the
+    inhomogeneous gauge group.'
   locus:
     source: toe-2025
     timestamp: 02:18:44
@@ -2494,8 +2499,8 @@ claims:
   polarity: UNCERTAIN
   claim: Whether the spin-3/2 sector has a Velo-Zwanziger pathology is unknown, because the no-go's assumptions
     may not apply to a model with no internal symmetry groups — but Velo-Zwanziger is where to start checking.
-  verbatim: So if your model differs by having no internal symmetry groups, I have no idea whether it
-    has any kind of a Velo Zwanziger problem. But I would start with Velo Zwanziger.
+  verbatim: 'So if your model differs by having no internal symmetry groups, I have no idea whether it has any
+    kind of a Velo-Zwanziger problem. But I would start with Velo-Zwanziger.'
   locus:
     source: ucsd-seminar-2025
     timestamp: 00:41:48
@@ -2548,11 +2553,11 @@ claims:
   claim: The dark-energy term Lambda-g is replaced by the ad-valued one-form varpi minus an inverted-gauge-transformation
     Maurer-Cartan-type term, and that object solves the cosmological constant problem in GU, leaving only
     why it is so flat locally.
-  verbatim: the dark energy term, which is the cosmological constant times the metric, VAR pi, an add-valued
-    one-form, minus the epsilon gauge transformation inverted, counter-rotating the exterior derivative
-    coupled to the olive connection applied to the epsilon gauge transformation, the sort of the Moirer-Cartan
-    form. That thing is what solves the cosmological constant problem in Gia. Now it's just a VEV. Now
-    your only question is why is it so flat where I live?
+  verbatim: 'the dark energy term, which is the cosmological constant times the metric, varpi, an ad-valued one-
+    form, minus the epsilon gauge transformation inverted, counter-rotating the exterior derivative
+    coupled to the aleph connection applied to the epsilon gauge transformation, the sort of the
+    Maurer-Cartan form. That thing is what solves the cosmological constant problem in GU. Now it''s
+    just a VEV. Now your only question is why is it so flat where I live?'
   locus:
     source: toe-2025
     timestamp: 02:22:20
@@ -2711,10 +2716,10 @@ claims:
   claim: The author does not know how to deal with ultrahyperbolic equations; upstairs on the 14-manifold
     there are no initial conditions, only boundary conditions, and the well-posedness of the Cauchy problem
     there is something the author reports having had to be told.
-  verbatim: So for example, I don't know how to deal with ultra hyperbolic equations. So if I think upstairs
-    on the 14 manifold, I'm not, there are no initial conditions because that's a co-dimension one concept.
-    Really what you have is boundary conditions. And now good luck. I don't, I think I had to be told
-    that the Cauchy problem was well posed in ultra-hydraulic equations.
+  verbatim: 'So for example, I don''t know how to deal with ultra hyperbolic equations. So if I think upstairs on
+    the 14 manifold, I''m not, there are no initial conditions because that''s a co-dimension one
+    concept. Really what you have is boundary conditions. And now good luck. I don''t, I think I had
+    to be told that the Cauchy problem was well posed in ultrahyperbolic equations.'
   locus:
     source: toe-2025
     timestamp: 01:17:10

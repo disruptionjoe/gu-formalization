@@ -287,11 +287,20 @@ delegating to subagents inline `lab/process/subagent-brief.md` verbatim;
 subagent artifacts echo `brief_version:`. Rationale and council record:
 `explorations/source-claim-register-and-adherence-ledger-2026-08-11.md`.
 
-Verdict doctrine (ratified 2026-08-12): a critique aimed at an unclaimed
-target FAILS as a critique regardless of internal validity; verdicts use
-the two-component form (failure first, banked mathematics second) per
+Verdict doctrine (ratified 2026-08-12; BOUND-FORM AMENDMENT 2026-08-13,
+Joe direct chat): a critique aimed at an unclaimed target FAILS as a
+critique regardless of internal validity; verdicts use the two-component
+form (failure first, banked mathematics second) per
 `explorations/claim-indexed-verdict-doctrine-2026-08-12.md` — read it
-before writing any Nguyen/chirality/generations verdict.
+before writing any Nguyen/chirality/generations verdict. **Never write
+that a critic, a critique, or an objection "is correct" or "is sound"
+without binding the word to the object analyzed.** "The computation is
+correct on the object it was performed on" is a fact about a computation;
+"he is correct" is a verdict about a dispute, and the second does not
+follow from the first. The unbound form is the exact token that closes a
+research direction: a reader files "correct" as "settled" and stops. This
+binds our own credits too, including the second clause of the verdict
+form above.
 
 Relay rule (v1.1, same ratification): any statement about a registered
 claim — in a ledger block, status entry, summary, return text, or

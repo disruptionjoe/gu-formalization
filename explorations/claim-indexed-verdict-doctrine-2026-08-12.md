@@ -28,8 +28,21 @@ regardless of its internal mathematical validity (ignoratio elenchi).
 clause of one. The mandatory two-component verdict form, failure first:
 
 > "As a critique of GU as stated, it fails — wrong target
-> (SC- register IDs). The mathematics inside it is sound and is banked
-> in our own certificates (refs)."
+> (SC- register IDs). The computation is correct on the object it was
+> performed on, and that computation is banked in our own certificates
+> (refs)."
+
+**BOUND-FORM AMENDMENT (2026-08-13, Joe direct chat).** The second clause
+formerly read "the mathematics inside it is sound." That is the unbound
+form and it is withdrawn. **Never write that a critic, a critique, or an
+objection "is correct" or "is sound" without binding the word to the
+object analyzed.** "The computation is correct on the object it was
+performed on" is a fact about a computation. "He is correct" is a verdict
+about a dispute, and the second does not follow from the first. The
+unbound form is the exact token by which a locally valid result closes a
+research direction: a reader, a student, or a downstream agent files
+"correct" as "settled" and stops looking. Binding costs one clause and it
+is not optional. This binds our own credits as well as our kills.
 
 **The second clause now has a target.**
 `explorations/nguyen-objection-banked-mathematics-register-2026-08-13.md`
