@@ -108,6 +108,7 @@ dark-energy no-phantom-crossing measurement is the one observation that turns th
 
 ## Start Here
 
+- **Current branch-relative state:** `CURRENT-STATE.yaml`
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
 - **Lead result (published preprint):** `papers/candidates/located-not-forced/`
   ([DOI `10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143))
