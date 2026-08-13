@@ -7,7 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
-## K77 I2B real-curvature Euler image (2026-08-13)
+## K77 I2B holonomic-jet Euler image (2026-08-13)
+
+`conditional-build/selected-k77-i2b-holonomic-jet-euler-image-2026-08-13.md`
+composes the pointwise curvature kill with the actual residual-square
+principal Hessian. The timelike block has rank 182 and misses the target, but
+the symmetric mixed `(0,1)` block completes the observed holonomic second-jet
+image to rank 196 and contains it. Ledger v0.236 moves the gate from image
+existence to source selection plus nonlinear/global realization.
+
+## Predecessor: K77 I2B real-curvature Euler image (2026-08-13)
 
 `conditional-build/selected-k77-i2b-real-curvature-euler-image-2026-08-13.md`
 proves that the real residual-to-Euler transfer is an exact 392-dimensional

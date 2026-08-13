@@ -7,6 +7,8 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-holonomic-jet-euler-image-source-return-2026-08-13.md`](selected-k77-i2b-holonomic-jet-euler-image-source-return-2026-08-13.md)
+  - confirms the I2B connection grammar; attributes the full-rank observed holonomic principal image to the repository and returns source-silent on stationary-jet selection, nonlinear Bianchi realization and global descent.
 - [`selected-k77-i2b-real-curvature-euler-image-source-return-2026-08-13.md`](selected-k77-i2b-real-curvature-euler-image-source-return-2026-08-13.md)
   confirms the I2B/full-`U(64,64)`/two-`C^(32,32)` source typing, records
   source silence on a derivative-dependent real background-jet solution, and

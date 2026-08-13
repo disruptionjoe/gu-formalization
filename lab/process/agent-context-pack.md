@@ -9,7 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
-> **Current v0.235 real-curvature Euler-image theorem:** the exact real
+> **Current v0.236 holonomic-jet Euler-image theorem:** v0.235's pointwise
+> real-curvature obstruction remains exact, but the derivative route survives.
+> The timelike I2B principal block has rank 182 and misses the target; the
+> symmetric `(0,1)` mixed block completes the observed holonomic second-jet
+> image to the full 196-dimensional field cotangent, which contains the
+> target. Rank one is no longer image hunting: construct and source-select one
+> stationary jet, then prove nonlinear Bianchi/atlas/observation/lower-order
+> `Q_B`/preboundary-BV realization. No accounting move.
+
+> **Predecessor v0.235 real-curvature Euler-image theorem:** the exact real
 > residual-to-Euler transfer is a 392-dimensional isomorphism. The complete
 > pointwise real full-`U(64,64)` selected-Shiab curvature image and its Euler
 > image both have rank 364, while the fourteen-cell target raises rank to 365.
@@ -17,7 +26,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > curvature/background values and geometry-only cancellation are closed.
 > Rank one is a genuinely derivative-dependent real source-connection jet
 > with Bianchi/descent, a nonzero-fermion saddle, or a source-derived full-field
-> BV tangent. No accounting move.
+> BV tangent. No accounting move. V0.236 supersedes only its generic
+> derivative-image-existence successor.
 
 > **Predecessor v0.234 released source-action grammar exhaustion:** at the selected
 > moving-`H_q`, zero-fermion grade, `I1B` is blind, `I2B` retains fourteen

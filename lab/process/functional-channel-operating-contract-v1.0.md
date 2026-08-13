@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.235.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.235.md`.
+`lab/process/conditional-physics-ledger-v0.236.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.236.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -62,7 +62,17 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
-The v0.235 real-curvature Euler-image theorem closes the complete pointwise
+The v0.236 holonomic-jet theorem preserves v0.235's pointwise curvature-value
+kill but proves the distinct derivative-dependent route is locally available.
+The timelike I2B principal block has rank 182 and misses the target; the
+symmetric `(0,1)` mixed block completes the observed second-jet image to the
+full 196-dimensional real field cotangent, which contains the target. Build
+must not rerun image hunting or equate surjectivity with selection. Its next
+bosonic gate is one source-owned stationary jet with nonlinear Bianchi,
+nonconstant atlas, observation, lower-order moving-`Q_B` and preboundary/BV
+closure. Nonzero fermions and full-field BV remain separate.
+
+The predecessor v0.235 real-curvature Euler-image theorem closes the complete pointwise
 real full-`U(64,64)` curvature-value route. The exact residual-to-Euler
 transfer is a 392-dimensional isomorphism, the complete curvature image and
 its Euler image both have rank 364, and the fourteen-cell target raises rank

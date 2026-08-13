@@ -7,7 +7,19 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
-> **2026-08-13 K77 I2B REAL-CURVATURE EULER IMAGE (ledger v0.235).**
+> **2026-08-13 K77 I2B HOLONOMIC-JET EULER IMAGE (ledger v0.236).**
+> Pointwise real curvature values remain unable to cancel the target, but the
+> actual derivative-dependent route is live. The timelike I2B principal block
+> has rank `182` and misses the target; adding the symmetric `(0,1)` mixed
+> second-jet block makes the observed holonomic image full rank `196`, and the
+> target lies inside it. **Do not rerun image hunting or infer selection from
+> surjectivity. Construct and source-own one stationary jet, then test
+> nonlinear Bianchi realization, nonconstant atlas descent, observation
+> contact, lower-order moving-`Q_B` Euler terms and preboundary/BV ownership.**
+> Nonzero fermions and full-field BV remain separate routes. No verdict,
+> accounting, datum, canon or public-posture move.
+
+> **Predecessor v0.235 — K77 I2B REAL-CURVATURE EULER IMAGE.**
 > The exact real residual-to-Euler transfer is a `392 x 392` isomorphism.
 > The complete pointwise real full-`U(64,64)` selected-Shiab curvature image
 > and its Euler image both have rank `364`; the fourteen-cell target raises
@@ -17,7 +29,8 @@ updated_at: "2026-08-13"
 > pointwise curvature/background-value search. Construct a genuinely
 > derivative-dependent real source-connection jet with Bianchi and descent,
 > or advance the disjoint nonzero-fermion/full-field-BV routes.** No verdict,
-> accounting, datum, canon or public-posture move.
+> accounting, datum, canon or public-posture move. V0.236 supersedes only its
+> derivative-image-existence successor.
 
 > **2026-08-13 K77 I2B RELEASED SOURCE-ACTION GRAMMAR EXHAUSTION (ledger
 > v0.234, predecessor).** On the selected moving-`H_q`, zero-fermion branch, the source's
