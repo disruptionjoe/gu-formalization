@@ -7,4 +7,4 @@ updated_at: "2026-05-31"
 
 # Process
 
-Persona passes, dialectical method, synthesis history, and migration/process notes.
+Perspective passes, dialectical method, synthesis history, and migration/process notes.

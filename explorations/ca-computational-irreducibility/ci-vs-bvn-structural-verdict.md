@@ -9,7 +9,7 @@ updated_at: "2026-05-31"
 
 **Status.** Local-only artifact. WRK-395 implementation/1.
 **Generated.** 2026-05-31.
-**Companion to.** `ca-class-hypothesis-precise.md`, `gw-axial-charge-ca-recoding.md`, `rr-axis-empirical-validation.md`, `persona-dialectic.md`.
+**Companion to.** `ca-class-hypothesis-precise.md`, `gw-axial-charge-ca-recoding.md`, `rr-axis-empirical-validation.md`, `perspective-dialectic.md`.
 **Hard rules.** `[speculation]` tagging throughout. No public claims, no canon writes.
 
 ---
@@ -143,7 +143,7 @@ A research program that asks both questions gets answers about both *which categ
 
 For the GW corpus specifically:
 - BvN bites on the question "can we lift CALM / CA-class substrates to GW spectral triples?" — answer: no, for classical substrates.
-- CI bites on the question "can we shortcut the computation of `Q_A` from gauge configurations?" — answer: yes (via Atiyah-Singer / topological density sum), so `Q_A` is NOT strict-CI (per `persona-dialectic.md` §3.2).
+- CI bites on the question "can we shortcut the computation of `Q_A` from gauge configurations?" — answer: yes (via Atiyah-Singer / topological density sum), so `Q_A` is NOT strict-CI (per `perspective-dialectic.md` §3.2).
 
 These are different findings. The first is a no-go for the bridge; the second is a positive reducibility witness for the observable. Complementary findings on a complementary axis.
 
@@ -175,7 +175,7 @@ CI WALL ============================================================
 
 The BvN wall is *categorical-vertical*: it separates classical CA-class substrates from quantum-orthomodular GW substrates. The CI wall is *observable-horizontal*: within the classical CA-class substrate level, it separates reducible observables (most of the substrate) from irreducible ones (Class-4 universal observables).
 
-The two walls cross at the cell `(classical CA-class substrate, comp-irred observable)`. Within that cell sit observables like "Rule 110 long-term glider count" — *and* observables hypothesized by the dialectic §6 to potentially carry GW-like physical content. **WRK-395 finds none such GW observable lives in this cell** (Q_A is signed-BV, not comp-irred, per `gw-axial-charge-ca-recoding.md` + `persona-dialectic.md` §3).
+The two walls cross at the cell `(classical CA-class substrate, comp-irred observable)`. Within that cell sit observables like "Rule 110 long-term glider count" — *and* observables hypothesized by the dialectic §6 to potentially carry GW-like physical content. **WRK-395 finds none such GW observable lives in this cell** (Q_A is signed-BV, not comp-irred, per `gw-axial-charge-ca-recoding.md` + `perspective-dialectic.md` §3).
 
 So:
 
@@ -187,11 +187,11 @@ So:
 
 ## 7. Implications for the bridge work
 
-### 7.1 What this verdict does for the meta-verdict (`work/drafts/wrk-394-21-persona-post-v3-validator-assessment/meta-verdict.md`)
+### 7.1 What this verdict does for the meta-verdict (`work/drafts/wrk-394-21-perspective-post-v3-validator-assessment/meta-verdict.md`)
 
 The meta-verdict's Option II-Retreat recommendation is **unchanged** by WRK-395. The CA-class exploration does NOT open a new positive-result lane on Q_A; it confirms Q_A is signed-BV (matching WRK-387's CALM falsification at the categorical level).
 
-The 21-persona meta-verdict's "pivot-frame voters" (Wolfram, Complexity, Operator Algebra, Type-theoretic, Sound engineering — 5 personas) had said: bicategorical / lens-theoretic / CA-class reframes may produce better contributions but are v4 lanes, not v3 retreat moves. WRK-395 substantiates this read for the CA-class lane: **the CA-class frame is a complementary v4 lane, not a v3 retreat-rescue.**
+The 21-perspective meta-verdict's "pivot-frame voters" (Wolfram, Complexity, Operator Algebra, Type-theoretic, Sound engineering — 5 perspectives) had said: bicategorical / lens-theoretic / CA-class reframes may produce better contributions but are v4 lanes, not v3 retreat moves. WRK-395 substantiates this read for the CA-class lane: **the CA-class frame is a complementary v4 lane, not a v3 retreat-rescue.**
 
 ### 7.2 What this verdict does for the BvN wall (WRK-389 v3)
 
@@ -226,7 +226,7 @@ This is a robust cross-card load-bearing finding.
 
 ## 9. Honest gaps
 
-- **[speculation]** "Complementary" is a synthesis verdict, not a theorem. The reasoning is structural and persona-supported, not formally proven. A different framing could plausibly land on "CI-is-special-case-of-BvN-shadow" or similar with more categorical machinery.
+- **[speculation]** "Complementary" is a synthesis verdict, not a theorem. The reasoning is structural and perspective-supported, not formally proven. A different framing could plausibly land on "CI-is-special-case-of-BvN-shadow" or similar with more categorical machinery.
 - **No engagement with quantum-CA classification.** Whether quantum CA observables admit a clean rr-axis classification (and whether the four cells survive in the quantum case) is open; would require pulling in Heunen-Reyes / Arrighi-Nesme / Bisio-D'Ariano machinery; out of scope.
 - **No first-principles derivation of the BvN/CI complementarity.** The two-walls picture (§6) is a useful structural diagram; whether it generalizes to other categorical no-go vs. complexity-class pairings is open.
 - **[speculation]** Wolfram Physics Project hypergraph rewriting may dissolve or relocate both walls (gauge invariance via causal invariance; quantum-like behavior via multiway evolution); out of scope for WRK-395 but a real follow-on direction.

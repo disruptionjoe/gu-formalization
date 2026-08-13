@@ -35,7 +35,7 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 | C_MPR and 9-tuple | exploration | `explorations/c-mpr/` |
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
-| persona process and dialectics | process | `process/` |
+| perspective process and dialectics | process | `process/` |
 | early frontier packets | archive | `archive/` |
 | source and media provenance | source | `sources/` |
 | literature briefs | source | `literature/` |

@@ -39,7 +39,7 @@ Forbidden use:
 - [`claim-crosswalk.md`](claim-crosswalk.md) maps Time as Finality claims to GU surfaces and states allowed/forbidden use.
 - [`observer-finality-layer.md`](observer-finality-layer.md) proposes an exploration-only finality sub-protocol for the six-axis template.
 - [`signed-readout-record-graph-test.md`](signed-readout-record-graph-test.md) gives the best bounded next test.
-- [`ten-persona-dialectic-summary.md`](ten-persona-dialectic-summary.md) records the ten-persona Hegelian synthesis.
+- [`ten-perspective-dialectic-summary.md`](ten-perspective-dialectic-summary.md) records the ten-perspective Hegelian synthesis.
 
 ## Main Test
 

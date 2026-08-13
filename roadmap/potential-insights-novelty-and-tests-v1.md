@@ -11,7 +11,7 @@ Generated: 2026-05-29
 
 ## Purpose
 
-This packet synthesizes how internal origin artifact got here, what the divergent-persona process found, what the four new research briefs add, and which potential insights now look worth testing.
+This packet synthesizes how internal origin artifact got here, what the divergent-perspective process found, what the four new research briefs add, and which potential insights now look worth testing.
 
 It is not a claim that Geometric Unity is true. It is a map of possible insight-bearing hypotheses with novelty/profundity estimates and concrete tests that can be run locally by agents or later opened to outside collaborators.
 
@@ -26,7 +26,7 @@ Primary internal origin artifact local context:
 - `26-pullback-family-frontier.md`
 - `31-sector-i-family-frontier.md`
 
-Persona synthesis base:
+Perspective synthesis base:
 
 - `process/syntheses/00-synthesis-best-path-from-first-principles.md`
 - `process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`
@@ -56,17 +56,17 @@ That branch produced four honest frontier/limit packets:
 
 Joe then directed a pivot away from source-fidelity verification and toward first-principles mathematics: not "did Weinstein already specify it?" but "does this type of construction work if rebuilt from differential geometry, fiber bundles, gauge theory, operator algebra, anomaly theory, and adjacent mathematics?"
 
-The divergent-persona process created a dialectical sequence:
+The divergent-perspective process created a dialectical sequence:
 
 | Round | Function | Key move |
 |---|---|---|
-| 10 first-principles personas | Thesis | The 14-dimensional metric-bundle construction is real, but SM chirality/gauge emergence is blocked at the bundle level by Witten, Distler-Garibaldi, Nielsen-Ninomiya, and Freed-Hopkins-style obstructions. |
-| 5 loophole personas | Antithesis | Witten 1981 is narrower than many people imply; non-standard reductions formally evade it, but each needs extra structure not supplied by the GU source bundle. |
-| 5 computation-substrate personas | First Aufhebung | The substrate-bundle relation should be inverted: computation or substrate is primary, geometry is observer-frame artifact, and no-go theorems constrain the observer-frame shadow. |
-| 10 heterodox problem-shape personas | Second Aufhebung | The no-go theorems may compute forgetful images of richer substrate-level invariants. The real question becomes substrate class + observer class + pairing. |
-| 5 distributed-systems personas | Third specification pressure | The problem is larger than a triple. A six-axis specification space appears: substrate, observer, pairing, causal order, emergence class, coordination loop. |
+| 10 first-principles perspectives | Thesis | The 14-dimensional metric-bundle construction is real, but SM chirality/gauge emergence is blocked at the bundle level by Witten, Distler-Garibaldi, Nielsen-Ninomiya, and Freed-Hopkins-style obstructions. |
+| 5 loophole perspectives | Antithesis | Witten 1981 is narrower than many people imply; non-standard reductions formally evade it, but each needs extra structure not supplied by the GU source bundle. |
+| 5 computation-substrate perspectives | First Aufhebung | The substrate-bundle relation should be inverted: computation or substrate is primary, geometry is observer-frame artifact, and no-go theorems constrain the observer-frame shadow. |
+| 10 heterodox problem-shape perspectives | Second Aufhebung | The no-go theorems may compute forgetful images of richer substrate-level invariants. The real question becomes substrate class + observer class + pairing. |
+| 5 distributed-systems perspectives | Third specification pressure | The problem is larger than a triple. A six-axis specification space appears: substrate, observer, pairing, causal order, emergence class, coordination loop. |
 
-The new research briefs mostly confirm the persona direction while tightening the honesty boundary:
+The new research briefs mostly confirm the perspective direction while tightening the honesty boundary:
 
 - The Connes Type II_1 / non-embeddable internal algebra proposal is genuinely unexplored in published/arXiv literature, but adjacent pieces exist.
 - Observer-relative Freed-Hopkins is genuinely unexplored; existing anomaly classification varies symmetry, tangential structure, invertibility, spacetime/crystalline data, and open-system conditions, not observer-substrate pairings.
@@ -117,7 +117,7 @@ Testability:
 | I14 | Distler-Garibaldi is the outlier that makes the unified no-go frame hard and therefore valuable. | 4 | 4 | Medium | If the framework handles Distler-Garibaldi, the synthesis is more than anomaly/topology rephrasing. | Try to express single-E8 representation extraction as a lossy functor from richer compactification/enhancement data; record where the analogy breaks. |
 | I15 | The computational irreducibility / undecidability diagnosis may explain why bundle-level branch search keeps exhausting without converging. | 4 | 4 | Low-Medium | It is philosophically powerful, but risky unless formalized. | Attempt a toy undecidability result or literature-backed analogy: show a substrate class where a chirality-like property is undecidable or observer-class relative. |
 | I16 | Sorkin causal-set and RG/universality axes are more mature than many other heterodox axes. | 3 | 4 | Medium | These may be better near-term public collaboration prompts than purely speculative observer metaphysics. | Produce two axis-drop scoping notes: L4 causal-set and L5 universality/RG. Each must state one invariant, one shadow map, one chirality test, one obstruction. |
-| I17 | Hegelian divergent personas worked because they forced thesis/antithesis preservation before synthesis. | 3 | 3 | High | This is reusable method, not just content. | Convert the persona process into a reproducible repo protocol: thesis pass, loophole pass, Aufhebung pass, heterodox axis pass, external-literature check. |
+| I17 | Hegelian divergent perspectives worked because they forced thesis/antithesis preservation before synthesis. | 3 | 3 | High | This is reusable method, not just content. | Convert the perspective process into a reproducible repo protocol: thesis pass, loophole pass, Aufhebung pass, heterodox axis pass, external-literature check. |
 | I18 | The repo should not publish "GU proof" framing; it should publish an open research map with falsifiable test artifacts. | 2 | 4 | High | Protects reputation and invites useful collaborators. | Draft repo README posture: "not a proof, not anti-GU; a first-principles research map of no-go classes, substrate invariants, and testable specification tuples." |
 
 ## Strongest Agent-Doable Tests
@@ -157,7 +157,7 @@ These are the best candidates to push people toward when the repo exists.
 
 ## Recommended Next Move
 
-Run one agent batch before any repo publication. Packet 33 provides the five-persona ranking behind this order.
+Run one agent batch before any repo publication. Packet 33 provides the five-perspective ranking behind this order.
 
 1. `34-no-go-assumption-matrix.md`
 2. `35-spectral-triple-control-and-ii1-checklist.md`

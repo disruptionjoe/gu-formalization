@@ -61,7 +61,7 @@ To propose a new substrate-class specification:
 
 ### Refinements to existing material
 
-- Persona pass corrections: if a pass cites a result inaccurately, or misses a more recent reference, open a pull request with the fix.
+- Perspective pass corrections: if a pass cites a result inaccurately, or misses a more recent reference, open a pull request with the fix.
 - Synthesis refinements: if the meta-syntheses (00 through 00e and the supplementary 06-07) overstate or understate a convergence claim, open an issue and we can discuss whether the synthesis needs a revision pass.
 - Deep-research brief updates: if you know of a paper the briefs missed, open an issue. The four briefs survey existing literature; staying current is community work.
 - Accessibility edits to the blog post or README: if a sentence is confusing or jargon-heavy, open a pull request with a cleaner version.
@@ -80,7 +80,7 @@ The repository is intentionally lightweight. If you think a piece of infrastruct
 
 1. Fork the repository.
 2. Create a branch named descriptively (e.g. `pr/freed-hopkins-pairing-counterexample` or `pr/connes-subfactor-construction-attempt`).
-3. Make your changes. If you are adding a new persona pass, follow the structural template visible in the existing passes (sections a through e, optional appendix). If you are adding a new deep-research brief, follow the structure of the existing four. If you are adding a new substrate-class specification, follow the hextuple specification template above.
+3. Make your changes. If you are adding a new perspective pass, follow the structural template visible in the existing passes (sections a through e, optional appendix). If you are adding a new deep-research brief, follow the structure of the existing four. If you are adding a new substrate-class specification, follow the hextuple specification template above.
 4. If the change involves a math claim, follow the repository's three-tier tagging discipline:
    - `[verified]` — defensible against a knowledgeable reader with named established result references
    - `[reconstruction]` — inferred from existing material with the source named
@@ -141,7 +141,7 @@ If maintainer responsiveness slips, open an issue tagging the maintainer or cont
 
 ## Licensing
 
-This repository is dual-licensed: **CC-BY-4.0** for documentation, papers, syntheses, persona passes, deep-research briefs, and all prose (see `LICENSE-DOCS.md`); **MIT** for any code, scripts, or computational artifacts (see `LICENSE-CODE.md`).
+This repository is dual-licensed: **CC-BY-4.0** for documentation, papers, syntheses, perspective passes, deep-research briefs, and all prose (see `LICENSE-DOCS.md`); **MIT** for any code, scripts, or computational artifacts (see `LICENSE-CODE.md`).
 
 We welcome forks, derivative research programs, formalizations, critiques, educational uses, and commercial applications. If this work contributes meaningfully to your own, please cite the repository, link to relevant artifacts, and consider sharing findings back with the broader research community.
 

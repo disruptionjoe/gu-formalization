@@ -26,7 +26,7 @@ It organizes a first-principles investigation into whether Geometric Unity-class
 - `active-research/` contains frontstage theorem work that is promising but not yet canon.
 - `roadmap/` contains ranked next steps, publish-potential analysis, and contributor routing.
 - `explorations/` contains speculative or redirected branches for readers who want the full research lab.
-- `process/` contains persona passes, dialectics, and synthesis history.
+- `process/` contains perspective passes, dialectics, and synthesis history.
 - `archive/` contains the early frontier packets and execution provenance.
 - `literature/` contains the literature review briefs.
 - `sources/` contains media/source provenance and claim-mining surfaces.

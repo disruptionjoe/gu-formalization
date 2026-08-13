@@ -8,7 +8,7 @@ updated_at: "2026-05-31"
 # No-Go / Forgetful-Image Map
 
 **Status.** Public draft artifact.
-**Source basis.** `literature/03-assumption-decomposition-no-go-evasion-literature.md`, `process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`, `roadmap/potential-insights-novelty-and-tests-v1.md`, `roadmap/15-persona-pathway-ranking.md`. Cross-built against the six-axis protocol (internal origin artifact, `specifications/six-axis/six-axis-template.md`).
+**Source basis.** `literature/03-assumption-decomposition-no-go-evasion-literature.md`, `process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`, `roadmap/potential-insights-novelty-and-tests-v1.md`, `roadmap/15-perspective-pathway-ranking.md`. Cross-built against the six-axis protocol (internal origin artifact, `specifications/six-axis/six-axis-template.md`).
 **Generated.** 2026-05-30
 
 ## 0. Honesty contract

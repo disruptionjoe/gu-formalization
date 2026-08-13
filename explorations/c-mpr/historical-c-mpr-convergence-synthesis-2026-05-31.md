@@ -104,7 +104,7 @@ Downstream papers (WRK-386 Phase 3, repo public-surface refresh, any GU follow-o
 | **L1** | WRK-389 v3 | Direct categorical statement of the wall and its generalization from CALM-specific to all classical-distributive value lattices | "Direct-Adjunction Obstruction Theorem"; "value-lattice-distributivity wall" |
 | **L2** | WRK-388 v3 | Iff-level shadow: `read` monotone iff all `w(x) ∈ G_+`; non-monotone readouts cannot fit into CALM | "signed-readout monotonicity criterion"; "factorization iff theorem" |
 | **L3** | WRK-390 v3 | Meta-template shadow: type-(c) with `rr ∈ {signed-BV, phase-cancel, comp-irred}` cannot reduce to `rr = monotone-reducible` | "structural lemma: type (c) ⇒ ex ≠ exact"; "rr-axis non-collapsibility" |
-| **L4** | WRK-382 v2 §3.2 | Stochastic substrate confirmation: II_1 trace difference, Hairer-RG renormalization, Parisi-Wu equilibrium measure all carry classical-distributive value lattices; PCP frame does not unlock them | "cousin-bridge frame-shift PARTIAL"; "upgrade gates remain on persona 21 (e) and WRK-377 Item 3" |
+| **L4** | WRK-382 v2 §3.2 | Stochastic substrate confirmation: II_1 trace difference, Hairer-RG renormalization, Parisi-Wu equilibrium measure all carry classical-distributive value lattices; PCP frame does not unlock them | "cousin-bridge frame-shift PARTIAL"; "upgrade gates remain on perspective 21 (e) and WRK-377 Item 3" |
 | **L5** | WRK-384 v2 §2-§3 | Sorkin causal-set substrate: lattice of order ideals provably distributive by Birkhoff 1937; every WRK-384 v1 observable in the candidate menu lives in a distributive value lattice; PCP frame does not unlock chirality | "BvN value-lattice wall applies generically to Sorkin substrate"; "two-wall reinforcement" |
 
 **Convergence is not coordination artifact.** WRK-388 v3, WRK-389 v3, WRK-390 v3 were dispatched as independent agent runs working on different research questions (per-observable iff, per-category adjunction, per-template classification). WRK-382 v2 and WRK-384 v2 were substrate-extension reassessments dispatched after the v3 work landed. The wall surfaces in all five **with different vocabulary**, **at different abstraction levels**, **against different substrates**, and **independently re-derives the same Birkhoff-von Neumann generalization** in each case.
@@ -187,7 +187,7 @@ Three v3 syntheses (WRK-388 v3 / WRK-389 v3 / WRK-390 v3) and two v2 substrate-e
 
 ### 4.2 What made the convergence load-bearing (not coordination artifact)
 
-Per the Skeptical Mathematical Physicist persona (P3 across WRK-388 v3, WRK-389 v3, WRK-390 v3): the concern is that the workers primed each other by reading the same coordination-list. Three counter-arguments:
+Per the Skeptical Mathematical Physicist perspective (P3 across WRK-388 v3, WRK-389 v3, WRK-390 v3): the concern is that the workers primed each other by reading the same coordination-list. Three counter-arguments:
 
 1. **Different abstraction levels.** Per-observable iff (WRK-388) vs. per-category adjunction (WRK-389) vs. per-template classification (WRK-390). These are distinct mathematical questions; agreement at three levels suggests the architecture is structurally robust, not vocabulary-shared.
 
@@ -197,7 +197,7 @@ Per the Skeptical Mathematical Physicist persona (P3 across WRK-388 v3, WRK-389 
 
 ### 4.3 What the convergence anchors
 
-Per the Strategic Research PM persona (P7 in WRK-388 v3, P5 in WRK-389/390 v3): the convergence anchors:
+Per the Strategic Research PM perspective (P7 in WRK-388 v3, P5 in WRK-389/390 v3): the convergence anchors:
 
 - **WRK-386 Phase 3 paper-shape.** The factorization framing (Option N+++ in WRK-388 v3) is now the load-bearing spine, not an option. The C_MPR architecture is the canonical categorical object the paper builds toward.
 - **Repo public-surface refresh.** OVERVIEW.md, paper drafts, NEXT-STEPS.md should cite C_MPR + the Wall as the architectural source.
@@ -265,7 +265,7 @@ Full downstream-anchor map at `wrk-391-c-mpr-synthesis/downstream-anchor-map.md`
 | **Six-axis v2 (WRK-375 push)** | 9-tuple as authoritative classification framework; six-axis = L1-L6 source-substrate sub-classification | Cite this doc §3 |
 | **WRK-377 Item 3 (Type II_1 KO-dim 6 mod 8)** | Upgrade gate for stochastic-cousin (⇒) bite per WRK-382 v2 §3.2 | Cite this doc §4 + WRK-382 v2 |
 | **WRK-378 / WRK-381 / WRK-383 / WRK-385 syntheses** | Each ranked into v2 numbering; sub-classify into C_MPR categorical landscape | Cite this doc §3 + syntheses-numbering-allocation |
-| **Persona 21 (e) — GFF/Hairer RP-preserving log-correlated field** | Upgrade gate for stochastic-cousin (⇒) bite per WRK-382 v2 §3.2 | Cite this doc §4 + WRK-382 v2 |
+| **Perspective 21 (e) — GFF/Hairer RP-preserving log-correlated field** | Upgrade gate for stochastic-cousin (⇒) bite per WRK-382 v2 §3.2 | Cite this doc §4 + WRK-382 v2 |
 | **Any future GU follow-on card** | Architectural source for "what the unified picture is" | Cite this doc as a whole |
 
 ---
@@ -280,7 +280,7 @@ Per coordination-list 2026-05-30 §9 and additions from the v3/v2 work, the synt
 | 10 | No-go map v2 (WRK-376 v2, with sector qualification + Distler-Garibaldi hard line) | WRK-376 + 2026-05-30 §2/§8 |
 | 11 | Type II_1 spectral SM checklist (WRK-377 v1) | WRK-377 |
 | 12 | Nielsen protocol analogy pilot (WRK-378 v1) | WRK-378 |
-| 13 | Hegelian persona protocol method note (WRK-381 v1) | WRK-381 |
+| 13 | Hegelian perspective protocol method note (WRK-381 v1) | WRK-381 |
 | 14 | Media claim + insight mining v1 (WRK-379 + WRK-380, awaiting v2 ledger) | WRK-379 + WRK-380 |
 | 15 | Stochastic parity test with PCP cousin bridge v2 (WRK-382 v1 + v2) | WRK-382 |
 | 16 | Cartan / twistor / G_2 guardrail (WRK-383 v1) | WRK-383 |
@@ -328,7 +328,7 @@ This row should be appended by the next coordination-list update pass (separate 
 5. **Syntheses numbering at push time.** Adopt the allocation in §7? Or renumber consecutively (10-22)? Defaults to §7 allocation.
 6. **Coordination-list row #35 — add now or wait?** Defaults to add now; the row is informational and does not mutate any sibling card.
 7. **Spawn WRK-377 Item 3 v2?** WRK-382 v2 §3.2 and the cross-card priority signal both point at it. Joe's call.
-8. **Spawn persona 21 (e) standalone WRK?** Cross-card priority signal from WRK-382 v2 + 2026-05-30 §10 still open. Joe's call.
+8. **Spawn perspective 21 (e) standalone WRK?** Cross-card priority signal from WRK-382 v2 + 2026-05-30 §10 still open. Joe's call.
 
 ---
 

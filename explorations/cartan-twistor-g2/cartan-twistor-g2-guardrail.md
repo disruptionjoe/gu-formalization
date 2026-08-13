@@ -8,13 +8,13 @@ updated_at: "2026-05-31"
 # Cartan / Twistor / G_2 Anti-Numerology Guardrail
 
 **Status.** Public draft artifact. Public draft artifact.
-**Source basis.** `process/persona-passes/01-foundational-math-lenses/01-differential-geometer.md`, `process/persona-passes/01-foundational-math-lenses/04-spinor-clifford.md`, `process/persona-passes/01-foundational-math-lenses/05-general-relativist.md`, `process/persona-passes/01-foundational-math-lenses/07-representation-theorist.md`, `process/persona-passes/02-substrate-loophole-lenses/15-cartan-twistor-loophole.md`, `process/persona-passes/04-heterodox-problem-shape-math/25-ps-cartan-twistor-heterodox.md`, `literature/03-assumption-decomposition-no-go-evasion-literature.md` (Acharya-Witten 2001 entry; Distler-Garibaldi 2009 entry), `roadmap/potential-insights-novelty-and-tests-v1.md`, `roadmap/15-persona-pathway-ranking.md`. Cross-built against the six-axis protocol (WRK-375), the no-go forgetful-image map (WRK-376), and the Hegelian persona-protocol method note (WRK-381, sibling #30).
+**Source basis.** `process/perspective-passes/01-foundational-math-lenses/01-differential-geometer.md`, `process/perspective-passes/01-foundational-math-lenses/04-spinor-clifford.md`, `process/perspective-passes/01-foundational-math-lenses/05-general-relativist.md`, `process/perspective-passes/01-foundational-math-lenses/07-representation-theorist.md`, `process/perspective-passes/02-substrate-loophole-lenses/15-cartan-twistor-loophole.md`, `process/perspective-passes/04-heterodox-problem-shape-math/25-ps-cartan-twistor-heterodox.md`, `literature/03-assumption-decomposition-no-go-evasion-literature.md` (Acharya-Witten 2001 entry; Distler-Garibaldi 2009 entry), `roadmap/potential-insights-novelty-and-tests-v1.md`, `roadmap/15-perspective-pathway-ranking.md`. Cross-built against the six-axis protocol (WRK-375), the no-go forgetful-image map (WRK-376), and the Hegelian perspective-protocol method note (WRK-381, sibling #30).
 **Generated.** 2026-05-30
 **Author posture.** This note is a guardrail, not an endorsement. It exists because the Cartan / twistor / G_2 corner of the GU program is the most reputationally vulnerable to dimensional numerology, and the repo's heterodoxy is only credible if it disciplines this corner harder than its critics would.
 
 ## 0. Why this guardrail exists
 
-The Cartan / twistor / G_2 route scored persona-total 52/75 in `syntheses/08`, with maximal scores (5/5) from the differential geometer, spinor / Clifford, general relativist, and Cartan / twistor lenses. It also drew an explicit reputation flag in the same ranking: *"strong geometric resonance, but reputation risk if it becomes exceptional-dimension numerology."* The route's first-pass leverage (1.16) and insight leverage (0.87) put it near the bottom of the realistic-payoff list; its quick-finish recommendation in `syntheses/08` was explicitly *"finish condition: a scoping note saying exactly what Cartan/twistor/G_2 would need to prove, and what is mere dimensional coincidence."*
+The Cartan / twistor / G_2 route scored perspective-total 52/75 in `syntheses/08`, with maximal scores (5/5) from the differential geometer, spinor / Clifford, general relativist, and Cartan / twistor lenses. It also drew an explicit reputation flag in the same ranking: *"strong geometric resonance, but reputation risk if it becomes exceptional-dimension numerology."* The route's first-pass leverage (1.16) and insight leverage (0.87) put it near the bottom of the realistic-payoff list; its quick-finish recommendation in `syntheses/08` was explicitly *"finish condition: a scoping note saying exactly what Cartan/twistor/G_2 would need to prove, and what is mere dimensional coincidence."*
 
 This is that note.
 
@@ -33,27 +33,27 @@ The following coincidences recur in the Cartan / twistor / G_2 corner of GU and 
 
 | # | coincidence | source where it appears in the GU lens material | what would have to be true for it to mean something |
 | ---: | --- | --- | --- |
-| C1 | `dim(metric bundle on a 4-manifold) = 4 + 10 = 14` | persona pass 01 (differential geometer); persona pass 05 (general relativist) | a canonical Cartan connection of the right (G, P) type on Met(X) carrying a chirality-grading subgroup must exist and not be a free choice |
-| C2 | `dim(G_2 adjoint) = 14` | persona pass 07 (rep theorist); persona pass 15 (Cartan-twistor loophole) | Met(X)'s 14-dim total space must admit a *canonical* G_2-structure derivable from the metric-bundle datum alone, not chosen by hand |
-| C3 | `G_2 ⊂ Spin(7) ⊂ SO(7)` and `7 + 7 = 14` | persona pass 07; persona pass 15 | the 7+7 split must align with a substantive split of Met(X)'s tangent that has SM-relevant content, not just dimensional bookkeeping |
-| C4 | `dim(SO(10) vector) = 10`, matching the 10-dim fiber of Met(X) | persona pass 07 | SO(10) must arise as the actual structure group of the fiber from the geometry, not be installed because its vector rep has the right dimension count |
-| C5 | `Cℓ(14, ℂ) ≅ M_{128}(ℂ)`; Weyl spinor in 14d has 64 complex components; `64 = 4 × 16` and `48 = 3 × 16` | persona pass 04 (spinor-Clifford) | a discrete symmetry or geometric mechanism must project 64 → 48 (three generations) from substrate data, not be a postulate |
-| C6 | Twistor space PT for R^4 is complex 3-fold (3 = `dim_C PT`); the Penrose googly problem makes ASD gravitons natural and SD ones not | persona pass 15; heterodox persona 25 (Penrose pre-geometry move) | chirality has to follow from PT's complex structure projecting *to* the metric bundle, with substrate role inverted; the bare double-cover / dimension match is not the claim |
-| C7 | `dim(E_8) = 248`, `248 = 3 × 27 + 167` and various E_8 ⊃ E_6 × SU(3) decompositions look like "three generations" | persona pass 07; Distler-Garibaldi 2009 (literature/03) | a connected compact subgroup centralizing SL(2,C) with V_{m,n} ≤ 4 content giving complex V_{2,1} as G-rep must exist inside a single real form of E_8 — Distler-Garibaldi proves this is *false* |
+| C1 | `dim(metric bundle on a 4-manifold) = 4 + 10 = 14` | perspective pass 01 (differential geometer); perspective pass 05 (general relativist) | a canonical Cartan connection of the right (G, P) type on Met(X) carrying a chirality-grading subgroup must exist and not be a free choice |
+| C2 | `dim(G_2 adjoint) = 14` | perspective pass 07 (rep theorist); perspective pass 15 (Cartan-twistor loophole) | Met(X)'s 14-dim total space must admit a *canonical* G_2-structure derivable from the metric-bundle datum alone, not chosen by hand |
+| C3 | `G_2 ⊂ Spin(7) ⊂ SO(7)` and `7 + 7 = 14` | perspective pass 07; perspective pass 15 | the 7+7 split must align with a substantive split of Met(X)'s tangent that has SM-relevant content, not just dimensional bookkeeping |
+| C4 | `dim(SO(10) vector) = 10`, matching the 10-dim fiber of Met(X) | perspective pass 07 | SO(10) must arise as the actual structure group of the fiber from the geometry, not be installed because its vector rep has the right dimension count |
+| C5 | `Cℓ(14, ℂ) ≅ M_{128}(ℂ)`; Weyl spinor in 14d has 64 complex components; `64 = 4 × 16` and `48 = 3 × 16` | perspective pass 04 (spinor-Clifford) | a discrete symmetry or geometric mechanism must project 64 → 48 (three generations) from substrate data, not be a postulate |
+| C6 | Twistor space PT for R^4 is complex 3-fold (3 = `dim_C PT`); the Penrose googly problem makes ASD gravitons natural and SD ones not | perspective pass 15; heterodox perspective 25 (Penrose pre-geometry move) | chirality has to follow from PT's complex structure projecting *to* the metric bundle, with substrate role inverted; the bare double-cover / dimension match is not the claim |
+| C7 | `dim(E_8) = 248`, `248 = 3 × 27 + 167` and various E_8 ⊃ E_6 × SU(3) decompositions look like "three generations" | perspective pass 07; Distler-Garibaldi 2009 (literature/03) | a connected compact subgroup centralizing SL(2,C) with V_{m,n} ≤ 4 content giving complex V_{2,1} as G-rep must exist inside a single real form of E_8 — Distler-Garibaldi proves this is *false* |
 
 C7 is the one the repo has to engage most carefully. Distler-Garibaldi is not a vague reputation problem; it is a published representation-theoretic theorem that rules out the entire single-E_8-numerology family that has gravitated to GU public discourse. See Sections 2.7 and 4 below.
 
 ## 2. Per-coincidence map — real obligation vs suggestive arithmetic
 
-For each coincidence above, this section names (a) the geometric structure that *would* be load-bearing if the coincidence carried real content, (b) what would have to be proven, not assumed, for that structure to be present, and (c) what the persona-pass material actually established versus what a reader might wrongly infer.
+For each coincidence above, this section names (a) the geometric structure that *would* be load-bearing if the coincidence carried real content, (b) what would have to be proven, not assumed, for that structure to be present, and (c) what the perspective-pass material actually established versus what a reader might wrongly infer.
 
 ### 2.1 — `4 + 10 = 14` (C1)
 
 **The real geometric obligation.** A 14-dim total space over a 4-manifold whose fiber is the 10-dim space of pointwise Lorentzian metrics is a canonical bundle construction. Met(X) is well-defined without choosing a metric on X. So far this is bookkeeping that any working differential geometer accepts (pass 01, pass 05).
 
-**What would have to be proven.** That a *canonical* Cartan connection of type (G, P) exists on Met(X) where G strictly contains GL(4,R) and the Levi factor of P carries a representation that splits into SM-fermion content. The persona-pass 15 loophole construction sketches this for a parabolic (G, P) of conformal type and notes that the tractor bundle's chirality split is genuinely available — but only after the parabolic structure has been *chosen*. The choice is not forced by Met(X).
+**What would have to be proven.** That a *canonical* Cartan connection of type (G, P) exists on Met(X) where G strictly contains GL(4,R) and the Levi factor of P carries a representation that splits into SM-fermion content. The perspective-pass 15 loophole construction sketches this for a parabolic (G, P) of conformal type and notes that the tractor bundle's chirality split is genuinely available — but only after the parabolic structure has been *chosen*. The choice is not forced by Met(X).
 
-**What the persona material actually shows.** Pass 01 obstruction (d.1): *natural bundles over X have structure group derived from Diff(X) jets, ultimately GL or its reductions; SU(3) × SU(2) × U(1) is not natural in this sense.* Pass 05 obstruction (d.1): *Wheeler-DeWitt fiber metric is indefinite; total-space "metric" is not Lorentzian.* The 14-dim story survives as a real bundle; the SM-content story does not survive at the bundle level without extra structure that is currently a postulate.
+**What the perspective material actually shows.** Pass 01 obstruction (d.1): *natural bundles over X have structure group derived from Diff(X) jets, ultimately GL or its reductions; SU(3) × SU(2) × U(1) is not natural in this sense.* Pass 05 obstruction (d.1): *Wheeler-DeWitt fiber metric is indefinite; total-space "metric" is not Lorentzian.* The 14-dim story survives as a real bundle; the SM-content story does not survive at the bundle level without extra structure that is currently a postulate.
 
 **Verdict.** C1 is a bookkeeping coincidence at the bundle level. It becomes load-bearing only if a contributor produces an explicit (G, P) and proves canonicality, not by exhibiting the dimension match.
 
@@ -61,9 +61,9 @@ For each coincidence above, this section names (a) the geometric structure that 
 
 **The real geometric obligation.** G_2 is the smallest compact simple Lie group whose adjoint has dimension 14. There is no other in dimension 14. If Met(X) admits a generic 3-form `φ ∈ Λ^3(T*Met(X))` whose stabilizer is G_2, then a G_2-structure on the 14-dim total space is *geometrically real* and the exceptional-holonomy spinor decomposition (G_2 has a unique 7 + 1 spinor split) becomes available.
 
-**What would have to be proven.** That such a generic 3-form on Met(X) (a) exists, (b) is canonical given just the metric-bundle data, and (c) its associated G_2-holonomy reduction supplies chirality through the exceptional-spinor decomposition without further hand input. Persona pass 15 marks the whole construction `[speculation]` and notes that *"the chirality would have to be installed by choosing those extra structures, which is itself an input."*
+**What would have to be proven.** That such a generic 3-form on Met(X) (a) exists, (b) is canonical given just the metric-bundle data, and (c) its associated G_2-holonomy reduction supplies chirality through the exceptional-spinor decomposition without further hand input. Perspective pass 15 marks the whole construction `[speculation]` and notes that *"the chirality would have to be installed by choosing those extra structures, which is itself an input."*
 
-**What the persona material actually shows.** The dimension match is real. The construction is not derived; it is named as a possibility. Pass 15's verdict is *plausible loophole class, not a derivation* — exactly the warning this guardrail is making explicit.
+**What the perspective material actually shows.** The dimension match is real. The construction is not derived; it is named as a possibility. Pass 15's verdict is *plausible loophole class, not a derivation* — exactly the warning this guardrail is making explicit.
 
 **Independent comparison.** Acharya-Witten 2001 (`literature/03` entry 5) is the only fully developed G_2-holonomy chirality construction in the established literature, and it works *only because the G_2-holonomy 7-manifold is singular*. This is significant for two reasons:
 
@@ -78,7 +78,7 @@ For each coincidence above, this section names (a) the geometric structure that 
 
 **What would have to be proven.** That a 7+7 split of T(Met(X)) into two SO(7) or G_2-invariant pieces is *canonical given metric-bundle data alone* and *carries SM-relevant content* (chirality, gauge-charge assignments, generation structure). This has not been proven anywhere in the lens material.
 
-**What the persona material actually shows.** Pass 04 (spinor-Clifford) notes the 14-dim Weyl-spinor count is 64 complex, not naturally compatible with three SM generations of 16. Pass 07 (rep theorist) notes a 4 + 10 split is the natural reading from rep theory, not 7 + 7. The 7 + 7 split is suggestive arithmetic with no canonical bundle-theoretic anchor in the GU material.
+**What the perspective material actually shows.** Pass 04 (spinor-Clifford) notes the 14-dim Weyl-spinor count is 64 complex, not naturally compatible with three SM generations of 16. Pass 07 (rep theorist) notes a 4 + 10 split is the natural reading from rep theory, not 7 + 7. The 7 + 7 split is suggestive arithmetic with no canonical bundle-theoretic anchor in the GU material.
 
 **Verdict.** C3 is the cleanest example of dimensional numerology in this corner. Naming the chain G_2 ⊂ Spin(7) is true; gluing it to Met(X) without producing the canonical 7-bundle is the drift.
 
@@ -88,7 +88,7 @@ For each coincidence above, this section names (a) the geometric structure that 
 
 **What would have to be proven.** That SO(10) acts canonically on Met(X)'s 10-dim fiber. The fiber of Met(X) is Sym²₊(R⁴), the space of Lorentzian metrics at a point, which has dimension 10 but whose *structure group is GL(4,R)* acting via congruence, not SO(10). GL(4,R) acts on Sym²(R⁴) by `(A, h) ↦ A^T h A`. There is no SO(10) acting canonically on this fiber.
 
-**What the persona material actually shows.** Pass 07 is explicit: *"The G_2-on-base / SO(10)-on-fiber split is not forced by representation theory alone; it is a **choice** [speculation] that exploits the coincidence dim(G_2 adjoint) = 14 = 4 + 10."* The choice is acknowledged as a choice. The route's reputational risk is that downstream commentary often elides the choice and reports the coincidence as a derivation.
+**What the perspective material actually shows.** Pass 07 is explicit: *"The G_2-on-base / SO(10)-on-fiber split is not forced by representation theory alone; it is a **choice** [speculation] that exploits the coincidence dim(G_2 adjoint) = 14 = 4 + 10."* The choice is acknowledged as a choice. The route's reputational risk is that downstream commentary often elides the choice and reports the coincidence as a derivation.
 
 **Verdict.** C4 is dimension-match numerology that imports SO(10) GUT machinery without a derivation that SO(10) acts on Met(X)'s fiber. SO(10) GUT is a real piece of math; its connection to Met(X) via this dimension match is not.
 
@@ -98,17 +98,17 @@ For each coincidence above, this section names (a) the geometric structure that 
 
 **What would have to be proven.** That a substrate-or-bundle-level mechanism projects 64 complex Weyl components onto 48 = 3 × 16 SM Weyl components, **with the chirality survival the projection requires**. Pass 04 names this explicitly: *"64 = 4 × 16 invites a 'four generations' reading, not three. [speculation] One generation could be projected out by a discrete symmetry, but this is a postulate, not geometry."* The projection is not derived.
 
-**What the persona material actually shows.** Pass 04's named obstructions include Atiyah-Singer mod-8 Majorana obstruction, w₂ obstruction, the 64-vs-48 generation mismatch, Witten-style π₄(Spin) discrete anomaly, and spin-statistics failure in non-Lorentzian signatures. The spinor count is real; the SM-spinor extraction is not.
+**What the perspective material actually shows.** Pass 04's named obstructions include Atiyah-Singer mod-8 Majorana obstruction, w₂ obstruction, the 64-vs-48 generation mismatch, Witten-style π₄(Spin) discrete anomaly, and spin-statistics failure in non-Lorentzian signatures. The spinor count is real; the SM-spinor extraction is not.
 
 **Verdict.** C5 is the place where dimensional numerology is most disciplined in the existing lens material — pass 04 is sharp about what 64 spinor components do and do not say. The risk for downstream readers is treating "14 is even, so chirality exists" as a discharge of obligation. It is not; it is the *starting* point of obligation.
 
 ### 2.6 — Twistor double-cover, Penrose googly (C6)
 
-**The real geometric obligation.** Twistor space PT for R^4 is canonically complex dimension 3; the Penrose-Newman googly problem (ASD gravitons natural, SD gravitons hard) is real and historically important. The heterodox-persona pass 25 makes the strongest available move: read PT as the substrate-level object and the 4-manifold as a Penrose-transform output, putting chirality structurally on the substrate (the complex structure of PT) rather than at the bundle level.
+**The real geometric obligation.** Twistor space PT for R^4 is canonically complex dimension 3; the Penrose-Newman googly problem (ASD gravitons natural, SD gravitons hard) is real and historically important. The heterodox-perspective pass 25 makes the strongest available move: read PT as the substrate-level object and the 4-manifold as a Penrose-transform output, putting chirality structurally on the substrate (the complex structure of PT) rather than at the bundle level.
 
 **What would have to be proven.** That a Penrose-Newman twistor 3-fold admits a U-duality-compatible extension whose Penrose transform produces an observer-frame Cartan connection on a real 4-manifold with built-in chiral Z/2 grading, and that the extension's Freed-Hopkins anomaly invariant matches the SM signature. This is the heterodox-pass 25 falsifiable question and it is genuinely open.
 
-**What the persona material actually shows.** Pass 25 is honest: *"a negative answer (no such PT extension exists ...) closes the heterodox Cartan / twistor / pre-geometric substrate route. A positive answer hands WRK-326 a substrate candidate adjacent to Penrose's decades-old program."* The route is admissible as a substrate proposal, not a derivation.
+**What the perspective material actually shows.** Pass 25 is honest: *"a negative answer (no such PT extension exists ...) closes the heterodox Cartan / twistor / pre-geometric substrate route. A positive answer hands WRK-326 a substrate candidate adjacent to Penrose's decades-old program."* The route is admissible as a substrate proposal, not a derivation.
 
 **Verdict.** C6 is the strongest twistor coincidence the route can legitimately invoke, *because* it is paired with a falsifiable substrate-inversion question. Naming the googly problem without the substrate-inversion frame is closer to twistor-poetry than to substrate proposal. The fall-line between green-flag and red-flag here is whether the contributor names what fails the proposal, not just what would be nice if it worked.
 
@@ -143,7 +143,7 @@ These are presentation patterns. A draft, comment, or section that exhibits one 
 - **R7. Twistor-as-language vs twistor-as-substrate.** Twistor language without substrate-inversion (the C6 / pass 25 move) is decoration. The legitimate twistor move requires committing to the substrate-inversion reading and accepting its falsifiable question.
 - **R8. E_8 numerology without Distler-Garibaldi.** Any invocation of E_8 dimensions, centralizers, or generation counts that does not explicitly address Distler-Garibaldi 2009 is below the repo bar. This is the single hardest line in this guardrail.
 - **R9. "Geometric origin of SM" claim with no chirality bridge.** A construction that does not name what substrate-level invariant carries chirality, how it survives the forgetful operation to the smooth-bundle shadow, and what would falsify the bridge, is at-best decorative. The six-axis protocol (WRK-375) makes this explicit; the chirality-bridge claim is a required output of the template.
-- **R10. Persona-quote as endorsement.** Picking the Cartan / twistor persona pass quote that sounds favorable while ignoring the same pass's *verdict* (e.g., pass 15: *"plausible loophole class, not a derivation"*). The loophole personas in `process/persona-passes/02` are deliberately steelmanned. Their verdicts are where the discipline is.
+- **R10. Perspective-quote as endorsement.** Picking the Cartan / twistor perspective pass quote that sounds favorable while ignoring the same pass's *verdict* (e.g., pass 15: *"plausible loophole class, not a derivation"*). The loophole perspectives in `process/perspective-passes/02` are deliberately steelmanned. Their verdicts are where the discipline is.
 
 ## 4. Green-flag list — patterns that carry actual structural content
 
@@ -172,7 +172,7 @@ The row exists to enter this route into the six-axis protocol's coordination spa
 
 Per the WRK-383 card's Definition of Done §3, the four things this route would have to prove are below, with the guardrail's reading appended.
 
-1. **Chirality mechanism.** A substrate-level invariant carrying chirality, with a derived forgetful operation to the smooth-bundle shadow. Currently: not derived in any persona pass; only sketched. The closest existing model is Acharya-Witten 2001's singular G_2-holonomy mechanism, which is *not* the same as `dim(G_2) = 14`.
+1. **Chirality mechanism.** A substrate-level invariant carrying chirality, with a derived forgetful operation to the smooth-bundle shadow. Currently: not derived in any perspective pass; only sketched. The closest existing model is Acharya-Witten 2001's singular G_2-holonomy mechanism, which is *not* the same as `dim(G_2) = 14`.
 2. **Gauge extraction.** A canonical action of SU(3) × SU(2) × U(1) (or an unbroken SO(10) / SU(5) parent) on Met(X)'s 10-dim fiber, derived from the metric-bundle datum alone. Currently: not derived. Pass 07 is explicit that the SO(10) / G_2 split is a *choice*, not a derivation.
 3. **Anomaly compatibility.** Either the substrate's anomaly content lands in the SM-matching class of Freed-Hopkins enriched bordism, or the construction's substrate-inversion explicitly forgets the enrichment in a way that recovers the SM. Currently: untouched by the Cartan / twistor / G_2 lens material.
 4. **Reduction to known low-energy content.** A controlled reduction from the 14-dim substrate dynamics to 4-d GR (pass 05) + SM gauge + SM fermion content (pass 04, pass 07), including the projection from 64 Weyl components to 48 SM components and the discrete-anomaly cancellation. Currently: untouched.
@@ -181,7 +181,7 @@ A contribution that addresses one of these substantively is a green-flag G2/G7 c
 
 ## 7. Recommended status (DoD §4)
 
-**Secondary branch.** Not a lead path. The Cartan / twistor / G_2 route is admissible as a secondary geometric branch that contributors with parabolic-geometry, twistor-theory, or G_2-holonomy expertise may develop *if they clear the green-flag bar*. The persona-rank position (12th of 16 in `syntheses/08`'s impact / first-pass-leverage table) supports this status; the persona scoring (high from pass 01, 04, 05, 15; low from pass 11 stochastic geometer and pass 12 quantum measurement) supports the "geometric resonance, narrow lens" reading.
+**Secondary branch.** Not a lead path. The Cartan / twistor / G_2 route is admissible as a secondary geometric branch that contributors with parabolic-geometry, twistor-theory, or G_2-holonomy expertise may develop *if they clear the green-flag bar*. The perspective-rank position (12th of 16 in `syntheses/08`'s impact / first-pass-leverage table) supports this status; the perspective scoring (high from pass 01, 04, 05, 15; low from pass 11 stochastic geometer and pass 12 quantum measurement) supports the "geometric resonance, narrow lens" reading.
 
 The status is **not "park."** Pass 25's heterodox substrate-inversion variant is a genuinely open research proposal with a falsifiable question and a non-trivial chance of teaching the program something even if it fails. The status is **not "appendix only"**; appendix-only would underclaim what pass 25's substrate-inversion move could be worth if a contributor with the right background developed it.
 
@@ -193,7 +193,7 @@ To be propagated to related artifacts via the draft coordination note on this pa
 
 - **For #24 (six-axis-specification-protocol).** The Cartan / twistor / G_2 route is a legitimate L1 = (h) axis-drop *with a substrate-inversion variant* (heterodox pass 25 / Penrose pre-geometry) that the L1 menu may want to acknowledge as L1 = (h')-or-similar. The substrate-inversion variant is structurally different from the parabolic-geometry-on-Met(X) variant and the menu could helpfully distinguish them.
 - **For #25 (no-go-forgetful-image-map).** WRK-376's Distler-Garibaldi treatment is *the* load-bearing reference for this guardrail's R8 / G5. This guardrail explicitly does not re-derive WRK-376's §2.4 and instead cites it; the coordination pass should ensure the public versions of both artifacts cross-reference cleanly so a reader doesn't get conflicting framings.
-- **For #30 (hegelian-persona-protocol-method-note).** This guardrail *is* the persona-protocol method's output applied as a falsification check on a tempting route. The method note may want to use Cartan / twistor / G_2 as the worked example of "persona dialectic generated a guardrail that catches numerology" — the case where the method's discipline value is most visible.
+- **For #30 (hegelian-perspective-protocol-method-note).** This guardrail *is* the perspective-protocol method's output applied as a falsification check on a tempting route. The method note may want to use Cartan / twistor / G_2 as the worked example of "perspective dialectic generated a guardrail that catches numerology" — the case where the method's discipline value is most visible.
 - **For coordination pass generally.** This guardrail does not introduce new findings that bear on #26 (Type II_1 checklist), #27 (Nielsen protocol pilot), #28 / #29 (claim mining), #31 (stochastic parity-breaking), #33 (Sorkin causal-set), or #34 (RG / universality). It is orthogonal to those axis-drops. The Type II_1 candidate's strategy (preserve L2-L4, push richer data into L1 = (c)) is a different L1 choice from this route's L1 = (h); the two are related axis-drop alternatives, not competitors.
 
 ## 9. Honest gaps in this guardrail
@@ -206,7 +206,7 @@ To be propagated to related artifacts via the draft coordination note on this pa
 
 ## 10. Closing posture
 
-The Cartan / twistor / G_2 route is the corner of the GU program where the gap between *suggestive arithmetic* and *structural obligation* is widest. The guardrail's job is to make the gap visible so that contributions either close it with real geometric work (green-flag G1-G8) or are sent back to do so. The guardrail is conservative because the route is reputationally fragile and because the existing persona-pass material already does the right discipline; the contribution this artifact makes is to lift that discipline into a public bar that a contributor can read once and use as a checklist.
+The Cartan / twistor / G_2 route is the corner of the GU program where the gap between *suggestive arithmetic* and *structural obligation* is widest. The guardrail's job is to make the gap visible so that contributions either close it with real geometric work (green-flag G1-G8) or are sent back to do so. The guardrail is conservative because the route is reputationally fragile and because the existing perspective-pass material already does the right discipline; the contribution this artifact makes is to lift that discipline into a public bar that a contributor can read once and use as a checklist.
 
 The route is not closed. It is gated.
 
