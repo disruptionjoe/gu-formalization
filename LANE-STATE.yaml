@@ -2,35 +2,44 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-08-03T13:00:00-05:00'
-run_ref: REGISTER-20260803-P-H14-lane-state-refresh
+updated_at: '2026-08-13T18:30:00-05:00'
+run_ref: RUN-20260813-183000-gu-lane-a-steering-refresh
 provenance: refreshed 2026-08-03 per audit CG-08/F-04 (eleven-lens B14 ledger-drift
   cluster; register P-H14). Mechanical fields are henceforth checked by
   lab/automation/derive_lane_state.py and process_gates/lane_state_freshness_audit.py
-  (register P-H15).
-bottom_line: The interior program is honestly split; the B5 independent
-  reconstruction is BLOCKED at the five-field native operator/domain packet
-  (2026-07-29 audit), RB7 killed the stationary non-metric order parameter as a
-  saddle with its FD-read numbers now governed by the exact-derivative
-  acceptance rule, and the pw2fr repair campaign runs live on
-  agent/null-clifford-omega1-repair. The audit/register execution corrected the
-  coordination surfaces, four paper seeds shipped to the drafting factory, and
-  LNF v1.0.0 stands published.
-decision_default: Require the five-field native packet (slot-pairing phases,
-  coflip linearity/phases, formal-adjoint sign, program-native Green form,
-  common closed domain) before selecting any B5 coefficient space; do not cite
-  an FD-read null or kill until it is certified with exact derivatives or
-  interval arithmetic (P-H29); do not substitute an imposed positive-Hilbert
-  wall for a target-blind dynamical selector.
+  (register P-H15). REFRESHED 2026-08-13 by a Lane A stewardship run after this
+  file was found ten days and 478 commits stale while its freshness gate still
+  passed - the gate measured lag against the evidence THIS FILE cites, so a
+  surface that stops pointing at current work stayed fresh by construction. The
+  gate was extended in the same run with an absolute-currency check. Narrative
+  fields below refreshed; Lanes 2 and 3 left as found because their movement was
+  not independently verified, and that omission is recorded in the run record.
+bottom_line: The live Lane 1 front is the K77 operator/observation campaign on
+  agent/operator-anomaly-big-swing, at conditional-physics ledger v0.236 with
+  82/82 targets mapped and the headline unmoved by design. 478 commits landed
+  between this file's previous refresh (2026-08-03) and 2026-08-13. The B5
+  five-field packet remains blocked but is NO LONGER the live front, and the
+  pw2fr repair branch named by the previous refresh is not the current work.
+  A 2026-08-13 Lane A drain pass cleared the GU mailbox - 26 notes
+  dispositioned (9 absorbed, 3 superseded, 1 declined, 8 still-live), the queue
+  having been unarchived since 2026-07-20.
+decision_default: P-H29 stands unchanged - do not cite an FD-read null or kill
+  until it is certified with exact derivatives or interval arithmetic. The
+  five-field B5 packet requirement still gates any INTERIOR wave but no longer
+  describes the live front; route new work against the current ledger v0.236
+  queue and the eight still-live items recovered by the 2026-08-13 drain pass
+  (explorations/lane-a-mailbox-drain-pass-2026-08-13.md). Do not substitute an
+  imposed positive-Hilbert wall for a target-blind dynamical selector.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: yellow
-  reason_code: interior_blocked_boundary_program_running
-  evidence_ref: lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md;
-    explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md
+  reason_code: k77_operator_observation_campaign_live_interior_still_blocked
+  evidence_ref: lab/process/conditional-physics-ledger-v0.236.json;
+    explorations/lane-a-mailbox-drain-pass-2026-08-13.md;
+    lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md
   work_status: moving
   last_movement: The 2026-07-29 B5 native-packet source audit returned BLOCKED
     (none of the five required packet fields is fixed by a repository-owned
@@ -80,7 +89,7 @@ lanes:
     from support multiplicities; do not start a new interior wave until the
     prior wave's null is certified with exact derivatives.
   needs_joe: false
-  evaluated_at: '2026-08-03T13:00:00-05:00'
+  evaluated_at: '2026-08-13T18:30:00-05:00'
   run_ref: REGISTER-20260803-P-H14-lane-state-refresh
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
@@ -181,7 +190,7 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: audit_register_batches_1_2_executed
+  reason_code: mailbox_drained_2026_08_13_eight_live_items_recovered
   evidence_ref: lab/process/eleven-lens-audit-2026-08-03.md; lab/process/improvement-register-2026-08-03.md
   work_status: moving
   last_movement: Filed the eleven-lens audit, the five-mathematician panel
@@ -235,5 +244,5 @@ lanes:
   attention_pointer: 'Nothing needs Joe: the full Tier-0 queue (J1-J5) is
     executed and recorded, including J3 (main fast-forwarded + lnf-v1.0.0 tag,
     2026-08-03). No lane work is blocked on Joe.'
-  evaluated_at: '2026-08-03T13:00:00-05:00'
+  evaluated_at: '2026-08-13T18:30:00-05:00'
   run_ref: REGISTER-20260803-P-H14-lane-state-refresh
