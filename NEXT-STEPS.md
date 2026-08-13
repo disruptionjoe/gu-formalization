@@ -7,6 +7,19 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 W/MIRROR ANTI-LINEAR EQUIVALENCE AND HQ NEUTRALITY
+> EXACT (ledger v0.238).** The prior equal `224/96` fingerprints are now
+> upgraded to the theorem they did not by themselves imply:
+> `conj(P_W)=P_mirror`, the rolled principal symbol is real, and
+> `conj(H_q)=-H_q`. The restricted forms are exact anti-isometric,
+> nondegenerate and neutral `(96,96,0)` on both sectors, decomposing into 32
+> exact `(3,3,0)` blocks. **Do not use principal rank or trace-Hq
+> compatibility as a luminous-half selector. Next construct the smallest
+> action-owned lower-order, nonzero-fermion, BV/BFV, reality or domain term and
+> require it to break this equivalence without a fitted projector or
+> compatible connection.** No verdict, residue, quotient, datum, canon or
+> public posture moves.
+
 > **2026-08-13 CURRENT PHYSICAL-OPERATOR INVENTORY EXHAUSTED (ledger
 > no-change).** The exact rolled principal operator rejects three generic
 > rank-192 controls (kernels `1,0,0`) but gives W and its ASD mirror the same
@@ -21,8 +34,7 @@ updated_at: "2026-08-13"
 > as kills.** No verdict, canon, accounting, datum or public-posture move.
 
 > **2026-08-13 TRACE-HQ COMPATIBILITY ADMITS BOTH FULL AND TWO-HALF
-> PARENTS (ledger migration deferred to a separately authorized Compose
-> step).** All `16,384` real-Clifford endomorphism directions admit exactly
+> PARENTS (absorbed by ledger v0.238).** All `16,384` real-Clifford endomorphism directions admit exactly
 > one `H_q`-unitary phase: `8,256` are real and `8,128` require `i`. The
 > `8,192` even directions exactly form `u(32,32)+u(32,32)`; the `8,192` odd
 > directions exchange the halves and extend it to full `u(64,64)`. The moving

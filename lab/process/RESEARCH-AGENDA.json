@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-08-12",
+  "updated_at": "2026-08-13",
   "refresh_note": "Portfolio correction 2026-08-12: B5-INDEPENDENT-RECONSTRUCTION remains blocked but is retyped field-by-field; SC-GEN-53 is added as a Lane-2 seed below packet grade. Earlier 2026-08-03 reconciliation remains in force. Mechanical LANE-STATE fields are checked by process_gates/lane_state_freshness_audit.py (register P-H15).",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -655,5 +655,13 @@
     }
   ],
   "lane_manifest_ref": "lab/process/RESEARCH-AGENDA.json",
-  "work_group_catalog": []
+  "work_group_catalog": [],
+  "extensions": {
+    "operating_architecture": {
+      "work_state_refs": [
+        "lab/process/conditional-physics-ledger-v0.238.json",
+        "explorations/conditional-build/conditional-physics-ledger-v0.238.md"
+      ]
+    }
+  }
 }

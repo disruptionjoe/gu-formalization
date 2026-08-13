@@ -153,7 +153,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > supersedes the generic representative search and makes constraint
 > propagation the next gate. No accounting move.
 
-> **Current v0.237 action-Euler principal-owner comparison:** v0.236 remains
+> **Current v0.238 W/mirror anti-linear and Hq pairing theorem:** the exact
+> principal projectors obey `conj(P_W)=P_mirror`, the rolled symbol is real,
+> and `conj(H_q)=-H_q`. The restricted Gram forms are anti-isometric and each
+> has exact inertia `(96,96,0)`. This repairs the prior equal-rank inference:
+> the current principal-plus-Hq package is exactly conjugation-blind but does
+> not choose a luminous half. Lower-order action, nonzero-fermion, BV/BFV,
+> reality and domain asymmetry remain open. No accounting move.
+
+> **Predecessor v0.237 action-Euler principal-owner comparison:** v0.236 remains
 > exact for the literal printed endpoint, whose raw response has 182 live
 > cells per observed direction and whose holonomic image is rank 196. It does
 > not transfer to the action-derived rival. On the same fixed selected bank,

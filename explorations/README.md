@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 W/mirror anti-linear and Hq pairing gate (2026-08-13)
+
+`conditional-build/selected-k77-w-mirror-antilinear-hq-pairing-2026-08-13.md`
+upgrades equal W/mirror principal ranks to an exact conjugation equivalence.
+The trace-owned `H_q` changes sign, making the restricted sectors
+anti-isometric; 32 exact six-dimensional congruence blocks give total neutral
+inertia `(96,96,0)` on both. This closes selection by the current
+principal-plus-Hq package only; an owned lower-order/BV/domain breaking is the
+next gate.
+
 ## K77 physical-operator admission closure (2026-08-13)
 
 `conditional-build/selected-k77-physical-operator-admission-closure-2026-08-13.md`

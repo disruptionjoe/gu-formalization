@@ -8,8 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-13 (ledger migration
-deferred; headline unchanged).** Exact all-grade classification shows that
+**Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.238;
+headline unchanged).** W and its ASD mirror are exactly anti-linearly
+equivalent at principal grade: their projectors are conjugate and the rolled
+symbol is real. The trace-owned `H_q` flips sign under that conjugation, so the
+restricted forms are anti-isometric; exact 32-by-six block congruence gives
+neutral nondegenerate inertia `(96,96,0)` on each. This repairs the prior
+equal-rank proof gap but supplies no luminous-half selector. The full/block
+`D_varpi H_q=0` compatibility torsor is also absorbed into the three migrated
+distances. Action-owned lower order, nonzero fermions, BV/BFV, reality, domain,
+index and count remain open. No verdict, residue, quotient, datum, canon or
+public posture moves.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-13 (absorbed by
+ledger v0.238; headline unchanged).** Exact all-grade classification shows that
 every one of the `16,384` real-Clifford endomorphism directions has exactly one
 phase—real or `i`—that is unitary for the trace-owned `H_q`. The `8,192` even
 directions saturate `u(32,32)+u(32,32)` and the `8,192` odd directions extend

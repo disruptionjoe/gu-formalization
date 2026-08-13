@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-w-mirror-antilinear-hq-pairing-source-return-2026-08-13.md`](selected-k77-w-mirror-antilinear-hq-pairing-source-return-2026-08-13.md)
+  - confirms the distinct full `U(64,64)` arena and two `C^(32,32)` carrier
+    halves; attributes W/mirror conjugation and neutral trace-Hq anti-isometry
+    to the repository; and returns source-silent on a physical-half selector,
+    primal BV differential, common domain and index.
+
 - [`selected-k77-physical-operator-admission-source-return-2026-08-13.md`](selected-k77-physical-operator-admission-source-return-2026-08-13.md)
   - confirms the displayed four-field fermion grammar, full `U(64,64)` arena
     and two complex Weyl carrier halves; attributes the exact operator

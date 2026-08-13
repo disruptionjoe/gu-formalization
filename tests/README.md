@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_w_mirror_antilinear_hq_pairing_probe.py`
+  proves exact conjugation of the W/mirror projectors, reality of the rolled
+  principal symbol, trace-Hq sign reversal, restricted anti-isometry and exact
+  `(96,96,0)` inertia via 32 six-dimensional congruence blocks. It includes
+  plants against projector equality, isometry and positive definiteness. Run
+  with SageMath 10.9.
+
 - `channel-swings/selected_k77_physical_operator_admission_closure_probe.py`
   composes the exact principal, H640, graph/pairing, ordinary source BVKT and
   trace-Hq receipts into a typed operator-inventory theorem. It rejects
