@@ -7,6 +7,60 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 FIVE STAGED RESULTS WITHOUT POINTERS — absorb or decline
+> (binds nothing; none touches the ledger).** Filed to `explorations/`
+> over 08-12/13 by Joe-directed side sessions and previously reachable
+> only by directory listing:
+> 1. `explorations/c3prime-split-commutant-certificates-2026-08-12.md`
+>    (23/23 exact). Split commutant dim 4 = span{1,J4,J10,omega};
+>    B-compatible J uniquely +-J10; ONE Krein `C^(32,32)` with neutral
+>    cross-paired halves. Replicates the cadence's own C3a exactly by an
+>    independent driver. **Bears on the group-level pincer: the native
+>    ladder is Spin(7,7)->SO(64,64) and u(64,64) needs a complex
+>    structure the real algebra lacks — which the SPLIT layer supplies
+>    natively.** Remainder is C3c (`D_varpi J = 0`, `D_varpi omega = 0`).
+> 2. `explorations/chk1-deformation-cell-certificates-2026-08-12.md`
+>    (30/30 exact, two primes). **KILL NOT FIRED** — X-odd coupling cells
+>    2/2 at L1 and 28/28 at L2 on BOTH pairing horns, so a VEV lever
+>    exists. Naive Dirac zero-form mass REJECTED, so asymmetry must be
+>    spontaneous — matching the source's own mechanism.
+> 3. `explorations/lt-sm1-horn-surplus-attempt-2026-08-12.md`. Verdict
+>    (c) SURPLUS-UNCOMPUTABLE; **row does NOT move**. Cheapest live
+>    follow-up in the ledger: `g_A^-2` is charged independent at
+>    packet:1106 but W229:9 says `Z_U` sets `g_A` — resolving that one
+>    contradiction toward W229 makes H1 surplus `+1` and the row moves.
+>    Also: "induced Yang-Mills" is a homonym; W180/203/229/236/182 sit on
+>    `zeta_F=1` while calling themselves induced.
+> 4. `explorations/ac-e1-daifreed-shadow-recomputation-2026-08-12.md`.
+>    `Omega^Spin_5(B(G_SM/Gamma_n))` DERIVED independently by AHSS =
+>    Z/2,0,Z/2,0 (n=1,2,3,6); 3/3 controls reproduce
+>    Garcia-Etxebarria-Montero. **Adverse finding: AC-E1 asserts what its
+>    own root declined to compute** (root did 3-local only; the group is
+>    2-primary; receptacle nonzero at n in {1,3} = Witten anomaly), and
+>    its "16 saturates" clause needs `Spin x_{Z2} Z4` which
+>    `canon/w2-y14-spin-structure.md` rejects for plain Spin. Row can move
+>    IMPORTED -> DERIVED_CONDITIONAL only with a rewrite or a split.
+> 5. `explorations/signature-chirality-conjugation-check-2026-08-13.md`.
+>    Exact: antilinear conjugation **FLIPS** chirality in `Cl(1,3)` and
+>    **PRESERVES** it in `Cl(4,0)` (mechanism: `gamma5` normalisation
+>    imaginary vs real). **A construction vectorlike in one real form can
+>    be chiral in another with NO dynamics** — a candidate mechanism for
+>    **AC-F1**, whose incumbent **RA-D2** is adjudicated
+>    `OVER_DETERMINED/GENUINE_FALSIFICATION`, and consistent with
+>    **AC-A4**. Novelty of the signature fact is ZERO; only the AC-F1
+>    connection is new and it is PROPOSED. Same artifact REFUTES (two
+>    independent routes) any reading of the four-plane, clock and `J`
+>    selections as one twistor datum: orthogonal complex structures need
+>    `p,q` both even, so none exists on `R^(1,3)` or `R^(7,7)`.
+>    `O(6,4)/U(3,2)` IS a twistor space — on the FIBRE. Fibre-side and
+>    base-side selections are different problems.
+>
+> **Also standing:** the `mailboxes/gu-formalization/` queue is 27 notes
+> deep and was last archived 2026-07-20. Five 2026-08-12/13 notes are in
+> it, including two import candidates (selection-impossibility machinery;
+> numerical characteristic classes) and the three-sibling reassessment
+> with its own typing amendments. Lane A may want a drain pass.
+
 > **2026-08-13 K77 I2B STATIONARY PRODUCT-RULE WARD RESPONSE (ledger
 > no-change).** Differentiating the adjoint action through the nonzero
 > stationary two-jet produces an exact rank-91 constant-parameter principal
