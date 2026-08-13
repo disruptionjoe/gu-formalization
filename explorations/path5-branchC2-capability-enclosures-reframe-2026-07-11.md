@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; defense-attorney re-test of a prior kill; machine-checked structural test)
+status: exploration (5-perspective inline team; defense-attorney re-test of a prior kill; machine-checked structural test)
 created: 2026-07-11
 title: "Path-5 Branch C2 (defense re-test of the W69 kill): three generations as CAPABILITY ENCLOSURES enforced at three levels (1 individual + 2 collective), matching Lambda^2_+ = 1+2. The reframe SURVIVES Branch C's first two strikes by CONVERTING them into features and EXPLAINS MORE than the killed symmetric version -- it FORCES the menu {1,3} (irreducibility forbids 2) and DERIVES the replicas (gauge-singlet family). But the mass-hierarchy leg is THE WALL: the SAME irreducibility forces the collective doublet MASS-DEGENERATE (Schur), contradicting the observed non-degenerate 1+1+1 hierarchy. Verdict: count leg PARTIALLY REVIVED -- explains {1,3} and the replicas, NOT the masses. No canon/verdict movement; count stays OPEN."
 grade: "COMPUTED / analysis. tests/W72_path5_C2_capability_enclosures.py (exit 0, 14/14, deterministic, no RNG). W69 re-confirmed exit 0. Standard: real Z/3-rep theory of Lambda^2_+ (1+2, path3 branchD); Schur's lemma on the real-irreducible 2; tensor-factorization of matter = SM_rep (x) family. No canon / RESEARCH-STATUS / claim-status / verdict / posture movement; the generation count stays OPEN."
@@ -52,7 +52,7 @@ It has no `1+1+1` claim to falsify (Strike 1 becomes its premise) and no "middle
 
 ---
 
-## Persona 1 -- representation-theory / index specialist: the {1,3} forcing and the level-independence
+## Perspective 1 -- representation-theory / index specialist: the {1,3} forcing and the level-independence
 
 ### Test 1 -- does "1 individual + irreducible collective-2" FORCE the menu {1,3} and forbid 2?
 
@@ -115,7 +115,7 @@ Test 3 wall.
 
 ---
 
-## Persona 2 -- MATH REFEREE: forced vs asserted; theorem vs narrative; does it EXPLAIN MORE?
+## Perspective 2 -- MATH REFEREE: forced vs asserted; theorem vs narrative; does it EXPLAIN MORE?
 
 | claim | grade | forced / asserted | explains more than killed C? |
 |---|---|---|---|
@@ -139,7 +139,7 @@ irreducible `2` does not carry. The decisive test is whether the reframe can tur
 
 ---
 
-## Persona 3 -- INTRA-TEAM ADVERSARY (presents Branch C's objections against the reframe; does not veto)
+## Perspective 3 -- INTRA-TEAM ADVERSARY (presents Branch C's objections against the reframe; does not veto)
 
 > **"The mass hierarchy is not predicted, only accommodated -- and worse, it is anti-predicted."** Your headline
 > promise was that "enforced at three levels" yields the mass hierarchy. It does the OPPOSITE. Your collective is
@@ -164,7 +164,7 @@ GU frame/internal factorization. Presented, not vetoed; the synthesizer weighs i
 
 ---
 
-## Persona 4 -- CROSS-CHECKER: reproduce the {1,3}, the 1+2, and the Schur degeneracy independently
+## Perspective 4 -- CROSS-CHECKER: reproduce the {1,3}, the 1+2, and the Schur degeneracy independently
 
 1. **`1+2` and `{1,3}`** reproduced from the cyclic `g:(x,y,z)->(y,z,x)`: real-irreducible blocks `[1,2]`; the
    collective `V1` contains 0 real invariant lines (irreducible); enclosures containing the individual = `{1,3}`,
@@ -183,7 +183,7 @@ solid and independent. The reframe's two wins and its one wall all reproduce.
 
 ---
 
-## Persona 5 -- SYNTHESIZER: per-test verdict, does it EXPLAIN MORE, where is the wall, is the leg revived?
+## Perspective 5 -- SYNTHESIZER: per-test verdict, does it EXPLAIN MORE, where is the wall, is the leg revived?
 
 **Construction used:** the geometer's / program-native count -- realized rank of a `Z/3`-invariant enclosure
 `V <= Lambda^2_+ = 1 (individual) + 2 (collective)`, with "individual always enclosed" as the physical oddness

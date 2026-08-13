@@ -5,9 +5,7 @@ doc_type: intake_note
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (Joe-supplied source block; TOE episode ioXwL-c1RXQ)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 intake_semantics: >
   IMPORTED-shape evidence only; hearsay grade until primaries read;
   fork discipline binds. This intake's strongest legs point at the

@@ -4,7 +4,7 @@ label: W187
 created: 2026-07-14
 wave: W187
 posture: coherence-first; exploration grade; conditional register; honest grading; RUTHLESS skeptic; no manufactured rescue
-status: "exploration (W187 / TEAM DRESSED-SELFENERGY, label W187; coherence-first, exploration grade; conditional register; five personas inline, one worker, no sub-agents; one deterministic test 15/15 exit 0 with positive controls first + matched negative control; RUTHLESS skeptic pass)"
+status: "exploration (W187 / TEAM DRESSED-SELFENERGY, label W187; coherence-first, exploration grade; conditional register; five perspectives inline, one worker, no independent reviewers; one deterministic test 15/15 exit 0 with positive controls first + matched negative control; RUTHLESS skeptic pass)"
 hypothesis: "The build sprint (W178/W179) computed the CLOSED ghost self-energy (internal ghost -> two massless gravitons) and leaned NOT-OPERATIVE. W181-W186 established GU is OPEN: W182 (Sigma_ext has the OPPOSING/normal-damping sign, moves the pole above r* ~ O(1)); W183 (open-system reframe genuine); W186 (the operative fixed point EXISTS, is STABLE and NON-VACUOUS, but the loop is BISTABLE; selection = the reservoir Krein SIGN and the magnitude ratio r vs r*; the everpresent Lambda ~ 1/sqrt(N) fade can dynamically pull a bad start into the good basin -- flagged PLAUSIBLE). W178/W182/W186 all used TOY sqrt-threshold self-energies. This wave replaces the toy inputs with GU's ACTUAL dressed content to the extent GU-native-computable, and pushes the one genuinely GU-native cosmological question W186 left open: does GU's real everpresent fade + record accretion DYNAMICALLY SELECT the operative basin, and WHICH of W186's two remaining data (sign, magnitude) does it discharge?"
 title: "W187 VERDICT: PARTIAL. STILL-CONDITIONAL-on-<the reservoir Krein sign> -- the SINGLE remaining cross-repo finality datum. GU's DRESSED open self-energy determines: (i) Sigma_internal's SIGN (anti-damping) and ANALYTIC STRUCTURE (massless-graviton threshold s_th=0, ghost above it) are GU-NATIVE-FORCED from W130's native spectrum (c_W=+2, c_R=-4/9, m_0^2=-1/4<0), not modelled -- the absolute magnitude is H25-normalization-gated but DROPS OUT of the ratio; (ii) the r* threshold r* = sqrt(M2-s_th)/sqrt(M2-s_ext_th) is GU-NATIVE and ~O(1) (band [1.00, 1.58] over the q=5 promotion-gate gap). The kappa magnitude splits: kappa_ext = the eta-from-gimmel-area (W180/W151) is GU-native-IN-PRINCIPLE but UNBUILT (the nonlocal induced-YM completion was never computed), and the reservoir Krein SIGN is the genuine CROSS-REPO datum. THE NEW RESULT (the everpresent-fade dynamical selection, GU-native cosmology): MECHANISM 2 (record accretion GROWS the good coupling kappa_ext(N); g_kin fixed) makes r(N) = kappa0*sqrt(N) cross r* at a FINITE cosmic epoch N* = (kappa*/kappa0)^2 for EVERY magnitude kappa0>0 -- so the fade+accretion DYNAMICALLY DISCHARGES W186's MAGNITUDE leg: given dr/dN>0 (GU-native-DIRECTIONAL, since J is the record current and records accrete), r crosses r* regardless of the unbuilt magnitude, only the EPOCH depending on it. MECHANISM 1 (the fade SHRINKS the bad coupling g_kin ~ 1/sqrt(N), W186 E2) is UNCONDITIONAL (asymptotic, sign- and magnitude-free) but rests on the tie g_kin prop-to Lambda, which is NOT GU-native-forced (the kinematic two-graviton coupling is gravitational, ~ fixed) -> PLAUSIBLE only, everpresent debit carried. THE SIGN IS IRREDUCIBLE: with a REINFORCING (wrong-sign) reservoir the record coupling is antisymmetric and growing kappa to ANY magnitude (tested to 50 kappa*) NEVER restores reality -- so NEITHER mechanism rescues a wrong-sign reservoir. NET: the everpresent fade is the SELECTOR of the MAGNITUDE, not of the SIGN; bar (b)'s standing conditional NARROWS from W186's TWO data (sign + magnitude) to a SINGLE cross-repo datum (the reservoir Krein sign), through a finite-N non-unitary window. H59 remains OPEN."
 grade: "exploration / conditional register throughout. RIGOROUS (argument principle, integer, seed-independent): PC1 reproduces W178's closed pole at GU-native s_th=0 (anti-damping rounds to 1 physical-sheet pole, normal to 0); PC2 reproduces W182's opposing-sign pole move above r* and the sign decider (reinforcing never moves it), r* located to <0.05 of the width-balance prediction. EXACT (finite-dim, machine-verified): PC3 reproduces W186's bistable fixed point (kappa* = 1.059); G3 the reservoir sign genuinely decides at fixed coupling; G4-M2 the magnitude-independent crossing (operative just above N*, pathological just below, for kappa0 in {0.05,0.1,0.3,0.8}); G4-M2b the monotone turn-on with N; G5 the wrong-sign reservoir never rescued at any magnitude to 50 kappa*; NC1 the Hermitian analog manufactures no pathology. DERIVED-ON-NATIVE (W130): G1 the dressed Sigma_internal sign+structure from c_W=+2, c_R=-4/9, m_0^2<0; G2 r* ~ O(1) from the native massless-graviton + Stelle-ghost spectrum. REPRODUCED: PC4 the everpresent-Lambda amplitude (W146) Lambda l_p^2 ~ 1/sqrt(N_today) = the observed ~10^-122. STRUCTURAL / MODEL for the lift to GU: the bistable total is the W186 finite Fano-Anderson stand-in (as W178's are) for the QFT operator D; the fade+accretion mechanisms are cosmological-dynamics models on that stand-in; they DECIDE the STRUCTURE (the magnitude leg is dynamically dischargeable; the sign leg is not) and CANNOT fix which reservoir sign GU's dressed source realizes -- that is the inherited cross-repo finality object. GRADED PLAUSIBLE (not decisive), flagged: Mechanism 1 (the g_kin fade) -- it rests on the non-GU-native g_kin prop-to Lambda tie and carries W166/W146's everpresent debits; both mechanisms pass a finite-N non-unitary window. Test: tests/W187_gu_dressed_open_selfenergy.py 15/15 exit 0. NO canon / RESEARCH-STATUS / claim-status / verdict / posture change. H59 remains OPEN."
@@ -49,7 +49,7 @@ flagged the everpresent `1/sqrt(N)` fade as a PLAUSIBLE dynamical stabilizer. Th
 actual computation: replace the toy inputs with GU's **dressed** content wherever GU-native content
 allows, and push the one genuinely GU-native cosmological question -- **does GU's real everpresent
 fade + record accretion dynamically select the operative basin, and which of the two remaining data
-does it discharge?** Five personas ran inline, one worker, no sub-agents; deterministic test
+does it discharge?** Five perspectives ran inline, one worker, no independent reviewers; deterministic test
 `tests/W187_gu_dressed_open_selfenergy.py` (**15/15, exit 0**), positive controls first.
 
 The answer is a sharp **PARTIAL**: the fade is the selector of the **magnitude**, not of the
@@ -66,7 +66,7 @@ The answer is a sharp **PARTIAL**: the fade is the selector of the **magnitude**
 | **the everpresent fade** | Mechanism 2 (accretion grows the good coupling); Mechanism 1 (fade shrinks the bad coupling) | M2 GU-native-directional (G4); M1 PLAUSIBLE (tie not native) |
 | **"selects the basin"** | dynamically (fade/accretion) vs by external datum | the fade selects the MAGNITUDE (G4); the SIGN stays external (G5) |
 
-## 1. Persona 1 -- self-energy / loop specialist: the DRESSED Sigma_internal, GU-native (G1)
+## 1. Perspective 1 -- self-energy / loop specialist: the DRESSED Sigma_internal, GU-native (G1)
 
 W178/W182/W186 all used a model sqrt-threshold self-energy `Sigma(s) = s_sign * kappa * sqrt(s_th - s)`.
 The dressed object is the ghost -> two-graviton loop with GU's **actual** vertex (the W169/W184
@@ -87,7 +87,7 @@ not, splits cleanly:
   to **0**) -- the closed NOT-OPERATIVE lean is a **native** statement, not a modelled one.
 - **The MAGNITUDE is H25-normalization-gated -- and it drops out.** The absolute size of
   `Im Sigma_internal(M^2)` is the gravitational-coupling normalization H25 has always graded as
-  magnitude-live. But the operative decision is a **ratio** (`r*`, Persona 2), and the overall scale
+  magnitude-live. But the operative decision is a **ratio** (`r*`, Perspective 2), and the overall scale
   cancels. So the one thing GU cannot pin at the loop (the absolute width) is the one thing the
   verdict does not need.
 
@@ -95,7 +95,7 @@ not, splits cleanly:
 known argument-principle resolution loss at the massless branch point, W182); the physical content is
 integer: 1 vs 0.
 
-## 2. Persona 2 -- open-system / source specialist: the GU-native r* and the kappa split (G2/G3)
+## 2. Perspective 2 -- open-system / source specialist: the GU-native r* and the kappa split (G2/G3)
 
 **The r* threshold is GU-native (G2).** W182/W186 reduced selection to `|Sigma_ext|/|Sigma_internal|`
 vs `r* ~ O(1)`, with `r* = sqrt(M2 - s_th)/sqrt(M2 - s_ext_th)` the on-shell width balance. Every
@@ -119,9 +119,9 @@ eta-from-gimmel-area." They are not the same kind of object:
 G3 verifies the structural fact behind the split: at **fixed** coupling the reservoir sign genuinely
 decides the operative outcome (opposing -> can be operative; reinforcing -> not), so the sign is a
 **distinct** datum from the magnitude, not reducible to it. This matters because the fade acts on the
-magnitude and cannot touch the sign (Personas 3, 5).
+magnitude and cannot touch the sign (Perspectives 3, 5).
 
-## 3. Persona 3 -- cosmological-dynamics specialist: the everpresent fade selection (G4)
+## 3. Perspective 3 -- cosmological-dynamics specialist: the everpresent fade selection (G4)
 
 This is the load-bearing new computation. W186 found (its Block E) that the everpresent
 `Lambda ~ 1/sqrt(N)` fade **can** pull a pathological start into the good basin, and flagged it
@@ -159,7 +159,7 @@ scale. So Mechanism 1 is graded **PLAUSIBLE only**, carrying W166/W146's everpre
 (validity edge, unbuilt normalization). Both mechanisms pass through a **finite-N non-unitary window**
 (G4-M1b): record-genesis goes through a genuinely complex phase before the fade/accretion rescues it.
 
-## 4. Persona 4 -- symbolic / numerical engineer: the test and its controls
+## 4. Perspective 4 -- symbolic / numerical engineer: the test and its controls
 
 `tests/W187_gu_dressed_open_selfenergy.py`, **15/15, exit 0** (numpy only; seed 20260714). Positive
 controls run **first**: **PC1** reproduces W178's closed pole at the native `s_th=0`; **PC2**
@@ -172,7 +172,7 @@ negative control (NC1: a Hermitian no-ghost analog manufactures no pathology und
 accretion/fade -- the whole structure needs the Krein indefiniteness). Every load-bearing claim has a
 matched control (W138 battery).
 
-## 5. Persona 5 -- adversarial skeptic RUTHLESS: is the fade actually the selector?
+## 5. Perspective 5 -- adversarial skeptic RUTHLESS: is the fade actually the selector?
 
 **Steelman STILL-CONDITIONAL / NOT-OPERATIVE at full strength.**
 
@@ -269,8 +269,8 @@ turns.
 **Artifacts:** this file + `tests/W187_gu_dressed_open_selfenergy.py` (15/15, exit 0).
 
 *Filed 2026-07-14 by Team DRESSED-SELFENERGY (W187). Coherence-first; exploration grade; conditional
-register; RUTHLESS skeptic. Five personas inline in one worker (self-energy/loop specialist;
+register; RUTHLESS skeptic. Five perspectives inline in one worker (self-energy/loop specialist;
 open-system/source specialist; cosmological-dynamics specialist; symbolic/numerical engineer;
-adversarial skeptic RUTHLESS); no sub-agents. Reproducible:
+adversarial skeptic RUTHLESS); no independent reviewers. Reproducible:
 `python -u tests/W187_gu_dressed_open_selfenergy.py` (15/15, exit 0; positive controls first).
 No canon movement; H59 remains OPEN.*

@@ -2,7 +2,6 @@
 title: "Hostile review: K77 full-adjoint Shiab/Bianchi/two-connection target"
 date: 2026-08-05
 status: PASS_WITH_SCOPE_REPAIR
-lane: 1
 ---
 
 # Hostile review

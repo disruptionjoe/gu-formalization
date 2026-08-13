@@ -152,7 +152,7 @@ The **only** method that would link A and B is "both are mod-3." Applied to cont
 method links A's `Z/3` *equally* to:
 
 - the `Z/3` inside `Z/6`,
-- the SU(3)-color center `Z/3` (Lane 2's real object),
+- the SU(3)-color center `Z/3` (prediction research's real object),
 - the `Z/3` factor of GEM's `Z/9`.
 
 All three are uncontroversially unrelated to `pi_3^s` as generators. **A method that connects
@@ -495,7 +495,7 @@ occur.
 ### Main-loop confirmation (appended 2026-07-07)
 
 Verified on disk against the workflow's structured return (9/9 agents, 0 errors, ~654k tokens); the doc
-does not overstate the personas. I independently re-checked the two load-bearing gate facts and both are
+does not overstate the perspectives. I independently re-checked the two load-bearing gate facts and both are
 elementary and correct: (i) `Aut(Z/24) = (Z/24)^*` has order `phi(24) = phi(8)*phi(3) = 4*2 = 8` and is
 `(Z/2)^3` (since `(Z/8)^* = Z/2 x Z/2` and `(Z/3)^* = Z/2`) — no order-3 element, so no order-3 symmetry
 acts nontrivially on `Z/24` or its `Z/3` summand; (ii) `pi_3` of a simple compact Lie group is `Z`,

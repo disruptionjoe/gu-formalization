@@ -155,5 +155,5 @@ W218 answers: **no, not even as the same operator type.** The honest tightening 
 
 *Filed 2026-07-14. LEAN single-worker check (not a wave). Coherence-first; exploration grade; conditional
 register; truth-seeking (a clean DISTINCT is as informative as a coincidence); RUTHLESS skeptic. No
-sub-agents. Reproducible: `python -u tests/W218_lean_Rsrc_unification_check.py` (21/21, exit 0; positive
+independent reviewers. Reproducible: `python -u tests/W218_lean_Rsrc_unification_check.py` (21/21, exit 0; positive
 controls first). No canon movement; bar(b) and H59 remain OPEN.*

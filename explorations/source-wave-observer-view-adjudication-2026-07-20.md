@@ -20,9 +20,7 @@ outcomes:
   four_metrics: FOUR-CONTINUOUS_WITH_CONDITIONAL_FOUR-EXACT
   spectral_sigma: SIG-POSTHOC_AND_IDENTITY-ARTIFACT
   wall_uniformity: SINGLE-CARRIER_NUMERICALLY_SUPPORTED_THEOREM_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
@@ -177,7 +175,8 @@ instead has a trivial multiplicity representation
 (\mathbf1\oplus\mathbf1\oplus\mathbf1)_{\rm family}.
 \]
 
-Since the characters of (3_{m tangential}) and
+Since the characters of (3_{
+m tangential}) and
 (\mathbf1\oplus\mathbf1\oplus\mathbf1) differ, no equivariant
 identification exists.
 

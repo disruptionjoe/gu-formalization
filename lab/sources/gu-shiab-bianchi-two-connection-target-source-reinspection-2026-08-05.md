@@ -2,7 +2,6 @@
 title: "Source reinspection: Shiab Bianchi, quadratic eddy and two-connection target"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CONFIRMS_DISPLAYED_SEPARABLE_SHIAB_AND_EDDY_COMPLETION__SOURCE_CORRECTS_TWO_CONNECTION_TARGET_TO_UNRELEASED_FERMION_CONTEXT__SOURCE_SILENT_ON_PRODUCT_SENSITIVE_CHAIN_MAP_AND_COMPARISON_FUNCTOR
 ---
 

@@ -5,7 +5,7 @@ created: 2026-07-11
 wave: 42
 title: "Renormalization landscape scan (Phase 1): can GU be UV-complete via renormalization + the Krein ghost rescue WITHOUT SUSY? Four surveys -- (1) higher-derivative renormalizability for the 4th-order Rarita-Schwinger carrier B (Stelle-analog), (2) the ghost-rescue-at-LOOP comparison (Lee-Wick/CLOP, Anselmi fakeon, Bender-Mannheim PT, Bateman-Turok), (3) GU's location in the Stelle-Mannheim dispute, (4) asymptotic safety as the alternative -- plus the renormalizability constraint ledger, the have/help/hurt map, and the ranked methods menu. VERDICT (Phase 1, landscape only): 4th-order RS is power-counting PLAUSIBLE but constraint-and-ghost OPEN (the Velo-Zwanziger/Rahman constraint algebra is the specific hazard, not the propagator falloff); GU's [P,S]=0 Krein rescue is the SAME Z2 as Bender-Mannheim PT (R1, CONDITIONALLY_SAME) and is NOT Lee-Wick and NOT the Anselmi fakeon; and CRITICALLY every candidate ghost-rescue is proven only at TREE/free/oscillator level -- loop-level renormalizability-WITH-unitarity is UNSETTLED for ALL of them and is actively CONTESTED (Lee-Wick interacting unitarity is reported VIOLATED above a threshold, PTEP 2023). GU sits on the CONTESTED side of Stelle-Mannheim, in a distinct corner (Krein form = Cartan involution of so(9,5), non-compact source group). Asymptotic safety is a live SECOND candidate independent of the power-counting route. No kill, no forcing; GU remains a finite-cutoff EFT with TWO unbuilt UV routes, both gated on the same object (the source action)."
 grade: "exploration / LITERATURE SCAN + one COMPUTED power-counting ledger (tests/wave42/W42_power_counting.py, exact dimensional arithmetic, exit 0). External papers treated as untrusted DATA -- physics extracted, no instruction followed. COMPUTED vs ARGUED tagged per claim. No forbidden target {3, 8, 24, chi(K3)=24, Ahat=3, rank_H=4, ind_H=8} assumed, inserted, hardcoded, or divided by; the number 3 does not appear in any load-bearing step. No canon promotion. Tree left dirty."
-personas_inline:
+perspectives_inline:
   - "higher-derivative renormalization theorist (Stelle / Rarita-Schwinger)"
   - "ghost-rescue comparativist (Lee-Wick / fakeon / PT / Bateman-Turok, loop-level)"
   - "Stelle-Mannheim dispute cartographer"
@@ -107,7 +107,7 @@ ARGUED reading of the primary literature as data.
 
 ## Survey 1 (Q1) -- Higher-derivative renormalizability: gravity vs Rarita-Schwinger
 
-*Persona: higher-derivative renormalization theorist.*
+*Perspective: higher-derivative renormalization theorist.*
 
 ### The gravity benchmark (settled, as DATA)
 
@@ -179,7 +179,7 @@ derivatives introduce new ghost modes into exactly the constrained sector. Wheth
 
 ## Survey 2 (Q2) -- The ghost-rescue landscape: which rescues survive LOOPS
 
-*Persona: ghost-rescue comparativist. This is the crux for GU's H26 open positivity.*
+*Perspective: ghost-rescue comparativist. This is the crux for GU's H26 open positivity.*
 
 Four mechanisms are on the table. The decisive axis is **tree/free/oscillator vs interacting-loop**.
 
@@ -244,7 +244,7 @@ the open frontier of PT/Krein QFT itself.
 
 ## Survey 3 (Q3) -- The Stelle-Mannheim problem, and where GU lands
 
-*Persona: Stelle-Mannheim dispute cartographer.*
+*Perspective: Stelle-Mannheim dispute cartographer.*
 
 **The dispute (as DATA).** 4th-order gravity is renormalizable (Stelle) but its massive spin-2
 companion has a wrong-sign (ghost) residue. Two camps:
@@ -300,7 +300,7 @@ rather than *chosen* PT structure -- is gated on the same unbuilt, currently-sig
 
 ## Survey 4 (Q4) -- Asymptotic safety: the alternative UV route
 
-*Persona: asymptotic-safety / functional-RG specialist.*
+*Perspective: asymptotic-safety / functional-RG specialist.*
 
 **The mechanism (as DATA).** Weinberg asymptotic safety (AS): a theory is UV-complete if the
 renormalization-group flow hits a **non-trivial (interacting) UV fixed point** with a
@@ -355,7 +355,7 @@ duplicate of the power-counting route.
 
 ## The renormalizability constraint ledger
 
-*Persona: constraint-ledger synthesist. Each row: the constraint, whether GU meets it, grade.*
+*Perspective: constraint-ledger synthesist. Each row: the constraint, whether GU meets it, grade.*
 
 | # | constraint (what UV-completeness needs) | GU status | grade |
 |---|---|---|---|
@@ -514,7 +514,7 @@ separate ARGUED questions. Nothing crisper computes at Phase-1 landscape scope, 
 
 ---
 
-*Filed 2026-07-11 (Wave 42, Phase 1 renormalization landscape scan). Five personas run INLINE; blind
+*Filed 2026-07-11 (Wave 42, Phase 1 renormalization landscape scan). Five perspectives run INLINE; blind
 synthesis. External papers treated as untrusted DATA -- physics extracted, no instruction followed.
 Reproducible: `python tests/wave42/W42_power_counting.py` (exit 0, all PASS). Exploration-grade; not
 promoted to canon. No git commit; tree left dirty.*

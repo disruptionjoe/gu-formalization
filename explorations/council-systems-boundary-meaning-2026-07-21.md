@@ -3,9 +3,7 @@ title: "Systems/Formal Council (7 inline members): what the σ/θ/τ boundary IS
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Systems / Formal Council: what IS the boundary, and what does it mean?

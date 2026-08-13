@@ -2,7 +2,6 @@
 title: "Source reinspection: Shiab derivation language and principal Bianchi selector"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CONFIRMS_DERIVATION_AND_BIANCHI_INTENT__SOURCE_SILENT_ON_EXECUTABLE_CRITERION_AND_PRODUCT_LABELS__RECONSTRUCTION_SELECTS_COMM_SYMI_SYMI_INSIDE_DISPLAYED_GRAMMAR
 ---
 

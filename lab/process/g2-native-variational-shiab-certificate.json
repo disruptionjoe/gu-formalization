@@ -1,7 +1,7 @@
 {
   "certificate_id": "G2-NATIVE-VARIATIONAL-SHIAB-2026-07-31",
   "branch": "agent/weinstein-guided-source-action",
-  "run": "GUH-20260731T143243Z-g2-field-space-native-variational-shiab",
+  "run": "historical-investigation",
   "grade": "conditional_native_field_action_construction",
   "selected_field_policy": {
     "A": "free endpoint connection; source varpi reconstruction",

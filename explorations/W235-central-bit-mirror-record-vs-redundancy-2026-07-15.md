@@ -27,9 +27,9 @@ cross_repo:
 # W235 -- THE central bit: is the mirror Z2 grading a conserved RECORD or a redundancy?
 
 Test / characterization certificate: `tests/W235_central_bit_mirror_record_vs_redundancy.py`
-(30/30, exit 0, positive controls first). Four personas ran INLINE in one worker (BRST /
+(30/30, exit 0, positive controls first). Four perspectives ran INLINE in one worker (BRST /
 BV-cohomology specialist; Krein / grading-moduli specialist; GU-structure / Y14-datum specialist;
-ruthless skeptic); no sub-agents. Zero em dashes. This is the North Star swing of Wave 2: the whole
+ruthless skeptic); no independent reviewers. Zero em dashes. This is the North Star swing of Wave 2: the whole
 six-lane gap-closure wave (W228-W233) collapsed GU's remaining conditionality onto ONE object, and
 this note characterizes that object as sharply as GU's built content allows.
 
@@ -68,7 +68,7 @@ to say which side each grade lands on:
 - **Native / kinematic side -> RECORD, forced.** The free BV bicomplex GU built, plus the forced-unique
   compact `C`-grading, put the mirror in `H^0` and make the grading a *global superselection* label,
   not a *local gauge* redundancy. A global involution grades states into records; only a local gauge
-  symmetry produces redundancy. GU's grading is the global one (W173 Persona 2; W228).
+  symmetry produces redundancy. GU's grading is the global one (W173 Perspective 2; W228).
 - **Standard-field / dynamical side -> decided by one external datum.** The textbook demotion
   (Kugo-Ojima doublet) requires a differential that pairs `(generation, mirror)`. In GU that
   differential is `C2`, and `C2` does not close without `F_A` on `Y14`. That datum is exactly the
@@ -185,8 +185,8 @@ closed. The forcing is **kinematic grade**; the openness is **dynamical grade**;
 | W216 condensate spectrum | real, gapped, sensible | complex, opposite-type collision |
 
 The identifications are the ones the priors already established: A3's discriminant *is* whether the
-Cartan `Z2` is conserved (W231 Persona 3); W216's branch selector *is* the same operative-`C` bit
-(W216 Persona 3); A1's forced-unique grading *is* the kinematic side of this bit (W228). W235's
+Cartan `Z2` is conserved (W231 Perspective 3); W216's branch selector *is* the same operative-`C` bit
+(W216 Perspective 3); A1's forced-unique grading *is* the kinematic side of this bit (W228). W235's
 contribution is to show they are the **same `theta`**, that determined content forces `theta = 0` at
 kinematic grade on **all** of them at once, and that the sole locus of dynamical-grade freedom is the
 one `C2`/`F_A` closure -- so the caution W231 flagged (GU's own W216 condensate structurally sitting in
@@ -259,8 +259,8 @@ residual, and it is exactly what `bar(b)` / `H59` wait on.
 **Artifacts:** this file + `tests/W235_central_bit_mirror_record_vs_redundancy.py` (30/30, exit 0;
 positive controls first).
 
-*Filed 2026-07-15 by W235 (North Star swing of Wave 2). Four personas inline in one worker (BRST /
-BV-cohomology; Krein / grading-moduli; GU-structure / Y14-datum; ruthless skeptic); no sub-agents.
+*Filed 2026-07-15 by W235 (North Star swing of Wave 2). Four perspectives inline in one worker (BRST /
+BV-cohomology; Krein / grading-moduli; GU-structure / Y14-datum; ruthless skeptic); no independent reviewers.
 Reproducible: `python -u tests/W235_central_bit_mirror_record_vs_redundancy.py` (30/30, exit 0).
 Exploration grade; characterization not resolution; no canon movement; `bar(b)` / `H59` / the count
 OPEN. Zero em dashes.*

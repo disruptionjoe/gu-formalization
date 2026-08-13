@@ -3,7 +3,6 @@ title: "Recovery no-go GR W229 Swing 2 construction attempt"
 status: exploration
 doc_type: recovery_no_go_defense
 created: 2026-07-16
-run_id: GUH-20260716T170900Z-gr-swing2
 target: RECOVERY-NOGO-GR-W229-VACUUM
 test: tests/recovery-contract/gr_nogo_swing2_construction_gate.py
 register: lab/process/recovery-no-go-defense-register.json

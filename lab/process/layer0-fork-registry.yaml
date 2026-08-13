@@ -55,7 +55,7 @@ forks:
       across this fork silently.
     sources:
       - GEOMETER-VS-PHYSICS-OBJECTS.md
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
 
   - id: SIGNATURE-AMBIENT
     title: "Ambient signature (9,5) vs (7,7)"
@@ -75,7 +75,7 @@ forks:
       GU's split is 4+10, even/even, so the product rule applies either way.
       Distinct from REAL-CLIFFORD-FORM, which IS settled.
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - explorations/resolver-wave-b-q3-dq3-dq1-2026-08-03.md
 
   - id: REAL-CLIFFORD-FORM
@@ -108,7 +108,7 @@ forks:
       registry and process_gates/fork_depth_audit.py exist.
     sources:
       - lab/process/science-council-program-efficiency-2026-08-04.md
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
 
   - id: IMPOSTER-LABEL-AB
     title: "\"Imposter\" / third-generation label attachment, reading A vs reading B"
@@ -136,7 +136,7 @@ forks:
       - explorations/imposter-reading-adjudication-2026-08-03.md
     fan_out: "medium - W221 scope, the 2+1 occupancy reading, generation labelling"
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - GEOMETER-VS-PHYSICS-OBJECTS.md
 
   - id: TWO-IN-REPO-2PLUS1
@@ -155,7 +155,7 @@ forks:
       blocks; blocks are 3:9:1, not peers; 4+10 is forced and uniquely
       mod-3-clean, fenced as multiplicity, not index.
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - lab/process/hinge-panel-synthesis-2026-08-03.md
 
   - id: KINEMATIC-VS-PHYSICAL-CARRIER
@@ -171,7 +171,7 @@ forks:
       physical reading of a kinematic computation is assuming this horn and must
       declare it.
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - lab/process/improvement-register-2026-08-03.md
 
   - id: EPS-CHARACTER
@@ -260,7 +260,7 @@ forks:
       e-invariant is dead in dim 13 and the f-invariant needs a corner object.
     sources:
       - GEOMETER-VS-PHYSICS-OBJECTS.md
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
 
   - id: NUMBER-14-METRIC-VS-EXTERIOR
     title: "The number 14: metric total space vs exterior grading"

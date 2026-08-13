@@ -41,7 +41,7 @@ from fractions import Fraction as Fr
 from itertools import product
 from pathlib import Path
 
-REPO = Path(r"C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization")
+REPO = Path(r"C:\Users\joe\JB\private orchestration overlay\repos\public\gu-formalization")
 
 N_CHECK = 0
 def check(cond, label):

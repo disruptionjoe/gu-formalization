@@ -3,7 +3,6 @@ artifact_type: exploration
 status: exploration
 doc_type: load-list-and-parameterization
 created: 2026-08-05
-lane: conditional-build
 cluster: D
 work_item: CB-D-PARAMETERIZING-THE-UNKNOWN
 title: "CB-D: the FULL load list of everything the repo says must come from the still-unbuilt GU source action or from outside -- 19 load groups, each verified and stated at its filed grade with file:line -- parameterized as U1..U18 with declared domains so the other conditional-build clusters can carry them symbolically; the total free-parameter count of the source action as currently constrained; and FOUR Layer-0 typings. (1) TWO LENGTH-SQUARED: DC-H2's horizontal:vertical scale and PRED-NORM-RANK's ell^2 = Z_U*kappa are INDEPENDENT (COMPUTED 12/12) -- the contract-locked rank-3 certificate is INCOMPLETE, its invariant quotient rises 4 -> 5 when the block ratio is charged, and the imported-scale count is AT LEAST 2, not 1. (2) SAME OBJECT FOUND: SHIAB-04's disqualified gamma-trace/RS selector and SA-C2's causality-FORCED Porrati-Rahman cure point are the SAME element -- both are 'wedge - 6*contract', t* = -1/6 -- and the repo draws OPPOSITE conclusions from that fact in two places; if SA-C2's FORCED grade holds, U1's selector freedom collapses 3 -> 0 and GU's written (1,0,1,0) must be revised. (3) 'THE SHIAB' is a HOMONYM: canon's Omega^2 tensor S -> Omega^1 tensor S versus K77's Omega^2(ad) -> Omega^13(ad). (4) 'D1/D2' is a HOMONYM: the external-datum ledger's D1/D2 (orientation, count) versus the source-domain selector's D1/D2 (endpoint relation, asymptotic domain), both live, both load-bearing, never cross-typed."
@@ -43,13 +42,11 @@ residue_touched:
   - "CB-D-PI-RS-PHYS-SPEC:T0"
   - "CB-D-BRST-QUOTIENT-EXIT:T1"
 route_disposition: LOAD_LIST_ASSEMBLED_AND_PARAMETERIZED__TWO_LENGTH_SQUARED_TYPED_INDEPENDENT__WEDGE_MINUS_6_CONTRACT_TYPED_SAME_OBJECT__SHIAB_AND_D1D2_TYPED_HOMONYM__NO_LOAD_DISCHARGED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 deposit: "pre-deposit; any decisive downstream use is J5-gated"
 kill_conditions_declared_before_computation: true
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - lab/process/layer0-fork-registry.yaml
   - lab/process/science-council-program-efficiency-2026-08-04.md
   - lab/process/improvement-register-2026-08-03.md
@@ -115,7 +112,7 @@ charged PRED-NORM-RANK exponents, the answer is SAME OBJECT and the imported
 scale count is unchanged. **K2**: if adding the block ratio leaves the invariant
 quotient dimension at 4, the certificate already covers it. **K3**: if the alias
 negative control (a genuine same-object pair) is not caught as proportional, the
-instrument is vacuous and the run is void. All three were fixed before the script
+instrument is vacuous and the investigation is void. All three were fixed before the script
 body was written; K1 and K2 did not fire, K3 passed.
 
 ---
@@ -291,7 +288,7 @@ Downstream token: **`BLOCKED-D2`** (`explorations/lp-lc-deficiency-decisive-2026
 |---|---|
 | filed result | "**GU provably cannot supply the positive form while the internal group is non-compact.** … the very Hilbert-space positivity a generation-selecting dynamics would require is **itself imported here, before the count question is even posed**", `explorations/big-swing-2026-07-03/AUDIT-noncompact-compact-reduction-EXTERNAL.md:144-150` |
 | verdict | **`REDUCTION_EXTERNAL` (the firewall holds)** … "FORCED is **actively ruled out**, not merely unproven", `:29-30` |
-| policy consequence | "do not substitute an **imposed positive-Hilbert wall** for a target-blind dynamical selector", `LANE-STATE.yaml:23`; the B5 fail-closed contract rejects a positive-Hilbert replacement, `lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md:70-71` |
+| policy consequence | "do not substitute an **imposed positive-Hilbert wall** for a target-blind dynamical selector", `CURRENT-STATE.yaml:23`; the B5 fail-closed contract rejects a positive-Hilbert replacement, `archived private execution record` |
 | relation to L5 | **strictly upstream of the count firewall** — a distinct firewall of the same "located but not forced" character |
 
 ### L8 — the NON-EQUIVARIANT COMPENSATOR `sigma_c` — **proven necessary**
@@ -337,7 +334,7 @@ is excluded at the root by it.
 
 "**`BLOCKED` — no repository-owned native construction currently fixes ANY of the
 five required packet fields**"
-(`lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md:35-41, 61-76`):
+(`archived private execution record`):
 slot-pairing phases; coflip linearity/phases; formal-adjoint sign; a
 program-native Green boundary form; a common closed symmetry-compatible domain.
 Ten unselected phase invariants; eleven possible real parity-dimension pairs.
@@ -348,7 +345,7 @@ Portfolio: `B5-MIDDLE-DIFFERENTIAL` and `B5-INDEPENDENT-RECONSTRUCTION` both
 ### L12 — `Pi_RS^phys` (the physical carrier spec)
 
 `Pi_RS^phys` **does not exist**; `OQ-RK1` is `BLOCKED_NEEDS_SPEC`
-(`lab/process/agent-context-pack.md:89-90`; fork `KINEMATIC-VS-PHYSICAL-CARRIER`,
+(`lab/process/CURRENT-RESEARCH-CONTEXT.md:89-90`; fork `KINEMATIC-VS-PHYSICAL-CARRIER`,
 `lab/process/layer0-fork-registry.yaml:161-175`). A **SPEC load, not a number**:
 until the projector is specified it has no domain, so no freedom dimension can be
 assigned. Every physical reading of a kinematic block result consumes it.
@@ -377,7 +374,7 @@ routes return "undetermined-needs-specialist."
 | **SRC-COH-1** (one-Krein-form provenance axiom) — the DE-sign prediction rests on it | a "**construction axiom** … **not yet forced from a built source action**"; run receipts: "**SRC-COH-1 remains open**" | `README.md:100-101`; B5 run-plan receipts |
 | **the boundary adapter `A_boundary`** | "**ASSUMING the adapter as an axiom** … a work posture" | `lab/process/boundary-adapter-standing-axiom.md:13-20,44` |
 | **the soldering** `A = spin-lift(grad^gimmel)` (SA-G1) | "Palatini variation does **NOT** force it"; "Natural but **underived**. *The* gravity condition." | `source-action-requirements-spec-2026-07-13.md:82`; `papers/candidates/one-residual-complete-picture/…:546-547` |
-| **`c_kin = 0`** (W154/W230) | in unresolved tension with the FLRW kinetic term; DC-H2 `[COST]` shows the two readings "cannot both be banked" | `lab/process/agent-context-pack.md:104-106`; `dc-h2:171-204` |
+| **`c_kin = 0`** (W154/W230) | in unresolved tension with the FLRW kinetic term; DC-H2 `[COST]` shows the two readings "cannot both be banked" | `lab/process/CURRENT-RESEARCH-CONTEXT.md:104-106`; `dc-h2:171-204` |
 | **W154 current identification** `J_IG = J[Psi]` | "W203 **states this dependency rather than deriving it**" | `papers/drafts/structurally-forced-internally-undecidable/draft-skeleton.md:217,335,373` |
 | **GU's canon shiab `(1,0,1,0)`** | "a **definitional postulate**, leaving **3 residual real dimensions** of freedom" | `canon/source-action-seiberg-witten-construction.md:44-47` |
 | **`kappa^2 = 1`** (GR vacuum-cancellation coefficient) | "one frozen coefficient, **provenance pending** … **source-gated**" | `explorations/per-leg-recovery-state-2026-07-21.md:57` |
@@ -403,14 +400,14 @@ ultralocal**" (`papers/drafts/structurally-forced-internally-undecidable/HARDENI
 - **Anomaly cancellation**: "full GU anomaly cancellation is **OPEN / not
   canon**", `CANON.md:170`; `canon/shiab-existence-cl95.md:87-90`.
 - **`beta` cannot be derived from finite host data**,
-  `explorations/hourly-cycles/hourly-20260625-2302-three-cycle-fifteen-hole-synthesis.md:47`.
+  `explorations/research-cycles/hourly-20260625-2302-three-cycle-fifteen-hole-synthesis.md:47`.
 - **Corner (b) derivative-level odd `tau_plus`**: "**BLOCKED** at exactly the
   geometric/curvature layer", `canon/anchor-scale-graded-ig-algebra-RESULTS.md:73,82`.
 
 ### L18 — the master-gate restatements (recorded so the fan-out is visible)
 
 "**Nine lanes route their decisive gate through the single unbuilt RS/IG source
-action**: OBJ-GEN, MOVE-6, OBJ-VZ, OBJ-FALSIFY, PERSONA-J, OBJ-FHOBS, OBJ-DESI,
+action**: OBJ-GEN, MOVE-6, OBJ-VZ, OBJ-FALSIFY, PERSPECTIVE-J, OBJ-FHOBS, OBJ-DESI,
 OBJ-TAF, OBJ-CMPR", `lab/roadmap/triage-pass-underexplored-movable-objections-2026-06-30.md:77`;
 "**All six gate on, re-encode, or die before the same object**",
 `canon/anchored-leads-screen-RESULTS.md:21`. With the honesty brake already filed:
@@ -803,7 +800,7 @@ matters: the second kind does not shrink the unknown, it shrinks the toolbox.
 | **C8** | **equivariance-level branch**: `U1`'s endpoint 4 (residual 3) holds **iff** full `Sp(64)`-equivariance is the earned constraint; under J-commutation alone the family is 8 and the residual 7; under the settled `Cl(7,7)` horn the family is 4 with **no quaternionic cut available** | **U1** | `canon/shiab-existence-cl95.md:86`; `form-spinor-decomposition-…-2026-08-03.md:150-153` |
 | **C9** | **span relations**: the eight displayed labels satisfy three exact rectangular relations and span exactly **five** operator directions on the entire adjoint coefficient carrier | **U2** | `k77-wave2-full-adjoint-…-2026-08-05.md:44-57, 186-201` (read-only) |
 | **C10** | **the disqualification set (no-go on solvers)**: complex-closure/`d^2=0` is UNSATISFIABLE and kills the whole family including GU's own map; seesaw self-adjointness is vacuous or forces the Clifford-even `d_A*`; gamma-trace/RS pins to 1 but excludes GU's written map — **but see §5.2: that last row is SA-C2's FORCED cure and may be a constraint rather than a disqualification** | tools for **U1** | `canon/shiab-existence-cl95.md:81` |
-| **C11** | **positivity**: `F = empty` on the kinematic carrier, signature-robust; the BRST/quotient exit is `U16` | **U16** | `lab/process/agent-context-pack.md:130-141` |
+| **C11** | **positivity**: `F = empty` on the kinematic carrier, signature-robust; the BRST/quotient exit is `U16` | **U16** | `lab/process/CURRENT-RESEARCH-CONTEXT.md:130-141` |
 | **C12** | **selection rank zero**: the constructed pre-Shiab constraints have exact product-selection rank `0 x 5` | records what does **not** constrain **U2** | `k77-wave2-full-adjoint-…-2026-08-05.md:266-284` (read-only) |
 | **C13** | **the causal cure (FORCED)**: `C2 = 155.3625` is a real Velo-Zwanziger acausality on any curved background; the cure is DEMANDED; causality fixes `g = 1` and `t* = -1/6` exactly, closing on BOTH carriers | **U1** (via §5.2), **U15** | `explorations/source-action-requirements-spec-2026-07-13.md:97`; built at `explorations/W125-source-action-first-build-2026-07-13.md:62` |
 | **C14** | **the equivariance ceiling (no-go on solvers)**: `sigma_c` is **proven necessary and provably outside** the Spin(9,5) equivariant family — "every equivariant attempt provably cannot close" | tools for **every** `U` | `docs/WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md:77-78` |

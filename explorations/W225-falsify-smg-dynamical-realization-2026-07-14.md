@@ -30,9 +30,9 @@ cross_repo:
 # W225 -- Falsification probe: the dynamical realization of symmetric mass generation
 
 Test / falsification certificate: `tests/W225_falsify_smg_dynamical_realization.py` (exit 0,
-positive controls first). Five personas ran INLINE in one worker (SMG / lattice-chiral-fermion
+positive controls first). Five perspectives ran INLINE in one worker (SMG / lattice-chiral-fermion
 specialist; condensed-matter / deconfined-criticality specialist; higher-symmetry /
-non-invertible-anomaly specialist; SMG-literature mapper; ruthless skeptic); no sub-agents. Zero
+non-invertible-anomaly specialist; SMG-literature mapper; ruthless skeptic); no independent reviewers. Zero
 em dashes. Builds on W224, W222, W216, W177, W211.
 
 ## 0. The leg and why it is the sharpest one left after W224
@@ -82,7 +82,7 @@ be a simulation of an arbitrary interaction, not of GU. Instead: map the literat
 check the beyond-anomaly obstructions, and set up a strong-coupling toy only for the specifically
 undetermined piece.
 
-## 1. Persona 1 -- SMG / lattice-chiral-fermion specialist: EXISTENCE is guaranteed, REALIZATION is not
+## 1. Perspective 1 -- SMG / lattice-chiral-fermion specialist: EXISTENCE is guaranteed, REALIZATION is not
 
 The decisive existence result is Wang-Wen (Phys. Rev. Research 2, 023356 (2020), arXiv:1809.11171):
 because the `16` of `Spin(10)` is anomaly-free including the mod-16 cobordism anomaly (`16 = 0
@@ -104,7 +104,7 @@ in principle, but the strong-coupling dynamics they wrote flowed to a symmetry-b
 mirror stayed light or the gauge symmetry broke). The realization is a dynamical question, and for the
 EXACT `16` in 3+1D it is not settled.
 
-## 2. Persona 2 -- condensed-matter / deconfined-criticality specialist: the transition and the intermediate-phase risk
+## 2. Perspective 2 -- condensed-matter / deconfined-criticality specialist: the transition and the intermediate-phase risk
 
 The modern understanding of the SMG transition (You-BenTov-Xu / Wang-You, Phys. Rev. X 8, 011026
 (2018), arXiv:1705.09313) is that it is a **single continuous transition beyond the Landau paradigm**,
@@ -126,7 +126,7 @@ continuous transition remains to be seen, with numerics on one microscopic model
 intervening symmetry-breaking phase." So the **Eichten-Preskill failure mode is LIVE** for the exact
 `16`: it is neither excluded nor confirmed. This is the crux of the OPEN verdict.
 
-## 3. Persona 3 -- higher-symmetry / non-invertible-anomaly specialist: the beyond-anomaly obstructions do NOT fire for the standard 16
+## 3. Perspective 3 -- higher-symmetry / non-invertible-anomaly specialist: the beyond-anomaly obstructions do NOT fire for the standard 16
 
 This is where a beyond-anomaly obstruction could have killed GU even with all 't Hooft anomalies zero.
 Three candidates, all from Wang's GUT-criticality program (arXiv:2106.16248, 2111.10369, 2202.13498):
@@ -157,11 +157,11 @@ Three candidates, all from Wang's GUT-criticality program (arXiv:2106.16248, 211
   not by tuning between gauged vacua). So the DQC gaplessness is a real and beautiful phenomenon of the
   gauged GUT landscape, but it does not fire as F2 for the mirror gap.
 
-**Net for Persona 3: F2 does NOT trigger for GU's standard `Spin(10)` `16`.** No higher-group,
+**Net for Perspective 3: F2 does NOT trigger for GU's standard `Spin(10)` `16`.** No higher-group,
 non-invertible, or forced-DQC obstruction survives. This is a genuine check that could have fired and
 did not.
 
-## 4. Persona 4 -- SMG-literature mapper: the class GU lands in
+## 4. Perspective 4 -- SMG-literature mapper: the class GU lands in
 
 Placing GU against the literature map:
 
@@ -179,7 +179,7 @@ in the obstructed rows (the `15` and the WZW-modified). It is NOT in the clean-r
 because those are lower-dimensional or smaller-group models, not the exact 3+1D `16`. **This row is
 OPEN-IN-THE-FIELD by construction.**
 
-## 5. Persona 5 -- ruthless skeptic: is OPEN the honest verdict, and does anything push it to a kill or a pass?
+## 5. Perspective 5 -- ruthless skeptic: is OPEN the honest verdict, and does anything push it to a kill or a pass?
 
 **Steelman the kill.** The E-P failure mode is not hypothetical: it is the historically documented
 outcome for exactly this kind of setup, and the one microscopic-model datum for the `16` shows an
@@ -190,7 +190,7 @@ physical possibility, not a mere gap.
 **Answer.** True -- and that is exactly why the verdict is not a clean pass. But a live possibility of
 failure is not a PROOF of failure, and the pre-declared failure condition requires PROVABLY-cannot-
 reach. The existence of the symmetric gapped phase is proven (Wang-Wen), the beyond-anomaly
-obstructions are checked-absent (Persona 3), and the generic SMG transition is a single continuous one
+obstructions are checked-absent (Perspective 3), and the generic SMG transition is a single continuous one
 for related models. So there is no proof of obstruction; F1 and F2 are both false. The kill is not
 earned.
 
@@ -270,7 +270,7 @@ re-litigated here.
 controls first).
 
 *Filed 2026-07-14. NON-NAIVE FALSIFICATION probe, smart-route-first (no full lattice MC). Five
-personas inline in one worker (SMG / lattice-chiral-fermion; condensed-matter / deconfined-criticality;
-higher-symmetry / non-invertible-anomaly; SMG-literature mapper; ruthless skeptic); no sub-agents.
+perspectives inline in one worker (SMG / lattice-chiral-fermion; condensed-matter / deconfined-criticality;
+higher-symmetry / non-invertible-anomaly; SMG-literature mapper; ruthless skeptic); no independent reviewers.
 Reproducible: `python -u tests/W225_falsify_smg_dynamical_realization.py` (exit 0). Exploration grade;
 OPEN-IN-THE-FIELD; RUTHLESS skeptic; no canon movement; bar(b)/H59 OPEN. Zero em dashes.*

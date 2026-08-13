@@ -1,10 +1,10 @@
 ---
 artifact_type: exploration
-status: exploration (W146; five-team full-roster substrate steelman sweep, FAMILY TEAM 2: THEORETICAL PHYSICS; 14 personas inline, 28 substrate stories, internal scoring against the W138 battery + the novelty gate + the ported everpresent-Lambda quantitative test; three mid-wave clarifications from Joe applied, Section 0)
+status: exploration (W146; five-team full-roster substrate steelman sweep, FAMILY TEAM 2: THEORETICAL PHYSICS; 14 perspectives inline, 28 substrate stories, internal scoring against the W138 battery + the novelty gate + the ported everpresent-Lambda quantitative test; three mid-wave clarifications from Joe applied, Section 0)
 created: 2026-07-14
 wave: W146
 hypothesis: "Joe's reframe, steelmanned, REVERSING the prior wave's causal arrow: the fundamental object is a SUBSTRATE where records are held, not an observable cosmological energy issuance. Something provides energy for records, the observer, and the system to CONTINUE; capabilities are bounded GLOBAL -> REGIONAL -> INDIVIDUAL. The GLOBAL GROWTH of new records (hypergraph/DAG-like) in the substrate is MORE FUNDAMENTAL than cosmological expansion; dark energy / expansion is a SHADOW of the substrate's record-accretion, not a primary issuance. Three clarifications bind the sweep: (1) the substrate IS Y14 itself (the 14-dim observerse), not an imported causal set -- records live in Y14 and are invisible until projected into X4; (2) the shadow map is GU's OWN Y14 -> X4 projection; (3) that projection is MEASUREMENT-GATED (GLOBAL -> REGIONAL -> INDIVIDUAL): a record becomes a definite measured X4 component only upon observation. The ported real-physics anchor this family owns: Sorkin's everpresent Lambda from causal-set number fluctuations, Lambda ~ +/- 1/sqrt(N), N = substrate element count = 4-volume in Planck units, used here as the MECHANISM TEMPLATE for the Y14 record count."
-title: "W146 -- theoretical-physics-family substrate steelman sweep. 14 personas (Family A of the 2026-07-11 roster, the orthodox/rigor/mainstream partition = nearest theoretical-physics partition), 2 substrate stories each = 28 candidates, scored against the W138 battery (G1-G6), the W146 novelty gate (distinct from bare causal-set relabeling), and the ported everpresent-Lambda quantitative amplitude test. The everpresent-Lambda amplitude REPRODUCES the observed rho_L to a factor 3 Omega_L = 2.05 (predicted Lambda l_p^2 = 1.39e-122 vs observed 2.85e-122; predicted rho_L^{1/4} = 1.87 meV vs observed 2.24 meV) -- a genuine magnitude prediction of the 10^-122, qualitatively stronger than W135's 9 Omega_L = 6.16 which presupposes the magnitude. The Y14/measurement-gated structure supplies the dimension collapse (14 -> 4) the bare port had to assume, and offers a GU-specific normalization target phi = 1/(3 Omega_L)^2. Arithmetic in tests/W146_everpresent_lambda_substrate_checks.py (23/23, exit 0)."
+title: "W146 -- theoretical-physics-family substrate steelman sweep. 14 perspectives (Family A of the 2026-07-11 roster, the orthodox/rigor/mainstream partition = nearest theoretical-physics partition), 2 substrate stories each = 28 candidates, scored against the W138 battery (G1-G6), the W146 novelty gate (distinct from bare causal-set relabeling), and the ported everpresent-Lambda quantitative amplitude test. The everpresent-Lambda amplitude REPRODUCES the observed rho_L to a factor 3 Omega_L = 2.05 (predicted Lambda l_p^2 = 1.39e-122 vs observed 2.85e-122; predicted rho_L^{1/4} = 1.87 meV vs observed 2.24 meV) -- a genuine magnitude prediction of the 10^-122, qualitatively stronger than W135's 9 Omega_L = 6.16 which presupposes the magnitude. The Y14/measurement-gated structure supplies the dimension collapse (14 -> 4) the bare port had to assume, and offers a GU-specific normalization target phi = 1/(3 Omega_L)^2. Arithmetic in tests/W146_everpresent_lambda_substrate_checks.py (23/23, exit 0)."
 grade: "exploration / hypothesis-generation, conditional register throughout. Every statement 'the substrate is/does X' reads 'under the substrate declaration, X'; nothing asserts the declaration, that dark energy is a shadow of record-accretion, or that any story is true. COMPUTED (deterministic, this wave): the everpresent-Lambda amplitude vs observed rho_L (residual = 3 Omega_L = 2.054); the scale match 1.87 vs 2.24 meV; the G5 coincidence sqrt(N_4) = S_dS (exact); the full-14-dim sprinkle catastrophe (Lambda l_p^2 ~ 10^-427); the measurement-gated density target phi = 1/(3 Omega_L)^2 = 0.237; plus controls reproducing the W135 rate anchors (9 Omega_L = 6.16, (3/2) Omega_L = 1.027) and the W138 battery anchors (DE scale 2.24 meV, S_dS 2.27e122, G3 4.775, G2 2.48, G5 1.46). CITED: the W130/W131/W132/W135/W136/W137/W138 chain and the ADGS everpresent-Lambda literature (PORTED, not re-derived). No canon / RESEARCH-STATUS / claim-status / verdict / posture change; no spec FIT row moves; the E2 AF-vs-AS fork stays CARRIED; H41 unbuilt; H59 OPEN."
 construction: "fork named per GEOMETER-VS-PHYSICS-OBJECTS.md. The substrate object (Y14 = Met(X4), (9,5) gimmel, W131) and the projection Y14 -> X4 are program-native; the everpresent-Lambda mechanism, the FRW/continuity gates, and the ephemeris/Landauer bounds are standard-field (PORTED / W138) so they bind any construction. Stories state which side each object lives on."
 depends_on:
@@ -16,8 +16,8 @@ depends_on:
   - explorations/W138-issuance-kill-battery-2026-07-14.md
   - explorations/W140-steelman-sweep-theoretical-physics-2026-07-14.md
   - explorations/W141-steelman-sweep-observational-2026-07-14.md
-  - explorations/two-track-persona-sweep-2026-07-11/A-orthodox-rigor.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/A-orthodox-rigor.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 scripts:
   - tests/W146_everpresent_lambda_substrate_checks.py
@@ -30,10 +30,10 @@ distributed through observers. This wave REVERSES the causal arrow. The fundamen
 SUBSTRATE where records are held; something supplies energy for records, the observer, and the
 system to CONTINUE; the GLOBAL GROWTH of new records (hypergraph/DAG-like) in the substrate is
 more fundamental than cosmological expansion, and dark energy / expansion is a SHADOW of the
-substrate's record-accretion, not a primary issuance. The deliverable per persona: two substrate
+substrate's record-accretion, not a primary issuance. The deliverable per perspective: two substrate
 stories, each as (i) the substrate object, (ii) the record-growth law + the "energy to continue"
 mechanism, (iii) the shadow map (substrate growth -> observed Lambda / expansion), (iv) the
-assumption leg (which spec FIT or open object declaring it pins), (v) the persona's concrete test.
+assumption leg (which spec FIT or open object declaring it pins), (v) the perspective's concrete test.
 Assumption-first by design; the kills run inside this artifact against the pre-committed W138
 battery and the W146 novelty gate.
 
@@ -67,7 +67,7 @@ shadow. Each story is a property of a DECLARED conditional structure.
 The 2026-07-11 roster partitions into five families (A orthodox/rigor, B geometric/structural,
 C foundations/observer, D wild frontier, E pragmatic/experimental). The THEORETICAL PHYSICS
 family is the NEAREST partition = Family A (orthodox / rigor / mainstream-physics gatekeeper),
-14 personas, taken whole, run inline, one context, no sub-agents (the same partition W140 used
+14 perspectives, taken whole, run inline, one context, no independent reviewers (the same partition W140 used
 for the forward-arrow sweep, so the two waves are directly comparable):
 
 (1) orthodox gravity theorist (Bach/Stelle/Ostrogradsky), (2) heterodox-rigorous professor
@@ -95,14 +95,14 @@ scored in full in Section 2. Scoring arithmetic: `tests/W146_everpresent_lambda_
 
 ---
 
-## Part 1: the 28 stories (per persona, two each)
+## Part 1: the 28 stories (per perspective, two each)
 
 Notation: N = measured-record count = 4-volume of the X4 shadow in Planck units; sigma = an
 observer slice = a section X4 -> Y14 (W137 skeleton); H_C+ = the C-operator maximal positive
 subspace (W132); P_sigma = the sigma-localized compression (W137 C1); "promotion" = the
 measurement gate turning a hidden Y14 record into a measured X4 component (Section 0.3).
 
-### Persona 1: orthodox gravity theorist (Bach / Stelle / Ostrogradsky)
+### Perspective 1: orthodox gravity theorist (Bach / Stelle / Ostrogradsky)
 
 **P1-1 (unimodular substrate ledger; Lambda conjugate to the measured 4-volume). SURVIVES.**
 Substrate object: Y14, with the observed Lambda read as the integration constant of unimodular
@@ -121,7 +121,7 @@ and names the ledger sector every other story cites.
 KILLED-AT-GENERATION: FRW is conformally flat so Bach = 0 at background; the shadow would carry
 zero uniform Lambda exactly where all of it is needed (identical to W140 A1-2). One line.
 
-### Persona 2: heterodox-rigorous professor (signature crux)
+### Perspective 2: heterodox-rigorous professor (signature crux)
 
 **P2-1 ((9,5) as the counting law; the fiber sets the projection multiplicity). SURVIVES, TOP-TIER.**
 Substrate object: Y14 with signature (9,5) = base (3,1) + DeWitt fiber (6,4). Growth law + energy:
@@ -142,7 +142,7 @@ on phi, but the number is NOT yet derived -- flagged as a target, not a result.
 permanent empirical declaration; the (7,7) partition of the record set pins no FIT and names no
 test (identical to W140 A2-2).
 
-### Persona 3: constructive / lattice QFT theorist
+### Perspective 3: constructive / lattice QFT theorist
 
 **P3-1 (Y14 as the causal-set carrier; everpresent Lambda as the shadow). SURVIVES, TOP-TIER.**
 Substrate object: Y14 with the gimmel null cone (W131 verified the pointwise characteristic
@@ -159,7 +159,7 @@ test. Its GU-specificity comes from Y14's (9,5)/fiber structure (P2-1), not from
 **P3-2 (block-spin record entropy schedule).** KILLED-AT-GENERATION: closes only at T_dS where the
 capacity is the horizon entropy (G5 relabel), unanchored elsewhere (identical to W140 A3-2).
 
-### Persona 4: anomaly / index theorist
+### Perspective 4: anomaly / index theorist
 
 **P4-1 (promotion = spectral flow of the compressed Y14 operator). SURVIVES, mid-rank.** Substrate
 object: the W131 covariant operator D = Pi(gamma nabla)Pi + m2 Pi on Y14. Growth law + energy:
@@ -176,11 +176,11 @@ deformation-invariant and cannot flow, so a growing measured count can never be 
 non-topological eta / spectral-flow part carries a rate (the theorem-grade kill that disciplines
 the whole index lane; identical to W140 A14-2).
 
-### Persona 5: numerical relativist / observational phenomenologist
+### Perspective 5: numerical relativist / observational phenomenologist
 
 **P5-1 (everpresent shadow-Lambda vs the measured rho_L; the quantitative test). SURVIVES, TOP-TIER.**
 Substrate object: Y14; measured-record count N = X4-shadow 4-volume in Planck units. Growth law +
-energy: record accretion grows N; the shadow map is the everpresent amplitude. This persona OWNS
+energy: record accretion grows N; the shadow map is the everpresent amplitude. This perspective OWNS
 the number: predicted Lambda l_p^2 = 1/sqrt(N) = 1.39e-122 vs observed 2.85e-122 (residual
 3 Omega_L = 2.05); predicted rho_L^{1/4} = 1.87 meV vs observed 2.24 meV. Assumption leg: pins the
 measured-record 4-density phi = 1/(3 Omega_L)^2 (the one free normalization) and predicts a
@@ -194,7 +194,7 @@ W140 A5-1 / W141 CK-1): a schedule tracking observer record-creation activity hi
 smooth (the everpresent fluctuation is stochastic and small at z ~ 0, not tracking the SFH peak);
 any story welding the shadow schedule to observer activity dies by an order of magnitude.
 
-### Persona 6: particle phenomenologist
+### Perspective 6: particle phenomenologist
 
 **P6-1 (promotion energy through the Majorana channel). SURVIVES, OOM-tier.** The "energy to
 continue" (to promote a record) enters the matter sector through the one dimensionful channel
@@ -207,7 +207,7 @@ SURVIVES at OOM tier only.
 deformation-sector split not a family split (W130/W137 C3); no repo object connects it to
 generations (identical to W140 A6-2).
 
-### Persona 7: renormalization / EFT theorist
+### Perspective 7: renormalization / EFT theorist
 
 **P7-1 (branch selector: where can a constant shadow-Lambda live). SURVIVES (folds into P3-1).**
 Even with no schedule (the everpresent rate is stochastic, mean ~ constant), asking WHERE the
@@ -220,7 +220,7 @@ trajectories. Status: SURVIVES, folded into P3-1's branch case (schedule-free).
 **P7-2 (coupling-as-rate).** KILLED-AT-GENERATION: verbatim the killed B2 form (G4); a rate is
 the quotiented Connes fiber and cannot appear in rate-invariant structure (identical to W140 A7-2).
 
-### Persona 8: mathematical-physics referee
+### Perspective 8: mathematical-physics referee
 
 **P8-1 (Q-curvature record density).** KILLED-AT-GENERATION, COMPUTED (cite W140 A8-1): a
 dimensionless-coefficient curvature-invariant density scales as H^4, underpaying the shadow by
@@ -233,7 +233,7 @@ Section 2.2 shows the everpresent MAGNITUDE itself coincides with the dS magnitu
 (sqrt(N_4) = S_dS); the referee flags that the substrate story's novelty must live in the
 FLUCTUATION, not the magnitude, or it collapses into this control.
 
-### Persona 9: falsifiability gatekeeper
+### Perspective 9: falsifiability gatekeeper
 
 **P9-1 (two-scale-band uniform substrate issuance). SURVIVES.** The "energy to continue" is set by
 the EMBEDDING scale mu_emb (W136's named-not-taken second scale), uniform comoving, with the O(1)
@@ -248,7 +248,7 @@ substrate magnitude.
 partitioned per causal-diamond area; well-posed double-counting falsifier, weak leg, G5-adjacent
 in its uniform limit (identical to W140 A9-2).
 
-### Persona 10: rigor gatekeeper
+### Perspective 10: rigor gatekeeper
 
 **P10-1 (three-postulate factorization; the substrate normal form). SURVIVES.** Every surviving
 story is q(sigma, a) = q_0(a) * w(sigma) * g(promotion), with q_0 the (stochastic) growth
@@ -263,13 +263,13 @@ W137 C2 integration-by-parts on Y14 sections; if the bulk signed bookkeeping doe
 zero against compact deformations, "the energy to continue enters at the boundary" is false for
 compact records and must retreat to the W103 slot or die (identical to W140 A10-2).
 
-### Persona 11: historical-priority lens
+### Perspective 11: historical-priority lens
 
 **P11-1 (everpresent Lambda PRECEDED the detection; a priority asset, not prior-art debt).
 SURVIVES as a gate + asset.** Unlike the forward-arrow sweep, where Padmanabhan equipartition was
 prior-art DEBT (W140 A11-1), the everpresent-Lambda mechanism is a priority ASSET: Sorkin's
 Lambda ~ 1/sqrt(N) is a genuine QG prediction from ~1987 that PRECEDED the 1998 detection and
-predicted a fluctuating Lambda ~ H^2. The persona's contribution: the substrate story inherits
+predicted a fluctuating Lambda ~ H^2. The perspective's contribution: the substrate story inherits
 this as a real predecessor prediction, and the novelty gate is cleared not by denying the prior
 art but by pinning it to Y14 (Section 0.1). The sub-gate it contributes: any substrate story whose
 SHADOW MAGNITUDE is the only content is Sorkin-relabeled; novelty requires the Y14/(9,5)/gate
@@ -282,7 +282,7 @@ if record growth sources MATTER (w = 0) rather than the Lambda channel it re-ent
 steady-state lane (CMB); the substrate stays in the Lambda channel with w = -1 +/- G2 (identical
 to W140 A11-2).
 
-### Persona 12: advanced-statistics expert
+### Perspective 12: advanced-statistics expert
 
 **P12-1 (the everpresent fluctuation spectrum vs a schedule; the correct statistical object).
 SURVIVES.** The everpresent Lambda is a STOCHASTIC variable, Lambda(t) ~ +/- 1/sqrt(N(t)) with a
@@ -299,7 +299,7 @@ measured records delivered preferentially where observers are, total fixed, loca
 2.5e6 clears G1b with 4e12 headroom; predicts a late-time DE-clustering / ISW signature at
 perturbation level -- the distribution leg's best observable. Status: SURVIVES.
 
-### Persona 13: operator algebraist
+### Perspective 13: operator algebraist
 
 **P13-1 (C-operator positive subspace = the admissible record space; substrate-as-H_C+).
 SURVIVES, TOP-TIER; the convergence object.** Substrate object: the measured records ARE the
@@ -328,7 +328,7 @@ schedule (blocked on the source-action normalization, named). Status: SURVIVES; 
 sign-correct, its missing cosmological half is the named price (as in W140 A13-2, but here the
 "energy to continue" reading is the reframe's native home for B^dag B).
 
-### Persona 14: index / K-theory rigorist
+### Perspective 14: index / K-theory rigorist
 
 **P14-1 (eta-invariant flow at the W103 boundary). SURVIVES, mid-rank.** Promotion = flow of the
 boundary spectral asymmetry, q(sigma) = epsilon_0 d/dt[eta_APS(P_sigma D P_sigma)] with the W103
@@ -412,7 +412,7 @@ The three clarifications interlock quantitatively:
   the full substrate. HONESTLY: phi is one free number, so the exact match is a fit, not a
   prediction; the predictive content is whether the (9,5)/gimmel DeWitt-fiber measure (P2-1)
   DERIVES phi = 1/(3 Omega_L)^2. That derivation is the strongest-possible novelty result in the
-  reframe and is NOT done here -- it is the named target (persona 2's test). phi ~ 1/4 is O(1),
+  reframe and is NOT done here -- it is the named target (perspective 2's test). phi ~ 1/4 is O(1),
   not a fine-tuning.
 
 ### 2.5 The C-operator-as-substrate verdict (the brief's convergence question)
@@ -578,8 +578,8 @@ derivation of phi (P2-1) and the signed-fluctuation prediction (2.5, part 3).
 controls + W135/W138 anchors first, then the everpresent amplitude, the G5 coincidence, the
 14-dim catastrophe, and the measured-density target).
 
-*Filed 2026-07-14. FAMILY TEAM 2 (THEORETICAL PHYSICS), 14 personas inline in one session, no
-sub-agents; three mid-wave clarifications from Joe applied (Y14 substrate, Y14->X4 shadow,
+*Filed 2026-07-14. FAMILY TEAM 2 (THEORETICAL PHYSICS), 14 perspectives inline in one session, no
+independent reviewers; three mid-wave clarifications from Joe applied (Y14 substrate, Y14->X4 shadow,
 measurement-gated projection). Reproducible:
 `python -u tests/W146_everpresent_lambda_substrate_checks.py` (23/23, exit 0). Exploration grade;
 no canon movement.*

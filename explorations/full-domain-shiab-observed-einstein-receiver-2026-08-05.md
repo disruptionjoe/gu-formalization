@@ -15,9 +15,7 @@ free_object_delta: 0
 residue_touched:
   - "LT-GR1:EVIDENCE_ONLY_NO_GRADE_MOVEMENT"
   - "LT-GR1b:T4"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # The selected Shiab's Riemann-response factor route cannot carry the restriction-first Einstein target

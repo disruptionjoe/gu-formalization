@@ -7,7 +7,7 @@
 > `tests/generation-sector/`, and the WHERE-GU-STANDS capstone). What remains here is the genuine,
 > still-open construction frontier: a **canonical external membrane** (the source action S_IG) that pins
 > the under-determined generation count a-priori, without import. Everything in this repo below is
-> forward-looking construction scaffolding (the cryptoeconomic membrane lens, the persona vote, the loss
+> forward-looking construction scaffolding (the cryptoeconomic membrane lens, the perspective vote, the loss
 > channels), not audited results. See `DERIVATION-PROGRESS.md` for the full CONSTRUCT-01..07 record.
 
 > **STATUS (2026-06-28): this sandbox is now the test bench for falsification criterion 1 of the
@@ -43,7 +43,7 @@ This is not a result and not a replacement for `SPEC.md`. It is the current best
 global, adversarial, and testable instead of repeating local selector dead-ends.
 
 For a divergent idea stress test, see
-[`PERSONA-LENS-VOTE-2026-06-27.md`](PERSONA-LENS-VOTE-2026-06-27.md): 25 independent lenses rank their top
+[`PERSPECTIVE-LENS-VOTE-2026-06-27.md`](PERSPECTIVE-LENS-VOTE-2026-06-27.md): 25 independent lenses rank their top
 three workstreams and vote. The current consensus portfolio is GU-native minimax loss channels, a boundary
 finality carrier, and an anti-import adversarial oracle.
 

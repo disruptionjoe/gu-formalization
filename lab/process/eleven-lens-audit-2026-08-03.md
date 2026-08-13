@@ -4,8 +4,6 @@ status: process
 doc_type: audit-report
 created: 2026-08-03
 updated: 2026-08-03
-claim_status_change: none
-canon_change: none
 method: "11 read-only specialist lenses (rep theory, index theory, homotopy/bordism, statistical cosmology, certificate engineering, Lean fidelity, claim-graph consistency, literature scout, numerical robustness, portfolio economics, hostile external referee), Joe-directed 2026-08-02/03. Every load-bearing finding below was independently re-verified by the orchestrator (quote-trail, re-run, or independent recomputation) before inclusion; findings that failed verification are listed in the Discards section. Lens-verified-only items are marked [lens]."
 ---
 
@@ -164,7 +162,7 @@ inside the published deposit; RB7 doc says 29 controls, probe prints 30; the
 "RK4" in H44 is globally 2nd-order (np.interp midpoints); H46's "1-dof σ" on a
 non-nested point comparison; DR1/DR2 mixing in the theta-field canon file;
 `docs/WHERE-GU-STANDS` recommends construction move to a separate repo while
-Lane 1 runs it in-repo, with no supersession banner.
+truth-status research runs it in-repo, with no supersession banner.
 
 ## Discards and corrections applied during verification
 

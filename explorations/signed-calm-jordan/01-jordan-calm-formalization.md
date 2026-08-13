@@ -10,7 +10,7 @@ updated_at: "2026-05-31"
 **Card:** WRK-396 (GU Signed-CALM / Jordan Decomposition / Metric Cointegration Exploration)
 **Status.** Local-only draft. Generated 2026-05-31 in `work/drafts/wrk-396-signed-calm-jordan-exploration/`.
 **Hard rules.** Zero writes to `Github Repos/`. Zero public push. Zero canon writes. Zero work.json edits. `[speculation]` tags throughout for constructed-here content.
-**Predecessor inputs.** WRK-387 `extension-formalization.md` §1-5 (ε-local CALM extension definition); WRK-387 `falsification-result.md` (FAILS verdict + counterexample); WRK-394 21-persona §19 Statistics persona (Jordan/Hahn reframe); 2026-05-31 six-persona meta-layer dialectic §4 (signed-measure / PN-counter).
+**Predecessor inputs.** WRK-387 `extension-formalization.md` §1-5 (ε-local CALM extension definition); WRK-387 `falsification-result.md` (FAILS verdict + counterexample); WRK-394 21-perspective §19 Statistics perspective (Jordan/Hahn reframe); 2026-05-31 six-perspective meta-layer dialectic §4 (signed-measure / PN-counter).
 
 This document states the Jordan-decomposed signed-CALM framework precisely, then re-tests Validator V2's disjoint-state counterexample against it. The verdict is a precondition for the GW-bridge test in `03-bridge-to-gw-tests.md`.
 
@@ -35,7 +35,7 @@ This is V2's structurally important addition to WRK-387's instanton/anti-instant
 
 ## 2. Jordan-decomposed signed-CALM: precise statement
 
-`[speculation]` — the framework below is constructed here from the union of the WRK-394 Statistics-persona recommendation, the six-persona dialectic §4 synthesis, and the standard PN-counter CRDT primitive (Shapiro et al. 2011) lifted to the bounded-variation-aggregate setting. It is not in the published CALM literature.
+`[speculation]` — the framework below is constructed here from the union of the WRK-394 Statistics-perspective recommendation, the six-perspective dialectic §4 synthesis, and the standard PN-counter CRDT primitive (Shapiro et al. 2011) lifted to the bounded-variation-aggregate setting. It is not in the published CALM literature.
 
 **Setup.** Let `G = (V, E)` be a vertex-transitive communication graph with graph metric `d`. Let `Q : 2^Inputs → ℝ` be a signed real-valued aggregate query over a distributed input multiset (one input tuple per site, with values in a signed real range).
 

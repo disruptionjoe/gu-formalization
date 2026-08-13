@@ -3,10 +3,9 @@ title: "K77 Wave 2: the missing Dirac--de Rham operator and super-IG requirement
 date: 2026-08-04
 status: construction
 verdict: PARTIAL_DIRAC_DERHAM_SYMBOL_BUILT__SOURCE_SELECTED_ACTION_AND_DOMAIN_OPEN
-run: RUN-20260804-180800-gu-formalization-k77-wave2-superig-rebase
+run: historical-investigation
 registry: lab/process/k77-wave2-dirac-derham-superig-rebase.json
 probe: tests/channel-swings/k77_wave2_dirac_derham_superig_rebase_probe.py
-claim_status_change: none
 canon_verdict_change: none
 ---
 

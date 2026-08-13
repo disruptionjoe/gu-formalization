@@ -50,14 +50,14 @@ def read(relative: str) -> str:
 
 
 cell_audit = read(
-    "explorations/hourly-cycles/"
+    "explorations/research-cycles/"
     "hourly-20260625-0711-cycle2-rs-equation-1010-cell-typing-gate.md"
 )
 s9 = read("lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md")
 portal = read("lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md")
 toe = read("lab/sources/transcripts/toe-weinstein-gu-40-years.md")
 rendered = read(
-    "explorations/hourly-cycles/"
+    "explorations/research-cycles/"
     "hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
 )
 predecessor = read(

@@ -15,9 +15,7 @@ inputs:
   - explorations/construction-space-gr-r0-lemma-c9-c3-2026-07-19.md
   - lab/process/source-object-interface-contract.md
 test: tests/channel-swings/ch_gr_vev_stress_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Channel swing CH-GR: the distortion VEV computed
@@ -323,7 +321,7 @@ branch list; C3's grade is untouched.
   K2 failing with no covariant completion would close C10-GR and return
   the GR track to C9-only, which is the honest falsification-shaped path.
 
-## Persona pass (inline, three voices, condensed)
+## Perspective pass (inline, three voices, condensed)
 
 - *Differential geometer:* the honest typing is the vertical-Christoffel
   slot, and the t1/t2 split is the real content — the identity is a

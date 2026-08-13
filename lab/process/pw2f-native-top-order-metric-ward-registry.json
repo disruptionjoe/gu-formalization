@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "status": "PW2F_HOSTILE_REVIEW_CORRECTION_LC_ALTERNATION_SUBROUTE_PASS_LIVE_DELTAK_SUMMAND_COMPLETE_TOP_ORDER_OPEN",
   "date": "2026-08-02",
-  "run_id": "RUN-20260802-223738-gu-formalization-pw2f-native-top-order-metric-ward",
+  "run_id": "historical-investigation",
   "question": "Does the complete active-native first-action metric composition have a nonzero base-fourth coefficient, and what diffeomorphism-Ward statement is currently earned?",
   "result": {
     "base_fourth_metric_coefficient": "OPEN_AFTER_HOSTILE_REVIEW_FOUND_OMITTED_LIVE_DELTAK_SUMMAND",

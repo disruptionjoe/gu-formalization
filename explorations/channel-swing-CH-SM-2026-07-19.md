@@ -18,9 +18,7 @@ inputs:
   - "papers/drafts/Transcript into the impossible.md (Pati-Salam / trace-reversal passage, [00:43:04]-[00:47:18])"
   - "lab/process/recovery-no-go-defense-register.json (RECOVERY-NOGO-SM-SELECTOR)"
 test: tests/channel-swings/ch_sm_chain_sweep.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Channel swing CH-SM: the chain sweep, VEV conditioning, and the parameter card
@@ -283,7 +281,7 @@ force a fifth payload item and this card's ledger gains D-SM-4.
   RG-level, outside R0 — an R1 treatment is the next rung, not a payload
   change.
 
-## 7. Inline persona passes (three, inline in this worker per policy)
+## 7. Inline perspective passes (three, inline in this worker per policy)
 
 - **GUT model-builder:** the lattice and its funnel through the unique
   rank-5 penultimate stage match the standard SO(10) chain tables

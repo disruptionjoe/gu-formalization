@@ -3,7 +3,6 @@ title: "Recovery no-go SM selector Swing 3 adjudication"
 status: exploration
 doc_type: recovery_no_go_defense
 created: 2026-07-17
-run_id: GUH-20260717T075457Z-sm-swing3
 target: RECOVERY-NOGO-SM-SELECTOR
 test: tests/recovery-contract/sm_nogo_swing3_adjudication_gate.py
 register: lab/process/recovery-no-go-defense-register.json
@@ -90,7 +89,7 @@ unfrozen adapter remains an invalid escape.
 
 ## Next work
 
-Within Lane 1, the registered GR, cosmology, and SM recovery no-go defenses now
+Within truth-status research, the registered GR, cosmology, and SM recovery no-go defenses now
 have bounded negative endpoints, and the conditional physical-sector interleave
 has already returned `CONDITIONAL_FAIL`. The next eligible `RECOVERY-CERTIFICATION`
 move should be a portfolio rerank toward a genuinely new source-owned recovery

@@ -18,15 +18,13 @@ inputs:
   - tests/channel-swings/decision_tree_Q1a_hostile_verify_true_end_probe.py
 probe: tests/channel-swings/lp_lc_deficiency_decisive_probe.py (foreground, EXIT 0, double-run byte-identical, all controls pass)
 outcome: LC-SELECTOR
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 ---
 
 # The decisive LP/LC deficiency-index computation
 
-> **CORRECTION (2026-07-22 — operator/domain/w1 bridge audit).** This run did not construct the
+> **CORRECTION (2026-07-22 — operator/domain/w1 bridge audit).** This investigation did not construct the
 > source-owned noncompact boundary operator or its minimal/maximal domains, Green form, trace space, and
 > deck action.  Its reduced potential and WKB/Lyapunov count therefore do not prove that the crossed GU
 > expression has unequal deficiency indices or no `J`-self-adjoint realization.  More strongly, the exact

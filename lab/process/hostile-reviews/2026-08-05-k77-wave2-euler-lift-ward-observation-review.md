@@ -3,12 +3,9 @@ title: "Hostile review: K77 Euler-lift Ward and observation receiver theorem"
 status: complete
 doc_type: hostile_review
 created: 2026-08-05
-lane: "1"
 reviewed_artifact: explorations/k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md
 result: PASS_WITH_MATERIAL_SCOPE_REPAIRS__PARTIAL_NAMED_GATE_MOVEMENT
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 Euler-lift Ward and observation receiver theorem

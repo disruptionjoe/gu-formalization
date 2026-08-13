@@ -2,8 +2,6 @@
 artifact_type: exploration
 created: 2026-08-05
 status: SOURCE_CONFIRMED__ABSTRACT_FIELD_VALUE_REDUCTION_EXACT__NATIVE_ACTION_REDUCTION_OPEN
-lane: "1"
-functional_channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR2, LT-GR2a, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR2e]
 script: tests/channel-swings/dynamic_cosmological_sector_constraint_rank_probe.sage
 ---

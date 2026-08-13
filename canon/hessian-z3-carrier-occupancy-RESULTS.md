@@ -9,7 +9,7 @@ depends_on:
   - canon/boundary-eta-of-mu-RESULTS.md
   - canon/forcing-slot-toy-rs-RESULTS.md
   - canon/two-primary-lemma.md
-  - canon/double-major-persona-sweep-RESULTS.md
+  - canon/double-major-perspective-sweep-RESULTS.md
   - canon/single-decider-integer-index-RESULTS.md
 ---
 

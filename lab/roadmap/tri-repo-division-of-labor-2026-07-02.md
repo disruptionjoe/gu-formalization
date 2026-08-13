@@ -4,7 +4,6 @@ status: process
 doc_type: coordination
 created: 2026-07-02
 approved_by: joe
-claim_status_change: none
 ---
 
 # Tri-Repo Division of Labor — GU Formalization's Leg

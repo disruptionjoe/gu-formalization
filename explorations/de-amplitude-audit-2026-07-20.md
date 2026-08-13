@@ -3,10 +3,10 @@ title: "DE amplitude audit: the theta_star re-solve with the full high-z tail, t
 status: active_research
 doc_type: exploration
 created: 2026-07-20
-directed_by: "Joe direct chat, 2026-07-20 (big-swing orchestration: Lane 2 DE amplitude audit)"
+directed_by: "Joe direct chat, 2026-07-20 (big-swing orchestration: prediction research DE amplitude audit)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
 inputs:
-  - lab/process/research-portfolio.json (DE-AMP-DIAGNOSTIC spec, authoritative)
+  - lab/process/RESEARCH-AGENDA.json (DE-AMP-DIAGNOSTIC spec, authoritative)
   - explorations/wave46/H46C-theta-star-gu-cmb-calibration-2026-07-13.md
   - explorations/wave45/H46B-referee-grade-desi-verification-2026-07-13.md
   - explorations/de-amp-diagnostic-closure-audit-2026-07-15.md
@@ -18,14 +18,12 @@ inputs:
   - canon/theta-field-flrw-dark-energy-eos.md
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 runnable: tests/channel-swings/de_amplitude_audit_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # DE amplitude audit (2026-07-20)
 
-Lane 2's one READY item, executed per the repository's own portfolio spec.
+prediction research's one READY item, executed per the repository's own portfolio spec.
 Receipt: `tests/channel-swings/de_amplitude_audit_probe.py`, deterministic,
 numpy + stdlib physics (repo modules imported only to verify seed-data
 identity), run 2026-07-20, **exit 0**, headline:
@@ -58,7 +56,7 @@ Relation to the 2026-07-15 closure audit
 (`explorations/de-amp-diagnostic-closure-audit-2026-07-15.md`): that audit
 recommended CLOSED for the bounded H46B-locality question, while the steward
 kept the portfolio item READY with the full-tail re-solve as the remaining
-swing. This run executes exactly that remaining swing, adds the M^2-band
+swing. This investigation executes exactly that remaining swing, adds the M^2-band
 calibration scan H46C named as its own cheap unexecuted hardening step, and
 completes the one full normalization-and-likelihood audit after which the
 spec's `switch_condition` says the item closes.
@@ -276,16 +274,16 @@ physics; repo imports only for seed verification), deterministic, ~90 s,
 exit-code-gated, and every prior-value comparison is a tolerance-tagged
 assertion rather than prose. The item is now mechanically closable: the
 spec's switch_condition ("close after one complete normalization and
-likelihood audit") is satisfied by this run plus receipt. Recommendation to
-the daily steward (Lane A, not executed here): reconcile DE-AMP-DIAGNOSTIC
+likelihood audit") is satisfied by this investigation plus receipt. Recommendation to
+the daily steward (research maintenance, not executed here): reconcile DE-AMP-DIAGNOSTIC
 to its closed/monitor disposition, with reopen triggers = new official BAO
 release (monitor), SNe integration, or a source-side derivation of f0.
 
 ## 8. Consistency with existing gates and explorations
 
 - `process_gates/de_amp_diagnostic_closure_audit.py`: untouched and
-  unbroken (it audits the 2026-07-15 evidence chain; this run adds new files
-  only). No contradiction: this run agrees the bounded diagnostic is
+  unbroken (it audits the 2026-07-15 evidence chain; this investigation adds new files
+  only). No contradiction: this investigation agrees the bounded diagnostic is
   complete and executes the one remaining spec swing.
 - H46C / W129 / DE-05 / DE-06: independently REPRODUCED, not contradicted
   (table in Section 2; band numbers in Section 4).
@@ -298,7 +296,7 @@ release (monitor), SNe integration, or a source-side derivation of f0.
   historical "w_a > 0" language was already corrected by DARK-ENERGY-03 and
   is not relied on here.
 - PP1 (`explorations/blockbuster-p1-de-sign-covariance-2026-07-19.md`):
-  consistent; this run supplies its first live read (untriggered,
+  consistent; this investigation supplies its first live read (untriggered,
   orientation-silent) without touching the packet.
 - The one deliberate difference from prior work: bb-p1's cross-check values
   (C = 1.438, d ln rho = 4.307) were computed on a pure-LCDM background;
@@ -326,6 +324,6 @@ release (monitor), SNe integration, or a source-side derivation of f0.
 New files only (`explorations/de-amplitude-audit-2026-07-20.md`,
 `tests/channel-swings/de_amplitude_audit_probe.py`); no existing file
 edited; nothing committed by this run; nothing external. The steward
-closure recommendation in Section 7 is a proposal for Lane A, not an
+closure recommendation in Section 7 is a proposal for research maintenance, not an
 executed portfolio change. Did this create a packageable prediction? No —
 adjudicated against the standing rule in Section 6.

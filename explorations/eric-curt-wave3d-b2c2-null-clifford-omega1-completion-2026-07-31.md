@@ -3,14 +3,10 @@ title: "Eric/Curt Wave 3D-B2C2 parallel: null-Clifford factorization and full-Om
 status: active_research
 doc_type: construction_result
 created: 2026-07-31
-lane: "1"
 work_item: ECW3D-B2C2-PARALLEL-NULL-CLIFFORD-FULL-OMEGA1-COMPLETION
 registry: lab/process/eric-curt-wave3d-b2c2-null-clifford-omega1-completion.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c2_null_clifford_omega1_completion_probe.py
 grade: "EXACT PRINCIPAL-SYMBOL COMPLETION on the source-stated full one-form spinor carrier. The isolated ker-Gamma W131 Jordan sector is exactly the projected-twistor image of null Dirac spinors. Restoring the forced gamma-trace spinor companion reconstructs 1 tensor c(k), removes the rank-128 Jordan remainder, admits the identity positive right-H symmetrizer on the admitted Lorentz section, and retains the rank-512 observed one-form carrier. This is not yet the rolled source action, an off-shell BV complex, an analytic domain, or a generation/index result."
-claim_status_change: false
-canon_change: false
-public_posture_change: false
 ---
 
 # Wave 3D-B2C2 parallel — null-Clifford factorization and full-`Omega1` completion

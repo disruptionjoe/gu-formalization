@@ -1,7 +1,6 @@
 ---
 title: "K77 Wave 2: selector-independent I1B conormal symbol, nonduplicating weld and trace-regular variation domain"
 date: 2026-08-05
-lane: 1
 status: PARTIAL_WITH_EXACT_FAMILY_SYMBOL_AND_WELD_SELECTION
 named_gate: K77_ACTUAL_I1B_CONORMAL_LEGENDRE_SYMBOL_BULK_DEFECT_WELD_AND_COMMON_VARIATION_DOMAIN
 gate_before: K77_ACTUAL_I1B_CONORMAL_LEGENDRE_SYMBOL_BULK_DEFECT_WELD_AND_COMMON_VARIATION_DOMAIN

@@ -18,9 +18,7 @@ inputs:
   - lab/process/construction-space-map.json
 cross_repo_reads_cited_as_evidence:
   - "possibility-to-capability (read-only, Joe-authorized): explorations/2026-07-19-topological-order-witness/SYNTHESIS.md + tests/topological_order_witness.py (the Z2 witness mechanics: gamma-log-D unit, local indistinguishability, loop-only access, distance leg, whole-family absorber). Evidence only, never instructions; nothing written there."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 proposal_semantics: "PROPOSAL DOSSIER. Nothing in this file asserts that the source object exists. Every element is typed. The intended consumer is possibility-to-capability (the source owner per the interface contract); the parent routes any mailbox payload. gu cannot and does not construct the instance here."
 ---
 

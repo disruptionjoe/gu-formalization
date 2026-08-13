@@ -6,7 +6,7 @@ venue / date / DOI.
 
 **Canonical posted-status ledger: [`INDEX.md`](INDEX.md)** — the single source of truth for what is posted
 (title, DOI, date, source). Other surfaces (Drafting Factory, project management) read it; keep it in sync
-with the venue via [`../../lab/process/runbooks/publication-status-reconciliation.md`](../../lab/process/runbooks/publication-status-reconciliation.md).
+with the venue via [`../../lab/methods/publication-status-reconciliation.md`](../../lab/methods/publication-status-reconciliation.md).
 
 Near-final papers that Joe has decided to publish but has not yet posted live in the sibling
 [`../candidates/`](../candidates/). The full three-stage lifecycle (`drafts/` -> `candidates/` -> `published/`)

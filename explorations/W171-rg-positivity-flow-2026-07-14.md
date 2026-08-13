@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W171 / TEAM RG-POSITIVITY; 5 personas inline; one deterministic test, 17/17, exit 0)
+status: exploration (W171 / TEAM RG-POSITIVITY; 5 perspectives inline; one deterministic test, 17/17, exit 0)
 created: 2026-07-14
 hypothesis: H59
 branch: "W171 -- RG / asymptotic-safety positivity: does the RG structure DECIDE whether the Krein grading is OPERATIVE ([P_ghost,S]=0 at loop level = the interacting C-operator exists), or leave it open? Concretely: is finite-scale RG-stability of the grading = the C-operator existing at every physical scale = OPERATIVE?"
@@ -38,7 +38,7 @@ asymptotically free with a negative fixed-ratio `f_0^2/f_2^2 < 0`, "the single p
 positivity touch"; W132/W53 established that the spin-2 grading is RG-stable at all finite scales,
 touching the exceptional/Jordan locus only at the free UV fixed point. The mandated question:
 **does finite-scale RG-stability of the grading = the C-operator existing at every physical scale =
-OPERATIVE?** Five personas ran inline; one deterministic test `tests/W171_rg_positivity_flow.py`
+OPERATIVE?** Five perspectives ran inline; one deterministic test `tests/W171_rg_positivity_flow.py`
 (17/17, exit 0) carries every load-bearing number, with positive controls reproducing the W119 AF
 fixed points and W53 grading RG-stability and 4 negative controls.
 
@@ -51,7 +51,7 @@ fixed points and W53 grading RG-stability and 4 negative controls.
 | **Ghost mass** | agravity `m2^2 = f_2^2 M_Pl^2/2` (rides the coupling, W53) | used for the finite-scale flow readout (the standard convention; fixed-scale GU-native branch = W119's STAYS-CLEAR alternative, cited) |
 | **Positivity object** | the interacting C-metric `eta_+ = eta C > 0` (Mostafazadeh) | the only survivor per W132; its finite-scale existence is the object computed |
 
-## 1. Persona 1 -- FRG / asymptotic-safety specialist: reuse the AF machinery, restate what it proves
+## 1. Perspective 1 -- FRG / asymptotic-safety specialist: reuse the AF machinery, restate what it proves
 
 The imported `W45.BetaSystem` gives `b_2 = 133/10 + c_RS = 14.71667 > 0`, so
 `beta_{f_2^2} = -kappa b_2 f_2^4 < 0`: `f_2^2` is asymptotically free, `1/f_2^2(t) = 1/f_2^2(0) + kappa b_2 t`,
@@ -67,7 +67,7 @@ for all finite `t`, forced by threshold positivity plus `b_2 > 0`, touching the 
 only at the free UV Gaussian fixed point. The specialist's honest claim is therefore narrow and exact:
 **the grading is WELL-DEFINED (WD) at every finite scale**. That is the whole flow-side content.
 
-## 2. Persona 2 -- Krein / PT specialist: (WD) is NOT (OP), and the gap is exact
+## 2. Perspective 2 -- Krein / PT specialist: (WD) is NOT (OP), and the gap is exact
 
 The C-operator condition is `[P_ghost, S] = 0`. W132 gives the exact operator identity: for any
 Krein-pseudo-unitary `S` (`S^dag eta S = eta`), with `A = P+ S P+` and `B = P- S P+`,
@@ -88,7 +88,7 @@ space with `eta = diag(+,+,-,-)` well-defined (spectrum `{+-1}`, off the locus, 
 and physical row-sum `1.0144 > 1` (C3b). Well-defined grading, not operative -- **at the same scale**.
 This is not a truncation artifact; it is two lines of algebra plus a computed nonzero `B`.
 
-## 3. Persona 3 -- higher-derivative-gravity RG specialist: the C-positivity flow, read on the C-operator
+## 3. Perspective 3 -- higher-derivative-gravity RG specialist: the C-positivity flow, read on the C-operator
 
 The one positivity sense W132 leaves alive is **C-metric unitarity on the full Krein space**:
 `S^dag eta_+ S = eta_+` with `eta_+ = eta C > 0`, `C^2 = 1`, `[C, S] = 0`. The interacting C-operator is a
@@ -116,7 +116,7 @@ BOUNDARY, now read on the C-operator instead of the ghost mass. Yet at **every f
 stays strictly positive (C5b): the C-sense grading is operative all the way up the interacting flow; it
 is only the *identification of C with the free grading* that is a UV-endpoint (free-theory) event.
 
-## 4. Persona 4 -- symbolic engineer: the reproducible system and its controls
+## 4. Perspective 4 -- symbolic engineer: the reproducible system and its controls
 
 `tests/W171_rg_positivity_flow.py`, 17/17, exit 0 (numpy + imports W45). Positive controls: PC1 AF
 (`b_2 = 14.717 > 0`); PC2 W53 grading RG-stability (RK4 vs analytic `1/f2` law, `rel_err 1.5e-15`);
@@ -129,7 +129,7 @@ free-FP touch); **NC3** strong coupling (`eta_+` stays positive but `||C - eta||
 -- the toy has no locality obstruction); **NC4** Jordan-locus limit (`cond(eta_+) = 1e9` as
 `lambda_min -> 0`, E repair-4c blow-up). Every load-bearing number has two routes or a matched control.
 
-## 5. Persona 5 -- adversarial skeptic: steelman UV-MARGINAL-KILLS-IT
+## 5. Perspective 5 -- adversarial skeptic: steelman UV-MARGINAL-KILLS-IT
 
 **The steelman, at strength.** The free-UV-FP touch is exactly where the ghost mass `-> 0` (W53 pinch)
 AND where the free grading would become operative. Everywhere *below* it the free grading is provably NOT

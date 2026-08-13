@@ -4,9 +4,7 @@ doc_type: adversarial_verification
 status: "hostile verification of explorations/torsion-generation-arena-2026-07-20.md (commit b97b798); independent probe exit 0; verdict NOT-DRY (one material narrative revision, zero computational refutations)"
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (hostile verification: torsion arena)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 target: explorations/torsion-generation-arena-2026-07-20.md
 target_probe: tests/channel-swings/torsion_arena_probe.py
 probe: tests/channel-swings/verify_torsion_arena_probe.py

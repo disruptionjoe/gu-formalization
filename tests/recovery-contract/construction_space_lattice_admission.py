@@ -48,7 +48,7 @@ def main() -> None:
     check("P-77-REAL-INDEX resolved in round 11", "Real-index:" in round_11["results_digest"])
     check("PP1 frozen in round 12", "PP1 frozen" in round_12["prediction_shelf"])
     check("construction-space item remains active", work["CONSTRUCTION-SPACE-EXPLORATION"]["state"] == "ACTIVE")
-    check("Lane 2 packet item remains ready", work["PRED-CANDIDATE-PACKETS"]["state"] == "READY")
+    check("prediction research packet item remains ready", work["PRED-CANDIDATE-PACKETS"]["state"] == "READY")
     check("B5 remains source-blocked", work["B5-MIDDLE-DIFFERENTIAL"]["state"] == "BLOCKED_SOURCE_GAP")
     check("B5 remains hourly-ineligible", work["B5-MIDDLE-DIFFERENTIAL"]["hourly_eligible"] is False)
 

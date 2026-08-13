@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-05
 status: K77_RANK10_GRAVITATIONAL_RECEIVER_AND_SAME_STRATUM_ORTHOGONAL_WELD_EXACT__GLOBAL_FULL_EPSILON_REDUCTION_BULK_DEFECT_NORMALIZATION_NONLINEAR_BV_AND_DOMAIN_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 ledger_rows: [LT-GR1b, LT-GR2c, LT-GR2d, LT-SM8]
 fork_assumed: SIGNATURE_AMBIENT_K77__FULL_CLIFFORD_SOLDERING_REDUCTION_CONDITIONAL
 search_space_dim: "rank-ten canonical composite after full epsilon_IG is supplied; related Lorentz-equivariant Sym2 bilinear receiver grammar has at least five independent maps, so equivariance alone is not uniqueness"

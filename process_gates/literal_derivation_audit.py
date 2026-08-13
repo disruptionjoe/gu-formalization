@@ -42,7 +42,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SKIP_DIR_NAMES = {"__pycache__", ".cache", ".pytest_cache", ".git", "hourly-cycles"}
+SKIP_DIR_NAMES = {"__pycache__", ".cache", ".pytest_cache", ".git", "research-cycles"}
 
 
 def tracked_tests_files() -> list[str]:

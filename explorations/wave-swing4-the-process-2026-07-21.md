@@ -1,9 +1,8 @@
 ---
-title: "WHAT-IS-THIS wave — SWING 4 (THE PROCESS): what IS the record-issuance dynamics? A 4-member inline persona team (dynamical-systems / temporal-issuance-H¹ / consensus / process-philosophy). SYNTHESIS: the process is the SUSPENSION (mapping torus / skew-product) of the Z/2 monodromy α over the monotone α-even issuance base — PARALLEL TRANSPORT of a flat Z/2 connection, PUSHED (external boundary write) at the genesis seam and PULLED (internally verify-relative, unread-absolute token) thereafter; the loop is a CONDUIT for σ, never a source. Independent consequences (EXACT): (i) finality-invariant balance dim H⁰(finality)=dim H¹(finality) forced by χ(S¹)=0 — agreement-multiplicity equals obstruction-multiplicity; (ii) the obstruction is CONNECTIVITY of the orientation double cover — H¹≠0 ⇔ the two orientation-sheets are ONE connected (non-orientable) strand with no global section, H¹=0 ⇔ they split into two disjoint globally-consistent worlds and σ picks which; (iii) the σ-decoration beats at HALF the issuance rate (covering degree 2). The ~8% seam connection (flip-fraction = null-stratum measure) is a LABELED POSIT, not derived."
+title: "WHAT-IS-THIS wave — SWING 4 (THE PROCESS): what IS the record-issuance dynamics? A 4-member inline perspective team (dynamical-systems / temporal-issuance-H¹ / consensus / process-philosophy). SYNTHESIS: the process is the SUSPENSION (mapping torus / skew-product) of the Z/2 monodromy α over the monotone α-even issuance base — PARALLEL TRANSPORT of a flat Z/2 connection, PUSHED (external boundary write) at the genesis seam and PULLED (internally verify-relative, unread-absolute token) thereafter; the loop is a CONDUIT for σ, never a source. Independent consequences (EXACT): (i) finality-invariant balance dim H⁰(finality)=dim H¹(finality) forced by χ(S¹)=0 — agreement-multiplicity equals obstruction-multiplicity; (ii) the obstruction is CONNECTIVITY of the orientation double cover — H¹≠0 ⇔ the two orientation-sheets are ONE connected (non-orientable) strand with no global section, H¹=0 ⇔ they split into two disjoint globally-consistent worlds and σ picks which; (iii) the σ-decoration beats at HALF the issuance rate (covering degree 2). The ~8% seam connection (flip-fraction = null-stratum measure) is a LABELED POSIT, not derived."
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-mode: WHAT-IS-THIS (characterization wave; inline persona team; ANALOGY vs EXACT tagged; posits labeled)
 wave: explorations/prereg-what-is-this-wave-2026-07-21.md
 swing: 4 (THE PROCESS)
 inputs:
@@ -13,15 +12,13 @@ inputs:
   - explorations/shard-cycle-prong2-dynamics-gorard-2026-07-21.md
   - "READ-ONLY temporal-issuance: DRIVING-HYPOTHESIS-OBSERVER-ISSUANCE.md, explorations/E002-issuance-to-finality-bridge-toy-model.md, absorbers/{process-philosophy,time-as-finality}.md, formal/lean/OnlineIssuance/BoundaryInvolution.lean"
 foreground_probe: "scratchpad swing4_check.py (suspension/finality-invariant check, exit 0, deterministic, no RNG/network — NOT left in repo; durable receipt for the fixed-point/section counts is tests/channel-swings/construction_prong2_dynamical_probe.py exit 0)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
 # Swing 4 — THE PROCESS: what IS the record-issuance dynamics?
 
-**Method (binding).** This is a CHARACTERIZATION swing, not a derivation. Four personas
+**Method (binding).** This is a CHARACTERIZATION swing, not a derivation. Four perspectives
 reason INLINE in this one worker, each answering "what IS the process, from my lens?" with
 a MODE tag (ANALOGY = a rhyme/illustration; EXACT = a real structural identity), then a
 synthesis. No claim/canon/verdict moves. Everything banked is consumed, not re-litigated:

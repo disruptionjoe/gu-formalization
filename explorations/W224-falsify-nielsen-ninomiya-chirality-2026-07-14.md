@@ -32,10 +32,10 @@ cross_repo:
 # W224 -- Falsification probe: the Nielsen-Ninomiya chirality no-go against GU
 
 Test / falsification certificate: `tests/W224_falsify_nielsen_ninomiya_chirality.py` (exit 0,
-positive controls first). Five personas ran INLINE in one worker (lattice / Nielsen-Ninomiya
+positive controls first). Five perspectives ran INLINE in one worker (lattice / Nielsen-Ninomiya
 specialist; index-theory / overlap-Ginsparg-Wilson specialist; domain-wall / Y14-projection
 specialist; symmetric-mass-generation / Eichten-Preskill / 't-Hooft-anomaly specialist; ruthless
-skeptic); no sub-agents. Zero em dashes. Builds on W222, W218, W216, W177.
+skeptic); no independent reviewers. Zero em dashes. Builds on W222, W218, W216, W177.
 
 ## 0. The leg and why it is the sharpest remaining internal falsifier
 
@@ -72,7 +72,7 @@ and works (its existence and the good-branch real/bounded spectrum, W216; the se
 Godel-independent, W211). "The condensate is unbuilt / dynamically ungated" is a GAP, GRANTED, NOT a
 falsification. Only a PROVABLE obstruction that survives EVEN granting the condensate counts.
 
-## 1. Persona 1 -- lattice / Nielsen-Ninomiya specialist: NN FIRES, on the naive operator and inside GU
+## 1. Perspective 1 -- lattice / Nielsen-Ninomiya specialist: NN FIRES, on the naive operator and inside GU
 
 NN is not evaded by fiat. First, positive control that it has power: the 1D naive lattice fermion
 `s(k) = sin(k)` has two zero modes (doublers) at `k = 0` and `k = pi` with OPPOSITE chirality
@@ -87,7 +87,7 @@ Krein form is purely cross-chirality `||K(+,+)|| = ||K(-,-)|| ~ 1e-14`). For any
 GU; it is a theorem on GU's own carrier (H2, swing, W218 all agree). So the question is strictly
 whether the CONDENSATE (a non-kinematic, interacting deformation) removes the mirror admissibly.
 
-## 2. Persona 2 -- overlap / Ginsparg-Wilson specialist: GU's operator is NOT the GW evasion
+## 2. Perspective 2 -- overlap / Ginsparg-Wilson specialist: GU's operator is NOT the GW evasion
 
 The cleanest NN evasion (Neuberger; Luscher) keeps a net index by realizing a MODIFIED chiral
 symmetry: the overlap operator satisfies the Ginsparg-Wilson relation `{D, gamma5} = a D gamma5 D`,
@@ -99,7 +99,7 @@ exact-anticommuting Dirac operator sits on the NN-DOUBLED side of the Ginsparg-W
 the overlap side. The GW/overlap route does NOT rescue GU; if anything it confirms the doubling.** GU
 does not chiralize by a modified chiral symmetry.
 
-## 3. Persona 3 -- domain-wall / Y14-projection specialist: the fiber is not a chiralizing domain wall
+## 3. Perspective 3 -- domain-wall / Y14-projection specialist: the fiber is not a chiralizing domain wall
 
 Kaplan's domain-wall evasion localizes a chiral zero mode where a mass profile crosses zero, exiling
 the mirror to a distant wall. Two candidate walls in GU:
@@ -115,12 +115,12 @@ the mirror to a distant wall. Two candidate walls in GU:
 - **The condensate interface.** The record condensate (W216) does supply a position-dependent mass in
   the conformal / record-count mode (the tachyon `m0^2 = -1/4` gapped to `+Delta*^2`). A domain wall in
   THAT profile is a genuine wall, but it is the condensate, not the geometry. So the domain-wall route
-  collapses into the SMG / condensate reading of Persona 4; it is not an independent geometric evasion.
+  collapses into the SMG / condensate reading of Perspective 4; it is not an independent geometric evasion.
 
 **Net: domain-wall-via-fiber is NOT supported (fiber index empty, by the repo's own canon);
 domain-wall-via-condensate is the SMG route, handled below.**
 
-## 4. Persona 4 -- SMG / Eichten-Preskill / 't-Hooft-anomaly specialist: the one operative evasion
+## 4. Perspective 4 -- SMG / Eichten-Preskill / 't-Hooft-anomaly specialist: the one operative evasion
 
 The remaining route is symmetric mass generation (SMG): gap the vectorlike MIRROR by strong dynamics
 while keeping the LIGHT sector chiral, without a bilinear Dirac mass (which would pair physical to
@@ -162,7 +162,7 @@ flip. So the probe is not toothless: it has a specific, physical way to falsify 
 by exactly one datum -- delivering the full `16`, not the `15`. The `nu_R` / SO(10) completion is
 load-bearing on the NN leg, not just the anomaly leg.
 
-## 5. Persona 5 -- ruthless skeptic: is this a real survival, and does the Krein / non-compact structure change NN's premises?
+## 5. Perspective 5 -- ruthless skeptic: is this a real survival, and does the Krein / non-compact structure change NN's premises?
 
 **Steelman the kill.** (a) The whole survival rides on granting the condensate, which is unbuilt --
 so nothing was shown. (b) SMG's mirror-gapping is only PROVEN as a necessary (anomaly) condition; the
@@ -252,8 +252,8 @@ no forbidden target inserted.
 **Artifacts:** this file + `tests/W224_falsify_nielsen_ninomiya_chirality.py` (exit 0; positive
 controls first).
 
-*Filed 2026-07-14. NON-NAIVE FALSIFICATION probe. Five personas inline in one worker (lattice /
+*Filed 2026-07-14. NON-NAIVE FALSIFICATION probe. Five perspectives inline in one worker (lattice /
 Nielsen-Ninomiya; overlap / Ginsparg-Wilson; domain-wall / Y14-projection; symmetric-mass-generation
-/ Eichten-Preskill / 't-Hooft-anomaly; ruthless skeptic); no sub-agents. Reproducible:
+/ Eichten-Preskill / 't-Hooft-anomaly; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W224_falsify_nielsen_ninomiya_chirality.py` (exit 0). Exploration grade; conditional
 register; RUTHLESS skeptic; no canon movement; bar(b)/H59 OPEN. Zero em dashes.*

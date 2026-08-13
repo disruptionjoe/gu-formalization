@@ -19,9 +19,7 @@ inputs:
   - tests/oq_rk1_cl95_explicit_rep.py
 runnable:
   - tests/channel-swings/h4_class_generalization_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # H4: class generalization (G-A3) + BV-grade co-flip (G-A2)

@@ -3,9 +3,7 @@ title: "Hostile review: K77 Wave-2 draft-9.16 primalizer and preboundary templat
 date: 2026-08-04
 status: complete
 verdict: "REPAIRED_PARTIAL__SOURCE_AND_TEMPLATES_PASS__ACTUAL_D916_K77_ASSEMBLY_OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 Wave-2 draft-9.16 packet

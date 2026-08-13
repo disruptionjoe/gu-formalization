@@ -4,9 +4,7 @@ doc_type: conditional_forcing_minimal_input
 status: exploration tier; ladder complete X0/X1/X1.5/X2 + minimality; probe exit 0
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (successor line: conditional forcing / minimal input)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 target: "Joe's question, verbatim intent: 'Is it FORCED, using the arena of Geometric Unity, if we knew what the input is? What IS that input, that single bit? Could we say forced, with a reasonably explainable input from outside the geometry?' Formalized: characterize the MINIMAL EXTERNAL INPUT X such that (GU frozen inventory) + X passes the reframe pass's two-gate admission test (G1 reach the commutant; G2 nondegenerate on the K_S-confined habitat) and pins the degree condition (deck co-flip admissibility; 3 not | c; k = 64c bookkeeping)."
 probe: tests/channel-swings/conditional_forcing_probe.py
 related:

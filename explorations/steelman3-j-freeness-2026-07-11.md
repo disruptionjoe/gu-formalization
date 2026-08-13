@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (STEELMAN 3 of the post-W98 rescue routes; first big swing, kill-or-learn; 5-persona inline team; literature read-only + deterministic test)
+status: exploration (STEELMAN 3 of the post-W98 rescue routes; first big swing, kill-or-learn; 5-perspective inline team; literature read-only + deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture critical path, post-W98) -- steelman 3: the break is the correct phenomenology of being an observer
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -116,9 +116,9 @@ geometric criterion, not by its audit outcome.
 
 ---
 
-## 2. Five-persona team (inline, sequential, single context)
+## 2. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- modular/operator specialist (danger point (a): Araki relative entropy)
+### Perspective 1 -- modular/operator specialist (danger point (a): Araki relative entropy)
 
 **The exact dependency.** Araki's relative entropy is
 `S(psi||phi) = -<xi_psi, log Delta_{phi|psi} xi_psi>`. The relative modular operator
@@ -144,7 +144,7 @@ information-theoretic **properties** -- positivity, and especially monotonicity 
 distinguishability calculus needs monotonicity, the admissible (eta-positive) sector must supply the
 positivity input. Plausible (the admissible sector IS positive-metric), unproven here.
 
-### Persona 2 -- scattering theorist (danger point (b): crossing and CPT)
+### Perspective 2 -- scattering theorist (danger point (b): crossing and CPT)
 
 **What the S-matrix construction needs.** Haag-Ruelle (and LSZ) build the S-matrix from **local** fields,
 the mass gap (`W97`: gap protected at every finite scale), asymptotic limits, and the spectrum condition.
@@ -187,7 +187,7 @@ Wightman-function analyticity (Jost) -- both function/flow-level; antiparticle (
 existence is DHR theory on the field algebra, one-sided. The Krein transfer of Guido-Longo is
 strong-argument only (Hilbert theorem as stated) -- part of C3's grade, flagged.
 
-### Persona 3 -- ADVERSARY (the two named pushes, answered)
+### Perspective 3 -- ADVERSARY (the two named pushes, answered)
 
 - *Push 1: "crossing symmetry and CPT are not optional -- any relativistic S-matrix needs them, and they
   are theorems ABOUT `J`."* **Half right, and the half matters.** Crossing is not optional -- it is IN
@@ -213,7 +213,7 @@ strong-argument only (Hilbert theorem as stated) -- part of C3's grade, flagged.
   bounded `J`, the steelman dies -- the fork stays sharp and is written into the test's booleans
   (`verdict_DEAD_...` is a live, checkable flag, currently `False`).
 
-### Persona 4 -- CROSS-CHECKER (the audit table + the literature)
+### Perspective 4 -- CROSS-CHECKER (the audit table + the literature)
 
 The per-quantity audit (the deliverable; = `W105` output):
 
@@ -240,7 +240,7 @@ dense analytic vectors -- confirmed (`W91`/`W96`). Guido-Longo: statistics from 
 confirmed at Hilbert grade; Krein transfer is strong-argument. Uhlmann 1977: monotonicity via
 positivity -- confirmed, hence C4.
 
-### Persona 5 -- SYNTHESIZER
+### Perspective 5 -- SYNTHESIZER
 
 See Sections 3-5.
 

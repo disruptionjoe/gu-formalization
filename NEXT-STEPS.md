@@ -2956,28 +2956,28 @@ updated_at: "2026-08-06"
 > change, or verdict movement.
 >
 > **2026-07-19 CURRENT OPERATIONAL QUEUE: THREE PROGRESS LANES PLUS STEWARDSHIP.**
-> The machine-readable owner is `lab/process/research-portfolio.json`. A lane is a durable purpose-bearing
+> The machine-readable owner is `lab/process/RESEARCH-AGENDA.json`. A lane is a durable purpose-bearing
 > execution container, not each dependency, monitor, gate, closed branch, workstream, or task.
 >
-> - **Lane 1, GU truth testing:** the protected charter-level North Star. Adversarially test whether one frozen
+> - **truth-status research, GU truth testing:** the protected charter-level North Star. Adversarially test whether one frozen
 >   GU construction recovers a physical quantum sector, the Standard Model, Einstein dynamics, and cosmological
 >   perturbations without sector-specific adjustment. Force, falsify, or downgrade the claim honestly.
-> - **Lane 2, prediction extraction and computation:** derive, freeze, compute, and confront GU-native
+> - **prediction research, prediction extraction and computation:** derive, freeze, compute, and confront GU-native
 >   predictions and falsification tripwires while separating native, imported, fitted, and free quantities.
-> - **Lane 3, result hardening and publication readiness:** harden useful results through written proof,
+> - **result-hardening research, result hardening and publication readiness:** harden useful results through written proof,
 >   computation, Lean where appropriate, novelty and citation checks, reproducibility, honest scope, and source
 >   packets for Drafting Factory or external eyes.
-> - **Lane A, Stewardship:** reconcile priority, packets, mailboxes, integrity, navigation, and paper seeds. It is
+> - **research maintenance, Stewardship:** reconcile priority, packets, mailboxes, integrity, navigation, and paper seeds. It is
 >   administrative, is never selected by Progress, and never competes in the numbered-lane scientific ranking.
 >
-> **Selection rule:** Lane 1 always retains the North-Star purpose. Difficulty, activity, finishability, and an
+> **Selection rule:** truth-status research always retains the North-Star purpose. Difficulty, activity, finishability, and an
 > easier proof never demote it. Lane number expresses purpose, not an automatic every-run schedule. Each hourly
-> Progress run selects the worthiest eligible work item across Lanes 1 through 3. Selecting Lane 2 or Lane 3 does
-> not replace Lane 1. After execution and validation but before the receipt, the run uses the standard
+> Progress run selects the worthiest eligible work item across the active research agenda. Selecting prediction research or result-hardening research does
+> not replace truth-status research. After execution and validation but before the receipt, the investigation uses the standard
 > `rerank-next-work` flow to rank work inside the lane it used and then rank the three numbered lane leaders.
-> Lane A daily Stewardship decides whether that evidence changes durable portfolio state.
+> research maintenance daily Stewardship decides whether that evidence changes durable portfolio state.
 >
-> **2026-07-19 evening restructure (Joe direct chat):** Lane 1 now runs as four hypothesis CHANNELS
+> **2026-07-19 evening restructure (Joe direct chat):** truth-status research now runs as four hypothesis CHANNELS
 > (CH-QM, CH-GR, CH-COSMO, CH-SM) under the boundary-adapter STANDING AXIOM
 > (`lab/process/boundary-adapter-standing-axiom.md`): the adapter is assumed; "needs the adapter" is never a
 > stop, gate, or no-worthy-work reason — record the demand on the channel's parameter card and continue the
@@ -2998,7 +2998,7 @@ updated_at: "2026-08-06"
 > roll. No mirror, closure, planted-control, symbol-exactness, or global-cohomology gate ran. Reopen only on a
 > stronger primary packet. Receipt: `explorations/b5-middle-source-freeze-2026-07-21.md`.
 >
-> **Lane 1 current disposition after rerank:** `B5-INDEPENDENT-RECONSTRUCTION` is the eligible Lane 1 lead,
+> **truth-status research current disposition after rerank:** `B5-INDEPENDENT-RECONSTRUCTION` is the eligible truth-status research lead,
 > with `ANOMALY-DESCENT-HARDENING` as a parallel eligible channel. `OPERATOR-END-PENCIL` reached
 > `LC-SELECTOR` and closes only that source-dependent operator route. `CONSTRUCTION-SPACE-EXPLORATION` and
 > `B5-MIDDLE-DIFFERENTIAL` remain source-gated for native reconstruction claims, but those source gaps do not
@@ -3013,7 +3013,7 @@ updated_at: "2026-08-06"
 > extra principal symbol. Next compute every `m_ij` before selecting a differential. Do not omit `X`, identify
 > the three provenance lines prematurely, or call symbol exactness physical BV cohomology.
 >
-> **2026-07-24 WOIT PRINCIPLES TRANSFER:** three source-grounded Lane 1 gates now live in
+> **2026-07-24 WOIT PRINCIPLES TRANSFER:** three source-grounded truth-status research gates now live in
 > `explorations/woit-principles/`, with exact standard-library kernels in `tests/woit-principles/`.
 > The Cartan/Palatini positive control proves the nondegenerate torsion map has rank `24/24`
 > (dropping to `18/24` for a rank-three tetrad), sharpening why H27's committed GU square does not force
@@ -3025,7 +3025,7 @@ updated_at: "2026-08-06"
 > actual GU Euclidean field space, positive-time algebra, reflection lift, action/Schwinger functional,
 > positivity or physical quotient, and Lorentzian carrier map. This is a parallel source-derived target and
 > does not displace the frozen B5 multiplicity-matrix lead absent a native carrier map. It also leaves the
-> Lane 3 `PROOF-STABLE-KERNELS` leader unchanged: these controls are research kernels, not promoted proofs.
+> result-hardening research `PROOF-STABLE-KERNELS` leader unchanged: these controls are research kernels, not promoted proofs.
 >
 > **2026-07-21 P-54-WELD disposition:** the direct weld fails by type: native `theta` carries one vertical 10,
 > while the conventional Pati-Salam selector is `Sym^2_0(10)=54`. Only an explicitly defined quadratic vertical
@@ -3043,17 +3043,17 @@ updated_at: "2026-08-06"
 > **2026-07-21 P-LATTICE-SWEEP admission:** its wake condition is satisfied, but candidate generation stopped
 > at `BLOCKED_PARAMETERIZATION`. The 11 cells have prose deltas and zero structured total axis signatures;
 > domains, compatibility constraints, and tuple canonicalization are not frozen. Inferring omitted values would
-> silently choose conventional or program-native defaults. Next bounded Lane 1 step: `P-LATTICE-SCHEMA-FREEZE`.
-> `P-OBS-LEG` is independently awake after PP1 freeze and remains the Lane 2 alternative. B5 stays parked.
+> silently choose conventional or program-native defaults. Next bounded truth-status research step: `P-LATTICE-SCHEMA-FREEZE`.
+> `P-OBS-LEG` is independently awake after PP1 freeze and remains the prediction research alternative. B5 stays parked.
 > Receipt: `explorations/p-lattice-sweep-admission-2026-07-21.md`.
 >
 > **2026-07-21 P-LATTICE-SCHEMA-FREEZE disposition:** the legacy six-axis label is now encoded as one
 > Layer-0 semantic precondition plus the ordered L1-L7 structural signature. Finite domains, typed
 > construction-side provenance, compatibility rules, and tuple canonicalization are frozen. All 11 existing
 > cells now carry total signatures, with all 88 slots explicitly unresolved rather than inferred; unresolved
-> tuples cannot generate or deduplicate candidates. Next bounded Lane 1 step:
+> tuples cannot generate or deduplicate candidates. Next bounded truth-status research step:
 > `P-LATTICE-SIGNATURE-RESOLUTION-C1`, using owner evidence to resolve the declared baseline before propagating
-> only explicit inheritance. No cell was generated or graded. `P-OBS-LEG` remains the independent Lane 2
+> only explicit inheritance. No cell was generated or graded. `P-OBS-LEG` remains the independent prediction research
 > alternative and B5 stays parked. Receipt: `explorations/p-lattice-schema-freeze-2026-07-21.md`.
 >
 > **2026-07-21 P-LATTICE-SIGNATURE-RESOLUTION-C1 disposition:** owner evidence resolves exactly one C1 slot:
@@ -3062,7 +3062,7 @@ updated_at: "2026-08-06"
 > explicit source gaps; in particular, the known `(9,5)` Krein form lacks the physical superselection and
 > probability rule required to resolve L7 compatibly. The lattice has 87 unresolved slots. No inheritance was
 > propagated and no cell was generated or graded. Next lattice step: `P-LATTICE-C1-SOURCE-PACKET`; until that
-> evidence exists, `P-OBS-LEG` remains the strongest independent Lane 2 alternative. B5 stays parked. Receipt:
+> evidence exists, `P-OBS-LEG` remains the strongest independent prediction research alternative. B5 stays parked. Receipt:
 > `explorations/p-lattice-signature-resolution-c1-2026-07-21.md`.
 >
 > **2026-07-21 LANE-1 REPOINTED (Joe explicit priority change; core now resolved):** the hourly kept defaulting to lattice
@@ -3085,14 +3085,14 @@ updated_at: "2026-08-06"
 > `explorations/lp-lc-deficiency-decisive-2026-07-21.md` and
 > `explorations/pin-bordism-cardinality-2026-07-21.md`.
 >
-> **2026-07-22 difficulty-protection reconciliation:** Lane 1 now has an executable selection rule. Eligibility
+> **2026-07-22 difficulty-protection reconciliation:** truth-status research now has an executable selection rule. Eligibility
 > and dependency state remain hard gates; among eligible Lane-1 items, an explicit Joe/steward lead signal is
 > applied first and the scientific score omits effort and wall-risk deductions. Those fields remain capacity
 > metadata only. Protection therefore prevents easy-work bias without pretending a source-gapped item is
 > runnable. `CONSTRUCTION-SPACE-EXPLORATION` is now correctly non-hourly while its owner packet is absent.
 >
 > **2026-07-21 NEW LANE-1 CHANNEL `FALSIFICATION-BATTERY` (Joe-directed; steward to reconcile ranking):** the
-> 22-persona committed-construction councils produced a 51-entry hypothesis/test registry
+> 22-perspective committed-construction councils produced a 51-entry hypothesis/test registry
 > (`explorations/hypothesis-and-test-registry-from-councils-2026-07-21.md`). Joe asked to make the test-set a
 > Lane-1 channel — the North Star (force/falsify GU) operationalized. Structured as TWO tracks: (1) INTERNAL
 > structural-derivation computations were hourly-runnable at admission. They are now exhausted on current inputs:
@@ -3161,7 +3161,7 @@ updated_at: "2026-08-06"
 > Reopen on an official future release or that frozen bridge. Receipt:
 > `explorations/p-obs-leg-admission-and-routing-2026-07-21.md`.
 >
-> **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
+> **2026-07-19 previous truth-status research leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,
 > cosmology) on the graded fit ladder — Rung 0 consistency against sharp constraint lists is the admission bar,
@@ -3216,12 +3216,12 @@ updated_at: "2026-08-06"
 > mathematically open but GU-non-native. Proposition 1 and the favorable W235 record bit remain live conditions.
 > `bar(b)` and `H59` remain OPEN.
 >
-> **Lane 2 current disposition:** `DE-AMP-DIAGNOSTIC` is `RESOLVED_NO_GO` operationally because its exact
+> **prediction research current disposition:** `DE-AMP-DIAGNOSTIC` is `RESOLVED_NO_GO` operationally because its exact
 > full-tail/H46B audit is complete and reproducible: the two tail treatments differ by `3.3e-5`, the canonical
 > point gives `chi2_GU = 66.47` against `chi2_LCDM = 30.68`, and `Delta AIC = +35.79`. The positive raw-BAO
 > amplitude leg is closed at exploration grade, with no GU-native absolute amplitude to package. Reopen only on
 > corrected official data, materially changed frozen native structure, or a demonstrated certificate defect.
-> Lane 2 therefore has no ordinary hourly-eligible internal computation; `P-OBS-LEG` and `DE-F1-TRIPWIRE` are
+> prediction research therefore has no ordinary hourly-eligible internal computation; `P-OBS-LEG` and `DE-F1-TRIPWIRE` are
 > monitors, not substitute busywork. `PRED-FLAVOR-RANK` and `PRED-NORM-RANK` are `RESOLVED_NO_GO` at the current construction grade;
 > two dimensionless flavor ratios and the absence of a native absolute scale block their zero-parameter routes.
 > `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` now live here and remain gated on new native
@@ -3239,7 +3239,7 @@ updated_at: "2026-08-06"
 > until all four reopen conditions in its portfolio entry are met. Receipt:
 > `explorations/mirror-sector-prediction-candidate-disposition-2026-07-21.md`.
 >
-> **2026-07-23 Lane 3 LNF v2.15 closeout:** `LNF-V2.15-HARDENING` completed all
+> **2026-07-23 result-hardening research LNF v2.15 closeout:** `LNF-V2.15-HARDENING` completed all
 > ten packages and no longer consumes the temporary direct-priority signal.
 > The queue and exact receipts are in
 > `papers/candidates/located-not-forced/HARDENING-QUEUE.md` and
@@ -3255,18 +3255,18 @@ updated_at: "2026-08-06"
 > [`10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143);
 > concept DOI `10.5281/zenodo.21515142`. The public record and file checksums
 > were verified after publication.
-> Restore ordinary cross-lane selection; do not rerun this
+> Restore ordinary cross-agenda selection; do not rerun this
 > campaign as substitute work.
 >
-> **Lane A controls:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
-> and `GUS` run IDs plus semantic dated filenames. Lane A alone routinely writes the portfolio and this block.
+> **research maintenance controls:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
+> and `GUS` run IDs plus semantic dated filenames. research maintenance alone routinely writes the portfolio and this block.
 > Every credible paper opportunity becomes a cheap Drafting Factory seed immediately. Drafting Factory owns
 > paper priority and capacity; a capacity-backed source-hardening request is a valid signal, not a command or
 > claim-grade change.
 
 > **[SUPERSEDED as the hourly queue by the steward-maintained portfolio above; retained as W239/W242 prediction-workstream history.]**
 > **2026-07-15 W242 OPERATIONAL QUEUE (HISTORICAL).**
-> W239's ten personas produced 30 possible prediction targets but no current passing prediction. W242 maps all
+> W239's ten perspectives produced 30 possible prediction targets but no current passing prediction. W242 maps all
 > 30 targets exactly once into a dependency-aware queue. Each hourly run takes the **highest-ranked READY**
 > packet, attacks its first kill condition, and leaves one bounded machine or proof receipt. A negative result
 > that retires a branch is a successful run. **Do not run another qualitative prediction brainstorm.**
@@ -3480,7 +3480,7 @@ updated_at: "2026-08-06"
 > picture -- 4 legs cleared + everything reduces to one located residual -- is a bigger paper that subsumes
 > the located-not-forced draft; tracked on JoeOps WI-068.)
 >
-> **UPDATE 2026-07-11b (source-action NARROWING arc + a ten-persona review; threads tracked on WI-068).**
+> **UPDATE 2026-07-11b (source-action NARROWING arc + a ten-perspective review; threads tracked on WI-068).**
 > The one-construction North Star was pushed hard by *constraining* the source action through the
 > intersection of the legs that need it (not a free build, which p-hacks). Results (all reproducible,
 > `tests/one-residual/*`, detail in `explorations/willmore-residual-computed-and-buildbench-reconciliation-2026-07-11.md`
@@ -3496,12 +3496,12 @@ updated_at: "2026-08-06"
 > for the gravity leg):** do the honest HIGHER-CODIMENSION Willmore first variation IN FULL -- the Simons
 > term and the normal-bundle curvature term, with a background-subtracted linearization around the
 > non-totally-geodesic constant section. This single computation settles the H-class vs II-class binary and
-> either collapses or explodes the current gates; every persona lens (geometer, referee, verification) points
+> either collapses or explodes the current gates; every perspective lens (geometer, referee, verification) points
 > at it. Pair it with the STANDARD of a second, independent numerical (autodiff) implementation of II/H/R^Y
 > for every order-claim (the R^Y by-hand cross-check was the arc's high point; the M^2/r^2 bug survived a
 > commit because it had only one route).
 >
-> **The highest-CEILING thread (several independent persona lenses converge):** the `O(M^0)` intrinsic
+> **The highest-CEILING thread (several independent perspective lenses converge):** the `O(M^0)` intrinsic
 > curvature of `Met(X4)` -- the "a constant section is not totally geodesic" term (ii-s-coordinate-formula
 > sec 6.1) that we currently SUBTRACT as a normalization convention -- may be PHYSICAL: the dark-energy /
 > cosmological-constant scale (and, in the observerse/protocol reading, the deflationary issuance rate `f_0`).
@@ -3544,12 +3544,12 @@ updated_at: "2026-08-06"
 > RESOLVED for algebraic existence only; full GU anomaly cancellation is OPEN; VZ is 14D
 > CONDITIONALLY_EVADED and 4D CONDITIONALLY_RESOLVED at principal-symbol grade; dark-energy
 > divergence-free is CONDITIONALLY_RESOLVED. Do not promote older stronger language without
-> running `lab/process/runbooks/claim-status-consistency-quality-workflow.md`.
+> running `lab/methods/claim-status-consistency.md`.
 >
 > **2026-06-25 SC1-OQ1A guard.** The older row that says the D7 Product B chirality screen
 > excludes `V(omega_1+omega_7)` from `Lambda^2 tensor Delta^+` is superseded by
-> `explorations/hourly-cycles/hourly-20260625-2104-cycle1-ig-product-b-d7-table-receipt-attempt.md`
-> and `tests/hourly-cycles/hourly_20260625_2104_cycle1_receipt_attempts_audit.py`: Product B now has the
+> `explorations/research-cycles/hourly-20260625-2104-cycle1-ig-product-b-d7-table-receipt-attempt.md`
+> and `tests/research-cycles/hourly_20260625_2104_cycle1_receipt_attempts_audit.py`: Product B now has the
 > route-local table `V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6)`. Treat the
 > SC1-OQ1A uniqueness/common-summand gate as OPEN pending a replacement Hom-space
 > computation. The cycle 2 Product A packet closes
@@ -3920,7 +3920,7 @@ so future audits don't mistake it for a derivation.
   functor exhibited). Systemic pattern: **program-level disciplined but route-level premature** -- the negative
   lands on a proxy / inherited constant / one control measure while the discriminating generalization is named
   and parked behind a gate; the gap is THROUGHPUT on 2-3 cheap never-run fixtures. Report:
-  `CapacityOS/rccm-library/research/2026-07-04-hegelian-premature-cutoff-panel-review.md`.
+  `private orchestration overlay/rccm-library/research/2026-07-04-hegelian-premature-cutoff-panel-review.md`.
 - **Top cheap reopens (panel, gu-relevant):** the decisive glove-fit test is the **GU-antilinear-index <-> T414
   Krein/factorization adapter** (one-file symbolic check -- settles real functor vs analogy). Plus: an
   OBJ-TAF channel-mix R5-style structural kill on `shiab_family_basis.py`; and a `spin8`-triality `+96/-96`
@@ -4438,7 +4438,7 @@ All four FR tasks are resolved. Synthesis: `explorations/time-as-finality-crossw
 
 ## 4D Reduction Steelman Pass (2026-06-22)
 
-A 62-persona W007 steelman-Hegelian pass over the section pullback mechanism was completed at `explorations/persona-and-dialectic/4d-reduction-62-persona-steelman-hegelian-2026-06-22.md`. All outputs are exploration-grade.
+A 62-perspective W007 steelman-Hegelian pass over the section pullback mechanism was completed at `explorations/perspective-and-dialectic/4d-reduction-62-perspective-steelman-hegelian-2026-06-22.md`. All outputs are exploration-grade.
 
 **Core question steelmanned:** Does s: X^4 -> Y^14 provide a complete mechanism for 4D physics (gravity via Gauss-Codazzi, matter via spinor branching, gauge fields via pullback, dark energy via II_s)?
 
@@ -4505,7 +4505,7 @@ as `lab/literature/weinstein-ucsd-2025-04-transcript.md`. All tasks are explorat
 
 | order | task | output | blocker if skipped |
 |---:|---|---|---|
-| ~~VZ1~~ **ANALYZED 2026-06-22** | **Velo-Zwanziger constraint analysis** — `explorations/vz-evasion/vz1-velo-zwanziger-analysis-2026-06-22.md`. **Verdict: OPEN (not EVADED, not GENUINE_OBSTRUCTION — question requires dynamical analysis not yet done).** The "trivial internal coupling" evasion claim fails at the 4D level: the RS(3,1) ⊗ S(6,4) field carries non-trivial SU(3)×SU(2)_L×U(1)_Y charges from S(6,4), so VZ hypothesis (H3) is satisfied after 4D reduction. The coherent evasion mechanism lives at the 14D level: D_GU acts on the full spinor S = H^{64} as a Dirac operator whose characteristic cone is the light cone regardless of gauge coupling; the RS sector is NOT a standalone field with its own field equation, so VZ (which requires a standalone RS Lagrangian) may be inapplicable at 14D. **Three open questions:** OQ1 = does the RS sector decouple from spin-1/2 sectors (if yes at some mass scale, VZ applies at that scale); OQ2 = if RS decouples, is there a guardian symmetry (super-IG candidate, [speculation]); OQ3 = does the Weyl tensor of the gimmel metric produce gravitational VZ problems independent of gauge coupling. **Three failure conditions (F1–F3) and two evasion confirmation conditions (E1–E3) specified explicitly.** `canon/no-go-class-relative-map.md` §2.5 updated with findings. OQ1 is priority and is entangled with SC1 / Dirac-DeRham complex structure. **62-persona steelman and Hegelian pass run 2026-06-22:** `explorations/persona-and-dialectic/vz1-62-persona-steelman-hegelian-2026-06-22.md`. Key outputs: (1) Evasion candidate strengthened — the RS sector is defined as the Leibniz cross-term in D_GU, meaning D_{RS,1/2} is nonzero by construction (the RS sector IS the coupling). (2) Three new testable objects identified: S1 = Schur complement symbol of D_GU in RS/spin-1/2 block decomposition (most direct OQ1 computation); S2 = X^4-tangential RS characteristic cone (new OQ3 angle, P61-NOVEL); S3 = kinematic VZ matrix with Sp(64) coupling constant fixed by geometry (new, P49-NOVEL). (3) GU-Vasiliev comparison identified as high-value long-range target (P53-NOVEL). (4) Priority computation: D_GU block structure in RS/spin-1/2 decomposition — compute whether shiab Phi maps RS(3,1) content to spin-1/2 content via Clifford multiplication. VZ status unchanged: OPEN with strengthened evasion candidate. **~~OQ3 (gravitational VZ)~~ EVADED 2026-06-23 (vz1-oq3-gravitational-vz, reconstruction):** Weyl tensor of the gimmel metric on Y^14 does NOT produce gravitational VZ causality problems for the RS sector independent of gauge coupling. Three-leg argument: (1) principal symbol sigma_1(D_GU)(xi) = c(xi) is connection-independent; Clifford identity c(xi)^2 = g_Y(xi,xi) Id is curvature-insensitive (algebraic, verified); (2) classical gravitational VZ mechanism requires standalone RS with externally imposed subsidiary condition -- GU fails all three preconditions (standalone, external subsidiary, constraint differentiation); (3) Weyl tensor enters D_GU only via Weitzenbock as zero-order operator; [D_GU, Gamma^{14D}] is zero-order (metric compatibility, verified at reconstruction grade). Same evasion root as gauge-coupling VZ: the Clifford algebra identity is insensitive to both F_A and W_{ABCD}. 4D section pullback preserves evasion; K3 Weyl tensor shifts RS mass spectrum but not characteristic cone. Five explicit failure conditions stated (F1-F5). See `explorations/vz-evasion/vz1-oq3-gravitational-vz-weyl-tensor-2026-06-23.md`. | Full analysis at `explorations/vz-evasion/vz1-velo-zwanziger-analysis-2026-06-22.md`. 62-persona pass at `explorations/persona-and-dialectic/vz1-62-persona-steelman-hegelian-2026-06-22.md`. | OQ1 (RS decoupling question) is now the blocking sub-task; immediate action is computing D_GU's RS/spin-1/2 block structure (Schur complement symbol). |
+| ~~VZ1~~ **ANALYZED 2026-06-22** | **Velo-Zwanziger constraint analysis** — `explorations/vz-evasion/vz1-velo-zwanziger-analysis-2026-06-22.md`. **Verdict: OPEN (not EVADED, not GENUINE_OBSTRUCTION — question requires dynamical analysis not yet done).** The "trivial internal coupling" evasion claim fails at the 4D level: the RS(3,1) ⊗ S(6,4) field carries non-trivial SU(3)×SU(2)_L×U(1)_Y charges from S(6,4), so VZ hypothesis (H3) is satisfied after 4D reduction. The coherent evasion mechanism lives at the 14D level: D_GU acts on the full spinor S = H^{64} as a Dirac operator whose characteristic cone is the light cone regardless of gauge coupling; the RS sector is NOT a standalone field with its own field equation, so VZ (which requires a standalone RS Lagrangian) may be inapplicable at 14D. **Three open questions:** OQ1 = does the RS sector decouple from spin-1/2 sectors (if yes at some mass scale, VZ applies at that scale); OQ2 = if RS decouples, is there a guardian symmetry (super-IG candidate, [speculation]); OQ3 = does the Weyl tensor of the gimmel metric produce gravitational VZ problems independent of gauge coupling. **Three failure conditions (F1–F3) and two evasion confirmation conditions (E1–E3) specified explicitly.** `canon/no-go-class-relative-map.md` §2.5 updated with findings. OQ1 is priority and is entangled with SC1 / Dirac-DeRham complex structure. **62-perspective steelman and Hegelian pass run 2026-06-22:** `explorations/perspective-and-dialectic/vz1-62-perspective-steelman-hegelian-2026-06-22.md`. Key outputs: (1) Evasion candidate strengthened — the RS sector is defined as the Leibniz cross-term in D_GU, meaning D_{RS,1/2} is nonzero by construction (the RS sector IS the coupling). (2) Three new testable objects identified: S1 = Schur complement symbol of D_GU in RS/spin-1/2 block decomposition (most direct OQ1 computation); S2 = X^4-tangential RS characteristic cone (new OQ3 angle, P61-NOVEL); S3 = kinematic VZ matrix with Sp(64) coupling constant fixed by geometry (new, P49-NOVEL). (3) GU-Vasiliev comparison identified as high-value long-range target (P53-NOVEL). (4) Priority computation: D_GU block structure in RS/spin-1/2 decomposition — compute whether shiab Phi maps RS(3,1) content to spin-1/2 content via Clifford multiplication. VZ status unchanged: OPEN with strengthened evasion candidate. **~~OQ3 (gravitational VZ)~~ EVADED 2026-06-23 (vz1-oq3-gravitational-vz, reconstruction):** Weyl tensor of the gimmel metric on Y^14 does NOT produce gravitational VZ causality problems for the RS sector independent of gauge coupling. Three-leg argument: (1) principal symbol sigma_1(D_GU)(xi) = c(xi) is connection-independent; Clifford identity c(xi)^2 = g_Y(xi,xi) Id is curvature-insensitive (algebraic, verified); (2) classical gravitational VZ mechanism requires standalone RS with externally imposed subsidiary condition -- GU fails all three preconditions (standalone, external subsidiary, constraint differentiation); (3) Weyl tensor enters D_GU only via Weitzenbock as zero-order operator; [D_GU, Gamma^{14D}] is zero-order (metric compatibility, verified at reconstruction grade). Same evasion root as gauge-coupling VZ: the Clifford algebra identity is insensitive to both F_A and W_{ABCD}. 4D section pullback preserves evasion; K3 Weyl tensor shifts RS mass spectrum but not characteristic cone. Five explicit failure conditions stated (F1-F5). See `explorations/vz-evasion/vz1-oq3-gravitational-vz-weyl-tensor-2026-06-23.md`. | Full analysis at `explorations/vz-evasion/vz1-velo-zwanziger-analysis-2026-06-22.md`. 62-perspective pass at `explorations/perspective-and-dialectic/vz1-62-perspective-steelman-hegelian-2026-06-22.md`. | OQ1 (RS decoupling question) is now the blocking sub-task; immediate action is computing D_GU's RS/spin-1/2 block structure (Schur complement symbol). |
 | ~~SC1~~ **RESOLVED 2026-06-23** | **Shiab domain/codomain specification update for N2** — **Verdict: RESOLVED.** Domain/codomain confirmed as `Phi: Omega^2(Y^14) tensor S -> Omega^1(Y^14) tensor S` in the (9,5) split-signature setting (Cl(9,5) ~= M(64,H), S = H^64). Transcript [00:36:13] makes this explicit. Harvey and Lawson-Michelsohn provide the algebraic infrastructure (Clifford multiplication, spinor modules, bilinear forms) but do NOT name this specific map; the closest named object is the formal codifferential `d_A*: Omega^2(E) -> Omega^1(E)`, which has the same type but a different formula (no Clifford contraction). The shiab as a Clifford-contraction map in (9,5) split-signature is new within the GU construction. Residual open questions: ~~(OQ2) ellipticity of rolled-up complex in split-signature null-cone directions~~ **CONDITIONALLY_RESOLVED 2026-06-23 (sc1-oq2-ellipticity):** Char(D_GU) = null cone of g_Y on Y^14 (explicit formula); D_GU is NOT elliptic but IS of real principal type (Hormander) in null-cone directions; principal symbol is c(xi) (Clifford mult. by xi), c(xi)^2 = g_Y(xi,xi) Id forces nil on null cone and invertible off it; shiab Phi is zero-order and does NOT modify Char(D_GU); generation count (ind_H = 24) is not obstructed (Atiyah-Schmid L2 theory applies); consistent with VZ evasion (both give null-cone char. variety). Remaining: OQ2-a (CAS null-geodesic coordinate check), ~~OQ2-b (symmetric-hyperbolic energy estimate)~~ **CONDITIONALLY_RESOLVED 2026-06-23 (sc1-oq2b-symmetric-hyperbolic):** Cauchy problem for D_{4D} = s*(D_GU) is well-posed at reconstruction grade via BGP theorem for Dirac-type operators on globally hyperbolic (X^4, g_s). Explicit energy estimate: E_{4D}(t) = int_Sigma <Psi_s, i Gamma^0_s Psi_s> dVol <= E_{4D}(0) exp(C_V t), where C_V = 2||s*(V)||_infty (bounded zero-order shiab+curvature). Well-posedness properties WP1-WP4 (uniqueness, existence via Green's operator, stability, finite propagation speed) hold. Structural link: the Clifford identity c(xi)^2 = g(xi,xi)Id is both the VZ evasion mechanism and the energy-estimate mechanism -- these are two faces of the same algebraic identity. Correct Cauchy surface is s(Sigma^3) in X^4 (not a 13D hypersurface in Y^14 -- the fiber-over-time surface has mixed signature (9,4)). Remaining: ~~OQ2-c (null-mode physical interpretation)~~ **CONDITIONALLY_RESOLVED 2026-06-23 (sc1-oq2c-null-mode-interpretation):** NM(xi) = ker c(xi) at null xi has dim_R = 128 = dim E/2 (exact by rank-nullity + c(xi)^2=0); Im c(xi) = NM(xi) (nil-Clifford). Null modes split: Class A (physical propagating -- SM fermions, gravitons, RS generation modes), Class B (pure Sp(64) gauge), Class C (auxiliary/constrained). VZ evasion restated in null-mode language: RS null modes exist ONLY on the null cone (c(xi) invertible at spacelike xi => no RS spacelike null modes); Clifford identity c(xi)^2 = g_Y(xi,xi) Id is engine of both null-mode confinement and VZ evasion. Generation count link: L2-normalizable fiber null modes at fiber null covectors = Flensted-Jensen discrete series of SL(4,R) = ind_H=24. SC1-OQ2 block now fully CONDITIONALLY_RESOLVED (all three sub-questions). Remaining open: RS null-mode dimension count (dim NM cap ker Gamma^{14D}), Sp(64) gauge-orbit intersection, formal fiber-null-mode/discrete-series identification. See `explorations/shiab-operator/sc1-oq2c-null-mode-interpretation-2026-06-23.md`. full 14D fiber Cauchy formulation (fiber-over-base Plancherel decay estimates), explicit BGP non-compact verification for R x K3. See `explorations/shiab-operator/sc1-oq2b-symmetric-hyperbolic-2026-06-23.md`. (OQ1) uniqueness -- is Phi the unique Spin(9,5)-equivariant map of this type?; ~~(OQ3) Sp(64) gauge-equivariance of Phi~~ **RESOLVED 2026-06-23 (sc1-oq3-gauge-equivariance):** Phi(Ad(g).omega, rho(g).psi) = rho(g).Phi(omega, psi) for all g in Sp(64) holds as a consequence of the Lie functor identity rho_*(Ad(g)X) = rho(g) rho_*(X) rho(g)^{-1} applied to the ad P-valued Clifford-contraction formula; the gauge-invariance of the frame {e^a} and the commutativity of iota_{e_a} with Ad on the Lie-algebra index complete the proof. Open: OQ3-A (bundle-theoretic formulation), ~~OQ1 (uniqueness)~~ **CONDITIONALLY_RESOLVED 2026-06-23 (sc1-oq1-shiab-uniqueness):** Full Hom space characterized: dim_H Hom_{Spin(9,5),H}(Lambda^2 tensor S, Lambda^1 tensor S) = 2 (H oplus H); generators are Phi^+ (Lambda^2 tensor Sigma^+ -> Lambda^1 tensor Sigma^-) and Phi^- (Lambda^2 tensor Sigma^- -> Lambda^1 tensor Sigma^+); wrong-chirality blocks = 0 by Schur on the form sector (Lambda^1 and Lambda^2 are non-isomorphic irreducibles of SO(9,5)). Phi is NOT unique as a Spin(9,5)-equivariant map (two independently-scalable chiral components) but IS unique (up to H-scalar) as an O(9,5)-equivariant map (parity constraint Phi^+ = Phi^-). Physical implication: GU shiab canonically selected by O(9,5)-invariance; H-scalar ambiguity does not affect ind_H(D_GU) = 24. Gates: ~~CAS D_7 Clebsch-Gordan (OQ1-A)~~ **RESOLVED 2026-06-23 (sc1-oq1a-d7-clebsch-gordan-cas, reconstruction):** Chirality-parity argument (algebraic, exact) shows Lambda^2 tensor Delta^+ has ALL summands with chirality +1; V(omega_1+omega_7) from Lambda^1 tensor Delta^- has chirality -1 and is excluded from Lambda^2 tensor Delta^+; common summand count = exactly 1 (V(omega_6) = Delta^+). Both OQ1-A failure conditions (0 common summands; more than 1 common summand) do NOT fire. dim_H Hom_{Spin(9,5),H}(Lambda^2 tensor Sigma^+, Lambda^1 tensor Sigma^-) = 1 confirmed. See `explorations/shiab-operator/sc1-oq1a-d7-clebsch-gordan-cas-2026-06-23.md`. Remaining gate: OQ1-B (inner/outer automorphism for so(9,5)). inner/outer automorphism for so(9,5) (OQ1-B). See `explorations/shiab-operator/sc1-oq1-shiab-uniqueness-2026-06-23.md`. See `explorations/shiab-operator/sc1-oq3-gauge-equivariance-2026-06-23.md`. See `explorations/shiab-operator/sc1-shiab-domain-codomain-2026-06-23.md` and `explorations/shiab-operator/sc1-oq2-ellipticity-split-signature-2026-06-23.md`. | — | ~~**SC1-OQ2 formal lemma CONDITIONALLY_RESOLVED 2026-06-23**~~ **-> OPEN (downgraded 2026-06-23, CORRECTION SC1-LEMMA-CONTRADICTION-SAME-SESSION)** (sc1-oq2-split-signature-ellipticity-lemma). Kernel trichotomy formally proved and UNAFFECTED: ker sigma_D(xi) = {0} for spacelike xi (g_Y > 0), ker sigma_D(xi) = {0} for timelike xi (g_Y < 0), ker sigma_D(xi) = NM(xi) with dim = dim E/2 for null xi; sigma_shiab(xi) = 0 at principal-symbol order (zero-order operator). Part (iii) ("gauge orbit is a proper subspace of NM(xi)") is FALSE/RETRACTED (the orbit FILLS NM(xi), per the F5 sibling) and the firing NAMES an internal contradiction (parts (ii) vs (iii)); per the loop's RESOLVED-blocking rule a same-session-named-and-resolved contradiction caps the verdict at OPEN until inter-session re-derivation. Gate direction (symmetric-hyperbolic / real principal type, not elliptic) is the working hypothesis, not settled. Remaining for re-upgrade: inter-session re-derivation of the NM(xi) gauge-orbit question (primary gate), F8=FF3 (BRST-coboundary as a theorem), F9=FF4 (full-E Koszul-acyclicity), discrete-series fiber-null-mode identification, OQ-RS-Null-Modes. See `explorations/shiab-operator/sc1-oq2-split-signature-ellipticity-lemma-2026-06-23.md`. ~~**F5 gauge-orbit-fill CHECKED — CONDITIONALLY_RESOLVED 2026-06-23**~~ **-> OPEN (downgraded 2026-06-23, CORRECTION SC1-LEMMA-CONTRADICTION-SAME-SESSION)** (sc1-oq2-f5-gauge-orbit-fill). Explicit CAS/structural check (negative-check discipline): the Sp(64) gauge orbit DOES fill NM(xi), opposite to the lemma's part (iii). Root cause: at null xi, c(xi) is a maximal-rank nilpotent, so Im c(xi) = ker c(xi) = NM(xi) (null-projection [NULL-PROJ]); the BRST-exact/dynamical-gauge orbit equals Im c(xi) = NM(xi) identically. Verified for full Sp(n)=U(n,H) on the same H^n as c(xi) (left action, sc1-oq3), n=6,8, generic null dir; commutator orbit and direct-action orbit also fill. This file NAMES an INTERNAL CONTRADICTION in the lemma (parts (ii) [NM=Im c(xi), maximal rank] and (iii) [gauge orbit proper subspace of ker c(xi)] mutually inconsistent) and resolves it same-session in favor of (ii); per the loop's RESOLVED-blocking rule that same-session resolution caps BOTH files at OPEN until inter-session re-derivation. Analytic-framework conclusion DIRECTION (symmetric-hyperbolic / real principal type, NOT elliptic — the fill is Koszul-exactness; physical polarizations live in Cauchy-data transport, Maxwell control verified) is the WORKING HYPOTHESIS, not settled, and leans on FF3/FF4 (both OPEN). VZ evasion and ind_H=24 untouched (never used a pointwise null quotient). Failure conds FF1-FF5 plus FF6 (same-session-resolution gate, FIRED); FF3 (BRST coboundary as theorem) + FF4 (full-E Koszul-acyclicity) + inter-session re-derivation remain open for re-upgrade. See `explorations/shiab-operator/sc1-oq2-f5-gauge-orbit-fill-2026-06-23.md`.
 | ~~DD1~~ **RESOLVED 2026-06-22; CANON-SHARPENED 2026-06-23** | **Distortion tensor literature check** — `explorations/geometry-curvature-emergence/dd1-distortion-tensor-literature-check-2026-06-22.md`. **Verdict: PARTIALLY_NAMED.** The name "distortion" (Hehl et al. 1995) applies in name and schematic type, and "contorsion" (Agricola-Friedrich 2003) captures the identity-gauge limit on X⁴. GU's θ is NOT the same as either: the defining novelty is gauge-equivariance under the full inhomogeneous gauge group IG = G ⋉ Ω¹(ad P) via the τ⁺ homomorphism — which no prior framework provides. PC4 (generic torsion-for-Λ) and GU's θ-mechanism are formally distinct; they may coincide after the section pullback s*(θ) is computed (the open step). **DD1 IG-equivariance distinctness sharpened 2026-06-23 (dd1-distortion-distinct-canon-sharpen, CONDITIONALLY_RESOLVED reconstruction):** The loose claim "θ is distinguished by IG-equivariance" is converted into a cohomological theorem and the named failure condition (*does IG-equivariance collapse to a known torsion notion under a change of frame?*) is discharged. Precise distinction: torsion `T = ∇ − ∇_LC` carries the affine cocycle `α(h) = −(D_{∇_LC}h)h⁻¹` (T-LAW, since the metric-determined reference `∇_LC` does NOT transform under internal `G`), while distortion `D = ∇ − g·∇_LC` carries the trivial cocycle `β ≡ 0` (D-LAW, Ad-tensorial). Collapse ⟺ `[α] = 0 ∈ H¹(G; Ω¹(Y, ad P))` (α a coboundary). Result: `[α] ≠ 0`, so collapse does NOT fire. The binary non-collapse is **verified-grade on the identity component** via the infinitesimal jet-order argument (`α'(ξ) = −D_{∇_LC}ξ` first-order vs coboundary `[ξ,ζ]` zeroth-order, decided pointwise; `[α'] ≠ 0 ∈ H¹(Lie(G); ·)`); the curvature-pinning interpretation (`[α]` = Chern–Weil class of `F_{∇_LC}`, with `Z(sp(64))=0` closing the central escape) is reconstruction-grade. Novelty vs Hehl/Agricola-Friedrich/Sharpe is exactly that all three keep the reference rigid → their object carries `[α]≠0`; τ⁺ gauging moves it to the 0 class, which is not a frame change. Four explicit failure conditions FC-1…FC-4 (flat reference; center leak; ∇-dependent frame; disconnected `π₀(G)`). See `explorations/geometry-curvature-emergence/dd1-distortion-distinct-canon-sharpen-2026-06-23.md`. | — |
 | ~~HC1~~ **CONDITIONALLY RESOLVED 2026-06-22; SL(2,C) LABELS REFINED 2026-06-23** | **Three hidden curvature components: representation theory check** — **Verdict: CONDITIONALLY_RESOLVED.** Group is SO(1,3) acting on the curvature 2-form F ∈ Ω²(X⁴, so(1,3)) in Poincaré gauge theory (not conformal SO(2,4), not Spin(9,5) on Y¹⁴). The 3+3=6 count is confirmed under the torsion-sourcing reading: 3 visible (W, S₀, R) + 3 torsion-activated hidden pieces (H^{(1)}, H^{(2)}, H^{(3)}) sourced by the 3 irreducible torsion pieces (T^{(1)}: traceless tensor 16 comp.; T^{(2)}: trace-vector 4 comp.; T^{(3)}: axial-vector 4 comp.) via DT = R∧e. **Revised SL(2,C) labels (2026-06-23 explicit Bianchi-map spinor computation):** H^{(1)}: (3/2,1/2)+(1/2,3/2) dim 16 (refined from "(1,1)_antisym ~9 dim" — the label follows the SOURCE T^{(1)}, not the curvature antisymmetric irreducible); H^{(2)}: (1/2,1/2)_vector dim 4 (confirmed); H^{(3)}: (1/2,1/2)_axial dim 4 (confirmed). **Open Q1 RESOLVED (2026-06-23):** θ decomposes into the SAME T^{(1,2,3)} irreducibles as standard torsion under SO(1,3); IG-equivariance changes coupling coefficients and field equations but not irreducible types. Remaining conditional: reconstruction-grade spinor computation, not CAS/peer-review verified. | See `explorations/geometry-curvature-emergence/hc1-hidden-curvature-components-2026-06-22.md` (parent) and `explorations/geometry-curvature-emergence/hc1-sl2c-bianchi-spinor-2026-06-23.md` (this computation). | Residual: CAS verification of H^(1) label; explicit coupling coefficients of θ in T^(i) basis from II_s coordinate formula. **COUPLING COEFFICIENTS COMPUTED 2026-06-23 (hc1-coupling-coefficients):** HC-master formula derived: `H^(i)_GU = 512 * P^(i)[nabla^{g_s} theta]`, where P^(i) are SO(1,3) projectors and 512 is the Clifford-spinor normalization factor from the j_s soldering map in S = H^64. Explicit coefficients: k_1^{GU} = 512, k_2^{GU} = 512/3, k_3^{GU} = 512/3 (vs. EC values 1, 1/3, 1/3). GU coupling is a uniform renormalization by 512; representation-specific structure of projectors is identical to Einstein-Cartan. Remaining: CAS verification of factor 512 (Tr_S(c(u)c(v)) = 256 g_Y(u,v)), Codazzi correction delta_k_i^{Cod}. See `explorations/geometry-curvature-emergence/hc1-coupling-coefficients-2026-06-23.md`. **CODAZZI CORRECTION COMPUTED 2026-06-23 (hc1-codazzi-correction):** delta_k_i^{Cod} derived from [CodEq-Explicit] (H-H-V Christoffel block derivative of gimmel metric). Result: additive and dynamical (proportional to Weyl/traceless-Ricci/scalar curvature of g_s for i=1,2,3); does NOT shift the 512 kinematic normalization. On K3-type Ricci-flat X^4 (GU-selected): delta_k_2 = delta_k_3 = 0 exactly; delta_k_1 ~ O(Weyl). Structural link to CPA-1 Simons +4K confirmed. CONDITIONALLY_RESOLVED. See `explorations/geometry-curvature-emergence/hc1-codazzi-correction-2026-06-23.md`. |

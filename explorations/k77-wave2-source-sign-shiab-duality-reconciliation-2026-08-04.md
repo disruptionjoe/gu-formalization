@@ -3,12 +3,9 @@ title: "K77 Wave 2: source-sign, Shiab-parity, and degree-duality reconciliation
 status: active_research
 doc_type: exploration
 created: 2026-08-04
-lane: 1
 gate: RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD
 result: "PARTIAL__NATIVE_EVEN_SHIAB_HOM0__DEGREE_REALITY_SAT_REQUIRES_ONE_ODD_COVECTOR__EXACT_Q_REPAIRS_BUILT__OWNERSHIP_ADJOINT_WARD_OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 source-sign / Shiab / duality reconciliation

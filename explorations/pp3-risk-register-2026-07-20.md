@@ -4,16 +4,13 @@ status: active_research
 doc_type: exploration
 package_ref: PP3
 owner_item: PRED-CANDIDATE-PACKETS
-lane_id: "2"
 directed_by: "Joe direct chat, 2026-07-20 (fan-out: PP3 risk register)"
 extends:
   - explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
   - lab/process/prediction-package-standing-rule.md
 runnable:
   - tests/channel-swings/pp3_risk_register_calc.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

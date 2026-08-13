@@ -48,9 +48,9 @@ WHAT SURVIVES THE INDEFINITE METRIC (honest literature anchor)
     normal state on a Hilbert space; that positivity is used in (i) closability + positivity of
     Delta=S*S, (ii) the polar decomposition, (iii) KMS as an equilibrium (state) condition.
 
-THE FIVE-PERSONA TEAM (run inline; recorded in the companion .md).  The assertions below encode
-persona 1's construction, persona 3's attacks (as PASS-if-the-axiom-correctly-fails criteria),
-persona 4's solvable-model cross-check, and persona 5's reachability booleans.
+THE FIVE-PERSPECTIVE TEAM (run inline; recorded in the companion .md).  The assertions below encode
+perspective 1's construction, perspective 3's attacks (as PASS-if-the-axiom-correctly-fails criteria),
+perspective 4's solvable-model cross-check, and perspective 5's reachability booleans.
 
 Reproducible:  python tests/W67_path5_A_krein_modular.py     (exit 0 on success)
 No canon / RESEARCH-STATUS / CANON / claim-status / verdict / posture file is touched.
@@ -239,7 +239,7 @@ check("T3c  EXACT CRITERION (the load-bearing structural condition, constructibl
       "criterion separates the two gradings exactly")
 
 # ================================================================================================
-# T4 -- THE LOAD-BEARING OBSTRUCTION (persona 3): the cyclic vector is NOT a positive state on the
+# T4 -- THE LOAD-BEARING OBSTRUCTION (perspective 3): the cyclic vector is NOT a positive state on the
 #   region algebra, so Tomita's positivity hypothesis -- used for Delta = S*S >= 0 and the polar
 #   decomposition S = J Delta^{1/2} -- FAILS in the indefinite metric.  Concretely: M Omega
 #   (= the whole space, Omega cyclic & separating) contains NEGATIVE Krein-norm vectors, so the
@@ -312,7 +312,7 @@ check("T6  the finite model is TYPE I (minimal projection + faithful trace exist
       f"minimal projection {proj_ok}, faithful trace {trace_faithful} => type I (not III)")
 
 # ================================================================================================
-# T7 -- REACHABILITY BOOLEANS (persona 5).  Assert the honest map so the file is self-documenting.
+# T7 -- REACHABILITY BOOLEANS (perspective 5).  Assert the honest map so the file is self-documenting.
 # ================================================================================================
 log("\n[T7] Reachability booleans for the Krein-modular-conjugation leg")
 reach = {

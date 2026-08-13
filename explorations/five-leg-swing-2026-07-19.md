@@ -6,7 +6,6 @@ created: 2026-07-19
 directed_by: "Joe direct chat, 2026-07-19 (evening, second big swing)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
 extends: explorations/adapter-assumed-four-leg-swing-2026-07-19.md
-claim_status_change: none
 ---
 
 # Five-leg swing
@@ -51,7 +50,7 @@ visibly fails, and the sector datum is locally inert (Q4 support).
 
 ## CH-COSMO — deepened
 
-Cross-link to Lane 2: DE-AMP-DIAGNOSTIC (READY) and DE-F1-TRIPWIRE
+Cross-link to prediction research: DE-AMP-DIAGNOSTIC (READY) and DE-F1-TRIPWIRE
 (MONITOR) become CH-COSMO's data-facing legs. The adapter supplies only
 the absolute scale; the SHAPE of the response (the magnitude mode's
 dynamics around the curvature-locked VEV) is GU-internal and confrontable

@@ -2,7 +2,6 @@
 title: "Source reinspection: I1B conormal symbol, observation weld and domain"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CONFIRMS_UPSTAIRS_ACTION_FIXED_EPSILON_TRANSLATION_AND_PULLBACK_OBSERVATION__SOURCE_GUIDES_NO_DUPLICATE_WELD__SOURCE_SILENT_ON_PREFERRED_SHIAB_NORMAL_DENSITY_NORMALIZATION_AND_DOMAIN
 ---
 

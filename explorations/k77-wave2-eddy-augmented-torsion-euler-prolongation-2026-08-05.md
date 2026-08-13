@@ -2,7 +2,6 @@
 title: "K77 Wave 2 eddy-completed augmented-torsion Euler prolongation"
 date: 2026-08-05
 status: PARTIAL_ACTION_EULER_FUNCTOR_BUILT_PRINTED_ENDPOINT_SUPERSEDED
-lane: "1"
 fork: "SIGNATURE_AMBIENT_7_7"
 grade: "Exact source/repo supersession collision; exact graded-cyclic identity-Shiab control; replay of the selected full-domain K77-B3 printed-endpoint obstruction; exact finite noncyclic Frechet-adjoint action Euler; exact two-connection path-average reconstruction; complete grade-one printed-rival principal ranks on positive, negative and null covectors; independent Sage replay. Full selected-Clifford action adjoint, action-owned degree-14 row, raw northeast owner, total fermion rendezvous, global domain, observation and physics remain open."
 ---

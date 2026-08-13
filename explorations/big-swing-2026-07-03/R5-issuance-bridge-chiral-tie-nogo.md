@@ -4,7 +4,6 @@ date: 2026-07-03
 status: exploration
 doc_type: crosswalk
 verdict: kill-of-one-leg   # decisive KILL of the chiral-tie sub-lead; NO claim promotion; NO target import
-lane: OBJ-TAF / LANE-ISSUANCE-BRIDGE (NEXT-STEPS)
 re_open_candidate: "deflation-false-negative-audit-2026-07-03.md, item 1 (the GU-native shiab-selector residual)"
 scripts:
   - tests/big-swing/R5_chiral_tie_nogo.py        # DECISIVE: invariant-Hom dims, no S+<->S- swap

@@ -9,7 +9,7 @@ updated_at: "2026-05-31"
 
 **artifact:** internal origin artifact
 **Status.** Local-only draft. Generated 2026-05-31. Single-page summary for Joe's walkthrough_review at validation/4.
-**Predecessor inputs.** `01-jordan-calm-formalization.md`, `02-option-b-metric-cointegration.md`, `03-bridge-to-gw-tests.md`, `04-five-persona-dialectic.md`.
+**Predecessor inputs.** `01-jordan-calm-formalization.md`, `02-option-b-metric-cointegration.md`, `03-bridge-to-gw-tests.md`, `04-five-perspective-dialectic.md`.
 
 ---
 
@@ -22,7 +22,7 @@ updated_at: "2026-05-31"
 
 The verdict is a **fourth option** not in internal origin artifact's seed list (JORDAN RECOVERS / OPTION B RECOVERS / NEITHER). The honest answer is layer-split: signed-real layer recovers, integer-index layer does not.
 
-This *confirms* the 21-persona meta-verdict's "layer-split" structural diagnosis (issue B, surfaced by 5 personas) and *strengthens* the internal origin artifact Option II-Retreat publication path by providing concrete technical machinery (JD-CALM and AC-CALM) for the propagation-layer positive result and the decision-layer negative result.
+This *confirms* the 21-perspective meta-verdict's "layer-split" structural diagnosis (issue B, surfaced by 5 perspectives) and *strengthens* the internal origin artifact Option II-Retreat publication path by providing concrete technical machinery (JD-CALM and AC-CALM) for the propagation-layer positive result and the decision-layer negative result.
 
 ---
 
@@ -36,7 +36,7 @@ A signed real-valued aggregate query `Q` is JD-CALM iff there exist `Q⁺, Q⁻ 
 - (J3) The sign classification `sign(x, I) ∈ {+, -}` at each site is computable from local data without coordination (Jordan-admissibility)
 - (J4) Readout is the signed subtraction `Q⁺ - Q⁻`
 
-This is the lifted-to-signed-real generalization of the PN-counter CRDT (Shapiro et al. 2011); the construction matches the internal origin artifact §19 Statistics persona's recommendation and aligns with Khare-Singh's signed-lattice-measure Jordan decomposition.
+This is the lifted-to-signed-real generalization of the PN-counter CRDT (Shapiro et al. 2011); the construction matches the internal origin artifact §19 Statistics perspective's recommendation and aligns with Khare-Singh's signed-lattice-measure Jordan decomposition.
 
 **Counterexample re-test outcome — `01` §4:**
 
@@ -91,7 +91,7 @@ Detail in `03` §1-2; summary table in `03` §5.
 
 This is the fourth-option verdict: **PARTIAL RECOVERY AT THE SIGNED-REAL LAYER; NO RECOVERY AT THE INTEGER-INDEX LAYER.** The closest of the three seed verdicts is "OPTION B RECOVERS BRIDGE" (generalized to include JD-CALM) read at the *bounded-error approximate level*; the integer-index extension is dead.
 
-Five-persona dialectic (`04`) converges 5/5 on this layer-split verdict. The 21-persona meta-assessment §S.2 issue B (layer conflation) and §S.4 honest-meta-verdict are *confirmed and strengthened* by this exploration: the signed-CALM repair gives concrete technical machinery (JD-CALM + AC-CALM) for the layer-split publication, not a recovery of the strong internal origin artifact / internal origin artifact claims.
+Five-perspective dialectic (`04`) converges 5/5 on this layer-split verdict. The 21-perspective meta-assessment §S.2 issue B (layer conflation) and §S.4 honest-meta-verdict are *confirmed and strengthened* by this exploration: the signed-CALM repair gives concrete technical machinery (JD-CALM + AC-CALM) for the layer-split publication, not a recovery of the strong internal origin artifact / internal origin artifact claims.
 
 **Smuggling check (per `04` P5):** definitions are not constructed to bias toward RECOVERS; the readout-target distinction (signed-real vs. integer-index) is structurally load-bearing, not an artifact of phrasing. The verdict is not being smuggled.
 
@@ -102,16 +102,16 @@ Five-persona dialectic (`04`) converges 5/5 on this layer-split verdict. The 21-
 At validation/4 + joe + walkthrough_review, Joe needs to decide:
 
 **Q1. Is the layer-split verdict the right honest reading?**
-Recommendation: yes. The signed-CALM exploration confirms (rather than overturns) the 21-persona meta-verdict's layer-split structural diagnosis. JD-CALM + AC-CALM are the technical machinery, not a strong-claim recovery.
+Recommendation: yes. The signed-CALM exploration confirms (rather than overturns) the 21-perspective meta-verdict's layer-split structural diagnosis. JD-CALM + AC-CALM are the technical machinery, not a strong-claim recovery.
 
-**Q2. Does this change the internal origin artifact publication-path decision (Option II-Retreat from the 21-persona meta-verdict §S.5)?**
+**Q2. Does this change the internal origin artifact publication-path decision (Option II-Retreat from the 21-perspective meta-verdict §S.5)?**
 Recommendation: yes — *strengthen* Option II-Retreat by adding the JD-CALM and AC-CALM technical machinery to the single-paper scope. The propagation-layer positive result now has concrete content ("the GW signed-real axial-charge aggregate is JD-CALM via per-sign decomposition; cross-replica consistency is bounded by `2 ε(r)` under AC-CALM with metric cointegration to the GW kernel's locality scale"). The decision-layer negative result has explicit form ("the integer topological-index readout requires either an unbounded-truncation limit outside bounded-radius CALM or a non-CALM rounding step; V2's counterexample at the rounding step is unavoidable"). The retreat publication becomes a *better* paper with concrete CALM-side machinery, not just a layer-split observation.
 
 **Q3. Should a separate pool candidate spawn for "Bounded-Variation CALM as a TCS contribution"?**
-Recommendation: yes. The 21-persona §S.5 already named this as a pool candidate ("Jordan-decomposed signed-CALM for bounded-variation distributed observables"); this exploration confirms the construction is real and novel. A TCS-side paper at LMCS / Theory of Computing on "Signed-CALM: Jordan-Decomposed Coordination-Free Computation for Bounded-Variation Aggregates" is a genuinely-new TCS direction inspired by the GW-bridge failure and now technically grounded by internal origin artifact. Note: this would be a *separate* publication from the GW-bridge retreat paper, targeting a TCS audience with the GW-bridge use case as one motivating application.
+Recommendation: yes. The 21-perspective §S.5 already named this as a pool candidate ("Jordan-decomposed signed-CALM for bounded-variation distributed observables"); this exploration confirms the construction is real and novel. A TCS-side paper at LMCS / Theory of Computing on "Signed-CALM: Jordan-Decomposed Coordination-Free Computation for Bounded-Variation Aggregates" is a genuinely-new TCS direction inspired by the GW-bridge failure and now technically grounded by internal origin artifact. Note: this would be a *separate* publication from the GW-bridge retreat paper, targeting a TCS audience with the GW-bridge use case as one motivating application.
 
 **Q4. Any change to the repo public-surface refresh (internal origin artifact)?**
-Recommendation: none beyond the 21-persona meta-verdict's existing recommendation (Option B Sector-I-and-DG-only, not Option A full bundle). The signed-CALM exploration is *local research*; it should not push to repo public surfaces until the internal origin artifact publication-path decision is reopened and the Option II-Retreat paper drafted.
+Recommendation: none beyond the 21-perspective meta-verdict's existing recommendation (Option B Sector-I-and-DG-only, not Option A full bundle). The signed-CALM exploration is *local research*; it should not push to repo public surfaces until the internal origin artifact publication-path decision is reopened and the Option II-Retreat paper drafted.
 
 **Q5. Hard rules — confirm no canon writes, no work.json edits, no repo writes.**
 Confirmed. This artifact's output is entirely in internal draft artifact. No `Github Repos/` writes. No public push. No canon writes. No work.json edits.

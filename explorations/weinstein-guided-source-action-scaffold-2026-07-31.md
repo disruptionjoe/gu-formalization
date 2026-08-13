@@ -4,12 +4,10 @@ status: active_research
 doc_type: construction_scaffold
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T130016Z-eric-guided-source-action/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/weinstein_guided_source_action_probe.py
 grade: "GUIDANCE-CONDITIONED SCAFFOLD WITH EXACT FINITE OPENING RECEIPT. The tilted-cocycle, double-coset displacement, invariant source shadow, first variation, chart transport, and Ward identity pass 14 exact rational-matrix checks; four planted false claims fail. No global quotient, native bosonic Shiab, full source action, VEV, Higgs/Yukawa, stationarity, CME, mass, index, count, cosmological amplitude, or prediction is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Weinstein-guided source action and datum scaffold

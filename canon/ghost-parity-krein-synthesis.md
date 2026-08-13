@@ -140,7 +140,7 @@ the dynamical completion is the open frontier and is identical to GU's long-stan
 
 ## Distler-Garibaldi: a candidate inside-the-class evasion (new seventh axis)
 
-The CapacityOS no-go-map (`work/drafts/wrk-376-gu-no-go-map/no-go-map.md`, cross-built against the
+The private orchestration overlay no-go-map (`work/drafts/wrk-376-gu-no-go-map/no-go-map.md`, cross-built against the
 six-axis protocol `wrk-375-gu-six-axis`) singles out **Distler-Garibaldi as the stress case**: every
 published evasion (E8xE8 heterotic, SO(3,11) GraviGUT, K(E10) Kac-Moody) *leaves the single-group class*,
 and "there is no known richer-substrate datum that lives inside single-E8 representation theory and

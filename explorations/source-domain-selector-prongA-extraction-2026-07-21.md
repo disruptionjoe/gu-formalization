@@ -5,11 +5,9 @@ doc_type: exploration
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (SOURCE-DOMAIN-SELECTOR swing, Prong A execution)"
 prereg: explorations/prereg-source-domain-selector-swing-2026-07-21.md
-portfolio_item: OPERATOR-END-PENCIL (Lane 1) + serves B5-MIDDLE-DIFFERENTIAL + touches CONSTRUCTION-SPACE L7
+portfolio_item: OPERATOR-END-PENCIL (truth-status research) + serves B5-MIDDLE-DIFFERENTIAL + touches CONSTRUCTION-SPACE L7
 outcome: S-SILENT-OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

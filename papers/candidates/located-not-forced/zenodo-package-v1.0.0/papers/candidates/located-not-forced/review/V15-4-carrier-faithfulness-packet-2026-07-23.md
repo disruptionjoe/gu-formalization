@@ -66,10 +66,10 @@ these type qualifiers at every load-bearing use.
 From the repository root:
 
 ```sh
-/Users/joe/Brain/CapacityOS/_local/venvs/research-compute/bin/python \
+<workspace>/_local/venvs/research-compute/bin/python \
   papers/candidates/located-not-forced/reproduce_all.py
 
-/Users/joe/Brain/CapacityOS/_local/venvs/research-compute/bin/python \
+<workspace>/_local/venvs/research-compute/bin/python \
   tests/lorentzian-transfer/physical_signature_transfer_audit.py
 ```
 

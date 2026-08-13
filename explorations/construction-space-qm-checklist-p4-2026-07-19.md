@@ -62,7 +62,7 @@ already happened.
 
 ## Handoff
 
-P4 is complete at checklist-conversion strength. Next Lane 1 work is
+P4 is complete at checklist-conversion strength. Next truth-status research work is
 `P5-SOURCE-OBJECT-SPEC`: derive the frozen source-object interface contract
 from the GR, QM, COSMO, and SM sharp lists plus standing lemmas. P6 conditional
 interior work follows after the spec. No paper seed is present.

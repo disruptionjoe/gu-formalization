@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; THE PIVOT; deterministic test)
+status: exploration (5-perspective inline team; THE PIVOT; deterministic test)
 created: 2026-07-12
 hypothesis: THE PIVOT -- sign(f_0^2) at GU's TRUE UV fixed point, deciding four coupled questions at once
 branch: "W82 -- compute the ker-Gamma RS heat-kernel native input (the transverse gamma-traceless spin-3/2 a_2), locate GU's fixed point(s) in the enlarged (g,lambda,f_2^2,f_0^2) truncation, and determine sign(f_0^2) at GU's GENUINE UV completion. TWO derivations: (D1) direct enlarged fixed-point search; (D2) Landau-pole / critical-surface consistency."
@@ -53,7 +53,7 @@ each; (3) it confronts the **selection** question honestly. Test: `tests/W82_tru
 | **Gravity action** | GU-native induced `\|II\|^2 -> ` 4th-order Stelle `(f_2^2,f_0^2)` (H49), enlarged by the induced Einstein-Hilbert `(g,lambda)` (induced `-R^X` gamma>0 H25; DeWitt Lambda) | The enlarged FP search lives here. **GU's induced action CONTAINS the EH sector** -- the presence of the linear terms that de-slave `f_0^2` is the lean toward AS-availability. |
 | **arena/value** | H62/W80: arena = forced; value = free relevant direction | `sign(f_0^2)` = arena (forced) on AF; value (free) at the Reuter FP. The de-forcing IS the escape. |
 
-## 1. Persona 1 -- FRG / higher-derivative-gravity specialist: the native input, the FPs, the sign
+## 1. Perspective 1 -- FRG / higher-derivative-gravity specialist: the native input, the FPs, the sign
 
 ### 1.1 THE NATIVE INPUT (E1's number), computed
 
@@ -120,7 +120,7 @@ A relevant direction is a **free boundary condition**, not pinned by the FP. So 
 single input the W79/W80 no-go rested on is **removed** on the AS completion. **Honest register:** this
 is de-forcing / liftability, NOT a computed forced-positive GU sign.
 
-## 2. Persona 2 -- math referee: real FP or artifact? sign computed or assumed? AF-vs-AS principled?
+## 2. Perspective 2 -- math referee: real FP or artifact? sign computed or assumed? AF-vs-AS principled?
 
 - **The native input is genuinely COMPUTED, not assumed.** `d_RS_R2 = 0` follows from the
   Weyl-invariance of the massless gamma-traceless carrier, confirmed by the literature `a_2`. This is
@@ -140,7 +140,7 @@ is de-forcing / liftability, NOT a computed forced-positive GU sign.
   a **selection** argument. The referee therefore forbids an AS-CLOSES headline and requires
   TRUNCATION-AMBIGUOUS. Grade on the pivot: MEDIUM.
 
-## 3. Persona 3 -- adversary (presses all three verdict branches)
+## 3. Perspective 3 -- adversary (presses all three verdict branches)
 
 **"The true FP is AF, so the no-go stands."** Strong on its own terms: the one-loop flow GU actually
 realizes IS the Gaussian/AF route, and the native `d_RS_R2 = 0` (now computed) means nothing native
@@ -164,7 +164,7 @@ make the no-go unconditional.
 AF and free on AS; which is GU's true UV completion is the open computation. Neither branch is
 established; neither is excluded.
 
-## 4. Persona 4 -- cross-checker: second derivation + the literature
+## 4. Perspective 4 -- cross-checker: second derivation + the literature
 
 - **Second derivation (D2, Landau-pole / critical-surface), independent of D1's algebra.** AF leg: a
   `f_0^2 > 0` start Landau-poles (not AF-complete), so the AF-complete branch is forced-negative --
@@ -183,7 +183,7 @@ established; neither is excluded.
   the AF branch. Every load-bearing fact matches a known result; the new increment is the *native
   computation* of `d_RS_R2 = 0` for GU's exact construction.
 
-## 5. Persona 5 -- synthesizer: the verdict
+## 5. Perspective 5 -- synthesizer: the verdict
 
 **NATIVE INPUT (computed).** The ker-Gamma RS (transverse gamma-traceless spin-3/2) heat kernel gives
 `a_2 = (7/20)W^2 + (31/120)E_4 + 4m^2R + 36m^4`: `W^2 > 0` (anti-screens; sign of `c_RS_weyl`) and **no

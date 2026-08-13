@@ -7,7 +7,7 @@ updated_at: "2026-06-30"
 
 # Substrate layer for the observer-issuance integration (one-way pointer)
 
-Exploration pointer, 2026-06-30, from a 15-persona council synthesis of a Joe hypothesis. Recorded for
+Exploration pointer, 2026-06-30, from a 15-perspective council synthesis of a Joe hypothesis. Recorded for
 completeness. **One-way, method/structure-level only; never GU evidence, never a GU<->TaF/TI bridge.**
 
 ## The role GU plays (and only this role)

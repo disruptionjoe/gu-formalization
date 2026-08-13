@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260802-122445-gu-formalization-ecw3d-b2c15r3-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2c15r3-same-bundle-native-variation-observation-support.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c15r3_same_bundle_native_variation_observation_support_probe.py
 grade: "PARTIAL CONSTRUCTION PASS WITH ABSTRACT REDUCED DESCENT, STRUCTURAL INDUCED-BUNDLE COMPARATOR, DECLARED-GERM DERIVED-K ACTION RESPONSE, TEN-FIBRE SECTION CURRENT, AND FULL-ORDER2 STOP"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C15R3 same-bundle descent, derived split, and observation support

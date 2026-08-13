@@ -20,9 +20,7 @@ inputs:
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 runnable:
   - tests/channel-swings/smatrix_sector_face_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

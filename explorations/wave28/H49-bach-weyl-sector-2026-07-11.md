@@ -7,10 +7,10 @@ wave: 28
 grade: "COMPUTED for the Bach-identification (linearized Bach on TT recomputed from scratch = -1/4 box^2 h, i.e. box^2 h = -4 Bach, exact sympy), the two-pole/residue structure, the 7-DOF/5-extra polarization count, and the mu_DW-parametrized Stelle-Yukawa ranges + GW-dispersion scales (tests/wave28/H49_bach_weyl_sector.py, exit 0, all PASS). ARGUED for the refutation-transfer verdicts (grounded in H23/H26 residual-0 facts and the H45 binary) and the two class no-go assessments. Published bounds (Cassini, GW170817, Eot-Wash, Horne, Hobson-Lasenby, Stelle, Mannheim) used in comparison only; no target number imported; no count number touched. Tree left dirty."
 depends_on:
   - tests/wave28/H49_bach_weyl_sector.py
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
-  - explorations/two-track-persona-sweep-2026-07-11/A-orthodox-rigor.md
-  - explorations/two-track-persona-sweep-2026-07-11/C-foundations-observer.md
-  - explorations/two-track-persona-sweep-2026-07-11/E-pragmatic-experimental.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/A-orthodox-rigor.md
+  - explorations/two-track-perspective-sweep-2026-07-11/C-foundations-observer.md
+  - explorations/two-track-perspective-sweep-2026-07-11/E-pragmatic-experimental.md
   - explorations/wave24/H45-H2-vs-II2-binary-2026-07-11.md
   - explorations/wave22/H10-ppn-weak-field-2026-07-11.md
   - explorations/wave23/H26-loop-ghost-unitarity-2026-07-11.md

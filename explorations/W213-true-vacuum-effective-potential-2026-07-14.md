@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W213; TEAM EFFECTIVE-POTENTIAL / VARIATIONAL; five personas inline, one worker, no sub-agents; deterministic test 24/24 exit 0, six positive controls first)
+status: exploration (W213; TEAM EFFECTIVE-POTENTIAL / VARIATIONAL; five perspectives inline, one worker, no independent reviewers; deterministic test 24/24 exit 0, six positive controls first)
 created: 2026-07-14
 wave: W213
 label: W213
@@ -38,7 +38,7 @@ the native scalaron / record-count mode is tachyonic (`m_0^2 = -1/4 < 0`, MSS sl
 vacuum EXISTS but is out-of-validity and unbuilt. Build `V_eff(phi)` for the record-count mode,
 find the true minimum `v*`, compute the spectrum, check boundedness, and answer four questions.
 
-Five personas ran inline in one worker, sequentially (no sub-agents): (1) effective-potential
+Five perspectives ran inline in one worker, sequentially (no independent reviewers): (1) effective-potential
 specialist, (2) variational analyst, (3) spectrum / stability checker, (4) record-count-mode
 specialist, (5) ruthless skeptic. Deterministic test
 `tests/W213_true_vacuum_effective_potential.py`, **24/24, exit 0, six positive controls first**.
@@ -64,7 +64,7 @@ So the built effective / variational object is `E(u, v) = V(u) + K(v)`: the indu
 sector `V` on the constant-curvature (record-count) slice `sigma = u * eta`, plus the DBI kinetic
 `K`. A true vacuum is an interior MINIMUM of `E`.
 
-## 1. Persona 1 (effective-potential specialist) -- build V_eff, search for v* (Q1)
+## 1. Perspective 1 (effective-potential specialist) -- build V_eff, search for v* (Q1)
 
 Building the potential sector directly on the record-count slice (the verbatim W126 Route-1
 machinery, regression-pinned by PC1-PC2):
@@ -83,7 +83,7 @@ parabola must; there is no second extremum for a true vacuum to sit at. And it i
 condensate vev `v*` is not realized as a stationary point of `V_eff`. This is not a truncation
 artifact: it is the exact degree-2 structure (W126), and W203 adds nothing to it.
 
-## 2. Persona 2 (variational analyst) -- the full DBI energy functional (Q1, Q4)
+## 2. Perspective 2 (variational analyst) -- the full DBI energy functional (Q1, Q4)
 
 Add the kinetic sector and minimize the full static energy `E(u, v) = V(u) + K(v)`. Critical
 points factorize: `dE/dv = K'(v) = 0` and `dE/du = V'(u) = 0`.
@@ -107,7 +107,7 @@ needed is the non-perturbative record-condensed completion (W154 source action /
 `T4`), currently UNBUILT and not shown stable (W163 NPV5). This converges exactly with W159 route
 2 and W163 NPV4.
 
-## 3. Persona 3 (spectrum / stability checker) -- real? bounded? (Q2)
+## 3. Perspective 3 (spectrum / stability checker) -- real? bounded? (Q2)
 
 There is no true-vacuum minimum to expand around, so the only accessible spectrum is at the
 tachyonic top (the false vacuum) -- the native GU poles (W130), block-diagonal in spin:
@@ -130,7 +130,7 @@ spin-2 (TT graviton):              m_2^2 = -1/4
 TACHYONIC and unbounded-below -> **PATHOLOGICAL** as a vacuum. There is no in-validity minimum to
 host a real, bounded, sensible spectrum.
 
-## 4. Persona 4 (record-count-mode specialist) -- does the W166 reading hold at v*? (Q3)
+## 4. Perspective 4 (record-count-mode specialist) -- does the W166 reading hold at v*? (Q3)
 
 The record-count mode IS the conformal / scale mode `p`; `N = 4-volume ~ e^{4p}` is strictly
 monotone (`dN/dp = 4 e^{4p} > 0`, `RC1a`). `m_0^2 = -1/4 < 0` makes the homogeneous mode
@@ -146,7 +146,7 @@ evaluated AT a static true vacuum because none exists in validity** (`RC1d`). Th
 is the rolling de-Sitter attractor itself, not a stationary minimum with a rest spectrum. This is
 consistent with W166 (engine) and W163 NPV5c (monotone rolling, not a stable minimum).
 
-## 5. Persona 5 (ruthless skeptic) -- pin the verdict; do not over- or under-claim
+## 5. Perspective 5 (ruthless skeptic) -- pin the verdict; do not over- or under-claim
 
 - **Is "RUNAWAY-NO-VACUUM" an overclaim?** Partly -- W163's `Im V_eff != 0` certifies a true
   vacuum EXISTS. Concede and state precisely: a true vacuum EXISTS but is OUT-OF-VALIDITY (4x
@@ -233,9 +233,9 @@ disagreement would mean:
 
 *Filed 2026-07-14 by Team EFFECTIVE-POTENTIAL / VARIATIONAL (W213), 1 of 5 convergence teams.
 Route: build V_eff for the record-count mode from the W203 forced action + the W126 DBI gradient;
-find v*; compute the spectrum; check boundedness. Five personas inline in one worker
+find v*; compute the spectrum; check boundedness. Five perspectives inline in one worker
 (effective-potential specialist; variational analyst; spectrum / stability checker;
-record-count-mode specialist; ruthless skeptic); no sub-agents. Reproducible:
+record-count-mode specialist; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W213_true_vacuum_effective_potential.py` (24/24, exit 0; six positive controls
 first). Exploration grade; conditional register; RUTHLESS self-verification; no canon movement;
 tri-repo gating strict; the debit count stays {1,3}; H59 OPEN; bar (b) UNCHANGED. VERDICT:

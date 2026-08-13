@@ -3,13 +3,11 @@ title: "Decision tree Q1a: the LP/LC horn is blocked by missing end asymptotics;
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-directed_by: "CAI repository work cycle RUN-20260721-073617-repository-work-cycle-cai-hourly"
+directed_by: "CAI repository work cycle historical-investigation"
 program: explorations/prereg-three-object-decision-tree-2026-07-21.md
 question: Q1a
 outcome: Q1A-END-ASYMPTOTICS-BLOCKED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

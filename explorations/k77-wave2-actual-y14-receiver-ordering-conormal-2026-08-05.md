@@ -1,7 +1,6 @@
 ---
 title: "K77 Wave 2: actual-Y14 receiver ordering and conormal obstruction"
 date: 2026-08-05
-lane: 1
 status: PARTIAL_WITH_NAMED_MOVEMENT
 named_gate: K77_ACTUAL_Y14_EULER_RECEIVER_FAITHFUL_MODULE_AND_COMMON_GREEN_DOMAIN
 fork_assumed: SIGNATURE-AMBIENT

@@ -5,13 +5,10 @@ doc_type: node_result
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (pre-registered Node A: trit symmetry group)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-lane: 1
 channel: TRIT-INTERPRETATION
 binding: explorations/prereg-trit-symmetry-and-fork-2026-07-20.md (commit cafcbc7)
 provenance_grade: node result (executes the bound Node A gate; asserts nothing beyond the cited frozen receipts + the exact group computation)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Node A -- the trit's symmetry group (S_3 vs Z/3)
@@ -27,7 +24,7 @@ of the three order-3 sectors -- the three are INTERCHANGEABLE, the label camp
 is live) or only **Z/3** (three rotations, orientation survives, contradicting
 triage)? Build from the frozen commutant/sector structure only.
 
-## What the run finds -- OUTCOME A-S3
+## What the investigation finds -- OUTCOME A-S3
 
 The group is **S_3 (order 6, nonabelian) = D_3**: the full symmetric group on
 the three sectors. All six permutations are realized; A-S3 fires; A-Z3 does not.

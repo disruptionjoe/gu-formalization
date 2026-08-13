@@ -10,7 +10,7 @@ provenance: "Read-only council seat, anchor-and-triangulate campaign. Nothing ex
 
 Anchor #1 (RECORDS↔DE). Read-only; nothing executed. Layer-0 typing applied to every load-bearing shared term before use.
 
-**Front-load: the pack's citation for my own anchor is wrong.** `lab/process/agent-context-pack.md:46-50` cites `explorations/W187-law-shadow-reduction-audit-2026-07-14.md` for `r(N)=κ₀√N`. That file contains no `r(N)` — it is a law/shadow block-Hessian audit. Two files carry `label: W187`. The record-accretion law lives in `explorations/W187-gu-dressed-open-selfenergy-2026-07-14.md` §3 + `tests/W187_gu_dressed_open_selfenergy.py`. **VERIFIED_REPO_DISCONNECT.** Anyone following the pack lands on the wrong document.
+**Front-load: the pack's citation for my own anchor is wrong.** `lab/process/CURRENT-RESEARCH-CONTEXT.md:46-50` cites `explorations/W187-law-shadow-reduction-audit-2026-07-14.md` for `r(N)=κ₀√N`. That file contains no `r(N)` — it is a law/shadow block-Hessian audit. Two files carry `label: W187`. The record-accretion law lives in `explorations/W187-gu-dressed-open-selfenergy-2026-07-14.md` §3 + `tests/W187_gu_dressed_open_selfenergy.py`. **VERIFIED_REPO_DISCONNECT.** Anyone following the pack lands on the wrong document.
 
 ---
 
@@ -186,7 +186,7 @@ Net: the rise must come from the non-monotone **fluctuation**, whose amplitude i
 
 # 5. COVERAGE
 
-**Read in full:** `lab/process/agent-context-pack.md`; `canon/theta-field-flrw-dark-energy-eos.md` (incl. DARK-ENERGY-07); both W187 files; `explorations/W185-record-energy-economy-toy-model-2026-07-14.md`; `tests/wave25/H44_de_backreacted_background.py` (background solver); `tests/wave46/H46C_theta_star_cmb_calibration.py` (header/calibration spec).
+**Read in full:** `lab/process/CURRENT-RESEARCH-CONTEXT.md`; `canon/theta-field-flrw-dark-energy-eos.md` (incl. DARK-ENERGY-07); both W187 files; `explorations/W185-record-energy-economy-toy-model-2026-07-14.md`; `tests/wave25/H44_de_backreacted_background.py` (background solver); `tests/wave46/H46C_theta_star_cmb_calibration.py` (header/calibration spec).
 
 **Read in relevant part (grep + targeted):** `canon/dark-energy-theta-divergence-free.md`; `explorations/W129-oq2-m2-band-sweep-de-exclusion-2026-07-14.md`; `explorations/W220-falsify-dark-energy-vs-desi-2026-07-14.md`; `explorations/W242-desi-intake-and-hourly-prediction-queue-2026-07-15.md`; `explorations/W154-reverse-engineered-source-action-2026-07-14.md`; `explorations/W158-promotion-gate-boundary-term-C3-2026-07-14.md`; `explorations/W215-true-vacuum-dynamical-systems-2026-07-14.md`; `explorations/W230-close-a4-derive-w154-2026-07-14.md`; `explorations/W146-substrate-sweep-theoretical-physics-2026-07-14.md`; `explorations/W151-gr-and-c-emergence-from-records-2026-07-14.md`; `lab/process/improvement-register-2026-08-03.md` (M-H12/M-H13/M-M18); `lab/process/eleven-lens-audit-2026-08-03.md` (B13); `RESEARCH-STATUS.md` DE rows + tri-repo fence; `tests/wave20/H43_de_shape_falsifier.py`; `tests/wave29/H46_de_raw_bao_likelihood.py`; `tests/W129_oq2_m2_band_sweep.py`.
 

@@ -19,8 +19,8 @@ reuses:
 depends_on:
   - "explorations/generation-sector/oq-rk1-e-rs-eff-specification-2026-06-26.md"
   - "explorations/vz-evasion/af4-tau-rs-gauge-fixing-2026-06-23.md"
-  - "explorations/hourly-cycles/hourly-20260625-0502-cycle2-author-manuscript-rs-differential-receipt-gate.md"
-  - "explorations/hourly-cycles/hourly-20260626-1302-cycle3-tau-action-field-space-declaration-spec.md"
+  - "explorations/research-cycles/hourly-20260625-0502-cycle2-author-manuscript-rs-differential-receipt-gate.md"
+  - "explorations/research-cycles/hourly-20260626-1302-cycle3-tau-action-field-space-declaration-spec.md"
   - "canon/shiab-existence-cl95.md"
   - "lab/literature/weinstein-ucsd-2025-04-transcript.md"
 ---
@@ -99,7 +99,7 @@ GU's own primary source, that this object is absent:
   `hourly-20260626-1302-cycle3` verdict: "declaration uninhabited"; the trichotomy
   `FULL_IG_FREE_BETA / FIXED_ALEPH_GRAPH / DYNAMIC_A_GRAPH` is source-unselected.
 
-## 3. The load-bearing machine fact, re-verified this run in BOTH models
+## 3. The load-bearing machine fact, re-verified this investigation in BOTH models
 
 If the pure-gauge image `im(d_A)` were annihilated inside the gamma-trace kernel,
 then `R^phys = ker(Gamma)/im(gauge)` would be a clean subspace subtraction and **no

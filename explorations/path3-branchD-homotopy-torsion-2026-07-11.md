@@ -67,9 +67,9 @@ So `R^3 = V0 (+) V1` as a real Z/3-representation: `trivial (+) standard`. The f
 
 ---
 
-## 4. The force-vs-bound analysis (5 personas, inline)
+## 4. The force-vs-bound analysis (5 perspectives, inline)
 
-### Persona 1 -- stable-homotopy / torsion theorist: the invariant-subspace structure
+### Perspective 1 -- stable-homotopy / torsion theorist: the invariant-subspace structure
 The realized family space `V` must be a **real Z/3-invariant subspace** of `R^3`. Because `R^3 = V0 (+) V1`
 with `V1` real-irreducible, the invariant subspaces are exactly the sub-sums:
 `{0}, V0, V1, R^3` -- dims **`{0, 1, 2, 3}`** (computed in the test from the real-irreducible block
@@ -85,7 +85,7 @@ subspace has **odd** real dim **iff** it contains the fixed line `C_1`. Hence th
 So the located-not-forced `{1,3}` is exactly: *do you or do you not realize the charged pair on top of the
 neutral fixed axis?*
 
-### Persona 2 -- math referee: grade each claim
+### Perspective 2 -- math referee: grade each claim
 - `dim Lambda^2_+ = 3`; `R^3 = trivial (+) standard` under Z/3; invariant dims `{0,1,2,3}`; odd `= {1,3}`;
   `tr(g) = 0`; `R^3` irreducible under connected SO(3): **all THEOREM-grade** (elementary rep theory,
   reproduced exactly).
@@ -95,7 +95,7 @@ neutral fixed axis?*
   are bounds/menus. It does **not** single out a value. Any claim that Z/3 "forces 3" is a BOUND masquerading
   as a FORCING.
 
-### Persona 3 -- adversary: attack the forcing claim
+### Perspective 3 -- adversary: attack the forcing claim
 > "You want rank 3 = all of `Lambda^2_+`. But the fixed axis `V0` is a perfectly good Z/3-invariant subspace:
 > nothing in the order-3 action forbids the realized content from being **exactly** the neutral fixed axis
 > (rank 1). Did you assume the whole self-dual bundle is realized? That's the ceiling, i.e. the answer, smuggled
@@ -106,7 +106,7 @@ neutral fixed axis?*
 This attack **stands**. The test's F6 confirms irreducibility mis-selects 2. The fixed axis survives every
 order-3 condition.
 
-### Persona 4 -- cross-checker: the residue trap, independently
+### Perspective 4 -- cross-checker: the residue trap, independently
 Any selector that is a **class function** of the order-3 element `g` (a character, a mod-3 residue, an
 equivariant/mod-3 index) evaluates the same on rank 3 as on the trivial sector:
 - `tr(g | R^3) = 0` (the full-space character vanishes);
@@ -118,7 +118,7 @@ same collision the repo's H39/H40 flagged (`net index 3 == 0 mod 3 == carrier-A 
 scratch on the bare `SO(3)` character. It is a genuine, class-wide obstruction to **certifying** 3 with any
 order-3 datum.
 
-### Persona 5 -- synthesizer: the verdict
+### Perspective 5 -- synthesizer: the verdict
 The Z/3 torsion action **bounds** the count (ceiling `dim Lambda^2_+ = 3`; menu `{1,3}` with oddness) and
 **cannot force** 3 over 1: the fixed axis is invariant and residue-indistinguishable. The only thing that turns
 the bound into a forcing is **promoting the discrete order-3 element to the full connected group**:

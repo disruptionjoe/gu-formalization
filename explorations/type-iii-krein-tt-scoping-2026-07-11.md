@@ -301,8 +301,8 @@ math extension but split into two distinct devices; Lens 3 is the physics sidest
 **Shape: five blind branches, cross-shared adversary, eta_C as the gating decider.**
 
 1. **Run all five branches BLIND** (each in its own construction, per GEOMETER-VS-PHYSICS-OBJECTS.md; no
-   branch synthesizes across the others -- the standing blind-branch discipline). Personas ALWAYS inline
-   within each branch (never per-persona agents).
+   branch synthesizes across the others -- the standing blind-branch discipline). Perspectives ALWAYS inline
+   within each branch (never per-perspective agents).
 
 2. **eta_C (Branch 1) is the GATING decider, not just a peer.** It is the cheapest and most decisive. In
    synthesis, its result gates the others:

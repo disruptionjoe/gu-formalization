@@ -5,7 +5,6 @@ doc_type: exploration
 created: 2026-07-19
 source: "Joe-supplied secondary excerpt (Jaimungal interview with P. Mannheim), 2026-07-19; primaries already in repo citation chain (Bender-Mannheim arXiv:0706.0207; Mannheim arXiv:1101.2186; cross-exam 2026-07-06)"
 provenance_grade: primary_verified_with_corrections  # flipped 2026-07-19: arXiv:2104.03708 + arXiv:2004.00376 read in full; see explorations/d1-coperator-build-2026-07-19.md Section 1 (corrections C1-C6)
-claim_status_change: none
 ---
 
 # Mannheim PT material: three specific jobs in the current program

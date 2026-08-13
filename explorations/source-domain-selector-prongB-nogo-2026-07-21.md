@@ -10,12 +10,10 @@ inputs:
   - explorations/continuum-pencil-graph-domain-certificate-2026-07-20.md
   - explorations/continuum-pencil-domain-gate-2026-07-20.md
   - canon/source-action-seiberg-witten-construction.md
-portfolio_item: OPERATOR-END-PENCIL (Lane 1) + serves B5-MIDDLE-DIFFERENTIAL + touches CONSTRUCTION-SPACE L7
+portfolio_item: OPERATOR-END-PENCIL (truth-status research) + serves B5-MIDDLE-DIFFERENTIAL + touches CONSTRUCTION-SPACE L7
 outcome: B-MULTIPLICITY
 probe: tests/channel-swings/source_domain_selector_prongB_probe.py (foreground, EXIT 0)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---

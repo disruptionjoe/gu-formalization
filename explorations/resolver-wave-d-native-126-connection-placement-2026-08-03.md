@@ -6,9 +6,7 @@ status: exploration
 posture: adversarial; Layer-0-first; construction-first; exact exterior algebra and native finite matrices
 title: "A native grade-six contraction emits a real 252 kernel; source-owned moving full-20 placement remains open"
 grade: "EXACT local Spin(6,4) and full-Spin(9,5) algebra plus finite native K/right-H/C/full-20 incidence; moving full-Sp descent, total P0/Y placement, source selection, VEV, and mass remain open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 route_disposition: CONTINUE
 hostile_review_status: PASS_AFTER_REPAIRS
 depends_on:

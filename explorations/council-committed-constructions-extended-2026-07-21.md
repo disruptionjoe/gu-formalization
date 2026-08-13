@@ -3,14 +3,12 @@ title: "Extended Council — four committed substrate-constructions of the σ/θ
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Extended Council: four committed constructions
 
-Four members, each an inline persona pass in one worker. Each ASSUMES its
+Four members, each an inline perspective pass in one worker. Each ASSUMES its
 substrate is literally the correct fundamental ontology of reality and builds the
 most coherent, committed, strongly-opinionated version of the FULL story
 (σ, the shards/generations, the null-stratum boundary, the record arrow, the

@@ -3,7 +3,7 @@ title: "P-LATTICE-SCHEMA-FREEZE: total typed signatures without inferred default
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-run_ref: RUN-20260721-043714-repository-work-cycle-cai-hourly
+run_ref: historical-investigation
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 outcome: P-LATTICE-SCHEMA-FROZEN
 test: tests/recovery-contract/construction_space_lattice_schema_freeze.py
@@ -96,7 +96,7 @@ construction-side tags, then propagate only explicitly inherited values to
 C2/C3/C5/C10. Enumeration remains forbidden until at least one complete tuple
 passes the compatibility gate.
 
-`P-OBS-LEG` remains an awake Lane 2 alternative. B5 remains parked at
+`P-OBS-LEG` remains an awake prediction research alternative. B5 remains parked at
 `B5-MIDDLE-SOURCE-GAP`; the schema does not fill or route around its missing
 differential. No claim, canon, verdict, grade, or public posture changes.
 

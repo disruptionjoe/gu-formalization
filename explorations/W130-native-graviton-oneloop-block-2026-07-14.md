@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; deterministic test)
+status: exploration (5-perspective inline team; deterministic test)
 created: 2026-07-14
 hypothesis: "W123 residual / flagship referee vulnerability 2 -- the repo has NO GU-native computation of the graviton one-loop block; the UV/tachyon chain's pure-gravity coefficients are ported"
 branch: "W130 -- the GU-native graviton one-loop block, staged honestly: (A) the quadratic fluctuation operator of GU's induced |II|^2 gravity around flat space, computed natively in the pinned Convention-B construction, with the exact basis map onto the literature's fourth-order coupling space; (B) the one-loop divergent/log coefficients of GU's operator -- fourth-order route evaluated at GU's ACTUAL coefficient point, plus an exact second-order (Gilkey) route on every block it can reach; (C) does anything in the tachyon-chain beta system change at the native point?"
@@ -39,7 +39,7 @@ AS/Reuter-branch rescue to ported relevance signs and named the native graviton 
 settling computation. W130 attacks the gap in the staged, honest order: first the OPERATOR (Stage
 A), then the COEFFICIENTS at GU's actual point (Stage B), then the VERDICT on the chain (Stage C).
 
-Five personas inline, one context, no sub-agents. Deterministic test:
+Five perspectives inline, one context, no independent reviewers. Deterministic test:
 `tests/W130_native_graviton_oneloop_block.py` (exact sympy throughout, exit 0).
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -52,7 +52,7 @@ Five personas inline, one context, no sub-agents. Deterministic test:
 | **Which f_0^2 / f_2^2** | agravity couplings DERIVED from the operator poles + the SS mass anchors: f_0^2 = +1/(6 c_R), f_2^2 = -1/(2 c_W) | Not defaulted: the R^2 joint reproduces W123's B3 pin; the C^2-channel MINUS sign is a new joint that no previous wave needed (W123's audit never had a native c_W to map). |
 | **UV completion** | none selected | Stage C produces a fork DATUM (the native tree point lies off the AF branch), not a fork selection. The AF-vs-AS fork (E2, W82/W128) stands. |
 
-## 1. Persona 1 -- differential geometer: Stage A, the native operator
+## 1. Perspective 1 -- differential geometer: Stage A, the native operator
 
 **Method.** Plane-wave metric 2-jets `g = eta + eps1 A e^{ikx} + eps2 B e^{-ikx}`; the quadratic
 Lagrangian is the `eps1*eps2` coefficient of the density, which is x-independent (the mixed
@@ -100,7 +100,7 @@ the "c_L background-vs-TT normalization" item the landscape carries as open: now
 member of the split is positive (attractive, H25-consistent), so no sign statement anywhere in the
 chain feels it.
 
-## 2. Persona 2 -- higher-derivative-gravity expert: the basis map, and where the factors live
+## 2. Perspective 2 -- higher-derivative-gravity expert: the basis map, and where the factors live
 
 Derived, not recalled (Part A of the test, from-scratch curvature):
 
@@ -123,7 +123,7 @@ Derived, not recalled (Part A of the test, from-scratch curvature):
 | c_L background-vs-TT normalization | **COMPUTED:** the Einstein channel genuinely splits by sector, `gamma_TT : gamma_phi : gamma_slice = 3 : 2 : 1`, measure-fork-stable as a ratio. Signs uniform positive; magnitude-level consequences only (which gamma calibrates `mu_DW`-unit masses). |
 | measure fork (W126) | **QUANTIFIED:** `(c_W, c_R)` identical in both measures (the k^4 grade cannot feel a 2-derivative measure correction -- proven by computation); the kinetic-sector gammas differ by a common factor 5, the ratio 3:2 and all signs are fork-stable. |
 
-## 3. Persona 3 -- heat-kernel specialist: Stage B, the coefficients, two routes
+## 3. Perspective 3 -- heat-kernel specialist: Stage B, the coefficients, two routes
 
 **Route 1 (fourth-order, DERIVED-on-PORTED, at the native point).** In the direct-coefficient
 basis the ported beta system transforms into:
@@ -178,7 +178,7 @@ remain PORTED. W130's contribution to them is: the faithful-port verification (W
 point-independence theorem (the Weyl one cannot move) + the native point at which the R^2-channel
 polynomial is now evaluated + the exact derivation of every matter-side block the chain uses.
 
-## 4. Persona 4 -- symbolic engineer: what the test pins down
+## 4. Perspective 4 -- symbolic engineer: what the test pins down
 
 `tests/W130_native_graviton_oneloop_block.py`, exact sympy, deterministic, no RNG, 51 checks,
 exit 0 (~10 min runtime; `reproduce_all --timeout 900` to include it in the sweep).
@@ -200,7 +200,7 @@ Structure (positive controls before every extraction):
   the native point in the agravity chart, basin membership, the native-point coefficient values,
   the c_W-chart crossing observation, the NO-CHANGE audit, the Omega-rescaling invariance.
 
-## 5. Persona 5 -- adversarial skeptic: the error hunt, and what survived it
+## 5. Perspective 5 -- adversarial skeptic: the error hunt, and what survived it
 
 The brief's steelman pair was: *"the ported point was already right"* vs *"a factor hides in the
 map."* Both landed, in an instructive split:

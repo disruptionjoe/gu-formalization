@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W169 / TEAM C-OP-CONSTRUCT; 5 inline personas; one deterministic test 23/23 exit 0; the interacting C-operator built order by order THROUGH Q2 -- the first genuine loop order -- for the minimal GU keep-and-grade model)"
+status: "exploration (W169 / TEAM C-OP-CONSTRUCT; 5 inline perspectives; one deterministic test 23/23 exit 0; the interacting C-operator built order by order THROUGH Q2 -- the first genuine loop order -- for the minimal GU keep-and-grade model)"
 created: 2026-07-14
 label: W169
 hypothesis: "Does the perturbative C-operator (C = e^Q P, Q = gQ1 + g^2 Q2 + ...) for GU's interacting keep-and-grade theory EXIST and converge, or does the construction OBSTRUCT at the first loop order Q2? = is the Krein grading physically OPERATIVE?"
@@ -46,7 +46,7 @@ first genuinely loop/interacting order, where an obstruction can bite -- for the
 keep-and-grade model, using the standard PT-QFT method (Bender-Brody-Jones / Mostafazadeh
 `C = e^Q P`), never before run natively for GU.
 
-Five personas ran inline, sequentially, single context. Deterministic test
+Five perspectives ran inline, sequentially, single context. Deterministic test
 `tests/W169_c_operator_perturbative_construction.py`, **23/23, exit 0**.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -58,7 +58,7 @@ Five personas ran inline, sequentially, single context. Deterministic test
 | **The vertex** | admissible = Krein-Hermitian `eta_0 V eta_0 = V^dag`, splitting `V = A + S` | `A` Krein-odd + anti-Herm (sources Q1); `S` Krein-even + Herm (sources Q2). THIS SPLIT is the result's engine. |
 | **The mass ratio** | generic / incommensurate vs commensurate / resonant `w_ghost : w_phys` | The whole verdict is a fork ON this axis. |
 
-## 2. Persona 1 -- PT-QFT / Bender-Mannheim specialist: the order-by-order equations
+## 2. Perspective 1 -- PT-QFT / Bender-Mannheim specialist: the order-by-order equations
 
 For `H = H0 + g V` with `V` admissible (Krein-Hermitian, `eta_0 V eta_0 = V^dag`), decompose `V`
 by ghost-number parity into `V = A + S` where `eta_0 A eta_0 = -A = A^dag` (Krein-**odd**,
@@ -88,7 +88,7 @@ The obstruction is therefore a **small-denominator / Poincare resonance** phenom
 commensurate frequency ratios where the free spectrum is degenerate and the interaction connects
 the degenerate states.
 
-## 3. Persona 2 -- Krein / indefinite-metric specialist: positivity and what is graded
+## 3. Perspective 2 -- Krein / indefinite-metric specialist: positivity and what is graded
 
 The fundamental Krein metric is `eta_0 = (-1)^{N_ghost}` (indefinite: `+1` on even ghost number,
 `-1` on odd), and `[H0, eta_0] = 0` -- the free ghost is **graded, not removed** (test PC2d). The
@@ -103,7 +103,7 @@ at which a Hermitian, positive, C-normalizing metric exists. This is exactly the
 Bender-Mannheim's Pais-Uhlenbeck no-ghost theorem: unequal frequencies -> real spectrum **and**
 positive metric; equal frequency -> a non-diagonalizable Jordan block with **no** positive metric.
 
-## 4. Persona 3 -- GU-model specialist: the minimal keep-and-grade model
+## 4. Perspective 3 -- GU-model specialist: the minimal keep-and-grade model
 
 Two Krein modes -- **physical** graviton mode (1, frequency `w_phys`, norm `+`) and **ghost** mode
 (2, frequency `w_ghost`, norm `-`) -- with `H0 = w_phys N1 + w_ghost N2` (Hermitian, bounded below,
@@ -129,7 +129,7 @@ The resonance structure of this model (net `(Delta n1, Delta n2)` shifts, degene
   degenerate at **`w_ghost = w_phys`** and **`w_ghost = 3 w_phys`** -> **Q2** obstruction, and
   `w_phys` (leading order) is clean there.
 
-## 5. Persona 4 -- symbolic engineer: the computation (tests/W169..., 23/23, exit 0)
+## 5. Perspective 4 -- symbolic engineer: the computation (tests/W169..., 23/23, exit 0)
 
 Deterministic, numpy only, 64-dim two-mode Fock space. **Positive controls first**: the exact 2x2
 Bender-Brody-Jones C-operator reproduced (`C^2 = 1`, `[C,H] = 0`, real spectrum, PC1); the leading
@@ -163,7 +163,7 @@ equal-mass and 3:1 rows are the headline: `secular_Q1 = 0` (leading order is cle
 `secular_Q2 != 0` -- a genuine **loop-order** obstruction, invisible to `Q1`, driven by the
 physical self-coupling `Sgrav`.
 
-## 6. Persona 5 -- adversarial skeptic: steelman OBSTRUCTS-AT-Q2, then bound it
+## 6. Perspective 5 -- adversarial skeptic: steelman OBSTRUCTS-AT-Q2, then bound it
 
 **Steelman (at full strength).** Do not declare existence from `Q1`: `Q1` sees only the
 anti-Hermitian cross-vertex `A`, and `A`'s single resonance (2:1) is a leading-order artifact. The

@@ -13,9 +13,7 @@ inputs:
   - explorations/hardening-h1-exhaustiveness-2026-07-19.md
 runnable:
   - Lean/GUFormalization/CoflipCore.lean (via lab/automation/check-lean.ps1)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
@@ -82,7 +80,7 @@ each theorem to the probe check and dossier proposition it formalizes. *Trap:*
 docstring overclaim — say "finite (1,1) instance," never "C_0 in general."
 
 **Chair synthesis (executed):** (1) fresh default-target build baseline through the
-required host-local wrapper FIRST (standing Lane 3 integrity step); (2) write
+required host-local wrapper FIRST (standing result-hardening research integrity step); (2) write
 `CoflipCore.lean` per the two-part architecture; (3) rebuild through the wrapper;
 wire into the default target since the baseline works; (4) align admissibility with
 H1's doc — which materialized in parallel during the swing and was read and aligned
@@ -90,10 +88,10 @@ to mid-flight; (5) this document.
 
 ---
 
-## 1. Build baseline and receipts (Lane 3 integrity step)
+## 1. Build baseline and receipts (result-hardening research integrity step)
 
 All builds ran through the required host-local wrapper
-`lab/automation/check-lean.ps1` (exclusive CapacityOS temp lock, then `lake build`).
+`lab/automation/check-lean.ps1` (exclusive private orchestration overlay temp lock, then `lake build`).
 Toolchain `leanprover/lean4:v4.32.0-rc1`, mathlib prebuilt in `.lake/packages`.
 
 1. **Baseline (pre-change):** exit 0, `Built GUFormalization`, 8641 jobs, default

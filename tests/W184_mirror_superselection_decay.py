@@ -10,7 +10,7 @@ PHYSICAL-graviton decay CROSSES a superselection (Cartan) boundary = FORBIDDEN -
 width is ZERO -> the physical-sheet pole never forms -> PT unbroken -> the interacting C-operator
 EXISTS -> OPERATIVE -> bar (b) clears.
 
-THE DECISIVE CHECK (adversarial persona 5, made the load-bearing test here):
+THE DECISIVE CHECK (adversarial perspective 5, made the load-bearing test here):
   A charge is a SUPERSELECTION rule only if it COMMUTES WITH THE DYNAMICS (with the S-matrix /
   the interaction vertex).  Global-ness (being the Cartan involution, an outer/global automorphism
   rather than a local gauge transformation) is NECESSARY but NOT SUFFICIENT.  The sufficient and

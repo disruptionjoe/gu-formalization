@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T153226Z-eric-native-equation-replacement-atlas",
+  "run_id": "historical-investigation",
   "branch": "agent/weinstein-guided-source-action",
   "replacement_contract": "lab/specifications/eric-native-equation-replacement-contract-2026-07-31.md",
   "executed_closure_packet": "lab/specifications/eric-source-directed-native-closure-packet-2026-07-31.md",

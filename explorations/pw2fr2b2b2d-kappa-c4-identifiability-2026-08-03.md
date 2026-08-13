@@ -2,8 +2,7 @@
 title: PW2F-R2B2B2D — active kappa1 quartic identifiability
 date: 2026-08-03
 status: NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__RELAXED_U4_COMPLETIONS_RETRACTED_BY_SUCCESSOR
-lane: Eric-guided Lane 1; source, active reconstruction, and Curt comparator kept separate
-run: RUN-20260803-110644-gu-formalization-pw2fr2b2b2d-kappa-c4-identifiability
+run: historical-investigation
 registry: lab/process/pw2fr2b2b2d-kappa-c4-identifiability-registry.json
 probe: tests/channel-swings/pw2fr2b2b2d_kappa_c4_identifiability_probe.py
 ---

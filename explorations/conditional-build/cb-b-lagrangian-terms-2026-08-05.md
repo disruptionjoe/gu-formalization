@@ -3,7 +3,6 @@ artifact_type: exploration
 status: exploration
 doc_type: conditional-build-ledger
 created: 2026-08-05
-lane: conditional-build
 cluster: "B — LAGRANGIAN TERMS (SM sector + Einstein sector, term by term)"
 title: "Cluster B conditional build: the Lagrangian term by term, with the source action carried SYMBOLICALLY as U1..U13. Sixteen term-slots, eighteen graded rows. THREE OVER-DETERMINED rows are reported loudly (GR-1b Einstein-Hilbert-via-Shiab; GR-4 the R^2 scalaron; SM-3b constraint-preservation versus the written shiab), three rows are DETERMINED without guessing (GR-2's cosmological-term SIGN exact at +1/2 g_mn; SM-5's Yukawa CHANNEL unique at dim Hom = 1; SM-9's perturbative anomaly conditions), and the single largest structural finding is that every dimensionful row in the cluster dies to ONE theorem already in the repo (DC-H2's congruence-orbit argument), so no symmetry condition of any kind can ever supply Newton's constant, Lambda's magnitude, or any mass scale."
 grade: "LEDGER PASS at filed grade over existing results. No new computation is performed and no coefficient is derived here. Every row's content is a citation of an in-repo artifact plus a typed verdict; three items are explicitly labelled REFEREE_CONJECTURE with the certifying check named. Nothing here moves a claim, canon entry, verdict, bar, count, priority, LANE-STATE row, external-datum entry, or public posture."
@@ -30,13 +29,11 @@ residue_touched:
   - "SM-ANOMALY-I16-LOCAL-LEG: T1"
   - "SM-THETA-QCD: T0"
 route_disposition: "CONDITIONAL_LEDGER_BUILT_SIXTEEN_ROWS__TWO_OVER_DETERMINED_ROWS_REPORTED__TWELVE_UNKNOWNS_NAMED__ALL_DIMENSIONFUL_ROWS_EXCLUDED_WHOLESALE_BY_DC_H2"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 verdict_gate: "Pre-deposit, J5-gated. No bar, verdict, canon claim, count, H59, register row, or LANE-STATE entry moves here. The three OVER-DETERMINED rows are REPORTS of results already filed by K77-B2, W79 and DERIVATION-PROGRESS with their existing scopes intact; this artifact widens none of them and files no falsification."
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - lab/process/layer0-fork-registry.yaml
   - lab/process/science-council-program-efficiency-2026-08-04.md
   - explorations/unified-source-datum-packet-v0-2026-07-30.md

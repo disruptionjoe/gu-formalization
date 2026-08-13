@@ -83,12 +83,12 @@ Blindness matters: A famously cannot force (index), D is where forcing is reacha
 everything to fail. If D forces 3 and survives E, that is the blockbuster. If E shows the `{1,3}` residual is
 irreducible across A-D, that is the located-not-forced theorem.
 
-## 4. Team composition (each branch = one worker running a bespoke 5-persona team INLINE)
+## 4. Team composition (each branch = one worker running a bespoke 5-perspective team INLINE)
 
-Per the standing rule (personas always inline, never fanned per-agent): each branch is ONE agent running five
-personas sequentially in one context. Five agents total (A-E), parallel, mutually blind.
+Per the standing rule (perspectives always inline, never fanned per-agent): each branch is ONE agent running five
+perspectives sequentially in one context. Five agents total (A-E), parallel, mutually blind.
 
-The 5-persona template (specialize persona 1 per branch's formalism; 2-5 constant):
+The 5-perspective template (specialize perspective 1 per branch's formalism; 2-5 constant):
 1. **The formalism specialist** -- the index theorist (A); the anomaly-inflow theorist (B); the
    cobordism/K-theory computer (C); the stable-homotopy/torsion theorist (D); the no-go/rigidity theorist (E).
 2. **The math referee** -- demands rigor; grades each claim (theorem / argument / conjecture); flags where a

@@ -8,9 +8,7 @@ created: 2026-08-03
 updated: 2026-08-03
 author: "release identity per papers/published/INDEX.md; to be fixed at release (Joe-gated)"
 deposit_status: "PRE-DEPOSIT. No external step (deposit, endorsement request, posting, or citation outside the repo) before Joe review. Any verdict-adjacent consequence is J5-gated: hostile field-specialist review (two-sided charge — overclaim AND over-fencing) before deposit."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 gates:
   - "Joe-review-gated before ANY external step"
   - "J5 hostile field-specialist review before deposit"
@@ -18,7 +16,7 @@ gates:
   - "Reference-completion pass required before deposit (see References headnote)"
 depends_on:
   - lab/process/hinge-panel-synthesis-2026-08-03.md
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md
   - explorations/chirality-grading-and-77-rerun-2026-08-03.md
   - explorations/imposter-reading-adjudication-2026-08-03.md

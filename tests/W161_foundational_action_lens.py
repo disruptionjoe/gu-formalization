@@ -54,8 +54,8 @@ WHAT THE TEST ESTABLISHES (deterministic sympy, exact; positive controls first):
       curvature action's covariant R^2 coefficient is c_R = 0, and its Einstein channel
       a1 > 0 (attractive) -- healthy, no scalaron.
 
-FIVE personas inline (differential geometer; GU-primary-source scholar; field theorist;
-symbolic engineer; adversarial skeptic); no sub-agents.
+FIVE perspectives inline (differential geometer; GU-primary-source scholar; field theorist;
+symbolic engineer; adversarial skeptic); no independent reviewers.
 
 Run:  python -u tests/W161_foundational_action_lens.py   (exit 0 iff all PASS)
 

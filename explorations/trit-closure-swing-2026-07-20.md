@@ -3,13 +3,10 @@ title: "TRIT-INTERPRETATION closure swing: the nested three-question chain has n
 status: "exploration / pre-registered closure swing executed; CLOSURE-FAILS-NATURALITY at finite structural grade"
 doc_type: exploration
 created: 2026-07-20
-directed_by: "RUN-20260720-193705-repository-work-cycle-cai-hourly; executes the bound successor in trit-triage-2026-07-20.md"
-lane: 1
+directed_by: "historical-investigation; executes the bound successor in trit-triage-2026-07-20.md"
 channel: TRIT-INTERPRETATION
 provenance_grade: "finite structural theorem over the already-extracted three-question nesting; no P2C truth transfer"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 probe: tests/channel-swings/trit_closure_probe.py
 ---
 

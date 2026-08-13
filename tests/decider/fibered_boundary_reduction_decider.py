@@ -111,7 +111,7 @@ def is_2primary(denom: int) -> bool:
 # ============================================================================================
 def part_a_controls():
     print(SEP)
-    print("PART A -- CONTROLS reproduced in this run (trust anchor)")
+    print("PART A -- CONTROLS reproduced in this investigation (trust anchor)")
     print(SEP)
 
     # --- A1. ch2(S_X)[K3] = -5376 from the matrix Chern-Weil multipliers (computed, not hardcoded)

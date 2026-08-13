@@ -3,11 +3,10 @@ artifact_type: exploration
 status: exploration
 doc_type: source-contact-rows
 created: 2026-08-05
-lane: conditional-build
 cluster: E-source-contact
 work_item: CB-E-SOURCE-CONTACT-ROWS
 title: "CB-E: two source-contact checks against the 2025-06-12 Keating interview record. CHECK A -- Weinstein's 'essentially no choice in what that term can be, given Einstein's setting' versus DC-H2's scale-blindness theorem and PRED-NORM-RANK's no-native-scale NO_GO. VERDICT: COMPATIBLE, NO TENSION, and the uniqueness claim is now QUANTIFIED -- the divergence-free demand is LINEAR AND HOMOGENEOUS in the candidate term, so its solution set is a linear subspace and can never be a single nonzero point; it forces the RAY (the form) and is structurally incapable of fixing the point on it (the scale). The candidate space is dim 1 algebraically (span{g}) and dim 2 in the Lovelock sector (span{G, g}); 'no choice' means exactly 'that dimension is 1, not 0 and not >= 2', and the leftover coordinate is one dimensionful real number. Weinstein states the scale half himself one sentence earlier ('once it's constant, it has no explanation'), so the strong magnitude-included reading is refuted BY THE SAME SOURCE, not merely by this repo. THE STING: GU's replacement derives its divergence-freeness FROM EQUIVARIANCE, which DC-H2 proved is a member of exactly the scale-blind class -- so GU inherits the residue it objects to, and on CB-D's count it inherits it TWICE (two independent length-squareds) where GR had it once. CHECK B -- Layer-0 typing of the seminar's theta_omega against canon's theta. VERDICT: SAME-OBJECT, definitional (canon's defining formula is a character-level transcription of the transcript's), WITH one adjacent HOMONYM found: the repo's two shorthands for the same replacement ('epsilon_omega o d_A' and the displayed '(d_A pi)') differ from canon's theta BY ONE FORM DEGREE and drop the gauge transformation from the written expression. No residue discharged; no scale supplied; nothing promoted."
-grade: "ADJUDICATION AND TYPING. NOTHING NEW IS COMPUTED HERE and no script is run -- that is stated up front so no reader takes this for a certificate. Check A's decisive step is a ONE-LINE LINEARITY ARGUMENT (a linear homogeneous constraint has a linear solution set, hence a scaling-closed one, hence never an isolated nonzero point), graded ARGUED-EXACT; it CITES rather than re-derives (i) DC-H2's already-computed congruence-orbit exclusion (35/35, exit 0) and (ii) Lovelock's theorem, which this repo already names at lab/process/persona-passes/01-foundational-math-lenses/05-general-relativist.md:32 with the load-bearing qualifier 'up to coefficients'. Check B is EXACT at the level of declared formulas and form-degree arithmetic (a character-level formula match plus a degree count that a reader can verify in one step); it is NOT a proof that the two written shorthands are equivalent under every reading -- the finding is precisely that they are NOT, under the literal one. The interview-side claims are PARAPHRASE-WITH-ATTRIBUTION at the grade fixed in lab/sources/keating-interview-2025-06-12-source-record.md: no timestamp was transmitted into this repo and none is quoted here; every citable half of every row is the in-repo UCSD seminar transcript at file:line."
+grade: "ADJUDICATION AND TYPING. NOTHING NEW IS COMPUTED HERE and no script is run -- that is stated up front so no reader takes this for a certificate. Check A's decisive step is a ONE-LINE LINEARITY ARGUMENT (a linear homogeneous constraint has a linear solution set, hence a scaling-closed one, hence never an isolated nonzero point), graded ARGUED-EXACT; it CITES rather than re-derives (i) DC-H2's already-computed congruence-orbit exclusion (35/35, exit 0) and (ii) Lovelock's theorem, which this repo already names at lab/process/perspective-passes/01-foundational-math-lenses/05-general-relativist.md:32 with the load-bearing qualifier 'up to coefficients'. Check B is EXACT at the level of declared formulas and form-degree arithmetic (a character-level formula match plus a degree count that a reader can verify in one step); it is NOT a proof that the two written shorthands are equivalent under every reading -- the finding is precisely that they are NOT, under the literal one. The interview-side claims are PARAPHRASE-WITH-ATTRIBUTION at the grade fixed in lab/sources/keating-interview-2025-06-12-source-record.md: no timestamp was transmitted into this repo and none is quoted here; every citable half of every row is the in-repo UCSD seminar transcript at file:line."
 fork_assumed: none
 fork_note: >-
   Neither check stands on a horn, and this is checkable rather than asserted.
@@ -19,7 +18,7 @@ fork_note: >-
   imposter A/B resolution.
 search_space_dim: >-
   COMPUTED AND USED TO EXCLUDE WHOLESALE, per PRE-WAVE Q2
-  (lab/process/agent-context-pack.md:64-76). Check A's candidate space is the
+  (lab/process/CURRENT-RESEARCH-CONTEXT.md:64-76). Check A's candidate space is the
   space of symmetric 2-tensors admissible as a dark-energy term in Einstein's
   setting: dimension 1 over R in the algebraic sector (span{g} at a point) and
   dimension 2 in the Lovelock sector (span{G_munu, g_munu}, the general
@@ -50,9 +49,7 @@ residue_touched:
   - {id: CB-E-SEMINAR-VIDEO-ID-PROVENANCE, grade: T0, movement: opened, note: "NEW LABEL, UNBUILT: the seminar transcript records no source URL or video ID, which is what leaves the H1/H2 runtime question undecidable"}
 route_disposition: SOURCE_UNIQUENESS_CLAIM_QUANTIFIED__FORM_FORCED_SCALE_FREE__NO_TENSION__STRONG_READING_REFUTED_BY_SAME_SOURCE__THETA_OMEGA_TYPED_SAME_OBJECT__DE_REPLACEMENT_SHORTHAND_TYPED_HOMONYM__NO_SCALE_SUPPLIED__NO_RESIDUE_DISCHARGED
 source_collision: SOURCE-CONFIRMS-DIVERGENCE-FREE-REQUIREMENT; SOURCE-CONFIRMS-SCALE-BLINDNESS-OF-THE-UNIQUENESS-ARGUMENT; SOURCE-SILENT-ON-MAGNITUDE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 deposit: "pre-deposit; any decisive downstream use is J5-gated"
 kill_conditions_declared_before_computation: true
 depends_on:
@@ -63,7 +60,7 @@ depends_on:
   - canon/dark-energy-theta-divergence-free.md
   - canon/theta-field-flrw-dark-energy-eos.md
   - explorations/conditional-build/cb-d-parameterizing-the-unknown-2026-08-05.md
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
 ---
 
 # CB-E: source-contact rows from the 2025-06-12 Keating interview
@@ -140,7 +137,7 @@ not claiming to have derived a magnitude; he is complaining that nothing does.
 
 **A2 — the uniqueness claim is Lovelock, and Lovelock is explicitly
 form-up-to-coefficients.** This repo already names the theorem, at
-`lab/process/persona-passes/01-foundational-math-lenses/05-general-relativist.md:32`:
+`lab/process/perspective-passes/01-foundational-math-lenses/05-general-relativist.md:32`:
 
 > "in 4D the unique 2nd-order metric theory with diffeo invariance is
 > Einstein-Hilbert + cosmological constant. Anything pulled back from 14D that

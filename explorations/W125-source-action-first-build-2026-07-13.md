@@ -28,7 +28,7 @@ Tests: `tests/W125_built_candidate_assembly.py` (14/14, exit 0) and
 fixed seed (20260713) for its sampled covectors and inserts; every anchor number is reproduced
 from the repo's verified Cl(9,5) = M(64,H) representation.
 
-Run as a 5-persona inline team (one worker, sequential): (1) constructive field theorist;
+Run as a 5-perspective inline team (one worker, sequential): (1) constructive field theorist;
 (2) representation theorist; (3) higher-spin/causality specialist; (4) Krein/loop specialist;
 (5) honesty auditor (E1/Lakatos).
 
@@ -43,7 +43,7 @@ committed scratch), and (iv) the payoff question answered with machine-checked r
 
 ---
 
-## 1. Persona 1 (constructive field theorist): the BUILT-CANDIDATE
+## 1. Perspective 1 (constructive field theorist): the BUILT-CANDIDATE
 
 ### BUILT-CANDIDATE (symbol level, carrier B) -- the action, term by term
 
@@ -60,7 +60,7 @@ B-leaning lean taken openly), the k = 0 scalar Higgs phi_0 (POSTULATE SA-Y2), fe
 | T1 | `S_RS,kin = <Psi, Pi M_D Pi Psi>` on ker Gamma | SA-C2 (the g = 1 cure; leakage(g) = (1-g) C2, unique root g = 1; built leakage = 6.3e-14) | W125 assembly B1 |
 | T2 | `S_RS,mass = m2 <Psi, Pi Psi>`, m2 = sqrt(m2_eff) mu_DW a FIT | SA-U4 (massive branch forced); leakage stays 0 with the mass; Krein-self-adjoint | W125 assembly B2 |
 | T3 | `S_int = <Psi, [contract - (1/6) wedge](F) Psi>` | SA-C2's revision clause: canon (1,0,1,0) is gamma-traceFUL (215.8518); the UNIQUE constraint-preserving vertex has t* = -1/6 EXACTLY (residual 0); its image lies in ker Gamma automatically | W125 assembly B3-B4 |
-| T4 | `S_Yuk = y_ij <psi_+, C phi_0 chi_->` | SA-Y1 (the unique equivariant k = 0 cross-chirality channel; non-form carriers and Majorana scalar forbidden) | tests/yukawa-scoping (20/20, exit 0, same-day recorded run; VERIFIED-BY-PRIOR-RUN-UNMODIFIED-DEPS) |
+| T4 | `S_Yuk = y_ij <psi_+, C phi_0 chi_->` | SA-Y1 (the unique equivariant k = 0 cross-chirality channel; non-form carriers and Majorana scalar forbidden) | tests/yukawa-scoping (20/20, exit 0, same-day recorded run; VERIFIED-BY-PRIOR-historical-investigation) |
 | -- | spurion sector: NOT instantiated | SA-Y7a honored by deferral (if a family-breaking spurion is added it MUST be the Sym^2(Lambda^2_+) doublet; its values SA-Y7b are FITs) | W76 (standing) |
 
 The revision cost is paid openly: **T3 is not GU-as-written.** "Reconstruct GU as written
@@ -74,7 +74,7 @@ a Stueckelberg/BRST gauging. That choice is exactly the named construction fork
 (GEOMETER-VS-PHYSICS-OBJECTS, RS-cure row), and section 3 shows it is load-bearing: it is WHY
 SA-C4 became decidable this wave.
 
-## 2. Persona 2 (representation theorist): exactness of every claimed uniqueness
+## 2. Perspective 2 (representation theorist): exactness of every claimed uniqueness
 
 All checks on the verified rep, exact:
 
@@ -98,7 +98,7 @@ All checks on the verified rep, exact:
   psi in ker Gamma and psi != 0, then c(xi) psi_a = gamma_a chi for a trace spinor chi, and
   contracting with gamma^a gives -12 c(xi) chi = 0, impossible at q != 0. [W125 SA-C4 A1]
 
-## 3. Persona 3 (higher-spin/causality specialist): SA-C4, built and passed
+## 3. Perspective 3 (higher-spin/causality specialist): SA-C4, built and passed
 
 The spec's sharpest single gap was SA-C4: "the built cure term must survive subprincipal-order
 causality (FC-VZ-4, the II_s-sourced spacelike characteristics); no test exists." The prior
@@ -136,7 +136,7 @@ Block B, cited not re-derived); if a future construction makes II_s enter at fir
 window of (4) applies and SA-C4 reopens quantitatively. The repo-level VZ verdict
 (CONDITIONALLY_RESOLVED) is NOT upgraded; the cure-A route stays blocked exactly as before.
 
-## 4. Persona 4 (Krein/loop specialist): acceptance leg (d), what the built action makes computable
+## 4. Perspective 4 (Krein/loop specialist): acceptance leg (d), what the built action makes computable
 
 - **Tree [P,S] = 0 SURVIVES on the built object [COMPUTED]:** with K = eta_V x beta_S (the
   Cartan/Krein parity), [K, Pi] = 0 EXACTLY (0.0), and the full massive built symbol is
@@ -154,7 +154,7 @@ window of (4) applies and SA-C4 reopens quantitatively. The repo-level VZ verdic
   is the same missing object as acceptance leg (a)'s curved clause. Leg (d) is therefore
   PARTIAL, sharply: 3 of the packet's action-owned items land, the loop-arena items do not.
 
-## 5. Persona 5 (honesty auditor, E1/Lakatos): ledger, scorecard, payoff, verdict
+## 5. Perspective 5 (honesty auditor, E1/Lakatos): ledger, scorecard, payoff, verdict
 
 ### 5.1 Consumption ledger (nothing silently consumed)
 
@@ -186,7 +186,7 @@ mu_DW, B_i, f0, beta/alpha, alpha, c_L, m2_eff, the vev, the y's, the spurion va
 | (b) every DECLARATION stated, none silently consumed | **PASS** | 9/9 named postulates + no-p-hack certificates (equivariance 0, theta-locus independence, residue trap intact) |
 | (c) every FIT emitted source-first or named free | **PASS (with the E1 rider)** | all 10 named free; ZERO prediction-grade emissions -- the letter of (c) is met and its predictive content is empty |
 | (d) H59 loop packet supplied | **PARTIAL** | tree [P,S]=0 verified on the built object; constraint closure built; vertex explicit; counterterm/loop-rule/IR items still blocked on the Y14 covariant operator |
-| (e) standing machine checks pass unmodified | **PASS** | rerun this wave, all exit 0, untouched: wave17 14/14, wave35 15/15, spec-consistency 33/33, wave34, track2 T2A 8/8, vz_fcvz4, W102, W76 16/16. yukawa-scoping 20/20: VERIFIED-BY-PRIOR-RUN-UNMODIFIED-DEPS (same-day recorded exit-0 run; W125 touches none of its dependencies) |
+| (e) standing machine checks pass unmodified | **PASS** | rerun this wave, all exit 0, untouched: wave17 14/14, wave35 15/15, spec-consistency 33/33, wave34, track2 T2A 8/8, vz_fcvz4, W102, W76 16/16. yukawa-scoping 20/20: VERIFIED-BY-PRIOR-historical-investigation (same-day recorded exit-0 run; W125 touches none of its dependencies) |
 
 **The acceptance criterion is NOT met** (legs (a) and (d) partial; SA-G9 unmet inside the
 FORCED set). The candidate is a completed SYMBOL-LEVEL construction skeleton -- explicitly
@@ -234,7 +234,7 @@ of acceptance 5.3; H59 stays OPEN; no canon, verdict, or posture movement.
 - W102's skeleton overlaps T0-T2; the wave's genuinely new computations are T3-as-test,
   the SA-C4 test, the Krein checks on the built massive symbol, and the payoff arithmetic.
 
-*Filed 2026-07-13. Wave W125, five personas inline in one session. Reproducible:
+*Filed 2026-07-13. Wave W125, five perspectives inline in one session. Reproducible:
 `python -u tests/W125_built_candidate_assembly.py` (14/14, exit 0) and
 `python -u tests/W125_sac4_subprincipal_built.py` (9/9, exit 0). Exploration-grade; no canon
 movement; the spec document receives an append-only status note for the SA-C4 row only.*

@@ -1,16 +1,16 @@
 # Full-roster pass: what is missing, the story, the direction (2026-07-13 session, filed to the 2026-07-11 arc)
 
-**What this is.** A single-worker, full-roster inline pass (all personas sequential in one context; no
-per-persona agents -- hard repo rule) answering Joe's three questions across the WHOLE repo: (Q1) what are
+**What this is.** A single-worker, full-roster inline pass (all perspectives sequential in one context; no
+per-perspective agents -- hard repo rule) answering Joe's three questions across the WHOLE repo: (Q1) what are
 we still missing -- blind spots, unasked questions, neglected threads, connections not made; (Q2) the most
 interesting CONTENT story that is simultaneously novel, sound, publishable, and useful (methodology/process
 stories and external-reviewer recommendations EXCLUDED by Joe as obvious); (Q3) the next action/direction
-each persona would take, and why. **No canon / RESEARCH-STATUS / verdict / posture change; no external
+each perspective would take, and why. **No canon / RESEARCH-STATUS / verdict / posture change; no external
 action; not committed by this run.** Research-advancement only (per the GU-council scope rule).
 
 ## Roster used
 
-The **two-track persona sweep roster** (`explorations/two-track-persona-sweep-2026-07-11/`, ~60 personas
+The **two-track perspective sweep roster** (`explorations/two-track-perspective-sweep-2026-07-11/`, ~60 perspectives
 in five discipline families A-E, slice files `A-orthodox-rigor.md` ... `E-pragmatic-experimental.md`),
 each family an expansion of the five standing science-advisory archetypes
 (`explorations/science-advisory-council-full-picture-2026-07-11.md`). All run inline, condensed per family
@@ -37,7 +37,7 @@ re-argued. The value below is what the roster sees that has NOT been said.
 
 ---
 
-## Family A -- Orthodox / rigor / mainstream-gatekeeper (14 personas; leads: CMP referee, constructive-QFT rigorist, operator-algebraist, Stelle/Ostrogradsky theorist, falsifiability gatekeeper)
+## Family A -- Orthodox / rigor / mainstream-gatekeeper (14 perspectives; leads: CMP referee, constructive-QFT rigorist, operator-algebraist, Stelle/Ostrogradsky theorist, falsifiability gatekeeper)
 
 **Q1 -- what a referee would say is glaringly absent.**
 1. **Continuum nonemptiness of U.** The Observer Structure Theorem is proven on the W98 numpy tower class.
@@ -320,7 +320,7 @@ open its laboratory lane, while the UV-fork paper (the runner-up story) rides es
 
 ---
 
-**Grade of this document:** full-roster synthesis, personas inline (one worker), no new computation;
+**Grade of this document:** full-roster synthesis, perspectives inline (one worker), no new computation;
 reorganizes the current durable state into Joe's three answers at honest grade. Explicitly goes beyond the
 prior passes (the modular/PT-cut hidden model, the f_0^2/self-dual-square/DE-BAO recommendations are carried,
 not repeated). No canon/verdict/posture change; nothing committed by this run.

@@ -380,7 +380,7 @@ citation. -->
 
 **[01:33:09]** where we are using the language of quantum information quantum entanglement, quantum complexity, to study the emergence of the space time and the gravitation and loss. And anyway, so I believe this will lead to further progress in understanding also how it works in our own universe.
 
-**[01:33:33]** How do you personally choose what research programs to work on or research directions to take? I do, of course, follow what other people are doing and sometimes idea resonates with what I'm thinking about. And I also think that I need to learn what other people are working on because I do think that other people have very bright ideas as well. And they may contain the tools that I need to also develop my own theory.
+**[01:33:33]** How do you perspectivelly choose what research programs to work on or research directions to take? I do, of course, follow what other people are doing and sometimes idea resonates with what I'm thinking about. And I also think that I need to learn what other people are working on because I do think that other people have very bright ideas as well. And they may contain the tools that I need to also develop my own theory.
 
 **[01:34:07]** So I do look at what ideas are around there and ideas that kind of... seem useful or very relevant for what I'm doing. And again, we talked about the intuition or what I developed when I was already, actually, as a student, there's some way that you do feel that, ah, this is something that I think is in the right direction and you kind of resonates with your own thoughts. I have a long-term vision of where I want to get to. The difficulty is putting all the ideas into equations and writing it down in a way that my colleague, will sort of understand it.
 
@@ -458,5 +458,5 @@ citation. -->
 
 **[01:53:46]** and for you, you're getting an exclusive discount. That's economist.com slash tow, T-O-E. And finally, you should know this podcast is on iTunes. It's on Spotify. It's on all the audio platforms. All you have to do is type in theories of everything and you'll find it. I know my last name is complicated, so maybe you don't want to type in Jai Mungal, but you can type in theories of everything and you'll find it.
 
-**[01:54:12]** Personally, I gain from re-watching lectures and podcasts. I also read in the comment that Toll listeners also gain from replaying. So how about instead you relisten on one of those platforms like iTunes, Spotify, Google Podcasts? Whatever podcast catcher you use, I'm there with you. Thank you for listening.
+**[01:54:12]** Perspectivelly, I gain from re-watching lectures and podcasts. I also read in the comment that Toll listeners also gain from replaying. So how about instead you relisten on one of those platforms like iTunes, Spotify, Google Podcasts? Whatever podcast catcher you use, I'm there with you. Thank you for listening.
 

@@ -3,7 +3,6 @@ title: "Recovery contract cosmology field-type and scalar-truncation gate"
 status: exploration
 doc_type: recovery_contract_checkpoint
 created: 2026-07-16
-run_id: GUH-20260716T101133Z-cosmo-field-type
 gate: tests/recovery-contract/cosmo_field_type_scalar_truncation_gate.py
 ---
 

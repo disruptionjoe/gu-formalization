@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T184714Z-curt-77-wave2b-term-rank",
+  "run_id": "historical-investigation",
   "campaign": "lab/process/eric-curt-ten-wave-campaign.json",
   "wave": "ECW2-G3.5-CENSUS",
   "subwave": "ECW2b-TERM-RANK-ABLATION",

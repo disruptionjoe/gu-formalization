@@ -60,10 +60,10 @@ class NextStepsFrontdoorGuardAudit(unittest.TestCase):
         )[0]
         required = (
             "THREE PROGRESS LANES PLUS STEWARDSHIP",
-            "Lane 1, GU truth testing",
-            "Lane 2, prediction extraction and computation",
-            "Lane 3, result hardening and publication readiness",
-            "Lane A, Stewardship",
+            "truth-status research, GU truth testing",
+            "prediction research, prediction extraction and computation",
+            "result-hardening research, result hardening and publication readiness",
+            "research maintenance, Stewardship",
             "rerank-next-work",
             "RECOVERY-CERTIFICATION",
             "RECOVERY-CONTRACT",
@@ -98,7 +98,7 @@ class NextStepsFrontdoorGuardAudit(unittest.TestCase):
             "Current source of truth",
             "`ind_H(D_GU)=24` is OPEN",
             "Do not promote older stronger language",
-            "lab/process/runbooks/claim-status-consistency-quality-workflow.md",
+            "lab/methods/claim-status-consistency.md",
         )
         missing = [phrase for phrase in required if phrase not in self.text]
         self.assertEqual([], missing)

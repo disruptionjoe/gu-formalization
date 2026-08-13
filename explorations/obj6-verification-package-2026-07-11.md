@@ -3,7 +3,7 @@ title: "Objective 6 — External Verification Package & Three-Level Legibility S
 status: exploration
 doc_type: verification-package
 created: 2026-07-13
-authored_by: obj6-hardening-run (5-persona inline team)
+authored_by: obj6-hardening-run (5-perspective inline team)
 scope: >
   A one-hour-legible external verification package for the program's flagship results.
   NOT committed. Does not change canon, RESEARCH-STATUS, claim-status, or any verdict.
@@ -68,7 +68,7 @@ program says.
 ## 2. Per-flagship verification packages
 
 Each package has the requested nine fields. All file paths absolute under
-`C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization\`.
+`C:\Users\joe\JB\private orchestration overlay\repos\public\gu-formalization\`.
 
 ### (a) Observer / value-selection THEOREM — **L1 PROVEN (math) + L3 OPEN (physics)**
 
@@ -273,7 +273,7 @@ Each package has the requested nine fields. All file paths absolute under
   to "finite-mode toy artifact that BREAKS-AT-1 in the interacting continuum," steelmans survival
   first, and names the single load-bearing survival window (an interaction UV-soft faster than `1/k`,
   e.g. `g(k)~1/k²`) — which the physical derivative-coupled Weyl² ghost does **not** satisfy, so on
-  the physical reading the break is generic. The MATH-REFEREE persona rules the obstruction "genuine …
+  the physical reading the break is generic. The MATH-REFEREE perspective rules the obstruction "genuine …
   not a numerical fudge."
 - **Relation to the UV flagship (b).** The break bites **exactly where the free theory worked**:
   free/mode-diagonal closure succeeded because the ghost was a clean removable grading; interaction
@@ -318,7 +318,7 @@ Until that promotion, **this exploration file is the deliverable.**
 
 ---
 
-## 4. Five-persona inline review
+## 4. Five-perspective inline review
 
 **P1 — Skeptical newcomer-expert (must navigate it in an hour).** "The three-level table is the
 thing I needed: I can see in one screen that (a) is real math with a costume, (b) is one-loop

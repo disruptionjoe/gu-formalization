@@ -5,9 +5,7 @@ doc_type: scoping_decision_tree
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (stop circling the gap; attack the sector bit, boundary phase, generation trit as distinct meaningful objects)"
 supersedes_as_lane1_program: "the SOURCE-DOMAIN-SELECTOR swing completed (Prong A S-SILENT-OPEN, Prong B B-MULTIPLICITY pending HV); externality is now a CLOSED premise, not a live question"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---

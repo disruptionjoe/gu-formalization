@@ -82,9 +82,9 @@ TEST STRUCTURE (positive controls FIRST -- each FIRES on a real nonzero linear-i
 Run:  python -u tests/W238_gravity_willmore_residual_kerr.py   (exit 0 iff all PASS)
 
 Binding: exploration grade; NO canon/verdict/status movement (schwarzschild-weak-field-rfail
-stays OPEN; the gravity-leg verdict is Joe-gated).  Personas inline (GR/Kerr-curvature
+stays OPEN; the gravity-leg verdict is Joe-gated).  Perspectives inline (GR/Kerr-curvature
 specialist; Willmore/immersion-variational specialist; Lorenz-gauge/linearized-vacuum
-specialist; ruthless skeptic); no sub-agents.  Zero em dashes in paper-facing text.
+specialist; ruthless skeptic); no independent reviewers.  Zero em dashes in paper-facing text.
 """
 from __future__ import annotations
 import sympy as sp

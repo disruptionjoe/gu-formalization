@@ -3,13 +3,10 @@ title: "Construction-space P3 retro verification"
 status: exploration
 doc_type: construction_space_probe
 created: 2026-07-19
-run_id: RUN-20260719-536-repository-work-cycle-cai-hourly
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 probe: P3-RETRO-VERIFY
 test: tests/recovery-contract/construction_space_retro_verify_p3.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Construction-space P3 retro verification

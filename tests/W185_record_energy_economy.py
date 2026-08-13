@@ -98,7 +98,7 @@ check("N_bulk = N_conf^2/pi^2 (W149)", abs(math.log10(N_bulk) - math.log10(S_dS*
 # ---------------------------------------------------------------------------
 # (1) MAINTENANCE ENERGY  --  Landauer, at the substrate horizon temperature T_dS
 # ---------------------------------------------------------------------------
-# Persona 1 (Landauer/thermo): the cost to KEEP a record final/stable against erasure over
+# Perspective 1 (Landauer/thermo): the cost to KEEP a record final/stable against erasure over
 # one refresh is k_B T ln2 per bit (Landauer). The T is the substrate's own temperature.
 # JUSTIFICATION for T = T_dS: it is the ONLY temperature intrinsic to the de Sitter substrate
 # (the causal-horizon Gibbons-Hawking temperature); at it the Landauer budget saturates the
@@ -128,7 +128,7 @@ check("P_maint = ln2 * c^5/G EXACTLY (via T_dS S_dS = c^5/(2GH0))",
 # ---------------------------------------------------------------------------
 # (2) OBSERVER SCALING  --  shared substrate, holographic saturation
 # ---------------------------------------------------------------------------
-# Personas 2-4,6,9 (extensivity / information / allometric / many-body / holography):
+# Perspectives 2-4,6,9 (extensivity / information / allometric / many-body / holography):
 #   Each observer = a 4D section = its X4 light-cone preimage in Y14 (a sub-poset of records).
 #   Adding observers does NOT add independent records: sections OVERLAP on the shared Y14
 #   substrate, so the MAINTAINED set is the UNION, capped by the holographic bound S_dS.

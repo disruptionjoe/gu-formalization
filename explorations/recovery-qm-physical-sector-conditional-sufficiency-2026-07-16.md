@@ -3,7 +3,6 @@ title: "QM Physical Sector Conditional Sufficiency Certificate"
 date: "2026-07-16"
 status: "branch-local conditional checkpoint"
 doc_type: recovery_conditional_sufficiency_certificate
-run_id: GUH-20260716T160900Z-qm-physical-sector
 work_item: QM-PHYSICAL-SECTOR
 operational_result: CONDITIONAL_FAIL
 owned_path: "explorations/recovery-qm-physical-sector-conditional-sufficiency-2026-07-16.md"
@@ -14,7 +13,7 @@ depends_on:
   - "lab/process/recovery-certification-matrix.json"
   - "lab/process/recovery-contract-action-fingerprint-2026-07-16.json"
   - "explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md"
-  - "explorations/hourly-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md"
+  - "explorations/research-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md"
   - "explorations/W169-c-operator-perturbative-construction-2026-07-14.md"
   - "explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md"
 ---
@@ -60,7 +59,7 @@ local algebra net, anomaly closure, or the adapter's own provenance.
 |---|---|---|
 | `lab/process/recovery-contract-action-fingerprint-2026-07-16.json` | branch-local W203/W229/W230/W236 record-current action fingerprint | physical gauge quotient, observables, boundary data, and native normalizations are not frozen |
 | `explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md` | certificate schema for QFT recovery | blocks before state-space and state extraction |
-| `explorations/hourly-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md` | physical quotient/BRST gate | first exact missing object is the source-defined gauge/BRST differential `d_RS,-1` |
+| `explorations/research-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md` | physical quotient/BRST gate | first exact missing object is the source-defined gauge/BRST differential `d_RS,-1` |
 | `explorations/W169-c-operator-perturbative-construction-2026-07-14.md` | keep-and-grade C-operator evidence | finite/QM perturbative through Q2; no all-orders local QFT unitarity |
 | `explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md` | BRST cohomology record/redundancy fork | quantization-dependent on unbuilt Y14 curvature / C-operator data |
 
@@ -156,7 +155,7 @@ Paper seed proposal: none.
 
 - current work: `QM-PHYSICAL-SECTOR` conditional sufficiency certificate.
 - current disposition: `CONDITIONAL_FAIL`.
-- durable priority owner: daily GU steward via `lab/process/research-portfolio.json`
+- durable priority owner: daily GU steward via `lab/process/RESEARCH-AGENDA.json`
   and the top block of `NEXT-STEPS.md`.
 - recommendation status: advisory.
 
@@ -164,9 +163,9 @@ Paper seed proposal: none.
 |---:|---|---|---|
 | 1 | `RECOVERY-NOGO-GR-W229-VACUUM` Swing 2 | The conditional unitarity interleave has reached an endpoint, so the register says to resume construction-diverse no-go defense. GR is the most central recovery obstruction. | Must change a load-bearing action, source, variation, or boundary construction and face the same O(M^2) benchmark without target import or branch mixing. |
 | 2 | `RECOVERY-NOGO-COSMO-SCALAR` or `RECOVERY-NOGO-SM-SELECTOR` Swing 2 | Both are `SWING_2_READY` and remain valid recovery-defense targets after the interleave. | Must supply a real scalar/selector construction or return no survivor; no standard-target import. |
-| 3 | `DE-AMP-DIAGNOSTIC` or `PROOF-STABLE-KERNELS` | Lane 2 and Lane 3 remain eligible alternatives, but no new signal outranks protected Lane 1 recovery defense. | Do not select on finishability alone; preserve the steering-surface firewall and Lean serialization rule. |
+| 3 | `DE-AMP-DIAGNOSTIC` or `PROOF-STABLE-KERNELS` | prediction research and result-hardening research remain eligible alternatives, but no new signal outranks protected truth-status research recovery defense. | Do not select on finishability alone; preserve the steering-surface firewall and Lean serialization rule. |
 
-Recommended next: resume Lane 1 no-go defense with GR Swing 2 unless daily
+Recommended next: resume truth-status research no-go defense with GR Swing 2 unless daily
 stewardship changes the order.
 
 Overturning evidence: a source-owned physical quotient/BRST differential, a

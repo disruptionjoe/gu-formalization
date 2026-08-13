@@ -3,14 +3,10 @@ title: "Eric/Curt Wave 3D-B2C4: Shiab-family selector and southeast completion"
 status: active_research
 doc_type: construction_result
 created: 2026-08-01
-lane: "1"
 work_item: ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR
 registry: lab/process/eric-curt-wave3d-b2c4-shiab-family-southeast-completion.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c4_shiab_family_southeast_completion_probe.py
 grade: "EXACT active-Cl(9,5) principal-symbol construction. A correctly typed two-sided/Ward plus native-Krein filter removes the contract Shiab channel and leaves two real chiral wedge weights. The displayed zero-southeast rolled matrix still has the rank-128 square-zero Jordan obstruction, but the source explicitly admits nonzero southeast versions. In the frozen unit-K/unit-C normalization, the complete spatial Clifford identities leave a two-real-parameter nonzero family with 12 w_plus ell_minus+11=12 w_minus ell_plus+11=0. The four sign choices form only a normalized slice. Every tested survivor is time-noncharacteristic, semisimple, positive-right-H symmetrizable, and retains all physical nu and raw observation without quotient. The source does not select this spinorial Ward condition, reciprocal 11/12 invariant, or normalization; covariant action, Green, domain, and physical recovery remain open."
-claim_status_change: false
-canon_change: false
-public_posture_change: false
 ---
 
 # Wave 3D-B2C4 — Shiab-family selector and southeast completion

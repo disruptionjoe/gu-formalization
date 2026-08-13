@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (FALSIFICATION monitor-hardening, NON-NAIVE; five personas inline, one worker, no sub-agents; deterministic test with positive controls first + a live-fire control)
+status: exploration (FALSIFICATION monitor-hardening, NON-NAIVE; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls first + a live-fire control)
 created: 2026-07-14
 wave: W226
 label: W226
@@ -23,7 +23,7 @@ Test: `tests/W226_de_tripwire.py` (11/11, exit 0). Deterministic (seed 20260714)
 network. Positive controls run first and include a LIVE-FIRE control that proves the
 hardened tripwire actually fires (exit-1 path) on a tight synthetic DR3-like row.
 
-Five personas ran inline in one worker, sequentially (no sub-agents): (1) dark-energy /
+Five perspectives ran inline in one worker, sequentially (no independent reviewers): (1) dark-energy /
 cosmology specialist, (2) DESI / data-combination specialist, (3) forecasting /
 survey-timeline specialist, (4) prediction-vs-fit separator (enforces the W160 free-epoch
 caveat), (5) ruthless skeptic.
@@ -50,7 +50,7 @@ derived character beyond ~5 sigma. SURVIVES-WITH-TENSION iff every current admis
 2-sigma edge stays above -3.5 -- report the updated margin and the resolving release. Only
 the CHARACTER (A4 ceiling) counts; the fitted shape/epoch (W160-free) does NOT.
 
-## 1. Persona 1 -- dark-energy / cosmology specialist: what quantity F1 actually tests
+## 1. Perspective 1 -- dark-energy / cosmology specialist: what quantity F1 actually tests
 
 F1 names a specific measurable: `wa/(w0+1)` compared to -3.5, **at 2-sigma**. The phrase
 "at 2-sigma" is load-bearing and was dropped in W220's encoding. A measurement establishes
@@ -63,7 +63,7 @@ Physical note: `wa/(w0+1)` has a POLE at `w0 = -1`. For a phantom-crossing model
 almost no likelihood weight. Any central-value test is therefore unstable exactly in the
 direction improved data will move. The correct statistic is the correlated 2-sigma edge.
 
-## 2. Persona 2 -- DESI / data-combination specialist: the SQUEEZE (part b)
+## 2. Perspective 2 -- DESI / data-combination specialist: the SQUEEZE (part b)
 
 The strongest CURRENT combined constraints are DESI DR2 BAO + CMB (Planck/ACT) + a SNe
 compilation. All four DESI DR2 w0waCDM rows (arXiv:2503.14738 Sec. VII; H3/H46B/W220-verified
@@ -90,7 +90,7 @@ worst central case (Pantheon+) `P(ratio < -3.5)` is only 0.66 -- about 1 sigma, 
 sigma F1 demands. The tightest 2-sigma edge is DESY5's -2.39, a **live falsification margin
 of +1.11**. FC-d does not fire on any current admissible combination.
 
-## 3. Persona 3 -- forecasting / survey-timeline specialist: the resolving release (part c)
+## 3. Perspective 3 -- forecasting / survey-timeline specialist: the resolving release (part c)
 
 DESI DR2 is the 3-year dataset (public March 2025). DESI completed its planned 5-year survey
 in spring 2026 and continues observing into 2028. The measurement that resolves this leg:
@@ -109,7 +109,7 @@ So the leg is resolved within ~12-24 months of this filing by DESI DR3 (~2027) a
 DR1 cosmology (~mid-2027). The hardened tripwire is written to re-run against those digits
 by adding one dict row.
 
-## 4. Persona 4 -- prediction-vs-fit separator: what is falsifiable here
+## 4. Perspective 4 -- prediction-vs-fit separator: what is falsifiable here
 
 The amplitude CEILING (axis A4) is derived: F1 is a structural statement that `B_i` cannot
 exceed ~3 `M_Pl` in GU, mapped onto `wa/(w0+1) < -3.5`. That ceiling is the falsifiable
@@ -125,7 +125,7 @@ through the ratio; it becomes a FALSIFICATION only if it holds at 2-sigma (the c
 excluded), which it does not. The separation is what keeps the honest verdict from
 overreacting to the -3.83 central number.
 
-## 5. Persona 5 -- ruthless skeptic: is the hardening a cover for a near-miss?
+## 5. Perspective 5 -- ruthless skeptic: is the hardening a cover for a near-miss?
 
 The skeptic's charge: "you found a current dataset already past -3.5 at central value, then
 redefined the test to 2-sigma so it doesn't count -- that is moving the goalposts to save
@@ -205,10 +205,10 @@ tested tripwire remains the A4 amplitude ceiling.
   the correlated 2-sigma-edge statistic and an explicit `P(w0<-1) < 2.3%` check).
 - Part (d)'s growth / feature-width observables are logged as analysis, not encoded tests.
 
-*Filed 2026-07-14 by the W226 FALSIFICATION monitor-hardening wave (NON-NAIVE). Five personas
+*Filed 2026-07-14 by the W226 FALSIFICATION monitor-hardening wave (NON-NAIVE). Five perspectives
 inline in one worker (dark-energy/cosmology specialist, DESI/data-combination specialist,
 forecasting/survey-timeline specialist, prediction-vs-fit separator, ruthless skeptic); no
-sub-agents. Reproducible: `python -u tests/W226_de_tripwire.py` (11/11, exit 0; positive
+independent reviewers. Reproducible: `python -u tests/W226_de_tripwire.py` (11/11, exit 0; positive
 controls first, live-fire control included). Exploration grade; canon OPEN unchanged; VERDICT:
 SURVIVES-WITH-TENSION at updated 2-sigma margin +1.11. Tripwire hardened to canon-F1 (2-sigma)
 and auto-scanning; resolving release DESI DR3 (~2027) / Euclid DR1 cosmology (~mid-2027).*

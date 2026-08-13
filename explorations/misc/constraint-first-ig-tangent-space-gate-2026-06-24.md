@@ -8,7 +8,7 @@ verdict: "NO_BRANCH_2A_DERIVED; CONDITIONAL_TANGENT_THEOREM_ONLY"
 owned_path: "explorations/misc/constraint-first-ig-tangent-space-gate-2026-06-24.md"
 audit_script: "tests/constraint_first_ig_tangent_gate.py"
 depends_on:
-  - "explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/perspective-and-dialectic/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/goal-draft-ig-constraint-derivation-2026-06-24.md"
   - "explorations/misc/gu-closed-loop-action-ig-branch-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md"
@@ -674,7 +674,7 @@ then the FLRW scalar projection and xi_eff = C_Rtheta / Z_theta.
 
 Required sources:
 
-- `explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
+- `explorations/perspective-and-dialectic/all-perspective-wall-break-steelman-hegelian-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/goal-draft-ig-constraint-derivation-2026-06-24.md`
 - `explorations/misc/gu-closed-loop-action-ig-branch-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md`

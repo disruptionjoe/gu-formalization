@@ -2,10 +2,10 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-06
-title: "Big swing VG-SD (source route, supports V3/V5): five from-memory mathematical flags in the federation docs are now CHECKED MATHEMATICS -- (1) orthogonal J on R^(p,q) iff p,q both even: literature located (Davidov-Mushkarov arXiv:math/0607030 Sec.2, J(W) = O(2p,2q)/U(p,q)) + two-line proof + machine mechanism check (complex signature (3,2) doubles to (6,4); (7,3) scan floor 4.000000 matches V3's independent 40-start floor); (2) positive lines in C^(3,2) retract to CP^2: Wolf-1969 base-cycle + Mostow-fibration lineage located + Mostow dimension bookkeeping measured (24/16/12/8 -> orbit dims 8 and 4); (3) c(T CP^n) = (1+h)^(n+1): Hartshorne II.8.13 located, symbolic check with failing control; (4) su(2,2) = so(4,2): Spin+(2,4) = SU(2,2) located (Wikipedia exceptional isomorphisms) AND the explicit isomorphism CONSTRUCTED on Lambda^2 C^4 (real structure S Sbar = +I/6, Q|V_R signature (4,2), rank 15, bracket residual 1e-16; su(3,1) control comes out QUATERNIONIC, S Sbar = -I/6); (5) Cartan involution existence/uniqueness/B_theta-positivity/maximal-compact: Knapp PSPM 61 Thm 4.2 + Corollary (a)(b) = [K3 Thm 6.16, Sec VI.2] + [K3 Thm 6.31], quotes extracted from the PDF, verified numerically on su(2,2) with a failing non-Cartan control. HONEST OUTCOME: all five SETTLED; one small CORRECTION to the persona doc (the compatible-J family is O(6,4)/U(3,2) with FOUR components; SO(6,4)/U(3,2) is only its two orientation-compatible components); remaining unverified residue is named (Mostow 1955 theorem number, so*(6) = su(3,1) label, Milnor-Stasheff theorem number)."
+title: "Big swing VG-SD (source route, supports V3/V5): five from-memory mathematical flags in the federation docs are now CHECKED MATHEMATICS -- (1) orthogonal J on R^(p,q) iff p,q both even: literature located (Davidov-Mushkarov arXiv:math/0607030 Sec.2, J(W) = O(2p,2q)/U(p,q)) + two-line proof + machine mechanism check (complex signature (3,2) doubles to (6,4); (7,3) scan floor 4.000000 matches V3's independent 40-start floor); (2) positive lines in C^(3,2) retract to CP^2: Wolf-1969 base-cycle + Mostow-fibration lineage located + Mostow dimension bookkeeping measured (24/16/12/8 -> orbit dims 8 and 4); (3) c(T CP^n) = (1+h)^(n+1): Hartshorne II.8.13 located, symbolic check with failing control; (4) su(2,2) = so(4,2): Spin+(2,4) = SU(2,2) located (Wikipedia exceptional isomorphisms) AND the explicit isomorphism CONSTRUCTED on Lambda^2 C^4 (real structure S Sbar = +I/6, Q|V_R signature (4,2), rank 15, bracket residual 1e-16; su(3,1) control comes out QUATERNIONIC, S Sbar = -I/6); (5) Cartan involution existence/uniqueness/B_theta-positivity/maximal-compact: Knapp PSPM 61 Thm 4.2 + Corollary (a)(b) = [K3 Thm 6.16, Sec VI.2] + [K3 Thm 6.31], quotes extracted from the PDF, verified numerically on su(2,2) with a failing non-Cartan control. HONEST OUTCOME: all five SETTLED; one small CORRECTION to the perspective doc (the compatible-J family is O(6,4)/U(3,2) with FOUR components; SO(6,4)/U(3,2) is only its two orientation-compatible components); remaining unverified residue is named (Mostow 1955 theorem number, so*(6) = su(3,1) label, Milnor-Stasheff theorem number)."
 grade: "exploration / all five items SETTLED (literature reference located AND mechanism machine-verified with failing controls); overall THEOREM-grade for the five mathematical statements themselves; the route makes NO physics claim. Source route: does not touch the 1792-dim carrier, so carrier anchors are not reproduced here (owned by vg_v1/vg_v3/vg_v5). Target-import guard at maximum strictness: {3, 8, 24, chi(K3)=24, Ahat=3, rank_H=4, ind_H=8} never assumed, inserted, or divided by -- every printed 3 below is a measured eigenvalue count (complex signature (3,2)) or the binomial coefficient forced by the n+1 = 3 summands of the CP^2 Euler sequence."
 depends_on:
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
   - explorations/big-swing-2026-07-06/VG-V3-j-commutant-conformal-native.md
   - explorations/big-swing-2026-07-06/VG-V5-breaking-coset-topology.md
@@ -33,11 +33,11 @@ including five controls that show the checks can fail. Every number cited below 
 
 | # | Claim | Where flagged from-memory |
 |---|-------|---------------------------|
-| 1 | orthogonal complex structure on R^{p,q} iff p, q both even | persona doc §3.2 line 125; V3 cleared the proof, reference was still missing |
-| 2 | positive-line domain in C^{p,q} deformation-retracts to CP^{p-1} | persona doc §3.2 line 138 ("from memory"); V5 built the retraction, lineage was still missing |
-| 3 | c(T CP^n) = (1+h)^{n+1}, hence c1 = (n+1)h, chi = n+1 | persona doc line 141 ("flagged numerology until derived"); V5 derived it, citation was still missing |
-| 4 | su(2,2) = so(4,2) (exceptional isomorphism) | persona doc line 118 ("theorem" asserted from memory); V3 line 128 ("the abstract iso ... is standard — from memory") |
-| 5 | Cartan involution basics (existence, uniqueness up to conjugation, B_theta > 0, even part = maximal compact) | underwrites every "maximal compact of the chain" statement in persona §3.2 (Pati-Salam / SM punchlines) |
+| 1 | orthogonal complex structure on R^{p,q} iff p, q both even | perspective doc §3.2 line 125; V3 cleared the proof, reference was still missing |
+| 2 | positive-line domain in C^{p,q} deformation-retracts to CP^{p-1} | perspective doc §3.2 line 138 ("from memory"); V5 built the retraction, lineage was still missing |
+| 3 | c(T CP^n) = (1+h)^{n+1}, hence c1 = (n+1)h, chi = n+1 | perspective doc line 141 ("flagged numerology until derived"); V5 derived it, citation was still missing |
+| 4 | su(2,2) = so(4,2) (exceptional isomorphism) | perspective doc line 118 ("theorem" asserted from memory); V3 line 128 ("the abstract iso ... is standard — from memory") |
+| 5 | Cartan involution basics (existence, uniqueness up to conjugation, B_theta > 0, even part = maximal compact) | underwrites every "maximal compact of the chain" statement in perspective §3.2 (Pati-Salam / SM punchlines) |
 
 ---
 
@@ -70,7 +70,7 @@ generic J is Hermitian to 1.3e−15 and has **measured complex signature (3,2)**
 ‖J²+I‖² + ‖JᵀgJ−g‖² over all real 10×10 matrices reaches **6.1e−14 on (6,4)** and floors at
 **4.000000 on (7,3)** (15 L-BFGS starts) — independently matching VG-V3's 40-start floor 4.000.
 
-**Correction to the persona doc (small, checked).** Persona §3.2 line 128 says "compatible J's
+**Correction to the perspective doc (small, checked).** Perspective §3.2 line 128 says "compatible J's
 form the family SO(6,4)/U(3,2)". Per the located reference, the full family is
 **O(6,4)/U(3,2) with four components**; SO(6,4)/U(3,2) is the union of only the **two**
 orientation-compatible components (the paper: "The set J±(W) has the homogeneous representation
@@ -135,7 +135,7 @@ measured Hermitian signature (3,2) of item 1 / V5 — never inserted.
 **Spin⁺(2,4) ≅ SU(2,2)** (with Spin(6) ≅ SU(4), Spin⁺(3,3) ≅ SL(4,R), Spin⁺(1,5) ≅ SL(2,H) as
 the neighboring A3 = D3 real forms). Group-level bookkeeping for downstream users: SU(2,2) is
 the **2:1 cover of SO⁺(4,2)** with kernel {±1}; the effective conformal group of compactified
-Minkowski space is SU(2,2)/Z₄ ≅ PSO⁺(4,2) (the Z₄ is the center {i^k I}). The persona doc's
+Minkowski space is SU(2,2)/Z₄ ≅ PSO⁺(4,2) (the Z₄ is the center {i^k I}). The perspective doc's
 "SU(2,2) = Spin(4,2)" (line 119) is **correct** at this level; loose statements in the wider
 literature of the form "SO(4,2) = SU(2,2)/Z₄" refer to the projective/effective group.
 
@@ -200,7 +200,7 @@ k = Fix(θ) has dim **7** = dim s(u(2)⊕u(2)) with B|k max eigenvalue **−8.00
 | 4 | su(2,2) = so(4,2) | located (Spin⁺(2,4) ≅ SU(2,2)) | **explicit iso constructed**; quaternionic control | **SETTLED** |
 | 5 | Cartan involution basics | located, quoted (Knapp PSPM 61 / K3 6.16, VI.2, 6.31) | verified on su(2,2) + failing control | **SETTLED** |
 
-**Corrections fed back to the federation docs:** one — persona §3.2's "family SO(6,4)/U(3,2)"
+**Corrections fed back to the federation docs:** one — perspective §3.2's "family SO(6,4)/U(3,2)"
 should read O(6,4)/U(3,2) (four components; SO/U is its two orientation-compatible components).
 No claim was overturned: all five from-memory statements were **true as stated**.
 
@@ -214,6 +214,6 @@ V3/V5: the load-bearing statements are items 1–5 themselves, now referenced an
 
 **What this buys the federation:** V3's even-parity theorem and su(2,2)~so(4,2) chain, and V5's
 D ≃ CP² retraction and c1 = 3h derivation, no longer rest on any from-memory mathematics. The
-"conformal is what survives at the vacuum" geometric chain (persona §3.2) is now fully referenced
+"conformal is what survives at the vacuum" geometric chain (perspective §3.2) is now fully referenced
 mathematics at every link that was flagged; whether it is GU-*native* remains exactly where V3
 left it (refuted at the fiber level — the chain requires breaking GU's trace split and isotropy).

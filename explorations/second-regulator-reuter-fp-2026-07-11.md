@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; second-regulator robustness swing; deterministic test)
+status: exploration (5-perspective inline team; second-regulator robustness swing; deterministic test)
 created: 2026-07-12
 hypothesis: "Condition (i) of the W83 AS-SELECTED-CLOSES verdict -- is GU's non-Gaussian Reuter (asymptotic-safety) fixed point GENUINE, or a truncation/scheme ARTIFACT? Test by regulator independence: recompute with a SECOND regulator (exponential vs the W83/W81 Litim/optimized) and check the FP and its load-bearing qualitative features survive."
 branch: "SECOND-REGULATOR -- redo the Reuter-FP search with an EXPONENTIAL regulator r(y)=y/(e^y-1) against the W83/W81 Litim/optimized r(y)=(1-y)theta(1-y). Check the regulator-INVARIANTS the W83 verdict actually rests on: (I1) FP EXISTENCE; (I2) the NUMBER and SIGN of the critical exponents (# relevant directions); (I3) the RELEVANCE of f_0^2 (load-bearing -- its relevance de-forces sign(f_0^2) and closes the observer leg); (I4) GU's ker-Gamma RS anti-screening SIGN (magnitude may move, sign must not). Values g*,lambda*,f_0^2* WILL move -- that motion is NOT fragility; only the invariants are the genuine test. Port the known regulator-robustness of the sub-results (EH Reuter FP: Lauscher-Reuter; f(R)/R^2 relevance: Codello-Percacci-Rahmede, Benedetti-Machado-Saueressig) and compute GU's RS-matter contribution's regulator-(in)dependence, being explicit about ported vs computed."
@@ -48,7 +48,7 @@ invariants.** Test: `tests/W85_second_regulator_reuter.py` (deterministic, exit 
 | **RS sector** | `ker Gamma`-projected spin-3/2 (H58); anti-screens (`W^2>0`, W82) | **The RS-specific regulator check.** Its anti-screening SIGN must survive the second regulator or GU could exit the DEP region. This is the adversary's sharpest demand and is answered structurally |
 | **Regulator/scheme** | *(new fork, named)* the FRG cutoff shape function: **optimized/Litim** `r(y)=(1-y)theta(1-y)` (W81/W83) **vs EXPONENTIAL** `r(y)=y/(e^y-1)` (this swing) | The scheme is NOT a physics fork -- it is a **calculational-convention** axis. Physical (universal) content must be scheme-independent; that IS the test of whether the FP is genuine |
 
-## 1. Persona 1 -- FRG specialist: the second regulator, the FP, and the invariants
+## 1. Perspective 1 -- FRG specialist: the second regulator, the FP, and the invariants
 
 ### 1.1 The discipline, stated first: what moves vs what must not
 
@@ -125,7 +125,7 @@ dimension are **regulator- AND truncation-robust** in the literature (Codello-Pe
 AS-Starobinsky's positive-R^2 relevant branch). This is the regulator-invariance of the load-bearing
 feature.
 
-## 2. Persona 2 -- math referee: are these the right invariants? ported vs computed?
+## 2. Perspective 2 -- math referee: are these the right invariants? ported vs computed?
 
 - **Are these the right invariants?** **Yes.** The referee affirms that "is the FP an artifact?" is
   correctly operationalized as regulator independence of **existence + universal content**, not of the
@@ -148,7 +148,7 @@ feature.
   GU's RS-specific contribution's sign is regulator-independent, but the **combined** object's full
   second-regulator functional run remains outstanding. **Grade: MEDIUM-HIGH on the upgrade.**
 
-## 3. Persona 3 -- adversary: presses fragility
+## 3. Perspective 3 -- adversary: presses fragility
 
 **"You PORTED the robustness instead of computing it."** **Conceded, and named as the residual.** The
 two invariants that most directly close the observer leg -- I2 (2 relevant directions, stable) and I3
@@ -182,7 +182,7 @@ the FP -- which is the qualitatively correct behavior. **The toy is honestly sco
 imported) and the ker-Gamma `b_RS` *magnitude* under a second regulator is uncomputed. Neither is a
 failure of an invariant; both are the "full-computation" residual.
 
-## 4. Persona 4 -- cross-checker: the literature robustness + GU's matter contribution
+## 4. Perspective 4 -- cross-checker: the literature robustness + GU's matter contribution
 
 - **EH Reuter-FP robustness (I1, I2).** Lauscher-Reuter (hep-th/0108040): the dimensionless cosmological
   constant `lambda*` and the critical exponents are only **weakly** dependent on the cutoff and gauge
@@ -202,7 +202,7 @@ failure of an invariant; both are the "full-computation" residual.
   function, the sign survives any admissible regulator -- **the computed I4 is consistent with the DEP
   physics and the W82 native `a_2`.**
 
-## 5. Persona 5 -- synthesizer: the verdict
+## 5. Perspective 5 -- synthesizer: the verdict
 
 **SECOND REGULATOR BROUGHT.** Exponential `r(y)=y/(e^y-1)` vs the W81/W83 Litim/optimized
 `r(y)=(1-y)theta(1-y)`; their threshold functions `Phi^p_n(0)` are **computed** and differ by O(1)

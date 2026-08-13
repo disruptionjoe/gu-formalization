@@ -2,7 +2,6 @@
 title: "RB7: trace reversal completes a non-abelian triplet to a Cartan four-plane, but the written finite sector makes it an unstable saddle"
 status: "completed exploration; exact finite stationary classification and W177 tensor-response kill"
 date: "2026-07-30"
-run_id: "GUH-20260731T033558Z-rb7-stationary-nonmetric-order-parameter"
 probe: "tests/channel-swings/rb7_stationary_nonmetric_order_parameter_probe.py"
 grade: "EXACT GENERIC FINITE TRUNCATION / CONTROLLED LOCAL NUMERICS. For generic nonzero coefficients, the full anisotropic homogeneous Euler system, stationary branches, Hessians, Gram words, Cartan inertia, and raw-Frobenius control are exact; degenerate coefficient cases are stated separately. The W177 residual tensor, mixed Gram, and support-incidence counterexample are finite numerical controls. No full coupled stationary solution, stable order parameter, complex flag, physical Hessian, mass, vacuum, cosmological value, anomaly, index, or count is claimed."
 ---

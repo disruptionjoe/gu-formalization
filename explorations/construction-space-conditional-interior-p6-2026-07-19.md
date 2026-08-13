@@ -5,9 +5,7 @@ doc_type: research_note
 created: 2026-07-19
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 probe: P6-CONDITIONAL-INTERIOR
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Construction-Space P6 Conditional Interior

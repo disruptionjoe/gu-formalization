@@ -4,9 +4,7 @@ doc_type: results_of_preregistered_check
 status: "Execution of the pre-registered trit-internal successor check (binding: explorations/prereg-trit-internal-successor-2026-07-20.md, commit 6b384c5). OUTCOME: K-a (NOT CANONICAL) -- the N4-identified Z/3 cannot occupy the trit-anchor role without a new choice beyond the admissible inversion. The N4 data canonically supplies the TARGET side of the mod-3 matching (the canonical cube roots in the commutant scalars, unique up to inversion) but supplies NO fiber-side Z/3: the trit remains external, the minimal input stays Z/6, the N4 identification is arena-side only."
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (pre-registered successor executed)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 preregistration: "explorations/prereg-trit-internal-successor-2026-07-20.md (commit 6b384c5); hypothesis, test, allowed freedom, and outcome conditions executed exactly as bound; no mid-flight scope change; the N6 no-convention-shopping lesson honored"
 probe: tests/channel-swings/trit_internal_check_probe.py
 grade: "COMPUTED (float64 with exact structural anchors; the character chain in exact Fraction arithmetic; the battery machinery imported UNMODIFIED from the f513fcf probe and re-run live inside this probe). No claim/canon/verdict/posture movement."

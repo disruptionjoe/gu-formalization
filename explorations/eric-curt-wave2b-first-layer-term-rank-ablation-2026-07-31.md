@@ -3,7 +3,7 @@ title: "Eric/Curt Wave 2b: first-layer term quotient and ablation"
 status: construction_result
 doc_type: exploration
 created: 2026-07-31
-run: lab/process/runs/GUH-20260731T184714Z-curt-77-wave2b-term-rank/run-plan.md
+run: archived private execution record
 source_note: lab/sources/curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md
 registry: lab/process/eric-curt-wave2b-term-rank-ablation.json
 probe: tests/channel-swings/eric_curt_wave2b_term_rank_ablation_probe.py

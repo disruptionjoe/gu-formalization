@@ -3,12 +3,9 @@ title: "Vitaly Vanchurin neural-network universe: transcript claim map and prima
 status: active_research
 doc_type: source_packet
 created: 2026-07-30
-lane: "1"
-run: lab/process/runs/GUH-20260730T160634Z-vanchurin-neural-analogy-sidequest/run-plan.md
+run: archived private execution record
 grade: "SOURCE-GROUNDED CLAIM/EQUATION MAP. Interview claims are provenance only; mathematical content is anchored to the listed primary papers. The transcript is an automated third-party transcript and contains name/technical-word errors. No GU identification or scientific-status change follows."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Vitaly Vanchurin neural-network source pack

@@ -16,7 +16,7 @@ THREE DECISIVE CHECKS (computed where possible, analytic where a theorem is cite
       coefficients are INTEGERS: it lives in the ring of weak Jacobi forms over Z, a FREE
       abelian group. chi(K3) = EG|_{y=1} = 24. So the geometry-varying data is FREE / Z-valued.
       Reducing an integer modular-form coefficient mod 3 is a CARDINAL mod 3, not a class in the
-      torsion summand Z/3 < pi_3^s. (Kind-mismatch bin (a) of the 45-persona collapse.)
+      torsion summand Z/3 < pi_3^s. (Kind-mismatch bin (a) of the 45-perspective collapse.)
 
   (2) DEGREE-3 CHECK [ANALYTIC, literature]. The home of e_R is degree 3. The unit map
       pi_3^s -> pi_3(tmf) is an ISOMORPHISM Z/24 -> Z/24. In the exact degree where the

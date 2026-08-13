@@ -4,14 +4,12 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-01
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260801-154304-gu-formalization-ecw3d-b2c8-direct
+run: historical-investigation
 predecessor: explorations/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md
 probe: tests/channel-swings/eric_curt_wave3d_b2c8_source_forked_two_connection_square_euler_map_probe.py
 registry: lab/process/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map.json
 grade: "B2C8 AUTHOR-STATED UNRELEASED TWO-CONNECTION PROGRAM / SOURCE-COMPATIBLE REPO-CONSTRUCTED CONNECTION-COMPLEX PASS / NARROWED EULER KILL / CONDITIONAL COMPLETION ROUTE. Finite architecture controls construct exact inverse connection and independent-dual fermion lowerers with the active trace-reversed (9,5) Hodge signs, indefinite Krein form, and right-H compatibility inherited from the active factors. The explicit 2021 F_A/d_B deformation row and tentative 2025 F_B/D_B four-token object remain separate. The source selects neither shifted-cone placement nor the A=B nilpotence locus. Both repo-reconstructed degree-correct readings are compatible with Eric's connection-level program: they are A=B complexes and vanish for arbitrary nonflat common curvature. The tested action-derived connection Euler owner is then S(F_B) and generically nonzero, so the bare four-entry cone is not the complete Euler obstruction. Two exact finite residual-alphabet fits fail with fixture-local compatibility codimensions 10 and 8. The 2021 source-shaped residual also misses E_T. Finite constant-conjugation covariance and exact orbit decompositions make an action-complete D E_T deformation a viable conditional Noether route, but no local gauge-tangent derivative or full graph-tuple Hessian is executed here. No total fermion action, global domain, observation reduction, Poisson anchor, prequantum lift, Standard Model recovery, count, or cosmological prediction is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C8 source-forked square and active Euler-map discriminator

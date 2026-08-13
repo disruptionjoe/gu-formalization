@@ -2,7 +2,6 @@
 title: "Source reinspection: action polarization, Shiab selection and domain"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CONFIRMS_SHIAB_IN_ACTION_AND_MISSING_HISTORICAL_BIANCHI_SELECTOR__SOURCE_CORRECTS_OBSERVATION_AS_GREEN_BOUNDARY__SOURCE_SILENT_ON_GLOBAL_PHYSICAL_DOMAIN
 ---
 

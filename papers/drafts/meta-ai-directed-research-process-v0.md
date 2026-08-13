@@ -127,13 +127,13 @@ problem. TODO: name a candidate second case.
 Three different artifacts, three different homes; do not force them into one:
 
 1. **This essay** -- a first-person, narrative account of building and directing the process. Its natural
-   home is a **blog / essay venue** (personal site, Substack, or a venue like LessWrong / the AI-for-science
+   home is a **blog / essay venue** (perspectivel site, Substack, or a venue like LessWrong / the AI-for-science
    community), because journals will not take the "I built and directed" voice and the value is the candid
    methodology narrative. This is the piece the title describes.
 2. **The object-level GU result** -- the multiplicity / Krein finding -- as a short **arXiv note**
    (gen-ph / math-ph), the credibility anchor the essay points to. Reconstruction-grade caps it at a note,
    not a journal result.
-3. **The de-personalized methodology** -- "adversarial self-refutation as a discipline for AI-assisted
+3. **The de-perspectivelized methodology** -- "adversarial self-refutation as a discipline for AI-assisted
    research" -- as a **case-study / methodology paper** for an AI-for-science workshop or venue, if and only
    if a second case backs it up.
 

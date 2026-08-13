@@ -6,10 +6,8 @@ created: 2026-07-31
 branch: agent/weinstein-guided-source-action
 base_revision: 356795622fbc168d6598e9439c953c37e2a65b18
 comparison_branch: agent/operator-anomaly-big-swing
-run: lab/process/runs/GUH-20260731T130016Z-eric-guided-source-action/run-plan.md
-claim_status_change: none
+run: archived private execution record
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Weinstein-guided source-action branch contract
@@ -25,7 +23,7 @@ The construction now has two prospective lanes from the exact same commit:
 
 The independent worktree is not edited, rebased, merged, or advanced by this
 run. The guided worktree is
-`CapacityOS/_local/worktrees/gu-weinstein-guided-source-action`.
+`private orchestration overlay/_local/worktrees/gu-weinstein-guided-source-action`.
 
 This is a **prospective** separation. The common base already contains earlier
 primary-source reinspection, source-shaped action candidates, and transcript

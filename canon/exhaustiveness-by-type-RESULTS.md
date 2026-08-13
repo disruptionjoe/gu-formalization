@@ -3,7 +3,7 @@ title: "Exhaustiveness-by-type: PARTIALLY CLOSED -- three odd-primary escape rou
 status: staged
 doc_type: results
 created: 2026-07-10
-grade: "COMPUTED / exact (2 build legs + 2 hostile referees, all exit 0 in-repo; 0 refuted, escape_missed=false both). All load-bearing group/structure facts fetched from primary sources this run (K3 sigma=-16 -> (1/2)p1=-24 Wikipedia/Hirzebruch; string obstruction=(1/2)p1 nLab; MString->tmf Ando-Hopkins-Rezk nLab; pi_*(tmf) nLab; Spin(8) triality fixed=G2 Wikipedia/arXiv:2502.14016; e_KO(8nu)=1/3). Internal Z/3 stranding closure re-derived two ways (exact frame-charge factorization + the load-bearing rep-theoretic argument: a Z/3 commuting with D gives a g-independent net index). Internal tier for the GU-facing corollary; the tmf-inapplicability (Spin-not-String) and the commuting-symmetry-labels-not-counts arguments are structural. No claim-ledger row moves; the generation count stays OPEN."
+grade: "COMPUTED / exact (2 build legs + 2 hostile referees, all exit 0 in-repo; 0 refuted, escape_missed=false both). All load-bearing group/structure facts fetched from primary sources this investigation (K3 sigma=-16 -> (1/2)p1=-24 Wikipedia/Hirzebruch; string obstruction=(1/2)p1 nLab; MString->tmf Ando-Hopkins-Rezk nLab; pi_*(tmf) nLab; Spin(8) triality fixed=G2 Wikipedia/arXiv:2502.14016; e_KO(8nu)=1/3). Internal Z/3 stranding closure re-derived two ways (exact frame-charge factorization + the load-bearing rep-theoretic argument: a Z/3 commuting with D gives a g-independent net index). Internal tier for the GU-facing corollary; the tmf-inapplicability (Spin-not-String) and the commuting-symmetry-labels-not-counts arguments are structural. No claim-ledger row moves; the generation count stays OPEN."
 depends_on:
   - canon/ko-degree-obstruction-ladder-RESULTS.md
   - canon/two-primary-lemma.md
@@ -20,7 +20,7 @@ scripts:
 # Exhaustiveness-by-type: is there a non-KO/Spin/Pin odd-primary obstruction?
 
 The KO-degree ladder left one open gap: the universal reading of the two-primary lemma ("no
-obstruction can carry odd torsion") rode an unproven completeness-by-type premise. This run attacks it
+obstruction can carry odd torsion") rode an unproven completeness-by-type premise. This investigation attacks it
 directly. Outcome: **PARTIALLY CLOSED -- three routes shut, one open, and the open one is the program's
 already-named single decider.**
 

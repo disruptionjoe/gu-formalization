@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W217 / TEAM GEOMETRIC-EVERPRESENT; label W217 -- next free above W218; one of FIVE parallel teams BUILDING the record-condensed true vacuum by DIFFERENT methods to test convergence; coherence-first BUILD, not a proposal; exploration grade; conditional register; honest grading -- PLAUSIBLE / relabel of everpresent-holographic scales; five inline personas, one worker, no sub-agents; one deterministic test 20/20 exit 0, positive controls first)"
+status: "exploration (W217 / TEAM GEOMETRIC-EVERPRESENT; label W217 -- next free above W218; one of FIVE parallel teams BUILDING the record-condensed true vacuum by DIFFERENT methods to test convergence; coherence-first BUILD, not a proposal; exploration grade; conditional register; honest grading -- PLAUSIBLE / relabel of everpresent-holographic scales; five inline perspectives, one worker, no independent reviewers; one deterministic test 20/20 exit 0, positive controls first)"
 created: 2026-07-14
 label: W217
 posture: "coherence-first BUILD; exploration grade; conditional register; honest grading (PLAUSIBLE); sign external #1 (do not claim the reservoir Krein sign)"
@@ -53,7 +53,7 @@ sign is never rescued, W187 G5), with the honest caveats that the endpoint readi
 everpresent/holographic scales (W185 G5) and the near-genesis false->true **connection** is **out of
 validity and unbuilt** (W163/W166).
 
-Five personas ran INLINE, one worker, no sub-agents: (1) cosmology / de Sitter specialist, (2) everpresent-
+Five perspectives ran INLINE, one worker, no independent reviewers: (1) cosmology / de Sitter specialist, (2) everpresent-
 set / causal-set (Sorkin) specialist, (3) record-accretion-geometry specialist, (4) de Sitter entropy /
 `S_dS` specialist, (5) ruthless skeptic. One deterministic test,
 `tests/W217_true_vacuum_geometric_everpresent.py`, **20/20, exit 0**, positive controls first.
@@ -69,7 +69,7 @@ set / causal-set (Sorkin) specialist, (3) record-accretion-geometry specialist, 
 | the threshold `E0` | the O(1) exceptional point = the GU-native `r*`-type gap | `r*` in `[1.00, 1.58]` (W187 G2); O(1), modelled here |
 | the reservoir Krein sign `s` | opposing (operative) vs reinforcing (pathology) | **EXTERNAL (#1)**; not claimed; decides SENSIBLE vs PATHOLOGICAL (G4) |
 
-## 2. Persona 1 -- cosmology / de Sitter specialist: does the geometry settle? (EXISTENCE)
+## 2. Perspective 1 -- cosmology / de Sitter specialist: does the geometry settle? (EXISTENCE)
 
 Read the everpresent law as a **flow** on the record clock `tau = ln N`. `Lambda l_p^2 = 1/sqrt(N)` gives
 `d ln Lambda / d ln N = -1/2` **exactly** (test G1b): `Lambda` decreases monotonically, and `Lambda = 0` is
@@ -80,7 +80,7 @@ So as records accrete the universe asymptotes to an ever-flatter, ever-larger de
 geometric answer to Q1: the record-count geometry **settles** onto the de Sitter attractor `(Lambda, H) ->
 (0+, 0+)`.
 
-## 3. Persona 2 -- everpresent-set / causal-set (Sorkin) specialist: the fade shrinks the bad mode (Mechanism 1)
+## 3. Perspective 2 -- everpresent-set / causal-set (Sorkin) specialist: the fade shrinks the bad mode (Mechanism 1)
 
 The everpresent fade is the load-bearing dynamical input. The tachyon is the record-count mode (W166): its
 **drive** on the cosmological scale is the everpresent amplitude `~ 1/sqrt(N)`, which **fades as records
@@ -103,7 +103,7 @@ length is `~ R_H` (the Hubble scale, growing, G5b), and at the endpoint the fluc
 smooth, fluctuation-free fading de Sitter -> flat limit (G5c). The crossing epoch is a **free phase** (W160
 OBSTRUCT), but the **existence of a finite window** and the **asymptotic reality** do not depend on the phase.
 
-## 4. Persona 3 -- record-accretion-geometry specialist: the arrow of time at the endpoint (Q3) + Mechanism 2
+## 4. Perspective 3 -- record-accretion-geometry specialist: the arrow of time at the endpoint (Q3) + Mechanism 2
 
 The **same one-way monotone `N`** drives BOTH sides of the picture: `S_dS(N) = pi sqrt(N)` **increases**
 (records accrete on the horizon) while `Lambda(N) = 1/sqrt(N)` **decreases** (the fade). The fade **is** the
@@ -117,7 +117,7 @@ the accreting count, `A(N) = A0 sqrt(N)`, so the discriminant `Q = E0^2 - g^2 + 
 G3, reproducing W187 G4). The **magnitude leg is discharged** by the accretion, exactly as W187 found; the
 arrow of time is what supplies it.
 
-## 5. Persona 4 -- de Sitter entropy / S_dS specialist: the endpoint scale and the tower (Q2)
+## 5. Perspective 4 -- de Sitter entropy / S_dS specialist: the endpoint scale and the tower (Q2)
 
 The endpoint **geometry/scale** is the de Sitter record-count tower (W185), reproduced as positive controls:
 `R_H/l_p = 8.5e60`, `S_dS = pi (R_H/l_p)^2 = 2.27e122` (confirmed records = horizon area), `N_bulk =
@@ -128,9 +128,9 @@ projection) is reproduced with the exact `log10(pi) = 0.50` offset at the area r
 **record-saturated de Sitter vacuum** whose scale is fixed by the accreted record count: as `N -> inf` the
 horizon holds ever more confirmed records (`S_dS -> inf`) while its curvature fades (`Lambda -> 0+`). This is
 the **NATURE** answer to Q2: a **sensible** de-Sitter-type record-saturated vacuum with a real spectrum, not a
-pathological or non-existent state -- **conditional on the sign** (Persona 5).
+pathological or non-existent state -- **conditional on the sign** (Perspective 5).
 
-## 6. Persona 5 -- ruthless skeptic: is the endpoint actually sensible, or is this wishful?
+## 6. Perspective 5 -- ruthless skeptic: is the endpoint actually sensible, or is this wishful?
 
 Four steelmen land; three concessions are forced; the verdict survives as CONDITIONAL.
 
@@ -248,9 +248,9 @@ which the whole question turns -- across the self-energy arc (W187), the sign sy
 the five build methods (W216, W217) -- is the **external C-operator / reservoir Krein sign**. That is a sharply
 located, method-independent residue: a real convergence, and a real remaining unknown.
 
-*Filed 2026-07-14 by Team GEOMETRIC-EVERPRESENT (W217). Five personas inline in one worker (cosmology / de
+*Filed 2026-07-14 by Team GEOMETRIC-EVERPRESENT (W217). Five perspectives inline in one worker (cosmology / de
 Sitter specialist; everpresent-set / causal-set (Sorkin) specialist; record-accretion-geometry specialist;
-de Sitter entropy / S_dS specialist; ruthless skeptic); no sub-agents. Reproducible: `python -u
+de Sitter entropy / S_dS specialist; ruthless skeptic); no independent reviewers. Reproducible: `python -u
 tests/W217_true_vacuum_geometric_everpresent.py` (20/20, exit 0; positive controls first). Exploration grade;
 conditional register; honest grade PLAUSIBLE; sign external (#1). Verdict: EXISTS-SENSIBLE, CONDITIONAL on the
 external reservoir Krein sign (EXISTS-PATHOLOGICAL under the wrong sign). No canon movement; bar(b)/H59 OPEN.*

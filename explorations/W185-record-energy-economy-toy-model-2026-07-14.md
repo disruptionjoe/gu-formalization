@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W185 / TEAM RECORD-ECONOMY; label W185; coherence-first TOY-MODEL / order-of-magnitude estimation; exploration grade; conditional register; honest grading -- ANALOGY-LEVEL, not a rigorous GU derivation; ten inline personas, one worker, no sub-agents; one deterministic test 34/34 exit 0, positive controls first)"
+status: "exploration (W185 / TEAM RECORD-ECONOMY; label W185; coherence-first TOY-MODEL / order-of-magnitude estimation; exploration grade; conditional register; honest grading -- ANALOGY-LEVEL, not a rigorous GU derivation; ten inline perspectives, one worker, no independent reviewers; one deterministic test 34/34 exit 0, positive controls first)"
 created: 2026-07-14
 label: W185
 posture: "coherence-first toy model; order-of-magnitude; exploration grade; conditional register; honest grading (ANALOGY-LEVEL)"
@@ -57,10 +57,10 @@ tiers: **global** (the full Y14 ledger) -> **regional** (the confirmed shard) ->
 (one section's reachable set). All ported honestly onto the repo's Y14 -> X4 machinery (W131,
 W149); no imported rival substrate.
 
-Ten personas ran INLINE, sequentially, one worker, no sub-agents. One deterministic test,
+Ten perspectives ran INLINE, sequentially, one worker, no independent reviewers. One deterministic test,
 `tests/W185_record_energy_economy.py`, **34/34, exit 0**, positive controls first.
 
-## 2. The ten personas (one line each, then the synthesis)
+## 2. The ten perspectives (one line each, then the synthesis)
 
 1. **Landauer / thermodynamics-of-computation.** Maintenance cost is `k_B T ln2` per bit per
    refresh; the substrate's own temperature is `T_dS = hbar H0/(2 pi k_B)` (the causal-horizon
@@ -125,7 +125,7 @@ Landauer, at the substrate horizon temperature `T = T_dS`:
   via the identity `T_dS S_dS = c^5/(2 G H0)`, W143). The maintenance power is `ln2` of a
   Planck luminosity per Hubble volume.
 
-**Justification of the T choice (the persona-1 crux).** `T_dS` is not a free knob. It is the
+**Justification of the T choice (the perspective-1 crux).** `T_dS` is not a free knob. It is the
 substrate's own causal-horizon temperature; it is the unique temperature at which the Landauer
 capacity equals the horizon entropy (W138 G6, `bits/S_dS = 2.96 = 3 Omega_L/ln2` at `T_dS`);
 and it makes "the energy budget pays exactly for confirmed-frontier promotion" a literal
@@ -146,11 +146,11 @@ The **repo-grounded exponent** comes from the two counts the program already has
 `N_bulk = (R_H/l_p)^4 = 5.2e243` is the total (bulk, 4-volume, uncommitted) substrate record
 count; `N_conf = S_dS = 2.27e122` is the maintained (boundary, area, confirmed) count;
 `N_bulk = N_conf^2/pi^2` (W149). The independently maintained content is the AREA, not the
-4-volume: a boundary law (persona 6), which is why the exponent is 1/2 (area over 4-volume in
-Planck units), stronger than Kleiber's 3/4 (persona 9).
+4-volume: a boundary law (perspective 6), which is why the exponent is 1/2 (area over 4-volume in
+Planck units), stronger than Kleiber's 3/4 (perspective 9).
 
 **No superlinear overturn.** The would-be cross-observer consensus cost is O(n^2) only if
-records are re-confirmed pairwise; the finality frontier is MONOTONE (persona 7), so each
+records are re-confirmed pairwise; the finality frontier is MONOTONE (perspective 7), so each
 record is confirmed once, globally, and the total is capped at S_dS. The superlinear term is
 suppressed; the net law is sublinear 1/2.
 
@@ -246,11 +246,11 @@ one.
 **Artifacts:** this file + `tests/W185_record_energy_economy.py` (34/34, exit 0; positive
 controls first).
 
-*Filed 2026-07-14 by Team RECORD-ECONOMY (W185). Ten personas inline in one worker (Landauer
+*Filed 2026-07-14 by Team RECORD-ECONOMY (W185). Ten perspectives inline in one worker (Landauer
 thermodynamicist, statistical-mechanics extensivity theorist, information theorist,
 complex-systems allometric theorist, de Sitter cosmologist, many-body condensed-matter
 theorist, control-systems capability-tier engineer, resource-allocation economist,
-biophysicist/metabolism, relational-scale wild-frontier theorist); no sub-agents. Reproducible:
+biophysicist/metabolism, relational-scale wild-frontier theorist); no independent reviewers. Reproducible:
 `python -u tests/W185_record_energy_economy.py` (34/34, exit 0). Toy-model / order-of-magnitude;
 exploration grade; conditional register; honest grading (ANALOGY-LEVEL). Verdict: SPLIT -- energy
 ratio O(1) (Omega_L relabel); relational record-count scale ~10^122 = S_dS, MASSIVE-GAPS-NATURAL

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2I2-AFFINE-FIRST-MOVING-FIRST-SIZE3-FULL-EVALUATOR",
   "status": "AFFINE_FIRST_MOVING_CERTIFIED__FIRST_SIZE3_ORBIT_CERTIFIED__DURABLE_3_OF_380__UNIVERSAL_377_OPEN",
-  "run_id": "RUN-20260805-074524-gu-formalization-pw2fr2b2b2i2-affine-first-size3",
+  "run_id": "historical-investigation",
   "verdict_scope": "all ten metric owners at the zero plus four coordinate conormal directions with exact affine spanning, and the lexicographically first non-fixed size-three S3 orbit through the active mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action jet under both exact S3 generators",
   "source_disposition": {
     "REPOSITORY_DERIVES": "the active finite S3 affine and selected-orbit full-evaluator certificate",

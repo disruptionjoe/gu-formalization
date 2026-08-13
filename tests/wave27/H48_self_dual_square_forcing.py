@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 r"""H48 (Wave 27) -- THE SELF-DUAL-SQUARE FORCING TEST (the coherence route).
 
-The full-roster persona sweep (explorations/two-track-persona-sweep-2026-07-11) converged
+The full-roster perspective sweep (explorations/two-track-perspective-sweep-2026-07-11) converged
 (families B geometric + D wild-frontier) on ONE genuinely new forcing candidate: the GU source
 action may be FORCED as the SELF-DUAL SQUARE. Two claimed faces of one principle:
   (B) the UNIQUE conformally-invariant Willmore/GJMS functional of the soldering distortion
@@ -43,7 +43,7 @@ exact sympy; the only "3" is dim Lambda^2_+):
       rep) -- BECAUSE Gamma is an so(9,5)-equivariant intertwiner and ker Gamma is an
       so(9,5)-subrep. But by the SAME equivariance the kinematic algebra ALSO closes on the
       full space (carrier A). It closes on BOTH. => the kinematic-Jacobi constraint removes
-      0 of the A/B bit. This is exactly the RELABELS outcome persona 6 pre-registered.
+      0 of the A/B bit. This is exactly the RELABELS outcome perspective 6 pre-registered.
 
   Q3  DO B AND D COINCIDE? On the spin-2 TT graviton the difference between any two norms is a
       multiple of |H|^2 (the trace/mean-curvature mode), which VANISHES on TT. So B's conformal
@@ -278,7 +278,7 @@ def q2_color_kinematics():
           f"max ||Gamma J_i - sigma_i Gamma||={max(equivariant):.1e} (equivariant) => A and B both close")
 
     # Q2d: FREEDOM ledger for the K-class. Closing on both A and B removes 0 of the A/B bit. This is
-    #      EXACTLY the RELABELS outcome persona 6 pre-registered ("closes on both -> another beautiful
+    #      EXACTLY the RELABELS outcome perspective 6 pre-registered ("closes on both -> another beautiful
     #      non-lever"). The kinematic-Jacobi is carrier-BLIND: the A/B distinction is the downstream
     #      INDEX (-42 vs -38), not whether the self-dual algebra closes.
     idxA, idxB = 21 * SIGMA_K3 // 8, 19 * SIGMA_K3 // 8   # -42, -38

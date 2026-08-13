@@ -4,8 +4,6 @@ status: process
 doc_type: improvement-register
 created: 2026-08-03
 updated: 2026-08-03
-claim_status_change: none
-canon_change: none
 sources:
   - lab/process/eleven-lens-audit-2026-08-03.md
   - lab/process/mathematician-panel-synthesis-2026-08-03.md
@@ -20,7 +18,7 @@ graded Critical / High / Medium / Low. Columns: **I** = impact (C/H/M/L),
 fixed this session are marked DONE. IDs are stable — cite them in commits.
 
 Severity here = value of doing the item, not blame. Claim-status-touching
-items must run `lab/process/runbooks/claim-status-consistency-quality-workflow.md`;
+items must run `lab/methods/claim-status-consistency.md`;
 they are marked (CS). Items gated on a Joe decision are marked (J#) per the
 queue in Part D.
 
@@ -57,7 +55,7 @@ queue in Part D.
 | P-H11 | `boundary-eta/verify/plus96_eta_denominator_indep_check.py` re-derives nothing (hand-typed closed forms), contradicting REPRODUCE.md's verify/ promise | Rewrite with a second derivation, or relabel the file's role honestly | H | S |
 | P-H12 | requirements "verified numpy 2.4.6" matches no installed build; 76 asserts use tolerances ≥1e-3 despite the "not floating-point tolerances" pin-free rationale | `requirements.lock` for numeric certs (pip-tools already in venv); fix the version note | H | XS |
 | P-H13 | DERIVATION-PROGRESS.md terminal entries still say the 2026-07-03 promotions are "staged … PAUSE FOR JOE" (5 occurrences) though files are canon; RESEARCH-STATUS:22 points readers there for a record that isn't there; nothing after 07-03 absorbed | Correction banner + absorb or explicitly close the log (CS) | H | S |
-| P-H14 | LANE-STATE.yaml (07-26) asserts needs_joe:false on all lanes / "Nothing needs Joe" / Lane 1 green-up-moving while portfolio holds NEEDS_JOE and 07-29/30 results (B5 BLOCKED, RB7 kill) contradict the lane story; portfolio (07-24) has B5 IN_PROGRESS vs run-plan BLOCKED | Refresh both; then P-H15 | H | S |
+| P-H14 | CURRENT-STATE.yaml (07-26) asserts needs_joe:false on all lanes / "Nothing needs Joe" / truth-status research green-up-moving while portfolio holds NEEDS_JOE and 07-29/30 results (B5 BLOCKED, RB7 kill) contradict the lane story; portfolio (07-24) has B5 IN_PROGRESS vs run-plan BLOCKED | Refresh both; then P-H15 | H | S |
 | P-H15 | LANE-STATE is hand-written; every stale field is mechanically derivable (last commit touching evidence_ref; needs_joe from portfolio states) | ~50-line generator + CI check that committed == generated | H | M |
 | P-H16 | `papers/published/INDEX.md:48` lists LNF and PP3 as "Ready for Joe to post" — both published 2026-07-23 (PP3 receipt in drafting-factory); the factory's GU-based methodology paper (zenodo.21711582) uncross-referenced | Run the repo's own publication-status-reconciliation runbook | H | S |
 | P-H17 | Promotion-notice path specified 3 incompatible ways (RESEARCH-STATUS:205 `system/mailboxes/joeops/` — does not exist; AGENTS:35 system-attention; template says in-repo attention/ + envelope); actual notices live in a 4th path (joe-project-management/archive/) | Pick one path; fix all four surfaces; template too | H | XS |
@@ -68,7 +66,7 @@ queue in Part D.
 | P-H22 | Retracted verdict alive in machine-readable frontmatter: `external-datum-ledger…07-29.md` title/outcome still "P3-IS-NOT-EXTERNAL" + body table row, against its own correction banner; companion `source-action-term-by-term…` title carries retracted D3 | Fix YAML + table rows (CS) | H | XS |
 | P-H23 | AI-authorship disclosure absent from every top-level repo surface (README, OVERVIEW, VERIFICATION, REPRODUCE, CANON, CONTRIBUTING — zero hits); manuscript discloses properly | One README paragraph: authorship model, what the human decides, what agents do | H | XS |
 | P-H24 | "Canon = agent-promoted" disclosure not co-located with the definition (CANON.md:10 defines; :125/:136 mention rule elsewhere) | One clause at CANON.md:10 | H | XS |
-| P-H25 | `docs/WHERE-GU-STANDS…` public-register breaks: "proved, with machine-checked computations, that it does not finish" (claim about GU discharged on a reconstruction), "finished, trustworthy … worth citing" (self-certification RESEARCH-POSTURE:128 forbids), ungraded ~2–3× parsimony comparison; §D recommends construction move to a separate repo — contradicted by Lane 1 with no banner | Reword bottom line; delete self-certification; grade-label; add supersession banner for §D (CS) | H | S |
+| P-H25 | `docs/WHERE-GU-STANDS…` public-register breaks: "proved, with machine-checked computations, that it does not finish" (claim about GU discharged on a reconstruction), "finished, trustworthy … worth citing" (self-certification RESEARCH-POSTURE:128 forbids), ungraded ~2–3× parsimony comparison; §D recommends construction move to a separate repo — contradicted by truth-status research with no banner | Reword bottom line; delete self-certification; grade-label; add supersession banner for §D (CS) | H | S |
 | P-H26 | Randal-Williams cited for the load-bearing e=±p₁/48 at manuscript:796 with no bibliography entry in the DOI'd deposit; W-spin hypothesis of the formula stated nowhere | Fix in a versioned Zenodo correction (v1.0.1) with M-M9; add the hypothesis | H | S |
 | P-H27 | Daily portfolio reconciliation decayed since 07-24: 59 explorations unreconciled; `PROOF-STABLE-KERNELS` READY with instructions already executed 07-22 (an agent would redo work); automation signal expired 07-21 with unclosed recheck conditions | One direct reconciliation pass | H | S |
 | P-H28 | Wave-scheduling rule absent: pw2fr suffix chain 6 levels deep, ~1.8 commits/hr, zero claim_status_change fields, open list growing (the North-Star note's failure mode) | Adopt: a wave is schedulable only if its stated outcome would move a NAMED gate; prerequisites batch | H | XS |
@@ -92,7 +90,7 @@ queue in Part D.
 | P-M12 | Three provably wrong `updated_at` stamps (CANON.md 07-03 with a 07-15 section; no-go map 06-23 with 07-10 content; six-axis template 05-31 with 07-10 content) | Bump; consider a lint that flags content-date > stamp | M | XS |
 | P-M13 | `papers/published/INDEX.md` lacks the methodology-paper cross-ref; factory's `CITATION-GROUNDING` cites GU files ≤07-15 — the 07-29 surplus-audit + Layer-0 retraction are exactly its evidence class | Send a v0.6 evidence-refresh seed to the factory | M | S |
 | P-M14 | Three candidates carry `citations: PENDING` never verified (keep-and-grade, gen-number-boundary-odd-primary, observer-value-selection) | Citation passes (referee's first attack surface) | M | M |
-| P-M15 | Factory's UV-gravity hardening ask (PAPER-SEEDS:66, exact packet spec) unanswered — a valid Lane 3 signal | Answer or decline explicitly | M | S |
+| P-M15 | Factory's UV-gravity hardening ask (PAPER-SEEDS:66, exact packet spec) unanswered — a valid result-hardening research signal | Answer or decline explicitly | M | S |
 | P-M16 | No referee-invitation companion to REVIEWER.md (endorser draft's bibliography-mining logic transfers; unused) | Draft "who to invite and what to ask" | M | S |
 | P-M17 | Two-arena draft undersells itself: "recompilation not reproduced, we do not advertise machine-verified" — false since 07-22 (R4TwoArena in pinned default target) | Update the caveat; cite the receipt | M | XS |
 | P-M18 | `keep-and-grade-loop-cost` W133 sharpening (Kallen-Lehmann partition) self-identified "natural insertion" never inserted (20+ days) | Insert the subsection | M | S |
@@ -374,7 +372,7 @@ re-run when each directory is next touched; the two "trap decoupling"
 labels and the Stueckelberg M_eff/M_D line join the small-fix tail.
 
 **Cross-repo:** records↔DE proposal note dispatched to
-`repos/private/system-runtime/mailboxes/time-as-finality/20260803-gu-records-de-anchor-coordination-proposal.md`.
+`repos/private/private orchestration runtime/mailboxes/time-as-finality/20260803-gu-records-de-anchor-coordination-proposal.md`.
 
 **P-C3 final accounting (2026-08-03, G4 close-out; all edits in e53e8ae):**
 
@@ -1923,7 +1921,7 @@ admission, or P1/P2/P3 status moves. No external datum touched.
   asserts in the next sentence that the result "lives in ad-valued 1-forms" —
   a one-degree self-contradiction, with `ε_ω` present in the prose and absent
   from the formula. Canon has it right. Fence added to
-  `lab/process/agent-context-pack.md` Layer-0.
+  `lab/process/CURRENT-RESEARCH-CONTEXT.md` Layer-0.
 - **Filing defects in `lab/sources/media-index.md` (canon; not edited).**
   (a) Row `GU-MEDIA-2025-UCSD-SEMINAR` (`:65`) records the local transcript
   path but **no source URL or video ID**, which is exactly what leaves

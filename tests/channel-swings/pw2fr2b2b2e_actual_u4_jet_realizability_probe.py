@@ -517,7 +517,7 @@ def universal_degree_ledger() -> None:
 def source_and_layer_zero() -> None:
     pack_path = ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
     pack = pack_path.read_text()
-    audit_path = ROOT / "explorations/hourly-cycles/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md"
+    audit_path = ROOT / "explorations/research-cycles/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md"
     audit = audit_path.read_text()
     source_receipt(
         "the 2021 grammar takes the metric as an input and places the quadratic-distortion slot against a Levi-Civita/spin reference",

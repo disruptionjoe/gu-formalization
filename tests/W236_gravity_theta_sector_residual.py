@@ -66,9 +66,9 @@ TEST STRUCTURE (positive controls FIRST -- each FIRES on a real nonzero linear-i
 Run:  python -u tests/W236_gravity_theta_sector_residual.py   (exit 0 iff all PASS)
 
 Binding: exploration grade; NO canon/verdict/status movement (schwarzschild-weak-field-rfail
-stays OPEN; the gravity-leg verdict is Joe-gated).  Personas inline (IG-branch/theta
+stays OPEN; the gravity-leg verdict is Joe-gated).  Perspectives inline (IG-branch/theta
 specialist; screened-Poisson/induced-YM specialist; Krein-current/record specialist; ruthless
-skeptic); no sub-agents.  Zero em dashes in paper-facing text.
+skeptic); no independent reviewers.  Zero em dashes in paper-facing text.
 """
 from __future__ import annotations
 import sympy as sp

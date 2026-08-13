@@ -10,7 +10,6 @@ panel_refs:
   - "lab/process/eleven-lens-audit-2026-08-03.md (What held up: the full J_quat/Kramers structure)"
 title: "M-M3 parity-theorem strengthening: so(9,5) acts absolutely irreducibly on R^14 (commutant R), so by Burnside the GU-native generated algebra is not merely CONTAINED IN but EQUAL TO the full J_quat-commutant M(14,R) (x) M(64,H) = M(896,H). Consequences: 'GU-native' means exactly 'H-linear' and nothing more; every EVEN index is realized by some GU-native carrier (the Kramers wall is sharp: even <=> realizable); count = dim_H = index/2 is the NATURAL reading of a quaternionic carrier, not an alternative. Also fixes the commutant misidentification: the J_quat-commutant is M(14,R) (x) M(64,H), NOT M(14,C) (x) M(64,H)"
 grade: "EXACT / structural — Burnside/Jacobson density on an absolutely irreducible real representation plus standard Clifford classification; session numeric check of the vector-rep commutant (dim 1 over R and C, exit 0); derives NO count and moves NO verdict"
-claim_status_change: none
 canon_verdict_change: none
 depends_on:
   - canon/no-go-quaternionic-parity-generation-sector.md

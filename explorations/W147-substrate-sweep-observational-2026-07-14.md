@@ -6,8 +6,8 @@ label: W147
 family: observational / experimental / data (Track-2 owners, slice E partition)
 title: "W147 substrate sweep -- the OBSERVATIONAL family: everpresent-Lambda / Y14-shadow vs DESI DR3"
 depends_on:
-  - explorations/two-track-persona-sweep-2026-07-11/E-pragmatic-experimental.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/E-pragmatic-experimental.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - tests/W147_everpresent_lambda_substrate_shadow.py
   - tests/W144_desi_fitted_issuance_function.py
   - tests/wave29/... (raw DESI DR2 BAO likelihood, via H46)
@@ -45,7 +45,7 @@ the W141 S1 regression bet.
 **Novelty gate (binding):** a survivor must pin something GU-specific, distinct from bare causal-set relabeling.
 The Y14 -> X4 projection and the measurement-gating are the two GU-specific levers; a survivor must exercise one.
 
-## 1. Coverage -- every persona in the observational partition (slice E, 12 voices)
+## 1. Coverage -- every perspective in the observational partition (slice E, 12 voices)
 
 The nearest partition to OBSERVATIONAL / EXPERIMENTAL / DATA is slice E (pragmatic / commercial / experimental /
 phenomenology). All 12 voices taken inline, two substrate steelmen each = 24 candidates:
@@ -57,7 +57,7 @@ analyst / likelihood specialist -- 11. Numerical / strong-field relativist -- 12
 phenomenologist.
 
 Each steelman is stated as (i) substrate object [re-anchored on Y14/X4], (ii) record-growth law, (iii) shadow
-map to observed Lambda/expansion, (iv) assumption leg, (v) the persona's sharpest OBSERVATIONAL discriminant
+map to observed Lambda/expansion, (iv) assumption leg, (v) the perspective's sharpest OBSERVATIONAL discriminant
 (this family's deliverable). Failures discarded one line; survivors ranked and detailed in Sections 3-5.
 
 ## 2. The 24 steelmen, internal scoring (kept compact; survivors expanded below)
@@ -68,7 +68,7 @@ O(1) board = Omega_L functions per W143); NEW novelty gate (distinct from bare c
 Y14 -> X4 or measurement-gating signature). Scored on (a) sharpness + timeline of the observational discriminant
 (near-term / DR3 preferred), (b) assumption-leg sharpness, (c) novelty.
 
-### Persona 1 -- Commercial scientist
+### Perspective 1 -- Commercial scientist
 - **1A (SURVIVOR, ranked #4).** (i) Y14 as the ledger that holds records; the observable is the X4 shadow of its
   balance. (ii) global record count N grows; shadow-Lambda ~ 1/sqrt(N_measured). (iii) DE = the shadow of the
   measured-record accretion. (iv) leg: the measured count is a public, unfitted number (structure census).
@@ -78,7 +78,7 @@ Y14 -> X4 or measurement-gating signature). Scored on (a) sharpness + timeline o
 - **1B (discard).** "Buy a measurement not a map" applied to the shadow amplitude alone -- degenerate with 1A's
   PC0, adds nothing; folded into 1A.
 
-### Persona 2 -- Observational cosmologist, DESI/CMB
+### Perspective 2 -- Observational cosmologist, DESI/CMB
 - **2A (SURVIVOR, ranked #1).** (i) Y14 substrate; X4 shadow-Lambda fluctuates. (ii) shadow tracks the MEASURED
   record-promotion RATE (observer/structure-formation rate), non-monotone. (iii) DE(z) = the SFR-shaped shadow.
   (iv) leg: the shape is FIXED by the cosmic star-formation history (Madau-Dickinson), not fitted -- one
@@ -91,7 +91,7 @@ Y14 -> X4 or measurement-gating signature). Scored on (a) sharpness + timeline o
   stochastic residual at amplitude ~1/sqrt(N) that no smooth (w0,wa) removes (substrate). Three distinguishable
   DR3 outcomes; the substrate bet is (c). Near-term, marquee.
 
-### Persona 3 -- GW phenomenologist
+### Perspective 3 -- GW phenomenologist
 - **3A (discard).** Substrate granularity -> graviton dispersion. Real, but the discriminant is GW not the
   shadow-Lambda object; and causal-set discreteness is Lorentz-invariant by sprinkling (see Section 6), so the
   naive granularity-dispersion signature is SUPPRESSED, not enhanced. States the LIV advantage but yields no
@@ -100,16 +100,16 @@ Y14 -> X4 or measurement-gating signature). Scored on (a) sharpness + timeline o
   sprinkling) is a stated ADVANTAGE: the shadow carries NO preferred-frame LIV signature, so existing stringent
   LIV bounds do NOT constrain it -- a defensive clear, not a discriminant. Ranked for the record.
 
-### Persona 4 -- Collider phenomenologist
+### Perspective 4 -- Collider phenomenologist
 - **4A/4B (both discard).** A vectorlike-mirror mass window is orthogonal to the shadow-Lambda substrate object;
   a free-mass modulus never falsifies. No substrate-specific observational content. One line, dropped.
 
-### Persona 5 -- Precision-tests experimentalist
+### Perspective 5 -- Precision-tests experimentalist
 - **5A (discard).** Fifth-force / Yukawa from the substrate is a different sector (mu_DW); re-importing mu_DW
   here trips the H36 non-reimport tripwire. Dropped to protect the gate.
 - **5B (discard).** EP-violation from measurement-gated Lambda gradients -- speculative, no near-term band.
 
-### Persona 6 -- Model-builder (BSM)
+### Perspective 6 -- Model-builder (BSM)
 - **6A (SURVIVOR, ranked #3).** (i) Y14 substrate; declare the measurement-gating law as a postulate. (ii) the
   record-growth law is the promotion operator GLOBAL -> REGIONAL -> INDIVIDUAL; the MEASURED count is the C-operator
   positive subspace (the prior-wave convergence: "admissible record space", now LITERAL). (iii) shadow-Lambda
@@ -119,7 +119,7 @@ Y14 -> X4 or measurement-gating signature). Scored on (a) sharpness + timeline o
 - **6B (discard).** Declare a monotone dilution law -> the monotone gated shadow (W147 A2) improves on LCDM only
   at dchi2 = -3.4 (cannot make the DESI z~0.4 peak). Under-fit; dominated by 2A/6A.
 
-### Persona 7 -- Forecaster / Bayesian model-comparison
+### Perspective 7 -- Forecaster / Bayesian model-comparison
 - **7A (SURVIVOR, ranked #2-tie, folded into 2B).** The substrate predicts a proper LIKELIHOOD object: an
   irreducible stochastic w(z) residual with a specific power spectrum P(k_z) whose amplitude is set by 1/sqrt(N)
   and whose correlation length is set by the Y14 -> X4 projection (the 10 fiber directions marginalized). DR3 +
@@ -128,29 +128,29 @@ Y14 -> X4 or measurement-gating signature). Scored on (a) sharpness + timeline o
 - **7B (discard).** Bare Bayes factor of the mean envelope -- computed (W147 A3, dchi2 table); informative but
   the mean alone loses to W144, so the evidence lives in the residual (7A), not the mean.
 
-### Persona 8 -- Science-strategy / portfolio
+### Perspective 8 -- Science-strategy / portfolio
 - **8A (discard).** Diversification argument; strategic, not an observational discriminant. One line.
 - **8B (discard).** Same.
 
-### Persona 9 -- Referee (PRD/PRL)
+### Perspective 9 -- Referee (PRD/PRL)
 - **9A (SURVIVOR support, folded into 2A/2B).** "Show me one number predicted before you saw it": the substrate's
   publishable number is the SHAPE-FIXED rate-gated fit (one amplitude, shape from the SFR history), scored on the
   actual DESI DR2 likelihood (W147). A referee accepts a shape-fixed prediction with a stated dchi2 and a named
   DR3 falsifier (peak location). Folded as the presentation discipline for 2A.
 - **9B (discard).** "A compression is not a prediction" -- meta, no new object.
 
-### Persona 10 -- Data analyst / likelihood specialist
+### Perspective 10 -- Data analyst / likelihood specialist
 - **10A (SURVIVOR, the COMPUTE ENGINE for #1-#2).** Contract the shadow models with the full 13x13 DESI DR2 BAO
   covariance + theta_star (H46C) + the raw likelihood (wave29). COMPUTED in W147: LCDM 30.11; naive bare-4-volume
   everpresent FALSIFIED (dchi2 +2300, overshoots); monotone gated -3.4; rate-gated -8.77 (k=1); CPL -19.96;
   W144 free Q -22.41. The analyst's verdict is the Section 5 table.
 - **10B (discard).** Amplitude-marginalized (shape-only) rows -- a refinement of 10A, not separate.
 
-### Persona 11 -- Numerical / strong-field relativist
+### Perspective 11 -- Numerical / strong-field relativist
 - **11A/11B (both discard).** Black-hole shadow residual is a gravity-sector binary, orthogonal to the
   cosmological shadow-Lambda object. Real Track-1 kill but not this family's substrate discriminant.
 
-### Persona 12 -- Neutrino / flavor phenomenologist
+### Perspective 12 -- Neutrino / flavor phenomenologist
 - **12A (discard, cross-wire noted).** K5/K8 wires: the substrate amplitude ties to the neutrino mass anchor
   (W136 m_lightest ~ 2.3 meV ~ the rho_L^(1/4) scale). A coincidence-of-scales note, not an independent
   observational discriminant. Recorded as a cross-wire, not ranked.
@@ -249,7 +249,7 @@ configuration reproduces the verified LCDM BAO row 30.68 (W147 PC1b).
   evidence -- honored, W147 flags the mean deviation > 0.3/e-fold as HYPOTHESIS), while its stochastic RESIDUAL
   is a new observable G2 does not address (it is not a drift claim; it is a variance prediction). The residual
   is reported as un-scored here (DR3 territory), not smuggled past G2.
-- **H36 non-reimport (>= 4.78x).** Never re-imported; no mu_DW identification anywhere in W147 (Persona 5
+- **H36 non-reimport (>= 4.78x).** Never re-imported; no mu_DW identification anywhere in W147 (Perspective 5
   discarded specifically to protect this).
 - **dS relabeling (E_Lambda = T_dS S_dS / 1.46).** Not invoked; the substrate object is the measured-record
   count, not a dS thermodynamic relabel.
@@ -278,5 +278,5 @@ Exploration grade; conditional register; hypothesis-generation only (W138 G2). N
 change; no FIT-row movement asserted. Computation in tests/W147_everpresent_lambda_substrate_shadow.py (13/13
 checks, exit 0), reusing VERBATIM the verified machinery: H46C (theta_star calibration), H46/wave29 (raw DESI DR2
 BAO likelihood, full 13x13 covariance), and importing the W144 fitted-Q anchor (dchi2 -22.41, z~0.405 crossing).
-Personas inline (never spawned). Tri-repo gating honored (substrate = Y14, a local GU object; no TaF measure
+Perspectives inline (never spawned). Tri-repo gating honored (substrate = Y14, a local GU object; no TaF measure
 claim; issuance/shadow = local postulate label). Zero em dashes in paper-facing text.

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W166; TEAM LENS-ENGINE; five personas inline, one worker, no sub-agents; deterministic test with W126/W130/W159 positive controls)
+status: exploration (W166; TEAM LENS-ENGINE; five perspectives inline, one worker, no independent reviewers; deterministic test with W126/W130/W159 positive controls)
 created: 2026-07-14
 wave: W166
 label: W166
@@ -46,7 +46,7 @@ missing. The wave asks three questions and grades the answer PLAUSIBLE: the stru
 but read at the edge of EFT validity.
 
 Coherence-first: build the reframe at full strength, then let the skeptic try to kill it. Five
-personas inline, one worker, no sub-agents. Deterministic test
+perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W166_tachyon_is_the_engine.py`, 16/16 exit 0, W126 + W130 + W159 positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -60,7 +60,7 @@ personas inline, one worker, no sub-agents. Deterministic test
 | Everpresent drive | `Lambda ~ +/- 1/sqrt(N)` (W145, ported Sorkin) | The candidate second saturation mechanism. |
 | Standard picture | LCDM + GR + SM, time-symmetric laws | The comparison class in bar (b); it LACKS a derived arrow. |
 
-## 2. Persona 1 -- cosmogenesis / arrow-of-time: does `m_0^2 < 0` literally mean `N` grows?
+## 2. Perspective 1 -- cosmogenesis / arrow-of-time: does `m_0^2 < 0` literally mean `N` grows?
 
 **Yes, and it is a chain of three facts each pinned by a positive control.**
 
@@ -84,7 +84,7 @@ the record-count mode. That is the arrow of time.
 > **The tachyon is not "a flaw the standard picture lacks." It is the statement "N grows" --
 > the arrow of time -- written in the mass matrix.**
 
-## 3. Persona 2 -- autopoiesis / self-production: a STABLE mode is a DEAD universe
+## 3. Perspective 2 -- autopoiesis / self-production: a STABLE mode is a DEAD universe
 
 Push the inversion to its sharpest form. A live, self-producing (autopoietic) system REQUIRES a
 productive instability; a system that has relaxed to stable equilibrium is, by definition, dead.
@@ -102,7 +102,7 @@ distinguishes a live record-accreting universe from a dead one. It borrows the a
 low-entropy boundary condition. GU's tachyon, read this way, is the FEATURE that makes the
 universe alive.
 
-## 4. Persona 3 -- nonlinear dynamics: reconcile with W159 (graceful or pathological?)
+## 4. Perspective 3 -- nonlinear dynamics: reconcile with W159 (graceful or pathological?)
 
 This is the whole result. W159 read the same runaway and killed the "benign" story: route 2
 OUT-OF-VALIDITY (the gradient sector is a DBI speed limit degenerating at `v^2 = 1/16`, the
@@ -110,7 +110,7 @@ tachyonic scale `|m_0^2| = 1/4 = 4x` beyond it; no bounded-field attractor). If 
 just that pathological runaway, the reframe is wishful. The reconciliation turns on a single
 observation: **W159's kill was aimed at a SATURATION BALANCE -- a bounded-field ATTRACTOR, a
 static vacuum minimum. But the arrow-of-time reading does not WANT an attractor.** An attractor
-is a dead universe (persona 2). The right question is not "does a minimum exist" (it must not);
+is a dead universe (perspective 2). The right question is not "does a minimum exist" (it must not);
 it is "is the RATE graceful (finite), or does it blow up." Two independent mechanisms make it
 graceful.
 
@@ -147,7 +147,7 @@ validity, not comfortably inside it. This is why the grade is PLAUSIBLE, not INS
 > wants an unbounded-but-finite-rate accretion and finds exactly that -- read at the validity
 > edge.
 
-## 5. Persona 4 -- symbolic engineer: the dispersion result, inverted
+## 5. Perspective 4 -- symbolic engineer: the dispersion result, inverted
 
 W159's dispersion result (D2) was read as neutral-to-negative: the tachyon peaks at `k = 0`
 (homogeneous), unstable band `0 <= k < 1/2`, NO finite-`k` Turing band, "a real long-wavelength
@@ -168,7 +168,7 @@ record-count identification and the growing mode; P2a-P2b the stable=dead dichot
 DBI linearization, the everpresent fade, and the validity-edge tension; P4a-P4b the `k=0`
 global-clock inversion; S1-S4 the skeptic's steelmen and the one concession.
 
-## 6. Persona 5 -- adversarial skeptic RUTHLESS: is the reframe wishful?
+## 6. Perspective 5 -- adversarial skeptic RUTHLESS: is the reframe wishful?
 
 The reframe is the most seductive one in the whole tachyon arc, so the skeptic must be merciless.
 Three steelmen land, one concession is forced.
@@ -255,9 +255,9 @@ survives the skeptic); not INSIGHT (the dynamics are not certified in validity).
   {3, 8, 24, chi(K3), Ahat} assumed or inserted. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team LENS-ENGINE (W166). Coherence-first; invert the framing, then let the
-skeptic kill it. Five personas inline in one worker (cosmogenesis/arrow-of-time theorist;
+skeptic kill it. Five perspectives inline in one worker (cosmogenesis/arrow-of-time theorist;
 autopoiesis/self-production theorist; nonlinear-dynamics/W159-reconciliation theorist; symbolic
-engineer; adversarial skeptic RUTHLESS); no sub-agents. Reproducible:
+engineer; adversarial skeptic RUTHLESS); no independent reviewers. Reproducible:
 `python -u tests/W166_tachyon_is_the_engine.py` (16/16, exit 0; W126 + W130 + W159 positive
 controls first). Exploration grade; conditional register; honest grade PLAUSIBLE; no canon
 movement.*

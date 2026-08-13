@@ -4,9 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (pre-registered NCG spectral-triple swing on GU's SM structure)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 inputs:
   - canon/shiab-existence-cl95.md
   - canon/no-go-quaternionic-parity-generation-sector.md
@@ -80,7 +78,7 @@ product group off of. Everything below is a consequence of that one difference.
 
 ---
 
-## 1. Persona (i) — NCG spectral-triple theorist (the axioms and the gauge map)
+## 1. Perspective (i) — NCG spectral-triple theorist (the axioms and the gauge map)
 
 **What a valid CC-style recasting requires** (Connes; Chamseddine-Connes-Marcolli):
 a real, even spectral triple `(A, H, D, J, gamma)` with
@@ -116,7 +114,7 @@ sub-datum forces `A_F`, GU is **not** deriving the SM the CC way.
 
 ---
 
-## 2. Persona (ii) — Clifford / GU-structure expert (the ingredients exist)
+## 2. Perspective (ii) — Clifford / GU-structure expert (the ingredients exist)
 
 GU supplies every ingredient of a spectral triple, and they assemble:
 
@@ -154,7 +152,7 @@ family (Section 4).
 
 ---
 
-## 3. Persona (iii) — Representation theorist (which subalgebra, and does anything come out)
+## 3. Perspective (iii) — Representation theorist (which subalgebra, and does anything come out)
 
 **Does `C(+)H(+)M3(C)` sit inside `M(64,H)`?** Yes. Its complexification
 `C (+) M2(C) (+) M3(C)` (complex dim `1+4+9 = 14`) has a faithful representation on
@@ -196,7 +194,7 @@ bonus does not materialize.**
 
 ---
 
-## 4. Persona (iv) — Skeptic / anti-toy (is the SM subalgebra FORCED, or cherry-picked?)
+## 4. Perspective (iv) — Skeptic / anti-toy (is the SM subalgebra FORCED, or cherry-picked?)
 
 The whole swing turns on one word: **forced.** The skeptic's hold-the-line test:
 *matching-by-construction is the imported selector in disguise, not a derivation.*

@@ -129,14 +129,14 @@ That is enough to make the conditional scientifically useful and falsifiable. It
 it a native, independent GU prediction. The correct disposition is **KILLED_CONDITIONAL**, not
 "prediction survived," and not an unconditional falsification of GU.
 
-## 3. Ten divergent personas: three predictions each
+## 3. Ten divergent perspectives: three predictions each
 
 This is a divergent search register, not a vote. Impact scores estimate the scientific payoff if the
 proposal were derived and confirmed. Difficulty scores estimate the work needed to reach a pre-declared,
 physical, independently testable result. Both use `1` low through `5` extreme. Every row includes the
 first test that should kill the idea before expensive development.
 
-| Persona and supporting leg | Candidate prediction | Impact | Difficulty | Current status | First kill test |
+| Perspective and supporting leg | Candidate prediction | Impact | Difficulty | Current status | First kill test |
 |---|---|---:|---:|---|---|
 | Flavor representation theorist | basis-invariant Yukawa singular-value ratio | 5 | 5 | target | any independent surviving flavor coefficient remains |
 | Flavor representation theorist | `Z/3` texture-zero mixing sum rule | 4 | 4 | target | relation is basis-dependent or broken by the required source spurion |
@@ -171,7 +171,7 @@ first test that should kill the idea before expensive development.
 
 ### What the divergence teaches
 
-The personas converge on four families despite starting from different legs:
+The perspectives converge on four families despite starting from different legs:
 
 1. **Dimensionless Standard Model overconstraint.** This has the best impact-to-experimental-cost ratio
    because the data already exist. Its derivation difficulty is extreme because present GU flavor

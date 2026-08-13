@@ -160,7 +160,7 @@ def source_and_layer0_checks() -> None:
     portal = (ROOT / "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md").read_text()
     rendered = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     ).read_text()
     exact(
         "Portal gives two physical somatic complexes with a common Einstein-type obstruction",
@@ -206,7 +206,7 @@ def source_2025_and_map_separation_checks() -> None:
     toe = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
     rendered = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     ).read_text()
     exact(
         "2025 TOE states the geometric-quantization function-to-one-form-to-vector-to-connection route",

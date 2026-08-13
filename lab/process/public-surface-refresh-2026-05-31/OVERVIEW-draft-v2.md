@@ -36,7 +36,7 @@ A clean negative result is a success condition for this repo.
 
 The evidence is currently structural, not constructive:
 
-- `lab/process/persona-passes/` contains 35 persona passes across mathematical physics, computation-substrate, heterodox problem-shape, and distributed-systems lenses.
+- `lab/process/perspective-passes/` contains 35 perspective passes across mathematical physics, computation-substrate, heterodox problem-shape, and distributed-systems lenses.
 - `syntheses/` contains five core syntheses, three ranking/priority syntheses, and the first public pathway scoping artifacts. The strongest synthesis is the six-axis specification space: substrate, observer, pairing, causal order, emergence class, and coordination loop.
 - `lab/literature/` contains four literature reviews. Their shared result is that the highest-priority bridges are genuinely unexplored in the published/arXiv literature, with adjacent machinery but no positive construction and no known counter-result.
 - `lab/sources/` contains the GU media/source provenance index, including lectures, podcasts, official pages, and candidate videos that need transcript/timestamp extraction before they support specific claims.
@@ -61,7 +61,7 @@ These two findings sit together: the wall theorem says the direct categorical eq
 5. Which specific six-axis candidate is the first one worth attempting?
 6. Does the classical-value-lattice wall (§3a) apply at the adjunction level to Witten and Freed-Hopkins as well, or is it specific to the Nielsen-Ninomiya / Ginsparg-Wilson row?
 
-The current priority ranking is in `lab/roadmap/five-persona-value-ranking-rubric.md` and `lab/roadmap/15-persona-pathway-ranking.md`. The first public pathway artifacts begin at `canon/six-axis-specification-protocol.md`.
+The current priority ranking is in `lab/roadmap/five-perspective-value-ranking-rubric.md` and `lab/roadmap/15-perspective-pathway-ranking.md`. The first public pathway artifacts begin at `canon/six-axis-specification-protocol.md`.
 
 ## 5. Where can I contribute?
 

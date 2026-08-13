@@ -3,20 +3,19 @@ title: "Compute readiness and priority reconciliation"
 status: exploration
 doc_type: run_receipt
 date: "2026-07-22"
-run_id: GUD-20260723T022801Z-compute-readiness-priority-reconciliation
 ---
 
 # Compute readiness and priority reconciliation
 
 ## Bottom line
 
-This Lane-A integrity cleanup removes two sources of artificial work: Lane 1's declared difficulty protection
+This Lane-A integrity cleanup removes two sources of artificial work: truth-status research's declared difficulty protection
 is now executable, and `DE-AMP-DIAGNOSTIC` no longer requests an already-completed computation. No claim,
 canon, verdict, publication posture, or GU-native construction grade moves.
 
 ## Selection repair
 
-The ordinary portfolio score remains recorded for audit comparability. Lane 1 now uses a protected rule:
+The ordinary portfolio score remains recorded for audit comparability. truth-status research now uses a protected rule:
 
 1. eligibility and dependency state are hard gates;
 2. an explicit Joe or steward lead signal applies first among eligible Lane-1 items;

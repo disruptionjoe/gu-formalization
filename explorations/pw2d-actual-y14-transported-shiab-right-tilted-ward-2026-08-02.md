@@ -4,7 +4,7 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260802-191950-gu-formalization-pw2d-actual-y14-source-ward/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registries:
   - lab/process/pw2d-native-transported-shiab-action.json
   - lab/process/pw2d-right-tilted-ward-green-registry.json
@@ -12,9 +12,7 @@ probes:
   - tests/channel-swings/pw2d_native_transported_shiab_action_probe.py
   - tests/channel-swings/pw2d_right_tilted_ward_green_probe.py
 grade: "PW2D PARTIAL LOCAL ACTIVE-COMPONENT PASS WITH A REPAIRED DELTA-ONLY BOUNDARY. A fixed-metric covariance-completed Shiab family, literal full-K split, normalized curvature/transgression, and the written kappa1/2 mass sector are evaluated on the B2C15P Y14 fixture. Independent differentiation gives the correct Q-family tangent identity and zero explicit transported-grade-projector response on this fixture; the original projector-failure claim is retracted. Linear response cancels. Curvature second response is 3/8, unweighted mass second response is 2, and full response is 3/8+kappa1, so it is Delta-only but can vanish at kappa1=-3/8. The eight moving-Shiab metric slots remain a separate zero-jet rank-ten coefficient bank, not a mixed action/Euler rank. Separately, an exact GL(2) structural comparator proves the residual right nonabelian Ward identity and, after hostile repair, an explicit old-root Frechet adjoint plus a separate Green layer. The public-to-active port, explicit finite native Q/projector construction, mixed/full Z0+Z1 metric Frechet graph, three-patch coefficient descent, higher action jet, native all-owner Ward, composite reality checks, domain, BV/BFV, observation no leakage, and physics recovery remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # PW2D actual Y14 transported Shiab and residual right-tilted Ward

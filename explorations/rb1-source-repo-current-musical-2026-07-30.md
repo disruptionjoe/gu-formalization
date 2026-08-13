@@ -3,14 +3,11 @@ title: "RB1 source/repository register, varied-root dependency ledger, and nativ
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: RB1-SOURCE-REPO-DICTIONARY-DEPENDENCY-DAG-CURRENT-MUSICAL
-run: lab/process/runs/GUH-20260730T191725Z-rb1-source-repo-current-musical/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/rb1_source_repo_current_musical_probe.py
 grade: "FORMULA-BUILT / TYPED CONSTRUCTION WITH HOSTILE-REVIEW CORRECTIONS. The frozen Layer-0 arrow register is complete but source/repository alignment remains unresolved. A one-parameter formal affine comparison family is exposed; lambda=1 uniquely preserves the source B_omega epsilon-only dependency, while lambda!=1 is a reference-gauge-orbit-constrained control family. The N1 varied-primal Euler-root graph plus coefficient/map/background owner ledger, fixed-geometry A-variation of all nine full-20 blocks, graded J_D/Qhat_F/Jhat_F Green split, and N3's native indefinite G/kappa_g pseudo-musical are explicit. Three candidate action schemas plus one control family are emitted to RB2 on the Spin/stabilizer arena. No field-space pullback, source/repository identity, source-forced Shiab selector, preferred action, full-Sp lift, stationarity, CME, global domain, physical mass, index, count, canon verdict, or public-posture change is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # RB1 source/repository register, dependency ledger, and current musical
@@ -115,10 +112,10 @@ This swing inherits without modification:
 - the primary-source packet
   [`weinstein-gu-primary-source-pack-2026-07-30.md`](../lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md);
 - the source action locator in
-  [`hourly-20260626-1003-cycle3-tau-source-locator-packet.md`](hourly-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md);
+  [`hourly-20260626-1003-cycle3-tau-source-locator-packet.md`](research-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md);
   and
 - the rendered equations (9.4)--(10.9) ledger in
-  [`hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md`](hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md).
+  [`hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md`](research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md).
 
 The checked source receipts explicitly supply
 

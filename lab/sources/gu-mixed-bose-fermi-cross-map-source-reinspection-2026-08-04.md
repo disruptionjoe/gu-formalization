@@ -95,7 +95,7 @@ Bose--Fermi grading.
 
 ## Existing-repo collision
 
-`explorations/hourly-cycles/hourly-20260625-0711-cycle2-rs-equation-1010-cell-typing-gate.md`
+`explorations/research-cycles/hourly-20260625-0711-cycle2-rs-equation-1010-cell-typing-gate.md`
 already typed all five nodes and seven visible arrow families. Its scoped
 question was whether any cell supplied a pure Rarita--Schwinger minus-one
 source rule; the answer was no. The present result does not reverse that

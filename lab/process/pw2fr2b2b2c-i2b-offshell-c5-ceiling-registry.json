@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2C-I2B-OFFSHELL-C5-CEILING",
   "status": "OFFSHELL_I2B_C5_CEILING_CLOSED_ON_CONDITIONAL_PRINCIPAL_Z1_OBSERVED_BASE_LC_METRIC_BRANCH__COMPLETE_I1_I2B_C4_AND_GREEN_OPEN",
-  "run_id": "RUN-20260803-101026-gu-formalization-pw2fr2b2b2c-i2b-offshell-c5-ceiling",
+  "run_id": "historical-investigation",
   "verdict_scope": "conditional fixed-(epsilon,varpi) reconstructed Levi-Civita principal-Z1 metric-metric branch over observed-base conormals only",
   "source_disposition": {
     "SOURCE-CONFIRMS": "the pinned primary-source packet contains the first bosonic action grammar; the separately custodied staged source reconstruction retains the manuscript I2B residual-norm glyph without identifying it with I1",

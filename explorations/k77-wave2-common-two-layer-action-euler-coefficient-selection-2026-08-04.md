@@ -3,12 +3,9 @@ title: "K77 Wave 2: the common norm-square layer is built, but its redundancy ca
 status: active_research
 doc_type: construction_result
 created: 2026-08-04
-lane: 1
 gate: RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD
 grade: "Field-theoretic two-layer formula with exact finite variational control; exact actual-K77 principal-family, cancellation-rank, all-covector anticommutator-scalarity, and quadratic-square-span certificates. Full moving K77 Euler evaluation, path adapter, independent second-layer target, observation, and physics remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 Wave 2: common two-layer action and coefficient selection

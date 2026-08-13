@@ -3,7 +3,7 @@ title: "Curt iceberg transcript: what the `(7,7)` argument actually says"
 status: source_reinspection
 doc_type: source_note
 created: 2026-07-31
-run: lab/process/runs/GUH-20260731T184714Z-curt-77-wave2b-term-rank/run-plan.md
+run: archived private execution record
 source: https://podscripts.co/podcasts/theories-of-everything-with-curt-jaimungal/the-geometric-unity-iceberg-oh-boy
 grade: "SECONDARY TRANSCRIPT REINSPECTION. Exact for the timestamped transcript surface and elementary signature arithmetic; reconstruction for the missing dual-horizontal sign/order completion. No author correction, carrier selection, or physical recovery."
 ---

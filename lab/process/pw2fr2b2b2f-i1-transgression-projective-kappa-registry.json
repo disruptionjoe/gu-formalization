@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-PROJECTIVE-KAPPA",
   "status": "CONDITIONAL_ACTIVE_COFRAME_FROZEN_SHIAB_RAW_DENSITY_NONE__EULER_OPEN",
-  "run_id": "RUN-20260803-133351-gu-formalization-pw2fr2b2b2f-i1-transgression-projective-kappa",
+  "run_id": "historical-investigation",
   "verdict_scope": "two independent exact owner and observed-base conormal entries on a conditional active canonical-coframe frozen-Shiab raw-density representative; not the Green and Helmholtz reduced Euler operator",
   "source_disposition": {
     "SOURCE-CONFIRMS": "the pinned manuscript source fixes F_B plus one-half D_B T plus one-third bracket T,T and the one-half/one-third coefficients",

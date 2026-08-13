@@ -3,15 +3,12 @@ title: "Weinstein primary-source reinspection: three source-native rivals for th
 status: active_research
 doc_type: source_reinspection
 created: 2026-07-30
-lane: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-WEINSTEIN-REINSPECTION
-run: lab/process/runs/GUH-20260730T165850Z-weinstein-source-reinspection/run-plan.md
+run: archived private execution record
 source_pack: lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md
 probe: tests/channel-swings/weinstein_primary_source_reinspection_contract.py
 grade: "SOURCE-GROUNDED CONSTRUCTION REDIRECTION. Primary formulas and transcript locators are checked against existing repo ownership and the frozen N1/N3 packet. Three next calculations are emitted: a source-native total-residual rival, an exactness/quadratic-completion test, and a shared spinless-VEV zero-order branch. None is executed here as a physical derivation. No source/repo object identity, stationarity, gauge Noether closure, CME, mass spectrum, Standard Model fit, index, count, or scientific-status change is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Weinstein primary-source reinspection
@@ -152,8 +149,8 @@ The neighbor search prevents four false novelty claims:
 
 | source result | existing owner | status here |
 | --- | --- | --- |
-| the first-order action \(I^B_1\) and translation variation | [`hourly-20260626-1003-cycle3-tau-source-locator-packet.md`](hourly-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md) | formula already owned |
-| equations (9.1)--(10.9), including \(\Upsilon^B+\Upsilon^F\) | [`hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md`](hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md) | formula and target-type quarantine already owned |
+| the first-order action \(I^B_1\) and translation variation | [`hourly-20260626-1003-cycle3-tau-source-locator-packet.md`](research-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md) | formula already owned |
+| equations (9.1)--(10.9), including \(\Upsilon^B+\Upsilon^F\) | [`hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md`](research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md) | formula and target-type quarantine already owned |
 | the linear first-order action versus an induced \(\lvert II\rvert^2\) shadow | [`W161-lens-foundational-action-2026-07-14.md`](W161-lens-foundational-action-2026-07-14.md) | functional-class fork already owned |
 | one VEV linking low gravity, chirality, and mass | [`escape-corners-campaign-RESULTS.md`](../canon/escape-corners-campaign-RESULTS.md) | coarse VEV/mass constraint already owned |
 | DarkHorse observerse and 2020/2025 cosmological framing | media index and dark-energy/transcript audits | no new construction content |

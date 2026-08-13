@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (DEFLATIONARY / present-not-decide branch of the observer-conjecture frontier wave; 5-persona inline team; deterministic test)
+status: exploration (DEFLATIONARY / present-not-decide branch of the observer-conjecture frontier wave; 5-perspective inline team; deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-Tomita-Takesaki critical path) -- the DEFLATIONARY sidestep
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -62,9 +62,9 @@ in the pseudo `eta`-sense) with "the observer's genuine firewall is realized." I
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- PT / fakeon / Lee-Wick specialist: what each cheap object actually delivers
+### Perspective 1 -- PT / fakeon / Lee-Wick specialist: what each cheap object actually delivers
 
 **The two-level split the mechanism already lives on (from the conjecture file + rankN).**
 - **ABSTRACT mechanism** (arena/value theorem H62 + Lawvere no-closure H63): needs ONLY the fixpoint-free
@@ -95,7 +95,7 @@ in the pseudo `eta`-sense) with "the observer's genuine firewall is realized." I
 **Specialist's finding.** Only (2) gives a genuinely physical unitary S-matrix without modular theory -- and
 it does so by **removing** the ghost. (1) keeps the ghost but does not reach physical positivity on its own.
 
-### Persona 2 -- Math-physics referee: proven vs argued
+### Perspective 2 -- Math-physics referee: proven vs argued
 
 - **"Abstract mechanism needs only `J^2=1`, not the modular `J`":** PROVEN (repo, H63; `rankN` §5). The
   GU-independent credibility headline (H62+H63) stands without any modular realization.
@@ -111,9 +111,9 @@ it does so by **removing** the ghost. (1) keeps the ghost but does not reach phy
   arXiv:2606.13251: quasi-Hermiticity `<=>` positive-KMS, "contradicts keep-and-grade"). Removal is exactly
   the quasi-Hermitian / definitizable horn where the ghost is a bounded-similarity artifact.
 
-### Persona 3 -- Anti-deflationary steelman: the firewall IS needed and `J` is not replaceable by an S-matrix
+### Perspective 3 -- Anti-deflationary steelman: the firewall IS needed and `J` is not replaceable by an S-matrix
 
-*(This persona argues AGAINST the cheap route -- that a graded S-matrix cannot stand in for the genuine
+*(This perspective argues AGAINST the cheap route -- that a graded S-matrix cannot stand in for the genuine
 modular firewall. Presented at full strength, per the brief.)*
 
 1. **A graded S-matrix buys the ALGEBRA; only `J` buys the GEOMETRY.** The observer conjecture is not merely
@@ -137,9 +137,9 @@ modular firewall. Presented at full strength, per the brief.)*
    computation -- only under a truncation change that lifts `f_2^2* > 0`. The cheap route is disfavored for
    GU specifically. (MEDIUM-HIGH, truncation-conditional.)
 
-### Persona 4 -- Cross-checker: the two horns are ONE dichotomy (independent re-derivation)
+### Perspective 4 -- Cross-checker: the two horns are ONE dichotomy (independent re-derivation)
 
-I re-derive the tension from the removal side, without using Persona 3's geometric argument, and confirm it
+I re-derive the tension from the removal side, without using Perspective 3's geometric argument, and confirm it
 coincides with the repo's HORN K / HORN Q.
 
 - Fakeon and Lee-Wick both act by **making the ghost absent from asymptotic/physical states** (fakeon: no
@@ -157,7 +157,7 @@ coincides with the repo's HORN K / HORN Q.
   walled. So the two constructions are exhaustive and mutually exclusive: **HORN Q (cheap, ghost removed,
   firewall deflated) XOR HORN K (genuine firewall, type-III wall).** You cannot buy both.
 
-### Persona 5 -- Synthesizer: see §2-§4.
+### Perspective 5 -- Synthesizer: see §2-§4.
 
 ---
 

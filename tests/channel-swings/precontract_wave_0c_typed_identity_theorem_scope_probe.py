@@ -28,7 +28,7 @@ def read(path):
 print("A. SOURCE AND LAYER 0")
 canon = read("canon/shiab-existence-cl95.md")
 k77b = read("explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md")
-ucsd = read("explorations/hourly-cycles/hourly-20260625-0803-cycle2-rs-ucsd-typed-operator-source-origin-classifier.md")
+ucsd = read("explorations/research-cycles/hourly-20260625-0803-cycle2-rs-ucsd-typed-operator-source-origin-classifier.md")
 w125 = read("explorations/W125-source-action-first-build-2026-07-13.md")
 spec = read("explorations/source-action-requirements-spec-2026-07-13.md")
 

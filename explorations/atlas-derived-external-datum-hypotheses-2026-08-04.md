@@ -3,14 +3,11 @@ artifact_type: exploration
 status: exploration
 doc_type: hypothesis-note
 created: 2026-08-04
-lane: "1"
 work_item: EXTERNAL-DATUM-HYPOTHESES-FROM-ATLAS
 title: "Three testable hypotheses about GU's external data and the blocked source-action arrow, derived from the 2026-08-04 netcode/physics atlas: (H1) the external datum is a HOLONOMY of boundary framing data, not a stored value; (H2) Z_U's blocked (c_b : c_f) block ratio is fixed by requiring the source pairing to be reciprocal/self-adjoint; (H3) a NEGATIVE that redirects — the one-extra-piece structure holds iff the joint constraint has arity exactly two, so no fixed count can come from the algebra of a pairwise gluing."
 grade: "HYPOTHESES ONLY, pre-deposit. Nothing here is a claim, a result, or a verdict. Each carries a named deciding check and an honest evidence-class label. H1's group coincidence is explicitly typed as the WEAKEST evidence class (number-matching) and is load-bearing only through its mechanism match, not the coincidence. No claim/canon/verdict/bar/H59/count/lane movement; any deposit is J5-gated."
 source: "joe-thinking-wiki Q-0076 atlas clusters A-D (2026-08-04) + the near-miss taxonomy council (2026-08-04), by pointer; Joe-directed 2026-08-04."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Three atlas-derived hypotheses about GU's external data

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W168; TEAM REDUCTION-KREIN; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (W168; TEAM REDUCTION-KREIN; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W168
 label: W168
@@ -63,7 +63,7 @@ there is no fundamental scalaron at all. Either way the tachyon does not STAND a
 debit. The signature computation is solid `(9,5)` rep-theory regardless; only its bearing on GU's law
 rides the shadow-vs-law fork (the W161/W167 question).
 
-Five personas inline, one worker, no sub-agents. Deterministic test
+Five perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W168_reduction_krein_signature.py`, 20/20 exit 0, positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -77,7 +77,7 @@ Five personas inline, one worker, no sub-agents. Deterministic test
 | Scalaron coupling | the covariant `c_R = -(4/9)(alpha+beta)` (W165, shape-blind) | The one-bit reduction the whole arc rides. |
 | Finality interpretation | whether the Krein grading is physically operative (H_C+ vs frontier) | GATED to TaF; the SIGNATURE is not, and this wave computes the signature only. |
 
-## 2. Persona 1 (Cl(9,5) rep-theory) + Persona 3 (differential geometer): the isotypic decomposition and its Krein signs
+## 2. Perspective 1 (Cl(9,5) rep-theory) + Perspective 3 (differential geometer): the isotypic decomposition and its Krein signs
 
 GU's total space is `Y14 = Met(X4)`, the bundle of Lorentzian metrics on `X4`, with fiber
 `Sym^2(T*X4)` carrying the gimmel / DeWitt vertical metric. W131 verified its signature is
@@ -110,11 +110,11 @@ the pure trace-form. The computed signs (test K1-K3):
 - **Relative-trace (K3c):** the single trace-free direction distinguishing spatial trace from time
   is Krein-POSITIVE, unaffected by the DeWitt term.
 
-**Personas 1+3 verdict.** The record-count / conformal mode is the DeWitt-negative full-trace
+**Perspectives 1+3 verdict.** The record-count / conformal mode is the DeWitt-negative full-trace
 direction; the geometric / graviton mode is the Krein-positive spatial transverse-traceless block.
 The `(9,5)` rep-theory FIXES both signs GU-side; no finality input enters the signature.
 
-## 3. Persona 2 (Krein / indefinite-metric): the relative signature and the translation
+## 3. Perspective 2 (Krein / indefinite-metric): the relative signature and the translation
 
 The decisive object is the RELATIVE Krein signature of the two physical modes (test K4):
 
@@ -145,11 +145,11 @@ which now MATCHES the graviton's positive sign. The opposite naive signs of `c_W
 shadow of the opposite Krein signatures of the graviton and conformal modes; grading both correctly
 makes both healthy.
 
-**Persona 2 verdict.** OPPOSITE relative Krein signature, computed GU-side, translates by the arc's
+**Perspective 2 verdict.** OPPOSITE relative Krein signature, computed GU-side, translates by the arc's
 exact rule to `alpha + beta < 0`, `c_R > 0`, a healthy scalaron and a SPURIOUS tachyon: bar (b)
 CLEARS.
 
-## 4. Persona 5 (adversarial skeptic): steelman SAME, and the honest residual
+## 4. Perspective 5 (adversarial skeptic): steelman SAME, and the honest residual
 
 The North Star is high-exploit; the skeptic must not let the team default to the answer that clears
 the bar. Steelman the SAME-signature (tachyon-physical) outcome, then state exactly where the
@@ -191,13 +191,13 @@ is, at source (W126/W156), the `u^2` coefficient of the curvature interpolant `P
 NOT rest the Krein argument on that number; it computes the signature directly from the DeWitt fiber
 metric. The `-64` relabel was loose; the genuine Krein evidence is the `(6,4)` signature.
 
-**Persona 5 verdict.** The SAME-signature outcome is refuted at the signature level (it would need
+**Perspective 5 verdict.** The SAME-signature outcome is refuted at the signature level (it would need
 `lambda < 1/4`, contradicting the verified `(6,4)`). The residual is not in the signature but in
 its transfer to the shape weights and its physical activation -- the first a named GU computation,
 the second the finality reading. The skeptic concedes OPPOSITE as the computed signature and holds
 the clearance CONDITIONAL on activation.
 
-## 5. Persona 4 (symbolic engineer): what the test pins
+## 5. Perspective 4 (symbolic engineer): what the test pins
 
 `tests/W168_reduction_krein_signature.py`, 20 checks, exit 0, exact sympy, positive controls first.
 
@@ -320,9 +320,9 @@ Joe's grading.
 
 *Filed 2026-07-14 by Team REDUCTION-KREIN (W168). Coherence-first; RUTHLESS self-verification; the
 INDEPENDENT Krein-signature route to the decisive tachyon bit, after W165 reduced it to a relative
-isotypic Krein signature and flagged the signature as GU-computable. Five personas inline in one
+isotypic Krein signature and flagged the signature as GU-computable. Five perspectives inline in one
 worker (Cl(9,5) rep-theory specialist, Krein/indefinite-metric specialist, differential geometer,
-symbolic engineer, adversarial skeptic); no sub-agents. Reproducible:
+symbolic engineer, adversarial skeptic); no independent reviewers. Reproducible:
 `python -u tests/W168_reduction_krein_signature.py` (20/20, exit 0; positive controls first).
 Exploration grade; conditional register; no canon movement; tri-repo gating strict; the signature
 computed and the sign committed (OPPOSITE / SPURIOUS / bar (b) CLEARS, conditional on grading

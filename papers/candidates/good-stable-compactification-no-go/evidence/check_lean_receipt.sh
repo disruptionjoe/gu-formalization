@@ -16,7 +16,7 @@ if ! command -v shlock >/dev/null 2>&1; then
     exit 127
 fi
 
-lock_root="${TMPDIR:-/tmp}/CapacityOS-locks"
+lock_root="${TMPDIR:-/tmp}/private orchestration overlay-locks"
 lock_path="$lock_root/lean-build.lock"
 mkdir -p "$lock_root"
 

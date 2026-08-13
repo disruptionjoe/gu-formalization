@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2I1 exact S3 geometric-transport certificate"
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-04"
-run_id: RUN-20260804-163503-gu-formalization-pw2fr2b2b2i1-s3-geometric-transport
 ---
 
 # PW2F-R2B2B2I1 exact S3 geometric-transport certificate

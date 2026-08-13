@@ -118,7 +118,7 @@ of going nowhere — a different kind of work from this repo's honest-reconstruc
 
 **Recommendation [SUPERSEDED 2026-08-03 — audit CG-13/H-05]:** the original recommendation (treat this repo
 as a finished reconstruction + audit and pursue construction in a separate repo) was overtaken by the
-ratified Lane 1 charter, which runs the construction program in-repo (see `../LANES.yaml`); and the original
+ratified truth-status research charter, which runs the construction program in-repo (see `../lab/process/RESEARCH-AGENDA.json`); and the original
 wording's self-certification ("finished, trustworthy … worth citing") is withdrawn per
 `RESEARCH-POSTURE.md`'s rule against advocating for this program — trust judgments belong to readers via
 `VERIFICATION.md`, not to this document about itself. The separation *hygiene* survives as the write-boundary

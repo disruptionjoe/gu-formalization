@@ -3,7 +3,7 @@ title: "Eric/Curt Wave 1: C0 identifies the bundle and separates the real carrie
 status: construction_result
 doc_type: exploration
 created: 2026-07-31
-run: lab/process/runs/GUH-20260731T181634Z-eric-curt-ten-wave-campaign-c0/run-plan.md
+run: archived private execution record
 campaign: lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md
 probe: tests/channel-swings/eric_curt_wave1_c0_carrier_bridge_probe.py
 grade: "EXACT local rational linear algebra and real-Clifford classification; RECONSTRUCTION for the connection-split bundle bridge; SOURCE-UNCERTAIN for Curt's block-sign attribution and global Zorro ownership. No action selection, physical recovery, or claim-status change."

@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "EXTERNAL DATUM LEDGER: the missing pieces reduce from THREE to TWO. Weinstein's '2+1 with an imposter' is an exact consequence of the GAMMA-TRACELESS Rarita-Schwinger product rule over a declared split. With RS(V) = V(x)S(V) - S(V), the two Leibniz terms RS(V)(x)S(W) + S(V)(x)RS(W) subtract TWO copies of S(V)(x)S(W) while RS(V(+)W) subtracts ONE, so they differ by exactly one S(V)(x)S(W) -- the third family. Verified by exact dimension count on every even/even split incl. GU's base+fibre 4+10. The isolating control is decisive: the TRACEFUL rule has only two terms and NO third family, so the third generation comes precisely from gamma-tracelessness. Consequence: the generation count needs NO external Z/3 carrier integer. Ledger: P1 (a Z/2 orientation, serving both the six B5 chirality orbits and the Rung-2 wall) and P2 (the X-sector datum, type unknown) remain; P3 is WITHDRAWN as external."
 grade: "EXACT dimension counting on the stated splits, with all controls passing including a planted wrong-subtraction kill and a documented odd/odd scope exception. NOT a representation-theoretic proof: multiplicities work out and the third term is shown not to be of Leibniz form, but internal quantum numbers are NOT checked, the split is NOT shown to be forced, and 2+1 is NOT shown to be phenomenologically three. Those are separate and open."
@@ -13,9 +12,7 @@ follows:
   - explorations/prereg-rung2-dynamical-wall-and-selectability-test-2026-07-29.md
 source: "papers/drafts/Transcript into the impossible.md (in-repo), Joe-directed 2026-07-29"
 construction: "program-native: the gamma-traceless ker-Gamma RS carrier is GU's own commitment, not a standard-field substitution."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "P3-REINSTATED-AS-EXTERNAL"
 frontmatter_correction: "2026-08-03: outcome corrected from P3-IS-NOT-EXTERNAL, which was retracted as a homonym error by the in-body correction banner (see explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md); the title's 'THREE to TWO' and 'P3 is WITHDRAWN' phrasing is likewise superseded — the ledger returns to three pieces. Audit finding CG-04."
 ---
@@ -52,7 +49,7 @@ frontmatter_correction: "2026-08-03: outcome corrected from P3-IS-NOT-EXTERNAL, 
 > result genuinely constrains is flavour structure and sector identifiability,
 > not the count. See
 > `explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md`. Original
-> text retained below as the run record and superseded where it conflicts.
+> text retained below as the investigation record and superseded where it conflicts.
 
 > **FOLLOW-UP (2026-07-29, vertical--Krein weld).** The reinstated three-piece
 > ledger is now conditionally reduced to two by a different construction,

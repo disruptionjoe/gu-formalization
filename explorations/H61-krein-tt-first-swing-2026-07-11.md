@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (first big swing; 5-persona inline team; literature survey + toy extension + deterministic test)
+status: exploration (first big swing; 5-perspective inline team; literature survey + toy extension + deterministic test)
 created: 2026-07-12
 hypothesis: H61
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -55,9 +55,9 @@ campaign.
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- operator-algebra / modular-theory specialist (the survey + the toy)
+### Perspective 1 -- operator-algebra / modular-theory specialist (the survey + the toy)
 
 **The survey, honestly.** I searched for exactly the missing theorem: Tomita-Takesaki for indefinite-metric /
 Krein / Pontryagin / PT-symmetric algebras with a non-positive separating functional, plus type-III in the
@@ -110,7 +110,7 @@ Results (all exact, `W74`):
   **Shulman's** conclusion concretely: the antilinear J-involution exists (`J = conj`, `Delta = I`) and is a
   Krein-antiisometry. So the cited rank-1 theorem is verified, and the gap to the toys is exactly **rank >= 2**.
 
-### Persona 2 -- math referee (does the cited work supply what H61 needs, or only adjacent?)
+### Perspective 2 -- math referee (does the cited work supply what H61 needs, or only adjacent?)
 
 | Piece H61 needs | Cited status | Grade for H61 |
 |---|---|---|
@@ -128,7 +128,7 @@ exist. So the campaign's difficulty is **not** uniform: extend a rank-1 theorem 
 obstruction) vs. obtain a positive state (obstructed, essentially by definition of keep-and-grade). That
 asymmetry is the whole strategic content of the swing.
 
-### Persona 3 -- adversary ("this is genuinely BLOCKED: non-positive KMS does not exist and cannot")
+### Perspective 3 -- adversary ("this is genuinely BLOCKED: non-positive KMS does not exist and cannot")
 
 **Attack (the strongest available, now backed by a 2026 theorem).** A modular structure whose physical content
 is *thermal/equilibrium* requires a **positive** KMS state. arXiv:2606.13251 makes this sharp: positivity of the
@@ -148,7 +148,7 @@ it kills "modular structure = a positive equilibrium state," which the conjectur
 The adversary lands one durable mark -- **do not smuggle a positive KMS state into H63** -- and concedes the flow
 + conjugation skeleton is not blocked.
 
-### Persona 4 -- cross-checker (verifies the toy + the key citations)
+### Perspective 4 -- cross-checker (verifies the toy + the key citations)
 
 - **Toy (`W74`, exact, no truncation):** re-ran the `n=1,2,3` family and the `Pi_1` witness. All nine checks pass,
   exit 0. Independently sanity-checked: `[SWAP, eta_fac (x) eta_fac] = 0` for all `n` (SWAP intertwines the two
@@ -166,7 +166,7 @@ The adversary lands one durable mark -- **do not smuggle a positive KMS state in
   valid but *degenerate* modular structure. It confirms *existence* of the antilinear J in an indefinite metric,
   **not** a nontrivial modular flow. I do not overstate it.
 
-### Persona 5 -- synthesizer (triage verdict)
+### Perspective 5 -- synthesizer (triage verdict)
 
 See Sections 2-5.
 

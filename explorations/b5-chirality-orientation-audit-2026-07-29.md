@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "B5 CHIRALITY ORIENTATION AUDIT: the six chirality-addressable special orbits are DISTINGUISHED-NOT-ORIENTED. Every certified structure -- slot dimensions, symbol multiplicities, orbit structure, and the cell set itself -- is INVARIANT under global E+/E- exchange, so chirality separates the two cells of each orbit but nothing in the ledger picks a direction and no sign can be fixed from committed structure. The prior run's 'six addressable' reading is WITHDRAWN as a narrowing: those six need an external Z/2 chirality ORIENTATION, the same TYPE of datum located-not-forced already says the count requires. Residual stays at eleven pairs. Second, independent arrival at W201's typing (K-definite, NON-chirality re-grading) from the finite symbol ledger rather than from index theory. The four X-sector orbits remain UNCLASSIFIED: blind to every ledger invariant AND not addressed by the chirality Z/2."
 grade: "EXACT for the invariance battery and the orbit identification (tests/channel-swings/b5_chirality_orientation_audit_probe.py, all controls pass, both planted asymmetries detected). The corroboration of W201's typing is a RECONSTRUCTION reading, not a new theorem -- the two arrivals use different machinery and agree, which is corroboration and nothing stronger. No packet field frozen, no orientation selected, no operator built."
@@ -11,9 +10,7 @@ probe: tests/channel-swings/b5_chirality_orientation_audit_probe.py
 follows: explorations/b5-phase-sum-forcing-audit-2026-07-29.md
 construction: "program-native throughout per GEOMETER-VS-PHYSICS-OBJECTS.md. No positive-Hilbert object used or substituted."
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "DISTINGUISHED-NOT-ORIENTED"
 ---
 
@@ -33,7 +30,7 @@ outcome: "DISTINGUISHED-NOT-ORIENTED"
 > `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`.
 > Original audit retained below.
 
-## The distinction this run turns on
+## The distinction this investigation turns on
 
 The phase-sum audit found chirality grading is not blind to six of the ten
 special orbits, and claimed only **capability**, never that a forced rule fires.
@@ -78,7 +75,7 @@ committed structure at all.
 `K`-null and every `K`-null re-grading preserves net chiral index zero — an
 index-theoretic route.
 
-This run reaches the same typing from the **finite symbol ledger**: chirality
+This investigation reaches the same typing from the **finite symbol ledger**: chirality
 cannot orient, so a chirality-type datum cannot fix the phase sum either. Two
 different machineries, one conclusion. That is corroboration and nothing
 stronger; no new theorem is claimed and neither result is evidence for the other.

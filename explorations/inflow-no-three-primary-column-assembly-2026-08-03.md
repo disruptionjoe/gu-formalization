@@ -4,7 +4,6 @@ status: exploration
 created: 2026-08-03
 title: "ASSEMBLY: anomaly inflow is the sole 2<->3 bridge (canon) AND the spin Dai-Freed ledger has no 3-primary column (computed) => inflow through the SPIN wall provably cannot carry the Z/3 count arena; any count-bridge must live on framed/String (or another explicitly odd-primary-capable) structures"
 grade: "ASSEMBLY OF TWO ALREADY-CERTIFIED IN-REPO RESULTS — no new computation, no new premise. The consequence for the single-decider route inventory is a re-scoping flag for that owner surface, not a verdict change."
-claim_status_change: none
 canon_verdict_change: none
 source_a: "canon/three-generations-locate-not-force-CRT-RESULTS.md:40 — 'They cannot interact directly; anomaly inflow is the sole bridge.'"
 source_b: "explorations/global-anomaly-leg-2026-07-20.md:252 (P7) — 'The spin Dai-Freed ledger has NO 3-primary column in any dimension (spin-bordism torsion is all 2-primary, Wall+ABP; BSp adds none, Borel), so the Z/3 in Z/24 = pi_3^s generation arena was never on this wall.'"

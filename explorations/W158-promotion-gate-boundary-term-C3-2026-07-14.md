@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM KEYSTONE-GATE, W158; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (TEAM KEYSTONE-GATE, W158; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W158
 label: W158
@@ -27,7 +27,7 @@ Test: `tests/W158_promotion_gate_boundary_term.py` (26/26, exit 0). Deterministi
 20260714); the algebra runs on the repo's verified Cl(9,5) = M(64,H) representation via
 `gen_sector_bridge`; the cosmological pieces run the same closed-form models W154 used.
 
-Five personas ran inline in one worker, sequentially (no sub-agents): (1) constructive field
+Five perspectives ran inline in one worker, sequentially (no independent reviewers): (1) constructive field
 theorist, (2) Krein/C-operator specialist, (3) GR/interacting-vacuum theorist, (4) numerical/
 symbolic engineer, (5) honesty auditor/E1. The positive controls run first.
 
@@ -49,7 +49,7 @@ fluctuation, and the sharpest target is whether the `q=5` Krein-indefinite direc
 fluctuation. This wave writes T4 explicitly, machine-checks its properties, and answers that
 question head-on.
 
-## 1. Persona 1 -- constructive field theorist: S_gate written explicitly
+## 1. Perspective 1 -- constructive field theorist: S_gate written explicitly
 
 The finality frontier is the measurement-gated `Y14 -> X4` promotion surface: the moving edge
 between confirmed records (`H_C+`, the C-positive subspace) and the `q=5` unconfirmable remainder
@@ -73,13 +73,13 @@ operator), so it is a genuine codimension-1 frontier flux, not a bulk term. The 
 current is nonzero and that `c(n)^2 = eta(n,n) I` exactly (the conormal is a real frontier
 direction; for the indefinite `n` chosen, `eta(n,n) < 0`, a timelike/unconfirmable normal). This
 is the exchange current: a record promotes when it crosses the `q=5` frontier, and the promotion
-flux across it is `J^a` restricted to the surface -- the `Q^nu` of debit-2 (Persona 3).
+flux across it is `J^a` restricted to the surface -- the `Q^nu` of debit-2 (Perspective 3).
 
 The machinery is entirely W125/W131/W150's: the constant equivariant projector `Pi`, the parallel
 Krein form (`nabla K = 0`, W131), the `(9,5)` split, the `q=5` frontier (W150). Nothing new is
 postulated; the boundary term is assembled from transported constant structures.
 
-## 2. Persona 2 -- Krein/C-operator specialist: gauge-invariance and the sign
+## 2. Perspective 2 -- Krein/C-operator specialist: gauge-invariance and the sign
 
 The load-bearing property is gauge-invariance, because it is what feeds Noether's second theorem
 (the C3 discharge). Three exact facts, machine-checked on the real rep:
@@ -105,7 +105,7 @@ trace over the `H_C+` positive subspace, non-negative by construction, so the ev
 `Lambda ~ 1/sqrt(N)` is real and positive -- W154's T2 sign pin, reproduced here at the trace
 level. `Lambda >= 0` (F3) is a CONSEQUENCE of the Krein grading, not an extra postulate.
 
-## 3. Persona 3 -- GR/interacting-vacuum theorist: the C3 discharge and Q
+## 3. Perspective 3 -- GR/interacting-vacuum theorist: the C3 discharge and Q
 
 **The C3 mechanism, machine-checked (C3a/C3b).** The 2026-06-22 proof's cleanest route to
 divergence-freedom is C3: if `theta` is the EL derivative of a gauge-invariant action on Y14, then
@@ -116,7 +116,7 @@ variation of `S_gate` over `Stab(n)` summing to zero (residual 1.9e-13): the inv
 EL current perpendicular to the gauge orbits, which is the `D*J = 0` mechanism. So the
 **divergence-free-for-a-genuine-reason MECHANISM is discharged**: `S_gate`'s exchange current is
 divergence-free because `S_gate` is a gauge-invariant action, exactly Weinstein's "equivariance
-leads to divergence-free" and the marble/wood fix's genuine reason (W152 Persona 1 route ii).
+leads to divergence-free" and the marble/wood fix's genuine reason (W152 Perspective 1 route ii).
 
 **What is NOT closed (the honest C3 boundary).** C3 as the 2026-06-22 proof states it requires the
 current to BE the specific `theta = pi - eps^{-1} B eps` (distortion minus conjugated potential in
@@ -133,9 +133,9 @@ exhibited. It is honestly short of "theta is THIS action's EL derivative."
 inherits the character W154 derived: clock-coupled (it tracks the promotion rate = what `S_gate`
 IS), sign-graded (the Krein form makes it change sign), amplitude O(1) in `q_B` (the everpresent
 law forces `Lambda ~ H^2`, PC4). The rise-and-fall CHARACTER is carried; the specific epoch is the
-subject of Persona 4.
+subject of Perspective 4.
 
-## 4. Persona 4 -- numerical engineer: does the q=5 structure SOURCE the rise?
+## 4. Perspective 4 -- numerical engineer: does the q=5 structure SOURCE the rise?
 
 This is the sharpest new question, and the answer is a clean, sharpening NEGATIVE.
 
@@ -153,7 +153,7 @@ This is the sharpest new question, and the answer is a clean, sharpening NEGATIV
   computation says it does not.
 - **RISEc (where the rise actually lives).** A rise appears ONLY when a genuine NON-monotone
   fluctuation is present. Its natural HOME is the `q=5` unconfirmable sector (a transient in the 5
-  indefinite directions), and its SIGN is forced `+` by the Krein grading (Persona 2). But with the
+  indefinite directions), and its SIGN is forced `+` by the Krein grading (Perspective 2). But with the
   fluctuation absent the flux is monotone withdrawal (no crossing); with it present, `Q` crosses
   zero once and **the crossing EPOCH tracks the free fluctuation peak** (RISEc3): `S_gate` does not
   pin it. So the `q=5` structure LOCALIZES and SIGNS the fluctuation but does not SOURCE it -- the
@@ -164,7 +164,7 @@ the W131 exact algebra, the `(9,5)`/`q=5` split, W154's obstruction and F1^F3 co
 everpresent amplitude), then the build (SG1-SG5), the C3 Noether input (C3a/C3b), the rise tests
 (RISEa-c), and the E1 count.
 
-## 5. Persona 5 -- honesty auditor / E1: verdict and the degeneration flag
+## 5. Perspective 5 -- honesty auditor / E1: verdict and the degeneration flag
 
 **Build verdict: PARTIAL.** The term is WRITTEN and its algebraic properties are machine-checked
 EXACT (real Krein current, equivariant vector transformation, gauge-invariance under `Stab(n)`,
@@ -221,9 +221,9 @@ not name a fourth object.
   MEASURE by time-as-finality; GU owns the field-equation / boundary-term / Krein math only; no
   cross-repo identity claim. Zero em dashes in paper-facing text.
 
-*Filed 2026-07-14 by Team KEYSTONE-GATE (W158). Five personas inline in one worker (constructive
+*Filed 2026-07-14 by Team KEYSTONE-GATE (W158). Five perspectives inline in one worker (constructive
 field theorist, Krein/C-operator specialist, GR/interacting-vacuum theorist, numerical engineer,
-honesty auditor/E1); no sub-agents. Reproducible: `python -u tests/W158_promotion_gate_boundary_term.py`
+honesty auditor/E1); no independent reviewers. Reproducible: `python -u tests/W158_promotion_gate_boundary_term.py`
 (26/26, exit 0; four positive controls first). Exploration grade; conditional register; no canon
 movement; H41 unbuilt; H59 OPEN; the count stays {1,3}. E1: third consecutive one-object reduction,
 DEGENERATING -- demote the build path.*

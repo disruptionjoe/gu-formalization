@@ -300,7 +300,7 @@ def main() -> int:
         "superseded_published_fd_numbers": PUBLISHED,
         "claim_status_change": "none (verdict unchanged, evidence upgraded)",
         "hessian_disposition": "PHYSICAL-HESSIAN-KILLED-AT-W177-BACKGROUND",
-        "mode_closure_disposition": "NOT-RUN-STATIONARITY-PRECONDITION-FAILED",
+        "mode_closure_disposition": "NOT-historical-investigation",
         "verdict": verdict,
     }
     print(json.dumps(payload, indent=2, sort_keys=True))

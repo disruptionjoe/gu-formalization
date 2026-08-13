@@ -16,9 +16,7 @@ inputs:
 runnable:
   - tests/channel-swings/q2_defense_attorney_probe.py
 outcome: DEFENSE-FAILS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

@@ -6,9 +6,7 @@ status: exploration
 posture: adversarial; Layer-0-first; construction-first; source-collision required
 title: "A rank-252 projector exists after grade-six typing; the actual source port and downstream weight selection remain open"
 grade: "Exact sparse exterior algebra on all 252 internal five-blades, exhaustive inherited native 210/252 K/right-H matrices, constant signed-permutation split-transport/composition and one projector-chain fixture, independent Sage D5/projective-ideal certificate, and finite auxiliary/KO controls; q6, the actual source epsilon/Theta transport, public U-to-Sp reduction, tilted descent, total Euler tangency/transverse closure, full G2/Y/P0 placement, VEV, mass, quotient, domain, and no-leakage remain open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 route_disposition: REBASE
 hostile_review_status: PASS_AFTER_REPAIRS
 depends_on:

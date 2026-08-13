@@ -142,7 +142,7 @@ chain because both a physical pole and a physical mirror packet depend on it.
 
 ## 4. Complete mapping of the 30 W239 targets
 
-Every persona proposal remains in scope, but the hourly loop works dependency packets rather than 30
+Every perspective proposal remains in scope, but the hourly loop works dependency packets rather than 30
 independent prose ideas.
 
 | Packet | W239 targets absorbed |

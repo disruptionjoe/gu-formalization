@@ -1,6 +1,6 @@
 """
 Aggregation / Condorcet probe over the two boundary-meaning councils
-(science 5-member + systems 7-member = 12 personas as voters).
+(science 5-member + systems 7-member = 12 perspectives as voters).
 
 Deterministic, no RNG. Ballots are hard-coded (elicited in-character in the
 aggregation artifact). Computes, for STEELMEN (strict ballots) and for the
@@ -20,7 +20,7 @@ import itertools
 # ----------------------------------------------------------------------
 STEEL = ["ORTH","HET","COM","WILD","PHIL","ZK","NEU","HASH","META","FLP","MMO","INFO"]
 
-# Strict preference ballots over the 12 steelmen, one per persona-voter.
+# Strict preference ballots over the 12 steelmen, one per perspective-voter.
 # "which best captures what the missing piece really is." (author ranks own -> noted)
 STEEL_BALLOTS = {
  "ORTHODOX":   ["ORTH","INFO","FLP","COM","PHIL","NEU","META","HET","ZK","HASH","MMO","WILD"],
@@ -51,10 +51,10 @@ CONF = {  # (confidence, mode)
 MODE_W = {"EXACT":1.0,"MIXED":0.6,"ANALOGY":0.3}
 
 # ----------------------------------------------------------------------
-# 36 QUESTIONS: 12 personas x (Q1,Q2,Q3). Scores 1-5 per persona.
-# rows = question id; the 12 columns are the personas in PERSONAS order.
+# 36 QUESTIONS: 12 perspectives x (Q1,Q2,Q3). Scores 1-5 per perspective.
+# rows = question id; the 12 columns are the perspectives in PERSPECTIVES order.
 # ----------------------------------------------------------------------
-PERSONAS = ["ORTHODOX","HETERODOX","COMMERCIAL","WILD","PHILOSOPHER","ZKFHE",
+PERSPECTIVES = ["ORTHODOX","HETERODOX","COMMERCIAL","WILD","PHILOSOPHER","ZKFHE",
             "NEURAL","HASHGRAPH","METASTABLE","FLP","MMO","INFO"]
 
 # question id -> short label
@@ -97,7 +97,7 @@ QLABEL = {
  "I3":"is total external bit-budget (sigma+tau+theta) a conserved fundamental INFORMATION CHARGE?",
 }
 
-# 12 scores per question, ordered as PERSONAS
+# 12 scores per question, ordered as PERSPECTIVES
 SCORES = {
  "O1":[5,3,4,3,4,2,3,2,2,3,2,4],
  "O2":[5,3,3,2,3,3,3,2,2,3,2,3],
@@ -139,7 +139,7 @@ SCORES = {
 
 # ----------------------------------------------------------------------
 # Weak-order ballots over the finalists are DERIVED from SCORES:
-# each persona prefers higher score; equal scores => tie (0.5 pairwise).
+# each perspective prefers higher score; equal scores => tie (0.5 pairwise).
 # ----------------------------------------------------------------------
 
 def pairwise_strict(ballots, cands):
@@ -153,9 +153,9 @@ def pairwise_strict(ballots, cands):
     return wins
 
 def pairwise_scored(qids, cands):
-    """cands are question ids; each persona scores; tie=0.5."""
+    """cands are question ids; each perspective scores; tie=0.5."""
     wins = {a:{b:0.0 for b in cands} for a in cands}
-    for pi in range(len(PERSONAS)):
+    for pi in range(len(PERSPECTIVES)):
         for a,b in itertools.permutations(cands,2):
             sa, sb = SCORES[a][pi], SCORES[b][pi]
             if sa>sb: wins[a][b]+=1
@@ -263,7 +263,7 @@ _check("12 strict ballots, each a permutation of the 12 steelmen",
        len(STEEL_BALLOTS)==12 and all(sorted(b)==sorted(STEEL) for b in STEEL_BALLOTS.values()))
 _check("every steelman's author ballot ranks it #1 (the noted self-vote)",
        all(STEEL_BALLOTS[STEEL_AUTHOR[s]][0]==s for s in STEEL))
-_check("36 questions x 12 persona scores, all scores in 1..5",
+_check("36 questions x 12 perspective scores, all scores in 1..5",
        len(SCORES)==36 and all(len(v)==12 and all(1<=x<=5 for x in v) for v in SCORES.values()))
 _check("steelman pairwise matrix conserves voters: wins[a][b]+wins[b][a]==12",
        all(abs(sw[a][b]+sw[b][a]-NV)<1e-9 for a in STEEL for b in STEEL if a!=b))

@@ -3,12 +3,10 @@ title: "Science council — five committed constructions: each member takes thei
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
-# Five committed constructions (science council, inline persona pass)
+# Five committed constructions (science council, inline perspective pass)
 
 This is not a steelman-and-rank exercise. Each of the five members below **assumes
 their own substrate is the correct fundamental ontology of reality** and builds the

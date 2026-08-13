@@ -22,9 +22,9 @@ def strict(relative):
 v14p = ROOT / "lab/process/conditional-physics-ledger-v0.14.json"
 v14 = strict("lab/process/conditional-physics-ledger-v0.14.json")
 v15 = strict("lab/process/conditional-physics-ledger-v0.15.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/first-interaction-krein-global-zero-mode.json")
-lanes = (ROOT / "LANES.yaml").read_text()
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.15.md").read_text()
 report = (ROOT / "explorations/conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md").read_text()
 source = (ROOT / "lab/sources/first-interaction-krein-global-zero-mode-source-reinspection-2026-08-05.md").read_text()

@@ -83,13 +83,13 @@ Blindness matters most here: A-D each want their construction to win; E wants ev
 converge on a construction that survives E's specific attack, that is the proof-of-concept. If E finds an
 obstruction that A-D's constructions share, that is the class-level kill.
 
-## 4. Team composition (each branch = one worker running a bespoke 5-persona team INLINE)
+## 4. Team composition (each branch = one worker running a bespoke 5-perspective team INLINE)
 
-Per this program's standing rule (personas always inline, never fanned out per-agent): each branch is a SINGLE
-agent that runs its five-persona team sequentially inside one context, then reports the team's converged verdict.
+Per this program's standing rule (perspectives always inline, never fanned out per-agent): each branch is a SINGLE
+agent that runs its five-perspective team sequentially inside one context, then reports the team's converged verdict.
 Five agents total (A-E), parallel, mutually blind.
 
-The 5-persona template (specialize persona 1 per branch's formalism; 2-5 are constant):
+The 5-perspective template (specialize perspective 1 per branch's formalism; 2-5 are constant):
 1. **The formalism specialist** -- the expert in this branch's construction (the Cutkosky/cutting expert for A;
    the PT-QFT / `C`-operator expert for B; the fakeon expert for C; the Lee-Wick expert for D; the
    locality/no-go theorist for E). Does the actual computation/argument.

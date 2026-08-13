@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2H3-SOURCE-EPSILON-CURVATURE-ORBIT-GRAPH",
   "status": "CONDITIONAL_ACTIVE_LOCAL_SOURCE_EPSILON_CONNECTION_CURVATURE_OPERATOR_ORBIT_GRAPH_CLOSED__GLOBAL_REAL_FORM_BUNDLE_MORPHISM_OPEN",
-  "run_id": "RUN-20260804-082417-gu-formalization-pw2fr2b2b2h3-source-epsilon-curvature",
+  "run_id": "historical-investigation",
   "verdict_scope": "one exact noncommuting matrix source-coordinate connection fixture plus one formal two-direction conditional active Spin(9,5) orbit on the accepted reconstructed curvature/operator/residual port",
   "source_disposition": {
     "SOURCE-CONFIRMS": "epsilon/connection-difference grammar and the distinction between source epsilon and repository soldering data",

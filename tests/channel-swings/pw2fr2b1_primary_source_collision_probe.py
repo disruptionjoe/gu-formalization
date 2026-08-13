@@ -35,7 +35,7 @@ def digest(path: Path) -> str:
 
 def main() -> int:
     pack_path = ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
-    rendered_path = ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+    rendered_path = ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     o_report_path = ROOT / "explorations/eric-curt-wave3d-b2c15o-native-y14-background-stabilizer-2026-08-01.md"
     p_report_path = ROOT / "explorations/eric-curt-wave3d-b2c15p-source-epsilon-tangent-zorro-dewitt-2026-08-02.md"
     o_registry_path = ROOT / "lab/process/eric-curt-wave3d-b2c15o-native-y14-background-stabilizer.json"

@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-01
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260802-030000-gu-formalization-ecw3d-b2c15n-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2c15n-full-owner-euler-moving-atlas.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c15n_full_owner_euler_moving_atlas_probe.py
 grade: "B2C15N PARTIAL CONSTRUCTION PASS WITH NATIVE BACKGROUND GATE. The first complete exact noncentral finite owner tuple is derived from the written action by independently constructing E_T and E_B and returning E_B-E_T through two moving graph owners. The chain rule, nonzero Green endpoint, and integrated Helmholtz identity pass; omitting E_B gives a nonzero Helmholtz defect. Direct-B/T cancellation lowers both diagonal graph orders but leaves mixed third-order formal-adjoint coefficients +9/-9. A degree-six moving-background interpolation passes two held-out points. The full total-symbol dispersion determinant is irreducible of bidegree (20,8), while the actual Douglis--Nirenberg principal determinant factors into four exact background loci. This proves the moving atlas is action-background dependent and kills promotion of the frozen-Shiab trace atlas before the actual native Y14 background and stabilizer are built. Native coefficientwise right-H/Krein/reality, BV, and domain remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C15N full owner Euler and moving atlas

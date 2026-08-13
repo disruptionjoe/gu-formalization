@@ -26,7 +26,7 @@ def main() -> None:
 
     assert data["status"] == "FULL_EVALUATOR_CERTIFIED_ON_COMPLETE_S3_FIXED_ORBIT_STRATUM__UNIVERSAL_378_OPEN"
     assert data["gate"] == "PW2F-R2B2B2I2-S3-FIXED-ORBIT-FULL-EVALUATOR"
-    assert data["run_id"] == "RUN-20260805-054616-gu-formalization-pw2fr2b2b2i2-fixed-orbit-full-evaluator"
+    assert data["run_id"] == "historical-investigation"
 
     coverage = data["coverage"]
     assert coverage == {

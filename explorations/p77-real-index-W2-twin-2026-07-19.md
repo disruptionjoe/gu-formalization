@@ -16,9 +16,7 @@ inputs:
   - tests/generation-sector/signature_77_rerun.py
   - tests/generation-sector/ghost_parity_krein.py
 tests: tests/channel-swings/p77_real_index_twin.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # P-77-REAL-INDEX, W2 adversarial twin

@@ -6,9 +6,7 @@ status: exploration
 posture: adversarial; Layer-0-first; exact representation theory and topology; pre-deposit
 title: "A conditional dualized 126 factor exists; its physical pairing, native carrier, and dim-13 class do not yet"
 grade: "EXACT compact-complex representation/channel and coefficient-group results; GU-native carrier, link realization, action, VEV, mass, and integer datum remain reconstruction/open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 route_disposition: REBASE
 hostile_review_status: PASS_AFTER_REPAIRS
 depends_on:

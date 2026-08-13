@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2c_moving_action_ward_bv_result",
-  "run_id": "RUN-20260802-180814-gu-formalization-pw2c-literal-source-ward",
+  "run_id": "historical-investigation",
   "status": "PW2C_STRUCTURAL_SOURCE_PULLBACK_GREEN_WARD_COTANGENT_AND_ABELIAN_BRST_COMPARATORS_PASS_ACTUAL_Y14_COMPOSITE_COEFFICIENT_NONABELIAN_WARD_AND_BV_OPEN",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

@@ -117,7 +117,7 @@ def source_checks() -> None:
     toe = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
     transcription = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     ).read_text()
 
     source_receipt(

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; the make-or-break sign; deterministic test)
+status: exploration (5-perspective inline team; the make-or-break sign; deterministic test)
 created: 2026-07-12
 hypothesis: H59 / H61a decisive residual -- the ONE load-bearing input of the W79 no-go
 branch: "W80 -- decide the single number the observer-conjecture no-go rests on: sign(f_0^2). TWO ways: (T1) GU's NATIVE R^2 (spin-0) one-loop beta with the RS ker-Gamma contribution -- does it flip the ported agravity value? (T2) is sign(f_0^2) FORCED (arena) or a FREE observer-selected VALUE (H62)?"
@@ -36,7 +36,7 @@ or a **free observer-selected value**? Test: `tests/W80_native_r2_sign.py` (dete
 | **UV completion** | one-loop perturbative asymptotic **FREEDOM** (Gaussian FP), the route H57/H60 realize | THE fork for T2. The negative fixed ratio is a feature of THIS route; H57/H60/SS keep asymptotic **SAFETY** (Reuter FP) and the `f_0 -> inf` conformal-Weyl limit open as alternative UV completions on which the sign question changes. |
 | **arena/value** | H62 symmetry characterization (c): arena = symmetry-invariant/fixed-point data; value = requires symmetry-breaking | Used to classify sign(f_0^2). W80 finds H62's `f_0 = value` row is about the **magnitude**; the **sign** is a separate, arena question on the AF route. |
 
-## 1. Persona 1 -- RG / heat-kernel specialist: the native R^2 beta and its sign
+## 1. Perspective 1 -- RG / heat-kernel specialist: the native R^2 beta and its sign
 
 ### 1.1 The system (mirrors W45 H57-stage1; KNOWN coefficients reused, not re-derived)
 
@@ -91,7 +91,7 @@ Numerically (anchor `b_2 = 14.7167`): `r* = -0.0848 , -23.575` -- exactly the H5
 **T1 verdict: native `f_0^2 < 0` at the central estimate; the RS ker-Gamma sector does NOT rescue
 the sign.** The flip requires an uncomputed `d_RS_R2 < -5/6`; nothing supports it.
 
-## 2. Persona 2 -- math referee: native vs ported, forced vs free
+## 2. Perspective 2 -- math referee: native vs ported, forced vs free
 
 - **Native vs ported: same sign, and now the native structure is exhibited, not just imported.**
   W79 imported `f_0^2 < 0`. W80 shows *why* it is negative in GU's native flow: both UV fixed
@@ -104,7 +104,7 @@ the sign.** The flip requires an uncomputed `d_RS_R2 < -5/6`; nothing supports i
   separate question, adjudicated in Sec 3-4. Do not read "H62 says f_0 is free" as "the sign is
   free" -- that is the conflation W80 must break.
 
-## 3. Persona 3 -- adversary (presses both, and lands the harder blow)
+## 3. Perspective 3 -- adversary (presses both, and lands the harder blow)
 
 **Against "the sign is free" (adversary wins this one on the AF route):** `f_0^2` being a relevant
 direction lets you dial its **magnitude** (which trajectory, where on it), but a trajectory
@@ -131,7 +131,7 @@ does not apply and `f_0^2 > 0` (or "no scalaron at all") can be admissible. Plus
 one-loop-AF construction**; it becomes free only via (E1) `d_RS_R2 < -5/6` or (E2) a non-AF UV
 completion. Neither is established; neither is excluded.
 
-## 4. Persona 4 -- cross-checker: second derivation + literature
+## 4. Perspective 4 -- cross-checker: second derivation + literature
 
 - **Second derivation (numeric RK4 flow, independent of the algebraic root analysis).** Integrating
   `dg/dt` toward the UV: a start with `f_0^2 = +0.3` **Landau-poles** (`y ~ 1e31` at finite `t`) --
@@ -150,7 +150,7 @@ completion. Neither is established; neither is excluded.
   maximally conformal-like, so its leading `R^2` contribution is `~0` (anchor), consistent with
   `d_RS_R2 = 0` and with the `-5/6` flip threshold being far out of reach.
 
-## 5. Persona 5 -- synthesizer: verdict
+## 5. Perspective 5 -- synthesizer: verdict
 
 **TASK 1 -- NATIVE SIGN: NEGATIVE (central estimate); RS does NOT flip it.** GU's native R^2 beta
 gives both UV fixed ratios negative (`C/A = 2 > 0`, `sum < 0`) for the entire H60 `c_RS_weyl` band;

@@ -3,10 +3,8 @@ artifact_type: exploration
 status: exploration
 created: 2026-07-16
 title: "Recovery no-go SM selector history and scope"
-lane: RECOVERY-CERTIFICATION
 internal_item: NO-GO-SCOPE-CHALLENGE
 target: RECOVERY-NOGO-SM-SELECTOR
-run_id: GUH-20260716T150941Z-sm-nogo-defense
 operational_result: SCOPE_CONFIRMED
 grade: "branch-local process checkpoint; no claim-status, canon, public-posture, paper, or portfolio movement"
 tests:
@@ -88,8 +86,8 @@ identify the material same-obstruction candidates in the repo record.
 | `SM-FINITE-CONTROL-LEDGER` | `explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md` | typed GU carrier, Type II1 host and finite-control extraction ledger | Records `PARTIAL_HOST_WITH_SELECTOR_NO_GO`: the carrier derives Pati-Salam branch data and hosts Higgs quantum numbers, but no current selector derives `A_F`, `G_SM/Z_6`, the physical Higgs scalar, or full anomaly-safe observer shadow. | No. It is a prior same-mechanism negative, not a clearance. |
 | `TYPEII1-SELECTOR-OR-NOGO` | `explorations/type-ii1-spectral/type-ii1-selector-or-nogo-theorem-2026-06-24.md` | Type II1 selector classes and replacement tests | Classifies instantiated Type II1 selectors as host-only or no-go for explanatory SM selectors, leaving only an open empty fixed-data rigidity class. | No. It narrows possible escape space but supplies no target-free complete SM selector. |
 | `FINITE-CONTROL-PROVENANCE-AUDIT` | `explorations/cycle-gates-and-audits/finite-control-provenance-audit-2026-06-24.md` | allowed GU/Type II1 inputs versus forbidden target inputs | Finds no current selector succeeds; first forbidden target is `A_F`, and direct GU gauge recovery fails at `G_SM/Z_6` without a target-free selector. | No. It confirms the current obstruction lineage. |
-| `PHI-OBS-CONTRACT-GATE` | `explorations/hourly-cycles/hourly-cycle1-observer-shadow-phi-obs-contract-2026-06-24.md` | observer-facing exact finite Connes channel or replacement-shadow contract | Returns `UNDERDEFINED_CONTRACT_GATE`: neither `Phi_obs^CC` nor a GU-native replacement observer shadow is declared. | No. It states the missing observer map rather than constructing it. |
-| `FIXED-DATA-PHI-OBS-SECTOR-LEDGER` | `explorations/hourly-cycles/hourly-cycle2-fixed-data-phi-obs-sector-ledger-2026-06-24.md` | fixed-data `Phi_obs` sector selector candidates | Returns `NO_CURRENT_FIXED_DATA_PHI_OBS_SELECTOR`: C3/D4, `C_n`, equal-projection, and external `K_SM` routes transport chosen targets or remain open-empty. | No. It leaves no same-construction clearance. |
+| `PHI-OBS-CONTRACT-GATE` | `explorations/research-cycles/hourly-cycle1-observer-shadow-phi-obs-contract-2026-06-24.md` | observer-facing exact finite Connes channel or replacement-shadow contract | Returns `UNDERDEFINED_CONTRACT_GATE`: neither `Phi_obs^CC` nor a GU-native replacement observer shadow is declared. | No. It states the missing observer map rather than constructing it. |
+| `FIXED-DATA-PHI-OBS-SECTOR-LEDGER` | `explorations/research-cycles/hourly-cycle2-fixed-data-phi-obs-sector-ledger-2026-06-24.md` | fixed-data `Phi_obs` sector selector candidates | Returns `NO_CURRENT_FIXED_DATA_PHI_OBS_SELECTOR`: C3/D4, `C_n`, equal-projection, and external `K_SM` routes transport chosen targets or remain open-empty. | No. It leaves no same-construction clearance. |
 | `W222-SM-HYPERCHARGE-ANOMALY` | `explorations/W222-falsify-sm-emergence-anomaly-hypercharge-2026-07-14.md` | granted Pati-Salam-to-SM shadow and granted chiral 16 | Confirms relative hypercharge and anomaly arithmetic for a granted chiral shadow, while explicitly locating the residual risk in chirality production. | No. It clears relative arithmetic only after granting the selector/chirality shadow that the current no-go asks GU to derive. |
 
 Result: `NO_PRIOR_CLEARANCE_FOUND`.

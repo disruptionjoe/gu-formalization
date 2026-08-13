@@ -55,9 +55,9 @@ from the parent repo objects.
 
 ---
 
-### LENS-02 - 25-persona divergent lens vote (2026-06-27)
+### LENS-02 - 25-perspective divergent lens vote (2026-06-27)
 
-Added `PERSONA-LENS-VOTE-2026-06-27.md` and `tests/test_persona_lens_vote.py`. The exercise forced 25
+Added `PERSPECTIVE-LENS-VOTE-2026-06-27.md` and `tests/test_perspective_lens_vote.py`. The exercise forced 25
 different lenses to make independent top-3 recommendations, then used a 3/2/1 vote to prioritize the
 workstreams.
 
@@ -115,7 +115,7 @@ L_families_pushforward
 
 ### CONSTRUCT-01 - first 5 construction steps: the BV-to-boundary-Dirac MAP holds (M_KT = N*D_Sigma^2), but the index half is forced shut (eta=0); a new obstruction-theorem (2026-06-27)
 
-First concrete construction work: 5 SEQUENTIAL steps on workstream A (BV-to-boundary-Dirac = SPEC item 5(iii) = persona-vote #3), each computed on the explicit Cl(9,5) rep via `lib/gu_bridge.py` and adversarially framed. (The orchestration crashed near the end but wrote all 5 step tests; re-run + verified in the main loop. Step 1's heavy 196-pair Gram loop was made exact-but-fast via the Frobenius inner product.) Genuine mixed result: half built, half forced shut, plus a sharp new theorem. Guards held throughout (bare commutator 58.72 untouched; no target import).
+First concrete construction work: 5 SEQUENTIAL steps on workstream A (BV-to-boundary-Dirac = SPEC item 5(iii) = perspective-vote #3), each computed on the explicit Cl(9,5) rep via `lib/gu_bridge.py` and adversarially framed. (The orchestration crashed near the end but wrote all 5 step tests; re-run + verified in the main loop. Step 1's heavy 196-pair Gram loop was made exact-but-fast via the Frobenius inner product.) Genuine mixed result: half built, half forced shut, plus a sharp new theorem. Guards held throughout (bare commutator 58.72 untouched; no target import).
 
 **ADVANCE - the bridge holds at the operator level.**
 - Step 1 (`tests/step1_c2_dirac_symbol.py`): C2's escape E(xi) = sum_a xi_a E_a, E_a = (I-Pi_RS)(id_14(x)e_a)Pi_RS, is a genuine first-order symbol; its Frobenius Gram M_ab = <E_a,E_b> is EXACTLY Euclidean (kappa*I, kappa=33.96, residual 0.0 -- NOT the (9,5)-Lorentzian kappa*diag(ETA), rel resid 0.96), and C2(xi) = K*|xi| is PERFECTLY ISOTROPIC (K=21.80, 0.0% directional spread, C2(2xi)/C2(xi)=2.000000). So the boundary symbol is Euclidean-ELLIPTIC and C2 is a pure scalar-magnitude first-order symbol.
@@ -128,7 +128,7 @@ First concrete construction work: 5 SEQUENTIAL steps on workstream A (BV-to-boun
 
 **NEW OBSTRUCTION-THEOREM (the genuine product).** Any boundary Dirac whose square is the (positive) Koszul-Tate Hessian inherits an anticommuting chiral grading, hence eta = 0, so C2 can NEVER be its APS index. This independently re-derives the parent's "C2 is not an index" BY CONSTRUCTION and with the MECHANISM, and converts SPEC 5(iii) from open to a precise theorem-shaped wall.
 
-**NEXT:** break the grading - a curvature/connection term that fails to anticommute with G, or a non-self-adjoint / non-chiral boundary operator - OR abandon the index reading and pursue C2 as a genuine first-order SYMBOL invariant (its natural home per steps 1+4). The latter is workstream A converging toward C (the boundary-symbol carrier), consistent with the persona vote.
+**NEXT:** break the grading - a curvature/connection term that fails to anticommute with G, or a non-self-adjoint / non-chiral boundary operator - OR abandon the index reading and pursue C2 as a genuine first-order SYMBOL invariant (its natural home per steps 1+4). The latter is workstream A converging toward C (the boundary-symbol carrier), consistent with the perspective vote.
 
 ---
 
@@ -136,7 +136,7 @@ First concrete construction work: 5 SEQUENTIAL steps on workstream A (BV-to-boun
 
 The decisive go/no-go from the 7-lens synthesis (the single crux five lenses converged on): is CONSTRUCT-01's eta=0 a one-operator accident or symmetry-protected over the whole admissible class? Computed on the explicit Cl(9,5) rep via `lib/gu_bridge.py` (`tests/step6_grading_break_decision.py`, runs clean, all guards + symmetry assertions pass, deterministic seed). Guards held throughout (bare commutator 58.72 untouched - every perturbation is added to the boundary operator D_Sigma, M_D is never modified; all breakers a-priori; no target import).
 
-**(A) Altland-Zirnbauer class of D_Sigma = CII (all exact).** Built the COMMUTING quaternionic structure J of M(64,H) (J antiunitary, J^2=-1, H-linear: max_a ||U conj(e_a) - e_a U|| = 4.8e-12) as the +1 eigenoperator of the Clifford-averaging superoperator. Lifting J_full = id_14 (x) J gives three exact symmetries of D_Sigma: T = J_full (TRS, T^2 = -1, [T,D] = 1.2e-11), S = G (chiral, {G,D} = 5.5e-14), C = J_full . G (PHS, C^2 = -1, {C,D} = 1.2e-11). So D_Sigma sits in class **CII**. The genuine product: it is the **particle-hole symmetry C (C^2 = -1), not the chiral grading alone, that FORCES eta = 0** - C pairs every +lambda with a -lambda. (T^2 = -1 only forces Kramers DOUBLING; every eigenvalue in this run is exactly doubly degenerate.)
+**(A) Altland-Zirnbauer class of D_Sigma = CII (all exact).** Built the COMMUTING quaternionic structure J of M(64,H) (J antiunitary, J^2=-1, H-linear: max_a ||U conj(e_a) - e_a U|| = 4.8e-12) as the +1 eigenoperator of the Clifford-averaging superoperator. Lifting J_full = id_14 (x) J gives three exact symmetries of D_Sigma: T = J_full (TRS, T^2 = -1, [T,D] = 1.2e-11), S = G (chiral, {G,D} = 5.5e-14), C = J_full . G (PHS, C^2 = -1, {C,D} = 1.2e-11). So D_Sigma sits in class **CII**. The genuine product: it is the **particle-hole symmetry C (C^2 = -1), not the chiral grading alone, that FORCES eta = 0** - C pairs every +lambda with a -lambda. (T^2 = -1 only forces Kramers DOUBLING; every eigenvalue in this investigation is exactly doubly degenerate.)
 
 **(B) THE DECISION (GO).** A grading-breaking perturbation is a G-DIAGONAL (G-commuting) Hermitian term Delta; the guard-admissible class is {a-priori, H-linear ([J_full, Delta]=0), non-equivariant, anti-trap}. Tested eta(D_Sigma + t*Delta) over t in [0,2]:
 - the NATURAL breaker Delta_nat = the G-diagonal Hermitian part of M_D itself keeps **eta = 0 for ALL t** - it pushes the spectrum symmetrically AWAY from zero (nearest |lambda| ~ 6 at t=1); it is the special, non-generic case;
@@ -210,7 +210,7 @@ So three independent routes to '3' (algebraic invariant, pointwise connection in
 
 ### CONSTRUCT-06 - the PARITY GATE (corrected): the obstruction is UNDER-DETERMINATION, not impossibility (2026-06-27)
 
-Capstone of the campaign, triggered by a 113-persona / 10-family Hegelian pass (over every persona in gu-formalization, gu-source-action, time-as-finality, temporal-issuance) plus three external design hypotheses (client/server, source-action-as-membrane, six-axis class-relativity). The pass collapsed the search to ONE reframed invariant - **quaternionic-linearity** (commuting with the phase-unique J_quat of M(64,H)) - and nominated a J-ANTILINEAR carrier as the only escape to an ODD index. (`tests/step10_parity_gate_quaternionic_wall.py`, guards held.)
+Capstone of the campaign, triggered by a 113-perspective / 10-family Hegelian pass (over every perspective in gu-formalization, gu-source-action, time-as-finality, temporal-issuance) plus three external design hypotheses (client/server, source-action-as-membrane, six-axis class-relativity). The pass collapsed the search to ONE reframed invariant - **quaternionic-linearity** (commuting with the phase-unique J_quat of M(64,H)) - and nominated a J-ANTILINEAR carrier as the only escape to an ODD index. (`tests/step10_parity_gate_quaternionic_wall.py`, guards held.)
 
 **A first draft claimed a UNIVERSAL parity wall ("no a-priori carrier reaches an odd index"). Adversarial verification REFUTED it with a one-line counterexample, and this entry records the corrected, narrower, verified truth.** Splitting every a-priori G-diagonal Hermitian carrier by S(Delta)=J_quat.Delta.J_quat^{-1}:
 - **(1) J-LINEAR carriers** (the PHYSICAL gauge/spin/metric-connection class - every connection in C-05 lives here): index forced **EVEN** by quaternionic Kramers, at ALL ranks (the J-linear projection of a rank-r object gives sig = **2r**: rank-1->2, rank-3->6, rank-5->10). The genuine wall, and exactly the physically-intended class.

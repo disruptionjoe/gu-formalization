@@ -376,7 +376,7 @@ Synthesis of an 11-agent workflow (`wf_0db445cb-38b`; ~1.25M tokens, ~68 min). M
   1. **R1 CONDITIONALLY_SAME** resolves the federation's mirror-ontology fork in the merge direction:
      in the PT-unbroken regime Mannheim's and Bateman-Turok's rescues are ONE mechanism in two dresses —
      the federation's quantization seat has "two members plus a marketing layer" (its own pre-stated
-     wording), and persona-pass-1's kill condition 3 (witness arithmetic merges toward one) FIRES. The
+     wording), and perspective-pass-1's kill condition 3 (witness arithmetic merges toward one) FIRES. The
      R1 verifiers' resonance hole is load-bearing for GU: at spectral degeneracies C exists but is
      NON-UNIQUE, and the three-generation target is exactly a degenerate regime — so even where the
      mechanisms agree, derivedness does not transfer to GU's target.

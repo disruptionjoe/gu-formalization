@@ -15,9 +15,7 @@ inputs:
   - canon/no-go-quaternionic-parity-generation-sector.md
   - docs/WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md
 tests: tests/channel-swings/ch_qm_graded_quotient_toy.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Channel swing CH-QM

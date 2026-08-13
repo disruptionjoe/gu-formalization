@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[2]
 REGISTER = ROOT / "lab" / "process" / "recovery-no-go-defense-register.json"
 NOTE = ROOT / "explorations" / "recovery-qm-physical-sector-conditional-sufficiency-2026-07-16.md"
 QFT_SOURCE = ROOT / "explorations" / "cycle-gates-and-audits" / "qft-shadow-extraction-certificate-2026-06-24.md"
-BRST_SOURCE = ROOT / "explorations" / "hourly-cycles" / "hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md"
+BRST_SOURCE = ROOT / "explorations" / "research-cycles" / "hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md"
 W169_SOURCE = ROOT / "explorations" / "W169-c-operator-perturbative-construction-2026-07-14.md"
 W173_SOURCE = ROOT / "explorations" / "W173-brst-cohomology-mirror-sector-2026-07-14.md"
 
@@ -115,7 +115,7 @@ def main() -> None:
     check("C5b  note names first missing objects", "## 5. First Missing Objects" in note and "d_RS,-1" in note)
     check("C5c  note preserves no status movement", "No claim status, canon verdict, public posture" in note)
     check("C5d  note says paper seed is absent", "Paper seed proposal: none." in note)
-    check("C5e  next work resumes Swing 2 defense", "resume Lane 1 no-go defense with GR Swing 2" in note)
+    check("C5e  next work resumes Swing 2 defense", "resume truth-status research no-go defense with GR Swing 2" in note)
 
     if FAIL:
         print(f"\nRESULT: {len(FAIL)} FAILED")

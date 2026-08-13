@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Is GU's shiab the codifferential d_A*?  Explicit Cl(9,5) resolution.
 
-QUESTION (canon SC1 sec 3.5 vs FHE/probabilist persona lenses)
+QUESTION (canon SC1 sec 3.5 vs FHE/probabilist perspective lenses)
 --------------------------------------------------------------
 canon SC1 (`sc1-shiab-domain-codomain-2026-06-23.md` sec 3.5 / 3.6 candidate B)
 claims GU's shiab Phi is DISTINCT from the formal codifferential d_A* (same
-TYPE Omega^2 (x) S -> Omega^1 (x) S, different formula). Several persona lenses
-in `rs-middle-map-persona-steelman-2026-06-26.md` (lead C1: FHE/Homomorphic-
+TYPE Omega^2 (x) S -> Omega^1 (x) S, different formula). Several perspective lenses
+in `rs-middle-map-perspective-steelman-2026-06-26.md` (lead C1: FHE/Homomorphic-
 Encryption, Info-Coding, Probabilist, Clifford-04) argue the opposite: that
 "adjointness forces shiab = (d_A)*", i.e. the shiab IS the metric codifferential
 of the spinor-twisted complex.

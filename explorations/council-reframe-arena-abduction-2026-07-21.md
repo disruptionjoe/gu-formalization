@@ -3,11 +3,8 @@ title: "Science Council reframe: the arena / inference-to-the-best-explanation r
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
-directed_by: "Joe direct chat, 2026-07-21 (5-member Science Council, inline personas in one worker; research-only interpretation)"
-mode: INTERPRETATION (no shipping/publishing/process advice; read-only over the repo)
+directed_by: "Joe direct chat, 2026-07-21 (5-member Science Council, inline perspectives in one worker; research-only interpretation)"
 inputs:
   - explorations/per-leg-recovery-state-2026-07-21.md
   - explorations/lp-lc-deficiency-decisive-2026-07-21.md
@@ -19,7 +16,7 @@ inputs:
 # Science Council — the arena / abduction reframe
 
 Five members reason INLINE in this one worker, each in-character across all four
-questions, then a Chairman synthesis. NEVER one agent per persona. Read-only
+questions, then a Chairman synthesis. NEVER one agent per perspective. Read-only
 interpretation of the settled state. Discipline: claims tagged **EXACT** (forced
 by banked structure / machine-checkable receipt), **SPECULATION** (structural
 resemblance, plausible extension, or a "would-follow-if" not yet banked). No

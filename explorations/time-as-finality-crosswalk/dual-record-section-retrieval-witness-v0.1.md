@@ -199,7 +199,6 @@ effect_verdict:
   Project[O]: true
   Finalize[R]: true
   Lose[K]: true
-claim_status_change: none
 GU_use: observer_finality_section_retrieval_stress_surface
 GU_non_use: source_geometry_or_no_go_evasion
 ```

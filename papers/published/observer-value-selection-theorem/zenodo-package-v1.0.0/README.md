@@ -22,7 +22,7 @@ This is a self-contained proposed deposit package. It contains the article PDF a
 - `LICENSE-DOCS.md` and `LICENSE-CODE.md` — documentation and code licenses
 - `MANIFEST.sha256` — integrity manifest
 
-The package intentionally excludes referee reports, persona reviews, internal run plans, broader GU tests, build caches, rendered QA images, and unrelated repository material.
+The package intentionally excludes referee reports, perspective reviews, internal run plans, broader GU tests, build caches, rendered QA images, and unrelated repository material.
 
 ## Reproduce
 

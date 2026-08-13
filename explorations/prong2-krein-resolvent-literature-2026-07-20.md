@@ -9,9 +9,7 @@ inputs:
   - explorations/operator-grade-end-2026-07-20.md
   - explorations/n2-end-family-2026-07-20.md
   - GEOMETER-VS-PHYSICS-OBJECTS.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # The theorem, as the receipts state it

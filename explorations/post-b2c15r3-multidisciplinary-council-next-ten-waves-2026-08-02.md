@@ -4,13 +4,11 @@ status: active_research
 doc_type: science_council_and_campaign_scaffold
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
 grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2F FROZEN-SHIAB RAW-DENSITY PROJECTIVE COMPARATOR. The written transgression has two exact raw-density rows of projective rank two, but hostile review correctly blocks promotion to an Euler-operator obstruction until moving normalized-trace transport and full Green/Helmholtz reduction are built. Full A4, distinct I2B C4, live C3, lower C2, public port, analytic domain, quotient, observation, and physics remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Post-B2C15R3 multidisciplinary council
@@ -296,9 +294,9 @@ its mathematics supports.
 | Counterfactual/causal inference | Lane comparisons are currently vulnerable to multiple simultaneous changes and refits. | Freeze a causal ledger and intervene one fork at a time: real form, carrier, reference connection, Alt port, pairing, or observation mechanism. |
 | Scientific experimental design | The next swing should split the live hypothesis set while unlocking dependent construction. | Rank work by eliminative power, dependency unlock, reuse, and exact-verification cost. The score schedules work; it never decides a theorem. |
 
-## Ten inline engineering personas
+## Ten inline engineering perspectives
 
-These personas ask what would be missing if the mathematics had to become a
+These perspectives ask what would be missing if the mathematics had to become a
 working, testable system rather than a collection of local arguments.
 
 ### 1. ML platform and inverse-design engineer
@@ -427,8 +425,8 @@ nonphysical integration fixture running throughout.
 ## The next ten big waves
 
 PW1 received a conditional construction pass in the successor Run
-`RUN-20260802-142051-gu-formalization-pw1-port-interface`. PW2 then executed in
-`RUN-20260802-152647-gu-formalization-pw2-first-jet-action` and returned the
+`historical-investigation`. PW2 then executed in
+`historical-investigation` and returned the
 automatic-source-integrability obstruction below. The PW2A--PW2E continuation
 closed the finite local active operator/descent portion. PW2F's hostile review
 reopened the claimed highest metric-order gate. PW2F-R then restored the

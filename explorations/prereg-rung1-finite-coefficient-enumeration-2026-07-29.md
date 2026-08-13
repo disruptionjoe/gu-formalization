@@ -2,21 +2,18 @@
 artifact_type: preregistration
 status: preregistration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 probe: tests/channel-swings/rung1_finite_coefficient_enumeration_probe.py
 implements: lab/active-research/conditional-source-action-toy-construction-program-2026-07-26.md
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Prereg: Rung 1 — the finite coefficient enumeration
 
 ## Why this, now
 
-`LANE-STATE.yaml` (2026-07-26) names two options and this is the bounded one:
+`CURRENT-STATE.yaml` (2026-07-26) names two options and this is the bounded one:
 
 > Build a target-blind dynamical source/topological selector **or complete the
 > Rung-1 finite coefficient enumeration** before mirror or exactness testing
@@ -79,9 +76,9 @@ space is fixed by the declared symmetries alone.
 1. If the enumerated coefficient space is **empty**, the declared symmetries are
    inconsistent and the model is void.
 2. If the index is not integer-valued and grading-determined on the **positive-
-   Hilbert hostile control**, the index computation is wrong and the run is void.
+   Hilbert hostile control**, the index computation is wrong and the investigation is void.
 3. If a **planted unbalanced grading** does not move the index, the index
-   estimator cannot detect what it must and the run is void.
+   estimator cannot detect what it must and the investigation is void.
 4. If any reported matrix was found by searching for a favourable index rather
    than drawn from the pre-enumerated space, the result is void by construction.
 
@@ -93,7 +90,7 @@ space is fixed by the declared symmetries alone.
 - **N2** positive-Hilbert hostile control must give the same grading-determined
   index, isolating what is genuinely Krein-specific.
 
-## What this run cannot earn
+## What this investigation cannot earn
 
 Not locality, anomaly inflow, a physical boundary, GU-native operator status, a
 derivation of three, or any packet field. Per the ladder, at most an exact

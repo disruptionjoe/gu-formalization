@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (blind-wave Branch 2; 5-persona inline team; the direct pure-math route -- extend Shulman's Pi_1 quasivector Tomita CONJUGATION theorem to Pi_kappa / infinite rank; concrete rank-2 kappa-quasivector attempt + literature check + deterministic toy)
+status: exploration (blind-wave Branch 2; 5-perspective inline team; the direct pure-math route -- extend Shulman's Pi_1 quasivector Tomita CONJUGATION theorem to Pi_kappa / infinite rank; concrete rank-2 kappa-quasivector attempt + literature check + deterministic toy)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path)
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -66,9 +66,9 @@ definitizability -- the property that makes the quasivector patch *bounded* -- f
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- Krein-space operator theorist (states Shulman's Pi_1 construction and WHERE it uses rank 1)
+### Perspective 1 -- Krein-space operator theorist (states Shulman's Pi_1 construction and WHERE it uses rank 1)
 
 **Shulman's `Pi_1` theorem, precisely (Rev. Math. Phys. 9 (1997) 749).** Let `M` be a weakly-closed
 **`J`-symmetric** operator algebra with identity on a **Pontryagin `Pi_1`** space `H` (indefinite inner product
@@ -95,7 +95,7 @@ Tomita operator `S(aOmega) = a^+Omega` has a well-defined **eta-positive polar d
 So the rank-1 restriction is **not** an artifact of a lazy proof; it is where **the defect is patchable by one
 quasivector** *and* **definitizability is automatic**. Both scale with `kappa`.
 
-### Persona 2 -- math referee (does a kappa-quasivector patch a kappa-dim defect? the Pi_2 ruling)
+### Perspective 2 -- math referee (does a kappa-quasivector patch a kappa-dim defect? the Pi_2 ruling)
 
 **Ruling 1 -- at finite rank, YES: a kappa-quasivector construction extends Shulman.** The two rank-1 ingredients
 both survive to any *finite* `kappa`:
@@ -123,7 +123,7 @@ assembles into a **bounded** `J` (a Krein-antiisometry) **iff** the metric inver
 (Langer's `Pi_kappa` theorem is finite-rank-specific); there is **no spectral function**, **no eta-positive
 `Delta^{1/2}`**, **no `J`**. The referee **refuses "EXTENDS"** for GU.
 
-### Persona 3 -- adversary (both directions)
+### Perspective 3 -- adversary (both directions)
 
 - *Against OBSTRUCTED ("you're just failing to imagine the right multi-quasivector; the rank-1 restriction is a
   proof artifact").* Pressed honestly: to build a bounded `J` on GU's tower the adversary needs the
@@ -142,7 +142,7 @@ assembles into a **bounded** `J` (a Krein-antiisometry) **iff** the metric inver
 The two pushes are mutually defeating: uniform boundedness (needed to extend) removes the ghost; a genuine ghost
 (unbounded inverse) blocks the bounded assembly. **Neither delivers a genuine-ghost infinite-rank `J`.**
 
-### Persona 4 -- cross-checker on a rank-2 model (the concrete Pi_2 attempt + literature)
+### Perspective 4 -- cross-checker on a rank-2 model (the concrete Pi_2 attempt + literature)
 
 **The rank-2 kappa-quasivector attempt (`W90`, exact, numpy-only).**
 - **T1 -- the 2-quasivector regime succeeds.** `Pi_2` (`eta_full = diag(1,-1,-1,1)`, negative index `kappa=2`),
@@ -175,7 +175,7 @@ Two independent derivations **agree**: **D1** the finite-rank quasivector *count
 defect dimension (patchable); **D2** the infinite-rank assembly *norm* equals the metric-inverse norm (bounded
 iff definitizable). Both locate the decision on **definitizability at infinite rank**.
 
-### Persona 5 -- synthesizer (the verdict)
+### Perspective 5 -- synthesizer (the verdict)
 
 See Sections 2-4.
 

@@ -4,12 +4,10 @@ status: active_research
 doc_type: construction_result
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: RUN-20260731-194317-gu-formalization-ecw3d-b2b-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json
 probe: tests/channel-swings/eric_curt_wave3d_b2b_positive_symmetrizer_jordan_obstruction_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promotion: none
 ---
 

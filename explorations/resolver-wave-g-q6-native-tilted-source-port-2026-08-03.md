@@ -8,9 +8,7 @@ gate_before: OPEN_REBASED_COMPONENT_PROJECTOR_BUILT
 gate_after: PARTIAL_NATIVE_Q6_AND_LOCAL_TILTED_SCHEMA_CONSTRUCTED
 route_disposition: CONTINUE
 source_collision: SOURCE-CONFIRMS-TILTED-TENSORIALITY_SOURCE-SILENT-NATIVE-Q6
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promoted: false
 ---
 

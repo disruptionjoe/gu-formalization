@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W124; 5-persona inline team; two deterministic tests; H59 path-2 Target 2, the named settling object computed at scalar core)
+status: exploration (W124; 5-perspective inline team; two deterministic tests; H59 path-2 Target 2, the named settling object computed at scalar core)
 created: 2026-07-13
 hypothesis: H59
 branch: "Path-2 wave-4 (Team R3 / W124): the two-loop self-energy at s ~ 4M^2 under BOTH prescriptions -- graded fixed-order vs Lee-Wick resummed pair, with the CLOP order-of-limits ambiguity computed explicitly (Stage A sunset, two ghost lines) and the genuinely overlapping kite topology with one ghost line (Stage B)"
@@ -36,7 +36,7 @@ computed once with the resummed complex-pair propagator (removal rules) and once
 fixed-order theory, compared for prescription independence and cut sign. This wave computes that
 object at the scalar core (Stage A: the sunset with two ghost lines, masses `(M, M, m)`), does the
 genuinely overlapping topology with one ghost line (Stage B: the kite, ghost on the shared line),
-and leaves the spin-2 tensor attachment explicitly OPEN (Stage C). Five personas ran inline,
+and leaves the spin-2 tensor attachment explicitly OPEN (Stage C). Five perspectives ran inline,
 sequentially; their outputs are folded into the sections below.
 
 Deterministic tests: `tests/W124_stageA_sunset_graded_vs_LW_CLOP.py` (16/16, exit 0) and
@@ -64,7 +64,7 @@ of the analytic continuation `S(s + i delta)`, agreement to < 2 percent -- this 
 dispersion-consistency check for the graded object), PC3 (all-massive threshold exponent fitted
 1.9865 vs the exact 3-body phase-space value 2).
 
-**Graded fixed order (persona 1 + 3).** Ghost residue `(-1)` per line, so the sunset prefactor is
+**Graded fixed order (perspective 1 + 3).** Ghost residue `(-1)` per line, so the sunset prefactor is
 `(-1)^2 = +1`: `Im S_graded = + Im S_ordinary(M,M,m)`, zero below `5.29`, positive above
 (`s = 5.5: 0.0063`, `6.0: 0.06874`, `8.0: 0.8356`, `12.0: 3.8498`). Two different regulator routes
 (`s + i delta` vs propagator `eps`) and the closed cut formula agree to < 2 percent (G2): **there
@@ -72,14 +72,14 @@ is no order-of-limits parameter anywhere in the graded fixed-order amplitude.** 
 (one-loop toy) is hereby confirmed on the true two-loop object: the even two-ghost cut is positive
 and Cutkosky-unambiguous in the graded theory.
 
-**Lee-Wick proper (persona 2).** Each ghost line is `-(1/2)[P(a_+) + P(a_-)]`; the two-ghost
+**Lee-Wick proper (perspective 2).** Each ghost line is `-(1/2)[P(a_+) + P(a_-)]`; the two-ghost
 channel decomposes with weights `(++): 1/4, (--): 1/4, mixed: 1/2`. The mixed sub-bubble
 `b0(mu^2; a_+, a_-)` is REAL on the whole real axis for every width (Schwarz pairing; numerically
 `|Im| < 1e-8` at `Gamma/M` from 0.05 to 1.0, L1) even though its branch point `(m_+ + m_-)^2` is
 exactly real: at exact conjugacy the mixed threshold carries no real-axis discontinuity. Hence
 `Im S_LW = 0` on the entire two-ghost cut (L2: `~ 2e-6` vs graded `0.069` and `1.446`).
 
-**The CLOP ambiguity, computed (persona 2's negative control).** The removal prescription retains
+**The CLOP ambiguity, computed (perspective 2's negative control).** The removal prescription retains
 a residual Feynman `eps` alongside the pair width `w = M*Gamma`; effective pole masses
 `M^2 + i(w - eps)` and `M^2 - i(w + eps)`. The order of the `(Gamma, eps) -> 0` limits changes
 the answer:
@@ -99,7 +99,7 @@ order-of-limits sensitivity exists only when the complex pair survives the limit
 difference REPRODUCES the known ambiguity (Anselmi-Piva's diagnosis), validating the machinery;
 the symmetric/proper order (0) is the average/fakeon-like answer.
 
-**The state-space arithmetic (personas 3 + 4, new structural point).** Admissible cut weights
+**The state-space arithmetic (perspectives 3 + 4, new structural point).** Admissible cut weights
 from ANY state-space assignment with Krein signs `+-1` and integer multiplicities are integers in
 units of the positive phase-space cut. The CLOP band's endpoints are `0` (removal: no ghost pair
 in the spectrum) and `+1` (graded: Krein-even pair), and these are the ONLY state-space-realizable
@@ -110,11 +110,11 @@ resolutions are the two families' own answers.** The graded optical theorem (wei
 `(-1)^{n_ghost}`) and the removal optical theorem (ghost-free spectrum) are each internally
 consistent; the deformation intermediates are not.
 
-**W48 leak at two loops (persona 3).** The one-ghost sunset `(M, m, m)` has an ODD cut: graded
+**W48 leak at two loops (perspective 3).** The one-ghost sunset `(M, m, m)` has an ODD cut: graded
 `Im S(s=4) = -0.4524 < 0` (K2). The parity map `(-1)^{n_ghost}` and the disjoint-loci structure
 (odd loci leak, even loci differ-by-ambiguity) are confirmed on true two-loop objects.
 
-**The resonance window (persona 5's guard, R1/R2).** On a Schwarz-real model self-energy with
+**The resonance window (perspective 5's guard, R1/R2).** On a Schwarz-real model self-energy with
 `Im Sigma(s + i0) = + g s` (the W51 ghost sign), the dressed ghost inverse propagator has a
 physical-sheet (principal-branch) complex pole pair (`z = 0.933 + 0.257 i` at `g = 0.3`), while
 the normal-sign case has no principal-branch root in the resonance region (grid minimum

@@ -8,9 +8,7 @@ gate_before: LOCAL_CHOSEN_J_MOVING_REDUCTION_AND_COMBINED_PORT_FIXTURE
 gate_after: LOCAL_NONLINEAR_METX_THETA_RECONSTRUCTION_AND_RIESZ_PORTED_SPIN_FIXTURE
 route_disposition: CONTINUE
 source_collision: SOURCE-CONFIRMS-GEOMETRIC-ROLES-SOURCE-SILENT-ON-EXPLICIT-THETA-FORMULA
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promoted: false
 ---
 

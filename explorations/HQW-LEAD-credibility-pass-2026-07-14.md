@@ -12,7 +12,7 @@ paper: "papers/candidates/located-not-forced/located-not-forced-generation-count
 # HQW-LEAD credibility pass (2026-07-14)
 
 Two register quick wins on the repo's strongest paper (`located-not-forced`, arXiv-ready, GU-independent
-theorem core). Five personas inline (author-editor, hostile referee, rep-theory checker, reproducibility
+theorem core). Five perspectives inline (author-editor, hostile referee, rep-theory checker, reproducibility
 engineer, honesty auditor), then synthesis. Honest grading; no science/canon change; no external action; no
 promotion (arXiv submission stays Joe-gated).
 
@@ -20,7 +20,7 @@ promotion (arXiv submission stays Joe-gated).
 
 1. **Full deliverable** -- `papers/candidates/located-not-forced/review/HQW-LEAD-premise-flag-map-and-gu-dependency-2026-07-14.md`
    (new): the H04 premise-flag map (17 loci) and the H05 per-claim GU-dependency table (21 claims), with the
-   five-persona sign-offs.
+   five-perspective sign-offs.
 
 2. **One `.tex` edit** -- a single exploration-grade **reinforcing** remark added to Section `sec:thm2`
    (after the "external by structure" paragraph): GU's own metric-compatible connection curvature `F_A` on

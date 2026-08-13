@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration
 label: W216
-status: "exploration (W216 / TEAM SPECTRAL-CONDENSATE; one of FIVE independent teams BUILDING the record-condensed true vacuum by a different method to test convergence; five personas inline in one worker, no sub-agents; one deterministic test 28/28 exit 0, positive controls first)"
+status: "exploration (W216 / TEAM SPECTRAL-CONDENSATE; one of FIVE independent teams BUILDING the record-condensed true vacuum by a different method to test convergence; five perspectives inline in one worker, no independent reviewers; one deterministic test 28/28 exit 0, positive controls first)"
 created: 2026-07-14
 wave: W216
 posture: coherence-first (Joe 2026-07-14); exploration grade; conditional register; truth-seeking (a condensate with an un-real / unbounded spectrum is a REAL negative result, not a failure to hide); RUTHLESS skeptic; no rooting for GU; tri-repo gating STRICT; do NOT fix the reservoir Krein sign (proven Godel-independent, W211); bar(b)/H59 stay OPEN
@@ -35,9 +35,9 @@ cross_repo:
 
 Test / build certificate: `tests/W216_true_vacuum_spectral_condensate.py` (28/28, exit 0, positive
 controls first). This is one of FIVE independent teams each BUILDING the record-condensed true vacuum
-by a DIFFERENT method, to test convergence. This team's method is SPECTRAL / CONDENSATE. Five personas
+by a DIFFERENT method, to test convergence. This team's method is SPECTRAL / CONDENSATE. Five perspectives
 ran INLINE in one worker (spectral analyst; condensate / gap-equation (BCS) specialist; Krein /
-C-operator specialist; mirror-record sector specialist; ruthless skeptic); no sub-agents. Zero em
+C-operator specialist; mirror-record sector specialist; ruthless skeptic); no independent reviewers. Zero em
 dashes. This is a BIG SWING: it actually BUILDS the object W163 named PLAUSIBLE-BUT-UNBUILT, and grades
 the build honestly.
 
@@ -63,7 +63,7 @@ mirror sector, and building it means solving the gap equation and diagonalising 
 spectrum** (W130 propagator; W175 essential-spectrum gap), which is exactly the object the other four
 teams also target.
 
-## 1. Persona 1 -- spectral analyst: the normal vacuum is unstable, the gap is a spectral shift
+## 1. Perspective 1 -- spectral analyst: the normal vacuum is unstable, the gap is a spectral shift
 
 The uncondensed ("normal") record-count vacuum carries the tachyon literally: the homogeneous mode
 frequency is `omega = sqrt(m0^2) = sqrt(-1/4) = i/2`, a purely imaginary (growing) frequency (PC1). An
@@ -80,7 +80,7 @@ verdict is whether that shifted spectrum is real and bounded (sensible) or acqui
 `mu_c = 9/(2 R_s) = 4.5/R_s` (PC2): the condensate lives INSIDE the gap, and the pairing band is capped
 by it.
 
-## 2. Persona 2 -- condensate / gap-equation (BCS) specialist: the condensate EXISTS
+## 2. Perspective 2 -- condensate / gap-equation (BCS) specialist: the condensate EXISTS
 
 Solve the self-consistent gap equation on the symmetric band `[-W, W]` capped by the essential-spectrum
 gap (`W = mu_c(R_s)`), with a flat density of states `N0` and pairing coupling `g`:
@@ -105,7 +105,7 @@ empty vacuum W163 could only name.** The magnitude of `Delta*` is FIT-gated (thr
 exactly as W175's `m2` and `R_s` are; the EXISTENCE and the sign of `E_cond` are structural (Cooper),
 not fit-dependent.
 
-## 3. Persona 3 -- Krein / C-operator specialist: the spectrum, on both branches (the crux)
+## 3. Perspective 3 -- Krein / C-operator specialist: the spectrum, on both branches (the crux)
 
 This is the decisive computation, and it is exact (Block 2). Per null pair the BdG Hamiltonian is a
 `2x2` block. The branch is set by the relative Krein sign of the paired partners, which is the operative
@@ -147,7 +147,7 @@ structure. W216 therefore does NOT fix it; it reports the spectrum on both branc
 core: the condensate EXISTS regardless, but its NATURE (sensible vs pathological) is exactly the one
 external bit.
 
-## 4. Persona 4 -- mirror-record-sector specialist: the arrow of time at the condensate (W166)
+## 4. Perspective 4 -- mirror-record-sector specialist: the arrow of time at the condensate (W166)
 
 Does condensing the tachyon KILL the arrow of time? W166 read `m^2 < 0` as the arrow (record-count `N`
 grows) and warned that a STABLE mode is a dead, record-less universe. Condensing gaps the tachyon
@@ -168,7 +168,7 @@ ONLY there. Graded PLAUSIBLE: the Goldstone-clock identification is a coherent s
 first-principles derivation of the winding rate (the record chemical potential is the same FIT-gated
 magnitude).
 
-## 5. Persona 5 -- ruthless skeptic: is this a real build or a dressed-up assumption?
+## 5. Perspective 5 -- ruthless skeptic: is this a real build or a dressed-up assumption?
 
 **Steelman that nothing was built.** (a) BCS existence is a THEOREM about attractive channels; feeding
 in "the tachyon is attractive" and getting "a condensate exists" is circular -- you assumed the
@@ -291,7 +291,7 @@ disagreement is the gap SCALE and the stationary-vs-rolling character of the arr
 controls first).
 
 *Filed 2026-07-14 by TEAM SPECTRAL-CONDENSATE (W216), one of five independent build teams. Five
-personas inline in one worker (spectral analyst; condensate / gap-equation (BCS) specialist; Krein /
-C-operator specialist; mirror-record-sector specialist; ruthless skeptic); no sub-agents. Reproducible:
+perspectives inline in one worker (spectral analyst; condensate / gap-equation (BCS) specialist; Krein /
+C-operator specialist; mirror-record-sector specialist; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W216_true_vacuum_spectral_condensate.py` (28/28, exit 0). Exploration grade;
 conditional register; no canon movement; bar(b)/H59 OPEN.*

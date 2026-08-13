@@ -56,7 +56,7 @@ Stated BEFORE computing, then tested:
 
 ## The two bounded objects (computed, not asserted)
 
-Five personas ran inline in this one worker (rep-theorist; Clifford/spinor/quaternionic-structure
+Five perspectives ran inline in this one worker (rep-theorist; Clifford/spinor/quaternionic-structure
 specialist; Rarita-Schwinger-sector specialist; Pati-Salam/SO(10) brancher; ruthless skeptic). The
 deterministic test `tests/W221_falsify_generation_count_structure.py` is 25/25, exit 0, positive
 controls first.
@@ -152,6 +152,6 @@ Krein sign are TI/TaF-owned (one-way rule respected). The result is exactly the 
 **Artifacts:** this file + `tests/W221_falsify_generation_count_structure.py` (25/25, exit 0).
 
 *Filed 2026-07-14. FALSIFICATION wave, NON-NAIVE mode. Assume-GU-correct + grant-every-unbuilt-piece;
-exploration grade; truth-seeking (report either way, do not root); RUTHLESS skeptic. Five personas inline
-in one worker; no sub-agents. Reproducible: `python -u tests/W221_falsify_generation_count_structure.py`
+exploration grade; truth-seeking (report either way, do not root); RUTHLESS skeptic. Five perspectives inline
+in one worker; no independent reviewers. Reproducible: `python -u tests/W221_falsify_generation_count_structure.py`
 (25/25, exit 0; positive controls first). No canon movement; count stays {1,3}; H59 remains OPEN.*

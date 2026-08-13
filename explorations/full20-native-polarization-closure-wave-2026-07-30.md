@@ -3,15 +3,11 @@ title: "Full-20 native-polarization wave: an exact auxiliary complex survives, w
 status: active_research
 doc_type: result
 created: 2026-07-30
-run_id: GUH-20260730T064923Z-full20-native-polarization-wave
-lane_id: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-S3-NATIVE-POLARIZATION
 code:
   - tests/channel-swings/full20_native_polarization_probe.py
   - tests/channel-swings/full20_observer_projector_support_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Full-20 native-polarization and conditional-closure wave

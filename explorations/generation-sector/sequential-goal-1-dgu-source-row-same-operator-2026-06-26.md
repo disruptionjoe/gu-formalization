@@ -8,10 +8,10 @@ artifact_id: "SequentialGoal1DGUSourceRowSameOperator_20260626"
 verdict: "SCOPED_NEGATIVE_SOURCE_ROW; SAME_OPERATOR_WITNESS_UNEVALUABLE"
 owned_path: "explorations/generation-sector/sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md"
 depends_on:
-  - "explorations/hourly-cycles/hourly-20260626-0402-cycle3-dgu-primary-row-unlock-closeout.md"
-  - "explorations/hourly-cycles/hourly-20260626-0402-cycle3-cross-route-transition-matrix.md"
-  - "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
-  - "explorations/hourly-cycles/hourly-20260625-1802-cycle1-dgu-source-emitted-actual-01-same-operator-packet.md"
+  - "explorations/research-cycles/hourly-20260626-0402-cycle3-dgu-primary-row-unlock-closeout.md"
+  - "explorations/research-cycles/hourly-20260626-0402-cycle3-cross-route-transition-matrix.md"
+  - "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+  - "explorations/research-cycles/hourly-20260625-1802-cycle1-dgu-source-emitted-actual-01-same-operator-packet.md"
   - "lab/literature/weinstein-ucsd-2025-04-transcript.md"
 ---
 
@@ -34,7 +34,7 @@ whether the local source surface can admit a source-clean actual `D_GU^epsilon`
 
 **Verdict: scoped negative.**
 
-The run finds candidate source payloads, but no admissible primary row. The
+The investigation finds candidate source payloads, but no admissible primary row. The
 UCSD transcript has strong zero/one-form and rolled Dirac-DeRham/Rarita-
 Schwinger language. The rendered manuscript receipts have a real
 action/operator/Euler-Lagrange cluster. Neither source surface emits the actual
@@ -51,16 +51,16 @@ target_import_used = false
 ```
 
 This is not a global GU no-go. It is a scoped negative over the source surfaces
-read by this run and the already rendered manuscript receipts.
+read by this investigation and the already rendered manuscript receipts.
 
 ## 3. Source Surface Inspected
 
 | source surface | inspected content | decision |
 |---|---|---|
 | `lab/literature/weinstein-ucsd-2025-04-transcript.md` | [00:32:46]-[00:36:13], [00:39:18], [00:46:02], [00:49:16] source language around `Y14`, pullback spinors, zero/one forms, rolled Dirac-DeRham/Rarita-Schwinger gadget, ship-in-a-bottle/shiab, and three-family claim | adjacent source payload; not an admitted actual 0/1 sector rule |
-| `explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md` | rendered manuscript rows `DGU01-TR-01` through `DGU01-TR-10`, including Shiab/circledot, `/D_omega`, `Upsilon_omega`, and `delta_omega` displays | source-native action/operator/EL locator; no identity to actual `D_GU^epsilon` 0/1 |
-| `explorations/hourly-cycles/hourly-20260625-1802-cycle1-dgu-source-emitted-actual-01-same-operator-packet.md` | prior same-operator packet admission matrix | preserved strict no-admission result |
-| `explorations/hourly-cycles/hourly-20260626-0402-cycle3-dgu-primary-row-unlock-closeout.md` | latest ordered blocker for RS and VZ restarts | preserved source-row before same-operator witness order |
+| `explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md` | rendered manuscript rows `DGU01-TR-01` through `DGU01-TR-10`, including Shiab/circledot, `/D_omega`, `Upsilon_omega`, and `delta_omega` displays | source-native action/operator/EL locator; no identity to actual `D_GU^epsilon` 0/1 |
+| `explorations/research-cycles/hourly-20260625-1802-cycle1-dgu-source-emitted-actual-01-same-operator-packet.md` | prior same-operator packet admission matrix | preserved strict no-admission result |
+| `explorations/research-cycles/hourly-20260626-0402-cycle3-dgu-primary-row-unlock-closeout.md` | latest ordered blocker for RS and VZ restarts | preserved source-row before same-operator witness order |
 
 ## 4. Candidate Payloads
 

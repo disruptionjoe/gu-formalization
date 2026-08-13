@@ -31,7 +31,7 @@ prior approximation. The 2026-07-14 landscape assessment ranked closing this gat
 problem #2 (H67): the cheapest headline-flipping computation, and the flagship
 referee's vulnerability 3.
 
-This wave executes the sweep. Five personas run inline, then synthesis.
+This wave executes the sweep. Five perspectives run inline, then synthesis.
 
 Reproduction: `python -u tests/W129_oq2_m2_band_sweep.py` (deterministic, exit 0,
 13/13 PASS; runtime a few minutes).
@@ -44,7 +44,7 @@ statement is signal-level, not amplitude-level.**
 
 ---
 
-## Persona 1 -- cosmologist: the calibration across the band
+## Perspective 1 -- cosmologist: the calibration across the band
 
 The pipeline is H46C's, verbatim where possible: the H44 backreacted background
 solver, the official DESI DR2 13-point likelihood (mean + full covariance) from H46,
@@ -78,7 +78,7 @@ Below M^2 ~ 2.25 (the de Sitter BF bound (3/2)^2) the field never oscillates, w 
 near -1, and the model degenerates toward LCDM regardless of f0 -- which is why the
 low edge of the bracketing scan is harmless to LCDM and useless to GU.
 
-## Persona 2 -- statistician: consistent comparison, worst case and best case
+## Perspective 2 -- statistician: consistent comparison, worst case and best case
 
 The comparison is fixed across the band: dAIC = chi^2_GU(own theta_star calibration)
 minus chi^2_LCDM(own theta_star calibration = the Planck point, 30.68), k = (0, 0) on
@@ -105,7 +105,7 @@ f0 = 0.125: dAIC in [+5.25, +35.78] (worst case for the exclusion: S^3, M^2 = 3)
 At the DESI-CPL-matched amplitude: dchi^2 in [+33.46, +47.18] -- no admissible point
 comes anywhere near the +4 escape level, or even the +9 level, where it matters.
 
-## Persona 3 -- DE theorist: what is actually admissible
+## Perspective 3 -- DE theorist: what is actually admissible
 
 Per the repo's OQ2 analysis (tests/wave20 `admissible_M2()`, source-first and
 DESI-blind), the admissible set is the GROUND eigenvalue of each named root-system
@@ -134,7 +134,7 @@ THE GU value) stays open. What this wave changes is the CONSEQUENCE of that open
 before, the exclusion was hostage to it; now every admissible resolution of OQ2 lands
 on an excluded point at signal level.
 
-## Persona 4 -- numerical engineer: the tables
+## Perspective 4 -- numerical engineer: the tables
 
 Full band sweep (two-component ansatz, z_start = 30; dAIC at the reference
 f0 = 0.125; f0_9 = the 3-sigma-equivalent amplitude bound; f0_CPL = the
@@ -204,7 +204,7 @@ The M^2 = 8 penalized value +16.55 on the coarse integer n-grid matches H46C's +
 (half-sigma grid). Exit code 0; 13/13 checks PASS, including the three pre-registered
 regression guards (H46C row, LCDM baseline, family continuity).
 
-## Persona 5 -- adversarial skeptic: the escape hunt
+## Perspective 5 -- adversarial skeptic: the escape hunt
 
 The hunt was run to find an escape, not to confirm the exclusion. Findings, in
 descending order of how close they come:

@@ -16,7 +16,7 @@ from typing import Iterable
 @dataclass(frozen=True)
 class Analogy:
     key: str
-    persona: int
+    perspective: int
     cluster: str
     title: str
     scores: tuple[int, int, int, int]
@@ -37,7 +37,7 @@ class Analogy:
     splits_shared_lsigma: bool = False
 
     def validate(self) -> None:
-        assert 1 <= self.persona <= 10, self
+        assert 1 <= self.perspective <= 10, self
         assert len(self.scores) == 4, self
         assert all(isinstance(x, int) and 0 <= x <= 5 for x in self.scores), self
         assert self.map_statement.strip(), self
@@ -104,7 +104,7 @@ class Analogy:
 
 def row(
     key: str,
-    persona: int,
+    perspective: int,
     cluster: str,
     title: str,
     scores: tuple[int, int, int, int],
@@ -118,7 +118,7 @@ def row(
 ) -> Analogy:
     return Analogy(
         key=key,
-        persona=persona,
+        perspective=perspective,
         cluster=cluster,
         title=title,
         scores=scores,
@@ -134,7 +134,7 @@ def row(
 
 
 ANALOGIES: tuple[Analogy, ...] = (
-    # Persona 1: learning thermodynamics / free energy.
+    # Perspective 1: learning thermodynamics / free energy.
     row("1A", 1, "datum-role", "datum as architecture-role comparator",
         (3, 2, 2, 3), "fixed neural architecture -> typed GU datum interface",
         "2004.09280 §2, eqs. (2.1)-(2.5)", 1, True),
@@ -148,7 +148,7 @@ ANALOGIES: tuple[Analogy, ...] = (
     row("1D", 1, "gravity-subterm", "Onsager entropy production vs induced gravity",
         (3, 2, 2, 2), "Onsager EH-shaped functional -> GU Gauss/EH subchannel",
         "2008.01540 §9, eqs. (9.11)-(9.13)", 1, True),
-    # Persona 2: stochastic HJ/Madelung.
+    # Perspective 2: stochastic HJ/Madelung.
     row("2A", 2, "fast-slow", "fast hidden vs slow geometric variables",
         (3, 1, 1, 2), "fast/slow learning variables -> candidate GU Hessian blocks",
         "2111.00903 §2, eqs. (2.5)-(2.9)", 1, True),
@@ -163,7 +163,7 @@ ANALOGIES: tuple[Analogy, ...] = (
         (2, 1, 1, 0), "neuron-number branch integer -> GU P3/index/generation value",
         "2012.05082 eq. (3.7), eqs. (4.1)-(4.8)", 1, False,
         parameter_delta=None, count_inference=True),
-    # Persona 3: information geometry / CGD.
+    # Perspective 3: information geometry / CGD.
     row("3A", 3, "riesz", "CGD metric raising vs connection-current musical",
         (4, 5, 3, 3), "g_CGD^{-1}F -> candidate R_{G,kappa}(delta_A S)",
         "2504.05279 eqs. (2.7)-(2.8)", 1, True),
@@ -177,7 +177,7 @@ ANALOGIES: tuple[Analogy, ...] = (
         (2, 1, 1, 1), "positive adaptive metric ↔ DeWitt/Krein metric",
         "2504.05279 eq. (4.9)", 1, False,
         parameter_delta=None, positive_metric_as_krein=True),
-    # Persona 4: graph propagation.
+    # Perspective 4: graph propagation.
     row("4A", 4, "reverse-mode", "connection current as chain-rule pullback",
         (4, 4, 3, 3), "direct+implicit derivative -> typed GU A-dependency pullback chain",
         "2411.08138 §2, eqs. (2.3)-(2.4)", 1, True),
@@ -187,7 +187,7 @@ ANALOGIES: tuple[Analogy, ...] = (
     row("4C", 4, "typed-block-graph", "S/I/R operator as typed message graph",
         (3, 2, 2, 2), "weighted adjacency -> typed full-20 block-incidence ledger",
         "2004.09280 §2, eqs. (2.1)-(2.5)", 1, True),
-    # Persona 5: gauge-equivariant / geometric deep learning.
+    # Perspective 5: gauge-equivariant / geometric deep learning.
     row("5A", 5, "gauge-covariance", "gauge components in weights/biases",
         (4, 4, 2, 4), "U(1) weight/bias covariance -> GU local-covariance control",
         "2411.08138 §5, eqs. (5.2)-(5.10)", 1, True),
@@ -201,7 +201,7 @@ ANALOGIES: tuple[Analogy, ...] = (
         (3, 3, 3, 3),
         "scalar invariant bottleneck -> intersection of GU intertwining/reality constraints",
         "2301.10077 §2 eq. (2.2), §4", 1, True),
-    # Persona 6: representation learning / depth / RG.
+    # Perspective 6: representation learning / depth / RG.
     row("6A", 6, "parent-factorization", "learning factorizations vs auxiliary elimination",
         (3, 3, 2, 3), "many-to-one discretizations -> GU parent/Schur comparison prompt",
         "2411.08138 eqs. (3.13), (3.19) and following paragraph", 1, True),
@@ -215,7 +215,7 @@ ANALOGIES: tuple[Analogy, ...] = (
     row("6D", 6, "schur-probe", "RG/depth vs Schur-complement diagnostic",
         (3, 2, 3, 4), "dynamical coarse description -> conditional GU Schur probe",
         "2004.09280 §7, eq. (7.9)", 1, True),
-    # Persona 7: fast/slow / adiabatic dynamics.
+    # Perspective 7: fast/slow / adiabatic dynamics.
     row("7A", 7, "fast-slow", "Z/background block as fast/slow split",
         (2, 1, 2, 1), "fast/slow sectors -> candidate GU generalized-eigenvalue test",
         "2111.00903 §2", 1, True),
@@ -229,7 +229,7 @@ ANALOGIES: tuple[Analogy, ...] = (
         (0, 4, 0, 0), "neuron-number multiplier Lambda -> GU bare cosmological coefficient",
         "2111.00903 eqs. (8.12)-(8.13)", 1, False,
         parameter_delta=None, type_conflation=True),
-    # Persona 8: neural fields / emergent PDE.
+    # Perspective 8: neural fields / emergent PDE.
     row("8A", 8, "restriction-emission", "boundary maps vs pull/push pair",
         (3, 2, 2, 2), "neural boundary maps -> GU pull/push adjunction prompt",
         "2504.05279 §2, before eq. (2.1)", 1, True),
@@ -242,7 +242,7 @@ ANALOGIES: tuple[Analogy, ...] = (
     row("8D", 8, "gravity-subterm", "emergent EH vs GU Gauss subterm",
         (2, 4, 1, 2), "entropy-production EH term -> GU isolated EH-shaped subchannel",
         "2111.00903 eqs. (8.8)-(8.13)", 1, True),
-    # Persona 9: topological ML / index.
+    # Perspective 9: topological ML / index.
     row("9A", 9, "scalar-ko", "neural scalar invariant vs KO/Fredholm index",
         (0, 0, 1, 0), "Galilean scalar invariant -> KO/symbol/Fredholm index",
         "2301.10077 §2 eq. (2.2), eqs. (4.3)-(4.7)", 1, False,
@@ -257,7 +257,7 @@ ANALOGIES: tuple[Analogy, ...] = (
         (0, 0, 0, 0), "active-neuron-number ambiguity -> P3/index/generation value",
         "2012.05082 §4; 2111.00903 eqs. (8.12)-(8.13)", 1, False,
         parameter_delta=None, count_inference=True),
-    # Persona 10: formal analogy / Layer-0 red team.
+    # Perspective 10: formal analogy / Layer-0 red team.
     row("10A", 10, "loss-action", "loss vs indefinite source action",
         (2, 3, 1, 2), "learning loss ↔ indefinite stationary GU action",
         "2411.08138 §2", 1, False),
@@ -289,7 +289,7 @@ def cluster_summary(
     for name, group in grouped.items():
         rows.append((
             name,
-            len({item.persona for item in group}),
+            len({item.perspective for item in group}),
             round(max(item.fidelity for item in group), 2),
             round(mean(item.fidelity for item in group), 2),
         ))
@@ -389,10 +389,10 @@ def run_audit() -> None:
     for item in ANALOGIES:
         item.validate()
 
-    assert {item.persona for item in ANALOGIES} == set(range(1, 11))
+    assert {item.perspective for item in ANALOGIES} == set(range(1, 11))
     assert all(
-        sum(item.persona == persona for item in ANALOGIES) >= 3
-        for persona in range(1, 11)
+        sum(item.perspective == perspective for item in ANALOGIES) >= 3
+        for perspective in range(1, 11)
     )
     assert {item.provenance_rank for item in ANALOGIES} == {1, 3}
     assert all(item.fidelity <= 3.0 for item in ANALOGIES)
@@ -414,12 +414,12 @@ def run_audit() -> None:
 def main() -> None:
     run_audit()
     clusters = cluster_summary(ANALOGIES)
-    print(f"DECLARED-SCORE-CONTRACT-PASS: {len(ANALOGIES)} rows / 10 personas")
+    print(f"DECLARED-SCORE-CONTRACT-PASS: {len(ANALOGIES)} rows / 10 perspectives")
     print("PASS: metadata, missing-map, homonym, symmetry, count, target,")
     print("      positivity, P3-line, shared-L_sigma, and provenance plants")
-    print("TOP CONSTRUCTION-PROMPT CLUSTERS (max F / persona judgments / mean F):")
-    for cluster, personas, maximum, average in clusters[:10]:
-        print(f"  {cluster}: {maximum:.2f} / {personas} / {average:.2f}")
+    print("TOP CONSTRUCTION-PROMPT CLUSTERS (max F / perspective judgments / mean F):")
+    for cluster, perspectives, maximum, average in clusters[:10]:
+        print(f"  {cluster}: {maximum:.2f} / {perspectives} / {average:.2f}")
     print("BOUNDARY: declared-score arithmetic only; source mathematics not executed")
     print("VERDICT: METHOD-TRANSFER-PROMPTS; NO-NEURAL/GU-MAP-CONSTRUCTED")
 

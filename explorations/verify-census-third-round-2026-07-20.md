@@ -10,9 +10,7 @@ targets:
   - explorations/verify-section-theory-2026-07-20.md
 runnable:
   - tests/channel-swings/verify_census_third_round_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Third dry round, targeted: the corrected census sentence

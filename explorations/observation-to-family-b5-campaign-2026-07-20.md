@@ -12,9 +12,7 @@ inputs:
   - explorations/W221-falsify-generation-count-structure-2026-07-14.md
   - explorations/trit-copies-node-b1-2026-07-20.md
   - explorations/continuum-pencil-graph-domain-certificate-2026-07-20.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

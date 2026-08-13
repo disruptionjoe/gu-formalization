@@ -6,7 +6,7 @@ the durable, reviewed results live in `canon/` and `papers/`.
 
 - [`active-research/`](active-research/) — frontstage theorem work that is promising but not yet canon.
 - [`roadmap/`](roadmap/) — ranked next steps, publish-potential analysis, and contributor routing.
-- [`process/`](process/) — persona passes, dialectics, and synthesis history.
+- [`process/`](process/) — perspective passes, dialectics, and synthesis history.
 - [`deep-research/`](deep-research/) — external deep-research briefs and adversarial-hardening passes.
 - [`literature/`](literature/) — literature-review briefs.
 - [`sources/`](sources/) — media/source provenance and claim-mining surfaces.

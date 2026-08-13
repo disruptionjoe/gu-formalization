@@ -2,14 +2,11 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: THREE-ROUTE-CONSTRUCTION-WAVE
 title: "Three-route construction-wave synthesis: the direct Bott--Krein deck weld is killed, the actual DeWitt metric-fibre loop carries the nontrivial Krein orientation bit, and the vertical scalar channel is not yet a dynamical field of the written X4 action. The three approaches now meet at one source-owned reduction-and-transport packet."
-grade: "SYNTHESIS of three independently executed finite/exact construction starts. Lane A is exact finite Clifford/quaternionic algebra plus a standard Bott control; Lane B builds exact ambient curvature/Hessian formulas and exact comparator controls but leaves the physical reduction and Hessian open; Lane C builds the actual DeWitt frame return and a reference Clifford lift but leaves normalized 20-slot transport open. No physical index, vacuum, B5 phase assignment, source-action row, claim status, canon verdict, count, or public posture moves."
-run: lab/process/runs/GUH-20260729T211122Z-three-route-construction-wave/run-plan.md
-claim_status_change: none
+grade: "SYNTHESIS of three independently executed finite/exact construction starts. research maintenance is exact finite Clifford/quaternionic algebra plus a standard Bott control; Lane B builds exact ambient curvature/Hessian formulas and exact comparator controls but leaves the physical reduction and Hessian open; Lane C builds the actual DeWitt frame return and a reference Clifford lift but leaves normalized 20-slot transport open. No physical index, vacuum, B5 phase assignment, source-action row, claim status, canon verdict, count, or public posture moves."
+run: archived private execution record
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Three-route construction-wave synthesis

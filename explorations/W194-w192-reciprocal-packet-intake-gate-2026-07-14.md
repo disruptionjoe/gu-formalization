@@ -150,8 +150,5 @@ action_2_typed_source_law: open_and_earned
 action_3_three_world_discriminator: preregistration_earned
 action_4_capability_ledger: preregistration_earned
 action_5_physical_spectral_holdout: blocked_until_actions_2_4_survive
-claim_status_change: none
-canon_change: none
-public_posture_change: none
 ```
 

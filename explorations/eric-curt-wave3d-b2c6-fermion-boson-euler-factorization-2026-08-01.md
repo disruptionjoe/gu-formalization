@@ -4,7 +4,7 @@ status: exploration
 doc_type: construction_result
 updated_at: "2026-08-01"
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260801-085119-gu-formalization-ecw3d-b2c6-direct
+run: historical-investigation
 predecessor: explorations/eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md
 registry: lab/process/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c6_fermion_boson_euler_factorization_probe.py
