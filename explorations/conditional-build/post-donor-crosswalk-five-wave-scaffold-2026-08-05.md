@@ -3,10 +3,7 @@ title: "Post-donor-crosswalk five-wave scaffold"
 status: active_research
 doc_type: campaign_scaffold
 created: 2026-08-05
-functional_channels: [BUILD, COMPOSE]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Post-donor-crosswalk five-wave scaffold

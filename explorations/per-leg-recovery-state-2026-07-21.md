@@ -3,9 +3,7 @@ title: "Per-leg physics-recovery state: conditional-construction grading (given 
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Per-leg physics-recovery state (honest, calibrated)

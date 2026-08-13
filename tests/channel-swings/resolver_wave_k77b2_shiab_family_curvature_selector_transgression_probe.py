@@ -549,7 +549,7 @@ def transgression_row(torsion: Form, variation: Form, channels,
 
 print("A. SOURCE COLLISION AND LAYER 0")
 
-rendered = (ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
+rendered = (ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
 k77b = (ROOT / "explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md").read_text()
 
 check("source", "draft types Shiab as Omega2(ad) to Omega13(ad)",

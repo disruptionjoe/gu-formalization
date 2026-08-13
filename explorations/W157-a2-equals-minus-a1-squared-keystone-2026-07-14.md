@@ -1,19 +1,19 @@
 ---
 artifact_type: exploration
-status: exploration (W157; TEAM KEYSTONE-A2; five personas inline, one worker, no sub-agents; deterministic keystone test with W126/W130 positive controls)
+status: exploration (W157; TEAM KEYSTONE-A2; five perspectives inline, one worker, no independent reviewers; deterministic keystone test with W126/W130 positive controls)
 created: 2026-07-14
 wave: W157
 label: W157
 posture: coherence-first (Joe 2026-07-14); exploration grade; conditional register; honest grading
 title: "W157 -- THE KEYSTONE settled. Is a2 = -(a1)^2 (the tachyon = R^2-channel shadow of attractive gravity) STRUCTURAL or a COINCIDENCE? VERDICT: COINCIDENCE (MSS-slice-basis + a0=2 normalization artifact). COMPUTED, decisive: the identity holds ONLY for the MSS-slice-reduced coefficient a2_MSS = -1/9 (Ric^2 -> R^2/4); the PHYSICAL scalaron coefficient that actually sets the tachyon mass -- W130's covariant c_R = a2s + a3s/3 = -4/9 (Ric^2 -> R^2/3; GB topological; C^2 the spin-2 channel) -- BREAKS the identity by a factor of 4 (-4/9 != -(1/3)^2 = -1/9). The same theory in the correct covariant basis is the breaking family member. Confirmed by three more computed facts: (T2) the identity is not scale invariant -- for ANY tachyon (a2<0) the normalization N* = -a2/a1^2 makes it hold, so it is a convention available to every tachyon; (T3) in the shape family alpha|II|^2+beta|H|^2 it holds at beta=0 but FAILS at the other GU-named point beta/alpha=2; (T5) route iii yields no structural proof -- the conformal weight forces the degree-2 ceiling (c_3=c_4=..=0) but the relation <II_1,II_1>=-4<II_0,II_1>^2 is inhomogeneous (degree 2 = degree 4) so no weight law can force it. WHAT SURVIVES: only the SIGN a2/a1<0 (tachyonic iff attractive), normalization- and basis-invariant. CONSEQUENCE: the keystone conversion of debit-1 FAILS; the tachyon stays an independent debit; the convergent story (W156) does NOT clear bar (b) by this route; the load returns to the AF/AS fork (W128) and gradient saturation (W126)."
 hypothesis: "W156 worklist item D1, the #1 keystone: W156 graded a2 = -(a1)^2 a STRUCTURAL-CANDIDATE (exact; scale-mode invariant per W153 T1; non-automatic) but not proven structural. Settle it with the W126/W130 exact machinery across the natural deformation families (signature/codimension; the alpha|II|^2+beta|H|^2 shape mix; the conformal-weight/homogeneity route; the factorization/roots route)."
-grade: "exploration / conditional register throughout. COMPUTED (deterministic, tests/W157_a2_equals_minus_a1_squared_keystone.py, 19/19 exit 0, W126 + W130 positive controls first). The verdict COINCIDENCE is a DEMOTION of the W156 STRUCTURAL-CANDIDATE grade, established by exact sympy identities, not asserted. LOAD-BEARING imports (CITED, not re-derived): W126 (the slice decomposition (a0,a1,a2s,a3s)=(2,1/3,8/9,-4), the exact degree-2 collapse c_3=c_4=..=0, P(u)=-64u^2-8u+2, the |II|^2 and |H|^2 Route-1 machinery reused verbatim-parametrized); W130 (the covariant basis map c_R = a2s + a3s/3 = -4/9, the GB-freedom cancellation, f_0^2 = 1/(6 c_R), the physical scalaron sits on c_R not the slice value); W128 (the AF/AS fork); W156 (the STRUCTURAL-CANDIDATE grade now demoted). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; the count is unchanged; H59/H61a OPEN; the E2 AF/AS fork carried, not closed. HONEST RESIDUAL: whether the surviving SIGN (c_R<0 forced by a1>0) is itself structural is NOT settled here -- it is the next question, and it is a WEAKER claim than the exact-magnitude keystone that W155/W156 personas 6/10 leaned on."
+grade: "exploration / conditional register throughout. COMPUTED (deterministic, tests/W157_a2_equals_minus_a1_squared_keystone.py, 19/19 exit 0, W126 + W130 positive controls first). The verdict COINCIDENCE is a DEMOTION of the W156 STRUCTURAL-CANDIDATE grade, established by exact sympy identities, not asserted. LOAD-BEARING imports (CITED, not re-derived): W126 (the slice decomposition (a0,a1,a2s,a3s)=(2,1/3,8/9,-4), the exact degree-2 collapse c_3=c_4=..=0, P(u)=-64u^2-8u+2, the |II|^2 and |H|^2 Route-1 machinery reused verbatim-parametrized); W130 (the covariant basis map c_R = a2s + a3s/3 = -4/9, the GB-freedom cancellation, f_0^2 = 1/(6 c_R), the physical scalaron sits on c_R not the slice value); W128 (the AF/AS fork); W156 (the STRUCTURAL-CANDIDATE grade now demoted). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; the count is unchanged; H59/H61a OPEN; the E2 AF/AS fork carried, not closed. HONEST RESIDUAL: whether the surviving SIGN (c_R<0 forced by a1>0) is itself structural is NOT settled here -- it is the next question, and it is a WEAKER claim than the exact-magnitude keystone that W155/W156 perspectives 6/10 leaned on."
 construction: "program-native where the objects are GU's (the induced |II|^2 action, the MSS conformal slice, the covariant R^2 / Weyl / GB channel split, the (9,5) ambient). Standard-field where the machinery binds any construction (the f(R) scalaron-mass dependence on the R^2 coupling, the 4D identity Ric^2 = C^2/2 + ... relating the slice /4 and covariant /3 reductions, conformal-weight homogeneity, the Gram-matrix reading of a quadratic form). Every analogy PORTED and labelled; none asserted of GU. Forks named per GEOMETER-VS-PHYSICS-OBJECTS.md."
 depends_on:
   - explorations/W126-beyond4th-vacuum-lift-2026-07-13.md
   - explorations/W130-native-graviton-oneloop-block-2026-07-14.md
   - explorations/W128-reuter-branch-scalaron-native-2026-07-14.md
-  - explorations/W155-ten-divergent-personas-tachyon-2026-07-14.md
+  - explorations/W155-ten-divergent-perspectives-tachyon-2026-07-14.md
   - explorations/W156-coherent-full-story-2026-07-14.md
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 scripts:
@@ -44,7 +44,7 @@ T1, the conformal record-count mode), reducible to a clean coefficient relation
 fails it) -- but NOT proven structural (no first-principles `|II|^2` symmetry or
 family-invariance). This wave settles the grade.
 
-**Five personas inline, one worker, no sub-agents.** Deterministic test
+**Five perspectives inline, one worker, no independent reviewers.** Deterministic test
 `tests/W157_a2_equals_minus_a1_squared_keystone.py`, 19/19 exit 0, W126 + W130 positive
 controls first.
 
@@ -58,7 +58,7 @@ controls first.
 | Signature | base `eta` swept over (1,3),(0,4),(2,2),(4,0) | Route i: does the identity or the tachyon sign depend on the (9,5) indefiniteness? (Answer: neither -- signature-blind.) |
 | Normalization | the `a0 = 2` flat-section pin vs a free overall `N` | The identity is not `N`-invariant; this is half the coincidence. |
 
-## 2. Persona 1 -- differential geometer: the conformal weight cannot force it (route iii)
+## 2. Perspective 1 -- differential geometer: the conformal weight cannot force it (route iii)
 
 The cleanest possible "structural" proof would be a homogeneity/weight argument that fixes
 `w2/w1^2 = -1` independent of the numbers. It does not exist, and here is exactly why.
@@ -91,7 +91,7 @@ route iii -- the cleanest structural-proof target -- **provably cannot close**. 
 the degree, not the `w2/w1^2` ratio. This is the first honest negative: there is no symmetry to
 exhibit because the relation is not of a symmetry-forceable type.
 
-## 3. Persona 2 -- the W126/W130 machinery specialist: the basis kill (routes i, iv)
+## 3. Perspective 2 -- the W126/W130 machinery specialist: the basis kill (routes i, iv)
 
 **The decisive computation.** The headline `-1/9 = -(1/3)^2` uses the MSS-slice-reduced R^2
 coefficient. But "the tachyon" is a statement about the scalaron MASS, and in fourth-order
@@ -127,7 +127,7 @@ tempting structural story**: the tachyon `c_R = -4/9 < 0` is NOT a Krein/(9,5)-i
 effect -- it persists in Euclidean (4,0). The tachyon sign is an algebraic property of the
 conformal-graph construction, robust across signature, not a signature artifact.
 
-## 4. Persona 3 -- number theorist: the factorization and the roots (route iv)
+## 4. Perspective 3 -- number theorist: the factorization and the roots (route iv)
 
 `W(u) = -64u^2 - 8u + 2 = -2(8u - 1)(4u + 1)`, roots `u = 1/8, -1/4`; equivalently
 `F(R) = -(1/9)(R - 6)(R + 3)`, roots `R = 6, -3`. Is `a2 = -a1^2` an arithmetic identity the
@@ -143,7 +143,7 @@ the sign) is not the arithmetic the keystone needs (the magnitude lock). Number 
 the identity is exact at GU's point and confirms it carries a normalization factor; it does not
 find it forced.
 
-## 5. Persona 4 -- symbolic engineer: what the test pins (T2, the normalization)
+## 5. Perspective 4 -- symbolic engineer: what the test pins (T2, the normalization)
 
 `tests/W157_...py`, 19 checks, exit 0, exact sympy, positive controls first (PC1-PC5 reproduce
 W126's `(2,1/3,8/9,-4)`, `P(u)=-64u^2-8u+2`, and W130's `c_R=-4/9`; the shape family and
@@ -166,7 +166,7 @@ convention looks like. W153 T1 scale-mode invariance (S5) is invariance under th
 factor `p`, a DIFFERENT scaling than the action normalization `N` -- it does not rescue the
 identity, because `N` is the free scaling and the identity is not `N`-invariant.
 
-## 6. Persona 5 -- adversarial skeptic: steelman STRUCTURAL, then the shape family (route ii)
+## 6. Perspective 5 -- adversarial skeptic: steelman STRUCTURAL, then the shape family (route ii)
 
 The steelman for STRUCTURAL was: the identity is exact, non-automatic (a generic `a2` fails it,
 W156 S6), and survives the one deformation W153 could compute. If it ALSO survived the shape
@@ -218,7 +218,7 @@ normalization. It is NOT structural. Three independent computed deformations eac
 normalization- and basis-invariant (`-1/3` slice, `-4/3` covariant, both negative), and --
 per the degenerate signature sweep -- robust across signature (so not a (9,5) artifact either).
 The tachyon is CORRELATED in sign with attractive gravity. It is NOT the literal square-shadow
-of the Einstein coefficient; the exact `= a1^2` magnitude that W155/W156 personas 6 and 10
+of the Einstein coefficient; the exact `= a1^2` magnitude that W155/W156 perspectives 6 and 10
 leaned on was an artifact.
 
 **Consequence for debit-1 and bar (b).** The keystone conversion FAILS. Debit-1 (the tachyon)
@@ -276,8 +276,8 @@ constant.
   closed. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team KEYSTONE-A2 (W157). Coherence-first, the #1 keystone of the
-substrate-arc worklist. Five personas inline in one worker (differential geometer,
+substrate-arc worklist. Five perspectives inline in one worker (differential geometer,
 W126/W130 machinery specialist, number theorist, symbolic engineer, adversarial skeptic); no
-sub-agents. Reproducible: `python -u tests/W157_a2_equals_minus_a1_squared_keystone.py`
+independent reviewers. Reproducible: `python -u tests/W157_a2_equals_minus_a1_squared_keystone.py`
 (19/19, exit 0; W126 + W130 positive controls first). Exploration grade; conditional register;
 no canon movement.*

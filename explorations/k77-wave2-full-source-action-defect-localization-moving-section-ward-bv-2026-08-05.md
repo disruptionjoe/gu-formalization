@@ -1,7 +1,6 @@
 ---
 title: "K77 Wave 2: full source-action defect localization, moving-section calculus and even Ward/BV descent"
 date: 2026-08-05
-lane: 1
 status: PARTIAL_WITH_EXACT_LOCALIZATION_AND_VARIATION_DESCENT
 named_gate: K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT
 gate_before: K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT

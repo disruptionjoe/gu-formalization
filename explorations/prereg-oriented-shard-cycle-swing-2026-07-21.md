@@ -4,9 +4,7 @@ status: preregistration
 doc_type: scoping_decision_tree
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (orchestrate a swing at the falsifiable viable questions of the shard-cycle model; add the dynamical issuance rule + Gorard/Wolfram CA layer)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---
@@ -162,7 +160,7 @@ every positive.
 > native deck/Krein transition structure, under which the cycle's orientation class
 > could differ; (ii) standard topology is a THIRD-PERSON lens (it can see orientations
 > the σ-blind first person cannot), so "the circle is orientable" is itself a
-> class-relative fact that may flip first-personally — the same phenomenon the whole
+> class-relative fact that may flip first-perspectivelly — the same phenomenon the whole
 > program studies, now possibly biting our own TOOLS. So the circle/cyclic reading is
 > NEITHER confirmed NOR globally refuted; it is an OPEN class-relative question (a
 > "class-relative no-go we have not yet defined the frame for"). Do NOT propagate

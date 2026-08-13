@@ -5,7 +5,7 @@ doc_type: research_note
 branch: "path5-E (falsifier, PRESENT-not-DECIDE, run BLIND to branches A-D)"
 role: "adversary against the conjecture 'values unforceable in principle'; try to force a genuine VALUE from the arena"
 updated_at: "2026-07-11"
-verdict: "NO falsification survives. Every arena-forcing on the board reduces to a dimensionless RATIO / a direction-up-to-scale / a UV-asymptotic limit / a discrete ARENA -- never a genuine dimensionful VALUE and never the 3-over-1 selection. Overall: STRONG CORROBORATION of in-principle-unforceability. Honest caveat: the arena/value split is partly self-sealing (see Persona 3), so the corroboration is genuine but its robustness is partly definitional. I PRESENT; I do not render the verdict."
+verdict: "NO falsification survives. Every arena-forcing on the board reduces to a dimensionless RATIO / a direction-up-to-scale / a UV-asymptotic limit / a discrete ARENA -- never a genuine dimensionful VALUE and never the 3-over-1 selection. Overall: STRONG CORROBORATION of in-principle-unforceability. Honest caveat: the arena/value split is partly self-sealing (see Perspective 3), so the corroboration is genuine but its robustness is partly definitional. I PRESENT; I do not render the verdict."
 test: "tests/W71_path5_E_falsifier.py (deterministic, exit 0)"
 depends_on:
   - "explorations/wave27/H48-self-dual-square-forcing-2026-07-11.md"
@@ -48,7 +48,7 @@ side where the conjecture actually lives.
 
 ---
 
-## PERSONA 1 -- the FORCING specialist (builds the strongest case the arena forces a value)
+## PERSPECTIVE 1 -- the FORCING specialist (builds the strongest case the arena forces a value)
 
 ### Candidate A -- self-dual color-kinematics forces the COUNT onto carrier B
 Requiring gravity = (self-dual gauge)^2 imposes the kinematic-Jacobi (color-kinematics) constraint.
@@ -81,7 +81,7 @@ arena forces with no observer -- values.
 
 ---
 
-## PERSONA 2 -- the MATH REFEREE (grades each; checks it is a genuine VALUE, not an arena/ratio)
+## PERSPECTIVE 2 -- the MATH REFEREE (grades each; checks it is a genuine VALUE, not an arena/ratio)
 
 - **Candidate A (count -> B): WEAK as a forcing, and it forces NOTHING discriminating.** H48 Q2 is a
   clean H20-style negative: the self-dual algebra closes on **BOTH** A and B because `Gamma` is an
@@ -114,7 +114,7 @@ genuine VALUE** on the dividing line above.
 
 ---
 
-## PERSONA 3 -- the STEELMAN-OF-THE-CONJECTURE (argues each apparent forcing is arena/ratio, value free)
+## PERSPECTIVE 3 -- the STEELMAN-OF-THE-CONJECTURE (argues each apparent forcing is arena/ratio, value free)
 
 - **On B:** "Forced up to scale" is the tell. The geometry forces the **ratio** `-1/4` and the
   **direction** `|II_0|^2`; the scale -- the one thing you would measure -- is exactly `mu_DW`, which
@@ -139,7 +139,7 @@ genuine VALUE** on the dividing line above.
 
 ---
 
-## PERSONA 4 -- the CROSS-CHECKER (verifies against the actual prior results)
+## PERSPECTIVE 4 -- the CROSS-CHECKER (verifies against the actual prior results)
 
 - **B against H48:** matches. H48 Q1: coeff count 2, constraint count 1, dim admissible 1, forces the
   traceless conformal `|II_0|^2` "up to scale," conditional on the conformal grant; the two honest
@@ -161,7 +161,7 @@ value or the 3-over-1 selection.
 
 ---
 
-## PERSONA 5 -- the SYNTHESIZER (per candidate: strongest case + honest strength + value or arena?)
+## PERSPECTIVE 5 -- the SYNTHESIZER (per candidate: strongest case + honest strength + value or arena?)
 
 | Candidate | Strongest forcing case | Prosecution strength | Steelman rebuttal | Genuine VALUE forced? |
 |---|---|---|---|---|
@@ -191,7 +191,7 @@ is arena by definition.
 pattern is uniform and matches the conjecture's prediction exactly: the arena is richly forced (ratios,
 directions, UV limits, discrete arenas), the VALUE (scale, discrete selection) is never forced.
 
-**The one honest deduction I flag for the orchestrator (Persona 3):** the corroboration is genuine
+**The one honest deduction I flag for the orchestrator (Perspective 3):** the corroboration is genuine
 because the two pre-named falsifying events demonstrably do not occur -- but the arena/value split is
 partly **self-sealing** (it reclassifies forced things as arena), so the *robustness* of the
 corroboration is partly definitional rather than empirical. A future genuine kill would need the arena

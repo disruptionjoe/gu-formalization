@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-06
 status: I2B_GAUSS_WRONG_TYPE__PROJECTED_FULL_II_PLUS_TRACE_SQUARE_EXACT__FULL_RESIDUAL_LEAKAGE_LIVE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
 source_return: SOURCE-SILENT
 free_object_delta: "zero fields, parameters, data, selectors, quotients or boundary conditions"

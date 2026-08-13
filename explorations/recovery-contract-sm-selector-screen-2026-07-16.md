@@ -3,7 +3,6 @@ artifact_type: exploration
 status: exploration
 created: 2026-07-16
 title: "Recovery contract SM selector screen"
-lane: RECOVERY-CERTIFICATION
 internal_item: SM-CONSISTENT-SECTOR
 operational_result: NO_GO
 grade: "branch-local process checkpoint; no claim-status, canon, public-posture, or portfolio movement"

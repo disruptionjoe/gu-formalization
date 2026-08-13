@@ -35,7 +35,7 @@ def digest(path: Path) -> str:
 def main() -> int:
     pack_path = ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
     portal_path = ROOT / "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md"
-    rendered_path = ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+    rendered_path = ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     g2_path = ROOT / "explorations/g2-field-space-native-variational-shiab-2026-07-31.md"
     pack = pack_path.read_text()
     portal = portal_path.read_text()

@@ -44,17 +44,17 @@ Tri-repo note. "Issuance" here labels a local postulate only. The object the GU 
 action would supply is the scalar Q(a) in the sourced continuity equation; no
 temporal-issuance quantity is asserted to BE a GU quantity.
 
-Five personas ran inline in one session (observational cosmologist, interacting-DE
+Five perspectives ran inline in one session (observational cosmologist, interacting-DE
 theorist, source-action/spec specialist, numerical engineer, adversarial skeptic). The
 deterministic test `tests/W144_desi_fitted_issuance_function.py` (28/28, exit 0) runs its
 four positive controls first.
 
-## 1. Persona 1, observational cosmologist: the interacting-vacuum decomposition
+## 1. Perspective 1, observational cosmologist: the interacting-vacuum decomposition
 
 The repo's verified machinery (wave29 raw DESI DR2 BAO likelihood, full 13x13 covariance;
 wave46 H46C theta_star calibration) is imported verbatim, exactly as W135 imported it. The
 decomposition that turns a general dark-energy history into an issuance function is the
-interacting-vacuum split (PORTED; see Persona 2): write dark energy as a strictly w = -1
+interacting-vacuum split (PORTED; see Perspective 2): write dark energy as a strictly w = -1
 vacuum component V exchanging energy with a reservoir,
 
 ```
@@ -78,7 +78,7 @@ Positive controls (the test runs these before any fit):
   1.6e-6 (endpoint-accurate second-order stencil).
 - The W135 b2 (stock+drip) and PID anchors are re-run and matched within the test.
 
-## 2. Persona 2, interacting-DE theorist: the closed-form Q(a) and the phantom crossing
+## 2. Perspective 2, interacting-DE theorist: the closed-form Q(a) and the phantom crossing
 
 **PORTED, labeled.** The interacting-vacuum reading is standard-field literature (the
 Wands / De-Bruck / Vacca interacting-vacuum lineage, and the broader coupled-dark-energy
@@ -127,7 +127,7 @@ home for a DESI-type crossing: the pathology that kills quintessence crossings i
 by construction. Conditional register: this is an advantage OF THE READING, not evidence
 the crossing is real.
 
-## 3. Persona 1 + 4: the free fit and the four-class dAIC table
+## 3. Perspective 1 + 4: the free fit and the four-class dAIC table
 
 Two free parametrizations of Q(a), windowed to a >= 0.30 (the DESI window; zero supply
 before, so the theta_star calibration validity guard holds, rho_DE/rho_m at z = 30 is
@@ -185,7 +185,7 @@ data want an issuance function that issues in the past and withdraws today, cros
 z ~ 0.45, at O(1) Planck-ladder amplitude, and they want it at 4-5 sigma-equivalent on
 BAO+theta_star alone. Whether that pull is real is the DR3 question (Section 6).
 
-## 4. Persona 3, source-action / spec specialist: Stage B, backing into the action
+## 4. Perspective 3, source-action / spec specialist: Stage B, backing into the action
 
 The transducer requirement (W135) reduced the GU-side question to one scalar: can the
 source action express Q = 0 / const / feedback. The fitted shape sharpens it to: the
@@ -227,7 +227,7 @@ the W136 determination (B_i, f0) = (0, 0) survives, the theta shape stays exclud
 before, and the issuance function carries the DE structure. The theta sector is not asked
 to do a job it provably cannot do.
 
-## 5. Persona 5, adversarial skeptic: THE-PULL-IS-NOISE steelman and the gate sheet
+## 5. Perspective 5, adversarial skeptic: THE-PULL-IS-NOISE steelman and the gate sheet
 
 **Steelman: the fitted Q is noise.** The honest null is that the DESI DR2 evolving-DE pull
 is a fluctuation plus unmodeled systematics, and the freed Q(a) is fitting it. Everything
@@ -312,7 +312,7 @@ action must have, beyond the W136 constant-declaration structure:
 Spec rows that move under this branch: SA-G3, SA-G4 (clocked deformation), plus one new
 declaration row (the clock coupling). Rows that DO NOT move: SA-G5 (beta/alpha = 2 intact),
 SA-G2 (mu_DW untouched, H36 still refused), the Yukawa and cure sectors (dimensionally
-disjoint, W136 Personas 3-4).
+disjoint, W136 Perspectives 3-4).
 
 ## 8. Honest limits
 
@@ -331,7 +331,7 @@ disjoint, W136 Personas 3-4).
 - No canon, verdict, claim-status, or posture moves. The spec FIT rows do not move;
   "would move under this branch" is a property of the conditional theory, recorded here.
 
-*Filed 2026-07-14 by Team ISS-FIT (W144). Five personas inline in one session
+*Filed 2026-07-14 by Team ISS-FIT (W144). Five perspectives inline in one session
 (observational cosmologist, interacting-DE theorist, source-action/spec specialist,
 numerical engineer, adversarial skeptic). Reproducible:
 `python -u tests/W144_desi_fitted_issuance_function.py` (28/28, exit 0). Exploration

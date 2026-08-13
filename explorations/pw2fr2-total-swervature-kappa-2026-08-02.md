@@ -2,8 +2,7 @@
 title: PW2F-R2 action-derived eddy candidate and universal-kappa discriminator
 date: 2026-08-02
 status: partial construction pass after hostile repair
-lane: Eric-guided active-native construction; Curt remains a formal comparator
-run: RUN-20260803-020123-gu-formalization-pw2fr2-swervature-kappa
+run: historical-investigation
 grade: >-
   PW2F-R2A PARTIAL CONSTRUCTION PASS. The pinned one-half/one-third first
   action emits a nonzero directional Euler-covector remainder on the exact

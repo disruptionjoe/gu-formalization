@@ -5,7 +5,7 @@ doc_type: roadmap
 created: 2026-06-30
 updated_at: "2026-06-30"
 method: "57-agent adversarial workflow: 28 lanes each triaged (read real proof-state, discount theater/RESOLVED-labels/source-action-gated work) then adversarially verified against the repo's own verdict-inflation AND verdict-deflation (UNDISMISSED-CANDIDATE) lenses, then calibrated to one absolute 0-5 scale."
-scope: "9 under-explored persona pathways (E,G,I,J,K,L,M,N,H) + 6 source-action-independent movable lanes (MOVE-1..6) + the 13 objection-register items (OBJ-*). Overlaps/duplicates flagged in Clusters."
+scope: "9 under-explored perspective pathways (E,G,I,J,K,L,M,N,H) + 6 source-action-independent movable lanes (MOVE-1..6) + the 13 objection-register items (OBJ-*). Overlaps/duplicates flagged in Clusters."
 ---
 
 # One-time triage pass (2026-06-30)
@@ -34,7 +34,7 @@ Scores were re-normalized to one absolute rubric:
 | # | id | N | P | Pr | comp | src | one-line |
 |---|----|---|---|----|------|-----|----------|
 | 1 | MOVE-3 Willmore-Schwarzschild | 2 | 2 | 3 | 7 | N | Verifier found the "no gimmel-Riemann" blocker is FALSE (it's computed in-repo) and BOTH canon notes wrong (O(M) mean curvature vanishes by harmonicity); one scoped variation of the assumed ∫‖II‖² action falsifies-or-clears solar-system compat. |
-| 2 | PERSONA-E Nielsen-Ninomiya protocol | 3 | 2 | 2 | 7 | N | Set's only novelty-3; NN doubling recast as a CALM/CAP coordination-free impossibility; one falsifiable CALM-monotonicity check on the Ginsparg-Wilson axial-charge query, fully GU-independent, specialist-gated. |
+| 2 | PERSPECTIVE-E Nielsen-Ninomiya protocol | 3 | 2 | 2 | 7 | N | Set's only novelty-3; NN doubling recast as a CALM/CAP coordination-free impossibility; one falsifiable CALM-monotonicity check on the Ginsparg-Wilson axial-charge query, fully GU-independent, specialist-gated. |
 | 3 | MOVE-5 Seiberg-Witten source action | 2 | 2 | 2 | 6 | N | Built-and-measured; durable output is a GU-independent no-go (Krein-isometry moment maps are chirally vectorlike ⇒ SW-class action can't make a chiral count); chiral-import falsification already running next door and confirming. |
 | 4 | OBJ-NGUYEN shiab/§3.1 | 2 | 2 | 2 | 6 | N | Real rep-theory kernel (shiab exists, Hom-dim ≥8, checked 3 ways); cheap one-pass fetch of the absent Nguyen PDF de-risks the whole lane; must scrub retracted "dissolves/pincer/FULLY CLOSED" framing. |
 | 5 | MOVE-1 I₁₆ + Sp(64) octic | 1 | 2 | 2 | 5 | N | Implemented and cross-checked; one-pass Sp(1)-vs-Sp(64) recheck the repo's own commutant note predicts will flip the non-factorizability headline to an artifact — decision-relevant either way. |
@@ -47,18 +47,18 @@ Scores were re-normalized to one absolute rubric:
 | # | id | N | P | Pr | comp | src | one-line |
 |---|----|---|---|----|------|-----|----------|
 | 9 | OBJ-GEN generation count | 2 | 3 | 3 | 8 | Y | Holds the set's strongest publishable object (2-primary blindness + prime-sieve firewall, near-drafted, GU-independent) but its positive gate OQ-RK1 is genuinely blocked on the unbuilt source-derived RS index operator. |
-| 10 | PERSONA-G QEC/MTC | 2 | 2 | 3 | 7 | N | Substrate reframe; no bounded generalist artifact, needs a QEC+MTC+chirality specialist; park on collaborator wake trigger. |
-| 11 | PERSONA-L Cartan/twistor/G₂ | 2 | 2 | 2 | 6 | N | Anti-numerology guardrail complete; a done negative-consolidation referee tool, no live positive theorem; wake on a parabolic-geometry specialist. |
+| 10 | PERSPECTIVE-G QEC/MTC | 2 | 2 | 3 | 7 | N | Substrate reframe; no bounded generalist artifact, needs a QEC+MTC+chirality specialist; park on collaborator wake trigger. |
+| 11 | PERSPECTIVE-L Cartan/twistor/G₂ | 2 | 2 | 2 | 6 | N | Anti-numerology guardrail complete; a done negative-consolidation referee tool, no live positive theorem; wake on a parabolic-geometry specialist. |
 | 12 | OBJ-VZ Velo-Zwanziger | 2 | 2 | 2 | 6 | Y | Reconstruction-grade, symbol-level, source-conditional defensive result; true cheap next step is promoting one canonical typed D_GU definition (F_ξ vs zero-order Φ_F). |
 | 13 | OBJ-DG Distler-Garibaldi | 2 | 2 | 2 | 6 | N | Correct, cheap, cleanly severed from the OPEN gen count, ~90% written — but ground-clearing only; discount the "crown jewel" framing. |
-| 14 | PERSONA-K Wolfram/rulial | 2 | 1 | 3 | 6 | N | Profundity raised 2→3 (it is the flagged branchial escape from the uniform BvN wall, not subsumed by it); still mechanism-free, specialist-gated, no falsifiable first artifact. |
-| 15 | PERSONA-M stochastic parity | 1 | 2 | 2 | 5 | N | Honestly resolved "analogy only" (zero derived parity); cheap GFF even-d Bochner closure exists (so not KILL) but it's a symmetry restatement; live II₁ upside tracked elsewhere. |
+| 14 | PERSPECTIVE-K Wolfram/rulial | 2 | 1 | 3 | 6 | N | Profundity raised 2→3 (it is the flagged branchial escape from the uniform BvN wall, not subsumed by it); still mechanism-free, specialist-gated, no falsifiable first artifact. |
+| 15 | PERSPECTIVE-M stochastic parity | 1 | 2 | 2 | 5 | N | Honestly resolved "analogy only" (zero derived parity); cheap GFF even-d Bochner closure exists (so not KILL) but it's a symmetry restatement; live II₁ upside tracked elsewhere. |
 | 16 | OBJ-FALSIFY | 1 | 2 | 2 | 5 | Y | Census complete and honestly negative (no surviving concrete prediction); no independent next artifact runnable now. |
-| 17 | PERSONA-I RG/universality | 2 | 1 | 2 | 5 | N | No candidate fixed point; live undismissed objection (chirality RG-irrelevant without protection); one-pass survey confirms folklore. |
-| 18 | PERSONA-N decidability | 2 | 1 | 2 | 5 | N | Toy never built; self-flagged non-theorem synthesis; park until a precise chirality-like toy predicate is named. |
-| 19 | OBJ-HETSUB | 2 | 1 | 2 | 5 | N | Rollup DUPLICATE of PERSONA-K/M/N/I; only RG retains a live specialist-heavy falsification leaning to confirm collapse. |
-| 20 | PERSONA-J tmf/motivic | 1 | 1 | 2 | 4 | Y | Genuine exact-arithmetic screen returns honest GATED/negative (tmf = π₃ˢ at generation degree, co-varying data is free-part); no source-action-free artifact remains. |
-| 21 | PERSONA-H Sorkin causal-set | 1 | 1 | 2 | 4 | N | Flipped PURSUE→PARK: a one-paragraph argument (spatial reflection is an order-preserving Lorentzian isometry ⇒ mirror sprinklings order-isomorphic) closes it; the proposed enumeration was confirmation theater. |
+| 17 | PERSPECTIVE-I RG/universality | 2 | 1 | 2 | 5 | N | No candidate fixed point; live undismissed objection (chirality RG-irrelevant without protection); one-pass survey confirms folklore. |
+| 18 | PERSPECTIVE-N decidability | 2 | 1 | 2 | 5 | N | Toy never built; self-flagged non-theorem synthesis; park until a precise chirality-like toy predicate is named. |
+| 19 | OBJ-HETSUB | 2 | 1 | 2 | 5 | N | Rollup DUPLICATE of PERSPECTIVE-K/M/N/I; only RG retains a live specialist-heavy falsification leaning to confirm collapse. |
+| 20 | PERSPECTIVE-J tmf/motivic | 1 | 1 | 2 | 4 | Y | Genuine exact-arithmetic screen returns honest GATED/negative (tmf = π₃ˢ at generation degree, co-varying data is free-part); no source-action-free artifact remains. |
+| 21 | PERSPECTIVE-H Sorkin causal-set | 1 | 1 | 2 | 4 | N | Flipped PURSUE→PARK: a one-paragraph argument (spatial reflection is an order-preserving Lorentzian isometry ⇒ mirror sprinklings order-isomorphic) closes it; the proposed enumeration was confirmation theater. |
 | 22 | OBJ-FHOBS Freed-Hopkins | 1 | 1 | 2 | 4 | Y | K3 moduli topology done and unconditional (noncontractible), but the GU verdict collapses to gravitational-background relabeling only IF the unverified IC4 reduction holds; park on IC4. |
 | 23 | OBJ-CONNES | 1 | 1 | 2 | 4 | N | Reframed to load-bearing only for observer-facing SM-shadow claims; one live computation (FC-EPSILON) preserved elsewhere; only an un-executed canon wording patch remains. |
 | 24 | OBJ-DESI w_a sign | 2 | 1 | 1 | 4 | Y | Flipped PURSUE→PARK; DUPLICATE physics object of MOVE-2; sign (w_a>0 vs DESI) already analytically robust, numerics only refine magnitude; publishability gated on the source action + OQ2 mass. |
@@ -74,12 +74,12 @@ Scores were re-normalized to one absolute rubric:
 
 ## 2. Clusters and explicit duplicates
 
-- **A. Source-action-gated backlog (the one real bottleneck).** Nine lanes route their decisive gate through the single unbuilt RS/IG source action: OBJ-GEN, MOVE-6 (partial), OBJ-VZ, OBJ-FALSIFY, PERSONA-J, OBJ-FHOBS, OBJ-DESI, OBJ-TAF, OBJ-CMPR (upgrade only). Build it and ~a third of the backlog moves at once. Conversely MOVE-5 is the built-but-failed attempt at exactly this object, and its no-go covers the entire Krein-isometric class *including* the true one — the bottleneck may be provably unsatisfiable in the obvious class.
-- **B. Heterodox-substrate family — contains a duplicate.** OBJ-HETSUB is a rollup that re-scores PERSONA-K + M + N + I. Treat it as an index, not a fifth lane. PERSONA-G and PERSONA-J are also substrate-reframings outside that four. Shared verdict: no substrate derives SM chirality; each inserts parity by tuning or is specialist-gated with no bridge.
+- **A. Source-action-gated backlog (the one real bottleneck).** Nine lanes route their decisive gate through the single unbuilt RS/IG source action: OBJ-GEN, MOVE-6 (partial), OBJ-VZ, OBJ-FALSIFY, PERSPECTIVE-J, OBJ-FHOBS, OBJ-DESI, OBJ-TAF, OBJ-CMPR (upgrade only). Build it and ~a third of the backlog moves at once. Conversely MOVE-5 is the built-but-failed attempt at exactly this object, and its no-go covers the entire Krein-isometric class *including* the true one — the bottleneck may be provably unsatisfiable in the obvious class.
+- **B. Heterodox-substrate family — contains a duplicate.** OBJ-HETSUB is a rollup that re-scores PERSPECTIVE-K + M + N + I. Treat it as an index, not a fifth lane. PERSPECTIVE-G and PERSPECTIVE-J are also substrate-reframings outside that four. Shared verdict: no substrate derives SM chirality; each inserts parity by tuning or is specialist-gated with no bridge.
 - **C. Dark energy — same object, split verdict.** MOVE-2 and OBJ-DESI are the same physics object (theta-field FLRW EOS sign vs DESI), scored PURSUE and PARK. Reconcile: do the cheap canon fix + robustness box once (MOVE-2), then stop (OBJ-DESI).
 - **D. Crown-jewel write-ups.** OBJ-DG (PARK) and OBJ-NGUYEN (PURSUE). Both defensive standalone clarifications; OBJ-NGUYEN has a real rep-theory kernel + cheap lane-wide de-risking (fetch the absent PDF), OBJ-DG is ground-clearing 90% written with no positive result to attach. Both origin-tagged "crown jewel to protect" — exactly the GU-favorable inflation to discount.
-- **E. GU-independent publishable no-go core (the "keep what survives" cluster).** OBJ-GEN's firewall/2-primary lemma (strongest, near-drafted), MOVE-5's Krein no-go (most referee-survivable), PERSONA-E's CALM/GW dictionary (only novelty-3). This is where the durable, GU-*independent* output lives; none proves GU, all survive the source-action blocker.
-- **F. Built-and-measured computational lanes (highest realness).** MOVE-1, MOVE-2, MOVE-3, MOVE-5 (and PERSONA-J's tmf screen) have committed, cross-checked numerics. Every PURSUE-now draws from this cluster.
+- **E. GU-independent publishable no-go core (the "keep what survives" cluster).** OBJ-GEN's firewall/2-primary lemma (strongest, near-drafted), MOVE-5's Krein no-go (most referee-survivable), PERSPECTIVE-E's CALM/GW dictionary (only novelty-3). This is where the durable, GU-*independent* output lives; none proves GU, all survive the source-action blocker.
+- **F. Built-and-measured computational lanes (highest realness).** MOVE-1, MOVE-2, MOVE-3, MOVE-5 (and PERSPECTIVE-J's tmf screen) have committed, cross-checked numerics. Every PURSUE-now draws from this cluster.
 - **G. Meta/process lanes.** OBJ-FALSIFY (done), OBJ-DEFLATE (self-audit), OBJ-CONVERGE (KILL). Near-zero external value; OBJ-CONVERGE's own finding (loop is a runaway no-op) undercuts confidence in the machinery that produced these verdicts.
 
 ## 3. Top 5 PURSUE-now (realness per effort)
@@ -100,11 +100,11 @@ Honorable mention: MOVE-4 is cheapest of all but lowest gain — do it opportuni
 
 ## 5. Completeness critic
 
-- **4 verifier flips (highest signal):** PERSONA-H PURSUE→PARK; MOVE-3 PARK→PURSUE (triage was factually wrong about repo state — a live lead was being suppressed); OBJ-TAF PARK→KILL; OBJ-DESI PURSUE→PARK.
+- **4 verifier flips (highest signal):** PERSPECTIVE-H PURSUE→PARK; MOVE-3 PARK→PURSUE (triage was factually wrong about repo state — a live lead was being suppressed); OBJ-TAF PARK→KILL; OBJ-DESI PURSUE→PARK.
 - **The strongest publishable artifact has no home lane.** OBJ-GEN's genuinely novel + near-drafted content (2-primary blindness lemma, J-homomorphism/Adams-e mechanism, prime sieve) belongs in a dedicated "GU-independent no-go note" lane consolidating it with MOVE-5's Krein lemma. That lane is not in this 28-lane set — create it.
 - **The source action itself is not a scored lane.** It gates ~9 lanes yet appears only as MOVE-5 (the failed attempt). Its status/ownership/feasibility deserves to be a tracked, top-priority item — especially since MOVE-5's no-go suggests the obvious construction class is provably chirally-vectorlike.
 - **Scale compression is real.** No lane exceeds 3 on any axis; the program's absolute ceiling as triaged is arXiv notes and no-go clarifications, not a positive derivation of chirality/generations/dark energy without the source action.
-- **Double-counting.** OBJ-HETSUB re-scores PERSONA-K/M/N/I; MOVE-2 = OBJ-DESI; PERSONA-J appears in two clusters. Aggregate lane counts overstate distinct content by ~5.
+- **Double-counting.** OBJ-HETSUB re-scores PERSPECTIVE-K/M/N/I; MOVE-2 = OBJ-DESI; PERSPECTIVE-J appears in two clusters. Aggregate lane counts overstate distinct content by ~5.
 - **Confidence caveat.** OBJ-CONVERGE establishes the generating loop is thrashing and OBJ-DEFLATE spot-checked only ~3 downgrades; treat register-level calibration as provisional and re-run the false-negative audit on a larger sample before any close-by-aggregate decision.
 
-**Net honest read:** the program's durable value is a small cluster of GU-independent no-go / dictionary notes (OBJ-GEN firewall, MOVE-5 Krein, PERSONA-E CALM) plus a handful of cheap decision-relevant computations (MOVE-1, MOVE-3). Everything else is exhausted, parked on the source-action bottleneck, or specialist-gated with no falsifiable first artifact.
+**Net honest read:** the program's durable value is a small cluster of GU-independent no-go / dictionary notes (OBJ-GEN firewall, MOVE-5 Krein, PERSPECTIVE-E CALM) plus a handful of cheap decision-relevant computations (MOVE-1, MOVE-3). Everything else is exhausted, parked on the source-action bottleneck, or specialist-gated with no falsifiable first artifact.

@@ -2,8 +2,7 @@
 title: PW2F-R2B2B2B — active local source-grammar tangent, full residual carrier, and leading-symbol triage
 date: 2026-08-03
 status: ACTIVE_LOCAL_METRIC_TANGENT_AND_FULL_RESIDUAL_PORT_PASS_LC_J3_ZERO_I1_C5_AND_NORMAL_I2B_C6_J3J2_C5_ZERO_OFFSHELL_I2B_C5_OPEN
-lane: Eric-guided Lane 1; source, active reconstruction, and Curt comparator kept separate
-run: RUN-20260803-083101-gu-formalization-pw2fr2b2b2b-source-leading-symbols
+run: historical-investigation
 ---
 
 # Result

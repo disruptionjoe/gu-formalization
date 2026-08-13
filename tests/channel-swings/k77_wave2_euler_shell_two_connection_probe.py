@@ -52,7 +52,7 @@ print("A. SOURCE COLLISION AND LAYER 0")
 toe = read("lab/sources/transcripts/toe-weinstein-gu-40-years.md")
 portal = read("lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md")
 rendered = read(
-    "explorations/hourly-cycles/"
+    "explorations/research-cycles/"
     "hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md"
 )
 action_arch = read(
@@ -65,7 +65,7 @@ primalizer_prior = read(
 pair_prior = read(
     "explorations/k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md"
 )
-context = read("lab/process/agent-context-pack.md")
+context = read("lab/process/CURRENT-RESEARCH-CONTEXT.md")
 
 check("source", "TOE says an on-shell complex is birthed but leaves the mechanism unreleased",
       "on shell where the equations get satisfied, a complex is birthed" in toe

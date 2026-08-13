@@ -10,7 +10,6 @@ panel_refs:
   - "lab/process/improvement-register-2026-08-03.md (M-M1, rep-lens item R7/RT-O1)"
 title: "M-M1 signature-independent scalar-vanishing lemma: for ALL signatures (p,q) with p+q = 2 mod 4, dim Hom(S+ (x) S+, Lambda^0) = 0 — two-line proof (omega^T = -C omega C^{-1} at n=14; equivalently -w_0 swaps the D_m spin nodes for m odd, so (S+)* = S-). Corollary: NO signature choice at n=14 supplies a same-chirality scalar (Majorana-mass) channel; MOVE-4's fact A is immune to the (9,5)/(7,7) fork."
 grade: "EXACT / structural — complexified representation theory, no numerics load-bearing; generalizes (does not replace) the standing case-sweep certificates; Lean-able per the register row"
-claim_status_change: none
 canon_verdict_change: none
 depends_on:
   - canon/two-arena-rep-theory-core-RESULTS.md
@@ -136,7 +135,7 @@ n=14: omega^T = -C omega C^{-1}; ||P+^T C P+|| = ||P+^T C omega P+|| =
 
 The zeros are exact floating-point zeros (the JW matrices have entries in
 {0, ±1, ±i} and the products never mix into the same-chirality blocks). The
-committed regressions above are the durable evidence; this run is a
+committed regressions above are the durable evidence; this investigation is a
 consistency check of the lemma's signs.
 
 ## Layer-0 fence / scope

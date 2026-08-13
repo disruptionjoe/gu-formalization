@@ -4,9 +4,7 @@ doc_type: phase1_kill_and_reframe_pass
 status: exploration tier; K1 KILLED per its pre-declared condition; reframe pass executed per the tree's Section-4 exhaustion clause (probe exit 0)
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (Phase 1 close: K1 + mandatory reframe pass)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 target: "The two outstanding obligations of explorations/torsor-k-sequence-2026-07-20.md (commit 6a285c0) before any program-level conclusion is permitted: (1) formal execution of Node 4 (K1, the record-current conservation transport) against its OWN pre-declared kill/survive conditions; (2) the pre-committed REFRAME PASS of the Phase-0 tree's Section 4 exhaustion clause (kill-gets-a-defense-attorney), with the kill sequence's own defense input -- commutant-DETECTING kernels exist in the algebra -- given a real test, not a gesture."
 probe: tests/channel-swings/k1_reframe_probe.py
 related:

@@ -4,8 +4,6 @@ status: process
 doc_type: toolchain-inventory
 created: 2026-08-02
 updated: 2026-08-02
-claim_status_change: none
-canon_change: none
 ---
 
 # Computational toolchain

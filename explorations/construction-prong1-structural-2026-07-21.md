@@ -3,12 +3,9 @@ title: "Construction swing, PRONG 1 (STRUCTURAL/GEOMETRIC): POSIT S = (P1) three
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-mode: CONSTRUCTION/posit-declared
 prereg: explorations/prereg-construction-swing-posit-sigma-cycle-2026-07-21.md
 outcome: POSIT-PRODUCTIVE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 probe: tests/channel-swings/construction_prong1_structural_probe.py
 probe_exit: 0

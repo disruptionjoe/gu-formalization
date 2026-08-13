@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration
 label: W173
-status: exploration (W173 / BRST-COHOMOLOGY of the mirror sector; 5-persona inline team; one deterministic test 27/27 exit 0; the cross-repo bridge computation of the bit TaF flagged in T507-T509)
+status: exploration (W173 / BRST-COHOMOLOGY of the mirror sector; 5-perspective inline team; one deterministic test 27/27 exit 0; the cross-repo bridge computation of the bit TaF flagged in T507-T509)
 created: 2026-07-14
 branch: "Team W173 (BRST-cohomology): is GU's graded-ghost / mirror sector BRST-EXACT (gauge redundancy -> NOT-operative -> engine) or BRST-COHOMOLOGY-NONTRIVIAL (physical record -> Krein grading OPERATIVE)?"
 title: "W173 VERDICT: QUANTIZATION-DEPENDENT-<Y14 connection-curvature 2-form / secondary constraint C2>. In the FREE BV bicomplex GU actually determines (built, nilpotent s^2=0 on Cl(9,5)=M(64,H)), the mirror is BRST-cohomology-NONTRIVIAL: it lies ON the constraint surface ker(Gamma) so it is NOT Koszul-Tate-exact, and GU's own gauge orbit im(d_A) is TRANSVERSE to ker(Gamma) (machine fact, RS-symbol norms 73.48 / 343.73 != 0) so within ker(Gamma) it is NOT ghost-exact -> closed-not-exact -> a RECORD -> Krein grading OPERATIVE. This REVERSES TaF's redundancy default at the level GU actually computes. The ONLY object that could demote the mirror to BRST-EXACT (redundancy) is a differential pairing (generation,mirror) into a BV doublet/quartet -- exactly the BRST-invariance of the dynamics M_D (secondary constraint C2 = 155.36, Gamma-independent) which does NOT close without the UNBUILT Y14 connection-curvature 2-form that selects a distinguished null plane / spectral section. That spectral section is the SAME external datum the C-operator provides for W132 retention unitarity: one geometric object governs both records-vs-redundancy and the unitarity price. GU's native cores cannot supply it (big-swing R3: PT-unbroken yet spectrally sign-blind; C non-unique at the 3-generation degeneracy), so the redundancy demotion requires importing the firewall/boundary datum -- which is the program's standing external-source thesis. Effect on bar(b): NOT cleared and NOT simply re-posed -- RELOCATED onto the Y14-curvature / C-operator question, jointly with the generation-count boundary datum."
@@ -42,7 +42,7 @@ redundancy") but recorded the decision as **fixed by the constraint / gauge stru
 of the dynamics -- a named piece GU owns and can compute**, not by the full source
 action. This wave computes GU's side. It makes no cross-repo identity claim; it computes
 what TaF explicitly flagged as GU-owned (the tri-repo division of labor puts boundary
-content and its exact mathematics on the GU side). Five personas ran inline;
+content and its exact mathematics on the GU side). Five perspectives ran inline;
 deterministic test `tests/W173_brst_cohomology_mirror_sector.py`, 27/27, exit 0.
 
 ## 0. The one object, and the three constructions of "the mirror sector"
@@ -58,7 +58,7 @@ clears) or gauge REDUNDANCY (tachyon physical / engine, `bar(b)` re-posed)?
 
 The verdict is stated per construction; that fork IS the result.
 
-## 1. Persona 1 -- BRST/cohomology specialist: the free-complex computation
+## 1. Perspective 1 -- BRST/cohomology specialist: the free-complex computation
 
 **The BRST operator GU has.** `bv-bicomplex-and-c2-obstruction-2026-06-27.md` constructs,
 on the explicit `Cl(9,5) = M(64,H)` rep, the full BV differential `s = s_KT + s_long`:
@@ -108,7 +108,7 @@ OFF-SHELL complement of the pair that KT resolves -- NOT the on-shell mirror. Th
 what makes the free complex close (`s^2 = 0`) WHILE leaving the on-shell mirror in
 cohomology. The two facts are not in tension: KT kills the escape, not the mirror.
 
-## 2. Persona 2 -- Krein/PT specialist: Krein-retention vs BRST-quotient, the ghost-parity Z2 (reusing W132)
+## 2. Perspective 2 -- Krein/PT specialist: Krein-retention vs BRST-quotient, the ghost-parity Z2 (reusing W132)
 
 The `records vs redundancy` fork is exactly the **Kugo-Ojima quartet** question. In a
 standard first-class gauge theory the ghost/antighost form a BRST **doublet**; with a
@@ -138,7 +138,7 @@ C-operator. So even the RECORD verdict carries W132's price: the record is only 
 consistent positive-probability out-state under the non-local, degeneracy-non-unique
 C-metric. Records-vs-redundancy and the unitarity price are the same object seen twice.
 
-## 3. Persona 3 -- GU-structure specialist: does the (9,5) q=5 / soldering FORCE retention or quotient?
+## 3. Perspective 3 -- GU-structure specialist: does the (9,5) q=5 / soldering FORCE retention or quotient?
 
 The task's subtlety (3): does a GU-structural datum pick the quantization?
 
@@ -171,7 +171,7 @@ the spectral degeneracies** that ARE the three-generation regime. So GU's own dy
 does not force the pairing; the demotion to redundancy requires importing the Y14 /
 boundary datum -- which is the program's standing external-source thesis.
 
-## 4. Persona 4 -- symbolic engineer: the test, controls, exit code
+## 4. Perspective 4 -- symbolic engineer: the test, controls, exit code
 
 `tests/W173_brst_cohomology_mirror_sector.py`, 27/27, exit 0. Positive controls in BOTH
 directions, per mandate:
@@ -195,7 +195,7 @@ whose full computation lives in the cited `rs_bicomplex_spin95_connection_2form.
 `rs_gu_phys_brst_specification.py`. No number was reverse-engineered to a target; `q`
 (the ghost count) is left free exactly as the BRST-spec leaves it.
 
-## 5. Persona 5 -- adversarial skeptic: steelman BRST-EXACT / redundancy (TaF's default)
+## 5. Perspective 5 -- adversarial skeptic: steelman BRST-EXACT / redundancy (TaF's default)
 
 **The steelman, at full strength.** (a) A negative-norm state is, by textbook default
 (Gupta-Bleuler, Kugo-Ojima), a GAUGE ARTIFACT; GU's mirror is negative-norm, so

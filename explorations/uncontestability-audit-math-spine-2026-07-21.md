@@ -1,12 +1,10 @@
 ---
-title: "UNCONTESTABILITY audit of the load-bearing math spine — hostile-but-fair (honest expert primed to dismiss unaffiliated work). Inline 3-persona panel (proof-checker / adversarial math-physicist / reproducibility auditor). Kernel-checked what was checkable: ResidualSelection.lean kernel-checks EXIT 0 with NO axioms (8 theorems), reproduce_all.py 31/31 EXIT 0. VERDICT: the spine is honestly graded to a rare degree — often OVER-hedged in the deep files — so almost nothing is graded above its support at the file level; it is NOT yet 'uncontestable' to a primed skeptic, but the contestable joints are FRAMING + VERIFICATION-TIER, not mathematics. The 5 must-fix items are (1) internal-tier ceiling / zero external replication, (2) README charter compresses past its own hedges on three words ('result', 'forces', 'complete modulo'), (3) the one load-bearing falsifiable (DE sign) is conditional + non-distinctive, (4) the σ=w₁ cluster is a 3-link PROPOSAL chain stated as 'exactly two data' in the ledger line, (5) the 'machine-verified' index theorem is Lean-checked only modulo numpy-verified premises. No planted-toy overclaim survives in the current spine (the one prior instance was self-caught and corrected)."
+title: "UNCONTESTABILITY audit of the load-bearing math spine — hostile-but-fair (honest expert primed to dismiss unaffiliated work). Inline 3-perspective panel (proof-checker / adversarial math-physicist / reproducibility auditor). Kernel-checked what was checkable: ResidualSelection.lean kernel-checks EXIT 0 with NO axioms (8 theorems), reproduce_all.py 31/31 EXIT 0. VERDICT: the spine is honestly graded to a rare degree — often OVER-hedged in the deep files — so almost nothing is graded above its support at the file level; it is NOT yet 'uncontestable' to a primed skeptic, but the contestable joints are FRAMING + VERIFICATION-TIER, not mathematics. The 5 must-fix items are (1) internal-tier ceiling / zero external replication, (2) README charter compresses past its own hedges on three words ('result', 'forces', 'complete modulo'), (3) the one load-bearing falsifiable (DE sign) is conditional + non-distinctive, (4) the σ=w₁ cluster is a 3-link PROPOSAL chain stated as 'exactly two data' in the ledger line, (5) the 'machine-verified' index theorem is Lean-checked only modulo numpy-verified premises. No planted-toy overclaim survives in the current spine (the one prior instance was self-caught and corrected)."
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
-directed_by: "Joe direct chat, 2026-07-21 (hostile-but-fair uncontestability audit of the load-bearing math spine; ONE synchronous pass; inline 3-persona panel; read-only)"
+directed_by: "Joe direct chat, 2026-07-21 (hostile-but-fair uncontestability audit of the load-bearing math spine; ONE synchronous pass; inline 3-perspective panel; read-only)"
 kernel_checks_run:
   - "lake env lean Lean/GUFormalization/ResidualSelection.lean — EXIT 0 (clean elaboration)"
   - "lake env lean Lean/GUFormalization/ResidualSelectionAxioms.lean — EXIT 0; all 8 theorems 'do not depend on any axioms'"
@@ -43,8 +41,8 @@ on adjectives, reads the strongest sentence first, and treats every compression 
 attempted overclaim until shown otherwise. The goal is to find every joint such a reader
 contests, ranked by damage, each with a concrete hardening fix.
 
-**Method.** ONE synchronous pass. Three personas reason INLINE in this one worker (never
-one agent per persona — Joe's standing rule), then synthesize. Kernel-checked what was
+**Method.** ONE synchronous pass. Three perspectives reason INLINE in this one worker (never
+one agent per perspective — Joe's standing rule), then synthesize. Kernel-checked what was
 checkable (results in frontmatter; all three EXIT 0). Read-only: no other file edited, no
 commit, no push.
 
@@ -72,7 +70,7 @@ deep-file hedges. Fixing (b)–(c) is editing; fixing (a) requires an outside hu
 
 ## The inline panel (independent reasoning, then synthesis)
 
-### Persona (i) — Skeptical referee / proof-checker
+### Perspective (i) — Skeptical referee / proof-checker
 
 *Does every THEOREM-grade claim have a kernel-checked proof or a fully rigorous argument?
 Is anything graded above its real support?*
@@ -116,7 +114,7 @@ Is anything graded above its real support?*
   The defects are (1) VERIFICATION.md flagship (c) staleness and (2) the "machine-verified"
   adjective on Theorem 2 gliding over the numpy premises.
 
-### Persona (ii) — Adversarial mathematical physicist
+### Perspective (ii) — Adversarial mathematical physicist
 
 *Are the computational "tests" genuine or toys? Do the claimed structures hold at the
 grade stated (σ=w₁, the reflection-anomaly ID, Pin-bordism cardinality, no-go
@@ -183,7 +181,7 @@ class-relativity)? Is any "forced" really only "fits"?*
   three deep-file grades ("conditional prediction" → "forces", "reconstruction cannot close"
   → "result", "hosts conditionally, gated" → "complete modulo").
 
-### Persona (iii) — Reproducibility / provenance auditor
+### Perspective (iii) — Reproducibility / provenance auditor
 
 *Can a stranger reproduce every load-bearing claim from the repo alone? Is source-to-shadow
 provenance clean? Are assumptions, rollback conditions, and no-go assumption-audits

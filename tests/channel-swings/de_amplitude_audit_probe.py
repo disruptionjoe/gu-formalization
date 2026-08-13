@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""DE amplitude audit probe -- Lane 2 DE-AMP-DIAGNOSTIC executed per the portfolio
+"""DE amplitude audit probe -- prediction research DE-AMP-DIAGNOSTIC executed per the portfolio
 spec, everything load-bearing RECOMPUTED FROM SCRATCH (fresh solver, fresh
 calibration, fresh likelihood assembly; no cosmology imported from the H44/H46
 modules -- they are imported ONLY to verify that this probe's embedded data
 arrays are bitwise identical to the H46B-verified official DESI DR2 inputs).
 
-CHANNEL: Lane 2 / DE-AMP-DIAGNOSTIC ("Audit the CMB-calibrated dark-energy
+CHANNEL: prediction research / DE-AMP-DIAGNOSTIC ("Audit the CMB-calibrated dark-energy
          amplitude"; next_swing: re-solve theta_star with GU's own full
          D_M(z_star) including the high-redshift tail, then return a blind
          official-H46B likelihood adjudication).
@@ -315,7 +315,7 @@ def chi2_marg(base):
 def main():
     global DESI_MEAN
     log("=" * 78)
-    log("DE AMPLITUDE AUDIT PROBE -- Lane 2 DE-AMP-DIAGNOSTIC, recomputed from scratch")
+    log("DE AMPLITUDE AUDIT PROBE -- prediction research DE-AMP-DIAGNOSTIC, recomputed from scratch")
     log("=" * 78)
 
     # -------------------------------------------------------------------------

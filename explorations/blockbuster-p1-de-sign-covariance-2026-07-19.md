@@ -18,11 +18,9 @@ inputs:
   - canon/theta-field-flrw-dark-energy-eos.md
   - explorations/assembly-archaeology-recovered-parameters-2026-07-19.md
   - explorations/channel-swing-CH-REC-2026-07-19.md
-  - lab/process/research-portfolio.json
+  - lab/process/RESEARCH-AGENDA.json
 test: tests/channel-swings/bb_p1_sign_covariance_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 packet_status: "PREDICTION PACKET 1 FROZEN (internal, conditional; Section 6). Nothing external."
 ---
 
@@ -364,7 +362,7 @@ nothing external, no promotion to any public surface.*
   is already excluded band-wide at `dchi^2 >= +33.5` (W129), i.e. PP1's live
   scope is the surviving LCDM-mimic band. F1 status: tightest 2-sigma edge
   `-2.39` (DESY5) vs kill line `-3.5`, live margin `+1.11` (W226). No new
-  data are read; the Lane 2 DE-AMP audit remains the data-facing leg and is
+  data are read; the prediction research DE-AMP audit remains the data-facing leg and is
   not re-run here.
 
 **Ledger notes (proposals for owners; not applied).** CH-COSMO A3 (sign
@@ -373,7 +371,7 @@ via SRC-COH-1" instead of "enters only if derived." CH-COSMO K4 (sign-link
 kill) is now OPERATIONAL as KILL-P1-A/B. PRED-CANDIDATE-PACKETS packet-1
 draft requirement (predeclare observable, convention, conditions, competitor,
 kill threshold before likelihood work) is MET by this section. The
-sign-of-any-detected-deviation flag for the next Lane 2 DE-AMP run doubles as
+sign-of-any-detected-deviation flag for the next prediction research DE-AMP run doubles as
 the first live read of PP1.
 
 ## 7. Publishable grade and honest odds
@@ -443,7 +441,7 @@ links; the external Z/2 remains an external posit (Godel-independent) whose
 unique VIABLE value the construction pins — pinning viability is not deriving
 the posit. PREDICTION PACKET 1 is INTERNAL: it moves no claim status, no canon
 verdict, no scorecard row, no register, no public posture, and routes nothing
-externally; the Lane 2 DE-AMP audit remains the only data-facing leg and is
+externally; the prediction research DE-AMP audit remains the only data-facing leg and is
 untouched. Frozen rows are cited, never re-audited. The swept-redefinition
 boundary (no nonlocal, no higher-derivative, no quantum/measure) travels with
 the packet.

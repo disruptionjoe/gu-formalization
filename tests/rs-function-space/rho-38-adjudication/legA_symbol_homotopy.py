@@ -400,7 +400,7 @@ try:
           "text: 'n = 4: ind Q = -19 A-hat(M) = 19/8 sigma(M)' -- the PUBLISHED -38 on K3")
     print("  HS Prop 3.1(i) gate: PASS (ind Q = -19 A-hat = 19 sigma/8 at n = 4)")
 except (OSError, IOError):
-    blocked("HS cached text not found: Prop 3.1(i) gate not re-verified in this run "
+    blocked("HS cached text not found: Prop 3.1(i) gate not re-verified in this investigation "
             "(the internal -38 derivation above stands independently)")
     print("  HS gate: file missing -> BLOCKED note recorded")
 try:
@@ -414,7 +414,7 @@ try:
           "ellipticity assertion our A4 re-proves at the symbol level")
     print("  BM ellipticity gate: PASS ('formally self-adjoint first order elliptic')")
 except (OSError, IOError):
-    blocked("BM cached text not found: published-ellipticity gate not re-verified in this run "
+    blocked("BM cached text not found: published-ellipticity gate not re-verified in this investigation "
             "(the A4 symbol proof stands independently)")
     print("  BM gate: file missing -> BLOCKED note recorded")
 

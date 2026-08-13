@@ -5,9 +5,7 @@ doc_type: intake_note
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (Joe-supplied Grok block; TOE episode ILlhFKuu3NQ)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 intake_semantics: >
   PRIMARY-PROGRAM media (Weinstein on GU), not program-adjacent — this
   feeds the claim ledger, not the method surface. The Joe-supplied Grok
@@ -40,7 +38,7 @@ timestamps), then confront with the repo's adjudications:
 | "Generations are a geometric necessity" | Located, not forced: the class exists natively; nothing yet forces its physical reading (two named open identifications; one now three-quarters killed). |
 | "Resolves known embedding obstructions" | The anomaly story: the local obstruction stands ONLY on the imported chiral truncation (fork doc); global leg closed-trivial on balanced branches. Partially VINDICATED by today's work — but not by the mechanism the claim implies. |
 | "No ad-hoc Higgs / all forces unified" | Reconstruction state: shiab non-uniqueness (selector open), source action missing (B.1-B.5), scale ratio-only. UNRESOLVED, spec'd. |
-| "New predictions / testability" | Lane 2 record: 3 of 3 native prediction routes no-go; DE amplitude = import; the program's actual public predictions are OUR pre-registered packets (PP1-PP3), not manuscript-derived signatures. |
+| "New predictions / testability" | prediction research record: 3 of 3 native prediction routes no-go; DE amplitude = import; the program's actual public predictions are OUR pre-registered packets (PP1-PP3), not manuscript-derived signatures. |
 
 Mining pass (W-M1, queued): five-lens claim-mining with the table above
 as its target schema; every row needs the verbatim transcript quote +

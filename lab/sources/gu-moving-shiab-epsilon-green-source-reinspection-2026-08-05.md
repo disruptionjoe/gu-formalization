@@ -2,7 +2,6 @@
 title: "Source reinspection: moving Shiab, primitive epsilon variation and Green data"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CONFIRMS_DISPLAYED_MOVING_PHI_FAMILY_TILTED_B_T_AND_FIXED_EPSILON_TRANSLATION__SOURCE_CORRECTS_OVERBUNDLED_EPSILON_CHAIN__SOURCE_SILENT_ON_PRODUCT_SELECTOR_AND_GLOBAL_PHYSICAL_DOMAIN
 ---
 

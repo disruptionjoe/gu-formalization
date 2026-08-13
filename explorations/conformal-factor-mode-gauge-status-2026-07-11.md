@@ -27,7 +27,7 @@ degree of freedom, or a gauge/unphysical direction (the classic Gibbons-Hawking-
 Everything else on the shared residual is already in hand: W53 proved the spin-2 grading is PT-unbroken across
 the entire interacting regime; this is the last shadow.
 
-I ran the 5-persona team inline (specialist / referee / adversary / cross-checker / synthesizer), one context.
+I ran the 5-perspective team inline (specialist / referee / adversary / cross-checker / synthesizer), one context.
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), stated
 
@@ -39,7 +39,7 @@ Three load-bearing objects have rival constructions; none is defaulted.
 | **The conformal / spin-0 mode** | the `R^2`-induced spin-0 excitation of the fourth-order propagator (the "scalaron"), NOT the second-order Einstein-Hilbert conformal factor | The gauge/GHP argument attaches to the *second-order* conformal factor; the physical-DOF argument attaches to the *fourth-order* scalaron. Conflating them is the load-bearing trap. |
 | **The positivity object / `Delta`** | the PHYSICAL-subspace Krein modular operator `Delta = S^+ S` (H61a), whose PT-(un)brokenness = real-positive spectrum decides both North Stars | The question is whether the spin-0 mode enters this physical `Delta` or is projected out with the gauge modes. |
 
-## 1. Persona 1 -- QG / higher-derivative specialist: DOF/constraint analysis and the gauge determination
+## 1. Perspective 1 -- QG / higher-derivative specialist: DOF/constraint analysis and the gauge determination
 
 ### 1.1 What the spin-0 mode is, precisely, in GU
 
@@ -101,7 +101,7 @@ Einstein term `-R^X`, which **breaks** conformal invariance. So:
 > already chose the second. Hence the conformal mode is physical -- and this holds on BOTH fork sides (the
 > geometer's induced `|II|^2` and the physics Stelle truncation agree), so it is not a defaulting artifact.
 
-## 2. Persona 2 -- math-physics referee: is "physical" established, or asserted?
+## 2. Perspective 2 -- math-physics referee: is "physical" established, or asserted?
 
 - **Rigorous.** (i) DOF count: `R^2 != 0` => +1 propagating scalar is a textbook constraint-analysis result;
   GU's `f_0^2 != 0` is computed (W46). (ii) Weyl non-invariance of `R^2` + induced-EH is elementary and exact.
@@ -118,7 +118,7 @@ Einstein term `-R^X`, which **breaks** conformal invariance. So:
 - **Grade issued.** Gauge status: **NOT gauge -- rigorous** (two derivations + H49). Character (tachyon vs
   ghost): **PLAUSIBLE**. Vacuum resolution: **OPEN**.
 
-## 3. Persona 3 -- adversary (presses the verdict BOTH ways)
+## 3. Perspective 3 -- adversary (presses the verdict BOTH ways)
 
 **Against "physical" (i.e. for gauge):**
 1. *"It's the conformal factor; ordinary GR constrains it away."* -- Defeated by 1.2: that is the *second-order*
@@ -142,7 +142,7 @@ a negative-norm state. Tachyonic instabilities are standardly resolved by expand
 (Higgs/Coleman-Weinberg/tachyon-condensation), where `M_0^2 > 0` and the spectrum is real. So "physical" forces a
 *conditional*, not an automatic kill -- the residual moves to vacuum selection.
 
-## 4. Persona 4 -- cross-checker: second derivation + GHP/agravity literature
+## 4. Perspective 4 -- cross-checker: second derivation + GHP/agravity literature
 
 - **Independent DOF cross-check (Ostrogradsky/Stelle spectrum).** The fourth-order propagator
   `1/(p^2(p^2 - m_2^2))` (spin-2) plus the `R^2`-induced `1/(p^2 - M_0^2)` (spin-0) each carry a genuine pole.
@@ -159,7 +159,7 @@ a negative-norm state. Tachyonic instabilities are standardly resolved by expand
   factor). The contested part in the literature is causality/locality of the *ghost*, not the reality of the
   scalaron. **This confirms: the "it's just the gauge conformal-factor problem" defense is a category error.**
 
-## 5. Persona 5 -- synthesizer: verdict, the split, the load-bearing assumption
+## 5. Perspective 5 -- synthesizer: verdict, the split, the load-bearing assumption
 
 **VERDICT: PHYSICAL (not gauge) -- and because the physical mode is a positive-norm TACHYON rather than a ghost,
 the naive "both North Stars close / both no-go" binary is REFINED into a SPLIT, leaving a CONDITIONAL that turns

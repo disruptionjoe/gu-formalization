@@ -54,9 +54,9 @@ TEST STRUCTURE (positive controls FIRST -- each FIRES on a real nonzero-residual
 Run:  python -u tests/W225_gravity_projected_shadow_schwarzschild.py   (exit 0 iff all PASS)
 
 Binding: exploration grade; NO canon/verdict/status movement (schwarzschild-weak-field-rfail
-stays OPEN; the gravity-leg verdict is Joe-gated).  Personas inline (GR/curvature specialist;
+stays OPEN; the gravity-leg verdict is Joe-gated).  Perspectives inline (GR/curvature specialist;
 Willmore/immersion-variational specialist; IG-branch/theta specialist; ruthless skeptic);
-no sub-agents.  Zero em dashes in paper-facing text.
+no independent reviewers.  Zero em dashes in paper-facing text.
 """
 from __future__ import annotations
 import sympy as sp

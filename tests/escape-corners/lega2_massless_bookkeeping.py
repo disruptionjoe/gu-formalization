@@ -48,7 +48,7 @@ def check(name, cond):
 # ----------------------------------------------------------------------------
 # file paths (all read-only; nothing in the repo is mutated)
 # ----------------------------------------------------------------------------
-REPO = r"C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization"
+REPO = r"C:\Users\joe\JB\private orchestration overlay\repos\public\gu-formalization"
 TRANSCRIPT = REPO + r"\papers\drafts\Transcript into the impossible.md"
 CAPSTONE = REPO + r"\canon\carrier-dirac-mass-capstone-RESULTS.md"
 SWRES = REPO + r"\canon\source-action-seiberg-witten-RESULTS.md"

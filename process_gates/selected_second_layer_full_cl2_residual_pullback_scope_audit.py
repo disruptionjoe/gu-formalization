@@ -21,7 +21,7 @@ def strict(relative):
 
 registry = strict("lab/process/selected-second-layer-full-cl2-residual-pullback.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.39.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-07-selected-second-layer-full-cl2-residual-pullback-review.md").read_text()
 source = (ROOT / "lab/sources/gu-two-layer-action-source-reinspection-2026-08-04.md").read_text()

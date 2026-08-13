@@ -5,7 +5,6 @@ doc_type: evidence-map
 paper_slug: one-generation-not-three
 created: 2026-08-03
 updated: 2026-08-03
-claim_status_change: none
 purpose: "Artifact-by-artifact receipts for every computational and source-critical claim in draft.md. This file is part of the PRE-DEPOSIT package; paths are repo-relative. Nothing here moves any claim status."
 ---
 
@@ -21,11 +20,11 @@ governs.
 |---|---|---|---|
 | §2.1 | Cl(9,5) ≅ M(64,ℍ) reconstruction; anchors ‖[Π_RS, M_D]‖ = 58.7215, C2 = 155.3625 | `tests/oq_rk1_cl95_explicit_rep.py`; survey generation-sector interface section | Reconstruction-grade; rep-canonicity is the named referee risk |
 | §2.2 | dim ker Γ = 1664 = 13·128, signature-independent | firewall canon (:227 row); `explorations/imposter-reading-adjudication-2026-08-03.md` §2 (reading-independent list) | EXACT |
-| §2.3 | Carrier-split fork, three options incl. author-declared TX^{1,3} ⊕ N^{6,4} ⊂ Y^{7,7} | `GEOMETER-VS-PHYSICS-OBJECTS.md:24`; `lab/process/agent-context-pack.md` (live forks) | Fork row; unadjudicated |
-| §2.3 | Π_RS^phys does not exist (kinematic ≠ physical carrier) | OQ-RK1 BLOCKED_NEEDS_SPEC (register); `lab/process/agent-context-pack.md` | Standing fence |
+| §2.3 | Carrier-split fork, three options incl. author-declared TX^{1,3} ⊕ N^{6,4} ⊂ Y^{7,7} | `GEOMETER-VS-PHYSICS-OBJECTS.md:24`; `lab/process/CURRENT-RESEARCH-CONTEXT.md` (live forks) | Fork row; unadjudicated |
+| §2.3 | Π_RS^phys does not exist (kinematic ≠ physical carrier) | OQ-RK1 BLOCKED_NEEDS_SPEC (register); `lab/process/CURRENT-RESEARCH-CONTEXT.md` | Standing fence |
 | §3.1 | Product rule; 1664 = 384 + 1152 + 128; even/even splits; planted wrong-subtraction kill control | `explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md` (computation section); probe `tests/channel-swings/external_datum_ledger_probe.py`; `tests/escape-corners/legb2_shadow_restriction.py:181-190` (checks 3.1, 3.2) | EXACT dimension count + operator verification; NOT a rep-theoretic proof (grade line of the ledger artifact) |
 | §3.2 | Traceful control: two-term Leibniz, no third term | same ledger artifact ("the isolating control") | EXACT |
-| §3.3 | Odd/odd scope exception (3+11, 9+5 as splits); split-vs-signature homonym fence | same ledger artifact ("scope condition found by a control"); `lab/process/agent-context-pack.md` (pack fix 68a3013) | EXACT; fence mandatory |
+| §3.3 | Odd/odd scope exception (3+11, 9+5 as splits); split-vs-signature homonym fence | same ledger artifact ("scope condition found by a control"); `lab/process/CURRENT-RESEARCH-CONTEXT.md` (pack fix 68a3013) | EXACT; fence mandatory |
 | §3.4 | Arity law b(k−1); blocks 2k−1; 10 = 6+4 gives "3+2"; walls compose not pair (Brauer-Wall) | `lab/process/hinge-panel-synthesis-2026-08-03.md` §2 (L9 master law), §3 (pairwise kill, L7/L8/L9) | Internal analytic (panel L9) |
 | §3.5 | Coboundary theorem: defect = δR, exact, class zero | `lab/process/hinge-panel-synthesis-2026-08-03.md` §3 (L9) | Internal analytic; count kill #2 |
 | §4.1–4.2 | Γ∘ι_B = 4·I, Γ∘ι_F = 10·I; imposter = ker Γ ∩ span{ι_B, ι_F} = im(10·ι_B − 4·ι_F); allocation-invariant, both signatures, five allocations each | `lab/process/hinge-panel-synthesis-2026-08-03.md` §2; confirmed exactly in `tests/generation-sector/q2_imposter_chirality_grading.py` (result §2.1 item 3 of the Q2 artifact) | EXACT, machine-verified, fork-independent |
@@ -51,7 +50,7 @@ governs.
 | §12 | Witten 1983 RS/KK-gravitino class burden; two-horn payment; (3,2,16±) = M-H1 identification; symmetric-chirality data (96 each; W221 B9) | `papers/drafts/no-go-class-relative-survey.md` §2.6; register M-H1; `tests/W221_falsify_generation_count_structure.py` (check B9); `tests/oq_rk1_j_restriction_probe.py` | PRIOR-ART GATE (citation-and-burden, not a verdict); gate PAID 2026-08-03 (Wave A-3 item Q7) |
 | §13 | Novelty posture; KK-gravitino branching prior-art shadow | seed gate (panel L8-F5/O4) as discharged by survey §2.6; `papers/drafts/prior-art-and-novelty-assessment.md` (program-wide method) | Honesty regrade per the seed's own instruction |
 | §14.2 | Not-a-Leibniz-partner ⇒ different high-energy behavior | `explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md` ("that is a discriminator, not a free pass") | CANDIDATE |
-| §14.3 | 144 exotic charges ±4/3, ±5/3, ±2; charge-5/3 searches; 16×144 mediator queued; II-mediation conjecture + Q3 first-order leakage kill of the sole-leading route | seed prediction-candidates; `lab/process/hinge-panel-synthesis-2026-08-03.md` §6 (L2-O4, II-mediation); `lab/process/agent-context-pack.md` anchor #2 (Q3 EXECUTED, Resolver Wave B) | CANDIDATE; conjecture carries its kill on record |
+| §14.3 | 144 exotic charges ±4/3, ±5/3, ±2; charge-5/3 searches; 16×144 mediator queued; II-mediation conjecture + Q3 first-order leakage kill of the sole-leading route | seed prediction-candidates; `lab/process/hinge-panel-synthesis-2026-08-03.md` §6 (L2-O4, II-mediation); `lab/process/CURRENT-RESEARCH-CONTEXT.md` anchor #2 (Q3 EXECUTED, Resolver Wave B) | CANDIDATE; conjecture carries its kill on record |
 | §14.4 | Third-family-philic, no light-family counterpart; R(D)/R(D*) retrodiction posture | `lab/process/hinge-panel-synthesis-2026-08-03.md` §8 (L6) | CANDIDATE / posture |
 | §14.5 | JUNO+NOvA+T2K 2026–28 as nearest hard clock (bites banked seesaw K3) | `lab/process/hinge-panel-synthesis-2026-08-03.md` §8 | Adjacent clock, not a test of this mechanism |
 | §15.1 (1) | Pati-Salam chain: one 16 = one SM family (normalization, not a count) | `lab/active-research/pati-salam-chain-verification.md`; survey §7 | Verified group theory; normalization only |

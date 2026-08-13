@@ -1,13 +1,13 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; circularity diagnosis + partition firm-up; deterministic test)
+status: exploration (5-perspective inline team; circularity diagnosis + partition firm-up; deterministic test)
 created: 2026-07-11
 hypothesis: H62
 title: "H62 -- can the ARENA/VALUE split be made a PRECISE, NON-CIRCULAR partition? The bigger-story model ('the observer forces the ARENA, not the VALUE') and its payoff theorem (Lawvere no-closure, H63) rest on this split being SUBSTANTIVE, not true-by-definition. Branch E flagged the fatal risk: if 'arena' just MEANS 'the forced things' and 'value' MEANS 'the unforced things,' the meta-pattern is vacuous. VERDICT: FIRMED. The SYMMETRY characterization (c) -- arena = invariant of the unbroken observer-invariant symmetry / fixed-point data; value = requires symmetry-BREAKING (a vacuum/frame choice) to specify -- is defined WITHOUT reference to forcing and sorts ALL of the day's concrete cases correctly, INCLUDING the two discriminators that break the naive characterizations: the mass RATIOS (dimensionless-but-FREE, breaks the DIMENSIONAL characterization (a)) and f_2 (continuous-but-FORCED, breaks the DISCRETE/CONTINUOUS characterization (b)). The RG characterization (d) (fixed-point data vs relevant direction) is the RG-sector SHADOW of (c) and agrees on the overlap (f_2 vs f_0). So 'arena forced, value selected' is a SUBSTANTIVE, FALSIFIABLE claim -- an instance of Curie's principle (symmetric structure fixes invariants; breaking requires input), non-circular. Honest caveat: (c) may be GENERIC (Curie, not GU-unique) -- but generic != vacuous; the split is still non-circular and the payoff theorem rests on a REAL principle, so H61/H63 are worth mounting, scoped to symmetry-breaking language (NOT the circular forced/unforced language)."
 grade: "COMPUTED / analysis. tests/W73_H62_arena_value_partition.py (deterministic, no RNG, exit 0): encodes the full test table quantity x {characterization (a)/(b)/(c)/(d) arena-or-value call} x {actual forced/free status}, asserts (c) sorts ALL decided cases correctly and (a),(b) each mismatch >=1, and asserts all four characterizations are non-circular by definition (none references 'forced'). Standard: elementary rep theory (Schur on the collective doublet, C2/W72); RG relevance (H57/H60, f_2 irrelevant vs f_0 relevant); Curie's principle. No canon / RESEARCH-STATUS / claim-status / verdict / posture movement; the arena/value split stays a MODEL of the outputs, the conjecture stays a conjecture, the count stays OPEN, GU stays framework-not-theory."
 construction: "program-native throughout (GEOMETER-VS-PHYSICS-OBJECTS): the count as realized rank of a Z/3-invariant enclosure in Lambda^2_+ = 1+2 (C2); mu_DW the ratio-only free DeWitt scale (H24); the gravity coupling the induced |II|^2 -> Stelle (f_2,f_0) (H49/H57); the family symmetry the self-dual FRAME SU(2)_+ commuting with internal SM gauge (C2)."
 depends_on:
-  - explorations/bigger-story-persona-synthesis-2026-07-11.md
+  - explorations/bigger-story-perspective-synthesis-2026-07-11.md
   - explorations/path5-branchE-self-dual-square-falsifier-2026-07-11.md
   - explorations/path5-branchC2-capability-enclosures-reframe-2026-07-11.md
   - explorations/CONJECTURE-source-action-is-the-observer-2026-07-11.md
@@ -24,7 +24,7 @@ scripts:
 
 The day's organizing model is: **the observer / source-action FORCES the ARENA but not the VALUE.** Its payoff
 theorem (the Lawvere no-closure, H63) and the whole "source action = observer" conjecture rest on this split being
-**substantive**. Path-5 Branch E flagged the fatal risk (its own Persona 3, quoted verbatim):
+**substantive**. Path-5 Branch E flagged the fatal risk (its own Perspective 3, quoted verbatim):
 
 > "the arena/value split is at some risk of being **self-sealing**. It classifies *forced* things as 'arena' and
 > *unforced* things as 'value,' so any forcing can be reabsorbed as 'arena.'"
@@ -36,7 +36,7 @@ INDEPENDENTLY of what turns out to be forced -- so that "all arena is forced, al
 substantive claim one can TEST. This gates whether the Krein-TT campaign (H61) and the payoff theorem (H63) are
 worth mounting.
 
-Run as a 5-persona inline team (one worker, sequential): (1) PHILOSOPHER-OF-SCIENCE (non-circularity /
+Run as a 5-perspective inline team (one worker, sequential): (1) PHILOSOPHER-OF-SCIENCE (non-circularity /
 falsifiability, ruthless); (2) SYMMETRY / REP-THEORY specialist (tests (c) and the discriminators); (3) REFEREE
 (grades); (4) ADVERSARY (hunts counterexamples); (5) SYNTHESIZER (verdict).
 

@@ -4,16 +4,14 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260802-170319-gu-formalization-pw2b-literal-native-action/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registry: lab/process/pw2b-literal-native-source-port.json
 action_registry: lab/process/pw2b-source-composed-action-order-registry.json
 probes:
   - tests/channel-swings/pw2b_literal_native_source_port_probe.py
   - tests/channel-swings/pw2b_source_composed_action_order_probe.py
 grade: "PW2B LOCAL ACTIVE-REAL-FORM MEMBERSHIP AND MOVING-PROJECTOR PASS; ACTUAL PUBLIC-SOURCE BUNDLE PORT AND SOURCE-COORDINATE JACOBIAN OPEN; COMPATIBLE POINTWISE SOURCE-ORBIT FIXTURE MAKES VARYING-VARPI ORDER TWO ATTAINABLE WITH ONE GREEN LAYER; LITERAL DERIVED-K/MOVING-SHIAB COEFFICIENT AND FULL ROOT WARD OPEN. The distortion-derived grade-3/11 bridge lies in the established right-H/Krein/C-plus Sp word class, stabilizes the quaternionic reduction, and moves the separate Clifford projector with the exact differentiated-idempotence law. A block-unitriangular matrix is retained only as a structural comparator, not the actual source-coordinate inverse. The written one-half/one-third transgression obeys C=one-half(F_A+F_B)-one-sixth q(T,T). On a compatible pointwise curvature-orbit jet, conjugacy derives dK instead of adding an independent jet owner. An exact noncommutative identity-Shiab fixture varying varpi with epsilon and the metric fixed has density ceiling one, Euler ceiling two, an attained order-two coefficient, and one Green layer. It does not yet prove that K_full=h(T)^-1 D_B h(T) with every moving Shiab/Hodge/density slot has that nonzero coefficient. Shifting the same polynomial to free-epsilon jet ownership makes fourth order attainable with two Green layers, but the complete literal epsilon/metric coefficient, off-shell Ward/BV complex, covariant phase space, and analytic domain remain open. P1/P2/P3 remain unchanged and unused; Curt remains separate and no third lane is promoted."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # PW2B active-real-form bridge and source-orbit action comparator

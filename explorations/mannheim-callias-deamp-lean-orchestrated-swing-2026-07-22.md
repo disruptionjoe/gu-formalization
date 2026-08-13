@@ -2,13 +2,9 @@
 title: "Mannheim--Callias, DE-amplitude, and Lean orchestrated swing"
 status: active_research
 doc_type: exploration
-lane: "1 primary; 2/3 bounded follow-through"
-run_type: progress
 started_at: "2026-07-22"
 updated_at: "2026-07-22"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: MANNHEIM-CALLIAS-NO-END-POTENTIAL
 probe: tests/channel-swings/mannheim_callias_end_admission.py
 ---

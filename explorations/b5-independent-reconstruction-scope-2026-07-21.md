@@ -3,12 +3,10 @@ title: "B.5 source-action spine: can we INDEPENDENTLY reconstruct it (via P2C's 
 status: active_research
 doc_type: scoping
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat, 2026-07-21 (scope independent B5 reconstruction vs waiting on Weinstein; coordinator mid-task input: evaluate the P2C discrete-GfE specimen against the P2C 9-item spec; read-only)"
 inputs:
-  - lab/process/research-portfolio.json (B5-MIDDLE-DIFFERENTIAL, OPERATOR-END-PENCIL, DEP-NATIVE-SOURCE-DATUM nodes)
+  - lab/process/RESEARCH-AGENDA.json (B5-MIDDLE-DIFFERENTIAL, OPERATOR-END-PENCIL, DEP-NATIVE-SOURCE-DATUM nodes)
   - explorations/per-leg-recovery-state-2026-07-21.md (the six legs B5 lifts; leg 9)
   - explorations/parsimony-unexplained-joints-ledger-2026-07-21.md
   - explorations/b5-middle-source-freeze-2026-07-21.md (the SOURCE-GAP freeze)

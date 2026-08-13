@@ -3,12 +3,9 @@ title: "K77 Wave 2: Curt locates a zero-order connection port, but reality does 
 status: active_research
 doc_type: construction_result
 created: 2026-08-04
-lane: 1
 gate: RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD
 result: "PARTIAL__FULL16_TRACE_Q_FAMILY_ASSEMBLED__CURT_ZERO_ORDER_PORT_NARROWED__NATIVE_REALITY_SELECTS_NOTHING__MAJORANA_RIVAL_EMPTY__COMMON_TWO_LAYER_ACTION_EULER_SELECTION_OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 trace-q coefficient / zero-order / reality selection

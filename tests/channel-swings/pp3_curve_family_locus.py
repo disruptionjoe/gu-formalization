@@ -3,7 +3,7 @@
 from the audited theta-sector machinery for the PP3 conditional prediction
 packet.
 
-CHANNEL: Lane 2 prediction packaging (PP3 candidate; standing-rule freeze).
+CHANNEL: prediction research prediction packaging (PP3 candidate; standing-rule freeze).
 AXIOM:   lab/process/boundary-adapter-standing-axiom.md (adapter assumed).
 DESIGN:  explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
 EXTENDS: tests/channel-swings/de_amplitude_audit_probe.py (all machinery

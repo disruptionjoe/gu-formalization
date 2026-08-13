@@ -3,13 +3,10 @@ artifact_type: exploration
 status: exploration
 doc_type: supersession-dependency-map
 created: 2026-08-03
-lane: "1"
 named_gate: POST-B3-LANE-RESELECTION
 gate_transition: "OPEN -> BATCH2_ABSORBED_AWAITING_BATCH3_FORK_RESOLVERS"
 route_disposition: DEFER
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 input_revisions:
   batch2_corrected_main: c8334177045467713c37abad12ca0e183f9dedcb
   current_owner_base: 0309be3330050fcf1eb684f830a6f9b1193b9ce9

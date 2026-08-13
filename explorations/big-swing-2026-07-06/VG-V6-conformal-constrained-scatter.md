@@ -5,7 +5,7 @@ created: 2026-07-06
 title: "Big swing VG-V6 (T4' forward): the conformal-class constraint EMBEDS on the verified Cl(9,5) carrier (so(4,2) < so(6,4) < so(9,5) chain with machine-zero structure constants, Gamma-equivariance, and K-skewness; every quadratic and commutant core K-self-adjoint to 4.7e-13) but is INERT on the count -- 16 conformal-compatible cores compressed to the 1664-dim gamma-traceless slice produce 10 distinct signatures with signed counts {-1664, -1152, -896, -640, 0, +896, +1024, +1152, +1664}: the class is closed under A -> -A and A -> A + tI (measured: the slice so(4,2) Casimir has exactly two eigenvalues, -9.75 x640 and -3.75 x1024, so shifts realize +1024, -640, and the zero matrix inside the class), hence CANNOT pin a signature. HONEST OUTCOME: T4' forward NEGATIVE at this altitude -- the Mannheim action-class leg does not narrow the stabilized-action scatter; the 2026-07-03 certificate (count not action-forced) extends to the conformal-restricted class. The C-07 even-count wall persists under the restriction (all signed counts even; mod-3 residues 0,1,2 all present -- no 3-signal either). Controls prove the test can fail: a scrambled fake 'conformal' algebra also scatters (5 distinct signatures, so no construction-tautology narrowing was hiding), and the one subfamily that DOES narrow (positive-definite combos) narrows identically for the scrambled algebra -- definiteness-narrowing is algebra-independent, flagged as tautological, and NOT credited to the conformal leg."
 grade: "exploration / T4'-forward verdict INERT-ON-COUNT (negative), computation THEOREM-grade at its stated altitude (finite-dimensional, machine-checked, residuals printed, scrambled-algebra + detectability controls both present and both behaving); the extrapolation from 'quadratic elements + commutant of one declared so(4,2) representative' to 'all conformal-compatible completions' is the honest gap, so the leg-level claim is graded CONSISTENT_UNCOMPUTED-negative rather than KILL. Target-import guard at maximum strictness: {3, 8, 24, chi(K3)=24, Ahat=3, rank_H=4, ind_H=8} never assumed, inserted, or divided by; every count statement is 'mechanism M forces c'. Anchors reproduced first: triplet (+96,-96,0) in (9,5); beta_S residual 0.0e+00; rank(Gamma)=128 / ker=1664; bare commutator 58.7215; C2 155.3625; prior scatter mechanism sig(M_D)=0 vs sig(ramp)=+1664."
 depends_on:
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
   - canon/ghost-parity-krein-synthesis.md
   - canon/swing-ghost-parity-no-chiral-selection.md
@@ -16,7 +16,7 @@ scripts:
 
 # VG-V6: T4' forward — does the conformal-class constraint narrow the stabilized-action scatter?
 
-**The leg (revised statement, Section 5.3 of the persona doc):** T4' has two firewalled directions.
+**The leg (revised statement, Section 5.3 of the perspective doc):** T4' has two firewalled directions.
 Forward (legitimate, executed here): does the conformal-class constraint narrow admissible
 completions? Reverse (BANNED unless the scatter certificate is computationally overturned): Weyl^2
 coefficients pinning the count. This route touches only the forward direction. The anomaly-matching

@@ -28,7 +28,7 @@ CITED (not re-derived), reproduced as POSITIVE CONTROLS:
     conformal factor p); that mode is the BLMS record-count leg.
   * W145: N = 4-volume, everpresent Lambda ~ +/- 1/sqrt(N).
 
-FIVE personas inline (cosmogenesis/arrow-of-time; autopoiesis/self-production;
+FIVE perspectives inline (cosmogenesis/arrow-of-time; autopoiesis/self-production;
 nonlinear-dynamics/W159-reconciliation; symbolic engineer; adversarial skeptic).
 Deterministic sympy, positive controls first.
 Run:  python -u tests/W166_tachyon_is_the_engine.py   (exit 0 iff all PASS).
@@ -235,11 +235,11 @@ check("PC5: the out-of-validity margin (W159 R2d): |m_0^2| = 1/4 = 4 x (1/16), s
       (-m0sq) > r_c and sp.Rational(-m0sq, r_c) == 4, f"|m_0^2|/r_c = {sp.Rational(-m0sq, r_c)}")
 
 # ===========================================================================
-# PERSONA 1 -- cosmogenesis / arrow-of-time: does m^2<0 in the record-count mode
+# PERSPECTIVE 1 -- cosmogenesis / arrow-of-time: does m^2<0 in the record-count mode
 # literally mean the record count N grows?
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 1 -- arrow of time: m_0^2 < 0 in the record-count mode = 'N grows'")
+log("PERSPECTIVE 1 -- arrow of time: m_0^2 < 0 in the record-count mode = 'N grows'")
 log("=" * 78)
 # The tachyon lives in the conformal/scale mode p (W153): a1, a2 (hence c_R and m_0^2)
 # are INVARIANT under the conformal factor p, so the unstable direction IS the p-mode.
@@ -292,10 +292,10 @@ check("P1c: m_0^2 = -1/4 < 0 gives a GROWING homogeneous mode -- the mode equati
       set(roots) == {Q(1, 2), Q(-1, 2)} and max(roots) > 0)
 
 # ===========================================================================
-# PERSONA 2 -- autopoiesis / self-production: STABLE (m^2 >= 0) = DEAD universe
+# PERSPECTIVE 2 -- autopoiesis / self-production: STABLE (m^2 >= 0) = DEAD universe
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 2 -- autopoiesis: a STABLE record-count mode is a DEAD, static universe")
+log("PERSPECTIVE 2 -- autopoiesis: a STABLE record-count mode is a DEAD, static universe")
 log("=" * 78)
 # With m^2 >= 0 the homogeneous mode is oscillatory/bounded: no monotone growth of p, so
 # no monotone growth of N -- the record count does not accrete.  Contrast the two signs.
@@ -315,15 +315,15 @@ check("P2b: therefore the m^2 < 0 vs m^2 >= 0 dichotomy is LIVE-vs-DEAD, not "
       m0sq < 0 and m_stable > 0)
 
 # ===========================================================================
-# PERSONA 3 -- nonlinear dynamics: RECONCILE with W159 (graceful vs pathological).
+# PERSPECTIVE 3 -- nonlinear dynamics: RECONCILE with W159 (graceful vs pathological).
 # Does the DBI speed limit + everpresent 1/sqrt(N) fade make the growth GRACEFUL?
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 3 -- W159 reconciliation: GRACEFUL engine or PATHOLOGICAL runaway?")
+log("PERSPECTIVE 3 -- W159 reconciliation: GRACEFUL engine or PATHOLOGICAL runaway?")
 log("=" * 78)
 # W159's kill was aimed at a SATURATION BALANCE (a bounded-field ATTRACTOR / static vacuum).
 # The arrow-of-time reading does NOT want an attractor -- an attractor is a DEAD universe
-# (persona 2).  The relevant question is whether the RATE is graceful (finite), not whether
+# (perspective 2).  The relevant question is whether the RATE is graceful (finite), not whether
 # a minimum exists.  Two independent graceful mechanisms:
 #
 # (i) DBI velocity cap.  W159 R2c: the positive gradient function bounds field VELOCITY
@@ -365,7 +365,7 @@ check("P3c: HONEST TENSION -- the graceful steady rate needs the field rolling a
       "degenerates (W159), and |m_0^2| = 1/4 sits 4x beyond it.  So GRACEFUL-IN-RATE is read "
       "at the boundary of validity: a PLAUSIBLE completion, not a proven one",
       edge == Q(1, 4) and (-m0sq) == 4 * r_c)
-log("  PERSONA 3 VERDICT: GRACEFUL-IN-RATE / BOUNDED-BY-everpresent -- the runaway is "
+log("  PERSPECTIVE 3 VERDICT: GRACEFUL-IN-RATE / BOUNDED-BY-everpresent -- the runaway is "
     "velocity-")
 log("  capped (DBI => linear p, steady de-Sitter-rate N) and drive-fading (everpresent "
     "1/sqrt(N)),")
@@ -374,10 +374,10 @@ log("  NOT the exponential blow-up W159's attractor-hunt implicitly rejected.  B
 log("  rate sits at the v^2=1/16 validity edge: PLAUSIBLE, not INSIGHT.")
 
 # ===========================================================================
-# PERSONA 4 -- symbolic engineer: the dispersion result, INVERTED (k=0 = a global clock)
+# PERSPECTIVE 4 -- symbolic engineer: the dispersion result, INVERTED (k=0 = a global clock)
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 4 -- dispersion inverted: k=0 homogeneous tachyon = a GLOBAL cosmic clock")
+log("PERSPECTIVE 4 -- dispersion inverted: k=0 homogeneous tachyon = a GLOBAL cosmic clock")
 log("=" * 78)
 # W159 D2: the tachyon peaks at k=0 (homogeneous), unstable band 0 <= k < 1/2, NO finite-k
 # Turing band.  Under the lens this is a CREDIT: a finite-k band would fragment space into a
@@ -401,10 +401,10 @@ check("P4b: contrast a Turing band (peak at finite k = a frozen length scale = a
       sp.diff(growth0_sq, k).subs(k, 0) == 0)
 
 # ===========================================================================
-# PERSONA 5 -- adversarial skeptic RUTHLESS: is the reframe wishful?
+# PERSPECTIVE 5 -- adversarial skeptic RUTHLESS: is the reframe wishful?
 # ===========================================================================
 log("\n" + "=" * 78)
-log("PERSONA 5 -- skeptic: steelman 'PATHOLOGICAL RUNAWAY, the reframe is wishful'")
+log("PERSPECTIVE 5 -- skeptic: steelman 'PATHOLOGICAL RUNAWAY, the reframe is wishful'")
 log("=" * 78)
 # Steelman 1: W159 said out-of-validity.  The graceful rate is read AT/BEYOND the v^2=1/16
 # edge (P3c).  A story that only works at the boundary of validity is not a derivation.
@@ -440,7 +440,7 @@ check("S4: what the skeptic CONCEDES -- the bar-(b) flaw-count is MIS-POSED.  m_
       "debit-credit-ENTANGLED, not a free-standing extra flaw.  This is structural (identity "
       "of the mode), independent of the RATE/validity question",
       m0sq < 0 and m_stable > 0)
-log("  PERSONA 5 VERDICT: NOT wishful on the STRUCTURAL claim (the flaw-count is mis-posed; "
+log("  PERSPECTIVE 5 VERDICT: NOT wishful on the STRUCTURAL claim (the flaw-count is mis-posed; "
     "the")
 log("  tachyon IS the arrow mode) -- but the GRACEFUL-ENGINE dynamics are PLAUSIBLE not "
     "proven")

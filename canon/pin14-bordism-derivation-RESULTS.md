@@ -37,7 +37,7 @@ binding here: the 2026-07-21 banking session had already ruled that *"reciting a
 |Ω^{Pin+}₁₄| ... would be exactly the planted-toy over-claim"*
 (`explorations/pin14-anomaly-number-2026-07-21.md:186`), and the portfolio's T1 line holds the same
 gate: *"published tables list it nonzero but reciting that is a planted-toy over-claim — genuinely
-reconstruct or report BLOCKED"* (`lab/process/research-portfolio.json`, PIN14 entry).
+reconstruct or report BLOCKED"* (`lab/process/RESEARCH-AGENDA.json`, PIN14 entry).
 
 **This promotion satisfies that gate:** the chain below computes the group — including the
 multiplicity — from general structural theorems (Smith cofiber sequence, the ABP splitting, the

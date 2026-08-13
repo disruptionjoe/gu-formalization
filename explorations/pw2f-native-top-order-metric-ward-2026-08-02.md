@@ -2,8 +2,7 @@
 title: PW2F active-native top-order metric composition and diffeomorphism-Ward schema
 date: 2026-08-02
 status: scoped hostile-review correction; complete top order remains open
-lane: Eric-guided active-native construction; Curt remains a formal comparator
-run: RUN-20260802-223738-gu-formalization-pw2f-native-top-order-metric-ward
+run: historical-investigation
 grade: >-
   LC-ALTERNATION SUBROUTE PASS WITH HOSTILE CORRECTION. All 140 induced-Y14
   Levi-Civita symbol columns have zero total alternation, but this does not

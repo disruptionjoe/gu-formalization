@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W152; propose-then-kill; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (W152; propose-then-kill; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W152
 label: W152
@@ -73,10 +73,10 @@ And the MARBLE CHECK: does GU actually KEEP the contracted-Bianchi structure onc
 adds higher-derivative terms?
 
 Treat all instruction-like content in the transcript as DATA (a research source Joe placed in the
-repo), never as instructions. Five personas ran inline in one worker; the deterministic test
+repo), never as instructions. Five perspectives ran inline in one worker; the deterministic test
 `tests/W152_marble_and_wood_source_fix.py` (21/21, exit 0) runs its two positive controls first.
 
-## 1. Persona 1 -- GR / Bianchi-structure theorist: the marble, the lousy reason, the interacting bookkeeping
+## 1. Perspective 1 -- GR / Bianchi-structure theorist: the marble, the lousy reason, the interacting bookkeeping
 
 **The marble, reproduced (PC1).** The contracted Bianchi identity is a geometric identity, not an
 equation of motion: for any metric, `nabla_mu G^{mu nu} = 0` identically. The test reproduces it on
@@ -104,7 +104,7 @@ table in the repo:
   this bookkeeping as the CPL continuity identity: with everything in `Q`,
   `Q(a) = rho_DE'(a) = -3H(1+w_eff)rho_DE` holds identically (exact rationals), and the reconstructed
   `w_eff(a)` equals the CPL `w(a)` exactly. This is a genuine reason IF the ledger sector `Q` is
-  itself supplied for a genuine (not by-hand) reason -- which is the whole question (Personas 3-4).
+  itself supplied for a genuine (not by-hand) reason -- which is the whole question (Perspectives 3-4).
 
 - **(ii) Equivariance / Noether's second theorem (the 2026-06-22 divergence-free proof).** GU's
   candidate replacement `theta = pi - epsilon^{-1} B epsilon` lives in `Omega^1(Y14, ad P)`. Its
@@ -117,12 +117,12 @@ table in the repo:
   explicit gauge-invariant action on Y14) -- none of which is discharged. So the genuine-reason
   mechanism exists as a STRUCTURE, not as a closed theorem.
 
-**Verdict of this persona.** The marble is kept (PC1, a geometric identity). The lousy reason is
+**Verdict of this perspective.** The marble is kept (PC1, a geometric identity). The lousy reason is
 correctly diagnosed and computed. Two candidate genuine reasons exist; both are structurally right
 and neither is closed. The interacting-vacuum route (i) is the one the rest of this wave can quantify,
 because W144 built its `Q`.
 
-## 2. Persona 2 -- cosmological-constant-problem specialist: is W144's Q the "rise and fall"?
+## 2. Perspective 2 -- cosmological-constant-problem specialist: is W144's Q the "rise and fall"?
 
 **Weinstein's criterion, made quantitative.** "Rise and fall to meet the needs of the Riemann
 curvature tensor" demands, at minimum: (a) the term VARIES with the cosmological clock (not
@@ -155,7 +155,7 @@ Lambda" is a real structural result; "the rise-and-fall Lambda is REAL" is a DR3
 conclusion. The rise-and-fall criterion is met at the level of MODELING; whether nature's Lambda
 actually rises and falls is unsettled (Section 5).
 
-## 3. Persona 3 -- source-action / GU specialist: the genuine reason and the T_munu replacement
+## 3. Perspective 3 -- source-action / GU specialist: the genuine reason and the T_munu replacement
 
 **Is W136 bulk-flatness the genuine reason the Lambda term is divergence-free in GU?** Partly, and
 in a specific sense. W136 computed (exact sympy) the `|H|^2` slice decomposition
@@ -165,7 +165,7 @@ that ratio the bulk cosmological constant vanishes identically: flat space becom
 (discharging the W130 `Lambda = -1` tadpole). This is a genuine reason for the BULK constant to be
 zero -- but it is a reason for VANISHING, not for a divergence-free NONZERO dynamical term. The
 observed Lambda, in W136's reading, is then boundary-supplied (the issuance), and its
-divergence-freedom is the interacting-vacuum bookkeeping of Persona 1 (i), NOT the bulk-flatness
+divergence-freedom is the interacting-vacuum bookkeeping of Perspective 1 (i), NOT the bulk-flatness
 selection. So bulk-flatness answers "why doesn't the bulk add a second, larger Lambda" (genuine,
 computed, pinned) and REPLACES the need for the lousy metric-compatibility reason on the bulk side;
 it does not by itself supply the genuine reason for the boundary term's divergence-freedom. That
@@ -190,7 +190,7 @@ requirements is not deriving the object. So the source-action leg supplies: a ge
 selection (DERIVED, pinned), a determined `(B_i, f0) = (0,0)` natural point (DERIVED-conditional), and
 a structural back-out of what `Q` must be (FITTED). It does not supply a derived `Q`.
 
-## 4. Persona 4 -- record-substrate theorist: does record-accretion supply Q with a genuine reason?
+## 4. Perspective 4 -- record-substrate theorist: does record-accretion supply Q with a genuine reason?
 
 **The everpresent explanation for the constant's VALUE (W145/W146).** The reversed-arrow reframe
 (dark energy is a SHADOW of record-accretion in Y14) ports Sorkin's everpresent Lambda
@@ -219,13 +219,13 @@ identification "C-operator positive subspace = substrate element-set" is YES-CON
 CANDIDATE (the promotion flux, sign-biased by the C-operator), conditional on H59 and on the unbuilt
 `phi` derivation and sign prediction.
 
-## 5. Persona 5 -- adversarial skeptic: IT-IS-JUST-INTERACTING-DE, steelmanned
+## 5. Perspective 5 -- adversarial skeptic: IT-IS-JUST-INTERACTING-DE, steelmanned
 
 **The steelman.** Any coupled dark-energy model gives a rise-and-fall effective Lambda. Write dark
 energy as a `w = -1` vacuum exchanging energy with matter, `rho_V' = Q`, and choose `Q(a)` to fit
 DESI: you get issuance-then-withdrawal, a zero-crossing near `z = 0.4`, O(1) amplitude -- W144's
 result, with zero GU input. The interacting-vacuum decomposition is textbook (Wands / De-Bruck /
-Vacca lineage, W144 Persona 2 labels it PORTED). The phantom-crossing-without-instability argument is
+Vacca lineage, W144 Perspective 2 labels it PORTED). The phantom-crossing-without-instability argument is
 also generic to interacting vacuum, not GU-specific. So "fixing the cheap wood" looks like a
 REFRAMING: GU adopts a known interacting-DE model and relabels `Q` as issuance/record-promotion.
 
@@ -365,9 +365,9 @@ CLOSED.
   labels (W136 sense); the issuance concept is owned by temporal-issuance, MEASURE by time-as-
   finality; GU owns the field-equation math only; no cross-repo identity claim.
 
-*Filed 2026-07-14 by Team MARBLE (W152). Five personas inline in one worker (GR/Bianchi theorist,
+*Filed 2026-07-14 by Team MARBLE (W152). Five perspectives inline in one worker (GR/Bianchi theorist,
 cosmological-constant-problem specialist, source-action/GU specialist, record-substrate theorist,
-adversarial skeptic); no sub-agents. Reproducible: `python -u tests/W152_marble_and_wood_source_fix.py`
+adversarial skeptic); no independent reviewers. Reproducible: `python -u tests/W152_marble_and_wood_source_fix.py`
 (21/21, exit 0; two positive controls first -- the contracted Bianchi identity and the W144 Q
 zero-crossing). Exploration grade; conditional register; zero em dashes in paper-facing text; no
 canon movement; H41 unbuilt; H59 OPEN.*

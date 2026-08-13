@@ -8,7 +8,7 @@ cyclic northeast block or the action-owned top-degree relation.
 - `lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md`
 - `lab/sources/transcripts/toe-weinstein-gu-40-years.md`
 - `lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md`
-- `explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md`
+- `explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md`
 
 ## Source collision ledger
 

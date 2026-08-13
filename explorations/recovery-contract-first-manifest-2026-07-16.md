@@ -3,7 +3,6 @@ title: "Recovery contract first construction manifest"
 status: exploration
 doc_type: recovery_contract_checkpoint
 created: 2026-07-16
-run_id: GUH-20260716T050951Z-recovery-contract
 manifest: lab/process/recovery-contract-construction-manifest-2026-07-16.json
 gate: process_gates/recovery_contract_manifest_audit.py
 ---

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2I1-S3-UNIVERSAL-OWNER-CONORMAL-GEOMETRIC-TRANSPORT",
   "status": "BOTH_S3_GENERATORS_CERTIFIED_ON_UNIVERSAL_OWNER_CONORMAL_GEOMETRIC_TRANSPORT_LAYER",
-  "run_id": "RUN-20260804-163503-gu-formalization-pw2fr2b2b2i1-s3-geometric-transport",
+  "run_id": "historical-investigation",
   "verdict_scope": "exact finite action on the active three-positive-axis subgroup, ten Sym2 metric owners, four conormal coordinates, 35 quartic monomials, 55 symmetric owner pairs, DeWitt base/first/second derivatives, connection columns, nonlinear Zorro metric, symmetric coframe, normalized trace, and density",
   "source_disposition": {
     "REPOSITORY_DERIVES": "the active finite S3 action and its exact geometric transport certificate",

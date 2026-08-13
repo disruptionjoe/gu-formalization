@@ -2,8 +2,7 @@
 title: PW2F-R2B2B2C — complete off-shell I2B C5 order ceiling
 date: 2026-08-03
 status: OFFSHELL_I2B_C5_CEILING_CLOSED_ON_CONDITIONAL_PRINCIPAL_Z1_OBSERVED_BASE_LC_METRIC_BRANCH__COMPLETE_I1_I2B_C4_AND_GREEN_OPEN
-lane: Eric-guided Lane 1; source, active reconstruction, and Curt comparator kept separate
-run: RUN-20260803-101026-gu-formalization-pw2fr2b2b2c-i2b-offshell-c5-ceiling
+run: historical-investigation
 registry: lab/process/pw2fr2b2b2c-i2b-offshell-c5-ceiling-registry.json
 probe: tests/channel-swings/pw2fr2b2b2c_i2b_offshell_c5_ceiling_probe.py
 ---

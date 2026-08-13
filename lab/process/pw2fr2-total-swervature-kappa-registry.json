@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260803-020123-gu-formalization-pw2fr2-swervature-kappa",
+  "run_id": "historical-investigation",
   "gate": "PW2F-R2A-ACTION-DERIVED-EDDY-AND-UNIVERSAL-KAPPA",
   "status": "PARTIAL_CONSTRUCTION_PASS_AFTER_HOSTILE_REPAIR",
   "layer0": {

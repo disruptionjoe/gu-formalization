@@ -3,7 +3,6 @@ artifact_type: exploration
 status: exploration
 doc_type: posit-retrodiction
 created: 2026-08-03
-lane: "2"
 work_item: M-H3
 register: lab/process/improvement-register-2026-08-03.md
 panel_refs:
@@ -11,9 +10,7 @@ panel_refs:
   - "lab/process/eleven-lens-audit-2026-08-03.md (B2, B16)"
 title: "M-H3 SU(4)_c seesaw retrodiction: m_D^nu = m_up at the PS scale + type-I seesaw + observed atmospheric scale retrodicts M_R in the band 1.1-6.0 x 10^14 GeV (naive m_t=173: 5.98e14; honest one-loop running: 1.07e14) — squarely inside the canonical GUT-seesaw window, ~5 decades below M_Planck. The Lambda^5/126-analogue channel that would host the Majorana block exists INSIDE the equivariant family (earned, computed); the VEV in that channel is NOT earned. b-tau unification rides the same machinery."
 grade: "POSIT / RETRODICTION — standard GUT arithmetic on the verified group-theory chain; NO GU derivation of M_PS, the Λ⁵ VEV, or any Yukawa texture; no claim-status change"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 construction: "physics-default throughout (SM MS-bar one-loop RGEs, type-I seesaw, measured masses); the only GU-side input is the verified compact group-theory chain — construction declared per GEOMETER-VS-PHYSICS-OBJECTS.md; no geometer-native object is invoked"
 depends_on:
   - lab/active-research/pati-salam-chain-verification.md

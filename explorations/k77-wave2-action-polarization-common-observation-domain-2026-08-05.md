@@ -1,7 +1,6 @@
 ---
 title: "K77 Wave 2: action polarization is channel-blind and the observation Sobolev domain is common"
 date: 2026-08-05
-lane: 1
 status: PARTIAL_WITH_EXACT_NONSELECTION_AND_RESCOPED_DOMAIN
 doc_type: construction_result
 named_gate: K77_ACTION_DERIVED_POLARIZED_EULER_SHIAB_PRODUCT_SELECTOR_AND_GLOBAL_COUPLED_KREIN_GREEN_OBSERVATION_DOMAIN
@@ -17,9 +16,7 @@ residue_touched:
   - "K77-W2-ACTION-POLARIZATION-DOMAIN:T4"
 fork_stack_acknowledged: "This continues the settled K77 carrier and the still-open source-action construction. The result is exact on the complete grade-one coefficient block and conditional at global Sobolev grade; it is not ported to K95 or promoted to a full-adjoint, arbitrary-Y14, or physical-domain theorem."
 grade: "Exact complete 91x14 grade-one K77 channel-block span and projective separation; exact frozen action polarization; structural scalar-action Helmholtz theorem; conditional bounded-geometry H10-to-H9 associated-bundle observation scale. Full adjoint coefficient grades, actual arbitrary-Y14 global geometry, closed L2/Krein/hyperbolic/BFV domain, preferred Shiab, observation physics, and all particle rows remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 Wave 2: action polarization and common observation domain

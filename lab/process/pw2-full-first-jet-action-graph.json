@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2_full_first_jet_action_graph_result",
-  "run_id": "RUN-20260802-152647-gu-formalization-pw2-first-jet-action",
+  "run_id": "historical-investigation",
   "status": "PW2_EXACT_AUTOMATIC_SOURCE_INTEGRABILITY_OBSTRUCTION",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

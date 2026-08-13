@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260802-052039-gu-formalization-ecw3d-b2c15p-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2c15p-source-epsilon-tangent-zorro-dewitt.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c15p_source_epsilon_tangent_zorro_dewitt_probe.py
 grade: "B2C15P PARTIAL CONSTRUCTION PASS. The direct source-epsilon to repository-reduction tangent bridge is exactly absent: Hom_H(Lambda2, Lambda3+Lambda6+Lambda7+Lambda10+Lambda11+Lambda14)=0. A stronger source-shaped route survives through the homogeneous distortion delta T=alpha-D_A zeta: Alt(delta T) plus its Hodge dual gives a two-parameter, H-equivariant, tilted-descended rank-364 candidate for every nonzero coefficient pair into quotient grades 3 and 11, with a 7801-dimensional cokernel and no selected coefficient ratio. The literal odot_epsilon branch remains separate from a conditional genuine odot_omega branch; any nonzero D_varpi odot contributes to the existing varpi Euler equation and an exact zero-order bulk-plus-preboundary witness passes. The old blockdiag(h,D_h) gimmel comparator is upgraded to an LC-horizontal connection metric G_Y=h+D_h(theta,theta) at an exact constant-curvature normal base three-jet. The full local G,dG,d2G, Levi-Civita, Riemann, and spin-curvature jets pass metricity, torsion, Riemann, Bianchi, observation-pullback, trace-reversal, and exact active reality checks. The product surrogate fails 40 second-pullback-jet components. The reconstructed split/trace/spin-curvature tuple has diagonal-Spin stabilizer 6 inside 91. The coordinate formula is reconstruction-grade, not source-unique; the full Shiab/action coefficient, source real-form family, atlas, BV, domain, vacuum, and physics remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C15P source tangent, distortion reduction, and Zorro/DeWitt jet

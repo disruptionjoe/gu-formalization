@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-01
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260801-144039-gu-formalization-ecw3d-b2c13-direct/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registry: lab/process/eric-curt-wave3d-b2c13-dupsilon-preboundary.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c13_dupsilon_preboundary_probe.py
 grade: "B2C13 SPLIT CONSTRUCTION PASS. The manuscript-compressed residual and the selected G2 action's exact Euler covector are differentiated as separate operators. On the existing exact noncentral G2 fixture their principal symbols differ in 60/144 entries; a fixed-A graph-jet direction gives source response 0 and exact-G2 response 1/2. Exact polynomial residual squares return every representative graph/Shiab/Hodge/density/primalizer term and produce nonzero, unequal preboundary forms. The rational/B2C9 comparator source branch remains first order while its exact-action branch is second order and requires a prolonged Ostrogradsky packet. The active (9,5) R_res coefficient port passes separately, but nonvanishing of the corresponding active Y14 graph symbol is open. The global native Y14 Shiab first jet, trace theorem, closed domain, and mixed boson-fermion polarization remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C13 residual symbols and staged preboundary jets

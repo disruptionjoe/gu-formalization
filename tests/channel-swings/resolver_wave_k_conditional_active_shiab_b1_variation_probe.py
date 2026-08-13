@@ -284,7 +284,7 @@ print("A. LAYER 0, SOURCE COLLISION, AND PARALLEL-LANE RECONCILIATION")
 
 source_pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
 source_map = (ROOT / "docs/paper-formalization-candidates.md").read_text()
-public_shiab_receipt = (ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
+public_shiab_receipt = (ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
 toe_2025 = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
 spinor_shiab = (ROOT / "canon/shiab-existence-cl95.md").read_text()
 wave_j_report = (ROOT / "explorations/resolver-wave-j-descended-source-action-total-euler-ward-2026-08-03.md").read_text()

@@ -4,14 +4,12 @@ status: active_research
 doc_type: construction_result
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T144734Z-g3-full-variational-bvbfv/run-plan.md
+run: archived private execution record
 specification: lab/specifications/g3-graph-variation-noether-bvbfv-packet-2026-07-31.md
 certificate: lab/process/g3-variational-bvbfv-certificate.json
 probe: tests/channel-swings/g3_full_variational_bvbfv_probe.py
 grade: "G3 SPLIT CONDITIONAL PASS. The selected source-sector action has a graph-complete all-slot bulk derivative, nonzero action-derived preboundary data, an exact coupled first-jet gauge identity, and the ordinary-gauge minimal BV completion required for CME closure through antifield number one. The isolated connection conservation law fails. A required primary-source recheck identifies observation pullback/restriction, not a supplied defect action, as the author-guided four-dimensional route. G4 must build that retract and the domain/polarization; no complete physical BV--BFV theory is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # G3 full variational bicomplex and BV--BFV

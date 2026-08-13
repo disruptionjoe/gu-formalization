@@ -5,7 +5,7 @@ created: 2026-07-06
 title: "Big swing VG-V3 (T1' executable form): is the conformal chain GU-NATIVE (canonical J) or merely GU-compatible (family)? ANSWER: NEITHER — the commutant scan returns EMPTY, which is STRONGER than the pre-registered family-downgrade. The 10-dim metric fiber Sym^2(R^4) with eta = diag(-1,1,1,1) has Frobenius signature (7,3) and trace-reversed signature (6,4) (transcript 00:43:47 independently re-derived, printed as the route anchor); the even-parity theorem (orthogonal J on R^(p,q) iff p AND q even) is now PROVED + constructively verified, clearing its from-memory flag — (6,4) admits J (residuals ~1e-15, Hermitian signature (3,2)), (7,3) is obstructed (40-start falsification floor 4.000). But NO orthogonal J commutes with GU's own fiber data: unconstrained J's form a 20-dim family, and EACH named datum ALONE empties it — the trace/scale direction (exact parity proof, floor 5.200 >= 2), the SO(3,1) isotropy (commutant = span{P9,P1}, exact floor 10, measured 29.000), the SU(2)+ family action via its SO(3) real image (odd isotypics 3 and 5 force real scalars, floor 28.337 >= 8; the leftover 2-dim trivial isotypic has G-signature (1,1), obstructed by the theorem itself). HONEST OUTCOME: T1' reports NEGATIVE on the EMPTY branch — 'conformal is GU-native' is refuted at the fiber level; any J that builds u(3,2) -> su(2,2) ~ so(4,2) (chain verified at matrix level: dims 25/17/15, rank 3, Killing (8,7)) must BREAK GU's trace split and isotropy to exist."
 grade: "exploration / (a) THEOREM (proved both directions + constructive J on (6,4) + 40-start numerical falsification on (7,3) with (6,4) success control); (b) THEOREM for each EMPTY verdict (exact Schur/parity/determinant proofs, scans are corroboration with two positive controls showing the optimizer finds J when J exists); (c) chain verified at matrix level (dimension/rank/Killing-signature invariants; not a constructed isomorphism map); (d) verdict NEGATIVE per pre-registered rule, EMPTY branch. Target-import guard at maximum strictness: {3, 8, 24, chi(K3)=24, Ahat=3, rank_H=4, ind_H=8} never assumed, inserted, or divided by; the 3 in u(3,2) is MEASURED (Hermitian signature of the measured (6,4)); no count statement of any kind is made. Route anchor (the (6,4) fiber signature) reproduced and printed first; the 1792-dim carrier anchors are NOT used because this route lives entirely on the 10-dim fiber (stated in-script)."
 depends_on:
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
   - canon/ghost-parity-krein-synthesis.md
   - canon/swing-ghost-parity-no-chiral-selection.md
@@ -16,7 +16,7 @@ scripts:
 
 # VG-V3: T1' executable form — is the conformal chain GU-native (canonical J) or merely GU-compatible (family)?
 
-**The leg (revised statement, Section 5.3 of the persona doc):** T1' — conformal-native check,
+**The leg (revised statement, Section 5.3 of the perspective doc):** T1' — conformal-native check,
 executable form. Theorem-verify the p,q-both-even criterion (from-memory flag cleared by proof);
 scan for orthogonal J's commuting with GU's own fiber data; report EMPTY / CANONICAL /
 FAMILY. Pre-registered downgrade rule accepted from Panel A: if the commutant is a family,
@@ -150,7 +150,7 @@ every J that generates it **breaks GU's own trace split and isotropy** to exist.
 points in the adverse direction for the whole conformal attachment (T10' soldering and T4'
 inherit a weaker premise: whatever they intertwine is now an unforced import), and it sits in the
 same territory the separate R4 route (conformal gauge: cure vs inherit the fiber obstruction) is
-probing — R4's outcome is **not cited here**; per Section 5.5 of the persona doc it remains the
+probing — R4's outcome is **not cited here**; per Section 5.5 of the perspective doc it remains the
 gate for demoting the Mannheim leg to rejection-level alignment. None of the ten numbered kill
 conditions fires from T1' alone; kill condition 8's R4-branch direction is *informed adversely and
 independently* by this result.

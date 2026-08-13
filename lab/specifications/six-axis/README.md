@@ -24,7 +24,7 @@ A candidate is the sextuple `(L1, L2, L3, L4, L5, L6)` plus a chirality bridge c
 
 ## Why this matters
 
-The four no-go theorem families this repo studies (Witten 1981, Nielsen-Ninomiya, Freed-Hopkins, Distler-Garibaldi) are class-relative impossibility results. They have implicit class assumptions on multiple axes that can be dropped independently. The 15-persona dialectic in `syntheses/00e` and `syntheses/08` converged on the same structural move: the no-go theorems compute forgetful images of richer substrate-level invariants, and the forgetful operation is class-relative across at least six axes.
+The four no-go theorem families this repo studies (Witten 1981, Nielsen-Ninomiya, Freed-Hopkins, Distler-Garibaldi) are class-relative impossibility results. They have implicit class assumptions on multiple axes that can be dropped independently. The 15-perspective dialectic in `syntheses/00e` and `syntheses/08` converged on the same structural move: the no-go theorems compute forgetful images of richer substrate-level invariants, and the forgetful operation is class-relative across at least six axes.
 
 This means the open question is not "is there a substrate-level loophole?" but "**which sextuple of axis choices opens a substrate-level invariant whose smooth shadow matches the null Witten / Nielsen-Ninomiya / Freed-Hopkins / Distler-Garibaldi image, while still carrying Standard Model chirality / 3-generation / gauge content?**"
 
@@ -69,10 +69,10 @@ It is a discipline layer that makes the conversation tractable for both speciali
 
 ## Provenance
 
-The six-axis space was assembled across five persona-pass rounds in WRK-326 (2026-04 through 2026-05):
+The six-axis space was assembled across five perspective-pass rounds in WRK-326 (2026-04 through 2026-05):
 
-- Legs 1, 2, 3 (substrate, observer, pairing) were defined in `syntheses/00d` from the 10-persona heterodox round.
-- Legs 4, 5, 6 (causal-order, emergence, coordination-loop) were added in `syntheses/00e` from the 5 distributed-systems personas (P11-P15).
-- The 15-persona pathway ranking in `syntheses/08` then identified this protocol (`pathway D`) as the highest first-pass-leverage discipline tool in the repo.
+- Legs 1, 2, 3 (substrate, observer, pairing) were defined in `syntheses/00d` from the 10-perspective heterodox round.
+- Legs 4, 5, 6 (causal-order, emergence, coordination-loop) were added in `syntheses/00e` from the 5 distributed-systems perspectives (P11-P15).
+- The 15-perspective pathway ranking in `syntheses/08` then identified this protocol (`pathway D`) as the highest first-pass-leverage discipline tool in the repo.
 
 This protocol is "pathway D" of that ranking, executed as a single bounded pass.

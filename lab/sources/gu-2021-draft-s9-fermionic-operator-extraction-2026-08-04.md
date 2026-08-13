@@ -5,9 +5,7 @@ doc_type: primary-source-extraction
 created: 2026-08-04
 title: "Rendered primary-source extraction: GU 2021 draft section 9.3, equations 9.16--9.20"
 grade: "VERBATIM EQUATION TRANSCRIPTION WITH SOURCE/CONSTRUCTION FENCES; no global adjoint, domain, physics, or generation theorem is certified by extraction"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # GU draft section 9.3: the four-field fermion operator

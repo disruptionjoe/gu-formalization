@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2I2 resumable second-uncovered size-six full-evaluator certifi
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-05"
-run_id: RUN-20260805-104942-gu-formalization-pw2fr2b2b2i2-resumable-second-size6
 ---
 
 # PW2F-R2B2B2I2 resumable second-uncovered size-six certificate

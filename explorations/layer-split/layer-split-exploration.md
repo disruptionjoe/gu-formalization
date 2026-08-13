@@ -9,11 +9,11 @@ updated_at: "2026-05-31"
 
 ## 0. Frame
 
-This is **exploration**, not publication retreat. The brief: 5 personas across the WRK-394 meta-assessment (Anomaly, Network propagation, Distributed systems, Sound engineering, Complexity science) independently surfaced that the bridge work conflated **propagation / decision / anomaly-class / coarse-graining** as if they were one object. The literature on each layer keeps them separate. The hypothesis under test: a layer-split bridge is a more honest, more publishable, and potentially structurally different object — with at least one layer (propagation) likely surviving even though others (decision) fail.
+This is **exploration**, not publication retreat. The brief: 5 perspectives across the WRK-394 meta-assessment (Anomaly, Network propagation, Distributed systems, Sound engineering, Complexity science) independently surfaced that the bridge work conflated **propagation / decision / anomaly-class / coarse-graining** as if they were one object. The literature on each layer keeps them separate. The hypothesis under test: a layer-split bridge is a more honest, more publishable, and potentially structurally different object — with at least one layer (propagation) likely surviving even though others (decision) fail.
 
 The output is a **per-layer verdict** in the validators' own language, not a publication recommendation. Three verdicts per layer: **HOLDS** (the bridge claim at this layer survives validator scrutiny); **BROKEN-IN-LAYER** (the validator critique kills this specific layer's bridge claim); **NOT-APPLICABLE** (the bridge doesn't make sense at this layer). Plus a cross-layer interaction map.
 
-Dialectic seed: the 5 personas from the card (Network propagation thesis, Distributed-systems theorist thesis, Anomaly theorist thesis, Complexity / coarse-graining antithesis, Honest-verdict gatekeeper synthesis).
+Dialectic seed: the 5 perspectives from the card (Network propagation thesis, Distributed-systems theorist thesis, Anomaly theorist thesis, Complexity / coarse-graining antithesis, Honest-verdict gatekeeper synthesis).
 
 ---
 
@@ -45,7 +45,7 @@ Precise definitions before any verdict. Anchors named; `[speculation]` tagging w
 - Fischer-Lynch-Paterson 1985 (FLP impossibility): asynchronous deterministic consensus is impossible with even one faulty process — the canonical *decision-layer* no-go.
 - Paxos / Raft (Lamport 1998 / Ongaro-Ousterhout 2014): consensus protocols for decision-finality under crash failures.
 - CALM theorem's *decision* fragment: the consistency claim is about what programs converge to a *fixed final value* without coordination; non-monotone queries fall outside.
-- Hahn-Wadler / Bloom / safety-liveness duality (referenced by CS-reviewer persona): separation of "what could be" vs "what is committed."
+- Hahn-Wadler / Bloom / safety-liveness duality (referenced by CS-reviewer perspective): separation of "what could be" vs "what is committed."
 
 **Physics-side anchors.**
 - Lattice index theorem / Hasenfratz-Laliena-Niedermayer 1998 form: `Q_A = n_+ - n_-` is a global readout requiring access to the full spectrum.
@@ -71,7 +71,7 @@ Precise definitions before any verdict. Anchors named; `[speculation]` tagging w
 - Cohomological obstruction theory in concurrency (work by Mazurkiewicz / Goubault on directed-algebraic-topology for concurrent systems): pure-mathematical analog, not yet wired into CRDT / CALM literature.
 - The "exclusion class" of CALM itself, if read as an invariant of the program's monotone-vs-non-monotone signature — but this is a typing-classification, not a cohomological invariant.
 
-**The bridge claim at this layer.** Per the Anomaly theorist (persona 3 in WRK-394): the *correct* bridge target on the physics side is anomaly-class / inflow, not per-observable readout. On the CS side, the *correct* target is the **exclusion class** of CALM — the typed invariant that says "this program needs coordination." `[speculation]` These are both invariants-of-the-classifying-object, not properties-of-individual-observables. Whether they constitute a "bridge" or merely "structural rhyme between two classification invariants" is the open question.
+**The bridge claim at this layer.** Per the Anomaly theorist (perspective 3 in WRK-394): the *correct* bridge target on the physics side is anomaly-class / inflow, not per-observable readout. On the CS side, the *correct* target is the **exclusion class** of CALM — the typed invariant that says "this program needs coordination." `[speculation]` These are both invariants-of-the-classifying-object, not properties-of-individual-observables. Whether they constitute a "bridge" or merely "structural rhyme between two classification invariants" is the open question.
 
 ### 1.4 Coarse-graining layer
 
@@ -87,7 +87,7 @@ Precise definitions before any verdict. Anchors named; `[speculation]` tagging w
 - Aggregation hierarchies in stream processing (Apache Beam windowing, watermarks): macro-observable extraction from micro-event-stream. Closer in shape than RG but without the renormalization apparatus.
 - `[speculation]` Computational mechanics (Crutchfield / Shalizi): epsilon-machines as coarse-grained projections of stochastic processes; possibly the closest CS-side analog with comparable mathematical depth.
 
-**The bridge claim at this layer.** Per the Complexity-science persona (17 in WRK-394): the Wall theorem may be a *non-commuting-square obstruction in RG flow* — `local-rule + RG != RG + local-rule` for non-monotone observables. `[speculation]` The CALM <-> GW bridge at this layer would say: coarse-graining-vs-local-rule commutation is the *same* obstruction in both fields, manifesting as monotonicity-loss on the CS side and as anomaly / phase-transition non-commutation on the physics side.
+**The bridge claim at this layer.** Per the Complexity-science perspective (17 in WRK-394): the Wall theorem may be a *non-commuting-square obstruction in RG flow* — `local-rule + RG != RG + local-rule` for non-monotone observables. `[speculation]` The CALM <-> GW bridge at this layer would say: coarse-graining-vs-local-rule commutation is the *same* obstruction in both fields, manifesting as monotonicity-loss on the CS side and as anomaly / phase-transition non-commutation on the physics side.
 
 ---
 
@@ -100,7 +100,7 @@ For each layer: restated bridge claim, evidence/counterexample mapping to valida
 **Restated claim.** *Append-only / gossip-style monotone propagation on the CS side is structurally analogous to exponentially-local Dirac-operator propagation on the physics side. Both are "coordination-free local rule application until convergence" with no commitment to a final readout.*
 
 **Validator item mapping.**
-- **V-5 (epsilon-local CALM extension).** V2's counterexample (`Q(A)=Q(B)=0, Q(A union B)=1`) lives entirely at the **decision** layer — the join operation that flips Q from 0 to 1 is a readout-decoder operation, not a propagation operation. The propagation underlying it (the per-site contributions to gauge state) IS monotone; what's non-monotone is the signed *readout*. **V-5 does not kill the propagation-layer bridge.** [Network propagation persona; confirmed by Distributed systems persona's "exclusion class" reframe.]
+- **V-5 (epsilon-local CALM extension).** V2's counterexample (`Q(A)=Q(B)=0, Q(A union B)=1`) lives entirely at the **decision** layer — the join operation that flips Q from 0 to 1 is a readout-decoder operation, not a propagation operation. The propagation underlying it (the per-site contributions to gauge state) IS monotone; what's non-monotone is the signed *readout*. **V-5 does not kill the propagation-layer bridge.** [Network propagation perspective; confirmed by Distributed systems perspective's "exclusion class" reframe.]
 - **V-3 (PCP-blindness lemma).** PCP-blindness as stated is a *certificate / readout* claim, not a propagation claim. Gossip propagation does propagate global state via local exchanges (epidemic broadcast convergence); the PCP critique kills a separate claim about local-certs-being-blind-to-global. **V-3 does not bear on the propagation-layer bridge.**
 - **V-1 (C_MPR coherence).** The C_MPR construction's `acc` / `read` factorization separates propagation (`acc`) from readout (`read`). The propagation-layer claim is the cleaner `acc`-only sub-claim. V-1's "needs more proof" critique applies to the full tuple; the propagation-sub-tuple is tighter and more defensible.
 - **V-2 (BvN generalization).** Lives at the typed-algebra layer (distributive vs orthomodular); orthogonal to propagation.
@@ -109,14 +109,14 @@ For each layer: restated bridge claim, evidence/counterexample mapping to valida
 
 **Verdict.** **HOLDS** — but as a *cross-field structural rhyme* rather than a novel mathematical bridge. The validator critiques (V-3, V-5) live at different layers and do not reach this layer. The contribution is real but smaller than the v3 syntheses claimed; the literature on each side is mature.
 
-**Evidence weight.** Network propagation persona (high authority on the CS side). Lattice QFT persona implicitly endorses (locality is the load-bearing physics-side property). Anomaly theorist: defers (anomaly content is not at this layer). `[speculation]` flag: the cross-field rhyme requires explicit work to state mathematically (a propagation-layer-only definition of "local rule with bounded-radius effective support" applicable to both classes); this work has not been done in the v3 syntheses.
+**Evidence weight.** Network propagation perspective (high authority on the CS side). Lattice QFT perspective implicitly endorses (locality is the load-bearing physics-side property). Anomaly theorist: defers (anomaly content is not at this layer). `[speculation]` flag: the cross-field rhyme requires explicit work to state mathematically (a propagation-layer-only definition of "local rule with bounded-radius effective support" applicable to both classes); this work has not been done in the v3 syntheses.
 
 ### 2.2 Decision layer
 
 **Restated claim.** *CALM-monotone decisions correspond to GW observables whose readout decoder requires no global aggregation. The canonical axial-charge readout sits in CALM's **excluded** class for the same structural reason monotone-counter-with-threshold sits in the excluded class.*
 
 **Validator item mapping.**
-- **V-5 (epsilon-local CALM extension).** **Direct, decisive kill.** V2's counterexample IS a decision-layer counterexample: the *join* operation (combining state from A and B) flips the decision non-monotonically. WRK-387's falsification is the same counterexample in physics vocabulary (instanton + antiinstanton in disjoint regions; each carries `Q_A = 0` locally, the union carries `Q_A = 1`). 16/21 personas endorse; Distributed systems persona (natural authority) calls it "the canonical monotone-extension trap" — the very mechanism CALM is designed to *exclude* such observables by.
+- **V-5 (epsilon-local CALM extension).** **Direct, decisive kill.** V2's counterexample IS a decision-layer counterexample: the *join* operation (combining state from A and B) flips the decision non-monotonically. WRK-387's falsification is the same counterexample in physics vocabulary (instanton + antiinstanton in disjoint regions; each carries `Q_A = 0` locally, the union carries `Q_A = 1`). 16/21 perspectives endorse; Distributed systems perspective (natural authority) calls it "the canonical monotone-extension trap" — the very mechanism CALM is designed to *exclude* such observables by.
 - **V-3 (PCP-blindness lemma).** Also bears on the decision layer (PCP / IOP / zk-SNARK are certificate systems that *enable* local decisions about global properties; the lemma denying this contradicts the foundational result of TCS proof systems). Decisive on the decision layer.
 - **V-1 (C_MPR coherence).** The `read` half of the `acc / read` factorization is precisely the decision-layer object. The validator critique applies most sharply here; C_MPR's `P_O` (protocol) component is undertheorized for the decision layer.
 - **V-2 (BvN generalization).** Directly relevant: the Wall theorem says there is no 1-categorical adjunction between distributive (classical-decision) and orthomodular (quantum-decision) value lattices. Survives at the lattice-gauge-internal sub-class for decisions; fails at full generality.
@@ -125,25 +125,25 @@ For each layer: restated bridge claim, evidence/counterexample mapping to valida
 
 **Verdict.** **BROKEN-IN-LAYER** — the decision-layer bridge claim, as stated in the v3 syntheses, is killed by V-3 and V-5 jointly, with the additional weight of V-2 restricting the Wall theorem to a sub-class and V-6 noting substantial prior art.
 
-**Evidence weight.** Distributed-systems persona (high authority): "the classic monotone-extension trap, unfixable as stated." CRDT specialist (high authority): "PN-counter merge limitation, well-known." Cryptography persona (decisive on V-3): "the PCP-blindness lemma must be retracted in full." WRK-387's direct counterexample seals it.
+**Evidence weight.** Distributed-systems perspective (high authority): "the classic monotone-extension trap, unfixable as stated." CRDT specialist (high authority): "PN-counter merge limitation, well-known." Cryptography perspective (decisive on V-3): "the PCP-blindness lemma must be retracted in full." WRK-387's direct counterexample seals it.
 
 **Partial repairs available** (at smaller scope, not rescuing the full claim):
-- *Jordan-decomposed signed-CALM* (Statistics persona): split `Q_A` into `(Q_A^+, Q_A^-)` with monotone per-component propagation + non-monotone final subtraction; the subtraction requires coordination, which means the *decision* is still excluded but the *decomposition* is publishable as a TCS extension.
-- *Exclusion-class reframe* (Distributed systems persona): publish the negative result — "GW axial charge sits in CALM's exclusion class for structural reasons identical to PN-counter-with-threshold."
+- *Jordan-decomposed signed-CALM* (Statistics perspective): split `Q_A` into `(Q_A^+, Q_A^-)` with monotone per-component propagation + non-monotone final subtraction; the subtraction requires coordination, which means the *decision* is still excluded but the *decomposition* is publishable as a TCS extension.
+- *Exclusion-class reframe* (Distributed systems perspective): publish the negative result — "GW axial charge sits in CALM's exclusion class for structural reasons identical to PN-counter-with-threshold."
 
 ### 2.3 Anomaly-class layer
 
 **Restated claim.** The CALM-exclusion class on the CS side and the 't Hooft anomaly classification on the physics side are both *invariants of the classifying object*, not properties of individual observables. The bridge at this layer would say these two invariants exhibit structural correspondence.
 
 **Validator item mapping.**
-- **V-5 (epsilon-local CALM extension).** *Mis-targets* the anomaly-class layer. The anomaly is an invariant of the symmetry algebra; V-5's counterexample is at the observable level. The signed-cancellation pathology that V-5 observes IS *the very content* the anomaly classifies — that observation is the Anomaly theorist persona's load-bearing point in WRK-394. **V-5 does not kill the anomaly-class bridge; it's a different claim entirely.**
+- **V-5 (epsilon-local CALM extension).** *Mis-targets* the anomaly-class layer. The anomaly is an invariant of the symmetry algebra; V-5's counterexample is at the observable level. The signed-cancellation pathology that V-5 observes IS *the very content* the anomaly classifies — that observation is the Anomaly theorist perspective's load-bearing point in WRK-394. **V-5 does not kill the anomaly-class bridge; it's a different claim entirely.**
 - **V-3 (PCP-blindness lemma).** Anomaly-class invariants ARE locally witnessable via index density (Chern density, anomaly density) — V1's Chern-number counterexample lands at this layer. The PCP-blindness lemma is wrong AT the anomaly-class layer in a specific way: anomaly density is exactly the kind of local-witnessable global invariant the lemma denies exists. **V-3 kills a claim that doesn't even apply to this layer correctly.**
 - **V-1 (C_MPR coherence).** C_MPR doesn't have a clean anomaly-class element. The construction is a value-lattice / readout-decoder / provenance object; relocating the bridge to anomaly-class would require a *different* construction (e.g., Freed-Hopkins-style classification, or a CS-side classifying-topos object). The v3 syntheses do not provide this.
 - **V-2 (BvN generalization).** The Wall theorem is about value-lattice adjunctions, not about anomaly classifications. **N/A at this layer.**
 - **V-4 (HLN universal lifting).** Lifting between quantum numbers IS partly an anomaly-class question (different anomalies for different symmetries); the "restrict to axial" move is the right scope.
 - **V-6 (prior art).** The Freed-Hopkins-Anomaly-Inflow literature, Dai-Freed pairing, and the Bohr-topos / CQM classifying-topos literature on the CS side are mature. An anomaly-class bridge is a *recategorification* exercise on top of two mature classification programs.
 
-**Verdict.** **NOT-APPLICABLE as currently constructed** — the v3 syntheses do not formulate an anomaly-class layer bridge; the validator items do not bear on this layer because the layer is not actively populated. **Conditional HOLDS** if the bridge is *constructed* (Anomaly theorist persona's "repair-and-retry" recommendation): relocating the bridge from observable to anomaly-class would require new work, but the persona judgment is that such a bridge is constructively viable, with the signed-cancellation pathology becoming the content rather than the obstruction.
+**Verdict.** **NOT-APPLICABLE as currently constructed** — the v3 syntheses do not formulate an anomaly-class layer bridge; the validator items do not bear on this layer because the layer is not actively populated. **Conditional HOLDS** if the bridge is *constructed* (Anomaly theorist perspective's "repair-and-retry" recommendation): relocating the bridge from observable to anomaly-class would require new work, but the perspective judgment is that such a bridge is constructively viable, with the signed-cancellation pathology becoming the content rather than the obstruction.
 
 **Evidence weight.** Anomaly theorist (specialist authority): "relocate the bridge to anomaly-class level; this is publishable as 'we found the wrong target; here is the right one.'" Operator algebraist (concurring): the right home is Heunen-Reyes dagger-categorical work, also a classifying-object move. `[speculation]`: this is a new card's scope, not WRK-397's. Honest gatekeeper: do not claim HOLDS for a bridge that has not been constructed yet. The label NOT-APPLICABLE here means "the layer is real and well-defined, but the validators' kills don't reach a bridge that the v3 syntheses haven't built."
 
@@ -152,16 +152,16 @@ For each layer: restated bridge claim, evidence/counterexample mapping to valida
 **Restated claim.** Coarse-graining-vs-local-rule non-commutation on the physics side (RG flow does not commute with local update at phase transitions) is the *same* obstruction as monotonicity-loss at projected readouts on the CS side. The Wall theorem may be a manifestation of this non-commutation rather than a 1-categorical no-go.
 
 **Validator item mapping.**
-- **V-5 (epsilon-local CALM extension).** *Partial relocation* — the Complexity-science persona reads V-5 as a *special case* of RG-non-commutation: the join operation is a coarse-graining (combining sub-region states into a unified state), and the readout is a projected order parameter. Coarse-grainings generically fail to commute with local rules at phase transitions; V-5's counterexample is the same phenomenon in distributed-systems vocabulary. **V-5 confirms the coarse-graining-layer claim** in the sense that "monotonicity-loss at projection" is exactly what the layer predicts; it does not falsify it, it instances it.
+- **V-5 (epsilon-local CALM extension).** *Partial relocation* — the Complexity-science perspective reads V-5 as a *special case* of RG-non-commutation: the join operation is a coarse-graining (combining sub-region states into a unified state), and the readout is a projected order parameter. Coarse-grainings generically fail to commute with local rules at phase transitions; V-5's counterexample is the same phenomenon in distributed-systems vocabulary. **V-5 confirms the coarse-graining-layer claim** in the sense that "monotonicity-loss at projection" is exactly what the layer predicts; it does not falsify it, it instances it.
 - **V-3 (PCP-blindness lemma).** RG flow loses micro-information; PCP-style proofs are about *recovering* global information from local certificates via algebraic compression. These are different mechanisms; **V-3 does not bear directly on the coarse-graining layer.**
 - **V-1 (C_MPR coherence).** C_MPR's `acc / read` factorization is a coarse-graining structure (`acc` accrues micro-state; `read` projects to macro-observable). The validator critique that C_MPR needs more rigor applies; the coarse-graining-layer reframe gives the factorization a known mathematical home (RG / projection).
-- **V-2 (BvN generalization).** The Wall theorem AS A COARSE-GRAINING STATEMENT: the no-go between distributive and orthomodular lattices is structurally identical to the no-go for commuting coarse-graining with local-rule application across a phase transition. `[speculation]`: this reframe is constructed-here; the Complexity persona's recommendation in WRK-394 is to relocate the Wall to "RG-non-commutation for chiral observables on classical substrates."
+- **V-2 (BvN generalization).** The Wall theorem AS A COARSE-GRAINING STATEMENT: the no-go between distributive and orthomodular lattices is structurally identical to the no-go for commuting coarse-graining with local-rule application across a phase transition. `[speculation]`: this reframe is constructed-here; the Complexity perspective's recommendation in WRK-394 is to relocate the Wall to "RG-non-commutation for chiral observables on classical substrates."
 - **V-4 (HLN universal lifting).** Lifting between quantum numbers is partly a question of which coarse-grainings are RG-compatible. Not killed; restricted scope.
 - **V-6 (prior art).** Wilson / Goldenfeld / Mehta-Schwab on RG; Crutchfield / Shalizi on computational-mechanics coarse-graining. Substantial prior art on the physics side; less mature on the CS side. The bridge would be a *new* connection between these two coarse-graining programs.
 
 **Verdict.** **HOLDS [speculation]** — the coarse-graining-layer bridge survives the validator critiques because the validator critiques *instance* rather than *falsify* the predicted non-commutation. However, the claim as stated is partly constructed-here (`[speculation]` tags above) — the v3 syntheses did not articulate this layer, so "HOLDS" here means "the bridge is constructively viable and consistent with the validator findings," not "the bridge has been built and tested." This is the **second most repair-friendly layer** (after propagation).
 
-**Evidence weight.** Complexity-science persona (specialist authority): "the Wall is structurally identical to non-commuting-square obstruction in RG flow." Wolfram-CA persona (concurring frame-shift): the CA-class reframe is adjacent. `[speculation]`: a substantive coarse-graining-layer bridge would need work to formalize the "RG-non-commutation for non-monotone observables" claim mathematically.
+**Evidence weight.** Complexity-science perspective (specialist authority): "the Wall is structurally identical to non-commuting-square obstruction in RG flow." Wolfram-CA perspective (concurring frame-shift): the CA-class reframe is adjacent. `[speculation]`: a substantive coarse-graining-layer bridge would need work to formalize the "RG-non-commutation for non-monotone observables" claim mathematically.
 
 ---
 
@@ -179,11 +179,11 @@ The decision layer *consumes* the converged state from the propagation layer. A 
 
 ### 3.2 Decision -> Anomaly-class dependency
 
-A decision-layer non-monotonicity is *evidence* of an anomaly-class invariant. The instanton + antiinstanton cancellation that breaks decision-layer monotonicity IS the anomaly content. The Anomaly theorist persona's claim is that the decision-layer "obstruction" is the anomaly-class "signal."
+A decision-layer non-monotonicity is *evidence* of an anomaly-class invariant. The instanton + antiinstanton cancellation that breaks decision-layer monotonicity IS the anomaly content. The Anomaly theorist perspective's claim is that the decision-layer "obstruction" is the anomaly-class "signal."
 
 **Implication.** *Fixing the decision layer would erase the anomaly-class content.* This is the deep structural reason no Jordan-decomposed / signed-CALM repair fully rescues the v3 syntheses' original claim: any "repair" that makes the decision layer monotone would, by construction, remove the topological information the observable is supposed to carry. The decision-layer failure and the anomaly-class content are *the same phenomenon*, viewed from different layers.
 
-**Cross-layer prediction.** If a decision-layer bridge ever succeeds (via Jordan decomposition, signed CRDTs, etc.), it will do so by *moving* the anomaly-class content into a separate witness (the sign / phase / index of the decomposition) rather than eliminating it. This is the "proof-carrying provenance" insight from the Cryptography persona in the six-persona dialectic.
+**Cross-layer prediction.** If a decision-layer bridge ever succeeds (via Jordan decomposition, signed CRDTs, etc.), it will do so by *moving* the anomaly-class content into a separate witness (the sign / phase / index of the decomposition) rather than eliminating it. This is the "proof-carrying provenance" insight from the Cryptography perspective in the six-perspective dialectic.
 
 ### 3.3 Coarse-graining <-> all-other-layers (interaction, not strict dependency)
 
@@ -215,7 +215,7 @@ Independence claim: propagation can be assessed without the others (HOLDS verdic
 | Layer | Verdict | Validator items that hit this layer | Validator items that miss this layer | Repair scope |
 |---|---|---|---|---|
 | Propagation | **HOLDS** (as cross-field structural rhyme; smaller than v3 claimed) | (none directly) | V-3, V-5 (live at decision); V-2 (live at value-lattice) | None needed; engage cross-field-rhyme literature explicitly |
-| Decision | **BROKEN-IN-LAYER** (V-3 + V-5 jointly decisive) | V-3 decisive, V-5 decisive, V-1 most relevant, V-2 restricts | (none) | Jordan-decomposed sub-scope (Statistics persona); exclusion-class reframe (Distributed systems) |
+| Decision | **BROKEN-IN-LAYER** (V-3 + V-5 jointly decisive) | V-3 decisive, V-5 decisive, V-1 most relevant, V-2 restricts | (none) | Jordan-decomposed sub-scope (Statistics perspective); exclusion-class reframe (Distributed systems) |
 | Anomaly-class | **NOT-APPLICABLE as constructed** (the v3 syntheses do not build this bridge; layer is real but unpopulated) | V-3 indirectly (the lemma is wrong AT this layer in a different way) | V-2, V-5 (mis-target this layer) | Constructive: relocate bridge here (Anomaly theorist's repair-and-retry) — new card |
 | Coarse-graining | **HOLDS [speculation]** (the validator findings *instance* rather than falsify the predicted non-commutation; bridge is constructively viable but not yet built) | V-2 reframable as non-commuting square; V-5 as RG-non-commutation special case | V-3 (different mechanism) | Constructive: formalize RG-non-commutation for non-monotone observables — new card |
 
@@ -225,7 +225,7 @@ Independence claim: propagation can be assessed without the others (HOLDS verdic
 - **1 layer NOT-APPLICABLE** (anomaly-class, the v3 syntheses do not populate it; constructive bridge is a separate effort).
 - **1 layer HOLDS-with-construction-needed** (coarse-graining, structurally consistent with validator findings but requires new formalization).
 
-**Honest reading.** The 5-persona signal in WRK-394 was correct: the bridge work conflated layers the literature keeps separate. Splitting reveals that **one layer survives intact** (propagation), **one layer dies cleanly** (decision), and **two layers are reframeable** as potential homes for a smaller-scope follow-on contribution. The bridge does NOT uniformly collapse, and it does NOT uniformly survive — the layer-split is the right grain.
+**Honest reading.** The 5-perspective signal in WRK-394 was correct: the bridge work conflated layers the literature keeps separate. Splitting reveals that **one layer survives intact** (propagation), **one layer dies cleanly** (decision), and **two layers are reframeable** as potential homes for a smaller-scope follow-on contribution. The bridge does NOT uniformly collapse, and it does NOT uniformly survive — the layer-split is the right grain.
 
 ---
 
@@ -250,7 +250,7 @@ Independence claim: propagation can be assessed without the others (HOLDS verdic
 A 6-item walkthrough (under 15 minutes target):
 
 1. **Are the four-layer definitions correct?** Propagation / decision / anomaly-class / coarse-graining as defined in §1. Each has CS-side and physics-side anchors; the anchors are cited or `[speculation]`-tagged where the cross-field mapping is constructed-here.
-2. **Is the layer-split a coherent decomposition?** Section 2 renders one verdict per layer. The 5-persona surfacing in WRK-394 (Anomaly, Network, Distributed systems, Sound, Complexity) is the convergent signal that motivated this exploration; the per-layer verdicts here either confirm or refute that signal.
+2. **Is the layer-split a coherent decomposition?** Section 2 renders one verdict per layer. The 5-perspective surfacing in WRK-394 (Anomaly, Network, Distributed systems, Sound, Complexity) is the convergent signal that motivated this exploration; the per-layer verdicts here either confirm or refute that signal.
 3. **The per-layer verdicts:** propagation HOLDS, decision BROKEN-IN-LAYER, anomaly-class NOT-APPLICABLE-as-constructed, coarse-graining HOLDS-`[speculation]`. Does Joe agree with each, or push back on any?
 4. **The cross-layer interaction map** (§3): propagation -> decision is a strict dependency; decision -> anomaly-class is an *entanglement* (the failure IS the content); coarse-graining is orthogonal projection across the stack. Does this match Joe's prior intuition or surprise him?
 5. **What this changes for WRK-393:** the publication-path-lock should consider a single tightly-scoped propagation-layer paper rather than the 3-paper Option II companion set. Decision-layer paper is dead; anomaly-class and coarse-graining are *future* cards. Is this the right input to WRK-393's reopen?
@@ -260,7 +260,7 @@ Joe's expected decisions at validation/4:
 - A. Confirm layer definitions are usable (or push back; re-open).
 - B. Confirm per-layer verdicts (or push back; re-explore specific layers).
 - C. Confirm the cross-layer map (or push back).
-- D. Decide whether to spawn follow-on cards for: (i) anomaly-class bridge construction (Anomaly theorist's repair-and-retry); (ii) coarse-graining bridge construction (Complexity persona's RG-non-commutation reframe); (iii) propagation-layer-only publication path (input to WRK-393 reopen).
+- D. Decide whether to spawn follow-on cards for: (i) anomaly-class bridge construction (Anomaly theorist's repair-and-retry); (ii) coarse-graining bridge construction (Complexity perspective's RG-non-commutation reframe); (iii) propagation-layer-only publication path (input to WRK-393 reopen).
 - E. Confirm WRK-397 closure at validation/4.
 
 ---

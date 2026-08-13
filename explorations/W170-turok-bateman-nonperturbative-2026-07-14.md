@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W170; 5-persona inline team; one deterministic test 18/18 exit 0; the Turok-Bateman non-perturbative question adjudicated against the primary source, R1, W132)
+status: exploration (W170; 5-perspective inline team; one deterministic test 18/18 exit 0; the Turok-Bateman non-perturbative question adjudicated against the primary source, R1, W132)
 created: 2026-07-14
 hypothesis: the Turok-Bateman mechanism / [P_ghost, S] = 0 (in service of H59, the keystone W167/W168 convergence)
 branch: "Team TUROK-BATEMAN (W170): does the Bateman-Turok non-perturbative mechanism, applied to GU keep-and-grade, establish [P_ghost, S] = 0 / the Krein grading OPERATIVE non-perturbatively, or clear the FREE / TREE theory only?"
@@ -31,7 +31,7 @@ bar (b) is re-posed. The repo anchors the keep-and-grade rescue to Bateman & Tur
 dual-oscillator / hidden-ghost-parity construction (canon `ghost-parity-krein-synthesis.md`).
 This team asks the TB-specific form: does the Turok-Bateman mechanism ESTABLISH the grading
 operative NON-PERTURBATIVELY (bypassing the loop-order obstruction the perturbative route hits),
-or does it clear the FREE / TREE theory only? Five personas ran inline; one deterministic test
+or does it clear the FREE / TREE theory only? Five perspectives ran inline; one deterministic test
 `tests/W170_turok_bateman_nonperturbative.py` (18/18, exit 0).
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -43,7 +43,7 @@ or does it clear the FREE / TREE theory only? Five personas ran inline; one dete
 | **The ghost parity `P_ghost`** | the `Z2` swapping generation `<->` mirror (null-half swap, C-like); NOT the fundamental symmetry `eta` (sign of norm) | kept distinct: `[P_ghost, S] = 0` is not `[eta, S] = 0`; the C-operator is `P_ghost` AND `eta P_ghost > 0` |
 | **"The physical subspace"** | free-grading positive sector `H_+`; the C-positive subspace | both characterized; positivity holds on `H_+` only at tree (`B = 0`) |
 
-## 1. Persona 1 -- Turok-Bateman / cosmology specialist: what the mechanism actually is
+## 1. Perspective 1 -- Turok-Bateman / cosmology specialist: what the mechanism actually is
 
 The Bateman dual-oscillator move is a NON-perturbative recasting, not a loop resummation. The
 free four-derivative theory (`box^2 phi`, double-pole propagator `-i/(p^2)^2`) is EMBEDDED in a
@@ -78,7 +78,7 @@ non-perturbatively, and a POSITIVITY statement at tree level only.** The non-per
 character lives on the parity axis, not the positivity axis. There is no non-perturbative
 positivity theorem in TB (test F3).
 
-## 2. Persona 2 -- Krein / PT specialist: is it a positivity or a parity statement?
+## 2. Perspective 2 -- Krein / PT specialist: is it a positivity or a parity statement?
 
 Reuse W132's commutation-vs-positivity distinction, sharpened. Pseudo-unitarity gives, for a
 physical in-state and the free grading `eta = P_+ - P_-`,
@@ -102,14 +102,14 @@ positivity-compatible. So:
   > 0`). W132 reduced keep-and-grade positivity to it WITHOUT REMAINDER; W54 prices it non-local;
   branch B / R1 have it order-by-order in QM only.
 
-Verdict of this persona: **TB is fundamentally a PARITY statement**; its positivity content is a
+Verdict of this perspective: **TB is fundamentally a PARITY statement**; its positivity content is a
 tree-level corollary that does NOT lift, because the lift requires `eta P_ghost > 0` at loop
 level, which is exactly the open interacting-C object. The machine-checked separation (test D4):
 ONE pseudo-unitary `S` is simultaneously `[P_ghost,S]=0`-consistent, naive-positivity-VIOLATING
 (row sum `1.0075 > 1`, `||B|| = 0.096`), and C-metric-unitary (`min eig(eta_+) = 0.687 > 0`,
 `C^2 = I`, `[S,C] = 0`). Parity survives; positivity is contingent on the C-metric.
 
-## 3. Persona 3 -- GU-model specialist: does interaction preserve the graded pair in GU?
+## 3. Perspective 3 -- GU-model specialist: does interaction preserve the graded pair in GU?
 
 Two GU-specific narrowings, both cutting toward FREE-ONLY.
 
@@ -133,7 +133,7 @@ named a new failure mode (the equal-frequency Jordan locus, where NO positivity-
 parity exists at all). TB does not remove that gate; it supplies the tree corollary that lives
 above it.
 
-## 4. Persona 4 -- symbolic engineer: the tests (W170, 18/18, exit 0)
+## 4. Perspective 4 -- symbolic engineer: the tests (W170, 18/18, exit 0)
 
 Positive controls (the mandate's "reproduce the Bateman free clearing and W120's graded cut"):
 
@@ -155,7 +155,7 @@ The interacting-survival check:
   -- positivity fails despite the parity. This is the discriminating control: the machinery
   genuinely separates parity from positivity.
 
-## 5. Persona 5 -- adversarial skeptic: steelman FREE-THEORY-ONLY, then attack it
+## 5. Perspective 5 -- adversarial skeptic: steelman FREE-THEORY-ONLY, then attack it
 
 **The steelman, at full strength (test F1).** TB clear the FREE ghost decisively: the O(1,1)
 embedding is exact, the ghost parity is an exact symmetry, tree positivity is proved, and

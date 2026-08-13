@@ -12,7 +12,7 @@
     "title": "Eric Weinstein, Geometric Unity: Author's Working Draft v1.0, 2021-04-01",
     "official_url": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf",
     "pdf_sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
-    "render_receipt_path": "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
+    "render_receipt_path": "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
     "render_receipt_sha256": "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4",
     "checked_pages": [43, 44, 45, 46, 47, 48, 55, 56, 57, 58],
     "grade": "AUTHOR_PRIMARY_PDF_WITH_RENDERED_MANUAL_TRANSCRIPTION_RECEIPT"
@@ -25,7 +25,7 @@
         "sha256": "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f"
       },
       {
-        "path": "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
+        "path": "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
         "sha256": "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4"
       },
       {
@@ -219,7 +219,7 @@
     {
       "id": "PW2F-SRC-09-ODOT-EPSILON-OMEGA-FORK",
       "claim_ledger_id": "DGU01-TR-02-TR-03",
-      "source_path": "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
+      "source_path": "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
       "file_sha256": "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4",
       "line_start": 90,
       "line_end": 100,

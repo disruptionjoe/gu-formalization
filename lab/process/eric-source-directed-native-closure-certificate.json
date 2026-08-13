@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T160344Z-eric-source-directed-native-closure",
+  "run_id": "historical-investigation",
   "branch": "agent/weinstein-guided-source-action",
   "verdict": "CONDITIONAL_NATIVE_CLOSURE_WITH_EXACT_POSITIVE_CONTROL",
   "source_reconciliation": "lab/process/curt-iceberg-native-crosswalk.json",

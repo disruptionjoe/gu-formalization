@@ -5,9 +5,7 @@ doc_type: scoping_sweep
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (post-wave relevance sweep)"
 provenance_grade: hearsay
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source-wave relevance sweep: 2026-07-20 intake wave vs the live GU frontier

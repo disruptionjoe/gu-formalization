@@ -162,7 +162,7 @@ Status: valuable method, but its example should be less canonical.
 
 What holds:
 
-- Divergent-persona and dialectic protocol is exactly the right method for escaping local-gradient consensus.
+- Divergent-perspective and dialectic protocol is exactly the right method for escaping local-gradient consensus.
 - The method is useful because it exposes layer mistakes, not because every synthesis becomes true.
 
 Misstep:

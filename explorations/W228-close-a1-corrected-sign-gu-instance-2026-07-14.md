@@ -62,7 +62,7 @@ endomorphism ring, and `(a_lambda, b_lambda)` is the +/- multiplicity of type
 hypothesis). A continuum appears **only** in the degenerate case where a `+`
 constituent and a `-` constituent are the same irreducible `K`-type.
 
-Lane A1's question is therefore sharp and binary: **for GU's actual stabilizer,
+research maintenance1's question is therefore sharp and binary: **for GU's actual stabilizer,
 does a `+` constituent coincide with a `-` constituent, or not?**
 
 ## 2. GU's actual good-stable stabilizer (from W203/W206/W219)
@@ -154,7 +154,7 @@ This also withdraws the GU-specific leg of W211's "Godel-independent" synthesis,
 already flagged as killed in the hardening report; W228 supplies the positive
 replacement (forced-unique) rather than merely negating the old claim.
 
-## 5. Personas
+## 5. Perspectives
 
 **Invariant-theory / Schur specialist.** The residual is governed by the real
 isotypic decomposition, not by counting invariant forms. On `SO(9) x SO(5)` the

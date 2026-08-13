@@ -12,7 +12,7 @@ depends_on:
   - tests/wave19/H42_f0_prereg.py
   - canon/ghost-parity-krein-synthesis.md
   - explorations/threads/D-structural-conformal-willmore-functor-scoping-and-first-swing-2026-07-11.md
-  - explorations/persona-and-dialectic/entropic-gravity-antithesis-information-first-2026-07-07.md
+  - explorations/perspective-and-dialectic/entropic-gravity-antithesis-information-first-2026-07-07.md
 tests:
   - tests/wave21/H5_relentropy_vs_willmore.py   # exit 0
 ---

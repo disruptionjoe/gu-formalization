@@ -3,9 +3,7 @@ title: "Hostile review: real-K77 draft-9.16 blockwise rival"
 date: 2026-08-04
 status: complete
 verdict: "REPAIRED_PARTIAL__CONDITIONAL_RIVAL_PASSES__SOURCE_SIGN_COMMON_VARIATION_AND_FULL_H_OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 Wave-2 actual-carrier D916 attempt

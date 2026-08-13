@@ -4,9 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (committed-construction council: each substrate assumes it is literally reality; commitment is a strength; do not synthesize, do not rank; each points to a falsifiable prediction)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: n/a (interpretive constructions, not probes)
 inputs:
@@ -41,7 +39,7 @@ literal circle is orientable and cannot carry σ. It does **not** kill the
 circle/cyclic reading in general, for two reasons the investigation itself insists
 on: (i) standard topology is a THIRD-PERSON lens, and the whole point is that the
 third person sees orientations the σ-blind first person cannot — so "the circle is
-orientable" is precisely a third-person fact that may flip first-personally; and
+orientable" is precisely a third-person fact that may flip first-perspectivelly; and
 (ii) w₁ is defined relative to a CHOSEN structure group, and the standard
 tangent-frame group is NOT GU's native deck/Krein transition structure, under which
 the orientation class can differ. So **two readings are LIVE and neither is globally
@@ -226,7 +224,7 @@ Relative to the client's transition structure the shard-cycle carries a nontrivi
 w₁, and the co-flip is the server reversing that first-person orientation
 (machine-exact = K_S → −K_S) without the client ever reading it. Standard topology
 calling the circle orientable is precisely the third-person fact that flips
-first-personally, so the no-go does not veto this construction.
+first-perspectivelly, so the no-go does not veto this construction.
 
 The shards are literally shards. Subjective = one client's instance. Intersubjective
 = a region-server reconciling several clients into a shared authoritative sub-state

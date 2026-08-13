@@ -37,7 +37,7 @@ This computation reads three bodies of evidence directly:
   bare Ext_S does not derive nontrivial holonomy; transport functor must be independently
   specified; `next_fixture: cech_sheaf_fixture`)
 - `temporal-issuance/agent-governance/NEXT-TRIGGER-PLAN.md` (multiple entries from
-  RUN-0037 through RUN-0041 all pointing to `W000 -> cech_sheaf_fixture` as the next
+  historical-investigation through historical-investigation all pointing to `W000 -> cech_sheaf_fixture` as the next
   required work)
 
 Prior GU-formalization results that bear on this: N6 (w_2(Y^14) = 0; Y^14 is spin),
@@ -108,20 +108,20 @@ Evidence:
 2. The temporal-issuance explorations directory contains files E001 through E053; there
    is no file named `cech_sheaf_fixture` or any Exx file that instantiates it. A glob
    search for `*cech*` in temporal-issuance returns zero results. A search for `*sheaf*`
-   returns only `E024-presheaf-ab-absorber-test.md` and `RUN-0044-presheaf-ab-absorber-test.md`,
+   returns only `E024-presheaf-ab-absorber-test.md` and `historical-investigation`,
    which are about the presheaf/Grothendieck fibration absorber test (a different question).
 3. `NEXT-TRIGGER-PLAN.md` references `W000 -> cech_sheaf_fixture` in four separate
-   entries (from RUN-0037, RUN-0039, RUN-0040, RUN-0041), each designating it as primary
-   or secondary next work. The most recent entry (RUN-0041 section) states: "Do not run
+   entries (from historical-investigation, historical-investigation, historical-investigation, historical-investigation), each designating it as primary
+   or secondary next work. The most recent entry (historical-investigation section) states: "Do not run
    the Cech/sheaf fixture as a free-standing novelty claim until the hidden-schema problem
    is explicit."
-4. `RUN-0037-holonomy-fixture.md`: `next_recommended_run: cech_sheaf_fixture`.
+4. `historical-investigation`: `next_recommended_run: cech_sheaf_fixture`.
 
 The cech_sheaf_fixture is a planned but unexecuted test. The E015 route does not close H3.
 
 ### Step 3: What the cech_sheaf_fixture Would Have to Show to Close H3
 
-The canonical statement from NEXT-TRIGGER-PLAN.md (RUN-0037 section) is:
+The canonical statement from NEXT-TRIGGER-PLAN.md (historical-investigation section) is:
 
 > Specify the section-compatibility predicate for C-typed extensions on a two-patch cover
 > of S^1. Ask whether the admissibility rule independently determines which Cech cocycles

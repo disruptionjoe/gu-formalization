@@ -172,7 +172,7 @@ content and must not enter until separately built and pre-declared.
 
 ## H. Decision provenance (audit trail)
 `explorations/pp3-v0.3-reporting-decision-record-2026-07-22.md` — the full trail: the two flags, the
-10-persona pass, the Science Council (registered; grounded in GU Purpose/Passion/Practice), the explicit
+10-perspective pass, the Science Council (registered; grounded in GU Purpose/Passion/Practice), the explicit
 aggregation verdict, and the cross-modal reproduction that fixed the ledger. Plus the returned gathers and
 the source-hash / freeze lineage above.
 

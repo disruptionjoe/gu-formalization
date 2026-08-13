@@ -2,7 +2,6 @@
 title: "Source reinspection: selected-branch totalization, current and stress"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CORRECTS_LITERAL_CURRENT_TO_STRESS_AND_PARTIAL_TOTALIZATION_READINGS__CONFIRMS_UNFINISHED_PATH_ARCHITECTURE
 ---
 

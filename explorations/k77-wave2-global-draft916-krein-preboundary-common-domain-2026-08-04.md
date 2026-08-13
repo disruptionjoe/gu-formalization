@@ -3,12 +3,9 @@ title: "K77 Wave 2 partial: rendered draft-9.16 matrix and formal primalizer tem
 status: active_research
 doc_type: exploration
 created: 2026-08-04
-lane: 1
 gate: RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD
 result: "PARTIAL__DRAFT916_SOURCE_MATRIX_AND_FORMAL_PRIMALIZER_TEMPLATES_BUILT__ACTUAL_D916_K77_ASSEMBLY_OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 Wave 2 partial: what the draft operator supplies and what remains to be built

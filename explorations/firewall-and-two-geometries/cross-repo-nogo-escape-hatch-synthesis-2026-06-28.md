@@ -3,7 +3,7 @@ title: "Cross-repo no-go escape-hatch synthesis: why class-relative buys no esca
 status: exploration
 doc_type: synthesis
 created: 2026-06-28
-source: "18-lens cross-repo persona panel (gu-formalization + time-as-finality + temporal-issuance) -> meta -> synthesis -> completeness critic; 21 agents"
+source: "18-lens cross-repo perspective panel (gu-formalization + time-as-finality + temporal-issuance) -> meta -> synthesis -> completeness critic; 21 agents"
 posture: verdict-agnostic; favored verdict across all lenses is the KILL; nothing here is established
 ---
 

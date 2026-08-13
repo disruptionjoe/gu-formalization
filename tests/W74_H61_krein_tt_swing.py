@@ -38,7 +38,7 @@ LITERATURE (surveyed 2026-07-12; read-only, no external action):
           algebras", CMP 111 (1987) 123): POSITIVE-metric wedge/local algebras are the unique
           hyperfinite type III_1 factor.  NO indefinite-metric / Krein type classification exists.
 
-TRIAGE VERDICT encoded below (persona 5): OPEN-BUT-HARD.  Not OPEN-AND-REACHABLE (no theorem covers
+TRIAGE VERDICT encoded below (perspective 5): OPEN-BUT-HARD.  Not OPEN-AND-REACHABLE (no theorem covers
 rank>=2 / type III / genuinely-indefinite state -- these are undeveloped, not citable).  Not BLOCKED
 (the conjugation exists at rank 1; the positive-KMS obstruction may be a FEATURE -- "no distinguished
 state = the observer's free selection = the value", coinciding with H62 -- rather than a wall).
@@ -263,7 +263,7 @@ check("T4  Krein-TT targets symmetry-invariant structure (J_K + flow, fixed by e
       krein_tt_non_tautological, "arena = {J_K, flow}; value = {positive state}")
 
 # ================================================================================================
-# T5 -- REACHABILITY BOOLEANS (persona 5), updated with the 2026 survey.  TRIAGE = OPEN-BUT-HARD.
+# T5 -- REACHABILITY BOOLEANS (perspective 5), updated with the 2026 survey.  TRIAGE = OPEN-BUT-HARD.
 # ================================================================================================
 log("\n[T5] Reachability booleans -- TRIAGE = OPEN-BUT-HARD")
 reach = {

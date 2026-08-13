@@ -24,7 +24,7 @@ def strict(relative):
 
 registry = strict("lab/process/selected-second-layer-i2b-gauss-owner-map.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.38.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-06-selected-second-layer-i2b-gauss-owner-map-review.md").read_text()
 source = (ROOT / "lab/sources/gu-two-layer-action-source-reinspection-2026-08-04.md").read_text()

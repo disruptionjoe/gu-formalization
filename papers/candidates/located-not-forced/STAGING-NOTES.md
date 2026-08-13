@@ -229,7 +229,7 @@ in this fold.
 LIFTED.** This is the authorizing decision the earlier "stays DEFERRED / Joe-gated" notes were waiting on.
 Trail: both cards that caused the deferral closed at computed grade on 2026-07-02 (WC-ENUM-COMPLETENESS,
 WC-ANTILINEAR-BOUND), the third adversarial review rated the paper arXiv-ready, and Joe's sequence decision
-(`system-runtime/mailboxes/gu-formalization/20260722-lnf-oddprimary-sequence-decision.md`) confirmed LNF is
+(`private orchestration runtime/mailboxes/gu-formalization/20260722-lnf-oddprimary-sequence-decision.md`) confirmed LNF is
 good/useful standalone and must not be suppressed.
 
 - **Sequence:** LNF first (this paper); the odd-primary boundary paper

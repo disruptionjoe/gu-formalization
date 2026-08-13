@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (Branch 5 of the observer-conjecture frontier wave; ADVERSARIAL no-go / rigidity branch; PRESENT-not-decide; 5-persona inline team; deterministic test)
+status: exploration (Branch 5 of the observer-conjecture frontier wave; ADVERSARIAL no-go / rigidity branch; PRESENT-not-decide; 5-perspective inline team; deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path) -- the ADVERSARIAL face
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -66,9 +66,9 @@ no-go's completeness depends entirely on which construction the firewall actuall
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- no-go / rigidity theorist (assemble the strongest no-go)
+### Perspective 1 -- no-go / rigidity theorist (assemble the strongest no-go)
 
 **The assembly (Task 1).** Three imported facts chain into a clean no-go for the positive-`Delta`
 route:
@@ -96,7 +96,7 @@ inf`. **A modular conjugation must be a bounded (anti)isometry; an unbounded `J`
 vacuum-polar `J` **does not exist**. This piece is **rigorous** (theorem-grade), modulo the two
 imported conditionals flagged by the referee.
 
-### Persona 2 -- math referee (grade the no-go's strength)
+### Perspective 2 -- math referee (grade the no-go's strength)
 
 **Ruling 1 -- the vacuum-polar no-go is theorem-grade, but not unconditional.** The logic
 (non-definitizable `=>` no eta-positive `Delta^{1/2}` `=>` no bounded vacuum-polar `J`) is a genuine
@@ -109,8 +109,8 @@ quasi-Hermitian, used to deny a positive KMS state, **extends from finite to inf
 proved finite-dim). So: **theorem on the abstract route; conditional in its application to GU.**
 Grade: **STRONG ARGUMENT, theorem-grade on the vacuum-polar route.**
 
-**Ruling 2 -- the no-go is NOT a blanket "no J ever."** The referee refuses to let Persona 1 inflate
-this to "no modular conjugation exists." Two escapes are on the table (Personas 3-4): a
+**Ruling 2 -- the no-go is NOT a blanket "no J ever."** The referee refuses to let Perspective 1 inflate
+this to "no modular conjugation exists." Two escapes are on the table (Perspectives 3-4): a
 **bare-algebraic** `J` that never invokes `Delta^{1/2}` (W67 built one), and a **relative** `J` tied
 to a selected state. The vacuum-polar theorem says nothing about the bare one and only *conditionally*
 about the relative one. **The referee requires the no-go be presented as bounding the FLOW-TIED
@@ -122,7 +122,7 @@ yes (routes i, ii), the no-go bites. If a sectorial/relative `J` suffices (route
 That is a question about the *physics requirement*, which this branch cannot settle. **The no-go is
 therefore INCOMPLETE with a named gap; grade the completeness MEDIUM.**
 
-### Persona 3 -- steelman-of-construction (try the algebraic/relative route against the no-go)
+### Perspective 3 -- steelman-of-construction (try the algebraic/relative route against the no-go)
 
 I now genuinely try to **build a `J` that evades** the no-go -- Branch 3's idea, honestly pressed.
 
@@ -159,7 +159,7 @@ I now genuinely try to **build a `J` that evades** the no-go -- Branch 3's idea,
 global-relative route (obstructed) -- **but it does NOT survive the sectorial/definitizable-subsector
 relative route.** That route is the named gap, and it keeps the constructive branches alive.
 
-### Persona 4 -- cross-checker (independent recomputation + literature)
+### Perspective 4 -- cross-checker (independent recomputation + literature)
 
 - **Recomputed the three routes on the W52/W84 tower** (`W93`, exact, numpy-only). (i) vacuum-polar
   `||J|| = 1/sqrt(1-r)` grows `63 -> 89` under tower doubling; (ii) global-relative `||J_phi|| =
@@ -183,7 +183,7 @@ relative route.** That route is the named gap, and it keeps the constructive bra
   global metric. The sub-sector escape (route C) is exactly the failure of that assumption. **The
   no-go and its gap are two faces of the Langer `Pi_kappa`-vs-infinite-rank dichotomy.**
 
-### Persona 5 -- synthesizer (the verdict)
+### Perspective 5 -- synthesizer (the verdict)
 
 See Sections 2-4.
 
@@ -209,7 +209,7 @@ relative `J`.** The obstruction is exactly the Langer `Pi_kappa`-vs-infinite-ran
 on the *whole tower*, not on a definitizable sub-sector.
 
 **Is the no-go COMPLETE?** **No.** Named gap = **the algebraic/relative-to-a-state `J` on a
-definitizable (`Pi_kappa`) sub-sector** (Persona 3, route C). Unbounded-inverse is a `sup`-over-all-
+definitizable (`Pi_kappa`) sub-sector** (Perspective 3, route C). Unbounded-inverse is a `sup`-over-all-
 modes property; a firewall `J` that needs only boundedly-many modes escapes it. This branch is blind
 to Branch 3's exact construction and cannot decide whether the firewall needs the whole infinite tower
 or a sub-sector, so it **presents the gap and does not close it.**

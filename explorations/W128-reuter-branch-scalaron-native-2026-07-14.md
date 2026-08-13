@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; deterministic test; H65 Condorcet-winner swing)
+status: exploration (5-perspective inline team; deterministic test; H65 Condorcet-winner swing)
 created: 2026-07-14
 hypothesis: H65 -- the AS/Reuter-branch scalaron, computed at the repo's native truncation grade
 branch: "W128 -- the tachyon's last perturbative escape and the referee's ported-loop-blocks vulnerability, one computation: at the Reuter-family fixed point W119 catalogued (g* = 2/A_tot, GU content g* = 0.674), what is the R^2-sector sign, the de-slaved f_0^2 root's sign and m_0^2, the scalaron's fate on IR trajectories from the FP, and does anything in GU's structure select AF vs AS?"
@@ -42,7 +42,7 @@ conditionally selected -- and the flagship's referee ledger states the vulnerabi
 about the Reuter-branch scalaron, separates it cleanly from what remains ported, and locates the
 single number the whole branch now hinges on.
 
-Five personas inline, one context, no sub-agents. Deterministic test:
+Five perspectives inline, one context, no independent reviewers. Deterministic test:
 `tests/W128_h65_reuter_branch_scalaron.py` (20/20, exit 0; 4 positive controls, 1 negative control).
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline), named
@@ -54,7 +54,7 @@ Five personas inline, one context, no sub-agents. Deterministic test:
 | **Which f_0^2** | agravity coupling (R^2 coefficient `1/(6 f_0^2)`) -- this file and the W45/W83/W119 systems | direct R^2 coefficient (W79/W122) | W123's audit certifies the reciprocal wobble is sign-harmless: `sign(m_0^2) = sign(f_0^2)` in both conventions. Only signs are asserted here. |
 | **Positivity object** | positive Hilbert space | Krein keep-and-grade `[P,S] = 0` | Grading-locus distance tracked along the AS trajectory (Section 4); loop positivity itself out of scope (W48 gate, unchanged). |
 
-## 1. Persona 1 -- asymptotic-safety specialist: what the AS literature already knows (PORTED, labeled)
+## 1. Perspective 1 -- asymptotic-safety specialist: what the AS literature already knows (PORTED, labeled)
 
 The scalaron at the Reuter fixed point is charted territory in standard AS gravity, and porting it
 honestly is the first duty:
@@ -81,7 +81,7 @@ gravity the scalaron is **not** forced tachyonic; it is the AF branch that force
 of the relevance sign with GU's own content and conventions -- that is exactly where the port line
 sits, and Section 2 reduces the entire branch verdict to that one sign.
 
-## 2. Persona 2 -- FRG engineer: the native increment (the sign-lock theorem and the numbers)
+## 2. Perspective 2 -- FRG engineer: the native increment (the sign-lock theorem and the numbers)
 
 Setup: the W83/W119 4-coupling system `(g, lambda, f_2^2, f_0^2)` with the W45 marginal quadratic
 (PORTED coefficients `5/3, 5, 5/6`; `b_2 = 133/10 + 17/12`), the schematic EH sector reproduced as
@@ -131,7 +131,7 @@ One exact structural bonus: at ANY fixed point with finite `g* = 2/A != 0`, `eta
 (dimensional identity `beta_g = (2 + eta_N) g`), independent of every schematic magnitude -- the
 truncation respects the exact anomalous-dimension structure of the real Reuter FP.
 
-## 3. Persona 3 -- Krein specialist: is keep-and-grade compatible with an interacting FP?
+## 3. Perspective 3 -- Krein specialist: is keep-and-grade compatible with an interacting FP?
 
 W119 proved the spin-2 grading RG-stable at all finite scales on the AF trajectory. Does that cover
 the AS trajectory? Within this truncation, **yes, by the same exact law**: `beta_{f_2^2}` is
@@ -155,7 +155,7 @@ the interacting FP does not destabilize the Weyl direction. Within the truncatio
 **keep-and-grade is COMPATIBLE with the interacting FP; the grading question adds no obstruction to
 the AS branch and no selector between branches.**
 
-## 4. Persona 4 -- numerical engineer: the reproducible system
+## 4. Perspective 4 -- numerical engineer: the reproducible system
 
 `tests/W128_h65_reuter_branch_scalaron.py`, 20/20 checks, exit 0. Structure:
 
@@ -177,7 +177,7 @@ the AS branch and no selector between branches.**
   E2: FORK-STANDS checked, not assumed (both branches host UV-complete trajectories; grading and IR
   data branch-blind).
 
-## 5. Persona 5 -- adversarial skeptic: steelmanning TACHYON-FOLLOWS, attacking selection claims
+## 5. Perspective 5 -- adversarial skeptic: steelmanning TACHYON-FOLLOWS, attacking selection claims
 
 **Steelman 1: "the generic expectation is that the negative-definite structure follows GU onto every
 branch."** Examined natively and it FAILS as stated: the AF forcing is not a negative-definite

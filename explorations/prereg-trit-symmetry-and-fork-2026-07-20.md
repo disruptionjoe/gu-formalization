@@ -3,17 +3,14 @@ title: "PRE-REGISTRATION: the trit's symmetry group (S_3 vs Z/3) and the identic
 status: pre_registration
 doc_type: pre_registration
 created: 2026-07-20
-directed_by: "Joe direct chat, 2026-07-20 (five-systems-persona convergence: run the symmetry check then the fork-splitter)"
+directed_by: "Joe direct chat, 2026-07-20 (five-systems-perspective convergence: run the symmetry check then the fork-splitter)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-lane: 1
 channel: TRIT-INTERPRETATION
 binding: >
   Binds two successor nodes before any computation looks. Commit
   timestamp = notary. Outcomes as they fall (N6 discipline); adverse
   stays adverse; near-misses are new nodes, not saves.
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Pre-registration: symmetry group + the copies/simplex fork
@@ -24,7 +21,7 @@ The trit is external, cyclic Z/3, unoriented (both directions
 equivalent — triage af7425f), irreducible/coprime to the bit. Triage
 killed role-rotation, {world/access/standpoint}-vs-G, mundane-null;
 observer-clock data-blocked; access/P2C LEAD but arity-only. Five
-systems personas converged: unoriented-three => S_3 symmetry => three
+systems perspectives converged: unoriented-three => S_3 symmetry => three
 INTERCHANGEABLE things; fork between (label camp: three identical copies
 externally labeled — ZK coloring / MMO sharding / NN degenerate copies /
 consensus quorum) and (simplex camp: one 2-dimensional object / two-form
@@ -69,7 +66,7 @@ structural home fits; a new node.
 
 ## Severity
 
-Nodes named by the five-persona convergence BEFORE this binding; no
+Nodes named by the five-perspective convergence BEFORE this binding; no
 computation between naming and binding. The decisive value: A sorts
 interchangeable-vs-clock; B sorts label-vs-simplex — together they pin
 which of the surviving stories is right, each with an opposite-

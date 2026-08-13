@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; FIRST construction of the minimal source-action skeleton)
+status: exploration (5-perspective inline team; FIRST construction of the minimal source-action skeleton)
 created: 2026-07-11
 objective: 5
 title: "Objective 5 -- the MINIMAL internally-consistent GU-native source-action SKELETON (first construction, NOT a reproduction of physics). Build the one unbuilt object (the falsifiability keystone) far enough to ANSWER the seven decisive questions: fields+symmetries, what is varied, the EOM, where observer-relativity enters mathematically, the chiral-index result, UV-preservation, and explicit failure tests. VERDICT: a consistent SKELETON exists -- defined DOF (theta, A=spin-lift(grad^gimmel), RS carrier B=ker Gamma), complete IG+Krein transformation laws, a consistent variational EOM (d_A star theta = source, with a UNIQUE causal RS cure g=1 that is so(9,5)-equivariant and therefore CANNOT pick the carrier), one nontrivial derived consequence (causality forces the cure, not the carrier -- first JOINT confirmation of H40), and five explicit failure tests all checked absent. The chiral index is honestly located-{1,3}, NOT forced-nonzero. The UV structure (4-derivative renormalizable Stelle + HORN-K Krein ghost parity + AF/AS) is preserved. The shape-dimension-1 residual (beta/alpha gravity ratio + two scales mu_DW, alpha) stays FREE -- that is the arena/value structure and it is EXPECTED. This is NOT the finished source action."
@@ -31,7 +31,7 @@ scales) stays free -- that is the arena/value structure and it is *expected*. Ev
 claim is an exact matrix identity on the verified `Cl(9,5)=M(64,H)` representation
 (`tests/W102_obj5_source_action.py`, 20/20 PASS, exit 0) or is labelled ARGUED/recorded.
 
-Run as a **5-persona inline team** (one worker, sequential): (1) GEOMETER / GAUGE-THEORY SPECIALIST
+Run as a **5-perspective inline team** (one worker, sequential): (1) GEOMETER / GAUGE-THEORY SPECIALIST
 builds it; (2) MATH REFEREE checks variational consistency; (3) ADVERSARY ("it is not internally
 consistent / it imports the answer"); (4) CROSS-CHECKER against the Wave 34/35 landscape assessment and
 the `|II|^2` results; (5) SYNTHESIZER.

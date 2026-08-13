@@ -38,7 +38,7 @@ surface. It is intentionally scoped to the paper rather than the wider research 
 - `LICENSE-DOCS.md` and `LICENSE-CODE.md` — documentation and code licenses
 - `MANIFEST.sha256` — package integrity manifest
 
-The package excludes internal persona reports, private run plans, unrelated repository tests, build caches,
+The package excludes internal perspective reports, private run plans, unrelated repository tests, build caches,
 and exploratory material that is not part of the release evidence.
 
 ## Fast reproduction

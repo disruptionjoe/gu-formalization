@@ -16,9 +16,7 @@ depends_on:
   - explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md
   - explorations/su4c-seesaw-retrodiction-2026-08-03.md
   - papers/drafts/no-go-class-relative-survey.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 deposit_gate: "PRE-DEPOSIT. Any decisive consequence — in particular any future citation of §3's verdict in a fork table, kill ledger, or canon file — is J5-gated (hostile field-specialist review before deposit). Nothing here moves a verdict, bar, canon claim, count, H59, or LANE-STATE."
 outcome: "OUTSIDE-CLASS; EK1 does not fire; fence sharpened; ledger split mapped; four number-contrast rows banked"
 ---

@@ -36,7 +36,7 @@ reading could still hide in -- gauge-fixing/quantization-level dependence -- by 
 parameter provably has nowhere to enter, and cleanly delineates the Euclidean conformal-factor problem
 (which IS about a gauge/contour choice) from GU's Lorentzian scalaron mass sign (which is not).
 
-Five personas inline, one context. Deterministic test: `tests/W122_spin0_scalaron_auxfield.py`
+Five perspectives inline, one context. Deterministic test: `tests/W122_spin0_scalaron_auxfield.py`
 (27 checks, exact sympy, exit 0).
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -48,7 +48,7 @@ Five personas inline, one context. Deterministic test: `tests/W122_spin0_scalaro
 | **Ghost/scalaron mass normalization** | BOTH branches: agravity (`m^2 ~ f_0^2 M_Pl^2`) and GU-native fixed-scale (`gamma/(6 f_0^2)` in `mu_DW` units) | Carried, not defaulted: `sign(m_0^2) < 0` on BOTH (tested). The fork moves magnitude/scale only. |
 | **Positivity object** | Krein keep-and-grade `[P,S] = 0` | The question is whether the grading machinery can absorb the spin-0 mode. Answer (Section 4): nothing to grade -- the mode's kinetic term is canonically `+1/2`; grading acts on norms and cannot move a pole. |
 
-## 1. Persona 1 -- QG theorist: which parts of the standard conformal-factor problem apply?
+## 1. Perspective 1 -- QG theorist: which parts of the standard conformal-factor problem apply?
 
 The "conformal-factor problem" bundle has three members. The test separates them **computationally**:
 
@@ -69,7 +69,7 @@ The "conformal-factor problem" bundle has three members. The test separates them
    kinetic sign. This is the same category distinction W78 drew; here it is backed by the exact
    kinetic-only identity rather than by literature scope.
 
-## 2. Persona 2 -- BRST/gauge-fixing specialist: the DOF count, exact route
+## 2. Perspective 2 -- BRST/gauge-fixing specialist: the DOF count, exact route
 
 The count is assembled from three exact facts (no perturbative expansion anywhere):
 
@@ -102,7 +102,7 @@ independent formalism.
 control: `f_0^2 = +1 => m_0^2 = +1/6 > 0` (healthy inflaton). GU: `gamma > 0` (H25), `f_0^2 < 0`
 (W45-47) `=> m_0^2 < 0`: tachyon, positive-norm.
 
-## 3. Persona 3 -- FRG practitioner: is `m_0^2 < 0` trajectory-wide, and can a gauge parameter move it?
+## 3. Perspective 3 -- FRG practitioner: is `m_0^2 < 0` trajectory-wide, and can a gauge parameter move it?
 
 - **Trajectory-wide.** The W46 ratio quadratic `(5/6) r^2 + (5 + b_2) r + 5/3 = 0` with
   `b_2 = 133/10 + 17/12` has both roots real and negative (`r* = -0.0848, -23.575`, reproduced exactly);
@@ -129,7 +129,7 @@ control: `f_0^2 = +1 => m_0^2 = +1/6 > 0` (healthy inflaton). GU: `gamma > 0` (H
 because the quantity is derived in a formulation in which no gauge parameter exists.** Evidence for
 "artifact": none, in the last channel it had left.
 
-## 4. Persona 4 -- Krein specialist: does keep-and-grade extend to the scalaron?
+## 4. Perspective 4 -- Krein specialist: does keep-and-grade extend to the scalaron?
 
 Two computed facts decide it:
 
@@ -148,7 +148,7 @@ and does cure the spin-2 sector; the scalaron's pathology is of a different type
 split, restated structurally: loop-POSITIVITY (norm) is untouched; Krein-TT (real spectrum) is
 obstructed.
 
-## 5. Persona 5 -- adversarial skeptic: the honest negative at full strength
+## 5. Perspective 5 -- adversarial skeptic: the honest negative at full strength
 
 **Steelman of "physical and uncaught."** The strongest honest reading stands: GU's AF trajectory
 carries a genuine propagating positive-norm scalar with `m_0^2 < 0` that is (i) not gauge -- three

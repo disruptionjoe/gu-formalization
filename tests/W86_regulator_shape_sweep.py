@@ -46,7 +46,7 @@ def check(name: str, cond: bool, detail: str = "") -> None:
         FAIL.append(name)
 
 
-# Fixed deterministic Simpson grid. Keep it smaller than W85 because this run sweeps several shapes.
+# Fixed deterministic Simpson grid. Keep it smaller than W85 because this investigation sweeps several shapes.
 YMAX = 80.0
 NGRID = 160001  # odd for Simpson
 Y = np.linspace(1.0e-8, YMAX, NGRID)

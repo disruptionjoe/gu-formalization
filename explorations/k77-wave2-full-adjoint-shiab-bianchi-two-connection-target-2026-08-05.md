@@ -1,7 +1,6 @@
 ---
 title: "K77 Wave 2: full-adjoint Shiab span, eddy Bianchi complex and two-connection target"
 date: 2026-08-05
-lane: 1
 status: PARTIAL_WITH_FULL_ADJOINT_EXTENSION_AND_INDEPENDENT_PRE_SHIAB_TARGET
 doc_type: construction_result
 named_gate: K77_FULL_ADJOINT_SHIAB_CHANNEL_RELATION_EXTENSION_BIANCHI_COMPLEX_AND_INDEPENDENT_TWO_CONNECTION_TARGET
@@ -17,9 +16,7 @@ residue_touched:
   - "K77-W2-BIANCHI-TWO-CONNECTION-TARGET:T4"
 fork_stack_acknowledged: "The exact product-incidence theorem applies to the eight displayed K77 formula choices, not every possible Shiab built from other invariant Phi_i, contraction or volume channels. The Bianchi and two-connection results live on the pre-Shiab connection-path carrier; K95/right-H, arbitrary global Y14, observed physics and physical domains remain separate."
 grade: "Exact structural full-adjoint span theorem from the displayed formula plus complete grade-one lower bound; exact free-DGA connection-path moment Bianchi syzygy; exact independent Sage reconstruction; source-bounded two-connection target correction. Product-sensitive moving-Phi/epsilon chain map, full comparison functor, preferred Shiab, analytic domain and physics remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 Wave 2: full-adjoint Shiab/Bianchi/two-connection target

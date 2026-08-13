@@ -3,9 +3,7 @@ title: "Comparative-tensions ledger — PARTICLE PHYSICS + QM cluster (SM+QM/QFT
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat, 2026-07-21 (comparative-tensions ledger — particle-physics + QM cluster; one synchronous pass, new file, read-only, no commit)"
 inputs:
   - explorations/per-leg-recovery-state-2026-07-21.md

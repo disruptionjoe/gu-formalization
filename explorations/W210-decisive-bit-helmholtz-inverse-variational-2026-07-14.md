@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W210; method R1 = Helmholtz inverse-variational; five personas inline, one worker, no sub-agents; deterministic test, 32/32 exit 0, positive controls first)
+status: exploration (W210; method R1 = Helmholtz inverse-variational; five perspectives inline, one worker, no independent reviewers; deterministic test, 32/32 exit 0, positive controls first)
 created: 2026-07-14
 wave: W210
 label: W210
@@ -23,8 +23,8 @@ scripts:
 # W210 -- the decisive bit by the Helmholtz inverse-variational route (R1)
 
 Test: `tests/W210_decisive_bit_helmholtz.py` (32/32, exit 0, positive controls first). Deterministic.
-Reuses the repo's verified `Cl(9,5) = M(64,H)` representation via `gen_sector_bridge`. Five personas
-ran inline in one worker, sequentially (no sub-agents): (1) inverse-problem / variational-calculus
+Reuses the repo's verified `Cl(9,5) = M(64,H)` representation via `gen_sector_bridge`. Five perspectives
+ran inline in one worker, sequentially (no independent reviewers): (1) inverse-problem / variational-calculus
 specialist, (2) geometer (holonomy / covariantly-constant forms), (3) Krein / rep-theorist, (4)
 coherence-first synthesizer, (5) skeptic. One of five parallel sibling routes (R1/R7/R9/R12/R16) on the
 SAME decisive bit.
@@ -121,7 +121,7 @@ resolved inside GU. At the good-stable fixed point the sectors are decoupled (th
 good-stable" means), so `L` is block-diagonal and the sign is free. The route therefore REDUCES the
 grading sign to #1 and cannot settle it internally; the sign is Godel-independent and must be posited.
 
-## 6. Persona 5 (skeptic) -- three adversarial pushes
+## 6. Perspective 5 (skeptic) -- three adversarial pushes
 
 - **Is the stabilizer identification too generous (did I choose blocks to get dim > 1)?** No. The blocks
   are the ALREADY-COMPUTED W168/W202 Krein sectors (base (3,1); geometric fiber, POSITIVE; record-count
@@ -195,8 +195,8 @@ the disagreement that would matter.
   disagreement, to be adjudicated by whether that coupling is derived or assumed. Absent (b), the five
   routes should converge on RESIDUAL-BIT-STANDS.
 
-*Filed 2026-07-14 (method R1, Helmholtz inverse-variational). Five personas inline in one worker
-(inverse-problem specialist; holonomy geometer; Krein rep-theorist; synthesizer; skeptic); no sub-agents.
+*Filed 2026-07-14 (method R1, Helmholtz inverse-variational). Five perspectives inline in one worker
+(inverse-problem specialist; holonomy geometer; Krein rep-theorist; synthesizer; skeptic); no independent reviewers.
 Reproducible: `python -u tests/W210_decisive_bit_helmholtz.py` (32/32, exit 0; positive controls first).
 Exploration grade; conditional register; RUTHLESS self-verification; no canon movement; tri-repo gating
 strict; bar (b)/H59 UNCHANGED; count unmoved. VERDICT: RESIDUAL-BIT-STANDS -- the inverse-variational

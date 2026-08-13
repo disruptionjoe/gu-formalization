@@ -7,9 +7,9 @@ updated_at: "2026-07-11"
 verdict: "PARTIAL, leaning RELABELS -- removes 0 of 4 unforced choices unconditionally, <=1 conditional; source-action postulate stays a postulate"
 test: "tests/wave27/H48_self_dual_square_forcing.py (deterministic, exit 0)"
 depends_on:
-  - "explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md"
-  - "explorations/two-track-persona-sweep-2026-07-11/B-geometric-structural.md"
-  - "explorations/two-track-persona-sweep-2026-07-11/D-wild-frontier.md"
+  - "explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md"
+  - "explorations/two-track-perspective-sweep-2026-07-11/B-geometric-structural.md"
+  - "explorations/two-track-perspective-sweep-2026-07-11/D-wild-frontier.md"
   - "tests/wave24/H45_H2_vs_II2_binary.py"
   - "tests/wave26/H20_unified_even_odd_action.py"
   - "tests/wave16/H39_sourceaction_kclass.py"
@@ -22,7 +22,7 @@ depends_on:
 
 ## The object under test
 
-The full-roster persona sweep (families B geometric + D wild-frontier) converged on ONE genuinely
+The full-roster perspective sweep (families B geometric + D wild-frontier) converged on ONE genuinely
 new forcing candidate: the GU source action may be FORCED as the **self-dual square**, with two
 claimed faces of a single principle.
 
@@ -83,7 +83,7 @@ Test: `tests/wave27/H48_self_dual_square_forcing.py`, deterministic, exit 0.
   the SAME equivariance the FULL field space (carrier A: full space + BRST) is an `so(9,5)`-module
   too, so `J_i` preserves it as well. The kinematic algebra is carrier-BLIND: the A/B distinction is
   the downstream INDEX (`-42` vs `-38`), not whether the self-dual algebra closes. COMPUTED.
-- **Removes 0 of the K-class A/B bit.** This is exactly the RELABELS outcome persona 6 pre-registered
+- **Removes 0 of the K-class A/B bit.** This is exactly the RELABELS outcome perspective 6 pre-registered
   for the "closes on both" branch ("another beautiful non-lever").
 
 ### Q3 -- DO B AND D COINCIDE? Same on the spin-2 core, distinct on the trace mode [COMPUTED/cited]
@@ -135,7 +135,7 @@ become a theorem.**
   forcing signal on the D side. It fails for a structural reason (equivariance): the self-dual algebra
   respects every `so(9,5)`-submodule, so it cannot discriminate A from B. The A/B bit is downstream of
   the index, which the kinematic-Jacobi does not see. This is a genuine freedom-reduction test whose
-  honest answer is 0 freedoms removed -- exactly as persona 6 designed it to fail-honestly.
+  honest answer is 0 freedoms removed -- exactly as perspective 6 designed it to fail-honestly.
 - **What stays open is unchanged.** Signature, soldering, and the K-class A/B bit remain exactly the
   freedoms H39/H40 left. The count stays `{1,3}`; the source action stays the terminal unbuilt object
   with its unbuilt causal-cure term (H40 Q4). H48 reorganizes the picture around the self-dual square

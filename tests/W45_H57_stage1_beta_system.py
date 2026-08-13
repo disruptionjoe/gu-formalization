@@ -80,7 +80,7 @@ def log(msg: str = "") -> None:
 
 # =====================================================================================
 # THEORY SPACE -- the running couplings, with canonical mass dimensions.
-#   RUN-AND-CAN-HIT-A-FIXED-POINT  <=>  dimensionless (the marginal couplings).
+#   historical-investigation  <=>  dimensionless (the marginal couplings).
 #   DIMENSIONFUL couplings are measured in cutoff units (fork 4, mu_DW ratio-only); they are the
 #   relevant directions carried along the flow but do not themselves have an interacting fixed value
 #   independent of the cutoff -- Stage 2 treats them via the dimensionless combinations g~=G k^2,

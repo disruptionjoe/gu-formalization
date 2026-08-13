@@ -1,7 +1,7 @@
 """
 Gate 0/1 for the live/dark observer-sheaf hypothesis
 (see live-dark-observer-sheaf-existence-as-issuance-2026-07-15.md and the
-ten-persona steelman note for the four-gate pipeline).
+ten-perspective steelman note for the four-gate pipeline).
 
 Question (assumption-light, NO dynamics, NO source action):
   Does a *generically issued* observer/record nerve have a non-trivial first

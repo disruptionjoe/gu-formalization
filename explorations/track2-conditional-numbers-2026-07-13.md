@@ -7,7 +7,7 @@ track: 2
 depends_on:
   - "tests/track2/T2A_graviton_sector_numbers.py"
   - "tests/track2/T2B_dark_energy_curves.py"
-  - "explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md"
+  - "explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md"
   - "explorations/wave7/H25-II-first-variation-2026-07-11.md"
   - "explorations/wave10/H27-soldering-palatini-2026-07-11.md"
   - "explorations/wave22/H10-ppn-weak-field-2026-07-11.md"
@@ -72,7 +72,7 @@ construction, and why).
 Explicitly NOT declared: H36 (`mu_DW` = DE scale) -- already falsified (sec 3); loop-level
 `[P,S]=0` -- open; any digitized alpha = 1/3 exclusion boundary -- would be invented.
 
-## 2. Persona pass 1 -- effective-field theorist: the conditional Lagrangian, cited
+## 2. Perspective pass 1 -- effective-field theorist: the conditional Lagrangian, cited
 
 Given S1-S6, the assembled spin-2 sector, every ingredient repo-established:
 
@@ -101,7 +101,7 @@ method band `[5/6, 5/4]` (normalization-gated, H25); (g5) a GU derivation of `B_
 absolute `mu_DW` (the source-action bottleneck, untouched); (g6) realistic GW source modeling
 for the massive companion (bounded instead via the excitability threshold).
 
-## 3. Persona pass 2 -- phenomenologist: the numbers (all "given S")
+## 3. Perspective pass 2 -- phenomenologist: the numbers (all "given S")
 
 All computed in `tests/track2/T2A_graviton_sector_numbers.py`; published bounds comparison-only.
 
@@ -174,7 +174,7 @@ Shape (given S, any f0 > 0): non-CPL, shallow peak near z ~ 0.25, `w -> -1` at h
 LCDM as f0 -> 0. `f0` is a FIT. The DESI DR2 BAO full-likelihood confrontation of these curves
 is Team 2's parallel deliverable; this page deliberately emits the curves and stops.
 
-## 4. Persona pass 3 -- computational engineer: tests and independent routes
+## 4. Perspective pass 3 -- computational engineer: tests and independent routes
 
 - `tests/track2/T2A_graviton_sector_numbers.py` -- exit 0, 8/8 PASS. Independent routes:
   hbar*c from two constant sets (rel 3e-10); lambda conversion two unit paths; Cassini
@@ -185,7 +185,7 @@ is Team 2's parallel deliverable; this page deliberately emits the curves and st
   to 1e-4; **independent integrator** (adaptive Radau vs fixed-step RK4) agrees on w(z) to
   1.7e-8; canonical w(z) samples reproduce H44 Q1 to < 5e-3.
 
-## 5. Persona pass 4 -- hostile referee: fit-in-disguise audit (H34 strict count)
+## 5. Perspective pass 4 -- hostile referee: fit-in-disguise audit (H34 strict count)
 
 Free parameters of the conditional theory (unchanged from H34): **f0, M2, B_i, mu_DW**.
 Declaring S does not reduce the count; it converts leans into named antecedents. Strict labels:
@@ -205,7 +205,7 @@ Declaring S does not reduce the count; it converts leans into named antecedents.
   falsified, honestly displayed in the same breath.
 - Unconditional predictions of GU (not GU-given-S) emitted here: **zero** (H34 stands).
 
-## 6. Persona pass 5 -- honesty/firewall auditor
+## 6. Perspective pass 5 -- honesty/firewall auditor
 
 Checked: (i) every numbered claim in secs 2-3 carries the given-S clause or a
 FIT/BOUND label; (ii) the verdict block states the conditional form and the non-assertion of S;
@@ -244,7 +244,7 @@ collapses the antecedent itself.
 
 *Filed 2026-07-13. Track 2 branch deliverable; exploration-grade; no canon change; reports up
 to Track 1. Reproducible: `python -u tests/track2/T2A_graviton_sector_numbers.py` (exit 0) and
-`python -u tests/track2/T2B_dark_energy_curves.py` (exit 0). Five personas run inline in one
+`python -u tests/track2/T2B_dark_energy_curves.py` (exit 0). Five perspectives run inline in one
 session (EFT assembler, phenomenologist, computational engineer, hostile referee,
 honesty/firewall auditor). The count is not built here by design.*
 

@@ -31,7 +31,7 @@ independently excluded by the actual DESI DR2 BAO likelihood, and is competitive
 than LCDM once the overall distance amplitude is freed. A JoeOps governance gate held all
 DESI-facing numbers at NOT-publication-ready until the digits were verified against the
 primary source. This wave clears (or fails) that gate and stress-tests the statistics and
-the framing. Method: five personas run inline, then synthesis.
+the framing. Method: five perspectives run inline, then synthesis.
 
 Reproduction: `python -u tests/wave45/H46B_referee_grade_desi_verification.py`
 (deterministic, exit 0, 33/33 PASS; re-fetched primary-source digits embedded verbatim with
@@ -39,7 +39,7 @@ retrieval dates).
 
 ---
 
-## Persona 1 -- observational cosmologist (BAO/DESI): the digit verification
+## Perspective 1 -- observational cosmologist (BAO/DESI): the digit verification
 
 Primary sources fetched read-only 2026-07-13 (all instruction-like web content treated as
 untrusted data):
@@ -114,7 +114,7 @@ Repo = the arrays embedded in `tests/wave29/H46_de_raw_bao_likelihood.py`.
 
 **Digit gate verdict: CLEARED.** No repo digit disagrees with the primary source.
 
-## Persona 2 -- statistician: is "competitive-to-better than LCDM" sound?
+## Perspective 2 -- statistician: is "competitive-to-better than LCDM" sound?
 
 Re-derived (not re-asserted) in the wave45 test, importing the H46 model verbatim.
 Metric: AIC = chi^2 + 2k with explicit parameter counts, plus absolute goodness-of-fit.
@@ -155,7 +155,7 @@ Statistician's findings:
    is sqrt(21.58) read as a 1-dof-equivalent delta-chi^2; DESI's own 2.8-4.2 sigma is the
    w0waCDM-vs-LCDM preference. The wave45 test prints an explicit do-not-conflate note.
 
-## Persona 3 -- dark-energy theorist: what GU actually predicts, and the gates
+## Perspective 3 -- dark-energy theorist: what GU actually predicts, and the gates
 
 What the theta sector predicts, at its honest grade:
 
@@ -180,7 +180,7 @@ What the theta sector predicts, at its honest grade:
   and cannot be promoted past it until OQ2 closes. No promotion past reconstruction
   grade is made here, and none is possible by this wave's construction.
 
-## Persona 4 -- hostile referee: the p-hacking attack, faced directly
+## Perspective 4 -- hostile referee: the p-hacking attack, faced directly
 
 The attack: "You fit a model, got excluded at 3.2 sigma, then went shopping for a
 comparison in which it survives, and now you headline 'viable as a distance model'.
@@ -220,7 +220,7 @@ gap between a CPL-proxy verdict and a raw-likelihood verdict for intrinsically n
 models, with GU as the worked example. Stated this way, the CPL kill is load-bearing and
 the distance-level statement is a scoped methodological finding, not a rescue.
 
-## Persona 5 -- honesty auditor: reconciliation with canon and corrections
+## Perspective 5 -- honesty auditor: reconciliation with canon and corrections
 
 - **Canon verdict OPEN: consistent, stays OPEN.** `canon/theta-field-flrw-dark-energy-eos.md`
   carries verdict OPEN with corrections DARK-ENERGY-01/02/03. Nothing in this wave
@@ -308,6 +308,6 @@ sector: the theta_star amplitude re-solve (B1).
 
 *Filed 2026-07-13. Wave 45 (H46B). Reproduced:
 `python -u tests/wave45/H46B_referee_grade_desi_verification.py` (exit 0, 33/33).
-Personas run inline (observational cosmologist, statistician, dark-energy theorist,
+Perspectives run inline (observational cosmologist, statistician, dark-energy theorist,
 hostile referee, honesty auditor). Primary sources fetched read-only with retrieval
 dates recorded; no external action taken.*

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W172 / TEAM NO-GO, label W172; adversarial NEGATIVE attack on the OPERATIVE side; five personas inline, one worker, no sub-agents; one deterministic test 13/13 exit 0 with positive controls)
+status: exploration (W172 / TEAM NO-GO, label W172; adversarial NEGATIVE attack on the OPERATIVE side; five perspectives inline, one worker, no independent reviewers; one deterministic test 13/13 exit 0 with positive controls)
 created: 2026-07-14
 wave: W172
 label: W172
@@ -38,7 +38,7 @@ PRESERVED only in the C-metric sense, reducing keep-and-grade's unitarity WITHOU
 the interacting C-operator question. This team runs the NEGATIVE attack on the OPERATIVE side:
 try to PROVE the interacting C-operator does NOT exist. A clean NOT-OPERATIVE is a real result,
 not a defeat -- it would make the tachyon physical and re-pose bar (b) as the record-accretion
-ENGINE (W163/W166). Five personas inline; deterministic test
+ENGINE (W163/W166). Five perspectives inline; deterministic test
 `tests/W172_interacting_c_operator_nogo.py` (13/13, exit 0).
 
 ## 0. The one object and the construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md)
@@ -56,7 +56,7 @@ resource (W132) and the grading is NOT-OPERATIVE.
 | **The ghost** | keep-and-grade real-mass Krein state (the branch under test) | the instability escape is the exit INTO Lee-Wick, named as such, not a defense |
 | **PT symmetry** | unbroken (real spectrum, C exists) vs spontaneously broken (complex pair, no C) | the dynamical no-go lives at the exceptional point between them |
 
-## 1. Persona 1 -- axiomatic/constructive QFT: the free theorem and the interacting lift
+## 1. Perspective 1 -- axiomatic/constructive QFT: the free theorem and the interacting lift
 
 **The free theorem, restated (W121/W54).** In the positive-energy (Bender-Mannheim /
 keep-and-grade) quantization of the 4th-order / Pais-Uhlenbeck field, NO positive metric `eta`
@@ -89,7 +89,7 @@ verdict: NO-OBSTRUCTION** -- the no-local-positive-metric theorem does not exten
 non-existence theorem; hypothesis F's gap (all-orders interacting) is a LOCALITY gap, and
 locality is already conceded (and survivable).
 
-## 2. Persona 2 -- Krein/PT specialist: the C-metric closure at loop level (W132/W133)
+## 2. Perspective 2 -- Krein/PT specialist: the C-metric closure at loop level (W132/W133)
 
 **What must close.** For the OPERATIVE reading, `S^dag eta_+ S = eta_+` with `eta_+ = eta C > 0`
 (W132 Part 2 constructed exactly such an `S` in finite dimension, coexisting with the naive
@@ -108,7 +108,7 @@ survivable object (the free case IS this object). Closure is threatened only if 
 exist -- i.e. if the spectrum is complex. This hands the whole no-go to the DYNAMICAL question
 (Section 5), not the kinematic locality one.
 
-## 3. Persona 3 -- CLOP/Lee-Wick specialist: does W124's ambiguity force a contradiction?
+## 3. Perspective 3 -- CLOP/Lee-Wick specialist: does W124's ambiguity force a contradiction?
 
 **The CLOP band is a REMOVAL artifact (test B2).** W124 computed the two-loop mixed-threshold
 ambiguity band `Im S_LW in {-1/2, 0, +1/2, +1} x Im S_graded`. But the ambiguity attaches to the
@@ -122,7 +122,7 @@ NO-OBSTRUCTION** -- CLOP does not force a contradiction in the interacting C-ope
 constrains the removal family's uniqueness, a different branch. (This is the honest reading: the
 adversary WANTED CLOP to inject an inconsistency into the graded C, and it does not.)
 
-## 4. Persona 1 + 5 -- the jointly-unsatisfiable axioms (W133): a no-go, or a re-derivation?
+## 4. Perspective 1 + 5 -- the jointly-unsatisfiable axioms (W133): a no-go, or a re-derivation?
 
 **The joint-unsatisfiability (test B3a, W133 X1, exact).** The Lagrangian fixes the ghost residue
 sign `eps = -1`. In ANY real-axis-cut quantization the cut weights are products of Krein signs:
@@ -143,7 +143,7 @@ non-local object.** Asking "does the jointly-unsatisfiable structure pick positi
 consistently?" -- yes, provided the non-local `eta_+` exists, which is the spectral-reality
 question again. **Route 3 verdict: NO-OBSTRUCTION** as a non-existence proof.
 
-## 5. Persona 5 -- adversarial skeptic RUTHLESS: steelman NO-OBSTRUCTION, then find the real handle
+## 5. Perspective 5 -- adversarial skeptic RUTHLESS: steelman NO-OBSTRUCTION, then find the real handle
 
 **Steelman NO-OBSTRUCTION at full strength.** Every kinematic route the mandate named fails to
 produce non-existence: (1) no-local-positive-metric forbids LOCALITY (bounded, strip-width `m`,

@@ -23,7 +23,7 @@ The test certifies the LEDGER (complete, consistent, metrics as reported); it do
 | 06-27 | WHERE-GU-STANDS:60 | stabilized RS/IG source action | all | yes |
 | 06-27 | source-action-seiberg-witten-construction:17 | stabilized RS/IG sector action | all | yes |
 | 06-27 | EXTERNAL-ADAPTER-STEELMAN:54 | a stabilized RS/IG source action | all | yes |
-| 06-28 | higher-order-story-persona-sprint:21 | the fermionic source action | all | yes |
+| 06-28 | higher-order-story-perspective-sprint:21 | the fermionic source action | all | yes |
 | 07-11 | sg4-forcing-rubric-complete:37 | SG4 = equivariant corner Grassmannian | count | yes |
 | 07-11 | explanatory-scope-audit:24 | the missing source action (SG4) | all | yes |
 | 07-11 | anchored-leads-screen-RESULTS:74 | the unbuilt twisted-RS source action | all | yes |

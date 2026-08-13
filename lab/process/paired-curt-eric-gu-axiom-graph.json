@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T172456Z-paired-curt-eric-axiom-reconstruction",
+  "run_id": "historical-investigation",
   "branch": "agent/weinstein-guided-source-action",
   "purpose": "Reconstruct the premises, corrections, hidden mathematical obligations, and falsifiable construction gates behind Curt Jaimungal's GU physics crosswalk when read with Eric Weinstein's subsequent corrections.",
   "sources": {

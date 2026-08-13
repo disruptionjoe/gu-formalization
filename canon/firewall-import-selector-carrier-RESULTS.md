@@ -4,7 +4,7 @@ status: active
 doc_type: result
 created: 2026-06-28
 grade: "the import SHAPE is forced and its carrier leg is verifiable; the unification into one operator and the delivery of the integer 3 are NOT established. Temporal repos contribute zero load-bearing content. Not a rescue of GU."
-method: "firewall-import persona sprint: 11 lenses (6 canonical groups + MMO/world-model + temporal-issuance native + TaF native + anomaly-inflow + CPT-arrow + Krein-selection + strategy) graded against a precise 4-leg import spec, clustered, adversarially critiqued, synthesized. 14 agents, ~1.51M subagent tokens."
+method: "firewall-import perspective sprint: 11 lenses (6 canonical groups + MMO/world-model + temporal-issuance native + TaF native + anomaly-inflow + CPT-arrow + Krein-selection + strategy) graded against a precise 4-leg import spec, clustered, adversarially critiqued, synthesized. 14 agents, ~1.51M subagent tokens."
 depends_on:
   - canon/firewall-boundary-hypothesis.md
   - canon/source-action-seiberg-witten-RESULTS.md
@@ -17,7 +17,7 @@ depends_on:
 # What the outside system would add (firewall-import sprint)
 
 We asked the question the source-action build forced: if a firewall boundary separates GU's provably-balanced
-interior from the chiral count, **what would an outside system add to make it work?** Every persona answered
+interior from the chiral count, **what would an outside system add to make it work?** Every perspective answered
 against a precise 4-leg spec: the import must (i) be J_quat-ANTILINEAR (break quaternionic closure), (ii)
 supply the Z/2 ghost-parity that keeps the positive-norm half of each generation-mirror Krein pair, (iii) act
 at the boundary (the RP^3 spine), (iv) carry odd-torsion 3-primary data.

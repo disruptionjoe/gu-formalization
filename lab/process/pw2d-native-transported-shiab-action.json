@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2d_native_transported_shiab_action_result",
-  "run_id": "RUN-20260802-191950-gu-formalization-pw2d-actual-y14-source-ward",
+  "run_id": "historical-investigation",
   "status": "PW2D_PARTIAL_FIXED_METRIC_COVARIANCE_COMPLETED_FULL_ACTION_JET_PASS_DELTA_ONLY_SEPARATE_METRIC_BANK_PW2E_REQUIRED",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

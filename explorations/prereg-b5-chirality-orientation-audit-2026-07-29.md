@@ -2,14 +2,11 @@
 artifact_type: preregistration
 status: preregistration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 probe: tests/channel-swings/b5_chirality_orientation_audit_probe.py
 follows: explorations/b5-phase-sum-forcing-audit-2026-07-29.md
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Prereg: does anything ORIENT the chirality distinction, or only distinguish it?
@@ -43,7 +40,7 @@ cell set, the multiplicity function, the slot dimensions, and the orbit structur
 identical, then the labels carry no canonical direction and no orientation can be
 read off the data.
 
-So the run computes the global mirror relabelling and tests invariance of each
+So the investigation computes the global mirror relabelling and tests invariance of each
 certified structure independently.
 
 ## Construction fork (per `GEOMETER-VS-PHYSICS-OBJECTS.md`)
@@ -75,9 +72,9 @@ and it must be reported as corroboration, not as a new theorem.
 ## Kill conditions, declared before computation
 
 1. If the planted-asymmetry control does **not** detect a deliberately broken
-   symmetry, the invariance test cannot fire and the run is void.
+   symmetry, the invariance test cannot fire and the investigation is void.
 2. If the global mirror map is not an involution on the certified slot set, the
-   input is not the object claimed and the run aborts.
+   input is not the object claimed and the investigation aborts.
 3. If the six chirality orbits are not exactly the `E+/E-` pairs found by the
    prior run, the two runs are not talking about the same objects; abort.
 
@@ -88,7 +85,7 @@ and it must be reported as corroboration, not as a new theorem.
 - **N1** planted dimension asymmetry on one chirality type must be **detected**.
 - **N2** planted multiplicity asymmetry must be **detected**.
 
-## What this run cannot earn
+## What this investigation cannot earn
 
 It cannot freeze a packet field, select a phase or orientation, construct a Green
 form or domain, or build an operator. A `DISTINGUISHED-NOT-ORIENTED` result does

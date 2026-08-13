@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit that internal CapacityOS ops records stay local and untracked."""
+"""Audit that internal private orchestration overlay ops records stay local and untracked."""
 
 from __future__ import annotations
 

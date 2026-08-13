@@ -28,7 +28,7 @@ Lambda_GU / lambda_max^2 = C_GU * epsilon_sec^2 = Omega
 where Omega is a dimensionless ratio. The relation becomes an equality (Lambda_GU = lambda_max^2)
 precisely when Omega = 1.
 
-**This run has three precise sub-goals:**
+**This investigation has three precise sub-goals:**
 
 1. **Identify the Omega-constant.** Compute the exact value of Omega = C_GU * epsilon_sec^2
    as a function of the physical model for the observer-section error.

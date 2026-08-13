@@ -4,7 +4,7 @@ status: active_campaign
 doc_type: construction_specification
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T181634Z-eric-curt-ten-wave-campaign-c0/run-plan.md
+run: archived private execution record
 registry: lab/process/eric-curt-ten-wave-campaign.json
 ---
 

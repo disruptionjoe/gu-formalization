@@ -1,5 +1,5 @@
 ---
-title: "Anchor-scale test of the graded inhomogeneous-gauge-group algebra: it CLOSES on the honest Cl(9,5) = M(64,H) fiber (understanding, not a verdict for a side). The corners campaign's toy super-Jacobi closure is scale-robust for its load-bearing part; the toy's diagonal/RD reading was a small-fiber artifact (sl(128) simple, no 4-dim rep); and the anchor SELECTS the real form the toy left open (sesquilinear Krein pairing on S_R; the u(1) center kills the complex-bilinear channel). A NEW previously-unnamed structural fork surfaces: two distinct complexification-free real forms (u(64,64) with center vs the centerless quaternionic g_H). Which the object 'is' is an SG4 selection this run does not make."
+title: "Anchor-scale test of the graded inhomogeneous-gauge-group algebra: it CLOSES on the honest Cl(9,5) = M(64,H) fiber (understanding, not a verdict for a side). The corners campaign's toy super-Jacobi closure is scale-robust for its load-bearing part; the toy's diagonal/RD reading was a small-fiber artifact (sl(128) simple, no 4-dim rep); and the anchor SELECTS the real form the toy left open (sesquilinear Krein pairing on S_R; the u(1) center kills the complex-bilinear channel). A NEW previously-unnamed structural fork surfaces: two distinct complexification-free real forms (u(64,64) with center vs the centerless quaternionic g_H). Which the object 'is' is an SG4 selection this investigation does not make."
 status: staged
 doc_type: results
 created: 2026-07-10
@@ -20,7 +20,7 @@ scripts:
 
 The escape-corners campaign named three open gaps under corner (b)'s graded-IG door (the "cheapest
 kill shot"): does the algebra survive at anchor scale, in the honest real/Krein form, at derivative
-level? This run closes the first two and names the third. Framed as understanding about the object:
+level? This investigation closes the first two and names the third. Framed as understanding about the object:
 survival and failure were equally valuable going in.
 
 ## What the object does at anchor scale
@@ -54,7 +54,7 @@ small-fiber artifact for its load-bearing part -- it is scale-robust.
    ANTICOMMUTES with the central charge and is invisible to `u(64,64)`. So there are TWO distinct,
    each-consistent, each-complexification-free real forms -- `u(64,64)` (with center, complex-type
    odd module `S_R`) and the centerless quaternionic `g_H` (`J`-symmetric, an extra bilinear
-   channel) -- that do NOT coincide. Which the object "is" is an SG4 selection this run does not
+   channel) -- that do NOT coincide. Which the object "is" is an SG4 selection this investigation does not
    make. This is the run's genuinely new datum.
 
 ## FORCED-shape and locality

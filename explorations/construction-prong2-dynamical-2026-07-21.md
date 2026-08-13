@@ -3,7 +3,6 @@ title: "CONSTRUCTION swing PRONG 2 (DYNAMICAL): POSIT sigma = the self-consisten
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-mode: CONSTRUCTION/posit-declared
 prereg: explorations/prereg-construction-swing-posit-sigma-cycle-2026-07-21.md
 outcome: DYN-NO-REOPEN (posit-productive for the trichotomy; posit-contradicted for self-supply)
 inputs:
@@ -18,9 +17,7 @@ inputs:
 runnable:
   - tests/channel-swings/construction_prong2_dynamical_probe.py
 probe_exit: 0
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

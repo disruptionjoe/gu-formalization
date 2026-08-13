@@ -24,7 +24,7 @@ EXPECTED_PROCESS_DIRS = {
     "dialectics",
     "hegelian-method",
     "hostile-reviews",
-    "persona-passes",
+    "perspective-passes",
     "public-surface-refresh-2026-05-31",
     "queue-reviews",
     "runs",

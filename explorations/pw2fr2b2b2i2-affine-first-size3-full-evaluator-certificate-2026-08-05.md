@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2I2 affine first-moving and first size-three full-evaluator ce
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-05"
-run_id: RUN-20260805-074524-gu-formalization-pw2fr2b2b2i2-affine-first-size3
 ---
 
 # PW2F-R2B2B2I2 affine first-moving and first size-three certificate

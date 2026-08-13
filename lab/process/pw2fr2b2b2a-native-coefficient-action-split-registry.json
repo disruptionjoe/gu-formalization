@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260803-080313-gu-formalization-pw2fr2b2b2a-coefficient-action-split",
+  "run_id": "historical-investigation",
   "gate": "PW2F-R2B2B2A-ACTIVE-MOVING-SHIAB-COEFFICIENT-SLOTS-AND-STAGED-ACTION-SPLIT",
   "status": "ACTIVE_CONTRACTED_MOVING_SHIAB_AND_FINITE_FIVE_SLOT_ACTION_SPLIT_PREREQUISITE_PASS_COMPLETE_NATIVE_C5_C4_OPEN",
   "layer0": {

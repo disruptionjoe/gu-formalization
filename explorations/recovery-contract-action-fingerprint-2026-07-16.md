@@ -3,7 +3,6 @@ title: "Recovery contract action fingerprint"
 status: exploration
 doc_type: recovery_contract_checkpoint
 created: 2026-07-16
-run_id: GUH-20260716T061100Z-action-fingerprint
 fingerprint: lab/process/recovery-contract-action-fingerprint-2026-07-16.json
 gate: process_gates/recovery_contract_action_fingerprint_audit.py
 ---

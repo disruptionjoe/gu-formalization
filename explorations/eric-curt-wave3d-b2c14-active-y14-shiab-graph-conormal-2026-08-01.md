@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-01
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260801-154341-gu-formalization-ecw3d-b2c14-direct/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registry: lab/process/eric-curt-wave3d-b2c14-active-y14-shiab-graph-conormal.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c14_active_y14_shiab_graph_conormal_probe.py
 grade: "B2C14R QUOTIENT-GRADE COEFFICIENT PASS AFTER HOSTILE-REVIEW CORRECTION. The first packet computed an exact nonzero 78-dimensional Spin-stabilizer/lift block and incorrectly called it the reduction tangent. The repaired construction implements h=spin(9,5)=Lambda2 (91 dimensions), g/h with dimension 8165, and the complete 364-dimensional Spin-invariant grade-three quotient slice. All 91 vertical lift directions cancel when u and omega_LC co-move. Conservatively allowing every h-valued LC principal return W_h=T*Y tensor h (1274 dimensions), its active grade-three residual image is zero, while the reference graph has exact rank 364 on the executed owner for tested non-null normals, grade-three-projected lower-bound rank 132 at the tested null normal, and mixed-covector projected lower-bound rank 198. Exact witnesses 3/4 and -3/4 agree with a native 128x128 representation cross-check. The matching grade-three projected Gram block has rank 364 off the tested null cone and zero on it; this is not the all-grade residual Hessian. The quotient-grade moving Shiab derivative is nonzero, but the selected six-slot DM value is exactly zero. The active residual operator is therefore second order along genuine reduction tangents, while the complete all-grade primalizer, induced metric/LC graph, prolonged preboundary potential, characteristic kernel, and domain remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C14R descended quotient-grade graph coefficient

@@ -10,9 +10,7 @@ inputs:
   - explorations/continuum-pencil-graph-domain-certificate-2026-07-20.md
 probe: tests/channel-swings/source_domain_selector_prongB_hostile_verify_probe.py (foreground, EXIT 0)
 outcome: HV-WEAKEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2I2-RESUMABLE-THIRD-UNCOVERED-SIZE6-FULL-EVALUATOR",
   "status": "THIRD_UNCOVERED_SIZE6_CERTIFIED__DURABLE_6_OF_380__UNIVERSAL_374_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED",
-  "run_id": "RUN-20260805-124742-gu-formalization-pw2fr2b2b2i2-resumable-third-size6",
+  "run_id": "historical-investigation",
   "verdict_scope": "the lexicographically first canonical representative not covered by the durable 5/380 predecessor, its complete six-label S3 orbit, and all twelve directed generator edges through the active mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action jet",
   "source_disposition": {
     "REPOSITORY_DERIVES": "the append-only finite S3 coverage ledger, third selected size-six certificate, and frozen dense-heldout input bank",

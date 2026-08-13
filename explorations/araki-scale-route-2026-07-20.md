@@ -18,9 +18,7 @@ inputs:
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 runnable:
   - tests/channel-swings/araki_cut_entropy_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

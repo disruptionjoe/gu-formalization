@@ -6,9 +6,7 @@ created: 2026-08-03
 work_item: "DQ4 (seat1 queue) via M-M29 (register Revision 2); Wave A-3, anchor-council adjudication §3 and R4 (DQ4 executed as READ-FIRST — typing and absorption, not a fresh computation)"
 title: "DQ4 READ-FIRST typing note: W224 SETTLES W219's §6 question (the representation type of the rolling mode p) at split grade — the answer is SINGLET, the singlet⇒isotropy⇒F=∅ consequence is EXACT (machine-checked as a conditional, 35/35), the identification 'p IS a singlet' is SOURCE-AUDIT; the envelope's provisional grade is CONFIRMED verbatim, with one refinement (W219's options (i) and (iii) are consequence-equivalent but type-distinct and W224 merges them); upgrade path for the identification named. Cross-anchor fact recorded with Layer-0 typing: p and the record count N are the same variable, N = e^{4p}"
 grade: "READING, TYPING, AND ABSORPTION ONLY — no script executed; W224's 35/35 receipt is quoted as-filed, not re-run (P-H29 not engaged: no FD-read number is cited as a null or kill). PRE-DEPOSIT: no claim-status, canon, verdict, bar(b), H59, count, or LANE-STATE movement; the named upgrade computation and any consequence for C7 escape (a) are J5-gated (hostile field-specialist review before deposit)."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 depends_on:
   - explorations/W219-native-good-stable-stabilizer-input-gate-2026-07-14.md
   - explorations/W224-native-good-stable-dynamical-vacuum-2026-07-15.md

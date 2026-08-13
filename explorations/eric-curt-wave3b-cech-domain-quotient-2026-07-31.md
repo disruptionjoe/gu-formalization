@@ -8,9 +8,7 @@ campaign_wave: ECW3-G4-OBSERVATION
 registry: lab/process/eric-curt-wave3b-cech-domain-quotient.json
 probe: tests/channel-swings/eric_curt_wave3b_cech_domain_quotient_probe.py
 grade: "EXACT FINITE COMPATIBILITY THEOREM, NOT ACTUAL Y14 GLOBAL OR ANALYTIC CLOSURE. Three rational patches carry compatible field, equation, adjoint, nonlinear no-leakage, finite Krein-domain, and characteristic-quotient data. A locally split hostile patch fails descent. Lorentz-section existence, the actual metric-bundle atlas, an analytic closed right-H/Krein domain, and physical BFV reduction remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promotion: none
 ---
 

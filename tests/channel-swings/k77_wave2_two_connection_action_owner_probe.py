@@ -64,7 +64,7 @@ w161 = read("explorations/W161-lens-foundational-action-2026-07-14.md")
 w191 = read("explorations/W191-projected-i1b-source-block-2026-07-14.md")
 source_surface = read("lab/sources/gu-paper-reference-surfaces.md")
 rendered = read(
-    "explorations/hourly-cycles/"
+    "explorations/research-cycles/"
     "hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md"
 )
 predecessor = read(

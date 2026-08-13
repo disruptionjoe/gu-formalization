@@ -4,7 +4,7 @@ status: active_research
 doc_type: specification
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T143243Z-g2-field-space-native-variational-shiab/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/g2_native_variational_shiab_probe.py
 grade: "CONDITIONAL NATIVE FIELD/ACTION CONSTRUCTION. The selected graph field space, trace-adapted density-dual contraction, translated-curvature identity, and exact slot-symmetrized Euler map are constructed. The fixed-linear source simplification fails on the native candidate and is not used. Complete metric/reduction/boundary Euler terms and BV--BFV/Noether closure remain for G3."
 ---

@@ -108,7 +108,7 @@ def source_checks() -> None:
     pullback = (ROOT / "lab/sources/g3-weinstein-section-pullback-recheck-2026-07-31.md").read_text()
     rendered = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     ).read_text()
     g2 = (ROOT / "explorations/g2-field-space-native-variational-shiab-2026-07-31.md").read_text()
 

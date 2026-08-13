@@ -4,7 +4,7 @@ label: HQW-STATUS
 created: 2026-07-14
 posture: exploration grade; honest grading; DELTAS ONLY; no canon / RESEARCH-STATUS / claim-status execution (Joe-gated via the claim-status-consistency runbook)
 scope: "Two ready-to-apply change-sets for a Joe-gated claim-status pass. H12: the dark-energy character-vs-shape scope delta (W160 + W187 fold). H29: the RESEARCH-STATUS / CANON / DERIVATION-PROGRESS staleness scan vs the 2026-07-14 arc (W129/W130/W160/W166/W177/W180/W187)."
-method: "five personas inline (claim-status-runbook specialist; DE specialist; arc historian; consistency checker; honesty auditor); no sub-agents"
+method: "five perspectives inline (claim-status-runbook specialist; DE specialist; arc historian; consistency checker; honesty auditor); no independent reviewers"
 binding: "PRODUCE DELTAS ONLY. No owner-surface edit is executed here. Each row is given as CURRENT -> PROPOSED -> SUPERSEDED-MARKER so an approved pass can rubber-stamp it. Zero em dashes."
 governs:
   - RESEARCH-STATUS.md
@@ -12,7 +12,7 @@ governs:
   - DERIVATION-PROGRESS.md
   - canon/theta-field-flrw-dark-energy-eos.md
   - canon/dark-energy-theta-divergence-free.md
-runbook: lab/process/runbooks/claim-status-consistency-quality-workflow.md
+runbook: lab/methods/claim-status-consistency.md
 sources:
   - explorations/W160-debit3-forced-binary-2026-07-14.md
   - explorations/W187-gu-dressed-open-selfenergy-2026-07-14.md
@@ -354,7 +354,7 @@ Count of pure additions (Joe-gated promotion decisions): 3 (a, d, and the marble
 
 ---
 
-# Honesty audit (persona 5)
+# Honesty audit (perspective 5)
 
 1. **No overclaim of scope.** H12's scope statement is exactly "character-derived / shape-provably-free"
    for the everpresent-issuance object, with the mutual-exclusivity proof named and the DESI z ~ 0.405
@@ -386,7 +386,7 @@ Count of pure additions (Joe-gated promotion decisions): 3 (a, d, and the marble
 # Application instructions (Joe-gated)
 
 Apply via the claim-status-consistency runbook
-(`lab/process/runbooks/claim-status-consistency-quality-workflow.md`):
+(`lab/methods/claim-status-consistency.md`):
 1. H12 rows 1-3: insert the DARK-ENERGY-07 banner / clauses (pure additions).
 2. H12 row 4: insert the W180 scope note into `canon/dark-energy-theta-divergence-free.md`; mark the
    W160 OBSTRUCT reading historical; hold the CONDITIONALLY_RESOLVED verdict.
@@ -396,6 +396,6 @@ Apply via the claim-status-consistency runbook
    the arc surfaced in the ledger (promotion decision).
 5. Run `git diff --check` and the targeted rg sweeps from the runbook before commit.
 
-*Filed 2026-07-14 by Team HQW-STATUS. Five personas inline (claim-status-runbook specialist; DE
-specialist; arc historian; consistency checker; honesty auditor); no sub-agents. DELTAS ONLY; no canon /
+*Filed 2026-07-14 by Team HQW-STATUS. Five perspectives inline (claim-status-runbook specialist; DE
+specialist; arc historian; consistency checker; honesty auditor); no independent reviewers. DELTAS ONLY; no canon /
 RESEARCH-STATUS / claim-status execution. Exploration grade; honest grading; zero em dashes.*

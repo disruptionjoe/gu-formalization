@@ -11,7 +11,7 @@ verdict: PARTIAL — obstruction is genuinely commutator-shaped (nonzero), but 3
 Code: `tests/shiab_codiff_obstruction_commutator.py` (runnable; builds everything
 from the verified `oq_rk1_cl95_explicit_rep` Cl(9,5)=M(64,H)~M(128,C) rep).
 
-## The world-model claim under test (persona 39, MMO / world-model)
+## The world-model claim under test (perspective 39, MMO / world-model)
 
 > "Take `Phi := P o c o d*` with `P = Pi_RS` (the constraint projector). Then
 > `d^2 = 0` iff `[Pi_RS, c o d*] = 0`, and the repo's already-measured `343.73`
@@ -100,7 +100,7 @@ The de Rham `d^2=0` framing and the "iff" are a **loose analogy**, not a theorem
   **correct and now quantified for the first time**.
 - **(b) Magnitude = 343.73? NO.** The commutator is 58.72 / 113.42; `343.73` is a
   different object (compressed Dirac symbol on the un-normalized gauge image). The
-  persona's literal identification "343.73 IS the commutator" is **FALSE**. They are
+  perspective's literal identification "343.73 IS the commutator" is **FALSE**. They are
   *related* only in that both witness `im(d_A)`/the Dirac symbol escaping `ker(Gamma)`.
 - **(c) "d^2=0 iff [Pi_RS,codiff]=0"? LOOSE ANALOGY (refuted as stated).** Forward
   direction fails by explicit machine counterexample (`M=Pi_RS`). The genuine content
@@ -110,7 +110,7 @@ The de Rham `d^2=0` framing and the "iff" are a **loose analogy**, not a theorem
 
 - The exact commutator VALUE is choice-dependent: it depends on which "codifferential"
   is meant (twisted Dirac symbol 58.72 vs literal `c.d*` 113.42 vs `grad.div` 203.93 —
-  the persona itself flagged this ambiguity via canon SC1) and scales with `|xi|`
+  the perspective itself flagged this ambiguity via canon SC1) and scales with `|xi|`
   (the repo's fixed sample covector was used). Frobenius norm throughout.
 - The QUALITATIVE results are choice-robust: for every natural operator choice the
   commutator is nonzero, none reproduces 343.73, and 343.73 is structurally a

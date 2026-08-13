@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2d_right_tilted_ward_green_result",
-  "run_id": "RUN-20260802-191950-gu-formalization-pw2d-actual-y14-source-ward",
+  "run_id": "historical-investigation",
   "status": "PW2D_STRUCTURAL_RESIDUAL_RIGHT_TILTED_NONABELIAN_WARD_AND_EXPLICIT_OLD_ROOT_FRECHET_ADJOINT_GREEN_PASS_NATIVE_ALL_OWNER_WARD_OPEN",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

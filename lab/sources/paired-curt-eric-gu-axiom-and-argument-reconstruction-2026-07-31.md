@@ -3,9 +3,8 @@ title: "Paired Curt--Eric GU axiom and argument reconstruction"
 status: source_reconciliation
 doc_type: paired_argument_reconstruction
 created: 2026-07-31
-run: lab/process/runs/GUH-20260731T172456Z-paired-curt-eric-axiom-reconstruction/run-plan.md
+run: archived private execution record
 registry: lab/process/paired-curt-eric-gu-axiom-graph.json
-claim_status_change: none
 canon_verdict_change: none
 ---
 

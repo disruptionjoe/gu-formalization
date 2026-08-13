@@ -2,13 +2,9 @@
 title: "Pin/Smith class-realization ultimatum"
 status: active_research
 doc_type: exploration
-lane: "1"
-run_type: progress
 started_at: "2026-07-22"
 updated_at: "2026-07-22"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: PIN-SMITH-NOT-DEFINED
 probe: tests/channel-swings/pin_smith_class_realization_gate.py
 ---
@@ -20,7 +16,7 @@ probe: tests/channel-swings/pin_smith_class_realization_gate.py
 **Controlling question.** Does the committed GU construction canonically define a class in
 `Omega^{Pin+}_14 ~= Z/2`, and if so is that class the generator or zero?
 
-**Lane selection.** Lane 1, GU truth testing.  The ambient bordism group is already exact; this run attacks
+**Lane selection.** truth-status research, GU truth testing.  The ambient bordism group is already exact; this investigation attacks
 the remaining physics-to-topology map rather than another coefficient calculation.
 
 **Construction fork.** The target is the program-native observerse/section/deck construction.  A standard
@@ -43,7 +39,7 @@ an explicitly typed control.  It cannot stand in for a missing GU object.
 - `NOT-DEFINED`: the committed data do not canonically define the required class.  This outcome must name
   the first missing field and show why available alternatives are noncanonical or yield different answers.
 
-No nonzero ambient group, candidate analogy, persona agreement, or scalar `+/-i0` branch may substitute for
+No nonzero ambient group, candidate analogy, perspective agreement, or scalar `+/-i0` branch may substitute for
 the class construction.
 
 ## Working notes
@@ -168,7 +164,7 @@ The triple-diamond process worked best when it separated two questions that prev
 2. **What GU object maps into it?** The ultimatum shows this is a construction/type problem, not a harder
    bordism-table problem.
 
-The useful process advance is a stop rule: once the six-field class interface fails, more personas,
+The useful process advance is a stop rule: once the six-field class interface fails, more perspectives,
 ambient-group computations, or invariant guesses cannot move the class.  Future work should begin with a
 frozen representative packet, not with a detector.
 

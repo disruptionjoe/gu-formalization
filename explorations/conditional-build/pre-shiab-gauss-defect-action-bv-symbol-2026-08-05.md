@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-05
 status: CURRENT_I1B_OWNER_KILLED_AT_T0__CONDITIONAL_PRE_SHIAB_DEFECT_ACTION_AND_NONNULL_EVEN_BV_SYMBOL_EXACT__GLOBAL_SOLDERING_WELD_AND_NONLINEAR_BV_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 ledger_rows: [LT-GR1b, LT-GR2b, LT-GR2c, LT-GR2d, LT-SM8]
 fork_assumed: SIGNATURE_AMBIENT_K77__RESTRICTION_FIRST_GAUSS_REPLACEMENT_HORN
 search_space_dim: "five Lorentz-covariant second-order coefficients reduced to one Einstein line by rank-four Ward/Bianchi constraints; overall cross coefficient inherited as unit on the replacement horn; one discrete action horn and one global soldering owner remain"

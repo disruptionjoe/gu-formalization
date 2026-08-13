@@ -2,7 +2,6 @@
 title: "RB5: the Clifford-plane soldering field cannot own the complex--Cartan flag; spectral ownership has an exact conditional calculus but no GU-native source"
 status: "completed exploration; exact stabilizer obstruction and conditional finite calculus; physical Hessian ineligible"
 date: "2026-07-30"
-run_id: "GUH-20260731T015054Z-rb5-flag-ownership-hessian"
 ---
 
 # RB5 flag ownership, spectral preflight, and Hessian eligibility

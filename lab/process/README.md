@@ -7,7 +7,7 @@ updated_at: "2026-08-06"
 
 # Process
 
-Persona passes, dialectical method, synthesis history, runbooks, templates, and
+Perspective passes, dialectical method, synthesis history, runbooks, templates, and
 process-quality notes.
 
 This surface is process navigation. It does not change claim status, canon
@@ -21,7 +21,7 @@ consistency workflow.
 - `dialectics/` - dialectical method and dialogue records.
 - `hostile-reviews/` - filed hostile field-specialist reviews; their corrections bind the artifacts they review.
 - `hegelian-method/` - Hegelian method material.
-- `persona-passes/` - persona-pass records and method variants.
+- `perspective-passes/` - perspective-pass records and method variants.
 - `public-surface-refresh-2026-05-31/` - public surface refresh provenance.
 - `queue-reviews/` - periodic reviews of the QUEUE (not of individual waves); freshness-gated by `process_gates/queue_review_freshness_audit.py`.
 - `runbooks/` - standard repo-local process workflows.
@@ -31,7 +31,7 @@ consistency workflow.
 
 Runbooks:
 
-- `runbooks/five-lane-frontier-run.md` - standard repo-local five-sub-agent frontier run.
+- `runbooks/five-lane-frontier-run.md` - standard repo-local five-independent reviewer frontier run.
 - `runbooks/daily-research-portfolio-stewardship.md` - daily priority and dependency reconciliation.
 - `runbooks/draft-factory-paper-seed-handoff.md` - cheap paper-seed routing and capacity-backed source-hardening requests.
 - `runbooks/meaningful-hourly-progress-swing.md` - default substantial hourly Progress swing.
@@ -261,7 +261,7 @@ Runbooks:
   content-derived hashes, imported evidence dispositions, future prospective
   freeze requirements, and no typed-oracle, scientific, or datum status.
 - `post-b2c15r3-multidisciplinary-council-next-ten-waves.json` - machine-readable
-  thirteen-specialist and ten-engineering-persona assessment plus a
+  thirteen-specialist and ten-engineering-perspective assessment plus a
   dependency-checked ten-wave post-B2C15R3 construction scaffold. It keeps
   the independent-native, Eric-guided, and Curt-comparator roles distinct;
   restricts ML and systems analogies to typed roles; requires divergent
@@ -279,8 +279,8 @@ Runbooks:
 - `deflation-false-negative-audit-2026-07-03.md` - deflation false-negative audit.
 - `fanout-recent-run-convergence-2026-07-06.md` - recent fan-out convergence addendum.
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
-- `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
-- `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
+- `research-evidence-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
+- `research-evidence-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
 - `conditional-physics-ledger-v0.39.json` - current machine ledger; the complete selected `Cl2` pullback is rank 100 with 640 nonzeros and remains full-II plus trace-square, while total-residual other-grade support is primary; headline counts, residue, four quotients and P1/P2/P3 remain fixed.
 - `selected-second-layer-full-cl2-residual-pullback.json` - exact sparse-support, Gram, inertia and stationary co-moving receipt; higher variational grades and the total-residual rival remain open.
 - `conditional-physics-ledger-v0.38.json` - immutable predecessor; the rank-100 Gauss projection is exact but a `2/39` orthogonal `Cl2` leakage witness blocks its identification with the full second-layer I2B pullback.
@@ -758,7 +758,7 @@ Runbooks:
   certificate routing the Weinstein source callouts through five shared
   conditional parent objects, with passed finite controls and every actual
   `Y^14` emergence gate kept open.
-- `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
+- `research-portfolio.json` - machine-readable GU truth-status research/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.
 - `wave-discipline-gates-2026-08-04.md` - what the wave-disposition schema gate and the fork-stack depth gate enforce, the dated grandfathering cutover, and how to add a fork to the registry.
 - `first-interaction-krein-global-zero-mode.json` — exact registry for the

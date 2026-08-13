@@ -6,7 +6,6 @@ created: 2026-08-05
 provenance: "Joe-supplied AI-generated summary of Boyle–Turok claims and their proposed relevance to this repo, 2026-08-05. SECONDARY SOURCE: not the papers, not a transcript. Recorded because what circulates ABOUT a program is itself useful data — and because several of its statements were already checked against the primary papers by this repo on 2026-08-03 and found overstated."
 grade: "SECONDARY, UNVERIFIED as given. Every load-bearing statement below is cross-referenced to lab/sources/claim-mining-boyle-turok-cpt-2026-08-03.md, which read the arXiv sources directly. Where the two disagree, THE PRIMARY MINING GOVERNS. This file may not be cited for any Boyle–Turok claim; cite the primary mining."
 supersedes_nothing: true
-claim_status_change: none
 canon_verdict_change: none
 ---
 

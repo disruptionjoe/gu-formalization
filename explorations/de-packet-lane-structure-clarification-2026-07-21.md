@@ -1,17 +1,15 @@
 ---
-title: "Clarification: where the dark-energy prediction packet lives, redundancy-vs-seam between GU Lane 2 and the Drafting Factory, and why nothing looks post-ready"
+title: "Clarification: where the dark-energy prediction packet lives, redundancy-vs-seam between GU prediction research and the Drafting Factory, and why nothing looks post-ready"
 status: clarification
 doc_type: exploration
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (scout-and-clarify the DE packet / drafting-factory / lane structure)"
 scope: read_only_scout
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: github_versioning_only
 inputs:
   - lab/process/prediction-package-standing-rule.md
-  - lab/process/research-portfolio.json
+  - lab/process/RESEARCH-AGENDA.json
   - explorations/blockbuster-p1-de-sign-covariance-2026-07-19.md
   - explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
   - explorations/b5-middle-source-freeze-2026-07-21.md
@@ -19,7 +17,7 @@ inputs:
   - explorations/pin-bordism-cardinality-2026-07-21.md
   - lab/sources/claim-mining-toe-weinstein-2026-07-20.md
   - "drafting-factory: production/pp3-preregistration-note/{README,COVER-NOTE-FOR-JOE,DECISIONS,draft-pp3-preregistration-note-v0.1}.md"
-  - "drafting-factory: PAPER-SEEDS.md, LANE-STATE.yaml"
+  - "drafting-factory: PAPER-SEEDS.md, CURRENT-STATE.yaml"
 ---
 
 # Clarification: the DE packet, the seam, and why nothing reads "post-ready"
@@ -63,7 +61,7 @@ work is non-blocked and active. The anomaly "one number" is computable now
 - **PP3 — the SHAPE / curve family.** `explorations/prediction-package-pp3-de-
   curve-family-2026-07-20.md`. Frozen 2026-07-20, v0.2,
   `package_status: FROZEN_CONDITIONAL_CURVE_FAMILY`, owner item
-  `PRED-CANDIDATE-PACKETS`, Lane 2. Claim: IF a future release detects any
+  `PRED-CANDIDATE-PACKETS`, prediction research. Claim: IF a future release detects any
   deviation from LCDM, the point lies on a **one-parameter thawing locus** —
   non-phantom (inherits PP1's sign leg), segment `w0+1 <= 0.054`, frozen slope
   `wa/(w0+1) in [-1.33, -1.00]`, plus a second curvature invariant
@@ -103,7 +101,7 @@ tracks doing the same job.
 
 - **GU (source repo) owns the science.** Freezing packets, the enumerated
   condition chain, the numeric kill thresholds, native-vs-forced classification,
-  research grade, claim status. Its DE work lives in **Lane 2**:
+  research grade, claim status. Its DE work lives in **prediction research**:
   `PRED-CANDIDATE-PACKETS` (owner of PP1/PP2/PP3), `DE-AMP-DIAGNOSTIC` (the
   data-facing amplitude audit), `DE-F1-TRIPWIRE` (the one-sided ceiling monitor),
   `P-OBS-LEG` (routes the observational leg). `research-portfolio.json`
@@ -125,8 +123,8 @@ tracks doing the same job.
 
 **Feedback direction (the return path that ties the seam):** DF sends
 carding/hardening feedback to the source repo's mailbox; the repo routes it —
-prediction-side hardening to **Lane 2**, paper-side hardening to **Lane 3**.
-"GU's Lane 2 and Lane 3 both ultimately produce papers — different TYPES of
+prediction-side hardening to **prediction research**, paper-side hardening to **result-hardening research**.
+"GU's prediction research and result-hardening research both ultimately produce papers — different TYPES of
 paper, one queue downstream."
 
 **Explicit anti-duplication guards already in the canon (so there is nothing to
@@ -167,14 +165,14 @@ Three compounding reasons, none of which is "the work isn't done":
 2. **The GU repo deliberately does not show a post-ready state.** Standing rule
    item 5: "source repos do NOT track factory release states — the factory
    surface is the single owner of progression." If Joe is looking at the GU
-   side (Lane 2, the portfolio), he will correctly see *frozen packets* and
+   side (prediction research, the portfolio), he will correctly see *frozen packets* and
    *no* "post-ready" flag — that flag lives only on the DF surface.
 
 3. **DF's own top-level registers are slightly behind its production home.** The
    production home (`DECISIONS.md`) says REGISTRATION-READY, but `PAPER-SEEDS.md`
    still lists `GU-SEED-PP3-PREREG` as `conditional_priority_review`
    ("time-sensitive but not automatically capacity-selected"), and
-   `LANE-STATE.yaml` (updated 2026-07-20T14:00, `needs_joe: false`) shows Lane 1
+   `CURRENT-STATE.yaml` (updated 2026-07-20T14:00, `needs_joe: false`) shows truth-status research
    "moving / candidate intake" without surfacing PP3 as READY. The PP3 README
    flags this itself: the PAPER-SEEDS/FACTORY-STATE rows "should be synced into
    those registers by the steward on the next normal pass. Until then this

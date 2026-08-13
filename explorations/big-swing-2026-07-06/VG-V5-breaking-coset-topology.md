@@ -5,7 +5,7 @@ created: 2026-07-06
 title: "Big swing VG-V5 (T2' coset topology): the candidate breaking coset D = positive lines in C^(3,2) deformation-retracts onto CP^2 by an explicit verified flow, and CP^2's discrete invariants are MEASURED with a full anti-import provenance chain -- chi = 3 (cellular AND Gauss-Bonnet quadrature 3.000000, S^4 control 2.000000), c1(T CP^2) = 3h, <c1^2> = 9, H^2 = Z free (NOT the RP^3 Z_2 / 2-torsion profile). Every 3 is an eigenvalue or cell COUNT descending from dim X = 4 + one time direction via measured (7,3) -> trace-reversed (6,4) [g -> -g invariant] -> Hermitian (3,2) [invariant over 21 sampled complex structures]. HONEST OUTCOME: the coset-topology legs (a)-(c) are THEOREM-grade, but whether the coset's 3 ever reaches the generation index is CONSISTENT_UNCOMPUTED: the twist enters only through the rk*c1(L)^2/2 term (absent in every GU-native channel), stays EVEN on spin X (respects the 12k/2-adic wall -- it cannot make the count odd), and is guaranteed 3-divisible only if the condensate couples through the anticanonical O(3) = K^(-1), which is an unperformed equivariant computation; the section itself needs the unbuilt dynamics."
 grade: "exploration / (a)-(c) THEOREM (explicit constructions, machine-verified, with negative-line, Euclidean-base, S^4, and CP^1/CP^3 controls all showing the checks can fail); (d) index leg CONSISTENT_UNCOMPUTED; overall route CONSISTENT_UNCOMPUTED. Target-import guard at maximum strictness: {3, 8, 24, chi(K3)=24, Ahat=3, rank_H=4, ind_H=8} never assumed, inserted, or divided by; every printed 3 carries a printed provenance line; the only inserted geometric data are dim X = 4 and 'the base is Lorentzian'. Anchors reproduced first: triplet Krein signature (+96,-96,0) in (9,5), beta_S residual 0.0e+00, rank(Gamma) = 128, ker = 1664."
 depends_on:
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
   - canon/h2-base-index-chirality.md
   - canon/ghost-parity-krein-synthesis.md
@@ -16,7 +16,7 @@ scripts:
 
 # VG-V5: T2' coset topology — does the breaking channel carry a 3-divisible discrete invariant?
 
-**The leg (revised statement, Section 5.3 of the persona doc):** exhibit a nonconstant map from the
+**The leg (revised statement, Section 5.3 of the perspective doc):** exhibit a nonconstant map from the
 breaking vacuum-manifold's homotopy to a 3-divisible class in the relevant bordism/Dai-Freed group,
 against standing adverse evidence attached to the leg itself: RP^3 is Z_2, native indices are 12k,
 inflow is mod-2, C-07 forces even signatures — "the CP^2/c1 = 3h candidate enters flagged as
@@ -224,7 +224,7 @@ connections (which all gave identically 0).
 | (d) the 3 reaching the index | twist term even (respects 2-adic wall), 3-divisible iff 3 \| m; m-selection + section + C-07 twisted check all unperformed | CONSISTENT_UNCOMPUTED |
 | **route** | the coset carries a measured, provenance-clean 3-divisible invariant; the transfer to the count is the open invoice | **CONSISTENT_UNCOMPUTED** |
 
-**Against the kill conditions (Section 6.2 of the persona doc):**
+**Against the kill conditions (Section 6.2 of the perspective doc):**
 
 - **KC-2 (T2' typed failure: vacuum manifold connected in the relevant degree / only 2-torsion or
   even classes):** does **not fire** on this candidate — for the first time a named breaking channel

@@ -4,11 +4,8 @@ status: process
 doc_type: construction_space_protocol_addendum
 created: "2026-07-19"
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
-lane: "1"
 probe: P0-PREREGISTER-ENDINGS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Construction-Space Pre-Registered Endings

@@ -3,15 +3,12 @@ title: "Post-N3 campaign rebase: ten construction waves from the current musical
 status: preregistration
 doc_type: campaign_rebase
 created: 2026-07-30
-lane: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-POST-N3-REBASE
-run: lab/process/runs/GUH-20260730T172925Z-post-n3-ten-wave-rebase/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/post_n3_source_datum_ten_wave_rebase_contract.py
-revises: explorations/ten-persona-next-ten-swing-council-scaffold-2026-07-30.md
+revises: explorations/ten-perspective-next-ten-swing-council-scaffold-2026-07-30.md
 grade: "PREREGISTERED CAMPAIGN REBASE. Completed N1, N2a, N4a, and N3 construction results are preserved. Vanchurin supplies method prompts only; Weinstein supplies source-shaped rival architectures only. The first four future waves are reordered before the original N5--N10 sequence. No source/repo identity, action correctness, stationarity, CME, domain, mass, Standard Model fit, anomaly cancellation, index, count, canon verdict, or public posture is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 scientific_execution: none
 ---
 
@@ -89,7 +86,7 @@ revised. The original preregistration remains the provenance record.
 
 | exploration | real adjustment | what it does not change |
 | --- | --- | --- |
-| Vanchurin ten-persona analogy audit | RB1 must enumerate actual \(A\)-dependency paths and construct the density-dual-to-primal connection musical; RB4 must complete the moving \(s^*/s_*\) calculus; RB3 must compute the zero-order placement intersection before choosing coefficients | it supplies no neural/GU map, source action, datum, determinant line, index, count, or positive metric |
+| Vanchurin ten-perspective analogy audit | RB1 must enumerate actual \(A\)-dependency paths and construct the density-dual-to-primal connection musical; RB4 must complete the moving \(s^*/s_*\) calculus; RB3 must compute the zero-order placement intersection before choosing coefficients | it supplies no neural/GU map, source action, datum, determinant line, index, count, or positive metric |
 | Weinstein primary-source reinspection | RB2 must compare N1's bridge architecture with a source-shaped total-residual action carrying \(\frac12d_BT+\frac13[T,T]\); RB3 must test one shared spin-zero gauge-potential component across mass and cosmology | a displayed source formula is not a native-real-form map, proof, Noether identity, VEV selection, or full-20 mass operator |
 
 The Vanchurin result is mainly a **method and ordering correction**. The

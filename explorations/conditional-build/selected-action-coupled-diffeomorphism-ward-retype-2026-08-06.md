@@ -2,8 +2,6 @@
 artifact_type: layer0_correction_and_coupled_ward_target
 created: 2026-08-06
 status: COUPLED_DIFFEO_ORBIT_CORRECTS_METRIC_ONLY_TARGET__ACTUAL_I1B_BLOCKS_OPEN
-lane: "1"
-functional_channels: [COMPOSE, BUILD, SOURCE, VERIFY]
 source_return: SOURCE-CORRECTS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:

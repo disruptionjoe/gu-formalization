@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T181634Z-eric-curt-ten-wave-campaign-c0",
+  "run_id": "historical-investigation",
   "branch": "agent/weinstein-guided-source-action",
   "lane": "1",
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",

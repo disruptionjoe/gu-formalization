@@ -9,7 +9,6 @@ superseded_by: explorations/prediction-package-pp3-de-curve-family-v0.3-2026-07-
 superseded_at: "2026-07-22T12:03:58-05:00"
 frozen_at: "2026-07-20T06:48:12-05:00"
 owner_item: PRED-CANDIDATE-PACKETS
-lane_id: "2"
 directed_by: "Joe direct chat, 2026-07-20 (proposed by Joe; ten-lens council steelman run inline before freeze)"
 extends:
   - lab/process/prediction-package-standing-rule.md
@@ -18,9 +17,7 @@ extends:
   - tests/channel-swings/de_amplitude_audit_probe.py
 runnable:
   - tests/channel-swings/pp3_curve_family_locus.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

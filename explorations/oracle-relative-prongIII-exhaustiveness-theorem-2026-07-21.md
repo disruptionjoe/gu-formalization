@@ -17,9 +17,7 @@ inputs:
 runnable:
   - tests/channel-swings/prongIII_exhaustiveness_theorem_probe.py
 outcome: III-LEAN-STANDS (split; externality core promotes to THEOREM via the involution leg, Godel-diagonal dress stays a lean at one named obstruction)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

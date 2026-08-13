@@ -6,9 +6,7 @@ status: exploration
 posture: adversarial; truth-seeking; preregistered both ways; no verdict movement
 title: "Chirality grading of the imposter 128 under both real forms (Q2) and the (7,7) rerun of the trichotomy's two legs (DQ2)"
 grade: "DETERMINISTIC FINITE NUMERICAL COMPUTATION plus analytic structural identities / pre-deposit / claim_status_change: none"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 hostile_review_status: "MUST-FIX findings absorbed; PH-K1 split into kinematic and physical gates"
 verdict_gate: "Results here are PRE-DEPOSIT. No bar, verdict, canon claim, count, H59, or LANE-STATE entry moves on this artifact. Hostile review confirms only PH-K1-KINEMATIC; PH-K1-PHYSICAL remains OPEN/BLOCKED."
 kill_conditions_declared_before_computation: true

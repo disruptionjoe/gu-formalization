@@ -1,7 +1,7 @@
 # Full-roster state assessment + the hidden model (2026-07-11 / -12)
 
-**What this is.** A single-worker, full-roster inline pass (all personas run sequentially in one context; no
-per-persona agents) producing Joe's five outputs for each discipline family: (1) ASSESS the current state,
+**What this is.** A single-worker, full-roster inline pass (all perspectives run sequentially in one context; no
+per-perspective agents) producing Joe's five outputs for each discipline family: (1) ASSESS the current state,
 (2) what is MISSING, (3) THE HIDDEN MODEL we cannot see directly but are seeing the evidence of, (4) a STEELMAN
 of what is really happening, (5) the ONE strongest testable hypothesis to pursue next. Truth-seeking, honest
 grades; reach on (3)/(4) but grade the reach. **No canon / RESEARCH-STATUS / verdict / posture change; no
@@ -9,7 +9,7 @@ external action; not committed as a claim.**
 
 ## Roster used
 
-The **two-track persona sweep** roster (`explorations/two-track-persona-sweep-2026-07-11/`), ~60 personas in
+The **two-track perspective sweep** roster (`explorations/two-track-perspective-sweep-2026-07-11/`), ~60 perspectives in
 five discipline families, each family an expansion of the five standing science-advisory archetypes
 (`explorations/science-advisory-council-full-picture-2026-07-11.md`):
 
@@ -28,7 +28,7 @@ Durable inputs read in full (not reconstructed): the UV-structure paper family a
 (H57/H58/H60, W44–54), `scalaron-normsign-and-vacuum` (W79), `native-r2-sign-makeorbreak` (W80),
 `E2-asymptotic-safety` (W81), `H61a-rank2-verdict-and-convergence` (W77), `CONJECTURE-source-action-is-the-
 observer`, `H62`/`H63`/`H64` and the `path5` wave, `fanout-wave-synthesis-observer-conjecture`, and the
-`bigger-story-persona-synthesis` capstone.
+`bigger-story-perspective-synthesis` capstone.
 
 ---
 
@@ -287,7 +287,7 @@ and doubles as the North-Star class test.
 
 ---
 
-**Grade of this document:** full-roster synthesis, personas inline (one worker). No new computation; reorganizes
+**Grade of this document:** full-roster synthesis, perspectives inline (one worker). No new computation; reorganizes
 the day's durable results into the five requested outputs at honest grade. The hidden model is a *promising
 organizing principle* (one established leg, one real unification) with a *speculative* most-ambitious version and
 a *skeptic-floor* runner-up it contains; it is explicitly not a validation of GU. No canon / RESEARCH-STATUS /

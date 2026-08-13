@@ -25,7 +25,7 @@ the dark-energy distance-model result could be paper-scaffolded: **B1 -- compute
 CMB-calibrated amplitude** by imposing the Planck acoustic angular scale theta_star on
 GU's own H(z), instead of arguing the Planck amplitude onto GU via the fixed-Om fairness
 argument. The freed-amplitude "competitive on shape" reading (dAIC = -3.17) rested
-entirely on that argument. This wave executes the computation. Five personas run inline,
+entirely on that argument. This wave executes the computation. Five perspectives run inline,
 then synthesis.
 
 Reproduction: `python -u tests/wave46/H46C_theta_star_cmb_calibration.py`
@@ -38,7 +38,7 @@ catalogued closes.
 
 ---
 
-## Persona 1 -- CMB cosmologist: the calibration itself
+## Perspective 1 -- CMB cosmologist: the calibration itself
 
 **What Planck actually pins.** The acoustic angular scale
 theta_star = r_star / D_M(z_star), measured essentially model-independently:
@@ -93,7 +93,7 @@ not used as a chi^2 input here.
 omega_m h^2 = 0.128, which is ~13 sigma below Planck's 0.1430 +/- 0.0011. That branch
 abandons CMB compatibility outright; it is a rejection of the CMB, not a calibration.
 
-## Persona 2 -- statistician: the three-way table, with consistent k
+## Perspective 2 -- statistician: the three-way table, with consistent k
 
 AIC = chi^2 + 2k on the official DESI DR2 13-dim BAO Gaussian likelihood (digits
 verified in Wave 45); dAIC = AIC_GU - AIC_LCDM; |dAIC| < 4 not decisive, > 10 decisive.
@@ -135,7 +135,7 @@ Findings:
    n = -3.5 sigma; LCDM minimum 17.33 at n = -2.0 sigma; **profiled dAIC = +16.03**,
    still decisive, both minima interior to the scan.
 
-## Persona 3 -- dark-energy theorist: gates kept visible
+## Perspective 3 -- dark-energy theorist: gates kept visible
 
 - **M^2 = 8 H0^2 remains reconstruction-grade (OQ2 open).** Nothing here promotes it.
   This wave's calibration was run at M^2 = 8 only. The mechanism that drives the result
@@ -155,7 +155,7 @@ Findings:
   derivation forcing f0 < 0.03 from the start (which would concede the DESI-facing
   content and return the sector to "LCDM-mimic").
 
-## Persona 4 -- hostile referee: strongest attacks, faced
+## Perspective 4 -- hostile referee: strongest attacks, faced
 
 1. **"Fixing r_drag/r_star while changing late-time H(z) is illegitimate."** The
    standard answer: the sound horizons are integrals of c_s/H over the PRE-recombination
@@ -190,7 +190,7 @@ Findings:
    these plausibly flips a +16-to-+36 margin, but they bound the claim's grade:
    exploration, not verified.
 
-## Persona 5 -- honesty auditor: reconciliation and corrections
+## Perspective 5 -- honesty auditor: reconciliation and corrections
 
 - **Canon verdict OPEN: unchanged.** No verdict label moves. The falsified object is
   scoped: the theta-sector DE family AS A CMB-CONSISTENTLY-CALIBRATED DISTANCE MODEL,
@@ -273,6 +273,6 @@ calibration. Next single objects for the sector: (i) the M^2-band calibration sc
 
 *Filed 2026-07-13. Wave 46 (H46C). Reproduced:
 `python -u tests/wave46/H46C_theta_star_cmb_calibration.py` (exit 0, 20/20).
-Personas run inline (CMB cosmologist, statistician, dark-energy theorist, hostile
+Perspectives run inline (CMB cosmologist, statistician, dark-energy theorist, hostile
 referee, honesty auditor). Primary-source digits fetched read-only with retrieval dates
 recorded; fetched content treated as data; no external action taken.*

@@ -2,8 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-08-05
-lane: 1
-functional_channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 title: "Full-norm gravity pole split and nonlinear augmented-torsion vacuum"
 grade: "Exact conditional TT action theorem and exact finite noncommutative cyclic-transgression stationary-branch theorem. The full-|II|^2 placement remains conditional on P2; the cyclic control is not the selected moving K77 Shiab action. No physical vacuum, mass, stability, cosmology, P1/P2/P3, canon or public-posture claim is promoted."
 depends_on:

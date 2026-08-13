@@ -281,7 +281,7 @@ def d_shiab(curvature: Form, channels: tuple[str, str, str], chi: Element) -> Fo
 
 print("A. PRIMARY SOURCE, PRIOR BUILD AND LAYER 0")
 source_pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
-rendered = (ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
+rendered = (ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
 rb1b = (ROOT / "explorations/rb1b-native-bosonic-shiab-reopener-2026-07-30.md").read_text()
 k77b3 = (ROOT / "explorations/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction-2026-08-04.md").read_text()
 predecessor = (ROOT / "explorations/k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md").read_text()

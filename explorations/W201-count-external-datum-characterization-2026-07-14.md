@@ -38,7 +38,7 @@ and asks the decisive relational question: **is it the same external bit as the 
 q=5 finality datum (#1), or independent?**
 
 The answer is sharp and truth-symmetric: **INDEPENDENT AS DATA, SHARED AS OPERATOR.** Neither a
-vacuous "unknown" nor a coincidence-by-vagueness. Five personas ran inline in this one worker; the
+vacuous "unknown" nor a coincidence-by-vagueness. Five perspectives ran inline in this one worker; the
 deterministic test `tests/W201_count_datum_vs_krein_sign_type.py` is 15/15, exit 0, positive controls
 first.
 
@@ -54,7 +54,7 @@ selectors and found rank 8 (the count columns k_gen/n_gen pivot separately from 
 s_res/r_eta); W201 supplies the *type-level* reason underneath that bookkeeping and the one place the
 two nonetheless touch.
 
-## 1. Persona 1 -- index-theorist: what index/torsion object supplies a {1,3} selection under W177's no-go
+## 1. Perspective 1 -- index-theorist: what index/torsion object supplies a {1,3} selection under W177's no-go
 
 W177 forbids exactly the metric-compatible route: any so(9,5)-valued (Levi-Civita) curvature is
 leakage-free on ker(Gamma) and cannot move the Gamma-independent C2. So the count-carrying object must
@@ -76,7 +76,7 @@ be **outside so(9,5)** and **gamma-trace-breaking**. Index theory says precisely
 value-gated; NOT a torsion class, NOT any so(9,5) curvature. It lives as the **Y14-fiber pushforward**
 of the unbuilt twisted-RS source action.
 
-## 2. Persona 2 -- rep-theorist: what class of datum the Hom(Z/3,Z)=0 / CRT / torsion premise permits
+## 2. Perspective 2 -- rep-theorist: what class of datum the Hom(Z/3,Z)=0 / CRT / torsion premise permits
 
 The premise structure is `pi_3^s = Z/24 = Z/8 (+) Z/3`, CRT-split into disjoint non-interacting
 summands. Rep-theory then splits the external datum into two factors that the located-not-forced Sec 9
@@ -97,7 +97,7 @@ from the base count selector).
 **Rep-theorist verdict.** The premise permits, and forces, a **factored** datum: a 2-primary K-definite
 chiral-projection selector times an odd-torsion integer. Neither is an so(9,5) object; both are external.
 
-## 3. Persona 3 -- frontier/boundary specialist: where the non-metric datum can live in GU
+## 3. Perspective 3 -- frontier/boundary specialist: where the non-metric datum can live in GU
 
 Three GU loci are candidates, and they are the SAME locus read three ways:
 
@@ -115,10 +115,10 @@ Three GU loci are candidates, and they are the SAME locus read three ways:
 These are one object: the source action's fiber integral IS the non-metric spectral section that closes
 C2 AND carries the count, and it sits on the q=5 frontier. So the count datum **lives on the SG4 source
 action (the C2 complement / Y14-fiber pushforward), on the q=5 finality frontier** -- exactly where the
-Krein-sign datum lives. This co-location is what makes the same-bit question live (Persona 4), and it is
+Krein-sign datum lives. This co-location is what makes the same-bit question live (Perspective 4), and it is
 also why it is a genuine question rather than a trivial "no": the two datums are not in different rooms.
 
-## 4. Persona 4 -- same-bit-or-not synthesizer: compare the TYPES
+## 4. Perspective 4 -- same-bit-or-not synthesizer: compare the TYPES
 
 Put the two datums side by side.
 
@@ -141,7 +141,7 @@ CRT-forced answer, and is as informative as a coincidence would have been. This 
 under W188's rank-8 audit (the count columns and reservoir columns pivot independently).
 
 **(ii) As OPERATOR they SHARE the C-operator.** The count's chiral-projection selector must be a
-**K-definite, non-chirality re-grading** of the cross-chirality `(+96,-96)` form (Persona 2). located-not-forced
+**K-definite, non-chirality re-grading** of the cross-chirality `(+96,-96)` form (Perspective 2). located-not-forced
 Sec 6 says in its own words that the residual K-definite re-gradings "grade physical-vs-ghost, carrying
 the vectorlike +96" -- i.e. the residual escape the count needs **is** the physical-vs-ghost grading,
 which W173/W186 build as the **C-operator** `eta_+ = eta . C`. And the reservoir Krein sign (W186) is
@@ -165,7 +165,7 @@ operator** (the K-definite non-chirality C-operator / physical-vs-ghost grading)
 on offer is at the **operator level** -- and whether it is a literal identity (the source action's
 chiral projection = the operative C-operator) is the one open computation (Section 6).
 
-## 5. Persona 5 -- adversarial skeptic: is "external datum" a dressed-up unknown? is the same-operator claim real?
+## 5. Perspective 5 -- adversarial skeptic: is "external datum" a dressed-up unknown? is the same-operator claim real?
 
 **Steelman A: "external datum" is just an unknown wearing a type.** Rebutted. The datum carries at least
 five independent type constraints, each from a computed result: (1) outside so(9,5) and gamma-trace-breaking
@@ -267,8 +267,8 @@ open residual the whole program carries).
 **Artifacts:** this file + `tests/W201_count_datum_vs_krein_sign_type.py` (15/15, exit 0).
 
 *Filed 2026-07-14 by Team COUNT-EXTERNAL-DATUM (W201). Coherence-first; exploration grade; conditional
-register; truth-seeking (independence is as informative as coincidence); RUTHLESS skeptic. Five personas
+register; truth-seeking (independence is as informative as coincidence); RUTHLESS skeptic. Five perspectives
 inline in one worker (index-theorist; rep-theorist; frontier/boundary specialist; same-bit-or-not
-synthesizer; adversarial skeptic); no sub-agents. Reproducible:
+synthesizer; adversarial skeptic); no independent reviewers. Reproducible:
 `python -u tests/W201_count_datum_vs_krein_sign_type.py` (15/15, exit 0; positive controls first). No
 canon movement; H59 remains OPEN.*

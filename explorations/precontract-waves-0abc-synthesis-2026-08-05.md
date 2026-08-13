@@ -9,9 +9,7 @@ free_object_delta: 0
 residue_touched:
   - "LT-GR1b:T2"
   - "LT-SM3b:T3"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Pre-contract Waves 0B, 0A and 0C: synthesis
@@ -116,8 +114,8 @@ Joe subsequently ratified the proposed functional-channel method in direct
 chat and requested that it become durable before the next scientific wave.
 The ratified human and machine contracts are:
 
-- `lab/process/functional-channel-operating-contract-v1.0.md`;
-- `lab/process/functional-channel-operating-contract-v1.0.json`.
+- `lab/methods/research-evidence-contract-v1.0.md`;
+- `lab/methods/research-evidence-contract-v1.0.json`.
 
 The historical statement above that the contract was not ratified **in this
 Run** remains true and is preserved for provenance. Ratification does not alter

@@ -20,12 +20,10 @@ inputs:
   - explorations/m1-third-reading-2026-07-20.md
   - explorations/torsor-k-sequence-2026-07-20.md
   - "READ-ONLY time-as-finality: CLAIM-LEDGER.md (T19/T92 rows), tests/T92-accessible-witness-gap-restriction.md, open-problems/first-person-finality-complexity-separation.md"
-  - "READ-ONLY temporal-issuance: agent-runs/RUN-0050-expressiveness-threshold-fixture.md, agent-runs/RUN-0080-online-issuance-minimal-constructive-witness.md, agent-governance/NEXT-TRIGGER-PLAN.md (E117/E120/G1-G3 region)"
+  - "READ-ONLY temporal-issuance: agent-runs/historical-investigation, agent-runs/historical-investigation, agent-governance/NEXT-TRIGGER-PLAN.md (E117/E120/G1-G3 region)"
 runnable:
   - tests/channel-swings/diagonal_boundary_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 
@@ -181,14 +179,14 @@ A*(R)-computable ones. If that lemma holds, T19 is a full instance; if it
 provably fails, the parent has two genuinely different exclusion engines
 and the unification is only leg-deep.
 
-**TI (expressiveness threshold / E117 / RUN-0080).** The threshold is,
+**TI (expressiveness threshold / E117 / historical-investigation).** The threshold is,
 verbatim: "self-encoding admissibility + diagonal productive escape + no
 hidden completed oracle." These are the parent's L1 + the diagonal leg,
 carried as EXPLICIT named hypotheses (E117/E120 keep "diagonal
 productivity and self-encoding admissibility as visible hypotheses"), and
 then partially DERIVED: G1 derives diagonal productivity hypothesis-free
 from `EnumeratorPresent` (`diagName_not_mem`, Lean), G2 derives
-self-encoding admissibility for the concrete predicate. RUN-0080's
+self-encoding admissibility for the concrete predicate. historical-investigation's
 minimal witness class is "local constructive context + self-encoding
 admissibility + diagonal/productive successor + no internally formed
 future oracle." **Grade: INSTANCE OF THE HYPOTHESIS PACKAGE + conclusion
@@ -356,8 +354,8 @@ changes what kind of boundary they are, not whether they bind.
   representation-theorist council note; m1 title block (universal-null).
 - Cross-repo receipts (read-only): TaF CLAIM-LEDGER T19 block
   (FIRST-PERSON = NO / THIRD-PERSON = YES, O(|G|), causal-boundary),
-  T92 test spec, open-problems complexity-separation file; TI RUN-0050
-  threshold definition + candidate table, RUN-0080 minimal witness
+  T92 test spec, open-problems complexity-separation file; TI historical-investigation
+  threshold definition + candidate table, historical-investigation minimal witness
   class, NEXT-TRIGGER-PLAN E117/E120/G1-G3 entries.
 
 ## 8. Boundary

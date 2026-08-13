@@ -13,9 +13,7 @@ search_space_dim: "4 real spinor-channel coordinates plus 2 irreducible Riemann 
 free_object_delta: 0
 residue_touched:
   - "LT-SM3b:T3"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Pre-contract Wave 0C: identity and theorem scope

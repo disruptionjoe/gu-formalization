@@ -71,18 +71,18 @@ classification of the physical carrier, and it does not inflate the paper's clai
 ## Validation
 
 All Lean commands were serialized through the macOS host lock
-`/tmp/CapacityOS-locks/lean-build.lock`; no overlapping Lean run was started.
+`/tmp/private orchestration overlay-locks/lean-build.lock`; no overlapping Lean run was started.
 
 ```text
-bash /Users/joe/Brain/CapacityOS/repos/private/system-runtime/kernel/run-convention/repo-session-sync.sh start \
-  /Users/joe/Brain/CapacityOS/repos/public/gu-formalization
+bash <workspace>/repos/private/private orchestration runtime/kernel/run-convention/repo-session-sync.sh start \
+  .
   -> exit 0; branch even with origin
 
-/usr/bin/lockf -t 0 /tmp/CapacityOS-locks/lean-build.lock lake build
+/usr/bin/lockf -t 0 /tmp/private orchestration overlay-locks/lean-build.lock lake build
   -> exit 0; 8645 jobs; new finite-core module and default entrypoint built
   -> warnings were replayed pre-existing linter warnings in older modules
 
-/usr/bin/lockf -t 0 /tmp/CapacityOS-locks/lean-build.lock \
+/usr/bin/lockf -t 0 /tmp/private orchestration overlay-locks/lean-build.lock \
   lake env lean tests/located-not-forced/H2_FiniteCore.lean
   -> exit 0; all examples elaborate; explicit axiom report contains standard logical
      dependencies only

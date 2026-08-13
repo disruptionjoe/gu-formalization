@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; first-swing kill-or-learn on H64; deterministic machine-checked test)
+status: exploration (5-perspective inline team; first-swing kill-or-learn on H64; deterministic machine-checked test)
 created: 2026-07-11
 hypothesis: H64
 title: "H64 -- THE MASS HIERARCHY AS THE OBSERVER'S SELECTION. C2/W72's Schur wall forces the collective doublet mass-degenerate; the masses need family-symmetry BREAKING. H62 firmed VALUE = requires-breaking, so arena/value PREDICTS the masses are observer-selected = FREE. VERDICT: PARTIAL-PATTERN-PREDICTED (weak, arena-level). The degeneracy-lifting breaking is FORCED to be a DOUBLET spurion in Sym^2(Lambda^2_+) (2 unbroken params a,b + 4 breaking params = two Z/3 doublets); the fixed axis (individual/democratic direction) is CANONICAL, and a fixed-axis-preserving spurion leaves a protected DEMOCRATIC mixing column (tribimaximal-like, CONDITIONAL, generic to Z/3). BUT the split magnitude, the SIGN (hierarchy direction = which generation is heavy), and the intra-collective mixing angle are FULLY FREE (a continuum, both signs). No exact mass/ratio is predicted; World A (a geometrically FORCED mass value, which would FALSIFY arena/value) does NOT obtain. => masses FULLY FREE as VALUES; arena/value CONFIRMED and REFINED (the arena now includes a breaking-TYPE texture the observer selects WITHIN), NOT contradicted. Caveat: the texture is GENERIC to a Z/3 family symmetry (Curie/genericity, exactly parallel to H62), not a GU-unique signature."
@@ -44,12 +44,12 @@ Construction fork (per `GEOMETER-VS-PHYSICS-OBJECTS.md`): I take the family symm
 `SO(3)` is a strictly stronger added input). Both sides of the fork are carried; Sec 6 shows the verdict is
 fork-robust.
 
-Run as a 5-persona inline team (one worker, sequential): (1) FLAVOR / REP-THEORY specialist; (2) MATH REFEREE;
+Run as a 5-perspective inline team (one worker, sequential): (1) FLAVOR / REP-THEORY specialist; (2) MATH REFEREE;
 (3) ADVERSARY ("free spurion, no pattern"); (4) CROSS-CHECKER; (5) SYNTHESIZER.
 
 ---
 
-## Persona 1 -- FLAVOR / REP-THEORY specialist: characterize the breaking, hunt a partial pattern
+## Perspective 1 -- FLAVOR / REP-THEORY specialist: characterize the breaking, hunt a partial pattern
 
 ### 1a. What actually needs lifting (the breaking's JOB is narrow)
 
@@ -108,7 +108,7 @@ non-democratic angles are free.
 
 ---
 
-## Persona 2 -- MATH REFEREE: structural prediction vs tuned numerology (ruthless)
+## Perspective 2 -- MATH REFEREE: structural prediction vs tuned numerology (ruthless)
 
 | claim | grade | forced / asserted |
 |---|---|---|
@@ -140,7 +140,7 @@ predicted `1 + degenerate-2` texture is **absent** in the data (W76 T4.4). I do 
 
 ---
 
-## Persona 3 -- ADVERSARY: "the breaking is a free spurion, no pattern is predicted"
+## Perspective 3 -- ADVERSARY: "the breaking is a free spurion, no pattern is predicted"
 
 > **"You have dressed up a free spurion."** Your `S2` has a free magnitude, a free sign, and (in the plane) a free
 > direction. Sweep them and you get any splitting and any mixing angle you like (your own W76 T4.1/T4.2:
@@ -167,7 +167,7 @@ synthesizer.
 
 ---
 
-## Persona 4 -- CROSS-CHECKER: reproduce the breaking structure and the free-value sweeps independently
+## Perspective 4 -- CROSS-CHECKER: reproduce the breaking structure and the free-value sweeps independently
 
 1. **Unbroken spectrum** reproduced from the symmetric circulant `a*I + b*(C+C^T)`: `{a+2b, a-b, a-b}`, singlet
    eigenvector `(1,1,1)/sqrt3` (W76 T1.2). Matches the C2/W72 Schur degeneracy from a different construction
@@ -191,7 +191,7 @@ checks.
 
 ---
 
-## Persona 5 -- SYNTHESIZER: verdict, meaning for arena/value and the conjecture
+## Perspective 5 -- SYNTHESIZER: verdict, meaning for arena/value and the conjecture
 
 **VERDICT: PARTIAL-PATTERN-PREDICTED (weak, arena-level). Masses/mixings FULLY FREE as VALUES. Arena/value
 CONFIRMED and REFINED, NOT contradicted. World A (FULLY-PREDICTED) does NOT obtain.**

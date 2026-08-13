@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; analysis + machine-checked structural test)
+status: exploration (5-perspective inline team; analysis + machine-checked structural test)
 created: 2026-07-11
 title: "Path-5 Branch C (cross-shared): three generations as the firewall's three strata -- the count leg of the Source-Action=Observer conjecture. Verdict: a two-sided SEPARATING codim-1 firewall does force EXACTLY 3 strata (constructible-now, machine-checked), and {1,3} is reproduced; but the decisive generation<->stratum SIGNATURE is ABSENT -- the middle (2nd) generation is NOT boundary-localized, {1,3}={no-observer,observer} is imposed on the '3' (Lambda^2_+ = 1+2, not 1+1+1), and generations are replicas while strata are regions. The conjecture's most concrete anchor FAILS its own sharp test; the observer story may survive on other legs. No canon/verdict movement; count stays OPEN."
 grade: "COMPUTED / analysis. tests/W69_path5_C_three_generations.py (exit 0, 13/13, deterministic, no RNG). Standard: separating/two-sided hypersurface -> 3 strata; recollement/stratification filtration; Kaplan/Jackiw-Rebbi domain-wall bound-mode structure (branch B); real Z/3-rep theory of Lambda^2_+ (branch D). No canon / RESEARCH-STATUS / claim-status / verdict / posture movement; the generation count stays OPEN."
@@ -22,7 +22,7 @@ Cross-shared branch C of the "Source Action = Observer" wave. I test the conject
 claim and its SHARPEST stress point: that the three fermion generations ARE the three strata a single
 codimension-1 firewall creates -- INDIVIDUAL (interior / stalk), REGIONAL (the boundary itself /
 holonic / sheaf-gluing / H^1), GLOBAL (exterior / global section) -- with {1,3} = {no-firewall,
-firewall} and the MIDDLE (2nd) generation the boundary-localized one. Five personas run inline,
+firewall} and the MIDDLE (2nd) generation the boundary-localized one. Five perspectives run inline,
 sequentially, one context. I reproduced path 3's {1,3} structure (branch D) and branch B's domain-wall
 boundary-localization independently before building on them.
 
@@ -32,11 +32,11 @@ constructions: the *physics* index (Z-valued) and the *geometer's* torsion class
 `dim Lambda^2_+ = dim su(2)+`, and the "generations = strata" claim is a claim about that geometric 3.
 Where the conjecture invokes anomaly inflow (branch B) the invariant there is physics-side (a winding/
 level); I flag every crossing. The load-bearing structural objects and their construction are named per
-persona.
+perspective.
 
 ---
 
-## Persona 1 -- the SPECIALIST (sheaf cohomology / anomaly inflow / domain-wall fermions): the construction
+## Perspective 1 -- the SPECIALIST (sheaf cohomology / anomaly inflow / domain-wall fermions): the construction
 
 ### Leg 1 -- does a codim-1 firewall force EXACTLY three strata, and cap the sheaf tower?
 
@@ -83,7 +83,7 @@ generations: every generation sits ON the boundary, none in the bulk. Where the 
 **transverse penetration depth**, which is **monotone** in the mode number (`n=0` tightest, higher
 modes spread farther). This is the concrete structure the conjecture's sharp prediction must match.
 
-## Persona 2 -- the MATH REFEREE: forced-3 vs narrative; is the stratum<->generation map structural or imposed?
+## Perspective 2 -- the MATH REFEREE: forced-3 vs narrative; is the stratum<->generation map structural or imposed?
 
 | claim | grade | forced / structural? |
 |---|---|---|
@@ -93,7 +93,7 @@ modes spread farther). This is the concrete structure the conjecture's sharp pre
 | codim-1 caps cohomological degree at 3 | **false** | degree is bounded by dimension, not the surface |
 | path-3 `{1,3}` = odd invariant ranks of `Lambda^2_+` under Z/3 | **theorem** (branch D, reproduced) | structural |
 | `{1,3}` = `{no-observer, observer}` | **imposed** on the '3' | metaphor on '1'; 1+2 != 1+1+1 on '3' |
-| generations = strata (individual/regional/global) | **imposed** | replicas != regions; see Persona 4 |
+| generations = strata (individual/regional/global) | **imposed** | replicas != regions; see Perspective 4 |
 | middle (2nd) generation is boundary-localized | **contradicted** | monotone depth -> FIRST is tightest |
 
 **Referee flag.** The one theorem-grade *positive* is "separating codim-1 -> 3 strata." Everything that
@@ -106,7 +106,7 @@ under the actual discrete Z/3, a **1+2 split** (fixed axis + irreducible charged
 `{2+1, irreducible-3, 1+2}` is `1+1+1`, and none is isomorphic to the stratification as a "three-object
 structure." The map is imposed.
 
-## Persona 3 -- the INTRA-TEAM ADVERSARY (presents, does not veto)
+## Perspective 3 -- the INTRA-TEAM ADVERSARY (presents, does not veto)
 
 > "The three strata are NOT the three generations, and here is why in three strikes.
 >
@@ -135,7 +135,7 @@ structure." The map is imposed.
 The adversary's attack **stands on all three strikes.** It is presented, not vetoed; the synthesizer
 weighs it.
 
-## Persona 4 -- the CROSS-CHECKER: reproduce codim-1 -> 3-strata and the {1,3}, independently
+## Perspective 4 -- the CROSS-CHECKER: reproduce codim-1 -> 3-strata and the {1,3}, independently
 
 1. **codim-1 -> 3 strata**, from `#components + 1`: separating (`2 -> 3`), non-separating (`1 -> 2`)
    (`L1.1`, `L1.2`). Independently matches the recollement length (`3`) and its collapse to `1` when
@@ -154,7 +154,7 @@ Cross-check verdict: the codim-1 -> 3-strata fact is solid; the `{1,3}` is solid
 them (the strata ARE the `{1,3}` generations) fails independently at the module-type and symmetry-type
 level.
 
-## Persona 5 -- the SYNTHESIZER: reachability, signature PRESENT/ABSENT/UNDETERMINED, meaning
+## Perspective 5 -- the SYNTHESIZER: reachability, signature PRESENT/ABSENT/UNDETERMINED, meaning
 
 **Construction of the count used:** the number of strata a single two-sided separating codim-1 firewall
 creates (interior/boundary/exterior), tested against path-3's torsion construction (odd rank of a

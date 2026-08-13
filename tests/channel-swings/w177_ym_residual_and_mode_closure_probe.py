@@ -401,7 +401,7 @@ def main() -> int:
     if nonstationary:
         verdict = "W177-AMBIENT-YM-NONSTATIONARY"
         hessian_disposition = "PHYSICAL-HESSIAN-KILLED-AT-W177-BACKGROUND"
-        mode_closure_disposition = "NOT-RUN-STATIONARITY-PRECONDITION-FAILED"
+        mode_closure_disposition = "NOT-historical-investigation"
     elif stationary:
         verdict = "W177-AMBIENT-YM-STATIONARY-LOCAL-NUMERIC"
         hessian_disposition = "PHYSICAL-HESSIAN-ADMISSIBLE-FOR-NEXT-GAUGE-DOMAIN-GATE"
@@ -409,7 +409,7 @@ def main() -> int:
     else:
         verdict = "W177-AMBIENT-YM-STATIONARITY-OPEN-NUMERICALLY"
         hessian_disposition = "PHYSICAL-HESSIAN-NOT-ADMITTED"
-        mode_closure_disposition = "NOT-RUN-STATIONARITY-UNRESOLVED"
+        mode_closure_disposition = "NOT-historical-investigation"
 
     check(
         "stationarity classifier returned one predeclared typed verdict",

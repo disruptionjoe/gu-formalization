@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration
 label: W231
-status: "exploration (W231 / lane A3 of the GAP-CLOSURE wave; CLOSE the dynamical SMG realization for GU's SPECIFIC SO(10)-16 mirror by EXTENDING W225; four personas inline in one worker, no sub-agents; one deterministic test 26/26 exit 0, positive controls first)"
+status: "exploration (W231 / lane A3 of the GAP-CLOSURE wave; CLOSE the dynamical SMG realization for GU's SPECIFIC SO(10)-16 mirror by EXTENDING W225; four perspectives inline in one worker, no independent reviewers; one deterministic test 26/26 exit 0, positive controls first)"
 created: 2026-07-14
 wave: W231
 posture: "coherence-first (Joe 2026-07-14); exploration grade; conditional register; truth-seeking (a genuine STILL-OPEN with a sharply-named X is a real result, a fake COMPLETED is not); NON-NAIVE (grant the good Krein branch / W216 condensate, grant anomaly-freedom / W224); RUTHLESS skeptic; do NOT re-run W225's literature survey (EXTEND it); do NOT re-litigate the reservoir Krein sign (Godel-independent, W211) nor the W216 branch selector; tri-repo gating STRICT; bar(b)/H59 stay OPEN"
@@ -33,9 +33,9 @@ cross_repo:
 # W231 (lane A3) -- Close the dynamical SMG realization for GU's specific SO(10)-16 mirror
 
 Test / closure certificate: `tests/W231_close_a3_smg_realization_gu_mirror.py` (26/26, exit 0,
-positive controls first). This is lane A3 of the GAP-CLOSURE wave. Four personas ran INLINE in one
+positive controls first). This is lane A3 of the GAP-CLOSURE wave. Four perspectives ran INLINE in one
 worker (SMG / lattice-chiral-fermion specialist; deconfined-criticality / competing-phases specialist;
-GU-mirror-content specialist; ruthless skeptic); no sub-agents. Zero em dashes. It EXTENDS W225 (it does
+GU-mirror-content specialist; ruthless skeptic); no independent reviewers. Zero em dashes. It EXTENDS W225 (it does
 NOT re-run W225's literature survey) to settle GU's SPECIFIC case.
 
 ## 0. What W225 left, and the one move that settles GU's case
@@ -57,7 +57,7 @@ generation mode `xi` to its mirror partner `-xi`. Put in SO(10) language, that p
 the two-basin picture becomes a THREE-basin picture, and the third basin is exactly where GU's own
 condensate sits.
 
-## 1. Persona 1 -- SMG / lattice-chiral-fermion specialist: three channels, by the rep theory of the 16
+## 1. Perspective 1 -- SMG / lattice-chiral-fermion specialist: three channels, by the rep theory of the 16
 
 Everything below is machine-checked by pure-integer weight arithmetic on the five SO(10) Cartan charges
 (the `16` weights are `(+-1/2)^5` with an even number of minus signs; `16bar` the odd half; scaled by 2
@@ -92,13 +92,13 @@ in the test). No rep answer is hardcoded; the singlet counts are computed from w
 So the realization question is not "S versus B" (W225) but "which of B, D, S does GU's dynamics choose,"
 and the decisive new fact is that GU's own built condensate is in the chirality-killing D, not in S.
 
-## 2. Persona 2 -- competing-phases specialist: which basin, and the one discriminant
+## 2. Perspective 2 -- competing-phases specialist: which basin, and the one discriminant
 
 Rank the three by the standard mean-field / Landau reasoning, all granted the good Krein branch (real
 gap, W216):
 
 - **B is disfavored.** It is a non-singlet condensate: turning it on costs SO(10)-breaking free energy
-  and there is NO symmetric bilinear order parameter to seed it (Persona 1). This is precisely the
+  and there is NO symmetric bilinear order parameter to seed it (Perspective 1). This is precisely the
   Butt-Catterall lattice situation (`arXiv:2111.01001`): when single-site bilinears vanish identically by
   the representation, the fermions gap through a DIRECT symmetric transition with NO intervening broken
   phase. GU's `16` is in that favorable class. So the generic Eichten-Preskill breaking is NOT the
@@ -123,9 +123,9 @@ winner on exactly this bit: S when the Z2 is conserved, D when it is broken, wit
 COUNTERFACTUAL symmetric bilinear (a real rep, not the actual `16`) would additionally open B and break
 SO(10) -- and the guard that the real `16` forbids that branch.
 
-## 3. Persona 3 -- GU-mirror-content specialist: the discriminant IS W173's datum
+## 3. Perspective 3 -- GU-mirror-content specialist: the discriminant IS W173's datum
 
-The grading in Persona 2 is not a free label. It is GU's Cartan-involution / ghost-parity `Z2`: W173
+The grading in Perspective 2 is not a free label. It is GU's Cartan-involution / ghost-parity `Z2`: W173
 established that on the `(generation, mirror)` triplet the Krein form `K` IS the Cartan involution of
 `so(9,5)` (residual `0.0e+00`), and it equals the ghost parity `u <-> v`. So the bit "is the Z2
 conserved" is identically the bit W173 spent its whole computation on: is the mirror a genuine RECORD
@@ -150,7 +150,7 @@ Cartan `Z2` as a conserved symmetry (forbidding the chirality-killing Dirac mass
 mirror-only `(16bar)^4` SO(10)-singlet (channel S), NOT the generation-mirror singlet (channel D) that
 W216 built.
 
-## 4. Persona 4 -- ruthless skeptic: is this a closure or a relabeled punt, and does it push to a verdict?
+## 4. Perspective 4 -- ruthless skeptic: is this a closure or a relabeled punt, and does it push to a verdict?
 
 **Steelman COMPLETED-REALIZES.** GU's determined content leans record (W173), the record reading forbids
 D, the rep theory forbids the symmetric bilinear that drives B, and the Butt-Catterall class realizes S
@@ -250,8 +250,8 @@ note DOES, relative to W225:
 **Artifacts:** this file + `tests/W231_close_a3_smg_realization_gu_mirror.py` (26/26, exit 0; positive
 controls first).
 
-*Filed 2026-07-14 by lane A3 (W231) of the GAP-CLOSURE wave. Four personas inline in one worker (SMG /
+*Filed 2026-07-14 by lane A3 (W231) of the GAP-CLOSURE wave. Four perspectives inline in one worker (SMG /
 lattice-chiral-fermion specialist; deconfined-criticality / competing-phases specialist; GU-mirror-content
-specialist; ruthless skeptic); no sub-agents. Reproducible:
+specialist; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W231_close_a3_smg_realization_gu_mirror.py` (26/26, exit 0). Exploration grade;
 STILL-OPEN-NEEDS-X leaning REALIZES; RUTHLESS skeptic; no canon movement; bar(b)/H59 OPEN. Zero em dashes.*

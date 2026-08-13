@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "KREIN-PAIRED BILINEAR CHIRALITY: verdict BRIDGE-SUCCEEDS, retracting the same-day BRIDGE-FAILS result. The earlier probe measured the OPERATOR e_vertical against omega_4 (0/10 cross-chirality); the physical object is the BILINEAR <Psi, M Psi>_K, and GU's Krein form is itself 4D-chirality-crossing -- K ANTICOMMUTES with omega_4. The composite K.e_vertical is therefore cross-chirality on 10/10 fibre directions and on every split tested. Control N1 is decisive against triviality: composing with K INVERTS the pattern, taking the base directions from 4/4 cross to 0/4, so K exchanges the two classes rather than flipping everything. N2 confirms an identity pairing does not restore the channel. Consequence: T10 is NOT established as required, and Weinstein's 'minimal coupling and Yukawa coupling are the same thing' survives this test."
 grade: "EXACT on the verified in-repo Cl(9,5) representation, all controls passing including a pattern-inversion control and a planted identity-pairing control. SCOPE: establishes cross-chirality only, which is NECESSARY and NOT SUFFICIENT for a Dirac mass. Lorentz invariance in 4D, landing in the Lambda^0 channel SA-Y1 names, non-vanishing, and magnitude are all separately open."
@@ -10,9 +9,7 @@ probe: tests/channel-swings/krein_paired_bilinear_chirality_probe.py
 retracts: explorations/vertical-vev-chirality-bridge-2026-07-29.md
 construction: "program-native Cl(9,5) = M(64,H) with the in-repo Krein operator (product of the nine plus-gammas). No positive-Hilbert substitution."
 origin: "Joe direct chat, 2026-07-29, reasoning from the Bateman-Turok / Mannheim ghost-parity position"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "BRIDGE-SUCCEEDS"
 ---
 

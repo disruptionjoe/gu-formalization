@@ -4,9 +4,7 @@ created: 2026-08-06
 status: INTRINSIC_HOMOGENEOUS_WARD_EXACT__MOVING_SHIAB_LOAD_BEARING__FULL_DIRECT_MOVING_PREBOUNDARY_CLASS_OPEN
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 source_return: SOURCE-CONFIRMS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected cubic intrinsic homogeneous Ward closure

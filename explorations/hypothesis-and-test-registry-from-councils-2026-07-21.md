@@ -1,5 +1,5 @@
 ---
-title: "Hypothesis & Test Registry — harvested from the five committed-construction / coherence-assessment councils (every reasonable hypothesis or test the 22 personas produced, clustered by distinct claim, err toward inclusion; a registry, NOT a synthesis)"
+title: "Hypothesis & Test Registry — harvested from the five committed-construction / coherence-assessment councils (every reasonable hypothesis or test the 22 perspectives produced, clustered by distinct claim, err toward inclusion; a registry, NOT a synthesis)"
 status: active_research
 doc_type: exploration/registry
 created: 2026-07-21
@@ -9,9 +9,7 @@ source:
   - explorations/council-committed-constructions-extended-2026-07-21.md
   - explorations/council-committed-constructions-math-2026-07-21.md
   - explorations/council-coherence-cross-assessment-2026-07-21.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hypothesis & Test Registry (from the 22-construction councils)

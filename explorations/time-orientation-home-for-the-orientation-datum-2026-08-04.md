@@ -3,15 +3,14 @@ artifact_type: exploration
 status: exploration
 doc_type: deciding-check
 created: 2026-08-04
-lane: "1"
 work_item: DC-H1-FOLLOW-ON
 title: "DC-H1 follow-on: the orientation datum's home IS a time-orientation of the Lorentzian base, and NOTHING in GU fixes it. CARRIER (exact): the DeWitt loop is a path of Lorentzian metrics on ONE fixed tangent space that returns the SAME metric with the future and past cones exchanged (closed form, no Clifford input); and the orientation character factors over the fourteen gimmel legs as chi = chi_base * chi_fibre with chi_fibre == +1 identically and chi_base == the orthochronous character, exhaustively over O(3,1). The Sym^2 metric-fibre legs contribute NOTHING, for an exhibited parity reason (the only flippable chi=-1 fibre legs are the three purely spatial off-diagonals and they flip in count k(3-k), always even) that is specific to three spatial dimensions. So the datum is a time-orientation of the tautological timelike LINE of X^4 -- not of F, not of Y^14. BUT its nontriviality is FIBREWISE: the loop lies inside one fibre, so the class is not in the image of H^1(X^4;Z/2), and no base-side supply can cancel it. FIXED-vs-PRESUPPOSED: all seven real candidates PRESUPPOSE. W166's record-count mode and the Friedmann first equation are exactly T-EVEN (T exchanges the growing and decaying branches); record accretion and the causal-order route are T-odd only because they import the past cone; CH-REC already types its eps as an import. LAYER-0 PAYLOAD, new: the program's three structures carry three DIFFERENT characters -- sigma_J(J_obs) = det = SPACETIME orientation, sigma_K(K_S = e_0..e_8) = det*orth = SPACE orientation, chi(C_perp = K J_obs) = orth = TIME orientation, with chi = sigma_K * sigma_J -- so any weld of 'the arrow' to a Krein sign must name WHICH. Ledger: UNCHANGED in count; the datum is RELOCATED and BETTER TYPED."
-grade: "EXACT throughout, in tests/dc-h1/time_orientation_home_probe.py: 52 hard checks, five preregistered kill conditions, five firing negative controls, exits nonzero on any failure. Part 1 is Fraction arithmetic (the DeWitt supermetric); Part 2 is closed-form sympy with NO Clifford/Krein/coflip/packet input at all; Parts 3-5 are Gaussian-integer Cl(9,5) linear algebra plus integer combinatorics; Part 6 is exact sympy T-parity plus integer bookkeeping over a declared, existence-checked ledger. CITED, not re-derived: DC-H1's identification of chi as the orthochronous character and the reduction of the ten relative phases to one common phase. HARDENED here, not merely cited: DC-H1 ASSERTED the fibre frame's (6,4) signature; this run DERIVES it (exact orthogonality, exact norms, and the lambda > 1/4 dependence). NOT established: any transfer of the loop from the metric fibre F to the 13-dim link L^13; any packet field, phase, Green form, domain, or operator; any movement of the count; any identification of this Z/2 with TaF's finality direction."
+grade: "EXACT throughout, in tests/dc-h1/time_orientation_home_probe.py: 52 hard checks, five preregistered kill conditions, five firing negative controls, exits nonzero on any failure. Part 1 is Fraction arithmetic (the DeWitt supermetric); Part 2 is closed-form sympy with NO Clifford/Krein/coflip/packet input at all; Parts 3-5 are Gaussian-integer Cl(9,5) linear algebra plus integer combinatorics; Part 6 is exact sympy T-parity plus integer bookkeeping over a declared, existence-checked ledger. CITED, not re-derived: DC-H1's identification of chi as the orthochronous character and the reduction of the ten relative phases to one common phase. HARDENED here, not merely cited: DC-H1 ASSERTED the fibre frame's (6,4) signature; this investigation DERIVES it (exact orthogonality, exact norms, and the lambda > 1/4 dependence). NOT established: any transfer of the loop from the metric fibre F to the 13-dim link L^13; any packet field, phase, Green form, domain, or operator; any movement of the count; any identification of this Z/2 with TaF's finality direction."
 prereg: explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md
 probe: tests/dc-h1/time_orientation_home_probe.py
 kill_conditions_declared_before_computation: "K1-K5 declared in the probe docstring before the probe body was written; the outcome space for parts (1) and (2) was fixed from the task statement and the artifacts before any computation. NOT BLIND, stated honestly: reconnaissance values for chi_fibre and the three characters were in hand before this note was drafted. The probe re-derives every load-bearing number independently and fails closed."
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - explorations/dc-h1-orbit-signs-monodromy-check-2026-08-04.md
   - explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md
   - explorations/b5-chirality-orientation-audit-2026-07-29.md
@@ -27,9 +26,7 @@ depends_on:
   - docs/paper-formalization-candidates.md
 deposit: "pre-deposit; any decisive downstream use is J5-gated"
 construction: "program-native throughout per GEOMETER-VS-PHYSICS-OBJECTS.md: the actual DeWitt metric fibre GL(4,R)/O(3,1), the DeWitt supermetric on Sym^2(T*X^4), the program-native Krein-dual coflip C_perp = K J_obs with K = K_S = e_0...e_8, and the certified B5 objects by citation. No positive-Hilbert substitution."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "CARRIER = TIME-ORIENTATION OF THE LORENTZIAN BASE (exact); FIXED-vs-PRESUPPOSED = ALL PRESUPPOSE; LEDGER UNCHANGED, DATUM RELOCATED"
 ---
 
@@ -112,7 +109,7 @@ time-reflection" is exactly the choice of a *ray* within that line.
 ### 2.2 The fibre frame, earned rather than asserted
 
 DC-H1 hardcoded `FIBRE_SIGNATURE = [1]*6 + [-1]*4` for its ten DeWitt columns.
-This run derives it (probe Part 1, exact `Fraction` arithmetic). With the
+This investigation derives it (probe Part 1, exact `Fraction` arithmetic). With the
 DeWitt supermetric
 
 ```text
@@ -260,7 +257,7 @@ geometry and survive any change of Clifford convention.
 by pigeonhole, and binding future work with **IC-3**: *do not upgrade the
 class-level identity to a claim that geometry alone selects `sigma`.*
 
-This run respects IC-3 exactly and resolves the ambiguity it flagged, in the
+This investigation respects IC-3 exactly and resolves the ambiguity it flagged, in the
 one direction that pigeonhole could not:
 
 - the **mechanism** is the `L_time` reading. §2.1 exhibits the loop physically
@@ -433,7 +430,7 @@ tempting overstatement is visible and refused:
 Three consequences worth booking, none of them a promotion:
 
 1. **The arrow is not a NEW datum.** CH-REC already booked that (zero new
-   payload items). This run supplies the *mechanism* behind that accounting:
+   payload items). This investigation supplies the *mechanism* behind that accounting:
    the character in question is literally the orthochronous character of the
    Lorentz stabilizer. That is a mechanism supply for an existing conditional
    identification, not a reduction.
@@ -477,7 +474,7 @@ one fibre, which no prior artifact drew out.
 argues "GU addresses L4 by recovering temporal order from the Observerse, not
 assuming it", with "**Repo overlap: None**", while
 `canon/six-axis-specification-protocol.md` L4 (causal order) is recorded as not
-addressed. This run does not discover that gap — it **sharpens it**: for the
+addressed. This investigation does not discover that gap — it **sharpens it**: for the
 *orientation* half specifically, recovery from the observerse is not merely
 unbuilt but obstructed, because the obstruction is nonzero on every metric
 fibre. Recovering a causal *order* (a conformal structure) is a different and

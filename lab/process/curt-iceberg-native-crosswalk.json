@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T165114Z-curt-iceberg-native-reconciliation",
+  "run_id": "historical-investigation",
   "branch": "agent/weinstein-guided-source-action",
   "source": {
     "id": "CURT-ICEBERG-2025",

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W132 / H69; 5-persona inline team; one deterministic test; the W48 gate question formalized and computed at toy level)
+status: exploration (W132 / H69; 5-perspective inline team; one deterministic test; the W48 gate question formalized and computed at toy level)
 created: 2026-07-14
 hypothesis: H69 (in service of H59)
 branch: "Team H69 (W132): the graded optical theorem on the physical subspace -- does the odd-ghost-cut leak violate physical-subspace unitarity?"
@@ -37,7 +37,7 @@ W124: `-0.0849` at the kite), and nobody had tested that leak against the optica
 restricted to the PHYSICAL subspace, the only unitarity that matters physically. This wave
 formalizes the physical-subspace statement, computes the partial-wave unitarity bound in the
 W120/W124 toys, and settles the interpretation question (leak as decay width vs leak as
-violation). Five personas ran inline, sequentially; deterministic test
+violation). Five perspectives ran inline, sequentially; deterministic test
 `tests/W132_graded_optical_theorem_physical_subspace.py` (18/18, exit 0).
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -49,7 +49,7 @@ violation). Five personas ran inline, sequentially; deterministic test
 | **Unitarity** | (K) pseudo-unitarity `S^dag eta S = eta`; (P) physical-subspace probability conservation; (C) `eta_+`-unitarity on the full space | branch A's (K)/(P) split kept sharp; (C) added as the third, previously implicit sense |
 | **Cutting rules** | real-axis Cutkosky with Krein weights `(-1)^{n_ghost}` (W120/W124 machinery) | inherited unchanged; weights on the toy forced by the propagator product, not chosen |
 
-## 1. Persona 1 -- Krein/PT specialist: the formalization (question 1)
+## 1. Perspective 1 -- Krein/PT specialist: the formalization (question 1)
 
 **The graded optical theorem.** With `eta = P_+ - P_-` (fundamental symmetry; on the Fock space
 built from the free grading, `P_+` projects on even ghost number, `P_-` on odd) and `S = 1 + iT`
@@ -86,7 +86,7 @@ different maximal positive subspace rotates `P_+` but cannot change the conclusi
 holds for every fundamental decomposition, and `B = 0` for some decomposition iff `S` commutes
 with the corresponding grading, which is exactly the C-operator condition of Section 3.
 
-## 2. Persona 2 + 3 -- unitarity analyst and loop engineer: the partial-wave bound (question 2)
+## 2. Perspective 2 + 3 -- unitarity analyst and loop engineer: the partial-wave bound (question 2)
 
 **The toy.** `chi chi -> chi chi` (massless matter) through the dressed fourth-order propagator
 `D(s) = (1/M^2)[1/s - 1/(s - M^2)]`, graviton-sector one-loop bubble from the split propagator
@@ -135,7 +135,7 @@ identically zero, the W120 L2 / W124 result): deficit `= +1/2 > 0` everywhere, p
 unitarity preserved, reproducing the Cutkosky et al. structure (P6). Residue flip: violation
 disappears (N1); the effect tracks the Krein sign and nothing else.
 
-## 3. Persona 1 + 4 -- the structural question (question 3): is there a preserved weaker sense?
+## 3. Perspective 1 + 4 -- the structural question (question 3): is there a preserved weaker sense?
 
 **The decay-width / interference reading is REFUTED, by sign.** The proposed reading was: the
 ghost is a Krein resonance that removes probability from the physical channel; negative cut =
@@ -168,7 +168,7 @@ and pays exactly the W54 non-locality price. After this wave the reduction is wi
 "physical-subspace optical theorem" for it to satisfy; the free-grading subspace fails
 exactly, and the C-subspace succeeds trivially when C exists.
 
-## 4. Persona 4 -- mathematical physicist: the Lee-Wick comparison
+## 4. Perspective 4 -- mathematical physicist: the Lee-Wick comparison
 
 Cutkosky-Landshoff-Olive-Polkinghorne's actual physical-unitarity argument has three steps:
 (i) the ghost's self-energy moves its pole off the real axis into a complex-conjugate pair, so
@@ -192,7 +192,7 @@ the C-metric non-locality (full space). This is the state-space half of the W120
 map, and it closes the same way: there is no third option in which the graded `B` survives AND
 the free positive subspace conserves probability.
 
-## 5. Persona 5 -- adversarial skeptic: steelmanning VIOLATES, then attacking the violation
+## 5. Perspective 5 -- adversarial skeptic: steelmanning VIOLATES, then attacking the violation
 
 **The steelman, at full strength.** The violation is not a toy artifact and not perturbatively
 small in any structural sense: (a) the operator identity is exact and coupling-independent;

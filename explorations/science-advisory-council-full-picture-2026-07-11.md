@@ -79,7 +79,7 @@ identification that EXPOSES GU to refutation (it makes GU inherit conformal grav
 problems). That is exactly what a progressive research programme does. Biggest thing missed: **the program
 spends its energy protecting the count (feature-framing) when it should spend it exposing the gravity sector
 (the identification that can kill it).** And the deepest un-adjudicated question: is GU's **geometry-first
-primitive** even right? The information-first / entropic-gravity antithesis (`explorations/persona-and-
+primitive** even right? The information-first / entropic-gravity antithesis (`explorations/perspective-and-
 dialectic/entropic-gravity-antithesis-information-first-2026-07-07.md`; Bianconi's 2026 entropy action
 predicts a small positive Lambda that could MEET GU's theta dark-energy) is a fully-built adversary the
 program has never run against the confirmed conformal identification. That specific combination is the single

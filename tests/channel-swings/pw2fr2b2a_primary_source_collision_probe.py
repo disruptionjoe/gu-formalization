@@ -12,7 +12,7 @@ PACK = ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
 PORTAL = ROOT / "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md"
 TOE = ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md"
 UCSD = ROOT / "lab/literature/weinstein-ucsd-2025-04-transcript.md"
-RENDERED = ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+RENDERED = ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
 B1 = ROOT / "tests/channel-swings/pw2fr2b1_section_jvp_source_coordinate_probe.py"
 R = ROOT / "tests/channel-swings/pw2fr_complete_derived_k_c3_probe.py"
 

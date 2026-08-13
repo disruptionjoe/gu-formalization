@@ -9,9 +9,7 @@ inputs:
   - explorations/prong2-krein-resolvent-literature-2026-07-20.md
   - explorations/uniformity-execution-partial-2026-07-20.md
 probe: tests/channel-swings/uniformity_hostile_verify_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

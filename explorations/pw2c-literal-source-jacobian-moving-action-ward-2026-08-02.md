@@ -4,7 +4,7 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260802-180814-gu-formalization-pw2c-literal-source-ward/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registries:
   - lab/process/pw2c-literal-source-jacobian-full-k.json
   - lab/process/pw2c-moving-action-ward-bv-registry.json
@@ -12,9 +12,7 @@ probes:
   - tests/channel-swings/pw2c_literal_source_jacobian_full_k_probe.py
   - tests/channel-swings/pw2c_moving_action_ward_bv_probe.py
 grade: "PW2C SCOPED ACTIVE-GERM CONSTRUCTION PASS. The fixed-Q_Cl,fixed-g left-trivialized Frechet block of (epsilon,varpi)->(epsilon exp u(T),varpi) is derived. Its identity active-grade comparator is exactly block triangular and invertible on every controlled finite mode; an equivariant three-patch h descends and a nonconstant overlap verifies the affine connection law. Derivative loss, off-identity dexp resonance, a hostile scalar interval kernel, same-Hs/tame nonlinear inversion, the transported-Q/metric blocks, public-source bundle, and global atlas remain open. Literal K_full=dexp_-u(D_Bu) equals the direct transformed-connection difference, gives curvature conjugacy, and has its full nonzero-delta-B variation checked. On the controlled linear grade-3/11 Krylov family, same-Delta pairs have equal K_red but different K_full; the two tested Hodge-null branches have vanishing commutator and hence K_red=0 with nonzero K_full=Du. A scalar eight-label dependency comparator realizes the mixed order matrix [[2,3,3],[3,4,4],[3,4,4]], exact one/two/two Green layers, a rank-two top Hessian with the planted Abelian gauge direction as sole null, a nonvacuous off-shell Abelian Ward/Green cancellation, an ordinary canonical cotangent lift, and a finite Abelian BRST comparator. Separately, the actual native trace-adapted moving-Shiab code retains all eight named slots with ten-metric-owner rank 10. The scalar comparator and native coefficient are not one tensor action; the independent hatted-Euler/J_F-adjoint chain, actual Y14 literal-K assembly, nonabelian source Ward, graded BV/BFV, domain, and constraint surplus remain open. P1/P2/P3 remain unchanged and unused; Curt remains separate and no third lane is promoted."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # PW2C fixed-Q,g source-root Jacobian, full connection return, and structural Ward/cotangent comparators

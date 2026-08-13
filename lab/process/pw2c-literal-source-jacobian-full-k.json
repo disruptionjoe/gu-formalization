@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2c_literal_source_jacobian_full_k_result",
-  "run_id": "RUN-20260802-180814-gu-formalization-pw2c-literal-source-ward",
+  "run_id": "historical-investigation",
   "status": "PW2C_FIXED_QG_ACTIVE_SOURCE_ROOT_JACOBIAN_AND_LITERAL_FULL_K_PASS_QG_BLOCKS_ANALYTIC_NONLINEAR_AND_PUBLIC_BUNDLE_PORT_OPEN",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

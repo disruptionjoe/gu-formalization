@@ -4,9 +4,7 @@ status: complete
 created: 2026-08-04
 target: explorations/k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md
 verdict: SUSTAINED_AFTER_MATERIAL_REPAIRS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 trace-q coefficient / zero-order / reality gate

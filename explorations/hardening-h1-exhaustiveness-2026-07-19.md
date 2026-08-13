@@ -13,9 +13,7 @@ inputs:
   - explorations/d1-coperator-build-2026-07-19.md
 runnable:
   - tests/channel-swings/h1_exhaustiveness_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

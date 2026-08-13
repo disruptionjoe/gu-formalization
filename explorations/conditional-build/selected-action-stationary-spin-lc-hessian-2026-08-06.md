@@ -2,8 +2,6 @@
 artifact_type: construction_result_and_scope_correction
 created: 2026-08-06
 status: ACTION_SPIN_LC_RANK9__STATIONARY_SELECTED_METRIC_HESSIAN_EXACT__DIFFEO_WARD_RESIDUAL_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 source_return: SOURCE-CONFIRMS_AND_SOURCE-SILENT
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:

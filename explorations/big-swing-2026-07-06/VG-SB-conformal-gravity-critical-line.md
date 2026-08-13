@@ -5,7 +5,7 @@ created: 2026-07-06
 title: "VG-SB: the conformal-gravity critical line, pinned to primary sources — the lensing-sign kill did NOT already fire (it is definition-contested, Rindler-Ishak reverses it), Yoon vs Mannheim is a published standoff, and the strongest standing objection is the Horne/Hobson-Lasenby frame line (frame-INDEPENDENT no-flat-curves claim, stronger than the from-memory version), answered only by Sultana-Kazanas in a way that undercuts the fits themselves; SKY' adjudicated CONTESTED, not dead, not clean"
 grade: "INTAKE_VERIFIED (rung 0 source intake; abstract/search granularity, not full-text audit). No mathematics graded — this route produces citation corrections and a dispute-state adjudication, not a computation. Verdict for federation bookkeeping: SKY' observational surface = CONTESTED-ADVERSE (three independent objection lines, none community-adjudicated, the frame line unanswered in print by Mannheim as of this search)."
 depends_on:
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
   - explorations/big-swing-2026-07-06/CROSS-EXAM-weinstein-turok-mannheim-first-principles.md
   - explorations/generation-sector/mannheim-conformal-gravity-source-action-intake-2026-07-06.md
@@ -14,11 +14,11 @@ scripts: none (source-intake route; no numeric claim in this doc originates from
 
 # VG-SB: the conformal-gravity critical line (rung 0 source intake)
 
-Executes the SKY' standing order from the 2026-07-06 all-persona review, Section 5.3 Tier 4:
+Executes the SKY' standing order from the 2026-07-06 all-perspective review, Section 5.3 Tier 4:
 "primary-source intake (Mannheim papers + the critical line: Edery-Paranjape, Yoon,
 Hobson-Lasenby; from-memory citations to be verified) BEFORE any sky-facing claim."
 This doc adjudicates whether the federation's SKY' surface is already dead, contested, or open.
-It affects kill-condition bookkeeping only; per Section 6.2 of the persona doc, adverse sky
+It affects kill-condition bookkeeping only; per Section 6.2 of the perspective doc, adverse sky
 outcomes kill the OBSERVATIONAL surface, never the mathematical federation (T1'-T12').
 
 Method honesty: intake was done via web search + page/abstract fetches on 2026-07-06. That is
@@ -55,7 +55,7 @@ that is **opposite** to the gamma > 0 used to fit galactic rotation curves. They
 computed with the formalism appropriate to **asymptotically flat** spacetimes, applied to a
 metric that is not asymptotically flat (the gamma*r and quadratic terms diverge).
 
-Two corrections to the federation docs' from-memory version (persona doc Section 4.6):
+Two corrections to the federation docs' from-memory version (perspective doc Section 4.6):
 
 - The from-memory phrase "deflection ~ -(gamma)r/2" has the right sign and structure but the
   wrong coefficient: the E-P abstract states **-gamma * r0** (coefficient 1, not 1/2). The 1/2
@@ -101,7 +101,7 @@ cause rotation curves, nothing fixes gamma > 0, and the lensing-sign question lo
 2. **Sign objection:** as long as the total mass of the proton is positive, the theory produces
    a **negative** linear potential — while the rotation-curve fits need a **positive** one.
 
-Correction to the federation docs' from-memory version: persona doc 4.6 renders this as "the
+Correction to the federation docs' from-memory version: perspective doc 4.6 renders this as "the
 fourth-order Poisson integration over extended sources may misassign the Newtonian **limb**" —
 "limb" is a garble of "limit", and the emphasis is slightly off: Yoon's objection is about
 recovering the Newtonian limit from microscopic sources and about the SIGN of the linear
@@ -145,7 +145,7 @@ potential is not physical for matter dynamics, nothing in the rotation curves fi
 **Follow-up 2022 (arXiv:2206.08097, EPJC 82):** generalizes beyond static spherical symmetry to
 conformally invariant theories on Weyl-Cartan spacetimes; same conclusion.
 
-Correction to the federation docs' from-memory version: persona doc 4.6 has "a frame exists
+Correction to the federation docs' from-memory version: perspective doc 4.6 has "a frame exists
 where the linear potential vanishes — the fitted gamma may be a frame artifact". The actual
 claim is **stronger**: not "a frame exists" but "in EVERY frame the physical trajectories are
 SdS geodesics"; Hobson-Lasenby explicitly claim frame-INDEPENDENCE of the negative verdict, so
@@ -182,7 +182,7 @@ universal** (~(100 Mpc)^-2, fixed from the 21 most extended galaxies, then appli
 111 spiral galaxies; only mass-to-light ratios free. And astro-ph/9803135: **q0 = -0.37**
 from the conformal-cosmology fit to type Ia supernovae — confirmed exactly as remembered.
 
-Correction to persona doc 4.6: "gamma decomposed per-unit-mass plus **per-cluster kappa**" is
+Correction to perspective doc 4.6: "gamma decomposed per-unit-mass plus **per-cluster kappa**" is
 half right. The gamma = N*gamma* + gamma0 decomposition is real (and is itself a lock-relevant
 fact: gamma is NOT one universal constant across systems — it grows with enclosed mass). But in
 the rotation-curve papers **kappa is fitted as a single universal constant, not per-cluster**.
@@ -206,7 +206,7 @@ statuses:
 
 **Verdict for SKY' bookkeeping: CONTESTED, leaning adverse — not already dead, not open.**
 
-- The persona doc's 4.6 claim that the lensing kill "already fired" is **overturned**: rung-0
+- The perspective doc's 4.6 claim that the lensing kill "already fired" is **overturned**: rung-0
   intake shows a live 28-year definitional dispute, not a settled adverse result. The
   one-condensate lock's lensing leg is therefore a genuine (if murky) future surface, not a
   pre-fired kill switch.
@@ -215,7 +215,7 @@ statuses:
   gamma > 0 was never established by rotation curves, and both halves of the gamma-sign story
   (fits and lensing) lose their subject. The federation's T5' (VEV map / how mass is generated
   by the condensate) is exactly the point H-L attack — so SKY' is gated on T5' twice over:
-  once by the persona doc's own demotion, and once because the critical literature's live
+  once by the perspective doc's own demotion, and once because the critical literature's live
   objection is a mass-generation objection.
 - No kill-condition number fires from this intake (sky outcomes are bookkept inside SKY' per
   Section 6.2). The bookkeeping update is: SKY' status field moves from "lensing sign arguably
@@ -238,7 +238,7 @@ statuses:
   confirmed, but whether "quasi-static" fairly describes Mannheim's w(z) behavior was not
   verified (one fetched summary called the cosmology evolving; conformal cosmology's
   never-decelerating expansion is confirmed in the GRB-test literature at summary level).
-- DESI DR2 evolving-dark-energy preference (3-4 sigma, from memory in persona doc 3.4): out of
+- DESI DR2 evolving-dark-energy preference (3-4 sigma, from memory in perspective doc 3.4): out of
   this route's scope, still unverified.
 - All (summary-level) tags above: those points rest on fetched page summaries, not directly
   quoted abstract text.

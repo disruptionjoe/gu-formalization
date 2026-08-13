@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2I separate C4-bank universal-coverage gate"
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-04"
-run_id: RUN-20260804-102714-gu-formalization-pw2fr2b2b2i-separate-c4-banks
 ---
 
 # PW2F-R2B2B2I separate C4-bank universal-coverage gate
@@ -92,7 +91,7 @@ possible; it is not evidence that the successor was already executed.
 The prescribed H2 replay was launched serially with Python bytecode disabled
 and the pinned SymPy `1.14.0` environment. The source and Layer-0 prechecks
 passed. After more than five minutes, the first exact `shiab_jet` kernel was
-still simplifying the mixed outer wedge; the run was interrupted rather than
+still simplifying the mixed outer wedge; the investigation was interrupted rather than
 launching an unbounded 1,925-cell grid. No owner bytes other than this declared
 packet were produced by that attempt, and no cache files were admitted.
 

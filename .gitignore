@@ -3,9 +3,9 @@
 __pycache__/
 
 # Scratch / working state only (temp, caches, intermediate renders).
-# Durable artifacts -> JB/library/repos/public/gu-formalization/; secrets -> the vault.
-# See CapacityOS/system/meta/architecture/artifact-information-architecture.md.
+# Durable research artifacts belong in this repository; secrets never do.
+# Keep generated scratch and caches below `_local/`.
 _local/
 
-# Internal CapacityOS fan-out run records (ops artifacts; not published)
+# Legacy local-only working records (never published)
 steward/runs/

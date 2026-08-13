@@ -4,7 +4,7 @@ status: active_research
 doc_type: specification
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T144734Z-g3-full-variational-bvbfv/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/g3_full_variational_bvbfv_probe.py
 grade: "CONDITIONAL SOURCE-SECTOR VARIATIONAL/BV PASS. The G2 action has an all-slot graph-complete bulk derivative, action-derived preboundary data, a coupled first-jet gauge identity, and the ordinary-gauge minimal BV completion required for master-equation closure through antifield number one. A primary-source recheck identifies observation pullback/restriction, not a supplied defect action, as the author-guided four-dimensional route. G4 must construct that retract and select a domain/polarization before later matter/current work."
 ---

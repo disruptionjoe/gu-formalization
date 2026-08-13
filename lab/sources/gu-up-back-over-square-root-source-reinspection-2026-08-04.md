@@ -61,7 +61,7 @@ This exact algebra earns `SOURCE-BOUND RECONSTRUCTION WITH EXACT ALGEBRA`, not
 ## Existing-repo collision
 
 This is not the first inspection of draft equation `10.10`.
-`explorations/hourly-cycles/hourly-20260625-0711-cycle2-rs-equation-1010-cell-typing-gate.md`
+`explorations/research-cycles/hourly-20260625-0711-cycle2-rs-equation-1010-cell-typing-gate.md`
 already typed its five nodes and seven visible arrow families. It found mixed
 spinor/adjoint cells but no stable pure-RS minus-one rule. The present swing
 therefore uses `10.10` as an archaeological inventory of possible cross-map

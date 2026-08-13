@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-06
 status: TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT__PHYSICAL_LC_KERNEL_PRESERVED__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 source_return: SOURCE-CONFIRMS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:

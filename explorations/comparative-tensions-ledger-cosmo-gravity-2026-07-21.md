@@ -3,9 +3,7 @@ title: "Comparative-tensions ledger — COSMOLOGY + GRAVITY cluster. A FAIR land
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat, 2026-07-21 (comparative-tensions ledger, cosmology+gravity cluster; one synchronous pass, new file, no commit)"
 inputs:
   - explorations/parsimony-unexplained-joints-ledger-2026-07-21.md

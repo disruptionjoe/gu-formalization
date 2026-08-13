@@ -3,7 +3,7 @@ title: "Eric/Curt Wave 2: carrier-port census and frozen-class continuation"
 status: construction_result
 doc_type: exploration
 created: 2026-07-31
-run: lab/process/runs/GUH-20260731T183007Z-eric-curt-wave2-carrier-port-census/run-plan.md
+run: archived private execution record
 campaign: lab/process/eric-curt-ten-wave-campaign.json
 registry: lab/process/eric-curt-wave2-carrier-port-census.json
 probe: tests/channel-swings/eric_curt_wave2_carrier_port_census_probe.py

@@ -1,6 +1,5 @@
 ---
 artifact_id: "RSOwnedDirectoryPolicyRow_2202_C1_L2_V1"
-run_id: "hourly-20260625-2202"
 source_id: "GU-MEDIA-KEATING-QG-FBOZSSLXFVI"
 video_id: "fBozSSLxFvI"
 window: "[00:32:07]-[00:37:41]"

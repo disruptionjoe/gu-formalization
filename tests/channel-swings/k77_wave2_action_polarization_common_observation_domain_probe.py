@@ -63,7 +63,7 @@ channel_rows = P["channel_rows"]
 
 
 print("A. SOURCE COLLISION AND LAYER 0")
-rendered = (ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
+rendered = (ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
 source_pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
 toe = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
 common_action = (ROOT / "explorations/k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md").read_text()

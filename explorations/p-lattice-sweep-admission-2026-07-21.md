@@ -3,7 +3,7 @@ title: "P-LATTICE-SWEEP admission: wake satisfied, compiler blocked on axis sche
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-run_ref: RUN-20260721-033643-repository-work-cycle-cai-hourly
+run_ref: historical-investigation
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 outcome: P-LATTICE-SWEEP-BLOCKED-PARAMETERIZATION
 test: tests/recovery-contract/construction_space_lattice_admission.py
@@ -18,10 +18,10 @@ Three owner-local paths were rechecked before work selection:
 | path | wake / admission evidence | result |
 |---|---|---|
 | `P-LATTICE-SWEEP` | round 11 records both `P-K2` and `P-77-REAL-INDEX` resolved | **AWAKE** |
-| `P-OBS-LEG` | round 12 records Prediction Packet 1 frozen | **AWAKE**, but lower-ranked Lane 2 / observational work |
-| `PRED-CANDIDATE-PACKETS` | portfolio state `READY`, priority 20; PP1 already frozen, PP2/PP3 remain conditional | eligible alternative, but below active Lane 1 construction-space priority 25 |
+| `P-OBS-LEG` | round 12 records Prediction Packet 1 frozen | **AWAKE**, but lower-ranked prediction research / observational work |
+| `PRED-CANDIDATE-PACKETS` | portfolio state `READY`, priority 20; PP1 already frozen, PP2/PP3 remain conditional | eligible alternative, but below active truth-status research construction-space priority 25 |
 
-`P-LATTICE-SWEEP` was therefore selected. This run executes only its bounded
+`P-LATTICE-SWEEP` was therefore selected. This investigation executes only its bounded
 compiler-admission gate. It does not perform a repo-wide search.
 
 ## Admission question
@@ -80,7 +80,7 @@ The next bounded lattice step is `P-LATTICE-SCHEMA-FREEZE`:
 - `P-LATTICE-SWEEP`: `BLOCKED_PARAMETERIZATION` after a successful wake.
 - No new construction cell is generated or graded.
 - `P-OBS-LEG` remains awake and `PRED-CANDIDATE-PACKETS` remains an eligible
-  Lane 2 alternative; neither is executed in this run.
+  prediction research alternative; neither is executed in this run.
 - B5 remains parked at `B5-MIDDLE-SOURCE-GAP`; nothing here supplies or designs
   around its missing differential.
 - No claim, canon, verdict, or public posture changes.

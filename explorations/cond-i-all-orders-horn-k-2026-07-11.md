@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (Condition (i) of the observer-conjecture sectorial closing W94; 5-persona inline team; deterministic test)
+status: exploration (Condition (i) of the observer-conjecture sectorial closing W94; 5-perspective inline team; deterministic test)
 created: 2026-07-13
 hypothesis: "Is HORN K -- f_2^2* = 0, the genuine non-removable Weyl/spin-2 ghost that W94's sectorial firewall rests on -- firmable to ALL ORDERS / as a structural theorem, or is it a genuine truncation-conditional frontier? Attack the two pillars W87/W88/W89 leaned on: (1) is the one-loop Weyl asymptotic freedom (b_2 = 133/10 > 0) PROTECTED beyond one loop by any symmetry / non-renormalization argument, or scheme/higher-loop dependent; (2) is eta_C = 0 (the horn decider -- the graviton's physical Z_h set by its leading 4th-order kinetic term) a STRUCTURAL all-orders fact or truncation-conditional. Deliver an HONEST grade {FIRMABLE-NOW / FRONTIER / FALSE} + the precise residual."
 branch: "Condition (i) firm-up. W94 closes the observer firewall SECTORIALLY conditional on HORN K (W87). W87/W88/W89 reduced the horn to sign(eta_C) in beta_{f_2^2} = -kappa f_2^4 (b_2^grav + b_2^RS) + eta_C(g,lambda) f_2^2, with f_2^2*=0 a structural root at every regulator and the HORN-Q lift needing eta_C > 0 (which the Weyl-adapted scheme gives as 0). All three flagged the result TRUNCATION-CONDITIONAL (HIGH within the one-loop/operative truncation, MEDIUM unconditionally). This swing asks the all-orders question head-on and grades it, with read-only two-/higher-loop HD-gravity literature."
@@ -66,9 +66,9 @@ transverse gamma-traceless spin-3/2) are inherited from W83/W88, reused verbatim
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- HD-gravity RG specialist: split the all-orders question into a SPINE and a RESIDUAL
+### Perspective 1 -- HD-gravity RG specialist: split the all-orders question into a SPINE and a RESIDUAL
 
 The question "is HORN K all-orders?" does not have a single yes/no; it splits into **what is structural to
 all orders** and **what is genuinely scheme/higher-loop-conditional**. Three legs are all-orders firm.
@@ -110,7 +110,7 @@ with an all-orders kinematic reason, but that lean is a physical argument, **not
 `eta_C` is genuinely regulator/scheme-dependent (W89), and translating "the UV propagator is 4th-order
 dominated" into "`eta_C = 0`" requires the correct regulator adaptation, which is argued, not proven.
 
-### Persona 2 -- MATH REFEREE (grade FIRMABLE-NOW vs FRONTIER vs FALSE)
+### Perspective 2 -- MATH REFEREE (grade FIRMABLE-NOW vs FRONTIER vs FALSE)
 
 - **Ruling 1 -- the spine is genuinely all-orders and needs no symmetry.** S1 is exact (a Gaussian FP is a
   zero to all orders); S2's leading-coefficient universality is standard RG; S3's UV dominance is kinematic.
@@ -131,7 +131,7 @@ dominated" into "`eta_C = 0`" requires the correct regulator adaptation, which i
   propagator, double-counting the graviton normalization). No computation lifts `f_2^2*>0` for GU's content.
 - **Verdict: FRONTIER (firmable-leaning).** All-orders structural spine + genuinely open scheme residual.
 
-### Persona 3 -- ADVERSARY ("higher loops lift it")
+### Perspective 3 -- ADVERSARY ("higher loops lift it")
 
 - *Press 1: "the leading `b_2` is one-loop; two loops could flip the AF sign."* **Answered.** The leading
   coefficient of a marginal coupling is universal; near the Gaussian FP it dominates (S2b). Two loops cannot
@@ -152,14 +152,14 @@ dominated" into "`eta_C = 0`" requires the correct regulator adaptation, which i
   residual. It blocks FIRMABLE-NOW -- but the adversary's own inability to exhibit a computed lift for GU's
   content equally blocks FALSE.
 
-### Persona 4 -- CROSS-CHECKER (second angle + literature)
+### Perspective 4 -- CROSS-CHECKER (second angle + literature)
 
 - **Second angle -- the `beta` structure is scheme-invariant on the spine, scheme-variant on the residual.**
   S1 (`0` is an all-orders root) and S2 (universal `+b_2`) are properties of the *pure Weyl* beta,
   invariant under coupling redefinition. The residual is entirely in the *cross-sector* `eta_C f_2^2` term,
   the one piece that is scheme-variant. So the split spine/residual is not arbitrary -- it tracks exactly
   the scheme-invariant vs scheme-variant decomposition of `beta_{f_2^2}`. This independently confirms
-  Persona 1's partition.
+  Perspective 1's partition.
 - **Literature (read-only, 2026-07-13).** AF side (Weyl-adapted, HORN K): Fradkin-Tseytlin;
   Avramidi-Barvinsky; agravity; Niedermaier (AF coexisting with the Reuter FP); BMS (`C^2` marginally
   irrelevant); **and the 2024 physical-running result (arXiv:2403.02397): the standard quadratic-gravity
@@ -170,7 +170,7 @@ dominated" into "`eta_C = 0`" requires the correct regulator adaptation, which i
   that the split is real and that the AF side is the better-supported one, but does not close the all-orders
   sign.
 
-### Persona 5 -- SYNTHESIZER
+### Perspective 5 -- SYNTHESIZER
 
 See Sections 2-4.
 

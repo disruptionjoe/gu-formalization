@@ -28,7 +28,7 @@ carries an explicit "what would defeat this argument" so the orchestrator can we
 constructive branches. Over-killing genuine novelty by over-applying "already known" is the failure mode
 this role is built to avoid, so WEAK is reported as WEAK.
 
-**Persona team (ran inline, sequential, one context):** (1) skeptic-of-novelty builds each prosecution;
+**Perspective team (ran inline, sequential, one context):** (1) skeptic-of-novelty builds each prosecution;
 (2) referee grades strength and checks against overreach; (3) steelman-of-the-defense argues the novelty
 back so the surviving arguments survive a fair defense; (4) cross-checker verifies each point against the
 actual priors (H34/H50/H51/H53, threads B/C); (5) synthesizer assembles the tables below.

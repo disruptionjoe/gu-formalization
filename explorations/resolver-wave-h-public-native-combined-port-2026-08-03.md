@@ -8,9 +8,7 @@ gate_before: PARTIAL_NATIVE_Q6_AND_LOCAL_TILTED_SCHEMA_CONSTRUCTED
 gate_after: LOCAL_CHOSEN_J_MOVING_REDUCTION_AND_COMBINED_PORT_FIXTURE
 route_disposition: CONTINUE
 source_collision: SOURCE-CONFIRMS-PUBLIC-U-AND-TRACE-REVERSED-NATIVE-INSTRUCTIONS-SOURCE-SILENT-ON-THE-BRIDGE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promoted: false
 ---
 

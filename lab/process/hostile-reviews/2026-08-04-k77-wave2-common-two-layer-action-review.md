@@ -4,9 +4,7 @@ status: complete
 created: 2026-08-04
 target: explorations/k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md
 verdict: SUSTAINED_AFTER_MATERIAL_SCOPE_REPAIRS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 common two-layer action and coefficient selection

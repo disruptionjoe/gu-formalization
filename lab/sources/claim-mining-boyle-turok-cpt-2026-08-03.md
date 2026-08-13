@@ -17,9 +17,7 @@ sources:
   - "arXiv:2509.09346 — Boyle, Turok, Vaibhav, 'Fixed points of classical gravity coupled with a Standard-Model-like theory' (2025, preprint)"
 related_exploration: explorations/boyle-turok-foil-class-relative-typing-2026-08-03.md
 related_survey_section: "papers/drafts/no-go-class-relative-survey.md (end Addendum)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 deposit_gate: "PRE-DEPOSIT. Any decisive consequence is J5-gated (hostile field-specialist review before deposit). Nothing here moves a verdict, bar, canon claim, count, H59, or lane status."
 ---
 

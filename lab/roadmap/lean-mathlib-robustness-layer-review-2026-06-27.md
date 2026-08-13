@@ -39,7 +39,7 @@ unqualified proof. The README states that the repo is "not a proof of Geometric 
 and emphasizes assumptions, rollback conditions, correction logs, no-go audits, and
 proof-grade labels. `RESEARCH-STATUS.md` adds a claim-status consistency rule:
 downstream claims cannot outrank their weakest load-bearing dependency. The
-claim-status workflow in `lab/process/runbooks/claim-status-consistency-quality-workflow.md`
+claim-status workflow in `lab/methods/claim-status-consistency.md`
 is explicit about stale wording, source-of-truth ordering, and same-session verdict
 inflation.
 
@@ -131,7 +131,7 @@ decomposition engine can remain external initially if Lean checks the certificat
 | Candidate | Current artifact | Why it maps to Lean | Difficulty | Payoff | mathlib status |
 |---|---|---:|---:|---:|---|
 | K3 arithmetic and forbidden target division | `tests/rs_k3_symbol_index_formula_audit.py`, `tests/cycle1_generation_rs_rank_direct_gate_audit.py` | integer/rational formulas, skipped unknowns, symbolic parameters | Low | High | Available: rings, integers, matrices, finite-dimensional linear algebra |
-| Claim-status partial order and dependency monotonicity | `lab/process/runbooks/claim-status-consistency-quality-workflow.md`, `tests/live_claim_dag_audit.py` | finite DAG/status invariant, no stronger downstream claim | Low | Medium | Available: lists/finite types/order relations; graph support enough |
+| Claim-status partial order and dependency monotonicity | `lab/methods/claim-status-consistency.md`, `tests/live_claim_dag_audit.py` | finite DAG/status invariant, no stronger downstream claim | Low | Medium | Available: lists/finite types/order relations; graph support enough |
 | Signed-readout core | `lab/active-research/signed-readout/` and related status rows | ordered monoids/groups, nonnegative weights, monotonicity theorem | Low-Medium | Medium-High | Available: order algebra, category basics |
 | `w2` polynomial identities | `canon/w2-y14-spin-structure.md` | finite `F_2` polynomial identities and Whitney-style algebra | Medium | High | Algebra available; characteristic-class topology mostly missing |
 | Explicit Clifford/projector ranks | `tests/oq_rk1_cl95_explicit_rep.py`, `tests/rs_clifford_projector_model.py` | exact finite matrices, projectors, rank/nullity | Medium | High | Matrix/linear algebra/Clifford algebra available; exact matrix certificates need work |

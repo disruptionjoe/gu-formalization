@@ -6,9 +6,7 @@ status: exploration
 posture: adversarial; truth-seeking; preregistered before computation; no verdict movement
 title: "DE pipeline internal-consistency check, proxy shape inverse problem, and the open W230-to-FLRW native mapping"
 grade: "DETERMINISTIC NUMERICAL PROXY / hostile-review rebase / claim_status_change: none"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 hostile_review_status: "MUST-FIX findings absorbed; A2 disposition OPEN_REBASE_REQUIRED"
 verdict_gate: "No bar, verdict, canon claim, count, H59, C10, M-H13, or LANE-STATE entry moves. DE-12 is in-sample consistency only; rho_X is a proxy; the native W230-to-FLRW map remains unbuilt."
 kill_conditions_declared_before_computation: true
@@ -16,7 +14,7 @@ depends_on:
   - lab/process/anchor-council-2026-08-03/seat2-cosmology.md
   - lab/process/anchor-council-2026-08-03/seat4-envelope.md
   - lab/process/anchor-council-2026-08-03/adjudication.md
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - canon/theta-field-flrw-dark-energy-eos.md
   - explorations/W230-close-a4-derive-w154-2026-07-14.md
   - explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md

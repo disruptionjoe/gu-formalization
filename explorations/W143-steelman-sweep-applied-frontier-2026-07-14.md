@@ -1,9 +1,9 @@
 ---
 artifact_type: exploration
-status: exploration (W143; full-roster steelman sweep, family 5 of 5: APPLIED / COMPUTATIONAL / FRONTIER-WILD; all personas inline, one worker; one deterministic test)
+status: exploration (W143; full-roster steelman sweep, family 5 of 5: APPLIED / COMPUTATIONAL / FRONTIER-WILD; all perspectives inline, one worker; one deterministic test)
 created: 2026-07-14
 wave: W143
-title: "W143 -- steelman sweep, applied/computational/frontier family, on the corrected core claim: science ALREADY KNOWS the rate (W135: rho_Lambda ~ (2.24 meV)^4; q_B = 3 H0 rho_Lambda = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume; dimensionless ladder 9 Omega_L = 6.16). Question per persona: IF that known measured number is DECLARED as the issuance input to the source action, what OTHER information backs out (spec FITs, scales, relations, mechanism constraints) for later rigorous checking. 28 personas, 52 scored stories, 6 survivors. Headline computed lines (tests/W143_controller_distribution_scoring.py, 24/24 exit 0): (1) the whole O(1) coincidence board DECOMPOSES through Omega_Lambda -- q_B/L_Planck = 3 Omega_L/2 = 1.027 (W135 re-derived), the W138 G5 factor 1.46 = 1/Omega_L exactly (T_dS S_dS = E_crit(V_H) = c^5/(2GH) is an identity), the W138 G6 saturation 2.96 = 3 Omega_L/ln2 exactly: under the known-rate declaration every de Sitter coincidence collapses into the SINGLE residual input Omega_Lambda; (2) an architecture separator inside W135's surviving PID-setpoint structure (computed): integral action forces zero steady-state error exactly, so setpoint-=-Lambda loops (W135 (e)) tolerate an I-term while residual-Lambda loops (setpoint = bulk-flatness beta/alpha* = 2, Lambda_obs = the proportional residual = the W136 1e-60 offset) CUT the I-term -- the two architectures differ in whether Lambda_obs is an input or an output; (3) the mimic gate as a (gain, acquisition-epoch) exclusion complementing W135's offset-not-gain finding: O(3) offsets acquired inside the DESI window are excluded for g in [0.11, 3.1] per e-fold, and acquisition before N* = 3.68 e-folds (z >~ 39) is gain-independent -- the regulator's sensor PREDATES structure and records, so it senses an ambient invariant, not observer demand; (4) fresh G1b kill: issuance physically DELIVERED proportional to record-writing power (luminosity-tracking at the known budget) drifts solar GM by 8.9e-8/yr, 8.9e5x over ephemeris and 1.05e25x over uniform -- demand-tracking GRAVITATING delivery is DEAD, so 'distributed through the observers' survives only at the signed-ledger / interface-class level; (5) the |II|^2-weighted (innovation) allocation gravitates EXACTLY uniformly on Ricci-flat vacuum (W = a0 = 2 at Ric = 0, symbolic) with FRW schedule deviation ~2e-61. Surviving family shape: the known rate enters as a uniform boundary supply; if regulated, regulated on an ambient sensor with the offset (not the gain) as the physical unknown; observer distribution is ledger-level (C-operator compression credits, signed as spectral flow); allocation weights 3:2:1 (W130) pending C3, already discriminating against a triality equal split at the one computed section."
+title: "W143 -- steelman sweep, applied/computational/frontier family, on the corrected core claim: science ALREADY KNOWS the rate (W135: rho_Lambda ~ (2.24 meV)^4; q_B = 3 H0 rho_Lambda = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume; dimensionless ladder 9 Omega_L = 6.16). Question per perspective: IF that known measured number is DECLARED as the issuance input to the source action, what OTHER information backs out (spec FITs, scales, relations, mechanism constraints) for later rigorous checking. 28 perspectives, 52 scored stories, 6 survivors. Headline computed lines (tests/W143_controller_distribution_scoring.py, 24/24 exit 0): (1) the whole O(1) coincidence board DECOMPOSES through Omega_Lambda -- q_B/L_Planck = 3 Omega_L/2 = 1.027 (W135 re-derived), the W138 G5 factor 1.46 = 1/Omega_L exactly (T_dS S_dS = E_crit(V_H) = c^5/(2GH) is an identity), the W138 G6 saturation 2.96 = 3 Omega_L/ln2 exactly: under the known-rate declaration every de Sitter coincidence collapses into the SINGLE residual input Omega_Lambda; (2) an architecture separator inside W135's surviving PID-setpoint structure (computed): integral action forces zero steady-state error exactly, so setpoint-=-Lambda loops (W135 (e)) tolerate an I-term while residual-Lambda loops (setpoint = bulk-flatness beta/alpha* = 2, Lambda_obs = the proportional residual = the W136 1e-60 offset) CUT the I-term -- the two architectures differ in whether Lambda_obs is an input or an output; (3) the mimic gate as a (gain, acquisition-epoch) exclusion complementing W135's offset-not-gain finding: O(3) offsets acquired inside the DESI window are excluded for g in [0.11, 3.1] per e-fold, and acquisition before N* = 3.68 e-folds (z >~ 39) is gain-independent -- the regulator's sensor PREDATES structure and records, so it senses an ambient invariant, not observer demand; (4) fresh G1b kill: issuance physically DELIVERED proportional to record-writing power (luminosity-tracking at the known budget) drifts solar GM by 8.9e-8/yr, 8.9e5x over ephemeris and 1.05e25x over uniform -- demand-tracking GRAVITATING delivery is DEAD, so 'distributed through the observers' survives only at the signed-ledger / interface-class level; (5) the |II|^2-weighted (innovation) allocation gravitates EXACTLY uniformly on Ricci-flat vacuum (W = a0 = 2 at Ric = 0, symbolic) with FRW schedule deviation ~2e-61. Surviving family shape: the known rate enters as a uniform boundary supply; if regulated, regulated on an ambient sensor with the offset (not the gain) as the physical unknown; observer distribution is ledger-level (C-operator compression credits, signed as spectral flow); allocation weights 3:2:1 (W130) pending C3, already discriminating against a triality equal split at the one computed section."
 grade: "exploration / conditional register throughout. Every story is a steelman of a DECLARED reading (the W135/W136 lineage: the measured rate declared as the issuance input); nothing asserts the issuance, a DE mechanism, or any canon movement. COMPUTED: the 24-check scoring script (exact sympy where symbolic, floats vs cited anchors elsewhere). CITED: W135 (16e476f), W136 (cc227b0), W137 (9cb9f4c), W138 (ec00fbd), W129/W130/W131/W132, H10/H52 floors. BINDING kills honored: H36 never re-imported; B2 rate-identity FALSE (no story puts a rate in a structural equation; the declared object is the measured bookkeeping NUMBER and schedule, per W135's separator); W135's own kills honored (no halving/stepped schedule, no holographic c-family, no per-comoving-time drip); Krein-TT physical leg untouched; the naive positive record-cost ledger treated as FALSIFIED (W137), only signed-ledger stories scored. Tri-repo gating: 'issuance' is a local postulate label only (TI owns the concept; the R5 bridge kill stands); capability MEASURE statements are TaF's (none made). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change."
 construction: "standard-field for all controller/FRW/thermodynamic machinery (continuity equation, linear control theory, Landauer, ephemeris bounds) -- deliberately, so the gates bind any construction (same posture as W135/W138); program-native only as cited repo objects (the W126 slice decomposition, the W130 3:2:1 split, the W132 C-operator, the W136 bulk-flatness point, the W137 signed bookkeeping). Forks carried, not resolved: the beta/alpha* = 2 setpoint story lives on the KEEP branch of the slice-reference fork exactly as W136 flagged; C1/C2/C3 remain conjectures with their kills."
 depends_on:
@@ -11,8 +11,8 @@ depends_on:
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
-  - explorations/two-track-persona-sweep-2026-07-11/D-wild-frontier.md
-  - explorations/two-track-persona-sweep-2026-07-11/E-pragmatic-experimental.md
+  - explorations/two-track-perspective-sweep-2026-07-11/D-wild-frontier.md
+  - explorations/two-track-perspective-sweep-2026-07-11/E-pragmatic-experimental.md
   - explorations/W130-native-graviton-oneloop-block-2026-07-14.md
   - explorations/W132-graded-optical-theorem-physical-subspace-2026-07-14.md
   - canon/firewall-boundary-hypothesis.md
@@ -28,7 +28,7 @@ after).** Science ALREADY KNOWS the rate. W135 measured it on the record:
 rho_Lambda ~ (2.24 meV)^4; the bookkeeping rate q_B = 3 H0 rho_Lambda, which per Hubble
 volume is (3/2) Omega_L c^5/G = 1.027 Planck luminosities, and in natural units is the
 O(1) ladder q_B/(H0^3 M_Pl_red^2) = 9 Omega_L = 6.16. The steelman question this family
-answers per persona: **IF that known measured number is DECLARED as the issuance input
+answers per perspective: **IF that known measured number is DECLARED as the issuance input
 to the source action, what OTHER information can be backed out** -- spec FITs, scales,
 relations, mechanism constraints -- for later rigorous checking. Controller stories
 survive ONLY in the minimal form W135 already vetted: the observed constant rate may be
@@ -57,11 +57,11 @@ next-wave work); the one commit-level convergence is noted in Section 3.4.
 
 **Roster.** Family 5 of the five-team full-roster sweep = the applied / computational /
 frontier-wild partition of the 2026-07-11 sweep: ALL of slice D (wild frontier, 12
-personas) + ALL of slice E (pragmatic / experimental, 12 personas), plus the four types
+perspectives) + ALL of slice E (pragmatic / experimental, 12 perspectives), plus the four types
 the family brief names that the 2026-07-11 roster did not carry literally, instantiated
 here: control/systems engineer, information theorist, complexity/computation theorist,
-economic/mechanism designer. 28 personas, all inline in one worker, two stories each
-where the persona has two; 52 stories total (four personas honestly returned a single
+economic/mechanism designer. 28 perspectives, all inline in one worker, two stories each
+where the perspective has two; 52 stories total (four perspectives honestly returned a single
 story or pure negatives). Scoring: the W138 battery + W135's own kills as
 generation-time filters + the brief's two extra gates (novelty vs the dS line;
 mechanism concreteness).
@@ -156,9 +156,9 @@ All numbers cited as computed below are in `tests/W143_controller_distribution_s
 
 ---
 
-## 2. The roster: 28 personas
+## 2. The roster: 28 perspectives
 
-Per-persona question (uniform): given the DECLARED known rate as the issuance input,
+Per-perspective question (uniform): given the DECLARED known rate as the issuance input,
 what other information backs out. Format per story: **F / mechanism** (sensor /
 actuator / setpoint / carrier, or allocation base) | **backed out** (the assumption
 leg: what it pins) | **test**. Verdicts applied in Section 3.
@@ -228,7 +228,7 @@ leg: what it pins) | **test**. Verdicts applied in Section 3.
   work). Backed out: nothing beyond the declaration itself; W135's separator says this
   structure evidences NO genuine issuance. Kept as the honest null, not ranked.
 
-### Slice E personas (pragmatic / experimental family, all 12)
+### Slice E perspectives (pragmatic / experimental family, all 12)
 
 **E1. Commercial scientist.**
 - **E1-S1.** F: P1-S1 bought as a MEASUREMENT: the family's falsifiable number is the
@@ -271,7 +271,7 @@ leg: what it pins) | **test**. Verdicts applied in Section 3.
 - **E4-S2.** Mirror-sector window: no F derivable (free modulus). Discarded.
 
 **E5. Precision-tests experimentalist.**
-- **E5-S1 (the demand-delivery kill).** The persona's contribution IS Section 1 item 4
+- **E5-S1 (the demand-delivery kill).** The perspective's contribution IS Section 1 item 4
   (blocks D2, D3): luminosity-tracking gravitating delivery dead at 8.9e5x over
   ephemeris, 1.05e25x over uniform. Backed out (negative, structural): every surviving
   F is forced to ledger-level distribution. Test: computed.
@@ -342,7 +342,7 @@ leg: what it pins) | **test**. Verdicts applied in Section 3.
 - **E12-S2.** Hierarchy distribution: dead by the W136 dimensional no-go. Recorded
   discard.
 
-### Slice D personas (wild frontier family, all 12)
+### Slice D perspectives (wild frontier family, all 12)
 
 **D1. Wild frontier mathematician.**
 - **D1-S1 (three channels because dim Lambda^2_+ = 3).** F: the known rate splits
@@ -476,7 +476,7 @@ not torsion classes) feeds D3.
 | D11-S1 equal split | KILLED at the computed section by W130's 3:2:1 (wake: C3) |
 | D11-S2 account labels | labels, never selects |
 | D12 both | as D2, one chromatic level up |
-| luminosity-tracking gravitating delivery (any persona's demand variant) | FRESH KILL, blocks D2-D3: 8.9e5x over ephemeris, 1.05e25x over uniform (G1b) |
+| luminosity-tracking gravitating delivery (any perspective's demand variant) | FRESH KILL, blocks D2-D3: 8.9e5x over ephemeris, 1.05e25x over uniform (G1b) |
 
 Merged (not discarded): E1 pair into P1; E2-S2/E7-S1/E9-S1/E10-S2 into the family
 forecast row; E12-S1 into E4-S1; D1-S2 into D6-S1; E6-S1 into P1-S1; P3-S2's Landauer
@@ -624,7 +624,7 @@ convergence is recorded here only as a pointer.
 - Sibling proposals (W139-W142) unread beyond commit level by design; cross-team
   scoring is next-wave work.
 
-*Filed 2026-07-14, W143. 28 personas inline (slices D + E complete, plus the four
-brief-named instantiations), one worker, no sub-agents. Reproducible:
+*Filed 2026-07-14, W143. 28 perspectives inline (slices D + E complete, plus the four
+brief-named instantiations), one worker, no independent reviewers. Reproducible:
 `python -u tests/W143_controller_distribution_scoring.py` (24/24, exit 0). Exploration
 grade; no canon movement.*

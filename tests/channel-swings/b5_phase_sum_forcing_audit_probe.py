@@ -4,7 +4,7 @@ B5 PHASE-SUM FORCING AUDIT.
 
 Preregistered in explorations/prereg-b5-phase-sum-forcing-audit-2026-07-29.md.
 
-The blocked B5 native-packet audit (GUH-20260729T131135Z) leaves a residual of
+The blocked B5 native-packet audit (historical-investigation) leaves a residual of
 TEN unselected antilinear phase invariants producing ELEVEN possible real
 parity-dimension pairs.  This probe asks two things that block leaves open:
 
