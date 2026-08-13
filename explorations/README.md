@@ -7,14 +7,24 @@ updated_at: "2026-08-13"
 
 # Explorations
 
-## K77 I2B principal gauge complex (2026-08-13)
+## K77 I2B principal-degeneracy retype (2026-08-13)
+
+`conditional-build/selected-k77-i2b-principal-degeneracy-retype-2026-08-13.md`
+corrects the predecessor's Layer-0 interpretation. The exact `14 -> 196`
+principal map has a `Cl1` domain and is not the source's `91`-parameter
+`Cl2` adjoint gauge map, whose selected image has rank `25`. The target
+annihilates the actual gauge image but contracts with the exact-form map as
+`(8/3)k`. Thus the exact principal syzygy and ranks survive while the Ward
+obligation and gauge-cohomology labels are retracted.
+
+## Corrected predecessor: K77 I2B principal differential complex (2026-08-13)
 
 `conditional-build/selected-k77-i2b-principal-gauge-complex-2026-08-13.md`
-proves the coefficientwise ordinary-gauge syzygy and exact non-null
+proves the coefficientwise principal exact-form syzygy and exact non-null
 `14 -> 196 -> 196 -> 14` complex. Its raw null cohomology is `168/168`, versus
-Einstein `2/2`; this is a physical-carrier reduction burden, not a particle
-count. The next gate is complete lower-order Ward totalization and induced
-physical-carrier cohomology.
+Einstein `2/2`; these are raw symbol quotient dimensions, not gauge
+cohomology or particle counts. The retype above supersedes its gauge/Noether
+disposition.
 
 ## K77 I2B principal constraint quotient (2026-08-13)
 
@@ -23,7 +33,8 @@ proves that the timelike cokernel is exactly fourteen-dimensional and that the
 first mixed holonomic block maps onto all fourteen missing directions,
 including the target class. This is a ledger no-change frontier refinement:
 the next problem was constraint propagation and gauge typing. The principal-
-gauge successor above now identifies the exact non-null complex.
+differential-complex predecessor above identifies the exact non-null symbol
+kernel; the retype shows it is not the source gauge distribution.
 
 ## K77 I2B holonomic-jet Euler image (2026-08-13)
 

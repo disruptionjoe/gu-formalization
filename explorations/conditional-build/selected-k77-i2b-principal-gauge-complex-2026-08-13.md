@@ -19,6 +19,18 @@ residue_touched: [RA-E1:T2_DISTANCE_ONLY, RA-E3:T2_DISTANCE_ONLY, LT-SM6:T2_DIST
 
 # Selected K77 I2B principal gauge complex
 
+> **CORRECTION `I2B-PRINCIPAL-GAUGE-20260813`.** The exact polynomial
+> syzygy and every reported rank survive, but the `14 -> 196` map is not the
+> already-built source gauge map. Its domain is `Cl1` and it is the
+> exact-form principal map `xi -> k tensor xi`; the source adjoint gauge map
+> has domain `Cl2`, shape `196 x 91`, and projected rank `25`. The target
+> annihilates that actual source gauge image while retaining the `(8/3)k`
+> contraction with the exact-form map. Therefore the ordinary-gauge,
+> lower-order Ward-obligation, and gauge-cohomology readings below are
+> retracted. Read the `168/168` only as raw principal-symbol quotient
+> dimensions. See
+> `selected-k77-i2b-principal-degeneracy-retype-2026-08-13.md`.
+
 ## Result in plain English
 
 The fourteen directions found in the previous two waves are not an arbitrary

@@ -89,3 +89,13 @@ corrections:
       cokernel rank 40, so the scalar completion is pointwise source-realizable.
       H_q is a Hermitian form and is distinct from generation-hinge H^- and H^+.
     enforce: false
+  - id: I2B-PRINCIPAL-GAUGE-20260813
+    owner: explorations/conditional-build/selected-k77-i2b-principal-degeneracy-retype-2026-08-13.md
+    meaning: >-
+      The predecessor's coefficientwise principal Hessian syzygy and ranks
+      survive, but its 14-to-196 Cl1 exact-form map is not the source-derived
+      91-parameter Cl2 adjoint gauge map. The actual selected source gauge
+      image has rank 25 and is annihilated by the Euler target. Retract the
+      lower-order Ward-obligation and gauge-cohomology readings; retain
+      168/168 only as raw null principal-symbol quotient dimensions.
+    enforce: false

@@ -3739,15 +3739,28 @@ fibre while rejecting complement, uniqueness and free-Cauchy-data overreads.
 uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_constraint_quotient_probe.py
 ```
 
-## K77 I2B principal gauge-complex gate
+## K77 I2B principal differential-complex gate (corrected)
 
 `channel-swings/selected_k77_i2b_principal_gauge_complex_probe.py` proves all
-twenty cubic coefficients of `H(k)G(k)=0`, exactness of the non-null
+twenty cubic coefficients of the principal exact-form syzygy, exactness of the non-null
 `14 -> 196 -> 196 -> 14` complex, raw null cohomology `168/168`, and the
-isolated `(8/3)k` lower-order Ward obligation. It compares against the exact
-Einstein null cohomology `2/2` and rejects particle, propagation and full-
-Noether overreads.
+isolated `(8/3)k` contraction. The correction gate below proves that this is
+not the source gauge map, so the Ward and gauge-cohomology readings are
+retracted while the exact symbol theorem survives.
 
 ```sh
 uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_gauge_complex_probe.py
+```
+
+## K77 I2B principal-degeneracy Layer-0 correction
+
+`channel-swings/selected_k77_i2b_principal_degeneracy_retype_probe.py`
+compares the concrete `196 x 14` Cl1 exact-form map to the already-built
+`196 x 91`, rank-25 Cl2 adjoint source gauge map. It verifies that the Euler
+target annihilates the actual source gauge image but contracts with the
+exact-form map as `(8/3)k`, preserving the principal syzygy while retracting
+the Noether interpretation.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_degeneracy_retype_probe.py
 ```

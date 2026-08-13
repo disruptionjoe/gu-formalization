@@ -82,16 +82,18 @@ noncharacteristic-time and gauge typing, followed by nonlinear atlas,
 observation and presymplectic/BV ownership. A chosen complement and the
 196-dimensional affine solution fibre are not new theory parameters.
 
-The principal-gauge-complex successor identifies the fourteen non-null
-directions exactly: the ordinary connection generator `G(k)` satisfies the
-coefficientwise cubic syzygy `H(k)G(k)=0`, and the
-`14 -> 196 -> 196 -> 14` complex is exact off the light cone. On null
-covectors the raw connection complex has `168/168` field/equation cohomology,
-versus `2/2` for the certified Einstein comparator. Build must not call these
-raw classes particles or transfer arbitrary-jet surjectivity into a Fourier
-propagation claim. Its next gate is the complete lower-order Ward
-totalization—retaining the isolated `(8/3)k` obligation—followed by induction
-onto the action-owned physical carrier and recomputation of null cohomology.
+The corrected principal-differential successor identifies the fourteen
+non-null symbol directions exactly but retracts their gauge interpretation.
+The `Cl1` map `xi -> k tensor xi` satisfies the coefficientwise Hessian
+syzygy and gives an exact `14 -> 196 -> 196 -> 14` complex off the light cone.
+It is not the source's `Cl2` adjoint gauge map, which has shape `196 x 91` and
+selected rank `25`. The Euler target annihilates that actual gauge image; the
+isolated `(8/3)k` contraction is therefore not a Ward-totalization obligation.
+On null covectors the raw differential complex has quotient dimensions
+`168/168`, versus Einstein `2/2`, but these are not gauge cohomologies or
+particles. Build next assembles the complete lower-order
+Hessian/characteristic complex, then induces the actual source BV distribution
+on the action-owned physical carrier and recomputes the null quotient.
 
 The predecessor v0.235 real-curvature Euler-image theorem closes the complete pointwise
 real full-`U(64,64)` curvature-value route. The exact residual-to-Euler

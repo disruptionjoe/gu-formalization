@@ -7,16 +7,18 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
-> **2026-08-13 K77 I2B PRINCIPAL GAUGE COMPLEX (ledger no-change).** The
-> fourteen non-null directions are exactly ordinary connection gauge/Noether:
-> the coefficientwise complex `14 -> 196 -> 196 -> 14` is exact for timelike
-> and spacelike covectors. At null covectors the Hessian rank is `14`, leaving
-> raw field/equation symbol cohomology `168/168`, versus Einstein `2/2`.
-> **Do not call 168 particles. Derive the full lower-order Ward totalization,
-> whose isolated target obligation is `(8/3)k`, then induce the complex on the
-> action-owned physical carrier and recompute its null cohomology.** Arbitrary
-> `B00/B01` jet surjectivity remains true but is not Fourier-mode propagation.
-> No ledger, verdict, accounting, datum, canon or posture move.
+> **2026-08-13 K77 I2B PRINCIPAL-DEGENERACY RETYPE (ledger no-change).** The
+> coefficientwise `14 -> 196 -> 196 -> 14` principal differential complex and
+> all its ranks survive, but its `Cl1` exact-form map is **not** the source
+> gauge map. The source map is `Cl2 -> Omega1(Cl1)`, has shape `196 x 91` and
+> projected rank `25`. The Euler target annihilates this actual gauge image;
+> only the non-gauge exact-form map produces `(8/3)k`. **Do not run a
+> lower-order Ward-cancellation wave or call `168/168` gauge cohomology. Next
+> compute the complete lower-order Hessian/characteristic complex, then induce
+> the source-owned rank-25 BV distribution on the physical carrier and compare
+> its null classes with Einstein `2/2`.** The null rank jump remains a real
+> symbol burden; its gauge/Noether interpretation is retracted. No ledger,
+> verdict, accounting, datum, canon or posture move.
 
 > **2026-08-13 K77 I2B PRINCIPAL CONSTRAINT QUOTIENT (ledger no-change).**
 > The timelike block's cokernel is exactly dimension `14`, and the symmetric
@@ -24,10 +26,11 @@ updated_at: "2026-08-13"
 > target class lies in that image. This retypes the local obstruction as a
 > principal differential-constraint problem rather than a missing action
 > coefficient. **Do not call the mixed jet free Cauchy data. Next derive the
-> Bianchi/Noether propagation complex. The principal-gauge successor above
-> identifies its non-null part; next totalize the lower-order Ward identity and
-> physical carrier, then globalize through atlas, observation and BV boundary
-> ownership.** The solution fibre is field-jet freedom, not booked theory
+> complete lower-order characteristic/constraint system. The retype above
+> shows that the fourteen exact-form directions are not the source gauge
+> distribution; only after the full operator is assembled should the actual
+> rank-25 gauge/BV image be induced on the physical carrier and globalized
+> through atlas, observation and boundary ownership.** The solution fibre is field-jet freedom, not booked theory
 > residue. No ledger, verdict, accounting, datum, canon or posture move.
 
 > **2026-08-13 K77 I2B HOLONOMIC-JET EULER IMAGE (ledger v0.236).**
