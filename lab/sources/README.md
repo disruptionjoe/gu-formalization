@@ -7,6 +7,13 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-physical-operator-admission-source-return-2026-08-13.md`](selected-k77-physical-operator-admission-source-return-2026-08-13.md)
+  - confirms the displayed four-field fermion grammar, full `U(64,64)` arena
+    and two complex Weyl carrier halves; attributes the exact operator
+    inventory to the repository; and returns source-silent on H640/W physical
+    selection, a primal-carrier BV differential, half asymmetry, domain and
+    index.
+
 - [`selected-k77-trace-hq-connection-compatibility-source-return-2026-08-13.md`](selected-k77-trace-hq-connection-compatibility-source-return-2026-08-13.md)
   - confirms Weinstein's full `U(64,64)` arena and Curt's distinct two
     `C^(32,32)` carrier halves; attributes the complete phase and affine-

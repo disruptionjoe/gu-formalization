@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_physical_operator_admission_closure_probe.py`
+  composes the exact principal, H640, graph/pairing, ordinary source BVKT and
+  trace-Hq receipts into a typed operator-inventory theorem. It rejects
+  generic-carrier discrimination as W/mirror selection and prevents
+  compatibility or Euler-ideal resolution from being promoted to physical
+  cohomology. Run with Python 3; it passes `26/26`.
+
 - `channel-swings/selected_k77_trace_hq_connection_compatibility_probe.py`
   classifies all `2^14` Clifford monomials under the trace-`H_q` adjoint,
   proves the exact `8,192+8,192` block/full-parent split, and constructs the

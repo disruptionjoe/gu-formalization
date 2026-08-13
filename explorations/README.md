@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 physical-operator admission closure (2026-08-13)
+
+`conditional-build/selected-k77-physical-operator-admission-closure-2026-08-13.md`
+closes the current owned operator inventory without overclaiming a universal
+no-go. The rolled principal symbol rejects generic rank-192 controls but gives
+W and its ASD mirror the identical `224/96` fingerprint; H640, its pairing
+graph, ordinary gauge BVKT and trace-Hq compatibility supply no
+primal-carrier W/mirror-asymmetric differential. The next gate must construct
+one from the action or physical domain before computing cohomology.
+
 ## K77 trace-Hq full-connection compatibility (2026-08-13)
 
 `conditional-build/selected-k77-trace-hq-connection-compatibility-2026-08-13.md`

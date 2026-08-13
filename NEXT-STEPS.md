@@ -7,6 +7,19 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 CURRENT PHYSICAL-OPERATOR INVENTORY EXHAUSTED (ledger
+> no-change).** The exact rolled principal operator rejects three generic
+> rank-192 controls (kernels `1,0,0`) but gives W and its ASD mirror the same
+> `224/96` rank/kernel fingerprint. H640 is an observed action module and
+> pairing-eligible graph, not physical cohomology; ordinary source gauge BVKT
+> resolves the Euler ideal without constraining the primal carrier; and
+> trace-Hq compatibility admits both connection parents. **Do not rerun the
+> five-way test on a fitted projector or call generic discrimination half
+> selection. Next construct the smallest source/action-owned lower-order,
+> nonzero-fermion, reality, BV/BFV or domain differential that acts on the
+> primal carrier. Preregister W/mirror equality and fitted-choice dependence
+> as kills.** No verdict, canon, accounting, datum or public-posture move.
+
 > **2026-08-13 TRACE-HQ COMPATIBILITY ADMITS BOTH FULL AND TWO-HALF
 > PARENTS (ledger migration deferred to a separately authorized Compose
 > step).** All `16,384` real-Clifford endomorphism directions admit exactly
