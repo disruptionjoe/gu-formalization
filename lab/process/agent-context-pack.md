@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current lower-order exact-form lift (ledger no-change):** the fourteen
+> non-gauge `Cl1` exact-form directions remain the exact principal Hessian
+> kernel, but the complete owned lower-order action Hessian lifts them with
+> column rank 14 on the fixed-`H_q` restricted radial critical branch for
+> null and non-null covectors. The derivative/lower-order cross block is zero.
+> This does not change the principal null cone, and the branch is nonstationary
+> on the full 196-cell field bank, so it supplies no physical spectrum. Rank
+> one is a source/action-owned full stationary jet, followed by the actual
+> rank-25 source BV distribution on the action-owned physical carrier.
+
 > **Current principal-degeneracy correction (ledger no-change):** the exact
 > coefficientwise Hessian syzygy and `14 -> 196 -> 196 -> 14` principal
 > differential complex survive, but the `14 -> 196` map is not source gauge.
@@ -17,8 +27,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > annihilates the actual source gauge image and only contracts with the
 > exact-form map as `(8/3)k`. Retract the lower-order Ward obligation and the
 > gauge-cohomology label. `168/168` remains a raw null symbol quotient. Rank
-> one is the complete lower-order Hessian/characteristic complex followed by
-> physical-carrier reduction using the actual source BV distribution.
+> one was the lower-order fixed-branch test above; physical stationary-jet and
+> carrier reduction using the actual source BV distribution remain.
 
 > **Current principal-constraint quotient theorem (ledger no-change):** the
 > v0.236 timelike block leaves an exact fourteen-dimensional cokernel, and the

@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_lower_order_exact_form_lift_probe.py`
+  assembles both terms of the SC-ACT-04 action Hessian on the fixed-`H_q`
+  restricted radial critical branch and proves that its lower-order
+  restriction lifts all fourteen non-gauge exact-form principal-kernel
+  directions for four exact covectors. It passes `63/63` under pinned SymPy
+  `1.14.0` and NumPy `2.5.1`.
+
 - `channel-swings/selected_k77_i2b_holonomic_jet_euler_image_probe.py`
   replays v0.213/v0.235, reconciles their 196-real field banks, constructs all
   ten symmetric observed-spacetime I2B principal blocks, and proves that the

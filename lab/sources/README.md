@@ -7,6 +7,11 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-lower-order-exact-form-lift-source-return-2026-08-13.md`](selected-k77-i2b-lower-order-exact-form-lift-source-return-2026-08-13.md)
+  - confirms `SC-ACT-04` residual-square ownership; returns source-silent on
+    the selected real-K77 lower-order Hessian and exact-form lifting; and
+    attributes the fixed-`H_q` restricted-critical-branch theorem to the repo.
+
 - [`selected-k77-i2b-principal-degeneracy-retype-source-return-2026-08-13.md`](selected-k77-i2b-principal-degeneracy-retype-source-return-2026-08-13.md)
   - confirms the tilted graph, independent `varpi` tangent and adjoint gauge
     grammar; returns source-silent on a `Cl1` zero-form gauge symmetry and

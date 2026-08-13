@@ -91,9 +91,19 @@ selected rank `25`. The Euler target annihilates that actual gauge image; the
 isolated `(8/3)k` contraction is therefore not a Ward-totalization obligation.
 On null covectors the raw differential complex has quotient dimensions
 `168/168`, versus Einstein `2/2`, but these are not gauge cohomologies or
-particles. Build next assembles the complete lower-order
-Hessian/characteristic complex, then induces the actual source BV distribution
-on the action-owned physical carrier and recomputes the null quotient.
+particles. Its first lower-order successor is recorded below; the actual
+source BV distribution and physical-carrier null quotient remain downstream.
+
+The lower-order exact-form successor closes only the fixed-`H_q` restricted
+radial critical branch. Both terms of the residual-square Hessian are
+required because its residual is nonzero but Krein-null. The resulting
+lower-order `196 x 14` restriction has rank fourteen for tested null and
+non-null covectors, while the derivative/lower-order cross block vanishes.
+Thus the non-gauge exact-form family is lifted in the full finite-frequency
+linearization there, but the principal characteristic kernel remains. Because
+the branch is nonstationary on the full 196-cell bank, Build next constructs
+a source/action-owned full stationary jet before any spectrum, and only then
+induces the actual rank-25 source BV distribution on the physical carrier.
 
 The predecessor v0.235 real-curvature Euler-image theorem closes the complete pointwise
 real full-`U(64,64)` curvature-value route. The exact residual-to-Euler

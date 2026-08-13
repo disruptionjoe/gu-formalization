@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B lower-order exact-form lift (2026-08-13)
+
+`conditional-build/selected-k77-i2b-lower-order-exact-form-lift-2026-08-13.md`
+proves that the fourteen non-gauge exact-form principal-kernel directions are
+lifted by the complete owned lower-order action Hessian on the fixed-`H_q`
+restricted radial critical branch. The lower-order restriction has rank 14
+for null and non-null covectors while the cross block vanishes. The principal
+null cone survives, and the nonstationary full-field background prevents any
+physical spectrum or stability inference.
+
 ## K77 I2B principal-degeneracy retype (2026-08-13)
 
 `conditional-build/selected-k77-i2b-principal-degeneracy-retype-2026-08-13.md`

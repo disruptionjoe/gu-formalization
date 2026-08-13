@@ -7,15 +7,30 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B LOWER-ORDER EXACT-FORM LIFT (ledger no-change).**
+> The fourteen-dimensional non-gauge exact-form family remains the exact
+> principal Hessian kernel, but it is **not** a kernel of the full linearized
+> action Hessian at the fixed-`H_q` restricted radial critical branch. The
+> owned lower-order block has column rank `14` for timelike, spacelike,
+> generic non-null and null covectors; the derivative/lower-order cross block
+> vanishes. This does not remove the principal null cone and is not a physical
+> spectrum because the branch is nonstationary on the full 196-cell bank.
+> **Do not run another frequency scan or relabel the lift as gauge fixing.
+> Next construct a source/action-owned full stationary jet, recompute its full
+> Hessian, then induce the actual rank-25 source BV distribution on the
+> action-owned physical carrier.** No ledger, verdict, accounting, datum,
+> canon or posture move.
+
 > **2026-08-13 K77 I2B PRINCIPAL-DEGENERACY RETYPE (ledger no-change).** The
 > coefficientwise `14 -> 196 -> 196 -> 14` principal differential complex and
 > all its ranks survive, but its `Cl1` exact-form map is **not** the source
 > gauge map. The source map is `Cl2 -> Omega1(Cl1)`, has shape `196 x 91` and
 > projected rank `25`. The Euler target annihilates this actual gauge image;
 > only the non-gauge exact-form map produces `(8/3)k`. **Do not run a
-> lower-order Ward-cancellation wave or call `168/168` gauge cohomology. Next
-> compute the complete lower-order Hessian/characteristic complex, then induce
-> the source-owned rank-25 BV distribution on the physical carrier and compare
+> lower-order Ward-cancellation wave or call `168/168` gauge cohomology. The
+> fixed-branch lower-order successor above now closes automatic survival there;
+> next construct a full stationary jet, then induce the source-owned rank-25
+> BV distribution on the physical carrier and compare
 > its null classes with Einstein `2/2`.** The null rank jump remains a real
 > symbol burden; its gauge/Noether interpretation is retracted. No ledger,
 > verdict, accounting, datum, canon or posture move.
@@ -25,11 +40,11 @@ updated_at: "2026-08-13"
 > `(0,1)` mixed block maps onto all fourteen missing quotient directions; the
 > target class lies in that image. This retypes the local obstruction as a
 > principal differential-constraint problem rather than a missing action
-> coefficient. **Do not call the mixed jet free Cauchy data. Next derive the
-> complete lower-order characteristic/constraint system. The retype above
-> shows that the fourteen exact-form directions are not the source gauge
-> distribution; only after the full operator is assembled should the actual
-> rank-25 gauge/BV image be induced on the physical carrier and globalized
+> coefficient. **Do not call the mixed jet free Cauchy data. The fixed-branch
+> lower-order successor above lifts the fourteen exact-form directions there
+> but does not supply a full stationary solution. Next construct that
+> stationary jet; only then should the actual rank-25 gauge/BV image be induced
+> on the physical carrier and globalized
 > through atlas, observation and boundary ownership.** The solution fibre is field-jet freedom, not booked theory
 > residue. No ledger, verdict, accounting, datum, canon or posture move.
 
