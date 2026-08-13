@@ -1,0 +1,33 @@
+schema_version: "1.0"
+repository: observerse-research-program
+branch: agent/operator-anomaly-big-swing
+revision_basis: a19eba9f564de4dca497410142c4571c1ca8df60
+purpose: >-
+  Establish the honest truth-status of the Observerse / Geometric Unity
+  program by forcing, falsifying, or precisely locating its claims, while
+  preserving reproducible evidence and honest scientific grades.
+current_result:
+  status: conditional_research_front
+  summary: >-
+    The printed K77 I2B endpoint has a rank-196 holonomic jet image, while the
+    selected first-action pairing gives a zero fixed-bank action-derived
+    principal owner; the endpoint repair therefore does not transfer to the
+    full moving action owner.
+  evidence:
+    - explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md
+    - lab/process/conditional-physics-ledger-v0.237.json
+current_question: >-
+  Which completed moving source/action owner and physical tangent/BV graph
+  governs the next honest stationary and compatibility test?
+acceptance:
+  - RESEARCH-POSTURE.md
+  - VERIFICATION.md
+  - lab/specifications/six-axis/six-axis-template.md
+contribution_path:
+  - CONTRIBUTING.md
+  - NEXT-STEPS.md
+next_condition: >-
+  Derive or source-grade the completed second action and its moving
+  metric/section/Shiab/Q_B principal map; independently construct the physical
+  tangent/BV graph before promoting nonlinear or global claims.
+what_needs_joe: none
