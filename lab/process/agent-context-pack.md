@@ -3,11 +3,21 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-12
+updated: 2026-08-13
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-12)
+# Agent context pack (updated 2026-08-13)
+
+> **Current v0.228 rank-128 module theorem:** the ten pairwise-disjoint
+> transverse defects sum exactly to the 1,280-dimensional observation kernel,
+> the canonical `N* tensor S` carrier, and its coordinate inclusion
+> intertwines all 45 `so(6,4)` generators. The selected `H640` graph lift,
+> complement and zero-form-seed trivialization intertwine only the 21 compact
+> generators; all 24 mixed boosts expose the non-natural graph split. Do not
+> run ten repairs. Build one action/BV moving graph correction or prove the
+> physical symmetry reduces to `U(3,2)` or the compact stabilizer. This is not
+> `Pi_RS^phys`, physical cohomology, a quotient, positivity, index or count.
 
 > **Current v0.227 portfolio correction:** no physics-row verdict or residue
 > moves. `SC-GEN-54` is a named but unbuilt supercharge-to-three mechanism;
@@ -16,7 +26,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `SIGNATURE-AMBIENT` remains open. The local `J` orbit has zero-dimensional
 > quotient only if the physical BV/action stabilizer acts with rank 20, so no
 > reduction is booked. Ten transverse rank-128 leaks are pairwise disjoint and
-> span rank 1280; compact equivariance passes and mixed boosts remain open. The
+> span rank 1280; v0.228 supersedes only its open mixed-boost carrier typing. The
 > M-H17 free comparator has `H^0` inertia `(96,96,0)`, not interacting K77
 > physical positivity. Keep two `C^(32,32)` halves, their block subgroup, full
 > `U(64,64)`, physical carrier, and K77 vector connection distinct.

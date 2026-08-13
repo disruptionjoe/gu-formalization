@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/portfolio_rank128_observation_kernel_module_probe.py`
+  composes the ten pairwise-disjoint defect images and proves their sum is
+  exactly `ker(R_obs)=N* tensor S`, dimension 1,280. The canonical inclusion
+  intertwines all 45 `so(6,4)` generators, while the selected graph lift and
+  zero-form-seed trivialization intertwine only the 21 compact generators.
+  Its successor checks pass `27/27` after replaying the predecessor.
+
+- `channel-swings/conditional_physics_ledger_v0228_probe.py` enforces the
+  no-verdict v0.228 frontier update: one carrier-module condition closes and
+  one moving graph/BV repair replaces ten independent tasks.
+
 - `channel-swings/portfolio_signature_ambient_wave_a_probe.py` certifies the
   distinction between Weinstein's authorial `{7,7}` assignment and a missing
   action/analytic derivation. It leaves `SIGNATURE-AMBIENT` open with a named
@@ -18,7 +29,8 @@ the map: which directory/group supports which claim.
 - `channel-swings/portfolio_rank128_defect_module_probe.py` proves over the
   exact finite-field fixture that the ten rank-128 leakage images are pairwise
   disjoint and span rank 1,280; the compact intertwiner passes while the mixed
-  boosts fail, so a full `Spin(6,4)` module identification remains open.
+  boosts fail for that trivialization. The v0.228 successor proves the full
+  carrier module and retypes the remaining problem as graph naturality.
 
 - `channel-swings/portfolio_mh17_comparator_h0_inertia_probe.py` runs the
   previously missing free-comparator `H^0` Gram calculation and returns
@@ -1503,7 +1515,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (641 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.227 portfolio signature/J-quotient/rank-128/M-H17 checks and append-only ledger gate, v0.226 corrected action-Euler square, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (645 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.228 rank-128 observation-kernel module and append-only ledger gate, v0.227 portfolio checks, v0.226 corrected action-Euler square, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |

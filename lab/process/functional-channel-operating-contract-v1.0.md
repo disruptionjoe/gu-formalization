@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.227.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.227.md`.
+`lab/process/conditional-physics-ledger-v0.228.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.228.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -62,11 +62,20 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The v0.228 module theorem composes v0.227's ten pairwise-disjoint rank-128
+defects into the exact 1,280-dimensional observation kernel `N* tensor S`.
+That carrier intertwines all 45 `so(6,4)` generators. The selected `H640`
+graph lift, its complement and the zero-form-seed trivialization intertwine
+only the 21 compact generators, so the remaining problem is one moving
+graph/BV naturality or physical-symmetry-reduction gate rather than ten
+independent repairs. This configuration module is not the physical carrier or
+a reduced phase space; no quotient or verdict moves.
+
 The v0.227 portfolio correction preserves the v0.226 action-owner result and
 adds a typed canonicity-distance meter. It books no quotient: the local
 20-dimensional `J` orbit collapses only if the physical BV/action stabilizer
 acts with rank 20. Ten rank-128 transverse defects are pairwise disjoint and
-span rank 1280; their full mixed-boost module structure remains open. Source
+span rank 1280; v0.228 supersedes only its open mixed-boost carrier typing. Source
 claim `SC-GEN-54` is a named but unbuilt supercharge-to-three mechanism, and
 `SC-GEN-53` is a Lane-2 seed without a scale or observable. Build therefore
 owns the action/BV stabilizer and physical carrier before any count, anomaly or

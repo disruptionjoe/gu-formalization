@@ -2,10 +2,19 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-12"
+updated_at: "2026-08-13"
 ---
 
 # Explorations
+
+## K77 rank-128 observation-kernel module (2026-08-13)
+
+`conditional-build/selected-k77-rank128-observation-kernel-module-2026-08-13.md`
+proves that the ten pairwise-disjoint defects sum to the canonical
+1,280-dimensional `N* tensor S` observation kernel, a full `so(6,4)` module.
+Only the selected graph lift is compact-natural. Ledger v0.228 replaces ten
+repair ideas with one action/BV moving-graph or physical-symmetry-reduction
+gate; no physics verdict or residue moves.
 
 ## Portfolio correction wave (2026-08-12)
 

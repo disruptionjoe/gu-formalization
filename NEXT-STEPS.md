@@ -2,10 +2,22 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-12"
+updated_at: "2026-08-13"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-13 K77 RANK-128 OBSERVATION-KERNEL MODULE (ledger v0.228).**
+> The ten pairwise-disjoint transverse rank-128 defects sum exactly to
+> `ker(R_obs)=N* tensor S`, dimension 1280, and the canonical inclusion
+> intertwines all 45 `so(6,4)` generators. The prior `21/45` result belongs to
+> the selected `H640` graph lift and zero-form-seed trivialization, not to the
+> carrier: all 24 mixed boosts expose that graph splitting. **Do not run ten
+> repairs. Construct one action/BV moving graph correction or prove that the
+> physical action reduces normal symmetry to `U(3,2)` or the compact
+> stabilizer.** Keep this behind the rank-one action-owned tangent/BV gate and
+> distinct from `Pi_RS^phys` and physical cohomology. No verdict, residue,
+> quotient, datum, canon or public posture moves.
 
 > **2026-08-12 CATEGORICAL READING OF THE GEOMETRY + COUNCIL REVIEW
 > (absorption pointer, binds nothing; PROPOSED throughout).**
