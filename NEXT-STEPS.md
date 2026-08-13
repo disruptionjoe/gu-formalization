@@ -104,17 +104,31 @@ updated_at: "2026-08-12"
 > explorations/nguyen-c1c2-real-form-certificates-2026-08-12.md,
 > explorations/decoupling-constructibility-packet-2026-08-12.md.
 
+> **2026-08-12 PORTFOLIO CORRECTION COMPLETE (ledger v0.227).** Ten proposed
+> opportunities were audited and reduced to six construction programs. Exact
+> checks find: the local 20-dimensional `J` orbit conditionally quotients to a
+> point only under the unbuilt physical BV/action stabilizer; ten rank-128
+> transverse leaks are pairwise disjoint with rank-1280 sum and only compact-
+> stabilizer equivariance established; the M-H17 free comparator has `H^0`
+> inertia `(96,96,0)`; and Weinstein eq. (12.19) is a named source resolver to
+> `{7,7}`, not a `SIGNATURE-AMBIENT` settlement. `SC-GEN-54` is now typed as an
+> unbuilt supercharge-to-three mechanism; `SC-GEN-53` is a Lane-2 seed without
+> scale/observable. B5 is retyped field-by-field. No ledger verdict, raw residue,
+> quotient, P1/P2/P3, canon or public posture moves. Next: physical BV/action
+> stabilizer, mixed-boost defect-module solve, and physical carrier before W224
+> port/count/positivity. See `explorations/portfolio-correction-wave-2026-08-12.md`.
+
 > **2026-08-11 SOURCE-CLAIM REGISTER AND KILL-TARGET GATE LIVE (ratified,
 > binds via gate from 2026-08-12).** `lab/sources/source-claim-register.yaml`
 > holds 110 verbatim, edition-pinned authorial claims with core partition
 > (hard-core 48 / auxiliary 51 / disavowed 11) and dated adherence
-> (ADHERED 82 / PARTIAL 17 / UNTYPED 11 / CONTRADICTED 0). New
+> (ADHERED 82 / PARTIAL 19 / UNTYPED 9 / CONTRADICTED 0). New
 > kill-bearing artifacts name their `target_claim:` (gate:
 > `process_gates/kill_target_claim_audit.py`; baseline 5-of-40 untyped).
 > Subagent delegation inlines `lab/process/subagent-brief.md` v1.0.
-> Top adherence gaps for wave absorption: SC-GEN-54 (spoken supercharge
-> count mechanism, UNTYPED with the IGG extension machine-complete
-> in-repo); the CHI/GEN source-claim column carried into packet bodies;
+> The portfolio correction partially types SC-GEN-54 without constructing its
+> count map and SC-GEN-53 without inventing a scale or observable. Remaining
+> gaps include the CHI/GEN source-claim column carried into packet bodies;
 > GEOMETER-VS-PHYSICS-OBJECTS.md:19 retired-form teaching. Council record
 > and rationale in explorations/.
 

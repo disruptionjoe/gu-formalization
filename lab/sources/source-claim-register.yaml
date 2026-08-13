@@ -25,8 +25,8 @@ register:
     sentence polarity verbatim; frame regression under compression is the measured failure mode.'
   - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
     target claim.'
-  adjudication_headline: 'ADHERED 82 / PARTIAL 17 / UNTYPED 11 / IGNORED 0 / CONTRADICTED 0; core: hard-core
-    48 / auxiliary 51 / disavowed-by-source 11 (2026-08-11, pinned b6d31fdb)'
+  adjudication_headline: 'ADHERED 82 / PARTIAL 19 / UNTYPED 9 / IGNORED 0 / CONTRADICTED 0; core: hard-core
+    48 / auxiliary 51 / disavowed-by-source 11 (2026-08-12 portfolio correction; no source claim proven)'
 claims:
 - id: SC-GEO-01
   polarity: ASSERTS
@@ -1775,15 +1775,15 @@ claims:
     (row-15 note); self-graded 'like a prediction'. Cross-file PRE.
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:1697-1707
-    - LANES.yaml:67
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: 'The two-stay-identical-one-does-not prediction (custody: mining row 15/WG-F06) is on no treatment
-      surface despite being Lane 2''s cleanest discriminator-shaped GU-native claim; type it with its
-      no-scale caveat.'
+    - explorations/lane2-sc-gen-53-tripwire-seed-2026-08-12.md
+    - explorations/portfolio-correction-wave-2026-08-12.md
+    pinned_at: DIRECT-20260812-PORTFOLIO-CORRECTION-WAVE
+    date: 2026-08-12
+    note: 'Lane 2 now owns a typed seed. The source supplies no energy scale,
+      invariant discriminator, observable, or predeclared threshold, and the
+      physical-carrier bridge remains open; it is not a prediction packet.'
 - id: SC-GEN-54
   polarity: ASSERTS
   claim: What fixes the effective number of generations at three is the extension of the inhomogeneous
@@ -1802,15 +1802,18 @@ claims:
     SC-GEN-58; 07-20 Section 1.5 flags the plurality).'
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: PARTIAL
     evidence:
-    - canon/escape-corners-campaign-RESULTS.md:2
-    - CANON.md:191
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: 'The supercharge-extension-fixes-three mechanism (custody: WG-SG4/row 9) is typed nowhere -
-      even though the graded IGG extension itself EXISTS in-repo, machine-complete - and the count verdict
-      was adjudicated without ever naming it. Highest-value UNTYPED row.'
+    - explorations/portfolio-correction-wave-2026-08-12.md
+    - canon/escape-corners-campaign-RESULTS.md
+    - explorations/wave37/H54-branch1-superalgebra-2026-07-11.md
+    pinned_at: DIRECT-20260812-PORTFOLIO-CORRECTION-WAVE
+    date: 2026-08-12
+    note: 'The mechanism is now explicitly typed. Exact graded-IG algebraic
+      closure exists at its filed arena, but no map to exactly three physical
+      families, current K77 carrier transport, action invariance, or physical
+      cohomology/count construction exists. The H54 super-Poincare branch is a
+      different object and also leaves N unfixed.'
 - id: SC-GEN-55
   polarity: ASSERTS
   claim: One generation of standard-model fermions is just the pullback of a properly-understood Weyl

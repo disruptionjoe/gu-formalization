@@ -7,7 +7,7 @@ functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 source_claims: [SC-ACT-01, SC-ACT-04]
 source_return: SOURCE_CORRECTS_SC_ACT_04_OWNER_TYPING__LITERAL_I2B_SQUARES_PRINTED_ENDPOINT_UPSILON__ACTION_CONSISTENCY_LEAVES_CORRECTED_E_ACT_SQUARE_AS_SEPARATE_RIVAL
-target_claim: NONE-NOT-A-GU-KILL
+target_claim: NONE-NOT-A-KILL
 free_object_delta: "zero fields, parameters, data, selectors, quotients or boundary conditions"
 scripts:
   - tests/channel-swings/selected_k77_i2b_two_connection_tangent_independence_probe.py

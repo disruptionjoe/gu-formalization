@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.226.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.226.md`.
+`lab/process/conditional-physics-ledger-v0.227.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.227.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -61,6 +61,16 @@ explicit. Likewise, for `A=B+T`, a `B`-only term has zero derivative under the
 independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
+
+The v0.227 portfolio correction preserves the v0.226 action-owner result and
+adds a typed canonicity-distance meter. It books no quotient: the local
+20-dimensional `J` orbit collapses only if the physical BV/action stabilizer
+acts with rank 20. Ten rank-128 transverse defects are pairwise disjoint and
+span rank 1280; their full mixed-boost module structure remains open. Source
+claim `SC-GEN-54` is a named but unbuilt supercharge-to-three mechanism, and
+`SC-GEN-53` is a Lane-2 seed without a scale or observable. Build therefore
+owns the action/BV stabilizer and physical carrier before any count, anomaly or
+positivity promotion.
 
 The v0.226 action-owner comparison closes the corrected-square arithmetic on
 the constant trace-`H_q`, moving-`Q_u`, fixed-background 196-cell bank.  The

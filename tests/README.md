@@ -6,6 +6,29 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/portfolio_signature_ambient_wave_a_probe.py` certifies the
+  distinction between Weinstein's authorial `{7,7}` assignment and a missing
+  action/analytic derivation. It leaves `SIGNATURE-AMBIENT` open with a named
+  source resolver rather than settling it.
+
+- `channel-swings/portfolio_j_orbit_local_quotient_probe.py` checks the local
+  `O(6,4)/U(3,2)` orbit calculation and makes the quotient conditional on the
+  physical BV/action/observation stabilizer owning the full tangent orbit.
+
+- `channel-swings/portfolio_rank128_defect_module_probe.py` proves over the
+  exact finite-field fixture that the ten rank-128 leakage images are pairwise
+  disjoint and span rank 1,280; the compact intertwiner passes while the mixed
+  boosts fail, so a full `Spin(6,4)` module identification remains open.
+
+- `channel-swings/portfolio_mh17_comparator_h0_inertia_probe.py` runs the
+  previously missing free-comparator `H^0` Gram calculation and returns
+  inertia `(96,96,0)`. This is an indefinite old-horn comparator, not physical
+  K77 positivity.
+
+- `channel-swings/conditional_physics_ledger_v0227_probe.py` enforces the
+  portfolio-only v0.227 update: no row or residue migration, typed canonicity
+  distance, corrected source-claim queue and bounded successor program.
+
 - `channel-swings/selected_k77_i2b_action_euler_square_probe.py` constructs
   the exact action Riesz representative and Frechet-adjoint companion on the
   fixed-background 196-real bank.  The companion is `2 S_q`; endpoint and
@@ -1480,7 +1503,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (638 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.226 corrected action-Euler square, independent Sage checksum and append-only ledger gate, v0.225 SC-ACT-04 residual-owner/two-connection correction, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (641 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.227 portfolio signature/J-quotient/rank-128/M-H17 checks and append-only ledger gate, v0.226 corrected action-Euler square, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -1525,15 +1548,14 @@ files; organized families live under their subdirectory READMEs, and governance/
 | **GR / cosmology / dark energy** | `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py` | 2 | root-level cosmology and Willmore-order certificates that remain mathematical tests rather than process gates. |
 | **Source / selector / control** | `oq_rk1_*.py` | 3 | OQ-RK1 representation, J-restriction, and effective-operator assembly certificates. |
 | **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
+| **Signature / reality / domain** | `base_sign_*.py`, `c1_domain_*.py`, `krein_parity_*.py`, `majorana_weyl_*.py`, `mh9_*.py`, `pati_salam_*.py`, `rational_triviality_*.py`, `signature_fork_*.py`, `source_signature_*.py` | 11 | exact real-signature, Majorana-Weyl, Kramers/Krein, Pati-Salam trace-sign, source-notation and domain-moduli certificates; complexified methods do not decide these real-form forks. |
 | **W-series frontier packets** | `W*.py` | 200 | later root-level W-series frontier certificates, including W242's DESI intake and dependency-aware prediction queue, W245's Finster-sea/Krein-domain discriminator, and W246's faithful CFS self-adjointization ordering reversal, kept in place as provenance while subdirectory migration remains separate review work. |
 | **Hardening quick-win notes** | `HQW_*.py` | 1 | standalone confirming tests for the 2026-07-14 hardening quick-win lemma notes (shape-blind `c_R`), kept at root as provenance. |
 
-**Known-red inventory debt (2026-08-12):** eleven signature/reality scripts
-landed at the root after this table's fixed sector grammar was written. They
-are not forced into a false existing bucket; `tests_root_readme_inventory_audit`
-therefore remains red until its classification schema receives a dedicated
-signature/reality sector. This Run records the inherited debt but does not
-silently rewrite a predecessor process gate outside its declared scope.
+**Resolved inventory debt (2026-08-12):** the eleven signature/reality scripts
+now have their own explicit sector. They were not forced into a false existing
+bucket; `tests_root_readme_inventory_audit` verifies the dedicated grammar and
+the complete 266-script count.
 
 ## Resolver Wave B certificates
 

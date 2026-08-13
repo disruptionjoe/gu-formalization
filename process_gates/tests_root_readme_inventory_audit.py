@@ -56,6 +56,20 @@ COVERAGE_GROUPS: tuple[CoverageGroup, ...] = (
         "Temporal issuance / source-action steelman",
         ("temporal_issuance_source_action_steelmen_checker.py",),
     ),
+    CoverageGroup(
+        "Signature / reality / domain",
+        (
+            "base_sign_*.py",
+            "c1_domain_*.py",
+            "krein_parity_*.py",
+            "majorana_weyl_*.py",
+            "mh9_*.py",
+            "pati_salam_*.py",
+            "rational_triviality_*.py",
+            "signature_fork_*.py",
+            "source_signature_*.py",
+        ),
+    ),
     CoverageGroup("W-series frontier packets", ("W*.py",)),
     CoverageGroup("Hardening quick-win notes", ("HQW_*.py",)),
 )

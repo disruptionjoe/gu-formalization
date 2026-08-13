@@ -14,16 +14,18 @@ graph TD
   PD_SIGNATURE_PARITY --> PD_SIGNATURE_PARITY_s0
   PD_SIGNATURE_PARITY_s1["EXACT: So the base sign alone moves the ambient: (3,1)->(9,5), (1,3)->(7,7)."]
   PD_SIGNATURE_PARITY_s0 --> PD_SIGNATURE_PARITY_s1
-  PD_SIGNATURE_PARITY_s2["EXACT: Cl(9,5) = M(64,H) quaternionic; Cl(7,7) = M(128,R) real. Not real-isomorphic."]
+  PD_SIGNATURE_PARITY_s2["AUTHOR-STATED: Weinstein's equation (12.19) authorially displays g*(TY^(7,7)) = TX^(1,3) +..."]
   PD_SIGNATURE_PARITY_s1 --> PD_SIGNATURE_PARITY_s2
-  PD_SIGNATURE_PARITY_s3["EXACT: Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) q..."]
+  PD_SIGNATURE_PARITY_s3["EXACT: Cl(9,5) = M(64,H) quaternionic; Cl(7,7) = M(128,R) real. Not real-isomorphic."]
   PD_SIGNATURE_PARITY_s2 --> PD_SIGNATURE_PARITY_s3
-  PD_SIGNATURE_PARITY_s4["THEOREM: Quaternionic structure forces Kramers doubling, hence EVEN multiplicity."]
+  PD_SIGNATURE_PARITY_s4["EXACT: Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) q..."]
   PD_SIGNATURE_PARITY_s3 --> PD_SIGNATURE_PARITY_s4
-  PD_SIGNATURE_PARITY_s5["CONDITIONAL: Three generations is ODD. So (9,5) structurally forbids the target; (7,7) p..."]
+  PD_SIGNATURE_PARITY_s5["THEOREM: Quaternionic structure forces Kramers doubling, hence EVEN multiplicity."]
   PD_SIGNATURE_PARITY_s4 --> PD_SIGNATURE_PARITY_s5
+  PD_SIGNATURE_PARITY_s6["CONDITIONAL: Three generations is ODD. So (9,5) structurally forbids the target; (7,7) p..."]
+  PD_SIGNATURE_PARITY_s5 --> PD_SIGNATURE_PARITY_s6
   PD_SIGNATURE_PARITY_chk{"CHECK: State which horn the work stands on"}
-  PD_SIGNATURE_PARITY_s5 --> PD_SIGNATURE_PARITY_chk
+  PD_SIGNATURE_PARITY_s6 --> PD_SIGNATURE_PARITY_chk
   PD_SIGNATURE_PARITY_t0("TRAP 2026-08-04")
   PD_SIGNATURE_PARITY_chk -.-> PD_SIGNATURE_PARITY_t0
   PD_SIGNATURE_PARITY_t1("TRAP 2026-08-08")
@@ -140,12 +142,13 @@ graph TD
 |---|---|---|---|
 | 1 | `EXACT` | The DeWitt fibre form is (6,4), and this is INDEPENDENT of the base sign: G(-g) = G(g) exactly. | `tests/signature_fork_equivariance_defect.py` |
 | 2 | `EXACT` | So the base sign alone moves the ambient: (3,1)->(9,5), (1,3)->(7,7). | `tests/signature_fork_equivariance_defect.py` |
-| 3 | `EXACT` | Cl(9,5) = M(64,H) quaternionic; Cl(7,7) = M(128,R) real. Not real-isomorphic. | `tests/majorana_weyl_forces_the_seven_seven_horn.py` |
-| 4 | `EXACT` | Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) qualifies. | `tests/majorana_weyl_forces_the_seven_seven_horn.py` |
-| 5 | `THEOREM` | Quaternionic structure forces Kramers doubling, hence EVEN multiplicity. | `canon/no-go-quaternionic-parity-generation-sector.md` |
-| 6 | `CONDITIONAL` | Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it. | `explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md` |
+| 3 | `AUTHOR-STATED` | Weinstein's equation (12.19) authorially displays g*(TY^(7,7)) = TX^(1,3) + N_g^(6,4), providing a source resolver to the unordered {7,7} horn but not deriving the relative block sign from the action. | `explorations/portfolio-correction-wave-2026-08-12.md` |
+| 4 | `EXACT` | Cl(9,5) = M(64,H) quaternionic; Cl(7,7) = M(128,R) real. Not real-isomorphic. | `tests/majorana_weyl_forces_the_seven_seven_horn.py` |
+| 5 | `EXACT` | Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) qualifies. | `tests/majorana_weyl_forces_the_seven_seven_horn.py` |
+| 6 | `THEOREM` | Quaternionic structure forces Kramers doubling, hence EVEN multiplicity. | `canon/no-go-quaternionic-parity-generation-sector.md` |
+| 7 | `CONDITIONAL` | Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it. | `explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md` |
 
-**CHECK.** State which horn the work stands on. If Cl(9,5), say so and say whether the result is horn-robust. Do NOT let a (9,5) result silently stand in for the source-aligned reconstruction.
+**CHECK.** State which horn the work stands on. If Cl(9,5), say so and say whether the result is horn-robust. Treat equation (12.19) as a named SOURCE resolver, not a mathematical settlement. Do NOT let a (9,5) result silently stand in for the source-aligned reconstruction.
 
 **Traps that actually happened:**
 

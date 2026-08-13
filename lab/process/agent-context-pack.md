@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
+> **Current v0.227 portfolio correction:** no physics-row verdict or residue
+> moves. `SC-GEN-54` is a named but unbuilt supercharge-to-three mechanism;
+> `SC-GEN-53` is a Lane-2 two-versus-one seed without scale or observable.
+> Weinstein eq. (12.19) is a source resolver to `{7,7}`, while
+> `SIGNATURE-AMBIENT` remains open. The local `J` orbit has zero-dimensional
+> quotient only if the physical BV/action stabilizer acts with rank 20, so no
+> reduction is booked. Ten transverse rank-128 leaks are pairwise disjoint and
+> span rank 1280; compact equivariance passes and mixed boosts remain open. The
+> M-H17 free comparator has `H^0` inertia `(96,96,0)`, not interacting K77
+> physical positivity. Keep two `C^(32,32)` halves, their block subgroup, full
+> `U(64,64)`, physical carrier, and K77 vector connection distinct.
+
 > **Current v0.226 corrected `E_act` square:** on the exact constant trace-`H_q`,
 > moving-`Q_u`, fixed-background 196-real connection bank, the action Riesz
 > matrix is diagonal with inertia `(98,98)` and the Frechet-adjoint companion is

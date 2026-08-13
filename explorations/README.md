@@ -7,6 +7,18 @@ updated_at: "2026-08-12"
 
 # Explorations
 
+## Portfolio correction wave (2026-08-12)
+
+`portfolio-correction-wave-2026-08-12.md` validates and composes the ten-item
+portfolio proposal without promoting any conditional result to canon. It adds
+Weinstein's authorial `{7,7}` display as a named source resolver, types the
+previously omitted supercharge-count mechanism and two-versus-one high-energy
+tripwire, shows that the local 20-coordinate `J` orbit is gauge only under an
+action/observation-preserving moving symmetry, and disproves the conjecture
+that ten rank-128 leaks are one shared subspace. Ledger v0.227 leaves all row
+verdicts and raw residue counts unchanged while adding a typed canonicity-
+distance meter and a sharper next queue.
+
 ## K77 corrected action-Euler square (2026-08-12)
 
 `conditional-build/selected-k77-i2b-action-euler-square-2026-08-12.md`
