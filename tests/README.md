@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_stationary_affine_spencer_intersection_probe.py`
+  distinguishes a failed universal constant operator completion from existence
+  of compatible stationary jets. It constructs a 16-support rational endpoint
+  witness in the restricted ansatz, proves restricted/full affine intersection
+  dimensions `168/1708`, computes second-prolongation rank `1904/1960` at two
+  primes, and proves 56 rational rows exhaust its cokernel. Run with SageMath
+  10.9; it passes `59/59`.
+
 - `channel-swings/selected_k77_i2b_endpoint_frozen_compatibility_adapter_probe.py`
   ports the frozen Hessian to the printed endpoint residual on the inherited
   fixed-`H_q` pairing, proves endpoint `H0` rank 196, exact endpoint defect

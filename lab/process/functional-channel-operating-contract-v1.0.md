@@ -92,6 +92,19 @@ is assembled, do not promote either frozen defect to failure of nonlinear
 Bianchi, Noether/BV ownership or constraint propagation; the nonzero
 preboundary owner and symplectic reduction remain separate.
 
+The stationary-affine Spencer successor corrects the immediate interpretation
+without introducing an adapter. A universal constant lower-order operator
+completion still does not exist, but the relevant pullback of the stationary
+two-jet fibre and compatibility kernel is nonempty. The old witness fires on
+two rows; a new 16-support rational witness passes all 196 endpoint equations
+and 56 compatibility rows. Restricted/full compatible fibres have dimensions
+168/1708. The complete second prolonged symbol has rank `1904/1960`, with the
+56 differentiated divergence rows exhausting its rational cokernel. Build
+must therefore type this rank as formal-jet selection, not local nonexistence,
+and must not resume coefficient/adapter fitting for that narrow purpose.
+Higher moving/nonlinear prolongations, involutivity, analytic convergence,
+global descent, source `Q_B` and physical BV/BFV remain the frontier.
+
 The parameter-jet affine successor closes the raw rank-25 Lorentz-trace burden
 without a new object. For an adjoint field, the connection terms in `D_mu
 D_nu` contribute exactly the negative of the raw `partial_mu partial_nu eta`

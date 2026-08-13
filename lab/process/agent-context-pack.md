@@ -58,6 +58,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > followed by Spencer compatibility. Do not infer BV cohomology, a physical
 > quotient, global solutions, positivity or domain results.
 
+> **Current stationary-affine Spencer intersection (ledger no-change):** the
+> corrected endpoint rank-56 term is not a local formal nonexistence theorem.
+> The old sparse stationary witness misses two compatibility cells, but the
+> same `(00)+(01)` ansatz contains a 16-support rational witness satisfying all
+> 196 endpoint Euler cells and all 56 next rows. Restricted/full joint ranks
+> are `224/252`, with nonempty affine fibres of dimensions `168/1708`. The
+> complete second prolonged symbol has rank `1904/1960` at two primes; 56
+> exact differentiated-divergence rows exhaust its cokernel and vanish on the
+> new witness. Retain the no-constant-operator-completion theorem, but next
+> test moving/nonlinear higher prolongations and involutivity before analytic
+> or global existence. Source `Q_B`, physical BV/BFV and domains stay open.
+
 > **Current constant-parameter moving-Shiab Ward closure (ledger no-change):**
 > the predecessor's frozen rank-90 response is fully cancelled, but not by
 > moving Shiab alone. Moving `Phi1/Phi2`/Shiab has rank 90 and leaves rank 24;

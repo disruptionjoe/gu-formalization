@@ -7,13 +7,26 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B stationary-affine Spencer intersection (2026-08-13)
+
+`conditional-build/selected-k77-i2b-stationary-affine-spencer-intersection-2026-08-13.md`
+corrects the meaning of the frozen rank-56 term. The old stationary witness
+fails two compatibility cells, but the restricted/full stationary fibres
+intersect the compatibility kernel in dimensions 168/1708. A 16-support
+rational endpoint witness passes all rows. The full second prolonged symbol
+has rank `1904/1960`, and 56 exact differentiated divergence rows exhaust its
+cokernel. This is frozen linear formal extension, not nonlinear or global
+existence.
+
 ## K77 I2B endpoint frozen-compatibility and adapter correction (2026-08-13)
 
 `conditional-build/selected-k77-i2b-endpoint-frozen-compatibility-adapter-2026-08-13.md`
 ports the prior frozen calculation from the withdrawn one-third surrogate
 attribution to the printed endpoint residual under the same fixed-`H_q`
 comparator. The coefficients change at rank 193, but the exact obstruction
-remains `14+14+14+14`, combined rank 56. The separately known rank-56
+universal operator-completion defect remains `14+14+14+14`, combined rank 56.
+The stationary-affine successor above shows that it restricts rather than
+empties the formal solution-jet fibre. The separately known rank-56
 `dot P_+` has zero pullback on independent connection translations; a genuine
 field-to-frame adapter or `A/T`-dependent coefficient remains open.
 

@@ -7,6 +7,22 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B STATIONARY-AFFINE SPENCER INTERSECTION
+> CORRECTION (ledger no-change).** The corrected endpoint rank-56 term is a
+> nontrivial compatibility condition, but not a nonexistence theorem. The old
+> 14-support stationary witness misses two compatibility cells; nevertheless
+> the same 392-variable `(00)+(01)` affine fibre contains a 16-support rational
+> witness satisfying all 196 endpoint equations and all 56 next rows. Exact
+> ranks are `196,28,224` with augmented rank 224 and compatible fibre dimension
+> 168. On all ten two-jet blocks the ranks are `196,56,252`, augmented rank 252,
+> leaving dimension 1708. The complete second prolonged symbol has rank
+> `1904/1960` at two primes; 56 exact differentiated-divergence rows exhaust
+> its cokernel and vanish on the new witness. **Retain the prior no-constant-
+> operator-completion theorem, but retype rank 56 as formal-jet selection.
+> Next test higher moving/nonlinear prolongations and Cartan involutivity before
+> analytic or global existence.** Source `Q_B`, physical BV/BFV and domains
+> remain open; no accounting or posture move.
+
 > **2026-08-13 K77 I2B ENDPOINT COMPATIBILITY + RANK-56 ADAPTER
 > CORRECTION (ledger no-change).** The prior frozen theorem inherited the
 > one-third path-average residual after its literal `SC-ACT-04` attribution
@@ -14,13 +30,15 @@ updated_at: "2026-08-13"
 > the same conditional fixed-`H_q` pairing changes the Hessian substantially:
 > endpoint-minus-surrogate `H0` has rank `193` and support `544`, while the
 > defect difference has rank `56` and support `156`. Nevertheless the endpoint
-> obstruction profile remains exactly `14,14,14,14`, combined rank `56`.
+> universal-completion defect remains exactly `14,14,14,14`, combined rank `56`.
 > **Do not inherit coefficients merely because ranks agree, and do not use the
 > separate rank-56 pure-frame `dot P_+` as a cancellation. Since `q_g=g/2`,
 > its pullback along the independent 196-real connection translation is zero.
 > Next build a genuine `A/T`-dependent `Q_B`/coefficient owner, derive an
 > action-owned field-to-metric tangent graph, or port the corrected `E_act`
-> second Hessian as a separate rival.** Source `Q_B`, nonlinear Noether/BV,
+> second Hessian as a separate rival.** The stationary-affine successor above
+> now shows that no such adapter is needed merely to obtain a compatible
+> frozen formal jet. Source `Q_B`, nonlinear Noether/BV,
 > global domain and preboundary/BFV remain open; no accounting or posture move.
 
 > **2026-08-13 K77 I2B FROZEN-HESSIAN COMPATIBILITY GATE (ledger

@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-stationary-affine-spencer-source-return-2026-08-13.md`](selected-k77-i2b-stationary-affine-spencer-source-return-2026-08-13.md)
+  - confirms the printed endpoint and connection/covariant-derivative grammar;
+    attributes the nonempty stationary-affine intersection, 16-support witness
+    and complete 56-row second-prolongation cokernel to the repository; and
+    returns source-silent on nonlinear/analytic/global extension.
+
 - [`selected-k77-i2b-endpoint-frozen-compatibility-source-return-2026-08-13.md`](selected-k77-i2b-endpoint-frozen-compatibility-source-return-2026-08-13.md)
   - corrects the one-third path-average versus printed-endpoint residual locus;
     attributes the endpoint frozen port and zero field-to-frame pullback to the
