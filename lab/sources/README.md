@@ -114,6 +114,11 @@ updated_at: "2026-08-12"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-i2b-source-gauge-bv-image-source-return-2026-08-13.md`](selected-k77-i2b-source-gauge-bv-image-source-return-2026-08-13.md)
+  confirms the source `delta T=alpha-D_A zeta` tilted grammar, keeps arbitrary
+  `varpi` translation distinct from gauge, and returns source-silent on the
+  repository's exact rank-25 selected adjoint image and twelve-cell quotient.
+
 - [`selected-k77-polarized-radical-bfv-ownership-gate-source-return-2026-08-11.md`](selected-k77-polarized-radical-bfv-ownership-gate-source-return-2026-08-11.md)
   records source ownership of the independent-field/covariance grammar and
   silence on identifying `im Nsharp` with gauge/BV, adding a fermion edge

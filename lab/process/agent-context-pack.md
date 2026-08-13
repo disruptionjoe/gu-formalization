@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current v0.229 source/gauge-BV image theorem:** on the selected real-K77
+> 196-cell Cl1 distortion bank, the source chart `[I,-G]` has rank 196 and the
+> tilted graph `[G;I]` maps to zero. Thus arbitrary `varpi` translation is a
+> physical field variation and the tilted quotient removes no `T` cell. The
+> complete projected Cl2 adjoint image has rank 25, zero intersection with the
+> twelve diagonal Euler cells, and is annihilated by the still-nonzero Euler
+> covector. The equation descends; it does not disappear. Do not quotient all
+> source translations or retry this local gauge repair. Next construct the
+> coupled moving reference/metric/section/Hodge/Shiab/trace-Hq Fréchet image.
+> Full BV/KT, BFV, the two `C^(32,32)` halves and full `U(64,64)` remain open.
+
 > **Current v0.228 rank-128 module theorem:** the ten pairwise-disjoint
 > transverse defects sum exactly to the 1,280-dimensional observation kernel,
 > the canonical `N* tensor S` carrier, and its coordinate inclusion

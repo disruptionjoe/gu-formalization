@@ -7,6 +7,15 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B source tangent and gauge/BV image (2026-08-13)
+
+`conditional-build/selected-k77-i2b-source-gauge-bv-image-2026-08-13.md`
+proves that the tilted source graph has zero image in `T`, while the residual
+rank-25 adjoint gauge image is disjoint from the twelve fixed-background Euler
+cells. The nonzero Euler covector descends to the quotient. Ledger v0.229 sends
+the rank-one successor to the actual moving geometric Fréchet response; no
+physics verdict, residue, quotient or datum moves.
+
 ## K77 rank-128 observation-kernel module (2026-08-13)
 
 `conditional-build/selected-k77-rank128-observation-kernel-module-2026-08-13.md`

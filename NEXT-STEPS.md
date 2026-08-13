@@ -7,6 +7,19 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B SOURCE/GUAGE-BV IMAGE (ledger v0.229).** On the
+> selected 196-real Cl1 distortion bank, arbitrary `varpi` translation is a
+> physical field tangent, the 91-dimensional tilted graph has zero `T` image,
+> and the complete projected adjoint gauge image has rank 25 with zero
+> intersection against the twelve diagonal Euler cells. The nonzero Euler
+> covector annihilates gauge directions and therefore descends to the quotient;
+> it does not vanish there. **Do not quotient source translations or retry a
+> local gauge repair. Construct the coupled moving reference/metric/section/
+> Hodge/Shiab/trace-Hq Fréchet response and test its independently derived
+> image against the two determinant-80 shapes.** Full BV/KT, BFV, the two
+> `C^(32,32)` halves and full `U(64,64)` remain open. No accounting, datum,
+> canon or public-posture move.
+
 > **2026-08-13 K77 RANK-128 OBSERVATION-KERNEL MODULE (ledger v0.228).**
 > The ten pairwise-disjoint transverse rank-128 defects sum exactly to
 > `ker(R_obs)=N* tensor S`, dimension 1280, and the canonical inclusion

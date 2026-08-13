@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.228.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.228.md`.
+`lab/process/conditional-physics-ledger-v0.229.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.229.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -61,6 +61,14 @@ explicit. Likewise, for `A=B+T`, a `B`-only term has zero derivative under the
 independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
+
+The v0.229 source/gauge theorem closes the local quotient escape for the
+twelve-cell I2B Euler obstruction. Arbitrary `varpi` translation is a field
+tangent, the tilted graph has zero `T` image, and the rank-25 residual adjoint
+image is disjoint from the twelve cells; a nonzero gauge-annihilating Euler
+covector descends rather than vanishes. Build must now target the independently
+derived moving geometric Fréchet response and may not quotient all source
+translations or fit a cancellation.
 
 The v0.228 module theorem composes v0.227's ten pairwise-disjoint rank-128
 defects into the exact 1,280-dimensional observation kernel `N* tensor S`.
@@ -1279,7 +1287,9 @@ only three universal inline lenses:
 1. **Layer-0 object typing** — name the construction, predicate and output
    object and reject homonyms.
 2. **Prior-art/source collision** — check whether the repository or primary
-   source already owns, corrects or is silent on the proposed move.
+   source already owns, corrects or is silent on the proposed move. State in
+   one line why the gate's answer is not already fixed or emptied by a held
+   theorem, prior kill, or one of its own premises.
 3. **Construction versus selection** — state whether the move builds or
    transports an admissible family, or actually chooses a member.
 
