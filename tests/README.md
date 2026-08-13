@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_source_natural_second_action_owner_probe.py`
+  composes the source-owned printed endpoint with the fixed-natural grade-one
+  `Q_B` line, replays both exact predecessor suites, proves scale-invariant
+  endpoint ranks and kernel, preserves the nonempty affine-Spencer receipt,
+  and fences the separate `E_act/Q_u` rival and moving/full-field gates. Run
+  with pinned SymPy `1.14.0` and NumPy `2.5.1`.
+
 - `channel-swings/selected_k77_i2b_stationary_affine_spencer_intersection_probe.py`
   distinguishes a failed universal constant operator completion from existence
   of compatible stationary jets. It constructs a 16-support rational endpoint

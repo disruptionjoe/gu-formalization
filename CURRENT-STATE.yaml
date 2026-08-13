@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: agent/operator-anomaly-big-swing
-revision_basis: a19eba9f564de4dca497410142c4571c1ca8df60
+revision_basis: 11c2e53b53725f804783ae34e1170d2f4603d8f3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,16 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The printed K77 I2B endpoint has a rank-196 holonomic jet image, while the
-    selected first-action pairing gives a zero fixed-bank action-derived
-    principal owner; the endpoint repair therefore does not transfer to the
-    full moving action owner.
+    The source-faithful fixed-natural K77 I2B owner is the printed endpoint
+    square with Q_B on the unique trace/Hodge line up to nonzero scale. Its
+    rank-196 Hessian, rank-56 compatibility condition and nonempty formal-jet
+    intersection stand at that grade, while the repository-composed E_act/Q_u
+    rival and moving/full-field action remain separate.
   evidence:
+    - explorations/conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md
     - lab/process/conditional-physics-ledger-v0.237.json
 current_question: >-
-  Which completed moving source/action owner and physical tangent/BV graph
-  governs the next honest stationary and compatibility test?
+  Does the first genuinely moving/nonlinear endpoint coefficient prolongation
+  pass Cartan involutivity, and what independent physical tangent/BV graph
+  governs admissible variations?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -27,7 +30,7 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Derive or source-grade the completed second action and its moving
-  metric/section/Shiab/Q_B principal map; independently construct the physical
-  tangent/BV graph before promoting nonlinear or global claims.
+  Test higher moving/nonlinear endpoint prolongation and Cartan involutivity;
+  independently construct the physical tangent/BV graph before promoting
+  nonlinear, analytic or global claims.
 what_needs_joe: none

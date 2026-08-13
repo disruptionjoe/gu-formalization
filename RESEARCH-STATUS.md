@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
+headline unchanged).** The source-faithful fixed-natural I2B owner is now
+resolved at the selected local grade-one branch: `SC-ACT-04` owns the printed
+endpoint square and every admissible fixed-natural `Q_B` restricts to the
+trace/Hodge line up to nonzero scale. The exact endpoint Hessian rank 196,
+compatibility rank 56 and nonempty affine-Spencer intersection therefore
+survive as operator results at that grade. The repository-composed `E_act/Q_u`
+rival, moving coefficients and physical tangent/BV remain separate and open.
+No physics verdict, residue, quotient, canon or public posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-12 (ledger v0.196; six
 distance/evidence migrations; headline unchanged).** The exact normal
 `SU(3,2)`/Pati-Salam intersection is `S(U(3)xU(2))`, dimension `12`, and the

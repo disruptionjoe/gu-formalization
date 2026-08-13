@@ -7,6 +7,17 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B source-natural fixed-grade owner (2026-08-13)
+
+`conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md`
+composes the source-owned printed-endpoint I2B square with the exact
+fixed-natural grade-one `Q_B` classification. Both source-supported parent
+readings restrict `Q_B` to the trace/Hodge line up to nonzero scale, so the
+endpoint Hessian rank 196, compatibility rank 56 and nonempty affine-Spencer
+intersection are the source-faithful fixed-grade operator results. The
+repository-composed `E_act/Q_u` rival, moving coefficients and physical
+tangent/BV remain separate.
+
 ## K77 I2B action-Euler principal owner comparison (2026-08-13)
 
 `conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md`

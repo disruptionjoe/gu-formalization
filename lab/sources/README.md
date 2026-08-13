@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-source-natural-second-action-owner-source-return-2026-08-13.md`](selected-k77-i2b-source-natural-second-action-owner-source-return-2026-08-13.md)
+  - confirms source ownership of the printed-endpoint I2B residual square;
+    attributes the fixed-natural grade-one `Q_B` line and its exact composition
+    with the endpoint certificate to the repository; and preserves moving
+    `Q_B`, full coefficients and physical tangent/BV as source-silent.
+
 - [`selected-k77-i2b-action-euler-principal-owner-comparison-source-return-2026-08-13.md`](selected-k77-i2b-action-euler-principal-owner-comparison-source-return-2026-08-13.md)
   - confirms the separately printed endpoint and first-action Euler formulas;
     attributes the exact zero fixed-bank action-dual principal projection and
