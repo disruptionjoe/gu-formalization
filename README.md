@@ -96,6 +96,7 @@ dark-energy no-phantom-crossing measurement is the one observation that turns th
 
 ## Start Here
 
+- **Current branch-relative state:** `CURRENT-STATE.yaml`
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
 - **Lead result (submission candidate):** `papers/candidates/located-not-forced/` ("Located, Not Forced")
 - **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`

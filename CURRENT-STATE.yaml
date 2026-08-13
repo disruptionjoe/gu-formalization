@@ -1,0 +1,30 @@
+schema_version: "1.0"
+repository: observerse-research-program
+branch: agent/reconcile-zenodo-provenance
+revision_basis: 0a0c2f108f1294509a8dbcd35e46342ef5c3c8ac
+purpose: >-
+  Establish the honest truth-status of the Observerse / Geometric Unity
+  program and preserve reproducible public provenance.
+current_result:
+  status: provenance_reconciled
+  summary: >-
+    The published observer-value-selection package's compile, verification,
+    and manifest references were reconciled to preserve the authenticated
+    Zenodo provenance already present on this branch.
+  evidence:
+    - papers/candidates/observer-value-selection-theorem/submission/VERIFICATION.md
+    - papers/candidates/observer-value-selection-theorem/zenodo-package-v1.0.0/MANIFEST.sha256
+    - papers/candidates/observer-value-selection-theorem/zenodo-package-v1.0.0/VERIFICATION.md
+current_question: >-
+  Are the public package, checksums, verification instructions, and cited
+  publication record mutually consistent at this branch tip?
+acceptance:
+  - RESEARCH-POSTURE.md
+  - VERIFICATION.md
+contribution_path:
+  - CONTRIBUTING.md
+  - NEXT-STEPS.md
+next_condition: >-
+  Preserve published provenance and make only versioned, evidence-backed
+  corrections without rewriting the scientific record.
+what_needs_joe: none
