@@ -7,6 +7,20 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B OBSERVATION/CONTACT + FIRST SPENCER GATE
+> (ledger no-change).** Complete inverse-transpose equation observation cannot
+> reopen a covariantly closed Euler row at a stationary point: both product-
+> rule terms vanish, while an off-shell control keeps observation motion live.
+> The nonzero preboundary contact remains separate. The complete first formal
+> prolongation has rank `770/784`; its exact fourteen-dimensional cokernel is
+> spanned by `sum_lambda partial_lambda E_(lambda,a)`, one row for each of the
+> fourteen Clifford-vector coordinates. **Do not call this source gauge,
+> nonlinear Bianchi, constraint propagation, or BV cohomology. Next apply this
+> exact compatibility operator to the complete lower-order and moving-
+> coefficient stationary Euler owner and test source Noether/BV ownership.**
+> No field, coefficient, quotient, datum, ledger, canon, accounting or posture
+> move.
+
 > **2026-08-13 K77 I2B PARAMETER-JET AFFINE WARD CLOSURE (ledger
 > no-change).** The independent rank-25 second-parameter-jet trace was a
 > raw-jet covariantization defect, not a geometric obstruction. A universal

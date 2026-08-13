@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current observation/contact and first Spencer gate (ledger no-change):**
+> complete inverse-transpose equation observation cannot reopen the
+> covariantly closed Euler row at a stationary point; off shell its
+> coefficient motion is live, and the nonzero preboundary contact remains
+> separate. The complete ten-block first prolongation has rank `770/784`.
+> Its entire fourteen-dimensional cokernel is spanned by
+> `sum_lambda partial_lambda E_(lambda,a)`, `a=0,...,13`. Call this a
+> divergence-shaped linear principal compatibility family, not source gauge,
+> nonlinear Bianchi, propagation or BV cohomology. Rank one is to apply these
+> rows to the complete lower-order/moving-coefficient stationary Euler owner
+> and test source Noether/BV ownership before higher Spencer or symplectic
+> reduction.
+
 > **Current parameter-jet affine Ward closure (ledger no-change):** the raw
 > rank-25 second-parameter-jet Lorentz trace is exactly cancelled by the
 > affine connection owner required by covariant differentiation. The sign is

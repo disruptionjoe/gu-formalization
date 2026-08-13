@@ -62,6 +62,18 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The observation/contact plus first-Spencer successor closes equation
+observation only at stationary Euler-dual grade. Agents must retain
+`delta(OE)=(delta O)E+O delta E`: coefficient motion vanishes because `E=0`,
+not because observation is frozen. The Green/preboundary contact term remains
+separate and nonzero. The complete first prolongation has rank `770/784`; its
+fourteen-dimensional cokernel is exactly the divergence-shaped family
+`sum_lambda partial_lambda E_(lambda,a)`. Build must not label that family
+source gauge, nonlinear Bianchi, propagated constraints or BV cohomology
+until the complete lower-order/moving-coefficient Euler owner and source
+Noether/BV differential carry it. Higher Spencer and symplectic reduction
+remain downstream.
+
 The parameter-jet affine successor closes the raw rank-25 Lorentz-trace burden
 without a new object. For an adjoint field, the connection terms in `D_mu
 D_nu` contribute exactly the negative of the raw `partial_mu partial_nu eta`

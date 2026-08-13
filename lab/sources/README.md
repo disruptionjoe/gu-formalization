@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-observation-contact-spencer-source-return-2026-08-13.md`](selected-k77-i2b-observation-contact-spencer-source-return-2026-08-13.md)
+  - confirms rich observation and affine connection/covariant-derivative
+    grammar; returns source-silent on stationary equation-dual no-reopening,
+    the exact `770/784` first prolongation and ownership of its fourteen
+    divergence-shaped compatibility rows.
+
 - [`selected-k77-i2b-parameter-jet-affine-ward-source-return-2026-08-13.md`](selected-k77-i2b-parameter-jet-affine-ward-source-return-2026-08-13.md)
   - confirms the affine Maurer-Cartan connection and covariant-derivative
     grammar; returns source-silent on the selected real-K77 rank-25-to-zero

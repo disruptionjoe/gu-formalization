@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B observation/contact and first Spencer gate (2026-08-13)
+
+`conditional-build/selected-k77-i2b-observation-contact-spencer-2026-08-13.md`
+proves that complete equation observation cannot reopen a covariantly closed
+stationary Euler row while retaining the separate nonzero preboundary owner.
+The exact first prolongation has rank `770/784`; its entire fourteen-
+dimensional cokernel is the divergence-shaped family
+`sum_lambda partial_lambda E_(lambda,a)`. Nonlinear Bianchi/Noether/BV
+ownership, higher Spencer, global domains and symplectic reduction stay open.
+
 ## K77 I2B parameter-jet affine Ward closure (2026-08-13)
 
 `conditional-build/selected-k77-i2b-parameter-jet-affine-ward-2026-08-13.md`
