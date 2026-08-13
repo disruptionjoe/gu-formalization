@@ -7,6 +7,21 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B LOCAL STATIONARY BIANCHI-JET WITNESS (ledger
+> no-change).** An exact sparse rational symmetric connection two-jet with
+> fourteen nonzero coefficients cancels all `196` cells of the frozen selected
+> Euler covector at the base point. It is realized by a quadratic local
+> connection perturbation and passes all `5,096` componentwise linear Bianchi
+> checks. The `196 x 392` map has rank `196`, so the stationary jets form a
+> `196`-dimensional affine fibre. **Do not ask the source action to choose a
+> unique classical history or book that fibre as theory residue. Next prolong
+> the actual rank-25 `Cl2` source gauge/BV distribution to this symmetric
+> two-jet equation, compute the quotient/intersection, and run the first
+> Spencer/formal-integrability gate with moving `Q_B`, `H_q` and observation.**
+> A local stationary jet is not yet a solution germ, global field, phase space,
+> spectrum or physical carrier. No ledger, verdict, accounting, datum, canon or
+> posture move.
+
 > **2026-08-13 K77 I2B LOWER-ORDER EXACT-FORM LIFT (ledger no-change).**
 > The fourteen-dimensional non-gauge exact-form family remains the exact
 > principal Hessian kernel, but it is **not** a kernel of the full linearized
@@ -15,11 +30,11 @@ updated_at: "2026-08-13"
 > generic non-null and null covectors; the derivative/lower-order cross block
 > vanishes. This does not remove the principal null cone and is not a physical
 > spectrum because the branch is nonstationary on the full 196-cell bank.
-> **Do not run another frequency scan or relabel the lift as gauge fixing.
-> Next construct a source/action-owned full stationary jet, recompute its full
-> Hessian, then induce the actual rank-25 source BV distribution on the
-> action-owned physical carrier.** No ledger, verdict, accounting, datum,
-> canon or posture move.
+> **Do not run another frequency scan or relabel the lift as gauge fixing.**
+> The local stationary-jet successor above now closes the base-point existence
+> gate; proceed through formal prolongation and the actual rank-25 source BV
+> distribution before any physical-carrier spectrum. No ledger, verdict,
+> accounting, datum, canon or posture move.
 
 > **2026-08-13 K77 I2B PRINCIPAL-DEGENERACY RETYPE (ledger no-change).** The
 > coefficientwise `14 -> 196 -> 196 -> 14` principal differential complex and

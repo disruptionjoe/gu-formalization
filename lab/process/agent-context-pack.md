@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current local stationary Bianchi-jet witness (ledger no-change):** an exact
+> sparse rational symmetric two-jet with fourteen nonzero coefficients cancels
+> the entire 196-cell frozen selected I2B Euler covector at the base point. It
+> is realized by a quadratic local connection perturbation and passes 5,096
+> componentwise Bianchi checks. The `196 x 392` map has rank 196, leaving a
+> 196-dimensional affine stationary-jet fibre. This is solution-jet freedom,
+> not 196 external theory parameters; an action need not choose one unique
+> classical history. Rank one is now the first Spencer/formal-integrability
+> gate together with prolongation of the actual rank-25 `Cl2` source gauge/BV
+> distribution and moving `Q_B`, `H_q` and observation. No local/global
+> solution, phase space, spectrum or physical carrier is yet established.
+
 > **Current lower-order exact-form lift (ledger no-change):** the fourteen
 > non-gauge `Cl1` exact-form directions remain the exact principal Hessian
 > kernel, but the complete owned lower-order action Hessian lifts them with

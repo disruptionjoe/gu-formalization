@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B local stationary Bianchi-jet witness (2026-08-13)
+
+`conditional-build/selected-k77-i2b-local-stationary-bianchi-jet-witness-2026-08-13.md`
+constructs one exact fourteen-coefficient rational symmetric connection
+two-jet that cancels all 196 frozen selected Euler cells at the base point and
+passes 5,096 componentwise Bianchi checks. The rank-196 map from 392 jet
+variables leaves a 196-dimensional affine fibre. This retypes the next burden
+from unique source selection to formal integrability plus prolonged source-
+gauge/BV and physical quotient; no ledger or verdict moves.
+
 ## K77 I2B lower-order exact-form lift (2026-08-13)
 
 `conditional-build/selected-k77-i2b-lower-order-exact-form-lift-2026-08-13.md`

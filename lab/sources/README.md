@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-local-stationary-bianchi-jet-source-return-2026-08-13.md`](selected-k77-i2b-local-stationary-bianchi-jet-source-return-2026-08-13.md)
+  - confirms `SC-ACT-04` connection/residual-square ownership; returns source-
+    silent on the exact rational stationary jet, its formal prolongation and
+    globalization; and attributes the local witness plus affine-fibre count to
+    the repository.
+
 - [`selected-k77-i2b-lower-order-exact-form-lift-source-return-2026-08-13.md`](selected-k77-i2b-lower-order-exact-form-lift-source-return-2026-08-13.md)
   - confirms `SC-ACT-04` residual-square ownership; returns source-silent on
     the selected real-K77 lower-order Hessian and exact-form lifting; and

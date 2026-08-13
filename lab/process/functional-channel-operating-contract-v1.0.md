@@ -62,15 +62,27 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The local stationary Bianchi-jet successor constructs the representative that
+v0.236 left open. A sparse rational symmetric two-jet with fourteen nonzero
+coefficients cancels all 196 frozen selected Euler cells at the base point,
+is realized by a quadratic local connection perturbation and passes all 5,096
+componentwise linear Bianchi checks. The `196 x 392` map has rank 196 and thus
+a 196-dimensional affine solution fibre. Build must not turn that fibre into
+theory residue or require the action to select a unique classical history.
+Its next gate is first formal/Spencer prolongation plus the jet prolongation of
+the actual rank-25 `Cl2` source gauge/BV distribution, followed by moving
+`Q_B`/`H_q`/observation compatibility. Global descent, preboundary data and
+physical-carrier comparison remain downstream.
+
 The v0.236 holonomic-jet theorem preserves v0.235's pointwise curvature-value
 kill but proves the distinct derivative-dependent route is locally available.
 The timelike I2B principal block has rank 182 and misses the target; the
 symmetric `(0,1)` mixed block completes the observed second-jet image to the
 full 196-dimensional real field cotangent, which contains the target. Build
-must not rerun image hunting or equate surjectivity with selection. Its next
-bosonic gate is one source-owned stationary jet with nonlinear Bianchi,
-nonconstant atlas, observation, lower-order moving-`Q_B` and preboundary/BV
-closure. Nonzero fermions and full-field BV remain separate.
+must not rerun image hunting or equate surjectivity with selection. The local
+stationary-jet successor above closes base-point existence and retypes the
+remaining burden as formal integrability plus physical quotient. Nonzero
+fermions and full-field BV remain separate.
 
 The principal-constraint quotient successor sharpens v0.236 without migrating
 the ledger. The timelike block has a fourteen-dimensional cokernel and the
