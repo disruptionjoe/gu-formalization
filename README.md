@@ -21,6 +21,7 @@ labels.
 
 ## Start Here
 
+- **Current branch-relative state:** `CURRENT-STATE.yaml`
 - **Research posture:** `RESEARCH-POSTURE.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`

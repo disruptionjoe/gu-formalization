@@ -1,0 +1,30 @@
+schema_version: "1.0"
+repository: gu-formalization-research
+branch: codex/gu-frontier-runs-2026-06-24
+revision_basis: 91ca4e3cbfe4fb4e3475b0aec04b33fe66666de0
+purpose: >-
+  Reconstruct, extend, or falsify Geometric Unity with explicit assumptions,
+  reproducible tests, and honest scientific status.
+current_result:
+  status: exploratory_rs_sector_evidence
+  summary: >-
+    This branch preserves ten executable Rarita-Schwinger ghost, BV bicomplex,
+    compensator, null-cone, and gimmel-curvature research tests; their presence
+    is evidence for further verification, not a branch-wide verdict upgrade.
+  evidence:
+    - tests/rs_bicomplex_explicit_koszul_tate_bicomplex.py
+    - tests/rs_ghost_full_bv_bicomplex_koszul_tate.py
+    - tests/rs_gimmel_curvature_physical_section_c2.py
+current_question: >-
+  Which RS-sector structures survive independent reproduction and connect to
+  the branch's declared source-to-index and physical-carrier obligations?
+acceptance:
+  - RESEARCH-POSTURE.md
+  - RESEARCH-STATUS.md
+contribution_path:
+  - CONTRIBUTING.md
+  - NEXT-STEPS.md
+next_condition: >-
+  Reproduce and classify the added tests against the branch's existing claim
+  and source boundaries before using them to promote any RS or GU conclusion.
+what_needs_joe: none
