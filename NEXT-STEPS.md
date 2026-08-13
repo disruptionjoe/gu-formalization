@@ -7,6 +7,28 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 LANE A DRAIN PASS COMPLETE — 8 live items recovered from a
+> three-week-stale mailbox.** Record:
+> `explorations/lane-a-mailbox-drain-pass-2026-08-13.md`. All 26 queued
+> notes read, dispositioned and archived with receipts (9 ABSORBED,
+> 3 SUPERSEDED, 1 DECLINE, **8 STILL-LIVE**). Cheapest live items, in
+> order: (1) the **Nguyen/Polya objection -> spec-row crosswalk**, written
+> 2026-07-29 and never used — zero files contain both `SA-U1` and
+> `Nguyen` — which fills the open second clause of the 2026-08-12 verdict
+> doctrine; (2) `(2,2)` as a stratum of Met, a three-line comparator edit;
+> (3) the **ghost-parity / Faddeev-Popov collision at canon grade** in
+> `canon/ghost-parity-krein-synthesis.md`; (4) a one-clause W188 scope
+> answer. Also recovered: the `RP^3`/16-cell `F2` UNSAT halves are BOTH
+> in-repo and were never joined (cheapest un-landed item in the pass), and
+> a FRAME-SENSITIVE/PROPOSED overlap between an 08-10 deferred Krein
+> screen and the 08-12 descended `H^0` inertia `(96,96,0)`.
+> **Measured cost of the stale queue:** the 07-27 signature-stratification
+> note had its Points 1-2 independently re-derived twelve days later at
+> EXACT grade — a duplicated derivation, NOT a lost fork resolution.
+> **Stewardship finding:** absorption here is content-addressed, not
+> path-addressed — four already-decided notes were cited zero times by
+> filename, so a filename-keyed drain would have wrongly re-opened them.
+
 > **2026-08-13 K77 I2B CONSTANT-PARAMETER MOVING-SHIAB WARD CLOSURE
 > (ledger no-change).** The frozen rank-90 constant-parameter response is not
 > an obstruction. Moving `Phi1/Phi2`/Shiab has rank 90 but leaves rank 24; the
