@@ -2,12 +2,8 @@
 artifact_type: construction_and_composition_result
 created: 2026-08-09
 status: BOTH_ALGEBRAIC_BRANCHES_LOCAL_SELECTED_SOURCE_STATIONARY__AMPLITUDE_AND_COMPLETE_PARENT_TANGENT_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 source-tangent branch stationarity

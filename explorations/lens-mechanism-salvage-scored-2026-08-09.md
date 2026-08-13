@@ -6,9 +6,7 @@ status: TEN_MECHANISMS_SALVAGED_AND_SCORED__THREE_INDEPENDENT_CROSS_DISTANCE_CON
 grade: "TRIAGE / METHOD. No computation was run. Every underlying fact is already in canon, in test output, or
   in this session's run receipt; the contribution is recovering the MECHANISM half of each lens (the part
   compression discarded) and ranking by a stated rubric. Scores are judgements, not measurements."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 follows:
   - explorations/twentyfive-lens-what-is-a-generation-2026-08-09.md
   - explorations/run-monodromy-frame-charge-preflight-hostile-2026-08-09.md

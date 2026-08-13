@@ -3,14 +3,11 @@ artifact_type: exploration
 status: exploration
 doc_type: deciding-check-result
 created: 2026-08-04
-lane: "1"
 work_item: DC-H2-RECIPROCITY-AND-THE-ZU-BLOCK-RATIO
 title: "DC-H2 executed: does reciprocity (self-adjointness of the source pairing under GU's own Krein/C structure) fix Z_U's (c_b : c_f) block ratio on the A3 configuration? VERDICT: outcome (c) FREE, with the only sharpening that could have bitten shown CIRCULAR. Reciprocity is satisfied identically on the whole (c_b : c_s : c_f) family; the condition is invariant under exactly the blockwise congruence group whose orbits ARE the block ratios. H2 is DEAD as filed and the BLOCKED-ON-A4 statement is CONFIRMED, not weakened."
 grade: "EXACT RATIONAL CERTIFICATE / deciding check for a preregistered hypothesis / pre-deposit, J5-gated. Script tests/de-certification/dch2_reciprocity_and_zu_block_ratio.py, 35/35, exit 0, hard asserts with exit coupling, no float on any asserted claim (P-H29 satisfied by construction). Nothing here moves a claim, canon entry, verdict, bar, H59, the count, LANE-STATE, or any fork. The three by-products (a 3-to-1 reduction of the A4 residue; the residue's type as a LENGTH; one VERIFIED_REPO_DISCONNECT between W230's text and W203 KER4) are reported to the register owner, not edited in."
 source: "DC-H2 as preregistered in explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md (outcomes FROZEN there, not refitted here); Joe-authorized 2026-08-04."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 depends_on:
   - explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md
@@ -21,7 +18,7 @@ depends_on:
   - explorations/geometry-curvature-emergence/ii-s-coordinate-formula-2026-06-23.md
   - explorations/gimmel-dewitt-normalization-ledger-2026-07-20.md
   - canon/theta-field-flrw-dark-energy-eos.md
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
 scripts:
   - tests/de-certification/dch2_reciprocity_and_zu_block_ratio.py
 ---

@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_result
 created: 2026-08-10
-run_id: RUN-20260810-221700-gu-k77-high-conviction-receiver-completion
 status: exact_conditional_result
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 high-conviction receiver-completion comparison

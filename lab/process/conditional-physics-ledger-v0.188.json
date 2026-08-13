@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.188 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; finite nonlinear graph reduction and atlas descent are exact, while the action-owned stabilizer cocycle/full epsilon_IG flag and lower-order BV/KT remain"
   },
-  "updated_by": "RUN-20260812-003609-gu-k77-finite-section-projector-atlas-descent",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

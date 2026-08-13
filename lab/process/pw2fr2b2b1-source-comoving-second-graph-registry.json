@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260803-070259-gu-formalization-pw2fr2b2b1-source-comoving-graph",
+  "run_id": "historical-investigation",
   "gate": "PW2F-R2B2B1-SOURCE-SPLIT-AND-COMOVING-SECOND-GRAPH-PREREQUISITE",
   "status": "SCOPED_FINITE_SOURCE_SPLIT_AND_COMOVING_SECOND_GRAPH_PASS_COMPLETE_C5_C4_OPEN",
   "columns": {

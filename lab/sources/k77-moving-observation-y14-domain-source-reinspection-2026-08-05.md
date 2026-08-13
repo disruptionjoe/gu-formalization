@@ -2,7 +2,6 @@
 title: "Source reinspection: moving observation, multiple-time domain, stress energy and dynamic dark energy"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CORRECTS_STANDARD_AMBIENT_CAUCHY_ASSUMPTION__SOURCE_CONFIRMS_PULLBACK_DYNAMIC_DARK_ENERGY_AND_AUGMENTED_TORSION_DIRECTION__SOURCE_STATES_UP_AND_BACK_STRESS_ENERGY_UNFINISHED__SOURCE_SILENT_ON_JET_DUAL_AND_CONSTRAINED_DOMAIN
 ---
 

@@ -42,7 +42,7 @@ assert result["result"]["rank_four_available"] is False
 assert result["result"]["all_current_commutators_zero"] is True
 assert result["result"]["nonhomogeneous_successor_open"] is True
 assert "constant_section_totally_geodesic_shortcut_rejected" in result["controls"]
-contract = load(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+contract = load(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
 assert contract["current_priority_decision"]["main_sequence"][0] == (
     "BUILD_SMALLEST_ACTION_STATIONARY_NONHOMOGENEOUS_REDUCED_CURVATURE_PLUS_FULL_II_ORBIT_AND_RETEST_H_Q_GAP_POLAR_STABILIZER"
 )
@@ -56,13 +56,13 @@ for row_id in result["ledger_rows"]:
     assert "selected-k77-action-concomitant-residual-flag-gate-2026-08-12.md" in evidence
 
 for pointer in (
-    ROOT / "LANES.yaml",
+    ROOT / "lab/process/RESEARCH-AGENDA.json",
     ROOT / "NEXT-STEPS.md",
     ROOT / "RESEARCH-STATUS.md",
     ROOT / "lab/process/README.md",
-    ROOT / "lab/process/agent-context-pack.md",
-    ROOT / "lab/process/functional-channel-operating-contract-v1.0.md",
-    ROOT / "lab/process/functional-channel-operating-contract-v1.0.json",
+    ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+    ROOT / "lab/methods/research-evidence-contract-v1.0.md",
+    ROOT / "lab/methods/research-evidence-contract-v1.0.json",
 ):
     assert "v0.190" in pointer.read_text(encoding="utf-8"), pointer
 

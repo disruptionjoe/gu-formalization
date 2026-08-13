@@ -2,13 +2,9 @@
 artifact_type: exact_construction_composition_and_scoped_kill_result
 created: 2026-08-10
 status: CURRENT_NONZERO_SOURCE_FAMILY_NOT_SU2PLUS_REDUCED__DBP_SPLIT_PRESERVATION_INSUFFICIENT__PROJECTED_ACTION_REPLACEMENT_UNBUILT
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_SILENT_P3_SOURCE_DIAGONAL_AND_RESTRICTED_ACTION__SOURCE_CORRECTS_SELF_DUALITY_AS_EINSTEINIAN_NOT_BARE_YANG_MILLS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 P3 self-dual source reduction

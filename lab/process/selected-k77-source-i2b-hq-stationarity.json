@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-090014-gu-source-i2b-hq-stationarity",
+  "run_id": "historical-investigation",
   "ledger_version": "0.201",
   "lane": "1",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

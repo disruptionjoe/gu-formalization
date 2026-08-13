@@ -2,10 +2,7 @@
 title: "Selected K77 southeast-zero graph and lower-left gate"
 status: exact_scoped_negative_result
 date: 2026-08-10
-run_id: RUN-20260810-100555-gu-k77-graph-lower-left-gate
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 southeast-zero graph and lower-left gate

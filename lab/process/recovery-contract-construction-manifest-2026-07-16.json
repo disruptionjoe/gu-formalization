@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "created": "2026-07-16",
-  "run_id": "GUH-20260716T050951Z-recovery-contract",
+  "run_id": "historical-investigation",
   "source_revision": "159ca76",
   "artifact_role": "Process-grade construction identity manifest for the RECOVERY-CERTIFICATION lane. It freezes the current evidence boundary for recovery-contract work; it does not establish recovery, change claim grade, or authorize external action.",
   "selected_lane": "RECOVERY-CERTIFICATION",

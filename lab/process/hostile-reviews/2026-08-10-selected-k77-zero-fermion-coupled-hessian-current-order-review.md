@@ -4,9 +4,7 @@ created: 2026-08-10
 subject: SELECTED-K77-ZERO-FERMION-COUPLED-HESSIAN-CURRENT-ORDER
 verdict: SURVIVES_WITH_SCOPE__DERIVATIVE_ORDER_THEOREM_ONLY
 review_mode: INLINE_EIGHT_LENSES_PLUS_THREE_CHARGES
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: zero-fermion coupled Hessian and current order

@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-000025-gu-k77-canonical-section-jet-cartan-spin-prolongation
 return_code: SOURCE_CONFIRMS__SOURCE_CORRECTS__SOURCE_SILENT
 ---
 

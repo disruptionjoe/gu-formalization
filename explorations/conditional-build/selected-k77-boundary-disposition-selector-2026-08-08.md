@@ -4,9 +4,7 @@ created: 2026-08-08
 status: SOURCE_AND_LOCAL_ACTION_DO_NOT_SELECT_BOUNDARY_DISPOSITION__CONDITIONAL_FULL_BOUNDARY_GAUGE_PLUS_NONZERO_MOMENTUM_SELECTS_MINIMAL_EDGE_HORN
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 physical-boundary disposition selector

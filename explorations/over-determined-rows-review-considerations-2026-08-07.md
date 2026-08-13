@@ -8,9 +8,7 @@ grade: "READING AND REVIEW ONLY. No computation was performed, no certificate wa
   check that would settle it. Nothing here is citable as a result until its
   named check is executed."
 ledger: lab/process/conditional-physics-ledger-v0.39.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 queue_change: none
 row_change: none
@@ -18,7 +16,7 @@ residue_touched: []
 deposit: "PRE-DEPOSIT. No item may move a row, verdict, distance, revival trigger
   or residue count until it is executed and hostile-reviewed under the standing
   2026-08-03 rule."
-provenance: "Joe-directed inline review, 2026-08-07: a 25-lens persona sweep plus a
+provenance: "Joe-directed inline review, 2026-08-07: a 25-lens perspective sweep plus a
   program-efficiency council seat set, run against the six OVER_DETERMINED rows.
   Conversational in origin; deposited here so the findings survive the session."
 ---
@@ -126,7 +124,7 @@ should always have carried.
 (`58.72`, `169.19`, `215.85`). A norm presupposes an inner product, and on an
 indefinite space a nonzero vector can carry zero Krein norm. If these are
 Euclidean norms, the row imports the positive-Hilbert structure the program
-refuses elsewhere (see the standing decision default in `LANE-STATE.yaml`).
+refuses elsewhere (see the standing decision default in `CURRENT-STATE.yaml`).
 *Check:* read the norm definitions in the cited probe. One read; could void or
 confirm the row.
 

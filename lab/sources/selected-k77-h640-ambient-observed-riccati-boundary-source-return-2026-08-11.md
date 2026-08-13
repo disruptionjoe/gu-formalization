@@ -2,10 +2,7 @@
 title: "Source return: K77 H640 ambient/observed Riccati boundary"
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-215742-gu-k77-h640-ambient-observed-riccati-boundary
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return

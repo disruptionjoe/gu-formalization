@@ -2,13 +2,9 @@
 artifact_type: exact_construction_composition_and_kill_result
 created: 2026-08-10
 status: SOURCE_OWNED_A0_BITORSOR_GLOBALIZES_BUT_SELECTS_ZERO__NONZERO_RELATIVE_INTEGER_AND_REAL_PAIRING_UNOWNED__EXPLICIT_EXTERNAL_DATUM_ROUTE_LIVE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_DISTINGUISHED_A0_SAME_P_H_AND_TILTED_BULK_GRAMMAR__SOURCE_SILENT_RELATIVE_CHIRAL_REDUCTION_LARGE_GAUGE_COMPONENT_REAL_PAIRING_AND_BOUNDARY_DISPOSITION
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 relative chiral-transgression ownership

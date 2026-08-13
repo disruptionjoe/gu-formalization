@@ -4,13 +4,11 @@ status: active_research
 doc_type: design_packet
 artifact_type: design_packet
 created: 2026-08-11
-run_id: RUN-20260811-234500-gu-five-frontier-design-packets
-lane: "1"
 target: "B5 five-field native packet (slot-pairing phases, coflip linearity/phases, formal-adjoint sign, program-native Green form, common closed domain)"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 reviewed_at_revision: bdd2c934335e6e534d4e0f9e7f55d7678eb566d8 (agent/operator-anomaly-big-swing, 2026-08-11)
 relates_to:
-  - lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md (the blocking audit)
+  - archived private execution record (the blocking audit)
   - explorations/shiab-operator/b5-native-phase-domain-packet-contract-2026-07-25.md (+ tests/shiab_b5_native_packet_contract.py)
   - explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md
   - explorations/shiab-operator/b5-krein-mirror-orbit-reduction-2026-07-25.md
@@ -39,17 +37,15 @@ binding: >-
   implements the decisive checks independently, and certifies or refutes
   them. Lens outputs below are planning evidence, never scientific evidence.
 hostile_review: lab/process/hostile-reviews/2026-08-11-b5-five-field-packet-design-review.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
 The interior program's `B5-INDEPENDENT-RECONSTRUCTION` has been BLOCKED since
 the 2026-07-29 source audit at "the five-field native operator/domain packet"
-(`LANE-STATE.yaml:12-14`), under the standing decision default
-(`LANE-STATE.yaml:19-24`): require the five-field native packet before
+(`CURRENT-STATE.yaml:12-14`), under the standing decision default
+(`CURRENT-STATE.yaml:19-24`): require the five-field native packet before
 selecting any B5 coefficient space; no FD-read null or kill is citable until
 certified with exact derivatives or interval arithmetic (P-H29); no imposed
 positive-Hilbert wall substitutes for a target-blind dynamical selector. The
@@ -151,7 +147,7 @@ Failure modes this packet could commit, and the mitigations applied:
   finite algebra does not license choosing them; the fail-closed contract
   rejects the all-unfrozen packet and both hostile substitutions
   (positive-Hilbert; unspecified Green form)
-  (`GUH-20260729T131135Z.../run-plan.md`, "Execution and result").
+  (`historical-investigation/run-plan.md`, "Execution and result").
 - The certified algebra beneath it: 136 ordered complex cells on 20 slots
   (1920 dims); 68 adjoint edges; 39 joint `<T,M>` orbits = 29 four-cell + 10
   special two-cell; linear coflip gives (68,68); antilinear gives
@@ -230,7 +226,7 @@ Failure modes this packet could commit, and the mitigations applied:
   EQUAL, so `k in {0,10}` — endpoints only
   (`lab/process/improvement-register-2026-08-03.md:161`).
 - The last interior positive control remains the 2026-07-26 imposed-wall
-  comparator (`LANE-STATE.yaml:55-57`): a standard-field, positive-Hilbert
+  comparator (`CURRENT-STATE.yaml:55-57`): a standard-field, positive-Hilbert
   wall HOSTS a supplied `N=3` and does not select it; the return is typed
   `IMPOSED_BOUNDARY_HOSTING`, and target-coding is detected
   (`imposed-wall-triplet-comparator-2026-07-26.md`).
@@ -594,10 +590,10 @@ formal Green form).
 - The recorded reason: BLOCKED at the five-field packet (2026-07-29 audit)
   plus the RB7 kill, with the new acceptance rules holding the door shut —
   "do not cite an FD-read null or kill until it is certified ... (P-H29)"
-  (`LANE-STATE.yaml:19-24`); "no interior claim was manufactured to keep
-  the lane green" (`LANE-STATE.yaml:52-54`); recommendation on record:
+  (`CURRENT-STATE.yaml:19-24`); "no interior claim was manufactured to keep
+  the lane green" (`CURRENT-STATE.yaml:52-54`); recommendation on record:
   build the packet via M-H10 and recertify RB6/RB7/W177 (M-C2) "before
-  admitting any new interior wave (P-H29)" (`LANE-STATE.yaml:62-65`).
+  admitting any new interior wave (P-H29)" (`CURRENT-STATE.yaml:62-65`).
 - The structural reason: the wave-scheduling rule (P-H28) makes prerequisite
   fields batch rather than spawn runs, and the cadence's queue is
   re-authored every wave from the latest gate — so when the frontier moved

@@ -2,7 +2,6 @@
 title: "Hostile review: I2B residual ownership and two-connection tangent independence"
 status: hostile-review-complete
 created: 2026-08-12
-run_id: RUN-20260812-231349-gu-i2b-two-connection-tangent-independence
 verdict: SURVIVES_AS_SOURCE_TYPING_CORRECTION_AND_SCOPED_BACKGROUND_ROUTE_KILL
 ---
 

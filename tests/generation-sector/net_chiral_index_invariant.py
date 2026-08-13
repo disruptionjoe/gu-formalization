@@ -19,7 +19,7 @@ Claims verified:
   (C) supertrace diagnostic: Re tr(Pi_P Gamma) = 0 on the K-orthonormal (spectral) representative.
       NOTE: tr(Pi_P Gamma) with the STANDARD-orthogonal projector is representative-dependent (a
       Krein isometry is not a standard unitary), so it is NOT the invariant -- the dimension
-      difference chi = dim pi_+(P) - dim pi_-(P) is what is conserved. The run prints the
+      difference chi = dim pi_+(P) - dim pi_-(P) is what is conserved. The investigation prints the
       post-isometry value to make this visible.
   (D) NON-TRIVIALITY CONTROL: for a grading-ALIGNED (Hilbert, non-cross) form K=diag(I,-I)
       the same definition gives chi = +96 (a maximally chiral configuration). So chi is a

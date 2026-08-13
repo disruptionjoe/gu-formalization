@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-08
 verdict: PHYSICAL_WARD_CLOSURE_SURVIVES__ARBITRARY_DEPSILON_AND_ACTION_EULER_NOT_PROMOTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: source-native K77 physical Ward closure

@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.203"
-run_id: RUN-20260812-110014-gu-i2b-full-unitary-image-covariance
 ---
 
 # Conditional physics ledger v0.203

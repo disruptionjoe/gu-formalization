@@ -16,7 +16,7 @@
   "manifest_boundary": "the integrating agent deposited counts and differential disposition but not a durable per-gate identifier list; this record does not reconstruct one after the fact",
   "source_evidence": [
     "git commit 4968884e5978874fca8c3e9a5df4209cb77473f1",
-    "/Users/joe/Brain/memory/log.md branch-integration entry"
+    "private continuity record branch-integration entry"
   ],
   "use": "baseline debt for later gate cleanup and regression comparison",
   "forbidden_use": "do not assert that exactly 49 gates fail on the current repository head",

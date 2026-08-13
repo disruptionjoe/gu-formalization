@@ -4,9 +4,7 @@ created: 2026-08-06
 status: SELECTED_FIXED_METRIC_EPSILON_PREBOUNDARY_COMPOSED__COMPACT_DIRICHLET_GREEN_EXACT__UNRESTRICTED_GLOBAL_BFV_OPEN
 channels: [COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected first-order epsilon / preboundary composition

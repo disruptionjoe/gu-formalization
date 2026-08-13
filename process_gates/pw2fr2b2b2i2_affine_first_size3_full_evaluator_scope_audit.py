@@ -26,7 +26,7 @@ def main() -> None:
 
     assert data["gate"] == "PW2F-R2B2B2I2-AFFINE-FIRST-MOVING-FIRST-SIZE3-FULL-EVALUATOR"
     assert data["status"] == "AFFINE_FIRST_MOVING_CERTIFIED__FIRST_SIZE3_ORBIT_CERTIFIED__DURABLE_3_OF_380__UNIVERSAL_377_OPEN"
-    assert data["run_id"] == "RUN-20260805-074524-gu-formalization-pw2fr2b2b2i2-affine-first-size3"
+    assert data["run_id"] == "historical-investigation"
     assert data["coverage"] == {
         "joint_labels": 1925,
         "canonical_representatives": 380,

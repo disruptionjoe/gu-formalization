@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260811-191942-gu-k77-variable-incoming-projector-descent",
+  "run_id": "historical-investigation",
   "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN_OBSERVED_VARIABLE_PRINCIPAL_SYSTEM",
   "checks": {
     "total": 63,

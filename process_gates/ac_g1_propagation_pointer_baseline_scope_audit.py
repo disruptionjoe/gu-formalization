@@ -36,7 +36,7 @@ def check(label, condition):
 result = strict("lab/process/ac-g1-propagation-pointer-baseline.json")
 baseline = strict("lab/process/branch-integration-inherited-failure-baseline-2026-08-07.json")
 campaign = strict("lab/process/eric-curt-ten-wave-campaign.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 canon = (ROOT / "CANON.md").read_text(encoding="utf-8")
 status = (ROOT / "RESEARCH-STATUS.md").read_text(encoding="utf-8")
 

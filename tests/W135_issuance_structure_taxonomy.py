@@ -10,7 +10,7 @@ signature, (3) confronts each with the repo's verified data machinery (wave46
 H46C theta_star calibration + wave29 raw DESI DR2 BAO likelihood, both imported
 VERBATIM, not re-implemented), and (4) nails the measured rate for the survivors.
 
-TWO ACCOUNTING CONVENTIONS (stated up front; the theorist persona's first result).
+TWO ACCOUNTING CONVENTIONS (stated up front; the theorist perspective's first result).
   Convention A (covariant source): issuance = Q in the sourced continuity equation
       rho' + 3H(1+w)rho = Q       (rho' = d rho/dt; carrier taken vacuum-like,
                                    w = -1, so rho' = Q exactly)

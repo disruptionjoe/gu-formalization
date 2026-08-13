@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.183 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; H640 is an exact rank-128 action-derived graph over the coordinate observed carrier with principal no-leakage, not the coordinate carrier itself; complete lower-order graph/Riccati, barred adjoint, BV/KT and global closure remain open"
   },
-  "updated_by": "RUN-20260811-205442-gu-k77-h640-observation-pullback-bv-typing",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 4,

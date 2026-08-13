@@ -38,7 +38,7 @@ def check(kind: str, label: str, condition) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.188.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.187.json")
 result = strict("lab/process/selected-k77-finite-section-projector-atlas-descent.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.188"
@@ -104,7 +104,7 @@ check("routing", "action-owned full flag precedes lower-order BV",
 for relative, needles in {
     "NEXT-STEPS.md": ["v0.188", "eta-self-adjoint", "stabilizer cocycle"],
     "RESEARCH-STATUS.md": ["v0.188", "fractional atlas", "epsilon_IG"],
-    "lab/process/agent-context-pack.md": ["Current v0.188", "null Gram boundary", "P1/P2/P3"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.188", "null Gram boundary", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-12-selected-k77-finite-section-projector-atlas-descent-review.md": ["SURVIVES_SCOPED", "Symplectic", "mistyped"],
     "lab/sources/selected-k77-finite-section-projector-atlas-descent-source-return-2026-08-12.md": ["SOURCE_CONFIRMS", "SOURCE_SILENT", "SOURCE_CORRECTS"],
 }.items():

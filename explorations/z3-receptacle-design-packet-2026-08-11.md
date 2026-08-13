@@ -3,8 +3,6 @@ title: "Design packet: the dim-13 Z/3 count receptacle — the mathematical rout
 status: active_research
 doc_type: design_packet
 created: 2026-08-11
-run_id: RUN-20260811-234500-gu-five-frontier-design-packets
-lane: "1"
 target: dim-13 Z/3 count receptacle
 head_commit: bdd2c934335e6e534d4e0f9e7f55d7678eb566d8
 relates_to:
@@ -30,9 +28,7 @@ binding: >-
   decisive check independently; nothing here is scientific evidence, and the
   lens sections below are planning evidence only.
 hostile_review: lab/process/hostile-reviews/2026-08-11-z3-receptacle-design-review.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Design packet: the dim-13 Z/3 count receptacle
@@ -40,7 +36,7 @@ public_posture_change: none
 The three-generations headline claim is blocked on exactly one mathematical
 object: a Z/3-valued count invariant that could actually exist in the
 program's 13-dimensional boundary setting. The standing anchor fact
-(`lab/process/agent-context-pack.md:1675-1678`, verified verbatim at
+(`lab/process/CURRENT-RESEARCH-CONTEXT.md:1675-1678`, verified verbatim at
 `head_commit`):
 
 > COUNT<->BOUNDARY: interior 2-primary/even; any odd count external by
@@ -174,7 +170,7 @@ Every line cited; grades are the cited files' own.
   inflow/bridge theory, O9 a gate-rewording edit.
 - The multiplicity fence stands: "4+10 is forced (the section's own
   decomposition) and uniquely mod-3-clean ({3^0,3^1,3^2}) — fenced:
-  multiplicity, not index" (`lab/process/agent-context-pack.md`, 2+1
+  multiplicity, not index" (`lab/process/CURRENT-RESEARCH-CONTEXT.md`, 2+1
   mechanism block; detail in `hinge-panel-synthesis` Section 4).
 - The only honest computable generation integer remains 1 (Pati-Salam
   chain), and the count stays OPEN
@@ -183,7 +179,7 @@ Every line cited; grades are the cited files' own.
 ## Route scaffolding
 
 Lens outputs below are planning evidence, never scientific evidence. Run
-inline per the personas-inline rule; no lens output moves anything.
+inline per the perspectives-inline rule; no lens output moves anything.
 
 ### Lens 1 — Stable-homotopy/bordism: where can Z/3 live in dimension 13
 
@@ -343,10 +339,10 @@ outcome naming its missing bridge):
   reproduce interior evenness; land a nonzero class in `Z/3`. Surplus:
   **SURPLUS-UNCOMPUTABLE** — the constraint side cannot be counted until a
   framing-FIXING mechanism is typed. The one in-repo candidate mechanism:
-  the source action supplies the framing (the 63-persona steelman line —
+  the source action supplies the framing (the 63-perspective steelman line —
   "The source action is what fixes a framing, and the framing is what a
   stable homotopy class needs before it becomes a number",
-  `explorations/63-persona-steelman-narratives-2026-07-20.md:122` — planning
+  `explorations/63-perspective-steelman-narratives-2026-07-20.md:122` — planning
   evidence only), refined by atlas H1: the external datum is a HOLONOMY of
   boundary framing data, with preregistered deciding check DC-H1
   (`explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md`).
@@ -508,7 +504,7 @@ that moves a named gate (O3), per the wave-scheduling rule P-H28.
 - **D6 — the non-additive dictionary type statement (B4, typing only).**
   State what a bridge `Z/3 -> Z` must be given that no homomorphism exists
   (a torsor/section/holonomy datum; a source-action-defined dictionary);
-  enumerate the two in-repo candidate mechanisms (63-persona framing line;
+  enumerate the two in-repo candidate mechanisms (63-perspective framing line;
   atlas DC-H1); count the surplus with declared parameters. Outcome:
   either a computable-surplus candidate worth a future wave, or
   `SURPLUS-UNCOMPUTABLE` with the missing bridge named — both are honest.
@@ -602,7 +598,7 @@ is claimed new except the assembly itself):
   `lab/process/anchor-council-2026-08-03/seat3-particle-flavor.md` (E2, Q8
   split).
 - `explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md`
-  (H1/DC-H1) and `explorations/63-persona-steelman-narratives-2026-07-20.md:122`
+  (H1/DC-H1) and `explorations/63-perspective-steelman-narratives-2026-07-20.md:122`
   (framing-from-source-action) — the B1/B4 candidate mechanisms.
 - `explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md` — the
   worked count-vs-multiplicity retraction this packet is calibrated

@@ -1,11 +1,8 @@
 ---
 artifact_type: exact_construction_and_scope_result
 created: 2026-08-11
-run_id: RUN-20260811-001119-gu-k77-fixed-common-receiver-hull
 status: FIXED_COMMON_HULL_RANK384__RANK256_READING_KILLED__ACTION_SELECTION_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 fixed common receiver hull

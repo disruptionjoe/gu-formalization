@@ -4,9 +4,7 @@ created: 2026-08-09
 status: NAIVE_RECONSTRUCTION_HESSIAN_SELECTOR_FALSIFIED__SOURCE_VARPI_RESTRICTIONS_SAME_INERTIA__BOTH_BRANCH_PORTS_REQUIRED
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 branch-Hessian discriminator

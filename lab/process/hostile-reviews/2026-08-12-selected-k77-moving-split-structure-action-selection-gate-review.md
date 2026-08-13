@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-024031-gu-moving-split-structure-action-selection
 verdict: SURVIVES_SCOPED_AFTER_REPAIR__EXACT_INTRINSIC_TORSION_DECOMPOSITION__CURRENT_POINTWISE_ACTION_NONSELECTION_ONLY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: moving split structure and action selection

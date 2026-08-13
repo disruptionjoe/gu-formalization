@@ -2,13 +2,9 @@
 artifact_type: exact_conditional_variational_correction
 created: 2026-08-12
 status: V0208_MATRIX_THEOREM_SURVIVES__AMBIENT_ORBIT_RETYPED__FIBRE_NINE_PLUS_RADIAL_ONE__SOLDERING_FOUR_SEPARATE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_AUTHORIAL_ONE_THREE_PLUS_SIX_FOUR_CARRIER_SPLIT_AND_C32_32_WEYL_SPLIT__SOURCE_SILENT_ON_PPLUS_SUBFAMILY_RANKS__REPO_CORRECTS_V0208_AMBIENT_FIBRE_TYPING
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B ambient/fibre trace-split correction

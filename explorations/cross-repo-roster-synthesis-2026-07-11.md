@@ -1,8 +1,8 @@
 # Cross-Repo Roster Synthesis: what lives BETWEEN the repos (2026-07-11)
 
-Executed 2026-07-13 session. One worker, full roster inline (hard repo rule: no per-persona agents).
+Executed 2026-07-13 session. One worker, full roster inline (hard repo rule: no per-perspective agents).
 Roster: the five-archetype science advisory council (`science-advisory-council-full-picture-2026-07-11.md`)
-+ the five-family two-track sweep (`two-track-persona-sweep-2026-07-11/`: A orthodox/rigor x14,
++ the five-family two-track sweep (`two-track-perspective-sweep-2026-07-11/`: A orthodox/rigor x14,
 B geometric/structural x14, C foundations/observer x13, D wild-frontier x12, E pragmatic/experimental x12).
 Inputs: `cross-repo-survey-taf-ti-2026-07-11.md`, `cross-repo-survey-others-2026-07-11.md`,
 `VERIFICATION.md`, `observer-structure-theorem-assembly-2026-07-11.md` (incl. W110-W114 hardening),
@@ -93,11 +93,11 @@ external-review process. **No canon/verdict/claim-status change anywhere; nothin
   world. Under the one-way rule this is not support for TI; it is a named refinement obligation: TI's
   driving hypothesis must type its H1 criterion by level before mu can make it computable. This is the
   sharpest single between-repo finding of the session.
-- **Relational/RQM persona:** "facts relative, comparisons consistent, no God's-eye state" is Rovelli's
+- **Relational/RQM perspective:** "facts relative, comparisons consistent, no God's-eye state" is Rovelli's
   program; the class-level global section without a global operator is structurally an RQM-shaped
   result. Cite as prior art in any paper — it deflates novelty and simultaneously grounds the claim in
   an existing literature (the novelty is the COMPUTED cohomological form, not the philosophy).
-- **Quantum-foundations persona:** TaF already holds the quantum instance of the same split (T21 —
+- **Quantum-foundations perspective:** TaF already holds the quantum instance of the same split (T21 —
   Bell/CHSH local finality without global section, bounded), so the two-sheaf schema has a quantum leg
   computed independently of GU. Three computed instances (GU model tower, TaF Bell fixture, TI
   fork-discriminator) of one schema would be a genuine cross-layer theorem — IF the schema is written

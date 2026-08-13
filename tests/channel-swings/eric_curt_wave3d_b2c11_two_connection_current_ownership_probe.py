@@ -89,7 +89,7 @@ def source_checks() -> None:
         ROOT / "lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md"
     ).read_text()
     tau = (
-        ROOT / "explorations/hourly-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md"
+        ROOT / "explorations/research-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md"
     ).read_text()
     b2c10 = (
         ROOT / "explorations/eric-curt-wave3d-b2c10-active-current-full-tuple-hessian-2026-08-01.md"

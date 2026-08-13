@@ -8,10 +8,7 @@ grade: >-
   v0.92, not recomputed. Source selection of the action parent, real analytic
   domain, contour, path integral, Green operator and BV/BFV reduction remain
   open.
-run_id: RUN-20260808-212222-gu-k77-operative-pairing-symmetry-closure
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 source_return: SOURCE-CONFIRMS_TWO_C32_32_WEYL_HALVES_AND_SEPARATE_U64_64_PRINCIPAL_GROUP__SOURCE_SILENT_ON_OPERATIVE_RESIDUAL_ACTION_PARENT
 ---
 

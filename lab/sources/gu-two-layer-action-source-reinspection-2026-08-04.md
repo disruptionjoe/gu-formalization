@@ -3,9 +3,7 @@ artifact_type: source_reinspection
 status: complete
 created: 2026-08-04
 topic: GU first-order/second-order action, square-root, and cancellation architecture
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # GU two-layer action and square-root source reinspection

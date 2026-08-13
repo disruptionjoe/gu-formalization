@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.192 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; moving omega/J intrinsic torsion is exact and the compatible connection path exists, while the current pointwise action does not select it and the full-unitary physical block map remains open"
   },
-  "updated_by": "RUN-20260812-024031-gu-moving-split-structure-action-selection",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

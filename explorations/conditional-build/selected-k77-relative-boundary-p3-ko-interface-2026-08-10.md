@@ -2,13 +2,9 @@
 artifact_type: exact_relative_boundary_to_p3_ko_interface_result
 created: 2026-08-10
 status: BOUNDARY_WINDING_TO_P3_RELATIVE_KO_TWIST_MAP_BUILT__NORMALIZATION_AND_RELATIVE_PULLBACK_EXACT__K77_RIGHT_H_PORT_AND_RELATIVE_FREDHOLM_COUNT_READOUT_UNBUILT__STRICT_SURPLUS_REMAINS_ZERO
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_CHERN_SIMONS_LIKE_AND_ROLLED_OPERATOR_ARENAS__SOURCE_SILENT_P3_KO_TWIST_MAP_RELATIVE_FREDHOLM_INDEX_AND_COUNT
 ledger_rows: [RA-F1, LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 relative-boundary/P3 real-KO interface

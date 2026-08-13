@@ -30,7 +30,7 @@ def unique_json(path):
 
 ledger = unique_json(ROOT / "lab/process/conditional-physics-ledger-v0.159.json")
 registry = unique_json(ROOT / "lab/process/selected-k77-high-conviction-receiver-completion.json")
-contract = unique_json(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+contract = unique_json(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-high-conviction-receiver-completion-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-high-conviction-receiver-completion-review.md").read_text()
 source = (ROOT / "lab/sources/selected-k77-high-conviction-receiver-completion-source-return-2026-08-10.md").read_text()
@@ -103,8 +103,8 @@ print("\nD. PROCESS AND EXECUTABLE FENCES")
 check("process", "contract points to v0.159", contract["standing_ledger"]["ref"].endswith("v0.159.json"))
 check("process", "next gate forbids arbitrary receiver projector",
       "NO_ARBITRARY_RECEIVER_PROJECTOR" in registry["next_gate"])
-for path in ["LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
-             "lab/process/agent-context-pack.md"]:
+for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
+             "lab/process/CURRENT-RESEARCH-CONTEXT.md"]:
     check("process", f"{path} names v0.159", "v0.159" in (ROOT / path).read_text())
 check("process", "source index lists new return", "selected-k77-high-conviction-receiver-completion-source-return" in (ROOT / "lab/sources/README.md").read_text())
 check("process", "test manifest lists exact probe", "selected_k77_high_conviction_receiver_completion_probe.py" in (ROOT / "tests/README.md").read_text())

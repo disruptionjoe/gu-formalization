@@ -42,10 +42,10 @@ result = strict("lab/process/selected-k77-polarized-radical-bfv-ownership-gate.j
 report = read("explorations/conditional-build/selected-k77-polarized-radical-bfv-ownership-gate-2026-08-11.md")
 review = read("lab/process/hostile-reviews/2026-08-11-selected-k77-polarized-radical-bfv-ownership-gate-review.md")
 source = read("lab/sources/selected-k77-polarized-radical-bfv-ownership-gate-source-return-2026-08-11.md")
-lanes = read("LANES.yaml")
+lanes = read("lab/process/RESEARCH-AGENDA.json")
 next_steps = read("NEXT-STEPS.md")
 status = read("RESEARCH-STATUS.md")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger advances exactly once", ledger["schema_version"] == "0.172" and ledger["predecessor"].endswith("v0.171.json"))
 check("headline counts unchanged", ledger["progress"]["verdict_counts"] == prior["progress"]["verdict_counts"])

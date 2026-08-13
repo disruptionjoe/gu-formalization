@@ -7,10 +7,7 @@ grade: "EXACT. The invariance of the DeWitt fibre form under g -> -g is computed
   and fibre signatures is trivial. The RETYPING that follows is a proposal and is
   NOT executed here: it would take a depth-10 fork off the board and requires
   hostile field-specialist review under the standing 2026-08-03 rule."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

@@ -33,7 +33,7 @@ Standing cross-repo facts (ratified by Joe 2026-07-02, recorded in both repos):
 
 ## Repo 1: time-as-finality (TaF)
 
-`C:\Users\joe\JB\CapacityOS\repos\public\time-as-finality`
+`C:\Users\joe\JB\private orchestration overlay\repos\public\time-as-finality`
 
 ### North Star
 
@@ -228,11 +228,11 @@ theorem."** The only `theorem_backed` results (COMPLEXITY-LEDGER, reconciled thr
 
 ## Repo 2: temporal-issuance (TI)
 
-`C:\Users\joe\JB\CapacityOS\repos\public\temporal-issuance`
+`C:\Users\joe\JB\private orchestration overlay\repos\public\temporal-issuance`
 
 ### North Star
 
-(NORTH-STAR.md, constitutional HYPOTHESIS.md vNext, approved by Joe, RUN-0038.) "Reality
+(NORTH-STAR.md, constitutional HYPOTHESIS.md vNext, approved by Joe, historical-investigation) "Reality
 is a shared, distributed, observer-participatory process that remains open-ended because
 of ongoing issuance: the continual introduction of new possibility into the shared
 process. Temporal order and finality are downstream observer-side reconstructions from
@@ -279,7 +279,7 @@ only as the downstream reconstruction layer (TI-C001, weakened).
    + a global continuity predicate BFT is silent about. Open: is that predicate just
    eventual-synchrony liveness restated?
 5. **Physics bridges — mostly closed, honestly.** The energy-momentum route is doubly
-   path-killed (BDO RUN-0028 + ICO RUN-0029 cover the full LorHist object-specification
+   path-killed (BDO historical-investigation + ICO historical-investigation cover the full LorHist object-specification
    space; `Ext_S` invariants cannot reach `p^mu`); the conditional Lorentzian realization
    theorem (E008) is recorded as *formally sound with an unsatisfiable antecedent*;
    BMS/celestial route survives only conditionally on a new independently-specified
@@ -324,7 +324,7 @@ only as the downstream reconstruction layer (TI-C001, weakened).
   diagonal — derived, model-relative, axiom-free). No `sorry`, no axioms beyond
   propext/Classical.choice/Quot.sound; hostile RELOCATION verification applied. Caveat
   carried: proofs machine-verified; *modeling faithfulness remains internal*; formal NAA
-  derivation does NOT establish source-side issuance (RUN-0045: constructive type theory
+  derivation does NOT establish source-side issuance (historical-investigation: constructive type theory
   partially absorbs online constructibility — contextual type formation supplies the
   no-reference rule).
 - **Discriminator survivals** (claims stay `speculative` by the repo's own ledger):
@@ -373,7 +373,7 @@ only as the downstream reconstruction layer (TI-C001, weakened).
    arena/value and observer-structure results would instantiate the substrate layer of
    the three-layer pipeline, with TaF's Cech-H1 finality sheaf as layer 3.
 4. **E080 effect-typed witness transport** (TI side of the TaF/GU bridge note) and
-   **E007/RUN-0025 TI-GU mass-energy steelman** — the latter is the honest record of the
+   **E007/historical-investigation TI-GU mass-energy steelman** — the latter is the honest record of the
    killed `Ext_S`→GU→mass-energy route (BDO/ICO). Any GU synthesis reusing TI's
    extension-category residue should carry: extension categories provably carry
    non-order morphism invariants (formal advance), but with no earned physical

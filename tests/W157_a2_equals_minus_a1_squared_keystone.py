@@ -468,7 +468,7 @@ tachyon) does NOT become a now-understood consequence via the exact-magnitude
 'a2=-a1^2' argument; it stays an INDEPENDENT debit.  The flaw count does not drop,
 so the convergent story (W156) does NOT clear bar (b) by this route.  The load returns
 to the two genuine escapes: the AF-vs-AS branch fork (W128) and gradient-sector
-saturation (W126).  The number-theorist/philosopher headline (W155/W156 personas 6,10)
+saturation (W126).  The number-theorist/philosopher headline (W155/W156 perspectives 6,10)
 is DEMOTED from STRUCTURAL-CANDIDATE to COINCIDENCE; the weaker, honest residue is the
 sign correlation, whose own structural status (is c_R<0 forced by a1>0?) is the next
 question and is NOT settled here.

@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-041319-gu-i2b-minimal-covariant-reduction-owner
 source_disposition: SOURCE_CONFIRMS_SPLIT_AND_FULL_PARENT_COMPONENT_ASSIGNMENT__SOURCE_SILENT_OMEGA_J4_PENALTY_MULTIPLIER_AND_EULER_CANCELLATION
 ---
 

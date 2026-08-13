@@ -7,10 +7,7 @@ grade: "EXACT. Holomorphy checked by direction-independence of the complex
   exact algebraic witness with residual 0.00e+00 plus the standard fact that
   there is no complex Sylvester law. Horn-robust: the same witness works on both
   base signatures."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

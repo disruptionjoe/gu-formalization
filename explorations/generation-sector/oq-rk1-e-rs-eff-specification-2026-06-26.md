@@ -17,9 +17,9 @@ reuses:
   - "tests/rs_clifford_projector_model.py"
 depends_on:
   - "explorations/cycle-gates-and-audits/cycle2-physical-rs-projector-effective-operator-certificate-2026-06-24.md"
-  - "explorations/hourly-cycles/hourly-20260626-0402-cycle1-physical-rs-ktheory-class-gate.md"
+  - "explorations/research-cycles/hourly-20260626-0402-cycle1-physical-rs-ktheory-class-gate.md"
   - "explorations/generation-sector/generation-count-rs-k3-symbol-index-attempt-2026-06-24.md"
-  - "explorations/hourly-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md"
+  - "explorations/research-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/cycle1-generation-rs-rank-direct-gate-2026-06-24.md"
   - "explorations/vz-evasion/af4-tau-rs-gauge-fixing-2026-06-23.md"
 ---

@@ -22,7 +22,7 @@ scripts:
 # H54 branch 2 -- is GU's RS a super-Higgs gravitino, and does that FORCE mu_DW?
 
 Test: `tests/wave38/H54b2_gravitino_superhiggs.py` (deterministic, no randomness, exact;
-16/16 PASS, exit 0). BLIND to the other four H54 branches. Personas run INLINE.
+16/16 PASS, exit 0). BLIND to the other four H54 branches. Perspectives run INLINE.
 
 **The branch question.** GU's spin-3/2 matter field (carrier B: index -38, gamma-trace-
 constrained `ker Gamma`) needs a forced Porrati-Rahman-type massive-RS cure. Guardian-free it
@@ -37,9 +37,9 @@ does not arise via super-Higgs, and the super-Higgs identification does not forc
 
 ---
 
-## Per-persona takes (INLINE)
+## Per-perspective takes (INLINE)
 
-### Persona 1 -- supergravity / gravitino theorist
+### Perspective 1 -- supergravity / gravitino theorist
 
 The field-content match is real and worth stating plainly. A massless gravitino is the gauge
 field of local SUSY, `delta psi_mu = D_mu epsilon`; its physical on-shell content is a
@@ -59,7 +59,7 @@ matching the field content is necessary, not sufficient. A gravitino is not "a g
 massive RS"; it is that field **as the gauge field of a spontaneously broken local SUSY**. The
 clothes are gravitino; the question is whether there is a body inside them.
 
-### Persona 2 -- spontaneous-SUSY-breaking / super-Higgs specialist
+### Perspective 2 -- spontaneous-SUSY-breaking / super-Higgs specialist
 
 This is where the identification fails to force anything, and the reason is structural, not
 incidental. Super-Higgs gives `m_3/2 = kappa <F>/sqrt(3) = <F>/(sqrt(3) M_Pl)`. Crucially,
@@ -79,7 +79,7 @@ pins `M_Pl` proportional to `mu_DW`, which drives `mu_DW` to the **decoupled Pla
 vacuum energy, the super-Higgs gravitino mass (`~1e-33 eV`) and GU's RS mass (`~meV`) differ by
 ~30 orders. **Super-Higgs does not force `mu_DW`.** It cannot be the keystone-toppler.
 
-### Persona 3 -- Deser-Zumino massive-gravitino specialist
+### Perspective 3 -- Deser-Zumino massive-gravitino specialist
 
 Is the Deser-Zumino massive gravitino the SAME operator as GU's Porrati-Rahman cure? **No --
 same on-shell content, different operator and different principle.** Deser-Zumino: the massive
@@ -98,7 +98,7 @@ overlap on the causal gamma-traceless massive-RS shell but are built on differen
 The Deser-Zumino gravitino is the guardian-*present* object; GU's cure is the guardian-*free*
 object. They are cousins, not twins.
 
-### Persona 4 -- gravitino-mass phenomenologist
+### Perspective 4 -- gravitino-mass phenomenologist
 
 Numbers decide this, and they are brutal. If GU's RS were a super-Higgs gravitino with `<F>`
 pinned to the observed vacuum energy `rho_Lambda ~ (2.3 meV)^4`, then `m_3/2 = sqrt(rho/3)/M_Pl
@@ -113,7 +113,7 @@ with** the DE-scale `mu_DW` and pins nothing. Either way the phenomenology refus
 `mu_DW`: super-Higgs is a scale-*relating* mechanism, not a scale-*fixing* one. It would only
 fix `mu_DW` if GU independently supplied `<F>`, which it does not.
 
-### Persona 5 -- philosopher of science
+### Perspective 5 -- philosopher of science
 
 The seductive move here is "field content matches, therefore it IS a gravitino, therefore
 super-Higgs, therefore `mu_DW` is forced, therefore GU is falsifiable." Each arrow is weaker

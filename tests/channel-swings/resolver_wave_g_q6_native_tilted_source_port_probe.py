@@ -282,7 +282,7 @@ source_pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.m
 source_refs = (ROOT / "lab/sources/gu-paper-reference-surfaces.md").read_text()
 portal = (ROOT / "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md").read_text()
 paper_candidates = (ROOT / "docs/paper-formalization-candidates.md").read_text()
-domain_packet = (ROOT / "explorations/hourly-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md").read_text()
+domain_packet = (ROOT / "explorations/research-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md").read_text()
 
 check("source", "primary pack displays the tensorial connection difference",
       "T_\\omega=\\varpi-\\epsilon^{-1}d_0\\epsilon" in source_pack)

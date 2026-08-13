@@ -12,13 +12,13 @@ This inventory keeps source-owned paper hardening from displacing GU's protected
 
 ## Portfolio rule
 
-Paper work belongs in Lane 3 when it closes a substantive proof, novelty, citation, reproducibility, or referee-facing scope gap. It never displaces protected Lane 1 merely because it is finishable.
+Paper work belongs in result-hardening research when it closes a substantive proof, novelty, citation, reproducibility, or referee-facing scope gap. It never displaces protected truth-status research merely because it is finishable.
 
 As soon as GU identifies a credible paper-shaped opportunity, route a cheap seed to Drafting Factory with the source revision, evidence pointers, current grade, conditions, audience, and overlap candidates. Seed admission does not wait for the hardening criteria below and does not authorize drafting. GU should not maintain a competing publication-priority queue.
 
 Drafting Factory may request focused GU hardening only after it has lane capacity and intends to activate the seed. That capacity-backed request is a valid daily-steward signal, not an automatic priority override. GU retains proof grade, claim status, native-versus-forced judgment, and source packet authority.
 
-Once a package is ready for external eyes, stop routine polishing. External review and publication are Joe-gated. Internal personas are adversarial hardening, not independent external validation.
+Once a package is ready for external eyes, stop routine polishing. External review and publication are Joe-gated. Internal perspectives are adversarial hardening, not independent external validation.
 
 ## Current candidates
 

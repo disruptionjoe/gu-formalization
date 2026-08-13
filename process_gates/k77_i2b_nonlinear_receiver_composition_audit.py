@@ -27,7 +27,7 @@ report = (ROOT / "explorations/conditional-build/selected-k77-i2b-nonlinear-rece
 review = (ROOT / "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-nonlinear-receiver-composition-review.md").read_text(encoding="utf-8")
 source = (ROOT / "lab/sources/selected-k77-i2b-nonlinear-receiver-composition-source-return-2026-08-12.md").read_text(encoding="utf-8")
 
-assert ledger["updated_by"] == "RUN-20260812-151325-gu-i2b-nonlinear-receiver-composition"
+assert ledger["updated_by"] == "historical-investigation"
 assert ledger["frontier_delta"] == {
     "headline_delta": "NONE", "conditions_closed": 1,
     "conditions_opened": 0, "remaining_named_conditions": 1,

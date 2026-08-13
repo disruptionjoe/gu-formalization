@@ -7,7 +7,6 @@ directed_by: "Joe direct chat, 2026-07-20"
 source_id: TOE-2026-BIANCONI-ENTROPY
 source_transcript: lab/sources/transcripts/toe-bianconi-gravity-from-entropy-2026-07-13.md
 related_intake: explorations/intake-bianconi-entropic-gravity-2026-07-20.md
-claim_status_change: none
 provenance_grade: untrusted-external
 verification_state: >
   NOT verified against primary papers. Every row below is a

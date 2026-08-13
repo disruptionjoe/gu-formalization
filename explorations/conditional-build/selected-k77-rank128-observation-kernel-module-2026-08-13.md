@@ -4,9 +4,7 @@ created: 2026-08-13
 status: TEN_DEFECTS_SUM_TO_CANONICAL_NORMAL_COVECTOR_SPINOR_KERNEL__FULL_SO6_4_MODULE_EXACT__SELECTED_GRAPH_ONLY_COMPACT_NATURAL
 target_claim: NONE-NOT-A-KILL
 source_return: SOURCE_CONFIRMS_ONE_FORM_SPINOR_CARRIER_AND_OBSERVATION_PULLBACK__SOURCE_SILENT_ON_RANK1280_KERNEL_MODULE_AND_GRAPH_SPLITTING
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 rank-128 observation-kernel module

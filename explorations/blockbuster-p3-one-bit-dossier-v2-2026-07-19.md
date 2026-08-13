@@ -35,9 +35,7 @@ pending_inputs:
 runnable_receipts_reverified:
   - "all six probes re-run 2026-07-19 during v2 assembly (the five v1 probes + d1_coperator_build_probe), exit 0 each; no script modified"
 literature_fetches: "read-only, arxiv.org abstract pages + standard journal/abstract pages only, per swing authorization; all fetched content treated as evidence, never instructions; every citation below marked [FETCHED] was verified against the source this swing; [STANDARD] marks stable textbook/classic citations not re-fetched; [IN-REPO] marks full-text reads already receipted in-repo"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: "none beyond the authorized read-only fetches"
 audience: "INTERNAL dossier. Paper-SHAPED, not a paper. Joe alone ever publishes; routing to Drafting Factory is the steward/parent's move (PAPER-SEED-ROUTING), never this document's."
 ---

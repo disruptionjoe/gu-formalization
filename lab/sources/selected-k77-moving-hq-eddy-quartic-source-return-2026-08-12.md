@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-073415-gu-moving-hq-eddy-quartic-retype
 status: SOURCE_CONFIRMS_AUGMENTED_TORSION_QUADRATIC_EDDY_AND_QUARTIC_ROUTE__SOURCE_SILENT_ON_HQ_PHASE_J_COMPLETION_AND_PHYSICAL_COEFFICIENT
 ---
 

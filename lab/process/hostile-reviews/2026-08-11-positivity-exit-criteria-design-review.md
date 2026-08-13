@@ -1,7 +1,7 @@
 # Hostile review: positivity exit criteria design packet
 
 Target: `explorations/positivity-exit-criteria-design-packet-2026-08-11.md`
-Run: `RUN-20260811-234500-gu-five-frontier-design-packets` (same-run self-review by the design pass; the executing wave reviews independently).
+Run: `historical-investigation` (same-run self-review by the design pass; the executing wave reviews independently).
 
 ## Self-hostile review (the three standing charges)
 

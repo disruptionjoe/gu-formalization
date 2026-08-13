@@ -57,7 +57,7 @@ the symmetry-breaking reading merely imposed?
 
 ---
 
-## Persona team (inline, sequential, one context)
+## Perspective team (inline, sequential, one context)
 
 ### (1) Category-theory / logic specialist -- re-state and prove
 
@@ -161,7 +161,7 @@ Three joints, graded independently.
 **Referee verdict.** The re-statement is **sound and the diagonal does NOT smuggle**: the
 symmetry-breaking rides on L2, a named lemma, not on the diagonal. The theorem in symmetry-breaking
 form is **within reach modulo L1 and L2**, i.e. **modulo Branch B and H61/Branch A** -- the same two
-gates as Branch D, with the residual bridge now absorbed (see persona 5).
+gates as Branch D, with the residual bridge now absorbed (see perspective 5).
 
 ### (3) Intra-team adversary -- "the Lawvere residual is generic; calling it symmetry-breaking is the smuggle" (PRESSED)
 
@@ -185,7 +185,7 @@ gates as Branch D, with the residual bridge now absorbed (see persona 5).
   Sec 4). Under Branch B, weights `<->` sections (Connes RN), so a definite non-invariant valuation
   **is** a choice of state/weight = a section = a source action = a vacuum. So the vacuum reading is
   **Branch A's modular-conjugation lemma**, an already-named load-bearing assumption -- not a fresh
-  postulate. **The objection does not kill the route; it names the residue precisely (persona 5).**
+  postulate. **The objection does not kill the route; it names the residue precisely (perspective 5).**
 
 - **"H62's arena examples break the big structural `G` (frame `SU(2)_+`, SM gauge, conformal), not
   a firewall Z/2 -- so this is a different symmetry-breaking."** *Strength: sharp.* The

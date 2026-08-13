@@ -344,7 +344,7 @@ check("selection", "neither barred-adjoint horn Higgs cell mirror quotient nor g
 check("accounting", "P1 P2 P3 residue quotients canon and public posture remain unchanged", True)
 
 RESULT = {
-    "run_id": "RUN-20260811-224726-gu-k77-vertical-soldering-adapter-order-gate",
+    "run_id": "historical-investigation",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,
     "packets": packets,

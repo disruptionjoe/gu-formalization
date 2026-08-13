@@ -4,9 +4,7 @@ created: 2026-08-07
 status: NONNULL_CANONICAL_SPLIT__LAWFUL_CONNECTION_JET_PLUS_NONZERO_TRANSVERSE_COMPLETION_BURDEN
 source_return: SOURCE-CONFIRMS__CONNECTION_MINUS_GAUGE_ROTATED_LEVI_CIVITA_AND_FULL_TWO_CONNECTION_ARENA__SOURCE-SILENT__NONNULL_KOSZUL_SPLIT_AND_GCR_REMAINDER_COEFFICIENTS
 ledger: lab/process/conditional-physics-ledger-v0.48.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer non-null Koszul/GCR split

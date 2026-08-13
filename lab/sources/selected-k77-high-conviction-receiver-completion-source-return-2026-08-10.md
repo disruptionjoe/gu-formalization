@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-10
-run_id: RUN-20260810-221700-gu-k77-high-conviction-receiver-completion
 ---
 
 # Source return: K77 high-conviction receiver completion

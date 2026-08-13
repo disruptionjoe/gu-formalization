@@ -58,7 +58,7 @@ META_ABOUT_THE_REGISTER = (
     "register-triage",
     "mh9-tier0-and-register-triage",
     "eleven-lens-audit",
-    "LANE-STATE.yaml",
+    "CURRENT-STATE.yaml",
     "register_writeback_audit",
 )
 

@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-151325-gu-i2b-nonlinear-receiver-composition
 status: NONLINEAR_PRODUCT_RECEIVER_EXACT__ARBITRARY_FIELD_I2B_EULER_PREBOUNDARY_COEFFICIENTS_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B nonlinear receiver composition

@@ -6,13 +6,11 @@ created: 2026-08-03
 work_item: "Imposter A/B adjudication, resolution step (Joe-approved 2026-08-03). Successor to seat3 Q1 / Wave A-3: executes the FIVE decision criteria of explorations/imposter-reading-adjudication-2026-08-03.md §4 and supplies exit-condition items (i) and (ii) of §4.5. This file is the INPUT to the J5 hostile field-specialist review, not its output."
 title: "RESOLUTION PROPOSAL (not a verdict): the imposter/third-generation label attaches to READING A — the 128 S(V)⊗S(W) spin-1/2 slot — at graded confidence 0.80. The five filed criteria are applied one by one; the F/Q/Z graded factor-2 receives a computed candidate typing (the author's graded labels are exactly one ω-half of the banked blocks: 64/192/576 = halves of 128/384/1152, per Q2's P-Q2-2); both readings are priced honestly (B owes a Witten-1983 class exit AND a spin-changing mechanism AND the same chiral-selection debt A owes; A's chiral-selection debt is already filed as ledger P3); the 384's own ω-grading is reported for both real forms (192+192, balanced — re-run receipt today); Q3's first-order result is booked AGAINST the recommended reading's payoff, honestly. The named flip computation is DRAFT-FQZ-MAP (primary-source ingestion of draft §11–§12.10 with the eq 11.6 / eq 12.22 label-to-banked-numbers map). NOTHING RESOLVES HERE: adoption is J5-gated."
 grade: "ADJUDICATION PROPOSAL — reading, typing, pricing, and one re-execution of an existing green script (tests/generation-sector/q2_imposter_chirality_grading.py, 318 checks, exit 0, 2026-08-03). No new script written; no new mathematical claim certified; every cited number is quoted from its artifact or from the re-run's stdout (P-H29: nothing here is a newly certified null or kill; the re-run is deterministic finite numerics, not an FD read). PRE-DEPOSIT: no claim-status, canon, verdict, bar(b), H59, count, LANE-STATE, or public-posture movement; adoption of this proposal is J5-gated (hostile field-specialist review, two-sided charge: overclaim AND over-fencing, before any surface moves)."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 verdict_gate: "PROPOSAL ONLY. Per the adjudication row §4.5 and standing rule, the fork resolves only via a typed ruling that has PASSED a J5 hostile field-specialist review. Until then: W221's verdict logic, the 2026-06-22 closure, NEXT-STEPS PC2, legb2's header, the context-pack fork row, and every register/canon surface stay EXACTLY as they are. The re-scoping instructions in §9 are proposals, not edits."
 hostile_review_status: "NOT YET REVIEWED — this file requests the J5 review"
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - explorations/imposter-reading-adjudication-2026-08-03.md
   - explorations/chirality-grading-and-77-rerun-2026-08-03.md
   - lab/process/hinge-panel-synthesis-2026-08-03.md

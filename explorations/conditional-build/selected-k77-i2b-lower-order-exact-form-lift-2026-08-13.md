@@ -1,12 +1,9 @@
 ---
 artifact_type: conditional_build_variational_result
 created: 2026-08-13
-run_id: RUN-20260813-115145-gu-i2b-lower-order-exact-form-lift
 status: EXACT_FORM_PRINCIPAL_KERNEL_LIFTED_BY_LOWER_ORDER_HESSIAN_ON_FIXED_HQ_RESTRICTED_CRITICAL_BRANCH
 target_claim: NONE-NOT-A-KILL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B lower-order exact-form lift

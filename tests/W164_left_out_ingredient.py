@@ -37,7 +37,7 @@ CONTEXT (CITED, not re-derived):
   * W125/W136: the cure and Yukawa clusters are Hom-disjoint from the gravity cluster.
   * W138: kill battery (G1b solar-system margin, G5 de Sitter relabel, G3 mu_DW floor).
 
-FIVE personas inline (coupled-system field theorist; driven-dissipative/control
+FIVE perspectives inline (coupled-system field theorist; driven-dissipative/control
 theorist; GU matter-sector specialist; symbolic engineer; adversarial skeptic).
 Deterministic sympy + mpmath-free float constants; positive controls first.
 Run:  python -u tests/W164_left_out_ingredient.py   (exit 0 iff all PASS).
@@ -109,10 +109,10 @@ check("PC4 W154 S has 6 terms; 5 matter/record terms omitted by the tachyon anal
       len(S_terms) == 6 and len(omitted) == 5, f"omitted={omitted}")
 
 # ===========================================================================
-# PERSONA 1 -- coupled-system field theorist: the backreaction m^2 SIGN and its
+# PERSPECTIVE 1 -- coupled-system field theorist: the backreaction m^2 SIGN and its
 #              structural ceiling (chameleon).
 # ===========================================================================
-log("\n[BR] persona 1 -- the backreaction m^2 contribution (chameleon)")
+log("\n[BR] perspective 1 -- the backreaction m^2 contribution (chameleon)")
 
 # BR1: Einstein-frame chameleon.  Non-relativistic record matter couples with
 # A(phi)=exp(beta phi), beta = 1/sqrt(6) > 0.  V_eff = V(phi) + rho*A(phi).
@@ -152,10 +152,10 @@ check("BR3c competing lift requires mu ~ H = the W138 G5 de Sitter relabel",
       True, "mu -> H is content-free (novelty kill), not a stabilization")
 
 # ===========================================================================
-# PERSONA 2 -- driven-dissipative / control theorist: does the one-way promotion
+# PERSPECTIVE 2 -- driven-dissipative / control theorist: does the one-way promotion
 #              feedback place the RHP pole in the LHP?
 # ===========================================================================
-log("\n[DD] persona 2 -- driven-dissipative / control (pole placement)")
+log("\n[DD] perspective 2 -- driven-dissipative / control (pole placement)")
 
 # DD1: BANDWIDTH.  An RHP pole at growth rate gamma = |m_0| (the tachyon e-folds at the
 # induced scale mu) is stabilizable only if the feedback loop-gain-bandwidth exceeds
@@ -191,9 +191,9 @@ check("DD2 one-way promotion => monotone drive (Q_mean<0), NOT a restoring feedb
       "monotone withdrawal (W154/W158/W160); dissipation is overdamped, no pole-frequency feedback")
 
 # ===========================================================================
-# PERSONA 3 -- GU matter-sector specialist: is any sector wrongly SET TO ZERO?
+# PERSPECTIVE 3 -- GU matter-sector specialist: is any sector wrongly SET TO ZERO?
 # ===========================================================================
-log("\n[HD] persona 3 -- zeroed sectors (Hom-disjointness)")
+log("\n[HD] perspective 3 -- zeroed sectors (Hom-disjointness)")
 
 # HD1: the cure (g=1 ker-Gamma) and Yukawa clusters are Hom-disjoint from the gravity
 # cluster (W125/W136), so the "cure term's coupling to the scalaron" is structurally
@@ -215,9 +215,9 @@ check("HD2 non-minimal xi R Psi^2 needs xi ~ (mu/H)^2 >> 1 (fine-tuning, not a m
       f"xi_needed(DE) ~ {xi_needed_dw:.1e}, xi_needed(Planck) ~ {xi_needed_planck:.1e}")
 
 # ===========================================================================
-# PERSONA 5 -- adversarial skeptic: no-free-lunch / EFT-validity on driven stabilization
+# PERSPECTIVE 5 -- adversarial skeptic: no-free-lunch / EFT-validity on driven stabilization
 # ===========================================================================
-log("\n[SK] persona 5 -- no-free-lunch / EFT validity")
+log("\n[SK] perspective 5 -- no-free-lunch / EFT validity")
 
 # SK1: the coupled backreaction is a RELEVANT (IR) operator; the tachyon growth is a
 # CUTOFF-scale (UV) instability.  An IR effect cannot move a UV pole -- same

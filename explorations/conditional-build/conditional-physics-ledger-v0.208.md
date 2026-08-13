@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.208"
-run_id: RUN-20260812-133651-gu-i2b-full-trace-orbit-derivative
 ---
 
 # Conditional physics ledger v0.208

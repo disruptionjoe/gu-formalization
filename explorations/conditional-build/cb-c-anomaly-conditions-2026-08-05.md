@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 doc_type: conditional-build
-lane: conditional-build
 cluster: "C -- anomaly and consistency conditions"
 created: 2026-08-05
 title: "CB-C: every anomaly and consistency condition the SM and its embedding must satisfy, built DOWNSTREAM of an UNKNOWN source action and carried symbolically in U1..U6. RESULT: 27 rows; the 14D local system is computed EXACTLY as a linear system in the unknown fermion content (rank 5 on a 15-dim content lattice, kernel dim 10), net chirality W = 0 is DERIVED rather than assumed, W = 0 is shown NECESSARY BUT NOT SUFFICIENT (correcting the MOVE-1 all-proportional-to-W convention), the gauge-group fork is proved IRRELEVANT to the entire local row, and TWO ROWS COME BACK OVER-DETERMINED."
@@ -48,9 +47,7 @@ residue_touched:
     moved: false
     why: "no class exclusion earned here; this artifact only shows that the bulk cannot supply it by inflow (row F3)"
 route_disposition: CONDITIONAL_BUILD_COMPLETE__14D_LOCAL_SYSTEM_SOLVED_EXACTLY__W_EQ_0_DERIVED__TWO_OVER_DETERMINED_ROWS_FILED__NO_VERDICT_MOVED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 deposit: "PRE-DEPOSIT. No bar, verdict, canon claim, count, promotion, LANE-STATE entry, or public posture moves on this artifact. Result deposit and any decisive downstream use of rows G1 and F3 are J5-gated (hostile field-specialist review, two-sided charge)."
 layer0:
@@ -61,7 +58,7 @@ layer0:
 scripts:
   - tests/anomaly/cb_c_anomaly_rank.py
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - lab/process/layer0-fork-registry.yaml
   - lab/process/science-council-program-efficiency-2026-08-04.md
   - CANON.md
@@ -285,7 +282,7 @@ simultaneous solution.
 | **B2** | the *gauge-twisted* degree-15 reduced receptacle must be trivial | computed in-repo **only** as `Omega~^spin_15(BSp(64)) = 0`, which is a `Cl(9,5)` object. W232 states in terms that the `(7,7)`/real-side `BSO(128)`-type bordism is left **open** | **EXT: CB-C-N1** (new, T3). Named owner: the global-anomaly-leg custodians. See 4.1 |
 | **B3** | the free part of the Dai-Freed invariant (the degree-16 anomaly polynomial) must vanish | identical to A1; not an independent condition | **GIVEN U1** (same 5 conditions) |
 | **B4** | `KO/KSp` degree-15 slots | `KO_15 = KO_7 = 0` and `KSp_15 = KO_3 = 0`: dead Bott slots for **both** reality types | **AUTO**, signature-independent |
-| **B5** | mod-2 eta refinements | killed twice on the `(9,5)` horn (dead Bott slot **and** Kramers evenness). On the **settled** `Cl(7,7)` horn the Kramers wall is **absent** (`lab/process/agent-context-pack.md:135-141`) | **AUTO**, but the double kill **degrades to a single kill** on the settled horn. Flagged, not adverse |
+| **B5** | mod-2 eta refinements | killed twice on the `(9,5)` horn (dead Bott slot **and** Kramers evenness). On the **settled** `Cl(7,7)` horn the Kramers wall is **absent** (`lab/process/CURRENT-RESEARCH-CONTEXT.md:135-141`) | **AUTO**, but the double kill **degrades to a single kill** on the settled horn. Flagged, not adverse |
 
 ### Group C. Witten global SU(2)-type anomaly
 
@@ -433,7 +430,7 @@ independent conditions. What is at stake in G1 is (i) the standing canon sentenc
 RESEARCH-STATUS.md:205 should carry the horn explicitly, e.g. *"defused **on the
 Cl(9,5) horn**; the corresponding statement on the settled Cl(7,7) horn is OPEN."*
 That is a claim-status-consistency edit under
-`lab/process/runbooks/claim-status-consistency-quality-workflow.md`, deliberately not
+`lab/methods/claim-status-consistency.md`, deliberately not
 performed in this artifact.
 
 ### 4.2 F3 (LOUD): the generation count cannot arrive by anomaly inflow, because the same unknown that local consistency pins is the inflow coefficient

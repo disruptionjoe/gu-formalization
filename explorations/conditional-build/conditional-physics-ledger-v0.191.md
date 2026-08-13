@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-12
 ledger_version: "0.191"
-run_id: RUN-20260812-020740-gu-split-layer-commutant-action-parent
 ---
 
 # Conditional physics ledger v0.191

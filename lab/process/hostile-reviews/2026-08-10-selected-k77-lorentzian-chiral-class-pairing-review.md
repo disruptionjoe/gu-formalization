@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-10
-run_id: RUN-20260810-162942-gu-lorentzian-chiral-class-pairing
 verdict: SURVIVES_SCOPED__ABSOLUTE_UNIT_ROUTE_KILLED__RELATIVE_TRANSGRESSION_AND_SOURCE_OWNED_REALITY_REMAIN_OPEN
 lenses: [layer0_semantics, prior_art, topology, analytic, symplectic]
 ---

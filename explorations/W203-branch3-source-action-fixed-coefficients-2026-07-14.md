@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM BRANCH3-COEFFICIENTS, W203; five personas inline, one worker, no sub-agents; deterministic test, 32/32 exit 0, positive controls first)
+status: exploration (TEAM BRANCH3-COEFFICIENTS, W203; five perspectives inline, one worker, no independent reviewers; deterministic test, 32/32 exit 0, positive controls first)
 created: 2026-07-14
 wave: W203
 label: W203
@@ -26,7 +26,7 @@ scripts:
 
 Test: `tests/W203_branch3_source_action_fixed_coefficients.py` (32/32, exit 0). Deterministic
 (seed 20260714); the algebra runs on the repo's verified `Cl(9,5) = M(64,H)` representation via
-`gen_sector_bridge`. Five personas ran inline in one worker, sequentially (no sub-agents):
+`gen_sector_bridge`. Five perspectives ran inline in one worker, sequentially (no independent reviewers):
 (1) variational-calculus specialist, (2) geometer, (3) coefficient-pinning specialist,
 (4) coherence-first synthesizer, (5) skeptic. The four positive controls run first.
 
@@ -62,7 +62,7 @@ S[Psi, A, theta]  =  Re<Psi, K_S c(A) Psi>_Krein   +   (1/2 kappa) <theta, M the
 with `c(A) = sum_a A_a e_a` the Clifford contraction of the connection, `K_S = e_0 e_1 ... e_8` the
 spinor Krein form, and `J^a = Re<Psi, K_S e_a Psi>` the promotion-gate record current.
 
-## 1. Persona 1 (variational-calculus specialist) -- the first variation, and the two field equations
+## 1. Perspective 1 (variational-calculus specialist) -- the first variation, and the two field equations
 
 Two stationarity conditions, both exact.
 
@@ -83,7 +83,7 @@ So the branch-3 action reproduces the Cycle-1 first-order parent schema: `theta_
 connection sourced by the record current. What was left open at Cycle-1 was the coefficient list. That
 is Sections 2-3.
 
-## 2. Persona 2 (geometer) -- the shiab / Legendre picture, and where the kernel comes from
+## 2. Perspective 2 (geometer) -- the shiab / Legendre picture, and where the kernel comes from
 
 The Legendre elimination here is the record-field analogue of W167's torsion elimination. W167:
 GU's linear April-2021 action is Gaussian in the displaced torsion `T`, so `T* = -shiab(F)` and
@@ -101,7 +101,7 @@ covariant (so that `theta_induced = kappa M^{-1} J` transforms as `theta` must) 
 `so(9,5)`, so by Schur the invariant symmetric form is UNIQUE up to scale -- and for the vector rep
 that invariant is the defining metric. **The kernel is not a choice; it is the Clifford metric `eta`.**
 
-## 3. Persona 3 (coefficient-pinning specialist) -- what is forced, what is free, what is fitted
+## 3. Perspective 3 (coefficient-pinning specialist) -- what is forced, what is free, what is fitted
 
 The central computation (test block `[KER]`): solve the equivariance constraint over the 105-dim space
 of symmetric `14x14` kernels.
@@ -138,7 +138,7 @@ coefficients is NOT a repeat of debit-2 -- provided one distinguishes "undetermi
 (acceptable, like `G`) from "fitted parameter" (the debit-2 disease). The one thing that IS a genuine
 physics datum, not a convention, is `kappa`'s SIGN -- and that is Section 4.
 
-## 4. Persona 4 (coherence-first synthesizer) -- does the built action cohere the picture, or break it?
+## 4. Perspective 4 (coherence-first synthesizer) -- does the built action cohere the picture, or break it?
 
 Build the fitting story first. The records-fundamental / derived-Lambda / tachyon picture wants:
 (i) the connection/metric to be a shadow of the record field (route-beta); (ii) the induced Einstein
@@ -173,7 +173,7 @@ otherwise two-sided eta-pairing) and grounds it on the ACTUAL indefinite kernel 
 over with a positive Gram. The picture coheres, and the one genuine physics bit it now rests on is the
 C-positive-subspace question -- which is question #1 (Section 6).
 
-## 5. Persona 5 (skeptic, RUTHLESS) -- does W203 re-assume W154? is a coefficient still fitted? is "branch-3" real here?
+## 5. Perspective 5 (skeptic, RUTHLESS) -- does W203 re-assume W154? is a coefficient still fitted? is "branch-3" real here?
 
 Three sharp challenges, answered honestly.
 
@@ -280,8 +280,8 @@ re-poses bar (b). W203 sharpens the map from the source-action side, four ways.
    now reached from the fully-built source action.
 
 *Filed 2026-07-14 by Team BRANCH3-COEFFICIENTS (W203). Route: Legendre / auxiliary-field (extend
-W167). Five personas inline in one worker (variational-calculus specialist; geometer; coefficient-
-pinning specialist; coherence-first synthesizer; skeptic); no sub-agents. Reproducible:
+W167). Five perspectives inline in one worker (variational-calculus specialist; geometer; coefficient-
+pinning specialist; coherence-first synthesizer; skeptic); no independent reviewers. Reproducible:
 `python -u tests/W203_branch3_source_action_fixed_coefficients.py` (32/32, exit 0; four positive
 controls first). Exploration grade; conditional register; RUTHLESS self-verification; no canon
 movement; tri-repo gating strict; the debit count stays {1,3}; H41 unbuilt (narrowed); bar (b)

@@ -3,14 +3,11 @@ title: "Unified source-action and external-datum packet v0: a finite bulk-plus-d
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-N1
-run: lab/process/runs/GUH-20260730T125227Z-unified-source-datum-packet-v0/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/unified_source_datum_packet_v0_probe.py
 grade: "FORMULA-BUILT / EXECUTABLE PACKET CONTRACT. The action-domain weld, field/action/datum ledgers, full-20 mapping-torus orientation cocycle, relative KO twist family, BV ghost-number census, search budgets, and planted controls are explicit. No Euler equation, stationary solution, CME, domain, physical reduction, anomaly cancellation, Fredholm index, mass, or count is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Unified source-action and external-datum packet v0

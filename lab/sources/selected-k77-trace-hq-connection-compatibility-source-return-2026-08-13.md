@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-225039-gu-trace-hq-connection-compatibility
 status: SOURCE_CONFIRMS_FULL_U64_64_AND_TWO_C32_32_CARRIER_HALVES__SOURCE_SILENT_TRACE_HQ_AS_DEFINING_FORM_AND_ACTION_SELECTED_PARENT_OR_HALF_ASYMMETRY
 ---
 

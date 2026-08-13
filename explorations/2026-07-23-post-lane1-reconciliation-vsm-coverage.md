@@ -2,17 +2,11 @@
 title: "Post-Lane-1-reconciliation repository VSM coverage"
 status: complete
 doc_type: run-plan-and-receipt
-run_id: RUN-20260723-054357-gu-formalization-discovery-vsm
-parent_run_id: RUN-20260723-054357-repository-work-cycle-nbl-hourly
+parent_run_id: historical-investigation
 owner_id: gu-formalization
-workflow: repo-discovery-run
 workflow_revision: sha256:6c316d4a1a345e12aea0ca065b74e6dd6739ebd26d7ff8404f2bd15bad608549
-mode: observe
-lane_id: null
-starting_revision: e089f37a0f9edea43b5a9f8698fd820fdebe53f8
 coverage_policy_ref: system-operations#current-scheduled-topology
 coverage_due_basis: material_change
-completed_at: 2026-07-23T05:47:45-05:00
 next_due_at: 2026-07-30T05:47:45-05:00
 method_refs: []
 ---
@@ -23,7 +17,7 @@ method_refs: []
 
 Lane-null repository-recursion Discovery over S2, S3, S4, and S5 after commit
 `e089f37a0f9edea43b5a9f8698fd820fdebe53f8` cleared the protected dirty overlap
-and restored eligible Lane 1 truth testing.
+and restored eligible truth-status research truth testing.
 
 Read scope: current repository authority, Lane manifest and state, the three
 reconciled control surfaces, current mailbox proposals and their already-landed
@@ -39,8 +33,8 @@ claim promotion, canon change, verdict move, or external action was permitted.
   no writer lock. The LNF sequence decision, PP3 disclosure supersession, and
   sigma hardening proposal are already represented in current owner truth.
   Reprocessing them would duplicate closed work.
-- **S3 control:** `LANE-STATE.yaml`, `NEXT-STEPS.md`, and
-  `lab/process/research-portfolio.json` now agree that source gaps constrain
+- **S3 control:** `CURRENT-STATE.yaml`, `NEXT-STEPS.md`, and
+  `lab/process/RESEARCH-AGENDA.json` now agree that source gaps constrain
   native-claim grade while an independent conditional B5 construction remains
   eligible. The restored route names its external sigma, tau, and global-data
   postulates and preserves the construction-or-obstruction outcome.
@@ -58,9 +52,9 @@ independent S3* claim is made.
 
 ## Selection result
 
-The repository is safe to resume. Lane 2 is monitoring-only. Lane 3 remains
-available for bounded hardening but does not outrank the restored Lane 1 lead.
-Lane 1 selects `B5-INDEPENDENT-RECONSTRUCTION`, beginning with the full finite
+The repository is safe to resume. prediction research is monitoring-only. result-hardening research remains
+available for bounded hardening but does not outrank the restored truth-status research lead.
+truth-status research selects `B5-INDEPENDENT-RECONSTRUCTION`, beginning with the full finite
 observer-natural first-order symbol-class enumeration.
 
 ## Receipt

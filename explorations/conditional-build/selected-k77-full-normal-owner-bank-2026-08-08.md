@@ -4,9 +4,7 @@ created: 2026-08-08
 status: K77_TEN_NORMAL_GEOMETRY_BANK_EXACT__SEVEN_OWNER_SPLIT_NOT_CANONICAL__TOTAL_MIXED_HESSIAN_REMAINS_INTRINSIC
 channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 full normal-owner bank

@@ -4,9 +4,7 @@ created: 2026-08-10
 subject: SELECTED-K77-ZERO-FERMION-VEV-SELECTOR-EXHAUSTION
 verdict: SURVIVES_WITH_SCOPE__BUILT_LOCAL_CLASSICAL_SELECTOR_LIST_ONLY
 review_mode: INLINE_TEN_LENSES_PLUS_THREE_CHARGES
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: zero-fermion VEV selector exhaustion

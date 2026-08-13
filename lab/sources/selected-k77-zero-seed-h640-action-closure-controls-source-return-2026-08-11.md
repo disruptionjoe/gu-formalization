@@ -2,7 +2,6 @@
 title: "Source return — K77 zero-seed H640 action closure"
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-202031-gu-k77-zero-seed-h640-action-closure-controls
 return_code: SOURCE_CONFIRMS_OMEGA0_AND_OMEGA1_FOUR_FIELD_INGREDIENTS__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_H640_PHYSICAL_SELECTION_AND_BV_COHOMOLOGY
 ---
 

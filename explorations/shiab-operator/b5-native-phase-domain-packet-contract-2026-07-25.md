@@ -3,10 +3,7 @@ title: "B5 native phase/domain packet: fail-closed five-field contract"
 status: active_research
 doc_type: result
 created: 2026-07-25
-run_id: RUN-20260725-080909-gu-formalization-progress
-lane_id: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
-claim_status_change: none
 ---
 
 # B5 native phase/domain packet contract

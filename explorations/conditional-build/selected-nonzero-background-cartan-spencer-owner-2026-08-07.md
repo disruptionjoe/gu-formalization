@@ -4,9 +4,7 @@ created: 2026-08-07
 status: FULL_UNRESTRICTED_CARTAN_SPENCER_CARRIER_OWNER__LEVI_CIVITA_SUBCLASS_Q_EXACT__INDEPENDENT_VARPI_OR_AMBIENT_NORMAL_JET_OPEN
 source_return: SOURCE-CONFIRMS__TWO_CONNECTION_TRANSLATION_CURVATURE_AND_NONZERO_T_BRANCH__SOURCE-SILENT__ACTUAL_FOUR_COLUMN_INDEPENDENT_VARPI_SOLDERING_OBSERVATION_NORMAL_JET
 ledger: lab/process/conditional-physics-ledger-v0.55.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected nonzero-background Cartan/Spencer owner

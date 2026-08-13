@@ -2,10 +2,7 @@
 title: "Source return: K77 H640 observation-pullback and BV typing"
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-205442-gu-k77-h640-observation-pullback-bv-typing
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return

@@ -37,7 +37,7 @@ from collections import Counter
 import numpy as np
 
 PRIMES = (1009, 1013)
-REPO = "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization"
+REPO = "."
 HEAD_PIN = "c789e75bbe0eb38bcd6342516dc88a39c760852b"
 RNG_SEED = 20260812
 SUP_CAP = 30000   # cap on sampled support rows per linear system

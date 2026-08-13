@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.162 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the tested rank-384 graph hull is a proper codimension-1536 subspace of the unrestricted nonnull four-field Euler image/action dual, so the bounded route stops and the unrestricted source operator/BV complex leads"
   },
-  "updated_by": "RUN-20260811-011626-gu-k77-unrestricted-four-field-euler-image",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

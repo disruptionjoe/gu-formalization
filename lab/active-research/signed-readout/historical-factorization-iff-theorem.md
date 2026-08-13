@@ -11,12 +11,12 @@ updated_at: "2026-05-31"
 **artifact.** `work/internal origin artifact` (validation/4 + joe + walkthrough_review; v3 receipt appended; stage NOT regressed).
 **Scope.** v3 = integration of v2 (PCP / Wolfram / Jordan lens, BROADER-IFF PARTIAL leaning HOLDS) and v2.1 (signed-readout direct CALM-class characterization, anomaly-iff FAILS-as-stated). Goal: unified verdict suitable for internal origin artifact Phase 3 decision.
 **Inputs.**
-- v1: `iff-theorem-result.md`, `persona-dialectic.md`, `wrk-386-reframe-note.md`.
-- v2 (all 6): `v2-metalayer-reframe/v2-broader-iff-result.md`, `v2-jordan-decomposition-test.md`, `v2-pcp-proof-carrying-test.md`, `v2-wolfram-localrule-test.md`, `v2-persona-dialectic.md`, `v2-wrk386-reframe-note.md`.
+- v1: `iff-theorem-result.md`, `perspective-dialectic.md`, `wrk-386-reframe-note.md`.
+- v2 (all 6): `v2-metalayer-reframe/v2-broader-iff-result.md`, `v2-jordan-decomposition-test.md`, `v2-pcp-proof-carrying-test.md`, `v2-wolfram-localrule-test.md`, `v2-perspective-dialectic.md`, `v2-wrk386-reframe-note.md`.
 - v2.1: `v2.1-meta-reframed-signed-readout-verdict-2026-05-31.md`.
 - Meta-layer dialectic: internal draft artifact.
 - Sibling v2/v2.1: internal origin artifact `v2-localrule-adjunction-result.md` + `v2.1-meta-reframed-adjunction-rerun-2026-05-31.md`; internal origin artifact `v2-eight-tuple-classification.md` + `meta-reframed-v2.1-shadow-source-theorem-rerun-2026-05-31.md`.
-**Method.** internal origin artifact `[speculation]` tagging. Honest-verdict gatekeeper protocol. 7-persona dialectic (v2's 6 + Synthesis Arbiter; see `v3-persona-dialectic.md`).
+**Method.** internal origin artifact `[speculation]` tagging. Honest-verdict gatekeeper protocol. 7-perspective dialectic (v2's 6 + Synthesis Arbiter; see `v3-perspective-dialectic.md`).
 
 ---
 
@@ -96,7 +96,7 @@ These are **not contradictory** — they are **same architecture, different leve
 
 - **v2.1 says NO**, even as a non-iff implication: anomaly is neither necessary nor sufficient for CALM-class membership in the general signed-readout setting. The iff condition is non-negative-weight generators, not anomaly-freeness.
 
-**v3 resolution (Synthesis Arbiter, P7 in `v3-persona-dialectic.md`):**
+**v3 resolution (Synthesis Arbiter, P7 in `v3-perspective-dialectic.md`):**
 
 Both are honest readings of different scopes:
 
@@ -185,9 +185,9 @@ Summary of cross-check:
 
 ---
 
-## 4. 7-persona dialectic (summary; full in `v3-persona-dialectic.md`)
+## 4. 7-perspective dialectic (summary; full in `v3-perspective-dialectic.md`)
 
-Carrying v2's 6 personas + adding P7 Synthesis Arbiter:
+Carrying v2's 6 perspectives + adding P7 Synthesis Arbiter:
 
 - **P1 (Anomaly theorist):** Both v2 and v2.1 agree anomaly is *one* mechanism. v3 reads v2's PCP-blindness as the load-bearing physical explanation of why anomaly bites within the lattice-gauge sub-class, and v2.1's signed-readout criterion as the load-bearing mathematical primitive that operates outside that sub-class too. Both are correct at their respective scopes. v3 verdict: anomaly is the **canonical physical source of negative-weight readout generators** in lattice-gauge observables, not the iff primitive.
 
@@ -203,7 +203,7 @@ Carrying v2's 6 personas + adding P7 Synthesis Arbiter:
 
 - **P7 (Synthesis Arbiter, NEW for v3):** Reconciles v2 and v2.1 without smuggling. Key finding: v2 and v2.1 use different *primitives* for the same *architecture*. v2's PCP-bridging primitive + v2.1's signed-readout primitive can both be kept by separating into provenance-layer architecture (v2) + readout-layer primitive (v2.1). v3 keeps both. The disagreement on "is anomaly the iff primitive" is honest — v2 says yes-within-lattice-gauge-sub-class; v2.1 says no-in-general — and v3 reports both honestly rather than picking one. No smuggling.
 
-All seven personas converge: **v3 PARTIAL (factorization HOLDS; anomaly-iff FAILS as primitive but HOLDS as sub-domain corollary)** is the honest synthesis.
+All seven perspectives converge: **v3 PARTIAL (factorization HOLDS; anomaly-iff FAILS as primitive but HOLDS as sub-domain corollary)** is the honest synthesis.
 
 ---
 
@@ -216,7 +216,7 @@ All seven personas converge: **v3 PARTIAL (factorization HOLDS; anomaly-iff FAIL
 - ✓ v3 iff theorem precisely stated (§2.1) with explicit scope (§2.3).
 - ✓ Verdict: PARTIAL with explicit articulation of v1 → v2/v2.1 → v3 trajectory (§2.4).
 - ✓ internal origin artifact reframe implication: Option N+++ recommended (full in `v3-wrk386-reframe-note.md`).
-- ✓ 7-persona dialectic completed (`v3-persona-dialectic.md`): v2's 6 + Synthesis Arbiter.
+- ✓ 7-perspective dialectic completed (`v3-perspective-dialectic.md`): v2's 6 + Synthesis Arbiter.
 - ✓ HARD RULES respected: zero writes to Github Repos/, zero canon writes, zero work.json edits, zero stage regression, [speculation] tagging used.
 - ✓ No smuggling: when v2 and v2.1 disagree on "is anomaly the iff primitive," v3 surfaces the disagreement honestly and reports the resolution via sub-domain scoping rather than picking one side.
 

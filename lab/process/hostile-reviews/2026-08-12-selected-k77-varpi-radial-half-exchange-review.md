@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-060541-gu-varpi-radial-half-exchange
 verdict: SURVIVES_AFTER_LAYER_REPAIR__FULL_PARENT_COMPONENT_AND_MOVING_SOLDERED_DOUBLET_ONLY__PURE_RADIAL_POTENTIAL_ZERO
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: trace-radial varpi half-exchange gate

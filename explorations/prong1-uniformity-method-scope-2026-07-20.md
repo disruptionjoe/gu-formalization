@@ -18,9 +18,7 @@ reuses:
   - tests/channel-swings/n2_end_family_probe.py
 runnable:
   - tests/channel-swings/prong1_scope_checks.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

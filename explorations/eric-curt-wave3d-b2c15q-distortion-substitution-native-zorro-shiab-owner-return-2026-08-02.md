@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260802-083641-gu-formalization-ecw3d-b2c15q-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2c15q-distortion-substitution-native-zorro-shiab-owner-return.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c15q_distortion_substitution_native_zorro_shiab_owner_return_probe.py
 grade: "B2C15Q PARTIAL CONSTRUCTION PASS WITH ACTION-PLACEMENT AND OWNER-ORDER STOPS. The leading quadratic BCH connection term of the B2C15P distortion reduction depends only on Delta=c3^2-c11^2. Exhaustive exact Clifford algebra checks all 66,066 grade-three pairs; 6,006 live brackets span the 91 connection directions, and one common reduction value has quadratic rank 91. This is not the full Maurer--Cartan connection: higher BCH h-terms remain. The actual 71-leg Zorro curvature maps to 13 compatible grade-two Shiab coefficients. A shaped realizable quadratic connection pattern pairs by 51/8, but Weinstein's written I1 pairs T rather than q_red with the Shiab image. Adding this pairing is a new lambda_red-weighted action ansatz, so no physical constraint or surplus is claimed. Exact finite Green and source-owner comparators pass but are not the native tensorial variation. All eight fixed-curvature moving-Shiab slots are live and the local ten-metric-direction response has rank 10. The raw curvature linearization, Zorro graph, expanded formal adjoint, and background/variation jet burdens remain to be assembled. The 13-form observation coefficient splits into four (3,10) and nine (4,9) legs; raw pullback is zero, ordinary fibre Gysin can retain only the former with proper-support data, and an equation-dual is a separate unbuilt map."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C15Q quadratic connection and native response

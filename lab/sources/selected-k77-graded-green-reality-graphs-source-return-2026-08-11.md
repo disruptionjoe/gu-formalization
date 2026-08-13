@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-161937-gu-k77-graded-green-reality-graphs
 return: SOURCE-SILENT
 ---
 

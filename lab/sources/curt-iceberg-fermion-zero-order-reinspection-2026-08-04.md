@@ -5,9 +5,7 @@ doc_type: secondary-source-reinspection
 created: 2026-08-04
 title: "Curt Iceberg fermion/zero-order reconstruction and Weinstein's paired correction"
 grade: "TIMESTAMPED SECONDARY TRANSCRIPT REINSPECTION plus primary-speaker collision; no displayed on-screen formula, coefficient, action, or physical recovery is certified"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Curt's Iceberg on the fermion operator, Higgs, and Yukawa placement

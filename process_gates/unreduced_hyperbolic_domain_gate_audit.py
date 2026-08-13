@@ -34,14 +34,14 @@ def strict(relative: str):
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.168.json")
 result = strict("lab/process/selected-k77-unreduced-hyperbolic-domain-gate.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 rows = {row["id"]: row for row in ledger["rows"]}
 expected_rows = {"RA-D4", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"}
 migrations = [item for item in ledger["migrations"] if item["to_version"] == "0.168"]
 
 check("ledger schema is v0.168", ledger["schema_version"] == "0.168")
 check("ledger predecessor is v0.167", ledger["predecessor"].endswith("v0.167.json"))
-check("run id is exact", ledger["updated_by"] == result["run_id"] == "RUN-20260811-071031-gu-k77-unreduced-hyperbolic-domain-gate")
+check("run id is exact", ledger["updated_by"] == result["run_id"] == "historical-investigation")
 check("headline is unchanged", ledger["frontier_delta"]["headline_delta"] == "NONE")
 check("frontier is one closed one opened three remaining", ledger["frontier_delta"] == {"headline_delta": "NONE", "conditions_closed": 1, "conditions_opened": 1, "remaining_named_conditions": 3})
 check("coverage remains 82 of 82", ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82)

@@ -3,12 +3,8 @@ title: "Index: five frontier design packets (2026-08-11)"
 status: active_research
 doc_type: design_packet_index
 created: 2026-08-11
-run_id: RUN-20260811-234500-gu-five-frontier-design-packets
-lane: "1 (packets 1-4) and 2 (packet 5)"
 reviewed_at_revision: bdd2c934 (agent/operator-anomaly-big-swing; all five packets pinned there — later waves supersede by default)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 binding: >-
   Discovery-adjacent design input. The five packets bind no wave, make no
   disposition, and grant no execution authority; every disposition is
@@ -75,7 +71,7 @@ first decisive steps a wave can implement independently.
    stability). First steps: RB6 exact-derivative recertification (M-C2's
    unfinished half), then the named-but-never-executed
    pairing-table/formal-adjoint-sign wave.
-5. **Lane 2 prediction packet + XS-S typing.**
+5. **prediction research prediction packet + XS-S typing.**
    `explorations/lane2-prediction-packet-design-2026-08-11.md`. Core: the
    anchor's XS-S question is stale — in-tree results already reduced the
    residue to one dimensionful scale and excluded the symmetry/adjointness
@@ -94,7 +90,7 @@ first decisive steps a wave can implement independently.
   per-field narrative), and a fourth found a prior probe aimed at the
   wrong group candidate (W232). This extends the recorded
   "artifacts honest, dashboards stale-optimistic" meta-pattern to the
-  anchor-facts block. PROPOSED (Lane A): a bounded anchor-facts
+  anchor-facts block. PROPOSED (research maintenance): a bounded anchor-facts
   re-verification pass over the context pack, artifact-cited line by line.
 - **Never-run decisive computations cluster.** Each pass found at least
   one cheap, decisive, never-executed computation already implied by the

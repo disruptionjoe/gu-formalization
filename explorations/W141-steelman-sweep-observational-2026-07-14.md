@@ -1,10 +1,10 @@
 ---
 artifact_type: exploration
-status: exploration (W141; five-team full-roster steelman sweep, FAMILY TEAM 3: observational / experimental / data; 12 personas inline, 24 stories, scored against the W138 battery and the W136 kill list; re-framed mid-wave per Joe's correction: known-rate declaration, no schedule exotica)
+status: exploration (W141; five-team full-roster steelman sweep, FAMILY TEAM 3: observational / experimental / data; 12 perspectives inline, 24 stories, scored against the W138 battery and the W136 kill list; re-framed mid-wave per Joe's correction: known-rate declaration, no schedule exotica)
 created: 2026-07-14
 wave: W141
-hypothesis: "Joe's framing, steelmanned assumption-first, as CORRECTED mid-wave: the claim is minimal. Science ALREADY KNOWS the dark-energy expansion rate; W135 (16e476f) measured it in repo units (rho_Lambda ~ (2.24 meV)^4; bookkeeping rate q_B = 3 H0 rho_Lambda ~ one Planck luminosity per Hubble volume to ~3%; dimensionless ladder q_B/(H0^3 M_Pl^2) = 9 Omega_Lambda = 6.16). The steelman question per persona: IF that known measured number is DECLARED as the issuance input to the source action, what OTHER information can be backed out (spec FIT rows, scales, relations) for later rigorous checking. The distribution function F = q x f describes how the known rate reaches observer slices. Bitcoin-specific schedule exotica (halving, difficulty adjustment, any schedule deviating from the known constant rate) are OUT OF SCOPE by the correction. Kills only after generation."
-title: "W141 (corrected framing): the observational-family sweep of what the KNOWN measured issuance rate, declared as input, pins. 12 personas (slice E roster), 24 stories generated; 5 canonical F-shapes killed at generation by the W138 gates (matter-tracking F fails G1b by ~2400x past the 1e19 margin; dust-like schedule fails G2 by 10x; horizon-thermodynamic normalization fails G5 as a dS relabeling; rate-read structural constants fail G4; mu_DW-normalized totals fail G3), 3 persona stories killed for zero observational purchase, and 2 formerly ranked stories (S4 schedule wiggle, S5 clustered issuance in its w != -1 form) RECLASSIFIED OUT-OF-SCOPE under the correction (retained as records, not survivors). BACKED-OUT LEDGER, ranked: S1 the known-rate declaration itself (pins (B_i, f0) = (0, 0) and SA-G5 = 2; exact-LCDM is the PREDICTION; pre-registered DESI DR3 regression call, K5 wire, 2026-27); S2 neutrino anchor backed out of the known number (m_lightest ~ 2.3 meV: JUNO normal ordering, sum m_nu ~ 61 meV near-minimal, m_bb <= ~5.4 meV so ton-scale 0nubb DETECTION = kill; K8 wire, 2026-28); S3 fork-B geometric ratio backed out (mu_emb = 1.93 meV, ratio band [0.41, 0.57] forces the Yukawa deviation into the 42-58 um window just below current sub-mm bounds); S4' seesaw scale 1.3e16 GeV (Hyper-K proton decay, OOM-tier); plus the distribution-form ledger (S6 edge window, S7 C-compression). Everything conditional on the declaration; nothing asserted."
+hypothesis: "Joe's framing, steelmanned assumption-first, as CORRECTED mid-wave: the claim is minimal. Science ALREADY KNOWS the dark-energy expansion rate; W135 (16e476f) measured it in repo units (rho_Lambda ~ (2.24 meV)^4; bookkeeping rate q_B = 3 H0 rho_Lambda ~ one Planck luminosity per Hubble volume to ~3%; dimensionless ladder q_B/(H0^3 M_Pl^2) = 9 Omega_Lambda = 6.16). The steelman question per perspective: IF that known measured number is DECLARED as the issuance input to the source action, what OTHER information can be backed out (spec FIT rows, scales, relations) for later rigorous checking. The distribution function F = q x f describes how the known rate reaches observer slices. Bitcoin-specific schedule exotica (halving, difficulty adjustment, any schedule deviating from the known constant rate) are OUT OF SCOPE by the correction. Kills only after generation."
+title: "W141 (corrected framing): the observational-family sweep of what the KNOWN measured issuance rate, declared as input, pins. 12 perspectives (slice E roster), 24 stories generated; 5 canonical F-shapes killed at generation by the W138 gates (matter-tracking F fails G1b by ~2400x past the 1e19 margin; dust-like schedule fails G2 by 10x; horizon-thermodynamic normalization fails G5 as a dS relabeling; rate-read structural constants fail G4; mu_DW-normalized totals fail G3), 3 perspective stories killed for zero observational purchase, and 2 formerly ranked stories (S4 schedule wiggle, S5 clustered issuance in its w != -1 form) RECLASSIFIED OUT-OF-SCOPE under the correction (retained as records, not survivors). BACKED-OUT LEDGER, ranked: S1 the known-rate declaration itself (pins (B_i, f0) = (0, 0) and SA-G5 = 2; exact-LCDM is the PREDICTION; pre-registered DESI DR3 regression call, K5 wire, 2026-27); S2 neutrino anchor backed out of the known number (m_lightest ~ 2.3 meV: JUNO normal ordering, sum m_nu ~ 61 meV near-minimal, m_bb <= ~5.4 meV so ton-scale 0nubb DETECTION = kill; K8 wire, 2026-28); S3 fork-B geometric ratio backed out (mu_emb = 1.93 meV, ratio band [0.41, 0.57] forces the Yukawa deviation into the 42-58 um window just below current sub-mm bounds); S4' seesaw scale 1.3e16 GeV (Hyper-K proton decay, OOM-tier); plus the distribution-form ledger (S6 edge window, S7 C-compression). Everything conditional on the declaration; nothing asserted."
 grade: "exploration / conditional-theorem register throughout. Every story is a property of a DECLARED conditional theory (the W136 issuance declaration, with the declared input now stated in W135's measured form, plus the story's own F-assumption), never of GU. COMPUTED (deterministic, tests/W141_steelman_observational_scoring.py, 15/15 exit 0): the scoring arithmetic (the declared-input ladder 9 Omega_L = 6.16 recomputed; matter-tracking enhancement 2.4e22 vs the 1e19 gate; the S6 edge window [1.2e18, 1.2e19]; the schedule ratios 0.744/0.3 = 2.48 and 3.0/0.3 = 10; the two-scale band-to-floor loop closure and the 42-58 um Yukawa window; the K8 stretch factor 43.5; the S2 neutrino numbers sum ~61.3 meV and m_bb <= 5.35 meV). CITED, binding, not re-derived: W135 (16e476f) measured rate, null-structure separator (rho = const has Q = 0 identically), Planck-luminosity coincidence caveats; W136 (cc227b0) beta/alpha* = 2, f0 = 0 natural point, K1-K8; W138 (ec00fbd) gates G1-G6 with frozen bounds; W129 DE exclusion machinery (verified, reusable); W137 (9cb9f4c) C1/C3 conjectures; H36 dead, B2 rate identity FALSE, both honored everywhere. NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; no spec FIT row moves."
 construction: "standard-field throughout for every F and every discriminant (FRW continuity, ephemerides, sub-mm Yukawa phenomenology, neutrino mass observables), per GEOMETER-VS-PHYSICS-OBJECTS.md, so the stories bind any construction; program-native objects enter only as CITED repo results (the a0 = 2 constant, the (B_i, f0) determined pair, the C-operator compression of W137 C1). Forks named where they bite: S3 lives entirely on W136 fork B (two-scale escape, keep branch) and carries its H24-revision cost; S1/S4 live on the W136 baseline (keep branch, measure-stable)."
 depends_on:
@@ -13,8 +13,8 @@ depends_on:
   - explorations/W138-issuance-kill-battery-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W129-oq2-m2-band-sweep-de-exclusion-2026-07-14.md
-  - explorations/two-track-persona-sweep-2026-07-11/E-pragmatic-experimental.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/E-pragmatic-experimental.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
 scripts:
   - tests/W141_steelman_observational_scoring.py
 ---
@@ -28,7 +28,7 @@ minimal: science ALREADY KNOWS the dark-energy expansion rate. W135 (16e476f) me
 repo units: rho_Lambda ~ (2.24 meV)^4; the bookkeeping rate q_B = 3 H0 rho_Lambda is ~one
 Planck luminosity per Hubble volume to ~3% (coincidence caveats named there); the dimensionless
 ladder is q_B/(H0^3 M_Pl^2) = 9 Omega_Lambda = 6.16 (recomputed in this wave's test). The
-steelman question per persona: IF that known measured number is DECLARED as the issuance input
+steelman question per perspective: IF that known measured number is DECLARED as the issuance input
 to the source action, what OTHER information can be backed out (spec FIT rows, scales,
 relations) for later rigorous checking. This is NOT the falsified naive record-cost claim (the
 W137 positive-ledger reading is dead; the SIGNED ledger survives), and it is NOT the B2 rate
@@ -47,7 +47,7 @@ W139/W140 and the parallel family teams are unread by design.
 
 ## 0a. The mid-wave framing correction and its scope ruling
 
-The persona pass below was generated under the pre-correction brief ("set issuance rate,
+The perspective pass below was generated under the pre-correction brief ("set issuance rate,
 distributed through observers, any F"). The correction narrows the target: the schedule factor
 of F is NOT free; it is the known measured constant rate. The generated stories are retained as
 the record (kills stay kills), and the scope ruling is applied at scoring time:
@@ -68,10 +68,10 @@ the record (kills stay kills), and the scope ruling is applied at scoring time:
 
 ## 0. Family coverage
 
-The two-track persona sweep partitions the roster into five families (A orthodox/rigor,
+The two-track perspective sweep partitions the roster into five families (A orthodox/rigor,
 B geometric/structural, C foundations/observer, D wild frontier, E pragmatic/experimental).
 The OBSERVATIONAL / EXPERIMENTAL / DATA family of this brief is slice E, taken whole: all 12
-personas, run inline in one context, no sub-agents.
+perspectives, run inline in one context, no independent reviewers.
 
 1. Commercial scientist. 2. Observational cosmologist (DESI/CMB, BAO distances).
 3. Gravitational-wave phenomenologist. 4. Collider / particle phenomenologist.
@@ -98,7 +98,7 @@ distribution weight over observer slices. The gates then bind the two factors se
   rho_L V_H ~ T_dS S_dS with no new degree of freedom; G3 kills any mu_DW-normalized total;
   G4 kills any story whose "rate" is a structural constant (f0, c_L, alpha_W).
 
-## 2. Canonical kills at generation (shared across personas, one line each)
+## 2. Canonical kills at generation (shared across perspectives, one line each)
 
 | # | F-shape | Kill |
 |---|---|---|
@@ -108,14 +108,14 @@ distribution weight over observer slices. The gates then bind the two factors se
 | CK-4 | Rate-read F (f0 or c_L or alpha_W "is" the issuance rate) | G4: standing B2 kill, rates are quotiented fibers and enter no structural equation. KILLED-AT-GENERATION (cited). |
 | CK-5 | mu_DW-normalized F (issuance total set by c_L mu_DW^4 at O(1)) | G3: H36 non-reimport, excluded >= 4.775x at the envelope minimum. KILLED-AT-GENERATION (cited). |
 
-Persona stories that reduced to a canonical kill are marked below and not double-counted.
+Perspective stories that reduced to a canonical kill are marked below and not double-counted.
 
-## 3. The persona pass (12 personas, 2 stories each, inline)
+## 3. The perspective pass (12 perspectives, 2 stories each, inline)
 
-Format per story: (i) F, specific; (ii) the assumption leg (what it pins); (iii) the persona's
+Format per story: (i) F, specific; (ii) the assumption leg (what it pins); (iii) the perspective's
 sharpest observational discriminant with timeline. Generation-kills get one line.
 
-### Persona 1: Commercial scientist
+### Perspective 1: Commercial scientist
 
 **1A (converges with 7A/9A into survivor S1).** (i) F = the trivial allocation: q(t) = 3 H rho_L
 exactly, f = 1 everywhere; the set rate is the exact-Lambda bookkeeping rate and the
@@ -137,7 +137,7 @@ Gdot/G bounds (~1e-12 to 1e-13/yr): the predicted drift A x 8.5e-33/yr sits betw
 1e-13/yr, i.e. inside the improvement reach of INPOP/EPM updates and pulsar timing over the
 next ~10 years. Either detected or the window closes.
 
-### Persona 2: Observational cosmologist (DESI/CMB)
+### Perspective 2: Observational cosmologist (DESI/CMB)
 
 **2A (converges with 10A/7B into survivor S4).** (i) F uniform in space, scheduled by the
 collective record rate: rho_iss(a) = rho_0 [1 + eps s(a)], s(a) the normalized integrated
@@ -164,7 +164,7 @@ smooth (c_s = 1) DE is distinguishable in ISW x galaxy cross-correlation and CMB
 amplitude at |1 + w| ~ 0.05 with DESI x Planck/ACT now and CMB-S4-era data later; part of the
 test is runnable on EXISTING public data. Timeline: now to early 2030s.
 
-### Persona 3: GW phenomenologist
+### Perspective 3: GW phenomenologist
 
 **3A.** (i) F distributed through the effective Planck-mass normalization of each slice: the
 issuance exchange with the a0 channel shows up as a cosmological drift of the graviton coupling,
@@ -179,9 +179,9 @@ the drift is a background normalization. SURVIVES gates; ranked mid (discriminan
 **3B (folded into survivor S3, the scale leg).** (i) F routed through the massive spin-2 /
 Yukawa mode at mu_DW as mediator of the local allocation. (ii) Assumption leg: the W136 fork-B
 two-scale escape (mu_emb = 1.93 meV, geometric ratio mu_emb/mu_DW in [0.41, 0.57]). (iii)
-Discriminant: sub-mm gravity, see persona 5. (Same object as 5A; counted once.)
+Discriminant: sub-mm gravity, see perspective 5. (Same object as 5A; counted once.)
 
-### Persona 4: Collider phenomenologist
+### Perspective 4: Collider phenomenologist
 
 **4A.** (i) F normalized through the Majorana spurion channel (SA-Y8): the issuance datum sets
 the seesaw conversion v^2/rho^(1/4) = 1.3e16 GeV, read as the heavy-Majorana / unification
@@ -194,9 +194,9 @@ discriminant on the board.
 
 **4B.** (i) F with a vectorlike mirror condensate as the G1a ledger sector. (ii/iii) The mirror
 mass is a free modulus; collider absence never falsifies, no near-term kill exists.
-KILLED-AT-GENERATION (no defensible observational discriminant; the persona's own W-sweep Q3).
+KILLED-AT-GENERATION (no defensible observational discriminant; the perspective's own W-sweep Q3).
 
-### Persona 5: Precision-tests experimentalist
+### Perspective 5: Precision-tests experimentalist
 
 **5A (survivor S3, with 3B).** (i) F two-scale: the issuance total is set by the embedding scale
 mu_emb = (rho_obs/c)^(1/4) = 1.93 meV (c = 2 chart), distributed locally through the mu_DW
@@ -217,14 +217,14 @@ improvement by a factor ~1.4 in mu.
 **5B.** (i) F curvature-coupled locally (q tracks matter density). Reduces to CK-3: enhancement
 2.4e22 > 1e19. KILLED-AT-GENERATION (computed).
 
-### Persona 6: Model-builder
+### Perspective 6: Model-builder
 
 **6A.** (i) F as the minimal nested model "issuance-LCDM": parameters (rho_0 input; eps
 schedule amplitude with SFH shape; optional c_s ~ 0 switch), i.e. the S4 + S5 union as ONE
 declared conditional model. (ii) Assumption leg: converts SA-G3/G4/G5 into determined-or-
 templated rows at the price of exactly one new declaration row (eps). (iii) Discriminant: the
 model is one-parameter nested over LCDM; DESI DR3 + Rubin gives a proper Bayes factor
-(the forecaster's persona owns the number). SURVIVES; counted inside S4/S5 rather than as a
+(the forecaster's perspective owns the number). SURVIVES; counted inside S4/S5 rather than as a
 separate survivor.
 
 **6B.** (i) F through the W137 C1 compression: allocation weight w(sigma) proportional to the
@@ -238,7 +238,7 @@ pulsar timing bound Gdot/G < few e-13/yr but the story does not pin the magnitud
 gates; ranked low (assumption leg sharp, discriminant unpinned). Cheapest sharpener is
 W137 K2's compressed-metric test, which is a computation, not an observation.
 
-### Persona 7: Forecaster / Bayesian
+### Perspective 7: Forecaster / Bayesian
 
 **7A (survivor S1, the sharp form).** (i/ii) Same F as 1A. (iii) The Bayesian discriminant
 stated as a pre-registered call: under S1 the DR2 w0-wa preference is a fluctuation, so the
@@ -252,9 +252,9 @@ joint precision); below eps ~ 0.03 the story is indistinguishable from S1 at thi
 generation. Honest statement: S4 is falsifiable-now only in eps in [0.03, 0.3]; outside it,
 S4 collapses into S1's wire.
 
-### Persona 8: Portfolio lens
+### Perspective 8: Portfolio lens
 
-**8A (survivor S2, joint form with persona 12).** (i) F uniform in space (CNB-channel
+**8A (survivor S2, joint form with perspective 12).** (i) F uniform in space (CNB-channel
 allocation: the issuance reaches every slice through the relic-neutrino background, uniform to
 1e-5, trivially inside G1b), with the NORMALIZATION anchored in the neutrino sector:
 rho_obs^(1/4) = kappa m_lightest, kappa = O(1) declared. (ii) Assumption leg: pins SA-Y8 and
@@ -268,13 +268,13 @@ the K8 kill (stretch factor 43.5 > 40, wire live); (c) neutrinoless double beta:
 predicts m_bb <= ~5.4 meV, BELOW ton-scale reach (LEGEND-1000, nEXO, ~10-20 meV): any 0nubb
 DETECTION this generation implies quasi-degenerate or inverted and kills the anchor. The
 anti-correlated portfolio structure (S1's K5 wire and S2's K8 wire fire on different data) is
-the portfolio persona's contribution: the pair cannot both die on the same release.
+the portfolio perspective's contribution: the pair cannot both die on the same release.
 
 **8B.** (i) Two-proxy schedule (SFR vs black-hole accretion history) with shape discrimination.
 (ii/iii) Shape separation needs post-DR3 precision (Rubin + Roman, early 2030s). SURVIVES;
 ranked low inside S4 as its 2030s extension, not counted separately.
 
-### Persona 9: Referee
+### Perspective 9: Referee
 
 **9A.** The referee's demand ("one number predicted before you saw it") is satisfied only by
 pre-registration; converges into S1: publish the exact-LCDM regression call BEFORE DR3.
@@ -287,7 +287,7 @@ public lensing likelihoods make this a computation, not a proposal. If the templ
 band edge is already excluded, S5 dies today at zero telescope cost. Counted inside S5 as its
 execution order.
 
-### Persona 10: Data analyst
+### Perspective 10: Data analyst
 
 **10A (inside S4).** The implementable object: rho_iss(a) = rho_0 [1 + eps s(a)] dropped into
 the W129/H46C pipeline; deliverable is the eps posterior against DESI DR2 BAO + theta_star now
@@ -301,7 +301,7 @@ nonzero eps WITH the right shape, that is exactly the claim G2 forbids making fr
 and the pre-registered DR3 test inherits it. This check enforces W138's "must not claim the
 DESI wiggle" clause mechanically.
 
-### Persona 11: Strong-field relativist
+### Perspective 11: Strong-field relativist
 
 **11A.** (i) F record-weighted near horizons (black holes carry no records, so holes get zero
 allocation, a local Lambda deficit). (ii/iii) At rho_L density the deficit is ~40 orders below
@@ -312,9 +312,9 @@ scale).
 Gdot/G) closes the same [1.2e18, 1.2e19] edge window from an independent systematics family;
 jointly with ephemerides the window is fully closable within ~10 years. Counted inside S6.
 
-### Persona 12: Neutrino / flavor phenomenologist
+### Perspective 12: Neutrino / flavor phenomenologist
 
-**12A (survivor S2, owner).** As 8A; the persona's own sharpening is the 0nubb NULL prediction
+**12A (survivor S2, owner).** As 8A; the perspective's own sharpening is the 0nubb NULL prediction
 (m_bb <= ~5.4 meV, computed with free Majorana phases at PDG-scale angles): a ton-scale
 detection is a kill, not a confirmation, which makes S2 unusual among neutrino-anchored DE
 stories (most predict signals; this one forbids one).
@@ -416,7 +416,7 @@ discriminant lands in 2026-2028 data, so the assumption-first posture is cheaply
   correction.
 - Timelines (DESI DR3, JUNO, LEGEND-1000/nEXO, LVK O5, ET/LISA) are cited at
   community-schedule grade.
-- The persona pass (Section 3) is the pre-correction generation record; the correction is
+- The perspective pass (Section 3) is the pre-correction generation record; the correction is
   applied at Sections 0a, 4, 5, 6. Nothing in the record was rewritten to look prescient.
 - Tri-repo gating: "issuance" is a local postulate label per W136; the issuance concept is
   owned by the temporal-issuance repo; no cross-repo identity claim is made (R5 kill stands);
@@ -428,8 +428,8 @@ discriminant lands in 2026-2028 data, so the assumption-first posture is cheaply
   kills are consistent with, and independent of, this sweep's. Parallel family teams
   (W139-W143 others) unread by design.
 
-*Filed 2026-07-14. FAMILY TEAM 3 (observational / experimental / data), 12 personas inline in
-one session, no sub-agents; re-framed mid-wave per Joe's correction (known-rate declaration,
+*Filed 2026-07-14. FAMILY TEAM 3 (observational / experimental / data), 12 perspectives inline in
+one session, no independent reviewers; re-framed mid-wave per Joe's correction (known-rate declaration,
 no schedule exotica). Reproducible:
 `python -u tests/W141_steelman_observational_scoring.py` (15/15, exit 0). Exploration grade;
 no canon movement.*

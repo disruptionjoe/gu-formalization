@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-11
 status: ZERO_FORM_GENERATES_SPECIAL_CONDITIONAL_H640__FULL_BV_AND_SELECTION_OPEN
 grade: "exact characteristic-zero zero-seed module plus two-prime exact natural and planted controls; no lower-order BV, physical cohomology, global domain, chirality, index or count"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 zero-seed H640 action-closure controls

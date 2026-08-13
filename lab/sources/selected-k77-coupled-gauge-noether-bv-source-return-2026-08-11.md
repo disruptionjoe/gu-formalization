@@ -1,10 +1,7 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-030337-gu-k77-coupled-gauge-noether-bv
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return: coupled ordinary-gauge Noether/BV gate

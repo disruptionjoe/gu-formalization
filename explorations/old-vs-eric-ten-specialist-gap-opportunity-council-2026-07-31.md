@@ -4,14 +4,12 @@ status: active_research
 doc_type: science_council
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T132849Z-old-eric-ten-lens-council/run-plan.md
+run: archived private execution record
 matrix: lab/process/old-vs-eric-ten-lens-gap-matrix.json
 dictionary: lab/specifications/old-vs-eric-object-dictionary-2026-07-31.md
 probe: tests/channel-swings/old_vs_eric_ten_lens_contract_probe.py
 grade: "TEN-LENS CONSTRUCTION REORDERING WITH EXACT TYPE CORRECTIONS AND EXECUTABLE CONTRACT CONTROLS. The council identifies the derivative-cocycle, coupled-Noether, and ultrahyperbolic observation-domain layers omitted from the first guided scaffold; preserves the existing K-paired vertical Yukawa channel and typed P1/P2 weld; and supplies a revised ten-swing build sequence. No global action, quotient-stack equivalence, well-posed ambient domain, stationary VEV, Standard Model Higgs, PP3 emission, index, or observed generation count is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Old construction versus Eric guidance: ten-specialist council

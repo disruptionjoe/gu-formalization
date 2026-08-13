@@ -51,7 +51,7 @@ PAPER_CERT_DIRS = [
 ]
 
 # Path fragments that mark a directory as non-certificate scratch/cache; never run these.
-SKIP_DIR_FRAGMENTS = ("__pycache__", ".cache", ".pytest_cache", ".git", "hourly-cycles")
+SKIP_DIR_FRAGMENTS = ("__pycache__", ".cache", ".pytest_cache", ".git", "research-cycles")
 
 # Library modules: shared engines imported by other certificates (named seeds plus every
 # tests module imported by >= 3 other tracked tests modules). They are NOT certificates —

@@ -37,7 +37,7 @@ alternative real forms, and a route to curved anti-self-dual geometry that is
 not visible if one freezes the Minkowski affine chart at the start.
 
 The flat real-slice/incidence kernel now closes with exact controls, and the
-finite OS covariance controls close on their declared spans. This run does
+finite OS covariance controls close on their declared spans. This investigation does
 not instantiate a curved nonlinear-graviton construction or a full OS field
 theory. The GU transfer does not close. The run's terminal disposition is:
 
@@ -485,7 +485,7 @@ The ledger is grounded in the following current repository surfaces:
 - partial classical source action:
   `explorations/W125-source-action-first-build-2026-07-13.md:46-75,139-155`;
 - physical quotient obligation:
-  `explorations/hourly-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md:24-111`;
+  `explorations/research-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md:24-111`;
 - the unresolved `Pi_RS^phys`/generation versus representation-level split:
   `explorations/W221-falsify-generation-count-structure-2026-07-14.md:64-107`;
 - paper-facing internal representation status:
@@ -676,14 +676,14 @@ bundle outside the declared almost-complex branch.
 This is an information/dependency proposal produced by this run, not a
 durable queue movement. Current repository authority remains:
 
-- `B5-INDEPENDENT-RECONSTRUCTION` is the global Lane 1 lead;
+- `B5-INDEPENDENT-RECONSTRUCTION` is the global truth-status research lead;
 - the existing OS-Theta packet remains the recorded Woit-derived follow-up;
 - the B5 twistor transform cannot execute before the complete `m_ij`
   enumeration and a typed tangent/cotangent adapter;
 - H27 is closed at `NOT FORCED`.
 
 Because the OS target is source-blocked while domain selection is executable,
-this run proposes the following local ordering. It does not edit
+this investigation proposes the following local ordering. It does not edit
 `NEXT-STEPS.md`, move a lane, or supersede stewardship.
 
 1. **`GU-TWISTOR-OBSERVER-DOMAIN-FREEZE`** — choose the flat/developable or

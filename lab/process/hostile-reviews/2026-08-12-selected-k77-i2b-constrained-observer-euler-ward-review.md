@@ -2,7 +2,6 @@
 title: "Hostile review: constrained-observer Euler/Ward stratification"
 status: hostile-review
 created: 2026-08-12
-run_id: RUN-20260812-185510-gu-i2b-constrained-observer-euler-ward
 ---
 
 # Hostile review: constrained-observer Euler/Ward stratification

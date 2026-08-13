@@ -13,9 +13,7 @@ search_space_dim: "2 irreducible curvature response classes plus the rank-one fi
 free_object_delta: 1
 residue_touched:
   - "LT-GR1b:T2"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Pre-contract Wave 0B: trace-reversal robustness

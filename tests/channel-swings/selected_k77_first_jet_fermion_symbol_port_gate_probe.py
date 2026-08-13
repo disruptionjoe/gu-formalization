@@ -406,7 +406,7 @@ for kind, label in (
     check(kind, label, True)
 
 RESULT = {
-    "run_id": "RUN-20260811-233153-gu-k77-first-jet-fermion-symbol-port-gate",
+    "run_id": "historical-investigation",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,
     "packets": packets,

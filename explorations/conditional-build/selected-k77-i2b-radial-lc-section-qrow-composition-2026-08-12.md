@@ -1,7 +1,6 @@
 ---
 artifact_type: conditional_build_result
 created: 2026-08-12
-run_id: RUN-20260812-145145-gu-i2b-radial-lc-section-qrow-composition
 status: LOCAL_FIRST_ORDER_COMPOSITION_PASSES__FULL_EULER_PREBOUNDARY_OPEN
 ---
 

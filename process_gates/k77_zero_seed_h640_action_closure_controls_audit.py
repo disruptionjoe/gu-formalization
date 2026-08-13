@@ -38,7 +38,7 @@ def check(kind, label, value):
 ledger = strict("lab/process/conditional-physics-ledger-v0.182.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.181.json")
 result = strict("lab/process/selected-k77-zero-seed-h640-action-closure-controls.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.182"
@@ -117,7 +117,7 @@ check("routing", "successor is full BV/KT on H640 with full-carrier control",
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.182", "mandatory control"],
     "RESEARCH-STATUS.md": ["ledger v0.182", "distinct rank-1280"],
-    "lab/process/agent-context-pack.md": ["Current v0.182", "source-selected physical"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.182", "source-selected physical"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-zero-seed-h640-action-closure-controls-review.md": ["SURVIVES_SCOPED", "Symplectic", "equal rank 1280"],
     "lab/sources/selected-k77-zero-seed-h640-action-closure-controls-source-return-2026-08-11.md": ["SOURCE-SILENT", "repository construction"],
 }.items():

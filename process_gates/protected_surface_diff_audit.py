@@ -26,7 +26,7 @@ PROTECTED_EXACT_PATHS = {
     "LICENSE-DOCS.md",
     "lakefile.lean",
     "lean-toolchain",
-    "lab/process/runbooks/claim-status-consistency-quality-workflow.md",
+    "lab/methods/claim-status-consistency.md",
     "lab/sources/claim-ledger.md",
     "lab/sources/claim-ledger-v1-draft.md",
 }

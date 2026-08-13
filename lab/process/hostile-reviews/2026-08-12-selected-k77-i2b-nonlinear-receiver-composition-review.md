@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-151325-gu-i2b-nonlinear-receiver-composition
 verdict: SURVIVES_SCOPED__NONLINEAR_PRODUCT_RECEIVER_EXACT__NOT_PHYSICAL_QUOTIENT_OR_EULER_CLOSURE
 ---
 

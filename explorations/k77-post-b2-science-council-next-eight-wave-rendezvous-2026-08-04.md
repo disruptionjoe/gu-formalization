@@ -3,11 +3,8 @@ artifact_type: campaign_scaffold
 created: 2026-08-04
 title: "Post-K77-B2 science council: continue with a construction-lane rendezvous"
 decision: CONTINUE_WITH_REBASE_AND_RENDEZVOUS
-lane: "1"
 registry: lab/process/k77-post-b2-next-eight-wave-campaign.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promoted: false
 ---
 

@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2I2 exact S3-fixed full-evaluator certificate"
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-05"
-run_id: RUN-20260805-054616-gu-formalization-pw2fr2b2b2i2-fixed-orbit-full-evaluator
 ---
 
 # PW2F-R2B2B2I2 exact S3-fixed full-evaluator certificate

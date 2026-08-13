@@ -405,7 +405,7 @@ check("observation", "associated-bundle descent does not repair complete 4+10 Eu
 check("accounting", "P1 P2 P3 and all horn p residue quotient canon and public-posture states remain unchanged", True)
 
 RESULT = {
-    "run_id": "RUN-20260811-194036-gu-k77-boundary-bv-observation-cohomology",
+    "run_id": "historical-investigation",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,
     "ordinary_gauge_boundary": {

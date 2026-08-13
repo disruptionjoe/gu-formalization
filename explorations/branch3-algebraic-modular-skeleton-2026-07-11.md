@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (blind-wave Branch 3; 5-persona inline team; literature check read-only + deterministic toy)
+status: exploration (blind-wave Branch 3; 5-perspective inline team; literature check read-only + deterministic toy)
 created: 2026-07-13
 hypothesis: H61 / H63 (the observer-conjecture Krein-TT critical path; the algebraic re-founding)
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -63,9 +63,9 @@ side; this branch determines that the relative side genuinely helps the **flow/s
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- von Neumann / Tomita-Takesaki algebraist (the exact positivity dependency)
+### Perspective 1 -- von Neumann / Tomita-Takesaki algebraist (the exact positivity dependency)
 
 The deliverable of Tomita-Takesaki is the pair `(Delta^{it}, J)` from the closed antilinear `S(aOmega)=a^+Omega`,
 `Delta = S^+ S`, and the polar decomposition `S = J Delta^{1/2}`. **Isolate where positivity enters:**
@@ -89,7 +89,7 @@ polar decomposition. Everything else -- the flow, the algebraic KMS relation, th
 is given -- is positivity-free. So the whole question is whether the **square root** can be obtained
 algebraically/relatively.
 
-### Persona 2 -- math referee (does the relative move remove the positivity, or only the uniqueness?)
+### Perspective 2 -- math referee (does the relative move remove the positivity, or only the uniqueness?)
 
 The relative apparatus and what each piece requires, graded:
 
@@ -109,7 +109,7 @@ only thing `J_{phi,psi}` needs beyond the flow -- **still** requires a positive 
 route does not bypass positivity for the conjugation; it relocates the positivity from "the state" to "the
 reference weight," which at HORN K is equally unavailable.
 
-### Persona 3 -- ADVERSARY (both directions)
+### Perspective 3 -- ADVERSARY (both directions)
 
 - *Against REDUCES ("the cocycle is positivity-free, so the whole relative structure is; you are smuggling
   the positive reference back in").* Pressed: the **cocycle** is positivity-free because it is a **flow-level**
@@ -134,7 +134,7 @@ reference weight," which at HORN K is equally unavailable.
 
 The three pushes are mutually consistent: the route is neither a positivity-bypass nor a no-go -- it **splits**.
 
-### Persona 4 -- CROSS-CHECKER (the literature + the toy)
+### Perspective 4 -- CROSS-CHECKER (the literature + the toy)
 
 **Literature (2026-07-13, read-only).**
 - **Gottschalk 2002** confirmed -- `Delta^{it}` = boost, BW analyticity on Krein; the flow half is a theorem.
@@ -166,7 +166,7 @@ proxy (`r -> 1` = the UV approach to the exceptional locus, `W53`).
 Two independent faces agree: the **flow/cocycle/section** structure is positivity-free; the **conjugation**
 structure reduces to definitizability.
 
-### Persona 5 -- SYNTHESIZER (the verdict)
+### Perspective 5 -- SYNTHESIZER (the verdict)
 
 See Sections 2-4.
 

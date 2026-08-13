@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-162942-gu-lorentzian-chiral-class-pairing",
+  "run_id": "historical-investigation",
   "verdict": "ABSOLUTE_TANGENTIAL_C2_UNIT_KILLED_ON_CLOSED_LORENTZIAN_SPIN_AND_ZERO_ON_GLOBALLY_HYPERBOLIC_X__REAL_CHIRAL_PAIRING_EXISTS_BUT_IS_TWO_DIMENSIONAL_AND_NOT_SOURCE_SELECTED__RELATIVE_BOUNDARY_TRANSGRESSION_REQUIRED",
   "repository_convention_c2_formulas": {
     "plus": "(2*chi-3*signature)/4",

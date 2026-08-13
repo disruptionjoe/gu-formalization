@@ -6,7 +6,7 @@ Test: `tests/W57_path3_C_cobordism.py` (deterministic, exact arithmetic, no GU m
 Grade: **argument/theorem-grade for the LOCATES verdict and the class-wide no-go; the arena facts are
 cited-from-literature (Toda/Adams/Freed-Hopkins/GEM/WWY), the arithmetic on top is COMPUTED.**
 
-This branch is run 5-persona inline (computer / referee / adversary / cross-checker / synthesizer). It is
+This branch is run 5-perspective inline (computer / referee / adversary / cross-checker / synthesizer). It is
 deliberately blind to the other branches; it delivers only branch C's graded verdict.
 
 ---
@@ -22,7 +22,7 @@ it is flagged. The two constructions do not communicate (that non-communication 
 
 ---
 
-## 1. Persona 1 -- the COBORDISM / K-THEORY COMPUTER: the group and its 3-primary summand
+## 1. Perspective 1 -- the COBORDISM / K-THEORY COMPUTER: the group and its 3-primary summand
 
 **Anomaly classification (Freed-Hopkins).** Deformation classes of reflection-positive invertible field
 theories in dimension `d` with symmetry type `H` are classified by the torsion of the Anderson-dual bordism
@@ -51,7 +51,7 @@ which `Z/3` this is; the arena arithmetic does not depend on that identification
 
 ---
 
-## 2. Persona 2 -- the MATH REFEREE: grade each claim, LOCATES vs FORCES
+## 2. Perspective 2 -- the MATH REFEREE: grade each claim, LOCATES vs FORCES
 
 | Claim | Grade | Locates or Forces |
 |---|---|---|
@@ -70,7 +70,7 @@ exactly the shape of "LOCATES, not FORCES."
 
 ---
 
-## 3. Persona 3 -- the ADVERSARY: "the class / generator you picked is the free input"
+## 3. Perspective 3 -- the ADVERSARY: "the class / generator you picked is the free input"
 
 The adversary presses on the choice. Three attacks, all of which the branch concedes as correct:
 
@@ -95,7 +95,7 @@ representation and its integer normalization -- IS the free input, and anomaly c
 
 ---
 
-## 4. Persona 4 -- the CROSS-CHECKER: reproduce the GEM 3-primary location as a known result
+## 4. Perspective 4 -- the CROSS-CHECKER: reproduce the GEM 3-primary location as a known result
 
 Independent reproduction of the standard cobordism location, to confirm branch C sits on the literature:
 
@@ -118,7 +118,7 @@ mod-3 anomaly arena is empty: `Theta_SM = 4`, integer, so `Omega^Spin_5(BG_SM) â
 
 ---
 
-## 5. Persona 5 -- the SYNTHESIZER: the graded verdict
+## 5. Perspective 5 -- the SYNTHESIZER: the graded verdict
 
 **Construction of "the count" used:** the **torsion cobordism class** -- the count as a class in the 3-primary
 summand `Z/3` of the 5d Spin-bordism/anomaly group `Omega^Spin_5(BG) âŠƒ im J_3 = pi_3^s = Z/24`. (The torsion

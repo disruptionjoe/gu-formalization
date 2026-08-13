@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-12",
-  "run_id": "RUN-20260812-181434-gu-i2b-observer-inverse-adjoint-correction",
+  "run_id": "historical-investigation",
   "predecessor": "lab/process/selected-k77-i2b-observer-associated-basicness.json",
   "checks": {"exact": 17, "planted": 1, "failures": 0},
   "correction": {

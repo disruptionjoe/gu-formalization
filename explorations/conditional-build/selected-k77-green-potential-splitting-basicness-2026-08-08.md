@@ -4,9 +4,7 @@ created: 2026-08-08
 status: SPLITTING_BASIC_EXACT_AT_COTANGENT_GRADE__CONTACT_AND_PHYSICAL_GAUGE_BASICNESS_OPEN
 channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 Green-potential splitting/basicness

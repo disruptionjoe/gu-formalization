@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.201 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; SC-ACT-04 owns the restricted curvature-linked Mexican hat, but its nonzero branch is not stationary in the full fixed-H_q connection bank without a selected reduction or background cancellation"
   },
-  "updated_by": "RUN-20260812-090014-gu-source-i2b-hq-stationarity",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

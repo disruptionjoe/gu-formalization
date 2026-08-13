@@ -2,8 +2,7 @@
 title: PW2F-R2B1 — source-coordinate correction, one-graph section JVP, and complete quartic basis
 date: 2026-08-02
 status: PARTIAL_CONSTRUCTION_PASS_AFTER_HOSTILE_REPAIR
-lane: Eric-guided Lane 1
-run: RUN-20260803-023816-gu-formalization-pw2fr2b1-section-jvp-source-coordinate
+run: historical-investigation
 ---
 
 # Result

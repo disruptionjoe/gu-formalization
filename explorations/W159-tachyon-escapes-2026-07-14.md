@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W159; TEAM TACHYON-ESCAPES; five personas inline, one worker, no sub-agents; deterministic test with W126/W128/W130 positive controls)
+status: exploration (W159; TEAM TACHYON-ESCAPES; five perspectives inline, one worker, no independent reviewers; deterministic test with W126/W128/W130 positive controls)
 created: 2026-07-14
 wave: W159
 label: W159
@@ -33,7 +33,7 @@ external_refs:
 
 ## 0. Where the load sits, and why this wave
 
-W157 killed the keystone. The exact identity `a2 = -(a1)^2` that W155/W156 personas 6 and 10
+W157 killed the keystone. The exact identity `a2 = -(a1)^2` that W155/W156 perspectives 6 and 10
 leaned on (the tachyon as the literal R^2-channel square-shadow of attractive gravity) is a
 COINCIDENCE: it holds only for the MSS-slice-reduced coefficient `a2_MSS = -1/9`, and the
 covariant coefficient that actually sets the scalaron mass, W130's `c_R = -4/9`, breaks it by a
@@ -44,7 +44,7 @@ to the two genuine escapes (the AF/AS branch fork, and gradient-sector saturatio
 weaker surviving question (is the sign FORCED).
 
 This wave settles all three, coherence-first: build each escape's story, then test it. Five
-personas inline, one worker, no sub-agents. Deterministic test
+perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W159_tachyon_escapes.py`, 16/16 exit 0, W126 + W128 + W130 positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -57,7 +57,7 @@ personas inline, one worker, no sub-agents. Deterministic test
 | UV completion | none selected; both branches carried | Route 1 is the fork itself; E2 stands (W128). |
 | Shape mix | `alpha\|II\|^2 + beta\|H\|^2` | Route 3's deformation family; `alpha < 0` admissible because the `\|II\|` norms are already indefinite. |
 
-## 2. Persona 1 -- FRG/branch specialist: route 1, and why targeting AS does not avoid the passage
+## 2. Perspective 1 -- FRG/branch specialist: route 1, and why targeting AS does not avoid the passage
 
 The strongest remaining escape: the tachyon is an AF-branch artifact, and GU actually lives on
 the AS/Reuter branch where a healthy scalaron is PERMITTED (W128). The hope is concrete: W130
@@ -98,7 +98,7 @@ strong-coupling passage AF needs (one loop cannot adjudicate it), and even past 
 permits health. Debit-1 does not dissolve via route 1. It NARROWS to a branch-selection question
 gated behind a shared spin-2 strong-coupling wall.
 
-## 3. Persona 2 -- nonlinear-dynamics / saturation theorist: route 2, and the closed form that kills it
+## 3. Perspective 2 -- nonlinear-dynamics / saturation theorist: route 2, and the closed form that kills it
 
 W126 proved the POTENTIAL sector is exactly quadratic (`c_3 = c_4 = ... = 0`), so no higher
 potential invariant lifts the vacuum. The surviving hope is the GRADIENT sector, which does carry
@@ -139,7 +139,7 @@ bounded-field attractor exists even in principle). The gradient quartic does not
 benign. This hardens W126's Section-3 EFT-validity finding with an exact closed form for the
 degeneration point.
 
-## 4. Persona 3 -- higher-derivative-gravity theorist: route 3 (sign-forcing) and the dispersion
+## 4. Perspective 3 -- higher-derivative-gravity theorist: route 3 (sign-forcing) and the dispersion
 
 **Sign-forcing.** W157 left as its named residual: is `c_R < 0` FORCED by `a1 > 0` in the
 covariant action, or SIGN-FREE? If forced, "tachyonic iff attractive" is a structural
@@ -191,7 +191,7 @@ the tachyon is a genuine `k = 0` (homogeneous) instability, NO finite-`k` band, 
 The interpretation is unchanged -- it is a real long-wavelength tachyon, not a reinterpretable
 pattern-forming mode.**
 
-## 5. Persona 4 -- symbolic / numerical engineer: what the test pins
+## 5. Perspective 4 -- symbolic / numerical engineer: what the test pins
 
 `tests/W159_tachyon_escapes.py`, 16 checks, exit 0, exact sympy, positive controls first.
 
@@ -208,7 +208,7 @@ pattern-forming mode.**
   attractive-and-healthy counterexample, the positive-cone residue.
 - **D1-D3** the spin-block factorization, the `k = 0` scalar peak, the separate spin-2 channel.
 
-## 6. Persona 5 -- adversarial skeptic: steelman TACHYON-STANDS on all three, and where it lands
+## 6. Perspective 5 -- adversarial skeptic: steelman TACHYON-STANDS on all three, and where it lands
 
 **Route 1 steelman (STANDS via the strong-coupling problem).** The sharpest pro-STANDS case is
 exactly the one that wins: connecting GU's tree data to any UV-complete branch requires the
@@ -279,8 +279,8 @@ paper-scale item W128/W130 named, and not something one-loop machinery can settl
   inserted. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team TACHYON-ESCAPES (W159). Coherence-first; the two genuine escapes plus
-the sign-forcing residual, after the W157 keystone failed. Five personas inline in one worker
+the sign-forcing residual, after the W157 keystone failed. Five perspectives inline in one worker
 (FRG/branch specialist, nonlinear-saturation theorist, higher-derivative/dispersion theorist,
-symbolic/numerical engineer, adversarial skeptic); no sub-agents. Reproducible:
+symbolic/numerical engineer, adversarial skeptic); no independent reviewers. Reproducible:
 `python -u tests/W159_tachyon_escapes.py` (16/16, exit 0; W126 + W128 + W130 positive controls
 first). Exploration grade; conditional register; no canon movement.*

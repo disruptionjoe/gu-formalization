@@ -4,9 +4,7 @@ created: 2026-08-08
 status: COMPACT_BOUNDARY_STRONG_SOBOLEV_EDGE_REDUCTION_EXACT_CONDITIONALLY_ON_NONEMPTY_EDGE_TORSOR__CHARGED_CURRENT_ALGEBRA_EXACT__ODD_BFV_COMMON_DOMAIN_AND_PHYSICAL_SELECTION_OPEN
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 Sobolev edge reduction and charged current algebra

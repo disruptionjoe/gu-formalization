@@ -35,12 +35,12 @@ fi
 # shlock claim prevents compliant direct-chat and scheduled GU runs on this
 # host from starting overlapping local builds. It does not coordinate another
 # host or cloud runner; the workspace contract still forbids those overlaps.
-lock_root="${TMPDIR:-/tmp}/CapacityOS-locks"
+lock_root="${TMPDIR:-/tmp}/private orchestration overlay-locks"
 lock_path="${lock_root}/lean-build.lock"
 mkdir -p "$lock_root"
 
 if ! shlock -p "$$" -f "$lock_path"; then
-    printf '%s\n' "Another Lean/Lake build holds the CapacityOS lock: $lock_path" >&2
+    printf '%s\n' "Another Lean/Lake build holds the private orchestration overlay lock: $lock_path" >&2
     exit 75
 fi
 

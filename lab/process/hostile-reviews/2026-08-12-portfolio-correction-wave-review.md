@@ -4,9 +4,7 @@ artifact_type: hostile_review
 created: 2026-08-12
 verdict: SURVIVES_WITH_SCOPED_CORRECTIONS__NO_CANON_MOVE
 target_claim: NONE-NOT-A-KILL
-claim_status_change: "SC-GEN-53 and SC-GEN-54 PARTIAL adherence only"
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review

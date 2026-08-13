@@ -2,8 +2,6 @@
 artifact_type: source_variable_hessian_and_principal_diffeomorphism_lift
 created: 2026-08-06
 status: ZERO_JET_SOURCE_VARIABLE_HESSIAN_EXACT__FULL_I1B_DERIVATIVE_CURVATURE_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CORRECTS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:

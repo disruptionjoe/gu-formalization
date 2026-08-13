@@ -47,7 +47,7 @@ sys.dont_write_bytecode = True  # repo is READ-ONLY: no __pycache__ there
 
 import importlib.util
 
-REPO = "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization"
+REPO = "."
 PROBE_PATH = REPO + "/tests/channel-swings/nguyen_c1c2_real_form_probe.py"
 _spec = importlib.util.spec_from_file_location("nguyen_c1c2_real_form_probe",
                                                PROBE_PATH)
@@ -336,7 +336,7 @@ def main():
     check("C3P-REPLICATION-COMPARE: hourly gate reports span{1,J4,J10,omega}, "
           "J4^2=J10^2=-1, J4J10=J10J4=omega, omega^2=+1, C+C "
           "(selected-k77-split-layer-commutant-action-parent-gate-2026-08-12"
-          ".md; RUN-20260812-020740): this run's independent driver "
+          ".md; historical-investigation): this run's independent driver "
           "reproduces dimension, generators, relations EXACTLY",
           span_ok and sq4 == -1 and sq10 == -1 and sqom == 1 and
           s_prod == 1 and comm_pairs)

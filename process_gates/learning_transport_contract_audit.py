@@ -17,11 +17,11 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTRACT = ROOT / "lab/process/functional-channel-operating-contract-v1.0.json"
+CONTRACT = ROOT / "lab/methods/research-evidence-contract-v1.0.json"
 NAMES = ROOT / "lab/process/NAMES.md"
 CORRECTIONS = ROOT / "lab/process/correction-registry.yaml"
 PATHS = ROOT / "lab/process/path-dependencies.yaml"
-LANES = ROOT / "LANES.yaml"
+LANES = ROOT / "lab/process/RESEARCH-AGENDA.json"
 CARD = ROOT / "lab/process/session-agent-card.md"
 
 

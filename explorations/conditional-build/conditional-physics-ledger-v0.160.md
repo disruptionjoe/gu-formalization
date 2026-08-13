@@ -1,7 +1,6 @@
 ---
 artifact_type: ledger_release_note
 created: 2026-08-10
-run_id: RUN-20260810-235056-gu-k77-source-owned-hull-interface-expanded
 status: current
 ---
 

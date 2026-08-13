@@ -1,7 +1,7 @@
 {
   "certificate_id": "G3-FULL-VARIATIONAL-BVBFV-2026-07-31",
   "branch": "agent/weinstein-guided-source-action",
-  "run": "GUH-20260731T144734Z-g3-full-variational-bvbfv",
+  "run": "historical-investigation",
   "grade": "split_conditional_source_sector_variational_bv_pass",
   "selected_free_fields": [
     "A",

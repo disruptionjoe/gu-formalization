@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM DEBIT3-BINARY, W160; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (TEAM DEBIT3-BINARY, W160; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W160
 label: W160
@@ -37,7 +37,7 @@ Test: `tests/W160_frontier_two_point_function.py` (27/27, exit 0). Deterministic
 20260714); the Cl(9,5) algebra runs on the repo's verified `M(64,H)` representation via
 `gen_sector_bridge`; the everpresent statistics run the same closed-form count model W154/W158 used.
 
-Five personas ran inline in one worker, sequentially (no sub-agents): (1) statistical-field
+Five perspectives ran inline in one worker, sequentially (no independent reviewers): (1) statistical-field
 theorist, (2) stochastic-cosmology theorist, (3) Krein/C-operator specialist, (4) symbolic/numerical
 engineer, (5) honesty auditor / E1. The five positive controls run first.
 
@@ -63,7 +63,7 @@ or is the epoch genuinely free (OBSTRUCT, GU derives character not shape)?
 **The physics supports OBSTRUCT, and the obstruction is tight.** Both are real results; this one is
 a clean, publishable-grade honest limit.
 
-## 1. Persona 1 -- statistical-field theorist: the two-point function, built
+## 1. Perspective 1 -- statistical-field theorist: the two-point function, built
 
 The everpresent-Lambda mechanism (PORTED; Sorkin; Ahmed-Dodelson-Greene-Sorkin) makes `Lambda`
 fluctuate with the number `N` of promoted records in the causal past: `delta Lambda ~ +/- 1/sqrt(N)`.
@@ -92,7 +92,7 @@ So the two-point function IS built, and two of its three data (variance, correla
 derived from GU's everpresent structure. The third datum -- the PHASE -- is where the binary is
 decided.
 
-## 2. Persona 2 -- stochastic-cosmology theorist: the epoch is a free phase (OBSTRUCT)
+## 2. Perspective 2 -- stochastic-cosmology theorist: the epoch is a free phase (OBSTRUCT)
 
 A rise-then-fall in `Lambda(a)` -- the `Q = rho_V' = d Lambda / d ln a` sign-change from `+`
 (issuance) to `-` (withdrawal) -- is an INTERIOR MAXIMUM of `Lambda(a) = mean(a) + delta Lambda(a)`.
@@ -125,7 +125,7 @@ division: the amplitude is fixed by the count; the phase is free. GU adds the `q
 excursion's SIGN is forced `+`, W158) and the correlation length (~one Hubble time), but not the
 phase.
 
-## 3. Persona 3 -- Krein/C-operator specialist: the theta-identity leg (OBSTRUCT)
+## 3. Perspective 3 -- Krein/C-operator specialist: the theta-identity leg (OBSTRUCT)
 
 W158 discharged C3 of the 2026-06-22 proof as a MECHANISM: `S_gate` is gauge-invariant under
 `Stab(n)`, its Krein EL current `J^a = Re<Psi, K_S e_a Psi>` is equivariant (theta's Section-2
@@ -153,7 +153,7 @@ with the C1/C2 distortion-sector map alone (which the 2026-06-22 proof also left
 split: divergence-freedom of `J` is BUILT (the equivariance/Krein route); the specific identity
 `J == theta` is OBSTRUCT.
 
-## 4. Persona 4 -- symbolic/numerical engineer: tests, controls, exit code
+## 4. Perspective 4 -- symbolic/numerical engineer: tests, controls, exit code
 
 `tests/W160_frontier_two_point_function.py`, 27/27, exit 0. Positive controls first (block `[PC]`):
 the W131 exact algebra (`Gamma Gamma^dag = 14 I`; Krein anti-self-adjointness for all 91
@@ -171,7 +171,7 @@ everpresent statement `delta Lambda ~ +/- 1/sqrt(N) ~ Lambda_mean`), which is wh
 maxima common. This is the physical everpresent amplitude, not a tuned enhancement; the uniform-phase
 result does not depend on `kappa` (it depends only on stationarity).
 
-## 5. Persona 5 -- honesty auditor / E1: the binary resolved, by OBSTRUCT
+## 5. Perspective 5 -- honesty auditor / E1: the binary resolved, by OBSTRUCT
 
 **Forced-binary verdict: OBSTRUCT (both legs).** The two-point function is BUILT and its
 amplitude + correlation length are DERIVED, but its phase (the crossing epoch) is PROVABLY free: the
@@ -231,9 +231,9 @@ long-standing named object, not a newly-spawned one.
   MEASURE by time-as-finality; GU owns the field-equation / boundary-term / two-point-function /
   Krein math only; no cross-repo identity claim. Zero em dashes in paper-facing text.
 
-*Filed 2026-07-14 by Team DEBIT3-BINARY (W160). Five personas inline in one worker (statistical-field
+*Filed 2026-07-14 by Team DEBIT3-BINARY (W160). Five perspectives inline in one worker (statistical-field
 theorist, stochastic-cosmology theorist, Krein/C-operator specialist, symbolic/numerical engineer,
-honesty auditor/E1); no sub-agents. Reproducible: `python -u tests/W160_frontier_two_point_function.py`
+honesty auditor/E1); no independent reviewers. Reproducible: `python -u tests/W160_frontier_two_point_function.py`
 (27/27, exit 0; five positive controls first). Exploration grade; conditional register; no canon
 movement; H41 unbuilt (narrowed: epoch provably obstructed); H59 OPEN; the count stays {1,3}. E1:
 the forced binary RESOLVED via OBSTRUCT -- the degenerating chain is terminated by a proof, not

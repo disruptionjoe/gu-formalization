@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.174 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; local Grassmann-compatible K77 adjoint pairings exist, the weight ratio is basis, and one invariant product remains unselected"
   },
-  "updated_by": "RUN-20260811-131916-gu-k77-action-adjoint-weight-classification",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

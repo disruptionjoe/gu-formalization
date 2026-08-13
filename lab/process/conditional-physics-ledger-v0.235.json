@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.235 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; no row verdict moves. Canonicity distance v0.1 is unchanged. Pointwise real full-unitary curvature-value Euler cancellation is killed; rank one narrows to a derivative-dependent real source-connection jet, a nonzero-fermion coupled saddle, or a source-derived full-field BV tangent"
   },
-  "updated_by": "GUH-20260813-I2B-REAL-CURVATURE-EULER-IMAGE",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

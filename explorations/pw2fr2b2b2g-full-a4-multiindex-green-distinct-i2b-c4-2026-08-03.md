@@ -4,11 +4,9 @@ status: exploration
 doc_type: construction_result
 updated_at: "2026-08-03"
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260804-042834-gu-formalization-pw2fr2b2b2g-full-c4
+run: historical-investigation
 grade: "EXACT ACTIVE NORMALIZED-DEWITT-TRACE FIRST-AND-MIXED COFRAME TRANSPORT; FULL I1 A4 BLOCKED ON MIXED SHIAB JET; DISTINCT I2B C4 BLOCKED ON COMPLETE SECOND PRIMALIZER JET"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # R2B2B2G normalized-trace transport and full-C4 admission

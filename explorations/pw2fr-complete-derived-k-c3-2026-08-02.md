@@ -2,8 +2,7 @@
 title: PW2F-R corrected induced metric graph and highest-order Euler gate
 date: 2026-08-02
 status: scoped coefficient result; complete C4 remains open
-lane: Eric-guided active-native construction; Curt remains a formal comparator
-run: RUN-20260803-002500-gu-formalization-pw2fr-derived-k-c3
+run: historical-investigation
 grade: >-
   PW2F-R CORRECTION AND PARTIAL PASS. PW2F omitted the derivative-bearing Z1
   part of the induced metric graph. Restoring it makes the ten-owner

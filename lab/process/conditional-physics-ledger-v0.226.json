@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.226 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the corrected E_act square is exact and has the same fixed-background Q_u-square Euler obstruction as the literal endpoint despite different Frechet maps; a derived physical tangent/BV reduction or full moving-background contribution remains open"
   },
-  "updated_by": "RUN-20260812T235225Z-gu-i2b-action-euler-square",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

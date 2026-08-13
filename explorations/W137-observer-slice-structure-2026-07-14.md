@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W137 / ISS-3; hypothesis-generation wave, propose-then-kill posture; 5-persona inline team; one deterministic test)
+status: exploration (W137 / ISS-3; hypothesis-generation wave, propose-then-kill posture; 5-perspective inline team; one deterministic test)
 created: 2026-07-14
 hypothesis: "W137 -- the per-observer-slice structure: give Joe's reading (observer = a slice of the geometry; issuance consumed to create records; capability matching between collective and single observer) the repo's actual mathematical skeleton, and sort every piece into THEOREM / CONJECTURE / GATED-TO-SIBLING"
 title: "W137 VERDICT: the slice = section mapping is ALREADY-THEOREM-GRADE machinery (section sigma: X4 -> Y14, induced metric, II, ambient (9,5) gimmel with parallel Pi and K -- H15/H21/H25/W126/W131); the issuance-consumption reading acquires its first computed face: the pointwise deformation-cost bookkeeping of a section is EXACT and WELL-DEFINED (rational polynomial in the 2-jet) but SIGNED, not positive -- the constant section is not a critical point of the cost density (linear term -8u against the a0 = 2 issuance constant, exact) and the second-order cost form is INDEFINITE (exact directions +32 w^2 and -32 w^2 inside the traceless sector; gradient sector 16 eta(dphi,dphi) on the computed axes) -- so 'records cost issuance' survives only as signed bookkeeping, not as a positive ledger; the collective/single MATCHING is proposed as one sharp GU-side conjecture (C1: the observer's admissible record space = the section-localized compression of the C-operator's maximal positive subspace, honestly conditional on W132's keep-and-grade <=> C-operator equivalence) with four kill conditions; the W130 3:2:1 Einstein-sector split is a PER-DEFORMATION-SECTOR fact computed at ONE section -- whether it varies per section is a named, decidable conjecture (C3), not a current fact. Capability MEASURE gated to TaF; issuance-vs-disclosure gated to temporal-issuance. Nothing rebuilt on the dead Krein-TT physical leg, the B2 rate reading, or the H36 window."
@@ -31,7 +31,7 @@ piece into GU-SIDE-THEOREM / GU-SIDE-CONJECTURE / BELONGS-TO-TaF / BELONGS-TO-te
 and computes the one piece that was computable this wave (the deformation-cost bookkeeping).
 Posture: propose-then-kill; every conjecture below carries its kill conditions.
 
-Five personas inline, sequentially, one context, no sub-agents: (1) differential geometer,
+Five perspectives inline, sequentially, one context, no independent reviewers: (1) differential geometer,
 (2) Krein specialist, (3) category theorist, (4) honesty auditor, (5) adversarial skeptic.
 Deterministic test: `tests/W137_observer_slice_deformation_cost.py` (14/14, exit 0).
 
@@ -56,7 +56,7 @@ Standing kills honored throughout (nothing below rebuilds on them):
 | Admissible records | fork CARRIED, it IS conjecture C1: (i) free-grading positive subspace (DEAD as a unitarity carrier, W132), (ii) C-operator positive subspace (the live candidate), (iii) per-observer sectorial objects (the W94-retraction lesson) | the fork is the result; see Section 3 |
 | Issuance | GU-side shadow ONLY: the Lambda-channel constant a0 = 2 = -2 Lambda of the induced functional (W126/W130). Whether it is "issuance" in TI's sense is GATED | one-way rule; GU is the substrate layer only (substrate-layer pointer, 2026-06-30) |
 
-## 1. Persona 1 -- differential geometer: the slice = section formalization, and what is already theorem
+## 1. Perspective 1 -- differential geometer: the slice = section formalization, and what is already theorem
 
 ### 1.1 The mapping table (the wave's requested deliverable)
 
@@ -120,7 +120,7 @@ live with the signature grading or locate the positive ledger in a DIFFERENT fun
 integrated action with its measure, a boundary term, or the C-metric inner product), each of
 which is a named conjecture below, not a fact.
 
-## 2. Persona 2 -- Krein specialist: the record-space conjecture (the click the brief asked for)
+## 2. Perspective 2 -- Krein specialist: the record-space conjecture (the click the brief asked for)
 
 W132 proved, exactly: for any Krein-pseudo-unitary S, the physical-subspace S-matrix on the
 FREE grading is an expansion (`A^dag A = P_+ + B^dag B`), so keep-and-grade unitarity is
@@ -195,7 +195,7 @@ retreat is forced AND the W103 slot cannot host the balance, C2 is dead. Status:
 GU-SIDE-CONJECTURE; the bulk half is COMPUTED (this wave), the boundary half is a named
 integration-by-parts computation nobody has run on Y14 sections (tractable next wave).
 
-## 3. Persona 3 -- category theorist: collective vs single, kept to one page
+## 3. Perspective 3 -- category theorist: collective vs single, kept to one page
 
 The temptation is a limit/colimit framework over the category of sections. The repo's own
 results say which half of that is right, so state only that:
@@ -223,7 +223,7 @@ Status: the ladder's rows are THEOREM (ambient, W131), THEOREM-ON-MODEL (class d
 and THEOREM (operator non-gluing, W94/W98/W84). The identification of Joe's "matching" with
 row 2 is a READING, i.e. conjecture-grade labeling of proven structure, not a new claim.
 
-## 4. Persona 4 -- honesty auditor: the tri-repo gate, enforced line by line
+## 4. Perspective 4 -- honesty auditor: the tri-repo gate, enforced line by line
 
 - GU-SIDE-THEOREM (cited): section machinery, ambient invariants, a0 = 2, degree-2
   termination, [nabla, Pi] = 0, nabla K = 0, the W132 expansion identity, the 3:2:1 split at
@@ -245,7 +245,7 @@ row 2 is a READING, i.e. conjecture-grade labeling of proven structure, not a ne
   H36-window statement is made or implied.
 - Nothing here changes canon, RESEARCH-STATUS, claim status, or any verdict.
 
-## 5. Persona 5 -- adversarial skeptic: kills, and the THIS-IS-POETRY steelman
+## 5. Perspective 5 -- adversarial skeptic: kills, and the THIS-IS-POETRY steelman
 
 **Steelman (full strength):** "Observer slices, issuance, records -- this is vocabulary written
 onto submanifold geometry that was already there. B2 already showed the observerse bridge adds

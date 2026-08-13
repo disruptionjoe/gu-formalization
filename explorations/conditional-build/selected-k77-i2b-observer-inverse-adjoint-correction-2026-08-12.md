@@ -2,10 +2,7 @@
 title: "Selected K77 I2B observer inverse-adjoint correction"
 status: exploration
 created: 2026-08-12
-run_id: RUN-20260812-181434-gu-i2b-observer-inverse-adjoint-correction
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B observer inverse-adjoint correction

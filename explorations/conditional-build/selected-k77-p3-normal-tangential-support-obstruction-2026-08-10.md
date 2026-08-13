@@ -2,13 +2,9 @@
 artifact_type: exact_actual_base_topological_and_form_slot_obstruction
 created: 2026-08-10
 status: CURRENT_P3_NORMAL_SUPPORT_CANNOT_DIAGONALIZE_TANGENTIAL_SU2PLUS__ABSTRACT_S4_CLASS_MATCH_RESCOPED__TANGENTIAL_SUPPORT_OR_NEW_SOLDERING_REQUIRED
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_HORIZONTAL_TANGENT_VERSUS_NORMAL_BUNDLE_SEPARATION__SOURCE_SILENT_P3_COLLAPSE_DIAGONAL_TANGENTIAL_SUPPORT_REDESIGN_AND_RESTRICTED_ACTION
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 P3 normal/tangential support obstruction

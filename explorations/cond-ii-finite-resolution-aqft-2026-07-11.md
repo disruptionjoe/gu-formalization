@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (firming CONDITION (ii) of the observer conjecture's sectorial closing to rigorous AQFT grade; 5-persona inline team; literature read-only + deterministic test)
+status: exploration (firming CONDITION (ii) of the observer conjecture's sectorial closing to rigorous AQFT grade; 5-perspective inline team; literature read-only + deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path) -- the SECTORIAL/relative face, condition (ii)
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -74,9 +74,9 @@ structure and adds the definitizability residual.
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 — AQFT / local-modular-theory specialist (the Hilbert-case theorem)
+### Perspective 1 — AQFT / local-modular-theory specialist (the Hilbert-case theorem)
 
 The Haag-Kastler axioms assign to each spacetime region `O` a von Neumann algebra `M(O)` on a fixed
 Hilbert space with vacuum `Omega`. Three standard theorems make the per-region modular structure the
@@ -105,7 +105,7 @@ modular conjugation of the global/quasilocal algebra. Indeed the quasilocal alge
 `J M J = M'`. So condition (ii)'s first half — "no observable needs a global observer-independent `J`" —
 is a **rigorous consequence of standard AQFT**.
 
-### Persona 2 — MATH REFEREE (is "no observable needs a global J" a THEOREM or a slogan?)
+### Perspective 2 — MATH REFEREE (is "no observable needs a global J" a THEOREM or a slogan?)
 
 - **Ruling 1 — per-region is a theorem, not a slogan.** Reeh-Schlieder + Tomita-Takesaki are proved; the
   per-region `(Delta_O, J_O)` is constructed, not posited. Different regions/states give **different**
@@ -125,10 +125,10 @@ is a **rigorous consequence of standard AQFT**.
 
 - **Ruling 3 — the honest boundary.** The Hilbert-case statement is standard AQFT. The referee refuses to
   extend the rigor to the **Krein** case for free: the AQFT theorems above assume a **positive-metric**
-  Hilbert space, and GU is Krein. The transfer must be argued separately (Personas 4, 5). The referee
+  Hilbert space, and GU is Krein. The transfer must be argued separately (Perspectives 4, 5). The referee
   grades the Hilbert half **RIGOROUS** and holds the Krein half for the transfer analysis.
 
-### Persona 3 — ADVERSARY ("the value-selection is a GLOBAL object")
+### Perspective 3 — ADVERSARY ("the value-selection is a GLOBAL object")
 
 - *Push 1: "the observer's value-selection — choosing which state/history is realized — is a global act;
   it needs a modular object defined on the whole theory, i.e. a global `J`."* **Answered in standard
@@ -152,11 +152,11 @@ is a **rigorous consequence of standard AQFT**.
   the Hilbert one.** Per `W91`, the Krein value-selection (flow / KMS / Connes cocycle / section map) is
   **positivity-free** and therefore **survives** the indefinite metric at the **flow** level. What does
   not transfer for free is the **conjugation** (the firewall's `J^2=1`), and that is exactly where the
-  residual sits (Persona 4). The adversary's strongest form reduces to "is the infinite-rank Krein region
+  residual sits (Perspective 4). The adversary's strongest form reduces to "is the infinite-rank Krein region
   algebra definitizable?" — the shared HORN-K/Q open (`W87`), **not** a claim that the value-selection is
   global.
 
-### Persona 4 — CROSS-CHECKER (the Krein transfer + literature)
+### Perspective 4 — CROSS-CHECKER (the Krein transfer + literature)
 
 **The Krein transfer splits exactly along the flow/conjugation seam (matching Branch 3, `W91`).**
 
@@ -190,7 +190,7 @@ sub-sector** (theorem) but the **continuum** conjugation theorem is the open res
 what condition (ii) needs — the observer occupies a finite sub-sector — and exactly where it is not yet a
 continuum theorem.
 
-### Persona 5 — SYNTHESIZER (the grade)
+### Perspective 5 — SYNTHESIZER (the grade)
 
 See Sections 2-4.
 

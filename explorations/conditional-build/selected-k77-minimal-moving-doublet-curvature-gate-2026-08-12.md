@@ -1,13 +1,10 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-070112-gu-minimal-moving-doublet-curvature
 status: COMPLETE_CANONICAL_MOVING_DOUBLET_LIFT_EXACT_AND_EQUIVARIANT__FULL_SELF_CURVATURE_ZERO__SOLDERING_KERNEL_CONTROL_NONZERO
 target_claim: NONE-NOT-A-KILL
 ledger: lab/process/conditional-physics-ledger-v0.198.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 minimal moving-doublet curvature gate

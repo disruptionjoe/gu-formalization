@@ -2,18 +2,13 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: FROZEN_PROJECTED_ADJOINT_PROLONGATION_NOT_A_COMPLETE_STATIONARY_GAUGE_DIFFERENTIAL__RANK25_WARD_COMPLETION_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 channels: [Build, Compose, Source, Verify]
 source_return: SOURCE-CONFIRMS_AND_SILENT
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
-run_id: RUN-20260813-125801-gu-i2b-projected-adjoint-jet-prolongation
 scripts:
   - tests/channel-swings/selected_k77_i2b_projected_adjoint_jet_prolongation_probe.py
 target_claim: SC-ACT-04
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "ten symmetric observed jet blocks times the exact rank-25 projected Cl2 adjoint image; prolonged rank 250"
 free_object_delta: 0

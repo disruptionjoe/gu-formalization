@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-11",
-  "run_id": "RUN-20260811-205442-gu-k77-h640-observation-pullback-bv-typing",
+  "run_id": "historical-investigation",
   "status": "SCOPED_FLAT_SECTION_GRAPH_LIFT_RESULT",
   "checks": {
     "total": 58,

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-10
-run_id: RUN-20260810-235056-gu-k77-source-owned-hull-interface-expanded
 verdict: SCOPED_SURVIVES
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 source-owned hull interface

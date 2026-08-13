@@ -5,9 +5,7 @@ doc_type: exploration
 created: 2026-07-21
 prereg: explorations/prereg-oriented-shard-cycle-swing-2026-07-21.md
 outcome: D-ANALOGY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 probe: tests/channel-swings/shard_cycle_prong2_dynamics_probe.py
 probe_exit: 0

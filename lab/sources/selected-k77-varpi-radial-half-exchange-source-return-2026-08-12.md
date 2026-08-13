@@ -1,7 +1,6 @@
 ---
 artifact_type: primary_source_return
 created: 2026-08-12
-run_id: RUN-20260812-060541-gu-varpi-radial-half-exchange
 status: SOURCE_CONFIRMS_FULL_UNITARY_PARENT_AND_AD_VALUED_ONEFORM_HIGGS_LOCUS__SOURCE_SILENT_ON_TRACE_RADIAL_CELL_AND_ACTION
 ---
 

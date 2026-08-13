@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM BUILD-BOUNDARY, W180; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (TEAM BUILD-BOUNDARY, W180; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W180
 label: W180
@@ -27,7 +27,7 @@ scripts:
 
 Test: `tests/W180_matter_connection_bridge.py` (26/26, exit 0). Deterministic (fixed seed
 20260714); the algebra runs on the repo's verified Cl(9,5) = M(64,H) representation via
-`gen_sector_bridge`. Five personas ran inline in one worker, sequentially (no sub-agents):
+`gen_sector_bridge`. Five perspectives ran inline in one worker, sequentially (no independent reviewers):
 (1) emergent-gravity / Jacobson specialist, (2) constructive field theorist, (3) Krein/boundary
 specialist, (4) symbolic engineer, (5) honesty auditor / E1. The five positive controls run first.
 
@@ -48,7 +48,7 @@ connection bridge of **route-beta** (W151), whose magnitude is unbuilt (only the
 
 W180 BUILDS that bridge. The decisive step is cheap and lands EXACT.
 
-## 1. Persona 2 (led) -- constructive field theorist: J IS an EL derivative, exactly
+## 1. Perspective 2 (led) -- constructive field theorist: J IS an EL derivative, exactly
 
 The cheapest decisive question the brief names: can the matter current `J` be written as the EL
 derivative of a gauge-invariant action? **Yes, exactly, and it is the standard minimal-coupling
@@ -74,7 +74,7 @@ which `theta` is the EL derivative") discharged for the current, with `theta := 
 W158's "a concrete gauge-invariant boundary action with an equivariant EL current" to "the EL
 current IS the EL derivative of a named minimally-coupled action" -- the exact object C3 asks for.
 
-## 2. Persona 3 -- Krein/boundary specialist: Noether II and the reproduced S_gate
+## 2. Perspective 3 -- Krein/boundary specialist: Noether II and the reproduced S_gate
 
 The divergence-free MECHANISM rides on gauge invariance of `S_D`. Reproduced from W158/W160 on this
 rep (test `NOE`, `PC3`): the gauge-orbit variation of `S_gate = n_a J^a` over the little group
@@ -86,7 +86,7 @@ reproduced as positive controls: `J` real (`max|Im| = 1.8e-15`), the vector tran
 the boundary construction is disturbed; W180 adds the identification of the current with an explicit
 action's EL derivative.
 
-## 3. Persona 1 -- emergent-gravity / Jacobson specialist: the bridge dissolves the kind-mismatch
+## 3. Perspective 1 -- emergent-gravity / Jacobson specialist: the bridge dissolves the kind-mismatch
 
 The kind-mismatch is `theta` `Psi`-independent versus `J` `Psi`-dependent. W160 named the only exit:
 make the connection `nabla` a functional of `Psi`. **That is precisely the induced-gravity /
@@ -117,7 +117,7 @@ This is route-beta built to the point W151 reached and one step past: W151 had t
 the attractive Einstein SIGN but not the identity; W180 exhibits the explicit sourcing relation
 (hence the identity `theta = kappa M^{-1} J`) with the sign inherited and the magnitude named.
 
-## 4. Persona 4 -- symbolic engineer: controls, the build, exit code
+## 4. Perspective 4 -- symbolic engineer: controls, the build, exit code
 
 `tests/W180_matter_connection_bridge.py`, 26/26, exit 0. Positive controls first (block `[PC]`):
 W131 exact algebra; the `(9,5)`/`q=5` split; W158's `S_gate` (SG1 real, SG2 vector closure, SG3
@@ -132,7 +132,7 @@ the ultralocal leading order, and the full nonlocal kernel is part of the magnit
 dissolves -- does not depend on the choice of `M`, only on `M` being a fixed `Psi`-independent
 equivariant kernel.
 
-## 5. Persona 5 -- honesty auditor / E1: what closed, what is conditional, what remains
+## 5. Perspective 5 -- honesty auditor / E1: what closed, what is conditional, what remains
 
 **C3-discharge verdict: DISCHARGED-CONDITIONAL.** Two legs, honestly separated.
 
@@ -212,9 +212,9 @@ W154 identification and the magnitude stays on the unbuilt eta-bridge.
   MEASURE by time-as-finality; GU owns the field-equation / boundary-term / Krein math only; no
   cross-repo identity claim. Zero em dashes in paper-facing text.
 
-*Filed 2026-07-14 by Team BUILD-BOUNDARY (W180). Five personas inline in one worker (emergent-gravity/
+*Filed 2026-07-14 by Team BUILD-BOUNDARY (W180). Five perspectives inline in one worker (emergent-gravity/
 Jacobson specialist, constructive field theorist, Krein/boundary specialist, symbolic engineer,
-honesty auditor/E1); no sub-agents. Reproducible: `python -u tests/W180_matter_connection_bridge.py`
+honesty auditor/E1); no independent reviewers. Reproducible: `python -u tests/W180_matter_connection_bridge.py`
 (26/26, exit 0; five positive controls first). Exploration grade; conditional register; no canon
 movement; H41 unbuilt (narrowed); H59 OPEN; the count stays {1,3}. E1: BUILD-close (partial) -- the
 matter->connection bridge is built, W160's kind-mismatch OBSTRUCT is overturned, C3's literal

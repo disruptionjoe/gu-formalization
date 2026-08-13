@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2H3 conditional source-epsilon curvature-orbit graph"
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-04"
-run_id: RUN-20260804-082417-gu-formalization-pw2fr2b2b2h3-source-epsilon-curvature
 ---
 
 # PW2F-R2B2B2H3 conditional source-epsilon curvature-orbit graph

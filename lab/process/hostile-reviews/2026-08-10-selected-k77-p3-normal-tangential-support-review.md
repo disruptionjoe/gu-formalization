@@ -3,9 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-10
 subject: SELECTED-K77-P3-NORMAL-TANGENTIAL-SUPPORT
 verdict: CURRENT_NORMAL_SUPPORT_DIAGONAL_FALSIFIED__ABSTRACT_CLASS_RESULT_SURVIVES_RESCOPED__REPLACEMENT_ROUTES_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: P3 normal/tangential support

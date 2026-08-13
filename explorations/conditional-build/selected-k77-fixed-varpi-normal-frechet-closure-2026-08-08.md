@@ -2,12 +2,8 @@
 artifact_type: build_compose_result
 created: 2026-08-08
 status: LOCAL_FIXED_VARPI_DG_UPSILON_EXACT__COMMON_FIELD_FORMAL_ADJOINT_GREEN_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_TWO_CONNECTION_SOURCE_COORDINATES__SOURCE_SILENT_FIXED_VARPI_NORMAL_FRECHET_CLOSURE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 fixed-varpi normal Frechet closure

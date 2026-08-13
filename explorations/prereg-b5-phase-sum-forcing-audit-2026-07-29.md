@@ -2,25 +2,22 @@
 artifact_type: preregistration
 status: preregistration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 probe: tests/channel-swings/b5_phase_sum_forcing_audit_probe.py
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Prereg: is the B5 phase residual a single integer, and does anything forced fix it?
 
-## Why this run and not the one just done
+## Why this investigation and not the one just done
 
-`lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/` asked
+`archived private execution record/` asked
 whether the repository can **freeze** the five native packet fields and returned
 `BLOCKED` — no repo-owned construction fixes any of them. That verdict is
 accepted here and is **not** re-litigated. Re-running it would be waste.
 
-This run asks the strictly different question the block leaves open. The blocked
+This investigation asks the strictly different question the block leaves open. The blocked
 audit reports a residual of **ten unselected antilinear phase invariants** and
 **eleven possible real parity-dimension pairs** (`even` from 58 to 78 in steps of
 two, summing to 136). Two things about that residual are not yet established:
@@ -73,7 +70,7 @@ Exactly one governs:
    run aborts — the input is not the object the blocked audit reported on.
 3. If a **planted asymmetric phase rule** (a rule that is deliberately not a
    function of the sum) still yields exactly eleven pairs, the sum-reduction is an
-   artifact of the counting code and the run returns `NOT-A-SUM`.
+   artifact of the counting code and the investigation returns `NOT-A-SUM`.
 4. If the ten special orbits are **not** all mirror-involution pairs, the sector
    classification is wrong and that section is void.
 
@@ -87,7 +84,7 @@ Exactly one governs:
 - **N2** a planted invariant that *does* distinguish within a special orbit must
   be detected by the forcing test, proving the test can fire.
 
-## What this run cannot earn
+## What this investigation cannot earn
 
 No packet field is frozen. No phase, coflip type, Green form, or domain is
 selected. No operator is constructed. No claim, canon, verdict, count, priority,

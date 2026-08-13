@@ -3,14 +3,11 @@ title: "Unified source-action variational emission map: six interfaces, one type
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-N3
-run: lab/process/runs/GUH-20260730T145219Z-n3-variational-emission-map/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/unified_source_variation_probe.py
 grade: "FORMULA-BUILT PARTIAL. Every frozen N1 term has a first-variation owner; the total K/C projections, moving-section current derivative, P_IG parent coefficient, same-Dirac-current cancellation, metric-trace Ricci0 symbol, fixed-plane full-Sp obstruction under stated hypotheses, an even canonical-pair sign plant, and virtual P3 symbol pair are explicit. Zero-order full-20 placement and eight named carrier/adjoint/domain maps remain. No stationary solution, CME, domain, mass, index, or count is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Unified source-action variational emission map

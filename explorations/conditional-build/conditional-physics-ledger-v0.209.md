@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.209"
-run_id: RUN-20260812-142442-gu-i2b-ambient-fibre-trace-split-correction
 ---
 
 # Conditional physics ledger v0.209

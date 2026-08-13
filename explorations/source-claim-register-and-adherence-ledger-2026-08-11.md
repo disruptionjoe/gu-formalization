@@ -3,13 +3,9 @@ title: "The source-claim adherence register and its enforcement machinery"
 status: active_research
 doc_type: process_hardening
 created: 2026-08-11
-run_id: RUN-20260812-014500-gu-source-claim-register-machinery
-lane: "A (process stewardship), ratified Joe direct chat 2026-08-11"
 target_claim: NONE-NOT-A-KILL
 brief_version: "1.0"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 hostile_review: lab/process/hostile-reviews/2026-08-11-source-claim-register-gate-review.md
 ---
 

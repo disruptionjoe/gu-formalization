@@ -7,9 +7,7 @@ grade: "EXECUTED: 9 agents (3 targets x 2 diverse seats + 3 judges), 0 errors, ~
   read-only, hourly undisturbed. Seat A rebuilds imported NOTHING. Judges resolved seat disagreements by
   checking decisive facts themselves, including OVERRULING one seat's evidential-record charge after finding
   the sweep files it missed. Verdicts and corrected-claim language below are the judges', quoted."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 follows:
   - explorations/run-scramble-T1-T4-ambient-not-carrier-2026-08-09.md
   - explorations/conditional-build/conditional-physics-ledger-v0.139.md

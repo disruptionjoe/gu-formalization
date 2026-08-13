@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; two deterministic tests; H59 path-2 named next targets)
+status: exploration (5-perspective inline team; two deterministic tests; H59 path-2 named next targets)
 created: 2026-07-13
 hypothesis: H59
 branch: "Path-2 wave-3 (Team H59): Target 2 graded side (does keep-and-grade face the CLOP ambiguity?) + Target 3 hardening (hypothesis audit of the no-local-positive-metric theorem)"
@@ -35,7 +35,7 @@ external_refs:
 **Role.** The wave-1 synthesis named two remaining firm-ups after Target 1: TARGET 2 (the two-loop
 CLOP question) and TARGET 3 (harden the no-local-positive-metric theorem). W55 already localized the
 removal-family pinch candidate (the mixed conjugate threshold `s = 4M^2`) and showed broad
-derivative-coupled gravity does not inherit the narrow-scalar theorem. This run executes the two
+derivative-coupled gravity does not inherit the narrow-scalar theorem. This investigation executes the two
 named next steps that were still missing:
 
 1. **Target 2, graded side:** the trade map prices the GRADING branch (Family 1) in RG-contingency
@@ -45,7 +45,7 @@ named next steps that were still missing:
    audited for necessary-vs-convenient, and gap (b) (non-translation-invariant metrics) was raw.
 
 Deterministic tests: `tests/W120_path2_target2_keepgrade_vs_clop.py` (16/16, exit 0) and
-`tests/W121_path2_target3_hypothesis_hardening.py` (11/11, exit 0). Five personas run inline,
+`tests/W121_path2_target3_hypothesis_hardening.py` (11/11, exit 0). Five perspectives run inline,
 sequentially; their outputs are folded into the sections below.
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -57,7 +57,7 @@ sequentially; their outputs are folded into the sections below.
 | **Positivity** | Krein-graded optical theorem (cut weight = product of Krein signs), not pseudo-unitarity, not tree positivity | W48 gate discipline: nothing here counts as loop positivity itself. |
 | **"Local" (Target 3)** | entire symbol of finite exponential type (Paley-Wiener), per W54 | Audited rather than assumed: shown NECESSARY AND TIGHT (Section 4). |
 
-## 1. Persona 1 -- PT/Krein specialist: what "facing CLOP" would even mean for the graded theory
+## 1. Perspective 1 -- PT/Krein specialist: what "facing CLOP" would even mean for the graded theory
 
 The CLOP ambiguity is an order-of-limits ambiguity in HOW a deformed integration contour treats a
 pair of complex-conjugate poles when external kinematics pin them against each other (the >=2-loop
@@ -81,7 +81,7 @@ reads `2 Im M = sum_cuts (prod Krein signs) * (positive phase space)`. The open 
 whether the physical-subspace projection kills the negative (odd-ghost) terms; that is W48's gate
 and is NOT advanced here.
 
-## 2. Persona 2 -- Lee-Wick/CLOP expert: the precise locus of the ambiguity
+## 2. Perspective 2 -- Lee-Wick/CLOP expert: the precise locus of the ambiguity
 
 From CLOP 1969, GOW 0805.2156, and Anselmi-Piva 1703.04584/1703.05563, the two-loop ambiguity sits
 at the **mixed conjugate-pole threshold** `s = (m_+ + m_-)^2 = 4M^2` (exactly W55's pinch locus):
@@ -99,7 +99,7 @@ presence of a wrong-sign residue as such. A construction that never performs ste
 the ambiguity at fixed order. That is the structural core of the graded-side verdict (STRUCTURAL,
 ledger-level; test S1).
 
-## 3. Persona 3 -- loop engineer: the toy checks (all numbers two-route)
+## 3. Perspective 3 -- loop engineer: the toy checks (all numbers two-route)
 
 The 1-loop bubble with one massless line and one massive line, parameter-integral form
 `b0(s;a) = -int_0^1 dx log(x a - x(1-x)s - i eps)`, `Im b0 = pi (1 - a/s) theta(s - a)`:
@@ -121,7 +121,7 @@ threshold (`s = 4M^2`), and each family is clean exactly where the other is expo
 (TOY-CHECKED at one loop, STRUCTURAL for the parity rule, which is just multiplicativity of the
 Krein signs over cut lines).
 
-## 4. Persona 4 -- mathematical physicist: Target 3 hypothesis audit and hardening
+## 4. Perspective 4 -- mathematical physicist: Target 3 hypothesis audit and hardening
 
 The W54 theorem: in the positive-energy (Bender-Mannheim) quantization of the free 4th-order/PU
 field, no positive intertwiner `eta` has an entire (Paley-Wiener local) symbol. Proof skeleton:
@@ -166,7 +166,7 @@ entire content of gap (b).
 seek a positive metric on the ghost-inclusive space (state-space change, priced in causality). The
 theorem is exactly a Family-1 cost statement; stating this is a scope clarification, not a weakness.
 
-## 5. Persona 5 -- adversarial skeptic: trying to make keep-and-grade INHERIT the ambiguity
+## 5. Perspective 5 -- adversarial skeptic: trying to make keep-and-grade INHERIT the ambiguity
 
 **Attack 1: "the graded ghost is unstable, so fixed order is a fiction."** PARTLY LANDS, and it is
 the reason the verdict is NARROWED rather than a clean EVADES. `Im Sigma(M^2) > 0` is

@@ -4,9 +4,7 @@ created: 2026-08-11
 status: MOVING_FIRST_JET_ANTIDUALIZER_EXACT_CONDITIONALLY__GRAPH_SELECTION_AND_ANALYTIC_DOMAIN_OPEN
 channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-D4, RA-F1, RA-F2, RA-G2, LT-SM3, AC-F1]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 moving anti-dualizer via the complete Darboux owner

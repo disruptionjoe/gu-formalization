@@ -2,7 +2,7 @@
 artifact_type: exploration
 label: W238
 created: 2026-07-15
-status: exploration (GRAVITY LEG, the LAST independent gravity frontier; imported exact Kerr; surviving conservative IG branch; Psi=0 gravitational vacuum; linear order in M with rotation parameter a carried EXACTLY; harmonic (Lorenz) gauge; personas inline, one worker, no sub-agents; deterministic sympy test with a rotation-sector non-harmonic positive control that FIRES on a real linear-in-M-and-a residual, plus the a->0 Schwarzschild-zero control, exit 0)
+status: exploration (GRAVITY LEG, the LAST independent gravity frontier; imported exact Kerr; surviving conservative IG branch; Psi=0 gravitational vacuum; linear order in M with rotation parameter a carried EXACTLY; harmonic (Lorenz) gauge; perspectives inline, one worker, no independent reviewers; deterministic sympy test with a rotation-sector non-harmonic positive control that FIRES on a real linear-in-M-and-a residual, plus the a->0 Schwarzschild-zero control, exit 0)
 posture: coherence-first (Joe 2026-07-14); exploration grade; adversarial, native-object first, truth-seeking (clearing the Willmore term on Kerr EXTENDS the gravity cheap-read to the rotating metric; a nonzero non-gauge-removable linear residual would have been an EARLY DISPROOF SIGNAL; reported either way, no rooting)
 title: "W238 -- native Willmore mean-curvature residual alpha_W W_s on imported exact Kerr (the last independent gravity frontier; closes the Kerr Willmore term W236 left open)"
 leg: GRAVITY -- ELProjectedGRShadowTheorem, imported-metric slice, alpha_W W_s term on KERR
@@ -227,8 +227,8 @@ the last independent gravity frontier at linear order -- and explicitly does NOT
 verdict. No EARLY DISPROOF was found; no Joe-gated verdict was touched (the clear is reported as a
 SIGNAL only). No Lean/Lake build was run (Python/sympy only; a Lean port of the
 per-component-harmonicity -> Willmore-residual-vanishing lemma is a possible follow-up, noted not
-done). Personas inline (GR/Kerr-curvature specialist; Willmore/immersion-variational specialist;
-Lorenz-gauge/linearized-vacuum specialist; ruthless skeptic); one worker, no sub-agents.
+done). Perspectives inline (GR/Kerr-curvature specialist; Willmore/immersion-variational specialist;
+Lorenz-gauge/linearized-vacuum specialist; ruthless skeptic); one worker, no independent reviewers.
 Reproducible: `python -u tests/W238_gravity_willmore_residual_kerr.py` (exit 0; rotation-sector
 non-harmonic and non-harmonic-H positive controls FIRST, both fire on real linear-in-M residuals,
 PC1 also linear in a). Zero em dashes in paper-facing text.

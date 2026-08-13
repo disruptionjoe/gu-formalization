@@ -6,9 +6,8 @@ created: 2026-07-31
 source_id: CURT-ICEBERG-2025
 source_video: https://youtu.be/AThFAxF7Mgw
 source_transcript: https://podscripts.co/podcasts/theories-of-everything-with-curt-jaimungal/the-geometric-unity-iceberg-oh-boy
-run: lab/process/runs/GUH-20260731T165114Z-curt-iceberg-native-reconciliation/run-plan.md
+run: archived private execution record
 registry: lab/process/curt-iceberg-native-crosswalk.json
-claim_status_change: none
 canon_verdict_change: none
 ---
 

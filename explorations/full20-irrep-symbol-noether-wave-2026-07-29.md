@@ -3,14 +3,10 @@ title: "Full-20 formula support and carrier-composition wave: the unpolarized an
 status: active_research
 doc_type: result
 created: 2026-07-29
-run_id: GUH-20260730T034355Z-full20-irrep-symbol-wave
-lane_id: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-S2-BRIDGE
 code:
   - tests/channel-swings/full20_irrep_symbol_noether_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Full-20 formula support and carrier-composition wave

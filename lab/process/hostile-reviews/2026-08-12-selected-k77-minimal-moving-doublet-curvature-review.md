@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-070112-gu-minimal-moving-doublet-curvature
 verdict: SURVIVES_SCOPED__CANONICAL_COMMON_LEG_BANK_QUARTIC_FREE__ACTION_OWNED_KERNEL_LIFT_OPEN
 ---
 

@@ -4,9 +4,7 @@ created: 2026-08-07
 status: GCR_WRONG_CLIFFORD_GRADE_AND_DIRECT_INPUT_TYPE__ODD_TORSION_TRANSLATION_CURVATURE_OR_SOLDERING_OWNER_REQUIRED
 source_return: SOURCE-CONFIRMS__GAUSS_COMPATIBLE_TWO_CONNECTION_ARENA__SOURCE_SILENT__K77_GCR_TO_ODD_CURVATURE_OWNER_MAP
 ledger: lab/process/conditional-physics-ledger-v0.49.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer GCR exterior-degree owner retype

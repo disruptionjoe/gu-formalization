@@ -42,7 +42,7 @@ V := R^14 ⊗ S ,   dim_C = 14 · 128 = 1792   (= H^896 complexified)
   `T : R^14 ⊗ S → S`, `(ψ_a) ↦ Σ_a c(e_a) ψ_a` (the RS constraint `γ^a ψ_a = 0`).
 - `E₊` = `I_14 ⊗ (I+ω)/2`, chirality on the spinor factor.
 
-This run is **independent of the prior hardening-pass scripts**: Cl(9,5) is
+This investigation is **independent of the prior hardening-pass scripts**: Cl(9,5) is
 rebuilt with a different concrete realization — the 5 timelike generators listed
 first and the Jordan–Wigner tensor factors placed in reversed order — so the
 gamma matrices are different matrices representing the same abstract algebra

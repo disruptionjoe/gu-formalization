@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_bvkt_result
 created: 2026-08-13
-run_id: RUN-20260813-031435-gu-i2b-bvkt-exact-sequence
 status: STANDARD_SOURCE_DERIVED_LOCAL_BVKT_SEQUENCE_CLOSES_BUT_PRESERVES_BOTH_EULER_CLASSES__CURRENT_SOURCE_BV_ESCAPE_CLOSED_AT_LOCAL_POINTWISE_GRADE__NEW_ACTION_OWNED_PRIMAL_CONSTRAINT_OR_MOVING_REDUCTION_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 ---
 

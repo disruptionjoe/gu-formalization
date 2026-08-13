@@ -126,7 +126,7 @@ loop-redesign/halt ops action (it is not merely a closed research lane).
 ## OBJ-HETSUB — Heterodox substrate lanes lack an SM-chirality bridge
 
 - **Lane:** Wolfram/rulial, stochastic parity-breaking, CA irreducibility, decidability
-- **Origin:** neutral (lowest in the 15-persona ranking: K=41, M=48, N=44)
+- **Origin:** neutral (lowest in the 15-perspective ranking: K=41, M=48, N=44)
 - **Objection:** None of the four lanes has a bridge to actual SM chirality; parity-breaking gets
   inserted rather than derived, so the lanes "likely collapse."
 - **Current repo status:** exploration; low priority.

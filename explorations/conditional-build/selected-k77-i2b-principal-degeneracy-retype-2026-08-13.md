@@ -2,15 +2,10 @@
 artifact_type: correction_result
 created: 2026-08-13
 status: PRINCIPAL_DIFFERENTIAL_COMPLEX_EXACT__GAUGE_NOETHER_INTERPRETATION_RETRACTED
-run_id: RUN-20260813-111700-gu-i2b-principal-degeneracy-retype
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: NONE-NOT-A-KILL
 source_return: SOURCE_CONFIRMS_TILTED_GRAPH_INDEPENDENT_VARPI_AND_ADJOINT_GAUGE_GRAMMAR__SOURCE_SILENT_CL1_EXACT_FORM_GAUGE_SYMMETRY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "two exact linear maps into the same 196-real bank: 196x14 Cl1 exact-form and 196x91 Cl2 adjoint source gauge; decided wholesale"
 free_object_delta: 0

@@ -4,9 +4,7 @@ created: 2026-08-07
 status: FULL_LINEARIZED_BIANCHI_AND_LABELLED_AMBIENT_NULL_SCREEN_PASS__CURRENT_TOTAL_RAW_UPSILON_GRAPH_FAILS__COUPLED_ALL_GRADE_REPAIR_OPEN
 source_return: SOURCE-CONFIRMS__RAW_UPSILON_INCLUDES_SHIAB_CURVATURE_PLUS_KAPPA_T_AND_XI_EQUALS_D_UPSILON_REDUNDANCY__SOURCE-SILENT__LINEARIZED_SUPERCONNECTION_BIANCHI_PROOF_AND_LABELLED_AMBIENT_NULL_SCREEN
 ledger: lab/process/conditional-physics-ledger-v0.60.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 total raw-Upsilon and labelled ambient null screen

@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-090014-gu-source-i2b-hq-stationarity
 source_claims: [SC-ACT-04]
 disposition: SOURCE_CONFIRMS_SC_ACT_04_RESIDUAL_SQUARE_OWNER__SOURCE_SILENT_ON_HQ_REDUCTION_BACKGROUND_AND_TRANSVERSE_CANCELLATION
 ---

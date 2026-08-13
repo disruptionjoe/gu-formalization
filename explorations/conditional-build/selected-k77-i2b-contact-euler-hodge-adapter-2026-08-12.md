@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_variational_result
 created: 2026-08-12
-run_id: RUN-20260812-215541-gu-i2b-contact-euler-hodge-adapter
 status: HODGE_PRINCIPAL_ADAPTER_INTERSECTION_EXACT__MISSING_CONTACT_DIRECTION_IS_RADIAL_EULER_ROW__ZERO_ON_RESTRICTED_STATIONARY_BRANCH
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B contact/Euler Hodge adapter

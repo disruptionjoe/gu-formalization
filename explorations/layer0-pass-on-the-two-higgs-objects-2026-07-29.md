@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "LAYER-0 PASS ON THE TWO 'HIGGS' OBJECTS: verdict HOMONYM AT 14D BOOKKEEPING WITH ONE NAMED, UNADJUDICATED BRIDGE. SA-Y1's Higgs is the Lambda^0 carrier -- dim Hom 1, OPPOSITE chirality, the Dirac-Yukawa mass channel. Weinstein's 'the Higgs is an illusion' object is the IG connection perturbation a in Omega^1(ad) -- which the SAME machine-checked channel table lists as Lambda^1, dim Hom 1, SAME chirality, explicitly 'not a Lorentz scalar'. Different rows of one table with different chirality structure, so Weinstein's mechanism does NOT satisfy SA-Y1 as stated. The bridge that could relate them is specific and computable: does a vertical (fibre-direction) vev of a, under the 14D -> 4D reduction where Lambda^1(V14) -> Lambda^1(V4) (+) ten 4D scalars and the spinors also decompose, convert the 14D same-chirality channel into a 4D opposite-chirality Dirac mass? Unadjudicated. Consequence: T10 is neither dropped nor confirmed; the bridge computation replaces it as the actionable item."
 grade: "EXACT as a semantic adjudication against the machine-checked channel table (yukawa_trilinear_channels.py, 20/20). The bridge is NAMED and UNCOMPUTED -- Layer-0 UNCERTAIN is an open sub-task, not a free pass. No physics computed here."
@@ -10,9 +9,7 @@ protocol: "Layer-0 semantic-alignment precondition, lab/specifications/six-axis/
 source: "papers/drafts/Transcript into the impossible.md lines 145-149; explorations/yukawa-scoping-2026-07-13.md channel table"
 bears_on:
   - explorations/source-action-term-by-term-against-the-spec-2026-07-29.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "HOMONYM-WITH-NAMED-BRIDGE"
 ---
 

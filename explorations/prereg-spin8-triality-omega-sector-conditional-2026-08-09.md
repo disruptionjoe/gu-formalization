@@ -3,15 +3,11 @@ title: "Pre-registration: the Spin(8)-triality omega-sector conditional — IF t
 artifact_type: preregistration
 status: preregistration
 created: 2026-08-09
-lane: "1"
 work_item: TRIALITY-OMEGA-CONDITIONAL
 kill_conditions_declared_before_computation: true
-mode: "CONDITIONAL PRE-REGISTRATION. The antecedent (a built source action) DOES NOT EXIST. Nothing here is
   computed, claimed, or forced. The whole point is that this is written BEFORE the gate opens."
 directed_by: "Joe direct chat, 2026-08-09 (take swings 4 and 5)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 follows:
   - canon/anchored-leads-screen-RESULTS.md

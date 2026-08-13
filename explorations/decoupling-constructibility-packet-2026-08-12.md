@@ -9,7 +9,7 @@ head_pin: "c4f05a13e31a44c069db0119aa489920791dcff0 (2026-08-11 20:11:50 -0500, 
 authored_by: "Joe-directed design pass (direct chat brief v1.0); repo READ-ONLY for this pass; packet lives outside the repo"
 relates_to:
   - lab/sources/source-claim-register.yaml (rows SC-CHI-01..04, SC-CHI-50..54, SC-GEN-01/02, SC-GEN-50/51, SC-OP-04/05, SC-ACT-01)
-  - lab/process/agent-context-pack.md (v0.189 head block; live forks 1618-1650; VEV/curvature horn 1539-1548; AC-G1 fence 1091-1099)
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md (v0.189 head block; live forks 1618-1650; VEV/curvature horn 1539-1548; AC-G1 fence 1091-1099)
   - RESEARCH-STATUS.md (v0.173, v0.174, v0.183, v0.189 entries)
   - explorations/conditional-build/selected-k77-action-adjoint-weight-classification-2026-08-11.md (v0.174: the two pairing horns, weights, p = w+w-)
   - explorations/W224-falsify-nielsen-ninomiya-chirality-2026-07-14.md (the prior NN/SMG/'t Hooft reduction, retired-horn grade)
@@ -32,9 +32,7 @@ binding: >-
   kill of any register row (target_claim: NONE-NOT-A-KILL); it types what
   constructibility of the source's emergent-chirality decoupling would take,
   end-to-end, and which pieces have finite exact checks today.
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---

@@ -4,7 +4,7 @@ status: active_research
 doc_type: specification
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T140229Z-g1-derivative-cocycle-moving-reference/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/g1_derivative_cocycle_moving_reference_probe.py
 grade: "CONDITIONAL GLOBAL CONSTRUCTION SPECIFICATION. The derivative cocycle, tilted algebra, local-lift descent, patch covariance, moving-reference conjugation, trace-reversed Spin compatibility, right-H structure, and fixed-fibre action-groupoid quotient are exact. Existence/selection of a global LC-equipped reduction on an arbitrary G-bundle and equivalence with Conn(P)/G are not claimed."
 ---

@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-152113-gu-k77-majorana-reality-graded-domain-scope
 verdict: SURVIVES_WITH_SCOPE_REPAIR__LOCAL_REALITY_EXISTS__EVEN_DOMAIN_IMPORT_REJECTED__GRADED_GLOBAL_DOMAIN_OPEN
 ---
 

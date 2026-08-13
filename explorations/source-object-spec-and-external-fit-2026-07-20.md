@@ -4,9 +4,7 @@ doc_type: source_object_characterization_and_fit
 status: exploration tier; consolidated spec sheet + external-program fit table; probe exit 0; no claim/canon/posture movement
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (source-object characterization + external-program fit)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 probe: tests/channel-swings/source_object_fit_probe.py
 related:
   - docs/WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md

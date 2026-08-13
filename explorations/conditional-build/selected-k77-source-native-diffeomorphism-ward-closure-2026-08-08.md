@@ -2,9 +2,7 @@
 artifact_type: construction_result
 created: 2026-08-08
 status: SOURCE_NATIVE_PHYSICAL_WARD_CLOSED__ACTION_EULER_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 source-native physical-diffeomorphism Ward closure

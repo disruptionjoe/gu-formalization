@@ -38,7 +38,7 @@ def check(kind: str, label: str, condition) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.187.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.186.json")
 result = strict("lab/process/selected-k77-canonical-section-jet-cartan-spin-prolongation.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.187"
@@ -111,7 +111,7 @@ check("routing", "finite nonlinear descent precedes lower-order BV",
 for relative, needles in {
     "NEXT-STEPS.md": ["v0.187", "18 rotations", "22 boosts", "U(32,32)"],
     "RESEARCH-STATUS.md": ["v0.187", "All 40", "epsilon_IG"],
-    "lab/process/agent-context-pack.md": ["Current v0.187", "observation-section jet", "P1/P2/P3"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.187", "observation-section jet", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-12-selected-k77-canonical-section-jet-cartan-spin-prolongation-review.md": ["SURVIVES_SCOPED", "Symplectic", "mistyped"],
     "lab/sources/selected-k77-canonical-section-jet-cartan-spin-prolongation-source-return-2026-08-12.md": ["SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"],
 }.items():

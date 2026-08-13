@@ -10,16 +10,13 @@ repo_head_pinned_for_reading: 0b2b0453a0afb831cbcb70f70352f65b120043b8
 repo_head_at_probe_run: f078fcbb66ff9d99b933022c28852eb7fcf65c96  # hourly automation advanced HEAD mid-run
 head_advance_impact: "LT-SM1 byte-identical in v0.216 and the new v0.231; ledger residue unchanged; NEXT-STEPS.md line numbers shifted +14, so all probe anchors were converted from line numbers to markers"
 repo_access: READ-ONLY (hourly automation owns the conditional-build ledgers; nothing written into the repo)
-lane: "1"
 work_item: LT-SM1-CONSTRAINT-SURPLUS-ATTEMPT
 probe: lt_sm1_surplus_probe.py (co-located; exit 0, both planted controls pass)
 title: "LT-SM1 surplus attempt: the horns ARE finitely enumerable (zeta_F in {0,1}), so the row is not mistyped at step 1 -- but the surplus is UNCOMPUTABLE. Exactly ONE of ten candidate constraints is both expressible and discriminating, and it is weak; and the free-parameter count of the fundamental horn is not agreed inside the repo (packet charges g_A^{-2} independently at 7.2; W229's own title says Z_U sets g_A). Both sides of the subtraction are unresolved, so no horn earns a positive surplus. The planted permissive control inflates expressibility 4/10 -> 10/10 and a naive written-parameters-only matcher selects the UNBUILT horn, which is the B5 failure mode in its dual form."
 grade: "EXACT for the enumeration (|H| = 2, verified against packet:498 and the ledger's own residue.open_discrete_forks) and for the expressibility computation (mechanical, planted-tested, reproducible). The discrimination column is a DECLARED READING of quoted artifact statuses, not a computation, and is graded SCOPED throughout. No row is closed, no claim moves, no coefficient is derived."
 construction: "program-native throughout per GEOMETER-VS-PHYSICS-OBJECTS.md; the one imported object is the Sakharov/Jacobson induced-kinetic-term stance, which is named as PORTED where it appears and is shown below to be a HOMONYM of the zeta_F fork rather than a resolution of it."
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 outcome: "SURPLUS-UNCOMPUTABLE (verdict c), with a secondary TYPING observation (partial d)"
 binds: nothing
@@ -32,7 +29,7 @@ is written into `gu-formalization`. The row's disposition is the wave's.
 
 **HEAD advanced mid-run.** Reading began at `0b2b045`; the hourly automation
 committed `f078fcb` ("Classify source-natural I2B primalizer") while this ran,
-touching `NEXT-STEPS.md`, `lab/process/agent-context-pack.md` and adding ledger
+touching `NEXT-STEPS.md`, `lab/process/CURRENT-RESEARCH-CONTEXT.md` and adding ledger
 **v0.231**. Impact checked, not assumed:
 
 - `LT-SM1` is **byte-identical** in `v0.216` and `v0.231` (all nine fields).
@@ -173,9 +170,9 @@ Three attacks on my own result, run before reporting it.
    `zeta_F = 1`. Declare `zeta_F = 0`."*
    **Disqualified, by the repo's own rule.** `AGENTS.md:44` (register `P-H29`):
    *"a null or kill verdict read from finite-difference numerics is not citable
-   until certified with exact/analytic derivatives."* `LANE-STATE.yaml:64`
+   until certified with exact/analytic derivatives."* `CURRENT-STATE.yaml:64`
    lists recertification of exactly the RB6/RB7/W177 nulls as still open, and
-   `LANE-STATE.yaml:69-70` says outright that RB7's *"published numbers are
+   `CURRENT-STATE.yaml:69-70` says outright that RB7's *"published numbers are
    FD-band reads and are not citable."* The brief independently forbids it.
    **This is the single most load-bearing exclusion in the run**: without P-H29
    the horn would look decided against `zeta_F=1`, and it is not.
@@ -186,7 +183,7 @@ Three attacks on my own result, run before reporting it.
 
 **Kill claim status: NONE-NOT-A-KILL.** No claim ID in
 `lab/sources/source-claim-register.yaml` is falsified by this run. `SC-ACT-04` is
-the target and it stands ADHERED; this run narrows what can be *inferred* from it,
+the target and it stands ADHERED; this investigation narrows what can be *inferred* from it,
 which is not a kill.
 
 ---
@@ -195,7 +192,7 @@ which is not a kill.
 
 `python3 lab/process/novelty-check.py "zeta_F horn selection" "induced Yang-Mills" "fundamental versus induced" "gauge kinetic surplus" "LT-SM1"` -> **exit 1, 1138 prior hits.** Near hits were read, not just counted:
 
-| prior art | what it already owns | why this run is not a redo |
+| prior art | what it already owns | why this investigation is not a redo |
 |---|---|---|
 | `explorations/b5-constraint-surplus-audit-2026-07-29.md` | the surplus method, the distinctive-object proxy, the planted-control discipline, the `SURPLUS-UNCOMPUTABLE` outcome type | it audits the **B5 phase residual**, a different object; LT-SM1 was never its subject |
 | `W180`, `W203`, `W229`, `W230`, `W236`, `W182`, `W161`, `W167` | the Sakharov induced-kinetic-term stance, ported and named | Lens 4: these are **sense B** of "induced Yang-Mills" and do not select `zeta_F` |
@@ -226,7 +223,7 @@ none of which computes a surplus. **No prior art on this row's surplus.**
 | **H2** | `zeta_F = 0` — Yang-Mills is **induced**: "the gauge kinetic term is not a written term at all but a consequence of the fermion determinant and the `\|II\|^2` sector" | `cb-b:637-639`, citing `packet:498` |
 
 **`|H| = 2`. The set IS finitely enumerable from the record**, so the step-1 stop
-condition does **not** fire and this run proceeds. Two independent corroborations:
+condition does **not** fire and this investigation proceeds. Two independent corroborations:
 
 - `packet:1117` charges a `discrete forks` category listing `YM` by name.
 - The ledger's own `residue` block records `open_discrete_forks: 9` with
@@ -362,7 +359,7 @@ change the *reopener*: there are five things to fix, not nine, and two of them
 | `N1` a planted constraint that genuinely cites `zeta_F`/`g_A^{-2}`/`F_A`/`packet:498` | classifies EXPRESSIBLE | **PASS** |
 | `N2` a planted unrelated constraint (mapping-torus orientation cocycle / KO twist) | classifies OUTSIDE | **PASS** |
 
-Both fire correctly, so the run is not void. (B5's first execution failed `N2`
+Both fire correctly, so the investigation is not void. (B5's first execution failed `N2`
 and was voided; that precedent is why these run first.)
 
 ### 5.2 The deliberately permissive control (brief item 3)
@@ -497,7 +494,7 @@ Ordered by how much of the above collapses if the item fails.
    `packet:1118` (derived list, which omits it) vs `W229:9` ("`Z_U` ... sets the
    induced YM coupling `g_A`"). **If `g_A^{-2}` is in fact derived from `Z_U`,
    H1's surplus is `+1` and the verdict moves toward (a).** This is the single
-   highest-leverage check in the run and I could not settle it from the record.
+   highest-leverage check in the investigation and I could not settle it from the record.
 3. **`C5`'s strength.** Does SM-6's Mexican-hat mechanism genuinely require a
    *fundamental* `||F_A||^2`, or does an induced one serve? I graded it weak on
    the symbol-vs-provenance argument. A field theorist should overrule me if the
@@ -523,7 +520,7 @@ Ordered by how much of the above collapses if the item fails.
 
 ### Charge 1 — Where did I overclaim?
 
-- **`C5` as "discriminating."** This is the weakest joint in the run and it is
+- **`C5` as "discriminating."** This is the weakest joint in the investigation and it is
   load-bearing for the surplus table (it is the entire constraint side). I
   counted it because `cb-b:939` types SM-6 that way in its own words, then
   immediately argued in Lens 5 that the typing may not survive scrutiny. Counting
@@ -595,7 +592,7 @@ Would **not** move me:
 - more artifacts adopting the Sakharov stance on `theta` (Lens 4: wrong homonym
   sense; they do not touch `zeta_F`).
 
-**Empty lists:** claims killed by this run — **none** (`NONE-NOT-A-KILL`). Claim
+**Empty lists:** claims killed by this investigation — **none** (`NONE-NOT-A-KILL`). Claim
 IDs whose status changes — **none**. Ledger rows moved — **none**. Canon entries
 touched — **none**. Repo files written — **none**. New free objects introduced —
 **none** (every object named here is already charged in `packet:1104-1120`).

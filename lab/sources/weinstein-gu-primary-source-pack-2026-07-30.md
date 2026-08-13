@@ -3,12 +3,9 @@ title: "Weinstein on Geometric Unity: primary-source packet for the N1/N3 source
 status: active_research
 doc_type: source_packet
 created: 2026-07-30
-lane: "1"
-run: lab/process/runs/GUH-20260730T165850Z-weinstein-source-reinspection/run-plan.md
+run: archived private execution record
 grade: "SOURCE-GROUNDED LOCATOR AND DISPOSITION PACKET. The 2021 author draft and official Portal/Oxford transcript are primary source surfaces. The 2021 Into the Impossible transcript is official but editorially processed. The 2020 DarkHorse and 2020 Into the Impossible rows were checked through temporary automated captions and are discovery-grade only. Source formulas are not proofs, source resemblance is not object identity, and no action, datum, Euler equation, Noether identity, mass, index, count, or scientific-status claim is promoted here."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Weinstein GU primary-source packet
@@ -116,8 +113,8 @@ I^B_1(\epsilon,\varpi+s\alpha)
 The action, its Chern--Simons-like completion, and its variation were already
 transcribed and typed by:
 
-- [`hourly-20260626-1003-cycle3-tau-source-locator-packet.md`](../../explorations/hourly-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md);
-- [`hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md`](../../explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md); and
+- [`hourly-20260626-1003-cycle3-tau-source-locator-packet.md`](../../explorations/research-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md);
+- [`hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md`](../../explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md); and
 - [`W161-lens-foundational-action-2026-07-14.md`](../../explorations/W161-lens-foundational-action-2026-07-14.md).
 
 What remains useful is not rediscovering the action. It is comparing this

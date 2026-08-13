@@ -2,8 +2,7 @@
 title: PW2F-R2B2A — second-Frechet order audit and partial moving-C4 comparator
 date: 2026-08-02
 status: PARTIAL_COMPARATOR_PASS_BLOCKS_COMPLETE_C4
-lane: Eric-guided Lane 1; chartwise source-aligned and active-reconstruction columns separated
-run: RUN-20260803-040328-gu-formalization-pw2fr2b2a-moving-c4
+run: historical-investigation
 ---
 
 # Result

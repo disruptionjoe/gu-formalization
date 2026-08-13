@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-11
 ledger_version: "0.185"
-run_id: RUN-20260811-224726-gu-k77-vertical-soldering-adapter-order-gate
 ---
 
 # Conditional physics ledger v0.185

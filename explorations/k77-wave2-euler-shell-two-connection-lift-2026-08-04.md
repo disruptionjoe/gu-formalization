@@ -15,9 +15,7 @@ free_object_delta: -1
 residue_touched:
   - id: K77-W2-ACTION-SHELL
     grade: T3
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promoted: false
 ---
 

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-10
-run_id: RUN-20260810-211634-gu-k77-graph-dynamics-gate
 verdict: SCOPED_SURVIVES
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 gamma-trace graph dynamics gate

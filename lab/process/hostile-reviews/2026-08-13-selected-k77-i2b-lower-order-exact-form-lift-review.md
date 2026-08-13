@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-115145-gu-i2b-lower-order-exact-form-lift
 target_claim: NONE-NOT-A-KILL
 verdict: SCOPED_RESULT_SURVIVES__FIXED_HQ_RESTRICTED_CRITICAL_BRANCH_ONLY
 ---

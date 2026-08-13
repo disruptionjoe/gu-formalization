@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_scope_result
 created: 2026-08-11
-run_id: RUN-20260811-182311-gu-k77-energy-green-boundary-horn-composition
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.179"
 result: BOTH_DOUBLED_MAJORANA_HORNS_ARE_ACTION_GREEN_ISOTROPIC_ON_THE_EXACT_INCOMING_ENERGY_HALF__ONE_SIDED_INDEPENDENT_DUAL_OBSTRUCTION_RETRACTED_AS_WRONG_OBJECT
 grade: "exact full-carrier two-prime finite graded-linear algebra with four firing plants; local flat principal boundary compatibility only"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77 and both action-pairing horns are labelled conditional comparators."
 source_return: SOURCE-SILENT

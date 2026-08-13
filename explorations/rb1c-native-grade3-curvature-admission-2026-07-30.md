@@ -3,14 +3,11 @@ title: "RB1c native grade-three curvature admission and trace-line cyclic gate"
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: RB1C-NATIVE-GRADE3-CURVATURE-ADMISSION
-run: lab/process/runs/GUH-20260730T232344Z-rb3b-trace-vertex-grade3/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/rb1c_native_grade3_curvature_probe.py
 grade: "NATIVE FULL-ADJOINT GRADE-THREE MAP EXECUTED / GENERIC NON-RIEMANNIAN RESPONSE NONZERO / POINTWISE LEVI-CIVITA SOURCE ROLE KILLED ON ALL ALGEBRAIC-RIEMANN IRREPS / DEWITT TRACE-LINE ADAPTER REOPENS A CARRIER BUT FAILS THE RB2 CYCLIC IDENTITY / CANONICAL POLARIZATION SURVIVES ONLY AS A DIFFERENT TWO-INPUT EULER-COVECTOR GEOMETRY. Trace reversal changes the ambient Hodge class and supplies the negative trace gamma. The unadapted source has norm 25.2982 on the generic control; independent scalar, traceless-Ricci, and Weyl regressions prove the projected source vanishes on the complete 3185-dimensional algebraic-Riemann representation, while powered raw controls remain nonzero (scalar norm 82.2679). The trace adapter is native and nonzero on the scalar plant at 78.2304, yet six deterministic seeded full-adjoint cyclic gaps are order one and a four-ordering repair family has full sampled rank. Exact polarization is symmetric and derivative-correct, and one finite moving-data covariance proxy passes, but a planted zero-polarized-curvature pair produces a nonzero Euler covector, ruling out representation by one linear S(Lambda2) map in that fixture. No RB1/RB2 reentry."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # RB1c native grade-three curvature admission

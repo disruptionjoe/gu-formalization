@@ -1,13 +1,9 @@
 ---
 artifact_type: construction_result
-run_id: RUN-20260813-064800-gu-i2b-real-curvature-euler-image
-lane: 1
 channels: [Build, Compose, Source, Verify]
 status: POINTWISE_REAL_FULL_UNITARY_CURVATURE_EULER_CANCELLATION_KILLED__DERIVATIVE_DEPENDENT_JET_NONZERO_FERMION_AND_FULL_FIELD_BV_OPEN
 source_return: SOURCE_CONFIRMS_I2B_FULL_U64_64_PARENT_AND_TWO_C32_32_HALVES__SOURCE_SILENT_DERIVATIVE_DEPENDENT_REAL_BACKGROUND_JET_SOLUTION__REPOSITORY_DERIVES_POINTWISE_EULER_IMAGE_EXCLUSION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "392-dimensional real grade-one residual carrier; complete 364-dimensional pointwise real curvature image; 196 real connection tangents; decided wholesale"
 free_object_delta: 0

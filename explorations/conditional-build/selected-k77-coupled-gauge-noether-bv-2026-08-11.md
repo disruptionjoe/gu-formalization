@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_result
 created: 2026-08-11
-run_id: RUN-20260811-030337-gu-k77-coupled-gauge-noether-bv
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.164"
 result: COUPLED_ORDINARY_GAUGE_NOETHER_BV_CLOSES_ON_VARPI_AND_FOUR_INDEPENDENT_FERMIONS__GAUGE_MULTIPLICITY_COMMUTANT_LEAVES_AT_LEAST_GR3_15_OF_RANK384_CARRIERS__NO_CARRIER_SELECTION__COUPLED_GREEN_DOMAIN_NEXT
 grade: "EXACT local ordinary-gauge BRST/Noether composition and pointwise multiplicity-commutant theorem; global action domain, physical cohomology and selection excluded"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Coupled K77 ordinary-gauge Noether/BV complex

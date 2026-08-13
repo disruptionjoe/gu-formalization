@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-060541-gu-varpi-radial-half-exchange",
+  "run_id": "historical-investigation",
   "status": "TRACE_RADIAL_VARPI_COMPONENT_CONSTRUCTED_IN_FULL_U64_64_HALF_EXCHANGE_COMPLEMENT__MOVING_SOLDERED_DOUBLET_EXACT__PURE_RADIAL_POTENTIAL_ZERO",
   "target_claim": "NONE-NOT-A-KILL",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

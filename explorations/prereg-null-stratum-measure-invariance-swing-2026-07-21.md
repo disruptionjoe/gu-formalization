@@ -4,11 +4,8 @@ status: preregistered
 doc_type: exploration
 created: 2026-07-21
 portfolio_item: FALSIFICATION-BATTERY
-lane: "1"
 targets: [T-D1, T-D2, T-D3, H-D1, H-D2]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

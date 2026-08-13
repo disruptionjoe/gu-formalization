@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-223221-gu-i2b-moving-coefficient-absorption
 return_code: SOURCE_CONFIRMS_AND_SOURCE_SILENT
 claim_ids: [SC-ACT-04]
 ---

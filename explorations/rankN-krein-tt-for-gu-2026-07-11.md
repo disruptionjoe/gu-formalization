@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (directed swing; 5-persona inline team; the composition-closure test W77 x W83; literature check + deterministic toy)
+status: exploration (directed swing; 5-perspective inline team; the composition-closure test W77 x W83; literature check + deterministic toy)
 created: 2026-07-12
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path)
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -70,9 +70,9 @@ at infinite rank they come apart, and that gap is the swing's result.
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- operator-algebra / modular-theory specialist (what closure actually requires)
+### Perspective 1 -- operator-algebra / modular-theory specialist (what closure actually requires)
 
 `W77`'s IFF is stated on the **spectrum** of `Delta` (real & positive). But the deliverable of Tomita-Takesaki
 is the **modular conjugation** `J`, obtained from the **`eta`-positive square root** `Delta^{1/2}` in the
@@ -99,7 +99,7 @@ quasi-Hermitian, `h` is exactly Hermitian, standard TT applies -- and the ghost 
 **But at infinite rank / type III both routes fail from real-positive spectrum alone**, and that is GU's
 regime.
 
-### Persona 2 -- MATH REFEREE (does PT-unbroken give quasi-Hermitian at type III? is the ghost removable or not?)
+### Perspective 2 -- MATH REFEREE (does PT-unbroken give quasi-Hermitian at type III? is the ghost removable or not?)
 
 **Ruling 1 -- PT-unbroken does NOT imply quasi-Hermitian at infinite rank.** The counterexample is a
 theorem, not a worry: **Krejcirik-Siegl (PRD 86 (2012) 121702)** show the PT-symmetric **imaginary cubic
@@ -132,7 +132,7 @@ rank-1 and `W77` -- is **finite-rank-specific** and does not extend to infinite 
 Either the ghost is removable (and the interesting structure evaporates) or the obstruction survives. The
 referee refuses "RANK>1 CLOSES."
 
-### Persona 3 -- ADVERSARY (both directions)
+### Perspective 3 -- ADVERSARY (both directions)
 
 - *Against RESIDUAL OBSTRUCTION ("PT-unbroken is enough; you are importing an infinite-dim pathology GU
   need not have").* Pressed honestly: the adversary must claim GU's tower is **uniformly** PT-unbroken (a
@@ -152,7 +152,7 @@ referee refuses "RANK>1 CLOSES."
 The adversary's two pushes are mutually defeating: one removes the ghost, the other keeps it but keeps the
 obstruction. Neither delivers a clean collapse.
 
-### Persona 4 -- CROSS-CHECKER (the quasi-Hermiticity literature + a toy)
+### Perspective 4 -- CROSS-CHECKER (the quasi-Hermiticity literature + a toy)
 
 **Literature (2026-07-12, read-only).**
 - **Krejcirik-Siegl (PRD 86 (2012) 121702, arXiv:1208.1866):** confirmed -- bounded metric, **unbounded
@@ -190,7 +190,7 @@ Two independent derivations (**D1** definitizability/functional-analytic; **D2**
 dichotomy) **agree**: PT-unbroken alone does not close rank>1 Krein-TT at type III, and the residual is the
 uniform-metric/definitizability condition.
 
-### Persona 5 -- SYNTHESIZER (the verdict)
+### Perspective 5 -- SYNTHESIZER (the verdict)
 
 See Sections 2-4.
 

@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-054000-gu-i2b-source-action-grammar-exhaustion
 verdict: SURVIVES_WITH_ZERO_FERMION_SELECTED_HQ_GRADE_SCOPE
 required_lenses: [layer0_semantics, prior_art, source_criticism, variational_bicomplex, symplectic_bv, analytic, contrary_path]
 ---

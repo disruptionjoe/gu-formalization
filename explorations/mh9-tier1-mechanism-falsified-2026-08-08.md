@@ -2,14 +2,11 @@
 artifact_type: exploration_result
 created: 2026-08-08
 status: MH9_ENDPOINT_MECHANISM_FALSIFIED_AT_TIER1__SIGNATURE_AMBIENT_HAS_NO_NAMED_RESOLVER
-run_id: GUH-20260808T060000Z-register-side-track
 grade: "EXACT, preregistered, frame-independent. tests/mh9_tier1_cperp_character_no_flip.py
   is green with all residuals 0.00e+00. The expectation was preregistered before
   running and the result contradicts it, so the assertions pin the falsification
   rather than the hypothesis."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

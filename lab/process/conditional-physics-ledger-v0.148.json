@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.148 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the abstract P3/S+ class match survives re-scoped, but the current nontrivial P3 normal support cannot diagonalize the tangential source bundle; tangential support or a new source-owned H-N soldering is required before action restriction"
   },
-  "updated_by": "RUN-20260810-151225-gu-p3-normal-tangential-support",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

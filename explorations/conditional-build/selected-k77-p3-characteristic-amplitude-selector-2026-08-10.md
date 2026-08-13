@@ -2,13 +2,9 @@
 artifact_type: conditional_construction_and_composition_result
 created: 2026-08-10
 status: CONDITIONAL_TOPOLOGICAL_MAGNITUDE_SELECTOR_EXISTS__CURRENT_P3_DIAGONAL_UNBUILT__SIGN_REMAINS_DISCRETE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_SILENT_CHARACTERISTIC_MATCH_AMPLITUDE_QUANTIZATION_AND_SIGN_MAP
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 P3 characteristic-class amplitude selector

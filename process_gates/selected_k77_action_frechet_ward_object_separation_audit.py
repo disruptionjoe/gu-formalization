@@ -25,7 +25,7 @@ def strict(relative):
 
 registry = strict("lab/process/selected-k77-action-frechet-ward-object-separation.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.91.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 assert registry["status"].endswith("ACTUAL_TRANSVERSE_J_AND_K_OPEN")
 assert registry["exact_results"]["actual_full_coefficientwise_J_R_zero"].startswith("OPEN")

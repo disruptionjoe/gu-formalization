@@ -38,12 +38,12 @@ def check(kind: str, label: str, condition: object) -> None:
 old = strict("lab/process/conditional-physics-ledger-v0.139.json")
 new = strict("lab/process/conditional-physics-ledger-v0.140.json")
 result = strict("lab/process/selected-k77-degree-duality-pair-graph-gate.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-degree-duality-pair-graph-gate-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-degree-duality-pair-graph-review.md").read_text()
 routing = "\n".join((ROOT / name).read_text() for name in (
-    "LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
-    "lab/process/agent-context-pack.md", "lab/process/exploration-absorption-priorities-2026-08-10.md",
+    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md", "lab/process/exploration-absorption-priorities-2026-08-10.md",
 ))
 
 moved = {"RA-D2", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"}

@@ -1,7 +1,6 @@
 ---
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
-run_id: RUN-20260812-070112-gu-minimal-moving-doublet-curvature
 ledger: lab/process/conditional-physics-ledger-v0.198.json
 ---
 

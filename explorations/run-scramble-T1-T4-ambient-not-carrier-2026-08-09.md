@@ -6,9 +6,7 @@ status: THIRD_OUTCOME__T1_T4_BREAK_UNDER_SCRAMBLE_SO_THEY_HAVE_INTERNAL_CONTENT_
 grade: "EXECUTED, read-only. 32 scrambled runs (Haar and Hermitian-involution U), positive control (global
   unitary conjugation) and two negative controls, all passing. NOT hostile-verified -- launched without a
   verify pass, which is itself recorded below as a process lapse."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # The scramble test: a third outcome

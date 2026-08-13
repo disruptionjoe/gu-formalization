@@ -46,12 +46,12 @@ def digest(path: Path) -> str:
 
 def main() -> None:
     paths = {
-        "rendered": ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
+        "rendered": ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
         "ucsd_raw": ROOT / "papers/drafts/Transcript into the impossible.md",
         "ucsd_edited": ROOT / "lab/literature/weinstein-ucsd-2025-04-transcript.md",
         "toe": ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
         "portal": ROOT / "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
-        "variation_audit": ROOT / "explorations/hourly-cycles/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md",
+        "variation_audit": ROOT / "explorations/research-cycles/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md",
         "pw2f_manifest": ROOT / "lab/process/pw2f-primary-source-collision-manifest.json",
     }
     expected = {

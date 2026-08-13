@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (FALSIFICATION WAVE, non-naive; LEG = weak-field / PPN gravity with matter; five personas inline, one worker, no sub-agents; deterministic test with Bianchi + linearized-Einstein + Schwarzschild positive controls and a Brans-Dicke teeth control, exit 0)
+status: exploration (FALSIFICATION WAVE, non-naive; LEG = weak-field / PPN gravity with matter; five perspectives inline, one worker, no independent reviewers; deterministic test with Bianchi + linearized-Einstein + Schwarzschild positive controls and a Brans-Dicke teeth control, exit 0)
 created: 2026-07-14
 wave: W220
 label: W220
@@ -61,12 +61,12 @@ any computed PPN parameter deviates from the measured solar-system value beyond 
 `xi, alpha1, alpha2, alpha3, zeta1..4` beyond its published bound. GU SURVIVES iff all ten
 reduce to the GR values within bounds.
 
-Five personas inline (GR/PPN-framework specialist; weak-field/post-Newtonian-expansion
+Five perspectives inline (GR/PPN-framework specialist; weak-field/post-Newtonian-expansion
 specialist; solar-system-constraints specialist; shiab-reduction specialist; ruthless skeptic);
-one worker, no sub-agents. Deterministic test `tests/W220_falsify_ppn_weak_field.py`,
+one worker, no independent reviewers. Deterministic test `tests/W220_falsify_ppn_weak_field.py`,
 positive controls first, exit 0.
 
-## 1. The crux: a pure-metric conserved-source theory has GR's trace-reversal (persona 1 + 4)
+## 1. The crux: a pure-metric conserved-source theory has GR's trace-reversal (perspective 1 + 4)
 
 The single load-bearing computation is that GU's granted reduction is not merely "Einstein-like"
 but forced onto the exact Einstein trace-reversal, and PPN is a corollary.
@@ -100,7 +100,7 @@ At the Bianchi-forced `f = 1/2`: **gamma = 1** (test **PC2**). This is a real fu
 not an assertion -- it returns `gamma != 1` the moment an extra field shifts `f` off `1/2`
 (that is exactly the Brans-Dicke teeth control in section 3).
 
-## 2. beta from the exact-Schwarzschild vacuum (persona 2)
+## 2. beta from the exact-Schwarzschild vacuum (perspective 2)
 
 gamma is a first-order (linear-in-mass) quantity; **beta is genuinely nonlinear** (order `U^2`),
 so it needs the second-order structure, not just the linearized equation. Granting H1/H21 (the
@@ -116,7 +116,7 @@ to `O(U^2)` in `U = M/r` and match the standard PPN template `g_00 = -(1 - 2U + 
 an independent corroboration of PC2. The linear coefficient `+2` in `g_00` is the Newtonian
 normalization (also checked), so the match is not a free rescaling.
 
-## 3. The negative control: this test has teeth (persona 5 + 3)
+## 3. The negative control: this test has teeth (perspective 5 + 3)
 
 A SURVIVES verdict is only meaningful if the same machinery can register a FAIL. Brans-Dicke
 gravity has an EXTRA propagating scalar, which breaks the pure-metric Bianchi argument of section
@@ -135,7 +135,7 @@ T_mn`, cannot shift `f` off `1/2`, so it cannot move gamma off 1. This is where 
 expectation ("a big unified theory surely deforms gamma") fails: the deformation would need a
 light extra mode coupled to matter, and GU's reduction has none.
 
-## 4. The other eight parameters (persona 3 + 1)
+## 4. The other eight parameters (perspective 3 + 1)
 
 The remaining PPN parameters test preferred-frame effects (`alpha1, alpha2`), preferred-location
 / Whitehead effects (`xi`), and violations of momentum/energy conservation (`alpha3, zeta1..4`).
@@ -159,7 +159,7 @@ a future genuine reduction were to leak a preferred vector from the observerse i
 the sub-leg where it would show up -- but that is a GAP in the granted object, not a computed
 non-zero prediction, so it does not falsify.
 
-## 5. The confrontation table (persona 3)
+## 5. The confrontation table (perspective 3)
 
 ```
 param     GU value   GR value    |dev|      bound      status
@@ -200,7 +200,7 @@ indistinguishable from GR in the solar system**, and the naive kill ("a unified 
 deform gamma or beta") is defeated by the structural fact that the granted reduction adds no
 long-range mode to shift the trace-reversal.
 
-## 7. Honest limits (persona 5)
+## 7. Honest limits (perspective 5)
 
 - **This is granted-reduction PPN, not a fresh derivation from GU's own action.** The whole
   result is conditional on the granted objects: the reduction to `G_mn = T_mn` (W161, itself
@@ -223,8 +223,8 @@ long-range mode to shift the trace-reversal.
   asserts a vacuum, or flips a verdict. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by the PPN falsification wave (W220). Leg: WEAK-FIELD / PPN GRAVITY WITH
-MATTER. Five personas inline in one worker (GR/PPN-framework; post-Newtonian-expansion;
-solar-system-constraints; shiab-reduction; ruthless skeptic); no sub-agents. Reproducible:
+MATTER. Five perspectives inline in one worker (GR/PPN-framework; post-Newtonian-expansion;
+solar-system-constraints; shiab-reduction; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W220_falsify_ppn_weak_field.py` (exit 0; Bianchi + linearized-Einstein +
 Schwarzschild positive controls first, Brans-Dicke teeth control). Exploration grade;
 truth-seeking; no canon movement. VERDICT: SURVIVES.*

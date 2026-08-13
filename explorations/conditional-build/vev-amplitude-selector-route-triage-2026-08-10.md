@@ -2,12 +2,8 @@
 artifact_type: conditional_strategy_note
 created: 2026-08-10
 status: PLANNING_ONLY__NO_SCIENTIFIC_STATUS_MOVEMENT
-lane: "1"
-functional_channels: [BUILD, COMPOSE]
 predecessor: explorations/conditional-build/selected-k77-zero-fermion-vev-selector-exhaustion-2026-08-10.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # VEV amplitude-selector route triage

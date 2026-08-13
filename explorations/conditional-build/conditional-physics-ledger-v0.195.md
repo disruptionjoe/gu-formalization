@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-12
 ledger_version: "0.195"
-run_id: RUN-20260812-043842-gu-trace-hq-connection-internal-chain
 ---
 
 # Conditional physics ledger v0.195

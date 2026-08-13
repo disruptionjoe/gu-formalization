@@ -2,13 +2,10 @@
 title: "Framing composite mod 3: the {0,4} ambiguity decided into a one-bit convention datum (register M-M9; audit HB-02/B6)"
 status: active_research
 doc_type: exploration
-lane: "1"
 created: 2026-08-03
 updated: 2026-08-03
 outcome: "COMPOSITE-DECIDED-BY-ONE-RELATIVE-SIGN; H1-SHIFT-LEMMA-PROVED; NO-GU-BRANCH-ASSERTED"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 grade: "EXACT arithmetic + named-premise fork (the arithmetic is exact and machine-certified; which branch is GU's remains the declared V15-5 premise)"
 register_item: M-M9 (lab/process/improvement-register-2026-08-03.md)
 audit_findings: [HB-02, B6]

@@ -3,7 +3,6 @@ title: "Recovery no-go GR W229 history audit and scope fork"
 status: exploration
 doc_type: recovery_no_go_defense
 created: 2026-07-16
-run_id: GUH-20260716T120943Z-gr-nogo-defense
 target: RECOVERY-NOGO-GR-W229-VACUUM
 test: tests/recovery-contract/gr_nogo_history_scope_gate.py
 register: lab/process/recovery-no-go-defense-register.json

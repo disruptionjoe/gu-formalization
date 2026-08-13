@@ -2,7 +2,7 @@
 r"""TRACK-2 (H47 declare-and-build) -- T2A: the graviton-sector NUMBERS of the
 conditional theory GU-given-S.
 
-FIREWALL (repo-ratified, two-track-persona-sweep SYNTHESIS sec 6): every output here
+FIREWALL (repo-ratified, two-track-perspective-sweep SYNTHESIS sec 6): every output here
 is a CONDITIONAL statement "X given S".  S is the declared postulate set (see the
 exploration doc explorations/track2-conditional-numbers-2026-07-13.md).  Nothing in
 this file asserts S.  Nothing here may be quoted as "GU predicts X" without the

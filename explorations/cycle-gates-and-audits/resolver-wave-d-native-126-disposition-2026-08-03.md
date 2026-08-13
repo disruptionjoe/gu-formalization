@@ -3,13 +3,10 @@ artifact_type: exploration
 status: exploration
 doc_type: resolver-wave-gate
 created: 2026-08-03
-lane: "1"
 named_gate: RESOLVER-WAVE-D-NATIVE-126-CONNECTION-PLACEMENT
 gate_transition: "OPEN -> PARTIAL_CONSTRUCTED"
 route_disposition: CONTINUE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 registry: explorations/cycle-gates-and-audits/resolver-wave-d-native-126-disposition-2026-08-03.json
 ---
 

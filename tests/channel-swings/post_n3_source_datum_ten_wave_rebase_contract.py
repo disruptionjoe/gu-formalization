@@ -20,14 +20,14 @@ REBASE = (
 )
 ORIGINAL = (
     ROOT
-    / "explorations/ten-persona-next-ten-swing-council-scaffold-2026-07-30.md"
+    / "explorations/ten-perspective-next-ten-swing-council-scaffold-2026-07-30.md"
 )
 N1 = ROOT / "explorations/unified-source-datum-packet-v0-2026-07-30.md"
 N2_N4 = ROOT / "explorations/n2a-n4a-intersection-handoff-2026-07-30.md"
 N3 = ROOT / "explorations/unified-source-datum-variational-emission-map-2026-07-30.md"
 VANCHURIN = (
     ROOT
-    / "explorations/vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md"
+    / "explorations/vanchurin-ten-perspective-neural-network-analogy-audit-2026-07-30.md"
 )
 WEINSTEIN = (
     ROOT

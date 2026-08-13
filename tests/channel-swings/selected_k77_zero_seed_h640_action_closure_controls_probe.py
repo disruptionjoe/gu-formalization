@@ -503,7 +503,7 @@ else:
     next_gate = "DERIVE_FULL_ACTION_BV_KOSZUL_TATE_ON_FULL1920_BEFORE_CARRIER_RESTRICTION"
 
 RESULT = {
-    "run_id": "RUN-20260811-202031-gu-k77-zero-seed-h640-action-closure-controls",
+    "run_id": "historical-investigation",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,
     "packets": packets,

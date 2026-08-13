@@ -29,7 +29,7 @@ class PullRequestTemplateValidationAudit(unittest.TestCase):
         self.assertIn("[verified]", text)
         self.assertIn("[reconstruction]", text)
         self.assertIn("[speculation]", text)
-        self.assertIn("lab/process/runbooks/claim-status-consistency-quality-workflow.md", text)
+        self.assertIn("lab/methods/claim-status-consistency.md", text)
 
     def test_template_names_reproduction_and_process_gate_checks(self) -> None:
         text = read_template()

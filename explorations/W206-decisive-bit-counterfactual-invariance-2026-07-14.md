@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (R16 COUNTERFACTUAL-INVARIANCE / metric-from-stabilizer; one worker, viewpoints inline, no sub-agents; deterministic test 29/29 exit 0, positive controls first)
+status: exploration (R16 COUNTERFACTUAL-INVARIANCE / metric-from-stabilizer; one worker, viewpoints inline, no independent reviewers; deterministic test 29/29 exit 0, positive controls first)
 created: 2026-07-14
 wave: W206
 label: W206
@@ -25,7 +25,7 @@ Test: `tests/W206_decisive_bit_counterfactual_invariance.py` (29/29, exit 0, pos
 Deterministic (seed 20260714), on the repo's `(9,5) = (3,1) + (6,4)` frame -- the same level at which
 W203 forced `eta`, W168 read the fiber Krein sign, and W202 proved signature-robustness. Viewpoints
 (invariant-theory specialist; skeptic/guardrail; coherence synthesizer) ran INLINE in this one worker,
-no sub-agents. Zero em dashes. One of five parallel siblings attacking the SAME bit by different
+no independent reviewers. Zero em dashes. One of five parallel siblings attacking the SAME bit by different
 methods; this is R16, the W205 Condorcet winner.
 
 ## 0. The question, sharpened, and the guardrail
@@ -207,7 +207,7 @@ the live question is whether any route makes the SIGN a theorem.
 
 *Filed 2026-07-14. Route: R16 counterfactual-invariance / metric-from-its-stabilizer (Klein/Erlangen),
 the W205 Condorcet winner. Viewpoints inline in one worker (invariant-theory specialist; skeptic/
-guardrail; coherence synthesizer); no sub-agents. Reproducible:
+guardrail; coherence synthesizer); no independent reviewers. Reproducible:
 `python -u tests/W206_decisive_bit_counterfactual_invariance.py` (29/29, exit 0; positive controls
 first, including the W203 `nulldim=1` guardrail control). VERDICT: RESIDUAL-BIT-STANDS (invariant-form
 dimension 2; residual = a Z/2 grading sign plus block scales; `eta_+` is a generator, not the unique

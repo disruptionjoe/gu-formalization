@@ -2,12 +2,8 @@
 artifact_type: construction_and_scope_result
 created: 2026-08-10
 status: LOCAL_FIRST_ORDER_BOSONIC_MOVING_REDUCTION_CONSISTENT_TRUNCATION_CANDIDATE__NOT_FERMION_SELECTOR__INDUCED_FERMION_OPERATOR_REQUIRED
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-D2, RA-F1, RA-F2, RA-G2, LT-SM3, AC-F1, LT-GR1, LT-GR2b, LT-GR3]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 action-owned reduction and carrier typing

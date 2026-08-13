@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260810-071020-gu-k77-zero-order-w-mirror-parent-leakage",
+  "run_id": "historical-investigation",
   "status": "CONDITIONAL_EXACT_RESULT",
   "layer0": {
     "source_matrix": "the draft's four-field sixteen-cell candidate",

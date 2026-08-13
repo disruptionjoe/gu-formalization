@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-09
 verdict: CANDIDATE_SURVIVES_WITH_SCOPE_NARROWING__POINTWISE_INTERNAL_PARENT_COMPATIBILITY_ONLY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 full-parent branch stationarity

@@ -4,9 +4,7 @@ created: 2026-08-07
 status: OWNER_MAP_RETYPED__RAW_CARRIER_COMPATIBLE__ACTUAL_PROLONGATION_OPEN
 source_return: SOURCE-CORRECTS__USE_RAW_UPSILON_DIFFERENTIAL__SOURCE-SILENT__BACKGROUND_SUBTRACTION_OWNER_AND_PROLONGED_ORBIT_COEFFICIENTS
 ledger: lab/process/conditional-physics-ledger-v0.46.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer normal-jet carrier compatibility

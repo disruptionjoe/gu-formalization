@@ -2,13 +2,10 @@
 title: "Pin+ degree-14 Smith-route audit"
 status: active_research
 doc_type: exploration
-lane: "1"
 created: 2026-07-22
 updated: 2026-07-22
 outcome: "PIN14-EXACT-Z2; GU-CLASS-OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 runnable:
   - tests/channel-swings/pin14_smith_degree_gate.py
 ---

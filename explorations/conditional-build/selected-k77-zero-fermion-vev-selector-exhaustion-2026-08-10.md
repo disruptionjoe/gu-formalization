@@ -2,13 +2,9 @@
 artifact_type: construction_composition_and_priority_correction
 created: 2026-08-10
 status: LOCAL_TRACE_ALREADY_CLOSED__ONE_AMPLITUDE_REMAINS__BUILT_LOCAL_CLASSICAL_SELECTORS_EXHAUSTED
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_DYNAMIC_DISTORTION_CARRIER_AND_TWO_TO_ONE_GOAL__SOURCE_SILENT_NORMALIZER_GLOBAL_FUNCTIONAL_QUANTUM_MEASURE_AND_EXTERNAL_DATUM
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 zero-fermion VEV selector exhaustion

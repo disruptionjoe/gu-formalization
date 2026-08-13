@@ -9,10 +9,7 @@ grade: "EXACT for everything computed. tests/signature_fork_equivariance_defect.
   classes from the table, fibre signatures by eigenvalue count. The TT-positivity
   criterion in test (4) is an IMPORTED PHYSICAL INPUT, labelled as such, not a
   consequence of GU's action. The RETYPING is proposed and NOT executed."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []
@@ -50,8 +47,8 @@ follows:
 > non-equivariance observation is not wrong; it is *subordinate*, explaining why
 > the horns feel undecidable from inside the construction.
 
-Produced by a divergent-persona sweep over the session's own output, looking for
-what was missed. Five personas returned something; the source critic returned the
+Produced by a divergent-perspective sweep over the session's own output, looking for
+what was missed. Five perspectives returned something; the source critic returned the
 one that changes a verdict type.
 
 ## The correction, first
@@ -200,7 +197,7 @@ but the index arithmetic it used to get there names the other algebra. The file 
 already `verdict: OPEN` with its central step retracted as circular, so nothing
 established rests on it.
 
-## What the other personas returned
+## What the other perspectives returned
 
 - **Historian.** The N1 audit derived the fibre `(7,3) → (6,4)` and then *added*
   base `(3,1)` to reach `(9,5)`. The fibre step is convention-invariant (shown

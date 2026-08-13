@@ -53,7 +53,7 @@ ported ON Y14, not imported as rival substrates.
 
 ## 1. What the test computed (tests/W149_substrate_record_shadow.py, 26/26, exit 0)
 
-The whole family shares one shadow-map arithmetic; the test settles it once, so persona
+The whole family shares one shadow-map arithmetic; the test settles it once, so perspective
 scoring is against numbers, not adjectives.
 
 - **The everpresent shadow WORKS on Y14->X4.** Sorkin bulk count `N_bulk = (R_H/l_p)^4 ~
@@ -85,7 +85,7 @@ scoring is against numbers, not adjectives.
 
 ## 2. Family roster and coverage
 
-Ten personas, each run INLINE (one worker, no sub-agents), two steelmen apiece = 20 steelmen.
+Ten perspectives, each run INLINE (one worker, no independent reviewers), two steelmen apiece = 20 steelmen.
 Nearest-partition to the D-wild-frontier + E-pragmatic slices of the 2026-07-11 roster, plus
 the four brief-named applied types. Coverage list: (1) causal-set dynamicist (Rideout-Sorkin
 CSG), (2) distributed-systems / DAG-ledger engineer, (3) consensus / finality theorist,
@@ -96,12 +96,12 @@ networks), (10) large-deviations / statistical mechanic.
 
 Each steelman is stated as the brief requires: (i) the growing-graph object + growth rule,
 (ii) the energy-to-continue + capability bound as a graph bound, (iii) the shadow map,
-(iv) the assumption leg, (v) the persona's test. Scored G1-G6 (W138) + NOVELTY.
+(iv) the assumption leg, (v) the perspective's test. Scored G1-G6 (W138) + NOVELTY.
 
 ## 3. Top survivors (ranked by mechanism concreteness, assumption-leg sharpness, testability, novelty)
 
 ### S1 -- Consensus / finality theorist: the measurement-gated promotion DAG on the C+ subspace
-**(persona 3, fused with 2 and 1). RANK 1.**
+**(perspective 3, fused with 2 and 1). RANK 1.**
 
 - **Growing graph + growth rule.** Nodes = admissible records = elements of the C-operator
   positive subspace `H_C+` over Y14 (W132's "what counts as physical"). Edges = Y14 (9,5)
@@ -149,7 +149,7 @@ Each steelman is stated as the brief requires: (i) the growing-graph object + gr
   and the Y14->X4 section projection (W131).
 
 ### S2 -- Information theorist (Landauer-Bekenstein): the confirmed-record count IS the entropy
-**(persona 4). RANK 2.**
+**(perspective 4). RANK 2.**
 
 - **Object + rule.** Nodes = promoted records; the graph is the confirmed sub-DAG. Growth
   rule = one Landauer-costed bit per promotion. Resource = `k_B T_dS ln2` per confirmed
@@ -173,7 +173,7 @@ Each steelman is stated as the brief requires: (i) the growing-graph object + gr
   it does not use `H_C+` -- it rides only the boundary count.
 
 ### S3 -- Causal-set dynamicist (Rideout-Sorkin CSG on Y14): the substrate growth process
-**(persona 1). RANK 3.**
+**(perspective 1). RANK 3.**
 
 - **Object + rule.** The literal Rideout-Sorkin CSG stochastic process, ON Y14: a growing
   past-finite poset, one element ("record") added at a time to the future of a randomly
@@ -197,7 +197,7 @@ Each steelman is stated as the brief requires: (i) the growing-graph object + gr
   simulation harness, not as an independent survivor.
 
 ### S4 -- Control / systems engineer: finality as a monotone advancing setpoint
-**(persona 5). RANK 4.**
+**(perspective 5). RANK 4.**
 
 - **Object + rule.** The confirmed frontier as the controlled variable; the promotion process
   as a monotone (integral-only, no overshoot) advance toward the global ledger. Distinct from
@@ -221,7 +221,7 @@ Each steelman is stated as the brief requires: (i) the growing-graph object + gr
   is the drift bound, which W135 already owns.
 
 ### S5 -- Quantum-information / holography: the confirmed frontier as a holographic code
-**(persona 9). RANK 5.**
+**(perspective 9). RANK 5.**
 
 - **Object + rule.** The confirmed sub-DAG as a tensor-network / holographic error-correcting
   code; promotion = adding a bulk record protected by boundary (X4) data. Growth = code-
@@ -242,27 +242,27 @@ Each steelman is stated as the brief requires: (i) the growing-graph object + gr
 
 ## 4. Discards (one line each)
 
-- **Complexity theorist / Wolfram ruliad (persona 6), both steelmen.** A Y14 hypergraph-
+- **Complexity theorist / Wolfram ruliad (perspective 6), both steelmen.** A Y14 hypergraph-
   rewriting substrate RELABELS: the novelty gate explicitly forbids bare-Wolfram relabeling,
   and Y14 carries a causal ORDER (a poset/DAG), not an un-oriented hypergraph; the rewriting
   metaphysics adds no computable GU-specific object. DISCARD (kept only as vocabulary).
-- **Network scientist / Bianconi growing graph (persona 7), both.** Bianconi's growing-network
+- **Network scientist / Bianconi growing graph (perspective 7), both.** Bianconi's growing-network
   gravity is the RIVAL, not the steelman; a preferential-attachment record graph reproduces
   Lambda only by fitting the attachment exponent to Omega_L -- a G5 relabel with an extra free
   exponent. DISCARD (it is the empirical fork the E-family already tests in the spin-2 sector).
-- **Stochastic-process / percolation (persona 8), steelman-A (bulk transitive percolation).**
+- **Stochastic-process / percolation (perspective 8), steelman-A (bulk transitive percolation).**
   Identical to S3's bare CSG; folded into S3, not independent.
-- **Stochastic-process (persona 8), steelman-B (a percolation THRESHOLD as Lambda).** Reads a
+- **Stochastic-process (perspective 8), steelman-B (a percolation THRESHOLD as Lambda).** Reads a
   critical occupation probability as the DE amplitude -- a structural constant read as a
   rate/amplitude, dead on arrival by B2/G4. DISCARD.
-- **Control engineer (persona 5), steelman-B (PID density regulator).** Duplicates W135's (e)
+- **Control engineer (perspective 5), steelman-B (PID density regulator).** Duplicates W135's (e)
   PID-setpoint DE structure exactly; already scored there (ALIVE-bounded). Not re-litigated;
   only the monotone-frontier variant (S4) is new.
-- **Large-deviations / statistical mechanic (persona 10), both.** The everpresent Lambda IS a
-  large-deviation/fluctuation statement; the persona re-derives `1/sqrt(N)` and the
+- **Large-deviations / statistical mechanic (perspective 10), both.** The everpresent Lambda IS a
+  large-deviation/fluctuation statement; the perspective re-derives `1/sqrt(N)` and the
   `N_bulk = N_conf^2` relation -- valuable as the WHY behind the test, but adds no independent
   mechanism. Folded into Section 1 as the fluctuation account, not a standalone survivor.
-- **DAG-ledger engineer (persona 2), steelman-B ("issuance rate = block reward schedule").**
+- **DAG-ledger engineer (perspective 2), steelman-B ("issuance rate = block reward schedule").**
   The dead prior-wave reading; a coin-schedule rate is exactly the B2/G4 kill. DISCARD. Its
   steelman-A (append-only confirmed DAG, finality frontier) is the load-bearing half and is
   fused into S1.
@@ -303,7 +303,7 @@ constant. Reported as such.
 
 ## 6. Counts, gates, provenance
 
-- Personas: 10 (family roster in Section 2), all inline, 20 steelmen; 5 survivors (S1-S5),
+- Perspectives: 10 (family roster in Section 2), all inline, 20 steelmen; 5 survivors (S1-S5),
   ~11 discards/folds (Section 4).
 - Test: `tests/W149_substrate_record_shadow.py`, 26/26, exit 0 (~1 s, pure-python
   deterministic; 5 positive controls first: l_p, rho_L^(1/4)=2.24 meV, Q_tot=1.027=(3/2)Omega_L,

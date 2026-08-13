@@ -38,7 +38,7 @@ def check(kind: str, label: str, value) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.185.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.184.json")
 result = strict("lab/process/selected-k77-vertical-soldering-adapter-order-gate.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.185"
@@ -103,7 +103,7 @@ check("routing", "existing first-jet fermion port precedes lower-order Higgs ins
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.185", "moving observation first jet", "zero principal response"],
     "RESEARCH-STATUS.md": ["ledger v0.185", "zeroth order", "rank 128"],
-    "lab/process/agent-context-pack.md": ["Current v0.185", "first jet", "P1/P2/P3"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.185", "first jet", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-vertical-soldering-adapter-order-gate-review.md": ["SURVIVES_SCOPED", "Symplectic/BV-BFV", "zeroth order"],
     "lab/sources/selected-k77-vertical-soldering-adapter-order-gate-source-return-2026-08-11.md": ["SOURCE-SILENT", "first-order"],
 }.items():

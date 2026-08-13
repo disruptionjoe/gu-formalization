@@ -3,9 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-10
 subject: SELECTED-K77-P3-NATIVE-CHARACTERISTIC-PAIRING
 verdict: DIRECT_NATIVE_QUADRATIC_HORN_FALSIFIED__SELF_DUAL_REDUCTION_REVIVAL_UNTESTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: P3 native characteristic pairing
@@ -82,6 +80,6 @@ source action's Euler map is closed on that restricted field space. The
 projector is therefore a precise candidate, not a completed selector.
 
 No canon or ledger verdict changes. No dated path-dependency trap is added in
-this run because that registry was outside the declared envelope; the
+this investigation because that registry was outside the declared envelope; the
 repeatable chiral-trace-as-parent-invariant mistake is recorded here for the
 next governed trap-capture pass.

@@ -2,15 +2,10 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: NONNULL_PRINCIPAL_GAUGE_COMPLEX_EXACT__RAW_NULL_COHOMOLOGY_168__FULL_WARD_AND_PHYSICAL_CARRIER_OPEN
-run_id: RUN-20260813-104500-gu-i2b-principal-gauge-complex
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: SC-ACT-04
 source_return: SOURCE_CONFIRMS_I2B_CONNECTION_AND_GAUGE_GRAMMAR__SOURCE_SILENT_EXACT_PRINCIPAL_COMPLEX_WARD_TOTALIZATION_AND_PHYSICAL_CARRIER_REDUCTION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "exact 14 -> 196 -> 196 -> 14 principal complex; cubic polynomial syzygy plus non-null and null orbit representatives decided wholesale"
 free_object_delta: 0

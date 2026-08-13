@@ -4,14 +4,12 @@ artifact_type: exploration_result
 created: 2026-08-09
 status: AMENDED_SAME_DAY__MOBIUS_DOUBLE_COVER_READING_IS_DEAD_BY_COMPUTATION__THE_ACTING_Z2_IS_pi0_O31_TIME_REFLECTION_NOT_pi1_SO__LAYER_0_HOMONYM_CONFIRMED__GHOST_PARITY_IDENTIFICATION_STILL_OPEN_BUT_PRIOR_SHIFTED
 grade: "QUESTION + TRIAGE as originally filed, AMENDED same day by execution -- see the amendment banner
-  and the run receipt. The original body's 'no computation was run' applied to the note as first written;
+  and the investigation receipt. The original body's 'no computation was run' applied to the note as first written;
   a computation HAS since been run and its outcome is folded in at the top. Every fact quoted is already in the repository; the
   contribution is (a) noticing that two independently-established Z/2 structures have identical symptoms,
   (b) naming the decisive test, and (c) flagging that a Layer-0 disambiguation gates it. NOT a claim that
   the two classes are the same, and NOT a claim about the generation count."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 follows:
   - explorations/dc-h1-orbit-signs-monodromy-check-2026-08-04.md
   - explorations/mh9-tier0-and-register-triage-2026-08-08.md

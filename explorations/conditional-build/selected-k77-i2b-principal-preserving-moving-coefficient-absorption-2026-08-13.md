@@ -2,15 +2,10 @@
 artifact_type: construction_composition_result
 created: 2026-08-13
 status: PRINCIPAL_PRESERVING_MOVING_COEFFICIENT_TORSION_UNIVERSALLY_ABSORBED_THROUGH_QUARTIC__PRINCIPAL_CHANGES_AND_PHYSICAL_BV_OPEN
-run_id: RUN-20260813-223221-gu-i2b-moving-coefficient-absorption
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: NONE-NOT-A-KILL
 source_return: SOURCE_CONFIRMS_SC_ACT_04_RESIDUAL_SQUARE_AND_TWO_CONNECTION_GRAMMAR__SOURCE_SILENT_UNIVERSAL_COEFFICIENT_JET_ABSORPTION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 free_object_delta: 0
 scripts:

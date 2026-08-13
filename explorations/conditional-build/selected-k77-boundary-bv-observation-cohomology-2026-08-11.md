@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_scope_result
 created: 2026-08-11
-run_id: RUN-20260811-194036-gu-k77-boundary-bv-observation-cohomology
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.181"
 result: LOCAL_BOUNDARY_BRST_AND_OBSERVATION_NATURALITY_CLOSE__W_AND_MIRROR_RESTRICTIONS_FAIL__COMMON_H640_ACTION_CLOSURE_FOUND__SOURCE_SELECTION_AND_PHYSICAL_BV_OPEN
 grade: "exact rational BRST/associated-bundle composition plus complete rank-1920 two-prime finite-field carrier test"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77, selected Spin, Curt's two U(32,32) halves, full U(64,64), and both action-pairing horns remain distinct conditional objects."
 source_return: SOURCE-SILENT

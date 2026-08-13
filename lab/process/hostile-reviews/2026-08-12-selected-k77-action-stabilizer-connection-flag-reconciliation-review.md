@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-005420-gu-k77-action-stabilizer-connection-flag-reconciliation
 verdict: SURVIVES_AFTER_SCOPE_REPAIR__K77_REDUCTIVE_CONNECTION_AND_STABILIZER_DESCENT_EXACT__FULL_UNITARY_COMPATIBILITY_AND_RESIDUAL_CARTAN_FLAG_OPEN
 ---
 

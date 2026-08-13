@@ -4,9 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 outcome: "CARDINALITY-1 + PROTECTED (both PROPOSAL grade; conditional on the anomaly-inflow identification)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat, 2026-07-21 (PIN-BORDISM computation; one synchronous pass, foreground)"
 inputs:
   - explorations/anomaly-inflow-swing-2026-07-21.md

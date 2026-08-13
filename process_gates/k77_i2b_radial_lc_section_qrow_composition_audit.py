@@ -27,7 +27,7 @@ report = (ROOT / "explorations/conditional-build/selected-k77-i2b-radial-lc-sect
 review = (ROOT / "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-radial-lc-section-qrow-composition-review.md").read_text(encoding="utf-8")
 source = (ROOT / "lab/sources/selected-k77-i2b-radial-lc-section-qrow-composition-source-return-2026-08-12.md").read_text(encoding="utf-8")
 
-assert ledger["updated_by"] == "RUN-20260812-145145-gu-i2b-radial-lc-section-qrow-composition"
+assert ledger["updated_by"] == "historical-investigation"
 assert ledger["frontier_delta"]["conditions_closed"] == 2
 assert registry["status"].startswith("LOCAL_FIRST_ORDER_COMPOSITION_PASSES")
 assert "residual derivatives are nonzero" in report.lower()

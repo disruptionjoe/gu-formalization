@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_composition_result
 created: 2026-08-11
-run_id: RUN-20260811-141703-gu-k77-independent-dual-weight-trivialization
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.175"
 result: SOURCE_NATIVE_INDEPENDENT_DUAL_ORBIT_REMOVES_BOTH_WEIGHTS__P_REALITY_CONDITIONAL_ONLY
 grade: "complete constant nonzero diagonal left/right orbit classification on the selected real-K77 independent-dual operator; anti-linear reality and global domain open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77 is a labelled conditional comparator; no signature or action-parent row is settled."
 search_space_dim: "eight left/right sector scalars subject to four unit-block equations; the two-weight orbit is decided wholesale"

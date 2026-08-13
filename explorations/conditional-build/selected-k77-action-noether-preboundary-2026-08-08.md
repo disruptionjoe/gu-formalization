@@ -4,9 +4,7 @@ created: 2026-08-08
 status: LOCAL_SELECTED_ACTION_NOETHER_EXACT__COMPACT_SUPPORT_PRESYMPLECTIC_BASIC__UNRESTRICTED_BOUNDARY_MOMENT_MAP_LIVE
 channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 action Noether and preboundary composition

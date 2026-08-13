@@ -8,9 +8,7 @@ grade: "EXECUTED, 12 agents, 0 errors, ~1.57M subagent tokens, 446 tool uses. Ev
   upheld=true: no arithmetic was refuted anywhere, and no headline survived at its stated strength."
 method: "Pre-flighted per move by tailored specialist panels (inline), then executed read-only against the
   Cl(9,5) substrate, then hostile-verified by a second agent per move."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Six-move workflow: results
@@ -32,7 +30,7 @@ created, edited, or committed any repo file. All scratch went to `/tmp`.
 
 **Six moves, six completions, zero kill conditions fired — and six hostile verifies all returning
 `SCOPED / upheld = true`.** Not one arithmetic result was refuted. Not one headline survived at its stated
-strength. That pattern is the single most useful thing this run produced.
+strength. That pattern is the single most useful thing this investigation produced.
 
 ## Move by move
 
@@ -118,7 +116,7 @@ are already published and should be **read off, not derived**. The advertised "s
 the repo's own `alpha_Y = 1/3` Yukawa chain**, and the verify **CONFIRMED it** as genuinely new. That is an
 owed correction to canon and the most actionable single output of the workflow.
 
-## What the run establishes
+## What the investigation establishes
 
 1. **My `24 sqrt(2)` finding is dead** and its interpretation refuted. Retracted.
 2. **The `mu`-asymmetry is a triviality.** My "cheapest entry point" framing was wrong. Corrected.

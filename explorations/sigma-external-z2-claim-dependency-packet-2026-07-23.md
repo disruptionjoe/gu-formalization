@@ -3,12 +3,8 @@ title: "Sigma external-Z2 claim-dependency packet"
 status: exploration
 doc_type: claim_dependency_packet
 created: 2026-07-23
-run_id: RUN-20260723-214037-gu-formalization-progress
-lane_id: "3"
 source_revision: 1fa73423a39d4a2f5dc30b33938f931643ba91d0
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

@@ -8,10 +8,7 @@ grade: "EXACT for what it computes. tests/rational_triviality_fibre_index_lemma.
   standard ingredients (flat => torsion Chern classes; Atiyah-Singer; free-action
   G-index localisation) are INVOKED and not re-derived, and the certificate says
   so in its own docstring."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

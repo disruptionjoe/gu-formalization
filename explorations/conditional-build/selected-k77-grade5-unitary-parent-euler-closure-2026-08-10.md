@@ -2,12 +2,8 @@
 artifact_type: exact_construction_and_scope_result
 created: 2026-08-10
 status: GRADE125_NOT_EULER_CLOSED__SPIN_GRADE_SATURATED113893__UNITARY_PARENT_FULL229477__PARENT_FORK_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected-K77 grade-five and unitary-parent Euler closure

@@ -1,20 +1,17 @@
 ---
-title: "Lane A drain pass: the GU mailbox, 2026-07-20 to 2026-08-13"
+title: "research maintenance drain pass: the GU mailbox, 2026-07-20 to 2026-08-13"
 status: active_research
 doc_type: stewardship_record
 created: 2026-08-13
 brief_version: "1.3"
 target_claim: NONE-NOT-A-KILL
-lane: "A"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
-# Lane A drain pass: the GU mailbox
+# research maintenance drain pass: the GU mailbox
 
 Joe-directed, 2026-08-13. The mailbox at
-`system-runtime#mailboxes/gu-formalization/` held 26 notes and had not
+`private orchestration runtime#mailboxes/gu-formalization/` held 26 notes and had not
 been archived since 2026-07-20. Every note was read and dispositioned;
 all 26 are archived with receipts. Full per-note evidence lives in the
 three triage artifacts preserved with this pass.

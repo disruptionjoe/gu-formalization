@@ -2,13 +2,9 @@
 artifact_type: exact_conditional_action_pairing_and_surplus_result
 created: 2026-08-10
 status: SELECTED_SCALAR_TRACE_CLOSES_R_AND_HORN_COST_CONDITIONALLY__REALITY_OR_ORIENTATION_ALONE_DO_NOT__STRICT_SURPLUS_ZERO__P3_BRIDGE_PRIMARY
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_NORM_SQUARE_ARENA_AND_TWO_WEYL_HALVES__SOURCE_SILENT_SCALAR_TRACE_DESCENT_BRE_HORN_AND_P3_BRIDGE__SOURCE_FORK_ACTION_PARENT
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 action-induced real pairing and chiral horn

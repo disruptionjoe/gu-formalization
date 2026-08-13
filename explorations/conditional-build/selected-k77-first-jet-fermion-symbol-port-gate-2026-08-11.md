@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_result
 created: 2026-08-11
-run_id: RUN-20260811-233153-gu-k77-first-jet-fermion-symbol-port-gate
 grade: EXACT_SCOPED_TWO_PRIME_SPIN_CLIFFORD_PORT_GATE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 first-jet fermion-symbol port gate

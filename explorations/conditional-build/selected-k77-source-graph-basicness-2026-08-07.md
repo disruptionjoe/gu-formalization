@@ -4,9 +4,7 @@ created: 2026-08-07
 status: FULL_EPSILON_FRAME_EXTENSION_EXACT__UNFRAMED_STABILIZER_BASICNESS_FAILS__SOLDERING_IDENTIFICATION_OPEN
 source_return: SOURCE-CONFIRMS__GAUGE_EPSILON_PROMOTED_TO_FIELD_CONTENT_AND_FULL_VARPI_TRANSLATION__SOURCE-SILENT__EPSILON_AS_THE_OBSERVATION_SOLDERING_AND_FOUR_COLUMN_SELECTOR
 ledger: lab/process/conditional-physics-ledger-v0.58.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 source-graph covariance and quotient basicness

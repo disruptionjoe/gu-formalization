@@ -3,12 +3,9 @@ title: "Selected K77 source-sign degree-duality and W/mirror graph gate"
 status: active_research
 doc_type: construction_result
 created: 2026-08-10
-lane: 1
 ledger: v0.140
 result: "SCOPED_KILL__BARE_TRACE_Q_LEAKS_RS_RANK64__PIN_COMPLETION_SWAPS_W_AND_MIRROR__BOTH_DEGREE_DUALITY_UPPER_GRAPHS_FAIL_JOINED_RANK256"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 source-sign degree duality forces W/mirror closure and then misses the port

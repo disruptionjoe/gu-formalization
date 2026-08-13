@@ -2,7 +2,6 @@
 artifact_type: source_reinspection
 created: 2026-08-08
 status: SOURCE-CONFIRMS__TWO_LAYER_FULL_VARIABLE_ACTION_GRAMMAR_AND_DIFFEO_ORTHOGONAL_TARGET__SOURCE-SILENT__COMMON_TWO_LAYER_HESSIAN_AND_SELECTED_PHYSICAL_COMPLEX
-lane: "1"
 ---
 
 # Source reinspection: the selected K77 coupled Euler complex

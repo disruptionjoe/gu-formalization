@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_result
 created: 2026-08-10
-run_id: RUN-20260810-200828-gu-k77-moving-varpi-stationary-intersection
 status: exact_conditional_result
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 moving-`varpi` stationary intersection

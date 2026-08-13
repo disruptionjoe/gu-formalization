@@ -4,12 +4,10 @@ status: active_research
 doc_type: construction_result
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: RUN-20260731-231936-gu-formalization-ecw3d-b2a-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json
 probe: tests/channel-swings/eric_curt_wave3d_b2a_native_time_flux_coercivity_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promotion: none
 ---
 

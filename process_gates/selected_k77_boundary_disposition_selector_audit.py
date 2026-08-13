@@ -33,7 +33,7 @@ def read(relative):
 
 ledger = load("lab/process/conditional-physics-ledger-v0.101.json")
 registry = load("lab/process/selected-k77-boundary-disposition-selector.json")
-contract = load("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = load("lab/methods/research-evidence-contract-v1.0.json")
 report = read("explorations/conditional-build/selected-k77-boundary-disposition-selector-2026-08-08.md")
 review = read("lab/process/hostile-reviews/2026-08-08-selected-k77-boundary-disposition-selector-review.md")
 
@@ -102,9 +102,9 @@ check("review verdict", "CONDITIONAL_EDGE_SELECTOR_SURVIVES__SOURCE_AND_ACTION_S
 check("symplectic review", "Symplectic geometry" in review and "charged physical symmetries" in review)
 
 current_refs = [
-    "LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "explorations/README.md",
-    "lab/process/README.md", "lab/process/agent-context-pack.md",
-    "lab/process/functional-channel-operating-contract-v1.0.md",
+    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "explorations/README.md",
+    "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+    "lab/methods/research-evidence-contract-v1.0.md",
 ]
 for relative in current_refs:
     check(f"current pointer {relative}", "v0.101" in read(relative))

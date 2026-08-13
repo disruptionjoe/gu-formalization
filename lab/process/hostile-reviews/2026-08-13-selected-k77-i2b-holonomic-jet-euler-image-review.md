@@ -1,12 +1,9 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-074018-gu-i2b-holonomic-jet-euler-image
 target: selected-k77-i2b-holonomic-jet-euler-image-2026-08-13.md
 verdict: SCOPED_SURVIVAL__LOCAL_PRINCIPAL_IMAGE_ONLY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: I2B holonomic-jet Euler image

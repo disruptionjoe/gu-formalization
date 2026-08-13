@@ -19,7 +19,7 @@ Resolve the open question of whether Geometric Unity-class higher-dimensional bu
 
 ## 2. Background
 
-The standard objection to Geometric Unity-class programs invokes Witten 1981 chirality no-go, Nielsen-Ninomiya lattice fermion doubling, Freed-Hopkins anomaly classification, and Distler-Garibaldi E_8 non-embedding. The 15-persona heterodox dialectical synthesis completed 2026-05-28 (documents 00 through 00e in `../process/syntheses/`) identifies these as class-relative impossibility theorems whose joint application closes the smooth Kaluza-Klein reduction path but does not constrain substrate-level invariants. The synthesis identifies a six-axis specification space of alternative reduction classes the no-go theorems do not cover.
+The standard objection to Geometric Unity-class programs invokes Witten 1981 chirality no-go, Nielsen-Ninomiya lattice fermion doubling, Freed-Hopkins anomaly classification, and Distler-Garibaldi E_8 non-embedding. The 15-perspective heterodox dialectical synthesis completed 2026-05-28 (documents 00 through 00e in `../process/syntheses/`) identifies these as class-relative impossibility theorems whose joint application closes the smooth Kaluza-Klein reduction path but does not constrain substrate-level invariants. The synthesis identifies a six-axis specification space of alternative reduction classes the no-go theorems do not cover.
 
 ## 3. Phase structure
 
@@ -45,7 +45,7 @@ Migrate the work to a public GitHub repository, set up contribution guidelines, 
 
 Tasks:
 - Create public GitHub repository with CC-BY-4.0 for documentation/content and MIT for code
-- Migrate 35 persona passes plus 5 syntheses plus 4 deep-research briefs to repo
+- Migrate 35 perspective passes plus 5 syntheses plus 4 deep-research briefs to repo
 - Finalize formal paper draft, blog post draft, and this project plan as repo-root documents
 - Write `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `README.md`, repo navigation index
 - Publish blog post on chosen platform; announce repo to relevant communities

@@ -27,7 +27,7 @@ def check(kind, label, condition):
         FAILURES.append(label)
 
 
-contract = strict(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
 ledger = strict(ROOT / contract["standing_ledger"]["ref"])
 rows = {row["id"]: row for row in ledger["rows"]}
 
@@ -78,7 +78,7 @@ check("type", "thin triggers load owner refs rather than duplicate science",
 check("type", "owner-local durability does not overclaim fleet runner integration",
       contract["durability_level"] == "OWNER_LOCAL_MANDATORY_CONTEXT_PLUS_MACHINE_TESTED_CONTRACT"
       and contract["fleet_runner_interpretation_change"] == "NOT_CHANGED_IN_THIS_RUN")
-check("type", "Compose owns the ledger with Lane A reconciliation",
+check("type", "Compose owns the ledger with research maintenance reconciliation",
       contract["standing_ledger"]["owner"] == "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION")
 
 print("\nB. CONDITION-BASED DISPATCH")

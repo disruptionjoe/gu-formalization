@@ -2,15 +2,10 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: FIXED_NATURAL_ENDPOINT_CUBIC_TORSION_ZERO__FIRST_LIVE_QUARTIC_TORSION_ABSORBED__MOVING_ACTION_AND_PHYSICAL_BV_OPEN
-run_id: RUN-20260813-214746-gu-i2b-first-nonlinear-torsion
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: NONE-NOT-A-KILL
 source_return: SOURCE_CONFIRMS_SC_ACT_04_ENDPOINT_GRAMMAR__SOURCE_SILENT_NONLINEAR_TORSION_AND_SPENCER_ABSORPTION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "one exact 16-support compatible stationary two-jet; 140 cubic and 280 quartic compatibility cells; 3920 symmetric third jets and 6860 symmetric fourth jets"
 free_object_delta: 0

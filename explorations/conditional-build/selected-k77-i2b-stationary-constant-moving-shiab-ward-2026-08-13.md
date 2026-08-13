@@ -2,16 +2,11 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: CONSTANT_PARAMETER_WARD_EXACT__FIRST_AND_SECOND_PARAMETER_JETS_OPEN
-run_id: RUN-20260813-141118-gu-i2b-stationary-constant-moving-shiab-ward
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 channels: [Build, Compose, Source, Verify]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: SC-ACT-04
 source_return: SOURCE_CONFIRMS_AND_SILENT
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "91 constant Cl2 generators on one exact 196-cell stationary two-jet"
 free_object_delta: 0

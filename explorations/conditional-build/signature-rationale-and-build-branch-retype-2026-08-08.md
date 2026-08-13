@@ -3,9 +3,7 @@ artifact_type: compose_source_verify_result
 created: 2026-08-08
 status: K77_AUTHOR_ASSERTED_CONDITIONAL__K95_GEOMETRY_DERIVED__NEXT_BUILD_BRANCH_AWARE
 source_return: SOURCE-CORRECTS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Signature rationale and Build-branch retype

@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-01
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260802-012457-gu-formalization-ecw3d-b2c15m-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2c15m-moving-shiab-exact-g2-weighted-euler.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c15m_moving_shiab_exact_g2_weighted_euler_probe.py
 grade: "B2C15M PARTIAL CONSTRUCTION PASS. The native trace-adapted Shiab now has an exact vertical-Spin-frame covariance certificate in all 91 stabilizer directions plus representative quotient-tangent checks, and a complete local symmetric-Clifford-gauge metric derivative on all ten physical metric owners; the metric response map has rank 10. Moving formal-adjoint/Green, nonzero six-slot-DM, residual-zero, and separately live off-shell correction controls pass. Three distinct Douglis--Nirenberg order-cap skeletons are frozen for the compressed source square, exact variational square, and first-action owner system. On the complete positive-plus-trace conormal chart xi(a)=e0+a t, every frozen coefficient is reconstructed quadratically and held-out checked; gcds of all maximal minors prove rank 8165 for a^2 != 1 and 6097 at the two null roots. The full first-action owner Euler coefficients, moving-family polynomial rank atlas, other trace-stabilizer charts, coefficientwise right-H/Krein/reality certificate, BV quotient, and domain remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C15M moving Shiab, weighted Euler, and polynomial rank chart

@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_and_reconciliation_result
 created: 2026-08-12
-run_id: RUN-20260812-005420-gu-k77-action-stabilizer-connection-flag-reconciliation
 grade: EXACT_SCOPED_TWO_PRIME_K77_REDUCTIVE_CONNECTION_AND_STABILIZER_DESCENT
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 action/stabilizer connection and flag reconciliation

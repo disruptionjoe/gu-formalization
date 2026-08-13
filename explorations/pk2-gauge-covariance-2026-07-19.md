@@ -14,9 +14,7 @@ inputs:
   - tests/channel-swings/ch_gr_vev_stress_probe.py
   - lab/process/boundary-adapter-standing-axiom.md
 test: tests/channel-swings/pk2_gauge_covariance_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # P-K2: gauge covariance of the branch-(a) cancellation identity

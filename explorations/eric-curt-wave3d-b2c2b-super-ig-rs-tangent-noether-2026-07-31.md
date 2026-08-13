@@ -3,14 +3,10 @@ title: "Eric/Curt Wave 3D-B2C2B: the unique natural RS tangent fails off-shell N
 status: active_research
 doc_type: construction_result
 created: 2026-07-31
-lane: "1"
 work_item: ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT
 registry: lab/process/eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c2b_super_ig_rs_tangent_noether_probe.py
 grade: "DECISIVE BOUNDED NEGATIVE in the parity-neutral metric/Clifford-only first-order class. Gamma-tracelessness leaves one projective scalar-spinor-to-RS symbol, the twistor map T(k)=Pi_kerGamma(k tensor 1). Its W131 composition is Q(k)T(k)=(12/14)T(k)c(k), so it is not an off-shell Noether/BV differential; on a null covector only a rank-64 parameter half is characteristic-exact. The unchanged observer sees rank 128 on the full image and rank 64 on that half. An enlarged mixed-carrier super-IG action, representation, and Ward/master identity remain open."
-claim_status_change: false
-canon_change: false
-public_posture_change: false
 ---
 
 # Wave 3D-B2C2B — natural super-IG/RS tangent and Noether gate

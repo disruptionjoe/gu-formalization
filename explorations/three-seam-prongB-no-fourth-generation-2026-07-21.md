@@ -16,9 +16,7 @@ inputs:
   - tests/generation-sector/leg4_branching_multiplicity_search.py
   - tests/generation-sector/step11_gu_native_parity_theorem.py
 probe: tests/channel-swings/prongB_no_fourth_generation_probe.py (foreground, numpy-only, two-run-identical, EXIT 0; kill conditions declared before computation)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---

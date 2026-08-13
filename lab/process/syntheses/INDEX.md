@@ -7,7 +7,7 @@ updated_at: "2026-05-31"
 
 # Syntheses — Navigation Index
 
-Five core meta-syntheses (00 through 00e) track the dialectical convergence across the 35 persona passes. Three supplementary syntheses (06, 07, 08) capture downstream chat-pass insights that integrate the persona work with the deep-research briefs, public contributor planning, and pathway prioritization. The second block (09 onward) turns the ranked pathways into public-facing scoping artifacts, guardrails, and first-pass tests.
+Five core meta-syntheses (00 through 00e) track the dialectical convergence across the 35 perspective passes. Three supplementary syntheses (06, 07, 08) capture downstream chat-pass insights that integrate the perspective work with the deep-research briefs, public contributor planning, and pathway prioritization. The second block (09 onward) turns the ranked pathways into public-facing scoping artifacts, guardrails, and first-pass tests.
 
 ## Reading order
 
@@ -25,11 +25,11 @@ The dialectical structure built up incrementally. Read in order:
 
 ## Supplementary syntheses
 
-6. **`06-supplementary-insights-novelty-and-tests.md`** — 18 potential insights extracted from the persona dialectic plus the four deep-research briefs, with novelty / profundity ratings and concrete tests. Generated in a 2026-05-29 chat synthesis pass.
+6. **`06-supplementary-insights-novelty-and-tests.md`** — 18 potential insights extracted from the perspective dialectic plus the four deep-research briefs, with novelty / profundity ratings and concrete tests. Generated in a 2026-05-29 chat synthesis pass.
 
-7. **`07-supplementary-five-persona-value-ranking-rubric.md`** — Five-evaluator-persona rubric (rigor gatekeeper, heterodox dialectician, agent lab operator, open-source field builder, strategic research PM) ranking which tests agents should run, which insights should become open problems on this repository, and which lines should be parked.
+7. **`07-supplementary-five-perspective-value-ranking-rubric.md`** — Five-evaluator-perspective rubric (rigor gatekeeper, heterodox dialectician, agent lab operator, open-source field builder, strategic research PM) ranking which tests agents should run, which insights should become open problems on this repository, and which lines should be parked.
 
-8. **`08-supplementary-15-persona-pathway-ranking.md`** — 15-technical-persona ranking of potential research pathways by novelty/profundity upside, with an impact-to-difficulty lens that separates quick finishes, high-upside executable tests, and specialist-dependent frontier bets.
+8. **`08-supplementary-15-perspective-pathway-ranking.md`** — 15-technical-perspective ranking of potential research pathways by novelty/profundity upside, with an impact-to-difficulty lens that separates quick finishes, high-upside executable tests, and specialist-dependent frontier bets.
 
 ## Single-pass pathway artifacts
 
@@ -41,7 +41,7 @@ The dialectical structure built up incrementally. Read in order:
 
 12. **`12-nielsen-protocol-analogy-pilot.md`** - pilot translation of Nielsen-Ninomiya assumptions into distributed-systems protocol/model assumptions.
 
-13. **`13-hegelian-persona-protocol.md`** - method note explaining the staged persona dialectic, its failure modes, and its proper limits.
+13. **`13-hegelian-perspective-protocol.md`** - method note explaining the staged perspective dialectic, its failure modes, and its proper limits.
 
 14. **`14-stochastic-parity-breaking-test.md`** - falsification-style note testing whether stochastic reduction derives parity/chirality breaking or inserts it.
 

@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_variational_result
 created: 2026-08-12
-run_id: RUN-20260812-163746-gu-i2b-real-primalizer-phase-gate
 status: CONDITIONAL_PAIRING_REPAIR_EXISTS__CURRENT_ACTION_PROJECTOR_AND_TWO_HALF_WEIGHTS_FAIL__MOVING_REDUCTION_OWNERSHIP_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B real-primalizer phase gate

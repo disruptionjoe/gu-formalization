@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; deterministic test)
+status: exploration (5-perspective inline team; deterministic test)
 created: 2026-07-13
 hypothesis: H59 / H61a residual -- the single load-bearing ported number named by W122
 branch: "W123 -- SIGN OF GU'S NATIVE R^2 RUNNING: (1) convention audit of the port chain (repo f_0^2 <-> Fradkin-Tseytlin/Avramidi-Barvinsky omega <-> Salvio-Strumia agravity f_0^2, pinned to GU's own induced action via H25's native gamma > 0 and W122's gauge-parameter-free m_0^2), (2) one-loop R^2 beta reassembled from per-field blocks with GU's actual field content across the whole admissible coefficient band, (3) trajectory-existence: is ANY AF trajectory with f_0^2 > 0 possible, including f_0^2 -> 0+ asymptotically?"
@@ -39,8 +39,8 @@ tachyon evaporates. Still the single number the no-go rests on."* W123 attacks t
 three axes where a porting error could hide: the CONVENTION channel (was a sign lost in translation
 between the literature bases and GU's induced action?), the FIELD-CONTENT channel (does GU's actual
 content, anywhere in the admissible coefficient band, flip the beta?), and the TRAJECTORY channel
-(does any AF trajectory with f_0^2 > 0 exist, even asymptotically?). Five personas inline, one
-context, no sub-agents. Deterministic test: `tests/W123_native_r2_sign_convention_audit.py`
+(does any AF trajectory with f_0^2 > 0 exist, even asymptotically?). Five perspectives inline, one
+context, no independent reviewers. Deterministic test: `tests/W123_native_r2_sign_convention_audit.py`
 (34/34, exit 0).
 
 Prior art, positioned honestly: W80 showed the fixed-ratio roots are negative and named the escapes
@@ -61,7 +61,7 @@ non-fixed-ratio escape f_0^2 -> 0+ that the root analysis alone does not close (
 | **UV completion** | one-loop asymptotic FREEDOM (the branch under audit); the AS/Reuter branch is NOT adjudicated here | W123's verdicts are statements about the AF branch. The AF-vs-AS fork (W82) is untouched and remains the surviving escape. |
 | **Krein grading vs loops** | grading acts on norms, not on the one-loop functional determinant | The Stelle 2+5+1 spectrum (graviton + massive spin-2 + scalaron) is exactly what the ported pure-gravity coefficients integrate over; the Krein grading reassigns norms (W119) and does not alter the heat-kernel divergences at this order. Stated, not newly proven. |
 
-## 1. Persona 1 -- higher-derivative-gravity beta-function expert: the convention chain
+## 1. Perspective 1 -- higher-derivative-gravity beta-function expert: the convention chain
 
 ### 1.1 The two literature bases and the known sign subtleties
 
@@ -153,7 +153,7 @@ coincidence), one sign-harmless documented wobble.
   (the mean-field version closed by W79; a qualitatively non-perturbative version remains
   hypothetical). None is adopted; each is a distinct research program, not a rescue in hand.
 
-## 2. Persona 2 -- GU rep-theory specialist: the field content, block by block, graded
+## 2. Perspective 2 -- GU rep-theory specialist: the field content, block by block, graded
 
 The one-loop R^2 beta in the pinned convention, assembled from per-field blocks:
 
@@ -174,7 +174,7 @@ different theory was ported. That reclassification is the real yield of the audi
 longer "maybe the port garbled GU"; it would have to be "maybe FT/AB/SS is wrong about quadratic
 gravity itself" (or the truncation/physical-running caveats of 1.4).
 
-## 3. Persona 3 -- FRG/flow analyst: the phase portrait (part 3 as a computation)
+## 3. Perspective 3 -- FRG/flow analyst: the phase portrait (part 3 as a computation)
 
 Variables `x = f_2^2`, `y = f_0^2`, ratio `r = y/x`, rescaled time `ds = kappa x dt` (monotone
 whenever `x > 0`; `s -> infinity` along AF trajectories since `x ~ 1/(kappa b_2 t)`).
@@ -207,7 +207,7 @@ scale, including asymptotically.** Not "disfavored", not "repelled": positivity 
 AF-completeness by monotonicity, and the boundary cases (`y = 0` axis, `x = 0` axis, `r = r_1`
 separatrix) are each individually closed.
 
-## 4. Persona 4 -- symbolic/numerical engineer: what the test proves and how
+## 4. Perspective 4 -- symbolic/numerical engineer: what the test proves and how
 
 `tests/W123_native_r2_sign_convention_audit.py`, 34 checks, exit 0, sympy + numpy, deterministic
 (no RNG). Positive controls FIRST (per the brief): the AB omega roots `-0.0228/-5.4671` and the W46
@@ -239,7 +239,7 @@ step 0.2-0.5, far from stiffness until the pole; the 1D `s`-integration uses exp
 step `1e-3` on a monotone blow-up, where overshoot only accelerates the (correct) divergence
 verdict.
 
-## 5. Persona 5 -- adversarial skeptic: steelman "the tachyon is native and robust"
+## 5. Perspective 5 -- adversarial skeptic: steelman "the tachyon is native and robust"
 
 **The steelman now stands stronger than before this wave, and I state it at full strength.** On the
 asymptotically-free branch of GU's UV completion, the scalaron tachyon is: not gauge (W78/W122,

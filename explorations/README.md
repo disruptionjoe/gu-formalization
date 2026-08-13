@@ -1915,7 +1915,7 @@ open; Wave 3 and P1/P2/P3 remain closed. Next gate:
   remain unused.
 - [`Post-B2C15R3 multidisciplinary council and next-ten-wave scaffold`](post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md)
   uses thirteen mathematical/computational specialist lenses and ten inline
-  build-oriented engineering personas to reorder the campaign without
+  build-oriented engineering perspectives to reorder the campaign without
   initially executing a successor swing. PW1, PW2A, the scoped PW2B/PW2C
   continuations, and the partial PW2D fixed-metric action/structural-Ward
   packet are now complete and advance the
@@ -2435,7 +2435,7 @@ open; Wave 3 and P1/P2/P3 remain closed. Next gate:
   sandwich. Closing it with its Krein reverse gives one
   right-\(\mathbb H\), \(K\)-self-adjoint \(S\leftrightarrow R\) full-20
   completion of rank \(256\) and kernel \(1664\); the separately selected
-  \(G_2\)-plus-\(R\) pairing is nondegenerate. The run joins one
+  \(G_2\)-plus-\(R\) pairing is nondegenerate. The investigation joins one
   matrix-derived \(Q_F\) amplitude to one finite abelianized
   one-dimensional \(A_0\) Green/chain-rule fixture. The full \(Q_F\) form,
   \(D_A^{\rm coad}\) current, common mover, physical domain/boundary and
@@ -2551,7 +2551,7 @@ open; Wave 3 and P1/P2/P3 remain closed. Next gate:
   packet before physical fitting. Its revised G1--G10 build sequence pulls the
   shared-parent Hessian/stress test forward and demotes derivative super-IG
   until an action and physical complex exist.
-- [`vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md`](vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md)
+- [`vanchurin-ten-perspective-neural-network-analogy-audit-2026-07-30.md`](vanchurin-ten-perspective-neural-network-analogy-audit-2026-07-30.md)
   runs 39 paper-anchored analogy rows through ten divergent network,
   learning, geometry, PDE, topology, and formal-audit lenses. The best
   returns are construction prompts for the typed `A`-dependency chain, the
@@ -2619,7 +2619,7 @@ open; Wave 3 and P1/P2/P3 remain closed. Next gate:
   topology class, an impossible nontrivial-bundle trivialization, and
   target-coded `n=3`. No equation, solution, CME, domain, physical index,
   mass, or count is claimed; N2a/N4a/N3 now test this exact packet.
-- [`ten-persona-next-ten-swing-council-scaffold-2026-07-30.md`](ten-persona-next-ten-swing-council-scaffold-2026-07-30.md)
+- [`ten-perspective-next-ten-swing-council-scaffold-2026-07-30.md`](ten-perspective-next-ten-swing-council-scaffold-2026-07-30.md)
   integrates ten divergent construction specialists into the next ten
   source-action/external-datum swings. The campaign treats the known
   Standard Model/Yukawa, Krein/BV, gravity--dark-energy, index/count, and
@@ -2765,7 +2765,7 @@ were sorted by reading each note's content.)
 | [`representation-theory-noncompact/`](representation-theory-noncompact/) | 18 | harmonic analysis on noncompact groups: discrete series, Plancherel, Casimir, root multiplicities, Weyl/tau |
 | [`type-ii1-spectral/`](type-ii1-spectral/) | 17 | Connes-style type II_1 semifinite spectral Standard-Model selector and no-go theorems |
 | [`shiab-operator/`](shiab-operator/) | 17 | the shiab map, Spin(7,7) spinor branching, shiab-vs-codifferential intertwiner structure, and the complete complexified B5 observer-symbol matrix |
-| [`persona-and-dialectic/`](persona-and-dialectic/) | 14 | multi-persona steelman / Hegelian / N-lens adversarial review passes |
+| [`perspective-and-dialectic/`](perspective-and-dialectic/) | 14 | multi-perspective steelman / Hegelian / N-lens adversarial review passes |
 | [`firewall-and-two-geometries/`](firewall-and-two-geometries/) | 12 | the iO/firewall obfuscation lens, two-arena adapter, escape-hatch/no-go maps, reverse-engineered source-action spec |
 | [`signed-calm-jordan/`](signed-calm-jordan/) | 12 | the signed-readout boundary theorem and its Jordan/CALM factorization provenance |
 | [`dark-energy-cosmology/`](dark-energy-cosmology/) | 11 | theta-field FLRW cosmology, DESI w_a sign window, Lambda / dark-energy provenance |
@@ -2781,7 +2781,7 @@ were sorted by reading each note's content.)
 | [`big-swing-2026-07-07/`](big-swing-2026-07-07/) | July 7 big-swing continuation packets and branch-specific follow-ups |
 | [`internal-paths-2026-07-03/`](internal-paths-2026-07-03/) | bounded internal-path attacks from 2026-07-03, including OQ-RK1, Lean typecheck, true-RS-Y14, OC1/OC2, and Sp-family anomaly paths |
 | [`sequential-goals-2026-07-09/`](sequential-goals-2026-07-09/) | 2026-07-09 five-goal run: `(7,7)` both-signature control, `3\|sigma` import pricing, S2 tautology audit, source-action candidate classifier, and import-channel independence |
-| [`taf-63-persona-gu-rbt-2026-07-20/`](taf-63-persona-gu-rbt-2026-07-20/) | 63-persona TaF/GU/RBT review batches, synthesis, dissent audit, strategy audit, and hostile verification |
+| [`taf-63-perspective-gu-rbt-2026-07-20/`](taf-63-perspective-gu-rbt-2026-07-20/) | 63-perspective TaF/GU/RBT review batches, synthesis, dissent audit, strategy audit, and hostile verification |
 
 ## Smaller / niche clusters (pre-existing)
 
@@ -2801,7 +2801,7 @@ were sorted by reading each note's content.)
 
 Per-wave artifacts from the council-ranked hypothesis waves (H-numbered items; each wave's tests live under
 `tests/` with matching names). Companion cross-wave records: [`threads/`](threads/) (first-swing thread pass)
-and [`two-track-persona-sweep-2026-07-11/`](two-track-persona-sweep-2026-07-11/) (the ~60-persona two-track
+and [`two-track-perspective-sweep-2026-07-11/`](two-track-perspective-sweep-2026-07-11/) (the ~60-perspective two-track
 restructure synthesis).
 
 Current cross-wave synthesis and execution:
@@ -2827,7 +2827,7 @@ Current cross-wave synthesis and execution:
 
 ## Archived
 
-- [`hourly-cycles/`](hourly-cycles/) -- **archived** output from the hourly research-automation cadence
+- [`research-cycles/`](research-cycles/) -- **archived** output from the hourly research-automation cadence
   (~530 notes + transition ledgers). Not load-bearing; kept for provenance. Do not cite as a result.
 # Resolver Wave B (2026-08-03)
 

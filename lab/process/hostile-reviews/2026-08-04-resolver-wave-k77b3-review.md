@@ -3,8 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-04
 subject: RESOLVER-WAVE-K77-B3-FULL-DOMAIN-EXTENSION-CYCLIC-EULER-EXISTENCE-AND-GREEN
 verdict: PASS_WITH_MATERIAL_SCOPE_REPAIRS
-review_mode: inline_specialist_personas
-claim_status_change: none
+review_mode: inline_specialist_perspectives
 ---
 
 # Hostile review: Resolver Wave K77-B3

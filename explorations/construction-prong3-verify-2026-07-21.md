@@ -3,14 +3,11 @@ title: "CONSTRUCTION swing PRONG 3 (VERIFY-THE-OTHER-WAY / back-gate): hostile a
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-mode: CONSTRUCTION/posit-declared (back-gate)
 prereg: explorations/prereg-construction-swing-posit-sigma-cycle-2026-07-21.md
 outcome: POSIT-PRODUCTIVE (narrow) -- one tracking forcing (C2 independence) + the cross-prong H^1 structure; C3 is a re-host; no contradiction
 probe: tests/channel-swings/construction_prong3_verify_probe.py
 probe_exit: 0
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 inputs:
   - explorations/prereg-construction-swing-posit-sigma-cycle-2026-07-21.md

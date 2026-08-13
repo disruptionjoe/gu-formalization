@@ -4,9 +4,7 @@ created: 2026-08-09
 status: BOTH_BRANCHES_RETAIN_OWNED_ACTION_BLOCKS__COMMON_PRINCIPAL_SYMBOL__DISTINCT_LOWER_ORDER_RESPONSE__COMPLETE_PORT_OPEN
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 two-branch action-block port

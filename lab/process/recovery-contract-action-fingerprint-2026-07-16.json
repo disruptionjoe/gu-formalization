@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "created": "2026-07-16",
-  "run_id": "GUH-20260716T061100Z-action-fingerprint",
+  "run_id": "historical-investigation",
   "source_revision": "77879e5",
   "artifact_role": "Process-grade action, source-law, variation-space, and reduction fingerprint for the RECOVERY-CONTRACT checkpoint. It names one branch-local testing object for later recovery tests; it does not establish recovery, change claim grade, change public posture, or authorize external action.",
   "selected_lane": "RECOVERY-CERTIFICATION",

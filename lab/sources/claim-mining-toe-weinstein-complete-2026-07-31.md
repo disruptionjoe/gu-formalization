@@ -8,10 +8,8 @@ source_transcript: lab/sources/transcripts/toe-weinstein-gu-40-years.md
 official_transcript: https://theportal.group/curt-jaimungal-with-eric-weinstein-geometric-unity-40-years-in-the-making/
 source_video: https://youtu.be/ILlhFKuu3NQ
 supersedes_scope_of: lab/sources/claim-mining-toe-weinstein-2026-07-20.md
-run: lab/process/runs/GUH-20260731T130016Z-eric-guided-source-action/run-plan.md
-claim_status_change: none
+run: archived private execution record
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Complete mathematical-claim ledger for the TOE interview

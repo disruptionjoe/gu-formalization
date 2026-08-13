@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W134; 5-persona inline team; one deterministic test; closes W124 Stage C)
+status: exploration (W134; 5-perspective inline team; one deterministic test; closes W124 Stage C)
 created: 2026-07-14
 hypothesis: H59
 branch: "Path-2 wave-5 (Team H70 / W134): W124 Stage C -- attach the spin-2 tensor numerators to the two-loop scalar-core cut results; upgrade the ARGUED positivity/parity claim to COMPUTED"
@@ -26,7 +26,7 @@ external_refs:
 **Role.** W124 computed the two-loop graded-vs-Lee-Wick cut structure (sunset at the mixed
 threshold, kite overlap) with SCALAR internal lines and left Stage C open with an ARGUED-only
 claim: tensor numerators cannot flip the `(-1)^{n_ghost}` cut parity. This wave computes that
-claim. Five personas ran inline, sequentially (tensor-loop engineer, higher-derivative-gravity
+claim. Five perspectives ran inline, sequentially (tensor-loop engineer, higher-derivative-gravity
 propagator specialist, Krein specialist, numerical engineer, adversarial skeptic); their
 outputs are folded into the sections below. Deterministic test:
 `tests/W134_stageC_tensor_numerators.py` (14/14, exit 0). Units `M = 1`, normal mass
@@ -41,7 +41,7 @@ outputs are folded into the sections below. Deterministic test:
 | **The vertex** | arbitrary complex tensor (vertex-independent statement) vs the specific Stelle vertices | arbitrary: the positivity claim quantifies over ALL vertices, so no vertex derivation is needed for the SIGN claim (magnitudes would need the real vertices) |
 | **Positivity language** | Krein-graded optical theorem only | W48 gate discipline unchanged: nothing here is loop positivity; the odd-cut leak SURVIVES tensor numerators (P1) |
 
-## 1. The projector algebra (personas 1 + 2)
+## 1. The projector algebra (perspectives 1 + 2)
 
 On a Cutkosky cut every line is exactly on-shell and contributes its pole-residue numerator.
 For the Stelle TT propagator `1/(p^2 (p^2 - m2^2))` the massive-pole residue is
@@ -73,7 +73,7 @@ off-shell contact terms differ.
 - E3: the delta-weighted sum is polarization-basis independent (`7e-15` under a random SO(3)
   basis rotation): it is a genuine covariant tensor, as a propagator numerator must be.
 
-## 2. The Krein-twist fork (persona 3)
+## 2. The Krein-twist fork (perspective 3)
 
 Could the graded ghost's polarization sum carry the Krein metric INTERNALLY -- `eta` on the
 little-group indices, some polarizations positive-norm and some negative -- rather than an
@@ -101,7 +101,7 @@ residue sign).** Both branches were computed; the eta branch fails covariance (F
 (F1), so there is no surviving construction on which the parity map could break by an
 internal twist.
 
-## 3. The positivity scans and the longitudinal hunt (personas 4 + 5)
+## 3. The positivity scans and the longitudinal hunt (perspectives 4 + 5)
 
 The sesquilinear form `Q_k(T) = T*_{mn} P2^{mn,rs}(k) T_{rs}` over ALL complex tensors `T`
 (16-dimensional; rank of `P2` is 5) was scanned across full grids of the Stage-A two-ghost

@@ -2,8 +2,6 @@
 artifact_type: composition_result
 created: 2026-08-05
 status: FOUR_REPRESENTATION_HIGGS_DISTANCES_MIGRATED_TO_ONE_TYPED_NO_NEW_DATUM_CHAIN__VERDICTS_RESIDUE_AND_RA_D2_FALSIFICATION_PRESERVED
-lane: "1"
-functional_channels: [COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-D2, RA-G2, RA-E3, RA-E5]
 source_return: SOURCE-CORRECTS
 registry: lab/process/trace-omega-higgs-chirality-compose-reconciliation.json

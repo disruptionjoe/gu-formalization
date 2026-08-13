@@ -4,9 +4,7 @@ created: 2026-08-08
 status: ACTION_OWNED_DEGREE14_EPSILON_COMPANION_EXACT__MOVING_K77_OBSERVATION_INSERTION_OPEN
 channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 action-owned degree-fourteen companion

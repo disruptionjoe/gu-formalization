@@ -548,7 +548,7 @@ Act on the explicit fork left by `21-deformation-linearization-limit-synthesis.m
 | concern | result | note |
 | --- | --- | --- |
 | 2021 manuscript draft locally reachable | no | still behind a public email gate; obtaining it would be a real-world action and would blur the local-only autonomy-test boundary |
-| Eric Weinstein's personal site newly informative | no | still at compressed "built on the 14-dimensional Observerse" level only |
+| Eric Weinstein's perspectivel site newly informative | no | still at compressed "built on the 14-dimensional Observerse" level only |
 | Oxford transcript holds untapped operator-complex text | no | the gap is in the source itself, not in local capture |
 | any other public source newly available | no | none located in this pass |
 

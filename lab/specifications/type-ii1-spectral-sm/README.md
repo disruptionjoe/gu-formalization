@@ -7,7 +7,7 @@ updated_at: "2026-05-31"
 
 # Type II_1 / Non-Embeddable Spectral Standard Model — Control Checklist + Extension Requirements
 
-This folder is the WRK-377 single-pass artifact for `pathway A` of `lab/roadmap/15-persona-pathway-ranking.md` — the lead Tier-1 high-upside construction path in the gu-formalization repo. It is the **first falsification test** referenced by `wrk-375-gu-six-axis/examples/example-01-type-ii1-spectral-sm.md`.
+This folder is the WRK-377 single-pass artifact for `pathway A` of `lab/roadmap/15-perspective-pathway-ranking.md` — the lead Tier-1 high-upside construction path in the gu-formalization repo. It is the **first falsification test** referenced by `wrk-375-gu-six-axis/examples/example-01-type-ii1-spectral-sm.md`.
 
 ## What this artifact does
 

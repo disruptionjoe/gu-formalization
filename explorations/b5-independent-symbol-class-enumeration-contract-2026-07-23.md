@@ -2,17 +2,9 @@
 title: "B5 independent reconstruction: finite symbol-class enumeration contract"
 status: active_research
 doc_type: run-plan-and-receipt
-run_id: RUN-20260723-054357-gu-formalization-progress-b5-symbol-contract
-parent_run_id: RUN-20260723-054357-repository-work-cycle-nbl-hourly
+parent_run_id: historical-investigation
 owner_id: gu-formalization
-workflow: repo-progress-run
 workflow_revision: sha256:25cb22688e2404b68de1127adbdea940c782335698debddaa665cc73274d9dcc
-mode: execute
-lane_id: "1"
-starting_revision: e089f37a0f9edea43b5a9f8698fd820fdebe53f8
-completed_at: 2026-07-23T05:50:33-05:00
-claim_status_change: none
-canon_change: none
 method_refs: []
 ---
 
@@ -23,7 +15,7 @@ method_refs: []
 `ENUMERATION-CONTRACT-FROZEN`.
 
 The independent B5 build is now an exact finite representation-theoretic
-enumeration problem. This run does **not** claim that the class is already
+enumeration problem. This investigation does **not** claim that the class is already
 enumerated, does not select a favorable differential, and does not issue either
 `B5-MIDDLE-CONSTRUCTION` or `B5-MIDDLE-OBSTRUCTION-INDEPENDENT`.
 
@@ -124,7 +116,7 @@ Planted controls:
 
 ## Rerank
 
-Lane 1 remains first. Within Lane 1:
+truth-status research remains first. Within truth-status research:
 
 1. compute the exact `m_ij` multiplicity matrix and mirror parity under this
    frozen contract;

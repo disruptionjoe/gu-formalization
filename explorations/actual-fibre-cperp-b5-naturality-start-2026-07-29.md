@@ -3,12 +3,8 @@ title: "Actual-fibre C_perp / B5 naturality start: the DeWitt lift preserves the
 status: active_research
 doc_type: result
 created: 2026-07-29
-run_id: GUH-20260729T211122Z-three-route-construction-wave
-lane_id: C
 code: tests/channel-swings/actual_fibre_cperp_b5_naturality_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Actual-fibre `C_perp` / B5 naturality start

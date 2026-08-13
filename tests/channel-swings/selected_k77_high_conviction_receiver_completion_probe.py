@@ -225,7 +225,7 @@ def analyze(predecessor: dict, candidate: str):
 print("A. SOURCE, PRIOR ART, LAYER 0 AND COUNCIL WEIGHTING")
 source = (ROOT / "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md").read_text()
 k95 = (ROOT / "explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md").read_text()
-contract = (ROOT / "lab/process/functional-channel-operating-contract-v1.0.md").read_text()
+contract = (ROOT / "lab/methods/research-evidence-contract-v1.0.md").read_text()
 check("source", "source admits but does not specify a nonzero southeast rival",
       "SOURCE-ADMITS-UNSPECIFIED-RIVAL" in source)
 check("prior_art", "K95 prior art supplies a reciprocal first-order southeast completion",

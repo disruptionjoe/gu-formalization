@@ -4,9 +4,7 @@ created: 2026-08-07
 status: SELECTED_FA_STAR_T_STAR_EXACT__INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET_ZERO__AMBIENT_FIELD_NORMAL_JET_OPEN
 source_return: SOURCE-CONFIRMS__RAW_RESIDUAL_CONSTITUENTS__SOURCE-SILENT__SELECTED_BRANCH_TANGENT_OPERATOR_NATURALITY
 ledger: lab/process/conditional-physics-ledger-v0.54.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected invariant constituent operator naturality

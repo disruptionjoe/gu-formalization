@@ -23,10 +23,10 @@ data = json.loads(
     object_pairs_hook=unique,
 )
 contract = json.loads(
-    (ROOT / "lab/process/functional-channel-operating-contract-v1.0.json").read_text(),
+    (ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text(),
     object_pairs_hook=unique,
 )
-context = (ROOT / "lab/process/agent-context-pack.md").read_text()
+context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 next_steps = (ROOT / "NEXT-STEPS.md").read_text(encoding="utf-8-sig")
 
 assert data["functional_channel"] == "COMPOSE"

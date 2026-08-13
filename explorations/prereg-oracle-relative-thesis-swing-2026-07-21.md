@@ -9,9 +9,7 @@ inputs:
   - explorations/council-systems-boundary-meaning-2026-07-21.md
   - explorations/council-aggregation-condorcet-2026-07-21.md (PENDING — picks the target prongs)
   - explorations/decision-tree-Q1a-hostile-verify-2026-07-21.md (PENDING — sets the θ bit-budget term)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---

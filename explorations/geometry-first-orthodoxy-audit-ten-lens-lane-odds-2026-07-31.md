@@ -5,13 +5,11 @@ doc_type: science_council
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
 comparison_branch: agent/operator-anomaly-big-swing
-run: lab/process/runs/GUH-20260731T151313Z-geometry-first-orthodoxy-ten-lens/run-plan.md
+run: archived private execution record
 certificate: lab/process/geometry-first-orthodoxy-ten-lens-council.json
 probe: tests/channel-swings/geometry_first_orthodoxy_lane_odds_probe.py
 grade: "TEN-LENS GEOMETRY-FIRST ASSUMPTION AUDIT. The guided G1--G3 lane is cleaner on action-derived variation, Noether structure, boundary geometry, and observation pullback, but still supplies the gauge arena, GU trace normalization, IG grammar, action family, and ordinary gauge algebra. The independent N1/N3 lane contains broader physical coverage but explicitly inserts Yang--Mills, Dirac/RS, SW, Yukawa/flavor, defect, and vacuum templates. Ten separate conditional specialist odds are reported without aggregation. No probability that GU is true or that either lane succeeds is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Geometry-first orthodoxy audit

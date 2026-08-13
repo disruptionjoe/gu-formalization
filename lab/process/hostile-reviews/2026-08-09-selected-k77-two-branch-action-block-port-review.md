@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-09
 verdict: OWNED_BLOCK_PORT_SURVIVES__COMPLETE_BRANCH_PARENT_OPERATOR_CLAIM_REJECTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected K77 two-branch action-block port

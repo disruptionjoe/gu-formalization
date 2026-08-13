@@ -3,14 +3,10 @@ title: "Full-20 DeWitt-loop transport: Gamma-naturality forces the missing norma
 status: active_research
 doc_type: result
 created: 2026-07-30
-run_id: GUH-20260730T104506Z-full20-dewitt-transport-wave
-lane_id: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-S4-DEWITT-TRANSPORT
 code:
   - tests/channel-swings/full20_dewitt_loop_transport_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Full-20 DeWitt-loop associated transport

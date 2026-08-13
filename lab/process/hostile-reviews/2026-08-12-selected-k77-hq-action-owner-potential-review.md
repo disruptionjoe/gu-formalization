@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-080014-gu-hq-action-owner-potential
 verdict: SURVIVES_SCOPED__FIRST_ACTION_BLIND_ON_MOVING_HQ_FAMILY__EDDY_SQUARE_CONDITIONAL_MEXICAN_HAT__OWNER_BACKGROUND_AND_PHYSICS_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: moving-Hq action owner and potential

@@ -22,9 +22,7 @@ cross_repo_reads_cited_as_evidence:
   - "temporal-issuance: explorations/E179/E180 2026-07-15 + memory/steward-memory-summary.md (Krein sign trends forced-internal; temporal order/finality are observer-side reconstructions from records; read-only)"
 runnable:
   - tests/channel-swings/ch_rec_coflip_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # CH-REC channel swing: the co-flip identity
@@ -345,7 +343,7 @@ contract:
   - **G4**: the joint J_quat/T2-T3 compatibility probe (shared with
     CH-QM/CH-SM; archaeology item 6).
 
-## 7. Inline persona passes (three, inline only)
+## 7. Inline perspective passes (three, inline only)
 
 **Statistical mechanic.** The register is a monotone counter, not a
 thermodynamic entropy; calling `dir` the entropy-production direction is
@@ -396,7 +394,7 @@ should keep saying the second thing. Adopted as the official phrasing.
   sign trends forced-internal; records-first reconstruction posture).
 - Awareness routing per the five-leg swing's cross-repo note (TaF/TI
   mailboxes on either co-flip outcome) is left to the parent/steward:
-  this run writes only the two declared files.
+  this investigation writes only the two declared files.
 
 ## 9. Boundary
 

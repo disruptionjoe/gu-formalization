@@ -6,7 +6,6 @@ status: exploration
 posture: adversarial; truth-seeking; native-object first; no verdict movement
 title: "Compression-algebra commutant on the record sector: H·I commutant (A = full matrix algebra by Burnside), residual family dimension 0; Proposition 1 applies and returns F = EMPTY on the kinematic carrier (non-compact boost witness)"
 grade: "EXACT FINITE COMPUTATION / trichotomy input only / claim_status_change: none"
-claim_status_change: none
 hostile_review: lab/process/hostile-reviews/2026-08-03-trichotomy-review.md
 depends_on:
   - papers/drafts/structurally-forced-internally-undecidable/draft-skeleton.md
@@ -360,7 +359,6 @@ The script exits nonzero on any failure.
 ## Governance
 
 Exploration grade only: EXACT FINITE COMPUTATION, trichotomy input only,
-claim_status_change: none. No canon, RESEARCH-STATUS, bar (b), or H59 change.
 No cross-repository identity. Results feed register item M-C3 (now
 EXECUTED-WITH-CORRECTIONS) and are J5-gated for any downstream decisive use.
 Hostile review applied 2026-08-03, corrections 1-12:

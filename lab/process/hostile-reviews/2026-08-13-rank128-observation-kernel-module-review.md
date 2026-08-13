@@ -4,9 +4,7 @@ artifact_type: hostile_review
 created: 2026-08-13
 verdict: SURVIVES_AS_EXACT_SCOPED_MODULE_THEOREM__NO_PHYSICS_VERDICT_MOVE
 target_claim: NONE-NOT-A-KILL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review

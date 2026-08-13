@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-15
-run_id: GUH-20260716T001233Z-flavor-rank
 title: "PRED-FLAVOR-RANK -- basis-invariant Yukawa freedom after the built GU texture"
 result: NO_GO
 grade: "Computed finite-dimensional rank certificate on the H28 reduced coefficient space; source-action construction not supplied."

@@ -3,9 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-13
 target: selected-k77-i2b-principal-degeneracy-retype-2026-08-13.md
 verdict: CORRECTION_SURVIVES__PREDECESSOR_GAUGE_NOETHER_DISPOSITION_RETRACTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: I2B principal-degeneracy retype

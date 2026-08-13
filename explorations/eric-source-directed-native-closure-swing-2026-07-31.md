@@ -4,7 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T160344Z-eric-source-directed-native-closure/run-plan.md
+run: archived private execution record
 specification: lab/specifications/eric-source-directed-native-closure-packet-2026-07-31.md
 certificate: lab/process/eric-source-directed-native-closure-certificate.json
 probe: tests/channel-swings/eric_source_directed_native_closure_probe.py

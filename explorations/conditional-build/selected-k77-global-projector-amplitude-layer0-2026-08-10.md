@@ -2,13 +2,9 @@
 artifact_type: construction_composition_and_layer0_correction
 created: 2026-08-10
 status: GLOBAL_PROJECTOR_SCREENS_SHIFTS__DOES_NOT_SELECT_NONZERO_VEV_AMPLITUDE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_SILENT_NORMALIZED_FUNCTIONAL_AND_AMPLITUDE_VALUE
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 global-projector / VEV-amplitude Layer-0 gate

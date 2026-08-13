@@ -4,9 +4,7 @@ status: preregistration
 doc_type: scoping_decision_tree
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (orchestrate all three open seams into one swing)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---

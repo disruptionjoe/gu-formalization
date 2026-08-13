@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.236 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; no row verdict moves. Canonicity distance v0.1 is unchanged. The derivative-dependent observed holonomic principal image is full rank 196 and reaches the target locally; rank one is now source selection plus nonlinear/global realization of that jet, with nonzero-fermion and full-field BV routes separate"
   },
-  "updated_by": "GUH-20260813-I2B-HOLONOMIC-JET-EULER-IMAGE",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

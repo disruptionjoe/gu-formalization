@@ -4,9 +4,7 @@ created: 2026-08-08
 status: COMMON_DG_BANK_EXACT__PRIOR_WARD_METRIC_OWNER_REJECTED__FULL_DEPSILON_DIFFEO_TRANSPORT_OPEN
 source_return: SOURCE-CONFIRMS_TWO_CONNECTION_RAW_UPSILON_GRAMMAR__SOURCE-SILENT_COMMON_METRIC_BANK_AND_COMPLETE_DIFFEO_EPSILON_TRANSPORT
 ledger: lab/process/conditional-physics-ledger-v0.97.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 common metric `D-Upsilon` coefficient bank

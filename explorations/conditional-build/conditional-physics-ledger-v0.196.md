@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-12
 ledger_version: "0.196"
-run_id: RUN-20260812-050138-gu-moving-hq-u3-2-sm-higgs-direction
 ---
 
 # Conditional physics ledger v0.196

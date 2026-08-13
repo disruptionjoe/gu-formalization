@@ -12,9 +12,7 @@ inputs:
   - explorations/blockbuster-p1-de-sign-covariance-2026-07-19.md
 probe: tests/channel-swings/three_seam_prongC_two_time_boundary_probe.py (foreground, deterministic two-run-identical, EXIT 0)
 outcome: C-SCAFFOLD
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 ---
 

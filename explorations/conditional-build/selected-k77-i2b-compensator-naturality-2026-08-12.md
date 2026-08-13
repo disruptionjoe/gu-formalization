@@ -1,16 +1,11 @@
 ---
 artifact_type: construction_result
 created: 2026-08-12
-run_id: RUN-20260812-114950-gu-i2b-compensator-naturality
-lane: 1
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_claims: [SC-ACT-02, SC-ACT-04]
 source_return: SOURCE_CONFIRMS_MOVING_CONJUGATED_CLIFFORD_FRAME_GRAMMAR__REPO_CORRECTS_V0204_Q12_TARGET_CLOSURE_BUG_AND_FRAME_ARTIFACT_READING__SOURCE_SILENT_ON_PPLUS_ACTION_OWNERSHIP_SPIN_LIFT_GLOBAL_CONNECTION_AND_EULER_PREBOUNDARY
 verdict: POINTWISE_COMPENSATOR_NATURALITY_EXACT__V0204_Q12_EXCLUSION_RETRACTED_BY_APPEND_ONLY_CORRECTION__ACTION_OWNER_OPEN
 target_claim: NONE-NOT-A-KILL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: 99463
 free_object_delta: 0

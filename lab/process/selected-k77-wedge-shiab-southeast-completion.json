@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260811-122036-gu-k77-wedge-shiab-southeast-completion",
+  "run_id": "historical-investigation",
   "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN_PARENT",
   "source_operator_family": "CHIRAL_WEDGE_MIDDLE_PLUS_FIRST_ORDER_SOUTHEAST",
   "parameter_dimension_before_semisimplicity": 4,

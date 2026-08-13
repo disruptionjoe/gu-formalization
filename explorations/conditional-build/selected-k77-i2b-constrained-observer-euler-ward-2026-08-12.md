@@ -2,10 +2,7 @@
 title: "Selected K77 I2B constrained-observer Euler/Ward stratification"
 status: exploration
 created: 2026-08-12
-run_id: RUN-20260812-185510-gu-i2b-constrained-observer-euler-ward
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B constrained-observer Euler/Ward stratification

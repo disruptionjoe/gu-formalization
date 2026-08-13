@@ -4,9 +4,7 @@ created: 2026-08-09
 status: NONZERO_BRANCH_AMPLITUDES_SYMPLECTOMORPHIC__CLASSICAL_MINIMAL_EDGE_BFV_CME_EXACT_STRATUMWISE__COMMON_DOMAIN_QUANTUM_MEASURE_AND_PHYSICAL_SELECTION_OPEN
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 branch symplectic equivalence and classical edge BFV

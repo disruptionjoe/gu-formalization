@@ -4,9 +4,7 @@ created: 2026-08-08
 status: SOURCE_VARIABLE_PRINCIPAL_WARD_TARGET_NARROWED_FROM_RANK4_TO_RANK3
 source_return: SOURCE-CORRECTS
 ledger: lab/process/conditional-physics-ledger-v0.86.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 principal Ward and gamma-epsilon reconciliation

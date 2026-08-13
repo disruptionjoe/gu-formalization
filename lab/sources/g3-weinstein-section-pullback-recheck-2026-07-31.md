@@ -4,10 +4,8 @@ status: source
 doc_type: claim_mining_report
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T144734Z-g3-full-variational-bvbfv/run-plan.md
-claim_status_change: none
+run: archived private execution record
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # G3 Weinstein recheck: section pullback versus defect action

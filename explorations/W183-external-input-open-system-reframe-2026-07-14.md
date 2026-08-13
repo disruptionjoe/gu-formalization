@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration
 label: W183
-status: "exploration (W183 / TEAM EXT-OPEN, label W183; coherence-first, exploration grade; 5 personas inline, one worker, no sub-agents; one deterministic test 27/27 exit 0 with positive + negative controls)"
+status: "exploration (W183 / TEAM EXT-OPEN, label W183; coherence-first, exploration grade; 5 perspectives inline, one worker, no independent reviewers; one deterministic test 27/27 exit 0 with positive + negative controls)"
 created: 2026-07-14
 wave: W183
 posture: coherence-first, exploration grade, honest grading; the deepest angle on the build sprint's NOT-OPERATIVE lean
@@ -44,7 +44,7 @@ current; the firewall-boundary hypothesis that reconstructions converge on a BOU
 closed completion). An open quantum system is not unitary in the closed sense **by construction**: the
 sub-system S-matrix is sub-unitary; only the TOTAL (system + environment / source) is unitary. So the
 question is whether the closed non-unitarity is a pathology at all, or the expected and correct
-signature of an open system fed by issuance. Five personas ran inline, one worker; deterministic test
+signature of an open system fed by issuance. Five perspectives ran inline, one worker; deterministic test
 `tests/W183_external_input_open_system.py` (**27/27, exit 0**).
 
 ## 0. The one object and the construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md)
@@ -57,7 +57,7 @@ signature of an open system fed by issuance. Five personas ran inline, one worke
 | **The ghost / mirror** | keep-and-grade real-mass Krein state; W173: a closed-not-exact RECORD | kept; here it is the OPEN CHANNEL through which the source feeds records. |
 | **The reservoir the ghost issues into** | LIKE-Krein-signed (records into like-signed finality) vs OPPOSITE-Krein-signed | **The whole verdict brackets on this axis** -- like -> total unitary; opposite -> instability. |
 
-## 1. Persona 1 -- open-quantum-systems theorist: the system, the environment, the boundary, the channel
+## 1. Perspective 1 -- open-quantum-systems theorist: the system, the environment, the boundary, the channel
 
 **The formalization.** Cast GU as a Friedrichs / Fano-Anderson open system. The **sub-system** is the
 geometry: one discrete record mode (the ghost / mirror, W173) at energy `M`. The **environment** is
@@ -76,7 +76,7 @@ normal Fano model with a UNITARY total (real spectrum, `||U psi|| = 1`) and a SU
 (survival amplitude `|a_d(t)|` decaying to 0.58). So "the closed sub-system is not unitary" is not a
 verdict against the theory; it is the definition of an open system.
 
-## 2. Persona 2 -- Krein/PT specialist: the anti-damping sign is the GAIN signature, and reuses W132
+## 2. Perspective 2 -- Krein/PT specialist: the anti-damping sign is the GAIN signature, and reuses W132
 
 The one worry an open-system reframe must clear: dissipation gives a CONTRACTION (`S^dag S <= 1`),
 but the GU leak is an EXPANSION. **This is not a problem for the reframe; it is its strongest
@@ -94,7 +94,7 @@ the issuance. So W132's sign, which killed the "ghost drains probability" readin
 evidence for "the source feeds probability" reading. The anti-damping is the face of a source, not a
 sink; the physical-sheet pole (W178) is the reduced-resolvent signature of that gain.
 
-## 3. Persona 3 -- firewall-boundary / finality specialist: the reduced pole is not the total eigenvalue
+## 3. Perspective 3 -- firewall-boundary / finality specialist: the reduced pole is not the total eigenvalue
 
 **The decisive distinction the closed sprint could not see.** W178 computed the pole of the dressed
 ghost propagator `D(s)` and found it on the physical sheet, reading "physical-sheet pole = complex
@@ -106,7 +106,7 @@ feature of the reduced dynamics analytically continued, not a genuine complex ei
 system is exactly what separates these two objects**, and W178, computing a closed grading, never
 separated them.
 
-**The model (Persona 4 built it; here is what it decides).** Take the ghost (Krein sign `-1`) coupled
+**The model (Perspective 4 built it; here is what it decides).** Take the ghost (Krein sign `-1`) coupled
 to a reservoir, K-pseudo-Hermitian throughout, and vary the Krein type of the reservoir the ghost
 issues into:
 
@@ -132,7 +132,7 @@ temporal-issuance / time-as-finality object (what is the metric signature of the
 GU's native geometry cannot supply it (W177: the metric curvature is leakage-free, cannot demote the
 mirror; the deciding datum is external and non-metric).
 
-## 4. Persona 4 -- symbolic / numerical engineer: the model, the controls, the exit code
+## 4. Perspective 4 -- symbolic / numerical engineer: the model, the controls, the exit code
 
 `tests/W183_external_input_open_system.py`, **27/27, exit 0** (numpy only; seed 20260714).
 **Positive controls run FIRST**: **PC1** the normal Fano open system -- total Hermitian, spectrum real
@@ -152,7 +152,7 @@ control (W138 discipline). Honesty: the model is a finite Friedrichs stand-in (a
 are) for the QFT operator `D` coupled to the unbuilt source action; it decides STRUCTURE, not GU's
 dressed regime.
 
-## 5. Persona 5 -- adversarial skeptic RUTHLESS: an open-system relabel is not a rescue
+## 5. Perspective 5 -- adversarial skeptic RUTHLESS: an open-system relabel is not a rescue
 
 **Steelman GENUINE-PATHOLOGY, at full strength.** (a) Opening a system does not make an instability go
 away. A physical-sheet complex pole in the closed theory is a genuine exponentially growing mode; you

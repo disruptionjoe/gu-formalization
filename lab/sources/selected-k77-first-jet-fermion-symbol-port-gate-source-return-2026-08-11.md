@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-233153-gu-k77-first-jet-fermion-symbol-port-gate
 return_code: SOURCE_CONFIRMS__SOURCE_CORRECTS__SOURCE_SILENT
 ---
 

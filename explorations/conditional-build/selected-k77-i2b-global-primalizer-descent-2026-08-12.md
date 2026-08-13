@@ -2,13 +2,9 @@
 artifact_type: exact_conditional_bundle_variational_result
 created: 2026-08-12
 status: PPLUS_DESCENDS_WITHOUT_CHOSEN_GLOBAL_SPIN_FRAME__MOVING_DPPLUS_EXACT__ARBITRARY_FIELD_EULER_PREBOUNDARY_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_MOVING_EPSILON_CONJUGATION_GRAMMAR__SOURCE_SILENT_ON_HQ_AND_PPLUS__REPO_DERIVES_SIGN_INSENSITIVE_ASSOCIATED_PPLUS_DESCENT_AND_MOVING_DPPLUS__UNITARY_PARENT_AND_FULL_EULER_PREBOUNDARY_OPEN
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B global primalizer descent

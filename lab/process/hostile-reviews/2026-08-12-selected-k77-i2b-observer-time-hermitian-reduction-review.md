@@ -2,7 +2,6 @@
 title: "Hostile review: observer-time Hermitian reduction"
 status: hostile-review
 created: 2026-08-12
-run_id: RUN-20260812-171303-gu-i2b-observer-time-hermitian-reduction
 ---
 
 # Hostile review: observer-time Hermitian reduction

@@ -5,9 +5,7 @@ doc_type: exploration
 created: 2026-07-21
 prereg: explorations/prereg-oracle-relative-thesis-swing-2026-07-21.md
 outcome: II-MIXED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 inputs:
   - explorations/council-systems-boundary-meaning-2026-07-21.md (member 5, FLP/distributed)

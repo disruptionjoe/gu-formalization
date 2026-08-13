@@ -7,10 +7,7 @@ grade: "EXACT. tests/c1_domain_moduli_no_canonical_selector.py is green. The
   supporting structural facts (graph classification, deck-fixed continuity) are
   checked numerically at small rank. Both INPUTS are filed elsewhere and are not
   re-derived here."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2e_mixed_metric_frechet_native_ward_result",
-  "run_id": "RUN-20260802-210344-gu-formalization-pw2e-finite-native-metric-ward",
+  "run_id": "historical-investigation",
   "status": "PW2E_MIXED_OWNER_INVENTORY_PASS_NATIVE_TOP_ORDER_COMPOSITION_AND_METRIC_WARD_UNASSEMBLED",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-033947-gu-k77-coupled-green-domain
 verdict: SCOPED_SURVIVES__TOTAL_ALGEBRAIC_GREEN_FORM_AND_CONDITIONAL_LAGRANGIAN_GRAPHS_CLOSE__NAIVE_MOVING_REALITY_REJECTED__UNIQUE_GLOBAL_PHYSICAL_DOMAIN_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected K77 coupled Green/domain gate

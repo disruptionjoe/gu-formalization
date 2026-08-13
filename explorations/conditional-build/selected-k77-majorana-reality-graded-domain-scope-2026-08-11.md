@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_scope_result
 created: 2026-08-11
-run_id: RUN-20260811-152113-gu-k77-majorana-reality-graded-domain-scope
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.176"
 result: LOCAL_REAL_K77_ANTILINEAR_INVOLUTION_EXISTS__TWO_ACTION_PAIRING_REALITY_CANDIDATES_LAND_IN_SKEW_DARBOUX_GRAPHS__EVEN_SYMMETRIC_GRAPH_THEOREM_CANNOT_CERTIFY_ODD_GRASSMANN_DOMAIN
 grade: "exact Layer-0 composition of the two-prime full-carrier pairing receipt with local real-Cl(7,7) conjugation and the v0.166 even Darboux theorem; physical graded Green domain and global analysis open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77 is a labelled conditional comparator; no signature, real-form, action-parent or domain row is settled."
 source_return: SOURCE-SILENT

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "status": "PW2FR_Z1_GRAPH_PASS_STRUCTURAL_C6_AND_EXERCISED_C5_CANCEL_KAPPA1_C4_SUBROUTE_LIVE_COMPLETE_C4_OPEN",
   "date": "2026-08-02",
-  "run_id": "RUN-20260803-002500-gu-formalization-pw2fr-derived-k-c3",
+  "run_id": "historical-investigation",
   "question": "After restoring the omitted derivative-bearing induced metric graph and composing the complete highest-order derived-K incidence, which metric Euler coefficient is first allowed to survive?",
   "layer_zero": {
     "source_epsilon_vs_repository_h": "DISTINCT",

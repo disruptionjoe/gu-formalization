@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-073415-gu-moving-hq-eddy-quartic-retype
 verdict: SURVIVES_SCOPED__PHASE_CORRECTED_HQ_UNITARY_BANK_AND_ZERO_FIT_J_EDDY_QUARTIC_CARRIER__ACTION_POTENTIAL_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: moving-Hq eddy-quartic retyping gate

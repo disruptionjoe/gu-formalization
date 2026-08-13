@@ -4,9 +4,7 @@ created: 2026-08-07
 status: FIXED_B_TRANSLATION_CURVATURE_PARTIAL_OWNER_EXACT__TRANSVERSE_MOVING_SOLDERING_OWNER_OPEN
 source_return: SOURCE-CONFIRMS__T_CONNECTION_DIFFERENCE_AND_DB_T_TRANSLATION_CURVATURE__SOURCE-SILENT__RICHER_MOVING_SOLDERING_COEFFICIENTS
 ledger: lab/process/conditional-physics-ledger-v0.51.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer translation-curvature principal owner

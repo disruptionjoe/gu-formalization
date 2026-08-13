@@ -2,7 +2,6 @@
 artifact_type: source_return
 created: 2026-08-13
 status: SOURCE_CONFIRMS_GRAMMAR__SOURCE_SILENT_EXACT_FORMAL_INTERSECTION
-lane: "1"
 target: selected-k77-i2b-stationary-affine-spencer-intersection
 ---
 

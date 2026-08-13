@@ -1,13 +1,10 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-043842-gu-trace-hq-connection-internal-chain
 status: SPLIT_SPIN_TRACE_HQ_COMPATIBILITY_CONSTRUCTED__FROZEN_Q_PATI_SALAM_AND_EXISTING_VPSB_COMPOSITION_FAILS__MOVING_FULL_UNITARY_AND_DISTINCT_VARPI_BLOCK_OPEN
 target_claim: NONE-NOT-A-KILL
 ledger: lab/process/conditional-physics-ledger-v0.195.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 trace-Hq connection and internal-chain gate

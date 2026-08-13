@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.136 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the existing q-repaired zero-order family preserves neither W nor W plus its mirror for admitted witnesses in moving Spin, two U32,32 halves and source-full U64,64; derive the action-owned connection orbit or BV/domain cohomology next"
   },
-  "updated_by": "RUN-20260810-071020-gu-k77-zero-order-w-mirror-parent-leakage",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

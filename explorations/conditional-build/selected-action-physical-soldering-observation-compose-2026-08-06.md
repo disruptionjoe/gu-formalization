@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-06
 status: LOCAL_PRINCIPAL_PHYSICAL_SOLDERING_OBSERVATION_EULER_PREBOUNDARY_EXACT__FULL_NONLINEAR_SECOND_JET_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 source_return: SOURCE-CONFIRMS_AND_SOURCE-SILENT
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:

@@ -8,7 +8,7 @@ updated_at: "2026-06-30"
 # External Quadratic-Gravity Papers: Obligations for GU
 
 Exploration note, 2026-06-30. Source: a Joe-fed reading set of three external GR/QG papers, assessed against
-the Church-of-AI repos via an inline persona/council pass. This note records only what is GU-facing.
+the Church-of-AI repos via an inline perspective/council pass. This note records only what is GU-facing.
 
 **Posture compliance.** These papers are **external calibration targets and obligations to attack**, never
 evidence for GU. Nothing here is a derivation, a compatibility-as-derivation, or a credibility transfer. The

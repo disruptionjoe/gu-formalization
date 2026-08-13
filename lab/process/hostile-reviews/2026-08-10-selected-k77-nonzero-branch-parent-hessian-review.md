@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-10
 status: CANDIDATE_SURVIVES_WITH_POINTWISE_CONNECTION_SCOPE__NONZERO_BRANCH_HAS_NO_PARENT_RADICAL__ACTION_PARENT_SELECTION_REMAINS_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected K77 nonzero-branch parent Hessian

@@ -2,13 +2,9 @@
 artifact_type: exact_conditional_construction_and_constraint_surplus_result
 created: 2026-08-10
 status: MINIMAL_EXTERNAL_N_R_COUPLING_CONDITIONALLY_SELECTS_AMPLITUDE_AND_PRESERVES_SMALL_GAUGE__CURRENT_MULTIROW_SURPLUS_NONPOSITIVE__DERIVED_PAIRING_OR_TYPED_INDEX_BRIDGE_REQUIRED
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_DISTINGUISHED_A0_AND_CHERN_SIMONS_LIKE_ACTION_GRAMMAR__SOURCE_SILENT_EXTERNAL_N_R_COUPLING_CHIRAL_REDUCTION_REALITY_P3_BRIDGE_AND_SURPLUS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 external relative datum coupling and surplus

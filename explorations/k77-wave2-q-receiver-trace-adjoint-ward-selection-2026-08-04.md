@@ -3,12 +3,9 @@ title: "K77 Wave 2: the trace-reversed metric fibre owns q, but Ward covariance 
 status: active_research
 doc_type: construction_result
 created: 2026-08-04
-lane: 1
 gate: RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD
 result: "PARTIAL__TRACE_REVERSED_TAUTOLOGICAL_Q_GEOMETRY_OWNED__LEFT_RIGHT_ADJOINT_EXCHANGE_AND_CURRENTS_EXACT__WARD_DOES_NOT_SELECT_COEFFICIENT__ZERO_ORDER_REALITY_FULL_H_OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 q-receiver ownership / adjoint / Ward selection

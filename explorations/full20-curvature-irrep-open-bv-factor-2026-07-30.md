@@ -3,16 +3,12 @@ title: "N4a full-20 curvature irreps and frozen open-BV incidence: the LC obstru
 status: active_research
 doc_type: result
 created: 2026-07-30
-run_id: GUH-20260730T135740Z-n2a-n4a-dual-screen
-lane_id: "N4a"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-N4A
 depends_on_packet: explorations/unified-source-datum-packet-v0-2026-07-30.md
 frozen_packet_hash: 1efdffd34e3ad5358fed16c08cda9ecf681df676e817560bf36b436d79658ffb
 code:
   - tests/channel-swings/full20_curvature_irrep_open_bv_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # N4a: curvature irreps and the frozen open-BV incidence problem

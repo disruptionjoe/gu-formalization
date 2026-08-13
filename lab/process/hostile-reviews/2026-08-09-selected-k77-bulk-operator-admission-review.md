@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-09
 verdict: CANDIDATE_SURVIVES_WITH_SCOPE_NARROWING__ADMISSION_GRAMMAR_NOT_OPERATOR_THEOREM
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 bulk-operator admission
@@ -80,5 +78,5 @@ of the still-unbuilt operator.
 
 The efficient next construction is a branch- and parent-indexed source-variable
 Hessian coefficient family. Only after its actual leading blocks and Ward
-complex are known should the run add gauge fixing/ghosts and ask for closed
+complex are known should the investigation add gauge fixing/ghosts and ask for closed
 `Dmax/Dmin`. No ledger verdict, canon or public posture moves.

@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_scope_result
 created: 2026-08-11
-run_id: RUN-20260811-191942-gu-k77-variable-incoming-projector-descent
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.180"
 result: ACTION_DERIVES_THE_VARIABLE_INCOMING_PROJECTOR_FAMILY__BOUNDARY_GEOMETRY_SELECTS_THE_MEMBER__BOTH_DOUBLED_MAJORANA_HORNS_TRANSPORT__GLOBAL_ANALYTIC_CLOSURE_OPEN
 grade: "exact polynomial associated-bundle and connection-naturality theorem composed with immutable full-rank-1920 spatial-Clifford and Green receipts; local variable-coefficient principal IBVP data conditional on standard regularity"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77 and both action-pairing horns remain labelled conditional comparators."
 source_return: SOURCE-SILENT

@@ -2,15 +2,10 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: SOURCE_NATURAL_FIXED_GRADE_ENDPOINT_PRINCIPAL_SYMBOL_CARTAN_INVOLUTIVE__NONLINEAR_TORSION_AND_PHYSICAL_BV_OPEN
-run_id: RUN-20260813-193321-gu-i2b-cartan-symbol-involutivity
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: NONE-NOT-A-KILL
 source_return: SOURCE_CONFIRMS_SC_ACT_04_ENDPOINT_GRAMMAR__SOURCE_SILENT_CARTAN_CHARACTERS_AND_NONLINEAR_FORMAL_INTEGRABILITY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "one exact order-two tableau with 196 fields/equations over four observed directions, its complete coordinate flag, first prolongation and one nontrivial rational coframe image"
 free_object_delta: 0

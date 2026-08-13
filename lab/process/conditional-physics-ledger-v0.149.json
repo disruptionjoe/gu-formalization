@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.149 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; tangential same-bundle support is the only zero-continuous-cost replacement but its class and real pairing are background-conditional; unowned H-N soldering has negative constraint surplus"
   },
-  "updated_by": "RUN-20260810-153236-gu-p3-replacement-surplus",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

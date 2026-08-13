@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """THREAD A4 -- ambient R^Y projection for constant-section Rperp_0.
 
-RUN-375 / A3 computed the shape-operator commutator half of the
+historical-investigation / A3 computed the shape-operator commutator half of the
 constant-section normal curvature term named by Thread A. This audit computes
 the missing ambient projection half in the same symmetric-pair convention.
 

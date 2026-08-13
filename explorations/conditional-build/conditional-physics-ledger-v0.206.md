@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.206"
-run_id: RUN-20260812-123851-gu-i2b-action-real-projection
 ---
 
 # Conditional physics ledger v0.206

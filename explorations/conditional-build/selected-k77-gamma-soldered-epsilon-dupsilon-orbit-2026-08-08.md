@@ -4,9 +4,7 @@ created: 2026-08-08
 status: GAMMA_SOLDERED_EPSILON_PRINCIPAL_ORBIT_EXACT__PHYSICAL_TRANSVERSE_METRIC_K_GREEN_OPEN
 source_return: SOURCE-CONFIRMS__EPSILON_GAMMA_FRAME_AND_GAUGE_EQUIVARIANCE_CARRIERS__SOURCE-SILENT__GAMMA_XI_AS_PHYSICAL_DIFFEO_SOLDERING_IDENTITY
 ledger: lab/process/conditional-physics-ledger-v0.84.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 gamma-soldered epsilon D-Upsilon orbit

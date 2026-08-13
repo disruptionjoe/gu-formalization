@@ -4,7 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: RUN-20260731-223801-gu-formalization-ecw3d-b1-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b1-h1-closedness-kill.json
 probe: tests/channel-swings/eric_curt_wave3d_b1_h1_closedness_kill_probe.py
 ---

@@ -1,12 +1,9 @@
 ---
 artifact_type: exact_construction_and_scope_result
 created: 2026-08-13
-run_id: RUN-20260813-225039-gu-trace-hq-connection-compatibility
 status: TRACE_HQ_COMPATIBILITY_EXACT_AND_NONEMPTY__FULL_AND_TWO_HALF_BLOCK_PARENTS_BOTH_ADMITTED__NO_PARENT_OR_HALF_SELECTION
 target_claim: NONE-NOT-A-KILL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 trace-Hq full-connection compatibility

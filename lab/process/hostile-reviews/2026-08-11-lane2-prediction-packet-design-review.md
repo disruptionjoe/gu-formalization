@@ -1,7 +1,7 @@
 # Hostile review: lane2 prediction packet design
 
 Target: `explorations/lane2-prediction-packet-design-2026-08-11.md`
-Run: `RUN-20260811-234500-gu-five-frontier-design-packets` (same-run self-review by the design pass; the executing wave reviews independently).
+Run: `historical-investigation` (same-run self-review by the design pass; the executing wave reviews independently).
 
 ## Self-hostile-review (the three standing charges)
 
@@ -37,7 +37,7 @@ needs-recheck).**
   is design input only. (Empty list stated explicitly.)
 - `survives`: the anchor fact's instruction (now typed rather than
   standing); the FIRED tripwires and their exclusions; PP1-PP3 frozen;
-  the Lane 2 disposition block; W230's verdict at its stated scope;
+  the prediction research disposition block; W230's verdict at its stated scope;
   BLOCKED-ON-A4 and DC-H2's reduction; the TaF fences; C10's
   unbiasedness certificate.
 - `needs-recheck` (all conditional on STEP-XS executing): on ANY horn —
@@ -48,6 +48,6 @@ needs-recheck).**
   `dark-energy-theta-divergence-free.md`) and every surface citing
   Result 1 as native; on H-E — W230's verdict line (verdict-flip
   contract, field-specialist review) and the W203/W230 Gram label; on
-  H-∅ — the M-H13 blocker text and Lane 2's disposition line. The
+  H-∅ — the M-H13 blocker text and prediction research's disposition line. The
   executing wave owns each, with hostile review where a verdict or canon
   surface moves.

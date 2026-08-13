@@ -3,13 +3,9 @@ title: "B5 observer-symbol multiplicity matrix: the complexified 20-slot class c
 status: active_research
 doc_type: result
 created: 2026-07-24
-run_id: GUH-20260725T041401Z-b5-observer-symbol-matrix
-lane_id: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 code: tests/shiab_b5_observer_symbol_multiplicity_matrix.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B5 observer-symbol multiplicity matrix

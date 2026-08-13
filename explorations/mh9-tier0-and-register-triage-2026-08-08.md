@@ -2,7 +2,6 @@
 artifact_type: exploration_result
 created: 2026-08-08
 status: MH9_MISSPECIFIED_AND_HALF_DONE__TIER0_BASE_FS_FLIP_COMPUTED__REGISTER_UNDERCOUNTS_COMPLETION_BY_8_TO_10X
-run_id: GUH-20260808T060000Z-register-side-track
 grade: "TWO RESULTS. (1) An exact certificate,
   tests/mh9_base_fs_indicator_horn_flip.py, green, integer-exact, residual 0.0 --
   the base Frobenius-Schur indicator flips between horns while the fibre does
@@ -10,9 +9,7 @@ grade: "TWO RESULTS. (1) An exact certificate,
   grade-C/H register rows against their actual target surfaces, every target
   resolved by content. The extrapolated completion rate is an estimate and is
   reported as a range."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []
@@ -127,7 +124,7 @@ gives **roughly 67-81 of 145 actually done — a true rate near 45-55%, against
 the 5.5% the register displays.**
 
 This reframes the side track opened at
-`lab/process/runs/GUH-20260808T060000Z-register-side-track/`. The job is not
+`archived private execution record/`. The job is not
 "work 137 items". It is **write back ~35 rows from evidence already in the tree,
 then work the genuine remainder**, which is a much smaller and differently-shaped
 task.

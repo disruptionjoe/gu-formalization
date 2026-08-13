@@ -4,9 +4,7 @@ created: 2026-08-08
 status: TRANSVERSE_SIX_PRINCIPAL_AUGMENTED_TORSION_EXACT__MOVING_OPERATOR_WARD_PACKET_OPEN
 source_return: SOURCE-CONFIRMS__T_EQUALS_VARPI_MINUS_ROTATED_BLC__SOURCE-SILENT__COMPLETE_PHYSICAL_DG_UPSILON_OPERATOR_BLOCK
 ledger: lab/process/conditional-physics-ledger-v0.85.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 metric-transverse augmented-torsion block

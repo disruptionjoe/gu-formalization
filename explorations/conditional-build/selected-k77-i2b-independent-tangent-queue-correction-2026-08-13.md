@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_construction_queue_correction
 created: 2026-08-13
-run_id: RUN-20260813-022626-gu-i2b-independent-tangent-queue-correction
 status: MOVING_GEOMETRY_REPAIR_MISTYPED__INDEPENDENT_VARPI_EULER_BLOCK_SURVIVES__SELECTED_QU_ACTION_RIVALS_HAVE_NO_NONZERO_JOINT_STATIONARY_POINT_ON_DECLARED_ANSATZ
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 ---
 

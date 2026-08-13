@@ -2,23 +2,20 @@
 artifact_type: preregistration
 status: preregistration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 probe: tests/channel-swings/b5_constraint_surplus_audit_probe.py
 follows:
   - explorations/b5-phase-sum-forcing-audit-2026-07-29.md
   - explorations/b5-chirality-orientation-audit-2026-07-29.md
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Prereg: the constraint-surplus audit — is positing the residual a test or a fit?
 
 ## The question, and why it is not a philosophical one
 
-Joe's argument, which this run takes as correct and makes measurable: when a
+Joe's argument, which this investigation takes as correct and makes measurable: when a
 geometry is highly over-determined and the missing piece is small, **building the
 piece that makes the rest fit is not curve-fitting.** Finding that a piece exists
 at all is a result, and its shape is then interrogable.
@@ -39,7 +36,7 @@ surplus = (independent constraints expressible on the residual)
 
 Positive surplus: the posit is a **test**. Zero or negative: it is a **fit**.
 
-This run computes that number instead of arguing about it.
+This investigation computes that number instead of arguing about it.
 
 ## Free-parameter side (exact, already established)
 
@@ -85,7 +82,7 @@ proof of inexpressibility**, and will be reported as such.
    values from 1024 assignments**, the input disagrees with the prior two runs
    and the audit aborts.
 2. If the expressibility test cannot distinguish a **planted expressible row**
-   from an inexpressible one, the test cannot fire and the run is void.
+   from an inexpressible one, the test cannot fire and the investigation is void.
 3. If any row is classified expressible **without** a named shared object, the
    classification is unsound and that row is voided.
 
@@ -96,7 +93,7 @@ proof of inexpressibility**, and will be reported as such.
 - **N1** a planted row citing a B5 test must classify as expressible.
 - **N2** a planted row citing an unrelated test must classify as not expressible.
 
-## What this run cannot earn
+## What this investigation cannot earn
 
 It cannot freeze a packet field, select a phase, build an operator, or establish
 that the source action is constructible. A `SURPLUS-UNCOMPUTABLE` outcome is

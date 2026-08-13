@@ -56,7 +56,7 @@ portal = read("lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.m
 toe = read("lab/sources/transcripts/toe-weinstein-gu-40-years.md")
 s9 = read("lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md")
 cell_audit = read(
-    "explorations/hourly-cycles/"
+    "explorations/research-cycles/"
     "hourly-20260625-0711-cycle2-rs-equation-1010-cell-typing-gate.md"
 )
 prior = read("lab/sources/gu-two-layer-action-source-reinspection-2026-08-04.md")

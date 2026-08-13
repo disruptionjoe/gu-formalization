@@ -41,7 +41,7 @@ def check(kind: str, label: str, condition: object) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.164.json")
 prior = strict("lab/process/conditional-physics-ledger-v0.163.json")
 result = strict("lab/process/selected-k77-coupled-gauge-noether-bv.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = read("explorations/conditional-build/selected-k77-coupled-gauge-noether-bv-2026-08-11.md")
 human_ledger = read("explorations/conditional-build/conditional-physics-ledger-v0.164.md")
 source = read("lab/sources/selected-k77-coupled-gauge-noether-bv-source-return-2026-08-11.md")
@@ -147,8 +147,8 @@ check("process", "contract points to v0.164 in both forms",
 check("process", "machine directive names closure, Gr family and Green successor",
       all(token in contract["standing_ledger"]["source_owned_hull_interface_directive"]
           for token in ("LOCAL_ORDINARY_GAUGE_BRST", "GR3_15", "SYMMETRIZED_GREEN")))
-for path in ("LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
-             "lab/process/agent-context-pack.md",
+for path in ("lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
+             "lab/process/CURRENT-RESEARCH-CONTEXT.md",
              "lab/process/exploration-absorption-priorities-2026-08-10.md"):
     check("process", f"{path} names v0.164", "v0.164" in read(path))
 check("process", "source manifest lists this return",

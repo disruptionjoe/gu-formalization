@@ -4,9 +4,7 @@ created: 2026-08-07
 status: CONNECTION_ONLY_RANK_MISMATCH__V043_PROXY_RETRACTED_AS_ACTION_TARGET
 source_return: SOURCE-CORRECTS__USE_G_VARPI_LD_NOT_COVECTOR_SLOT_PROXY__SOURCE-SILENT__SECTION_OBSERVATION_WELD
 ledger: lab/process/conditional-physics-ledger-v0.44.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer actual source-lift rank mismatch

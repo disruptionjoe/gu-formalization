@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_result
 created: 2026-08-11
-run_id: RUN-20260811-020449-gu-k77-unrestricted-southeast-bv-kernel
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.163"
 result: UNRESTRICTED_K77_SOUTHEAST_FAMILY_CONSTRUCTED__NONNULL_DETERMINANT_INDEPENDENT_OF_SOUTHEAST__FERMION_ONLY_PRINCIPAL_CONSTRAINT_BV_ROUTE_KILLED__FULL_FIELD_GAUGE_BV_NEXT
 grade: "EXACT structural theorem for the selected real-K77 four-field principal operator and every lower-right 128x128 southeast matrix; source-family, full-field BV, nonlinear/domain and physics claims excluded"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Unrestricted K77 southeast family and the principal BV-kernel gate

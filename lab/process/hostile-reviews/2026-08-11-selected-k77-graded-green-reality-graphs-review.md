@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-161937-gu-k77-graded-green-reality-graphs
 verdict: SURVIVES_WITH_SCOPE_REPAIR__BOTH_NONNULL_GRADED_GRAPHS_EXACT__FULL_MOVING_NULL_AND_ANALYTIC_DOMAIN_OPEN
 ---
 

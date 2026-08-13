@@ -38,7 +38,7 @@ def check(kind, label, value):
 ledger = strict("lab/process/conditional-physics-ledger-v0.180.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.179.json")
 result = strict("lab/process/selected-k77-variable-incoming-projector-descent.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.180"
@@ -99,7 +99,7 @@ check("routing", "successor starts with constraint/BV and mirror cohomology",
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.180", "projector family"],
     "RESEARCH-STATUS.md": ["ledger v0.180", "boundary geometry"],
-    "lab/process/agent-context-pack.md": ["Current v0.180", "two `U(32,32)` halves"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.180", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-variable-incoming-projector-descent-review.md": ["SURVIVES_SCOPED", "Symplectic"],
     "lab/sources/selected-k77-variable-incoming-projector-descent-source-return-2026-08-11.md": ["SOURCE-SILENT", "projector"],
 }.items():

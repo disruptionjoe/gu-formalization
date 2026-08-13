@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260803-040328-gu-formalization-pw2fr2b2a-moving-c4",
+  "run_id": "historical-investigation",
   "gate": "PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH",
   "status": "PARTIAL_COMPARATOR_PASS_BLOCKS_COMPLETE_C4",
   "columns": {

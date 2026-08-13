@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-182311-gu-k77-energy-green-boundary-horn-composition
 verdict: SURVIVES_AFTER_LAYER0_REVERSAL__BOTH_DOUBLED_HORNS_PASS__ONE_SIDED_NO_GO_RETRACTED
 lenses: [layer0_semantics, prior_art, symmetric_hyperbolic, supergeometry, symplectic_bv_bfv, krein_reality, exact_computation]
 ---

@@ -6,13 +6,11 @@ created: 2026-08-03
 work_item: "DRAFT-FQZ-MAP (the named decider computation of explorations/imposter-ab-resolution-proposal-2026-08-03.md §10; standing register item promoted by that proposal). This file is the PRIMARY-SOURCE INGESTION half of the deliverable; the check's verdict lives in explorations/draft-fqz-map-decider-2026-08-03.md."
 title: "Primary-source extraction: Weinstein 2021 GU draft, §11 (Observed Field Content) and §12.8–§12.11 — eq (11.1)–(11.6), the p.51 rolled-up complex, the three §11.3 quantum-number tables, eq (12.18)–(12.22), and every passage attaching 'imposter'/'third generation' language to a specific summand. All load-bearing content read visually from rendered pages, not just the text layer."
 grade: "VERBATIM EXTRACTION with provenance. Quotes are exact against the rendered PDF pages (born-digital TeX, no OCR involved; transliteration conventions declared below). No mathematical claim is certified here; no repo number is re-derived here; dimension arithmetic shown is labeled as extractor's arithmetic, not the draft's, wherever the draft does not print the number. PRE-DEPOSIT: no claim-status, canon, verdict, bar(b), H59, count, LANE-STATE, or public-posture movement."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 verdict_gate: "Source extraction only. Consequences for the imposter A/B fork are stated ONLY in explorations/draft-fqz-map-decider-2026-08-03.md and remain J5-gated there."
 hostile_review_status: "NOT YET REVIEWED — input to the J5 review of the A/B resolution proposal"
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - explorations/imposter-ab-resolution-proposal-2026-08-03.md
   - explorations/imposter-reading-adjudication-2026-08-03.md
   - lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md

@@ -6,10 +6,7 @@ grade: "LOCATION result plus a refused inference. The identification of tau with
   tau_RS is read from the filed b-parametrix and generation-sector artifacts. The
   invariant count under a Riemannian reading is exact representation theory; it is
   reported and then REFUSED as the answer, because the reading crosses signature."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

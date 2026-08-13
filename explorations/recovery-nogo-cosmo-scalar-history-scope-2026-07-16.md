@@ -3,7 +3,6 @@ title: "Recovery no-go cosmology scalar history audit and scope fork"
 status: exploration
 doc_type: recovery_no_go_defense
 created: 2026-07-16
-run_id: GUH-20260716T130826Z-cosmo-nogo-defense
 target: RECOVERY-NOGO-COSMO-SCALAR
 test: tests/recovery-contract/cosmo_nogo_history_scope_gate.py
 register: lab/process/recovery-no-go-defense-register.json
@@ -62,8 +61,8 @@ Mechanism terms included `scalar-truncation`, `closed scalar`,
 | prior record | construction and outcome | applicability |
 |---|---|---|
 | `canon/theta-field-flrw-dark-energy-eos.md` | Uses a pulled-back 4D scalar `B` for the background KG model, while listing as a failure mode that if `s*(theta)` is spin-2, the FLRW-KG equation must be replaced. | No conflict. It marks the scalar status as an assumption/failure mode, not a same-construction clearance. |
-| `explorations/hourly-cycles/hourly-cycle1-source-forced-theta-coefficient-packet-2026-06-24.md` | Source-forced theta coefficient packet. It records that `scalar_theta_mode`, `Z_theta`, `C_Rtheta`, and `xi_eff` are not emitted and are underdefined before source-forced action and FLRW scalar projection. | No conflict. It supports the missing-scalar-mode obstruction, but predates the current W203/W229/W230/W236 fingerprint and does not clear it. |
-| `explorations/hourly-cycles/hourly-20260626-0402-cycle1-theta-residual-terrain-audit.md` | Theta residual terrain audit. Branch 2A lacks a source-derived `Phi`, tangent projector, and FLRW scalar reduction; Branch 3 lacks a source-forced dynamic action, `theta_eff` theorem, scalar projection, and coefficient packet. | No conflict. It maps possible source-side routes and warns that `s*theta` may be spin-2 or constrained away rather than scalar. |
+| `explorations/research-cycles/hourly-cycle1-source-forced-theta-coefficient-packet-2026-06-24.md` | Source-forced theta coefficient packet. It records that `scalar_theta_mode`, `Z_theta`, `C_Rtheta`, and `xi_eff` are not emitted and are underdefined before source-forced action and FLRW scalar projection. | No conflict. It supports the missing-scalar-mode obstruction, but predates the current W203/W229/W230/W236 fingerprint and does not clear it. |
+| `explorations/research-cycles/hourly-20260626-0402-cycle1-theta-residual-terrain-audit.md` | Theta residual terrain audit. Branch 2A lacks a source-derived `Phi`, tangent projector, and FLRW scalar reduction; Branch 3 lacks a source-forced dynamic action, `theta_eff` theorem, scalar projection, and coefficient packet. | No conflict. It maps possible source-side routes and warns that `s*theta` may be spin-2 or constrained away rather than scalar. |
 | `explorations/cycle-gates-and-audits/gu-action-4d-physics-gate-2026-06-24.md` | Defines a future binary gate asking whether the written GU action reduces to a homogeneous FLRW theta mode with the needed curvature term. | No conflict. It names the scalar-amplitude reduction as a gate; it does not execute a closed SVT perturbation certificate. |
 | `explorations/wave25/H44-de-backreacted-background-2026-07-11.md` | Solves coupled Friedmann plus theta KG background dynamics and hardens the CPL-background falsification scope. | No conflict. It is background and distance evidence, explicitly not new source physics or perturbation recovery. |
 | `explorations/W129-oq2-m2-band-sweep-de-exclusion-2026-07-14.md` | Sweeps the CMB-calibrated raw-BAO theta-sector distance model across admissible `M^2` choices. | No conflict. It preserves the canon verdict as `OPEN` and tests distance likelihood behavior, not the physical scalar projection or SVT closure. |

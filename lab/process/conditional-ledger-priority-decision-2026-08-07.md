@@ -27,7 +27,7 @@ vacuum/stabilizer orbit, the external-datum interface and the massless
 constraint/hyperbolicity complex before another depth-first continuation.
 
 The inline 25-lens vote is a planning instrument. It is not mathematical,
-source, observational or statistical evidence for GU. Personas were modeled
+source, observational or statistical evidence for GU. Perspectives were modeled
 analytical charges rather than independent human respondents.
 
 ## Ledger accounting correction

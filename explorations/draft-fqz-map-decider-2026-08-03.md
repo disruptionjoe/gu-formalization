@@ -6,13 +6,11 @@ created: 2026-08-03
 work_item: "DRAFT-FQZ-MAP — the named flip computation of explorations/imposter-ab-resolution-proposal-2026-08-03.md §10 (primary decider for criterion 1 and exit-condition item (i) of the imposter A/B fork). Executes the preregistered check against the ingested primary source (lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md)."
 title: "DRAFT-FQZ-MAP verdict: HOLDS on both preregistered prongs — (1) the map F ↦ 128 = S(V)⊗S(W), Q ↦ 384 = RS(V)⊗S(W), Z ↦ 1152 = S(V)⊗RS(W) holds under the draft's OWN grading convention (the ± labels are ambient-chirality halves; the draft itself prints 64± and 832± as graded dimensions, and eq 12.20 prints S̸⁶⁴_{L/R} for one half of the 2⊗16 object), and (2) the draft's 'Imposter Third Generation' underbrace at eq (12.22) sits on the THIRD, S̸(TX)⊗S̸(Nג) (F-shaped, spin-1/2) term — NOT on the Q-shaped RS term. Neither flip condition is met. Criterion 1 of the resolution proposal upgrades from gated-0.75 to primary-source grade, with two filed corrections to the proposal's own citations and one flagged residual (the p.53 table). NOTHING RESOLVES HERE: adoption of Reading A remains J5-gated."
 grade: "PREREGISTERED CHECK EXECUTION — reading and comparison only. The only computation is dimension arithmetic on the draft's printed factors (2·16+2·16 = 64 etc.), labeled as such; no script, no new mathematical claim, no FD read (P-H29 engaged nowhere). Every load-bearing quote is verbatim from the visually verified primary source with page/equation numbers (see the extraction file). PRE-DEPOSIT: no claim-status, canon, verdict, bar(b), H59, count, LANE-STATE, or public-posture movement; the fork resolves only via a passed J5 hostile field-specialist review."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 verdict_gate: "DECIDER INPUT ONLY. Per the adjudication row §4.5 and the resolution proposal §12, the imposter A/B fork resolves only via a typed ruling that has PASSED a J5 hostile field-specialist review. Until then W221's verdict logic, the 2026-06-22 closure, NEXT-STEPS PC2, legb2's header, the context-pack fork row, and every register/canon surface stay exactly as they are. This file changes CONFIDENCE INPUTS to the J5 review, nothing else."
 hostile_review_status: "NOT YET REVIEWED — this file is input to the J5 review alongside the resolution proposal"
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - explorations/imposter-ab-resolution-proposal-2026-08-03.md
   - explorations/imposter-reading-adjudication-2026-08-03.md
   - lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md
@@ -199,7 +197,6 @@ J5-gated.
 
 ## 5. Governance
 
-claim_status_change: none. No canon, verdict, bar(b), H59, count,
 LANE-STATE, or public-posture movement; no file outside this one and its
 companion extraction was created or edited; nothing was committed. The J5
 hostile field-specialist review (two-sided charge: overclaim AND

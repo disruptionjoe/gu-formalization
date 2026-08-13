@@ -4,9 +4,7 @@ created: 2026-08-09
 status: ONE_SIDED_EDGE_FRAME_TRIVIAL_BUNDLE_ONLY__RELATIVE_A0_BITORSOR_GLOBALIZES_EVERY_EXISTING_P_H_TOPOLOGICAL_SECTOR__COMMON_DOMAIN_OPEN
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 relative edge-bitorsor topology

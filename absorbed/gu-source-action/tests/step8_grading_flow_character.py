@@ -7,7 +7,7 @@ integer, or path-dependent fuzz? And is the flow generic? Computed on the bridge
 commuting quaternionic J), all guards held (M_D / bare commutator untouched). [Corrected after an
 adversarial counter-computation that found a clean t->inf limit the first draft missed.]
 
-FINDINGS (this run reproduces, deterministic seed):
+FINDINGS (this investigation reproduces, deterministic seed):
 1. FIRST-ORDER NULL: sig(P_ker Delta P_ker) = 0 for the natural AND every generic admissible breaker.
    D_Sigma has a 1536-dim kernel (+/-128 nonzero); a G-diagonal Delta splits that kernel SYMMETRICALLY
    to first order, so eta does NOT flow at small t -- the flow is a finite-t level-crossing.

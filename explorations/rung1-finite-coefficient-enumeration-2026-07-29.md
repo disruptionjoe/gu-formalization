@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "RUNG 1 COMPLETE -- verdict GRADING-ONLY. Enumerating the symmetry-permitted coefficient space FIRST (18 real chirality-odd generators on the balanced 3+3 carrier) and only then computing indices, the net chiral index is IDENTICALLY ZERO across 4000 random samples plus a 401-point source-coordinate sweep. Q2 ('which term first breaks the index-zero pairing?') answers NO TERM DOES: the index is a function of the GRADING alone and moves only when n+ != n- (control N1: 4+3 gives index 1). So the pairing is broken by a FIELD-SPACE DECLARATION, never by an operator term -- independently reproducing the ladder's Krein-isometric-source warning by enumeration rather than citation. Q1: phi changes the kernel dimension with no hand-set rank-three projector, but that is ACCESSIBLE-RANK motion; Q4 resolves ACCESSIBLE, not GLOBAL."
 grade: "EXACT for the enumeration, the index constancy over the sampled space, and both controls. The sampling is DENSE, not exhaustive (the space is continuous); the index constancy is therefore proved on 4401 points and argued structurally, not proved for every real coefficient. Q3 is only PARTIALLY answered -- index stability under 4000 random perturbations is shown, subspace stability is not tested. Scoped no-go at this rung only."
@@ -11,15 +10,13 @@ probe: tests/channel-swings/rung1_finite_coefficient_enumeration_probe.py
 implements: lab/active-research/conditional-source-action-toy-construction-program-2026-07-26.md
 construction: "program-native Krein pairing (purely cross-chirality, signature 3+/3-). Positive-Hilbert run only as a typed hostile control, never as a substitute. The triplet is SUPPLIED, per the ladder's own statement that any Rung-1 result inherits the factor of three from the located triplet."
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "GRADING-ONLY"
 ---
 
 # Rung 1: the finite coefficient enumeration
 
-Selected because `LANE-STATE.yaml` names it as the bounded alternative to a full
+Selected because `CURRENT-STATE.yaml` names it as the bounded alternative to a full
 dynamical selector, and because a finite coefficient space is exactly the kind of
 place a forced condition **can** be expressed — the bridge the constraint-surplus
 audit found missing.

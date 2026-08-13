@@ -1,11 +1,8 @@
 ---
 artifact_type: exact_construction_and_route_disposition
 created: 2026-08-11
-run_id: RUN-20260811-011626-gu-k77-unrestricted-four-field-euler-image
 status: BOUNDED_GRAPH_ROUTE_NOT_ACTION_OWNED__RETURN_TO_UNRESTRICTED_SOURCE_OPERATOR
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 unrestricted four-field Euler image

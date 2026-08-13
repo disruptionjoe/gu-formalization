@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2D-ACTIVE-KAPPA1-C4-IDENTIFIABILITY",
   "status": "NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__RELAXED_U4_COMPLETIONS_RETRACTED_BY_SUCCESSOR",
-  "run_id": "RUN-20260803-110644-gu-formalization-pw2fr2b2b2d-kappa-c4-identifiability",
+  "run_id": "historical-investigation",
   "verdict_scope": "conditional fixed-(epsilon,varpi) reconstructed Levi-Civita principal-Z1 metric-metric branch over observed-base conormals only",
   "source_disposition": {
     "SOURCE-CONFIRMS": "the pinned primary-source packet explicitly places the kappa1/2 times T distortion-mass slot inside I1",

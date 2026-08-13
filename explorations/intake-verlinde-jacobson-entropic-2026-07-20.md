@@ -5,9 +5,7 @@ doc_type: intake_note
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (Joe-supplied source blocks + TOE full episode)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 intake_semantics: >
   IMPORTED-shape evidence only. Grok-generated summaries and podcast
   transcripts are hearsay-grade; primaries (arXiv:1001.0785, 1611.02269,
@@ -56,7 +54,7 @@ intake_semantics: >
    lemma (no conserved positive pairing past any wall) marks exactly
    where his equilibrium assumption would fail in our setting. Worth one
    typed paragraph in any future wall-theory paper; no transfer.
-3. **PP3 / competitor landscape (Lane 2 relevance).** Verlinde 2017
+3. **PP3 / competitor landscape (prediction research relevance).** Verlinde 2017
    CLAIMS observational content: an emergent dark force with scale
    a_0 = c H_0, rotation curves without dark matter, no extra
    parameters. That is more prediction-shaped than Bianconi's Lambda —

@@ -4,9 +4,7 @@ created: 2026-08-09
 status: COMMON_GRADED_TRACE_AND_RELATIVE_POLARIZATION_EXACT__ACTUAL_BULK_GREEN_KREIN_DOMAIN_UNOWNED
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 common graded trace and boundary-triple skeleton

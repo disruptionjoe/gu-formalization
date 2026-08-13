@@ -66,7 +66,7 @@ forks:
       across this fork silently.
     sources:
       - GEOMETER-VS-PHYSICS-OBJECTS.md
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
 
   - id: SIGNATURE-AMBIENT
     title: "Ambient signature (9,5) vs (7,7)"
@@ -205,7 +205,7 @@ forks:
       acting on it. Running M-H9 would also derive B5 fields (i)-(iii) natively,
       so it addresses the blocked interior lane at the same time.
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - explorations/resolver-wave-b-q3-dq3-dq1-2026-08-03.md
 
   - id: REAL-CLIFFORD-FORM
@@ -246,7 +246,7 @@ forks:
       registry and process_gates/fork_depth_audit.py exist.
     sources:
       - lab/process/science-council-program-efficiency-2026-08-04.md
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
     consequence_set_added: '2026-08-07'
     consequence_set_method: >-
       SCOPE CORRECTION 2026-08-07: this consequence set was first built by treating
@@ -350,11 +350,11 @@ forks:
     consequence_set:
       propagated_on_settlement_day:
         - tests/W221_falsify_generation_count_structure.py
-        - lab/process/agent-context-pack.md
+        - lab/process/CURRENT-RESEARCH-CONTEXT.md
         - papers/drafts/one-generation-not-three/draft.md
     fan_out: "medium - W221 scope, the 2+1 occupancy reading, generation labelling"
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - GEOMETER-VS-PHYSICS-OBJECTS.md
 
   - id: TWO-IN-REPO-2PLUS1
@@ -373,7 +373,7 @@ forks:
       blocks; blocks are 3:9:1, not peers; 4+10 is forced and uniquely
       mod-3-clean, fenced as multiplicity, not index.
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - lab/process/hinge-panel-synthesis-2026-08-03.md
 
   - id: KINEMATIC-VS-PHYSICAL-CARRIER
@@ -389,7 +389,7 @@ forks:
       physical reading of a kinematic computation is assuming this horn and must
       declare it.
     sources:
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
       - lab/process/improvement-register-2026-08-03.md
 
   - id: EPS-CHARACTER
@@ -478,7 +478,7 @@ forks:
       e-invariant is dead in dim 13 and the f-invariant needs a corner object.
     sources:
       - GEOMETER-VS-PHYSICS-OBJECTS.md
-      - lab/process/agent-context-pack.md
+      - lab/process/CURRENT-RESEARCH-CONTEXT.md
 
   - id: NUMBER-14-METRIC-VS-EXTERIOR
     title: "The number 14: metric total space vs exterior grading"

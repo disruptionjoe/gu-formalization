@@ -3,9 +3,7 @@ artifact_type: construction-result
 date: 2026-08-08
 status: FIRST_ACTION_BANK_ALREADY_COMPLETE__STATIONARY_WARD_THEOREM_EXACT__TRANSVERSE_J_AND_K_OPEN
 source_return: SOURCE-CONFIRMS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # The next operator was two different operators

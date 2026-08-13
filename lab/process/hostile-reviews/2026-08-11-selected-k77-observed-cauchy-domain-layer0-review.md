@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-172120-gu-k77-observed-cauchy-domain-layer0
 verdict: SURVIVES_WITH_SCOPE_REPAIR__LOCAL_FLAT_OBSERVED_CAUCHY_THEOREM_ONLY__SPATIAL_BOUNDARY_AND_AMBIENT_DOMAINS_OPEN
 ---
 

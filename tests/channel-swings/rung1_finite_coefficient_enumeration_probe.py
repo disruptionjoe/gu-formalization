@@ -4,7 +4,7 @@ RUNG 1 -- THE FINITE COEFFICIENT ENUMERATION.
 
 Preregistered in explorations/prereg-rung1-finite-coefficient-enumeration-2026-07-29.md.
 Implements Rung 1 of lab/active-research/conditional-source-action-toy-construction-program-2026-07-26.md,
-named by LANE-STATE.yaml as the bounded next step.
+named by CURRENT-STATE.yaml as the bounded next step.
 
 MODEL (fixed before computation):
     H = (T (x) E+) + (T (x) E-) + X,   dim T = 3

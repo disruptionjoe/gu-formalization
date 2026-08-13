@@ -7,9 +7,7 @@ grade: "PROCESS INFRASTRUCTURE, no physics content. Design: two councils (proces
   keep/toss/adjust round, synthesized under two ratified postures (Joe, direct chat 2026-08-10): the
   TWO-PHASE canon-promotion rule, and the GUIDANCE-TIER principle -- requirement / in-path guidance / omit
   is a three-way call, not a binary; hard-require only what a deterministic gate can enforce."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Process-hardening manifest, 2026-08-10
@@ -53,7 +51,7 @@ retrofit audit (work, not guidance).
 
 ## A discovery that changed the plan
 
-`lab/process/agent-context-pack.md` is NOT an orphan: it is the **hourly's live campaign memory** (updated
+`lab/process/CURRENT-RESEARCH-CONTEXT.md` is NOT an orphan: it is the **hourly's live campaign memory** (updated
 2026-08-10, ~1,370 lines of ledger fences, newest-first). Its title ("one-read distillation") has aged out
 of truth, but the file is owned and mid-campaign — so the plan's "rehabilitate the pack" became "leave the
 pack to its owner; create the small session-facing card instead." The pack itself is a live exhibit of the

@@ -4,9 +4,7 @@ created: 2026-08-07
 status: SELECTED_SHIAB_ISOMORPHISM__SPLIT_PREIMAGES_NOT_PRINCIPAL_BIANCHI__TOTAL_GCR_COMPLETION_REQUIRED
 source_return: SOURCE-CONFIRMS__RAW_UPSILON_EQUIVARIANCE_INTENT__SOURCE-SILENT__GAUSS_CODAZZI_RICCI_SPLIT_COEFFICIENTS_AND_BACKGROUND_COMPLETION
 ledger: lab/process/conditional-physics-ledger-v0.47.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer Shiab inverse and Bianchi completion

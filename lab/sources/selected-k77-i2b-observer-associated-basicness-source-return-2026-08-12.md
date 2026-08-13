@@ -2,7 +2,6 @@
 title: "Source return: observer-associated basicness"
 status: source-return
 created: 2026-08-12
-run_id: RUN-20260812-174351-gu-i2b-observer-associated-basicness
 ---
 
 # Source return: observer-associated basicness

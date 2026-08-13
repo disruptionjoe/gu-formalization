@@ -1,13 +1,10 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-024031-gu-moving-split-structure-action-selection
 status: MOVING_SPLIT_COVARIANT_DERIVATIVES_EXACT__COMPATIBLE_LOCUS_CONSTRUCTED__CURRENT_ACTION_DOES_NOT_SELECT_IT
 target_claim: NONE-NOT-A-KILL
 ledger: lab/process/conditional-physics-ledger-v0.192.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 moving split structure and action-selection gate
@@ -181,7 +178,7 @@ The probe passes `40/40`.  Six ledger rows move in distance/evidence only.
 Headline verdicts, residue `84`, at least `19` function-valued slots, nine
 forks, five quotients, P1/P2/P3, canon and public posture do not move.
 
-The next high-information Lane 1 gate is not another demand that all breaking
+The next high-information truth-status research gate is not another demand that all breaking
 pieces vanish.  It is:
 
 ```text

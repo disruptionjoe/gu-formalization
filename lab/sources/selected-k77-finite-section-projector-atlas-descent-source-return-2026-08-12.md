@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-003609-gu-k77-finite-section-projector-atlas-descent
 ---
 
 # Source return — finite K77 graph projector and atlas descent

@@ -70,7 +70,7 @@ claims = read("lab/sources/source-claim-register.yaml")
 reconstruction = read(
     "lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md"
 )
-transport = read("lab/process/functional-channel-operating-contract-v1.0.md")
+transport = read("lab/methods/research-evidence-contract-v1.0.md")
 check("source", "SC-ACT-04 owns a bosonic residual square and adjoint grammar",
       "- id: SC-ACT-04" in claims and "D*_omega Upsilon_omega = 0" in claims)
 check("source", "the source reconstruction charges a distinct bosonic Q_B slot",

@@ -4,9 +4,7 @@ created: 2026-08-07
 status: COEFFICIENT_REPAIR_THEOREM_SURVIVES__OLD_EXACT_VALUES_SUPERSEDED__COVARIANT_GRAPH_DESCENT_OPEN
 source_return: SOURCE-CONFIRMS__SPIN77_Y77_AND_NORMAL64_PRESENTATION__SOURCE-SILENT__FOUR_COLUMN_GRAPH_SELECTION_AND_DESCENT
 ledger: lab/process/conditional-physics-ledger-v0.57.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 Cartan/Spencer signature correction

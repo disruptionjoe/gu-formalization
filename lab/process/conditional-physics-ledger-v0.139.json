@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.139 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the unique upper W/mirror graph fails the action-tied lower-left equation on every retained parent; resolve the source-faithful ambient-half-sign and degree-duality collision next"
   },
-  "updated_by": "RUN-20260810-100555-gu-k77-graph-lower-left-gate",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

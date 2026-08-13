@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-001119-gu-k77-fixed-common-receiver-hull
 verdict: SCOPED_SURVIVES__RANK384_COMMON_HULL_EXACT__ACTION_OWNERSHIP_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: fixed common K77 receiver hull

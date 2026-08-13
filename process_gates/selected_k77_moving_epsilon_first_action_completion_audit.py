@@ -21,7 +21,7 @@ def strict(path):
 
 registry = strict(ROOT / "lab/process/selected-k77-moving-epsilon-first-action-completion.json")
 ledger = strict(ROOT / "lab/process/conditional-physics-ledger-v0.123.json")
-contract = strict(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
 stationarity = strict(ROOT / "lab/process/selected-k77-source-tangent-branch-stationarity.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-moving-epsilon-first-action-completion-2026-08-09.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-09-selected-k77-moving-epsilon-first-action-completion-review.md").read_text()

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-133651-gu-i2b-full-trace-orbit-derivative",
+  "run_id": "historical-investigation",
   "ledger_version": "0.208",
   "lane": "1",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

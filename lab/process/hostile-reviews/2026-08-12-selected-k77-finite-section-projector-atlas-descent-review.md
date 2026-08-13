@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-003609-gu-k77-finite-section-projector-atlas-descent
 verdict: SURVIVES_SCOPED__FINITE_K77_GRAPH_PROJECTOR_AND_ATLAS_DESCENT_EXACT__NORMALIZED_O_SPIN_LIFT_LOCAL_MOD_STABILIZER__ACTION_EPSILON_IG_FLAG_OPEN
 ---
 

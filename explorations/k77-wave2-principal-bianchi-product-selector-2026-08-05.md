@@ -4,7 +4,6 @@ date: 2026-08-05
 status: complete
 verdict: "CONDITIONAL_SELECTOR_RESOLVED_INSIDE_DISPLAYED_EIGHT_ROW_GRAMMAR__CURVATURE_COMPARISON_BUILT__FULL_CHAIN_AND_EULER_FUNCTOR_OPEN"
 grade: "EXACT finite-dimensional principal-symbol theorem plus source-graded reconstruction; not source attribution, global chain closure, full Shiab uniqueness, observed gravity, or physics"
-lane: 1
 fork: SIGNATURE_AMBIENT_7_7
 ---
 

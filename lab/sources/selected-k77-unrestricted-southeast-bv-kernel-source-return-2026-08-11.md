@@ -1,11 +1,8 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-020449-gu-k77-unrestricted-southeast-bv-kernel
 source_return: SOURCE_CONFIRMS_SOUTHEAST_ZERO_AND_ADMITS_NONZERO_RIVAL__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_K77_COEFFICIENT_SELECTION_FERMION_ONLY_BV_AND_FULL_FIELD_BV_DOMAIN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return: unrestricted K77 southeast/BV-kernel gate

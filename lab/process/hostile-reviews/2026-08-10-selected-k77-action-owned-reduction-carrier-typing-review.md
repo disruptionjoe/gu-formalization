@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-10
 status: CANDIDATE_SURVIVES_WITH_LOCAL_LINEARIZED_SCOPE__DIRECT_FERMION_DISCRIMINATION_REJECTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: action-owned reduction versus fermion carrier

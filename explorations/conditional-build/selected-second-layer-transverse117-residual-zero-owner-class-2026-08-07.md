@@ -4,9 +4,7 @@ created: 2026-08-07
 status: CONNECTION_CLASS_KILLED_AT_RESIDUAL_ZERO_FIRST_ORDER_PRINCIPAL_GRADE__NORMAL_JET_OR_NONZERO_BACKGROUND_OPEN
 source_return: SOURCE-CORRECTS__EPSILON_IS_GAUGE_ORBIT_NOT_DIFFEO_SOLDERING__SOURCE-SILENT__TRANSVERSE117_NORMAL_JET_OR_NONZERO_BACKGROUND_OWNER
 ledger: lab/process/conditional-physics-ledger-v0.52.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer transverse-117 residual-zero owner class

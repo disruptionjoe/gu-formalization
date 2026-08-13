@@ -2001,7 +2001,7 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 ### Claim-Status Consistency Rule
 
 Any promotion, downgrade, or substantial re-scoping must run
-`lab/process/runbooks/claim-status-consistency-quality-workflow.md` before commit. Downstream
+`lab/methods/claim-status-consistency.md` before commit. Downstream
 claims cannot outrank their weakest load-bearing dependency, and historical stronger
 wording must be removed or explicitly marked superseded on owner surfaces.
 
@@ -2033,7 +2033,7 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
 | positive GU constructions lane | exploration | `explorations/misc/positive-gu-constructions-lane-proposal-2026-06-22.md` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
-| persona process and dialectics | process | `lab/process/` |
+| perspective process and dialectics | process | `lab/process/` |
 | early frontier packets | archive | `lab/archive/` |
 | source and media provenance | source | `lab/sources/` |
 | literature briefs | source | `lab/literature/` |
@@ -2136,7 +2136,7 @@ An exploration can move toward canon only when it has:
 
 **Who promotes (2026-07-03).** Agents own the promotion decision and may execute it directly once all six criteria are met — canon promotion no longer pauses for Joe. Canon means public-spine framing, not a verdict; flipping a scientific verdict/status (e.g. `OPEN -> RESOLVED`) is a separate action that, as of 2026-08-03 (Joe direct chat), no longer pauses for Joe PROVIDED the flip is accompanied by a hostile adversarial review by field-relevant specialists, filed with the change. Public/external consequence and relicensing still pause for Joe.
 
-**Mandatory awareness note.** Every executed promotion MUST follow the filing scheme in the template `lab/process/templates/canon-promotion-joeops-notice.md` (durable note in this repo's `attention/`, pointer envelope in `../../../repos/private/system-runtime/mailboxes/system-attention/` from this repo root). [Path corrected 2026-08-03; the previously named `system/mailboxes/joeops/` does not exist — historical notes were filed in `system-runtime/mailboxes/joe-project-management/archive/`.] The note is for awareness, not approval — it states what was promoted, the case FOR, the steelmanned case AGAINST, how the call was made, the risks, and the supporting certificates, plus how to reverse it. Filing the note is part of the promotion, not optional.
+**Mandatory awareness note.** Every executed promotion MUST follow the filing scheme in the template `lab/process/templates/canon-promotion-joeops-notice.md` (durable note in this repo's `attention/`, pointer envelope in `../../../repos/private/private orchestration runtime/mailboxes/system-attention/` from this repo root). [Path corrected 2026-08-03; the previously named `system/mailboxes/joeops/` does not exist — historical notes were filed in `private orchestration runtime/mailboxes/joe-project-management/archive/`.] The note is for awareness, not approval — it states what was promoted, the case FOR, the steelmanned case AGAINST, how the call was made, the risks, and the supporting certificates, plus how to reverse it. Filing the note is part of the promotion, not optional.
 
 ## Current Caution
 

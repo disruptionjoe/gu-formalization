@@ -6,9 +6,7 @@ status: exploration
 posture: adversarial; Layer-0-first; construction-first; source-collision required
 title: "A native moving 252 and a source kappa term are compatible halves; their joining port and the clean half-weight remain open"
 grade: "Exact signed exterior identities, one-simple-blade deterministic native 128-spinor/full-20 matrices, a three-frame constant-conjugation fixture, and a coupled affine kappa-sector action comparator; the source-to-active real-form/Zorro port, representation-wide half-weight, actual Y14 descent, full G2/P0/Y placement, moving Shiab/fermion/bridge Euler system, VEV, mass, quotient, domain, and no-leakage remain open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 route_disposition: CONTINUE
 hostile_review_status: PASS_AFTER_REPAIRS
 depends_on:

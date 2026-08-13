@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "created": "2026-08-08",
   "status": "SIGNATURE_GENERIC_CARTAN_AND_PRIMITIVE_EPSILON_COMPOSED__K77_K95_LOCAL_HODGE_EXACT__SELECTED_ACTION_FRECHET_OPEN",
-  "run_id": "RUN-20260808-193109-gu-signature-generic-cartan-ward-compose",
+  "run_id": "historical-investigation",
   "source_return": "SOURCE-CONFIRMS",
   "layer0": {
     "ordinary_connection_lie": "L_XI_A",

@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-10
-run_id: RUN-20260810-153236-gu-p3-replacement-surplus
 verdict: SURVIVES_SCOPED__TANGENTIAL_IDENTITY_PREFERRED_ONLY_CONDITIONALLY__HN_ROUTE_NOT_GLOBALLY_KILLED
 lenses: [layer0_semantics, prior_art, analytic, symplectic]
 ---

@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-09
 verdict: CANDIDATE_SURVIVES_WITH_SCOPE_NARROWING__LOCAL_SELECTED_SOURCE_EULER_ONLY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected K77 source-tangent branch stationarity

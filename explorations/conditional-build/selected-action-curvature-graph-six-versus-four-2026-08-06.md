@@ -2,8 +2,6 @@
 artifact_type: selected_action_curvature_graph_completion
 created: 2026-08-06
 status: CONSTANT_TORSION_GRAPH_CURVATURE_EXACT__OFF_GRAPH_DBT_AND_GLOBAL_REDUCTION_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CONFIRMS_AND_SOURCE-SILENT
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:

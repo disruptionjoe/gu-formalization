@@ -7,10 +7,7 @@ grade: "REDUCTION, exact at each step. Step 1 is algebra on the filed indicial
   cites M-C1, verified the same day against the repository's own certificate. No
   index, kernel dimension or spectrum is computed here, and the artifact's value
   is the reduction, not a number."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

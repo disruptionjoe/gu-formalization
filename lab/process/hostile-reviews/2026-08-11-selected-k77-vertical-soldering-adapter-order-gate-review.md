@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-224726-gu-k77-vertical-soldering-adapter-order-gate
 verdict: SURVIVES_SCOPED__ALGEBRAIC_CHAIN_ZERO_PRINCIPAL_RESPONSE__LOWER_ORDER_HIGGS_CHAIN_SURVIVES__EXISTING_BOSONIC_FIRST_JET_FERMION_PORT_OPEN
 ---
 

@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "B5 PHASE-SUM FORCING AUDIT: the blocked packet's ten-phase residual is ONE INTEGER, not ten bits -- the eleven real parity-dimension pairs are a pure function of the SIGNED SUM of the ten special-orbit phases (even = 68 + sum, sum in {-10,...,+10} step 2), verified by exhaustive enumeration of all 1024 assignments with direct cell counting agreeing with the sum formula. FORCING SPLIT: chirality grading is NOT blind to 6 of the 10 special orbits (the E+/E- pairs in S, imGamma, kerGamma); provenance sector, slot dimensions, and cell multiplicity are blind to ALL ten. The four X-sector orbits (X1T, X23, X2T, X32) are blind to every invariant available in the certified data. Verdict SUM-REDUCTION + STRUCTURAL-FORCING."
 grade: "EXACT for the finite enumeration, the sum-reduction, and the blindness/non-blindness classification (tests/channel-swings/b5_phase_sum_forcing_audit_probe.py, all controls pass incl. one that FIRED and caught a sign-convention error before it became a claim). CONDITIONAL and NOT established: that any FORCED GU result actually assigns the six chirality-addressable signs -- the probe shows only that the invariant is capable of firing, never that a forced rule fires it. No packet field frozen, no phase/coflip/Green-form/domain selected, no operator built."
@@ -10,28 +9,26 @@ prereg: explorations/prereg-b5-phase-sum-forcing-audit-2026-07-29.md
 probe: tests/channel-swings/b5_phase_sum_forcing_audit_probe.py
 construction: "program-native throughout per GEOMETER-VS-PHYSICS-OBJECTS.md -- the observer-symbol matrix, formal Krein adjoint, and normal-chirality coflip are GU-native. No positive-Hilbert adjoint, Green form, or domain used or substituted."
 depends_on:
-  - lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md
+  - archived private execution record
   - tests/shiab_b5_observer_symbol_multiplicity_matrix.py
   - tests/shiab_b5_krein_mirror_orbit_reduction.py
   - GEOMETER-VS-PHYSICS-OBJECTS.md
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "SUM-REDUCTION + STRUCTURAL-FORCING"
 ---
 
 # B5 phase-sum forcing audit
 
-## What this run is not
+## What this investigation is not
 
-`GUH-20260729T131135Z-b5-native-packet-source-audit` asked whether the repository
+`historical-investigation` asked whether the repository
 can **freeze** the five native packet fields and returned `BLOCKED` — no
 repo-owned construction fixes any of them. **That verdict is accepted here and is
 not re-litigated.** Nothing below freezes a field, selects a phase or coflip
 type, constructs a Green form or domain, or builds an operator.
 
-This run asks the different question the block leaves open: *what shape is the
+This investigation asks the different question the block leaves open: *what shape is the
 residual, and can anything already available narrow it?* Narrowing a candidate
 set with an independently available invariant is not the act the blocked run
 refused, which was selecting phases from support multiplicities.
@@ -82,7 +79,7 @@ are exactly the **X-sector** orbits: `X1Tm/X1Tp`, `X23m/X23p`, `X2Tm/X2Tp`,
 *capable* of breaking six of the ten ties, and that **nothing available in the
 certified data can break the remaining four**. It does **not** establish that any
 FORCED GU result actually assigns those six signs — that is a separate question
-this run did not ask and cannot answer.
+this investigation did not ask and cannot answer.
 
 If such a rule exists, the residual narrows from eleven pairs to **five** (four
 free signs give sums `c-4, c-2, c, c+2, c+4`). If it does not, the eleven stand.
@@ -103,7 +100,7 @@ All controls pass. Recorded because it matters: the control **"pairs run 58..78
 in steps of two" FAILED on first execution** and caught a sign-convention error
 — the first model contributed `0/+1` per orbit where the certified structure
 contributes `-1/+1`, yielding eleven values in steps of one. The kill condition
-voided the run rather than letting a wrong dimension formula become a finding.
+voided the investigation rather than letting a wrong dimension formula become a finding.
 The corrected model derives its baseline from the ledger instead of asserting it.
 
 - `P1` certified counts reproduced: 136 cells, 68 adjoint edges, 29 four-cell and

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-040306-gu-tautological-trace-q-ownership
 verdict: SURVIVES_AFTER_MATERIAL_REPAIR__TRACE_Q_OWNS_HQ_INPUT_WITH_ZERO_DATUM__NORMAL_SYMMETRY_AND_ACTION_COMPATIBILITY_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: tautological trace-q ownership

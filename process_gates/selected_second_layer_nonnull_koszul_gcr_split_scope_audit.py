@@ -22,13 +22,13 @@ def strict(relative):
 
 registry = strict("lab/process/selected-second-layer-nonnull-koszul-gcr-split.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.48.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-second-layer-nonnull-koszul-gcr-split-2026-08-07.md").read_text(encoding="utf-8")
 review = (ROOT / "lab/process/hostile-reviews/2026-08-07-selected-second-layer-nonnull-koszul-gcr-split-review.md").read_text(encoding="utf-8")
-context = (ROOT / "lab/process/agent-context-pack.md").read_text(encoding="utf-8")
+context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text(encoding="utf-8")
 next_steps = (ROOT / "NEXT-STEPS.md").read_text(encoding="utf-8")
 status = (ROOT / "RESEARCH-STATUS.md").read_text(encoding="utf-8")
-lanes = (ROOT / "LANES.yaml").read_text(encoding="utf-8")
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text(encoding="utf-8")
 
 assert registry["status"] == "NONNULL_CANONICAL_SPLIT__LAWFUL_CONNECTION_JET_PLUS_NONZERO_TRANSVERSE_COMPLETION_BURDEN"
 assert registry["rerun"] == "61/61 PASS"

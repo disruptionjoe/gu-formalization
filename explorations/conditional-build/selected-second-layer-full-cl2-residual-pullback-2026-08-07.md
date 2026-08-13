@@ -3,9 +3,7 @@ artifact_type: conditional_build_result
 created: 2026-08-07
 status: FULL_II_PLUS_TRACE__SELECTED_CL2_COMPLETE__TOTAL_RESIDUAL_OTHER_GRADES_OPEN
 source_return: SOURCE-CONFIRMS_NORM_SQUARE__SOURCE_SILENT_ON_OWNER_MAP
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer full-Cl2 residual pullback

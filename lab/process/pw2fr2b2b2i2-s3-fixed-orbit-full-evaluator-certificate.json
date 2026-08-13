@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2I2-S3-FIXED-ORBIT-FULL-EVALUATOR",
   "status": "FULL_EVALUATOR_CERTIFIED_ON_COMPLETE_S3_FIXED_ORBIT_STRATUM__UNIVERSAL_378_OPEN",
-  "run_id": "RUN-20260805-054616-gu-formalization-pw2fr2b2b2i2-fixed-orbit-full-evaluator",
+  "run_id": "historical-investigation",
   "verdict_scope": "the two one-cell S3 orbits only, using the registered diagonal-conormal bank convention and the active mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action jet under both exact S3 generators",
   "source_disposition": {
     "REPOSITORY_DERIVES": "the active S3 fixed-orbit full-evaluator certificate",

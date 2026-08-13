@@ -1396,11 +1396,11 @@ the map: which directory/group supports which claim.
   it with `python`.
 - `channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py`
   validates the post-B2C15R3 council registry: at least ten specialist lenses,
-  exactly ten engineering personas, exactly ten dependency-ordered waves,
+  exactly ten engineering perspectives, exactly ten dependency-ordered waves,
   explicit information-gain questions and kill routes, Layer-0/lane/datum
   guards, an exact-ending ML pipeline, the PW1/PW2 frontier, and the mandatory
   divergent-pre/hostile-post specialist protocol. It includes live planted
-  mutations for false execution, missing personas/waves, forward
+  mutations for false execution, missing perspectives/waves, forward
   dependencies, absent kill tests, ML-verdict substitution, datum smuggling,
   and nonconjunctive Curt promotion. Run it with `python`.
 - `channel-swings/eric_curt_wave3d_b2c15r3_same_bundle_native_variation_observation_support_probe.py`
@@ -1700,7 +1700,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `channel-swings/` (681 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the trace-`H_q` full-connection compatibility gate, the v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
-| `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
+| `research-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
 
 The latest channel-swing additions are
 `selected_k77_branch_boundary_amplitude_classification_probe.py` and its

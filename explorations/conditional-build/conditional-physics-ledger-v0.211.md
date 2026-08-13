@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.211"
-run_id: RUN-20260812-151325-gu-i2b-nonlinear-receiver-composition
 ---
 
 # Conditional physics ledger v0.211

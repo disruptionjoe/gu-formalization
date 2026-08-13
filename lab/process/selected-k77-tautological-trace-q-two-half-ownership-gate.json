@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-040306-gu-tautological-trace-q-ownership",
+  "run_id": "historical-investigation",
   "status": "EXACT_TAUTOLOGICAL_TRACE_Q_OWNERSHIP_OF_TWO_HALF_HERMITIAN_INPUT__ACTION_COMPATIBILITY_OPEN",
   "target_claim": "NONE-NOT-A-KILL",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-12",
-  "run_id": "RUN-20260812-003609-gu-k77-finite-section-projector-atlas-descent",
+  "run_id": "historical-investigation",
   "status": "SCOPED_FINITE_K77_GRAPH_PROJECTOR_AND_ATLAS_DESCENT",
   "checks": {
     "total": 39,

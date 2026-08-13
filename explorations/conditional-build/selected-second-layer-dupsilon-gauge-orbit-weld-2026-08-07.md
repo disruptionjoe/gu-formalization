@@ -4,9 +4,7 @@ created: 2026-08-07
 status: RANK4_CONNECTION_ORBIT_WELD_FORCED__TRANSVERSE_OWNER_OPEN
 source_return: SOURCE-CONFIRMS__METRIC_PLUS_CONNECTION_ORBIT__SOURCE-SILENT__ACTION_DUPSILON_CROSS_BLOCK
 ledger: lab/process/conditional-physics-ledger-v0.43.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer D Upsilon gauge-orbit weld

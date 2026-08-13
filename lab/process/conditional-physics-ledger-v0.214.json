@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.214 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; conditional phase-even Q_B reaches rank 4/4; Pplus/Pminus and two-half scalar weights remain rank 2; moving reduction ownership or coupled contact open"
   },
-  "updated_by": "RUN-20260812-163746-gu-i2b-real-primalizer-phase-gate",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 4,

@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.203 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; direct pointwise full-U64,64 and block-U32,32 selected-Shiab cancellation are excluded, while moving derivatives and global connection/Euler completion remain open"
   },
-  "updated_by": "RUN-20260812-110014-gu-i2b-full-unitary-image-covariance",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

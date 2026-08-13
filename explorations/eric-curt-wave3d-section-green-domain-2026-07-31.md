@@ -8,9 +8,7 @@ campaign_wave: ECW3-G4-OBSERVATION
 registry: lab/process/eric-curt-wave3d-section-green-domain.json
 probe: tests/channel-swings/eric_curt_wave3d_section_green_domain_probe.py
 grade: "COMPUTED EXACT FINITE RS SECTION-SYMBOL AND RIGHT-H GREEN-TRACE PACKET; DECISIVE DOMAIN-SELECTION NON-UNIQUENESS, NOT AN ANALYTIC CLOSED-DOMAIN THEOREM. On one explicitly admitted flat Lorentz/spin section, the W131 ker-Gamma symbol restricts to Cl(3,1), has the Lorentz null characteristic cone, and emits a nondegenerate balanced (832,832) Green trace. Both opposite maximal-definite spectral sectors are right-H invariant, so the native principal/Krein/right-H algebra does not select a unique boundary domain."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promotion: none
 ---
 

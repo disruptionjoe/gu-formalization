@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-194036-gu-k77-boundary-bv-observation-cohomology
 verdict: SURVIVES_SCOPED__LOCAL_BOUNDARY_BRST_AND_COMMON_CONDITIONAL_H640_CLOSE__RESTRICTED_COHOMOLOGY_REJECTED__SOURCE_SELECTION_AND_FULL_BV_OPEN
 lenses: [layer0_semantics, prior_art, brst_bv, principal_bundle, representation_clifford, analytic, symplectic_bfv, krein_reality, exact_computation]
 ---

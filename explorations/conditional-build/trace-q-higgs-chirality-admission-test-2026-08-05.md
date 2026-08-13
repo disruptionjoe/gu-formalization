@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-05
 status: LITERAL_GAMMA_Q_CHIRALIZER_NOT_ADMITTED__Q_RECEIVER_RETAINED__TOMEGA_SIGMA_EPSILON_HOMEGA_ROUTE_CONDITIONAL
-lane: "1"
-functional_channels: [SOURCE, COMPOSE, VERIFY]
 ledger_rows: [RA-D2, RA-G2, RA-E3, RA-E5]
 source_return: SOURCE-CORRECTS
 scripts:

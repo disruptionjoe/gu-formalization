@@ -9,9 +9,7 @@ grade: "DEPENDENCY TRIAGE over canon. File set found by searching canon/, CANON.
   the two highest-risk files. Mentioning the horn is NOT the same as depending on
   it; this artifact reports exposure, not breakage, except where a file's own text
   states its dissolution condition."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

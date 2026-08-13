@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-185238-gu-relative-boundary-p3-ko-interface",
+  "run_id": "historical-investigation",
   "verdict": "BOUNDARY_WINDING_TO_P3_RELATIVE_KO_TWIST_MAP_BUILT__NORMALIZATION_AND_RELATIVE_PULLBACK_EXACT__K77_RIGHT_H_PORT_AND_RELATIVE_FREDHOLM_COUNT_READOUT_UNBUILT__STRICT_SURPLUS_REMAINS_ZERO",
   "map_domain": "pi3(SL(2,C))=Z",
   "compact_retract_target": "pi3(SU(2))=Z",

@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.146 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the current nonzero source family preserves chirality but occupies both su(2) factors, killing the current-action self-dual revival; only a new P3-to-source bundle diagonal plus restricted action can reopen it"
   },
-  "updated_by": "RUN-20260810-142640-gu-p3-selfdual-source-reduction",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

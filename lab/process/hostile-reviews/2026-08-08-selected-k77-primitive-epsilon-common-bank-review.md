@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-08
 verdict: SURVIVES_WITH_SCOPE_NARROWING__PRINCIPAL_SELECTED_SPIN_NATIVE_BANK_ONLY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected K77 primitive-epsilon common bank

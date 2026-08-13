@@ -2,7 +2,6 @@
 artifact_type: source_reinspection
 created: 2026-08-08
 status: SOURCE-CONFIRMS__METRIC_BUNDLE_DIFFEO_ORTHOGONAL_TARGET__SOURCE-SILENT__EXACT_LIFT_SPLIT_AND_FRECHET_COMPLEX
-lane: "1"
 ---
 
 # Source reinspection: K77 physical diffeomorphism split

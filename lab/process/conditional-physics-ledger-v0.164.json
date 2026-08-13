@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.164 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; local full-field ordinary gauge BV closes, while the Gr(3,15) multiplicity family proves it cannot uniquely select rank 384"
   },
-  "updated_by": "RUN-20260811-030337-gu-k77-coupled-gauge-noether-bv",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

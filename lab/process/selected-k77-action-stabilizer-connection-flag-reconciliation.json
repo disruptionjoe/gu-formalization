@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-005420-gu-k77-action-stabilizer-connection-flag-reconciliation",
+  "run_id": "historical-investigation",
   "status": "EXACT_SCOPED_K77_REDUCTIVE_CONNECTION_AND_STABILIZER_DESCENT__RESIDUAL_CARTAN_FLAG_OPEN",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
   "ledger_version": "0.189",

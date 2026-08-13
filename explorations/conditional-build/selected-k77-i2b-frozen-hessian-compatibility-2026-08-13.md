@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: CONSTANT_COMPLETION_FALSIFIED__MOVING_COVARIANT_COMPLETION_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_AND_SOURCE_SILENT
 ledger_change: none
 target_claim: NONE-NOT-A-KILL

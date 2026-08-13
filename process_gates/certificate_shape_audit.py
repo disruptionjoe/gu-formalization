@@ -38,7 +38,7 @@ from types import ModuleType
 ROOT = Path(__file__).resolve().parents[1]
 TESTS_DIR = ROOT / "tests"
 HARNESS = ROOT / "scripts" / "reproduce_all.py"
-SKIP_DIR_NAMES = {"__pycache__", ".cache", ".pytest_cache", ".git", "hourly-cycles"}
+SKIP_DIR_NAMES = {"__pycache__", ".cache", ".pytest_cache", ".git", "research-cycles"}
 
 # Named library seeds (audit A8 / register P-C3 and P-H8): known shared
 # engines that must never be counted as certificates regardless of the

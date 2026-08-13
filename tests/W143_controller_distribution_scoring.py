@@ -7,7 +7,7 @@ declaration propagation, W137 observer-slice structure, W138 kill battery). The
 corrected steelman core (Joe): science ALREADY KNOWS the rate -- W135 (16e476f)
 measured it: rho_Lambda ~ (2.24 meV)^4, bookkeeping rate q_B = 3 H0 rho_Lambda,
 per Hubble volume (3/2) Omega_L c^5/G = 1.027 Planck luminosities, dimensionless
-ladder 9 Omega_L = 6.16. This team's question per persona: IF that known measured
+ladder 9 Omega_L = 6.16. This team's question per perspective: IF that known measured
 number is DECLARED as the issuance input to the source action, what OTHER
 information backs out. This script computes everything the scoring pass uses:
 

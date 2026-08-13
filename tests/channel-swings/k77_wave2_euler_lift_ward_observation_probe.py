@@ -65,7 +65,7 @@ prior_lift = read("explorations/k77-wave2-euler-shell-two-connection-lift-2026-0
 ward = read("explorations/k77-wave2-action-current-riesz-superig-ward-rendezvous-2026-08-04.md")
 resolver_i = read("explorations/resolver-wave-i-actual-metx-zorro-theta-descent-2026-08-03.md")
 resolver_k = read("explorations/resolver-wave-k-conditional-active-shiab-b1-variation-2026-08-04.md")
-context = read("lab/process/agent-context-pack.md")
+context = read("lab/process/CURRENT-RESEARCH-CONTEXT.md")
 
 check("source", "Weinstein material supplies observerse pullback and section semantics",
       "pullback and\nsection semantics" in source_pack

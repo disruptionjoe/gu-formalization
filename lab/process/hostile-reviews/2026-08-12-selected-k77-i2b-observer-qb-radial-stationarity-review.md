@@ -2,7 +2,6 @@
 title: "Hostile review: observer-Q_B radial stationarity composition"
 status: hostile-review-complete
 created: 2026-08-12
-run_id: RUN-20260812-223314-gu-i2b-observer-qb-radial-stationarity
 verdict: SURVIVES_SCOPED_AS_CONDITIONAL_LOCAL_COMPLETION
 ---
 

@@ -1,14 +1,12 @@
 ---
-title: "Design packet: the Lane 2 native prediction packet and the typed XS–S decision"
+title: "Design packet: the prediction research native prediction packet and the typed XS–S decision"
 status: active_research
 doc_type: design_packet
 created: 2026-08-11
-run_id: RUN-20260811-234500-gu-five-frontier-design-packets
-lane: "2"
-target: "Lane 2 native prediction packet + XS–S decision typing"
+target: "prediction research native prediction packet + XS–S decision typing"
 head_commit_read_against: bdd2c934335e6e534d4e0f9e7f55d7678eb566d8
 relates_to:
-  - lab/process/agent-context-pack.md (anchor fact 1, RECORDS↔DE, lines 1643-1666)
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md (anchor fact 1, RECORDS↔DE, lines 1643-1666)
   - lab/process/anchor-council-2026-08-03/seat2-cosmology.md (§1.4 origin of the XS–S question)
   - lab/process/anchor-council-2026-08-03/seat4-envelope.md (A6/C11 gating; collision row)
   - explorations/W230-close-a4-derive-w154-2026-07-14.md (the c_kin=0 COMPLETED-POSIT)
@@ -29,10 +27,10 @@ relates_to:
   - canon/theta-field-flrw-dark-energy-eos.md (DARK-ENERGY-07)
   - canon/dark-energy-theta-divergence-free.md (θ definition; structural 120-orders claim)
   - lab/process/improvement-register-2026-08-03.md (M-H12/M-H13 + riders)
-  - "system-runtime/mailboxes/gu-formalization/20260803-taf-response-records-de-typings.md (T588 N-typing constraint; outside this repo)"
+  - "private orchestration runtime/mailboxes/gu-formalization/20260803-taf-response-records-de-typings.md (T588 N-typing constraint; outside this repo)"
   - explorations/signature-ambient-relative-sign-resolver-design-packet-2026-08-11.md (house-style sibling; interacting fork)
 binding: >-
-  Design input for a future Lane 2 wave. This packet binds no wave and makes
+  Design input for a future prediction research wave. This packet binds no wave and makes
   no disposition: it names no horn of the XS–S decision, moves no register
   row, verdict, claim status, canon entry, fork, bar, count, H59, or
   LANE-STATE entry, and touches no observational data. The executing wave
@@ -40,23 +38,21 @@ binding: >-
   contract; lens outputs below are planning evidence, never scientific
   evidence.
 hostile_review: lab/process/hostile-reviews/2026-08-11-lane2-prediction-packet-design-review.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---
 
-# Design packet: the Lane 2 native prediction packet, and the XS–S decision typed
+# Design packet: the prediction research native prediction packet, and the XS–S decision typed
 
-Lane 2's standing attention model names a bounded, genuinely GU-native
+prediction research's standing attention model names a bounded, genuinely GU-native
 prediction assembled into a prediction packet as the lane's top internal
 precedent (`AGENTS.md:183-187`), and the lane's contract is "discover,
 derive, freeze, compute, and confront native predictions and falsification
 tripwires without calibration leakage" (`AGENTS.md:170-171`). The leading
 candidate route — the dark-energy shape story — is stalled on one named
 decision: the anchor fact instructs "decide that XS–S question before
-scheduling any r(N(z)) refit" (`lab/process/agent-context-pack.md:1654`).
+scheduling any r(N(z)) refit" (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1654`).
 This packet does two things: it TYPES that decision precisely against the
 current tree (the question has moved twice since the anchor was written,
 and a wave executing the 2026-08-03 wording would attack a superseded
@@ -126,7 +122,7 @@ Failure modes this design could commit, and the mitigations applied:
 | `N` | bulk past 4-volume (W146 sense; `Λ = c/√N`) | (b) `N_conf = π√N_bulk` (W149 sense); (c) TaF's confirmed/frontier-side access-audited count | A7: the two normalizations give different laws and the choice is not free (seat2 §2.1(i)); TaF constraint: a single global scalar `N` is TaF's refuted ledger shape (T588 contract B) — `N(z)` must be typed per-observer or regional-reconciling, with FLRW-homogeneity stated as a condition (mailbox response T2) |
 | "fibre" | the 14 frame directions of the (9,5) tangent model (W230's fixture) | functions on the metric coset `GL(4,R)/O(3,1)` (rc3 spectrum; H44's mode) | different objects; every fixture number transports to the FLRW mode only through the unproven A3 identification (redo A3 fence) |
 | `M² = 8` | fibre normal-Laplacian ground eigenvalue `λ_{N,1} = (9/2)² − (7/2)² = 8`, exact ([EXACT-8]) | the OBSERVABLE oscillator mass `M² = (c_f/c_b)λ_{N,1}` — equals 8 only under `ℓ = R_s = c/H₀`, a reconstruction-grade import; `ℓ = 2R_s` gives 2, `R_s/2` gives 32, continuously (DC-H2 SCALE4) | `M²=8` is import-conditional, not native; any packet statement carrying it must carry the import |
-| "prediction packet" | the frozen PP1/PP2/PP3 shelf objects (`de-packet-lane-structure-clarification-2026-07-21.md`) | this design packet (a Lane 2 packet-assembly scaffold) | distinct; this packet does not reopen, rescore, or duplicate PP1-PP3 |
+| "prediction packet" | the frozen PP1/PP2/PP3 shelf objects (`de-packet-lane-structure-clarification-2026-07-21.md`) | this design packet (a prediction research packet-assembly scaffold) | distinct; this packet does not reopen, rescore, or duplicate PP1-PP3 |
 | "XS–S" | an effort grade (council seat idiom) | (misreadable as) a named object | effort grade; the object is the decision typed below |
 
 ### GU-COSMO-DYNAMIC-01 source split (`AGENTS.md:85-90`; run for every cosmology object touched)
@@ -141,12 +137,12 @@ Failure modes this design could commit, and the mitigations applied:
 
 ## State of the problem, compressed (every line cited)
 
-1. Lane 2 has no ordinary hourly-eligible internal computation:
+1. prediction research has no ordinary hourly-eligible internal computation:
    `DE-AMP-DIAGNOSTIC`, `PRED-FLAVOR-RANK`, `PRED-NORM-RANK` are
    `RESOLVED_NO_GO`; `P-OBS-LEG` and `DE-F1-TRIPWIRE` are passive monitors;
    `FIXED-NATIVE-QUANTITY` / `BLIND-QUANTITATIVE-CONFRONTATION` are gated
    on new native structure frozen before target-data inspection
-   (`NEXT-STEPS.md` Lane 2 disposition block, ~line 4820). The current
+   (`NEXT-STEPS.md` prediction research disposition block, ~line 4820). The current
    cadence is fully occupied by Lane-1 K77 ledger work (v0.175-0.185,
    `NEXT-STEPS.md` head). This is the packet's reason to exist.
 2. The DESI exclusion is signal-level only; its mechanism is SHAPE: at
@@ -235,7 +231,7 @@ Failure modes this design could commit, and the mitigations applied:
     admissible combination's 2σ least-negative edge of `w_a/(w₀+1)` is
     below −3.5 (canon F1 exact). Current tightest edge −2.39 (DESY5),
     live margin **+1.11**; the anchor-era "+0.032" was a DESY5-central
-    artifact and is SUPERSEDED (W226 title and §; `NEXT-STEPS.md` Lane 2
+    artifact and is SUPERSEDED (W226 title and §; `NEXT-STEPS.md` prediction research
     block). Resolving releases: DESI DR3 (~2027) / Euclid DR1 cosmology
     (~2027). The DESI clock does not tick before 2027 (seat2 §4.3).
 
@@ -262,7 +258,7 @@ r(N(z)) refit and the DE route / which artifacts bear on it):
   functional amputated — and JP5 then leaves the envelope with a shape
   constraint and no record mechanism to satisfy it"
   (`seat4-envelope.md:170`). M-H13 dies as a homonym refit; the r(N(z))
-  route closes; Lane 2's DE content reduces to the frozen character and
+  route closes; prediction research's DE content reduces to the frozen character and
   tripwire surfaces plus E1 (+19.3 as a requirement on ANY completion).
 - **H-S (strict-induced; marble/wood exact).** Asserts the connection
   carries no fundamental kinetic term at all (`Z_U`-sector contribution
@@ -350,7 +346,7 @@ anchors are secured, patterned on the sibling packet's outcome grading):
   transport is refused and only frame-level statements are emitted.
 
 **What the test moves (P-H28 compliance).** A named gate either way:
-M-H13 item (a) (register), A6 and hence C11 (seat4 envelope), the Lane 2
+M-H13 item (a) (register), A6 and hence C11 (seat4 envelope), the prediction research
 schedulability of the r(N(z)) refit, and — on H-S — a canon-banner
 obligation on the θ-sector files. No suffix-descent: one wave, graded
 outcomes, no follow-on run without a new named gate.
@@ -503,7 +499,7 @@ derived except the epoch (E4's irreducible freedom), parameters compress
 to {κ₀, epoch} = 2, giving surplus ≈ +3 nominal. That ceiling is the
 honest best case, and reaching it requires deriving the fluctuation
 realization — an object W158 RISEc typed as free. The packet therefore
-does NOT stake Lane 2's precedent on P-RN.
+does NOT stake prediction research's precedent on P-RN.
 
 **P-F1:** constraints 1 (the ceiling), parameters 0 (all inputs frozen) =
 **+1**. Already banked; this is the lane's currently strongest surplus.
@@ -537,7 +533,7 @@ procedure, not a posit).
    only through STEP-FIREWALL).** The r(N(z)) refit per seat2 §2.1
    (i)-(iv) with the surplus ceiling of lens 6 stated in the
    preregistration and the three-way failure split reported per seat2
-   §4.1. Not schedulable on H-K, H-S, or H-∅ — on those horns Lane 2's
+   §4.1. Not schedulable on H-K, H-S, or H-∅ — on those horns prediction research's
    packet content is the fork-robust monitor set (P-F1, P-CHAR with its
    named fork) plus the typed closure statement, which the wave files as
    the lane's honest deliverable.
@@ -546,8 +542,8 @@ procedure, not a posit).
 
 | STEP-XS result | horn | what moves (wave-routed) | grade |
 |---|---|---|---|
-| D1 CONFIRMS a fundamental gradient display with fixed coefficient; D2 kernel outside escape variety, `c_b > 0` | H-K | A6 fails; C11 detaches; M-H13 closed as homonym; r(N(z)) route closed; seat4 collision row executes; Lane 2 packet = monitors + E1-as-requirement | formula grade if the display is verbatim; presumption grade otherwise |
-| D1 CONFIRMS strict-induced (marble/wood as the displayed theory; `Z_U → 0` intended) | H-S | θ=J stands as the axiom's shadow; H44 oscillator retypes non-native; canon banners owed on the θ-sector files (two-phase rule applies); M-H13's refit object does not exist; Lane 2 packet = character + tripwire | formula grade on the source statement; the banner scope is its own hostile-reviewed edit |
+| D1 CONFIRMS a fundamental gradient display with fixed coefficient; D2 kernel outside escape variety, `c_b > 0` | H-K | A6 fails; C11 detaches; M-H13 closed as homonym; r(N(z)) route closed; seat4 collision row executes; prediction research packet = monitors + E1-as-requirement | formula grade if the display is verbatim; presumption grade otherwise |
+| D1 CONFIRMS strict-induced (marble/wood as the displayed theory; `Z_U → 0` intended) | H-S | θ=J stands as the axiom's shadow; H44 oscillator retypes non-native; canon banners owed on the θ-sector files (two-phase rule applies); M-H13's refit object does not exist; prediction research packet = character + tripwire | formula grade on the source statement; the banner scope is its own hostile-reviewed edit |
 | D2 shows the written `*_G` forces the kernel into the escape variety (equivariance imposed) | H-E | W230's A4 verdict re-types sufficiency-only (verdict-flip contract applies: field-specialist hostile review required); Gram-disconnect repair; refit schedulable conditional on `ℓ` + TaF typing; STEP-REFIT unlocks | certificate grade (exact algebra) on the variety membership; the re-typing is the wave's |
 | D1 SOURCE-SILENT and D2 shows `ℓ` enters only as the free chart scale | H-∅ | the decision re-types EXTERNAL-DATUM-GATED; M²=8 typed import-permanent; M-H13 stays blocked with the blocker re-typed; the recurring "decide XS–S first" instruction is discharged by closure | presumption grade; the closure statement is itself the deliverable |
 | indefinite-kernel gate cannot be discharged | H-INAPPLICABLE | the necessity certificate's scope is narrowed on the record; a new bounded item (extend [NEC] to Krein kernels) is named; no horn is read | certificate grade on the scope narrowing |
@@ -562,10 +558,10 @@ tension is now typed BLOCKED-ON-A4: the first unbuildable arrow of the
 W230→FLRW composition is the kinetic split of the unbuilt `Z_U`, the k=0
 escape is exactly closed, and DC-H2 proved the entire
 symmetry/adjointness condition class cannot supply the missing scale
-(`de-certification-redo...md` §3; `dc-h2...md` §7); (3) Lane 2's own
+(`de-certification-redo...md` §3; `dc-h2...md` §7); (3) prediction research's own
 disposition — "no ordinary hourly-eligible internal computation," passive
 monitors only — plus a cadence fully committed to Lane-1 K77 work
-(`NEXT-STEPS.md` Lane 2 block and head). The packet's answer to the stall
+(`NEXT-STEPS.md` prediction research block and head). The packet's answer to the stall
 is STEP-XS: bounded, data-free, and gate-moving either way.
 
 ## Prior art (in-repo enumerated; literature flagged)

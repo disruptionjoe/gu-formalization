@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-172120-gu-k77-observed-cauchy-domain-layer0
 disposition: SOURCE-SILENT
 ---
 

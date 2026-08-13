@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-08
 verdict: COMMON_EQUATION_DUAL_GREEN_SURVIVES__ACTION_NOETHER_AND_PRESYMPLECTIC_NOT_PROMOTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: common physical equation-dual and Green extension

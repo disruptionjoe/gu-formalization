@@ -48,7 +48,7 @@ claims:
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:27
     - lab/process/layer0-fork-registry.yaml:404-418
-    - lab/process/agent-context-pack.md:1548-1549
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1548-1549
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Flip if any surface treats X-spacetime as fundamental substrate; the p.55 recovery obligation
@@ -67,7 +67,7 @@ claims:
     extraction: newly-extracted
   grade: newly-extracted
   notes: 'Definition 3.1; three named cases TRIVIAL / EINSTEINIAN / AMBIENT (pp.16-17). Prior in-repo
-    locus (paraphrase grade): explorations/hourly-cycles/hourly-20260625-0301-cycle2-manuscript-qft-finite-extraction-receipt.md:117.'
+    locus (paraphrase grade): explorations/research-cycles/hourly-20260625-0301-cycle2-manuscript-qft-finite-extraction-receipt.md:117.'
   core: hard-core
   adherence:
     adherence: ADHERED
@@ -146,7 +146,7 @@ claims:
     adherence: ADHERED
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:21
-    - lab/process/agent-context-pack.md:952-954
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:952-954
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Chimeric bundle is the settled K77 object (v0.73 group owner); pre-run custody was reconstruction-grade
@@ -171,7 +171,7 @@ claims:
     adherence: ADHERED
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:21
-    - lab/process/agent-context-pack.md:1452-1454
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1452-1454
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Spinors-without-metric goal carried into the global labelled Clifford frame construction; flip
@@ -267,7 +267,7 @@ claims:
     adherence: ADHERED
     evidence:
     - lab/process/layer0-fork-registry.yaml:71-88
-    - lab/process/agent-context-pack.md:872-880
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:872-880
     - NEXT-STEPS.md:162-175
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -311,7 +311,7 @@ claims:
     extraction: newly-extracted
   grade: newly-extracted
   notes: 'Cl_{7,7} ~= R(128) at (3.18); rho_Spin: Spin(14,C) -> U(128,C) at (3.20); restated on p.42 eqs
-    (8.3)-(8.6) with the so(64,64) and u(64,64)/so(64,64) exterior-degree decompositions (explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md:104-107).
+    (8.3)-(8.6) with the so(64,64) and u(64,64)/so(64,64) exterior-degree decompositions (explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md:104-107).
     Footnote 3 (p.23) disclaims: the u(64,64) decomposition ''was taken from a decades old file and should
     be checked''.'
   core: hard-core
@@ -344,8 +344,8 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:536-537
-    - lab/process/agent-context-pack.md:693-697
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:536-537
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:693-697
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Source P_H remains full U(64,64) (v0.130) and P_H|_B topology is worked bitorsor-relatively
@@ -466,7 +466,7 @@ claims:
     adherence: ADHERED
     evidence:
     - CANON.md:106
-    - lab/process/agent-context-pack.md:996-999
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:996-999
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: 'Shiab existence RESOLVED (existence only) and the selected-Shiab solve is rebuilt on settled
@@ -515,7 +515,7 @@ claims:
   adherence:
     adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:996-999
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:996-999
     - lab/process/improvement-register-2026-08-03.md:1878-1880
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -567,7 +567,7 @@ claims:
     adherence: ADHERED
     evidence:
     - RESEARCH-STATUS.md:160-162
-    - lab/process/agent-context-pack.md:307
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:307
     - NEXT-STEPS.md:3306
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -594,7 +594,7 @@ claims:
     adherence: ADHERED
     evidence:
     - NEXT-STEPS.md:2257-2267
-    - lab/process/agent-context-pack.md:1357-1364
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1357-1364
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The 2021 I^B_1 was located by repository archaeology; its 1/2,1/3 packet verified as connection-path-average
@@ -644,7 +644,7 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1357-1364
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1357-1364
     - NEXT-STEPS.md:3306-3319
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -668,8 +668,8 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1357-1364
-    - lab/process/agent-context-pack.md:793-803
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1357-1364
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:793-803
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: I2B=||Upsilon||^2 typed distinct and source-confirmed; the equation-dual/Green machinery (v0.96
@@ -718,7 +718,7 @@ claims:
   adherence:
     adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:1019
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1019
     - CANON.md:191
     - RESEARCH-STATUS.md:232-244
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
@@ -746,7 +746,7 @@ claims:
     adherence: ADHERED
     evidence:
     - RESEARCH-STATUS.md:130-136
-    - lab/process/agent-context-pack.md:711-721
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:711-721
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The (eps, varpi, nu, zeta) content is exactly the campaign's field set (source-native four-independent-field
@@ -799,7 +799,7 @@ claims:
     adherence: PARTIAL
     evidence:
     - lab/process/layer0-fork-registry.yaml:317-328
-    - lab/process/agent-context-pack.md:26-28
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:26-28
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Generation/cousin/Z-side content labels are typed; but the CKM/Yukawa/Higgs functional-assignment
@@ -876,7 +876,7 @@ claims:
     evidence:
     - lab/process/layer0-fork-registry.yaml:210-215
     - lab/sources/signature-rationale-build-branch-source-reinspection-2026-08-08.md:22-24
-    - lab/process/agent-context-pack.md:465
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:465
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The p.51 rolled-up carrier (832/64, Spin(7,7)+/-) is the settled REAL-CLIFFORD-FORM rationale;
@@ -927,7 +927,7 @@ claims:
     evidence:
     - explorations/frontier-design-packets-index-2026-08-11.md:41-53
     - NEXT-STEPS.md:10-17
-    - lab/process/agent-context-pack.md:1639-1640
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1639-1640
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The p.52 non-chiral-split assertion is now quoted on the frontier surface with 'kills must name
@@ -951,7 +951,7 @@ claims:
   adherence:
     adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:1531-1533
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1533
     - canon/escape-corners-campaign-RESULTS.md:2
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -1007,7 +1007,7 @@ claims:
     adherence: ADHERED
     evidence:
     - explorations/frontier-design-packets-index-2026-08-11.md:48-53
-    - lab/process/agent-context-pack.md:1631-1635
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1631-1635
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The strongest-claims synopsis reading (non-chiral fundamental, emergent chirality, Witten R/R-bar
@@ -1060,7 +1060,7 @@ claims:
     adherence: ADHERED
     evidence:
     - explorations/frontier-design-packets-index-2026-08-11.md:41-45
-    - lab/process/agent-context-pack.md:1697-1707
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1697-1707
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The 12.10 2+1 replacement title is quoted and the 2+1 mechanism is panel-settled with computed
@@ -1138,7 +1138,7 @@ claims:
     adherence: ADHERED
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:30
-    - lab/process/agent-context-pack.md:1637-1638
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1637-1638
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: 'The synopsis family map (nu -> 1, gamma-trace of zeta -> 2, RS-remainder pullback -> imposter)
@@ -1164,7 +1164,7 @@ claims:
     adherence: ADHERED
     evidence:
     - lab/process/layer0-fork-registry.yaml:326-328
-    - lab/process/agent-context-pack.md:1638-1640
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1638-1640
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The p.53 table's looser imposter naming is recorded as a non-blocking residual that cannot host
@@ -1187,7 +1187,7 @@ claims:
   adherence:
     adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:1531-1533
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1533
     - canon/theta-field-flrw-dark-energy-eos.md:8-12
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -1212,8 +1212,8 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1366-1376
-    - lab/process/agent-context-pack.md:26-28
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1366-1376
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:26-28
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The mass-carrier-inside-the-gauge-potential reading is typed with the corrected construction
@@ -1240,7 +1240,7 @@ claims:
     adherence: ADHERED
     evidence:
     - canon/dark-energy-theta-divergence-free.md:21
-    - lab/process/agent-context-pack.md:1531-1533
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1533
     - canon/escape-corners-campaign-RESULTS.md:2
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -1266,7 +1266,7 @@ claims:
     adherence: ADHERED
     evidence:
     - canon/dark-energy-theta-divergence-free.md:17-21
-    - lab/process/agent-context-pack.md:1531-1539
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1539
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: CC-as-VEV is the typed program object (theta dynamic PROVED, divergence-free conditional on
@@ -1290,7 +1290,7 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1382-1394
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1382-1394
     - lab/process/improvement-register-2026-08-03.md:1896-1903
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -1316,10 +1316,10 @@ claims:
     adherence: ADHERED
     evidence:
     - canon/no-go-class-relative-map.md:387
-    - LANES.yaml:67
+    - lab/process/RESEARCH-AGENDA.json:67
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
-    note: GU-predicts is typed on canon and Lane 2 exists to freeze/confront exactly these; the conditional
+    note: GU-predicts is typed on canon and prediction research exists to freeze/confront exactly these; the conditional
       hedge ('if GU is correct') is preserved by confrontation rather than assumption.
 - id: SC-PRE-02
   polarity: ASSERTS
@@ -1366,7 +1366,7 @@ claims:
     adherence: PARTIAL
     evidence:
     - canon/escape-corners-campaign-RESULTS.md:2
-    - LANE-STATE.yaml:106-108
+    - CURRENT-STATE.yaml:106-108
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Scale-disclaimer behavior is respected (no invariant mass channel typed; no absolute amplitude
@@ -1493,7 +1493,7 @@ claims:
   adherence:
     adherence: UNTYPED
     evidence:
-    - lab/process/agent-context-pack.md:529-531
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:529-531
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Footnote 13 (mass vs flavor eigenstates spoken of loosely) appears nowhere; nothing currently
@@ -1596,7 +1596,7 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1631-1635
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1631-1635
     - canon/escape-corners-campaign-RESULTS.md:2
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -1624,7 +1624,7 @@ claims:
   adherence:
     adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:1531-1533
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1533
     - canon/escape-corners-campaign-RESULTS.md:2
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -1651,7 +1651,7 @@ claims:
     adherence: PARTIAL
     evidence:
     - explorations/frontier-design-packets-index-2026-08-11.md:48-53
-    - lab/process/agent-context-pack.md:1639-1640
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1639-1640
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The dark-mirror-sector posture is named as the source-native reading; the reconnection-when-gravity-strengthens
@@ -1678,7 +1678,7 @@ claims:
     adherence: ADHERED
     evidence:
     - explorations/frontier-design-packets-index-2026-08-11.md:48-53
-    - lab/process/agent-context-pack.md:1624-1633
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1624-1633
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The 2020 hedged emergent-chirality form is the one the settled label-level reading actually
@@ -1785,7 +1785,7 @@ claims:
     - explorations/portfolio-correction-wave-2026-08-12.md
     pinned_at: DIRECT-20260812-PORTFOLIO-CORRECTION-WAVE
     date: 2026-08-12
-    note: 'Lane 2 now owns a typed seed. The source supplies no energy scale,
+    note: 'prediction research now owns a typed seed. The source supplies no energy scale,
       invariant discriminator, observable, or predeclared threshold, and the
       physical-carrier bridge remains open; it is not a prediction packet.'
 - id: SC-GEN-54
@@ -1941,7 +1941,7 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1697-1707
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1697-1707
     - lab/process/hinge-panel-synthesis-2026-08-03.md:76-80
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -2073,7 +2073,7 @@ claims:
     adherence: ADHERED
     evidence:
     - lab/process/layer0-fork-registry.yaml:105-116
-    - lab/process/agent-context-pack.md:836
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:836
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Curt's blocks-sum-(5,9)-vs-asserted-(7,7) slip is caught and carried on the registry with the
@@ -2149,8 +2149,8 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:12-22
-    - lab/process/agent-context-pack.md:536-537
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:12-22
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:536-537
     - GEOMETER-VS-PHYSICS-OBJECTS.md:21
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -2200,7 +2200,7 @@ claims:
   adherence:
     adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:1295-1304
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1295-1304
     - NEXT-STEPS.md:2464
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -2231,7 +2231,7 @@ claims:
     evidence:
     - NEXT-STEPS.md:6156
     - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:270-272
-    - lab/process/agent-context-pack.md:939-957
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:939-957
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: 'Double-coset construction typed (with the McDowell-Mansouri correction claim) and refined:
@@ -2261,7 +2261,7 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1366-1376
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1366-1376
     - DERIVATION-PROGRESS.md:322
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -2342,7 +2342,7 @@ claims:
     adherence: ADHERED
     evidence:
     - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:123
-    - lab/process/agent-context-pack.md:26-28
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:26-28
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: 'No-fundamental-Higgs is typed (Claim 6) and respected: no surface introduces a fundamental
@@ -2466,7 +2466,7 @@ claims:
     adherence: PARTIAL
     evidence:
     - explorations/frontier-design-packets-index-2026-08-11.md:48-53
-    - lab/process/agent-context-pack.md:529-531
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:529-531
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Dark-mirror posture typed; the dims-won't-change / comes-out-of-non-luminous-phase prediction
@@ -2489,11 +2489,11 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - LANES.yaml:67
+    - lab/process/RESEARCH-AGENDA.json:67
     - canon/no-go-class-relative-map.md:387
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
-    note: The predictions-exist defense is operationalized by Lane 2's extract/freeze/confront charter;
+    note: The predictions-exist defense is operationalized by prediction research's extract/freeze/confront charter;
       the 'almost everything said about GU is untrue' rhetoric is (correctly) untyped.
 - id: SC-PRE-56
   polarity: UNCERTAIN
@@ -2542,7 +2542,7 @@ claims:
     evidence:
     - canon/dark-energy-theta-divergence-free.md:17-21
     - canon/theta-field-flrw-dark-energy-eos.md:8-12
-    - LANE-STATE.yaml:85-108
+    - CURRENT-STATE.yaml:85-108
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: All three demanded properties are typed (variable/VEV-capable PROVED dynamic; divergence identity
@@ -2601,7 +2601,7 @@ claims:
     adherence: ADHERED
     evidence:
     - canon/dark-energy-theta-divergence-free.md:21
-    - lab/process/agent-context-pack.md:1382-1394
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1382-1394
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Character-level formula match, degree-1 homonym fenced, locus pinned to the seminar [00:23:02]
@@ -2653,7 +2653,7 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1531-1539
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1539
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Two-puzzles-to-one is typed and tested (two-values-to-one count passes; screening fails; spatial
@@ -2679,7 +2679,7 @@ claims:
     adherence: ADHERED
     evidence:
     - CANON.md:235
-    - lab/process/agent-context-pack.md:1765-1777
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1765-1777
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: The minimal-input identity claim is MEASURED rather than assumed (TILT+RESIDUAL; DECLARATION
@@ -2734,7 +2734,7 @@ claims:
     adherence: ADHERED
     evidence:
     - RESEARCH-STATUS.md:215
-    - lab/process/agent-context-pack.md:1464-1467
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1464-1467
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Ultrahyperbolic technical debt is SOURCE-CONFIRMED by name (with the Craig-Weinstein remedy
@@ -2789,7 +2789,7 @@ claims:
   adherence:
     adherence: PARTIAL
     evidence:
-    - lab/process/agent-context-pack.md:966-970
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:966-970
     - lab/process/layer0-fork-registry.yaml:404-418
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
@@ -2817,7 +2817,7 @@ claims:
     adherence: ADHERED
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:22
-    - lab/process/agent-context-pack.md:1525-1529
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1525-1529
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: Spacetime-SUSY rejection is a settled table row (super-IG is the guardian, {Q,Q}~Omega^1(ad))
@@ -2841,7 +2841,7 @@ claims:
   adherence:
     adherence: ADHERED
     evidence:
-    - lab/process/agent-context-pack.md:1527-1529
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1527-1529
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: 'Exact: ''Weinstein expressly declines an odd action as a prerequisite for GU. Do not block
@@ -2873,7 +2873,7 @@ claims:
     evidence:
     - NEXT-STEPS.md:6156
     - canon/no-go-class-relative-map.md:387
-    - lab/process/agent-context-pack.md:1366-1376
+    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1366-1376
     pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
     date: 2026-08-11
     note: 'All four you-know-you''re-in-GU criteria are carried: IGG replacement, 14-from-4 substrate,

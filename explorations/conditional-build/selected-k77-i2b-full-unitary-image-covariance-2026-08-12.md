@@ -1,16 +1,11 @@
 ---
 artifact_type: construction_result
 created: 2026-08-12
-run_id: RUN-20260812-110014-gu-i2b-full-unitary-image-covariance
-lane: 1
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_claims: [SC-GRP-01, SC-GRP-02, SC-ACT-02, SC-ACT-04]
 source_return: SOURCE_CONFIRMS_FULL_U64_64_PARENT_TWO_WEYL_HALVES_AND_RESIDUAL_SQUARE__REPO_CORRECTS_V0202_POINTWISE_COMPLEMENT_FENCE__SOURCE_SILENT_ON_SELECTED_SHIAB_GLOBAL_CONNECTION_AND_MOVING_HQ_DERIVATIVES
 verdict: FULL_POINTWISE_U64_64_AND_BLOCK_U32_32_DIRECT_SHIAB_CANCELLATION_KILLED__MOVING_DERIVATIVE_GLOBAL_AND_ALTERNATE_SELECTOR_ROUTES_OPEN
 target_claim: NONE-NOT-A-KILL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: 16384
 free_object_delta: 0

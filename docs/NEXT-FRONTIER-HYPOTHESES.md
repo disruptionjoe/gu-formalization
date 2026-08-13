@@ -1,7 +1,7 @@
 # Next-frontier hypotheses (keeping this repo alive)
 
 Status: live research directions, 2026-06-28. These supersede "draft the paper and close the repo" as the
-near-term frontier. The persona sprint (`explorations/persona-and-dialectic/higher-order-story-persona-sprint-2026-06-28.md`)
+near-term frontier. The perspective sprint (`explorations/perspective-and-dialectic/higher-order-story-perspective-sprint-2026-06-28.md`)
 established that the highest-leverage continuation is **repo-resident**: one unbuilt object gates dark
 energy, the middle map, and the matter count at once, and the transcript names its mathematical template.
 
@@ -192,6 +192,6 @@ falsifiable hypothesis, not a result.
 4. **H2** re-specification + canon hygiene (low effort, high honesty value).
 
 Pointers: the campaign verdict is `canon/final-verdict-generation-count-and-the-open-bridge.md`; the sprint
-synthesis is `explorations/persona-and-dialectic/higher-order-story-persona-sprint-2026-06-28.md`; the public-review/publishing
-decisions live in CapacityOS `WRK-542`; the spinout (separate-repo) directions live in CapacityOS
+synthesis is `explorations/perspective-and-dialectic/higher-order-story-perspective-sprint-2026-06-28.md`; the public-review/publishing
+decisions live in private orchestration overlay `WRK-542`; the spinout (separate-repo) directions live in private orchestration overlay
 `WORK-000-reputation-gu-spinout-research-directions`.

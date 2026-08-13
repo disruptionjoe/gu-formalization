@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W176 / TEAM BUILD-REDUCE; five personas inline, one worker, no sub-agents; one deterministic test 18/18 exit 0, positive controls first; the effective X4 operator BUILT by section pullback and the dimensional-reduction question answered per decisive content)
+status: exploration (W176 / TEAM BUILD-REDUCE; five perspectives inline, one worker, no independent reviewers; one deterministic test 18/18 exit 0, positive controls first; the effective X4 operator BUILT by section pullback and the dimensional-reduction question answered per decisive content)
 created: 2026-07-14
 wave: W176
 label: W176
@@ -56,7 +56,7 @@ bar (b). The generation-count and Q's character live on the full 14-dim cotangen
 structure (the escape symbol's 10 fiber directions; the finality frontier's 4 fiber-negative
 directions), and **reduction is INSUFFICIENT** for them.
 
-Five personas ran inline, one worker, no sub-agents. Deterministic test
+Five perspectives ran inline, one worker, no independent reviewers. Deterministic test
 `tests/W176_build_reduction_x4_effective.py`, **18/18, exit 0**, positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -70,7 +70,7 @@ Five personas ran inline, one worker, no sub-agents. Deterministic test
 | The shadow | branch A (the `|II|^2` shadow IS GU's effective action) / branch B (shadow separate; linear law `c_R=0`) | carried, not resolved (W161/W168) |
 | Finality activation | whether the indefinite Krein form is the operative physical inner product | TaF-owned; flagged, not decided here |
 
-## 2. Persona 1 -- KK / dimensional-reduction specialist: the section pullback and the effective operator
+## 2. Perspective 1 -- KK / dimensional-reduction specialist: the section pullback and the effective operator
 
 A section `sigma: X4 -> Y14` is the graph of a metric `g(x)`. The pullback `sigma^* D` decomposes
 along the horizontal/vertical split of `T Y14`. The horizontal directions reproduce the base `(3,1)`
@@ -90,7 +90,7 @@ Lorentzian locus). This is the difference between "reduce and keep only the hori
 WOULD lose `(6,4)`) and "reduce = linearize on the fiber over the section" (which keeps it). The
 graviton/scalaron content forces the latter.
 
-## 3. Persona 2 -- effective-field-theorist: the induced Krein QFT and the C-operator bit
+## 3. Perspective 2 -- effective-field-theorist: the induced Krein QFT and the C-operator bit
 
 The effective 4-dim theory is a Krein QFT: the spin-2 graviton (Krein-positive) and the conformal
 scalaron (Krein-negative), graded by the pointwise `(6,4)` field-space metric. W168's translation
@@ -113,7 +113,7 @@ effective-4-dim loop computation, not a fiber datum -- so it too is inside the e
 C-operator question is a **4-DIM EFFECTIVE-theory question**, and the terminal-wave perturbative
 result closes it 4-dim-effectively.
 
-## 4. Persona 3 -- GU-structure specialist: what the 14-dim fiber carries that X4 does not
+## 4. Perspective 3 -- GU-structure specialist: what the 14-dim fiber carries that X4 does not
 
 Two of the three decisive contents do NOT reduce, and the reason is structural: they are not
 vertical Hessians, they are invariants of the full cotangent / Clifford bundle.
@@ -141,7 +141,7 @@ poles continuously without changing the OPERATIVE bit), and it is **load-bearing
 count / Q sector (the C2 escape symbol lives on the full cotangent bundle the 2-form connects). This
 is why the same reduction SUFFICES for one content and LOSES the other two.
 
-## 5. Persona 4 -- symbolic engineer: the test (18/18, exit 0)
+## 5. Perspective 4 -- symbolic engineer: the test (18/18, exit 0)
 
 `tests/W176_build_reduction_x4_effective.py`, deterministic (numpy + sympy, no RNG), positive
 controls first. Structure:
@@ -165,7 +165,7 @@ controls first. Structure:
 Positive controls reproduce the two mandated anchors -- W130's `a1=1/3` (PC1) and W169's
 generic-operative result at the induced/mass-split point (B2, secular = 0) -- before any new claim.
 
-## 6. Persona 5 -- adversarial skeptic: steelman REDUCTION-INSUFFICIENT for bar (b)
+## 6. Perspective 5 -- adversarial skeptic: steelman REDUCTION-INSUFFICIENT for bar (b)
 
 The North Star is high-exploit; the skeptic must attack the SUFFICES side (do not let the team
 default to the clean answer that closes bar (b) cheaply).
@@ -239,8 +239,8 @@ cotangent bundle carrying `C2` and the finality-frontier fiber-negative directio
   sees the fermions too", forbidden by the 4/14 escape-symbol capture).
 
 *Filed 2026-07-14 by Team BUILD-REDUCE (W176). Coherence-first BUILD sprint; exploration grade;
-RUTHLESS self-verification. Five personas inline in one worker (KK/dimensional-reduction specialist,
+RUTHLESS self-verification. Five perspectives inline in one worker (KK/dimensional-reduction specialist,
 effective-field-theorist, GU-structure specialist, symbolic engineer, adversarial skeptic); no
-sub-agents. Reproducible: `python -u tests/W176_build_reduction_x4_effective.py` (18/18, exit 0;
+independent reviewers. Reproducible: `python -u tests/W176_build_reduction_x4_effective.py` (18/18, exit 0;
 positive controls first). No canon movement; the debit count unmoved; the swing is a PARTIAL that
 names, per decisive content, which side of the 4-dim/14-dim line it sits on.*

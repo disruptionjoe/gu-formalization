@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-11
 ledger_version: "0.184"
-run_id: RUN-20260811-215742-gu-k77-h640-ambient-observed-riccati-boundary
 ---
 
 # Conditional physics ledger v0.184

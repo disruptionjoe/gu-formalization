@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-09
 status: SOURCE_EULER_TWO_TO_ONE_FAMILY_EXACT__V0108_UNIQUENESS_RETRACTED__LOCAL_ONE_JET_REALISABLE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CORRECTS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR5, LT-GR6]
 scripts:

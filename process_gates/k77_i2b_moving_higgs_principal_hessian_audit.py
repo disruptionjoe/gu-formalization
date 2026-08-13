@@ -27,7 +27,7 @@ report = (ROOT / "explorations/conditional-build/selected-k77-i2b-moving-higgs-p
 review = (ROOT / "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-moving-higgs-principal-hessian-review.md").read_text(encoding="utf-8")
 source = (ROOT / "lab/sources/selected-k77-i2b-moving-higgs-principal-hessian-source-return-2026-08-12.md").read_text(encoding="utf-8")
 
-assert ledger["updated_by"] == "RUN-20260812-155230-gu-i2b-moving-higgs-principal-hessian"
+assert ledger["updated_by"] == "historical-investigation"
 assert ledger["frontier_delta"] == {
     "headline_delta": "NONE", "conditions_closed": 3,
     "conditions_opened": 1, "remaining_named_conditions": 2,

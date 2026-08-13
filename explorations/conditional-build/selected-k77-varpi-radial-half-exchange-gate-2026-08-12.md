@@ -1,13 +1,10 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-060541-gu-varpi-radial-half-exchange
 status: TRACE_RADIAL_VARPI_COMPONENT_CONSTRUCTED_IN_FULL_U64_64_HALF_EXCHANGE_COMPLEMENT__MOVING_SOLDERED_DOUBLET_EXACT__PURE_RADIAL_POTENTIAL_ZERO
 target_claim: NONE-NOT-A-KILL
 ledger: lab/process/conditional-physics-ledger-v0.197.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 varpi radial half-exchange gate

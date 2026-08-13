@@ -3,9 +3,7 @@ artifact_type: primary_source_return
 created: 2026-08-10
 subject: SELECTED-K77-P3-NORMAL-TANGENTIAL-SUPPORT
 source_return: SOURCE_CONFIRMS_HORIZONTAL_TANGENT_VERSUS_NORMAL_BUNDLE_SEPARATION__SOURCE_SILENT_P3_COLLAPSE_DIAGONAL_TANGENTIAL_SUPPORT_REDESIGN_AND_RESTRICTED_ACTION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return: P3 normal support versus tangential chiral connection

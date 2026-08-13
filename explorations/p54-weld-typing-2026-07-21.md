@@ -3,7 +3,7 @@ title: "P-54-WELD: native distortion versus the conventional 54"
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-run_ref: RUN-20260721-013541-repository-work-cycle-cai-hourly
+run_ref: historical-investigation
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 outcome: P-54-WELD-COMPOSITE-ONLY
 ---

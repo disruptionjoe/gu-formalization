@@ -719,7 +719,7 @@ def source_checks() -> None:
     ).read_text()
     critical = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle2-manuscript-critical-display-equation-index.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle2-manuscript-critical-display-equation-index.md"
     ).read_text()
     rb3 = (ROOT / "explorations/rb3-moving-soldering-spinzero-placement-2026-07-30.md").read_text()
     source_receipt(

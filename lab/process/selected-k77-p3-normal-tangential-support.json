@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-151225-gu-p3-normal-tangential-support",
+  "run_id": "historical-investigation",
   "verdict": "CURRENT_P3_NORMAL_SUPPORT_CANNOT_DIAGONALIZE_TANGENTIAL_SU2PLUS__ABSTRACT_S4_CLASS_MATCH_RESCOPED__TANGENTIAL_SUPPORT_OR_NEW_SOLDERING_REQUIRED",
   "actual_base_maps": {
     "rank_d_pi_on_normal_cycle": 0,

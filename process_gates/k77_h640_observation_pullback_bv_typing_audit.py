@@ -38,7 +38,7 @@ def check(kind: str, label: str, value) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.183.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.182.json")
 result = strict("lab/process/selected-k77-h640-observation-pullback-bv-typing.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.183"
@@ -125,7 +125,7 @@ check("routing", "successor is complete graph/Riccati before BV/KT",
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.183", "sixteen-cell", "rank 1,920"],
     "RESEARCH-STATUS.md": ["ledger v0.183", "rank-128 action-derived graph", "rank 2,560"],
-    "lab/process/agent-context-pack.md": ["Current v0.183", "is not", "P1/P2/P3"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.183", "is not", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md": ["SURVIVES_SCOPED", "symplectic/BV-BFV", "intersection rank 512"],
     "lab/sources/selected-k77-h640-observation-pullback-bv-typing-source-return-2026-08-11.md": ["SOURCE-SILENT", "repository construction"],
 }.items():

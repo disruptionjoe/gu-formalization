@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-190400-gu-source-natural-second-action-owner
 status: SOURCE_OWNS_PRINTED_ENDPOINT_I2B__REPO_DERIVES_FIXED_NATURAL_GRADE1_QB_LINE
 ---
 

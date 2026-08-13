@@ -4,16 +4,13 @@ status: active_research
 doc_type: exploration
 created: 2026-07-20
 owner_item: CONSTRUCTION-SPACE-EXPLORATION
-lane_id: "1"
 axiom: lab/process/boundary-adapter-standing-axiom.md
 extends:
   - explorations/blockbuster-p5-instance-dossier-2026-07-19.md
   - explorations/n2-end-family-2026-07-20.md
 runnable:
   - tests/channel-swings/m2_cut_scale_dial_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 

@@ -53,7 +53,7 @@ provides.
 
 ---
 
-## Persona team (inline, sequential, one context)
+## Perspective team (inline, sequential, one context)
 
 ### (1) Category-theory / logic specialist -- the Lawvere frame and the skeleton
 

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W162; TEAM LENS-FRAME; five personas inline, one worker, no sub-agents; deterministic test with W126/W130/W157/W159 positive controls)
+status: exploration (W162; TEAM LENS-FRAME; five perspectives inline, one worker, no independent reviewers; deterministic test with W126/W130/W157/W159 positive controls)
 created: 2026-07-14
 wave: W162
 label: W162
@@ -59,7 +59,7 @@ Four sub-questions, each a place a "misinterpretation" could hide:
    survives every audit, report FRAME-ROBUSTLY-REAL at full strength (a clean confirmation is also
    a completion).
 
-Five personas inline, one worker, no sub-agents. Deterministic test
+Five perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W162_lens_convention_frame_audit.py`, 37/37 exit 0, W126 + W130 + W157 + W159 positive
 controls first.
 
@@ -72,7 +72,7 @@ controls first.
 | Physical inner product | the Krein C-operator / pseudo-Hermitian metric `<.,.>_C = <., C .>` | The candidate frame that could reinterpret the mass sign. |
 | Which `m^2` | the covariant pole `m_0^2 = 1/(6 c_R) = -3/8`, and the W130 native operator pole `m_0^2 = -1/4` | Both negative; the audit is about the SIGN, which both share. |
 
-## 2. Persona 1 -- BRST/constraint specialist: is the scalaron constrained away? (Q1)
+## 2. Perspective 1 -- BRST/constraint specialist: is the scalaron constrained away? (Q1)
 
 The bare Stelle count (W78) gives `2 + 5 + 1 = 8` propagating DOF, the `+1` being the scalaron,
 present iff the `R^2` coefficient is nonzero. The audit question: GU imposes three constraints that
@@ -87,7 +87,7 @@ The answer is no, and it is a **sector** fact, grounded in W131's exact results:
   `Pi (gamma.nabla) Pi = (gamma.nabla)` restricted to `ker Gamma` and the projected operator
   **acquires no curvature or metric-sector terms from the projection**. `Pi` constrains the record
   field `Psi`; it does not touch the base metric's conformal mode.
-- **Soldering.** W131's Persona 2: `Gamma` is parallel for *every* metric-compatible connection;
+- **Soldering.** W131's Perspective 2: `Gamma` is parallel for *every* metric-compatible connection;
   the soldering only **selects which** metric connection (its P2). Selecting a connection adds no
   new second-class constraint on the metric-conformal momentum.
 - **Krein `K`.** `K = eta_V (x) beta_S` is covariantly constant (`nabla K = 0`, W131 A4). It is a
@@ -111,7 +111,7 @@ and the standard Dirac count, not a from-scratch BFV/Dirac reduction of the full
 `|II|^2` + record Hamiltonian. That reduction was not attempted (PARTIAL boundary). It would be the
 settling computation only if one doubted the sector-disjointness, which W131 makes hard to doubt.
 
-## 3. Persona 2 -- Krein / PT-QFT specialist: does the physical inner product flip the sign? (Q2)
+## 3. Perspective 2 -- Krein / PT-QFT specialist: does the physical inner product flip the sign? (Q2)
 
 This is the subtlest escape, and the one the brief flags as the live re-audit: W78/W122 established
 positive **norm**, but norm and mass-**sign** are different readings. Could the naive inner product
@@ -149,10 +149,10 @@ similarity-invariant), and the physical inner product is not even available in t
 Lorentzian + Krein reading the brief asked for: the tachyon is a genuine PT-broken spectral
 instability, not a naive-inner-product misreading.
 
-## 4. Persona 3 -- conventions/normalization auditor: is the SIGN convention-robust? (Q3, Q4)
+## 4. Perspective 3 -- conventions/normalization auditor: is the SIGN convention-robust? (Q3, Q4)
 
 W157 taught the discipline: distinguish what is convention (the magnitude) from what is invariant
-(the sign). This persona re-runs that discipline for the sign specifically and for the
+(the sign). This perspective re-runs that discipline for the sign specifically and for the
 Euclidean/Lorentzian reading.
 
 **Euclidean vs Lorentzian (Q3).** The scalaron pole sits in the covariant propagator denominator
@@ -181,7 +181,7 @@ leave `m_0^2 < 0` intact; only the magnitude was ever convention-dependent. The 
 misinterpretation the geometry offered -- the `a2 = -a1^2` magnitude -- was already caught by W157.
 There is no second one on the sign side.
 
-## 5. Persona 4 -- symbolic engineer: what the test pins
+## 5. Perspective 4 -- symbolic engineer: what the test pins
 
 `tests/W162_lens_convention_frame_audit.py`, 37 checks, exit 0, exact sympy, positive controls
 first.
@@ -201,7 +201,7 @@ first.
 - **Q4a-Q4e** sign robustness across basis, normalization, signature, and the shape-family det.
 - **SYN1-SYN3 / HG1-HG5** the synthesis and honesty guards.
 
-## 6. Persona 5 -- adversarial skeptic: steelman TACHYON-DISSOLVES, and where it fails
+## 6. Perspective 5 -- adversarial skeptic: steelman TACHYON-DISSOLVES, and where it fails
 
 The brief's charge is explicit: do NOT manufacture a frame where the tachyon vanishes without a
 principled GU reason. So steelman the dissolution honestly and show it fails on the geometry, not
@@ -295,7 +295,7 @@ are reading it in the wrong basis.
 
 *Filed 2026-07-14 by Team LENS-FRAME (W162). Coherence-first; the convention/frame/interpretation
 audit of the tachyon's reality, after W157 caught the magnitude keystone as a basis artifact. Five
-personas inline in one worker (BRST/constraint specialist, Krein/PT-QFT specialist,
-conventions/normalization auditor, symbolic engineer, adversarial skeptic); no sub-agents.
+perspectives inline in one worker (BRST/constraint specialist, Krein/PT-QFT specialist,
+conventions/normalization auditor, symbolic engineer, adversarial skeptic); no independent reviewers.
 Reproducible: `python -u tests/W162_lens_convention_frame_audit.py` (37/37, exit 0; W126 + W130 +
 W157 + W159 positive controls first). Exploration grade; conditional register; no canon movement.*

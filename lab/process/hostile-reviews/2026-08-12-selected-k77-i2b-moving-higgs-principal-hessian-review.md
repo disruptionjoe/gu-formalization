@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-155230-gu-i2b-moving-higgs-principal-hessian
 verdict: RESULT_SURVIVES__V0212_INTERPRETATION_CORRECTED__SCOPED_TO_FIXED_PAIRING_FIXED_GEOMETRY_PRINCIPAL_HESSIAN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: moving-Higgs principal Hessian
@@ -44,7 +41,7 @@ it as the bosonic repair would be a Layer-0 error.
 
 The source `C^(32,32)+C^(32,32)` carrier split, its derived
 `U(32,32)xU(32,32)` subgroup, the full `U(64,64)` parent and independent
-connections remain distinct.  This run does not use one as a synonym for
+connections remain distinct.  This investigation does not use one as a synonym for
 another.
 
 ## Charge 3 — if this stands, what else must change?

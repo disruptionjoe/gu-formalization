@@ -22,7 +22,7 @@ ledger = strict(ROOT / "lab/process/conditional-physics-ledger-v0.89.json")
 registry = strict(ROOT / "lab/process/signature-rationale-build-branch-retype.json")
 report = (ROOT / "explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-08-signature-rationale-build-branch-retype-review.md").read_text()
-contract = (ROOT / "lab/process/functional-channel-operating-contract-v1.0.md").read_text()
+contract = (ROOT / "lab/methods/research-evidence-contract-v1.0.md").read_text()
 forks = (ROOT / "lab/process/layer0-fork-registry.yaml").read_text()
 
 assert ledger["progress"]["verdict_counts"] == {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5}

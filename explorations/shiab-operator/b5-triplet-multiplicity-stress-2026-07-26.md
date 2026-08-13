@@ -2,9 +2,6 @@
 title: "B5 target-blind provenance-multiplicity stress"
 status: active_research
 doc_type: exploration
-run_id: RUN-20260726-0408-gu-formalization-progress
-lane_id: "1"
-claim_status_change: none
 ---
 
 # B5 Target-Blind Provenance-Multiplicity Stress

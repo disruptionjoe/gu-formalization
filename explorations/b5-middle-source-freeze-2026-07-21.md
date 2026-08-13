@@ -3,12 +3,9 @@ title: "B.5 middle-differential source freeze: public material does not delimit 
 status: source_gap
 doc_type: exploration_disposition
 created: 2026-07-21
-run_ref: RUN-20260721-003510-repository-work-cycle-cai-hourly
-lane: "1"
+run_ref: historical-investigation
 outcome: B5-MIDDLE-SOURCE-GAP
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: github_versioning_only
 ---
 
@@ -99,7 +96,7 @@ two-connection on-shell signature is the clearest trigger.
 
 Until then, do not invent a favorable differential, merge the two spoken
 matrix fragments, import a conventional physics completion, run downstream
-`S_3` transport, or treat source absence as a no-go. Lane 1 returns to the
+`S_3` transport, or treat source absence as a no-go. truth-status research returns to the
 next independently eligible portfolio item after reranking.
 
 ## Evidence read

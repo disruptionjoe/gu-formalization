@@ -7,10 +7,7 @@ grade: "MIXED BY CONSTRUCTION and labelled per lens. Each lens self-declares ACT
   exact and certified in tests/majorana_weyl_forces_the_seven_seven_horn.py. The
   networking, distributed-systems and MMO lenses are ANALOGY and are marked as
   such; they are included for process diagnosis, not physics."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

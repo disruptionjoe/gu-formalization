@@ -43,7 +43,7 @@ W79 computes both, from GU's *actual* induced sign structure, two independent wa
 | **The scalaron mass parameter** | `f'' = 2 beta = 2 f_0^2`, with `f_0^2 < 0` the **induced** (running, `beta_{f_0^2} != 0`) R^2 coefficient of `|H|^2` on the AF trajectory (W45-47, W78). | Fixes the tachyon. `f_0^2 < 0` is the ported one-loop-beta input; it is the single physics-side number the no-go rests on (named below). |
 | **The cosmological term** | DeWitt `Lambda`, `rho_Lambda = c_L mu_DW^4`, `c_L = 3/8 > 0` (H50/H51). | Sets the de Sitter true vacuum `R_vac = 4 Lambda/gamma > 0` -- the candidate lift. |
 
-## 1. Persona 1 -- higher-derivative / f(R) specialist: the two computations
+## 1. Perspective 1 -- higher-derivative / f(R) specialist: the two computations
 
 ### 1.1 The action GU lands in
 
@@ -106,7 +106,7 @@ Two derivations:
 **Verdict Task 2: NO stable non-tachyonic vacuum.** The de Sitter vacuum is a tachyonic hilltop
 (`V_E'' < 0`, below), not a stable minimum. The obstruction does not lift.
 
-## 2. Persona 2 -- math referee: genuinely from `|II|^2`, or convention-inserted?
+## 2. Perspective 2 -- math referee: genuinely from `|II|^2`, or convention-inserted?
 
 - **Norm-sign is genuine, not convention-inserted.** The load-bearing sign is `gamma` = the
   Gauss-fixed `-R^X` Einstein coefficient, which H25 computed **positive by two independent methods**
@@ -121,7 +121,7 @@ Two derivations:
   trajectory (W45-47/W78); the 4th-order landing (H49). The no-go is only as strong as `f_0^2 < 0`
   (see 5).
 
-## 3. Persona 3 -- adversary (presses both verdicts)
+## 3. Perspective 3 -- adversary (presses both verdicts)
 
 **Against positive-norm ("the sign is convention-dependent"):** the norm is a *relative* sign --
 `sign(f')` relative to the metric-signature convention -- and the SAME convention fixes that `-R^X`
@@ -144,7 +144,7 @@ GU's *native* R^2 running differs in sign from the ported physics-default betas 
 terms beyond the 4th-order truncation give a non-constant `f''`, the background-independence breaks
 and a vacuum could lift it. This is the load-bearing assumption, not a defeated one.
 
-## 4. Persona 4 -- cross-checker: second derivation + Starobinsky/agravity literature
+## 4. Perspective 4 -- cross-checker: second derivation + Starobinsky/agravity literature
 
 - **Einstein-frame potential (independent of the `M^2 = (1/3)(f'/f''-R)` formula).**
   `phi = f' = gamma + 2 beta R`, `V_E(phi) = (beta R^2 + 2 Lambda)/(2 phi^2)`. Its unique extremum is
@@ -164,7 +164,7 @@ and a vacuum could lift it. This is the load-bearing assumption, not a defeated 
   and the tachyon is background-independent. This is exactly W78's assumed reading, now *derived*
   from the induced sign structure rather than assumed.
 
-## 5. Persona 5 -- synthesizer: combined verdict, the split resolved, the no-go located
+## 5. Perspective 5 -- synthesizer: combined verdict, the split resolved, the no-go located
 
 **TASK 1 -- NORM-SIGN: POSITIVE.** GU's `R^2` scalaron is positive-norm. The norm is set by
 `f'(0) = gamma` = the induced `-R^X` Einstein coefficient, which the Gauss identity fixes and H25

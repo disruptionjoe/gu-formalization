@@ -411,7 +411,7 @@ check("selection", "the observation map identifies H640 but does not select a ho
 check("accounting", "P1 P2 and P3 remain unchanged and unused", True)
 
 RESULT = {
-    "run_id": "RUN-20260811-205442-gu-k77-h640-observation-pullback-bv-typing",
+    "run_id": "historical-investigation",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,
     "characteristic_zero": {

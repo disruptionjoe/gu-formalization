@@ -2,7 +2,6 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "LAYER-0 PASS ON THE 2+1 COUNT CLAIM: verdict HOMONYM, false-escape direction. The 2+1 product-rule result establishes a forced MULTIPLICITY decomposition of ker Gamma (384 + 1152 + 128); SA-C3 and the T1 odd-torsion bar constrain the realized CHIRAL INDEX. Those are different objects, and Rung 1 already proved with controls that the net chiral index is grading-determined and unmoved by any coefficient -- so a three-block multiplicity decomposition does NOT yield net chiral index 3. Consequence: D3 (SA-C3 discharged) is RETRACTED; D4 (SA-C1's role) is WEAKENED; the external-datum ledger's P3-IS-NOT-EXTERNAL verdict is CORRECTED and the ledger returns to three pieces. D1 (Yukawa texture re-derivation) and D2 (SA-Y6 narrowing) SURVIVE, because both are multiplicity-side questions."
 grade: "EXACT as a semantic adjudication against the ratified protocol. The underlying 2+1 computation is unchanged and remains correct; what is corrected is an INFERENCE drawn from it. No new physics computed."
@@ -10,9 +9,7 @@ protocol: "Layer-0 semantic-alignment precondition of the ratified seven-axis pr
 corrects:
   - explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md
   - explorations/source-action-term-by-term-against-the-spec-2026-07-29.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "HOMONYM (false-escape direction)"
 ---
 

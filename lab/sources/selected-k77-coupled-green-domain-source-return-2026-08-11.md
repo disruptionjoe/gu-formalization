@@ -1,10 +1,7 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-033947-gu-k77-coupled-green-domain
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return: selected K77 coupled Green/domain gate

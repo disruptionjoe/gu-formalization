@@ -12,9 +12,7 @@ inputs:
   - explorations/trit-copies-node-b1-2026-07-20.md
   - explorations/n6-fingerprint-2026-07-20.md
   - explorations/continuum-pencil-domain-gate-2026-07-20.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
@@ -48,9 +46,9 @@ obstruction independently. It may not identify repeated uses of the word
 
 ## Corrected source-object slot
 
-B.5/I6 is frozen for this run as an **unnormalized \(K_S\)-linear
+B.5/I6 is frozen for this investigation as an **unnormalized \(K_S\)-linear
 conditional/post-selection-shaped pairing**. Its natural per-column and
-trace normalizers vanish identically. The run must not demand or claim a
+trace normalizers vanish identically. The investigation must not demand or claim a
 normalized weak value, and must not transfer Steinberg's experimental
 literature as evidence for a GU observable.
 

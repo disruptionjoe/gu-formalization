@@ -90,7 +90,7 @@ def main() -> None:
         ["awareness notice", "case AGAINST", "Reversal"],
     )
 
-    contract = load_unique(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+    contract = load_unique(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
     assert contract["standing_ledger"]["ref"].endswith("v0.131.json")
     assert "carrier_selection_directive" in contract["standing_ledger"]
 

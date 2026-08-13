@@ -3,12 +3,9 @@ title: "K77 Wave 2 advance: a conditional draft-9.16 rival and the exact source-
 status: active_research
 doc_type: exploration
 created: 2026-08-04
-lane: 1
 gate: RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD
 result: "PARTIAL__CONDITIONAL_TOTAL_GRADED_D916_RIVAL_BUILT__SOURCE_SIGN_IDENTIFICATION_FULL_CONNECTION_VARIATION_AND_FULL_H_DESCENT_OPEN"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 Wave 2: the actual-carrier draft-9.16 attempt

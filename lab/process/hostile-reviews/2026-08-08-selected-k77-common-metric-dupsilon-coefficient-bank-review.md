@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-08
 verdict: METRIC_BANK_SURVIVES__PRIOR_WARD_ORBIT_PROMOTION_FALSIFIED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected K77 common metric residual-coordinate bank

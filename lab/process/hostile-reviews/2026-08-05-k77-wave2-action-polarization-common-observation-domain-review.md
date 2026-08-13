@@ -2,7 +2,6 @@
 title: "Hostile review: K77 action polarization and common observation domain"
 date: 2026-08-05
 status: PASS_WITH_SCOPE_REPAIR
-lane: 1
 ---
 
 # Hostile review

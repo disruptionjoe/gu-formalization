@@ -31,7 +31,7 @@ Prior work this builds on:
 - `lab/active-research/signed-readout/historical-factorization-iff-theorem.md` (v3): the unified factorization iff theorem synthesizing v2 (PCP/Jordan lens) and v2.1 (signed-readout direct criterion).
 - `lab/active-research/signed-readout/jordan-calm-formalization.md` (01): Jordan-decomposed signed-CALM (JD-CALM) with explicit J1–J4 conditions; GW axial-charge admissibility check.
 - `lab/active-research/signed-readout/gw-boundary-tests.md` (03): full bridge-test table; the integer-index bridge fails under all three frameworks; the signed-real bridge survives under JD-CALM and AC-CALM.
-- `lab/active-research/signed-readout/verdict-and-walkthrough-packet.md` (05): layer-split verdict confirmed 5/5 personas.
+- `lab/active-research/signed-readout/verdict-and-walkthrough-packet.md` (05): layer-split verdict confirmed 5/5 perspectives.
 - `explorations/time-as-finality-crosswalk/rate-independence-negative-finding-2026-06-22.md`: the signed-readout monotonicity criterion is rate-independent (closed finding; do not re-run).
 - `explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md`: specification for a record-graph test; success criteria and failure conditions stated.
 

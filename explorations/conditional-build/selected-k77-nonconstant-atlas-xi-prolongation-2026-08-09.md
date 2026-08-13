@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-09
 status: NONCONSTANT_AFFINE_DESCENT_AND_XI_REDUNDANCY_EXACT__TWO_FROZEN_FRAME_OPEN_SET_BRANCHES__NATIVE_MOVING_GEOMETRY_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CONFIRMS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR5, LT-GR6]
 scripts:

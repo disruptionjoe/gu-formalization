@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_result
 created: 2026-08-11
-run_id: RUN-20260811-224726-gu-k77-vertical-soldering-adapter-order-gate
 grade: EXACT_SCOPED_DIFFERENTIAL_ORDER_GATE_OVER_TWO_FIELDS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 vertical soldering adapter order gate

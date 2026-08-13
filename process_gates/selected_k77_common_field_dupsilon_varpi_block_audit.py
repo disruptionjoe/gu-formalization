@@ -11,7 +11,7 @@ review = (ROOT / "lab/process/hostile-reviews/2026-08-08-selected-k77-common-fie
 source = (ROOT / "lab/sources/selected-k77-common-field-dupsilon-varpi-block-source-reinspection-2026-08-08.md").read_text()
 ledger = json.loads((ROOT / "lab/process/conditional-physics-ledger-v0.83.json").read_text())
 registry = json.loads((ROOT / "lab/process/selected-k77-common-field-dupsilon-varpi-block.json").read_text())
-contract = json.loads((ROOT / "lab/process/functional-channel-operating-contract-v1.0.json").read_text())
+contract = json.loads((ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text())
 
 for phrase in (
     "24-dimensional horizontal Lorentz-connection carrier",

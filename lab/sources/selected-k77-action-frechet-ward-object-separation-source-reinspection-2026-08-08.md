@@ -2,9 +2,7 @@
 artifact_type: source-reinspection
 date: 2026-08-08
 source_return: SOURCE-CONFIRMS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return: first action, residual Jacobian, and the `(7,7)` condition

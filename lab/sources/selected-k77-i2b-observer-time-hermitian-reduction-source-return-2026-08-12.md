@@ -2,7 +2,6 @@
 title: "Source return: observer-time Hermitian reduction"
 status: source-return
 created: 2026-08-12
-run_id: RUN-20260812-171303-gu-i2b-observer-time-hermitian-reduction
 ---
 
 # Source return: observer-time Hermitian reduction

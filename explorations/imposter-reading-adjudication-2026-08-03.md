@@ -6,11 +6,9 @@ created: 2026-08-03
 work_item: "Q1 (seat3 queue; Wave A-3, anchor-council adjudication §3). Register-adjacent: M-M28 ('128' three-way fence row folded in here); hinge-panel §5 item 1."
 title: "IMPOSTER A/B adjudication row: 'imposter'/'third generation' is a HOMONYM with a DISPUTED REFERENT — Reading A = the 128 S(V)⊗S(W) spin-1/2 slot (ledger 2026-07-29, hinge panel, legb2 header), Reading B = the 384 RS(3,1)⊗S(6,4) spin-3/2 family (W221, 2026-06-22 branching closure, NEXT-STEPS PC2). The two objects are PROVABLY DISTINCT subspaces of the same product-rule decomposition; which one the program's third family attaches to is UNADJUDICATED. This file types the fork, tables the dependents, folds in the three-way '128' fence, and states the decision criteria. It does NOT resolve the fork."
 grade: "TYPING DECISION + dependency table — reading, typing, and writing only; no computation run, no script executed, no new mathematical claim. Every cited number is quoted from its artifact (P-H29: nothing here is a citable null or kill). PRE-DEPOSIT: no claim-status, canon, verdict, bar(b), H59, count, or LANE-STATE movement; any resolution of this fork is J5-gated (hostile field-specialist review before deposit)."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - lab/process/hinge-panel-synthesis-2026-08-03.md
   - lab/process/anchor-council-2026-08-03/seat3-particle-flavor.md
   - explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md

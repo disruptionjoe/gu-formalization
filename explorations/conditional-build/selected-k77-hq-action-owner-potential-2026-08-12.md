@@ -1,11 +1,8 @@
 ---
 artifact_type: exact_action_restriction_and_owner_split
 created: 2026-08-12
-run_id: RUN-20260812-080014-gu-hq-action-owner-potential
 grade: EXACT_SCOPED_MOVING_FAMILY_ACTION_RESTRICTION__CONDITIONAL_EDDY_SQUARE_MEXICAN_HAT__ACTION_OWNER_AND_BACKGROUND_MAGNITUDE_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 moving-Hq action-owner and potential gate

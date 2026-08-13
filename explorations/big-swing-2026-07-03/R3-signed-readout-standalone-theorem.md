@@ -424,7 +424,7 @@ The theorem is falsified by any of:
 `tests/big-swing/R3_signed_readout_certificate.py` -- run:
 
 ```
-cd C:/Users/joe/JB/CapacityOS/repos/public/gu-formalization
+cd .
 python tests/big-swing/R3_signed_readout_certificate.py
 ```
 

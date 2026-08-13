@@ -1,12 +1,9 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-215541-gu-i2b-contact-euler-hodge-adapter
 target: explorations/conditional-build/selected-k77-i2b-contact-euler-hodge-adapter-2026-08-12.md
 verdict: CANDIDATE_SURVIVES__SCOPED_POINTWISE_HODGE_INTERSECTION_AND_RADIAL_EULER_ROW_ONLY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: I2B contact/Euler Hodge adapter

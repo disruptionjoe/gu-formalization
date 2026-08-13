@@ -4,7 +4,7 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260802-210344-gu-formalization-pw2e-finite-native-metric-ward/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registries:
   - lab/process/pw2e-finite-native-shiab-descent.json
   - lab/process/pw2e-mixed-metric-frechet-native-ward-registry.json
@@ -12,9 +12,7 @@ probes:
   - tests/channel-swings/pw2e_finite_native_shiab_descent_probe.py
   - tests/channel-swings/pw2e_mixed_metric_frechet_native_ward_probe.py
 grade: "PW2E PARTIAL PASS. The active finite grade-3/11 Shiab operator, right-H/Krein/C-plus structure, nonconstant three-patch active descent, affine B+K law, transported action pairing, and grade-two contragredient covector law pass. The active projector is corrected to invariant rank 8256, with bivector dimension 91. The mixed inventory independently verifies a structural fixed-varpi Levi-Civita adjoint/Green certificate, all eight live native moving-Shiab slots, rank ten across ten metric owners, and a live actual induced-Y14 LC graph. The actual native top-order composition, action Euler dual, and diffeomorphism Ward remain unassembled. A comparator shows possible fourth-jet sensitivity, while the inherited structural fixture exhibits exact top-order cancellation. PW2F must assemble the actual top-order coefficient first and build a fourth-order family only if a nonzero term survives."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # PW2E finite active Shiab descent and mixed metric-Ward readiness

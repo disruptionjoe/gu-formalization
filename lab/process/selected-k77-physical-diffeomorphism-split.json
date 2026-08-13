@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "status": "PHYSICAL_SPLIT_CLOSES_LOCAL_PACKET__LOCAL_NATURALITY_ONLY",
   "date": "2026-08-08",
-  "run_id": "RUN-20260808-183533-gu-k77-physical-diffeomorphism-split",
+  "run_id": "historical-investigation",
   "source_return": "SOURCE-CONFIRMS_TARGET_AND_ARENA__SOURCE-SILENT_EXACT_LIFT_SPLIT_AND_FRECHET",
   "layer0": {
     "base_diffeomorphism_vs_internal_H_gauge": "DISTINCT",

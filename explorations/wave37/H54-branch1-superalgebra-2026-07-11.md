@@ -22,7 +22,7 @@ Nothing imported. The two ARGUED legs (Nahm bound, "existence != realization") a
 have been as valuable as a YES; the honest outcome is **PARTIAL, with the obstruction on the
 super-CONFORMAL / uniqueness side, not on super-Poincare existence.**
 
-## The five personas, inline (compressed)
+## The five perspectives, inline (compressed)
 
 **(1) Lie-superalgebra / Kac theorist.** The question "does so(9,5)+spinor close as a *simple* Lie
 superalgebra" is answered by Kac's list. It does not: the super-Poincare siso(9,5|N) is a

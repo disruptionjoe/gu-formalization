@@ -1,13 +1,8 @@
 ---
 artifact_type: conditional_build_action_owner_disposition
 created: 2026-08-13
-run_id: RUN-20260813-190400-gu-source-natural-second-action-owner
 status: SOURCE_FAITHFUL_FIXED_NATURAL_I2B_OWNER_RESOLVED__PRINTED_ENDPOINT_QB_UP_TO_NONZERO_SCALE__EACT_QU_RIVAL_SEPARATE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 ---
 

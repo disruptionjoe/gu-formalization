@@ -2,13 +2,9 @@
 artifact_type: exact_conditional_variational_result
 created: 2026-08-12
 status: FULL_NORMALIZED_TRACE_ORBIT_DPPLUS_EXACT_ZERO_DATUM__REMAINING_FIELD_EULER_PREBOUNDARY_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_MOVING_EPSILON_CONJUGATION_GRAMMAR_AND_C32_32_WEYL_CARRIER_SPLIT__SOURCE_SILENT_ON_HQ_AND_PPLUS__REPO_DERIVES_FULL_NORMALIZED_TRACE_ORBIT_DPPLUS__FULL_U64_64_ACTION_PARENT_AND_COMPLETE_EULER_PREBOUNDARY_OPEN
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B full normalized trace-orbit derivative

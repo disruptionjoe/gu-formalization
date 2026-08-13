@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W215; TEAM DYNAMICAL-SYSTEMS / ROLLING; one of five independent convergence teams; five personas inline, one worker, no sub-agents; deterministic test with W126/W130/W159/W166 positive controls)
+status: exploration (W215; TEAM DYNAMICAL-SYSTEMS / ROLLING; one of five independent convergence teams; five perspectives inline, one worker, no independent reviewers; deterministic test with W126/W130/W159/W166 positive controls)
 created: 2026-07-14
 wave: W215
 label: W215
@@ -50,7 +50,7 @@ read the endpoint. The answer is a clean, computed, honest NEGATIVE result: **no
 fixed-point true vacuum exists; the roll ends on a graceful de Sitter ROLLING attractor at the
 validity edge; the arrow of time holds all the way.**
 
-Five personas ran inline in one worker, sequentially, no sub-agents: (1) phase-portrait
+Five perspectives ran inline in one worker, sequentially, no independent reviewers: (1) phase-portrait
 analyst, (2) DBI-clock specialist, (3) attractor / Lyapunov-stability specialist, (4)
 record-accretion-roll specialist, (5) ruthless skeptic. Deterministic test
 `tests/W215_true_vacuum_dynamical_systems.py`, 22/22 exit 0, W126 + W130 + W159 + W166
@@ -70,7 +70,7 @@ The dynamical-systems apparatus (fixed points, Jacobian linearization, saddle
 classification, Lyapunov functions, terminal velocity) is STANDARD-FIELD, PORTED and
 labelled; the objects it acts on are GU's.
 
-## 2. Persona 1 -- phase-portrait analyst: the fixed points and their eigenvalues
+## 2. Perspective 1 -- phase-portrait analyst: the fixed points and their eigenvalues
 
 Write the reduced homogeneous flow on `(p, v)`:
 
@@ -104,7 +104,7 @@ its unstable manifold IS the roll. The field leaves the hilltop and `N = e^{4p}`
 > **There is no stable finite fixed point in the free flow. The one that exists is the
 > false-vacuum saddle the universe rolls OUT of, exactly as W163 read it.**
 
-## 3. Persona 2 -- DBI-clock specialist: the endpoint is a terminal-velocity attractor
+## 3. Perspective 2 -- DBI-clock specialist: the endpoint is a terminal-velocity attractor
 
 On a minimum-free runaway hilltop, the drive `F_drive > 0` never vanishes as `p` grows (the
 physical `c >= 0` branch), so an uncapped tachyon would give `p ~ e^{|m| tau}` and hence
@@ -123,7 +123,7 @@ speed limit is exactly what converts the explosive tachyonic runaway into a grac
 constant-rate arrow of time (the relativistic-particle picture: constant proper force,
 saturated velocity, linear position).
 
-## 4. Persona 3 -- attractor / Lyapunov-stability specialist: attractor, no cycle, endpoint spectrum
+## 4. Perspective 3 -- attractor / Lyapunov-stability specialist: attractor, no cycle, endpoint spectrum
 
 **`v_max` is a genuine attractor of the reduced velocity flow (DS3a).** For fixed drive
 `F > 0`, `dv/dtau = (1 - (v/v_max)^2)^{3/2} F`; the rate vanishes at `v = v_max` (approach
@@ -144,7 +144,7 @@ vacuum -- so "is the spectrum around it real and bounded or pathological" has th
 answer: **there is no static point to expand around; the potential curvature is tachyonic
 throughout, but the DBI cap makes the physical roll graceful (finite rate), not a blow-up.**
 
-## 5. Persona 4 -- record-accretion-roll specialist: the arrow / DBI clock holds
+## 5. Perspective 4 -- record-accretion-roll specialist: the arrow / DBI clock holds
 
 **The arrow holds from saddle to attractor (DS4a).** `m^2 < 0 <=> N grows` (W166): `N = e^{4p}`
 is strictly monotone along the ENTIRE flow (DS3b), so the record count advances everywhere and
@@ -163,7 +163,7 @@ NO oscillatory restoring component at the pole frequency, which is precisely why
 and never settles into a vacuum. This is the dynamical-systems restatement of the W164 result:
 the coupled record dynamics is a destabilizing drive, not a stabilizing feedback.
 
-## 6. Persona 5 -- ruthless skeptic: is there ANY stable fixed-point true vacuum?
+## 6. Perspective 5 -- ruthless skeptic: is there ANY stable fixed-point true vacuum?
 
 The seductive move is to use the everpresent term to manufacture a finite stable minimum. Try
 both branches; both fail.
@@ -309,9 +309,9 @@ rolling one, at the edge, not a minimum.
 
 *Filed 2026-07-14 by Team DYNAMICAL-SYSTEMS / ROLLING (W215), one of five independent
 convergence teams. Coherence-first: BUILD the true vacuum as a flow, then let the skeptic read
-the endpoint honestly. Five personas inline in one worker (phase-portrait analyst; DBI-clock
+the endpoint honestly. Five perspectives inline in one worker (phase-portrait analyst; DBI-clock
 specialist; attractor / Lyapunov-stability specialist; record-accretion-roll specialist;
-ruthless skeptic); no sub-agents. Reproducible:
+ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W215_true_vacuum_dynamical_systems.py` (22/22, exit 0; W126 + W130 + W159 + W166
 positive controls first). Exploration grade; conditional register; no canon movement. Verdict:
 RUNAWAY-NO-VACUUM (graceful de Sitter rolling attractor; arrow holds; validity-edge).*

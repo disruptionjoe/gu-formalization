@@ -3,9 +3,7 @@ title: "Parsimony / unexplained-joints ledger: GU vs SM+QM+GR, LCDM+SM, and conf
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 directed_by: "Joe direct chat, 2026-07-21 (parsimony / unexplained-joints ledger; one synchronous pass, read-only)"
 inputs:
   - explorations/per-leg-recovery-state-2026-07-21.md

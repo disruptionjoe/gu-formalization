@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-001119-gu-k77-fixed-common-receiver-hull
 return: SOURCE_CONFIRMS_AMBIENT_FOUR_FIELD_GRAMMAR__SOURCE_SILENT_ON_FIXED_COMMON_RECEIVER_HULL_AND_ITS_ACTION_SELECTOR
 ---
 

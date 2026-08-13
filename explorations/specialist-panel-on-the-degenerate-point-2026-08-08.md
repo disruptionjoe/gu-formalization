@@ -7,10 +7,7 @@ grade: "SPECIALIST PANEL, run inline. No new computation. Every suggestion is
   critical-point identification (S1) is a literature match to measured repo data
   and is the highest-confidence item; the EP-monodromy/ghost-parity link (S2) is
   a HYPOTHESIS and is labelled as such. Nothing here changes a row or verdict."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

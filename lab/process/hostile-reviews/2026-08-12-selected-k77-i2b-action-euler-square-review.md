@@ -2,7 +2,6 @@
 title: "Hostile review: corrected K77 action-Euler square"
 status: hostile-review-complete
 created: 2026-08-12
-run_id: RUN-20260812T235225Z-gu-i2b-action-euler-square
 verdict: SCOPED_CONSTRUCTION_SURVIVES__NO_NEW_FIXED_BACKGROUND_ESCAPE
 ---
 

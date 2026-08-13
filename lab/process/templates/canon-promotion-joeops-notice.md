@@ -2,7 +2,7 @@
 TEMPLATE — save the completed durable note in this repository as
     attention/YYYYMMDD-canon-promotion-<slug>.md
 Then place a pointer-only envelope naming that source path in
-    ../../../repos/private/system-runtime/mailboxes/system-attention/
+    ../../../repos/private/private orchestration runtime/mailboxes/system-attention/
 Awareness note for an ALREADY-EXECUTED canon promotion in gu-formalization.
 This is not a request for approval. See RESEARCH-STATUS.md "Promotion Rule".
 Delete these comment lines when filling it in.

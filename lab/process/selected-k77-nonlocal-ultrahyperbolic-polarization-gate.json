@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "work_item": "SELECTED_K77_NONLOCAL_ULTRAHYPERBOLIC_POLARIZATION_GATE",
-  "run_id": "RUN-20260811-091040-gu-k77-nonlocal-ultrahyperbolic-polarization-gate",
+  "run_id": "historical-investigation",
   "status": "CONDITIONAL_STRICT_CENTER_PRINCIPAL_DOMAIN_INGREDIENT_BUILT__SELECTED_ACTION_GREEN_BFV_OVERLAP_NONLINEAR_AND_SOURCE_SELECTION_OPEN",
   "layer0": {
     "scalar_donor": "Craig-Weinstein scalar ultrahyperbolic Cauchy-data constraint",

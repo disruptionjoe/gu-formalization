@@ -8,9 +8,7 @@ grade: "SPECIFICATION + TRIAGE. No new computation was run for this note. Every 
   identification, (b) surfacing the existing mu-coupling asymmetry as an unexplained result, and (c) an
   honest deflation of the cosmological lead this note was originally motivated by. NOT a claim about the
   generation count."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 follows:
   - canon/source-action-seiberg-witten-RESULTS.md
   - canon/ghost-parity-krein-synthesis.md

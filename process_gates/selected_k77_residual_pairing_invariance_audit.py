@@ -25,7 +25,7 @@ def strict(relative):
 
 registry = strict("lab/process/selected-k77-residual-pairing-invariance.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.92.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 source = (ROOT / "lab/sources/selected-k77-residual-pairing-source-reinspection-2026-08-08.md").read_text(encoding="utf-8")
 review = (ROOT / registry["hostile_review"]).read_text(encoding="utf-8")
 report = (ROOT / "explorations/conditional-build/selected-k77-residual-pairing-invariance-2026-08-08.md").read_text(encoding="utf-8")
@@ -88,8 +88,8 @@ for relative in (
     "NEXT-STEPS.md",
     "RESEARCH-STATUS.md",
     "lab/process/README.md",
-    "lab/process/agent-context-pack.md",
-    "lab/process/functional-channel-operating-contract-v1.0.md",
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+    "lab/methods/research-evidence-contract-v1.0.md",
     "explorations/README.md",
     "lab/sources/README.md",
     "process_gates/README.md",

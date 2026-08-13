@@ -2,10 +2,7 @@
 title: "Selected K77 four-field zero-order port composition"
 status: exact_necessary_condition_result
 date: 2026-08-10
-run_id: RUN-20260810-090656-gu-k77-four-field-zero-order-port
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 four-field zero-order port composition

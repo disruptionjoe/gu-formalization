@@ -7,7 +7,7 @@ grade: "running results log for the four-gate falsifier. Gate 0/1 = PASS (assump
 provenance: "Joe, chat 2026-07-15: run the reordered check; start with the assumption-light gates."
 depends_on:
   - explorations/time-as-finality-crosswalk/live-dark-observer-sheaf-existence-as-issuance-2026-07-15.md
-  - explorations/time-as-finality-crosswalk/ten-persona-steelman-live-dark-observer-sheaf-2026-07-15.md
+  - explorations/time-as-finality-crosswalk/ten-perspective-steelman-live-dark-observer-sheaf-2026-07-15.md
 runnable:
   - explorations/time-as-finality-crosswalk/gate01_observer_nerve.py
 verdict: "Gate 0/1 PASS (necessary, not sufficient). Gate 2 is the discriminator and is assumption-heavy (requires positing sign-selection dynamics = the unwritten source action); it is a Joe-gated modeling fork, not auto-run."
@@ -15,7 +15,7 @@ verdict: "Gate 0/1 PASS (necessary, not sufficient). Gate 2 is the discriminator
 
 # Gate pipeline results
 
-## The reordered check (from the ten-persona synthesis, corrected)
+## The reordered check (from the ten-perspective synthesis, corrected)
 
 Not four co-equal gates: **one artifact** (a dynamically-issued observer nerve) with a decisive
 readout plus cheap instrumentation.
@@ -54,7 +54,7 @@ sign's uniqueness. The weight of the falsification always sat on Gate 2.
 
 ## Gate 2a — CONDITIONAL PASS (2026-07-15), exact 𝔽₂
 
-The twenty-persona panel (`twenty-persona-gate2-approach-2026-07-15.md`) reframed Gate 2's core as an
+The twenty-perspective panel (`twenty-perspective-gate2-approach-2026-07-15.md`) reframed Gate 2's core as an
 **exact 𝔽₂ / XOR-SAT computation**, not a stochastic sim. Script: `gate2a_f2_consistency.py` (pure Python).
 The sign is an Ising/ℤ2 variable `s(v)` per observer; a local rule fixes each edge coupling `J(uv) ∈ {0,1}`
 (agree/disagree). A globally consistent **unique universal sign** exists iff `s(u)+s(v)=J(uv) (mod 2)` is
@@ -91,7 +91,7 @@ characterize the already-falsified relational case. **Skipped.**
 
 ## Gate 3 — NEXT (records vs redundancy)
 
-Now the load-bearing follow-on. Persona 12 (threshold secret-sharing) folds it with individual-invisibility:
+Now the load-bearing follow-on. Perspective 12 (threshold secret-sharing) folds it with individual-invisibility:
 model bar(b) as a `(k,n)` secret over the observer nerve — individually invisible below threshold `k`
 (= T12' zero-trace), collectively reconstructable at `≥ k`. Question: is the vertex-sourced sign a genuine
 **record** (redundantly, robustly encoded across independent observers — high redundancy `R_δ`) or

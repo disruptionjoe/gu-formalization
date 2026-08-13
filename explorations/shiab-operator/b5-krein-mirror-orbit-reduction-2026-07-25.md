@@ -3,13 +3,9 @@ title: "B5 Krein-adjoint and mirror reduction: 136 complex cells collapse to an 
 status: active_research
 doc_type: result
 created: 2026-07-25
-run_id: RUN-20260725-031112-gu-formalization-progress
-lane_id: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 code: tests/shiab_b5_krein_mirror_orbit_reduction.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B5 Krein-adjoint and mirror-orbit reduction

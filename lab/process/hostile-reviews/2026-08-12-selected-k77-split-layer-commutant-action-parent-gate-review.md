@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-020740-gu-split-layer-commutant-action-parent
 target_claim: NONE-NOT-A-KILL
 verdict: SURVIVES_AFTER_SCOPE_REPAIR__SPLIT_NATIVE_J_EXACT__HERMITIAN_FORM_AND_ACTION_SELECTION_OPEN
 ---

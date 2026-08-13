@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-030756-gu-two-half-hermitian-witt-map",
+  "run_id": "historical-investigation",
   "status": "EXACT_CONDITIONAL_FULL_AND_TWO_HALF_HERMITIAN_WITT_COMPATIBILITY__Q_UNSELECTED",
   "target_claim": "NONE-NOT-A-KILL",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

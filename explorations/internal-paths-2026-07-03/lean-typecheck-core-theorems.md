@@ -45,7 +45,7 @@ and the header of `Lean/GUFormalization/LocatedNotForcedLegs.lean` both state ma
 provisioned and the `import Mathlib` files were "NOT typechecked / UNVERIFIED." **That is now stale.**
 Mathlib was provisioned and built after those were written (`.lake` timestamped Jul 3 11:14).
 
-No large downloads were triggered by this run — everything needed was already on disk.
+No large downloads were triggered by this investigation — everything needed was already on disk.
 
 ## 2. What ACTUALLY typechecked this run
 

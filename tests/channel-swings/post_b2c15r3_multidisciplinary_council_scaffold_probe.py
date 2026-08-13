@@ -80,16 +80,16 @@ def validate(data: dict[str, object]) -> list[str]:
         if token.lower() not in specialist_blob.lower():
             errors.append(f"required specialist token missing: {token}")
 
-    engineers = data.get("engineering_personas", [])
+    engineers = data.get("engineering_perspectives", [])
     if len(engineers) != 10:
-        errors.append("exactly ten engineering personas are required")
+        errors.append("exactly ten engineering perspectives are required")
     engineer_ids = [item.get("id") for item in engineers]
     if len(engineer_ids) != len(set(engineer_ids)):
-        errors.append("duplicate engineering persona id")
+        errors.append("duplicate engineering perspective id")
     for engineer in engineers:
-        for field in ["persona", "shop_floor_view", "sees_missing", "would_do", "tripwire"]:
+        for field in ["perspective", "shop_floor_view", "sees_missing", "would_do", "tripwire"]:
             if not engineer.get(field):
-                errors.append(f"engineering persona {engineer.get('id')} lacks {field}")
+                errors.append(f"engineering perspective {engineer.get('id')} lacks {field}")
 
     waves = data.get("waves", [])
     if len(waves) != 10:
@@ -298,7 +298,7 @@ def main() -> None:
     report = REPORT.read_text()
     exact_checks = 0
     for token in [
-        "## Ten inline engineering personas",
+        "## Ten inline engineering perspectives",
         "### 4. Pressure-vessel and structural-integrity engineer",
         "### 6. Distributed-systems and site-reliability engineer",
         "### 7. ZK protocol and proof-circuit engineer",
@@ -426,12 +426,12 @@ def main() -> None:
         raise AssertionError("PW2F-R2B2B1 spent the external datum")
     exact_checks += 51
     exact_checks += len(data["specialist_lenses"])
-    exact_checks += len(data["engineering_personas"])
+    exact_checks += len(data["engineering_perspectives"])
     exact_checks += len(data["waves"])
 
     plants = [
         lambda d: d.update(status="EXECUTED"),
-        lambda d: d["engineering_personas"].pop(),
+        lambda d: d["engineering_perspectives"].pop(),
         lambda d: d["waves"].pop(),
         lambda d: d["waves"][3].update(depends_on=["PW10"]),
         lambda d: d["waves"][1].update(kill_conditions=[]),

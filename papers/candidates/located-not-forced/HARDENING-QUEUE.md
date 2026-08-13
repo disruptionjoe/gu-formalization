@@ -6,8 +6,7 @@ scope: paper-local
 created: 2026-07-07
 updated: 2026-07-23
 source: "v2.14 ten-lens review; two independent hardening scouts; Science Council; Joe decisions"
-run_type: directed-progress
-run_ref: GUD-20260723T160054Z-lnf-v215-hardening
+run_ref: historical-investigation
 ---
 
 # Located, Not Forced — v2.15 executable hardening campaign

@@ -3,14 +3,10 @@ title: "Science council: review of the categorical reading, and process deltas"
 status: active_research
 doc_type: council_deliberation
 created: 2026-08-12
-run_id: RUN-20260812-120000-gu-categorical-geometry-reading
-lane: "A (process stewardship)"
 brief_version: "1.2"
 target_claim: NONE-NOT-A-KILL
 convened_by: joe-direct-chat
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 binding: >-
   Modeled council vote is planning evidence, never scientific evidence.
   Seats run inline. Adopted deltas are design inputs; they bind nothing

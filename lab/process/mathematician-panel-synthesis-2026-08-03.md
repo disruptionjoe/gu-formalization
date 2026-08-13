@@ -4,9 +4,7 @@ status: process
 doc_type: research-strategy-synthesis
 created: 2026-08-03
 updated: 2026-08-03
-claim_status_change: none
-canon_change: none
-method: "Five specialist panels (representation theory, topology/index theory, operator/Krein theory, mathematical physics, research strategy), each seeded with the verified findings of the same-day eleven-lens audit (lab/process/eleven-lens-audit-2026-08-03.md), Joe-directed. Charter: Lane 1 — force, falsify, or precisely place. Items marked [verified] were checked by the orchestrator (quote-trail, arithmetic, or run); the rest are panel-asserted with the checking step named. Layer-0 applies throughout: no decomposition below is a count."
+method: "Five specialist panels (representation theory, topology/index theory, operator/Krein theory, mathematical physics, research strategy), each seeded with the verified findings of the same-day eleven-lens audit (lab/process/eleven-lens-audit-2026-08-03.md), Joe-directed. Charter: truth-status research — force, falsify, or precisely place. Items marked [verified] were checked by the orchestrator (quote-trail, arithmetic, or run); the rest are panel-asserted with the checking step named. Layer-0 applies throughout: no decomposition below is a count."
 ---
 
 # Mathematician-panel synthesis

@@ -1,7 +1,7 @@
 {
   "artifact_type": "construction_registry",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-221700-gu-k77-high-conviction-receiver-completion",
+  "run_id": "historical-investigation",
   "status": "EXACT_CONDITIONAL_RESULT",
   "predecessor": "selected-k77-gamma-trace-graph-dynamics-gate.json",
   "field": "GF(1000033)",

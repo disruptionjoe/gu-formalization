@@ -8,19 +8,19 @@ updated_at: "2026-05-31"
 # Problem-Shape Meta-Synthesis — Heterodox Hegelian Dialectic Across 10 Lenses
 
 **Date:** 2026-05-28
-**Source:** 10 heterodox problem-shape persona passes (passes 21-30) spawned in WRK-326's 2026-05-28 problem-shaping round, taking the 00c Aufhebung as accepted baseline.
+**Source:** 10 heterodox problem-shape perspective passes (passes 21-30) spawned in WRK-326's 2026-05-28 problem-shaping round, taking the 00c Aufhebung as accepted baseline.
 **Joe's directive:** Apply Hegelian dialectic within each domain, heterodox lean, find the next problem shape.
 **Predecessors:** 00 (thesis), 00b (antithesis at the bundle level), 00c (first Aufhebung: computation substrate, geometry observer-frame).
 
-## What the 10 personas converge on
+## What the 10 perspectives converge on
 
 ### Convergent Aufhebung pattern across all 10
 
-**Every persona relocates chirality from the bundle level to a substrate-level invariant whose image in the smooth shadow is null.** This is a unified dialectical move, not eclectic mixing. The no-go theorems (Witten 1981, Nielsen-Ninomiya, Freed-Hopkins, Distler-Garibaldi) **compute the forgetful image of a richer substrate-level invariant**, not the live invariant itself.
+**Every perspective relocates chirality from the bundle level to a substrate-level invariant whose image in the smooth shadow is null.** This is a unified dialectical move, not eclectic mixing. The no-go theorems (Witten 1981, Nielsen-Ninomiya, Freed-Hopkins, Distler-Garibaldi) **compute the forgetful image of a richer substrate-level invariant**, not the live invariant itself.
 
-Concretely, each persona's substrate-level invariant is:
+Concretely, each perspective's substrate-level invariant is:
 
-| Persona | Substrate-level invariant |
+| Perspective | Substrate-level invariant |
 | --- | --- |
 | 21 stochastic | parity-broken log-correlated GFF noise class |
 | 22 quantum measurement | QRF-gauge-invariant of substrate-observer pairing |
@@ -35,7 +35,7 @@ Concretely, each persona's substrate-level invariant is:
 
 ### Two refinements of 00c that move one layer upstream
 
-Two of the 10 personas (P9 complexity, P10 constructor) did not stay within 00c's frame. They refined 00c itself:
+Two of the 10 perspectives (P9 complexity, P10 constructor) did not stay within 00c's frame. They refined 00c itself:
 
 - **P9:** 00c tacitly assumed the substrate is Turing-computable. The complexity heterodox lens drops the physical Church-Turing thesis. Computability becomes an observer-class property; substrate need not be Turing-bounded. **00c gains a new "observer-class" axis.**
 - **P10:** 00c posited a single substrate underneath the observer-frame bundle. The constructor heterodox lens drops "physics defines observer" and replaces it with "observer-substrate co-arise." There is no THE substrate; there is a pairing. **00c gains a new "pairing" axis.**
@@ -44,7 +44,7 @@ These two refinements are not contradictory. They identify two axes that 00c's "
 
 ## The meta-dialectic
 
-The 10 problem-shape personas, taken together, perform a dialectical move on 00c itself:
+The 10 problem-shape perspectives, taken together, perform a dialectical move on 00c itself:
 
 - **Thesis (00):** GU as smooth-KK fails at chirality.
 - **Antithesis (00b):** Witten 1981 narrowly construed; formal loopholes exist; closes substantively at Freed-Hopkins.
@@ -72,7 +72,7 @@ This diagnosis is consistent with P9's Rice-undecidability claim from 00c (the b
 This question is:
 
 - **First-principles**, grounded in established mathematics (Hairer regularity, Connes spectral triples, MIP*=RE subfactor theory, tmf / motivic / prismatic cohomology, twistor theory, Wolfram Physics Project, QEC codes, IIT, constructor theory).
-- **Falsifiable** for any specified (substrate class, observer class, pairing) triple via the persona-specific sub-questions surfaced in passes 21-30.
+- **Falsifiable** for any specified (substrate class, observer class, pairing) triple via the perspective-specific sub-questions surfaced in passes 21-30.
 - **Bounded** by Freed-Hopkins compatibility: any candidate substrate-level invariant must produce the right Freed-Hopkins forgetful image in the smooth bundle, OR demonstrate that Freed-Hopkins is pairing-relative (P10's sub-question).
 - **Non-circular**: the substrate invariant is named first; the bundle-level shadow is computed as a derived object; chirality is checked at the substrate level, not re-derived in the bundle.
 
@@ -80,7 +80,7 @@ This question is:
 
 For the lane to advance from problem_shaping/1 to solution_shaping, Joe needs to lock the three legs of the triple:
 
-**Leg 1 — Substrate class.** Pick from the 10 personas' candidates. The strongest mathematically-adjacent program candidates (those with the most established mathematics already done):
+**Leg 1 — Substrate class.** Pick from the 10 perspectives' candidates. The strongest mathematically-adjacent program candidates (those with the most established mathematics already done):
 
 - **Connes Type II_1 spectral triple with Jones-subfactor extension** (from 00b + 00c + P3 + P23). Connes-Chamseddine SM-as-spectral-triple is established; II_1 extension + Connes non-embeddability is the open research direction with the sharpest existing math.
 - **Holographic QEC code with chiral MTC logical algebra** (from P3 of computation + P28). Almheiri-Dong-Harlow + ER=EPR + "It from Qubit" make this entanglement-substrate program a real research direction.
@@ -124,6 +124,6 @@ The combinatorial space is 10×3×5 = 150 candidate triples, but **only ~5-10 ar
 
 ## Honesty contract observed
 
-The 10 problem-shape personas converge on a single dialectical move (relocate chirality from bundle to substrate-level invariant) but disagree on the substrate-level invariant class. P9 and P10 perform meta-dialectical moves that refine 00c upward. The three-leg specification is a real operationalization, not a hedge — it names which decision a research program in this space must lock to proceed. Connes Type II_1 spectral triples + Connes-Chamseddine SM construction are established mathematics; MIP*=RE is a 2020 theorem; tmf and motivic cohomology are established; Almheiri-Dong-Harlow's QEC-AdS/CFT is established. None of these are speculation.
+The 10 problem-shape perspectives converge on a single dialectical move (relocate chirality from bundle to substrate-level invariant) but disagree on the substrate-level invariant class. P9 and P10 perform meta-dialectical moves that refine 00c upward. The three-leg specification is a real operationalization, not a hedge — it names which decision a research program in this space must lock to proceed. Connes Type II_1 spectral triples + Connes-Chamseddine SM construction are established mathematics; MIP*=RE is a 2020 theorem; tmf and motivic cohomology are established; Almheiri-Dong-Harlow's QEC-AdS/CFT is established. None of these are speculation.
 
 No silent strengthening. The Aufhebung at 00d is structural and convergent across 10 independent heterodox lenses; the disagreement about which substrate-level invariant class to pick is a Joe-decision question that maps the field rather than papering it over.

@@ -3,13 +3,9 @@ title: "Preregistered conditional verdict frame: NGUYEN-FOREST"
 status: active_research
 doc_type: verdict_preregistration
 created: 2026-08-12
-run_id: RUN-20260812-024500-gu-nguyen-forest-prereg
-lane: "1"
 brief_version: "1.1"
 target_claim: NONE-NOT-A-KILL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 blind_note: >-
   Filed while checks C3-prime and CHK-1 are executing with results unknown
   to the filer. The conditions below were fixed before that evidence

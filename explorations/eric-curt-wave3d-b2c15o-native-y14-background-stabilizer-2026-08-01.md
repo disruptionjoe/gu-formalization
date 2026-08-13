@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-01
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260802-035436-gu-formalization-ecw3d-b2c15o-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2c15o-native-y14-background-stabilizer.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c15o_native_y14_background_stabilizer_probe.py
 grade: "B2C15O PARTIAL CONSTRUCTION PASS WITH SOURCE-COORDINATE CORRECTION AND SCOPED ALGEBRAIC FIXTURE. On the literal equations-9.2-to-9.3 epsilon-family Shiab branch, the displayed source coordinates are fixed-(epsilon,varpi,g), not fixed-(A,epsilon_red,g). Exact return gives E_varpi=E_T and changes the metric equation by +(D_g Gamma)^!E_T relative to B2C15N's fixed-A equation. The correction and its Green companion are nonzero; reusing the fixed-A metric equation gives a nonzero Helmholtz defect, while the corrected system passes and retains realized order table [[1,2,2],[2,2,3],[2,3,2]]. Equality of the literal epsilon family with equation 9.4's odot_omega remains unverified. A trace-reversed-carrier-compatible algebraic fixture is built from a realizable four-dimensional constant-curvature metric two-jet and explicit affine B/constant-T germs. Inside diagonal Spin(9,5), the selected coefficient-tuple isotropy is 36, its intersection with the one non-null xi=e0 stabilizer is 36, and a held-out compatible tuple has isotropy 28. These are not full Zorro/DeWitt Y14 action-jet or ambient Sp stabilizers. Exact Clifford-word and independent 128-by-128 right-H/Krein/C-plus checks pass. Source epsilon versus quotient epsilon_red, the odot-family fork, the Zorro/DeWitt total-space jet, the (7,7)-to-(9,5) port, full native fixed-varpi coefficients, global pushforward/domain, BV, and physics remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C15O source coordinates and selected coefficient-fixture stabilizer

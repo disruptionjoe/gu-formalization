@@ -1,13 +1,10 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-030756-gu-two-half-hermitian-witt-map
 status: FULL_AND_TWO_HALF_HERMITIAN_GEOMETRY_CONSTRUCTED_CONDITIONALLY_ON_NON_NULL_Q__Q_AND_PHYSICAL_BLOCK_UNSELECTED
 target_claim: NONE-NOT-A-KILL
 ledger: lab/process/conditional-physics-ledger-v0.193.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 two-half Hermitian/Witt-rotation gate
@@ -179,7 +176,7 @@ posture do not move.
 
 ## Next gate
 
-The highest-information Lane 1 successor is:
+The highest-information truth-status research successor is:
 
 ```text
 CONSTRUCT_OR_KILL_AN_OBSERVATION_OR_ACTION_OWNED_NON_NULL_Q_LINE;

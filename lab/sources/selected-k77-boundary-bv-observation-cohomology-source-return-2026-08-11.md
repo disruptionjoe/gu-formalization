@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-194036-gu-k77-boundary-bv-observation-cohomology
 disposition: SOURCE-SILENT
 ---
 

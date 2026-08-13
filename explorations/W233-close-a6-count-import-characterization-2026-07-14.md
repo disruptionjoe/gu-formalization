@@ -41,7 +41,7 @@ posed is a false binary that dissolves the moment one separates the two things "
 the **multiplicity** (how many copies of the family representation) from the **chiral actuation** (how
 many of those copies survive as net-chiral generations). Once separated, the located-not-forced state
 is terminal and crisp: **GU predicts everything about the count except whether it switches on.** Five
-inline personas ran in this one worker; the deterministic test
+inline perspectives ran in this one worker; the deterministic test
 `tests/W233_count_import_free_vs_constrained.py` is 28/28, exit 0, positive controls first.
 
 ## Smart route (before any brute force)
@@ -52,7 +52,7 @@ the import off the existing artifacts, split it along the multiplicity / actuati
 finite arithmetic + linear-algebra facts that force each leg. The whole lane reduces to a small
 CRT + Krein-signature test plus the reconciliation prose.
 
-## 1. Persona 1 -- rep-theory / CRT-structure specialist: the arena and the value-set are CONSTRAINED
+## 1. Perspective 1 -- rep-theory / CRT-structure specialist: the arena and the value-set are CONSTRAINED
 
 Three GU-structural facts pin the count's *home* and *value-set*, independent of any free import.
 
@@ -80,7 +80,7 @@ Three GU-structural facts pin the count's *home* and *value-set*, independent of
 value-set (`{1,3}`, with `3 = dim Lambda^2_+`) are **structurally constrained by GU**. This half is a
 real, partial prediction, theorem-to-reconstruction grade.
 
-## 2. Persona 2 -- index / count specialist: the VALUE / actuation is FREE
+## 2. Perspective 2 -- index / count specialist: the VALUE / actuation is FREE
 
 The other half is just as sharply the opposite.
 
@@ -109,9 +109,9 @@ The other half is just as sharply the opposite.
 on, and its integer in the flux reading -- is a **free external import**, forced by no GU-internal
 consistency requirement. This half is the honest **downgrade**.
 
-## 3. Persona 3 -- located-not-forced specialist: the carrier is vectorlike; the fork lives on both sides
+## 3. Perspective 3 -- located-not-forced specialist: the carrier is vectorlike; the fork lives on both sides
 
-The two personas above are not in tension; they are the two projections of the located-not-forced
+The two perspectives above are not in tension; they are the two projections of the located-not-forced
 result, and the *carrier* itself shows why.
 
 The order-3 carrier `Lambda^2_+` "**locates but does not fill**" (Section 7): it has genuine self-dual
@@ -139,7 +139,7 @@ names both: **multiplicity predicted (3), chiral actuation free.** The carrier-m
 net chiral generations absent an operator GU does not provide.* The count is not in the carrier; it is
 in the switch.
 
-## 4. Persona 4 -- ruthless skeptic: three attempts to collapse the verdict to one side
+## 4. Perspective 4 -- ruthless skeptic: three attempts to collapse the verdict to one side
 
 **Steelman A: "it's just a FREE INPUT -- call it a downgrade and stop."** Rebutted as *incomplete*, not
 wrong. The import is not a blank: it carries at least five stated type-constraints, each from a computed
@@ -218,7 +218,7 @@ finality objects (one-way rule respected).
 
 *Filed 2026-07-14 by Team COUNT-IMPORT-CHARACTERIZATION (W233, lane A6). Coherence-first; exploration
 grade; conditional register; truth-seeking (a clean downgrade is as informative as a prediction);
-RUTHLESS skeptic. Four personas inline in one worker (rep-theory / CRT-structure; index / count;
-located-not-forced specialist; ruthless skeptic); no sub-agents. Reproducible:
+RUTHLESS skeptic. Four perspectives inline in one worker (rep-theory / CRT-structure; index / count;
+located-not-forced specialist; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W233_count_import_free_vs_constrained.py` (28/28, exit 0; positive controls first). No
 canon movement; H59 remains OPEN; the count stays {1,3}.*

@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-09
 status: CANDIDATE_SURVIVES_AS_LOCAL_PRINCIPAL_MINIMAL_COMMON_EXTENSION594_TOTAL915
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected-K77 minimal Hessian tangent closure

@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-191942-gu-k77-variable-incoming-projector-descent
 verdict: SURVIVES_SCOPED__ACTION_DERIVES_PROJECTOR_FAMILY__BOUNDARY_GEOMETRY_SELECTS_MEMBER__GLOBAL_ANALYTIC_AND_COHOMOLOGY_OPEN
 lenses: [layer0_semantics, prior_art, principal_bundle, symmetric_hyperbolic, analytic, supergeometry, symplectic_bv_bfv, krein_reality, exact_computation]
 ---

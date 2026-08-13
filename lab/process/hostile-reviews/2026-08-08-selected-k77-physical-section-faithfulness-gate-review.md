@@ -50,7 +50,7 @@ hyperbolicity, Green operator or constraint propagation.
 
 ### Layer 0 and prior art
 
-No.  The run reuses rather than rebuilds:
+No.  The investigation reuses rather than rebuilds:
 
 - ECW3C's actual metric-bundle atlas and conditional supplied-section descent;
 - the actual-Y14 rank-four/rank-ten receiver theorem;

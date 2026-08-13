@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W214; TEAM RG-FLOW / RUNNING; five personas inline, one worker, no sub-agents; deterministic test with W130/W119/W128/W126/W165 positive controls)
+status: exploration (W214; TEAM RG-FLOW / RUNNING; five perspectives inline, one worker, no independent reviewers; deterministic test with W130/W119/W128/W126/W165 positive controls)
 created: 2026-07-14
 wave: W214
 label: W214
@@ -55,7 +55,7 @@ verdict is **RUNAWAY-NO-VACUUM on the native basin, EXISTS-CONDITIONAL off-basin
 other methods (Section 8): none independently BUILDS a stable stationary true vacuum; all locate one
 only as an unforced, out-of-validity, or rolling object.
 
-Five personas inline, one worker, no sub-agents. Deterministic test
+Five perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W214_true_vacuum_rg_flow.py`, 21/21 exit 0, W130 + W119 + W128 + W126 + W165 positive controls
 first.
 
@@ -69,7 +69,7 @@ first.
 | True vacuum | the IR condensate / endpoint of the flow | The method's operational definition of "true vacuum". |
 | Record condensate | the de Sitter attractor `Lambda ~ 1/sqrt(N)` (W145/W163/W166) | The candidate off-basin IR attractor; ported everpresent normalization. |
 
-## 2. Persona 1 -- functional-RG specialist: the exact spin-2 flow of the native point
+## 2. Perspective 1 -- functional-RG specialist: the exact spin-2 flow of the native point
 
 The load-bearing simplification of this truncation is that the Weyl (spin-2) coupling flows
 `g`-INDEPENDENTLY (W128 Section 3 / D1): `beta_{f_2^2} = -kappa Phi b_2 f_2^4`-type, so
@@ -88,7 +88,7 @@ origin, reached WITHOUT ever entering a positive-`f_2^2` region.
 fixed point; the flow cannot be continued perturbatively through it. The native tree point has NO
 controlled UV completion on its own flow.
 
-## 3. Persona 2 -- asymptotic-safety analyst: the native point is off both basins
+## 3. Perspective 2 -- asymptotic-safety analyst: the native point is off both basins
 
 Both known UV completions live at `f_2^2 > 0`: the AF basin gates on `f_2^2 > 0` by construction
 (W123), and every AS/Reuter trajectory keeps `f_2^2 > 0` at all finite scales (the same exact
@@ -106,7 +106,7 @@ the de-slaved Reuter root `f_0^2* = eta0 g*/(kappa Phi c_C)` is SIGN-LOCKED to `
 both a healthy and a tachyonic IR datum flow UV-complete into the Reuter FP (test D2), so nothing
 native selects health, and flipping `eta0` makes the tachyon follow onto AS too (NC1).
 
-## 4. Persona 3 -- IR-condensate specialist: the endpoint spectrum, and the rolling record attractor
+## 4. Perspective 3 -- IR-condensate specialist: the endpoint spectrum, and the rolling record attractor
 
 The scalaron mass rides the running `R^2` coupling: `m_0^2(mu) = gamma_phi f_0^2(mu)` with
 `gamma_phi = 2/3 > 0` (W163 NPV1a, test PC2). On the native (AF-type) basin `f_0^2(mu)` is sign-locked
@@ -126,7 +126,7 @@ one: `Lambda ~ 1/sqrt(N)` with `N` monotone increasing (the arrow) gives `dLambd
 (test D3), so the mean rolls and never settles -- a de Sitter attractor, NOT a stationary minimum
 (W163 NPV5c). Even off-basin, the sensible-looking IR endpoint is not a STABLE stationary vacuum.
 
-## 5. Persona 4 -- fixed-point / flow-topology checker: the map, and the arrow at the endpoint
+## 5. Perspective 4 -- fixed-point / flow-topology checker: the map, and the arrow at the endpoint
 
 The `(f_2^2, f_0^2)` flow topology: the Gaussian point `(0,0)` (spin-2 IR endpoint of the native
 flow, tachyonic scalaron); the AF fixed-ratio family at `f_2^2 > 0` (both ratio roots negative, W119
@@ -145,7 +145,7 @@ band -- the cleanest arrow-of-time profile. But the graceful-rate reading needs 
 `v^2 = 1/16` degeneration edge and `|m_0^2| = 1/4 = 4x` beyond it (test E3): out of EFT validity, read
 at the edge, so PLAUSIBLE not certified -- exactly W166's grade, reached here from the flow side.
 
-## 6. Persona 5 -- ruthless skeptic: is this a real result or a re-labelling?
+## 6. Perspective 5 -- ruthless skeptic: is this a real result or a re-labelling?
 
 **Steelman "the flow DOES reach a vacuum".** The sharpest pro-vacuum case: the IR endpoint
 `f_2^2 -> 0` IS a fixed point (Gaussian), so the flow terminates cleanly, and one could call that the
@@ -248,8 +248,8 @@ a nonperturbative completion past the `v^2 = 1/16` induced-metric degeneration.
 
 *Filed 2026-07-14 by Team RG-FLOW / RUNNING (W214). One of five independent methods building the
 record-condensed true vacuum, to test convergence. Coherence-first; flow the native tree point to the
-IR, locate the fixed points, read the endpoint spectrum. Five personas inline in one worker
+IR, locate the fixed points, read the endpoint spectrum. Five perspectives inline in one worker
 (functional-RG specialist; asymptotic-safety analyst; IR-condensate specialist; fixed-point /
-flow-topology checker; ruthless skeptic); no sub-agents. Reproducible:
+flow-topology checker; ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W214_true_vacuum_rg_flow.py` (21/21, exit 0; W130 + W119 + W128 + W126 + W165
 positive controls first). Exploration grade; conditional register; no canon movement.*

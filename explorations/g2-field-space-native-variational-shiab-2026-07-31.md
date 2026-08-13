@@ -4,14 +4,12 @@ status: active_research
 doc_type: construction_result
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T143243Z-g2-field-space-native-variational-shiab/run-plan.md
+run: archived private execution record
 specification: lab/specifications/g2-source-field-and-variational-shiab-packet-2026-07-31.md
 certificate: lab/process/g2-native-variational-shiab-certificate.json
 probe: tests/channel-swings/g2_native_variational_shiab_probe.py
 grade: "G2 CONDITIONAL PASS WITH SOURCE-FORMULA CORRECTION. The selected native field graph and trace-adapted density-dual contraction are installed in a fourteen-form first-order action. The draft-style fixed-linear Upsilon simplification fails the native cyclic/Helmholtz gate, but the written action emits an exact slot-symmetrized Euler covector with a necessary two-input cubic map. No complete G3 variation, domain, vacuum, SM spectrum, index, count, or cosmological output is claimed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # G2 field space and native variational Shiab
