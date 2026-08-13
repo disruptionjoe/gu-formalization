@@ -9,15 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
-> **Current v0.232 source/BV--Koszul--Tate exact sequence:** the selected
-> 196-cell source chart is onto, its tilted graph is a 91-dimensional
-> coordinate kernel, the ordinary gauge image has rank 25 and its first
-> reducibility has dimension 66. The fourteen-cell source-natural and
-> twelve-cell conditional-`Q_u` Euler covectors satisfy the Ward/KT identities
-> and remain nonzero after descent. KT resolves the Euler ideal; it is not a
-> primal tangent constraint. Do not run another ordinary gauge/BV quotient.
-> Construct a new action-owned primal constraint or moving/field-dependent
-> reduction and test both obstruction families. No accounting moves.
+> **Current v0.233 minimal covariant-reduction action ownership:** on the
+> selected 196-cell Cl1 bank, fixed `D omega=0` has rank 196 and erases the
+> current half-exchanging Higgs-like carrier. Fixed `D J4=0` has rank 56 and
+> leaves ten source-natural plus eight conditional-`Q_u` Euler cells. Moving
+> compatibility projects surjectively onto `T`; compatible penalties have zero
+> first variation; the only local full cancellation is a 196-component
+> zero-surplus `omega` multiplier that enforces `K_omega=0`. Do not rerun fixed
+> projectors, penalties or a free multiplier. Extract a nonlinear source-action
+> owner with positive surplus or explicitly retype the carrier. No accounting
+> moves.
+
+> **Predecessor v0.232 source/BV--Koszul--Tate exact sequence:** the local
+> source/gauge/reducibility sequence closes, while both Euler covectors descend
+> nonzero. KT resolves their ideal rather than selecting primal variations.
+> V0.233 supersedes only its minimal action-ownership successor.
 
 > **Predecessor v0.231 source-natural primalizer classification:** both fixed
 > source-supported parent readings leave one natural pairing scale on the live

@@ -7,18 +7,25 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
-> **2026-08-13 K77 I2B SOURCE/BV--KOSZUL--TATE EXACT SEQUENCE (ledger
-> v0.232).** The 196-cell source chart, rank-25 ordinary gauge image and
-> 66-column first reducibility close exactly, but the fourteen-cell
-> source-natural and twelve-cell conditional-`Q_u` Euler covectors both
-> descend nonzero. Koszul--Tate resolves their Euler ideal; it does not
-> restrict primal `varpi/T` variations or imply stationarity. **Do not run
-> another ordinary gauge/BV quotient. Construct the smallest new action-owned
-> primal-constraint term or moving/field-dependent reduction, preregister its
-> added fields and parameters, and test its action-derived tangent image
-> against both obstruction families.** Keep selected K77, two
+> **2026-08-13 K77 I2B MINIMAL COVARIANT-REDUCTION ACTION OWNERSHIP (ledger
+> v0.233).** Fixed `D omega=0` has rank 196 and erases the whole selected Cl1
+> bank including the current half-exchanging Higgs-like carrier. Fixed
+> `D J4=0` has rank 56 and preserves the normal carrier but leaves ten
+> source-natural and eight conditional-`Q_u` Euler cells. Moving compatibility
+> projects surjectively onto `T`; compatible penalties have zero first
+> variation; only a 196-component `omega` multiplier fits both Euler families,
+> at zero-surplus and with `K_omega=0`. **Do not run another fixed projector,
+> compatible penalty or free multiplier. Extract the smallest nonlinear source-action
+> owner with positive constraint surplus that preserves a nonzero
+> intrinsic-torsion/Higgs carrier, or certify source silence and explicitly
+> retype the carrier.** Keep selected K77, two
 > `C^(32,32)` halves, their block subgroup and full `U(64,64)` distinct. No
 > accounting, datum, canon or public-posture move.
+
+> **Predecessor v0.232 — SOURCE/BV--KOSZUL--TATE EXACT SEQUENCE.** The local
+> source chart, gauge image and first reducibility close, but both Euler
+> covectors descend nonzero. KT resolves their ideal rather than selecting a
+> primal tangent. V0.233 supersedes only its minimal action-ownership successor.
 
 > **Predecessor v0.231 — K77 I2B SOURCE-NATURAL PRIMALIZER
 > CLASSIFICATION.** Both source-supported fixed-parent readings leave one

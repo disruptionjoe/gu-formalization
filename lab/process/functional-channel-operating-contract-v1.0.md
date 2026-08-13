@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.232.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.232.md`.
+`lab/process/conditional-physics-ledger-v0.233.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.233.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -62,17 +62,17 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
-The v0.232 source/BV--Koszul--Tate exact-sequence theorem closes ordinary
-current-source BV/KT as a repair on the live branch. The 196-cell source chart,
-rank-25 residual gauge image and 66-column first reducibility close exactly,
-but the fourteen-cell source-natural and twelve-cell conditional-`Q_u` Euler
-covectors descend nonzero. Build must not confuse KT resolution of the Euler
-ideal with a restriction on primal variations or run another ordinary gauge/
-BV quotient. Its rank-one successor is one action-ownership problem: construct
-a new primal-constraint term or moving/field-dependent reduction, preregister
-its fields and parameters, and test its action-derived tangent image against
-both obstruction families. The selected K77 bank, two `C^(32,32)` halves,
-their block subgroup and full `U(64,64)` parent remain distinct.
+The v0.233 minimal covariant-reduction action-ownership theorem exhausts the
+fixed/moving constraint, penalty and multiplier families built from existing
+`omega/J4` on the selected Cl1 bank. Fixed `omega` erases the current carrier;
+fixed `J4` leaves both Euler families; moving compatibility transports rather
+than selects; compatible penalties have zero first variation; and only a
+zero-surplus 196-component `omega` multiplier fits both while setting
+`K_omega=0`. Build must not rerun these minimal repairs. Its rank-one successor
+is one nonlinear source-action ownership or carrier-retyping problem, with
+every field and coefficient preregistered and positive constraint surplus
+required. The selected K77 bank, two `C^(32,32)` halves, their block subgroup
+and full `U(64,64)` parent remain distinct.
 
 The predecessor v0.230 independent-tangent theorem closes the mistyped moving-geometry
 repair. Since `varpi` varies independently at fixed `epsilon` and geometry,

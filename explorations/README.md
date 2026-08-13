@@ -7,13 +7,23 @@ updated_at: "2026-08-13"
 
 # Explorations
 
-## K77 I2B source/BV--Koszul--Tate exact sequence (2026-08-13)
+## K77 I2B minimal covariant-reduction action ownership (2026-08-13)
+
+`conditional-build/selected-k77-i2b-minimal-covariant-reduction-action-ownership-2026-08-13.md`
+classifies the complete minimal fixed/moving `omega/J4` constraint, penalty and
+multiplier families. Fixed `omega` erases the current carrier, fixed `J4`
+leaves ten/eight Euler cells, moving compatibility transports, penalties have
+zero first variation, and only a zero-surplus `omega` multiplier fits both.
+Ledger v0.233 sends rank one to a nonlinear source-action owner or explicit
+carrier retyping.
+
+## Predecessor: K77 I2B source/BV--Koszul--Tate exact sequence (2026-08-13)
 
 `conditional-build/selected-k77-i2b-source-bvkt-exact-sequence-2026-08-13.md`
 constructs the exact local source chart, rank-25 gauge map and 66-column first
 reducibility. Both live Euler covectors satisfy KT nilpotence and descend
-nonzero. Ledger v0.232 closes ordinary current-source BV/KT as an escape and
-sends rank one to a new action-owned primal constraint or moving reduction.
+nonzero. Ledger v0.232 closes ordinary current-source BV/KT as an escape;
+v0.233 supersedes only its minimal action-ownership successor.
 
 ## Predecessor: K77 I2B source-natural primalizer classification (2026-08-13)
 
