@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-11",
-  "run_id": "RUN-20260811-060939-gu-k77-global-normal-symbol-descent",
+  "run_id": "historical-investigation",
   "status": "ACTUAL_NORMAL_SYMBOL_TYPED__GLOBAL_ASSOCIATED_BUNDLE_DESCENT_NONCHARACTERISTIC_ONLY__NULL_INVERTIBILITY_KILLED__DARBOUX_ATLAS_GLUES__GRAPH_UNSELECTED",
   "checks": {
     "total": 46,

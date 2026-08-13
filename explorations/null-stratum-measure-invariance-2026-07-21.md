@@ -5,14 +5,11 @@ doc_type: exploration
 created: 2026-07-21
 prereg: explorations/prereg-null-stratum-measure-invariance-swing-2026-07-21.md
 portfolio_item: FALSIFICATION-BATTERY
-lane: "1"
 targets: [T-D1, T-D2, T-D3, H-D1, H-D2]
 probe: tests/channel-swings/null_stratum_measure_invariance_probe.py
 outcome: FAIL
 scientific_grade: deterministic_fixture_recomputation_and_structural_measure_audit
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
@@ -130,7 +127,7 @@ Unchanged:
 
 ## Next-Work Handoff
 
-### Within Lane 1
+### Within truth-status research
 
 1. `FALSIFICATION-BATTERY`: classify the internal track as largely exhausted
    for now. T-D1/T-D2 are decided here; T-D3 is interface-underdefined; T-E2 and
@@ -143,17 +140,17 @@ Unchanged:
 3. `CONSTRUCTION-SPACE-EXPLORATION`: remains source-gapped at the C1 packet and
    must not infer the seven unresolved axes.
 
-### Cross-lane rerank
+### Cross-agenda rerank
 
-1. **Lane 2 — `P-OBS-LEG`**: recommended next lane. Its wake condition is met by
+1. **prediction research — `P-OBS-LEG`**: recommended next lane. Its wake condition is met by
    frozen Prediction Packet 1, and current committed maps name it as the strongest
    independent alternative after the C1 source gap.
-2. **Lane 1 — source-gated leaders**: retain the protected purpose, but wait for
+2. **truth-status research — source-gated leaders**: retain the protected purpose, but wait for
    the operator-end/C1 source object or genuinely new battery evidence.
-3. **Lane 3 — `PROOF-STABLE-KERNELS`**: normally the hardening leader, but its
+3. **result-hardening research — `PROOF-STABLE-KERNELS`**: normally the hardening leader, but its
    next step starts with a Lean/Lake baseline and was ineligible in this run.
 
-Recommended scheduling switch: **Lane 2 / `P-OBS-LEG`**. This is an advisory
+Recommended scheduling switch: **prediction research / `P-OBS-LEG`**. This is an advisory
 handoff, not a durable portfolio edit. Daily Stewardship should reconcile the
 stale `OPERATOR-END-PENCIL` Q2 wording and the battery's now-exhausted internal
 list.

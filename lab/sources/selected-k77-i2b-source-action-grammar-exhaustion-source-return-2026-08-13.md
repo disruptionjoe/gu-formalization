@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-054000-gu-i2b-source-action-grammar-exhaustion
 source_disposition: SOURCE_CONFIRMS_I1B_I2B_AND_TOTAL_FERMION_RESIDUAL__SOURCE_SILENT_ADDITIONAL_ZERO_FERMION_BOSONIC_CANCELLATION_OWNER
 ---
 

@@ -76,7 +76,7 @@ reproduced:
 | horizontal 24 | 9 | 6 | 12 |
 | off-slice 1,250 | 4 | 88 | 89 |
 
-Wrong receiver, metric-only and epsilon-only plants could not impersonate the
+Wrong receiver, metric-only and epsilon-only plants could not imperspectivete the
 accepted combined ranks.
 
 ## Efficient specialist assessment

@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-040603-gu-k77-moving-antidualizer-darboux
 verdict: SCOPED_SURVIVES__FIRST_JET_DARBOUX_COMPLETION_EXACT__ACTUAL_K77_GLOBAL_COEFFICIENT_AND_ANALYTIC_DOMAIN_OPEN__NO_GRAPH_SELECTION
 ---
 

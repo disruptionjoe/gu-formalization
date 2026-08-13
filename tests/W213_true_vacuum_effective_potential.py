@@ -53,7 +53,7 @@ CONTEXT (CITED, not re-derived):
     the arrow of time; the DBI cap converts the runaway to LINEAR p (steady de-Sitter-rate
     N), so the runaway is a bounded-RATE clock, not a static vacuum.
 
-FIVE personas inline, one worker, no sub-agents: (1) effective-potential specialist,
+FIVE perspectives inline, one worker, no independent reviewers: (1) effective-potential specialist,
 (2) variational analyst, (3) spectrum / stability checker, (4) record-count-mode
 specialist, (5) ruthless skeptic.  Deterministic sympy, positive controls first.
 Run:  python -u tests/W213_true_vacuum_effective_potential.py   (exit 0 iff all PASS).

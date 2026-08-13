@@ -56,7 +56,7 @@ the cross-consistency pass and pins the table's class tallies to this document.
 
 ---
 
-## 1. Persona 1 (EFT theorist): the requirements table
+## 1. Perspective 1 (EFT theorist): the requirements table
 
 27 rows. Every row cites its artifact; where a machine check exists the test is named.
 Composite items are split into lettered sub-rows so each row has exactly one class.
@@ -65,12 +65,12 @@ Composite items are split into lettered sub-rows so each row has exactly one cla
 
 | ID | Requirement | Class | Source artifact | Test |
 |---|---|---|---|---|
-| SA-Y1 | The Higgs carrier MUST be a form carrier Lambda^k(V14). Non-form carriers (e.g. Sym^2_0 V, dim 104) have dim Hom = 0: no Yukawa channel exists, exactly (checksum saturation of End(S) by forms). k = 0 is the unique mass-type (Dirac-Yukawa) channel, cross-chirality only; Majorana scalar on S+ x S+ is forbidden (SHIAB-05). | FORCED | explorations/yukawa-scoping-2026-07-13.md (Persona 1, channel table); canon/shiab-existence-cl95.md | tests/yukawa-scoping/yukawa_trilinear_channels.py (20/20, exit 0) |
-| SA-Y2 | WHICH Lambda^k the physical Higgs sits in (k = 0 for mass generation), plus which texture fork the physical Yukawa uses (charges-add / transpose-bilinear C channel giving the 1+2 block, vs charges-subtract / Krein sesquilinear giving diagonal). | DECLARATION | yukawa-scoping-2026-07-13.md (Personas 1-2; both forks computed) | same |
+| SA-Y1 | The Higgs carrier MUST be a form carrier Lambda^k(V14). Non-form carriers (e.g. Sym^2_0 V, dim 104) have dim Hom = 0: no Yukawa channel exists, exactly (checksum saturation of End(S) by forms). k = 0 is the unique mass-type (Dirac-Yukawa) channel, cross-chirality only; Majorana scalar on S+ x S+ is forbidden (SHIAB-05). | FORCED | explorations/yukawa-scoping-2026-07-13.md (Perspective 1, channel table); canon/shiab-existence-cl95.md | tests/yukawa-scoping/yukawa_trilinear_channels.py (20/20, exit 0) |
+| SA-Y2 | WHICH Lambda^k the physical Higgs sits in (k = 0 for mass generation), plus which texture fork the physical Yukawa uses (charges-add / transpose-bilinear C channel giving the 1+2 block, vs charges-subtract / Krein sesquilinear giving diagonal). | DECLARATION | yukawa-scoping-2026-07-13.md (Perspectives 1-2; both forks computed) | same |
 | SA-Y3 | The Higgs vev (the scale multiplying the unique channel). | FIT | yukawa-scoping-2026-07-13.md ("what the source action must supply" (i)) | -- |
-| SA-Y4 | The three surviving complex couplings {y00, y12, y21} (9 -> 3 by the derived Z/3; singular values exactly {\|y00\|,\|y12\|,\|y21\|}; no forced degeneracy, ordering, or ratio). Supplied as three free numbers UNLESS SA-Y5 is taken. | FIT | yukawa-scoping-2026-07-13.md (Personas 2, 4) | tests/yukawa-scoping/yukawa_trilinear_channels.py |
-| SA-Y5 | The hierarchy mechanism, if hierarchy is to be mechanized rather than fitted: a flavor symmetry STRICTLY LARGER than the built Z/3 (charges valued beyond mod 3), plus a flavon and a small parameter. The built structure provably cannot do it: mod-3 FN charges are sterile for ALL 27 assignments (invariant = charge sum 0 = ungraded). Exclusive-or with SA-Y4 as the hierarchy's supply route. | DECLARATION | yukawa-scoping-2026-07-13.md (Persona 4, FN sterility) | yukawa test + spec-consistency test (block E) |
-| SA-Y6 | The sector-to-flavor assignment (which Z/3 grading sector is which physical generation; identifying sector 0 with the top quark is the answer-as-premise trap, W60). | DECLARATION | yukawa-scoping-2026-07-13.md (Persona 3) | -- |
+| SA-Y4 | The three surviving complex couplings {y00, y12, y21} (9 -> 3 by the derived Z/3; singular values exactly {\|y00\|,\|y12\|,\|y21\|}; no forced degeneracy, ordering, or ratio). Supplied as three free numbers UNLESS SA-Y5 is taken. | FIT | yukawa-scoping-2026-07-13.md (Perspectives 2, 4) | tests/yukawa-scoping/yukawa_trilinear_channels.py |
+| SA-Y5 | The hierarchy mechanism, if hierarchy is to be mechanized rather than fitted: a flavor symmetry STRICTLY LARGER than the built Z/3 (charges valued beyond mod 3), plus a flavon and a small parameter. The built structure provably cannot do it: mod-3 FN charges are sterile for ALL 27 assignments (invariant = charge sum 0 = ungraded). Exclusive-or with SA-Y4 as the hierarchy's supply route. | DECLARATION | yukawa-scoping-2026-07-13.md (Perspective 4, FN sterility) | yukawa test + spec-consistency test (block E) |
+| SA-Y6 | The sector-to-flavor assignment (which Z/3 grading sector is which physical generation; identifying sector 0 with the top quark is the answer-as-premise trap, W60). | DECLARATION | yukawa-scoping-2026-07-13.md (Perspective 3) | -- |
 | SA-Y7a | The family-symmetry-breaking spurion's TYPE: forced to be a Z/3 DOUBLET spurion in Sym^2(Lambda^2_+) (Schur degeneracy of the collective pair; Sym^2 branching 2 singlets + 2 doublets; H64). | FORCED | explorations/H64-mass-selection-first-swing-2026-07-11.md | tests/W76_H64_mass_selection_swing.py (16/16, exit 0) |
 | SA-Y7b | The spurion's VALUES: split magnitude, hierarchy direction (sign), intra-collective mixing angle. Fully free, both signs, a continuum (H64: World A does not obtain). | FIT | H64-mass-selection-first-swing-2026-07-11.md | same |
 | SA-Y8 | The Majorana spurion, ONLY IF same-chirality masses are wanted: the equivariant channel is provably absent (dim Hom(S+ x S+, Lambda^0) = 0, SHIAB-05), so same-chirality mass requires an equivariance-breaking spurion the source action supplies. | DECLARATION (conditional) | canon/shiab-existence-cl95.md (SHIAB-05); yukawa-scoping-2026-07-13.md (control reproduction) | tests/yukawa-scoping/yukawa_trilinear_channels.py |
@@ -124,7 +124,7 @@ SA-G6 alpha).
 
 ---
 
-## 2. Persona 2 (representation theorist): cross-consistency of the FORCED set
+## 2. Perspective 2 (representation theorist): cross-consistency of the FORCED set
 
 Question: can ONE operator simultaneously satisfy all eight FORCED items? Checked at the level
 of established Hom-space and index results; anything computable is in the companion test.
@@ -176,7 +176,7 @@ newly enumerated Yukawa-side FORCED items by sector disjointness.)
 
 ---
 
-## 3. Persona 3 (higher-spin / causality specialist): the cure term in detail
+## 3. Perspective 3 (higher-spin / causality specialist): the cure term in detail
 
 What SA-C2 + SA-U3 jointly demand of the build, per the wave34 literature scan and the
 wave35 carve:
@@ -217,7 +217,7 @@ wave35 carve:
 
 ---
 
-## 4. Persona 4 (Lakatos / honesty auditor): progressive vs self-granted freedom
+## 4. Perspective 4 (Lakatos / honesty auditor): progressive vs self-granted freedom
 
 The E1 rule stands: this spec is a MAP. Enumerable requirements are not satisfied
 requirements. Classification of the ledger's epistemic direction:
@@ -254,7 +254,7 @@ quietly consume the declarations as fits. The Clean Prediction Rule is the guard
 
 ---
 
-## 5. Persona 5 (systems expositor): dependencies, tensions, acceptance
+## 5. Perspective 5 (systems expositor): dependencies, tensions, acceptance
 
 ### 5.1 Dependency graph
 
@@ -343,7 +343,7 @@ prediction-grade emission.
   level of established Hom-space and index results" is not "the build exists" nor "the build
   is consistent to all orders".
 
-*Filed 2026-07-13. Five personas run inline in one session (EFT theorist, representation
+*Filed 2026-07-13. Five perspectives run inline in one session (EFT theorist, representation
 theorist, higher-spin/causality specialist, Lakatos/honesty auditor, systems expositor).
 Reproducible: `python tests/spec-consistency/source_action_requirements_consistency.py`
 (33/33, exit 0). Exploration-grade; promotion, if any, goes through the runbook; no canon

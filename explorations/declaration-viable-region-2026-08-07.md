@@ -2,7 +2,6 @@
 artifact_type: exploration_result
 created: 2026-08-07
 status: GENESIS_SET_IS_NOT_SELF_CONSTRAINING__ZERO_INTERNAL_EXCLUSIONS__ALL_REDUCTION_IS_TARGET_IMPOSED
-run_id: GUH-20260808T024447Z-source-action-parameter-structure
 grade: "CLASSIFICATION OVER FILED TEXT. Every option set and every constraint is
   read from explorations/source-action-requirements-spec-2026-07-13.md and
   classified. The option COUNTS involve reading judgment and are reported as
@@ -11,9 +10,7 @@ grade: "CLASSIFICATION OVER FILED TEXT. Every option set and every constraint is
   line by line against the five tensions."
 ledger: lab/process/conditional-physics-ledger-v0.39.json
 ledger_staleness_note: "Analysed against v0.39. The ledger reached v0.68 the same day; re-verify counts before citing. The verdict split moved 32/19/25/6 -> 32/19/26/5 as AC-G1 was superseded by AC-G1a."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []
@@ -135,5 +132,5 @@ measure of how far the current specification is from rigid.
 ## Fences
 
 No verdict, row, distance, revival trigger, residue count, quotient, fork, canon
-entry, lane, priority or queue rank moves. Test B of the run plan (ranking the
+entry, lane, priority or queue rank moves. Test B of the investigation plan (ranking the
 quotients) was **not** executed and remains open.

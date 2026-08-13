@@ -2,16 +2,11 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: OBSERVED_HOLONOMIC_PRINCIPAL_IMAGE_FULL_RANK196__TARGET_REACHABLE__SELECTION_AND_GLOBAL_REALIZATION_OPEN
-run_id: RUN-20260813-074018-gu-i2b-holonomic-jet-euler-image
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 channels: [Build, Compose, Source, Verify]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: SC-ACT-04
 source_return: SOURCE_CONFIRMS_I2B_CONNECTION_GRAMMAR__SOURCE_SILENT_SELECTED_HOLONOMIC_SECOND_JET_AND_GLOBAL_REALIZATION__REPOSITORY_DERIVES_LOCAL_PRINCIPAL_IMAGE_SURVIVAL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "196-dimensional real connection cotangent; ten symmetric observed-spacetime second-jet blocks; decided wholesale"
 free_object_delta: 0

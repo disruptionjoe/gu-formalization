@@ -58,7 +58,7 @@ history from a narrow keyword search.
 
 If the audit closes without an integrity conflict and enough run capacity remains, continue directly into Swing
 1 in the same hourly run. The history audit still does not count as a defense swing; the typed scope-and-fork
-work does. Do not create history-only receipts merely to increase the run count.
+work does. Do not create history-only receipts merely to increase the investigation count.
 
 ## Six-axis consideration for class-relative scope
 
@@ -82,7 +82,7 @@ also contains class-invariant hard cores, so an axis change must face the origin
 ## Minimum three-swing sequence
 
 After the history audit, each branch-local no-go receives at least three substantial hourly swings. A run may
-do more than one linked check, but it may not count prose, queue maintenance, persona voting, the history audit,
+do more than one linked check, but it may not count prose, queue maintenance, perspective voting, the history audit,
 or a relabeling as a swing.
 
 ### Swing 1: type, minimize, and fork the obstruction
@@ -122,7 +122,7 @@ Allowed outcomes: `NO_SURVIVOR`, `SURVIVOR_CANDIDATE`, `NEW_DEPENDENCY`, or `INV
 
 Allowed outcomes: `CLASS_EXHAUSTED`, `BOUNDED_NO_GO`, `REFRAMED_SURVIVOR`, or `MORE_CONSTRUCTION_SPACE`.
 
-`MORE_CONSTRUCTION_SPACE` is lawful only when the run identifies a new source-owned construction and a finite
+`MORE_CONSTRUCTION_SPACE` is lawful only when the investigation identifies a new source-owned construction and a finite
 test. Repeating the same obstruction with a new name is not progress.
 
 ## Interaction with claim status

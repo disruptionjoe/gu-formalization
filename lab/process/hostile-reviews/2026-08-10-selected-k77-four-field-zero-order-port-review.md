@@ -2,7 +2,6 @@
 title: "Hostile review: selected K77 four-field zero-order port"
 status: scoped_pass
 date: 2026-08-10
-run_id: RUN-20260810-090656-gu-k77-four-field-zero-order-port
 ---
 
 # Hostile review

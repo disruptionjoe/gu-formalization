@@ -3,14 +3,11 @@ title: "RB4 moving observer/Cartan family and source-indicated complex--Cartan f
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-RB4
-run: lab/process/runs/GUH-20260731T004116Z-rb4-observer-cartan-mover/run-plan.md
+run: lab/evidence/predecessor-records/rb4-observer-cartan-moving-family.md
 probe: tests/channel-swings/rb4_observer_cartan_moving_family_probe.py
 grade: "EXACT FINITE GEOMETRY / ACTION OWNERSHIP OPEN. The native trace-reversed Sym2 fibre, base-induced W4(u) Cartan projector, complement, orientations, Clifford frame, volumes, conditional Phi family, internal moving-t family, and optional moving-J family are constructed and tested with powered frozen controls. The observer-only map u->J is exactly obstructed by the fixed-u SO(3) stabilizer and a planted path-dependence control. Source inspection supports, but does not prove, a dynamical complex--Cartan flag interpretation. No epsilon_IG-to-flag map, flag Euler equation, stable orbit, SM determinant-one reduction, retained mode, mass, cosmological value, index, or count is constructed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "MOVING-u-CARTAN-EXACT; u-TO-J-REFUTED; COMPLEX-CARTAN-FLAG-DYNAMIC-CANDIDATE; OWNERSHIP-OPEN"
 ---
 

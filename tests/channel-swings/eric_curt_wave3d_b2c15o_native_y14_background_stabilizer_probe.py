@@ -129,7 +129,7 @@ def source_checks() -> None:
     pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
     transcription = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     ).read_text()
     portal = (
         ROOT / "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md"

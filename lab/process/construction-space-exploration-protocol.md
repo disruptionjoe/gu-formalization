@@ -16,7 +16,7 @@ The defense protocol prevents a branch-local no-go from being mistaken for an
 exhaustive no-go, and its stop rule prevents unlimited rescue-swinging of one
 frozen construction. What it does not do is generate new constructions: its
 reopen conditions are passive ("wake when a fork appears") and nothing owned
-producing that fork. This protocol makes the search itself first-class Lane 1
+producing that fork. This protocol makes the search itself first-class truth-status research
 work. It changes the search strategy only — the truth standard (target-free,
 native-versus-imported typing, adversarial twins, Joe-gated verdicts) is
 unchanged.
@@ -134,9 +134,9 @@ weaker surviving compatibility result recorded.
 ## Search-strategy council (at every stage boundary)
 
 At each stage boundary — map built, each sector track's round complete,
-before each weave — run a search-strategy council as an inline persona pass
+before each weave — run a search-strategy council as an inline perspective pass
 in one worker (members reason independently, then rank, then a chairman
-synthesizes; never one agent per persona). Standing bench, adjustable per
+synthesizes; never one agent per perspective). Standing bench, adjustable per
 round: differential geometer, category theorist, statistician
 (experimental-design/information-gain), computer scientist (search
 algorithms), machine-learning researcher, condensed-matter physicist,
@@ -172,7 +172,7 @@ is not evidence for or against GU and cannot move claim status.
 - The defense register's wake conditions are unchanged; this program is
   their active generator, not their replacement.
 - Sector-fit candidates are internal work objects, not publishable claims;
-  Lane 3 handles hardening only after a candidate survives its own frozen
+  result-hardening research handles hardening only after a candidate survives its own frozen
   benchmark.
 - Claim strength always equals the rung achieved: a Rung-0/1 joint survivor
   supports "there exists a construction jointly consistent with these

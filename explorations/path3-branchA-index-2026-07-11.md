@@ -14,7 +14,7 @@ scripts:
 
 **Blind-wave discipline.** This is one branch of a multi-team wave attacking "why three
 generations?" from different constructions of *what the count is*. This branch alone reports;
-it does not synthesize across branches. Below, a 5-persona team ran inline (Index Theorist ->
+it does not synthesize across branches. Below, a 5-perspective team ran inline (Index Theorist ->
 Referee -> Adversary -> Cross-Checker -> Synthesizer) over a single computation.
 
 **Construction of "the count" used (fork discipline, `GEOMETER-VS-PHYSICS-OBJECTS.md`).** The

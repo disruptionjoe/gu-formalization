@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-110014-gu-i2b-full-unitary-image-covariance",
+  "run_id": "historical-investigation",
   "ledger_version": "0.203",
   "lane": "1",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

@@ -11,7 +11,7 @@ review = (ROOT / "lab/process/hostile-reviews/2026-08-08-selected-k77-gamma-sold
 source = (ROOT / "lab/sources/selected-k77-gamma-soldered-epsilon-dupsilon-orbit-source-reinspection-2026-08-08.md").read_text()
 ledger = json.loads((ROOT / "lab/process/conditional-physics-ledger-v0.84.json").read_text())
 registry = json.loads((ROOT / "lab/process/selected-k77-gamma-soldered-epsilon-dupsilon-orbit.json").read_text())
-contract = json.loads((ROOT / "lab/process/functional-channel-operating-contract-v1.0.json").read_text())
+contract = json.loads((ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text())
 
 for phrase in (
     "negative of the spin Levi-Civita",

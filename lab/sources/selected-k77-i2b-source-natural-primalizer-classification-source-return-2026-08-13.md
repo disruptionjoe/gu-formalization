@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-024925-gu-i2b-source-natural-primalizer-classification
 source_claims: [SC-GRP-01, SC-GRP-02, SC-ACT-04]
 return_code: SOURCE_CONFIRMS_NORM_SQUARE_TWO_HALVES_AND_FULL_PARENT__SOURCE_SILENT_REAL_K77_QB__REPO_DERIVES_FIXED_NATURAL_GRADE_ONE_PAIRING_UNIQUE_UP_TO_SCALE
 ---

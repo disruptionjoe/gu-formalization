@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.193 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; full U(64,64) and two U(32,32) halves are conditionally Witt-compatible after non-null q, while q and the physical varpi block remain unselected"
   },
-  "updated_by": "RUN-20260812-030756-gu-two-half-hermitian-witt-map",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

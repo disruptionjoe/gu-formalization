@@ -15,7 +15,7 @@ REGISTRY = ROOT / "lab/process/k77-exact-bank-api-v1.json"
 BANK = ROOT / "tests/fixtures/k77_exact_coefficient_bank_v1.json"
 API = ROOT / "tests/channel-swings/k77_exact_bank_api.py"
 BUILDER = ROOT / "tests/channel-swings/k77_exact_bank_build.py"
-CONTRACT = ROOT / "lab/process/functional-channel-operating-contract-v1.0.json"
+CONTRACT = ROOT / "lab/methods/research-evidence-contract-v1.0.json"
 LEDGER = ROOT / "lab/process/conditional-physics-ledger-v0.124.json"
 checks = []
 
@@ -99,7 +99,7 @@ check("exact", "no verdict canon or posture change",
 routing = contract["channels"]["VERIFY"]["efficient_specialist_routing"]
 check("exact", "efficient routing has exactly eight mandatory roles", len(routing["mandatory_eight"]) == 8)
 check("exact", "specialist routing is inline by default",
-      routing["execution_mode"] == "INLINE_ROLES__NO_PERSONA_PER_SUBAGENT_DEFAULT")
+      routing["execution_mode"] == "INLINE_ROLES__NO_PERSPECTIVE_PER_SUBAGENT_DEFAULT")
 check("exact", "trigger map covers exact computation and provenance",
       {"EXACT_COMPUTATION_ARCHITECTURE", "DISTRIBUTED_PROVENANCE"}.issubset(routing["object_triggered"]))
 check("exact", "lens output distinguishes math from analogy",
@@ -126,7 +126,7 @@ plant_routing["mandatory_eight"].pop()
 check("planted", "PLANT missing mandatory lens fires", len(plant_routing["mandatory_eight"]) != 8)
 plant_routing = deepcopy(routing)
 plant_routing["all_lenses_every_cell"] = True
-check("planted", "PLANT persona-count theater fires", plant_routing["all_lenses_every_cell"] is not False)
+check("planted", "PLANT perspective-count theater fires", plant_routing["all_lenses_every_cell"] is not False)
 
 failures = [label for _, label, ok in checks if not ok]
 exact = sum(kind == "exact" for kind, _, _ in checks)

@@ -13,9 +13,7 @@ inputs:
   - explorations/blockbuster-p3-one-bit-dossier-v2-2026-07-19.md
   - canon/source-action-seiberg-witten-construction.md
 probe: tests/channel-swings/council_committed_w1_Ltime_probe.py (foreground, deterministic two-run-identical, EXIT 0)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 kill_conditions_declared_before_computation: true
 ---

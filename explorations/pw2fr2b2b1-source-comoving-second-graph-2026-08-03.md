@@ -2,8 +2,7 @@
 title: PW2F-R2B2B1 — source split and co-moving second-graph prerequisite
 date: 2026-08-03
 status: SCOPED_FINITE_PREREQUISITE_PASS_COMPLETE_C5_C4_OPEN
-lane: Eric-guided Lane 1; source and active-reconstruction columns separated
-run: RUN-20260803-070259-gu-formalization-pw2fr2b2b1-source-comoving-graph
+run: historical-investigation
 ---
 
 # Result

@@ -3,13 +3,10 @@ title: "Source-owned chimeric/BV construction campaign: nine critical-path swing
 status: preregistration
 doc_type: campaign_scaffold
 created: 2026-07-29
-lane: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN
-run: lab/process/runs/GUH-20260729T235000Z-chimeric-bv-campaign-scaffold/run-plan.md
+run: archived private execution record
 directed_by: "Joe direct chat, 2026-07-29 (scaffold five to ten efficient, information-gaining swings that genuinely try to build the source action)"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 scientific_execution: none
 ---
 

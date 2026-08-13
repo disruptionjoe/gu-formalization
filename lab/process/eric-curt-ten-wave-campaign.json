@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T181634Z-eric-curt-ten-wave-campaign-c0",
+  "run_id": "historical-investigation",
   "branch": "agent/weinstein-guided-source-action",
   "lane": "1",
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
@@ -651,7 +651,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
         "active_next_swing": "SOURCE_NATIVE_ODD_CURVATURE_OR_RICHER_SOLDERING_OWNER_AND_NULL_SCREEN",
-        "active_next_swing_owner": "lab/process/functional-channel-operating-contract-v1.0.json#active_scientific_directives[GU-COSMO-DYNAMIC-01].next_run_method",
+        "active_next_swing_owner": "lab/methods/research-evidence-contract-v1.0.json#active_scientific_directives[GU-COSMO-DYNAMIC-01].next_run_method",
         "historical_active_next_swing": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
         "active_next_swing_reconciled_at": "2026-08-07",
         "alternative_branch_next_swing": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",

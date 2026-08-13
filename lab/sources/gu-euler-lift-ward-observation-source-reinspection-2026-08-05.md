@@ -3,11 +3,8 @@ title: "GU Euler-lift, Ward, and observation receiver source reinspection"
 status: source
 doc_type: source-reinspection
 created: 2026-08-05
-lane: "1"
 grade: "SOURCE-CONFIRMS observation/pullback grammar; SOURCE-SILENT on equation no-leakage, observed coefficient faithfulness, BV differential, and analytic domain"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # GU Euler-lift, Ward, and observation receiver source reinspection

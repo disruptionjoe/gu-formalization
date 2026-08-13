@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2H2 conditional I2B residual/primalizer/pairing second jet"
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-04"
-run_id: RUN-20260804-062944-gu-formalization-pw2fr2b2b2h2-i2b-second-primalizer
 ---
 
 # PW2F-R2B2B2H2 conditional I2B residual/primalizer/pairing second jet

@@ -3,7 +3,7 @@ r"""RB7: first non-metric source response and homogeneous stationary saddle.
 
 This probe executes the two tracks frozen in
 
-  GUH-20260731T033558Z-rb7-stationary-nonmetric-order-parameter.
+  historical-investigation
 
 Track A reconstructs the *tensor*, not merely the norm, of the conditional
 W177 ambient Yang--Mills Euler covector.  The connection one-form coindex is

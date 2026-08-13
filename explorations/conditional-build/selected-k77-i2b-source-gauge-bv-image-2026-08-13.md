@@ -1,11 +1,8 @@
 ---
 title: Selected K77 I2B source tangent and gauge/BV image
 date: 2026-08-13
-lane: Eric / Lane 1 / conditional Build
 grade: EXACT_LOCAL_SELECTED_REAL_K77_FIXED_BACKGROUND
 verdict_change: none
-canon_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B source tangent and gauge/BV image

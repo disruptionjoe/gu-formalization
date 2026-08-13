@@ -4,9 +4,9 @@ created: 2026-07-06
 title: "VG-SA: Mannheim primary-source intake (rung 0) — gamma splits into an action-fixed local part and a curvature-datum cosmological part (pass-1 kill condition 2 adjudicates SPLIT, not fired-as-stated); kappa is a sourced moment integral, not an integration constant; q0=-0.37 is a fitted constant with no w(z) anywhere in the primaries; CC cancellation is a two-sector identity conditional on gamma_theta=-1 critical scaling; RH-neutrino and lensing-sign claims stay episode-only/unverified"
 grade: "EXTRACTION (rung-0 source intake; no claim movement). The only computable content — the papers' internal numerical relations — passes 9 cross-checks plus a scrambled control at exit 0. Per-claim verdicts below use CHECKED / STILL-UNVERIFIED; the house computational enum does not apply to an extraction route and is not claimed."
 depends_on:
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
-  - explorations/persona-and-dialectic/conformal-class-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/conformal-class-steelman-hegelian-2026-07-06.md
   - explorations/generation-sector/mannheim-conformal-gravity-source-action-intake-2026-07-06.md
   - explorations/big-swing-2026-07-06/CROSS-EXAM-weinstein-turok-mannheim-first-principles.md
 scripts:

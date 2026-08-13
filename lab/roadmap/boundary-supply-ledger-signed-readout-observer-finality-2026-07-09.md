@@ -4,9 +4,6 @@ status: candidate_open_problem
 governance_role: open_problem_selection
 created: 2026-07-09
 parent_intake: boundary-supply-ledger-intake-2026-07-09.md
-claim_status_change: none
-canon_change: none
-public_posture_change: none
 ---
 
 # Boundary Supply Ledger Row: Signed-Readout / Observer-Finality Adapter

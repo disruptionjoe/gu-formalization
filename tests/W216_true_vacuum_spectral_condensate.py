@@ -59,9 +59,9 @@ condense; a positive-definite metric shows NO complex collision).
 
 Reproducible:  python -u tests/W216_true_vacuum_spectral_condensate.py   (numpy/scipy; exit 0)
 
-Filed 2026-07-14 by TEAM SPECTRAL-CONDENSATE (W216).  Five personas inline in one worker (spectral
+Filed 2026-07-14 by TEAM SPECTRAL-CONDENSATE (W216).  Five perspectives inline in one worker (spectral
 analyst; condensate / gap-equation (BCS) specialist; Krein / C-operator specialist; mirror-record
-sector specialist; ruthless skeptic); no sub-agents.  Zero em dashes.  Exploration grade; no canon
+sector specialist; ruthless skeptic); no independent reviewers.  Zero em dashes.  Exploration grade; no canon
 movement; bar(b)/H59 OPEN.
 """
 

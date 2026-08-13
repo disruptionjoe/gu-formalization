@@ -6,9 +6,7 @@ status: INDEX__NOT_A_RESULT__POINTS_AT_EVERYTHING_FROM_THIS_SESSION
 grade: "INDEX ONLY. Establishes nothing. Exists because the day's findings otherwise live only in
   explorations/, which is archival rather than encountered. Each row points at the artifact that owns the
   claim and its grade."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Session index, 2026-08-09

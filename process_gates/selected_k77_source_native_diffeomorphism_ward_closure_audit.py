@@ -25,7 +25,7 @@ def strict(relative):
 
 registry = strict("lab/process/selected-k77-source-native-diffeomorphism-ward-closure.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.98.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-source-native-diffeomorphism-ward-closure-2026-08-08.md").read_text(encoding="utf-8")
 review = (ROOT / "lab/process/hostile-reviews/2026-08-08-selected-k77-source-native-diffeomorphism-ward-closure-review.md").read_text(encoding="utf-8")
 
@@ -102,10 +102,10 @@ for relative in (
 assert (ROOT / "tests/channel-swings/selected_k77_source_native_diffeomorphism_ward_closure_independent.sage").exists()
 
 for relative in (
-    "LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
+    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
     "explorations/README.md", "lab/process/README.md",
-    "lab/process/agent-context-pack.md",
-    "lab/process/functional-channel-operating-contract-v1.0.md",
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+    "lab/methods/research-evidence-contract-v1.0.md",
 ):
     assert "v0.98" in (ROOT / relative).read_text(encoding="utf-8")
 

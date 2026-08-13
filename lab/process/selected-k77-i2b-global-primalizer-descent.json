@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-131002-gu-i2b-global-primalizer-descent",
+  "run_id": "historical-investigation",
   "ledger_version": "0.207",
   "lane": "1",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

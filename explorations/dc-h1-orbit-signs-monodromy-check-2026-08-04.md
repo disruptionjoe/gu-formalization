@@ -3,7 +3,6 @@ artifact_type: exploration
 status: exploration
 doc_type: deciding-check
 created: 2026-08-04
-lane: "1"
 work_item: DC-H1
 title: "DC-H1: the B5 chirality-orbit signs ARE a path-type holonomy but NOT a framing-type one. The ten special-orbit relative signs are moved by parallel transport around the generator of pi_1(F) = Z/2 (the DeWitt metric-fibre loop), so the datum is a monodromy class and not a stored value. But the orientation character is QUADRATIC in the Clifford lift: it descends to SO, the deck element -I of Spin -> SO has character +1, and the character is invariant under an arbitrary change of trivialization. So the [L^13, SO] reframing freedom acts on the orbit signs through the ZERO homomorphism, P1 is NOT framing-determined, and the external ledger does not reduce. Layer-0: the Z/2 that fires is pi_0 of the Lorentz stabilizer O(3,1) -- the O(1) TIME REFLECTION named in canon Section 7 -- exhibited exactly as the orthochronous character; it is a REFLECTION Z/2, not the spin double-cover Z/2. Same group order, different mechanism: HOMONYM."
 grade: "EXACT finite linear algebra (Gaussian-integer Cl(9,5) rep, asserted) plus pure integer combinatorics, in tests/dc-h1/dc_h1_orbit_sign_monodromy_probe.py: 42 hard checks, four preregistered kill conditions, five firing negative controls, exits nonzero on any failure. The -1 loop return is INDEPENDENTLY reproduced here (no import from the full-20 probe) and agrees with the published result. CITED, not re-derived: the reduction of the ten relative phases to ONE common phase (Gamma-naturality plus the 136 written coefficient intertwiners, full20-dewitt-loop-transport-wave-2026-07-30, rerun green 2026-08-04). NOT established: any transfer of the loop from the metric fibre F to the 13-dim link L^13; any packet field, phase, Green form, domain, or operator; any movement of the count."
@@ -11,7 +10,7 @@ prereg: explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md
 probe: tests/dc-h1/dc_h1_orbit_sign_monodromy_probe.py
 kill_conditions_declared_before_computation: true
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md
   - canon/boundary-einvariant-and-the-tangential-fork.md
   - explorations/mh7-dim13-restatement-2026-08-03.md
@@ -23,9 +22,7 @@ depends_on:
   - explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md
 deposit: "pre-deposit; any decisive downstream use is J5-gated"
 construction: "program-native throughout per GEOMETER-VS-PHYSICS-OBJECTS.md: the certified B5 observer-symbol matrix, the program-native Krein-dual coflip C_perp = K J_obs, and the actual DeWitt metric fibre GL(4,R)/O(3,1). No positive-Hilbert substitution."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "DC-H1-PARTIAL: PATH-TYPE CONFIRMED, FRAMING MECHANISM FALSIFIED"
 ---
 

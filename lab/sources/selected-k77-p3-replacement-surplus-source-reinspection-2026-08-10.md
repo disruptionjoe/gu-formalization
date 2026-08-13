@@ -1,7 +1,6 @@
 ---
 artifact_type: source_reinspection_receipt
 created: 2026-08-10
-run_id: RUN-20260810-153236-gu-p3-replacement-surplus
 source_return: SOURCE_CONFIRMS_LORENTZIAN_TANGENT_NORMAL_SPINOR_SPLIT__SOURCE_SILENT_P3_TANGENTIAL_IDENTITY_HN_SOLDERING_AND_CHARACTERISTIC_AMPLITUDE
 ---
 

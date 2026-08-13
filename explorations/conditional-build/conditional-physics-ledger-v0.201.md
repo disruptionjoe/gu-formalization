@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.201"
-run_id: RUN-20260812-090014-gu-source-i2b-hq-stationarity
 ---
 
 # Conditional physics ledger v0.201

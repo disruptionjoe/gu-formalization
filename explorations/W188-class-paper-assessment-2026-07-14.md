@@ -32,7 +32,7 @@ scripts:
 open-system / Krein loop-unitarity result, begin the candidate; else scaffold a draft skeleton at honest
 grade. This wave runs the RUTHLESS novelty delineation (the decision that determines whether there is a
 paper at all), states the class-level theorems GU-free with grades, and produces the hardening ledger.
-Five personas inline, one worker, no sub-agents. Every quantitative claim ties to a repo test with
+Five perspectives inline, one worker, no independent reviewers. Every quantitative claim ties to a repo test with
 recorded exit status (Section 4). No canon / status / verdict change; drafts only; candidate promotion
 and any external action remain Joe-gated.
 
@@ -46,7 +46,7 @@ it below a threshold); but a pathological fixed point is EQUALLY self-consistent
 self-consistency does not select; selection reduces to the reservoir's Krein signature / a coupling
 ratio vs an O(1) threshold; and a decaying (fade) coupling can dynamically select the operative basin.
 
-## 1. Persona 1 -- PT-QFT / Krein prior-art scholar
+## 1. Perspective 1 -- PT-QFT / Krein prior-art scholar
 
 **Bender-Mannheim (PT-symmetric QFT; the C-operator; Pais-Uhlenbeck no-ghost theorem).** Bender-Mannheim
 established, for the CLOSED fourth-order Pais-Uhlenbeck oscillator and conformal (Weyl) gravity, that the
@@ -74,7 +74,7 @@ the ghost from the asymptotic state space). The candidate result is in the KEEP-
 does not compete head-on; but the physical-subspace unitarity defect it uses (Theorem 1) is exactly the
 Lee-Wick/CLOP physical-subspace object, so the defect identity is KNOWN-in-substance.
 
-## 2. Persona 2 -- open-quantum-systems scholar
+## 2. Perspective 2 -- open-quantum-systems scholar
 
 **Fano-Anderson / Friedrichs / Feshbach.** The discrete-state-plus-continuum model, the embedded
 eigenvalue dissolving into a resonance, the reduced (Feshbach) energy-dependent non-Hermitian effective
@@ -97,7 +97,7 @@ only when records are physical, i.e. only when the C-metric is operative). That 
 on the metric's own operativity is the piece I cannot match to a known reference. It is a NEW-COMBINATION,
 and it is toy-grade.
 
-## 3. Persona 3 -- math-ph theorem-stater: the class-level theorems, GU-free, with grades
+## 3. Perspective 3 -- math-ph theorem-stater: the class-level theorems, GU-free, with grades
 
 **Setup.** H a Krein space, fundamental symmetry eta = P+ - P- . D a Stelle-class field operator whose
 propagator 1/(p^2(p^2-M^2)) = (1/M^2)(1/p^2 - 1/(p^2-M^2)) carries a wrong-sign (ghost) residue;
@@ -166,7 +166,7 @@ external reservoir realizes the bistable-fixed-point structure -- the finite mod
 a rig) OR a real dressed computation (a W187-style calculation showing the operative basin is achieved for
 an actual reservoir). Without one, T4/T5/P6 are toy observations, not theorems about the class.
 
-## 4. Persona 4 -- reproducibility / verification engineer: the machine-check map (recorded 2026-07-14)
+## 4. Perspective 4 -- reproducibility / verification engineer: the machine-check map (recorded 2026-07-14)
 
 | Claim | Test | Recorded |
 |---|---|---|
@@ -183,7 +183,7 @@ All eight ran to exit 0 on 2026-07-14 (Python, numpy). W175 is slow (about three
 theorem-grade novelty (T4) is machine-checked ONLY within the finite toy; no test exercises a real
 Stelle/GU dressed reservoir (that is the hardening gap).
 
-## 5. Persona 5 -- hostile referee (full strength)
+## 5. Perspective 5 -- hostile referee (full strength)
 
 **Attack on novelty.** "You have assembled known pieces -- the Lee-Wick/CLOP physical-subspace defect, the
 Feshbach reduced resolvent, the Bognar opposite-type exceptional point, the Mostafazadeh positive metric,
@@ -271,8 +271,8 @@ toy-model and selection-conditionality honestly.
    non-local, kernel decaying at the ghost scale) so total unitarity is not oversold.
 
 *Filed 2026-07-14 by TEAM CLASS-PAPER (W188). Coherence-first; exploration grade; RUTHLESS novelty
-honesty. Five personas inline (PT-QFT/Krein prior-art scholar; open-quantum-systems scholar; math-ph
-theorem-stater; reproducibility engineer; hostile referee); no sub-agents. Verdict SOLID-INCREMENTAL;
+honesty. Five perspectives inline (PT-QFT/Krein prior-art scholar; open-quantum-systems scholar; math-ph
+theorem-stater; reproducibility engineer; hostile referee); no independent reviewers. Verdict SOLID-INCREMENTAL;
 draft scaffolded, candidate NOT begun. No canon / status / verdict / posture change; drafts only; external
 action and candidate promotion Joe-gated.*
 </content>

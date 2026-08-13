@@ -1,7 +1,6 @@
 ---
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
-run_id: RUN-20260812-080014-gu-hq-action-owner-potential
 ledger: lab/process/conditional-physics-ledger-v0.200.json
 ---
 

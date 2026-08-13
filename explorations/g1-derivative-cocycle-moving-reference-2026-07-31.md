@@ -4,14 +4,12 @@ status: active_research
 doc_type: construction_result
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T140229Z-g1-derivative-cocycle-moving-reference/run-plan.md
+run: archived private execution record
 specification: lab/specifications/g1-global-tilted-moving-reference-packet-2026-07-31.md
 certificate: lab/process/g1-derivative-cocycle-certificate.json
 probe: tests/channel-swings/g1_derivative_cocycle_moving_reference_probe.py
 grade: "G1 CONDITIONAL PASS. The full first-jet connection cocycle, tilted subgroup, displacement, moving LC/reductive reference, lift/patch descent, conjugation law, fixed-fibre quotient, and stabilizer correspondence are constructed exactly. The native induced Spin bundle needs no new local reference coefficient. A selected global reduction sector, equivalence to Conn(P)/G, complete source action, Noether identity, VEV, Higgs, index, count, and cosmological output remain unbuilt."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # G1 derivative cocycle and moving reference

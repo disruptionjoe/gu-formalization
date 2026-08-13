@@ -5,7 +5,7 @@ status: exploration
 doc_type: exploration
 wave: 40
 verdict: speculation   # blind branch; NO claim promoted, NO canon/ledger movement
-method: "5-persona team run INLINE (supergravity-construction theorist / higher-spin-Vasiliev specialist / Porrati-Rahman cure expert / EFT-matching specialist / philosopher of science). Templates read as DATA. COMPUTED (on the verified Cl(9,5)=M(64,H) rep) vs ARGUED tagged per claim. Blind to sibling branches."
+method: "5-perspective team run INLINE (supergravity-construction theorist / higher-spin-Vasiliev specialist / Porrati-Rahman cure expert / EFT-matching specialist / philosopher of science). Templates read as DATA. COMPUTED (on the verified Cl(9,5)=M(64,H) rep) vs ARGUED tagged per claim. Blind to sibling branches."
 test: tests/wave40/H54b4_cure_guardian_reverse.py   # deterministic, exit 0, all PASS
 reads:
   - explorations/wave34/source-action-landscape-scan-2026-07-11.md   # Porrati-Rahman cure template; guardian requirement; Rahman cutoff
@@ -80,7 +80,7 @@ gravitino on 4 of 5 axes, and the ONE axis it fails is axis C -- the guardian.**
 A structural report (Q1e): the cure annihilates a 128-dim space (`ker Pi = 14*128 - 1664`, the gamma-trace
 directions) -- the would-be gauge orbit a guardian `delta psi = nabla eps` would have to fill.
 
-## Per-persona takes (run INLINE)
+## Per-perspective takes (run INLINE)
 
 **Supergravity-construction theorist (de Wit-Freedman).** The decoupling result (axis A) is decisive from my
 seat. A consistent massive gravitino IS a standalone gamma-traceless spin-3/2 whose subsidiary condition

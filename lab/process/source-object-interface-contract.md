@@ -6,9 +6,7 @@ created: "2026-07-19"
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 probe: P5-SOURCE-OBJECT-SPEC
 source_owner: possibility-to-capability
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source-Object Interface Contract

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact": "PW1_SOURCE_NATIVE_PORT_AND_SUPERIG_INTERFACE",
   "status": "PW1_CONDITIONAL_PASS_PW2_ENABLED",
-  "run": "RUN-20260802-142051-gu-formalization-pw1-port-interface",
+  "run": "historical-investigation",
   "branch": "agent/null-clifford-omega1-repair",
   "layer_zero": {
     "source_bundle": "mixed-sign complex Krein U(64,64) principal bundle and associated complex spinor carrier",

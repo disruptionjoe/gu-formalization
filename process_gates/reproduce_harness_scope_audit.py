@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 HARNESS = ROOT / "scripts" / "reproduce_all.py"
 TESTS_DIR = ROOT / "tests"
 PROCESS_GATES_DIR = ROOT / "process_gates"
-SKIP_DIR_NAMES = {"__pycache__", ".cache", ".pytest_cache", ".git", "hourly-cycles"}
+SKIP_DIR_NAMES = {"__pycache__", ".cache", ".pytest_cache", ".git", "research-cycles"}
 
 
 def load_harness() -> ModuleType:

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (LAST FORK of the observer-conjecture arc; 5-persona inline team; the horn determination redone on the SELECTED AS branch; deterministic test)
+status: exploration (LAST FORK of the observer-conjecture arc; 5-perspective inline team; the horn determination redone on the SELECTED AS branch; deterministic test)
 created: 2026-07-13
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path) -- the HORN-K-vs-HORN-Q fork from W84
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -86,9 +86,9 @@ Section 4 names the fork and the deciding computation. On GU's own computation t
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- operator-algebra + FRG specialist (the two computations)
+### Perspective 1 -- operator-algebra + FRG specialist (the two computations)
 
 **The premise check first (this is where the swing turns).** HORN Q needs the massive spin-2 mode's mass
 to stay **bounded away** from the massless pole in the UV, i.e. `f_2^2` (the coupling that sets
@@ -136,7 +136,7 @@ Langer; W84). **The Reuter-FP spectrum sits ON the exceptional locus, not bounde
 
 **Both derivations agree: HORN K on the AS branch.**
 
-### Persona 2 -- MATH REFEREE (is "on the locus at the FP" enough for HORN K along the trajectory?)
+### Perspective 2 -- MATH REFEREE (is "on the locus at the FP" enough for HORN K along the trajectory?)
 
 - **Ruling 1 -- the premise falsification is decisive and clean.** HORN Q is defined by a bounded metric
   **inverse**, which requires `sup_mu cond(eta_+(mu)) < inf`, which requires `inf_mu d_locus(mu) > 0`,
@@ -156,7 +156,7 @@ Langer; W84). **The Reuter-FP spectrum sits ON the exceptional locus, not bounde
   be **HORN K (repo-native), TRUNCATION-CONDITIONAL**, with the deciding computation named -- not
   unconditional. **Grade on the horn: HIGH within the truncation; MEDIUM on unconditionality.**
 
-### Persona 3 -- ADVERSARY (presses both horns)
+### Perspective 3 -- ADVERSARY (presses both horns)
 
 - *For HORN Q ("the AS Reuter FP keeps `f_2^2` finite, so `||C||` is bounded -- W84 wrongly imported AF
   geometry").* **This is the orchestrator's own steelman, and it is simply factually wrong on the repo.**
@@ -176,7 +176,7 @@ Langer; W84). **The Reuter-FP spectrum sits ON the exceptional locus, not bounde
 The adversary's two pushes are again mutually defeating on the AS branch: the HORN-Q push is
 premise-falsified, and the trajectory-vs-FP push strengthens HORN K.
 
-### Persona 4 -- CROSS-CHECKER (the second derivation + literature)
+### Perspective 4 -- CROSS-CHECKER (the second derivation + literature)
 
 - **D2 re-derived independently of D1** (`W87` T4): the FP-spectrum definitizability criterion gives HORN
   K without ever integrating the trajectory -- `f_2^2* = 0` puts the massive pole on the massless pole.
@@ -202,7 +202,7 @@ premise-falsified, and the trajectory-vs-FP push strengthens HORN K.
   The cross-check confirms `f_2^2* = 0` is the **standard** answer, not that it is theorem-proven for GU's
   exact content.
 
-### Persona 5 -- SYNTHESIZER (the verdict)
+### Perspective 5 -- SYNTHESIZER (the verdict)
 
 See Sections 2-5.
 

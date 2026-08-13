@@ -16,16 +16,14 @@ inputs:
   - explorations/oracle-relative-prongI-info-exact-2026-07-21.md
 probe: tests/channel-swings/wave_swing3_boundary_characteristic_variety_probe.py (foreground, deterministic two-run-identical, EXIT 0, 14/14 PASS)
 outcome: BOUNDARY=CHARACTERISTIC-CONE / OUTSIDE-TIERED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 kill_conditions_declared_before_computation: true
 ---
 
 # WAVE swing 3 -- THE OUTSIDE
 
 Four specialists reason INLINE in one worker (each in-character, then a
-synthesis; no agent-per-persona). Read-only interpretation of the settled state,
+synthesis; no agent-per-perspective). Read-only interpretation of the settled state,
 not advocacy. The banked situation handed to the team: the boundary is a genuine
 finite boundary (ultrahyperbolic `(9,5)` has no clean Cauchy problem => boundary
 conditions, not initial; two-time is a natural scaffold with a `z*`-bridge

@@ -4,9 +4,7 @@ created: 2026-08-06
 status: TWO_LAYER_QUEUE_SPLIT_CONFIRMED__LT_GR3_OWNER_MAP_OPEN
 channels: [SOURCE, COMPOSE, VERIFY]
 ledger_rows: [LT-GR3]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Two-layer action / selected-cubic owner retype

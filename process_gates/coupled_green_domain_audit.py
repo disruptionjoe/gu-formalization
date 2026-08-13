@@ -34,13 +34,13 @@ def strict(relative: str):
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.165.json")
 result = strict("lab/process/selected-k77-coupled-green-domain.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 rows = {row["id"]: row for row in ledger["rows"]}
 expected_rows = {"RA-D4", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"}
 
 check("ledger schema is v0.165", ledger["schema_version"] == "0.165")
 check("ledger predecessor is v0.164", ledger["predecessor"].endswith("v0.164.json"))
-check("run id is exact", ledger["updated_by"] == result["run_id"] == "RUN-20260811-033947-gu-k77-coupled-green-domain")
+check("run id is exact", ledger["updated_by"] == result["run_id"] == "historical-investigation")
 check("headline is unchanged", ledger["frontier_delta"]["headline_delta"] == "NONE")
 check("frontier closes two and opens one", ledger["frontier_delta"]["conditions_closed"] == 2 and ledger["frontier_delta"]["conditions_opened"] == 1)
 check("coverage remains 82 of 82", ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82)

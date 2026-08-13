@@ -1,13 +1,10 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-050138-gu-moving-hq-u3-2-sm-higgs-direction
 status: SOURCE_U3_2_PATI_SALAM_INTERSECTION_CONSTRUCTED__SM16_EXACT__FIXED_Q_RETYPE_POST_HIGGS__RADIAL_VARPI_ACTION_OWNER_OPEN
 target_claim: NONE-NOT-A-KILL
 ledger: lab/process/conditional-physics-ledger-v0.196.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 moving-Hq, U(3,2), SM and Higgs-direction gate

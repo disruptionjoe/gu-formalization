@@ -2,13 +2,9 @@
 artifact_type: exact_full_carrier_stationary_residual_result
 created: 2026-08-10
 status: PROJECTED64_RETYPE__Q_REPAIRED_KERNEL1664_BUT_PRIOR_SCOPED_KILL__SOURCE_FAITHFUL_FULL_RANK_AT_FIXED_FIXTURE__MOVING_VARPI_DETERMINANT_LOCUS_NEXT
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_FULL_FOUR_FIELD_GRAMMAR_SOUTHEAST_ZERO_AND_ADMITTED_NONZERO_RIVAL__SOURCE_SILENT_ON_W_GRAPH_BV_SELECTOR_DOMAIN_AND_MOVING_VARPI_FAMILY
 ledger_rows: [RA-D4, RA-F1, RA-F2, RA-G2, LT-SM3, AC-F1]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 full-carrier stationary residual

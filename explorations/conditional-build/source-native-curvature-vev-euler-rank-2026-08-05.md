@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-05
 status: AMBIENT_ACTION_COUPLING_AND_RANK_EXACT__OBSERVED_RECEIVER_AND_NATIVE_BV_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 ledger_rows: [LT-GR1b, LT-GR2b, LT-GR2c, LT-GR2d, LT-SM8]
 fork_assumed: SIGNATURE_AMBIENT_K77__SELECTED_DISPLAYED_SHIAB_COMM_SYMI_SYMI
 search_space_dim: "zero selector parameters; complete 1+104+3080 ambient Riemann decomposition and 196-dimensional Cl1 distortion receiver"

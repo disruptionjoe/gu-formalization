@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-043842-gu-trace-hq-connection-internal-chain
 verdict: SURVIVES_AFTER_SCOPE_REPAIR__SPLIT_SPIN_COMPATIBILITY_EXACT__FROZEN_Q_DIRECT_INTERNAL_CHAIN_INSUFFICIENT__MOVING_FULL_UNITARY_ROUTE_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: trace-Hq connection and internal chain

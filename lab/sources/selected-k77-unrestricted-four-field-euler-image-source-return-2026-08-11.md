@@ -1,10 +1,7 @@
 ---
 artifact_type: primary_source_return
 created: 2026-08-11
-run_id: RUN-20260811-011626-gu-k77-unrestricted-four-field-euler-image
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return: unrestricted four-field Euler-image gate

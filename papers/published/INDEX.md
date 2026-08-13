@@ -8,7 +8,7 @@ purpose: >-
   Single source of truth for which of this repo's artifacts are PUBLICLY POSTED (DOI / arXiv / URL).
   Other surfaces (Drafting Factory, project management) READ this; they do not maintain a competing
   posted-status truth. Reconcile against the live venue (Zenodo) via the runbook when status is in question.
-reconcile_with: lab/process/runbooks/publication-status-reconciliation.md
+reconcile_with: lab/methods/publication-status-reconciliation.md
 ---
 
 # Publications index

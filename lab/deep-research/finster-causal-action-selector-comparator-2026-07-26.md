@@ -3,7 +3,6 @@ title: "Finster causal-action selector comparator"
 status: exploration
 doc_type: primary_source_comparator
 created: 2026-07-26
-run_id: RUN-20260726-165229-causal-action-selector-comparator
 claim_grade: "COMPARATOR / NO GU CLAIM, SOURCE-ACTION, OPERATOR, OR VERDICT MOVEMENT"
 ---
 

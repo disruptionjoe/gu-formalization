@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_result
 created: 2026-08-11
-run_id: RUN-20260811-060939-gu-k77-global-normal-symbol-descent
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.167"
 result: ACTUAL_NORMAL_SYMBOL_TYPED_AS_FOUR_FIELD_PRINCIPAL_SYMBOL__GLOBAL_ASSOCIATED_BUNDLE_DESCENT_AND_NONCHARACTERISTIC_INVERSE_EXACT__GLOBAL_INVERTIBLE_EVERYWHERE_PREMISE_KILLED_BY_NULL_RANK1024_KERNEL896__DARBOUX_ATLAS_GLUES_WITH_TRANSITION_OWNED_COTANGENT_SHIFT__GRAPH_UNSELECTED
 grade: "exact real-Cl(7,7) causal control plus nonconstant three-patch Clifford-frame/Darboux cocycle composed with prior exact full-symbol ranks; no analytic projector or physical domain"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 global normal-symbol descent

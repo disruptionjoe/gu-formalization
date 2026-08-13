@@ -156,7 +156,7 @@
       "next_after_setup": "Populate stages 1 and 2 of the QFT shadow certificate from the frozen manifest before attempting the interacting C metric.",
       "depends_on": ["RECOVERY-CONTRACT"],
       "gates": ["unconditional closure requires p2c adapter return"],
-      "evidence": ["explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md", "explorations/hourly-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md", "explorations/W169-c-operator-perturbative-construction-2026-07-14.md", "explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md"]
+      "evidence": ["explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md", "explorations/research-cycles/hourly-cycle2-rs-physical-quotient-brst-complex-gate-2026-06-24.md", "explorations/W169-c-operator-perturbative-construction-2026-07-14.md", "explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md"]
     },
     {
       "id": "SM-CONSISTENT-SECTOR",

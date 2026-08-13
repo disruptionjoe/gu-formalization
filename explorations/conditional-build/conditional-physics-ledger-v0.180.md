@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-11
 ledger_version: "0.180"
-run_id: RUN-20260811-191942-gu-k77-variable-incoming-projector-descent
 ---
 
 # Conditional physics ledger v0.180

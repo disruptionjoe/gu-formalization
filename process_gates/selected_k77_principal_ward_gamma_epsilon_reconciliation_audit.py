@@ -11,7 +11,7 @@ review = (ROOT / "lab/process/hostile-reviews/2026-08-08-selected-k77-principal-
 source = (ROOT / "lab/sources/selected-k77-principal-ward-gamma-epsilon-reconciliation-source-reinspection-2026-08-08.md").read_text(encoding="utf-8")
 ledger = json.loads((ROOT / "lab/process/conditional-physics-ledger-v0.86.json").read_text(encoding="utf-8"))
 registry = json.loads((ROOT / "lab/process/selected-k77-principal-ward-gamma-epsilon-reconciliation.json").read_text(encoding="utf-8"))
-contract = json.loads((ROOT / "lab/process/functional-channel-operating-contract-v1.0.json").read_text(encoding="utf-8"))
+contract = json.loads((ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text(encoding="utf-8"))
 
 for phrase in (
     "direct torsion change from the metric",

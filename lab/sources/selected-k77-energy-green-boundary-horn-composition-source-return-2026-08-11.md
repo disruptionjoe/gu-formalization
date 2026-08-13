@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-182311-gu-k77-energy-green-boundary-horn-composition
 disposition: SOURCE-SILENT
 ---
 

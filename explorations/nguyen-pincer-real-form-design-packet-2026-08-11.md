@@ -3,12 +3,10 @@ title: "Design packet: the Nguyen pincer on the settled real form (AC-G1a)"
 status: active_research
 doc_type: resolver_design_packet
 created: 2026-08-11
-run_id: RUN-20260811-234500-gu-five-frontier-design-packets
-lane: "1"
 target: "AC-G1a falsification frontier (register/fence item; ledger v0.50 supersession, current at v0.185)"
 head_pin: "bdd2c934335e6e534d4e0f9e7f55d7678eb566d8 (2026-08-11 17:12:35 -0500); all citations verified against this tree"
 relates_to:
-  - lab/process/agent-context-pack.md (CURRENT AC-G1 HORN FENCE AND POINTER, lines 1091-1099; live-forks block lines 1607-1639)
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md (CURRENT AC-G1 HORN FENCE AND POINTER, lines 1091-1099; live-forks block lines 1607-1639)
   - explorations/conditional-build/ac-g1-propagation-pointer-baseline-2026-08-07.md
   - explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md (G1 at 4.1; local lattice at 2.1-2.3; F3 at 4.2)
   - lab/process/conditional-physics-ledger-v0.185.json (rows AC-G1, AC-G1a; migration 0.49->0.50)
@@ -17,7 +15,7 @@ relates_to:
   - explorations/internal-paths-2026-07-03/anomaly-sp64-i16-daifreed.md (the two anomaly legs, defined)
   - explorations/W232-close-a5-signature-witten-anomaly-2026-07-14.md (real-side global facts already banked)
   - explorations/shiab-operator/n2-shiab-computation-spin77-branching-rules-2026-06-22.md (the (7,7) real shiab existence)
-  - explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md (2021 draft p.42 eqs 8.3-8.7: the source's own Spin(7,7)->SO(64,64)->U(64,64) ladder)
+  - explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md (2021 draft p.42 eqs 8.3-8.7: the source's own Spin(7,7)->SO(64,64)->U(64,64) ladder)
   - lab/sources/selected-k77-action-parent-source-reinspection-2026-08-09.md (operative parent SOURCE-SILENT)
   - lab/sources/claim-mining-toe-weinstein-complete-2026-07-31.md (WG-A14: spoken U(64,64), comparator status)
   - explorations/resolver-wave-h-public-native-combined-port-2026-08-03.md (SOURCE-CONFIRMS the 2021 ladder)
@@ -34,9 +32,7 @@ binding: >-
   pre-flight / hostile-review contract; anything approaching canon goes through
   the two-phase rule.
 hostile_review: lab/process/hostile-reviews/2026-08-11-nguyen-pincer-real-form-design-review.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---
@@ -47,7 +43,7 @@ AC-G1a is the strongest standing kill-attempt on the program: `Sp(64)` defuses
 Nguyen's original `U(128)` anomaly pincer only on the conditional
 `Cl(9,5)=M(64,H)` horn; it does not transfer to the settled `Cl(7,7)=M(128,R)`,
 "whose replacement group, local `I_16` and global anomaly receptacle are open"
-(`lab/process/agent-context-pack.md:1091-1099`, verified verbatim; ledger row
+(`lab/process/CURRENT-RESEARCH-CONTEXT.md:1091-1099`, verified verbatim; ledger row
 `AC-G1a NEEDS/MISSING_CONSTRUCTION`, v0.185 current, revival trigger "an exact
 Cl(7,7)-native anomaly calculation with a typed gauge group and full fermion
 content"). This packet scaffolds the completion. Either the pincer bites the

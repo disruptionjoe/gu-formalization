@@ -2,7 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-08
 status: PHYSICAL_SPLIT_CLOSES_LOCAL_PACKET__LOCAL_NATURALITY_ONLY
-lane: "1"
 source_return: SOURCE-CONFIRMS
 ---
 

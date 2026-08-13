@@ -1,7 +1,7 @@
 {
   "artifact_type": "construction_result",
   "created": "2026-08-11",
-  "run_id": "RUN-20260811-040603-gu-k77-moving-antidualizer-darboux",
+  "run_id": "historical-investigation",
   "ledger_version": "0.166",
   "grade": "EXACT_FIRST_JET_SYMPLECTIC_SPECIALIZATION_AND_FINITE_ANTIDUALIZER_THEOREM",
   "prior_art": {

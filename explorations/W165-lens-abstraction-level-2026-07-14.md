@@ -1,13 +1,13 @@
 ---
 artifact_type: exploration
-status: exploration (W165; TEAM LENS-LEVEL; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (W165; TEAM LENS-LEVEL; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W165
 label: W165
 posture: coherence-first (Joe 2026-07-14); exploration grade; conditional register; honest grading; tri-repo gating STRICT
-title: "W165 -- is the tachyon question one abstraction level too low?  The two-track sweep (2026-07-11 slice B) NAMED norm-square universal properties (Willmore/GJMS conformal-uniqueness, the Kempf-Ness moment-map norm-square, the Connes spectral action, the section-functor adjoint) as the objects that would FORCE GU's source action where signature/causality/grading each fail, and hoped a universal property would settle the scalaron SIGN.  EVALUATED against the actual W126/W130 data, the hope INVERTS.  UNIVERSAL-PROPERTY VERDICT: NO-FORCING-PROPERTY-FOUND (within GU) -- and sharper, the named universal properties are EXHIBITED to force the TACHYONIC point, not health.  The load-bearing new fact: the covariant scalaron coupling is DEGENERATE across the isotypic family, c_R_II = c_R_H = -4/9, so on the shape family alpha|II|^2 + beta|H|^2 the coupling COLLAPSES to c_R = -(4/9)(alpha+beta), a function of the TOTAL WEIGHT alone -- SHAPE-BLIND.  Hence sign(c_R) = -sign(alpha+beta): W159's det=4/9 'independence' is carried ENTIRELY by a1 (which varies with shape); c_R does not.  Invariance (EXHIBITED: O(3)-invariant quadratic forms of the second fundamental form = a 2-dim space) forces only a 1-parameter PROJECTIVE family, never a point; the conformally-natural rigidifier (trace-free Willmore |II_0|^2 = |II|^2 - c|H|^2, c in (0,1)) lands at c_R = -(4/9)(1-c) < 0 -- TACHYONIC for every standard trace-removal.  Any POSITIVE-total-weight norm-square (Kempf-Ness, positive spectral-action heat kernel) forces the tachyon; HEALTH needs alpha+beta < 0, reachable inside a norm-square only if the trace (record-count/BLMS) and trace-free (geometric) isotypic components carry OPPOSITE Krein signatures in the (9,5) ambient.  CROSS-REPO BRIDGE (gated conjecture, identity NOT asserted): that relative Krein signature lives on the (9,5) q=5 finality frontier (W150) and is a CAPABILITY-MEASURE datum owned by time-as-finality (TaF); the tachyon (an irreversible/one-way mode) may BE the geometric stamp of the finality arrow (TaF T110: no scalar finality monotone in closed reversible dynamics -> any arrow is open-system/irreversible; a stable scalaron = a dead, non-accreting geometry, W156 persona 9).  COMPLETION VERDICT: a CONDITIONAL relocation of debit-1 to the finality frontier, NOT a conversion; bar (b) UNCHANGED (consistent with W159)."
-hypothesis: "Prior full-roster diagnosis (two-track-persona-sweep 2026-07-11, slice B synthesis): 'the program is one abstraction level too low -- declaring an object where a universal property (variational uniqueness, index, adjoint) would force it, and treating the signature that sets the grading as fixed rather than as the lever to force,' and 'coherent conflated with forced.'  Test whether the action/tachyon question is being asked at the wrong level: (1) is there a categorical/universal-property formulation where GU's action AND the scalaron's SIGN are FORCED, exhibited not named; (2) does the completion LIVE ACROSS a tri-repo gate (finality = time-as-finality; capability measure = TaF), i.e. is the tachyon's resolution a TaF/temporal-issuance object gated off; (3) if a universal property forces the healthy action OR the finality structure reinterprets the tachyon as the irreversible finality mode, the debit converts.  Grade honestly: a universal property must be EXHIBITED; a cross-repo bridge stays a GATED conjecture."
-grade: "exploration / conditional register throughout.  Every 'the universal property forces X' reads 'the norm-square universal property, evaluated on the W126/W130 induced coefficients, lands at X'; nothing asserts GU, asserts a vacuum, or changes any verdict.  COMPUTED (deterministic, tests/W165_universal_property_and_sign.py, 12/12 exit 0, positive controls first): PC1-PC4 reproduce W126 |II|^2 = (2,1/3,8/9,-4), W130 c_R = -4/9, W159 |H|^2 = (-1,4/3,-4/9,0) and det = 4/9, all through the verbatim W126/W159 Route-1 machinery.  NEW-DERIVED: U1a the EXACT so(3)-invariance solve giving invariant-quadratic-form dim = 2 (the universal property forces a 1-param projective family, not a point); U1b the two invariants independent; U2 the c_R degeneracy collapse c_R = -(4/9)(alpha+beta) (SHAPE-BLIND); U3 the sign is a one-bit function of total weight orthogonal to the shape (a1 = (alpha+4beta)/3 carries all of W159's det); U4 the trace-free Willmore point |II_0|^2 has c_R = -(4/9)(1-c) < 0 for all c<1 (TACHYONIC); U5 any positive-total-weight norm-square forces c_R<0 and health needs alpha+beta<0; NC1 the collapse is a GU-SPECIFIC degeneracy (c_R_II != c_R_H does not collapse); U6 the (9,5) norms are indefinite (w2 = -64 < 0) so a Krein norm-square CAN reach alpha+beta<0 iff the isotypic components carry opposite Krein signs; U7 the GATED conjecture (stated not asserted).  CITED (not re-derived): W126/W130 (induced |II|^2, c_R), W159 (|H|^2, det=4/9, SIGN-FREE, w2=-64), W150 (the (9,5) q=5 finality frontier), W156 (the ten-vantage convergence, autopoiesis persona 9), the two-track sweep (Willmore/GJMS/Kempf-Ness/spectral-action forcing candidates), the cross-repo survey (TaF capability measure, T110).  Classical First Fundamental Theorem for O(n) (the degree-2 invariant ring of a symmetric matrix = span{(tr S)^2, tr(S^2)}) is CITED for completeness of the count; the count and independence are EXHIBITED.  No canon / RESEARCH-STATUS / claim-status / verdict / posture change; H41 unbuilt; H59/H61a OPEN; the E2 AF/AS fork carried, not closed; the count stays {1,3}.  No forbidden target {3,8,24,chi(K3),Ahat} assumed/inserted/hardcoded/divided-by."
+title: "W165 -- is the tachyon question one abstraction level too low?  The two-track sweep (2026-07-11 slice B) NAMED norm-square universal properties (Willmore/GJMS conformal-uniqueness, the Kempf-Ness moment-map norm-square, the Connes spectral action, the section-functor adjoint) as the objects that would FORCE GU's source action where signature/causality/grading each fail, and hoped a universal property would settle the scalaron SIGN.  EVALUATED against the actual W126/W130 data, the hope INVERTS.  UNIVERSAL-PROPERTY VERDICT: NO-FORCING-PROPERTY-FOUND (within GU) -- and sharper, the named universal properties are EXHIBITED to force the TACHYONIC point, not health.  The load-bearing new fact: the covariant scalaron coupling is DEGENERATE across the isotypic family, c_R_II = c_R_H = -4/9, so on the shape family alpha|II|^2 + beta|H|^2 the coupling COLLAPSES to c_R = -(4/9)(alpha+beta), a function of the TOTAL WEIGHT alone -- SHAPE-BLIND.  Hence sign(c_R) = -sign(alpha+beta): W159's det=4/9 'independence' is carried ENTIRELY by a1 (which varies with shape); c_R does not.  Invariance (EXHIBITED: O(3)-invariant quadratic forms of the second fundamental form = a 2-dim space) forces only a 1-parameter PROJECTIVE family, never a point; the conformally-natural rigidifier (trace-free Willmore |II_0|^2 = |II|^2 - c|H|^2, c in (0,1)) lands at c_R = -(4/9)(1-c) < 0 -- TACHYONIC for every standard trace-removal.  Any POSITIVE-total-weight norm-square (Kempf-Ness, positive spectral-action heat kernel) forces the tachyon; HEALTH needs alpha+beta < 0, reachable inside a norm-square only if the trace (record-count/BLMS) and trace-free (geometric) isotypic components carry OPPOSITE Krein signatures in the (9,5) ambient.  CROSS-REPO BRIDGE (gated conjecture, identity NOT asserted): that relative Krein signature lives on the (9,5) q=5 finality frontier (W150) and is a CAPABILITY-MEASURE datum owned by time-as-finality (TaF); the tachyon (an irreversible/one-way mode) may BE the geometric stamp of the finality arrow (TaF T110: no scalar finality monotone in closed reversible dynamics -> any arrow is open-system/irreversible; a stable scalaron = a dead, non-accreting geometry, W156 perspective 9).  COMPLETION VERDICT: a CONDITIONAL relocation of debit-1 to the finality frontier, NOT a conversion; bar (b) UNCHANGED (consistent with W159)."
+hypothesis: "Prior full-roster diagnosis (two-track-perspective-sweep 2026-07-11, slice B synthesis): 'the program is one abstraction level too low -- declaring an object where a universal property (variational uniqueness, index, adjoint) would force it, and treating the signature that sets the grading as fixed rather than as the lever to force,' and 'coherent conflated with forced.'  Test whether the action/tachyon question is being asked at the wrong level: (1) is there a categorical/universal-property formulation where GU's action AND the scalaron's SIGN are FORCED, exhibited not named; (2) does the completion LIVE ACROSS a tri-repo gate (finality = time-as-finality; capability measure = TaF), i.e. is the tachyon's resolution a TaF/temporal-issuance object gated off; (3) if a universal property forces the healthy action OR the finality structure reinterprets the tachyon as the irreversible finality mode, the debit converts.  Grade honestly: a universal property must be EXHIBITED; a cross-repo bridge stays a GATED conjecture."
+grade: "exploration / conditional register throughout.  Every 'the universal property forces X' reads 'the norm-square universal property, evaluated on the W126/W130 induced coefficients, lands at X'; nothing asserts GU, asserts a vacuum, or changes any verdict.  COMPUTED (deterministic, tests/W165_universal_property_and_sign.py, 12/12 exit 0, positive controls first): PC1-PC4 reproduce W126 |II|^2 = (2,1/3,8/9,-4), W130 c_R = -4/9, W159 |H|^2 = (-1,4/3,-4/9,0) and det = 4/9, all through the verbatim W126/W159 Route-1 machinery.  NEW-DERIVED: U1a the EXACT so(3)-invariance solve giving invariant-quadratic-form dim = 2 (the universal property forces a 1-param projective family, not a point); U1b the two invariants independent; U2 the c_R degeneracy collapse c_R = -(4/9)(alpha+beta) (SHAPE-BLIND); U3 the sign is a one-bit function of total weight orthogonal to the shape (a1 = (alpha+4beta)/3 carries all of W159's det); U4 the trace-free Willmore point |II_0|^2 has c_R = -(4/9)(1-c) < 0 for all c<1 (TACHYONIC); U5 any positive-total-weight norm-square forces c_R<0 and health needs alpha+beta<0; NC1 the collapse is a GU-SPECIFIC degeneracy (c_R_II != c_R_H does not collapse); U6 the (9,5) norms are indefinite (w2 = -64 < 0) so a Krein norm-square CAN reach alpha+beta<0 iff the isotypic components carry opposite Krein signs; U7 the GATED conjecture (stated not asserted).  CITED (not re-derived): W126/W130 (induced |II|^2, c_R), W159 (|H|^2, det=4/9, SIGN-FREE, w2=-64), W150 (the (9,5) q=5 finality frontier), W156 (the ten-vantage convergence, autopoiesis perspective 9), the two-track sweep (Willmore/GJMS/Kempf-Ness/spectral-action forcing candidates), the cross-repo survey (TaF capability measure, T110).  Classical First Fundamental Theorem for O(n) (the degree-2 invariant ring of a symmetric matrix = span{(tr S)^2, tr(S^2)}) is CITED for completeness of the count; the count and independence are EXHIBITED.  No canon / RESEARCH-STATUS / claim-status / verdict / posture change; H41 unbuilt; H59/H61a OPEN; the E2 AF/AS fork carried, not closed; the count stays {1,3}.  No forbidden target {3,8,24,chi(K3),Ahat} assumed/inserted/hardcoded/divided-by."
 construction: "program-native where the objects are GU's (the induced |II|^2 and |H|^2 actions, the covariant scalaron coupling c_R, the conformal slice, the (9,5) ambient with its indefinite |II| norms, the q=5 finality frontier).  Standard-field where the machinery binds any construction (the f(R) scalaron-sign dependence on c_R; the isotypic/Schur decomposition of the second fundamental form into trace H + trace-free II_0; the O(n) First Fundamental Theorem; the Willmore/GJMS trace-free conformal energy; the Kempf-Ness moment-map norm-square; the Connes spectral action; the section-functor adjoint uniqueness).  Every analogy PORTED and labelled; none asserted of GU.  Forks named per GEOMETER-VS-PHYSICS-OBJECTS.md.  Tri-repo gating STRICT: no cross-repo identity is asserted; the finality/capability bridge is a GATED conjecture."
 depends_on:
   - explorations/W126-beyond4th-vacuum-lift-2026-07-13.md
@@ -16,8 +16,8 @@ depends_on:
   - explorations/W150-substrate-sweep-consensus-crypto-2026-07-14.md
   - explorations/W156-coherent-full-story-2026-07-14.md
   - explorations/W159-tachyon-escapes-2026-07-14.md
-  - explorations/two-track-persona-sweep-2026-07-11/B-geometric-structural.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/B-geometric-structural.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - explorations/cross-repo-survey-taf-ti-2026-07-11.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
   - GEOMETER-VS-PHYSICS-OBJECTS.md
@@ -55,7 +55,7 @@ weight, which every norm-square puts on the tachyonic side. Health lives off the
 in an object -- the relative Krein signature of the record-count vs geometric modes on the `(9,5)`
 `q=5` finality frontier -- that GU is not allowed to define alone.
 
-Five personas inline, one worker, no sub-agents. Deterministic test
+Five perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W165_universal_property_and_sign.py`, 12/12 exit 0, positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -68,7 +68,7 @@ Five personas inline, one worker, no sub-agents. Deterministic test
 | Ambient inner product | the `(9,5)` Krein (INDEFINITE) form, `w2 = <II_1,II_1> = -64 < 0` (W159) | Whether a norm-square can reach the healthy cone depends on the isotypic Krein signs. |
 | Finality/capability object | the `q=5` frontier Krein signature = TaF capability-measure datum | GATED (owned across the tri-repo boundary); the bridge is a conjecture, not an identity. |
 
-## 2. Persona 1 -- category theorist: what a universal property ACTUALLY forces (EXHIBITED)
+## 2. Perspective 1 -- category theorist: what a universal property ACTUALLY forces (EXHIBITED)
 
 The four named candidates share a spine: each selects a norm-square `S = |theta|^2` of the soldering
 distortion / second fundamental form with respect to an invariant inner product. Invariance is
@@ -87,7 +87,7 @@ and completeness of the two power-trace invariants is the classical First Fundam
 (Weyl), CITED; the count and the independence (test U1b: the two invariants take independent values
 at `diag(1,0,0)` and `diag(1,-1,0)`, a rank-2 table) are computed.
 
-**Persona 1 verdict.** A universal property built on invariance FORCES a 1-parameter PROJECTIVE
+**Perspective 1 verdict.** A universal property built on invariance FORCES a 1-parameter PROJECTIVE
 family, NOT a point. This is exactly GU's shape family `alpha|II|^2 + beta|H|^2`, and it is why
 W159's `det = 4/9 != 0` is the correct diagnosis: two independent invariant forms. To force a single
 point you need an EXTRA rigidifier beyond invariance -- a Kaehler/complex structure (the Kempf-Ness
@@ -95,7 +95,7 @@ polarization), a conformal weight (Willmore/GJMS selects the trace-free combinat
 inner-product scale (the spectral-action heat kernel). The abstraction-level question is therefore
 sharp: WHICH point does the extra rigidifier force, and is it healthy?
 
-## 3. Persona 3 -- foundations/structural theorist: the c_R degeneracy, and where COHERENT is conflated with FORCED
+## 3. Perspective 3 -- foundations/structural theorist: the c_R degeneracy, and where COHERENT is conflated with FORCED
 
 Here is the load-bearing new fact. Compute `c_R` on BOTH isotypic pieces through the verbatim
 W126/W159 machinery (tests PC2, PC3):
@@ -124,7 +124,7 @@ sign(c_R) = -sign(alpha + beta) .
 This is exactly where COHERENT is conflated with FORCED. A norm-square is COHERENT for any weights
 `(alpha, beta)`; the shape freedom W159 found is real. But whether the action is HEALTHY is the
 one-bit sign of `alpha + beta`, which lives on an axis ORTHOGONAL to the shape and which invariance
-(Persona 1) does NOT fix. Forcing the ACTION -- pinning a coherent norm-square -- does not force the
+(Perspective 1) does NOT fix. Forcing the ACTION -- pinning a coherent norm-square -- does not force the
 SIGN. The two-track hope conflated "a universal property forces the action" with "so the sign is
 settled"; the degeneracy shows they are different questions.
 
@@ -132,7 +132,7 @@ The negative control confirms the degeneracy is GU-SPECIFIC, not a triviality (t
 hypothetical induced action with `c_R_II != c_R_H` does NOT collapse -- `c_R` stays genuinely
 two-parameter. GU's `c_R_II = c_R_H` is a special, load-bearing feature of the `|II|^2` reduction.
 
-## 4. Persona 5 -- adversarial skeptic: do the NAMED universal properties force HEALTH?
+## 4. Perspective 5 -- adversarial skeptic: do the NAMED universal properties force HEALTH?
 
 Steelman the pro-forcing case: "invariance plus a conformal-weight or positivity rigidifier forces a
 POINT, and that point is healthy." Evaluate it.
@@ -151,14 +151,14 @@ action's `a_2` heat-kernel coefficient with a positive cutoff function, the posi
 Willmore energy. By the one-bit law all of them give `c_R < 0`. HEALTH (`c_R > 0`) requires
 `alpha + beta < 0`, which a positive-definite norm-square CANNOT deliver.
 
-**Persona 5 verdict.** The steelman FAILS, and it fails in an informative direction. The named
+**Perspective 5 verdict.** The steelman FAILS, and it fails in an informative direction. The named
 universal properties do not merely fail to force health; the conformally-natural ones actively force
 the TACHYON. The abstraction-level move the two-track sweep hoped for -- rise to a universal property
 and the sign settles -- inverts: rising to a norm-square universal property FORCES the tachyonic
 sign. What this cleanly refutes is the consoling reading "if only we found the forcing universal
 property, the tachyon would be forced healthy." The opposite is true within GU.
 
-## 5. Persona 2 -- tri-repo bridge architect: what the completion needs from across the gate (GATED CONJECTURE)
+## 5. Perspective 2 -- tri-repo bridge architect: what the completion needs from across the gate (GATED CONJECTURE)
 
 Where, then, does health live? Off the positive-total-weight cone, at `alpha + beta < 0`. Inside a
 norm-square this is reachable WITHOUT abandoning the universal property ONLY IF the two isotypic
@@ -185,7 +185,7 @@ the sign a THEOREM rather than a free coefficient:
   irreversible finality mode: TaF's T110 (no scalar finality monotone exists in closed reversible
   dynamics, so any finality arrow is open-system / irreversible) meets the fact that a tachyon
   (`m^2 < 0`, runaway = one-way growth) IS an irreversible mode; a stable scalaron would be a dead,
-  non-accreting geometry (W156 persona 9, autopoiesis: continuation may REQUIRE `m^2 < 0`). Under
+  non-accreting geometry (W156 perspective 9, autopoiesis: continuation may REQUIRE `m^2 < 0`). Under
   this branch the tachyon and the arrow of time are the same object.
 
 This is a CONJECTURE about what TaF's object would supply, with the tri-repo identity UNTESTED. It
@@ -248,8 +248,8 @@ the flaw count does not drop; the standing debits `{1, 3}` are unchanged.
   inserted. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team LENS-LEVEL (W165). Coherence-first; the wrong-abstraction-level lens on the
-tachyon after W159. Five personas inline in one worker (category theorist, foundations/structural
-theorist, adversarial skeptic, symbolic engineer, tri-repo bridge architect); no sub-agents.
+tachyon after W159. Five perspectives inline in one worker (category theorist, foundations/structural
+theorist, adversarial skeptic, symbolic engineer, tri-repo bridge architect); no independent reviewers.
 Reproducible: `python -u tests/W165_universal_property_and_sign.py` (12/12, exit 0; four positive
 controls first). Exploration grade; conditional register; no canon movement; tri-repo gating strict;
 the bridge a gated conjecture; bar (b) UNCHANGED.*

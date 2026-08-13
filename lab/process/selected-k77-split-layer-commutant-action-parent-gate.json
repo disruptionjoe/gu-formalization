@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-020740-gu-split-layer-commutant-action-parent",
+  "run_id": "historical-investigation",
   "status": "EXACT_SPLIT_NATIVE_COMPLEX_STRUCTURE__ACTION_SELECTION_OPEN",
   "target_claim": "NONE-NOT-A-KILL",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

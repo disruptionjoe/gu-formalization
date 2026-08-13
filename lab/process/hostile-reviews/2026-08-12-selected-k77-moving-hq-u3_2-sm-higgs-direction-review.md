@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-050138-gu-moving-hq-u3-2-sm-higgs-direction
 verdict: SURVIVES_AFTER_MATERIAL_SCOPE_REPAIR__EXACT_SM_AND_POST_HIGGS_STABILIZER__HIGGS_CARRIER_ONLY__ACTION_OWNER_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: moving Hq, U(3,2), SM and Higgs direction

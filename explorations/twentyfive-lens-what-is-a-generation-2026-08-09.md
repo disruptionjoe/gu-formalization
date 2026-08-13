@@ -12,9 +12,7 @@ conditioned_on:
   - "ASSUMED GRANTED: a proper source action is found."
   - "ASSUMED GRANTED: a proper external datum is found."
 question_asked: "Not 'why three' -- 'what KIND of thing is a generation, granting all three premises?'"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []
@@ -50,7 +48,7 @@ follows:
 **The question is not "why three."** Granting the math, granting a source action, granting an
 external datum — **what kind of thing is a generation?**
 
-Five persona families, five lenses each. Each declares **ACTUAL MATH** or **ANALOGY**, and answers
+Five perspective families, five lenses each. Each declares **ACTUAL MATH** or **ANALOGY**, and answers
 in one plain-English sentence before elaborating.
 
 ## The frozen facts every lens is arguing from

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-194259-gu-k77-full-carrier-stationary-residual",
+  "run_id": "historical-investigation",
   "status": "PROJECTED_64_RESIDUAL_CONDITIONAL_ONLY__Q_REPAIRED_NULLITY1664__SOURCE_FAITHFUL_NULLITY0_AT_FIXED_FIXTURE",
   "field": "K77_EXACT_GF_1000033_PLUS_QQ_I_IDENTITY_CERTIFICATES",
   "parent_witnesses": [

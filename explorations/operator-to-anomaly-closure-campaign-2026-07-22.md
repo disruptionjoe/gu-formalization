@@ -2,8 +2,6 @@
 title: "Operator-to-anomaly closure campaign"
 status: active
 doc_type: exploration
-lane: "1"
-run_type: progress
 started_at: "2026-07-22T15:17:22-05:00"
 updated_at: "2026-07-22"
 ---
@@ -26,7 +24,7 @@ symmetry-compatible operator realizations, which line or mod-two invariant arise
 space, and can that invariant be identified non-circularly with the proposed `sigma = w1` datum and a
 nonzero Pin anomaly class?
 
-**Lane selection.** Lane 1 (`GU truth testing`), definition/control revision `1`, manifest SHA-256
+**Lane selection.** truth-status research (`GU truth testing`), definition/control revision `1`, manifest SHA-256
 `5c535ae8674718dc2f2bfedf21bfe4c04ac9cceafe62bbfe1428e3814da9f083`. The selected work directly attacks
 the current North-Star bridge rather than merely hardening a nearby bordism byproduct.
 
@@ -56,7 +54,7 @@ tested for transfer to the other.
    `INTERNAL-CLOSURE`, or `SOURCE-GAP`.
 6. Reconcile all affected current-state surfaces and append a run receipt after validation.
 
-Personas and process methods may propose attacks; only formal argument, source evidence, and reproducible
+Perspectives and process methods may propose attacks; only formal argument, source evidence, and reproducible
 computation dispose of the claims.
 
 ## Outcome up front
@@ -173,11 +171,11 @@ These are lenses applied sequentially in this run, not independent evidence and 
   determinant/Pfaffian orientation rather than in a literal choice between two domains.
 - **Commercial scientists:** package the missing source data as a finite acceptance contract and stop paying
   for repeated end samplers.  The next useful deliverable is a source-owned operator packet, not another
-  percentage estimate or persona wave.
+  percentage estimate or perspective wave.
 - **Wild-frontier scientists:** use the crossed sector as a laboratory for equivariant Krein extension
   theory.  Try to derive a mod-two spectral-flow or Real determinant-line invariant over a loop around the
   wall, but pre-register the null outcome and do not call it GU-native until the deck action is supplied.
-- **Philosopher of science:** the run found a productive failure of underdetermination.  The data support a
+- **Philosopher of science:** the investigation found a productive failure of underdetermination.  The data support a
   robust phenomenon (loss of one polarization), while several ontologically stronger readings were added by
   the reconstruction.  Preserve the phenomenon and retract the surplus interpretation.
 
@@ -218,7 +216,7 @@ Both scripts are deterministic and make no network or filesystem writes.
 - `operator_domain_w1_bridge_audit.py`: exit 0 under an isolated `uv` NumPy environment; repeated output is
   byte-identical.
 - `pin14_smith_degree_gate.py`: exit 0 twice with `PIN14-EXACT-Z2` and all seven checks passing.
-- `python3 -m json.tool lab/process/research-portfolio.json`: pass.
+- `python3 -m json.tool lab/process/RESEARCH-AGENDA.json`: pass.
 - `process_gates/spec_consistency_readme_inventory_audit.py`: 4/4 pass.
 - `process_gates/tests_root_readme_inventory_audit.py`: 4/4 pass.
 - `git diff --check`: pass.

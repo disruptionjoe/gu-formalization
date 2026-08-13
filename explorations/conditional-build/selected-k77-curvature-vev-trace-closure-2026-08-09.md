@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-09
 status: SOURCE_SHAPED_SCALAR_JET_BRANCH_EXACT__ZERO_LOCAL_COEFFICIENT_FREEDOM__GLOBAL_REALISATION_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CONFIRMS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR3, LT-GR5, LT-GR6]
 scripts:

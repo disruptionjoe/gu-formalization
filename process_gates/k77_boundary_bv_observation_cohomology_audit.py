@@ -38,7 +38,7 @@ def check(kind, label, value):
 ledger = strict("lab/process/conditional-physics-ledger-v0.181.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.180.json")
 result = strict("lab/process/selected-k77-boundary-bv-observation-cohomology.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.181"
@@ -112,7 +112,7 @@ check("routing", "successor begins with H640 discriminator controls",
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.181", "H640=512+128"],
     "RESEARCH-STATUS.md": ["ledger v0.181", "old one-form 640"],
-    "lab/process/agent-context-pack.md": ["Current v0.181", "two `U(32,32)` halves"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.181", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-boundary-bv-observation-cohomology-review.md": ["SURVIVES_SCOPED", "symplectic/BFV"],
     "lab/sources/selected-k77-boundary-bv-observation-cohomology-source-return-2026-08-11.md": ["SOURCE-SILENT", "SOURCE_CONFIRMS_FOUR_FIELD"],
 }.items():

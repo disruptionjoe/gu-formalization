@@ -23,7 +23,7 @@ def strict(relative):
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.90.json")
 registry = strict("lab/process/signature-generic-cartan-ward-compose.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/signature-generic-cartan-ward-compose-2026-08-08.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-08-signature-generic-cartan-ward-compose-review.md").read_text()
 source = (ROOT / "lab/sources/signature-generic-cartan-ward-source-reinspection-2026-08-08.md").read_text()

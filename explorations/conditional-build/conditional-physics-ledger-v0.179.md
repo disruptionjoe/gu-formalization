@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-11
 ledger_version: "0.179"
-run_id: RUN-20260811-182311-gu-k77-energy-green-boundary-horn-composition
 ---
 
 # Conditional physics ledger v0.179

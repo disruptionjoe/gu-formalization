@@ -20,7 +20,7 @@ I tried genuinely to break it on all five axes. Results:
 
 ---
 
-## Panel (5 personas, inline, genuinely adversarial)
+## Panel (5 perspectives, inline, genuinely adversarial)
 
 ### 1. Lawvere / fixed-point specialist
 
@@ -30,7 +30,7 @@ I tried genuinely to break it on all five axes. Results:
 
 **One real observation (not an error):** (I-a) requires the SAME `B` to carry both the valuation codomain and the endomorphism `alpha`. The paper honors this. Fine.
 
-**Verdict of this persona:** Part (I-a) is clean and honestly credited to Lawvere/Yanofsky. Nothing new in the fixed-point core, and the paper does not pretend otherwise.
+**Verdict of this perspective:** Part (I-a) is clean and honestly credited to Lawvere/Yanofsky. Nothing new in the fixed-point core, and the paper does not pretend otherwise.
 
 ### 2. Contextuality / valuation-no-go specialist (KS, Conway-Kochen, Abramsky-Brandenburger)
 
@@ -46,7 +46,7 @@ These are different theorems in a shared family. The §6.2 "related but distinct
 
 **One sharpening for the authors:** the honest way to state the relationship is genus-sharing, not near-miss. The paper already does this. Good.
 
-**Verdict of this persona:** Not KS, not AB, not subsumed. Correctly mapped.
+**Verdict of this perspective:** Not KS, not AB, not subsumed. Correctly mapped.
 
 ### 3. Curie / symmetry-breaking philosopher of physics (Earman 2004, Norton)
 
@@ -58,9 +58,9 @@ These are different theorems in a shared family. The §6.2 "related but distinct
 
 (ii) **But the label "essentially Curie's principle" over-attributes.** Curie's principle is a *causal* claim (asymmetry of effects must appear in causes). Part II's actual content is the elementary **invariant-theory dichotomy**: a quantity is arena-type iff `G`-invariant, value-type otherwise. That is the textbook invariant / symmetry-breaking-order-parameter distinction. It is *not* a causal principle; there is no cause and effect in the definition. Calling it "essentially Curie's principle" borrows gravitas from a famous slogan that the actual math does not use. This is an overclaim **in the direction of impressiveness**, which a hostile referee flags precisely because the rest of the paper is scrupulously self-deprecating.
 
-(iii) **The "forcing" that supposedly rescues Curie from the analytic is doing less than advertised.** The paper's move is: tie symmetry-breaking to a valuation no-go so the residual is *forced* to break symmetry, not merely allowed. But the "forced ⇒ symmetry-breaking" step rests on **(I-b)**, which is trivial (see persona 4), and the "value" side is *vacuous in one direction*: **every** total valuation is value-type by (I-b), so "the forced one is a value" conveys nothing specific about the forced one. The non-vacuous content is only the *negative* fact "no invariant/closed valuation exists," which is exactly the analytic-leaning fact Earman warns about. So Part II does not actually escape Earman's trap as cleanly as §6.3 claims; it relabels it.
+(iii) **The "forcing" that supposedly rescues Curie from the analytic is doing less than advertised.** The paper's move is: tie symmetry-breaking to a valuation no-go so the residual is *forced* to break symmetry, not merely allowed. But the "forced ⇒ symmetry-breaking" step rests on **(I-b)**, which is trivial (see perspective 4), and the "value" side is *vacuous in one direction*: **every** total valuation is value-type by (I-b), so "the forced one is a value" conveys nothing specific about the forced one. The non-vacuous content is only the *negative* fact "no invariant/closed valuation exists," which is exactly the analytic-leaning fact Earman warns about. So Part II does not actually escape Earman's trap as cleanly as §6.3 claims; it relabels it.
 
-**Verdict of this persona:** Part II is correct but is *elementary invariant theory*, not Curie's principle. Narrow the claim from "essentially Curie's principle" to "a Curie-flavored invariant/non-invariant dichotomy," and drop the implication that the forcing defeats Earman's analyticity worry. The attribution is honest as a citation; the labeling is inflated.
+**Verdict of this perspective:** Part II is correct but is *elementary invariant theory*, not Curie's principle. Narrow the claim from "essentially Curie's principle" to "a Curie-flavored invariant/non-invariant dichotomy," and drop the implication that the forcing defeats Earman's analyticity worry. The attribution is honest as a citation; the labeling is inflated.
 
 ### 4. Proof-checker demanding every step
 
@@ -82,7 +82,7 @@ These are different theorems in a shared family. The §6.2 "related but distinct
 
 **Definitional nit (axis e):** A2 says `B` has "at least two distinct points 0, 1," while the setting says `B = {0,1}` (exactly two). The load-bearing hypothesis is actually **A3 alone** (`Fix(alpha) = ∅`); `|B| = 2` is inessential and A2 is nearly redundant (it only secures "genuinely graded"). If `B` had a third point, A3 would require `alpha` to move it too, and §5.3 shows a third *fixed* grade breaks everything. **Repair:** either fix `|B| = 2` exactly, or restate the real hypothesis as "`alpha` fixpoint-free on all of `B`" and demote A2 to a reading convention. A mathematician *can* state the theorem as written, but the A2/cardinality wording invites a spurious objection.
 
-**Verdict of this persona:** proof is correct; two honesty/precision repairs and one definitional tightening. No error that changes any conclusion.
+**Verdict of this perspective:** proof is correct; two honesty/precision repairs and one definitional tightening. No error that changes any conclusion.
 
 ### 5. Synthesis referee
 
@@ -94,7 +94,7 @@ These are different theorems in a shared family. The §6.2 "related but distinct
 - **Not (a) GENUINELY NOVEL.** No individual step is a new theorem. The paper correctly declines (a).
 - **(b) is honest** — with the caveat that the synthesis is *light*. Its genuine content reduces to: (Cantor/Lawvere no-self-enumeration) ⊕ (the triviality that a nonempty domain cannot map into an empty fixed-set, relabeled "symmetry-breaking"). The connective tissue is narrative. That is still a legitimate (b) — clear, correct, well-mapped packaging — but the abstract's phrase "**the load-bearing sentence**" oversells a conjunction whose second conjunct is trivial.
 
-**Verdict of this persona:** honestly (b). Keep the grade; deflate the rhetoric.
+**Verdict of this perspective:** honestly (b). Keep the grade; deflate the rhetoric.
 
 ---
 

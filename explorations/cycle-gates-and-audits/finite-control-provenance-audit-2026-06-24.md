@@ -6,7 +6,7 @@ doc_type: finite_control_provenance_audit
 verdict: "NO_SELECTOR_SUCCEEDS; FIRST_FORBIDDEN_TARGET_A_F; PARTIAL_DERIVE_HOST_IMPORT_FAIL"
 owner: "Codex"
 depends_on:
-  - "explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
+  - "explorations/perspective-and-dialectic/all-perspective-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/goal-draft-type-ii1-fixed-data-selector-challenge-2026-06-24.md"
   - "explorations/type-ii1-spectral/type-ii1-selector-or-nogo-theorem-2026-06-24.md"

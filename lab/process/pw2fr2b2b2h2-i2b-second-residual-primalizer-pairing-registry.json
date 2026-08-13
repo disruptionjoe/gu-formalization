@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2H2-I2B-SECOND-RESIDUAL-PRIMALIZER-PAIRING",
   "status": "CONDITIONAL_ACTIVE_FIXED_BACKGROUND_I2B_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET_CLOSED__GLOBAL_SOURCE_EPSILON_CURVATURE_GRAPH_OPEN",
-  "run_id": "RUN-20260804-062944-gu-formalization-pw2fr2b2b2h2-i2b-second-primalizer",
+  "run_id": "historical-investigation",
   "verdict_scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair on the accepted fixed spin-curvature background, with exact metric/trace swap control",
   "source_disposition": {
     "SOURCE-CONFIRMS": "I1 grammar and the separately custodied manuscript I2B residual-square glyph",

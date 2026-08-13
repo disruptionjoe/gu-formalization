@@ -1,12 +1,9 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-223221-gu-i2b-moving-coefficient-absorption
 subject: selected-k77-i2b-principal-preserving-moving-coefficient-absorption
 verdict: PASS_WITH_PRINCIPAL_FINGERPRINT_FENCE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: principal-preserving moving-coefficient absorption

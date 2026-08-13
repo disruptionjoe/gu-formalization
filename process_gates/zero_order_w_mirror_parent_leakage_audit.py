@@ -35,12 +35,12 @@ def strict(relative):
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.136.json")
 result = strict("lab/process/selected-k77-zero-order-w-mirror-parent-leakage.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-zero-order-w-mirror-parent-leakage-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-zero-order-w-mirror-parent-leakage-review.md").read_text()
 next_steps = (ROOT / "NEXT-STEPS.md").read_text()
 status = (ROOT / "RESEARCH-STATUS.md").read_text()
-context = (ROOT / "lab/process/agent-context-pack.md").read_text()
+context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 
 check("ledger", "v0.136 is append-only from v0.135",
       ledger["predecessor"].endswith("conditional-physics-ledger-v0.135.json")

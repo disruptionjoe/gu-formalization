@@ -2,10 +2,7 @@
 title: "Selected K77 I2B observer-time Hermitian reduction"
 status: exploration
 created: 2026-08-12
-run_id: RUN-20260812-171303-gu-i2b-observer-time-hermitian-reduction
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B observer-time Hermitian reduction

@@ -3,11 +3,8 @@ title: "Selected K77 primitive-epsilon common residual bank"
 status: conditional_build
 doc_type: exploration
 created: "2026-08-08"
-lane: "1"
 channels: [BUILD, COMPOSE, SOURCE, VERIFY]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 primitive-epsilon common residual bank

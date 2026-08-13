@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1]
 load=lambda p: json.loads((R/p).read_text())
 r=load("lab/process/selected-invariant-constituent-operator-naturality.json")
 l=load("lab/process/conditional-physics-ledger-v0.54.json")
-c=load("lab/process/functional-channel-operating-contract-v1.0.json")
+c=load("lab/methods/research-evidence-contract-v1.0.json")
 report=(R/"explorations/conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md").read_text()
 review=(R/"lab/process/hostile-reviews/2026-08-07-selected-invariant-constituent-operator-naturality-review.md").read_text()
 assert "BRANCH_TANGENT_OPERATOR_PACKET_ZERO" in r["status"]

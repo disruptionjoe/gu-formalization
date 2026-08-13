@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2H exact mixed trace/Phi/Hodge/Shiab operator jet"
 status: active_research
 doc_type: exploration
 created: "2026-08-04"
-run_id: RUN-20260804-052005-gu-formalization-pw2fr2b2b2h-mixed-shiab-second-jet
 ---
 
 # PW2F-R2B2B2H exact mixed Shiab operator jet

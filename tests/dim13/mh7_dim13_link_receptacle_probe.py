@@ -53,7 +53,6 @@ WHAT IS COMPUTED HERE (exact, no floats):
           restated in the companion note (pack + M-M28).
 
 NO VERDICT MOVEMENT. This is arithmetic support for a restatement note:
-claim_status_change: none; canon_verdict_change: none; public posture
 unchanged.  Pre-deposit; any decisive downstream use is J5-gated.
 
 Exact arithmetic only. check()-style asserts; exits nonzero on any failure.

@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-11
 status: NATURAL_ZERO_ORDER_CONSTRAINT_ROUTE_KILLED__DERIVATIVE_NONLOCAL_BV_OR_OPERATOR_COMPLETION_OPEN
 grade: "exact rational real-Cl(7,7) representation and evolution theorem at Spin-natural zero-order scope; no action derivation, BV quotient, global domain, index or physics recovery"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 natural trace-constraint gate

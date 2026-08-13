@@ -3,14 +3,11 @@ title: "RB3b trace-relative fixed-Cartan four-component candidate and full-20 li
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: RB3B-TRACE-REVERSED-BIDOUBLET-FULL20-JOIN
-run: lab/process/runs/GUH-20260730T232344Z-rb3b-trace-vertex-grade3/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/rb3b_trace_reversed_bidoublet_full20_probe.py
 grade: "PASS FIXED-CARTAN FINITE ALGEBRA / OBSERVER-CARTAN REDUCTION UNBUILT. The defining rho_S is canonical. Trace reversal changes the fibre from (7,3) to (6,4), fixes the negative trace line, and fixes native Hodge signs, but does not select the A6+W4 maximal-compact split used by the candidate. The executable DEWITT_FRAME additionally chooses an observer/Cartan reduction: rotations preserve it, all three induced boosts mix its planes, and a finite boost moves its W4 projector. Conditional on that reduction, a right-H/Krein-compatible four-component image and canonical full-20 lift exist. The domain W4 has abstract (1,2,2) shape before fixing t; the fixed-t image is only Spin3-equivariant, not a constructed Spin4 bidoublet. Imposed Hilbert-Schmidt isometry gives |lambda|=1, but lambda signs are coordinate parameterizations of one image and their physical quotient is unresolved. Scalar/Phi/M are coflip-even; pseudoscalar/Phi/M are odd. Each component has 44 supported ordered blocks in the fixed twenty-slot decomposition. Retained mode, physical observer/Cartan origin, full moving covariance, compact/SM reduction, VEV, stabilization, and cosmology remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # RB3b trace-relative fixed-Cartan candidate and full-20 lift
@@ -721,7 +718,7 @@ The next highest-information construction is now:
 6. only then compute a quotient-aware constraint surplus and confront the
    compact reduction, complete SM selector, flavour, and cosmology legs.
 
-The curvature-current and grade-three source tracks in this run are recorded
+The curvature-current and grade-three source tracks in this investigation are recorded
 separately because they alter different action maps and have different
 re-entry points.
 

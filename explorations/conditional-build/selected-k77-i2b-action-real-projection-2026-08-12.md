@@ -2,13 +2,9 @@
 artifact_type: exact_conditional_variational_result
 created: 2026-08-12
 status: PPLUS_ACTION_OWNED_AT_FIXED_REAL_EULER_GRADE__NONLINEAR_REPLACEMENT_REFUTED
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_RESIDUAL_NORM_SQUARE_AND_ADJOINT_GRAMMAR__SOURCE_SILENT_ON_HQ_AND_PPLUS__REPO_DERIVES_PPLUS_AS_FIXED_REAL_EULER_PRIMALIZER__NONLINEAR_RESIDUAL_REPLACEMENT_REFUTED
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B action-real projection

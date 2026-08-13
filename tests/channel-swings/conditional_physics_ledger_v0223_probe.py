@@ -24,10 +24,10 @@ def no_duplicates(pairs):
 old = json.loads(OLD_PATH.read_text(), object_pairs_hook=no_duplicates)
 new = json.loads(NEW_PATH.read_text(), object_pairs_hook=no_duplicates)
 contract = json.loads(
-    (ROOT / "lab/process/functional-channel-operating-contract-v1.0.json").read_text(),
+    (ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text(),
     object_pairs_hook=no_duplicates,
 )
-lanes = (ROOT / "LANES.yaml").read_text()
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 checks: list[tuple[str, bool, bool]] = []
 
 
@@ -38,7 +38,7 @@ def check(name: str, condition: object, planted: bool = False) -> None:
 check("schema", new["schema_version"] == "0.223")
 check("predecessor", new["predecessor"].endswith("v0.222.json"))
 check("status", new["status"] == "CURRENT_APPEND_ONLY_LEDGER_V0_223")
-check("run_owner", new["updated_by"] == "RUN-20260812-223314-gu-i2b-observer-qb-radial-stationarity")
+check("run_owner", new["updated_by"] == "historical-investigation")
 check("denominator_unchanged", new["denominator"] == old["denominator"])
 check("verdict_counts_unchanged", new["progress"]["verdict_counts"] == old["progress"]["verdict_counts"])
 check("coverage_unchanged", (new["progress"]["mapped"], new["progress"]["total"]) == (82, 82))

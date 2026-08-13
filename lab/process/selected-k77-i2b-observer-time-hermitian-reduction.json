@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-12",
-  "run_id": "RUN-20260812-171303-gu-i2b-observer-time-hermitian-reduction",
+  "run_id": "historical-investigation",
   "objective": "Test whether the v0.214 phase-even rank-four response pairing is owned by the vertical trace or only by an observed timelike Hermitian reduction.",
   "predecessor": "lab/process/selected-k77-i2b-real-primalizer-phase-gate.json",
   "checks": {

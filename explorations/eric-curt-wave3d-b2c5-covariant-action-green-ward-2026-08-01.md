@@ -3,14 +3,10 @@ title: "Eric/Curt Wave 3D-B2C5: frozen-principal action candidate, Green control
 status: active_research
 doc_type: construction_result
 created: 2026-08-01
-lane: "1"
 work_item: ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE
 registry: lab/process/eric-curt-wave3d-b2c5-covariant-action-green-ward.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c5_covariant_action_green_ward_probe.py
 grade: "SPLIT exact active-Cl(9,5) frozen-principal action/PDE result. The already-filtered B2C4 repair admits a typed quadratic independent-dual action class at frozen principal order. Its coefficient symbol is Krein-selfadjoint and passes right-H plus C-plus/symplectic-Majorana principal compatibility; the native first-order differential is formally Krein-skew. Finite algebraic variation proves emission, not the complete covariant Hodge-density variation or coefficient selection. The separate Dirac-type section gate derives the normalized reciprocal equations. After five constraints and the explicitly verified frozen-principal chiral-boost field equivalence, two continuous principal-action parameters remain: an overall source coupling and one dimensionless shape p. Extension of that equivalence to the complete covariant action is unproved. Only quotienting the Euler/action ray leaves p alone. For the normalized tied representative, one positive right-H symmetrizer works in all three spatial directions, but its maximally negative spectral half is not isotropic for the frozen action Green form. Exact Levi-Civita fixtures make the bare right composition match one-half Einstein-gamma and vanish on a nonzero algebraic pure-Weyl control. A scalar endomorphism curvature fixture and hand-built torsion/moving-weight arrays only expose possible independent types; the left curved composition, actual GU-adjoint curvature, connection/distortion choice, jet-module Euler factorization, and analytic Green domain remain open. Modern Weinstein sources select only the zero-corner grammar; the present active-(9,5) pure-wedge realization fails the tested semisimplicity gate, with no no-go claimed against an unreleased cyclic/two-connection operator. P1/P2/P3 remain unused."
-claim_status_change: false
-canon_change: false
-public_posture_change: false
 ---
 
 # Wave 3D-B2C5 — frozen-principal action candidate, Green control, and curved Ward gate

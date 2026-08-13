@@ -37,7 +37,7 @@ Hilbert), and ratio-only `mu_DW` are all used on their geometric side. No positi
 
 ---
 
-## Persona team (inline, sequential, one context)
+## Perspective team (inline, sequential, one context)
 
 ### (1) Observerse / information-theory specialist -- the attempt
 

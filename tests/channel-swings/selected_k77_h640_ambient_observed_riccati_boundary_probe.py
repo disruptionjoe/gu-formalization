@@ -314,7 +314,7 @@ check("selection", "the result selects neither a vertical adapter nor a Higgs ce
 check("accounting", "P1 P2 P3 residue quotients canon and public posture remain unchanged", True)
 
 RESULT = {
-    "run_id": "RUN-20260811-215742-gu-k77-h640-ambient-observed-riccati-boundary",
+    "run_id": "historical-investigation",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,
     "packets": packets,

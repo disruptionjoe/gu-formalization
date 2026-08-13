@@ -22,7 +22,7 @@ result = json.loads((ROOT / "lab/process/selected-k77-p3-normal-tangential-suppo
 report = (ROOT / "explorations/conditional-build/selected-k77-p3-normal-tangential-support-obstruction-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-p3-normal-tangential-support-review.md").read_text()
 source = (ROOT / "lab/sources/selected-k77-p3-normal-tangential-support-source-reinspection-2026-08-10.md").read_text()
-contract = json.loads((ROOT / "lab/process/functional-channel-operating-contract-v1.0.json").read_text())
+contract = json.loads((ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text())
 tests_readme = (ROOT / "tests/README.md").read_text()
 gates_readme = (ROOT / "process_gates/README.md").read_text()
 

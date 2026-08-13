@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "GUH-20260731T183007Z-eric-curt-wave2-carrier-port-census",
+  "run_id": "historical-investigation",
   "campaign": "lab/process/eric-curt-ten-wave-campaign.json",
   "wave": "ECW2-G3.5-CENSUS",
   "status": "PORT_CENSUS_COMPLETE__WAVE2B_FROZEN_G2_FIRST_LAYER_QUOTIENT_COMPLETE",

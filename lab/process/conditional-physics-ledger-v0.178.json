@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.178 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; local flat observed real Cauchy evolution exists conditionally, while variable/global, spatial-boundary, ambient/null and horn/p selection remain open"
   },
-  "updated_by": "RUN-20260811-172120-gu-k77-observed-cauchy-domain-layer0",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

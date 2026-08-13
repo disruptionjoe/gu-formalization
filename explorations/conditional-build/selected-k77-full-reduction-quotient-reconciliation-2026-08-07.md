@@ -4,9 +4,7 @@ created: 2026-08-07
 status: SOURCE_OWNED_FULL_REDUCTION_QUOTIENT_BASIC__HORIZONTAL_PLANE_FORGETFUL_QUOTIENT_FAILS__OBSERVATION_EULER_OPEN
 source_return: SOURCE-CORRECTS__FULL_LABELLED_CLIFFORD_REDUCTION_ALREADY_OWNED_BY_SOURCE_EPSILON__SOURCE-SILENT__OBSERVATION_SECTION_AND_PHYSICAL_EULER_DESCENT
 ledger: lab/process/conditional-physics-ledger-v0.59.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 full-reduction quotient reconciliation

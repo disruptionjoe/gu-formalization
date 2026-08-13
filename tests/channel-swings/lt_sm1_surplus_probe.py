@@ -26,7 +26,7 @@ import sys
 from fractions import Fraction
 from pathlib import Path
 
-REPO = Path("/Users/joe/Brain/CapacityOS/repos/public/gu-formalization")
+REPO = Path(".")
 PINNED_HEAD_READ = "0b2b0453a0afb831cbcb70f70352f65b120043b8"   # HEAD when reading began
 HEAD_AT_RUN     = "f078fcbb66ff9d99b933022c28852eb7fcf65c96"   # automation advanced HEAD mid-run
 
@@ -134,7 +134,7 @@ CANDIDATES = [
         recorded_status="FUNDAMENTAL-YM-W177-VERTICAL-RESPONSE-KILLED, but FD-band",
         discriminates=None,  # would discriminate, but is DISQUALIFIED
         reason="P-H29 (AGENTS.md:44): FD-read nulls are not citable until certified "
-               "with exact derivatives; LANE-STATE.yaml:64 lists this exact "
+               "with exact derivatives; CURRENT-STATE.yaml:64 lists this exact "
                "recertification as still open",
     ),
     dict(

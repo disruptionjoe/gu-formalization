@@ -22,13 +22,13 @@ def strict(relative):
 
 r = strict("lab/process/selected-second-layer-transverse117-residual-zero-owner-class.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.55.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-07-selected-second-layer-transverse117-residual-zero-owner-class-review.md").read_text()
-context = (ROOT / "lab/process/agent-context-pack.md").read_text()
+context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 next_steps = (ROOT / "NEXT-STEPS.md").read_text()
 status = (ROOT / "RESEARCH-STATUS.md").read_text()
-lanes = (ROOT / "LANES.yaml").read_text()
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 
 assert "CONNECTION_CLASS_KILLED_AT_RESIDUAL_ZERO" in r["status"]
 assert r["rerun"] == "30/30 PASS"

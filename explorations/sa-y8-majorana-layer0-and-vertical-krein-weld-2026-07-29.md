@@ -2,16 +2,13 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: VERTICAL-KREIN-WELD
 title: "SA-Y8 LAYER-0 + VERTICAL--KREIN WELD: the SW 'Majorana block' is a HOMONYM, not the SHIAB-05 same-Weyl scalar; the vertical Lambda^1 connection channel is an exact 4D Lorentz-scalar, cross-chirality, nonzero Krein bilinear on the observer-compatible branch; and all four previously untyped B5 X-sector special orbits are vertical-only RS-symbol edges reached by the canonical projected vertical symbol. Composing the pairing a second time produces the antilinear Krein-dual coflip C_perp=K J_obs: it has exactly the B5 dual-slot action and gives one uniform relative parity to all ten special vertical edges. Therefore P2 is typed and conditionally welds to P1 as one global orientation bit, rather than four independent X signs. The actual differential sign, fibre-loop identification, Green form, and domain remain open."
 grade: "EXACT for Layer-0 object typing against the two source maps; exact finite matrix algebra on a factorized Cl(9,5)=Cl(3,1) hat-tensor Cl(6,4) representation; exact observer-subgroup support classification against the certified B5 matrix; exact for the C_perp chirality action, contragredient covariance, projector preservation, and uniform algebraic parity of the canonical vertical symbol. RECONSTRUCTION for identifying C_perp with the physical metric-fibre loop coflip and for translating its whole-module parity into normalized B5 slot phases. This is a channel/support and conditional one-bit-weld result, not a source-action solution, vacuum construction, mass prediction, native B5 packet, signed phase sum, or claim-status change."
-run: lab/process/runs/GUH-20260729T194945Z-vertical-krein-weld/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/vertical_krein_weld_probe.py
 construction: "program-native Cl(9,5), Krein pairing included in every physical fermion bilinear, declared 4+10 observer split, gamma-traceless RS projectors, and the symmetric metric fibre. The complexified Spin(4,C) x Spin(10,C) branching is used only for the already-certified B5 support ledger. No positive-Hilbert substitution."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "L0-HOMONYM + 4D-SCALAR-BRIDGE + P2-VERTICAL-SYMBOL-TYPED + CONDITIONAL-P1-P2-ONE-BIT-WELD"
 ---
 

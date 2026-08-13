@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2E-CONDITIONAL-PRINCIPAL-QUADRATIC-DISTORTION-U4-CEILING",
   "status": "CONDITIONAL_ACTIVE_CANONICAL_COFRAME_PRINCIPAL_Z1_QUADRATIC_DISTORTION_U4_CEILING_ZERO",
-  "run_id": "RUN-20260803-120315-gu-formalization-pw2fr2b2b2e-actual-u4-jet-realizability",
+  "run_id": "historical-investigation",
   "verdict_scope": "universal within the declared nonlinear Zorro dependency graph, canonical symmetric coframe, conditional epsilon_act, fixed-background policies, ten Sym2 owners, and arbitrary independent observed-base conormal pairs",
   "source_disposition": {
     "SOURCE-CONFIRMS": "I1B takes metric input, places kappa1/2 times T_omega, measures distortion against a distinguished Levi-Civita/spin reference, and displays one varpi derivative with metric and epsilon_src fixed for that derivative",
@@ -76,7 +76,7 @@
     "probe": "tests/channel-swings/pw2fr2b2b2e_actual_u4_jet_realizability_probe.py",
     "exploration": "explorations/pw2fr2b2b2e-actual-u4-jet-realizability-2026-08-03.md",
     "predecessor_probe": "tests/channel-swings/pw2fr2b2b2d_kappa_c4_identifiability_probe.py",
-    "source_audit": "explorations/hourly-cycles/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md",
+    "source_audit": "explorations/research-cycles/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md",
     "rerun": "12_EXACT_PLUS_2_SOURCE_PLUS_19_TYPE_PLUS_3_PLANTED_EQUALS_36_PASS"
   },
   "hostile_reviews": {

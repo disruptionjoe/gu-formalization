@@ -3,7 +3,7 @@ W156 -- deterministic checks for the coherent-full-story capstone (TEAM COHERENT
 
 Exploration grade. Conditional register. NOT evidence. This test runs the one computation
 the W156 convergence pass actually needs: the STRUCTURAL-vs-COINCIDENCE status of the
-a2 = -a1^2 identity that personas 6 and 10 independently land on as the keystone tying the
+a2 = -a1^2 identity that perspectives 6 and 10 independently land on as the keystone tying the
 tachyon (a2 = -1/9) to the attractive-Einstein sign (a1 = +1/3).
 
 The GU object under study (CITED, not re-derived here):

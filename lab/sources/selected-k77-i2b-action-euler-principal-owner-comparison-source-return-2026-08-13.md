@@ -2,7 +2,6 @@
 artifact_type: source_return
 created: 2026-08-13
 status: SOURCE_CONFIRMS_OWNER_DISTINCTION__SOURCE_SILENT_OPERATIVE_SECOND_ACTION
-lane: "1"
 target: selected-k77-i2b-action-euler-principal-owner-comparison
 ---
 

@@ -92,7 +92,7 @@ They are not enough to fix a native absolute scale.
 ## What changed
 
 - `PRED-FLAVOR-RANK` had already closed the current zero-parameter flavor route.
-- This run closes the next scale-normalization route at the current built-structure grade.
+- This investigation closes the next scale-normalization route at the current built-structure grade.
 - Track B now needs either a new native normalization/source datum, a physical mirror observable, or another
   daily-steward-selected lane. The daily steward owns portfolio reconciliation.
 

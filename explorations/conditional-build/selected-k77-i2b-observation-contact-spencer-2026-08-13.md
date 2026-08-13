@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: LOCAL_STATIONARY_OBSERVATION_DUAL_CLOSED__FIRST_SPENCER_COKERNEL_EXACTLY_14
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_AND_SOURCE_SILENT
 ledger_change: none
 scripts:

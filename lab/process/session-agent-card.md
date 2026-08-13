@@ -12,7 +12,7 @@ maintenance: "Keep under ~70 lines. Guidance voice ('worth doing'), never requir
 # Session-agent card
 
 Everything below is **useful next-step guidance, not obligation**. The hourly campaign's working memory is
-`lab/process/agent-context-pack.md` — that is ITS surface (current fences, ledger state); read it for
+`lab/process/CURRENT-RESEARCH-CONTEXT.md` — that is ITS surface (current fences, ledger state); read it for
 campaign context, do not restructure it mid-campaign.
 
 ## Machinery index — import by path, don't rebuild

@@ -1,7 +1,7 @@
 {
   "artifact_type": "construction_result",
   "created": "2026-08-11",
-  "run_id": "RUN-20260811-033947-gu-k77-coupled-green-domain",
+  "run_id": "historical-investigation",
   "ledger_version": "0.165",
   "grade": "EXACT_FINITE_SYMPLECTIC_VARIATIONAL_COMPARATOR_AND_FULL_CARRIER_DIMENSION_THEOREM",
   "boundary_form": {

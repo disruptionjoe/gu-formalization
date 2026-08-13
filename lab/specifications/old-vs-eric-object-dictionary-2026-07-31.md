@@ -3,7 +3,7 @@ title: "Old construction / Eric-guided source-action object dictionary"
 status: active_research
 doc_type: specification
 created: 2026-07-31
-run: lab/process/runs/GUH-20260731T132849Z-old-eric-ten-lens-council/run-plan.md
+run: archived private execution record
 ---
 
 # Old/Eric object dictionary

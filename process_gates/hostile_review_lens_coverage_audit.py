@@ -5,7 +5,7 @@ Two halves, deliberately asymmetric in how loudly they fail.
 
 CENSUS (reports, never fails).  Every hostile review declares `mandatory_lenses`
 in its front matter.  Nothing has ever read those declarations in aggregate, so a
-hole in the corpus is invisible: as of 2026-08-08 the 41 filed persona passes
+hole in the corpus is invisible: as of 2026-08-08 the 41 filed perspective passes
 contained ZERO coverage of complex analysis, path integrals, saddle points,
 steepest descent or Picard-Lefschetz, while every open analytic gate in the
 program sits in exactly that territory.  That hole persisted because lens

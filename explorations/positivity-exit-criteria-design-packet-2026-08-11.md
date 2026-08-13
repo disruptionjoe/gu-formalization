@@ -3,13 +3,11 @@ title: "Design packet: positivity-exit criteria for the BRST/quotient route (M-H
 status: active_research
 doc_type: design_packet
 created: 2026-08-11
-run_id: RUN-20260811-234500-gu-five-frontier-design-packets
-lane: "1"
 target: "M-H17 positivity/BRST exit criteria"
 head_commit: bdd2c934335e6e534d4e0f9e7f55d7678eb566d8  # HEAD at drafting start (2026-08-11 17:12:35 -0500); the ledger advanced from v0.173 to v0.185 during drafting — every campaign citation below is pinned to a file opened at this commit
 relates_to:
   - lab/process/improvement-register-2026-08-03.md (M-H17 row :352; M-H4 row :156; M-H4 rider :418)
-  - lab/process/agent-context-pack.md (anchor fact 4, POSITIVITY↔BOUNDARY, :1679-1691; kinematic ≠ physical, :1638)
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md (anchor fact 4, POSITIVITY↔BOUNDARY, :1679-1691; kinematic ≠ physical, :1638)
   - explorations/observable-algebra-commutant-trichotomy-2026-08-03.md (uniqueness + existence legs; the two exits)
   - lab/process/hostile-reviews/2026-08-03-trichotomy-review.md (the review that mandated register-tracking this exit)
   - explorations/chirality-grading-and-77-rerun-2026-08-03.md (DQ2: F = ∅ signature-robust; symplectic J-fixed carrier)
@@ -30,9 +28,7 @@ binding: >-
   wave owns every disposition under the full pre-flight / hostile-review
   contract, and anything approaching canon goes through the two-phase rule.
 hostile_review: lab/process/hostile-reviews/2026-08-11-positivity-exit-criteria-design-review.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---
@@ -127,7 +123,7 @@ Failure modes this packet could commit, and the mitigations applied:
   (DQ2/DQ1, hostile-reviewed): F = ∅ is SIGNATURE-ROBUST (the boost witness
   transfers to (7,7)) … the canonical J-fixed carrier is SYMPLECTIC, closing
   M-H4's O(p,q) sign-forcing route" — verified verbatim at
-  lab/process/agent-context-pack.md:1679-1691, HEAD bdd2c93.
+  lab/process/CURRENT-RESEARCH-CONTEXT.md:1679-1691, HEAD bdd2c93.
 - **The uniqueness theorem.** Commutant triviality gives at most one
   admissible fundamental symmetry (residual family dimension 0); neutrality
   (832,832) is STRUCTURAL (`ωβ + βω = 0` exactly, both chirality halves

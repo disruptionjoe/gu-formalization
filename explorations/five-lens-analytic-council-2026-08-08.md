@@ -3,13 +3,11 @@ artifact_type: council_result
 created: 2026-08-08
 status: FIVE_ANALYTIC_LENSES__RA_D2_NEAR_CLASS_KILL__DOMAIN_AND_INDEX_ROWS_RECLASSIFIABLE__POSITIVITY_RETYPE_REFUTED
 grade: "COUNCIL. Five specialist lenses, read-only, on targets the repository has
-  zero persona coverage for. Each finding cites file:line and is a reading of
+  zero perspective coverage for. Each finding cites file:line and is a reading of
   filed artifacts, not a new computation -- except the convexity counterexample,
   which was checked directly. Every named next step is stated with its cost and
   its preregistered kill."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []
@@ -17,7 +15,7 @@ residue_touched: []
 
 # Five analytic lenses: what the repository already knows and has not recorded
 
-Motivation: as of 2026-08-08 the 41 filed persona passes contained **zero**
+Motivation: as of 2026-08-08 the 41 filed perspective passes contained **zero**
 coverage of complex analysis, path integrals, saddle points, steepest descent or
 Picard-Lefschetz, while every open gate in the program — domain, spectrum, index,
 positivity, integral — sits in exactly that territory. Five lenses were run at

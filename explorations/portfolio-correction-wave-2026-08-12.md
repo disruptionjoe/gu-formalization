@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-12
 status: PORTFOLIO_CORRECTED__FOUR_EXACT_CHECKS_SCOPED__CONSTRUCTION_FRONTIERS_RETAINED
 target_claim: NONE-NOT-A-KILL
-claim_status_change: "SC-GEN-53 and SC-GEN-54 move from UNTYPED to PARTIAL adherence only"
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Portfolio correction wave
@@ -94,7 +92,7 @@ algebraic ingredient linked, while the claimed count remains unconstructed.
 `SC-GEN-53` says that at higher energy two families remain equivalent up to
 mass while the imposter does not. `SC-GEN-57` is the already-adhered rolled-up
 2+1 claim.  The former has no source-supplied scale, observable or discriminant,
-so Lane 2 owns a seed with three admission burdens rather than a frozen packet.
+so prediction research owns a seed with three admission burdens rather than a frozen packet.
 
 ### Anomaly, carrier and B5 scope
 

@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-011911-gu-k77-action-concomitant-residual-flag
 target_claim: NONE-NOT-A-KILL
 ---
 

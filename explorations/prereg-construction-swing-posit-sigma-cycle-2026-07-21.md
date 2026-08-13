@@ -4,10 +4,7 @@ status: preregistration
 doc_type: scoping_decision_tree
 created: 2026-07-21
 directed_by: "Joe direct chat, 2026-07-21 (construction mode: insert/choose the thing, build the coherent picture, then verify the other way — NOT a derivation)"
-mode: CONSTRUCTION (Track-2 conditional: 'X given S', S DECLARED, never asserted as forced)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

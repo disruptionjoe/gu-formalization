@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.206 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; P_plus is action-owned at the H_q-fixed Euler grade but not as a nonlinear residual replacement; moving global Euler/preboundary remains open"
   },
-  "updated_by": "RUN-20260812-123851-gu-i2b-action-real-projection",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

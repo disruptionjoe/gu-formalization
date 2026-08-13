@@ -38,7 +38,7 @@ def check(kind: str, label: str, condition: object) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.178.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.177.json")
 result = strict("lab/process/selected-k77-observed-cauchy-domain-layer0.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 v173 = strict("lab/process/selected-k77-wedge-shiab-southeast-completion.json")
 
 check("ledger", "append-only successor identity is exact",
@@ -96,7 +96,7 @@ check("routing", "successor starts with the variable observed and spatial bounda
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.178", "rank two"],
     "RESEARCH-STATUS.md": ["ledger v0.178", "symmetric-hyperbolic"],
-    "lab/process/agent-context-pack.md": ["Current v0.178", "two `U(32,32)` halves"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.178", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-observed-cauchy-domain-layer0-review.md": ["SURVIVES_WITH_SCOPE_REPAIR", "4/4/2"],
     "lab/sources/selected-k77-observed-cauchy-domain-layer0-source-return-2026-08-11.md": ["SOURCE-SILENT", "spatial"],
 }.items():

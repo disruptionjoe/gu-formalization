@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "date": "2026-08-08",
   "status": "INTERNAL_BIVECTOR_WARD_RANK3_CLOSED__PHYSICAL_DIFFEO_MATCHED_Q_FRECHET_OPEN",
-  "run_id": "RUN-20260808-180114-gu-k77-kosmann-moving-shiab-rank3",
+  "run_id": "historical-investigation",
   "predecessor": "lab/process/selected-k77-principal-ward-gamma-epsilon-reconciliation.json",
   "source_return": "SOURCE-CONFIRMS__MOVING_PHI_SHIAB_AND_PRIMITIVE_EPSILON_GRAMMAR__SOURCE-SILENT__PHYSICAL_DIFFEO_SOLDERING",
   "layer0": {

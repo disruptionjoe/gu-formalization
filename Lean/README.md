@@ -15,7 +15,7 @@ documents.
 
 | Lean file | Scope | Owner surface |
 |---|---|---|
-| `GUFormalization/Status.lean` | Claim-status order and dependency monotonicity kernel | `lab/process/runbooks/claim-status-consistency-quality-workflow.md` |
+| `GUFormalization/Status.lean` | Claim-status order and dependency monotonicity kernel | `lab/methods/claim-status-consistency.md` |
 | `GUFormalization/K3IndexArithmetic.lean` | Symbolic K3/RS index arithmetic used by current audits | `lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md` |
 | `GUFormalization/W2Polynomial.lean` | Algebraic `F_2` polynomial identities behind the corrected `w2(Y14)` calculation | `canon/w2-y14-spin-structure.md` |
 | `GUFormalization/LocatedNotForcedLegs.lean` | Finite located-not-forced theorem-grade legs: Krein transversality (a positive-definite subspace meets each totally isotropic subspace trivially; `intersectionDifference = 0`) and 2-primary identities. No antilinear operator content — the antilinear bound is symbolic-only in the owner file (scope corrected 2026-08-03) | `canon/core-theorems-symbolic-proof-RESULTS.md` |

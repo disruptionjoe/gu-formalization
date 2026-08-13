@@ -4,7 +4,6 @@ created: 2026-08-04
 subject: RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD
 verdict: PASS_WITH_MATERIAL_SCOPE_REPAIRS__GATE_PARTIAL
 review_mode: inline_science_council_and_specialist_lenses
-claim_status_change: none
 ---
 
 # Hostile review: K77 Wave-2 action/current/Riesz/Ward rendezvous

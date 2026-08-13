@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-10
 status: CANDIDATE_SURVIVES_WITH_ZERO_BRANCH_SCOPE__HARD_REDUCTION_NOT_ACTION_DERIVED__NONZERO_BRANCH_NORMAL_HESSIAN_REQUIRED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected K77 bosonic parent action ownership

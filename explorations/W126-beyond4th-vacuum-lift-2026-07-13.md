@@ -35,7 +35,7 @@ potential has a stable minimum elsewhere. W126 runs that escape to ground by com
 induced |II|^2 EXACTLY -- all orders in the conformal factor, no truncation anywhere -- on
 the conformal family `g = e^{2 phi} eta` (the exact sector W122 used).
 
-Five personas inline, one context. Deterministic test:
+Five perspectives inline, one context. Deterministic test:
 `tests/W126_beyond4th_conformal_iisq.py` (32 checks, exact sympy, exit 0).
 
 ## 0. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
@@ -48,7 +48,7 @@ Five personas inline, one context. Deterministic test:
 | **Which f_0^2 enters Stage B** | RG-run `f_0^2 < 0` (W45-47, ported) on top of the EXACT tree potential structure | The fork W122 carried, unchanged. Note the tree functional itself leans the SAME direction (Section 2, bonus). |
 | **Overall normalization** | flat constant = 2 (this chain) vs `c_L = 3/8` (H50 horizontal-sectional chain) | Ratio 16/3 FLAGGED for the W123 convention audit. Signs and ratio structure are the claims; absolute magnitudes stay normalization-gated exactly as H25 graded them. |
 
-## 1. Persona 1 -- differential geometer: the Stage-A computation (EXACT)
+## 1. Perspective 1 -- differential geometer: the Stage-A computation (EXACT)
 
 **Setup.** Pointwise, `|II|^2` of the graph section depends only on the 2-jet of the section.
 On the conformal family the 2-jet of `phi` at a point is `(p ; v_mu ; s_{mu nu})` with
@@ -94,7 +94,7 @@ vertical-representative + normal lift where the two constructions genuinely diff
 (`W(v, s=0, E_0=1) = 2 + 16 v^2 + 320 v^4 + ...`): kinetic-sector structure that vanishes
 identically at `dphi = 0` and contributes nothing to `V(chi)` at constant curvature.
 
-## 2. Persona 2 -- f(R)/scalaron specialist: Stages B and C
+## 2. Perspective 2 -- f(R)/scalaron specialist: Stages B and C
 
 **The MSS-slice effective Lagrangian is a closed form, and it terminates:**
 
@@ -129,7 +129,7 @@ closure of it: a tree-induced coefficient is not the running coupling of the qua
 effective action. But it removes any hope that the native tree structure supplies a
 positive-`f_0^2` counterweight.
 
-## 3. Persona 3 -- EFT theorist: the validity check on the loop rescue
+## 3. Perspective 3 -- EFT theorist: the validity check on the loop rescue
 
 Stage A closes the tree channel, so any `f''` variation must be LOOP-generated (higher
 operators in the quantum effective action -- a channel the W45-47 4th-order truncation does
@@ -150,7 +150,7 @@ not compute). Standard power counting bounds a loop-induced `R^3` coefficient by
 **An out-of-range minimum is not a rescue.** The honest statement: within its domain of
 validity the effective potential is the inverted W122 structure, full stop.
 
-## 4. Persona 4 -- symbolic engineer: what the test pins down
+## 4. Perspective 4 -- symbolic engineer: what the test pins down
 
 `tests/W126_beyond4th_conformal_iisq.py`, 32 checks, exit 0, deterministic, exact sympy.
 Two routes for every load-bearing sign/degree claim: Route 1 (symbolic, general 10-component
@@ -164,7 +164,7 @@ NOT share is the contraction machinery (normal-lift inner product vs block ambie
 and the evaluation method (symbolic polynomial vs exact interpolation), and they differ
 fully at `dphi != 0`, where they agree exactly.
 
-## 5. Persona 5 -- adversarial skeptic: steelman NO-RESCUE, and where it lands
+## 5. Perspective 5 -- adversarial skeptic: steelman NO-RESCUE, and where it lands
 
 The steelman was: *the generic outcome for an inverted quadratic with a cubic correction is
 a runaway, not a minimum; and any found minimum may be a maximum in disguise once the kinetic

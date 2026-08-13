@@ -2,7 +2,6 @@
 title: "Source return: observer-Q_B radial stationarity composition"
 status: source-return
 created: 2026-08-12
-run_id: RUN-20260812-223314-gu-i2b-observer-qb-radial-stationarity
 ---
 
 # Source return

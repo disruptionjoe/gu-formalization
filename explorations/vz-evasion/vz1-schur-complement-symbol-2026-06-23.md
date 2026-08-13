@@ -11,7 +11,7 @@ verdict: "RS_NON_INDEPENDENCE_CONFIRMED_IN_LOCAL_PRINCIPAL_SYMBOL_MODEL; FULL_14
 ## Purpose
 
 This note executes the bounded next step named in
-`explorations/persona-and-dialectic/vz1-62-persona-steelman-hegelian-2026-06-22.md`: compute the block
+`explorations/perspective-and-dialectic/vz1-62-perspective-steelman-hegelian-2026-06-22.md`: compute the block
 structure of `D_GU` in the Rarita-Schwinger/spin-1/2 decomposition and formulate the
 Schur complement symbol.
 
@@ -39,7 +39,7 @@ assumptions; `[open]` means a failure/closure condition remains.
 - `explorations/vz-evasion/vz1-velo-zwanziger-analysis-2026-06-22.md`:
   VZ does not directly apply to the full Dirac-type operator, but applies if an
   independent 4D RS field emerges.
-- `explorations/persona-and-dialectic/vz1-62-persona-steelman-hegelian-2026-06-22.md`:
+- `explorations/perspective-and-dialectic/vz1-62-perspective-steelman-hegelian-2026-06-22.md`:
   the priority object is the Schur complement
   `D_RS^eff = D_RR - D_RQ (D_QQ)^(-1) D_QR`, where `Q` denotes non-RS sectors.
 
@@ -466,7 +466,7 @@ EVADED.
 ## References
 
 - `explorations/vz-evasion/vz1-velo-zwanziger-analysis-2026-06-22.md`
-- `explorations/persona-and-dialectic/vz1-62-persona-steelman-hegelian-2026-06-22.md`
+- `explorations/perspective-and-dialectic/vz1-62-perspective-steelman-hegelian-2026-06-22.md`
 - `explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md`
 - `explorations/shiab-operator/n2-shiab-computation-spin77-branching-rules-2026-06-22.md`
 - `explorations/generation-sector/generation-count-cl95-dirac-derham-2026-06-22.md`

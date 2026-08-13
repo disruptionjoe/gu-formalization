@@ -2,7 +2,6 @@
 artifact_type: exploration_result
 created: 2026-08-07
 status: ONE_QUOTIENT_RANKED_83_TO_81__LARGEST_QUOTIENT_BLOCKED_ON_A_DECLARATION_ROW__COUNT_IS_A_FUNCTION_NOT_A_NUMBER
-run_id: GUH-20260808T024447Z-source-action-parameter-structure
 grade: "CLASSIFICATION AND EXACT COORDINATE MATCHING over filed text. The one
   ranked quotient is computed by intersecting a named rank-3 rescaling group's
   three rows against the packet's own charged-coordinate list; the arithmetic is
@@ -11,9 +10,7 @@ grade: "CLASSIFICATION AND EXACT COORDINATE MATCHING over filed text. The one
   computation, and is labelled as such."
 ledger: lab/process/conditional-physics-ledger-v0.39.json
 ledger_staleness_note: "Analysed against v0.39. The ledger reached v0.68 the same day; re-verify counts before citing. The verdict split moved 32/19/25/6 -> 32/19/26/5 as AC-G1 was superseded by AC-G1a."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []
@@ -67,7 +64,7 @@ lambda_F, m_sel, mu_DW, m_2,eff`):
 | 3 | none — `source_norm` is not a charged coordinate | **0** |
 
 **Rank 3 as a group, but only 2 directions act on charged coordinates.** The
-naive reading would have booked 3. Reporting 2 per the run plan's kill condition
+naive reading would have booked 3. Reporting 2 per the investigation plan's kill condition
 that a smaller-than-expected reduction is reported as found.
 
 `m_R = sqrt(m_2,eff)*mu_DW` and `ell^2 = Z_U*kappa` are already recorded as

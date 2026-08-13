@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-020449-gu-k77-unrestricted-southeast-bv-kernel
 verdict: SCOPED_SURVIVES__FERMION_ONLY_PRINCIPAL_BV_KILLED__FULL_FIELD_GAUGE_BV_REQUIRED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: unrestricted southeast/BV-kernel result

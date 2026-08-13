@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-05
 status: K77_GLOBAL_FULL_CHIMERIC_CLIFFORD_REDUCTION_CONSTRUCTED_FROM_ADMITTED_X_SPIN_AND_SOURCE_P_H__SOURCE_GUIDED_INDEPENDENT_X_SUPPORT_HORN_SELECTED_WITH_ZERO_NEW_SUPPORT_PARAMETERS__EXISTING_RELATIVE_ACTION_NORMALIZATION_NONLINEAR_BV_AND_NULL_GREEN_DOMAIN_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 ledger_rows: [LT-GR1b, LT-GR2c, LT-GR2d, LT-SM8]
 fork_assumed: SIGNATURE_AMBIENT_K77__ORIENTED_TIME_ORIENTED_LORENTZ_COMPONENT__ADMITTED_X_SPIN_STRUCTURE
 search_space_dim: "global reduction has zero new choices after the admitted X spin structure and source epsilon are fixed; source-guided support horn adds zero profile/trivialization parameters; lambda_def remains an unresolved alias fork: existing kappa1/source_norm or one additional real"

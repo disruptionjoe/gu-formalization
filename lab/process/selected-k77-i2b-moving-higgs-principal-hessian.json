@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-12",
-  "run_id": "RUN-20260812-155230-gu-i2b-moving-higgs-principal-hessian",
+  "run_id": "historical-investigation",
   "status": "FIRST_GREEN_ZERO_BUT_SECOND_PRINCIPAL_HESSIAN_RANK2__TWO_LIVE_KREIN_RADICAL_DIRECTIONS__DISPLAYED_SHIAB_FAMILY_CANNOT_REPAIR",
   "source_return": "SOURCE_CONFIRMS_BOSONIC_RESIDUAL_SQUARE_AND_QB_SLOT__SOURCE_SILENT_EXACT_K77_QB_AND_HESSIAN_REPAIR",
   "selected_principal_hessian": {

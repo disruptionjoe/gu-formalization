@@ -13,7 +13,7 @@ probe: "nguyen_c1c2_probe.py (same directory; python3 stdlib only; deterministic
 relates_to:
   - explorations/nguyen-pincer-real-form-design-packet-2026-08-11.md (checks C1, C2; Lens 2 expectations; outcome table)
   - lab/sources/source-claim-register.yaml (SC-GRP-01: the p.22 eq (3.19) ladder, restated p.42 eqs (8.3)-(8.6); fn-3 check-me caveat)
-  - explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md (p.42 rows: (8.5) degree lists, (8.6) "factors of i required inside the complexification")
+  - explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md (p.42 rows: (8.5) degree lists, (8.6) "factors of i required inside the complexification")
   - lab/process/layer0-fork-registry.yaml (REAL-CLIFFORD-FORM settled Cl(7,7)=M128(R); SIGNATURE-AMBIENT distinct and OPEN -- untouched here)
   - tests/observable-algebra/dq2_trichotomy_77_rerun.py (prior COMPLEX commutant leg, float tolerances -- see novelty scoping)
   - tests/chase/MOVE-4/move4_spinor_square_forms.py and tests/big-swing/R4_spin95_hom_vanishing.py (the (9,5) bilinear harness; the (7,7) analog was unrun per the packet; this build is independent, not a port)
@@ -23,9 +23,7 @@ binding: >-
   ledger edit, and no posture change; the executing wave owns every
   disposition. The computation results below are certified facts of exact
   integer arithmetic and are stated plainly as such.
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---

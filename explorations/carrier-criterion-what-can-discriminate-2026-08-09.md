@@ -5,9 +5,7 @@ created: 2026-08-09
 status: CASIMIR_CRITERION_HAS_NO_SELECTIVE_POWER__INTERNAL_CLIFFORD_CRITERIA_PROVABLY_CANNOT_DISCRIMINATE__ONLY_BASE_SIDE_LABELS_SURVIVE__NEXT_TEST_IS_SCRAMBLING_THE_KREIN_AND_MASS_RESULTS
 grade: "ANALYSIS of computed results from the 2026-08-09 fast sweep (6 agents, hostile-verified). No new
   computation run for this note. The named next test is specified but NOT executed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # What can discriminate the carrier

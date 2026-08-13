@@ -24,9 +24,9 @@ def strict(relative: str):
 v9p = ROOT / "lab/process/conditional-physics-ledger-v0.9.json"
 v9 = strict("lab/process/conditional-physics-ledger-v0.9.json")
 v10 = strict("lab/process/conditional-physics-ledger-v0.10.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/observed-upback-stress-normal-constraint-vacuum.json")
-lanes = (ROOT / "LANES.yaml").read_text()
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.10.md").read_text()
 report = (ROOT / "explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md").read_text()
 source = (ROOT / "lab/sources/observed-upback-stress-source-reinspection-2026-08-05.md").read_text()

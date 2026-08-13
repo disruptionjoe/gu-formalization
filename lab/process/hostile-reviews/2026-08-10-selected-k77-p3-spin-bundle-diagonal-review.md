@@ -3,9 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-10
 subject: SELECTED-K77-P3-SPIN-BUNDLE-DIAGONAL
 verdict: TOPOLOGICAL_INTERFACE_SURVIVES_ONE_ORIENTATION__DIFFERENTIAL_DIAGONAL_REMAINS_CONDITIONAL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: P3 chiral-spin bundle diagonal

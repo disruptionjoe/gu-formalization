@@ -93,7 +93,7 @@ cf, dt_cf = import_probe("conditional_forcing_probe.py")
 cf_all = all(ok for _t, _n, ok in cf.RESULTS)
 check("T", "conditional_forcing_probe.py re-runs LIVE and clean, UNMODIFIED "
            "(exit 0, all checks; k1 + phase0 nested inside): the EXACT Z/6 "
-           "sufficiency battery is refreshed in this run -- generic Z/6 "
+           "sufficiency battery is refreshed in this investigation -- generic Z/6 "
            "degrees [1, 1], twisted member +7 (all = 1 mod 6), and every "
            "power certificate of the degree counter is live",
       cf._exit_code == 0 and cf_all and cf.z6_degs == [1, 1] and cf.z6_eq_ok

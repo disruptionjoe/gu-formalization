@@ -2,7 +2,6 @@
 artifact_type: preregistration
 status: preregistration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 probe: tests/channel-swings/rung2_dynamical_wall_selectability_probe.py
 implements: lab/active-research/conditional-source-action-toy-construction-program-2026-07-26.md
@@ -10,9 +9,7 @@ follows:
   - explorations/imposed-wall-triplet-comparator-2026-07-26.md
   - explorations/rung1-finite-coefficient-enumeration-2026-07-29.md
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Prereg: Rung 2 version 2 (dynamical wall) + a reusable selectability test
@@ -22,7 +19,7 @@ public_posture_change: none
 **Part A — the instrument.** Three times in one day the answer to "can GU select
 this from inside?" has been no, and each time the mechanism was identical: an
 **exact symmetry of the structure exchanges the two candidates**. That is
-mechanical and therefore testable in advance. This run builds it as a reusable
+mechanical and therefore testable in advance. This investigation builds it as a reusable
 instrument:
 
 > Given candidate options and the exact symmetries of the structure, is there a
@@ -33,7 +30,7 @@ instrument:
 **Part B — Rung 2 version 2.** The imposed-wall control
 (`imposed-wall-triplet-comparator-2026-07-26`) states the handoff exactly: the
 dynamical branch must supply a target-blind source field and topological sector
-that **select a wall and its orientation**. This run derives the wall from the
+that **select a wall and its orientation**. This investigation derives the wall from the
 field equations rather than imposing it, then asks whether location and
 orientation are selected.
 
@@ -83,7 +80,7 @@ prediction is wrong and that is the more interesting outcome.
    the whole run.
 2. A **planted symmetry-breaking potential** (adding a cubic term) must make
    orientation register as selectable. If the instrument cannot detect selection
-   where it genuinely exists, it is useless and the run is void.
+   where it genuinely exists, it is useless and the investigation is void.
 3. A **planted translation-breaking term** must make location register as
    selectable.
 4. The derived wall must reproduce the imposed-wall control's accessible rank
@@ -98,7 +95,7 @@ prediction is wrong and that is the more interesting outcome.
 - **N2** linear-gradient term makes location selectable.
 - **N3** instrument reproduces the B5 chirality result.
 
-## What this run cannot earn
+## What this investigation cannot earn
 
 Not anomaly inflow — the Pin/Smith class is `NOT-DEFINED`, so `S_inflow` can
 only be standard-field and that gap is declared, not closed. Not GU-native

@@ -1,7 +1,7 @@
 {
   "artifact_type": "exact_construction_composition_and_scoped_kill_result",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-142640-gu-p3-selfdual-source-reduction",
+  "run_id": "historical-investigation",
   "verdict": "CURRENT_NONZERO_SOURCE_FAMILY_NOT_SU2PLUS_REDUCED__DBP_SPLIT_PRESERVATION_INSUFFICIENT__PROJECTED_ACTION_REPLACEMENT_UNBUILT",
   "factor_ranks": {"su2plus": 3, "su2minus": 3},
   "quadratic_pairings": {"su2plus": 12, "su2minus": -12, "full": 0},

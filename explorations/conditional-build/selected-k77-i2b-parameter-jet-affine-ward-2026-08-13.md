@@ -2,16 +2,11 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: LOCAL_AFFINE_PARAMETER_JET_SUBCHAIN_COVARIANTIZED__OBSERVATION_BV_SPENCER_OPEN
-run_id: RUN-20260813-145635-gu-i2b-parameter-jet-affine-ward
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 channels: [Build, Compose, Source, Verify]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: SC-ACT-04
 source_return: SOURCE_CONFIRMS_AND_SILENT
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "universal free-associative second covariant jet plus ten exact 196x25 selected K77 action blocks"
 free_object_delta: 0

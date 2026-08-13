@@ -8,16 +8,14 @@ grade: "READING AND CROSS-TABULATION ONLY. Three checks were executed against
   and a reading of the two imported scales' layer ownership. No new computation,
   no certificate written or run, no number derived here. Every promoted item
   carries its test in the companion run plan and is not citable until executed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 queue_change: none
 row_change: none
 residue_touched: []
 deposit: "PRE-DEPOSIT. Nothing here moves a row, verdict, distance, residue count
   or queue rank."
-run_plan: lab/process/runs/GUH-20260808T024447Z-source-action-parameter-structure/run-plan.md
+run_plan: archived private execution record
 provenance: "Joe-directed inline 25-lens sweep, 2026-08-07, on what the source
   action (H41) is, why it exists, and what the external datum is. Lenses spanned
   mathematics, physics, computation/networking/information, and other domains.
@@ -82,7 +80,7 @@ the built structure cannot decide it. That is the strongest formalization of
 "external datum" available in this repository, and it is nine named rows. This
 converts the sweep's vaguest cluster — six independent lenses asserting the
 external datum is structurally irreducible rather than merely unfound — into one
-well-posed question, carried to the run plan as Test A.
+well-posed question, carried to the investigation plan as Test A.
 
 ## Check 2 — a coincidence, killed before it became a finding
 
@@ -127,11 +125,11 @@ the pairing with respect to which" the ratio is defined (`:225`). A self-
 reference obstruction is what the interface reading *predicts*, rather than
 merely notes. If that obstruction can be shown to be structural rather than
 incidental, a recorded blocker becomes a theorem about where imported data must
-live. Carried to the run plan as a secondary objective under Test A.
+live. Carried to the investigation plan as a secondary objective under Test A.
 
 ## What was promoted, and what was not
 
-**Promoted to `GUH-20260808T024447Z-source-action-parameter-structure`:**
+**Promoted to `historical-investigation`:**
 
 - **Test A — the DECLARATION floor.** Of the 9 DECLARATION rows, how many admit
   derivation by a new mechanism and how many are permanently undecidable from

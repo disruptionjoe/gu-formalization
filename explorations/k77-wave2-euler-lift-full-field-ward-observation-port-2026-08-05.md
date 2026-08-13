@@ -3,7 +3,6 @@ title: "K77 Wave 2: Euler-lift Ward and observation receiver theorem"
 status: active_research
 doc_type: construction_result
 created: 2026-08-05
-lane: "1"
 route_disposition: K77_EULER_LIFT_FULL_FIELD_WARD_DOMAIN_OBSERVATION_PORT
 gate_after: K77_OBSERVED_COMPLEX_DETECTS_UPSTAIRS_EULER_SHELL_IFF_NO_LEAKAGE_AND_RECEIVER_FAITHFULNESS
 fork_assumed: SIGNATURE-AMBIENT
@@ -15,9 +14,7 @@ residue_touched:
 probe: tests/channel-swings/k77_wave2_euler_lift_ward_observation_probe.py
 registry: lab/process/k77-wave2-euler-lift-ward-observation-port.json
 grade: "Exact finite receiver theorem and two independent false-shell witnesses. Observed nilpotence detects the upstairs action Euler row only modulo the equation-observation and coefficient-representation kernels. No-leakage plus faithfulness on the observed Euler image restores the converse in the exact fixture. The actual Y14 receiver, physical coefficient module, odd BV closure, common analytic domain, and physics remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # K77 Wave 2 Euler-lift Ward and observation receiver theorem

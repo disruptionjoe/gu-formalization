@@ -4,9 +4,7 @@ created: 2026-08-07
 status: SOURCE_NATIVE_POINTWISE_VARPI_LIFT_EXACT__SOURCE_SELECTION_AND_GLOBAL_SPENCER_EULER_OPEN
 source_return: SOURCE-CONFIRMS__FIXED_EPSILON_VARPI_TRANSLATION_AND_ENDPOINT_FA__SOURCE-CORRECTS__VARPI_TANGENT_IS_DELTA_T_DELTA_A_NOT_DELTA_B__SOURCE-SILENT__COVARIANT_GRAPH_LIFT_GLOBAL_INTEGRABILITY_AND_EULER_DESCENT
 ledger: lab/process/conditional-physics-ledger-v0.56.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected source-varpi / Cartan composition

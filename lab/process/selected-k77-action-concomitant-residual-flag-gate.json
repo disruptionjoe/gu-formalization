@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-011911-gu-k77-action-concomitant-residual-flag",
+  "run_id": "historical-investigation",
   "status": "EXACT_SCOPED_INVARIANT_HQ_NONSELECTION__NONHOMOGENEOUS_SUCCESSOR_LIVE",
   "target_claim": "NONE-NOT-A-KILL",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

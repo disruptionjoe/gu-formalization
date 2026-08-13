@@ -5,12 +5,9 @@ doc_type: verdict_support_register
 created: 2026-08-13
 brief_version: "1.3"
 target_claim: NONE-NOT-A-KILL
-lane: "1"
 serves: explorations/claim-indexed-verdict-doctrine-2026-08-12.md
-recovered_from: "system-runtime#mailboxes/gu-formalization/archive/20260729-nguyen-polya-objections-map-to-open-spec-rows-plus-two-transfer-checks.md (written 2026-07-29, never used; recovered by the Lane A drain pass 2026-08-13)"
-claim_status_change: none
+recovered_from: "private orchestration runtime#mailboxes/gu-formalization/archive/20260729-nguyen-polya-objections-map-to-open-spec-rows-plus-two-transfer-checks.md (written 2026-07-29, never used; recovered by the research maintenance drain pass 2026-08-13)"
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Banked-mathematics register for the Nguyen/Polya objections

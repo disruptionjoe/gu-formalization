@@ -2,11 +2,8 @@
 title: "Hostile review: K77 H640 ambient/observed Riccati boundary"
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-215742-gu-k77-h640-ambient-observed-riccati-boundary
 verdict: SURVIVES_SCOPED__H640_OBSERVED_GRAPH_EXACT__UNRESTRICTED_AMBIENT_HULL_FULL1920__VERTICAL_ADAPTER_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review

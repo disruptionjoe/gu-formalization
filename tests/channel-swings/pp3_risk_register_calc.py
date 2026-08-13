@@ -3,7 +3,7 @@
 central values sit relative to the frozen PP3 band. Pure arithmetic on
 published numbers; no likelihoods, no GU machinery, no solver.
 
-CHANNEL: Lane 2 prediction packaging (PP3 risk register; fan-out from the
+CHANNEL: prediction research prediction packaging (PP3 risk register; fan-out from the
          frozen packet).
 DESIGN:  explorations/pp3-risk-register-2026-07-20.md
 FROZEN PACKET (never touched): explorations/prediction-package-pp3-de-curve-family-2026-07-20.md

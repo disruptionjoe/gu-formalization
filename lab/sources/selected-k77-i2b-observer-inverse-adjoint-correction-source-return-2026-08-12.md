@@ -2,7 +2,6 @@
 title: "Source return: observer inverse-adjoint correction"
 status: source-return
 created: 2026-08-12
-run_id: RUN-20260812-181434-gu-i2b-observer-inverse-adjoint-correction
 ---
 
 # Source return: observer inverse-adjoint correction

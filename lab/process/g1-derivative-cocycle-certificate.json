@@ -1,7 +1,7 @@
 {
   "certificate_id": "G1-DERIVATIVE-COCYCLE-MOVING-REFERENCE-2026-07-31",
   "branch": "agent/weinstein-guided-source-action",
-  "run": "GUH-20260731T140229Z-g1-derivative-cocycle-moving-reference",
+  "run": "historical-investigation",
   "grade": "conditional_global_construction",
   "convention": {
     "gauge_action": "g dot A = Ad_g(A) - (dg)g^-1",

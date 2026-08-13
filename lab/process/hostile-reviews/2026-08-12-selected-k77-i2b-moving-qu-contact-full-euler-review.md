@@ -2,7 +2,6 @@
 title: "Hostile review: moving-Q_u contact and full fixed-background Euler"
 status: hostile-review-complete
 created: 2026-08-12
-run_id: RUN-20260812-225452-gu-i2b-moving-qu-contact-full-euler
 verdict: SURVIVES_SCOPED_AS_TWO_SHAPE_COMPLETION_DEMAND
 ---
 

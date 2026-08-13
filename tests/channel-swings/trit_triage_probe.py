@@ -367,7 +367,7 @@ check("E", "CANDIDATE 5 = LEAD, but the arity precheck WEAKENS it: P2C's "
            "NESTED CHAIN (global >= from-here >= under-budget), whose "
            "automorphism group is TRIVIAL (order 1), while the trit is a "
            "cyclic Z/3 (order-3 rotation). The trit is a CYCLE, P2C access is "
-           "a NESTING -- P2C reproduces the personas' cycle-vs-nesting "
+           "a NESTING -- P2C reproduces the perspectives' cycle-vs-nesting "
            "tension rather than resolving it. Still the LEAD: it alone has a "
            "sharp cheap decisive test",
       count_match_prose and count_mismatch_computed and structure_mismatch,

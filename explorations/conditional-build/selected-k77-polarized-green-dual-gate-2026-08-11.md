@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_result_and_scope_narrowing
 created: 2026-08-11
-run_id: RUN-20260811-101210-gu-k77-polarized-green-dual-gate
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.171"
 result: DIRECT_DUAL_KERNEL_HAS_RANK128_GREEN_RADICALS__PERFECT_DUAL_QUOTIENT_IS_UNOWNED_AND_NAIVE_OBSERVATION_DOES_NOT_DESCEND__V0170_SURVIVES_ONE_SIDED_ONLY
 grade: "exact rational fixed-normal real-Cl(7,7) principal Green theorem on the actual dimension-1920 four-field symbol; full moving boson-fermion preboundary form and analytic/BFV domain open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 polarized Green-dual gate

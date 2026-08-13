@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.158 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the exact 128 graph has live Green and transverse-current bilinears but fails full-Euler receiver closure by rank 128 in timelike, spacelike and null tested strata; receiver/constraint completion, BV/domain, physical cohomology, index and count remain open"
   },
-  "updated_by": "RUN-20260810-211634-gu-k77-graph-dynamics-gate",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

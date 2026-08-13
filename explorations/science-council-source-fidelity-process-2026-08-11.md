@@ -3,8 +3,6 @@ title: "Science council: source fidelity, re-extraction, and subagent ingest"
 status: active_research
 doc_type: council_deliberation
 created: 2026-08-11
-run_id: RUN-PLACEHOLDER
-lane: "A (process stewardship)"
 convened_by: joe-direct-chat
 question: >-
   Three recurring process failures: (1) adversarial results keep executing
@@ -19,9 +17,7 @@ binding: >-
   (standing rule). Seats run inline in one context. Adopted deltas are
   design inputs to the machinery filing; they bind nothing until the
   filing's own review.
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Science council: source fidelity, re-extraction, subagent ingest
@@ -162,7 +158,7 @@ remains. **Recommendation: the register's emergent-chirality rows link
 to the repo's named open burdens (PH-K1-PHYSICAL; the Witten-exit
 typing) so adherence adjudication lands on the real question, and the
 "two generations stay identical at high energy, one does not" spoken
-claim is routed to Lane 2 as a candidate tripwire.**
+claim is routed to prediction research as a candidate tripwire.**
 
 ## Seat 11 — In-house skeptic (net-negative risk, dissent seat)
 
@@ -211,5 +207,5 @@ a versioned subagent brief with provable ingest.
    with the H1/H2 residual row (Seat 3).
 8. Context-pack six-row claims block proposed via absorption (Seat 4).
 9. Emergent-chirality rows link the named open burdens; the
-   high-energy-generations spoken claim routes to Lane 2 as a tripwire
+   high-energy-generations spoken claim routes to prediction research as a tripwire
    candidate (Seat 10).

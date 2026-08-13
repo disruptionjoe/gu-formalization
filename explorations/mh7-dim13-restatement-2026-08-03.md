@@ -10,13 +10,11 @@ panel_refs:
   - "lab/process/anchor-council-2026-08-03/seat3-particle-flavor.md (Q8 split: this is the decidable half)"
 title: "M-H7 dim-13 restatement: located-not-forced carried on the true 13-dim link object rather than the RP^3 surrogate — the disjointness core UPGRADES to a group identity (Hom(2-group, Z/3) = 0: the receptacle cannot express any interior datum at all), while the surrogate's POSITIVE class does not transfer (Im J_13 = 0 kills the dim-3 reframing mechanism; every product framing the link's own geometry offers is exactly zero; nothing constructed occupies the dim-13 slot)"
 grade: "RESTATEMENT + CHEAP_NEW_COMPUTATION. Coefficient facts CITED from Resolver Wave C rebased (exact grade): Omega_13^fr = Z/3, Im J_13 = 0, Omega_13^Spin = 0 — not recomputed. New exact computations (hard-asserted in the companion probe): receptacle purity over all abelian 2-groups to 2^8, the product-framing kill over every split of 13, and the mod-3 homology of the 9-dim fiber-link in BOTH orientation branches. Everything about the actual 13-dim object beyond that is CITED, RIDES-SPINE, or OPEN per the gap table (Section 6). NOT a theorem about GU's published draft; the end/link apparatus is reconstruction-grade throughout."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 deposit: "pre-deposit; result deposit and any decisive downstream use are J5-gated"
 layer0: "the '13' homonym fence (pack + M-M28) is carried explicitly in Section 1 and asserted arithmetically in the probe; multiplicity != count; group order != count; RP^3 x S^6 = working MODEL, not the true link"
 depends_on:
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - lab/process/improvement-register-2026-08-03.md
   - canon/boundary-einvariant-and-the-tangential-fork.md
   - canon/external-by-structure-synthesis-RESULTS.md

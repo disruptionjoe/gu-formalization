@@ -4,7 +4,6 @@ status: exploration
 doc_type: results-adjudication
 created: 2026-07-22
 updates: explorations/sigma-w1-keystone-adversarial-assault-synthesis-2026-07-22.md
-lane: "1 (OPERATOR-END-PENCIL)"
 grade: exploration-tier; exact ambient group primary-source proved; no GU class asserted; no claim/canon/verdict/freeze movement
 ---
 
@@ -73,7 +72,7 @@ Dirac operator** — gated on constructing the 14-geometry (T2/T3), independent 
 
 ## Lane-1 entry point after closing leg A
 
-Directed Lane-1 run (`OPERATOR-END-PENCIL`), not hourly-eligible (Lane 1 is `WAITING_EXTERNAL`).  For the
+Directed Lane-1 run (`OPERATOR-END-PENCIL`), not hourly-eligible (truth-status research is `WAITING_EXTERNAL`).  For the
 pure-topology leg, the ambient group is closed at `Z/2`.  The operator audit shows that GU has not yet constructed the
 domain/determinant/Pfaffian line whose class could be paired with it.  Grade: exact ambient group PROVED;
 GU class OPEN.

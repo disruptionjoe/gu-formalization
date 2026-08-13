@@ -2,7 +2,6 @@
 title: "Source return: split-native complex structure, two Weyl halves, and full unitary parent"
 status: source_return
 created: 2026-08-12
-run_id: RUN-20260812-020740-gu-split-layer-commutant-action-parent
 ---
 
 # Source return

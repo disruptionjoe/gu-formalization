@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-050138-gu-moving-hq-u3-2-sm-higgs-direction",
+  "run_id": "historical-investigation",
   "status": "SOURCE_U3_2_PATI_SALAM_INTERSECTION_CONSTRUCTED__SM16_EXACT__FIXED_Q_POSTHIGGS_RETYPE__RADIAL_VARPI_ACTION_OPEN",
   "target_claim": "NONE-NOT-A-KILL",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

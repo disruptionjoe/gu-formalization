@@ -2,7 +2,6 @@
 title: "RB6: invariant gimmel curvature supplies typed but nonselecting vertical operators; the written source fields admit a formula-complete symmetry-breaking route"
 status: "completed exploration; exact typing and invariant-algebra obstruction, conditional ambient numerics, action-field evaluation open"
 date: "2026-07-30"
-run_id: "GUH-20260731T021900Z-rb6-target-blind-spectral-grammar"
 ---
 
 # RB6 target-blind spectral grammar

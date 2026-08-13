@@ -4,9 +4,7 @@ created: 2026-08-08
 status: FULL_NONZERO_A0_TILTED_ALGEBRAIC_EDGE_DESCENT_EXACT_ON_CONDITIONAL_SPIN_NATIVE_PARENT__CHARGED_BOUNDARY_HORN_AND_ANALYTIC_BFV_REMAIN_OPEN
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 full `tau_A0` moment-map descent

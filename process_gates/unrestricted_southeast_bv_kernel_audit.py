@@ -40,7 +40,7 @@ def check(kind: str, label: str, condition: object) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.163.json")
 prior = strict("lab/process/conditional-physics-ledger-v0.162.json")
 result = strict("lab/process/selected-k77-unrestricted-southeast-bv-kernel.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = read("explorations/conditional-build/selected-k77-unrestricted-southeast-bv-kernel-2026-08-11.md")
 human_ledger = read("explorations/conditional-build/conditional-physics-ledger-v0.163.md")
 source = read("lab/sources/selected-k77-unrestricted-southeast-bv-kernel-source-return-2026-08-11.md")
@@ -131,8 +131,8 @@ check("process", "contract points to v0.163 in both forms",
 check("process", "machine directive names determinant, BV kill and coupled successor",
       all(token in contract["standing_ledger"]["source_owned_hull_interface_directive"]
           for token in ("DETERMINANT_INDEPENDENT", "FERMION_ONLY_PRINCIPAL", "COUPLED_VARPI")))
-for path in ("LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
-             "lab/process/agent-context-pack.md", "lab/process/exploration-absorption-priorities-2026-08-10.md"):
+for path in ("lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
+             "lab/process/CURRENT-RESEARCH-CONTEXT.md", "lab/process/exploration-absorption-priorities-2026-08-10.md"):
     check("process", f"{path} names v0.163", "v0.163" in read(path))
 check("process", "source manifest lists this return",
       "selected-k77-unrestricted-southeast-bv-kernel-source-return" in read("lab/sources/README.md"))

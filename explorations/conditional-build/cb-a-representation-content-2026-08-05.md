@@ -1,6 +1,5 @@
 ---
 artifact_type: exploration
-lane: conditional-build
 cluster: A-representation-content
 created: 2026-08-05
 title: "CB-A: the three-column representation-content ledger — 41 rows built conditionally on an unbuilt source action, of which 18 are exactly-same, 11 need no unknown at all, 1 is OVER-DETERMINED (the source's own stated effective-chirality mechanism is excluded by Schur, not merely unbuilt), and the entire rank-two internal tensor class is excluded as a Higgs parent in one theorem"
@@ -41,9 +40,7 @@ residue_touched:
   - {id: M-H7-GENERATION-SLOT, grade: T4}
 route_disposition: CONTINUE_CONDITIONAL_BUILD__MASS_TYPE_EFFECTIVE_CHIRALITY_EXCLUDED__HIGGS_CHANNEL_CLASS_NARROWED
 source_collision: SOURCE-CONFIRMS-PATI-SALAM-ONE16-AND-BIDOUBLET-CHANNEL; SOURCE-CONTRADICTED-ON-VEV-INDUCED-EFFECTIVE-CHIRALITY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 third_lane_promoted: false
 deposit_gate: "PRE-DEPOSIT, J5-gated. Row D2 (OVER-DETERMINED) would, if adopted, move the effective-chirality axis from `NARRATIVE / under-specified` to `excluded in the stated class`. That is a verdict-adjacent consequence and it is NOT enacted here. It moves only via a filed hostile field-specialist review (two-sided charge: overclaim AND over-fencing). Nothing in this file moves a claim, canon entry, verdict, bar, count, LANE-STATE, fork registry row, or public posture."

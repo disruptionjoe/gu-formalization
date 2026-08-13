@@ -1,14 +1,14 @@
 ---
-title: "GU First-Principles Synthesis — Best Path Across 10 Persona Passes"
+title: "GU First-Principles Synthesis — Best Path Across 10 Perspective Passes"
 status: process
 doc_type: synthesis
 updated_at: "2026-05-31"
 ---
 
-# GU First-Principles Synthesis — Best Path Across 10 Persona Passes
+# GU First-Principles Synthesis — Best Path Across 10 Perspective Passes
 
 **Date:** 2026-05-28
-**Source:** 10 divergent persona passes spawned by Joe's directive in the 2026-05-28 review-session round 2 dispatch.
+**Source:** 10 divergent perspective passes spawned by Joe's directive in the 2026-05-28 review-session round 2 dispatch.
 **Files synthesized:** `01-differential-geometer.md` through `10-heterodox-critical.md` in this directory.
 
 ## Convergence map
@@ -17,10 +17,10 @@ updated_at: "2026-05-31"
 
 **Strong convergence (4 independent lenses):** 14 = 4 + 10 with the 10-dim fiber as `Sym²(R^4) ≅ Lorentzian metrics on R^4`. The "observerse" is the bundle of pointwise Lorentzian metrics over the 4-manifold X. This bundle is canonical, well-defined, and inherits from standard differential geometry.
 
-- **Persona 1 (diff geom):** Met(X), fiber Sym²(R^4) ≅ R^10. Canonical.
-- **Persona 3 (alg top):** Same 14 = 4 + 10 reading. Fiber GL(4)/O(4) is contractible.
-- **Persona 5 (GR):** Bundle of Lorentzian metrics. Wheeler-DeWitt supermetric on fiber is indefinite signature.
-- **Persona 8 (KK):** Same reading. Adds: 14 is **NOT** a privileged critical dimension in any known consistent higher-dim quantum theory (26, 10, 11, 12 are).
+- **Perspective 1 (diff geom):** Met(X), fiber Sym²(R^4) ≅ R^10. Canonical.
+- **Perspective 3 (alg top):** Same 14 = 4 + 10 reading. Fiber GL(4)/O(4) is contractible.
+- **Perspective 5 (GR):** Bundle of Lorentzian metrics. Wheeler-DeWitt supermetric on fiber is indefinite signature.
+- **Perspective 8 (KK):** Same reading. Adds: 14 is **NOT** a privileged critical dimension in any known consistent higher-dim quantum theory (26, 10, 11, 12 are).
 
 **Verdict on Q1:** The construction is real at the level of bundle geometry. The fiber is contractible and non-compact, which has downstream consequences for Q2-Q4.
 
@@ -28,11 +28,11 @@ updated_at: "2026-05-31"
 
 **Strong convergence (5 lenses):** The SM gauge group SU(3)×SU(2)×U(1) does **NOT** naturally arise from the metric-bundle structure group GL(4,R) or any natural quotient. Must be installed by hand on the fiber, or via some non-standard reduction.
 
-- **Persona 1:** SM group not a natural subgroup or quotient of GL(4,R).
-- **Persona 2 (gauge):** Plausibly geometric via KK if fiber has isometry group ⊇ SM, BUT the metric-bundle fiber doesn't have rich isometries.
-- **Persona 3:** Contractible fiber → no transgression in Serre SS, no canonical map BO(4) → BG_SM.
-- **Persona 7 (rep theory):** GU-style 14D = G_2 dim, SO(10) 16 spinor rep contains one SM generation — but these are separate constructions, not GU-specific.
-- **Persona 7 (sharp blocker):** **Distler-Garibaldi** rules out 3 SM generations + gravity in E_8 with SM as centralizer.
+- **Perspective 1:** SM group not a natural subgroup or quotient of GL(4,R).
+- **Perspective 2 (gauge):** Plausibly geometric via KK if fiber has isometry group ⊇ SM, BUT the metric-bundle fiber doesn't have rich isometries.
+- **Perspective 3:** Contractible fiber → no transgression in Serre SS, no canonical map BO(4) → BG_SM.
+- **Perspective 7 (rep theory):** GU-style 14D = G_2 dim, SO(10) 16 spinor rep contains one SM generation — but these are separate constructions, not GU-specific.
+- **Perspective 7 (sharp blocker):** **Distler-Garibaldi** rules out 3 SM generations + gravity in E_8 with SM as centralizer.
 
 **Verdict on Q2:** Must be input by hand. The metric-bundle reading does not deliver SM.
 
@@ -40,29 +40,29 @@ updated_at: "2026-05-31"
 
 **Strongest convergence (5+ independent lenses converge on a single named obstruction):** **Witten 1981 chirality no-go** — pure KK reduction from any even-dimensional higher-dim space cannot deliver chiral Standard Model fermions.
 
-- **Persona 2 (gauge):** Witten 1981 blocks chiral SM fermions from any pure KK.
-- **Persona 4 (spinor):** 14D Weyl gives 64-component Dirac, SM needs 48 (3×16). Signature (7,7) is the only 14D signature admitting Majorana-Weyl, but it has no unitary QFT.
-- **Persona 6 (QFT):** Witten 1981 named again. Chirality cannot survive pure-geometric KK.
-- **Persona 7 (rep):** Witten 1981 + Distler-Garibaldi + three-generation problem all stack.
-- **Persona 9 (formal):** Spin-statistics requires super-geometry; no theorem gives anticommuting fields from bundle sections.
-- **Persona 10 (heterodox):** Names Witten 1981 + Distler-Garibaldi-class theorems as the **two fatal obstructions** of the program.
+- **Perspective 2 (gauge):** Witten 1981 blocks chiral SM fermions from any pure KK.
+- **Perspective 4 (spinor):** 14D Weyl gives 64-component Dirac, SM needs 48 (3×16). Signature (7,7) is the only 14D signature admitting Majorana-Weyl, but it has no unitary QFT.
+- **Perspective 6 (QFT):** Witten 1981 named again. Chirality cannot survive pure-geometric KK.
+- **Perspective 7 (rep):** Witten 1981 + Distler-Garibaldi + three-generation problem all stack.
+- **Perspective 9 (formal):** Spin-statistics requires super-geometry; no theorem gives anticommuting fields from bundle sections.
+- **Perspective 10 (heterodox):** Names Witten 1981 + Distler-Garibaldi-class theorems as the **two fatal obstructions** of the program.
 
 **Verdict on Q3:** This is the load-bearing obstruction. Without an explicit mechanism to evade Witten 1981, the program fails at fermion content even if Q1 is elegant.
 
 ### Question 4 — Does the construction reproduce GR + QFT in right limits?
 
 **GR side (conditionally plausible):**
-- **Persona 5:** Cartan/Palatini on metric bundle gives plausible GR limit. Wheeler-DeWitt indefinite signature + Palatini-induced torsion are obstructions but addressable.
+- **Perspective 5:** Cartan/Palatini on metric bundle gives plausible GR limit. Wheeler-DeWitt indefinite signature + Palatini-induced torsion are obstructions but addressable.
 
 **QFT side (structurally blocked at current rigor):**
-- **Persona 6:** 14D Yang-Mills power-counting non-renormalizable. Needs UV completion (string-theoretic embedding, asymptotic safety) or fails as fundamental theory.
-- **Persona 9 (formal):** Coleman-Mandula / Haag-Lopuszanski-Sohnius constrain spacetime/internal symmetry mixing to SUSY. Constructive QFT existence is open even for 4D Yang-Mills (Millennium Problem); d=14 is far beyond rigorous reach.
+- **Perspective 6:** 14D Yang-Mills power-counting non-renormalizable. Needs UV completion (string-theoretic embedding, asymptotic safety) or fails as fundamental theory.
+- **Perspective 9 (formal):** Coleman-Mandula / Haag-Lopuszanski-Sohnius constrain spacetime/internal symmetry mixing to SUSY. Constructive QFT existence is open even for 4D Yang-Mills (Millennium Problem); d=14 is far beyond rigorous reach.
 
 **Verdict on Q4:** GR limit plausible. QFT limit structurally blocked at current rigor without explicit UV completion.
 
 ## The single load-bearing question
 
-Across 10 lenses, the **single technically interesting loophole** (persona 10's framing, supported by 2, 4, 6, 7):
+Across 10 lenses, the **single technically interesting loophole** (perspective 10's framing, supported by 2, 4, 6, 7):
 
 **Does the metric-as-section / observerse projection constitute a non-standard reduction that evades the standard KK chirality no-go (Witten 1981)?**
 
@@ -92,4 +92,4 @@ The GU program's strongest claim is at Q1 (the 14-dim observerse construction). 
 
 ## Honesty contract observed
 
-No silent strengthening of weak constructions. No appeals to GU sources beyond the canonical 14 = 4 + 10 reading that 4 independent persona lenses derived from first principles. All speculative moves in individual passes are tagged `[speculation]` in their files. The two named no-go theorems (Witten 1981 chirality, Distler-Garibaldi 3-generation) are established mathematical results, not new conjecture.
+No silent strengthening of weak constructions. No appeals to GU sources beyond the canonical 14 = 4 + 10 reading that 4 independent perspective lenses derived from first principles. All speculative moves in individual passes are tagged `[speculation]` in their files. The two named no-go theorems (Witten 1981 chirality, Distler-Garibaldi 3-generation) are established mathematical results, not new conjecture.

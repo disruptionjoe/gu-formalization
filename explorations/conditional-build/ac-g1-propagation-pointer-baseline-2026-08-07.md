@@ -3,9 +3,7 @@ artifact_type: propagation_result
 created: 2026-08-07
 title: "AC-G1 propagation: scope Sp(64) to Cl(9,5), preserve the settled Cl(7,7) anomaly construction gap, reconcile the live pointer, and deposit inherited gate debt"
 status: verified_scoped_correction
-claim_status_change: "AC-G1 OVER_DETERMINED/STALE_PREMISE superseded by AC-G1a NEEDS/MISSING_CONSTRUCTION"
 canon_verdict_change: "scope correction only; no anomaly-cancellation promotion"
-public_posture_change: none
 ---
 
 # AC-G1 propagation, pointer reconciliation and inherited baseline
@@ -60,7 +58,7 @@ that was not deposited by the integrating agent.
 - `4968884e5978874fca8c3e9a5df4209cb77473f1` records the branch integration,
   its two parents and a 49-failure differential sweep with no regression or
   fix.
-- `/Users/joe/Brain/memory/log.md` preserves the integrating agent's finer
+- `private continuity record` preserves the integrating agent's finer
   `44` common-line plus `5` branch-tip classification. That private note is
   cited as provenance, not as a scientific certificate.
 

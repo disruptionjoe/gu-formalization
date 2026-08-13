@@ -2,7 +2,6 @@
 title: "Hostile review: observer-associated basicness"
 status: hostile-review
 created: 2026-08-12
-run_id: RUN-20260812-174351-gu-i2b-observer-associated-basicness
 ---
 
 # Hostile review: observer-associated basicness

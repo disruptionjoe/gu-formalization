@@ -2,16 +2,13 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "B / vertical source-action reduction"
-run: lab/process/runs/GUH-20260729T211122Z-three-route-construction-wave/run-plan.md
+run: archived private execution record
 title: "Vertical source-action reduction and Hessian start: the carrier is real, but the written X4 action does not yet retain it"
 construction: "Conditional construction, not a vacuum claim: expand an ambient Y14 connection as A=A0+a_parallel+Phi_i eta^i, compute its full adapted-frame curvature, and state the exact reduction datum required to retain Phi as an X4 Lorentz scalar. The written X4 source action and the ambient Y14 Yang-Mills action are kept as a Layer-0 domain fork."
 probe: tests/channel-swings/vertical_source_action_reduction_probe.py
 verdict: "VERTICAL-CARRIER-EXISTS; X4-DYNAMICAL-RETENTION-MAP-UNBUILT; FORMAL-AMBIENT-HESSIAN-BUILT; PHYSICAL-HESSIAN-UNDERDETERMINED"
 grade: "FORMULA-BUILT / EXACT-COMPARATOR. No nonzero background, vacuum, sign, mass, texture, hierarchy, or T10 claim."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Vertical source-action reduction and Hessian start
@@ -47,7 +44,7 @@ unbuilt is now a named map rather than a vague demand for “dynamics.”
 
 ## Pre-registered verdict and kill conditions
 
-The run plan expected
+The investigation plan expected
 `VERTICAL-CARRIER-EXISTS-DYNAMICAL-HESSIAN-UNDERDETERMINED`. The Layer-0
 action-domain check fires one gate earlier:
 

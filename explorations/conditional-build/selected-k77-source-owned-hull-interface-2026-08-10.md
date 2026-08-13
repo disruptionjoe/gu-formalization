@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_result
 created: 2026-08-10
-run_id: RUN-20260810-235056-gu-k77-source-owned-hull-interface-expanded
 status: exact_input_plus_typed_composition_result
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 source-owned hull interface hardening

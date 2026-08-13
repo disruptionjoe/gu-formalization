@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-005420-gu-k77-action-stabilizer-connection-flag-reconciliation
 ---
 
 # Source return — action/stabilizer connection and flag reconciliation

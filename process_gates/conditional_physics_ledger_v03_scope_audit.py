@@ -20,8 +20,8 @@ def strict(relative):
 
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.3.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
-lanes = (ROOT / "LANES.yaml").read_text(encoding="utf-8")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text(encoding="utf-8")
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.3.md").read_text(encoding="utf-8")
 source = (ROOT / "lab/sources/keating-interview-2025-06-12-source-record.md").read_text(encoding="utf-8")
 media = (ROOT / "lab/sources/media-index.md").read_text(encoding="utf-8")

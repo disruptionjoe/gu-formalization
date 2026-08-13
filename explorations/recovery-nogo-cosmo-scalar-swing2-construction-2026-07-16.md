@@ -3,7 +3,6 @@ title: "Recovery no-go cosmology scalar Swing 2 construction attempt"
 status: exploration
 doc_type: recovery_no_go_defense
 created: 2026-07-16
-run_id: GUH-20260716T190718Z-cosmo-swing2
 target: RECOVERY-NOGO-COSMO-SCALAR
 test: tests/recovery-contract/cosmo_nogo_swing2_construction_gate.py
 register: lab/process/recovery-no-go-defense-register.json
@@ -74,7 +73,7 @@ whether the construction space needs one more finite source-owned test.
 ## Status boundary
 
 No `RESEARCH-STATUS.md`, `CANON.md`, `NEXT-STEPS.md` top block,
-`lab/process/research-portfolio.json`, claim ledger, paper, license, Lean,
+`lab/process/RESEARCH-AGENDA.json`, claim ledger, paper, license, Lean,
 absorbed source, public-posture, verdict, or cross-repo surface moved.
 
 Paper seed proposal: none.

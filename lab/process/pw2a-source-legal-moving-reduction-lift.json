@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2a_source_legal_moving_reduction_lift_result",
-  "run_id": "RUN-20260802-160851-gu-formalization-pw2a-source-legal-lift",
+  "run_id": "historical-investigation",
   "status": "PW2A_ABSTRACT_LOCAL_COMOVING_GAUGE_LIFT_PASS",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

@@ -38,7 +38,7 @@ def check(kind: str, label: str, condition) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.189.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.188.json")
 result = strict("lab/process/selected-k77-action-stabilizer-connection-flag-reconciliation.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.189"
@@ -98,7 +98,7 @@ check("routing", "residual flag concomitant precedes lower-order BV",
 for relative, needles in {
     "NEXT-STEPS.md": ["v0.189", "A^P", "residual complex-Cartan"],
     "RESEARCH-STATUS.md": ["v0.189", "stabilizer cocycle", "full-unitary"],
-    "lab/process/agent-context-pack.md": ["Current v0.189", "gamma_epsilon", "P1/P2/P3"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.189", "gamma_epsilon", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-12-selected-k77-action-stabilizer-connection-flag-reconciliation-review.md": ["SURVIVES_AFTER_SCOPE_REPAIR", "Symplectic", "mistyped"],
     "lab/sources/selected-k77-action-stabilizer-connection-flag-reconciliation-source-return-2026-08-12.md": ["SOURCE_CONFIRMS", "SOURCE_SILENT", "SOURCE_CORRECTS"],
 }.items():

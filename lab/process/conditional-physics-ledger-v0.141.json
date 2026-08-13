@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.141 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; at zero fermion the coupled Hessian is a boson/fermion direct sum and JD+JF begins at cubic order, so it cannot cancel the rank-one bosonic trace; continue bosonic stress/BV and construct the nonzero-fermion source-operator branch separately"
   },
-  "updated_by": "RUN-20260810-114029-gu-zero-fermion-coupled-hessian-current-order",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

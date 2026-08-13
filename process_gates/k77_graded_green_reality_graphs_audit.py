@@ -38,7 +38,7 @@ def check(kind: str, label: str, condition: object) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.177.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.176.json")
 result = strict("lab/process/selected-k77-graded-green-reality-graphs.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 v174 = strict("lab/process/selected-k77-action-adjoint-weight-classification.json")
 
 check("ledger", "append-only successor identity is exact",
@@ -88,7 +88,7 @@ check("routing", "successor starts with the per-horn analytic domain",
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.177", "maximal-"],
     "RESEARCH-STATUS.md": ["ledger v0.177", "graded Green"],
-    "lab/process/agent-context-pack.md": ["Current v0.177", "two `U(32,32)` halves"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.177", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-graded-green-reality-graphs-review.md": ["SURVIVES_WITH_SCOPE_REPAIR", "graded-even"],
     "lab/sources/selected-k77-graded-green-reality-graphs-source-return-2026-08-11.md": ["SOURCE-SILENT", "four independent"],
 }.items():

@@ -3,14 +3,11 @@ title: "RB3c typed curvature vertex, full-20 Krein completion, and finite Green/
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: RB3C-CURVATURE-VERTEX-FULL20-GREEN-JOIN
-run: lab/process/runs/GUH-20260730T232344Z-rb3b-trace-vertex-grade3/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/rb3c_curvature_vertex_full20_green_probe.py
 grade: "W125/N4a CURVATURE MAP RETYPED S->R / ONE DIAGONAL-G2 S<->R KREIN-ADJOINT COMPLETION CONSTRUCTED / ONE MATRIX-DERIVED Q_F AMPLITUDE JOINED TO A PLANTED ABELIANIZED 1D GREEN/CHAIN-RULE FIXTURE. The written right-P_R sandwich is dimensionally invalid for the owned W125 map. Closing T_b with its native Krein reverse is an additional right-H, K-self-adjoint full-20 completion choice, not yet an implementation of W125's physical field embedding. The G2-plus-R pairing is nondegenerate; the completed vertex itself has rank 256 and kernel 1664. DeWitt versus raw-Frobenius signature/Hodge signs pass as an independent compatibility control but are not used by the executed polynomial Green fixture. No full Q_F 12-form, D_A^coad current, common epsilon_IG map, Y14 formal adjoint/domain/boundary, density variation, full-Sp covariance, polarization selection, or JD-versus-total bridge selection is constructed."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # RB3c typed curvature vertex, full-20 Krein completion, and finite Green/Q join
@@ -115,7 +112,7 @@ fourteen-dimensional current.
 Trace reversal still passes an important compatibility control: it gives the
 program-native \((9,5)\) Hodge signs, while raw Frobenius reverses them. The
 executed one-dimensional polynomial Green calculation does not apply either
-Hodge operator, so this run does not claim that trace reversal selects or
+Hodge operator, so this investigation does not claim that trace reversal selects or
 changes that finite result.
 
 ## 1. Layer 0: the map is rectangular

@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-022626-gu-i2b-independent-tangent-queue-correction
 source_claims: [SC-ACT-01, SC-ACT-04]
 ---
 

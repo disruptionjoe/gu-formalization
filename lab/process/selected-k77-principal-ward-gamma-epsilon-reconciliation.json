@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "date": "2026-08-08",
   "status": "EXACT_RECONCILIATION__SOURCE_VARIABLE_TARGET_RANK3__CONDITIONAL_GAMMA_EXTENSION_SEPARATE",
-  "run_id": "RUN-20260808-171836-gu-principal-ward-gamma-epsilon-reconciliation",
+  "run_id": "historical-investigation",
   "predecessor": "lab/process/selected-k77-metric-transverse-augmented-torsion-block.json",
   "source_return": "SOURCE-CORRECTS",
   "layer0": {

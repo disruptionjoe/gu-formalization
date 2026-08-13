@@ -3,15 +3,11 @@ title: "Source-owned reduction and transport packet: the W177 background is not 
 status: active_research
 doc_type: result
 created: 2026-07-29
-run_id: GUH-20260729T231156Z-source-owned-reduction-transport-packet
-lane_id: "1"
 work_item: SOURCE-OWNED-REDUCTION-TRANSPORT-PACKET
 code:
   - tests/channel-swings/w177_ym_residual_and_mode_closure_probe.py
   - tests/channel-swings/b5_normalized_transport_from_differential_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source-owned reduction and transport packet
@@ -293,7 +289,7 @@ python3 tests/channel-swings/w177_ym_residual_and_mode_closure_probe.py
 python3 tests/channel-swings/b5_normalized_transport_from_differential_probe.py
 ```
 
-The run also re-executes the W177 curvature carrier, vertical-reduction,
+The investigation also re-executes the W177 curvature carrier, vertical-reduction,
 actual-fibre naturality, and native-packet fail-closed controls before close.
 
 ---

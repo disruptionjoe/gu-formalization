@@ -2,10 +2,7 @@
 title: "Selected K77 action-owned leakage composition"
 status: exact_composition_result
 date: 2026-08-10
-run_id: RUN-20260810-080214-gu-k77-action-owned-leakage-composition
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 action-owned leakage composition

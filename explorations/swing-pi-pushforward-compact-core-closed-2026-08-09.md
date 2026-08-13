@@ -6,9 +6,7 @@ status: ROUTE_CLOSED__COMPACT_CORE_SUBSTITUTION_FAILS_ON_DEGREE__WOULD_BE_3_FREE
 grade: "NEGATIVE RESULT / triage. No computation was run. Every kill quoted below was already in the
   repository before this swing; the contribution is consolidation plus one owed-sweep finding. Nothing here
   is new mathematics and nothing is resolved."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 follows:
   - canon/single-decider-integer-index-RESULTS.md
   - canon/no-go-class-relative-map.md

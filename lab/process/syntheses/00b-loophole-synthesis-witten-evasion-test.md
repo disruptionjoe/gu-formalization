@@ -8,9 +8,9 @@ updated_at: "2026-05-31"
 # Witten 1981 Loophole Synthesis — Does the Observerse Projection Evade the Chirality No-Go?
 
 **Date:** 2026-05-28
-**Source:** 5 divergent persona passes spawned by Joe's directive in the 2026-05-28 review-session round 2 follow-up: pursue the YES path on whether the metric-as-section / observerse projection constitutes a non-standard reduction evading Witten 1981.
+**Source:** 5 divergent perspective passes spawned by Joe's directive in the 2026-05-28 review-session round 2 follow-up: pursue the YES path on whether the metric-as-section / observerse projection constitutes a non-standard reduction evading Witten 1981.
 **Files synthesized:** `11-stochastic-geometer-loophole.md` through `15-cartan-twistor-loophole.md`.
-**Predecessor:** `00-synthesis-best-path-from-first-principles.md` (10-persona pass).
+**Predecessor:** `00-synthesis-best-path-from-first-principles.md` (10-perspective pass).
 
 ## Convergent structural finding across all 5 lenses
 
@@ -56,7 +56,7 @@ Three scenarios:
 
 2. **GU's "observerse projection" is operationally undefined.** Then the lane has been chasing a name without a mathematical content; closure as "program lacks a precise reduction class" is honest.
 
-3. **GU specifies something outside all 5 classes.** Then a fresh persona pass would be needed for that class; meanwhile the lane stays in problem_shaping with a sharp specification question.
+3. **GU specifies something outside all 5 classes.** Then a fresh perspective pass would be needed for that class; meanwhile the lane stays in problem_shaping with a sharp specification question.
 
 ## Best path from the loophole synthesis
 
@@ -78,4 +78,4 @@ Either way, the lane has a sharp specification question to answer before it can 
 
 ## Honesty contract observed
 
-No silent strengthening of weak constructions. The formal opening of the loophole is real and the personas converge on it. The substantive closing of the loophole is also real and the personas converge on it. The two are not contradictory; the loophole opens formally but does not open derivationally without additional structure that GU does not supply. Connes' spectral triples are an established research direction (decades of mathematics), not speculation. Freed-Hopkins anomaly framework is established mathematics. The two sharpest findings (Findings A and B) are not new conjecture.
+No silent strengthening of weak constructions. The formal opening of the loophole is real and the perspectives converge on it. The substantive closing of the loophole is also real and the perspectives converge on it. The two are not contradictory; the loophole opens formally but does not open derivationally without additional structure that GU does not supply. Connes' spectral triples are an established research direction (decades of mathematics), not speculation. Freed-Hopkins anomaly framework is established mathematics. The two sharpest findings (Findings A and B) are not new conjecture.

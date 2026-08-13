@@ -33,7 +33,7 @@ def read(relative):
 
 ledger = load("lab/process/conditional-physics-ledger-v0.113.json")
 registry = load("lab/process/selected-k77-branch-boundary-amplitude-classification.json")
-contract = load("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = load("lab/methods/research-evidence-contract-v1.0.json")
 report = read("explorations/conditional-build/selected-k77-branch-boundary-amplitude-classification-2026-08-09.md")
 review = read("lab/process/hostile-reviews/2026-08-09-selected-k77-branch-boundary-amplitude-classification-review.md")
 source = read("lab/sources/selected-k77-branch-boundary-source-reinspection-2026-08-09.md")
@@ -106,10 +106,10 @@ for lens in ("Layer-0 semantics", "Prior art", "Symplectic geometry",
              "Source criticism"):
     check(f"review lens {lens}", lens in review)
 
-for relative in ("LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
+for relative in ("lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
                  "explorations/README.md", "lab/process/README.md",
-                 "lab/process/agent-context-pack.md",
-                 "lab/process/functional-channel-operating-contract-v1.0.md"):
+                 "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+                 "lab/methods/research-evidence-contract-v1.0.md"):
     text = read(relative)
     check(f"current or successor pointer {relative}",
           "v0.113" in text or "v0.114" in text)

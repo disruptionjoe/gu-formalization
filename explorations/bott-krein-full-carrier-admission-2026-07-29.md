@@ -2,15 +2,12 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: THREE-ROUTE-CONSTRUCTION-WAVE
 title: "Bott--Krein full-carrier admission: the proposed S_nat=C_perp J_H is an exact complex-linear Krein involution and preserves ker Gamma, but cannot simultaneously be right-H-linear. The standard doubled H-line Bott control survives with unit finite gap, while its natural diagonal H^64 lift has 64 copies of the clutching density; obtaining one copy requires a non-natural coordinate projector. No native mirror embedding, Clifford--Morita reduction, Callias index, or physical chiral-index map is constructed."
 grade: "EXACT finite matrix algebra in the same factorized Cl(9,5) realization used by the vertical--Krein weld; exact algebraic incompatibility of S_nat^2=+1 with right-H-linearity for S_nat=C_perp J_H; exact gamma-trace-kernel preservation for the induced vector-spinor reflection; exact standard H-line Bott control and exact direct-sum cubic-density scaling. STANDARD INPUT only for the statement that q->L_q is the degree-one quaternionic clutching control. OPEN for a native mirror embedding, RS-preserving Bott mass, complete Callias domain/gap, Clifford--Morita pushforward, and physical index. No index is inferred from clutching degree or multiplicity."
-run: lab/process/runs/GUH-20260729T211122Z-three-route-construction-wave/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/bott_krein_full_carrier_admission_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "KILL-S_NAT-H-LINEAR-DECK; FULL-CARRIER-BOTT-OPEN-AT-NATIVE-MIRROR-AND-MORITA-MAP"
 ---
 

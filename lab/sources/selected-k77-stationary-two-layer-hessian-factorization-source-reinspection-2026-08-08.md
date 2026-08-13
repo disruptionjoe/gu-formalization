@@ -2,7 +2,6 @@
 artifact_type: source_reinspection
 created: 2026-08-08
 status: SOURCE-CONFIRMS__RESIDUAL_NORM_SQUARE_AND_FIRST_SOLUTION_REDUNDANCY__SOURCE-SILENT__COMMON_FIELD_DUPSILON_BLOCKS_PAIRING_AND_PHYSICAL_COMPLEX
-lane: "1"
 ---
 
 # Source return: stationary two-layer Hessian factorization

@@ -1,13 +1,10 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-040306-gu-tautological-trace-q-ownership
 status: TAUTOLOGICAL_TRACE_Q_OWNS_THE_TWO_HALF_HERMITIAN_INPUT_WITH_ZERO_NEW_DATUM__NORMAL_STABILIZER_AND_COMPLEX_COMPATIBILITY_REPRICED__ACTION_BLOCK_OPEN
 target_claim: NONE-NOT-A-KILL
 ledger: lab/process/conditional-physics-ledger-v0.194.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 tautological trace-q ownership gate

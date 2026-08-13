@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-040306-gu-tautological-trace-q-ownership
 status: SOURCE_CONFIRMS_TRACE_REVERSAL_AND_DISTINGUISHED_METRIC_FIBRE_DIRECTION__SOURCE_SILENT_ON_HQ_ACTION_PARENT_AND_PHYSICAL_BLOCK
 ---
 

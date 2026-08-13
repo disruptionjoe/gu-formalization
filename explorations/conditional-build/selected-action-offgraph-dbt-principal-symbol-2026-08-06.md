@@ -2,8 +2,6 @@
 artifact_type: selected_action_offgraph_dbt_principal_symbol
 created: 2026-08-06
 status: ADJACENT_GRADE_DBT_EULER_LIVE__CURRENT_34_VARIABLE_TRUNCATION_NOT_ACTION_INVARIANT
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CONFIRMS_AND_SOURCE-SILENT
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:

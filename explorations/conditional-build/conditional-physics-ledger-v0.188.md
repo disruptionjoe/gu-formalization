@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-12
 ledger_version: "0.188"
-run_id: RUN-20260812-003609-gu-k77-finite-section-projector-atlas-descent
 ---
 
 # Conditional physics ledger v0.188

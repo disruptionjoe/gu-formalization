@@ -23,7 +23,7 @@ scripts:
 # W175 -- the analytic / Fredholm layer of the Y14 source-action
 
 Test: `tests/W175_analytic_fredholm_essential_spectrum.py` (29/29, exit 0, ~90 s).
-Deterministic (seed 20260714), numpy/scipy only. Run as a five-persona inline team (one
+Deterministic (seed 20260714), numpy/scipy only. Run as a five-perspective inline team (one
 worker, sequential): (1) geometric analyst / index theorist; (2) spectral theorist;
 (3) GU-structure specialist; (4) symbolic/numerical engineer; (5) adversarial skeptic.
 
@@ -245,6 +245,6 @@ needed.
 - `m2` remains the FIT `sqrt(m2_eff) mu_DW`; `R_s` the fiber radius. Nothing here narrows any
   FIT. The inequality is built; its truth value is not.
 
-*Filed 2026-07-14. Wave W175 (TEAM BUILD-ANALYTIC), five personas inline in one session.
+*Filed 2026-07-14. Wave W175 (TEAM BUILD-ANALYTIC), five perspectives inline in one session.
 Reproducible: `python -u tests/W175_analytic_fredholm_essential_spectrum.py` (29/29,
 exit 0). Exploration grade; no canon movement.*

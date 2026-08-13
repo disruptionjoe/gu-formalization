@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-030756-gu-two-half-hermitian-witt-map
 status: SOURCE_CONFIRMS_FULL_PARENT_TWO_HALF_EXPOSITION_AND_VARPI_ASSIGNMENT__SOURCE_SILENT_ON_HQ_Q_SELECTION_AND_PHYSICAL_BLOCK
 ---
 

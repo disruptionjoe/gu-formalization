@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-180715-gu-action-induced-real-pairing-horn",
+  "run_id": "historical-investigation",
   "verdict": "SELECTED_SCALAR_CLIFFORD_TRACE_RESTRICTS_TO_CONJUGATION_EVEN_BRE__PROJECTIVE_R_AND_HORN_COST_CLOSE_CONDITIONALLY__REALITY_AND_ORIENTATION_ALONE_DO_NOT_SELECT__CURRENT_STRICT_SURPLUS_ZERO__TYPED_P3_BRIDGE_REQUIRED",
   "pairing_cone_dimension_before_action_parent": 2,
   "selected_scalar_trace_pairing": "B_Re",

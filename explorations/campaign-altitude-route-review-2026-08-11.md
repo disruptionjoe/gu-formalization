@@ -4,14 +4,9 @@ status: active_research
 doc_type: discovery_route_review
 artifact_type: discovery_route_review
 created: 2026-08-11
-run_id: RUN-20260811-134847-gu-campaign-altitude-route-review
-lane: "none (Discovery phase; Lane-less by the standard run model)"
-functional_channels: [COMPOSE, VERIFY]
 ledger_versions_reviewed: "v0.163 through v0.174, with spine references back to v0.89 and the 2026-08-01 B2C4 family construction"
 reviewed_at_revision: 418c14261c375aa0bb53a754a3fced485b75d7c2 (agent/operator-anomaly-big-swing)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 binding: >-
   Discovery output. Branch-weighting signal for future Progress selection
   under the standard run model; it binds no wave, changes no verdict, row,
@@ -24,7 +19,7 @@ hostile_review: lab/process/hostile-reviews/2026-08-11-campaign-altitude-route-r
 Joe-directed Discovery run (direct chat, 2026-08-11). Question: standing at
 altitude over the whole `agent/operator-anomaly-big-swing` campaign rather
 than inside the latest wave, is the hourly's route ordering the
-highest-information ordering toward the Lane 1 North Star, and what should
+highest-information ordering toward the truth-status research North Star, and what should
 the next waves' queue carry that it currently does not?
 
 ## Pre-flight assessment
@@ -45,7 +40,7 @@ Failure modes this review could commit, and the mitigation applied:
    the v0.174 construction chain at ranks 1-3 unchanged; the additions are
    lower-ranked and posture-level.
 4. **Planning evidence inflation.** Rankings here are planning evidence,
-   never scientific evidence (same standing rule as the modeled persona
+   never scientific evidence (same standing rule as the modeled perspective
    vote). Nothing here is citable as a result.
 5. **False novelty.** Terms and findings were checked with
    `lab/process/novelty-check.py`; where this review restates something the
@@ -172,7 +167,7 @@ response is continuing to deepen the conditional stack silently while the
 depth audit fires every run.
 
 **F3 — steering surfaces lag the campaign (known meta-pattern, live
-instance).** `LANE-STATE.yaml`'s `bottom_line` and `decision_default` still
+instance).** `CURRENT-STATE.yaml`'s `bottom_line` and `decision_default` still
 narrate the 2026-08-03 B5/pw2fr/RB7 picture as the live campaign, with no
 mention of the operator-anomaly big swing that has owned the cadence for
 two days. The eleven-lens audit already named the pattern ("artifacts

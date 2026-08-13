@@ -24,13 +24,13 @@ def strict(relative):
 
 registry = strict("lab/process/selected-second-layer-shiab-inverse-bianchi-completion.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.47.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-second-layer-shiab-inverse-bianchi-completion-2026-08-07.md").read_text(encoding="utf-8")
 review = (ROOT / "lab/process/hostile-reviews/2026-08-07-selected-second-layer-shiab-inverse-bianchi-completion-review.md").read_text(encoding="utf-8")
-context = (ROOT / "lab/process/agent-context-pack.md").read_text(encoding="utf-8")
+context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text(encoding="utf-8")
 next_steps = (ROOT / "NEXT-STEPS.md").read_text(encoding="utf-8")
 status = (ROOT / "RESEARCH-STATUS.md").read_text(encoding="utf-8")
-lanes = (ROOT / "LANES.yaml").read_text(encoding="utf-8")
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text(encoding="utf-8")
 
 assert registry["status"] == "SELECTED_SHIAB_ISOMORPHISM__SPLIT_PREIMAGES_NOT_PRINCIPAL_BIANCHI__TOTAL_GCR_COMPLETION_REQUIRED"
 assert registry["rerun"] == "50/50 PASS"

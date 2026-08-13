@@ -4,9 +4,7 @@ created: 2026-08-08
 status: STATIONARY_FIRST_DERIVATIVE_REDUCTION_EXACT__COMMON_FIELD_DUPSILON_AND_K_OWNER_OPEN
 source_return: SOURCE-CONFIRMS__RESIDUAL_NORM_SQUARE_AND_FIRST_SOLUTION_REDUNDANCY__SOURCE-SILENT__COMMON_FIELD_DUPSILON_BLOCKS_PAIRING_AND_PHYSICAL_COMPLEX
 ledger: lab/process/conditional-physics-ledger-v0.82.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 stationary two-layer Hessian factorization

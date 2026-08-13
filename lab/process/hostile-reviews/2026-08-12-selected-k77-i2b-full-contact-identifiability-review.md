@@ -2,7 +2,6 @@
 title: "Hostile review: full-contact observer identifiability"
 status: hostile-review
 created: 2026-08-12
-run_id: RUN-20260812-192949-gu-i2b-full-contact-identifiability
 ---
 
 # Hostile review: full-contact observer identifiability

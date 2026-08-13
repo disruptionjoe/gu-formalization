@@ -4,16 +4,14 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: system-runtime#meta/runs/RUN-20260802-160851-gu-formalization-pw2a-source-legal-lift/run-plan.md
+run: private orchestration runtime#meta/runs/historical-investigation/run-plan.md
 registry: lab/process/pw2a-source-legal-moving-reduction-lift.json
 experiment_registry: lab/process/pw2a-action-extension-experiment-registry.json
 probes:
   - tests/channel-swings/pw2a_source_legal_moving_reduction_lift_probe.py
   - tests/channel-swings/pw2a_variational_extension_green_probe.py
 grade: "PW2A ABSTRACT LOCAL CO-MOVING GAUGE-LIFT PASS WITH A FORCED COSET-CURVATURE RETURN AND A FIXTURE-SCOPED INDEPENDENT-B VARIATIONAL CONTROL. An exact GL(2) principal-bundle chart proves the co-moving mechanism: B and T move oppositely, their total stays fixed, nonzero-background curvature transforms by conjugation, and a generic linear involution remains covariantly compatible. This is source-shaped but not yet a literal source-H or Y14 lift. PW2's frozen-reduction obstruction survives. The curvature-level compensator is the discarded coset bracket with coefficient one and is not a new datum or connection one-form. At flat linearized grade an h-valued connection repair has H2 obstruction and H1 ambiguity; on curved backgrounds ordinary cohomology is unavailable until a deformation complex exists. A polynomial independent-B fixture verifies live D_BK/D_TK adjoints, an attainable fourth-order Euler term, and both Green layers; a derivative-affine control instead drops to order two. A separate nonvacuous Ward comparator passes, while the root-extension and physical Ward identities remain unevaluated. Literal source-group membership, admitted epsilon variation, nested active reductions, complete action order, BV quotient, and domain remain open. P1/P2/P3 are unchanged and unused; PW3 remains blocked."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # PW2A abstract co-moving gauge lift

@@ -2,12 +2,8 @@
 artifact_type: build_compose_result
 created: 2026-08-08
 status: SIGNATURE_GENERIC_CARTAN_AND_PRIMITIVE_EPSILON_COMPOSED__K77_K95_LOCAL_HODGE_EXACT__SELECTED_ACTION_FRECHET_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CONFIRMS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Signature-generic Cartan/Ward composition

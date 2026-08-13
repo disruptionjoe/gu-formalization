@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-174337-gu-external-relative-datum-surplus",
+  "run_id": "historical-investigation",
   "verdict": "MINIMAL_EXTERNAL_N_R_COUPLING_CONDITIONALLY_SELECTS_AMPLITUDE_AND_PRESERVES_SMALL_GAUGE__CURRENT_MULTIROW_SURPLUS_NONPOSITIVE__DERIVED_PAIRING_OR_TYPED_INDEX_BRIDGE_REQUIRED",
   "datum": {
     "boundary_component": "n in Z",

@@ -1,14 +1,11 @@
 ---
 artifact_type: conditional_build_result
 created: 2026-08-12
-run_id: RUN-20260812-011911-gu-k77-action-concomitant-residual-flag
 status: SELECTED_LORENTZ_INVARIANT_ACTION_CONCOMITANTS_EXACTLY_NONSELCTING__NONHOMOGENEOUS_SUCCESSOR_LIVE
 target_claim: NONE-NOT-A-KILL
 source_return: SOURCE_CONFIRMS_GEOMETRIC_REDUCTION_AND_GAUGE_ROTATED_CONNECTION_INGREDIENTS__SOURCE_SILENT_ON_ACTION_DERIVED_HQ_SELECTOR__SOURCE_CORRECTS_ANY_CLAIM_THAT_FAILURE_OF_THIS_BACKGROUND_REFUTES_SC_GRP_03
 ledger: lab/process/conditional-physics-ledger-v0.190.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 action-concomitant residual-flag gate

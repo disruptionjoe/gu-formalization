@@ -2,13 +2,10 @@
 title: "The rho-invariant 2-primary immunity lemma: for pi_1 = Z/2 the twisted-minus-untwisted APS eta lies in Z[1/2] (register M-M10; audit topo-7)"
 status: active_research
 doc_type: exploration
-lane: "1"
 created: 2026-08-03
 updated: 2026-08-03
 outcome: "LEMMA-STATED-AND-PROVED; STANDARD-RESULT-APPLIED; PERMANENTLY-IMMUNIZES-3-PRIMARY-CLAIMS-AGAINST-2-ADIC-CONVENTION-WORRIES"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 grade: "standard-result-applied (APS I-III, Donnelly 1978, ABP 1967; the proof below is an assembly of cited theorems plus elementary arithmetic, not new mathematics)"
 register_item: M-M10 (lab/process/improvement-register-2026-08-03.md)
 depends_on:

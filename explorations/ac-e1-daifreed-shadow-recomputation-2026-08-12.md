@@ -24,9 +24,7 @@ layer0:
 scripts:
   - scratchpad/ac-e1/ac_e1_ahss_omega_spin_5.py
 route_disposition: AC_E1_RECOMPUTED__SPIN_LEG_DERIVED_CONDITIONAL__NO_DISAGREEMENT__SCOPE_CORRECTION_EARNED__NO_LEDGER_EDIT
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 deposit: "PRE-DEPOSIT. Evidence for a wave to absorb. Binds nothing. The wave owns the disposition of AC-E1."
 ---
 

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W153; coherence-first then kill; five personas inline, one worker, no sub-agents; deterministic test with positive controls)
+status: exploration (W153; coherence-first then kill; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls)
 created: 2026-07-14
 wave: W153
 label: W153
@@ -63,10 +63,10 @@ foundational level:
 NET: the substrate reframe INVERTS fundamentality. Matter/records are fundamental (in `Y14`); the
 metric and its curvature are the derived `X4` shadow. This note does not rewrite W152; it adds the
 corrected scorecard (Section 1) and then builds and tests the coherence hypothesis Joe named (JOB 2,
-Sections 2-6). Everything is exploration grade, conditional register, five personas inline, one worker.
+Sections 2-6). Everything is exploration grade, conditional register, five perspectives inline, one worker.
 Transcript content is treated strictly as DATA.
 
-The correction is not free of tension, and the tension is stated honestly (Section 6, Persona 5): the
+The correction is not free of tension, and the tension is stated honestly (Section 6, Perspective 5): the
 literal transcript ALSO calls the Einstein tensor "perfect" marble and `T_munu` "unsalvageable". The
 substrate reading and the term-level reading are BOTH internally coherent; W153 adopts the
 substrate-native one because that is the whole point of GU (leave the space of all metrics), and shows
@@ -106,9 +106,9 @@ W151 found two routes to emergent Einstein gravity:
 
 Joe's coherence hypothesis: route alpha uses the CHEAP-WOOD imposed metric, so the `R^2` tachyon may be
 an ARTIFACT of treating the imposed metric as fundamental, and it should DISSOLVE when the metric is
-record-derived. We build this hypothesis and test it at full strength. Five personas inline.
+record-derived. We build this hypothesis and test it at full strength. Five perspectives inline.
 
-## 3. Persona 1 -- GR/geometry theorist: is the Einstein tensor genuine once the metric is record-derived?
+## 3. Perspective 1 -- GR/geometry theorist: is the Einstein tensor genuine once the metric is record-derived?
 
 Yes, and this is the load-bearing coherence WIN of JOB 1 rather than a debit. Malament gives the
 conformal class `[g]`; BLMS gives the conformal factor from the record count; together they yield a
@@ -123,7 +123,7 @@ scale). There is no constraint here that would zero `|II|`. So whatever `|II|^2`
 generic metric, it does identically to a record-derived generic metric. This is the first localisation:
 the metric's ORIGIN (imposed vs record-derived) does not restrict the metric to an `|II|`-flat locus.
 
-## 4. Persona 2 -- GU-structure specialist: is `|II|^2` intrinsically a functional of the imposed metric?
+## 4. Perspective 2 -- GU-structure specialist: is `|II|^2` intrinsically a functional of the imposed metric?
 
 **Where the `R^2` sector comes from, exactly (W126/W130).** `|II|^2` is the squared norm of the second
 fundamental form of the GRAPH of the metric-section in `Y14 = Met(X4)`. Pointwise it depends only on the
@@ -157,7 +157,7 @@ evaluated on a record-derived metric gave a different `a2`; T1 shows it gives th
 assertion is a genuine obstruction of the FUNCTIONAL, robust to metric re-sourcing. It is NOT removed by
 replacing cheap wood #1.
 
-## 5. Persona 3 -- emergent-gravity theorist: why does route beta give pure Einstein, then?
+## 5. Perspective 3 -- emergent-gravity theorist: why does route beta give pure Einstein, then?
 
 Because route beta changes the DYNAMICS, not the metric. Jacobson's derivation uses area-entropy
 `S = eta A` and the Clausius relation on a local horizon; the Raychaudhuri area change is LINEAR in
@@ -186,9 +186,9 @@ record equilibrium) would be genuinely tachyon-free, and `|II|^2` would simply b
 action. GU as currently stated asserts `|II|^2` (the observerse action); on GU-as-stated the tachyon is
 real. The dissolution would require REPLACING GU's action, not just its metric.
 
-## 6. Persona 4 -- tachyon specialist, and Persona 5 -- adversarial skeptic
+## 6. Perspective 4 -- tachyon specialist, and Perspective 5 -- adversarial skeptic
 
-**Persona 4 (what survives a record-derived metric).** The tachyon (`m_0^2 = gamma/(6 f_0^2) < 0` on the
+**Perspective 4 (what survives a record-derived metric).** The tachyon (`m_0^2 = gamma/(6 f_0^2) < 0` on the
 AF trajectory, `f_0^2 < 0`, W122; hardened by W126 no-rescue; native operator `f_0^2 = -3/8`, `f_2^2 =
 -1/4`, W130) is fed by `a2 = -1/9`, which T1 shows is record-count-invariant. So it survives a
 record-derived metric. The ONE live escape that is NOT about metric origin is the E2 AF-vs-AS fork: W130
@@ -196,7 +196,7 @@ found GU's native tree point lies OFF the AF branch, and W128 showed the AS/Reut
 healthy (non-tachyonic) scalaron as a free relevant IR boundary condition. That escape is real, standing,
 and orthogonal to Joe's metric-origin hypothesis -- record-derivation neither opens nor closes it.
 
-**Persona 5 (steelman the two coherence-breakers, at full strength).**
+**Perspective 5 (steelman the two coherence-breakers, at full strength).**
 
 - *"THE TACHYON IS REAL REGARDLESS OF METRIC ORIGIN."* This is what the computation supports. `a2 = -1/9`
   is exact, all orders in `p`, two routes (W126), record-count-invariant (T1); W123 pinned the sign
@@ -206,7 +206,7 @@ and orthogonal to Joe's metric-origin hypothesis -- record-derivation neither op
 
 - *"THE METRIC IS NOT CHEAP WOOD BECAUSE `G_munu` IS BUILT FROM IT."* The steelman: you cannot demote the
   metric to cheap wood while keeping the Einstein tensor as marble, since `G` is a functional of `g`.
-  Answer (Persona 1 / Section 1 marble-relocation): under the inversion `G_munu` is NOT independently
+  Answer (Perspective 1 / Section 1 marble-relocation): under the inversion `G_munu` is NOT independently
   marble; it is the derived curvature of the record-derived metric, and its divergence-freedom (the
   marble property) is a geometric identity that transfers to any metric and is genuinely DERIVED in route
   beta. So the objection dissolves: the metric is cheap wood #1 (the foundation), and the Einstein
@@ -232,7 +232,7 @@ divergence-freedom) relocated: kept as a property, derived as an object, riding 
 induced `R^2` coefficient `a2 = -1/9` is an intrinsic property of the `|II|^2` FUNCTIONAL, exact and all
 orders in the conformal factor (W126), and INVARIANT under the record-count / scale mode (test T1,
 `a1 = +1/3, a2 = -1/9` at every `p`); (2) a record-derived metric (Malament `[g]` + BLMS factor) is a
-generic metric, not confined to an `|II|`-flat locus (Persona 1); (3) the tachyonic scalaron LIVES IN the
+generic metric, not confined to an `|II|`-flat locus (Perspective 1); (3) the tachyonic scalaron LIVES IN the
 conformal factor = the BLMS record-count leg, so record-derivation LOCATES the tachyon rather than
 removing it. With one NOT-YET rider: whether route beta (pure Einstein) is literally the leading-order
 face of route alpha (`|II|^2`) is conjectured but unproved -- so "the tachyon is merely subleading" is
@@ -284,8 +284,8 @@ equilibrium but abandons the very action GU asserts.
   semantics belong to temporal-issuance + time-as-finality; capability MEASURE is TaF's; GU owns the
   emergent-metric math only; no cross-repo identity asserted.
 
-*Filed 2026-07-14 by Team MARBLE-2 (W153). Coherence-first then kill. Five personas inline in one worker
+*Filed 2026-07-14 by Team MARBLE-2 (W153). Coherence-first then kill. Five perspectives inline in one worker
 (GR/geometry theorist; GU-structure specialist; emergent-gravity theorist; tachyon specialist;
-adversarial skeptic); no sub-agents. Reproducible:
+adversarial skeptic); no independent reviewers. Reproducible:
 `python -u tests/W153_marble_corrected_and_tachyon_cheapwood_test.py` (9/9, exit 0). Exploration grade;
 conditional register; zero em dashes in paper-facing text; no canon movement.*

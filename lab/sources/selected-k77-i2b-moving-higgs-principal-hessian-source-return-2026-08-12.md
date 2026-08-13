@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-155230-gu-i2b-moving-higgs-principal-hessian
 return: SOURCE_CONFIRMS_BOSONIC_RESIDUAL_SQUARE_AND_QB_SLOT__SOURCE_SILENT_EXACT_K77_QB_AND_HESSIAN_REPAIR
 ---
 

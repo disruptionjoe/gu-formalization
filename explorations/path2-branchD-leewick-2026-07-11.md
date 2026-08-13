@@ -36,9 +36,9 @@ GU-independent statement about the class.
 
 ---
 
-## 1. The team (5 personas, run inline, sequential)
+## 1. The team (5 perspectives, run inline, sequential)
 
-### Persona 1 -- Lee-Wick specialist: the pole-displacement computation and the GOW cut
+### Perspective 1 -- Lee-Wick specialist: the pole-displacement computation and the GOW cut
 
 **Setup.** In the spin-2 sector the Stelle propagator is, with `M` the massive-spin-2 mass,
 
@@ -112,7 +112,7 @@ Im M(phys) = (positive real-state terms)  -  0(ghost, deformed away)  >=  0.
 Optical theorem holds on real external states. (argued -- proven for the scalar GOW model; for gravity it
 inherits the tensor-structure caveat below.)
 
-### Persona 2 -- Mathematical-physics referee: what is proven vs argued
+### Perspective 2 -- Mathematical-physics referee: what is proven vs argued
 
 - **Sign of `Im Sigma(M^2)` > 0:** PROVEN (fixed by the sign of the massless one-loop bubble discontinuity
   and positivity of the spin-2 polarization sum; `c>0`). Not an assumption.
@@ -132,7 +132,7 @@ inherits the tensor-structure caveat below.)
   `Gamma/M = O(1)` -- a **broad** resonance, not a narrow one. This is graded as a real weakness (see
   adversary).
 
-### Persona 3 -- Adversary: three attacks on branch D
+### Perspective 3 -- Adversary: three attacks on branch D
 
 1. **"The pole moves the wrong way / creates an instability."** For an ordinary particle `Im Sigma>0` puts
    the pole on the second sheet (stable asymptotic states on the real axis). For the *ghost* there is no
@@ -154,7 +154,7 @@ inherits the tensor-structure caveat below.)
    renormalization cannot pin the pole back onto the real axis. This attack FAILS -- a point in branch D's
    favor for the Q-pos question (below).
 
-### Persona 4 -- Cross-checker: reduce to the known scalar Lee-Wick / GOW result
+### Perspective 4 -- Cross-checker: reduce to the known scalar Lee-Wick / GOW result
 
 **Independent check by decoupling limit.** Turn off the derivative nature of the vertices (constant coupling
 `g`) and take a scalar Lee-Wick ghost of mass `M` decaying to two massless scalars. Then
@@ -169,7 +169,7 @@ numerator.** So the cross-check confirms the *mechanism* and isolates the three 
 does not certify them. (This is the two-derivations discipline: the scalar limit is the known result the
 gravity computation must and does reproduce.)
 
-### Persona 5 -- Synthesizer: branch verdict
+### Perspective 5 -- Synthesizer: branch verdict
 
 Branch D used the **Lee-Wick complex-pole construction of the ghost** and the **GOW deformed cutting rules**.
 The one-loop self-energy computation shows the Stelle spin-2 ghost pole **does** acquire a complex-conjugate

@@ -6,10 +6,7 @@ grade: >-
   Mixed by construction and labelled per lens. Exact results are cited rather
   than re-derived. Applicability claims, source dispositions and the proposed
   K77 ghost-parity rerun remain conditional and do not alter any verdict.
-run_id: RUN-20260808-210406-gu-signature-25-lens-self-assessment
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 source_return: SOURCE-CORRECTS__CURT_MIRROR_DOES_NOT_LICENSE_AUTHOR_CONFLATION

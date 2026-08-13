@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-11
 ledger_version: "0.181"
-run_id: RUN-20260811-194036-gu-k77-boundary-bv-observation-cohomology
 ---
 
 # Conditional physics ledger v0.181

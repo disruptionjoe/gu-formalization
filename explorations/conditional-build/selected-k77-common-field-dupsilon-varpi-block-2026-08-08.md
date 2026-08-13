@@ -4,9 +4,7 @@ created: 2026-08-08
 status: VARPI_BLOCK_EXACT__FIXED_EPSILON_RANK4_METRIC_IMPORT_REJECTED__PHYSICAL_METRIC_EPSILON_K_OPEN
 source_return: SOURCE-CONFIRMS__VARPI_DIRECTION_AND_EPSILON_FIELD__SOURCE-SILENT__PHYSICAL_METRIC_EPSILON_FRECHET_BLOCKS_AND_RESIDUAL_PAIRING
 ledger: lab/process/conditional-physics-ledger-v0.83.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 common-field D-Upsilon varpi block

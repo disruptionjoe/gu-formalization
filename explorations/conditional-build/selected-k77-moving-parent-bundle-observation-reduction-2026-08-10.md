@@ -2,9 +2,7 @@
 artifact_type: exact_construction_result
 created: 2026-08-10
 status: MOVING_SPIN113893_AND_FULL_U229477_GLOBAL__TWO_HALF_REDUCTION_INSIDE_FULL_P_H__ACTION_PROJECTOR_OWNERSHIP_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 moving-parent bundle and observation reduction

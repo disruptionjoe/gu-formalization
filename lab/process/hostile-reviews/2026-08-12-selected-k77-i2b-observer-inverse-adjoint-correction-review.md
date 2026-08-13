@@ -2,7 +2,6 @@
 title: "Hostile review: observer inverse-adjoint correction"
 status: hostile-review
 created: 2026-08-12
-run_id: RUN-20260812-181434-gu-i2b-observer-inverse-adjoint-correction
 ---
 
 # Hostile review: observer inverse-adjoint correction

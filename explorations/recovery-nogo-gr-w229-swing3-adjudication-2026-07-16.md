@@ -3,7 +3,6 @@ title: "Recovery no-go GR W229 Swing 3 adjudication"
 status: exploration
 doc_type: recovery_no_go_defense
 created: 2026-07-16
-run_id: GUH-20260716T180915Z-gr-swing3
 target: RECOVERY-NOGO-GR-W229-VACUUM
 test: tests/recovery-contract/gr_nogo_swing3_adjudication_gate.py
 register: lab/process/recovery-no-go-defense-register.json
@@ -90,10 +89,10 @@ escape.
 
 ## Next work
 
-Within Lane 1, the next eligible no-go-defense work is a Swing 2 construction
+Within truth-status research, the next eligible no-go-defense work is a Swing 2 construction
 attempt for `RECOVERY-NOGO-COSMO-SCALAR` or
-`RECOVERY-NOGO-SM-SELECTOR`, unless daily stewardship changes the order. Lane 2
-`DE-AMP-DIAGNOSTIC` and Lane 3 `PROOF-STABLE-KERNELS` remain eligible but were
+`RECOVERY-NOGO-SM-SELECTOR`, unless daily stewardship changes the order. prediction research
+`DE-AMP-DIAGNOSTIC` and result-hardening research `PROOF-STABLE-KERNELS` remain eligible but were
 not promoted by this result.
 
 Paper seed proposal: none.

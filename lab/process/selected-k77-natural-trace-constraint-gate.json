@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "work_item": "SELECTED_K77_NATURAL_TRACE_CONSTRAINT_GATE",
-  "run_id": "RUN-20260811-081243-gu-k77-natural-trace-constraint-gate",
+  "run_id": "historical-investigation",
   "status": "NATURAL_ZERO_ORDER_CONSTRAINT_ROUTE_KILLED__DERIVATIVE_NONLOCAL_BV_OR_OPERATOR_COMPLETION_OPEN",
   "layer0": {
     "carrier": "physical Omega1(S) plus Omega0(S)",

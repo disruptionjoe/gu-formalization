@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-10
-run_id: RUN-20260810-194259-gu-k77-full-carrier-stationary-residual
 verdict: SCOPED_SURVIVES__PROJECTED_RESIDUAL_RETYPED__FIXED_SOURCE_FAITHFUL_CANDIDATES_KILLED__MOVING_FAMILY_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: full-carrier stationary residual

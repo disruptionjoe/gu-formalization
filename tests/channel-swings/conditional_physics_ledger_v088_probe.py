@@ -23,7 +23,7 @@ def strict(relative):
 ledger = strict("lab/process/conditional-physics-ledger-v0.88.json")
 prior = strict("lab/process/conditional-physics-ledger-v0.87.json")
 registry = strict("lab/process/selected-k77-physical-diffeomorphism-split.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 assert ledger["schema_version"] == "0.88"
 assert ledger["predecessor"].endswith("v0.87.json")

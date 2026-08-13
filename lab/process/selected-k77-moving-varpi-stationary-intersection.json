@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-200828-gu-k77-moving-varpi-stationary-intersection",
+  "run_id": "historical-investigation",
   "status": "BOTH_NONZERO_TAUTOLOGICAL_BOSONIC_BRANCHES_INTERSECT_EXACT_NULLITY128_LOCUS",
   "field": "GF_1000033_RANK_PLUS_QQ_I_EXPLICIT_GRAPH_PLUS_QQ_SQRT3_BRANCH_NORM",
   "operator_scope": "DISPLAYED_SOUTHEAST_ZERO_ZERO_DERIVATIVE_COMPONENTWISE_DRAFT916_BLOCK",

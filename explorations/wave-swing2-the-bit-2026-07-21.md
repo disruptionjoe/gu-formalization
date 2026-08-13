@@ -1,11 +1,11 @@
 ---
-title: "WHAT-IS-THIS wave, Swing 2 (THE BIT): what IS sigma, most fundamentally? Four inline personas (info theorist, spin/Clifford geometer, philosopher of physics, quantum-foundations theorist) each characterize sigma from their lens, then a synthesis. DEEPEST CHARACTERIZATION: sigma is ONE external degree-1 Z/2 holonomy class -- w_1(L_time), the spin/belt-trick obstruction to globally orienting the arrow-of-time line bundle over F~RP^3 -- and, read against the inside, that SAME class is a superselection charge / one oracle bit the internal (alpha-even) algebra provably cannot resolve (Schur Hom(triv,sign)=0). Geometry says what it IS; blindness says what it is FOR the inside. EXACT-AND-REAL: {w_1(L_time) = spin double-cover class = superselection charge = 1 Hartley/oracle bit = zero-inward-capacity} are one and the same object. ANALOGY: {'the thermodynamic/cosmological arrow of time', einselection/pointer-basis dynamics, 'Shannon H=1' absent the indifference prior}. INDEPENDENT CONSEQUENCE: sigma = w_1(L_time) pulls back to ZERO on the spin double cover S^3 (H^1(S^3;Z/2)=0), so 'the outside that can read the bit' is exactly the orientation/spin double cover -- the same S^3 as the base-uniting F<->S^3 map's target; plus a flagged CANDIDATE identity (Kramers T^2=-1 == belt-trick 2pi=-1)."
+title: "WHAT-IS-THIS wave, Swing 2 (THE BIT): what IS sigma, most fundamentally? Four inline perspectives (info theorist, spin/Clifford geometer, philosopher of physics, quantum-foundations theorist) each characterize sigma from their lens, then a synthesis. DEEPEST CHARACTERIZATION: sigma is ONE external degree-1 Z/2 holonomy class -- w_1(L_time), the spin/belt-trick obstruction to globally orienting the arrow-of-time line bundle over F~RP^3 -- and, read against the inside, that SAME class is a superselection charge / one oracle bit the internal (alpha-even) algebra provably cannot resolve (Schur Hom(triv,sign)=0). Geometry says what it IS; blindness says what it is FOR the inside. EXACT-AND-REAL: {w_1(L_time) = spin double-cover class = superselection charge = 1 Hartley/oracle bit = zero-inward-capacity} are one and the same object. ANALOGY: {'the thermodynamic/cosmological arrow of time', einselection/pointer-basis dynamics, 'Shannon H=1' absent the indifference prior}. INDEPENDENT CONSEQUENCE: sigma = w_1(L_time) pulls back to ZERO on the spin double cover S^3 (H^1(S^3;Z/2)=0), so 'the outside that can read the bit' is exactly the orientation/spin double cover -- the same S^3 as the base-uniting F<->S^3 map's target; plus a flagged CANDIDATE identity (Kramers T^2=-1 == belt-trick 2pi=-1)."
 status: active_research
 doc_type: exploration
 created: 2026-07-21
 wave: WHAT-IS-THIS
 swing: 2 (THE BIT -- ontology of sigma)
-method: "four personas INLINE in one worker (each in-character, then synthesize); NEVER one agent per persona; read-only"
+method: "four perspectives INLINE in one worker (each in-character, then synthesize); NEVER one agent per perspective; read-only"
 inputs:
   - explorations/prereg-what-is-this-wave-2026-07-21.md
   - explorations/prereg-construction-swing-posit-sigma-cycle-2026-07-21.md
@@ -13,15 +13,13 @@ inputs:
   - explorations/shard-cycle-prong1-geometry-2026-07-21.md
   - explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md
   - explorations/decision-tree-Q2-sector-bit-forced-free-supplied-2026-07-21.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 
 # Swing 2 -- THE BIT: what IS sigma, most fundamentally?
 
-Four personas reason independently and in-character below, then a synthesis
+Four perspectives reason independently and in-character below, then a synthesis
 reconciles them. Discipline (binding): every characterization carries a MODE tag
 -- **[EXACT-AND-REAL]** (a literal, computed/theorem-grade identity) or
 **[ANALOGY]** (illuminating but not proven-identical / conditional on a posit).

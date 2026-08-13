@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-11
 status: UNREDUCED_POSITIVE_SYMMETRIZER_CONE_EMPTY__STANDARD_CAUCHY_ROUTE_KILLED__NONLOCAL_OR_REDUCED_DOMAIN_OPEN
 grade: "exact rational real-Cl(7,7) principal-symbol theorem; no global domain, quotient, spectrum, index or physics recovery"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 unreduced hyperbolic-domain gate

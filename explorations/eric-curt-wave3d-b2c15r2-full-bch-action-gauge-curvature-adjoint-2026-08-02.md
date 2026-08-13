@@ -4,13 +4,11 @@ status: active_research
 doc_type: construction_result
 created: 2026-08-02
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260802-104349-gu-formalization-ecw3d-b2c15r2-direct
+run: historical-investigation
 registry: lab/process/eric-curt-wave3d-b2c15r2-full-bch-action-gauge-curvature-adjoint.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c15r2_full_bch_action_gauge_curvature_adjoint_probe.py
 grade: "PARTIAL CONSTRUCTION PASS WITH FULL LINEAR-BRIDGE BCH, PROJECTED COVARIANT SPLIT-ACTION CANDIDATE, ORDER-THREE CURVATURE CANCELLATION, LIVE A2-Z0 SUBROUTE, AND OBSERVATION-SUPPORT STOP"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # B2C15R2 full BCH, covariant split-action candidate, and curvature adjoint

@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.147 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; one P3 orientation matches the positive chiral spin-bundle class with zero continuous topological cost modulo gauge, while connection equality and the restricted action remain open"
   },
-  "updated_by": "RUN-20260810-145504-gu-p3-spin-bundle-diagonal",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

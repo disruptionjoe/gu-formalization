@@ -19,7 +19,7 @@
   },
   "pointer": {
     "historical_value": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
-    "authoritative_owner": "lab/process/functional-channel-operating-contract-v1.0.json#active_scientific_directives[GU-COSMO-DYNAMIC-01].next_run_method",
+    "authoritative_owner": "lab/methods/research-evidence-contract-v1.0.json#active_scientific_directives[GU-COSMO-DYNAMIC-01].next_run_method",
     "current_target": "SOURCE_NATIVE_ODD_CURVATURE_OR_RICHER_SOLDERING_OWNER_AND_NULL_SCREEN"
   },
   "baseline_ref": "lab/process/branch-integration-inherited-failure-baseline-2026-08-07.json",

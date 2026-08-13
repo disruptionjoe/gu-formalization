@@ -3,9 +3,7 @@ artifact_type: conditional_physics_ledger_migration
 created: 2026-08-10
 status: CURRENT_APPEND_ONLY_LEDGER_V0_151
 predecessor: lab/process/conditional-physics-ledger-v0.150.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Conditional physics ledger v0.151

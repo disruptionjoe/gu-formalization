@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 W232 -- PIN the (9,5) signature via the open 2-primary Witten / Dai-Freed Z/2
-(global) anomaly.  Lane A5 of the GAP-CLOSURE wave.
+(global) anomaly.  research maintenance5 of the GAP-CLOSURE wave.
 
 W202 left the (9,5)-vs-(7,7) signature UNDER_DETERMINED with a single live lever:
 the 2-primary Witten/Dai-Freed Z/2 (global) anomaly, which -- if it fires -- was

@@ -2,8 +2,7 @@
 title: PW2F-R2B2B2A — active moving-Shiab coefficient slots and staged-action split
 date: 2026-08-03
 status: SCOPED_ACTIVE_COEFFICIENT_AND_FINITE_ACTION_SPLIT_PREREQUISITE_PASS_COMPLETE_NATIVE_C5_C4_OPEN
-lane: Eric-guided Lane 1; active-native and source columns separated
-run: RUN-20260803-080313-gu-formalization-pw2fr2b2b2a-coefficient-action-split
+run: historical-investigation
 ---
 
 # Result

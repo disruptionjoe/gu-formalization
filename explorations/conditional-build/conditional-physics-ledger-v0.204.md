@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.204"
-run_id: RUN-20260812-112207-gu-i2b-real-structure-intertwining
 ---
 
 # Conditional physics ledger v0.204

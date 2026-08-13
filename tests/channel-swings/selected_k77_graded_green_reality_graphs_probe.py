@@ -236,7 +236,7 @@ for kind, label in (
 
 RESULT = {
     "schema_version": "1.0",
-    "run_id": "RUN-20260811-161937-gu-k77-graded-green-reality-graphs",
+    "run_id": "historical-investigation",
     "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,

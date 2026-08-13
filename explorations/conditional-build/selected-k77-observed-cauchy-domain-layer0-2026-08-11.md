@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_scope_result
 created: 2026-08-11
-run_id: RUN-20260811-172120-gu-k77-observed-cauchy-domain-layer0
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.178"
 result: LOCAL_OBSERVED_FLAT_REAL_CAUCHY_DOMAIN_CONDITIONALLY_EXISTS__MAJORANA_REALITY_IS_NOT_A_SPATIAL_BOUNDARY_PROJECTOR
 grade: "exact finite Clifford and flux algebra with four firing plants, composed with immutable rank-1920 K77 receipts and standard constant-coefficient symmetric-hyperbolic theory; variable/global/ambient/null domains open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77 is a labelled conditional comparator; no signature, real-form, action-parent, pairing-horn or domain row is settled."
 source_return: SOURCE-SILENT

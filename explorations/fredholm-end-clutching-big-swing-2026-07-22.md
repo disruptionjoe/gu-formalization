@@ -2,13 +2,9 @@
 title: "Fredholm end and quaternionic clutching big swing"
 status: active_research
 doc_type: exploration
-lane: "1"
-run_type: progress
 started_at: "2026-07-22"
 updated_at: "2026-07-22"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: BOTT-CALLIAS-CANDIDATE-BUILT-PIN14-MAP-OPEN
 probe: tests/channel-swings/fredholm_end_clutching_gate.py
 ---

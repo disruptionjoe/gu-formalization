@@ -265,7 +265,7 @@ check("datum", "P1 P2 P3 are unchanged and unused", True)
 
 RESULT = {
     "schema_version": "1.0",
-    "run_id": "RUN-20260811-182311-gu-k77-energy-green-boundary-horn-composition",
+    "run_id": "historical-investigation",
     "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN_OBSERVED_FLAT_1_PLUS_3",
     "checks": dict(sorted(COUNTS.items())),
     "failures": FAILURES,

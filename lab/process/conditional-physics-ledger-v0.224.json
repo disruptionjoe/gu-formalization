@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.224 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; moving Q_u closes active e3 on the shifted branch, while the full fixed-background Euler retains twelve diagonal cells in two independent shapes; derive the actual background Frechet image next"
   },
-  "updated_by": "RUN-20260812-225452-gu-i2b-moving-qu-contact-full-euler",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 3,

@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.185 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the named algebraic Higgs chain has zero principal response and survives only at lower order; port the existing v0.28 first-jet observation/soldering chain to the fermion/H640 symbol before full Riccati/BV closure"
   },
-  "updated_by": "RUN-20260811-224726-gu-k77-vertical-soldering-adapter-order-gate",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

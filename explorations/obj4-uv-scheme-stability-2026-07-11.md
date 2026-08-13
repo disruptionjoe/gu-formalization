@@ -38,7 +38,7 @@ The FRG line established, at successively higher grade:
 
 Objective 4 asks for the biggest **controlled-evidence** step now available: a universal/non-universal
 classification; a **gauge** and **field-parametrization** sensitivity test of the load-bearing conclusions;
-honest uncertainty ranges; and a clean CONTROLLED-vs-conditional map. This document runs a 5-persona team
+honest uncertainty ranges; and a clean CONTROLLED-vs-conditional map. This document runs a 5-perspective team
 inline and encodes the result in `tests/W101_obj4_scheme_stability.py`.
 
 ## Honesty preface (computed vs ported)
@@ -53,7 +53,7 @@ gauge- and parametrization-(in)dependence of the Reuter FP and of the higher-der
 
 ---
 
-## Persona 1 -- FRG / Asymptotic-Safety specialist (the construction)
+## Perspective 1 -- FRG / Asymptotic-Safety specialist (the construction)
 
 **The universal / non-universal split is the whole game.** In FRG every dimensionless FP coordinate is a
 scheme-dependent number; treating its motion as fragility is a category error. What carries physics is the
@@ -81,7 +81,7 @@ magnitude on the lifted HORN-Q branch, `eta_C` **magnitude**, the numerical expo
 robust across gauge/parametrization/regulator **within a scheme** but flips across the `Z_h` **scheme**; and
 `g* lambda*`, which is quasi-universal (a narrow band, not an exact invariant).
 
-## Persona 2 -- Referee grading universal-vs-non-universal (the discipline check)
+## Perspective 2 -- Referee grading universal-vs-non-universal (the discipline check)
 
 I accept the six universal entries with one sharpening and one demotion.
 
@@ -99,7 +99,7 @@ I accept the six universal entries with one sharpening and one demotion.
 Verdict on the ledger: **sound**, provided `sign(eta_C)` is filed as SEMI (not universal) and RS is filed as
 sign-only. Both are encoded.
 
-## Persona 3 -- Adversary: "gauge dependence kills it"
+## Perspective 3 -- Adversary: "gauge dependence kills it"
 
 My thesis: FRG results are notoriously gauge- and parametrization-dependent; the "Reuter FP" is an artifact
 of the harmonic gauge `alpha` and the linear split, and the HORN-K lean is a gauge choice dressed as physics.
@@ -133,7 +133,7 @@ of the harmonic gauge `alpha` and the linear split, and the HORN-K lean is a gau
 CONTROLLED -- it is scheme/truncation-conditional. That is already the line's own admission (W89). I do not
 get to upgrade "scheme-conditional" to "gauge-dependent-therefore-artifact"; those are different axes.
 
-## Persona 4 -- Cross-checker + literature (ported robustness, cited)
+## Perspective 4 -- Cross-checker + literature (ported robustness, cited)
 
 Porting map (read-only; these stand in for the paper-scale recomputation):
 
@@ -171,7 +171,7 @@ Note the `eta_C` band **never goes negative**: `eta_C in [0, +]`. So "`eta_C <= 
 `eta_C = 0` *exactly* (the structural root), and the horn is decided by *which scheme is physical*, not by
 any continuous parameter sliding through zero.
 
-## Persona 5 -- Synthesizer (the controlled-vs-conditional map)
+## Perspective 5 -- Synthesizer (the controlled-vs-conditional map)
 
 A conclusion is **CONTROLLED** iff it survives **all four** axes `{gauge, parametrization, regulator,
 truncation}`. Applying that bar:

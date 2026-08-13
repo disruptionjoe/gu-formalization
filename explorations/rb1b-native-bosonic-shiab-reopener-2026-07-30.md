@@ -3,14 +3,11 @@ title: "RB1b native bosonic-Shiab reopener: parity kill and full-adjoint grade-f
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: RB1B-NATIVE-BOSONIC-SHIAB-REOPENER
-run: lab/process/runs/GUH-20260730T215838Z-rb3-moving-shiab-dual-track/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/rb1b_native_bosonic_shiab_probe.py
 grade: "PREREGISTERED FULL-SPIN SAME-LAMBDA2 RICCI ROUTE KILLED BY EXACT CENTRAL PARITY. An algebraic Spin(9,5)-equivariant map from curvature in Lambda2 tensor Lambda2 to a one-form spin adjoint in V tensor Lambda2 is zero; a general Ricci contraction lands in V* tensor V*, becoming Sym2 only with algebraic-Riemann/Levi--Civita hypotheses. The result also applies to stabilizers containing the same parity element, but not to every smaller stabilizer. A local framed epsilon-soldered full-adjoint grade-flipping formula is emitted as a conditional adjacent candidate. A finite Sp(1,1) quaternionic/Krein source-shaped architecture fixture passes degree, right-H, reality, moving-epsilon covariance, and fixed-curvature epsilon-response checks; it does not implement the native Clifford grade flip. A planted U(2,2) comparator passes covariance but fails right-H. One nondegenerate fixture gives a cyclic/transgression counterexample with relative gap 0.444, so the candidate does not clear RB1 and does not enter RB2."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # RB1b native bosonic-Shiab reopener

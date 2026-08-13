@@ -2,16 +2,11 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: ACTION_OWNER_FORK_EXPOSED__ENDPOINT_TWO_JET_REPAIR_DOES_NOT_TRANSFER_TO_FIXED_BANK_E_ACT
-run_id: RUN-20260813-175109-gu-i2b-action-euler-principal-owner
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 channels: [Build, Compose, Source, Verify]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: NONE-NOT-A-KILL
 source_return: SOURCE_CONFIRMS_PRINTED_ENDPOINT_AND_DISTINCT_FIRST_ACTION_EULER__SOURCE_SILENT_OPERATIVE_SECOND_ACTION_AND_FULL_MOVING_PRINCIPAL_OWNER
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "four observed covector directions on the exact 196-real selected connection bank; decided wholesale"
 free_object_delta: 0

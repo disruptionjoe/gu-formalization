@@ -2,12 +2,8 @@
 artifact_type: exact_construction_and_scope_result
 created: 2026-08-10
 status: OBSERVED1131_CONDITIONAL__SOURCE_NATIVE_Y14_FIRST_JETS_FORCE_FULL1571__TANGENT915_NOT_FIRST_JET_CLOSED
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected-K77 complete Euler-jet tangent closure

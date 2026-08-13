@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_composition_result
 created: 2026-08-11
-run_id: RUN-20260811-122036-gu-k77-wedge-shiab-southeast-completion
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.173"
 result: REAL_K77_WEDGE_SHIAB_SOUTHEAST_FAMILY_PRINCIPAL_SEMISIMPLE__K95_SIGN_REJECTED__TWO_WEIGHTS_AND_REALITY_OPEN
 grade: "exact real-K77 flat principal operator family over two finite-field witnesses plus characteristic-zero Clifford identities; source/action selection and global physics open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77 is a labelled conditional comparator; SIGNATURE-AMBIENT and action-parent forks are not settled by this result."
 search_space_dim: "four scalar chiral coefficients before semisimplicity; exact two crossed relations leave two weights"

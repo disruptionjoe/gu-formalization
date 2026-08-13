@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (FALSIFICATION wave, NON-NAIVE; five personas inline, one worker, no sub-agents; deterministic test with positive controls first)
+status: exploration (FALSIFICATION wave, NON-NAIVE; five perspectives inline, one worker, no independent reviewers; deterministic test with positive controls first)
 created: 2026-07-14
 wave: W220
 label: W220
@@ -24,7 +24,7 @@ Test: `tests/W220_falsify_dark_energy_vs_desi.py` (15/15, exit 0). Deterministic
 20260714). No network. Positive controls run first and reproduce the load-bearing numbers
 from H43 (`tests/wave20`), H46B (`tests/wave45`), and W160.
 
-Five personas ran inline in one worker, sequentially (no sub-agents): (1) cosmology /
+Five perspectives ran inline in one worker, sequentially (no independent reviewers): (1) cosmology /
 dark-energy specialist, (2) DESI-data / w0-wa-contour specialist, (3) FLRW / theta-field-EOS
 specialist, (4) prediction-vs-fit separator (enforces the W160 free-epoch caveat), (5)
 ruthless skeptic.
@@ -64,7 +64,7 @@ CONTRADICT the derived character beyond ~3-5 sigma -- specifically if any of the
 - FC-d: data force wa/(w0+1) < -3.5 at 2 sigma (B_i > 3 M_Pl) -> kills A4.
 If NONE fire, the character SURVIVES and the specific-shape miss is a MONITOR on the free shape.
 
-## 1. Persona 1 -- cosmology / dark-energy specialist: what character DESI actually prefers
+## 1. Perspective 1 -- cosmology / dark-energy specialist: what character DESI actually prefers
 
 DESI DR2 (arXiv:2503.14738, Sec. VII, w0waCDM; H3/H46B-verified digits): DESI+CMB+DESY5 gives
 w0 = -0.752 +/- 0.057, wa = -0.86 (+0.23 / -0.20), correlation rho(w0,wa) = -0.8. The
@@ -79,7 +79,7 @@ NON-MONOTONIC with an interior MAXIMUM at z = 0.405 (verified in the test, PC2/P
 exactly a SIGN-CHANGING issuance Q = d rho_V/d ln a, +->-, in the PHANTOM-past -> QUINTESSENCE-now
 direction. DESI's own preferred model IS GU's derived character, axis for axis.
 
-## 2. Persona 2 -- DESI-data / w0-wa-contour specialist: the four-axis confrontation
+## 2. Perspective 2 -- DESI-data / w0-wa-contour specialist: the four-axis confrontation
 
 Running each derived axis against the DR2 contour (test block CHARACTER CONFRONTATION):
 
@@ -99,7 +99,7 @@ Running each derived axis against the DR2 contour (test block CHARACTER CONFRONT
 
 No FC clause fires. The derived character is NOT excluded by DESI DR2 in any anti-GU direction.
 
-## 3. Persona 3 -- FLRW / theta-field-EOS specialist: which route supplies the character
+## 3. Perspective 3 -- FLRW / theta-field-EOS specialist: which route supplies the character
 
 Two internal GU routes bear on the character, and they must not be conflated:
 
@@ -120,7 +120,7 @@ A's inability to cross -1 is a fact about the canonical-scalar realization's SHA
 the standing tension (Section 4), not a separate character kill -- because the amplitude/shape
 in Route A is precisely the fitted, W160-free part.
 
-## 4. Persona 4 -- prediction-vs-fit separator: what is prediction, what is fit
+## 4. Perspective 4 -- prediction-vs-fit separator: what is prediction, what is fit
 
 This is the wave's crux and the reason the verdict is SURVIVES-WITH-TENSION rather than either
 a clean survive or a kill.
@@ -147,7 +147,7 @@ FALSIFIED-ON-SHAPE at 3.47-4.19 sigma (Route A never crosses -1 and its locus tr
 DESI degeneracy). W160 is itself exploration-grade. So the load-bearing assumption is named, not
 hidden.
 
-## 5. Persona 5 -- ruthless skeptic: is the surviving character even falsifiable?
+## 5. Perspective 5 -- ruthless skeptic: is the surviving character even falsifiable?
 
 The strongest attack is not that DESI kills the character but that the character is too GENERIC
 to be a real prediction: "sign-changing DE at z = O(1) with O(1) amplitude" is almost exactly
@@ -211,9 +211,9 @@ hidden); reject it and the leg is FALSIFIED-ON-SHAPE at 3.47-4.19 sigma.
   an independent GU likelihood; the shape tension uses the (w0,wa)-projection metric (the
   distance-metric degeneracy is the DARK-ENERGY-03/W129 story, cited not re-run).
 
-*Filed 2026-07-14 by the W220 FALSIFICATION wave (NON-NAIVE). Five personas inline in one
+*Filed 2026-07-14 by the W220 FALSIFICATION wave (NON-NAIVE). Five perspectives inline in one
 worker (cosmology/DE specialist, DESI-contour specialist, FLRW/theta-EOS specialist,
-prediction-vs-fit separator, ruthless skeptic); no sub-agents. Reproducible:
+prediction-vs-fit separator, ruthless skeptic); no independent reviewers. Reproducible:
 `python -u tests/W220_falsify_dark_energy_vs_desi.py` (15/15, exit 0; positive controls first).
 Exploration grade; canon OPEN unchanged; VERDICT: SURVIVES-WITH-TENSION. Character not falsified
 by DESI DR2; the 3.47-4.19 sigma tension is on the W160-free shape (a monitor); live tripwire:

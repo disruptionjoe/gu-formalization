@@ -2,12 +2,8 @@
 artifact_type: exact_construction_and_scope_result
 created: 2026-08-09
 status: SELECTED_SPIN_LOCAL_PRINCIPAL_MINIMAL_COMMON_TANGENT_915__GRADE2_EXTENSION594__NO_DERIVED_CONSTRAINT_OWNED
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected-K77 minimal Hessian tangent closure

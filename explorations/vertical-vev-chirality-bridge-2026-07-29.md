@@ -2,16 +2,13 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "VERTICAL-VEV CHIRALITY BRIDGE: verdict BRIDGE-FAILS. A vev of the IG connection perturbation in the fibre (vertical) directions PRESERVES 4D chirality -- 10/10 fibre directions commute with omega_4 on the verified Cl(9,5) representation, stable across every alternative base/fibre index assignment -- so it CANNOT supply the cross-chirality Dirac mass channel SA-Y1 requires. The mechanism is parity: a vertical gamma anticommutes with each of the FOUR base gammas, an even number, hence commutes with their product; the planted odd-size base block flips the behaviour, confirming it is the even count and not an artifact. The only directions that DO flip omega_4 are the four base directions, and a vev there breaks 4D Lorentz invariance. Consequence: the Layer-0 bridge is CLOSED NEGATIVE, SA-Y1 stands as a genuine UNMET FORCED row, and T10 -- an explicit Lambda^0 Yukawa carrier -- IS REQUIRED."
 grade: "EXACT on the verified in-repo Cl(9,5) representation, with Clifford relations re-verified, split-choice independence tested on three alternative assignments, and a planted odd-block control that fires. SCOPE: tests the Clifford/chirality obstruction ONLY -- does not exclude a mass via a composite operator, a derivative coupling, or the seesaw block structure. Closes one named route."
 probe: tests/channel-swings/vertical_vev_chirality_bridge_probe.py
 closes: explorations/layer0-pass-on-the-two-higgs-objects-2026-07-29.md
 construction: "program-native Cl(9,5) = M(64,H) carrier from the verified representation. No positive-Hilbert substitution."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "BRIDGE-FAILS"
 ---
 
@@ -103,7 +100,7 @@ required. That is the first row-status resolution the build has produced.
 > **RETRACTION (2026-07-29, same day) — the `BRIDGE-FAILS` verdict above is
 > WRONG and is withdrawn.**
 >
-> This run measured **the operator** `e_vertical` against `omega_4` and found it
+> This investigation measured **the operator** `e_vertical` against `omega_4` and found it
 > chirality-preserving. That arithmetic is correct. **The question was wrong.**
 > A mass term is not an operator, it is a **bilinear** `<Psi, M Psi>_K`, and in
 > a Krein setting the pairing carries chirality structure of its own.
@@ -123,4 +120,4 @@ required. That is the first row-status resolution the build has produced.
 > indefinite structure rather than removing it — so the pairing is not inert
 > bookkeeping and must be composed in.
 >
-> Text above retained as the run record.
+> Text above retained as the investigation record.

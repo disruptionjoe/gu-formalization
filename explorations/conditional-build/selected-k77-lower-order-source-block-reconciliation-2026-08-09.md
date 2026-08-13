@@ -2,12 +2,8 @@
 artifact_type: construction_and_composition_result
 created: 2026-08-09
 status: BOTH_BRANCHES_LOWER_EPSILON_RANK91__FIXED_VARPI_METRIC_PORTED__COMPLETE_PARENT_OPERATOR_OPEN
-lane: "1"
-functional_channels: [COMPOSE, BUILD, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 lower-order source-block reconciliation

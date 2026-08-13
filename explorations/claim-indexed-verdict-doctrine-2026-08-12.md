@@ -3,13 +3,10 @@ title: "The claim-indexed verdict doctrine (read before any Nguyen/chirality/gen
 status: active_research
 doc_type: standing_doctrine
 created: 2026-08-12
-run_id: RUN-20260812-033500-gu-verdict-doctrine
 brief_version: "1.2"
 target_claim: NONE-NOT-A-KILL
 ratified: "Joe direct chat 2026-08-12"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # The claim-indexed verdict doctrine

@@ -3,7 +3,6 @@ title: "DE-as-controller swing (CONSTRUCTION mode): model dark energy as a feedb
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-mode: CONSTRUCTION (new hypothesis; posit labeled -- GU supplies only the rail)
 directed_by: "Joe direct chat, 2026-07-21 (pre-registered DE-as-controller swing; one synchronous pass, new file + one probe, no commit)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
 inputs:
@@ -13,9 +12,7 @@ inputs:
   - explorations/de-amplitude-audit-2026-07-20.md
   - explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
 probe: tests/channel-swings/de_controller_taxonomy_probe.py (foreground, numpy-only, no RNG, EXIT 0, double-run byte-identical, 10 [E] all PASS)
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_action: none
 ---
 
@@ -73,7 +70,7 @@ rail is not a large control effort; it is a **change of the actuator's sign** --
 the Krein flip GU's `sigma` locks. This is PP1's readout identity, re-derived in
 control-systems language.
 
-## 2. Persona (i) -- Control-systems engineer: the taxonomy, and who overshoots
+## 2. Perspective (i) -- Control-systems engineer: the taxonomy, and who overshoots
 
 Independent reasoning. The task is to enumerate the controller taxonomy, map
 each to a `w(z)` response, and sort them by **whether they are naturally
@@ -129,7 +126,7 @@ naive LQR, adaptive-with-bursting, bang-bang)** is precisely what the rail
 forbids, and it forbids them *for the same reason in every case*: overshoot
 demands the Krein flip.
 
-## 3. Persona (ii) -- Dark-energy phenomenologist: does a sign-locked controller FIT?
+## 3. Perspective (ii) -- Dark-energy phenomenologist: does a sign-locked controller FIT?
 
 Independent reasoning. Map controller outputs to `w(z)` and check the
 data-allowed region under the rail. The relevant data landscape (consumed, not
@@ -166,7 +163,7 @@ sign-locked P-controller fits the surviving LCDM-mimic / thawing band and is
 exposed to the crossing, exactly as PP1/PP3 already are. The controller framing
 adds no new fit -- it re-describes the existing one.**
 
-## 4. Persona (iii) -- Self-tuning / dynamical-systems theorist: the amplitude
+## 4. Perspective (iii) -- Self-tuning / dynamical-systems theorist: the amplitude
 
 Independent reasoning. Which controllers are self-tuning *attractors* that could
 address the `~10^-120` / `~meV` amplitude fine-tuning, and does the setpoint
@@ -210,7 +207,7 @@ self-tuning (it has a fixed setpoint = the imported VEV). **So the sign-lock and
 the self-tuning are compatible only in the one-sided-integrator corner -- and
 that corner still relocates the tuning to its stopping scale.**
 
-## 5. Persona (iv) -- GU-constraint keeper: the honest in-GU vs new-physics split
+## 5. Perspective (iv) -- GU-constraint keeper: the honest in-GU vs new-physics split
 
 Independent reasoning. Enforce the split and grade.
 
@@ -230,7 +227,7 @@ GU-compatible DE controller must be sign-locked (P / canonical-kinetic /
 sliding-on-the-rail / rectified-integral), never an unbounded PI/PID that
 overshoots into phantom. That is a real, narrow contribution, and nothing more.
 
-## 6. Synthesis (four inline personas reconciled)
+## 6. Synthesis (four inline perspectives reconciled)
 
 **The three-bar scorecard (per the brief).**
 

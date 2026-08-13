@@ -147,7 +147,7 @@
   "specialist_lenses": [
     {
       "id": "S01",
-      "persona": "symplectic and Poisson geometer",
+      "perspective": "symplectic and Poisson geometer",
       "sees": "the action should generate a covariant presymplectic current, moment-map constraint, and canonical observation relation",
       "missing": "source-to-native functor, reduced covariant phase space, boundary moment map, canonical observation graph",
       "would_change": "derive the quotient from Noether/BFV instead of guessing algebraic projectors; postpone one-time Hamiltonian reduction",
@@ -155,7 +155,7 @@
     },
     {
       "id": "S02",
-      "persona": "BV/BRST and derived variational geometer",
+      "perspective": "BV/BRST and derived variational geometer",
       "sees": "the rank-128 Jordan image may be gauge only if the written action derives the corresponding tangent differential",
       "missing": "complete owner variation, nilpotent differential, boundary/corner return, quotient cohomology",
       "would_change": "assemble the full action graph before searching another projector",
@@ -163,7 +163,7 @@
     },
     {
       "id": "S03",
-      "persona": "hyperbolic and Krein PDE analyst",
+      "perspective": "hyperbolic and Krein PDE analyst",
       "sees": "the unreduced positive symmetrizer cone is empty, so quotient and complete symbol precede positivity",
       "missing": "quotient principal symbol, common Green domain, constraint propagation, Lorentz-section evolution theorem",
       "would_change": "test ordinary Lorentzian Cauchy evolution after quotient, retaining the ultrahyperbolic boundary route as a distinct source-qualified problem",
@@ -171,7 +171,7 @@
     },
     {
       "id": "S04",
-      "persona": "Clifford, quaternionic, and real-form representation theorist",
+      "perspective": "Clifford, quaternionic, and real-form representation theorist",
       "sees": "the toy SL2-to-Sp4 descent is not the actual Spin(9,5)-to-Sp(32,32;H) port",
       "missing": "actual Hom-space census, invariant-form comparison, transition intertwiners, native Alt basis",
       "would_change": "reduce searches to legal equivariant bases before any raw matrix enumeration",
@@ -179,7 +179,7 @@
     },
     {
       "id": "S05",
-      "persona": "sheaf, groupoid, and cohomological descent specialist",
+      "perspective": "sheaf, groupoid, and cohomological descent specialist",
       "sees": "local split maps, global objects, and unique physical orbits are three different gates",
       "missing": "actual atlas obstruction classes, pi0 of the admissible-object groupoid, physical versus gauge arrows",
       "would_change": "compute existence, torsor size, and H1/H2 obstructions before discussing selection",
@@ -187,7 +187,7 @@
     },
     {
       "id": "S06",
-      "persona": "topologist and KO/index specialist",
+      "perspective": "topologist and KO/index specialist",
       "sees": "P1 and P3 can act only after a natural map reaches an orientation component or index problem of the same type",
       "missing": "typed map from observation/domain components to P1, type of P2, physical rolled complex for P3",
       "would_change": "delay datum consumption until quotient cohomology exposes a discrete torsor or index slot",
@@ -195,7 +195,7 @@
     },
     {
       "id": "S07",
-      "persona": "Standard Model, GR, and cosmology phenomenologist",
+      "perspective": "Standard Model, GR, and cosmology phenomenologist",
       "sees": "the construction must eventually satisfy all legs on one frozen action, observation, state, domain, and parameter packet",
       "missing": "zero-order Yukawa placement, gauge/current dictionary, anomaly closure, stationary background, stress and observable maps",
       "would_change": "maintain a thin end-to-end smoke fixture during every wave, but reserve claims and fitting for a held-out final leg bank",
@@ -203,7 +203,7 @@
     },
     {
       "id": "S08",
-      "persona": "ZK and proof-systems specialist",
+      "perspective": "ZK and proof-systems specialist",
       "sees": "the program needs a statement-witness-verifier ledger for every construction",
       "missing": "classification of witness as physical datum, field, gauge representative, or proof certificate",
       "would_change": "make the actual source-to-native port proof-carrying and bind certificates to real representation data",
@@ -211,7 +211,7 @@
     },
     {
       "id": "S09",
-      "persona": "distributed systems, metastability, and Hashgraph specialist",
+      "perspective": "distributed systems, metastability, and Hashgraph specialist",
       "sees": "Cech descent is exact gluing; consensus is relevant only after an actual finite admissible choice set exists",
       "missing": "typed state, validity, equivalence, update, safety, liveness, and finality interface",
       "would_change": "use Hashgraph-like machinery only for provenance and test action-derived self-stabilization only after quotient/domain",
@@ -219,7 +219,7 @@
     },
     {
       "id": "S10",
-      "persona": "geometric deep-learning and neural-operator specialist",
+      "perspective": "geometric deep-learning and neural-operator specialist",
       "sees": "typed neural inverse design can rank legal contraction graphs and exceptional fixtures",
       "missing": "a grammar that enforces degree, bundle, right-H, Krein, covariance, and source-owner constraints",
       "would_change": "use learned ranking only inside the symmetry-reduced legal ansatz space",
@@ -227,7 +227,7 @@
     },
     {
       "id": "S11",
-      "persona": "statistics and machine-learning engineer",
+      "perspective": "statistics and machine-learning engineer",
       "sees": "active rational fixture selection, leverage scores, sparse interpolation, and automatic differentiation can replace large blind sweeps",
       "missing": "physical quotient identifiability, sealed discovery and confirmation sets, exact rank-stratum certificates",
       "would_change": "optimize expected information gain per exact verification cost and rationally reconstruct every lead",
@@ -235,7 +235,7 @@
     },
     {
       "id": "S12",
-      "persona": "counterfactual and causal-inference specialist",
+      "perspective": "counterfactual and causal-inference specialist",
       "sees": "lane comparisons need frozen interventions rather than simultaneous refits",
       "missing": "assumption-to-map-to-equation-to-observable DAG and shared held-out outcome bank",
       "would_change": "intervene one fork at a time: bundle port, Alt port, carrier, reference connection, observation mechanism, or pairing",
@@ -243,17 +243,17 @@
     },
     {
       "id": "S13",
-      "persona": "scientific experimental-design methodologist",
+      "perspective": "scientific experimental-design methodologist",
       "sees": "the best swing is the one that splits the live hypothesis set with the least irreversible construction cost",
       "missing": "predeclared hypothesis bank, outcome routing, and comparable cost/information accounting",
       "would_change": "score swings by expected elimination, dependency unlock, reuse, and exact-verification cost",
       "exact_boundary": "the score schedules work; it never decides a theorem"
     }
   ],
-  "engineering_personas": [
+  "engineering_perspectives": [
     {
       "id": "E01",
-      "persona": "ML platform and inverse-design engineer",
+      "perspective": "ML platform and inverse-design engineer",
       "shop_floor_view": "compile the legal GU action grammar into an intermediate representation before optimizing anything",
       "sees_missing": "one executable graph from T through Alt, K, connection, curvature, Shiab, action, Euler, quotient, and observation",
       "would_do": "add automatic differentiation, active fixture selection, rational reconstruction, and exact verifier hooks around that graph",
@@ -261,7 +261,7 @@
     },
     {
       "id": "E02",
-      "persona": "industrial statistician and reliability engineer",
+      "perspective": "industrial statistician and reliability engineer",
       "shop_floor_view": "separate design, qualification, and acceptance tests and never reuse a tuned fixture as confirmation",
       "sees_missing": "gauge-quotiented identifiability, power against rival lanes, sealed holdouts, and failure-mode prevalence",
       "would_do": "run D-optimal exact fixture selection, freeze coefficients, then report rank-based constraint surplus with confidence only for numerical conditioning",
@@ -269,7 +269,7 @@
     },
     {
       "id": "E03",
-      "persona": "multiphysics and nonlinear PDE simulation engineer",
+      "perspective": "multiphysics and nonlinear PDE simulation engineer",
       "shop_floor_view": "a solver is only as correct as its assembled residual, Jacobian, boundary operators, and convergence study",
       "sees_missing": "full order-two owner assembly, manufactured solutions, mesh/patch convergence, and a common domain",
       "would_do": "differentiate the entire residual graph, compare automatic and symbolic Jacobians, and use exact manufactured fixtures before spectral claims",
@@ -277,7 +277,7 @@
     },
     {
       "id": "E04",
-      "persona": "pressure-vessel and structural-integrity engineer",
+      "perspective": "pressure-vessel and structural-integrity engineer",
       "shop_floor_view": "trace every load through material, joint, support, and boundary; a local stress calculation does not certify the vessel",
       "sees_missing": "a complete load path from the trace-reversed fibre through Krein pairing, Green flux, observation support, and four-dimensional stress",
       "would_do": "build an energy/flux balance sheet and test every interface under sign reversal, null loading, and worst-case coupled modes",
@@ -285,7 +285,7 @@
     },
     {
       "id": "E05",
-      "persona": "flight-control and safety-critical systems engineer",
+      "perspective": "flight-control and safety-critical systems engineer",
       "shop_floor_view": "before tuning a controller, prove the plant is observable, controllable on the allowed subspace, and safe under hidden-mode excitation",
       "sees_missing": "observability of the bulk physical quotient from the section and invariance of the no-leakage manifold",
       "would_do": "compute observability/hidden-mode matrices after BV reduction and derive any stabilizing flow from the action rather than hand tuning it",
@@ -293,7 +293,7 @@
     },
     {
       "id": "E06",
-      "persona": "distributed-systems and site-reliability engineer",
+      "perspective": "distributed-systems and site-reliability engineer",
       "shop_floor_view": "name the nodes, state, fault model, invariants, recovery rule, and source of truth before using consensus language",
       "sees_missing": "a distinction between patch gluing, physical equivalence, convergence, and final selection in the operational interface",
       "would_do": "keep deterministic Cech checks in the critical path, use a DAG for provenance, and inject patch/gauge/update-order faults in tests",
@@ -301,7 +301,7 @@
     },
     {
       "id": "E07",
-      "persona": "ZK protocol and proof-circuit engineer",
+      "perspective": "ZK protocol and proof-circuit engineer",
       "shop_floor_view": "write the statement and public inputs before designing the witness or circuit",
       "sees_missing": "a machine-readable relation tying actual bundle transitions, real structures, jets, and action variation to each certificate",
       "would_do": "emit proof-carrying construction packets with canonical serialization and independent semantic checks",
@@ -309,7 +309,7 @@
     },
     {
       "id": "E08",
-      "persona": "computational-geometry and mesh infrastructure engineer",
+      "perspective": "computational-geometry and mesh infrastructure engineer",
       "shop_floor_view": "coordinate-free intent still needs actual charts, transitions, singularity handling, and refinement-invariant computations",
       "sees_missing": "a representative Y14 atlas, observation-section mesh, induced bundle transitions, and patch-independent numerical fixtures",
       "would_do": "build a small real atlas testbed and require the same result under remeshing, recharting, and non-unimodular fibre transformations",
@@ -317,7 +317,7 @@
     },
     {
       "id": "E09",
-      "persona": "scientific-instrumentation and data-acquisition engineer",
+      "perspective": "scientific-instrumentation and data-acquisition engineer",
       "shop_floor_view": "an observable requires a calibrated chain from physical state through sensor response to recorded quantity",
       "sees_missing": "a complete observation transfer function from Y fields and Euler covectors to X observables, including support, normalization, bandwidth, and null channels",
       "would_do": "treat the section/current/domain packet as an instrument specification and run injection-recovery tests with sealed signals",
@@ -325,7 +325,7 @@
     },
     {
       "id": "E10",
-      "persona": "systems-integration and verification engineer",
+      "perspective": "systems-integration and verification engineer",
       "shop_floor_view": "maintain a thin vertical slice from input geometry to one observed residual while component teams deepen their modules",
       "sees_missing": "an interface-control document, maturity levels per map, and an end-to-end regression that fails when any owner is stubbed",
       "would_do": "freeze one nonphysical smoke fixture now, propagate it through every wave, and reserve a separate held-out physical fixture bank for final validation",

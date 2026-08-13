@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-06
 status: INTRINSIC_AUGMENTED_TORSION_D3_CLOSED__Q0QM_ZERO__QMQM_NONZERO__FULL_MOVING_AND_PREBOUNDARY_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, VERIFY]
 source_return: SOURCE-SILENT
 ledger_rows: [LT-GR2b, LT-GR5, LT-SM8]
 scripts:

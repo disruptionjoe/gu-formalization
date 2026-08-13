@@ -191,7 +191,7 @@ def source_and_layer0_checks() -> None:
     toe = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
     rendered = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     ).read_text()
 
     exact(

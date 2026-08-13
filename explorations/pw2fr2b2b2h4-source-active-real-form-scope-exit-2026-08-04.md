@@ -3,7 +3,6 @@ title: "PW2F-R2B2B2H4 source-to-active real-form port evidence-scope exit"
 status: reconstruction
 doc_type: exploration
 updated_at: "2026-08-04"
-run_id: RUN-20260804-092420-gu-formalization-pw2fr2b2b2h4-source-active-scope-exit
 ---
 
 # PW2F-R2B2B2H4 source-to-active real-form port evidence-scope exit

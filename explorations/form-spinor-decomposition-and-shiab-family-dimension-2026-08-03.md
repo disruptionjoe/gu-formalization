@@ -10,7 +10,6 @@ panel_refs:
   - "lab/process/improvement-register-2026-08-03.md (M-M2, rep-lens items RT-O2/RT-F3)"
 title: "M-M2 form-spinor decomposition and the shiab family dimension: multiplicity-free Lambda^2 V (x) S+ = S+ (+) Sigma_1+ (+) Sigma_2+ (64+832+4928=5824) and V (x) S- = S+ (+) Sigma_1+ (64+832=896) give dim_C Hom = 2 per chirality block by inspection (replacing the |W(D_7)|=322560 Weyl-sum machinery); the REAL refinement: End_Spin(9,5)(S±_R) = H, so the real equivariant family is dim_R 16 = 4 x 4 (complexification cross-check S_R (x) C = 2 S_C), and the correct constraint chain is 16 -> 8 (J-commutation) -> 4 (full H-linearity / Sp(64)-equivariance) — NOT canon's 8 -> 4"
 grade: "EXACT — finite multiplicity-free representation theory (exact-integer Klimyk re-verification this session) plus exact real-commutant bookkeeping; corrects a canon COUNT and a canon CONSTRAINT NAME without moving any verdict (the dim-4 endpoint and the OPEN selector are unchanged)"
-claim_status_change: none
 canon_verdict_change: none
 depends_on:
   - canon/shiab-existence-cl95.md

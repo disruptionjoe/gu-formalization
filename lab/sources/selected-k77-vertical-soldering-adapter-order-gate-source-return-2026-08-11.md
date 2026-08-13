@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-224726-gu-k77-vertical-soldering-adapter-order-gate
 return_code: SOURCE_CONFIRMS__SOURCE_CORRECTS__SOURCE_SILENT
 ---
 

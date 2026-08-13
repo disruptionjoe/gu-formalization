@@ -1,12 +1,9 @@
 ---
 artifact_type: exact_inventory_closure_and_scope_result
 created: 2026-08-13
-run_id: RUN-20260813-230429-gu-physical-operator-admission-closure
 status: CURRENT_OPERATOR_INVENTORY_EXHAUSTED__GENERIC_CONTROLS_DISCRIMINATED__W_MIRROR_ASYMMETRY_AND_PHYSICAL_COHOMOLOGY_UNBUILT
 target_claim: NONE-NOT-A-KILL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 physical-operator admission closure

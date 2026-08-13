@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_composition_result
 created: 2026-08-11
-run_id: RUN-20260811-131916-gu-k77-action-adjoint-weight-classification
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.174"
 result: TWO_EXACT_LOCAL_GRASSMANN_PAIRING_HORNS__ADJOINT_COMPATIBILITY_SELECTS_ZERO_WEIGHT_EQUATIONS__ONE_PRODUCT_INVARIANT_REMAINS
 grade: "complete four-scalar Spin-natural local pairing classification over two exact fields and all fourteen directions; anti-linear reality, nonlinear action selection and global domain open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 fork_note: "Real K77 is a labelled conditional comparator; no signature or action-parent row is settled."
 search_space_dim: "four pairing coefficients decided wholesale; two projective solution lines; two operator weights quotient to one invariant product"

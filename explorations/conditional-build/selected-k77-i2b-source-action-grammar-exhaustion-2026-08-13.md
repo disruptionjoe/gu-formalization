@@ -1,14 +1,9 @@
 ---
 artifact_type: conditional_build_source_action_classification
 created: 2026-08-13
-run_id: RUN-20260813-054000-gu-i2b-source-action-grammar-exhaustion
-lane: 1
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 status: RELEASED_ZERO_FERMION_NONLINEAR_ACTION_GRAMMAR_EXHAUSTED_AT_SELECTED_HQ_GRADE__MOVING_BACKGROUND_NONZERO_FERMION_OR_FULL_FIELD_BV_TANGENT_OPEN
 source_return: SOURCE_CONFIRMS_I1B_I2B_AND_TOTAL_FERMION_RESIDUAL__SOURCE_SILENT_ADDITIONAL_ZERO_FERMION_BOSONIC_CANCELLATION_OWNER
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "three released source-owned action branches at the selected moving-Hq zero-fermion grade; their first-variation support is decided wholesale from exact receipts"
 free_object_delta: 0

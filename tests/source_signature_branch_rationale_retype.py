@@ -60,7 +60,7 @@ class SignatureBranchRationaleRetype(unittest.TestCase):
         self.assertNotEqual(inertia, (9, 5))
 
     def test_next_gate_is_branch_aware(self) -> None:
-        contract = (ROOT / "lab/process/functional-channel-operating-contract-v1.0.md").read_text()
+        contract = (ROOT / "lab/methods/research-evidence-contract-v1.0.md").read_text()
         self.assertRegex(contract, re.compile(r"author-asserted.*K77", re.I | re.S))
         self.assertRegex(contract, re.compile(r"geometry-derived.*K95", re.I | re.S))
         self.assertIn("signature-generic", contract)

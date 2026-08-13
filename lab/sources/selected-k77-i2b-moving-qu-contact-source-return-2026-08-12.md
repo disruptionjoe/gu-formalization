@@ -2,7 +2,6 @@
 title: "Source return: moving-Q_u contact and full fixed-background Euler"
 status: source-return
 created: 2026-08-12
-run_id: RUN-20260812-225452-gu-i2b-moving-qu-contact-full-euler
 ---
 
 # Source return

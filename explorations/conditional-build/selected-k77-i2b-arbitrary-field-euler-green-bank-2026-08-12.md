@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_variational_result
 created: 2026-08-12
-run_id: RUN-20260812-153049-gu-i2b-arbitrary-field-euler-green-bank
 status: FIXED_HQ_ARBITRARY_CONNECTION_EULER_POLYNOMIAL_EXACT__PHYSICAL_PRINCIPAL_GREEN_ZERO__MOVING_CONTACT_AND_EXPANDED_PARENT_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B arbitrary-field Euler and Green bank

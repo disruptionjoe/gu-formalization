@@ -5,16 +5,16 @@ doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
 updated: 2026-08-03
-owner_surface: lab/process/runbooks/lean-verification-run.md
+owner_surface: lab/methods/lean-verification.md
 ---
 
 # Lean verification lane: ledger and queue
 
 ## Purpose and boundary
 
-This is the standing Lean queue inside Lane 3, result hardening and publication readiness. Hourly Progress
-uses it only when `lab/process/research-portfolio.json` selects the relevant Lane 3 work item. A finishable
-formalization must not displace protected Lane 1 merely because Lean has a monotone success condition.
+This is the standing Lean queue inside result-hardening research, result hardening and publication readiness. Hourly Progress
+uses it only when `lab/process/RESEARCH-AGENDA.json` selects the relevant result-hardening research work item. A finishable
+formalization must not displace protected truth-status research merely because Lean has a monotone success condition.
 
 Lean hardens the deduction from explicit premises. It does not establish carrier faithfulness, physical
 realization, full-arena transfer, Proposition 1, the W235 record bit, interacting QFT, or external
@@ -88,7 +88,7 @@ The first three items are mandatory integrity work, not a retreat from the North
 
 1. `L0 BASELINE` — **DONE 2026-07-22**: exact pinned default target, serialized, exit 0; receipt above.
 2. `L1 R4 INTEGRATION` — **DONE 2026-07-22**: proof-bearing source folded into the default target; old path
-   retained as a compatibility entrypoint; post-integration build and placeholder audit required by the run receipt.
+   retained as a compatibility entrypoint; post-integration build and placeholder audit required by the investigation receipt.
 3. `L2 STALE DUPLICATE` — **DONE 2026-07-22**: the un-typechecked A1 draft duplicate was removed;
    `Lean/GUFormalization/LocatedNotForcedLegs.lean` is the sole authoritative certificate.
 4. `L3 THEOREM H`: formalize the extremal-weight stabilizer deduction over an explicitly graded finite

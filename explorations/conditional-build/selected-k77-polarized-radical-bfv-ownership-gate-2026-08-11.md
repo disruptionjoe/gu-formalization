@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_and_composition_result
 created: 2026-08-11
-run_id: RUN-20260811-111511-gu-k77-polarized-radical-bfv-ownership
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.172"
 result: ZERO_FERMION_SELECTED_BRANCH_HAS_NO_ACTION_OWNED_GAUGE_OR_EDGE_IMAGE_MATCHING_IM_NSHARP__MOVING_CROSS_TERMS_VANISH__EDGE_QUOTIENT_LEAVES_EXACT_OBSERVED_DIM256_FERMION_RADICAL__RESTRICTION_ROUTE_STOPS_AT_THIS_BRANCH__OPERATOR_COMPLETION_RISES
 grade: "EXACT principal Green and finite symplectic/BFV composition at the zero-fermion selected real-K77 branch; nonzero-fermion and global analytic BV domains open"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 polarized-radical BFV ownership gate

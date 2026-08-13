@@ -216,5 +216,4 @@ status: observer_finality_witness_complete
 best_use: section_retrieval_and_capability_stress_test
 not_useful_for: GU_source_geometry_or_no_go_evasion
 next_artifact: none_required
-claim_status_change: none
 ```

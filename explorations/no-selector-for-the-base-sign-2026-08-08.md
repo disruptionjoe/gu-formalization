@@ -7,10 +7,7 @@ grade: "EXACT for the causal-cone identity, which is the load-bearing check: the
   one-line algebraic identity, not a statistical result. The enumeration of
   candidate selectors is an argument over a named list and is not a proof that no
   selector exists anywhere."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

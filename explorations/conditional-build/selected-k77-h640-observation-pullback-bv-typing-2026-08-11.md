@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-11
 status: ACTION_DERIVED_RANK128_GRAPH_LIFT_EXACT__LOWER_ORDER_GRAPH_RICCATI_AND_FULL_BV_OPEN
 grade: "exact rational flat-section principal graph theorem plus two-prime complete coordinate-frame transport classes and finite lower-order/BV typing controls; no complete sixteen-cell lower-order closure, equation-dual, BV/Koszul--Tate cohomology, global section or analytic domain"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 H640 observation-pullback and BV typing

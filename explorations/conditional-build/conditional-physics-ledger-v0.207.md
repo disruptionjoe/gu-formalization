@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_summary
 created: 2026-08-12
 ledger_version: "0.207"
-run_id: RUN-20260812-131002-gu-i2b-global-primalizer-descent
 ---
 
 # Conditional physics ledger v0.207

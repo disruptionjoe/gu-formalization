@@ -130,7 +130,7 @@ Per the draft coordination notes:
 
 - **#26 (type-ii1-spectral-sm-checklist):** TBD. When it starts, it can consume insight-synthesis.md's R2 (`U^{14} = met(X^4)` as source-native L1) as a worked example of "what the GU side names as its candidate substrate" per WRK-379's cross-reference note.
 - **#27 (nielsen-protocol-analogy-pilot):** TBD. When it starts, contributor-tasks.md's Task 4 (Ginsparg-Wilson reference pointer) and the GW/overlap framing in sibling #25 are ready references.
-- **#30 (hegelian-persona-protocol-method-note):** TBD. The insight-synthesis.md treatment of Aufhebung (via insight R2-R3-N1) is consistent with sibling #25's framing.
+- **#30 (hegelian-perspective-protocol-method-note):** TBD. The insight-synthesis.md treatment of Aufhebung (via insight R2-R3-N1) is consistent with sibling #25's framing.
 - **#31 (stochastic-parity-breaking-test):** TBD. No insight from this v1 pass directly bears on it.
 - **#32 (cartan-twistor-g2-guardrail):** TBD. The L1 substrate slot is occupied by `U^{14} = met(X^4)` in insight-synthesis.md; if Cartan/twistor-G_2 is a different L1 candidate, the two specs should be authored side-by-side per sibling #24's framing.
 - **#33 (sorkin-causal-set-axis-note):** TBD. The L4 causal-order axis is explicitly flagged underdetermined in contributor-tasks.md Task 2; sibling #33's note is the natural input when it lands.

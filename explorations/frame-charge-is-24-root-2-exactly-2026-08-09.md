@@ -6,9 +6,7 @@ status: FRAME_CHARGE_IS_EXACTLY_24_ROOT_2__NETSD_OVER_ROOT2_MINUS_24_IS_0.000e+0
 grade: "COMPUTED, exact to machine precision, on the verified Cl(9,5) = M(64,H) substrate via the existing
   frame_charge_split machinery. Two exact identities. The INTERPRETATION (that sqrt(2) is generator
   normalization) is reconstruction-grade and is the one thing here that needs hostile checking."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 follows:
   - explorations/run-monodromy-frame-charge-preflight-hostile-2026-08-09.md
   - explorations/lens-mechanism-salvage-scored-2026-08-09.md

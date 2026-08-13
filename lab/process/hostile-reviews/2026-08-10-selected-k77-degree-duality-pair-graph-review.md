@@ -4,9 +4,7 @@ status: complete
 created: 2026-08-10
 subject: selected-k77-degree-duality-pair-graph-gate
 verdict: SCOPED_PASS__CANONICAL_TRACE_Q_DEGREE_DUALITY_KILLED_ON_PROPOSED_RS_CARRIER__SOURCE_FAMILY_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 source-sign degree duality and pair graph

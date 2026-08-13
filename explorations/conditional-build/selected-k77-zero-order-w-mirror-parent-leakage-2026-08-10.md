@@ -2,10 +2,7 @@
 title: "Selected K77 zero-order W/mirror parent-leakage discriminator"
 status: conditional_exact_result
 date: 2026-08-10
-run_id: RUN-20260810-071020-gu-k77-zero-order-w-mirror-parent-leakage
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 zero-order W/mirror parent-leakage discriminator

@@ -9,7 +9,6 @@ grade: "DOCUMENTATION DEFECT, verified by direct read of the cited lines. Both s
 review_charge: "AGENTS.md hostile-review charge 2 -- 'find where rigor is defending a superseded or
   mistyped object.'"
 target: canon/no-go-class-relative-map.md
-claim_status_change: none
 canon_verdict_change: none
 found_during: "Y14/X4 systems spec drafting, 2026-08-09"
 ---

@@ -23,9 +23,7 @@ inputs_opened_only_after_checklist_freeze:
   - tests/W229_source_action_znu_completion.py (the built law's executable form)
 runnable:
   - tests/channel-swings/pt3_w229_membership_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # P-T3-W229: C_0 membership audit of the built W229 record law

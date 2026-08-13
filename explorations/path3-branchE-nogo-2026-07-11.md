@@ -21,7 +21,7 @@ scripts:
 **Role.** Branch E of the blind Path-3 generation-count forcing wave. My job is the **opposite** of
 branches A–D. A–D each try to FORCE the count to 3 via a different construction (index / anomaly /
 cobordism / torsion). I try to **PROVE the count CANNOT be forced from first principles** — to make
-"located, not forced" a **theorem**. I ran the five-persona team inline (below). I did **not**
+"located, not forced" a **theorem**. I ran the five-perspective team inline (below). I did **not**
 synthesize across the other blind branches; this is Branch E's kill-attempt only.
 
 A no-go is real, publishable, and GU-independent: it says exactly what NEW physics would be needed to
@@ -65,7 +65,7 @@ satisfying every equivariance, reality, and self-adjointness condition, and no s
 forbid a subrepresentation while admitting the whole representation. The `{1,3}` degeneracy is
 **irreducible**.
 
-## Persona 1 — the rigidity / no-go theorist: the construction
+## Perspective 1 — the rigidity / no-go theorist: the construction
 
 **Setup.** Take the count to be the rank of the chiral generation subspace inside `V = Λ²₊(ℝ⁴) ≅ ℝ³`
 (the standard location: `3 = dim Λ²₊`, forced by the 4-base, not imported). The generation symmetry is
@@ -96,7 +96,7 @@ the `{1,3}` degeneracy.** ∎ (for the residual leg)
 integer 3 is **not** the class value — it is `dim Λ²₊`. `Hom(Z/3, Z) = 0`: a torsion class has no
 canonical integer, so no reachable selector *reads off* 3 either. Both legs point at the same residual.
 
-## Persona 2 — the math referee: grade, circularity, vacuity
+## Perspective 2 — the math referee: grade, circularity, vacuity
 
 - **Rigorous.** (i) `dim Λ²₊(ℝ⁴) = 3` — exact. (ii) `P ∈ SO(3)` of order 3, the isotypic split, and the
   irreducibility of `V₁` (`disc = −3`) — exact integer/rational arithmetic. (iii) The invariant-subspace
@@ -116,7 +116,7 @@ canonical integer, so no reachable selector *reads off* 3 either. Both legs poin
   every stated condition. This matches — and sharpens to a clean linear-algebra core — the repo's SG4
   rubric result (the residual is a rigid, finite, discrete choice forced by nothing).
 
-## Persona 3 — the adversary-to-the-adversary: a genuine repair attempt
+## Perspective 3 — the adversary-to-the-adversary: a genuine repair attempt
 
 I tried honestly to **force 3** — to find the minimal extra condition that collapses `{1,3} → 3`, and
 to check whether it is first-principles (if it is, my no-go is *not* class-wide).
@@ -147,7 +147,7 @@ construction furnished a genuine anomaly forbidding sterile self-dual directions
 become first-principles *there* and the no-go would fail for that construction. None is known — the
 mod-3 arena is empty — so this is the named escape hatch, not an actual escape.)
 
-## Persona 4 — the cross-checker: the concrete SO(3) case
+## Perspective 4 — the cross-checker: the concrete SO(3) case
 
 Encoded deterministically in `tests/W59_path3_E_nogo.py` (pure Python, exact `Fraction` arithmetic, no
 dependencies, **17/17**, exit 0):
@@ -169,7 +169,7 @@ dependencies, **17/17**, exit 0):
 The concrete rank-1 case is the crux the wave asked me to verify: **the SO(3) fixed axis is a genuine,
 equivariant, reality-closed, anomaly-free one-generation solution.** It is real, not a strawman.
 
-## Persona 5 — the synthesizer: the branch verdict
+## Perspective 5 — the synthesizer: the branch verdict
 
 **Graded verdict on the three sub-questions.**
 

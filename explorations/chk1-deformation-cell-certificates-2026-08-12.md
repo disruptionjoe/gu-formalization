@@ -6,7 +6,6 @@ created: 2026-08-12
 brief_version: "1.2"
 brief_note: "v1.1 base brief; rule 14 (five-lens inline pre-flight) ratified mid-run as v1.2"
 target_claim: NONE-NOT-A-KILL
-run_id: RUN-PLACEHOLDER
 head_pin: "c789e75bbe0eb38bcd6342516dc88a39c760852b (2026-08-11 20:51:35 -0500); HEAD advanced to 66144b87 during execution (hourly automation); every consumed fixture verified byte-identical between the two commits"
 packet: explorations/decoupling-constructibility-packet-2026-08-12.md (Lens 2, CHK-1)
 authored_by: "CHK-1 executing pass; repo READ-ONLY; all outputs live in the session scratchpad"
@@ -20,9 +19,7 @@ binding: >-
   evaluation below is stated as certificate plus the packet's own outcome
   grading; every disposition belongs to the executing wave. Certified numbers
   are stated plainly.
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---

@@ -1,12 +1,10 @@
 ---
-title: "Lane 2 seed: SC-GEN-53 two-versus-one high-energy tripwire"
+title: "prediction research seed: SC-GEN-53 two-versus-one high-energy tripwire"
 artifact_type: prediction_seed
 created: 2026-08-12
 status: TYPED_SEED__NOT_A_PREDICTION_PACKET
 target_claim: SC-GEN-53
-claim_status_change: "UNTYPED to PARTIAL adherence"
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # SC-GEN-53 Lane-2 tripwire seed
@@ -23,7 +21,7 @@ The source does not state:
 - the observable carrying that difference;
 - a threshold or sign that could be frozen before looking at data.
 
-Lane 2 therefore owns a **prediction seed**, not a prediction.  Admission to a
+prediction research therefore owns a **prediction seed**, not a prediction.  Admission to a
 frozen packet requires all four items, plus a typed bridge from the kinematic
 2+1 carrier to `PH-K1-PHYSICAL`.  Until then it must not be used as evidence
 for GU or as a post-hoc explanation of an observed anomaly.

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-163746-gu-i2b-real-primalizer-phase-gate
 verdict: CANDIDATE_SURVIVES__CONDITIONAL_RANK4_EXISTS__ACTION_OWNERSHIP_NOT_ESTABLISHED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: real-primalizer phase gate

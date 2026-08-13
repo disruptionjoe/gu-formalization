@@ -25,7 +25,7 @@ def strict(relative):
 
 registry = strict("lab/process/selected-k77-common-physical-equation-dual-green.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.99.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-common-physical-equation-dual-green-2026-08-08.md").read_text(encoding="utf-8")
 review = (ROOT / "lab/process/hostile-reviews/2026-08-08-selected-k77-common-physical-equation-dual-green-review.md").read_text(encoding="utf-8")
 
@@ -102,10 +102,10 @@ for relative in (
 assert (ROOT / "tests/channel-swings/selected_k77_common_physical_equation_dual_green_independent.sage").exists()
 
 for relative in (
-    "LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
+    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
     "explorations/README.md", "lab/process/README.md",
-    "lab/process/agent-context-pack.md",
-    "lab/process/functional-channel-operating-contract-v1.0.md",
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+    "lab/methods/research-evidence-contract-v1.0.md",
 ):
     assert "v0.99" in (ROOT / relative).read_text(encoding="utf-8")
 

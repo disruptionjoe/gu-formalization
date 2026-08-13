@@ -22,9 +22,9 @@ def strict(relative: str):
 v12p = ROOT / "lab/process/conditional-physics-ledger-v0.12.json"
 v12 = strict("lab/process/conditional-physics-ledger-v0.12.json")
 v13 = strict("lab/process/conditional-physics-ledger-v0.13.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/selected-branch-linearized-totalization-current-green-domain.json")
-lanes = (ROOT / "LANES.yaml").read_text()
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.13.md").read_text()
 report = (ROOT / "explorations/conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md").read_text()
 source = (ROOT / "lab/sources/selected-branch-totalization-current-source-reinspection-2026-08-05.md").read_text()

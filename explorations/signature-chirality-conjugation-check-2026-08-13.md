@@ -7,9 +7,7 @@ brief_version: "1.3"
 target_claim: NONE-NOT-A-KILL
 ledger_rows: [AC-F1, RA-D2, AC-A4, RA-A2, RA-A3]
 source_claims: [SC-CHI-01, SC-CHI-50]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 probe: tests/channel-swings/signature_chirality_conjugation_probe.py
 ---
 

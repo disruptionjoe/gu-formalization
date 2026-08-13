@@ -3,14 +3,11 @@ title: "RB3 moving soldering, actual-Sym2 trace coordinate, and bridge discrimin
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: RB3-MOVING-SOLDERING-SPINZERO
-run: lab/process/runs/GUH-20260730T215838Z-rb3-moving-shiab-dual-track/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/rb3_moving_soldering_spinzero_probe.py
 grade: "UNFRAMED MOVING CLIFFORD-PLANE ORBIT LOCALLY CONSTRUCTED / FRAMED-ASSOCIATED-BUNDLE AND GLOBAL REDUCTION CONDITIONAL / A0-INDUCED CONNECTION BRANCH CONSTRUCTED BUT NOT IDENTIFIED WITH N1 GAMMA / TRACE COORDINATE CONSTRUCTED / PHYSICAL FULL-20 INSERTION BLOCKED. The native 128-complex-dimensional fixture constructs a full-Sp direction outside Spin(9,5), executes moving P_R and chirality controls, and rejects their frozen versions; other projector and slot transports remain formula-level. The connected plane stabilizer is Spin_0(9,5), giving an 8165-dimensional orbit. The existing A0 plus a reductive projection supplies one economical lift-independent connection candidate with first-order epsilon dependence, but its Green form and identity with the N1 bridge connection are unbuilt. The actual-Sym2 primal and adjoint-valued dual trace projectors are exact. The missing physical insertion is widehat c_{rho,20}(tau tensor Phi_trace); its first unresolved factor is explicit rho_S(Phi_trace), and its full-20 lift is separately missing. A homogeneous chain-rule proxy proves the RB2 relative-response polynomial is not identically zero, but the literal Q_F/P_R/A0-current/Green join remains open. No VEV, mass, cosmological value, index, count, or preferred bridge is selected."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # RB3 moving soldering, actual-Sym2 trace coordinate, and bridge discriminator
@@ -604,7 +601,7 @@ T_b:S\longrightarrow R,
 so the formerly written right-\(P_R\) sandwich is dimensionally invalid.
 Closing \(T_b\) with its Krein adjoint constructs one nondegenerate
 right-\(\mathbb H\), \(K\)-self-adjoint \(S\leftrightarrow R\) full-20
-vertex. The run then executes the literal moving \(Q_F\), the
+vertex. The investigation then executes the literal moving \(Q_F\), the
 \(A_0\)-connection derivative and formal adjoint, and the exact
 \(1/12/13\)-form Green identity with a nonzero boundary owner. Thus the
 earlier homogeneous discriminator is no longer the last result:

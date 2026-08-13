@@ -3,9 +3,7 @@ title: "Hostile review — selected K77 zero-seed H640 action-closure controls"
 artifact_type: hostile_review
 created: 2026-08-11
 verdict: SURVIVES_SCOPED__QQ_ZERO_SEED_H640_AND_TWO_PRIME_CONTROLS__PRINCIPAL_ACTION_MODULE_NOT_PHYSICAL_CARRIER__FULL_BV_KT_REQUIRED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Three-charge hostile review

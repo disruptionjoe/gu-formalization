@@ -22,9 +22,7 @@ inputs:
 runnable:
   - tests/channel-swings/n2_end_family_probe.py
   - tests/channel-swings/n2_end_f5_signed_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # N2 at the best honestly-reachable grade: the end family, built

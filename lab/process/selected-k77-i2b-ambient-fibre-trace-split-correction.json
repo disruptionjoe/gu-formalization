@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-142442-gu-i2b-ambient-fibre-trace-split-correction",
+  "run_id": "historical-investigation",
   "ledger_version": "0.209",
   "lane": "1",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

@@ -2,8 +2,7 @@
 title: PW2F-R2B2B2F — conditional active I1 frozen-Shiab raw-density comparator
 date: 2026-08-03
 status: CONDITIONAL_ACTIVE_COFRAME_FROZEN_SHIAB_RAW_DENSITY_NONE__EULER_OPEN
-lane: Eric-guided Lane 1; source, active reconstruction, and Curt comparator kept separate
-run: RUN-20260803-133351-gu-formalization-pw2fr2b2b2f-i1-transgression-projective-kappa
+run: historical-investigation
 registry: lab/process/pw2fr2b2b2f-i1-transgression-projective-kappa-registry.json
 probe: tests/channel-swings/pw2fr2b2b2f_i1_transgression_projective_kappa_probe.py
 ---

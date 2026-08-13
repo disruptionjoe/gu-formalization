@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-10
 status: CANDIDATE_SURVIVES__OBSERVED1131_CONDITIONAL__FULL_Y14_LOW_GRADE1571_FORCED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected-K77 complete Euler-jet tangent closure

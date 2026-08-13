@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-070112-gu-minimal-moving-doublet-curvature
 source_return: SOURCE_CONFIRMS_VARPI_HIGGS_LIKE_LOCUS__SOURCE_SILENT_ON_COMMON_LEG_LIFT_AND_KERNEL_SELECTION
 ---
 

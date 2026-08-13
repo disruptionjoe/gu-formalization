@@ -1,6 +1,6 @@
 # The SG4 forcing rubric, run to completion: the 2-bit residual is provably irreducible (located-not-forced, maximally hardened)
 
-2026-07-11. Culminates the "what would force SG4's declaration?" thread. The personas produced a rubric
+2026-07-11. Culminates the "what would force SG4's declaration?" thread. The perspectives produced a rubric
 of forcing potentials + a Condorcet ordering; every item has now been run. Result: the SG4 declaration is
 a **rigid, finite, discrete ~2-bit choice, B-leaning from ~6 independent angles, forced by nothing** --
 resolvable only by building the potential (which p-hacks the carrier) or a held-out fact that either
@@ -10,7 +10,7 @@ adversarially-ordered rubric.
 ## What "force" had to mean (anti-p-hacking)
 
 Forcing = the choice is removed by something outside our control (consistency, a theorem, a symmetry,
-energetics, or a genuinely held-out fact), NOT tuned to yield the bit we want. The personas added the
+energetics, or a genuinely held-out fact), NOT tuned to yield the bit we want. The perspectives added the
 crucial guards: allow **undecidable** and **structurally-unforceable (CAP/FLP)** as legal outcomes, and
 run **boundary before bulk** (the count is a boundary quantity).
 

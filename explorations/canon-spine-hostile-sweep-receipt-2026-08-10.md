@@ -9,9 +9,7 @@ grade: "EXECUTED: 14 agents (6 clusters: 2 full seat-pairs, 3 combined seats, 1 
   resolved seat conflicts by checking decisive facts themselves — twice overruling a seat UP in severity and
   once overruling a seat DOWN from REFUTED to SCOPED. Verdict and corrected-claim language below are the
   judges', quoted or tightly summarized."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 follows:
   - explorations/hostile-verification-harness-receipt-2026-08-10.md
 ---
@@ -32,7 +30,7 @@ external, BY STRUCTURE" — **lacks both correction banners its own upstream leg
   physical-carrier construction, not a derivation").
 
 Banner propagation covered six canon files that day and **skipped the one file where the physical claim
-lands**. Decisive context the judge checked personally: **the v2.15 paper itself already says "We do not
+lands**. Decisive context the judge checked perspectivelly: **the v2.15 paper itself already says "We do not
 infer that the count is necessarily external" and "externality is not proved."** The canon title is stronger
 than the paper it feeds. Seat A2 typed this FATAL; the judge overruled to material/SCOPED precisely because
 the paper's own language is already honest — the defect is canon lagging its paper, not a wrong result.

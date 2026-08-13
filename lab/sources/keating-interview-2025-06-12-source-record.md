@@ -6,9 +6,7 @@ created: 2026-08-05
 provenance: "Third-party transcript pass over a Brian Keating interview with Eric Weinstein, channel 'Dr Brian Keating', uploaded 2025-06-12, runtime ~2h23m, recorded AFTER Weinstein's April 2025 UCSD Astrophysics & Cosmology seminar. The interview ALREADY has a row in this repo's media index: lab/sources/media-index.md:64, `GU-POD-2025-KEATING-DESI-GU`, 2025-06-12, 'Eric Weinstein's Theory of Everything Confirmed?', graded `metadata-checked`/`timestamp-needed`, described there as framed 'around DESI, dark energy, testing GU, and a UCSD seminar'. This file supplies the substantive content that row was missing. It does NOT supply the receipt that row asked for."
 grade: "ATTRIBUTED-WITH-TIMESTAMP (upstream), NOT PRIMARY-VERIFIED HERE. The words below are Eric Weinstein's own speech, not a summarizer's gloss of a paper — that is what separates this from lab/sources/secondary-summary-boyle-turok-circulating-claims-2026-08-05.md. But the route is a third-party transcript pass, the video was NOT opened by this repo, and NO audio/video check was performed. HARDER FENCE, stated because it is load-bearing: the upstream pass reports that its extractions carry timestamps, but NO TIMESTAMP WAS TRANSMITTED INTO THIS ARTIFACT. Therefore nothing here can be cited with a timestamp, the media-index row stays `timestamp-needed`, and every claim below is recorded as PARAPHRASE-WITH-ATTRIBUTION, not as a quotation. Where a claim below also appears in the in-repo UCSD seminar transcript, THE SEMINAR TRANSCRIPT GOVERNS and is cited at file:line; that is the only citable half of this record."
 supersedes_nothing: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 depends_on:
   - papers/drafts/Transcript into the impossible.md
   - lab/literature/weinstein-ucsd-2025-04-transcript.md

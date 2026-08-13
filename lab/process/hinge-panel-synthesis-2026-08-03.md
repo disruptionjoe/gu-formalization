@@ -3,7 +3,6 @@ title: "Ten-Lens Panel Synthesis: the 2+1 'hinge' hypothesis (two geometries + a
 status: process
 doc_type: panel-synthesis
 created: 2026-08-03
-claim_status_change: none
 canon_verdict_change: none
 hypothesis: "Joe, 2026-08-03: Weinstein's 2+1 may be structural — the 2 are matter native to each single geometry, the +1 is where the two geometries MEET (the hinge)."
 method: "Ten specialist lenses (source philology, rep theory, differential geometry, boundary/index, operator/Krein, phenomenology, Layer-0 audit, hostile skepticism, structural mathematics, strategy), shared brief, independent execution, label convention VERIFIED_REPO_DISCONNECT / CHEAP_NEW_COMPUTATION / REFEREE_CONJECTURE, Layer-0 typing mandatory. Full lens reports in the session record; this synthesis preserves every fence."

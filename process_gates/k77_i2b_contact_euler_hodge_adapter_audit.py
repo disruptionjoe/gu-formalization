@@ -14,7 +14,7 @@ required = [
     "lab/process/conditional-physics-ledger-v0.222.json",
     "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-contact-euler-hodge-adapter-review.md",
     "lab/process/selected-k77-i2b-contact-euler-hodge-adapter.json",
-    "lab/process/runs/GUH-20260812T215541Z-i2b-contact-euler-hodge-adapter/run-plan.md",
+    "lab/evidence/predecessor-records/i2b-contact-euler-hodge-adapter.md",
     "lab/sources/selected-k77-i2b-contact-euler-hodge-adapter-source-return-2026-08-12.md",
     "tests/channel-swings/conditional_physics_ledger_v0222_probe.py",
     "tests/channel-swings/selected_k77_i2b_contact_euler_hodge_adapter_probe.py",
@@ -47,8 +47,8 @@ prior = strict("lab/process/conditional-physics-ledger-v0.221.json")
 report = (ROOT / required[1]).read_text()
 review = (ROOT / required[3]).read_text()
 source = (ROOT / required[6]).read_text()
-contract = (ROOT / "lab/process/functional-channel-operating-contract-v1.0.md").read_text()
-lanes = (ROOT / "LANES.yaml").read_text()
+contract = (ROOT / "lab/methods/research-evidence-contract-v1.0.md").read_text()
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 
 check("ledger_current", ledger["status"] == "CURRENT_APPEND_ONLY_LEDGER_V0_222")
 check("ledger_predecessor", ledger["predecessor"].endswith("v0.221.json"))

@@ -37,7 +37,7 @@ load-bearing step.
 
 ---
 
-## Persona team (inline, sequential, one context)
+## Perspective team (inline, sequential, one context)
 
 ### (1) Specialist -- information geometry / filtered probability / section-functor: the construction
 

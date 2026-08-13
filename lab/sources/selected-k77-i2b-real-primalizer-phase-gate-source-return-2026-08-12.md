@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-163746-gu-i2b-real-primalizer-phase-gate
 claim_ids: [SC-ACT-04]
 return_code: SOURCE_CONFIRMS_AND_SILENT
 ---

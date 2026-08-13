@@ -5,9 +5,7 @@ doc_type: science-council
 created: 2026-08-04
 tier: process
 routing: non-routing
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 title: "Science council: is the conditional component-mapping program converging or circling? A measured verdict on the 2026-08-03/04 wave chain, a ruling on the imported-scale syllogism, and a ranked next-three"
 scope: "Assesses PROGRAM EFFICIENCY only. Creates no claim, no verdict, no priority, no lane movement, no external-datum entry. Every substantive statement below is a citation of an existing artifact or an explicitly-labelled judgement of this council. The council advises; it does not decide."
@@ -25,7 +23,7 @@ inputs:
   - explorations/k77-post-b2-science-council-next-eight-wave-rendezvous-2026-08-04.md
   - explorations/k77-wave2-*-2026-08-04.md (twelve)
   - lab/process/improvement-register-2026-08-03.md
-  - lab/process/research-portfolio.json
+  - lab/process/RESEARCH-AGENDA.json
   - dynamic-unity#explorations/du-conditional-composition-audit-four-legs-under-the-source-action-2026-08-04.md (by pointer; cross-repo custody is not evidence)
 ---
 
@@ -221,7 +219,7 @@ receptacle, not merely a name.
   sector the prediction is about (`ℓ = R_s = c/H_0`). The honest form is therefore:
   **GU predicts the coefficient `2√2`, not the scale.** That is a legitimate
   prediction shape — the same shape as predicting a mass ratio — and LANE-STATE
-  already carries it ("the mechanism is shape not amplitude", `LANE-STATE.yaml:95`;
+  already carries it ("the mechanism is shape not amplitude", `CURRENT-STATE.yaml:95`;
   "no GU-native absolute amplitude is packaged", `:106`). Stating it this way makes
   the leg *more* testable, not less: is the DE mass `2√2 H_0` rather than `1×H_0`
   or `3×H_0`?

@@ -79,7 +79,7 @@ RECORDS = [
          object="a stabilized RS/IG source action",
          sector="all", granularity="action", is_datum_of_S_IG=True,
          note="'Everything downstream is gated by one object GU never wrote'"),
-    dict(date="2026-06-28", doc="explorations/.../higher-order-story-persona-sprint-2026-06-28.md:21",
+    dict(date="2026-06-28", doc="explorations/.../higher-order-story-perspective-sprint-2026-06-28.md:21",
          object="the fermionic source action",
          sector="all", granularity="action", is_datum_of_S_IG=True,
          note="'the one object that gates everything'"),

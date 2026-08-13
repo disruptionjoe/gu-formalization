@@ -6,9 +6,7 @@ status: exploration
 posture: adversarial; Layer-0-first; exact algebra; pre-deposit
 title: "Hinge-symbol leakage, signature-free RS neutrality, and compact isotypic overlap"
 grade: "EXACT ALGEBRAIC DERIVATIONS plus standard compact-spin representation typing; finite kinematic carrier only"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 route_disposition: REBASE
 hostile_review_status: "PASS_AFTER_REPAIRS; three disjoint lenses; 720 direct assertions green"
 depends_on:

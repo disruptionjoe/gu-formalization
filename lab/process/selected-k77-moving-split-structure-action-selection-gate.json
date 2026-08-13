@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260812-024031-gu-moving-split-structure-action-selection",
+  "run_id": "historical-investigation",
   "status": "EXACT_MOVING_SPLIT_INTRINSIC_TORSION__CURRENT_POINTWISE_ACTION_NONSELECTION",
   "target_claim": "NONE-NOT-A-KILL",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],

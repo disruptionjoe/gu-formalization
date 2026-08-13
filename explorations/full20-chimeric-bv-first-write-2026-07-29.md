@@ -3,14 +3,10 @@ title: "Full-20 chimeric/BV first write: a finite coarse observer ansatz exists,
 status: active_research
 doc_type: result
 created: 2026-07-29
-run_id: GUH-20260730T003440Z-full20-chimeric-bv-first-write
-lane_id: "1"
 work_item: SOURCE-OWNED-CHIMERIC-BV-CAMPAIGN-S1
 code:
   - tests/channel-swings/full20_chimeric_bv_first_write_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Full-20 chimeric/BV first write

@@ -4,9 +4,7 @@ created: 2026-08-03
 status: complete
 subject: Resolver Wave B
 verdict: PASS_AFTER_REPAIRS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review — Resolver Wave B

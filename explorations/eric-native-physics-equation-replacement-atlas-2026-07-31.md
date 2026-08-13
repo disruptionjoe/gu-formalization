@@ -4,7 +4,7 @@ status: active_research
 doc_type: exploration
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T153226Z-eric-native-equation-replacement-atlas/run-plan.md
+run: archived private execution record
 registry: lab/process/eric-native-physics-equation-replacement-atlas.json
 contract: lab/specifications/eric-native-equation-replacement-contract-2026-07-31.md
 ---

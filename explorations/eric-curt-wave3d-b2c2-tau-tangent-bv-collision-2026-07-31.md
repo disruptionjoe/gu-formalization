@@ -3,14 +3,10 @@ title: "Eric/Curt Wave 3D-B2C2A: the ordinary tau tangent exists but is not the 
 status: active_research
 doc_type: construction_result
 created: 2026-07-31
-lane: "1"
 work_item: ECW3D-B2C2A-TAU-TANGENT-BV-TYPE-AND-CURVATURE-COLLISION
 registry: lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py
 grade: "DECISIVE TYPE-AND-CURVATURE NEGATIVE for reusing the ordinary tau derivative as the missing W131 tangent/BV differential. The source-backed map d tau_A(xi)=(xi,D_A xi) is an exact nonabelian Lie-algebra homomorphism into the ordinary adjoint connection sector. D_A alone is not nilpotent on a nonflat connection, while G3's full ordinary-gauge BRST closure remains valid but has the wrong carrier for the scalar-spinor to gamma-traceless-vector-spinor W131 complex. Super-IG/RS closure and observer-descending cohomology remain open."
-claim_status_change: false
-canon_change: false
-public_posture_change: false
 ---
 
 # Wave 3D-B2C2A — tau-tangent/BV type and curvature collision

@@ -4,18 +4,13 @@ status: active_research
 doc_type: resolver_design_packet
 artifact_type: resolver_design_packet
 created: 2026-08-11
-run_id: RUN-20260811-141240-gu-signature-ambient-resolver-design
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 target_fork: SIGNATURE-AMBIENT
 relates_to:
   - explorations/campaign-altitude-route-review-2026-08-11.md (rank-4(a) proposal)
   - explorations/source-signature-notation-is-mirrored-2026-08-08.md
   - explorations/dc-h1-orbit-signs-monodromy-check-2026-08-04.md
 designer_certificate: tests/channel-swings/signature_ambient_relative_sign_design_certificate.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 binding: >-

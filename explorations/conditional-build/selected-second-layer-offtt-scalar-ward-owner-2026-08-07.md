@@ -4,9 +4,7 @@ created: 2026-08-07
 status: METRIC_ONLY_OFFTT_BLOCK_NOT_GAUGE_BASIC__FULL_COMOVING_DUPSILON_OWNER_REQUIRED
 source_return: SOURCE-CONFIRMS__I2B_NORM_SQUARE__SOURCE-SILENT__I2B_TO_OBSERVER_FULL_II_OWNER
 ledger: lab/process/conditional-physics-ledger-v0.42.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer off-TT scalar and Ward owner

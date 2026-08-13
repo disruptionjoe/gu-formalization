@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_invariant_pairing_result
 created: 2026-08-13
-run_id: RUN-20260813-024925-gu-i2b-source-natural-primalizer-classification
 status: FIXED_SOURCE_NATURAL_QB_UNIQUE_UP_TO_SCALE_ON_LIVE_GRADE_ONE_BRANCH__PAIRING_ONLY_ESCAPE_CLOSED__MOVING_REDUCTION_OR_SOURCE_DERIVED_BV_TANGENT_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 ---
 

@@ -38,7 +38,7 @@ def check(kind: str, label: str, value) -> None:
 ledger = strict("lab/process/conditional-physics-ledger-v0.184.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.183.json")
 result = strict("lab/process/selected-k77-h640-ambient-observed-riccati-boundary.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.184"
@@ -97,7 +97,7 @@ check("routing", "vertical adapter precedes the sixteen-cell solve",
 for relative, needles in {
     "NEXT-STEPS.md": ["ledger v0.184", "Higgs/soldering adapter", "rank 1,920"],
     "RESEARCH-STATUS.md": ["ledger v0.184", "transverse `Y^14`", "rank 128"],
-    "lab/process/agent-context-pack.md": ["Current v0.184", "vertical adapter", "P1/P2/P3"],
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.184", "vertical adapter", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-h640-ambient-observed-riccati-boundary-review.md": ["SURVIVES_SCOPED", "symplectic/BV-BFV", "ordinary pullback"],
     "lab/sources/selected-k77-h640-ambient-observed-riccati-boundary-source-return-2026-08-11.md": ["SOURCE-SILENT", "not a quotation"],
 }.items():

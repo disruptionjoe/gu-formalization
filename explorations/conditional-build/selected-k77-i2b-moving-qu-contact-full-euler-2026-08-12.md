@@ -2,8 +2,6 @@
 title: "Selected K77 I2B moving-Q_u contact and full fixed-background Euler"
 status: conditional-construction
 created: 2026-08-12
-run_id: RUN-20260812-225452-gu-i2b-moving-qu-contact-full-euler
-lane: 1
 channels: [Build, Compose, Source, Verify]
 source_disposition: SOURCE-CONFIRMS-SC-ACT-04__SOURCE-SILENT-EXACT-QU-AND-BACKGROUND-REPAIR
 free_object_delta: "zero; the result emits a two-shape demand on an already-unbuilt background response"

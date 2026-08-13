@@ -4,9 +4,7 @@ created: 2026-08-09
 status: MIXED_ORDER_ACTION_GRAMMAR_EXACT__COMPLETE_OPERATOR_AND_DMAX_DMIN_UNOWNED
 channels: [SOURCE, COMPOSE, BUILD, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR3, LT-GR5, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 bulk-operator admission gate

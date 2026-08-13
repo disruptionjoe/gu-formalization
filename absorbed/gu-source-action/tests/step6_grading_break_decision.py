@@ -33,7 +33,7 @@ We decide it by direct computation on the verified bridge objects.
     A nonzero eta over some t, via a GENUINE eigenvalue crossing (clean gap, not tol noise),
     means the wall is soft (GO). eta is even throughout (quaternionic Kramers), as it must be.
 
-RESULT (this run reproduces): the natural breaker keeps eta = 0 for all t (it is the special,
+RESULT (this investigation reproduces): the natural breaker keeps eta = 0 for all t (it is the special,
 non-generic case); GENERIC admissible breakers carry genuine spectral flow eta = +/-4. So eta = 0
 is NOT symmetry-protected. VERDICT: GO. The index route is revived as a spectral-flow / odd
 invariant the moment the grading is broken by an admissible connection OUTSIDE the M_D-symmetric

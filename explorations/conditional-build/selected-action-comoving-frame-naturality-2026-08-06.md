@@ -2,9 +2,7 @@
 artifact_type: conditional_build_result
 created: 2026-08-06
 status: PURE_FRAME_SELECTED_ACTION_NATURAL__PHYSICAL_SOLDERING_FIELD_OBSERVATION_DERIVATIVE_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ledger: lab/process/conditional-physics-ledger-v0.27.json
 machine_registry: lab/process/selected-action-comoving-frame-naturality.json
 probe: tests/channel-swings/selected_action_comoving_frame_naturality_probe.py

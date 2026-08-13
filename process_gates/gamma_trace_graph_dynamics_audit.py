@@ -30,7 +30,7 @@ def unique_json(path):
 
 ledger = unique_json(ROOT / "lab/process/conditional-physics-ledger-v0.158.json")
 registry = unique_json(ROOT / "lab/process/selected-k77-gamma-trace-graph-dynamics-gate.json")
-contract = unique_json(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+contract = unique_json(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-gamma-trace-graph-dynamics-gate-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-gamma-trace-graph-dynamics-review.md").read_text()
 source = (ROOT / "lab/sources/selected-k77-gamma-trace-graph-dynamics-source-return-2026-08-10.md").read_text()
@@ -87,7 +87,7 @@ print("\nD. PROCESS AND EXECUTABLE FENCES")
 check("process", "contract points to v0.158", contract["standing_ledger"]["ref"].endswith("v0.158.json"))
 check("process", "next gate owns the rank-128 receiver completion", "RANK128_EQUATION_RECEIVER" in registry["next_gate"])
 check("process", "parent and rival scopes remain separate", "TWO_U32_32_HALVES_REMAIN_DISTINCT" in registry["parent_scope"])
-for path in ["LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md", "lab/process/agent-context-pack.md"]:
+for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md"]:
     check("process", f"{path} names v0.158", "v0.158" in (ROOT / path).read_text())
 check("process", "source index lists the new return", "selected-k77-gamma-trace-graph-dynamics-source-return" in (ROOT / "lab/sources/README.md").read_text())
 check("process", "test manifest lists the exact probe", "selected_k77_gamma_trace_graph_dynamics_probe.py" in (ROOT / "tests/README.md").read_text())

@@ -37,7 +37,7 @@ def strict(relative):
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.132.json")
 result = strict("lab/process/selected-k77-action-owned-reduction-carrier-typing.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 rows = {row["id"]: row for row in ledger["rows"]}
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-reduction-carrier-typing-review.md").read_text()
 canon = (ROOT / "canon/generation-carrier-identification-scope-correction-2026-08-10.md").read_text()

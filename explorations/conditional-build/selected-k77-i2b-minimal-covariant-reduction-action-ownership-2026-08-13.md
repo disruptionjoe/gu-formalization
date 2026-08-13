@@ -1,14 +1,9 @@
 ---
 artifact_type: conditional_build_action_ownership_result
 created: 2026-08-13
-run_id: RUN-20260813-041319-gu-i2b-minimal-covariant-reduction-owner
-lane: 1
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 status: MINIMAL_EXISTING_OMEGA_J4_ACTION_COMPLETIONS_EXHAUSTED__NONLINEAR_SOURCE_ACTION_OWNER_OR_HIGGS_CARRIER_RETYPING_OPEN
 source_return: SOURCE_CONFIRMS_TWO_C32_32_HALVES_FULL_U64_64_PARENT_AND_VARPI_COMPONENT_ASSIGNMENT__SOURCE_SILENT_OMEGA_J4_PENALTY_MULTIPLIER_AND_EULER_CANCELLATION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "two canonical structures omega/J4 times fixed or moving compatibility times penalty or multiplier completion; complete 196-cell selected Cl1 bank decided wholesale"
 free_object_delta: 0

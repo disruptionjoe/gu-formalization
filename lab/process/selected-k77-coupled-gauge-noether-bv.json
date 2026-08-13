@@ -1,7 +1,7 @@
 {
   "artifact_type": "construction_result",
   "created": "2026-08-11",
-  "run_id": "RUN-20260811-030337-gu-k77-coupled-gauge-noether-bv",
+  "run_id": "historical-investigation",
   "ledger_version": "0.164",
   "grade": "EXACT_LOCAL_ALGEBRAIC_COMPOSITION_WITH_POINTWISE_REPRESENTATION_THEOREM",
   "source_fields": {

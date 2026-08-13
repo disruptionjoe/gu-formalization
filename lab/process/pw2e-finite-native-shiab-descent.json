@@ -1,6 +1,6 @@
 {
   "artifact_type": "pw2e_finite_native_shiab_descent_result",
-  "run_id": "RUN-20260802-210344-gu-formalization-pw2e-finite-native-metric-ward",
+  "run_id": "historical-investigation",
   "status": "PW2E_FINITE_ACTIVE_NATIVE_OPERATOR_AND_THREE_PATCH_DESCENT_PASS_PUBLIC_PORT_AND_ANALYTIC_GLOBALIZATION_OPEN",
   "date": "2026-08-02",
   "branch": "agent/null-clifford-omega1-repair",

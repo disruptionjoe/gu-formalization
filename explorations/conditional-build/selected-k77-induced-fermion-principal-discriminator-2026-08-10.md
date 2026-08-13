@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-10
 status: PRINCIPAL_PARTIAL__W_EQUALS_ASD_MIRROR__LOWER_ORDER_SELECTION_OPEN
 grade: "exact finite-field and Gaussian-rational principal-symbol result; no physical kernel, cohomology, domain, spectrum, chirality or count"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 induced-fermion principal discriminator

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-12",
-  "run_id": "RUN-20260812-145145-gu-i2b-radial-lc-section-qrow-composition",
+  "run_id": "historical-investigation",
   "status": "LOCAL_FIRST_ORDER_COMPOSITION_PASSES__FULL_EULER_PREBOUNDARY_OPEN",
   "source_return": "SOURCE_CONFIRMS_GAUGE_ROTATED_LEVI_CIVITA_AND_OBSERVATION_SECTION_GRAMMAR__SOURCE_SILENT_ON_EXACT_RADIAL_QROW_ACTION_CANCELLATION",
   "section_q_row": {

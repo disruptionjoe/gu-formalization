@@ -3,14 +3,11 @@ title: "RB2 source-action exactness and current-bridge Euler shootout"
 status: active_research
 doc_type: construction_result
 created: 2026-07-30
-lane: "1"
 work_item: RB2-SOURCE-ACTION-EXACTNESS-SHOOTOUT
-run: lab/process/runs/GUH-20260730T203326Z-rb2-source-action-exactness/run-plan.md
+run: archived private execution record
 probe: tests/channel-swings/rb2_source_action_exactness_probe.py
 grade: "FORMULA-BUILT / CONDITIONAL CONSTRUCTION WITH ONE LAYER-0 CORRECTION. Two classical fixed-geometry antifield-zero A/U/P/epsilon/Z N1 bridge-sector Euler skeletons are built, finite-difference checked, and shown formally distinct on a nondegenerate control. A finite homogeneous adjoint-conjugation covariance proxy passes; no native stabilizer Ward identity is claimed. The total-current bridge cancels the direct full-20 connection current but leaves an A-Hessian bulk response, a Z-Hessian response, the common S20 Q_F flux, and a total-only Z-Hessian flux. The source (1/2,1/3) coefficients are uniquely selected in an independent cyclic noncommutative translation fixture, conditional on the stated transgression identities and independent channels; homogeneous gauge covariance is coefficient- and lambda-blind. The native source-shaped branch is BLOCKED FIRST at the density-dual bosonic Shiab carrier/real-form gate. Two native construction routes return through RB1/RB2; the source-real-form formula remains comparator-only. Complete N1, native Ward, Diff, CME, VEV, stationarity, domain, physical mass, anomaly/index, and count remain held."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # RB2 source-action exactness and current-bridge Euler shootout

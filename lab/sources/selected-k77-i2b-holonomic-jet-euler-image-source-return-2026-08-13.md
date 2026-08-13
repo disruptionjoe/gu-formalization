@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-074018-gu-i2b-holonomic-jet-euler-image
 source_claims: [SC-ACT-02, SC-ACT-04]
 disposition: SOURCE_CONFIRMS_GRAMMAR__SOURCE_SILENT_SELECTED_HOLONOMIC_JET_AND_GLOBAL_REALIZATION
 ---

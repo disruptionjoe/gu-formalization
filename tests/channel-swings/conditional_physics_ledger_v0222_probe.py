@@ -33,7 +33,7 @@ def check(name, condition, planted=False):
 check("schema", new["schema_version"] == "0.222")
 check("predecessor", new["predecessor"].endswith("v0.221.json"))
 check("status", new["status"] == "CURRENT_APPEND_ONLY_LEDGER_V0_222")
-check("run_owner", new["updated_by"] == "RUN-20260812-215541-gu-i2b-contact-euler-hodge-adapter")
+check("run_owner", new["updated_by"] == "historical-investigation")
 check("denominator_unchanged", new["denominator"] == old["denominator"])
 check("verdict_counts_unchanged", new["progress"]["verdict_counts"] == old["progress"]["verdict_counts"])
 check("coverage_unchanged", (new["progress"]["mapped"], new["progress"]["total"]) == (82, 82))

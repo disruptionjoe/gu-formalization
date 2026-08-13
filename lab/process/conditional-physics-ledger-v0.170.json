@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.170 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; scalar Craig-Weinstein support alone fails on the matrix Jordan defect, while strict-center support plus the canonical rank-128 N(k) kernel builds a conditional observation-preserving flat principal-domain ingredient"
   },
-  "updated_by": "RUN-20260811-091040-gu-k77-nonlocal-ultrahyperbolic-polarization-gate",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 2,

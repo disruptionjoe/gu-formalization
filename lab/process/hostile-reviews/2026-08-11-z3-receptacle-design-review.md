@@ -1,7 +1,7 @@
 # Hostile review: z3 receptacle design packet
 
 Target: `explorations/z3-receptacle-design-packet-2026-08-11.md`
-Run: `RUN-20260811-234500-gu-five-frontier-design-packets` (same-run self-review by the design pass; the executing wave reviews independently).
+Run: `historical-investigation` (same-run self-review by the design pass; the executing wave reviews independently).
 
 ## Self-hostile review (the three standing charges)
 

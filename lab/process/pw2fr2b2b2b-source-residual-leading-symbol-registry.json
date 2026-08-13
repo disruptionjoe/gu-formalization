@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260803-083101-gu-formalization-pw2fr2b2b2b-source-leading-symbols",
+  "run_id": "historical-investigation",
   "gate": "PW2F-R2B2B2B-SOURCE-RESIDUAL-LEADING-SYMBOL",
   "status": "ACTIVE_LOCAL_METRIC_TANGENT_AND_FULL_RESIDUAL_PORT_PASS_LC_J3_ZERO_I1_C5_AND_NORMAL_I2B_C6_J3J2_C5_ZERO_OFFSHELL_I2B_C5_OPEN",
   "layer0": {

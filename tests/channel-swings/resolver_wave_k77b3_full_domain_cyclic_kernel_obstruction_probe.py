@@ -335,7 +335,7 @@ def map_fingerprint_matrix(banks: tuple[tuple[Form, ...], ...]) -> sp.Matrix:
 print("A. PRIMARY SOURCE COLLISION AND LAYER 0")
 
 source_pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
-rendered = (ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
+rendered = (ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
 check("source", "source writes the full translation-direction variation varpi+s alpha",
       r"I^B_1(\epsilon,\varpi+s\alpha)" in source_pack)
 check("source", "source requires the completed F plus one-half dT plus one-third quadratic residual",

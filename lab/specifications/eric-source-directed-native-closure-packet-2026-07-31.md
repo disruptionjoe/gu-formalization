@@ -4,7 +4,7 @@ status: conditional_construction
 doc_type: specification
 created: 2026-07-31
 branch: agent/weinstein-guided-source-action
-run: lab/process/runs/GUH-20260731T160344Z-eric-source-directed-native-closure/run-plan.md
+run: archived private execution record
 certificate: lab/process/eric-source-directed-native-closure-certificate.json
 probe: tests/channel-swings/eric_source_directed_native_closure_probe.py
 ---
@@ -27,7 +27,7 @@ There are three deliberately separate verdicts:
 3. **Actual `Y^14` emergence:** the same objects are selected by the native
    action, globalize, close on a physical domain, and pass the physics tests.
 
-This run establishes 1 and 2. Every row remains open at 3. A fixture containing
+This investigation establishes 1 and 2. Every row remains open at 3. A fixture containing
 `u(1) + su(2) + su(3)` is intentionally target-coded and is never evidence that
 the action emits that algebra.
 

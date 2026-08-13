@@ -6,7 +6,6 @@ verdict: CANDIDATE_FALSIFIED
 fork_status_change: none
 ledger_change: none
 canon_verdict_change: none
-public_posture_change: none
 source_return: SOURCE_CONFIRMS_AUTHOR_ASSERTS_K77__SOURCE_SILENT_ON_AN_INDEPENDENT_MW_REQUIREMENT_AND_A_GU_DERIVATION_OF_THE_FIBRE_TRACE_SIGN
 required_lenses:
   - layer0_semantics

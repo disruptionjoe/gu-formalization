@@ -53,7 +53,7 @@ import re, sys
 from fractions import Fraction as Fr
 from pathlib import Path
 
-REPO = Path(r"C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization")
+REPO = Path(r"C:\Users\joe\JB\private orchestration overlay\repos\public\gu-formalization")
 N = 0
 def check(cond, label):
     global N

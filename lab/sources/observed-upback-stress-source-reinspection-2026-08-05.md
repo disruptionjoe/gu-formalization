@@ -2,7 +2,6 @@
 title: "Source reinspection: up-and-back stress, operator order and observed gravity"
 date: 2026-08-05
 status: source_collision_receipt
-lane: 1
 source_collision: SOURCE_CORRECTS_LITERAL_DIAGONAL_COMPOSITE_AND_MOMENTUM_FREE_READINGS__SOURCE_CONFIRMS_PATH_ARCHITECTURE_AND_UNFINISHED_CANCELLATION_BURDEN__SOURCE_SILENT_ON_ACTION_RADIAL_TRANSGRESSION_AND_SINGLE_POLE_PLACEMENT
 ---
 

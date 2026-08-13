@@ -3,7 +3,7 @@ title: "PW2 full first-jet action graph and source-domain obstruction"
 status: active_research
 doc_type: construction_result
 updated_at: "2026-08-02"
-run: "RUN-20260802-152647-gu-formalization-pw2-first-jet-action"
+run: "historical-investigation"
 grade: "PW2 EXACT AUTOMATIC-SOURCE-INTEGRABILITY OBSTRUCTION WITH CONDITIONAL FULL-JET/ORDER-TWO CERTIFICATES. Weinstein's written B_omega is epsilon-derived. The repository's projected (B,T)->(B+K,T-K) correction is therefore a source-coordinate reparametrization only if B+K remains in that epsilon gauge orbit. Exact Maurer-Cartan witnesses, including the PW1 U(2,2)/Sp(1,1) reduction, show that a flat full gauge displacement can acquire nonzero curvature after reductive projection, so reductive projection and affine descent do not prove source integrability. The actual native K_u on an admitted Y14 background is not evaluated. The earlier nonzero split response is retained as evidence for an explicit modified repository functional, not promoted as a reparametrization of the stated source action. Separately, PW2 proves that exterior dT does not own dK for a legal pointwise index-mixing comparator, reconciles an exact frozen polynomial graph by symbolic and independent dual-number differentiation, and certifies the complete C2 rank locus; native K_u factorization through Alt and the literal native Y14 coefficient remain open. PW3 is not enabled. P1/P2/P3 remain unchanged and unused."
 ---
 

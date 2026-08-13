@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-121249-gu-i2b-local-stationary-bianchi-jet
 source_claims: [SC-ACT-04]
 disposition: SOURCE_CONFIRMS_GRAMMAR__SOURCE_SILENT_LOCAL_WITNESS_PROLONGATION_AND_GLOBALIZATION
 ---

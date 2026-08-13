@@ -49,7 +49,7 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
 ## Step 1 -- Endorsement (DO THIS FIRST; longest lead time; MANDATORY)
 
 Per arXiv's **updated policy of 2026-01-21**, an independent researcher with no institutional affiliation
-**must** obtain a personal endorsement for `hep-th`. Institutional email alone no longer qualifies, and there is
+**must** obtain a perspectivel endorsement for `hep-th`. Institutional email alone no longer qualifies, and there is
 no bypass -- you cannot "just post it" to arXiv. (Sources verified 2026-07-09:
 `blog.arxiv.org/2026/01/21/attention-authors-updated-endorsement-policy`, `info.arxiv.org/help/endorsement.html`.)
 

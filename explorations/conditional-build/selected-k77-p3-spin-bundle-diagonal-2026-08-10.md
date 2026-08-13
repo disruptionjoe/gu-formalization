@@ -2,13 +2,9 @@
 artifact_type: exact_topological_interface_and_parameter_accounting_result
 created: 2026-08-10
 status: ONE_P3_ORIENTATION_MATCHES_CHIRAL_SPIN_BUNDLE__TOPOLOGICAL_DIAGONAL_EXISTS_UP_TO_GAUGE__CONNECTION_DIAGONAL_CONDITIONAL_ON_HOMOGENEOUS_ROUND_BPST
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_SILENT_P3_SOURCE_CONNECTION_DIAGONAL_AND_RESTRICTED_ACTION__SOURCE_CORRECTS_SELF_DUALITY_AS_EINSTEINIAN_TANGENTIAL_NOT_BARE_INTERNAL_YANG_MILLS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 P3 chiral-spin bundle diagonal

@@ -32,8 +32,8 @@ def unique_json(path):
 ledger = unique_json(ROOT / "lab/process/conditional-physics-ledger-v0.161.json")
 result = unique_json(ROOT / "lab/process/selected-k77-fixed-common-receiver-hull.json")
 predecessor = unique_json(ROOT / "lab/process/conditional-physics-ledger-v0.160.json")
-contract = unique_json(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
-contract_md = (ROOT / "lab/process/functional-channel-operating-contract-v1.0.md").read_text()
+contract = unique_json(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
+contract_md = (ROOT / "lab/methods/research-evidence-contract-v1.0.md").read_text()
 report = (ROOT / "explorations/conditional-build/selected-k77-fixed-common-receiver-hull-2026-08-11.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-11-selected-k77-fixed-common-receiver-hull-review.md").read_text()
 source = (ROOT / "lab/sources/selected-k77-fixed-common-receiver-hull-source-return-2026-08-11.md").read_text()
@@ -129,8 +129,8 @@ check("process", "machine contract carries the rank-384 directive",
       "RANK384" in contract["standing_ledger"]["source_owned_hull_interface_directive"])
 check("process", "human contract carries rank-384 and unrestricted successor",
       "rank-384" in contract_md and "unrestricted four-field Euler" in contract_md)
-for path in ["LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
-             "lab/process/README.md", "lab/process/agent-context-pack.md",
+for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
+             "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md",
              "lab/process/exploration-absorption-priorities-2026-08-10.md"]:
     check("process", f"{path} names v0.161", "v0.161" in (ROOT / path).read_text())
 check("process", "source manifest lists this return",

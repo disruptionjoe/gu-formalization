@@ -38,12 +38,12 @@ def check(kind: str, label: str, condition: object) -> None:
 old = strict("lab/process/conditional-physics-ledger-v0.141.json")
 new = strict("lab/process/conditional-physics-ledger-v0.142.json")
 result = strict("lab/process/selected-k77-zero-fermion-vev-selector-exhaustion.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-zero-fermion-vev-selector-exhaustion-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-zero-fermion-vev-selector-exhaustion-review.md").read_text()
 routing = "\n".join((ROOT / name).read_text() for name in (
-    "LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
-    "lab/process/agent-context-pack.md", "lab/process/exploration-absorption-priorities-2026-08-10.md",
+    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md", "lab/process/exploration-absorption-priorities-2026-08-10.md",
 ))
 tests_readme = (ROOT / "tests/README.md").read_text()
 gates_readme = (ROOT / "process_gates/README.md").read_text()

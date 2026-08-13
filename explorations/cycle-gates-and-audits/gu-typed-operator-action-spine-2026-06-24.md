@@ -6,7 +6,7 @@ doc_type: research_spine
 verdict: "CANONICAL_PROPOSAL_NOT_PROOF_GRADE"
 owned_path: "explorations/cycle-gates-and-audits/gu-typed-operator-action-spine-2026-06-24.md"
 depends_on:
-  - "explorations/persona-and-dialectic/persona-review-cross-panel-synthesis-2026-06-24.md"
+  - "explorations/perspective-and-dialectic/perspective-review-cross-panel-synthesis-2026-06-24.md"
   - "explorations/vz-evasion/vz-principal-symbol-convention-reconciliation-2026-06-24.md"
   - "explorations/vz-evasion/vz-proof-grade-verification-gate-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md"
@@ -974,7 +974,7 @@ or the claim is not yet well-defined.
 
 ## Sources Read
 
-- `explorations/persona-and-dialectic/persona-review-cross-panel-synthesis-2026-06-24.md`
+- `explorations/perspective-and-dialectic/perspective-review-cross-panel-synthesis-2026-06-24.md`
 - `explorations/vz-evasion/vz-principal-symbol-convention-reconciliation-2026-06-24.md`
 - `explorations/vz-evasion/vz-proof-grade-verification-gate-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md`

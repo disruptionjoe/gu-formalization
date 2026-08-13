@@ -1,15 +1,10 @@
 ---
 artifact_type: construction_result
 created: 2026-08-11
-run_id: RUN-20260811-033947-gu-k77-coupled-green-domain
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_version: "0.165"
 result: SYMMETRIZED_TOTAL_PREBOUNDARY_FORM_EXACT__FULL_CARRIER_SMALL_GAUGE_BASIC_LAGRANGIAN_GRAPHS_EXIST_CONDITIONALLY__FIXED_FERMION_REALITY_VALID__NAIVE_MOVING_TOTAL_REALITY_REJECTED__AT_LEAST_120_GRAPH_COORDINATES_UNSELECTED__ACTUAL_K77_ANTILINEAR_CALDERON_DOMAIN_NEXT
 grade: "EXACT finite symplectic/variational comparator and full-carrier dimension theorem; physical anti-linear K77 domain, global analysis and BFV quotient excluded"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 coupled Green/domain gate

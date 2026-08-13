@@ -28,7 +28,7 @@ Most of these first artifacts now have draft public surfaces:
 
 ## Highest-Upside Research Paths
 
-These are the paths most likely to yield novel or profound insight, ranked by the five-persona rubric in `lab/roadmap/five-persona-value-ranking-rubric.md`.
+These are the paths most likely to yield novel or profound insight, ranked by the five-perspective rubric in `lab/roadmap/five-perspective-value-ranking-rubric.md`.
 
 | path | novelty | profundity | first public task | why it matters |
 | --- | ---: | ---: | --- | --- |

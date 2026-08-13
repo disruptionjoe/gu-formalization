@@ -4,9 +4,7 @@ created: 2026-08-07
 status: INDEPENDENT_OBSERVATION_COLUMN_REJECTED__DEPENDENT_NORMAL_JET_ROUTE_OPEN
 source_return: SOURCE-CORRECTS__OBSERVATION_IS_RECEIVER_NOT_INDEPENDENT_ACTION_FIELD__SOURCE-SILENT__NORMAL_JET_OF_UPSILON
 ledger: lab/process/conditional-physics-ledger-v0.45.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer observation-owner retype

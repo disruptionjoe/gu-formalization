@@ -6,7 +6,7 @@ paper: "located-not-forced-generation-count-2026-06-29"
 team: "QW-LEADPAPER (HQW-LEAD)"
 date: "2026-07-14"
 grade: "review-support (no science change; credibility/honesty audit + referee-facing dependency table)"
-method: "five personas inline (author-editor, hostile referee, rep-theory checker, reproducibility engineer, honesty auditor), then synthesis"
+method: "five perspectives inline (author-editor, hostile referee, rep-theory checker, reproducibility engineer, honesty auditor), then synthesis"
 ---
 
 # HQW-LEAD credibility pass (2026-07-14)
@@ -23,7 +23,7 @@ GU-independent theorem core):
 Binding: honest grading; no science/canon change; no external action; no promotion (arXiv submission
 is Joe-gated). Line numbers reference the `.tex` submission source as of this pass.
 
-Reproducibility anchors run this pass (reproducibility-engineer persona, real exit status):
+Reproducibility anchors run this pass (reproducibility-engineer perspective, real exit status):
 `reproduce_all.py` -> **31/31 load-bearing checks, exit 0** (150.8s);
 `tests/W177_connection_curvature_c2.py` -> **17/17, exit 0** (the GU-native-curvature reinforcement).
 
@@ -65,7 +65,7 @@ the `Hom(Z/3,Z)=0` sharpening, and the external/open-residual caveat are attache
 locus, including the title framing, the abstract, each contribution item, both theorem sections, the carrier
 section, the decider, the open-conjecture section, the status table, and the conclusion.
 
-**Rep-theory checker (persona 3) sign-off on the premise itself.** The load-bearing conditional is correctly
+**Rep-theory checker (perspective 3) sign-off on the premise itself.** The load-bearing conditional is correctly
 stated. `Hom(Z/3,Z)=0` is correct (no nonzero homomorphism from a torsion group to a torsion-free one), and
 its use is correct: it blocks identifying the *absolute* torsion class with an integer count, while leaving a
 *relative/equivariant/rank* invariant (integer-by-construction, geometry-dependent) as the only well-typed
@@ -75,7 +75,7 @@ open-conjecture section is also correct. The premise is a genuine premise (not a
 states, correctly, that under a literal integer-index reading the same obstructions would *forbid* an odd
 count outright (net index 0 forces count 0), so "located, not forced" is contingent, not derived.
 
-**Hostile referee (persona 2) residual concern (logged, not a defect).** The strongest referee pushback is
+**Hostile referee (perspective 2) residual concern (logged, not a defect).** The strongest referee pushback is
 not that a sentence overstates -- none does -- but that the whole "located, not forced" verdict *depends on
 choosing* the torsion-count reading over the integer-index reading, and the paper does not *derive* that
 choice. The paper handles this honestly: it flags the choice as a load-bearing premise (Corollary
@@ -105,7 +105,7 @@ Category key:
 - **GU-MOTIVATION-ONLY (GMO)** -- GU supplies provenance / choice of setting only; the mathematical content
   is standard and would stand under any equivalent setting.
 
-| # | Substantive claim | Category | Why | Machine check (persona 4) |
+| # | Substantive claim | Category | Why | Machine check (perspective 4) |
 |---|---|---|---|---|
 | C1 | Two-primary meta-theorem (Thm 1): no enumerated obstruction is an odd-prime congruence; class-C completeness | **FGI** | Arithmetic of the Clifford--RS sector's own invariants; no GU input | `reproduce_all.py` 31/31 exit 0; `tests/generation-sector/` |
 | C2 | Table-free parity backstop: every covariant interior count is even (centrality + Schur + even-dim irreps) | **FGI** | Pure rep theory of the carrier | `R1_kill_odd_index_isotypic.py`, exit 0 (per status table) |
@@ -148,7 +148,7 @@ and to the explicitly-flagged open bridge.
 
 ---
 
-## Honesty auditor (persona 5) sign-off
+## Honesty auditor (perspective 5) sign-off
 
 - The premise flag is present at all 17 count/located loci; no clause was added because none was missing, and
   none was removed. No overstatement was manufactured or masked.

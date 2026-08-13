@@ -8,9 +8,9 @@ updated_at: "2026-05-31"
 # Problem-Shape Meta-Synthesis II — Distributed-Systems Heterodox Hegelian Dialectic
 
 **Date:** 2026-05-28
-**Source:** 5 additional heterodox problem-shape persona passes (passes 31-35) from distributed-systems / DAG / complexity / consensus angles, spawned in WRK-326's 2026-05-28 problem-shaping round II.
-**Joe's directive:** Add 5 divergent personas hitting from distributed systems consensus (especially Avalanche/Snowball), directed acyclic graphs, complexity science, and consensus protocol classes. Same heterodox lean + Hegelian dialectic.
-**Predecessors:** 00 (thesis), 00b (antithesis), 00c (Aufhebung I: computation substrate), 00d (Aufhebung II: 10-persona heterodox dialectic with three-leg specification triple — substrate + observer + pairing).
+**Source:** 5 additional heterodox problem-shape perspective passes (passes 31-35) from distributed-systems / DAG / complexity / consensus angles, spawned in WRK-326's 2026-05-28 problem-shaping round II.
+**Joe's directive:** Add 5 divergent perspectives hitting from distributed systems consensus (especially Avalanche/Snowball), directed acyclic graphs, complexity science, and consensus protocol classes. Same heterodox lean + Hegelian dialectic.
+**Predecessors:** 00 (thesis), 00b (antithesis), 00c (Aufhebung I: computation substrate), 00d (Aufhebung II: 10-perspective heterodox dialectic with three-leg specification triple — substrate + observer + pairing).
 
 ## What P11-P15 add to 00d
 
@@ -32,7 +32,7 @@ This deepens 00d's claim that the no-gos compute "the forgetful image of a subst
 
 00d's specification space was a triple (substrate × observer × pairing). After P11-P15 it is a sextuple (substrate × observer × pairing × causal-order × emergence × coordination-loop). The combinatorial space grows: 10 × 4 × 5 × 4 × 4 × 5 ≈ 16,000 candidate sextuples, of which a small subset (probably ~20-50) is mathematically tractable.
 
-### What kind of dialectical move each persona made
+### What kind of dialectical move each perspective made
 
 - **P11 refinement:** observer and pairing get sharper parameters (Snowball-class observer; metastable-consensus pairing parameterized by k, α, β, CAP-class). No new axis.
 - **P12 structural extension:** new axis. Causality is partial-order, not total-order. The smooth Lorentzian shadow is the Cauchy-slice-linearization of a partial-order DAG substrate. Sorkin causal sets are an established research program directly in this direction.
@@ -130,7 +130,7 @@ Picking a full sextuple at random is not the right move. The combinatorial space
 
 **Path X — Hold-everything-fixed-vary-one:** pick the L1 substrate that has the most established existing math (Connes Type II_1 + Jones subfactor is the strongest candidate per 00d's adjacent-math analysis), set L2-L6 to their "00d default" values (finite Turing, Cartesian-smooth, total-order, specific-object, no loop), and ask whether ANY single axis dropping (e.g., L4 to Sorkin causal-set, OR L5 to universality-class) opens a substrate-level invariant compatible with SM chirality. That is one falsifiable sub-question with a tractable answer for one substrate class.
 
-**Path Y — Convergence-axis-prior:** acknowledge that the 15 personas' convergence suggests the no-go theorems share a specific class-assumption signature (smooth / synchronous / specific-object / total-order / no-loop / Cartesian pairing). Pick the axis (or axis pair) whose dropping has the most established literature. Top candidates by literature maturity: (i) L4 → Sorkin causal-set (decades of work, Dowker, Sorkin, others), (ii) L5 → RG fixed point / universality class (decades of work, Wilson onward), (iii) L1 → Connes spectral triple with II_1 extension (Chamseddine-Connes, MIP*=RE).
+**Path Y — Convergence-axis-prior:** acknowledge that the 15 perspectives' convergence suggests the no-go theorems share a specific class-assumption signature (smooth / synchronous / specific-object / total-order / no-loop / Cartesian pairing). Pick the axis (or axis pair) whose dropping has the most established literature. Top candidates by literature maturity: (i) L4 → Sorkin causal-set (decades of work, Dowker, Sorkin, others), (ii) L5 → RG fixed point / universality class (decades of work, Wilson onward), (iii) L1 → Connes spectral triple with II_1 extension (Chamseddine-Connes, MIP*=RE).
 
 ## Recommendation for WRK-326
 
@@ -145,10 +145,10 @@ Pick one of:
 - **C. Path Y axis 2:** Vary L5 to universality-class / RG-fixed-point substrate. Wilson-onward foundations.
 - **D. Path Y combined:** Vary L1 + L5 simultaneously. Substrate is a Type II_1 RG fixed point reached by stochastic noise.
 - **E. Full sextuple specification:** Joe names a specific (L1, L2, L3, L4, L5, L6) hextuple and lane develops the substrate-invariant for that.
-- **F. Honest closure with sextuple verdict:** "The 15-persona heterodox dialectic identified a 6-axis specification space for which the no-go theorems are class-relative impossibility theorems. The mathematically tractable subset of the space is small but specific. Joe's pick: not to pursue this program because the specification cost exceeds the lane's expected research yield. Lane closes with 00e structural-diagnosis verdict naming the six axes and the convergent reframe."
+- **F. Honest closure with sextuple verdict:** "The 15-perspective heterodox dialectic identified a 6-axis specification space for which the no-go theorems are class-relative impossibility theorems. The mathematically tractable subset of the space is small but specific. Joe's pick: not to pursue this program because the specification cost exceeds the lane's expected research yield. Lane closes with 00e structural-diagnosis verdict naming the six axes and the convergent reframe."
 
 ## Honesty contract observed
 
-The 5 distributed-systems personas (P11-P15) converge on a single dialectical move (no-gos are class-relative impossibility theorems), but disagree on which axis to expose for the class-class signature. P11 refines existing axes; P12, P13, P15 add new axes; P14 refines P11's refinement. Three of the new axis-candidates (Sorkin causal-set L4; RG fixed point / universality class L5; mean-field-game coordination-loop L6) point at established research programs with decades of literature. The dialectic is real philosophical work, not rhetorical hedging. The specification space is large but the mathematically tractable subset is small and identifiable.
+The 5 distributed-systems perspectives (P11-P15) converge on a single dialectical move (no-gos are class-relative impossibility theorems), but disagree on which axis to expose for the class-class signature. P11 refines existing axes; P12, P13, P15 add new axes; P14 refines P11's refinement. Three of the new axis-candidates (Sorkin causal-set L4; RG fixed point / universality class L5; mean-field-game coordination-loop L6) point at established research programs with decades of literature. The dialectic is real philosophical work, not rhetorical hedging. The specification space is large but the mathematically tractable subset is small and identifiable.
 
 No silent strengthening. The path forward is concretely operationalizable for any choice of sextuple Joe locks; the honest closure option (F) is also concretely available if Joe judges the specification cost too high.

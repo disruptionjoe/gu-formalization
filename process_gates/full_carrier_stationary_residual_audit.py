@@ -30,7 +30,7 @@ def unique_json(path):
 
 ledger = unique_json(ROOT / 'lab/process/conditional-physics-ledger-v0.156.json')
 registry = unique_json(ROOT / 'lab/process/selected-k77-full-carrier-stationary-residual.json')
-contract = unique_json(ROOT / 'lab/process/functional-channel-operating-contract-v1.0.json')
+contract = unique_json(ROOT / 'lab/methods/research-evidence-contract-v1.0.json')
 report = (ROOT / 'explorations/conditional-build/selected-k77-full-carrier-stationary-residual-2026-08-10.md').read_text()
 review = (ROOT / 'lab/process/hostile-reviews/2026-08-10-selected-k77-full-carrier-stationary-residual-review.md').read_text()
 source = (ROOT / 'lab/sources/selected-k77-full-carrier-stationary-residual-source-return-2026-08-10.md').read_text()
@@ -83,7 +83,7 @@ check('process', 'directive records the carrier correction', 'PROJECTED_W_64_BY6
 check('process', 'directive forbids more sign retuning', 'NO_MORE_TRACE_Q_SIGN_RETUNING' in directive)
 check('process', 'successor is moving-varpi determinant intersection', 'MOVING_VARPI_DETERMINANT_LOCUS' in registry['next_gate'])
 check('process', 'southeast rival remains separate in successor', 'SOUTHEAST_NONZERO_RIVAL_SEPARATE' in registry['next_gate'])
-for path in ['LANES.yaml','NEXT-STEPS.md','RESEARCH-STATUS.md','lab/process/README.md','lab/process/agent-context-pack.md']:
+for path in ['lab/process/RESEARCH-AGENDA.json','NEXT-STEPS.md','RESEARCH-STATUS.md','lab/process/README.md','lab/process/CURRENT-RESEARCH-CONTEXT.md']:
     check('process', f'{path} names v0.156', 'v0.156' in (ROOT/path).read_text())
 check('process', 'source index lists the return', 'selected-k77-full-carrier-stationary-residual-source-return' in (ROOT/'lab/sources/README.md').read_text())
 check('process', 'test manifest lists the exact probe', 'selected_k77_full_carrier_stationary_residual_probe.py' in (ROOT/'tests/README.md').read_text())

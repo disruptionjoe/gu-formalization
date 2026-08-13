@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-11
 status: H640_OBSERVED_ONLY__AMBIENT_HULL_FULL1920__VERTICAL_ADAPTER_OPEN
 grade: "exact two-prime fourteen-direction carrier theorem with ordinary-pullback control and two symplectic pairing horns; no vertical Higgs/soldering adapter, nonlinear Euler/BV complex, global domain, index or count"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 H640 ambient/observed Riccati boundary

@@ -2,15 +2,10 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: PRINCIPAL_MIXED_JET_QUOTIENT_ONTO_DIM14__TARGET_ADMITTED__PROPAGATION_AND_GLOBAL_REALIZATION_OPEN
-run_id: RUN-20260813-094049-gu-i2b-principal-constraint-quotient
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: SC-ACT-04
 source_return: SOURCE_CONFIRMS_I2B_CONNECTION_GRAMMAR__SOURCE_SILENT_PRINCIPAL_CONSTRAINT_SPLIT_PROPAGATION_AND_REPRESENTATIVE_SELECTION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "two exact 196 by 196 real blocks and their induced quotient; decided wholesale"
 free_object_delta: 0

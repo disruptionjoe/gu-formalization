@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-08
 status: SMALL_GAUGE_BASIC__BOUNDARY_CHARGE_LIVE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-SILENT__PHYSICAL_BOUNDARY_GAUGE_CLASS__REPO-DERIVES__SMALL_GAUGE_BASIC_WITH_BOUNDARY_MOMENT_MAP
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
 scripts:

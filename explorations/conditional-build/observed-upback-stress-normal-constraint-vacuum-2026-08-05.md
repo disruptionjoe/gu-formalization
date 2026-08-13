@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-05
 status: ACTION_HILBERT_STRESS_RADIAL_TRANSGRESSION_EXACT__KREIN_DIRAC_STRESS_SYMMETRIC_CONSERVED__OBSERVED_NULL_10_TO_6_TO_2_RETAINED__REPAIRED_GRAVITY_DOUBLE_POLE__QUADRATIC_VACUUM_ZERO_INDEFINITE_ONLY
-lane: "1"
-functional_channels: [BUILD, SOURCE, COMPOSE, VERIFY]
 fork_assumed: "SIGNATURE-AMBIENT=(7,7); OBSERVATION-FIRST PRE-SHIAB REPAIRED ACTION HORN"
 search_space_dim: "zero selector parameters; action radial path fixed; observed Sym2 rank ten; exact four-component Lorentzian Krein-Dirac control"
 free_object_delta: 0

@@ -48,9 +48,9 @@ def main():
     require(ledger["progress"]["verdict_counts"] == {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5}, "verdict movement")
     require(ledger["residue"]["continuous_real"] == 84, "residue movement")
     require(gate["accounting"]["P1_P2_P3_used"] is False, "datum-use drift")
-    contract = load_unique(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+    contract = load_unique(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
     require("latest_two_half_hermitian_witt_evidence" in json.dumps(contract), "two-half evidence pointer drift")
-    lanes = (ROOT / "LANES.yaml").read_text()
+    lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
     versions = [int(value) for value in re.findall(r"conditional-physics-ledger-v0\.(\d+)\.json", lanes)]
     require(versions and max(versions) >= 193, "live ledger pointer predates v0.193")
     print("K77 two-half Hermitian/Witt rotation audit: PASS")

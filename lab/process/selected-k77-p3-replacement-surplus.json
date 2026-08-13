@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-153236-gu-p3-replacement-surplus",
+  "run_id": "historical-investigation",
   "verdict": "TANGENTIAL_IDENTITY_ZERO_CONTINUOUS_COST_BUT_BACKGROUND_AND_REAL_FORM_CONDITIONAL__HN_SOLDERING_NEGATIVE_SURPLUS_UNLESS_SOURCE_OWNED__NO_ACTION_RESTRICTION",
   "natural_h_to_sym2_dimension": 0,
   "hn_general_framed_injection_function_dimension": 30,

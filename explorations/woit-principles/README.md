@@ -51,7 +51,7 @@ positive and negative controls:
 
 This is a conceptual dependency order for the newly isolated twistor adapter,
 not a durable execution-queue movement. It does not displace the frozen
-`B5-INDEPENDENT-RECONSTRUCTION` Lane 1 lead or the existing OS-Theta packet as
+`B5-INDEPENDENT-RECONSTRUCTION` truth-status research lead or the existing OS-Theta packet as
 the recorded Woit-derived follow-up. The run-local ordering puts an executable
 domain freeze first because the OS packet remains source-blocked.
 

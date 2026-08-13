@@ -34,9 +34,9 @@ tests whether the PT realization of it survives interactions.
 
 ---
 
-## 1. Five-persona team (run inline, sequential, single context)
+## 1. Five-perspective team (run inline, sequential, single context)
 
-### Persona 1 -- PT-QFT / C-operator specialist (the computation)
+### Perspective 1 -- PT-QFT / C-operator specialist (the computation)
 
 **Setup.** For a `PT`-symmetric `H = H0 + eps H1` with `H0` Dirac-Hermitian and `P`-even and `H1`
 anti-Hermitian and `P`-odd (`H1 = i x^3` is the canonical case; the ghost's cubic self-coupling has this
@@ -63,7 +63,7 @@ In the `H0` eigenbasis (`E_n`) this is solved elementwise: `Q1_{mn} = -2 H1_{mn}
 perturbation series is well-posed at first order. This is the standard Bender-Brody-Jones result reproduced
 by independent numerics, not assumed.
 
-### Persona 2 -- Math-physics referee (grades every step)
+### Perspective 2 -- Math-physics referee (grades every step)
 
 | Claim | Setting | Grade |
 |---|---|---|
@@ -72,14 +72,14 @@ by independent numerics, not assumed.
 | C-operator exists non-perturbatively | QM, 2x2 interacting (Model C, BBJ exact) | **PROVEN** (exact) |
 | Perturbation series converges / all-orders C exists | QM | **ARGUED, not proven** (only O(eps) shown; higher orders known to exist for `ix^3` in the literature but convergence is asymptotic, not established here) |
 | Any of the above in QFT (field theory, continuum) | QFT | **NOT SHOWN** -- everything above is quantum-mechanical (finite dof) |
-| Equivalent Hermitian `h` is LOCAL | QFT | **REFUTED** at the structural level (Persona 3 / Model D) |
+| Equivalent Hermitian `h` is LOCAL | QFT | **REFUTED** at the structural level (Perspective 3 / Model D) |
 
 **Referee's headline:** Q-pos is in good shape *in QM* order by order. The gap the referee will not let the
 branch paper over is **QM vs QFT**: the C-operator is a similarity transform on the full Hilbert space, and
 in QFT that transform's *locality* is not automatic -- it is the whole game. Grade the QFT statements
 separately and honestly.
 
-### Persona 3 -- Adversary (attacks Branch B's own claim)
+### Perspective 3 -- Adversary (attacks Branch B's own claim)
 
 **Attack: "Your equivalent Hermitian theory is secretly non-local, so you have not saved a *relativistic*
 theory -- you have traded the ghost for non-locality."**
@@ -104,7 +104,7 @@ Note this does NOT break Q-pos: a non-local `h` can still be Hermitian with a po
 paid in the *causality/locality* column, not the *positivity* column. That separation is the branch's key
 finding.
 
-### Persona 4 -- Cross-checker (independent second derivation)
+### Perspective 4 -- Cross-checker (independent second derivation)
 
 Two independent checks, both in the test:
 1. **Free PU analog, exact (Model A, Swanson `H = w(a^dag a+1/2) + alpha a^2 + beta a^dag^2`).** A genuinely
@@ -120,9 +120,9 @@ Two independent checks, both in the test:
    non-perturbatively in a controlled interacting setting -- the perturbative Model-B result is not a
    truncation artifact.
 
-Both cross-checks agree with Persona 1: existence and positivity of the grading are solid in QM.
+Both cross-checks agree with Perspective 1: existence and positivity of the grading are solid in QM.
 
-### Persona 5 -- Synthesizer (branch verdict)
+### Perspective 5 -- Synthesizer (branch verdict)
 
 See Section 2.
 

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W182 / TEAM EXT-SELFENERGY, label W182; coherence-first, exploration grade; five personas inline, one worker, no sub-agents; one deterministic test 11/11 exit 0 with positive controls first + matched negative control)"
+status: "exploration (W182 / TEAM EXT-SELFENERGY, label W182; coherence-first, exploration grade; five perspectives inline, one worker, no independent reviewers; one deterministic test 11/11 exit 0 with positive controls first + matched negative control)"
 created: 2026-07-14
 wave: W182
 label: W182
@@ -47,7 +47,7 @@ connection), the W158 promotion-gate boundary term on the `q=5` finality frontie
 external source contribution `Sigma_ext(s)` to the ghost propagator move the pole off the physical
 sheet?** Reuse W178's pole-tracking and W180's `S_D`.
 
-Five personas ran inline, sequentially, one worker, no sub-agents. Deterministic test
+Five perspectives ran inline, sequentially, one worker, no independent reviewers. Deterministic test
 `tests/W182_external_source_selfenergy.py`, **11/11, exit 0**, positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -65,7 +65,7 @@ DISPERSIVE self-energy with the OPPOSING sign and sufficient magnitude, or only 
 ultralocal shift?* The built part does not move the pole; the residue's dispersive part can, under a
 sign-plausible condition -- and the magnitude is the inherited unbuilt object.
 
-## 2. Persona 3 (GU-source specialist, led) -- what W180 actually built, and its analytic structure
+## 2. Perspective 3 (GU-source specialist, led) -- what W180 actually built, and its analytic structure
 
 W180 built the matter->connection bridge in the induced/Sakharov stance: the connection distortion
 `theta` has **no fundamental kinetic term**, so its EL equation makes it a functional of the record
@@ -83,7 +83,7 @@ NONLOCAL completion** (the full induced-YM kernel `D_A* F`, a Green's function),
 W180's **unbuilt eta-from-gimmel-area residue** (W151). This is the honest built-vs-residue split,
 inherited unchanged.
 
-## 3. Persona 2 (self-energy / dispersion specialist) -- E1: the built ultralocal source does not move it
+## 3. Perspective 2 (self-energy / dispersion specialist) -- E1: the built ultralocal source does not move it
 
 Reusing W178's Model B propagator `D(s) = 1/(s - M^2 - Sigma_internal(s) - Sigma_ext(s))` with
 `Sigma_internal = s_sign * kappa * sqrt(s_th - s)` (`s_sign = -1` anti-damping) and adding
@@ -106,10 +106,10 @@ Reusing W178's Model B propagator `D(s) = 1/(s - M^2 - Sigma_internal(s) - Sigma
 (normal-damping, it **subtracts** width); a reinforcing one `+0.2846`. So the question reduces to the
 **sign and magnitude of the dispersive part** of `Sigma_ext`.
 
-## 4. Persona 1 (open-quantum-system / Feshbach specialist) -- the source as an open channel; the sign
+## 4. Perspective 1 (open-quantum-system / Feshbach specialist) -- the source as an open channel; the sign
 
 The source term is a **boundary FLUX** through the `q=5` finality frontier -- a genuine open-system
-contribution. Persona 1's two questions:
+contribution. Perspective 1's two questions:
 
 **(a) Does the open channel regularize the pole?** *Yes, that direction is real (PC2).* A two-channel
 Feshbach effective Hamiltonian -- an unstable state coupled to an **absorbing** open channel -- drives
@@ -130,7 +130,7 @@ promotion) is **different** from the internal one (two gravitons), so the channe
 **independent** -- the opposing-sign is not the anti-damping leak double-counted. This is a genuine,
 sign-plausible mechanism for `Sigma_ext` to **subtract** width.
 
-## 5. Persona 4 (symbolic/numerical engineer) -- E2: the decisive computation, and the controls
+## 5. Perspective 4 (symbolic/numerical engineer) -- E2: the decisive computation, and the controls
 
 `tests/W182_external_source_selfenergy.py`, **11/11, exit 0** (numpy only; seed 20260714).
 Positive controls first: **PC1** reproduces W178's closed-theory result exactly (internal
@@ -168,7 +168,7 @@ opposing external source on a **normal** internal self-energy adds **no** spurio
 (count stays `0`) -- the argument-principle machinery does not manufacture poles; E2 is a genuine
 sheet move of the ghost pole.
 
-## 6. Persona 5 (adversarial skeptic) -- steelman the rescue, then bound it honestly
+## 6. Perspective 5 (adversarial skeptic) -- steelman the rescue, then bound it honestly
 
 **Steelman OPERATIVE (the rescue at full strength).** The open-system source is exactly the kind of
 absorbing boundary channel that regularizes a resonance (PC2, Feshbach). The promotion gate drains
@@ -243,8 +243,8 @@ STANDS); CAN move it (OPERATIVE) in the nonlocal opposing-sign regime above `r* 
 
 **Artifacts:** this file + `tests/W182_external_source_selfenergy.py` (11/11, exit 0).
 
-*Filed 2026-07-14 by Team EXT-SELFENERGY (W182). Five personas inline in one worker
+*Filed 2026-07-14 by Team EXT-SELFENERGY (W182). Five perspectives inline in one worker
 (open-quantum-system/Feshbach specialist, self-energy/dispersion specialist, GU-source specialist,
-symbolic/numerical engineer, adversarial skeptic); no sub-agents. Reproducible:
+symbolic/numerical engineer, adversarial skeptic); no independent reviewers. Reproducible:
 `python -u tests/W182_external_source_selfenergy.py` (11/11, exit 0; positive controls first).
 Exploration grade; coherence-first; no canon movement; H59 remains OPEN.*

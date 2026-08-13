@@ -4,7 +4,7 @@ status: exploration
 doc_type: construction_result
 updated_at: "2026-08-01"
 branch: agent/null-clifford-omega1-repair
-run: RUN-20260801-144521-gu-formalization-ecw3d-b2c7-direct
+run: historical-investigation
 predecessor: explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md
 registry: lab/process/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c7_two_connection_somatic_obstruction_probe.py

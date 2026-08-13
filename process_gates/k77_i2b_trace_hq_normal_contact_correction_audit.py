@@ -14,7 +14,7 @@ required = [
     "lab/process/conditional-physics-ledger-v0.221.json",
     "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-trace-hq-normal-contact-correction-review.md",
     "lab/process/selected-k77-i2b-trace-hq-normal-contact-correction.json",
-    "lab/process/runs/GUH-20260812T205425Z-i2b-trace-hq-normal-contact-correction/run-plan.md",
+    "lab/evidence/predecessor-records/i2b-trace-hq-normal-contact-correction.md",
     "lab/sources/selected-k77-i2b-trace-hq-normal-contact-correction-source-return-2026-08-12.md",
     "tests/channel-swings/conditional_physics_ledger_v0221_probe.py",
     "tests/channel-swings/selected_k77_i2b_trace_hq_normal_contact_correction_probe.py",

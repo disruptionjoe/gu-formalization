@@ -9,7 +9,7 @@ depends_on:
   - canon/swing-ghost-parity-no-chiral-selection.md
   - canon/h2-base-index-chirality.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
 scripts:
   - tests/big-swing/vg_v1_condensate_parity_scan.py
 ---

@@ -20,9 +20,9 @@ def strict(relative: str):
 
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.9.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/k77-moving-observation-y14-domain-obstruction.json")
-lanes = (ROOT / "LANES.yaml").read_text()
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.9.md").read_text()
 report = (ROOT / "explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-05-k77-moving-observation-y14-domain-review.md").read_text()

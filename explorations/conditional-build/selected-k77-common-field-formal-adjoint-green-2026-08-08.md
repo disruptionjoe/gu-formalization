@@ -4,9 +4,7 @@ created: 2026-08-08
 status: VARPI_EQUATION_DUAL_GREEN_EXACT__COMMON_FIELD_ASSEMBLY_FAILS_CLOSED__OPERATOR_ADJOINT_NEEDS_FIELD_RIESZ
 source_return: SOURCE-CONFIRMS_NORM_SQUARE_ADJOINT_ARENA_AND_SOURCE_FIELDS__SOURCE-SILENT_KLOC_FIELD_RIESZ_FULL_DEPSILON_AND_ANALYTIC_DOMAIN
 ledger: lab/process/conditional-physics-ledger-v0.96.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 common-field formal-adjoint and Green gate

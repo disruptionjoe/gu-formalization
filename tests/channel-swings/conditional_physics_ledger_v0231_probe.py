@@ -94,8 +94,8 @@ check("migration", "three v0.230 to v0.231 migrations are append-recorded",
       sum(item.get("from_version") == "0.230" and item.get("to_version") == "0.231"
           for item in new["migration_history"]) == 3)
 
-contract = (ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
-lanes = (ROOT / "LANES.yaml").read_text(encoding="utf-8")
+contract = (ROOT / "lab/methods/research-evidence-contract-v1.0.json")
+lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text(encoding="utf-8")
 next_steps = (ROOT / "NEXT-STEPS.md").read_text(encoding="utf-8-sig")
 contract_json = load_unique(contract)
 check("pointer", "machine contract points to v0.231",

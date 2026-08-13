@@ -8,9 +8,7 @@ campaign_wave: ECW3-G4-OBSERVATION
 registry: lab/process/eric-curt-wave3a-observation-dual-leakage.json
 probe: tests/channel-swings/eric_curt_wave3a_observation_dual_leakage_probe.py
 grade: "DECISIVE FINITE GATE, NOT A GLOBAL OBSERVATION CONSTRUCTION. The field retract, equation dual, and active-real Krein adjoint are typed separately. Exact paired linear and nonlinear witnesses prove that a correct observed equation does not imply preservation of the observation image. The actual Y14 section, domain, quotient, and preboundary reduction remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promotion: none
 ---
 

@@ -2,11 +2,8 @@
 title: "Hostile review: K77 H640 observation-pullback and BV typing"
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-205442-gu-k77-h640-observation-pullback-bv-typing
 verdict: SURVIVES_SCOPED__FLAT_SECTION_GRAPH_LIFT_EXACT__COMPLETE_LOWER_ORDER_GRAPH_RICCATI_BV_KT_GLOBAL_OBSERVATION_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review

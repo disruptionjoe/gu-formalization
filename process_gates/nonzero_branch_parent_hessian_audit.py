@@ -35,12 +35,12 @@ def strict(relative):
 
 ledger = strict("lab/process/conditional-physics-ledger-v0.134.json")
 result = strict("lab/process/selected-k77-nonzero-branch-parent-hessian.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-nonzero-branch-parent-hessian-2026-08-10.md").read_text()
 report_flat = " ".join(report.replace("**", "").split())
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-nonzero-branch-parent-hessian-review.md").read_text()
 priorities = (ROOT / "lab/process/exploration-absorption-priorities-2026-08-10.md").read_text()
-context = (ROOT / "lab/process/agent-context-pack.md").read_text()
+context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 next_steps = (ROOT / "NEXT-STEPS.md").read_text()
 status = (ROOT / "RESEARCH-STATUS.md").read_text()
 

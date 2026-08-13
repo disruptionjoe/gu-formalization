@@ -3,9 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-10
 subject: SELECTED-K77-GLOBAL-PROJECTOR-AMPLITUDE-LAYER0
 verdict: SURVIVES__SCREENING_AND_SELECTION_SEPARATED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: global projector versus VEV selection

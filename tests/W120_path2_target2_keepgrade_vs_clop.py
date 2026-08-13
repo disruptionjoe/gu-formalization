@@ -31,7 +31,7 @@ Structural claim tested here (contour/prescription level, with computable toy ch
       keep-and-grade it is POSITIVE and Cutkosky-unambiguous. The keep-and-grade leak locus
       s = m2^2 is ODD: in Lee-Wick it is empty. The two families pay at DISJOINT thresholds.
 
-  (4) The GUARD that keeps the verdict honest (adversarial persona): the graded ghost is
+  (4) The GUARD that keeps the verdict honest (adversarial perspective): the graded ghost is
       dynamically UNSTABLE (Im Sigma(M^2) > 0 is prescription-independent, W51 Branch D's proven
       sign). Strict fixed order breaks down in the resonance window |s - M^2| <~ M*Gamma; for the
       broad gravitational resonance Gamma/M = O(1) that window is O(M^2) -- not small. Inside

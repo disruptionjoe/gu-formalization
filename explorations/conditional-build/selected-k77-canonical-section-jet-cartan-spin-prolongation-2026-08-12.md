@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_result
 created: 2026-08-12
-run_id: RUN-20260812-000025-gu-k77-canonical-section-jet-cartan-spin-prolongation
 grade: EXACT_SCOPED_TWO_PRIME_ALL40_CARTAN_SPIN_COMPOSITION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 canonical section-jet Cartan/Spin prolongation

@@ -1,11 +1,8 @@
 ---
 artifact_type: exact_construction_and_composition_result
 created: 2026-08-12
-run_id: RUN-20260812-073415-gu-moving-hq-eddy-quartic-retype
 grade: EXACT_SCOPED_MOVING_HQ_UNITARY_PHASE_AND_MINIMAL_J_EDDY_QUARTIC_CARRIER
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 moving-Hq eddy-quartic retyping gate

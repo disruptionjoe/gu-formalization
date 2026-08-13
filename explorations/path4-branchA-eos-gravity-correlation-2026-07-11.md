@@ -42,7 +42,7 @@ makes the free scales CANCEL, yielding a family-invariant, discriminating correl
   wave20/H43 construction: a curvature-coupled LIGHT mode, not a hard `mu_DW`-mass mode.
 - **`mu_DW` = the DeWitt/gimmel scale** (ratio-only, H24): overall scale structurally free.
 
-The five-persona team (cosmology/gravity, referee, adversary, cross-checker, synthesizer) was
+The five-perspective team (cosmology/gravity, referee, adversary, cross-checker, synthesizer) was
 run inline in one context. Their combined result follows.
 
 ---

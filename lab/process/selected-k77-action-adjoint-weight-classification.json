@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260811-131916-gu-k77-action-adjoint-weight-classification",
+  "run_id": "historical-investigation",
   "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN_PARENT",
   "pairing_family_dimension": 4,
   "self_adjoint_pairing_line": [1, -1, -1, 1],

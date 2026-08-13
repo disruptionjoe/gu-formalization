@@ -7,4 +7,4 @@ updated_at: "2026-05-31"
 
 # Dialectics
 
-Cross-persona and meta-layer dialectic artifacts.
+Cross-perspective and meta-layer dialectic artifacts.

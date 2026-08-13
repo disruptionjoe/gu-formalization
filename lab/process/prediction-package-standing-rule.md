@@ -5,13 +5,12 @@ doc_type: research_protocol
 scope: repo-local
 created: 2026-07-19
 authorized_by: "Joe direct chat, 2026-07-19 (council-reviewed, five lenses)"
-claim_status_change: none
 ---
 
 # Prediction Package Standing Rule
 
 When a potential prediction can be packaged, packaging it becomes the top
-priority for regular hourly progress — ahead of Lane 1/2/3 ranking — until
+priority for regular hourly progress — ahead of truth-status research/2/3 ranking — until
 the package freezes or hits a named blocker. Then work returns to normal.
 Rationale (council): prediction value decays with time — data arrives and
 post-hoc suspicion grows — so the interrupt is epistemically justified, not
@@ -30,18 +29,18 @@ A candidate must have, or be one bounded computation away from having:
 4. NOT a retrodiction. Retrodictions are logged as coherence and are never
    packaged, without exception.
 
-"Potential prediction" without these is a candidate for Lane 2 shaping, not
+"Potential prediction" without these is a candidate for prediction research shaping, not
 a package interrupt.
 
 ## Interrupt semantics
 
-- The daily steward (Lane A) flags `PREDICTION_PACKAGE_PENDING` on the
+- The daily steward (research maintenance) flags `PREDICTION_PACKAGE_PENDING` on the
   portfolio when an admissible candidate exists unfrozen.
 - The next Progress hourly takes the package work regardless of normal
-  cross-lane ranking, and continues until FROZEN or a named blocker.
+  cross-agenda ranking, and continues until FROZEN or a named blocker.
 - Time-box: if the package cannot freeze within ~3 progress cycles, it
   returns to the normal queue with its gap named as a work item — no
-  starving Lane 1 on a hard packet.
+  starving truth-status research on a hard packet.
 - Every channel swing and probe adds a closing checklist line: "did this
   create a packageable prediction?" — detection is structural, not steward
   luck.
@@ -75,8 +74,8 @@ normal pipeline like every other paper, with exactly one routing rule
 paper type in the factory queue.** Everything posts as soon as it is
 ready; Joe alone posts. The factory sends carding/hardening feedback to
 the source repo's mailbox, and the repo routes it to the proper lane —
-prediction-side hardening to Lane 2, paper-side hardening to Lane 3.
-(The underlying realization: GU's Lane 2 and Lane 3 both ultimately
+prediction-side hardening to prediction research, paper-side hardening to result-hardening research.
+(The underlying realization: GU's prediction research and result-hardening research both ultimately
 produce papers — different TYPES of paper, one queue downstream.)
 
 Registration mechanics for the prediction-paper type:
@@ -166,7 +165,7 @@ Registration mechanics for the prediction-paper type:
 
 - PP1 (frozen 2026-07-19): dark-energy sign — w0+1 > 0, w(z) >= -1
   pointwise; conditional chain per blockbuster-p1 doc; kills named.
-- Candidate packet 2: matter-parity stable state (126 route) — Lane 2 work.
+- Candidate packet 2: matter-parity stable state (126 route) — prediction research work.
 - Candidate packet 3: mirror-sector charged vectorlike replica — gated on
   weld probes W-A/W-B; possible mu-finite upgrade via the causality
   theorem.

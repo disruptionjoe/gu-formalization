@@ -68,7 +68,7 @@ check("exact", "the complete shifted-two-connection predecessor replays",
 
 source_pack = read("lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md")
 rendered = read(
-    "explorations/hourly-cycles/"
+    "explorations/research-cycles/"
     "hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md"
 )
 portal = read("lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md")

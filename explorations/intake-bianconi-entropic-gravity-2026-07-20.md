@@ -5,9 +5,7 @@ doc_type: intake_note
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (Joe-supplied video link; TOE episode 2026-07-13, Ginestra Bianconi)"
 axiom: lab/process/boundary-adapter-standing-axiom.md
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 intake_semantics: >
   IMPORTED-shape evidence only. Nothing here enters GU as truth; every leg
   is a typed shape-parallel requiring the geometer-vs-physics fork

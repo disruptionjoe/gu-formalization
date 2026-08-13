@@ -2,8 +2,7 @@
 title: PW2F-R2B2B2E — conditional principal quadratic-distortion U4 ceiling
 date: 2026-08-03
 status: CONDITIONAL_ACTIVE_CANONICAL_COFRAME_PRINCIPAL_Z1_QUADRATIC_DISTORTION_U4_CEILING_ZERO
-lane: Eric-guided Lane 1; source, active reconstruction, and Curt comparator kept separate
-run: RUN-20260803-120315-gu-formalization-pw2fr2b2b2e-actual-u4-jet-realizability
+run: historical-investigation
 registry: lab/process/pw2fr2b2b2e-actual-u4-jet-realizability-registry.json
 probe: tests/channel-swings/pw2fr2b2b2e_actual_u4_jet_realizability_probe.py
 ---

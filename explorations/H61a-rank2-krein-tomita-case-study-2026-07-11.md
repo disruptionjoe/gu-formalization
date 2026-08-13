@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (decisive make-or-break case study; 5-persona inline team; concrete rank-2 model + structural derivation + literature check; deterministic test)
+status: exploration (decisive make-or-break case study; 5-perspective inline team; concrete rank-2 model + structural derivation + literature check; deterministic test)
 created: 2026-07-12
 hypothesis: H61a
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
@@ -59,9 +59,9 @@ Three load-bearing objects; I state which construction I use and why.
 
 ---
 
-## 1. Five-persona team (inline, sequential, single context)
+## 1. Five-perspective team (inline, sequential, single context)
 
-### Persona 1 -- operator-algebra specialist (builds the model, computes `J`, `Delta`)
+### Perspective 1 -- operator-algebra specialist (builds the model, computes `J`, `Delta`)
 
 **The Krein modular operator, in closed form.** For `M = M_d(C) (x) I` on `H = C^d (x) C^d` with a genuine
 cyclic separating vector `Omega = sum_k c_k |k>|k>` and fundamental symmetry `eta` acting `X -> eta_0 X eta_0`
@@ -97,19 +97,19 @@ and its *sign* is governed by the indefinite form: `[Delta x, x] = [Sx, Sx]`, wh
 `Delta` is **not** `eta`-positive in general -- it can acquire non-real spectrum. The witness above is
 positive only because `[Delta, eta] = 0`. The decisive question is whether that always happens.
 
-### Persona 2 -- math referee (is the polar decomposition genuine? is `J^2=1`, `JMJ=M'` verified?)
+### Perspective 2 -- math referee (is the polar decomposition genuine? is `J^2=1`, `JMJ=M'` verified?)
 
 - The polar decomposition in T1 is **genuine in the Krein space**: `Delta` is `eta`-selfadjoint with real
   positive spectrum, `Delta^{1/2}` is `eta`-positive, `J` is a Krein-antiisometry with `J^2=1` and `J M J=M'`
   (all machine-zero). This is a **real, exact rank-2 result**, not a Hilbert artifact: it uses the Krein
   adjoint throughout.
 - **The referee's load-bearing caveat.** The witness is **type I** with a **genuine positive-normed cyclic
-  vector**, and the grading is **reflection-symmetric/factorized** (`eta = eta_0 (x) eta_0`). Persona 4 shows
+  vector**, and the grading is **reflection-symmetric/factorized** (`eta = eta_0 (x) eta_0`). Perspective 4 shows
   this is **forced** by `J`-symmetry of `M_d(C) (x) I` -- and that forcing is exactly what makes `Delta`
   `eta`-positive. So T1 proves *existence in the unbroken interior*, **not** that every rank-2 model extends.
   The referee refuses to grade this as "EXTENDS" until the broken regime is examined.
 
-### Persona 3 -- adversary ("your finite model is type I and hides the real obstruction")
+### Perspective 3 -- adversary ("your finite model is type I and hides the real obstruction")
 
 **Attack.** "You constructed a positive `Delta` because you chose a factorized grading and a positive cyclic
 vector. That is precisely the case Shulman already handles at any rank in the type-I setting. The genuine
@@ -126,7 +126,7 @@ positive cyclic vector -- the type-III / infinite-rank case GU actually needs). 
 `W67`/`W74` hit ("no finite toy can realize type III"), now sharpened: it is not merely that the toy is type I,
 it is that `J`-symmetry *forces* the positive-`Delta` class.
 
-### Persona 4 -- cross-checker (second derivation + literature)
+### Perspective 4 -- cross-checker (second derivation + literature)
 
 **Second derivation (structural, independent of the finite model): the Pontryagin / Langer rank bound.**
 `Delta = S^+ S` is `eta`-selfadjoint on `Pi_kappa`. By **H. Langer's theory of definitizable operators on
@@ -163,7 +163,7 @@ BW analyticity). **Langer's** definitizable-operator theory supplies the `kappa`
 (`kappa >= 2`) Tomita-Takesaki conjugation theorem is in the literature.** The rank-2 gate is genuinely open,
 and this swing maps it.
 
-### Persona 5 -- synthesizer (the verdict)
+### Perspective 5 -- synthesizer (the verdict)
 
 See Sections 2-4.
 
@@ -209,7 +209,7 @@ ceases to exist.**
   spectrum = PT-broken = no `eta`-positive `Delta^{1/2}`.
 
 **The finite type-I toy cannot decide which class GU is in.** `J`-symmetry forces the toy into the unbroken
-interior (Section 1, Persona 3/4). Whether GU's genuinely indefinite, infinite-rank, type-III region algebra
+interior (Section 1, Perspective 3/4). Whether GU's genuinely indefinite, infinite-rank, type-III region algebra
 sits in the unbroken (extends) or broken (obstructs) class is a **continuum / quasivector** question no finite
 model reaches -- the same open frontier as the type-III question in `W67`/`W74`.
 

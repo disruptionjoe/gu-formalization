@@ -38,4 +38,4 @@ faithful stand-in models** by the same `sigma_1 (x) B` cross-chirality mechanism
 
 Part of the 2026-07-03 coherent-cluster canon promotion (Joe-authorized). Owner-surface sweep run
 across `CANON.md`, `RESEARCH-STATUS.md`, `canon/` RESULTS, `DERIVATION-PROGRESS.md`, `NEXT-STEPS.md`,
-and this paper (`lab/process/runbooks/claim-status-consistency-quality-workflow.md`).
+and this paper (`lab/methods/claim-status-consistency.md`).

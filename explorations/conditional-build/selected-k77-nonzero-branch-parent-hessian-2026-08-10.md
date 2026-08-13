@@ -2,12 +2,8 @@
 artifact_type: exact_construction_and_scope_result
 created: 2026-08-10
 status: COMPLETE_POINTWISE_CONNECTION_HESSIAN_FULL_RANK__NONZERO_BRANCH_OWNS_BOTH_DECOMPOSITIONS__NO_ACTION_DERIVED_PARENT_REDUCTION
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, RA-D2, RA-F1, RA-F2, RA-G2, LT-SM3, AC-F1]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 nonzero-branch parent Hessian

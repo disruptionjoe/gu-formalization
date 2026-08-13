@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-153049-gu-i2b-arbitrary-field-euler-green-bank
 source_return: SOURCE_CONFIRMS_RESIDUAL_SQUARE_ADJOINT_ARENA__SOURCE_SILENT_EXACT_K77_BANK_AND_KINETIC_COMPLETION
 ---
 

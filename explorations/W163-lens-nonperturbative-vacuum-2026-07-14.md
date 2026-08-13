@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W163; TEAM LENS-NONPERTURBATIVE-VACUUM; five personas inline, one worker, no sub-agents; deterministic test with W126/W128/W130/W119 positive controls)
+status: exploration (W163; TEAM LENS-NONPERTURBATIVE-VACUUM; five perspectives inline, one worker, no independent reviewers; deterministic test with W126/W128/W130/W119 positive controls)
 created: 2026-07-14
 wave: W163
 label: W163
@@ -48,10 +48,10 @@ genuinely non-perturbative: either in the full quantum effective potential (Cole
 the AF-running mass) or in the record-substrate completion (the record-condensed phase). This lens
 computes both and grades honestly.
 
-Five personas inline, one worker, no sub-agents. Deterministic test
+Five perspectives inline, one worker, no independent reviewers. Deterministic test
 `tests/W163_nonperturbative_vacuum.py`, 18/18 exit 0, W126 + W130 + W119 positive controls first.
 
-## 1. Persona 1 -- non-perturbative QFT theorist: the Coleman-Weinberg false-vacuum signature
+## 1. Perspective 1 -- non-perturbative QFT theorist: the Coleman-Weinberg false-vacuum signature
 
 The cleanest test of the lens premise is Coleman-Weinberg. W126 proved the tree potential on the
 scale mode is EXACTLY quadratic, `W(u) = -64 u^2 - 8 u + 2` (degree 2, `c_3 = c_4 = ... = 0`,
@@ -73,7 +73,7 @@ own native pole.** The lens premise is structurally sound; a true vacuum should 
 the imaginary part does NOT do is locate that true vacuum -- it only certifies the departure. That is
 the honest boundary: the false-vacuum signature is a GO for the search, not the destination.
 
-## 2. Persona 2 -- RG/AF specialist: does m^2(mu) turn positive on the forced branch?
+## 2. Perspective 2 -- RG/AF specialist: does m^2(mu) turn positive on the forced branch?
 
 The full quantum effective potential's first question is whether the tachyon is merely an IR artifact
 of a UV-healthy theory (or the reverse): does the running scalaron mass `m_0^2(mu)` change sign along
@@ -92,9 +92,9 @@ not an IR artifact of a UV-healthy theory on the forced branch, nor the reverse.
 not cure it.
 
 A UV-healthy reading exists only on the AS/Reuter branch, and only as a free boundary datum
-(Persona 3).
+(Perspective 3).
 
-## 3. Persona 3 -- cosmological-phase-transition theorist: the AS branch and the record-condensed phase
+## 3. Perspective 3 -- cosmological-phase-transition theorist: the AS branch and the record-condensed phase
 
 Two candidate true vacua remain: the AS boundary condition and the record condensate.
 
@@ -118,7 +118,7 @@ inflation/autopoiesis reading (W155). The false-vacuum reading is structurally c
 tree-quadratic-no-minimum (NPV3a) plus `Im V_eff != 0` (NPV3b) is textbook false-vacuum structure
 (NPV5a).
 
-## 4. Persona 4 -- symbolic/numerical engineer: the tests and the out-of-validity margin
+## 4. Perspective 4 -- symbolic/numerical engineer: the tests and the out-of-validity margin
 
 `tests/W163_nonperturbative_vacuum.py`, 18 checks, exit 0, exact sympy, positive controls first
 (PC1-PC5 reproduce W126's `(2,1/3,8/9,-4)`, W130's `c_R = -4/9`, `f_0^2 = -3/8`, `m_0^2 = -1/4`, the
@@ -136,7 +136,7 @@ VELOCITY never manufactures a bounded-field MINIMUM. On AF there is additionally
 because `m_0^2(mu)` has no zero crossing to transmute (NPV4a). Every attempt to place the true vacuum
 inside the derivative expansion fails: it is out of validity by a computed factor of 4.
 
-## 5. Persona 5 -- adversarial skeptic: steelman "no stable true vacuum exists"
+## 5. Perspective 5 -- adversarial skeptic: steelman "no stable true vacuum exists"
 
 The standard killer of non-perturbative rescues is that the condensate you invoke is one you cannot
 exhibit, and it applies here on two independent legs.
@@ -207,8 +207,8 @@ non-perturbative dissolution route is a condensate the theory cannot yet build.
   dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team LENS-NONPERTURBATIVE-VACUUM (W163). Coherence-first, the standing non-
-perturbative escape named and graded. Five personas inline in one worker (non-perturbative QFT
+perturbative escape named and graded. Five perspectives inline in one worker (non-perturbative QFT
 theorist, cosmological-phase-transition theorist, RG/AF specialist, symbolic/numerical engineer,
-adversarial skeptic); no sub-agents. Reproducible:
+adversarial skeptic); no independent reviewers. Reproducible:
 `python -u tests/W163_nonperturbative_vacuum.py` (18/18, exit 0; W126 + W130 + W119 positive controls
 first). Exploration grade; conditional register; no canon movement.*

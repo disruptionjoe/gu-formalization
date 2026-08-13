@@ -30,7 +30,7 @@ def unique_json(path):
 
 ledger = unique_json(ROOT / "lab/process/conditional-physics-ledger-v0.157.json")
 registry = unique_json(ROOT / "lab/process/selected-k77-moving-varpi-stationary-intersection.json")
-contract = unique_json(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+contract = unique_json(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-moving-varpi-stationary-intersection-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-moving-varpi-stationary-intersection-review.md").read_text()
 source = (ROOT / "lab/sources/selected-k77-moving-varpi-stationary-intersection-source-return-2026-08-10.md").read_text()
@@ -106,7 +106,7 @@ check("process", "directive records the exact tautological graph", "RANK1792_NUL
 check("process", "directive keeps W and mirror separate", "GRAPH_OUTSIDE_RS_W_MIRROR" in directive)
 check("process", "successor couples current and differential domain", "DIFFERENTIAL_BV_GREEN_DOMAIN" in registry["next_gate"])
 check("process", "successor forbids count inference", "NO_COUNT_INFERENCE" in registry["next_gate"])
-for path in ["LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md", "lab/process/agent-context-pack.md"]:
+for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md"]:
     check("process", f"{path} names v0.157", "v0.157" in (ROOT / path).read_text())
 check("process", "source index lists the return", "selected-k77-moving-varpi-stationary-intersection-source-return" in (ROOT / "lab/sources/README.md").read_text())
 check("process", "test manifest lists the exact probe", "selected_k77_moving_varpi_stationary_intersection_probe.py" in (ROOT / "tests/README.md").read_text())

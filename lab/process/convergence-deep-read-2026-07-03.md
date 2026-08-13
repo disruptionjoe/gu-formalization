@@ -6,7 +6,7 @@ created_at: "2026-07-03"
 note: "Companion DEEP read to the steward's `convergence-read-2026-07-03.md` (which reads the loop-adversarial-log with a pinned --check-report). This one widens the lens to full git history + hourly-cycle/steward artifacts. Does not replace the steward report; both stand. Report only; promotes nothing."
 sources:
   - "git log (full history, 379 commits, 2026-05-30 .. 2026-07-03)"
-  - "explorations/hourly-cycles/ (531 artifacts)"
+  - "explorations/research-cycles/ (531 artifacts)"
   - "steward/runs/ (24 run receipts)"
   - "lab/process/loop-adversarial-log.md"
 script: "lab/process/convergence_metrics_2026-07-03.py"

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-030756-gu-two-half-hermitian-witt-map
 verdict: SURVIVES_SCOPED_AFTER_REPAIR__CONDITIONAL_HQ_WITT_COMPATIBILITY_ONLY__Q_AND_PHYSICAL_BLOCK_UNSELECTED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: two-half Hermitian/Witt compatibility

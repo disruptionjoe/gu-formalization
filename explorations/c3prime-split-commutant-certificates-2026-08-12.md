@@ -19,13 +19,12 @@ head_pin: >-
   preregistration and 0e299cf5 split-layer gate landed mid-run); repo treated
   READ-ONLY throughout (verified: clean tree after run, no bytecode written).
 target_claim: NONE-NOT-A-KILL
-run_id: RUN-PLACEHOLDER
 hostile_review: "PLACEHOLDER -- owed by the absorbing/executing run per repository convention; the three-charge self-review below does not substitute for it"
 probe: "c3prime_probe.py (same directory; python3 stdlib only; deterministic, no randomness; exact integer/Gaussian-rational arithmetic; 23/23 checks PASS, exit 0, ~1.9 s; imports the certified gamma bank and solver from tests/channel-swings/nguyen_c1c2_real_form_probe.py with sys.dont_write_bytecode set)"
 relates_to:
   - explorations/nguyen-c1c2-real-form-certificates-2026-08-12.md (the C1/C2 certificates this check extends; the appended correction section is the spec)
   - tests/channel-swings/nguyen_c1c2_real_form_probe.py (certified construction REUSED: gamma ladder, eta, solver -- anti-redo)
-  - explorations/conditional-build/selected-k77-split-layer-commutant-action-parent-gate-2026-08-12.md (hourly gate, RUN-20260812-020740: the independent same-question result this run replicates)
+  - explorations/conditional-build/selected-k77-split-layer-commutant-action-parent-gate-2026-08-12.md (hourly gate, historical-investigation: the independent same-question result this investigation replicates)
   - tests/channel-swings/selected_k77_split_layer_commutant_action_parent_probe.py (the hourly gate's driver; shared audited primitives, different driver code)
   - explorations/nguyen-forest-verdict-preregistration-2026-08-12.md (blind preregistration filed while C3-prime was executing)
   - explorations/nguyen-pincer-real-form-design-packet-2026-08-11.md (outcome row O4; the three honest real-form targets)
@@ -37,9 +36,7 @@ binding: >-
   ledger edit, and no posture change; the executing wave owns every
   disposition. The computation results below are certified facts of exact
   arithmetic and are stated plainly as such.
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---
@@ -97,10 +94,10 @@ code = failure count; full transcript in `run_output.txt`).
 ## 3. C3a replication compare (independent driver, same question)
 
 The hourly gate (`selected-k77-split-layer-commutant-action-parent-gate-2026-08-12.md`,
-RUN-20260812-020740, filed at 0e299cf5 mid-run) reports:
+historical-investigation, filed at 0e299cf5 mid-run) reports:
 `End = span{1, J4, J10, omega} = C (+) C`, `J4^2 = J10^2 = -1`,
 `J4 J10 = omega`, `omega^2 = +1`, reducing to C on each ambient half (real-64
-half = complex-32). This run reproduces DIMENSION, GENERATORS, RELATIONS,
+half = complex-32). This investigation reproduces DIMENSION, GENERATORS, RELATIONS,
 and the per-half reduction EXACTLY -- agreement, no escalation.
 
 Scope of independence, stated plainly: both drivers sit on the same audited

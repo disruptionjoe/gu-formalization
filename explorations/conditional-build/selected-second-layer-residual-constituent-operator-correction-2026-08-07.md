@@ -4,9 +4,7 @@ created: 2026-08-07
 status: V052_MOVING_OPERATOR_KILL_RETRACTED__CONNECTION_Q_EXACT_CLASS_SURVIVES__CONSTITUENT_BACKGROUND_RESPONSE_OPEN
 source_return: SOURCE-CONFIRMS__UPSILON_HAS_DISTINCT_CURVATURE_AND_TORSION_CONSTITUENTS__SOURCE-SILENT__PHYSICAL_METRIC_OPERATOR_DERIVATIVE_ON_SELECTED_BACKGROUND
 ledger: lab/process/conditional-physics-ledger-v0.53.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer residual-constituent operator correction

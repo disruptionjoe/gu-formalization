@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-11
-run_id: RUN-20260811-040603-gu-k77-moving-antidualizer-darboux
 disposition: SOURCE_CONFIRMS_AND_SOURCE_SILENT
 ---
 

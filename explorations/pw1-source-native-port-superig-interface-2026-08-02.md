@@ -3,7 +3,7 @@ title: "PW1 source/native port and mixed super-IG action interface"
 status: active_research
 doc_type: construction_result
 updated_at: "2026-08-02"
-run: "RUN-20260802-142051-gu-formalization-pw1-port-interface"
+run: "historical-investigation"
 grade: "PW1 CONDITIONAL CONSTRUCTION PASS / PW2 ENABLED WITH THREE EXACT KILLS. The active native bundle extends canonically to the mixed-sign complex source bundle. A general source bundle first needs a moving quaternionic reduction J and then a separate compatible identification of that reduction with active P_nat; there is no canonical retraction or full real-form equivalence. Fixed projection is killed because coset fields return quadratically to native curvature. The full-unitary mixed Omega0+Omega1 bracket closes through the real-bilinear Krein square; the complex-bilinear symplectic comparator is killed by central iI. The forced one-half affine representation acts only on the algebraic odd coordinate; the physical-field map and written-action Ward identity remain open. P1/P2/P3 remain unchanged and unused."
 ---
 

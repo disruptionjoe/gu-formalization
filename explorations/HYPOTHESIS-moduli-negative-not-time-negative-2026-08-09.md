@@ -7,9 +7,7 @@ grade: "PROVENANCE half: computed / canon (the (3,1)+(6,4) split is in canon/shi
   DISSOLUTION half: HYPOTHESIS, conditional, antecedent unmet. The distinction between the two halves is the
   entire content of this file and must not be collapsed."
 directed_by: "Joe direct chat 2026-08-09: 'That is the load-bearing hypothesis. Do not let it drift.'"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 layer0_row_proposed: MODULI-NEGATIVE-VS-TIME-NEGATIVE
 follows:
   - canon/shiab-existence-cl95.md

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-011626-gu-k77-unrestricted-four-field-euler-image
 verdict: SCOPED_SURVIVES__BOUNDED_GRAPH_ROUTE_KILLED__UNRESTRICTED_SOURCE_OPERATOR_NEXT
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: unrestricted four-field Euler image

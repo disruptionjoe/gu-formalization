@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """STEP 10 / CONSTRUCT-06 - the PARITY GATE, corrected: the wall is UNDER-DETERMINATION, not impossibility.
 
-The 113-persona Hegelian pass collapsed the search to one reframed invariant - quaternionic-linearity
+The 113-perspective Hegelian pass collapsed the search to one reframed invariant - quaternionic-linearity
 (commuting with the phase-unique J_quat of M(64,H)) - and nominated a J-antilinear carrier as the only
 escape to an ODD generation index. A first draft of this step claimed a UNIVERSAL parity wall ("no
 a-priori carrier reaches an odd index"). Adversarial verification REFUTED that universal with a one-line

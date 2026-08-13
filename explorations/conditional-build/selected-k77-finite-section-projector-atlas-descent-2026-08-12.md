@@ -1,11 +1,8 @@
 ---
 artifact_type: construction_result
 created: 2026-08-12
-run_id: RUN-20260812-003609-gu-k77-finite-section-projector-atlas-descent
 grade: EXACT_SCOPED_TWO_PRIME_FINITE_GRAPH_PROJECTOR_AND_ATLAS_DESCENT
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 finite section projector and atlas descent

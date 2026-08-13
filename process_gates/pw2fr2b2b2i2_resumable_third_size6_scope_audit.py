@@ -26,7 +26,7 @@ def main() -> None:
 
     assert data["gate"] == "PW2F-R2B2B2I2-RESUMABLE-THIRD-UNCOVERED-SIZE6-FULL-EVALUATOR"
     assert data["status"] == "THIRD_UNCOVERED_SIZE6_CERTIFIED__DURABLE_6_OF_380__UNIVERSAL_374_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED"
-    assert data["run_id"] == "RUN-20260805-124742-gu-formalization-pw2fr2b2b2i2-resumable-third-size6"
+    assert data["run_id"] == "historical-investigation"
     assert data["resumption_contract"]["next_resume_index"] == 6
     assert data["resumption_contract"]["shard_unit"] == "ONE_COMPLETE_CANONICAL_S3_ORBIT"
     assert data["coverage"] == {

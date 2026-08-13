@@ -1,12 +1,9 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-121249-gu-i2b-local-stationary-bianchi-jet
 target: selected-k77-i2b-local-stationary-bianchi-jet-witness-2026-08-13.md
 verdict: SCOPED_CONSTRUCTION_SURVIVES__LOCAL_STATIONARY_BIANCHI_JET_ONLY
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: I2B local stationary Bianchi-jet witness

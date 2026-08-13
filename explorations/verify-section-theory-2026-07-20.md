@@ -13,9 +13,7 @@ targets:
   - explorations/araki-scale-route-2026-07-20.md
 runnable:
   - tests/channel-swings/verify_section_theory_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Second dry round: the section-theory cluster, attacked

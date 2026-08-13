@@ -7,9 +7,7 @@ grade: "EXECUTED. 6 agents, 0 errors, ~668k subagent tokens. Two verifies SCOPED
   upheld=FALSE (the first outright refutation of a cluster headline this session, and the refuting verifier
   rebuilt the substrate from scratch importing nothing). All arithmetic independently reproduced everywhere;
   the failures were interpretive."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Fast sweep: results

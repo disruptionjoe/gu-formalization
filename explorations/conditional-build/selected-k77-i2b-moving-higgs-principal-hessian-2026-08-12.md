@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_variational_result
 created: 2026-08-12
-run_id: RUN-20260812-155230-gu-i2b-moving-higgs-principal-hessian
 status: FIRST_GREEN_ZERO_BUT_SECOND_PRINCIPAL_HESSIAN_RANK2__TWO_LIVE_KREIN_RADICAL_DIRECTIONS__DISPLAYED_SHIAB_FAMILY_CANNOT_REPAIR
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B moving-Higgs principal Hessian
@@ -56,7 +53,7 @@ cannot see their response.  So the route is incomplete, not dead.
 That distinction matters for the conditional build.  A source-owned bosonic
 primalizer `Q_B`, a coupled metric/section/gauge contact block, or a larger
 total-residual action parent could pair those live null responses with dual
-directions.  This run does not construct any of those repairs.  It establishes
+directions.  This investigation does not construct any of those repairs.  It establishes
 the exact burden they must meet: raise the physical four-real principal symbol
 from rank two to rank four without adding an unowned physical datum.
 

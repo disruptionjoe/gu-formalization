@@ -4,9 +4,7 @@ created: 2026-08-07
 status: MASSIVE_SPIN2_CLOSURE_EXACT__SPIN0_CHARACTERISTIC_POLYNOMIAL_OPEN
 source_return: SOURCE-CONFIRMS__GEOMETRIC_COVARIANCE_AND_FULL_NORM__SOURCE-SILENT__SCALAR_CHARACTERISTIC_COEFFICIENT
 ledger: lab/process/conditional-physics-ledger-v0.41.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer massive SO(3) closure and identifiability

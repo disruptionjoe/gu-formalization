@@ -3,13 +3,10 @@ artifact_type: exploration
 status: exploration
 doc_type: resolver-wave-gate
 created: 2026-08-03
-lane: "1"
 named_gate: RESOLVER-WAVE-A
 gate_transition: "OPEN -> REBASE_REQUIRED"
 route_disposition: REBASE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 registry: explorations/cycle-gates-and-audits/resolver-wave-a-rebase-2026-08-03.json
 ---
 

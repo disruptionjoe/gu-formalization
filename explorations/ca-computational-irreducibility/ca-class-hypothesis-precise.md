@@ -27,13 +27,13 @@ This is the v2-rr-axis material reframed at the substrate level. The rr-axis (`m
 
 Four convergent reasons (from the dialectic and v3 readings):
 
-1. **Wolfram-CA lens (§6 of six-persona dialectic).** Local-rule systems can be exact, structured, and even universal without being monotone. CALM is one tame corner; signed CRDTs, reversible CA, and Class-4 CA all sit outside CALM but inside the local-rule landscape.
+1. **Wolfram-CA lens (§6 of six-perspective dialectic).** Local-rule systems can be exact, structured, and even universal without being monotone. CALM is one tame corner; signed CRDTs, reversible CA, and Class-4 CA all sit outside CALM but inside the local-rule landscape.
 
 2. **WRK-388 v2.1 primitive (signed-readout monotonicity criterion).** The rigorous primitive isn't an anomaly-iff; it's a generator-weight condition on a readout. That criterion is **substrate-agnostic** — it applies to any local-rule substrate with any value group. CA-class is the natural substrate-level home for that primitive.
 
 3. **WRK-389 v3 BvN wall (Birkhoff-von Neumann at value-lattice-distributivity).** The wall says *any classical distributive value lattice* fails to lift to non-commutative GW algebra. CA-class is exactly the classical-distributive-value-lattice substrate landscape. The wall is **stated at the CA-class level**; CALM is a sub-case.
 
-4. **Convergent persona authorities.** The Wolfram-CA persona and Complexity Science persona converge on layer conflation as the structural error in v1; both identify the local-rule substrate as the missing level. The 21-persona meta-verdict's "Issue B" (layer conflation, 5 personas) and "Issue A" (wrong categorical level, 4 personas) both point at the CA-class superclass as the resolution layer.
+4. **Convergent perspective authorities.** The Wolfram-CA perspective and Complexity Science perspective converge on layer conflation as the structural error in v1; both identify the local-rule substrate as the missing level. The 21-perspective meta-verdict's "Issue B" (layer conflation, 5 perspectives) and "Issue A" (wrong categorical level, 4 perspectives) both point at the CA-class superclass as the resolution layer.
 
 ---
 

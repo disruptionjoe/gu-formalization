@@ -4,9 +4,7 @@ created: 2026-08-10
 status: active_research
 predecessor: lab/process/conditional-physics-ledger-v0.158.json
 machine_ledger: lab/process/conditional-physics-ledger-v0.159.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Conditional physics ledger v0.159

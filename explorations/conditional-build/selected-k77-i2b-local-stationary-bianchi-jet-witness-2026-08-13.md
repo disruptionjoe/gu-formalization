@@ -2,16 +2,11 @@
 artifact_type: construction_result
 created: 2026-08-13
 status: LOCAL_STATIONARY_CONNECTION_TWO_JET_CONSTRUCTED__BIANCHI_COMPATIBLE__AFFINE_FIBRE196__FORMAL_INTEGRABILITY_AND_PHYSICAL_QUOTIENT_OPEN
-run_id: RUN-20260813-121249-gu-i2b-local-stationary-bianchi-jet
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 channels: [Build, Compose, Source, Verify]
 ledger_rows: [RA-E1, RA-E3, LT-SM6]
 target_claim: SC-ACT-04
 source_return: SOURCE_CONFIRMS_I2B_CONNECTION_GRAMMAR__SOURCE_SILENT_LOCAL_STATIONARY_TWO_JET_SELECTION_AND_GLOBALIZATION__REPOSITORY_DERIVES_EXPLICIT_LOCAL_WITNESS
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 fork_assumed: none
 search_space_dim: "392 rational symmetric 00/01 connection-two-jet coordinates; rank 196; affine solution fibre dimension 196; decided wholesale at one base point"
 free_object_delta: 0

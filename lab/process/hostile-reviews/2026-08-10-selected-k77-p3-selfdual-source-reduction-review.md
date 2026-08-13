@@ -3,9 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-10
 subject: SELECTED-K77-P3-SELFDUAL-SOURCE-REDUCTION
 verdict: CURRENT_ACTION_REVIVAL_FALSIFIED__PROJECTED_REPLACEMENT_REMAINS_NEW_CONSTRUCTION
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: P3 self-dual source reduction

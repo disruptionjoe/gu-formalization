@@ -5,7 +5,7 @@ created: 2026-07-06
 title: "VIABILITY GAUNTLET synthesis (2026-07-06): ten routes executed against the tri-theory federation — six compute routes (V1-V6) with adversarial verification, four source routes (SA-SD) with audit. HONEST OUTCOME: ZERO of the ten pre-registered kill conditions fired; ZERO legs killed outright; the federation survives — but as exactly what the steelman said it was, a typed interface federation, not a theory. Movement: T8' fourth seat FILLED at kinematic grade (the Cartan involution is implemented by the existing Krein form; fourth seat and quantization seat are one Z2); T6' answered on the toy half with a DECLARABLE ORDER (break-before-quantize; quantize-then-break diverges as 1/eps); T2' gets its first named non-2-adic channel (CP^2 breaking coset, c1 = 3h, all measured) with the invoice UNPAID and — per verifier correction — one condition LARGER than advertised (3|m AND 3|sigma); SKY' revived from presumed-dead to CONTESTED (the remembered lensing kill never fired; it is a 28-year definition dispute) while a STRONGER frame-independence attack (Hobson-Lasenby, unanswered in print) lands on T5'. Negative: T1' conformal-native EMPTY at fiber level (conformal is an import that breaks GU's own fiber data); T3' sharp bounded negative (native condensate channels are ghost-parity even but EXACTLY isospectral — mirrors and generations gap together; the mirror-selective datum is an import); T4' forward NEGATIVE (conformal class embeds natively then does NOTHING to the count); T5' informed adversely twice without being built. Generation count: stays OPEN, wall intact — no route produced a 3, every native channel remains even/isospectral/scatter-inert. Verifier verdicts folded throughout and they WIN over route optimism: V1's 'pre-registered third outcome' provenance claim is stripped (post-hoc taxonomy; substance stands), V5's payoff shape and inserted-data certificate are corrected, V2/V3's headline framings carry their genericity caveats. Exploration-grade; no canon promotion; R1-R4 running separately, gates stated only, outcomes not cited."
 grade: "SYNTHESIS / LEDGER — no new computation in this document; every number cited here is printed by a vg_* script (exit 0) or quoted from a pinned primary source, and every route claim passed through at least one adversarial verifier whose verdict supersedes the route's own packaging. Aggregate: 6/6 compute routes verified (4 SUSTAINED-clean, 2 PARTIAL with corrections folded), 4/4 source routes SUSTAINED. Kill ledger: 0 fired, 5 survived-this-test (all at kinematic/toy/candidate scope, none survived-for-good), 5 untouched. Count verdict: OPEN."
 depends_on:
-  - explorations/persona-and-dialectic/all-persona-tri-theory-combination-steelman-hegelian-2026-07-06.md
+  - explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md
   - explorations/big-swing-2026-07-06/SYNTHESIS-CONJECTURE-tri-theory-2026-07-06.md
   - explorations/big-swing-2026-07-06/VG-V1-condensate-ghost-parity-scan.md
   - explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md
@@ -35,7 +35,7 @@ scripts:
 
 ## 1. The gauntlet statement
 
-The 2026-07-06 all-persona steelman left the tri-theory federation — GU-as-reconstructed
+The 2026-07-06 all-perspective steelman left the tri-theory federation — GU-as-reconstructed
 (geometric substrate) + Mannheim conformal gravity (Weyl^2 action class; breaking births
 scales) + Bateman-Turok ghost-parity Krein quantization — standing as a **typed interface
 federation** with revised legs T1'–T12' + SKY' (steelman Section 5.3) and ten pre-registered
@@ -269,7 +269,7 @@ BT's own bibliography, inherited by our cross-exam doc).
 All five from-memory math flags load-bearing for V3/V5 are now checked mathematics with
 located references + machine checks + failing controls (script exit 0; auditor corrected
 the pass count to 35): even-even J theorem (Davidov-Mushkarov; family is O(6,4)/U(3,2),
-FOUR components — persona doc's SO/U corrected), positive-lines-to-CP^(p-1) retraction
+FOUR components — perspective doc's SO/U corrected), positive-lines-to-CP^(p-1) retraction
 (Wolf/Mostow lineage), c(TCP^n) = (1+h)^(n+1) (Hartshorne II.8.13), su(2,2) ≅ so(4,2) now
 EXPLICITLY constructed (real structure +I/6, signature (4,2), rank 15; su(3,1) control
 comes out quaternionic), Cartan involution basics (Knapp quotes + numeric checks). **V3

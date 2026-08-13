@@ -1,7 +1,7 @@
 # Hostile review: b5 five field packet design
 
 Target: `explorations/b5-five-field-packet-design-2026-08-11.md`
-Run: `RUN-20260811-234500-gu-five-frontier-design-packets` (same-run self-review by the design pass; the executing wave reviews independently).
+Run: `historical-investigation` (same-run self-review by the design pass; the executing wave reviews independently).
 
 ## Self-hostile-review (the three standing charges)
 
@@ -42,7 +42,7 @@ verdict and the fail-closed contract (unchanged until a wave freezes
 fields); the imposed-wall comparator as the standard-side positive control;
 the RB7/W177 kills on exact evidence; the eleven-pair census as the
 unconditional repo state. Needs-recheck, if Wave One lands outcome (a):
-`LANE-STATE.yaml:66-70` findings sentence ("ten phase invariants ... remain
+`CURRENT-STATE.yaml:66-70` findings sentence ("ten phase invariants ... remain
 unselected" — already stale in coefficient-level detail per S4/DC-H1);
 the packet-contract schema for field (ii); the register M-H10 row's
 "Bär–Ballmann ... generically" premise; `explorations/decision-tree-Q1a-

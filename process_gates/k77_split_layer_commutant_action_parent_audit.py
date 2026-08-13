@@ -40,12 +40,12 @@ def main():
     require(ledger["schema_version"] == "0.191", "ledger version drift")
     require(ledger["progress"]["verdict_counts"] == {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5}, "verdict movement")
     require(ledger["residue"]["continuous_real"] == 84, "residue movement")
-    contract = load_unique(ROOT / "lab/process/functional-channel-operating-contract-v1.0.json")
+    contract = load_unique(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
     # This is a durability audit for the v0.191 result, not a freeze on its
     # once-current successor.  Later gates must be able to advance the priority
     # while retaining the exact split-layer evidence.
     require("latest_split_layer_commutant_action_parent_evidence" in json.dumps(contract), "split-layer evidence pointer drift")
-    lanes = (ROOT / "LANES.yaml").read_text()
+    lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
     require("lab/process/conditional-physics-ledger-v" in lanes, "live ledger pointer missing")
     require(gate["accounting"]["P1_P2_P3_used"] is False, "datum use drift")
     print("K77 split-layer commutant/action-parent audit: PASS")

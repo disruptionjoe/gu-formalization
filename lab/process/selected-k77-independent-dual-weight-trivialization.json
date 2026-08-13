@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260811-141703-gu-k77-independent-dual-weight-trivialization",
+  "run_id": "historical-investigation",
   "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN_SOURCE_NATIVE_INDEPENDENT_DUAL",
   "carrier_dimension": 1920,
   "exact_primes": [1009, 1013],

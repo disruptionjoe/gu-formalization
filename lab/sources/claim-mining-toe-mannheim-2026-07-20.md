@@ -7,7 +7,6 @@ directed_by: "Joe direct chat, 2026-07-20"
 source_id: TOE-2026-MANNHEIM-CONFORMAL
 source_transcript: lab/sources/transcripts/toe-mannheim-conformal-gravity-2026-07-06.md
 related_intake: explorations/mannheim-pt-intake-d1-method-2026-07-19.md
-claim_status_change: none
 ---
 
 # Claim mining: Mannheim on TOE (2 h 34 min), five lenses

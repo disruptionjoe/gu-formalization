@@ -2,7 +2,6 @@
 title: "GU defect localization, moving section and Ward/BV source reinspection"
 date: 2026-08-05
 status: source_receipt
-lane: 1
 named_gate: K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT
 ---
 

@@ -18,9 +18,7 @@ inputs:
   - explorations/prereg-trit-symmetry-and-fork-2026-07-20.md
 runnable:
   - tests/channel-swings/q3_one_anchor_vs_two_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 external_actions: none
 ---
 

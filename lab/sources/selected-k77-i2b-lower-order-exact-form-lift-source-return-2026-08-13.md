@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-115145-gu-i2b-lower-order-exact-form-lift
 source_claims: [SC-ACT-04]
 disposition: SOURCE_CONFIRMS_AND_SOURCE_SILENT
 ---

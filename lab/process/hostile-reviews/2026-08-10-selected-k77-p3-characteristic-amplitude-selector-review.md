@@ -3,9 +3,7 @@ artifact_type: hostile_review
 created: 2026-08-10
 subject: SELECTED-K77-P3-CHARACTERISTIC-AMPLITUDE-SELECTOR
 verdict: SURVIVES_AS_CONDITIONAL_CONSTRUCTION__CURRENT_P3_SELECTION_NOT_ESTABLISHED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: P3 characteristic-class amplitude selector

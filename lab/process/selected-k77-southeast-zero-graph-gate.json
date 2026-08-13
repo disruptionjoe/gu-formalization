@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "run_id": "RUN-20260810-100555-gu-k77-graph-lower-left-gate",
+  "run_id": "historical-investigation",
   "status": "EXACT_SCOPED_GRAPH_OBSTRUCTION",
   "layer0": {
     "tested_operator": "CURRENT_Q_REPAIRED_K77_CONDITIONAL_RIVAL",

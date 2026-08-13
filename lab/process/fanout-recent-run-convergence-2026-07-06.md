@@ -71,7 +71,7 @@ python lab/process/fanout_recent_run_metrics.py
       "outcome": "completed_theta_source_current_carrier_packet",
       "receipt": "steward/runs/2026-07-05-progress-fanout-165-theta-source-carrier-packet.md",
       "status": "complete",
-      "title": "RUN-20260705-165"
+      "title": "historical-investigation"
     },
     {
       "added_path_count": 2,
@@ -92,7 +92,7 @@ python lab/process/fanout_recent_run_metrics.py
       "outcome": "completed_weak_field_source_current_carrier_packet",
       "receipt": "steward/runs/2026-07-05-progress-fanout-167-weak-field-source-current-carrier.md",
       "status": "complete",
-      "title": "RUN-20260705-167"
+      "title": "historical-investigation"
     },
     {
       "added_path_count": 2,
@@ -113,7 +113,7 @@ python lab/process/fanout_recent_run_metrics.py
       "outcome": "completed_anomaly_green_schwarz_carrier_packet",
       "receipt": "steward/runs/2026-07-05-progress-fanout-168-anomaly-green-schwarz-carrier.md",
       "status": "complete",
-      "title": "RUN-20260705-168"
+      "title": "historical-investigation"
     },
     {
       "added_path_count": 2,
@@ -134,7 +134,7 @@ python lab/process/fanout_recent_run_metrics.py
       "outcome": "completed_rs_brst_carrier_packet",
       "receipt": "steward/runs/2026-07-05-progress-fanout-171-rs-brst-carrier.md",
       "status": "complete",
-      "title": "RUN-20260705-171"
+      "title": "historical-investigation"
     },
     {
       "added_path_count": 0,
@@ -189,7 +189,7 @@ python lab/process/fanout_recent_run_metrics.py
       "outcome": "completed_families_pushforward_carrier_packet",
       "receipt": "steward/runs/2026-07-05-progress-fanout-177-families-pushforward-carrier.md",
       "status": "complete",
-      "title": "RUN-20260705-177"
+      "title": "historical-investigation"
     },
     {
       "added_path_count": 2,
@@ -210,7 +210,7 @@ python lab/process/fanout_recent_run_metrics.py
       "outcome": "completed_boundary_spectral_section_carrier_packet",
       "receipt": "steward/runs/2026-07-05-progress-fanout-178-boundary-spectral-section-packet.md",
       "status": "complete",
-      "title": "RUN-20260705-178"
+      "title": "historical-investigation"
     },
     {
       "added_path_count": 2,
@@ -231,7 +231,7 @@ python lab/process/fanout_recent_run_metrics.py
       "outcome": "completed_non_equivariant_compensator_packet",
       "receipt": "steward/runs/2026-07-05-progress-fanout-181-non-equivariant-compensator-packet.md",
       "status": "complete",
-      "title": "RUN-20260705-181"
+      "title": "historical-investigation"
     },
     {
       "added_path_count": 2,

@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-11
 ledger_version: "0.186"
-run_id: RUN-20260811-233153-gu-k77-first-jet-fermion-symbol-port-gate
 ---
 
 # Conditional physics ledger v0.186

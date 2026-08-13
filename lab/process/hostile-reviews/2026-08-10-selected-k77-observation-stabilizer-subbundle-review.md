@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-10
 status: CANDIDATE_SURVIVES_AS_OBSERVATION_STABILIZER_INVARIANT594__GLOBAL_REDUCTION_CONDITIONAL
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: selected-K77 observation-stabilizer subbundle

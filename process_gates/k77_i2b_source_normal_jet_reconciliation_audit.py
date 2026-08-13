@@ -14,7 +14,7 @@ required = [
     "lab/process/conditional-physics-ledger-v0.220.json",
     "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-source-normal-jet-reconciliation-review.md",
     "lab/process/selected-k77-i2b-source-normal-jet-reconciliation.json",
-    "lab/process/runs/GUH-20260812T200003Z-i2b-source-normal-jet-reconciliation/run-plan.md",
+    "lab/evidence/predecessor-records/i2b-source-normal-jet-reconciliation.md",
     "lab/sources/selected-k77-i2b-source-normal-jet-reconciliation-source-return-2026-08-12.md",
     "tests/channel-swings/conditional_physics_ledger_v0220_probe.py",
     "tests/channel-swings/selected_k77_i2b_source_normal_jet_reconciliation_probe.py",

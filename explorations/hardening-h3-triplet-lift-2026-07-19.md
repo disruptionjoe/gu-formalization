@@ -18,9 +18,7 @@ inputs:
   - explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md
 runnable:
   - tests/channel-swings/h3_triplet_lift_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hardening H3: the 192-dim triplet lift

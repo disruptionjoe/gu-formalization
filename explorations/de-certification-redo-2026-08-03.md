@@ -6,16 +6,14 @@ status: exploration
 posture: adversarial; truth-seeking; preregistered before computation; no verdict movement
 title: "Synthetic-injection unbiasedness control for the theta_star+BAO pipeline, and the explicit W230-to-FLRW composition map with its first unbuildable arrow"
 grade: "DETERMINISTIC NUMERICAL + EXACT RATIONAL CERTIFICATE / hostile-review rebase / claim_status_change: none"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 hostile_review_status: "executes the redo the 2026-08-03 Wave A-2 hostile review requires; its seven absorbed findings are the spec"
 verdict_gate: "Pre-deposit, J5-gated. No bar, verdict, canon claim, count, H59, or LANE-STATE entry moves here. C10 and M-H13 gate status update only via the register (reported, not edited). The native record law and the native Z_U remain unbuilt regardless of every outcome below."
 kill_conditions_declared_before_computation: true
 depends_on:
   - lab/process/hostile-reviews/2026-08-03-wave-a2-cosmology-bridge-review.md
   - lab/process/anchor-council-2026-08-03/seat2-cosmology.md
-  - lab/process/agent-context-pack.md
+  - lab/process/CURRENT-RESEARCH-CONTEXT.md
   - explorations/de-pipeline-certification-and-bridge-test-2026-08-03.md
   - explorations/W230-close-a4-derive-w154-2026-07-14.md
   - explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md

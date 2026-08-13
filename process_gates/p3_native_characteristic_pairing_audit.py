@@ -21,7 +21,7 @@ ledger = json.loads((ROOT / "lab/process/conditional-physics-ledger-v0.145.json"
 result = json.loads((ROOT / "lab/process/selected-k77-p3-native-characteristic-pairing.json").read_text())
 report = (ROOT / "explorations/conditional-build/selected-k77-p3-native-characteristic-pairing-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-p3-native-characteristic-pairing-review.md").read_text()
-contract = json.loads((ROOT / "lab/process/functional-channel-operating-contract-v1.0.json").read_text())
+contract = json.loads((ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text())
 tests_readme = (ROOT / "tests/README.md").read_text()
 gates_readme = (ROOT / "process_gates/README.md").read_text()
 

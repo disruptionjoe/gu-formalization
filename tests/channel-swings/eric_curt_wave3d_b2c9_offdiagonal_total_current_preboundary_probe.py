@@ -163,7 +163,7 @@ def form_line(base, direction, parameter):
 def source_checks() -> None:
     rendered = (
         ROOT
-        / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
+        / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
     ).read_text()
     pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
     b2c7_report = (

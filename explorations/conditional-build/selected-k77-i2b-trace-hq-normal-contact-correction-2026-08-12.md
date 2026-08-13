@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_real_form_correction
 created: 2026-08-12
-run_id: RUN-20260812-205425-gu-i2b-trace-hq-contact-correction
 status: TRACE_HQ_CONTACT_RANK120_OF_160__COKERNEL_RANK40__SCALAR_COMPLETION_POINTWISE_REALIZABLE
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B trace-Hq normal-contact correction

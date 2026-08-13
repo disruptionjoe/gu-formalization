@@ -2,12 +2,9 @@
 title: "Selected K77 split-layer commutant and action-parent gate"
 status: exact_scoped_construction_result
 created: 2026-08-12
-run_id: RUN-20260812-020740-gu-split-layer-commutant-action-parent
 target_claim: NONE-NOT-A-KILL
 ledger: v0.191
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 split-layer commutant and action-parent gate
@@ -124,7 +121,7 @@ and evidence only.  It neither constructs observed chiral cohomology nor
 computes local/global anomalies, masses, an index or a generation count.
 `P1/P2/P3`, residue, quotients, verdicts, canon and public posture do not move.
 
-The next decisive Lane 1 gate is to make `omega` and `J4` moving fields of the
+The next decisive truth-status research gate is to make `omega` and `J4` moving fields of the
 observation reduction and compute their covariant derivatives under the
 action-owned connection.  Then test whether stationarity or a declared source
 constraint enforces block preservation, the finer split reduction, neither,

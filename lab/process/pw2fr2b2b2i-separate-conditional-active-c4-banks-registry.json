@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS",
   "status": "SEPARATE_CONDITIONAL_ACTIVE_C4_BANK_PROMOTION_BLOCKED_ON_UNIVERSAL_OWNER_CONORMAL_COVERAGE__PARAMETRIC_H_H2_FORMULAS_RETAINED",
-  "run_id": "RUN-20260804-102714-gu-formalization-pw2fr2b2b2i-separate-c4-banks",
+  "run_id": "historical-investigation",
   "verdict_scope": "exact accepted-evidence coverage audit for the ten active metric owners, 35-monomial four-conormal quartic basis, H/H2 exercised pair, bank-grade predecessor pattern, and bounded serial resource attempt",
   "source_disposition": {
     "SOURCE-CONFIRMS": "the public I1 grammar and real-form fork only",

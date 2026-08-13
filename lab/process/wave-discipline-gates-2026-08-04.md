@@ -5,9 +5,7 @@ doc_type: process-note
 created: 2026-08-04
 tier: process
 routing: non-routing
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 title: "Wave-discipline gates: the disposition schema, the Layer-0 fork registry, and the dated cutover"
 scope: "Explains two process gates and one registry. Creates no claim, verdict, grade, priority, lane movement, or external-datum entry. It records process mechanics only."

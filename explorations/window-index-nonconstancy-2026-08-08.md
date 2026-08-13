@@ -7,10 +7,7 @@ grade: "ANALYSIS over filed data, with an exact arithmetic check of the window
   delta where the indicial family fails to be invertible, so its kernel is
   nonzero -- and is not a numerical multiplicity computation. No multiplicity is
   computed here and none is filed."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

@@ -6,9 +6,7 @@ created: 2026-08-03
 work_item: "M-H1 (WP-A3)"
 code: tests/oq_rk1_j_restriction_probe.py
 grade: "EXACT FINITE COMPUTATION (explicit Cl(9,5)=M(64,H) rep on the 1792-dim RS fiber; equivariant slot projectors from Casimir/chirality data -- canonical/isotypic on the multiplicity-free X block, small sector refined by the Q4/Q10 provenance grading into the ledger's eight 32-dim slots; 232/232 hard asserts, exit 0; matched distances 0.0 or <= 3.0e-15 (coarse) and <= 1.4e-16 (refined) against unmatched distances >= 11.31 (coarse) / >= 8.0 (refined 32-dim), separation ratio >= 3.8e15 coarse) / no rank, no count, no claim-status change"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 depends_on:
   - explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md
   - tests/oq_rk1_cl95_explicit_rep.py

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-10
-run_id: RUN-20260810-200828-gu-k77-moving-varpi-stationary-intersection
 verdict: SCOPED_SURVIVES__EXACT_TAUTOLOGICAL_INTERSECTION__PHYSICAL_COHOMOLOGY_AND_COUNT_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: moving-`varpi` stationary intersection

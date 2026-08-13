@@ -24,7 +24,7 @@ and verification tier); the row verdict (BITES / ESCAPES / PARTIAL(exact gap))
 is recorded hypothesis-by-hypothesis against GU's transcript-tier commitments
 (quoted verbatim, line-verified this session). Decision outputs are DERIVED
 from the row fields and asserted for consistency. Carrier-A steelman rows are
-first-class data: the run FAILS if any decision output ignores them.
+first-class data: the investigation FAILS if any decision output ignores them.
 
 FIREWALL (asserted): no chi(K3)=24 import, no /8 manufacture, no A-hat=3,
 no predetermined verdict (the script's outputs are branch-closures at stated

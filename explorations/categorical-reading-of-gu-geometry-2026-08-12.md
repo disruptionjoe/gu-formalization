@@ -3,14 +3,10 @@ title: "A categorical reading of GU's geometry (universality, descent, monoidali
 status: active_research
 doc_type: interpretive_reading
 created: 2026-08-12
-run_id: RUN-20260812-120000-gu-categorical-geometry-reading
-lane: "1"
 brief_version: "1.2"
 target_claim: NONE-NOT-A-KILL
 source_claims: [SC-GEO-01, SC-FER-01, SC-FER-05, SC-GEN-04, SC-GEN-05, SC-CHI-01, SC-CHI-50]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 binding: >-
   Interpretive reading, PROPOSED throughout. It derives no new result,
   moves no verdict, and adds no source claim. Its value is diagnostic:

@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (5-persona inline team; analysis + computed grade)
+status: exploration (5-perspective inline team; analysis + computed grade)
 created: 2026-07-11
 title: "Path-3 Branch B (blind wave): the anomaly-inflow / boundary-localization construction of the generation count. Verdict: inflow LOCATES & QUANTIZES the count (to Z, via winding/Chern/level) but does NOT FORCE it; its only forced constraint is 2-primary parity; by Hom(Z/3,Z)=0 the standard inflow invariant provably cannot reach the 3-primary count. Q-extra = the bulk data (the free input). Class-wide no-go for the physics-side inflow invariant; a torsion-refined (Dai-Freed / bordism) inflow invariant is the only inflow object that could reach 3-primary, and its forcing is the OPEN global question."
 grade: "COMPUTED / analysis. tests/W56_path3_B_anomaly_inflow.py (exit 0, 10/10 checks, deterministic, no RNG). Standard physics (Nielsen-Ninomiya doubling; Jackiw-Rebbi/Kaplan domain-wall winding; Callan-Harvey local inflow parity; theta-level quantization) plus two elementary number-theoretic obstructions (Hom(Z/3,Z)=0, Hom(Z/3,Z/2)=0). No canon / RESEARCH-STATUS / claim-status / verdict movement; the generation count stays OPEN."
@@ -19,7 +19,7 @@ scripts:
 
 Blind branch B of the "why three generations?" wave. This branch attacks the count as a
 **boundary-localized** quantity set by **anomaly inflow** from a higher-dimensional bulk. The five
-personas run inline, sequentially, in one context. I reproduced the repo's prior
+perspectives run inline, sequentially, in one context. I reproduced the repo's prior
 `no-net-chirality-without-a-boundary` and `sm-as-boundary-cobordism-frontier` logic independently
 before building on it; where I lean on those results I re-derived their load-bearing step in the test.
 
@@ -33,7 +33,7 @@ is a physics-side integer, and that is exactly why it locates but cannot force t
 
 ---
 
-## Persona 1 -- the ANOMALY-INFLOW THEORIST: the bulk term and the boundary invariant
+## Perspective 1 -- the ANOMALY-INFLOW THEORIST: the bulk term and the boundary invariant
 
 **The inflow setup.** Take a bulk topological term whose boundary variation reproduces the boundary
 fermion anomaly. The canonical choices, all one mechanism:
@@ -57,7 +57,7 @@ load-bearing input, and it is checked three ways in the test:
   `w = 1,2,3 -> counts 1,2,3`. The count is quantized to Z, but its **value is the chosen winding**.
 - `[3]` **Level quantization:** `exp(i 2pi k)=1` selects `k in Z`; every integer level is admissible.
 
-## Persona 2 -- the MATH REFEREE: grade each claim, LOCATES vs FORCES
+## Perspective 2 -- the MATH REFEREE: grade each claim, LOCATES vs FORCES
 
 | claim | grade | LOCATES or FORCES |
 |---|---|---|
@@ -73,7 +73,7 @@ Neither is a forcing of a **value**, and neither lives in the **3-primary** aren
 lives. The distinction "integer index (`Z` / 2-primary) vs torsion class (3-primary)" is exactly the
 place a careless argument would blur; it is not blurred here.
 
-## Persona 3 -- the ADVERSARY: "you chose the answer"
+## Perspective 3 -- the ADVERSARY: "you chose the answer"
 
 The pre-registered trap: *the bulk topological term / the domain-wall target topology is itself the
 free input that secretly chooses the count.* The adversary is **correct**, and the test makes the
@@ -88,7 +88,7 @@ concession explicit rather than hiding it:
 The adversary's attack therefore **succeeds against forcing** and the branch concedes: inflow
 **quantizes given a choice**; the choice is Q-extra.
 
-## Persona 4 -- the CROSS-CHECKER: reproduce a known inflow result and check parity
+## Perspective 4 -- the CROSS-CHECKER: reproduce a known inflow result and check parity
 
 Two independent reproductions, both in the test, both deterministic:
 1. **Nielsen-Ninomiya doubling** (the closed-side no-go): naive 1d lattice fermion `E(k)=sin k` has
@@ -105,7 +105,7 @@ Two independent reproductions, both in the test, both deterministic:
 form of the `GEOMETER-VS-PHYSICS` note that "odd (mod-2) != the count (mod-3)": inflow's forcing is
 even worse than "odd" -- it is *parity*, coprime to the count.
 
-## Persona 5 -- the SYNTHESIZER: verdict
+## Perspective 5 -- the SYNTHESIZER: verdict
 
 **Construction of the count used:** net chirality of defect/boundary-localized fermions, fixed by
 anomaly inflow from a bulk topological term (Callan-Harvey / Kaplan / Jackiw-Rebbi, with the NN

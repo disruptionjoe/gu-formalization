@@ -8,7 +8,7 @@ Porrati-Rahman-type NON-MINIMAL completion.  Guardian-FREE it is a finite-cutoff
 need a GUARDIAN symmetry (local SUSY).  The constructive branches try to SHOW GU is a
 supergravity.  THIS branch tries to PROVE it CANNOT be -- or to characterize the honest fallback.
 
-Attack from every no-go angle (5 personas run INLINE; results synthesized):
+Attack from every no-go angle (5 perspectives run INLINE; results synthesized):
 
   Q1  Coleman-Mandula / Haag-Lopuszanski-Sohnius (HLS): do GU's hypotheses (Krein/indefinite
       state space, non-compact internal Sp(32,32;H), 4th-order Bach/Stelle gravity, and a
@@ -299,7 +299,7 @@ def main():
                          "internal-momentum Ward identity cannot tame the physical-spacetime helicity-1/2 cutoff"))
 
     # ================================================================ Q4: VERDICT
-    print("Q4 -- VERDICT (synthesis of the five personas)")
+    print("Q4 -- VERDICT (synthesis of the five perspectives)")
     q1_fires = hls_fires_as_nogo                       # False
     q2_forbids_existence = not algebra_exists_95       # False
     q2_evaded = q2_obstructs_hilbert_not_existence     # True

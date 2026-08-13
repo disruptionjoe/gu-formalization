@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-11",
-  "run_id": "RUN-20260811-001119-gu-k77-fixed-common-receiver-hull",
+  "run_id": "historical-investigation",
   "field": "GF(1000033) exact common-hull computation",
   "predecessor": "lab/process/selected-k77-high-conviction-receiver-completion.json",
   "checks": {

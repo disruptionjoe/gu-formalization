@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (TEAM REVERSE-CONDORCET, W205; SIXTEEN specialist lenses inline, one worker, no sub-agents; deterministic Condorcet tally, 21/21 exit 0)
+status: exploration (TEAM REVERSE-CONDORCET, W205; SIXTEEN specialist lenses inline, one worker, no independent reviewers; deterministic Condorcet tally, 21/21 exit 0)
 created: 2026-07-14
 wave: W205
 label: W205
@@ -26,7 +26,7 @@ scripts:
 
 # W205 -- reverse-engineering the source action from the good stable (sixteen lenses + Condorcet)
 
-Sixteen specialist lenses ran INLINE, sequentially, in this one worker (no sub-agents). The Condorcet
+Sixteen specialist lenses ran INLINE, sequentially, in this one worker (no independent reviewers). The Condorcet
 vote was computed inline and encoded in `tests/W205_source_action_reverse_engineering_condorcet.py`
 (21/21, exit 0). Zero em dashes.
 

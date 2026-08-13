@@ -4,9 +4,7 @@ created: 2026-08-07
 status: TT_MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2_WITH_EXTRA_OPEN__EULER_PREBOUNDARY_EXACT__COMPLETE_PHYSICAL_QUOTIENT_OPEN
 source_return: SOURCE-CONFIRMS__NORM_SQUARE__SOURCE-SILENT__TT_OWNER_MAP
 ledger: lab/process/conditional-physics-ledger-v0.40.json
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected second-layer TT Euler, preboundary and helicity

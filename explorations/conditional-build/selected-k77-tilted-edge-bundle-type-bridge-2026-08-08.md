@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-08
 status: TILTED_AFFINE_COCYCLE_EXACT__V70_EDGE_TYPE_MISMATCH__BRIDGE_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE-CONFIRMS__TILTED_AFFINE_ONEFORM_COCYCLE__SOURCE-SILENT__BOUNDARY_ZEROFORM_EDGE_BRIDGE
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR3, LT-GR5, LT-GR6]
 scripts:

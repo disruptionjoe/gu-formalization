@@ -8,10 +8,7 @@ grade: "EXACT. tests/source_signature_notation_is_mirrored.py is green. Three
   forms at three different bases and gets bit-identical results, which is what
   makes the notation reading FORCED rather than merely plausible. The pressure on
   REAL-CLIFFORD-FORM is stated and NOT acted on."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

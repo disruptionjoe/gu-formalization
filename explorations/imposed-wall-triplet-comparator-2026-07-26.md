@@ -2,9 +2,6 @@
 title: "Target-blind imposed-wall triplet comparator"
 status: active_research
 doc_type: exploration
-run_id: RUN-20260726-130939-gu-formalization-progress
-lane_id: "1"
-claim_status_change: none
 ---
 
 # Target-Blind Imposed-Wall Triplet Comparator

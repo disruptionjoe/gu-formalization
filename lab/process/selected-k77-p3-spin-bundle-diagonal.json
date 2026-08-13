@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-145504-gu-p3-spin-bundle-diagonal",
+  "run_id": "historical-investigation",
   "verdict": "ONE_P3_ORIENTATION_MATCHES_CHIRAL_SPIN_BUNDLE__TOPOLOGICAL_DIAGONAL_EXISTS_UP_TO_GAUGE__CONNECTION_DIAGONAL_CONDITIONAL_ON_HOMOGENEOUS_ROUND_BPST",
   "spin_c2_pair": [1, -1],
   "p3_matches": {"-1": "S-", "0": "NONE", "1": "S+"},

@@ -118,7 +118,7 @@ The test invokes the N1 hash emitter and refuses to proceed silently against a
 different construction. The ordinary Markdown file hash is not substituted for
 the executable construction hash.
 
-The native column of this run is:
+The native column of this investigation is:
 
 - the actual metric fibre
   \(\operatorname{Sym}^2T^*X\);
@@ -635,7 +635,7 @@ sesquilinear branch).
 
 N1 does not supply explicit \(\Phi_\alpha\) or \(\rho(\Phi_\alpha)\) matrices
 for these representatives. No nonzero full-gauge stabilizer identity or
-dimension is computed. In particular, this run does not substitute
+dimension is computed. In particular, this investigation does not substitute
 \(U(128)\) for \(Sp(32,32;\mathbb H)\).
 
 ## 10. Corrected \(20\)-slot support and provenance

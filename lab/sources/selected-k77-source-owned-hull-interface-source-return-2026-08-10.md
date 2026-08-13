@@ -1,11 +1,8 @@
 ---
 artifact_type: source_return
 created: 2026-08-10
-run_id: RUN-20260810-235056-gu-k77-source-owned-hull-interface-expanded
 status: complete
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Source return: K77 ambient carrier versus selected hull

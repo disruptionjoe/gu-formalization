@@ -184,7 +184,7 @@ if verdict == "SURPLUS-UNCOMPUTABLE":
 print(
     "\nPROXY LIMIT, BINDING: object-sharing is a proxy for expressibility, not a\n"
     "proof of inexpressibility.  A row classified OUTSIDE may still constrain\n"
-    "the residual through a bridge nobody has built.  This run does not close\n"
+    "the residual through a bridge nobody has built.  This investigation does not close\n"
     "any row; it reports which have no bridge TODAY."
 )
 print(

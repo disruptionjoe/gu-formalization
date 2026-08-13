@@ -2,7 +2,6 @@
 title: "Hostile review: selected K77 zero-order W/mirror parent leakage"
 status: scoped_pass
 date: 2026-08-10
-run_id: RUN-20260810-071020-gu-k77-zero-order-w-mirror-parent-leakage
 ---
 
 # Hostile review

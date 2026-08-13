@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.168 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; the actual unreduced K77 one-time evolution has no positive symmetrizer, so the standard maximal-dissipative Cauchy route is killed while source-derived reduction and ambient nonlocal ultrahyperbolic domains remain open"
   },
-  "updated_by": "RUN-20260811-071031-gu-k77-unreduced-hyperbolic-domain-gate",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

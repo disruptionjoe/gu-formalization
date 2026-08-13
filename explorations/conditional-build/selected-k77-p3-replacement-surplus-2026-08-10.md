@@ -2,13 +2,9 @@
 artifact_type: exact_replacement_interface_globality_and_constraint_surplus_gate
 created: 2026-08-10
 status: TANGENTIAL_IDENTITY_ZERO_CONTINUOUS_COST_BUT_BACKGROUND_AND_REAL_FORM_CONDITIONAL__HN_SOLDERING_NEGATIVE_SURPLUS_UNLESS_SOURCE_OWNED__NO_ACTION_RESTRICTION
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_LORENTZIAN_TANGENT_NORMAL_SPINOR_SPLIT__SOURCE_SILENT_P3_TANGENTIAL_IDENTITY_HN_SOLDERING_AND_CHARACTERISTIC_AMPLITUDE
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 P3 replacement: globality and constraint surplus

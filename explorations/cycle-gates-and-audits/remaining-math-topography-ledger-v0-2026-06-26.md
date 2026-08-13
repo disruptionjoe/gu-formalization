@@ -5,8 +5,8 @@ status: exploration
 doc_type: topography_ledger
 verdict: "NO_CLAIM_PROMOTIONS; USE_AS_FRONTIER_RUN_PREFLIGHT_INPUT"
 depends_on:
-  - "explorations/persona-and-dialectic/remaining-math-topography-20-lens-steelman-hegelian-2026-06-26.md"
-  - "explorations/persona-and-dialectic/quantum-chaos-crypto-ten-lens-steelman-hegelian-2026-06-26.md"
+  - "explorations/perspective-and-dialectic/remaining-math-topography-20-lens-steelman-hegelian-2026-06-26.md"
+  - "explorations/perspective-and-dialectic/quantum-chaos-crypto-ten-lens-steelman-hegelian-2026-06-26.md"
   - "NEXT-STEPS.md"
   - "lab/process/runbooks/five-lane-frontier-run.md"
 ---
@@ -155,5 +155,5 @@ Which mathematical terrain is this wall on, what shortcut would misroute it,
 and what first invariant would confirm or kill that routing?
 ```
 
-Only after that should the run choose a theorem, computation, certificate, or
+Only after that should the investigation choose a theorem, computation, certificate, or
 no-go attempt.

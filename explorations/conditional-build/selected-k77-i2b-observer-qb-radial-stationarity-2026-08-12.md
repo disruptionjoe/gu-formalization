@@ -2,8 +2,6 @@
 title: "Selected K77 I2B observer-Q_B radial stationarity composition"
 status: conditional-construction
 created: 2026-08-12
-run_id: RUN-20260812-223314-gu-i2b-observer-qb-radial-stationarity
-lane: 1
 channels: [Build, Compose, Source, Verify]
 source_disposition: SOURCE-CONFIRMS-QB-SLOT__SOURCE-SILENT-EXACT-QU
 free_object_delta: "zero if the conditional observer equation globalizes; no datum is booked"

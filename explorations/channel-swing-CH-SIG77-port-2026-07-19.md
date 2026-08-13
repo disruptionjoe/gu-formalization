@@ -23,9 +23,7 @@ inputs:
   - tests/generation-sector/ghost_parity_krein.py
   - tests/generation-sector/signature_77_rerun.py
 tests: tests/channel-swings/ch_sig77_port_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # CH-SIG-77 opening port: close-or-kill reconnaissance

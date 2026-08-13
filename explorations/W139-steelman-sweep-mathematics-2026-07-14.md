@@ -1,14 +1,14 @@
 ---
 artifact_type: exploration
-status: exploration (W139 / full-roster steelman sweep, MATHEMATICS family = slice B geometric/structural; 14 personas inline, one worker, no sub-agents; assumption-first hypothesis generation, kill rigorously afterwards; mid-wave framing correction from Joe applied post-completion, Section 0A)
+status: exploration (W139 / full-roster steelman sweep, MATHEMATICS family = slice B geometric/structural; 14 perspectives inline, one worker, no independent reviewers; assumption-first hypothesis generation, kill rigorously afterwards; mid-wave framing correction from Joe applied post-completion, Section 0A)
 created: 2026-07-14
 wave: W139
-hypothesis: "Joe's framing, steelmanned per persona, with the mid-wave correction applied: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it (rho_Lambda ~ (2.24 meV)^4; Q_tot = 3 H0 rho_L V_H = 1.027 Planck luminosities per Hubble volume; dimensionless 9 Omega_Lambda = 6.16). The question per persona: IF that known measured number is DECLARED as the issuance input, distributed through the observers, what is the distribution FUNCTION F, solid enough to serve as an ASSUMPTION LEG so the source action, the spec FITs, and the observer-slice structure can be backed into. W135's null-structure separator (at w = -1 the covariant Q = 0 identically; the rate is bookkeeping; ALL physical content lives in the distribution leg) is the corrected framing stated as a theorem, and it is exactly this family's partition-law-at-fixed-total design."
-title: "W139 -- MATHEMATICS-family steelman sweep of the issuance-distribution framing: 28 candidate distribution functions (two per persona), each with its assumption leg and its test, scored against the W138 kill battery. Six killed at generation; framing correction applied (Section 0A): the declared total is the W135 MEASURED rate, one story's schedule rider reclassified out-of-scope (2B's derived-drift leg), 22 survivors of which 21 fully in scope + 1 in scope as distribution-only. Re-ranked top five: the stationary-varifold ensemble law (GMT), the spectral-action heat-kernel distribution (NCG), the C-compression share law (rep theory / NCG), the parallel-tractor uniqueness law (conformal geometry), and the 3:2:1 irrep partition (rep theory)."
+hypothesis: "Joe's framing, steelmanned per perspective, with the mid-wave correction applied: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it (rho_Lambda ~ (2.24 meV)^4; Q_tot = 3 H0 rho_L V_H = 1.027 Planck luminosities per Hubble volume; dimensionless 9 Omega_Lambda = 6.16). The question per perspective: IF that known measured number is DECLARED as the issuance input, distributed through the observers, what is the distribution FUNCTION F, solid enough to serve as an ASSUMPTION LEG so the source action, the spec FITs, and the observer-slice structure can be backed into. W135's null-structure separator (at w = -1 the covariant Q = 0 identically; the rate is bookkeeping; ALL physical content lives in the distribution leg) is the corrected framing stated as a theorem, and it is exactly this family's partition-law-at-fixed-total design."
+title: "W139 -- MATHEMATICS-family steelman sweep of the issuance-distribution framing: 28 candidate distribution functions (two per perspective), each with its assumption leg and its test, scored against the W138 kill battery. Six killed at generation; framing correction applied (Section 0A): the declared total is the W135 MEASURED rate, one story's schedule rider reclassified out-of-scope (2B's derived-drift leg), 22 survivors of which 21 fully in scope + 1 in scope as distribution-only. Re-ranked top five: the stationary-varifold ensemble law (GMT), the spectral-action heat-kernel distribution (NCG), the C-compression share law (rep theory / NCG), the parallel-tractor uniqueness law (conformal geometry), and the 3:2:1 irrep partition (rep theory)."
 grade: "exploration / hypothesis-generation, conditional register throughout. NOTHING here is asserted; every story is of the form 'under the issuance declaration (W136 sense) plus this story's own named assumption leg'. No new computation was required for scoring (all gate checks reduce to citations of computed bounds in W136/W137/W138/W129/W130); no test file is shipped. Tri-repo gating enforced: capability MEASURE belongs to TaF; whether the distribution is genuine issuance vs disclosure belongs to temporal-issuance; everything below is GU-side mathematics only, and 'issuance' is used solely as the W136 local postulate label. No canon / RESEARCH-STATUS / claim-status / verdict / posture change."
 depends_on:
-  - explorations/two-track-persona-sweep-2026-07-11/B-geometric-structural.md
-  - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/two-track-perspective-sweep-2026-07-11/B-geometric-structural.md
+  - explorations/two-track-perspective-sweep-2026-07-11/SYNTHESIS.md
   - explorations/W135-issuance-structure-taxonomy-2026-07-14.md
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
@@ -605,7 +605,7 @@ w = -1), F the candidate distribution function (per-observer or per-mode share o
   ratio (this is a one-line consequence of the computed a0(alpha, beta) = 2 alpha - beta, W136
   test B5, so step (a) is already effectively computed); (b) the stability half is the SAME
   named settling computation as stories 2B and 11A: the family c_W via the W130 evaluator on
-  |H|^2 in the TT sector. Three independent personas' tests converge on one existing-machinery
+  |H|^2 in the TT sector. Three independent perspectives' tests converge on one existing-machinery
   computation.
 
 ### Story 14B -- Gibbs-measure (canonical-ensemble) distribution
@@ -614,7 +614,7 @@ w = -1), F the candidate distribution function (per-observer or per-mode share o
   canonical ensemble of the family functional at beta/alpha = 2, and the SET issuance rate is
   the ensemble temperature kappa (a schedule parameter, G4-legal). The distribution is the
   Gibbs density on section space.
-- **(ii) Assumption leg.** Pins the direct-method foundation this persona has demanded all
+- **(ii) Assumption leg.** Pins the direct-method foundation this perspective has demanded all
   along: the leg is "Z exists" (integrability of exp(-W_family) on the admissible class), which
   backs into concrete positivity requirements on the family functional -- specifically, the
   W137 releasing directions (-32 w^2 spatial traceless, -64 u^2 MSS) make the quadratic level
@@ -631,7 +631,7 @@ w = -1), F the candidate distribution function (per-observer or per-mode share o
 
 ## 15. KILLED AT GENERATION (with one-line reasons)
 
-| story | persona | one-line kill |
+| story | perspective | one-line kill |
 |---|---|---|
 | 3A-prime (RS-carrier partition, the draft predecessor of 3A) | higher-spin | issuance cannot reach the RS sector at all: Hom-disjointness is already computed (W136 F1-F3, 1792/1664/128); a partition over channels the datum cannot feed is empty |
 | 7B (coadjoint-orbit quantized shares) | symplectic | untestable: IG is infinite-dimensional, no orbit-volume regularization exists anywhere in the repo; zero machinery, zero number |
@@ -744,7 +744,7 @@ computation), 13A (tri-repo bridge, toy-model test).
 zero), 7A, 8A, 9A, 10A, 5A (heaviest test).
 
 **Convergence note (the sweep's one emergent structural fact, unchanged by the correction):**
-three independent personas' top tests (2B, 11A, 14A) reduce to the SAME existing-machinery
+three independent perspectives' top tests (2B, 11A, 14A) reduce to the SAME existing-machinery
 computation: the family Weyl channel c_W at beta/alpha = 2 via the W130 plane-wave/Gilkey
 evaluators -- which is also W136's own named settling computation for SA-G8. Under this
 family's reading, that single computation is now quadruple-loaded: it recomputes the sub-mm

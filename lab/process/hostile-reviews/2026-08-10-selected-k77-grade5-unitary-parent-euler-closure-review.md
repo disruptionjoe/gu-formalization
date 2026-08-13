@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-10
 status: CANDIDATE_SURVIVES__GRADE125_KILLED__SPIN_GRADE_SATURATED113893_OR_UNITARY_FULL229477__PARENT_FORK_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: grade-five and unitary-parent Euler closure

@@ -2,9 +2,7 @@
 artifact_type: hostile_review
 created: 2026-08-09
 verdict: NAIVE_RECONSTRUCTION_HESSIAN_SELECTOR_FALSIFIED__SOURCE_VARPI_RESTRICTIONS_SAME_INERTIA__BOTH_BRANCH_PORTS_REQUIRED
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: K77 branch-Hessian discriminator

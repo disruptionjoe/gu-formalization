@@ -25,7 +25,7 @@ def strict(relative):
 
 registry = strict("lab/process/selected-k77-operative-pairing-symmetry-closure.json")
 ledger = strict("lab/process/conditional-physics-ledger-v0.93.json")
-contract = strict("lab/process/functional-channel-operating-contract-v1.0.json")
+contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-operative-pairing-symmetry-closure-2026-08-08.md").read_text(encoding="utf-8")
 review = (ROOT / registry["hostile_review"]).read_text(encoding="utf-8")
 source = (ROOT / "lab/sources/selected-k77-residual-pairing-source-reinspection-2026-08-08.md").read_text(encoding="utf-8")
@@ -103,13 +103,13 @@ for relative in registry["scripts"]:
         ast.parse(path.read_text(encoding="utf-8"))
 
 for relative in (
-    "LANES.yaml",
+    "lab/process/RESEARCH-AGENDA.json",
     "NEXT-STEPS.md",
     "RESEARCH-STATUS.md",
     "explorations/README.md",
     "lab/process/README.md",
-    "lab/process/agent-context-pack.md",
-    "lab/process/functional-channel-operating-contract-v1.0.md",
+    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+    "lab/methods/research-evidence-contract-v1.0.md",
 ):
     assert "v0.93" in (ROOT / relative).read_text(encoding="utf-8")
 

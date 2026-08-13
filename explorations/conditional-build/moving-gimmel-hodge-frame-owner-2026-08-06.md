@@ -2,9 +2,7 @@
 artifact_type: conditional_build_result
 created: 2026-08-06
 status: TT_DENSITY_ZERO__FIXED_FRAME_HODGE_LIVE__MOVING_HODGE_AND_COFRAME_FUSED__SELECTED_ACTION_COMPOSITION_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ledger: lab/process/conditional-physics-ledger-v0.26.json
 machine_registry: lab/process/moving-gimmel-hodge-frame-owner.json
 probe: tests/channel-swings/moving_gimmel_hodge_frame_owner_probe.py

@@ -8,9 +8,7 @@ campaign_wave: ECW3-G4-OBSERVATION
 registry: lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json
 probe: tests/channel-swings/eric_curt_wave3c_y14_atlas_cauchy_domain_probe.py
 grade: "EXACT ACTUAL METRIC-BUNDLE VERTICAL TENSOR ATLAS, SPLIT-FRAME GIMMEL CONTROL, AND DECISIVE ORDINARY FULL-AMBIENT CAUCHY KILL; NOT A CONNECTION-FREE NONLINEAR ATLAS OR ANALYTIC DOMAIN THEOREM. GL(4)-induced Sym2 transitions descend the vertical and trace-reversed DeWitt data; the total gimmel and admitted-section-jet packet is exact in affine or connection-adapted frames. Signature (9,5) admits neither a positive thirteen-plane nor a hyperbolic direction for its characteristic quadratic. Section-pullback and genuinely ultrahyperbolic/Krein boundary-value domains remain open."
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 third_lane_promotion: none
 ---
 

@@ -10,7 +10,6 @@ inputs:
   - explorations/transcript-reread-distortion-vacuum-field-2026-07-19.md
   - explorations/construction-space-qm-checklist-p4-2026-07-19.md
   - "possibility-to-capability: 2026-07-19 Z2 topological-order witness + source freeze (Kitaev 2003; DKLP 2002; Kitaev-Preskill 2006; Levin-Wen 2006)"
-claim_status_change: none
 ---
 
 # Adapter-assumed four-leg swing

@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-230429-gu-physical-operator-admission-closure
 verdict: SCOPED_SURVIVES
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: physical-operator admission closure

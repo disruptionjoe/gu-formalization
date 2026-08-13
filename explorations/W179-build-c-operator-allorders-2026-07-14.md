@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: "exploration (W179 / TEAM BUILD-COP-ALLORDERS; label W179; coherence-first BUILD; five inline personas, one worker, no sub-agents; one deterministic test 23/23 exit 0 with positive + negative controls; EXTENDS W169's QM Q1/Q2 construction to the QFT momentum-space generator Q1(k) with the W54 non-local denominators, and to the all-orders question)"
+status: "exploration (W179 / TEAM BUILD-COP-ALLORDERS; label W179; coherence-first BUILD; five inline perspectives, one worker, no independent reviewers; one deterministic test 23/23 exit 0 with positive + negative controls; EXTENDS W169's QM Q1/Q2 construction to the QFT momentum-space generator Q1(k) with the W54 non-local denominators, and to the all-orders question)"
 created: 2026-07-14
 label: W179
 posture: coherence-first BUILD sprint; exploration grade; honest grading
@@ -41,7 +41,7 @@ resolve**, two gaps: (a) the QFT generator carries `1/sqrt(k^2+m^2)` energy deno
 non-locally (kernel `~e^{-m|x|}`, strip-width `m`) **unless** dynamical PT-breaking (an on-shell ghost
 width, W51). This team **extends the construction** to the QFT generator and the all-orders question.
 
-Five personas ran inline, sequentially, single context. Deterministic test
+Five perspectives ran inline, sequentially, single context. Deterministic test
 `tests/W179_c_operator_allorders_qft.py`, **23/23, exit 0**, positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md discipline)
@@ -59,7 +59,7 @@ obstruction lift to a commensurate-ratio condition, or to a kinematic decay-thre
 the continuum?* We show it is the **latter**, and that this **reorganizes** the verdict for the
 massless-graviton Stelle spectrum.
 
-## 2. Persona 1 -- PT-QFT / C-operator specialist: the QFT generator Q1(k)
+## 2. Perspective 1 -- PT-QFT / C-operator specialist: the QFT generator Q1(k)
 
 In QFT the cross-vertex `A` (Krein-odd, anti-Hermitian; the QFT face of W169's
 `A = (a1)^2 a2^dag - h.c.`, two physical quanta `<->` one ghost quantum, coupling `g`) makes W169's
@@ -87,7 +87,7 @@ frame `D(k, -k) = 0` at `k^2 = m_ghost^2/4 - m_phys^2`, a real momentum **iff `m
 This is **W169's discrete `2:1` resonance** (`w_ghost = 2 w_phys`, the Q1 obstruction) **lifted to the
 continuum**. The discrete Poincare resonance becomes a kinematic decay threshold.
 
-## 3. Persona 2 -- functional-analysis specialist: boundedness of the sub-threshold non-local kernel
+## 3. Perspective 2 -- functional-analysis specialist: boundedness of the sub-threshold non-local kernel
 
 **Sub-threshold (`m_ghost < 2 m_phys`): the generator EXISTS as a bounded non-local operator.** `D` is
 strictly one-signed (test Q1-1: `max D < 0`), so `1/D` has **no on-shell pole**; on any compact
@@ -107,7 +107,7 @@ on a real codimension-1 surface (test Q1-2: sign change), so `1/D` has an on-she
 bounded Hermitian generator; resolving the pole (`i epsilon` / resummation) is exactly the dynamical
 question of Section 5.
 
-## 4. Persona 3 -- resummation specialist: the all-orders question
+## 4. Perspective 3 -- resummation specialist: the all-orders question
 
 **Sub-threshold: CONVERGENT-PLAUSIBLE.** Every order-`n` generator symbol is a rational function of
 the constituent one-particle energies `om_i(k_j)` (W54/W97): the denominators are **sums of the same
@@ -127,7 +127,7 @@ higher order re-uses the **same** vanishing decay denominator (the ghost sits on
 surface at every order). The majorant's `D0 -> 0`, the radius `-> 0`, the series does not resum into a
 positive C-metric (test Q5-3). The pole goes complex = PT broken.
 
-## 5. Persona 4 -- symbolic/numerical engineer + Persona 5 adversary: the Stelle case, the first loop, and the honest bound
+## 5. Perspective 4 -- symbolic/numerical engineer + Perspective 5 adversary: the Stelle case, the first loop, and the honest bound
 
 **The Stelle spectrum is the reorganization (tests Q3-1..3).** W169's discrete reading called the
 Stelle spectrum (`w_phys = 0`, `w_ghost = 1`) OPERATIVE because `1 != n * 0` (a massive ghost is not

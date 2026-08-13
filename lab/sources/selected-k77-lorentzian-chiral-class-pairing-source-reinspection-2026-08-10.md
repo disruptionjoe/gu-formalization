@@ -1,7 +1,6 @@
 ---
 artifact_type: source_reinspection_receipt
 created: 2026-08-10
-run_id: RUN-20260810-162942-gu-lorentzian-chiral-class-pairing
 source_return: SOURCE_CONFIRMS_LORENTZIAN_OBSERVER_SECTOR__SOURCE_SILENT_ABSOLUTE_OR_RELATIVE_C2_SELECTOR_AND_REAL_PAIRING_CHOICE
 ---
 

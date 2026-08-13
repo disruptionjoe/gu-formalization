@@ -16,9 +16,7 @@ inputs:
   - tests/oq_rk1_cl95_explicit_rep.py
 runnable:
   - tests/channel-swings/sig_b5_habitat_probe.py
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # S_IG/B.5 swing: the Element-1 habitat, machine-verified

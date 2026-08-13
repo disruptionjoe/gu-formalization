@@ -71,9 +71,9 @@ WHAT THE TEST COMPUTES (deterministic sympy, exact; positive controls FIRST):
          gamma = 1, beta = 1, xi = 0, alpha1 = alpha2 = alpha3 = 0, zeta1..4 = 0.
        Confront the pre-declared bounds: ALL within.  VERDICT: SURVIVES.
 
-FIVE personas inline (GR/PPN-framework specialist; weak-field/post-Newtonian-expansion
+FIVE perspectives inline (GR/PPN-framework specialist; weak-field/post-Newtonian-expansion
 specialist; solar-system-constraints specialist; shiab-reduction specialist; ruthless
-skeptic); no sub-agents.
+skeptic); no independent reviewers.
 
 Run:  python -u tests/W220_falsify_ppn_weak_field.py   (exit 0 iff all checks PASS)
 

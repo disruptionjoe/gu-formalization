@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration (W202; TEAM SIGNATURE-CRUX-BACH; five personas inline, one worker, no sub-agents; deterministic test, exit 0, positive controls first)
+status: exploration (W202; TEAM SIGNATURE-CRUX-BACH; five perspectives inline, one worker, no independent reviewers; deterministic test, exit 0, positive controls first)
 created: 2026-07-14
 wave: W202
 label: W202
@@ -32,7 +32,7 @@ external_refs:
 
 ## 0. The charge and the three-line answer
 
-Three swings, one worker, five personas inline. The charge: resolve or sharply advance (9,5) vs (7,7),
+Three swings, one worker, five perspectives inline. The charge: resolve or sharply advance (9,5) vs (7,7),
 run the Bach-branch strong-field gravity test, and say how the signature choice fixes or constrains the
 reservoir Krein sign (the #1 cross-repo bit). The answers:
 
@@ -69,7 +69,7 @@ Deterministic test `tests/W202_signature_crux_bach_branch.py`, 22/22 exit 0, pos
 | Gravity functional | the conformal/Bach-Willmore combination vs the linear shiab-Einstein law | H1/W161 fork (OQ2-A: is GU's functional Bach?). |
 | Finality frontier | q=5 (under (9,5)) or q=7 (under (7,7)) | GATED to TaF; not used to select the signature here. |
 
-## 2. Persona 1 (differential geometer): the Cartan involution and where the signature actually enters
+## 2. Perspective 1 (differential geometer): the Cartan involution and where the signature actually enters
 
 The two candidates are distinct real forms of `so(14,C)`: `so(9,5)` has maximal compact
 `so(9) (+) so(5)` and Cartan involution `theta_{95}`; `so(7,7)` has maximal compact `so(7) (+) so(7)`
@@ -87,7 +87,7 @@ same object for both base conventions, so the entire crux is `sign(d)`. My test 
 form `p-q = d + d^2/2` (PC2) and the base/fiber split (A3): `(6,4) + (3,1) = (9,5)`,
 `(6,4) + (1,3) = (7,7)`.
 
-## 3. Persona 2 (GR/gravity): the Bach test, and why the strong-field clearance is generic
+## 3. Perspective 2 (GR/gravity): the Bach test, and why the strong-field clearance is generic
 
 H1 (`tests/wave1/H1_bach_flat_exact_vacua.py`, exit 0) is a real, strong-field computation: on exact
 Schwarzschild the divergence of the Weyl tensor is identically zero at all orders in `M` while the Weyl
@@ -122,7 +122,7 @@ theorem, plus a real ghost/unitarity cost inherited from conformal gravity, H1 n
 the linear shiab-Einstein, there is no Bach mode and the whole question is moot at the law level. Either
 way the Bach clearance is NOT evidence FOR GU specifically -- a clean, non-rooting negative.
 
-## 4. Persona 3 (rep-theorist): does the Standard-Model / three-generation content select the signature?
+## 4. Perspective 3 (rep-theorist): does the Standard-Model / three-generation content select the signature?
 
 This is the charge's sharpest candidate selector, and the answer is a clean, asymmetric NO.
 
@@ -146,7 +146,7 @@ wall, and it is a conditional-on-(9,5) theorem, not a selector.
 Rep-theorist verdict: the spinor/SM content is signature-AGNOSTIC except for the parity wall, which is
 signature-relative and does not fire as a selector while the count stays located-not-forced.
 
-## 5. Persona 4 (synthesizer): mapping the signature choice onto the q=5 relative Krein sign (#1)
+## 5. Perspective 4 (synthesizer): mapping the signature choice onto the q=5 relative Krein sign (#1)
 
 Here is the load-bearing new computation. The reservoir Krein sign #1 is the relative Krein signature of
 the record-count/conformal mode vs the geometric/graviton mode (W168). W168 computed it on the gimmel
@@ -181,7 +181,7 @@ indefinite Krein form, not a positive-definite `H_C+` restriction, is physically
 TaF-owned residual) without ever resolving (9,5) vs (7,7), and conversely resolving the signature would
 give zero new information about #1's sign.
 
-## 6. Persona 5 (skeptic): is the signature genuinely underdetermined, and is the decoupling too cheap?
+## 6. Perspective 5 (skeptic): is the signature genuinely underdetermined, and is the decoupling too cheap?
 
 Two adversarial pushes.
 
@@ -283,9 +283,9 @@ the signature. The single most decisive bit is robust to the entire (9,5)/(7,7) 
   target assumed or inserted. Zero em dashes in paper-facing text.
 
 *Filed 2026-07-14 by Team SIGNATURE-CRUX-BACH (W202). Coherence-first; truth-seeking (value reported
-under either outcome); RUTHLESS self-verification. Five personas inline in one worker (differential
+under either outcome); RUTHLESS self-verification. Five perspectives inline in one worker (differential
 geometer; GR/gravity specialist; Cl(9,5)/Cl(7,7) rep-theorist; synthesizer; adversarial skeptic); no
-sub-agents. Reproducible: `python -u tests/W202_signature_crux_bach_branch.py` (22/22, exit 0; positive
+independent reviewers. Reproducible: `python -u tests/W202_signature_crux_bach_branch.py` (22/22, exit 0; positive
 controls first). Exploration grade; conditional register; no canon movement; tri-repo gating strict.
 Three results: signature UNDER_DETERMINED (sharpened, three named selectors fail); Bach clearance
 GENERIC not GU-specific; the reservoir Krein sign OPPOSITE and DECOUPLED from the signature crux.*

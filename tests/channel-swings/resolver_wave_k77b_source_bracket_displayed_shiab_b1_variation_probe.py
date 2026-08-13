@@ -348,7 +348,7 @@ def endpoint_translation(value: Form, variation: Form, channels,
 print("A. SOURCE AND LAYER-0 RECEIPTS")
 
 source_pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text()
-rendered = (ROOT / "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
+rendered = (ROOT / "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md").read_text()
 k77a = (ROOT / "explorations/resolver-wave-k77a-real-spinor-observation-atomic-particle-crosswalk-2026-08-04.md").read_text()
 k95 = (ROOT / "explorations/resolver-wave-k-conditional-active-shiab-b1-variation-2026-08-04.md").read_text()
 

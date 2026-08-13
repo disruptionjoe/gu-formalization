@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-11
-run_id: RUN-20260811-030337-gu-k77-coupled-gauge-noether-bv
 verdict: SCOPED_SURVIVES__LOCAL_ORDINARY_GAUGE_BV_CLOSES__GAUGE_ONLY_CARRIER_SELECTION_KILLED__GLOBAL_ACTION_DOMAIN_OPEN
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: coupled ordinary-gauge Noether/BV result

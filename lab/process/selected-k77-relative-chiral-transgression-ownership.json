@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-10",
-  "run_id": "RUN-20260810-165107-gu-relative-chiral-transgression-ownership",
+  "run_id": "historical-investigation",
   "verdict": "SOURCE_OWNED_A0_BITORSOR_GLOBALIZES_BUT_CANONICAL_IDENTITY_SELECTS_ZERO__NONZERO_RELATIVE_INTEGER_AND_REAL_PAIRING_UNOWNED__EXPLICIT_EXTERNAL_DATUM_ROUTE_LIVE",
   "same_bundle_absolute_characteristic_difference": 0,
   "canonical_identity_relative_winding": 0,

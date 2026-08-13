@@ -3,7 +3,6 @@ artifact_type: source_return
 created: 2026-08-13
 status: SOURCE_CONFIRMS_AND_SILENT
 target_claims: [SC-ACT-04]
-claim_status_change: none
 ---
 
 # Source return: first nonlinear I2B torsion classes

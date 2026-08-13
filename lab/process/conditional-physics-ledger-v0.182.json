@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.182 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; source-owned Omega0 alone generates exact conditional H640=512+128, random controls generate 1908 to 1920, and prior 640/832 generate distinct H1280 superspaces; lower-order/full BV/KT and global closure remain open"
   },
-  "updated_by": "RUN-20260811-202031-gu-k77-zero-seed-h640-action-closure-controls",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 4,

@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-12
-run_id: RUN-20260812-080014-gu-hq-action-owner-potential
 status: SOURCE_CONFIRMS_FIRST_ACTION_AND_EDDY_SQUARE_DIRECTION__SOURCE_SILENT_ON_COMPLETE_SECOND_ACTION_BACKGROUND_AND_MAGNITUDE
 ---
 

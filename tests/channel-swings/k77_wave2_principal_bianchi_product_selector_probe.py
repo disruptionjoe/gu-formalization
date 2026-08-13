@@ -80,7 +80,7 @@ check("exact", "the complete full-adjoint/Bianchi-target predecessor replays",
 
 portal = read("lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md")
 rendered = read(
-    "explorations/hourly-cycles/"
+    "explorations/research-cycles/"
     "hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md"
 )
 source_packet = read("lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md")

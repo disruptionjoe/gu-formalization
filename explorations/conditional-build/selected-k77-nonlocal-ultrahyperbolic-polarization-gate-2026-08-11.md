@@ -4,9 +4,7 @@ artifact_type: exploration_result
 created: 2026-08-11
 status: CONDITIONAL_STRICT_CENTER_PRINCIPAL_DOMAIN_INGREDIENT_BUILT__PHYSICAL_CLOSED_DOMAIN_OPEN
 grade: "exact rational flat real-Cl(7,7) principal-symbol theorem plus primary scalar ultrahyperbolic donor theorem; no selected-action, curved overlap, Green/BFV, nonlinear or index result"
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 nonlocal ultrahyperbolic polarization gate

@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.134 \u2014 82/82 mapped; 32 SAME \u00b7 19 DIFFERS \u00b7 26 NEEDS \u00b7 5 OVER-DETERMINED; nonzero-branch pointwise connection Hessian is full rank on all 229376 directions and selects no hard parent reduction; induced K77 Dirac/RS carrier discrimination is next"
   },
-  "updated_by": "RUN-20260810-050026-gu-nonzero-branch-parent-hessian",
+  "updated_by": "historical-investigation",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

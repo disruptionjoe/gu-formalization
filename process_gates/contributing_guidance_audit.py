@@ -20,7 +20,7 @@ CLAIM_DISCIPLINE_REFERENCES = (
     "[verified]",
     "[reconstruction]",
     "[speculation]",
-    "lab/process/runbooks/claim-status-consistency-quality-workflow.md",
+    "lab/methods/claim-status-consistency.md",
 )
 
 PLACEMENT_REFERENCES = (
@@ -40,7 +40,7 @@ LICENSE_REFERENCES = (
 )
 
 LIVE_PATH_REFERENCES = (
-    "lab/process/runbooks/claim-status-consistency-quality-workflow.md",
+    "lab/methods/claim-status-consistency.md",
 ) + PLACEMENT_REFERENCES + LICENSE_REFERENCES
 
 

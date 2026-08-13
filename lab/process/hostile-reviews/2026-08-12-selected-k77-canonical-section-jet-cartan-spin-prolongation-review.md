@@ -1,7 +1,6 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-12
-run_id: RUN-20260812-000025-gu-k77-canonical-section-jet-cartan-spin-prolongation
 verdict: SURVIVES_SCOPED__CANONICAL_LOCAL_FIRST_ORDER_OBSERVATION_PLANE_CARTAN_SPIN_PROLONGATION_EXACT__FULL_EPSILON_IG_FLAG_AND_NONLINEAR_GLOBAL_DESCENT_OPEN
 ---
 

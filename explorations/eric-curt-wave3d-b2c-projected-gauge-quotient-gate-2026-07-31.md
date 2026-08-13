@@ -3,14 +3,10 @@ title: "Eric/Curt Wave 3D-B2C1: the prior projected source map does not justify 
 status: active_research
 doc_type: construction_result
 created: 2026-07-31
-lane: "1"
 work_item: ECW3D-B2C1-PREVIOUS-SOURCE-DATUM-PROJECTED-GAUGE-COLLISION
 registry: lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c_projected_gauge_quotient_gate_probe.py
 grade: "DECISIVE NEGATIVE for the existing source-Noether/tau projected-gauge quotient candidate. At each characteristic root only a rank-64 half of its rank-128 image is principal-symbol-null; the two root-dependent halves equal the rank-128 Jordan image but are not selected by the prior source. The smallest fixed common invariant quotient kernel has rank 512 and equals the projected observer-section carrier, so its 1152-dimensional Hermitian Clifford quotient repairs hyperbolicity only by making observation fail to descend. A separately source-derived tangent/BV differential remains open."
-claim_status_change: false
-canon_change: false
-public_posture_change: false
 ---
 
 # Wave 3D-B2C1 — prior source/action and external-datum collision

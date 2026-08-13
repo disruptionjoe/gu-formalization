@@ -292,7 +292,7 @@ spawn a "Reading C" adjudication row: no repo claim rides on it.
 
 ## 6. PROPOSED EDITS (drafted by this review; the orchestrator applies them — this file edits nothing)
 
-### (i) `lab/process/agent-context-pack.md` — replace the "IMPOSTER" fork bullet (Live forks section) with:
+### (i) `lab/process/CURRENT-RESEARCH-CONTEXT.md` — replace the "IMPOSTER" fork bullet (Live forks section) with:
 
 > - "IMPOSTER" A-vs-B: **RESOLVED(A) 2026-08-03, confidence 0.90** (J5-passed:
 >   lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md). The

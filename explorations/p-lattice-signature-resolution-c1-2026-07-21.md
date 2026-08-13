@@ -3,7 +3,7 @@ title: "P-LATTICE-SIGNATURE-RESOLUTION-C1: one source-supported slot, seven pres
 status: active_research
 doc_type: exploration
 created: 2026-07-21
-run_ref: RUN-20260721-053515-repository-work-cycle-cai-hourly
+run_ref: historical-investigation
 portfolio_item: CONSTRUCTION-SPACE-EXPLORATION
 outcome: P-LATTICE-C1-PARTIAL-L5-ONLY
 test: tests/recovery-contract/construction_space_lattice_c1_resolution.py
@@ -56,6 +56,6 @@ Krein physical probability structure, plus an explicit Layer-0 comparison.
 Until such evidence exists, do not propagate C1 inheritance into C2/C3/C5/C10
 and do not enumerate the lattice.
 
-`P-OBS-LEG` remains the strongest independent Lane 2 alternative. B5 remains
+`P-OBS-LEG` remains the strongest independent prediction research alternative. B5 remains
 parked at `B5-MIDDLE-SOURCE-GAP`; this work neither fills nor routes around its
 missing differential. No claim, canon, verdict, grade, or public posture moves.

@@ -180,7 +180,7 @@ if verdict == "DISTINGUISHED-NOT-ORIENTED":
         "already says the count requires.  The residual stays at eleven pairs.\n"
         "\nCorroboration, not a new theorem: W201 / located-not-forced type the\n"
         "external datum as needing a K-DEFINITE, NON-chirality re-grading,\n"
-        "because chirality eigenspaces are K-null.  This run reaches the same\n"
+        "because chirality eigenspaces are K-null.  This investigation reaches the same\n"
         "typing from the finite symbol ledger instead of from index theory.\n"
         "\nThe four X-sector orbits remain of an UNCLASSIFIED type: blind to\n"
         "every ledger invariant AND not addressed by the chirality Z/2."

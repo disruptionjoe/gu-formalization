@@ -2,7 +2,6 @@
 artifact_type: conditional_physics_ledger_release
 created: 2026-08-12
 ledger_version: "0.190"
-run_id: RUN-20260812-011911-gu-k77-action-concomitant-residual-flag
 ---
 
 # Conditional physics ledger v0.190

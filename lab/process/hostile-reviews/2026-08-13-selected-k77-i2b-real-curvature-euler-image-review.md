@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
-run_id: RUN-20260813-064800-gu-i2b-real-curvature-euler-image
 verdict: SCOPED_SURVIVAL__POINTWISE_REAL_FULL_UNITARY_CURVATURE_EULER_ROUTE_KILLED
 lenses: [layer0_semantics, prior_art, analytic, symplectic, principal_bundle]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: real-curvature Euler-image theorem

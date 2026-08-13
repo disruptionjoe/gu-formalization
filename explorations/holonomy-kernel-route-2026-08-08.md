@@ -7,10 +7,7 @@ grade: "EXACT representation theory for the untwisted statement: parallel spinor
   group. The step from untwisted to tau-twisted is stated as a CONTAINMENT and is
   conditional on the twist admitting a parallel section; that condition is NOT
   checked here and is the one remaining gap."
-run_id: GUH-20260808T060000Z-register-side-track
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 priority_change: none
 row_change: none
 residue_touched: []

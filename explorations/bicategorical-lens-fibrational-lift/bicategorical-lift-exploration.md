@@ -17,7 +17,7 @@ The C_MPR object **substantially dissolves** when lifted to the **lens / fibrati
 
 However, the Classical-Value-Lattice Wall theorem **persists across all four candidate levels** (lens, bicategorical, fibrational, topos-internal) — and at the topos level the Wall **sharpens** rather than dissolves: the Kochen-Specker theorem is the topos-internal restatement of exactly the same obstruction (no global element of the spectral presheaf), and Heunen-Jacobs prove kernel fibres are *automatically* orthomodular. The Wall is not a 1-categorical artifact; it is the *defining feature* of how non-commutative C*-algebras differ from commutative ones at every categorical level.
 
-The five personas applied:
+The five perspectives applied:
 
 - **Category theorist (lens / bicategorical):** lift produces meaningful equivalence on C_MPR; relocates Wall but does not dissolve it.
 - **CQM specialist:** substantial prior art — Heunen-Jacobs and Doering-Isham have done this work. The lift recovers known objects.
@@ -25,9 +25,9 @@ The five personas applied:
 - **Honest-verdict gatekeeper:** PARTIAL — C_MPR dissolves; Wall persists-and-sharpens.
 - **Strategic research PM:** unlocks a *constructive-instantiation-in-CQM-tradition* publication path; closes the *novel-categorical-bridge* publication path.
 
-This verdict converges with the 21-persona assessment Issue A (wrong categorical level — 4 personas) and Issue C (substantial-not-partial prior art — 3 personas with Historical-priority escalation). It does *not* converge with the strongest pivot-frame claim (Operator Algebraist, Wolfram CA: "the Wall plausibly evaporates at the bicategorical level") — at the bicategorical level the Wall does *not* evaporate; it relocates to Kochen-Specker territory and acquires sharper topos-cohomological obstructions.
+This verdict converges with the 21-perspective assessment Issue A (wrong categorical level — 4 perspectives) and Issue C (substantial-not-partial prior art — 3 perspectives with Historical-priority escalation). It does *not* converge with the strongest pivot-frame claim (Operator Algebraist, Wolfram CA: "the Wall plausibly evaporates at the bicategorical level") — at the bicategorical level the Wall does *not* evaporate; it relocates to Kochen-Specker territory and acquires sharper topos-cohomological obstructions.
 
-The implication for the broader research direction is detailed in §6. Headline: the WRK-393 Option II-Retreat recommendation in the 21-persona meta-verdict is *strengthened* by this exploration — the surviving contribution is not a novel categorical bridge but a constructive instantiation of CQM / Bohr-topos work in the GW/CALM context, and the lens-theoretic restatement of C_MPR is materially cleaner than the 1-categorical tuple form.
+The implication for the broader research direction is detailed in §6. Headline: the WRK-393 Option II-Retreat recommendation in the 21-perspective meta-verdict is *strengthened* by this exploration — the surviving contribution is not a novel categorical bridge but a constructive instantiation of CQM / Bohr-topos work in the GW/CALM context, and the lens-theoretic restatement of C_MPR is materially cleaner than the 1-categorical tuple form.
 
 ---
 
@@ -39,7 +39,7 @@ The implication for the broader research direction is detailed in §6. Headline:
 >
 > The hypothesis is tested at four candidate levels. Three outcomes are admissible: **DISSOLVES-AT-LEVEL-X** (the hypothesis holds at level X), **PERSISTS-AT-ALL-LEVELS** (the hypothesis fails at every tested level), **PARTIAL** (claim (a) holds at some level; claim (b) fails — or vice versa).
 
-The hypothesis is *not* tested for substrate-replacement evasions (which would require WRK-384 / Sorkin substrate analysis at higher level — out of scope here). It is *not* tested for computational-irreducibility evasions (the Wolfram CA persona's Alternative III in the 21-persona §S.3 — out of scope here; the test would not be categorical).
+The hypothesis is *not* tested for substrate-replacement evasions (which would require WRK-384 / Sorkin substrate analysis at higher level — out of scope here). It is *not* tested for computational-irreducibility evasions (the Wolfram CA perspective's Alternative III in the 21-perspective §S.3 — out of scope here; the test would not be categorical).
 
 ---
 
@@ -61,7 +61,7 @@ The hypothesis is *not* tested for substrate-replacement evasions (which would r
 - **Riley 2018 "Categories of Optics"** establishes optics as a unifying generalization of lenses (Cartesian setting), prisms, and traversals; optics are morphisms of the form `A ⊗ M → B ⊗ M` for residue `M`, quotiented by a coend.
 - **Capucci-Gavranović 2024 "On a fibrational construction for optics, lenses, and Dialectica categories"** establishes that lenses and optics arise as a *single* fibrational construction (twisting a tower of Grothendieck fibrations).
 - **Clarke 2020 "Internal lenses as functors and cofunctors"** shows split opfibrations *are* lenses internally.
-- Key fact for this exploration: the C_MPR tuple `(E, ≤_E, Cert, G, ≤_G, r, P_O)` is **already** a lens. `E` is the source (provenance state), `G` is the view (readout codomain), `r` is the get, `P_O` carries the put / protocol direction. This was already noted by the Type-theoretic persona (21-persona §7); the explicit lift makes the redundancy visible.
+- Key fact for this exploration: the C_MPR tuple `(E, ≤_E, Cert, G, ≤_G, r, P_O)` is **already** a lens. `E` is the source (provenance state), `G` is the view (readout codomain), `r` is the get, `P_O` carries the put / protocol direction. This was already noted by the Type-theoretic perspective (21-perspective §7); the explicit lift makes the redundancy visible.
 
 ### 2.4 Fibrational lattices (Jacobs, Categorical Logic)
 
@@ -79,7 +79,7 @@ The hypothesis is *not* tested for substrate-replacement evasions (which would r
 
 - Did **not** engage Doering-Isham's most recent (2020+) work in detail; the Bohrification machinery used here is at the Heunen-Landsman-Spitters 2009 level.
 - Did **not** check whether the GW / CALM context specifically admits a Bohr-topos construction (would require explicit construction of `V(A_GW)`).
-- Did **not** test the **computationally-irreducibility** axis from 21-persona §S.3 Alternative III; that is not a categorical evasion and lies outside this card's scope.
+- Did **not** test the **computationally-irreducibility** axis from 21-perspective §S.3 Alternative III; that is not a categorical evasion and lies outside this card's scope.
 - Did **not** rigorously work through whether the lens-theoretic restatement of the Wall could be a genuinely *novel* contribution rather than a re-presentation of Heunen-Jacobs.
 
 ---
@@ -172,17 +172,17 @@ For `M = (E, ≤_E, Cert, G, ≤_G, r, P_O) ∈ C_MPR`, the topos-internal lift 
 
 ---
 
-## 4. Five-persona dialectic
+## 4. Five-perspective dialectic
 
-### Persona 1 — Category theorist (bicategorical / lens lineage)
+### Perspective 1 — Category theorist (bicategorical / lens lineage)
 
 **Pressure:** does the lift produce a meaningful equivalence, or just relocate the problem?
 
 **Reading:** the lift produces *both* a meaningful equivalence AND a relocation. The equivalence is real on C_MPR: the lens / fibrational levels strongly collapse the three apparently-distinct constructions into one canonical object (kernel fibration of a dagger kernel category). The relocation is also real on the Wall: orthomodularity is what kernel fibrations *do*, so the obstruction surfaces in any categorical level rich enough to talk about kernels.
 
-**Verdict from this persona:** **PARTIAL with strong claim-(a) success and unambiguous claim-(c) failure.** The lift is meaningful on C_MPR; it is not an escape from the Wall.
+**Verdict from this perspective:** **PARTIAL with strong claim-(a) success and unambiguous claim-(c) failure.** The lift is meaningful on C_MPR; it is not an escape from the Wall.
 
-### Persona 2 — CQM specialist (Abramsky-Coecke-Heunen lineage)
+### Perspective 2 — CQM specialist (Abramsky-Coecke-Heunen lineage)
 
 **Pressure:** has this been done? What's the exact prior art?
 
@@ -191,9 +191,9 @@ For `M = (E, ≤_E, Cert, G, ≤_G, r, P_O) ∈ C_MPR`, the topos-internal lift 
 - C_MPR-as-Bohr-topos-data is **Heunen-Landsman-Spitters 2009**. The Bohrification is the canonical internal-commutativization; the spectral presheaf is the canonical context-sheaf; the Kochen-Specker non-global-element is the canonical contextuality witness.
 - C_MPR-as-lens is **less directly done in the CQM literature** but is the natural pullback of Riley / Capucci optic theory.
 
-**Verdict from this persona:** the bridge work is a **constructive instantiation** of existing CQM / Bohr-topos / kernel-fibration machinery in the GW / CALM context, not a novel categorical bridge. The prior art is substantial (matches 21-persona Issue C escalation). **PERSISTS-AT-ALL-LEVELS for the Wall; DISSOLVES for the C_MPR redundancy because the three presentations were always one CQM object.**
+**Verdict from this perspective:** the bridge work is a **constructive instantiation** of existing CQM / Bohr-topos / kernel-fibration machinery in the GW / CALM context, not a novel categorical bridge. The prior art is substantial (matches 21-perspective Issue C escalation). **PERSISTS-AT-ALL-LEVELS for the Wall; DISSOLVES for the C_MPR redundancy because the three presentations were always one CQM object.**
 
-### Persona 3 — Skeptical mathematical physicist
+### Perspective 3 — Skeptical mathematical physicist
 
 **Pressure:** if the lift dissolves the wall, what does it COST (new obstructions at higher level)?
 
@@ -203,9 +203,9 @@ For `M = (E, ≤_E, Cert, G, ≤_G, r, P_O) ∈ C_MPR`, the topos-internal lift 
 2. At the topos level (Doering-Isham): the Kochen-Specker theorem appears as the *non-existence of a global section of the spectral presheaf*. This is a *strictly stronger* obstruction than the Wall: the Wall says "no adjunction"; KS says "no consistent valuation". The cohomological refinement gives sharper sheaf-cohomological obstructions.
 3. At the bicategorical level (lax distributive law theory): the lax liftings form a bounded lattice; minimal and maximal liftings exist but neither collapses orthomodularity into distributivity. The Wall becomes a 2-cell incompatibility.
 
-**Verdict from this persona:** the cost of the lift is **acquisition of stronger obstructions** at higher level, not their dissolution. **PERSISTS-AT-ALL-LEVELS with sharpening.**
+**Verdict from this perspective:** the cost of the lift is **acquisition of stronger obstructions** at higher level, not their dissolution. **PERSISTS-AT-ALL-LEVELS with sharpening.**
 
-### Persona 4 — Honest-verdict gatekeeper
+### Perspective 4 — Honest-verdict gatekeeper
 
 **Pressure:** DISSOLVES / PERSISTS / PARTIAL — name precisely.
 
@@ -214,19 +214,19 @@ For `M = (E, ≤_E, Cert, G, ≤_G, r, P_O) ∈ C_MPR`, the topos-internal lift 
 - **Claim (a) — three C_MPR constructions equivalent under the lift:** **DISSOLVES at lens / fibrational / topos levels.** All three levels strongly identify C_MPR's three presentations as one object. The fibrational level (Heunen-Jacobs kernel fibration) is the most natural home.
 - **Claim (b) — Wall dissolves at level X:** **PERSISTS-AT-ALL-LEVELS, with sharpening at fibrational and topos levels.** The Wall is not a 1-categorical artifact. It is *built into* the kernel-fibration construction (Heunen-Jacobs) and *cohomologized* in the topos-internal setting (Kochen-Specker non-global-element). No tested level evades it.
 
-**Verdict from this persona:** **PARTIAL — claim (a) DISSOLVES, claim (b) PERSISTS-WITH-SHARPENING.** Naming precisely: the surviving categorical contribution is *recognizing* that C_MPR is the GW/CALM-specific instance of the Heunen-Jacobs kernel-fibration object, and the Wall is the GW/CALM-specific instance of the Kochen-Specker / orthomodular-fibres-of-dagger-kernel obstruction.
+**Verdict from this perspective:** **PARTIAL — claim (a) DISSOLVES, claim (b) PERSISTS-WITH-SHARPENING.** Naming precisely: the surviving categorical contribution is *recognizing* that C_MPR is the GW/CALM-specific instance of the Heunen-Jacobs kernel-fibration object, and the Wall is the GW/CALM-specific instance of the Kochen-Specker / orthomodular-fibres-of-dagger-kernel obstruction.
 
-### Persona 5 — Strategic research PM
+### Perspective 5 — Strategic research PM
 
 **Pressure:** if verdict is DISSOLVES, what does it unlock? If PERSISTS, what does it close?
 
 **Reading:** the PARTIAL verdict has clear strategic implications:
 
-- **What it unlocks:** a *constructive-instantiation-in-CQM-tradition* publication path. The paper becomes: "The CALM / Ginsparg-Wilson Correspondence: A Kernel-Fibration Recognition Theorem with Bohr-Topos Contextuality." Substantial CQM literature engagement is required (matches 21-persona meta-verdict Option II-Retreat); the contribution is real but properly attributed.
-- **What it closes:** the *novel-categorical-bridge* publication path. There is no novel bridge; there is a constructive instantiation of existing machinery in a new physical context. The WRK-393 Option II 3-paper companion set as scoped is dead; the WRK-393 Option II-Retreat single-paper recommendation in the 21-persona meta-verdict is *strengthened* by this exploration.
-- **What it does NOT settle:** the substrate-replacement question (GU's claim to evade 1-categorical statements via substrate replacement — 21-persona §S.3 Alternative III; out of scope here), and the computational-irreducibility question (Wolfram CA persona's Alternative III; out of scope here, not a categorical evasion).
+- **What it unlocks:** a *constructive-instantiation-in-CQM-tradition* publication path. The paper becomes: "The CALM / Ginsparg-Wilson Correspondence: A Kernel-Fibration Recognition Theorem with Bohr-Topos Contextuality." Substantial CQM literature engagement is required (matches 21-perspective meta-verdict Option II-Retreat); the contribution is real but properly attributed.
+- **What it closes:** the *novel-categorical-bridge* publication path. There is no novel bridge; there is a constructive instantiation of existing machinery in a new physical context. The WRK-393 Option II 3-paper companion set as scoped is dead; the WRK-393 Option II-Retreat single-paper recommendation in the 21-perspective meta-verdict is *strengthened* by this exploration.
+- **What it does NOT settle:** the substrate-replacement question (GU's claim to evade 1-categorical statements via substrate replacement — 21-perspective §S.3 Alternative III; out of scope here), and the computational-irreducibility question (Wolfram CA perspective's Alternative III; out of scope here, not a categorical evasion).
 
-**Verdict from this persona:** PARTIAL with **unlocks tighter publication; closes novel-categorical-bridge framing.**
+**Verdict from this perspective:** PARTIAL with **unlocks tighter publication; closes novel-categorical-bridge framing.**
 
 ---
 
@@ -244,14 +244,14 @@ Per the card body DoD item 5 — explicit cross-references.
 
 ### V-6 (prior art): V1 + V3 PARTIAL prior art exists
 
-**This exploration's contribution:** **confirms Historical-priority lens persona's escalation to SUBSTANTIAL prior art.** Heunen-Jacobs 2010 give the kernel-fibration result. Heunen-Landsman-Spitters 2009 give the Bohrification. Doering-Isham 2007-2011 give the spectral-presheaf KS-equivalence. Riley 2018 + Capucci-Gavranović 2024 give the lens-theoretic machinery. The bridge contribution is materially less novel than the v3 syntheses claimed.
+**This exploration's contribution:** **confirms Historical-priority lens perspective's escalation to SUBSTANTIAL prior art.** Heunen-Jacobs 2010 give the kernel-fibration result. Heunen-Landsman-Spitters 2009 give the Bohrification. Doering-Isham 2007-2011 give the spectral-presheaf KS-equivalence. Riley 2018 + Capucci-Gavranović 2024 give the lens-theoretic machinery. The bridge contribution is materially less novel than the v3 syntheses claimed.
 
-### Personas who flagged the bicategorical alternative (21-persona §S.3 Alternative I)
+### Perspectives who flagged the bicategorical alternative (21-perspective §S.3 Alternative I)
 
-- **Operator Algebraist (persona 2):** voted PIV, "the Wall is a 1-categorical artifact; bicategorical relocation". This exploration **partially contradicts** that vote: the Wall does *not* evaporate at the bicategorical level; it relocates to bicategorical-adjunction lax-compatibility incompatibility, which is the same obstruction in 2-cell clothing.
-- **Type-theoretic foundations (persona 7):** voted PIV, "restate as lens / fibration to connect to existing literature". This exploration **strongly confirms** that vote at the *literature-connection* level: the lens/fibrational restatement does connect to Heunen-Jacobs / Riley / Capucci, and it does make C_MPR cleaner. The lens restatement does *not* dissolve the Wall.
-- **Complexity science (persona 17):** voted PIV, "RG-non-commutation as reframe". This exploration **does not address** the RG axis (out of scope); the categorical-level analysis here is orthogonal.
-- **Wolfram CA (persona 21):** voted PIV, "CA-class classification with computational irreducibility". This exploration **does not address** the CA-class axis (out of scope; not a categorical evasion).
+- **Operator Algebraist (perspective 2):** voted PIV, "the Wall is a 1-categorical artifact; bicategorical relocation". This exploration **partially contradicts** that vote: the Wall does *not* evaporate at the bicategorical level; it relocates to bicategorical-adjunction lax-compatibility incompatibility, which is the same obstruction in 2-cell clothing.
+- **Type-theoretic foundations (perspective 7):** voted PIV, "restate as lens / fibration to connect to existing literature". This exploration **strongly confirms** that vote at the *literature-connection* level: the lens/fibrational restatement does connect to Heunen-Jacobs / Riley / Capucci, and it does make C_MPR cleaner. The lens restatement does *not* dissolve the Wall.
+- **Complexity science (perspective 17):** voted PIV, "RG-non-commutation as reframe". This exploration **does not address** the RG axis (out of scope); the categorical-level analysis here is orthogonal.
+- **Wolfram CA (perspective 21):** voted PIV, "CA-class classification with computational irreducibility". This exploration **does not address** the CA-class axis (out of scope; not a categorical evasion).
 
 **Net on the bicategorical alternative:** the lens / fibrational lift produces *real value* on C_MPR-coherence and *real connection* to CQM prior art, but does *not* dissolve the Wall. The pivot-frame voters were right about long-term direction (substantial work to be done in the CQM / fibrational / topos-internal frame) but wrong that the lift makes the Wall go away.
 
@@ -261,18 +261,18 @@ Per the card body DoD item 5 — explicit cross-references.
 
 ### 6.1 Publication path
 
-The 21-persona meta-verdict's Option II-Retreat recommendation is **strengthened, not weakened, by this exploration.** Specifically:
+The 21-perspective meta-verdict's Option II-Retreat recommendation is **strengthened, not weakened, by this exploration.** Specifically:
 
 - **(a) Propagation-layer bridge** (CALM-monotone gossip ↔ GW local Dirac propagation): unchanged — this exploration does not touch the propagation-layer claim.
 - **(b) Decision-layer bridge** (CALM-class observables ↔ GW global readouts): unchanged — V-5's counterexample remains valid and is not rescued by any tested categorical lift.
 - **(c) Wall theorem** at lattice-gauge-internal sub-class only: **strengthened** — the Wall is now a *fibrational theorem* (Heunen-Jacobs kernel fibration + GW substrate specialization), with a *topos-cohomological refinement* (Kochen-Specker non-global-element). The substrate-specific framing in the Option II-Retreat is still correct; the *general theorem* it specializes is Heunen-Jacobs, not novel.
 - **(d) C_MPR as candidate categorical home with explicit OPEN questions list:** **restated** — C_MPR is the GW/CALM-specific instance of the Heunen-Jacobs kernel fibration. The OPEN questions become: does this specialization carry additional structure beyond the generic kernel fibration? (Lattice-gauge-internal locality data? Wilson-loop renormalization-flow naturality?) These are research-program questions, not framework-construction questions.
 - **(e) PCP-blindness lemma retracted entirely:** unchanged.
-- **(f) Substantial prior-art engagement:** **further escalated** — this exploration confirms the Historical-priority lens persona's read: the contribution is a constructive instantiation, not a novel bridge. Attribution to Heunen-Jacobs, Heunen-Landsman-Spitters, Doering-Isham, Abramsky-Coecke, and Heunen-Vicary is **required**, not optional.
+- **(f) Substantial prior-art engagement:** **further escalated** — this exploration confirms the Historical-priority lens perspective's read: the contribution is a constructive instantiation, not a novel bridge. Attribution to Heunen-Jacobs, Heunen-Landsman-Spitters, Doering-Isham, Abramsky-Coecke, and Heunen-Vicary is **required**, not optional.
 
 ### 6.2 Recommended title-shape revision (informational; WRK-386 owns)
 
-The 21-persona meta-verdict's recommended title was:
+The 21-perspective meta-verdict's recommended title was:
 
 > "Signed-Aggregation and the Limits of Coordination-Free Local Realization: A Layer-Split Analysis of the CALM / Ginsparg-Wilson Correspondence."
 
@@ -280,16 +280,16 @@ This exploration suggests a tighter alternative is plausible (Joe and WRK-386 ow
 
 > [speculation] "The CALM / Ginsparg-Wilson Correspondence as Constructive Instantiation: Layer-Split Analysis in the Heunen-Jacobs Kernel-Fibration Frame."
 
-The advantages: (i) explicit attribution to the dominant prior-art tradition; (ii) anchors the "what survives" contribution as a *recognition theorem* about the GW/CALM specialization of an existing object; (iii) the layer-split structure (propagation / decision / Wall-at-sub-class / C_MPR-as-recognition / PCP-retracted) survives unchanged. The disadvantages: (i) less novelty-front-loaded; (ii) commits to the lens/fibrational frame, which the 21-persona meta-verdict had treated as a v4 lane.
+The advantages: (i) explicit attribution to the dominant prior-art tradition; (ii) anchors the "what survives" contribution as a *recognition theorem* about the GW/CALM specialization of an existing object; (iii) the layer-split structure (propagation / decision / Wall-at-sub-class / C_MPR-as-recognition / PCP-retracted) survives unchanged. The disadvantages: (i) less novelty-front-loaded; (ii) commits to the lens/fibrational frame, which the 21-perspective meta-verdict had treated as a v4 lane.
 
-The 21-persona meta-verdict's call to spawn the bicategorical / lens-theoretic restatement as a *separate pool candidate* (not blocking the retreat publication) is **strengthened** by this exploration: the lens restatement is real, valuable, but not a publication blocker.
+The 21-perspective meta-verdict's call to spawn the bicategorical / lens-theoretic restatement as a *separate pool candidate* (not blocking the retreat publication) is **strengthened** by this exploration: the lens restatement is real, valuable, but not a publication blocker.
 
 ### 6.3 What Joe walks
 
 In the validation/4 + joe + walkthrough_review session, Joe walks:
 
 1. **The PARTIAL verdict** — explicitly: C_MPR dissolves at lens / fibrational / topos levels; Wall persists with sharpening. This is the honest call.
-2. **The strategic implication** — the 21-persona Option II-Retreat is strengthened, not weakened. The lens-restatement upgrade is now near-mandatory for honest prior-art attribution.
+2. **The strategic implication** — the 21-perspective Option II-Retreat is strengthened, not weakened. The lens-restatement upgrade is now near-mandatory for honest prior-art attribution.
 3. **The Heunen-Jacobs 2010 result** as load-bearing: kernel fibres are *automatically* orthomodular. The Wall is what kernel fibrations do; it is not a categorical-level artifact.
 4. **The Bohr-topos relocation** of the Wall to Kochen-Specker non-global-element: cohomologically sharper but the same obstruction.
 5. **The OPEN questions** at §6.1(d): GW/CALM specialization additional structure beyond generic kernel fibration is a research-program question, not a framework-construction question.
@@ -303,8 +303,8 @@ The negative version: PERSISTS-AT-ALL-LEVELS verdict (with no claim-(a) collapse
 ### 6.4 What this exploration does NOT establish
 
 - Does **NOT** establish that the Wall dissolves at any tested level (it persists at all four).
-- Does **NOT** establish that the substrate-replacement evasion (Heterodox dialectician persona, 21-persona §8) succeeds — that requires substrate-level analysis at higher categorical level, which is out of scope here.
-- Does **NOT** establish that the computational-irreducibility evasion (Wolfram CA persona, 21-persona §21) succeeds — that is not a categorical evasion and lies outside this card's scope.
+- Does **NOT** establish that the substrate-replacement evasion (Heterodox dialectician perspective, 21-perspective §8) succeeds — that requires substrate-level analysis at higher categorical level, which is out of scope here.
+- Does **NOT** establish that the computational-irreducibility evasion (Wolfram CA perspective, 21-perspective §21) succeeds — that is not a categorical evasion and lies outside this card's scope.
 - Does **NOT** invalidate WRK-388, WRK-389, WRK-390, WRK-391, WRK-393 card-body decisions — those remain Joe-decision domain.
 - Does **NOT** write the publication paper (WRK-386 owns).
 - Does **NOT** update repo public surfaces (WRK-392 owns).
@@ -319,7 +319,7 @@ The negative version: PERSISTS-AT-ALL-LEVELS verdict (with no claim-(a) collapse
 - C_MPR's three apparently-distinct constructions DISSOLVE into one object at lens / fibrational / topos levels (claim (a) of the hypothesis succeeds at three of four tested levels; bicategorical is partial).
 - The Classical-Value-Lattice Wall PERSISTS at all four tested levels — and SHARPENS at fibrational (Heunen-Jacobs kernel-fibre automatic orthomodularity) and topos (Kochen-Specker non-global-element) levels.
 - The bridge contribution is materially less novel than the v3 syntheses claimed; substantial prior-art attribution to CQM / Bohr-topos / Heunen-Jacobs / Heunen-Landsman-Spitters / Doering-Isham / Riley / Capucci is required.
-- The 21-persona Option II-Retreat recommendation is strengthened by this exploration; the lens-restatement upgrade is near-mandatory for honest prior-art attribution.
+- The 21-perspective Option II-Retreat recommendation is strengthened by this exploration; the lens-restatement upgrade is near-mandatory for honest prior-art attribution.
 
 ### What this verdict does NOT establish
 
@@ -330,7 +330,7 @@ The negative version: PERSISTS-AT-ALL-LEVELS verdict (with no claim-(a) collapse
 
 ### Verdict-smuggling discipline
 
-This document was constructed under hard rules including "do not smuggle toward DISSOLVES if PERSISTS is the truth." The verdict here is PARTIAL. The two halves (C_MPR DISSOLVES; Wall PERSISTS-WITH-SHARPENING) are reported with equal emphasis. The strategic implication for the broader research direction (Option II-Retreat strengthened) is the consequence of the PARTIAL verdict, not a chosen framing. The honest reading is: this exploration finds the *categorical-bridge novelty claim* substantially smaller than the v3 syntheses claimed, and the *Wall-as-1-categorical-artifact hope* substantially weaker than the pivot-frame personas suggested.
+This document was constructed under hard rules including "do not smuggle toward DISSOLVES if PERSISTS is the truth." The verdict here is PARTIAL. The two halves (C_MPR DISSOLVES; Wall PERSISTS-WITH-SHARPENING) are reported with equal emphasis. The strategic implication for the broader research direction (Option II-Retreat strengthened) is the consequence of the PARTIAL verdict, not a chosen framing. The honest reading is: this exploration finds the *categorical-bridge novelty claim* substantially smaller than the v3 syntheses claimed, and the *Wall-as-1-categorical-artifact hope* substantially weaker than the pivot-frame perspectives suggested.
 
 ---
 
@@ -339,9 +339,9 @@ This document was constructed under hard rules including "do not smuggle toward 
 - ✓ DoD 1 (hypothesis stated precisely): §1.
 - ✓ DoD 2 (literature engaged): §2 — categorical QM, Bohr toposes, lens/optic theory, fibrational lattices, convex effect algebras. Honest gaps surfaced in §2.6.
 - ✓ DoD 3 (per-level test of claim (a) + claim (c)): §3 for each of four levels — lens, bicategorical, fibrational, topos.
-- ✓ DoD 4 (verdict named): §0 TL;DR + §4 persona-4 reading = PARTIAL with explicit claim-(a) DISSOLVES + claim-(c) PERSISTS-WITH-SHARPENING decomposition.
-- ✓ DoD 5 (cross-references to validator findings + personas who flagged bicategorical alternative): §5.
-- ✓ 5-persona dialectic per card body §"Persona Seed": §4.
+- ✓ DoD 4 (verdict named): §0 TL;DR + §4 perspective-4 reading = PARTIAL with explicit claim-(a) DISSOLVES + claim-(c) PERSISTS-WITH-SHARPENING decomposition.
+- ✓ DoD 5 (cross-references to validator findings + perspectives who flagged bicategorical alternative): §5.
+- ✓ 5-perspective dialectic per card body §"Perspective Seed": §4.
 - ✓ ZERO writes to Github Repos/, public push, canon writes, work.json edits, or Joe-notes table cells.
 - ✓ `[speculation]` tagging throughout for constructed-here statements.
 - ✓ Lift functor defined explicitly at each level (§3.1-§3.4), not hand-waved.

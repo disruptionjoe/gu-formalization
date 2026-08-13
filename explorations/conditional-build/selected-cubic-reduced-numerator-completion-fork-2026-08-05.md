@@ -2,8 +2,6 @@
 artifact_type: construction_result
 created: 2026-08-05
 status: Q0Q0_COMPACT_CORE_BULK_NUMERATOR_ZERO__Q0QM_NUMERATOR_NOT_SELECTED_BY_INHERITED_HH_BLOCK__FULL_MOVING_THIRD_DERIVATIVE_AND_PREBOUNDARY_CLASS_OPEN
-lane: "1"
-functional_channels: [BUILD, SOURCE, VERIFY]
 source_return: SOURCE-SILENT
 ledger_rows: [LT-GR2b, LT-GR3, LT-GR5, LT-SM8]
 scripts:
@@ -108,7 +106,7 @@ Layer-0 disposition:
 | lens | efficient demand | effect |
 | --- | --- | --- |
 | variational PDE | polarize the full quadratic pencil before evaluating a shell | exposed the inverse-propagator zero |
-| differential geometry | retain moving section, density, coframe, Shiab and pairing responses | prevents `hh` from impersonating the full cubic |
+| differential geometry | retain moving section, density, coframe, Shiab and pairing responses | prevents `hh` from imperspectiveting the full cubic |
 | representation/Krein | use exact `q0/qm` eigenvectors and Krein norms | keeps the ordinary and partner legs typed |
 | BV/BRST | quotient only by the constructed even tangent complex | leaves odd super-IG separate |
 | symplectic geometry | ask whether the cubic induces a nonzero reduced Hamiltonian vector field | turns EOM/field-redefinition terms into zero classes |

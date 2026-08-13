@@ -817,7 +817,7 @@ table without treating roadmap prose as a research claim.
 ## Internal ops gitignore gate
 
 `internal_ops_gitignore_audit.py` checks that `steward/runs/` remains ignored and contains no
-tracked files. This protects local CapacityOS run records from being published with the public
+tracked files. This protects local private orchestration overlay run records from being published with the public
 research repo while leaving those records available for collision checks.
 
 ## Lab README surface-map gate
@@ -2029,7 +2029,7 @@ without booking a global residue reduction.
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
 Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
-`LANES.yaml` and the operating model while purpose Lanes 1/2/3/A remain
+`lab/process/RESEARCH-AGENDA.json` and the operating model while purpose the active research agenda/A remain
 unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
 two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten

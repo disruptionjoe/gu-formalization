@@ -3,14 +3,10 @@ title: "Eric/Curt Wave 3D-B2C3: rolled Omega source matrix and canonical-Shiab c
 status: active_research
 doc_type: construction_result
 created: 2026-07-31
-lane: "1"
 work_item: ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK
 registry: lab/process/eric-curt-wave3d-b2c3-rolled-omega-source-shiab.json
 probe: tests/channel-swings/eric_curt_wave3d_b2c3_rolled_omega_source_shiab_probe.py
 grade: "EXACT SOURCE-MATRIX TRANSCRIPTION and exact canonical-Shiab candidate collision. The draft fixes the physical Omega1(S)+Omega0(S) block shape but explicitly leaves the Shiab selector in a family. In the active trace-reversed Cl(9,5) port, the repo's canonical Clifford-contraction candidate produces A(k)=K(k)Gamma-M(k), retains a rank-128 square-zero Jordan remainder, and admits no positive full-carrier one-time symmetrizer. Its Jordan endpoints are exactly the two null-Dirac halves of the physical d nu coupling. A characteristic quotient is algebraically positive and observer-nontrivial, but is not lawful without a distinct action-derived ghost/Noether map; the displayed square symbol has no nonzero polynomial right syzygy. The full Shiab-family/Bianchi and source-derived constraint searches remain open."
-claim_status_change: false
-canon_change: false
-public_posture_change: false
 ---
 
 # Wave 3D-B2C3 — rolled `Omega0 + Omega1` source matrix and Shiab collision

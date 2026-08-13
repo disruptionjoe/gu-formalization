@@ -2,10 +2,9 @@
 artifact_type: exploration
 status: exploration
 created: 2026-07-29
-lane: "1"
 work_item: B5-INDEPENDENT-RECONSTRUCTION
 title: "B5 CONSTRAINT-SURPLUS AUDIT: verdict SURPLUS-UNCOMPUTABLE. ZERO of the eight FORCED rows share a distinctive certified object with the B5 phase residual, so the surplus (independent expressible constraints minus free parameters) cannot be computed at all -- the meter reads UNKNOWN, not LOW. The decisive consequence: the blocker on POSITING the residual is NOT epistemic. Under genuine surplus constraint a posit is a legitimate test and the orthodox 'shaped to fit teaches nothing' does not apply; what is missing is a BRIDGE, and exactly one would suffice. Reopener is precise and buildable: make ONE forced row expressible against the signed phase sum, which converts positing from an unmeasurable move into a measurable test."
-grade: "EXACT for the free-parameter side (1024 assignments, 11 observable values, reproduced from the two prior runs) and for the object-sharing computation. The constraint side rests on a DECLARED PROXY -- object-sharing as a proxy for expressibility -- which is evidence of no bridge TODAY and is explicitly NOT a proof of inexpressibility. No row is closed. Both planted controls fire; one control FAILED on first execution and voided the run until the proxy was tightened."
+grade: "EXACT for the free-parameter side (1024 assignments, 11 observable values, reproduced from the two prior runs) and for the object-sharing computation. The constraint side rests on a DECLARED PROXY -- object-sharing as a proxy for expressibility -- which is evidence of no bridge TODAY and is explicitly NOT a proof of inexpressibility. No row is closed. Both planted controls fire; one control FAILED on first execution and voided the investigation until the proxy was tightened."
 prereg: explorations/prereg-b5-constraint-surplus-audit-2026-07-29.md
 probe: tests/channel-swings/b5_constraint_surplus_audit_probe.py
 follows:
@@ -13,9 +12,7 @@ follows:
   - explorations/b5-chirality-orientation-audit-2026-07-29.md
 construction: "program-native throughout per GEOMETER-VS-PHYSICS-OBJECTS.md."
 kill_conditions_declared_before_computation: true
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 outcome: "SURPLUS-UNCOMPUTABLE"
 ---
 
@@ -43,7 +40,7 @@ demonstration is Standard Model hypercharge: fit to the observed particles,
 derived by nobody, and then found to cancel six independent anomaly conditions
 with no freedom left. That surplus is most of why the fit was informative.
 
-**This run computes the number. It does not adjudicate the epistemics, which are
+**This investigation computes the number. It does not adjudicate the epistemics, which are
 not in doubt.**
 
 ## Result
@@ -99,7 +96,7 @@ before its number is read.
 ## Proxy limit, binding
 
 Object-sharing is a proxy for expressibility. A row classified OUTSIDE **may
-still constrain the residual through a bridge nobody has built**. This run closes
+still constrain the residual through a bridge nobody has built**. This investigation closes
 no row and proves no inexpressibility; it reports which rows have no bridge
 today.
 

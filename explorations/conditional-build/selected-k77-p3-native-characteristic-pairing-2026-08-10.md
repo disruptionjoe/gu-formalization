@@ -2,13 +2,9 @@
 artifact_type: exact_construction_composition_and_kill_result
 created: 2026-08-10
 status: NATIVE_QUADRATIC_PAIRING_ZERO_ALL_CURRENT_PARENTS__DIRECT_P3_AMPLITUDE_HORN_KILLED__SELF_DUAL_REDUCTION_REVIVAL_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_SILENT_P3_SOURCE_CONNECTION_DIAGONAL_AND_SELF_DUAL_REDUCTION
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR2c, LT-GR2d, LT-GR6]
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 P3 native characteristic pairing

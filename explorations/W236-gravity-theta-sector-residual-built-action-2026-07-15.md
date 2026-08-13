@@ -2,7 +2,7 @@
 artifact_type: exploration
 label: W236
 created: 2026-07-15
-status: exploration (GRAVITY LEG, closing W225's ONE open term; imported exact Schwarzschild; surviving conservative IG branch; Psi=0 gravitational vacuum; W229-built theta field equation; personas inline, one worker, no sub-agents; deterministic sympy test with nonzero-source and non-harmonic positive controls that FIRE on real linear-in-M residuals, exit 0)
+status: exploration (GRAVITY LEG, closing W225's ONE open term; imported exact Schwarzschild; surviving conservative IG branch; Psi=0 gravitational vacuum; W229-built theta field equation; perspectives inline, one worker, no independent reviewers; deterministic sympy test with nonzero-source and non-harmonic positive controls that FIRE on real linear-in-M residuals, exit 0)
 posture: coherence-first (Joe 2026-07-14); exploration grade; adversarial, native-object first, truth-seeking (closing the theta term FULLY CLEARS the gravity cheap-read, conditional on ONE named posit; a nonzero linear residual would have been an EARLY DISPROOF SIGNAL; reported either way, no rooting)
 title: "W236 -- theta-sector residual E_s^theta on imported exact Schwarzschild with the W229-built source action (closes W225's one open gravity term)"
 leg: GRAVITY -- ELProjectedGRShadowTheorem, imported-metric slice, E_s^theta term
@@ -204,9 +204,9 @@ Exploration grade. NO canon / RESEARCH-STATUS / verdict movement:
 note reports a genuine-YES SIGNAL for the imported-metric slice (now with ALL FIVE `R_s` terms
 accounted) and explicitly does NOT declare the leg verdict; the clear is CONDITIONAL on the one
 W154 posit. No Lean/Lake build was run (Python/sympy only; a Lean port of the screened-Poisson
-vacuum-source vanishing is a possible follow-up, noted not done). Personas inline
+vacuum-source vanishing is a possible follow-up, noted not done). Perspectives inline
 (IG-branch/theta specialist; screened-Poisson / induced-YM specialist; Krein-current / record
-specialist; ruthless skeptic); one worker, no sub-agents. Reproducible:
+specialist; ruthless skeptic); one worker, no independent reviewers. Reproducible:
 `python -u tests/W236_gravity_theta_sector_residual.py` (exit 0; nonzero-source and
 non-harmonic positive controls FIRST, both fire on real linear-in-M residuals). Zero em dashes
 in paper-facing text.

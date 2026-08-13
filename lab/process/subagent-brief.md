@@ -35,7 +35,7 @@ inline this file verbatim in every GU subagent prompt; subagents echo
    (P-H29).
 7. **Binds-nothing posture.** Your output is design/planning input:
    no dispositions, no verdict language, no registry/canon/posture edits.
-   Lens and persona outputs are planning evidence, never scientific
+   Lens and perspective outputs are planning evidence, never scientific
    evidence. The executing wave owns every disposition.
 8. **Self-hostile review.** Close substantive artifacts with the three
    standing charges: where the summary outruns the artifact; where rigor

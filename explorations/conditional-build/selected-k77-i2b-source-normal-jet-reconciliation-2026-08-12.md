@@ -1,11 +1,8 @@
 ---
 artifact_type: conditional_build_source_ownership_correction
 created: 2026-08-12
-run_id: RUN-20260812-200003-gu-i2b-source-normal-jet-reconciliation
 status: SOURCE_NORMAL_JET_OPERATOR_OWNED__REAL_FORM_IMAGE_RANK80__COKERNEL_RANK80
-claim_status_change: none
 canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 I2B source-normal-jet reconciliation

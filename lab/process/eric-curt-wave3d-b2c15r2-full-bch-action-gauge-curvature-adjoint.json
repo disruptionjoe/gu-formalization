@@ -1,7 +1,7 @@
 {
   "artifact": "ECW3D_B2C15R2_FULL_BCH_ACTION_GAUGE_CURVATURE_ADJOINT",
   "status": "PARTIAL_CONSTRUCTION_PASS_WITH_FULL_LINEAR_BRIDGE_BCH_PROJECTED_COVARIANT_SPLIT_ACTION_CANDIDATE_ORDER_THREE_CURVATURE_CANCELLATION_LIVE_A2_Z0_SUBROUTE_AND_OBSERVATION_SUPPORT_STOP",
-  "run": "RUN-20260802-104349-gu-formalization-ecw3d-b2c15r2-direct",
+  "run": "historical-investigation",
   "branch": "agent/null-clifford-omega1-repair",
   "layer_zero": {
     "connection_objects": [
