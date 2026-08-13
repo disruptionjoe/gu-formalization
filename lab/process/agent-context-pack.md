@@ -9,20 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-12)
 
-> **Current v0.225 `I2B` owner/tangent correction:** keep three objects
-> separate: the `1/3` path-average curvature inside `I1B`, the printed endpoint
-> `Upsilon_print=Shiab(F_A)+*kappa T`, and the repo-corrected Frechet-adjoint
-> `E_act`. Literal `SC-ACT-04` squares the printed endpoint; v0.201--v0.224
-> instead squared the path-average bracket. Their exact calculations survive
-> as a conditional construction, but the literal source-action attribution is
-> withdrawn. The endpoint rival has branch `rho=-r^2-kappa^2/160` and a
-> distinct twelve-cell determinant-80 obstruction. For `A=B+T`, a `B`-only
-> background response annihilates independent translation variation and cannot
-> cancel `E_T`; that successor is killed. Next assemble `||E_act||^2`, compare
-> the two action rivals, and derive any genuine `A/T`-dependent completion or
-> tangent/BV reduction. Keep `Q_u` distinct from source `Q_B`, and two
-> `C^(32,32)` halves distinct from two connections. No
+> **Current v0.226 corrected `E_act` square:** on the exact constant trace-`H_q`,
+> moving-`Q_u`, fixed-background 196-real connection bank, the action Riesz
+> matrix is diagonal with inertia `(98,98)` and the Frechet-adjoint companion is
+> exactly `2 S_q`.  The endpoint and corrected residual Frechet maps are
+> different, but after `Q_u` squaring their complete fixed-background Euler
+> covectors coincide.  Both have branch `rho=-r^2-kappa^2/160` and the same
+> twelve-cell determinant-80 obstruction.  This is not a full-domain identity,
+> source ownership result, or physical quotient.  Next derive the smallest
+> source/action-owned tangent or BV differential and type the omitted moving
+> reference/metric/section/Shiab derivatives.  Keep literal `SC-ACT-04`, the
+> repo-composed corrected rival, `Q_u`, source `Q_B`, two `C^(32,32)` halves,
+> their block subgroup, full `U(64,64)`, and two connections distinct.  No
 > accounting, datum, canon or public-posture moves.
+
+> **Predecessor v0.225 owner/tangent correction:** separates path-average,
+> printed-endpoint and action-Euler objects and kills a `B`-only repair of the
+> independent translation equation.  V0.226 supersedes only the unassembled
+> corrected-square successor; its source typing and tangent theorem survive.
 
 > **Predecessor v0.223 observer-`Q_B` radial composition:** the conditional
 > observer-Hermitian pairing works on both the principal kinetic response and

@@ -7,6 +7,17 @@ updated_at: "2026-08-12"
 
 # Explorations
 
+## K77 corrected action-Euler square (2026-08-12)
+
+`conditional-build/selected-k77-i2b-action-euler-square-2026-08-12.md`
+constructs the exact action-pairing Riesz representative on the 196-real bank.
+The companion is `2 S_q`; the corrected and endpoint Frechet maps differ, but
+their fixed-background `Q_u`-square Euler covectors coincide and retain the
+same twelve-cell determinant-80 obstruction.  Ledger v0.226 sends the next
+gate to a source/action-owned tangent or BV differential and the omitted
+moving-background variations.  No source ownership, datum, quotient, canon or
+public-posture claim moves.
+
 ## K77 I2B owner and two-connection tangent correction (2026-08-12)
 
 `conditional-build/selected-k77-i2b-two-connection-tangent-independence-2026-08-12.md`
@@ -15,8 +26,9 @@ first-action Euler covector. Literal `SC-ACT-04` squares the endpoint, not the
 path-average bracket used in v0.201--v0.224. The endpoint rival has a distinct
 branch and its own twelve-cell determinant-80 obstruction. Exact `A=B+T`
 tangent algebra also kills any `B`-only background repair of the independent
-translation Euler equation. Ledger v0.225 leaves the corrected `E_act` square
-and a derived tangent/BV reduction open; no GU, datum or canon verdict moves.
+translation Euler equation. Ledger v0.226 now closes the corrected `E_act`
+square arithmetic while leaving the derived tangent/BV reduction open; no GU,
+datum or canon verdict moves.
 
 ## K77 I2B moving-Q_u contact and full fixed-background Euler (2026-08-12)
 

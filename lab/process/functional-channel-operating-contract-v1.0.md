@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.225.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.225.md`.
+`lab/process/conditional-physics-ledger-v0.226.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.226.md`.
 Every ledger migration advances these two pointers and the corresponding
 `LANES.yaml` work-state references; the learning-transport gate compares them
 to the highest append-only ledger version and fails closed on drift.
@@ -61,6 +61,15 @@ explicit. Likewise, for `A=B+T`, a `B`-only term has zero derivative under the
 independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
+
+The v0.226 action-owner comparison closes the corrected-square arithmetic on
+the constant trace-`H_q`, moving-`Q_u`, fixed-background 196-cell bank.  The
+endpoint and corrected Frechet maps are different, but their `Q_u`-squared
+Euler covectors coincide there and retain the twelve-cell determinant-80
+obstruction.  This restricted equality must not be transported to the full
+moving-field problem.  Build next owns the smallest source/action-derived
+tangent or BV differential and the omitted moving reference/metric/section/
+Shiab derivatives; a fitted subspace is not an admissible quotient.
 
 Current moving-Hq / U(3,2) result: the exact Pati-Salam/`SU(3,2)` intersection
 is the 12-dimensional SM and its actual chiral-spin 16 has the SM
