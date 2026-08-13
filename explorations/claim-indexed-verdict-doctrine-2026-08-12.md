@@ -31,6 +31,16 @@ clause of one. The mandatory two-component verdict form, failure first:
 > (SC- register IDs). The mathematics inside it is sound and is banked
 > in our own certificates (refs)."
 
+**The second clause now has a target.**
+`explorations/nguyen-objection-banked-mathematics-register-2026-08-13.md`
+maps each Nguyen/Polya objection to its spec row and to the in-repo
+certificate that banks its mathematics — recovered from a 2026-07-29
+mailbox note that sat unused for fifteen days. Cite that register by
+file when writing the second clause. It also carries the standing
+honesty that banking an objection's mathematics does NOT discharge the
+objection: `SA-U1` and Nguyen §3.1 are the same question, open exactly
+to the extent H59 is open."
+
 Leading with "he's right about the math" is the recorded failure mode:
 it compresses publicly to "he's right," and misaimed-but-credited
 critiques are how research directions get pruned before anyone flies
