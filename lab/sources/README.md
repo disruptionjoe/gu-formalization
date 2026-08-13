@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-principal-preserving-moving-coefficient-absorption-source-return-2026-08-13.md`](selected-k77-i2b-principal-preserving-moving-coefficient-absorption-source-return-2026-08-13.md)
+  - confirms the `SC-ACT-04` residual-square/two-connection grammar; attributes
+    the universal cubic/quartic coefficient-jet absorption theorem to the
+    repository; and returns source-silent on a principal-changing completion
+    and physical BV.
+
 - [`selected-k77-i2b-first-nonlinear-torsion-source-return-2026-08-13.md`](selected-k77-i2b-first-nonlinear-torsion-source-return-2026-08-13.md)
   - confirms the `SC-ACT-04` endpoint residual-square and connection grammar;
     attributes the cubic zero, live quartic representative and exact absorber

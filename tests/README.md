@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_principal_preserving_moving_coefficient_absorption_probe.py`
+  composes the pushed exact rank receipts with the known moving coefficient
+  packets, proves the constrained rank-difference criterion on an exact
+  fixture, and rejects every principal-changing transfer. Run with SageMath
+  10.9; it passes `47/47` without replaying the expensive rank calculation.
+
 - `channel-swings/selected_k77_i2b_first_nonlinear_torsion_absorption_probe.py`
   expands the exact endpoint Euler equation on the sixteen-support compatible
   stationary jet. It proves cubic torsion support `0/140`, quartic support

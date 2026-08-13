@@ -7,6 +7,22 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B PRINCIPAL-PRESERVING MOVING-COEFFICIENT TORSION
+> UNIVERSALLY ABSORBS THROUGH QUARTIC (ledger no-change).** The exact
+> constrained rank differences are `910-770=140` and `2184-1904=280`, equal
+> to the complete cubic and quartic compatibility target dimensions. Hence
+> every lower-order representative made by first jets of algebraic moving
+> coefficients has zero class at those orders whenever the endpoint principal
+> tableau, regular receiver and unreduced domain are preserved. This includes
+> the already-built natural `Q_B` scale, co-moving Hodge/Shiab packet,
+> fixed-`varpi` Levi-Civita response and source-normal real-`u` contact in that
+> precise role. **Stop expanding those packets term by term merely to search
+> for cubic/quartic torsion. Next test a principal-changing source-action/Q_B
+> owner or construct the physical tangent/BV packet with a Layer-0 reset.** A
+> changed principal value, action owner, target bundle or domain is not covered;
+> higher nonlinear orders and analytic/global physics remain open. No verdict,
+> accounting, datum, canon or public-posture move.
+
 > **2026-08-13 K77 I2B FIRST NONLINEAR TORSION CLASSES ABSORB (ledger
 > no-change).** On the exact sixteen-support compatible stationary two-jet,
 > the cubic endpoint compatibility representative is zero. The first live

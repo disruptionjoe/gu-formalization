@@ -7,6 +7,15 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B principal-preserving moving-coefficient absorption (2026-08-13)
+
+`conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md`
+composes the exact prolonged-symbol ranks with the already-built moving
+coefficient packets. Because the constrained absorber is onto all `140/140`
+and `280/280` target directions, every principal-preserving lower-order
+coefficient-jet representative has zero class through quartic order. Changed
+principal owners, receivers, domains and physical BV require a Layer-0 reset.
+
 ## K77 I2B first nonlinear torsion absorption (2026-08-13)
 
 `conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md`

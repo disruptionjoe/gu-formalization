@@ -9,6 +9,19 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
+headline unchanged).** The already-certified constrained absorber is onto the
+entire cubic and quartic compatibility target: rank differences `140/140` and
+`280/280`. Therefore every first jet of an algebraic moving coefficient has
+zero formal torsion class through quartic order when its base value preserves
+the source-natural endpoint principal tableau, regular observation target and
+unreduced field domain. This composes the known natural `Q_B`, co-moving
+Hodge/Shiab, fixed-`varpi` Levi-Civita and source-normal contact packets without
+recomputing each term. Principal-changing `Q_B`/action/receiver choices, the
+physical tangent/BV graph, higher orders, analytic/global existence and the
+separate `E_act/Q_u` rival remain open. No physics verdict, residue, quotient,
+canon or public posture moves.
+
+**Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
 headline unchanged).** On the exact compatible stationary two-jet, the
 fixed-natural endpoint cubic torsion vanishes. The first live quartic
 compatibility representative has support `3/280`, but its class vanishes:
