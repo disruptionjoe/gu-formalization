@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B fixed-grade Cartan-symbol involutivity (2026-08-13)
+
+`conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md`
+computes a regular flag with characters `(784,588,378,14)` and proves
+`dim g_3=3150` equals Cartan's bound. The character prediction for
+`dim g_4=4956` matches the independent preceding certificate, and a nontrivial
+rational coframe preserves the theorem while moving the coordinate
+compatibility representatives. This closes fixed-grade principal-symbol
+involutivity only; nonlinear torsion and physical tangent/BV remain open.
+
 ## K77 I2B source-natural fixed-grade owner (2026-08-13)
 
 `conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md`

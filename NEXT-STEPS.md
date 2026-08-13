@@ -7,6 +7,20 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B FIXED-GRADE CARTAN SYMBOL INVOLUTIVE (ledger
+> no-change).** The complete source-natural endpoint principal tableau has a
+> regular flag with characters `(784,588,378,14)`. Its first prolongation has
+> `dim g_3=3150`, exactly Cartan's bound, while the independently certified
+> next value `dim g_4=4956` also matches the character prediction. A nontrivial
+> rational coframe preserves the characters and equality but moves all fourteen
+> coordinate compatibility representatives. **Stop using further linear
+> principal-symbol prolongation as the primary obstruction search at this
+> grade. Next compute the first nonlinear moving-coefficient torsion on the
+> nonempty stationary affine jet; keep the physical tangent/BV graph as a
+> separate parallel gate.** This is not nonlinear formal integrability,
+> analytic/global existence, a physical mode count or a BV/BFV result. No
+> verdict, accounting, datum, canon or public-posture move.
+
 > **2026-08-13 K77 I2B SOURCE-NATURAL FIXED-GRADE OWNER
 > RESOLVED (ledger no-change).** `SC-ACT-04` owns the printed-endpoint residual
 > square, and the exact fixed-natural grade-one classification restricts

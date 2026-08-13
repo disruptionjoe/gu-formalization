@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_i2b_cartan_symbol_involutivity_probe.py`
+  computes the complete regular flag and Cartan characters
+  `(784,588,378,14)`, proves `dim g_3=3150` equals Cartan's bound, matches the
+  independently certified `dim g_4=4956`, and transports the theorem through
+  a nontrivial rational coframe while rejecting frozen compatibility rows.
+  Run with SageMath 10.9; it passes `49/49`.
+
 - `channel-swings/selected_k77_i2b_source_natural_second_action_owner_probe.py`
   composes the source-owned printed endpoint with the fixed-natural grade-one
   `Q_B` line, replays both exact predecessor suites, proves scale-invariant

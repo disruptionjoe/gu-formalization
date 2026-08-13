@@ -2,11 +2,22 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-12"
+updated_at: "2026-08-13"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
+headline unchanged).** The source-natural fixed-grade I2B endpoint principal
+tableau is Cartan-involutive. A regular flag has characters
+`(784,588,378,14)`; `dim g_3=3150` exactly equals Cartan's bound, and the
+independently certified `dim g_4=4956` matches the character prediction. A
+nontrivial coframe preserves the theorem while moving the fourteen coordinate
+compatibility rows, so the invariant object is the transported compatibility
+space. Nonlinear torsion, moving coefficients, the physical tangent/BV graph,
+analytic/global existence and the separate `E_act/Q_u` rival remain open. No
+physics verdict, residue, quotient, canon or public posture moves.
 
 **Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.237;
 headline unchanged).** The source-faithful fixed-natural I2B owner is now

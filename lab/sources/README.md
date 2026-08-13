@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-cartan-symbol-involutivity-source-return-2026-08-13.md`](selected-k77-i2b-cartan-symbol-involutivity-source-return-2026-08-13.md)
+  - confirms `SC-ACT-04` endpoint residual-square and connection grammar;
+    attributes the regular flag, Cartan characters and coframe test to the
+    repository; and returns source-silent on nonlinear torsion, physical BV
+    and analytic/global existence.
+
 - [`selected-k77-i2b-source-natural-second-action-owner-source-return-2026-08-13.md`](selected-k77-i2b-source-natural-second-action-owner-source-return-2026-08-13.md)
   - confirms source ownership of the printed-endpoint I2B residual square;
     attributes the fixed-natural grade-one `Q_B` line and its exact composition

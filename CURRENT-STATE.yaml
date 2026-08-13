@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: agent/operator-anomaly-big-swing
-revision_basis: 11c2e53b53725f804783ae34e1170d2f4603d8f3
+revision_basis: 49f5ee0ad7aed62b871330ffcfa0956764474f0a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,19 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The source-faithful fixed-natural K77 I2B owner is the printed endpoint
-    square with Q_B on the unique trace/Hodge line up to nonzero scale. Its
-    rank-196 Hessian, rank-56 compatibility condition and nonempty formal-jet
-    intersection stand at that grade, while the repository-composed E_act/Q_u
-    rival and moving/full-field action remain separate.
+    The source-faithful fixed-natural K77 I2B endpoint principal tableau is
+    Cartan-involutive at the tested local grade. Its regular-flag characters
+    are (784,588,378,14), its first-prolongation dimension meets Cartan's
+    bound exactly at 3150, and a nontrivial coframe preserves the result.
+    Nonlinear moving-coefficient torsion, the physical tangent/BV graph and
+    the repository-composed E_act/Q_u rival remain separate and open.
   evidence:
+    - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md
-    - explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md
     - lab/process/conditional-physics-ledger-v0.237.json
 current_question: >-
-  Does the first genuinely moving/nonlinear endpoint coefficient prolongation
-  pass Cartan involutivity, and what independent physical tangent/BV graph
-  governs admissible variations?
+  Does the first nonlinear moving-coefficient compatibility torsion vanish or
+  absorb on the nonempty stationary affine jet fibre, and what independent
+  physical tangent/BV graph governs admissible variations?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -30,7 +31,7 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Test higher moving/nonlinear endpoint prolongation and Cartan involutivity;
-  independently construct the physical tangent/BV graph before promoting
-  nonlinear, analytic or global claims.
+  Compute the first nonlinear moving-coefficient torsion on the existing
+  stationary affine jet, while independently constructing the physical
+  tangent/BV graph before promoting nonlinear, analytic or global claims.
 what_needs_joe: none
