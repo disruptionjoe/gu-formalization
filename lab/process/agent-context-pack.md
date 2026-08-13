@@ -9,14 +9,26 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current principal-gauge-complex theorem (ledger no-change):** the fourteen
+> non-null directions are exactly ordinary connection gauge/Noether. The
+> coefficientwise cubic identity `H(k)G(k)=0` holds, and the
+> `14 -> 196 -> 196 -> 14` complex is exact for timelike and spacelike
+> covectors. On null covectors `rank H=14`, leaving raw cohomology `168/168`,
+> compared with Einstein `2/2`. Do not call 168 physical modes. Rank one is
+> the complete lower-order Ward totalization—the isolated target contributes
+> `(8/3)k`—then induction onto the action-owned physical carrier and a new null
+> cohomology calculation. Arbitrary holonomic jets and Fourier symbols remain
+> distinct.
+
 > **Current principal-constraint quotient theorem (ledger no-change):** the
 > v0.236 timelike block leaves an exact fourteen-dimensional cokernel, and the
 > first symmetric mixed block maps onto all fourteen missing quotient
 > directions, including the target class. This is a principal differential-
 > constraint split, not a missing action coefficient. Do not call the mixed
 > jet free Cauchy data or choose a fourteen-column complement by basis. Rank
-> one is Bianchi/Noether propagation, admitted-time and gauge typing, followed
-> by nonlinear atlas/observation and presymplectic/BV ownership. The
+> one was Bianchi/Noether propagation and gauge typing. The principal-gauge
+> successor above resolves the non-null complex and leaves Ward totalization,
+> physical reduction, then nonlinear atlas/observation and BV ownership. The
 > 196-dimensional affine fibre is field-jet freedom, not ledger residue.
 
 > **Current v0.236 holonomic-jet Euler-image theorem:** v0.235's pointwise

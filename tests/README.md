@@ -3738,3 +3738,16 @@ fibre while rejecting complement, uniqueness and free-Cauchy-data overreads.
 ```sh
 uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_constraint_quotient_probe.py
 ```
+
+## K77 I2B principal gauge-complex gate
+
+`channel-swings/selected_k77_i2b_principal_gauge_complex_probe.py` proves all
+twenty cubic coefficients of `H(k)G(k)=0`, exactness of the non-null
+`14 -> 196 -> 196 -> 14` complex, raw null cohomology `168/168`, and the
+isolated `(8/3)k` lower-order Ward obligation. It compares against the exact
+Einstein null cohomology `2/2` and rejects particle, propagation and full-
+Noether overreads.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_gauge_complex_probe.py
+```

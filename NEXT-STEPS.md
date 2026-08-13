@@ -7,14 +7,26 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B PRINCIPAL GAUGE COMPLEX (ledger no-change).** The
+> fourteen non-null directions are exactly ordinary connection gauge/Noether:
+> the coefficientwise complex `14 -> 196 -> 196 -> 14` is exact for timelike
+> and spacelike covectors. At null covectors the Hessian rank is `14`, leaving
+> raw field/equation symbol cohomology `168/168`, versus Einstein `2/2`.
+> **Do not call 168 particles. Derive the full lower-order Ward totalization,
+> whose isolated target obligation is `(8/3)k`, then induce the complex on the
+> action-owned physical carrier and recompute its null cohomology.** Arbitrary
+> `B00/B01` jet surjectivity remains true but is not Fourier-mode propagation.
+> No ledger, verdict, accounting, datum, canon or posture move.
+
 > **2026-08-13 K77 I2B PRINCIPAL CONSTRAINT QUOTIENT (ledger no-change).**
 > The timelike block's cokernel is exactly dimension `14`, and the symmetric
 > `(0,1)` mixed block maps onto all fourteen missing quotient directions; the
 > target class lies in that image. This retypes the local obstruction as a
 > principal differential-constraint problem rather than a missing action
 > coefficient. **Do not call the mixed jet free Cauchy data. Next derive the
-> Bianchi/Noether propagation complex, test the admitted time direction and
-> gauge quotient, then globalize through atlas, observation and BV boundary
+> Bianchi/Noether propagation complex. The principal-gauge successor above
+> identifies its non-null part; next totalize the lower-order Ward identity and
+> physical carrier, then globalize through atlas, observation and BV boundary
 > ownership.** The solution fibre is field-jet freedom, not booked theory
 > residue. No ledger, verdict, accounting, datum, canon or posture move.
 

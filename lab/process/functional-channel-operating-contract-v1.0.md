@@ -82,6 +82,17 @@ noncharacteristic-time and gauge typing, followed by nonlinear atlas,
 observation and presymplectic/BV ownership. A chosen complement and the
 196-dimensional affine solution fibre are not new theory parameters.
 
+The principal-gauge-complex successor identifies the fourteen non-null
+directions exactly: the ordinary connection generator `G(k)` satisfies the
+coefficientwise cubic syzygy `H(k)G(k)=0`, and the
+`14 -> 196 -> 196 -> 14` complex is exact off the light cone. On null
+covectors the raw connection complex has `168/168` field/equation cohomology,
+versus `2/2` for the certified Einstein comparator. Build must not call these
+raw classes particles or transfer arbitrary-jet surjectivity into a Fourier
+propagation claim. Its next gate is the complete lower-order Ward
+totalization—retaining the isolated `(8/3)k` obligation—followed by induction
+onto the action-owned physical carrier and recomputation of null cohomology.
+
 The predecessor v0.235 real-curvature Euler-image theorem closes the complete pointwise
 real full-`U(64,64)` curvature-value route. The exact residual-to-Euler
 transfer is a 392-dimensional isomorphism, the complete curvature image and

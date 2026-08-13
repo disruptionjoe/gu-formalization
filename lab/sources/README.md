@@ -7,6 +7,11 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-principal-gauge-complex-source-return-2026-08-13.md`](selected-k77-i2b-principal-gauge-complex-source-return-2026-08-13.md)
+  - confirms the I2B connection/gauge grammar; attributes the exact non-null
+    complex, raw null cohomology and `(8/3)k` Ward obligation to the repository;
+    returns source-silent on full Ward totalization and physical reduction.
+
 - [`selected-k77-i2b-principal-constraint-quotient-source-return-2026-08-13.md`](selected-k77-i2b-principal-constraint-quotient-source-return-2026-08-13.md)
   - confirms the I2B connection grammar; attributes the exact `182+14`
     quotient theorem to the repository; returns source-silent on propagation,

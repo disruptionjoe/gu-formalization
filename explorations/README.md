@@ -7,14 +7,23 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B principal gauge complex (2026-08-13)
+
+`conditional-build/selected-k77-i2b-principal-gauge-complex-2026-08-13.md`
+proves the coefficientwise ordinary-gauge syzygy and exact non-null
+`14 -> 196 -> 196 -> 14` complex. Its raw null cohomology is `168/168`, versus
+Einstein `2/2`; this is a physical-carrier reduction burden, not a particle
+count. The next gate is complete lower-order Ward totalization and induced
+physical-carrier cohomology.
+
 ## K77 I2B principal constraint quotient (2026-08-13)
 
 `conditional-build/selected-k77-i2b-principal-constraint-quotient-2026-08-13.md`
 proves that the timelike cokernel is exactly fourteen-dimensional and that the
 first mixed holonomic block maps onto all fourteen missing directions,
 including the target class. This is a ledger no-change frontier refinement:
-the next problem is constraint propagation, noncharacteristic/gauge typing,
-and nonlinear/global/BV ownership—not another local action coefficient.
+the next problem was constraint propagation and gauge typing. The principal-
+gauge successor above now identifies the exact non-null complex.
 
 ## K77 I2B holonomic-jet Euler image (2026-08-13)
 
