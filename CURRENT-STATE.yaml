@@ -1,0 +1,30 @@
+schema_version: "1.0"
+repository: gu-formalization-research
+branch: codex/six-axis-testability-white-paper
+revision_basis: 11255765827e6363155149876bfcade6e2050095
+purpose: >-
+  Turn Geometric Unity proposals and critiques into explicit, falsifiable,
+  verdict-agnostic scientific interfaces.
+current_result:
+  status: interface_specification_draft
+  summary: >-
+    The Nguyen critique gap assessment is reframed as a verdict-agnostic
+    interface specification; this branch also carries the six-axis
+    testability white paper and does not claim to prove or refute GU.
+  evidence:
+    - explorations/nguyen-gu-critique/nguyen-critique-gap-assessment.md
+    - papers/six-axis-testability-white-paper.md
+current_question: >-
+  Does the specification expose enough typed assumptions, observables, and
+  failure conditions for competing constructions and critiques to be tested?
+acceptance:
+  - RESEARCH-STATUS.md
+  - papers/six-axis-testability-white-paper.md
+contribution_path:
+  - CONTRIBUTING.md
+  - NEXT-STEPS.md
+next_condition: >-
+  Apply the interface to concrete candidates and critiques, recording explicit
+  unresolved fields rather than inferring conventional or program-native
+  defaults.
+what_needs_joe: none

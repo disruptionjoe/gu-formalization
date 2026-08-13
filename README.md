@@ -13,6 +13,7 @@ It organizes a first-principles investigation into whether Geometric Unity-class
 
 ## Start Here
 
+- **Current branch-relative state:** `CURRENT-STATE.yaml`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
