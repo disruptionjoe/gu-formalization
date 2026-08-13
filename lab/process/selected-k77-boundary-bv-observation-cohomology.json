@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-194036-gu-k77-boundary-bv-observation-cohomology",
+  "status": "SCOPED_CONSTRUCTION_RESULT",
+  "checks": {
+    "total": 45,
+    "failures": 0,
+    "planted": 4,
+    "two_prime_exact": true
+  },
+  "ordinary_gauge_boundary": {
+    "projector_brst_covariant": true,
+    "boundary_relation_chain_natural": true,
+    "three_patch_observation_descent": true,
+    "scope": "LOCAL_ORDINARY_GAUGE_AND_ASSOCIATED_BUNDLE__NOT_FULL_BV_KT_OR_UNRESTRICTED_BFV"
+  },
+  "full_carrier": {
+    "rank": 1920,
+    "incoming_rank": 960,
+    "outgoing_rank": 960,
+    "primes": [1009, 1013]
+  },
+  "carrier_fingerprint": {
+    "W": {
+      "rank": 320,
+      "incoming_intersection": 96,
+      "outgoing_intersection": 96,
+      "incoming_leakage": 128,
+      "outgoing_leakage": 128,
+      "evolution_leakage": 128,
+      "one_normal_invariant_hull": 448
+    },
+    "mirror": {
+      "rank": 320,
+      "incoming_intersection": 96,
+      "outgoing_intersection": 96,
+      "incoming_leakage": 128,
+      "outgoing_leakage": 128,
+      "evolution_leakage": 128,
+      "one_normal_invariant_hull": 448
+    },
+    "W_plus_mirror": {
+      "rank": 512,
+      "incoming_intersection": 192,
+      "outgoing_intersection": 192,
+      "incoming_leakage": 128,
+      "outgoing_leakage": 128,
+      "evolution_leakage": 128,
+      "one_normal_invariant_hull": 640
+    },
+    "cross_prime_equal": true
+  },
+  "common_spatial_action_hull": {
+    "rank_from_W": 640,
+    "rank_from_mirror": 640,
+    "rank_from_pair": 640,
+    "same_hull_by_inclusion_and_rank": true,
+    "one_form_projection_rank": 512,
+    "zero_form_projection_rank": 128,
+    "source_selected": false,
+    "identified_with_old_one_form_640": false
+  },
+  "restricted_w_mirror_boundary_complex_exists": false,
+  "pin_disposition": "ONE_FORM_PIN_EXCHANGES_W_WITH_MIRROR__NAIVE_BLOCK_DIAGONAL_FOUR_FIELD_LIFT_DOES_NOT_INTERTWINE_THE_OPERATOR_OR_FIXED_NORMAL_PROJECTOR_EVEN_ON_THE_EQUAL_WEIGHT_CONTROL__OTHER_FOUR_FIELD_PIN_LIFTS_OPEN",
+  "source_return": "SOURCE_CONFIRMS_FOUR_FIELD_COVARIANCE_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_ORDINARY_GAUGE_BRST_BOUNDARY_PROJECTOR_OBSERVATION_BASICNESS_AND_PHYSICAL_W_MIRROR_COHOMOLOGY",
+  "disposition": "LOCAL_BOUNDARY_BRST_AND_ASSOCIATED_BUNDLE_OBSERVATION_NATURALITY_CLOSE__W_MIRROR_AND_PAIR_ARE_NOT_INVARIANT_SUBCOMPLEXES__ALL_GENERATE_THE_SAME_CONDITIONAL_ACTION_CLOSURE_H640_EQUALS_512_PLUS128__RESTRICTED_COHOMOLOGY_REJECTED__SOURCE_SELECTION_AND_FULL_BV_KT_OPEN",
+  "next_gate": "CONTROL_H640_AGAINST_RANDOM192_OLD_ONE_FORM640_AND832__THEN_DERIVE_BV_KT_ON_H640_OR_FULL1920_AS_CONTROLS_DECIDE",
+  "p1_p2_p3_used": false,
+  "verdict_change": false,
+  "booked_residue_change": false,
+  "quotient_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

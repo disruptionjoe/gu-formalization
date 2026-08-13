@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "SELECTED_GRADE125_SPIN_NATIVE__WEYL_BLOCK_AND_FULL_U_REQUIRE_DISTINCT_INVARIANT_CARRIER_EXPANSIONS__ACTION_PARENT_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS_TWO_C32_32_WEYL_HALVES_AND_SEPARATE_U64_64_PRINCIPAL_GROUP__SOURCE_SILENT_ON_OPERATIVE_RESIDUAL_ACTION_PARENT",
+  "layer0": {
+    "two_weyl_halves": "S_C equals S_plus direct_sum S_minus with split Hermitian signature (32,32) on each half",
+    "weyl_block_product": "U(32,32) x U(32,32) subgroup preserving the two halves separately",
+    "full_u6464": "group preserving the direct-sum (64,64) form and permitting off-diagonal half mixing",
+    "selected_residual": "complexified Clifford grades 1 plus 2 plus 5, dimension 2107",
+    "action_parent": "upstream invariant carrier and symmetry from which observation or truncation descends",
+    "complexification_fence": "used only for Lie-algebra closure; cannot decide real signature, inertia, positivity, contour or domain"
+  },
+  "closure": {
+    "spin77": {
+      "complex_dimension": 2107,
+      "carrier": "Lambda1 plus Lambda2 plus Lambda5",
+      "preserves_selected": true,
+      "invariant_symmetric_pairing_dimension": 3
+    },
+    "weyl_block_u3232_product": {
+      "complex_dimension": 16382,
+      "carrier": "sl(S_plus) plus sl(S_minus) plus Hom(S_minus,S_plus) plus Hom(S_plus,S_minus)",
+      "preserves_selected": false,
+      "invariant_symmetric_pairing_dimension": 3,
+      "relative_pairing_coordinates": 2
+    },
+    "weyl_block_plus_chirality_exchange": {
+      "complex_dimension": 16382,
+      "invariant_symmetric_pairing_dimension": 2,
+      "relative_pairing_coordinates": 1,
+      "exchange_source_status": "NOT_ESTABLISHED"
+    },
+    "full_u6464": {
+      "complex_dimension": 16383,
+      "carrier": "sl(128,C)",
+      "preserves_selected": false,
+      "invariant_symmetric_pairing_dimension": 1,
+      "relative_pairing_coordinates": 0
+    },
+    "explicit_escape_grades": [3, 4, 7]
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_discrete_data": 0,
+    "new_function_valued_slots": 0,
+    "new_scoped_quotients": 0,
+    "booked_continuous_residue": 84,
+    "conditional_continuous_residue_by_parent": {
+      "full_u6464_parent": 84,
+      "weyl_block_plus_exchange_parent": 85,
+      "weyl_block_or_spin_native_parent": 86
+    },
+    "booking_disposition": "RANGE_EXPOSED__NO_PARENT_SELECTED__CANONICAL_EQUAL_WEIGHT_POINT_AVAILABLE_WITHOUT_FIT",
+    "residue_change": 0
+  },
+  "primary_build_parent": "CONDITIONAL_SPIN_NATIVE_SELECTED_CARRIER_WITH_CANONICAL_SCALAR_CLIFFORD_TRACE",
+  "rival_build_parents": [
+    "WEYL_BLOCK_INVARIANT_CARRIER_DIM16382",
+    "FULL_U6464_INVARIANT_CARRIER_DIM16383"
+  ],
+  "held_open": {
+    "source_selection_of_action_parent": "OPEN",
+    "equivariant_observation_or_symmetry_breaking_reduction": "OPEN",
+    "lower_order_transverse_Dg_Upsilon": "OPEN",
+    "coefficientwise_naturality": "OPEN",
+    "formal_adjoint_and_green": "OPEN",
+    "real_analytic_domain_and_reduced_symplectic_BV_BFV": "OPEN"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_operative_pairing_symmetry_closure_probe.py",
+    "tests/channel-swings/selected_k77_operative_pairing_symmetry_closure_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-operative-pairing-symmetry-closure-review.md",
+  "next_gate": "CONSTRUCT_LOWER_ORDER_COMPLETE_PHYSICAL_K77_DG_UPSILON_ON_CONDITIONAL_SPIN_NATIVE_SELECTED_PARENT__VERIFY_COEFFICIENTWISE_NATURALITY__THEN_FORMAL_ADJOINT_GREEN"
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_and_scope_result",
+  "created": "2026-08-10",
+  "status": "LOCAL_FIRST_ORDER_BOSONIC_MOVING_REDUCTION_CONSISTENT_TRUNCATION_CANDIDATE__NOT_FERMION_SELECTOR__INDUCED_FERMION_OPERATOR_REQUIRED",
+  "prior_art": {
+    "connection_projector_split": [8128, 8256],
+    "fermion_rs_split": [640, 832, 192],
+    "moving_euler_preserves_both_connection_sectors": true,
+    "both_parent_tangents_stationary": true,
+    "parent_selected": false
+  },
+  "projector_variation": {
+    "constraint": "Q_EPSILON_U_EQUALS_ZERO",
+    "tangent": "Q_EPSILON_DELTA_U_EQUALS_DELTA_P_EPSILON_U",
+    "identities": ["P_DELTA_P_P_EQUALS_ZERO", "Q_DELTA_P_Q_EQUALS_ZERO"],
+    "disposition": "MOVING_SUBBUNDLE_TRANSPORT_NOT_SELECTION_EQUATION"
+  },
+  "layer0": {
+    "P_epsilon": "BOSONIC_CONNECTION_COEFFICIENT_PROJECTOR",
+    "D_varpi_chi_epsilon": "WEYL_HALF_COMPATIBLE_REDUCED_CONNECTION",
+    "P_W": "FERMION_RS_J1_TRIPLET_PROJECTOR",
+    "bridge": "NOT_CONSTRUCTED",
+    "direct_five_way_discrimination": "MISTYPED_UNTIL_INDUCED_FERMION_OPERATOR_EXISTS"
+  },
+  "disposition": {
+    "bosonic_reduction": "LOCAL_LINEARIZED_CONSISTENT_TRUNCATION_CANDIDATE__DYNAMIC_SELECTION_OPEN",
+    "fermion_carrier": "FIXED_W_THEOREMS_CONDITIONAL__PHYSICAL_SELECTION_OPEN",
+    "new_required_object": "ACTION_DERIVED_K77_FERMION_OPERATOR_OR_BV_DIFFERENTIAL_ON_COMMON_RS_CARRIER"
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_P_H_ASSOCIATED_FERMION_GRAMMAR__SOURCE_SILENT_FINITE_PHYSICAL_CARRIER_PROJECTOR",
+  "accounting": {
+    "verdict_change": "none",
+    "residue_change": "none",
+    "quotient_change": "none",
+    "datum_change": "none",
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "validation": {
+    "exact_probe": "28/28 PASS",
+    "governance_audit": "15/15 PASS",
+    "moving_parent_predecessor_audit": "14/14 PASS",
+    "full_parent_mathematics_replay": "34/34 PASS",
+    "stale_audit_debt": [
+      "selected_k77_full_parent_branch_stationarity_audit.py hard-codes mutable current pointers",
+      "tests_root_readme_inventory_audit.py has 11 inherited unclassified root scripts"
+    ]
+  },
+  "next_gate": "BOSONIC_PARENT_OWNERSHIP_THEN_INDUCED_K77_FERMION_OPERATOR_BV_DIFFERENTIAL_AND_FIVE_WAY_CARRIER_DISCRIMINATION",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

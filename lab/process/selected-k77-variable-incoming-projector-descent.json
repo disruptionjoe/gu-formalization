@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260811-191942-gu-k77-variable-incoming-projector-descent",
+  "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN_OBSERVED_VARIABLE_PRINCIPAL_SYSTEM",
+  "checks": {
+    "total": 63,
+    "failures": 0,
+    "planted": 6
+  },
+  "immutable_full_carrier": {
+    "rank": 1920,
+    "incoming_rank": 960,
+    "outgoing_rank": 960,
+    "both_doubled_majorana_horns_local_green_rank": 0,
+    "spatial_clifford_relations": "EXACT"
+  },
+  "projector_family": {
+    "formula": "PI_IN_OF_N_EQUALS_ONE_HALF_TIMES_IDENTITY_MINUS_D_T_INVERSE_D_N",
+    "rank": 960,
+    "rank_fraction": "1/2",
+    "associated_bundle_descent": true,
+    "connection_naturality": true,
+    "negative_flux": true,
+    "requires_oriented_unit_noncharacteristic_conormal": true
+  },
+  "ownership": {
+    "action_owns": "THE_MAP_FROM_AN_ORIENTED_UNIT_OBSERVED_SPATIAL_CONORMAL_TO_THE_INCOMING_PROJECTOR",
+    "observation_boundary_geometry_owns": "THE_BOUNDARY_HYPERSURFACE_OUTWARD_CONORMAL_AND_MEMBER_SELECTION",
+    "independent_projector_datum_needed": false,
+    "unique_global_boundary_selected": false
+  },
+  "pairing_horns": {
+    "symmetric_anti_adjoint": "TRANSPORTED_DOUBLED_MAJORANA_GREEN_ISOTROPIC",
+    "skew_self_adjoint": "TRANSPORTED_DOUBLED_MAJORANA_GREEN_ISOTROPIC",
+    "selection": "NONE"
+  },
+  "analytic_status": "CONDITIONAL_LOCAL_VARIABLE_COEFFICIENT_PRINCIPAL_IBVP_DATA__GLOBAL_IN_TIME_NONLINEAR_CONSTRAINT_AND_BOUNDED_GEOMETRY_CLOSURE_OPEN",
+  "source_return": "SOURCE_CONFIRMS_FIRST_ORDER_FOUR_FIELD_PARENT_AND_COVARIANT_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_INCOMING_PROJECTOR_FAMILY_BOUNDARY_SELECTION_AND_VARIABLE_ANALYTIC_DOMAIN",
+  "p1_p2_p3_used": false,
+  "verdict_change": false,
+  "booked_residue_change": false,
+  "quotient_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "outcome": "ACTION_DERIVES_THE_VARIABLE_INCOMING_PROJECTOR_FAMILY_FROM_ITS_PRINCIPAL_COEFFICIENTS__OBSERVATION_BOUNDARY_GEOMETRY_SELECTS_THE_MEMBER__BOTH_DOUBLED_MAJORANA_HORNS_TRANSPORT__GLOBAL_ANALYTIC_CLOSURE_OPEN",
+  "next_gate": "COMPOSE_THE_ACTION_DERIVED_INCOMING_PROJECTOR_FAMILY_WITH_THE_SOURCE_DERIVED_CONSTRAINT_BV_DIFFERENTIAL_AND_OBSERVATION_PULLBACK__TEST_BOUNDARY_INVARIANCE_AND_PHYSICAL_MIRROR_COHOMOLOGY__KEEP_GLOBAL_IN_TIME_ESTIMATES_NULL_BFV_HORN_P_AND_INDEX_COUNT_SEPARATE"
+}

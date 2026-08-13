@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "result_id": "AC_G1_PROPAGATION_POINTER_BASELINE_20260807",
+  "disposition": "PROPAGATED",
+  "layer0": {
+    "conditional_horn": "Cl(9,5)=M(64,H) with Sp(64)",
+    "settled_horn": "Cl(7,7)=M(128,R)",
+    "scoped_claim": "the Sp(64) replacement defuses Nguyen's original U(128) pincer only on the conditional Cl(9,5) horn",
+    "open_claim": "the settled Cl(7,7) replacement group plus local I16 and global Dai-Freed/bordism receptacle are unconstructed"
+  },
+  "ledger": {
+    "predecessor": "0.49",
+    "current": "0.50",
+    "superseded_row": "AC-G1",
+    "successor_row": "AC-G1a",
+    "old_active_verdict": ["OVER_DETERMINED", "STALE_PREMISE"],
+    "new_active_verdict": ["NEEDS", "MISSING_CONSTRUCTION"],
+    "active_counts": {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5}
+  },
+  "pointer": {
+    "historical_value": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
+    "authoritative_owner": "lab/process/functional-channel-operating-contract-v1.0.json#active_scientific_directives[GU-COSMO-DYNAMIC-01].next_run_method",
+    "current_target": "SOURCE_NATIVE_ODD_CURVATURE_OR_RICHER_SOLDERING_OWNER_AND_NULL_SCREEN"
+  },
+  "baseline_ref": "lab/process/branch-integration-inherited-failure-baseline-2026-08-07.json",
+  "source_return": "SOURCE-SILENT__SETTLED_CL77_ANOMALY_REPLACEMENT_GROUP_OR_RECEPTACLE",
+  "frontier_delta": {
+    "headline_delta": "ONE_OVER_DETERMINED_STALE_PREMISE_RETIRED_TO_NEEDS_MISSING_CONSTRUCTION",
+    "conditions_closed": 4,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 5
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "SCOPED_STALE_PREMISE_DISPOSITION_ONLY",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

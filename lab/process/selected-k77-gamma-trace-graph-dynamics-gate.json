@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-211634-gu-k77-graph-dynamics-gate",
+  "status": "GRAPH_ACTION_LIVE__TRANSVERSE_CURRENT_LIVE__FULL_EULER_RECEIVER_NOT_CLOSED",
+  "field": "GF_1000033_EXACT_RANK_CERTIFICATES_WITH_CHARACTERISTIC_ZERO_DETERMINANT_LIFT",
+  "operator_scope": "DISPLAYED_SOUTHEAST_ZERO_TAUTOLOGICAL_SOURCE_BRANCH__LOCAL_KREIN_ACTION_RESTRICTION_AND_OBSERVED_CAUSAL_PRINCIPAL_REPRESENTATIVES",
+  "candidates": {
+    "column_pin": {
+      "right_kernel_rank": 128,
+      "left_kernel_rank": 128,
+      "krein_pairing_rank": 1920,
+      "timelike": {"green_rank": 128, "raw_rank": 128, "receiver_leak_rank": 128},
+      "spacelike": {"green_rank": 128, "raw_rank": 128, "receiver_leak_rank": 128},
+      "null": {"green_rank": 128, "raw_rank": 128, "receiver_leak_rank": 128},
+      "diagonal_current_ranks": [128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128],
+      "radial_current_rank": 0
+    },
+    "row_pin": {
+      "right_kernel_rank": 128,
+      "left_kernel_rank": 128,
+      "krein_pairing_rank": 1920,
+      "timelike": {"green_rank": 128, "raw_rank": 128, "receiver_leak_rank": 128},
+      "spacelike": {"green_rank": 128, "raw_rank": 128, "receiver_leak_rank": 128},
+      "null": {"green_rank": 128, "raw_rank": 128, "receiver_leak_rank": 128},
+      "diagonal_current_ranks": [128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128, 128],
+      "radial_current_rank": 0
+    }
+  },
+  "horns": {
+    "GRAPH_ACTION_LIVE": true,
+    "FERMION_CURRENT_LIVE": true,
+    "FINITE_BV_ADMITTED": false,
+    "BV_DEFERRED": true
+  },
+  "layer0": {
+    "barred_unbarred": "INDEPENDENT_SOURCE_FIELDS",
+    "pairing": "LOCAL_INDEFINITE_DEGREE_PAIRING_NOT_GLOBAL_REALITY_OR_POSITIVE_RIESZ",
+    "restricted_action": "NONDEGENERATE_FINITE_PRINCIPAL_SYMBOL",
+    "full_euler_truncation": "FAILS_RECEIVER_CLOSURE_RANK128",
+    "physical_bv_domain": "OPEN"
+  },
+  "parent_scope": "SELECTED_REAL_K77__FULL_U64_64_MOVING_SPIN_AND_TWO_U32_32_HALVES_REMAIN_DISTINCT__W_MIRROR_AND_SOUTHEAST_NONZERO_REMAIN_SEPARATE",
+  "source_return": "SOURCE_CONFIRMS_INDEPENDENT_BARRED_UNBARRED_ACTION_AND_CURRENT_CLASS__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_GLOBAL_KREIN_REALITY_ADJOINT_RECEIVER_BV_DOMAIN_AND_NONZERO_SOUTHEAST_MAP",
+  "ledger_rows": ["RA-D4", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"],
+  "ledger_effect": "DISTANCE_AND_EVIDENCE_ONLY__NO_VERDICT_RESIDUE_QUOTIENT_DATUM_CANON_OR_PUBLIC_POSTURE_MOVEMENT",
+  "next_gate": "CONSTRUCT_OR_KILL_SOURCE_ACTION_OWNED_RANK128_EQUATION_RECEIVER_OR_CONSTRAINT_COMPLETION__COMPARE_SOUTHEAST_NONZERO_LEAK_IMAGE_EXTENSION_AND_GAUGE_BV_IMAGE__PRESERVE_GREEN_RANK_AND_SURPLUS__NO_PHYSICAL_OR_COUNT_INFERENCE"
+}

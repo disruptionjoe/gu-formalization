@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_construction_result",
+  "created": "2026-08-10",
+  "status": "OBSERVED1131_CONDITIONAL__SOURCE_NATIVE_Y14_FIRST_JETS_FORCE_FULL1571__TANGENT915_NOT_FIRST_JET_CLOSED",
+  "scope": {
+    "parent": "CONDITIONALLY_SELECTED_REAL_SPIN77",
+    "field_grade": "LOW_GRADE_CL1_PLUS_CL2",
+    "operator": "FIXED_EPSILON_DVARPI_UPSILON_EQUALS_SHIAB_DA_U_PLUS_HODGE_U",
+    "observed_jet_domain": "HSTAR_DIM4",
+    "source_native_jet_domain": "VSTAR_EQUALS_HSTAR_PLUS_NSTAR_DIM14"
+  },
+  "exact_result": {
+    "baseline_selected_tangent": 321,
+    "prior_offslice_principal_rank": 594,
+    "prior_total_principal_tangent": 915,
+    "observed_jet_rank_progression": [594, 648, 702, 756, 810],
+    "observed_offslice_rank": 810,
+    "observed_total_tangent": 1131,
+    "observed_block_profile": {
+      "HSTAR_H_WEDGE_N": [160, 160, 160],
+      "HSTAR_LAMBDA2_N": [180, 180, 180],
+      "NSTAR_LAMBDA2_H": [60, 60, 60],
+      "NSTAR_H_WEDGE_N": [400, 400, 400],
+      "NSTAR_LAMBDA2_N": [450, 10, 10]
+    },
+    "observed_new_block": "H_TENSOR_SYM2_TRACEFREE_N_DIM216",
+    "observed_stabilizer_generator_count": 51,
+    "observed_stabilizer_defects": 0,
+    "ambient_jet_rank_progression": [594, 648, 702, 756, 810, 899, 978, 1047, 1106, 1155, 1194, 1223, 1242, 1250, 1250],
+    "ambient_offslice_rank": 1250,
+    "ambient_total_tangent": 1571,
+    "hodge_k_lift": "EXACT_ON_ALL1250",
+    "background_connection_lower_order": "PRESERVES_OBSERVED810",
+    "metric_lower_order": "ALREADY_COMPLETE_V0125__NO_NEW_DIRECTIONS",
+    "epsilon_lower_order": "V0123_CORRECTION_ZERO_ON_SELECTED_SLICE"
+  },
+  "layer0": {
+    "source_euler_linearization": "DISTINCT_FROM_POINTWISE_DENSITY_HESSIAN_AND_RESIDUAL_SQUARE_GRAM",
+    "exterior_covector_q": "CLIFFORD_SCALAR_ONEFORM__NOT_PHI1_VECTOR",
+    "observed_first_jets": "DISTINCT_FROM_ALL_Y14_FIRST_JETS",
+    "ordinary_pullback": "FORGETS_CONORMAL_JETS_BUT_DOES_NOT_CONSTRAIN_UPSTAIRS_EULER_DEPENDENCE",
+    "observed1131": "CONDITIONAL_ON_SOURCE_OWNED_CONORMAL_RESTRICTION_OR_BV_DIFFERENTIAL",
+    "ambient1571": "COMPLETE_SELECTED_LOW_GRADE_SOURCE_NATIVE_Y14_FIRST_JET_TANGENT"
+  },
+  "source_return": "SOURCE_CONFIRMS_FIRST_Y14_ACTION_DB_T_AND_FIRST_ORDER_UPSILON__SOURCE_SILENT_CONORMAL_JET_RESTRICTION_AND_TANGENT_SELECTION",
+  "action_parent_fence": {
+    "selected_low_grade_spin77": "DECIDED_AS_STATED",
+    "grade5": "NOT_PORTED",
+    "two_U32_32_halves": "NOT_PORTED",
+    "full_U64_64": "NOT_PORTED"
+  },
+  "accounting": {
+    "new_source_coordinate_types": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "validation": {
+    "primary": "74/74_PASS",
+    "independent_sage_flint": "11/11_PASS",
+    "negative_controls": [
+      "CLIFFORD_VECTOR_Q_GENERATES_WRONG_SAME_GRADE_OUTPUT",
+      "POINTWISE_SAME_GRADE_PROJECTION_ERASES_LIVE_CROSS_GRADE_COUPLING",
+      "OBSERVED_AND_AMBIENT_JET_DOMAINS_DO_NOT_COLLAPSE"
+    ]
+  },
+  "next_gate": "PORT_SOURCE_NATIVE_LOW_GRADE1571_EULER_OPERATOR_TO_TWO_U32_32_HALVES_AND_FULL_U64_64__INCLUDE_GRADE5__THEN_GAUGE_GHOST_DOMAIN",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

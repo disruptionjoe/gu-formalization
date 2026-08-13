@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "ARBITRARY_X_LORENTZ_SECTION_FALSE__LOCAL_HOLONOMIC_JETS_EXIST__ORDINARY_PULLBACK_NOT_FAITHFUL_ON_SELECTED_ACTION_IMAGE__COMPLETE_RECEIVER_OR_SOURCE_DERIVED_BV_CONSTRAINT_REQUIRED",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "COMPLETE_RECEIVER_REQUIRED__ARBITRARY_X_LORENTZ_SECTION_FALSE__HOLONOMICITY_DOES_NOT_REMOVE_ACTION_CONORMAL_LEAKAGE",
+  "source_return": "SOURCE-CORRECTS__NO_ARBITRARY_X_GLOBAL_OBSERVATION_SECTION__SOURCE-CONFIRMS__LOCAL_SECTION_AND_PULLBACK_GRAMMAR__SOURCE-SILENT__PHYSICAL_FAITHFULNESS_AND_BV_QUOTIENT",
+  "layer0": {
+    "local_section_jet": "value plus first derivative plus symmetric second derivative of a local metric section",
+    "global_section": "topology-dependent global Lorentz metric/reduction, not arbitrary-X",
+    "ordinary_pullback": "rank-four covector restriction with ten-dimensional conormal kernel",
+    "complete_receiver": "pullback plus vertical restriction with exact inverse-transpose Euler dual",
+    "physical_no_leakage": "action Euler image has zero conormal component or a derived quotient removes it",
+    "bv_quotient": "requires an explicit differential, moment map and cohomology; not constructed"
+  },
+  "topology": {
+    "counterexample": "S4",
+    "dimension": 4,
+    "spin": true,
+    "euler_characteristic": 2,
+    "lorentz_section": false,
+    "conclusion": "spin four-manifold does not imply global Lorentz observation section"
+  },
+  "exact_results": {
+    "local_polynomial_first_jet": true,
+    "local_symmetric_second_jet": true,
+    "graph_derivative_rank": 4,
+    "ordinary_pullback_rank": 4,
+    "conormal_kernel_rank": 10,
+    "complete_receiver_rank": 14,
+    "complete_receiver_determinant": 1,
+    "action_conormal_witness_nonzero": true,
+    "action_conormal_witness_pullback_zero": true,
+    "complete_receiver_detects_witness": true
+  },
+  "construction_fork": {
+    "horn_a": "retain the complete 4+10 equation system and classify the ten vertical equations",
+    "horn_b": "derive a source-owned conormal constraint/BV differential and quotient",
+    "selected": false
+  },
+  "controls": {
+    "antisymmetric_second_jet": "FIRED",
+    "arbitrary_X_lorentz_section": "FIRED",
+    "ordinary_pullback_as_complete_receiver": "FIRED",
+    "descended_projector_as_satisfied_no_leakage": "FIRED",
+    "sympy_composed_route": "55/55 PASS",
+    "independent_sage": "16/16 PASS",
+    "all_three_predecessors": "PASS"
+  },
+  "boundary": [
+    "physical classification of the ten vertical equations",
+    "source-derived constraint or BV differential",
+    "global tau_A0/BFV moment map and charge algebra",
+    "common Green/Krein analytic domain",
+    "preferred historical Shiab",
+    "physical vacuum and spectrum"
+  ],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "headline_delta": "NONE",
+  "frontier_delta": {
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED",
+    "new_scoped_quotients": 0
+  },
+  "scripts": [
+    "tests/channel-swings/selected_k77_physical_section_faithfulness_probe.py",
+    "tests/channel-swings/selected_k77_physical_section_faithfulness_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-physical-section-faithfulness-gate-review.md",
+  "next_gate": "COMPLETE_4_PLUS_10_EQUATION_SYSTEM_VERSUS_SOURCE_DERIVED_CONORMAL_CONSTRAINT_BV_QUOTIENT__THEN_GLOBAL_TAU_A0_BFV_COMMON_GREEN_KREIN_DOMAIN"
+}

@@ -16,6 +16,14 @@ depends_on:
 
 # The antilinear bound: from finite adversarial hunt to delimited theorem
 
+> **CARRIER-SELECTION SCOPE CORRECTION (2026-08-10).** The finite theorem
+> remains valid on the supplied `192`-dimensional `W`; it neither selects `W`
+> nor proves that `W` is the physical generation carrier. The old internal
+> Casimir test is non-discriminating and accepts a planted random `192`.
+> Physical use is conditional on an independently action/source-selected
+> carrier; see
+> `canon/generation-carrier-identification-scope-correction-2026-08-10.md`.
+
 > **v2.15 typing and transfer correction (2026-07-23).** The exact finite
 > theorem is a complex Hermitian transversality statement about
 > `intersectionDifference`, not a physical handedness or Fredholm index. Its

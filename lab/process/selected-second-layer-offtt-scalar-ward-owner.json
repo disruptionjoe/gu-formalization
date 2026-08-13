@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "METRIC_BLOCK_NOT_BASIC__COUPLED_OWNER_REQUIRED",
+  "source_return": "SOURCE-CONFIRMS__I2B_NORM_SQUARE__SOURCE-SILENT__I2B_TO_OBSERVER_FULL_II_OWNER",
+  "predecessor": "lab/process/selected-second-layer-massive-so3-closure-identifiability.json",
+  "exact_result": {
+    "tt_mass2_reproduced": "1922/3589",
+    "restricted_scalar_candidate_mass2": "1157/3589",
+    "restricted_scalar_candidate_admissible": false,
+    "full_metric_ward_defect_rank": 4,
+    "full_metric_rank_at_candidate": 10,
+    "old_full_b_coefficient_owner": "OBSERVER_FULL_II_FIRST_VARIATION",
+    "selected_i2b_owner": "STATIONARY_RESIDUAL_NORM_SQUARE",
+    "next_owner": "FULL_COMOVING_DUPSILON_METRIC_CONNECTION_SECTION_OBSERVATION"
+  },
+  "next_gate": "FULL_COMOVING_DUPSILON_AND_COUPLED_WARD_DESCENT_THEN_SCALAR_AND_MASSLESS_CONSTRAINT_COMPLEX",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-07-selected-second-layer-offtt-scalar-ward-owner-review.md",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 4
+  },
+  "rerun": "30/30 PASS"
+}

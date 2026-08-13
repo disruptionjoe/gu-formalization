@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-09",
+  "status": "COMMON_GRADED_TRACE_AND_RELATIVE_POLARIZATION_EXACT__ACTUAL_BULK_GREEN_KREIN_DOMAIN_UNOWNED",
+  "lane": "1",
+  "functional_channels": ["SOURCE", "COMPOSE", "BUILD", "VERIFY"],
+  "source_return": "SOURCE_CONFIRMS_UPSTAIRS_BOUNDARY_TECHNICAL_DEBT__SOURCE_SILENT_SOBOLEV_TRACE_BOUNDARY_TRIPLE_GREEN_KREIN_DOMAIN_AND_BV_BFV",
+  "layer0": {
+    "common_trace_space": "graded_direct_sum_not_one_scalar_exponent",
+    "physical_trace": "H7_plus_Hminus7",
+    "gauge_ghost_trace": "H8_plus_Hminus8",
+    "boundary_green_form": "not_a_Green_inverse",
+    "maximal_trace_data": "not_a_boundary_condition",
+    "vertical_polarization": "not_an_action_selected_extension",
+    "boundary_trace_space": "not_a_bulk_graph_domain",
+    "positive_sobolev_majorant": "not_physical_Krein_positivity",
+    "ambient_boundary_dimension": 13,
+    "observed_boundary_dimension": 3
+  },
+  "graded_trace": {
+    "space": "physical_H7_Hminus7_direct_sum_ghost_H8_Hminus8",
+    "canonical_form": "STRONG_NONDEGENERATE",
+    "uniform_musical_inverse": true,
+    "H7_H8_uniform_identification": false,
+    "physical_bulk_trace_order": "15/2_to_7",
+    "ghost_bulk_trace_order": "17/2_to_8",
+    "negative_orders": "cotangent_conormal_duals_not_ordinary_positive_field_traces"
+  },
+  "relative_descent": {
+    "transition": "diag_A_AinverseTranspose_A_AinverseTranspose",
+    "graded_form_preserved": true,
+    "vertical_polarization_lagrangian": true,
+    "vertical_polarization_preserved": true,
+    "physical_boundary_condition_selected": false
+  },
+  "boundary_triple_readiness": {
+    "graded_trace_carrier": "OWNED",
+    "graded_green_form": "OWNED",
+    "relative_patch_descent": "OWNED",
+    "lagrangian_polarization": "OWNED_NOT_SELECTED",
+    "complete_action_owned_gauge_fixed_bulk_operator": "UNOWNED",
+    "closed_Dmax_Dmin": "UNOWNED",
+    "surjective_bulk_trace": "UNOWNED",
+    "Dmin_equals_trace_kernel": "UNOWNED",
+    "common_Green_inverse": "UNOWNED",
+    "Krein_positive_physical_domain": "UNOWNED",
+    "coupled_BV_BFV": "UNOWNED"
+  },
+  "domain_routes": {
+    "standard_ambient_Lorentzian_Cauchy": "KILLED_PREVIOUSLY_FOR_K77",
+    "observed_X4_defect_domain_as_ambient_domain": "TYPE_ERROR",
+    "constrained_ultrahyperbolic_projector": "OPEN_NEW_OBJECT_IF_CONSTRUCTED"
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_selectors": 0,
+    "new_bundle_classes": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "controls": {
+    "primary": "40 exact + 11 planted = 51 PASS",
+    "independent_sage": "14 exact + 5 planted = 19 PASS",
+    "v0103_mathematical_replay": "59/59 PASS",
+    "v0115_mathematical_replay": "44/44 plus independent 19/19 PASS",
+    "v0115_governance_audit": "EXPECTED_SUPERSEDED_POINTER_FAILURE_AFTER_V0116_MIGRATION"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "action_parent": "OPEN__SPIN_NATIVE_SELECTED_CARRIER_TWO_U32_32_HALVES_AND_FULL_U64_64_DISTINCT",
+  "scripts": [
+    "tests/channel-swings/selected_k77_common_graded_trace_boundary_triple_probe.py",
+    "tests/channel-swings/selected_k77_common_graded_trace_boundary_triple_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-common-graded-trace-boundary-triple-review.md",
+  "next_gate": "ASSEMBLE_COMPLETE_ACTION_OWNED_GAUGE_FIXED_BULK_LINEARIZED_OPERATOR_ON_A_STATIONARY_BRANCH__PROVE_CLOSED_DMAX_DMIN_GRADED_TRACE_EXACT_SEQUENCE_ON_THE_RELATIVE_EDGE_BITORSOR_OR_KILL__THEN_COUPLE_BULK_BV_TO_BOUNDARY_BFV__KEEP_PHYSICAL_HORN_OPEN"
+}

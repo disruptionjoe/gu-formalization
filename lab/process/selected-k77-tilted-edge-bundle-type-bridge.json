@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "status": "TILTED_AFFINE_COCYCLE_EXACT__V70_EDGE_TYPE_MISMATCH__BRIDGE_OPEN",
+  "created": "2026-08-08",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE-CONFIRMS__TILTED_AFFINE_ONEFORM_COCYCLE__SOURCE-SILENT__BOUNDARY_ZEROFORM_EDGE_BRIDGE",
+  "layer0": {
+    "boundary_edge_frame": "GROUP_VALUED_ZEROFORM_WITH_SHIFT_XI",
+    "tilted_affine_field": "AD_VALUED_ONEFORM_WITH_SHIFT_D_A0_XI",
+    "coordinate_cocycle": "SEPARATE_FROM_PRESYMPLECTIC_DESCENT",
+    "local_quotient": "V070_FINITE_CONTACT_REDUCTION",
+    "global_bfv_phase_space": "NOT_CONSTRUCTED"
+  },
+  "preregistered_endings": {
+    "TILTED_AFFINE_COCYCLE_EXACT__V70_EDGE_TYPE_MISMATCH__BRIDGE_OPEN": "FIRED",
+    "FULL_V70_EDGE_GLOBALIZES_UNDER_TAU": "DID_NOT_FIRE",
+    "TAU_COCYCLE_FAILS": "DID_NOT_FIRE",
+    "SOURCE_SELECTS_GROUP_VALUED_EDGE": "DID_NOT_FIRE"
+  },
+  "exact_result": {
+    "transition_group": "GL2_Q_NONCOMMUTING_FIXTURE",
+    "reference_connection_fixture": "A0_EQUALS_ZERO",
+    "tilted_maurer_cartan_cocycle": "EXACT",
+    "affine_oneform_two_step_equals_direct": true,
+    "group_valued_edge_two_step_equals_direct": true,
+    "constant_xi_affine_shift": "ZERO",
+    "constant_xi_edge_shift": "NONZERO",
+    "direct_identity_bridge": "KILLED",
+    "zero_order_glv_vstar_to_scalar_constraint_rank": 2,
+    "zero_order_glv_vstar_to_scalar_nullity": 0,
+    "independent_sage_qq_replay": "PASS"
+  },
+  "construction_disposition": {
+    "tilted_affine_cocycle": "EXACT_FINITE_FIXTURE",
+    "group_valued_edge_cocycle": "EXACT_FINITE_FIXTURE",
+    "direct_zeroform_oneform_identification": "KILLED",
+    "group_valued_edge_bundle_with_dressed_presymplectic_form": "OPEN",
+    "typed_bridge_to_tau_a0_affine_field": "OPEN",
+    "global_characteristic_quotient": "OPEN",
+    "physical_bfv_phase_space": "OPEN",
+    "polarization_and_common_domain": "OPEN"
+  },
+  "constraint_accounting": {
+    "new_bulk_fields": 0,
+    "new_boundary_coordinate_dimension": 0,
+    "new_continuous_coefficients": 0,
+    "new_selectors": 0,
+    "new_scoped_quotients": 0,
+    "existing_scoped_quotients": 5
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "program_fences": {
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane": "NOT_PROMOTED",
+    "claim_status_change": "NONE",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "CONSTRUCT_GROUP_VALUED_BOUNDARY_EDGE_FRAME_AND_DRESSED_PRESYMPLECTIC_FORM__THEN_RELATE_TO_TAU_A0_BY_OWNED_DIFFERENTIAL_SOLDERING_OR_DOMAIN_MAP"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "SOURCE_SHAPED_SCALAR_JET_BRANCH_EXACT__ZERO_LOCAL_FREEDOM__GLOBAL_REALISATION_OPEN",
+  "ledger_version": "0.108",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_DYNAMIC_DARK_ENERGY_USES_THE_EXISTING_EQUIVARIANT_CONNECTION_DISTORTION_CARRIER__SOURCE_SILENT_SCALAR_JET_BRANCH_AND_GLOBAL_REALISATION",
+  "layer0": {
+    "dynamic_vev_carrier": "SAME_SOURCE_NATIVE_CONNECTION_DISTORTION_CARRIER_AS_T_OMEGA",
+    "display_identity": "GLOBAL_COEFFICIENTWISE_2021_TO_2025_MAP_OPEN",
+    "curvature_cell": "FIRST_JET_COORDINATE_OF_F_B_NOT_INDEPENDENT_FIELD",
+    "trace_closure": "GIMMEL_VOLUME_COVECTOR_NOT_OBSERVED_EINSTEIN_EQUATION",
+    "bianchi": "LOCAL_ALGEBRAIC_NECESSARY_CONDITION_NOT_GLOBAL_REALISATION"
+  },
+  "exact_result": {
+    "branch": {
+      "B_star": "(1/208)Phi1",
+      "T_star": "-(1/104)Phi1",
+      "r_star": "1/129792",
+      "nonzero_T_horn_unique": true
+    },
+    "curvature_cell": {
+      "cell": "r(Phi1 wedge Phi1)",
+      "shiab_coefficient": 312,
+      "action_pairing_coefficient": 4368,
+      "local_algebraic_bianchi": "PASS"
+    },
+    "constraints": {
+      "field_values": 3,
+      "independent_equations": 3,
+      "jacobian_rank": 3,
+      "jacobian_determinant": -624,
+      "local_freedom": 0,
+      "new_action_coefficients": 0
+    },
+    "action": {
+      "noncurvature_value": "7/21632",
+      "derivative_curvature_value": "-7/21632",
+      "total_value": "0"
+    },
+    "finite_euler": {
+      "B_zero_directions": 1470,
+      "T_zero_directions": 1470,
+      "raw_residual_zero": true,
+      "metric_volume_covector_zero_directions": 10
+    }
+  },
+  "controls": {
+    "primary": "43/43 PASS",
+    "independent_sage": "16/16 PASS",
+    "r_zero_predecessor_noncritical": "FIRED",
+    "T_zero_family_not_vev": "FIRED",
+    "nontrivial_cancellation": "FIRED",
+    "global_realisation_not_promoted": true,
+    "P1_P2_P3_unused": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 4
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_PARENT_USED",
+    "two_U32_32_halves": "RETAINED_COMPARATOR",
+    "full_U64_64": "RETAINED_COMPARATOR",
+    "collapsed": false
+  },
+  "next_gate": "CONSTRUCT_FULL_DERIVATIVE_B_EULER_AND_PATCHWISE_Y14_CONNECTION_REALISING_SCALAR_CURVATURE_JET__TEST_DIFFERENTIAL_BIANCHI_ATLAS_AND_OBSERVATION_DESCENT__THEN_SELECT_321_VS1571_TANGENT_AND_RESUME_HESSIAN_BV"
+}

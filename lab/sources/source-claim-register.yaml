@@ -1,0 +1,2881 @@
+register:
+  title: GU source-claim adherence register
+  schema_version: '1.0'
+  created: '2026-08-11'
+  ratified: Joe direct chat 2026-08-11 (kills name their target claim; register is the single claim-truth
+    surface)
+  editions:
+    draft-2021: April 1 2021 Authors Working Draft v1.0, sha256:3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4
+    spoken: dated in-repo transcripts (toe-2025, ucsd-seminar-2025, portal-2020, iceberg-curt expositor,
+      keating-record)
+  rules:
+  - Claim rows are edition-pinned and stable; weakening an ASSERTS row requires a new source edition or
+    an adjudication artifact, never silent reinterpretation (council Seat 6).
+  - Adherence blocks are dated and revision-pinned; they may go stale without invalidating claim rows
+    (council Seat 9/11).
+  - core partitions claims hard-core / auxiliary / disavowed-by-source; kills adjudicate against this
+    partition (council Seat 1).
+  - 'Enforcement: process_gates/kill_target_claim_audit.py; escape hatch NONE-NOT-A-KILL is counted every
+    run.'
+  - 'Verdict doctrine (ratified 2026-08-12): a critique aimed at an unclaimed target FAILS as a
+    critique regardless of internal validity; two-component verdict form, failure first — read
+    explorations/claim-indexed-verdict-doctrine-2026-08-12.md before any Nguyen/chirality/generations verdict.'
+  - 'Relay rule (v1.1, ratified Joe direct chat 2026-08-12): any statement about a registered claim,
+    in any summary, relay, or return text, carries its SC- IDs inline and preserves the source
+    sentence polarity verbatim; frame regression under compression is the measured failure mode.'
+  - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
+    target claim.'
+  adjudication_headline: 'ADHERED 82 / PARTIAL 19 / UNTYPED 9 / IGNORED 0 / CONTRADICTED 0; core: hard-core
+    48 / auxiliary 51 / disavowed-by-source 11 (2026-08-12 portfolio correction; no source claim proven)'
+claims:
+- id: SC-GEO-01
+  polarity: ASSERTS
+  claim: The draft contends that space-time is not fundamental and should be given up from the outset
+    in favor of pairs of spaces linked by maps.
+  verbatim: it is a contention of the author that Space-Time itself should be sacrificed from the outset
+    as being fundamental
+  locus:
+    source: draft-2021
+    page: 16
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Sect. 3 opening. Counterpart obligation at p.55 sect. 12.2: GU ''must recover this established
+    structure as an approximation within the theory.'''
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:27
+    - lab/process/layer0-fork-registry.yaml:404-418
+    - lab/process/agent-context-pack.md:1548-1549
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Flip if any surface treats X-spacetime as fundamental substrate; the p.55 recovery obligation
+      is live (Einstein recovery alone does not recover the dynamic cosmological sector).
+- id: SC-GEO-02
+  polarity: ASSERTS
+  claim: An Observerse is defined as a triple (X^n, Y^d, {iota}) of local Riemannian embeddings of open
+    sets of X into a higher-dimensional Y, inducing a pullback metric and a normal bundle.
+  verbatim: 'An Observerse is defined to be a triple (X^n, Y^d, {iota}) such that iota : U^n_x --> Y^d_g
+    are maps for local open sets U^n_x in X^n about some points x in X^n constituting local Riemannian
+    embeddings for neighborhoods U^n into a Riemannian manifold Y^d of equal or higher dimension'
+  locus:
+    source: draft-2021
+    page: 16
+    eq: (3.1)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Definition 3.1; three named cases TRIVIAL / EINSTEINIAN / AMBIENT (pp.16-17). Prior in-repo
+    locus (paraphrase grade): explorations/hourly-cycles/hourly-20260625-0301-cycle2-manuscript-qft-finite-extraction-receipt.md:117.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:117
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:27-28
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Observerse triple carried as PC2/six-axis Target 1; flip if the Met(X) fibre typing drifts.
+- id: SC-GEO-03
+  polarity: ASSERTS
+  claim: The work is set in the Einsteinian Observerse, Y = Met(X) the bundle of pointwise metrics, on
+    which Y usually has no pre-existing metric until a section induces one.
+  verbatim: In this work we will consider the strongest assumption beyond those of Einstein by working
+    within the Einsteinian Observerse to search for new physics. Note that in this case, Y doesn't usually
+    have a pre-existing metric.
+  locus:
+    source: draft-2021
+    page: 17
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: Dimension is printed at p.64 item i as Y^{(n^2+3n)/2}(X) = Met(X); Y^14 printed at p.55; the
+    fiber is 10-dimensional (p.28).
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:27
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:21
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Y=Met(X) with no pre-existing metric is the standing substrate (two-metrics row); flip if a
+      Y-metric is ever assumed pre-section.
+- id: SC-GEO-04
+  polarity: ASSERTS
+  claim: The draft contends physics may be happening mostly on Y and is misread as native to X via metric
+    pullback, with only one independent field truly native to X.
+  verbatim: It is our contention in this investigation that physics may actually be happening mostly on
+    Y^d but that it is widely interpreted by physicists via metric pull-back as if it were occurring natively
+    on X^n leading to confusion.
+  locus:
+    source: draft-2021
+    page: 17
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Definition 3.2 defines NATIVE/INVASIVE on the same page; continuation prints ''only be one independent
+    field that is truly native to X^d'' [sic X^d]. Prior locus: qft-finite receipt :118.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:404-418
+    - RESEARCH-STATUS.md:30-34
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Physics-on-Y vs pullback-misreading is the open SECTION-VS-OBSERVERSE fork; v0.184's pullback-annihilation
+      result works exactly this claim.
+- id: SC-GEO-05
+  polarity: ASSERTS
+  claim: Two chimeric metric bundles C = V (+) H* and C* = V* (+) H are defined and are only semi-canonically
+    equivalent to the tangent and cotangent bundles.
+  verbatim: C(Y) = C = V (+) H*   C*(Y) = C* = V* (+) H
+  locus:
+    source: draft-2021
+    page: 19
+    eq: (3.10)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Same page: ''may be thought of as "semi-canonically" equivalent to the Tangent and Co-Tangent
+    bundles'' (3.11). Previously carried in-repo only at reconstruction grade (lab/sources/gu-paper-reference-surfaces.md:44-49;
+    lab/sources/claim-ledger.md:17).'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:21
+    - lab/process/agent-context-pack.md:952-954
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Chimeric bundle is the settled K77 object (v0.73 group owner); pre-run custody was reconstruction-grade
+      only - now quote-verified by the claims ledger.
+- id: SC-GEO-06
+  polarity: ASSERTS
+  claim: Chimeric spinors are defined via the spinor functor's exponential property without choosing a
+    metric on Y.
+  verbatim: which gives spinors defined for the metric endowed C = C* without making a choice of metric
+    on Y.
+  locus:
+    source: draft-2021
+    page: 20
+    eq: (3.13)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Exponential property S/(Wa (+) Wb) ~= S/(Wa) (x) S/(Wb) at (3.12). Stated goal on p.16: ''One
+    of the goals of GU is to ensure that the bundles for spinors and Rarita-Schwinger matter do not vanish
+    in the absence of a metric.'''
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:21
+    - lab/process/agent-context-pack.md:1452-1454
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Spinors-without-metric goal carried into the global labelled Clifford frame construction; flip
+      if a metric choice sneaks into the frame build.
+- id: SC-GEO-07
+  polarity: ASSERTS
+  claim: The Zorro construction runs a metric choice on X into a metric and connection on Y, identifying
+    topological with metric spinors at each observation.
+  verbatim: each observation of Y via a choice of metric gimel on X actually induces a metric and connection
+    on Y identifying the Topological spinors with the metric spinors.
+  locus:
+    source: draft-2021
+    page: 21
+    eq: (3.17)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'p.22 adds the restricted-metric claim: ''most possible metric on Y are never in play'' [sic];
+    ''the issue of what upstairs gravity waves are possible doesn''t arise as the space of relevant fields
+    is downstairs on X.'''
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:2464
+    - NEXT-STEPS.md:2563
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Zorro is load-bearing in the exact nonlinear observation chain (nonlinear Zorro metric blocks);
+      nothing to repair.
+- id: SC-SIG-01
+  polarity: ASSERTS
+  claim: The fiber Frobenius metric signature is fixed at (4,6) for n=4 with the (1,3) base signature
+    treated as anthropic, and the trace-sign choice behind (4,6) is flagged as non-forced.
+  verbatim: (i*n - i^2 + 1, (n^2 + 2i^2 - 2i*n + n - 2)/2) = (4, 6)  for i = 1, n = 4
+  locus:
+    source: draft-2021
+    page: 19
+    eq: (3.9)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Footnote 2: ''NB: This choice is one of the few non-forced choices allowed in the strong form
+    of GU.'' Sect. 12.2 (p.55) further asserts all signatures are in some sense ''physically'' real with
+    X^{1,3}/X^{3,1} the only provably anthropic ones.'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:27
+    - lab/process/layer0-fork-registry.yaml:95-104
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Fibre (4,6)=repo (6,4) mirror-verified and settled; but p.19 fn 2 (trace-sign 'non-forced')
+      and the anthropic base clause are typed nowhere - fn 2 belongs in the DECLARATION-floor inventory.
+- id: SC-SIG-02
+  polarity: DISAVOWS
+  claim: The draft disavows the (3,7) fiber option as incompatible with the observed Standard Model.
+  verbatim: we believe that (3,7) will not be compatible with the observed forces and symmetries of the
+    Standard Model.
+  locus:
+    source: draft-2021
+    page: 22
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Second stated reason for (4,6): keeping ''the door open for some models we have been playing
+    with favoring reduction to (2,3)_C.'''
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:95-104
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:27
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: No surface builds on the source-(3,7) fibre; raw (7,3) is named only as the pre-trace-reversal
+      form. The SM-incompatibility ground is uncarried but the disavowal is respected in construction.
+- id: SC-SIG-03
+  polarity: UNCERTAIN
+  claim: The draft states it does not know how to choose between the (5,9) and (7,7) total signatures
+    for Y.
+  verbatim: We do not know how to choose between these however as this is one of the few places in the
+    model where choices are made that are not yet forced.
+  locus:
+    source: draft-2021
+    page: 22
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Options printed just before: (4,10)/(8,6) discarded with (7,3)/(3,7); (5,9) or (7,7) live with
+    (4,6)/(6,4).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:71-88
+    - lab/process/agent-context-pack.md:872-880
+    - NEXT-STEPS.md:162-175
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The draft's not-yet-forced posture IS the open SIGNATURE-AMBIENT fork with K95 kept as comparator;
+      the sentence itself is quoted nowhere - citing it would cheaply harden the open-fork rationale.
+- id: SC-SIG-04
+  polarity: ASSERTS
+  claim: The draft assumes, rather than derives, a split (7,7) metric on Y, preferring it to (9,5) on
+    balance and technique grounds.
+  verbatim: To begin with, we will assume that the metric on Y is split with signature (7,7) (rather than
+    (9,5) which can be worked out by the interested reader) as it is more balanced and appears to lend
+    itself better to both some complex and Clifford Algebra techniques.
+  locus:
+    source: draft-2021
+    page: 22
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Repo Layer-0 fence: the source explicitly selects K77 while its displayed block arithmetic in
+    the mirrored convention derives K95; no additional bilinear deriving K77 is published (lab/sources/signature-rationale-build-branch-source-reinspection-2026-08-08.md:10-56).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:210-225
+    - lab/sources/signature-rationale-build-branch-source-reinspection-2026-08-08.md:10-27
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Assumed-not-derived is typed exactly: ''asserts/selects K77 but does not derive K77 from its
+      displayed block arithmetic''; the K95 pressure on REAL-CLIFFORD-FORM is recorded, deliberately not
+      acted on.'
+- id: SC-GRP-01
+  polarity: ASSERTS
+  claim: In (7,7) signature the Clifford algebra is real 128x128 matrices and the spin representations
+    sit in the ladder Spin(7,7) -> SO(64,64) -> U(64,64), subsumed by Spin(14,C) -> U(128,C).
+  verbatim: Spin(7, 7) --> SO(64, 64) --> U(64, 64)
+  locus:
+    source: draft-2021
+    page: 22
+    eq: (3.19)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Cl_{7,7} ~= R(128) at (3.18); rho_Spin: Spin(14,C) -> U(128,C) at (3.20); restated on p.42 eqs
+    (8.3)-(8.6) with the so(64,64) and u(64,64)/so(64,64) exterior-degree decompositions (explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-ig-shiab-selector-transcription.md:104-107).
+    Footnote 3 (p.23) disclaims: the u(64,64) decomposition ''was taken from a decades old file and should
+    be checked''.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:202-215
+    - explorations/nguyen-pincer-real-form-design-packet-2026-08-11.md:20
+    - explorations/nguyen-pincer-real-form-design-packet-2026-08-11.md:128
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Cl(7,7)=M128(R) settled; the ladder is the packet's group-rung table; fn-3's check-me caveat
+      is honored by packet step C1 (exact gamma construction).
+- id: SC-GRP-02
+  polarity: ASSERTS
+  claim: The main principal bundle is P_H built from the double cover of the chimeric frame bundle via
+    the Dirac representation with H = U(64,64), and the construction is declared purely topological.
+  verbatim: while it looks geometric in nature due to the presence of Spin groups and representations,
+    it is in fact purely Topological as no metric has been chosen.
+  locus:
+    source: draft-2021
+    page: 25
+    eq: (3.32)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: '(3.32) P_H = P_Fr~(C^{7,7}) x_{rho_D} H, p.24. Draft''s own homonym warning, footnote 4: the
+    symbol H denotes both a group and a horizontal vector space, ''unfortunate and may be rectified in
+    future drafts.'''
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:536-537
+    - lab/process/agent-context-pack.md:693-697
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Source P_H remains full U(64,64) (v0.130) and P_H|_B topology is worked bitorsor-relatively
+      (v0.115); the purely-topological character is preserved by the no-metric frame chain.
+- id: SC-GRP-03
+  polarity: ASSERTS
+  claim: The Standard Model group is claimed to lie in the intersection of the maximal-compact (Pati-Salam)
+    and complex (U(3,2)) reductions of Spin(6,4), up to a reductive U(1) factor.
+  verbatim: the Standard Model group is found within the intersection of the simultaneous reductions up
+    to a reductive factor of U(1) if the special unitary group SU(3,2) is not privileged over the full
+    unitary group U(3,2) to begin with.
+  locus:
+    source: draft-2021
+    page: 29
+    eq: (4.6)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: (4.6) prints the chain Spin(1,3) x Spin(6,3) x Spin(0,1) -> Spin(1,3) x Spin(6,4) -> Spin(7,7)
+    with braces Observerse/Frobenius/Chimeric and maximal compact ~= Pati-Salam via low-dimensional isomorphism.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:5106
+    - NEXT-STEPS.md:5539
+    - DERIVATION-PROGRESS.md:311
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Max-compact-of-su(3,2)=SM computed and reproducible; the non-compact->compact reduction is typed
+      REDUCTION_EXTERNAL - the claim is carried with its datum cost named.
+- id: SC-GRP-04
+  polarity: ASSERTS
+  claim: A phantom 10-dimensional representation common to Georgi-Glashow and Pati-Salam is said to strongly
+    suggest a fundamental explanation, tied by hope to the 10 equations of General Relativity.
+  verbatim: the appearance of a phantom 10-dimensional representation is common to both the Georgi-Glashow
+    and Pati-Salam theories and strongly suggests looking for a fundamental explanation.
+  locus:
+    source: draft-2021
+    page: 30
+    eq: (4.9)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: p.27 states the hope that the '10' 'may be tied to the 10 coupled equations of General Relativity';
+    p.30 credits Pati-Salam with not leading 'immediately to proton decay like the original SU(5) model'.
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - DERIVATION-PROGRESS.md:494
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The phantom-10 / tied-to-GR's-10-equations hope appears on no repo surface; nearest object (IC1
+      soldering 10-dim rep) is the metric fibre 10, a different 10. No custody either.
+- id: SC-GRP-05
+  polarity: ASSERTS
+  claim: The Inhomogeneous Gauge Group is defined as the semi-direct product of the gauge group with ad-valued
+    one-forms, in analogy to the Poincare group.
+  verbatim: The Inhomogeneous Gauge Group G is defined (in analogy to the Poincare group) to be the semi-direct
+    product G = H |x N
+  locus:
+    source: draft-2021
+    page: 33
+    eq: (5.8)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Definition 5.1; group rule (5.9); H = Gamma^inf(P_H x_Ad H), A = Conn(P_H), N = Omega^1(Y, ad(P_H))
+    at (5.3)-(5.5); SR/QFT-to-GU analogy table (12.11) p.60. In-repo reconstruction-grade table: lab/sources/gu-paper-reference-surfaces.md:15-31.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:6156
+    - canon/dark-energy-theta-divergence-free.md:21
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: IG = G |x Omega^1(ad P) with tau+ and double coset is standing machinery across the campaign;
+      the H-homonym (group vs horizontal space) is handled by the repo's own Layer-0 discipline.
+- id: SC-GRP-06
+  polarity: ASSERTS
+  claim: GU is asserted to have no internal symmetry groups.
+  verbatim: on Dirac spinors with structure bundle P_H for H a real form of U, with no internal symmetry
+    groups.
+  locus:
+    source: draft-2021
+    page: 64
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Synopsis item ii. Also p.34: ''In a theory such as GU, there is no internal symmetry.'' Grounds
+    SC-FER-07''s reading of internal quantum numbers as normal-bundle spinor data.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/no-go-class-relative-map.md:387
+    - RESEARCH-STATUS.md:2007
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: No-internal-symmetry is quoted and load-bearing (it is the VZ-evasion premise GU-VZ); flip if
+      any construction quietly reintroduces an internal symmetry group.
+- id: SC-OP-01
+  polarity: ASSERTS
+  claim: Shiab operators are gauge-covariant contraction operators built by conjugating a family of invariant
+    forms Phi_i by the gauge group element inside the contraction.
+  verbatim: By incorporating the gauge group into the contraction operator, the gauge group rotates only
+    the bundle valued portion of a collection contracting forms {Phi_i}
+  locus:
+    source: draft-2021
+    page: 41
+    eq: (8.1)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: '''Ship in a Bottle'' construction, sect. 8. Definition 8.1 (p.42, eq (8.7)): {Phi_i}_{i=0..14}
+    a basis of invariant subspaces of [Lambda^i(R^{7,7}) (x) u(64,64)]^{Spin(7,7)} (hourly cycle3 ig-shiab
+    transcription :108).'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - CANON.md:106
+    - lab/process/agent-context-pack.md:996-999
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Shiab existence RESOLVED (existence only) and the selected-Shiab solve is rebuilt on settled
+      K77; caveat: the existence canon file is Cl(9,5)-setting and sits in the needs_recheck cone (registry:282).'
+- id: SC-OP-02
+  polarity: UNCERTAIN
+  claim: The specific Shiab operator historically selected by highest-weight and Bianchi-identity methods
+    is declared lost and not currently reconstructible by the author.
+  verbatim: Unfortunately, the author is no longer conversant in that language and has been unable to
+    locate the notes from decades ago that originally picked out the operator of choice to play the role
+    of the Swerve here (o).
+  locus:
+    source: draft-2021
+    page: 42
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: Sect. 8.2; repeated at p.43 footnote 10 ('settled on (but cannot yet now locate)'). Repo treats
+    the selector as scoped-missing (hourly cycle3 ig-shiab transcription :109,113; weinstein-gu-primary-source-pack-2026-07-30.md:316).
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - CANON.md:106
+    - lab/process/improvement-register-2026-08-03.md:1882-1884
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: SHIAB-01 keeps the source-forced selector explicitly OPEN and the 'many bespoke Shiabs' basis
+      open - the lost-selector admission is respected, never papered over.
+- id: SC-OP-03
+  polarity: ASSERTS
+  claim: The displayed Shiab candidate (9.2)-(9.3) annihilates the Weyl curvature while preserving Ricci-
+    and scalar-like components, and is presented as one choice among other possibilities.
+  verbatim: Here, as in Einstein's case, the Weyl curvature tensor is annihilated by the contraction operator
+    above so the operator preserves and mixes only the analogues of the Ricci and Scalar curvature components.
+  locus:
+    source: draft-2021
+    page: 43
+    eq: (9.3)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: '(9.2) types (o)_eps: Omega^2(Y^{7,7},ad) -> Omega^{d-1}(Y^{7,7},ad); same page: ''there are
+    other possibilities to explore for the choice of the Shiab operator''. Gauge-covariant Weyl-killing
+    restated after (12.6), p.57. Normalized in-repo transcription: hourly cycle3 ig-shiab :111-112,120.'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/agent-context-pack.md:996-999
+    - lab/process/improvement-register-2026-08-03.md:1878-1880
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Displayed candidate is the campaign's selected Shiab and rivals stay open, but its claimed Weyl-annihilation/Ricci-preservation
+      property is verified nowhere; the adjacent pure-trace family provably erases traceless Ricci - a
+      bounded K77 check would close this.
+- id: SC-OP-04
+  polarity: ASSERTS
+  claim: The four-field Dirac-like matrix operator (9.16), on four distinct classical fields nu, nu-bar,
+    zeta, zeta-bar, is displayed at candidate strength as something one can begin with.
+  verbatim: 'For nu, nu-bar in Omega^0(Y,S/) and zeta, zeta-bar in Omega^1(Y,S/) we can begin with operators
+    like:'
+  locus:
+    source: draft-2021
+    page: 46
+    eq: (9.16)
+    extraction: lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md:33
+  grade: extraction-verified
+  notes: The s9 extraction fixes all sixteen cells, barred row order, unbarred column order, the rho(eps)
+    wrapping, and the negative formal-adjoint-shaped lower-left quadrant (s9:43-104). It certifies no
+    global adjoint, descent, or domain.
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - RESEARCH-STATUS.md:228
+    - RESEARCH-STATUS.md:130-142
+    - RESEARCH-STATUS.md:44
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Four-field grammar SOURCE-CONFIRMED (nu, nu-bar, zeta, zeta-bar independent) and the sixteen-cell
+      structure is the live lower-order gate; candidate strength preserved (no uniqueness assumed).
+- id: SC-OP-05
+  polarity: UNCERTAIN
+  claim: The draft admits rival versions of the fermion operator with a non-trivial lower-right (southeast)
+    quadrant, without selecting one.
+  verbatim: noting that other versions of the theory exist including one with a non-trivial map in the
+    lower right quadrant of the operator.
+  locus:
+    source: draft-2021
+    page: 46
+    eq: (9.16)
+    extraction: lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md:116
+  grade: extraction-verified
+  notes: Displayed 2021 candidate keeps SE = 0; the 2025 TOE conversation reiterates the zero prospectively
+    as a seesaw shape; neither source proves uniqueness (s9:114-127).
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - RESEARCH-STATUS.md:160-162
+    - lab/process/agent-context-pack.md:307
+    - NEXT-STEPS.md:3306
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The source-admitted nonzero-southeast rival is not only typed - it is the current operator-completion
+      route (v0.172-173); southeast-zero correctly never treated as forced.
+- id: SC-ACT-01
+  polarity: ASSERTS
+  claim: The purely bosonic first-order action I^B_1 on G x MET(X^{1,3}) pairs the augmented torsion against
+    the Shiab-contracted curvature with Chern-Simons-like completion plus a kappa_1 torsion term.
+  verbatim: I^B_1(omega_Y, gimel_X) = I^B_1((eps_Y, varpi_Y), gimel_X) = < T_omega , * ( (o)_omega ( F_{B_omega}
+    + 1/2 d_{B_omega}T_omega + 1/3[T_omega,T_omega]) + kappa_1/2 T_omega ) >_{g_gimel}
+  locus:
+    source: draft-2021
+    page: 44
+    eq: (9.4)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Brace labels on (9.4): Shifted Torsion / Hodge Star / Einstein Ricci Shiab / Metric Curvature
+    / C-S Like Terms / Zorro Metric. T_omega = varpi - eps^{-1}d_0 eps in Omega^1(Y,ad). EL structure
+    (9.5)-(9.6) displays Xi = D_omega Upsilon_omega redundancy. Already absorbed in normalized form: weinstein-gu-primary-source-pack-2026-07-30.md:79-121
+    (WGS-01), :216-234 (WGS-04).'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:2257-2267
+    - lab/process/agent-context-pack.md:1357-1364
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The 2021 I^B_1 was located by repository archaeology; its 1/2,1/3 packet verified as connection-path-average
+      curvature; two-layer fence keeps I1B/Upsilon_B/I2B distinct with source-confirmed typings.
+- id: SC-ACT-02
+  polarity: ASSERTS
+  claim: The first-order field equation is stated as Swervature equals Displasion, with an annotated recovery
+    sketch of Einstein-like terms placing Lambda g_munu on the displaced-torsion side.
+  verbatim: Swerved Curvature = Swervature = S_omega
+  locus:
+    source: draft-2021
+    page: 45
+    eq: (9.8)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: '(9.8): (o)F_omega = -* kappa_1 T_omega with labels Swervature / ''Displaced Torsion, Displasion=T_omega'';
+    (9.9) Upsilon = S_omega - T_omega = 0; (9.10) underbraces R_munu - s/2 g_munu beneath S_omega and
+    Lambda g_munu beneath T_omega, with a wider T_munu underbrace beneath (read visually). COS cross-reference:
+    the draft''s own location of Lambda.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:2267
+    - canon/dark-energy-theta-divergence-free.md:21
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Euler shell typed verbatim as 'swervature equals displasion'; the (9.10) Lambda-on-the-displasion-side
+      annotation survives as the theta replacement object. Flip if a surface relocates Lambda to the curvature
+      side without artifact.
+- id: SC-ACT-03
+  polarity: ASSERTS
+  claim: GU claims the four basic equations have resisted unification because they form a Dirac pair,
+    with Einstein and Dirac as first-order square roots of the Yang-Mills and Klein-Gordon stratum.
+  verbatim: One of the Claims of Geometric Unity is that we have been unsuccessful in Unifying the four
+    basic equations for Gravity, Non-Gravitational force, Matter and Higgs phenomena because they belong
+    to a Dirac Pair.
+  locus:
+    source: draft-2021
+    page: 45
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: Sect. 9.2 opening; (12.8)-(12.9) tables assign orders; (12.10) prints Einstein-Dirac = sqrt(Yang-Mills-Higgs-Klein-Gordon),
+    self-labeled 'an extreme abuse of notation'; (12.2)-(12.3) give the reduced-EL replacement pair.
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1357-1364
+    - NEXT-STEPS.md:3306-3319
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The square-root architecture (first-order Einstein-Dirac layer + separate residual-norm-square
+      layer) is carried and staged; the 'Dirac pair' historical-diagnosis rhetoric itself is untyped -
+      harmless.
+- id: SC-ACT-04
+  polarity: ASSERTS
+  claim: A second-order Lagrangian I^B_2 = ||Upsilon^B_omega||^2 yields a Yang-Mills-Maxwell-like equation
+    with bosonic source, more efficiently written as D*_omega Upsilon_omega = 0.
+  verbatim: D*_omega F_{A_omega} = J^B_omega
+  locus:
+    source: draft-2021
+    page: 45
+    eq: (9.14)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: (9.14) is underbraced 'Yang-Mills-Maxwell like equation with Bosonic source.'; (9.11) defines
+    I^B_2; (9.15) D*_omega Upsilon_omega = 0 'which is more natural within Geometric Unity.'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1357-1364
+    - lab/process/agent-context-pack.md:793-803
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: I2B=||Upsilon||^2 typed distinct and source-confirmed; the equation-dual/Green machinery (v0.96
+      on) is the D*Upsilon=0 form worked natively.
+- id: SC-ACT-05
+  polarity: ASSERTS
+  claim: Bosonic and fermionic variations are packaged into one total Euler residual with two displayed
+    alternatives, and no separately inserted matter-current bridge is displayed.
+  verbatim: Upsilon_omega = Upsilon^B_omega + Upsilon^F_omega = 0 or D_omega* Upsilon^B_omega = Upsilon^F_omega
+  locus:
+    source: draft-2021
+    page: 46
+    eq: (9.20)
+    extraction: lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md:156
+  grade: extraction-verified
+  notes: (9.18)-(9.19) type Upsilon^F in Omega^{d-1}(Y,S/) (+) Omega^d(Y,S/) (+) Omega^{d-1}(Y,ad). WGS-02
+    fences the no-bridge reading as architecture inference, not proof (weinstein-gu-primary-source-pack-2026-07-30.md:148-176).
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:3306
+    - RESEARCH-STATUS.md:183
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Both displayed (9.20) architectures are realized and compared; the repo's minimal candidate
+      Upsilon_F_(9.18)+J_barnu_nu is flagged no-new-datum. WGS-02's no-bridge fence (custody) is the scope
+      guard to carry if this is ever cited as proof.
+- id: SC-ACT-06
+  polarity: ASSERTS
+  claim: The first-order theory is claimed to have a rich moduli of classical solutions with an elliptic
+    deformation complex in Euclidean signature once redundant Euler-Lagrange equations are discarded.
+  verbatim: x) The first order theory has a rich moduli of classical solutions and Upsilon = 0 carries
+    an elliptic deformation complex in Euclidean signature once the redundant Euler-Lagrange equations
+    are discarded.
+  locus:
+    source: draft-2021
+    page: 65
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Footnote 14 adds a priority claim: ''The so-called Seiberg-Witten equations were first found
+    this way around 1987 as the simplest toy model to proxy this moduli problem.'' Recorded, not adjudicated.
+    The sect. 10 diagram itself carries the Caveat Emptor warning (SC-META-04).'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/agent-context-pack.md:1019
+    - CANON.md:191
+    - RESEARCH-STATUS.md:232-244
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Redundant-EL discard is proved (printed Xi redundant, v0.63) and the sect.10 Caveat Emptor is
+      load-bearing in the count verdict; but Euclidean ellipticity / rich moduli is untested (K77 Lorentzian
+      work finds Jordan defects instead) and the Seiberg-Witten priority footnote is uncarried.
+- id: SC-FER-01
+  polarity: ASSERTS
+  claim: All Y-native content is one unified field omega = (beta, chi), indecomposable in an algebraic
+    sense, comprising eps, varpi, nu, zeta with naive spins 0, 1, 1/2, and (1/2, 3/2).
+  verbatim: There is a single unified field omega native to Y. Here our interpretation of Unified field
+    is interpreted to mean unified in an algebraic sense of indecomposible.
+  locus:
+    source: draft-2021
+    page: 31
+    eq: (5.1)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: '''indecomposible'' [sic]. (5.1) braces label (eps, varpi) Bosons beta and (nu, zeta) Fermions
+    chi with naive spins printed above; only eps is nonlinear; (5.2) is the linearized Omega^{0,1}_Y x
+    {ad, S/} table. Single primary field gimel on X (sect. 5.1.1). Prior locus: qft-finite receipt :120.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - RESEARCH-STATUS.md:130-136
+    - lab/process/agent-context-pack.md:711-721
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The (eps, varpi, nu, zeta) content is exactly the campaign's field set (source-native four-independent-field
+      action; (g,varpi,epsilon) bosonic sector); indecomposability-as-claim is not separately tested -
+      no surface splits the field either.
+- id: SC-FER-02
+  polarity: UNCERTAIN
+  claim: The draft speculatively reads the fermions nu and zeta as potential square roots of the translation
+    space N, suggesting the sought superpartners may already be present.
+  verbatim: This is why we find it more appealing to see Fermionic nu and zeta as potential square roots
+    of the as-if Galilean group N = Omega^1(Y, ad).
+  locus:
+    source: draft-2021
+    page: 34
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'p.60: ''the supercharges may already be here in the form of the nu and zeta fields as this would
+    not be space-time supersymmetry''; p.64 item iv. Footnote 12 (p.60): the author is ''uncomfortable
+    saying much more about it.'''
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:22
+    - RESEARCH-STATUS.md:2075
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Square-roots-of-N is the settled super-IG guardian row ({Q,Q}~Omega^1(ad), decisive); the author's
+      own hedge is honored - repo finds GU/IG data do not canonically determine the bracket.
+- id: SC-FER-03
+  polarity: ASSERTS
+  claim: The field chi is assigned observed three-generation fermions plus Looking-Glass, dark spinorial,
+    and Rarita-Schwinger matter, while subfields of omega are assigned CKM, Higgs-like, Yukawa, and gauge
+    functions.
+  verbatim: chi contains three generations of observed Fermions as well as Looking-Glass matter, dark
+    Spinorial Matter, Rarita-Schwinger matter and more while D subsumes the Dirac Operators, and the various
+    subfields of omega accomodate the functionings of the CKM matrix, the Higgs-Like soft mass fields,
+    the Yukawa couplings, Gauge Potentials and the like.
+  locus:
+    source: draft-2021
+    page: 46
+    eq: (9.17)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: '''accomodate'' [sic]. The s9 extraction fences these as source assignments, not derivations
+    of the corresponding observed equations (s9:129-136).'
+  core: hard-core
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:317-328
+    - lab/process/agent-context-pack.md:26-28
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Generation/cousin/Z-side content labels are typed; but the CKM/Yukawa/Higgs functional-assignment
+      list is carried only as v0.185 lower-order Higgs/Yukawa placement, and Looking-Glass/dark-spinorial
+      labels appear on no treatment surface - future kills could mis-target 'GU derives CKM' (never claimed;
+      s9 fences assignments, custody).
+- id: SC-FER-04
+  polarity: ASSERTS
+  claim: Family structure is generated by the product rule W (x) S/_W = S/_W (+) R/_W and the direct-sum
+    branching rules, including an odd re-appearance of a purely spinorial final term.
+  verbatim: breaks into a piece representing the action of gamma matrices as spinor endomorphisms and
+    a second piece giving the pure Rarita-Schwinger spin 3/2 representation corresponding to the sum of
+    the highest weights of the factors.
+  locus:
+    source: draft-2021
+    page: 50
+    eq: (11.1)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:66
+  grade: extraction-verified
+  notes: (11.2)-(11.3) at s11:73-84; the R/(U (+) V) expansion ends with 'an odd re-appearance of a final
+    term which has purely spinorial with no 3/2 spin Rarita-Schwinger component' [grammar as printed].
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - DERIVATION-PROGRESS.md:311
+    - lab/process/hinge-panel-synthesis-2026-08-03.md:76-80
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Product rule W(x)S=S(+)R is the panel's computed backbone (10x16=144+16, stranded spin-3/2 slots);
+      the odd re-appearing spinorial term is the settled imposter slot.
+- id: SC-FER-05
+  polarity: ASSERTS
+  claim: The graded fermion labels are defined by eq (11.6) as chirality-correlated 2 (x) 16 and 6 (x)
+    16 and 2 (x) 144 sums for Spin(1,3) x Spin(6,4).
+  verbatim: F+-_{1/2} = ( 2-+ (x) 16+ (+) 2+- (x) 16- )   Q+-_{3/2} = ( 6-+ (x) 16+ (+) 6+- (x) 16- )   Z+-_{1/2}
+    = ( 2-+ (x) 144+ (+) 2+- (x) 144- )
+  locus:
+    source: draft-2021
+    page: 52
+    eq: (11.6)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:133
+  grade: extraction-verified
+  notes: Followed by 'for Spin(1,3)xSpin(6,4).' Dimension arithmetic (F=64, Q=192, Z=576 per grade; 832
+    total) is the extractor's, flagged as such (s11:146-151), matching the diagram's printed 64/832 subscripts.
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/hinge-panel-synthesis-2026-08-03.md:42
+    - lab/process/layer0-fork-registry.yaml:319-322
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Eq (11.6) decoded (F/Q/Z) with the graded factor-2 typed BY THE SOURCE as the two ambient chirality
+      halves - the settlement's own basis.
+- id: SC-FER-06
+  polarity: ASSERTS
+  claim: The p.51 rolled-up fermionic complex prints 832 and 64 as dimension subscripts on single-chirality
+    brackets graded by ambient Spin(7,7) chirality, with the dashed line between Q and F.
+  verbatim: ( ( Z-_{1/2} (+) Q+_{3/2} --(+)-- F-_{1/2} )^{Spin(7,7)+}_{832-} (+) ( F-_{1/2} )^{Spin(7,7)+}_{64-}
+    )^{Omega^1(S/-, Y^14)}_{zeta-}
+  locus:
+    source: draft-2021
+    page: 51
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:115
+  grade: extraction-verified
+  notes: Structural facts limited to bracket membership, printed sub/superscripts, form degrees, dashed-line
+    position (s11:119-130). s9 records a Layer-0 collision between these ambient half-spinor field labels
+    and eq (9.16)'s derivative-cell parity under uniform conventions (s9:195-249) - recorded, not adjudicated.
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:210-215
+    - lab/sources/signature-rationale-build-branch-source-reinspection-2026-08-08.md:22-24
+    - lab/process/agent-context-pack.md:465
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The p.51 rolled-up carrier (832/64, Spin(7,7)+/-) is the settled REAL-CLIFFORD-FORM rationale;
+      the s9 half-sign/degree-duality collision is held open as a named fence (v0.139) - exactly right.
+- id: SC-FER-07
+  polarity: ASSERTS
+  claim: Observed internal quantum numbers are read as spinors of the normal bundle, with the 16_C Weyl
+    dimension count said to match what is seen repeated over three apparent low energy families.
+  verbatim: this, with a doublet of charged and uncharged leptons together with a tri-colored positively
+    charged quark and its negatively charged weak isospin doublet partners along with the anti-particles
+    of all the preceding, appears to be exactly what we see repeated over three apparent low energy families.
+  locus:
+    source: draft-2021
+    page: 27
+    eq: (4.3)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: '(4.1) braces: ''Space-Time Spinors'' (x) "''Internal'' Quantum Numbers"; (4.2) gives the power-of-2
+    ''tell tale sign''; Wilczek 1997 figure adduced. Prior locus: qft-finite receipt :119.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - DERIVATION-PROGRESS.md:934
+    - NEXT-STEPS.md:5820
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 16 Weyl fermions per generation CONFIRMED via Pati-Salam branching - the normal-bundle-spinor
+      quantum-number claim is one of the few outright confirmed matches.
+- id: SC-CHI-01
+  polarity: ASSERTS
+  claim: The draft asserts a non-chiral total theory splits at the emergent level into two chiral theories,
+    with our matter above the dashed line and other sectors currently dark.
+  verbatim: Thus we assert that a non-chiral total theory splits at the emergent level into two separate
+    chiral theories and that the one above the dashed line corresponds to matter in our world with the
+    other sectors not labeled by F to the left and above the line are currently dark to us.
+  locus:
+    source: draft-2021
+    page: 52
+    eq: (11.6)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:140
+  grade: extraction-verified
+  notes: SEED. Conditioned in the same passage on no VEV 'pulling the various sub-fields of varpi to values
+    significantly above zero', and introduced as 'The idea being explored here' - hedged strength.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:41-53
+    - NEXT-STEPS.md:10-17
+    - lab/process/agent-context-pack.md:1639-1640
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The p.52 non-chiral-split assertion is now quoted on the frontier surface with 'kills must name
+      which claim they kill'; adherence is one day old and lives in the INDEX - regresses to PARTIAL if
+      the executing wave skips the source-claim column.
+- id: SC-CHI-02
+  polarity: ASSERTS
+  claim: Sect. 12.9 presents a stylized toy in which coupled Weyl equations decouple where scalar curvature
+    is near zero, so chirality is merely effective in a fundamentally non-chiral theory.
+  verbatim: dslash_A psi_L(y) = (R(y)/4) psi_R(y)
+  locus:
+    source: draft-2021
+    page: 61
+    eq: (12.13)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Title: ''Chirality Is Merely Effective and Results From Decoupling a Fundamentally Non-Chiral
+    Theory'' (p.60). Decoupling at R(y) ~ 0 in (12.15)-(12.17); draft twice flags ''stylized''. Normalized
+    in-repo display: weinstein-gu-primary-source-pack-2026-07-30.md:244-249 (WGS-05).'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/agent-context-pack.md:1531-1533
+    - canon/escape-corners-campaign-RESULTS.md:2
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Curvature<->VEV linkage typed and tested (two-values-to-one passes, screening fails; the VEV
+      dial is named the generation mechanism), but the stylized (12.13) R~0 Weyl-decoupling toy itself
+      sits only in custody (WGS-05).
+- id: SC-CHI-03
+  polarity: ASSERTS
+  claim: Eq (12.20) brace-labels the pulled-back left ambient Weyl half Luminous Standard Model family
+    matter and the right half Dark Decoupled Looking Glass Matter, and left-handedness on Y does not survive
+    exclusively on X.
+  verbatim: Left handed spinors on Y do not remain exclusively Left handed on X.
+  locus:
+    source: draft-2021
+    page: 61
+    eq: (12.20)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:262
+  grade: extraction-verified
+  notes: 'SEED. Overbrace ''Luminous Light Standard Model Family Matter'' on gimel*(S/^64_L(TY)); underbrace
+    ''Dark Decoupled Looking Glass Matter'' on gimel*(S/^64_R(TY)) (s11:255-256). Context (12.18)-(12.19):
+    gimel: X^{1,3} -> Y^{7,7}, split TX^{1,3} (+) N^{6,4} (s11:249). Extractor flags the L(x)L correlation
+    vs (11.6)''s anti-correlation as a carrier difference, recorded not adjudicated (s11:265-274).'
+  core: hard-core
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:52-70
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:24
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The p.61 TX(1,3)+N(6,4)-inside-Y(7,7) split is typed as CARRIER-SPLIT horn 3, explicitly unadjudicated
+      while the census runs on other horns; the luminous/dark brace labels and the left-handedness sentence
+      are uncarried (the s11 L(x)L carrier difference stays custody).
+- id: SC-CHI-04
+  polarity: ASSERTS
+  claim: The strongest-claims synopsis asserts fermions on X are pullbacks of unadorned non-chiral Dirac
+    spinors on Y, with low-gravity decoupling producing emergent chirality and Witten's non-isomorphic
+    R and R-bar via branching rules.
+  verbatim: In low gravitational regimes, the equations governing the fractional spin fields decouple
+    leading to emergent effective chirality that disguises the non-chiral fundamental theory, and leading
+    to Witten's representations R and R-bar which are not isomorphic exactly as according to the branching
+    rules for Spinors.
+  locus:
+    source: draft-2021
+    page: 64
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: Synopsis item iii; same item contains SC-COS-01's CC=VEV sentence. Framed as 'the strongest claims
+    of the strongest form of Geometric Unity.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:48-53
+    - lab/process/agent-context-pack.md:1631-1635
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The strongest-claims synopsis reading (non-chiral fundamental, emergent chirality, Witten R/R-bar
+      via branching) is the named source-native reading; its production burden is typed open (PH-K1-PHYSICAL;
+      Witten-1983 exit owed for any chiral use of the 384).
+- id: SC-GEN-01
+  polarity: DISAVOWS
+  claim: The draft disavows the belief that nature repeated a generation three times at different mass
+    scales, holding the third family to be only effectively identical, presumably at low energy.
+  verbatim: The first is that we do not believe that nature has simply repeated herself three times albeit
+    at different mass scales. While we do believe that a second copy of Fermionic matter matches this
+    description, we believe that a third family is merely effectively identical to the other two and,
+    presumably, only at low energy.
+  locus:
+    source: draft-2021
+    page: 51
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:100
+  grade: extraction-verified
+  notes: SEED. Sect. 11.2, whose heading reads 'The Three Family Problem in GU and Imposter Generations.'
+    - 'Generations' plural (s11:94-96).
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:45-47
+    - NEXT-STEPS.md:15-17
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The p.51 not-simply-repeated disavowal is quoted on the frontier surface as the reason content-level
+      kills hit an unclaimed reading; freshness caveat as SC-CHI-01.
+- id: SC-GEN-02
+  polarity: ASSERTS
+  claim: Sect. 12.10's title asserts three generations should be replaced by a 2+1 model of two true generations
+    and one effective imposter generation.
+  verbatim: 12.10 Three Generations Should be Replaced by 2+1 model of two True Generations and one Effective
+    Imposter Generation
+  locus:
+    source: draft-2021
+    page: 62
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:278
+  grade: extraction-verified
+  notes: 'SEED. Opening hedges the strength: ''At the time of this writing, the author is not convinced
+    that we have three true generations of matter which differ only by mass. We instead posited here that
+    the so-called third generation of matter is instead part of pure Rarita-Schwinger Spin-3/2 matter
+    on Y'' (s11:283-288).'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:41-45
+    - lab/process/agent-context-pack.md:1697-1707
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The 12.10 2+1 replacement title is quoted and the 2+1 mechanism is panel-settled with computed
+      structure; the draft's own not-convinced hedge (custody) matches the panel's fenced multiplicity-not-index
+      reading.
+- id: SC-GEN-03
+  polarity: ASSERTS
+  claim: Eq (12.22) attaches the label Imposter Third Generation to the third pullback summand S/(TX)
+    (x) S/(N_gimel) only, printed in bold, with no label on the other two terms.
+  verbatim: gimel*(R/(TY)) = R/(gimel*(TY)) = R/(TX (+) N_gimel) = ( R/(TX) (x) S/(N_gimel)  (+)  S/(TX)
+    (x) R/(N_gimel)  (+)  S/(TX) (x) S/(N_gimel) )
+  locus:
+    source: draft-2021
+    page: 62
+    eq: (12.22)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:294
+  grade: extraction-verified
+  notes: SEED. Underbrace 'Imposter Third Generation' sits under the THIRD term and nothing else; third
+    term bold in the draft (s11:298-301).
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:317-323
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:30
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Label attachment settled (A) at 0.90 by hostile review on exactly the (12.22) underbrace + 12.10
+      + p.65 concurrence this row records.
+- id: SC-GEN-04
+  polarity: DISAVOWS
+  claim: The imposter is explicitly declared not a true generation, on grounds of representation structure
+    beyond its mass difference.
+  verbatim: Thus, it is not a true generation as it has a different representation structure than the
+    other two beyond its obvious mass difference.
+  locus:
+    source: draft-2021
+    page: 63
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:310
+  grade: extraction-verified
+  notes: SEED. Runs pp.62-63; the preceding sentence places an ordinary second-generation spinor inside
+    zeta via gamma contraction and the imposter in the R/_R complement. Footnote 13 (SC-META-05) attaches
+    to this sentence.
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:322-325
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:30
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: '''Not a true generation'' is enforced LABEL ONLY: the 128 is typed kinematically vectorlike
+      and no physical chiral third generation is asserted anywhere on the main path.'
+- id: SC-GEN-05
+  polarity: ASSERTS
+  claim: The synopsis locates family one in the branching of nu, family two in zeta's gamma-multiplication
+    branch, and the imposter in what the Spin-3/2 portion of zeta reveals under pullback.
+  verbatim: viii) The branching rules of nu leads to the appearance of one family of Fermions. ix) zeta
+    branches as a second family due to gamma matrix multiplication on Y as TY (x) S/_Y = S/_Y (+) R/_Y
+    with a Rarita-Schwinger remainder. The Spin 3/2 portion of zeta breaks down under pull back to reveal
+    a third 'imposter generation' that is merely effective, as it has different representation behavior
+    in the full theory.
+  locus:
+    source: draft-2021
+    page: 65
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:321
+  grade: extraction-verified
+  notes: 'SEED. Extractor note: the two true families do not live in the (12.22) product-rule decomposition;
+    the imposter is what the remainder reveals (s11:328-333). ''[T]he branching rules of nu leads'' [sic]
+    preserved.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:30
+    - lab/process/agent-context-pack.md:1637-1638
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The synopsis family map (nu -> 1, gamma-trace of zeta -> 2, RS-remainder pullback -> imposter)
+      is the settled reading verbatim: ''the 2 of 2+1 are nu and the gamma-trace part of zeta upstairs,
+      not product-rule occupants''.'
+- id: SC-GEN-06
+  polarity: ASSERTS
+  claim: Table 3 on p.53 names Imposter Quarks, two Imposter Anti-Quark rows, Imposter Anti-Neutrino,
+    Imposter Leptons, and Imposter Anti-Electron on rows whose quantum numbers repeat the true-generation
+    set of Table 1.
+  verbatim: Imposter Quarks
+  locus:
+    source: draft-2021
+    page: 53
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:217
+  grade: extraction-verified
+  notes: 'Named row: 20 *2, dim 6, [3 x 2]^{n=1}_L, charges +2/3, -1/3 (s11:217-227). The table''s host
+    representation and the star/multiplicity notation are never explained in the draft; genuinely ambiguous
+    surface (s11:229-245). The 144-sum identification is the extractor''s, not the draft''s.'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:326-328
+    - lab/process/agent-context-pack.md:1638-1640
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The p.53 table's looser imposter naming is recorded as a non-blocking residual that cannot host
+      the observed family - the draft's own ambiguity is fenced, not resolved by fiat.
+- id: SC-MAS-01
+  polarity: ASSERTS
+  claim: A stylized massive Dirac equation with mass R(y)/4 arises from the scalar-curvature coupling
+    wherever R(y) is approximately constant.
+  verbatim: leading to a stylized massive Dirac Equation with mass m = R(y)/4 for any fixed background
+    metric for which the scalar curvature R(y) is approximately constant in a region under study.
+  locus:
+    source: draft-2021
+    page: 61
+    eq: (12.13)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'From the (12.12)-(12.14) toy system; explicitly ''stylized''. Normalized in-repo display and
+    fences: weinstein-gu-primary-source-pack-2026-07-30.md:236-291 (WGS-05).'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/agent-context-pack.md:1531-1533
+    - canon/theta-field-flrw-dark-energy-eos.md:8-12
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Mass-from-curvature is engaged on the DE/theta side, but the stylized m=R/4 toy is custody-only
+      (WGS-05, which also fences the full-20 placement as unexecuted).
+- id: SC-MAS-02
+  polarity: ASSERTS
+  claim: The field playing the fundamental-mass role is asserted, with an in-some-sense hedge, to be part
+    of the gauge potential, living in a truly-spinless invariant subspace of the ad-valued one-forms.
+  verbatim: Thus, in some sense, the field playing the role of the fundamental mass for the generalized
+    Dirac equations is actually part of the gauge potential.
+  locus:
+    source: draft-2021
+    page: 62
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Carrier: invariant subspace from Lambda^1 (x) Lambda^1 in Lambda^1 (x) Lambda^*, ''truly spinless
+    from the point of view of Y''. Depends on the naive-vs-true spin distinction defined pp.61-62. WGS-05
+    fences the full-20 placement as unexecuted (pack:250-291).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1366-1376
+    - lab/process/agent-context-pack.md:26-28
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The mass-carrier-inside-the-gauge-potential reading is typed with the corrected construction
+      (displaced ad-valued one-form via gauge-rotated LC in the contorsion slot) and hard type-separation
+      of q/varpi/torsion/Higgs-cell - the naive-vs-true-spin trap is fenced.
+- id: SC-MAS-03
+  polarity: ASSERTS
+  claim: A three-way linkage is asserted identifying the cosmological constant, a spinless gauge field,
+    and fermion mass as the same field doing multiple service against fine tuning.
+  verbatim: Cosmological 'Constant' Lambda <-> Spinless Gauge Field <-> Fermion Mass
+  locus:
+    source: draft-2021
+    page: 62
+    eq: (12.21)
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Followed by: GU ''seeks to attack non-anthropic fine tuning problems by having the same fields
+    do multiple service.'' Corroborating loci: (11.10) p.54 brace-labels summands ''Space-Time Cosmological
+    Constant and Dirac Mass'' (Lambda^1(TX^4) (x) (Lambda^1(TX^4) (x) Lambda^0(N^10))) and ''Fiber Cosmological
+    Constant and Dirac Mass'' (Lambda^1(N^10) (x) (Lambda^1(N^10) (x) Lambda^0(TX^4))), beside ''Spin(6,4)
+    GUT Gauge Potentials'' and ''Spin(1,3) GR Torsion Tensors'' (read visually). Pack:255-266.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/dark-energy-theta-divergence-free.md:21
+    - lab/process/agent-context-pack.md:1531-1533
+    - canon/escape-corners-campaign-RESULTS.md:2
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The Lambda<->spinless-gauge-field<->fermion-mass linkage is live: theta replaces Lambda, and
+      the spin-3/2 mass provably rides the SAME VEV dial as the generation mechanism - multiple service
+      typed as structure.'
+- id: SC-COS-01
+  polarity: ASSERTS
+  claim: The cosmological constant is asserted to be the vacuum expectation value of the field playing
+    the fundamental-mass role, making light fermions light in low gravity regimes.
+  verbatim: The cosmological constant is actually the Vacuum Expectation Value (VEV) of a Field which
+    plays the role of a fundamental mass, leading to the light Fermions being light in low gravity regimes.
+  locus:
+    source: draft-2021
+    page: 64
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: Synopsis item iii, framed as among 'the strongest claims of the strongest form of Geometric Unity.'
+    Paraphrased in-repo at weinstein-gu-primary-source-pack-2026-07-30.md:265-266.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/dark-energy-theta-divergence-free.md:17-21
+    - lab/process/agent-context-pack.md:1531-1539
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: CC-as-VEV is the typed program object (theta dynamic PROVED, divergence-free conditional on
+      Assumption 3); the light-fermions-light clause is custody-only.
+- id: SC-COS-02
+  polarity: DISAVOWS
+  claim: The phrase 'dark energy' occurs nowhere in the 2021 draft; its written cosmology surface is the
+    CC=VEV sentence, the (9.10) Lambda annotation, the (12.21) linkage, and the (11.10) labels.
+  verbatim: '[absence finding - exact-substring search over all 69 pages'' text layer, this run: 0 hits
+    for ''dark energy'']'
+  locus:
+    source: draft-2021
+    page: null
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: Absence finding - guards against attributing interview-era dark-energy/DESI framing to the written
+    draft. The draft's 'dark' vocabulary is 'currently dark to us' (p.52), 'dark Spinorial Matter' (p.46),
+    'Dark Decoupled Looking Glass Matter' (p.61).
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1382-1394
+    - lab/process/improvement-register-2026-08-03.md:1896-1903
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'No treatment surface attributes ''dark energy'' to the 2021 draft: the DE object is cited to
+      canon theta and the 2025 seminar locus, and SRC-LOCUS is a named check after two provenance-drift
+      incidents. Flip if any surface pins DE/DESI framing on the draft.'
+- id: SC-PRE-01
+  polarity: ASSERTS
+  claim: The draft claims to predict the likely internal quantum numbers of further matter conditional
+    on GU being correct, via the sect. 11.3 tables.
+  verbatim: 'we can now predict what the internal quantum numbers will likely be if GU is correct as per
+    the following:'
+  locus:
+    source: draft-2021
+    page: 52
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:167
+  grade: extraction-verified
+  notes: Introduces Table 1 (dims sum to 16 - extractor arithmetic). Section heading typo 'Explict' preserved
+    (s11:164). Conditional and hedged ('will likely be if GU is correct').
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/no-go-class-relative-map.md:387
+    - LANES.yaml:67
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: GU-predicts is typed on canon and Lane 2 exists to freeze/confront exactly these; the conditional
+      hedge ('if GU is correct') is preserved by confrontation rather than assumption.
+- id: SC-PRE-02
+  polarity: ASSERTS
+  claim: A predicted surprise is a new cousin spin-3/2 'generation' Q+_{3/2} in which right-handed matter
+    and left-handed anti-matter feel weak isospin.
+  verbatim: Another surprise would be a new cousin spin-3/2 'generation' Q+_{3/2}, in which the logic
+    of the known matters is reversed in the sense that it is right handed matter and left handed anti-matter
+    that feel the effects of Weak-Isospin.
+  locus:
+    source: draft-2021
+    page: 52
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:185
+  grade: extraction-verified
+  notes: 'Homonym warning: ''generation'' here is in scare quotes and names the Q cousin - explicitly
+    distinct from both the known matter and the imposter language (s11:193-196).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:320-322
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:30
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The scare-quoted Q spin-3/2 'generation' cousin is kept separate from the imposter on every
+      settled surface - the exact homonym guard the ledger wanted.
+- id: SC-PRE-03
+  polarity: ASSERTS
+  claim: The draft claims to offer algebraic internal-quantum-number predictions while explicitly disclaiming
+    energy-scale predictions absent help from quantum field theorists.
+  verbatim: The author is proud to be able to offer algebraic predictions as to the 'internal quantum
+    numbers' of new particles but would need the help of Quantum Field Theorists to see whether these
+    can be sharpened further to include energy scales.
+  locus:
+    source: draft-2021
+    page: 67
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Appendix ''Thoughts on Method''. Continues: ''The author is not equipped to undertake that effort
+    alone'' - the draft''s own scope limit on its predictions.'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - canon/escape-corners-campaign-RESULTS.md:2
+    - LANE-STATE.yaml:106-108
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Scale-disclaimer behavior is respected (no invariant mass channel typed; no absolute amplitude
+      packaged), but the draft's own p.67 predictive-perimeter statement - its cleanest scope text - is
+      carried nowhere.
+- id: SC-META-01
+  polarity: ASSERTS
+  claim: The document declares itself a working draft stitched from heterogeneous decades-old sources
+    in which inaccuracies, discrepancies, and missing components are regularly encountered.
+  verbatim: Every effort has been made to standardize notation but what you are reading is stitched together
+    from entirely heterogeneous sources and inaccuracies and discrepancies are regularly encountered as
+    well as missing components when old work is located.
+  locus:
+    source: draft-2021
+    page: 10
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Sect. 1.5 ''Notes On The Present Draft Document''; preceding sentence has draft typo ''stiched''.
+    Title page: ''Geometric Unity: Author''s Working Draft, v 1.0 ... Thursday, April 1st, 2021'' (s11-s12
+    extraction :34-38). p.11: ''this should be considered as work in progress''.'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - CANON.md:191
+    - lab/process/layer0-fork-registry.yaml:216-224
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The working-draft/stitched character is the operating premise: author-disclaimed surfaces are
+      treated as unstabilized and ''no source-native bilinear is published'' grounds the reconstruction
+      burden.'
+- id: SC-META-02
+  polarity: ASSERTS
+  claim: 'The governing philosophy is a gambit: a natural classical field theory strongly resembling SM
+    plus GR, emerging from minimal assumptions, is likely correct or close to correct - and this is stated
+    to be unprovable.'
+  verbatim: Our gambit is that if there is a natural classical field theory that strongly resembles the
+    standard model together with General Relativity, then if it can be shown to emerge naturally from
+    minimal assumptions, it is likely to be correct or close to correct and may well suggest its own preferred
+    quantization. This cannot of course be proven but it is stated here as it is the governing philosophy
+    of the work at hand.
+  locus:
+    source: draft-2021
+    page: 11
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Sect. 2 opening. Companion aim at p.4 eq (1.1): a map from X^4 to the Einstein/Yang-Mills/Dirac/Higgs/Yukawa
+    terms, SM groups, Q = C^16 family quantum numbers, three families, and CKM.'
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - CANON.md:17-24
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The gambit (naturalness => likely correct, admittedly unprovable) is quoted nowhere; the repo's
+      posture is an independent adversarial stance, not an engagement of it. No custody before this run.
+- id: SC-META-03
+  polarity: ASSERTS
+  claim: The draft warns that reconstruction problems spanning nearly 40 years occur throughout the document
+    and recommends that error-sensitive readers wait for a future draft.
+  verbatim: Such problems of reconstruction over nearly 40 years are, lamentably, found throughout this
+    document but they are likely to get worse rather than better by waiting to fix them. For those sensitive
+    to errors of this type we recommend waiting for a future draft.
+  locus:
+    source: draft-2021
+    page: 29
+    eq: null
+    extraction: newly-extracted
+  grade: newly-extracted
+  notes: 'Footnote 5, attached to the unresurrected Bar-Natan/Witten reduction technique. Companions:
+    p.23 footnote 3 (u(64,64) decomposition ''should be checked''); p.54 (''cannot remember even the standard
+    theory'' of induced representations); p.43 footnote 9 (community ''welcome to send bug fixes'').'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:33-37
+    - CANON.md:191
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Reconstruction-problem warnings are operationalized: decades-old displayed arithmetic gets
+      verification steps (nguyen C1), disclaimed surfaces get scope limits.'
+- id: SC-META-04
+  polarity: ASSERTS
+  claim: The sect. 10 deformation-complex diagram carries the draft's own warning that it is carried over
+    from an older version and may contain inconsistencies.
+  verbatim: '[Note: This diagram is carried over from an older version and may contain some inconsistancies
+    until it is stabilized. Caveat Emptor.]'
+  locus:
+    source: draft-2021
+    page: 49
+    eq: (10.10)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:349
+  grade: extraction-verified
+  notes: '''inconsistancies'' [sic]. The warning attaches to the sect. 10 diagram, NOT to the sect. 11-12
+    displays (s11:348-353). Scope limit for SC-ACT-06''s deformation-complex claim.'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - CANON.md:191
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Exemplary: the Caveat Emptor is quoted verbatim and is load-bearing in the count-blocked-on-source
+      verdict; the warning''s sect.10-only scope (not 11-12) has not been overextended anywhere found.'
+- id: SC-META-05
+  polarity: ASSERTS
+  claim: Footnote 13 concedes the generation discussion speaks loosely as if mass and flavor eigenstates
+    coincided.
+  verbatim: 'Note: we are speaking loosely here as if mass eigenstates and flavor eigenstates were one
+    and the same.'
+  locus:
+    source: draft-2021
+    page: 63
+    eq: null
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:314
+  grade: extraction-verified
+  notes: SEED. Attaches to the not-a-true-generation sentence (SC-GEN-04); scope-limits any mass-ordering
+    reading of the 2+1 claims.
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - lab/process/agent-context-pack.md:529-531
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Footnote 13 (mass vs flavor eigenstates spoken of loosely) appears nowhere; nothing currently
+      violates it (the panel's 2+1 claims avoid mass-ordering), but typing it is cheap insurance.
+- id: SC-META-06
+  polarity: DISAVOWS
+  claim: The phrase 'identical in form to a true generation' occurs nowhere in the draft; the only 'true
+    generation' hit asserts the opposite emphasis.
+  verbatim: the phrase "identical in form to a true generation" - quoted in-repo as an eq (11.6) gloss
+    via the L1 lens - occurs NOWHERE in the draft (exact-string search over all 69 pages' text layer ...)
+  locus:
+    source: draft-2021
+    page: null
+    eq: (11.6)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:154
+  grade: extraction-verified
+  notes: 'SEED. Absence finding - guards against a circulating misquote. Quote is the extraction''s search
+    receipt (the draft has no text to quote; that is the finding). Only ''true generation'' occurrence:
+    the pp.62-63 sentence of SC-GEN-04.'
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md:386-391
+    - papers/drafts/one-generation-not-three/draft.md:609-610
+    - explorations/draft-fqz-map-decider-2026-08-03.md:132-135
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The nonexistent 'identical in form to a true generation' gloss was ordered deleted by hostile
+      review and every surviving occurrence is an explicit retraction record - the absence finding is
+      enforced, not just noted.
+- id: SC-META-07
+  polarity: DISAVOWS
+  claim: Eq (11.6) and its surrounding p.52 text contain no occurrence of the word 'imposter'; imposter
+    naming attaches only at Table 3, sect. 12.10, and the p.65 synopsis.
+  verbatim: Eq (11.6) and its surrounding p.52 text also do NOT contain the word "imposter" anywhere.
+  locus:
+    source: draft-2021
+    page: 52
+    eq: (11.6)
+    extraction: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md:159
+  grade: extraction-verified
+  notes: 'SEED. Absence finding - guards against a circulating misquote. Independently re-confirmed this
+    run: 0 ''imposter'' hits on the p.52 text layer; hits are p.53 (6), p.62 (3), p.65 (1).'
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:317-328
+    - lab/process/improvement-register-2026-08-03.md:1901-1902
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Imposter naming is attached only at the loci the draft licenses (Table 3 / 12.10 / p.65); the
+      2026-08-04 imposter-quote provenance drift is a named cautionary case in the register.
+- id: SC-CHI-50
+  polarity: ASSERTS
+  claim: The world is not chiral and GU is not chiral, so the chiral-anomaly critique of the theory misses,
+    because the theory has no chirality for the anomaly to attach to.
+  verbatim: I don't think the world is chiral. You know, you're in GU when your theory is not chiral.
+    Like one of the critiques of my theory is, is that I have a chiral anomaly, which I find funny because
+    it is not chiral. But nobody notices it, by the way.
+  locus:
+    source: toe-2025
+    timestamp: 02:36:02
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:660
+  grade: claim-mine-verified
+  notes: 'Reuses 2026-07-20 mining row 16 / complete-ledger WG-F07; quote re-verified. Compressed spoken form
+    of the fundamental-vs-effective distinction the author states explicitly in 2020 (SC-CHI-54,
+    hands analogy) and heads a draft section with (p.60, per SC-CHI-02). CORRECTION 2026-08-13 - an
+    earlier note here typed this as an internal tension whose headline exceeded the reconciled form;
+    that reading collapsed the very distinction the author was drawing and is withdrawn. 2020
+    antecedent at portal:57.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:29-36
+    - explorations/nguyen-pincer-real-form-design-packet-2026-08-11.md:61-67
+    - explorations/nguyen-pincer-real-form-design-packet-2026-08-11.md:129
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The not-chiral defense against the anomaly critique is typed as the source-owned vectorlike
+      defusal (carrying surplus) with an ambient-vs-observed chirality homonym row; the headline's own
+      30-second step-down (CHI-51) stays custody.
+- id: SC-CHI-51
+  polarity: ASSERTS
+  claim: GU, though non-chiral, must produce an effectively chiral world, via a field VEV sitting in a
+    Dirac-Rarita-Schwinger-like operator.
+  verbatim: 'So, GU is not chiral, but it has to produce a chiral world because in effect at an effective level
+    nature is chiral. So what you have is you have a field of VEV in a Dirac like operator. Again,
+    this Dirac, Rarita-Schwinger thing that comes up to meet.'
+  locus:
+    source: toe-2025
+    timestamp: 02:36:29
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:662
+  grade: claim-mine-verified
+  notes: '[ASR] ''Cairo'' = chiral; ''Dirac, Rurida, we are'' = Dirac-Rarita-Schwinger; ''effected at''
+    likely ''in effect at''. Reuses WG-F08 / row 17.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1631-1635
+    - canon/escape-corners-campaign-RESULTS.md:2
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The must-produce-effective-chirality obligation is typed as the open burden (PH-K1-PHYSICAL;
+      Witten-1983 exit) and the VEV-in-the-operator carrier is the named dial - the claim is carried as
+      an unpaid debt, which is the honest form.
+- id: SC-CHI-52
+  polarity: ASSERTS
+  claim: Scalar curvature in the improved Einstein equation coaxes the VEV out of the vacuum and plays
+    the role of the fundamental mass scale, so as curvature flattens the masses drop and a Dirac-type
+    operator decouples into Weyl-type operators.
+  verbatim: It coaxes this thing out of the vacuum that then plays the role of a fundamental mass scale.
+    So what happens when things flatten out? The scalar curvature drops and the masses drop. If the mass
+    drops sufficiently, then a Dirac type operator decouples into Weyl type operators.
+  locus:
+    source: toe-2025
+    timestamp: 02:37:07
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:664
+  grade: claim-mine-verified
+  notes: 'Reuses WG-F09; verbatim spans lines 664-666. 2020 antecedent portal:429: ''it''s fundamentally
+    the scalar curvature that would coax the VEV ... on the augmented torsion out of the vacuum'', where
+    the smeared-out curvature term also ''was playing the role of the cosmological constant'' — the same
+    mechanism serving the DE story (cf. SC-COS-51).'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/agent-context-pack.md:1531-1533
+    - canon/escape-corners-campaign-RESULTS.md:2
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Curvature-coaxes-VEV linkage typed and computed (horn passes count, fails screening), but the
+      dynamical half - masses drop, Dirac decouples into Weyl - has no construction or fence anywhere;
+      it is PH-K1-PHYSICAL's unnamed source-side mechanism.
+- id: SC-CHI-53
+  polarity: ASSERTS
+  claim: We inhabit a non-chiral world of two chiral halves coupled by a VEV, and luminous matter will
+    reconnect to currently-dark matter when gravity (curvature) becomes strong enough.
+  verbatim: So the claim is, is that what we have is we have a non-chiral world where there were two chiral
+    halves that were coupled because of a vev. And then when gravity gets low enough, what I believe you
+    have is you have a decoupling into matter sectors and we, what we call luminous will be connected
+    to matter that is currently dark when gravity becomes strong enough.
+  locus:
+    source: toe-2025
+    timestamp: 02:37:37
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:666
+  grade: claim-mine-verified
+  notes: Reuses WG-F10. Hedged in speech ('what I believe'); no coupling scale or dynamics supplied (WG-F10
+    note). Higher-groups version of the reconnection is SC-PRE-54.
+  core: hard-core
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:48-53
+    - lab/process/agent-context-pack.md:1639-1640
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The dark-mirror-sector posture is named as the source-native reading; the reconnection-when-gravity-strengthens
+      dynamic is uncarried (matching the source's own no-scale gap, WG-F10 custody).
+- id: SC-CHI-54
+  polarity: ASSERTS
+  claim: Physics says the universe is chiral but the theory itself is not; chirality is perhaps emergent,
+    with decoupled matter that would restore parity between the seen and missing halves.
+  verbatim: I believe that physics tells us that the universe is chiral, that is, left-right asymmetric,
+    but the theory is itself not chiral. Instead, it chooses to present a different idea, which is that
+    perhaps chirality is emergent, much the way our hands are individually left-right asymmetric as our
+    pinky is not a reflection of our thumb, but the thumb on each hand is a pairing to the other one,
+    as is the pinky.
+  locus:
+    source: portal-2020
+    timestamp: 00:22:37
+    extraction: lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:57
+  grade: transcript-verified
+  notes: '2020 statement of the SC-CHI-50/53 posture, five years earlier and hedged (''perhaps''). Mechanism
+    twin at portal:427 (02:08:36): chirality ''not fundamental, but ... emergent'', kept-light fermions
+    explained by absence of cross terms in a complex.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:48-53
+    - lab/process/agent-context-pack.md:1624-1633
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The 2020 hedged emergent-chirality form is the one the settled label-level reading actually
+      matches; parity-restoration-between-halves is the vectorlike 64+64 typing.
+- id: SC-GEN-50
+  polarity: ASSERTS
+  claim: The fermion carrier is zero-forms-tensor-spinors direct-sum one-forms-tensor-spinors, with the
+    first generation labeled as the zero-form spinors (offered tentatively), the second as the Clifford
+    contraction across the tensor product, and the third as the kernel of that contraction map.
+  verbatim: 'So the claim is that you''re looking at zero forms tensor spinors direct sum one forms tensor
+    spinors. So I call zero forms tensor spinors the first generation. Now it could turn out to be
+    not right, but I believe that''s the way it''ll go. ... Then I claim the second generation is
+    what you get when you take one form valued spinors and you Clifford multiply across the tensor
+    product. ... The easy thing to say is the third generation piece, which is the kernel of that
+    map.'
+  locus:
+    source: toe-2025
+    timestamp: 02:28:46
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:628
+  grade: claim-mine-verified
+  notes: Reuses WG-F01-F04 and 07-20 Section 1.1 (elided joins at lines 638, 640). [ASR] 'spinners' =
+    spinors throughout. The in-passage tentativeness ('could turn out to be not right') is part of the
+    claim's spoken strength.
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:30
+    - lab/process/layer0-fork-registry.yaml:308-330
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The spoken carrier+labels were engaged and ADJUDICATED: settled (A) keeps first=nu and second=gamma-trace-of-zeta
+      but reads the third per the draft synopsis, not the spoken kernel-labeling - honoring the in-passage
+      ''could turn out to be not right''.'
+- id: SC-GEN-51
+  polarity: ASSERTS
+  claim: Two of the three labeled generation summands are representation-theoretically equivalent and
+    the third is not, via subgroup restriction making ambient-inequivalent representations isomorphic.
+  verbatim: Because at the representation theoretic level, two of them are equivalent and the third is
+    not an equivalent representation. But you can have two groups, sorry, you can have two group representations
+    at the level of a subgroup that are isomorphic, which at the level of where they came from in the
+    total group are not isomorphic.
+  locus:
+    source: toe-2025
+    timestamp: 02:31:53
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:642
+  grade: claim-mine-verified
+  notes: Reuses WG-F05 / 07-20 Section 1.1; verbatim spans lines 642-644. Which two are 'the same' inverts
+    the interviewer's framing at 02:28:21 (first-generation-is-different) — the author reassigns the labels
+    rather than the structure.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/hinge-panel-synthesis-2026-08-03.md:76-80
+    - lab/process/layer0-fork-registry.yaml:317-323
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Two-equivalent-one-not via subgroup restriction is computed structure (reunification asymmetry;
+      different representation behavior in the full theory).
+- id: SC-GEN-52
+  polarity: UNCERTAIN
+  claim: Which contracted piece — gamma-trace versus gamma-traceless — carries the second-generation label
+    was left unresolved in the live exchange, with both speakers disclaiming the language.
+  verbatim: The second generation would be what you get by taking a direct contraction, which you call
+    the trace. Gamma trace, gamma traceless. I don't know if that's the right language. Is it? No, I don't
+    know. I don't know either.
+  locus:
+    source: toe-2025
+    timestamp: 02:29:18
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:628
+  grade: transcript-verified
+  notes: 'The fumble itself, recorded as its own row (not carried by the mining ledgers). Verbatim spans
+    628-630 and mixes unlabeled speakers; the discrepancy is then named at 02:29:53 (line 634: ''a little
+    bit of a discrepancy between you and me''). See SC-META-51 for the author''s process framing of it.'
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:30
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The on-tape gamma-trace-vs-traceless fumble has no repo row; its question is settled in substance
+      by (A)'s gamma-trace assignment, so typing it is optional provenance hygiene only.
+- id: SC-GEN-53
+  polarity: ASSERTS
+  claim: As the energy scale increases, two of the three generations will stay identical up to mass and
+    one will not — offered as a prediction.
+  verbatim: we don't know whether these three generations that we have will continue to be identical up
+    to mass as the energy scale increases. So I'm claiming two of them will, one of them will not. That's
+    like a prediction.
+  locus:
+    source: toe-2025
+    timestamp: 02:32:57
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:644
+  grade: claim-mine-verified
+  notes: Reuses WG-F06 / row 15; verbatim spans 644-646. No scale, observable, or discriminant is spoken
+    (row-15 note); self-graded 'like a prediction'. Cross-file PRE.
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - explorations/lane2-sc-gen-53-tripwire-seed-2026-08-12.md
+    - explorations/portfolio-correction-wave-2026-08-12.md
+    pinned_at: DIRECT-20260812-PORTFOLIO-CORRECTION-WAVE
+    date: 2026-08-12
+    note: 'Lane 2 now owns a typed seed. The source supplies no energy scale,
+      invariant discriminator, observable, or predeclared threshold, and the
+      physical-carrier bridge remains open; it is not a prediction packet.'
+- id: SC-GEN-54
+  polarity: ASSERTS
+  claim: What fixes the effective number of generations at three is the extension of the inhomogeneous
+    gauge group to include supercharges.
+  verbatim: And so what I'm claiming is what fixes the number of generations at an effective level at
+    three is the extension of the inhomogeneous gauge group to include supercharges.
+  locus:
+    source: toe-2025
+    timestamp: 01:42:19
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:446
+  grade: claim-mine-verified
+  notes: 'Reuses WG-SG4 / row 9. Line 446 carries an ASR duplication (''...at an effective level is the
+    number of generations that are output will have good characteristics'') before the clean sentence
+    quoted. Seminar twin at ucsd:158: ''the fermionic extension gives you exactly three families of chiral
+    fermions if you have a decreased VEV...''. One of THREE coexisting spoken count mechanisms (see SC-GEN-50,
+    SC-GEN-58; 07-20 Section 1.5 flags the plurality).'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - explorations/portfolio-correction-wave-2026-08-12.md
+    - canon/escape-corners-campaign-RESULTS.md
+    - explorations/wave37/H54-branch1-superalgebra-2026-07-11.md
+    pinned_at: DIRECT-20260812-PORTFOLIO-CORRECTION-WAVE
+    date: 2026-08-12
+    note: 'The mechanism is now explicitly typed. Exact graded-IG algebraic
+      closure exists at its filed arena, but no map to exactly three physical
+      families, current K77 carrier transport, action invariance, or physical
+      cohomology/count construction exists. The H54 super-Poincare branch is a
+      different object and also leaves N unfixed.'
+- id: SC-GEN-55
+  polarity: ASSERTS
+  claim: One generation of standard-model fermions is just the pullback of a properly-understood Weyl
+    spinor from the space of pointwise Lorentz metrics to the four-manifold.
+  verbatim: 'one generation of standard model fermions is just the pullback of a Weyl spinor Properly understood
+    from the space of point wise Lorentz metrics to the four-dimensional manifold'
+  locus:
+    source: toe-2025
+    timestamp: 01:29:19
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:396
+  grade: claim-mine-verified
+  notes: '[ASR] ''vile spinner'' = Weyl spinor. Reuses WG-A10b. Seminar twin at ucsd:161 (00:46:40): pull
+    back ''vial spinners'' and ''you have one grand unified generation where the lepton, the electron
+    and the electron neutrino become the fourth flavor of quark''. ONE Weyl spinor -> one generation coexists
+    with the full-package -> three claim (SC-GEN-56).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:101-119
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: One-generation-per-Weyl-pullback typed as Claim 5A [reconstruction] and mapped to PC2 / six-axis
+      Target 1.
+- id: SC-GEN-56
+  polarity: ASSERTS
+  claim: Pulling back zero-forms valued in positive spinors direct-sum one-forms valued in negative spinors
+    from the bundle of metrics yields three generations of standard-model fermions.
+  verbatim: You can take a section. And if you pull back ordinary spinners, zero forms valued in the positive
+    spinners, direct sum one forms valued in the negative spinners on that top space, you're gonna get
+    three generations of standard model fermions.
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:32:46
+    extraction: papers/drafts/Transcript into the impossible.md:107
+  grade: claim-mine-verified
+  notes: The keating record pins this locus (its Section 3 caught the same content being mis-attributed
+    to the interview; SRC-LOCUS check). Chirality-graded carrier (S+ vs S-) is spoken here but not in
+    the TOE twin (SC-GEN-50) — spoken variants recorded, not reconciled.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:115-119
+    - RESEARCH-STATUS.md:48-58
+    - CANON.md:191
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Package-pullback carrier is the live campaign carrier; the three-generations output is typed
+      [speculation] and the count adjudicated OPEN/external-by-structure with artifacts; the spoken S+/S-
+      grading survives as the open v0.139 half-sign collision (context pack:465).
+- id: SC-GEN-57
+  polarity: ASSERTS
+  claim: The rolled-up Dirac-de-Rham-Rarita-Schwinger gadget yields three families that are really two
+    plus one, the third family being an imposter for representation-theoretic reasons that looks the same
+    at low energy.
+  verbatim: 'You roll this up, and you can create a Dirac, de Rham, Rarita-Schwinger gadget, which will yield you
+    three families, really two plus one. The third family is an imposter for representation
+    theoretic reasons, but at low energy, it''ll look the same as the other two.'
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:36:13
+    extraction: papers/drafts/Transcript into the impossible.md:119
+  grade: transcript-verified
+  notes: '[ASR] ''Diram, Ruidu Schwinger'' = de Rham, Rarita-Schwinger. Origin claim at ucsd:128 (00:39:18):
+    the extra term in the Rarita-Schwinger product rule is ''where you get your third generation of matter
+    from''; ucsd:113 (00:34:27) adds the complex ''gonna generate three generations, the CKM and the PNMS
+    matrix'' [ASR PNMS = PMNS].'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:308-330
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:30
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The rolled-up-gadget 2+1-imposter thesis is the settled reading itself (hostile-reviewed, 0.90).
+- id: SC-GEN-58
+  polarity: ASSERTS
+  claim: Rolling up the truncated de Rham complex (0 to 1 to 13 to 14) is the fermionic magic of the 14-manifold
+    behaving like a 3-manifold, and that is what leads to three generations.
+  verbatim: There's the fermionic magic, which is that you roll up this very simple thing, and that's
+    what leads to three generations.
+  locus:
+    source: toe-2025
+    timestamp: 02:43:30
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:688
+  grade: claim-mine-verified
+  notes: 'Reuses WG-X05 / row 18. The truncation itself: ''you''re going to go zero to one to 13 to 14
+    and then die'' (line 684), middle map via contraction plus star (line 686), southeast-zero two-by-two
+    operator ''what I think will be found to be a seesaw mechanism'' (line 686, prospective). Count mechanism
+    #3 of three.'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - RESEARCH-STATUS.md:219-230
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:144
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The truncated 0-1-13-14 roll-up IS the live four-field operator family, but 'that's what leads
+      to three generations' is not carried as a count mechanism (count is external-by-structure); the
+      3-manifold analogy stays custody.
+- id: SC-GEN-59
+  polarity: ASSERTS
+  claim: There are only two true generations in this model; the third unifies with other matter at higher
+    energies.
+  verbatim: There are only two generations in this model. I think people have accepted that there are
+    three, but I don't believe that there are three. I think that there are two, and that the third that
+    unifies with other matter at higher energies.
+  locus:
+    source: portal-2020
+    timestamp: 02:41:27
+    extraction: lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:519
+  grade: transcript-verified
+  notes: Community transcript's own wording ('the third that unifies' as spoken). Headline tension with
+    SC-GEN-56's 'three generations' — same 2+1 imposter structure, opposite counting rhetoric five years
+    apart. Impostor-accusation twin at portal:425 (02:07:46); hedged preface twin at portal:57 ('perhaps
+    there are only two').
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1697-1707
+    - lab/process/hinge-panel-synthesis-2026-08-03.md:76-80
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Two-true-generations with the third reunifying at higher energy is the panel's computed 2+1
+      (reunification asymmetry); the 2020 counting rhetoric fits the settled reading better than the 2025
+      'three' headline - both recorded in custody.
+- id: SC-SIG-50
+  polarity: ASSERTS
+  claim: The raw Frobenius fibre metric has the wrong signature and cannot work; the correct fibre pairing
+    is the trace-reversed Frobenius metric.
+  verbatim: One of the things I'd forgotten is that you end up with a 3,7 metric on the fiber, which can't
+    work. And so while I'm giving the talk in Oxford, I'm thinking, I know this works, but I have to be
+    honest that I'm coming up with 3 and 7 and 3.
+  locus:
+    source: toe-2025
+    timestamp: 00:26:28
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:126
+  grade: claim-mine-verified
+  notes: 'Reuses WG-A05/A06. Resolution at line 128 (00:26:51): ''But I''d forgotten, oh yes, it''s the
+    trace reversal of the Frobenius metric''; pairing named at line 100 (00:20:51). Orientation instability
+    across sources: TOE local says raw ''3,7''; seminar (ucsd:149) says trace reversal ''gets you from
+    a seven three signature to a six four''. Recorded as spoken, both ways.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:27
+    - lab/process/layer0-fork-registry.yaml:437-453
+    - lab/process/layer0-fork-registry.yaml:95-104
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Trace-reversed Frobenius fibre (7,3)->(6,4) is settled substrate; the three trace reversals
+      are kept as a typed homonym fork; the cross-source orientation instability is resolved by the exact
+      mirrored-notation certificate.
+- id: SC-SIG-51
+  polarity: ASSERTS
+  claim: With only plus-or-minus-one coefficients there are precisely four definable metrics on the relevant
+    space, two are ruled out by experiment (the two obvious ones), and the trace-reversed ones remain
+    in the game.
+  verbatim: if it's only plus or minus 1, there are precisely four metrics you can define and only four
+    metrics you can define and two of them are consistent with experiment and two of them are ruled out
+    by experiment and the two obvious ones are ruled out by experiment.
+  locus:
+    source: toe-2025
+    timestamp: 00:28:49
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:136
+  grade: claim-mine-verified
+  notes: Reuses WG-A07 / row 3 ('The trace reversed ones remain in the game' completes at line 138). Enumeration/selection
+    argument not spoken; 07-20 row 3 tags it a cheap bounded check candidate.
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:95-104
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The four-metrics enumeration and two-ruled-out-by-experiment argument (custody: WG-A07/row
+      3, tagged a cheap bounded check) was never typed or run; three of the four forms were mirror-checked
+      for a different purpose.'
+- id: SC-SIG-52
+  polarity: ASSERTS
+  claim: Pati-Salam is naturally Spin(6) x Spin(4) when the trace portion of the space of metrics is put
+    in with the proper sign for the sector beginning as X(1,3); we are trapped in the (1,3) sector, and
+    pushing that indefinite signature up to the Y manifold is to-be-figured-out.
+  verbatim: the Pati-Salam theory, which is usually advertised as, I think as SU(4) x SU(2) x SU(2), is
+    really much more naturally Spin(6) x Spin(4) when the trace portion of the space of metrics is put
+    in with the proper sign if you're trying to generate the sector that begins as X(1,3). ... we are
+    trapped in the (1,3) sector, so you have to figure out what the implications are for pushing that
+    indefinite signature up into an indefinite signature on the Y manifold.
+  locus:
+    source: portal-2020
+    timestamp: 02:42:20
+    extraction: lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:525
+  grade: transcript-verified
+  notes: Group symbols de-LaTeXed from the file's markup, wording unchanged. This is the authorial trace-sign
+    criterion the iceberg expositor deferred and never supplied (fetch file :80-92). Base (1,3) stated
+    twice, unhedged; the push-up is author-flagged open.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:120-134
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The trapped-(1,3) authorial declarations are the spine of the declared-base candidate route
+      - used, hostile-review-bounded to candidate grade; the author-flagged push-up to Y is precisely
+      the open SIGNATURE-AMBIENT fork.
+- id: SC-SIG-53
+  polarity: UNCERTAIN
+  claim: In moving from Euclidean to Minkowski metric the construction seems to be off by a sign somewhere
+    — or the author may be mistaken.
+  verbatim: I can tell you that when we moved from Euclidean metric to Minkowski metric, we seem to be
+    off by a sign somewhere, or I could be mistaken.
+  locus:
+    source: portal-2020
+    timestamp: 02:12:34
+    extraction: lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:435
+  grade: transcript-verified
+  notes: 'Same breath lists the other self-stated open problem: ''the propagation in 14 dimensions has
+    to be worked out so that we would be fooled into thinking we were on a four-dimensional world.'' Author-voiced
+    signature uncertainty, 2020.'
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - NEXT-STEPS.md:162-175
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The author's own 2020 'off by a sign somewhere, or I could be mistaken' is uncited even by the
+      relative-sign-bit resolver packet it directly supports - a one-line strengthening.
+- id: SC-SIG-54
+  polarity: CURT-ATTRIBUTES-TO-AUTHOR
+  claim: Curt states that the trace contributes (1,0) or (0,1) by free choice and that Eric chooses (4,6)
+    for the vertical space for reasons deferred, yielding a stated total signature of (7,7).
+  verbatim: So we can either choose 4,6 or 3,7. For geometric unity, Eric chooses 4,6 for reasons that
+    will become clear later, though there are generalizations of geometric unity with other choices.
+  locus:
+    source: iceberg-curt
+    timestamp: 00:40:53
+    extraction: lab/sources/curt-iceberg-77-primary-transcript-fetch-2026-08-08.md:35
+  grade: expositor
+  notes: 'Quote sits in the fetch file''s markdown blockquote with bold emphasis; emphasis markers stripped
+    here, wording unchanged. Expositor voice only — never plain ASSERTS. The fetch file itself catches
+    the expositor''s slip: Curt''s stated blocks (4,6)+(1,3) sum to (5,9), not the (7,7) asserted two
+    sentences later (fetch :60-63), and Curt''s notation is mirrored relative to the draft''s (6,4) fibre.
+    The deferred reason exists authorially at portal:525 (SC-SIG-52).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:105-116
+    - lab/process/agent-context-pack.md:836
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Curt's blocks-sum-(5,9)-vs-asserted-(7,7) slip is caught and carried on the registry with the
+      arithmetic/assertion split; Curt-attributed content stays expositor-graded throughout.
+- id: SC-SIG-55
+  polarity: CURT-ATTRIBUTES-TO-AUTHOR
+  claim: Curt states a belief that Eric is not sure whether the (7,7) or the (5,9) signature is the sector
+    of our universe in the theory.
+  verbatim: Note, GU could have had a signature of 5,9 and I believe Eric isn't sure which of these is
+    the sector of our universe in his theory.
+  locus:
+    source: iceberg-curt
+    timestamp: 00:41:27
+    extraction: lab/sources/curt-iceberg-77-primary-transcript-fetch-2026-08-08.md:46
+  grade: expositor
+  notes: Emphasis markers of the fetch file's blockquote stripped, wording unchanged. An expositor's belief
+    about the author's state of mind, not the author declining to choose (fetch file's own fence, :54-58).
+    The author's own surfaces fix base (1,3) twice (portal:525) and the draft sums (1,3)+(6,4)=(7,7) (fetch
+    :94-104).
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:71-88
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Curt's belief about the author's uncertainty is correctly NOT promoted anywhere (the fetch file's
+      own fence, custody); the fork's openness is repo-derived. Adherence-by-omission - keep it that way.
+- id: SC-GEO-50
+  polarity: ASSERTS
+  claim: The input is a (1,3) signature and that begets the 14-dimensional total space, with a tower of
+    higher GU sectors (1,7), (1,11), and so on, each carrying Pati-Salam, standard-model, and Spin(10)/SU(5)
+    analogs.
+  verbatim: 'I''m saying the input is a one and a three. Uh-huh. And that begets you the 14. ... I see what
+    you''re saying is one in seven and then it''s one in 11 and then it''s one in 15, et cetera, et
+    cetera. In each one of those, there''s a Pati-Salam analog. In each one of those, there''s a
+    standard model analog.'
+  locus:
+    source: toe-2025
+    timestamp: 00:24:44
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:118
+  grade: claim-mine-verified
+  notes: Reuses WG-A04/A08/A09 (elision joins line 120, where the tower list is the interviewer's recap
+    accepted and extended by the author). [ASR] 'petit salam' = Pati-Salam. Above (1,3) the Pati-Salam
+    analog 'is a spin cross a spin it's not an SU cross an SU' (line 120).
+  core: hard-core
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/layer0-fork-registry.yaml:120-127
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The (1,3)-input-begets-14 half is load-bearing in the declared-base route; the higher-sector
+      tower ((1,7),(1,11),... each with PS/SM analogs) is custody-only.
+- id: SC-GEO-51
+  polarity: ASSERTS
+  claim: The 14-manifold carries a chimeric bundle semi-canonically equivalent to the tangent and cotangent
+    bundles, endowed with natural metric information, permitting spinors without a metric choice, with
+    structure group U(64,64).
+  verbatim: Take the 14 manifold and that 14 manifold has a chimeric bundle, which is equivalent to the
+    tangent and the cotangent bundles. In fact, it's semi-canonically equivalent and is endowed with natural
+    metric information. So you can build spinors without ever making a metric choice. Okay? That guy,
+    because you can build spinors, you can think of that as a bundle with a U64 comma 64 structure group.
+  locus:
+    source: toe-2025
+    timestamp: 02:41:57
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:682
+  grade: claim-mine-verified
+  notes: 'Reuses WG-A12/A13/A14 / row 20. 2020 antecedents: chimeric = TU up to a connection theta (portal:191-197);
+    U(128) ''at least in Euclidean signature'' (portal:223-229). WG-A14 records the repo typing the native
+    real form differently (quaternionic) — tension noted, not adjudicated here.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:12-22
+    - lab/process/agent-context-pack.md:536-537
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:21
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Chimeric semi-canonicity, no-metric spinors and U(64,64) are all carried (every ledger block
+      keeps full U(64,64) as a distinct parent); caveat: GEOMETER row 19 still teaches the retired quaternionic
+      Sp(32,32;H) form unconditionally - stale surface, see notes gap 9.'
+- id: SC-GEO-52
+  polarity: ASSERTS
+  claim: We do not live in spacetime; we are stuck as a slice of a 14-dimensional object, the space of
+    pointwise metrics grown from the four-manifold.
+  verbatim: I don't think we live in space time. I don't think any of that's true, and I think it's clearly
+    not true. I think we are stuck as a slice of a 14 dimensional object.
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:32:07
+    extraction: papers/drafts/Transcript into the impossible.md:104
+  grade: transcript-verified
+  notes: 'Construction spoken at ucsd:23 (00:04:08): forget the metric, frame bundle, GL(4,R) double cover
+    mod spin(1,3) gives the 14-dimensional object; quantum work there, classical on X4 (TOE twin line
+    60, WG-A03). Endogenous, ''not extra dimensions ... not Kaluza Klein'' (ucsd:29); most dynamics on
+    the Y14 spinor bundle with an action similar to Einstein-Hilbert plus Chern-Simons (toe:144, WG-A11/B01).'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:25
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:27-28
+    - lab/process/layer0-fork-registry.yaml:404-418
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Stuck-as-a-slice-of-14 is typed (Claim 1) and the slice-vs-total question is a live fork rather
+      than a silent default.
+- id: SC-GEO-53
+  polarity: ASSERTS
+  claim: In GU the connection is fundamental and the metric is emergent, reversing general relativity's
+    order.
+  verbatim: Let's do GR. Fundamental is the metric, emergent is the connection. Here in GU, it is the
+    connection that's fundamental and the metric that's emergent.
+  locus:
+    source: portal-2020
+    timestamp: 01:15:39
+    extraction: lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:201
+  grade: transcript-verified
+  notes: 'Rationale at portal:171 (01:09:13): ''connections are amenable to quantization in a way that
+    metrics are not''; realized as ''a connection on X leads to a metric on Y'' (portal:461, 02:23:52).'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/agent-context-pack.md:1295-1304
+    - NEXT-STEPS.md:2464
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Connection-fundamental/metric-emergent holds only fiberwise in the repo: the Y-metric is emergent
+      (Zorro/gimmel) but the base metric g stays a fundamental source variable (v0.33 fence), following
+      the draft''s native-gimel over the spoken reversal.'
+- id: SC-GEO-54
+  polarity: ASSERTS
+  claim: The double coset of the inhomogeneous gauge group by its tilted subgroups acting on both sides
+    is equivalent to A mod G, and the gauge-rotated object living there has a differential identity that
+    is the analog of divergence-free.
+  verbatim: You can take the double coset construction. The double cosetset of the in-homogeneous gauge
+    group by the proper tau tilted homomorphisms acting on both sides results in something equivalent
+    to A mod G, which is what the McDowell-Mansouri people didn't understand. They started with the wrong
+    space. ... And so this thing has a beautiful differential equation that allows it to be the analog
+    of divergence free.
+  locus:
+    source: toe-2025
+    timestamp: 02:19:49
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:598
+  grade: claim-mine-verified
+  notes: Reuses WG-IG3-IG7 (verbatim spans 598-600; semidirect-product unpacking at 604-608). The complete
+    ledger flags the origin choice and exact tilted-action conventions as not recoverable from speech
+    alone (WG-IG5).
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:6156
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:270-272
+    - lab/process/agent-context-pack.md:939-957
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Double-coset construction typed (with the McDowell-Mansouri correction claim) and refined:
+      v0.73 kills single-holonomy compression while keeping the dressed-pair equivalence - engagement
+      with corrections, not echo.'
+- id: SC-GEO-55
+  polarity: ASSERTS
+  claim: Torsion and contorsion decompose into three Lorentz-irreducible components, and GU instead uses
+    the displacement from the gauge-rotated Levi-Civita connection, valued for its invariance and equivariance
+    under the gauge group acting on the inhomogeneous gauge group.
+  verbatim: 'I believe that the torsion and contorsion have three separate representational theoretic components.
+    ... you know you''re in geometric unity when you use the gauge rotated Levi-Civita connection in
+    what would be the contorsion instead of the torsion tensor. Because that thing has incredible
+    invariance properties and equivariance properties under the gauge group acting on the
+    inhomogeneous gauge group.'
+  locus:
+    source: toe-2025
+    timestamp: 02:18:44
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:594
+  grade: claim-mine-verified
+  notes: 'Reuses WG-D01-D04 / row 13 (verbatim spans 594-598). Self-hedged in-passage: ''this is stuff
+    that nobody knows, so I''m going to be a little bit careful.'' [ASR] ''contortion'' = contorsion,
+    ''Levy-Chevita'' = Levi-Civita, ''add value'' = ad-valued. Homonym guard held by 07-20 Section 2:
+    NO generations link is spoken here. 2025 seminar twin ucsd:71: ''It should be any connection minus
+    the gauge transformed LaVice Evita''; 2020 augmented torsion at portal:325-329.'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1366-1376
+    - DERIVATION-PROGRESS.md:322
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Gauge-rotated-LC-in-the-contorsion-slot is typed verbatim as Weinstein's GU object, and the
+      three-irreducible-torsion-piece count is confirmed under the torsion-sourcing reading; the self-hedge
+      is honored by the conditional construction chain.
+- id: SC-GEO-56
+  polarity: ASSERTS
+  claim: There is a named shiab (ship-in-a-bottle) operator taking ad-valued i-forms to ad-valued (d-3+i)-forms,
+    so ad-valued 2-forms (curvature) land in ad-valued (d-1)-forms, exactly the right space for the derivative
+    of an action.
+  verbatim: So for example, I can define a shiab operator (ship in a bottle operator) that takes i-forms
+    valued in the adjoint bundle to much higher-degree forms valued in the adjoint bundle.
+  locus:
+    source: portal-2020
+    timestamp: 01:37:34
+    extraction: lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:305
+  grade: transcript-verified
+  notes: Degree count corrected in-room to d-3+i (portal:313-315); target-space rationale at portal:309.
+    Seminar keeps the phrase ('ship in a bottle operator', ucsd:119). The TOE 2025 episode speaks only
+    contraction/equivariance and NEVER the name — complete-ledger WG-SH3 guard against retro-attributing
+    the word to that episode.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/improvement-register-2026-08-03.md:1882-1884
+    - CANON.md:106
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Portal's general degree law (d-3+i) is confirmed as the degree-three arena; the shiab NAME is
+      never retro-attributed to the TOE episode on any surface found (WG-SH3 guard held).
+- id: SC-GEO-57
+  polarity: ASSERTS
+  claim: There exists an unreleased two-connection complex with a new d-squared, on-shell a complex is
+    birthed, and the Einstein condition is interpreted as a cohomological condition.
+  verbatim: There is a new D squared. I think it's a cyclic crazy, beautiful complex that if you have
+    two connections, uh, I created and have never released to anyone. ... on shell where the equations
+    get satisfied, a complex is birthed. ... interpretation is that the Einstein condition is a cohomological
+    condition.
+  locus:
+    source: toe-2025
+    timestamp: 02:44:06
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:690
+  grade: claim-mine-verified
+  notes: 'Reuses row 25 / WG-X06/X07 (verbatim spans 690-694; the word ''my'' precedes the final segment
+    across the 02:45:13 timestamp break). TRANSCRIPTION-UNCERTAIN: official transcript reads ''acyclic''
+    where local reads ''cyclic'' (complete ledger) — no period, order, or order-3 inference is licensed.
+    The 02:44:36 operator-matrix entries are garbled beyond reliable reconstruction (07-20 TRAPS).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:2257-2267
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The unreleased two-connection complex was BUILT from Eric's four spoken blocks as one total-odd
+      operator (Wave 2), with the on-shell-complex behavior engaged; the cyclic/acyclic transcription
+      uncertainty is honored - no order-3 inference anywhere.
+- id: SC-GEO-58
+  polarity: DISAVOWS
+  claim: There is no Higgs as a separate fundamental ingredient — the Higgs is an illusion, its sector
+    nearly identical in shape to the Yang-Mills sector, with the Mexican-hat potential arising from negative
+    curvature and minimal coupling and Yukawa coupling being the same thing.
+  verbatim: Sure. But there's no Higgs. The Higgs is an illusion. If you look at the Yang Mills sector
+    of the standard model versus the Higgs, it's almost exactly the same.
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:42:42
+    extraction: papers/drafts/Transcript into the impossible.md:146
+  grade: transcript-verified
+  notes: 'Mechanism continues at ucsd:149: negative curvature gives the Mexican hat; ''Minimal coupling
+    and Yukawa coupling are the same thing.'' Complements (does not contradict) the TOE Zen criterion
+    that the Higgs field ''comes out of an add-valued 1-form'' (SC-META-57): origin claim vs fundamental-status
+    denial.'
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:123
+    - lab/process/agent-context-pack.md:26-28
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'No-fundamental-Higgs is typed (Claim 6) and respected: no surface introduces a fundamental
+      Higgs; the algebraic Higgs chain survives only for lower-order Higgs/Yukawa placement.'
+- id: SC-PRE-50
+  polarity: DISAVOWS
+  claim: Superpartners of the hypothesized LHC type will never be seen.
+  verbatim: So I claim that you will never see super partners of the type that we hypothesize would spill
+    out of the LHC. It's not gonna happen.
+  locus:
+    source: toe-2025
+    timestamp: 01:40:52
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:440
+  grade: claim-mine-verified
+  notes: Reuses WG-SG6 / row 10; row 10 notes this is retrodiction-flavored (LHC nulls already public)
+    and not packageable under the repo's pre-registration standard — recorded here at spoken strength
+    only.
+  core: disavowed-by-source
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:22
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Never-see-LHC-superpartners (custody: WG-SG6/row 10, flagged retrodiction-flavored) is on no
+      treatment surface; the adjacent spacetime-SUSY guardian rejection is typed. Cheap tripwire against
+      SUSY-shaped imports if typed.'
+- id: SC-PRE-51
+  polarity: ASSERTS
+  claim: GU predicts spin-3/2 matter coupled to a 16-dimensional vector space resembling the standard-model
+    internal space but with parity reversed and flipped.
+  verbatim: You know you're in GU and GU makes the prediction that there will be spin three halves matter
+    coupled to a 16 dimensional vector space that looks awfully familiar, but that the parity is sort
+    of reversed and flipped.
+  locus:
+    source: toe-2025
+    timestamp: 02:52:38
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:720
+  grade: claim-mine-verified
+  notes: 'Reuses WG-P02 / row 22. Stable across five years: portal:423 (02:07:10) ''a pseudo-generation
+    of 16 particles, spin-3/2, never before seen ... flipped, so that matter looks like anti-matter to
+    this generation''; seminar ucsd:131 ''one family of 16 flipped chiral spin three halves particles''.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/no-go-class-relative-map.md:387
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:234
+    - RESEARCH-STATUS.md:2007
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The 16 flipped spin-3/2 prediction is typed on canon with its own consistency gate (Velo-Zwanziger)
+      built as the source suggested.
+- id: SC-PRE-52
+  polarity: ASSERTS
+  claim: An additional collection of spin-1/2 fermions coupled to a roughly 144-complex-dimensional vector
+    space is predicted, with which the third generation will combine when the broken SU(3)xSU(2)xU(1)
+    rises to a Pati-Salam-level unification.
+  verbatim: you're going to have an additional collection of spin one half fermions that are coupled to,
+    I forget, 144 complex dimensional vector space that nobody's ever seen, and the third generation of
+    fermions that we see that's also spin halves, spin one-half, will combine with that when the group
+    rises from this broken SU3 cross SU2 cross SU1.
+  locus:
+    source: toe-2025
+    timestamp: 02:52:38
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:720
+  grade: claim-mine-verified
+  notes: Reuses WG-P03 / rows 23-24 (verbatim spans 720-722; restated 'I think it's 144 dimensional' at
+    line 726). The 'I forget' hedge is 2025-only — portal:423 (2020) states 144 unhedged, so the number
+    is old and stable, the hedge is recall not revision. Pati-Salam clause continues at line 722.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/hinge-panel-synthesis-2026-08-03.md:76-80
+    - lab/process/layer0-fork-registry.yaml:326-328
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The 144-coupled spin-1/2 sector and the third generation's recombination are computed structure
+      (10x16=144+16; only imposter slots have 144 partners); the five-year-stable 144 is carried.
+- id: SC-PRE-53
+  polarity: UNCERTAIN
+  claim: No mass scale for the predicted new matter is known; a mass prohibition is only assumed because
+    much of it is electrically charged.
+  verbatim: Do you have a mass? Right? I don't really know. ... I assume that there's a mass prohibition
+    because a lot of these things are electrically charged.
+  locus:
+    source: toe-2025
+    timestamp: 02:53:54
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:724
+  grade: claim-mine-verified
+  notes: Reuses WG-P04. The author's own qualification; row 23 notes it blocks near-term testability of
+    SC-PRE-51/52. The 'Do you have a mass?' is the interviewer's challenge voiced inside the author's
+    answer.
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - canon/escape-corners-campaign-RESULTS.md:2
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: No-mass-scale is engaged structurally (no invariant mass channel; mass rides the VEV dial) but
+      the author's own admission and its testability consequence are not carried into the prediction surfaces.
+- id: SC-PRE-54
+  polarity: ASSERTS
+  claim: At higher and higher groups the dimensions of the observed representation spaces will not change,
+    and something that looks like dark matter will come out of its non-luminous phase, coupling to luminous
+    matter in higher-curvature regimes.
+  verbatim: As we go to the higher and higher groups in GU, what you're going to see is those dimensions
+    of the spaces won't change. You will see something that looks like dark matter coming out of its non-luminous
+    phase and being connected and coupled to the luminous matter at higher gravity regimes.
+  locus:
+    source: toe-2025
+    timestamp: 02:50:38
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:716
+  grade: claim-mine-verified
+  notes: 'Reuses WG-P01 / row 21. Clarified in-episode: ''gravity regime just means higher curvature ...
+    Really really what I''m thinking of is high curvature'' (lines 716-718). No scale supplied.'
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - explorations/frontier-design-packets-index-2026-08-11.md:48-53
+    - lab/process/agent-context-pack.md:529-531
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Dark-mirror posture typed; the dims-won't-change / comes-out-of-non-luminous-phase prediction
+      is uncarried, and the repo's own SM-neutral content is correctly fenced as NOT dark matter.
+- id: SC-PRE-55
+  polarity: ASSERTS
+  claim: The no-new-predictions critique is false — almost everything said about GU is untrue — and the
+    model does predict specific unseen matter.
+  verbatim: Why is it that we haven't seen the things that are predicted in the model? But one of the
+    things online that I just find funny is people who don't read things say, well, this makes no new
+    predictions. In general, almost everything said about g u is untrue.
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:41:24
+    extraction: papers/drafts/Transcript into the impossible.md:134
+  grade: transcript-verified
+  notes: Falsifiability-posture remark; the predicted content it defends is SC-PRE-51/52 (seminar slides
+    list quark/antiquark/leptonic analogs, ucsd:134).
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - LANES.yaml:67
+    - canon/no-go-class-relative-map.md:387
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The predictions-exist defense is operationalized by Lane 2's extract/freeze/confront charter;
+      the 'almost everything said about GU is untrue' rhetoric is (correctly) untyped.
+- id: SC-PRE-56
+  polarity: UNCERTAIN
+  claim: Whether the spin-3/2 sector has a Velo-Zwanziger pathology is unknown, because the no-go's assumptions
+    may not apply to a model with no internal symmetry groups — but Velo-Zwanziger is where to start checking.
+  verbatim: 'So if your model differs by having no internal symmetry groups, I have no idea whether it has any
+    kind of a Velo-Zwanziger problem. But I would start with Velo-Zwanziger.'
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:41:48
+    extraction: papers/drafts/Transcript into the impossible.md:140
+  grade: transcript-verified
+  notes: '[ASR] ''Vela Zwanziger'' earlier in the line = Velo-Zwanziger. A self-supplied falsification
+    route for SC-PRE-51, paired with the remark that physicists remember no-go conclusions but not assumptions.'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - CANON.md:192
+    - RESEARCH-STATUS.md:2007
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:177
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The self-supplied falsification route was executed: VZ typed as its own claim, 14D conditionally
+      evaded exactly via the no-internal-symmetry assumptions gap the source pointed at.'
+- id: SC-COS-50
+  polarity: ASSERTS
+  claim: If the DESI trend continues there is no cosmological constant but a variable dark-energy term,
+    which must be able to rise and fall with the Einstein curvature and achieve a VEV, and must carry
+    an automatic differential identity because it sits opposite the divergence-free Einstein tensor.
+  verbatim: from this new DESI experiment that if it continues, there isn't a cosmological constant, it's
+    variable. ... If there is a capital G mu nu curvature tensor, Einstein curvature, then you need the
+    dark energy term to go up and down with it, right? You need it to be able to achieve a VEV, if you
+    will.
+  locus:
+    source: toe-2025
+    timestamp: 02:14:44
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:578
+  grade: claim-mine-verified
+  notes: 'Reuses WG-DE1/DE2 (verbatim spans 578-580; Bianchi/divergence-free rationale at 580-582). Complete-ledger
+    DESI section corrections honored: the author says dark ENERGY (not matter) and does not claim in this
+    episode a numerical pre-DESI prediction; the forward clause is ''if it continues''.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/dark-energy-theta-divergence-free.md:17-21
+    - canon/theta-field-flrw-dark-energy-eos.md:8-12
+    - LANE-STATE.yaml:85-108
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: All three demanded properties are typed (variable/VEV-capable PROVED dynamic; divergence identity
+      conditional; DESI confronted with verdict OPEN and calibrated language); the 'if it continues' clause
+      is mirrored by monitor posture.
+- id: SC-COS-51
+  polarity: ASSERTS
+  claim: The dark-energy term Lambda-g is replaced by the ad-valued one-form varpi minus an inverted-gauge-transformation
+    Maurer-Cartan-type term, and that object solves the cosmological constant problem in GU, leaving only
+    why it is so flat locally.
+  verbatim: 'the dark energy term, which is the cosmological constant times the metric, varpi, an ad-valued one-
+    form, minus the epsilon gauge transformation inverted, counter-rotating the exterior derivative
+    coupled to the aleph connection applied to the epsilon gauge transformation, the sort of the
+    Maurer-Cartan form. That thing is what solves the cosmological constant problem in GU. Now it''s
+    just a VEV. Now your only question is why is it so flat where I live?'
+  locus:
+    source: toe-2025
+    timestamp: 02:22:20
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:608
+  grade: claim-mine-verified
+  notes: Reuses WG-DE3/DE4/DE5 / row 12 (verbatim spans 608-610). [ASR] 'VAR pi' = varpi, 'Moirer-Cartan'
+    = Maurer-Cartan, 'Gia' = GU, 'olive' = the aleph/distinguished connection. Spoken at 'solves' strength
+    — the strongest of the source strengths; the seminar states the same object at formula-claim strength
+    (SC-COS-52). TRANSCRIPTION-UNCERTAIN formula per WG-DE3; sharper draft form T-omega = varpi - epsilon^-1
+    d_0 epsilon lives in the primary-source packet, not this episode.
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/dark-energy-theta-divergence-free.md:10-17
+    - lab/process/improvement-register-2026-08-03.md:1904-1913
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The formula is carried; the ''solves the CC problem'' strength is adjudicated DOWN with artifacts
+      (divergence-free NOT established; ray-not-point: no strengthening of the demand can produce the
+      magnitude). Flip only with a magnitude mechanism.'
+- id: SC-COS-52
+  polarity: ASSERTS
+  claim: The claimed formula for dark energy replaces Lambda-g-mu-nu with a gauge transformation epsilon-omega,
+    an exterior derivative minimally coupled to a connection, and an ad-valued one-form varpi.
+  verbatim: In case any of you have to leave early, my claim is is that this is going to end up as the
+    formula for dark energy, what currently is lambda times g mu nu. Epsilon sub omega is gonna be a gauge
+    transformation. This is gonna be an exterior derivative minimally coupled to a connection that will
+    come from something called alpha. And this is actually a pi, which we don't use all that much, which
+    is an add valued one form or a gauge potential.
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:02:05
+    extraction: papers/drafts/Transcript into the impossible.md:17
+  grade: claim-mine-verified
+  notes: 'Locus pinned by the keating record (its Section 3 caught this being mis-attributed to the interview;
+    cite the seminar, not the interview). Completion at ucsd:86-89 (00:25:56-00:27:00): the replacement
+    term is ''free to respond to gain a veve ... come roaring out of the vacuum ... It''s a field.'''
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - canon/dark-energy-theta-divergence-free.md:21
+    - lab/process/agent-context-pack.md:1382-1394
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Character-level formula match, degree-1 homonym fenced, locus pinned to the seminar [00:23:02]
+      - the SRC-LOCUS case that once mis-attributed this row is the register's named cautionary example.
+- id: SC-COS-53
+  polarity: ASSERTS
+  claim: On the space-of-all-metrics foundation the Einstein-side curvature term appears unique with no
+    other way to get dark energy, so we are likely not working in the right place.
+  verbatim: such a curvature term appears to be unique, and there appears to be no other ways to get dark
+    energy so long as it's sitting on the lousy foundation of the space of all metrics. ... So conclusion
+    is we are likely not working in the right place.
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:12:15
+    extraction: papers/drafts/Transcript into the impossible.md:47
+  grade: claim-mine-verified
+  notes: 'Keating-record rows 3/5 counterpart (tabulated at :47 and :49-50; elision joins line 50). The
+    structural objection itself at ucsd:44 (00:11:09): the constant term ''does satisfy an automatic differential
+    equation ... but it''s completely preposterous, and we can''t figure out how to do better'' (keating
+    row 1 counterpart).'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/improvement-register-2026-08-03.md:1904-1913
+    - explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:45
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The uniqueness/no-other-way claim was paired with the repo's scale-blindness theorem and QUANTIFIED
+      (linear-homogeneous demand forces a ray, never a point) - engagement that sharpens rather than echoes.
+- id: SC-COS-54
+  polarity: ASSERTS
+  claim: The dark-energy-magnitude and spatial-flatness puzzles should reduce to one problem by dynamically
+    identifying two movable fields set equal, the dark-energy side being a field with a VEV that can move
+    with the curvature-side field.
+  verbatim: he describes two movable fields set equal, with one near zero. ... he identifies the dark-energy
+    side as a field with a VEV that can move with the curvature-side field.
+  locus:
+    source: keating-record
+    timestamp: 00:44:43
+    extraction: lab/sources/keating-interview-2025-06-12-source-record.md:176
+  grade: claim-mine-verified
+  notes: 'CAUTION: verbatim here is the RECORD''s paraphrase-with-attribution (lines 176-178), not the
+    author''s words — the interview transcript is not in-repo; the record''s Section 7 primary-verified
+    this passage (official Portal transcript, timestamps 00:44:13-00:45:52) and supersedes its earlier
+    no-citation fence for this passage only. The record warns the source never identifies which curvature
+    field is meant and writes no action.'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1531-1539
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Two-puzzles-to-one is typed and tested (two-values-to-one count passes; screening fails; spatial
+      flatness explicitly not 4D scalar flatness); the record's which-curvature-field warning is respected
+      by SOURCE-SILENT returns.
+- id: SC-META-50
+  polarity: ASSERTS
+  claim: GU's only starting point is four degrees of freedom plus a tiny amount of sectoral information
+    — which spin structure is active and how many temporal dimensions.
+  verbatim: it starts basically from four degrees of freedom and a tiny amount of sectoral information
+    like which spin structure is active and how many temporal dimensions do you want? Um, that's it. That's
+    really the only starting point for geometric unity.
+  locus:
+    source: toe-2025
+    timestamp: 00:03:06
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:26
+  grade: claim-mine-verified
+  notes: 'Reuses WG-A01 / row 1. Restated at toe:732 (02:55:45) and at the seminar close (ucsd:174-176,
+    00:49:16-00:50:09: ''choosing four degrees of freedom, one dimension of time ... and a spin structure
+    ... everything seems to unpack from that''); 2020 sandbox form at portal:157.'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - CANON.md:235
+    - lab/process/agent-context-pack.md:1765-1777
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The minimal-input identity claim is MEASURED rather than assumed (TILT+RESIDUAL; DECLARATION
+      floor with a proof the built structure cannot decide those rows) - the strongest form of adherence
+      for a self-description claim.
+- id: SC-META-51
+  polarity: ASSERTS
+  claim: The generation-labeling confusion is real work-in-progress — 'we're fumbling' — and the theory
+    is presented as a process, not a finished flawless object.
+  verbatim: yeah, this is what happens. We're fumbling. ... Cause this is like, this is, this is because
+    it's real. Like we're trying to develop something and you're making a point where there's confusion
+    of language. And I want to show that this is a process as opposed to I hand you the perfect finished
+    thing. It is flawless.
+  locus:
+    source: toe-2025
+    timestamp: 02:29:30
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:632
+  grade: transcript-verified
+  notes: 'Verbatim spans 632-634. The trailing ''It is flawless.'' is an ASR fragment (plausibly ''as
+    if it is flawless'') — do not over-read. Companion self-correction earlier: ''I often say that something
+    is a projection operator and you point out that it''s a contraction operator ... you were correct.
+    I''m wrong'' (toe:422, 01:36:35; WG-B06).'
+  core: auxiliary
+  adherence:
+    adherence: UNTYPED
+    evidence:
+    - lab/process/improvement-register-2026-08-03.md:1896-1903
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: The we're-fumbling process framing has no row; the repo's own correction discipline parallels
+      it. No cost.
+- id: SC-META-52
+  polarity: UNCERTAIN
+  claim: The author does not know how to deal with ultrahyperbolic equations; upstairs on the 14-manifold
+    there are no initial conditions, only boundary conditions, and the well-posedness of the Cauchy problem
+    there is something the author reports having had to be told.
+  verbatim: 'So for example, I don''t know how to deal with ultra hyperbolic equations. So if I think upstairs on
+    the 14 manifold, I''m not, there are no initial conditions because that''s a co-dimension one
+    concept. Really what you have is boundary conditions. And now good luck. I don''t, I think I had
+    to be told that the Cauchy problem was well posed in ultrahyperbolic equations.'
+  locus:
+    source: toe-2025
+    timestamp: 01:17:10
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:338
+  grade: claim-mine-verified
+  notes: '[ASR] ''ultra-hydraulic'' = ultrahyperbolic (verbatim runs into line 340). Reuses WG-A16 (multiple-time
+    dynamics/quantization framed as technical debt). Quantization posture in the same conversation: ''Who
+    said I can''t go into technical debt and say, I don''t know how [it''s] going to quantize this theory''
+    (toe:372, 01:24:07; ASR garbles the pronoun as ''she''s'').'
+  core: auxiliary
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - RESEARCH-STATUS.md:215
+    - lab/process/agent-context-pack.md:1464-1467
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Ultrahyperbolic technical debt is SOURCE-CONFIRMED by name (with the Craig-Weinstein remedy
+      typed and tested at v0.170) and the no-spacelike-hypersurface obstruction is a standing fence -
+      the admission is carried as live mathematics.
+- id: SC-META-53
+  polarity: UNCERTAIN
+  claim: How to deal with unbounded spectra from indefinite Killing forms is not known; the claim is that
+    we do not know how nature handles it because observation is shielded by maximal compact subgroups,
+    which is what picks out Spin(6) x Spin(4) as the Pati-Salam model.
+  verbatim: How do you deal with unbounded spectra? Well, I don't know. What my claim is, is that we don't
+    know how nature deals with it because we're shielded because of maximal compact subgroups. In other
+    words, what is picking out spin 6 cross spin 4 as the Patissalam model is maximal compact inside of
+    a different real form of spin 10 than the SO10 theory.
+  locus:
+    source: toe-2025
+    timestamp: 01:22:30
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:366
+  grade: claim-mine-verified
+  notes: 'Reuses WG-A15. The opening question is the interviewer''s; the ''Well, I don''t know'' and the
+    shielding claim are the author''s. Seminar twin ucsd:155 (00:45:00): ''We wasted the seventies work
+    because we wanted to avoid indefinite signature on the killing form ... We''re shielded experimentally.'''
+  core: auxiliary
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - NEXT-STEPS.md:5106
+    - NEXT-STEPS.md:5539
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:20
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'The max-compact-picks-Pati-Salam chain is computed, but the shielding claim is not carried
+      as a mechanism: the compact reduction is typed REDUCTION_EXTERNAL and positivity work runs on the
+      Krein keep-and-grade posture instead.'
+- id: SC-META-54
+  polarity: DISAVOWS
+  claim: There is no global section in GU — the interviewer's recollection of a global metric section
+    implying bundle triviality is rejected in the exchange.
+  verbatim: Well, the reason I say that is because in GU there's a global section. So you can't take a
+    global section unless the bundle is trivial. There isn't a global section. You're talking about the
+    metric section. No, no, no.
+  locus:
+    source: toe-2025
+    timestamp: 01:18:06
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:342
+  grade: claim-mine-verified
+  notes: 'Reuses WG-A10a, which grades the whole exchange SEMANTICALLY UNCERTAIN: the dialogue (lines
+    342-348, incl. the iota-local / gimel-global notation recollection) leaves the global-section semantics
+    disputed; the quotable authorial utterance is the denial. Do not infer a settled global-trivialization
+    posture in either direction.'
+  core: disavowed-by-source
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/process/agent-context-pack.md:966-970
+    - lab/process/layer0-fork-registry.yaml:404-418
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Section-existence topology is computed (v0.79 kills arbitrary-X Lorentz sections) and section-vs-observerse
+      is a live fork, but nothing links these to the semantically-uncertain spoken denial (WG-A10a custody)
+      - fine as long as no surface asserts a settled global-section posture.
+- id: SC-META-55
+  polarity: DISAVOWS
+  claim: 'Spacetime supersymmetry is totally rejected: Minkowski space is an approximation (''a fugazi''),
+    and the legitimate affine input for the graded construction is the space of connections.'
+  verbatim: Totally reject space-time supersymmetry. ... the input is not Minkowski space. Minkowski space
+    doesn't exist. It's a fugazi, right? It's an approximation. The space of connections is a legitimate
+    affine space.
+  locus:
+    source: toe-2025
+    timestamp: 01:40:09
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:436
+  grade: claim-mine-verified
+  notes: 'Reuses WG-SG3/SG6 (verbatim spans 436-442; the positive concept at 442: adjoin fractional-spin
+    fields whose algebraic pairing lands in the Lie algebra of the honest group). Seminar twin ucsd:158:
+    ''We will never find space time Susie. ... Don''t feed it Minkowski space. Feed it the space of connections.''
+    Pairs with SC-GEN-54 and SC-PRE-50.'
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - GEOMETER-VS-PHYSICS-OBJECTS.md:22
+    - lab/process/agent-context-pack.md:1525-1529
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: Spacetime-SUSY rejection is a settled table row (super-IG is the guardian, {Q,Q}~Omega^1(ad))
+      and the space-of-connections input is the typed odd-bracket target.
+- id: SC-META-56
+  polarity: DISAVOWS
+  claim: Having an action for the supersymmetry-like graded structure is not what is needed to do GU —
+    the author declines the demand rather than supplying one.
+  verbatim: are you saying it's a supersymmetric theory? Do you have an action? I don't want to get into
+    that because that's not what we need to do to do GU.
+  locus:
+    source: toe-2025
+    timestamp: 01:44:14
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:450
+  grade: claim-mine-verified
+  notes: Verbatim spans 450-452 (the question is voiced by the author as an anticipated objection). 07-20
+    Section 9.2 reads this with portal:267 (01:29:47, odd products land in the linear connection sector)
+    as supporting an odd module and bracket without an odd action symmetry; that SOURCE-CORRECTS disposition
+    is recorded there, not re-adjudicated here.
+  core: disavowed-by-source
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - lab/process/agent-context-pack.md:1527-1529
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'Exact: ''Weinstein expressly declines an odd action as a prerequisite for GU. Do not block
+      the physical positivity action on an unasserted odd BV symmetry.'' The declination is a standing
+      fence.'
+- id: SC-META-57
+  polarity: ASSERTS
+  claim: 'GU''s identity criteria: the inhomogeneous Lorentz group is replaced by the inhomogeneous gauge
+    group, most of the time is spent on a 14-manifold constructed from the 4-manifold, there are no internal
+    symmetry groups, and the Higgs field comes out of an ad-valued 1-form.'
+  verbatim: You know you're in GU, where you, when you replace the inhomogeneous Lorentz group with the
+    inhomogeneous gauge group. You know you're in GU where you spend most of your time on a 14 manifold
+    rather than on a 4 manifold where the 14 manifold is constructed from the 4 manifold. You know you're
+    in GU when there are no internal symmetry groups. You know you're in GU when the Higgs field comes
+    out of an add-valued 1-4.
+  locus:
+    source: toe-2025
+    timestamp: 01:35:23
+    extraction: lab/sources/transcripts/toe-weinstein-gu-40-years.md:418
+  grade: claim-mine-verified
+  notes: 'Reuses WG-IG1/C01/C02 and rows 7-8 (verbatim spans 418-420; [ASR] ''1-4'' = 1-form). The unified-field
+    completion: ''you start with the inhomogeneous gauge group and then you effectively supersymmetrize
+    it and that is the gauge content'' (toe:428, 01:38:35, WG-C03). The 2020 problem statement this cures:
+    symmetry groups as ''additional data that come to us out of the blue without explanation'' (portal:115,
+    00:43:47 — repo header flags it as the EXOGENOUS-DATA passage).'
+  core: hard-core
+  adherence:
+    adherence: ADHERED
+    evidence:
+    - NEXT-STEPS.md:6156
+    - canon/no-go-class-relative-map.md:387
+    - lab/process/agent-context-pack.md:1366-1376
+    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
+    date: 2026-08-11
+    note: 'All four you-know-you''re-in-GU criteria are carried: IGG replacement, 14-from-4 substrate,
+      no internal symmetry groups (VZ-evasion premise), Higgs out of an ad-valued 1-form (displaced-torsion
+      carrier).'

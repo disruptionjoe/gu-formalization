@@ -56,12 +56,12 @@ def main() -> None:
     }
     expected = {
         "rendered": "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4",
-        "ucsd_raw": "e14ae1fb970d7b79eea65207224352f51eb15069dbc6b96106e05cb10490981d",
-        "ucsd_edited": "ded97968f444ca30af06bc9cc869becccd5cf5033f3e846ad2095e8674a8fa7b",
-        "toe": "f4dfda897a181369103cde913b49b1bb57a61c455092ad5eeac0664eb0da9d24",
+        "ucsd_raw": "96ed4c10383a4088887f6a2222a2868ea18e7652dd432544988c01b0ea7258c7",
+        "ucsd_edited": "cbd7b657b5f4dd80216c3c2242da25dd9d42169f3dd396c5e8db4b3653c659ae",
+        "toe": "056d188eb46b1756cb211b0e1758f9be12334391f892ee51250008f2c5f88bea",
         "portal": "bd9f53ab7dc631fb01265c7a89893a773592e6a1215211b21a5833cc5cd4165d",
         "variation_audit": "89b600c696e320138663597c6bb24ff0ff5f91dc441f1a13211195e8fc34bd0f",
-        "pw2f_manifest": "64a6de927658a485e0aa31348062b6b2ffa7f9455e99b594f07c86e16b322604",
+        "pw2f_manifest": "202850ca5fe27fe5ff8f6dc4d6530b50acb83cef8339739f25e78bb913f8d232",
     }
     check("all seven pinned corpus/control artifact digests match", all(digest(paths[key]) == value for key, value in expected.items()))
 
@@ -88,7 +88,7 @@ def main() -> None:
     )
     source(
         "TOE confirms gauge-rotated Levi-Civita in the contortion slot",
-        "[02:19:17]" in toe and "gauge rotated Levy-Chevita connection" in toe,
+        "[02:19:17]" in toe and "gauge rotated Levi-Civita connection" in toe,
     )
     source(
         "Portal requires an unspecified quadratic-eddy completion of Shiab-contracted curvature for total-swervature exactness",

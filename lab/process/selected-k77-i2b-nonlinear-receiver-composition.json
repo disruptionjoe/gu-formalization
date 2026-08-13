@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-151325-gu-i2b-nonlinear-receiver-composition",
+  "status": "NONLINEAR_PRODUCT_RECEIVER_EXACT__ARBITRARY_FIELD_I2B_EULER_PREBOUNDARY_COEFFICIENTS_OPEN",
+  "source_return": "SOURCE_CORRECTS_NAIVE_PULLBACK__SOURCE_CONFIRMS_EPSILON_CONJUGATED_FRAME_AND_TWO_CONNECTION_GRAMMAR__SOURCE_SILENT_EXACT_PRODUCT_RECEIVER_AND_I2B_ARBITRARY_FIELD_EULER",
+  "layer0": {
+    "observation_projector": "P_J_ON_TY14",
+    "residual_primalizer": "P_PLUS_ON_392_REAL_RESIDUAL_COORDINATES",
+    "complete_receiver": "TANGENT_NORMAL_TIMES_FIXED_ANTIFIXED_DIRECT_SUM",
+    "ordinary_pullback": "RANK4_WITH_RANK10_CONORMAL_KERNEL",
+    "source_epsilon": "DISTINCT_DEPENDENT_CLIFFORD_FRAME",
+    "physical_quotient": "NOT_CONSTRUCTED"
+  },
+  "exact_results": {
+    "observation_ranks": [4, 10],
+    "residual_ranks": [196, 196],
+    "product_sector_ranks": [784, 784, 1960, 1960],
+    "product_total_rank": 5488,
+    "pairwise_complementary": true,
+    "identity_reconstruction": true,
+    "q_row_directions": 4,
+    "q_row_derivative_rank": 4,
+    "moving_product_reconstruction_failures": 0,
+    "differentiated_sector_failures": 0,
+    "frozen_observation_factor_rejected": true,
+    "frozen_primalizer_factor_rejected": true,
+    "mixed_overlap_naturality": true,
+    "ordinary_pullback_rank": 4,
+    "ordinary_pullback_conormal_kernel": 10,
+    "nonzero_conormal_witness_retained": true,
+    "radial_residual_derivatives_nonzero": 4,
+    "radial_action_derivatives_zero": 4
+  },
+  "scope": {
+    "nonlinear_receiver": "CLOSED_AT_EXACT_ASSOCIATED_BUNDLE_COMPOSITION_GRADE",
+    "source_epsilon_identification": "OPEN_BUT_NOT_REQUIRED_TO_DEFINE_RECEIVER",
+    "physical_section_coefficients": "OPEN",
+    "arbitrary_field_i2b_euler": "OPEN",
+    "presymplectic_preboundary": "OPEN",
+    "analytic_domain_and_spectrum": "OPEN"
+  },
+  "accounting": {
+    "free_object_delta": 0,
+    "residue_delta": 0,
+    "quotient_delta": 0,
+    "external_datum": {
+      "P1": "UNUSED",
+      "P2": "UNUSED",
+      "P3": "UNUSED"
+    }
+  },
+  "hostile_verdict": "SURVIVES_SCOPED__NONLINEAR_PRODUCT_RECEIVER_EXACT__NOT_PHYSICAL_QUOTIENT_OR_EULER_CLOSURE",
+  "mailbox_postflight": "NO_NEW_GU_NOTE_AFTER_2026_08_10__NO_PRIORITY_DISPLACEMENT",
+  "next_gate": "ASSEMBLE_REMAINING_ARBITRARY_FIELD_I2B_EULER_AND_ACTION_OWNED_GREEN_PREBOUNDARY_COEFFICIENTS_INSIDE_COMPLETE_RECEIVER"
+}

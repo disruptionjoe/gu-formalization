@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "work_item": "SELECTED_K77_NONLOCAL_ULTRAHYPERBOLIC_POLARIZATION_GATE",
+  "run_id": "RUN-20260811-091040-gu-k77-nonlocal-ultrahyperbolic-polarization-gate",
+  "status": "CONDITIONAL_STRICT_CENTER_PRINCIPAL_DOMAIN_INGREDIENT_BUILT__SELECTED_ACTION_GREEN_BFV_OVERLAP_NONLINEAR_AND_SOURCE_SELECTION_OPEN",
+  "layer0": {
+    "scalar_donor": "Craig-Weinstein scalar ultrahyperbolic Cauchy-data constraint",
+    "matrix_object": "real-K77 source-shaped Omega1(S) plus Omega0(S) principal operator",
+    "not_equal": "scalar Fourier support does not remove a matrix Jordan remainder",
+    "not_bv": "restriction to a frequency-dependent kernel is not quotient by a gauge or BV image",
+    "not_closed_domain": "a flat principal-symbol condition is not a selected closed curved domain"
+  },
+  "craig_weinstein": {
+    "citation": "Walter Craig and Steven Weinstein, On determinism and well-posedness in multiple time dimensions, arXiv:0812.0210",
+    "center_condition": "rho2=|xi_space|^2-|eta_extra_time|^2>0",
+    "two_sided_center_support": true,
+    "one_sided_stable_unstable_relations_ported_to_gu": false,
+    "alone_repairs_gu_jordan_defect": false
+  },
+  "exact_real_k77": {
+    "operator_dimension": 1920,
+    "normal_inverse_two_sided_exact": true,
+    "tested_center_covectors": 3,
+    "tested_null_covectors": 1,
+    "tested_extra_time_dominant_covectors": 1,
+    "center_jordan_remainder_rank_each": 128,
+    "center_jordan_remainder_square_zero": true
+  },
+  "gu_matrix_polarization": {
+    "constraint": "N(k) u_hat(k)=0",
+    "N": "E(k)^2-rho(k)^2 I",
+    "frequency_dependent": true,
+    "homogeneous_degree": 2,
+    "pointwise_rank": 128,
+    "kernel_dimension": 1792,
+    "propagated_at_flat_principal_symbol_grade": true,
+    "removes_generalized_chains_on_strict_center_cone": true,
+    "observed_four_vector_plus_nu_rank_retained": 640,
+    "minimum_pointwise_constraint_codimension": 128,
+    "source_selected": false
+  },
+  "prior_art_credit": {
+    "v0_168": "owns the rank-128 square-zero remainder on observed spatial directions",
+    "B2B_B2C1": "own the older Jordan obstruction and direction-dependent factor/quotient failures",
+    "relative_increment": "types Craig-Weinstein center support against the current full real-K77 operator, tests extra-time mixed tangential frequencies, and constructs the combined strict-center plus symbol-polarization principal domain ingredient while preserving observation rank"
+  },
+  "open": {
+    "selected_action_compatibility": true,
+    "green_isotropy_or_coisotropy": true,
+    "bfv_compatibility": true,
+    "curved_pseudodifferential_overlap_completion": true,
+    "nonlinear_constraint_propagation": true,
+    "one_sided_stable_unstable_gu_port": true,
+    "source_or_external_datum_selection": true
+  },
+  "source_return": "SOURCE_CONFIRMS_ULTRAHYPERBOLIC_BOUNDARY_TECHNICAL_DEBT_AND_SCALAR_CRAIG_WEINSTEIN_NONLOCAL_REMEDY__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_GU_MATRIX_POLARIZATION_SELECTED_ACTION_DOMAIN_GREEN_BFV_AND_NONLINEAR_PROPAGATION",
+  "hostile_verdict": "SCOPED_SURVIVES__SCALAR_CENTER_SUPPORT_ALONE_FAILS__STRICT_CENTER_PLUS_CANONICAL_N_KERNEL_IS_A_CONDITIONAL_FLAT_PRINCIPAL_DOMAIN_INGREDIENT_NOT_A_CLOSED_PHYSICAL_DOMAIN",
+  "accounting": {
+    "P1_P2_P3": "UNCHANGED_UNUSED",
+    "verdict_change": false,
+    "residue_change": false,
+    "quotient_change": false,
+    "canon_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "TEST_THE_STRICT_CENTER_PLUS_N_KERNEL_AGAINST_THE_SELECTED_ACTION_GREEN_FORM_AND_PATCH_OVERLAP__THEN_DECIDE_CURVED_PSEUDODIFFERENTIAL_AND_BFV_COMPATIBILITY_BEFORE_ANY_DOMAIN_OR_INDEX_PROMOTION",
+  "probe": "tests/channel-swings/selected_k77_nonlocal_ultrahyperbolic_polarization_gate_probe.py"
+}

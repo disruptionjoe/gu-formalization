@@ -2,56 +2,63 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-08-03T13:00:00-05:00'
-run_ref: REGISTER-20260803-P-H14-lane-state-refresh
+updated_at: '2026-08-13T12:51:09-05:00'
+run_ref: RUN-20260813-175109-gu-i2b-action-euler-principal-owner
 provenance: refreshed 2026-08-03 per audit CG-08/F-04 (eleven-lens B14 ledger-drift
   cluster; register P-H14). Mechanical fields are henceforth checked by
   lab/automation/derive_lane_state.py and process_gates/lane_state_freshness_audit.py
-  (register P-H15).
-bottom_line: The interior program is honestly split; the B5 independent
-  reconstruction is BLOCKED at the five-field native operator/domain packet
-  (2026-07-29 audit), RB7 killed the stationary non-metric order parameter as a
-  saddle with its FD-read numbers now governed by the exact-derivative
-  acceptance rule, and the pw2fr repair campaign runs live on
-  agent/null-clifford-omega1-repair. The audit/register execution corrected the
-  coordination surfaces, four paper seeds shipped to the drafting factory, and
-  LNF v1.0.0 stands published.
-decision_default: Require the five-field native packet (slot-pairing phases,
-  coflip linearity/phases, formal-adjoint sign, program-native Green form,
-  common closed domain) before selecting any B5 coefficient space; do not cite
-  an FD-read null or kill until it is certified with exact derivatives or
-  interval arithmetic (P-H29); do not substitute an imposed positive-Hilbert
-  wall for a target-blind dynamical selector.
+  (register P-H15). REFRESHED 2026-08-13 by a Lane A stewardship run after this
+  file was found ten days and 478 commits stale while its freshness gate still
+  passed - the gate measured lag against the evidence THIS FILE cites, so a
+  surface that stops pointing at current work stayed fresh by construction. The
+  gate was extended in the same run with an absolute-currency check. Narrative
+  fields below refreshed; Lanes 2 and 3 left as found because their movement was
+  not independently verified, and that omission is recorded in the run record.
+bottom_line: The live Lane 1 front is the K77 operator/observation campaign on
+  agent/operator-anomaly-big-swing, at conditional-physics ledger v0.237 with
+  82/82 targets mapped and the headline unmoved by design. The printed endpoint
+  has a rank-196 holonomic jet image, but that result does not transfer to the
+  fixed-bank action-derived E_act principal map, whose rank is zero. 478 commits landed
+  between this file's previous refresh (2026-08-03) and 2026-08-13. The B5
+  five-field packet remains blocked but is NO LONGER the live front, and the
+  pw2fr repair branch named by the previous refresh is not the current work.
+  A 2026-08-13 Lane A drain pass cleared the GU mailbox - 26 notes
+  dispositioned (9 absorbed, 3 superseded, 1 declined, 8 still-live), the queue
+  having been unarchived since 2026-07-20.
+decision_default: P-H29 stands unchanged - do not cite an FD-read null or kill
+  until it is certified with exact derivatives or interval arithmetic. The
+  five-field B5 packet requirement still gates any INTERIOR wave but no longer
+  describes the live front; route new work against the current ledger v0.237
+  queue and the eight still-live items recovered by the 2026-08-13 drain pass
+  (explorations/lane-a-mailbox-drain-pass-2026-08-13.md). Do not substitute an
+  imposed positive-Hilbert wall for a target-blind dynamical selector.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: yellow
-  reason_code: interior_blocked_boundary_program_running
-  evidence_ref: lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md;
-    explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md
+  reason_code: k77_operator_observation_campaign_live_interior_still_blocked
+  evidence_ref: lab/process/conditional-physics-ledger-v0.237.json;
+    explorations/lane-a-mailbox-drain-pass-2026-08-13.md;
+    lab/process/runs/GUH-20260729T131135Z-b5-native-packet-source-audit/run-plan.md
   work_status: moving
-  last_movement: The 2026-07-29 B5 native-packet source audit returned BLOCKED
-    (none of the five required packet fields is fixed by a repository-owned
-    construction); RB7 (2026-07-30) killed the stationary non-metric order
-    parameter (isotropic Hessian {-m^2, -m^2, 2m^2}, every generic branch a
-    saddle, W177 vertical component killed); the pw2fr campaign continues on
-    agent/null-clifford-omega1-repair (latest 32f700d, 2026-08-03); the M-C3
-    commutant-trichotomy and M-H1 J-restriction probes executed with
-    hostile-review corrections (2026-08-03).
-  movement_ref: explorations/observable-algebra-commutant-trichotomy-2026-08-03.md;
-    explorations/oq-rk1-j-restriction-on-branched-slots-2026-08-03.md
+  last_movement: Ledger v0.237 distinguishes the literal printed endpoint from
+    the action-derived Euler rival at principal grade. Endpoint raw responses
+    remain live and holonomically full-rank, while the selected first-action
+    pairing annihilates them in all four observed directions. The endpoint jet
+    repair therefore cannot be ported to E_act without a full moving owner.
+  movement_ref: explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
-  summary: The interior is blocked-plus-killed at its current rungs (B5 five-field
-    packet gap; RB7 saddle), while the boundary/repair program keeps moving on
-    its own branch under the newly adopted wave-scheduling and exact-derivative
-    acceptance rules (P-H28/29).
-  progress_delta: Replaced the stale green-up-moving story with the recorded
-    2026-07-29/30 results and the live campaign; no interior claim was
-    manufactured to keep the lane green.
+  summary: Lane 1 now has two explicitly typed action owners rather than one
+    blended PDE. Rank one is to derive the operative completed second action
+    and its moving metric/section/Shiab/Q_B principal map, with the physical
+    tangent/BV graph as a disjoint parallel gate.
+  progress_delta: Closed one false transfer between the endpoint and E_act
+    Spencer problems; exposed one owner decision without moving a physics
+    verdict, residue coordinate, datum, canon claim or public posture.
   scope_position: The imposed-wall comparator (2026-07-26) remains the last
     interior positive control; a target-blind dynamical selector, the five-field
     operator/domain packet, and exact-derivative recertification of the RB6/RB7/
@@ -80,20 +87,23 @@ lanes:
     from support multiplicities; do not start a new interior wave until the
     prior wave's null is certified with exact derivatives.
   needs_joe: false
-  evaluated_at: '2026-08-03T13:00:00-05:00'
+  evaluated_at: '2026-08-13T18:30:00-05:00'
   run_ref: REGISTER-20260803-P-H14-lane-state-refresh
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
   light: yellow
-  reason_code: de_language_calibrated_monitors_active
+  reason_code: primary_route_counted_not_packet_worthy_xs_s_decision_pending
   evidence_ref: canon/theta-field-flrw-dark-energy-eos.md
-  work_status: waiting_external
-  last_movement: Executed the DARK-ENERGY-07 statistical-language calibration
-    (2026-08-03, register M-H12) - the 3.2 is a 2-dof radius (~2.7 sigma 1-D),
-    f0 bounds are ~3x looser profiled, the mechanism is shape not amplitude,
-    the SNe-can-only-hurt sentence is retracted, and the family-level claim is
-    scoped to signal-level-excluded / family-unconstrained.
+  work_status: blocked_on_internal_decision
+  last_movement: Evaluated 2026-08-13. The lane's OWN work has not advanced since
+    2026-08-03; the three intervening commits that mention prediction or DESI
+    terms are Lane 1 and Lane 3 work plus two side-session design packets. The
+    2026-08-11 Lane 2 prediction packet counted the primary route - the r(N(z))
+    dark-energy refit - as NOT packet-worthy on any horn, strict surplus at most
+    -4, because the rise realization is free. The strongest banked asset is the
+    hardened FC-d tripwire at margin +1.11 (W226), which supersedes the older
+    +0.032 figure still quoted in some anchors.
   movement_ref: canon/theta-field-flrw-dark-energy-eos.md
   steering_attention: none
   steering_prompt: none
@@ -125,20 +135,27 @@ lanes:
   decision_default: Keep PP1/PP3 immutable, do not rescore known DR2 values, and
     reopen DE-AMP only on corrected data, changed frozen structure, or a defect.
   needs_joe: false
-  evaluated_at: '2026-08-03T13:00:00-05:00'
+  evaluated_at: '2026-08-13T19:15:00-05:00'
   run_ref: REGISTER-20260803-P-H14-lane-state-refresh
 - lane_id: '3'
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
   light: green
-  reason_code: compact_image_published_state_reconciled
+  reason_code: two_releases_stand_2plus1_paper_drafted_imposter_fork_resolved
   evidence_ref: papers/candidates/located-not-forced/FINAL-RELEASE-RECEIPT-v1.0.0.md;
     papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
   work_status: moving
-  last_movement: Published Compact-Image Obstructions v1.0.0 on Zenodo on
-    2026-08-03 after zero-action hostile saturation, exact computational and
-    Lean checks, clean-room reproduction, and 13-page visual QA. The public
-    record and all 15 deposited-file checksums were inspected and reconciled.
+  last_movement: Evaluated 2026-08-13 and genuinely moving. Since the previous
+    refresh the lane drafted the 2+1 mechanism paper One Generation, Not Three
+    (~15pp plus evidence map), resolved the imposter A/B fork as Reading A at
+    confidence 0.90 with a J5 hostile review passed-with-corrections, documented
+    the Boyle-Turok foil as the sharpest published fence marker, and DECLINED two
+    externally-facing candidates after a novelty check found both already known.
+    Two releases stand at v1.0.0 - good-stable-compactification-no-go and
+    located-not-forced. Publication-readiness item now open - the KO-degree
+    obstruction ladder is status staged with tier internal, and its GU-independent
+    disjointness core is the strongest publishable unit not requiring the main
+    path.
   movement_ref: papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
   steering_attention: none
   steering_prompt: none
@@ -175,13 +192,13 @@ lanes:
     file correction requires a new Zenodo version; external distribution is
     separately Joe-directed and never blocks repo work.
   needs_joe: false
-  evaluated_at: '2026-08-03T14:50:00-05:00'
+  evaluated_at: '2026-08-13T19:15:00-05:00'
   run_ref: papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
 - lane_id: A
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: audit_register_batches_1_2_executed
+  reason_code: mailbox_drained_2026_08_13_eight_live_items_recovered
   evidence_ref: lab/process/eleven-lens-audit-2026-08-03.md; lab/process/improvement-register-2026-08-03.md
   work_status: moving
   last_movement: Filed the eleven-lens audit, the five-mathematician panel
@@ -235,5 +252,5 @@ lanes:
   attention_pointer: 'Nothing needs Joe: the full Tier-0 queue (J1-J5) is
     executed and recorded, including J3 (main fast-forwarded + lnf-v1.0.0 tag,
     2026-08-03). No lane work is blocked on Joe.'
-  evaluated_at: '2026-08-03T13:00:00-05:00'
+  evaluated_at: '2026-08-13T18:30:00-05:00'
   run_ref: REGISTER-20260803-P-H14-lane-state-refresh

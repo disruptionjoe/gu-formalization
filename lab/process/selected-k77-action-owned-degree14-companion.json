@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "ACTION_COMPANION_EXACT__MOVING_K77_OBSERVATION_INSERTION_OPEN",
+  "ledger": "lab/process/conditional-physics-ledger-v0.64.json",
+  "source_return": "SOURCE-CONFIRMS__PRINTED_XI_EQUALS_D_UPSILON_REDUNDANCY__REPO-DERIVES__ACTION_COMPANION_EQUALS_DB_ADJOINT_EB_MINUS_ET_PLUS_MOVING_SHIAB__SOURCE-SILENT__FULL_K77_OBSERVATION_INSERTION",
+  "layer0": {
+    "printed_xi": "D_OMEGA_UPSILON_PRINT__ON_RESIDUAL_REDUNDANCY__SUPERSEDED_ENDPOINT",
+    "action_companion": "D_B_ADJOINT_E_B_MINUS_E_T_PLUS_D_EPSILON_SHIAB_ADJOINT_K_S",
+    "primitive_epsilon": "EULER_EQUATION__GENERICALLY_NONZERO_OFF_SHELL",
+    "homogeneous_gauge": "OFFSHELL_WARD_CONTRACTION__ZERO_WITH_MOVING_SHIAB",
+    "presymplectic": "ANTISYMMETRIZED_SECOND_VARIATION__NOT_CONSTRUCTED"
+  },
+  "exact_fixture": {
+    "e_c": [["15/2", "17/2", "10"], ["15/2", "-5/2", "14"], ["14", "13", "18"]],
+    "e_t": [["134/21", "7", "167/21"], ["-15/14", "-359/42", "-39/14"], ["101/6", "241/14", "527/21"]],
+    "connection_adjoint": [["-27/7", "62/21", "71/42"], ["-23/14", "-73/14", "446/21"], ["244/21", "185/21", "127/14"]],
+    "moving_shiab": [["-35/3", "-19/3", "26/3"], ["-67/3", "-47/2", "-131/6"], ["-10/3", "-33", "211/6"]],
+    "e_epsilon": [["-326/21", "-71/21", "145/14"], ["-1007/42", "-201/7", "-25/42"], ["58/7", "-508/21", "929/21"]],
+    "held_eta_pairing": "-103/42",
+    "all_nine_epsilon_units": true,
+    "e_b_live": true,
+    "e_t_live": true,
+    "moving_shiab_live": true,
+    "naive_d_a_e_t_rejected_both_signs": true,
+    "homogeneous_ward_zero": true
+  },
+  "degree_typing": {
+    "connection_variations": 1,
+    "connection_euler_density_duals": 13,
+    "epsilon_parameter": 0,
+    "epsilon_euler_density_dual": 14,
+    "boundary_flux": "ETA_TRACE_PAIRED_WITH_NORMAL_E_B_MINUS_E_T"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 1
+  },
+  "open": {
+    "coefficientwise_k77_action_euler_insertion": true,
+    "moving_hodge_krein_section_target_green": true,
+    "antisymmetrized_presymplectic_current": true,
+    "physical_bfv_quotient": true,
+    "common_krein_domain": true
+  },
+  "p1_p2_p3": "UNCHANGED_AND_UNUSED",
+  "next_gate": "MOVING_HODGE_KREIN_SECTION_TARGET_GREEN_IDENTITY_ON_ACTION_EULER__THEN_ANTISYMMETRIZE"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "NULL_GRAPH_AND_ONE_CONORMAL_PROLONGATION_PASS__PAIRED_ACTION_DUAL_GREEN_OWNER_OPEN",
+  "ledger": "lab/process/conditional-physics-ledger-v0.62.json",
+  "source_return": "SOURCE-CONFIRMS__PAIRED_UPSILON_XI_FIRST_VARIATION_AND_XI_EQUALS_D_UPSILON__SOURCE-SILENT__EQUATION_DUAL_OBSERVATION_MAP_AND_GREEN_PAIRING",
+  "null_response": {
+    "domain_dimension": 1470,
+    "output_support": 6530,
+    "clifford_grades": [1, 2, 5],
+    "rank": 1470,
+    "nullity": 0,
+    "independent_sage_flint_qq_rank": 1470,
+    "solution_supports": [103, 84, 73, 73],
+    "solution_family_rank": 4
+  },
+  "conormal_prolongation": {
+    "direction": "e1 from q=e0 toward q=e0+e1",
+    "unique": true,
+    "supports": [30, 37, 29, 29],
+    "differentiated_fixed_target_identity": true,
+    "equals_finite_null_graph": false
+  },
+  "principal_symbol": {
+    "rank": 650,
+    "nullity": 820,
+    "output_support": 3224,
+    "nonzero_basis_columns": 1365,
+    "graph_supports": [16, 25, 25, 25],
+    "graph_family_rank": 4,
+    "q_parallel_zero_control_columns": 105
+  },
+  "boundary": {
+    "green_owner_required": true,
+    "invariant_action_pairing_built": false,
+    "paired_upsilon_xi_equation_dual_built": false,
+    "reduced_presymplectic_class_built": false,
+    "physical_bfv_phase_space_built": false
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "p1_p2_p3": "UNCHANGED_AND_UNUSED",
+  "next_gate": "PAIRED_UPSILON_XI_ACTION_DUAL_AND_MOVING_HODGE_OBSERVATION_GREEN_IDENTITY"
+}

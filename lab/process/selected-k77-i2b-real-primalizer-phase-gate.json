@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-163746-gu-i2b-real-primalizer-phase-gate",
+  "ledger_version": "0.214",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_BOSONIC_RESIDUAL_NORM_SLOT__SOURCE_SILENT_QB_REAL_FORM__REPO_DERIVES_PHASE_EVEN_RANK4_CANDIDATE_BUT_NONCOMPACT_UNITARY_NONINVARIANT",
+  "layer0": {
+    "source_norm_vs_typed_QB": "DISTINCT",
+    "complex_bilinear_vs_phase_even": "DISTINCT",
+    "phase_even_vs_positive_hilbert_majorant": "DISTINCT",
+    "fixed_real_projector_vs_nonlinear_replacement": "DISTINCT",
+    "carrier_halves": "C^(32,32)+C^(32,32)",
+    "derived_block_subgroup": "U(32,32)xU(32,32)",
+    "full_parent": "U(64,64)",
+    "independent_connections": "DISTINCT_FROM_ALL_THREE"
+  },
+  "exact_results": {
+    "response_carrier": "V tensor Lambda^2(V)",
+    "response_carrier_dimension": 1274,
+    "orthogonal_tensor_dimensions": {
+      "Lambda3": 364,
+      "trace_V": 14,
+      "traceless_hook": 896
+    },
+    "restricted_tensor_phase_weight_dimension": 9,
+    "current_timelike_gram_diagonal": [-8, -8, 0, 0],
+    "current_nonnull_rank": 2,
+    "pplus_ranks_by_base_direction": [2, 2, 2, 2],
+    "pminus_ranks_by_base_direction": [2, 2, 2, 2],
+    "phase_even_base_diagonals": [8, -8, -8, -8],
+    "phase_even_internal_diagonal": [1, 1, 1, 1],
+    "phase_even_nonnull_rank": 4,
+    "phase_even_null_rank": 0,
+    "live_grade_two_masks": 8,
+    "weyl_half_trace_difference_failures": 0,
+    "two_half_scalar_weight_max_rank": 2,
+    "u11_bilinear_values": ["-1", "-1"],
+    "u11_phase_even_values": ["1", "1681/81"],
+    "phase_even_full_or_block_unitary_invariant": false
+  },
+  "classification": {
+    "rank_four_candidate_exists": true,
+    "candidate_is_source_selected": false,
+    "candidate_is_positive_hilbert_majorant": false,
+    "current_action_projector_repairs": false,
+    "two_half_relative_scalar_weight_repairs": false,
+    "moving_reduction_or_fundamental_symmetry_required": true,
+    "coupled_contact_parent_remains_live": true,
+    "expanded_total_residual_parent_remains_live": true
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_quotients": 0,
+    "new_promoted_selectors": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "PAIRING_ONLY_REPAIR_EXISTS_CONDITIONALLY__CURRENT_ACTION_PROJECTOR_AND_TWO_HALF_WEIGHTS_DO_NOT_REPAIR__PHASE_EVEN_QB_NEEDS_ACTION_OWNED_MOVING_REDUCTION",
+  "next_gate": "CONSTRUCT_OR_KILL_MOVING_FUNDAMENTAL_SYMMETRY_REDUCTION_OWNING_PHASE_EVEN_QB__IN_PARALLEL_RETAIN_COUPLED_CONTACT_PARENT",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-real-primalizer-phase-gate-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_real_primalizer_phase_gate_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-real-primalizer-phase-gate-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-real-primalizer-phase-gate-review.md"
+  }
+}

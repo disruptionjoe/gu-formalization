@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-110014-gu-i2b-full-unitary-image-covariance",
+  "ledger_version": "0.203",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-GRP-01", "SC-GRP-02", "SC-ACT-02", "SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_FULL_U64_64_PARENT_TWO_WEYL_HALVES_AND_RESIDUAL_SQUARE__REPO_CORRECTS_V0202_POINTWISE_COMPLEMENT_FENCE__SOURCE_SILENT_ON_SELECTED_SHIAB_GLOBAL_CONNECTION_AND_MOVING_HQ_DERIVATIVES",
+  "layer0": {
+    "pointwise_algebra_vs_global_connection": "DISTINCT",
+    "full_parent_vs_two_half_subgroup": "DISTINCT_WITH_SUBGROUP_INCLUSION",
+    "pointwise_conjugation_vs_moving_derivative": "DISTINCT",
+    "image_membership_vs_bianchi_realization": "DISTINCT"
+  },
+  "exact_results": {
+    "cl77_real_basis_dimension": 16384,
+    "pointwise_u64_64_real_dimension": 16384,
+    "Hq_real_phase_blades": 8256,
+    "Hq_imaginary_phase_blades": 8128,
+    "target_relevant_clifford_blades": 1093,
+    "target_relevant_source_columns": 99463,
+    "q13_grade1_image_rank": 364,
+    "q13_rank_with_target": 365,
+    "q12_grade1_image_rank": 364,
+    "q12_rank_with_target": 365,
+    "full_pointwise_u64_64_contains_target": false,
+    "block_u32_32_plus_u32_32_can_restore_target": false
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "FULL_POINTWISE_U64_64_AND_BLOCK_U32_32_DIRECT_SHIAB_CANCELLATION_KILLED__MOVING_DERIVATIVE_GLOBAL_AND_ALTERNATE_SELECTOR_ROUTES_OPEN",
+  "next_gate": "CONSTRUCT_DHQ_DHODGE_DSHIAB_IN_SOURCE_FULL_CONNECTION__RECOMPUTE_FIRST_SHELL_AND_SECOND_ACTION_EULER_PREBOUNDARY",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-full-unitary-image-covariance-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_full_unitary_image_covariance_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-full-unitary-image-covariance-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-full-unitary-image-covariance-review.md"
+  }
+}

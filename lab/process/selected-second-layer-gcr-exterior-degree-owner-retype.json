@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "GCR_WRONG_CLIFFORD_GRADE_AND_DIRECT_INPUT_TYPE__ODD_TORSION_TRANSLATION_CURVATURE_OR_SOLDERING_OWNER_REQUIRED",
+  "source_return": "SOURCE-CONFIRMS__GAUSS_COMPATIBLE_TWO_CONNECTION_ARENA__SOURCE_SILENT__K77_GCR_TO_ODD_CURVATURE_OWNER_MAP",
+  "predecessor": "lab/process/selected-second-layer-nonnull-koszul-gcr-split.json",
+  "layer0": {
+    "classical_gcr_curvature": "Lambda2(T*Y) tensor Cl2",
+    "v048_inverse_packet": "Lambda2(T*Y) tensor Cl1",
+    "required_selected_target": "T*Y tensor Cl2",
+    "forbidden_identification": "HN_OR_NN_EXTERIOR_LABEL_IS_NOT_GCR_VALUE_BLOCK_OWNERSHIP"
+  },
+  "exact_result": {
+    "cl2_source_basis_columns": 8281,
+    "nonzero_cl2_selected_columns": 8281,
+    "cl2_selected_output_grades": [1, 5],
+    "cl2_to_required_grade2_entries": 0,
+    "cl1_selected_map_dimension": 1274,
+    "cl1_selected_map_rank": 1274,
+    "v048_total_inverse_support": 145,
+    "v048_connection_support": 28,
+    "v048_transverse_support": 117,
+    "direct_hh_exterior_support": 0,
+    "q_contraction_image_rank": 13,
+    "required_cliff_q_supports": [7, 7, 7, 7],
+    "single_q_adapter": "EXCLUDED"
+  },
+  "disposition": {
+    "fired": "GCR_WRONG_CLIFFORD_GRADE_AND_DIRECT_INPUT_TYPE",
+    "kept": "v0.48 exact non-null Koszul decomposition as an odd vector-valued two-form split",
+    "killed": "direct attribution of the 28 or 117 coefficients to Levi-Civita/GCR Cl2 curvature under the selected Shiab",
+    "not_killed": "an independently odd source-curvature block or a richer moving epsilon/soldering conversion",
+    "next_gate": "CONSTRUCT_SOURCE_NATIVE_ODD_AUGMENTED_TORSION_TRANSLATION_CURVATURE_PACKET_OR_RICHER_EPSILON_SOLDERING_MAP__THEN_TOTAL_BIANCHI_AND_RAW_UPSILON_NATURALITY"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-07-selected-second-layer-gcr-exterior-degree-owner-retype-review.md",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 1, "remaining_named_conditions": 5},
+  "rerun": "41/41 PASS"
+}

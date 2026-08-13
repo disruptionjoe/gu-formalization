@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-09",
+  "status": "FIXED_OPERATOR_METRIC_EPSILON_OFFSLICE_LEAKAGE_RANK89_ALL_CAUSAL_BOTH_BRANCHES__TOTAL_MOVING_COMPLETION_REQUIRED",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE_CONFIRMS_MOVING_METRIC_FRAME_HODGE_PHI_SHIAB_OBSERVATION_OWNER__SOURCE_SILENT_FIXED_OPERATOR_TRUNCATION_CANCELLATION_AND_321_VS1571",
+  "layer0": {
+    "computed_object": "FIXED_HODGE_PHI_SHIAB_FRAME_OBSERVATION_SOURCE_COORDINATE_FIRST_ACTION_HESSIAN_SUMMAND",
+    "uncomputed_object": "TOTAL_MOVING_METRIC_HODGE_PHI_SHIAB_DENSITY_FRAME_OBSERVATION_SOURCE_COORDINATE_HESSIAN",
+    "first_action": "DISTINCT_FROM_RAW_RESIDUAL_JACOBIAN_AND_RESIDUAL_SQUARE_HESSIAN",
+    "parents": "SELECTED_SPIN_TWO_U32_32_HALVES_AND_FULL_U64_64_REMAIN_DISTINCT"
+  },
+  "exact_result": {
+    "source_input_dimensions": {"metric": 10, "epsilon": 91, "combined": 101},
+    "equation_dual_dimensions": {"grade2": 1274, "horizontal": 24, "offslice": 1250},
+    "branches": [
+      {"b": "1/208-sqrt(3)/312", "t": "(-2+sqrt(3))/208"},
+      {"b": "1/208+sqrt(3)/312", "t": "(-2-sqrt(3))/208"}
+    ],
+    "rank_pattern_all_three_causal_representatives_both_branches": {
+      "full": {"metric": 9, "epsilon": 91, "combined": 97},
+      "horizontal24": {"metric": 9, "epsilon": 6, "combined": 12},
+      "offslice1250": {"metric": 4, "epsilon": 88, "combined": 89}
+    },
+    "nonzero_entries": {
+      "timelike": {"full": 487, "offslice": 445},
+      "spacelike": {"full": 489, "offslice": 445},
+      "null": {"full": 976, "offslice": 890}
+    },
+    "branch_rank_equality": true,
+    "causal_rank_equality": true,
+    "fixed_operator_321_disposition": "LEAKS__SHORTCUT_KILLED",
+    "total_source_321_disposition": "OPEN__MOVING_COMPLETION_CAN_IN_PRINCIPLE_CANCEL_FIXED_SUMMAND",
+    "required_moving_cancellation_targets": {"metric_offslice_rank": 4, "epsilon_offslice_rank": 88, "combined_offslice_rank": 89}
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_selectors": 0,
+    "new_bundle_classes": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_probe.py",
+    "tests/channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_independent.sage"
+  ],
+  "source_reinspection": "lab/sources/selected-k77-metric-epsilon-hessian-source-reinspection-2026-08-09.md",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-fixed-operator-metric-epsilon-leakage-review.md",
+  "next_gate": "CONSTRUCT_TOTAL_MOVING_METRIC_HODGE_PHI_SHIAB_DENSITY_FRAME_OBSERVATION_HESSIAN_AND_TEST_EXACT_OFFSLICE_CANCELLATION_AGAINST_RANK89_TARGET__THEN_EXPANDED_PARENTS_GAUGE_GHOST_DOMAIN"
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "FULL_LINEARIZED_BIANCHI_AND_LABELLED_AMBIENT_NULL_SCREEN_PASS__CURRENT_TOTAL_RAW_UPSILON_GRAPH_FAILS__COUPLED_ALL_GRADE_REPAIR_OPEN",
+  "source_return": "SOURCE-CONFIRMS__RAW_UPSILON_INCLUDES_SHIAB_CURVATURE_PLUS_KAPPA_T_AND_XI_EQUALS_D_UPSILON_REDUNDANCY__SOURCE-SILENT__LINEARIZED_SUPERCONNECTION_BIANCHI_PROOF_AND_LABELLED_AMBIENT_NULL_SCREEN",
+  "predecessors": [
+    "lab/process/selected-k77-full-reduction-quotient-reconciliation.json",
+    "lab/process/k77-global-even-bv-null-green-domain.json"
+  ],
+  "layer0": {
+    "curvature_bianchi_vs_xi_equals_d_upsilon": "DISTINCT",
+    "raw_upsilon_vs_derivative_or_euler": "DISTINCT",
+    "curvature_grade2_fit_vs_total_raw_upsilon": "DISTINCT__TOTAL_FAILS",
+    "ambient_k77_null_screen_vs_4d_physical_null_quotient": "DISTINCT",
+    "screen_split_vs_symplectic_reduction": "DISTINCT__SYMPLECTIC_OPEN"
+  },
+  "exact_result": {
+    "complete_source_tangent_grades": [1, 2],
+    "endpoint_curvature_family_rank": 4,
+    "full_linearized_superconnection_bianchi": true,
+    "odd_curvature_only_bianchi": false,
+    "curvature_only_grade2_graph_cancels": true,
+    "total_raw_upsilon_graph_natural": false,
+    "total_raw_upsilon_residual_family_rank": 4,
+    "total_raw_upsilon_live_grades": {
+      "1": [14, 14, 14, 14],
+      "2": [57, 34, 34, 34]
+    },
+    "ambient_null_pairing": 1,
+    "ambient_null_screen_rank": 12,
+    "ambient_null_screen_signature": [6, 6],
+    "null_homotopy_roundtrip": true,
+    "forgetful_screen_basic": false,
+    "four_dimensional_defect_null_quotient": "UNCHANGED_SEPARATE_10_TO_6_TO_2"
+  },
+  "constraint_surplus": {
+    "new_fields": 0,
+    "bianchi_identities_counted": 0,
+    "screen_homotopy_identities_counted": 0,
+    "residue_change": 0,
+    "quotient_count_change": 0
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "next_gate": "COUPLED_ALL_GRADE_RAW_UPSILON_GRAPH_INCLUDING_KAPPA_T__THEN_OBSERVATION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "rerun": "43/43 PASS"
+}

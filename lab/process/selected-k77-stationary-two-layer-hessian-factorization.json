@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "STATIONARY_FIRST_DERIVATIVE_REDUCTION_EXACT__COMMON_FIELD_DUPSILON_AND_K_OWNER_OPEN",
+  "lane": "1",
+  "functional_channels": ["COMPOSE", "BUILD", "SOURCE", "VERIFY"],
+  "result": "AT_UPSILON_ZERO__H2_EQUALS_DUPSILON_ADJOINT_K_DUPSILON",
+  "novelty": "COMPOSED_EXISTING_STATIONARY_THEOREM_WITH_V081_OWNER_SCOPE__NOT_A_NEW_GU_DERIVATION",
+  "source_return": "SOURCE-CONFIRMS__RESIDUAL_NORM_SQUARE_AND_FIRST_SOLUTION_REDUNDANCY__SOURCE-SILENT__COMMON_FIELD_DUPSILON_BLOCKS_PAIRING_AND_PHYSICAL_COMPLEX",
+  "layer0": {
+    "first_action_hessian": "34-variable Euler/Schur endomorphism; not identified with D Upsilon",
+    "raw_residual_jacobian": "map from the common action field tangent to the typed residual carrier",
+    "second_action_stationary_hessian": "D Upsilon adjoint times K-star times D Upsilon",
+    "observation": "dependent receiver/evaluation unless separately varied by the action",
+    "boundary": "Green concomitant and presymplectic/BFV classes not supplied by bulk factorization"
+  },
+  "stationary_factorization": {
+    "background_condition": "COMPLETE_UPSILON_STAR_EQUALS_ZERO",
+    "retained": [
+      "D_UPSILON_ALL_COMMON_FIELD_BLOCKS",
+      "K_STAR_VALUE_AND_FORMAL_ADJOINT",
+      "PHYSICAL_DSHIAB_ON_FA_STAR",
+      "PHYSICAL_DHODGE_ON_KAPPA_T_STAR",
+      "FIELD_DF_AND_DT_TERMS",
+      "DEPENDENT_OBSERVATION_CHAIN_RULE"
+    ],
+    "dropped_from_bulk_quadratic_operator": [
+      "D2_UPSILON_TIMES_UPSILON_STAR",
+      "D_K_TIMES_UPSILON_STAR",
+      "D_RECEIVER_TIMES_UPSILON_STAR"
+    ],
+    "off_shell_reduction": false
+  },
+  "ward_gate": {
+    "first_test": "J_TIMES_COMPLETE_DIFFEO_GENERATOR_EQUALS_ZERO",
+    "consequence": "J_ADJOINT_K_J_IS_WARD_BASIC",
+    "individual_blocks_may_cancel": true,
+    "missing_block_plant": "FIRED"
+  },
+  "krein_control": {
+    "injective_J_can_have_null_gram_form": true,
+    "physical_kernel_or_energy_derived": false,
+    "actual_pairing_and_domain_required": true
+  },
+  "analytic_boundary": [
+    "typed residual pairing and formal adjoint",
+    "Green concomitant and presymplectic current",
+    "characteristic cohomology and strong hyperbolicity",
+    "closed common right-H/Krein domain",
+    "complex contour and path-integral measure",
+    "global BV-BFV descent"
+  ],
+  "controls": {
+    "main_sympy": "42/42 PASS",
+    "independent_sage": "8/8 PASS",
+    "off_shell_stationary_substitution": "REJECTED",
+    "residual_zero_implies_constituent_zero": "REJECTED",
+    "delete_live_field_block": "REJECTED",
+    "indefinite_pairing_implies_positive_gram": "REJECTED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {"conditions_closed": 4, "conditions_opened": 0, "remaining_named_conditions": 3},
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "new_scoped_quotients": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_stationary_two_layer_hessian_factorization_probe.py",
+    "tests/channel-swings/selected_k77_stationary_two_layer_hessian_factorization_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-stationary-two-layer-hessian-factorization-review.md",
+  "next_gate": "ASSEMBLE_SELECTED_COMMON_FIELD_DUPSILON_BLOCK_MATRIX__VERIFY_JR_ZERO__DERIVE_K_ADJOINT_AND_GREEN_CONCOMITANT__THEN_FORM_STATIONARY_GRAM_HESSIAN"
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_and_scope_result",
+  "created": "2026-08-10",
+  "status": "HARD_REDUCTION_NOT_ACTION_EQUATION__ZERO_BRANCH_COMPLEMENT_DYNAMICAL__NONZERO_BRANCH_NORMAL_HESSIAN_OPEN",
+  "exact_inputs": {
+    "b_adjoint_split": [8128, 8256],
+    "weyl_block_coset_split": [8192, 8192],
+    "cross_cells": {
+      "p_block": 4096,
+      "p_coset": 4032,
+      "q_block": 4096,
+      "q_coset": 4160
+    },
+    "hodge_K_lift": "IDENTITY_ON_ALL_16384_INTERNAL_DIRECTIONS",
+    "nonzero_invariant_branch": "T_STAR_EQUALS_MINUS_KAPPA1_OVER_312_TIMES_PHI1"
+  },
+  "layer0": {
+    "b_adjoint_parity": "NOT_WEYL_CHIRALITY",
+    "gauge_rotated_levi_civita": "REFERENCE_CONNECTION_NOT_GENERAL_VARPI",
+    "nondegenerate_action_term": "NOT_LAGRANGE_CONSTRAINT_OR_BV_QUOTIENT",
+    "consistent_truncation": "NOT_ACTION_SELECTED_FIELD_DOMAIN"
+  },
+  "result": {
+    "zero_branch": "FULL_QUADRATIC_NORM_HAS_NONZERO_COMPLEMENT_HESSIAN_FOR_NONZERO_KAPPA1",
+    "hard_reduction": "NOT_GENERATED_BY_WRITTEN_ACTION_AT_ZERO_BRANCH",
+    "compatible_connection": "D_VARPI_CHI_ZERO_IS_DISTINCT_8192_BLOCK_RESTRICTION",
+    "known_nonzero_branch": "ODD_PHI1_INVARIANT_LINE_EXCLUDED_BY_D_VARPI_CHI_ZERO_FOR_NONZERO_KAPPA1",
+    "nonzero_branch_normal_hessian": "OPEN"
+  },
+  "surviving_rivals": [
+    "MOVING_SPIN_CONDITIONAL_CONSISTENT_TRUNCATION_OR_REAL_FORM_POSIT",
+    "TWO_U32_32_HALF_PARENT",
+    "FULL_U64_64_PARENT",
+    "EFFECTIVE_LOW_ENERGY_INTEGRATION_AFTER_HESSIAN",
+    "GLOBAL_BV_OR_DOMAIN_RESTRICTION"
+  ],
+  "source_return": "SOURCE_CONFIRMS_FULL_CONNECTION_DIFFERENCE_AND_GAUGE_ROTATED_LEVI_CIVITA_REFERENCE__SOURCE_SILENT_HARD_REDUCTION",
+  "validation": {
+    "exact_probe": "38/38 PASS",
+    "governance_audit": "17/17 PASS",
+    "predecessor_action_carrier_probe": "28/28 PASS",
+    "predecessor_grade5_parent_probe": "39/39 PASS",
+    "hostile_review": "CANDIDATE_SURVIVES_WITH_ZERO_BRANCH_SCOPE__HARD_REDUCTION_NOT_ACTION_DERIVED__NONZERO_BRANCH_NORMAL_HESSIAN_REQUIRED",
+    "inherited_process_debt": [
+      "functional_channel_operating_contract_scope_audit.py expects an older ACTION_OWNED_DEGREE14_GREEN_PRIMARY token absent at immutable HEAD",
+      "tests_root_readme_inventory_audit.py retains eleven inherited unclassified root scripts",
+      "process_gate_readme_inventory_audit.py retains inherited missing import_ban_audit.py documentation"
+    ]
+  },
+  "accounting": {
+    "verdict_change": "none",
+    "residue_change": "none",
+    "quotient_change": "none",
+    "datum_change": "none",
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "next_gate": "NONZERO_BRANCH_NORMAL_HESSIAN_BY_BADJOINT_AND_WEYL_BLOCK_COSET__THEN_INDUCED_K77_DIRAC_RS_OPERATOR",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

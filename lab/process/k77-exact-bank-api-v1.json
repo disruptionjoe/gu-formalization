@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "process_construction_registry",
+  "created": "2026-08-09",
+  "status": "API_PASS__VERSIONED_EXACT_BANK_HASHED_STALE_REJECTING_BOUNDED_REPLAY_NONRECURSIVE_CONSUMER",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE_SILENT_PROCESS_API_CACHE_HASH_AND_REPLAY_POLICY__REPOSITORY_CONSTRUCTION_ONLY",
+  "layer0": {
+    "source_object": "WEINSTEIN_MOVING_GEOMETRY_GRAMMAR",
+    "constructed_object": "SELECTED_SPIN_FIRST_TRANSGRESSION_FIXED_OPERATOR_GRADE2_COEFFICIENT_BANK",
+    "process_object": "SERIALIZED_VERSIONED_EXACT_BANK_API",
+    "builder_vs_consumer": "ONE_TIME_RECURSIVE_BUILDER__ORDINARY_NONRECURSIVE_CONSUMER",
+    "parents": "SELECTED_SPIN_VERSUS_TWO_U32_32_HALVES_VERSUS_FULL_U64_64_REMAIN_DISTINCT"
+  },
+  "bank": {
+    "path": "tests/fixtures/k77_exact_coefficient_bank_v1.json",
+    "schema_version": "1.0",
+    "bank_id": "K77_SELECTED_SPIN_FIRST_ACTION_FIXED_OPERATOR_GRADE2_V1",
+    "file_sha256": "4311ae91fd5585349f94bb6ed28ee61d0f3ff31a8914f49eb611b024be37f49f",
+    "construction_hash": "a5d20dac71c9ea3b9f40bbb07c30518bd7e2bdcfd23f6ca3f109f0f9dd8fc463",
+    "dependency_hash_count": 29,
+    "byte_count": 134336,
+    "carrier_dimension": 14,
+    "epsilon_generators": 91,
+    "grade2_receivers": 1274,
+    "horizontal_rows": 24,
+    "offslice_rows": 1250,
+    "causal_banks": 3,
+    "columns_per_bank": 101,
+    "coefficient_field": "QQ_I_WITH_QQ_SQRT3_EVALUATION_BRANCHES"
+  },
+  "performance": {
+    "recursive_builder_role": "ONE_TIME_ONLY",
+    "observed_builder_wall_class": "TENS_OF_MINUTES",
+    "consumer_import_seconds": 0.004110,
+    "verified_load_seconds": 0.007037,
+    "ordinary_consumer_executes_predecessor": false
+  },
+  "commit_provenance": {
+    "material_commit": "55bc3bb06954553a2b75cd171228949846ef5e4d",
+    "concurrent_commit_scope": "THE_22_DECLARED_RUN_PATHS_PLUS_ONE_UNRELATED_EXPLORATION_PATH",
+    "disposition": "BYTE_IDENTICAL_DECLARED_OUTPUTS_ACCEPTED__NO_HISTORY_REWRITE__FOLLOWUP_PROVENANCE_COMMIT_REQUIRED",
+    "central_claim_at_collision": "HELD_BY_RUN_20260809_223353_GU_K77_EXACT_BANK_API"
+  },
+  "equivalence": {
+    "python_probe": "27/27__23_EXACT_PLUS_4_PLANTED",
+    "direct_epsilon_cells": 3,
+    "independent_sage": "25/25__22_EXACT_PLUS_3_PLANTED",
+    "rank_pattern_all_causal_both_branches": {
+      "full": [9, 91, 97],
+      "horizontal": [9, 6, 12],
+      "offslice": [4, 88, 89]
+    }
+  },
+  "fail_closed_controls": [
+    "UNSIGNED_COEFFICIENT_MUTATION_REJECTED",
+    "RESIGNED_STALE_DEPENDENCY_REJECTED",
+    "RESIGNED_WRONG_RECEIVER_COUNT_REJECTED",
+    "DUPLICATE_JSON_KEY_REJECTED",
+    "WRONG_RECEIVER_SUBSPACE_REJECTED",
+    "METRIC_ONLY_AND_EPSILON_ONLY_COMBINED_RANK_IMPOSTERS_REJECTED"
+  ],
+  "specialist_routing": {
+    "mandatory_eight": [
+      "LAYER0_SEMANTICS",
+      "PRIOR_ART_ARCHAEOLOGY",
+      "DIFFERENTIAL_GEOMETRY",
+      "REPRESENTATION_AND_CLIFFORD_THEORY",
+      "VARIATIONAL_BICOMPLEX",
+      "SYMPLECTIC_BV_BFV",
+      "OPERATOR_AND_KREIN_ANALYSIS",
+      "ADVERSARIAL_SCOPE"
+    ],
+    "triggered": ["EXACT_COMPUTATION_ARCHITECTURE", "DISTRIBUTED_PROVENANCE"],
+    "not_triggered": ["PDE_MICROLOCAL", "INDEX_KO", "COMPLEX_SIGNATURE"],
+    "invariant_theory": "COVERED_BY_MANDATORY_REPRESENTATION_LENS_FOR_LABEL_AND_PARENT_SCOPE"
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_selectors": 0,
+    "new_bundle_classes": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/k77_exact_bank_build.py",
+    "tests/channel-swings/k77_exact_bank_api.py",
+    "tests/channel-swings/k77_exact_bank_api_probe.py",
+    "tests/channel-swings/k77_exact_bank_api_independent.sage"
+  ],
+  "source_custody": "lab/sources/k77-exact-bank-source-custody-2026-08-09.md",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-k77-exact-bank-api-review.md",
+  "next_gate": "USE_EXACT_BANK_API_TO_COMPLETE_TEN_METRIC_SOURCE_HESSIAN__THEN_DECIDE_EXPANDED_TANGENT_VERSUS_SOURCE_ACTION_OWNED_EQUATION_QUOTIENT"
+}

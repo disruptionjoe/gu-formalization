@@ -169,7 +169,7 @@ gauge quantum numbers (see above).
 
 Transcript [00:41:48–00:42:09]:
 
-> "Vela Zwanziger says that if you have spin three halves matter that is coupled, to some
+> "Velo-Zwanziger says that if you have spin three halves matter that is coupled, to some
 > sort of nontrivial acting group, you have to be very careful you acquire tachyons or
 > failures of unitarity, causality goes out the window. But... if your model differs by
 > having no internal symmetry groups, I have no idea whether it has any kind of a Velo

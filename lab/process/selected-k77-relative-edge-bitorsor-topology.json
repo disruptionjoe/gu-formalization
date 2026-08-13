@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-09",
+  "status": "ONE_SIDED_EDGE_FRAME_TRIVIAL_BUNDLE_ONLY__RELATIVE_A0_BITORSOR_GLOBALIZES_EVERY_EXISTING_P_H_TOPOLOGICAL_SECTOR__COMMON_DOMAIN_OPEN",
+  "lane": "1",
+  "functional_channels": ["SOURCE", "COMPOSE", "BUILD", "VERIFY"],
+  "source_return": "SOURCE_CONFIRMS_P_H_A0_AND_TILTED_ASSOCIATED_BUNDLE_GRAMMAR__SOURCE_SILENT_EDGE_BITORSOR_TOPOLOGY_AND_BFV_GLOBALITY",
+  "layer0": {
+    "active_target_gauge": "Theta_to_h_inverse_Theta_h__u_to_u_h",
+    "passive_target_transition": "g_ij",
+    "passive_reference_transition": "k_ij",
+    "one_sided_edge_frame": "u_j_equals_u_i_g_ij__global_iff_target_bundle_trivial",
+    "relative_edge_frame": "section_of_Isom_H_P_target_P_reference",
+    "relative_patch_law": "u_j_equals_k_ij_inverse_u_i_g_ij",
+    "reference_owner": "labelled_copy_of_existing_P_H_boundary_carrying_A0",
+    "dressed_fields": "sections_of_ad_P_reference",
+    "topological_globality": "distinct_from_Sobolev_completion_and_common_Green_Krein_domain"
+  },
+  "topology": {
+    "one_sided_nonempty_iff": "P_H_boundary_is_trivial",
+    "proof": "u_j_equals_u_i_g_ij_iff_g_ij_equals_u_i_inverse_u_j_is_a_Cech_coboundary",
+    "unitary_negative_control": "U1_c1_equals_1_on_S2_times_S11",
+    "spin_negative_control": "SU2_c2_equals_1_on_S4_times_S9",
+    "relative_nonempty_iff": "P_target_is_isomorphic_to_P_reference",
+    "reference_copy_identity_section": true,
+    "new_independent_characteristic_class": false
+  },
+  "relative_descent": {
+    "noncommuting_triple_overlap": "EXACT",
+    "dressed_distortion_patch": "Q_j_equals_k_ij_inverse_Q_i_k_ij",
+    "dressed_momentum_patch": "Pi_j_equals_k_ij_inverse_Pi_i_k_ij",
+    "trace_pairing_global": true,
+    "dressed_moment_map_global": true,
+    "target_active_gauge_invariant": true,
+    "reference_active_gauge_adjoint": true,
+    "one_sided_formula_recovered_when_reference_trivial": true,
+    "local_dressed_map_rank": 8,
+    "local_presymplectic_rank": 8,
+    "local_kernel_dimension": 4,
+    "target_gauge_orbit_rank": 4,
+    "kernel_equals_target_gauge_orbit": true
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "CONDITIONAL_PARENT_SUPPORTED",
+    "two_u32_32_halves": "RIVAL_PARENT_SEPARATE",
+    "full_u64_64": "RIVAL_PARENT_SEPARATE",
+    "selected": false
+  },
+  "analytic_fence": {
+    "smooth_section_manifold_completion": "OPEN",
+    "common_bulk_Green_Krein_domain": "OPEN",
+    "coupled_bulk_boundary_BV_BFV": "OPEN",
+    "quantum_measure_and_anomaly": "OPEN",
+    "physical_boundary_horn": "OPEN"
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_independent_bundle_classes": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_selectors": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "controls": {
+    "primary": "34 exact + 10 planted = 44 PASS",
+    "independent_sage": "14 exact + 5 planted = 19 PASS",
+    "v0102_replay": "55/55 PASS",
+    "v0114_replay": "49/49 PASS"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_relative_edge_bitorsor_topology_probe.py",
+    "tests/channel-swings/selected_k77_relative_edge_bitorsor_topology_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-relative-edge-bitorsor-topology-review.md",
+  "next_gate": "CONSTRUCT_ONE_COMMON_BULK_GREEN_KREIN_DOMAIN_PRESERVING_H7_HMINUS7_PHYSICAL_AND_H8_HMINUS8_GAUGE_GHOST_TRACES_ON_THE_RELATIVE_EDGE_BITORSOR__THEN_COUPLE_BULK_BV_TO_BOUNDARY_BFV__KEEP_PHYSICAL_HORN_OPEN"
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "NONCONSTANT_AFFINE_DESCENT_AND_XI_REDUNDANCY_EXACT__TWO_FROZEN_FRAME_OPEN_SET_BRANCHES__NATIVE_MOVING_GEOMETRY_OPEN",
+  "ledger_version": "0.110",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_XI_EQUALS_D_OMEGA_UPSILON_REDUNDANCY__SOURCE_SILENT_HOMOGENEOUS_BRANCHES_NATIVE_MOVING_GEOMETRY_AND_AMPLITUDE_SELECTION",
+  "layer0": {
+    "Xi": "SOURCE_DISPLAYED_D_OMEGA_UPSILON_REDUNDANCY",
+    "independent_equation": "ABSENT__NO_AMPLITUDE_RANK_GAIN",
+    "noether": "OFFSHELL_IDENTITY_NOT_DERIVED_BY_SOURCE_DISPLAY",
+    "atlas": "AFFINE_CONNECTION_PATCHING_NOT_TENSOR_CONJUGATION",
+    "branches": "HOMOGENEOUS_FROZEN_COEFFICIENT_WITNESSES_NOT_SOURCE_MAGNITUDES",
+    "native_port": "MOVING_PHI_SHIAB_HODGE_DENSITY_OBSERVATION_OPEN"
+  },
+  "exact_result": {
+    "homogeneous_system": {
+      "upsilon": "312(b+t)^2+t=0",
+      "metric_volume_trace": "624(b^2+bt+t^2/3)+t=0",
+      "resultant": "97344*t^2*(43264*t^2+832*t+1)",
+      "nonzero_branch_count": 2
+    },
+    "branches": [
+      {"t": "(-2+sqrt(3))/208", "b": "1/208-sqrt(3)/312"},
+      {"t": "(-2-sqrt(3))/208", "b": "1/208+sqrt(3)/312"}
+    ],
+    "prolongation": {
+      "factorization": "Xi=2(b+t)Upsilon_on_frozen_scalar_receiver",
+      "jacobian_rank_without_Xi": 2,
+      "jacobian_rank_with_Xi": 2,
+      "source_selects_amplitude": false
+    },
+    "atlas": {
+      "transition_type": "NONCONSTANT_NONCOMMUTING_UNIPOTENT",
+      "affine_connection_direct_sequential": "PASS",
+      "curvature_covariance": "PASS",
+      "D_B_T_covariance": "PASS",
+      "off_shell_Xi_covariance": "PASS",
+      "missing_affine_term_control": "FIRED",
+      "reversed_cocycle_control": "FIRED"
+    },
+    "grade": "FAITHFUL_LOCAL_MATRIX_OPEN_SET_WITH_FROZEN_NATIVE_COEFFICIENTS"
+  },
+  "controls": {
+    "primary": "42/42 PASS",
+    "independent_sage": "14/14 PASS",
+    "P1_P2_P3_unused": true,
+    "global_residue_unchanged": true,
+    "native_Y14_not_promoted": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none_ansatz_amplitudes_not_booked",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_PARENT_TARGET_NOT_FULLY_PORTED",
+    "two_U32_32_halves": "RETAINED_COMPARATOR",
+    "full_U64_64": "RETAINED_COMPARATOR",
+    "collapsed": false
+  },
+  "next_gate": "PORT_ALGEBRAIC_BRANCHES_TO_ACTUAL_SELECTED_K77_MOVING_PHI_SHIAB_HODGE_DENSITY_OBSERVATION_PACKET__DERIVE_COMPLETE_PRIMITIVE_EPSILON_EULER_AND_OFFSHELL_WARD_FACTORIZATION__TEST_BRANCH_SURVIVAL_AND_AMPLITUDE_OWNERSHIP__THEN_321_VS1571_TANGENT_HESSIAN_BV"
+}

@@ -31,7 +31,22 @@ depends_on:
 
 # Live Claim DAG / Fault Model / Finality Ledger
 
-## Verdict
+> **SUPERSEDED FOR LIVE USE, 2026-08-08. Retained for provenance; do not extend.**
+> The live successor is **`lab/process/path-dependencies.yaml`**, validated by
+> `process_gates/path_dependency_audit.py` and rendered to
+> `lab/process/path-dependencies.md`.
+>
+> **Why it was superseded.** This artifact is a *static snapshot* of a DAG written
+> once and never re-validated: its receipts are not machine-checked, so link rot
+> is invisible, and it records claim *status* without the causal chain that makes
+> a given check worth doing. The successor is gate-validated (every receipt must
+> resolve), carries a **graded** chain per check, and — the part this file has no
+> equivalent of — records **dated traps**: mistakes that actually happened, with
+> their cost and receipt.
+>
+> **What is NOT superseded.** The three failure modes named in the Verdict below
+> are still correct and are still the point. They are the reason the successor
+> exists, not an argument against it.
 
 This ledger is a governance layer over live claims. It does not prove any theorem and it
 does not promote any exploration to canon. Its job is to prevent three common failures:

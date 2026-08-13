@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-171303-gu-i2b-observer-time-hermitian-reduction",
+  "objective": "Test whether the v0.214 phase-even rank-four response pairing is owned by the vertical trace or only by an observed timelike Hermitian reduction.",
+  "predecessor": "lab/process/selected-k77-i2b-real-primalizer-phase-gate.json",
+  "checks": {
+    "exact": 47,
+    "planted": 2,
+    "failures": 0
+  },
+  "exact_results": {
+    "geometry_trace_response_rank": 0,
+    "observer_time_response_rank": 4,
+    "observer_time_signature": [-1, 1, 1, 1],
+    "observer_time_blocks": ["-8 I4", "+8 I4", "+8 I4", "+8 I4"],
+    "boosted_fixed_frame_blocks": ["-8 I4", "328/9 I4", "328/9 I4", "328/9 I4"],
+    "pseudo_hermitian_u11_values": ["1", "1"],
+    "raw_phase_even_u11_values": ["1", "1681/81"],
+    "full_lorentz_fixed_vector_dimension": 0,
+    "future_unit_observer_fibre_dimension": 3
+  },
+  "data_accounting": {
+    "adopted_new_datum": false,
+    "booked_residue_change": false,
+    "conditional_function_valued_cost_before_equations": 3,
+    "p1_p2_p3": "UNCHANGED_AND_UNUSED"
+  },
+  "source_return": "SOURCE_CONFIRMS_BOSONIC_ADJOINT_AND_TWO_HALF_PARENT_GRAMMAR__SOURCE_SILENT_OBSERVER_U_SELECTION_AND_BASICNESS__REPO_DERIVES_CONDITIONAL_HU_COMPLETION",
+  "hostile_verdict": "CANDIDATE_SURVIVES__OBSERVER_TIME_HERMITIAN_COMPLETION_EXACT__TRACE_OWNER_FAILS__U_SELECTION_AND_BASICNESS_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "DERIVE_U_FROM_EXISTING_OBSERVATION_SOLDERING_OR_PROVE_ACTION_BASICNESS_UNDER_U__RETAIN_COUPLED_CONTACT_PARENT"
+}

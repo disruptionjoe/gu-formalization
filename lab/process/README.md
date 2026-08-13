@@ -2,10 +2,777 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-06"
+updated_at: "2026-08-12"
 ---
 
 # Process
+
+Current append-only progress surface:
+[`conditional-physics-ledger-v0.222.json`](conditional-physics-ledger-v0.222.json),
+summarized as ledger v0.222. Contact is
+`Omega^1(Cl^2)`, the principal Euler response is `Omega^13(Cl^2)`, and the
+lower response is `Omega^13(Cl^1)`. Identity and raw-pairing shortcuts fail.
+The owned Hodge adapter gives exactly the observer-active rank-four
+intersection; trace-`H_q` source contact reaches three, while missing `e3` is
+the radial Euler row `128/3 r(r^2+3rho)`, zero on the restricted stationary
+branch. The next owner is the moving `Q_B`/metric/section/Shiab/gauge
+correction to that exact row. Registry:
+[`selected-k77-i2b-contact-euler-hodge-adapter.json`](selected-k77-i2b-contact-euler-hodge-adapter.json).
+
+Process hardening after v0.221: future wave handoffs carry the concrete
+structure fingerprint, variational altitude, globalization grade, commuting
+square status and forbidden transfers. A changed carrier/form/real
+structure/grading/horn/embedding requires a constructed adapter receipt or an
+explicit Layer-0 reset; equal dimensions or abstract group labels do not
+license transfer. The deterministic gate is
+`process_gates/learning_transport_contract_audit.py`; the repeated failure is
+indexed as `PD-STRUCTURE-TRANSPORT`, and the `H_q`/`H_u`/`H^\pm` collision is in
+`NAMES.md`.
+
+Predecessor progress surface: ledger v0.221. V0.220's operator
+ownership survives, but its B-skew real-form embedding is corrected to the
+trace-owned `H_q` structure on two `C^(32,32)` carrier halves. The exact image
+is rank `120/160`, with a local rank-40 cokernel; the scalar completion is
+pointwise source-realizable. The local cokernel is neither the recurring
+rank-128 fermionic defect nor a full-stabilizer module. The next owner is
+coupled Euler normal prolongation on a stationary trace-`H_q` background,
+followed by gauge/domain/state and contact-discriminant tests. No datum or
+accounting moves. Registry:
+`selected-k77-i2b-trace-hq-normal-contact-correction.json`.
+
+Predecessor v0.220 owns the normal-contact operator. Its rank-80/cokernel-80
+and scalar-exclusion dispositions are append-corrected by v0.221.
+
+Predecessor v0.219 supplies the exact identifiability theorem and contact
+discriminant; v0.221 types its completions against the current trace-owned
+source real form rather than the unrestricted complex response.
+
+Current append-only progress surface: ledger v0.218.  The conditional
+observer-completed `SC-ACT-04` principal action has an exact constrained-`u`
+tensor on all 16 live coordinates.  Its gap is `-16A`: `A>0` selects a simple
+unoriented timelike line, while `A=0` is observer-flat even for nonzero
+remaining response.  Co-moving Ward transport is exact over 768 live
+pairings; the fixed-field Euler equation is distinct and the action is even
+under `u -> -u`.  The full source-owned moving metric/Hodge/Shiab/projector/
+section contact, global line, arrow and analytic domain remain open. No datum
+or residue moves. Registry:
+`selected-k77-i2b-constrained-observer-euler-ward.json`.
+
+Predecessor v0.217 corrects the inverse-adjoint fixed-field control and
+supplies the prior-art routing that made the current Euler/Ward calculation
+the nonduplicate successor.
+
+Predecessor v0.215 supplies the exact conditional observer-Hermitian pairing
+and trace-owner exclusion.  Its fixed-frame boost is now correctly typed as a
+basicness control, not a diagonal-covariance defect.
+
+Current append-only progress surface: ledger v0.212. The actual `SC-ACT-04`
+moving-`H_q` residual has a complete fixed-`H_q` arbitrary-connection Euler
+polynomial on all `196` real cells. Its four monomial supports are
+`14,12,12,2`, their family rank is three, and the result reconstructs through
+the observed-plus-normal receiver. All four curvature-principal response
+banks are nonzero, but their real Green pairing with both physical residual
+components is identically zero. This is a scoped fixed-geometry kinetic
+obstruction, not a theory-wide no-go. The live gate is moving
+metric/Hodge/Shiab/projector/section contact terms plus the separately typed
+expanded action parent. Keep source `C^(32,32) + C^(32,32)`, its derived block
+subgroup, full `U(64,64)` and independent connections distinct. Registry:
+`selected-k77-i2b-arbitrary-field-euler-green-bank.json`.
+
+Predecessor v0.211 supplies the exact nonlinear receiver; its remaining
+arbitrary-field Euler burden is closed at fixed-`H_q` zero-order grade by
+v0.212, while moving-contact and expanded-parent kinetics remain open.
+
+Predecessor v0.210 closes the radial and q-row conditions at local first-order
+action grade; its claim that the nonlinear receiver itself was unbuilt is
+superseded by the v0.211 prior-art composition.
+
+Predecessor v0.209 corrects the ambient/fibre split and locates the radial and
+q-row composition burdens now closed locally by v0.210.
+
+Predecessor v0.208 supplies the exact ambient projector-derivative identities;
+its complete-fibre-orbit interpretation is corrected by v0.209.
+
+Predecessor v0.207 supplies global `P_+` descent and the first rank-56 orbit
+derivative.
+
+Predecessor v0.206 supplies fixed-real action ownership and refutes nonlinear
+replacement by retaining the nonzero anti-fixed action sector.
+
+Predecessor v0.205 supplies exact q13/q12 compensator naturality and corrects
+v0.204's target-closure bug.
+
+Predecessor v0.204 supplies the exact mixed-reality ranks and kills additive
+descent, while its held-out q12/frame-artifact disposition is superseded.
+
+Predecessor v0.192 supplies the moving split intrinsic-torsion decomposition
+and current pointwise action nonselection.
+
+Predecessor v0.191 supplies the exact split commutant and native complex
+structures while leaving the source-sized same-half Hermitian problem open.
+
+Predecessor v0.190 closes the invariant action-concomitant selector class and
+leaves the nonhomogeneous reduced-curvature/full-`II` route live.
+
+Predecessor v0.189 supplies the stabilizer cocycle, reduced K77 connection and
+second-fundamental descent.
+
+Predecessor v0.188 supplies the finite projector and mixed atlas descent while
+rejecting a preferred global adapted frame.
+
+Predecessor v0.187 supplies the all-40 local first-order Cartan/Spin tangent.
+
+Predecessor v0.186 kills the raw shear only as a fixed-K77 Spin lift and
+supplies the nonvacuous full-carrier moving-H640 control.
+
+Predecessor v0.185 separates the lower-order Higgs chain from principal
+observation descent.
+
+Predecessor v0.184 proves H640 is the ordinary observed graph and the
+unrestricted ambient hull is rank 1,920.
+
+Predecessor v0.182 proves that the source zero-form alone generates the exact
+conditional H640 and controls it against W, mirror, random 192-planes and the
+old 640/832 carriers.
+
+Predecessor v0.181 establishes ordinary-gauge BRST and observation-frame
+descent while rejecting restricted W/mirror boundary cohomology.
+
+Predecessor v0.180 derives the moving rank-960 incoming projector family from
+the action coefficients and transports both doubled-Majorana Green identities.
+
+Predecessor v0.179 composes the exact incoming energy half with both complete
+Majorana pairing horns and corrects the one-sided independent-dual no-go.
+
+Predecessor v0.178 separates the doubled-field Majorana graph, complete Cauchy
+data and the spatial incoming half, and conditionally supplies the local flat
+observed real `H^s` Cauchy domain.
+
+
+Current append-only progress surface: ledger v0.172. On the zero-fermion
+selected real-K77 branch, the v0.171 `im Nsharp` radical is not the existing
+ordinary-gauge, small-gauge or edge characteristic image. Fermion gauge trace
+is zero, moving cross terms vanish, and quotienting the owned edge gauge
+kernel leaves the exact observed 256-dimensional fermion radical. The
+zero-fermion restriction route stops; the source-admitted operator completion
+is next, with nonzero-fermion coupled BV kept separate. Registry:
+`selected-k77-polarized-radical-bfv-ownership-gate.json`.
+
+Predecessor v0.171. The v0.170 one-sided `ker N` evolution ingredient
+survives, but its unique Green-adjoint dual-kernel action domain has rank-128
+radicals. The perfect algebraic dual `Vbar/im Nsharp` is unowned and naive
+observation does not descend. Registry:
+`selected-k77-polarized-green-dual-gate.json`.
+
+Predecessor v0.170. Craig--Weinstein scalar
+strict-center support alone retains the actual real-K77 rank-128 Jordan
+defect. The additional canonical frequency condition
+`N(k)u_hat=0`, `N=E^2-rho^2 I`, removes generalized chains at flat principal
+grade and retains rank-640 observation. It is a conditional domain ingredient;
+selected-action/Green, overlap/BFV, curved completion, nonlinear propagation
+and source selection remain open. Registry:
+`selected-k77-nonlocal-ultrahyperbolic-polarization-gate.json`.
+
+Predecessor v0.169. The complete Spin-natural
+zero-order constraint family on the actual real-K77 source-shaped evolution
+has one propagated projective line, `C=2 Gamma(zeta)-nu`. Its kernel contains
+the full rank-128 square-zero Jordan image, and the restricted remainder keeps
+rank 128, killing the natural zero-order repair. Next type the explicit
+nonlocal ultrahyperbolic constraint and reconcile the source-admitted
+Shiab/southeast operator completion. Registry:
+`selected-k77-natural-trace-constraint-gate.json`.
+
+Predecessor v0.168. The actual source-shaped
+real-K77 dimension-1920 one-time evolution has rank-128 square-zero Jordan
+remainders in all three observed spatial directions. Its positive symmetrizer
+cone is empty, killing the standard unreduced maximal-dissipative Cauchy route.
+Every closed graph and the ambient nonlocal ultrahyperbolic route remain open;
+next derive a constraint/BV reduction or explicit nonlocal constraint.
+Registry: `selected-k77-unreduced-hyperbolic-domain-gate.json`.
+
+Predecessor v0.167. The action-owned moving
+coefficient is the complete four-field fermion normal principal symbol. It
+descends globally as an associated-bundle morphism; its inverse and the
+v0.166 Darboux atlas descend on noncharacteristic conormals. The null symbol
+has exact rank `1024` and kernel `896`, so one everywhere-invertible coefficient
+is impossible. Next construct the noncharacteristic Cauchy/maximal-dissipative
+closed domain and keep the null characteristic/BFV relation separate.
+Registry: `selected-k77-global-normal-symbol-descent.json`.
+
+Predecessor v0.166. The v0.68 complete
+cotangent-lift theorem specializes exactly to v0.165's independent-dual Green
+potential. The action coefficient and its first derivative force a half
+momentum shear, producing a local moving anti-symplectic involution wherever
+the coefficient is real and invertible. This repairs the naive moving exchange
+but transports the at-least-120-coordinate symmetric graph family without
+selecting a member. Next type and globally descend the actual K77 coefficient,
+then build the Calderon/maximal-dissipative domain and unrestricted BFV edge
+completion. Registry: `selected-k77-moving-antidualizer-darboux.json`.
+
+Predecessor v0.165. The selected action's
+exact algebraic boson-plus-four-fermion symmetrized preboundary form is
+nondegenerate and includes live moving-normal mixed terms. Full-carrier
+small-gauge-basic Lagrangian graphs exist conditionally, but the smallest
+tested separable symmetric family leaves at least 120 coordinates and selects
+none. The fixed-normal fermion reality is anti-symplectic; its naive moving
+total extension fails. Next construct the actual action-owned moving
+anti-linear K77 reality and total Calderon/maximal-dissipative domain, then
+test global descent and unrestricted BFV edge completion. Registry:
+`selected-k77-coupled-green-domain.json`. v0.166 repairs its naive moving-map
+obstruction through the already-owned complete cotangent lift while preserving
+the graph-selection and analytic-domain burdens.
+
+Predecessor v0.164 closes the local full-field ordinary-gauge complex and
+kills gauge covariance as a unique carrier selector; v0.165 composes its total
+Green form, proves conditional Lagrangian-domain existence/non-uniqueness and
+rejects the naive moving reality extension.
+
+Predecessor v0.163 kills the fermion-only principal gauge route and sends Build
+to the full-field ordinary-gauge complex; v0.164 constructs that complex and
+kills gauge covariance as a unique carrier selector.
+
+Predecessor v0.162 proves the rank-384 tested hull is a proper subspace of the
+unrestricted action image and returns Build to the unrestricted operator;
+v0.163 constructs and decides its southeast/principal-BV successor.
+
+Predecessor v0.161 computes the rank-384 tested common hull; v0.162 preserves
+that exact diagnostic while killing its identification with the unrestricted
+action image.
+
+Predecessor v0.160 supplies the ambient-field ownership correction and the
+common-hull question; v0.161 answers the rank question and corrects its direct
+selector shortcut. Predecessor v0.159 supplies the exact finite receiver ranks and three failed
+bounded completion routes. Its field-type ownership sentence is narrowed by
+v0.160; its ranks and route kills survive.
+
+Predecessor v0.158 supplies the action-active nonclosed graph and is narrowed
+only by eliminating three bounded completion routes.
+
+Predecessor v0.157 supplies the exact tautological stationary graph; it is
+narrowed from standalone carrier to action-active nonclosed reduction.
+
+Predecessor v0.156 supplies the fixed-fixture and full-carrier correction; it
+is narrowed, not retracted.
+
+Predecessor v0.154 constructs the observed-boundary-to-P3 relative real-`KO`
+input map while keeping the K95 right-`H` comparator separate from the unbuilt
+K77 operator/domain/index/count output. Strict surplus remains zero. Registry:
+`selected-k77-relative-boundary-p3-ko-interface.json`.
+
+Predecessor v0.153. The selected Spin-native scalar-Clifford trace restricts
+the observed Lorentz chiral pairing to `B_Re`, closing projective `r` and the
+independent horn cost conditionally. One external integer remains against one
+amplitude equation, so strict surplus is `0`. Registry:
+`selected-k77-action-induced-real-pairing-horn.json`.
+
+Predecessor v0.152. The minimal observed-
+boundary coupling with external winding `n` and real-pairing ratio `r` exists.
+Fixed compatible `(n,r)` conditionally selects a finite amplitude and preserves
+small-gauge basicness, but the datum Jacobian has rank one against two supplied
+coordinates: strict/favorable surplus is `-1/0`. Large-gauge compatibility
+selects no component and winding is not P3. Next derive the pairing/chiral horn
+or build a typed relative-index/P3 bridge, then rerun surplus before restricting
+the action. Registry: `selected-k77-external-relative-datum-surplus.json`.
+
+Predecessor v0.151. The source-owned `A0`
+same-bundle bitorsor globalizes the relative construction, but its canonical
+identity section has winding zero and a generic Chern--Simons interpolation is
+continuous rather than quantized. A nonzero integer requires an unowned
+large-gauge component; ambient `A0` is not automatically the observed chiral
+connection; the real-pairing ratio remains unowned. Next type and couple an
+explicit external `(n,r)` datum through an action-owned chiral reduction and
+compute multirow constraint surplus before restricting the action. Registry:
+`selected-k77-relative-chiral-transgression-ownership.json`.
+
+Predecessor v0.150. The actual Lorentzian
+global-topology gate kills the absolute tangential unit selector: ordinary
+`H^4` is zero on globally hyperbolic `R x Sigma3`, while closed time-oriented
+Lorentzian spin backgrounds permit only a `12Z` chiral `c2` lattice. The real
+invariant pairing space on `sl(2,C)_R` has dimension two and is neutral, so
+the source has not selected its ratio or reality condition. Next construct a
+source-owned relative/boundary transgression before action restriction.
+Registry: `selected-k77-lorentzian-chiral-class-pairing.json`.
+
+Predecessor v0.149. The replacement-surplus
+comparison prefers the tangential same-bundle identity because it adds no
+continuous selector. Its `c2` is background-dependent and its Lorentzian
+chiral bundle is complex; no universal `+1` or real compact BPST connection
+follows. No natural zero-order H-N map exists, while the general and minimal
+repairs cost 24 and three pointwise functions. Next test the actual-background
+class and real selected-action pairing before action restriction. Registry:
+`selected-k77-p3-replacement-surplus.json`.
+
+Predecessor v0.148. The actual-base map kills
+the current nontrivial P3 normal-support/source diagonal: the tangential source
+class restricts to zero on the normal cycle while P3 `n=+1` has `c2=1`, and
+normal/horizontal self-dual form slots are disjoint. The v0.147 abstract `S4`
+class theorem survives re-scoped. Next Build compares a tangential/base support
+redesign with a source-owned horizontal-normal soldering and counts constraint
+surplus before action restriction. Registry:
+`selected-k77-p3-normal-tangential-support.json`.
+
+Predecessor v0.147. On an abstract common `S4`, one P3 orientation has the
+principal-`SU(2)` class of the positive chiral spin bundle. v0.148 shows this
+does not supply the actual normal-to-tangential support map. Registry:
+`selected-k77-p3-spin-bundle-diagonal.json`.
+
+Predecessor v0.146. The exact nonzero source
+curvature preserves the four-plane chiral split but has rank-three nonzero
+components in both `su(2)+` and `su(2)-`; `D_B P_sd=0` therefore does not
+select the self-dual factor, and one-factor membership forces `t=0`. The
+current-action P3 self-dual revival is killed. Reopening it requires an
+explicit P3-to-source principal-bundle diagonal plus restriction of `I1`
+before variation and a complete Euler/BV/domain rebuild. Registry:
+`selected-k77-p3-selfdual-source-reduction.json`.
+
+Predecessor v0.145. Every current
+parent-invariant quadratic pairing of the unprojected source curvature
+vanishes on P3's framed four-plane, killing the direct P3 amplitude horn.
+The nonzero self-dual `SU(2)` control is a new source reduction, not a current
+parent invariant. No P1/P2/P3 assignment, verdict, residue, quotient or datum
+moves. Registry: `selected-k77-p3-native-characteristic-pairing.json`.
+Priority surface: `exploration-absorption-priorities-2026-08-10.md`.
+
+Predecessor v0.144. A fixed nonzero source-connection characteristic pairing
+would discretize the remaining magnitude through `k_B=C_B t^4/9`; v0.145
+computes the current native coefficient and finds it exactly zero. Registry:
+`selected-k77-p3-characteristic-amplitude-selector.json`.
+
+Predecessor v0.143. The existing normalized zero-mode projector conditionally
+screens independent constant source shifts but adds no equation for the
+nonzero VEV amplitude. `ell` reads the amplitude; `T in im Q` forces zero;
+`ell(T)=c` selects supplied `c`. Registry:
+`selected-k77-global-projector-amplitude-layer0.json`.
+
+Predecessor v0.130. The epsilon-transported
+rank-8128 projector, noncommuting cocycle and recomputed first-order Euler
+operator descend exactly on all 16384 directions. Both moving Spin total 113893
+and full-U total 229477 globalize. The two C32,32 halves form a moving
+8192+8192 block/coset reduction inside source full U64,64 P_H; ordinary
+observation value pullback selects neither parent. Action projector ownership
+and the complement Euler equation are next. Registry:
+`selected-k77-moving-parent-bundle-observation-reduction.json`.
+
+Predecessor v0.129. Exact complete enumeration
+shows grades 1+2+5 are not Euler closed. Their minimum complete-grade closure is
+the B-adjoint-skew Spin sector with total tangent 113893. Either two-U32,32 or
+full-U64,64 covariance requires the complete 229477 field tangent, while the
+parents' symmetry and pairing-coordinate burdens remain distinct and
+unselected. Globalize both carrier horns and test moving epsilon plus
+observation reduction was discharged and re-scoped by v0.130. Registry:
+`selected-k77-grade5-unitary-parent-euler-closure.json`.
+
+Predecessor v0.128. The source-owned
+fixed-epsilon first-order Euler operator shows that principal tangent 915 is
+not first-jet closed. Four observed jets force conditional total tangent 1131;
+all fourteen source-native Y14 jets force the complete selected low-grade
+tangent 1571. Ordinary pullback does not supply the conormal constraint needed
+to select 1131. Grade five and both unitary-parent ports are next. Registry:
+`selected-k77-complete-euler-jet-tangent-closure.json`.
+
+Predecessor v0.127. The rank-594 grade-two
+tangent is an exact observation-stabilizer subrepresentation with natural
+decomposition `160+180+60+184+10`; it defines an associated subbundle
+conditional on a supplied observation reduction. One mixed ambient generator
+expands it to 727, preserving the observation/ambient fence. A dependency-
+hashed nonrecursive tangent bank now owns the coordinate basis. Lower-order and
+derivative-jet closure are next. Registry:
+`selected-k77-observation-stabilizer-subbundle.json`.
+
+Current append-only progress surface: ledger v0.126. Exact K-lifted
+first-action Hessian closure gives the minimum known selected-Spin local-
+principal tangent `915 = 321 + 594`, common to the full `X^4` symbol family and
+both exact stationary branches. Rank `174` is fixed-symbol only and `464`
+covers only three stored representatives. No current Noether/BV differential
+owns the rival quotient. Lower-order/jet closure and a source-natural global
+subbundle are next. Registry:
+`selected-k77-minimal-hessian-tangent-closure.json`.
+
+Current append-only progress surface: ledger v0.125. Exact co-moving
+naturality completes the selected-Spin ten-metric first-action block with
+full/horizontal/off-slice ranks `9/9/4`; the complete epsilon block remains
+`91/6/88`. The 321 truncation is not Hessian-closed. Next classify the
+off-slice image as source/action-owned tangent closure or a derived constraint
+image, with no quotient by fiat or automatic 1,571 promotion. Registry:
+`selected-k77-moving-metric-first-action-hessian.json`.
+
+Predecessor v0.124. The exact selected-K77
+carrier/coefficient bank is versioned, source/dependency hashed, stale-
+rejecting and independently replayed without recursive consumer rebuild.
+Registry: `k77-exact-bank-api-v1.json`.
+
+Predecessor v0.123. The complete selected-
+Spin primitive-epsilon first-action block retains full/horizontal/off-slice
+ranks `91/6/88`: every lower-Cartan and moving-Phi/Shiab grade-two correction
+vanishes. The selected 321 tangent is therefore not Hessian-closed, while an
+expanded tangent or action-owned equation quotient and both broader parents
+remain open. The v0.124 successor closes the mandatory durable-bank gate. Registry:
+`selected-k77-moving-epsilon-first-action-completion.json`.
+
+Predecessor v0.122. The fixed-operator
+metric/epsilon first-action response has common off-slice ranks `4/88/89` on
+all causal representatives and both exact branches. This kills frozen
+operator closure, not the total moving 321-field construction; the moving
+metric/density/Hodge/Phi/Shiab/frame/observation cancellation is next.
+Registry: `selected-k77-fixed-operator-metric-epsilon-leakage.json`.
+
+Predecessor v0.121. Both exact branches have
+a nondegenerate rank-196 first-action grade-one connection Hessian with inertia
+`(97,99,0)` and zero cross to all 1,274 grade-two covectors. This preserves the
+minimum-known 321 tangent through the connection gate only; selection and
+completeness remain open. Registry:
+`selected-k77-first-action-tangent-closure.json`.
+
+Predecessor v0.120. Both exact stationary
+branches retain a rank-91 lower-order primitive-epsilon raw-residual block
+with positive conjugate coefficients, and the v0.95 fixed-`varpi` transverse
+metric rank-6 theorem ports to both. Residual zero is not zero Jacobian.
+Complete Hessians, expanded parents, gauge/ghost and domain remain open.
+Registry: `selected-k77-lower-order-source-block-reconciliation.json`.
+
+Predecessor v0.119. Both exact stationary
+branches retain the already-owned first-action rank-91 epsilon/Cl1 cross and
+residual rank-1470 zero-jet `varpi` map. Their selected 125-field principal
+Gram bank is common while lower-order amplitudes differ. Lower-order
+metric/epsilon, expanded parents, gauge/ghost and domain remain open. Registry:
+`selected-k77-two-branch-action-block-port.json`.
+
+Predecessor v0.118: the apparent difference
+between the two reconstruction Hessian inertias is not a source-space Morse
+selector: both points are noncritical in independent `B`, and exact coordinate
+change alters the determinant. On the actual scalar `varpi` line both branches
+have the same inertia class for each of the two distinct source actions. Both
+branch and parent ports remain required. Registry:
+`selected-k77-branch-hessian-discriminator.json`.
+
+Predecessor v0.117: the source action has an exact mixed-order admission
+grammar with minimal safe symmetric weight `(2,1,1)`, but the actual
+branch/parent Hessian coefficients, gauge fixing/ghosts and complete operator
+remain unowned. H7/H8 is a kinematic trace target. Registry:
+`selected-k77-bulk-operator-admission.json`.
+
+Predecessor v0.116: the physical `H7/H-7`
+and gauge/ghost `H8/H-8` cotangent pairs form one strong graded boundary trace
+carrier on the relative `A0` bitorsor. Cotangent-lift patching preserves the
+form and vertical Lagrangian polarization; the exponents remain distinct and
+the polarization is not a selected boundary condition. The complete
+action-owned gauge-fixed bulk operator, `Dmax/Dmin` trace exact sequence,
+Green/Krein realization and coupled BV--BFV remain unowned. Registry:
+`selected-k77-common-graded-trace-boundary-triple.json`.
+
+Predecessor progress surface: ledger v0.115. The old one-sided edge
+frame is global only on trivial boundary bundles. The relative edge bitorsor,
+using the `A0` reference copy of the existing `P_H|_B`, is nonempty in every
+owned topological sector and preserves dressed trace, moment map, local
+symplectic kernel and classical BFV. Common domain, coupled BV-BFV and physical
+selection remain open. Registry:
+`selected-k77-relative-edge-bitorsor-topology.json`.
+
+Predecessor progress surface: ledger v0.114. The two nonzero branch forms are
+symplectomorphic and the minimal-edge horn has a stratum-wise classical BFV
+charge; global edge topology was still open.
+
+Predecessor progress surface: ledger v0.113. Both exact branches have zero
+aligned residual-adjoint moment map but live primitive-epsilon endpoint charge
+of rank 14 per endpoint; charged and minimal-edge horns retain both.
+
+Predecessor progress surface: ledger v0.112. Both branches survive the full
+pointwise internal parent comparison while endpoint momentum remains live.
+
+Predecessor progress surface: ledger v0.111. Both branches survive the known
+local selected source-Euler pullback; independent `B` at fixed `T` is endpoint
+momentum rather than a bulk source equation.
+
+Predecessor progress surface: ledger v0.110. Nonconstant affine descent and
+source Xi redundancy close and supply the two algebraic branches.
+
+Predecessor progress surface: ledger v0.107. The repaired common connection
+branch exposed the exact rank-one direct metric trace demand.
+
+Predecessor progress surface: ledger v0.106. The old residual-zero
+fixture is now typed as only grade-two constrained-critical. A nontrivial
+branch closes all 1,470 low-grade connection Euler directions and the raw
+residual, while direct metric Euler remains open. The moving-Shiab epsilon
+mixed Hessian cross has rank 91 and lands wholly in the omitted grade-one
+sector, forcing an explicit 321-versus-1,571 field-tangent gate before BV.
+Registry: `selected-k77-common-first-action-epsilon-hessian.json`.
+
+Current append-only progress surface: ledger v0.105. The source-owned
+primitive-epsilon principal bank is now serialized on the selected Spin-native
+K77 common residual coordinates. The 125-field raw ranks are `110/110/110`,
+Gram ranks `110/110/16`, and doubled trace quotients `220/220/32`; all remain
+unbooked diagnostics. Lower-order moving-Shiab epsilon, the enlarged
+same-background first action, action BV differential, edge-carrier soldering,
+maximal domain and odd BFV remain open. Registry:
+`selected-k77-primitive-epsilon-common-bank.json`.
+
+Predecessor ledger v0.104: the partial metric-plus-varpi Gram has causal ranks
+`22/22/14` and unbooked doubled quotients `44/44/28`.
+
+Predecessor ledger v0.103: on compact Y14
+13-boundaries, the selected edge form has a strong `H7 x H-7` cotangent
+completion with `H8` gauge/edge frames; equal `H7 x H7` regularity is weak.
+The edge kernel equals the residual gauge orbit on every nonempty torsor
+stratum. The charged current algebra closes classically with zero central
+term, and vertical polarization selects neither horn. Torsor topology, common
+Green/Krein domain, odd BFV and physical selection remain open. See
+`selected-k77-sobolev-edge-current-algebra.json`.
+
+Current append-only progress surface: ledger v0.102. Full derivative-bearing
+nonzero-`A0` `tau_A0`, the conditional Spin-native action trace, raw residual
+moment map, minimal-edge characteristic kernel and moving-reference patch law
+now compose exactly. This closes global algebraic associated-bundle descent,
+not functional BFV completion. The charged boundary horn, polarization,
+charge algebra and common Green/Krein domain remain open. The selected parent,
+two `U(32,32)` halves and full `U(64,64)` parent remain distinct. See
+`selected-k77-full-tau-a0-moment-map.json`.
+
+Current append-only progress surface: ledger v0.101. Source and local action do
+not select boundary gauge redundancy versus charged physical symmetry. Full
+boundary gauge plus generic nonzero action momentum conditionally selects the
+minimal edge horn uniquely, with coefficients `(-1,+1)`, no continuous
+coefficient freedom and no net reduced physical dimensions. The boundary
+gauge-status predicate remains unowned; actual K77 `H`/action-trace, full
+`tau_A0` global moment map, BFV polarization and common domain remain. See
+`selected-k77-boundary-disposition-selector.json`.
+
+Current append-only progress surface: ledger v0.97. The physical fixed-`varpi`
+`D_g Upsilon` bank now shares the actual all-grade carrier with `D_varpi` and
+has four rank-nine principal maps, combined rank twenty, and rank-six causal
+transverse blocks. Its torsion graph with `varpi` cancels exactly. The prior
+rank-four Ward metric completion was identity-defined rather than the actual
+rank-three Levi-Civita orbit; the current principal Ward defect is rank four.
+Complete primitive `D_epsilon Upsilon` and physical diffeomorphism transport
+are next. See `selected-k77-common-metric-dupsilon-coefficient-bank.json`.
+
+Current append-only progress surface: ledger v0.96. The actual horizontal
+`D_varpi Upsilon` bank has four rank-13 principal coefficients, rank-24
+zero-order coefficient, and an exact nonzero covector-valued `K_loc` Green
+identity. Full common-field assembly fails closed because `D_g` has not been
+emitted on the common residual-coordinate bank and the full primitive
+`D_epsilon Upsilon` bank remains open. A field-valued operator adjoint also
+needs an unowned field-space Riesz map. See
+`selected-k77-common-field-formal-adjoint-green.json`.
+
+Current append-only progress surface: ledger v0.95. At fixed independent
+`varpi,epsilon`, `delta T=-delta B_LC` and the three expanded curvature
+derivatives cancel to `delta F_A=0`. The complete metric-derived covariant
+spin-Levi-Civita first-jet image has rank 20 inside the unrestricted rank-24
+connection carrier; every causal physical transverse restriction remains
+rank six. Moving observation adds no term at raw `Upsilon*=0`. Thus the local
+fixed-varpi `D_g Upsilon` block is closed. Common-field `Dvarpi/Depsilon`
+assembly, action-density formal adjoint, Green and domain remain. See
+`selected-k77-fixed-varpi-normal-frechet-closure.json`.
+
+Predecessor append-only progress surface: ledger v0.93. The selected K77
+grade-`1+2+5` residual carrier is Spin-native, complex dimension `2,107`.
+The block product on the two `C^(32,32)` Weyl halves generates a `16,382`-
+dimensional carrier with three pairing coordinates; full `U(64,64)` generates
+`16,383` with one. Neither large group preserves the selected truncation.
+The source is silent on the action parent, so the primary build proceeds
+conditionally at the scalar-Clifford-trace point toward lower-order complete
+`D_g Upsilon`, coefficientwise naturality and formal adjoint/Green. The
+booked residue stays 84 while the `84..86` parent range is explicit. See
+`selected-k77-operative-pairing-symmetry-closure.json`.
+
+Predecessor append-only progress surface: ledger v0.92. The local K77 residual
+pairing `K_loc` is conditionally exact and nondegenerate on all 1,470 frozen
+source directions, with inertia `(741,729,0)`. Full `U(64,64)` invariance
+selects one weight line only on that comparator. Curt's two `C^(32,32)` Weyl
+halves create a distinct chirality-preserving block-product horn; the odd
+selector witnesses do not transfer. This is not a positive state space,
+formal adjoint, Green identity or analytic domain. First settle the operative
+group/invariant carrier, then reuse the v0.85 principal transverse six for
+lower-order complete physical `D_g Upsilon`, coefficientwise naturality,
+formal adjoint and Green. See
+`selected-k77-residual-pairing-invariance.json`.
+
+Predecessor append-only progress surface: ledger v0.91. The v0.77 first-action
+Euler bank is complete and is not the residual Jacobian. Stationary residual
+naturality fixes four physical Ward-orbit columns, while exact rank-six
+transverse additions prove those columns do not determine full `J`. Build now
+owned the six transverse K77 `D_g Upsilon` columns and residual `K`, followed
+by formal adjoint, Green and symplectic/domain descent. K77 is the unique MW
+horn only conditional on the real-chiral-carrier requirement. See
+`selected-k77-action-frechet-ward-object-separation.json`.
+
+Predecessor append-only progress surface: ledger v0.90. Exact nonabelian Cartan
+composition shows that the flat second connection's diffeomorphism response
+is the existing primitive epsilon channel at `eta=i_xi B`; the primitive was
+already built. K77 and K95 retain different branch-native Hodge operators but
+both pass local naturality. Build now owns the actual selected-action Frechet
+coefficient bank and coefficientwise `J R=0`, before `K*`, Green, Krein or
+symplectic/BFV descent. See `signature-generic-cartan-ward-compose.json`.
+
+Predecessor append-only progress surface: ledger v0.89. K77 is the source's
+author-asserted conditional branch; K95 is the geometry-derived comparator.
+The next nonhomogeneous Ward Build must be signature-generic where
+tensor-natural and branch-native wherever real-form-dependent structures
+enter. See `signature-rationale-build-branch-retype.json`.
+
+Current priority/accounting decision:
+`conditional-ledger-priority-decision-2026-08-07.json`. It types the 84
+immutable ledger records versus 82 active targets, preserves the two historical
+predecessors outside the active meter, and records the source-tangent ->
+four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
+preferred disjoint side gate. Its persona aggregation is planning evidence,
+not scientific evidence.
+
+Predecessor append-only progress surface: ledger v0.88. The natural matched-q
+physical diffeomorphism lift has rank four: rank-three metric-skew/Kosmann
+response plus a symmetric longitudinal metric complement. Moving K77 metric,
+density, Hodge, tautological forms, observation graph and equation dual are
+locally natural with zero fit. Gamma is not required as a fourth physical
+direction. The declared-base `(7,7)` horn is used; `SIGNATURE-AMBIENT` remains
+open. Nonconstant primitive epsilon, field Lie transport, the expanded
+selected-action Frechet, `K*`, adjoint and Green remain open. See
+`selected-k77-physical-diffeomorphism-split.json`.
+
+Predecessor append-only progress surface: ledger v0.87. The covector-matched
+internal bivector gauge orbit has rank three and closes exactly only after its
+complete lower-order response is assembled. See
+`selected-k77-kosmann-moving-shiab-rank3.json`.
+
+Predecessor append-only progress surface: ledger v0.86. Source epsilon is an
+`H`-valued gauge/second-connection variable, not a source-quoted physical
+diffeomorphism soldering law. Direct metric and varpi torsion responses cancel
+on all four orbit columns, while the full source-variable curvature response
+has rank three. Build now owns that rank-three moving Shiab/Hodge/curvature/
+density/observation packet, lower-order transverse and primitive internal-
+epsilon completion, then pairing, adjoint and Green. See
+`selected-k77-principal-ward-gamma-epsilon-reconciliation.json`.
+
+Predecessor append-only progress surface: ledger v0.85. The source-owned relation
+`T=varpi-B_LC(g)` supplies the direct principal metric response
+`delta_gT=-L_qh`. The Levi-Civita map has rank nine and its sole kernel lies
+inside the diffeomorphism orbit, so it is injective on the six transverse
+metric directions. Composing this actual partial metric block with source
+`varpi` and gamma epsilon leaves a rank-four Ward packet. Build now owns the
+moving Shiab/Hodge/curvature/density/observation operator that supplies that
+packet, plus lower-order transverse metric/epsilon completion, then pairing,
+adjoint and Green. See
+`selected-k77-metric-transverse-augmented-torsion-block.json`.
+
+Earlier predecessor append-only progress surface: ledger v0.84. The ordinary
+spin/Levi-Civita Kosmann source-epsilon lift has rank three and exactly the
+same longitudinal kernel as the source-`varpi` connection block, so it adds
+no Ward direction. The already-owned grade-one K77 map
+`gamma_epsilon:C -> ad(P_H)` instead supplies an exact rank-four principal
+epsilon orbit in every causal class, is nonzero on that longitudinal kernel,
+and conditionally closes all four principal `J R=0` columns when composed
+with the source-`varpi` response. This is a zero-parameter construction, not
+a source assertion: the source is silent on identifying
+`gamma_epsilon(xi-flat)` with physical diffeomorphism soldering. Build now
+owns the six transverse physical metric columns, lower-order epsilon block,
+residual pairing, formal adjoint and Green concomitant. See
+`selected-k77-gamma-soldered-epsilon-dupsilon-orbit.json`.
+
+Predecessor append-only progress surface: ledger v0.83. The source-owned
+24-dimensional horizontal `D_varpi Upsilon` block is exact and injective, with
+56 live output coordinates. Its diffeomorphism interface has rank three, so
+the earlier rank-four metric diagnostic could not be imported on the
+fixed-`epsilon` horn; v0.84 supplies a distinct grade-one epsilon orbit.
+
+Predecessor append-only progress surface: ledger v0.82. At complete
+`Upsilon*=0`, the second-layer bulk Hessian is exactly the common-field
+`D Upsilon` Gram operator; v0.83 closes its source-varpi block and rejects the
+fixed-epsilon import of the old rank-four metric diagnostic.
+
+Predecessor append-only progress surface: ledger v0.81. The ten metric
+equations remain retained, but vertical-only action closure is retracted. The
+full common-field two-layer complex is required; v0.82 narrows its stationary
+construction to the residual Jacobian, pairing, Ward and Green owners.
+
+Predecessor append-only progress surface: ledger v0.80. The complete equation
+dual retains the graph-conormal ten as metric-section Euler equations and the
+Einstein comparator supplies the typed target complex.
+
+Predecessor append-only progress surface: ledger v0.79. Local holonomic
+observation jets survive, arbitrary-`X` Lorentz sections and ordinary-pullback
+faithfulness do not, and the complete receiver detects the live conormal
+action equation.
+
+Predecessor append-only progress surface: ledger v0.69. The local contact form
+is small-gauge basic and has a live unrestricted boundary moment map.
+
+Predecessor append-only progress surface: ledger v0.67. The exact
+ten-direction K77 geometry bank is complete and the seven owner buckets are
+trivialization-dependent.
+
+Predecessor append-only progress surface: ledger v0.66. The selected action's
+normal connection/epsilon Euler packet is the exact mixed action Hessian; its
+seven owner classes are complete in the chosen finite trivialization.
+
+Predecessor append-only progress surface: ledger v0.65. The action-owned Euler
+pair has an exact moving indefinite-primalizer and complete observation-germ
+Green receiver; ordinary pullback retains rank-ten conormal loss.
+
+Predecessor append-only progress surface: ledger v0.64. The action-owned
+degree-fourteen epsilon companion is exact from both connection Euler owners
+plus moving Shiab and is distinct from printed Xi and homogeneous Ward.
+
+Predecessor append-only progress surface: ledger v0.63. The graph carrier is
+typed as a primalized degree-one form, printed Xi is rank-zero redundancy
+after total closure, and the formal invariant-trace Green identity is exact.
+
+Predecessor append-only progress surface: ledger v0.62. The labelled-null
+response and one conormal derivative are exact and its rank-650 source symbol
+is boundary-live.
+
+Predecessor append-only progress surface: ledger v0.61. The frozen non-null
+full raw-`Upsilon` response has a unique all-grade inverse and preserves full
+Bianchi and labelled-frame descent.
+
+Predecessor append-only progress surface: ledger v0.60. The complete source
+tangent satisfies full Bianchi and supplies the labelled ambient rank-12
+`(6,6)` screen, but the old curvature-only graph misses `kappa_1 T`.
+
+Predecessor append-only progress surface: ledger v0.59. The already-built
+source-owned full labelled Clifford reduction has central `U(1)` stabilizer
+with trivial adjoint action, so the paired graph is basic. The horizontal-
+plane forgetful quotient still fails, and exact Spencer uniqueness closes the
+invariant-Hom replacement horn for the same four targets. Next is total raw-
+`Upsilon` Bianchi/naturality plus the null screen. See
+`selected-k77-full-reduction-quotient-reconciliation.json`.
+
+Predecessor append-only progress surface: ledger v0.58. The corrected K77
+four-column source lift has exact full-frame three-patch transport, but fails
+unframed block-stabilizer basicness. The fitted map is outside the exact
+three-dimensional invariant Hom span, and a normal stabilizer fixes the
+horizontal four-plane while changing all four lifts. No positive quotient
+surplus is booked. See `selected-k77-source-graph-basicness.json`.
+
+Predecessor append-only progress surface: ledger v0.57. The complete raw-target to
+source-`varpi` pointwise chain is corrected from a mislabeled `(9,5)` metric to
+settled K77 `(7,7)`. Every coefficient packet changes, but rank four, supports
+`57,34,34,34`, uniqueness and zero pointwise freedom survive. Old v0.55/v0.56
+values are superseded. See
+`selected-k77-cartan-spencer-signature-correction.json`.
+
+Predecessor append-only progress surface: ledger v0.56. The source-native
+fixed-epsilon `varpi` tangent has `delta B=0`, `delta T=delta A=alpha` and
+realizes all four transverse Cartan lifts pointwise, with supports
+`57,34,34,34`, rank four and zero coefficient freedom at fixed background.
+The successor gate tests framed graph transport and quotient basicness. See
+`selected-source-varpi-cartan-composition.json`.
+
+Predecessor append-only progress surface: ledger v0.55. The unrestricted
+nonzero-background Cartan/Spencer connection map owns all transverse 117
+coefficients exactly, but the actual Levi-Civita subclass is q-exact and does
+not. The next gate is the independent-`varpi`, soldering and observation
+normal jet. See `selected-nonzero-background-cartan-spencer-owner.json`.
+
+Current append-only progress surface: ledger v0.54. The selected nonzero
+`F_A*,T*` constituents are constructed and their invariant branch-tangent
+operator packet is zero. The next gate is the independent ambient field,
+connection, soldering and observation normal jet. See
+`selected-invariant-constituent-operator-naturality.json`.
+
+Current append-only progress surface: ledger v0.53. It preserves the q-exact
+connection-class exclusion for the transverse 117 and retracts only the v0.52
+moving-operator inference. The next gate constructs the selected nonzero
+curvature/torsion constituents and the physical Shiab/Hodge metric-normal
+response. See `selected-second-layer-residual-constituent-operator-correction.json`.
 
 Persona passes, dialectical method, synthesis history, runbooks, templates, and
 process-quality notes.
@@ -41,6 +808,214 @@ Runbooks:
   status-changing promotion, downgrade, or correction.
 
 ## Direct Process Files
+
+- `conditional-physics-ledger-v0.96.json` - current append-only conditional
+  ledger; the actual varpi equation-dual/Green closes while common-coordinate
+  `D_g`, full primitive `D_epsilon` and field Riesz remain.
+- `selected-k77-common-field-formal-adjoint-green.json` - exact actual-varpi
+  first-order/Green packet and fail-closed common-field ownership audit.
+- `conditional-physics-ledger-v0.95.json` - immutable predecessor ledger for
+  the local fixed-varpi metric Frechet closure.
+- `selected-k77-fixed-varpi-normal-frechet-closure.json` - exact curvature
+  cancellation, rank-20 Levi-Civita image, all-causal ranks and scope fences.
+- `conditional-physics-ledger-v0.94.json` - predecessor append-only conditional
+  ledger; all-ten/all-causal comoving coefficient naturality closes while the
+  live rank-six source response and component-normal/observation/adjoint
+  owners remain.
+- `selected-k77-transverse-comoving-coefficient-closure.json` - exact causal-
+  class ranks, source return, closed coefficient packet and surviving physical
+  derivative frontier.
+- `conditional-physics-ledger-v0.93.json` - immutable predecessor ledger for
+  operative Spin/block/full action-parent closure and `84..86` residue range.
+- `conditional-physics-ledger-v0.89.json` - predecessor append-only conditional
+  ledger; K77 is retyped as the author-asserted construction branch, K95 as the
+  geometry-derived comparator, and the next Ward build is branch-aware.
+- `conditional-physics-ledger-v0.88.json` - immutable predecessor ledger;
+  natural physical diffeomorphism kinematics and local naturality close, while
+  nonhomogeneous action Frechet/Green remains open.
+- `selected-k77-physical-diffeomorphism-split.json` - exact natural rank-four
+  lift, rank-three Kosmann/skew split, local naturality and open Frechet scope.
+- `conditional-physics-ledger-v0.87.json` - immutable predecessor ledger; the
+  complete lower-order internal bivector Ward orbit closes exactly and frozen-
+  `q0` spacelike/null supports are corrected.
+- `selected-k77-kosmann-moving-shiab-rank3.json` - exact causal support,
+  rank-three-to-zero internal closure, moving-Shiab-alone negative control and
+  physical-diffeomorphism successor.
+- `conditional-physics-ledger-v0.86.json` - immutable predecessor ledger;
+  source-minimal direct torsion cancels on four orbit columns and the
+  remaining curvature/moving-operator target has rank three, while the
+  gamma-extended fourth direction remains conditional.
+- `selected-k77-principal-ward-gamma-epsilon-reconciliation.json` - exact
+  causal direct-torsion cancellation, rank-three sourced curvature packet,
+  rank-four conditional gamma extension and successor.
+- `conditional-physics-ledger-v0.85.json` - immutable predecessor ledger;
+  the direct principal augmented-torsion metric block has rank six
+  transversely and the gamma-extended moving-operator target has rank four.
+- `selected-k77-metric-transverse-augmented-torsion-block.json` - exact causal
+  Levi-Civita, transverse, residual and partial-Ward ranks plus successor.
+- `conditional-physics-ledger-v0.84.json` - immutable predecessor ledger;
+  rejects the Kosmann route and constructs the conditional gamma-epsilon
+  rank-four principal orbit.
+- `selected-k77-gamma-soldered-epsilon-dupsilon-orbit.json` - exact causal
+  ranks, Kosmann negative control, grade-one gamma-epsilon principal orbit,
+  source-silence fence and successor gate.
+- `conditional-physics-ledger-v0.83.json` - immutable predecessor ledger;
+  closes the source horizontal `D_varpi Upsilon` block and exposes its
+  rank-three causal Ward interface.
+- `conditional-physics-ledger-v0.82.json` - immutable predecessor conditional
+  physics ledger; reduces the stationary second-layer bulk-Hessian build to
+  typed `D Upsilon`, `K*`, Ward and Green owners without deleting physical
+  Shiab/Hodge constituent movement.
+- `selected-k77-stationary-two-layer-hessian-factorization.json` - exact
+  stationary Gram factorization, constituent-motion, dependent-observation,
+  indefinite-Krein and analytic fences plus the typed successor.
+- `selected-k77-common-field-dupsilon-varpi-block.json` - exact source
+  horizontal residual block, causal rank-three interface, fixed-epsilon
+  rank-four import rejection, and physical metric/source-epsilon successor.
+- `conditional-physics-ledger-v0.81.json` - immutable predecessor ledger;
+  retains ten metric-section equations, retracts vertical-only closure, and
+  makes the full selected two-layer common-field complex primary.
+- `selected-k77-coupled-euler-complex-scope.json` - exact first-layer
+  cohomology/helicity, second-layer Ward defect, naive-composition no-go,
+  21-dimensional fit fence and coupled-owner successor.
+- `selected-k77-metric-section-bianchi-typing.json` - exact complete-receiver
+  retyping, Einstein comparator ranks/cohomology, scope fences and next gate.
+- `selected-k77-physical-section-faithfulness-gate.json` - records the spin
+  `S4` counterexample, exact rank `4+10` split, live conormal action witness and
+  the complete-receiver/source-derived-BV construction fork.
+- `selected-k77-action-bundle-observation-overlap.json` - records the exact
+  noncommuting action-covector, observation-dual, projector and pairing descent,
+  fired controls and physical-section/BFV/domain successor fence.
+- `selected-k77-full-u6464-action-bank.json` - records the full pointwise
+  real-form dimensions, grade support, exact ranks, corrected inertias,
+  held-out control and global successor fence.
+- `selected-k77-action-boundary-coefficient-bank.json` - records the exact
+  rank-ten normal bank, scalar-Clifford inertias, observation inverse,
+  endpoint orientation and full/global successor fence.
+- `selected-k77-action-contact-legendre-owner.json` - records the two-`K`
+  control, nonquadratic selected-action obstruction, preserved endpoint
+  quotient and actual all-ten `E_B-E_T` boundary-bank successor.
+- `selected-k77-epsilon-endpoint-direct-sum.json` - records the local trace
+  rank, exact direct-sum kernel/quotient and unproved
+  `i_n(E_B-E_T)=p_KT` condition.
+- `conditional-physics-ledger-v0.73.json` - predecessor ledger after exact K77
+  source/target cotangent basicness and the single-holonomy `40 -> 20`
+  compression kill.
+- `selected-k77-two-endpoint-edge-dressing.json` - records the exact K77 group
+  owner, two-endpoint kernel theorem, Gauss-diagonal fence and open continuum
+  endpoint/primitive-epsilon owner.
+- `conditional-physics-ledger-v0.72.json` - predecessor ledger after exact
+  universal group-edge symplectic basicness and the flat Maurer-Cartan bridge.
+- `selected-k77-group-edge-dressing-maurer-cartan-bridge.json` - records the exact
+  dressing/kernel theorem, v0.70 sign recovery, pure-gauge scope and open
+  actual-K77 instantiation.
+- `conditional-physics-ledger-v0.71.json` - predecessor ledger after the exact
+  separate tilted/edge cocycles and direct zero-form/one-form identity kill.
+- `selected-k77-tilted-edge-bundle-type-bridge.json` - records those separate
+  cocycles, constant-parameter type witness and formerly open dressed bridge.
+- `conditional-physics-ledger-v0.70.json` - predecessor append-only conditional
+  physics ledger after the exact minimal edge-mode quotient.
+- `selected-k77-minimal-edge-mode-reduction.json` - records scalar-counterterm
+  failure, unique edge coefficients, all-ten ranks and scoped quotient cost.
+- `conditional-physics-ledger-v0.69.json` - predecessor append-only conditional
+  physics ledger after exact contact small-gauge basicness and live boundary
+  moment-map charges.
+- `selected-k77-contact-presymplectic-gauge-basicness.json` - records the
+  rank-ten contact owner, diagonal Ward closure, small-gauge kernel and open
+  physical boundary reduction.
+- `conditional-physics-ledger-v0.68.json` - predecessor append-only conditional
+  physics ledger after exact cotangent point-splitting basicness.
+- `selected-k77-green-potential-splitting-basicness.json` - records nonlinear
+  and all-ten K77 cotangent naturality while keeping contact and physical-gauge
+  basicness open.
+- `conditional-physics-ledger-v0.67.json` - predecessor append-only conditional
+  physics ledger after the exact ten-direction K77 geometry bank and
+  trivialization-dependent owner-split correction.
+- `selected-k77-full-normal-owner-bank.json` - records the exact metric,
+  density, pairing and Hodge ranks and routes the next gate to Green-potential
+  splitting/basicness before any vertical covariant lift.
+- `conditional-physics-ledger-v0.52.json` - current append-only conditional
+  physics ledger after the residual-zero transverse owner-class retype.
+- `selected-second-layer-transverse117-residual-zero-owner-class.json` - kills
+  the moving connection/operator class for transverse support 117 at the
+  current zero background and routes to raw-Upsilon normal jet or nonzero
+  stationary background.
+- `conditional-physics-ledger-v0.51.json` - immutable predecessor after exact
+  fixed-B translation-curvature partial ownership.
+- `selected-second-layer-translation-curvature-principal-owner.json` - proves
+  `D_B T` owns support 28, leaves transverse support 117 to the moving
+  reference/epsilon/soldering response, and fences all Euler/BV/BFV inflation.
+- `ac-g1-propagation-pointer-baseline.json` - horn-scopes the `Sp(64)` pincer
+  result, supersedes stale `AC-G1` with `AC-G1a`, reconciles the authoritative
+  next pointer and preserves the historical inherited-gate baseline boundary.
+- `branch-integration-inherited-failure-baseline-2026-08-07.json` - records
+  the August 6 integration's 49 inherited failures, `44+5` provenance split
+  and zero-regression/zero-fix result without treating it as current-head truth.
+- `conditional-physics-ledger-v0.50.json` - immutable predecessor conditional
+  physics ledger after the AC-G1 stale-premise propagation.
+- `conditional-physics-ledger-v0.49.json` - immutable predecessor after the
+  GCR Clifford-grade owner correction.
+- `selected-second-layer-gcr-exterior-degree-owner-retype.json` - exhausts
+  all 8,281 `Cl2` GCR source columns, excludes their direct grade-two target
+  ownership and the single-`q` adapter, and selects an odd source/soldering
+  owner as the next gate.
+- `selected-second-layer-nonnull-koszul-gcr-split.json` - constructs the
+  canonical non-null connection part, measures the transverse completion
+  burden, and is retyped by v0.49 as an odd vector-valued two-form split.
+- `conditional-physics-ledger-v0.48.json` - immutable predecessor ledger after
+  the non-null Koszul split.
+- `selected-second-layer-shiab-inverse-bianchi-completion.json` - proves the
+  full selected Shiab is an isomorphism, rejects the unique split preimages as
+  standalone principal connection-curvature jets, and leaves total GCR
+  completion open.
+- `conditional-physics-ledger-v0.47.json` - immutable predecessor ledger after
+  the split-to-total Bianchi retype.
+- `selected-second-layer-normal-jet-carrier-compatibility.json` - retracts
+  the false residual-Gram owner inference, proves raw source-carrier
+  compatibility for all four graph-orbit columns, and leaves the actual
+  prolonged source coefficients open.
+- `conditional-physics-ledger-v0.46.json` - immutable predecessor ledger after
+  the normal-jet owner correction.
+
+- `selected-second-layer-observation-owner-retype.json` - rejects an
+  independent observation action field, preserves the dependent moving-section
+  normal-jet route, and selects the source-native `j1 Upsilon` successor.
+- `conditional-physics-ledger-v0.45.json` - immutable predecessor ledger after
+  the observation-owner correction.
+- `selected-second-layer-actual-source-lift-rank-mismatch.json` - source-
+  corrected rank-three independent-connection lift, its time-direction kernel,
+  the nonzero metric Ward load there, and the section/observation successor.
+- `conditional-physics-ledger-v0.44.json` - immutable predecessor ledger after
+  the connection-only route correction.
+- `selected-second-layer-dupsilon-gauge-orbit-weld.json` - exact rank-four
+  metric/proxy orbit matching and unique diagnostic proxy weld.
+- `conditional-physics-ledger-v0.43.json` - immutable predecessor ledger after
+  the rank-four proxy weld.
+- `selected-action-coupled-diffeomorphism-ward-retype.json` - predecessor
+  coupled metric/connection diffeomorphism-orbit theorem composed by the
+  current weld.
+- `conditional-physics-ledger-v0.32.json` - immutable predecessor ledger for
+  that coupled-orbit theorem.
+- `selected-second-layer-offtt-scalar-ward-owner.json` - exact metric-only
+  off-TT TT reproduction, rank-four Ward defect, rejected restricted scalar
+  root and full co-moving `D Upsilon` successor owner.
+- `conditional-physics-ledger-v0.42.json` - predecessor conditional physics
+  ledger after the off-TT Ward/action-owner correction.
+
+- `selected-second-layer-massive-so3-closure-identifiability.json` - exact
+  five-dimensional massive spin-two `SO(3)` closure, independent spin-zero
+  complement and TT-to-scalar identifiability boundary; the off-TT action,
+  massless constraints and domain remain open.
+- `conditional-physics-ledger-v0.41.json` - immutable predecessor after the
+  massive little-group closure gate.
+
+- `selected-second-layer-tt-euler-preboundary-helicity.json` - exact
+  zero-fermion selected-I2B TT Euler polynomial, fourth-order preboundary
+  current, massless helicity-two quotient, massive axial-weight-two TT plane
+  and opposite local pole Green signs; the massive full `SO(3)` type,
+  complete constrained spectrum and global domain remain open.
+- `conditional-physics-ledger-v0.40.json` - immutable predecessor after the
+  selected second-layer TT carrier gate.
 
 - `agent-context-pack.md` - one-read current rules, forks, anchors, functional-channel contract pointer and active scientific directives for GU agents.
 
@@ -767,3 +1742,57 @@ Runbooks:
   boundary; source return `SOURCE-CORRECTS`, P1/P2/P3 unused.
 - `hostile-reviews/2026-08-05-first-interaction-krein-global-zero-mode-review.md`
   — two-sided hostile review with six material scope corrections.
+- `conditional-physics-ledger-v0.173.json` / `selected-k77-wedge-shiab-southeast-completion.json` — current ledger and exact real-K77 wedge-Shiab/nonzero-southeast completion packet; the principal Jordan obstruction is removed while weight, reality, domain and physics selection remain open.
+- `hostile-reviews/2026-08-11-selected-k77-wedge-shiab-southeast-completion-review.md` — three-charge review preserving the southeast-only and zero-fermion-quotient no-gos while rejecting a universal Jordan obstruction.
+- `conditional-physics-ledger-v0.174.json` / `selected-k77-action-adjoint-weight-classification.json` — complete local Spin-natural K77 pairing classification; both adjoint-parity lines give Grassmann alternation, while a chiral isometry reduces two weights to the single unselected invariant product `p=w_+w_-`.
+- `hostile-reviews/2026-08-11-selected-k77-action-adjoint-weight-classification-review.md` — hostile review correcting the self-adjoint-only criterion and fencing local bilinear existence from anti-linear reality and global domain claims.
+- `conditional-physics-ledger-v0.175.json` / `selected-k77-independent-dual-weight-trivialization.json` — exact source-native four-field left/right orbit packet; both weights are coordinates before reality, while `p` survives only conditionally on a later congruence.
+- `hostile-reviews/2026-08-11-selected-k77-independent-dual-weight-trivialization-review.md` — hostile review fencing constant classical field equivalence from function-valued weights, quantum measures and global real domains.
+- `conditional-physics-ledger-v0.176.json` / `selected-k77-majorana-reality-graded-domain-scope.json` — local real-K77 conjugation exists, while both action-pairing reality candidates expose the even-versus-odd Green-domain category mismatch.
+- `hostile-reviews/2026-08-11-selected-k77-majorana-reality-graded-domain-scope-review.md` — hostile review preserving local reality while rejecting promotion of the even symmetric-graph theorem to a graded physical domain.
+- `conditional-physics-ledger-v0.182.json` / `selected-k77-zero-seed-h640-action-closure-controls.json` — the source-owned zero-form field alone generates exact conditional `H640=512+128`; random rank-192 controls generate `1908..1920`, while the old 640 and 832 generate distinct H1280 superspaces meeting in H640 and spanning the full carrier.
+- `hostile-reviews/2026-08-11-selected-k77-zero-seed-h640-action-closure-controls-review.md` — three-charge review fencing the minimal principal-action module from source selection, barred/antifield BV cohomology, BFV reduction and global analytic physics.
+- `conditional-physics-ledger-v0.183.json` / `selected-k77-h640-observation-pullback-bv-typing.json` — exact observation-graph packet: H640 and the coordinate observed carrier are distinct rank-640 spaces, but observation derives an isomorphic rank-128 graph lift with principal no-leakage; finite lower-order leakage keeps full graph/Riccati and BV/KT open.
+- `conditional-physics-ledger-v0.184.json` / `selected-k77-h640-ambient-observed-riccati-boundary.json` — exact two-prime ambient/observed boundary: H640 closes the three observed evolutions, ten transverse directions leak rank 128 each, the unrestricted hull is rank 1,920, and ordinary pullback kills transverse covectors.
+- `conditional-physics-ledger-v0.185.json` / `selected-k77-vertical-soldering-adapter-order-gate.json` — exact two-prime differential-order split: the complete rank-ten algebraic Higgs chain has zero principal response, all ten rank-128 targets survive, both pairing horns remain eligible, and the existing selected-action first-jet/soldering chain must now be ported to the fermion/H640 symbol.
+- `conditional-physics-ledger-v0.186.json` / `selected-k77-first-jet-fermion-symbol-port-gate.json` — raw observation shear is not a K77 Spin lift, but exact co-moving Clifford-anchor/H640 boost and rotation witnesses close the local rank-128 leak; the canonical action-owned prolongation remains open.
+- `conditional-physics-ledger-v0.187.json` / `selected-k77-canonical-section-jet-cartan-spin-prolongation.json` — the actual section jet uniquely supplies all 40 local pure-mixed Cartan/Spin generators modulo stabilizer gauge; nonlinear atlas descent and the complete `epsilon_IG` flag remain open.
+- `conditional-physics-ledger-v0.188.json` / `selected-k77-finite-section-projector-atlas-descent.json` — the finite nondegenerate graph owns a canonical descending K77 projector; normalized O/Spin representatives remain local modulo stabilizer and the action-owned full flag remains open.
+- `conditional-physics-ledger-v0.189.json` / `selected-k77-action-stabilizer-connection-flag-reconciliation.json` — the K77 projector plus metric connection owns the stabilizer cocycle, reduced connection and second fundamental tensor; global Clifford soldering is retained while residual complex-Cartan flag selection stays open.
+- `conditional-physics-ledger-v0.190.json` / `selected-k77-action-concomitant-residual-flag-gate.json` — the exact Lorentz commutant closes the selected invariant natural H/Q selector class while retaining nonhomogeneous curvature/full-II and full-unitary projection as live successors.
+- `conditional-physics-ledger-v0.191.json` / `selected-k77-split-layer-commutant-action-parent-gate.json` — exact split-subgroup commutant `C + C`, native complex structure on each real Weyl half and `32+32` complexification; the same-half Hermitian form and action selection among full, block and finer split parents remain open.
+- `hostile-reviews/2026-08-12-selected-k77-split-layer-commutant-action-parent-gate-review.md` — rejects inference of Hermitian `(32,32)` from the real commutant and separates block preservation from the stronger split-`J` reduction.
+- `conditional-physics-ledger-v0.192.json` / `selected-k77-moving-split-structure-action-selection-gate.json` — exact moving `omega/J4` intrinsic-torsion decomposition; the compatible K77 connection path exists, while the current pointwise action keeps both breaking banks live and does not select it.
+- `conditional-physics-ledger-v0.193.json` / `selected-k77-two-half-hermitian-witt-rotation-gate.json` — exact conditional `H_q` compatibility between one full `(64,64)` Hermitian form and two `(32,32)` Weyl restrictions; the required non-null `q` and physical `varpi` block remain unselected.
+- `conditional-physics-ledger-v0.194.json` / `selected-k77-tautological-trace-q-two-half-ownership-gate.json` — composes the canonical unit-negative vertical trace `q_g=g/2` with `H_q`, closing the q datum cost at zero while correcting the actual normal-q split stabilizer to 42 and leaving `D_varpi H_q`, internal reduction and the physical block open.
+- `conditional-physics-ledger-v0.195.json` / `selected-k77-trace-hq-connection-internal-chain-gate.json` — constructs exact split-spin trace-`H_q` compatibility (`Spin(1,3)xSpin(6,3)`, defect rank 9), rejects the frozen-q direct Pati-Salam/SM shortcut (`Stab(q) ∩ Stab(v_PSB)` dimension 9 rather than 12), and preserves the moving/full-unitary plus source `U(3,2)` intersection and distinct `varpi` scalar block as the live route.
+- `conditional-physics-ledger-v0.196.json` / `selected-k77-moving-hq-u3_2-sm-higgs-direction-gate.json` — constructs the exact Pati-Salam/`SU(3,2)` pre-Higgs SM and actual chiral-spin 16 weights, retypes fixed-q dimension 9 as post-Higgs `SU(3)xU(1)`, and identifies orbit-plus-radial Higgs-carrier structure while leaving J and radial `varpi` action selection open.
+- `hostile-reviews/2026-08-12-selected-k77-moving-split-structure-action-selection-gate-review.md` — rejects full-unitary and Higgs identification overclaims, and scopes nonselection to the current pointwise branch.
+- `hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md` — hostile review rejecting equal-rank carrier identification and fencing moving-frame covariance from physical connection compatibility, full BV/KT and global analytic closure.
+- `conditional-physics-ledger-v0.197.json` / `selected-k77-varpi-radial-half-exchange-gate.json` — exact zero-datum trace-radial `varpi` carrier: the moving soldering receiver completes the four-real `Y=-1/2` doublet carrier, while `gamma(q)` forces the component into the full half-exchanging `U(64,64)` parent; isolated radial curvature/potential selection remains open.
+- `hostile-reviews/2026-08-12-selected-k77-varpi-radial-half-exchange-review.md` — three-charge review separating carrier admission from selection, input cell from doublet, derivative incidence from kinetic positivity, and ambient half exchange from observed chirality.
+- `conditional-physics-ledger-v0.198.json` / `selected-k77-minimal-moving-doublet-curvature-gate.json` — complete canonical rank-four moving-doublet lift and exact zero self-curvature theorem, with a nonzero soldering-kernel firing control locating the next burden in action-owned lift selection.
+- `hostile-reviews/2026-08-12-selected-k77-minimal-moving-doublet-curvature-review.md` — scopes the zero to the common-leg lift and rejects promotion to a source-level Higgs no-go.
+- `conditional-physics-ledger-v0.199.json` / `selected-k77-moving-hq-eddy-quartic-retype.json` — corrects the fixed-`H_q` phase bank, uniquely fixes the smallest `J`-linear invisible completion and constructs its exact coefficient quartic carrier without fitting the soldering kernel.
+- `hostile-reviews/2026-08-12-selected-k77-moving-hq-eddy-quartic-retype-review.md` — preserves the common-leg zero while fencing the new coefficient norm from the selected physical potential, vacuum and global uniqueness.
+- `conditional-physics-ledger-v0.200.json` / `selected-k77-hq-action-owner-potential.json` — separates the released first action from the eddy-square rival: the first action is blind on the moving weak amplitude, while the distinct eddy square conditionally gives `2(rho+r^2/3)^2` with `r^2=-3rho`.
+- `hostile-reviews/2026-08-12-selected-k77-hq-action-owner-potential-review.md` — rejects the frozen-frame tangent obstruction and fences the conditional Mexican hat from action selection, background derivation, reduced Goldstone/photon physics and analytic stability.
+- `conditional-physics-ledger-v0.201.json` / `selected-k77-source-i2b-hq-stationarity.json` — identifies SC-ACT-04 as the restricted potential owner, with exact `96(rho+r^2/3)^2`, while recording a nonzero Krein-null branch residual and fourteen transverse fixed-`H_q` connection derivatives.
+- `hostile-reviews/2026-08-12-selected-k77-source-i2b-hq-stationarity-review.md` — preserves the restricted source-action result while rejecting promotion to a full stationary or physical Higgs vacuum; selected reduction or background cancellation remains open.
+- `conditional-physics-ledger-v0.202.json` / `selected-k77-i2b-real-shiab-displasion-image.json` — exact complex-versus-fixed-real selected-Shiab image packet: the complex bank contains the displasion target, but the complete fixed-`H_q` real grade-one image excludes it; the simplest opposite-phase two-connection background also forces `kappa_1=0`.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-real-shiab-displasion-image-review.md` — preserves only the scoped fixed-real route kill and keeps moving-`H_q`, source-full-unitary, derivative-jet, global connection and physical reductions open.
+- `conditional-physics-ledger-v0.203.json` / `selected-k77-i2b-full-unitary-image-covariance.json` — composes v0.202 with the complete `16,384`-direction pointwise `u(64,64)` Clifford basis, repeats the `364 -> 365` exclusion at q13 and q12, and closes the block-two-half direct route while retaining global/moving-derivative completion.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-full-unitary-image-covariance-review.md` — corrects the v0.202 pointwise-complement fence without identifying a pointwise algebra with a global connection or the block subgroup with the full group.
+- `conditional-physics-ledger-v0.204.json` / `selected-k77-i2b-real-structure-intertwining-defect.json` — proves additive descent cannot explain v0.202, computes fixed/anti ranks `170/195` and defect rank `390`, and constructs a q13 fixed-output escape whose held-out q12 naturality fails.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-real-structure-intertwining-defect-review.md` — preserves the local q13 witness while rejecting action ownership, frame-independent promotion and any Euler/BV/domain conclusion.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-arbitrary-field-euler-green-bank-review.md` — preserves the exact rank-three zero-order Euler bank and rank-zero physical principal Green result while fencing it to the fixed-`H_q`, fixed-geometry selected parent.
+- `conditional-physics-ledger-v0.213.json` / `selected-k77-i2b-moving-higgs-principal-hessian.json` — corrects the zero-first-Green/no-kinetic inference: the actual four-real second principal Hessian is Lorentz rank two, with two live pairing-radical directions including radial; all eight displayed Shiab triples fail rank four.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-moving-higgs-principal-hessian-review.md` — preserves the rank-two theorem while fencing it to the fixed residual pairing and keeping bosonic `Q_B`, coupled contact and expanded-parent repairs open.
+- `conditional-physics-ledger-v0.214.json` / `selected-k77-i2b-real-primalizer-phase-gate.json` — proves the four live grade-two responses admit an exact phase-even Lorentz rank-four pairing, while action-owned `P_+`/`P_-` and two scalar Weyl-half weights stay rank two; an exact noncompact `U(1,1)` plant leaves action ownership open.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-real-primalizer-phase-gate-review.md` — preserves conditional rank-four existence while rejecting source-action, noncompact-unitary, positive-Hilbert, preboundary, domain or spectrum promotion.
+- `conditional-physics-ledger-v0.215.json` / `selected-k77-i2b-observer-time-hermitian-reduction.json` — exact observer-time Hermitian completion of the live Lorentz rank-four response; the canonical vertical trace gives rank zero, while observer selection/basicness and coupled contact remain open with no datum booked.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-observer-time-hermitian-reduction-review.md` — separates vertical trace, future observer, time orientation, indefinite Hermitian form and positive majorant; preserves only the finite conditional pairing and leaves action ownership open.
+- `conditional-physics-ledger-v0.216.json` / `selected-k77-i2b-observer-associated-basicness.json` — exact diagonal Spin/frame naturality on all 256 live pairings, refutation of coarse-projector unit-time selection and observer-forgetting basicness, with full `epsilon_IG`, constrained-`u` dynamics and coupled contact open.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-observer-associated-basicness-review.md` — enforces the inverse-form adjoint, adapted `(0,7,8,9)` Lorentz plane, source-half/group/connection fence and analytic/symplectic scope.
+- `conditional-physics-ledger-v0.217.json` / `selected-k77-i2b-observer-inverse-adjoint-correction.json` — append-only correction of v0.216's fixed-field blocks to `-328/9,+8,+8,+8`, preserving naturality and failed basicness while composing RB4--RB7 and retiring a duplicate `SO(3)` successor.
+- `hostile-reviews/2026-08-12-selected-k77-i2b-observer-inverse-adjoint-correction-review.md` — identifies the inherited involutive-adjoint defect, separates family existence from ownership, and routes the current selected action to constrained-`u` variation.

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-185510-gu-i2b-constrained-observer-euler-ward",
+  "predecessor": "lab/process/selected-k77-i2b-observer-inverse-adjoint-correction.json",
+  "checks": {"exact": 51, "planted": 3, "failures": 0, "ward_pairings_covered": 768},
+  "finite_result": {
+    "live_response_coordinates": 16,
+    "observer_tangent_dimension": 3,
+    "observer_tensor_00": "DIAG_MINUS_8_X4_PLUS_8_X12",
+    "observer_tensor_spatial": "MINUS_8_I16",
+    "observer_tensor_mixed": "ZERO",
+    "constrained_hessian": "MINUS_16_DIAG_I4_ZERO12_TENSOR_I3",
+    "simple_line_condition": "A_SUM_FIRST_FOUR_SQUARES_POSITIVE",
+    "flat_condition": "A_ZERO",
+    "comoving_ward": "EXACT_ALL_768_LIVE_PAIRINGS",
+    "arrow_selected": false
+  },
+  "ownership": {
+    "conditional_principal_line_path": "CONSTRUCTED_ON_A_POSITIVE",
+    "full_sc_act_04_observer_selection": "OPEN",
+    "physical_stress_identification": "OPEN",
+    "coupled_contact": "OPEN",
+    "global_common_line": "OPEN"
+  },
+  "accounting": "UNCHANGED__NO_DATUM_RESIDUE_QUOTIENT_OR_P1_P2_P3_MOVEMENT",
+  "source_return": "SOURCE_CONFIRMS_SC_ACT_04_RESIDUAL_SQUARE_AND_SC_META_50_TEMPORAL_DIMENSION_INPUT__SOURCE_SILENT_HU_OBSERVER_TENSOR_CONSTRAINED_U_VARIATION_AND_TIME_ARROW__REPO_DERIVES_SCOPED_PRINCIPAL_LINE_EQUATION",
+  "hostile_verdict": "SCOPED_PATH_SURVIVES__STATE_DEPENDENT_SIMPLE_TIMELIKE_LINE_ON_A_POSITIVE__A_ZERO_FLAT_CONTROL_FIRES__FULL_COUPLED_SELECTION_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "COMPOSE_FULL_SC_ACT_04_MOVING_METRIC_HODGE_SHIAB_PROJECTOR_SECTION_CONTACT_WITH_OBSERVER_TENSOR__REQUIRE_A_ZERO_CONTROL"
+}

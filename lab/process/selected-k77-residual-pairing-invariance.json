@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "LOCAL_K77_RESIDUAL_PAIRING_NONDEGENERATE__FULL_U6464_SELECTOR_ONLY_COMPARATOR__WEYL_BLOCK_PRODUCT_SELECTION_AND_ANALYTIC_DOMAIN_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__CURT_WEYL_SPLIT_VERSUS_FULL_U6464_FORK__OPERATIVE_PAIRING_SYMMETRY_OPEN",
+  "layer0": {
+    "source_norm_square": "quadratic action instruction for Upsilon",
+    "local_residual_pairing": "degree-13 Hodge pairing tensor Clifford scalar-trace pairing",
+    "formal_adjoint": "integration-by-parts construction on sections after density connection and domain are supplied",
+    "fundamental_symmetry": "additional Krein-to-Hilbert state-space choice",
+    "analytic_domain": "closed boundary constraint and evolution realization",
+    "spin_vs_weyl_block_vs_full_u": "Spin(7,7), a chirality-preserving U(32,32)-type product, and full u(64,64) are distinct symmetry demands"
+  },
+  "local_pairing": {
+    "formula": "K_loc equals Hodge13 times scalar Clifford trace on grades 1 2 5",
+    "full_carrier": {
+      "dimension": 29498,
+      "inertia": [14749, 14749, 0],
+      "clifford_grade_inertias": {
+        "1": [7, 7],
+        "2": [49, 42],
+        "5": [1001, 1001]
+      }
+    },
+    "finite_response_coordinate_support": {
+      "dimension": 4330,
+      "inertia": [2195, 2135, 0],
+      "not_promoted_to_global_invariant_subbundle": true
+    },
+    "response_gram": {
+      "dimension": 1470,
+      "rank": 1470,
+      "inertia": [741, 729, 0],
+      "nonzero_entries": 7346,
+      "component_count": 391
+    },
+    "response_gram_component_sizes": {
+      "2": 13,
+      "3": 286,
+      "5": 78,
+      "13": 13,
+      "27": 1
+    },
+    "grade_restrictions": {
+      "1": {"coordinate_count": 196, "response_rank": 196, "gram_rank": 196},
+      "2": {"coordinate_count": 1274, "response_rank": 1274, "gram_rank": 1274},
+      "5": {"coordinate_count": 2860, "response_rank": 286, "gram_rank": 286},
+      "grades_1_plus_2_response_rank": 1470
+    }
+  },
+  "invariance_selection": {
+    "spin77_only_grade_weight_dimension": 3,
+    "full_u6464_grade_weight_dimension": 1,
+    "weyl_block_u3232_product_grade_weight_dimension": "OPEN",
+    "full_u6464_constraints": ["w1=w2", "w2=w5"],
+    "full_u6464_witness_parity": ["odd_grade_1", "odd_grade_5"],
+    "full_u6464_survivor": "overall source_norm scale only on the full-group comparator",
+    "weyl_block_transfer": "INVALID__ODD_WITNESSES_EXCHANGE_WEYL_HALVES",
+    "operative_symmetry": "OPEN__CURT_STATES_TWO_C32_32_WEYL_HALVES_AND_SEPARATELY_U64_64"
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_discrete_data": 0,
+    "new_scoped_quotients": 0,
+    "new_continuous_parameters_on_full_u6464_comparator": 0,
+    "already_counted_overall_scale": "source_norm",
+    "operative_weyl_block_unbooked_relative_weights": "OPEN_PENDING_INVARIANT_CARRIER_CALCULATION",
+    "residue_change": 0
+  },
+  "held_open": {
+    "operative_pairing_symmetry_selection": "OPEN__FULL_U6464_VERSUS_WEYL_BLOCK_U3232_PRODUCT",
+    "lower_order_transverse_Dg_Upsilon": "OPEN",
+    "coefficientwise_physical_diffeomorphism_naturality": "OPEN",
+    "formal_adjoint": "OPEN",
+    "green_concomitant": "OPEN",
+    "fundamental_symmetry_and_positive_physical_space": "OPEN",
+    "common_closed_domain": "OPEN",
+    "reduced_presymplectic_BV_BFV": "OPEN"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_residual_pairing_invariance_probe.py",
+    "tests/channel-swings/selected_k77_residual_pairing_invariance_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-residual-pairing-invariance-review.md",
+  "next_gate": "SETTLE_OPERATIVE_FULL_U6464_VERSUS_WEYL_BLOCK_U3232_PRODUCT_PAIRING_SYMMETRY_AND_INVARIANT_CARRIER__THEN_CONSTRUCT_LOWER_ORDER_TRANSVERSE_PHYSICAL_K77_DG_UPSILON__FORMAL_ADJOINT_AND_GREEN"
+}

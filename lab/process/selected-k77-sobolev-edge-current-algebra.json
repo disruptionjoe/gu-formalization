@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "COMPACT_BOUNDARY_STRONG_SOBOLEV_EDGE_REDUCTION_EXACT_CONDITIONALLY_ON_NONEMPTY_EDGE_TORSOR__CHARGED_CURRENT_ALGEBRA_EXACT__ODD_BFV_COMMON_DOMAIN_AND_PHYSICAL_SELECTION_OPEN",
+  "lane": "1",
+  "functional_channels": ["SOURCE", "COMPOSE", "BUILD", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS_TILTED_BULK_GRAMMAR_AND_BOUNDARY_DEBT__SOURCE_SILENT_SOBOLEV_COMPLETION_POLARIZATION_CURRENT_ALGEBRA_AND_ODD_BFV",
+  "layer0": {
+    "boundary": "compact smooth 13-dimensional boundary component of a Y14 region; not an observed X4 three-boundary",
+    "sobolev_topology": "auxiliary positive Hilbert topology with equivalent compact choices; not the physical K77 Krein form",
+    "same_regularity": "H7 x H7 with weak canonical L2 form",
+    "strong_cotangent": "H7 x H-7 with boundedly invertible canonical musical map",
+    "functional_reduction": "ordinary even presymplectic quotient",
+    "odd_bfv": "ghosts, BFV charge, CME and cohomology; not constructed",
+    "vertical_polarization": "real cotangent polarization; not a contour or measure",
+    "current_algebra": "classical H8 adjoint-section algebra; not a quantum anomaly theorem",
+    "edge_torsor": "declared nonempty global section stratum; not automatic bundle triviality"
+  },
+  "sobolev_completion": {
+    "boundary_dimension": 13,
+    "gauge_and_edge_order": 8,
+    "connection_and_distortion_order": 7,
+    "momentum_order": -7,
+    "threshold": "8 > 13/2 + 1",
+    "derivative_loss": 1,
+    "same_regularity_form": "WEAK__NORMALIZED_SINGULAR_VALUES_(1+n^2)^-7_TEND_TO_ZERO",
+    "same_regularity_inverse": "UNBOUNDED",
+    "dual_regularity_form": "STRONG_CANONICAL_COTANGENT",
+    "dual_regularity_musical": "UNIFORMLY_ISOMETRIC_MODE_BY_MODE",
+    "noncompact_or_cornered_boundary": "OPEN"
+  },
+  "edge_reduction": {
+    "status": "STRONG_ON_EACH_NONEMPTY_COMPACT_BOUNDARY_EDGE_TORSOR_STRATUM",
+    "dressing": "Q=u Theta u^-1; Pi=u P u^-1",
+    "dressing_is_split_submersion": true,
+    "kernel_equals_residual_gauge_orbit": true,
+    "one_site": {"domain_dimension": 12, "form_rank": 8, "kernel_dimension": 4, "orbit_rank": 4},
+    "three_site_control": {"domain_dimension": 36, "form_rank": 24, "kernel_dimension": 12, "orbit_rank": 12},
+    "global_torsor_nonemptiness": "OPEN",
+    "quotient_booking": "UPGRADES_EXISTING_FIFTH_SCOPED_QUOTIENT__DOES_NOT_ADD_A_SIXTH"
+  },
+  "charged_horn": {
+    "functional_space": "H7 x H-7",
+    "charge": "mu_xi=<P,[Theta,xi]>",
+    "bracket": "{mu_xi,mu_eta}=-mu_[xi,eta] in the executable convention",
+    "classical_central_remainder": 0,
+    "nonabelian": true,
+    "quantum_extension_or_anomaly": "OPEN"
+  },
+  "polarization": {
+    "edge_quotient_vertical": "EXISTS_AND_IS_GAUGE_INVARIANT",
+    "charged_horn_vertical": "EXISTS",
+    "selects_physical_horn": false,
+    "complex_or_positive_polarization": "OPEN",
+    "path_integral_contour_measure": "OPEN"
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "OPERATIVE_CONDITIONAL_PARENT_DIM2107",
+    "two_u32_32_halves": "RIVAL_PARENT_REQUIRES_EXPANDED_DIM16382",
+    "full_u64_64": "RIVAL_PARENT_REQUIRES_EXPANDED_DIM16383"
+  },
+  "analytic_fence": {
+    "action_trace_embeds_in_H_minus_7_if_smooth": true,
+    "bulk_evolution_preserves_trace_space": "OPEN",
+    "common_green_krein_domain": "OPEN",
+    "odd_bfv_brst_charge_cme": "OPEN",
+    "positivity": "OPEN",
+    "quantum_measure": "OPEN"
+  },
+  "constraint_fence": {
+    "new_bulk_fields": 0,
+    "new_boundary_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "controls": {
+    "main": "59/59 PASS",
+    "independent_sage": "22/22 PASS",
+    "predecessor_v0102": "55/55 PASS"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_sobolev_edge_current_algebra_probe.py",
+    "tests/channel-swings/selected_k77_sobolev_edge_current_algebra_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-sobolev-edge-current-algebra-review.md",
+  "next_gate": "COMMON_GREEN_KREIN_DOMAIN_COMPATIBILITY_WITH_H7_HMINUS7_BOUNDARY_TRACES__THEN_ODD_BFV_BRST_CHARGE_AND_CME__KEEP_CHARGED_HORN_AND_EDGE_TORSOR_TOPOLOGY_OPEN"
+}

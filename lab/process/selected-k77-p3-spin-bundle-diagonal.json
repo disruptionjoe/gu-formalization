@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-145504-gu-p3-spin-bundle-diagonal",
+  "verdict": "ONE_P3_ORIENTATION_MATCHES_CHIRAL_SPIN_BUNDLE__TOPOLOGICAL_DIAGONAL_EXISTS_UP_TO_GAUGE__CONNECTION_DIAGONAL_CONDITIONAL_ON_HOMOGENEOUS_ROUND_BPST",
+  "spin_c2_pair": [1, -1],
+  "p3_matches": {"-1": "S-", "0": "NONE", "1": "S+"},
+  "arbitrary_charge_one_asd_moduli_dim": 5,
+  "homogeneous_invariant_connection_deformations": 0,
+  "source_return": "SOURCE_SILENT_P3_SOURCE_CONNECTION_DIAGONAL_AND_RESTRICTED_ACTION__SOURCE_CORRECTS_SELF_DUALITY_AS_EINSTEINIAN_TANGENTIAL_NOT_BARE_INTERNAL_YANG_MILLS",
+  "p1_p2_p3_assignment_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "next_gate": "CONSTRUCT_ACTUAL_SUPPORT_PULLBACK_DIAGONAL_N_PLUS1_AND_PROVE_SUPPLIED_BPST_EQUALS_SOURCE_CHIRAL_CONNECTION__THEN_PRICE_RESTRICTED_I1"
+}

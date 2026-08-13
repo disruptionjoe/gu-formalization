@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "RANK4_CONNECTION_ORBIT_WELD_FORCED__TRANSVERSE_OWNER_OPEN",
+  "source_return": "SOURCE-CONFIRMS__METRIC_PLUS_CONNECTION_ORBIT__SOURCE-SILENT__ACTION_DUPSILON_CROSS_BLOCK",
+  "predecessor": "lab/process/selected-second-layer-offtt-scalar-ward-owner.json",
+  "exact_result": {
+    "metric_diffeomorphism_rank": 4,
+    "metric_hessian_ward_load_rank": 4,
+    "forced_metric_residual_gauge_response_rank": 4,
+    "connection_one_form_diffeomorphism_rank": 4,
+    "diagnostic_orbit_weld": "EXACT_AND_UNIQUE_ON_IM_G",
+    "transverse_connection_dimension": 12,
+    "actual_selected_upsilon_four_columns": "OPEN",
+    "actual_transverse_action_derivative": "OPEN"
+  },
+  "next_gate": "DIFFERENTIATE_ACTUAL_SELECTED_UPSILON_ON_FOUR_CONNECTION_DIFFEO_COLUMNS_AND_COMPARE_TO_FORCED_WELD",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-07-selected-second-layer-dupsilon-gauge-orbit-weld-review.md",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 0, "remaining_named_conditions": 4},
+  "rerun": "37/37 PASS"
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-205442-gu-k77-h640-observation-pullback-bv-typing",
+  "status": "SCOPED_FLAT_SECTION_GRAPH_LIFT_RESULT",
+  "checks": {
+    "total": 58,
+    "failures": 0,
+    "planted": 3,
+    "characteristic_zero_graph": true,
+    "two_prime_transport": true
+  },
+  "characteristic_zero": {
+    "h640_rank": 640,
+    "coordinate_observation_rank": 640,
+    "coordinate_subspaces_equal": false,
+    "intersection_rank": 512,
+    "join_rank": 768,
+    "graph_correction_rank": 128,
+    "observation_restricts_isomorphically": true,
+    "principal_graph_no_leakage": true
+  },
+  "transport": {
+    "coordinate_stabilizer_generators": 51,
+    "coordinate_mixed_generators": 40,
+    "mixed_fixed_leakage_rank_each": 128,
+    "moving_projector_chain_rule_all": true,
+    "pure_frame_only": true
+  },
+  "lower_order": {
+    "internal_witness_graph_leakage_rank": 128,
+    "observed_port_graph_leakage_rank": 128,
+    "transverse_port_graph_leakage_rank": 128,
+    "generic_port_graph_leakage_rank": 128,
+    "mixed_gauge_frame_graph_leakage_rank": 256,
+    "graph_compression_exact": true,
+    "complete_sixteen_cell_graph_riccati_built": false
+  },
+  "bv_typing": {
+    "barred_unbarred_graph_field_rank": 1280,
+    "formal_non_ghost_field_antifield_rank": 2560,
+    "restricted_k77_pairing_rank": 640,
+    "complete_bv_koszul_tate_built": false,
+    "physical_cohomology_built": false
+  },
+  "source_return": "SOURCE_CONFIRMS_OBSERVATION_PULLBACK_AND_INDEPENDENT_BARRED_UNBARRED_OMEGA0_PLUS_OMEGA1_FIELDS__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_THE_ACTION_DERIVED_GRAPH_LIFT_VARIATION_PULLBACK_COMMUTATION_FULL_BV_KT_AND_PHYSICAL_COHOMOLOGY",
+  "hostile_verdict": "SURVIVES_SCOPED__FLAT_SECTION_GRAPH_LIFT_EXACT__COMPLETE_LOWER_ORDER_GRAPH_RICCATI_BV_KT_GLOBAL_OBSERVATION_OPEN",
+  "disposition": "H640_IS_NOT_THE_COORDINATE_OBSERVATION_CARRIER__OBSERVATION_RESTRICTS_ISOMORPHICALLY_AND_DERIVES_A_RANK128_GRAPH_LIFT_WITH_EXACT_PRINCIPAL_NO_LEAKAGE__INDIVIDUAL_LOWER_ORDER_WITNESSES_LEAK__COMPLETE_FOUR_FIELD_GRAPH_RICCATI_AND_BV_KT_REMAIN_OPEN",
+  "next_gate": "SOLVE_OR_KILL_THE_COMPLETE_SIXTEEN_CELL_LOWER_ORDER_GRAPH_RICCATI_AND_BARRED_ADJOINT_CONDITIONS_ON_THE_ACTION_DERIVED_H640_LIFT_WITH_FULL1920_CONTROL__THEN_BUILD_OBSERVED_BV_KT_AND_EQUATION_DUAL",
+  "accounting": {
+    "P1_P2_P3_used": false,
+    "verdict_change": false,
+    "booked_residue_change": false,
+    "quotient_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  }
+}

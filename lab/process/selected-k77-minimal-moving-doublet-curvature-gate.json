@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-070112-gu-minimal-moving-doublet-curvature",
+  "predecessor_ledger": "0.197",
+  "ledger": "0.198",
+  "canonical_doublet_rank": 4,
+  "soldering_kernel_dimension": 90,
+  "distinct_clifford_commutators_nonzero": 6,
+  "canonical_common_leg_exterior_rank": 0,
+  "canonical_algebraic_curvature_nonzero_components": 0,
+  "kernel_control_exterior_rank": 2,
+  "kernel_control_curvature_nonzero": true,
+  "source_return": "SOURCE_CONFIRMS_VARPI_HIGGS_LIKE_LOCUS__SOURCE_SILENT_ON_COMMON_LEG_LIFT_AND_KERNEL_SELECTION",
+  "verdict": "SURVIVES_SCOPED__CANONICAL_COMMON_LEG_BANK_QUARTIC_FREE__ACTION_OWNED_KERNEL_LIFT_OPEN",
+  "new_datum": false,
+  "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "next_gate": "derive the smallest equivariant action-owned nondecomposable lift, then compute its quartic, vacuum, photon kernel and scalar mass matrix"
+}

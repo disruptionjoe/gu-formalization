@@ -10,6 +10,42 @@ updated_at: "2026-07-03"
 
 # Generation-sector audit: the quaternionic-parity no-go and under-determination
 
+> **REOPENER PRESSURED, NOT FIRED — RECORDED 2026-08-07. VERDICT NOT RETRACTED.**
+> This entry states its own dissolution condition below: the no-go "DISSOLVES
+> under a defensible alternative real-class signature such as `(7,7)`
+> (`J^2 = +1`), where the Kramers/quaternionic pairing no longer applies", and
+> names that contingency its **live reopener**.
+>
+> **That condition is about the AMBIENT SIGNATURE, and the ambient signature is
+> still open.** `lab/process/layer0-fork-registry.yaml` carries two rows that must
+> not be conflated:
+>
+> - `SIGNATURE-AMBIENT` — "(9,5) vs (7,7)" — **status: open, UNDER-DETERMINED.**
+>   Its own notes already record the same contingency: "the Kramers even-index
+>   wall is (9,5)-ONLY: under (7,7) the wall is absent."
+> - `REAL-CLIFFORD-FORM` — which real Clifford algebra **the source computes in**
+>   — **settled at `Cl(7,7) = M128(R)` on 2026-08-04**, from source-typed
+>   arithmetic, making (7,7) "the primary source-aligned reconstruction burden".
+>   The registry states explicitly that it is *"Distinct from
+>   REAL-CLIFFORD-FORM"* on the `SIGNATURE-AMBIENT` row.
+>
+> So the 2026-08-04 settlement is **evidence bearing on** this entry's reopener,
+> not the reopener itself. This no-go dissolves when `SIGNATURE-AMBIENT` settles
+> at `(7,7)` — which has not happened.
+>
+> **Why this banner exists anyway.** Nothing in the repository watches a stated
+> dissolution condition for its trigger becoming true, and `SIGNATURE-AMBIENT`
+> currently sits at **stack depth 10, over threshold**, per
+> `process_gates/fork_depth_audit.py`. This entry is the largest single
+> consequence riding on that undetermined fork, and it should be re-read the day
+> it settles either way.
+>
+> **Correction of record:** an earlier version of this banner (2026-08-07) said
+> the reopener had FIRED, by treating the source-algebra settlement as an
+> ambient-signature settlement. That was the same conflation this repository's
+> Layer-0 discipline exists to catch, committed on the file that names the
+> hazard. See `explorations/settlement-propagation-triage-2026-08-07.md`.
+
 ## Why this is here (provenance)
 
 The campaign CONSTRUCT-01..07 was carried out in the child repo `gu-source-action`, which was spun up

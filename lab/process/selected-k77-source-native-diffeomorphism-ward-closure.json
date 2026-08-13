@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "SOURCE_NATIVE_MATCHED_Q_PHYSICAL_WARD_CLOSED__ARBITRARY_PRIMITIVE_DEPSILON_AND_ACTION_EULER_OPEN",
+  "lane": "1",
+  "functional_channels": [
+    "BUILD",
+    "COMPOSE",
+    "SOURCE",
+    "VERIFY"
+  ],
+  "result": "METRIC_PLUS_CARTAN_VARPI_PLUS_MOVING_SHIAB_ZERO__TIMELIKE_SPACELIKE_NULL__NO_GAMMA",
+  "source_return": "SOURCE-CONFIRMS_MOVING_PHI_TWO_CONNECTION_AND_PRIMITIVE_EPSILON_GRAMMAR__SOURCE_SILENT_PHYSICAL_CARTAN_COMPOSITION",
+  "layer0": {
+    "primitive_epsilon": "independent H-valued source field and its arbitrary variation eta",
+    "dependent_physical_transport": "field-dependent eta=i_xi B/Kosmann bivector on the four-dimensional diffeomorphism orbit",
+    "physical_metric_response": "fixed-varpi Levi-Civita response delta T=-delta B_LC",
+    "cartan_varpi_response": "delta varpi=q eta+[T,eta] on the matched homogeneous background",
+    "moving_shiab": "epsilon coefficient derivative through conjugated Phi1 and Phi2",
+    "grade_one_gamma": "separate conditional Clifford-soldered internal orbit; not a source-quoted diffeomorphism law",
+    "raw_ward_closure": "residual-zero four-column equation response; not action Euler, presymplectic basicness, or full arbitrary D_epsilon"
+  },
+  "causal_classes": {
+    "timelike": {
+      "physical_jacobian_rank": 4,
+      "spin_connection_rank": 3,
+      "moving_shiab_rank": 3,
+      "varpi_cartan_response_rank": 3,
+      "complete_ward_defect_rank": 0,
+      "frozen_q0_defect_rank": 0,
+      "without_moving_defect_rank": 3,
+      "without_lower_cartan_defect_rank": 3,
+      "complete_ward_supports": [0, 0, 0, 0]
+    },
+    "spacelike": {
+      "physical_jacobian_rank": 4,
+      "spin_connection_rank": 3,
+      "moving_shiab_rank": 3,
+      "varpi_cartan_response_rank": 3,
+      "complete_ward_defect_rank": 0,
+      "frozen_q0_defect_rank": 3,
+      "without_moving_defect_rank": 3,
+      "without_lower_cartan_defect_rank": 3,
+      "complete_ward_supports": [0, 0, 0, 0]
+    },
+    "null": {
+      "physical_jacobian_rank": 4,
+      "spin_connection_rank": 3,
+      "moving_shiab_rank": 3,
+      "varpi_cartan_response_rank": 3,
+      "complete_ward_defect_rank": 0,
+      "frozen_q0_defect_rank": 3,
+      "without_moving_defect_rank": 3,
+      "without_lower_cartan_defect_rank": 3,
+      "complete_ward_supports": [0, 0, 0, 0]
+    }
+  },
+  "disposition": {
+    "matched_q_physical_ward": "CLOSED_EXACTLY_WITH_ZERO_FIT",
+    "v097_rank4_defect": "RETRACTED_AS_FROZEN_Q0_PLUS_GRADE1_GAMMA_COMPOSITION_ARTIFACT",
+    "grade_one_gamma_for_physical_diffeomorphism": "NOT_REQUIRED",
+    "arbitrary_primitive_D_epsilon": "OPEN_OUTSIDE_THE_PHYSICAL_FOUR_COLUMN_ORBIT",
+    "common_physical_formal_adjoint_green": "ADMISSIBLE_NEXT_GATE",
+    "action_euler_noether_identity": "OPEN"
+  },
+  "controls": {
+    "main_exact": "52/52 PASS",
+    "independent_sage": "19/19 PASS",
+    "freeze_timelike_operator_under_spacelike_or_null_label": "REJECTED",
+    "omit_moving_shiab": "REJECTED_RANK3",
+    "omit_lower_cartan_commutator": "REJECTED_RANK3",
+    "substitute_grade_one_gamma": "NOT_USED"
+  },
+  "frontier_delta": {
+    "conditions_closed": 3,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 3
+  },
+  "remaining": [
+    "EXTEND_KLOC_EQUATION_DUAL_FORMAL_ADJOINT_AND_GREEN_TO_PHYSICAL_METRIC_VARPI_EPSILON_GRAPH",
+    "DERIVE_ACTION_EULER_NOETHER_AND_PRESYMPLECTIC_CLASS",
+    "CONSTRUCT_ARBITRARY_PRIMITIVE_DEPSILON_ONLY_IF_ACTION_EULER_OR_BV_REQUIRES_IT",
+    "GEOMETRIC_FIELD_SPACE_RIESZ_OR_EXPLICIT_COVECTOR_ONLY_LANGUAGE",
+    "GLOBAL_COMMON_CLOSED_DOMAIN"
+  ],
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "action_parent_fence": {
+    "selected_parent": "SPIN_NATIVE_K77_GRADE125",
+    "two_U32_32_halves": "PRESERVED_AS_DISTINCT_WEYL_BLOCK_PRODUCT",
+    "full_U64_64": "COMPARATOR_NOT_COLLAPSED"
+  },
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR3",
+    "LT-GR5",
+    "LT-GR6"
+  ],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_source_native_diffeomorphism_ward_closure_probe.py",
+    "tests/channel-swings/selected_k77_source_native_diffeomorphism_ward_closure_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-source-native-diffeomorphism-ward-closure-review.md",
+  "next_gate": "EXTEND_COMMON_KLOC_FORMAL_ADJOINT_GREEN_TO_PHYSICAL_METRIC_VARPI_EPSILON_GRAPH__THEN_DERIVE_ACTION_EULER_NOETHER_AND_PRESYMPLECTIC_CLASS"
+}

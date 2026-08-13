@@ -97,7 +97,7 @@ Forces: **nothing about gauging** — a pathology statement with published **non
   verbatim; Row 7).
 
 Vs GU: **PARTIAL-BITES as danger** — GU's carrier is generically massive + coupled, and the author himself
-names VZ ([00:41:48] L140: "Vela Zwanziger says that if you have spin three halves matter that is coupled,
+names VZ ([00:41:48] L140: "Velo-Zwanziger says that if you have spin three halves matter that is coupled,
 to some sort of nontrivial acting group, you have to be very careful"); GU's exemption plea ("if your model
 differs by having no internal symmetry groups") is weak since GU retains SU(3)×SU(2)×U(1) content. But
 **the forcing-to-A route "consistency forces gauging" is REFUTED at published grade** by the non-SUGRA

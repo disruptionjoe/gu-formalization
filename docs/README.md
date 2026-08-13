@@ -18,6 +18,10 @@ status; those live in the root status/canon surfaces and `papers/`.
   — dated deep-dive on the state of the GU reconstruction and the missing matter action.
 - [`paper-formalization-candidates.md`](paper-formalization-candidates.md) — inventory of results that could
   become papers.
+- The Y14/X4 systems spec and its issue register moved WHOLE to Joe's thinking wiki on 2026-08-10
+  (`joe-thinking-wiki/absorbed/y14-x4-systems-spec/`, all versions + migration receipt): Joe reclassified
+  it as a personal thought experiment, not repo truth. It was never citable for physics (its analogy layer
+  was zero-content by construction); nothing in this repo should cite it.
 
 ## Boundary Notes
 

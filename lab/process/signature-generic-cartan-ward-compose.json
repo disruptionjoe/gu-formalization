@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "SIGNATURE_GENERIC_CARTAN_AND_PRIMITIVE_EPSILON_COMPOSED__K77_K95_LOCAL_HODGE_EXACT__SELECTED_ACTION_FRECHET_OPEN",
+  "run_id": "RUN-20260808-193109-gu-signature-generic-cartan-ward-compose",
+  "source_return": "SOURCE-CONFIRMS",
+  "layer0": {
+    "ordinary_connection_lie": "L_XI_A",
+    "gauge_covariant_connection_cartan": "I_XI_F_A_PLUS_D_A_I_XI_A",
+    "adjoint_oneform_lie": "L_XI_T",
+    "gauge_covariant_adjoint_cartan": "I_XI_D_A_T_PLUS_D_A_I_XI_T",
+    "internal_gauge_orbit": "BRACKET_T_I_XI_A",
+    "primitive_epsilon_parameter": "ETA_EQUALS_I_XI_B_ONLY_ON_THE_COMPOSED_FIELD_DEPENDENT_INSTANCE",
+    "selected_action_frechet": "DISTINCT_AND_OPEN"
+  },
+  "exact_cartan": {
+    "connection_identity": true,
+    "curvature_only_plant_rejected": true,
+    "internal_gauge_only_plant_rejected": true,
+    "adjoint_oneform_identity": true,
+    "dropped_internal_orbit_plant_rejected": true
+  },
+  "pure_gauge_composition": {
+    "flat_second_connection": true,
+    "nonconstant_field_dependent_parameter_live": true,
+    "identity": "L_XI_B_EQUALS_D_B_I_XI_B",
+    "distortion_identity": "L_XI_A_MINUS_B_EQUALS_L_XI_A_MINUS_L_XI_B",
+    "queue_disposition": "PRIMITIVE_EPSILON_ALREADY_BUILT__REMOVE_RECONSTRUCTION_DEBT"
+  },
+  "branch_controls": {
+    "K77_inertia": [7, 7],
+    "K95_inertia": [9, 5],
+    "hodge_operators_equal": false,
+    "metric_density_hodge_observation_checks": 168,
+    "K77_local_naturality": "PASS",
+    "K95_local_naturality": "PASS",
+    "clifford_krein_adjoint_domain_port": "FORBIDDEN__SEPARATE_BRANCH_NATIVE_CONSTRUCTION_REQUIRED"
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_functions": 0,
+    "new_quotients": 0,
+    "external_datum_used": false,
+    "residue_change": false,
+    "headline_verdict_change": false
+  },
+  "scope_boundary": {
+    "selected_action_coefficientwise_JR_zero": "OPEN",
+    "K_star": "OPEN",
+    "formal_adjoint": "OPEN",
+    "green_concomitant": "OPEN",
+    "krein_common_domain": "OPEN",
+    "symplectic_BFV": "OPEN",
+    "physics_recovery": "UNCHANGED"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG1_AND_TG2_AND_TG3_NOT_PROMOTED",
+  "next_gate": "ASSEMBLE_ACTUAL_SELECTED_ACTION_FRECHET_BANK_ON_K77__RUN_K95_BRANCH_NATIVE_CONTROL__PROVE_COEFFICIENTWISE_JR_ZERO__THEN_KSTAR_ADJOINT_GREEN"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "CONNECTION_CLASS_KILLED_AT_RESIDUAL_ZERO_FIRST_ORDER_PRINCIPAL_GRADE__NORMAL_JET_OR_NONZERO_BACKGROUND_OPEN",
+  "source_return": "SOURCE-CORRECTS__EPSILON_IS_GAUGE_ORBIT_NOT_DIFFEO_SOLDERING__SOURCE-SILENT__TRANSVERSE117_NORMAL_JET_OR_NONZERO_BACKGROUND_OWNER",
+  "predecessor": "lab/process/selected-second-layer-translation-curvature-principal-owner.json",
+  "layer0": {
+    "connection_curvature_symbol": "q wedge delta A",
+    "moving_operator_term": "(D S) F_0",
+    "current_background": "F_0=Upsilon_0=0",
+    "source_epsilon": "gauge transformation moving B T and conjugated Shiab forms",
+    "open_owner": "actual raw-Upsilon ambient normal jet or source-owned nonzero stationary background",
+    "forbidden_identification": "SOURCE_EPSILON_IS_NOT_AUTOMATICALLY_DIFFEO_SOLDERING_OR_NORMAL_JET"
+  },
+  "exact_result": {
+    "connection_q_exact_support": 28,
+    "transverse_support": 117,
+    "support_intersection": 0,
+    "moving_operator_at_zero_background": "ZERO",
+    "nonzero_background_control": "LIVE",
+    "principal_bianchi": "IDENTICALLY_CLOSED",
+    "disposition": "CONNECTION_CLASS_KILLED_AT_RESIDUAL_ZERO_FIRST_ORDER_PRINCIPAL_GRADE"
+  },
+  "not_killed": [
+    "actual ambient raw-Upsilon normal first jet",
+    "source-owned nonconnection two-form or higher-jet term",
+    "source-owned nonzero stationary background",
+    "lower-order or full nonlinear orbit completion",
+    "null characteristic screen",
+    "full Euler Green BV BFV and global domain"
+  ],
+  "next_gate": "CONSTRUCT_ACTUAL_RAW_UPSILON_NORMAL_JET_ON_FOUR_GRAPH_COLUMNS_OR_SOURCE_OWNED_NONZERO_STATIONARY_BACKGROUND",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-07-selected-second-layer-transverse117-residual-zero-owner-class-review.md",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 1, "remaining_named_conditions": 5},
+  "rerun": "30/30 PASS"
+}

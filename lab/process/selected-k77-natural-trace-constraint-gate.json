@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "work_item": "SELECTED_K77_NATURAL_TRACE_CONSTRAINT_GATE",
+  "run_id": "RUN-20260811-081243-gu-k77-natural-trace-constraint-gate",
+  "status": "NATURAL_ZERO_ORDER_CONSTRAINT_ROUTE_KILLED__DERIVATIVE_NONLOCAL_BV_OR_OPERATOR_COMPLETION_OPEN",
+  "layer0": {
+    "carrier": "physical Omega1(S) plus Omega0(S)",
+    "constraint": "Spin-natural zero-order spinor-valued equation",
+    "not_bv": "a propagated physical trace equation is not an off-shell ghost differential",
+    "not_quotient": "restriction to a kernel is not quotient by a gauge image",
+    "not_ambient_domain": "observed one-time propagation is not the ambient ultrahyperbolic domain"
+  },
+  "natural_family": {
+    "map": "C_(a,b)(zeta,nu)=a Gamma(zeta)+b nu",
+    "linear_dimension": 2,
+    "projective_dimension": 1,
+    "complete_scope": "Spin-natural zero-order maps Omega1(S) plus Omega0(S) to S"
+  },
+  "propagation": {
+    "criterion": "ker C invariant under each E_j",
+    "residual_entry_gcd": "t+2 for t=a/b in x y z",
+    "unique_projective_line": "[a:b]=[2:-1]",
+    "constraint": "C=2 Gamma(zeta)-nu",
+    "induced_evolution": "gamma(dt)gamma(dx_j)",
+    "all_three_observed_spatial_directions": true
+  },
+  "jordan_test": {
+    "gamma_trace_times_U_j": 0,
+    "nu_projection_times_U_j": 0,
+    "image_N_j_inside_kernel_C": true,
+    "rank_Q_j_restricted_to_kernel_C": 128,
+    "rank_N_j_restricted_to_kernel_C": 128,
+    "N_j_square_zero_after_restriction": true,
+    "repairs_positive_hyperbolicity": false
+  },
+  "controls": {
+    "direction_fitted_Q_j_would_kill_N_j": true,
+    "Q_x_equals_Q_y": false,
+    "Q_j_equals_covariant_trace_constraint": false,
+    "nu_zero_is_propagated": false
+  },
+  "selection": {
+    "source_selects_constraint": false,
+    "bv_differential_constructed": false,
+    "quotient_constructed": false
+  },
+  "source_return": "SOURCE_CONFIRMS_PHYSICAL_NU_ZETA_AND_FOUR_FIELD_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_C_EQUALS_2GAMMAZETA_MINUS_NU_BV_REDUCTION_AND_NONLOCAL_DOMAIN",
+  "hostile_verdict": "SCOPED_SURVIVES__UNIQUE_PROPAGATED_SPIN_NATURAL_ZERO_ORDER_TRACE_LINE_RETAINS_COMPLETE_RANK128_JORDAN_IMAGE__ZERO_ORDER_ROUTE_KILLED__DERIVATIVE_NONLOCAL_BV_DERIVED_AND_OPERATOR_COMPLETION_ROUTES_OPEN",
+  "accounting": {
+    "P1_P2_P3": "UNCHANGED_UNUSED",
+    "verdict_change": false,
+    "residue_change": false,
+    "quotient_change": false,
+    "canon_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "TYPE_THE_CRAIG_WEINSTEIN_NONLOCAL_ULTRAHYPERBOLIC_CONSTRAINT_FOR_THE_ACTUAL_OPERATOR_OR_DERIVE_A_DERIVATIVE_BV_CONSTRAINT_FROM_THE_ACTION__IN_PARALLEL_RECONCILE_THE_SOURCE_ADMITTED_SHIAB_SOUTHEAST_OPERATOR_COMPLETION_IN_REAL_K77",
+  "probe": "tests/channel-swings/selected_k77_natural_trace_constraint_gate_probe.py"
+}

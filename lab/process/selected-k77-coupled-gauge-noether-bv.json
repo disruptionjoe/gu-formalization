@@ -1,0 +1,75 @@
+{
+  "artifact_type": "construction_result",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-030337-gu-k77-coupled-gauge-noether-bv",
+  "ledger_version": "0.164",
+  "grade": "EXACT_LOCAL_ALGEBRAIC_COMPOSITION_WITH_POINTWISE_REPRESENTATION_THEOREM",
+  "source_fields": {
+    "connection": "varpi",
+    "unbarred": ["zeta in Omega1(Y,S)", "nu in Omega0(Y,S)"],
+    "barred": ["bar-zeta in independent dual Omega1(Y,S)", "bar-nu in independent dual Omega0(Y,S)"],
+    "ghost": "c in Pi Omega0(Y,ad P)"
+  },
+  "minimal_brst": {
+    "rules": [
+      "s varpi = [c,varpi]-d c",
+      "s zeta = c zeta",
+      "s nu = c nu",
+      "s bar-zeta = -bar-zeta c",
+      "s bar-nu = -bar-nu c",
+      "s M_ij = [c,M_ij]",
+      "s c = c squared"
+    ],
+    "nilpotent_on_every_declared_field": true,
+    "ghost_bracket_nonzero_control": true,
+    "fermion_residuals_transform_covariantly": true,
+    "independent_dual_fermion_density_brst_invariant_off_shell": true,
+    "ghost_antifield_term_required": true,
+    "scope": "ordinary pointwise Gau(P), local algebraic/principal; no global domain or physical cohomology"
+  },
+  "prior_art_composition": {
+    "G3": "ordinary nonabelian connection BRST and ghost bracket already exact",
+    "B2C9": "four-independent-field first-jet matter Ward identity already exact",
+    "v0.163": "fermion-only principal gauge generator zero; full-field ordinary gauge route kept separate",
+    "new_work": "one coupled differential plus exact multiplicity-commutant no-selection theorem"
+  },
+  "carrier_selection_theorem": {
+    "pointwise_carrier": "(Lambda1 plus Lambda0) tensor S equals F^15 tensor S",
+    "gauge_action": "I_15 tensor rho",
+    "target_rank": 384,
+    "spin_rank": 128,
+    "multiplicity_rank": 3,
+    "invariant_family": "Gr(3,15)",
+    "graph_chart_dimension": 36,
+    "distinct_equal_rank_exact_witnesses": 2,
+    "conclusion": "ORDINARY_GAUGE_COVARIANCE_PRESERVES_ANY_SUPPLIED_EQUIVARIANT_THREE_PLANE_BUT_SELECTS_NONE",
+    "two_u32_32_halves": "DOES_NOT_REMOVE_FORM_MULTIPLICITY_COMMUTANT",
+    "full_u64_64_comparator": "DOES_NOT_REMOVE_FORM_MULTIPLICITY_COMMUTANT",
+    "v0.161_common_hull": "NEITHER_REVIVED_NOR_REFUTED__STILL_NOT_ACTION_OWNED"
+  },
+  "checks": {
+    "total": 37,
+    "failures": 0,
+    "source": 3,
+    "prior_art": 3,
+    "layer0": 3,
+    "exact": 11,
+    "planted": 3,
+    "bv": 2,
+    "theorem": 2,
+    "representation": 1,
+    "scope": 3,
+    "datum": 1,
+    "variational": 1,
+    "symplectic": 2,
+    "analytic": 1,
+    "accounting": 1
+  },
+  "source_return": "SOURCE_CONFIRMS_FOUR_INDEPENDENT_FIELDS_AND_RHO_EPSILON_COVARIANCE_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_EXPLICIT_BRST_BV_UNIQUE_RANK384_SELECTION_AND_GLOBAL_DOMAIN",
+  "disposition": "COUPLED_ORDINARY_GAUGE_NOETHER_BV_CLOSES_ON_VARPI_AND_FOUR_INDEPENDENT_FERMIONS__GAUGE_MULTIPLICITY_COMMUTANT_LEAVES_AT_LEAST_GR3_15_OF_RANK384_CARRIERS__NO_CARRIER_SELECTION__COUPLED_GREEN_DOMAIN_NEXT",
+  "next_gate": "BUILD_THE_COUPLED_SELECTED_ACTION_BOSON_PLUS_FOUR_FERMION_SYMMETRIZED_GREEN_PREBOUNDARY_FORM_AND_CLASSIFY_GAUGE_BASIC_CONSTRAINED_REAL_LAGRANGIAN_DOMAINS_WITHOUT_A_FITTED_PROJECTOR",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "p1_p2_p3_change": "none"
+}

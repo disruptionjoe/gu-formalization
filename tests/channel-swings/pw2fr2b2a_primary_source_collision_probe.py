@@ -17,10 +17,10 @@ B1 = ROOT / "tests/channel-swings/pw2fr2b1_section_jvp_source_coordinate_probe.p
 R = ROOT / "tests/channel-swings/pw2fr_complete_derived_k_c3_probe.py"
 
 EXPECTED = {
-    PACK: "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f",
+    PACK: "e8e195ede8e34f33d9e8a74daf9bea867bdb649fe1e9efddd8c896383f94708d",
     PORTAL: "bd9f53ab7dc631fb01265c7a89893a773592e6a1215211b21a5833cc5cd4165d",
-    TOE: "f4dfda897a181369103cde913b49b1bb57a61c455092ad5eeac0664eb0da9d24",
-    UCSD: "ded97968f444ca30af06bc9cc869becccd5cf5033f3e846ad2095e8674a8fa7b",
+    TOE: "056d188eb46b1756cb211b0e1758f9be12334391f892ee51250008f2c5f88bea",
+    UCSD: "cbd7b657b5f4dd80216c3c2242da25dd9d42169f3dd396c5e8db4b3653c659ae",
     RENDERED: "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4",
 }
 
@@ -65,7 +65,7 @@ def main() -> int:
     check("source", "SOURCE-CONFIRMS Shiab equation-dual degree", "01:37:34" in portal and "01:38:00" in portal and "derivative of an action" in portal)
     check("source", "SOURCE-CONFIRMS upstairs equation followed by pullback", "02:35:10" in portal and "02:40:19" in portal and "before being pulled back" in portal)
     check("source", "SOURCE-CONFIRMS connection-difference/tilted grammar", "02:27:46" in portal and "02:30:58" in portal and "T_\\omega=\\varpi-\\epsilon^{-1}d_0\\epsilon" in pack)
-    check("source", "SOURCE-CONFIRMS gauge-rotated Levi-Civita in the contorsion slot", "[02:19:17]" in toe and "gauge rotated Levy-Chevita connection" in toe and "contortion" in toe)
+    check("source", "SOURCE-CONFIRMS gauge-rotated Levi-Civita in the contorsion slot", "[02:19:17]" in toe and "gauge rotated Levi-Civita connection" in toe and "contortion" in toe)
     check("source", "SOURCE-CONFIRMS Frobenius-fibre trace reversal", "[00:26:51]" in toe and "[00:29:16]" in toe and "trace reversal of the Frobenius metric" in toe and "00:43:04" in ucsd)
     check("source", "SOURCE-CORRECTS projection to contraction", "[01:36:35]" in toe and "projection operator" in toe and "contraction operator" in toe)
     check("source", "SOURCE-CORRECTS a unique-source-Shiab attribution", "02:33:43" in portal and "many shiab operators" in portal and "SOURCE-NEGATIVE" in pack)

@@ -136,7 +136,7 @@ needle(TR,
 
 # T12/T13 -- VZ answer (matter framing; author's own exemption plea)
 needle(TR,
-  "Vela Zwanziger says that if you have spin three halves matter that is "
+  "Velo-Zwanziger says that if you have spin three halves matter that is "
   "coupled, to some sort of nontrivial acting group, you have to be very careful",
   "T12 [00:41:48] VZ names spin-3/2 MATTER, coupled")
 needle(TR,

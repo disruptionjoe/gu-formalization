@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-153049-gu-i2b-arbitrary-field-euler-green-bank",
+  "status": "FIXED_HQ_ARBITRARY_CONNECTION_EULER_POLYNOMIAL_EXACT__PHYSICAL_PRINCIPAL_GREEN_ZERO__MOVING_CONTACT_AND_EXPANDED_PARENT_OPEN",
+  "source_return": "SOURCE_CONFIRMS_RESIDUAL_SQUARE_ADJOINT_ARENA__SOURCE_SILENT_EXACT_K77_BANK_AND_KINETIC_COMPLETION",
+  "field_bank": {
+    "real_dimension": 196,
+    "euler_monomials": ["r*a", "r*b", "kappa*a", "kappa*b"],
+    "euler_supports": [14, 12, 12, 2],
+    "euler_family_rank": 3,
+    "v0201_branch_support": 14
+  },
+  "green_bank": {
+    "principal_directions": 4,
+    "principal_operator_nonzero": true,
+    "principal_self_pairing_witness_each_direction": true,
+    "S_q_supports": [0, 0, 0, 0],
+    "H_q_supports": [0, 0, 0, 0],
+    "physical_row_rank": 0,
+    "off_family_nonzero_control": true,
+    "formal_adjoint_sign_control": "FIRES"
+  },
+  "receiver": {
+    "observed_plus_normal_reconstructs": true,
+    "observed_nonzero": true,
+    "normal_nonzero": true,
+    "residual_reality_sector": "P_PLUS"
+  },
+  "scope": {
+    "closed": [
+      "fixed-Hq arbitrary-connection zero-order I2B Euler polynomial",
+      "fixed-Hq physical curvature-principal Green coefficient decided as zero"
+    ],
+    "open": [
+      "moving metric Hodge Shiab projector and section contact coefficients",
+      "expanded action-parent kinetic coefficient and physical reduction",
+      "presymplectic basicness and analytic domain"
+    ]
+  },
+  "accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "external_data_used": []
+  },
+  "next_gate": "MOVING_METRIC_SECTION_CONTACT_TERMS_AND_EXPANDED_ACTION_PARENT_KINETIC_CHECK"
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260810-080214-gu-k77-action-owned-leakage-composition",
+  "status": "EXACT_COMPOSITION_RESULT",
+  "layer0": {
+    "field_tangent": "ADMISSIBLE_CONNECTION_VALUES_AND_VARIATIONS",
+    "gauge_orbit": "OPEN_DISTINCT",
+    "stationary_solution_tangent": "OPEN_DISTINCT",
+    "bv": "OPEN_DISTINCT",
+    "domain": "OPEN_DISTINCT"
+  },
+  "exact_results": {
+    "source_native_low_grade_connection_tangent": 1470,
+    "source_native_low_grade_total_tangent": 1571,
+    "spin_skew_connection_closure": 113792,
+    "two_half_even_connection_tangent": 114688,
+    "full_connection_tangent": 229376,
+    "full_pointwise_hessian_rank": 229376,
+    "full_pointwise_hessian_radical": 0,
+    "witnesses": {
+      "moving_spin": {"grade": 2, "admitted": true, "hessian_radical": false},
+      "two_u32_32_halves": {"grade": 6, "admitted": true, "hessian_radical": false},
+      "source_full_u64_64": {"grade": 1, "admitted": true, "hessian_radical": false}
+    },
+    "preferred_leakage_each": {"W_to_mirror": 64, "outside_W_plus_mirror": 64},
+    "cross_and_outside_coefficient_rank_each": 2
+  },
+  "disposition": "ACTION_OWNS_ALL_THREE_LEAK_WITNESSES__NO_ACTION_DERIVED_FIELD_TANGENT_RESTRICTION",
+  "scope": {
+    "closed": "the written selected action does not itself supply a smaller admissible connection field tangent or pointwise Hessian radical excluding the v0.136 leak witnesses",
+    "not_closed": [
+      "coupled stationary solution tangent",
+      "gauge orbit",
+      "BV characteristic distribution or cohomology",
+      "complete four-field operator cancellation",
+      "global analytic domain",
+      "physical spectrum index or generation count"
+    ]
+  },
+  "source_return": {
+    "SOURCE-CONFIRMS": "full adjoint-valued connection one-form, first-transgression action grammar and candidate four-field fermion operator",
+    "SOURCE-SILENT": "carrier-selecting field-domain restriction, BV differential, physical cohomology and global domain"
+  },
+  "frontier_delta": {
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 1
+  },
+  "next_gate": "construct the complete four-field BV constraint and domain cohomology or a different source-compatible zero-order adapter; do not seek the restriction from the bosonic pointwise action alone",
+  "accounting": {
+    "verdict_change": false,
+    "residue_change": false,
+    "quotient_change": false,
+    "datum_change": false,
+    "p1_p2_p3_change": false
+  }
+}

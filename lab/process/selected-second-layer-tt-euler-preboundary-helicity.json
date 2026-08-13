@@ -1,0 +1,48 @@
+{
+  "artifact_type": "experiment_registry",
+  "created": "2026-08-07",
+  "status": "TT_MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2_WITH_EXTRA_OPEN__EULER_PREBOUNDARY_EXACT__COMPLETE_PHYSICAL_QUOTIENT_OPEN",
+  "ledger": "lab/process/conditional-physics-ledger-v0.40.json",
+  "rows": ["LT-GR1", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE-CONFIRMS__NORM_SQUARE__SOURCE-SILENT__TT_OWNER_MAP",
+  "fired_ending": "TT_MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2_WITH_EXTRA_OPEN",
+  "coefficients": {
+    "full_ii": "15376/13689",
+    "mean_curvature_square": "-340/4563",
+    "tt_fourth_order": "14356/13689",
+    "tt_einstein": "7688/13689",
+    "tt_mass_squared": "1922/3589"
+  },
+  "exact_results": {
+    "tt_euler": "KAPPA1_SQUARED_TIMES_14356_OVER13689_BOX_BOX_PLUS1922_OVER3589",
+    "massless_helicity": "PLUS_MINUS_TWO",
+    "massive_axial_spin_weight": "PLUS_MINUS_TWO__FULL_SO3_TYPE_OPEN",
+    "pole_green_signs": "EQUAL_MAGNITUDE_OPPOSITE_SIGN",
+    "preboundary": "NONZERO_ACTION_DERIVED_ANTISYMMETRIC_CURRENT"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "boundaries": [
+    "ZERO_FERMION_PURE_GAUSS_TT_ONLY",
+    "COMPLETE_SCALAR_VECTOR_CONSTRAINT_QUOTIENT_OPEN",
+    "COUPLED_NONZERO_FERMION_HESSIAN_OPEN",
+    "COMMON_GLOBAL_GREEN_KREIN_DOMAIN_OPEN",
+    "ODD_BV_GLOBAL_BFV_OPEN",
+    "NO_POSITIVE_ENERGY_OR_LOOP_UNITARITY_CLAIM",
+    "NO_EINSTEIN_RECOVERY_OR_COSMOLOGY_CLAIM"
+  ],
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "probe": "tests/channel-swings/selected_second_layer_tt_euler_preboundary_helicity_probe.py",
+  "rerun": "44/44 PASS",
+  "independent_sage": "C4_14356_OVER13689__C2_7688_OVER13689__MASS2_1922_OVER3589__DERIVATIVES_PLUS_MINUS7688_OVER13689"
+}

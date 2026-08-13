@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "status": "GLOBAL_PROJECTOR_SCREENS_SHIFTS__DOES_NOT_SELECT_NONZERO_VEV_AMPLITUDE",
+  "predecessors": [
+    "lab/process/first-interaction-krein-global-zero-mode.json",
+    "lab/process/selected-k77-zero-fermion-vev-selector-exhaustion.json"
+  ],
+  "source_return": "SOURCE_SILENT_NORMALIZED_FUNCTIONAL_AND_AMPLITUDE_VALUE",
+  "result": {
+    "source_equation_rank": 2,
+    "family_dimension": 1,
+    "projector_rank": 1,
+    "screened_response_rank": 3,
+    "amplitude_equations_added_by_Q": 0,
+    "field_in_image_Q": "T_EQUALS_ZERO",
+    "ell_T_equals_c": "T_EQUALS_SUPPLIED_C"
+  },
+  "next_gate": "DERIVE_ACTION_OWNED_AMPLITUDE_DEPENDENT_GLOBAL_COMPATIBILITY_OR_EXPLICIT_EXTERNAL_VALUE__COMMON_DOMAIN_FIRST",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "p1_p2_p3": "UNCHANGED_AND_UNASSIGNED"
+}

@@ -10,6 +10,567 @@ etc.) - they do **not** perform mathematics. A green run here means the prose/go
 contracts hold; it says nothing about whether a GU claim is mathematically checked. For that,
 see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
+Current composition gate:
+
+- `k77_i2b_contact_euler_hodge_adapter_audit.py` enforces ledger v0.222's
+  typed `Omega1-Cl2` / `Omega13-Cl2` / `Omega13-Cl1` separation, failed
+  identity/raw-pairing shortcuts, exact observer-active rank-four Hodge
+  intersection, trace-`H_q` source-three plus local-cokernel-`e3` split,
+  radial Euler factor and unchanged accounting.
+
+- `learning_transport_contract_audit.py` enforces the v0.221 process
+  propagation: current ledger pointers, the `H_q`/`H_u`/`H^\pm` homonym,
+  correction and path-dependency routing, typed structure fingerprints,
+  variational/globalization grades and a planted trace-`H_q` to B-skew
+  transfer that must fail without an adapter or Layer-0 reset.
+
+- `k77_i2b_trace_hq_normal_contact_correction_audit.py` enforces ledger
+  v0.221's two-`C^(32,32)` carrier typing, trace-`H_q` rank-120 contact,
+  rank-40 local cokernel, scalar pointwise availability, H-homonym fence,
+  full-stabilizer nonclosure and unchanged accounting.
+
+- `k77_i2b_source_normal_jet_reconciliation_audit.py` enforces ledger
+  v0.220's distinction between a source-owned normal-jet operator and an
+  admissible real-u germ, exact nonzero-`kappa` rank-80 image and rank-80
+  cokernel, module/prolongation successor and unchanged accounting; its
+  embedded real-form rank is superseded by v0.221.
+
+- `k77_i2b_full_contact_identifiability_audit.py` enforces ledger v0.219's
+  paired equivariant preserve/destroy/create completions, exact contact
+  discriminant, live observer path, unowned ambient normal jet and unchanged
+  accounting.
+
+- `k77_i2b_constrained_observer_euler_ward_audit.py` enforces ledger
+  v0.218's exact conditional constrained-`u` tensor, `A>0` simple-line and
+  `A=0` flat strata, co-moving Ward identity, arrow nonselection and the
+  remaining full-coupled-contact/source-ownership fence.
+
+- `k77_i2b_observer_inverse_adjoint_correction_audit.py` enforces ledger
+  v0.217's append-only inverse-adjoint correction, exact row immutability,
+  surviving naturality/nonbasicness, RB4/RB5 prior-art composition and the
+  current `SC-ACT-04` constrained-`u` Euler/Ward successor.
+
+- `k77_i2b_observer_associated_basicness_audit.py` enforces ledger
+  v0.216's exact diagonal Spin/frame naturality across all 256 live pairings,
+  coarse observation-projector nonselection, failed observer-forgetting
+  basicness, full-`epsilon_IG` and dynamic horns, unchanged accounting and the
+  mandatory analytic/symplectic/source fences.
+
+- `k77_i2b_arbitrary_field_euler_green_bank_audit.py` enforces ledger
+  v0.212's exact `196`-cell zero-order Euler polynomial of rank three, the
+  live curvature-principal operator but rank-zero physical Green bank, the
+  off-family control, and the moving-contact/expanded-parent scope fence.
+
+- `k77_i2b_nonlinear_receiver_composition_audit.py` enforces ledger v0.211's
+  exact tangent/normal times fixed/anti-fixed product receiver, total rank
+  `5488`, moving q-row reconstruction, retained conormal witness and the
+  remaining arbitrary-field Euler/preboundary fence.
+
+- `k77_i2b_radial_lc_section_qrow_composition_audit.py` enforces ledger
+  v0.210's exact local-first-order result: four mixed directions are the prior
+  section q-row, the radial Levi-Civita first jet has rank four with nonzero
+  residual but zero action derivatives, and nonlinear observation plus full
+  Euler/preboundary remain open.
+
+- `k77_i2b_ambient_fibre_trace_split_correction_audit.py` enforces ledger
+  v0.209's append-only correction: ambient `91`, fibre `45`, exact `9+4`
+  q-motion split, subfamily ranks `280/140`, intersection rank `28`, radial
+  tenth metric direction and the remaining action-composition fences.
+
+- `k77_i2b_full_trace_orbit_derivative_audit.py` enforces ledger v0.208's
+  exact `91=78+13` trace-stabilizer/orbit split, thirteen rank-56 `dot P_+`
+  maps, joint rank 392, firing frozen/radial controls, zero datum cost and the
+  source carrier-split/action-parent/Euler fences.
+  Its `so(6,4)` and complete-fibre labels are superseded by v0.209; the exact
+  ambient identities remain a predecessor regression.
+
+- `k77_i2b_global_primalizer_descent_audit.py` enforces ledger v0.207's
+  sign-insensitive associated `P_+` descent, exact rank-56 pure-frame
+  derivative, firing frozen-projector control and the remaining source-
+  epsilon, full/two-half unitary-parent and full Euler/preboundary fences.
+
+- `k77_i2b_action_real_projection_audit.py` enforces ledger v0.206's exact
+  fixed-real first-variation factorization through `P_+`, nonzero live
+  derivative, action-self-adjoint primalizer, anti-sector contrary control and
+  remaining global moving/Green/preboundary fences.
+
+- `k77_i2b_compensator_naturality_audit.py` enforces ledger v0.205's exact
+  q13/q12 pointwise transport, direct q12 target admission, append-only
+  correction of the v0.204 target-closure bug, and the remaining source-action,
+  Spin/epsilon, moving-derivative and Euler/preboundary fences.
+
+- `polarized_radical_bfv_ownership_gate_audit.py` enforces ledger v0.172's
+  zero-fermion carrier comparison, vanishing gauge/mixed terms, surviving
+  observed dimension-256 fermion radical after the owned edge quotient,
+  operator-completion successor and unchanged accounting.
+
+- `polarized_green_dual_gate_audit.py` enforces ledger v0.171's one-sided
+  survival, exact rank-128 direct Green radicals, unowned perfect barred
+  quotient, failed naive observation descent, scoped successor and unchanged
+  accounting.
+
+- `nonlocal_ultrahyperbolic_polarization_gate_audit.py` enforces ledger
+  v0.170's scalar-versus-matrix Layer-0 split, strict-center support failure,
+  conditional rank-128 frequency polarization, retained rank-640 observation,
+  open action/Green/BFV/overlap/nonlinear gates and unchanged accounting.
+
+- `natural_trace_constraint_gate_audit.py` enforces ledger v0.169's complete
+  Spin-natural zero-order family, unique propagated trace line, preserved
+  rank-128 Jordan defect, fitted-direction control, scoped successor and
+  unchanged headline accounting.
+
+- `unreduced_hyperbolic_domain_gate_audit.py` enforces ledger v0.168's exact
+  same-object real-K77 Jordan factorization, empty positive-symmetrizer cone,
+  scoped unreduced maximal-dissipative kill, ultrahyperbolic domain fence and
+  unchanged headline accounting.
+
+- `global_normal_symbol_descent_audit.py` enforces ledger v0.167's typing of
+  the complete four-field fermion normal principal symbol, global associated-
+  bundle descent, noncharacteristic-only inverse/Darboux atlas, exact null
+  degeneracy, causal domain split and unchanged headline accounting.
+
+- `moving_antidualizer_darboux_audit.py` enforces ledger v0.166's exact
+  independent-dual cotangent specialization, forced half shear, local moving
+  anti-symplectic involution, 120-coordinate no-selection result, adaptive
+  preflight router and unchanged headline accounting.
+
+- `coupled_green_domain_audit.py` enforces ledger v0.165's exact total
+  symmetrized preboundary form, conditional full-carrier Lagrangian graph
+  theorem, 120-coordinate no-selection lower bound, naive moving-reality
+  rejection, source/hostile scope and unchanged headline accounting.
+
+- `coupled_gauge_noether_bv_audit.py` enforces ledger v0.164's exact local
+  full-field ordinary-gauge BRST/Noether closure, the `Gr(3,15)` rank-384
+  no-selection theorem, source/hostile scope, unchanged accounting and the
+  coupled Green/domain successor.
+
+- `unrestricted_southeast_bv_kernel_audit.py` enforces ledger v0.163's
+  parameter-independent nonnull southeast determinant theorem, null-
+  propagation/gauge Layer-0 fence, fermion-only principal-BV kill, unchanged
+  headline accounting and coupled full-field gauge-BV successor.
+
+- `unrestricted_four_field_euler_image_audit.py` enforces ledger v0.162's
+  full-rank nonnull four-field Euler/action-dual comparison, proper
+  codimension-1536 rank-384 hull, bounded-route stop, unchanged headline
+  accounting and unrestricted source/BV successor.
+
+- `fixed_common_receiver_hull_audit.py` enforces ledger v0.161's exact
+  per-stratum `256` versus tested common-hull `384` distinction, paired-left
+  accounting, bosonic-selector Layer-0 fence, unchanged headline accounting
+  and four-field-action-dual successor.
+
+- `source_owned_hull_interface_audit.py` enforces ledger v0.160's ambient-
+  carrier versus finite-selector correction, ordered H1--H7 acceptance
+  interface, scoped source return and hostile review, unchanged accounting and
+  fixed-moving-reduction successor.
+
+- `high_conviction_receiver_completion_audit.py` enforces ledger v0.159's
+  two-track council learning, exact southeast/gauge/leak intersections,
+  rank-256 minimal-receiver action cost, scoped hostile review, unchanged
+  accounting and paired-hull-or-unrestricted-operator successor.
+
+- `gamma_trace_graph_dynamics_audit.py` enforces ledger v0.158's independent
+  left/right/Krein action typing, rank-128 Green and transverse-current banks,
+  radial cancellation, rank-128 full-Euler receiver leak, deferred BV/domain,
+  unchanged accounting and owned-receiver successor.
+
+- `moving_varpi_stationary_intersection_audit.py` enforces ledger v0.157's
+  fixed-fixture-versus-tautological Layer-0 correction, exact 1792/128 rank,
+  characteristic-zero Omega0--gamma-trace graph, RS/W/mirror exclusion,
+  unchanged accounting and coupled-current/differential-domain successor.
+
+- `full_carrier_stationary_residual_audit.py` enforces ledger v0.156's
+  projected-versus-full carrier correction, q-repaired/source-faithful split,
+  exact parentwise rank fingerprints, fixed-fixture and analytic/BV fences,
+  unchanged accounting and moving-`varpi` determinant-locus successor.
+
+- `nonzero_fermion_stationary_schur_reduction_audit.py` enforces ledger
+  v0.155's exact maximal-rank residual theorem, conditional K77 `64 x 64`
+  typing, plain-conjugation no-selector, southeast-rival separation and all
+  actual-source/reality/domain/index/count fences.
+
+- `relative_boundary_p3_ko_interface_audit.py` enforces ledger v0.154's exact
+  boundary-winding-to-P3 relative-`KO` input map, characteristic
+  normalizations, K95/K77 right-`H` port fence, absent relative index/count,
+  strict surplus `0` and nonzero-fermion operator/domain successor.
+
+- `action_induced_real_pairing_horn_audit.py` enforces ledger v0.153's exact
+  selected scalar-trace `B_Re` restriction, distinct chirality-inserted
+  `B_Im` parent, zero projective/horn cost in the selected parent, corrected
+  strict surplus `0` and typed P3 bridge successor.
+
+- `external_relative_datum_surplus_audit.py` enforces ledger v0.152's exact
+  minimal `(n,r)` boundary coupling, conditional finite-amplitude result,
+  strict/favorable surplus `-1/0`, boundary-winding/P3 separation, unchanged
+  accounting and two independent revival gates before action restriction.
+
+- `relative_chiral_transgression_ownership_audit.py` enforces ledger v0.151's
+  same-bundle identity-zero result, continuous-versus-quantized transgression
+  fence, explicit external-integer route, ambient-versus-observed chiral
+  reduction distinction, unchanged accounting and surplus successor.
+
+- `lorentzian_chiral_class_pairing_audit.py` enforces ledger v0.150's
+  globally-hyperbolic ordinary-`H4` zero, closed Lorentzian-spin `12Z` chiral
+  class lattice, two-dimensional neutral real invariant pairing space,
+  relative/boundary Layer-0 fence, unchanged accounting and successor gate.
+
+- `p3_replacement_surplus_audit.py` enforces ledger v0.149's zero natural H-N
+  intertwiner, 24/three-function costs, exact one-vector DeWitt inertias,
+  Lorentzian complex real-form fence, background-dependent tangential `c2`,
+  unchanged accounting and actual-background pairing successor.
+
+- `p3_normal_tangential_support_audit.py` enforces ledger v0.148's exact
+  actual-base pullback obstruction, normal-versus-horizontal form-slot fence,
+  internal-gauge kill, re-scoped abstract `S4` theorem, unchanged accounting
+  and tangential-support-or-soldering successor before action restriction.
+
+- `p3_spin_bundle_diagonal_audit.py` enforces ledger v0.147's exact P3/chiral-
+  spin bundle class match, topology-versus-connection fence, five-dimensional
+  arbitrary ASD moduli, zero homogeneous invariant deformations, unchanged
+  accounting and connection-preserving support-pullback successor.
+
+- `p3_selfdual_source_reduction_audit.py` enforces ledger v0.146's exact
+  split-versus-factor distinction, two rank-three `su(2)` components,
+  current-action self-dual revival kill, unbuilt P3/source diagonal and
+  restricted-action Euler/BV/domain successor.
+
+- `p3_native_characteristic_pairing_audit.py` enforces ledger v0.145's exact
+  zero native quadratic pairings, direct P3 horn kill, nonzero-but-unowned
+  self-dual reduction control, unchanged accounting and action/BV reduction
+  successor.
+
+- `p3_characteristic_amplitude_selector_audit.py` enforces ledger v0.144's
+  conditional characteristic-class magnitude selector, the current
+  auxiliary-P3/source-connection Layer-0 fence, fixed-versus-free pairing
+  distinction, remaining sign, unchanged accounting and parentwise
+  source/P3-diagonal successor.
+
+- `global_projector_amplitude_layer0_audit.py` enforces ledger v0.143's
+  separation of conditional constant-shift screening from nonzero VEV
+  amplitude selection, unchanged accounting, and amplitude-dependent global
+  compatibility/domain successor.
+
+- `zero_fermion_vev_selector_exhaustion_audit.py` enforces ledger v0.142's
+  prior-art correction, exact rank-two source family, one amplitude, local
+  ten-component trace cancellation, pointwise-Hessian Layer-0 fence,
+  classical symplectic/BFV no-selector scope, unchanged accounting and global
+  normalization/domain successor.
+
+- `zero_fermion_coupled_hessian_current_order_audit.py` enforces ledger
+  v0.141's exact zero current/mixed-Hessian ranks, live fermion block, cubic
+  `dD/db` vertex, unchanged rank-one trace and accounting, hostile
+  symplectic/analytic fences, and split bosonic/nonzero-fermion successor.
+
+- `degree_duality_pair_graph_gate_audit.py` enforces ledger v0.140's exact
+  bare-q RS leakage, Pin-completed W/mirror exchange, rank-384 closure,
+  source-sign joined-rank-256 upper obstruction, unchanged accounting and
+  sign-cluster stopping rule.
+
+- `southeast_zero_graph_gate_audit.py` enforces ledger v0.139's exact unique
+  rank-64 upper graph, zero induced W/mirror action, rank-64 action-tied
+  lower-left obstruction, source-faithful sign/duality fence, unchanged
+  accounting and replacement-Shiab/adapter successor.
+
+- `four_field_zero_order_port_audit.py` enforces ledger v0.138's exact
+  parent-specific rank-64-in-rank-128 port theorem, unique projective ratios,
+  source-full coefficient conflict, hostile graph/BV/domain fence, unchanged
+  accounting and graph-Riccati/lower-left successor.
+
+- `action_owned_leakage_composition_audit.py` enforces ledger v0.137's exact
+  composition: every named parent retains a certified leak witness, the
+  nonzero-branch pointwise action Hessian has no radical on their grades, the
+  field-tangent escape closes, and four-field/BV/domain/adapter scope remains
+  (`21/21`).
+
+- `zero_order_w_mirror_parent_leakage_audit.py` enforces ledger v0.136's
+  exact q-repaired zero-order cross/outside-pair leakage ranks, W/mirror
+  symmetry, moving-Spin/two-half/source-full parent distinction, hostile
+  analytic/symplectic scope fence, unchanged accounting and action-orbit/BV
+  successor.
+
+- `induced_fermion_principal_discriminator_audit.py` enforces ledger v0.135's
+  exact K77 principal symbol anchors, W/mirror `224/96` equality, natural-sector
+  half-kernel rule, planted random controls, lower-order parent-ablation fence,
+  hostile symplectic/analytic review, unchanged accounting and draft-9.16
+  zero-order successor.
+
+- `nonzero_branch_parent_hessian_audit.py` enforces ledger v0.134's complete
+  `229,376`-direction pointwise Hessian census, zero radical on both parent
+  decompositions, two-half/full-U/moving-Spin Layer-0 fences, hostile and
+  symplectic review, unchanged accounting, and the induced K77 Dirac/RS
+  successor.
+
+- `bosonic_parent_action_ownership_audit.py` enforces ledger v0.133's
+  zero-branch full-norm result, the distinct `B`-adjoint and Weyl reductions,
+  the hostile scope fence, unchanged accounting, and the dependency order
+  nonzero-branch normal Hessian then induced K77 Dirac/RS operator.
+
+- `action_owned_reduction_carrier_typing_audit.py` enforces ledger v0.132's
+  connection-versus-fermion Layer-0 separation, local-linearized consistency
+  scope, two-step Build queue, unchanged accounting and hostile-review fence.
+
+- `exploration_absorption_priority_canon_audit.py` enforces ledger v0.131's
+  six distance-only carrier-scope migrations, conditional fixed-`W` banners,
+  unchanged accounting, action-owned carrier-discrimination priority, neutral-
+  state anti-inflation fence and current functional-contract pointer.
+
+- `selected_k77_moving_parent_bundle_observation_reduction_audit.py` enforces
+  ledger v0.130's exact moving-projector rank/cocycle/Euler descent, global
+  totals `113,893/229,477`, `8,192+8,192` block/coset typing, observation-value
+  counts `32,613/65,637`, no observation parent selection, action-ownership
+  fence, unchanged accounting and hostile-review scope.
+
+- `selected_k77_grade5_unitary_parent_euler_closure_audit.py` enforces ledger
+  v0.129's exact grade graph, failure of grade `1+2+5` closure, complete-grade
+  Spin total `113,893`, unitary-covariant total `229,477`, non-collapse of the
+  two-half/full-U symmetry and pairing fork, unchanged accounting, and all
+  hostile scope fences.
+
+- `selected_k77_complete_euler_jet_tangent_closure_audit.py` enforces ledger
+  v0.128's observed `594 -> 810` and full-Y14 `594 -> 1250` first-jet closure,
+  total tangents `1,131/1,571`, correctly typed unsymmetrized Euler owner and
+  scalar covector, conditional conormal restriction, unchanged accounting and
+  grade-five/two-half/full-unitary parent fences.
+
+- `selected_k77_observation_stabilizer_subbundle_audit.py` enforces ledger
+  v0.127's dependency-hashed rank-594 bank, all-51-generator stabilizer
+  invariance, natural `160+180+60+184+10` decomposition, `594 -> 727` ambient
+  scope plant, conditional observation reduction, unchanged accounting and
+  unitary-parent fence.
+
+- `selected_k77_minimal_hessian_tangent_closure_audit.py` enforces ledger
+  v0.126's `89 -> 174 -> 464 -> 594` object/scope separation, total tangent
+  `915`, full-`X^4` and both-branch closure, no full-`1,571` promotion, no
+  invented Noether/BV quotient, unchanged accounting and unitary-parent fence.
+
+- `selected_k77_moving_metric_first_action_hessian_audit.py` enforces ledger
+  v0.125's local-principal selected-Spin `9/9/4` metric ranks, inherited
+  `91/6/88` epsilon ranks, co-moving/stationary scope, no unitary-parent port,
+  no quotient or 1,571 promotion, unchanged accounting and hostile fences.
+
+- `k77_exact_bank_api_audit.py` enforces ledger v0.124's canonical exact bank,
+  29 current dependency hashes, nonrecursive consumer, selected-Spin/unitary-
+  parent fences, unchanged accounting, three hostile charges and efficient
+  mandatory-eight plus object-triggered specialist routing.
+
+- `selected_k77_moving_epsilon_first_action_completion_audit.py` enforces
+  ledger v0.123's exact zero lower-Cartan and moving-Phi/Shiab corrections,
+  surviving `91/6/88` epsilon ranks, selected-Spin 321 closure kill, broader-
+  parent and quotient fences, unchanged accounting, and mandatory durable
+  exact-bank successor, now discharged by ledger v0.124.
+
+- `selected_k77_fixed_operator_metric_epsilon_leakage_audit.py` enforces
+  ledger v0.122's all-causal/both-branch fixed-operator rank pattern, the
+  horizontal/off-slice split, total-moving-source fence, unchanged accounting
+  and mandatory source, symplectic and analytic review.
+
+- `selected_k77_first_action_tangent_closure_audit.py` enforces ledger
+  v0.121's complete rank-196/inertia-`97,99` grade-one self blocks, zero
+  horizontal/off-slice grade-two cross, narrowed minimum-321 disposition,
+  grade-label indexing trap, parent/action/domain fences and unchanged
+  accounting.
+
+- `selected_k77_lower_order_source_block_reconciliation_audit.py` enforces
+  ledger v0.120's exact raw-residual/lower-epsilon Layer-0 typing, branch ranks
+  `91/91`, positive conjugate coefficients, v0.95 fixed-`varpi` metric port,
+  parent/action/domain fences, unchanged accounting and two hostile repairs.
+
+- `selected_k77_two_branch_action_block_port_audit.py` enforces ledger
+  v0.119's exact rank-91 first-action cross and rank-1470 residual zero-jet
+  `varpi` ports to both branches, common selected causal principal ranks
+  `110/110/16`, distinct lower-order amplitudes, incomplete-Frechet and
+  expanded-parent fences, unchanged accounting and mandatory source,
+  symplectic, Krein and microlocal boundaries.
+
+- `selected_k77_common_graded_trace_boundary_triple_audit.py` enforces ledger
+  v0.116's strong graded `H7/H-7` plus `H8/H-8` trace carrier, relative
+  cotangent-lift symplectic/polarization descent, and the distinction between
+  a boundary trace skeleton and the still-unowned bulk `Dmax/Dmin`, Green,
+  Krein and coupled BV--BFV structures.
+- `selected_k77_relative_edge_bitorsor_topology_audit.py` enforces ledger
+  v0.115's distinction between active gauge motion and passive patching, the
+  one-sided trivial-bundle obstruction, the relative `A0` bitorsor
+  nonemptiness theorem, preserved dressing/trace/kernel/BFV results and all
+  analytic, physical and action-parent fences.
+- `selected_k77_branch_bfv_no_selector_audit.py` enforces ledger v0.114's
+  exact nonzero-branch symplectomorphism, amplitude-blind vertical
+  polarization, stratum-wise classical minimal-edge BFV charge/CME, global
+  topology/domain/quantum fences and unchanged accounting.
+
+- `selected_k77_branch_boundary_amplitude_classification_audit.py` enforces
+  ledger v0.113's exact residual-adjoint zero versus primitive-epsilon
+  rank-14-per-endpoint charge split, Galois-related amplitudes, five boundary
+  horns, global BFV/parent/tangent fences and unchanged accounting.
+
+- `selected_k77_full_parent_branch_stationarity_audit.py` enforces ledger
+  v0.112's complete pointwise real `u(64,64)` source-connection tangent,
+  exact `8,192+8,192` two-half/half-exchanging split, both branch survivals,
+  full homogeneous-epsilon bulk identity, live endpoint momentum and strict
+  parent-selection/global-functional-tangent fences.
+
+- `selected_k77_source_tangent_branch_stationarity_audit.py` enforces ledger
+  v0.111's exact source-coordinate pullback, both local branch survivals,
+  independent-`B` endpoint retyping, 1,571 completeness fence, distinct action
+  parents and amplitude/Hessian/BV/domain successor.
+
+- `selected_k77_nonconstant_atlas_xi_prolongation_audit.py` enforces ledger
+  v0.110's exact nonconstant affine descent, source-confirmed Xi redundancy,
+  two ansatz-selected algebraic witnesses, native-moving-geometry fences and
+  fail-closed current pointers.
+
+- `selected_k77_source_euler_two_to_one_audit.py` enforces ledger v0.109's
+  source-field Layer-0 correction, exact one-amplitude invariant family,
+  v0.108 representative/retraction split, local connection-jet/Bianchi/
+  constant-descent grade, and global prolongation/amplitude fences.
+
+- `selected_k77_curvature_vev_trace_audit.py` enforces ledger v0.108's
+  same-carrier Layer-0 correction, exact zero-freedom scalar curvature-jet
+  branch and metric-trace cancellation, while keeping the global connection,
+  full derivative Euler, differential Bianchi, observation and physics fences
+  open and preserving all three action parents.
+
+- `selected_k77_direct_metric_euler_audit.py` enforces ledger v0.107's exact
+  rank-one direct metric trace, nine-dimensional traceless kernel,
+  fixed-field/fixed-source/co-moving lift-independence, residual-square
+  noncancellation, dynamic-VEV successor, three action parents and mandatory
+  symplectic/analytic/source fences.
+
+- `selected_k77_common_first_action_epsilon_hessian_audit.py` enforces ledger
+  v0.106's old-background trace-covector correction, exact nontrivial common
+  connection branch, direct-metric-Euler fence, rank-91 moving-epsilon cross,
+  grade-one receiver requirement, 125/321/1,571 tangent gate, action-parent
+  separation and mandatory symplectic/analytic/source controls.
+
+- `selected_k77_primitive_epsilon_common_bank_audit.py` enforces ledger
+  v0.105's primitive-epsilon 91-column typing, exact 125-field raw/Gram strata
+  `110/110/110` and `110/110/16`, inertias, null isotropic excess 94,
+  first-action `34` versus `125` mismatch, unbooked trace quotients, mandatory
+  symplectic/analytic fences and the three distinct action parents.
+
+- `selected_k77_stationary_gram_boundary_strata_audit.py` enforces ledger
+  v0.104's rectangular-residual versus square-Gram typing, exact causal Gram
+  ranks `22/22/14`, inertias, unbooked doubled trace quotients `44/44/28`,
+  `H7 x H-7` regularity-only fence, missing edge-carrier soldering/full action/
+  maximal-domain/odd-BFV gates and the three distinct action parents.
+
+- `selected_k77_sobolev_edge_current_algebra_audit.py` enforces ledger
+  v0.103's weak `H7 x H7` versus strong `H7 x H-7` distinction, `H8`
+  gauge/edge threshold, conditional nonempty-torsor edge quotient, classical
+  charged current algebra, no-selection polarization and full odd-BFV/domain/
+  topology/action-parent fences.
+
+- `selected_k77_full_tau_a0_moment_map_audit.py` enforces ledger v0.102's
+  full derivative-bearing nonzero-`A0` tilted quotient, conditional
+  Spin-native action trace, raw charged moment map, exact edge characteristic
+  kernel and moving-reference algebraic patch law while preserving functional
+  BFV, charged-boundary, common-domain and expanded-action-parent fences.
+
+- `selected_k77_boundary_disposition_selector_audit.py` enforces ledger
+  v0.101's source/action boundary-selection negative result, conditional
+  full-boundary-gauge plus nonzero-momentum edge selector, charged-symmetry
+  comparator, inventory and fail-closed current pointers.
+
+- `selected_k77_action_noether_preboundary_audit.py` enforces ledger v0.100's
+  nonvacuous moving pairing/density cancellation, local matched-q
+  selected-action Euler-Noether identity, action-owned `E_B-E_T` endpoint
+  momentum, compact-support presymplectic basicness, live unrestricted
+  boundary moment map and global BFV/domain/action-parent fences.
+
+- `selected_k77_common_physical_equation_dual_green_audit.py` enforces ledger
+  v0.99's 34-field covector-valued common equation dual, nonzero local Green
+  concomitant, zero matched-q physical pullback in every causal class, firing
+  missing-term controls, source/symplectic/analytic fences, distinct action
+  parents and selected-action Euler/Noether successor.
+
+- `selected_k77_source_native_diffeomorphism_ward_closure_audit.py` enforces
+  ledger v0.98's matched-q metric--Cartan--moving-Shiab `J R=0`, physical
+  rank-four versus raw rank-three longitudinal split, rejection of frozen-q0
+  and missing-term plants, grade-one-gamma nonrequirement, source and
+  symplectic/analytic fences, and common-`K_loc`/action-Euler successor.
+
+- `selected_k77_common_metric_dupsilon_coefficient_bank_audit.py` enforces
+  ledger v0.97's four rank-nine common metric banks, combined rank-twenty and
+  all-causal transverse rank-six result, exact metric/varpi torsion graph,
+  rejection of the identity-defined Ward metric owner, measured rank-four
+  physical defect, source/symplectic/analytic fences and the complete
+  primitive-epsilon/diffeomorphism successor.
+
+- `selected_k77_common_field_formal_adjoint_green_audit.py` enforces ledger
+  v0.96's actual four-direction source-varpi coefficient bank, exact
+  covector-valued `K_loc` formal adjoint and Green current, fail-closed missing
+  common-coordinate `D_g`/full primitive `D_epsilon` inventory, field-Riesz
+  fence, mandatory symplectic/analytic review, and distinct selected/
+  two-`U(32,32)`/full-`U(64,64)` action parents.
+
+- `selected_k77_fixed_varpi_normal_frechet_closure_audit.py` enforces ledger
+  v0.95's exact fixed-varpi `delta T`, three-term `delta F_A=0` cancellation,
+  rank-20 metric-derived Levi-Civita image, all-causal transverse rank-six
+  closure, raw-residual observation fence, mandatory symplectic/analytic
+  review, frozen accounting and common-field formal-adjoint/Green successor.
+
+- `selected_k77_transverse_comoving_coefficient_closure_audit.py` enforces
+  ledger v0.94's exact ten-direction and three-transverse-six comoving
+  Hodge/Clifford/Phi/Shiab coefficient closure, live rank-six source-response
+  fence, mandatory symplectic/analytic review, frozen accounting and the
+  component-normal field/connection/observation successor.
+
+- `selected_k77_operative_pairing_symmetry_closure_audit.py` enforces the
+  v0.93 exact Spin/block/full carrier closures `2107/16382/16383`, invariant
+  pairing dimensions `3/3/1` (or `2` with a separately typed exchange), the
+  two-`C^(32,32)` versus full-`U(64,64)` Layer-0 split, mandatory symplectic
+  and analytic fences, `84..86` conditional residue range, and lower-order
+  `D_g Upsilon` successor.
+
+- `selected_k77_residual_pairing_invariance_audit.py` enforces the v0.92
+  local-pairing theorem, full-`U(64,64)` comparator versus Weyl-block fork,
+  mandatory symplectic and analytic fences, frozen headline/residue/datum
+  accounting, and lower-order transverse/adjoint/Green successor.
+
+- `selected_k77_action_frechet_ward_object_separation_audit.py` enforces the
+  v0.91 distinction between first-action Euler bank and residual Jacobian,
+  four Ward versus six transverse directions, conditional MW selector,
+  mandatory symplectic/hostile review and frozen headline/residue/datum fence.
+
+- `signature_generic_cartan_ward_compose_audit.py` enforces the v0.90
+  Cartan/primitive-epsilon composition, branch-native K77/K95 Hodge split,
+  mandatory specialist review, frozen headline meter and actual-action
+  Frechet successor gate.
+
+- `signature_rationale_build_branch_retype_audit.py` enforces the v0.89
+  distinction between author-asserted K77 and geometry-derived K95, the
+  unchanged scientific meter, and the branch-aware successor gate.
+
+- `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py` audits
+  the v0.59 source-owned labelled-reduction quotient, persistent horizontal-
+  plane forgetful failure, closed invariant-replacement horn, mandatory
+  symplectic fence and frozen ledger/datum/lane/posture boundary.
+
+- `selected_k77_source_graph_basicness_scope_audit.py` audits the predecessor v0.58
+  full-frame covariance versus quotient-basicness split, source
+  epsilon/soldering uncertainty, unbookable surplus, mandatory symplectic
+  review and frozen ledger/datum/lane/posture boundary.
+
+- `selected_k77_cartan_spencer_signature_correction_scope_audit.py` audits the
+  v0.57 `(9,5)` to settled K77 `(7,7)` coefficient repair, old-value
+  supersession, surviving pointwise theorem, mandatory symplectic review and
+  frozen ledger/datum/lane/posture boundary.
+
+- `selected_source_varpi_cartan_composition_scope_audit.py` audits the v0.56
+  fixed-epsilon source tangent, exact pointwise four-column Cartan lift,
+  global-integrability fence, mandatory symplectic review and frozen
+  datum/lane/posture boundary.
+
+- `selected_nonzero_background_cartan_spencer_owner_scope_audit.py` audits
+  the v0.55 unrestricted Cartan/Spencer owner, Levi-Civita subclass fence,
+  mandatory symplectic review and frozen datum/lane/posture boundary.
+
+- `selected_invariant_constituent_operator_naturality_scope_audit.py` audits
+  the v0.54 branch-tangent naturality result, independent-field-jet fence,
+  mandatory symplectic review and frozen datum/lane/posture boundary.
+- `selected_second_layer_residual_constituent_operator_correction_scope_audit.py`
+  audits the v0.53 retraction, selected nonzero constituent, source return,
+  mandatory symplectic review and frozen datum/lane/posture boundary.
+
 ## Why top-level (same depth as `tests/`)
 
 Each gate computes the repo root as `Path(__file__).resolve().parents[1]`, which assumes the
@@ -90,6 +651,7 @@ selected notes below and in each script header.
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
+- `k77_i2b_observer_time_hermitian_reduction_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
 - `k77_wave2_action_polarization_common_observation_domain_scope_audit.py`
@@ -135,6 +697,7 @@ selected notes below and in each script header.
 - `pati_salam_readme_inventory_audit.py`
 - `papers_candidates_readme_inventory_audit.py`
 - `papers_readme_lifecycle_map_audit.py`
+- `path_dependency_audit.py`
 - `post_batch2_wave1a_supersession_dependency_audit.py`
 - `primary_gu_interface_contract_audit.py`
 - `process_gate_readme_inventory_audit.py`
@@ -142,6 +705,7 @@ selected notes below and in each script header.
 - `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
 - `queue_review_freshness_audit.py`
+- `register_writeback_audit.py`
 - `selected_cubic_augmented_torsion_d3_owner_scope_audit.py`
 - `selected_cubic_gauge_rotated_lc_ward_owner_scope_audit.py`
 - `selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py`
@@ -154,6 +718,23 @@ selected notes below and in each script header.
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
 - `selected_action_source_variable_hessian_scope_audit.py`
 - `selected_action_ward_completion_identifiability_scope_audit.py`
+- `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
+- `selected_source_varpi_cartan_composition_scope_audit.py`
+- `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
+- `selected_k77_fixed_varpi_normal_frechet_closure_audit.py`
+- `selected_k77_operative_pairing_symmetry_closure_audit.py`
+- `selected_k77_transverse_comoving_coefficient_closure_audit.py`
+- `selected_k77_action_boundary_coefficient_bank_scope_audit.py`
+- `selected_k77_full_u6464_action_bank_scope_audit.py`
+- `selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py`
+- `selected_k77_minimal_edge_mode_reduction_scope_audit.py`
+- `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py`
+- `selected_k77_source_graph_basicness_scope_audit.py`
+- `selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
+- `selected_second_layer_full_cl2_residual_pullback_scope_audit.py`
+- `selected_second_layer_i2b_gauss_owner_map_scope_audit.py`
+- `selected_second_layer_tt_euler_preboundary_helicity_scope_audit.py`
+- `spectral_conditioning_disclosure_audit.py`
 
 - `pw2fr2b2b2g_full_a4_multiindex_green_distinct_i2b_c4_scope_audit.py`
 - `pw2fr2b2b2h_mixed_shiab_second_jet_scope_audit.py`
@@ -213,6 +794,10 @@ selected notes below and in each script header.
 - `y14_k3_bridge_gate.py`
 - `y14_k3_bridge_loss_audit.py`
 - `y14_k3_end_data_topography_gate_audit.py`
+- `global_projector_amplitude_layer0_audit.py`
+- `zero_fermion_vev_selector_exhaustion_audit.py`
+- `p3_characteristic_amplitude_selector_audit.py`
+- `p3_native_characteristic_pairing_audit.py`
 
 ## Eric-lane decisive source-collision gate
 
@@ -1730,3 +2315,962 @@ exact rank-100, 640-entry sparse target; full-II and trace-square coefficients;
 review; and total-residual other-grade support as successor. It forbids
 helicity, Euler/preboundary, domain/BV/BFV, residue, quotient, datum, canon and
 public-posture promotion.
+
+## Selected second-layer TT Euler, preboundary, helicity and ledger v0.40 gate
+
+`selected_second_layer_tt_euler_preboundary_helicity_scope_audit.py` requires
+the exact fourth-order TT polynomial and mass ratio, massless helicity-two
+module, massive axial-weight-two TT plane, nonzero action preboundary current
+and opposite local pole Green signs. It keeps the massive full `SO(3)` type and complete scalar/vector/
+constraint quotient, coupled nonzero-fermion Hessian, common global domain,
+odd BV/BFV, positivity and Einstein recovery open. It also requires the
+symplectic hostile lens and forbids residue, fifth-quotient, datum, canon or
+public-posture promotion.
+
+## Selected second-layer off-TT scalar/Ward owner and ledger v0.42 gate
+
+`selected_second_layer_offtt_scalar_ward_owner_scope_audit.py` requires exact
+TT reproduction, rank-four metric-only Ward failure, rejection of the
+restricted scalar candidate and the Layer-0 separation of observer/full-II
+from the selected residual action owner. It requires all six hostile lenses,
+including symplectic geometry, and routes the next Build to full co-moving
+`D Upsilon` before scalar, massless-constraint, domain or BV/BFV claims.
+
+## Selected second-layer massive SO3 closure and ledger v0.41 gate
+
+`selected_second_layer_massive_so3_closure_scope_audit.py` requires the exact
+five-dimensional spin-two orbit closure and Casimir, the distinct one-state
+spin-zero complement, the two-dimensional commutant and the explicit
+TT-to-scalar non-identifiability witness. It routes the next Build to the
+native full-`B`, background-subtracted off-TT section variation before the
+massless constraint complex. It requires all six hostile lenses, including
+symplectic geometry, and forbids physical-state, scalar-coefficient, domain,
+BV/BFV, residue, fifth-quotient, datum, canon and public-posture inflation.
+
+## Selected second-layer D Upsilon gauge-orbit weld and ledger v0.43 gate
+
+`selected_second_layer_dupsilon_gauge_orbit_weld_scope_audit.py` enforces the
+exact rank-four metric Ward load and source-native connection diffeomorphism
+orbit, the rank-four forced residual response, and uniqueness of the diagnostic
+weld only on that orbit. It keeps the actual selected-`Upsilon` derivative,
+twelve transverse connection directions, scalar/constraint quotient,
+domain/BV/BFV, residue, fifth quotient, datum, canon and public posture open.
+It also requires differential-geometric, representation, variational,
+symplectic, Krein/operator, source-critical and archaeology hostile lenses.
+
+## Selected second-layer actual source-lift rank mismatch and ledger v0.44 gate
+
+`selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
+enforces the source correction from the rank-four covector-slot proxy to the
+rank-three independent connection lift, its time kernel and the mandatory
+section/observation successor. It forbids inflating the connection-only route
+kill to a full-action, scalar, domain, BV/BFV, datum, quotient or posture result.
+
+## Selected second-layer observation-owner retype and ledger v0.45 gate
+
+`selected_second_layer_observation_owner_retype_scope_audit.py` enforces the
+metric/graph-section identity, rejects an independent observation action
+column, preserves the source-normal-jet chain-rule route, and routes the next
+Build to source-native `j1 Upsilon` before the conditional full-`II` owner-map
+comparison. It requires the symplectic lens and forbids scalar, domain, BV/BFV,
+datum, quotient or posture inflation.
+
+## Selected second-layer normal-jet carrier compatibility and ledger v0.46 gate
+
+`selected_second_layer_normal_jet_carrier_compatibility_scope_audit.py`
+rejects the false residual-Gram factorization, retains the raw rank-four orbit,
+and requires all four needed columns to lie in the source-native mixed-normal
+carrier. It keeps the actual prolonged source jet, background-subtraction
+owner, scalar/domain/BV/BFV, external datum, fifth quotient, canon and public
+posture open, with the symplectic lens mandatory.
+
+## Selected second-layer Shiab inverse/Bianchi completion and ledger v0.47 gate
+
+`selected_second_layer_shiab_inverse_bianchi_completion_scope_audit.py`
+requires the exact full selected-Shiab isomorphism, unique preimages and four
+rank-fourteen principal-Bianchi failures. It rejects only the standalone split
+connection-jet identification, routes the next Build to total source-native
+Gauss-Codazzi-Ricci completion and keeps scalar/domain/BV/BFV, external datum,
+fifth quotient, canon and public posture open, with symplectic review
+mandatory.
+
+## Selected second-layer non-null Koszul/GCR split and ledger v0.48 gate
+
+`selected_second_layer_nonnull_koszul_gcr_split_scope_audit.py` requires the
+canonical non-null connection support/rank, the separately typed transverse
+completion burden, exact selected-Shiab recombination, an open null screen,
+mandatory symplectic review and no datum/quotient/posture promotion.
+
+## Selected second-layer GCR Clifford-grade owner retype and ledger v0.49 gate
+
+`selected_second_layer_gcr_exterior_degree_owner_retype_scope_audit.py`
+requires the exhaustive 8,281-column `Cl2` grade classification, the exact
+rank-1,274 `Cl1 -> Cl2` selected-Shiab isomorphism, preservation of the
+`28+117=145` odd packet and exact exclusion of the single-`q` contraction
+adapter. It rejects direct Levi-Civita/Gauss--Codazzi--Ricci ownership, routes
+the next Build to a source-native odd augmented-torsion/translation-curvature
+packet or richer moving epsilon/soldering map, keeps null continuation and
+total Bianchi/raw-`Upsilon` naturality open, requires symplectic review and
+forbids residue, fifth-quotient, datum, canon or public-posture promotion.
+
+## AC-G1 propagation, pointer reconciliation and ledger v0.50 gate
+
+`ac_g1_propagation_pointer_baseline_scope_audit.py` enforces the real-Clifford
+horn boundary, requires current canon/status wording to scope `Sp(64)` to
+conditional `Cl(9,5)`, makes the functional-channel target authoritative while
+preserving the old PW2F pointer, and types the 49-failure integration record as
+historical inherited debt rather than current-head truth. It forbids anomaly,
+datum, quotient, canon-verdict or public-posture inflation.
+
+## Translation-curvature partial owner and ledger v0.51 gate
+
+`selected_second_layer_translation_curvature_principal_owner_scope_audit.py`
+requires the exact fixed-`B` `q wedge delta T` image, support `28` ownership,
+support `117` exclusion, rank-four owned and transverse families, mandatory
+symplectic review and current-ledger/contract wiring. It routes the next Build
+to the moving gauge-rotated Levi-Civita/epsilon/soldering response and forbids
+Euler, BV/BFV, quotient, datum, canon or posture inflation.
+
+## Transverse-117 residual-zero owner class and ledger v0.52 gate
+
+`selected_second_layer_transverse117_residual_zero_owner_class_scope_audit.py`
+requires the universal q-exact connection-curvature symbol, support-117
+disjointness, zero-background moving-operator product rule, live nonzero-
+background control, source epsilon/soldering Layer-0 fence, mandatory
+symplectic review and v0.52 ledger/contract wiring. It routes the next Build
+to raw-`Upsilon` normal jet or a source-owned nonzero stationary background
+and forbids full-action, Euler, BV/BFV, datum, canon or posture inflation.
+
+## Nonzero-background Cartan/Spencer owner and ledger v0.55 gate
+
+`selected_nonzero_background_cartan_spencer_owner_scope_audit.py` requires the
+exact rank-1,274 unrestricted Cartan/Spencer isomorphism, coefficientwise
+transverse-117 preimages, the zero Levi-Civita-subclass transverse
+intersection, mandatory symplectic review and current-ledger/contract wiring.
+It routes the next Build to the actual independent-`varpi`/soldering/
+observation normal jet and forbids Euler, quotient, datum, canon or posture
+inflation.
+
+## Source-varpi / Cartan composition and ledger v0.56 gate
+
+`selected_source_varpi_cartan_composition_scope_audit.py` requires the
+fixed-epsilon source tangent `delta B=0`, `delta T=delta A=alpha`, the exact
+pointwise rank-four lifts for all transverse 117, zero coefficient freedom at
+fixed background, mandatory symplectic review and current-ledger/contract
+wiring. It routes the next Build to a covariant four-column graph morphism,
+constraint-surplus count and Spencer/atlas integrability, while forbidding
+source-selection, Euler, quotient, datum, canon or posture inflation.
+
+## K77 Cartan/Spencer signature correction and ledger v0.57 gate
+
+`selected_k77_cartan_spencer_signature_correction_scope_audit.py` requires
+the executed old inertia `(9,5)` and corrected K77 inertia `(7,7)` to be
+measured, all changed-coordinate counts to remain exact, the pointwise
+rank/support theorem to survive, old coefficient values to be superseded, and
+all graph/atlas/Euler/symplectic promotions to remain fenced.
+
+## K77 source-graph basicness and ledger v0.58 gate
+
+`selected_k77_source_graph_basicness_scope_audit.py` requires exact
+full-frame three-patch transport to remain distinct from unframed quotient
+basicness, records the horizontal and normal rank-four stabilizer defects,
+keeps source gauge `epsilon` distinct from observation soldering, refuses to
+book positive quotient surplus, requires the symplectic basicness review, and
+freezes verdicts, residue, quotients, datum, canon and posture.
+
+## K77 full-reduction quotient reconciliation and ledger v0.59 gate
+
+`selected_k77_full_reduction_quotient_reconciliation_scope_audit.py` requires
+the source-owned labelled Clifford reduction and its central `U(1)` stabilizer
+to remain distinct from the horizontal-plane forgetful quotient. It preserves
+v0.58's normal defect, requires the exact invariant-target-span obstruction,
+counts no orbit-transport surplus, keeps observation Euler/preboundary and
+symplectic descent open, and freezes verdicts, residue, quotients, datum, canon
+and posture.
+
+## K77 total raw-Upsilon and labelled null screen ledger v0.60 gate
+
+`selected_k77_total_upsilon_null_screen_scope_audit.py` keeps the complete
+superconnection Bianchi identity distinct from raw-`Upsilon` naturality and
+from the source's `Xi=D Upsilon` redundancy. It requires the exact rank-four
+all-grade residual after restoring `kappa_1 T`, the labelled ambient rank-12
+`(6,6)` null screen, the separate 4D `10 -> 6 -> 2` physical quotient, the
+mandatory symplectic scope fence, zero identity-surplus inflation, and frozen
+verdicts, residue, quotients, datum, canon and posture.
+
+## K77 coupled all-grade raw-Upsilon graph ledger v0.61 gate
+
+`selected_k77_coupled_all_grade_upsilon_graph_scope_audit.py` requires the
+predeclared 1,470-dimensional source tangent, 4,330-coordinate output support,
+rank-1,470/nullity-zero response, four unique conditional lifts, full Bianchi
+and paired labelled-frame descent. It keeps the source-silent `-J_2D` target,
+2,860-dimensional compatibility cokernel, zero local predictive surplus, and
+open Euler/preboundary/symplectic gate separately typed while freezing
+verdicts, residue, quotients, datum, canon and posture.
+
+## K77 labelled-null observation-jet Euler/preboundary sufficiency v0.62 gate
+
+`selected_k77_observation_jet_euler_preboundary_scope_audit.py` requires the
+labelled-null response rank 1,470/nullity zero, four unique null lifts, one
+exact conormal graph derivative, and the live rank-650/nullity-820 source
+principal symbol. It keeps the symbol distinct from the invariant Green
+current, requires the paired `(Upsilon,Xi)` action/equation dual to remain
+open, includes the mandatory symplectic fence, and freezes verdicts, residue,
+quotients, P1/P2/P3, canon and posture.
+
+## K77 paired Upsilon/Xi and formal Green-owner v0.63 gate
+
+`selected_k77_paired_upsilon_xi_green_scope_audit.py` requires the graph's
+degree-one primalized carrier, the fixed-Hodge degree-thirteen density and the
+printed degree-fourteen Xi companion to remain distinct. It requires exact Xi
+supports `16,15,11,11`, rank-zero dependence after total-Upsilon closure,
+nonzero unrestricted and zero Dirichlet Green flux, and an explicit open flag
+for the action-owned K77 Krein pair and antisymmetrized presymplectic current.
+It freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 action-owned degree-fourteen companion v0.64 gate
+
+`selected_k77_action_owned_degree14_companion_scope_audit.py` requires the
+action companion to use both degree-thirteen connection Euler owners and the
+moving-Shiab orbit covector. It keeps that generally nonzero primitive epsilon
+Euler equation distinct from printed `D Upsilon`, the zero homogeneous Ward
+contraction and any antisymmetrized presymplectic/BFV object. It requires the
+moving K77 observation insertion to remain open and freezes verdicts, residue,
+quotients, P1/P2/P3, canon and posture.
+
+## K77 moving action-Green receiver v0.65 gate
+
+`selected_k77_moving_action_green_receiver_scope_audit.py` requires the
+moving target, section, indefinite primalizer and action Euler terms to remain
+independently live. It requires exact complete-germ first-variation and Green
+transport while preserving ordinary pullback's rank-ten conormal loss. It
+keeps the source-native normal Euler jet, antisymmetrized current, BFV quotient
+and common domain open and freezes verdicts, residue, quotients, P1/P2/P3,
+canon and posture.
+
+## K77 selected-action normal Euler mixed-Hessian v0.66 gate
+
+`selected_k77_source_native_normal_euler_jet_scope_audit.py` requires the
+selected action's normal Euler jet to be typed as the mixed action Hessian,
+keeps it distinct from the source-printed residual jet, requires all seven
+normal-owner classes and zero new free objects, and leaves the coefficientwise
+full-K77 bank, antisymmetrized current, basic/common-domain/BFV descent open.
+It freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 full normal geometry and owner-split correction v0.67 gate
+
+`selected_k77_full_normal_owner_bank_scope_audit.py` requires all ten K77
+normal metric directions, the rank-one density bank, and the rank-ten
+degree-one/two pairing and Hodge banks. It keeps a vertical coefficient value
+distinct from its normal first jet, narrows the seven v0.66 owner buckets to a
+chosen trivialization, and preserves only the total mixed Hessian as intrinsic.
+It routes next to the Green-potential splitting-change/basicness test, requires
+the vertical B/T lift to remain open unless a nonbasic defect survives, and
+freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 Green-potential point-splitting basicness v0.68 gate
+
+`selected_k77_green_potential_splitting_basicness_scope_audit.py` requires
+the complete action-owned Green potential and its field-space exterior
+derivative to transport naturally under nonlinear point-frame cotangent
+lifts, including a three-splitting cocycle. It requires all ten induced K77
+normal/base momentum corrections and a firing partial-potential control. It
+retires the vertical B/T lift only for point-trivialization descent, keeps
+derivative-dependent contact transformations and physical gauge basicness
+open, and freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 contact-presymplectic gauge basicness v0.69 gate
+
+`selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py` requires
+the actual rank-ten Levi-Civita contact block, diagonal two-connection Ward
+closure, fixed-parameter Lie invariance and small/Dirichlet-gauge
+horizontality. It separately requires the nonzero unrestricted boundary
+moment map in all ten K77 directions, keeps the physical boundary domain or
+edge-mode extension and full nonlinear ambient reduction open, and freezes
+verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 minimal edge-mode reduction v0.70 gate
+
+`selected_k77_minimal_edge_mode_reduction_scope_audit.py` requires the
+structural scalar-counterterm failure, unique edge coefficients `(-1,+1)`,
+exact all-ten extended dimension/rank/kernel `60/40/20`, and nondegenerate
+conditional quotient dimension/rank `40/40`. It books exactly one new scoped
+quotient while freezing verdicts and global residue. It keeps the global
+labelled `Y14` edge bundle, source-selected physical domain, BFV phase space,
+polarization, common domain, P1/P2/P3, canon and posture open.
+
+## K77 tilted edge-bundle type bridge v0.71 gate
+
+`selected_k77_tilted_edge_bundle_type_bridge_scope_audit.py` requires exact
+separate tilted affine-one-form and group-valued edge-frame cocycles, the
+constant-`xi` zero-form/one-form mismatch, and the null zero-order natural
+bridge. It keeps the dressed preboundary form, typed differential/soldering or
+domain bridge, global quotient, BFV, common domain, P1/P2/P3, canon and posture open.
+
+## K77 group-edge dressing and Maurer-Cartan bridge v0.72 gate
+
+`selected_k77_group_edge_dressing_maurer_cartan_bridge_scope_audit.py`
+requires the exact universal dressed pair `q=xu^-1`, `pi=p u^T`, rank-eight
+pulled-back two-form, four-dimensional characteristic kernel equal to the
+right `gl(2)` orbit, and recovered v0.70 minus sign. It requires `u^-1 d u` to
+remain a flat/pure-gauge tilted bridge, not arbitrary `varpi`, and keeps the
+actual K77 `H` representation/action, nonzero `A0`, global BFV, common domain,
+P1/P2/P3, canon and posture open.
+
+## K77 two-endpoint edge dressing v0.73 gate
+
+`selected_k77_two_endpoint_edge_dressing_scope_audit.py` requires the actual
+K77 `U(64,64)` group owner, exact source/target cotangent kernel equality, and
+the material `p0=p2`, `40/40 -> 20/20` single-holonomy fence. It keeps two
+continuum endpoint action owners, primitive epsilon preboundary ownership,
+full `tau_A0`, BFV/common domain, P1/P2/P3, canon and posture open.
+
+## K77 epsilon endpoint direct-sum v0.74 gate
+
+`selected_k77_epsilon_endpoint_direct_sum_scope_audit.py` requires the local
+epsilon trace map to have rank two and the two-copy K77 dressing to recover the
+full `60/40/20 -> 40/40` endpoint quotient. It also requires the hostile
+scope repair: `i_n(E_B-E_T)=p_KT` is an open coefficient weld, so the v0.70
+boundary coordinates are not yet retyped as existing epsilon traces. The
+single-holonomy no-go, full `tau_A0`, global BFV/common domain, P1/P2/P3,
+canon and posture remain fenced.
+
+## K77 action/contact Legendre-owner v0.75 gate
+
+`selected_k77_action_contact_legendre_owner_scope_audit.py` preserves the
+generic contact/Ward/Green/symplectic theorem, independent endpoint cotangent
+variables, direct-sum `40/40` quotient and single-holonomy no-go. It requires
+the exact two-`K` nonuniqueness control, cubic selected-action scaling,
+nonzero `E_B-E_T` at `T=0`, and rejection of `p=KT` as selected-action
+ownership. The actual all-ten oriented action boundary bank, observation
+receiver, full `tau_A0`, global BFV/common domain, P1/P2/P3, canon and posture
+remain fenced.
+
+## K77 selected-action boundary coefficient-bank v0.76 gate
+
+`selected_k77_action_boundary_coefficient_bank_scope_audit.py` requires the
+exact selected `Cl1+Cl2` action bank, ten independent normal rows, lossless
+complete observation, nondegenerate indefinite scalar-Clifford images and
+opposite local endpoint orientations. It forbids promotion to the full
+`U(64,64)` carrier, global physical observation, full Krein domain,
+`tau_A0`/BFV, P1/P2/P3, canon or public posture.
+
+## K77 full pointwise u(64,64) action-bank v0.77 gate
+
+`selected_k77_full_u6464_action_bank_scope_audit.py` requires the exact
+16,384-real-dimensional pointwise comparator, live-grade fingerprint
+`14/59/476`, ranks `14/10`, corrected raw/observed inertia `(4,6,0)`, a
+symplectic hostile review and explicit P1/P2/P3 non-use. It forbids promotion
+to global adjoint-bundle, physical observation, preferred-Shiab, BFV,
+common-domain, canon or public-posture status.
+
+## K77 action-bundle and observation-overlap v0.78 gate
+
+`selected_k77_action_bundle_observation_overlap_scope_audit.py` requires
+patchwise recomputation under two noncommuting K77 transitions, exact direct
+and sequential action/complete-observation/no-leakage-projector descent, fired
+frozen-map and hidden-covector controls, a symplectic hostile review, and
+explicit P1/P2/P3 non-use. It forbids promotion to arbitrary-X physical
+section integrability, ordinary-pullback faithfulness, preferred Shiab,
+global BFV/common domain, canon or public-posture status.
+
+## K77 physical observation-section faithfulness v0.79 gate
+
+`selected_k77_physical_section_faithfulness_scope_audit.py` requires the spin
+`S4` counterexample to arbitrary-`X` Lorentz-section existence, exact local
+holonomic first/second jets, the universal ordinary-pullback rank `4` plus
+conormal rank `10`, and the nonzero selected augmented-torsion Euler witness
+in that kernel. It preserves the complete `4+10` receiver while forbidding a
+sixth quotient, physical vertical-field interpretation, global BFV/domain,
+P1/P2/P3, canon or public-posture promotion.
+
+## K77 metric-section/Bianchi typing v0.80 gate
+
+`selected_k77_metric_section_bianchi_typing_scope_audit.py` requires the
+complete field/equation dual to retain all ten graph-conormal directions as
+independent metric-section Euler coordinates. It rejects erasing that entire
+ten-dimensional sector as “BV,” and separately requires the standard
+linearized Einstein comparator complex to be exact at noncharacteristic
+covectors and to carry a two-dimensional null helicity-two cohomology. The
+actual selected K77 vertical Euler/Ward symbol, global BFV/domain,
+P1/P2/P3, canon and public posture remain open.
+
+## K77 coupled Euler-complex scope v0.81 gate
+
+`selected_k77_coupled_euler_complex_scope_audit.py` requires the retained ten
+metric equations to remain distinct from a closed vertical-only subsystem. It
+requires the exact 34-variable first-layer Ward complex with generic physical
+cohomology zero, the exceptional helicity-one typing, the second-layer TT
+diagnostic plus rank-four full Ward defect, and the rank-four defect of naive
+layer addition. It rejects a 21-dimensional formal Ward fit as construction
+and keeps microlocal hyperbolicity, common Green/Krein domain, global BV-BFV,
+P1/P2/P3, canon and public posture open.
+
+## K77 stationary two-layer Hessian factorization v0.82 gate
+
+`selected_k77_stationary_two_layer_hessian_factorization_audit.py` requires
+the exact stationary `H2=(D Upsilon)^!K*(D Upsilon)` factorization, preserves
+independent physical Shiab/Hodge constituent movement, rejects substitution
+of the first-action Schur Hessian for the residual Jacobian, and keeps
+observation as a dependent receiver. It requires symplectic, Krein and
+complex/path-integral fences and leaves the actual common-field `D Upsilon`,
+pairing/formal adjoint, Green concomitant, physical kernel, BV-BFV,
+P1/P2/P3, canon and public posture open.
+
+## K77 common-field D-Upsilon varpi block v0.83 gate
+
+`selected_k77_common_field_dupsilon_varpi_block_audit.py` requires the exact
+24-dimensional source-horizontal `D_varpi Upsilon` block, its 56-coordinate
+grade support and rank-three causal diffeomorphism interface. It rejects
+promotion of an orbit-only metric completion and import of the older
+rank-four metric diagnostic on the fixed-`epsilon` horn, while preserving
+source `epsilon` as the unbuilt revival route. It requires the Layer-0
+distinction between covariant `D_omega Upsilon` and Frechet
+`D_epsilon Upsilon`, plus symplectic, Krein and complex/path-integral fences.
+
+## K77 gamma-soldered epsilon D-Upsilon orbit v0.84 gate
+
+`selected_k77_gamma_soldered_epsilon_dupsilon_orbit_audit.py` requires the
+ordinary spin/Levi-Civita Kosmann lift to remain an exact rank-three
+negative control with the source-`varpi` longitudinal kernel. It separately
+requires the already-owned grade-one `gamma_epsilon` construction to supply
+rank four in every causal class, remain nonzero on the missed direction, and
+close the four principal `J R=0` columns without a new field, datum,
+coefficient or quotient. It preserves source silence on physical soldering,
+keeps all six transverse metric columns and lower-order epsilon response open,
+and requires symplectic, Krein and complex/path-integral fences.
+
+## K77 metric-transverse augmented-torsion block v0.85 gate
+
+`selected_k77_metric_transverse_augmented_torsion_block_audit.py` requires
+the source-owned `delta_gT=-L_qh` principal block, exact Levi-Civita rank nine,
+its unique kernel inside the diffeomorphism orbit, and rank-six injectivity on
+the transverse metric directions in all causal classes. It also requires the
+actual partial metric/varpi/gamma-epsilon Ward packet to remain rank four and
+unowned by the still-missing moving Shiab/Hodge/curvature/density/observation
+operator. Principal rank, full Frechet closure, pairing/Green, symplectic and
+physical claims remain separated.
+
+## K77 principal Ward/gamma-epsilon reconciliation v0.86 gate
+
+`selected_k77_principal_ward_gamma_epsilon_reconciliation_audit.py` requires
+source epsilon and conditional gamma-epsilon soldering to remain distinct. It
+requires exact direct metric/varpi torsion cancellation, the surviving
+source-variable curvature packet to have rank three in all causal classes,
+and the gamma extension to remain rank four and nonzero on the sourced kernel.
+The moving operator is narrowed, not eliminated. Full Frechet, adjoint/Green,
+Krein, symplectic/BFV and physical claims remain open.
+
+## K77 Kosmann/moving-Shiab rank-three closure v0.87 gate
+
+`selected_k77_kosmann_moving_shiab_rank3_audit.py` requires covector-matched
+causal response operators, rejection of moving Shiab as a standalone negative
+packet, and exact zero-fit closure only for the complete lower-order internal
+bivector gauge orbit. It keeps physical diffeomorphism Frechet/Green,
+primitive epsilon, Krein, symplectic and BFV descent open.
+
+## K77 physical diffeomorphism split v0.88 gate
+
+`selected_k77_physical_diffeomorphism_split_audit.py` requires the natural
+physical rank-four lift, its rank-three Kosmann/skew response and nonzero
+symmetric longitudinal complement. It preserves the degree-two Hodge sampled
+scope, records the moving observation negative control and source silence on
+the exact formula, and rejects promotion from local residual-zero naturality
+to full action Frechet, Green, symplectic, BFV, domain or Einstein recovery.
+
+## Hostile-review lens coverage and independent-adjudication gate
+
+`hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens
+census without treating a distribution as a failure. Its separate hard gate
+names any live over-determined row whose adjudication evidence still points
+only to the cluster that found it, enforcing the independent-owner rule.
+## K77 bulk-operator admission ledger v0.117
+
+`selected_k77_bulk_operator_admission_audit.py` requires the exact safe
+`(2,1,1)` source-action mixed-order grammar while refusing to promote it to an
+actual principal-symbol theorem. It keeps predecessor Hessian blocks scoped to
+their backgrounds, requires the branch/parent ports plus gauge fixing and bulk
+ghosts before `Dmax/Dmin`, and types H7/H8 as a kinematic target. It preserves
+all three action parents, P1/P2/P3, canon and public posture.
+
+## K77 branch-Hessian discriminator ledger v0.118
+
+`selected_k77_branch_hessian_discriminator_audit.py` requires the exact
+noncritical-coordinate trap, the same-inertia source-`varpi` restrictions for
+both distinct actions, and explicit retention of both branches and all three
+parents. It rejects Galois transfer as a positivity/Morse theorem and preserves
+verdicts, residue, quotients, P1/P2/P3, canon and public posture.
+
+## K77 two-branch action-block port ledger v0.119
+
+`selected_k77_two_branch_action_block_port_audit.py` requires both exact
+branches to retain the already-owned rank-91 first-action epsilon/Cl1 cross,
+rank-1470 zero-jet low-grade `varpi` map and common selected principal Gram
+ranks `110/110/16`. It rejects principal-to-full-Frechet, selected-to-expanded-
+parent and finite-rank-to-domain promotion while preserving both actions, all
+parent scopes, residue, quotients, P1/P2/P3, canon and public posture.
+
+## K77 wedge-Shiab/southeast completion ledger v0.173
+
+`wedge_shiab_southeast_completion_audit.py` requires the real-K77 positive
+reciprocal relations, zero spatial Jordan ranks, the semisimple `960/960` null
+split, planted K95-sign failure, and explicit weight/reality/parent fences. It
+rejects any ledger-verdict, datum, quotient, canon or public-posture promotion.
+
+## K77 action-adjoint and weight classification ledger v0.174
+
+`k77_action_adjoint_weight_classification_audit.py` requires both exact
+nondegenerate pairing-parity lines, Grassmann alternation on all 14 axes over
+two finite fields, the zero-rank weight equation and the one-dimensional
+chiral-isometry invariant. It rejects promotion from a local real bilinear to
+an anti-linear reality involution, global closed domain, ledger verdict,
+datum, quotient, canon or public posture.
+
+## K77 independent-dual weight trivialization ledger v0.175
+
+`k77_independent_dual_weight_trivialization_audit.py` requires zero weight
+invariants on the source-native four-field left/right orbit, preservation of
+both unit cross-degree blocks, even connection and gauge/Noether transport,
+rank-640 transported observation and the conditional survival of `p` only on
+a later reality-congruent branch. It rejects function-valued, quantum-measure,
+global-domain, verdict, datum, residue, quotient, canon and posture promotion.
+
+## K77 Majorana reality / graded-domain scope ledger v0.176
+
+`k77_majorana_reality_graded_domain_scope_audit.py` requires local real-K77
+conjugation, both exact action-pairing horns, rejection of the even symmetric-
+graph theorem as an odd-domain certificate, and an explicitly open graded
+Green/global domain. It rejects verdict, datum, residue, quotient, canon and
+posture promotion.
+
+## K77 graded Green reality graphs ledger v0.177
+
+`k77_graded_green_reality_graphs_audit.py` requires both complete action
+pairing horns to define exact noncharacteristic graded Lagrangian fixed loci,
+four firing plants, tensorial Spin-natural overlap and explicit separation of
+the pointwise graph from full moving mixed, null-characteristic and closed
+analytic domains. It rejects horn/`p`, verdict, datum, residue, quotient,
+canon and posture promotion.
+
+## K77 observed Cauchy-domain Layer-0 ledger v0.178
+
+`k77_observed_cauchy_domain_layer0_audit.py` requires the exact separation of
+Majorana reality, complete Cauchy data and spatial incoming modes, the local
+flat observed real symmetric-hyperbolic theorem, Dirichlet moving-mixed
+compatibility and explicit ambient/null/global fences. It rejects spatial-
+boundary, horn/`p`, verdict, datum, residue, quotient, canon and posture
+promotion.
+
+## K77 energy/Green boundary-horn composition ledger v0.179
+
+`k77_energy_green_boundary_horn_composition_audit.py` requires exact rank-960
+incoming/outgoing halves, full-rank one-sided independent-dual restrictions,
+zero doubled-Majorana graded Green restrictions for both complete horns over
+two primes, and the hostile Layer-0 reversal. It rejects horn/`p`, variable or
+global domain, projector-ownership, datum, residue, quotient, canon or posture
+promotion.
+
+## K77 variable incoming-projector descent ledger v0.180
+
+`k77_variable_incoming_projector_descent_audit.py` requires the exact action
+polynomial projector, rank-960 half, associated-bundle and connection
+transport, negative flux, both transported doubled-Majorana horns, and the
+boundary-geometry member-selection fence. It rejects global-in-time,
+constraint/BV, physical-cohomology, horn/`p`, datum, residue, quotient, canon
+or posture promotion.
+
+## K77 boundary BRST / observation / carrier closure ledger v0.181
+
+`k77_boundary_bv_observation_cohomology_audit.py` requires local
+ordinary-gauge BRST covariance of the moving incoming relation, three-patch
+observation naturality, two-prime full-carrier non-invariance of `W`, mirror
+and their union, and the shared conditional `H640=512+128` action closure. It
+requires the old-one-form-640 and source-selection fences and rejects full
+BV/Koszul–Tate, global analytic, null BFV, index/count, datum, residue,
+quotient, canon or posture promotion.
+
+## K77 zero-seed H640 action-closure controls ledger v0.182
+
+`k77_zero_seed_h640_action_closure_controls_audit.py` requires the exact `QQ`
+zero-seed `H640=512+128`, two-prime W/mirror/random/640/832 controls, and the
+distinct-H1280 intersection/sum relation. It rejects promotion from a minimal
+principal-action module to source selection, full BV/Koszul--Tate cohomology,
+BFV reduction, global domain, datum, residue, quotient, canon or posture.
+
+## K77 H640 observation graph / BV typing ledger v0.183
+
+`k77_h640_observation_pullback_bv_typing_audit.py` requires the exact
+rank-640-versus-rank-640 Layer-0 distinction, rank-512 intersection, rank-768
+join, rank-128 graph correction, observation isomorphism and principal
+no-leakage. It records finite lower-order rank-128/rank-256 leakage, the
+rank-1,280 barred/unbarred graph carrier, rank-2,560 formal non-ghost BV
+carrier and rank-640 restricted K77 pairing. It rejects complete lower-order
+graph/Riccati, BV/KT, global domain, physical cohomology, datum, residue,
+quotient, canon or posture promotion.
+
+## K77 H640 ambient/observed Riccati boundary ledger v0.184
+
+`k77_h640_ambient_observed_riccati_boundary_audit.py` requires the exact
+two-prime separation between observed H640 closure and unrestricted Y14
+closure: zero leakage on three observed evolutions, rank-128 leakage on each
+of ten transverse directions, rank-768 single joins, full rank-1,920 hull,
+and zero ordinary pullback for transverse covectors. It retains both
+symplectic pairing horns while rejecting alternation as a substitute for
+no-leakage, and routes the vertical adapter before complete Riccati/BV work.
+
+## K77 vertical soldering adapter order gate ledger v0.185
+
+```bash
+python3 process_gates/k77_vertical_soldering_adapter_order_gate_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies the
+rank-ten algebraic chain's zero principal response against ten rank-128
+targets, checks the fixed-scale span and first-order firing plant, preserves
+both pairing horns without selection, and routes the existing selected-action
+observation/soldering first jet through the K77 fermion/H640 symbol before
+lower-order sixteen-cell Riccati/BV work.
+
+## K77 first-jet fermion-symbol port gate ledger v0.186
+
+Gate: `k77_first_jet_fermion_symbol_port_gate_audit.py`.
+
+```bash
+python3 process_gates/k77_first_jet_fermion_symbol_port_gate_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, requires the raw
+observation shear's nonorthogonality and Levi-Civita's fermion-zero-order
+typing, then verifies exact co-moving Spin/Clifford graph closure with gamma
+and symbol covariance over both fields. It routes the canonical action-owned
+section-jet to `epsilon_IG` map before all-40 and lower-order BV/KT work.
+
+## K77 canonical section-jet Cartan/Spin gate ledger v0.187
+
+Gate: `k77_canonical_section_jet_cartan_spin_prolongation_audit.py`.
+
+```bash
+python3 process_gates/k77_canonical_section_jet_cartan_spin_prolongation_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies the
+40-dimensional pure mixed Cartan lift, 18/22 rotation/boost split, actual
+rank-four section jet, both pairing types and inherited full-1,920/H640
+control, and fences the local first-order observation-plane component from
+the nonlinear global `epsilon_IG` flag and lower-order BV/KT.
+
+## K77 finite section projector / atlas-descent gate ledger v0.188
+
+Gate: `k77_finite_section_projector_atlas_descent_audit.py`.
+
+```bash
+python3 process_gates/k77_finite_section_projector_atlas_descent_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies the
+rank-four eta-self-adjoint graph projector, exact block/mixed fractional atlas
+descent, all-forty tangent recovery, null Gram boundary and four planted
+failures, and fences the canonical projector/coset reduction from a preferred
+global O/Spin frame and the complete action-owned `epsilon_IG` flag.
+
+## K77 action/stabilizer connection reconciliation gate ledger v0.189
+
+Gate: `k77_action_stabilizer_connection_flag_reconciliation_audit.py`.
+
+```bash
+python3 process_gates/k77_action_stabilizer_connection_flag_reconciliation_audit.py
+```
+
+Strictly parses the append-only ledger and result registry, verifies exact
+three-patch stabilizer-cocycle descent, the affine reduced connection,
+tensorial second fundamental form, frame-free `A^P=A+[P,nabla P]`, all firing
+plants and the retained global `gamma_epsilon` prior art. It fences the K77
+connection theorem from arbitrary full-unitary `varpi`, residual complex-
+Cartan flag selection and physical BV/BFV reduction.
+
+## Live gate inventory catch-up
+
+The inventory audit also tracks these previously live but undocumented local
+gates: `k77_vertical_soldering_adapter_order_gate_audit.py`,
+`canon_docs_frontmatter_validity_audit.py`, `correction_propagation_audit.py`,
+`import_ban_audit.py`, and `retracted_claim_citation_audit.py`.
+
+## K77 action-concomitant residual-flag gate ledger v0.190
+
+Gate: `k77_action_concomitant_residual_flag_gate_audit.py`.
+
+```bash
+python3 process_gates/k77_action_concomitant_residual_flag_gate_audit.py
+```
+
+Verifies the two-dimensional Lorentz commutant, allowed projector ranks,
+vanishing commutator/polar branch, full nonzero second-fundamental scope,
+ledger migrations and current pointers. It fences the invariant-background
+result from arbitrary nonhomogeneous solutions and full-unitary projection.
+
+## Source-claim kill-target gate
+
+Gate: `kill_target_claim_audit.py`.
+
+```bash
+python3 process_gates/kill_target_claim_audit.py
+python3 process_gates/kill_target_claim_audit.py --self-test
+```
+
+Fails closed when a new kill/no-go-bearing exploration omits a registered
+source-claim target or the audited `NONE-NOT-A-KILL` escape hatch.
+
+## K77 split-layer commutant/action-parent gate ledger v0.191
+
+Gate: `k77_split_layer_commutant_action_parent_audit.py`.
+
+```bash
+python3 process_gates/k77_split_layer_commutant_action_parent_audit.py
+```
+
+Verifies the exact `C + C` split commutant, real-64/complex-32 half typing,
+`32+32` complexification, absence of a derived same-half real bilinear, all
+four planted scope controls, ledger migrations and unchanged residue. It
+fails closed if compatibility is promoted to action selection.
+
+## K77 moving split structure/action-selection gate ledger v0.192
+
+Gate: `k77_moving_split_structure_action_selection_audit.py`.
+
+```bash
+python3 process_gates/k77_moving_split_structure_action_selection_audit.py
+```
+
+Verifies exact reconstruction of the two nested connection-breaking tensors
+from moving `D omega` and `D J4`, the compatible/block/full locus separation,
+adapted-frame naturality, the scoped current-action nonselection result and
+unchanged residue. It fails closed on full-unitary or physical-block promotion.
+
+## K77 two-half Hermitian/Witt-rotation gate ledger v0.193
+
+Gate: `k77_two_half_hermitian_witt_rotation_audit.py`.
+
+```bash
+python3 process_gates/k77_two_half_hermitian_witt_rotation_audit.py
+```
+
+Verifies the source-sized carrier distinction, exact full and two-half
+Hermitian signatures, split-equivariant `0/0` same-half obstruction, explicit
+Witt rotation, fixed-`q` stabilizer costs, moving-`q` naturality and unchanged
+accounting. It fails closed if `q`, the action parent or a Higgs block is
+promoted to selected.
+
+## K77 tautological trace-q two-half ownership gate ledger v0.194
+
+Gate: `k77_tautological_trace_q_two_half_ownership_audit.py`.
+
+```bash
+python3 process_gates/k77_tautological_trace_q_two_half_ownership_audit.py
+```
+
+Verifies the append-only v0.194 migration, exact trace-q probe receipt, zero
+new datum and P1 cost, normal-q split stabilizer `42`, native-J anti-isometry,
+source silence on action adoption, and unchanged headline accounting. It fails
+closed if q ownership is inflated into `D_varpi H_q`, an internal reduction or
+a physical Higgs/Yukawa identification.
+
+## K77 trace-Hq connection/internal-chain gate ledger v0.195
+
+Gate: `k77_trace_hq_connection_internal_chain_audit.py`.
+
+```bash
+python3 process_gates/k77_trace_hq_connection_internal_chain_audit.py
+```
+
+Verifies that v0.195 preserves headline accounting, records exact split-spin
+compatibility dimension 42 and defect rank nine, keeps full Pati-Salam
+dimension 21 distinct from fixed-q compact dimension 18, and records the
+`v_PSB`/trace-q joint stabilizer dimension 9. It fails closed if abstract
+SM-algebra containment or the rank-nine defect is promoted into physical
+representation or Higgs recovery.
+
+## K77 moving-Hq, U(3,2), SM and Higgs-direction gate ledger v0.196
+
+Gate: `k77_moving_hq_u3_2_sm_higgs_direction_audit.py`.
+
+```bash
+python3 process_gates/k77_moving_hq_u3_2_sm_higgs_direction_audit.py
+```
+
+Verifies that v0.196 preserves headline accounting, constructs the exact
+12-dimensional special-unitary Pati-Salam intersection and actual chiral-spin
+16 hypercharges, retypes the dimension-nine fixed-q group as post-Higgs
+`SU(3)xU(1)`, and retains the 20-dimensional J family plus radial `varpi`
+action ownership as open. It fails closed on Higgs-action or datum promotion.
+
+## K77 varpi radial half-exchange gate ledger v0.197
+
+Gate: `k77_varpi_radial_half_exchange_audit.py`.
+
+```bash
+python3 process_gates/k77_varpi_radial_half_exchange_audit.py
+```
+
+Verifies the append-only five-row v0.197 migration, exact rank-one radial and
+rank-nine angular receiver decomposition, full `U(64,64)` admission with
+block-diagonal two-half rejection, moving equivariance, nonzero derivative
+carrier and zero isolated radial self-wedge. It fails closed on kinetic,
+potential, VEV, physical-chirality, Yukawa-texture, or new-datum promotion.
+
+## K77 minimal moving-doublet curvature gate ledger v0.198
+
+Gate: `k77_minimal_moving_doublet_curvature_audit.py`.
+
+```bash
+python3 process_gates/k77_minimal_moving_doublet_curvature_audit.py
+```
+
+Verifies the complete rank-four common-leg lift, exact zero algebraic
+self-curvature, nonzero soldering-kernel control, source polarity and hostile
+scope fences. It fails closed on potential, vacuum, datum or source-level
+no-go promotion.
+
+## K77 moving-Hq eddy-quartic retyping gate ledger v0.199
+
+Gate: `k77_moving_hq_eddy_quartic_retype_audit.py`.
+
+```bash
+python3 process_gates/k77_moving_hq_eddy_quartic_retype_audit.py
+```
+
+Verifies the forced fixed-`H_q` phase placement, separation of odd Higgs cells
+from even orbit compensators, unique coefficient-one `J` completion in the
+minimal two-leg family, exact quartic carrier, source polarity and hostile
+scope fences. It fails closed on physical-potential, vacuum, datum, global
+uniqueness or action-selection promotion.
+
+## K77 moving-Hq action-owner potential gate ledger v0.200
+
+Gate: `k77_hq_action_owner_potential_audit.py`.
+
+```bash
+python3 process_gates/k77_hq_action_owner_potential_audit.py
+```
+
+Verifies the exact moving-family zero of the released first action, the
+distinct conditional eddy-square potential `2(rho+r^2/3)^2`, branch and radial
+Hessian, source polarity and hostile scope fences. It fails closed on second
+action selection, background derivation, physical vacuum, photon/Yukawa/BV,
+analytic stability, datum or canon promotion.
+
+## K77 source-I2B moving-Hq stationarity gate ledger v0.201
+
+Gate: `k77_source_i2b_hq_stationarity_audit.py`.
+
+```bash
+python3 process_gates/k77_source_i2b_hq_stationarity_audit.py
+```
+
+Verifies that source claim SC-ACT-04 owns the restricted residual-square
+potential `96(rho+r^2/3)^2`, while its nonzero branch retains a nonzero
+Krein-null residual and fourteen live transverse fixed-`H_q` connection
+derivatives. It fails closed on full-stationarity, physical-vacuum,
+Goldstone/photon/Yukawa/BV/domain, datum or canon promotion.
+
+## K77 I2B real-Shiab displasion-image gate ledger v0.202
+
+Gate: `k77_i2b_real_shiab_displasion_image_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_real_shiab_displasion_image_audit.py
+```
+
+Verifies the exact complex-versus-real image split, complete grade-one
+contributor bound, 99,463-column fixed-`H_q` real bank, rank `364 -> 365`
+target exclusion, and the two-cell stationarity obstruction at nonzero
+`kappa_1`. It fails closed on moving-`H_q`, source-full-unitary, Bianchi,
+jet, vacuum, datum or canon promotion.
+
+## K77 I2B pointwise full-unitary image/covariance gate ledger v0.203
+
+Gate: `k77_i2b_full_unitary_image_covariance_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_full_unitary_image_covariance_audit.py
+```
+
+Verifies the `8256+8128=16384` exact pointwise `u(64,64)` phase basis,
+complete grade-one contributor theorem, q13/q12 `364 -> 365` target exclusion,
+block-subgroup consequence, source correction and hostile scope fences. It
+fails closed on global connections, moving derivatives, Bianchi, alternate
+Shiab, Euler/preboundary, physical reduction, datum or canon promotion.
+
+## K77 I2B real-structure intertwining-defect gate ledger v0.204
+
+Gate: `k77_i2b_real_structure_intertwining_defect_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_real_structure_intertwining_defect_audit.py
+```
+
+Verifies the exact mixed-reality ranks `170/195`, total realified defect rank
+`390`, vanishing additive-descent route, q13 fixed-output target admission and
+held-out q12 naturality failure. It fails closed on action ownership, moving
+compensator, global Euler/preboundary, physical reduction, datum or canon
+promotion.
+
+## K77 I2B compensator-naturality correction gate ledger v0.205
+
+Gate: `k77_i2b_compensator_naturality_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_compensator_naturality_audit.py
+```
+
+Verifies the exact q13-to-q12 transport of the moving field, Hodge/Phi forms,
+complete selected-Shiab bank, Hq involution, rank-170 fixed-output image and
+target. It requires direct q12 target admission, reproduces v0.204's failure
+only against the hard-coded q13 target, and fails closed on source-action
+ownership, Spin/source-epsilon identification, moving derivatives,
+Euler/preboundary, datum or canon promotion.
+
+## K77 I2B moving-Higgs principal-Hessian gate ledger v0.213
+
+Gate: `k77_i2b_moving_higgs_principal_hessian_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_moving_higgs_principal_hessian_audit.py
+```
+
+Verifies the append-only first-Green/second-Hessian correction, exact Lorentz
+rank-two four-real symbol, two live pairing-radical responses, rank-182
+full-bank control, all-eight selector failure to reach rank four, source
+`Q_B` return, carrier-parent Layer-0 fence and hostile analytic/symplectic
+scope.  It fails closed on a constructed `Q_B`, coupled contact, expanded
+parent, gauge/BFV quotient, analytic domain, physical spectrum or datum use.
+
+## K77 I2B real-primalizer phase gate ledger v0.214
+
+Gate: `k77_i2b_real_primalizer_phase_gate_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_real_primalizer_phase_gate_audit.py
+```
+
+Verifies the exact `364+14+896` grade-two tensor decomposition, current
+rank-two complex-bilinear trace, rank-four phase-even candidate, rank-two
+`P_+`/`P_-` and two-half scalar-weight controls, noncompact `U(1,1)`
+invariance failure, source return and hostile analytic/symplectic scope. It
+fails closed on source/action selection of `Q_B`, a moving fundamental
+symmetry, coupled contact, observation/gauge reduction, analytic domain,
+physical spectrum or datum use.
+
+## K77 I2B observer-time Hermitian-reduction gate ledger v0.215
+
+Gate: `k77_i2b_observer_time_hermitian_reduction_audit.py`.
+
+```bash
+python3 process_gates/k77_i2b_observer_time_hermitian_reduction_audit.py
+```
+
+Verifies that observer-time `H_u` gives exact noncompact-unitary-invariant
+Lorentz rank four on the live response while the geometry-owned vertical
+trace gives rank zero. It records the conditional three-function observer
+cost without booking it, preserves the two-half/full-parent fence, and fails
+closed on source/action selection of `u`, basicness, complete Euler/Green/
+preboundary, analytic domain, physical spectrum or datum use.

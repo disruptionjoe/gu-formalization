@@ -66,6 +66,19 @@ strong "GU forces three" reading dies twice over, with no fabricated 3 anywhere.
    `S^6`-bundle over `RP^3` -- the machinery is a theorem and the even-fiber transparency is computed, but its
    application to GU's *actual* twisted-RS boundary operator (the Dai `tau` / spectral-flow term on the real
    operator) is gated. "The spine is `RP^3`" is not that theorem.
+3. **CORRECTION SD-01 (2026-08-09): the stated reason below is the WRONG DIAGNOSIS.** `pi_!` does not fail
+   because the fibre is *non-convex*. It fails because the 10-dimensional fibre is **NON-COMPACT**, so fibre
+   integration needs compact vertical supports -- already recorded at
+   `explorations/generation-count-cl95-dirac-derham-2026-06-22.md:314` and
+   `explorations/five-lens-analytic-council-2026-08-08.md:87`. Convexity governs contractibility and
+   averaging, not the existence of an integration map. Worse, **the more serious obstruction is neither**:
+   the principal symbol `sigma(D_GU)(xi)^2 = g_Y(xi,xi) Id` degenerates on the null cone, so the operator is
+   **non-elliptic** -- and (9,5) is **ultrahyperbolic**, not merely indefinite. Probable provenance: the same
+   Riemannian-import as D8 (`explorations/canon-met-x4-contractibility-type-defect-2026-08-09.md`). The
+   VERDICT (`NOT_DEFINED`) is UNCHANGED; only the diagnosis is corrected. See also
+   `explorations/swing-pi-pushforward-compact-core-closed-2026-08-09.md` (the compact-core route is closed on
+   a degree argument and would be 3-free anyway).
+
 3. **The families pushforward** `pi_! : ch(S)/Y14 -> ch(S_X)/X4` is NOT DEFINED (the fiber `GL(4,R)/O(3,1)`
    is non-convex), so `ch2(S_X)[K3] = -5376` is a bulk characteristic number, not yet THE families index.
 4. **`order-3-class -> integer-3`** is a theorem of nothing (APS / Dai-Freed / Bismut-Cheeger relate boundary

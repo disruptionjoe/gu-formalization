@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-11",
+  "run_id": "RUN-20260811-224726-gu-k77-vertical-soldering-adapter-order-gate",
+  "status": "SCOPED_DIFFERENTIAL_ORDER_RESULT",
+  "checks": {
+    "total": 44,
+    "failures": 0,
+    "planted": 2,
+    "two_prime_exact": true
+  },
+  "order_gate": {
+    "h640_rank": 640,
+    "ambient_control_rank": 1920,
+    "sigma_epsilon_rank": 10,
+    "transverse_principal_residual_count": 10,
+    "transverse_principal_residual_rank_each": 128,
+    "principal_response_rank_of_algebraic_chain": 0,
+    "representative_zero_order_adapter_coordinate_rank": 10,
+    "principal_target_coordinate_rank": 10,
+    "representative_joint_coordinate_rank": 20,
+    "representative_targets_in_zero_order_span": 0,
+    "first_order_plant_closure_rank": 0
+  },
+  "pairing": {
+    "horns": 2,
+    "tested_vertical_basis_terms_per_horn": 10,
+    "alternating_terms_per_horn": 10,
+    "horn_selected": false
+  },
+  "source_return": "SOURCE_CONFIRMS_DISPLACED_CONNECTION_AND_CONNECTION_BEARING_FERMION_GRAMMAR__SOURCE_CORRECTS_Q_EQUALS_HIGGS__SOURCE_SILENT_ON_SIGMA_EPSILON_H640_AND_A_PRINCIPAL_OBSERVATION_SOLDERING_ADAPTER",
+  "hostile_verdict": "SURVIVES_SCOPED__ALGEBRAIC_CHAIN_ZERO_PRINCIPAL_RESPONSE__LOWER_ORDER_HIGGS_CHAIN_SURVIVES__EXISTING_BOSONIC_FIRST_JET_FERMION_PORT_OPEN",
+  "disposition": "NAMED_TOMEGA_TO_SIGMA_EPSILON_TO_GAMMA_HOMEGA_CHAIN_IS_ZERO_ORDER_AND_CANNOT_CHANGE_ANY_OF_TEN_RANK128_PRINCIPAL_GRAPH_RESIDUALS__LOWER_ORDER_HIGGS_YUKAWA_ROUTE_SURVIVES__EXISTING_SELECTED_ACTION_FIRST_JET_FERMION_H640_PORT_OPEN",
+  "next_gate": "PORT_OR_KILL_THE_EXISTING_SELECTED_ACTION_FIRST_JET_OBSERVATION_EQUATION_DUAL_AND_LEVI_CIVITA_SOLDERING_CHAIN_ON_THE_K77_FERMION_H640_SYMBOL__ONLY_IF_ILL_TYPED_CONSTRUCT_A_FERMIONIC_EPSILON_IG_PROLONGATION__THEN_RETEST_TEN_RESIDUALS_BOTH_HORNS_FULL1920",
+  "accounting": {
+    "P1_P2_P3_used": false,
+    "verdict_change": false,
+    "booked_residue_change": false,
+    "quotient_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  }
+}

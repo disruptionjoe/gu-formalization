@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "SOURCE_OWNED_FULL_REDUCTION_QUOTIENT_BASIC__HORIZONTAL_PLANE_FORGETFUL_QUOTIENT_FAILS__OBSERVATION_EULER_OPEN",
+  "source_return": "SOURCE-CORRECTS__FULL_LABELLED_CLIFFORD_REDUCTION_ALREADY_OWNED_BY_SOURCE_EPSILON__SOURCE-SILENT__OBSERVATION_SECTION_AND_PHYSICAL_EULER_DESCENT",
+  "predecessors": [
+    "lab/process/selected-k77-source-graph-basicness.json",
+    "lab/process/k77-global-chimeric-spin-reduction-and-support-normalization.json"
+  ],
+  "layer0": {
+    "source_epsilon_vs_gamma_epsilon": "DISTINCT_DEPENDENT_OBJECTS",
+    "full_labelled_reduction_vs_horizontal_plane": "DISTINCT_FORGETFUL_MAP",
+    "full_reduction_vs_observation_section": "DISTINCT__OBSERVATION_OPEN",
+    "configuration_basicness_vs_symplectic_descent": "DISTINCT__SYMPLECTIC_OPEN"
+  },
+  "exact_result": {
+    "clifford_algebra": "Cl(7,7)=M128(R)",
+    "full_reduction_stabilizer": "U(1)_CENTER",
+    "stabilizer_adjoint_action": "TRIVIAL",
+    "full_reduction_pair_basic": true,
+    "horizontal_plane_forgetful_quotient_basic": false,
+    "forgetful_normal_stabilizer_defect": {"rank": 4, "nonzero_entries": 80},
+    "block_invariant_hom_dimension": 3,
+    "invariant_target_span_with_actual_target_rank": 4,
+    "invariant_replacement_reproducing_targets": false,
+    "spencer_inverse_unique_on_tested_families": true
+  },
+  "constraint_surplus": {
+    "new_fields": 0,
+    "new_clifford_frame_coefficients": 0,
+    "pointwise_fitted_freedom": 0,
+    "transport_identities_counted": 0,
+    "residue_change": 0,
+    "quotient_count_change": 0
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "next_gate": "TOTAL_RAW_UPSILON_BIANCHI_NATURALITY_AND_NULL_SCREEN_ON_FULL_REDUCTION__THEN_OBSERVATION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "rerun": "38/38 PASS"
+}

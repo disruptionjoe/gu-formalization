@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-174351-gu-i2b-observer-associated-basicness",
+  "objective": "Classify whether the v0.215 observer-Hermitian pairing is frame-natural, basic after forgetting the observer, selected by current observation data, dynamically owned, or external.",
+  "predecessor": "lab/process/selected-k77-i2b-observer-time-hermitian-reduction.json",
+  "checks": {
+    "exact": 40,
+    "planted": 2,
+    "failures": 0,
+    "live_pairings_covered": 256,
+    "live_clifford_masks": 8
+  },
+  "exact_results": {
+    "diagonal_spin_frame_naturality": "EXACT",
+    "coarse_observation_projector_selects_unit_time": false,
+    "vertical_basicness_after_forgetting_u": false,
+    "coarse_observation_stabilizer_fixed_vector_dimension": 0,
+    "complete_epsilon_IG_composite_ownership": "OPEN",
+    "source_action_dynamic_ownership": "OPEN",
+    "external_datum": "FALLBACK_NOT_ADOPTED"
+  },
+  "typing_corrections": {
+    "hermitian_adjoint": "H_U_INVERSE_A_DAGGER_H_U",
+    "adapted_lorentz_axes": [0, 7, 8, 9],
+    "carrier_halves": "C32_32_PLUS_C32_32__NOT_TWO_CONNECTIONS",
+    "unitary_groups": "DERIVED_U32_32_X_U32_32_DISTINCT_FROM_FULL_U64_64"
+  },
+  "data_accounting": {
+    "adopted_new_datum": false,
+    "booked_residue_change": false,
+    "conditional_function_valued_cost_before_equations": 3,
+    "p1_p2_p3": "UNCHANGED_AND_UNUSED"
+  },
+  "source_return": "SOURCE_CONFIRMS_RICH_OBSERVATION_AND_TWO_HALF_PARENT_GRAMMAR__SOURCE_SILENT_UNIT_TIME_SELECTION_BASICNESS_AND_U_EULER__REPO_DERIVES_ASSOCIATED_NATURALITY_AND_COARSE_NONSELECTION",
+  "hostile_verdict": "CANDIDATE_SURVIVES_SCOPED__ASSOCIATED_SPIN_NATURALITY_EXACT__COARSE_OBSERVATION_AND_OBSERVER_FORGETTING_DO_NOT_SELECT_U__FULL_EPSILON_AND_DYNAMIC_HORNS_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "CONSTRUCT_MINIMAL_RICHER_EPSILON_IG_SO3_FLAG_AND_DERIVE_CONSTRAINED_U_EULER_WARD__RETAIN_COUPLED_CONTACT_PARENT"
+}

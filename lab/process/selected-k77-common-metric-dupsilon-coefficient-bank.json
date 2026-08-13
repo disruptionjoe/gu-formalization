@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "COMMON_DG_BANK_EXACT__PHYSICAL_WARD_ORBIT_DIFFERS_FROM_DIAGNOSTIC__FULL_DEPSILON_DIFFEO_TRANSPORT_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "DG_COMMON_RESIDUAL_BANK_RANK20__TRANSVERSE_RANK6__TORSION_GRAPH_ZERO__THREE_FIELD_WARD_DEFECT_RANK4",
+  "source_return": "SOURCE-CONFIRMS_TWO_CONNECTION_RAW_UPSILON_GRAMMAR__SOURCE-SILENT_COMMON_METRIC_BANK_AND_COMPLETE_DIFFEO_EPSILON_TRANSPORT",
+  "layer0": {
+    "fixed_varpi_metric_derivative": "D_g Upsilon with delta A=delta F_A=0 and delta T=-D_g B_LC",
+    "independent_varpi_derivative": "full raw-residual response D_varpi Upsilon including curvature and torsion terms",
+    "physical_metric_bank": "complete covariant spin-Levi-Civita first-jet image emitted on the actual all-grade residual carrier",
+    "diagnostic_metric_orbit": "the four metric-orbit values defined previously by solving J R=0; not an independently constructed D_g Upsilon",
+    "gamma_epsilon_orbit": "principal internal-gauge-orbit derivative on four soldered columns; not the full primitive D_epsilon Upsilon",
+    "ward_defect": "raw-residual common-field principal defect; not an action-Euler, presymplectic-basicness, or theory-wide no-go"
+  },
+  "metric_bank": {
+    "domain_dimension": 10,
+    "principal_directions": 4,
+    "principal_ranks": [9, 9, 9, 9],
+    "principal_supports": [12, 12, 12, 12],
+    "combined_covariant_first_jet_rank": 20,
+    "output_type": "grade-two-valued one-forms on the common all-grade residual coordinate carrier",
+    "zero_order_owner": "none in covariant nabla-h coordinates; background connection coefficients are part of the covariant derivative"
+  },
+  "causal_classes": {
+    "timelike": {"metric_symbol_rank": 9, "transverse_metric_rank": 6, "metric_orbit_rank": 3, "torsion_graph_defect_rank": 0},
+    "spacelike": {"metric_symbol_rank": 9, "transverse_metric_rank": 6, "metric_orbit_rank": 3, "torsion_graph_defect_rank": 0},
+    "null": {"metric_symbol_rank": 9, "transverse_metric_rank": 6, "metric_orbit_rank": 3, "torsion_graph_defect_rank": 0}
+  },
+  "ward_comparison": {
+    "timelike": {"source_orbit_rank": 4, "physical_metric_orbit_rank": 3, "diagnostic_metric_orbit_rank": 4, "physical_ward_defect_rank": 4, "physical_vs_diagnostic_discrepancy_rank": 4, "physical_ward_defect_supports": [14, 2, 2, 2]},
+    "spacelike": {"source_orbit_rank": 4, "physical_metric_orbit_rank": 3, "diagnostic_metric_orbit_rank": 4, "physical_ward_defect_rank": 4, "physical_vs_diagnostic_discrepancy_rank": 4, "physical_ward_defect_supports": [15, 15, 4, 4]},
+    "null": {"source_orbit_rank": 4, "physical_metric_orbit_rank": 3, "diagnostic_metric_orbit_rank": 4, "physical_ward_defect_rank": 4, "physical_vs_diagnostic_discrepancy_rank": 4, "physical_ward_defect_supports": [17, 7, 7, 17]}
+  },
+  "disposition": {
+    "metric_bank": "CLOSED_ON_COMMON_RESIDUAL_COORDINATES",
+    "g_varpi_torsion_graph": "CLOSED_EXACTLY",
+    "prior_ward_metric_completion": "REJECTED_AS_PHYSICAL_DG_OWNER",
+    "full_g_varpi_epsilon_principal_ward": "OPEN_WITH_EXACT_RANK4_DEFECT",
+    "interpretation": "the current gamma-epsilon orbit is incomplete as physical diffeomorphism transport; the metric construction itself survives"
+  },
+  "controls": {
+    "main_exact": "54/54 PASS",
+    "independent_sage": "19/19 PASS",
+    "apply_full_Dvarpi_to_minus_Dg_BLC": "REJECTED",
+    "relabel_Ward_completion_as_physical_metric_derivative": "REJECTED",
+    "promote_raw_residual_defect_to_presymplectic_or_GU_wide_no_go": "REJECTED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "remaining": [
+    "construct the complete primitive D_epsilon Upsilon and physical diffeomorphism transport, then retest common-field J R=0",
+    "extend the K_loc equation-dual and Green identity to the common g-varpi-epsilon bank only after J R=0 closes",
+    "derive a geometrically owned field-space Riesz map or retain covector-valued adjoint language"
+  ],
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "OPERATIVE_CONDITIONAL_PARENT",
+    "weyl_block_product": "TWO_U32_32_HALVES_REMAIN_DISTINCT_RIVAL",
+    "full_u6464": "COMPARATOR_REMAINS_DISTINCT_RIVAL"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_common_metric_dupsilon_coefficient_bank_probe.py",
+    "tests/channel-swings/selected_k77_common_metric_dupsilon_coefficient_bank_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-common-metric-dupsilon-coefficient-bank-review.md",
+  "next_gate": "CONSTRUCT_COMPLETE_PRIMITIVE_DEPSILON_AND_PHYSICAL_DIFFEO_TRANSPORT__RETEST_COMMON_JR_ZERO__THEN_EXTEND_KLOC_FORMAL_ADJOINT_GREEN"
+}

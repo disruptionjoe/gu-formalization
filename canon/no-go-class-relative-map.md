@@ -307,6 +307,37 @@ The condition GU satisfies instead of DG-A6 is:
 > 1. **(GC-FC1) No analytic RS index.** ind_H(D_RS) = 8 has no first-principles analytic index derivation surviving (all known routes FAILED/OPEN; current support is kinematic only). FIRING.
 > 2. **(GC-FC2) OQ-RK1 open.** The Rarita-Schwinger rank rank_H(S_RS^+) = 4 is not derived from first principles (the "half of chiral = 4" final halving is an unjustified heuristic per CORRECTION GEN-01). FIRING.
 > 3. **(GC-FC3) OQ-RK2 open.** The APS boundary conditions for the constrained RS operator on the compact K3 factor are not established, and the standard vector-spinor-minus-trace operator gives ind_H = −144 (not +8) on the file's own computation. FIRING.
+>
+> 3b. **(GC-FC3b, added 2026-08-08) The bulk term is independently dead.** GC-FC3
+> above attacks the `+8` boundary term. The `16` is attacked separately and does
+> not survive either. The chain writes `ind_H(D_GU) = 8*A-hat(K3) + 8 = 16 + 8`,
+> whose bulk piece is the rank-times-A-hat term of the index theorem — valid only
+> when `ch_2` of the twisting bundle vanishes. It does not vanish:
+> `tests/gen_ch2_sx_from_codazzi.py` hard-asserts `ch2_normal == -1152` and the
+> certificate reports `ch2(S_X)[K3] = -5376`, decision `CH2_NONZERO_OTHER_INDEX`,
+> in its own words "genuinely nonzero, decisively NOT 24, and not reducible to 3
+> by any rank normalization". **So both terms of `16 + 8` are independently dead,
+> by two unrelated computations.** FIRING.
+>
+> **CORRECTION NGM-01 (2026-08-09).** Two defects in this file, filed at
+> `explorations/canon-met-x4-contractibility-type-defect-2026-08-09.md`.
+> **(D8)** Sec 2.3 states *"Met(X^4) is contractible (convex cone)"* -- that is the **RIEMANNIAN** fact under
+> the **LORENTZIAN** name. Sec 2.1 of this same file gives the Lorentzian fibre `GL(4,R)/O(3,1)`,
+> non-compact, homotopy `RP^3 x R^+`, which is **not** contractible. Load-bearing for the Freed-Hopkins
+> Option-B elimination (already held CONDITIONALLY_RESOLVED under FH-01, so no verdict moves) -- it supplies
+> an independent fourth reason that lane cannot close.
+> **(D9)** The Sec 2.3 CANON-5 scope tag claims Sec 2.1 *"explicitly admits X^4 = CP2"*; Sec 2.1 states the
+> opposite (*"CP2 is excluded -- it is non-spin"*). Stale tag, predates W2-FC1.
+> **Also:** the `pi_!` fence below says *non-convex*; the operative obstruction is **non-compactness**, and
+> the more serious one is **non-ellipticity**. See CORRECTION SD-01 in
+> `canon/single-decider-integer-index-RESULTS.md`.
+
+> **Fence, carried from the certificate itself and load-bearing.** The families
+> pushforward `pi_! : ch(S)/Y14 -> ch(S_X)/X4` is `NOT_DEFINED` on the non-convex
+> fibre `GL(4,R)/O(3,1)`, so `ch2(S_X)[K3]` "is not yet THE index". This retires
+> the chain's arithmetic; it does **not** supply a replacement count, and nothing
+> here is a claim about the number of generations. The count stays OPEN, which is
+> also what `CANON.md` already records.
 > 4. **(GC-FC4) Non-compact base unresolved.** Y^{14} = Met(X^4) is non-compact (open Lorentzian-signature condition); standard compact index theorems do not apply, and the Fredholm/APS reduction to a compact factor is itself reconstruction-grade. FIRING.
 >
 > The count would advance toward RESOLVED only when GC-FC1–GC-FC4 all clear (an independent analytic derivation of ind_H(D_RS), closing OQ-RK1 and OQ-RK2, on the actual non-compact base). Until then: **OPEN, reconstruction-grade target.**

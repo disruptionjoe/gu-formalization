@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "SOURCE_EULER_TWO_TO_ONE_FAMILY_EXACT__V0108_ZERO_FREEDOM_RETRACTED__LOCAL_ONE_JET_REALISABLE",
+  "ledger_version": "0.109",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CORRECTS_INDEPENDENT_B_EULER_AS_NON_SOURCE_VARIATION__SOURCE_CONFIRMS_TRANSLATION_UPSILON_AND_EPSILON_CHAIN__REPO_DERIVES_LOCAL_TWO_TO_ONE_FAMILY__SOURCE_SILENT_GLOBAL_PROLONGATION_AND_AMPLITUDE_SELECTION",
+  "layer0": {
+    "source_fields": "EPSILON_VARPI_G_NOT_INDEPENDENT_B_T_G",
+    "translation": "DELTA_VARPI_EQUALS_ALPHA__DELTA_B_ZERO__DELTA_T_ALPHA",
+    "epsilon": "DELTA_B_EQUALS_D_B_ETA__DELTA_T_EQUALS_MINUS_D_B_ETA__MOVING_SHIAB_INCLUDED",
+    "reconstruction": "INDEPENDENT_B_AT_FIXED_T_NOT_A_SOURCE_FIELD_DIRECTION",
+    "invariants": "F_B_D_B_T_T_NOT_COORDINATE_B_R_S",
+    "prolongation": "UPSILON_POINT_ZERO_DISTINCT_FROM_XI_EQUALS_D_OMEGA_UPSILON_ON_NEIGHBORHOOD"
+  },
+  "exact_result": {
+    "equations": {
+      "translation": "312(f+u+t^2)+t=0",
+      "metric_volume_trace": "624(f+u/2+t^2/3)+t=0",
+      "rank": 2,
+      "determinant": -97344
+    },
+    "family": {
+      "f": "t^2/3",
+      "u": "-t/312-4t^2/3",
+      "local_amplitudes": 1,
+      "source_selects_t": false
+    },
+    "v0108_representative": {
+      "b": "1/208",
+      "t": "-1/104",
+      "r": "1/129792",
+      "s": "0",
+      "status": "EXACT_MEMBER_NOT_UNIQUE_SOURCE_VACUUM",
+      "independent_B_equation": "RECONSTRUCTION_CONDITION_NOT_SOURCE_EULER"
+    },
+    "local_geometry": {
+      "connection_and_T_one_jet": "EXACT",
+      "point_differential_bianchi": "PASS",
+      "noncommuting_constant_transition_three_patch_descent": "PASS",
+      "nonconstant_affine_connection_descent": "OPEN",
+      "open_neighborhood_formal_prolongation": "OPEN"
+    }
+  },
+  "controls": {
+    "primary": "45/45 PASS",
+    "independent_sage": "18/18 PASS",
+    "source_equations_imply_independent_B_equation": "PLANT_FIRED",
+    "alternate_coordinate_split_same_invariants": "PASS",
+    "point_to_neighborhood_promotion_rejected": true,
+    "P1_P2_P3_unused": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 2,
+    "remaining_named_conditions": 4
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none_pending_global_amplitude_ownership_reconciliation",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_PARENT_USED",
+    "two_U32_32_halves": "RETAINED_COMPARATOR",
+    "full_U64_64": "RETAINED_COMPARATOR",
+    "collapsed": false
+  },
+  "next_gate": "NONCONSTANT_THREE_PATCH_CONNECTION_DESCENT_WITH_AFFINE_TERM__WRITE_EPSILON_EULER_AND_XI_EQUALS_D_OMEGA_UPSILON_FORMAL_PROLONGATION_ON_FAMILY__TEST_OPEN_NEIGHBORHOOD_EXTENSION_AND_AMPLITUDE_SELECTION__THEN_321_VS1571_TANGENT_HESSIAN_BV"
+}

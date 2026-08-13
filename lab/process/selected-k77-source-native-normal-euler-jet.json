@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "ACTION_NORMAL_EULER_MIXED_HESSIAN_EXACT__FULL_K77_COEFFICIENT_SPECIALIZATION_OPEN",
+  "ledger": "lab/process/conditional-physics-ledger-v0.66.json",
+  "source_return": "SOURCE-CONFIRMS__PRINTED_RESIDUAL_AND_PROLONGATION__REPO-DERIVES__ACTION_NORMAL_EULER_AS_MIXED_HESSIAN__SOURCE-SILENT__COEFFICIENTWISE_FULL_K77_SPECIALIZATION",
+  "layer0": {
+    "printed_residual_jet": "D_NORMAL_UPSILON_PRINT__RIVAL",
+    "selected_action_jet": "D_NORMAL_D_FIELD_I__MIXED_ACTION_HESSIAN",
+    "dependent_ambient_jet": "FIRST_JET_OF_EXISTING_Y14_FIELD",
+    "external_datum": "NOT_USED",
+    "green_potential": "FIELD_SPACE_ONE_FORM__NOT_YET_ANTISYMMETRIZED"
+  },
+  "normal_owner_classes": [
+    "B_FIELD_JET",
+    "T_FIELD_JET",
+    "DENSITY",
+    "TARGET_KREIN_PAIRING",
+    "SHIAB_LEFT_LEG",
+    "SHIAB_RIGHT_LEG",
+    "HODGE_MASS_PAIRING"
+  ],
+  "exact_fixture": {
+    "all_connection_units": true,
+    "all_epsilon_units": true,
+    "dense_heldouts": true,
+    "seven_owners_independently_live": true,
+    "seven_owner_sum_exact": true,
+    "printed_residual_transfer_rejected": true,
+    "complete_germ_insertion_lossless": true,
+    "e_c_normal": [["36", "457/5", "50"], ["21/2", "-1/2", "263/5"], ["351/10", "406/5", "447/10"]],
+    "e_t_normal": [["109/15", "5849/105", "788/35"], ["94/7", "8467/210", "15361/210"], ["2159/35", "8833/105", "6679/105"]],
+    "e_epsilon_normal": [["-1907/105", "3623/105", "13135/42"], ["17551/210", "3859/105", "2129/14"], ["-7337/105", "-20879/70", "-1952/105"]]
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "open": {
+    "full_k77_seven_owner_coefficient_bank": true,
+    "antisymmetrized_presymplectic_current": true,
+    "basicness_and_polarization": true,
+    "physical_bfv_quotient": true,
+    "common_krein_domain": true
+  },
+  "free_object_delta": 0,
+  "p1_p2_p3": "UNCHANGED_AND_UNUSED",
+  "next_gate": "FULL_K77_SEVEN_OWNER_NORMAL_EULER_BANK__THEN_ANTISYMMETRIZE_COMPLETE_GREEN_POTENTIAL"
+}

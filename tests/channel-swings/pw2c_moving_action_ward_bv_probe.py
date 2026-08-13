@@ -272,7 +272,7 @@ def main() -> None:
     toe = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
     source_check("source owns the first action and fixed completion", "I^B_1" in pack and "\\frac12d_{B_\\omega}T_\\omega" in pack and "\\frac13[T_\\omega,T_\\omega]" in pack)
     source_check("source displays Xi but does not supply the off-shell Ward identity", "\\Xi_\\omega=D_\\omega\\Upsilon_\\omega" in pack and "Noether identity is not" in pack)
-    source_check("source owns gauge-rotated Levi-Civita language", "[02:19:17]" in toe and "gauge rotated Levy-Chevita" in toe)
+    source_check("source owns gauge-rotated Levi-Civita language", "[02:19:17]" in toe and "gauge rotated Levi-Civita" in toe)
     source_check("source owns trace reversal while the complete native coefficient is repository work", "00:26:28" in toe and any("complete native" in item for item in data["source_disposition"]["SOURCE_SILENT_REPOSITORY_DERIVED"]))
 
     reject("spend external datum on Ward/BV/domain repair", data["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED")

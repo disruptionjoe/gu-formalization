@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "status": "RATIFIED_PLANNING_DECISION",
+  "ratified_at": "2026-08-07",
+  "ratified_by": "Joe direct chat",
+  "scientific_evidence": false,
+  "method_scope": "MODELED_INLINE_SPECIALIST_PREFERENCE_AGGREGATION__NOT_INDEPENDENT_HUMAN_OR_STATISTICAL_EVIDENCE",
+  "ledger_accounting": {
+    "ledger": "lab/process/conditional-physics-ledger-v0.55.json",
+    "immutable_row_records": 84,
+    "active_canonical_targets": 82,
+    "historical_superseded_records": [
+      {
+        "row": "LT-GR2",
+        "successors": ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
+      },
+      {
+        "row": "AC-G1",
+        "successors": ["AC-G1a"]
+      }
+    ],
+    "active_verdict_counts": {
+      "SAME": 32,
+      "DIFFERS": 19,
+      "NEEDS": 26,
+      "OVER_DETERMINED": 5
+    },
+    "all_record_verdict_counts_for_history_only": {
+      "SAME": 33,
+      "DIFFERS": 19,
+      "NEEDS": 26,
+      "OVER_DETERMINED": 6
+    },
+    "rule": "ACTIVE_METER_EXCLUDES_EXACTLY_THE_TWO_TYPED_HISTORICAL_PREDECESSORS__LEDGER_V055_REMAINS_IMMUTABLE"
+  },
+  "candidates": {
+    "A": "REPAIR_AND_TYPE_LEDGER_DENOMINATOR_ACCOUNTING",
+    "B": "RECONSTRUCT_SOURCE_NATIVE_VARPI_SOLDERING_OBSERVATION_TANGENT",
+    "C": "EXACT_FOUR_COLUMN_KOSZUL_MATCH_AND_FREEDOM_COUNT",
+    "D": "SPENCER_JET_INTEGRABILITY_AND_GLOBAL_OVERLAP_DESCENT",
+    "E": "EULER_PREBOUNDARY_BV_AND_SYMPLECTIC_DESCENT",
+    "F": "D2_CHIRALITY_INDEX_SURVIVOR_ADJUDICATION",
+    "G": "ACTION_SELECTED_VACUUM_STABILIZER_ORBIT",
+    "H": "MASSLESS_CONSTRAINT_HYPERBOLICITY_COMPLEX",
+    "I": "DYNAMICAL_COSMOLOGY_NORMALIZED_FUNCTIONAL_ROUTE",
+    "J": "P1_P2_P3_EXTERNAL_DATUM_INTERFACE",
+    "K": "FRAMED_STRING_THREE_PRIMARY_ANOMALY_COUNT_BRIDGE",
+    "L": "TARGETED_CROSS_THEORY_CONTROLS"
+  },
+  "voting_rule": {
+    "pairwise": "CONDORCET_WITH_ABSTENTION_ON_EVERY_CONTEST_INVOLVING_THE_LENS_OWN_CANDIDATE",
+    "ballot_count": 25,
+    "ranked_candidates_per_ballot": 11,
+    "tie_break": "REPORT_CYCLES__USE_TYPED_DEPENDENCY_FOR_EXECUTION_ORDER__DO_NOT_FORCE_LINEAR_SOCIAL_RANK"
+  },
+  "ballots": [
+    {"persona":"representation_theory","family":"algebra_geometry_topology","own":"C","ranking":"BGFDEJHKALI","own_idea_confidence":0.94},
+    {"persona":"index_theory","family":"algebra_geometry_topology","own":"F","ranking":"JKBCEGDHAIL","own_idea_confidence":0.91},
+    {"persona":"anomaly_bordism","family":"algebra_geometry_topology","own":"K","ranking":"JFBGEDHACIL","own_idea_confidence":0.89},
+    {"persona":"differential_symplectic_geometry","family":"algebra_geometry_topology","own":"D","ranking":"EBCGHJAFIKL","own_idea_confidence":0.97},
+    {"persona":"higher_derivative_gravity","family":"field_theory_phenomenology","own":"E","ranking":"IBCHDGJAFKL","own_idea_confidence":0.93},
+    {"persona":"effective_field_theory","family":"field_theory_phenomenology","own":"C","ranking":"JGEBIHDAFKL","own_idea_confidence":0.96},
+    {"persona":"discretization_skeptic","family":"operator_pde","own":"D","ranking":"ECHBAGJFIKL","own_idea_confidence":0.82},
+    {"persona":"phenomenology","family":"field_theory_phenomenology","own":"I","ranking":"GECBFJHKADL","own_idea_confidence":0.84},
+    {"persona":"neutrino_seesaw","family":"field_theory_phenomenology","own":"F","ranking":"GKBCEJLIHDA","own_idea_confidence":0.78},
+    {"persona":"scale_conformal","family":"field_theory_phenomenology","own":"I","ranking":"GEJCBHDAFKL","own_idea_confidence":0.94},
+    {"persona":"supersymmetry","family":"field_theory_phenomenology","own":"L","ranking":"BFGCDEJHKAI","own_idea_confidence":0.71},
+    {"persona":"string_compactification","family":"algebra_geometry_topology","own":"K","ranking":"DFBJGECHLAI","own_idea_confidence":0.81},
+    {"persona":"connes_ncg","family":"field_theory_phenomenology","own":"L","ranking":"BEFGCDJHAKI","own_idea_confidence":0.68},
+    {"persona":"krein_operator","family":"operator_pde","own":"H","ranking":"EDBCFGJAKLI","own_idea_confidence":0.97},
+    {"persona":"layer0","family":"source_semantics","own":"B","ranking":"ACDEJFGHKLI","own_idea_confidence":0.99},
+    {"persona":"multiplicity_count","family":"adversarial_verification","own":"J","ranking":"ACBFKGEDHIL","own_idea_confidence":0.99},
+    {"persona":"scope_audit","family":"adversarial_verification","own":"A","ranking":"BEDCJFGHKIL","own_idea_confidence":0.99},
+    {"persona":"stale_premise_audit","family":"source_semantics","own":"A","ranking":"BFCGDEJKHLI","own_idea_confidence":0.95},
+    {"persona":"fork_audit","family":"source_semantics","own":"B","ranking":"CDEAFGJHKLI","own_idea_confidence":0.97},
+    {"persona":"negative_control","family":"adversarial_verification","own":"C","ranking":"DEBAFHGJKLI","own_idea_confidence":0.93},
+    {"persona":"definition_archaeology","family":"source_semantics","own":"B","ranking":"AFCDEGJKHLI","own_idea_confidence":0.98},
+    {"persona":"adversary_wrong","family":"adversarial_verification","own":"D","ranking":"BECAFGHJKIL","own_idea_confidence":0.91},
+    {"persona":"adversary_underclaim","family":"adversarial_verification","own":"C","ranking":"BDEGFJHAKLI","own_idea_confidence":0.98},
+    {"persona":"source_fidelity","family":"source_semantics","own":"B","ranking":"ACDEFGJKHLI","own_idea_confidence":0.99},
+    {"persona":"cross_theory_donor","family":"comparative_donor","own":"L","ranking":"DBECKFGHJAI","own_idea_confidence":0.86}
+  ],
+  "condorcet": {
+    "winner": "B",
+    "winner_record": {"wins":11,"losses":0,"ties":0},
+    "winner_key_margins": {"A":"18-1","C":"13-4","D":"14-4","E":"13-7","F":"17-2","G":"17-4","H":"19-1","I":"18-1","J":"16-4","K":"17-2","L":"18-0"},
+    "copeland_records": {
+      "B":"11-0","C":"9-2","E":"9-2","D":"8-2-1","G":"6-4-1","F":"6-5","J":"5-6","A":"4-7","H":"4-7","K":"2-9","L":"1-10","I":"0-11"
+    },
+    "second_tier_cycle": ["E_BEATS_C_11_9","D_BEATS_E_11_10","C_BEATS_D_13_5"],
+    "dependency_resolution": ["B","C_PLUS_D_JOINT_GATE","E"]
+  },
+  "side_opportunity_condorcet": {
+    "candidate_set": ["F","G","H","I","J","K","L"],
+    "winner": "F",
+    "winner_record": "6-0",
+    "order": ["F","G","J","H","K","L","I"]
+  },
+  "social_distance": {
+    "method": "TOP_THREE_ENDORSEMENTS__SIX_FAMILIES__EFFECTIVE_DIVERSITY_INVERSE_HERFINDAHL",
+    "results": [
+      {"candidate":"B","endorsements":17,"families":6,"effective_diversity":4.19},
+      {"candidate":"E","endorsements":13,"families":6,"effective_diversity":4.33},
+      {"candidate":"C","endorsements":11,"families":5,"effective_diversity":3.46},
+      {"candidate":"D","endorsements":9,"families":5,"effective_diversity":3.86},
+      {"candidate":"F","endorsements":7,"families":3,"effective_diversity":2.88},
+      {"candidate":"G","endorsements":6,"families":2,"effective_diversity":1.38},
+      {"candidate":"J","endorsements":4,"families":2,"effective_diversity":2.0},
+      {"candidate":"A","endorsements":4,"families":2,"effective_diversity":1.6},
+      {"candidate":"K","endorsements":2,"families":2,"effective_diversity":2.0},
+      {"candidate":"H","endorsements":1,"families":1,"effective_diversity":1.0},
+      {"candidate":"I","endorsements":1,"families":1,"effective_diversity":1.0},
+      {"candidate":"L","endorsements":0,"families":0,"effective_diversity":0.0}
+    ]
+  },
+  "accepted_sequence": {
+    "housekeeping": "TYPE_84_RECORDS_VS_82_ACTIVE_TARGETS_WITHOUT_MUTATING_LEDGER_V055",
+    "main": [
+      "B_SOURCE_NATIVE_TANGENT",
+      "C_PLUS_D_FOUR_COLUMN_MATCH_FREEDOM_COUNT_INTEGRABILITY_AND_OVERLAP",
+      "E_EULER_PREBOUNDARY_WARD_BIANCHI_BV_SYMPLECTIC_DESCENT"
+    ],
+    "disjoint_side": "F_D2_SOURCE_LOCUS_INDEX_SURVIVOR_ADJUDICATION",
+    "breadth_checkpoint_after_main": ["G_VACUUM_STABILIZER","J_EXTERNAL_DATUM_INTERFACE","H_MASSLESS_CONSTRAINT_COMPLEX"]
+  },
+  "gates": {
+    "generic_carrier_search": "CLOSED__DO_NOT_REPEAT",
+    "source_native_tangent": "OPEN_PRIMARY",
+    "four_column_match": "BLOCKED_ON_SOURCE_NATIVE_TANGENT",
+    "integrability_global_descent": "BLOCKED_ON_CANDIDATE_TANGENT",
+    "euler_symplectic_descent": "BLOCKED_ON_LAWFUL_SURVIVING_TANGENT",
+    "d2_side_gate": "ELIGIBLE_WHEN_DISJOINT"
+  },
+  "non_effects": [
+    "NO_SCIENTIFIC_VERDICT_CHANGE",
+    "NO_RESIDUE_CHANGE",
+    "NO_QUOTIENT_CHANGE",
+    "NO_P1_P2_P3_CHANGE",
+    "NO_SOURCE_DISPOSITION_CHANGE",
+    "NO_CANON_VERDICT_CHANGE",
+    "NO_LANE_COUNT_CHANGE",
+    "NO_THIRD_LANE",
+    "NO_PREDICTION_CHANGE",
+    "NO_PUBLIC_POSTURE_CHANGE"
+  ]
+}

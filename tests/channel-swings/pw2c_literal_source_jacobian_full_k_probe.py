@@ -333,7 +333,7 @@ def main() -> None:
     toe = (ROOT / "lab/sources/transcripts/toe-weinstein-gu-40-years.md").read_text()
     source_check("source owns epsilon-varpi and homogeneous distortion", "T_\\omega=\\varpi-\\epsilon^{-1}d_0\\epsilon" in pack)
     source_check("source owns the fixed transgression grammar", "\\frac12d_{B_\\omega}T_\\omega" in pack and "\\frac13[T_\\omega,T_\\omega]" in pack)
-    source_check("source owns gauge-rotated Levi-Civita language", "[02:19:17]" in toe and "gauge rotated Levy-Chevita" in toe)
+    source_check("source owns gauge-rotated Levi-Civita language", "[02:19:17]" in toe and "gauge rotated Levi-Civita" in toe)
     source_check("source owns trace reversal but not the exact active real-form bridge", "00:26:28" in toe and any("public-to-active" in item for item in data["source_disposition"]["SOURCE_SILENT_REPOSITORY_DERIVED"]))
 
     reject("spend external datum on the differential source inverse", data["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED")

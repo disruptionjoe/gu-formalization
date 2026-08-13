@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""Gate the append-only conditional physics ledger update to v0.234."""
+
+from __future__ import annotations
+
+from collections import Counter
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[2]
+OLD_PATH = ROOT / "lab/process/conditional-physics-ledger-v0.233.json"
+NEW_PATH = ROOT / "lab/process/conditional-physics-ledger-v0.234.json"
+COUNTS: Counter[str] = Counter()
+FAILURES: list[str] = []
+
+
+def check(kind: str, label: str, condition: object) -> None:
+    COUNTS[kind] += 1
+    ok = bool(condition)
+    print(f"{'PASS' if ok else 'FAIL'} [{kind}] {label}")
+    if not ok:
+        FAILURES.append(label)
+
+
+def load_unique(path: Path) -> dict:
+    def hook(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError(f"duplicate key {key!r} in {path}")
+            result[key] = value
+        return result
+    return json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=hook)
+
+
+old = load_unique(OLD_PATH)
+new = load_unique(NEW_PATH)
+old_rows = {row["id"]: row for row in old["rows"]}
+new_rows = {row["id"]: row for row in new["rows"]}
+touched = {"RA-E1", "RA-E3", "LT-SM6"}
+evidence = "selected-k77-i2b-source-action-grammar-exhaustion-2026-08-13.md"
+
+check("ledger", "schema advances exactly one append-only version",
+      old["schema_version"] == "0.233" and new["schema_version"] == "0.234"
+      and new["predecessor"].endswith("conditional-physics-ledger-v0.233.json"))
+check("ledger", "row IDs and denominator remain immutable",
+      list(old_rows) == list(new_rows) and old["denominator"] == new["denominator"])
+check("ledger", "only the three declared rows change",
+      all(old_rows[row_id] == new_rows[row_id]
+          for row_id in old_rows if row_id not in touched))
+check("ledger", "touched verdicts and reason kinds remain unchanged",
+      all((old_rows[row_id]["verdict"], old_rows[row_id]["reason_kind"])
+          == (new_rows[row_id]["verdict"], new_rows[row_id]["reason_kind"])
+          for row_id in touched))
+check("ledger", "all touched rows point to the new exact evidence",
+      all(new_rows[row_id]["evidence"] == evidence for row_id in touched))
+
+check("accounting", "headline verdict counts remain unchanged",
+      old["progress"]["verdict_counts"] == new["progress"]["verdict_counts"])
+check("accounting", "residue quotient and canonicity accounting remain unchanged",
+      old["residue"]["continuous_real"] == new["residue"]["continuous_real"]
+      and old["residue"]["function_valued_at_least"] == new["residue"]["function_valued_at_least"]
+      and old["residue"]["open_discrete_forks"] == new["residue"]["open_discrete_forks"]
+      and old["residue"]["quotients_ranked"] == new["residue"]["quotients_ranked"]
+      and old["residue"]["canonicity_distance"]["raw_coordinates"]
+      == new["residue"]["canonicity_distance"]["raw_coordinates"]
+      and old["residue"]["canonicity_distance"]["reductions"]
+      == new["residue"]["canonicity_distance"]["reductions"])
+check("frontier", "one grammar condition closes and three routes remain",
+      new["frontier_delta"] == {
+          "headline_delta": "NONE", "conditions_closed": 1,
+          "conditions_opened": 0, "remaining_named_conditions": 3})
+check("source", "source return records the exact three-family grammar and silence",
+      "SOURCE_CONFIRMS_I1B_I2B_AND_TOTAL_FERMION_RESIDUAL" in new["source_return"]
+      and "SOURCE_SILENT_ADDITIONAL_ZERO_FERMION_BOSONIC" in new["source_return"])
+
+compared = new["layer0_objects_compared"]
+check("type", "first and second actions remain distinct",
+      any("I1B versus source-owned residual-square I2B" in item for item in compared))
+check("type", "action value residual and stationarity remain distinct",
+      any("I2B action value zero versus Upsilon_B zero" in item for item in compared))
+check("type", "zero and nonzero fermion branches remain distinct",
+      any("zero-fermion current support" in item for item in compared))
+check("type", "scoped and full action exhaustion remain distinct",
+      any("selected Hq grade versus full GU action exhaustion" in item for item in compared))
+
+rank_one = new["next_work_queue"][0]["why"]
+for route in ("background-jet", "nonzero-fermion", "full-field BV"):
+    check("queue", f"rank one preserves the {route} route", route in rank_one)
+check("queue", "rank one forbids another released-term search",
+      "Do not search another released bosonic term" in rank_one)
+check("queue", "rank one forbids relative action tuning",
+      "relative I1B/I2B weight" in rank_one)
+
+check("disposition", "three scoped row dispositions are declared",
+      {item["row_id"] for item in new["wave_row_dispositions"]} == touched)
+check("migration", "three v0.233 to v0.234 migrations are append-recorded",
+      sum(item.get("from_version") == "0.233" and item.get("to_version") == "0.234"
+          for item in new["migration_history"]) == 3)
+
+required = [
+    ROOT / "explorations/conditional-build/selected-k77-i2b-source-action-grammar-exhaustion-2026-08-13.md",
+    ROOT / "lab/sources/selected-k77-i2b-source-action-grammar-exhaustion-source-return-2026-08-13.md",
+    ROOT / "lab/process/hostile-reviews/2026-08-13-selected-k77-i2b-source-action-grammar-exhaustion-review.md",
+    ROOT / "tests/channel-swings/selected_k77_i2b_source_action_grammar_exhaustion_probe.py",
+]
+check("artifact", "result source return hostile review and probe all exist",
+      all(path.exists() for path in required))
+
+check("plant", "PLANT no external datum is consumed",
+      "P1/P2/P3" in new["migration_policy"] and "do not move" in new["migration_policy"])
+check("plant", "PLANT no new quotient is booked",
+      old["residue"]["quotients_ranked"] == new["residue"]["quotients_ranked"])
+check("plant", "PLANT no full GU action no-go is claimed",
+      "full GU action remains open" in new["progress"]["coverage_scope"])
+check("plant", "PLANT carrier retyping is not forced",
+      "before carrier retyping" in new_rows["RA-E1"]["distance"])
+check("plant", "PLANT a zero relative weight is not selection",
+      "zero weight deletes I2B" in new["migration_policy"])
+
+print("CHECKS=" + " ".join(f"{kind}:{count}" for kind, count in sorted(COUNTS.items())))
+if FAILURES:
+    raise SystemExit("FAILURES: " + "; ".join(FAILURES))
+print(f"PASS {sum(COUNTS.values())}/{sum(COUNTS.values())}")

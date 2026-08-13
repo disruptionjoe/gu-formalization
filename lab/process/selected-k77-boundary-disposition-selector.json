@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "SOURCE_AND_LOCAL_ACTION_DO_NOT_SELECT_BOUNDARY_DISPOSITION__CONDITIONAL_FULL_BOUNDARY_GAUGE_PLUS_NONZERO_MOMENTUM_SELECTS_MINIMAL_EDGE_HORN",
+  "lane": "1",
+  "functional_channels": ["SOURCE", "COMPOSE", "BUILD", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS_FULL_TILTED_BULK_DOUBLE_COSET_AND_ACKNOWLEDGES_BOUNDARY_DEBT__SOURCE-SILENT_BOUNDARY_GAUGE_VS_PHYSICAL_SYMMETRY",
+  "layer0": {
+    "bulk_gauge_equivariance": "full tilted inhomogeneous gauge grammar and double-coset quotient",
+    "boundary_gauge_redundancy": "endpoint transformation lying in the characteristic kernel",
+    "charged_boundary_symmetry": "endpoint transformation with a nonzero Hamiltonian moment map",
+    "boundary_condition": "restriction on fields, momenta or gauge parameters",
+    "edge_completion": "extension of boundary field space restoring horizontality",
+    "global_bfv": "global reduced phase space, charge algebra and polarization; not constructed"
+  },
+  "exact_owners": {
+    "action_endpoint_normal_rank": 10,
+    "action_endpoint_momentum": "NONZERO_GENERIC_BANK",
+    "unrestricted_boundary_moment_map": "LIVE",
+    "minimal_edge_coefficients": {"c0": -1, "c3": 1},
+    "edge_coefficient_freedom": 0
+  },
+  "horns": {
+    "SMALL_GAUGE_DIRICHLET": {
+      "all_endpoint_transformations_are_gauge": false,
+      "generic_nonzero_action_momentum_allowed": true,
+      "status": "CONDITIONAL_UNSELECTED"
+    },
+    "ZERO_CHARGE_NEUMANN_LIKE": {
+      "all_endpoint_transformations_are_gauge": true,
+      "generic_nonzero_action_momentum_allowed": false,
+      "status": "CONDITIONAL_UNSELECTED"
+    },
+    "CHARGED_BOUNDARY_SYMMETRY": {
+      "all_endpoint_transformations_are_gauge": false,
+      "generic_nonzero_action_momentum_allowed": true,
+      "status": "LIVE_COMPARATOR"
+    },
+    "MINIMAL_EDGE_COMPLETION": {
+      "all_endpoint_transformations_are_gauge": true,
+      "generic_nonzero_action_momentum_allowed": true,
+      "status": "UNIQUE_CONDITIONAL_SURVIVOR"
+    }
+  },
+  "conditional_selector": {
+    "predicate_one": "ALL_BOUNDARY_TRANSFORMATIONS_REMAIN_GAUGE",
+    "predicate_two": "GENERIC_NONZERO_ACTION_ENDPOINT_MOMENTUM_REMAINS_ADMISSIBLE",
+    "unique_survivor": "MINIMAL_EDGE_COMPLETION",
+    "source_derived": false,
+    "action_alone_derived": false,
+    "missing_owner": "BOUNDARY_GAUGE_REDUNDANCY_VS_PHYSICAL_SYMMETRY_DISPOSITION"
+  },
+  "all_ten_cost": {
+    "unextended_phase_dimension": 40,
+    "extended_boundary_dimension": 60,
+    "characteristic_kernel_dimension": 20,
+    "reduced_symplectic_dimension": 40,
+    "new_reduced_physical_dimensions": 0,
+    "new_continuous_coefficients": 0
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_fence": {
+    "new_bulk_fields": 0,
+    "new_booked_quotients": 0,
+    "new_residue": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "OPERATIVE_CONDITIONAL_PARENT",
+    "weyl_block_product": "TWO_U32_32_HALVES_REMAIN_DISTINCT_RIVAL",
+    "full_U64_64": "COMPARATOR_NOT_COLLAPSED"
+  },
+  "controls": {
+    "main": "48/48 PASS",
+    "independent_sage": "15/15 PASS",
+    "equal_edge_signs": "REJECTED",
+    "single_total_charge_as_zero_momentum": "REJECTED",
+    "bulk_equivariance_as_boundary_gauge": "REJECTED",
+    "action_nondegeneracy_as_no_charged_symmetry": "REJECTED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "CONDITIONAL_EDGE_HORN_ACTUAL_K77_H_ACTION_TRACE_AND_FULL_TAU_A0_GLOBAL_MOMENT_MAP__KEEP_CHARGED_BOUNDARY_SYMMETRY_AS_COMPARATOR"
+}

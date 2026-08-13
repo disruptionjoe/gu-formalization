@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-174337-gu-external-relative-datum-surplus",
+  "verdict": "MINIMAL_EXTERNAL_N_R_COUPLING_CONDITIONALLY_SELECTS_AMPLITUDE_AND_PRESERVES_SMALL_GAUGE__CURRENT_MULTIROW_SURPLUS_NONPOSITIVE__DERIVED_PAIRING_OR_TYPED_INDEX_BRIDGE_REQUIRED",
+  "datum": {
+    "boundary_component": "n in Z",
+    "projective_real_pairing": "r in RP1",
+    "favorable_parameter_count": 2,
+    "unowned_chiral_horn_charged_separately": true
+  },
+  "action_term": "I_cond=I_G2+k*CS_Br(a_plus,a0_plus;g_n)",
+  "characteristic_equation": "C(r)*t^4=9*n",
+  "fixed_n_r_selects_finite_amplitude": true,
+  "free_r_can_fit_any_nonzero_amplitude": true,
+  "strict_parameter_constraint_rank": 1,
+  "strict_parameter_surplus": -1,
+  "favorable_row_closed_conditions": 2,
+  "favorable_row_surplus": 0,
+  "positive_surplus": false,
+  "small_gauge_basic": true,
+  "large_gauge_phase_selects_component": false,
+  "bulk_local_euler_changed_by_topological_term": false,
+  "p3_identification_built": false,
+  "current_full_parent_pairing_nonzero": false,
+  "reduced_chiral_pairing_conditionally_nonzero": true,
+  "p1_p2_p3_assignment_change": false,
+  "residue_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "source_return": "SOURCE_CONFIRMS_DISTINGUISHED_A0_AND_CHERN_SIMONS_LIKE_ACTION_GRAMMAR__SOURCE_SILENT_EXTERNAL_N_R_COUPLING_CHIRAL_REDUCTION_REALITY_P3_BRIDGE_AND_SURPLUS",
+  "next_gate": "DERIVE_OR_KILL_REAL_PAIRING_RATIO_AND_CHIRAL_HORN_FROM_SELECTED_ACTION_REALITY__IN_PARALLEL_BUILD_TYPED_RELATIVE_INDEX_TO_P3_INTERFACE__RETEST_SURPLUS_BEFORE_RESTRICTED_EULER_DOMAIN"
+}

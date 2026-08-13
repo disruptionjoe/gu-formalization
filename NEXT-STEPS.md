@@ -2,12 +2,2218 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-06"
+updated_at: "2026-08-13"
 ---
 
 # Next Steps For Contributors
 
-> **2026-08-07 SELECTED CL2 PULLBACK COMPLETE; OTHER GRADES NEXT.**
+> **2026-08-13 TRACE-HQ COMPATIBILITY ADMITS BOTH FULL AND TWO-HALF
+> PARENTS (ledger migration deferred to a separately authorized Compose
+> step).** All `16,384` real-Clifford endomorphism directions admit exactly
+> one `H_q`-unitary phase: `8,256` are real and `8,128` require `i`. The
+> `8,192` even directions exactly form `u(32,32)+u(32,32)`; the `8,192` odd
+> directions exchange the halves and extend it to full `u(64,64)`. The moving
+> equation `D_varpi H_q=0` is an affine torsor with both block and full-parent
+> solutions. **Retain compatibility, but stop using it as an action-parent,
+> luminous-half, mirror or physical-carrier selector. Next construct an
+> action-owned physical fermion/BV operator and test W, mirror, random 192s,
+> H640 and 832 without a fitted projector.** Source owns full `U(64,64)` and
+> Curt exposes two `C^(32,32)` carrier halves; it does not declare two
+> independent half connections or select the physical half. No verdict,
+> canon, accounting, datum or public-posture move.
+
+> **2026-08-13 K77 I2B PRINCIPAL-PRESERVING MOVING-COEFFICIENT TORSION
+> UNIVERSALLY ABSORBS THROUGH QUARTIC (ledger no-change).** The exact
+> constrained rank differences are `910-770=140` and `2184-1904=280`, equal
+> to the complete cubic and quartic compatibility target dimensions. Hence
+> every lower-order representative made by first jets of algebraic moving
+> coefficients has zero class at those orders whenever the endpoint principal
+> tableau, regular receiver and unreduced domain are preserved. This includes
+> the already-built natural `Q_B` scale, co-moving Hodge/Shiab packet,
+> fixed-`varpi` Levi-Civita response and source-normal real-`u` contact in that
+> precise role. **Stop expanding those packets term by term merely to search
+> for cubic/quartic torsion. Next test a principal-changing source-action/Q_B
+> owner or construct the physical tangent/BV packet with a Layer-0 reset.** A
+> changed principal value, action owner, target bundle or domain is not covered;
+> higher nonlinear orders and analytic/global physics remain open. No verdict,
+> accounting, datum, canon or public-posture move.
+
+> **2026-08-13 K77 I2B FIRST NONLINEAR TORSION CLASSES ABSORB (ledger
+> no-change).** On the exact sixteen-support compatible stationary two-jet,
+> the cubic endpoint compatibility representative is zero. The first live
+> quartic representative occupies `3/280` cells, but the fourth-jet absorber
+> restricted to the second prolonged symbol kernel has rank `280/280`; its
+> class is zero. The cubic analogue independently has induced rank `140/140`.
+> Both ranks reproduce at two primes. **Stop treating a nonzero representative
+> as an obstruction before the prolonged-symbol quotient, and move the primary
+> Lane-1 gate to the action-owned moving `Q_B/H_q`/Shiab/metric/Levi-Civita/
+> section/observation coefficient packet. Keep physical tangent/BV separate.**
+> Higher fixed-natural nonlinear orders remain a fallback. This is not full
+> nonlinear formal integrability, analytic/global existence or BV/BFV. No
+> verdict, accounting, datum, canon or public-posture move.
+
+> **2026-08-13 K77 I2B FIXED-GRADE CARTAN SYMBOL INVOLUTIVE (ledger
+> no-change).** The complete source-natural endpoint principal tableau has a
+> regular flag with characters `(784,588,378,14)`. Its first prolongation has
+> `dim g_3=3150`, exactly Cartan's bound, while the independently certified
+> next value `dim g_4=4956` also matches the character prediction. A nontrivial
+> rational coframe preserves the characters and equality but moves all fourteen
+> coordinate compatibility representatives. **Stop using further linear
+> principal-symbol prolongation as the primary obstruction search at this
+> grade. Next compute the first nonlinear moving-coefficient torsion on the
+> nonempty stationary affine jet; keep the physical tangent/BV graph as a
+> separate parallel gate.** This is not nonlinear formal integrability,
+> analytic/global existence, a physical mode count or a BV/BFV result. No
+> verdict, accounting, datum, canon or public-posture move.
+
+> **2026-08-13 K77 I2B SOURCE-NATURAL FIXED-GRADE OWNER
+> RESOLVED (ledger no-change).** `SC-ACT-04` owns the printed-endpoint residual
+> square, and the exact fixed-natural grade-one classification restricts
+> `Q_B` to the trace/Hodge line up to nonzero scale under both source-supported
+> parent readings. The endpoint Hessian rank `196`, compatibility rank `56`,
+> nonempty stationary-affine intersection and `1904/1960` second-prolongation
+> result therefore stand for the source-faithful fixed-grade I2B owner. The
+> repository-composed `E_act/Q_u` square remains a separate rival with zero
+> fixed-bank principal map. **Next test higher moving/nonlinear endpoint
+> prolongation and Cartan involutivity; keep physical tangent/BV as an
+> independent parallel gate.** Moving/field-dependent `Q_B`, analytic/global
+> existence, domain, positivity and spectrum remain open. No verdict,
+> accounting, datum, canon or public-posture move.
+
+> **2026-08-13 K77 I2B STATIONARY-AFFINE SPENCER INTERSECTION
+> CORRECTION (ledger no-change).** The corrected endpoint rank-56 term is a
+> nontrivial compatibility condition, but not a nonexistence theorem. The old
+> 14-support stationary witness misses two compatibility cells; nevertheless
+> the same 392-variable `(00)+(01)` affine fibre contains a 16-support rational
+> witness satisfying all 196 endpoint equations and all 56 next rows. Exact
+> ranks are `196,28,224` with augmented rank 224 and compatible fibre dimension
+> 168. On all ten two-jet blocks the ranks are `196,56,252`, augmented rank 252,
+> leaving dimension 1708. The complete second prolonged symbol has rank
+> `1904/1960` at two primes; 56 exact differentiated-divergence rows exhaust
+> its cokernel and vanish on the new witness. **Retain the prior no-constant-
+> operator-completion theorem, but retype rank 56 as formal-jet selection.
+> Next test higher moving/nonlinear prolongations and Cartan involutivity before
+> analytic or global existence.** Source `Q_B`, physical BV/BFV and domains
+> remain open; no accounting or posture move.
+
+> **2026-08-13 K77 I2B ENDPOINT COMPATIBILITY + RANK-56 ADAPTER
+> CORRECTION (ledger no-change).** The prior frozen theorem inherited the
+> one-third path-average residual after its literal `SC-ACT-04` attribution
+> had already been withdrawn. Porting to the separately printed endpoint on
+> the same conditional fixed-`H_q` pairing changes the Hessian substantially:
+> endpoint-minus-surrogate `H0` has rank `193` and support `544`, while the
+> defect difference has rank `56` and support `156`. Nevertheless the endpoint
+> universal-completion defect remains exactly `14,14,14,14`, combined rank `56`.
+> **Do not inherit coefficients merely because ranks agree, and do not use the
+> separate rank-56 pure-frame `dot P_+` as a cancellation. Since `q_g=g/2`,
+> its pullback along the independent 196-real connection translation is zero.
+> Next build a genuine `A/T`-dependent `Q_B`/coefficient owner, derive an
+> action-owned field-to-metric tangent graph, or port the corrected `E_act`
+> second Hessian as a separate rival.** The stationary-affine successor above
+> now shows that no such adapter is needed merely to obtain a compatible
+> frozen formal jet. Source `Q_B`, nonlinear Noether/BV,
+> global domain and preboundary/BFV remain open; no accounting or posture move.
+
+> **2026-08-13 K77 I2B FROZEN-HESSIAN COMPATIBILITY GATE (ledger
+> no-change).** The exact fourteen-row principal compatibility family cannot
+> be extended through the complete frozen residual-square Hessian by any
+> constant lower-order correction. `H0` is symmetric rank `196`, all four
+> `H1_mu` cross blocks vanish, and the principal `B00+B01` image is full rank,
+> which forces `C0=0`; the remaining four degree-one defects have ranks
+> `14,14,14,14` and combined rank `56`. **This falsifies only the naive frozen
+> divergence completion. Do not call it a failure of every Bianchi/Noether/BV
+> identity. Next assemble the complete stationary coefficient derivative on
+> all 196 field directions through moving `Q_B/H_q`/Shiab/section/observation
+> and the affine source connection, then retest the covariantized family.** No
+> field, coefficient, quotient, datum, ledger, canon, accounting or posture
+> move.
+
+> **2026-08-13 K77 I2B OBSERVATION/CONTACT + FIRST SPENCER GATE
+> (ledger no-change).** Complete inverse-transpose equation observation cannot
+> reopen a covariantly closed Euler row at a stationary point: both product-
+> rule terms vanish, while an off-shell control keeps observation motion live.
+> The nonzero preboundary contact remains separate. The complete first formal
+> prolongation has rank `770/784`; its exact fourteen-dimensional cokernel is
+> spanned by `sum_lambda partial_lambda E_(lambda,a)`, one row for each of the
+> fourteen Clifford-vector coordinates. **Do not call this source gauge,
+> nonlinear Bianchi, constraint propagation, or BV cohomology. Next apply this
+> exact compatibility operator to the complete lower-order and moving-
+> coefficient stationary Euler owner and test source Noether/BV ownership.**
+> No field, coefficient, quotient, datum, ledger, canon, accounting or posture
+> move.
+
+> **2026-08-13 K77 I2B PARAMETER-JET AFFINE WARD CLOSURE (ledger
+> no-change).** The independent rank-25 second-parameter-jet trace was a
+> raw-jet covariantization defect, not a geometric obstruction. A universal
+> free-associative calculation fixes the affine connection owner as the exact
+> opposite of the raw `partial_mu partial_nu eta` term; ported through all ten
+> selected K77 Hessian blocks it cancels `25 -> 0`, while the affine first-
+> parameter connection-jet subchain covariantizes universally. **Do not call
+> this a BV quotient or a completed source action. Next finish the full source-
+> connection-to-distortion plus observation/contact response, then run Spencer
+> compatibility on the complete local stationary symbol.** No new field, fitted
+> coefficient, datum, ledger, canon, accounting or posture move.
+
+> **2026-08-13 LANE A DRAIN PASS COMPLETE — 8 live items recovered from a
+> three-week-stale mailbox.** Record:
+> `explorations/lane-a-mailbox-drain-pass-2026-08-13.md`. All 26 queued
+> notes read, dispositioned and archived with receipts (9 ABSORBED,
+> 3 SUPERSEDED, 1 DECLINE, **8 STILL-LIVE**). Cheapest live items, in
+> order: (1) the **Nguyen/Polya objection -> spec-row crosswalk**, written
+> 2026-07-29 and never used — zero files contain both `SA-U1` and
+> `Nguyen` — which fills the open second clause of the 2026-08-12 verdict
+> doctrine; (2) `(2,2)` as a stratum of Met, a three-line comparator edit;
+> (3) the **ghost-parity / Faddeev-Popov collision at canon grade** in
+> `canon/ghost-parity-krein-synthesis.md`; (4) a one-clause W188 scope
+> answer. Also recovered: the `RP^3`/16-cell `F2` UNSAT halves are BOTH
+> in-repo and were never joined (cheapest un-landed item in the pass), and
+> a FRAME-SENSITIVE/PROPOSED overlap between an 08-10 deferred Krein
+> screen and the 08-12 descended `H^0` inertia `(96,96,0)`.
+> **Measured cost of the stale queue:** the 07-27 signature-stratification
+> note had its Points 1-2 independently re-derived twelve days later at
+> EXACT grade — a duplicated derivation, NOT a lost fork resolution.
+> **Stewardship finding:** absorption here is content-addressed, not
+> path-addressed — four already-decided notes were cited zero times by
+> filename, so a filename-keyed drain would have wrongly re-opened them.
+
+> **2026-08-13 K77 I2B CONSTANT-PARAMETER MOVING-SHIAB WARD CLOSURE
+> (ledger no-change).** The frozen rank-90 constant-parameter response is not
+> an obstruction. Moving `Phi1/Phi2`/Shiab has rank 90 but leaves rank 24; the
+> latter is exactly the co-motion of the `rho=-1/3` curvature-source input.
+> Together they cancel coefficientwise to rank zero for all 91 generators,
+> with `e12e13` retained as a zero-column control. **Do not say moving Shiab
+> alone closes Ward, and do not call this full gauge/BV invariance. Next
+> assemble first-parameter-jet plus symmetric second-parameter-jet affine,
+> observation/section and live `Q_B/H_q` responses; cancel the independent
+> rank-25 trace, then run Spencer compatibility.** No ledger, verdict,
+> accounting, datum, canon or posture move.
+
+> **2026-08-13 FIVE STAGED RESULTS WITHOUT POINTERS — absorb or decline
+> (binds nothing; none touches the ledger).** Filed to `explorations/`
+> over 08-12/13 by Joe-directed side sessions and previously reachable
+> only by directory listing:
+> 1. `explorations/c3prime-split-commutant-certificates-2026-08-12.md`
+>    (23/23 exact). Split commutant dim 4 = span{1,J4,J10,omega};
+>    B-compatible J uniquely +-J10; ONE Krein `C^(32,32)` with neutral
+>    cross-paired halves. Replicates the cadence's own C3a exactly by an
+>    independent driver. **Bears on the group-level pincer: the native
+>    ladder is Spin(7,7)->SO(64,64) and u(64,64) needs a complex
+>    structure the real algebra lacks — which the SPLIT layer supplies
+>    natively.** Remainder is C3c (`D_varpi J = 0`, `D_varpi omega = 0`).
+> 2. `explorations/chk1-deformation-cell-certificates-2026-08-12.md`
+>    (30/30 exact, two primes). **KILL NOT FIRED** — X-odd coupling cells
+>    2/2 at L1 and 28/28 at L2 on BOTH pairing horns, so a VEV lever
+>    exists. Naive Dirac zero-form mass REJECTED, so asymmetry must be
+>    spontaneous — matching the source's own mechanism.
+> 3. `explorations/lt-sm1-horn-surplus-attempt-2026-08-12.md`. Verdict
+>    (c) SURPLUS-UNCOMPUTABLE; **row does NOT move**. Cheapest live
+>    follow-up in the ledger: `g_A^-2` is charged independent at
+>    packet:1106 but W229:9 says `Z_U` sets `g_A` — resolving that one
+>    contradiction toward W229 makes H1 surplus `+1` and the row moves.
+>    Also: "induced Yang-Mills" is a homonym; W180/203/229/236/182 sit on
+>    `zeta_F=1` while calling themselves induced.
+> 4. `explorations/ac-e1-daifreed-shadow-recomputation-2026-08-12.md`.
+>    `Omega^Spin_5(B(G_SM/Gamma_n))` DERIVED independently by AHSS =
+>    Z/2,0,Z/2,0 (n=1,2,3,6); 3/3 controls reproduce
+>    Garcia-Etxebarria-Montero. **Adverse finding: AC-E1 asserts what its
+>    own root declined to compute** (root did 3-local only; the group is
+>    2-primary; receptacle nonzero at n in {1,3} = Witten anomaly), and
+>    its "16 saturates" clause needs `Spin x_{Z2} Z4` which
+>    `canon/w2-y14-spin-structure.md` rejects for plain Spin. Row can move
+>    IMPORTED -> DERIVED_CONDITIONAL only with a rewrite or a split.
+> 5. `explorations/signature-chirality-conjugation-check-2026-08-13.md`.
+>    Exact: antilinear conjugation **FLIPS** chirality in `Cl(1,3)` and
+>    **PRESERVES** it in `Cl(4,0)` (mechanism: `gamma5` normalisation
+>    imaginary vs real). **A construction vectorlike in one real form can
+>    be chiral in another with NO dynamics** — a candidate mechanism for
+>    **AC-F1**, whose incumbent **RA-D2** is adjudicated
+>    `OVER_DETERMINED/GENUINE_FALSIFICATION`, and consistent with
+>    **AC-A4**. Novelty of the signature fact is ZERO; only the AC-F1
+>    connection is new and it is PROPOSED. Same artifact REFUTES (two
+>    independent routes) any reading of the four-plane, clock and `J`
+>    selections as one twistor datum: orthogonal complex structures need
+>    `p,q` both even, so none exists on `R^(1,3)` or `R^(7,7)`.
+>    `O(6,4)/U(3,2)` IS a twistor space — on the FIBRE. Fibre-side and
+>    base-side selections are different problems.
+>
+> **Also standing:** the `mailboxes/gu-formalization/` queue is 27 notes
+> deep and was last archived 2026-07-20. Five 2026-08-12/13 notes are in
+> it, including two import candidates (selection-impossibility machinery;
+> numerical characteristic classes) and the three-sibling reassessment
+> with its own typing amendments. Lane A may want a drain pass.
+
+> **2026-08-13 K77 I2B STATIONARY PRODUCT-RULE WARD RESPONSE (ledger
+> no-change).** Differentiating the adjoint action through the nonzero
+> stationary two-jet produces an exact rank-91 constant-parameter principal
+> response. The owned lower-order response has rank 25; their sum has rank 90
+> with sole kernel generator `e12e13`. The independent second-parameter-jet
+> Lorentz trace adds rank 25, for a combined frozen Ward burden of rank 115.
+> **Do not call this an anomaly or physical-mode count. Next assemble moving
+> Shiab/`Q_B`/`H_q`/observation responses at constant, first-jet and second-jet
+> parameter order, require exact Ward cancellation while retaining `e12e13` as
+> a control, then run Spencer compatibility.** No ledger, verdict, accounting,
+> datum, canon or posture move.
+
+> **2026-08-13 K77 I2B PROJECTED-ADJOINT JET PROLONGATION (ledger
+> no-change).** The field-level rank-25 `Cl2` projected adjoint image does not
+> by itself supply the full stationary two-jet gauge/BV quotient. Across all
+> ten symmetric observed blocks its frozen prolongation has rank `250`, but
+> only rank `225` is tangent to the rank-`1764` stationary symbol kernel. The
+> remaining rank `25` is one Lorentz-trace response: mixed blocks vanish and
+> the three spatial diagonal responses equal minus the timelike response.
+> **Do not subtract all 250 directions or call the rank-25 complement physical.
+> Next construct the actual jet gauge differential with product-rule terms,
+> the nonzero stationary connection jet, moving `Q_B`/`H_q`/Shiab/observation,
+> and the connection-affine term where applicable; require Ward tangency, then
+> run Spencer compatibility.** The frozen tangent quotient rank `1539` is not
+> a phase-space or particle count. No ledger, verdict, accounting, datum,
+> canon or posture move.
+
+> **2026-08-13 K77 I2B LOCAL STATIONARY BIANCHI-JET WITNESS (ledger
+> no-change).** An exact sparse rational symmetric connection two-jet with
+> fourteen nonzero coefficients cancels all `196` cells of the frozen selected
+> Euler covector at the base point. It is realized by a quadratic local
+> connection perturbation and passes all `5,096` componentwise linear Bianchi
+> checks. The `196 x 392` map has rank `196`, so the stationary jets form a
+> `196`-dimensional affine fibre. **Do not ask the source action to choose a
+> unique classical history or book that fibre as theory residue. Next prolong
+> the rank-25 `Cl2` projected adjoint image to this symmetric
+> two-jet equation, compute the quotient/intersection, and run the first
+> Spencer/formal-integrability gate with moving `Q_B`, `H_q` and observation.**
+> A local stationary jet is not yet a solution germ, global field, phase space,
+> spectrum or physical carrier. No ledger, verdict, accounting, datum, canon or
+> posture move.
+
+> **2026-08-13 K77 I2B LOWER-ORDER EXACT-FORM LIFT (ledger no-change).**
+> The fourteen-dimensional non-gauge exact-form family remains the exact
+> principal Hessian kernel, but it is **not** a kernel of the full linearized
+> action Hessian at the fixed-`H_q` restricted radial critical branch. The
+> owned lower-order block has column rank `14` for timelike, spacelike,
+> generic non-null and null covectors; the derivative/lower-order cross block
+> vanishes. This does not remove the principal null cone and is not a physical
+> spectrum because the branch is nonstationary on the full 196-cell bank.
+> **Do not run another frequency scan or relabel the lift as gauge fixing.**
+> The local stationary-jet successor above now closes the base-point existence
+> gate; proceed through formal prolongation and a full source BV differential
+> extending the rank-25 projected adjoint image before any physical-carrier spectrum. No ledger, verdict,
+> accounting, datum, canon or posture move.
+
+> **2026-08-13 K77 I2B PRINCIPAL-DEGENERACY RETYPE (ledger no-change).** The
+> coefficientwise `14 -> 196 -> 196 -> 14` principal differential complex and
+> all its ranks survive, but its `Cl1` exact-form map is **not** the source
+> gauge map. The source map is `Cl2 -> Omega1(Cl1)`, has shape `196 x 91` and
+> projected rank `25`. The Euler target annihilates this actual gauge image;
+> only the non-gauge exact-form map produces `(8/3)k`. **Do not run a
+> lower-order Ward-cancellation wave or call `168/168` gauge cohomology. The
+> fixed-branch lower-order successor above now closes automatic survival there;
+> next construct a full stationary jet, then induce a source-owned BV
+> differential extending that rank-25 image on the physical carrier and compare
+> its null classes with Einstein `2/2`.** The null rank jump remains a real
+> symbol burden; its gauge/Noether interpretation is retracted. No ledger,
+> verdict, accounting, datum, canon or posture move.
+
+> **2026-08-13 K77 I2B PRINCIPAL CONSTRAINT QUOTIENT (ledger no-change).**
+> The timelike block's cokernel is exactly dimension `14`, and the symmetric
+> `(0,1)` mixed block maps onto all fourteen missing quotient directions; the
+> target class lies in that image. This retypes the local obstruction as a
+> principal differential-constraint problem rather than a missing action
+> coefficient. **Do not call the mixed jet free Cauchy data. The fixed-branch
+> lower-order successor above lifts the fourteen exact-form directions there
+> but does not supply a full stationary solution. Next construct that
+> stationary jet; only then should a full gauge/BV differential extending the rank-25 image be induced
+> on the physical carrier and globalized
+> through atlas, observation and boundary ownership.** The solution fibre is field-jet freedom, not booked theory
+> residue. No ledger, verdict, accounting, datum, canon or posture move.
+
+> **2026-08-13 K77 I2B HOLONOMIC-JET EULER IMAGE (ledger v0.236).**
+> Pointwise real curvature values remain unable to cancel the target, but the
+> actual derivative-dependent route is live. The timelike I2B principal block
+> has rank `182` and misses the target; adding the symmetric `(0,1)` mixed
+> second-jet block makes the observed holonomic image full rank `196`, and the
+> target lies inside it. **Do not rerun image hunting or infer selection from
+> surjectivity. The principal-constraint quotient successor above supersedes
+> the generic representative search: derive propagation, then test nonlinear
+> Bianchi realization, nonconstant atlas descent, observation
+> contact, lower-order moving-`Q_B` Euler terms and preboundary/BV ownership.**
+> Nonzero fermions and full-field BV remain separate routes. No verdict,
+> accounting, datum, canon or public-posture move.
+
+> **2026-08-13 K77 I2B ACTION-EULER PRINCIPAL OWNER (ledger v0.237).**
+> The literal printed endpoint still has 182 live raw responses per observed
+> direction and its full holonomic jet image remains rank 196. But the exact
+> first-action pairing against every selected connection test is zero in all
+> four directions, so the fixed-bank formal `E_act` principal covector and
+> action-Riesz representative have rank zero. **Do not transfer the endpoint
+> jet witness, compatibility complex or nonlinear successor to `E_act` merely
+> because the two squared Euler covectors agree on one constant background.
+> First derive or source-grade the operative completed second action and build
+> its moving metric/section/Shiab/`Q_B` principal map. In parallel, build the
+> physical tangent/BV graph.** Continue nonlinear endpoint prolongation only
+> if the literal endpoint remains an operative owner. No verdict, accounting,
+> datum, canon or public-posture move.
+
+> **Predecessor v0.235 — K77 I2B REAL-CURVATURE EULER IMAGE.**
+> The exact real residual-to-Euler transfer is a `392 x 392` isomorphism.
+> The complete pointwise real full-`U(64,64)` selected-Shiab curvature image
+> and its Euler image both have rank `364`; the fourteen-cell target raises
+> rank to `365`. Thus no pointwise real full-unitary curvature value cancels
+> the Euler covector, and the two-half block subgroup cannot either. Composed
+> with v0.230, geometry-only response is also closed. **Do not rerun another
+> pointwise curvature/background-value search. Construct a genuinely
+> derivative-dependent real source-connection jet with Bianchi and descent,
+> or advance the disjoint nonzero-fermion/full-field-BV routes.** No verdict,
+> accounting, datum, canon or public-posture move. V0.236 supersedes only its
+> derivative-image-existence successor.
+
+> **2026-08-13 K77 I2B RELEASED SOURCE-ACTION GRAMMAR EXHAUSTION (ledger
+> v0.234, predecessor).** On the selected moving-`H_q`, zero-fermion branch, the source's
+> nonlinear first action `I1B` is blind, the residual-square `I2B` retains
+> fourteen transverse connection Euler cells, and the fermion current
+> vanishes by parity/order. Every nonzero relative weighting preserves the
+> obstruction; zero weight deletes `I2B`. **Do not search another released
+> zero-fermion bosonic term or tune an `I1B/I2B` coefficient. Rank and execute
+> one bounded decider among complete moving connection/background jets, an
+> actual source-family nonzero-fermion coupled saddle, and a source-derived
+> full-field BV tangent.** Carrier retyping is a downstream fallback, not this
+> wave's conclusion. No accounting, datum, canon or public-posture move.
+> V0.235 supersedes only its generic pointwise-background successor.
+
+> **2026-08-13 K77 I2B MINIMAL COVARIANT-REDUCTION ACTION OWNERSHIP (ledger
+> v0.233, predecessor).** Fixed `D omega=0` has rank 196 and erases the whole selected Cl1
+> bank including the current half-exchanging Higgs-like carrier. Fixed
+> `D J4=0` has rank 56 and preserves the normal carrier but leaves ten
+> source-natural and eight conditional-`Q_u` Euler cells. Moving compatibility
+> projects surjectively onto `T`; compatible penalties have zero first
+> variation; only a 196-component `omega` multiplier fits both Euler families,
+> at zero-surplus and with `K_omega=0`. **Do not run another fixed projector,
+> compatible penalty or free multiplier. Extract the smallest nonlinear source-action
+> owner with positive constraint surplus that preserves a nonzero
+> intrinsic-torsion/Higgs carrier, or certify source silence and explicitly
+> retype the carrier.** Keep selected K77, two
+> `C^(32,32)` halves, their block subgroup and full `U(64,64)` distinct. No
+> accounting, datum, canon or public-posture move. V0.234 supersedes only its
+> nonlinear-source search successor.
+
+> **Predecessor v0.232 — SOURCE/BV--KOSZUL--TATE EXACT SEQUENCE.** The local
+> source chart, gauge image and first reducibility close, but both Euler
+> covectors descend nonzero. KT resolves their ideal rather than selecting a
+> primal tangent. V0.233 supersedes only its minimal action-ownership successor.
+
+> **Predecessor v0.231 — K77 I2B SOURCE-NATURAL PRIMALIZER
+> CLASSIFICATION.** Both source-supported fixed-parent readings leave one
+> natural pairing scale on the live grade-one residual, and scaling cannot
+> alter either Euler zero set. V0.232 supersedes only its BV/KT successor;
+> fixed-pairing and independent-half-weight searches remain closed.
+
+> **Predecessor v0.230 — K77 I2B INDEPENDENT-TANGENT QUEUE CORRECTION.**
+> The source varies `varpi` independently at fixed `epsilon` and
+> geometry. The exact cotangent block theorem therefore preserves the nonzero
+> twelve-cell `T` Euler component under every reference/metric/section/Hodge/
+> Shiab/trace-frame/observer response. The two selected conditional `Q_u`
+> action rivals have no nonzero joint stationary point on the declared trace-
+> `H_q` ansatz. **Do not run another geometry-only cancellation. Inspect the
+> source `Q_B` and full/two-half action parent for genuine `T` dependence, or
+> derive a source-owned constraint/full BV-KT tangent, then test it against the
+> determinant-80 shapes.** This is not a GU or source-action no-go; `Q_u` is
+> not source `Q_B`. No accounting, datum, canon or public-posture move.
+
+> **Predecessor v0.229 — K77 I2B SOURCE/GAUGE-BV IMAGE.** On the
+> selected 196-real Cl1 distortion bank, arbitrary `varpi` translation is a
+> physical field tangent, the 91-dimensional tilted graph has zero `T` image,
+> and the complete projected adjoint gauge image has rank 25 with zero
+> intersection against the twelve diagonal Euler cells. The nonzero Euler
+> covector annihilates gauge directions and therefore descends to the quotient;
+> it does not vanish there. **Do not quotient source translations or retry a
+> local gauge repair.** V0.230 supersedes only its moving-geometry successor.
+> Full BV/KT, BFV, the two
+> `C^(32,32)` halves and full `U(64,64)` remain open. No accounting, datum,
+> canon or public-posture move.
+
+> **2026-08-13 K77 RANK-128 OBSERVATION-KERNEL MODULE (ledger v0.228).**
+> The ten pairwise-disjoint transverse rank-128 defects sum exactly to
+> `ker(R_obs)=N* tensor S`, dimension 1280, and the canonical inclusion
+> intertwines all 45 `so(6,4)` generators. The prior `21/45` result belongs to
+> the selected `H640` graph lift and zero-form-seed trivialization, not to the
+> carrier: all 24 mixed boosts expose that graph splitting. **Do not run ten
+> repairs. Construct one action/BV moving graph correction or prove that the
+> physical action reduces normal symmetry to `U(3,2)` or the compact
+> stabilizer.** Keep this behind the rank-one action-owned tangent/BV gate and
+> distinct from `Pi_RS^phys` and physical cohomology. No verdict, residue,
+> quotient, datum, canon or public posture moves.
+
+> **2026-08-12 CATEGORICAL READING OF THE GEOMETRY + COUNCIL REVIEW
+> (absorption pointer, binds nothing; PROPOSED throughout).**
+> `explorations/categorical-reading-of-gu-geometry-2026-08-12.md` with
+> `explorations/science-council-categorical-reading-review-2026-08-12.md`.
+> Diagnostic, not productive: GU's founding move (work over the bundle of
+> metrics rather than choosing one) is a universal-object construction, so
+> the program's central claim is a NATURALITY claim — and the residue
+> ledger's surviving free choices measure distance-from-canonical (split
+> continuous moduli from discrete forks). Descent is the scheduled price of
+> ascending, so difficulty is forecastable at the pullback/restriction/
+> real-form steps. Family slots follow from spinor-functor monoidality
+> meeting the `TX (+) N` splitting — slots are cheap, quantum numbers are
+> the work. Multiplicity and index are different invariants with a lossy
+> comparison map (the vocabulary upgrade of the Rung-1 fence, not a new
+> finding), which is why the `Z/3` route must become a torsor question.
+> Chirality reads as the naturality of a mirror isomorphism — with the
+> physics guard that a mass term is still required. Council conditions:
+> no universality rows in the register (repo-side reading; the source
+> admits a connection choice), every categorical typing names its concrete
+> computation, all claims PROPOSED. Owner-routed proposals:
+> `descent_obligation:` at admission; controlled relay vocabulary; capped
+> machine-readable commutation diagram with a gate; two progress metrics
+> (free-choice count; fraction of squares with known status).
+
+> **2026-08-12 ADDITIVE PERSONA-PASS FINDINGS (absorption pointer, binds
+> nothing).**
+> `explorations/second-order-persona-pass-and-route-vote-2026-08-12.md`
+> — additive items only; the real-descent correction is cadence-owned
+> (`91839376`, sharper successor) and is not restated. New: the
+> indefinite-signature rigidity trap (`U(3,2)` is pseudo-Hermitian —
+> definite-signature rigidity does not transfer); the `J`-quotient
+> double-edge (a point-quotient makes `D_varpi J = 0` automatic, typing
+> that gate rather than only deleting coordinates); a cheap
+> pairwise-isomorphism first test for the universal rank-128 module
+> (equivariant, not merely abstract); atlas sequencing (finite parameter
+> list required; seed from existing pairing determinants); Krein-null
+> complement choice as unbooked selection debt; two proposed queue
+> additions (aggregate debt recount by fixer-type;
+> independence-certificate verdict class); and a recorded false-novelty
+> near-miss (proper-noun novelty grep missed five-hour-old prior art in
+> different vocabulary).
+
+> **2026-08-12 CLAIM-INDEXED VERDICT DOCTRINE INSTALLED (ratified; read
+> before any Nguyen/chirality/generations verdict).**
+> `explorations/claim-indexed-verdict-doctrine-2026-08-12.md`: misaimed
+> critiques FAIL as critiques; two-component verdict form mandatory;
+> certificate scoreboard summarized there (C3a replicated twice, CHK-1
+> kill not fired, CN-1 dead, C3c and CHK-2 open). The traditional
+> framing is the recorded failure mode — do not regress.
+
+> **2026-08-12 K77 MOVING-HQ / U(3,2) SM AND HIGGS-DIRECTION GATE (ledger
+> v0.196).** The source's normal complex reduction now closes exactly:
+> Pati-Salam intersected with `SU(3,2)` is `S(U(3)xU(2))`, dimension `12`,
+> and the actual chiral-spin 16 has precisely the SM hypercharges. Fixing trace
+> q then leaves a dimension-nine algebra with derived dimension eight and
+> one-dimensional center: post-Higgs `SU(3)xU(1)`, not a failed pre-Higgs SM.
+> The q orbit supplies three real directions and one radial coefficient would
+> complete a `Y=-1/2` complex doublet. **Next locate that radial coefficient
+> in full `U(64,64)` or possible two `U(32,32)` `varpi`, derive kinetic,
+> potential, Yukawa and nonzero stationary amplitude, and keep selection of J
+> from its 20-dimensional family explicit.** This is a Higgs-carrier result,
+> not yet a Higgs action.
+
+> **Predecessor v0.195.** Fixed trace-Hq compatibility and its rank-nine defect
+> were exact; the dimension-nine group had not yet been typed as post-Higgs.
+
+> **Predecessor v0.194.** The canonical trace q owns the full/half Hermitian
+> input with zero datum cost; its internal-chain compatibility was open.
+
+> **Predecessor v0.193.** A generic non-null q gives exact full and two-half
+> Hermitian/Witt compatibility; its provisional free-q cost is now retired
+> for the canonical trace route.
+
+> **Predecessor v0.192.** Moving `omega/J4` exactly reconstruct the nested
+> connection-breaking tensors; the current pointwise action does not select
+> the compatible locus.
+
+> **Predecessor v0.191.** The exact split commutant is `C+C`; each real Weyl
+> half is complex-32 and complexifies to `32+32`. It does not derive the
+> Hermitian `(32,32)` form or choose an action parent.
+
+> **2026-08-12 NGUYEN C1/C2 CERTIFICATES + DECOUPLING PACKET FILED
+> (absorption pointer, binds nothing).** C1/C2 executed at 42/42 exact:
+> B symmetric signature (64,64), commutant R (Cl(9,5) control H),
+> ladder Spin(7,7)->SO(64,64), eq (8.5) reproduced, tripwire NOT
+> tripped, u(64,64) complex structure provably non-native — the group
+> pincer's remaining grip is the SOURCE-SILENT action-parent question
+> (O4; C3-C5 named). Decoupling constructibility packet types R1-R5 with
+> CHK-1 runnable today (deformation-cell dimensions on the 1,920 carrier;
+> kill = X-odd dim 0 both horns) and the 't Hooft ledger CHK-2 as
+> settled-horn successor to W224. The later v0.191 split-layer certificate
+> scopes "complex structure non-native" to full ambient Spin equivariance;
+> after the 4+10 split a native `J` exists exactly. Both artifacts carry target_claim and
+> brief_version — first live gate subjects. Files:
+> explorations/nguyen-c1c2-real-form-certificates-2026-08-12.md,
+> explorations/decoupling-constructibility-packet-2026-08-12.md.
+
+> **2026-08-12 PORTFOLIO CORRECTION COMPLETE (ledger v0.227).** Ten proposed
+> opportunities were audited and reduced to six construction programs. Exact
+> checks find: the local 20-dimensional `J` orbit conditionally quotients to a
+> point only under the unbuilt physical BV/action stabilizer; ten rank-128
+> transverse leaks are pairwise disjoint with rank-1280 sum and only compact-
+> stabilizer equivariance established; the M-H17 free comparator has `H^0`
+> inertia `(96,96,0)`; and Weinstein eq. (12.19) is a named source resolver to
+> `{7,7}`, not a `SIGNATURE-AMBIENT` settlement. `SC-GEN-54` is now typed as an
+> unbuilt supercharge-to-three mechanism; `SC-GEN-53` is a Lane-2 seed without
+> scale/observable. B5 is retyped field-by-field. No ledger verdict, raw residue,
+> quotient, P1/P2/P3, canon or public posture moves. Next: physical BV/action
+> stabilizer, mixed-boost defect-module solve, and physical carrier before W224
+> port/count/positivity. See `explorations/portfolio-correction-wave-2026-08-12.md`.
+
+> **2026-08-11 SOURCE-CLAIM REGISTER AND KILL-TARGET GATE LIVE (ratified,
+> binds via gate from 2026-08-12).** `lab/sources/source-claim-register.yaml`
+> holds 110 verbatim, edition-pinned authorial claims with core partition
+> (hard-core 48 / auxiliary 51 / disavowed 11) and dated adherence
+> (ADHERED 82 / PARTIAL 19 / UNTYPED 9 / CONTRADICTED 0). New
+> kill-bearing artifacts name their `target_claim:` (gate:
+> `process_gates/kill_target_claim_audit.py`; baseline 5-of-40 untyped).
+> Subagent delegation inlines `lab/process/subagent-brief.md` v1.0.
+> The portfolio correction partially types SC-GEN-54 without constructing its
+> count map and SC-GEN-53 without inventing a scale or observable. Remaining
+> gaps include the CHI/GEN source-claim column carried into packet bodies;
+> GEOMETER-VS-PHYSICS-OBJECTS.md:19 retired-form teaching. Council record
+> and rationale in explorations/.
+
+> **2026-08-12 K77 ACTION-CONCOMITANT RESIDUAL-FLAG GATE (ledger v0.190).**
+> The exact Lorentz commutant on `Sym^2(T*X)` is only
+> `span{I,P_trace}`. Every natural zero-order word made from the selected
+> invariant distortion, directly contracted curvature, or complete nonzero
+> second-fundamental tensor therefore has only trace/traceless eigenvalues.
+> Rank-four spectral selection is impossible in this class and every current
+> commutator `Q` is zero. **Next build the smallest action-stationary
+> nonhomogeneous reduced-curvature plus full-`II` orbit and rerun the gap,
+> polar and stabilizer gates.** Keep the full `U(64,64)` or possible two
+> `U(32,32)` halves to K77 projection separate. Do not globalize this scoped
+> adverse result or set the constant-section `II` to zero.
+
+> **2026-08-11 FIVE FRONTIER DESIGN PACKETS AVAILABLE (absorption pointer,
+> binds nothing).** Five Joe-directed parallel design passes on hard
+> off-cadence problems are filed with same-run hostile reviews and an
+> umbrella index at `explorations/frontier-design-packets-index-2026-08-11.md`:
+> (1) the Nguyen pincer completed on the settled real form (AC-G1a) — with
+> a post-draft framing correction in the index: kills must name which
+> claim they kill (the draft's own position is 2+1/effective-imposter with
+> a non-chiral total theory, not three fundamental chiral generations);
+> (2) the dim-13 Z/3 count receptacle (stale COUNT anchor found; cheapest
+> decisive step is the M-H5 orientation bit); (3) M-H17 positivity exit
+> criteria (the descended H0 Gram inertia has never been computed — C1
+> runs on existing banks); (4) the B5 five-field packet (audit stale
+> per-field; two fields partially dissolve as audited); (5) the Lane 2
+> prediction packet with the XS-S decision typed four-horn (r(N(z)) refit
+> counted not packet-worthy as posed). All packets pinned at `bdd2c934`;
+> later waves supersede by default; every disposition wave-owned. Next
+> wave: absorb, schedule a packet's first decisive step, or decline with
+> reasons per the absorption protocol.
+
+> **2026-08-12 K77 CANONICAL SECTION-JET CARTAN/SPIN PROLONGATION (ledger
+> v0.187).** The actual observation-section jet and conditional K77 split
+> uniquely determine the pure off-diagonal first-order Cartan lift modulo
+> block-stabilizer frame gauge. All 40 directions lift to the 128-spinor over
+> two exact fields: 18 rotations and 22 boosts, with gamma covariance,
+> chirality and both pairing blocks exact. These identities compose with the
+> v0.186 full-rank-1,920 symbol and moving-H640 control. The ten changing-
+> gimmel compensators are separately exact and are not fixed-metric Cartan
+> elements. **Next construct or kill finite nonlinear graph normalization and
+> atlas descent, then compose with action `epsilon_IG`, gauge-rotated
+> Levi-Civita and the full complex-Cartan flag before lower-order BV/KT.** Do
+> not call the local observation-plane component the full reduction or collapse
+> full `U(64,64)` with the two `U(32,32)` halves.
+
+> **2026-08-11 K77 FIRST-JET FERMION-SYMBOL PORT GATE (ledger v0.186).** The
+> raw v0.28 `4+10` observation shear is invertible but not K77 orthogonal
+> (defect rank 8), so it has no literal fixed-metric Spin lift. Levi-Civita is
+> first order in the metric but zeroth order in the fermion. Exact rational
+> Spin boost and rotation witnesses over two fields instead move the Clifford
+> anchor and `H640` graph together: fixed-graph leakage is rank 128 and the
+> co-moving leakage is zero, with gamma/symbol covariance and both pairing
+> identities exact. **Next construct or kill the canonical action-owned map
+> from the actual section jet to this `epsilon_IG` prolongation; retest all 40
+> mixed directions, both horns and rank 1,920 before lower-order BV/KT.** Do
+> not call the raw bosonic map dead, admit the witness as a selected map, or
+> collapse full `U(64,64)` with the two `U(32,32)` halves.
+
+> **Predecessor v0.185:** the rank-ten algebraic Higgs chain is fermion-zero-
+> order and cannot repair principal leakage; it survives for lower-order
+> Higgs/Yukawa placement.
+
+> **Predecessor v0.184:** `H640` is exact for the three observed spatial
+> evolutions, while ten transverse directions leak rank 128 and the complete
+> ambient hull is rank 1,920. Ordinary pullback kills the transverse covectors.
+
+> **2026-08-11 K77 H640 OBSERVATION GRAPH / BV TYPING (ledger v0.183).**
+> `H640` is not the coordinate `Omega^1(X,S) + Omega^0(X,S)` carrier: the
+> two rank-640 spaces intersect in rank 512 and span rank 768. Observation
+> nevertheless restricts isomorphically to `H640`, deriving a unique rank-128
+> graph lift with exact no-leakage for all three principal spatial generators.
+> Individual lower-order and mixed gauge-frame witnesses leak by ranks 128
+> and 256. **Next solve or kill the complete sixteen-cell lower-order
+> graph/Riccati and barred-adjoint conditions with rank 1,920 as the mandatory
+> control; only then build observed BV/Koszul--Tate, equation-dual and physical
+> cohomology.** Do not identify an isomorphic graph with the coordinate
+> carrier, or infer a closed analytic domain, index, count or external datum.
+
+> **2026-08-11 K77 ZERO-SEED H640 ACTION MODULE (ledger v0.182).** The
+> source-owned `Omega^0(S)` field alone generates exact conditional
+> `H640=512+128` under the complete spatial principal-action algebra; the
+> load-bearing rank is exact over `QQ`. `W`, mirror and their union generate
+> the same module, while random rank-192 controls generate `1908..1920`.
+> The old one-form 640 and 832 generate distinct rank-1280 superspaces that
+> meet exactly in `H640` and span rank 1,920. **Next derive the complete
+> action BV/Koszul–Tate differential on candidate `H640`, retaining rank
+> 1,920 as a mandatory control, and fail back to the full carrier if any
+> lower-order, barred/dual, antifield, observation or boundary block leaks.
+> Do not call principal action ownership source selection or physical
+> cohomology.**
+
+> **2026-08-11 K77 BOUNDARY BRST / COMMON ACTION CLOSURE (ledger v0.181).**
+> Ordinary-gauge BRST preserves the action-derived incoming relation and
+> descends across observation frames. Exact full-carrier tests show that `W`,
+> its mirror and their union are not invariant boundary subcomplexes, so
+> restricted physical cohomology is mistyped. All three supplied seeds instead
+> generate the same conditional `H640=512+128` spatial-action closure. **Next
+> control `H640` against random rank-192 seeds, the old one-form 640 and 832;
+> then derive full BV/Koszul–Tate on `H640` or rank 1,920 as those controls
+> decide. Keep global analytic, null BFV, horn/`p`, index and count separate.**
+
+> **2026-08-11 K77 VARIABLE INCOMING-PROJECTOR DESCENT (ledger v0.180).**
+> The selected action's principal coefficient pair derives the full moving
+> incoming projector family `Pi_in(n)=(I-D_t^-1 D_n)/2`. It has rank 960,
+> descends across moving frames, has a connection-natural derivative and
+> negative transported flux, and both doubled Majorana horns remain
+> Green-isotropic. Boundary geometry supplies the hypersurface and outward
+> unit normal that select one member; the action does not choose a unique
+> physical boundary. **Next compose this family with the source-derived
+> constraint/BV differential and observation pullback, then test boundary
+> invariance and physical W-versus-mirror cohomology. Keep global-in-time
+> estimates, null BFV, horn/`p` and index/count separate.**
+
+> **2026-08-11 K77 ENERGY/GREEN BOUNDARY-HORN COMPOSITION (ledger v0.179).**
+> The exact rank-960 incoming energy half appeared incompatible with both
+> action pairings only when the barred field was incorrectly left independent:
+> the one-sided restriction has full rank 960. After the required doubled
+> Majorana pullback, the graded Green restriction is rank zero for both exact
+> horns over two primes. **Next globalize this common incoming relation to the
+> variable-coefficient observed system and test whether the selected action
+> owns or transports its projector. Keep ambient `Y^14`, null BFV, horn/`p`
+> selection and physical cohomology separate.**
+
+> **2026-08-11 K77 OBSERVED CAUCHY-DOMAIN LAYER-0 SPLIT (ledger v0.178).**
+> The Majorana graph is a doubled-field reality reduction, not a spatial
+> incoming-mode projector. In the exact comparator the reality graph and
+> complete Cauchy data have rank four while the nonpositive spatial-flux half
+> has rank two. The completed positive common symmetrizer conditionally gives
+> a local flat observed real `H^s` Cauchy domain; moving mixed terms vanish on
+> bosonic Dirichlet tangent data. **Next construct the variable-coefficient
+> observed domain and an action-owned spatial-boundary projector or prove their
+> obstruction. Keep ambient `Y^14`, null BFV and horn/`p` selection separate.**
+
+> **2026-08-11 K77 GRADED GREEN REALITY GRAPHS (ledger v0.177).** With the
+> correct graded signs, both complete action-pairing horns make
+> `bar=P conjugate(psi)` a noncharacteristic graded Lagrangian fixed locus.
+> The Green form, graph and anti-linear exchange descend exactly across
+> Spin-natural three-patch overlaps. This removes the ordinary-even
+> `120`-coordinate graph family as the physical ambiguity inside the tested
+> action-natural class. **Next construct or kill the closed Cauchy or maximal-
+> dissipative domain and full moving mixed compatibility for each horn. Keep
+> horn/`p` selection and null-characteristic BFV separate; do not promote the
+> pointwise graph to a physical domain.**
+
+> **2026-08-11 K77 LOCAL REALITY / GRADED-DOMAIN SCOPE (ledger v0.176).**
+> Real K77 entrywise conjugation gives a local `J^2=+1` anti-linear
+> involution compatible with the normalized operator and real chirality. The
+> two exact action-pairing reality candidates both induce skew Darboux graph
+> coefficients, so v0.166's **even symmetric-graph** theorem cannot certify
+> the physical odd Grassmann domain. **Next derive the graded odd Green form
+> and moving anti-linear fixed locus from the four-field action; only then
+> attempt global Calderon/maximal-dissipative closure. Do not supply a graph.**
+
+> **2026-08-11 SOURCE-NATIVE K77 WEIGHT ORBIT (ledger v0.175).** The four-
+> independent-field action admits a complete left/right field redefinition
+> that preserves both unit cross-degree blocks and sends every nonzero weight
+> pair to the equal-weight representative. This holds on the 1,920-dimensional
+> operator, all 14 axes, noncentral even connection cells, gauge/Noether
+> transport and transported observation. `p=w_+w_-` is therefore not a
+> source-native invariant; it survives only conditionally after a missing
+> anti-linear reality restricts equivalence to congruence. **Next construct or
+> kill that reality and its moving global Green/domain; only then retest `p`.
+> Keep selected Spin, two `U(32,32)` halves and full `U(64,64)` distinct.**
+
+> **2026-08-11 SIGNATURE-AMBIENT RESOLVER DESIGN PACKET AVAILABLE
+> (absorption pointer, binds nothing).** A Joe-directed design packet for
+> the resolver-less `SIGNATURE-AMBIENT` fork is filed at
+> `explorations/signature-ambient-relative-sign-resolver-design-packet-2026-08-11.md`
+> with a green designer's certificate
+> (`tests/channel-swings/signature_ambient_relative_sign_design_certificate.py`)
+> and hostile review alongside. Core: the fork reduces to one relative-sign
+> bit; uniform-sum balances read it convention-free (draft display balance
+> 0 = `{7,7}`; transcript blocks balance 4 = `{9,5}`); an outcome-graded
+> Wave A (checks C1-C4) either resolves the fork at primary-display grade,
+> refutes the route on a displayed formula, or re-types the fork with the
+> freedom exactly characterized. This implements the route review's
+> rank-4(a). Next wave: absorb, schedule Wave A, or decline with reasons
+> per the absorption protocol.
+
+> **2026-08-11 DISCOVERY ROUTE REVIEW AVAILABLE (absorption pointer, binds
+> nothing).** A Joe-directed campaign-altitude route review of the K77
+> operator-anomaly big swing is filed at
+> `explorations/campaign-altitude-route-review-2026-08-11.md` (hostile review
+> alongside in `lab/process/hostile-reviews/`). It endorses ranks 1-3
+> unchanged and proposes: enter the global-domain rank from scratch on the
+> corrected operator (the v0.168 empty-symmetrizer kill was
+> old-operator-specific); add a non-displacing rank 4 pricing the
+> `SIGNATURE-AMBIENT` fork (over depth threshold, no named resolver since
+> M-H9's 2026-08-08 falsification); and adopt a standing family-vs-member
+> pre-flight question for obstruction-repair waves. Next wave: absorb,
+> amend, or reject per the absorption protocol.
+
+> **2026-08-11 REAL-K77 ACTION-ADJOINT/WEIGHT CLASSIFICATION (ledger
+> v0.174).** The local Grassmann action does not require the operator alone to
+> be self-adjoint. The complete Spin-natural pairing family has one
+> symmetric/anti-adjoint line and one skew/self-adjoint line; both make the
+> quadratic coefficient alternating on all 14 axes for arbitrary nonzero
+> chiral weights. A pairing-preserving chiral isometry removes the ratio and
+> leaves one invariant product `p=w_+w_-`; the local bilinear supplies no
+> equation selecting it. **Next test `p` against the full nonlinear
+> connection, Noether, normalization and observation maps. Then construct the
+> anti-linear reality involution and global Green/domain data. Keep selected
+> Spin, two `U(32,32)` halves and full `U(64,64)` distinct.**
+
+> **2026-08-11 REAL-K77 WEDGE-SHIAB/SOUTHEAST COMPLETION (ledger v0.173).**
+> The source-admitted operator family has now been constructed on real K77.
+> The K77 reciprocal relation has the opposite sign from K95 and removes the
+> rank-`128` principal Jordan remainder without quotient; the null symbol is
+> semisimple with rank/nullity `960/960`, and a positive common principal
+> symmetrizer exists. This does not select the theory: two chiral weights
+> remain free and the current diagonal K77 pairing gives a rank-`1920`
+> adjoint defect. **Next derive or kill the two weights and a compatible
+> reality adjoint from the selected independent-dual action; only then build
+> global descent/domain and observation. Keep selected Spin, two `U(32,32)`
+> halves, and full `U(64,64)` distinct.**
+
+> **2026-08-11 POLARIZED-RADICAL BFV OWNERSHIP GATE (ledger v0.172).** The
+> v0.171 rank-`128` Green radical is not the existing action-owned gauge/BFV
+> image on the zero-fermion selected real-K77 branch. Ordinary gauge has zero
+> pure-fermion trace there, small gauge has zero tangential boundary trace,
+> the moving boson--fermion cross terms vanish, and quotienting the owned
+> rank-`20` edge gauge kernel leaves the exact observed rank-`256` fermion
+> radical. The zero-fermion restriction route therefore stops. **Next build
+> the source-admitted real-K77 wedge-Shiab/nonzero-southeast operator
+> completion and recompute its semisimplicity, characteristic kernel, Green
+> adjoint and selected-action compatibility. Keep the nonzero-fermion coupled
+> BV branch separate; do not fit a ghost lift, fermion edge field or modified
+> observation.**
+
+> **2026-08-11 POLARIZED K77 GREEN-DUAL GATE (ledger v0.171).** The
+> v0.170 strict-center `ker N` restriction survives as one-sided flat
+> principal evolution data, but direct promotion to an action domain fails.
+> For the actual normal Green coefficient, the unique adjoint `Nsharp` makes
+> `ker Nsharp x ker N` Green-degenerate with rank-`128` radicals. The perfect
+> algebraic dual `Vbar/im Nsharp` is not action/BV-owned, and naive observation
+> has rank `128` on those quotient directions, so it does not descend; the
+> purely observed-frequency dual kernel itself retains only rank `512` of
+> `640`. **Next compare `im Nsharp` with the existing action-owned small-gauge
+> characteristic image and boundary moment map, then assemble the full moving
+> boson-fermion preboundary form and test coisotropic/BFV reduction plus a
+> basic modified observation. If no owned image matches, prioritize the
+> separate wedge-Shiab/nonzero-southeast operator completion.**
+
+> **2026-08-11 NONLOCAL K77 ULTRAHYPERBOLIC/POLARIZATION GATE (ledger
+> v0.170).** Craig--Weinstein's scalar strict-center support condition alone
+> leaves the actual real-K77 rank-`128` square-zero Jordan defect. The operator
+> supplies a minimal additional frequency condition
+> `N(k) u_hat(k)=0`, `N(k)=E(k)^2-rho(k)^2 I`. On the strict center cone this
+> removes the generalized chains at flat principal grade, leaves a
+> `1792`-dimensional kernel and retains the complete rank-`640` observed
+> four-vector-plus-`nu` carrier. This is a **conditional flat principal-domain
+> ingredient**, not a selected closed physical domain. **Next test it against
+> the selected-action Green form and boundary coefficient, then curved
+> overlap/pseudodifferential and BFV compatibility before nonlinear
+> propagation. Keep the source-admitted wedge-Shiab/nonzero-southeast operator
+> completion as the separate operator-changing route.**
+
+> **2026-08-11 NATURAL K77 TRACE-CONSTRAINT GATE (ledger v0.169).** The
+> complete Spin-natural zero-order family
+> `C_(a,b)(zeta,nu)=a Gamma(zeta)+b nu` has exactly one propagated
+> projective line, `C=2 Gamma(zeta)-nu`. Its kernel contains the complete
+> rank-`128` square-zero Jordan image, and the restricted remainder still has
+> rank `128`. The natural zero-order constraint route is therefore killed.
+> **Next type the Craig-Weinstein-style nonlocal ultrahyperbolic constraint for
+> the actual operator; in parallel reconcile the source-admitted wedge-Shiab /
+> nonzero-southeast semisimple completion with the current real-K77 selected
+> action. Do not call the physical trace equation a BV differential, fit a
+> direction-dependent `Q_j`, or infer a domain from propagation alone.**
+
+> **2026-08-11 UNREDUCED K77 HYPERBOLIC-DOMAIN GATE (ledger v0.168).** The
+> actual source-shaped real-K77 dimension-`1920` one-time evolution has an
+> exact rank-`128` square-zero Jordan remainder in each observed spatial
+> direction. Therefore no positive symmetrizer exists, killing the standard
+> unreduced strong/symmetric-hyperbolic maximal-dissipative Cauchy route. This
+> does not kill every closed graph or the ambient nonlocal ultrahyperbolic
+> route. **Next construct or kill a source/action-derived invariant constraint
+> or BV differential removing the generalized characteristic chains; in
+> parallel type the Craig-Weinstein-style nonlocal constraint for the actual
+> first-order operator. Do not supply a graph, promote characteristic `d` to an
+> off-shell symmetry, or port ordinary Lorentzian Cauchy theory to Y14.**
+
+> **2026-08-11 GLOBAL K77 NORMAL-SYMBOL DESCENT (ledger v0.167).** The
+> action-owned coefficient is the complete four-field fermion normal principal
+> symbol—not the bosonic `E_B-E_T` bank, a residual Riesz map, or v0.165's
+> scalar comparator. It descends globally as an associated-bundle morphism;
+> its inverse and the v0.166 Darboux atlas descend on noncharacteristic
+> conormals, with the transition-owned cotangent shift. The null symbol has
+> exact rank `1024` and kernel `896`, so there is no everywhere-invertible
+> coefficient and the null kernel is characteristic data, not automatically a
+> gauge/BV quotient. **Next construct a noncharacteristic Cauchy or maximal-
+> dissipative closed domain; use Calderon only if an elliptic boundary problem
+> is explicitly owned. Treat the null characteristic/BFV relation separately,
+> and do not supply the still-unselected 120-coordinate graph.**
+
+> **2026-08-11 MOVING ANTI-DUALIZER/DARBOUX GATE (ledger v0.166).** The
+> v0.68 complete cotangent-lift theorem specializes exactly to v0.165's
+> independent-dual Green potential. The moving coefficient forces
+> `v=A^T bar` and the half momentum shear
+> `P_i=p_i+1/2 bar^T(partial_i A)psi`; pulling back the constant exchange
+> gives a local involutive anti-symplectic map wherever `A` is real and
+> invertible. This repairs the naive mixed-term obstruction but transports
+> every supplied symmetric graph, leaving at least 120 coordinates unselected.
+> **Next identify the actual selected K77 normal Green coefficient as a global
+> real invertible bundle map and test overlap descent, then construct the
+> Calderon or maximal-dissipative projector and unrestricted BFV completion.
+> Do not supply a graph.** No headline, residue, datum, canon or public-posture
+> change is made.
+
+> **2026-08-11 COUPLED GREEN/DOMAIN GATE (ledger v0.165).** The selected
+> action's exact algebraic boson-plus-four-independent-fermion symmetrized
+> preboundary form is now nondegenerate and includes the live moving-normal
+> mixed terms. Full-carrier small-gauge-basic Lagrangian trace graphs exist
+> conditionally, but the smallest tested symmetric multiplicity family leaves
+> at least 120 coordinates and selects no member. The fixed-normal fermion
+> reality is anti-symplectic; its naive total moving extension fails on those
+> mixed terms. **Next derive the actual moving anti-linear K77 reality and its
+> total Calderon or maximal-dissipative projector from the selected action,
+> then test global descent and unrestricted BFV edge completion. Do not supply
+> a 120-function graph.** Observation, chirality, mirror, index/count and the
+> physics rendezvous remain downstream. No headline, residue, datum, canon or
+> public-posture change is made.
+
+> **2026-08-11 COUPLED ORDINARY-GAUGE NOETHER/BV GATE (ledger v0.164).** The
+> source-typed local ordinary-gauge differential now closes exactly on
+> `varpi`, all four independent fermion fields, all four operator blocks and
+> the nonabelian ghost; the fermion density is invariant off shell. But the
+> pointwise action is `I_15 tensor rho`, so every three-plane in the
+> zero/one-form multiplicity factor supplies a gauge-invariant rank-384
+> carrier. The graph chart alone is 36-dimensional: ordinary gauge symmetry
+> preserves supplied carriers but selects none. **Next build the coupled
+> selected-action boson-plus-four-fermion symmetrized Green/preboundary form
+> and classify gauge-basic constrained-real Lagrangian domains without a
+> fitted projector.** Global BV/BFV cohomology, observation, chirality,
+> index/count and physics rendezvous remain downstream. No verdict, residue,
+> quotient, datum, canon or public-posture change is made.
+
+> **2026-08-11 UNRESTRICTED SOUTHEAST/BV-KERNEL GATE (ledger v0.163).** The
+> smallest source-admitted K77 lower-right family is explicit, and a stronger
+> exact block theorem covers every southeast `128 x 128` matrix: it leaves the
+> selected complete four-field determinant unchanged and nonzero at every
+> non-null covector. No fixed southeast member can therefore supply a nonzero
+> fermion-only principal gauge generator or left Noether identity. The sampled
+> null kernel has dimension `896`, but it is characteristic propagation, not a
+> gauge/BV quotient. **Next build the coupled `varpi` plus four-independent-
+> fermion ordinary-gauge action, derive its off-shell Noether identity and
+> minimal BV differential, and test nilpotence/action invariance without a
+> rank-384 projector.** Global domain, observation, chirality, index/count and
+> physics rendezvous remain downstream. No verdict, residue, quotient, datum,
+> canon or public-posture change is made.
+
+> **2026-08-11 UNRESTRICTED FOUR-FIELD EULER IMAGE (ledger v0.162).** The
+> selected complete timelike and spacelike four-field principal symbols are
+> full rank `1920`, and the nondegenerate Krein pairing gives a full-rank
+> action dual. The tested rank-`384` graph receiver and paired left hull are
+> proper codimension-`1536` subspaces for both Pin placements. The bounded
+> graph route is therefore not selected by the unrestricted action and stops
+> without a fitted projector. **Next build the unrestricted four-field source
+> operator with the source-admitted southeast rival typed explicitly, then
+> derive or kill its off-shell constraint/BV complex. A smaller carrier may
+> revive only if that pre-variation construction derives it.** Global domain,
+> observation, chirality, index/count and physics rendezvous remain downstream.
+> No verdict, residue, quotient, datum, canon or public-posture change is made.
+
+> **2026-08-11 FIXED COMMON RECEIVER HULL (ledger v0.161).** The exact
+> timelike, spacelike and null minimal receivers each have rank `256`, but
+> every pair intersects only in the original rank-`128` receiver and joins to
+> rank `384`. Both Pin placements give the same tested rank-`384` common hull
+> and paired action hull, so the fixed-rank-`256` reading is killed. The source
+> owns the ambient four-field grammar, not this finite reduction; moreover
+> `P_epsilon` and `D_varpi chi_epsilon` are bosonic parent constraints and
+> cannot directly select a fermion receiver. **Next compare the common hull
+> with the unrestricted four-field Euler image and action dual. If equality or
+> off-shell ownership fails, stop the bounded graph route and return to the
+> unrestricted source operator. Only an induced fermion Dirac/RS/BV
+> intertwiner may then run graph/mirror/random-192/640/832 controls.** No
+> verdict, residue, quotient, datum, canon or public-posture change is made.
+
+> **2026-08-10 SOURCE-OWNED HULL INTERFACE (ledger v0.160).** Primary-source
+> collision corrects one Layer-0 type in v0.159: the additional paired left
+> directions have the already-declared independent barred/unbarred
+> `Omega^0 plus Omega^1` field type. They are not 128 new fundamental fields.
+> The source still does not select one fixed, covector-independent finite
+> reduction, and equal rank 256 in three causal strata does not prove equal
+> subspaces. **Next form the fixed common hull and test the action-owned moving
+> reduction conditions `P_epsilon u=u` and `D_varpi chi_epsilon=0` against the
+> graph, mirror, random graded 192s, 640 and 832. Stop if only a fitted
+> projector or unrestricted function-valued map selects it.** BV/domain,
+> observation/chirality/mirror, datum/index/count and the Higgs/Yukawa,
+> anomaly and cosmology rendezvous gates remain ordered downstream. No
+> verdict, residue, quotient, datum, canon or public posture moves.
+
+> **2026-08-10 HIGH-CONVICTION RECEIVER COMPARISON (ledger v0.159).** Three
+> specialist outliers are now exact on the v0.158 K77 graph. The natural
+> two-coefficient southeast family is transverse to the leak; the natural
+> gauge image overlaps only rank 64 at the null covector and none nonnull; and
+> the smallest enclosing receiver has rank 256 but requires 128 additional
+> paired left fields not owned by the source. **Next construct or kill a
+> source-owned paired rank-256 field/action hull. If source grammar cannot own
+> it without an arbitrary map, stop the graph route and return to the
+> unrestricted source operator.** A broader southeast family must be typed and
+> parameter-counted before inspection. No verdict, datum, residue, quotient,
+> canon or public posture moves.
+
+> **2026-08-10 GRAPH-DYNAMICS GATE (ledger v0.158).** The exact
+> `Omega0`--gamma-trace graph is action-active: both Pin placements have
+> rank-128 induced Green matrices in tested observed timelike, spacelike and
+> null strata, and all fourteen natural transverse connection-current cells
+> have rank 128 while their radial sum cancels. But the full principal Euler
+> residual leaks rank 128 outside the graph receiver in every stratum. **Next
+> construct or kill an action/source-owned rank-128 equation receiver or
+> constraint completion. Compare the source-admitted southeast-nonzero map,
+> the smallest leaked-image extension, and a genuine gauge/BV image; reject
+> projection by fiat and preserve the Green form.** Only after closure build
+> BV/domain and then observed representations/index. No verdict, datum,
+> residue, quotient, canon or public posture moves.
+
+> **2026-08-10 MOVING-`VARPI` STATIONARY INTERSECTION (ledger v0.157).** The
+> v0.156 full-rank certificate survives at its fixed decomposable fixture, but
+> that fixture is not the tautological source connection. On both exact
+> nonzero bosonic branches, both canonical displayed-zero trace-`q`/Pin
+> candidates have exact rank/nullity `1792/128`. Their explicit
+> characteristic-zero kernel graph pairs `Omega0(S)` with gamma-trace
+> `Omega1(S)` and projects to zero under `Pi_RS`, `W` and mirror. **Next couple
+> this graph to the action-derived fermion current and full differential
+> operator, then construct its BV/Green closed domain. Keep W, mirror and the
+> source-admitted southeast-nonzero map separate; do not infer a physical mode,
+> index or count from zero-order nullity.** No datum, P1/P2/P3, verdict,
+> residue, quotient or canon moves.
+
+> **2026-08-10 NONZERO-FERMION STATIONARY SCHUR REDUCTION (ledger v0.155).**
+> Under maximal rank of the draft-9.16 off-diagonal blocks, the finite
+> stationary kernel of `[A B; C 0]` is exactly the kernel of
+> `ker(C) -> coker(B)`. The desired and mirror K77 `192+128` sectors therefore
+> reduce conditionally to `64 x 64` effective maps. The southeast zero does
+> not force a nonzero mode, and ordinary coefficient-conjugate desired/mirror
+> maps have equal nullity. **Next assemble the actual `varpi` `A/B/C` cells,
+> test their ranks and effective maps across full `U(64,64)`, moving Spin and
+> two `U(32,32)` halves. Only after a genuine rank loss survives should Build
+> pay for coupled bosonic stationarity, source reality, BV/Green domain and the
+> dependent index/count gate.** No datum, P1/P2/P3, verdict, residue, quotient
+> or canon moves.
+
+> **2026-08-10 RELATIVE-BOUNDARY/P3 REAL-KO INTERFACE (ledger v0.154).** The
+> observed `SL(2,C)` boundary winding now maps canonically through
+> `SU(2)=Sp(1)` clutching into P3's relative real-`KO` input twist, with exact
+> `c2=n`, fundamental `p1=-2n` and adjoint `p1=-4n`. This closes the typed
+> input-class gap but does not create a Fredholm index or generation count.
+> The original P3 right-`H` comparator is K95-specific; a real `KO` twist can
+> tensor K77, but neither two `U(32,32)` Weyl halves nor complexification
+> supplies the missing quaternionic commutant, closed K77 relative domain,
+> index or count. Strict surplus remains `1-1=0`. **Next resume the nonzero-
+> fermion source-operator/stationarity branch to build the physical K77
+> carrier and domain, then run the dependent relative-index/count gate. Do not
+> restrict the action at zero surplus.** P1/P2/P3, verdicts, residue, quotients
+> and canon remain unchanged.
+
+> **2026-08-10 ACTION-INDUCED REAL-PAIRING/HORN GATE (ledger v0.153).** In
+> the selected Spin-native scalar-Clifford-trace parent, the observed Lorentz
+> chiral pairing is exactly `B_Re`: the ordinary real trace adds the two
+> conjugate Weyl blocks, while `B_Im` requires a different chirality insertion.
+> Thus the projective `r` and independent horn cost close conditionally. Reality
+> or orientation alone do not select this line, and the source does not settle
+> the action parent. One integer remains against one amplitude equation, so
+> strict surplus is exactly `0`; BFV basicness is admissibility, not a second
+> fit equation. **Next construct or kill a typed relative-boundary index map
+> into P3. If it exists, rerun surplus expecting `2-1=+1`; otherwise the route
+> remains zero-surplus and action restriction stays blocked.** P1/P2/P3,
+> verdicts, residue, quotients and canon remain unchanged.
+
+> **2026-08-10 EXTERNAL RELATIVE-DATUM SURPLUS GATE (ledger v0.152).** The
+> minimal observed-boundary coupling
+> `I_cond[n,r]=I_G2+k CS_Br(a_plus,a0_plus;g_n)` exists. Fixed compatible
+> `(n,r)` conditionally selects a finite stationary amplitude and preserves
+> small-gauge basicness plus the existing local bulk Euler equations. But its
+> datum Jacobian has rank one against two supplied coordinates: strict surplus
+> is `-1`, favorable row surplus is `0`, large-gauge compatibility selects no
+> component, and winding `n` is not P3. **Next independently (1) derive or
+> kill the pairing ratio/chiral horn from action-owned reality and boundary
+> orientation, and (2) construct or kill a typed relative-index-to-P3 map.
+> Rerun surplus before restricted Euler, stress or domain work.** P1/P2/P3,
+> verdicts, residue, quotients and canon remain unchanged.
+
+> **2026-08-10 RELATIVE CHIRAL-TRANSGRESSION OWNERSHIP GATE (ledger v0.151).**
+> Source-owned `A0` and its same-bundle bitorsor globalize the relative
+> construction, but the canonical identity has winding zero and a generic
+> Chern--Simons interpolation is continuous rather than quantized. A nonzero
+> integer requires an unowned large-gauge component; ambient `A0` is not
+> automatically the observed chiral connection; and the real pairing still
+> has one projective ratio. **Next type and couple the minimal explicit
+> external `(n,r)` datum through an action-owned tangential chiral reduction.
+> Rank its independent constraints across cosmological amplitude,
+> chirality/P3 and boundary charge. Kill it if it relabels P3, breaks BFV
+> invariance or has nonpositive surplus; restrict `I1` only after a positive-
+> surplus pass.** P1/P2/P3, verdicts, residue, quotients and canon remain
+> unchanged.
+
+> **2026-08-10 LORENTZIAN CHIRAL-CLASS/PAIRING GATE (ledger v0.150; successor
+> scoped by v0.151).** The
+> absolute tangential unit selector is unavailable on both admissible global
+> horns tested. Globally hyperbolic `X ~= R x Sigma3` has ordinary `H^4=0`;
+> closed time-oriented Lorentzian spin `X` has `chi=0`, `signature in 16Z` and
+> chiral `c2` in `12Z`, so `+/-1` is impossible. Real invariant chiral
+> pairings exist but form a two-dimensional neutral space; the source does not
+> choose its projective ratio or reality condition. **Next construct a source-
+> owned relative/compact-support/boundary transgression and real pairing. Kill
+> it if it adds a free integer or ratio; restrict and vary `I1` only if it is
+> derived.** P1/P2/P3, verdicts, residue, quotients and canon remain unchanged.
+
+> **2026-08-10 P3 REPLACEMENT SURPLUS GATE (ledger v0.149; successor scoped by
+> v0.150).** Of the two
+> successors opened by v0.148, the tangential same-bundle identity is the only
+> zero-continuous-cost route. It inherits the actual observation background's
+> `c2` rather than universally supplying `+1`, and Lorentzian chirality is a
+> complex `SL(2,C)` structure rather than a real compact self-dual `SU(2)+`
+> connection. Exact equivariance gives `Hom_SO(1,3)(H,Sym2 H*)=0`; a general
+> H-N reduction costs 24 pointwise functions and the minimal timelike-vector
+> repair costs three. **Next test a nonzero source-owned chiral `c2` and real
+> selected-action pairing on an admissible Lorentzian observation background.
+> Restrict and vary `I1` only if that gate passes.** H-N soldering reopens only
+> if the source action derives it with positive constraint surplus. P1/P2/P3,
+> verdicts, residue, quotients and canon remain unchanged.
+
+> **2026-08-10 P3 NORMAL/TANGENTIAL SUPPORT GATE (ledger v0.148; successor
+> ranked by v0.149).** The
+> actual-base map kills the current nontrivial P3 support diagonal. P3 lives on
+> a normal four-cycle, which projects to one observer-base point; therefore the
+> tangential source bundle restricts with `c2=0`, while P3 `n=+1` has `c2=1`.
+> Normal and horizontal self-dual form slots also have disjoint rank-three
+> spans, so internal gauge cannot repair the mismatch. The v0.147 abstract
+> `S4` class theorem survives re-scoped. **Next design either a tangential/base
+> P3 support map or a source-owned horizontal-normal soldering reduction and
+> count its constraint surplus. Do not restrict or vary `I1` until one passes.**
+> P1/P2/P3 stay unassigned; no canon, verdict, residue or quotient moves.
+
+> **2026-08-10 P3 CHIRAL-SPIN BUNDLE DIAGONAL (ledger v0.147, re-scoped by
+> v0.148).** On one abstract model `S4`, P3 `n=+1` and `S+` have the same
+> `c2=1` class. This remains true, but it is not an actual support-pullback
+> connection map. v0.148 shows that P3's written normal cycle and the
+> observer-tangential source bundle are different actual carriers.
+
+> **2026-08-10 P3 SELF-DUAL SOURCE-REDUCTION GATE (ledger v0.146).**
+> The current-action revival is closed. The exact nonzero source curvature
+> preserves four-plane chirality but has rank-three nonzero components in both
+> `su(2)+` and `su(2)-`; therefore `D_B P_sd=0` preserves a split but does not
+> select one factor, and pure `SU(2)+` membership forces `t=0`. **Next build or
+> kill an explicit P3-to-source `SU(2)+` principal-bundle diagonal, restrict
+> `I1` before variation, and recompute the complete Euler/BV/domain bank.** Do
+> not project the old two-factor solution afterward or identify the auxiliary
+> BPST bundle with the source subbundle by name. P1/P2/P3 stay unassigned; no
+> canon, verdict, residue or quotient moves.
+
+> **2026-08-10 VERIFICATION RECEIPTS + PROCESS PACKAGE (absorption surface).** Two hostile-verification
+> runs and the process-hardening package landed today; the machine-tracked banner backlog (17 gaps) prints
+> from `process_gates/correction_propagation_audit.py`, but several owed edits are text-level and live only
+> in the receipts:
+> `explorations/hostile-verification-harness-receipt-2026-08-10.md` (T1-T4 carrier-BLIND sharpening; the
+> mass-scramble redesign requirement; the "W and mirror remain identical" clause fix; the canon
+> scope-correction homonym; the carrier-stack gate AssertionError),
+> `explorations/canon-spine-hostile-sweep-receipt-2026-08-10.md` (9 owed-edit groups incl. Theorem 3
+> false-as-written, the (7,7) contingency missing from the live successors, the rfail r-exponent), and
+> **`explorations/judge-corrected-claims-addendum-2026-08-10.md` — the judges' exact replacement sentences,
+> extracted from session-local journals so they are actually reachable.** Process package:
+> `explorations/process-hardening-manifest-2026-08-10.md` (two-phase promotion now in AGENTS.md).
+> Queued Fable-tier targets when capacity allows: the SG4 spec-conformance audit once the wave's action
+> stabilizes, and the canonical-J question (does the moving reduction supply a fundamental symmetry — if
+> yes, the van den Dungen index route reopens).
+
+> **2026-08-10 P3 NATIVE CHARACTERISTIC-PAIRING KILL (ledger
+> v0.145).** The direct v0.144 horn is closed. On P3's framed four-plane,
+> `Phi1 wedge Phi1` has equal opposite self-dual/anti-self-dual quadratic
+> pairings. Moving-Spin Killing/vector trace, each `U(32,32)` half, full
+> `U(64,64)`, and the unitary central invariant all give exactly `C_B=0`.
+> Thus `n=+/-1` allows no direct amplitude and `n=0` leaves every amplitude.
+> A self-dual `SU(2)` projection is nonzero but is not a current parent
+> invariant. Its current-action successor is discharged negatively by v0.146:
+> split preservation does not select one factor. Do not substitute
+> auxiliary BPST curvature for the unprojected source curvature. P1/P2/P3 stay
+> unassigned; no canon, verdict, residue or quotient moves.
+
+> **2026-08-10 P3 CHARACTERISTIC-AMPLITUDE CONDITIONAL (ledger
+> v0.144).** The remaining source-family amplitude need not be supplied as an
+> arbitrary real: if the varied source connection carries a fixed nonzero
+> characteristic sector on P3's existing framed four-cycle, then
+> `k_B=C_B t^4/9` discretizes `|t|`. This is a conditional construction, not a
+> current P3 result. P3 is presently an auxiliary KO/BPST operator twist, not
+> the source connection; the source/P3 diagonal, native nonzero pairing `C_B`,
+> global domain, and any P1 sign map remain unbuilt. **Next compute the source
+> connection's characteristic pairing for each retained parent and kill the
+> route if it is zero, unowned, or continuously normalized.** P1/P2/P3 remain
+> unassigned; no canon or residue moves.
+
+> **2026-08-10 GLOBAL PROJECTOR / VEV-AMPLITUDE LAYER-0 GATE (ledger
+> v0.143).** The v0.15 normalized projector is real prior art: `Q=1-Pi0`
+> conditionally screens independent constant source shifts. Composed with the
+> v0.142 family it adds zero amplitude equations. `ell` reads `t`; requiring
+> `T in im Q` forces `t=0`; imposing `ell(T)=c` selects exactly the supplied
+> `c`. **Build the common Green/Krein and coupled BV--BFV domain, then derive
+> an action-owned amplitude-dependent global solvability, determinant,
+> boundary-charge or stability condition—or explicitly type an external value
+> and count its surplus.** Do not rebuild the projector or call screening a
+> magnitude derivation. P1/P2/P3 remain unassigned.
+
+> **2026-08-10 ZERO-FERMION VEV SELECTOR EXHAUSTION (ledger v0.142).**
+> The previous rank-one instruction was stale: v0.108--v0.114 already built
+> and hostile-reviewed an action-owned curvature/distortion family whose two
+> densities cancel the local ten-component metric-volume trace exactly. The
+> corrected source Euler system has rank two on three invariant values and
+> leaves one amplitude. Zero-fermion current adds no equation; the full-rank
+> pointwise connection Hessian acts on a different tangent; and the existing
+> classical symplectic/BFV structures are amplitude-blind. **Next construct a
+> global normalized observer/source functional or explicitly typed external
+> normalizer plus the common bulk Green/Krein and coupled BV--BFV domain.**
+> Then test observation Hilbert stress, vacuum-shift screening and cosmology.
+> Keep the nonzero-fermion source-operator branch separate. This is not a
+> global or quantum no-selector theorem. P1/P2/P3 remain unused.
+>
+> **Superseded priority:** the v0.141 instruction immediately below to
+> construct local VEV stress is discharged by this composition; retain its
+> zero-fermion derivative-order theorem.
+
+> **2026-08-10 ZERO-FERMION COUPLED HESSIAN / CURRENT-ORDER GATE
+> (ledger v0.141).** For every even action `S_B(b)+zbar D(b)z`, the
+> action-emitted `J_D+J_F` current and both one-boson/one-fermion Hessian
+> blocks vanish at zero fermion. The fermion Hessian remains `D`, while the
+> current vertex first appears in the one-boson/two-fermion third derivative
+> `dD/db`. The v0.107 rank-one metric trace therefore survives unchanged and
+> cannot be cancelled by matter at this background. Continue the zero-fermion
+> dynamic VEV/Hilbert-stress and bosonic BV Build as rank one. Construct the
+> source-selected K77 operator plus a nonzero-fermion stationary branch as a
+> separate, nonconflicting Build. Do not insert a second bridge: it erases the
+> action-owned cubic vertex. No verdict, residue, quotient, datum, or
+> P1/P2/P3 moves.
+>
+> **2026-08-10 SOURCE-SIGN TRACE-Q DEGREE-DUALITY GATE (ledger v0.140).**
+> Bare `gamma(q)` leaks rank `64` outside the gamma-traceless RS carrier. Its
+> Pin completion preserves RS but exchanges rank-`192` `W` with its ASD mirror,
+> forcing the rank-`384` pair. On that pair both source-sign row/column
+> primalizers have port/leak/joined ranks `128/128/256` on every parent over
+> both exact fields, so neither upper graph exists. The older q family has
+> joined rank `128`, proving this is not dimensional tautology. This kills only
+> canonical trace-q degree duality on the proposed RS carrier. **Do not retune
+> this sign cluster.** A replacement Shiab/restricted port must be a genuinely
+> new source-owned object; otherwise advance the disjoint coupled-functional
+> Build through metric, epsilon, observation, fermion-current, Ward and BV.
+> No verdict, residue, quotient, datum, or P1/P2/P3 moves.
+>
+> **2026-08-10 Q-REPAIRED GRAPH / LOWER-LEFT GATE (ledger v0.139).** The
+> v0.138 port determines a unique rank-`64` W or mirror graph on each parent
+> witness. Its upper residual vanishes, but its induced carrier action is zero
+> while the action-tied lower-left restriction and complete lower residual
+> retain rank `64`. The current q-repaired conditional rival therefore has no
+> invariant W or mirror graph; W and mirror remain identical. **Next resolve
+> or kill the source-faithful ambient-half-sign and degree-duality collision
+> without relabeling the source fields.** Only a surviving Shiab/adapter
+> returns to moving descent, BV or domain work. No verdict, residue, quotient,
+> datum, or P1/P2/P3 moves.
+>
+> **2026-08-10 FOUR-FIELD ZERO-ORDER PORT (ledger v0.138).** The ordinary
+> `Omega0(S) -> Omega1(S)` connection cell in the already-built equation-9.16
+> grammar has rank `128` and contains the preferred rank-`64` W or mirror leak
+> on each parent ablation. The quotient condition has rank one: moving Spin
+> and the two `U(32,32)` halves require `alpha=beta`, while the full-U odd
+> coset requires `alpha=-beta`. The two restricted horns therefore pass a
+> necessary adapter gate; the source-full parent remains coefficient-conflicted.
+> Its graph-Riccati/lower-left successor is discharged negatively by v0.139.
+> Image
+> inclusion is not graph invariance, chirality, cohomology, spectrum or count.
+> No verdict, residue, quotient, datum, or P1/P2/P3 moves.
+
+> **2026-08-10 ACTION-OWNED LEAKAGE COMPOSITION (ledger v0.137).** The
+> selected action does not provide the smaller admissible connection field
+> tangent left open by v0.136. Moving Spin retains the leaking grade-two
+> witness, the two `U(32,32)` halves retain the leaking grade-six witness, and
+> source-full `U(64,64)` retains the leaking grade-one coset witness. The
+> nonzero-branch pointwise first-action Hessian has zero radical on all three
+> grades. This closes only the field-tangent/Hessian escape, not the coupled
+> solution tangent, gauge orbit, complete four-field operator, BV cohomology,
+> or analytic domain. **Next construct the complete equation-9.16 four-field
+> BV/constraint/domain cohomology or a different source-compatible adapter.**
+> No verdict, residue, quotient, datum, or P1/P2/P3 moves.
+
+> **2026-08-10 ZERO-ORDER W/MIRROR PARENT LEAKAGE (ledger v0.136).** The
+> already-built q-repaired draft-9.16 middle family preserves neither proposed
+> rank-`192` `W` nor its rank-`384` closure with the ASD mirror. For one
+> B-skew witness in each of moving Spin, the two `U(32,32)` halves, and
+> source-full `U(64,64)`, both cross-sector leakage and leakage outside the
+> doubled pair have exact coefficient rank two; only the zero operator removes
+> either. W and mirror remain exactly symmetric. J-commuting witnesses minimize
+> leakage at `alpha=beta`, while the full-parent J-anticommuting coset witness
+> minimizes it at `alpha=-beta`. Its smaller action-field-tangent successor is
+> discharged negatively by v0.137. A different adapter, full four-field
+> operator, BV cohomology, or domain selection remains open. No verdict,
+> residue, quotient, datum, or P1/P2/P3 moves.
+
+> **2026-08-10 INDUCED FERMION PRINCIPAL DISCRIMINATOR (ledger v0.135).**
+> The exact source-guided K77 Dirac/RS principal symbol is informative but not
+> selective. At an observed base-null covector, proposed self-dual `W` and its
+> exact ASD mirror both have characteristic rank/kernel `224/96`; the natural
+> `832` and `640` sectors likewise retain half their one-form dimension. Three
+> planted random rank-`192` planes have kernels `1/0/0`, so this is genuine
+> module detection rather than dimension matching. Full `U(64,64)`, moving
+> Spin and two-`U(32,32)` parents coincide at principal order because their
+> distinctions are zero order. **Next assemble the exact draft-9.16
+> zero-order `varpi`, reality/BV and domain discriminator on all three parent
+> ablations, and require physical K-definite cohomology to select `W` over its
+> mirror.** Do not book a quotient, index or generation count from a
+> characteristic kernel. No verdict, residue, datum or P1/P2/P3 moves.
+
+> **2026-08-10 NONZERO-BRANCH PARENT HESSIAN (ledger v0.134).** At
+> `T*=-(kappa_1/312)Phi1`, the complete pointwise first-action connection
+> Hessian has rank `229,376` and inertia `(114,659,114,717,0)`. Both the
+> `113,792+115,584` `B`-adjoint split and the `114,688+114,688` Weyl
+> block/coset split have zero radical. The action therefore derives neither
+> hard reduction. Odd `Phi1` lies outside the two-half connection reduction,
+> but remains in full `U(64,64)` and a separately posited moving-Spin domain;
+> this branch does not select between them. **Next construct the induced
+> source-full K77 Dirac/RS operator, retaining moving-Spin and two-half
+> restrictions as ablations, and test `W`, mirror, random `192`, `640`, and
+> `832` through its kernel/cohomology/spectral projector.** No verdict,
+> residue, quotient, datum or P1/P2/P3 moves.
+
+> **2026-08-10 BOSONIC PARENT ACTION OWNERSHIP (ledger v0.133).** The written
+> source action norms the full connection displacement. Its exact quadratic
+> Hessian is nonzero on the rank-`8256` `B`-adjoint complement at the zero
+> branch for nonzero `kappa_1`, so a hard moving-Spin restriction is not an
+> action equation there. `D_varpi chi_epsilon=0` is a different
+> `8192+8192` Weyl block/coset restriction and excludes the known odd-`Phi1`
+> nonzero invariant branch. **Next compute the complete selected-action normal
+> Hessian at `T*=-(kappa_1/312)Phi1`, decomposed both ways.** Then construct the
+> induced K77 Dirac/RS operator on the source-full carrier with moving-Spin and
+> two-half comparators. No verdict, residue, quotient, datum or P1/P2/P3 moves.
+
+> **2026-08-10 ACTION-REDUCTION / FERMION-CARRIER TYPE CORRECTION (ledger v0.132; superseded in priority by v0.133).**
+> Exact fixed-`W` theorems survive conditionally, but the old internal
+> `Spin(10)` Casimir is scalar on the parent block and accepts a planted random
+> `192`; it cannot identify the physical generation carrier. The v0.130
+> rank-8128 projector acts on bosonic connection coefficients, not on the
+> distinct `640+832+192` fermion carrier. Exact projector variation and prior
+> stationarity show only a local first-order consistent-truncation candidate,
+> not unique action selection. Finish bosonic parent ownership first; then
+> construct the induced K77 Dirac/RS operator or BV differential and run the
+> mirror/random/`640`/`832` controls on its physical kernel or cohomology. Next,
+> repair silent Hermitization and run
+> the carrier-mass scramble plus hostile T1--T4 check. Then cross-tab the exact
+> `40=32+8` SM-neutral states under the selected moving reduction, mass and
+> anomaly constraints. Do not call them dark matter. Index machinery reopens
+> only after the reduction supplies a fundamental symmetry, closed domain and
+> Fredholm operator. In parallel, a disjoint Verify Run should repair H10-01's
+> swapped `-4/3` spin-2 / `+1/3` scalar coefficients before wave22 is cited;
+> the independent `F_2`/UNSAT test is valid collision-fallback work. See
+> `lab/process/exploration-absorption-priorities-2026-08-10.md`.
+
+> **2026-08-09 SESSION INDEX + OWED ITEMS.** A long session produced findings,
+> retractions and owed work that otherwise live only in `explorations/`. Single
+> retrieval surface: **`explorations/SESSION-INDEX-2026-08-09.md`**.
+>
+> **Headline finding:** the generation-carrier identification is
+> **NON-DISCRIMINATING** -- `Casimir = -11.25` is exactly a scalar on the whole
+> 128 and a *random* 192-dim subspace passes the same test; and T1-T4 (Krein
+> signature, isotropy, `{K,chir}=0`, net chirality) turn out to be **ambient**
+> rather than carrier properties. **"The 192 is the generation carrier" is an
+> assertion, not a result**, and finding a criterion that discriminates is the
+> sharpest open question the session produced.
+>
+> **Owed, unowned:** H10-01 remediation (Stelle Yukawa coefficients are swapped;
+> spin-2 ghost carries `-4/3` -- diagnosis settled against the literature, fix
+> not applied, 9 sites + wave22 re-run); `ghost_parity_krein.py:76` silently
+> Hermitizes and manufactures signatures; the carrier mass results are the only
+> leg untested under scramble; the `sigma` homonym rename; the `F_2`/UNSAT
+> frustration test specified 2026-07-15 and never run. Full list in section C of
+> the index.
+>
+> **Also retracted this session** (do not cite): the `24 sqrt(2)` frame-charge
+> reading, the `mu`-asymmetry as an anomaly, and "domain unique and forced".
+
+> **2026-08-10 MOVING-PARENT BUNDLE / TWO-HALF REDUCTION (ledger v0.130).**
+> v0.129's full-carrier force is fixed-frame only. Transporting the rank-`8,128`
+> projector with the source-owned epsilon frame gives exact noncommuting cocycle
+> descent and Euler covariance on all `16,384` directions. Both moving Spin
+> total `113,893` and full-U total `229,477` globalize. The two `C^(32,32)`
+> halves are a moving `8,192+8,192` block/coset reduction inside source full
+> `U(64,64)` `P_H`, not automatically a second principal connection. Ordinary
+> observation value pullback gives totals `32,613/65,637` but selects neither
+> internal parent. **Next derive whether the selected action owns
+> `P_epsilon u=u` and/or `D_varpi chi_epsilon=0`, including projector variation
+> and the complement Euler equation.** Only then resume gauge/domain work.
+> P1/P2/P3 remain unused.
+
+> **2026-08-10 GRADE-FIVE / UNITARY-PARENT EULER CLOSURE (ledger v0.129).**
+> Grades `1+2+5` are not closed under the exact first-order K77 Euler operator:
+> grade five emits grade six. The minimum closure made from complete Clifford
+> grade spaces is the `B`-skew Spin sector, with total tangent `113,893`.
+> Requiring either the two-`U(32,32)` symmetry or full-`U(64,64)` symmetry
+> forces the full field tangent `229,477`; equal carrier size does not collapse
+> their distinct symmetry and pairing-coordinate burdens. **Next globalize the
+> `113,893` and `229,477` carrier horns, then test moving-epsilon equivariance
+> and observation reduction before parent selection or gauge/domain work.**
+> P1/P2/P3 remain unused.
+
+> **2026-08-10 COMPLETE EULER-JET TANGENT CLOSURE (ledger v0.128).** The
+> natural principal tangent `915` is not closed under the source-owned
+> first-order Euler operator. Four observed `H*` jets fill
+> `H tensor Sym^2_0(N)` and force conditional tangent `1,131`; all fourteen
+> source-native `Y^14` jets fill the complete selected low-grade tangent
+> `1,571`. Ordinary pullback forgets conormal jets but does not constrain the
+> upstairs Euler equation, so `1,131` requires an independently source-owned
+> conormal constraint or BV differential. **Next port the rank-`1,571`
+> operator to grade five, the two `U(32,32)` halves and full `U(64,64)`.** Keep
+> `1,131` as a conditional rival, and do not infer a quotient, global domain or
+> physical spectrum. P1/P2/P3 are unused.
+
+> **2026-08-10 OBSERVATION-STABILIZER SUBBUNDLE (ledger v0.127).** The exact
+> rank-`594` grade-two fiber is preserved by all `6+45` generators of
+> `so(1,3)+so(6,4)` and has the rational natural decomposition
+> `160+180+60+184+10`. It therefore defines an associated subbundle conditional
+> on a supplied observation reduction, giving total local-principal tangent
+> `915`. A mixed ambient generator expands `594 -> 727`, so this is not an
+> upstairs `Spin(7,7)` subbundle before observation. The basis is now a small
+> dependency-hashed nonrecursive bank. **Next build lower-order and derivative-
+> jet first-action Hessian closure on this natural `915` tangent.** Do not
+> invent a BV quotient or port to two `U(32,32)` halves/full `U(64,64)`.
+> P1/P2/P3 are unused.
+
+> **2026-08-09 MINIMAL K77 HESSIAN TANGENT (ledger v0.126).** The local-
+> principal selected-Spin field tangent is now narrowed exactly: a fixed-symbol
+> rank-`89` covector image closes at `174`, the three stored representatives at
+> `464`, and the full `X^4` symbol basis on both stationary branches at a common
+> rank-`594` grade-two source subspace. Thus the minimum known tangent is
+> `321 + 594 = 915`, proper inside `1,571`, with no new coefficient or datum.
+> The matched-`q` Noether theorem is a kernel identity, not a quotient map, and
+> primitive epsilon retains a live boundary moment map. **Next build lower-order
+> and derivative-jet closure on `915` and a source-natural global subbundle
+> description.** Do not invent a BV quotient or port this selected-Spin result
+> to the two `U(32,32)` halves or full `U(64,64)`. P1/P2/P3 are unused.
+
+> **2026-08-09 MOVING-METRIC FIRST-ACTION HESSIAN (ledger v0.125).** Exact
+> co-moving naturality completes all ten selected-Spin metric/source columns:
+> the intrinsic first-action block equals the cached source-field block at the
+> two stationary branches and has full/horizontal/off-slice ranks `9/9/4` in
+> every causal class. Together with the complete epsilon ranks `91/6/88`, the
+> `321` truncation is not Hessian-closed. **Next classify the off-slice image as
+> a minimal source/action-owned tangent closure or the image of a derived
+> constraint differential. Do not manufacture an algebraic quotient or
+> automatically promote all `1,571` low-grade coordinates.** The two
+> `U(32,32)` halves and full `U(64,64)` remain unported; lower-order/global
+> Hessian, gauge/ghost, domain and BV-BFV remain open. P1/P2/P3 are unused.
+
+> **2026-08-09 EXACT-BANK API PROCESS GATE (ledger v0.124).** The selected K77
+> carrier plus all rational v0.122 fixed-operator coefficients are now a
+> versioned 134,336-byte bank with 29 source/producer/dependency hashes. The
+> ordinary consumer imports and verifies in milliseconds without recursively
+> executing a predecessor. Python direct replay passes `27/27`; independent
+> Sage replay passes `25/25` and recovers all `9/91/97`, `9/6/12` and
+> `4/88/89` ranks. Mutated, stale, malformed and wrong-subspace plants fail.
+> **Next use the API to complete the ten metric source Hessian and decide
+> expanded tangent versus an action-owned equation quotient.** The two
+> `U(32,32)` halves and full `U(64,64)` remain unported. No physics verdict,
+> residue, quotient, datum, canon or posture moves; P1/P2/P3 remain unused.
+
+> **2026-08-09 MOVING-EPSILON FIRST-ACTION COMPLETION (ledger v0.123).**
+> The omitted lower Cartan term and every differentiated moving-Phi/Shiab
+> occurrence vanish coefficientwise against all 1,274 grade-two receivers for
+> all 91 primitive epsilon inputs, on both exact branches and all three causal
+> representatives. The total epsilon block therefore retains ranks `91/6/88`
+> (full/horizontal/off-slice), so the selected-Spin `321` truncation is not
+> Hessian-closed. This does not promote `1,571`, select an equation quotient,
+> or port to the two-`U(32,32)`-half or full-`U(64,64)` parents. The v0.124
+> successor closes the mandatory durable-bank gate. Then complete the ten metric
+> source Hessian and decide expanded tangent versus an action-owned equation
+> quotient. P1/P2/P3 remain unused.
+
+> **2026-08-09 FIXED-OPERATOR METRIC/EPSILON LEAKAGE (ledger v0.122).**
+> Across timelike, spacelike and null representatives and both exact K77
+> branches, the frozen-Hodge/Phi/Shiab/frame/observation response from metric
+> `10` plus epsilon `91` into grade two has ranks `9/91/97`; its off-slice
+> ranks are `4/88/89`. The fixed-operator `321` shortcut therefore leaks, but
+> the total moving source Hessian remains open and may cancel that image. Next
+> construct the moving metric/density/Hodge/Phi/Shiab/frame/observation terms
+> and test exact cancellation before expanding parents or deciding `321`
+> versus `1,571`. Keep both actions and the selected Spin/two-half/full-unitary
+> parents distinct. P1/P2/P3 remain unused.
+
+> **2026-08-09 FIRST-ACTION TANGENT CLOSURE (ledger v0.121).** On both exact
+> K77 branches, the complete grade-one connection self Hessian has rank `196`
+> and inertia `(97,99,0)`, while its cross to all `1,274` grade-two covectors
+> is zero, including horizontal `24` and off-slice `1,250`. Thus the minimum-
+> known `321=125+196` tangent survives this connection gate only; it is not
+> selected or complete. Next finish metric/epsilon and epsilon/epsilon blocks,
+> test remaining off-slice leakage, then build expanded-parent Hessians before
+> gauge/ghost/domain. Select banks by grade labels, never positional slices.
+> Keep first and residual-square actions, selected Spin, two `U(32,32)` halves
+> and full `U(64,64)` distinct. P1/P2/P3 remain unused.
+
+> **2026-08-09 LOWER-ORDER SOURCE-BLOCK RECONCILIATION (ledger v0.120).**
+> Both exact K77 branches retain a rank-91 lower-order primitive-epsilon raw-
+> residual block with positive conjugate coefficients
+> `(51∓19√3)/8112`. Residual zero is not zero Jacobian. The fixed-`varpi`
+> metric block was already exact in v0.95 and now ports to both branches at
+> transverse rank 6. Next construct the complete first-action Hessian and
+> expanded-parent pairings. Keep the raw residual, first transgression action,
+> endpoint momentum, selected Spin carrier, two `U(32,32)` halves and full
+> `U(64,64)` comparator distinct; then add gauge/ghost/domain. P1/P2/P3 remain
+> unused.
+
+> **2026-08-09 TWO-BRANCH ACTION-BLOCK PORT (ledger v0.119).** Both exact
+> stationary branches retain the already-owned rank-91 first-action
+> epsilon/Cl1 cross and rank-1470 residual zero-jet `varpi` map. The selected
+> 125-field causal principal bank is common with Gram ranks `110/110/16`, but
+> lower-order amplitudes are unequal conjugates. Do not promote common
+> principal data to complete operator equality. Next build branch-dependent
+> lower-order metric/epsilon blocks and expanded-parent pairings, keeping the
+> first and residual-square actions, selected Spin carrier, two `U(32,32)`
+> halves and full `U(64,64)` comparator distinct. Then add gauge fixing and
+> ghosts before `Dmax/Dmin`. P1/P2/P3 remain unused.
+
+> **2026-08-09 BRANCH-HESSIAN DISCRIMINATOR (ledger v0.118).** Do not select
+> or port one stationary branch from the opposite inertias of the displayed
+> independent-`B` reconstruction matrices. Both points are noncritical in that
+> direction and it is not source-owned; exact coordinate change alters the
+> determinant. On the actual scalar `varpi` line both branches have the same
+> inertia class for each distinct action. Next port the first-action
+> epsilon/Cl1 cross and residual-square `g/varpi/epsilon` Jacobian separately
+> to both branches and the selected Spin, two-`U(32,32)`-half and full-
+> `U(64,64)` parents. P1/P2/P3 remain unused.
+
+> **2026-08-09 BULK-OPERATOR ADMISSION GATE (ledger v0.117).** The source
+> action has an exact safe mixed-order grammar: after covariant reduction the
+> `(g,varpi,epsilon)` jet weights are `(2,1,1)`, with Euler-block upper bound
+> `[[4,3,3],[3,2,2],[3,2,2]]`. This is not yet the actual principal symbol.
+> The prior rank-91 epsilon cross and 34-field Gram must be ported to both
+> current stationary branches and each retained action parent. Next construct
+> that branch/parent Hessian family, then add bulk gauge fixing and ghosts.
+> Only after those owners exist may the H7/H8 carrier be tested as a closed
+> `Dmax/Dmin` trace. Keep Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct; P1/P2/P3 remain unused.
+
+> **2026-08-09 COMMON GRADED TRACE / BULK-DOMAIN GATE (ledger v0.116).** The
+> physical `H7/H-7` and gauge/ghost `H8/H-8` cotangent pairs form one strong
+> graded boundary trace carrier on the relative `A0` bitorsor. They are not one
+> Sobolev exponent. Relative cotangent-lift patching preserves the form and
+> vertical Lagrangian polarization, but no boundary condition is selected.
+> Next assemble the complete action-owned gauge-fixed bulk linearized operator
+> on a stationary branch and prove or kill its closed `Dmax/Dmin` graded trace
+> exact sequence. Only then couple bulk BV to boundary BFV. Do not substitute
+> the observed `X4` domain for the ambient `Y14` multiple-time problem; keep
+> the physical horn and all three action parents open.
+
+> **2026-08-09 RELATIVE EDGE-BITORSOR TOPOLOGY (ledger v0.115).** The old
+> one-sided edge frame `u_j=u_i g_ij` is globally nonempty only when the
+> boundary `P_H` bundle is trivial. The repaired relative frame
+> `u_j=k_ij^-1 u_i g_ij` lives in `Isom(P_target,P_reference)`. Taking the
+> reference to be the labelled copy of the already-owned `P_H|_B` carrying
+> `A0` supplies an identity section in every existing topological sector with
+> no new characteristic class or datum. Dressed fields patch adjointly on the
+> reference bundle; invariant trace, the local characteristic kernel and the
+> v0.114 classical BFV charge survive. Next construct one bulk Green/Krein
+> domain preserving `H7/H-7` and `H8/H-8` traces, then couple bulk BV to
+> boundary BFV. Keep charged symmetry, physical horn and all three action
+> parents open.
+
+> **2026-08-09 FULL-PARENT BRANCH STATIONARITY (ledger v0.112).** Both exact
+> nonzero branches survive every pointwise internal source-connection
+> direction in the full real `u(64,64)` comparator: `14 x 16,384 = 229,376`.
+> This includes the `8,192` block-even directions preserving the two
+> `U(32,32)` Weyl halves and the `8,192` odd half-exchanging directions. The
+> full source-`varpi` covector has only fourteen grade-one slots proportional
+> to `312(b+t)^2+t`, hence vanishes on both branches. Full homogeneous epsilon
+> bulk naturality also closes while endpoint momentum remains live. This is
+> compatibility, not parent selection or complete functional tangent. Next
+> compose the endpoint momentum with charged, bare-gauge and minimal-edge
+> boundary horns to classify amplitude; keep parent selection separate before
+> Hessian/BV/domain.
+
+> **2026-08-09 SOURCE-TANGENT BRANCH STATIONARITY (ledger v0.111).** Both
+> exact nonzero algebraic branches survive the known local selected source-
+> Euler pullback in `(g,varpi,epsilon)`. All 1,470 low-grade `varpi`
+> directions, 91 selected Spin epsilon bulk directions and ten metric
+> directions vanish after opposite `B/T` motion, moving Shiab, integration by
+> parts and the natural moving coefficient packet are composed. The nonzero
+> independent-`B` defect is not a source bulk equation; it remains live as
+> epsilon endpoint momentum. The amplitudes are still ansatz-selected. Next
+> classify them as modulus, boundary condition or global obstruction, and
+> independently decide the action parent and complete tangent before any full
+> Hessian/BV/domain build. Do not call 1,571 complete. Keep selected Spin-
+> native, two `U(32,32)` halves and full `U(64,64)` distinct.
+
+> **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**
+> On the conditionally selected Spin-native K77 parent, the source-owned
+> primitive epsilon tangent contributes all 91 bivector directions. Together
+> with ten metric and twenty-four `varpi` fields, the common principal tangent
+> has 125 fields, raw causal ranks `110/110/110`, Gram ranks `110/110/16`,
+> inertias `(58,52,15)/(53,57,15)/(10,6,109)`, and unbooked doubled trace
+> quotients `220/220/32`. The null image has 94 extra isotropic directions.
+> Next serialize lower-order moving-Shiab epsilon and recompute the first
+> action on the same 125-field stationary background; its current 34-field
+> symbol cannot be directly added. Then derive the action BV differential
+> before edge trace soldering, maximal-domain and odd-BFV work. Keep the two
+> `U(32,32)` halves and full `U(64,64)` as distinct parent comparators.
+
+> **2026-08-08 PARTIAL STATIONARY GRAM STRATA (ledger v0.104).** The owned
+> metric-ten plus `varpi`-twenty-four principal map is rectangular, so it is
+> not a self-adjoint operator. The stationary norm-square symbol
+> `A(q)^T K_loc A(q)` is well typed and exact: raw rank `22` in every causal
+> class, Gram ranks `22/22/14`, inertias `(12,10,12)/(13,9,12)/(8,6,20)`, and
+> doubled trace quotients `44/44/28`. These quotients are unbooked: `H7 x H-7`
+> supplies the right regularity but no map identifies them with the edge
+> carrier. Next add independent epsilon, recompute first and second action on
+> one stationary background, then build trace soldering and a tangential/collar
+> maximal domain before odd BFV. Keep the selected Spin-native parent, two
+> `U(32,32)` halves and full `U(64,64)` parent distinct.
+
+> **2026-08-08 COMPACT-BOUNDARY STRONG EDGE COMPLETION (ledger v0.103).** On
+> a compact 13-dimensional `Y14` boundary, same-regularity `H7 x H7` gives
+> only a weak form: finite-cutoff singular values stay nonzero but decay as
+> `(1+n^2)^-7`. The true cotangent pair `H7 x H-7`, with `H8` gauge/edge
+> frames, is strong. On each nonempty edge-torsor stratum the dressing is a
+> split submersion whose kernel is exactly the residual gauge orbit. The
+> charged horn has a nonabelian classical current algebra with zero central
+> remainder, and both horns share the real vertical polarization, so it
+> selects neither. Next prove common Green/Krein-domain compatibility with
+> these trace spaces and edge-torsor topology, then build the actual odd BFV
+> charge/CME. Keep the charged horn and all three action parents distinct.
+
+> **2026-08-08 FULL TILTED BOUNDARY DESCENT (ledger v0.102).** The
+> derivative-bearing nonzero-`A0` tilted construction now composes exactly
+> with the conditionally selected Spin-native action trace. Its raw residual
+> adjoint action has moment map `[Theta_A0,P]`; after adding the minimal edge
+> frame, the pulled-back two-form has rank `8` on `12` dimensions and its
+> four-dimensional kernel is exactly the residual gauge orbit. Moving-reference
+> conjugation patches the moment map and preserves its scalar Hamiltonian.
+> This closes global algebraic associated-bundle descent, not a functional BFV
+> phase space. Next compare a global functional edge reduction/polarization
+> with the live charged-boundary charge algebra, then construct the common
+> Green/Krein domain. Keep the selected 2,107-dimensional Spin-native parent,
+> two 16,382-dimensional `U(32,32)` halves and full 16,383-dimensional
+> `U(64,64)` parent distinct.
+
+> **2026-08-08 PHYSICAL-BOUNDARY DISPOSITION SELECTOR (ledger v0.101).**
+> Weinstein confirms the full tilted bulk double-coset grammar and acknowledges
+> unresolved upstairs boundary conditions, but neither source nor local action
+> decides whether unrestricted endpoint transformations are gauge or charged
+> physical symmetries. Exact classification shows that full boundary gauge
+> redundancy plus generic nonzero action momentum conditionally selects the
+> minimal edge horn uniquely: coefficients `(-1,+1)`, extended dimension `60`,
+> kernel `20`, reduced symplectic dimension `40`, and zero continuous
+> coefficient freedom. The full-boundary-gauge predicate remains unowned, so
+> keep charged boundary symmetry as comparator. Next instantiate the edge horn
+> on the actual K77 `H` representation/action trace and prove full nonzero-`A0`
+> `tau_A0` global moment-map descent before BFV polarization/common-domain
+> work. Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)`
+> distinct.
+
+> **2026-08-08 LOCAL ACTION NOETHER/PREBOUNDARY (ledger v0.100).**
+> Moving K77 pairing/density, the action-owned primitive epsilon
+> Euler/preboundary term and the exact matched-q physical graph now compose to
+> a local selected-action Euler-Noether identity in all causal classes. A
+> nonzero-residual control makes all three quadratic-action contributions
+> live. The antisymmetrized endpoint potential is basic for boundary-vanishing
+> transformations; unrestricted endpoints carry a live moment map and cannot
+> be silently quotiented. Next source- or action-select the physical boundary
+> class, then construct global `tau_A0`/BFV or an owned edge completion,
+> polarization and a common closed Green/Krein domain. Keep the selected
+> Spin-native parent, two `U(32,32)` halves and full `U(64,64)` comparator
+> distinct.
+
+> **2026-08-08 COMMON METRIC RESIDUAL-COORDINATE BANK (ledger v0.97).**
+> The fixed-`varpi` `D_g Upsilon` bank now shares the actual all-grade carrier
+> with `D_varpi`: four rank-nine principal maps, complete rank-twenty
+> covariant first-jet image, and rank-six causal transverse blocks. The
+> physical metric and `varpi` torsion graph cancels exactly. The earlier
+> rank-four Ward metric orbit was identity-defined, not the physical
+> rank-three Levi-Civita orbit; their discrepancy and the current physical
+> principal Ward defect are rank four in all causal classes. Next construct
+> complete primitive `D_epsilon Upsilon` and physical diffeomorphism transport,
+> retest common `J R=0`, and only then extend the `K_loc` formal-adjoint/Green
+> construction. Keep selected Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct.
+
+> **2026-08-08 COMMON-FIELD ADJOINT/GREEN OWNERSHIP GATE (ledger v0.96).**
+> The actual 24-component horizontal `D_varpi Upsilon` bank has four
+> rank-13 principal coefficients, a rank-24 zero-order coefficient, and an
+> exact nonzero `K_loc` Green identity in all four directions. Its canonical
+> adjoint is field-covector-valued. Full common-field assembly fails closed:
+> v0.95's local `D_g` geometry has not been emitted on the common residual
+> coordinate bank, and the epsilon predecessors own an Euler covector plus a
+> four-column Ward orbit rather than full primitive `D_epsilon Upsilon`.
+> Next emit `D_g`, construct full `D_epsilon`, prove common `J R=0`, and derive
+> a field Riesz map only if field-valued operator language is required. Keep
+> selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
+
+> **2026-08-08 FIXED-VARPI NORMAL FRECHET CLOSURE (ledger v0.95).**
+> At fixed independent `varpi,epsilon`, `T=varpi-B_LC` gives
+> `delta T=-delta B_LC`, while `A=varpi` gives `delta F_A=0` through exact
+> cancellation of three separately live curvature derivatives. The complete
+> covariant spin-Levi-Civita first-jet image has rank 20 inside the unrestricted
+> rank-24 connection carrier, and every timelike/spacelike/null transverse
+> metric restriction retains rank six. At raw `Upsilon*=0`, moving observation
+> contributes no independent term. The local fixed-varpi `D_g Upsilon` block
+> is closed. Next compose it with the owned `D_varpi/D_epsilon` blocks and
+> v0.92 `K_loc`, then derive the common-field action-density formal adjoint
+> and Green concomitant before symplectic/domain work. No verdict, residue,
+> quotient, fork or datum moves.
+
+> **2026-08-08 PREDECESSOR OPERATIVE PAIRING-SYMMETRY CLOSURE (ledger v0.93).** The
+> selected K77 `Cl1+Cl2+Cl5` residual carrier has complex dimension `2,107`
+> and is exactly Spin-native. A block-preserving
+> `U(32,32) x U(32,32)` action on the two `C^(32,32)` Weyl halves requires a
+> `16,382`-dimensional closure with three pairing coordinates; full
+> `U(64,64)` requires `16,383` and leaves one invariant line. Thus “two
+> 32,32 halves” and full U are both retained, but neither preserves the
+> selected truncation. Source action-parent selection remains open. Proceed
+> conditionally on the Spin-native selected parent at the scalar-Clifford-
+> trace point: construct lower-order complete physical `D_g Upsilon` and
+> coefficientwise naturality, then formal adjoint/Green. Keep expanded
+> large-group parents as rivals. Residue is honestly ranged `84..86`; no
+> verdict or datum moves.
+
+> **2026-08-08 PREDECESSOR CONDITIONAL K77 RESIDUAL PAIRING (ledger v0.92).** The
+> degree-thirteen Hodge pairing times scalar Clifford trace is nondegenerate
+> on the frozen 1,470-dimensional source response, with exact inertia
+> `(741,729,0)`. Full `U(64,64)` adjoint invariance forces equal grade-1/2/5
+> weights on that comparator. Curt separately states two `C^(32,32)` Weyl
+> halves and a later `U(64,64)` principal group; both selector witnesses are
+> odd and inadmissible for a chirality-preserving block product. Operative
+> pairing symmetry and relative weights remain open. This is not a
+> positive norm, formal adjoint, Green identity, or source-derived analytic
+> domain. Reuse the v0.85 principal transverse six. First settle the group/
+> invariant-carrier fork, then construct the
+> lower-order complete physical `D_g Upsilon` columns and coefficientwise
+> naturality, then the formal adjoint and Green concomitant.
+
+> **2026-08-08 ACTION/FRECHET/WARD OBJECT SEPARATION (ledger v0.91).** The
+> v0.77 full pointwise K77 bank already owns the first-action Euler covector
+> `dI1`; it is not `J=D Upsilon`. At `Upsilon*=0`, residual naturality fixes
+> the four physical Ward-orbit columns. Exact nonzero transverse additions in
+> timelike, spacelike and null classes preserve those columns while changing
+> `J`, so Ward closure cannot construct the six transverse metric columns.
+> Next build exactly those six K77 `D_g Upsilon` columns plus residual `K`,
+> then derive formal adjoint and Green. K77 is the unique ordinary
+> Majorana--Weyl horn among K77/K95 only conditional on requiring a real
+> chiral carrier without extra symplectic-doublet structure; K95 is a
+> nonportable pseudoreal control. No verdict, residue, quotient or datum moves.
+
+> **2026-08-08 SIGNATURE-GENERIC CARTAN/WARD COMPOSITION (ledger v0.90).**
+> The nonabelian Cartan identities are exact for a connection and an
+> adjoint-valued one-form. For the flat second connection `B`, its full
+> diffeomorphism response is the already-built primitive epsilon variation
+> with field-dependent parameter `eta=i_xi B`; no new primitive channel is
+> required. K77 and K95 have different Hodge operators but both pass the local
+> naturality checks on their own real forms. Next assemble the selected
+> action's actual Frechet coefficient bank and prove coefficientwise `J R=0`;
+> only then derive `K*`, Green, Krein and symplectic/BFV data. This does not
+> identify every epsilon variation with a spacetime diffeomorphism. No datum,
+> verdict, residue or quotient moves.
+
+> **2026-08-08 SIGNATURE RATIONALE / BUILD BRANCH RETYPE (ledger v0.89).**
+> The source explicitly uses `Y^(7,7)` and `Spin(7,7)`, so K77 remains the
+> author-asserted conditional Eric branch. Its displayed negative-first blocks
+> add to source `(5,9)`, i.e. repository plus-first `(9,5)`, so K95 is the
+> geometry-derived comparator and K77 is not derived by that arithmetic. The
+> v0.88 K77 theorem survives conditionally. Next build nonhomogeneous primitive
+> epsilon and field-Lie Ward naturality signature-generically, then specialize
+> K77 and K95 separately wherever Hodge, Clifford, Krein, adjoint or domain
+> data enter. Require coefficientwise `J R=0` before `K*`, Green or symplectic
+> descent. No datum, verdict, residue or quotient moves.
+
+> **2026-08-08 PHYSICAL DIFFEOMORPHISM SPLIT (ledger v0.88).** The natural
+> lift to `TX plus Sym2(T*X)` has physical rank four in every causal class.
+> Its metric-skew/Kosmann part has rank three; the longitudinal fourth
+> direction is a nonzero symmetric metric deformation. Moving K77 metric,
+> density, Hodge, tautological forms, observation graph and equation dual are
+> locally natural with zero fit, so no gamma lift is required for this
+> kinematic purpose. This is exact on the declared-base `(7,7)` horn and does
+> not settle `SIGNATURE-AMBIENT`. Next expand nonconstant primitive epsilon, field Lie
+> transport and every selected-action coefficient, prove coefficientwise
+> `J R=0`, then derive `K*`, adjoint and Green. No datum is used.
+
+> **2026-08-08 KOSMANN/MOVING-SHIAB RANK-THREE CLOSURE (ledger v0.87).**
+> Covector-matched timelike, spacelike and null packets all retain rank three,
+> but v0.86's spacelike/null coefficients used a response operator frozen at
+> timelike `q0` and are superseded. Moving Shiab alone does not cancel the
+> packet. The complete lower-order internal bivector gauge orbit does cancel
+> raw `Upsilon` exactly, with zero fit. Next construct the matched-q physical
+> diffeomorphism Lie/density/Hodge/observation and lower-order metric response,
+> distinguish dependent Kosmann transport from primitive epsilon, prove full
+> `J R=0`, then derive `K*`, formal adjoint and Green. No datum is used.
+
+> **2026-08-08 PRINCIPAL WARD/GAMMA-EPSILON RECONCILIATION (ledger
+> v0.86 predecessor).** Source epsilon is an `H`-valued gauge/second-connection variable;
+> the source does not identify `gamma_epsilon(xi-flat)` as the physical
+> spacetime diffeomorphism law. Exact composition shows the direct metric and
+> varpi torsion responses cancel on all four orbit columns, while the full
+> varpi derivative retains a rank-three curvature packet in every causal
+> class. The moving Shiab/Hodge/curvature/density/observation target narrows
+> from gamma-extended rank four to source-minimal rank three; it is not
+> eliminated. Keep gamma-epsilon conditional. Next construct the rank-three
+> moving packet, complete lower-order transverse and primitive internal-
+> epsilon Frechet response, prove full `J R=0`, then derive `K*`, formal
+> adjoint and Green concomitant. No datum is used.
+
+> **2026-08-08 TRANSVERSE METRIC/AUGMENTED-TORSION BLOCK (ledger v0.85).**
+> The source-owned principal relation `delta_g T=-L_qh` has rank nine on ten
+> metric values. Its sole kernel lies in the diffeomorphism orbit, so the
+> direct augmented-torsion residual is injective on all six transverse metric
+> directions in timelike, spacelike and null classes. Composing this actual
+> partial metric block with source `varpi` and conditional gamma epsilon leaves
+> an exact rank-four Ward packet. Next construct the moving Shiab/Hodge/
+> curvature/density/observation response equal to its negative, complete the
+> lower-order transverse metric/epsilon blocks and full Frechet `J R=0`, then
+> derive `K*`, the formal adjoint and Green concomitant. No datum is used.
+
+> **2026-08-08 GAMMA-SOLDERED SOURCE-EPSILON ORBIT (ledger v0.84).** The
+> ordinary grade-two Kosmann compensator is exactly rank-three/no-gain, but
+> the already-owned grade-one K77 map `gamma_epsilon:C->ad(P_H)` supplies a
+> zero-parameter conditional epsilon tangent of rank four. The injective
+> all-grade raw-residual response preserves it and closes all four principal
+> common-field `J R=0` orbit columns in timelike, spacelike and null classes.
+> This removes v0.83's fixed-epsilon rank obstruction and revives the old
+> rank-four metric diagnostic only for coefficientwise recheck. The source
+> confirms the carriers but is silent on
+> `eta=gamma_epsilon(xi-flat)` as the physical diffeomorphism soldering law.
+> Next construct the six transverse physical `D_g Upsilon` columns and
+> lower-order/nonlinear `D_epsilon Upsilon`, verify the full Frechet Ward
+> identity, then derive `K*`, formal adjoint and Green concomitant before the
+> stationary Gram Hessian. No external datum is used.
+
+> **2026-08-08 COMMON-FIELD `D_UPSILON` VARPI BLOCK (ledger v0.83).** The
+> source-owned 24-dimensional horizontal `varpi` carrier now has an exact,
+> injective residual block of rank 24 with 56 live output coordinates. Its
+> diffeomorphism interface has rank three in every causal class, while the
+> older metric-only diagnostic carries Ward-load rank four. Therefore that
+> diagnostic cannot be imported as the stationary common-field `g-g` Gram
+> block on the fixed-`epsilon` `(g,varpi)` horn. This is horn-scoped, not an
+> absolute kill: the source action already owns a group-valued `epsilon`, and
+> its unbuilt Frechet response may supply the fourth direction. Next construct
+> physical `D_g Upsilon` and `D_epsilon Upsilon` together, prove complete
+> `J R=0`, then derive `K*`, the formal adjoint and Green concomitant before
+> forming the stationary Gram Hessian. Printed `Xi=D_omega Upsilon` is a
+> covariant prolongation, not `D_epsilon Upsilon`. No external datum is used.
+
+> **2026-08-08 STATIONARY TWO-LAYER FACTORIZATION (ledger v0.82).** At
+> complete `Upsilon*=0`, the second-layer bulk Hessian is exactly
+> `(D Upsilon)^!K*(D Upsilon)`. Do not brute-force `D2 Upsilon`, derivatives
+> of the pairing, or dependent receiver derivatives at this stationary gate.
+> Do retain independent physical `(D Shiab)F_A*` and
+> `(D Hodge)(kappa T*)` inside `D Upsilon`. Next assemble every common-field
+> block of `J=D Upsilon`, derive `K*`, the formal adjoint and Green
+> concomitant, verify `J R=0`, and only then form the Gram operator and open
+> microlocal/Krein/BV-BFV analysis. The first-action `34 x 34` Schur Hessian is
+> not a substitute for `D Upsilon`; observation is a dependent receiver unless
+> separately varied by the action. No external datum is used.
+
+> **2026-08-07 PRIORITY DECISION AND LEDGER ACCOUNTING.** The current ledger
+> contains 84 immutable row records but 82 active canonical targets. The two
+> excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
+> successors own the active `32/19/26/5` verdict meter. See
+> [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
+> Ledger v0.80 resolves v0.79's receiver-versus-BV fork at Layer 0. The exact
+> complete dual sends the graph-conormal ten to the ten independent
+> metric-section Euler coordinates. The standard Einstein comparator has
+> noncharacteristic ranks `4 -> 6 -> 4` and null ranks `4 -> 4 -> 4`, with two
+> plus/cross cohomology classes carrying rotation polynomial `lambda^2+4`.
+> Thus BV/Bianchi is a rank-four gauge/identity subcomplex inside the retained
+> metric equations, not a rival that erases all ten. Ledger v0.81 corrects the
+> next target: retained coordinates are not a closed action subsystem. The
+> first layer is a coupled 34-variable Ward symbol with generic physical
+> cohomology zero and an exceptional helicity-one pair. The separate
+> second-layer metric block retains its TT helicity-two polynomial but has
+> Ward-defect rank four; naive layer addition remains nonbasic, while formal
+> repairs have 21 free directions. The next gate is the full selected
+> two-layer common-field stationary Hessian with every action-derived cross
+> block and its coupled Ward complex. Only then proceed to microlocal,
+> boundary `tau_A0`/BFV, polarization and common-domain work.
+> Generic carrier search is closed.
+> The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
+> disjoint side gate. The persona vote is a planning instrument, not scientific
+> evidence.
+
+> **2026-08-07 K77 CARTAN/SPENCER SIGNATURE CORRECTION (ledger v0.57).**
+> [`explorations/conditional-build/selected-k77-cartan-spencer-signature-correction-2026-08-07.md`](explorations/conditional-build/selected-k77-cartan-spencer-signature-correction-2026-08-07.md)
+> finds that v0.46/v0.55 executed inertia `(9,5)` while labeling it `(7,7)`.
+> The complete target-to-source chain is rebuilt on K77 `(7,7)`. Every exact
+> column changes, so old v0.55/v0.56 coefficient values are superseded; rank
+> four, supports `57,34,34,34`, uniqueness and pointwise realizability survive.
+> Use only the corrected K77 columns below.
+
+> **2026-08-07 SOURCE-VARPI/CARTAN COMPOSITION (ledger v0.56).**
+> [`explorations/conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md`](explorations/conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md)
+> corrects the source-coordinate owner: fixed `epsilon` gives `delta B=0`,
+> `delta T=delta A=alpha`, and `[T*,alpha]` is the signed Cartan response in
+> the endpoint-curvature derivative. Four unique pointwise source-varpi lifts
+> reproduce all transverse 117 coefficients with supports `57,34,34,34`, rank
+> four and zero coefficient freedom at fixed nonzero background. This is local
+> realizability, not source selection or global integrability.
+
+> **2026-08-07 FULL-REDUCTION QUOTIENT RECONCILIATION (ledger v0.59).**
+> [`explorations/conditional-build/selected-k77-full-reduction-quotient-reconciliation-2026-08-07.md`](explorations/conditional-build/selected-k77-full-reduction-quotient-reconciliation-2026-08-07.md)
+> composes v0.58 with the already-built source-owned
+> `gamma_epsilon=Ad(epsilon^-1)gamma_0`. The labelled reduction has central
+> `U(1)` stabilizer with trivial adjoint action, so the paired graph descends.
+> Forgetting to the horizontal plane still fails, and no invariant-Hom map
+> reproduces the four targets.
+
+> **2026-08-07 TOTAL RAW-UPSILON AND LABELLED NULL SCREEN (ledger v0.60).**
+> [`explorations/conditional-build/selected-k77-total-upsilon-null-screen-2026-08-07.md`](explorations/conditional-build/selected-k77-total-upsilon-null-screen-2026-08-07.md)
+> proves exact full linearized Bianchi closure and a labelled ambient rank-12
+> `(6,6)` screen without dividing by `q^2`. The old grade-two curvature target
+> still cancels, but the complete source object
+> `Upsilon_B=Shiab(F_A)+kappa_1 T` has a rank-four residual with live grades one
+> and two. This is not the separate 4D `10 -> 6 -> 2` physical quotient.
+
+> **2026-08-07 COUPLED ALL-GRADE RAW-UPSILON GRAPH (ledger v0.61).**
+> [`explorations/conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md`](explorations/conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md)
+> proves the full response has rank 1,470 and nullity zero on the predeclared
+> finite tangent and constructs four unique conditional all-grade lifts. The
+> target compatibility cokernel has dimension 2,860, but the fixed-source
+> coefficient surplus is zero. Source ownership stops at the response; the
+> `-J_2D` targets remain conditional.
+
+> **2026-08-07 LABELLED-NULL GRAPH AND CONORMAL PROLONGATION (ledger v0.62).**
+> [`explorations/conditional-build/selected-k77-observation-jet-euler-preboundary-sufficiency-2026-08-07.md`](explorations/conditional-build/selected-k77-observation-jet-euler-preboundary-sufficiency-2026-08-07.md)
+> proves the full response stays injective at the retained labelled null
+> covector, constructs four unique null lifts and one exact conormal graph
+> derivative, and measures the source principal symbol at rank 650/nullity 820.
+> Boundary sensitivity is live, but the source first variation is the paired
+> object `(Upsilon,Xi)` and the invariant Green/equation-dual owner is open.
+
+> **2026-08-08 PRINTED XI AND FORMAL GREEN OWNER (ledger v0.63).**
+> [`explorations/conditional-build/selected-k77-paired-upsilon-xi-green-2026-08-08.md`](explorations/conditional-build/selected-k77-paired-upsilon-xi-green-2026-08-08.md)
+> separates the degree-one graph image from the degree-thirteen density,
+> verifies the printed degree-fourteen redundancy, and constructs the exact
+> formal invariant-trace Green flux without promoting it to a phase space.
+
+> **2026-08-08 ACTION-OWNED DEGREE-14 COMPANION (ledger v0.64).**
+> [`explorations/conditional-build/selected-k77-action-owned-degree14-companion-2026-08-08.md`](explorations/conditional-build/selected-k77-action-owned-degree14-companion-2026-08-08.md)
+> derives the epsilon Euler owner from both connection Euler covectors and the
+> moving-Shiab orbit covector. Exact entrywise differentiation rejects each
+> omission and the naive `D_A E_T` replacement.
+
+> **2026-08-08 MOVING ACTION-EULER GREEN RECEIVER (ledger v0.65).**
+> [`explorations/conditional-build/selected-k77-moving-action-green-receiver-2026-08-08.md`](explorations/conditional-build/selected-k77-moving-action-green-receiver-2026-08-08.md)
+> proves the universal complete-germ transport and Green identity with all
+> moving factors live. Ordinary pullback remains nonfaithful on the conormal
+> sector.
+
+> **2026-08-08 ACTION-NORMAL MIXED HESSIAN (ledger v0.66).**
+> [`explorations/conditional-build/selected-k77-source-native-normal-euler-jet-2026-08-08.md`](explorations/conditional-build/selected-k77-source-native-normal-euler-jet-2026-08-08.md)
+> derives the normal Euler/epsilon packet as a mixed action Hessian, proves all
+> seven owner classes live and exhaustive, and rejects transfer from the
+> printed residual jet. It adds no field or datum.
+
+> **2026-08-08 FULL-K77 NORMAL GEOMETRY AND OWNER-SPLIT CORRECTION (ledger
+> v0.67).**
+> [`explorations/conditional-build/selected-k77-full-normal-owner-bank-2026-08-08.md`](explorations/conditional-build/selected-k77-full-normal-owner-bank-2026-08-08.md)
+> constructs the exact ten-direction metric, density, pairing and Hodge bank.
+> It proves that the total mixed Hessian is invariant while the seven v0.66
+> owner buckets exchange under a co-moving frame change. This is
+> `OWNER_INCOMPLETE`, not an action failure or a new datum.
+
+> **CLOSED BY v0.68: GREEN-POTENTIAL POINT-SPLITTING CHANGE AND BASICNESS.** Compare the
+> complete action-owned Green potential under two exact vertical splittings
+> and test whether its antisymmetrization changes only by an exact/basic term.
+> Construct a gauge-rotated-Levi-Civita-compatible vertical covariant lift only
+> if a nonbasic splitting defect survives. Symplectic review remains mandatory.
+
+> **2026-08-08 GREEN-POTENTIAL POINT-SPLITTING BASICNESS (ledger v0.68).**
+> [`explorations/conditional-build/selected-k77-green-potential-splitting-basicness-2026-08-08.md`](explorations/conditional-build/selected-k77-green-potential-splitting-basicness-2026-08-08.md)
+> proves exact nonlinear cotangent naturality, a three-splitting cocycle and
+> all-ten K77 presymplectic transport. It retires the vertical-lift horn only
+> for point-frame descent; contact transformations and physical gauge
+> basicness remain open.
+
+> **2026-08-08 K77 CONTACT PRESYMPLECTIC GAUGE BASICNESS (ledger v0.69).**
+> [`explorations/conditional-build/selected-k77-contact-presymplectic-gauge-basicness-2026-08-08.md`](explorations/conditional-build/selected-k77-contact-presymplectic-gauge-basicness-2026-08-08.md)
+> constructs the actual rank-ten Levi-Civita contact block, proves exact
+> diagonal two-connection Ward closure and small-gauge basicness, and finds a
+> nonzero unrestricted boundary moment map in all ten K77 directions.
+
+> **PREDECESSOR GATE, RESOLVED LOCALLY BY v0.70.** The physical-domain horn
+> remains source/action-unselected, but the alternative minimal edge extension
+> and its finite local quotient are now exact. v0.71 closes the separate
+> edge-bundle/tilted cocycles, v0.72 supplies the universal symplectic
+> dressing, v0.73 types the actual K77 group while killing single-holonomy
+> compression, and v0.74 recovers the direct-sum `40/40` endpoint geometry.
+> The current action-momentum weld is below.
+
+> **2026-08-08 K77 MINIMAL EDGE-MODE REDUCTION (ledger v0.70).**
+> [`explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md`](explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md)
+> kills ordinary scalar-counterterm cancellation, types the unselected
+> Dirichlet and zero-charge horns, and constructs the unique two-cell edge
+> extension. Its all-ten finite local quotient is exact and nondegenerate.
+
+> **2026-08-08 K77 TILTED EDGE-BUNDLE TYPE BRIDGE (ledger v0.71).**
+> [`explorations/conditional-build/selected-k77-tilted-edge-bundle-type-bridge-2026-08-08.md`](explorations/conditional-build/selected-k77-tilted-edge-bundle-type-bridge-2026-08-08.md)
+> proves exact separate affine-one-form and group-valued-zero-form cocycles,
+> then kills their direct identification with a constant-`xi` witness and a
+> zero-order naturality obstruction.
+
+> **2026-08-08 K77 GROUP-EDGE DRESSING AND MAURER-CARTAN BRIDGE (ledger v0.72).**
+> [`explorations/conditional-build/selected-k77-group-edge-dressing-maurer-cartan-bridge-2026-08-08.md`](explorations/conditional-build/selected-k77-group-edge-dressing-maurer-cartan-bridge-2026-08-08.md)
+> constructs the universal dressed pair `q=xu^-1`, `pi=p u^T`, proves exact
+> presymplectic kernel equality with the right gauge orbit, recovers the v0.70
+> sign, and verifies `u^-1 d u` as an exact flat/pure-gauge tilted bridge.
+
+> **2026-08-08 K77 TWO-ENDPOINT EDGE DRESSING (ledger v0.73).**
+> [`explorations/conditional-build/selected-k77-two-endpoint-edge-dressing-2026-08-08.md`](explorations/conditional-build/selected-k77-two-endpoint-edge-dressing-2026-08-08.md)
+> constructs the exact K77-compatible source/target cotangent dressing and
+> proves kernel equality, then finds that one connection holonomy retains only
+> the Gauss-diagonal `20/20` half of the v0.70 `40/40` endpoint quotient.
+
+> **2026-08-08 EPSILON ENDPOINT DIRECT SUM (ledger v0.74).**
+> [`explorations/conditional-build/selected-k77-epsilon-endpoint-direct-sum-2026-08-08.md`](explorations/conditional-build/selected-k77-epsilon-endpoint-direct-sum-2026-08-08.md)
+> proves that v0.25 already supplied two locally independent endpoint traces
+> and that two nonlinear endpoint copies recover the complete v0.70 `40/40`
+> quotient. It does not identify `i_n(E_B-E_T)` with `p=KT`.
+
+> **2026-08-08 ACTION/CONTACT LEGENDRE OWNER CORRECTION (ledger v0.75).**
+> [`explorations/conditional-build/selected-k77-action-contact-legendre-owner-2026-08-08.md`](explorations/conditional-build/selected-k77-action-contact-legendre-owner-2026-08-08.md)
+> rejects only `p=KT` as the selected-action owner. Two inequivalent
+> indefinite `K` controls pass the same exact contact/Ward/Green/symplectic
+> tests but give different momenta; the selected action is cubically
+> nonquadratic and has nonzero `E_B-E_T` at `T=0`. The universal contact
+> theorem, independent endpoint cotangent variables, direct-sum `40/40`
+> quotient and single-holonomy no-go survive.
+
+> **2026-08-08 SELECTED-ACTION BOUNDARY COEFFICIENT BANK (ledger v0.76).**
+> [`explorations/conditional-build/selected-k77-action-boundary-coefficient-bank-2026-08-08.md`](explorations/conditional-build/selected-k77-action-boundary-coefficient-bank-2026-08-08.md)
+> differentiates the same `comm/symi/symi` action on the real-K77
+> `Cl1+Cl2` tangent. The full bank has rank fourteen; all ten metric-fibre
+> normal rows are nonzero and independent; the complete observation equation
+> dual is lossless; and the inherited scalar-Clifford images are
+> nondegenerate. Opposite local endpoint restrictions can therefore enter the
+> existing direct-sum dressing without a fitted `K` or new datum.
+
+> **2026-08-08 FULL POINTWISE U(64,64) ACTION BANK (ledger v0.77).**
+> [`explorations/conditional-build/selected-k77-full-u6464-action-bank-2026-08-08.md`](explorations/conditional-build/selected-k77-full-u6464-action-bank-2026-08-08.md)
+> evaluates the selected covector on all 16,384 real pointwise directions.
+> Only grades `1,2,5` are live on two exact backgrounds. Grade 5 changes the
+> observed coefficient-image inertia from `(5,5,0)` to `(4,6,0)` without
+> changing rank `14/10`, so v0.76 was rank-complete but not geometry-complete.
+
+> **2026-08-08 ACTION-BUNDLE AND OBSERVATION OVERLAP (ledger v0.78).**
+> [`explorations/conditional-build/selected-k77-action-bundle-observation-overlap-2026-08-08.md`](explorations/conditional-build/selected-k77-action-bundle-observation-overlap-2026-08-08.md)
+> composes the owned global `P_H/gamma_epsilon` bundle with the full action
+> covector. Two noncommuting transitions and their direct cocycle pass after
+> patchwise recomputation on two backgrounds. The co-moving complete equation
+> dual, no-leakage projector and pairing descend; frozen controls fire.
+
+> **2026-08-08 PHYSICAL SECTION AND FAITHFULNESS GATE (ledger v0.79).**
+> [`explorations/conditional-build/selected-k77-physical-section-faithfulness-gate-2026-08-08.md`](explorations/conditional-build/selected-k77-physical-section-faithfulness-gate-2026-08-08.md)
+> proves local holonomic jet realizability, kills arbitrary-`X` Lorentz-section
+> existence, and composes the universal rank-ten conormal kernel with a
+> nonzero selected-action Euler witness. Ordinary pullback is therefore not
+> faithful on the displayed full local action domain.
+
+> **2026-08-08 METRIC-SECTION AND BIANCHI/BV TYPING (ledger v0.80).**
+> [`explorations/conditional-build/selected-k77-metric-section-bianchi-typing-2026-08-08.md`](explorations/conditional-build/selected-k77-metric-section-bianchi-typing-2026-08-08.md)
+> proves the conormal ten are the independent metric-section Euler coordinates,
+> rejects full-conormal BV erasure, and constructs the exact Einstein target
+> complex including its two null helicity classes. It does not identify the
+> selected K77 Euler operator with Einstein's.
+
+> **2026-08-08 COUPLED EULER-COMPLEX SCOPE CORRECTION (ledger v0.81).**
+> [`explorations/conditional-build/selected-k77-coupled-euler-complex-scope-2026-08-08.md`](explorations/conditional-build/selected-k77-coupled-euler-complex-scope-2026-08-08.md)
+> composes the existing first and second action-layer results. It preserves
+> the ten metric equations, retracts vertical-only closure, proves the
+> first-layer generic quotient is gauge-only and its exceptional pair is
+> helicity one, and measures rank-four Ward defects for the isolated
+> second-layer metric block and naive two-layer sum. A formal repair exists
+> with affine dimension 21 and is not selected by the action.
+
+> **NEXT RUN: FULL SELECTED TWO-LAYER COMMON-FIELD HESSIAN AND WARD COMPLEX.**
+> Write both action layers on one field/jet bundle and stationary background.
+> Differentiate the norm-square layer through metric, connection/difference,
+> grade-one, matter, moving Levi-Civita/Shiab/Hodge/frame and observation jets.
+> Construct the complete diffeomorphism generator and Ward adjoint. Only an
+> action-derived Ward-basic complex advances to characteristic cohomology,
+> strong hyperbolicity, Green/Krein domain and boundary `tau_A0`/BFV.
+> Symplectic and microlocal reviews are mandatory.
+
+> **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
+> [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)
+> proves exact full-frame three-patch transport but finds rank-four defects
+> under two horizontal stabilizers and a normal stabilizer that fixes the
+> observed four-plane. The fitted map is outside the three-dimensional
+> block-invariant Hom span. No positive quotient surplus is booked.
+
+> **CLOSED BY v0.59: EPSILON-SOLDERING OWNERSHIP OR INVARIANT REPLACEMENT.** Either
+> construct an action-owned map identifying source gauge `epsilon` with the
+> observation/soldering frame and determine its stabilizer, or fit the four K77
+> targets inside the invariant Hom space. Only a quotient-basic survivor
+> advances to raw-`Upsilon` Bianchi/naturality and first-action
+> Euler/preboundary/symplectic descent. Symplectic review is mandatory.
+
+> **2026-08-07 NONZERO-BACKGROUND CARTAN/SPENCER OWNER (ledger v0.55).**
+> [`explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md`](explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md)
+> proves that `[delta B,T*]` is an exact rank-1,274 isomorphism on the
+> unrestricted metric-compatible connection carrier at nonzero
+> `T*=-(kappa_1/312)Phi1`. It supplies all transverse 117 coefficients with
+> rank-four Koszul preimages of supports `57,34,34,34`. The true Levi-Civita
+> subclass obeys the linearized torsion-free equation, remains `q`-exact and
+> has zero transverse intersection.
+
+> **SUPERSEDED NEXT RUN: ACTUAL INDEPENDENT-VARPI/OBSERVATION NORMAL JET.** Construct the
+> coupled independent-`varpi`, soldering and observation normal jet on the same
+> four graph columns and compare its connection components with the exact
+> Koszul preimages. If it matches, assemble total raw-`Upsilon` Bianchi and
+> naturality; if it stays Levi-Civita/q-exact, require a separately source-owned
+> higher jet. Keep the null screen separate. Symplectic review is mandatory.
+
+> **2026-08-07 SELECTED CONSTITUENT OPERATOR NATURALITY (ledger v0.54).**
+> [`explorations/conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md`](explorations/conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md)
+> constructs `T*=-(kappa_1/312)Phi1` and source raw curvature
+> `F_A*=T* wedge T*`. Their nonzero Shiab/Hodge outputs cancel
+> coefficientwise. The invariant branch-tangent natural operator packet is zero
+> on all four graph columns and supplies none of transverse 117.
+
+> **NEXT RUN: INDEPENDENT AMBIENT FIELD NORMAL JET.** Construct `delta F_A`
+> and `delta T` from the ambient connection, gauge-rotated Levi-Civita,
+> soldering and observation normal jets. Compose them with fixed selected
+> Shiab/Hodge and compare with transverse 117. Do not reuse branch-tangent
+> naturality as an input-jet cancellation. Symplectic review remains mandatory.
+
+> **2026-08-07 RESIDUAL-CONSTITUENT OPERATOR CORRECTION (ledger v0.53).**
+> [`explorations/conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md`](explorations/conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md)
+> retracts only v0.52's inference that total `Upsilon_0=0` kills the moving
+> Shiab/Hodge response. The connection-curvature principal image remains
+> q-exact and still cannot own the transverse 117. The selected branch has
+> nonzero `T*=-(kappa_1/312)Phi1`, so cancelling constituents can have zero
+> total residual while an independent physical metric operator derivative is
+> nonzero.
+
+> **NEXT RUN: SELECTED CONSTITUENT BACKGROUND RESPONSE.** Construct
+> `(F_A*,T*)`; compute `(D Shiab)F_A*+(D Hodge)kappa T*` for physical
+> metric-normal variation and the ambient field normal jet on the same four
+> graph columns; then compare with the transverse 117. Preserve the q-exact
+> connection-class theorem. Symplectic review remains mandatory.
+
+> **2026-08-07 TRANSVERSE-117 RESIDUAL-ZERO OWNER RETYPE (ledger v0.52).**
+> [`explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md`](explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md)
+> proves that every moving local connection-curvature principal symbol remains
+> q-exact and cannot own the transverse 117. Moving Shiab/frame terms vanish
+> at `Upsilon_0=0`; a nonzero-background plant revives them. Source epsilon is
+> not silently identified with the missing diffeomorphism soldering datum.
+
+> **NEXT RUN: ACTUAL RAW-UPSILON NORMAL JET OR NONZERO BACKGROUND.** Construct
+> the ambient raw-`Upsilon` normal first jet on the four graph columns, or
+> supply a source-owned nonzero stationary background and compute `(DS)F_0`.
+> Another connection-coefficient search is forbidden at the current zero
+> background. Then build the null screen and total naturality. Symplectic
+> review remains mandatory.
+
+> **2026-08-07 FIXED-B TRANSLATION-CURVATURE PARTIAL OWNER (ledger v0.51).**
+> [`explorations/conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md`](explorations/conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md)
+> proves that the source-written fixed-reference `D_B T` principal symbol owns
+> exactly the 28 q-wedge coefficients and none of the 117 transverse
+> coefficients. `T wedge T` cannot enlarge the odd first-order symbol.
+
+> **NEXT RUN: MOVING-REFERENCE TRANSVERSE OWNER.** Compute the moving gauge-
+> rotated Levi-Civita, epsilon or soldering principal response on the same
+> exact carrier and compare it coefficientwise with the 117 transverse
+> coefficients. Then combine both parts before the null screen and total
+> Bianchi/raw-`Upsilon` test. Symplectic review remains mandatory.
+
+> **2026-08-07 PROPAGATION COMPLETE (ledger v0.50).** The `Sp(64)` anomaly-
+> pincer result is now scoped to conditional `Cl(9,5)`; settled `Cl(7,7)` needs
+> its own group and local/global anomaly calculation. The shared Eric/Curt
+> campaign pointer now defers to this file and the functional-channel contract.
+> The 49 failures at the August 6 branch integration are recorded as historical
+> inherited baseline debt, not as the current live gate count.
+
+> **PREDECESSOR — 2026-08-07 GCR CLIFFORD-GRADE OWNER RETYPE (ledger v0.49).**
+> [`explorations/conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md`](explorations/conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md)
+> exhausts all 8,281 `Cl2` Levi-Civita/GCR curvature basis columns under the
+> selected Shiab. They land only in grades one and five and have zero entries
+> in the required grade-two target. The v0.48 inverse packet is `Cl1`-valued,
+> so direct GCR ownership is wrong-type. Single-`q` contraction is also
+> excluded because every required packet has seven Clifford-`q` components.
+
+> **SUPERSEDED NEXT RUN: ODD SOURCE OWNER, THEN NULL SCREEN.** Construct the source-native
+> odd augmented-torsion/translation-curvature packet or a richer moving
+> epsilon/soldering map and compare all 145 inverse coefficients. Then build
+> the null characteristic screen and test total Bianchi plus raw-`Upsilon`
+> naturality. Symplectic review remains mandatory.
+
+> **PREDECESSOR — NON-NULL KOSZUL SPLIT.** v0.48 constructs the exact
+> `28+117` split. v0.49 preserves the arithmetic and corrects its owner type.
+
+> **PREDECESSOR — 2026-08-07 SHIAB-INVERSE/BIANCHI COMPLETION.** v0.47
+> proves the full selected Shiab is an isomorphism and rejects the whole split
+> correction as a standalone connection-curvature jet.
+
+> **PREDECESSOR — 2026-08-07 NORMAL-JET OWNER CORRECTION.** v0.46 retracts
+> the false residual-Gram owner inference while retaining exact raw carrier
+> compatibility for all four correction columns.
+
+> **PREDECESSOR — 2026-08-07 OBSERVATION-OWNER RETYPE.**
+> [`explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md`](explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md)
+> proves that the metric and its graph section carry the same rank-four
+> diffeomorphism tangent. Complete observation is an invertible receiver and
+> transports rather than cancels a Ward defect, so no independent observation
+> action column may be added. A dependent moving-section term remains live
+> through the ambient normal first jet of `Upsilon`, but the current on-section
+> full-`II` pullback does not determine it. Ledger v0.45 moves five
+> distances/priorities; headline counts, residue, four scoped quotients and
+> P1/P2/P3 remain fixed.
+
+> **PREDECESSOR — 2026-08-07 SOURCE-CORRECTED CONNECTION-RANK MISMATCH.**
+> The v0.44 theorem still kills connection-only cancellation on the time
+> generator; only its ambiguous section/observation successor is retyped.
+
+> **PREDECESSOR — 2026-08-07 RANK-FOUR PROXY WELD.** The v0.43 theorem remains
+> exact on its diagnostic covector-slot carrier, but that carrier is not the
+> source-native action target.
+
+> **PREDECESSOR — 2026-08-07 OFF-TT WARD AND ACTION-OWNER CORRECTION.**
+> [`explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md`](explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md)
+> exactly reproduces the TT polynomial from the metric pullback, but the full
+> metric Hessian has diffeomorphism-Ward defect rank four and is nonsingular at
+> the restricted spatial-trace candidate `s=-1157/3589`. That number is not a
+> scalar characteristic root. Layer 0 also separates the old observer/full-`B`
+> first-variation coefficient from the selected stationary residual norm.
+> Ledger v0.42 moves five distances/priorities only; headline counts, residue,
+> four scoped quotients and P1/P2/P3 remain fixed.
+
+> **PREDECESSOR — 2026-08-07 MASSIVE SO(3) CLOSURE.**
+> [`explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md`](explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md)
+> proves that the massive axial-weight-`+/-2` pair closes under rest-frame
+> rotations to the five-dimensional spin-two irrep, with exact Casimir `-6`.
+> The axial weights `0,+/-1` are forced partners, not extra fields. The one
+> remaining spatial trace is a separate spin-zero irrep, and the exact
+> two-dimensional commutant proves TT data cannot determine its polynomial.
+> Ledger v0.41 moved five distances/priorities only. Its proposed coefficient
+> import is superseded by the current Layer-0 owner correction.
+
+> **PREDECESSOR — 2026-08-07 SECOND-LAYER TT EULER/PREBOUNDARY.**
+> [`explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md`](explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md)
+> composes the complete selected-`Cl2` form with the exact Gauss identity. The
+> zero-fermion TT Euler polynomial is
+> `kappa_1^2(14356/13689) box(box+1922/3589)`: a massless helicity-`+/-2`
+> pair and a massive TT plus/cross plane of axial spin weight `+/-2`, with
+> opposite local Green signs. The massive full `SO(3)` type was open here and
+> is closed by the current gate above. The fourth-order preboundary
+> potential/current is exact and nonzero. Ledger v0.40 moved four distances
+> only. Global domain, odd BV/BFV, positive energy and Einstein recovery remain
+> open.
+
+> **PREDECESSOR — 2026-08-07 SELECTED CL2 PULLBACK COMPLETE.**
 > [`explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md`](explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md)
 > derives and exhaustively verifies the complete sparse `1,274 x 100`
 > selected-`Cl2` target: rank 100, 640 nonzeros, and stationary quadratic form
@@ -18,12 +2224,12 @@ updated_at: "2026-08-06"
 > Euler, preboundary or helicity work. Domain/BV/BFV remains conditional on
 > exact helicity two.
 
-> **NEXT RUN: TOTAL-RESIDUAL OTHER-GRADE TYPING.** Separate the selected
+> **SUPERSEDED QUEUE — TOTAL-RESIDUAL OTHER-GRADE TYPING.** The 01:20
+> Layer-0 source pass corrected this wording: separate the selected
 > bosonic `Cl2` residual from the source's bosonic-plus-fermionic total
-> residual. Enumerate other Clifford grades by observer-stabilizer type, prove
-> zero blocks without the killed full-Spin shortcut, and compute any surviving
-> blocks with sparse exact arithmetic. Compose them with the completed `Cl2`
-> map before any higher variational or physical-carrier promotion.
+> residual, but do not enumerate spinor Euler summands as bosonic Clifford
+> grades. On the zero-fermion pure-Gauss tangent they vanish separately, which
+> is what admitted the TT Euler/preboundary gate above.
 
 > **2026-08-06 SECOND-LAYER GAUSS OWNER MAP TYPE CORRECTION.**
 > [`explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`](explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md)

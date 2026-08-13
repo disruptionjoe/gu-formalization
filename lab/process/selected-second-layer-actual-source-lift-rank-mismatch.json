@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "CONNECTION_ONLY_RANK_MISMATCH__V043_PROXY_RETRACTED_AS_ACTION_TARGET",
+  "source_return": "SOURCE-CORRECTS__USE_G_VARPI_LD_NOT_COVECTOR_SLOT_PROXY__SOURCE-SILENT__SECTION_OBSERVATION_WELD",
+  "predecessor": "lab/process/selected-second-layer-dupsilon-gauge-orbit-weld.json",
+  "exact_result": {
+    "v043_covector_slot_proxy_rank": 4,
+    "v043_diagnostic_weld": "VALID_ON_PROXY_ONLY",
+    "full_tautological_slot_lie_response": "ZERO",
+    "actual_independent_connection_diffeomorphism_rank": 3,
+    "complete_metric_connection_generator_rank": 4,
+    "actual_connection_kernel": [1, 0, 0, 0],
+    "metric_ward_load_rank": 4,
+    "metric_ward_load_on_connection_kernel": "NONZERO_FOR_ALL_NONZERO_REST_MOMENTUM",
+    "connection_only_selected_upsilon_weld": "IMPOSSIBLE_AT_CURRENT_PRINCIPAL_GRADE",
+    "section_observation_diffeomorphism_response": "OPEN",
+    "combined_selected_upsilon_naturality": "OPEN",
+    "lower_order_full_orbit_rival": "OPEN"
+  },
+  "next_gate": "CONSTRUCT_ACTUAL_SECTION_OBSERVATION_DIFFEO_TANGENT_ON_CONNECTION_KERNEL_THEN_TEST_COMBINED_SELECTED_UPSILON_NATURALITY",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-07-selected-second-layer-actual-source-lift-rank-mismatch-review.md",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 0, "remaining_named_conditions": 4},
+  "rerun": "34/34 PASS"
+}

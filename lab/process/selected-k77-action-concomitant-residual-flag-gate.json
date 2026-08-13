@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-011911-gu-k77-action-concomitant-residual-flag",
+  "status": "EXACT_SCOPED_INVARIANT_HQ_NONSELECTION__NONHOMOGENEOUS_SUCCESSOR_LIVE",
+  "target_claim": "NONE-NOT-A-KILL",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.190",
+  "ledger_rows": ["RA-A1", "RA-A2", "RA-A6", "RA-A8", "RA-D4", "RA-E1", "RA-E3", "RA-E5", "RA-G2", "RA-G4", "LT-SM3", "AC-F1"],
+  "result": {
+    "checks": 42,
+    "failures": 0,
+    "lorentz_commutant_dimension": 2,
+    "commutant_basis": ["IDENTITY", "TRACE_PROJECTOR"],
+    "dewitt_inertia": [6, 4],
+    "distortion_endomorphism": "IDENTITY",
+    "curvature_endomorphism": "9_IDENTITY",
+    "second_fundamental_class": "ARBITRARY_TRACE_PLUS_TRACELESS_EIGENVALUES",
+    "possible_gapped_projector_ranks": [0, 1, 9, 10],
+    "rank_four_available": false,
+    "all_current_commutators_zero": true,
+    "polar_branch_available": false,
+    "nonhomogeneous_successor_open": true,
+    "full_unitary_projection_open": true
+  },
+  "controls": {
+    "constant_section_totally_geodesic_shortcut_rejected": true,
+    "connection_value_as_tensor_rejected": true,
+    "fitted_rank_four_projector_rejected": true,
+    "supplied_complex_structure_rejected": true,
+    "direct_curvature_contraction_used": true
+  },
+  "source_return": "SOURCE_CONFIRMS_GEOMETRIC_REDUCTION_AND_GAUGE_ROTATED_CONNECTION_INGREDIENTS__SOURCE_SILENT_ON_ACTION_DERIVED_HQ_SELECTOR__SOURCE_CORRECTS_ANY_CLAIM_THAT_FAILURE_OF_THIS_BACKGROUND_REFUTES_SC_GRP_03",
+  "hostile_review": "SURVIVES_AFTER_SCOPE_REPAIR__LORENTZ_INVARIANT_NATURAL_HQ_CLASS_EXACTLY_NONSELCTING__NONHOMOGENEOUS_CURVATURE_II_AND_FULL_UNITARY_PROJECTION_OPEN",
+  "mailbox_postflight": "NO_NEW_GU_NOTE_AFTER_2026_08_10__SUCCESSOR_UNCHANGED",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 6
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "BUILD_SMALLEST_ACTION_STATIONARY_NONHOMOGENEOUS_REDUCED_CURVATURE_PLUS_FULL_II_ORBIT__RETEST_HQ_GAP_POLAR_STABILIZER__KEEP_FULL_UNITARY_PROJECTION_SEPARATE"
+}

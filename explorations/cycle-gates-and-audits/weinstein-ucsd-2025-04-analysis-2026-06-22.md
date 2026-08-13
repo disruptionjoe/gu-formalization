@@ -176,7 +176,7 @@ where V = horizontal bundle (from X⁴) and W = vertical bundle (fiber of Y¹⁴
 
 ### Claim 8: Velo-Zwanziger Constraint on Spin-3/2
 
-**Transcript source.** [00:41:48–00:42:29]: "Vela Zwanziger says that if you have spin three halves matter that is coupled, to some sort of nontrivial acting group, you have to be very careful you acquire tachyons or failures of unitarity, causality goes out the window... So if your model differs by having no internal symmetry groups, I have no idea whether it has any kind of a Velo Zwanziger problem."
+**Transcript source.** [00:41:48–00:42:29]: "Velo-Zwanziger says that if you have spin three halves matter that is coupled, to some sort of nontrivial acting group, you have to be very careful you acquire tachyons or failures of unitarity, causality goes out the window... So if your model differs by having no internal symmetry groups, I have no idea whether it has any kind of a Velo Zwanziger problem."
 
 **Formalized claim.** The Velo-Zwanziger theorem (Velo and Zwanziger 1969) states: for spin-3/2 fields minimally coupled to an external gauge field with nontrivial gauge group, the Cauchy problem is ill-posed — acausality, tachyons, or failure of unitarity necessarily occur. The assumptions are: (1) minimal coupling (the standard spin-3/2 coupling to external gauge fields), (2) the coupled gauge group is nontrivial (has a nontrivial action on the spin-3/2 field), (3) the propagation is on a flat or mildly curved background.
 

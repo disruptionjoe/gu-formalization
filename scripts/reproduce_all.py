@@ -43,6 +43,11 @@ TESTS_DIR = os.path.join(REPO_ROOT, "tests")
 PAPER_CERT_DIRS = [
     os.path.join(REPO_ROOT, "papers", "drafts", "hardening-pass-2026-07-03"),
     os.path.join(REPO_ROOT, "papers", "candidates"),
+    # Added 2026-08-08 (register P-H9): general_krein_grading_sign.py lived under
+    # papers/drafts/ but outside every declared root, so no harness swept it. It
+    # runs green. The companion gate now discovers certificate-shaped files under
+    # papers/ independently, so a future orphan fails loudly instead of silently.
+    os.path.join(REPO_ROOT, "papers", "drafts", "structurally-forced-internally-undecidable"),
 ]
 
 # Path fragments that mark a directory as non-certificate scratch/cache; never run these.

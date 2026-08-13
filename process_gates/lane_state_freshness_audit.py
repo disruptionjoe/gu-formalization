@@ -62,6 +62,24 @@ def lag_days(committed, derived_iso):
     return (d - c).total_seconds() / 86400.0
 
 
+def absolute_currency_lag(committed_iso):
+    """Lag of LANE-STATE's own updated_at behind the repository's newest commit.
+
+    Added 2026-08-13 (Lane A). The pre-existing top-level check measures lag
+    against the newest commit of the evidence THIS FILE cites, so a surface
+    that stops pointing at current work is fresh by construction: on
+    2026-08-13 this file was ten days and 478 commits stale and the audit
+    PASSED. This check is absolute, not self-referential.
+    """
+    import subprocess as _sp
+    try:
+        newest = _sp.run(["git", "log", "-1", "--format=%cI"],
+                         capture_output=True, text=True, check=True).stdout.strip()
+    except Exception:
+        return None
+    return lag_days(committed_iso, newest)
+
+
 def main():
     print("== lane_state_freshness_audit (tolerance %d days) ==" % TOLERANCE_DAYS)
     d = dls.derive()
@@ -102,6 +120,11 @@ def main():
     # 4. portfolio freshness
     pf = json.load(open(dls.PORTFOLIO))
     pf_newest = dls.newest_touch(["lab/process/research-portfolio.json"])[0]
+    abs_lag = absolute_currency_lag(d["committed_updated_at"])
+    if abs_lag is not None:
+        check(abs_lag <= TOLERANCE_DAYS,
+              "LANE-STATE updated_at lags the repository's newest commit by %.1fd (<= %dd)"
+              % (abs_lag, TOLERANCE_DAYS))
     pf_lag = lag_days(pf.get("updated_at"), pf_newest)
     check(pf_lag is not None and pf_lag <= TOLERANCE_DAYS,
           "portfolio updated_at lags its newest commit by %s (<= %dd)"

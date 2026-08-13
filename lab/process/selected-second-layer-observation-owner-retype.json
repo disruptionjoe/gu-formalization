@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "INDEPENDENT_OBSERVATION_COLUMN_REJECTED__DEPENDENT_NORMAL_JET_ROUTE_OPEN",
+  "source_return": "SOURCE-CORRECTS__OBSERVATION_IS_RECEIVER_NOT_INDEPENDENT_ACTION_FIELD__SOURCE-SILENT__NORMAL_JET_OF_UPSILON",
+  "predecessor": "lab/process/selected-second-layer-actual-source-lift-rank-mismatch.json",
+  "exact_result": {
+    "metric_diffeomorphism_tangent_rank": 4,
+    "graph_section_vertical_tangent": "SAME_AS_METRIC_TANGENT",
+    "stacked_metric_graph_section_tangent_rank": 4,
+    "independent_observation_action_column": "REJECTED_WITHOUT_SEPARATE_SOURCE_FIELD",
+    "invertible_observation_receiver_effect": "TRANSPORTS_WARD_LOAD_AND_PRESERVES_RANK",
+    "moving_target_transport_at_residual_zero": "ZERO_AT_STATIONARY_QUADRATIC_GRADE",
+    "moving_section_normal_jet_term": "CAN_BE_NONZERO_AT_RESIDUAL_ZERO",
+    "normal_jet_from_on_section_full_ii_pullback": "NOT_IDENTIFIABLE",
+    "source_native_j1_upsilon_normal_jet": "OPEN",
+    "total_metric_section_derivative": "OPEN",
+    "selected_upsilon_to_full_ii_owner_map": "OPEN"
+  },
+  "next_gate": "CONSTRUCT_SOURCE_NATIVE_J1_UPSILON_NORMAL_JET_AND_TOTAL_METRIC_SECTION_DERIVATIVE_ON_E0_THEN_COMPARE_WITH_CONDITIONAL_FULL_II_OWNER_MAP",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-07-selected-second-layer-observation-owner-retype-review.md",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 1, "remaining_named_conditions": 4},
+  "rerun": "40/40 PASS"
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-133651-gu-i2b-full-trace-orbit-derivative",
+  "ledger_version": "0.208",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-02", "SC-ACT-04", "SC-GRP-01", "SC-GRP-02"],
+  "source_return": "SOURCE_CONFIRMS_MOVING_EPSILON_CONJUGATION_GRAMMAR_AND_C32_32_WEYL_CARRIER_SPLIT__SOURCE_SILENT_ON_HQ_AND_PPLUS__REPO_DERIVES_FULL_NORMALIZED_TRACE_ORBIT_DPPLUS__FULL_U64_64_ACTION_PARENT_AND_COMPLETE_EULER_PREBOUNDARY_OPEN",
+  "layer0": {
+    "normalized_trace_orbit_vs_arbitrary_dewitt_metric_variation": "DISTINCT",
+    "trace_stabilizer_vs_residual_pointwise_isotropy": "DISTINCT",
+    "source_c32_32_carrier_split_vs_block_preserving_u32_32_product": "DISTINCT",
+    "block_preserving_u32_32_product_vs_two_independent_connections": "DISTINCT",
+    "full_u64_64_principal_parent_vs_source_c32_32_carrier_split": "DISTINCT",
+    "fixed_norm_q_tangent_vs_radial_q_scaling": "DISTINCT"
+  },
+  "exact_results": {
+    "so64_generators_tested": 91,
+    "trace_stabilizer_dimension": 78,
+    "trace_orbit_dimension": 13,
+    "target_real_coordinates": 392,
+    "stabilizer_pplus_commutator_failures": 0,
+    "stabilizer_generators_moving_target": 12,
+    "moved_target_fixed_real_failures": 0,
+    "dot_pplus_ranks": [56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56],
+    "dot_pplus_joint_image_rank": 392,
+    "differentiated_idempotency_failures": 0,
+    "off_diagonal_derivative_failures": 0,
+    "moving_naturality_failures": 0,
+    "frozen_projector_firing_basis_vectors_per_direction": [56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56],
+    "action_skew_generator_failures": 0,
+    "dot_pplus_action_adjoint_failures": 0,
+    "moving_first_variation_failures": 0,
+    "nontrivial_action_cancellations_by_direction": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+    "radial_scaling_delta_q_squared": -2,
+    "normalized_trace_orbit_complete": true,
+    "new_external_datum_required": false,
+    "full_u64_64_action_parent_selected": false,
+    "complete_field_euler_preboundary_derived": false
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_quotients": 0,
+    "new_promoted_selectors": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "FULL_NORMALIZED_TRACE_ORBIT_DPPLUS_EXACT_ZERO_DATUM__STABILIZER_ROTATES_RESIDUAL_INSIDE_FIXED_CLASS__REMAINING_FIELD_EULER_PREBOUNDARY_OPEN",
+  "next_gate": "INDEPENDENT_DEWITT_HODGE_SHIAB_CONNECTION_OBSERVATION_FIELD_DERIVATIVES__COMPLETE_EULER_PREBOUNDARY__FULL_U64_64_ACTION_PARENT_DISTINCT_FROM_C32_32_CARRIER_SPLIT_AND_BLOCK_SUBGROUP",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-i2b-full-trace-orbit-derivative-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_i2b_full_trace_orbit_derivative_probe.py",
+    "source_return": "lab/sources/selected-k77-i2b-full-trace-orbit-derivative-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-i2b-full-trace-orbit-derivative-review.md"
+  }
+}

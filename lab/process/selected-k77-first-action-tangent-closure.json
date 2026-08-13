@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-09",
+  "status": "BOTH_BRANCHES_GRADE1_HESSIAN_NONDEGENERATE__GRADE1_GRADE2_CROSS_ZERO__MINIMAL321_SURVIVES_CONNECTION_CLOSURE_ONLY",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE_CONFIRMS_FULL_ADJOINT_ONE_FORM_TWO_CONNECTION_AND_FIRST_ACTION_GRAMMAR__SOURCE_SILENT_321_VS1571_TANGENT_BRANCH_HESSIAN_AND_ACTION_PARENT",
+  "layer0": {
+    "first_action_hessian": "SECOND_VARIATION_OF_FIRST_TRANSGRESSION_ACTION",
+    "raw_residual_jacobian": "DISTINCT_FROM_FIRST_ACTION_HESSIAN",
+    "residual_square_hessian": "DISTINCT_SECOND_ACTION",
+    "minimal_321": "RESTRICTED125_PLUS_COMPLETE_GRADE1_196__MINIMUM_KNOWN_SELECTED_COMPLETION",
+    "source_1571": "KNOWN_LOW_GRADE_COORDINATES__NOT_COMPLETE_FUNCTIONAL_TANGENT",
+    "expanded_parents": "TWO_U32_32_HALVES_DIM16382_AND_FULL_U64_64_DIM16383_REMAIN_DISTINCT"
+  },
+  "exact_result": {
+    "branches": [
+      {"b": "1/208-sqrt(3)/312", "t": "(-2+sqrt(3))/208"},
+      {"b": "1/208+sqrt(3)/312", "t": "(-2-sqrt(3))/208"}
+    ],
+    "grade1_grade2_first_action_hessian": {
+      "shape": [1274, 196],
+      "constant_component_nnz": 0,
+      "b_component_nnz": 0,
+      "t_component_nnz": 0,
+      "branch_ranks": [0, 0],
+      "horizontal24_ranks": [0, 0],
+      "offslice1250_ranks": [0, 0]
+    },
+    "grade1_grade1_first_action_hessian": {
+      "shape": [196, 196],
+      "branch_ranks": [196, 196],
+      "branch_inertias": [[97, 99, 0], [97, 99, 0]],
+      "branch_nnz": [560, 560],
+      "branches_equal": false,
+      "branches_galois_conjugate": true
+    },
+    "minimal_321_disposition": "SURVIVES_THIS_CONNECTION_BLOCK_GATE__NOT_SELECTED_OR_COMPLETE",
+    "remaining_closure_blocks": [
+      "METRIC_TO_OFFSLICE_CONNECTION_DUAL",
+      "EPSILON_EPSILON_AND_METRIC_EPSILON",
+      "DERIVATIVE_JETS_AND_FUNCTIONAL_DOMAIN",
+      "EXPANDED_PARENT_HESSIANS"
+    ]
+  },
+  "trap": {
+    "what": "the 1470 low-grade basis is interleaved by form slot; slicing its first 196 entries does not select Clifford grade one",
+    "bad_prefix_grade_counts": {"grade1": 28, "grade2": 168},
+    "cost_avoided": "a false rank-177 off-slice leakage result and false killing of the 321-field candidate",
+    "control": "grade-filter the basis and independently finite-difference exact Euler covectors"
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_selectors": 0,
+    "new_bundle_classes": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_first_action_tangent_closure_probe.py",
+    "tests/channel-swings/selected_k77_first_action_tangent_closure_independent.sage"
+  ],
+  "source_reinspection": "lab/sources/selected-k77-first-action-tangent-source-reinspection-2026-08-09.md",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-first-action-tangent-closure-review.md",
+  "next_gate": "COMPLETE_MINIMAL321_METRIC_EPSILON_HESSIAN_BLOCKS_AND_TEST_OFFSLICE_LOW_GRADE_LEAKAGE__THEN_EXPANDED_PARENT_HESSIANS_GAUGE_GHOST_DOMAIN"
+}

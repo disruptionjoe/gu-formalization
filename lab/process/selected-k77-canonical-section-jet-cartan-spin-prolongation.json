@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-000025-gu-k77-canonical-section-jet-cartan-spin-prolongation",
+  "status": "SCOPED_CANONICAL_FIRST_ORDER_OBSERVATION_PLANE_PROLONGATION",
+  "checks": {
+    "total": 53,
+    "failures": 0,
+    "fields": [1009, 1013],
+    "all_forty_exact": true,
+    "full_1920_control_inherited_from_v0186": true
+  },
+  "cartan_lift": {
+    "domain_dimension": 40,
+    "rotation_directions": 18,
+    "boost_directions": 22,
+    "actual_section_jet_rank": 4,
+    "actual_lift_rank": 8,
+    "graph_block_exact": true,
+    "k77_orthogonal": true,
+    "unique_pure_off_diagonal": true,
+    "residual_fit_used": false,
+    "blind_skew_projection_factor": "1/2",
+    "missing_reciprocal_defect_rank": 8,
+    "ambiguity": "BLOCK_STABILIZER_FRAME_GAUGE"
+  },
+  "spin_and_operator": {
+    "gamma_covariance_all_40": true,
+    "chirality_preserved_all_40": true,
+    "pairing_block_types_preserved_all_40": 2,
+    "ambient_control_rank": 1920,
+    "h640_rank": 640,
+    "inherited_symbol_covariance": true,
+    "inherited_fixed_graph_leak_rank": 128,
+    "inherited_moving_graph_leak_rank": 0,
+    "pairing_horn_selected": false
+  },
+  "moving_gimmel": {
+    "metric_basis_directions": 10,
+    "compensator": "A=-G^-1(dG)/2",
+    "compensation_exact": true,
+    "fixed_metric_cartan_element": false,
+    "identified_with_q_J": false
+  },
+  "scope": {
+    "observation_plane_component": "EXACT_LOCAL_FIRST_ORDER",
+    "finite_nonlinear_normalization": "OPEN",
+    "atlas_overlap_descent": "OPEN",
+    "full_epsilon_IG_complex_cartan_flag": "OPEN",
+    "lower_order_bv_kt": "OPEN",
+    "global_analytic_domain": "OPEN"
+  },
+  "source_return": "SOURCE_CONFIRMS_GAUGE_ROTATED_LEVI_CIVITA_AND_RICH_OBSERVATION__SOURCE_CORRECTS_SOURCE_EPSILON_EQUALS_EPSILON_IG_AND_ANY_FULL_FLAG_CLAIM__SOURCE_SILENT_ON_THE_EXACT_SECTION_JET_CARTAN_SPIN_PROLONGATION",
+  "hostile_verdict": "SURVIVES_SCOPED__CANONICAL_LOCAL_FIRST_ORDER_OBSERVATION_PLANE_CARTAN_SPIN_PROLONGATION_EXACT__FULL_EPSILON_IG_FLAG_AND_NONLINEAR_GLOBAL_DESCENT_OPEN",
+  "next_gate": "CONSTRUCT_OR_KILL_FINITE_NONLINEAR_NORMALIZED_GRAPH_CARTAN_LIFT_AND_ATLAS_DESCENT__COMPOSE_WITH_ACTION_EPSILON_IG_LEVI_CIVITA_AND_FULL_FLAG__THEN_LOWER_ORDER16CELL_BV_KT",
+  "accounting": {
+    "P1_P2_P3_used": false,
+    "verdict_change": false,
+    "booked_residue_change": false,
+    "quotient_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  }
+}

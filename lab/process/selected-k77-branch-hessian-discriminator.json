@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-09",
+  "status": "NAIVE_RECONSTRUCTION_HESSIAN_SELECTOR_FALSIFIED__SOURCE_VARPI_RESTRICTIONS_SAME_INERTIA__BOTH_BRANCH_PORTS_REQUIRED",
+  "lane": "1",
+  "functional_channels": ["SOURCE", "COMPOSE", "BUILD", "VERIFY"],
+  "source_return": "SOURCE_CONFIRMS_FIRST_ACTION_AND_DISTINCT_UPSILON_NORM_SQUARE__SOURCE_SILENT_BRANCH_HESSIAN_TYPE_BRANCH_SELECTION_AND_ACTION_PARENT",
+  "layer0": {
+    "independent_B_fixed_T": "RECONSTRUCTION_DIAGNOSTIC_NOT_SOURCE_TANGENT",
+    "noncritical_coordinate_second_derivative": "NOT_MORSE_HESSIAN",
+    "galois_conjugacy": "NOT_ORDER_PRESERVING_REAL_CONGRUENCE",
+    "first_transgression_action": "DISTINCT_FROM_RESIDUAL_NORM_SQUARE_ACTION",
+    "source_varpi_scalar_slice": "NOT_COMPLETE_G_VARPI_EPSILON_HESSIAN",
+    "boundary_symplectomorphism": "NOT_BULK_HESSIAN_EQUIVALENCE",
+    "shared_Phi1_slice": "NOT_ACTION_PARENT_SELECTION"
+  },
+  "reconstruction_plane": {
+    "branch_plus_gradient": ["-21/208 + 7*sqrt(3)/104", "0"],
+    "branch_minus_gradient": ["-21/208 - 7*sqrt(3)/104", "0"],
+    "branch_plus_determinant": "588*(3-2*sqrt(3)) < 0",
+    "branch_minus_determinant": "588*(3+2*sqrt(3)) > 0",
+    "disposition": "NONINVARIANT_BECAUSE_DI_DB_NONZERO__EXACT_LOCAL_COORDINATE_CHANGE_CAN_FORCE_DETERMINANT_ZERO"
+  },
+  "source_varpi_slice": {
+    "first_action_coefficients": ["14*(sqrt(3)-2)", "-14*(sqrt(3)+2)"],
+    "first_action_class": "BOTH_NEGATIVE__REAL_CONGRUENT_UP_TO_NORMALIZATION",
+    "fixed_coordinate_ratio": "7-4*sqrt(3) > 0",
+    "residual_square_coefficients": ["7-4*sqrt(3)", "7+4*sqrt(3)"],
+    "residual_square_class": "BOTH_POSITIVE_RANK_ONE_UP_TO_NONZERO_PARENT_PAIRING_ORIENTATION",
+    "selects_branch": false
+  },
+  "action_parents": {
+    "selected_spin_native": "DISTINCT",
+    "two_U32_32_halves": "DISTINCT_BLOCK_PRESERVING_PARENT",
+    "full_U64_64": "DISTINCT_EVEN_PLUS_HALF_EXCHANGING_COMPARATOR",
+    "selected": false
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_selectors": 0,
+    "new_bundle_classes": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 6
+  },
+  "controls": {
+    "primary": "46/46 PASS",
+    "independent_sage_flint": "15/15 PASS",
+    "noncritical_morse_plant": "FIRED",
+    "galois_order_plant": "FIRED",
+    "action_summing_plant": "FIRED",
+    "parent_collapse_plant": "FIRED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_branch_hessian_discriminator_probe.py",
+    "tests/channel-swings/selected_k77_branch_hessian_discriminator_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-branch-hessian-discriminator-review.md",
+  "next_gate": "PORT_ACTUAL_FIRST_ACTION_EPSILON_CL1_CROSS_AND_SECOND_ACTION_G_VARPI_EPSILON_JACOBIAN_TO_BOTH_STATIONARY_BRANCHES_AND_EACH_RETAINED_PARENT__DO_NOT_TRANSFER_BY_GALOIS_CONJUGACY"
+}

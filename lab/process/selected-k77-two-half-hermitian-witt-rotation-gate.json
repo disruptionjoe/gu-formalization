@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-030756-gu-two-half-hermitian-witt-map",
+  "status": "EXACT_CONDITIONAL_FULL_AND_TWO_HALF_HERMITIAN_WITT_COMPATIBILITY__Q_UNSELECTED",
+  "target_claim": "NONE-NOT-A-KILL",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.193",
+  "ledger_rows": ["AC-G1a", "AC-F1", "RA-E3", "RA-F2", "RA-G2", "LT-SM3"],
+  "result": {
+    "checks": 53,
+    "failures": 0,
+    "native_J_carrier_complex_dimension": 64,
+    "source_sized_complexification_dimension": 128,
+    "full_Hq_signature": [64, 64],
+    "weyl_plus_Hq_signature": [32, 32],
+    "weyl_minus_Hq_signature": [32, 32],
+    "split_equivariant_same_half_bilinear_dimensions": [0, 0],
+    "full_fixed_q_stabilizer_dimension": 78,
+    "split_fixed_q_stabilizer_dimension": 48,
+    "witt_rotation_exact": true,
+    "moving_q_naturality_exact": true,
+    "q_selected": false,
+    "physical_block_identification": "OPEN"
+  },
+  "controls": {
+    "missing_external_i_rejected": true,
+    "zero_q_rejected": true,
+    "frozen_q_frame_move_rejected": true,
+    "neutral_B_halves_rejected_as_nondegenerate_blocks": true
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_PARENT_TWO_HALF_EXPOSITION_AND_VARPI_ASSIGNMENT__SOURCE_SILENT_ON_HQ_Q_SELECTION_AND_PHYSICAL_BLOCK",
+  "hostile_review": "SURVIVES_SCOPED_AFTER_REPAIR__CONDITIONAL_HQ_WITT_COMPATIBILITY_ONLY__Q_AND_PHYSICAL_BLOCK_UNSELECTED",
+  "mailbox_postflight": "NO_NEW_GU_FORMALIZATION_SCIENTIFIC_ITEM_AFTER_2026_08_10__20260812_PROG004_AND_WORKBENCH_POINTERS_ARE_PROCESS_ONLY_AND_NONDISPLACING",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 5
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "conditional_unbooked_q_orbit_dimension_before_gauge": 13,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "CONSTRUCT_OR_KILL_OBSERVATION_OR_ACTION_OWNED_NON_NULL_Q_LINE__TEST_GLOBAL_DESCENT_AND_DATUM_COST__DECOMPOSE_HQ_UNITARY_VARPI_BLOCKS_UNDER_OBSERVED_STABILIZER__REQUIRE_ACTION_OWNED_SCALAR_DOUBLET_KINETIC_POTENTIAL_YUKAWA_SURPLUS"
+}

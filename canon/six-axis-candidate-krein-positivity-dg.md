@@ -12,6 +12,13 @@ external_ref: "Bateman & Turok, arXiv:2607.00096, Escape from Ostrogradsky via H
 
 # Six-axis candidate: the Krein / ghost-parity positivity-axis evasion of Distler-Garibaldi
 
+> **CARRIER-SELECTION SCOPE CORRECTION (2026-08-10).** The kinematic claims
+> below are conditional on the supplied `192`-dimensional `W`. They do not
+> derive that carrier: the old internal Casimir criterion accepts a planted
+> random `192` and cannot discriminate. No acceptance row may treat fixed-`W`
+> compatibility as physical-carrier selection; see
+> `canon/generation-carrier-identification-scope-correction-2026-08-10.md`.
+
 > **L7 RATIFIED 2026-07-10 (Joe).** The "provisional seventh axis" proposed in this doc is now a full
 > axis of the protocol (`lab/specifications/six-axis/six-axis-template.md`, Leg 7). It earned its slot:
 > the positivity/signature lever is exercised by two independent candidates (this one AND the

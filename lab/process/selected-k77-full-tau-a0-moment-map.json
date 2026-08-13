@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "FULL_NONZERO_A0_TILTED_ALGEBRAIC_EDGE_DESCENT_EXACT_ON_CONDITIONAL_SPIN_NATIVE_PARENT__CHARGED_BOUNDARY_HORN_AND_ANALYTIC_BFV_REMAIN_OPEN",
+  "lane": "1",
+  "functional_channels": ["SOURCE", "COMPOSE", "BUILD", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS_FULL_TILTED_DOUBLE_ACTION_AND_DISTINGUISHED_A0__SOURCE_SILENT_BOUNDARY_MOMENT_MAP_EDGE_COMPLETION_AND_ACTION_PARENT_SELECTION",
+  "layer0": {
+    "active_gauge_action": "automorphism acting through the derivative-bearing tau_A0 cocycle",
+    "passive_atlas_transport": "moving-reference conjugation of A0, distortion, momentum and gauge generator",
+    "left_tilted_quotient": "canonical homogeneous distortion Theta_A0",
+    "residual_right_action": "adjoint action on distortion and cotangent momentum",
+    "raw_boundary_moment_map": "commutator [Theta_A0,P], live on the unextended phase space",
+    "edge_completion": "group-valued frame whose dressed variables make the residual orbit characteristic",
+    "global_algebraic_descent": "associated-bundle cocycle and coadjoint moment-map patching",
+    "global_analytic_bfv": "functional completion, topology, polarization, charge algebra and common domain; not constructed"
+  },
+  "full_tau_a0": {
+    "cocycle": "q_A0(g)=A0-g dot A0 with the full derivative jet",
+    "graph_homomorphism": true,
+    "left_quotient": "Theta_A0(g,a)=Ad(g^-1)(a-q_A0(g))",
+    "left_invariant": true,
+    "residual_right_law": "Theta -> Ad(h^-1)Theta",
+    "zero_jet_shadow_rejected": true,
+    "flat_maurer_cartan_is_only_a0_zero_shadow": true
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": {
+      "status": "OPERATIVE_CONDITIONAL_PARENT",
+      "carrier_dimension_complex": 2107,
+      "pairing": "Hodge13 times scalar-Clifford trace",
+      "preserves_selected_carrier": true
+    },
+    "two_u32_32_halves": {
+      "status": "RIVAL_PARENT_REQUIRES_CARRIER_EXPANSION",
+      "carrier_dimension_complex": 16382,
+      "preserves_selected_carrier": false
+    },
+    "full_u64_64": {
+      "status": "RIVAL_PARENT_REQUIRES_CARRIER_EXPANSION",
+      "carrier_dimension_complex": 16383,
+      "preserves_selected_carrier": false
+    }
+  },
+  "moment_map": {
+    "raw_hamiltonian": "mu_xi=Tr(P[Theta,xi])",
+    "raw_moment_map_element": "[Theta,P]",
+    "raw_action_charged": true,
+    "adjoint_equivariant": true,
+    "patches_under_moving_reference": true,
+    "edge_dressed_map_rank": 8,
+    "edge_presymplectic_rank": 8,
+    "edge_kernel_dimension": 4,
+    "residual_gauge_orbit_rank": 4,
+    "edge_kernel_equals_gauge_orbit": true,
+    "frozen_edge_frame_remains_charged": true
+  },
+  "boundary_horns": {
+    "conditional_minimal_edge": "FULL_TAU_A0_ALGEBRAIC_DESCENT_EXACT__GLOBAL_FUNCTIONAL_BFV_OPEN",
+    "charged_boundary_symmetry": "LIVE_COMPARATOR_WITH_NONZERO_MOMENT_MAP",
+    "physical_selection": "NOT_SELECTED_BY_SOURCE_OR_ALGEBRA"
+  },
+  "scope": {
+    "proved": "nonzero-A0 tilted double action, action-parent-relative invariant trace, residual moment map, edge characteristic kernel and associated-bundle algebraic patching",
+    "not_proved": "global functional BFV completion, topology, polarization, charge algebra, common Green/Krein domain, positivity, Einstein recovery, quantum measure or physical boundary disposition"
+  },
+  "constraint_fence": {
+    "new_bulk_fields": 0,
+    "new_boundary_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "controls": {
+    "main": "55/55 PASS",
+    "independent_sage": "20/20 PASS",
+    "predecessor_v0101": "48/48 PASS"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_full_tau_a0_moment_map_probe.py",
+    "tests/channel-swings/selected_k77_full_tau_a0_moment_map_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-full-tau-a0-moment-map-review.md",
+  "next_gate": "GLOBAL_FUNCTIONAL_BFV_COMPLETION_AND_POLARIZATION_ON_CONDITIONAL_EDGE_HORN_VERSUS_CHARGED_BOUNDARY_CHARGE_ALGEBRA__THEN_COMMON_GREEN_KREIN_DOMAIN"
+}

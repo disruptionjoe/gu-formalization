@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "COUPLED_COMPLEX_REQUIRED__VERTICAL_ONLY_COMPLEX_MISTYPED__COMMON_TWO_LAYER_HESSIAN_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "COUPLED_COMPLEX_REQUIRED__TWO_LAYER_OWNER_UNDERDETERMINED",
+  "source_return": "SOURCE-CONFIRMS__TWO_LAYER_FULL_VARIABLE_ACTION_GRAMMAR_AND_DIFFEO_ORTHOGONAL_TARGET__SOURCE-SILENT__COMMON_TWO_LAYER_HESSIAN_AND_SELECTED_PHYSICAL_COMPLEX",
+  "layer0": {
+    "retained_metric_equations": "ten independent metric-section Euler coordinates",
+    "closed_vertical_complex": "MISTYPED_AND_NOT_ESTABLISHED",
+    "first_layer": "34-variable source symbol after elimination of a nondegenerate 196-dimensional adjacent-grade block",
+    "second_layer": "ten-by-ten metric diagnostic block only",
+    "combined_action_complex": "full common-field two-layer stationary Hessian not assembled",
+    "schur_elimination": "not a BV symplectic or gauge quotient"
+  },
+  "first_layer": {
+    "source_variable_dimension": 34,
+    "metric_dimension": 10,
+    "connection_dimension": 24,
+    "eliminated_grade1_dimension": 196,
+    "effective_ranks": {"timelike": 30, "spacelike": 30, "null": 30},
+    "gauge_ranks": {"timelike": 4, "spacelike": 4, "null": 4},
+    "generic_physical_symbol_cohomology": {"timelike": 0, "spacelike": 0, "null": 0},
+    "full_cross_ranks": {"timelike": 13, "spacelike": 15, "null": 15},
+    "exceptional_N2": {
+      "extra_mode_dimension": 2,
+      "rotation_polynomial": "x^2+1",
+      "helicity_absolute_value": 1,
+      "einstein_target_polynomial": "x^2+4",
+      "spin_two_disposition": "KILLED_IN_COMPLETED_FIRST_LAYER_BANK"
+    }
+  },
+  "second_layer_metric_block": {
+    "test_point": "s=2",
+    "dimension": 10,
+    "rank": 10,
+    "metric_gauge_rank": 4,
+    "ward_defect_rank": 4,
+    "transverse_traceless_polynomial": "EXACT_AND_RETAINED",
+    "full_operator_basic": false
+  },
+  "composition": {
+    "naive_first_plus_metric_second_ward_defect_rank": 4,
+    "gauge_basic_addition_can_repair": false,
+    "formal_symmetric_completion": {
+      "coefficient_dimension": 55,
+      "constraint_rank": 34,
+      "solvable": true,
+      "affine_solution_dimension": 21,
+      "disposition": "UNINFORMATIVE_WITHOUT_ACTION_SELECTION"
+    },
+    "required_owner": "FULL_SELECTED_TWO_LAYER_COMMON_FIELD_STATIONARY_HESSIAN_WITH_ALL_CROSS_BLOCKS"
+  },
+  "controls": {
+    "retained_coordinates_imply_closed_complex": "FIRED",
+    "schur_is_bv_quotient": "FIRED",
+    "naive_direct_sum": "FIRED",
+    "formal_fit_is_construction": "FIRED",
+    "dimension_two_is_graviton": "FIRED",
+    "finite_rank_is_hyperbolicity": "FIRED",
+    "sympy_composed_route": "56/56 PASS",
+    "independent_sage": "15/15 PASS"
+  },
+  "analytic_boundary": [
+    "common stationary background",
+    "complete second-layer cross Hessian",
+    "selected coupled diffeomorphism and Ward complex",
+    "characteristic cohomology and strong hyperbolicity",
+    "common Green right-H Krein domain",
+    "boundary BV-BFV and physical contour"
+  ],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "headline_delta": "NONE",
+  "frontier_delta": {"conditions_closed": 4, "conditions_opened": 1, "remaining_named_conditions": 3},
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "new_scoped_quotients": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_coupled_euler_complex_scope_probe.py",
+    "tests/channel-swings/selected_k77_coupled_euler_complex_scope_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-coupled-euler-complex-scope-review.md",
+  "next_gate": "FULL_SELECTED_TWO_LAYER_COMMON_FIELD_STATIONARY_HESSIAN_CROSS_BLOCKS_AND_WARD_COMPLEX__THEN_MICROLOCAL_GREEN_KREIN_AND_BOUNDARY_BV_BFV"
+}

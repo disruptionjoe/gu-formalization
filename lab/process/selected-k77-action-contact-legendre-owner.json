@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "GENERIC_CONTACT_THEOREM_ONLY__ACTION_K77_LEGENDRE_GREEN_BANK_OPEN",
+  "predecessor": "lab/process/selected-k77-epsilon-endpoint-direct-sum.json",
+  "source_return": "SOURCE-CONFIRMS__NONQUADRATIC_FIRST_ORDER_ACTION_AND_AUGMENTED_TORSION__SOURCE-SILENT__BFV_LEGENDRE_IDENTIFICATION__REPO-CORRECTS__KT_IS_GENERIC_CONTACT_FIXTURE_ONLY",
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR3",
+    "LT-GR5",
+    "LT-GR6"
+  ],
+  "layer0": {
+    "action_green_coefficient": "BOUNDARY_TRACE_OR_NORMAL_RESTRICTION_OF_E_B_MINUS_E_T",
+    "endpoint_p": "INDEPENDENT_COTANGENT_COORDINATE",
+    "p_equals_KT": "CONSTITUTIVE_LEGENDRE_GRAPH_IN_GENERIC_QUADRATIC_FIXTURE",
+    "ten_contact_directions": "GEOMETRIC_RANK_AND_GENERIC_NONZERO_SENSITIVITY",
+    "selected_action_ten_coefficients": "UNASSEMBLED",
+    "local_quotient": "NOT_GLOBAL_BFV_PHASE_SPACE"
+  },
+  "exact": {
+    "indefinite_K_controls": 2,
+    "both_contact_hessian_ranks": [3, 3],
+    "both_gauge_kernel_dimensions": [4, 4],
+    "different_KT_momenta": true,
+    "canonical_endpoint_twoform_rank": 4,
+    "selected_action_T_scaling_polynomial": "MINUS_4_OVER_3_Z3_PLUS_300_OVER_7_Z2_MINUS_5_Z",
+    "selected_action_cubic_live": true,
+    "E_B_minus_E_T_at_T_zero_nonzero": true,
+    "fixed_linear_KT_global_identity": false,
+    "one_point_symmetric_K_parameters": 45,
+    "one_point_fit_constraint_rank": 9,
+    "one_point_fit_free_dimension": 36,
+    "independent_sage_qq_replay": "PASS"
+  },
+  "preserved": {
+    "two_connection_contact_map": "EXACT",
+    "small_gauge_basicness": "EXACT_AT_LOCAL_CONTACT_GRADE",
+    "unrestricted_boundary_moment_map": "LIVE",
+    "independent_endpoint_cotangent_model": "EXACT",
+    "direct_sum_local_quotient": "40_OF_40",
+    "single_holonomy_compression_no_go": "20_OF_40_ONLY"
+  },
+  "corrected": {
+    "p_equals_KT_selected_action_owner": "REJECTED",
+    "arbitrary_connection_current_as_action_coefficient": "REJECTED",
+    "sign_match_as_coefficient_ownership": "REJECTED",
+    "one_background_K_fit_as_derivation": "REJECTED"
+  },
+  "open": {
+    "actual_ten_direction_selected_action_E_B_minus_E_T_boundary_bank": true,
+    "normal_restriction_orientation_and_complete_observation_receiver": true,
+    "full_tau_A0_BFV_and_common_domain": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_function_valued_slots": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "residue_reduction": 0
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "program_fences": {
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane": "NOT_PROMOTED",
+    "claim_status_change": "NONE",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "ASSEMBLE_ACTUAL_TEN_DIRECTION_SELECTED_ACTION_E_B_MINUS_E_T_BOUNDARY_BANK_WITH_OBSERVATION_RECEIVER__THEN_REUSE_INDEPENDENT_ENDPOINT_COTANGENT_DRESSING__THEN_FULL_TAU_A0_BFV_COMMON_DOMAIN"
+}

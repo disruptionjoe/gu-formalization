@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "FULL_U6464_POINTWISE_ACTION_BANK_EXACT__LIVE_GRADES_1_2_5__GRADE5_CORRECTS_LOW_GRADE_SUPPORT_AND_OBSERVED_INERTIA",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "FULL_REAL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10__FULL_SUPPORT_INERTIA_4_6",
+  "source_return": "SOURCE-CONFIRMS__U64_64_TYPE_COMPLEX_PRESENTATION_AND_ACTION_PRODUCTS__SOURCE-SILENT__PREFERRED_SHIAB_GLOBAL_BUNDLE_BFV_DOMAIN__REPO-DERIVES__FULL_REAL_U64_64_POINTWISE_ACTION_BANK",
+  "layer0": {
+    "coefficient_fibre": "all 16384 real directions of the pointwise K77 u(64,64) comparator",
+    "global_bundle": "not constructed",
+    "real_form_fork": "K77 u(64,64), not K95 right-H Sp(32,32;H)",
+    "support": "exact nonzero coefficient coordinates, distinct from row rank",
+    "observation": "complete rational equation-dual fixture, not physical global section",
+    "pairing": "scalar Clifford coefficient form, not analytic Krein domain"
+  },
+  "exact_results": {
+    "full_real_dimension": 16384,
+    "B_skew_real_dimension": 8128,
+    "i_times_B_self_dimension": 8256,
+    "seed_union": 549,
+    "seed_grade_union": {"1": 14, "2": 59, "5": 476},
+    "seed_grade_nonzero_entries": {"1": 68, "2": 98, "5": 600},
+    "seed_live_grades": [1, 2, 5],
+    "seed_row_supports": [42, 60, 46, 64, 47, 62, 46, 66, 47, 66, 47, 62, 53, 58],
+    "heldout_union": 628,
+    "heldout_live_grades": [1, 2, 5],
+    "full_bank_rank": 14,
+    "normal_bank_rank": 10,
+    "raw_normal_gram_inertia": [4, 6, 0],
+    "observed_normal_gram_inertia": [4, 6, 0],
+    "raw_normal_gram_determinant": "720675574777908926000373533816344723456/129140163",
+    "observed_normal_gram_determinant": "675990534521630134428443975864366882756479230976/20100618201669201",
+    "observation_inverse_exact": true,
+    "endpoint_orientation_opposite": true
+  },
+  "controls": {
+    "all_v076_low_grade_entries": "PASS",
+    "direct_grade5_directions": "PASS",
+    "inactive_grades_3_4_6": "PASS",
+    "heldout_background": "PASS",
+    "low_grade_rank_misses_support_plant": "FIRED",
+    "low_grade_observed_inertia_change_plant": "FIRED",
+    "independent_sage": "27/27 PASS"
+  },
+  "boundary": [
+    "global K77 adjoint-bundle patching",
+    "physical global observation section",
+    "universal all-background grade-selection theorem",
+    "preferred historical Shiab",
+    "global tau_A0/BFV moment map",
+    "common Green/Krein analytic domain",
+    "physical vacuum and spectrum"
+  ],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "headline_delta": "NONE",
+  "frontier_delta": {
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED",
+    "new_scoped_quotients": 0
+  },
+  "scripts": [
+    "tests/channel-swings/selected_k77_full_u6464_action_bank_probe.py",
+    "tests/channel-swings/selected_k77_full_u6464_action_bank_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-full-u6464-action-bank-review.md",
+  "next_gate": "GLOBAL_K77_ADJOINT_BUNDLE_PATCHING__PHYSICAL_OBSERVATION_OVERLAP__GLOBAL_TAU_A0_BFV_MOMENT_MAP__COMMON_GREEN_KREIN_DOMAIN"
+}

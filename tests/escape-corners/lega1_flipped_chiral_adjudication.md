@@ -79,7 +79,7 @@ Chirality is presented as *emergent in a small-VEV limit* (Dirac → two Weyl); 
 > forms valued in the negative spinners on that top space, **you're gonna get three generations of
 > standard model fermions**."
 
-**P7 — VZ answer = matter framing** [00:41:48], L140: "Vela Zwanziger says that if you have spin
+**P7 — VZ answer = matter framing** [00:41:48], L140: "Velo-Zwanziger says that if you have spin
 three halves **matter** that is coupled, to some sort of nontrivial acting group, you have to be
 very careful… So if your model differs by having no internal symmetry groups, I have no idea
 whether it has any kind of a Velo Zwanziger problem." (The exemption plea is unavailable to GU's

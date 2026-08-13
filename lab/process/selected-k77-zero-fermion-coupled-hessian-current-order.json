@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "status": "CURRENT_BEGINS_CUBIC__ZERO_FERMION_HESSIAN_DIRECT_SUM__PHYSICAL_FERMION_OPERATOR_OPEN",
+  "ledger_version": "0.141",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_SINGLE_TOTAL_BOSON_FERMION_RESIDUAL_AND_NO_SEPARATE_BRIDGE__SOURCE_SILENT_COMPLETE_DIRAC_OPERATOR_AND_NONZERO_FERMION_BACKGROUND",
+  "layer0": {
+    "current": "BOSONIC_EULER_COVECTOR_QUADRATIC_IN_FERMIONS",
+    "fermion_hessian": "ZBAR_Z_SECOND_DERIVATIVE_EQUAL_TO_D_AT_BACKGROUND",
+    "mixed_hessian": "ONE_BOSON_ONE_FERMION_SECOND_DERIVATIVE",
+    "vertex": "ONE_BOSON_TWO_FERMION_THIRD_DERIVATIVE_EQUAL_TO_DD_DB",
+    "backgrounds": "ZERO_FERMION_DISTINCT_FROM_NONZERO_FERMION_STATIONARY_SOLUTION",
+    "musical": "INDEFINITE_PSEUDO_MUSICAL_NOT_POSITIVE_RIESZ_OR_DOMAIN",
+    "cohomology": "ALGEBRAIC_HESSIAN_NOT_BV_DIFFERENTIAL_OR_PHYSICAL_QUOTIENT"
+  },
+  "exact_result": {
+    "universal_action": "S_B(b)+zbar D(b) z",
+    "zero_fermion_current_rank": 0,
+    "zero_fermion_mixed_hessian_rank": 0,
+    "fermion_fixture_block_rank": 3,
+    "full_fixture_hessian_rank": 16,
+    "current_vertex_order": 3,
+    "two_fermion_one_boson_vertex": "dD/db",
+    "direct_metric_trace_retained": true,
+    "direct_metric_trace_rank": 1,
+    "duplicate_total_current_bridge": "ERASES_ACTION_OWNED_VERTEX",
+    "even_ward": "CONNECTION_CURRENT_CANCELS_FERMION_EULER_CONTRACTIONS_OFF_SHELL"
+  },
+  "scope": {
+    "decides": "DERIVATIVE_ORDER_AND_BLOCK_SUPPORT_FOR_ANY_EVEN_BILINEAR_FERMION_ACTION_AT_ZERO_FERMION",
+    "does_not_decide": [
+      "SOURCE_SELECTED_K77_DIRAC_RS_OPERATOR",
+      "NONZERO_FERMION_STATIONARY_SOLUTION",
+      "SPECTRUM_OR_INDEX_OR_GENERATION_COUNT",
+      "HYPERBOLIC_OR_KREIN_CLOSED_DOMAIN",
+      "BV_COHOMOLOGY_OR_PHYSICAL_QUOTIENT"
+    ]
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_BOSONIC_PARENT_RETAINED",
+    "two_U32_32_halves": "RETAINED_COMPARATOR",
+    "full_U64_64": "SOURCE_FULL_PARENT_RETAINED",
+    "collapsed": false
+  },
+  "next_gate": "CONTINUE_ZERO_FERMION_BOSONIC_DYNAMIC_VEV_HILBERT_STRESS_BV_AS_PRIMARY__RUN_NONZERO_FERMION_SOURCE_OPERATOR_STATIONARITY_AS_SEPARATE_BUILD"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "K77_AUTHOR_ASSERTED_CONDITIONAL__K95_GEOMETRY_DERIVED__NEXT_BUILD_BRANCH_AWARE",
+  "source_return": "SOURCE-CORRECTS",
+  "layer0": {
+    "source_explicit_carrier": "Cl(7,7)_Spin(7,7)",
+    "displayed_block_inertia_repo_notation": "(9,5)",
+    "missing_object": "CONSISTENT_SOURCE_NATIVE_BILINEAR_OR_SIGN_MAP_DERIVING_K77_FROM_DISPLAYED_BLOCKS",
+    "real_forms_identified": false
+  },
+  "fork_disposition": {
+    "REAL_CLIFFORD_FORM": "SETTLED_SIDE_K77_SURVIVES__SETTLED_HOW_RETYPED_TO_AUTHOR_ASSERTION",
+    "SIGNATURE_AMBIENT": "OPEN__NO_NAMED_RESOLVER",
+    "K77": "AUTHOR_ASSERTED_CONDITIONAL_BUILD",
+    "K95": "GEOMETRY_DERIVED_COMPARATOR"
+  },
+  "next_gate": "SIGNATURE_GENERIC_NONHOMOGENEOUS_WARD_NATURALITY__THEN_BRANCH_NATIVE_K77_PRIMARY_AND_K95_CONTROL_FOR_HODGE_CLIFFORD_KREIN_ADJOINT__REQUIRE_COEFFICIENTWISE_JR_ZERO",
+  "accounting": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_functions": 0,
+    "new_quotients": 0,
+    "external_datum_used": false,
+    "headline_verdict_change": false,
+    "residue_change": false
+  }
+}

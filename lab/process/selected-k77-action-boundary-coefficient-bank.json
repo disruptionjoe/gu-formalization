@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "ACTION_ACTIVE_CL1_CL2_TEN_NORMAL_BANK_EXACT__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_DRESSING_ACCEPTS_ACTION_COVECTOR",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "ACTION_ACTIVE_CL1_CL2_TEN_NORMAL_BANK_EXACT__COMPLETE_OBSERVATION_LOSSLESS__NONDEGENERATE_ORIENTED_ENDPOINT_ACCEPTANCE",
+  "source_return": "SOURCE-CONFIRMS__NONQUADRATIC_ACTION_T_CHAIN__SOURCE-SILENT__PREFERRED_SHIAB_BFV_AND_FULL_U64_64_EXTENSION__REPO-DERIVES__SELECTED_COMM_SYMI_SYMI_CL1_CL2_ACTION_BANK",
+  "layer0": {
+    "action_covector": "exact E_B-E_T from the selected comm/symi/symi action",
+    "coefficient_tangent": "real Cl1 plus Cl2, dimension 105",
+    "normal_rows": "ten rows in the fixed 4+10 exterior split",
+    "observation": "complete invertible equation-dual graph, not tangential pullback",
+    "pairing": "scalar Clifford-product coefficient form, not full analytic Krein domain",
+    "endpoint": "two opposite independent local restrictions, not global BFV"
+  },
+  "exact_results": {
+    "action_cubic_pairing": "176",
+    "action_mass_pairing": "-24",
+    "full_bank_shape": [14, 105],
+    "full_bank_rank": 14,
+    "normal_bank_rank": 10,
+    "normal_supports": [13, 14, 12, 16, 13, 16, 13, 12, 5, 8],
+    "raw_normal_gram_rank": 10,
+    "raw_normal_gram_inertia": [4, 6, 0],
+    "raw_normal_gram_determinant": "8820818455167586715744550671819374592/43046721",
+    "observed_bank_rank": 14,
+    "observed_normal_rank": 10,
+    "observed_normal_gram_rank": 10,
+    "observed_normal_gram_inertia": [5, 5, 0],
+    "observed_normal_gram_determinant": "-352524857398662429170969678579148520580096/1688134559643",
+    "observation_inverse_exact": true,
+    "endpoint_orientation_opposite": true,
+    "endpoint_banks_independent": true
+  },
+  "controls": {
+    "analytic_vs_five_point_B": "PASS",
+    "analytic_vs_five_point_T": "PASS",
+    "deleted_T_derivative_plant": "FIRED",
+    "naive_pullback_plant": "FIRED",
+    "deleted_normal_row_plant": "FIRED",
+    "diagonal_endpoint_plant": "FIRED",
+    "independent_sage": "14/14 PASS"
+  },
+  "boundary": [
+    "full U(64,64) coefficient extension",
+    "global bundle and physical observation descent",
+    "preferred historical Shiab",
+    "global tau_A0/BFV moment map",
+    "common Green/Krein domain",
+    "physical vacuum and spectrum"
+  ],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "headline_delta": "NONE",
+  "frontier_delta": {
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED",
+    "new_scoped_quotients": 0
+  },
+  "scripts": [
+    "tests/channel-swings/selected_k77_action_boundary_coefficient_bank_probe.py",
+    "tests/channel-swings/selected_k77_action_boundary_coefficient_bank_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-action-boundary-coefficient-bank-review.md",
+  "next_gate": "FULL_SELECTED_ACTION_COEFFICIENT_AND_BUNDLE_EXTENSION__PHYSICAL_OBSERVATION_OVERLAP__GLOBAL_TAU_A0_BFV_MOMENT_MAP__COMMON_GREEN_KREIN_DOMAIN"
+}

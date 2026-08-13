@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-194259-gu-k77-full-carrier-stationary-residual",
+  "status": "PROJECTED_64_RESIDUAL_CONDITIONAL_ONLY__Q_REPAIRED_NULLITY1664__SOURCE_FAITHFUL_NULLITY0_AT_FIXED_FIXTURE",
+  "field": "K77_EXACT_GF_1000033_PLUS_QQ_I_IDENTITY_CERTIFICATES",
+  "parent_witnesses": [
+    "moving_spin_grade2",
+    "two_half_block_grade6",
+    "source_full_u_coset_grade1"
+  ],
+  "parent_identity": "SEPARATE_DESPITE_EQUAL_RANK_FINGERPRINT",
+  "full_dimensions": {
+    "omega1_spinor": 1792,
+    "omega0_spinor": 128,
+    "total": 1920,
+    "full_residual": 1664,
+    "conditional_projected_residual": 64
+  },
+  "q_repaired": {
+    "rank": 256,
+    "nullity": 1664,
+    "residual_rank": 0,
+    "status": "PRIOR_SOURCE_SIGN_AND_GRAPH_SCOPED_KILL__NO_PHYSICAL_PROMOTION"
+  },
+  "source_faithful": {
+    "candidates": ["column_pin", "row_pin"],
+    "rank_each": 1920,
+    "nullity_each": 0,
+    "good_prime": 1000033,
+    "characteristic_zero_certificate": "FULL_RANK_MOD_GOOD_PRIME_IMPLIES_NONZERO_DETERMINANT_OVER_QQ_I",
+    "without_lower_row_nullity_each": 128,
+    "scope": "FIXED_NONZERO_ONE_FORM_FIXTURE__DISPLAYED_SOUTHEAST_ZERO_BRANCH"
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_FOUR_FIELD_GRAMMAR_SOUTHEAST_ZERO_AND_ADMITTED_NONZERO_RIVAL__SOURCE_SILENT_ON_W_GRAPH_BV_SELECTOR_DOMAIN_AND_MOVING_VARPI_FAMILY",
+  "ledger_rows": ["RA-D4", "RA-F1", "RA-F2", "RA-G2", "LT-SM3", "AC-F1"],
+  "ledger_effect": "DISTANCE_AND_EVIDENCE_ONLY__NO_VERDICT_RESIDUE_QUOTIENT_DATUM_CANON_OR_PUBLIC_POSTURE_MOVEMENT",
+  "next_gate": "MOVING_VARPI_DETERMINANT_LOCUS_INTERSECT_BOSONIC_STATIONARY_BRANCHES__SOUTHEAST_NONZERO_RIVAL_SEPARATE__NO_MORE_TRACE_Q_SIGN_RETUNING"
+}

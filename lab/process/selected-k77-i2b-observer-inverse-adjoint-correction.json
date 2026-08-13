@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-181434-gu-i2b-observer-inverse-adjoint-correction",
+  "predecessor": "lab/process/selected-k77-i2b-observer-associated-basicness.json",
+  "checks": {"exact": 17, "planted": 1, "failures": 0},
+  "correction": {
+    "old_fixed_field_blocks": ["-8 I4", "+328/9 I4", "+328/9 I4", "+328/9 I4"],
+    "correct_fixed_field_blocks": ["-328/9 I4", "+8 I4", "+8 I4", "+8 I4"],
+    "cause": "BOOSTED_HERMITIAN_FORM_FALSELY_TREATED_AS_INVOLUTION",
+    "correct_adjoint": "H_U_INVERSE_A_DAGGER_H_U"
+  },
+  "surviving_result": {
+    "diagonal_spin_frame_naturality": "EXACT",
+    "vertical_basicness": "REFUTED_WITH_CORRECT_INVERSE_ADJOINT",
+    "coarse_observation_selects_u": false
+  },
+  "prior_art": {
+    "rb4_moving_u_so3": "ALREADY_CONSTRUCTED",
+    "rb5_coarse_epsilon_flag": "REFUTED",
+    "rb5_refined_flag": "TYPED_ACTION_OPEN",
+    "rb6_rb7_old_action_selection": "NONSELECTING_OR_UNSTABLE",
+    "current_sc_act_04_u_euler": "UNTESTED"
+  },
+  "accounting": "UNCHANGED__NO_DATUM_RESIDUE_QUOTIENT_OR_P1_P2_P3_MOVEMENT",
+  "source_return": "SOURCE_CONFIRMS_RICH_OBSERVATION_ACTION_ARENA__SOURCE_SILENT_INVERSE_ADJOINT_BLOCKS_AND_CURRENT_U_EULER__REPO_CORRECTS_CONTROL_AND_COMPOSES_RB4_RB7",
+  "hostile_verdict": "CORRECTION_REQUIRED_AND_PASSED__V0216_OWNERSHIP_VERDICT_SURVIVES__DUPLICATE_SO3_SUCCESSOR_RETIRED__CURRENT_SC_ACT_04_U_EULER_IS_NEXT",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "DERIVE_CURRENT_SC_ACT_04_CONSTRAINED_UNIT_TIMELIKE_U_EULER_WARD_WITH_SECTION_CHAIN_RULE__RETAIN_COUPLED_CONTACT"
+}

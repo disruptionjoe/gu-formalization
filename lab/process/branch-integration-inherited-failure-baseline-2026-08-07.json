@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "baseline_id": "GU_BRANCH_INTEGRATION_20260806_INHERITED_PROCESS_GATE_DEBT",
+  "classification": "HISTORICAL_DIFFERENTIAL_BASELINE_NOT_CURRENT_HEAD_EXPECTATION",
+  "integration_commit": "4968884e5978874fca8c3e9a5df4209cb77473f1",
+  "live_line_parent": "02d992273cb65d1b8c0adba3f84069a29340a6eb",
+  "integrated_branch_parent": "95aa370395621d63e63ab50a85ca5e14d345f043",
+  "failure_count_at_integration": 49,
+  "provenance_partition": {
+    "also_on_clean_premerge_line": 44,
+    "also_on_integrated_branch_tip": 5,
+    "introduced_regressions": 0,
+    "fixed_failures": 0
+  },
+  "exact_failure_manifest": null,
+  "manifest_boundary": "the integrating agent deposited counts and differential disposition but not a durable per-gate identifier list; this record does not reconstruct one after the fact",
+  "source_evidence": [
+    "git commit 4968884e5978874fca8c3e9a5df4209cb77473f1",
+    "/Users/joe/Brain/memory/log.md branch-integration entry"
+  ],
+  "use": "baseline debt for later gate cleanup and regression comparison",
+  "forbidden_use": "do not assert that exactly 49 gates fail on the current repository head",
+  "owner": "gu-formalization/VERIFY",
+  "status": "RECORDED_INHERITED_DEBT"
+}

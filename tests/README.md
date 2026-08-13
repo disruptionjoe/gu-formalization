@@ -6,6 +6,1097 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_trace_hq_connection_compatibility_probe.py`
+  classifies all `2^14` Clifford monomials under the trace-`H_q` adjoint,
+  proves the exact `8,192+8,192` block/full-parent split, and constructs the
+  moving compatibility affine torsor with both parent types. Run with pinned
+  SymPy `1.14.0`; it passes `51/51` with three firing plants.
+
+- `channel-swings/selected_k77_i2b_principal_preserving_moving_coefficient_absorption_probe.py`
+  composes the pushed exact rank receipts with the known moving coefficient
+  packets, proves the constrained rank-difference criterion on an exact
+  fixture, and rejects every principal-changing transfer. Run with SageMath
+  10.9; it passes `47/47` without replaying the expensive rank calculation.
+
+- `channel-swings/selected_k77_i2b_first_nonlinear_torsion_absorption_probe.py`
+  expands the exact endpoint Euler equation on the sixteen-support compatible
+  stationary jet. It proves cubic torsion support `0/140`, quartic support
+  `3/280`, and kernel-restricted absorber ranks `140/140` and `280/280` at two
+  primes. Run with SageMath 10.9; it passes `50/50`.
+
+- `channel-swings/selected_k77_i2b_cartan_symbol_involutivity_probe.py`
+  computes the complete regular flag and Cartan characters
+  `(784,588,378,14)`, proves `dim g_3=3150` equals Cartan's bound, matches the
+  independently certified `dim g_4=4956`, and transports the theorem through
+  a nontrivial rational coframe while rejecting frozen compatibility rows.
+  Run with SageMath 10.9; it passes `49/49`.
+
+- `channel-swings/selected_k77_i2b_source_natural_second_action_owner_probe.py`
+  composes the source-owned printed endpoint with the fixed-natural grade-one
+  `Q_B` line, replays both exact predecessor suites, proves scale-invariant
+  endpoint ranks and kernel, preserves the nonempty affine-Spencer receipt,
+  and fences the separate `E_act/Q_u` rival and moving/full-field gates. Run
+  with pinned SymPy `1.14.0` and NumPy `2.5.1`.
+
+- `channel-swings/selected_k77_i2b_stationary_affine_spencer_intersection_probe.py`
+  distinguishes a failed universal constant operator completion from existence
+  of compatible stationary jets. It constructs a 16-support rational endpoint
+  witness in the restricted ansatz, proves restricted/full affine intersection
+  dimensions `168/1708`, computes second-prolongation rank `1904/1960` at two
+  primes, and proves 56 rational rows exhaust its cokernel. Run with SageMath
+  10.9; it passes `59/59`.
+
+- `channel-swings/selected_k77_i2b_endpoint_frozen_compatibility_adapter_probe.py`
+  ports the frozen Hessian to the printed endpoint residual on the inherited
+  fixed-`H_q` pairing, proves endpoint `H0` rank 196, exact endpoint defect
+  rank 56, rank-193 Hessian difference from the surrogate, and zero pullback
+  of the pure-frame moving primalizer on all 196 independent connection
+  columns. Run with pinned SymPy `1.14.0` and NumPy `2.5.1`; it passes `61/61`.
+
+- `channel-swings/selected_k77_i2b_frozen_hessian_compatibility_probe.py`
+  applies the exact fourteen-row principal compatibility family to the full
+  frozen residual-square Hessian. It proves `rank(H0)=196`, four zero `H1`
+  cross blocks, uniquely forced `C0=0`, and four rank-14 degree-one defects of
+  combined rank 56, while preserving the moving covariant completion. Run
+  with pinned SymPy `1.14.0` and NumPy `2.5.1`; it passes `48/48`.
+
+- `channel-swings/selected_k77_i2b_observation_contact_spencer_probe.py`
+  proves stationary inverse-transpose equation observation does not reopen
+  the covariantly closed Euler row, preserves the nonzero preboundary contact,
+  computes first-prolongation rank `770/784` over two primes, and verifies the
+  complete fourteen-row rational divergence-shaped cokernel. Run with pinned
+  SymPy `1.14.0` and NumPy `2.5.1`; it passes `50/50`.
+
+- `channel-swings/selected_k77_i2b_stationary_product_rule_ward_probe.py`
+  combines the nonzero stationary-jet product rule, complete owned lower-order
+  Hessian and effective second-parameter-jet trace. It derives constant rank
+  90 with sole kernel `(12,13)` plus an independent rank-25 trace. Run with
+  pinned SymPy `1.14.0` and NumPy `2.5.1`; it passes `41/41`.
+
+- `channel-swings/selected_k77_i2b_projected_adjoint_jet_prolongation_probe.py`
+  prolongs the exact rank-25 projected adjoint image over all ten symmetric
+  observed second-jet blocks. It proves prolonged rank 250, stationary
+  intersection rank 225, one rank-25 Lorentz-trace response, and frozen symbol
+  quotient rank 1539 while rejecting physical/BFV interpretations. Run with
+  pinned SymPy `1.14.0` and NumPy `2.5.1`; it passes `49/49`.
+
+- `channel-swings/selected_k77_i2b_local_stationary_bianchi_jet_probe.py`
+  constructs a sparse rational symmetric `(00)+(01)` connection two-jet,
+  verifies exact cancellation of all 196 selected Euler cells, realizes it as
+  a quadratic local connection perturbation, checks 5,096 Bianchi components,
+  and records the 196-dimensional affine solution fibre. Run with pinned
+  SymPy `1.14.0` and NumPy `2.5.1`; it passes `46/46`.
+
+- `channel-swings/selected_k77_i2b_lower_order_exact_form_lift_probe.py`
+  assembles both terms of the SC-ACT-04 action Hessian on the fixed-`H_q`
+  restricted radial critical branch and proves that its lower-order
+  restriction lifts all fourteen non-gauge exact-form principal-kernel
+  directions for four exact covectors. It passes `63/63` under pinned SymPy
+  `1.14.0` and NumPy `2.5.1`.
+
+- `channel-swings/selected_k77_i2b_holonomic_jet_euler_image_probe.py`
+  replays v0.213/v0.235, reconciles their 196-real field banks, constructs all
+  ten symmetric observed-spacetime I2B principal blocks, and proves that the
+  timelike rank-182 miss is completed by the mixed block to a full rank-196
+  image containing the target. Run with pinned SymPy `1.14.0` and NumPy.
+  It passes `44/44`.
+
+- `channel-swings/conditional_physics_ledger_v0236_probe.py` enforces the
+  no-verdict migration from image existence to source selection and global
+  realization.
+
+- `channel-swings/selected_k77_i2b_real_curvature_euler_image_probe.py`
+  constructs the exact 392-dimensional real residual-to-Euler isomorphism,
+  transports the complete rank-364 pointwise full-unitary curvature image,
+  and proves the fourteen-cell target remains outside it. It preserves
+  derivative-dependent jets, nonzero fermions and full-field BV. Run with
+  pinned SymPy `1.14.0` and NumPy `2.5.1`; it passes `50/50`.
+
+- `channel-swings/conditional_physics_ledger_v0235_probe.py` enforces the
+  no-verdict v0.235 migration and the narrowed three-route successor.
+
+- `channel-swings/selected_k77_i2b_source_action_grammar_exhaustion_probe.py`
+  composes the exact `I1B`, `I2B`, zero-fermion current-order and v0.233
+  receipts; proves no unexamined released zero-fermion bosonic term or
+  nonzero relative action weight cancels the fourteen-cell obstruction; and
+  preserves moving-background, nonzero-fermion and full-field BV routes. It
+  passes `40/40` under the pinned research environment.
+
+- `channel-swings/conditional_physics_ledger_v0234_probe.py` enforces the
+  no-verdict v0.234 migration and the three-route successor.
+
+- `channel-swings/selected_k77_i2b_minimal_covariant_reduction_action_ownership_probe.py`
+  exactly classifies fixed and moving `omega/J4` compatibility, penalty and
+  multiplier action families on the 196-cell Cl1 bank; proves fixed `omega`
+  erases the bank, fixed `J4` leaves 10/8 Euler cells, moving compatibility is
+  surjective transport, penalties have zero first variation, and only a
+  zero-surplus `omega` multiplier fits both. It passes `55/55` under pinned
+  SymPy `1.14.0`.
+
+- `channel-swings/conditional_physics_ledger_v0233_probe.py` enforces the
+  no-verdict v0.233 migration and nonlinear source-action/carrier-retyping
+  successor.
+
+- `channel-swings/selected_k77_i2b_source_bvkt_exact_sequence_probe.py`
+  constructs the exact 196-cell source chart, rank-25 gauge map and
+  66-dimensional first reducibility; verifies KT nilpotence on both live Euler
+  covectors; proves both descend nonzero; and fires a genuine primal-constraint
+  control. It passes `56/56` under pinned SymPy `1.14.0` plus NumPy.
+
+- `channel-swings/conditional_physics_ledger_v0232_probe.py` enforces the
+  no-verdict v0.232 migration and the new action-ownership successor.
+
+- `channel-swings/selected_k77_i2b_source_natural_primalizer_classification_probe.py`
+  proves that full-parent and two-half fixed natural pairings each restrict to
+  one nonzero scale on the live traceless grade-one residual, and that scaling
+  cannot repair the existing Euler obstruction. It passes `50/50` under pinned
+  SymPy `1.14.0` plus NumPy.
+
+- `channel-swings/conditional_physics_ledger_v0231_probe.py` enforces the
+  no-verdict v0.231 migration and its now-completed BV--KT successor.
+
+- `channel-swings/selected_k77_i2b_independent_tangent_queue_correction_probe.py`
+  proves the `varpi` Euler block is identically the nonzero `T` partial under
+  every geometry-only response and that on-shell auxiliary elimination cannot
+  cancel it. It replays the exact twelve-cell/gauge result and preserves source
+  `Q_B` or constraint/BV exits.
+
+- `channel-swings/conditional_physics_ledger_v0230_probe.py` enforces the
+  no-verdict v0.230 migration and rejects the mistyped moving-geometry queue.
+
+- `channel-swings/selected_k77_i2b_source_gauge_bv_image_probe.py` proves on
+  the exact 196-real selected distortion bank that the source chart has rank
+  196, the tilted graph has zero `T` image, and the rank-25 residual adjoint
+  gauge image has zero intersection with the twelve Euler cells. The nonzero
+  Euler covector descends. It passes `53/53` under pinned SymPy `1.14.0`.
+
+- `channel-swings/conditional_physics_ledger_v0229_probe.py` preserves the
+  no-verdict v0.229 gauge-descent predecessor; v0.230 supersedes its successor.
+
+- `channel-swings/portfolio_rank128_observation_kernel_module_probe.py`
+  composes the ten pairwise-disjoint defect images and proves their sum is
+  exactly `ker(R_obs)=N* tensor S`, dimension 1,280. The canonical inclusion
+  intertwines all 45 `so(6,4)` generators, while the selected graph lift and
+  zero-form-seed trivialization intertwine only the 21 compact generators.
+  Its successor checks pass `27/27` after replaying the predecessor.
+
+- `channel-swings/conditional_physics_ledger_v0228_probe.py` enforces the
+  no-verdict v0.228 frontier update: one carrier-module condition closes and
+  one moving graph/BV repair replaces ten independent tasks.
+
+- `channel-swings/portfolio_signature_ambient_wave_a_probe.py` certifies the
+  distinction between Weinstein's authorial `{7,7}` assignment and a missing
+  action/analytic derivation. It leaves `SIGNATURE-AMBIENT` open with a named
+  source resolver rather than settling it.
+
+- `channel-swings/portfolio_j_orbit_local_quotient_probe.py` checks the local
+  `O(6,4)/U(3,2)` orbit calculation and makes the quotient conditional on the
+  physical BV/action/observation stabilizer owning the full tangent orbit.
+
+- `channel-swings/portfolio_rank128_defect_module_probe.py` proves over the
+  exact finite-field fixture that the ten rank-128 leakage images are pairwise
+  disjoint and span rank 1,280; the compact intertwiner passes while the mixed
+  boosts fail for that trivialization. The v0.228 successor proves the full
+  carrier module and retypes the remaining problem as graph naturality.
+
+- `channel-swings/selected_k77_i2b_stationary_constant_moving_shiab_ward_probe.py`
+  differentiates the complete stationary branch rather than its simplified
+  point value. Moving `Phi1/Phi2`/Shiab leaves rank 24, the co-moving
+  `rho=-1/3` curvature-source input supplies exactly that response, and the
+  full constant-parameter Ward sum vanishes for all 91 generators. It also
+  retains the independent rank-25 second-parameter-jet trace and passes
+  `47/47` under pinned SymPy `1.14.0` and NumPy `2.5.1`.
+
+- `channel-swings/selected_k77_i2b_parameter_jet_affine_ward_probe.py`
+  derives first/second covariant-jet transformation in a free associative
+  algebra, then ports the forced affine owner through all ten selected K77
+  action blocks. The raw rank-25 trace cancels coefficientwise to rank zero;
+  frozen and wrong-sign affine plants fire. It passes `47/47` under pinned
+  SymPy `1.14.0` and NumPy `2.5.1`.
+
+- `channel-swings/portfolio_mh17_comparator_h0_inertia_probe.py` runs the
+  previously missing free-comparator `H^0` Gram calculation and returns
+  inertia `(96,96,0)`. This is an indefinite old-horn comparator, not physical
+  K77 positivity.
+
+- `channel-swings/conditional_physics_ledger_v0227_probe.py` enforces the
+  portfolio-only v0.227 update: no row or residue migration, typed canonicity
+  distance, corrected source-claim queue and bounded successor program.
+
+- `channel-swings/selected_k77_i2b_action_euler_square_probe.py` constructs
+  the exact action Riesz representative and Frechet-adjoint companion on the
+  fixed-background 196-real bank.  The companion is `2 S_q`; endpoint and
+  corrected Frechet maps differ while their `Q_u`-square Euler covectors
+  coincide and retain the twelve-cell determinant-80 obstruction.  The probe
+  passes `47/47` with four firing plants under pinned SymPy `1.14.0` and NumPy.
+
+- `channel-swings/selected_k77_i2b_action_euler_square_independent.sage`
+  independently checks the reduced exact Gram, polynomial, radial derivative,
+  and determinant-80 obstruction.
+
+- `channel-swings/conditional_physics_ledger_v0226_probe.py` enforces the
+  append-only three-row corrected-square migration, unchanged accounting, and
+  the action-owned tangent/BV successor.
+
+- `channel-swings/selected_k77_i2b_two_connection_tangent_independence_probe.py`
+  separates the one-third path-average bracket, printed endpoint `Upsilon`,
+  and corrected first-action Euler covector. It evaluates the literal endpoint
+  square on the exact moving-`Q_u` bank and proves that a `B`-only background
+  term cannot cancel the independent `T=A-B` Euler direction. The probe passes
+  `50/50` with four firing plants under pinned SymPy `1.14.0` and NumPy.
+
+- `channel-swings/conditional_physics_ledger_v0225_probe.py` enforces the
+  append-only three-row source-owner/tangent correction, unchanged accounting,
+  and the corrected-`E_act` successor (`29` exact + `6` planted).
+
+- `channel-swings/selected_k77_i2b_moving_qu_contact_full_euler_probe.py`
+  inserts the observer-owned `Q_u` into all four Hodge-active contact
+  preimages and the complete `196`-cell fixed-background connection tangent.
+  Active `e3` equals the shifted radial Euler and closes on branch; twelve
+  diagonal cells remain in two independent shapes with determinant `80`.
+  Ledger v0.225 retypes its background-repair successor; the exact finite
+  calculation remains valid but is not literal `SC-ACT-04`. Run with pinned
+  SymPy `1.14.0` and NumPy.
+
+- `channel-swings/conditional_physics_ledger_v0224_probe.py` enforces the
+  scoped three-row contact/full-Euler migration, unchanged accounting and the
+  background-Frechet successor.
+
+- `channel-swings/selected_k77_i2b_source_normal_jet_reconciliation_probe.py`
+  replays the actual 16-coordinate live response and proves that the released
+  nonzero-`kappa` real-u augmented-torsion normal jet has exact rank `80`
+  inside the rank-`160` contact across ten normals.  It places v0.219's scalar
+  destroy/create completions in the complementary real-form cokernel and
+  leaves module typing plus on-shell prolongation/domain selection open. Run
+  with SymPy `1.14.0` and NumPy `2.3.2` or compatible pinned project versions.
+
+- `channel-swings/conditional_physics_ledger_v0220_probe.py` enforces the
+  scoped three-row operator/image/cokernel migration, unchanged accounting and
+  module-plus-coupled-prolongation successor.
+
+- `channel-swings/selected_k77_i2b_full_contact_identifiability_probe.py`
+  composes the owned contact facts and constructs paired exact
+  `SO(3)`-equivariant ambient normal-jet extensions with identical restricted
+  data but preserve/destroy/create observer-line outcomes. It derives the
+  scalar-contact discriminant and narrows the next owner to
+  `J1_normal(Upsilon_B)`. Run with
+  `uv run --with sympy==1.14.0 --with numpy==2.4.2 python`.
+
+- `channel-swings/conditional_physics_ledger_v0219_probe.py` enforces the
+  scoped three-row identifiability migration, unchanged accounting, live
+  observer path and source-native normal-jet successor.
+
+- `channel-swings/selected_k77_i2b_constrained_observer_euler_ward_probe.py`
+  computes the complete 16-coordinate constrained-observer tensor for the
+  conditional observer-completed `SC-ACT-04` principal action. It proves the
+  `A>0` simple timelike-line and `A=0` observer-flat strata, exact co-moving
+  Ward transport over 768 live pairings and failure to select an arrow. Run
+  with `uv run --with sympy==1.14.0 --with numpy==2.4.2 python`.
+
+- `channel-swings/conditional_physics_ledger_v0218_probe.py` enforces the
+  scoped three-row Euler/Ward migration, exact stratum and arrow fences,
+  unchanged accounting and the full coupled-contact successor.
+
+- `channel-swings/selected_k77_i2b_observer_inverse_adjoint_correction_probe.py`
+  recomputes v0.216's fixed-field boost with the required inverse-Hermitian
+  adjoint.  It gives exact blocks `-328/9,+8,+8,+8`, preserves failed
+  basicness and diagonal naturality, and composes RB4--RB7 to reject a
+  duplicate `SO(3)` successor. Run with
+  `uv run --with sympy==1.14.0 --with numpy==2.4.2 python`.
+
+- `channel-swings/conditional_physics_ledger_v0217_probe.py` enforces the
+  append-only control correction, exact row/migration immutability, unchanged
+  accounting and the current `SC-ACT-04` constrained-`u` Euler/Ward gate.
+
+- `channel-swings/selected_k77_i2b_observer_associated_basicness_probe.py`
+  proves exact diagonal Spin/frame naturality for the v0.215 observer-
+  Hermitian form on all eight live Clifford masks and all 256 response
+  pairings. It separately proves that the coarse Lorentzian observation
+  projector selects no unit time and that forgetting `u` is not basic on the
+  live response. Run with
+  `uv run --with sympy==1.14.0 --with numpy==2.4.2 python`.
+
+- `channel-swings/conditional_physics_ledger_v0216_probe.py` enforces the
+  scoped three-row associated-naturality/coarse-nonselection migration,
+  unchanged accounting and the full-`epsilon_IG`/constrained-`u` next gate.
+
+- `channel-swings/selected_k77_i2b_observer_time_hermitian_reduction_probe.py`
+  composes the exact v0.214 response with `H_u=iB gamma(u)`.  It proves a
+  future unit observer gives invariant Lorentz rank four while the canonical
+  vertical trace gives rank zero; rational-boost and `U(1,1)` controls keep
+  moving covariance distinct from action basicness. Run with
+  `uv run --with sympy==1.14.0 --with numpy==2.5.1 python`.
+
+- `channel-swings/conditional_physics_ledger_v0215_probe.py` enforces the
+  scoped three-row observer-Hermitian migration, unchanged accounting,
+  unbooked three-function conditional observer cost and next ownership gate.
+
+- `channel-swings/selected_k77_i2b_real_primalizer_phase_gate_probe.py`
+  classifies the exact v0.213 grade-two response as
+  `V tensor Lambda^2 V`, constructs its `364+14+896` tensor decomposition and
+  nine-weight restricted phase ansatz, and proves a phase-even candidate gives
+  Lorentz rank four. It separately proves that action-owned `P_+`/`P_-` and
+  two scalar Weyl-half weights remain rank two, while an exact `U(1,1)` plant
+  rejects noncompact-unitary invariance of the winning candidate. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0214_probe.py` enforces the
+  scoped three-row migration, rank-four conditional/rank-two owned split,
+  noncompact-unitary ownership burden, unchanged accounting and next gate.
+
+- `channel-swings/selected_k77_i2b_arbitrary_field_euler_green_bank_probe.py`
+  computes the complete fixed-`H_q` `196`-real arbitrary-connection Euler
+  polynomial. Its four supports are `14,12,12,2` with rank three; all four
+  curvature-principal response banks are live, while their real Green pairing
+  with both physical residual components is exactly zero. Off-family and
+  self-pairing controls prevent a vacuous-zero reading. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0212_probe.py` enforces the
+  scoped three-row migration, rank-zero fixed-`H_q` physical Green result,
+  unchanged accounting, and the moving-contact/expanded-parent next gate.
+
+- `channel-swings/selected_k77_i2b_nonlinear_receiver_composition_probe.py`
+  composes the exact finite observation projector with the action-owned real
+  Euler primalizer. It proves four complementary sectors of ranks
+  `784,784,1960,1960`, simultaneous moving q-row reconstruction, mixed-atlas
+  naturality and retention of the ten-normal packet lost by ordinary
+  pullback. Run with `uv run --with sympy==1.14.0 python`.
+
+- `channel-swings/conditional_physics_ledger_v0211_probe.py` enforces the
+  scoped three-row migration while arbitrary-field I2B Euler/preboundary,
+  physical section/source-epsilon identification and accounting remain open.
+
+- `channel-swings/selected_k77_i2b_radial_lc_section_qrow_composition_probe.py`
+  identifies the four mixed v0.209 directions with the q-row of the existing
+  forty-dimensional section-Cartan lift, restricts the covariant Levi-Civita
+  first jet to the rank-four radial metric subspace, and proves all four
+  residual derivatives are nonzero while their selected-action derivatives
+  vanish by exact grade-two/grade-one orthogonality. A grade-one control fires
+  at `8/3`. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0210_probe.py` enforces the
+  scoped three-row migration while nonlinear observation, complete Euler/
+  preboundary and accounting remain open.
+
+- `channel-swings/selected_k77_i2b_full_trace_orbit_derivative_probe.py`
+  classifies all 91 ambient `so(7,7)` generators into a 78-dimensional normalized
+  trace stabilizer and 13 orbit directions. It proves every `dot P_+` has rank
+  56, their joint images span the 392-real target, moving covariance is exact,
+  and frozen-projector plus radial-scaling controls fire. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0208_probe.py` enforces the
+  append-only three-row migration to complete normalized trace-orbit ownership
+  while all independent field Euler/preboundary work and accounting remain
+  open. Its complete-fibre interpretation is superseded by v0.209.
+
+- `channel-swings/selected_k77_i2b_global_primalizer_descent_probe.py`
+  replays v0.206, then tests a noncommuting three-patch cocycle on the complete
+  392-real target carrier. It proves sign-insensitive `P_+` descent, derives
+  rank-56 `dot P_+=[L,tau]/2`, checks differentiated projector and action
+  identities, and fires a 56-direction frozen-projector control. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+
+- `channel-swings/conditional_physics_ledger_v0207_probe.py` enforces the
+  append-only three-row migration to global associated primalizer ownership
+  and pure-frame derivative while arbitrary field Euler/preboundary, physical
+  reduction and accounting remain open.
+
+- `channel-swings/selected_k77_i2b_action_real_projection_probe.py`
+  reconstructs the exact real residual action and checks all 99,463 live
+  columns. It proves `P_+` is the action-self-adjoint fixed-real Euler
+  primalizer with 90 nonzero couplings, then uses a nonzero anti-sector witness
+  `-11` to refute nonlinear residual replacement.
+
+- `channel-swings/conditional_physics_ledger_v0206_probe.py` enforces the
+  append-only three-row migration to fixed-real Euler ownership while global
+  moving Euler/preboundary, physical reduction and accounting remain open.
+
+- `channel-swings/selected_k77_i2b_compensator_naturality_probe.py` applies the
+  exact signed q13-to-q12 quarter-turn to every tensorial layer. It verifies all
+  16,384 Hodge masks, 1,093 source phases and 99,463 selected-Shiab columns,
+  proves equality of transported/direct rank-170 fixed-output images and q12
+  target admission, and reproduces v0.204's false exclusion only when q13 is
+  deliberately held fixed.
+
+- `channel-swings/conditional_physics_ledger_v0205_probe.py` enforces the
+  append-only three-row migration to pointwise naturality with action
+  ownership, moving Euler/preboundary and physical reduction still open.
+
+- `channel-swings/selected_k77_polarized_radical_bfv_ownership_gate_probe.py`
+  composes the v0.171 Green radical with the action-owned ordinary-gauge,
+  moving-preboundary, moment-map and minimal-edge packets. It proves that the
+  existing images do not own `im Nsharp` on the zero-fermion branch and that
+  the edge quotient leaves the exact observed dimension-256 fermion radical
+  (`51/51 PASS`, exact Sage with Layer-0, symplectic and planted controls).
+
+- `channel-swings/selected_k77_polarized_green_dual_gate_probe.py` constructs
+  the unique Green adjoint of the v0.170 polarization for the actual
+  dimension-1920 normal coefficient, proves exact rank-128 radicals on the
+  direct dual-kernel domain, identifies the perfect algebraic barred quotient,
+  and proves naive observation has rank 128 on its quotient directions and
+  does not descend (`63/63 PASS`, exact Sage with symplectic and planted
+  controls).
+
+- `channel-swings/selected_k77_nonlocal_ultrahyperbolic_polarization_gate_probe.py`
+  proves scalar Craig--Weinstein strict-center support alone retains the
+  current matrix Jordan defect, then constructs the canonical rank-128
+  frequency polarization `N=E^2-rho^2 I`, removes generalized chains at flat
+  principal grade and preserves rank-640 observation (`47/47 PASS`, exact
+  Sage with center/null/extra-time, Layer-0 and planted controls).
+
+- `channel-swings/selected_k77_natural_trace_constraint_gate_probe.py`
+  classifies the complete Spin-natural zero-order family, proves the unique
+  propagated line `2 Gamma(zeta)-nu=0`, and proves its constrained evolution
+  retains the full rank-128 square-zero Jordan remainder (`51/51 PASS`, exact
+  Sage with direction-fitted and nonpropagated controls).
+
+- `channel-swings/selected_k77_unreduced_hyperbolic_domain_gate_probe.py`
+  reconstructs the exact source-shaped real-K77 dimension-1920 operator,
+  proves rank-128 square-zero Jordan remainders in all three observed spatial
+  generators, kills every positive symmetrizer for the unreduced system and
+  preserves the nonlocal/reduced domain routes (`52/52 PASS`, exact Sage).
+
+- `channel-swings/selected_k77_global_normal_symbol_descent_probe.py` types
+  the action-owned coefficient as the complete four-field fermion normal
+  principal symbol, proves exact real-`Cl(7,7)` causal rank controls and a
+  nonconstant three-patch coefficient/inverse/Darboux cocycle, and fires six
+  planted wrong-transport/null-inverse controls (`46/46 PASS`, exact Sage).
+
+- `channel-swings/selected_k77_moving_antidualizer_darboux_probe.py` composes
+  the v0.68 complete cotangent lift with v0.165's independent-dual Green form,
+  proves the forced half momentum shear and exact pulled moving
+  anti-symplectic involution, and shows the at-least-120-coordinate graph
+  family is transported rather than selected (`46/46 PASS`, exact SymPy
+  rational algebra with omitted-shear, frozen-coefficient and singular-chart
+  controls).
+
+- `channel-swings/selected_k77_coupled_green_domain_probe.py` constructs the
+  exact symmetrized boson-plus-four-fermion preboundary form, retains the
+  moving-normal mixed terms, proves two distinct full-carrier small-gauge-basic
+  Lagrangian graph domains, exposes a minimum 120-coordinate unselected family,
+  and rejects the naive moving total reality extension while preserving its
+  fixed-normal fermion restriction (`47/47 PASS`, exact SymPy rational algebra
+  with firing wrong-sign, frozen-normal and nonsymmetric-graph controls).
+
+- `channel-swings/selected_k77_coupled_gauge_noether_bv_probe.py` composes the
+  source-typed connection and four independent fermion fields into one exact
+  local nonabelian BRST/Noether complex, verifies nilpotence and off-shell
+  density invariance, and proves ordinary gauge covariance leaves at least
+  `Gr(3,15)` of rank-384 carriers rather than selecting one (`37/37 PASS`,
+  exact rational Grassmann algebra with firing planted controls).
+
+- `channel-swings/selected_k77_unrestricted_southeast_bv_kernel_probe.py`
+  constructs the source-admitted two-parameter K77 southeast family and proves
+  every southeast matrix leaves the selected nonnull four-field determinant
+  unchanged. It kills a nonzero fermion-only principal gauge/Noether generator,
+  types the rank-896 null kernel as propagation rather than BV, and moves Build
+  to the coupled connection-plus-matter gauge complex (`42/42 PASS`, exact Sage
+  over `GF(1000033)` plus a characteristic-zero block theorem).
+
+- `channel-swings/selected_k77_unrestricted_four_field_euler_image_probe.py`
+  compares the exact rank-384 graph receiver with the complete selected
+  four-field principal Euler image and its nondegenerate action dual. The
+  nonnull images are rank 1920 and the graph hull is proper codimension 1536,
+  stopping the bounded route without a fitted projector (`39/39 PASS`, exact
+  Sage over `GF(1000033)` plus a good-prime determinant certificate).
+
+- `channel-swings/selected_k77_fixed_common_receiver_hull_probe.py` computes
+  the exact joined receiver across timelike, spacelike and null representatives
+  for both Pin placements. Every per-stratum receiver is rank 256, pairwise
+  intersections are 128, joins and the three-stratum common hull are 384, and
+  both Pin common hulls coincide. It also enforces the bosonic-selector versus
+  fermion-receiver Layer-0 fence (`24/24 PASS`, exact Sage over `GF(1000033)`).
+
+- `channel-swings/selected_k77_source_owned_hull_interface_probe.py` composes
+  the exact v0.159 receiver certificate with the primary four-field grammar.
+  It corrects the new-field-type reading while retaining the unowned fixed
+  reduction, forbids inferring one common hull from equal per-stratum rank
+  256, and emits the ordered H1--H7 acceptance contract (`31/31 PASS`).
+
+- `channel-swings/selected_k77_high_conviction_receiver_completion_probe.py`
+  tests three high-confidence receiver-completion rivals on both Pin
+  placements. It proves the natural K77 southeast span is transverse to the
+  leak, the natural gauge symbol covers only half the null leak, and the
+  minimal rank-256 receiver requires 128 unowned paired left fields (`29/29`
+  new checks plus the `39/39` predecessor replay, exact Sage over
+  `GF(1000033)`).
+
+- `channel-swings/selected_k77_gamma_trace_graph_dynamics_probe.py` builds the
+  independent left/right action carriers for the exact graph, composes the
+  local indefinite Krein pairing, proves rank-128 induced Green matrices and
+  transverse-current cells, exact radial current cancellation, and rank-128
+  full-Euler receiver leakage in timelike, spacelike and null observed strata
+  for both Pin placements (`39/39 PASS`, exact Sage over `GF(1000033)`).
+
+- `channel-swings/selected_k77_moving_varpi_stationary_intersection_probe.py`
+  constructs the unique componentwise extension of the displayed-zero
+  draft-9.16 block, proves both nonzero tautological bosonic branches give
+  exact rank/nullity `1792/128`, and constructs an explicit characteristic-
+  zero `Omega0`--gamma-trace kernel graph outside RS, W and mirror (`55/55
+  PASS`, exact Sage over `GF(1000033)`, `QQ(i)` and `QQ(sqrt(3))`).
+
+- `channel-swings/selected_k77_full_carrier_stationary_residual_probe.py`
+  retypes the conditional projected `64 x 64` residual against the full
+  1920-dimensional source carrier, proves the q-repaired rival has exact
+  rank/nullity `256/1664`, and proves both canonical source-faithful row/column
+  candidates are full rank at the fixed fixture across full U, moving Spin and
+  two U-half parent witnesses. Deleting the action-tied lower row plants 128
+  false modes (`73/73 PASS`, exact Sage over `GF(1000033)` and `QQ(i)`).
+
+- `channel-swings/selected_k77_nonzero_fermion_stationary_schur_reduction_probe.py`
+  proves the exact `ker(C)->coker(B)` reduction for the draft-9.16 southeast-
+  zero candidate under maximal off-diagonal rank, instantiates the conditional
+  K77 `64 x 64` residual size, tests desired/mirror conjugation equality and a
+  symmetry-breaking control, and keeps the southeast-nonzero rival separate
+  (`48/48 PASS`, pinned SymPy 1.14.0).
+
+- `channel-swings/selected_k77_relative_boundary_p3_ko_interface_probe.py`
+  constructs the exact additive map from observed `SL(2,C)` winding through
+  `Sp(1)` clutching to P3's relative real-`KO` input class, verifies
+  `c2=n`, fundamental `p1=-2n`, adjoint `p1=-4n`, separates the K95 right-`H`
+  comparator from K77 and its two `U(32,32)` halves, and keeps the absent
+  relative index/count plus strict surplus `0` explicit (`34 exact + 10
+  planted = 44 PASS`, pinned SymPy 1.14.0).
+
+- `channel-swings/selected_k77_action_induced_real_pairing_horn_probe.py`
+  computes the exact restriction of the selected scalar-Clifford trace on
+  `sl(2,C)_R`. It gives conjugation-even `B_Re`; `B_Im` requires chirality
+  insertion, realness/orientation alone do not select, and the selected parent
+  closes `r` plus horn cost while leaving strict surplus `0` (`30/30 PASS`,
+  pinned SymPy 1.14.0).
+
+- `channel-swings/selected_k77_external_relative_datum_surplus_probe.py`
+  couples the minimal external boundary winding and real-pairing ratio to the
+  selected first action. Fixed `(n,r)` selects a finite amplitude, while the
+  datum Jacobian has rank one against two coordinates, giving strict/favorable
+  surplus `-1/0`; small gauge stays basic, large-gauge compatibility selects no
+  component, and winding is not P3 (`52 exact + 7 planted = 59 PASS`).
+
+- `channel-swings/selected_k77_relative_chiral_transgression_ownership_probe.py`
+  composes the source-owned same-bundle `A0` bitorsor with the Lorentzian
+  chiral-class gate. It verifies identity winding zero, continuous normalized
+  Chern--Simons interpolation `3t^2-2t^3`, live integer large-gauge components,
+  boundary-charge/BFV no-selection and the unowned chiral reduction/pairing
+  fences (`31 exact + 5 planted = 36`).
+
+- `channel-swings/selected_k77_p3_spin_bundle_diagonal_probe.py` composes P3's
+  clutching family with the chiral spin bundles on `S4`. Exactly, `n=+1`
+  matches `S+`, `n=-1` matches `S-`, and `n=0` matches neither. It separates
+  bundle class from connection orbit, records five arbitrary charge-one ASD
+  moduli and zero round-homogeneous invariant deformations, and stops before
+  action restriction (`36/36`).
+
+- `channel-swings/selected_k77_p3_selfdual_source_reduction_probe.py`
+  separates preservation of the four-plane chiral split from selection of one
+  `SU(2)` factor. The exact nonzero source curvature has rank-three components
+  in both factors, so `D_B P_sd=0` is insufficient and one-factor membership
+  forces `t=0`. A restricted-action replacement remains unbuilt.
+
+- `channel-swings/selected_k77_p3_native_characteristic_pairing_probe.py`
+  computes the quadratic Chern--Weil pairing of the exact unprojected source
+  curvature on P3's framed four-plane. Moving-Spin Killing/vector trace, both
+  `U(32,32)` halves, full `U(64,64)`, and the central unitary invariant all
+  vanish. Nonzero self-dual controls expose the cancellation but require a new
+  reduction. The direct P3 amplitude horn is killed (`61/61`).
+
+- `channel-swings/selected_k77_p3_characteristic_amplitude_selector_probe.py`
+  composes the existing P3 framed four-cycle with the v0.142 one-amplitude
+  source family. It proves the exact degree-`m` scaling and, for degree two,
+  `k_B=C_B t^4/9`: fixed nonzero topology and pairing discretize magnitude,
+  free normalization relocates the freedom, and an even class leaves sign.
+  Planted controls preserve the auxiliary/source, local/global and P1/sign
+  fences (`40/40`).
+
+- `channel-swings/selected_k77_global_projector_amplitude_layer0_probe.py`
+  composes the existing normalized zero-mode projector with the v0.142
+  one-amplitude family. It proves exact source-shift screening, zero added
+  amplitude equations, `T in im Q => T=0`, and `ell(T)=c => T=c`; an
+  amplitude-dependent Fredholm plant fires (`27/27`).
+
+- `channel-swings/selected_k77_zero_fermion_vev_selector_exhaustion_probe.py`
+  composes six durable receipts instead of rebuilding the VEV sector. It
+  reconstructs the rank-two source-Euler family, its one-dimensional tangent,
+  the exact ten-component trace cancellation, the classical branch
+  symplectomorphism and amplitude-blind BFV result. A planted third equation
+  raises rank to three; built local classical selectors do not (`37/37`).
+
+- `channel-swings/selected_k77_degree_duality_pair_graph_gate_probe.py`
+  constructs both source-sign trace-q degree primalizers without relabeling
+  source fields. Bare q leaks rank `64` outside RS; Pin q preserves RS by
+  exchanging W/mirror and forcing rank `384`. Both upper image pairs have
+  port/leak/joined ranks `128/128/256`, while the old-q control has joined
+  rank `128`. The scoped route is killed on this carrier (`98/98`).
+
+- `channel-swings/selected_k77_southeast_zero_graph_gate_probe.py` solves the
+  unique W/mirror upper graph supplied by the equation-9.16 zero-form port and
+  tests its complete form-index K77 lower-left adjoint. Over `GF(1000033)` and
+  `QQ(i)`, every parent has graph rank `64`, upper residual zero, induced
+  carrier action zero and lower residual rank `64`; W and mirror are identical.
+  Sign-flip and suppressed-lower-left plants isolate the obstruction. The
+  result kills the current q-repaired rival, not the unresolved source-faithful
+  ambient-half operator (`132/132`).
+
+- `channel-swings/selected_k77_four_field_zero_order_port_probe.py` composes
+  the complete equation-9.16 zero-form connection port with the exact W/mirror
+  leak witnesses. Over both `GF(1000033)` and `QQ(i)`, each preferred leak has
+  rank `64` inside a rank-`128` port and the quotient coefficient condition has
+  rank one. Moving Spin/two halves require `alpha=beta`; the full-U odd coset
+  requires `alpha=-beta`. Twelve broken-port plants fire; graph/BV/domain
+  closure remains open (`89/89`).
+
+- `channel-swings/selected_k77_action_owned_leakage_composition_probe.py`
+  composes the source-native connection tangent, complete nonzero-branch
+  pointwise first-action Hessian and v0.136 leak witnesses. Every named parent
+  retains its witness and no witness grade lies in the Hessian radical, while
+  planted parent exclusions and Layer-0 field/gauge/BV/domain distinctions
+  fire (`64/64`).
+
+- `channel-swings/selected_k77_zero_order_w_mirror_parent_leakage_probe.py`
+  composes the prior q-repaired zero-order family with W, its exact ASD mirror,
+  their rank-384 sum and one witness in each parent class. Cross-sector and
+  outside-pair coefficient systems both have exact rank two, W/mirror remain
+  symmetric, and no nonzero coefficient preserves either carrier. Critical
+  ranks reproduce over Gaussian rationals; generic-ratio plants fire
+  (`52/52`).
+
+- `channel-swings/selected_k77_induced_fermion_principal_discriminator.py`
+  constructs the exact source-guided K77 Dirac/RS principal symbol on
+  `Omega1(S)+Omega0(S)`. At a base-null covector, proposed `W` and its ASD
+  mirror both give rank/kernel `224/96`; natural `832` and `640` sectors retain
+  half their one-form dimension, while three planted random rank-192 controls
+  have kernels `1/0/0`. Exact Gaussian-rational critical ranks and finite-field
+  whole-space controls leave the zero-order reality/BV/domain discriminator
+  open (`41/41`).
+
+- `channel-swings/selected_k77_nonzero_branch_parent_hessian_probe.py`
+  computes the complete pointwise first-action Hessian at
+  `T*=-(kappa_1/312)Phi1` through exact signed-permutation label blocks. All
+  `229,376` directions are full rank; both the `113,792+115,584` B-adjoint
+  split and `114,688+114,688` Weyl block/coset split have zero radical. It
+  reproduces the radial `-14*kappa_1`, rejects a skew-only plant and leaves the
+  induced fermion operator, coupled functional Hessian, BV and domain open
+  (`38/38`).
+
+- `channel-swings/selected_k77_bosonic_parent_action_ownership_probe.py`
+  composes the full connection-difference norm, exact `8128+8256` and
+  `8192+8192` decompositions, zero-branch complement Hessian and known odd
+  nonzero invariant branch. It rejects both hard action-derived reduction and
+  `D_varpi chi=0` substitution while leaving the nonzero-branch normal Hessian
+  open (`38/38`).
+
+- `channel-swings/selected_k77_action_owned_reduction_carrier_typing_probe.py`
+  composes the exact v0.130/v0.112 receipts with rational moving-projector
+  variation, proves that local Euler sector closure is consistency rather than
+  unique selection, and gives an exact counterexample to inferring a `j=1`
+  fermion projector from `D_varpi chi=0` (`28/28`).
+
+- `channel-swings/selected_k77_grade5_unitary_parent_euler_closure_probe.py`
+  enumerates all `16,384` real Clifford directions on four signature-orbit
+  representatives, derives the complete grade graph, kills grade `1+2+5`
+  closure, and separates the Spin `113,893` and unitary `229,477` totals
+  (`39/39`).
+- `channel-swings/selected_k77_grade5_unitary_parent_euler_closure_independent.sage`
+  independently reconstructs the graph, real-form preservation, central
+  completion and unitary escape over Sage/FLINT (`17/17`).
+
+- `channel-swings/selected_k77_complete_euler_jet_tangent_closure_probe.py`
+  applies the source-owned first-order Euler operator to every observed and
+  ambient covector direction, distinguishes scalar `q` from a Clifford-vector
+  plant, and proves exact selected low-grade tangents `1,131/1,571` (`74/74`).
+- `channel-swings/selected_k77_complete_euler_jet_tangent_closure_independent.sage`
+  independently reconstructs both rank progressions, the Krein lift and the
+  firing type control over Sage/FLINT (`11/11`).
+
+- `channel-swings/k77_minimal_tangent_bank_build.py` is the one-time v0.126
+  producer for `fixtures/k77_minimal_tangent_bank_v1.json`; normal consumers
+  use the dependency-hashed nonrecursive API.
+- `channel-swings/k77_minimal_tangent_bank_api.py` verifies and loads the exact
+  59,230-byte rank-`594`, 1,850-entry tangent bank without predecessor replay.
+- `channel-swings/selected_k77_observation_stabilizer_subbundle_probe.py`
+  checks all `51` observation-stabilizer generators and the exact
+  `160+180+60+184+10` natural decomposition (`78/78`).
+- `channel-swings/selected_k77_observation_stabilizer_subbundle_independent.sage`
+  independently replays the subrepresentation and ambient-cross controls over
+  Sage/FLINT (`12/12`).
+
+- `channel-swings/selected_k77_minimal_hessian_tangent_closure_probe.py`
+  K-lifts the exact off-slice first-action image and computes the minimum
+  invariant grade-two source tangent for one symbol, the three stored causal
+  representatives, and the full `X^4` symbol basis on both branches (`48/48`).
+- `channel-swings/selected_k77_minimal_hessian_tangent_closure_independent.sage`
+  independently reconstructs the rank `594` common extension and total tangent
+  `915` over Sage/FLINT (`19/19`).
+
+- `channel-swings/selected_k77_moving_metric_first_action_hessian_probe.py`
+  composes the exact ten-normal geometry, stationary source pullback and
+  versioned bank to prove the complete local principal metric block has ranks
+  `9/9/4` on all causal representatives and both branches (`49/49`).
+- `channel-swings/selected_k77_moving_metric_first_action_hessian_independent.sage`
+  independently rebuilds the six metric matrices and cotangent stationarity
+  control over Sage/FLINT (`12/12`).
+
+- `channel-swings/k77_exact_bank_build.py` is the one-time recursive builder
+  for `fixtures/k77_exact_coefficient_bank_v1.json`; ordinary consumers must
+  not call it.
+- `channel-swings/k77_exact_bank_api.py` verifies canonical construction plus
+  all source/dependency hashes and returns exact sparse coefficients without
+  SymPy, NumPy or predecessor execution.
+- `channel-swings/k77_exact_bank_api_probe.py` performs bounded direct cell
+  replay and mutation/staleness/shape plants (`27/27`).
+- `channel-swings/k77_exact_bank_api_independent.sage` independently rebuilds
+  all six causal/branch rank packets over Sage/FLINT (`25/25`).
+
+- `channel-swings/selected_k77_moving_epsilon_first_action_completion_probe.py`
+  composes the principal, lower-Cartan and every moving-Phi/Shiab primitive-
+  epsilon contribution against all 1,274 grade-two receivers, for all 91
+  generators, both exact branches and three causal representatives.
+- `channel-swings/selected_k77_moving_epsilon_first_action_completion_independent.sage`
+  independently verifies six grade-two vanishing identities with 695,604
+  exact scalar checks.
+
+- `channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_probe.py`
+  computes the exact fixed-operator metric/epsilon first-action response into
+  every grade-two equation covector on three causal representatives and both
+  algebraic branches.
+- `channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_independent.sage`
+  independently reconstructs all full, horizontal and off-slice sparse ranks
+  over Sage/FLINT `QQ(sqrt(3))`.
+
+- `channel-swings/selected_k77_first_action_tangent_closure_probe.py` computes
+  both complete `196 x 196` grade-one first-action self Hessians and the full
+  `1274 x 196` grade-one/grade-two cross, with an interleaved-bank planted
+  control.
+- `channel-swings/selected_k77_first_action_tangent_closure_independent.sage`
+  checks the zero cross by direct exact Euler finite differences and the
+  self-block ranks/Galois relation over Sage/FLINT `QQ(sqrt(3))`.
+
+- `channel-swings/selected_k77_lower_order_source_block_reconciliation_probe.py`
+  builds the raw-residual lower primitive-epsilon coefficient
+  `-b+360(b+t)^2`, proves branch ranks `91/91`, and ports the fixed-`varpi`
+  metric theorem only after checking its residual-zero premise.
+- `channel-swings/selected_k77_lower_order_source_block_reconciliation_independent.sage`
+  independently reconstructs the raw residual, lower epsilon coefficient,
+  positive conjugate branch values, rank 91 and the metric predecessor.
+
+- `channel-swings/selected_k77_two_branch_action_block_port_probe.py` ports
+  the already-owned first-action epsilon/Cl1 cross and residual zero-jet plus
+  selected principal banks to both exact branches, preserving their distinct
+  lower-order amplitudes and complete-operator fences.
+- `channel-swings/selected_k77_two_branch_action_block_port_independent.sage`
+  independently reconstructs the branch factors, rank-91 cross, rank-1470
+  zero-jet maps and selected principal Gram strata over exact Sage/FLINT
+  number fields.
+
+- `channel-swings/selected_k77_branch_hessian_discriminator_probe.py`
+  proves that the naive two-coordinate reconstruction Hessians are
+  noninvariant at noncritical points, then restricts both distinct actions to
+  the source-owned scalar `varpi` line and retains both branch ports.
+- `channel-swings/selected_k77_branch_hessian_discriminator_independent.sage`
+  independently reconstructs the `QQ(sqrt(3))` derivatives, coordinate-rank
+  control and same-inertia source restrictions over Sage/FLINT.
+
+- `channel-swings/selected_k77_full_parent_branch_stationarity_probe.py`
+  extends both branches to the complete pointwise real `u(64,64)` source-
+  connection tangent, splits the two-half block-even and half-exchanging odd
+  directions, and proves full homogeneous epsilon bulk naturality while
+  retaining endpoint momentum.
+- `channel-swings/selected_k77_full_parent_branch_stationarity_independent.sage`
+  independently reconstructs the exact branches, `8,192+8,192` parent split,
+  invariant covector support and moving trace identity over Sage/FLINT.
+
+- `channel-swings/selected_k77_source_tangent_branch_stationarity_probe.py`
+  pulls both algebraic branches back to the actual local selected
+  `(g,varpi,epsilon)` source coordinates, proves all known bulk Euler
+  directions vanish and retains the independent-`B` defect as endpoint
+  momentum with planted scope failures.
+- `channel-swings/selected_k77_source_tangent_branch_stationarity_independent.sage`
+  independently reconstructs the branch, Euler, density and bulk-versus-
+  boundary identities over exact Sage/FLINT arithmetic.
+
+- `channel-swings/selected_k77_nonconstant_atlas_xi_prolongation_probe.py`
+  derives the two exact nonzero frozen-frame branches, proves Xi adds no
+  independent source rank, and verifies nonconstant affine connection,
+  curvature, `D_B T`, residual and Xi descent with planted affine/cocycle kills.
+- `channel-swings/selected_k77_nonconstant_atlas_xi_prolongation_independent.sage`
+  independently reconstructs the algebraic branches and prolongation rank over
+  exact `QQ(sqrt(3))` Sage/FLINT arithmetic.
+
+- `channel-swings/selected_k77_source_euler_two_to_one_probe.py` returns the
+  v0.108 scalar jet to source coordinates, derives the exact one-amplitude
+  family, constructs a local connection/`T` one-jet, and checks point Bianchi
+  plus noncommuting constant-transition descent.
+- `channel-swings/selected_k77_source_euler_two_to_one_independent.sage`
+  independently reconstructs the family, v0.108 representative and local jet
+  over exact Sage/FLINT arithmetic.
+
+- `channel-swings/selected_k77_curvature_vev_trace_probe.py` restores the
+  selected scalar derivative-curvature jet, solves the unique nonzero-
+  distortion zero-freedom branch, and verifies all finite connection and
+  metric-volume equations plus a local algebraic Bianchi control.
+- `channel-swings/selected_k77_curvature_vev_trace_independent.sage`
+  independently reconstructs the branch, constraint rank and action split
+  over exact Sage/FLINT arithmetic.
+
+- `channel-swings/selected_k77_direct_metric_euler_probe.py` composes the
+  all-ten moving-gimmel bank with the repaired connection-critical branch and
+  computes the exact rank-one metric trace covector and lift-independence.
+- `channel-swings/selected_k77_direct_metric_euler_independent.sage`
+  independently reconstructs the DeWitt density bank, branch action value and
+  normalized/coordinate Euler covectors over Sage/FLINT exact arithmetic.
+
+- `channel-swings/selected_k77_common_first_action_epsilon_hessian_probe.py`
+  differentiates the full low-grade first action, constructs the nontrivial
+  common connection-critical branch, and computes the rank-91 moving-epsilon
+  mixed Hessian cross with only grade-one receivers.
+- `channel-swings/selected_k77_common_first_action_epsilon_hessian_independent.sage`
+  independently reconstructs the branch and mixed block over exact Sage/FLINT
+  arithmetic while preserving the direct-metric-Euler and tangent-selection
+  fences.
+
+- `channel-swings/selected_k77_primitive_epsilon_common_bank_probe.py`
+  appends all 91 selected Spin-native primitive-epsilon directions to the
+  common metric-varpi bank and computes exact 125-field causal raw/Gram ranks,
+  inertias and action-composition fences.
+- `channel-swings/selected_k77_primitive_epsilon_common_bank_independent.sage`
+  independently reconstructs the ranks, inertias and doubled radical
+  quotients with Sage/FLINT.
+
+- `channel-swings/selected_k77_stationary_gram_boundary_strata_probe.py`
+  forms the exact partial 34-field stationary norm-square Gram symbol,
+  computes causal ranks/inertias and rejects fixed-rank/full-domain promotion.
+- `channel-swings/selected_k77_stationary_gram_boundary_strata_independent.sage`
+  independently reconstructs the Gram characteristic polynomials, Green
+  radical quotients and Sobolev regularity check with Sage/FLINT.
+
+- `channel-swings/selected_k77_sobolev_edge_current_algebra_probe.py` proves
+  the same-regularity boundary form is weak, the `H7 x H-7` cotangent form is
+  strong with `H8` gauge/edge frames, the completed edge kernel equals the
+  gauge orbit, and the charged classical current algebra closes without a
+  central remainder.
+- `channel-swings/selected_k77_sobolev_edge_current_algebra_independent.sage`
+  independently reconstructs the Sobolev weights, edge ranks, current bracket
+  and vertical polarization over exact arithmetic.
+
+- `channel-swings/selected_k77_full_tau_a0_moment_map_probe.py` composes the
+  exact nonzero-`A0` derivative cocycle and tilted quotient with the conditional
+  Spin-native action trace, verifies the raw adjoint moment map, and proves the
+  minimal-edge characteristic kernel equals the residual gauge orbit with
+  moving-reference patching.
+- `channel-swings/selected_k77_full_tau_a0_moment_map_independent.sage`
+  independently reconstructs the cocycle, moment-map and edge-kernel identities
+  over exact arithmetic.
+
+- `channel-swings/selected_k77_action_noether_preboundary_probe.py` composes
+  the exact K77 action owners with the matched-q graph, verifies a nonzero-
+  residual moving pairing/density cancellation, closes the local action
+  Euler-Noether identity in all causal classes and derives compact-support
+  basicness versus a live unrestricted boundary moment map.
+- `channel-swings/selected_k77_action_noether_preboundary_independent.sage`
+  independently reconstructs the action and presymplectic identities over
+  `QQ`.
+
+- `channel-swings/selected_k77_common_metric_dupsilon_coefficient_bank_probe.py`
+  emits fixed-`varpi` `D_g Upsilon` on the actual all-grade residual carrier,
+  verifies four rank-nine banks, combined rank twenty, every causal
+  transverse rank six, exact metric/varpi torsion cancellation, and the
+  rank-four discrepancy between the physical and Ward-defined metric orbits.
+  Run with `sage -python`.
+- `channel-swings/selected_k77_common_metric_dupsilon_coefficient_bank_independent.sage`
+  independently reconstructs the Levi-Civita ranks and typed grade-one/
+  grade-two rank-four Ward remainder over `QQ`.
+
+- `channel-swings/selected_k77_fixed_varpi_normal_frechet_closure_probe.py`
+  expands the actual two-connection curvature, proves the three live metric
+  derivatives cancel at fixed `varpi`, computes the rank-20 covariant
+  Levi-Civita first-jet image and all three rank-six transverse restrictions,
+  and checks the raw-residual moving-observation chain rule. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+- `channel-swings/selected_k77_fixed_varpi_normal_frechet_closure_independent.sage`
+  independently verifies the curvature cancellation, rank-20 image and all
+  causal fixed-symbol/transverse ranks.
+
+- `channel-swings/selected_k77_transverse_comoving_coefficient_closure_probe.py`
+  extends the metric-induced comoving coframe construction to all ten metric
+  directions and all timelike/spacelike/null transverse sixes. It proves exact
+  Hodge/Clifford/Phi/Shiab coefficient naturality while retaining the live
+  rank-six principal augmented-torsion source response. Run with
+  `uv run --with sympy==1.14.0 --with numpy python`.
+- `channel-swings/selected_k77_transverse_comoving_coefficient_closure_independent.sage`
+  independently verifies K77 inertia, the ten-direction lift and all three
+  rank-six transverse restrictions.
+
+- `channel-swings/selected_k77_operative_pairing_symmetry_closure_probe.py`
+  computes exact Clifford-mask closures of the selected grade-`1+2+5`
+  residual under Spin, the block algebra on two Weyl halves, and the full
+  algebra: dimensions `2107/16382/16383`, with explicit escape grades
+  `3/4/7` and pairing dimensions `3/3/1`.
+- `channel-swings/selected_k77_operative_pairing_symmetry_closure_independent.sage`
+  independently checks the stable dimensions and computes the block-product
+  invariant symmetric bilinear multiplicity `3` (`2` after an added exchange)
+  in a small exact model.
+
+- `channel-swings/selected_k77_residual_pairing_invariance_probe.py`
+  constructs the local degree-thirteen-Hodge times Clifford-trace residual
+  pairing, proves exact rank 1,470 and inertia `(741,729,0)` on the frozen
+  response, and distinguishes three Spin-only grade weights from the unique
+  full-`U(64,64)` comparator line while leaving the Weyl-block product open.
+  Run with `sage -python`.
+- `channel-swings/selected_k77_residual_pairing_invariance_independent.sage`
+  independently checks the full carrier dimension/inertia and both
+  grade-weight dimensions.
+
+- `channel-swings/selected_k77_action_frechet_ward_object_separation_probe.py`
+  reuses the complete first-action bank, proves the exact stationary
+  equivariant-residual Ward theorem, and constructs nonzero transverse
+  Jacobian additions in all causal classes showing that four Ward columns do
+  not determine the six transverse metric columns. It also corrects the older
+  signature probe's `H^32`-as-full-module wording: `M(64,H)` acts on `H^64`,
+  while `H^32` is a chiral even-algebra half. Run with `sage -python`.
+- `channel-swings/conditional_physics_ledger_v091_probe.py` validates the
+  append-only five-row object-separation migration and frozen headline meter.
+
+- `channel-swings/signature_generic_cartan_ward_compose_probe.py` proves the
+  connection and adjoint-one-form Cartan identities, fires curvature/gauge/
+  internal-orbit plants, composes the flat second connection with primitive
+  epsilon at `eta=i_xi B`, and separately checks local K77/K95 Hodge
+  naturality. It passes 204 exact checks.
+- `channel-swings/conditional_physics_ledger_v090_probe.py` validates the
+  append-only five-row Cartan/Ward migration and frozen headline meter.
+
+- `source_signature_branch_rationale_retype.py` independently checks that the
+  draft explicitly uses K77 while its displayed signature blocks derive K95;
+  it also requires the next Ward gate to be signature-generic/branch-aware.
+- `channel-swings/conditional_physics_ledger_v089_probe.py` validates the
+  append-only five-row branch-rationale migration and frozen headline meter.
+
+- `channel-swings/selected_k77_total_upsilon_null_screen_probe.py` assembles
+  the complete parity-graded source tangent, proves exact full linearized
+  superconnection Bianchi closure, constructs the labelled ambient rank-12
+  `(6,6)` null screen, and proves that the source-required `kappa_1 T` term
+  leaves a rank-four total raw-`Upsilon` defect outside the curvature-only
+  grade-two fit. Run it with
+  `uv run --with numpy --with sympy==1.14.0 python`.
+- `channel-swings/conditional_physics_ledger_v060_probe.py` verifies the
+  append-only five-row distance/mapping migration and frozen verdicts,
+  residue, quotients and external datum.
+
+- `channel-swings/selected_k77_full_reduction_quotient_reconciliation_probe.py`
+  composes the source-owned global labelled Clifford reduction with the v0.58
+  graph, proves central-stabilizer basicness of the paired object, preserves
+  the horizontal-plane forgetful failure, and closes the invariant-replacement
+  horn by exact Spencer/target-span arithmetic. Run it with
+  `uv run --with numpy --with sympy==1.14.0 python`.
+- `channel-swings/conditional_physics_ledger_v059_probe.py` verifies the
+  append-only five-row distance/mapping migration and frozen verdicts,
+  residue, quotients and external datum.
+
+- `channel-swings/selected_k77_source_graph_basicness_probe.py` transports the
+  corrected four-column K77 lift through an exact full-frame three-patch
+  cocycle, then computes rank-four horizontal and normal stabilizer defects,
+  the three-dimensional invariant Hom span, and failed quotient basicness.
+- `channel-swings/conditional_physics_ledger_v058_probe.py` verifies the
+  append-only five-row distance/mapping migration and frozen verdicts,
+  residue, quotients and external datum.
+
+- `channel-swings/selected_k77_cartan_spencer_signature_correction_probe.py`
+  rebuilds the full raw-target, selected-Shiab, Koszul and fixed-epsilon
+  source-`varpi` chain on settled K77 `(7,7)`, supersedes every old `(9,5)`
+  coefficient packet, and proves that the pointwise rank-four/support theorem
+  survives exactly.
+- `channel-swings/conditional_physics_ledger_v057_probe.py` verifies the
+  append-only five-row provenance/mapping migration and frozen verdicts,
+  residue, quotients and external datum.
+
+- `channel-swings/selected_source_varpi_cartan_composition_probe.py` types the
+  fixed-epsilon source tangent as `delta B=0`, `delta T=delta A=alpha`, composes
+  its endpoint response with the four exact Koszul preimages, and reconstructs
+  all transverse 117 pointwise with supports `57,34,34,34`, rank four and zero
+  coefficient freedom at fixed nonzero background.
+- `channel-swings/conditional_physics_ledger_v056_probe.py` verifies the
+  append-only five-row distance migration and frozen verdicts, residue,
+  quotients and external datum.
+
+- `channel-swings/selected_nonzero_background_cartan_spencer_owner_probe.py`
+  proves the nonzero-background unrestricted Cartan/Spencer connection map is
+  an exact rank-1,274 isomorphism, reconstructs all transverse 117 coefficients
+  with rank-four Koszul preimages, and proves the Levi-Civita torsion-free
+  subclass remains q-exact with zero transverse intersection.
+- `channel-swings/conditional_physics_ledger_v055_probe.py` verifies the
+  append-only five-row distance migration and frozen verdicts, residue,
+  quotients and external datum.
+
+- `channel-swings/selected_invariant_constituent_operator_naturality_probe.py`
+  constructs exact selected `F_A*,T*`, checks their nonzero coefficientwise
+  cancellation and proves the invariant branch-tangent natural operator packet
+  is zero while fixed-coordinate Hodge/target transport controls stay live.
+- `channel-swings/conditional_physics_ledger_v054_probe.py` verifies the
+  append-only five-row distance migration and frozen verdicts, residue,
+  quotients and external datum.
+
+- `channel-swings/selected_second_layer_residual_constituent_operator_correction_probe.py`
+  preserves the q-exact connection-class theorem and separates zero total
+  residual/common co-motion from a live independent constituent-operator
+  derivative with an exact counterexample.
+- `channel-swings/conditional_physics_ledger_v053_probe.py` verifies the
+  append-only five-row distance migration and frozen verdicts, residue,
+  quotients and external datum.
+
+- `channel-swings/conditional_physics_ledger_v052_probe.py` freezes verdicts,
+  residue and quotients while migrating exactly five row distances to the
+  residual-zero owner-class retype.
+- `channel-swings/selected_second_layer_transverse117_residual_zero_owner_class_probe.py`
+  proves the whole connection-curvature principal class remains q-exact,
+  checks moving-operator vanishing at zero residual and plants a live nonzero-
+  background control.
+
+- `channel-swings/conditional_physics_ledger_v051_probe.py` freezes all
+  verdicts and residue while migrating exactly five row distances to the
+  fixed-B partial-owner result.
+- `channel-swings/selected_second_layer_translation_curvature_principal_owner_probe.py`
+  proves the fixed-`B` `q wedge delta T` image owns support 28 and not the
+  transverse support 117, retains ranks four and four, and excludes
+  `T wedge T` as an odd first-order principal enlargement.
+- `channel-swings/conditional_physics_ledger_v050_probe.py` preserves all
+  predecessor rows, supersedes only stale `AC-G1`, appends `AC-G1a` as the
+  settled-horn missing construction, verifies active counts `32/19/26/5`, and
+  freezes residue, quotient and P1/P2/P3 boundaries.
+- `channel-swings/selected_second_layer_gcr_exterior_degree_owner_retype_probe.py`
+  exhausts all 8,281 classical `Cl2` curvature columns, proves their selected-
+  Shiab outputs occupy only Clifford grades one and five with zero grade-two
+  target entries, preserves the exact rank-1,274 `Cl1 -> Cl2` isomorphism and
+  excludes the single-`q` adapter by its rank-thirteen image and the four
+  seven-component `q`-direction witnesses.
+- `channel-swings/conditional_physics_ledger_v049_probe.py` freezes headline
+  counts and residue, migrates exactly five rows to the odd-source owner gate
+  and forbids datum, quotient, canon or posture inflation.
+- `channel-swings/selected_second_layer_nonnull_koszul_gcr_split_probe.py`
+  replays v0.47, constructs the canonical non-null connection part, measures
+  the rank-four transverse completion burden, verifies exact selected-Shiab
+  recombination and plants a null-screen dependence control.
+- `channel-swings/conditional_physics_ledger_v048_probe.py` freezes headline
+  counts and residue, migrates exactly five rows and forbids datum, quotient,
+  canon or posture inflation.
+- `channel-swings/selected_second_layer_shiab_inverse_bianchi_completion_probe.py`
+  proves the full selected Hodge-Shiab map is an exact rank-1,274 isomorphism,
+  reconstructs the four unique split preimages and proves every principal
+  Bianchi wedge map has rank fourteen. It rejects only the standalone split-
+  jet identification and leaves total GCR completion open.
+- `channel-swings/conditional_physics_ledger_v047_probe.py` freezes headline
+  counts and residue, migrates exactly five rows and forbids datum, quotient,
+  canon or posture inflation.
+
+- `channel-swings/selected_second_layer_normal_jet_carrier_compatibility_probe.py`
+  proves that the v0.42 background-subtracted Hessian is not the Gram of a
+  residual difference, while the raw rank-four graph-orbit corrections all lie
+  in the exact rank-1190 source-native mixed-normal carrier. It leaves the
+  actual prolonged field jet and any background-subtraction owner open.
+- `channel-swings/conditional_physics_ledger_v046_probe.py` freezes headline
+  counts and residue, migrates exactly five rows, and enforces the owner-map
+  correction without datum, quotient, canon or posture inflation.
+
 - `channel-swings/pw2fr2b2b2i2_resumable_third_size6_full_evaluator_probe.py`
   byte-pins the committed `5/380` predecessor ledger, selects the first
   remaining canonical key before evaluator output, and certifies owners
@@ -606,23 +1697,36 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (359 Python + 30 Sage) | active channel and Lane-1 swing probes, including the native operator/domain/`w1` bridge audit, the Pin+ degree-14 Smith/table gate, the Mannheim--Callias end-admission gate, the quaternionic Fredholm/end-clutching gate, the vertical--Krein source-action/B5 one-bit-weld probe, the three-route full-carrier Bott/vertical/actual-fibre starts, the W177 stationarity plus W131-to-B5 normalized-transport gates, the full-20 coarse observer/BV first-write, its analytic four-primitive formula-support manifest, the native Krein/polarization/curvature closure continuation, the independent thin-embedding rederivation of all 136 observer-complex support cells, the Gamma-natural full-20 DeWitt-loop transport with uniformly central returned mismatch, the finite unified bulk-plus-defect source-action/relative-\(KO\)-datum contract, the actual-`Sym2` native charge-conjugation/Krein four-orbit screen, the Levi--Civita curvature-irrep plus partial open-BV incidence screen, their six-discriminator N3 intersection contract, the N3 term-by-term variational-emission/current-cancellation/dynamical-soldering gate with separate index/causality carry, the ten-persona Vanchurin/GU declared-score contract, the Weinstein primary-source disposition/ordering contract, the post-N3 ten-wave rebase dependency/non-regression contract, the RB1 source/repository required-arrow register, varied-root plus owner ledger, fixed-geometry full-20 graded Green split, native-current-musical, and three-candidate/one-control emission contract, the RB2 classical fixed-geometry antifield-zero five-field bridge/source-endpoint variations and returned `A0` moving-background response, the RB3 native moving-Clifford-plane/\(A_0\)-induced candidate-connection/actual-`Sym2` trace-coordinate/full-20-first-block/homogeneous-discriminator-proxy certificate, the RB1b exact full-Spin same-`Lambda2` parity kill plus separate native grade-admission check and finite quaternionic source-shaped architecture/cyclic-nonimplication certificate, the RB3b trace-reversed fixed-Cartan four-component/native-bilinear/exact-44-supported-block lift plus observer/Cartan and fixed-\(t\) Spin(4)-leak controls, the RB3c typed rectangular vertex/Krein completion/one-matrix-amplitude plus finite-\(SO(3)\) and planted-one-dimensional Green fixtures, the RB1c actual-\((9,5)\) all-algebraic-Riemann/Bianchi closure, deterministic cyclic, and planted polarization-factorization disposition, the RB4 trace-reversed moving-\(u\) Cartan/projector/Clifford/volume/Phi family with frozen-frame controls, separate internal moving-\(t\) branch, compatible-\(J\) existence, the fixed-\(u\) descent obstruction, the RB5 exact Clifford-plane-to-flag stabilizer/lift obstruction plus conditional spectral-projector/polar-derivative/local-unimodularity/gauge-modulus-instability classifier, RB6's target-blind vertical Ricci/trace/curvature-square grammar, finite-resolution `1+9` collapse, action-owned distortion/curvature/section Gram adapters, W177 stationarity carry, RB7's full W177 Euler-tensor slot/floor audit plus exact anisotropic homogeneous non-abelian stationary/saddle, trace-reversal, Gram/polar, and base-incidence classification, and Resolver Waves D--K77-Wave2's native port, moving reduction, nonlinear `Met(X)` descent, source-action comparator, normalized-trace candidate-comparison, exact real-spinor branching, atomic target sequence, source-bracket normalization, exact low-grade Shiab/B1 classification, the algebraic-curvature/four-coordinate displayed-family obstruction, the full-domain cyclic-kernel mechanism kill, the action-first no-bridge Euler/current/pseudo-Riesz/even-Ward plus mixed-super-IG boundary, the source-corrected K77 Dirac--de Rham rolled-symbol/super-IG requirement rebase, the rendered draft-9.16/Hodge-primalizer/formal-adjoint model gate, the actual-carrier total-graded D916 rival/source-sign obstruction/corrected weighted super-bracket gate, the source-sign/degree-reality/D7-Hom reconciliation with exact moving-odd-covector repairs, the trace-reversed tautological-q ownership/full-adjoint/current/Ward-selection gate, the complete sixteen-cell trace-q zero-order/reality coefficient-selection gate with Curt/Weinstein source collision, the common two-layer norm-square action/actual-K77 square-span/cancellation-target gate, the exact two-connection/up-back-over direct-adapter gate, the action-derived raw mixed-Hessian/primalizer-dependence target-typing gate, the exact Euler-receiver equation-leakage/representation-blindness kernel theorem, the source-collided augmented-torsion four-plus-ten field/Euler receiver with a scoped nonzero-`kappa` conormal witness, the full moving-defect localization/normal-dipole/shape/even-Ward gate, the selector-independent I1B conormal-symbol/85-of-91 annihilator/no-duplicate-weld/H9-trace-domain gate, the exhaustive moving-Shiab/primitive-epsilon/even-Ward/compact-Green gate, the action-polarization/grade-one-span/common-Sobolev-observation gate, the full-adjoint five-span/eddy-Bianchi/two-connection pre-Shiab target gate, the complete principal-Bianchi rank-91 three-orbit selector selecting `comm/symi/symi`, the exact two-connection eddy path-average with action-owned Fréchet-adjoint Euler separation plus a rank-13 printed-rival prolongation comparison and independent Sage verification, the K77 rank-ten epsilon gravitational receiver/orthogonal same-stratum weld, the global K77 Clifford frame/support normalization gate, the formal homogeneous-gauge BV/null-quotient/conditional flat-defect Green gate, the complete moving-section first-jet/no-leakage plus K77 ambient-hypersurface obstruction, the action-owned Hilbert-stress/observed-constraint/double-pole/quadratic-vacuum gate, the conditional full-`; and, from the merged pw2f-r repair campaign, the PW2F-R2B2B2G exact normalized-trace first/mixed coframe transport and full-C4 admission blocker, the PW2F-R2B2B2F frozen-Shiab raw-density transgression/projective comparator, the PW2F-R2B2B2E conditional active U4 degree-ceiling gate, the PW2F-R2B2B2D normal kappa1 C4 subbank and corrected relaxed-completion boundary, the PW2F-R2B2B2C off-shell I2B C5 ceiling, the PW2F-R2B2B2B source-grammar tangent/full-residual/leading-symbol gate, the PW2F-R2B2A partial fixed-total-connection quartic comparator and pinned source-collision gate, the PW2F-R corrected-Z1/structural-order/live-C4-subroute gates and the PW2F active-native top-order, formal diffeomorphism-Ward, and source-collision gates, the PW2E finite active Shiab/descent and mixed metric-Frechet/conditional-top-order gates, the PW2D repaired transported-owner/full-written-action and structural right-Ward/old-root-adjoint gates, the PW2C fixed-owner source-root/full-connection and structural action/Ward/cotangent gates, the PW2B active-real-form and source-orbit action-order gates, the PW2A abstract co-moving gauge/compensator and variational-extension gates, the PW2 automatic-source-integrability, full-jet/prolongation, exact derivative, and order-two-rank gates, the PW1 moving-`J` reduction, mixed super-IG, and exact experiment-selection gates, the native operator/domain/`w1` bridge audit, the Pin+ degree-14 Smith/table gate, the Mannheim--Callias end-admission gate, the quaternionic Fredholm/end-clutching gate, the vertical--Krein source-action/B5 one-bit-weld probe, the three-route full-carrier Bott/vertical/actual-fibre starts, the W177 stationarity plus W131-to-B5 normalized-transport gates, the full-20 coarse observer/BV first-write, its analytic four-primitive formula-support manifest, the native Krein/polarization/curvature closure continuation, the independent thin-embedding rederivation of all 136 observer-complex support cells, the Gamma-natural full-20 DeWitt-loop transport with uniformly central returned mismatch, the finite unified bulk-plus-defect source-action/relative-\(KO\)-datum contract, the actual-`Sym2` native charge-conjugation/Krein four-orbit screen, the Levi--Civita curvature-irrep plus partial open-BV incidence screen, their six-discriminator N3 intersection contract, the N3 term-by-term variational-emission/current-cancellation/dynamical-soldering gate with separate index/causality carry, the ten-persona Vanchurin/GU declared-score contract, the Weinstein primary-source disposition/ordering contract, the Curt-iceberg 30-step/14-cross-cutting source-grade and anti-collapse contract, the paired Curt--Eric 40-axiom/nine-chain bosonic-vs-total-square/Higgs-carrier-fork/Step-13-carrier contract with exact residual-pairing control, the Eric/Curt ten-wave campaign and exact C0 bundle-versus-real-carrier/complexification/lane-promotion gate plus the 22-primitive carrier-port ownership census, Wave 2b quotient/ablation, Wave 3A observation-dual/nonlinear-leakage, Wave 3B finite Cech/domain/quotient, Wave 3C actual-Y14-atlas/Cauchy-domain, Wave 3D-A admitted-section/right-H/Green-trace domain selection, Wave 3D-B1 variable-coefficient naive-spacetime-H1 closedness-kill, Wave 3D-B2A native-time-flux/canonical-majorant coercivity, Wave 3D-B2B full-positive-cone Jordan-obstruction, Wave 3D-B2C1 source-datum/projected-gauge/Jordan-quotient collision, Wave 3D-B2C2A tau-tangent/BV type-and-curvature collision, the parallel null-Clifford/full-Omega1 completion, Wave 3D-B2C3 rolled-source/canonical-Shiab/conditional-quotient, Wave 3D-B2C4 Shiab-family/southeast-completion, Wave 3D-B2C5 action/Green/curved-Ward, Wave 3D-B2C6 two-connection-transgression/local-parent, Wave 3D-B2C7 source-forked common-owner/map-separation, Wave 3D-B2C8 source-forked connection-complex/Euler-discriminator, Wave 3D-B2C9 first-jet Euler/off-diagonal-current/total-preboundary, Wave 3D-B2C10 active-current/LC-owner/full-tuple-Hessian, Wave 3D-B2C11 owner-transfer/two-action/candidate-current-contribution, Wave 3D-B2C12 active moving-residual-primalizer/staged-action/differential-Green, Wave 3D-B2C15M/N/O/P/Q moving-coefficient/source-coordinate/selected-fixture/direct-tangent-distortion-Zorro/substitution-owner gates, the exact rational-matrix Weinstein-guided tilted-cocycle/double-coset displacement/source-Euler transport/Ward shadow with planted wrong-coefficient and object-identity controls, the G3 graph-complete-variation/coupled-Ward/preboundary/minimal-BV correction with isolated-conservation and polarization plants, the G2 selected-field-graph/native-density-dual/slot-symmetrized-Euler correction with cyclic and factorization plants, the G1 first-jet derivative-cocycle/moving-reference/lift/patch/stabilizer/right-H/trace-reversal quotient correction, the post-N3 ten-wave rebase dependency/non-regression contract, the RB1 source/repository required-arrow register, varied-root plus owner ledger, fixed-geometry full-20 graded Green split, native-current-musical, and three-candidate/one-control emission contract, the RB2 classical fixed-geometry antifield-zero five-field bridge/source-endpoint variations and returned `A0` moving-background response, the RB3 native moving-Clifford-plane/\(A_0\)-induced candidate-connection/actual-`Sym2` trace-coordinate/full-20-first-block/homogeneous-discriminator-proxy certificate, the RB1b exact full-Spin same-`Lambda2` parity kill plus separate native grade-admission check and finite quaternionic source-shaped architecture/cyclic-nonimplication certificate, the RB3b trace-reversed fixed-Cartan four-component/native-bilinear/exact-44-supported-block lift plus observer/Cartan and fixed-\(t\) Spin(4)-leak controls, the RB3c typed rectangular vertex/Krein completion/one-matrix-amplitude plus finite-\(SO(3)\) and planted-one-dimensional Green fixtures, the RB1c actual-\((9,5)\) all-algebraic-Riemann/Bianchi closure, deterministic cyclic, and planted polarization-factorization disposition, the RB4 trace-reversed moving-\(u\) Cartan/projector/Clifford/volume/Phi family with frozen-frame controls, separate internal moving-\(t\) branch, compatible-\(J\) existence, the fixed-\(u\) descent obstruction, the RB5 exact Clifford-plane-to-flag stabilizer/lift obstruction plus conditional spectral-projector/polar-derivative/local-unimodularity/gauge-modulus-instability classifier, RB6's target-blind vertical Ricci/trace/curvature-square grammar, finite-resolution `1+9` collapse, action-owned distortion/curvature/section Gram adapters, and W177 stationarity carry, and RB7's full W177 Euler-tensor slot/floor audit plus exact anisotropic homogeneous non-abelian stationary/saddle, trace-reversal, Gram/polar, and base-incidence classification, the ten-lens geometry-first orthodoxy provenance/odds contract with per-specialist nonaggregation controls, the fifteen-row Eric-native physics equation/status/dependency atlas, and the Eric-source-directed five-object closure; source-ledger/scaffold checks remain metadata and logic contracts, while RB1/RB2/RB3/RB4/RB5/RB6/RB7 also execute finite linear-algebra, Hodge-sign, full-gradient finite-difference, affine-chain, homogeneous-conjugation, moving-shape, moving-projector, functional-calculus, right-`H`, and integration-by-parts fixtures |
+| `channel-swings/` (676 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
 
 The latest channel-swing additions are
-`selected_action_offgraph_dbt_principal_symbol_probe.py` and
-`conditional_physics_ledger_v035_probe.py`. They distinguish the raw
-`d_B T/2` density from its formal-adjoint Euler symbol, prove same-grade
-`Cl2` action pairing zero despite live derivative images, compute the adjacent
-`Cl1`--horizontal-`Cl2` Euler ranks `12/12/11`, and freeze five corrected
-distances. The grade-one algebraic Hessian, filtered total symbol, observation
-receiver, common domain, odd BV and BFV remain open.
+`selected_k77_branch_boundary_amplitude_classification_probe.py` and its
+independent Sage route. They prove that the actual aligned branches have zero
+residual-adjoint moment map but live rank-14-per-endpoint primitive-epsilon
+charge; charged and minimal-edge horns retain both branches while zero charge
+excludes both. The predecessor
+`selected_k77_boundary_disposition_selector_probe.py` proves that source and
+local action do not select boundary gauge versus charged symmetry, while
+full-boundary gauge plus generic nonzero action momentum conditionally selects
+the minimal edge horn. The earlier predecessor
+`selected_k77_common_physical_equation_dual_green_probe.py` composes the
+metric-ten and `varpi`-twenty-four exact receipts into a 34-field formal Green theorem and exact matched-q physical dual
+pullback. The predecessors
+`selected_k77_source_native_diffeomorphism_ward_closure_probe.py` and
+`selected_k77_source_native_diffeomorphism_ward_closure_independent.sage`.
+They close the matched-q physical Ward graph without gamma. The predecessor
+`selected_k77_common_field_formal_adjoint_green_probe.py` and its independent
+Sage route emit
+the actual source-varpi first-order coefficients and prove the exact
+covector-valued `K_loc` Green identity while rejecting full common-field and
+field-Riesz promotion.
 
 ## Loose audit scripts at `tests/` root, by sector
 
-These 255 direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
+These 266 direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
 indexed here in place to keep those reproduction pointers valid. This table covers only direct `tests/*.py`
 files; organized families live under their subdirectory READMEs, and governance/process checks moved to
 `process_gates/`. The table is guarded by `process_gates/tests_root_readme_inventory_audit.py`.
@@ -638,8 +1742,14 @@ files; organized families live under their subdirectory READMEs, and governance/
 | **GR / cosmology / dark energy** | `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py` | 2 | root-level cosmology and Willmore-order certificates that remain mathematical tests rather than process gates. |
 | **Source / selector / control** | `oq_rk1_*.py` | 3 | OQ-RK1 representation, J-restriction, and effective-operator assembly certificates. |
 | **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
+| **Signature / reality / domain** | `base_sign_*.py`, `c1_domain_*.py`, `krein_parity_*.py`, `majorana_weyl_*.py`, `mh9_*.py`, `pati_salam_*.py`, `rational_triviality_*.py`, `signature_fork_*.py`, `source_signature_*.py` | 11 | exact real-signature, Majorana-Weyl, Kramers/Krein, Pati-Salam trace-sign, source-notation and domain-moduli certificates; complexified methods do not decide these real-form forks. |
 | **W-series frontier packets** | `W*.py` | 200 | later root-level W-series frontier certificates, including W242's DESI intake and dependency-aware prediction queue, W245's Finster-sea/Krein-domain discriminator, and W246's faithful CFS self-adjointization ordering reversal, kept in place as provenance while subdirectory migration remains separate review work. |
 | **Hardening quick-win notes** | `HQW_*.py` | 1 | standalone confirming tests for the 2026-07-14 hardening quick-win lemma notes (shape-blind `c_R`), kept at root as provenance. |
+
+**Resolved inventory debt (2026-08-12):** the eleven signature/reality scripts
+now have their own explicit sector. They were not forced into a false existing
+bucket; `tests_root_readme_inventory_audit` verifies the dedicated grammar and
+the complete 266-script count.
 
 ## Resolver Wave B certificates
 
@@ -1593,4 +2703,1180 @@ v0.38 and migrates exactly five distances without changing headline counts.
 ```sh
 uv run --with sympy==1.14.0 python tests/channel-swings/selected_second_layer_full_cl2_residual_pullback_probe.py
 python3 tests/channel-swings/conditional_physics_ledger_v039_probe.py
+```
+
+## Selected second-layer TT Euler, preboundary, helicity and ledger v0.40
+
+`channel-swings/selected_second_layer_tt_euler_preboundary_helicity_probe.py`
+composes the complete selected-`Cl2` coefficients with the exact Gauss/TT
+normalization, derives the non-fitted fourth-order Euler polynomial and Green
+identity, and proves the massless plus/cross quotient has compact null-rotation
+polynomial `x^2+4`; the massive TT plane is only axial weight two until its
+full `SO(3)` type is constructed. The ledger probe freezes v0.39, migrates exactly four row
+distances and retains all headline counts, four scoped quotients and unused
+P1/P2/P3.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_tt_euler_preboundary_helicity_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v040_probe.py
+```
+
+## Selected second-layer off-TT scalar/Ward owner and ledger v0.42
+
+`channel-swings/selected_second_layer_offtt_scalar_ward_owner_probe.py`
+constructs the exact metric-to-full-II tangent, reproduces the selected TT
+polynomial, and proves the isolated metric block has Ward-defect rank four and
+no full characteristic root at the restricted scalar candidate. The ledger
+probe freezes v0.41, migrates exactly five distances/priorities, preserves all
+headline counts and requires the full co-moving action owner.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_offtt_scalar_ward_owner_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v042_probe.py
+```
+
+## Selected second-layer massive SO3 closure and ledger v0.41
+
+`channel-swings/selected_second_layer_massive_so3_closure_probe.py` constructs
+the exact massive rest-frame diffeomorphism quotient, closes the axial
+plus/cross plane under all three spatial rotations, proves the resulting
+five-dimensional carrier has spin-two Casimir `-6`, and isolates the one
+spin-zero complement. Two exact covariant Hessians agree on the complete
+spin-two carrier and disagree on the scalar pole, proving the TT-to-scalar
+identifiability boundary. The ledger probe freezes v0.40, migrates exactly
+five distances/priorities and retains all headline counts, four scoped
+quotients and unused P1/P2/P3.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_massive_so3_closure_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v041_probe.py
+```
+
+## Selected second-layer D Upsilon gauge-orbit weld and ledger v0.43
+
+`channel-swings/selected_second_layer_dupsilon_gauge_orbit_weld_probe.py`
+replays the independent rank-four metric Ward load and source-native
+connection diffeomorphism orbit, proves the forced response rank and constructs
+the unique diagnostic weld on that orbit. It plants failures against treating
+that weld as the actual action derivative or extending uniqueness to the other
+twelve connection directions. The ledger probe migrates exactly five rows
+without changing headline counts, residue, four scoped quotients or P1/P2/P3.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_dupsilon_gauge_orbit_weld_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v043_probe.py
+```
+
+## Selected second-layer actual source-lift rank mismatch and ledger v0.44
+
+`channel-swings/selected_second_layer_actual_source_lift_rank_mismatch_probe.py`
+replays the v0.43 proxy and the source-native `(g,varpi)` lift, proves that the
+actual independent connection component has rank three with time-direction
+kernel, and verifies the rank-four metric Ward load is nonzero there. It kills
+only connection-only cancellation at the current principal grade. The ledger
+probe migrates exactly five rows without changing headline counts, residue,
+four scoped quotients or P1/P2/P3.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_actual_source_lift_rank_mismatch_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v044_probe.py
+```
+
+## Selected second-layer observation-owner retype and ledger v0.45
+
+`channel-swings/selected_second_layer_observation_owner_retype_probe.py`
+composes the v0.44 rank mismatch with the exact observation theorem. It proves
+that metric and graph-section motion share one rank-four tangent, that an
+invertible observation receiver preserves the Ward rank, and that a dependent
+moving-section normal-jet term remains live but is not identifiable from the
+on-section full-`II` pullback. The ledger probe migrates exactly five rows
+without changing headline counts, residue, four scoped quotients or P1/P2/P3.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_observation_owner_retype_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v045_probe.py
+```
+
+## Selected second-layer normal-jet carrier compatibility and ledger v0.46
+
+`channel-swings/selected_second_layer_normal_jet_carrier_compatibility_probe.py`
+rejects the background-subtracted residual-Gram identification and proves all
+four raw graph-orbit corrections are expressible in the exact source-native
+mixed-normal carrier. The ledger probe migrates exactly five rows while
+freezing headline counts, residue, four scoped quotients and P1/P2/P3.
+
+```sh
+UV_CACHE_DIR=/private/tmp/gu-uv-cache uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_second_layer_normal_jet_carrier_compatibility_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v046_probe.py
+```
+
+## Selected second-layer Shiab inverse/Bianchi completion and ledger v0.47
+
+`channel-swings/selected_second_layer_shiab_inverse_bianchi_completion_probe.py`
+constructs the full selected Hodge-Shiab map, proves exact rank 1,274, solves
+the four correction preimages uniquely and proves all four principal
+`q wedge F` maps have rank fourteen. The ledger probe migrates exactly five
+rows while freezing headline counts, residue, four scoped quotients and
+P1/P2/P3.
+
+```sh
+UV_CACHE_DIR=/private/tmp/gu-uv-cache uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_second_layer_shiab_inverse_bianchi_completion_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v047_probe.py
+```
+
+## K77 labelled-null observation-jet Euler/preboundary sufficiency and ledger v0.62
+
+`channel-swings/selected_k77_observation_jet_euler_preboundary_sufficiency_probe.py`
+recomputes the exact full response at the retained labelled null covector,
+constructs one conormal graph derivative and measures the rank-650 source
+principal symbol without promoting it to a Green or symplectic current. The
+ledger probe migrates exactly five rows while freezing verdicts, residue, four
+scoped quotients and P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python \
+  tests/channel-swings/selected_k77_observation_jet_euler_preboundary_sufficiency_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v062_probe.py
+```
+
+## K77 paired Upsilon/Xi, formal Green owner and ledger v0.63
+
+`channel-swings/selected_k77_paired_upsilon_xi_green_probe.py` corrects the
+graph target to a primalized degree-one form, restores the source
+degree-thirteen density before applying `D`, verifies printed Xi supports
+`16,15,11,11` and rank-zero dependence after total closure, and supplies an
+exact formal covariant Green comparator. The ledger probe migrates five rows
+without moving verdicts, residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_paired_upsilon_xi_green_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v063_probe.py
+```
+
+## K77 action-owned degree-fourteen companion and ledger v0.64
+
+`channel-swings/selected_k77_action_owned_degree14_companion_probe.py`
+differentiates every connection entry in an exact noncyclic action fixture,
+derives `D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`, and rejects deleting either
+Euler owner, moving Shiab, or substituting naive `D_A E_T`. The ledger probe
+migrates five rows without moving verdicts, residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_action_owned_degree14_companion_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v064_probe.py
+```
+
+## K77 moving action-Green receiver and ledger v0.65
+
+`channel-swings/selected_k77_moving_action_green_receiver_probe.py` tensors
+the exact action coefficient fixture with the moving indefinite primalizer and
+complete observation germ. It verifies the four-term moving derivative,
+degree-fourteen inverse-density response and nonzero-flux Green identity, with
+firing frozen-factor controls and retained ordinary-pullback conormal loss.
+The ledger probe migrates five rows without moving verdicts, residue, quotients
+or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_moving_action_green_receiver_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v065_probe.py
+```
+
+## K77 selected-action normal Euler mixed Hessian and ledger v0.66
+
+`channel-swings/selected_k77_source_native_normal_euler_jet_probe.py`
+derives the normal connection/epsilon Euler packet as the mixed action Hessian
+on every exact field direction. Seven moving owner classes are independently
+live and exhaustive; the printed residual normal jet is rejected as a
+substitute, and the explicit packet inserts losslessly into the complete
+germ. The independent Sage/QQ replay reproduces the normal matrices and owner
+sum. The ledger probe migrates five rows without moving verdicts, residue,
+quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy --with scipy python -u \
+  tests/channel-swings/selected_k77_source_native_normal_euler_jet_probe.py
+sage tests/channel-swings/selected_k77_source_native_normal_euler_jet_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v066_probe.py
+```
+
+## K77 full normal geometry and owner-split correction ledger v0.67
+
+`channel-swings/selected_k77_full_normal_owner_bank_probe.py` constructs all
+ten trace-reversed DeWitt/gimmel normal derivatives, their density, pairing and
+Hodge banks, and proves exact fixed-frame/co-moving-frame transport of the
+total covector. The firing counterexample shows that the seven v0.66 owner
+buckets are trivialization-dependent even though the total mixed Hessian is
+intrinsic. The independent Sage/QQ replay verifies signature, ranks and
+transport. The ledger probe migrates five distances without moving verdicts,
+residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.3.2 python -u \
+  tests/channel-swings/selected_k77_full_normal_owner_bank_probe.py
+sage tests/channel-swings/selected_k77_full_normal_owner_bank_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v067_probe.py
+```
+
+## K77 Green-potential point-splitting basicness ledger v0.68
+
+`channel-swings/selected_k77_green_potential_splitting_basicness_probe.py`
+proves exact nonlinear cotangent naturality of the complete Green potential,
+exact transport of its field-space exterior derivative, and a three-splitting
+cocycle. All ten actual K77 normal directions have nonzero induced normal/base
+momentum corrections. The firing partial-potential control shows why freezing
+those momenta gives a real defect. The result therefore retires a vertical
+B/T lift only for point-trivialization descent; derivative-dependent contact
+transformations, physical gauge basicness, polarization, common domain and
+BV/BFV remain open. The independent Sage/QQ replay verifies the cotangent and
+symplectic identities. The ledger probe migrates five distances without
+moving verdicts, residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.3.2 python -u \
+  tests/channel-swings/selected_k77_green_potential_splitting_basicness_probe.py
+sage tests/channel-swings/selected_k77_green_potential_splitting_basicness_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v068_probe.py
+```
+
+## K77 contact-presymplectic gauge basicness ledger v0.69
+
+`channel-swings/selected_k77_contact_presymplectic_gauge_basicness_probe.py`
+assembles the actual rank-ten Levi-Civita contact block and complete
+observation dual, proves diagonal two-connection Ward closure, and separates
+small/Dirichlet gauge from charged boundary symmetry. The presymplectic form
+is invariant and horizontal for small gauge; unrestricted contraction is the
+field-space derivative of a nonzero moment map in all ten K77 normal
+directions. The independent Sage/QQ replay verifies the contact, Ward and
+boundary-charge identities. The ledger probe migrates five distances without
+moving verdicts, residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 python -u \
+  tests/channel-swings/selected_k77_contact_presymplectic_gauge_basicness_probe.py
+sage tests/channel-swings/selected_k77_contact_presymplectic_gauge_basicness_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v069_probe.py
+```
+
+## K77 minimal edge-mode reduction ledger v0.70
+
+`channel-swings/selected_k77_minimal_edge_mode_reduction_probe.py` proves that
+an ordinary scalar boundary counterterm cannot change the presymplectic form,
+types the unselected Dirichlet and zero-charge horns, and constructs the unique
+two-cell edge extension. Across all ten nonzero K77 normal weights its extended
+dimension/rank/kernel are `60/40/20`; the conditional quotient has
+dimension/rank `40/40`. The independent Sage/QQ route checks coefficients,
+kernel, ranks and counterterm control. The ledger gate adds one scoped quotient
+without moving verdicts, global residue or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_minimal_edge_mode_reduction_probe.py
+sage tests/channel-swings/selected_k77_minimal_edge_mode_reduction_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v070_probe.py
+```
+
+## K77 tilted edge-bundle type bridge ledger v0.71
+
+`channel-swings/selected_k77_tilted_edge_bundle_type_bridge_probe.py` verifies
+the exact noncommuting three-patch tilted affine cocycle and the separate
+group-valued boundary edge-frame cocycle. A constant-`xi` witness kills their
+direct zero-form/one-form identification, and exact frame naturality gives no
+nonzero zero-order `V* -> 1` bridge. The independent Sage/QQ route reproduces
+both results. The ledger gate moves five distances without changing verdicts,
+residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_tilted_edge_bundle_type_bridge_probe.py
+sage tests/channel-swings/selected_k77_tilted_edge_bundle_type_bridge_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v071_probe.py
+```
+
+## K77 group-edge dressing and Maurer-Cartan bridge ledger v0.72
+
+`channel-swings/selected_k77_group_edge_dressing_maurer_cartan_bridge_probe.py`
+constructs `q=xu^-1`, `pi=p u^T` and proves that the pullback of the canonical
+two-form has rank eight with a four-dimensional kernel exactly equal to the
+right `gl(2)` gauge orbit. It recovers the v0.70 minus sign and verifies the
+base Maurer-Cartan form as an exact flat/pure-gauge tilted bridge. The
+independent Sage/QQ route reproduces the invariant dressing, rank/kernel
+theorem, affine law, triple overlap and flatness. The ledger gate moves five
+distances without changing verdicts, residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_group_edge_dressing_maurer_cartan_bridge_probe.py
+sage tests/channel-swings/selected_k77_group_edge_dressing_maurer_cartan_bridge_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v072_probe.py
+```
+
+## K77 two-endpoint edge dressing ledger v0.73
+
+`channel-swings/selected_k77_two_endpoint_edge_dressing_probe.py` instantiates
+the edge theorem in the actual K77 `U(64,64)` matrix category with independent
+source/target action. The pulled-back canonical form has rank eight and its
+eight-dimensional kernel equals the full endpoint gauge orbit. Its identity
+linearization also proves that one holonomy forces `p0=p2` and retains only
+the `20/20` Gauss-diagonal half of the v0.70 `40/40` endpoint quotient. The
+independent Sage/QQ route reproduces the kernel theorem and rank fence.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_two_endpoint_edge_dressing_probe.py
+sage tests/channel-swings/selected_k77_two_endpoint_edge_dressing_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v073_probe.py
+```
+
+## K77 epsilon endpoint direct sum ledger v0.74
+
+`channel-swings/selected_k77_epsilon_endpoint_direct_sum_probe.py` composes
+the existing primitive-epsilon endpoint trace with two independent nonlinear
+endpoint dressings. It proves local trace rank two and full ten-normal
+`60/40/20 -> 40/40` recovery, while preserving the v0.73 single-holonomy
+compression no-go. Its hostile ownership fence keeps the coefficient weld
+`i_n(E_B-E_T)=p_KT` open. The independent Sage/QQ route reproduces the trace,
+direct-sum kernel and all-ten ranks.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_epsilon_endpoint_direct_sum_probe.py
+sage tests/channel-swings/selected_k77_epsilon_endpoint_direct_sum_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v074_probe.py
+```
+
+## K77 action/contact Legendre owner ledger v0.75
+
+`channel-swings/selected_k77_action_contact_legendre_owner_probe.py` proves
+that two inequivalent indefinite `K` matrices satisfy the same exact generic
+contact/Ward/Green/symplectic controls while giving different `KT` momenta. It
+also verifies the selected source-shaped action is cubically nonquadratic,
+that `E_B-E_T` is nonzero at `T=0`, and that a one-background symmetric `K`
+fit leaves 36 free directions. The result preserves the endpoint phase
+geometry while rejecting `p=KT` as selected-action ownership. The independent
+Sage/QQ route reproduces the decisive algebra.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_action_contact_legendre_owner_probe.py
+sage -c 'load("tests/channel-swings/selected_k77_action_contact_legendre_owner_independent.sage")'
+python3 tests/channel-swings/conditional_physics_ledger_v075_probe.py
+```
+
+## K77 selected-action boundary coefficient bank ledger v0.76
+
+`channel-swings/selected_k77_action_boundary_coefficient_bank_probe.py`
+differentiates the same selected action in all 1,470 real `Cl1+Cl2`
+directions, proves fourteen full and ten normal independent rows, transports
+them through an exactly invertible complete observation equation dual, and
+checks the scalar-Clifford Gram images and local endpoint orientations. The
+independent Sage route rebuilds the algebra rather than importing the Python
+bank.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_action_boundary_coefficient_bank_probe.py
+sage tests/channel-swings/selected_k77_action_boundary_coefficient_bank_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v076_probe.py
+```
+
+## K77 full pointwise u(64,64) action bank ledger v0.77
+
+`channel-swings/selected_k77_full_u6464_action_bank_probe.py` evaluates the
+selected action covector on all 16,384 real directions in the pointwise K77
+comparator. It verifies live grades `1,2,5`, ranks `14/10`, a 549-coordinate
+seed union, a distinct 628-coordinate held-out union, and the grade-5
+correction of observed inertia from `(5,5,0)` to `(4,6,0)`. The Sage route
+independently rebuilds the exact algebra rather than importing the Python
+bank.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_full_u6464_action_bank_probe.py
+sage tests/channel-swings/selected_k77_full_u6464_action_bank_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v077_probe.py
+```
+
+## K77 action-bundle and observation overlap ledger v0.78
+
+`channel-swings/selected_k77_action_bundle_observation_overlap_probe.py`
+recomputes the full selected-action bank on three patches related by two
+noncommuting signed K77 rotations. It verifies pairwise/direct coadjoint,
+complete-equation-dual, no-leakage-projector and pairing descent on seed and
+held-out fields. Frozen receiver/projector, wrong dual order and left-inverse-
+only plants fire. Sage independently rebuilds the full banks and overlap law.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_action_bundle_observation_overlap_probe.py
+sage -c 'load("tests/channel-swings/selected_k77_action_bundle_observation_overlap_independent.sage")'
+python3 tests/channel-swings/conditional_physics_ledger_v078_probe.py
+```
+
+## K77 physical observation-section faithfulness ledger v0.79
+
+`channel-swings/selected_k77_physical_section_faithfulness_probe.py` composes
+the v0.78 overlap theorem, actual-Y14 receiver and selected augmented-torsion
+conormal action witness. It adds the spin-`S4` topology counterexample and an
+explicit local holonomic second jet, proving that holonomicity does not remove
+the rank-ten ordinary-pullback kernel hit by the action. Sage independently
+rebuilds the rank/topology certificate.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_physical_section_faithfulness_probe.py
+sage tests/channel-swings/selected_k77_physical_section_faithfulness_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v079_probe.py
+```
+
+## K77 metric-section/Bianchi typing ledger v0.80
+
+`channel-swings/selected_k77_metric_section_bianchi_typing_probe.py` proves
+that ordinary section pullback kills the ten graph-conormal covectors while
+the complete field/equation dual transports them to ten independent
+metric-section Euler coordinates. It then builds the standard linearized
+Einstein symbol only as a typed comparator: the complex is exact for timelike
+and spacelike covectors and has a two-dimensional plus/cross null cohomology
+with helicity eigenvalues `+2` and `-2`. The selected K77 vertical Euler/Ward
+complex remains the next construction, not an inferred identification. Sage
+independently rebuilds the exact linear algebra.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_metric_section_bianchi_typing_probe.py
+sage -c 'load("tests/channel-swings/selected_k77_metric_section_bianchi_typing_independent.sage")'
+python3 tests/channel-swings/conditional_physics_ledger_v080_probe.py
+```
+
+## K77 coupled Euler-complex scope ledger v0.81
+
+`channel-swings/selected_k77_coupled_euler_complex_scope_probe.py` composes
+the completed first-layer 34-variable Ward symbol, its 196-dimensional
+adjacent-grade elimination, the exceptional N2 helicity typing, the separate
+second-layer metric block and the v0.80 Einstein comparator. It proves generic
+first-layer physical cohomology zero, second-layer and naive-sum Ward-defect
+rank four, and a 21-dimensional formal-completion freedom. It retains the ten
+metric equations while rejecting vertical-only closure and fitted repair.
+Sage independently reconstructs the second-layer block and composition fence.
+
+```sh
+env UV_CACHE_DIR=/private/tmp/gu-coupled-euler-uv-cache \
+  uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_coupled_euler_complex_scope_probe.py
+env DOT_SAGE=/private/tmp/gu-coupled-euler-sage \
+  sage -c 'load("tests/channel-swings/selected_k77_coupled_euler_complex_scope_independent.sage")'
+python3 tests/channel-swings/conditional_physics_ledger_v081_probe.py
+```
+
+## K77 stationary two-layer Hessian factorization ledger v0.82
+
+`channel-swings/selected_k77_stationary_two_layer_hessian_factorization_probe.py`
+composes the stationary residual-square theorem with v0.81. It verifies
+`H2=(D Upsilon)^!K*(D Upsilon)` at complete residual zero, preserves physical
+Shiab/Hodge constituent movement inside `D Upsilon`, treats observation as a
+dependent receiver, proves blockwise Ward cancellation, and fires off-shell,
+deleted-block and indefinite-Krein controls. Sage independently reconstructs
+the polynomial Hessian, Ward Gram operator and isotropic Krein witness.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_stationary_two_layer_hessian_factorization_probe.py
+sage tests/channel-swings/selected_k77_stationary_two_layer_hessian_factorization_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v082_probe.py
+```
+
+## K77 common graded trace / boundary-triple skeleton ledger v0.116
+
+`channel-swings/selected_k77_common_graded_trace_boundary_triple_probe.py`
+constructs the strong direct sum of the physical `H7/H-7` and gauge/ghost
+`H8/H-8` cotangent trace pairs, proves the exponents are not uniformly
+identical, verifies half-order trace typing and exact relative cotangent-lift
+preservation of the canonical form and vertical Lagrangian polarization. It
+keeps the complete bulk operator, `Dmax/Dmin`, Green inverse, Krein positivity
+and coupled BV--BFV unowned. Sage/FLINT independently checks the rational
+symplectic and regularity certificate.
+
+```sh
+sage -python tests/channel-swings/selected_k77_common_graded_trace_boundary_triple_probe.py
+sage tests/channel-swings/selected_k77_common_graded_trace_boundary_triple_independent.sage
+python3 process_gates/selected_k77_common_graded_trace_boundary_triple_audit.py
+```
+
+## K77 relative edge-bitorsor topology ledger v0.115
+
+`channel-swings/selected_k77_relative_edge_bitorsor_topology_probe.py`
+proves the one-sided edge frame is nonempty only for a trivial boundary bundle,
+constructs the relative `A0` bitorsor on every existing `P_H` sector, and
+rechecks noncommuting patching, dressed trace, moment map and local
+characteristic-kernel equality. Sage/FLINT independently reconstructs the
+topology and patch laws.
+
+```sh
+uv run --with sympy==1.14.0 python tests/channel-swings/selected_k77_relative_edge_bitorsor_topology_probe.py
+sage tests/channel-swings/selected_k77_relative_edge_bitorsor_topology_independent.sage
+python3 process_gates/selected_k77_relative_edge_bitorsor_topology_audit.py
+```
+
+## K77 common-field D-Upsilon varpi block ledger v0.83
+
+`channel-swings/selected_k77_common_field_dupsilon_varpi_block_probe.py`
+restricts the exact all-grade residual response to the source-owned
+24-dimensional horizontal connection carrier. It verifies rank 24, live
+grade support `22/24/10`, rank-three causal diffeomorphism response, six
+unselected transverse metric columns, and rejection of the old rank-four
+metric load on the fixed-`epsilon` horn. Sage independently checks the rank
+factorization and indefinite-pairing control.
+
+```sh
+sage -python tests/channel-swings/selected_k77_common_field_dupsilon_varpi_block_probe.py
+sage tests/channel-swings/selected_k77_common_field_dupsilon_varpi_block_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v083_probe.py
+```
+
+## K77 gamma-soldered epsilon D-Upsilon orbit ledger v0.84
+
+`channel-swings/selected_k77_gamma_soldered_epsilon_dupsilon_orbit_probe.py`
+first proves that the ordinary Kosmann/Levi-Civita epsilon lift has rank three
+and duplicates the source-`varpi` longitudinal kernel. It then constructs the
+distinct grade-one K77 `gamma_epsilon` orbit, checks rank four in timelike,
+spacelike and null classes, verifies nonzero response on the missing
+longitudinal direction and closes the four principal Ward columns. The
+independent Sage route reconstructs the causal ranks and negative control.
+
+```sh
+sage -python tests/channel-swings/selected_k77_gamma_soldered_epsilon_dupsilon_orbit_probe.py
+sage tests/channel-swings/selected_k77_gamma_soldered_epsilon_dupsilon_orbit_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v084_probe.py
+```
+
+## K77 metric-transverse augmented-torsion block ledger v0.85
+
+`channel-swings/selected_k77_metric_transverse_augmented_torsion_block_probe.py`
+constructs `delta_gT=-L_qh` from the source variables, proves the unique
+Levi-Civita kernel lies inside the diffeomorphism orbit and verifies exact
+rank six on the transverse metric directions. It then composes the actual
+partial metric block with source `varpi` and gamma epsilon, exposing a
+rank-four moving-operator Ward target. The independent Sage route rebuilds
+the ten-to-four-plus-six theorem over `QQ`.
+
+```sh
+sage -python tests/channel-swings/selected_k77_metric_transverse_augmented_torsion_block_probe.py
+sage tests/channel-swings/selected_k77_metric_transverse_augmented_torsion_block_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v085_probe.py
+```
+
+## K77 Kosmann/moving-Shiab rank-three closure ledger v0.87
+
+`channel-swings/selected_k77_kosmann_moving_shiab_rank3_probe.py` corrects the
+frozen-`q0` causal comparison, rejects moving Shiab alone, and closes the
+complete lower-order internal bivector Ward orbit exactly with zero fit. The
+independent Sage route reconstructs every matched-q support and completed rank.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_kosmann_moving_shiab_rank3_probe.py
+sage tests/channel-swings/selected_k77_kosmann_moving_shiab_rank3_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v087_probe.py
+```
+
+## K77 physical diffeomorphism split ledger v0.88
+
+`channel-swings/selected_k77_physical_diffeomorphism_split_probe.py` builds
+the natural metric-bundle lift, verifies physical rank four as rank-three
+Kosmann/skew plus a symmetric longitudinal complement, and checks local
+metric/density/Hodge/Phi/observation/equation-dual naturality. It fires a
+frozen-observation no-leakage plant and keeps nonconstant primitive epsilon
+and the selected-action Frechet/Green complex open. Sage independently
+reconstructs the rank and naturality packet over `QQ`.
+
+```sh
+uv run --with sympy==1.14.0 python tests/channel-swings/selected_k77_physical_diffeomorphism_split_probe.py
+sage tests/channel-swings/selected_k77_physical_diffeomorphism_split_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v088_probe.py
+```
+## K77 bulk-operator admission ledger v0.117
+
+`channel-swings/selected_k77_bulk_operator_admission_probe.py` derives the safe
+raw and covariantly reduced source-action jet grammar, the Euler-block upper
+bound and unique minimal symmetric Douglis--Nirenberg weight `(2,1,1)`. It
+audits the branch/parent Hessian, gauge-fixing, ghost, graph-domain and H7/H8
+trace owners with firing type plants. The independent Sage route reconstructs
+the integer order problem and parent/trace fences.
+
+```sh
+python3 tests/channel-swings/selected_k77_bulk_operator_admission_probe.py
+sage tests/channel-swings/selected_k77_bulk_operator_admission_independent.sage
+python3 process_gates/selected_k77_bulk_operator_admission_audit.py
+```
+
+## K77 branch-Hessian discriminator ledger v0.118
+
+`channel-swings/selected_k77_branch_hessian_discriminator_probe.py` rejects
+the opposite-inertia reconstruction matrices as a branch selector because
+both points are noncritical in an unowned independent-`B` direction. The
+source `varpi` restrictions have the same inertia class for both the first and
+separate residual-square actions. Sage/FLINT independently reconstructs the
+exact `QQ(sqrt(3))` result and firing plants.
+
+```sh
+uv run --with sympy==1.14.0 python tests/channel-swings/selected_k77_branch_hessian_discriminator_probe.py
+sage tests/channel-swings/selected_k77_branch_hessian_discriminator_independent.sage
+python3 process_gates/selected_k77_branch_hessian_discriminator_audit.py
+```
+
+## K77 two-branch action-block port ledger v0.119
+
+`channel-swings/selected_k77_two_branch_action_block_port_probe.py` ports the
+owned rank-91 first-action cross and residual rank-1470 zero-jet plus selected
+125-field principal banks to both exact stationary branches. It preserves
+unequal lower-order amplitudes, distinct actions and all parent/domain fences.
+The Sage/FLINT route reconstructs the result independently over exact number
+fields.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_two_branch_action_block_port_probe.py
+sage tests/channel-swings/selected_k77_two_branch_action_block_port_independent.sage
+python3 process_gates/selected_k77_two_branch_action_block_port_audit.py
+```
+
+## K77 wedge-Shiab/southeast completion v0.173
+
+`channel-swings/selected_k77_wedge_shiab_southeast_completion_probe.py`
+constructs the `1920`-dimensional real-K77 family over two exact finite fields.
+It verifies the K77 positive reciprocal sign, spatial Clifford relations,
+zero Jordan ranks, `960/960` null split, positive common principal
+symmetrizer, nondegenerate independent-dual Green coefficient, and the still-
+open reality adjoint. Zero-southeast and K95-sign plants both fire at rank 128.
+
+```sh
+sage -python tests/channel-swings/selected_k77_wedge_shiab_southeast_completion_probe.py
+python3 process_gates/wedge_shiab_southeast_completion_audit.py
+```
+
+## K77 action-adjoint and weight classification v0.174
+
+`channel-swings/selected_k77_action_adjoint_weight_classification_probe.py`
+classifies the complete four-scalar Spin-natural pairing family over two exact
+finite fields. It verifies the symmetric/anti-adjoint and skew/self-adjoint
+lines, nondegeneracy and Grassmann alternation on all 14 axes, then proves the
+local action gives no weight equation and that a pairing-preserving chiral
+isometry leaves only `p=w_+w_-` invariant. Wrong-sign and mistyped
+self-adjoint-plus-symmetric controls fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_action_adjoint_weight_classification_probe.py
+python3 process_gates/k77_action_adjoint_weight_classification_audit.py
+```
+
+## K77 independent-dual weight trivialization v0.175
+
+`channel-swings/selected_k77_independent_dual_weight_trivialization_probe.py`
+classifies the complete normalization-preserving left/right scalar orbit of
+the source-native four-field K77 operator. Over two exact primes it checks the
+full 1,920-dimensional carrier, all 14 axes, noncentral even connection cells,
+gauge/Noether transport and rank-640 transported observation. It proves both
+weights are coordinates before reality and retains `p` only as a conditional
+congruence invariant. Fixed-observation, one-sided, odd-insertion and wrong-
+crossed-product plants fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_independent_dual_weight_trivialization_probe.py
+python3 process_gates/k77_independent_dual_weight_trivialization_audit.py
+```
+
+## K77 Majorana reality / graded-domain scope v0.176
+
+`channel-swings/selected_k77_majorana_reality_graded_domain_scope_probe.py`
+checks local real conjugation and composes the full-carrier two-prime v0.174
+pairing receipt with the v0.166 Darboux graph theorem. Both action-induced
+reality graphs are skew; a planted skew graph fails the even anti-symplectic
+criterion, exposing the required graded successor without claiming a no-go.
+
+```sh
+uv run --python 3.12 --with sympy==1.14.0 python tests/channel-swings/selected_k77_majorana_reality_graded_domain_scope_probe.py
+python3 process_gates/k77_majorana_reality_graded_domain_scope_audit.py
+```
+
+## K77 graded Green reality graphs v0.177
+
+`channel-swings/selected_k77_graded_green_reality_graphs_probe.py` derives the
+graded-even fermion Green matrix and checks both complete action-pairing horns
+as noncharacteristic Lagrangian anti-linear fixed loci. It verifies exact
+three-patch tensorial overlap and fires mismatched-horn, non-isotropic,
+singular-characteristic and wrong-even-category plants. It does not claim a
+closed domain, select a horn or extend to null/BFV data.
+
+```sh
+uv run --python 3.12 --with sympy==1.14.0 python tests/channel-swings/selected_k77_graded_green_reality_graphs_probe.py
+python3 process_gates/k77_graded_green_reality_graphs_audit.py
+```
+
+## K77 observed Cauchy-domain Layer-0 v0.178
+
+`channel-swings/selected_k77_observed_cauchy_domain_layer0_probe.py`
+separates the doubled-field Majorana graph, complete Cauchy data and the
+nonpositive spatial-flux half by exact rank. It verifies a real Clifford
+principal comparator, positive common symmetrizer, conditional local flat
+observed symmetric-hyperbolic theorem and Dirichlet support annihilation of
+moving mixed terms. Four plants reject a broken Clifford family, outgoing
+flux, the reality/boundary rank conflation and unrestricted mixed closure.
+
+```sh
+uv run --python 3.12 --with sympy==1.14.0 python tests/channel-swings/selected_k77_observed_cauchy_domain_layer0_probe.py
+python3 process_gates/k77_observed_cauchy_domain_layer0_audit.py
+```
+
+## K77 energy/Green boundary-horn composition v0.179
+
+`channel-swings/selected_k77_energy_green_boundary_horn_composition_probe.py`
+checks the full 1,920-dimensional completed real-K77 carrier over two finite
+fields. It records rank 960 for both one-sided independent-dual incoming
+restrictions, then composes the required doubled Majorana graph and obtains
+rank zero for both complete pairing horns. Four plants reject a non-invariant
+pairing, a vacuous zero carrier and the one-sided/doubled object collapse.
+
+```sh
+sage -python tests/channel-swings/selected_k77_energy_green_boundary_horn_composition_probe.py
+python3 process_gates/k77_energy_green_boundary_horn_composition_audit.py
+```
+
+## K77 variable incoming-projector descent v0.180
+
+`channel-swings/selected_k77_variable_incoming_projector_descent_probe.py`
+composes the immutable full-carrier K77 spatial-Clifford and doubled-Green
+receipts with a moving rational unit normal and noncommuting three-patch field
+frames. It proves the action polynomial projector has constant half rank,
+negative flux, associated-bundle descent and connection-natural derivative,
+then transports both complete doubled-Majorana horns. Six plants reject
+reversed overlap order, a frozen projector, omitted connection correction,
+unnormalized conormal and both one-sided wrong objects (`63/63 PASS`).
+
+```sh
+sage -python tests/channel-swings/selected_k77_variable_incoming_projector_descent_probe.py
+python3 process_gates/k77_variable_incoming_projector_descent_audit.py
+```
+
+## K77 boundary BRST / observation / carrier closure v0.181
+
+`channel-swings/selected_k77_boundary_bv_observation_cohomology_probe.py`
+composes exact ordinary-gauge BRST with the moving incoming relation and
+three-patch associated-bundle observation descent. On the full rank-1,920
+carrier over two finite fields it proves that `W`, mirror and their union are
+not invariant boundary subcomplexes, while all three seeds generate the same
+conditional `H640=512+128` spatial-action hull. Four plants reject frozen
+projectors, wrong ghost transport and false complete-Pin boundary symmetry.
+
+```sh
+sage -python tests/channel-swings/selected_k77_boundary_bv_observation_cohomology_probe.py
+python3 process_gates/k77_boundary_bv_observation_cohomology_audit.py
+```
+
+## K77 zero-seed H640 action-closure controls v0.182
+
+`channel-swings/selected_k77_zero_seed_h640_action_closure_controls_probe.py`
+computes the complete eight-word spatial action algebra and proves over `QQ`
+that the source-owned zero-form field alone generates `H640=512+128`. It
+replays W, mirror, prior 640/832 and three random rank-192 controls over two
+exact primes, including the equal-rank-not-equal-module negative control.
+
+```sh
+sage -python tests/channel-swings/selected_k77_zero_seed_h640_action_closure_controls_probe.py
+python3 process_gates/k77_zero_seed_h640_action_closure_controls_audit.py
+```
+
+## K77 H640 observation graph / BV typing v0.183
+
+`channel-swings/selected_k77_h640_observation_pullback_bv_typing_probe.py`
+proves over `QQ` that H640 is not the coordinate observed carrier but is an
+exact rank-128 graph over it, with observation isomorphism and three-generator
+principal no-leakage. Two finite primes verify the complete coordinate-frame
+transport class and expose rank-128 lower-order and rank-256 mixed
+gauge-frame leakage before full BV/Koszul--Tate.
+
+```sh
+sage -python tests/channel-swings/selected_k77_h640_observation_pullback_bv_typing_probe.py
+python3 process_gates/k77_h640_observation_pullback_bv_typing_audit.py
+```
+
+## K77 H640 ambient/observed Riccati boundary v0.184
+
+`channel-swings/selected_k77_h640_ambient_observed_riccati_boundary_probe.py`
+proves over two exact fields that H640 closes the three observed evolutions,
+each of ten transverse Y14 directions leaks rank 128 and joins to rank 768,
+and the unrestricted hull is rank 1,920. Ordinary pullback kills the
+transverse covectors. Both pairing horns remain alternating, with a plant
+showing that alternation does not imply ambient no-leakage.
+
+```sh
+sage -python tests/channel-swings/selected_k77_h640_ambient_observed_riccati_boundary_probe.py
+python3 process_gates/k77_h640_ambient_observed_riccati_boundary_audit.py
+```
+
+## K77 vertical soldering adapter differential-order gate v0.185
+
+`channel-swings/selected_k77_vertical_soldering_adapter_order_gate_probe.py`
+rebuilds H640 and the complete rank-ten `sigma_epsilon -> h_omega ->
+gamma(h_omega)` family over `GF(1009)` and `GF(1013)`. It proves the algebraic
+chain has principal-response rank zero while all ten transverse residuals keep
+rank 128. A representative fixed-scale placement has span rank ten, the
+targets span ten, and their joint span has rank twenty. Both pairing horns
+admit all ten tested lower-order Clifford terms; a fitted first-order plant
+fires and is rejected as unowned.
+
+```sh
+sage -python tests/channel-swings/selected_k77_vertical_soldering_adapter_order_gate_probe.py
+python3 process_gates/k77_vertical_soldering_adapter_order_gate_audit.py
+```
+
+## K77 first-jet fermion-symbol port gate v0.186
+
+`channel-swings/selected_k77_first_jet_fermion_symbol_port_gate_probe.py`
+separates the raw `4+10` observation shear, Levi-Civita coefficient and genuine
+Spin/Clifford frame transport over `GF(1009)` and `GF(1013)`. It proves the raw
+shear is invertible but not K77 orthogonal, Levi-Civita is fermion-zero-order,
+and exact boost/rotation transports close fixed-H640 leakage rank 128 to zero
+only when the Clifford anchor and graph move together. Gamma covariance,
+symbol covariance and both pairing identities are mandatory controls.
+
+```sh
+sage -python tests/channel-swings/selected_k77_first_jet_fermion_symbol_port_gate_probe.py
+python3 process_gates/k77_first_jet_fermion_symbol_port_gate_audit.py
+```
+
+## K77 canonical section-jet Cartan/Spin prolongation v0.187
+
+`channel-swings/selected_k77_canonical_section_jet_cartan_spin_prolongation_probe.py`
+constructs all 40 pure observed-vertical K77 generators from the graph
+condition, checks their 128-spinor gamma, chirality and two pairing-block
+identities over `GF(1009)` and `GF(1013)`, and composes them with the v0.186
+full-rank-1,920/moving-H640 control. It also verifies all ten actual moving-
+gimmel compensators and rejects their identification with fixed-metric Cartan
+motion.
+
+```sh
+sage -python tests/channel-swings/selected_k77_canonical_section_jet_cartan_spin_prolongation_probe.py
+python3 process_gates/k77_canonical_section_jet_cartan_spin_prolongation_audit.py
+```
+
+## K77 finite section projector / atlas descent v0.188
+
+`channel-swings/selected_k77_finite_section_projector_atlas_descent_probe.py`
+constructs the canonical eta-self-adjoint projector onto the finite
+nondegenerate observation graph over `GF(1009)` and `GF(1013)`. It verifies
+rank, idempotence, graph ownership, all 40 tangent directions, block and three
+genuinely mixed fractional atlas transitions, and local-lift stabilizer
+ambiguity. Naive transition, Euclidean adjoint, missing Gram normalization and
+null-graph plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_finite_section_projector_atlas_descent_probe.py
+python3 process_gates/k77_finite_section_projector_atlas_descent_audit.py
+```
+
+## K77 action/stabilizer connection and residual flag v0.189
+
+`channel-swings/selected_k77_action_stabilizer_connection_flag_reconciliation_probe.py`
+constructs a noncommuting three-patch K77 atlas over `GF(1009)` and
+`GF(1013)`. It verifies the projector's block-stabilizer cocycle, affine
+descent of the reduced connection, tensorial descent of the second fundamental
+form and the frame-free `nabla P`/`A^P` formulas. Frozen-frame, missing affine
+derivative, missing frame derivative and tensor/connection-confusion plants
+must fire. A residual-stabilizer witness proves the finer complex-Cartan flag
+is not selected by the coarse reduction.
+
+```sh
+sage -python tests/channel-swings/selected_k77_action_stabilizer_connection_flag_reconciliation_probe.py
+python3 process_gates/k77_action_stabilizer_connection_flag_reconciliation_audit.py
+```
+
+## K77 action-concomitant residual-flag gate v0.190
+
+`channel-swings/selected_k77_action_concomitant_residual_flag_gate_probe.py`
+solves the exact Lorentz centralizer on `Sym^2(T*X)`, directly contracts the
+curvature word, retains the complete nonzero Lorentz-natural `II` class, and
+checks the spectral-rank and polar gates. It rejects the totally-geodesic
+constant-section shortcut, an affine connection value used as a tensor, a
+fitted rank-four projector and a supplied complex structure.
+
+```sh
+uv run --with sympy python -B tests/channel-swings/selected_k77_action_concomitant_residual_flag_gate_probe.py
+python3 process_gates/k77_action_concomitant_residual_flag_gate_audit.py
+```
+
+## K77 split-layer commutant/action-parent gate v0.191
+
+`channel-swings/selected_k77_split_layer_commutant_action_parent_probe.py`
+uses the exact C1/C2 signed-permutation Clifford bank to compute the complete
+real commutant of the declared `Spin(1,3) x Spin(6,4)` subgroup. It verifies
+`C + C`, native `J` on both real-64 halves, `32+32` complexification, and the
+absence of same-half invariant real bilinears. Mixed-bivector, full-Spin,
+external-`i` and dimension-collapse controls must fire.
+
+```sh
+python3 tests/channel-swings/selected_k77_split_layer_commutant_action_parent_probe.py
+python3 process_gates/k77_split_layer_commutant_action_parent_audit.py
+```
+
+## K77 moving split structure/action-selection gate v0.192
+
+`channel-swings/selected_k77_moving_split_structure_action_selection_probe.py`
+uses exact real-Clifford matrices to transport moving `omega` and `J4`, recover
+the complete `K_omega` and `K_J` breaking tensors from their covariant
+derivatives, and separate compatible, block-only and full connection loci. It
+composes the prior full-rank pointwise action Hessian rather than mistaking
+compatibility for selection. Frozen-structure, missing-affine and grading-
+collapse plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_moving_split_structure_action_selection_probe.py
+python3 process_gates/k77_moving_split_structure_action_selection_audit.py
+```
+
+## K77 two-half Hermitian/Witt-rotation gate v0.193
+
+`channel-swings/selected_k77_two_half_hermitian_witt_rotation_probe.py`
+constructs the exact conditional `H_q=i B gamma(q)` form on the source-sized
+complexification, verifies full signature `(64,64)` and two Weyl restrictions
+of signature `(32,32)`, exhibits the Witt rotation, and prices fixed-`q`
+stabilizers and moving-family naturality. Missing-`i`, zero-`q`, frozen-`q`
+and neutral-half masquerade plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_two_half_hermitian_witt_rotation_probe.py
+python3 process_gates/k77_two_half_hermitian_witt_rotation_audit.py
+```
+
+## K77 tautological trace-q two-half ownership gate v0.194
+
+`channel-swings/selected_k77_tautological_trace_q_two_half_ownership_probe.py`
+composes the existing DeWitt trace receiver `q_g=g/2` with the exact `H_q`
+construction. It verifies zero datum cost, full/half inertias, normal-q
+stabilizer `42`, `J4/J10` anti-isometry and moving-family naturality. Zero-q,
+frozen-frame, base-axis-complex and base-axis-stabilizer plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_tautological_trace_q_two_half_ownership_probe.py
+python3 process_gates/k77_tautological_trace_q_two_half_ownership_audit.py
+```
+
+## K77 trace-Hq connection and internal-chain gate v0.195
+
+`channel-swings/selected_k77_trace_hq_connection_internal_chain_probe.py`
+composes the trace-owned Hermitian form with the exact split-spin connection.
+It proves the compatible algebra is `Spin(1,3)xSpin(6,3)` (dimension 42),
+that `D H_q` has rank nine and reconstructs the broken connection, and that a
+frozen trace q does not preserve full Pati-Salam or compose with the existing
+`(4,1,2)` `v_PSB` to the 12-dimensional SM stabilizer. It also plants failures
+against algebra-containment-as-representation and `6+3`-as-Higgs shortcuts.
+
+```sh
+sage -python tests/channel-swings/selected_k77_trace_hq_connection_internal_chain_probe.py
+python3 process_gates/k77_trace_hq_connection_internal_chain_audit.py
+```
+
+## K77 moving-Hq, U(3,2), SM and Higgs-direction gate v0.196
+
+`channel-swings/selected_k77_moving_hq_u3_2_sm_higgs_direction_probe.py`
+constructs the exact Pati-Salam/`SU(3,2)` intersection, derives the actual
+chiral-spin 16 hypercharge weights, and proves fixed trace q leaves post-Higgs
+`SU(3)xU(1)`. It distinguishes the three-dimensional q orbit from the one
+radial coefficient required for a four-real weak doublet and keeps J/action
+selection open. Wrong weights, pre/post-Higgs collapse, orbit-only Higgs
+counting, full-versus-special unitary confusion and dimension-only naming
+plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_moving_hq_u3_2_sm_higgs_direction_probe.py
+python3 process_gates/k77_moving_hq_u3_2_sm_higgs_direction_audit.py
+```
+
+## K77 varpi radial half-exchange gate v0.197
+
+`channel-swings/selected_k77_varpi_radial_half_exchange_probe.py` constructs
+the trace-radial `varpi` component, verifies the rank-one/rank-nine moving
+soldering decomposition, full-unitary Lie-algebra admission, two-half
+block-diagonal rejection, exact SM equivariance, cross-half rank 64 in both
+directions, and the nonzero observed derivative carrier. It also verifies that
+the isolated radial one-form has zero self-wedge and cannot by itself generate
+a Higgs potential. Frozen-q, frozen-component, block-only, orbit-only and
+potential-inflation plants must fire.
+
+```sh
+sage -python tests/channel-swings/selected_k77_varpi_radial_half_exchange_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0197_probe.py
+python3 process_gates/k77_varpi_radial_half_exchange_audit.py
+```
+
+## K77 minimal moving-doublet curvature gate v0.198
+
+`channel-swings/selected_k77_minimal_moving_doublet_curvature_probe.py`
+constructs all four canonical weak-doublet lift cells and proves their shared
+vertical leg forces the complete algebraic self-curvature to vanish. An
+explicit soldering-kernel perturbation preserves the observed output and
+creates nonzero curvature, ensuring the zero is structural rather than a
+commuting-coefficient artifact.
+
+```sh
+sage -python tests/channel-swings/selected_k77_minimal_moving_doublet_curvature_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0198_probe.py
+python3 process_gates/k77_minimal_moving_doublet_curvature_audit.py
+```
+
+## K77 moving-Hq eddy-quartic retyping gate v0.199
+
+`channel-swings/selected_k77_moving_hq_eddy_quartic_retype_probe.py` verifies
+the forced real/`i` phase split of the four fixed-`H_q` unitary cells,
+distinguishes the three odd Higgs directions from their even moving-frame spin
+compensators, and proves that `J`-linearity uniquely fixes the smallest
+two-leg completion. Its complete coefficientwise eddy norm is exactly
+`512(h1^2+h2^2+h3^2+h4^2)^2`; wrong phases, frozen reductions, common-leg
+collapse and physical-potential inflation are planted failures.
+
+```sh
+sage -python tests/channel-swings/selected_k77_moving_hq_eddy_quartic_retype_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0199_probe.py
+python3 process_gates/k77_moving_hq_eddy_quartic_retype_audit.py
+```
+
+## K77 I2B real-Shiab displasion-image gate v0.202
+
+`channel-swings/selected_k77_i2b_real_shiab_displasion_image_probe.py`
+replays the v0.201 residual, constructs the source-motivated opposite-phase
+second connection, and compares the unrestricted complex Shiab image with the
+complete fixed-`H_q` real Clifford bank capable of producing grade one. The
+complex bank contains the target; the 99,463-column real bank has rank 364 and
+the target raises it to 365. Reality-collapse, complexification and
+background-fit plants must fire.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_real_shiab_displasion_image_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0202_probe.py
+python3 process_gates/k77_i2b_real_shiab_displasion_image_audit.py
+```
+
+## K77 I2B pointwise full-unitary image/covariance gate v0.203
+
+`channel-swings/selected_k77_i2b_full_unitary_image_covariance_probe.py`
+composes the v0.202 image theorem with the complete pointwise `u(64,64)`
+Clifford basis, reproduces all prior explicit real-form phases, and repeats
+the exact `364 -> 365` exclusion at a held-out trace representative. It proves
+the two-half block subgroup cannot restore the direct pointwise route while
+failing closed on moving derivatives, global connections, Bianchi, physical
+Euler/BV/domain, datum or canon promotion.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_full_unitary_image_covariance_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0203_probe.py
+python3 process_gates/k77_i2b_full_unitary_image_covariance_audit.py
+```
+
+## K77 I2B real-structure intertwining-defect gate v0.204
+
+`channel-swings/selected_k77_i2b_real_structure_intertwining_defect_probe.py`
+constructs the operative source/target involutions on the complete 99,463
+column bank. It proves the selected Shiab has fixed/anti ranks `170/195` and
+total defect rank `390`, kills additive Galois descent, constructs q13
+fixed-output target admission, and fires a held-out q12 naturality control.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_real_structure_intertwining_defect_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0204_probe.py
+python3 process_gates/k77_i2b_real_structure_intertwining_defect_audit.py
+```
+
+## K77 I2B compensator-naturality correction gate v0.205
+
+`channel-swings/selected_k77_i2b_compensator_naturality_probe.py` transports
+the complete q13 pointwise construction to q12 and compares it to an
+independent direct q12 rebuild. All geometric, reality and image layers agree;
+the direct q12 image contains q12, while the old helper's q13 test is retained
+as a firing control.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_compensator_naturality_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0205_probe.py
+python3 process_gates/k77_i2b_compensator_naturality_audit.py
+```
+
+## K77 I2B moving-Higgs principal Hessian gate v0.213
+
+`channel-swings/selected_k77_i2b_moving_higgs_principal_hessian_probe.py`
+separates v0.212's zero first Green row from the second-variation top-order
+Gram.  It proves the actual four-real symbol is Lorentz rank two with two live
+pairing-radical directions, controls it against the rank-182 full connection
+Gram, tests all eight displayed Shiab triples and keeps bosonic `Q_B`, coupled
+contact, expanded parent, gauge/BFV and analytic-domain claims open.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_i2b_moving_higgs_principal_hessian_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v0213_probe.py
+python3 process_gates/k77_i2b_moving_higgs_principal_hessian_audit.py
+```
+
+## K77 I2B action-Euler principal-owner comparison v0.237
+
+`channel-swings/selected_k77_i2b_action_euler_principal_owner_comparison_probe.py`
+replays the endpoint and action-Euler rivals on the same 196-real bank. It
+proves 182 live raw endpoint responses per observed direction but zero
+first-action pairing, formal `E_act` principal covector and Riesz
+representative in all four directions. Plants reject transfer from equal
+fixed-background Euler values to equal Frechet maps or Spencer complexes.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_action_euler_principal_owner_comparison_probe.py
+```
+
+## K77 I2B principal constraint-quotient gate
+
+`channel-swings/selected_k77_i2b_principal_constraint_quotient_probe.py`
+replays v0.236 and computes the exact induced map from the first symmetric
+mixed jet block into the timelike cokernel. It verifies cokernel dimension 14,
+induced rank 14, target admission, and a 196-dimensional two-block affine
+fibre while rejecting complement, uniqueness and free-Cauchy-data overreads.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_constraint_quotient_probe.py
+```
+
+## K77 I2B principal differential-complex gate (corrected)
+
+`channel-swings/selected_k77_i2b_principal_gauge_complex_probe.py` proves all
+twenty cubic coefficients of the principal exact-form syzygy, exactness of the non-null
+`14 -> 196 -> 196 -> 14` complex, raw null cohomology `168/168`, and the
+isolated `(8/3)k` contraction. The correction gate below proves that this is
+not the source gauge map, so the Ward and gauge-cohomology readings are
+retracted while the exact symbol theorem survives.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_gauge_complex_probe.py
+```
+
+## K77 I2B principal-degeneracy Layer-0 correction
+
+`channel-swings/selected_k77_i2b_principal_degeneracy_retype_probe.py`
+compares the concrete `196 x 14` Cl1 exact-form map to the already-built
+`196 x 91`, rank-25 Cl2 adjoint source gauge map. It verifies that the Euler
+target annihilates the actual source gauge image but contracts with the
+exact-form map as `(8/3)k`, preserving the principal syzygy while retracting
+the Noether interpretation.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_degeneracy_retype_probe.py
 ```

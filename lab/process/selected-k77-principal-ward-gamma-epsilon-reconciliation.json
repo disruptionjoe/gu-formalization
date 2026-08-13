@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-08",
+  "status": "EXACT_RECONCILIATION__SOURCE_VARIABLE_TARGET_RANK3__CONDITIONAL_GAMMA_EXTENSION_SEPARATE",
+  "run_id": "RUN-20260808-171836-gu-principal-ward-gamma-epsilon-reconciliation",
+  "predecessor": "lab/process/selected-k77-metric-transverse-augmented-torsion-block.json",
+  "source_return": "SOURCE-CORRECTS",
+  "layer0": {
+    "source_epsilon": "H_VALUED_GAUGE_TRANSFORMATION_AND_SECOND_CONNECTION_VARIABLE",
+    "conditional_gamma_epsilon": "DEPENDENT_GRADE1_CLIFFORD_LIFT",
+    "physical_diffeomorphism_identification": "NOT_ESTABLISHED_BY_SOURCE",
+    "direct_torsion_response": "KAPPA_DELTA_T",
+    "full_varpi_response": "MOVING_CURVATURE_RESPONSE_PLUS_KAPPA_DELTA_T",
+    "invariant_branch_operator_zero": "DIFFERENT_TANGENT_CLASS__DOES_NOT_CLOSE_SOURCE_VARIABLE_DIFFEO_PACKET"
+  },
+  "causal_reconciliations": {
+    "timelike": {
+      "direct_torsion_cancellation_rank": 0,
+      "source_variable_curvature_packet_rank": 3,
+      "source_variable_curvature_packet_supports": [0, 1, 1, 1],
+      "source_longitudinal_kernel": [1, 0, 0, 0],
+      "source_longitudinal_response_zero": true,
+      "conditional_gamma_response_rank": 4,
+      "conditional_gamma_kernel_response_nonzero": true,
+      "conditional_gamma_extended_packet_rank": 4,
+      "source_required_operator_rank": 3,
+      "conditional_required_operator_rank": 4
+    },
+    "spacelike": {
+      "direct_torsion_cancellation_rank": 0,
+      "source_variable_curvature_packet_rank": 3,
+      "source_variable_curvature_packet_supports": [13, 0, 2, 2],
+      "source_longitudinal_kernel": [0, 1, 0, 0],
+      "source_longitudinal_response_zero": true,
+      "conditional_gamma_response_rank": 4,
+      "conditional_gamma_kernel_response_nonzero": true,
+      "conditional_gamma_extended_packet_rank": 4,
+      "source_required_operator_rank": 3,
+      "conditional_required_operator_rank": 4
+    },
+    "null": {
+      "direct_torsion_cancellation_rank": 0,
+      "source_variable_curvature_packet_rank": 3,
+      "source_variable_curvature_packet_supports": [14, 7, 7, 14],
+      "source_longitudinal_kernel": [1, 0, 0, 1],
+      "source_longitudinal_response_zero": true,
+      "conditional_gamma_response_rank": 4,
+      "conditional_gamma_kernel_response_nonzero": true,
+      "conditional_gamma_extended_packet_rank": 4,
+      "source_required_operator_rank": 3,
+      "conditional_required_operator_rank": 4
+    }
+  },
+  "independent_rank_audit": {
+    "timelike": {
+      "connection_rank": 3,
+      "connection_kernel": [1, 0, 0, 0],
+      "gamma_rank": 4,
+      "gamma_nonzero_on_connection_kernel": true
+    },
+    "spacelike": {
+      "connection_rank": 3,
+      "connection_kernel": [0, 1, 0, 0],
+      "gamma_rank": 4,
+      "gamma_nonzero_on_connection_kernel": true
+    },
+    "null": {
+      "connection_rank": 3,
+      "connection_kernel": [1, 0, 0, 1],
+      "gamma_rank": 4,
+      "gamma_nonzero_on_connection_kernel": true
+    }
+  },
+  "reconciliation": {
+    "v085_rank4_packet": "CONDITIONAL_GAMMA_EXTENDED_PACKET__NOT_THE_SOURCE_MINIMAL_DIFFEO_PACKET",
+    "source_minimal_packet": "RANK3_CURVATURE_RESPONSE_AFTER_EXACT_DIRECT_TORSION_CANCELLATION",
+    "moving_operator": "NARROWED_FROM_RANK4_TO_RANK3__NOT_ELIMINATED",
+    "gamma_epsilon": "PRESERVED_AS_INTERNAL_GAUGE_OR_FUTURE_SOLDERING_CONSTRUCTION__NOT_USED_AS_CURRENT_PHYSICAL_DIFFEO_LAW",
+    "transverse_rank6": "UNCHANGED"
+  },
+  "next_gate": {
+    "source_variable_moving_operator_rank": 3,
+    "conditional_gamma_extended_operator_rank": 4,
+    "task": "CONSTRUCT_RANK3_MOVING_SHIAB_HODGE_CURVATURE_DENSITY_OBSERVATION_PACKET__THEN_COMPLETE_LOWER_ORDER_TRANSVERSE_AND_PRIMITIVE_INTERNAL_EPSILON_FRECHET__DERIVE_K_STAR_FORMAL_ADJOINT_GREEN"
+  },
+  "full_frechet_ward": "OPEN",
+  "reduced_symplectic_class": "OPEN",
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE"
+}

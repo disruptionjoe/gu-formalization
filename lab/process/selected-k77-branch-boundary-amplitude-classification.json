@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "ADJOINT_MOMENT_MAP_ZERO__PRIMITIVE_EPSILON_ENDPOINT_CHARGE_LIVE__GAUGE_OBJECT_SPLIT",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_FULL_TILTED_BULK_GRAMMAR_AND_BOUNDARY_DEBT__SOURCE_SILENT_BOUNDARY_GAUGE_ORBIT_POLARIZATION_AND_EDGE_SELECTION",
+  "layer0": {
+    "endpoint_covector": "NOT_MOMENT_MAP_UNTIL_PAIRED_WITH_NAMED_ORBIT",
+    "residual_tau_A0_orbit": "ADJOINT_ACTION_WITH_MOMENT_MAP_[Theta,P]",
+    "primitive_epsilon_endpoint_orbit": "INDEPENDENT_DERIVATIVE_BEARING_ENDPOINT_VALUES",
+    "charged_symmetry": "NOT_CHARACTERISTIC_GAUGE",
+    "minimal_edge": "DRESSED_CHARACTERISTIC_COMPLETION",
+    "amplitude_classification": "NOT_FIRST_PRINCIPLES_SELECTION"
+  },
+  "branches": [
+    {
+      "id": "PLUS_SQRT3_BRANCH",
+      "b": "1/208-sqrt(3)/312",
+      "t": "(-2+sqrt(3))/208",
+      "endpoint_momentum": "(-3+2*sqrt(3))/416",
+      "real_sign": "POSITIVE",
+      "adjoint_moment_map_zero": true,
+      "primitive_endpoint_rank_each": 14,
+      "primitive_two_endpoint_rank": 28
+    },
+    {
+      "id": "MINUS_SQRT3_BRANCH",
+      "b": "1/208+sqrt(3)/312",
+      "t": "(-2-sqrt(3))/208",
+      "endpoint_momentum": "(-3-2*sqrt(3))/416",
+      "real_sign": "NEGATIVE",
+      "adjoint_moment_map_zero": true,
+      "primitive_endpoint_rank_each": 14,
+      "primitive_two_endpoint_rank": 28
+    }
+  ],
+  "galois_conjugate_charges": true,
+  "residual_adjoint_generator_count_checked_per_branch": 16384,
+  "horns": {
+    "RESIDUAL_ADJOINT_BARE_GAUGE": "BOTH_BRANCHES_SURVIVE_ZERO_MOMENT_MAP_ON_ALIGNED_LINE",
+    "PRIMITIVE_EPSILON_BARE_GAUGE": "BOTH_BRANCHES_OBSTRUCTED_IF_ALL_ENDPOINT_VALUES_ARE_QUOTIENTED",
+    "CHARGED_BOUNDARY_SYMMETRY": "BOTH_BRANCHES_SURVIVE_AS_DISTINCT_GALOIS_RELATED_CHARGE_SECTORS",
+    "MINIMAL_EDGE_COMPLETION": "BOTH_BRANCHES_SURVIVE_AS_DRESSED_BOUNDARY_COTANGENT_VALUES",
+    "ZERO_CHARGE_NEUMANN_LIKE": "BOTH_NONZERO_BRANCHES_EXCLUDED"
+  },
+  "edge": {
+    "coefficients": [-1, 1],
+    "unique": true,
+    "finite_cell_dimension": 6,
+    "finite_cell_rank": 4,
+    "finite_cell_kernel_dimension": 2,
+    "selects_branch": false
+  },
+  "controls": {
+    "primary": "51/51 PASS",
+    "independent_sage": "20/20 PASS",
+    "misaligned_adjoint_moment_map": "NONZERO_PLANT_FIRED",
+    "identified_endpoints_rank_loss": "28_TO_14_PLANT_FIRED",
+    "generic_v0102_fixture_survives": true,
+    "P1_P2_P3_unused": true
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "remaining": [
+    "global functional primitive-epsilon endpoint orbit",
+    "BFV polarization and trace space",
+    "charged versus minimal-edge physical selection",
+    "action-parent selection",
+    "complete functional tangent",
+    "Hessian BV and common analytic domain"
+  ],
+  "next_gate": "CONSTRUCT_GLOBAL_FUNCTIONAL_TRACE_SPACE_AND_BFV_POLARIZATION_FOR_PRIMITIVE_EPSILON_ENDPOINT_ORBIT__COMPARE_CHARGED_AND_MINIMAL_EDGE_HORNS__KEEP_PARENT_SELECTION_SEPARATE"
+}

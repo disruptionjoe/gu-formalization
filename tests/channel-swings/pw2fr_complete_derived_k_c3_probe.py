@@ -236,7 +236,7 @@ def source_and_layer_zero() -> None:
         "the source owns a difference of a connection and gauge-rotated Levi-Civita connection",
         "T_\\omega=\\varpi-\\epsilon^{-1}d_0\\epsilon" in pack
         and "[02:19:17]" in toe
-        and "gauge rotated Levy-Chevita connection" in toe,
+        and "gauge rotated Levi-Civita connection" in toe,
         "SOURCE-CONFIRMS the connection-difference class",
     )
     source(

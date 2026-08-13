@@ -17,6 +17,14 @@ depends_on:
 
 # The carrier Dirac mass: the capstone on the generation count
 
+> **CARRIER-SELECTION SCOPE CORRECTION (2026-08-10).** Every mass calculation
+> below remains a fixed-`W` result. It does not select `W`: the old internal
+> Casimir criterion accepts a planted random `192`. The carrier-mass scramble
+> is also still owed after repairing the harness's silent Hermitization.
+> Therefore the physical conclusion is conditional on an independently
+> action/source-selected carrier; see
+> `canon/generation-carrier-identification-scope-correction-2026-08-10.md`.
+
 This is the campaign's capstone. Seven directions converged on a single physical gate, and that gate has now
 been computed on the substrate. The order-3 carrier (`Lambda^2_+`, the 192-dim `j=1` triplet, `e_R = p_1/48 =
 1/12`, frame charge 33.94) is **vectorlike**: Krein signature exactly `(+96, -96)`, net chirality 0. A

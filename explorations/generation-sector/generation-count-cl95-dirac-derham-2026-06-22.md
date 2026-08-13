@@ -293,6 +293,35 @@ fibers, and ch(S) is the Chern character of the spinor bundle S.
 x ∈ X⁴ is a 10-dimensional non-compact homogeneous space. Its Pontryagin classes are
 determined by the structure of the fiber bundle:
 
+> **CORRECTION 2026-08-08 — THE `[verified]` CLAIM BELOW IS FALSE.**
+> The set of signature-`(3,1)` forms on `R⁴` is **not convex**, so `F` is **not
+> contractible**. Explicit counterexample, checked directly:
+> `diag(1,1,1,-1)` and `diag(-1,1,1,1)` both have signature `(3,1)`; their
+> midpoint `diag(0,1,1,0)` has signature `(2,0)` with two zero eigenvalues and is
+> degenerate. The convex object is `Sym²(R⁴)*` itself — the full vector space of
+> symmetric forms. The **Lorentzian-signature locus inside it** is a different
+> object, and it is GU's fibre.
+>
+> **Correct homotopy type:** `GL(4,R)/O(3,1)` retracts onto
+> `O(4)/(O(3) x O(1)) = RP³`, so `F ≃ RP³ × R⁺ ≃ RP³` with `π₁(F) = Z/2`. Canon
+> already records this at `canon/no-go-class-relative-map.md:91`; this file is
+> behind canon, not canon behind this file.
+>
+> **What survives.** `Â(fibre) = 1` is recoverable for a different reason —
+> `RP³ = SO(3)` is parallelizable, so the vertical Pontryagin classes vanish.
+> **What does not survive:** `π_k(F) = 0 for all k` below, and the `π_!(1) = 1`
+> claim later in this file. Separately, the reason given elsewhere for `π_!`
+> failing — "the fibre is non-convex" — is also wrong: `π_!` fails because the
+> 10-dimensional fibre is **non-compact**, so fibre integration needs compact
+> vertical supports.
+>
+> **Consequence, and it is favourable to the program's own position:**
+> `H*(RP³;Q) = Q` in degrees 0 and 3 only, so `H^even(F;Q) = Q` in degree 0 —
+> every vertical Chern character and `Â`-class is rationally trivial. That is a
+> stronger statement than contractibility would have given, and it is what closes
+> the Wilson-line and fibre-flux routes to chirality. See
+> `explorations/five-lens-analytic-council-2026-08-08.md`.
+
 The fiber F is contractible (it is convex as a subset of Sym²(R⁴)*: the cone of
 Lorentzian metrics is convex). `[verified — the space of Lorentzian inner products on R⁴
 is an open convex cone]` Therefore:

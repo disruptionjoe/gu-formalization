@@ -24,6 +24,9 @@ lanes = (ROOT / "LANES.yaml").read_text(encoding="utf-8")
 operating = (ROOT / "lab/process/OPERATING-MODEL.md").read_text(encoding="utf-8")
 context_pack = (ROOT / "lab/process/agent-context-pack.md").read_text(encoding="utf-8")
 synthesis = (ROOT / "explorations/precontract-waves-0abc-synthesis-2026-08-05.md").read_text(encoding="utf-8")
+priority_path = ROOT / "lab/process/conditional-ledger-priority-decision-2026-08-07.json"
+priority = strict(priority_path)
+priority_human = (ROOT / "lab/process/conditional-ledger-priority-decision-2026-08-07.md").read_text(encoding="utf-8")
 
 assert contract["status"] == "RATIFIED"
 assert contract["purpose_lanes_preserved"] == ["1", "2", "3", "A"]
@@ -33,6 +36,16 @@ assert contract["dispatch"]["fixed_percentages"] is False
 assert contract["durability_level"] == "OWNER_LOCAL_MANDATORY_CONTEXT_PLUS_MACHINE_TESTED_CONTRACT"
 assert contract["fleet_runner_interpretation_change"] == "NOT_CHANGED_IN_THIS_RUN"
 assert contract["standing_ledger"]["owner"] == "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION"
+assert contract["standing_ledger"]["accounting_ref"] == "lab/process/conditional-ledger-priority-decision-2026-08-07.json"
+assert contract["standing_ledger"]["immutable_row_record_count"] == 84
+assert contract["standing_ledger"]["active_canonical_target_count"] == 82
+assert contract["standing_ledger"]["historical_superseded_rows_excluded_from_active_meter"] == ["LT-GR2", "AC-G1"]
+assert contract["standing_ledger"]["active_verdict_counts"] == {
+    "SAME": 32,
+    "DIFFERS": 19,
+    "NEEDS": 26,
+    "OVER_DETERMINED": 5,
+}
 assert contract["channels"]["COMPOSE"]["cadence"]["after_material_build_outputs"] == 3
 assert contract["channels"]["SOURCE"]["return_codes"] == [
     "SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"
@@ -47,6 +60,65 @@ symplectic = contract["channels"]["VERIFY"]["conditional_specialist_lenses"]["SY
 assert "PHYSICAL_TRANSITION" in symplectic["trigger"]
 assert symplectic["forbidden_promotion"] == "UNREDUCED_DENSITY_IS_NOT_A_PHYSICAL_TRANSITION"
 
+assert priority["status"] == "RATIFIED_PLANNING_DECISION"
+assert priority["scientific_evidence"] is False
+assert priority["ledger_accounting"]["immutable_row_records"] == 84
+assert priority["ledger_accounting"]["active_canonical_targets"] == 82
+assert [item["row"] for item in priority["ledger_accounting"]["historical_superseded_records"]] == ["LT-GR2", "AC-G1"]
+assert priority["condorcet"]["winner"] == "B"
+assert priority["condorcet"]["winner_record"] == {"wins": 11, "losses": 0, "ties": 0}
+assert priority["condorcet"]["dependency_resolution"] == ["B", "C_PLUS_D_JOINT_GATE", "E"]
+assert priority["side_opportunity_condorcet"]["winner"] == "F"
+assert priority["accepted_sequence"]["disjoint_side"] == "F_D2_SOURCE_LOCUS_INDEX_SURVIVOR_ADJUDICATION"
+assert priority["gates"]["generic_carrier_search"] == "CLOSED__DO_NOT_REPEAT"
+assert len(priority["ballots"]) == 25
+candidate_ids = set(priority["candidates"])
+for ballot in priority["ballots"]:
+    ranking = list(ballot["ranking"])
+    assert ballot["own"] not in ranking
+    assert set(ranking) == candidate_ids - {ballot["own"]}
+    assert len(ranking) == len(set(ranking)) == 11
+    assert 0.0 <= ballot["own_idea_confidence"] <= 1.0
+
+pairwise = {}
+for left in sorted(candidate_ids):
+    pairwise[left] = {}
+    for right in sorted(candidate_ids - {left}):
+        left_votes = 0
+        right_votes = 0
+        for ballot in priority["ballots"]:
+            if ballot["own"] in {left, right}:
+                continue
+            ranking = ballot["ranking"]
+            if ranking.index(left) < ranking.index(right):
+                left_votes += 1
+            else:
+                right_votes += 1
+        pairwise[left][right] = (left_votes, right_votes)
+assert all(pairwise["B"][other][0] > pairwise["B"][other][1] for other in candidate_ids - {"B"})
+assert pairwise["B"]["C"] == (13, 4)
+assert pairwise["B"]["D"] == (14, 4)
+assert pairwise["B"]["E"] == (13, 7)
+assert pairwise["E"]["C"] == (11, 9)
+assert pairwise["D"]["E"] == (11, 10)
+assert pairwise["C"]["D"] == (13, 5)
+
+ledger = strict(ROOT / contract["standing_ledger"]["ref"])
+assert len(ledger["rows"]) == 84
+superseded = set(contract["standing_ledger"]["historical_superseded_rows_excluded_from_active_meter"])
+active_rows = [row for row in ledger["rows"] if row["id"] not in superseded]
+assert len(active_rows) == 82
+active_counts = {verdict: 0 for verdict in ["SAME", "DIFFERS", "NEEDS", "OVER_DETERMINED"]}
+for row in active_rows:
+    active_counts[row["verdict"]] += 1
+assert active_counts == contract["standing_ledger"]["active_verdict_counts"]
+assert active_counts == ledger["progress"]["verdict_counts"]
+assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
+assert "planning instrument" in priority_human
+assert "It is not mathematical" in priority_human
+assert "statistical evidence for GU" in priority_human
+assert "conditional-ledger-priority-decision-2026-08-07" in context_pack
+
 for ref in [
     "lab/process/functional-channel-operating-contract-v1.0.md",
     "lab/process/functional-channel-operating-contract-v1.0.json",
@@ -60,9 +132,11 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.39.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.39.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.39.md")
+current_ledger_ref = contract["standing_ledger"]["ref"]
+current_human_ref = contract["standing_ledger"]["human_ref"]
+assert current_ledger_ref in lanes
+assert current_human_ref in lanes
+assert tuple(map(int, current_ledger_ref.removesuffix(".json").rsplit("v", 1)[1].split("."))) >= (0, 49)
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -86,7 +160,31 @@ assert "N2_LOCAL_PRINCIPAL_GREEN_FLUX_RANK2_DEFINITE_GAUGE_DESCENDING" in contra
 assert "I2B_GAUSS_PROJECTED_RANK100_INERTIA54_46" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "ORTHOGONAL_CL2_LEAKAGE2_OVER39" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "FULL_CL2_TARGET_1274_BY_100_NNZ640" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "MASSLESS_HELICITY2" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "MASSIVE_SO3_SPIN2_DIM5_CASIMIR_MINUS6" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "RESTRICTED_SCALAR_1157_OVER3589_NOT_CHARACTERISTIC" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "V043_COVECTOR_SLOT_PROXY_RANK4_RETRACTED_AS_ACTION_TARGET" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "ACTUAL_INDEPENDENT_CONNECTION_LIFT_RANK3_KERNEL_E0" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "CONNECTION_ONLY_DUPSILON_WELD_IMPOSSIBLE_AT_CURRENT_PRINCIPAL_GRADE" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "SOURCE_NORMAL_JET_AND_TOTAL_METRIC_SECTION_DERIVATIVE_ON_E0_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "FULL_SELECTED_SHIAB_RANK1274_ISOMORPHISM" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "UNIQUE_SPLIT_PREIMAGES_FAIL_PRINCIPAL_BIANCHI" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "CL2_SOURCE8281_OUTPUT_GRADES1_5_TARGET_GRADE2_ZERO" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "DIRECT_GCR_AND_SINGLE_Q_OWNER_KILLED" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "FIXED_B_DB_T_SUPPORT28_PARTIAL_OWNER" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "NONZERO_T_STAR_CARTAN_SPENCER_UNRESTRICTED_CONNECTION_MAP_RANK1274_ISOMORPHISM" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "TRANSVERSE117_PREIMAGES_EXACT_SUPPORTS57_34_34_34_RANK4" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "SOURCE_OWNED_FULL_REDUCTION_PAIR_BASIC" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "AMBIENT_LABELLED_NULL_SCREEN_RANK12_SIGNATURE6_6" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "FULL_RAW_UPSILON_RESPONSE_DOMAIN1470_OUTPUT4330_RANK1470_NULLITY0_COKERNEL2860" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "UNIQUE_CONDITIONAL_ALL_GRADE_GRAPH" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "PRIMALIZED_ONEFORM_VS_DEGREE13_DENSITY_TYPED" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "PRINTED_XI_RANK0_REDUNDANCY" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "ACTION_OWNED_DEGREE14_EPSILON_COMPANION_EXACT" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "MOVING_COMPLETE_GERM_GREEN_EXACT" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -99,7 +197,8 @@ assert "include a symplectic-geometry lens" in human
 assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
-assert "Next-Run execution method, ratified by Joe on 2026-08-06" in human
+assert "Predecessor execution method, ratified by Joe on 2026-08-06" in human
+assert "Current execution method" in human
 assert "Randomized witnesses may locate blocks but never certify a null" in human
 assert "Only exact helicity two opens" in human
 assert "NEXT-RUN METHOD" in context_pack
@@ -119,38 +218,52 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__SELECTED_CL2_PULLBACK_COMPLETE_FULL_II_PLUS_TRACE__TOTAL_RESIDUAL_OTHER_GRADES_PRIMARY__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
-assert directive["source_return"] == "SOURCE-CONFIRMS_NORM_SQUARE__SOURCE_SILENT_ON_OWNER_MAP"
+assert "PRINCIPAL_CONNECTION_CLASS_QEXACT" in directive["status"]
+assert "NONZERO_BACKGROUND_CARTAN_SPENCER_RANK1274_TRANSVERSE117_CARRIER_OWNER" in directive["status"]
+assert "LEVI_CIVITA_SUBCLASS_QEXACT_TRANSVERSE_ZERO" in directive["status"]
+assert "SOURCE_VARPI_POINTWISE_TRANSVERSE117_LIFT_EXACT" in directive["status"]
+assert directive["source_return"] in {"SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"}
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "TYPE_AND_COMPUTE_TOTAL_RESIDUAL_OTHER_CLIFFORD_GRADE_SUPPORT_BEFORE_HIGHER_VARIATION"
-assert next_method["ordered_steps"] == [
-    "LAYER0_TYPE_SELECTED_BOSONIC_CL2_RESIDUAL_VERSUS_TOTAL_BOSONIC_PLUS_FERMIONIC_RESIDUAL",
-    "ENUMERATE_OTHER_CLIFFORD_GRADE_BLOCKS_AND_OBSERVER_STABILIZER_TYPES",
-    "PROVE_TYPE_FORCED_ZERO_BLOCKS_WITHOUT_REUSING_THE_KILLED_FULL_SPIN_SCALAR_SHORTCUT",
-    "ASSEMBLE_ANY_SURVIVING_OTHER_GRADE_BLOCKS_WITH_SPARSE_EXACT_ARITHMETIC",
-    "COMPOSE_WITH_THE_COMPLETE_SELECTED_CL2_PULLBACK_AND_RECOMPUTE_THE_TOTAL_QUADRATIC_INVARIANT_SPAN",
-    "ONLY_IF_CARRIER_TYPE_SURVIVES_DERIVE_EULER_PREBOUNDARY_AND_NULL_LITTLE_GROUP_HELICITY",
-    "ONLY_IF_HELICITY_TWO_SURVIVES_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV",
-]
+assert next_method["target"] == "CONSTRUCT_ONE_COMMON_BULK_GREEN_KREIN_DOMAIN_PRESERVING_H7_HMINUS7_PHYSICAL_AND_H8_HMINUS8_GAUGE_GHOST_TRACES_ON_THE_RELATIVE_EDGE_BITORSOR__THEN_COUPLE_BULK_BV_TO_BOUNDARY_BFV__KEEP_PHYSICAL_HORN_OPEN"
+assert "PRESERVE_THE_PRINCIPAL_CONNECTION_Q_EXACT_CLASS_AND_THE_UNRESTRICTED_CARTAN_SPENCER_TRANSVERSE117_CARRIER_OWNER" in next_method["ordered_steps"]
+assert "PRESERVE_SELECTED_FA_STAR_T_STAR_AND_THE_ZERO_INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET" in next_method["ordered_steps"]
+assert "PRESERVE_THE_LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in next_method["ordered_steps"]
+assert "PRESERVE_SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in next_method["ordered_steps"]
+assert "PRESERVE_SOURCE_OWNED_FULL_REDUCTION_PAIR_BASICNESS_AND_HORIZONTAL_PLANE_FORGETFUL_FAILURE__COUNT_NO_TRANSPORT_SURPLUS" in next_method["ordered_steps"]
+assert "PRESERVE_SPENCER_UNIQUENESS_AND_KILLED_INVARIANT_REPLACEMENT__RETAIN_GAMMA_EPSILON_THROUGH_VARIATION" in next_method["ordered_steps"]
+assert "PRESERVE_FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS__DO_NOT_REDUCE_TO_ODD_CURVATURE_ONLY" in next_method["ordered_steps"]
+assert "PRESERVE_LABELLED_AMBIENT_NULL_SCREEN_RANK12_SIGNATURE6_6__DO_NOT_IDENTIFY_WITH_4D_10_TO_6_TO_2_PHYSICAL_QUOTIENT" in next_method["ordered_steps"]
+assert "PRESERVE_THE_UNIQUE_FULL_RAW_UPSILON_RESPONSE_INVERSE_ON_DOMAIN1470_OUTPUT_SUPPORT4330_RANK1470_NULLITY0__DO_NOT_RESTORE_OLD_CURVATURE_ONLY_LIFTS" in next_method["ordered_steps"]
+assert "PRESERVE_THE_CONDITIONAL_MINUS_J2D_TARGET_AS_SOURCE_SILENT__DO_NOT_PROMOTE_GRAPH_INVERSION_TO_TARGET_DERIVATION" in next_method["ordered_steps"]
+assert "PRESERVE_THE_EXACT_LABELLED_NULL_GRAPH_RANK1470_OUTPUT6530_AND_Q_DIRECTION_CONORMAL_PROLONGATION__DO_NOT_FREEZE_THE_NONNULL_GRAPH" in next_method["ordered_steps"]
+assert "PRESERVE_THE_RANK650_SOURCE_PRINCIPAL_SYMBOL_AS_BOUNDARY_SENSITIVITY__DO_NOT_CALL_IT_A_GREEN_OR_SYMPLECTIC_CURRENT" in next_method["ordered_steps"]
+assert "PRESERVE_PRIMALIZED_DEGREE1_GRAPH_VERSUS_SOURCE_DEGREE13_UPSILON_DENSITY__DEPRIMALIZE_BEFORE_D__DERIVE_ACTION_OWNED_DEGREE14_COMPANION" in next_method["ordered_steps"]
+assert "PRESERVE_ACTION_OWNED_DEGREE14_COMPANION_FROM_EB_MINUS_ET_PLUS_MOVING_SHIAB__DO_NOT_RESTORE_PRINTED_XI" in next_method["ordered_steps"]
+assert "PRESERVE_MOVING_COMPLETE_GERM_TARGET_SECTION_PRIMALIZER_EULER_GREEN_IDENTITY__DO_NOT_SUBSTITUTE_ORDINARY_PULLBACK" in next_method["ordered_steps"]
 assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
 assert next_method["mandatory_reviews"] == [
-    "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_PDE",
-    "SYMPLECTIC_GEOMETRY", "KREIN_OPERATOR_THEORY", "SOURCE_CRITICISM",
+    "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_BICOMPLEX",
+    "MICROLOCAL_PDE_AND_HYPERBOLICITY", "SYMPLECTIC_GEOMETRY",
+    "KREIN_OPERATOR_THEORY", "COMPLEX_ANALYTIC_AND_PATH_INTEGRAL_CONTOUR",
+    "SOURCE_CRITICISM",
 ]
-assert "NO_GLOBAL_DOMAIN_CAMPAIGN_BEFORE_EXACT_HELICITY_TWO" in next_method["stop_conditions"]
-assert "SOURCE_REINSPECT_WHETHER_WEINSTEIN_TYPES_THE_SECOND_LAYER_AS_BOSONIC_OR_TOTAL_RESIDUAL_BY_GRADE" in next_method["parallel_source_compose"]
+assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
+assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
+assert "SOURCE_CONFIRMS_T_EQUALS_VARPI_MINUS_ROTATED_BLC_AND_EPSILON_GAMMA_FRAME_CARRIERS__SOURCE_SILENT_ON_COMPLETE_MOVING_OPERATOR_PHYSICAL_DIFFEO_SOLDERING_PAIRING_AND_PHYSICAL_COMPLEX__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "COMPOSE_UPDATE_ONLY_IF_A_ROW_DISTANCE_OR_HIGH_FANOUT_PREMISE_CHANGES" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "TYPE_AND_COMPUTE_TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT" in directive["next_gate"]
-assert "COMPLETE_TOTAL_RESIDUAL_QUADRATIC" in directive["next_gate"]
-assert "CUBIC_EULER_PREBOUNDARY_HELICITY" in directive["next_gate"]
-assert "COMMON_DOMAIN" in directive["next_gate"]
-assert "ODD_BV_BFV" in directive["next_gate"]
-assert "ONLY_IF_HELICITY2_SURVIVES" in directive["next_gate"]
+assert "LOCATE_RADIAL_SCALAR_COEFFICIENT_IN_FULL_U64_64_OR_TWO_U32_32_VARPI" in directive["next_gate"]
+assert "DERIVE_OBSERVED_DOUBLET_KINETIC_POTENTIAL_YUKAWA_AND_STATIONARY_NONZERO_AMPLITUDE" in directive["next_gate"]
+assert "K77_PRIMALIZED_GRAPH_TARGET_DEGREE1" in directive["latest_correction_evidence"]
+assert "PRINTED_XI_RANK0_REDUNDANCY" in directive["latest_correction_evidence"]
+assert "ACTION_OWNED_DEGREE14_EPSILON_COMPANION_EXACT" in directive["latest_correction_evidence"]
+assert "MOVING_COMPLETE_GERM_RECEIVER_RANK45" in directive["latest_correction_evidence"]
+assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
 assert "FIXED_CONSTANT_SCALAR_BACKGROUND_SELECTED_ACTION_TT_HESSIAN_HAS_UNIQUE_POSITIVE_SPECTRAL_C" in directive["current_evidence_boundary"]
@@ -176,9 +289,11 @@ assert "N2_HELICITY1_NOT_SPIN2" in directive["current_evidence_boundary"]
 assert "N2_LOCAL_GREEN_FLUX_LIVE" in directive["current_evidence_boundary"]
 assert "I2B_GAUSS_PROJECTED_COMPONENT_EXACT" in directive["current_evidence_boundary"]
 assert "FULL_RESIDUAL_LEAKAGE_LIVE" in directive["current_evidence_boundary"]
-assert "FULL_1274_BY_100_RESIDUAL_TARGET_PRIMARY" in directive["current_evidence_boundary"]
+assert "FULL_1274_BY_100_RESIDUAL_TARGET_COMPLETE" in directive["current_evidence_boundary"]
 assert "FULL_CL2_TARGET_1274_BY_100_RANK100_NNZ640" in directive["current_full_cl2_evidence"]
-assert "TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT_PRIMARY" in directive["current_full_cl2_evidence"]
+assert "MASSLESS_HELICITY2" in directive["current_full_cl2_evidence"]
+assert "MASSIVE_SO3_SPIN2_DIM5_CASIMIR_MINUS6" in directive["current_full_cl2_evidence"]
+assert "SPIN0_POLYNOMIAL_OPEN" in directive["current_full_cl2_evidence"]
 assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in directive["latest_build_evidence"]
 assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in directive["latest_build_evidence"]
@@ -212,6 +327,31 @@ assert "I2B_GAUSS_INSERTION_ISOMETRY_RANK100" in directive["latest_build_evidenc
 assert "GAUSS_PROJECTED_INERTIA54_46" in directive["latest_build_evidence"]
 assert "ORTHOGONAL_CL2_LEAKAGE2_OVER39" in directive["latest_build_evidence"]
 assert "I2B_GAUSS_WRONG_TYPE" in directive["latest_build_evidence"]
+assert "TT_MASS2_1922_OVER3589" in directive["latest_build_evidence"]
+assert "MASSLESS_HELICITY2" in directive["latest_build_evidence"]
+assert "MASSIVE_SO3_SPIN2_DIM5_CASIMIR_MINUS6" in directive["latest_build_evidence"]
+assert "TT_PREBOUNDARY_NONZERO" in directive["latest_build_evidence"]
+assert "BACKGROUND_SUBTRACTED_OFF_TT_SPIN0_AND_MASSLESS_CONSTRAINT_COMPLEX_OPEN" in directive["latest_build_evidence"]
+assert "V043_PROXY_WELD_VALID_ONLY_ON_COVECTOR_SLOT_CARRIER" in directive["latest_build_evidence"]
+assert "ACTUAL_INDEPENDENT_CONNECTION_LIFT_RANK3_KERNEL_E0" in directive["latest_build_evidence"]
+assert "METRIC_WARD_LOAD_NONZERO_ON_E0" in directive["latest_build_evidence"]
+assert "CONNECTION_ONLY_WELD_IMPOSSIBLE" in directive["latest_build_evidence"]
+assert "INDEPENDENT_OBSERVATION_COLUMN_REJECTED" in directive["latest_build_evidence"]
+assert "SOURCE_NORMAL_JET_TOTAL_METRIC_SECTION_DERIVATIVE_OPEN" in directive["latest_build_evidence"]
+assert "FULL_SELECTED_SHIAB_RANK1274_ISOMORPHISM" in directive["latest_build_evidence"]
+assert "PRINCIPAL_BIANCHI_RANKS14_14_14_14" in directive["latest_build_evidence"]
+assert "SPLIT_JET_IDENTIFICATION_REJECTED" in directive["latest_build_evidence"]
+assert "CL2_SOURCE8281_OUTPUT_GRADES1_5_TARGET_GRADE2_ZERO" in directive["latest_build_evidence"]
+assert "DIRECT_GCR_AND_SINGLE_Q_OWNER_KILLED" in directive["latest_build_evidence"]
+assert "ODD_SOURCE_OWNER_PRIMARY" in directive["latest_build_evidence"]
+assert "NONZERO_T_STAR_CARTAN_SPENCER_RANK1274_ISOMORPHISM" in directive["latest_build_evidence"]
+assert "TRANSVERSE117_PREIMAGES_SUPPORTS57_34_34_34_RANK4" in directive["latest_build_evidence"]
+assert "LEVI_CIVITA_SUBCLASS_QEXACT_TRANSVERSE_ZERO" in directive["latest_build_evidence"]
+assert "ODD_CL1_SUPPORTS_7_7_7_7_TOTAL28" in directive["latest_nonnull_koszul_evidence"]
+assert "ODD_CL1_TRANSVERSE_SUPPORTS_51_22_22_22_TOTAL117" in directive["latest_nonnull_koszul_evidence"]
+assert "CL2_SOURCE8281_NONZERO_OUTPUT_GRADES1_5_TARGET_GRADE2_ZERO" in directive["latest_nonnull_koszul_evidence"]
+assert "SINGLE_Q_CONTRACTION_RANK13_CANNOT_SUPPLY_Q_COMPONENT" in directive["latest_nonnull_koszul_evidence"]
+assert "NULL_AUXILIARY_SCREEN_DEPENDENT" in directive["latest_nonnull_koszul_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -251,4 +391,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.39 ledger preserve predecessor theorems, retain the N2 helicity-one kill, close the selected Cl2 pullback, and route total-residual other-grade support without residue or quotient promotion")
+print("PASS: functional channels type 84 immutable records versus 82 active targets and route the typed graph -> action-owned degree-14 companion and moving-observation Green identity with D2 disjoint")

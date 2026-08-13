@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "status": "TWO_ENDPOINT_COTANGENT_DRESSING_EXACT__SINGLE_HOLONOMY_RETAINS_ONLY_GAUSS_DIAGONAL_HALF__CONTINUUM_ENDPOINT_OWNER_OPEN",
+  "created": "2026-08-08",
+  "lane": "1",
+  "functional_channels": [
+    "BUILD",
+    "COMPOSE",
+    "SOURCE",
+    "VERIFY"
+  ],
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR3",
+    "LT-GR5",
+    "LT-GR6"
+  ],
+  "source_return": "SOURCE-CONFIRMS__K77_P_H_AND_TWO_SIDED_TILTED_ACTION__SOURCE-SILENT__EPSILON_BOUNDARY_BFV_OWNERSHIP",
+  "layer0": {
+    "k77_group_owner": "P_H_EQUALS_SPIN_C_EXTENDED_TO_U64_64__CONSTRUCTED",
+    "k95_sp32_32_h": "INCOMPATIBLE_HORN__NOT_IMPORTED",
+    "connection_holonomy": "GROUP_ELEMENT_WITH_SOURCE_TARGET_ACTION",
+    "continuum_endpoint_evaluations": "TWO_INDEPENDENT_BOUNDARY_COPIES__NOT_ONE_HOLONOMY",
+    "source_epsilon": "GROUP_VALUED_FIELD__BOUNDARY_BFV_OWNERSHIP_NOT_ESTABLISHED",
+    "single_holonomy_momentum": "GAUSS_DIAGONAL_P0_EQUALS_P2",
+    "full_v070_momenta": "P0_AND_P2_INDEPENDENT_BEFORE_FURTHER_CONSTRAINT",
+    "nondegenerate_symplectic": "NOT_POSITIVE_HILBERT_OR_KREIN_MAJORANT"
+  },
+  "preregistered_endings": {
+    "K77_TWO_ENDPOINT_COTANGENT_DRESSING_EXACT__V070_LINEARIZATION_RECOVERED__EPSILON_BOUNDARY_OWNERSHIP_OPEN": "DID_NOT_FIRE__FULL_V070_RECOVERY_FAILS",
+    "TWO_ENDPOINT_FORM_NONBASIC_OR_DEGENERATE": "DID_NOT_FIRE",
+    "V070_TWO_ENDPOINT_LINEARIZATION_NOT_RECOVERED": "FIRED__SINGLE_HOLONOMY_RETAINS_GAUSS_DIAGONAL_HALF_ONLY",
+    "K77_GROUP_OWNER_UNSETTLED": "DID_NOT_FIRE",
+    "SOURCE_EPSILON_OWNS_BOUNDARY_EDGE_FIELDS": "DID_NOT_FIRE__SOURCE_AND_ACTION_SILENT"
+  },
+  "exact_result": {
+    "matrix_group_category": "U64_64_SPECIALIZATION_OF_UNIVERSAL_MATRIX_IDENTITY",
+    "exact_fixture": "NONCOMMUTING_GL2_Q_SOURCE_TARGET_ACTION",
+    "extended_dimension": 16,
+    "dressed_map_rank": 8,
+    "pulled_back_twoform_rank": 8,
+    "characteristic_kernel_dimension": 8,
+    "source_target_gauge_orbit_rank": 8,
+    "kernel_equals_gauge_orbit": true,
+    "quotient_dimension": 8,
+    "quotient_symplectic_rank": 8,
+    "identity_linearization": "DQ_EQUALS_DQ3_MINUS_DQ0",
+    "v070_momentum_match": "P0_EQUALS_P2_EQUALS_MINUS_P",
+    "v070_ten_normal_dimension_rank": "40_40",
+    "single_holonomy_ten_normal_dimension_rank": "20_20",
+    "full_v070_recovery": false,
+    "independent_sage_qq_replay": "PASS"
+  },
+  "construction_disposition": {
+    "k77_principal_group_owner": "EXACT_AT_GLOBAL_CHIMERIC_SPIN_EXTENSION_GRADE",
+    "two_endpoint_cotangent_dressing": "EXACT_AND_BASIC",
+    "single_holonomy_as_full_v070_globalization": "KILLED_BY_40_TO_20_RANK_AND_MOMENTUM_FENCE",
+    "two_continuum_endpoint_evaluation_map": "OPEN",
+    "primitive_epsilon_preboundary_owner": "OPEN",
+    "direct_sum_k77_endpoint_dressing": "OPEN_PENDING_ACTION_OWNER",
+    "full_tau_a0_bfv_common_domain": "OPEN"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_accounting": {
+    "new_bulk_fields": 0,
+    "new_boundary_fields_selected": 0,
+    "new_continuous_coefficients": 0,
+    "new_scoped_quotients": 0,
+    "single_holonomy_full_v070_bridge": false
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "program_fences": {
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane": "NOT_PROMOTED",
+    "claim_status_change": "NONE",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "ACTION_DERIVE_TWO_CONTINUUM_ENDPOINT_EVALUATIONS_AND_PRIMITIVE_EPSILON_PREBOUNDARY_PAIR__THEN_DIRECT_SUM_K77_DRESSING_WITHOUT_HOLONOMY_COMPRESSION__THEN_FULL_TAU_A0_BFV_COMMON_DOMAIN"
+}

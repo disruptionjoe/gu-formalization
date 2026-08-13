@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-040306-gu-tautological-trace-q-ownership",
+  "status": "EXACT_TAUTOLOGICAL_TRACE_Q_OWNERSHIP_OF_TWO_HALF_HERMITIAN_INPUT__ACTION_COMPATIBILITY_OPEN",
+  "target_claim": "NONE-NOT-A-KILL",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.194",
+  "ledger_rows": ["AC-G1a", "AC-F1", "RA-E3", "RA-F2", "RA-G2", "LT-SM3"],
+  "result": {
+    "checks": 50,
+    "failures": 0,
+    "trace_g_dewitt_norm": -4,
+    "trace_q_dewitt_norm": -1,
+    "trace_q_location": "NORMAL_TEN_PLANE",
+    "full_Hq_signature": [64, 64],
+    "weyl_plus_Hq_signature": [32, 32],
+    "weyl_minus_Hq_signature": [32, 32],
+    "full_fixed_trace_q_stabilizer_dimension": 78,
+    "base_stabilizer_dimension": 6,
+    "normal_stabilizer_dimension": 36,
+    "split_fixed_trace_q_stabilizer_dimension": 42,
+    "J4_Hq_relation": "ANTI_ISOMETRY",
+    "J10_Hq_relation": "ANTI_ISOMETRY",
+    "moving_trace_q_naturality_exact": true,
+    "q_selected_by_geometry": true,
+    "q_new_datum_cost": 0,
+    "P1_used": false,
+    "operative_action_parent": "OPEN",
+    "physical_block_identification": "OPEN"
+  },
+  "controls": {
+    "zero_q_rejected": true,
+    "frozen_q_frame_move_rejected": true,
+    "base_axis_J10_transfer_rejected": true,
+    "base_axis_stabilizer_transfer_rejected": true
+  },
+  "source_return": "SOURCE_CONFIRMS_TRACE_REVERSAL_AND_DISTINGUISHED_METRIC_FIBRE_DIRECTION__SOURCE_SILENT_ON_HQ_ACTION_PARENT_AND_PHYSICAL_BLOCK",
+  "hostile_review": "SURVIVES_AFTER_MATERIAL_REPAIR__TRACE_Q_OWNS_HQ_INPUT_WITH_ZERO_DATUM__NORMAL_SYMMETRY_AND_ACTION_COMPATIBILITY_OPEN",
+  "mailbox_postflight": "NO_NEW_GU_FORMALIZATION_SCIENTIFIC_ITEM_AFTER_2026_08_12T030000Z__ONE_DRAFTING_FACTORY_ARTICLE_SEED_IS_OUT_OF_SCOPE_AND_NONDISPLACING",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 4
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "retired_unbooked_q_orbit_dimension": 13,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "CONSTRUCT_OR_KILL_DVARPI_HQ_ZERO_FOR_TRACE_OWNED_HQ__DECOMPOSE_VARPI_UNDER_SPIN13_X_STAB_NORMAL_Q__TEST_INTERNAL_CHAIN_COMPATIBILITY__REQUIRE_ACTION_OWNED_OBSERVED_SCALAR_DOUBLET_KINETIC_POTENTIAL_YUKAWA_SURPLUS"
+}

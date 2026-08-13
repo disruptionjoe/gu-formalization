@@ -1,0 +1,42 @@
+{
+  "artifact_type": "construction_registry",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-221700-gu-k77-high-conviction-receiver-completion",
+  "status": "EXACT_CONDITIONAL_RESULT",
+  "predecessor": "selected-k77-gamma-trace-graph-dynamics-gate.json",
+  "field": "GF(1000033)",
+  "checks": {
+    "new": 29,
+    "new_failures": 0,
+    "predecessor_replayed": true,
+    "predecessor_checks": 39
+  },
+  "council_synthesis": {
+    "broad_convergence": {
+      "proposal": "test action Green current and receiver closure before BV/domain",
+      "disposition": "COMPLETED_BY_V0_158",
+      "effect": "prevented BV construction on a nonclosed standalone graph"
+    },
+    "high_confidence_outliers": [
+      {"lens": "SOURCE_GEOMETRY", "confidence": "HIGH", "mode": "ACTUAL_MATH_PLUS_SOURCE_ADMISSION", "proposal": "PORT_ADMITTED_SOUTHEAST_FAMILY", "disposition": "SELECTED__NATURAL_K77_PORT_KILLED"},
+      {"lens": "SYMPLECTIC_VARIATIONAL", "confidence": "HIGH", "mode": "ACTUAL_MATH", "proposal": "SMALLEST_ACTION_DUAL_RECEIVER_HULL", "disposition": "SELECTED__RANK_AND_OWNERSHIP_COST_FOUND"},
+      {"lens": "HOMOLOGICAL_BV", "confidence": "HIGH", "mode": "ACTUAL_MATH", "proposal": "IDENTIFY_LEAK_WITH_NATURAL_GAUGE_IMAGE", "disposition": "SELECTED__NULL_HALF_OVERLAP_ONLY"},
+      {"lens": "GLOBAL_ANALYTIC", "confidence": "HIGH", "mode": "ACTUAL_MATH", "proposal": "CLOSED_KREIN_GREEN_DOMAIN", "disposition": "DEFERRED", "revival_trigger": "FINITE_ACTION_DUAL_RECEIVER_COMPLETION"},
+      {"lens": "REPRESENTATION_PHYSICS", "confidence": "MEDIUM", "mode": "ACTUAL_MATH", "proposal": "OBSERVED_PARTICLE_BRANCHING", "disposition": "DEFERRED", "revival_trigger": "RECEIVER_BV_DOMAIN_CLOSURE"}
+    ]
+  },
+  "rank_fingerprint_each_pin": {
+    "timelike": {"leak": 128, "southeast_span": 128, "leak_southeast_join": 256, "leak_southeast_intersection": 0, "gauge_span": 128, "leak_gauge_join": 256, "leak_gauge_intersection": 0, "symbol_on_gauge": 128},
+    "spacelike": {"leak": 128, "southeast_span": 128, "leak_southeast_join": 256, "leak_southeast_intersection": 0, "gauge_span": 128, "leak_gauge_join": 256, "leak_gauge_intersection": 0, "symbol_on_gauge": 128},
+    "null": {"leak": 128, "southeast_span": 64, "leak_southeast_join": 192, "leak_southeast_intersection": 0, "gauge_span": 128, "leak_gauge_join": 192, "leak_gauge_intersection": 64, "symbol_on_gauge": 0}
+  },
+  "minimal_receiver": {"old_rank": 128, "new_rank": 256, "added_equations": 128, "required_paired_left_fields": 128, "source_owned": false},
+  "k95_tied_minus_11_over_12_residual_rank": 128,
+  "disposition": "K95_STYLE_SOUTHEAST_PORT_KILLED_ON_CURRENT_K77_GRAPH__NATURAL_GAUGE_IMAGE_COVERS_ONLY_NULL_HALF_LEAK__MINIMAL_RECEIVER_HULL_TAUTOLOGICAL_BUT_UNOWNED_PLUS128_EQUATIONS_AND_PAIRED_FIELDS",
+  "source_return": "SOURCE_CONFIRMS_NONZERO_SOUTHEAST_CLASS_EXISTS__SOURCE_CORRECTS_ZERO_IS_NOT_UNIVERSAL__SOURCE_SILENT_ON_COEFFICIENT_K77_PORT_PAIRED_RECEIVER_HULL_GAUGE_BV_DIFFERENTIAL_AND_DOMAIN",
+  "next_gate": "CONSTRUCT_OR_KILL_SOURCE_OWNED_PAIRED_256_FIELD_ACTION_HULL_OR_RETURN_FROM_GRAPH_ROUTE_TO_UNRESTRICTED_SOURCE_OPERATOR__NO_ARBITRARY_RECEIVER_PROJECTOR",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "p1_p2_p3": "UNCHANGED_UNUSED"
+}

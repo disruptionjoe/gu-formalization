@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "BOTH_BRANCHES_POINTWISE_STATIONARY_FOR_SPIN_BLOCK_AND_FULL_U_PARENTS__PARENT_SELECTION_GLOBAL_TANGENT_AMPLITUDE_OPEN",
+  "ledger_version": "0.112",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_TWO_C32_32_WEYL_HALVES_AND_SEPARATE_U64_64_PRINCIPAL_GROUP__SOURCE_SILENT_OPERATIVE_RESIDUAL_ACTION_PARENT_AND_GLOBAL_TANGENT",
+  "layer0": {
+    "selected_spin_native": "CONDITIONAL_TRUNCATED_PARENT",
+    "two_U32_32_halves": "BLOCK_PRESERVING_EVEN_INTERNAL_TANGENT",
+    "full_U64_64": "EVEN_PLUS_HALF_EXCHANGING_ODD_INTERNAL_TANGENT",
+    "pointwise_fibre": "NOT_GLOBAL_ADJOINT_BUNDLE_OR_FUNCTIONAL_TANGENT",
+    "compatibility": "NOT_PARENT_SELECTION",
+    "endpoint_momentum": "NOT_BULK_EULER_FAILURE"
+  },
+  "exact_result": {
+    "full_real_internal_dimension": 16384,
+    "block_even_dimension": 8192,
+    "half_exchanging_odd_dimension": 8192,
+    "varpi_pointwise_direction_count": 229376,
+    "E_T_support_count": 14,
+    "E_T_support_grade": 1,
+    "E_T_polynomial": "(312*(b+t)^2+t)*Trace_Cl1",
+    "both_branches_full_varpi_zero": true,
+    "both_branches_full_epsilon_bulk_zero": true,
+    "both_branches_endpoint_momentum_nonzero": true,
+    "generic_grade5_support": 476,
+    "parent_selected": false,
+    "functional_tangent_complete": false
+  },
+  "controls": {
+    "primary": "34/34 PASS",
+    "independent_sage": "20/20 PASS",
+    "generic_grade5_nonvacuity": "FIRED",
+    "frozen_moving_factor": "REJECTED_BY_INDEPENDENT_CONTROL",
+    "parent_collapse": "REJECTED",
+    "P1_P2_P3_unused": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 3
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "next_gate": "COMPOSE_NONZERO_BRANCH_ENDPOINT_MOMENTUM_WITH_CHARGED_BARE_GAUGE_AND_MINIMAL_EDGE_BOUNDARY_HORNS__CLASSIFY_AMPLITUDE__KEEP_PARENT_SELECTION_SEPARATE"
+}

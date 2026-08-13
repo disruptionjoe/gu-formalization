@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260811-182311-gu-k77-energy-green-boundary-horn-composition",
+  "branch": "CONDITIONAL_REAL_K77_SELECTED_SPIN_OBSERVED_FLAT_1_PLUS_3",
+  "checks": {
+    "total": 45,
+    "failures": 0,
+    "planted": 4
+  },
+  "exact_primes": [1009, 1013],
+  "carrier_rank": 1920,
+  "incoming_rank": 960,
+  "outgoing_rank": 960,
+  "one_sided_independent_dual_restriction_ranks": {
+    "symmetric_anti_adjoint": 960,
+    "skew_self_adjoint": 960
+  },
+  "doubled_majorana_green_restriction_ranks": {
+    "symmetric_anti_adjoint": 0,
+    "skew_self_adjoint": 0
+  },
+  "wrong_pairing_incoming_ranks": [832, 832],
+  "outcome": "BOTH_DOUBLED_MAJORANA_HORNS_ARE_ISOTROPIC_ON_THE_INCOMING_ENERGY_HALF",
+  "layer0_correction": "ONE_SIDED_P_DN_IS_THE_INDEPENDENT_DUAL_OBJECT__PHYSICAL_REALITY_REDUCTION_REQUIRES_THE_DOUBLED_GRAPH_PULLBACK_P_TRANSPOSE_DN_PLUS_DN_TRANSPOSE_P",
+  "analytic_status": "LOCAL_FLAT_FINITE_PRINCIPAL_COMPATIBILITY_ONLY__VARIABLE_GLOBAL_TRANSPORT_AND_ACTION_OWNERSHIP_OPEN",
+  "source_return": "SOURCE_CONFIRMS_INDEPENDENT_FIELDS_AND_PARENT_ARENA__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_INCOMING_ENERGY_ACTION_GREEN_COMMON_DOMAIN_AND_HORN_SELECTION",
+  "selection": "BOTH_HORNS_PASS__NO_HORN_OR_P_SELECTION",
+  "p1_p2_p3_used": false,
+  "verdict_change": false,
+  "booked_residue_change": false,
+  "quotient_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "next_gate": "GLOBALIZE_THE_COMMON_DOUBLED_MAJORANA_INCOMING_RELATION_TO_THE_VARIABLE_COEFFICIENT_OBSERVED_SYSTEM_AND_TEST_ACTION_OWNERSHIP_OR_TRANSPORT_OF_ITS_PROJECTOR__KEEP_NULL_BFV_AMBIENT_Y14_HORN_P_AND_PHYSICAL_COHOMOLOGY_SEPARATE"
+}

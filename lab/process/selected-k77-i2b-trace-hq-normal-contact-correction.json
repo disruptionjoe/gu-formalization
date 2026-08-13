@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-12",
+  "run_id": "RUN-20260812-205425-gu-i2b-trace-hq-contact-correction",
+  "predecessor": "lab/process/selected-k77-i2b-source-normal-jet-reconciliation.json",
+  "checks": {"total": 46, "planted_or_control": 5, "failures": 0},
+  "carrier": {
+    "primary": "C32_32_PLUS_HALF_DIRECT_SUM_C32_32_MINUS_HALF",
+    "block_subgroup": "U32_32_X_U32_32",
+    "full_parent": "U64_64",
+    "contact_location": "EVEN_GRADE_BLOCK_PRESERVING",
+    "h_homonym": "HERMITIAN_HQ_DISTINCT_FROM_GENERATION_HMINUS_EQUALS_X_OF_SPLUS"
+  },
+  "real_form_comparison": {
+    "b_skew_rank_per_normal": 8,
+    "observer_hu_rank_per_normal": 10,
+    "trace_hq_rank_per_normal": 12
+  },
+  "live_contact": {
+    "response_dimension": 16,
+    "normal_dimension": 10,
+    "total_dimension": 160,
+    "trace_hq_rank": 120,
+    "cokernel_rank": 40,
+    "cokernel_per_normal": 4,
+    "fixed_observer_so3": "FOUR_TRIVIAL_COKERNEL_COPIES",
+    "full_stabilizer_closure": "REFUTED_ON_SIXTEEN_RESPONSE_TRUNCATION"
+  },
+  "v0219_scalar_completion": "POINTWISE_TRACE_HQ_SOURCE_REALIZABLE__ON_SHELL_VALUE_OPEN",
+  "recurring_rank128_defect": "IDENTIFICATION_REFUTED_BY_DIMENSION_AND_CARRIER_TYPE",
+  "accounting": "UNCHANGED__FIELD_GERM_NOT_BOOKED_AS_DATUM_OR_PARAMETER__P1_P2_P3_UNUSED",
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_AUGMENTED_TORSION_AND_TWO_C32_32_CARRIER_HALVES__SOURCE_SILENT_TRACE_HQ_EMBEDDING_AND_ON_SHELL_GERM__REPO_PRIOR_ART_CORRECTS_REAL_FORM",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "COUPLED_EULER_NORMAL_PROLONGATION_ON_STATIONARY_TRACE_HQ_BACKGROUND__THEN_CONTACT_DISCRIMINANT_AND_FULL_STABILIZER_ORBIT"
+}

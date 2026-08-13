@@ -161,7 +161,7 @@ grade -- with the reopening conditions named in rows 7/9/13.
 - Story-shopping guard: *"treating that smell as a verdict would be story-shopping and stays
   blocked"* (:108-109); *"nothing licenses replacing -42 in canon, and nothing licenses extending
   A's 2-primary verdict to B"* (:124-125).
-- Transcript (verified at file lines this session): [00:41:48] L140 *"Vela Zwanziger says that if
+- Transcript (verified at file lines this session): [00:41:48] L140 *"Velo-Zwanziger says that if
   you have spin three halves matter that is coupled..."*; [00:46:02] L158 *"We will never find
   space time Susie... because the mass is actually a variable"*; [00:39:18] L127-128 (the plus-sign
   product rule); [00:40:27] L131 (the flipped-chiral 16).

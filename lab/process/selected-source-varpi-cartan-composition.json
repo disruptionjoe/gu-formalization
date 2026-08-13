@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "SOURCE_NATIVE_POINTWISE_VARPI_LIFT_EXACT__SOURCE_SELECTION_AND_GLOBAL_SPENCER_EULER_OPEN",
+  "source_return": "SOURCE-CONFIRMS__FIXED_EPSILON_VARPI_TRANSLATION_AND_ENDPOINT_FA__SOURCE-CORRECTS__VARPI_TANGENT_IS_DELTA_T_DELTA_A_NOT_DELTA_B__SOURCE-SILENT__COVARIANT_GRAPH_LIFT_GLOBAL_INTEGRABILITY_AND_EULER_DESCENT",
+  "predecessor": "lab/process/selected-nonzero-background-cartan-spencer-owner.json",
+  "layer_zero": {
+    "fixed_epsilon_translation": "delta B=0; delta T=alpha; delta A=alpha",
+    "tilted_epsilon_graph": "delta B=D_B zeta; delta T=-D_B zeta; delta A=0",
+    "cartan_owner": "[T_star,alpha] in delta F_A",
+    "kept_distinct": "pointwise source tangent; covariant graph morphism; first-action Euler tangent"
+  },
+  "exact_result": {
+    "selected_background": "T_star=-(kappa_1/312)Phi1 with kappa_1 nonzero",
+    "transverse_support_matched": 117,
+    "local_lift_supports": [57, 34, 34, 34],
+    "local_lift_family_rank": 4,
+    "local_coefficient_freedom_at_fixed_background": 0,
+    "tilted_endpoint_tangent_rank": 0
+  },
+  "next_gate": "CONSTRUCT_COVARIANT_FOUR_COLUMN_GRAPH_MORPHISM__COUNT_CONSTRAINT_SURPLUS__TEST_SPENCER_ATLAS_INTEGRABILITY__THEN_SURVIVOR_ONLY_EULER_PREBOUNDARY",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 0, "remaining_named_conditions": 3},
+  "rerun": "35/35 PASS"
+}

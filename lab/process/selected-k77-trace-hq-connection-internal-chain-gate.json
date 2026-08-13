@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-043842-gu-trace-hq-connection-internal-chain",
+  "status": "EXACT_SPLIT_SPIN_TRACE_HQ_COMPATIBILITY__FROZEN_Q_DIRECT_INTERNAL_CHAIN_INSUFFICIENT__MOVING_FULL_UNITARY_ROUTE_OPEN",
+  "target_claim": "NONE-NOT-A-KILL",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_version": "0.195",
+  "ledger_rows": ["RA-A2", "RA-A6", "RA-A8", "RA-E1", "RA-E3", "LT-SM6"],
+  "result": {
+    "checks": 56,
+    "failures": 0,
+    "split_spin_dimension": 51,
+    "compatible_base_dimension": 6,
+    "compatible_normal_dimension": 36,
+    "compatible_split_dimension": 42,
+    "Hq_defect_rank": 9,
+    "broken_normal_compact_dimension": 3,
+    "broken_normal_noncompact_dimension": 6,
+    "normal_q_stabilizer": "Spin(6,3)",
+    "normal_q_maximal_compact": "Spin(6)xSpin(3)",
+    "normal_q_maximal_compact_dimension": 18,
+    "pati_salam_dimension": 21,
+    "abstract_sm_algebra_contained": true,
+    "naive_fixed_q_sm_fermion_branching": false,
+    "vPSB_stabilizer_dimension": 12,
+    "trace_q_compact_stabilizer_dimension": 18,
+    "joint_vPSB_trace_q_stabilizer_dimension": 9,
+    "rank_nine_defect_is_higgs_doublet": false,
+    "operative_full_varpi_connection": "OPEN",
+    "source_u3_2_intersection": "OPEN",
+    "physical_block_identification": "OPEN"
+  },
+  "controls": {
+    "q_wedge_qperp_rejected": true,
+    "stabilizer_generator_accepted": true,
+    "full_spin64_after_fixed_q_rejected": true,
+    "algebra_containment_as_representation_rejected": true,
+    "six_plus_three_as_higgs_rejected": true
+  },
+  "source_return": "SOURCE_CONFIRMS_FULL_UNITARY_PARENT_TRACED_FIBRE_STAGE_PATI_SALAM_U3_2_INTERSECTION_AND_VARPI_HIGGS_ASSIGNMENT__SOURCE_SILENT_ON_HQ_COMPATIBILITY_AND_TRACE_Q_AS_BREAKING_VECTOR",
+  "hostile_review": "SURVIVES_AFTER_SCOPE_REPAIR__SPLIT_SPIN_COMPATIBILITY_EXACT__FROZEN_Q_DIRECT_INTERNAL_CHAIN_INSUFFICIENT__MOVING_FULL_UNITARY_ROUTE_OPEN",
+  "mailbox_postflight": "NO_NEW_GU_SCIENTIFIC_NOTE_AFTER_THE_2026_08_10_MAILBOX_SET__NEXT_GATE_UNCHANGED",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "P1_P2_P3_used": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "CONSTRUCT_EXACT_SOURCE_U3_2_INTERSECTION_RELATIVE_TO_MOVING_TRACE_HQ__TEST_EXISTING_SM_STABILIZER_AND_16_STATE_HYPERCHARGE_BRANCH__DECOMPOSE_FULL_OR_TWO_HALF_VARPI__REQUIRE_DISTINCT_ACTION_OWNED_SCALAR_DOUBLET_KINETIC_POTENTIAL_YUKAWA_SURPLUS"
+}

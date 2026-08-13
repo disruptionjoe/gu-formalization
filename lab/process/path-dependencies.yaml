@@ -1,0 +1,449 @@
+# Path dependencies: why a strange-looking check exists.
+#
+# PROBLEM THIS SOLVES.  layer0-fork-registry.yaml records WHAT the forks and
+# homonyms are.  It does not record the CAUSAL CHAIN that makes a particular
+# check worth doing, so an agent meeting "check whether this is on (9,5)" or
+# "is this parity spectral or kinematic?" sees an arbitrary rule rather than a
+# consequence.  Rules without their chain get skipped, or cargo-culted.
+#
+# SCHEMA, per chain:
+#   id            stable identifier
+#   headline      one line: the thing that is easy to get wrong
+#   trigger       the situation an agent is in when this becomes load-bearing
+#   naive         what a competent agent would reasonably assume, and why
+#   chain         ordered steps. each: fact, evidence, receipt
+#                 evidence: EXACT | THEOREM | AUTHOR-STATED | CONDITIONAL | OPEN
+#   check         what to actually do
+#   traps         mistakes ACTUALLY made, with date. not hypotheticals.
+#                 this is the field that earns the file its keep.
+#   invalidates_if what would break the chain
+#   related       other chain ids
+#
+# RULE: a trap is only recorded once it has actually happened and is dated.
+# Speculative pitfalls belong in the improvement register, not here.
+
+version: 1
+updated: 2026-08-12
+generator: process_gates/path_dependency_audit.py
+
+chains:
+
+  - id: PD-SIGNATURE-PARITY
+    headline: >-
+      The ambient horn is not cosmetic: (9,5) forbids an odd generation count
+      and (7,7) permits it. A computation on the wrong horn cannot reach three.
+    trigger: >-
+      Any work touching the generation count, chirality, spinor reality,
+      Kramers/quaternionic structure, or that builds on a Cl(9,5) carrier.
+    naive: >-
+      "(9,5) vs (7,7) is a sign convention, so results transfer." They do not.
+      The two are not real-isomorphic and the reality type is observable.
+    chain:
+      - fact: "The DeWitt fibre form is (6,4), and this is INDEPENDENT of the base sign: G(-g) = G(g) exactly."
+        evidence: EXACT
+        receipt: tests/signature_fork_equivariance_defect.py
+      - fact: "So the base sign alone moves the ambient: (3,1)->(9,5), (1,3)->(7,7)."
+        evidence: EXACT
+        receipt: tests/signature_fork_equivariance_defect.py
+      - fact: >-
+          Weinstein's equation (12.19) authorially displays
+          g*(TY^(7,7)) = TX^(1,3) + N_g^(6,4), providing a source resolver to
+          the unordered {7,7} horn but not deriving the relative block sign
+          from the action.
+        evidence: AUTHOR-STATED
+        receipt: explorations/portfolio-correction-wave-2026-08-12.md
+      - fact: "Cl(9,5) = M(64,H) quaternionic; Cl(7,7) = M(128,R) real. Not real-isomorphic."
+        evidence: EXACT
+        receipt: tests/majorana_weyl_forces_the_seven_seven_horn.py
+      - fact: "Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) qualifies."
+        evidence: EXACT
+        receipt: tests/majorana_weyl_forces_the_seven_seven_horn.py
+      - fact: "Quaternionic structure forces Kramers doubling, hence EVEN multiplicity."
+        evidence: THEOREM
+        receipt: canon/no-go-quaternionic-parity-generation-sector.md
+      - fact: "Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it."
+        evidence: CONDITIONAL
+        receipt: explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md
+    check: >-
+      State which horn the work stands on. If Cl(9,5), say so and say whether the
+      result is horn-robust. Treat equation (12.19) as a named SOURCE resolver,
+      not a mathematical settlement. Do NOT let a (9,5) result silently stand
+      in for the source-aligned reconstruction.
+    traps:
+      - date: 2026-08-04
+        what: >-
+          Wave K settled REAL-CLIFFORD-FORM on a MIXED-NOTATION sum: it took the
+          vertical block in repository notation ((7,3)->(6,4)) and the horizontal
+          in the source's ((1,3)), then added them. Read consistently in either
+          notation the sum is (9,5), never (7,7).
+        cost: "Four days as the program's primary reconstruction burden on a retracted derivation."
+        receipt: lab/process/hostile-reviews/2026-08-08-real-clifford-form-settlement-review.md
+      - date: 2026-08-08
+        what: >-
+          An agent wrote "Cl(3,1) = M(2,H) and Cl(1,3) = M(4,R)". SWAPPED.
+          Correct: three '+' generators = M(4,R) real; one '+' = M(2,H)
+          quaternionic. A sibling artifact hours earlier had it right.
+        cost: "Self-contradiction inside one day; caught by re-derivation, not by review."
+        receipt: tests/signature_fork_equivariance_defect.py
+      - date: 2026-08-08
+        what: >-
+          M-H9 was named as the fork's resolver while being built on a
+          COMPLEXIFIED Racah-Speiser module. Cl(p,q) (x) C depends only on p+q,
+          so both horns give M(128,C) -- the module was PROVABLY incapable of
+          discriminating, and returned bit-identical output on both horns.
+        cost: "A named resolver that could never have worked; falsified at Tier 1."
+        receipt: explorations/mh9-tier1-mechanism-falsified-2026-08-08.md
+      - date: 2026-08-08
+        what: >-
+          The Majorana-Weyl candidate called the (6,4) fibre "pinned" because
+          G(-g)=G(g), but the certificate fixes lambda=1/2 and a trace sign.
+          Base-sign invariance at that input does not derive the coefficient or
+          trace-sign choice; the TT criterion used to prefer the sign is an
+          imported physical input.
+        cost: >-
+          Nearly promoted a sound conditional implication into a resolver for
+          the highest-fan-out fork by moving the convention one level upstream.
+        receipt: lab/process/hostile-reviews/2026-08-08-majorana-weyl-conditional-resolver-review.md
+    invalidates_if: >-
+      The generation count is shown NOT to be the index whose parity Kramers
+      constrains; or a mechanism supplies the odd '+1' outside the Kramers-
+      constrained sector.
+    related: [PD-SOURCE-NOTATION, PD-GHOST-PARITY]
+
+  - id: PD-GHOST-PARITY
+    headline: >-
+      "Ghost parity is blocked" is a SPECTRAL result. Turok-Bateman's parity is
+      KINEMATIC and is not touched by it.
+    trigger: >-
+      Any work citing R3's sign-blindness, the C-operator, Bender-Mannheim, or
+      concluding that the Turok-Bateman mechanism is unavailable to GU.
+    naive: >-
+      "R3 showed the ghost-parity mechanism fails on GU's carrier, so TB is
+      dead here." R3 tested whether the SPECTRAL C is dynamics-derived. TB's
+      parity comes from a two-field O(1,1) EMBEDDING and is defined where the
+      spectral C is not.
+    chain:
+      - fact: "Bender-Mannheim's C and Turok-Bateman's ghost parity are the SAME operator on the simple-spectrum domain (||C - P_ghost|| -> 3e-8)."
+        evidence: THEOREM
+        receipt: explorations/big-swing-2026-07-06/BIG-SWING-CONFORMAL-CLASS-BLOCKED.md
+      - fact: "They come APART at spectral degeneracies, where C exists but is NOT unique."
+        evidence: THEOREM
+        receipt: explorations/big-swing-2026-07-06/VG-V4-quantize-break-commuting-square.md
+      - fact: "At the degenerate point the KINEMATIC parity is exactly well-defined ([P_tot, H(0)] = 0.0e+00) while the spectral C dies."
+        evidence: EXACT
+        receipt: explorations/big-swing-2026-07-06/VG-V4-quantize-break-commuting-square.md
+      - fact: "R3's balance is caused by CHI, not by quaternionic structure: {K,chi} = 0 exactly, and the whole native algebra lies in the chirality commutant."
+        evidence: EXACT
+        receipt: tests/krein_parity_dichotomy_jk_anticommutation.py
+      - fact: "Balance requires ANTIcommutation with K. Kramers alone gives only EVENNESS. GU's J_quat COMMUTES with the Krein Gram ([beta_S, J_quat] = 0.0e+00)."
+        evidence: EXACT
+        receipt: tests/krein_parity_dichotomy_jk_anticommutation.py
+      - fact: "chi is the Clifford volume element and exists in every even dimension, so the chi wall is NOT horn-specific."
+        evidence: EXACT
+        receipt: tests/krein_parity_dichotomy_jk_anticommutation.py
+    check: >-
+      Before citing R3 as a blocker, ask: is the claim SPECTRAL or KINEMATIC?
+      Spectral no-goes do not constrain an embedding-defined parity. Also state
+      whether the arena is FIXED -- every GU test so far searched a fixed arena's
+      commutant, and TB's mechanism works by enlarging it.
+    traps:
+      - date: 2026-08-08
+        what: >-
+          An agent conjectured R3's sign-blindness was a Kramers artifact of the
+          (9,5) horn, and put that in a handoff prompt as a task to test. WRONG:
+          Kramers gives evenness, not balance; the source is chi; and both
+          inputs were already computed and filed months earlier.
+        cost: "A wrong task issued to another agent; retracted the same day."
+        receipt: tests/krein_parity_dichotomy_jk_anticommutation.py
+      - date: 2026-08-08
+        what: >-
+          The {J,K} dichotomy was stated more broadly than it holds. It is a
+          SPECTRAL statement and says nothing about a kinematic parity.
+        cost: "Scope overreach, caught by a specialist panel the same day."
+        receipt: explorations/specialist-panel-on-the-degenerate-point-2026-08-08.md
+    invalidates_if: >-
+      The kinematic parity is shown to require a spectral C after all; or GU's
+      chirality operator is shown not to anticommute with K in the relevant arena.
+    related: [PD-SIGNATURE-PARITY, PD-CONDITIONAL-VS-SETTLED]
+
+  - id: PD-SOURCE-NOTATION
+    headline: >-
+      Curt Jaimungal is the EXPOSITOR; Weinstein is the AUTHOR. They use
+      OPPOSITE signature notations. Never add pairs across the two.
+    trigger: >-
+      Any work quoting a signature pair from a transcript, or citing
+      "the source" for a numeric signature claim.
+    naive: >-
+      "'Curt/Eric' is one source." They are two, they disagree in notation, and
+      only one is authorial.
+    chain:
+      - fact: "Curt states raw (3,7), traceless (3,6), flipped (4,6). The repository computes (7,3), (6,3), (6,4). Exact mirrors, three for three."
+        evidence: EXACT
+        receipt: tests/source_signature_notation_is_mirrored.py
+      - fact: "The mirror is FORCED, not inferred: all three forms are even in A = g^-1 B, so they are bit-identical at every base sign. Curt's pairs are unreachable by any base choice."
+        evidence: EXACT
+        receipt: tests/source_signature_notation_is_mirrored.py
+      - fact: "So Curt writes (negatives, positives). His blocks (4,6)+(1,3) = (5,9) == the repository's (9,5). His ASSERTED (7,7) does not follow from them."
+        evidence: EXACT
+        receipt: explorations/source-signature-notation-is-mirrored-2026-08-08.md
+      - fact: "The 2021 draft eq (12.19) prints TY^{7,7} = TX^{1,3} + N^{6,4}: base, fibre and total in ONE equation, one notation, summing correctly."
+        evidence: AUTHOR-STATED
+        receipt: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md
+      - fact: "Weinstein independently fixes the base at (1,3) in his own voice and gives a criterion for the trace sign (Pati-Salam Spin(6)xSpin(4))."
+        evidence: AUTHOR-STATED
+        receipt: lab/sources/curt-iceberg-77-primary-transcript-fetch-2026-08-08.md
+    check: >-
+      Declare plus-first or negatives-first before adding any signature pair.
+      Attribute to EXPOSITOR or AUTHOR, never to "the source". Treat an
+      expositor's guess about the author's beliefs as what it is.
+    traps:
+      - date: 2026-08-04
+        what: "REAL-CLIFFORD-FORM's settled_how cites 'Curt/Eric's exact source-typed arithmetic' as ONE object."
+        cost: "The conflation is what allowed the mixed-notation sum to survive review."
+        receipt: lab/process/layer0-fork-registry.yaml
+      - date: 2026-08-08
+        what: >-
+          An agent read Curt's "I believe Eric isn't sure which of these is the
+          sector of our universe" as the AUTHOR declining to choose. It is the
+          expositor's belief about the author's state of mind. Weinstein does
+          choose, in his own voice, and gives a reason.
+        cost: "Weighed as authorial evidence in a fork assessment."
+        receipt: lab/sources/curt-iceberg-77-primary-transcript-fetch-2026-08-08.md
+      - date: 2026-08-08
+        what: >-
+          Having found the mirror in Curt's transcript, an agent generalised to
+          "there is NO source/repository convention divergence". Correct about
+          Curt, WRONG about the author: both authorial surfaces say base (1,3)
+          while the repository computes on (3,1).
+        cost: "A resolver filed and falsified within hours."
+        receipt: lab/process/layer0-fork-registry.yaml
+    invalidates_if: >-
+      The 2021 draft is shown to use negatives-first after all, which would make
+      its (12.19) inconsistent rather than the transcript's arithmetic.
+    related: [PD-SIGNATURE-PARITY]
+
+  - id: PD-CONDITIONAL-VS-SETTLED
+    headline: >-
+      A correct FACT does not license a disposition. Keep findings and
+      dispositions in separate artifacts.
+    trigger: >-
+      Any move to change a ledger row, canon verdict, fork status, or to
+      declare something settled or reopened.
+    naive: >-
+      "The computation is right, so the conclusion follows." On 2026-08-08 three
+      dispositions were proposed off ONE correct fact and all three were wrong.
+    chain:
+      - fact: "The declared-base resolver: filed, then falsified the same afternoon by the notation mirror."
+        evidence: EXACT
+        receipt: lab/process/layer0-fork-registry.yaml
+      - fact: "The non-equivariance retyping: rejected on hostile review; '-g is a different point in a different orbit', not a relabeling."
+        evidence: EXACT
+        receipt: lab/process/hostile-reviews/2026-08-08-signature-fork-equivariance-review.md
+      - fact: "The REAL-CLIFFORD-FORM reopen: withdrawn. The row asks which algebra the source USES, which author assertion answers even when the author's arithmetic does not."
+        evidence: EXACT
+        receipt: lab/process/hostile-reviews/2026-08-08-real-clifford-form-settlement-review.md
+      - fact: "The underlying fact -- the mixed-notation sum -- survived all three and was correct every time."
+        evidence: EXACT
+        receipt: tests/source_signature_notation_is_mirrored.py
+    check: >-
+      File the finding with its receipt. File the disposition separately and put
+      it through the three charges. If a proposal would change a row, it is a
+      PROPOSAL until reviewed -- see improvement register M-S1..M-S4 for the
+      shape.
+    traps:
+      - date: 2026-08-08
+        what: "Three dispositions in one day off one correct fact; all three wrong, each caught by a different mechanism (review, review, concurrent work arriving first)."
+        cost: "Two registry writes and one near-miss on the program's highest-fan-out row."
+        receipt: lab/process/hostile-reviews/2026-08-08-real-clifford-form-settlement-review.md
+      - date: 2026-08-09
+        what: >-
+          Exact Galois-conjugate reconstruction Hessians had different real
+          inertias and were nearly promoted as a branch selector. Both points
+          were noncritical in the independent B direction, which is not a
+          source tangent; an exact local coordinate change can force either
+          determinant to zero. On the owned varpi line both branches have the
+          same inertia class.
+        cost: >-
+          Would have skipped one required branch port and mistaken a
+          coordinate-dependent second derivative for physical stability.
+        receipt: lab/process/hostile-reviews/2026-08-09-selected-k77-branch-hessian-discriminator-review.md
+    invalidates_if: "Never. This is a process invariant."
+    related: [PD-SIGNATURE-PARITY, PD-GHOST-PARITY, PD-SOURCE-NOTATION]
+
+  - id: PD-ULTRAHYPERBOLIC-DOMAIN
+    headline: >-
+      Lorentzian well-posedness is not ultrahyperbolic well-posedness. For GU's
+      ambient the Cauchy problem is ILL-POSED BY DEFAULT, so a domain is
+      something you must SUPPLY, not something you may assume and check later.
+    trigger: >-
+      Any work on the operator domain, deficiency indices, formal adjoint, Green
+      identity, presymplectic/covariant phase space, or that cites Baer-Ballmann,
+      APS, MIT boundary conditions or "globally hyperbolic" results for the
+      AMBIENT Y^14 operator.
+    naive: >-
+      "Boundary value problems for Dirac-type operators are standard; the domain
+      exists generically and can be pinned later." That standard theory is
+      uniformly about ONE TIME DIRECTION. GU's ambient (7,7)/(9,5) has many.
+    chain:
+      - fact: "GU's ambient operator is first-order ULTRAHYPERBOLIC on a non-compact 14-manifold -- (7,7) or (9,5), many time directions."
+        evidence: EXACT
+        receipt: explorations/c1-domain-moduli-result-2026-08-08.md
+      - fact: "The standard Dirac boundary-value literature (Baer-Ballmann, APS, MIT, globally hyperbolic, spatially non-compact Cauchy data) is uniformly LORENTZIAN -- one time direction."
+        evidence: THEOREM
+        receipt: lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md
+      - fact: "For the ultrahyperbolic equation the Cauchy problem is ILL-POSED IN GENERAL (Craig & Weinstein 2009, arXiv:0812.0210)."
+        evidence: THEOREM
+        receipt: lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md
+      - fact: "A citable remedy exists and is NONLOCAL: well-posed on H^m under an explicit nonlocal constraint on the Cauchy data, on codimension-one hypersurfaces only."
+        evidence: THEOREM
+        receipt: lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md
+      - fact: "The remedy does not generalise: higher-codimension initial surfaces stay ill-posed through failure of uniqueness."
+        evidence: THEOREM
+        receipt: lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md
+      - fact: "C1's 346,112-dimensional admissible moduli is a SECTION-level result at filed symmetry; it does not answer the ambient deficiency-index question."
+        evidence: EXACT
+        receipt: explorations/c1-domain-moduli-result-2026-08-08.md
+    check: >-
+      State which well-posedness you are assuming and for which operator. If the
+      claim is about the AMBIENT operator, "Baer-Ballmann generically" is NOT
+      available -- say instead what supplies the domain, and compare it against
+      the nonlocal-constraint remedy. Never let a section-level domain result
+      stand in for the ambient one.
+    traps:
+      - date: 2026-08-08
+        what: >-
+          M-H10 was found to rest on "Baer-Ballmann does this generically", which
+          does not cover ultrahyperbolic signature. Worse than a scope slip: the
+          literature says ill-posedness is the DEFAULT there, so the premise was
+          not merely unstated for this setting but pointed the wrong way. The gap
+          was recorded only inside an artifact about a DIFFERENT question
+          (C1's domain moduli), where no one leaning on M-H10 would meet it.
+        cost: "A premise gap on a live blocker, invisible from the row that needs it, until filed as M-S5."
+        receipt: lab/process/improvement-register-2026-08-03.md
+    invalidates_if: >-
+      A signature-appropriate well-posedness theorem covering first-order
+      ultrahyperbolic operators on non-compact manifolds is found, or GU's
+      ambient problem is re-typed so that it is not ultrahyperbolic.
+    related: [PD-SIGNATURE-PARITY, PD-CONDITIONAL-VS-SETTLED]
+
+  - id: PD-STRUCTURE-TRANSPORT
+    headline: >-
+      Equal dimensions and equal abstract group labels do not identify concrete
+      carriers, real forms or pairings.  A result transfers only through a
+      structure-preserving adapter.
+    trigger: >-
+      Any successor wave that reuses a rank, cokernel, stabilizer, real-form
+      label, Hermitian/Krein signature or the letter H from a predecessor.
+    naive: >-
+      "Both objects are u(p,q), both are 160-dimensional, or both are called H,
+      so the previous calculation applies."  The carrier, form, real
+      involution, grading, horn and embedding can differ while all those labels
+      agree.
+    chain:
+      - fact: >-
+          The source-owned carrier is two C^(32,32) halves; the block-preserving
+          U(32,32)xU(32,32) subgroup and full U(64,64) parent are distinct.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-trace-hq-connection-internal-chain-gate-2026-08-12.md
+      - fact: >-
+          The inherited source real form is fixed by the trace-owned Hermitian
+          form H_q=i B gamma(q/2), not by an arbitrary B-skew comparator.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-hq-action-owner-potential-2026-08-12.md
+      - fact: >-
+          V0.220's source-normal-jet operator is valid, but its concrete
+          B-skew embedding has rank 80/160 and does not answer the inherited
+          trace-H_q contact question.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-i2b-source-normal-jet-reconciliation-2026-08-12.md
+      - fact: >-
+          Restoring the trace-H_q fingerprint changes the exact image to
+          rank 120/160, leaves a rank-40 local cokernel and makes the scalar
+          completion pointwise source-realizable.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md
+    check: >-
+      Inherit carrier, pairing/form, real structure, grading, signature horn
+      and ambient embedding as one structure fingerprint.  If any field
+      changes, cite a constructed adapter/intertwiner or return
+      OBJECT_CHANGED__LAYER0_RESET.  Equal rank, dimension or group label is
+      never enough.  Also state the variational altitude and globalization
+      grade reached; pointwise availability does not imply on-shell selection.
+    traps:
+      - date: 2026-08-12
+        what: >-
+          A source-normal-jet calculation silently replaced the inherited
+          trace-H_q embedded real form with a B-skew comparator, then promoted
+          the comparator's exact rank and scalar exclusion as the live contact
+          result.
+        cost: >-
+          Reported rank 80/cokernel 80 instead of rank 120/cokernel 40 and
+          incorrectly excluded the scalar completion until the append-only
+          v0.221 correction.
+        receipt: explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md
+    invalidates_if: >-
+      A receipt constructs an explicit intertwiner proving the two concrete
+      structures equivalent for the operator and variational problem at hand.
+    related: [PD-CONDITIONAL-VS-SETTLED, PD-SIGNATURE-PARITY]
+
+  - id: PD-I2B-ACTION-OWNER
+    headline: >-
+      Equal Euler values at one background do not identify differential
+      operators. A Spencer or jet result transfers only after the action owner
+      and its principal covector agree.
+    trigger: >-
+      Any work transferring an I2B symbol, Hessian, compatibility row,
+      stationary jet or nonlinear prolongation between the printed endpoint,
+      the first-action Euler covector and a squared-Euler rival.
+    naive: >-
+      "The endpoint square and E_act square have the same Euler covector on the
+      constant trace-H_q bank, so the endpoint jet repair advances both." They
+      agree in value there but have different Frechet maps and different
+      selected principal owners.
+    chain:
+      - fact: >-
+          The source prints Upsilon_print=S(F_A)+*kappa T and separately gives
+          E_act=S(Fbar)+L_T^!S^!T+*kappa T.
+        evidence: AUTHOR-STATED
+        receipt: lab/sources/gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md
+      - fact: >-
+          The repo-composed E_act square and literal endpoint square have equal
+          Euler covectors on the fixed constant trace-H_q bank, while their
+          Frechet maps are explicitly different.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-i2b-action-euler-square-2026-08-12.md
+      - fact: >-
+          The literal endpoint has 182 live raw responses per observed
+          direction and its symmetric holonomic second-jet image reaches rank
+          196.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-i2b-holonomic-jet-euler-image-2026-08-13.md
+      - fact: >-
+          Pairing those same raw responses against every selected connection
+          test with the first action gives the zero 196x196 matrix in all four
+          directions; the formal E_act principal covector and Riesz
+          representative are zero on this fixed bank.
+        evidence: EXACT
+        receipt: explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md
+    check: >-
+      Name the action/residual owner before importing any symbol or Spencer
+      result. Equality at one background is insufficient. Require exact
+      equality of the action-paired Frechet/principal maps, or return
+      ACTION_OWNER_CHANGED__NO_TRANSFER. Keep a fixed-bank zero distinct from
+      the full moving metric, section, Shiab, Q_B and BV-owned action.
+    traps:
+      - date: 2026-08-13
+        what: >-
+          After v0.236, the next queue almost ported the endpoint's compatible
+          two-jet directly to E_act because v0.226 had equal fixed-background
+          squared Euler covectors. The full action-pairing comparison instead
+          gave endpoint principal rank 182 and E_act principal rank zero.
+        cost: >-
+          Would have launched nonlinear Spencer/involutivity work for a
+          different PDE while reporting progress on the action-derived rival.
+        receipt: lab/process/hostile-reviews/2026-08-13-selected-k77-i2b-action-euler-principal-owner-comparison-review.md
+    invalidates_if: >-
+      A source/action receipt proves the operative completed second action and
+      constructs a structure-preserving equality between its full moving
+      principal map and one of the compared operators.
+    related: [PD-STRUCTURE-TRANSPORT, PD-CONDITIONAL-VS-SETTLED]

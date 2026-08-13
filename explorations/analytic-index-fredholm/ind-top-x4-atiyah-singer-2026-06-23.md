@@ -1015,3 +1015,29 @@ multiplicity `m_H^{fiber}(S(6,4)) = 8` (from discrete-series file) combined with
 a necessary condition (and obstruction for Euclidean simply-connected spin X^4). The
 Lorentzian APS bypass is reconstruction-grade; explicit eta-invariant computation
 on S^3 x S(6,4) would upgrade to verified.*
+
+---
+
+## Correction of theorem scope (2026-08-10; append-only)
+
+The statements above that Rokhlin's signature-divisibility theorem requires
+simple connectivity or applies only to a Euclidean-signature metric are
+retracted. For every **closed smooth oriented spin four-manifold**, the
+topological intersection-form signature is divisible by 16. Simple
+connectivity is not a hypothesis, and the theorem's signature is the
+topological signature, not the pointwise signature of a Riemannian or
+Lorentzian metric.
+
+What genuinely changes in Lorentzian signature is the **analytic operator
+problem**: the Lorentzian Dirac operator is hyperbolic rather than elliptic, so
+an APS/spectral-flow/Cauchy formulation is a different index problem. A
+time-oriented closed Lorentzian four-manifold also has a nowhere-zero timelike
+field and hence Euler characteristic zero. A globally hyperbolic spacetime is
+instead noncompact and splits as `R x Sigma3`, moving any nonzero degree-four
+charge to compact-support, relative or boundary data. Those distinctions do
+not constitute a Lorentzian bypass of Rokhlin's closed-spin theorem.
+
+See
+`explorations/conditional-build/selected-k77-lorentzian-chiral-class-pairing-2026-08-10.md`
+for the exact convention-aware calculation and controls. This correction does
+not promote any generation or index count.

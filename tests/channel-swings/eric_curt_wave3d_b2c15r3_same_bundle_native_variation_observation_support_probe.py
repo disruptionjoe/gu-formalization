@@ -134,7 +134,7 @@ def source_and_layer_zero_checks() -> None:
     )
     source_receipt(
         "a frozen-reference contorsion reading is corrected by the gauge-rotated Levi-Civita/reduction grammar",
-        "gauge rotated Levy-Chevita connection" in toe,
+        "gauge rotated Levi-Civita connection" in toe,
         "SOURCE-CORRECTS a naked fixed projector/reference",
     )
 

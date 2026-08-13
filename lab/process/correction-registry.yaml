@@ -1,0 +1,101 @@
+# Machine-readable correction index. Read by process_gates/correction_propagation_audit.py.
+#
+# Semantics: a correction with enforce: true means any canon/ or docs/ file that cites one of the
+# trigger_refs (substring match on the owner/target basename) should acknowledge the correction
+# (any ack_markers substring present). Files already known to lack acknowledgment at seeding time
+# (2026-08-10, from the canon-spine hostile sweep) are listed under known_unacknowledged: the gate
+# REPORTS them as NEEDS_RECHECK without failing, and FAILS on any NEW unacknowledged citer.
+# enforce: false entries are inventory only (reported, never failing).
+#
+# This registry is the propagation ledger, not the correction text. The prose banners in the owning
+# files remain the human-facing record.
+corrections:
+  - id: V15-1
+    owner: canon/antilinear-bound-RESULTS.md
+    meaning: >-
+      The finite antilinear theorem is a complex Hermitian transversality statement about
+      intersectionDifference, not a physical handedness or Fredholm index; it does not transfer
+      unchanged to the K-null physical Lorentzian half.
+    enforce: true
+    trigger_refs: ["antilinear-bound-RESULTS"]
+    ack_markers: ["V15-1", "v2.15"]
+    known_unacknowledged:
+      - canon/antilinear-nonkrein-admissibility-RESULTS.md
+      - canon/external-by-structure-synthesis-RESULTS.md
+      # found by this gate's first run, 2026-08-10 (baseline, pre-existing):
+      - canon/core-theorems-symbolic-proof-RESULTS.md
+      - canon/function-space-index-conservation-RESULTS.md
+      - canon/function-space-index-conservation-residual-closure-RESULTS.md
+  - id: V15-2
+    owner: canon/enum-completeness-class-c-RESULTS.md
+    meaning: >-
+      Enum completeness is certified for C_fin only (seven named rows), not the semantic class C_inv.
+    enforce: true
+    trigger_refs: ["enum-completeness-class-c"]
+    ack_markers: ["V15-2", "C_fin", "v2.15"]
+    known_unacknowledged:
+      - canon/external-by-structure-synthesis-RESULTS.md
+      # found by this gate's first run, 2026-08-10 (baseline, pre-existing):
+      - canon/core-theorems-symbolic-proof-RESULTS.md
+      - canon/two-arena-rep-theory-core-RESULTS.md
+  - id: CARRIER-20260810
+    owner: canon/generation-carrier-identification-scope-correction-2026-08-10.md
+    meaning: >-
+      Fixed-W theorems are conditional inputs to a physical-carrier construction, not derivations;
+      the internal Spin(10) Casimir test does not select W (a planted random 192 passes).
+    enforce: true
+    trigger_refs: ["antilinear-bound-RESULTS", "enum-completeness-class-c"]
+    ack_markers: ["CARRIER-20260810", "carrier-identification-scope-correction", "supplied carrier", "supplied 192"]
+    known_unacknowledged:
+      - canon/antilinear-nonkrein-admissibility-RESULTS.md
+      - canon/external-by-structure-synthesis-RESULTS.md
+      # found by this gate's first run, 2026-08-10 (baseline, pre-existing):
+      - canon/core-theorems-symbolic-proof-RESULTS.md
+      - canon/function-space-index-conservation-RESULTS.md
+      - canon/function-space-index-conservation-residual-closure-RESULTS.md
+      - canon/two-arena-rep-theory-core-RESULTS.md
+  - id: W2-01
+    owner: canon/w2-y14-spin-structure.md
+    meaning: "Unconditional Y14 spin claim retracted; Y14 spin iff X4 spin."
+    enforce: false
+  - id: SD-01
+    owner: canon/single-decider-integer-index-RESULTS.md
+    meaning: "non-convex is the wrong pi_! diagnosis (non-compactness; non-ellipticity beneath)."
+    enforce: false
+  - id: RFAIL-03
+    owner: canon/schwarzschild-weak-field-rfail.md
+    meaning: "Linear-in-M residual vanishes identically; leading residual quadratic in M."
+    enforce: false
+  - id: DARK-ENERGY-06
+    owner: canon/theta-field-flrw-dark-energy-eos.md
+    meaning: "Band-wide theta_star-calibrated exclusion; the f0 bound is M^2-dependent."
+    enforce: false
+  - id: HQ-PHASE-20260812
+    owner: explorations/conditional-build/selected-k77-moving-hq-eddy-quartic-retype-2026-08-12.md
+    meaning: >-
+      V0.198's common-leg zero-curvature theorem survives, but its all-real
+      full-unitary wording was mistyped.  Relative to H_q=i B gamma(q), the
+      fixed-unitary weak bank is three angular i-gamma(H_perp) cells plus one
+      radial real gamma(q) cell.  The corrected phase typing does not by itself
+      derive the selected physical Higgs potential or vacuum.
+    enforce: false
+  - id: HQ-CONTACT-20260812
+    owner: explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md
+    meaning: >-
+      V0.220's source-normal-jet operator remains owned, but its concrete
+      B-skew embedded-real-form calculation was not the inherited trace-H_q
+      problem.  On the source-owned two-C^(32,32) carrier with
+      H_q=i B gamma(q/2), the exact contact image has rank 120/160 and local
+      cokernel rank 40, so the scalar completion is pointwise source-realizable.
+      H_q is a Hermitian form and is distinct from generation-hinge H^- and H^+.
+    enforce: false
+  - id: I2B-PRINCIPAL-GAUGE-20260813
+    owner: explorations/conditional-build/selected-k77-i2b-principal-degeneracy-retype-2026-08-13.md
+    meaning: >-
+      The predecessor's coefficientwise principal Hessian syzygy and ranks
+      survive, but its 14-to-196 Cl1 exact-form map is not the source-derived
+      91-parameter Cl2 adjoint gauge map. The actual selected source gauge
+      image has rank 25 and is annihilated by the Euler target. Retract the
+      lower-order Ward-obligation and gauge-cohomology readings; retain
+      168/168 only as raw null principal-symbol quotient dimensions.
+    enforce: false

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-10",
+  "run_id": "RUN-20260810-162942-gu-lorentzian-chiral-class-pairing",
+  "verdict": "ABSOLUTE_TANGENTIAL_C2_UNIT_KILLED_ON_CLOSED_LORENTZIAN_SPIN_AND_ZERO_ON_GLOBALLY_HYPERBOLIC_X__REAL_CHIRAL_PAIRING_EXISTS_BUT_IS_TWO_DIMENSIONAL_AND_NOT_SOURCE_SELECTED__RELATIVE_BOUNDARY_TRANSGRESSION_REQUIRED",
+  "repository_convention_c2_formulas": {
+    "plus": "(2*chi-3*signature)/4",
+    "minus": "(-2*chi-3*signature)/4"
+  },
+  "closed_lorentzian_spin_c2_lattice": "12Z",
+  "closed_lorentzian_spin_unit_class_available": false,
+  "globally_hyperbolic_ordinary_h4_rank": 0,
+  "globally_hyperbolic_absolute_c2_available": false,
+  "relative_or_compact_support_class_decided": false,
+  "invariant_real_chiral_pairing_dimension": 2,
+  "invariant_real_chiral_pairing_projective_ratio_dimension": 1,
+  "sample_pairing_inertia": [3, 3, 0],
+  "pairing_source_selected": false,
+  "source_return": "SOURCE_CONFIRMS_LORENTZIAN_OBSERVER_SECTOR__SOURCE_SILENT_ABSOLUTE_OR_RELATIVE_C2_SELECTOR_AND_REAL_PAIRING_CHOICE",
+  "p1_p2_p3_assignment_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false,
+  "next_gate": "CONSTRUCT_SOURCE_OWNED_RELATIVE_TANGENTIAL_CHIRAL_TRANSGRESSION_AND_REALITY_CONDITION_ON_AN_OBSERVER_COBORDISM__KILL_IF_IT_REQUIRES_A_FREE_BOUNDARY_INTEGER_OR_UNOWNED_PAIRING_RATIO__THEN_RESTRICT_ACTION"
+}

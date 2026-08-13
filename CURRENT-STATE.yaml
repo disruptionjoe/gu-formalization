@@ -1,31 +1,43 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4968884e5978874fca8c3e9a5df4209cb77473f1
+revision_basis: ed9fa2f8976e299e06b92169de0439485345809f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
-  program by forcing, falsifying, or precisely locating its claims.
+  program by forcing, falsifying, or precisely locating its claims, while
+  preserving reproducible evidence and honest scientific grades.
 current_result:
   status: conditional_research_front
   summary: >-
-    The selected Cl2 second-layer residual pullback is exact at rank 100 with
-    inertia (54,46); other Clifford grades, the total residual, Euler and
-    preboundary structure, helicity, and common-domain/BV/BFV claims remain
-    open on this branch.
+    The trace-owned Hermitian family admits the complete source-sized
+    connection arena exactly: all 16,384 Clifford directions have one forced
+    real or i phase. The 8,192 even directions are the two-half block algebra
+    and the 8,192 odd directions extend it to full U(64,64). Moving-H_q
+    compatibility is an affine torsor admitting both parents, so it cannot
+    select the action parent, luminous half, mirror quotient or physical
+    carrier. The preceding cubic/quartic absorption theorem remains intact.
   evidence:
-    - explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md
-    - RESEARCH-STATUS.md
+    - explorations/conditional-build/selected-k77-trace-hq-connection-compatibility-2026-08-13.md
+    - explorations/conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md
+    - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
+    - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
+    - lab/process/conditional-physics-ledger-v0.237.json
 current_question: >-
-  Which other Clifford grades survive in the source-total residual, and what
-  do they imply before higher variational or physical-carrier promotion?
+  Can the selected action or physical BV/domain complex produce a
+  half-asymmetric physical cohomology or fermion projector that distinguishes
+  W, mirror, random 192s, H640 and 832 without fitting a member of the large
+  trace-Hq compatibility fibre?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
+  - lab/specifications/six-axis/six-axis-template.md
 contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Layer-0 type the source-total residual, enumerate other Clifford grades,
-  prove zero blocks without the killed shortcut, and compute any survivors
-  before cubic, Euler, preboundary, helicity, domain, or BV/BFV claims.
+  Construct the induced physical fermion/BV operator on the full carrier and
+  require action ownership, half asymmetry, exact five-way discrimination and
+  out-of-sample consequences. Do not rerun Hq compatibility or apply the
+  bosonic projector directly to fermion subspaces. Keep principal-changing
+  I2B and higher fixed-owner nonlinear work as disjoint fallbacks.
 what_needs_joe: none

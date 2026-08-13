@@ -32,7 +32,10 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Honor `RESEARCH-POSTURE.md` and the verified/reconstruction/speculation grading discipline.
 - Contributions follow `CONTRIBUTING.md`.
 - Claim-status changes use `lab/process/runbooks/claim-status-consistency-quality-workflow.md`.
-- Canon promotion is agent-owned. When an exploration clears the `RESEARCH-STATUS.md` Promotion Rule you may promote it into `canon/` / `CANON.md` yourself - this no longer pauses for Joe. Every executed promotion MUST drop an awareness note in `../../../repos/private/system-runtime/mailboxes/system-attention/` from this repo root using `lab/process/templates/canon-promotion-joeops-notice.md`. The note is awareness-only, not an approval gate; the promotion is already done. Canon = public-spine framing, not a verdict.
+- Canon promotion is agent-owned and TWO-PHASE (ratified, Joe direct chat 2026-08-10; supersedes the single-run form — no pause for Joe in either phase). **No run promotes its own finding into `canon/` / `CANON.md` in the same run that produced it.** Phase 1 — PROPOSE: when an exploration clears the `RESEARCH-STATUS.md` Promotion Rule, the producing run stages a promotion proposal in `explorations/` (frontmatter `canon_proposal: <target path>`, the exact proposed canon text, its evidence and current verify status), listed in its session manifest. Phase 2 — VERIFY + PROMOTE: a later, independent run (hourly, scheduled, or manually triggered) that encounters the proposal takes it up under the full checking contract — pre-flight assessment before, independent verification of the claim AND the proposed text at licensed strength, and post hostile review (the standing three charges) — the same pre/post contract regular runs use for their own work. If it clears, that run executes the promotion citing the proposal and its review; if not, it files the review and amends or rejects the proposal in place. The awareness-note requirement (mailbox note via `lab/process/templates/canon-promotion-joeops-notice.md`) applies at Phase-2 execution. The verdict-flip hostile-review requirement below is unchanged. Canon = public-spine framing, not a verdict. Rationale on record: the one same-day promotion of 2026-08-10 carried a homonym into canon that a second-agent text-level review would have caught; sixteen hostile verifies over three days show sentence-strength defects concentrate on surfaces promoted within 24 hours.
+- Multi-writer protocol (2026-08-10; documents standing practice that ran three days with zero collisions): concurrent writers coexist by scope. Side sessions run `repo-session-sync.sh` with `--scope` on exact paths; the hourly/scheduled cadence owns the root status surfaces (`NEXT-STEPS.md`, the conditional-build ledgers, `lab/process/agent-context-pack.md`); `explorations/` is the shared append-only staging surface. Do not restructure another writer's live surface mid-campaign.
+- Absorption protocol (2026-08-10; documents standing practice): a session producing multiple artifacts ends with a manifest in `explorations/` stating per-item verify status (CONFIRMED / SCOPED / unverified) and owed edits, with a `NEXT-STEPS.md` pointer when warranted. A later run absorbs: verify status is triage input, but promotion always goes through the two-phase rule above; absorption is acknowledged by commit reference; retraction banners go on the superseded file in place, with forward pointers. The machine-readable correction ledger is `lab/process/correction-registry.yaml` — when applying or acknowledging a correction, update it (the propagation gate reads it).
+- Useful, not required (guidance posture ratified, Joe direct chat 2026-08-10 — prefer in-path guidance over hard requirements; hard-require only what a deterministic gate can enforce): `lab/process/session-agent-card.md` is the one-screen session quickstart (machinery index, measured base rates, hazards that actually fired); `lab/process/NAMES.md` is the homonym disambiguation table — ten seconds there before reusing an overloaded symbol has historically beaten finding collision #9 the hard way.
 - Cross-repo actions are not executed directly and no longer pause for Joe: drop a proposal note in the target surface's mailbox (`../../../repos/private/system-runtime/mailboxes/<surface>/` from this repo root) and let that surface's steward decide whether to act. Writing the proposal note is itself allowed and is not a cross-repo action.
 - When GU exposes a credible paper-shaped opportunity, send a minimal source-graded seed proposal to the Drafting Factory mailbox immediately. Drafting Factory owns paper prioritization and production capacity. GU performs source hardening only when scientifically valuable or when a capacity-backed factory request becomes a valid portfolio signal; the request does not command GU or change claim grade.
 - Verdict / scientific-status changes (e.g. OPEN -> RESOLVED) no longer pause for Joe (ratified, Joe direct chat 2026-08-03): agents may execute a verdict flip PROVIDED it is accompanied by a hostile adversarial review by specialists in the specific field of the claim (representation theory, index theory, operator theory, cosmology statistics, ...), filed alongside the change. Public/external consequence and relicensing still pause for Joe.
@@ -43,6 +46,11 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Scratch, caches, and intermediate renders belong in `_local/`.
 - Local Lean/Lake builds follow the workspace Local Resource Safety rule (JB-root `AGENTS.md`): run serialized, one build machine-wide, and use low-parallelism controls where the active Lake version supports them. Do not overlap Lean runs across agent sessions. Higher parallelism needs explicit Joe approval.
 - On Windows, GU Lean/Lake commands use `lab/automation/check-lean.ps1`. Its exclusive lock is host-local, not cross-computer, and Lake 5 no longer accepts the historical `lake build -j1` form. Other hosts need an equivalent runner-native single-build lock and any supported low-parallelism control; no direct `lake` invocation may bypass the applicable lock policy.
+
+Before assuming a fork horn or citing a blocker, check
+`lab/process/path-dependencies.md` for a chain covering it — those carry the
+**dated traps**, the mistakes agents have actually made there. Pointer, not a
+required read.
 
 ## Functional Channel Operating Contract
 
@@ -66,8 +74,13 @@ Lanes, not additional Lanes.
   it does not substitute for construction.
 - Verify attacks new, changed or high-fanout claims. Unchanged replay is not
   progress without a named integrity risk.
-- Hostile review carries both charges: find where the summary outruns the
-  artifact, and find where rigor is defending a superseded or mistyped object.
+- Hostile review carries three charges: find where the summary outruns the
+  artifact; find where rigor is defending a superseded or mistyped object; and
+  state what else must change if the result stands, each item marked dissolved /
+  survives / needs-recheck, with an empty list stated explicitly. Layer-0
+  semantics and prior-art checks are always required lenses; an analytic lens is
+  required for any domain, spectrum, index or positivity claim. See
+  `lab/process/functional-channel-operating-contract-v1.0.md`.
 
 Standing directive `GU-COSMO-DYNAMIC-01`: before another wave uses Einstein
 recovery, `LT-GR2` or dark-energy recovery, run the contract's Layer-0 source
@@ -245,3 +258,53 @@ push request. Do not commit or push when a conflicting central owner claim or li
 repository-specific rule, failed verification, unrelated dirty changes, or
 Joe's explicit hold blocks it. GitHub push is routine versioning, not external
 publication; all other external-action rules remain in force.
+
+## Pre-claim novelty check (added 2026-08-09, measured requirement)
+
+Before asserting that any result, object, or route is NEW, run:
+
+```
+python3 lab/process/novelty-check.py "<term>" "<term>" ...
+```
+
+Exit 1 means prior art exists; read it before claiming. This is not optional
+hygiene — on 2026-08-09 a single session produced **seven** false-novelty claims
+(orchestrator and subagents alike), every one of which a 30-second grep would
+have caught. A hit is not automatically a refutation: it may be adjacent work, or
+a homonym (this repository carries at least six same-letter collisions). Read the
+hits and state what is new *relative to them*.
+
+
+## Kill-target and subagent-ingest rule (ratified, Joe direct chat 2026-08-11)
+
+Every new kill/no-go/falsification artifact names the source claim it
+kills by ID from `lab/sources/source-claim-register.yaml`
+(`target_claim:` frontmatter; audited escape hatch `NONE-NOT-A-KILL`),
+enforced by `process_gates/kill_target_claim_audit.py`. The register is
+edition-pinned; weakening an ASSERTS row requires a new source edition or
+an adjudication artifact, never silent reinterpretation. Orchestrators
+delegating to subagents inline `lab/process/subagent-brief.md` verbatim;
+subagent artifacts echo `brief_version:`. Rationale and council record:
+`explorations/source-claim-register-and-adherence-ledger-2026-08-11.md`.
+
+Verdict doctrine (ratified 2026-08-12; BOUND-FORM AMENDMENT 2026-08-13,
+Joe direct chat): a critique aimed at an unclaimed target FAILS as a
+critique regardless of internal validity; verdicts use the two-component
+form (failure first, banked mathematics second) per
+`explorations/claim-indexed-verdict-doctrine-2026-08-12.md` — read it
+before writing any Nguyen/chirality/generations verdict. **Never write
+that a critic, a critique, or an objection "is correct" or "is sound"
+without binding the word to the object analyzed.** "The computation is
+correct on the object it was performed on" is a fact about a computation;
+"he is correct" is a verdict about a dispute, and the second does not
+follow from the first. The unbound form is the exact token that closes a
+research direction: a reader files "correct" as "settled" and stops. This
+binds our own credits too, including the second clause of the verdict
+form above.
+
+Relay rule (v1.1, same ratification): any statement about a registered
+claim — in a ledger block, status entry, summary, return text, or
+receipt — carries its SC- IDs inline and preserves the source sentence's
+polarity verbatim. Frame regression under compression is the measured
+failure mode (worked example in the decoupling packet's integration
+note); summaries are pointers, not content, for frame-critical material.

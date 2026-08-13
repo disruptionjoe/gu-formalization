@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260812-090014-gu-source-i2b-hq-stationarity",
+  "ledger_version": "0.201",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_claims": ["SC-ACT-04"],
+  "source_return": "SOURCE_CONFIRMS_SC_ACT_04_RESIDUAL_SQUARE_OWNER__SOURCE_SILENT_ON_HQ_REDUCTION_BACKGROUND_AND_TRANSVERSE_CANCELLATION",
+  "layer0": {
+    "eddy_vs_shiab_image": "DISTINCT",
+    "residual_vs_norm_square": "DISTINCT",
+    "zero_action_vs_residual_zero": "DISTINCT_IN_KREIN_GEOMETRY",
+    "restricted_vs_full_stationarity": "DISTINCT",
+    "local_background_vs_derived_cosmology": "DISTINCT"
+  },
+  "exact_results": {
+    "moving_representatives": 4,
+    "eddy_image_gram": 192,
+    "eddy_displaced_torsion_cross_gram": 0,
+    "displaced_torsion_gram": 0,
+    "restricted_potential": "96*(rho+r^2/3)^2",
+    "restricted_nonzero_branch": "r^2=-3*rho",
+    "restricted_radial_hessian": "-256*rho",
+    "full_fixed_Hq_connection_dimension": 196,
+    "nonzero_transverse_gradient_cells": 14,
+    "gradient_support": {
+      "diagonal_0_through_11": "8/3",
+      "diagonal_12": "1",
+      "diagonal_13": "-1"
+    },
+    "doublet_tangent_gradient": "ZERO_ON_ALL_FOUR_DIRECTIONS",
+    "branch_residual": "NONZERO_KREIN_NULL"
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_parameters": 0,
+    "new_data": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "rho": "PREEXISTING_UNSELECTED_BACKGROUND",
+    "J": "PREEXISTING_UNSELECTED_DIMENSION_20_FAMILY",
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "verdict": "SURVIVES_SCOPED__SOURCE_ACTION_OWNS_RESTRICTED_POTENTIAL__FULL_FIXED_HQ_STATIONARITY_FAILS_IN_TRUNCATION__REDUCTION_BACKGROUND_AND_PHYSICS_OPEN",
+  "next_gate": "CONSTRUCT_ACTION_OWNED_MOVING_REDUCTION_OR_COMPLETE_CONNECTION_JET_BACKGROUND_CANCELLATION__RETEST_14_CELL_GRADIENT__THEN_PHYSICAL_KINETIC_GOLDSTONE_PHOTON_YUKAWA_BV_DOMAIN",
+  "artifacts": {
+    "report": "explorations/conditional-build/selected-k77-source-i2b-hq-stationarity-2026-08-12.md",
+    "probe": "tests/channel-swings/selected_k77_source_i2b_hq_stationarity_probe.py",
+    "source_return": "lab/sources/selected-k77-source-i2b-hq-stationarity-source-return-2026-08-12.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-12-selected-k77-source-i2b-hq-stationarity-review.md"
+  }
+}
