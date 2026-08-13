@@ -7,6 +7,22 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B ENDPOINT COMPATIBILITY + RANK-56 ADAPTER
+> CORRECTION (ledger no-change).** The prior frozen theorem inherited the
+> one-third path-average residual after its literal `SC-ACT-04` attribution
+> had already been withdrawn. Porting to the separately printed endpoint on
+> the same conditional fixed-`H_q` pairing changes the Hessian substantially:
+> endpoint-minus-surrogate `H0` has rank `193` and support `544`, while the
+> defect difference has rank `56` and support `156`. Nevertheless the endpoint
+> obstruction profile remains exactly `14,14,14,14`, combined rank `56`.
+> **Do not inherit coefficients merely because ranks agree, and do not use the
+> separate rank-56 pure-frame `dot P_+` as a cancellation. Since `q_g=g/2`,
+> its pullback along the independent 196-real connection translation is zero.
+> Next build a genuine `A/T`-dependent `Q_B`/coefficient owner, derive an
+> action-owned field-to-metric tangent graph, or port the corrected `E_act`
+> second Hessian as a separate rival.** Source `Q_B`, nonlinear Noether/BV,
+> global domain and preboundary/BFV remain open; no accounting or posture move.
+
 > **2026-08-13 K77 I2B FROZEN-HESSIAN COMPATIBILITY GATE (ledger
 > no-change).** The exact fourteen-row principal compatibility family cannot
 > be extended through the complete frozen residual-square Hessian by any

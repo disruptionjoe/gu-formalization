@@ -7,6 +7,16 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B endpoint frozen-compatibility and adapter correction (2026-08-13)
+
+`conditional-build/selected-k77-i2b-endpoint-frozen-compatibility-adapter-2026-08-13.md`
+ports the prior frozen calculation from the withdrawn one-third surrogate
+attribution to the printed endpoint residual under the same fixed-`H_q`
+comparator. The coefficients change at rank 193, but the exact obstruction
+remains `14+14+14+14`, combined rank 56. The separately known rank-56
+`dot P_+` has zero pullback on independent connection translations; a genuine
+field-to-frame adapter or `A/T`-dependent coefficient remains open.
+
 ## K77 I2B frozen-Hessian compatibility gate (2026-08-13)
 
 `conditional-build/selected-k77-i2b-frozen-hessian-compatibility-2026-08-13.md`

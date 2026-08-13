@@ -7,6 +7,12 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-endpoint-frozen-compatibility-source-return-2026-08-13.md`](selected-k77-i2b-endpoint-frozen-compatibility-source-return-2026-08-13.md)
+  - corrects the one-third path-average versus printed-endpoint residual locus;
+    attributes the endpoint frozen port and zero field-to-frame pullback to the
+    repository; and returns source-silent on `Q_B`, the adapter and nonlinear
+    Noether/BV completion.
+
 - [`selected-k77-i2b-frozen-hessian-compatibility-source-return-2026-08-13.md`](selected-k77-i2b-frozen-hessian-compatibility-source-return-2026-08-13.md)
   - confirms the I2B residual square, distinct `Q_B` slot and moving affine
     connection/observation grammar; returns source-silent on the exact frozen

@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current endpoint compatibility + rank-56 adapter correction (ledger
+> no-change):** the prior frozen theorem inherited the one-third path-average
+> residual after literal `SC-ACT-04` ownership of that residual had already
+> been withdrawn. On the same conditional fixed-`H_q` pairing, the printed
+> endpoint gives symmetric rank-196 `H0`, zero `H1_mu` and the same exact
+> `14,14,14,14` combined-rank-56 obstruction. But endpoint-minus-surrogate
+> `H0` has rank 193 and the defect difference has rank 56: ranks transfer,
+> coefficients do not. The separately built pure-frame `dot P_+` also has
+> rank 56 but acts on a different 392-real carrier and has zero pullback along
+> independent connection translations because `q_g=g/2`. Rank one is a
+> genuine `A/T`-dependent moving owner, an action-derived field-to-metric
+> tangent graph, or a separate corrected-`E_act` second-Hessian port. Source
+> `Q_B`, nonlinear Noether/BV and preboundary/BFV remain open.
+
 > **Current frozen-Hessian compatibility gate (ledger no-change):** the exact
 > fourteen-row principal compatibility family has no constant lower-order
 > completion through the complete frozen residual-square Hessian. `H0` is
