@@ -7,6 +7,15 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B stationary product-rule Ward response (2026-08-13)
+
+`conditional-build/selected-k77-i2b-stationary-product-rule-ward-2026-08-13.md`
+adds the missing commutator of the nonzero stationary two-jet with a constant
+gauge parameter and the complete owned lower-order Hessian. The frozen
+constant-parameter response is rank 90 with sole kernel `e12e13`; the
+independent second-parameter-jet trace adds rank 25. This isolates a rank-115
+moving Ward-completion burden without promoting it to an anomaly or mode count.
+
 ## K77 I2B projected-adjoint jet prolongation (2026-08-13)
 
 `conditional-build/selected-k77-i2b-projected-adjoint-jet-prolongation-2026-08-13.md`

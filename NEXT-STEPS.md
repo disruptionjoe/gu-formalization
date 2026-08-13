@@ -7,6 +7,18 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B STATIONARY PRODUCT-RULE WARD RESPONSE (ledger
+> no-change).** Differentiating the adjoint action through the nonzero
+> stationary two-jet produces an exact rank-91 constant-parameter principal
+> response. The owned lower-order response has rank 25; their sum has rank 90
+> with sole kernel generator `e12e13`. The independent second-parameter-jet
+> Lorentz trace adds rank 25, for a combined frozen Ward burden of rank 115.
+> **Do not call this an anomaly or physical-mode count. Next assemble moving
+> Shiab/`Q_B`/`H_q`/observation responses at constant, first-jet and second-jet
+> parameter order, require exact Ward cancellation while retaining `e12e13` as
+> a control, then run Spencer compatibility.** No ledger, verdict, accounting,
+> datum, canon or posture move.
+
 > **2026-08-13 K77 I2B PROJECTED-ADJOINT JET PROLONGATION (ledger
 > no-change).** The field-level rank-25 `Cl2` projected adjoint image does not
 > by itself supply the full stationary two-jet gauge/BV quotient. Across all

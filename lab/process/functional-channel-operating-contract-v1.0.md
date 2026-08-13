@@ -62,6 +62,16 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The stationary product-rule Ward successor further decomposes the remaining
+gauge burden. The nonzero stationary two-jet supplies a rank-91 constant-
+parameter principal response; the complete owned lower-order response has
+rank 25, and their columnwise sum has rank 90 with sole kernel `e12e13`. The
+effective second-parameter-jet Lorentz trace is independent rank 25. Build
+must not call the combined rank 115 an anomaly or physical count. It next owns
+the moving Shiab/`Q_B`/`H_q`/observation response at constant, first-jet and
+second-jet parameter orders, with exact Ward cancellation required before
+Spencer or symplectic reduction.
+
 The projected-adjoint prolongation successor sharpens the local stationary
 gate without migrating the ledger. Ten symmetric jet copies of the exact
 rank-25 field adjoint image have rank 250, but their restriction to the frozen

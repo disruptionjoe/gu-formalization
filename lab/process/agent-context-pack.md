@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current stationary product-rule Ward response (ledger no-change):** the
+> nonzero stationary two-jet contributes a rank-91 constant-parameter
+> product-rule response. The complete owned lower-order response has rank 25;
+> their sum has rank 90 and sole kernel `e12e13`. The independent second-
+> parameter-jet Lorentz trace adds rank 25, giving a rank-115 frozen moving-
+> Ward burden. This is not an anomaly or physical count. Rank one is moving
+> Shiab/`Q_B`/`H_q`/observation completion at constant, first-jet and second-
+> jet parameter order, followed by Spencer compatibility.
+
 > **Current projected-adjoint jet prolongation (ledger no-change):** the exact
 > rank-25 field-level `Cl2` adjoint image is not yet the full stationary-jet
 > gauge/BV differential. Its ten-copy symmetric observed prolongation has rank
