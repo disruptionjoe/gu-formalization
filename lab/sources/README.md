@@ -7,6 +7,11 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-parameter-jet-affine-ward-source-return-2026-08-13.md`](selected-k77-i2b-parameter-jet-affine-ward-source-return-2026-08-13.md)
+  - confirms the affine Maurer-Cartan connection and covariant-derivative
+    grammar; returns source-silent on the selected real-K77 rank-25-to-zero
+    cancellation; and attributes that local formal theorem to the repository.
+
 - [`selected-k77-i2b-stationary-constant-moving-shiab-ward-source-return-2026-08-13.md`](selected-k77-i2b-stationary-constant-moving-shiab-ward-source-return-2026-08-13.md)
   - confirms the moving `Phi1/Phi2`/Shiab and residual-square grammar;
     returns source-silent on the exact `90 -> 24 -> 0` constant-parameter

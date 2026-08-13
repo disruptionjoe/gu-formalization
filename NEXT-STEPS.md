@@ -7,6 +7,18 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 K77 I2B PARAMETER-JET AFFINE WARD CLOSURE (ledger
+> no-change).** The independent rank-25 second-parameter-jet trace was a
+> raw-jet covariantization defect, not a geometric obstruction. A universal
+> free-associative calculation fixes the affine connection owner as the exact
+> opposite of the raw `partial_mu partial_nu eta` term; ported through all ten
+> selected K77 Hessian blocks it cancels `25 -> 0`, while the affine first-
+> parameter connection-jet subchain covariantizes universally. **Do not call
+> this a BV quotient or a completed source action. Next finish the full source-
+> connection-to-distortion plus observation/contact response, then run Spencer
+> compatibility on the complete local stationary symbol.** No new field, fitted
+> coefficient, datum, ledger, canon, accounting or posture move.
+
 > **2026-08-13 LANE A DRAIN PASS COMPLETE — 8 live items recovered from a
 > three-week-stale mailbox.** Record:
 > `explorations/lane-a-mailbox-drain-pass-2026-08-13.md`. All 26 queued

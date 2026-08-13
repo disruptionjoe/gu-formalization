@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current parameter-jet affine Ward closure (ledger no-change):** the raw
+> rank-25 second-parameter-jet Lorentz trace is exactly cancelled by the
+> affine connection owner required by covariant differentiation. The sign is
+> derived universally in a free associative algebra before the selected K77
+> Hessian blocks are loaded; all ten blocks then cancel coefficientwise and
+> the affine first-parameter connection-jet subchain covariantizes universally
+> as well. This introduces no field or coefficient. Rank one is the full
+> source-connection-to-effective-distortion plus observation/contact response,
+> followed by Spencer compatibility. Do not infer BV cohomology, a physical
+> quotient, global solutions, positivity or domain results.
+
 > **Current constant-parameter moving-Shiab Ward closure (ledger no-change):**
 > the predecessor's frozen rank-90 response is fully cancelled, but not by
 > moving Shiab alone. Moving `Phi1/Phi2`/Shiab has rank 90 and leaves rank 24;

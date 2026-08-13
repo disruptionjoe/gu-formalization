@@ -62,6 +62,17 @@ independent source translation `delta B=0, delta T=alpha`; diagonal Ward
 closure cannot be transferred into the `T`-Euler equation without a derived
 tangent or BV reduction.
 
+The parameter-jet affine successor closes the raw rank-25 Lorentz-trace burden
+without a new object. For an adjoint field, the connection terms in `D_mu
+D_nu` contribute exactly the negative of the raw `partial_mu partial_nu eta`
+field variation; a free-associative derivation must fix this sign before any
+action response is inspected. Build must distinguish the full affine source
+connection from its effective homogeneous distortion action, and must not call
+local covariant-jet closure a BV quotient. The next gate is Spencer
+compatibility only after the full source-connection/observation-contact
+response is assembled; the free-algebra identity alone does not close every
+first-parameter-jet owner in the action.
+
 The stationary constant-parameter successor closes the predecessor's rank-90
 burden exactly. Moving `Phi1/Phi2`/Shiab alone leaves rank 24; the co-moving
 `rho=-1/3` curvature-source input is exactly the missing rank-24 response, and

@@ -7,6 +7,15 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B parameter-jet affine Ward closure (2026-08-13)
+
+`conditional-build/selected-k77-i2b-parameter-jet-affine-ward-2026-08-13.md`
+derives the universal affine covariant-jet correction before porting it through
+the selected action. The raw rank-25 second-parameter-jet trace and the
+source-owned affine connection response are coefficientwise opposites on all
+ten blocks, so the complete local response has rank zero. BV, Spencer and
+global source/observation descent remain open.
+
 ## K77 I2B constant-parameter moving-Shiab Ward closure (2026-08-13)
 
 `conditional-build/selected-k77-i2b-stationary-constant-moving-shiab-ward-2026-08-13.md`
