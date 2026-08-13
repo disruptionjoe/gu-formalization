@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-13)
 
+> **Current frozen-Hessian compatibility gate (ledger no-change):** the exact
+> fourteen-row principal compatibility family has no constant lower-order
+> completion through the complete frozen residual-square Hessian. `H0` is
+> symmetric rank 196, every `H1_mu` vanishes, and principal surjectivity forces
+> `C0=0`; the remaining four degree-one defects have rank 14 each and combined
+> rank 56. This kills only a frozen algebraic correction. Rank one is the
+> complete arbitrary-field stationary coefficient derivative through moving
+> `Q_B/H_q`/Shiab/section/observation and the affine source connection, followed
+> by a covariant compatibility test. Do not call the present defect a nonlinear
+> Bianchi, Noether, BV, propagation, spectrum or phase-space obstruction.
+
 > **Current observation/contact and first Spencer gate (ledger no-change):**
 > complete inverse-transpose equation observation cannot reopen the
 > covariantly closed Euler row at a stationary point; off shell its

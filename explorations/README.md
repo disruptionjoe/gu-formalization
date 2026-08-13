@@ -7,6 +7,15 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 I2B frozen-Hessian compatibility gate (2026-08-13)
+
+`conditional-build/selected-k77-i2b-frozen-hessian-compatibility-2026-08-13.md`
+proves that no constant lower-order correction extends the exact fourteen-row
+principal compatibility family through the complete frozen residual-square
+Hessian. The forced `C0=0` leaves four rank-14 degree-one defects, combined
+rank 56. This closes only the naive frozen completion; moving covariant
+`Q_B/H_q`/Shiab/section/observation/affine-source ownership remains open.
+
 ## K77 I2B observation/contact and first Spencer gate (2026-08-13)
 
 `conditional-build/selected-k77-i2b-observation-contact-spencer-2026-08-13.md`

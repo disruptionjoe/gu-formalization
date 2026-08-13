@@ -74,6 +74,19 @@ until the complete lower-order/moving-coefficient Euler owner and source
 Noether/BV differential carry it. Higher Spencer and symplectic reduction
 remain downstream.
 
+The frozen-Hessian successor applies that exact family to the complete
+fixed-coefficient residual-square Hessian. Its zeroth-order block is symmetric
+rank 196, all four first-order cross blocks vanish, and the full principal
+image forces the only constant lower-order compatibility correction to be
+zero. The four surviving degree-one defects have rank fourteen each and
+combined rank 56. Build must record this as a falsification of the naive
+frozen divergence completion only. It next owns the arbitrary-field
+stationary coefficient derivative through moving `Q_B`, `H_q`, Shiab,
+section, observation and the affine source connection. Until those terms are
+assembled, do not promote the defect to a failure of nonlinear Bianchi,
+Noether/BV ownership or constraint propagation; the nonzero preboundary owner
+and symplectic reduction remain separate.
+
 The parameter-jet affine successor closes the raw rank-25 Lorentz-trace burden
 without a new object. For an adjoint field, the connection terms in `D_mu
 D_nu` contribute exactly the negative of the raw `partial_mu partial_nu eta`

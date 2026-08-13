@@ -7,6 +7,11 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-i2b-frozen-hessian-compatibility-source-return-2026-08-13.md`](selected-k77-i2b-frozen-hessian-compatibility-source-return-2026-08-13.md)
+  - confirms the I2B residual square, distinct `Q_B` slot and moving affine
+    connection/observation grammar; returns source-silent on the exact frozen
+    rank-56 compatibility defect and its covariant Noether/BV completion.
+
 - [`selected-k77-i2b-observation-contact-spencer-source-return-2026-08-13.md`](selected-k77-i2b-observation-contact-spencer-source-return-2026-08-13.md)
   - confirms rich observation and affine connection/covariant-derivative
     grammar; returns source-silent on stationary equation-dual no-reopening,
