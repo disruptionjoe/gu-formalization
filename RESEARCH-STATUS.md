@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Twistor/moving-BV/positive-state seven-gate 2026-08-13 (headline
+unchanged).** The base `Gr(2,C^4)` correspondence and separate normal
+`O(6,4)/U(3,2)` twistor fibre now construct at exact local/homogeneous grade.
+The moving normal complex structure closes the minimal longitudinal BRST
+algebra, and the universal twistor superconnection cancels its ghost and
+BRST-mixed curvature components. The first actual GU obstruction is now
+located at the unbuilt twistor `(0,1)` connection: its `F^(0,2)` and
+base-normal mixed curvature cannot yet be evaluated. Observed `Jhat`
+principal complex linearity survives, but the Penrose bundles/weights/
+pushforward, positive-energy closed domain, positive physical pairing and
+physical cohomology remain open. See
+`explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md`
+and its `47/47` exact probe. No verdict, residue, quotient, datum, canon or
+public-posture move.
+
 **J10 BV/Green descent side gate 2026-08-13 (headline unchanged).** The
 reflection-twisted full-carrier lift
 `Jhat=(R_split tensor J10) direct-sum J10` is an exact complex structure,

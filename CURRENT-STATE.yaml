@@ -18,12 +18,16 @@ current_result:
     conjugate indices are compatible with Weinstein's non-chiral total theory;
     they do not construct its claimed low-curvature luminous/dark decoupling.
     Adjacent fixed-J10 work shows eight mixed ordinary-gauge directions obstruct
-    fixed polarization, while moving J is covariant but not yet physical.
+    fixed polarization, while moving J is covariant but not yet physical. The
+    separate base and normal twistor kinematics and minimal moving-J
+    longitudinal BRST extension now construct; the actual twistor connection,
+    Penrose pushforward and positive physical state-space reconstruction do not.
   evidence:
     - explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
     - explorations/conditional-build/conditional-physics-ledger-v0.243.md
     - lab/process/conditional-physics-ledger-v0.243.json
     - explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md
+    - explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md
     - explorations/conditional-build/selected-k77-hq-vacuum-conjugation-quotient-2026-08-14.md
     - explorations/conditional-build/selected-k77-w-mirror-real-action-wholesale-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-w-mirror-action-pairing-ownership-2026-08-13.md
@@ -52,5 +56,7 @@ next_condition: >-
   survival. Do not identify the central U(1) with hypercharge, choose a flux by
   hand, or treat ordinary four-dimensional index equality as the source's
   emergent decoupling. In parallel, retain the moving-J BV extension and
-  normalized-connection bridge as the adjacent physical-domain route.
+  normalized-connection bridge as the adjacent physical-domain route; build
+  the program-native twistor carrier and actual lifted `(0,1)` connection
+  before attempting a Penrose pushforward or positive-state claim.
 what_needs_joe: none

@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_twistor_bv_positive_state_seven_gate_probe.py`
+  constructs the base `Gr(2,C^4)` correspondence and the separate normal
+  `O(6,4)/U(3,2)` homogeneous twistor fibre, verifies the moving-J constraint
+  tangent and nilpotent longitudinal BRST extension, and decomposes the
+  universal twistor superconnection square with firing `F^(0,2)` and mixed-
+  curvature plants. It then audits the unbuilt Penrose pushforward, positive
+  closed domain, physical pairing, cohomology and decoherence gates. Run with
+  Python 3; it passes `47/47`.
+
 - `channel-swings/selected_k77_central_u1_w_mirror_flux_gate_probe.py`
   proves the full-parent center is one-dimensional, the block-parent center is
   two-dimensional, and the anti-linear exchange makes the diagonal curvature

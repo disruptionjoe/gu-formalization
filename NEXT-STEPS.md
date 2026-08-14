@@ -7,6 +7,25 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-13 TWISTOR/MOVING-BV/POSITIVE-STATE SEVEN-GATE.** The base
+> `Gr(2,C^4)` correspondence and the normal `O(6,4)/U(3,2)` twistor fibre
+> construct separately and exactly; the latter has orbit/stabilizer dimensions
+> `20/25` and its moving complex structure preserves `J^2=-1` and
+> `J^T eta J=eta`. The minimal longitudinal extension
+> `s psi=c psi`, `sJ=[c,J]`, `sc=c^2` is nilpotent. The universal twistor
+> superconnection cancels its BRST-mixed and ghost-two curvature, leaving the
+> actual geometric gates `F_A^(0,2)` and `F_base,normal`. **The operative GU
+> twistor `(0,1)` connection, base-normal incidence/soldering map, Penrose
+> field bundles/weights/pushforward, positive-energy closed domain, positive
+> physical pairing and physical cohomology are not built. Next construct a
+> program-native rank-four twistor carrier and lift the selected GU connection;
+> compute its actual `(0,2)` and mixed curvature before attempting the
+> Penrose transform.** Keep base `S,Q`, normal vector `J_N`, spinor `J10`,
+> ambient Weyl halves and physical pairings distinct. See
+> `explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md`
+> and its `47/47` exact probe. No verdict, ledger, residue, quotient, datum,
+> canon or public-posture move.
+
 > **2026-08-14 CENTRAL-U(1) W/MIRROR FLUX GATE (ledger v0.243).** The full
 > `U(64,64)` parent has a unique central line, while the block-preserving
 > `U(32,32) x U(32,32)` subgroup has diagonal and relative center lines. Under
