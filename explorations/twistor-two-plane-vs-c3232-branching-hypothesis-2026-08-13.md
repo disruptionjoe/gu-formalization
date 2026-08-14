@@ -94,10 +94,26 @@ labelling, not the factorization.
 
 **1. `S_x` and `Q_x` are not automatically two copies of the same spinor space.**
 Intrinsically `T_x M_C = Hom(S_x, Q_x)`. This repository has already proved there is
-**no canonical equivariant identification `Q_x -> S_x`**. Woit's purely
-right-handed reinterpretation therefore requires extra real, temporal or
-non-holomorphic structure.
-See `explorations/woit-principles/twistor-grassmannian-kernel-2026-07-24.md`.
+**no canonical equivariant identification `Q_x -> S_x`**
+(`explorations/woit-principles/twistor-grassmannian-kernel-2026-07-24.md`).
+
+**SCOPE DECISION (Joe direct chat, 2026-08-13): the purely right-handed
+reinterpretation is NOT adopted, and this caution is therefore not load-bearing
+here.** That missing identification obstructs Woit's programme, which needs
+`Q_x -> S_x` to rewrite everything in right-handed terms. It does not obstruct the
+branching hypothesis in this file, which only needs `Hom(S_x, Q_x)` and is content
+for `S` and `Q` to be genuinely different spaces. Dropping the reinterpretation
+removes a known obstruction rather than deferring it.
+
+**What is retained from the Woit line after that scoping:** the signature dependence
+of spinor conjugation — that conjugation behaves differently in Euclidean and
+Lorentzian signature. That is a fact about spinor structures independent of the
+right-handed programme, and this session reached it independently in
+`explorations/c3c-covariant-constancy-structure-2026-08-13.md` Result 3: the
+split-layer complex structure exists iff the 4-block has odd `q`, i.e. exactly for
+Lorentzian signature, verified robust across ambient `(7,7)`, `(9,5)`, `(3,11)`,
+`(11,3)`, `(5,9)`. The motivating insight survives; the programme that carried it
+is not needed.
 
 **2. The `32 + 32` of the Hermitian signature `(32,32)` must not be assumed to be
 the two `2 (x) 16` summands.** "Positive versus negative Krein subspace," "ambient
