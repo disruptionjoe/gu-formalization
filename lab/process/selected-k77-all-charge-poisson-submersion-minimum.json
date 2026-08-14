@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "result": {
+    "disposition": "ALL_CHARGE_POISSON_SUBMERSION_MINIMUM_EXACTLY_182__REGULAR_LOCUS_MINIMUM_98__WEAKER_SINGULAR_MAP_CLASS_OPEN",
+    "target": "so(7,7)*",
+    "target_dimension": 91,
+    "pointwise_bound": "dim(M)>=dim(P)+corank(pi_p)=182-rank(pi_p)",
+    "regular_poisson_rank": 84,
+    "regular_minimum": 98,
+    "zero_poisson_rank": 0,
+    "all_charge_poisson_submersion_minimum": 182,
+    "attaining_construction": "T*Spin_0(7,7)",
+    "weaker_rank_singular_poisson_map_class": "OPEN_SEPARATE_TARGET"
+  },
+  "claim_ceiling": "MATHEMATICAL_EQUIVARIANT_POISSON_SUBMERSION_MINIMUM__NO_SOURCE_EDGE_ACTION_DOMAIN_OR_QUANTIZATION",
+  "evidence": {
+    "probe": "tests/channel-swings/selected_k77_all_charge_poisson_submersion_minimum_probe.py",
+    "result": "explorations/conditional-build/selected-k77-all-charge-poisson-submersion-minimum-2026-08-14.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-all-charge-poisson-submersion-minimum-review.md"
+  }
+}

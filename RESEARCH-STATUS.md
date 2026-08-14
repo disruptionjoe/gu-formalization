@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**All-charge Poisson-submersion minimum 2026-08-14 (exactly 182).** A Poisson
+submersion from symplectic `M` to the 91-dimensional Lie--Poisson target obeys
+the pointwise bound `dim M >= 91+corank(pi_p)=182-rank(pi_p)`. The regular
+rank-84 locus reproduces the sharp minimum 98. At the zero coadjoint orbit the
+rank is zero, forcing every all-charge submersion to have dimension at least
+182; the cotangent group attains it. A weaker map singular at nonregular
+charges is a separate open class. See
+`explorations/conditional-build/selected-k77-all-charge-poisson-submersion-minimum-2026-08-14.md`
+and its exact `27/27` certificate.
+
+**Nonzero-`T` epsilon jet-order gate 2026-08-14 (next Euler rows
+underdetermined at field one-jet order).** The admitted action/Bianchi witness
+does not determine the primitive-epsilon formal adjoint or total fixed-
+`varpi` metric graph. The first requires at least a compatible field two-jet;
+the second also requires moving Shiab/Hodge/frame/volume/observation
+derivatives. Exact paired-extension controls prove both non-determinacies
+without killing either branch. See
+`explorations/conditional-build/selected-k77-nonzero-t-epsilon-jet-order-gate-2026-08-14.md`
+and its `25/25` certificate. `SR-1` remains `BACKGROUND-MISSING` and `SR-2`
+remains blocked.
+
 **Canonical-Zorro nonzero-`T` first-action jet 2026-08-14 (action/Bianchi
 admitted; source metric/epsilon open).** Holding canonical `B_Z`, set
 `T=t Phi1` and choose the grade-two exterior jet so the printed residual is
@@ -23,15 +44,15 @@ and its exact `40/40` probe. `SR-1` remains `BACKGROUND-MISSING`, `SR-2`
 remains blocked, and no ledger, canon or public-posture change follows.
 
 **Complete regular-semisimple Cartan atlas 2026-08-14 (global minimum 98 on
-the regular locus; singular strata open).** For every representative real
+the regular locus; all-charge submersion minimum now 182).** For every representative real
 Cartan chamber `C`, the restricted cotangent carrier
 `M_C=Spin_0(7,7) x C` is exact symplectic of dimension 98 and its equivariant
 moment map has rank 91. The finite generally disconnected union over real
 Cartan conjugacy and chamber types covers the complete regular-semisimple
 locus, where the regular Poisson lower bound makes 98 minimal. This preserves
 the earlier orbit-product obstruction because the right-Cartan fibre remains
-upstairs. It does not cover singular charges; the all-strata minimum remains
-open in `[98,182]`. See
+upstairs. It does not cover singular charges; the later zero-orbit corank
+bound fixes the all-charge Poisson-submersion minimum at 182. See
 `explorations/conditional-build/selected-k77-regular-semisimple-cartan-atlas-realization-2026-08-14.md`
 and its `27/27` exact structural certificate.
 

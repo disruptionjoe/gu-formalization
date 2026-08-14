@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "result": {
+    "disposition": "CANONICAL_ZORRO_NONZERO_T_ACTION_BIANCHI_ONE_JET_ADMITTED__PRIMITIVE_EPSILON_AND_TOTAL_METRIC_ROWS_UNDERDETERMINED_AT_THIS_JET_ORDER",
+    "owned_field_order": 1,
+    "primitive_epsilon_required_field_order_at_least": 2,
+    "missing_graph_returns": [
+      "moving_shiab",
+      "hodge",
+      "frame",
+      "volume",
+      "observation"
+    ],
+    "branch_status": "NOT_YET_FALSIFIED__BACKGROUND_MISSING",
+    "next_gate": "CONSTRUCT_COMPATIBLE_FIELD_TWO_JET_AND_SELECTED_K77_MOVING_GRAPH_DERIVATIVE_BANK"
+  },
+  "claim_ceiling": "JET_ORDER_AND_DETERMINACY_RESULT__NOT_BRANCH_KILL_OR_STATIONARY_BACKGROUND",
+  "evidence": {
+    "probe": "tests/channel-swings/selected_k77_nonzero_t_epsilon_jet_order_gate_probe.py",
+    "result": "explorations/conditional-build/selected-k77-nonzero-t-epsilon-jet-order-gate-2026-08-14.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-nonzero-t-epsilon-jet-order-gate-review.md"
+  }
+}

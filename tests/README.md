@@ -6,6 +6,18 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_all_charge_poisson_submersion_minimum_probe.py`
+  proves the pointwise bound `dim M>=182-rank(pi_p)`, recovers the regular
+  minimum 98 and uses the zero orbit to fix the all-charge Poisson-submersion
+  minimum at 182. It preserves weaker rank-singular Poisson maps as a separate
+  class and passes `27/27` with the Python standard library.
+
+- `channel-swings/selected_k77_nonzero_t_epsilon_jet_order_gate_probe.py`
+  proves by exact paired extensions that the admitted field one-jet cannot
+  determine the primitive-epsilon formal adjoint or total fixed-`varpi`
+  metric graph, while preserving both algebraic branches. It passes `25/25`
+  with the Python standard library.
+
 - `channel-swings/selected_k77_regular_semisimple_cartan_atlas_realization_probe.py`
   replays the selected chamber certificate, proves the type-independent
   `84+14=98` restricted-cotangent rank theorem, composes the finite real-Cartan

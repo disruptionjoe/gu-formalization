@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8ec9c6a1e07beba50bde58d9d3a3ee6f3dd5549c
+revision_basis: 74b90c019835c4c8ca6d5f21cbef73488574ff4b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -71,10 +71,14 @@ current_result:
     13-cell correction kills all 196 action and 5,096 Bianchi rows exactly.
     This is a canonical-Zorro local formal action/Bianchi jet, not a complete
     stationary background. Its direct action density -t(27+728t^2) is nonzero
-    at both roots, but only E_T has closed; the total fixed-varpi metric and
-    primitive-epsilon rows still require E_B and the moving Shiab/Hodge/frame/
-    observation graph. SR-1 remains background-missing and SR-2 remains
-    blocked.
+    at both roots. The witness is only a field one-jet: two exact extensions
+    with the same one-jet give different D_B-adjoint(E_B-E_T) values, and two
+    moving graph returns can preserve or cancel the direct density partial.
+    Thus primitive epsilon requires at least a compatible field two-jet, while
+    total fixed-varpi metric stationarity requires the selected moving Shiab/
+    Hodge/frame/volume/observation derivative bank. Neither next row is
+    determined at the admitted order, and neither branch is killed. SR-1
+    remains background-missing and SR-2 remains blocked.
     The ten rank-128 leaks are already the full N* tensor S observation-kernel
     module; the selected graph, not the carrier, remains only compact-natural.
     The bare selected action's endpoint potential now decides the boundary-law
@@ -90,9 +94,12 @@ current_result:
     neighborhood has dimension at least 98. The sharp local split model has
     dimension 84+14=98; the exact Cartan-slice construction now globalizes
     that minimum over every regular Cartan chamber as a finite disconnected
-    atlas. The canonical full cotangent parent has dimension 182. Only
-    singular-stratum gluing and the all-strata minimum remain open between
-    those bounds.
+    atlas. For a Poisson submersion J:M->so(7,7)*, the pointwise radical bound
+    is dim(M)>=182-rank(pi). At the zero coadjoint orbit the rank is zero, so
+    every all-charge Poisson submersion has dimension at least 182. The full
+    cotangent parent attains that bound. Hence the all-charge submersion
+    minimum is exactly 182; only a separately typed weaker map that loses
+    submersivity at singular charges can seek a smaller carrier.
     The endpoint's seven independent type-D7 coadjoint invariants all have
     exact nonzero first derivative along the action-owned off-shell line
     (B,T)->lambda(B,T). Their common kernel is the 84-dimensional Kirillov
@@ -180,6 +187,10 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-all-charge-poisson-submersion-minimum-2026-08-14.md
+    - lab/process/selected-k77-all-charge-poisson-submersion-minimum.json
+    - explorations/conditional-build/selected-k77-nonzero-t-epsilon-jet-order-gate-2026-08-14.md
+    - lab/process/selected-k77-nonzero-t-epsilon-jet-order-gate.json
     - explorations/conditional-build/selected-k77-zorro-nonzero-t-first-action-jet-gate-2026-08-14.md
     - lab/process/selected-k77-zorro-nonzero-t-first-action-jet-gate.json
     - explorations/conditional-build/selected-k77-regular-semisimple-cartan-atlas-realization-2026-08-14.md
@@ -265,9 +276,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the exact canonical-B_Z nonzero-T action/Bianchi jet also satisfy the
-  source-owned primitive-epsilon and total fixed-varpi metric/observation
-  Euler graph, and can it prolong to one complete stationary background?
+  Can the exact canonical-B_Z nonzero-T action/Bianchi one-jet be prolonged to
+  a compatible field two-jet carrying the complete selected K77 moving graph
+  derivative bank, so that primitive-epsilon and total fixed-varpi metric
+  stationarity become determined on the same witness?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -277,13 +289,13 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Hold the two algebraic amplitudes and explicit 13-cell symmetric correction
-  fixed. Compute E_B and the moving-Shiab primitive-epsilon plus fixed-varpi
-  metric/Hodge/frame/observation graph on that exact jet. Do not call the live
-  direct volume partial a total metric obstruction. If these rows close,
-  continue the Spencer/formal-integrability tower on the same carrier; if one
-  fails, kill this branch at that owned row. In the independent carrier lane,
-  glue or obstruct the 98-dimensional regular Cartan atlas across singular
-  orbit-type walls, or sharpen the best all-strata carrier below 182.
+  fixed. Construct a compatible field two-jet and serialize the selected K77
+  moving Shiab/Hodge/frame/volume/observation derivative bank. Then compute
+  E_B, D_B-adjoint(E_B-E_T), primitive epsilon and the total fixed-varpi metric
+  row on that same witness. Do not fill missing higher derivatives with zero
+  or call the direct density partial a total obstruction. In the independent
+  carrier lane, treat 182 as the exact all-charge Poisson-submersion minimum;
+  type a weaker rank-singular Poisson-map target before seeking below 182.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

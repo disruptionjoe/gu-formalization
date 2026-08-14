@@ -23,6 +23,15 @@ canon_verdict_change: none
 BACKGROUND-MISSING
 ```
 
+The latest canonical-Zorro nonzero-`T` candidate advances through exact
+action/Bianchi field one-jet grade, but it does not yet change that
+disposition. Primitive epsilon contains `D_B^!(E_B-E_T)` and therefore needs
+at least a compatible field two-jet; total fixed-`varpi` metric stationarity
+also needs the moving Shiab/Hodge/frame/volume/observation derivative bank.
+Exact same-one-jet controls give different values for both downstream rows,
+so missing higher-order data cannot be filled with zero and neither algebraic
+branch is yet admitted or killed as a complete background.
+
 The algebraic composition is not the obstruction. For any equivariant total
 residual, differentiating equivariance gives
 

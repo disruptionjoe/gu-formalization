@@ -7,6 +7,26 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 ALL-CHARGE POISSON-SUBMERSION MINIMUM.** For any symplectic
+> Poisson submersion onto `so(7,7)*`, the pointwise bound is
+> `dim M >= 182-rank(pi)`. The zero coadjoint orbit has rank zero, so an
+> all-charge submersion needs dimension at least `182`; `T*Spin_0(7,7)`
+> attains it. Thus the regular locus minimum is `98` and the all-charge
+> submersion minimum is exactly `182`. **Before seeking a smaller carrier,
+> define and justify a weaker Poisson-map class that loses submersivity at
+> singular charges.** Exact structural probe `27/27`; no edge action, domain,
+> quantization, ledger or canon move.
+
+> **2026-08-14 NONZERO-T EPSILON JET-ORDER GATE.** The admitted canonical-
+> `B_Z` action/Bianchi witness is a field one-jet. It does not determine
+> `D_B^!(E_B-E_T)`, which requires at least a compatible field two-jet, or the
+> total fixed-`varpi` metric row, which also needs moving Shiab, Hodge, frame,
+> volume and observation derivatives. Two exact same-one-jet extensions give
+> different primitive rows; two graph returns preserve or cancel the direct
+> density partial. **Next construct the compatible two-jet and complete moving
+> graph bank, then evaluate all rows on the same witness.** Neither algebraic
+> branch is killed; exact probe `25/25`.
+
 > **2026-08-14 CANONICAL-ZORRO NONZERO-T FIRST-ACTION JET ADMISSION.** A
 > genuinely new canonical-`B_Z` branch now passes the printed residual, true
 > translation Euler and inherited Bianchi rows. With `T=t Phi1`, the sole
@@ -15,9 +35,10 @@ updated_at: "2026-08-14"
 > fourteen-cell certificate support—and the same explicit rational 13-cell
 > symmetric correction kills all `196+5,096` rows at either root. The direct
 > density `-t(27+728t^2)` is nonzero, but that is only a volume partial because
-> `E_B` has not closed. **Next compute `E_B` and the moving-Shiab primitive-
-> epsilon plus total fixed-`varpi` metric/observation graph on this exact
-> witness; if admitted, continue formal integrability on the same carrier.**
+> `E_B` has not closed. The later jet-order gate proves the field one-jet does
+> not determine the downstream rows. **Next construct a compatible field two-
+> jet and moving graph bank, then compute `E_B`, primitive epsilon and total
+> fixed-`varpi` metric stationarity on the same witness.**
 > Exact probe `40/40`; `SR-1` remains `BACKGROUND-MISSING`, `SR-2` remains
 > blocked, and no ledger, canon or scheduled-priority change follows.
 
@@ -26,9 +47,9 @@ updated_at: "2026-08-14"
 > Cartan chamber. The finite generally disconnected union of
 > `Spin_0(7,7) x C` components globally realizes the complete regular-
 > semisimple locus and attains its lower bound. It does not cover singular
-> charges. **Next glue or obstruct the construction across singular orbit-type
-> walls, or sharpen the best all-strata carrier below the 182-dimensional
-> cotangent-group fallback.** Exact structural probe `27/27`; no source-owned
+> charges. The later zero-orbit corank theorem fixes the all-charge Poisson-
+> submersion minimum at `182`. **Only after typing a weaker rank-singular
+> Poisson-map class should a below-182 carrier be sought.** Exact structural probe `27/27`; no source-owned
 > edge theory, ledger, canon or public-posture move.
 
 > **2026-08-14 NONZERO-T/ZORRO INTERSECTION CORRECTION.** Two exact nonzero-
