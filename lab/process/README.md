@@ -15,8 +15,15 @@ The rank-eight mixed obstruction is not a closed edge algebra and the active
 `17+8` representatives generate full `so(7,7)`. Full covariance requires a
 source-owned split reduction or the 40-dimensional moving-polarization orbit.
 The successor proves source `epsilon` owns that orbit as a dependent
-configuration composite; the actual endpoint momentum's 51+40 charge
-decomposition, reduced BFV and analytic domain remain open.
+configuration composite. The exact endpoint decomposition then finds 15 live
+split and 15 live mixed components, so direct cotangent descent fails at the
+frozen fixture. The larger charged edge completion, full BFV closure and
+analytic domain remain open.
+
+Current endpoint charge result:
+`explorations/conditional-build/selected-k77-endpoint-stabilizer-charge-gate-2026-08-14.md`.
+Machine-readable exact registry:
+[`selected-k77-endpoint-stabilizer-charge-gate.json`](selected-k77-endpoint-stabilizer-charge-gate.json).
 
 Current ownership correction/result:
 `explorations/conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md`.

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "SELECTED_ACTION_ENDPOINT_SPLIT_CHARGE_NONZERO__COTANGENT_DESCENT_TO_POLARIZATION_ORBIT_FAILS_AT_FROZEN_FIXTURE__LARGER_CHARGED_EDGE_HORN_RETAINED",
+  "carrier": {
+    "configuration": "source-epsilon-dependent full labelled K77 frame",
+    "endpoint_distortion": "selected-action T fixture",
+    "endpoint_covector": "action-derived E_B-E_T bank",
+    "charge_formula": "Q_X = (E_B-E_T)([X,T])",
+    "generator_algebra": "so(7,7)"
+  },
+  "charge_decomposition": {
+    "split_dimension": 51,
+    "mixed_dimension": 40,
+    "split_nonzero_support": 15,
+    "mixed_nonzero_support": 15,
+    "split_squared_norm": "1525648/9",
+    "mixed_squared_norm": "2364016/9",
+    "values_real_on_fixture": true,
+    "support_is_not_independent_constraint_count": true
+  },
+  "cotangent_descent": {
+    "criterion": "all 51 split-stabilizer charges vanish",
+    "passes": false,
+    "grade": "EXACT_FROZEN_SELECTED_ACTION_FIXTURE",
+    "every_background_theorem": false
+  },
+  "continuation": {
+    "zero_stabilizer_moment_level_required_before_orbit_reduction": true,
+    "larger_charged_edge_completion": "RETAINED",
+    "reduced_orbit_moment_map": "NOT_ADMITTED_ON_CURRENT_FIXTURE",
+    "bfv_master_equation": "OPEN_ON_LARGER_EDGE_CARRIER",
+    "analytic_domain": "DEFERRED_UNTIL_BFV_CLOSURE"
+  },
+  "controls": {
+    "selected_action_bank_replay": "PASS_44_OF_44",
+    "analytic_vs_exact_action_five_point": "PASS_91_OF_91",
+    "zero_orbit_direction": "ZERO_CHARGE",
+    "deleted_live_split_component": "FINGERPRINT_CHANGES"
+  },
+  "claim_ceiling": {
+    "w_or_mirror_selected": false,
+    "independent_orbit_coordinates_added": 0,
+    "physical_cohomology": "OPEN",
+    "chirality_or_generation_count": "NOT_INFERRED",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "CONSTRUCT_FULL_91_GHOST_BFV_CHARGE_ON_THE_RETAINED_CHARGED_EDGE_COMPLETION_AND_VERIFY_MASTER_EQUATION__THEN_SELECT_A_CODIMENSION_ONE_ANALYTIC_DOMAIN"
+}

@@ -7,18 +7,28 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 ENDPOINT STABILIZER-CHARGE GATE.** The exact selected-action
+> endpoint covector `E_B-E_T` has nonzero split charge on the frozen fixture:
+> 15 of 51 split components and 15 of 40 mixed components survive, with every
+> analytic value independently reproduced by exact action differentiation.
+> Cotangent descent to `Spin(7,7)/H_split` therefore fails at this point. The
+> preregistered fallback is active: retain the larger charged edge completion
+> and impose the split moment-map zero level as a genuine constraint. **Next
+> construct the full 91-ghost BFV charge and verify its master equation,
+> including constraint rank/reducibility; only then build the analytic
+> domain.** Do not infer fifteen independent constraints from support, choose
+> W/mirror, or call the dependent orbit physical cohomology.
+
 > **2026-08-14 POLARIZATION COTANGENT-DESCENT GATE.** Source `epsilon`
 > already owns the full moving labelled Clifford frame, so the
 > 40-dimensional `Spin(7,7)/H_split` W/mirror polarization orbit is a
 > dependent composite with zero new configuration fields. This corrects the
 > v0.251 configuration-owner wording without selecting W or mirror. The
-> reduced preboundary owner remains open: a full-frame endpoint covector
+> reduced preboundary criterion is exact: a full-frame endpoint covector
 > descends to the orbit iff all 51 split-stabilizer charge components vanish.
-> **Next decompose the actual selected-action endpoint momentum into its
-> 51 split and 40 mixed components.** If split charge vanishes, construct the
-> reduced moment map and 91-ghost BFV complex; otherwise derive the required
-> reduction/constraint or retain a larger edge completion. Do not call the
-> dependent orbit physical cohomology or begin the analytic domain early.
+> The successor proves that the actual frozen selected-action fixture fails
+> this test, so the larger charged edge completion is retained. Do not call
+> the dependent orbit physical cohomology or begin the analytic domain early.
 
 > **2026-08-14 BOUNDARY-EDGE LIE-CLOSURE GATE (ledger v0.251).**
 > The selected rank-eight mixed obstruction is a tangent image, not a closed

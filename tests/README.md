@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_endpoint_stabilizer_charge_gate_probe.py`
+  replays the exact selected-action endpoint bank, evaluates all 51 split and
+  40 mixed moment-map components, independently reproduces every component by
+  exact action differentiation, freezes the `15+15` support and rational
+  fingerprints, and validates the non-descent registry. Run with pinned SymPy
+  1.14.0.
+
 - `channel-swings/selected_k77_polarization_cotangent_descent_gate_probe.py`
   proves the source-frame split-orbit differential has kernel 51 and rank 40,
   checks moving-projector covariance, and proves the exact cotangent descent

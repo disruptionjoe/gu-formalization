@@ -30,10 +30,13 @@ current_result:
     stabilizer reduction or the 40-dimensional `Spin(7,7)/H_split` moving-
     polarization orbit. Source `epsilon` already owns the latter as a
     dependent projection of its full moving labelled Clifford frame, with
-    zero new configuration fields, but the actual endpoint momentum has not
-    yet passed the necessary 51-component stabilizer-annihilation test for
-    cotangent/preboundary descent. BFV and analytic closure remain open, so
-    no luminous/mirror physical selection follows.
+    zero new configuration fields. The actual selected-action endpoint
+    momentum fails the necessary stabilizer-annihilation test on the frozen
+    exact fixture: 15 of 51 split charges and 15 of 40 mixed charges are
+    nonzero. Direct cotangent descent to the polarization orbit is therefore
+    unavailable there. The larger charged edge completion and its split
+    moment-map zero level must be retained; full BFV and analytic closure
+    remain open, so no luminous/mirror physical selection follows.
     Weinstein's total theory remains
     explicitly non-chiral; the open physics burden is low-curvature
     luminous/dark chiral-looking decoupling through a nonstandard operator or
@@ -45,6 +48,8 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-endpoint-stabilizer-charge-gate-2026-08-14.md
+    - lab/process/selected-k77-endpoint-stabilizer-charge-gate.json
     - explorations/conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md
     - lab/process/selected-k77-polarization-cotangent-descent.json
     - explorations/conditional-build/selected-k77-boundary-edge-lie-closure-gate-2026-08-14.md
@@ -76,9 +81,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the actual selected-action endpoint momentum annihilate all 51
-  split-stabilizer directions so that the source-epsilon-dependent
-  40-dimensional polarization orbit has a reduced preboundary moment map?
+  Does the full 91-ghost BFV charge close on the retained charged edge
+  completion when the nonzero split-stabilizer endpoint moment map is imposed
+  as a zero-level constraint?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -87,11 +92,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Decompose the exact selected-action endpoint momentum into its 51 split and
-  40 mixed charge components. If the split charge vanishes, construct the
-  reduced orbit moment map and then the 91-ghost-closed BFV charge/master
-  equation. If it survives, derive the corresponding constraint/reduction or
-  retain a larger edge completion. Only after BFV closure construct a
-  codimension-one analytic domain. Do not choose W or mirror, add independent
-  orbit coordinates, or call the dependent family physical cohomology.
+  Construct the full 91-ghost BFV charge on the retained charged edge
+  completion, include the split-stabilizer zero-level constraint and all
+  structure constants, and verify the classical master equation. Determine
+  constraint rank, regularity and reducibility rather than inferring them from
+  the 15-component support. Only after BFV closure construct a codimension-one
+  analytic domain. Do not choose W or mirror, add independent orbit
+  coordinates, or call the dependent family physical cohomology.
 what_needs_joe: none

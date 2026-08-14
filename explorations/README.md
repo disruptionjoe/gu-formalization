@@ -7,13 +7,23 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 endpoint stabilizer-charge gate (2026-08-14)
+
+`conditional-build/selected-k77-endpoint-stabilizer-charge-gate-2026-08-14.md`
+evaluates the exact selected-action endpoint moment map on all 91 `so(7,7)`
+generators. Fifteen of 51 split and fifteen of 40 mixed components are nonzero,
+so cotangent descent to the polarization orbit fails at the frozen fixture.
+The larger charged edge completion and split zero-level constraint are
+retained; BFV closure, constraint regularity and analytic domain remain open.
+
 ## K77 polarization cotangent-descent gate (2026-08-14)
 
 `conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md`
 proves that source `epsilon` supplies the 40-dimensional split-polarization
 orbit as a dependent composite, not a new field. It also proves that
 preboundary momentum descends exactly when its 51 split-stabilizer charge
-components vanish; the actual endpoint-bank decomposition remains open.
+components vanish. The successor computes the actual endpoint bank and finds
+nonzero split charge, rejecting descent at the frozen fixture.
 
 ## K77 boundary-edge Lie-closure gate (2026-08-14)
 

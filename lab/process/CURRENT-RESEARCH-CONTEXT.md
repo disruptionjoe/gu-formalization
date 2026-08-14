@@ -9,14 +9,23 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current endpoint stabilizer-charge gate:** the exact selected-action
+> endpoint covector has 15 nonzero split components among 51 and 15 nonzero
+> mixed components among 40 on the frozen fixture. All 91 analytic charges
+> agree with independent exact action differentiation. The point is not in
+> the split moment-map zero level, so cotangent descent to the 40-dimensional
+> polarization orbit fails there. Rank one is the full 91-ghost BFV charge on
+> the retained larger edge completion, including constraint rank/reducibility
+> and the master equation; analytic domain follows only after closure.
+
 > **Current polarization cotangent-descent gate:** source `epsilon` owns the
 > full moving labelled Clifford frame. Projecting its four base labels gives
 > the required 40-dimensional `Spin(7,7)/H_split` orbit as a dependent
 > configuration composite with zero new fields; W and mirror remain equal
 > associated families. Configuration covariance is not preboundary descent:
 > the actual source endpoint covector must annihilate all 51 stabilizer
-> directions. Rank one is the exact 51+40 endpoint-charge decomposition, then
-> reduced moment map/BFV only if the split charge vanishes.
+> directions. The successor finds live split charge at the frozen selected-
+> action fixture, so direct reduced momentum is rejected there.
 
 > **Current v0.251 boundary-edge Lie-closure gate:** rank eight is the mixed
 > tangent rank at the selected coefficient bank, not a closed gauge algebra.
