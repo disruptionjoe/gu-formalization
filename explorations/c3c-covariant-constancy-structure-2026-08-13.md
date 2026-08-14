@@ -219,3 +219,45 @@ the exact `C3c` structure in Section 1, and the `ROR`-style research move in
 Section 4. Needs-recheck: whether `J = vol(6,4)` is the repository's `+/-J10`, which
 was not verified here, and whether B-compatibility narrows the admissible `J` beyond
 the four candidates tested (lens 5).
+
+---
+
+## 6. Index-change hypothesis: computed, and dead on this background
+
+Tested the lens-6 suggestion that the holonomy reduction switches the relevant index
+theory from `A-hat`/Pontryagin to Todd/Chern and thereby moves the generation count.
+Probe: `scratchpad/c3c/index_change.py`, exact rational arithmetic.
+
+**The two index theories are not independent.** Verified in six cases:
+
+> `Td = A-hat * exp(c1/2)`, and on a 4-manifold `Td - A-hat = c1^2 / 8` exactly.
+
+So a reduction can move the count **only through `c1`**.
+
+**On the repository's actual background it cannot.** K3 is hyperkähler, so `c1 = 0`,
+and with `c2 = chi = 24`, `p1 = -48`:
+
+> `A-hat(K3) = 2` and `Td(K3) = 2`. **Equal.**
+
+The generation work runs on K3 with `A-hat(K3) = 2` as a load-bearing input.
+Switching index theories there changes nothing. **The hypothesis is dead as stated.**
+
+**It also carries a prior Layer-0 defect.** The `J` computed in Section 1 is the
+volume element of the `(6,4)` block acting on the **128-dimensional spinor module**.
+The `A-hat -> Td` switch requires a complex structure on the **14-dimensional
+tangent bundle**. Different objects. This is the same J-on-vectors versus
+J-on-spinors homonym that produced a refuted hypothesis earlier in the same session,
+and it must be typed before any future version of this claim is computed.
+
+**Permanent constraint, cheap to apply:** any future claim that a holonomy reduction
+moves the generation count must first exhibit `c1 != 0` on the manifold carrying the
+reduction. On a Calabi-Yau or hyperkähler background the claim is identically empty.
+
+**What the reduction does change instead.** A reduction to a *product* group makes
+the Dirac operator factor, so the index becomes a **product** of block indices. The
+repo's current count is a **sum**: `ind_H(D_GU) = 8*A-hat(K3) + 8 = 16 + 8 = 24`.
+Sum and product are different arithmetics on the same reduction. Whether the
+factorization actually fires depends on the bundles distributing across the two
+blocks, and on the parallel-splitting condition — for which the repo has already
+computed the relevant O'Neill A- and T-tensors at the totally geodesic LC section.
+That is the version worth computing; it is not the version tested here.
