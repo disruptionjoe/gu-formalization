@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fb128b49bcb78eef66ec4822a84ddd28865e0f47
+revision_basis: e650e5c6bf7229ea9944fb5c9de9b97f621e0d86
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,24 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The selected regular endpoint has real Cartan type split rank five plus
-    compact rank two. Its live globalization gate now closes sharply on that
-    stratum: restricting the canonical cotangent form to
-    M_C=Spin_0(7,7) x C gives a globally exact symplectic 98-dimensional
-    carrier with rank-91 moment differential and seven-dimensional right-
-    Cartan fibre. This attains the inherited lower bound, so the selected
-    regular-stratum global minimum is exactly 98. It is not the previously
-    obstructed orbit-product family: the compact Cartan directions remain
-    upstairs and pair with transverse momenta. Singular walls, other real
-    Cartan types and the all-strata minimum remain open; T*Spin(7,7) remains
-    the 182-dimensional all-charge fallback.
-    The opposite chamber M_-C cancels all 91 exact endpoint moment components
-    and all 91 components of the action-owned first variation. The diagonal
-    moment map is algebraically BFV-compatible, with a seven-dimensional lift
-    ambiguity. This is a mathematical Hamiltonian construction only: source/
-    action boundary admission, a kinetic term, stationarity, proper functional
-    BFV, domains, positivity and physical cohomology remain open, and charged
-    boundary symmetry remains the zero-import rival.
+    The source/action epsilon variation now formally owns the full canonical
+    cotangent preboundary parent T*Spin_0(7,7): its 182-dimensional two-form is
+    exactly symplectic, with rank-91 moment differential. The selected regular
+    endpoint has Cartan type split rank five plus compact rank two, and the
+    previously constructed 98-dimensional M_C=Spin_0(7,7) x C carrier is
+    exactly the symplectic pullback of that full parent. This attains the
+    regular-stratum lower bound but is an admissible restriction, not an
+    action-selected physical subcarrier. Singular walls, other real Cartan
+    types and the all-strata minimum remain open.
+    The opposite chamber M_-C cancels all 91 endpoint components and their
+    first variation only as a distinct mathematical system. The one source
+    epsilon carries the original endpoint sign, so duplicating it gives 2mu,
+    not cancellation. The principal Cartan moment bundle admits local gauge-
+    fixed sections but no full-G-equivariant charge-only section; its canonical
+    connection has curvature spanning all seven Cartan directions and
+    transports rather than selects the fibre ambiguity. Therefore source
+    ownership of the formal full parent is closed while a second opposite
+    edge owner, boundary kinetic law, proper functional BFV, domains,
+    positivity and physical cohomology remain open. Charged boundary symmetry
+    is the current zero-import horn.
     In the disjoint source-residual lane, two old tautological branches are
     exact total-residual-zero candidates at frozen-frame fixed-boundary grade,
     but their native B(epsilon)/Y curvature legality is type-missing and the
@@ -44,9 +46,10 @@ current_result:
     equations. The regular Lie--Poisson carrier has dimension 91, rank 84 and
     corank seven, so any local symplectic realization spanning an open charge
     neighborhood has dimension at least 98. The sharp local split model has
-    dimension 84+14=98; the canonical global equivariant cotangent-group
-    fallback has dimension 182. The smallest global equivariant carrier
-    remains open between those bounds.
+    dimension 84+14=98; the exact Cartan-slice construction now globalizes
+    that minimum over the selected regular chamber. The canonical full
+    cotangent parent has dimension 182. Only the all-strata minimum remains
+    open between those bounds.
     The endpoint's seven independent type-D7 coadjoint invariants all have
     exact nonzero first derivative along the action-owned off-shell line
     (B,T)->lambda(B,T). Their common kernel is the 84-dimensional Kirillov
@@ -61,10 +64,12 @@ current_result:
     is not a Lie algebra; its curvature spans all 21 stabilizer directions.
     This closes KT properness only on that one orbit. The actual selected-
     action endpoint is a valid orbit covector but has 30 nonzero independent
-    charges and lies off the moment-map zero level. The live physics gate is
-    therefore action ownership of either a zero-charge boundary/Green law or
-    a compensating covariant edge momentum, followed by the curved BFV
-    presentation and analytic domain.
+    charges and lies off the moment-map zero level. The present source owns
+    the same-sign formal cotangent parent but not an opposite compensator, and
+    the charge-only equivariant-selector class is closed. The live physics
+    gate has reranked to a native action-stationary background and its curved
+    BV/BFV presentation and analytic domain; an edge completion reopens only
+    with a new second owner or opposite boundary term.
     The full U(64,64) parent retains one exact central W/mirror-odd curvature
     leg. Its canonical first-Chern and universal fibre-character routes are
     closed. The conditional proper ten-dimensional spin-family theorem is

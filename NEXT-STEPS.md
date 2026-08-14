@@ -7,19 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
-> **2026-08-14 CARTAN-SLICE COTANGENT/EDGE CONSTRUCTION (ledger v0.257).**
-> The selected regular `(5,2)` charge stratum has a sharp global
-> 98-dimensional Hamiltonian realization: the canonical cotangent form
-> restricts symplectically to `M_C=Spin_0(7,7) x C`, with rank-91 moment map
-> and seven-dimensional fibre. Its opposite chamber cancels all 91 endpoint
-> components and all 91 first-variation components; the diagonal BFV charge
-> is algebraically compatible. This evades without contradicting the old
-> product-family obstruction. **Next derive a source/action-owned boundary
-> admission and kinetic term for `M_-C`, or retain charged boundary symmetry;
-> only a positive owner opens proper functional BFV and domains.** Singular
-> walls and the all-strata minimum remain open, with `T*Spin(7,7)` the
-> 182-dimensional fallback. Exact probes: `45/45` and `46/46`; no verdict,
-> residue, quotient, canon or public-posture change.
+> **2026-08-14 SOURCE-EPSILON COTANGENT OWNERSHIP/SELECTOR GATE (ledger
+> v0.258).** The unrestricted source epsilon preboundary potential is exactly
+> the canonical potential on the full 182-dimensional `T*Spin_0(7,7)` parent.
+> The exact 98-dimensional Cartan-slice carrier is its symplectic pullback but
+> remains an action-unselected restriction. The opposite chamber cancels only
+> as a distinct second system: the source epsilon has the same endpoint sign,
+> and no full-`G`-equivariant charge-only section exists. Local sections and a
+> curved Cartan connection survive, but the connection does not select a
+> point. **Retain charged boundary symmetry as the zero-import horn. Next test
+> the exact residual-zero candidates against native `B(epsilon)/Y` curvature
+> and moving geometry, and in parallel construct an action-stationary
+> nonhomogeneous vacuum. Reopen an opposite edge completion only if source or
+> action evidence supplies a second owner.** Exact probes: `24/24` and
+> `25/25`; no verdict, residue, quotient, canon or public-posture change.
 
 > **2026-08-14 TAUTOLOGICAL RESIDUAL-ZERO BACKGROUND AUDIT.** Two exact old
 > `b±,t±` branches do solve the total first-order residual at zero fermion and

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "NO_FULL_G_EQUIVARIANT_CHARGE_ONLY_SECTION__SOURCE_EPSILON_IS_SAME_SIGN_PARENT_NOT_OPPOSITE_COPY__CHARGED_BOUNDARY_SYMMETRY_RETAINS_ZERO_IMPORT_PRIMACY",
+  "ledger_rows": ["RA-G2", "LT-SM3", "AC-F1", "AC-G1a"],
+  "principal_bundle": {
+    "total_space": "G_TIMES_MINUS_C",
+    "base": "ADSTAR_G_MINUS_C",
+    "fibre": "H_REGULAR_CARTAN",
+    "fibre_dimension": 7,
+    "moment_differential_rank": 91,
+    "left_G_action_free": true,
+    "full_G_equivariant_section": false,
+    "local_nonequivariant_sections": true
+  },
+  "connection": {
+    "formula": "PR_H_G_INVERSE_DG",
+    "horizontal_dimension": 84,
+    "cartan_abelian": true,
+    "curvature_nonzero": true,
+    "curvature_cartan_span": 7,
+    "is_section": false
+  },
+  "source_epsilon": {
+    "existing_copy_count": 1,
+    "actual_selected_sign": "PLUS_MU",
+    "same_sign_sum_nonzero": true,
+    "independent_opposite_copy_owned": false,
+    "charge_adapted_frame_condition_owned": false
+  },
+  "surviving_horns": [
+    "ACTION_OWNED_CHARGED_BOUNDARY_SYMMETRY",
+    "LOCAL_NONEQUIVARIANT_GAUGE_FIXED_SECTION",
+    "UNOWNED_INDEPENDENT_OPPOSITE_EDGE_COMPLETION"
+  ],
+  "constraint_cost": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "residue_change": 0
+  },
+  "source_return": "lab/sources/selected-k77-opposite-edge-dependent-selector-obstruction-source-return-2026-08-14.md",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-opposite-edge-dependent-selector-obstruction-review.md",
+  "next_gate": "RERANK_TO_NATIVE_B_EPSILON_BACKGROUND_LEGALITY_AND_ACTION_STATIONARY_NONHOMOGENEOUS_VACUUM_UNLESS_A_SECOND_BOUNDARY_FRAME_OR_ACTION_SOURCE_APPEARS"
+}

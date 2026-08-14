@@ -4151,3 +4151,28 @@ compact-natural selected graph, preventing ten redundant repair searches.
 ```sh
 sage -python tests/channel-swings/selected_k77_rank128_normal_module_mixed_boost_probe.py
 ```
+
+## K77 source-epsilon cotangent-parent ownership
+
+`channel-swings/selected_k77_source_epsilon_cotangent_parent_probe.py`
+identifies the unrestricted source epsilon preboundary potential with the
+canonical potential on the full 182-dimensional cotangent parent and proves
+that the 98-dimensional Cartan-slice carrier is its exact symplectic pullback.
+It keeps a second opposite edge system, domain and physical BFV unowned.
+
+```sh
+sage -python tests/channel-swings/selected_k77_source_epsilon_cotangent_parent_probe.py
+```
+
+## K77 opposite-edge dependent-selector obstruction
+
+`channel-swings/selected_k77_opposite_edge_dependent_selector_obstruction_probe.py`
+proves that local sections of the regular Cartan moment bundle exist but a
+full-`G`-equivariant charge-only section cannot. It certifies the curved
+seven-dimensional Cartan connection, rejects connection-as-selector, and
+prevents the one same-sign source epsilon from being duplicated as an
+opposite compensator.
+
+```sh
+sage -python tests/channel-swings/selected_k77_opposite_edge_dependent_selector_obstruction_probe.py
+```

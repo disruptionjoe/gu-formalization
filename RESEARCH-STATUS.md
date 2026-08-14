@@ -8,8 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Source-epsilon cotangent ownership and selector obstruction 2026-08-14
+(ledger v0.258; headline advanced).** The unrestricted source epsilon
+preboundary potential is exactly the canonical left-trivialized potential on
+the full 182-dimensional `T*Spin_0(7,7)` parent. Its two-form is nondegenerate,
+and the exact 98-dimensional Cartan-slice carrier is its symplectic pullback.
+This establishes formal source/action ownership of the full parent, not
+selection of that restriction or a physical phase space. The independent
+opposite chamber still cancels the endpoint mathematically, but the actual
+source epsilon has the original sign and cannot be counted twice. A
+full-`G`-equivariant charge-only section is obstructed by the nontrivial
+seven-dimensional stabilizer acting freely on the total space; local sections
+survive, and the canonical connection's curvature spans all seven Cartan
+directions without selecting a fibre point. Charged boundary symmetry is
+therefore the current zero-import horn. A second boundary owner, kinetic law,
+proper functional BFV, domain, positivity and physical cohomology remain open.
+See
+`explorations/conditional-build/selected-k77-source-epsilon-cotangent-parent-2026-08-14.md`
+and
+`explorations/conditional-build/selected-k77-opposite-edge-dependent-selector-obstruction-2026-08-14.md`,
+with exact probes `24/24` and `25/25`.
+
 **Cartan-slice cotangent realization and edge composition 2026-08-14 (ledger
-v0.257; headline advanced).** The selected regular endpoint has Cartan type
+v0.257; predecessor retained).** The selected regular endpoint has Cartan type
 `(split,compact)=(5,2)`. Restricting the canonical cotangent form to
 `M_C=Spin_0(7,7) x C` gives a globally exact 98-dimensional symplectic
 realization over its regular chamber stratum. The moment differential has
@@ -19,10 +40,10 @@ components and all 91 first-variation components; the diagonal BFV charge is
 algebraically compatible. This is not the previously obstructed orbit product:
 the Cartan fibre stays upstairs and pairs with transverse momenta. Singular
 walls, other Cartan types and the all-strata minimum remain open, with
-`T*Spin(7,7)` the 182-dimensional fallback. Source/action boundary admission,
-a kinetic term, stationarity, proper functional BFV, domains, positivity and
-physical cohomology remain open; charged boundary symmetry remains the
-zero-import rival. See
+`T*Spin(7,7)` the 182-dimensional fallback. Ledger v0.258 above now closes
+formal source ownership of that full parent while leaving Cartan-restriction
+selection, an opposite copy, a kinetic term, stationarity, proper functional
+BFV, domains, positivity and physical cohomology open. See
 `explorations/conditional-build/selected-k77-cartan-slice-cotangent-realization-2026-08-14.md`
 and `explorations/conditional-build/selected-k77-cartan-slice-edge-cancellation-2026-08-14.md`,
 with exact probes `45/45` and `46/46`.

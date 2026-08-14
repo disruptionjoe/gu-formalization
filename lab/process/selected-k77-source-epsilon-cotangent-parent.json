@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "SOURCE_EPSILON_UNRESTRICTED_PREBOUNDARY_IS_CANONICAL_TSTAR_SPIN77_PARENT__REGULAR_CARTAN_RESTRICTION_NOT_ACTION_SELECTED",
+  "ledger_rows": ["RA-G2", "LT-SM3", "AC-F1", "AC-G1a"],
+  "layer0": {
+    "source_epsilon": "ONE_EXISTING_GROUP_VALUED_FIELD",
+    "endpoint_covector": "LAMBDA_EQUALS_NORMAL_E_B_MINUS_E_T",
+    "cotangent_parent": "TSTAR_SPIN0_7_7_DIM182",
+    "cartan_subcarrier": "G_TIMES_C_DIM98",
+    "opposite_compensator": "DISTINCT_SECOND_SYSTEM",
+    "physical_phase_space": "NOT_CONSTRUCTED"
+  },
+  "exact_parent": {
+    "dimension": 182,
+    "symplectic_rank": 182,
+    "moment_differential_rank": 91,
+    "moment_fibre_dimension": 91,
+    "canonical_potential": "PAIR_LAMBDA_EPSILON_INVERSE_DELTA_EPSILON"
+  },
+  "cartan_restriction": {
+    "dimension": 98,
+    "symplectic_rank": 98,
+    "pullback_equals_predecessor": true,
+    "selection_owner": "OPEN"
+  },
+  "ownership": {
+    "full_unrestricted_epsilon_preboundary_parent": "ACTION_OWNED_FORMAL",
+    "regular_cartan_restriction": "REPOSITORY_DERIVED_ADMISSIBLE_SUBCARRIER",
+    "independent_opposite_copy": "NOT_OWNED",
+    "analytic_domain": "OPEN",
+    "physical_bfv": "OPEN"
+  },
+  "constraint_cost": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "residue_change": 0
+  },
+  "source_return": "lab/sources/selected-k77-source-epsilon-cotangent-parent-source-return-2026-08-14.md",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-source-epsilon-cotangent-parent-review.md",
+  "next_gate": "TEST_DEPENDENT_EQUIVARIANT_OPPOSITE_EDGE_SELECTION_AND_PREVENT_SOURCE_EPSILON_DOUBLE_COUNTING"
+}
