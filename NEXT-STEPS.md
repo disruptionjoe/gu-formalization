@@ -147,6 +147,24 @@ updated_at: "2026-08-14"
 > nonstandard operator or domain.** No verdict, residue, quotient, datum,
 > canon or public-posture move.
 
+> **2026-08-14 LOCAL-TWISTOR/BACH-DETOUR COMPOSITION GATE (ledger
+> v0.255).** H3 now has a canonical curved object: the observed conformal spin
+> geometry supplies the local-twistor connection. Its raw square is Weyl/
+> Cotton curvature, so flatness is too strong. The untwisted four-dimensional
+> twistor-spinor detour sequence is instead a complex on the Bach-flat locus,
+> including non-conformally-flat Einstein controls. Exact `Pi4` algebra gives
+> Dirac rank 12/chiral rank 6 and embeds its image in ambient `ker Gamma14`,
+> while proving `Pi4 != Pi14`. **Next reconstruct the repo-convention
+> Weyl/Cotton curvature; decide whether the full selected action implies
+> Bach-flatness, Einstein-plus-Bach balance or neither; compute the total
+> normal/mixed Yang--Mills current; and attempt a typed factorization of the
+> third-order detour map through the owned first-order rolled GU operator and
+> its adjoint. Base Bach-flatness alone does not close the full twist.** See
+> `explorations/conditional-build/selected-k77-local-twistor-bach-detour-composition-gate-2026-08-14.md`
+> and its `50/50` exact probe. `HYP-TW-COHERENCE-01` now names a conditional
+> total-Yang--Mills coherence locus, not physical superposition. `LT-SM8`
+> receives one distance-only migration; no public physics posture changes.
+
 > **2026-08-14 TWISTOR CARRIER/WEYL-INTEGRABILITY GATE (ledger v0.253).**
 > The K77 base Weyl factors reconstruct the local/developable rank-four
 > carrier `T_GU=S_L+S_R^*`; graph two-planes give spacetime incidence and the

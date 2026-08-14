@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Local-twistor/Bach-detour composition gate 2026-08-14 (ledger v0.255;
+headline unchanged).** The general-Lorentzian H3 branch now constructs the
+canonical local-twistor connection from the observed conformal spin geometry.
+Its curvature is Weyl/Cotton and need not vanish. The correct curved successor
+is the twistor-spinor Yang--Mills detour sequence, which in four dimensions is
+a complex on the Bach-flat locus and therefore admits non-conformally-flat
+Einstein controls. Exact Clifford algebra gives `Pi4` Dirac rank 12/chiral
+rank 6 and proves its image embeds in ambient `ker Gamma14`; `Pi4` and `Pi14`
+remain unequal source-to-carrier maps. Base Bach-flatness is insufficient
+after the normal/mixed K77 twist unless the total connection is Yang--Mills.
+Direct operator equality also fails: the detour middle map is third order,
+while the owned GU rolled operator is first order and differently typed. See
+`explorations/conditional-build/selected-k77-local-twistor-bach-detour-composition-gate-2026-08-14.md`
+and its `50/50` exact probe. The leading coherence hypothesis moves from
+`II=0` to a total-Yang--Mills locus with Bach-flat observed-base component,
+but full action ownership, factorization, endpoint admission, positivity and
+physical cohomology remain open. `LT-SM8` receives one distance-only
+migration; no verdict, residue, quotient, datum, canon or public-posture move.
+
 **Twistor carrier/Weyl-integrability gate 2026-08-14 (ledger v0.253;
 headline unchanged).** The K77 base Weyl factors reconstruct a conventional
 local/developable rank-four twistor carrier. Graph two-planes encode spacetime

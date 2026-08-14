@@ -63,13 +63,27 @@ current_result:
     summands, not two; they sit two per complex-64 ambient Weyl half and are
     distinct from spacetime graph two-planes. Mixed 4-by-10 connection terms
     exchange each paired set. Exact Weyl controls scope the strict Lorentzian
-    holomorphic horn to conformally-flat regions, leaving a Euclidean ASD horn
-    and a recommended general-Lorentzian local-twistor/tractor successor.
-    Ledger hypothesis HYP-TW-COHERENCE-01 preserves this branched geometric
-    proposal without promoting it: endpoint admission, the action-owned lift,
-    Penrose pushforward, positive domain and pairing, physical cohomology and
-    any Willmore/decoherence identification remain open.
+    holomorphic horn to conformally-flat regions. The general-Lorentzian H3
+    successor now advances: the observed conformal spin geometry canonically
+    constructs a local-twistor connection, and the exact four-dimensional
+    twistor projector embeds its carrier in ambient ker Gamma14 while remaining
+    distinct from Pi14. Raw tractor square is Weyl/Cotton curvature; the
+    correct untwisted curved-complex condition is Bach-flatness through the
+    twistor-spinor Yang--Mills detour sequence, admitting non-conformally-flat
+    Einstein controls. The full GU normal/mixed twist still requires the total
+    connection to be Yang--Mills, and the third-order detour middle map is not
+    directly the owned first-order rolled operator. Ledger hypothesis
+    HYP-TW-COHERENCE-01 preserves this sharpened total-Yang--Mills proposal
+    without promoting it: full action Bach ownership, endpoint admission,
+    factorization, positive domain and pairing, physical cohomology and any
+    decoherence law remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-local-twistor-bach-detour-composition-gate-2026-08-14.md
+    - lab/process/selected-k77-local-twistor-bach-detour-composition-gate.json
+    - explorations/conditional-build/conditional-physics-ledger-v0.255.md
+    - lab/process/conditional-physics-ledger-v0.255.json
+    - explorations/conditional-build/conditional-physics-ledger-v0.254.md
+    - lab/process/conditional-physics-ledger-v0.254.json
     - explorations/conditional-build/selected-k77-twistor-carrier-weyl-integrability-gate-2026-08-14.md
     - lab/process/selected-k77-twistor-carrier-weyl-integrability-gate.json
     - explorations/conditional-build/conditional-physics-ledger-v0.253.md

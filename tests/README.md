@@ -81,6 +81,15 @@ the map: which directory/group supports which claim.
   controls. Run with pinned SymPy `1.14.0` and NumPy `2.3.2`; it passes
   `54/54`.
 
+- `channel-swings/selected_k77_local_twistor_bach_detour_composition_gate_probe.py`
+  builds the exact four-dimensional twistor projector, proves its rank and
+  carrier embedding into ambient `ker Gamma14`, and distinguishes `Pi4` from
+  `Pi14`. It supplies flat, Weyl-only Einstein and Cotton curvature controls;
+  verifies the Yang--Mills detour composition identity over exact rationals;
+  shows a zero base current does not erase a normal twisting current; and
+  audits the Bach-flat detour sequence against the owned first-order GU rolled
+  operator. Run with Python 3; it passes `50/50`.
+
 - `channel-swings/selected_k77_twistor_carrier_weyl_integrability_gate_probe.py`
   reconstructs the local/developable rank-four carrier from the settled K77
   base Weyl factors, verifies graph incidence and the Lorentz determinant,
