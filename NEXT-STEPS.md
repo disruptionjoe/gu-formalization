@@ -7,15 +7,27 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1C METRIC `EPSILON^3` TOP ZERO.** The remaining top metric
+> cross-block is an exact `10 x 91` zero on timelike, spacelike and null
+> covectors. The metric and epsilon source banks are live (`9` and `91`), as
+> are the rank-6 metric curvature and selected-Shiab images. The two polarized
+> action terms vanish separately: exterior nilpotence kills the epsilon-
+> curvature half and the selected same-grade pairing kills the other. The safe
+> metric envelope is now `(3,2,2)`; probe `29/29`. **Next serialize the lower
+> branch-dependent `j^1(E_B-E_T)` and moving Shiab/Hodge/frame/density/lowerer
+> returns in the common bank, held-out validate both roots, and then solve only
+> the surviving compatible jets.**
+
 > **2026-08-14 SR-1C ACTION-OWNED TOP-SYMBOL REDUCTION.** The first actual
 > `O_SR1C` top block now constructs: primitive epsilon has symbol
 > `-(1/2)k wedge S_selected(k wedge a)`, exact rank 13 on positive, negative
 > and null covectors and identical on both algebraic branches. Exact affine-
 > highest-jet certificates kill the nominal metric `g^4` and `varpi^3`
 > blocks, reducing the metric envelope from `(4,3,3)` to `(3,2,3)`; probe
-> `33/33`. **Next compute the selected metric `epsilon^3` block and all
-> remaining branch-dependent lower mixed coefficients, serialize the common
-> 196-row `O_SR1C` bank, and held-out validate both roots before solving.**
+> `33/33`. The successor above now kills the selected metric `epsilon^3` block
+> and reduces the envelope once more to `(3,2,2)`. **Next complete the lower
+> branch-dependent common bank and held-out validate both roots before
+> solving.**
 > Both branches remain `NOT-YET-FALSIFIED`; no stationary background is
 > promoted.
 

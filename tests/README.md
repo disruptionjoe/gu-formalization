@@ -4329,6 +4329,20 @@ lower branch-dependent `O_SR1C` coefficients open.
 sage -python tests/channel-swings/selected_k77_sr1c_top_symbol_reduction_probe.py
 ```
 
+## K77 SR-1C metric epsilon3 top block
+
+`channel-swings/selected_k77_sr1c_metric_epsilon3_top_block_probe.py`
+polarizes the only selected first-action density cell capable of carrying two
+metric derivatives and one primitive-epsilon derivative. On the exact metric
+ten and Spin epsilon 91 banks it proves the complete `10 x 91` block vanishes
+termwise for timelike, spacelike and null covectors, while live-input controls
+retain ranks `9`, `91`, `6` and `6`. This lowers the safe metric envelope to
+`(3,2,2)` and leaves the branch-dependent lower `O_SR1C` bank open.
+
+```sh
+sage -python tests/channel-swings/selected_k77_sr1c_metric_epsilon3_top_block_probe.py
+```
+
 ## K77 rank-singular all-charge Poisson-map target
 
 `channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py` types

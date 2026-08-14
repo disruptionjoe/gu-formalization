@@ -162,7 +162,12 @@
                       "top_symbol_reduction": {
                         "result": "explorations/conditional-build/selected-k77-sr1c-top-symbol-reduction-2026-08-14.md",
                         "probe": "tests/channel-swings/selected_k77_sr1c_top_symbol_reduction_probe.py",
-                        "disposition": "ACTION_OWNED_PRIMITIVE_EPSILON_TOP_SYMBOL_RANK_13_ON_ALL_COVECTOR_ORBITS__METRIC_G4_AND_VARPI3_TOP_BLOCKS_EXACTLY_ZERO__O_SR1C_LOWER_MIXED_BANK_TYPE_MISSING"
+                        "disposition": "ACTION_OWNED_PRIMITIVE_EPSILON_TOP_SYMBOL_RANK_13_ON_ALL_COVECTOR_ORBITS__METRIC_G4_AND_VARPI3_TOP_BLOCKS_EXACTLY_ZERO__O_SR1C_LOWER_MIXED_BANK_TYPE_MISSING",
+                        "metric_epsilon3_top_block": {
+                          "result": "explorations/conditional-build/selected-k77-sr1c-metric-epsilon3-top-block-2026-08-14.md",
+                          "probe": "tests/channel-swings/selected_k77_sr1c_metric_epsilon3_top_block_probe.py",
+                          "disposition": "SELECTED_METRIC_EPSILON3_TOP_BLOCK_EXACT_ZERO__METRIC_ENVELOPE_REDUCED_TO_3_2_2__LOWER_O_SR1C_BANK_TYPE_MISSING"
+                        }
                       }
                     }
                   }
@@ -215,7 +220,7 @@
   "next_required_construction": {
     "id": "SR-1C",
     "scaffold": "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md",
-    "statement": "The canonical-B_Z nonzero-T formal branch solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes, but the admitted field one-jet does not determine primitive epsilon or the total metric graph. O_SR1C now has one constructed top block: the branch-independent action-owned primitive symbol -(1/2)k wedge S_selected(k wedge a), of exact rank 13 on every nonzero covector orbit. Structural zero certificates remove metric g4 and varpi3, reducing the metric envelope to (3,2,3). Next compute the selected epsilon3 metric block and remaining branch-dependent lower mixed coefficients, serialize the common 196-row bank, held-out validate both roots, and solve only the surviving exact jet orders. Evaluate observation as a dependent receiver. Continue to the full formal-integrability tower and total carrier only if those source rows close, then replay SR-1.",
+    "statement": "The canonical-B_Z nonzero-T formal branch solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes, but the admitted field one-jet does not determine primitive epsilon or the total metric graph. O_SR1C now owns the branch-independent action primitive symbol -(1/2)k wedge S_selected(k wedge a), of exact rank 13 on every nonzero covector orbit. Structural zero certificates remove metric g4, varpi3 and epsilon3, reducing the metric envelope to (3,2,2). Next serialize the remaining branch-dependent lower mixed coefficients and moving Shiab/Hodge/frame/density/lowerer returns, held-out validate the common bank on both roots, and solve only the surviving exact jet orders. Evaluate observation as a dependent receiver. Continue to the full formal-integrability tower and total carrier only if those source rows close, then replay SR-1.",
     "first_blocking_operator": "O_SR1C__COMMON_BASIS_BRANCH_EVALUATOR_FOR_J1_E_B_MINUS_E_T_AND_FIXED_VARPI_METRIC_DERIVATIVE_SLOTS",
     "forward_stage": "VRS_5_FORWARD_ENABLER__S2_MIXED_ORDER_SOURCE_COORDINATE_VARIATIONAL_PROLONGATION",
     "reverse_falsification_status": "RF_1_AND_RF_2_COMPLETE__RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST",

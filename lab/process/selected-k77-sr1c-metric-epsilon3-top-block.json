@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "SELECTED_METRIC_EPSILON3_TOP_BLOCK_EXACT_ZERO__METRIC_ENVELOPE_REDUCED_TO_3_2_2__LOWER_O_SR1C_BANK_MISSING",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "operator": "O_SR1C",
+  "action_owned_top_cell": {
+    "source_cell": "PAIR(T,S_SELECTED(F_B+(1/2)D_B_T))",
+    "fixed_varpi_split": "DELTA_T=-DELTA_B",
+    "mixed_formula": "-1/2*(PAIR(DELTA_B_EPSILON,S_SELECTED(K_WEDGE_DELTA_B_G))+PAIR(DELTA_B_G,S_SELECTED(K_WEDGE_DELTA_B_EPSILON)))",
+    "total_primitive_order": 3
+  },
+  "exact_result": {
+    "shape": [10, 91],
+    "orbits": {
+      "timelike": {
+        "delta_B_metric_rank": 9,
+        "delta_B_epsilon_rank": 91,
+        "metric_curvature_rank": 6,
+        "selected_metric_curvature_rank": 6,
+        "epsilon_curvature_rank": 0,
+        "forward_nnz": 0,
+        "reverse_nnz": 0,
+        "mixed_rank": 0,
+        "mixed_nnz": 0
+      },
+      "spacelike": {
+        "delta_B_metric_rank": 9,
+        "delta_B_epsilon_rank": 91,
+        "metric_curvature_rank": 6,
+        "selected_metric_curvature_rank": 6,
+        "epsilon_curvature_rank": 0,
+        "forward_nnz": 0,
+        "reverse_nnz": 0,
+        "mixed_rank": 0,
+        "mixed_nnz": 0
+      },
+      "null": {
+        "delta_B_metric_rank": 9,
+        "delta_B_epsilon_rank": 91,
+        "metric_curvature_rank": 6,
+        "selected_metric_curvature_rank": 6,
+        "epsilon_curvature_rank": 0,
+        "forward_nnz": 0,
+        "reverse_nnz": 0,
+        "mixed_rank": 0,
+        "mixed_nnz": 0
+      }
+    },
+    "zero_mechanism": {
+      "epsilon_curvature_half": "EXTERIOR_SYMBOL_NILPOTENCE_K_WEDGE_K_ZERO",
+      "receiver_metric_curvature_half": "SELECTED_K77_SAME_GRADE_ACTION_PAIRING_ZERO",
+      "cancellation_between_halves": false,
+      "branch_dependent": false
+    }
+  },
+  "metric_order_reduction": {
+    "previous_safe_envelope": {"g": 3, "varpi": 2, "epsilon": 3},
+    "reduced_safe_envelope": {"g": 3, "varpi": 2, "epsilon": 2},
+    "exact_zero_blocks": ["METRIC_G4", "METRIC_VARPI3", "METRIC_EPSILON3"]
+  },
+  "O_SR1C_status": "ALL_TOP_ORDER_SLOTS_DISPOSED__BRANCH_DEPENDENT_LOWER_J1P_AND_MOVING_METRIC_GRAPH_BANK_NOT_SERIALIZED",
+  "branch_status": "BOTH_ALGEBRAIC_ROOTS_NOT_YET_FALSIFIED__TOP_REDUCTION_BRANCH_INDEPENDENT",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "next_gate": "SERIALIZE_BRANCH_DEPENDENT_LOWER_J1_E_B_MINUS_E_T_AND_MOVING_SHIAB_HODGE_FRAME_DENSITY_LOWERER_RETURNS__HELD_OUT_VALIDATE_BOTH_ROOTS__THEN_SOLVE_SURVIVING_COMPATIBLE_JETS",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "probe": "tests/channel-swings/selected_k77_sr1c_metric_epsilon3_top_block_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1c-metric-epsilon3-top-block-review.md"
+}
