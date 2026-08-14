@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.243 central-`U(1)` W/mirror flux gate:** the full
+> `U(64,64)` parent has one central line and its curvature is gauge invariant
+> and odd under the exact anti-linear half exchange. The block parent's
+> relative center is even but is not a second full-parent center. Every local
+> real exchange-invariant action is even in the central curvature, so it cannot
+> select a flux sign. A nonzero global determinant-line class or boundary
+> charge remains a legitimate unbuilt route. Weinstein's total theory is
+> explicitly non-chiral: equal ordinary 4D conjugate indices are compatible
+> with that premise and close only a naive index route to the claimed
+> low-curvature luminous/dark decoupling. Rank one is global determinant-line,
+> observation, large-gauge, BV/BFV and closed-domain descent; rank two is the
+> moving-J BV extension and normalized-connection bridge. Do not identify the
+> central line with hypercharge or select a flux by declaration.
+
 > **Current v0.242 one-doublet vacuum quotient gate:** the simplest
 > non-fixed-vacuum escape from the W/mirror real-action theorem is closed as a
 > class. The moving-`H_q` candidate is one complex weak doublet; every nonzero

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: db41ebc2e2ea2f253c799d83be9c7861fbb9de9c
+revision_basis: 03e1e9a385e8f373c583f3ad7e3f45ea272a4dbc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,17 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The fixed-background real-action class cannot split W from its ASD mirror.
-    The simplest broken-vacuum escape is now also decided wholesale: the
-    moving-Hq candidate is one complex weak doublet, SU(2) is transitive on
-    every nonzero norm sphere, and every within-doublet norm-preserving
-    involution is the identity on the orbit quotient. Thus a complex
-    orientation of either radial branch is not a physical conjugate-vacuum
-    pair. The joint W/mirror action on bosonic and fermionic fields remains
-    untyped, the trace-Hq branch retains fourteen transverse Euler failures,
-    and a cross-carrier/phase-sensitive stationary invariant or asymmetric
-    BV/BFV/domain remains open.
+    The full U(64,64) parent has one canonical central U(1) line that is odd
+    under the exact anti-linear W/mirror exchange. Its curvature is the first
+    gauge-invariant candidate bosonic leg, but every local real exchange-
+    invariant action is even in that curvature and cannot select its sign.
+    A global determinant-line flux or boundary charge may distinguish sectors,
+    but neither is constructed or selected. Equal ordinary four-dimensional
+    conjugate indices are compatible with Weinstein's non-chiral total theory;
+    they do not construct its claimed low-curvature luminous/dark decoupling.
+    Adjacent fixed-J10 work shows eight mixed ordinary-gauge directions obstruct
+    fixed polarization, while moving J is covariant but not yet physical.
   evidence:
+    - explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.243.md
+    - lab/process/conditional-physics-ledger-v0.243.json
+    - explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md
     - explorations/conditional-build/selected-k77-hq-vacuum-conjugation-quotient-2026-08-14.md
     - explorations/conditional-build/selected-k77-w-mirror-real-action-wholesale-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-w-mirror-action-pairing-ownership-2026-08-13.md
@@ -30,12 +34,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
-    - lab/process/conditional-physics-ledger-v0.242.json
 current_question: >-
-  Does the source/action construct a joint W/mirror involution on the actual
-  bosonic and fermionic field complex and a conjugation-odd gauge invariant
-  with a fully stationary nonzero vacuum, or an owned BV/domain reduction that
-  breaks the equivalence without fitting a projector or compatible connection?
+  Does the source-full determinant/central line descend through observation to
+  a nonzero flux or boundary sector on the actual physical BV/BFV and analytic
+  domain, and can a nonstandard family operator or owned domain turn that
+  global structure into the source-claimed luminous/dark effective decoupling?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -44,10 +47,10 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the joint W/mirror boson-fermion involution and compute its
-  gauge-invariant stationary ring. Continue the vacuum route only if a
-  cross-carrier or phase-sensitive conjugation-odd invariant survives the
-  physical quotient and the complete Euler equations. Otherwise construct an
-  explicitly asymmetric BV/BFV or closed-domain reduction before another
-  W/mirror Hessian or physical-cohomology calculation.
+  Construct the global determinant line and its pullback to an observation
+  section, then test flux, boundary charge, large-gauge and closed-domain
+  survival. Do not identify the central U(1) with hypercharge, choose a flux by
+  hand, or treat ordinary four-dimensional index equality as the source's
+  emergent decoupling. In parallel, retain the moving-J BV extension and
+  normalized-connection bridge as the adjacent physical-domain route.
 what_needs_joe: none

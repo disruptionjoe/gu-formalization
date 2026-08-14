@@ -10,6 +10,14 @@ updated_at: "2026-08-14"
 Additional source-custody and reinspection records retained by the native
 research boundary:
 
+- [`selected-k77-central-u1-w-mirror-flux-source-return-2026-08-14.md`](selected-k77-central-u1-w-mirror-flux-source-return-2026-08-14.md)
+  - confirms the full `U(64,64)` connection arena, connection-hosted
+    gauge/Higgs-like functions and the source's explicitly non-chiral total
+    theory with claimed emergent luminous/dark decoupling; attributes the
+    central exchange and index results to the repository; and returns
+    source-silent on physical identity, nonzero flux, selection, observation
+    pushforward, BV/BFV and analytic domain.
+
 - [`selected-k77-hq-vacuum-conjugation-quotient-source-return-2026-08-14.md`](selected-k77-hq-vacuum-conjugation-quotient-source-return-2026-08-14.md)
   - confirms the source's Higgs-like `varpi` assignment and emergent-chiral
     target; attributes the one-doublet quotient theorem to the repository; and

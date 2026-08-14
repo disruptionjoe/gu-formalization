@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 central-U(1) W/mirror flux gate (2026-08-14)
+
+`conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md`
+finds the unique central line of the full `U(64,64)` parent and proves that its
+curvature is gauge invariant and odd under the exact anti-linear half exchange.
+Local real invariant actions cannot select its sign; global determinant-line
+flux, observation and BV/BFV/domain survival remain open. Equal ordinary 4D
+conjugate indices are compatible with the source's non-chiral total theory but
+do not construct its claimed luminous/dark effective decoupling.
+
 ## K77 moving-Hq vacuum conjugation quotient (2026-08-14)
 
 `conditional-build/selected-k77-hq-vacuum-conjugation-quotient-2026-08-14.md`

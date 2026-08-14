@@ -8,15 +8,21 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.243.json`](conditional-physics-ledger-v0.243.json),
+summarized in
+`explorations/conditional-build/conditional-physics-ledger-v0.243.md`.
+The full-parent central curvature is an exact gauge-invariant, exchange-odd
+candidate bosonic leg, but local real invariant actions cannot select its
+sign. Global determinant-line flux, observation and BV/BFV/domain descent
+remain open. The ordinary 4D conjugate-index equality is consistent with the
+source's non-chiral total theory and does not produce its claimed effective
+luminous/dark decoupling. No physics-row verdict, residue, quotient, canon
+claim, or public posture moved.
+
+Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.242.json`](conditional-physics-ledger-v0.242.json),
 summarized as ledger v0.242. The fixed-background real-action class remains
-closed, and the simplest broken-vacuum escape is now decided wholesale. The
-current moving-`H_q` candidate is one complex doublet; each nonzero norm sphere
-is one `SU(2)` orbit, so every within-doublet norm-preserving involution is
-identity on the quotient. The next discriminator is a joint W/mirror action
-on bosonic and fermionic fields plus a phase-sensitive stationary invariant,
-or an explicitly asymmetric BV/BFV or closed analytic domain. No physics-row
-verdict, residue, quotient, canon claim, or public posture moved.
+closed, and the simplest one-doublet broken-vacuum escape is decided wholesale.
 
 Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.241.json`](conditional-physics-ledger-v0.241.json),

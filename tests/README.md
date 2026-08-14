@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_central_u1_w_mirror_flux_gate_probe.py`
+  proves the full-parent center is one-dimensional, the block-parent center is
+  two-dimensional, and the anti-linear exchange makes the diagonal curvature
+  odd and the relative line even. It verifies local invariant parity, the
+  conditional 14D versus ordinary 4D index-parity comparison, source and
+  Layer-0 fences, and four firing controls. Run with pinned SymPy `1.14.0`; it
+  passes `48/48`.
+
 - `channel-swings/selected_k77_j10_bv_green_descent_gate_probe.py`
   constructs the reflection-twisted `J10` lift on the exact rolled
   `Omega1(S)+Omega0(S)` carrier, tests all observed and ambient axis symbols,

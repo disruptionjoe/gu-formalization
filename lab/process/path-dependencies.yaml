@@ -267,6 +267,18 @@ chains:
           Would have skipped one required branch port and mistaken a
           coordinate-dependent second derivative for physical stability.
         receipt: lab/process/hostile-reviews/2026-08-09-selected-k77-branch-hessian-discriminator-review.md
+      - date: 2026-08-14
+        what: >-
+          A central-flux index comparison was initially phrased as failing to
+          produce observed chirality. Weinstein's source target is instead a
+          NON-CHIRAL total theory with an emergent low-curvature separation into
+          luminous and dark chiral-looking sectors. Equal ordinary 4D conjugate
+          indices are compatible with the premise; they close only that naive
+          index route to the claimed decoupling.
+        cost: >-
+          Would have converted a scoped mechanism failure into a false clash
+          with the source's governing physical claim.
+        receipt: explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
     invalidates_if: "Never. This is a process invariant."
     related: [PD-SIGNATURE-PARITY, PD-GHOST-PARITY, PD-SOURCE-NOTATION]
 

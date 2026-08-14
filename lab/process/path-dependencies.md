@@ -87,6 +87,8 @@ graph TD
   PD_CONDITIONAL_VS_SETTLED_chk -.-> PD_CONDITIONAL_VS_SETTLED_t0
   PD_CONDITIONAL_VS_SETTLED_t1("TRAP 2026-08-09")
   PD_CONDITIONAL_VS_SETTLED_chk -.-> PD_CONDITIONAL_VS_SETTLED_t1
+  PD_CONDITIONAL_VS_SETTLED_t2("TRAP 2026-08-14")
+  PD_CONDITIONAL_VS_SETTLED_chk -.-> PD_CONDITIONAL_VS_SETTLED_t2
   PD_ULTRAHYPERBOLIC_DOMAIN["PD-ULTRAHYPERBOLIC-DOMAIN"]
   PD_ULTRAHYPERBOLIC_DOMAIN_s0["EXACT: GU's ambient operator is first-order ULTRAHYPERBOLIC on a non-compact 14-ma..."]
   PD_ULTRAHYPERBOLIC_DOMAIN --> PD_ULTRAHYPERBOLIC_DOMAIN_s0
@@ -268,6 +270,9 @@ graph TD
 - **2026-08-09** — Exact Galois-conjugate reconstruction Hessians had different real inertias and were nearly promoted as a branch selector. Both points were noncritical in the independent B direction, which is not a source tangent; an exact local coordinate change can force either determinant to zero. On the owned varpi line both branches have the same inertia class.
   - *Cost:* Would have skipped one required branch port and mistaken a coordinate-dependent second derivative for physical stability.
   - *Receipt:* `lab/process/hostile-reviews/2026-08-09-selected-k77-branch-hessian-discriminator-review.md`
+- **2026-08-14** — A central-flux index comparison was initially phrased as failing to produce observed chirality. Weinstein's source target is instead a NON-CHIRAL total theory with an emergent low-curvature separation into luminous and dark chiral-looking sectors. Equal ordinary 4D conjugate indices are compatible with the premise; they close only that naive index route to the claimed decoupling.
+  - *Cost:* Would have converted a scoped mechanism failure into a false clash with the source's governing physical claim.
+  - *Receipt:* `explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md`
 
 **Invalidates if:** Never. This is a process invariant.
 

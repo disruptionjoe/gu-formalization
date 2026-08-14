@@ -7,6 +7,22 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 CENTRAL-U(1) W/MIRROR FLUX GATE (ledger v0.243).** The full
+> `U(64,64)` parent has a unique central line, while the block-preserving
+> `U(32,32) x U(32,32)` subgroup has diagonal and relative center lines. Under
+> the exact anti-linear half exchange the diagonal line is odd and the relative
+> line is even; only the diagonal line remains central in the full parent. Its
+> curvature is a gauge-invariant candidate bosonic W/mirror leg, but every
+> local real exchange-invariant action is even in it and selects neither flux
+> sign. A global determinant-line flux or boundary charge remains open. Equal
+> ordinary four-dimensional conjugate indices are compatible with Weinstein's
+> **non-chiral total theory**; they do not construct its low-curvature
+> luminous/dark decoupling. **Next construct global determinant-line,
+> observation, large-gauge, BV/BFV and closed-domain descent. Do not call the
+> central line hypercharge, import a flux sector, or substitute net chirality
+> for the source's emergent-decoupling claim.** No verdict, residue, quotient,
+> datum, canon or public-posture move.
+
 > **2026-08-13 FIXED-J10 BV/GREEN DESCENT GATE.** The spinor-only normal
 > volume does not act on the rolled fermion carrier as written; its natural
 > lift is `Jhat=(R_split tensor J10) direct-sum J10`. This lift squares to
