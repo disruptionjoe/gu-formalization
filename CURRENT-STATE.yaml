@@ -77,14 +77,27 @@ current_result:
     distinct from Pi14. Raw tractor square is Weyl/Cotton curvature; the
     correct untwisted curved-complex condition is Bach-flatness through the
     twistor-spinor Yang--Mills detour sequence, admitting non-conformally-flat
-    Einstein controls. The full GU normal/mixed twist still requires the total
-    connection to be Yang--Mills, and the third-order detour middle map is not
-    directly the owned first-order rolled operator. Ledger hypothesis
-    HYP-TW-COHERENCE-01 preserves this sharpened total-Yang--Mills proposal
-    without promoting it: full action Bach ownership, endpoint admission,
-    factorization, positive domain and pairing, physical cohomology and any
-    decoherence law remain open.
+    Einstein controls. The universal K77-typed adapted-connection algebra at
+    the actual 4-plus-10 dimensions now has exact Gauss, Codazzi and Ricci
+    curvature blocks and tangent, normal and mixed Yang--Mills current blocks.
+    Exact controls reject total-Yang--Mills iff II=0 in both directions:
+    nonzero symmetric II can occur in a flat
+    total connection, while II=0 can retain a nonzero diagonal current.
+    Horizontal reference normalization changes the full connection curvature
+    by transgression. A moving reduction R measures the mixed block through
+    D_A R and contributes the connection current [R,D_A R], so an on-shell
+    coupled connection need not be source-free Yang--Mills and the ordinary
+    detour need not close. Ledger hypothesis HYP-TW-COHERENCE-01 now preserves
+    a coupled moving-reduction/detour-BV proposal without promoting it: the
+    action-owned A/R pair, normalized connection, coupled complex, full action
+    Bach ownership, endpoint admission, rolled-operator factorization,
+    positive domain and pairing, physical cohomology and any decoherence law
+    remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md
+    - lab/process/selected-k77-total-twisted-yang-mills-current-gate.json
+    - explorations/conditional-build/conditional-physics-ledger-v0.256.md
+    - lab/process/conditional-physics-ledger-v0.256.json
     - explorations/conditional-build/selected-k77-coadjoint-invariant-variation-gate-2026-08-14.md
     - lab/process/selected-k77-coadjoint-invariant-variation-gate.json
     - explorations/conditional-build/selected-k77-local-twistor-bach-detour-composition-gate-2026-08-14.md

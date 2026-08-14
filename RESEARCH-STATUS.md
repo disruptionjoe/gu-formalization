@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Total K77 Yang--Mills current/moving-reduction gate 2026-08-14 (ledger
+v0.256; headline unchanged).** The universal K77-typed adapted-connection
+algebra at the actual `4+10` dimensions now has exact Gauss, Codazzi and Ricci
+curvature blocks and tangent, normal and mixed Yang--Mills current blocks. The
+mixed coefficient is raw `II`; its Codazzi curvature and the total current are
+distinct. Exact controls reject
+`total Yang--Mills iff II=0` in both directions: nonzero symmetric positive
+`II` can sit inside a flat total connection, while `II=0` can retain a
+nonzero tangent or normal current. Subtracting the horizontal reference term
+changes the full curvature by connection transgression. The moving reduction
+`R` exactly measures the mixed block through `D_A R`; its energy yields a
+harmonic-reduction equation and the connection current `[R,D_A R]`. A coupled
+on-shell connection therefore need not be source-free Yang--Mills, so the
+ordinary Bach detour need not close. See
+`explorations/conditional-build/selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md`
+and its `62/62` exact probe. The strongest hypothesis is now a coupled
+moving-reduction BV/detour complex. Its action-owned fields, normalized
+connection, compositions, operator factorization, endpoint, positivity and
+physical cohomology remain open. `LT-SM8` receives one distance-only
+migration; no verdict, residue, quotient, datum, canon or public-posture move.
+
 **Coadjoint-invariant variation gate 2026-08-14 (ledger v0.255 preserved;
 headline unchanged).** The endpoint charge's six even trace invariants and
 degree-seven Pfaffian have independent differential rank seven, with common

@@ -87,6 +87,16 @@ the map: which directory/group supports which claim.
   kernel, and differentiates the action endpoint along an exact `B/T` line.
   All seven derivatives are nonzero. Run with Sage Python; it passes `37/37`.
 
+- `channel-swings/selected_k77_total_twisted_yang_mills_current_gate_probe.py`
+  constructs the universal K77-typed adapted metric-connection algebra at the
+  actual `4+10` dimensions over exact rationals, verifies its
+  Gauss--Codazzi--Ricci curvature and complete tangent/normal/mixed
+  Yang--Mills current blocks, and supplies counterexamples proving `II=0` is
+  neither necessary nor sufficient for total Yang--Mills. It
+  verifies the raw-to-normalized curvature transgression, shows `D_A R`
+  measures the mixed block, and checks the moving-reduction and coupled
+  connection first variations. Run with Python 3; it passes `62/62`.
+
 - `channel-swings/selected_k77_local_twistor_bach_detour_composition_gate_probe.py`
   builds the exact four-dimensional twistor projector, proves its rank and
   carrier embedding into ambient `ker Gamma14`, and distinguishes `Pi4` from

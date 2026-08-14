@@ -158,6 +158,28 @@ updated_at: "2026-08-14"
 > symmetry.** A fixed orbit on a derived admissible locus remains open. Exact
 > probe: `37/37`; no verdict or public-posture change.
 
+> **2026-08-14 TOTAL K77 YANG--MILLS CURRENT/MOVING-REDUCTION GATE
+> (ledger v0.256).** The universal K77-typed adapted-connection algebra at the
+> actual `4+10` dimensions now has exact Gauss, Codazzi and Ricci curvature
+> blocks and tangent, normal and mixed Yang--Mills current blocks. Exact
+> controls reject `total Yang--Mills iff II=0` in both directions: nonzero
+> symmetric positive
+> `II` occurs in a flat total connection, while `II=0` can retain a nonzero
+> tangent or normal current. Reference normalization is not substitution:
+> `F(A-K)=F(A)-D_A K+K wedge K`. The moving reduction
+> `R=diag(+I4,-I10)` satisfies `D_A R=2 mixed(A)` and its energy sources the
+> connection by `[R,D_A R]`; consequently the ordinary source-free detour need
+> not close on the coupled shell. **Next freeze the action-owned `(A,R)` pair
+> and normalized connection, linearize the coupled Euler--Lagrange and gauge
+> maps, and build the first coupled BV/detour compositions. Test whether the
+> reduction-current component absorbs the ordinary detour obstruction before
+> attempting the `Pi4 -> ker Gamma14` push and rolled-operator factorization.**
+> See
+> `explorations/conditional-build/selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md`
+> and its `62/62` exact probe. `HYP-TW-COHERENCE-01` now names a conditional
+> coupled moving-reduction complex, not physical superposition. `LT-SM8`
+> receives one distance-only migration; no public physics posture changes.
+
 > **2026-08-14 LOCAL-TWISTOR/BACH-DETOUR COMPOSITION GATE (ledger
 > v0.255).** H3 now has a canonical curved object: the observed conformal spin
 > geometry supplies the local-twistor connection. Its raw square is Weyl/
