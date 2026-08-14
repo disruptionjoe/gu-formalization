@@ -87,6 +87,14 @@ the map: which directory/group supports which claim.
   kernel, and differentiates the action endpoint along an exact `B/T` line.
   All seven derivatives are nonzero. Run with Sage Python; it passes `37/37`.
 
+- `channel-swings/selected_k77_superposition_hypothesis_27_lens_council_probe.py`
+  validates the modeled 27-lens council packet, its exact-versus-analogy
+  declarations, confidence ranges, falsification gates and seven-candidate
+  cross-vote. It deterministically reproduces primary, approval and Borda
+  totals, including `H1` as the only `27/27` top-three candidate, while
+  preserving the planning-evidence claim ceiling and `H0` null. It does not
+  test any candidate physics hypothesis. Run with Python 3; it passes `40/40`.
+
 - `channel-swings/selected_k77_total_twisted_yang_mills_current_gate_probe.py`
   constructs the universal K77-typed adapted metric-connection algebra at the
   actual `4+10` dimensions over exact rationals, verifies its

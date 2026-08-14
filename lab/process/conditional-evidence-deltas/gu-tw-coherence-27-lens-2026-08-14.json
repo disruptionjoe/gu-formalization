@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.256.json",
+    "ledger_sha256": "5c5b86ad30ad71fcf771784a318f6dc5d03cb7a12afcdfa63bdc488c2d6b4a7e"
+  },
+  "affected_rows": [
+    "LT-SM8"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/selected-k77-superposition-hypothesis-27-lens-council-2026-08-14.md",
+    "lab/process/selected-k77-superposition-hypothesis-27-lens-council.json",
+    "tests/channel-swings/selected_k77_superposition_hypothesis_27_lens_council_probe.py"
+  ],
+  "source_disposition": "No new GU source statement. Frederic Schuller constructive gravity, Jacob Barandes indivisible stochastic processes, Mori--Zwanzig/non-Markovian dynamics, Philip Mannheim conformal gravity, Peter Woit Euclidean twistors, port-Hamiltonian PDEs and factorization algebras are typed as external comparator or method-transfer inputs rather than source-owned GU mechanisms.",
+  "claim_ceiling": "Modeled twenty-seven-lens planning evidence only. No new GU theorem, verdict, mapping grade, action owner, causal-closure solution, coupled BV/detour complex, positive physical cohomology, transition law, memory kernel, reduced channel, superposition mechanism or decoherence law.",
+  "proposed_effect": {
+    "summary": "Preserve ledger v0.256 exact mathematics and refine the conditional HYP-TW-COHERENCE-01 work order: H1 coupled reduction--twistor physical cohomology is the unanimous top-three candidate; the ordered composite is H2 constructive causal-action selection, then H1 coupled physical complex, then H3 projected indivisible/non-Markovian observed dynamics; H0 external ordinary quantization remains live.",
+    "requested_row_changes": [
+      "LT-SM8 distance/evidence only: record the modeled council ranking and H2-to-H1-to-H3 dependency order while preserving NEEDS, MISSING_CONSTRUCTION and the v0.256 mapping grade",
+      "HYP-TW-COHERENCE-01 planning refinement only: add the modeled vote, exact-versus-analogy fences and H0 null without changing hypothesis status"
+    ]
+  },
+  "conflict_keys": [
+    "LT-SM8",
+    "HYP-TW-COHERENCE-01",
+    "TWISTOR-COHERENCE-DEPENDENCY-ORDER"
+  ],
+  "integration": null
+}

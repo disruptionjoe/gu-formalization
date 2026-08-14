@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "artifact_type": "modeled_inline_specialist_lens_council",
+  "status": "PLANNING_EVIDENCE_ONLY__NOT_SCIENTIFIC_EVIDENCE",
+  "question": "After the exact K77 adapted-current and moving-reduction results, where is the strongest remaining location hypothesis for superposition in GU geometry?",
+  "interpretation_notes": [
+    "The lenses are modeled analytic standpoints, not reports from twenty-seven human reviewers.",
+    "Confidence is the lens's confidence that its own hypothesis is the most useful next GU hypothesis, not a calibrated probability that GU derives quantum mechanics.",
+    "EXACT_IN_REPO names an already certified GU identity; THEOREM_TRANSFER names outside mathematics whose GU hypotheses remain unverified; CONDITIONAL_ADAPTER names a proposed construction; ANALOGY supplies architecture or diagnostic language only.",
+    "MMO is read as massively multiplayer online distributed simulation; a separate MOO lens covers the possible multi-objective-optimization reading.",
+    "No relevant twistor-physics author named Peter Voigt was found. The context matches Peter Woit, whose Euclidean-twistor work is used without attributing it to Voigt.",
+    "Frederic Schuller's primary-source name is constructive gravity. The council does not treat direct action energy as a verified title for his programme."
+  ],
+  "exact_in_repo_spine": [
+    "For the K77 reduction involution R=diag(+I4,-I10), D_A R is twice the mixed adapted-connection block.",
+    "The universal K77-typed 4+10 curvature and Yang--Mills current decompose into exact Gauss, Codazzi and Ricci blocks.",
+    "Total Yang--Mills iff II=0 fails in both directions.",
+    "Reference normalization changes full curvature by F(A-K)=F(A)-D_A K+K wedge K.",
+    "Variation of the reduction energy produces the connection current [R,D_A R].",
+    "The observed-base local-twistor connection, Pi4 carrier adapter and untwisted Bach-flat detour classification are constructed.",
+    "The ordinary source-free detour need not close on a coupled shell carrying reduction current.",
+    "The fixed J10 does not descend through the owned ordinary-gauge quotient; moving J10 is gauge covariant, while a positive physical cohomology remains unbuilt."
+  ],
+  "candidates": {
+    "H1": {
+      "name": "coupled reduction--twistor physical cohomology",
+      "statement": "An action-owned connection A and moving reduction R form a coupled BV/detour complex; after local-twistor prolongation, Pi4-to-ambient matching, Lorentzian domain closure and positive reduction, superposition is linear addition in the resulting physical cohomology rather than a property of pointwise J.",
+      "grade": "CONDITIONAL_ADAPTER"
+    },
+    "H2": {
+      "name": "constructive causal-action closure",
+      "statement": "The correct A/R action and coefficients are selected by diffeomorphism covariance and causal compatibility with the owned matter principal polynomial; only the causally compatible coupled complex is eligible for quantization.",
+      "grade": "THEOREM_TRANSFER_PLUS_CONDITIONAL_ADAPTER"
+    },
+    "H3": {
+      "name": "indivisible non-Markovian observed dynamics",
+      "statement": "Projection or integration of normal and reduction modes yields a non-Markovian or indivisible transition law on observed configurations, with Hilbert amplitudes and superposition serving as a representation of that law.",
+      "grade": "THEOREM_TRANSFER_PLUS_CONDITIONAL_ADAPTER"
+    },
+    "H4": {
+      "name": "conformal Bach/PT coherence locus",
+      "statement": "Observed coherence is primarily controlled by the Bach-flat conformal/tractor Yang--Mills sector with a PT/Krein state selection, while mixed/reduction curvature controls departure from that locus.",
+      "grade": "EXACT_BASE_CLASSIFICATION_PLUS_ANALOGY"
+    },
+    "H5": {
+      "name": "local-to-global factorization or network state",
+      "statement": "Superposition is a compositional local-to-global property of observables or sections over the family of twistor planes, not an intrinsic property of an isolated spacetime point or complex plane.",
+      "grade": "THEOREM_TRANSFER_PLUS_ANALOGY"
+    },
+    "H6": {
+      "name": "Euclidean-twistor primary complex geometry",
+      "statement": "The primary complex geometry lives on the Euclidean twistor horn and Lorentzian physics must be reconstructed by an explicit real structure, Wick rotation, Osterwalder--Schrader condition or hyperfunction boundary-value map.",
+      "grade": "EXTERNAL_RESEARCH_HORN"
+    },
+    "H0": {
+      "name": "classical geometry plus external quantization",
+      "statement": "GU supplies at most a classical complex-linear wave geometry; ordinary quantization supplies superposition externally, and no GU-specific derivation should be claimed without a positive physical state space and observable predictions.",
+      "grade": "NULL_HYPOTHESIS"
+    }
+  },
+  "voting_rule": {
+    "ballot": "Each lens ranks its three strongest candidate hypotheses. Rank one receives three Borda points, rank two receives two and rank three receives one. Top-three appearance is also counted as approval.",
+    "tie_break": "No tie is silently broken; tied aggregates remain tied.",
+    "self_vote_note": "A lens may vote for the cluster matching its own steelman. Cross-lens convergence is read from approvals and Borda totals, not primary votes alone."
+  },
+  "lenses": [
+    {
+      "id": "L01",
+      "lens": "differential geometer and second-fundamental-form specialist",
+      "own_hypothesis": "The moving tangent/normal reduction is the primitive geometric field, and coherence can only mean parallel transport in the coupled reduction complex, not vanishing II by itself.",
+      "confidence_percent": 80,
+      "exact_math": "D_A R=2 mixed(A), and II=0 is neither necessary nor sufficient for total Yang--Mills.",
+      "analogy_or_transfer": "Calling reduced cohomology quantum superposition remains an interpretation until positivity and observables construct.",
+      "kill_gate": "No action-owned normalized A/R pair or failure of the coupled Noether complex.",
+      "ranking": ["H1", "H2", "H5"]
+    },
+    {
+      "id": "L02",
+      "lens": "Lorentzian twistor geometer",
+      "own_hypothesis": "Superposition sits in cohomology of a curved local-twistor detour complex after coupling to the moving reduction, never in a bare pointwise twistor plane.",
+      "confidence_percent": 74,
+      "exact_math": "The local-twistor connection, Pi4 projector and untwisted Bach-flat detour are typed; Pi4 embeds in ambient ker Gamma14 but is not Pi14.",
+      "analogy_or_transfer": "The coupled prolongation and Penrose pushforward are not yet constructed.",
+      "kill_gate": "Principal-symbol or bundle-weight mismatch after the Pi4 push.",
+      "ranking": ["H1", "H6", "H4"]
+    },
+    {
+      "id": "L03",
+      "lens": "BV--BFV and derived-geometry specialist",
+      "own_hypothesis": "The right carrier is the on-shell cohomology of the coupled deformation complex for (A,R), completed by BFV boundary data and a positive real structure.",
+      "confidence_percent": 86,
+      "exact_math": "The reduction current [R,D_A R] is forced by first variation, so the source-free detour is the wrong shell generically.",
+      "analogy_or_transfer": "A mapping-cone extension is a proposed architecture until its differentials compose exactly.",
+      "kill_gate": "The linearized Euler map fails to annihilate the coupled gauge map on the selected shell.",
+      "ranking": ["H1", "H2", "H5"]
+    },
+    {
+      "id": "L04",
+      "lens": "category theorist and factorization-algebra specialist",
+      "own_hypothesis": "The quantum-looking linear structure is a local-to-global invariant of the observables cosheaf or derived pushforward, not furniture at each point.",
+      "confidence_percent": 68,
+      "exact_math": "The repo already has distinct base, normal, ambient and observation maps whose comparison arrows cannot be identified silently.",
+      "analogy_or_transfer": "Factorization algebras provide a proven QFT local-to-global language, but no GU factorization algebra has been built.",
+      "kill_gate": "Failure of descent, time-slice compatibility or locality for the proposed observable assignment.",
+      "ranking": ["H5", "H1", "H2"]
+    },
+    {
+      "id": "L05",
+      "lens": "Clifford and representation theorist",
+      "own_hypothesis": "A moving reflection-twisted complex structure can organize the observed carrier, but only coupled gauge cohomology can make it representation-independent.",
+      "confidence_percent": 65,
+      "exact_math": "The reflection-twisted Jhat preserves the gamma-trace carrier and observed principal symbols; fixed J10 fails on eight selected gauge directions.",
+      "analogy_or_transfer": "Complex-linearity of a classical operator is not a derivation of quantum amplitudes.",
+      "kill_gate": "No positive gauge-basic subquotient compatible with the full selected action.",
+      "ranking": ["H1", "H4", "H0"]
+    },
+    {
+      "id": "L06",
+      "lens": "Frederic Schuller constructive-gravity lens",
+      "own_hypothesis": "Do not guess the A/R energy: derive the eligible gravitational Lagrangian from the complete matter dynamics, diffeomorphism covariance and causal compatibility, then test H1 on that action.",
+      "confidence_percent": 78,
+      "exact_math": "GU has candidate geometric terms and exact principal-symbol data, but it does not yet own the coupled A/R action used by H1.",
+      "analogy_or_transfer": "Constructive gravity is an external method; its closure equations have not been solved for the GU matter carrier.",
+      "kill_gate": "No common hyperbolic initial-data cone or no solution of the gravitational closure equations.",
+      "ranking": ["H2", "H1", "H0"]
+    },
+    {
+      "id": "L07",
+      "lens": "Philip Mannheim conformal-gravity and PT lens",
+      "own_hypothesis": "The Bach-flat tractor sector may be the coherence-preserving base theory, with a PT/Krein prescription rather than naive positive-Hilbert quantization; the reduction field supplies a controlled nonconformal coupling.",
+      "confidence_percent": 60,
+      "exact_math": "Bach-flatness is the exact untwisted local-twistor detour condition in four dimensions.",
+      "analogy_or_transfer": "GU's |II|^2-shaped candidate is not Mannheim's Weyl-squared theory, and Mannheim's claimed PT resolution is not thereby inherited.",
+      "kill_gate": "The selected GU action has no Bach equation or the PT/Krein domain fails spectral positivity/unitarity tests.",
+      "ranking": ["H4", "H1", "H0"]
+    },
+    {
+      "id": "L08",
+      "lens": "Jacob Barandes indivisible-stochastic-process lens",
+      "own_hypothesis": "The observed Hilbert space may be a representation of an indivisible transition law induced by the hidden normal/reduction dynamics, rather than the ontology of the GU fields themselves.",
+      "confidence_percent": 70,
+      "exact_math": "No GU transition matrix Gamma or stochastic-quantum dictionary has yet been constructed.",
+      "analogy_or_transfer": "Barandes supplies an external exact correspondence for suitable stochastic systems; applying it to GU requires deriving the transition law and its gauge equivalence.",
+      "kill_gate": "The projected GU dynamics is divisible/Markovian in the relevant sense or fails to yield a unistochastic/Hilbert dilation.",
+      "ranking": ["H3", "H1", "H0"]
+    },
+    {
+      "id": "L09",
+      "lens": "non-Markovian open-quantum-systems specialist",
+      "own_hypothesis": "Mixed normal modes act as a structured environment, so coherence loss and revival should be encoded by a derived memory kernel rather than a local scalar proportional to |II|^2.",
+      "confidence_percent": 74,
+      "exact_math": "The mixed connection and reduction current are exact coupling channels, but no reduced dynamical map or complete-positivity statement exists.",
+      "analogy_or_transfer": "Information backflow and divisibility criteria transfer only after constructing a physical reduced state space.",
+      "kill_gate": "No well-defined reduced dynamical map, or a memory kernel independent of the mixed/reduction sector.",
+      "ranking": ["H3", "H1", "H0"]
+    },
+    {
+      "id": "L10",
+      "lens": "Mori--Zwanzig projection and non-Markovian model-reduction specialist",
+      "own_hypothesis": "Integrating out the ten normal directions should produce an exact drift-plus-memory-plus-fluctuation equation on observed variables; that equation is the first place a decoherence law could honestly live.",
+      "confidence_percent": 81,
+      "exact_math": "The 4+10 split and mixed coupling are explicit enough to define resolved and unresolved sectors algebraically.",
+      "analogy_or_transfer": "No Liouville generator, invariant measure, projection operator or memory kernel has been derived for the selected GU action.",
+      "kill_gate": "The action-owned dynamics or invariant projection needed for an exact generalized Langevin equation does not exist.",
+      "ranking": ["H3", "H1", "H2"]
+    },
+    {
+      "id": "L11",
+      "lens": "hyperbolic and ultrahyperbolic PDE specialist",
+      "own_hypothesis": "Causal well-posedness must select the actual coupled operator before cohomology can become a state space; the observed Lorentzian domain, not ambient K77 evolution, is the likely physical arena.",
+      "confidence_percent": 76,
+      "exact_math": "The ambient operator is ultrahyperbolic and the observed principal complex-linearity is only conditional on a local horizontal domain.",
+      "analogy_or_transfer": "No global Green-hyperbolic coupled A/R operator or closed domain is owned.",
+      "kill_gate": "Failure of common characteristics, energy estimate or a closed Lorentzian evolution domain.",
+      "ranking": ["H2", "H1", "H0"]
+    },
+    {
+      "id": "L12",
+      "lens": "port-Hamiltonian PDE and boundary-control engineer",
+      "own_hypothesis": "The coupled current and BFV endpoint should be organized as bulk energy-storage variables plus boundary effort/flow ports; superposition is admissible only on the lossless reduced port space.",
+      "confidence_percent": 79,
+      "exact_math": "GU already has Green/boundary charges and a coupled bulk current, but their common power balance is unbuilt.",
+      "analogy_or_transfer": "Stokes--Dirac structures are exact for broad PDE classes; a GU Stokes--Dirac graph and trace spaces remain to be proved.",
+      "kill_gate": "No skew-adjoint bulk operator with a closing boundary Green identity and admissible port relation.",
+      "ranking": ["H2", "H1", "H5"]
+    },
+    {
+      "id": "L13",
+      "lens": "Hamiltonian, symplectic-reduction and moment-map engineer",
+      "own_hypothesis": "The moving reduction is a constrained orbit field whose current is a moment-map contribution; physical states must arise after coupled symplectic/BFV reduction, not before it.",
+      "confidence_percent": 80,
+      "exact_math": "The endpoint coadjoint orbit and stabilizer data are exact, and the reduction current is an exact connection variation.",
+      "analogy_or_transfer": "The bulk A/R symplectic form and its gluing to the endpoint BFV phase space are not owned.",
+      "kill_gate": "The bulk and boundary moment maps cannot be made equivariant on a common constraint surface.",
+      "ranking": ["H1", "H2", "H5"]
+    },
+    {
+      "id": "L14",
+      "lens": "microlocal and principal-symbol analyst",
+      "own_hypothesis": "The winning hypothesis is whichever action makes the coupled characteristic variety, gauge complex and local-twistor prolongation symbol-compatible; semantic similarity is irrelevant.",
+      "confidence_percent": 74,
+      "exact_math": "The third-order detour middle map and first-order GU rolled operator presently have different types and orders.",
+      "analogy_or_transfer": "Factorization may still exist through auxiliary fields, but it has not been demonstrated.",
+      "kill_gate": "Characteristic varieties or symbol cohomologies disagree after every admissible prolongation.",
+      "ranking": ["H2", "H1", "H0"]
+    },
+    {
+      "id": "L15",
+      "lens": "operator-algebra, Krein and positive-state specialist",
+      "own_hypothesis": "H1 is credible only if its gauge cohomology admits a positive physical pairing selected from, but not confused with, the owned indefinite action and trace forms.",
+      "confidence_percent": 73,
+      "exact_math": "The action pairing, trace-Hq and positive physical inner product are distinct; J10 is an isometry of one and an anti-isometry of another.",
+      "analogy_or_transfer": "PT/Krein technology is a possible route, not a positive-state theorem for GU.",
+      "kill_gate": "Negative- or zero-norm classes survive every action-owned quotient, or no self-adjoint closed generator exists.",
+      "ranking": ["H1", "H4", "H0"]
+    },
+    {
+      "id": "L16",
+      "lens": "index theorist and homological algebraist",
+      "own_hypothesis": "Only the cohomology of the correctly reduced complex can support a count or state multiplicity; changing to a unitary reduction may change the relevant index theory, but this follows the complex rather than creates it.",
+      "confidence_percent": 58,
+      "exact_math": "Existing K-theory and spin-bordism calculations do not yet compute the physical cohomology of H1.",
+      "analogy_or_transfer": "A Todd/Chern replacement after holonomy reduction is conditional and may be the wrong index for the actual Lorentzian problem.",
+      "kill_gate": "The reduced complex is non-Fredholm, has trivial cohomology or lacks an index-compatible domain.",
+      "ranking": ["H1", "H5", "H0"]
+    },
+    {
+      "id": "L17",
+      "lens": "complex analyst and several-complex-variables specialist",
+      "own_hypothesis": "Complex structure contributes rigidity only after integrability, real-structure and boundary-value conditions; therefore the cohomological twistor version of H1 is stronger than a pointwise complex plane.",
+      "confidence_percent": 71,
+      "exact_math": "Pointwise J and conditional observed complex-linearity are available; generic Lorentzian holomorphic twistor integrability is not.",
+      "analogy_or_transfer": "Analyticity theorems cannot be imported from the Euclidean/complex horn without the required reconstruction.",
+      "kill_gate": "Nonvanishing integrability obstruction or absence of a Lorentzian boundary-value real structure.",
+      "ranking": ["H1", "H6", "H5"]
+    },
+    {
+      "id": "L18",
+      "lens": "Peter Woit Euclidean-twistor comparator",
+      "own_hypothesis": "Euclidean twistor geometry may make the complex structure native and explain chiral spinor asymmetry, but the decisive GU task is the explicit map back to the selected Lorentzian carrier.",
+      "confidence_percent": 62,
+      "exact_math": "The GU Euclidean ASD horn remains mathematically distinct from the general Lorentzian local-twistor horn.",
+      "analogy_or_transfer": "Woit's current work flags serious Weyl-spinor Wick-rotation issues; it does not supply the missing GU real-time reconstruction.",
+      "kill_gate": "No Osterwalder--Schrader, hyperfunction or equivalent Lorentz reconstruction preserving the physical carrier.",
+      "ranking": ["H6", "H1", "H4"]
+    },
+    {
+      "id": "L19",
+      "lens": "quantum-information and decoherence specialist",
+      "own_hypothesis": "The first measurable GU claim should be a reduced channel or process tensor whose divisibility, coherence monotone and information backflow depend on the normal/reduction sector.",
+      "confidence_percent": 67,
+      "exact_math": "No rate, density operator, quantum channel or operational coherence functional follows from |II|^2 or [R,D_A R] alone.",
+      "analogy_or_transfer": "Calling curvature decoherence is premature until a state preparation and readout map are specified.",
+      "kill_gate": "No completely positive operational reduction or no dependence of measured coherence on the proposed GU coupling.",
+      "ranking": ["H3", "H1", "H0"]
+    },
+    {
+      "id": "L20",
+      "lens": "statistical mechanics and renormalization specialist",
+      "own_hypothesis": "Quantum-looking observed behavior may be an effective fixed-point description after coarse-graining the normal sector; the memory kernel and effective action should be derived together.",
+      "confidence_percent": 64,
+      "exact_math": "The current result identifies couplings but supplies no scale separation, invariant measure or renormalization flow.",
+      "analogy_or_transfer": "Emergence language is heuristic until a controlled coarse-graining and universality class are exhibited.",
+      "kill_gate": "No stable scale separation or the effective observed dynamics is sensitive to arbitrary projection choices.",
+      "ranking": ["H3", "H2", "H1"]
+    },
+    {
+      "id": "L21",
+      "lens": "network protocol and distributed-state engineer",
+      "own_hypothesis": "The physical state is a consistency class across local carriers and transports; pointwise J is schema, while holonomy, reconciliation and failure detection determine global admissibility.",
+      "confidence_percent": 56,
+      "exact_math": "Connection holonomy and bundle descent are genuine mathematics; the protocol vocabulary adds no physics theorem.",
+      "analogy_or_transfer": "Packets, retries and consensus are architecture analogies only.",
+      "kill_gate": "The local data fail cocycle consistency or global transport creates unremovable ambiguity.",
+      "ranking": ["H5", "H1", "H2"]
+    },
+    {
+      "id": "L22",
+      "lens": "MMO distributed-simulation and authoritative-state engineer",
+      "own_hypothesis": "A spacetime point is like a local view into a globally authoritative state: superposed alternatives belong to the server-side state space or event history, not to the rendered point itself.",
+      "confidence_percent": 48,
+      "exact_math": "The repo's distinction among local graph plane, twistor carrier and ambient halves is exact.",
+      "analogy_or_transfer": "Server, shard, interest-management and rollback language has zero direct physics content.",
+      "kill_gate": "The analogy predicts no new consistency check beyond ordinary bundle descent and non-Markovian reduction.",
+      "ranking": ["H5", "H3", "H1"]
+    },
+    {
+      "id": "L23",
+      "lens": "multi-objective-optimization engineer",
+      "own_hypothesis": "Action selection should be posed as simultaneous satisfaction of covariance, causal compatibility, gauge closure, endpoint admission and positivity, not as a weighted fit that trades one exact constraint against another.",
+      "confidence_percent": 61,
+      "exact_math": "Several gates are hard feasibility constraints and cannot be collapsed into one loss without changing their meaning.",
+      "analogy_or_transfer": "Pareto-front language helps organize candidates but does not derive physical coefficients.",
+      "kill_gate": "No candidate lies in the intersection of the hard constraint sets.",
+      "ranking": ["H2", "H1", "H0"]
+    },
+    {
+      "id": "L24",
+      "lens": "neural-network and geometric-deep-learning engineer",
+      "own_hypothesis": "Use gauge-equivariant operator learning only as a search and falsification tool for the coupled prolongation or memory kernel; the learned object must commute with exact gauge and restriction maps.",
+      "confidence_percent": 46,
+      "exact_math": "The repo has exact equivariance and symbol tests suitable as hard validation targets.",
+      "analogy_or_transfer": "A trained surrogate is not evidence that its fitted mechanism is owned by the GU action.",
+      "kill_gate": "Failure to generalize across gauges, signatures, resolutions or exact synthetic controls.",
+      "ranking": ["H1", "H2", "H3"]
+    },
+    {
+      "id": "L25",
+      "lens": "numerical PDE and scientific-computing engineer",
+      "own_hypothesis": "The next computation should discretize the linearized coupled gauge/Euler complex with commuting projections, measure symbol cohomology and only then estimate a memory kernel.",
+      "confidence_percent": 68,
+      "exact_math": "The current algebraic probe provides exact local controls but no variable-coefficient PDE domain.",
+      "analogy_or_transfer": "Numerical nonescape, small residuals or learned rates cannot certify a complex or positive spectrum.",
+      "kill_gate": "Discrete compositions fail to converge to zero under refinement or violate gauge-equivariant commuting diagrams.",
+      "ranking": ["H2", "H1", "H3"]
+    },
+    {
+      "id": "L26",
+      "lens": "AI-safety mathematician and adversarial epistemologist",
+      "own_hypothesis": "Retain H0 as the live null: GU may organize classical complex waves without deriving quantum superposition; every bridge must have a finite kill certificate and an explicit claim ceiling.",
+      "confidence_percent": 75,
+      "exact_math": "Complex-linearity, cohomology and indefinite pairings are individually insufficient for a positive operational quantum theory.",
+      "analogy_or_transfer": "The three-stage H2-to-H1-to-H3 chain is a research prior, not evidence for the final interpretation.",
+      "kill_gate": "Any required bridge remains unidentifiable, non-falsifiable or dependent on fitted external data.",
+      "ranking": ["H0", "H2", "H1"]
+    },
+    {
+      "id": "L27",
+      "lens": "matter-wave interferometry and phenomenology specialist",
+      "own_hypothesis": "Until GU derives a channel, spectrum or rate, the experimentally responsible answer is H0; the first viable successor is H3 because it can produce protocol-dependent coherence curves.",
+      "confidence_percent": 82,
+      "exact_math": "The present geometry supplies no decoherence coefficient, state preparation, environmental spectral density or readout functional.",
+      "analogy_or_transfer": "A curvature-scaling slogan is not a prediction and cannot be compared with interferometry bounds.",
+      "kill_gate": "No parameter-free or independently calibrated departure from standard quantum evolution.",
+      "ranking": ["H0", "H3", "H1"]
+    }
+  ],
+  "expected_primary_votes": {
+    "H1": 9,
+    "H2": 6,
+    "H3": 5,
+    "H4": 1,
+    "H5": 3,
+    "H6": 1,
+    "H0": 2
+  },
+  "panel_disposition": {
+    "strongest_single_candidate": "H1",
+    "strongest_composite": "H2 selects the causally compatible action; H1 supplies the coupled gauge/twistor physical complex; H3 is then tested as the observed effective dynamics after eliminating normal modes.",
+    "mandatory_null": "H0",
+    "claim_ceiling": "MODELED_COUNCIL_CONSENSUS_AND_TEST_ORDER_ONLY__NO_NEW_GU_THEOREM__NO_ACTION_OWNER__NO_POSITIVE_PHYSICAL_COHOMOLOGY__NO_DECOHERENCE_LAW"
+  }
+}
