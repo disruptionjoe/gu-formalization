@@ -324,3 +324,61 @@ carried as support for anything.
 Section 1's exact `C3c` structure (kernel zero; `omega` central so the two-half split
 is unconditional), Result 3's Lorentzian selection (robust across all ambient
 signatures tested), and Section 6's permanent `c1` constraint on index-change claims.
+
+---
+
+## 8. CORRECTION (2026-08-13, superseded by the J10 BV / Green-domain descent gate)
+
+An independent pass — `selected_k77_j10_bv_green_descent_gate_probe.py`, 112/112
+exact — supersedes this artifact's technical core and corrects it on four points.
+Its result should be read in place of Sections 2 and 7 wherever they conflict.
+
+**Independently replicated.** That pass reproduces Section 1's structure exactly on
+the same real `128x128` module: 51 commuting split generators, 40 anticommuting
+mixed, `J10^2 = -I`. Two independent constructions, same numbers. Section 1 stands.
+
+**Correction 1 — the lift was mistyped.** Section 1 used spinor-only `J10`. On the
+owned fermion carrier `Omega1(S) + Omega0(S)` the naive diagonal lift fails to
+preserve the gamma-trace projector. The correct object is the reflection-twisted
+`Jhat = (R_split tensor J10) + J10` with `R_split = diag(+1_BASE, -1_NORMAL)`.
+Anything here that treats `J10` directly as an endomorphism of the rolled carrier is
+mistyped.
+
+**Correction 2 — positivity was assumed, and it does not hold.** Section 7's rate
+argument, and the whole `E[s] = 0 iff II^H = 0` step, silently assumed a
+positive-definite norm. **The normal DeWitt metric is indefinite on K77.** A nonzero
+null tensor can therefore have zero quadratic density, so `|II_s^H|^2 = 0` does not
+imply `II_s^H = 0`. This is the worst error in this artifact: a Euclidean
+positive-norm default imported into an indefinite setting, inside a program whose
+substrate is explicitly Krein.
+
+**Correction 3 — the `II` versus `II^H` discrepancy is not repository sloppiness.**
+Section 7 Attack 1 called it an inconsistency. It is a deliberate **reference
+normalization**: `II_s^H = II_s^raw - II_s^ref`, and at the tautological LC section
+`II_s^raw` is a nonzero algebraic slice term while `II_s^H = 0`. The real gap is that
+`[varpi, J10]` senses the **raw** mixed block of whatever connection it is handed,
+so closing the equivalence requires constructing a normalized `varpi^H` and proving
+its mixed block is exactly `II_s^H`. Attack 1's *conclusion* survives; its
+*diagnosis* was wrong and is retracted.
+
+**Correction 4 — the K3 endpoint is not selective.** Section 7 leaned on
+`E[s_LC] = 0` at the K3 Yau metric as though it were special. It is not:
+`E[s_g] = 0` holds for **every** tautological LC section, and the functional is flat
+in that metric direction. The zero selects neither a metric nor a topology.
+
+**Corrected standing verdict**, adopting the superseding pass's language: the
+defensible claim is **coherence-compatible observed reduction**, not "the Willmore
+action is a decoherence functional." Fixed `J10` fails to descend through the owned
+ordinary-gauge BRST quotient — 8 of the 25 selected gauge directions are mixed and
+every one breaks it — while moving `J10` is exactly covariant. The moving-reduction /
+BV formulation is therefore **mandatory, not optional**.
+
+**What from this artifact is not in the superseding pass, and should not be lost:**
+
+- **Result 3, Lorentzian selection.** `vol^2 = -1` on the 4-block iff `q` is odd; the
+  complex structure exists only for a Lorentzian 4-block, verified robust across
+  ambient `(7,7)`, `(9,5)`, `(3,11)`, `(11,3)`, `(5,9)`. Ambient-independent, so it
+  survives the open `SIGNATURE-AMBIENT` fork rather than depending on it.
+- **Section 6, the `c1` constraint.** `Td = A-hat * exp(c1/2)`; on a 4-manifold
+  `Td - A-hat = c1^2/8`; `A-hat(K3) = Td(K3) = 2`. Any future claim that a holonomy
+  reduction moves the generation count must first exhibit `c1 != 0`.
