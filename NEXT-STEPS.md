@@ -7,16 +7,17 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
-> **2026-08-14 SR-1C MIXED-ORDER OPERATOR ADMISSION.** The uniform “field
-> two-jet” successor was mistyped in primitive source coordinates. The owned
-> first-action density weights are `(g,varpi,epsilon)=(2,1,1)`, so the safe
-> input ceiling for `j^1(E_B-E_T)` and primitive epsilon is `(3,2,2)`, while
-> the complete fixed-`varpi` metric Euler row reaches `(4,3,3)` before exact
-> cancellations are computed. Exact planted top-order, adjoint-sign and
-> held-out two-root controls pass `27/27`. **Next compute the actual
-> branch-specific top coefficients, serialize `O_SR1C` on the mixed jet
-> envelopes, and solve only the exact orders that survive.** Both branches
-> remain `NOT-YET-FALSIFIED`; no stationary background is promoted.
+> **2026-08-14 SR-1C ACTION-OWNED TOP-SYMBOL REDUCTION.** The first actual
+> `O_SR1C` top block now constructs: primitive epsilon has symbol
+> `-(1/2)k wedge S_selected(k wedge a)`, exact rank 13 on positive, negative
+> and null covectors and identical on both algebraic branches. Exact affine-
+> highest-jet certificates kill the nominal metric `g^4` and `varpi^3`
+> blocks, reducing the metric envelope from `(4,3,3)` to `(3,2,3)`; probe
+> `33/33`. **Next compute the selected metric `epsilon^3` block and all
+> remaining branch-dependent lower mixed coefficients, serialize the common
+> 196-row `O_SR1C` bank, and held-out validate both roots before solving.**
+> Both branches remain `NOT-YET-FALSIFIED`; no stationary background is
+> promoted.
 
 > **2026-08-14 VRS-3/VRS-4 DERIVED OWNERSHIP AND TOTAL DESCENT.** At
 > conditional residual zero the second-action Hessian owns the real symmetric

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "SR1C_ACTION_OWNED_PRIMITIVE_TOP_SYMBOL_RANK_13__METRIC_G4_AND_VARPI3_ZERO__LOWER_MIXED_BANK_MISSING",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "operator": "O_SR1C",
+  "action_owned_principal_derivation": {
+    "path_average": "Fbar=F_B+(1/2)D_B T+(1/3)T^2",
+    "Y": "S_selected_adjoint(T)",
+    "p_top": "(1/2)D_B_adjoint(Y)-(1/2)S_selected(D_B T)",
+    "epsilon_top_before_nilpotence": "(1/2)(D_B_adjoint)^2(Y)-(1/2)D_B_adjoint S_selected(D_B T)",
+    "epsilon_top_after_nilpotence": "-(1/2)k_wedge_S_selected(k_wedge_a)"
+  },
+  "primitive_epsilon_top_symbol": {
+    "common_potential_columns": 196,
+    "branch_dependent": false,
+    "orbits": {
+      "positive": {
+        "input_rank": 182,
+        "output_rank": 13,
+        "nonzero_columns": 13
+      },
+      "negative": {
+        "input_rank": 182,
+        "output_rank": 13,
+        "nonzero_columns": 13
+      },
+      "null": {
+        "input_rank": 182,
+        "output_rank": 13,
+        "nonzero_columns": 28
+      }
+    }
+  },
+  "metric_order_reduction": {
+    "prior_safe_envelope": {
+      "g": 4,
+      "varpi": 3,
+      "epsilon": 3
+    },
+    "reduced_safe_envelope": {
+      "g": 3,
+      "varpi": 2,
+      "epsilon": 3
+    },
+    "exact_zero_blocks": [
+      "METRIC_G4",
+      "METRIC_VARPI3"
+    ],
+    "reason": "The selected first-action density is jointly affine in its g2 and varpi1 top jets; it contains no g2 squared or g2 times varpi1 term.",
+    "epsilon3": "ADMITTED_BY_SOURCE_ORDER__SELECTED_TENSOR_COEFFICIENT_NOT_COMPUTED"
+  },
+  "O_SR1C_status": "TOP_PRINCIPAL_BLOCK_PARTIAL__FULL_COMMON_196_ROW_J1P_AND_MOVING_METRIC_GRAPH_BANK_NOT_SERIALIZED",
+  "branch_status": "BOTH_ALGEBRAIC_ROOTS_NOT_YET_FALSIFIED__TOP_BLOCK_BRANCH_INDEPENDENT",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "next_gate": "COMPUTE_THE_SELECTED_EPSILON3_METRIC_TOP_BLOCK_AND_REMAINING_BRANCH_DEPENDENT_LOWER_MIXED_O_SR1C_COEFFICIENTS__SERIALIZE_COMMON_196_ROW_BANK__HELD_OUT_VALIDATE_BOTH_ROOTS",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "probe": "tests/channel-swings/selected_k77_sr1c_top_symbol_reduction_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1c-top-symbol-reduction-review.md"
+}

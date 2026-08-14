@@ -4314,6 +4314,21 @@ selected 196-row coefficient bank.
 python3 tests/channel-swings/selected_k77_sr1c_mixed_order_operator_admission_probe.py
 ```
 
+## K77 SR-1C action-owned top-symbol reduction
+
+`channel-swings/selected_k77_sr1c_top_symbol_reduction_probe.py` derives the
+primitive-epsilon principal block from the actual Fréchet-adjoint action
+Euler, proves its adjoint-square term vanishes, and reconstructs the surviving
+`-(1/2)k wedge S_selected(k wedge a)` matrix on all 196 potential columns. It
+certifies exact rank 13 on positive, negative and null covectors, then proves
+the nominal metric `g^4` and `varpi^3` blocks vanish from the action's affine
+highest-jet structure. It leaves the selected `epsilon^3` tensor block and
+lower branch-dependent `O_SR1C` coefficients open.
+
+```sh
+sage -python tests/channel-swings/selected_k77_sr1c_top_symbol_reduction_probe.py
+```
+
 ## K77 rank-singular all-charge Poisson-map target
 
 `channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py` types
