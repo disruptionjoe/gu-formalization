@@ -7,6 +7,13 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-w-mirror-action-pairing-ownership-source-return-2026-08-13.md`](selected-k77-w-mirror-action-pairing-ownership-source-return-2026-08-13.md)
+  - confirms the independent barred/unbarred equation-9.16 grammar; attributes
+    the exact two-line action-pairing classification and trace-Hq independence
+    theorem to the repository; and returns source-silent on trace-Hq as the
+    defining fermion form, pairing-horn selection, W/mirror selection,
+    BV/domain, index and count.
+
 - [`selected-k77-w-mirror-trace-hq-isotropy-correction-source-return-2026-08-13.md`](selected-k77-w-mirror-trace-hq-isotropy-correction-source-return-2026-08-13.md)
   - confirms the distinguished metric-fibre trace direction and carrier-parent
     grammar; corrects the prior base-q/trace-q attribution; and returns

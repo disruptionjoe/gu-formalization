@@ -7,6 +7,19 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 CURRENT EQUATION-9.16 ACTION PAIRINGS DO NOT OWN TRACE-HQ
+> (ledger v0.240).** The complete tested Spin-natural, degree-diagonal local
+> action pairing family has two lines, represented by `eta tensor B` and
+> `eta tensor BJ`. Both are nondegenerate on W and its mirror. The q-dependent
+> trace form `eta tensor iB gamma(q_g)` adds an exact third restriction outside
+> their span; a three-entry `Q(i)` witness has determinant `-27/256`. The
+> existing graded Majorana graphs select neither action horn and do not insert
+> trace-Hq. **Next evaluate the first action-owned nonzero-fermion Hessian or
+> graded BV differential on W and mirror. Require an asymmetric invariant
+> without fitting a projector, compatible connection or external datum. Keep
+> analytic-domain selection separate.** No verdict, accounting, datum, canon
+> or public-posture move.
+
 > **2026-08-13 TRACE-HQ W/MIRROR POLARIZATION CORRECTED (ledger v0.239).**
 > The prior exact `(96,96)` same-sector result used positive base axis `0`, not
 > the owned vertical trace receiver. Its base-q theorem survives. For every

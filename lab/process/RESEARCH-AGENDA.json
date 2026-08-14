@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-08-13",
-  "refresh_note": "Layer-0 correction 2026-08-13: the W/mirror neutral same-sector theorem is a base-q witness; owned vertical trace q makes W and mirror maximal isotropic partners with a rank-192 cross-pair. Portfolio correction 2026-08-12 and earlier 2026-08-03 reconciliation remain in force. Mechanical LANE-STATE fields are checked by process_gates/lane_state_freshness_audit.py (register P-H15).",
+  "refresh_note": "Pairing-owner closure 2026-08-13: the complete tested Spin-natural equation-9.16 action pairing class has two lines; trace-Hq adds an exact third independent W/mirror restriction and the existing Majorana graphs select neither horn. The next discriminator is the first action-owned nonzero-fermion Hessian or graded BV differential, with analytic-domain selection separate. The trace-q Layer-0 correction, portfolio correction 2026-08-12 and earlier 2026-08-03 reconciliation remain in force. Mechanical LANE-STATE fields are checked by process_gates/lane_state_freshness_audit.py (register P-H15).",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
     "ACTIVE",
@@ -659,8 +659,8 @@
   "extensions": {
     "operating_architecture": {
       "work_state_refs": [
-        "lab/process/conditional-physics-ledger-v0.239.json",
-        "explorations/conditional-build/conditional-physics-ledger-v0.239.md"
+        "lab/process/conditional-physics-ledger-v0.240.json",
+        "explorations/conditional-build/conditional-physics-ledger-v0.240.md"
       ]
     }
   }

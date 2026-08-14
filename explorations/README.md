@@ -7,6 +7,17 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 W/mirror action-pairing ownership (2026-08-13)
+
+`conditional-build/selected-k77-w-mirror-action-pairing-ownership-2026-08-13.md`
+classifies the two complete tested Spin-natural action pairing lines against
+the q-dependent trace-Hq form. Both action lines and trace-Hq are
+nondegenerate on W and mirror in the bilinear category, but trace-Hq adds a
+third independent restriction; an exact `Q(i)` minor has determinant
+`-27/256`. Existing Majorana graphs select neither horn. The next owner must
+come from a nonzero-fermion Hessian or graded BV differential, with analytic
+domain selection kept separate.
+
 ## K77 W/mirror trace-Hq isotropy correction (2026-08-13)
 
 `conditional-build/selected-k77-w-mirror-trace-hq-isotropy-correction-2026-08-13.md`

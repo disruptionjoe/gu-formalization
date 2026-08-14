@@ -153,7 +153,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > supersedes the generic representative search and makes constraint
 > propagation the next gate. No accounting move.
 
-> **Current v0.239 trace-Hq W/mirror correction:** the prior `(96,96)`
+> **Current v0.240 W/mirror action-pairing ownership:** the complete tested
+> Spin-natural, degree-diagonal equation-9.16 action pairing family has two
+> lines, each nondegenerate on W and its mirror. The q-dependent trace-Hq form
+> adds a third independent restriction; an exact three-entry `Q(i)` witness
+> has determinant `-27/256`. Existing graded Majorana graphs select neither
+> horn and do not insert trace-Hq. Rank one is now the first action-owned
+> nonzero-fermion Hessian or graded BV differential, with analytic-domain
+> selection separate. No accounting move.
+
+> **Predecessor v0.239 trace-Hq W/mirror correction:** the prior `(96,96)`
 > same-sector theorem used positive base q, not the owned vertical trace q.
 > Base q remains exact. On the entire normal ten-plane, including trace q,
 > W and mirror are separately totally isotropic and cross-paired at rank 192;
