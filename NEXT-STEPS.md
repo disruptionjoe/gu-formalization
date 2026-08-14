@@ -7,6 +7,21 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 K77 ZORRO/DEWITT TRACE-CURVATURE OBSTRUCTION.** The older
+> B2C15P packet already supplied a canonical Levi-Civita-horizontal
+> connection-metric reconstruction. Its pure-vertical geometry is exactly
+> base-sign invariant and ports to `(1,3)+(6,4)=(7,7)`. The normalized metric
+> trace is a flat DeWitt factor: all `9/9` labelled trace--traceless curvature
+> planes vanish. Both nonzero `b Phi1` branches have nonzero Clifford curvature
+> on those same planes, so neither can be gauge-equivalent to this canonical
+> distinguished connection; first-jet comparison is unnecessary for them.
+> This is reconstruction-scoped because Weinstein prints the Zorro chain but
+> not its coordinate formula or uniqueness. **Next hold canonical `B_Z`
+> dependent and solve the source residual nonhomogeneously for
+> `T=varpi-B_Z`, `varpi` and the observation jet.** A rival Zorro completion
+> must derive nonzero mixed trace curvature explicitly. Exact probe `35/35`;
+> no canon, verdict, residue, datum or public-posture change.
+
 > **2026-08-14 NATIVE CONNECTION CURVATURE-JET GATE.** A pointwise
 > `F_B=epsilon^-1 F_Gamma0 epsilon` orbit match is necessary but not sufficient
 > to identify either frozen `b Phi1` branch with the dependent source
@@ -14,9 +29,9 @@ updated_at: "2026-08-14"
 > jet, and the frozen ansatz has an exact nonzero first jet. The two branches
 > have distinct `b^4` invariants, so one fixed labelled orbit cannot realize
 > both at one `Y` point. The source Zorro chain is explicitly only a sketch and
-> prints no induced-`Y` connection or jet; neither branch is killed. **Next
-> construct that distinguished connection explicitly and compare its labelled
-> curvature one-jet branchwise, moving the entire native geometry packet.**
+> prints no induced-`Y` connection or jet; at this gate neither branch was
+> killed. The later Zorro/DeWitt trace-curvature packet above reuses the existing
+> canonical reconstruction and kills both only at that reconstruction grade.
 > Exact probe passes `36/36`; no ledger, verdict, residue, quotient, canon or public-
 > posture change.
 

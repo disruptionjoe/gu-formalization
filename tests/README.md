@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_zorro_dewitt_trace_curvature_obstruction_probe.py`
+  ports the canonical Zorro/DeWitt fibre curvature to authorial K77, proves
+  exact base-sign invariance and fibre inertia `(6,4)`, and shows all nine
+  trace--traceless curvature planes vanish while both nonzero `b Phi1`
+  branches are nonzero there. It kills the two branches only for that
+  reconstruction and preserves source-global Zorro silence; `35/35` pass
+  under Sage's pinned SymPy environment.
+
 - `channel-swings/selected_k77_native_connection_curvature_jet_gate_probe.py`
   derives curvature and first-jet gauge transport with the inhomogeneous
   connection term, gives a same-curvature/different-jet nonabelian control,

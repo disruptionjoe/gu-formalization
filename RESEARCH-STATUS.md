@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K77 Zorro/DeWitt trace-curvature obstruction 2026-08-14 (reconstruction-
+scoped; no ledger verdict move).** The older B2C15P exact connection-metric
+reconstruction closes the canonical branchwise comparison earlier than the
+first-jet gate expected. Its trace-reversed DeWitt fibre is base-sign
+invariant and has inertia `(6,4)`, giving total K77 signature `(7,7)`. The
+normalized metric-trace line is a flat factor: all nine labelled
+trace--traceless vertical curvatures vanish. Each nonzero exact `b Phi1`
+branch has nonzero Clifford curvature on those same planes. Hence neither old
+branch is a native background for this canonical reconstruction. Weinstein's
+draft gives the abstract Zorro chain but no coordinate formula or uniqueness
+theorem, so the source-global background question remains open and SR-2 stays
+blocked. The next construction fixes `B_Z` as dependent and solves the source
+residual nonhomogeneously for `T=varpi-B_Z`, `varpi` and the observation jet.
+See
+`explorations/conditional-build/selected-k77-zorro-dewitt-trace-curvature-obstruction-2026-08-14.md`
+and its exact `35/35` probe.
+
 **Native connection curvature-jet prerequisite 2026-08-14 (no ledger-row
 move).** The curvature-only legality test for the two exact frozen
 total-residual-zero branches was under-typed. For the dependent source
@@ -18,7 +35,9 @@ frozen `B_i=b gamma_i` ansatz itself has nonzero first jet, and the two branches
 have distinct quadratic curvature invariants, so one fixed labelled orbit
 cannot realize both at one point. The source Zorro chain is only a sketch and
 does not print the induced-`Y` connection or jet needed for a branchwise test.
-Both individual branches therefore remain `TYPE-MISSING`, not killed. See
+At that gate both individual branches remained `TYPE-MISSING`; the later
+canonical-reconstruction packet above kills them only for its explicit
+connection metric. See
 `explorations/conditional-build/selected-k77-native-connection-curvature-jet-gate-2026-08-14.md`.
 
 **Source-epsilon cotangent ownership and selector obstruction 2026-08-14

@@ -196,3 +196,23 @@ The source-facing Zorro construction is presently a sketch without an explicit
 induced-`Y` connection formula.  `SR-1B` therefore begins by constructing that
 connection and comparing its labelled curvature one-jet branchwise.  This
 sharpens `BACKGROUND-MISSING`; it does not close it or start `SR-2`.
+
+## 2026-08-14 canonical Zorro/DeWitt curvature disposition
+
+The repository already contained a canonical reconstruction of the sketched
+connection: the B2C15P Levi-Civita-horizontal connection metric.  Its
+pure-vertical DeWitt curvature is base-sign invariant, so it ports exactly from
+the old `(9,5)` convention to the authorial K77 horn.  The normalized metric
+trace is a flat fibre factor: all nine labelled trace--traceless curvature
+planes vanish.  Both nonzero `b Phi1` branches have nonzero Clifford curvature
+on those same nine planes.  Hence neither branch can be a gauge transform of
+the distinguished connection in this canonical reconstruction.
+
+This dissolves the labelled first-jet comparison only for those two candidates
+and that reconstruction.  The source does not print or uniquely select the
+connection-metric formula, so the abstract native-background question remains
+`BACKGROUND-MISSING`; `SR-2` remains blocked.  The corrected `SR-1B` target is
+now a residual-first solve with canonical `B_Z` held dependent and
+`T=varpi-B_Z`, `varpi` allowed to move nonhomogeneously.  A rival Zorro
+completion may substitute only after deriving nonzero mixed trace curvature or
+changing the connection owner explicitly.

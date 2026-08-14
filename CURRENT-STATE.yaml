@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7fd3b872414dadc5f784d45dc88bb63595dc6133
+revision_basis: 3cb65f9d661fe4de1f2c813406a24b3704a63645
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -29,17 +29,20 @@ current_result:
     edge owner, boundary kinetic law, proper functional BFV, domains,
     positivity and physical cohomology remain open. Charged boundary symmetry
     is the current zero-import horn.
-    In the disjoint source-residual lane, two old tautological branches are
-    exact total-residual-zero candidates at frozen-frame fixed-boundary grade,
-    but their native B(epsilon)/Y legality is type-missing and the bare free-
-    edge horn excludes them. The former curvature-only test is now replaced by
-    the exact labelled curvature-jet condition: gauge transport preserves
-    F_Gamma0 and all of its covariant jets, while the frozen b Phi1 ansatz has
-    a nonzero first jet. The two branches have distinct b^4 curvature
-    invariants, so one fixed labelled orbit cannot realize both. The source
-    Zorro chain is only a sketch and supplies no explicit induced-Y connection
-    or jet for the branchwise comparison. Neither branch is killed; SR-1 is
-    narrowed rather than closed.
+    In the disjoint source-residual lane, two old tautological branches remain
+    exact total-residual-zero candidates only at frozen-frame fixed-boundary
+    grade. The repository already owned a canonical Zorro/DeWitt connection-
+    metric reconstruction that the preceding native gate did not reuse. Its
+    pure-vertical geometry ports exactly to K77: the metric-trace line is a
+    flat DeWitt factor and all nine labelled trace--traceless curvature planes
+    vanish, while each nonzero b Phi1 branch has nonzero Clifford curvature on
+    those same planes. Both branches are therefore killed as backgrounds for
+    that canonical reconstruction before first-jet grade. The source Zorro
+    chain remains a sketch without a coordinate formula or uniqueness theorem,
+    so no source-global background no-go follows and SR-2 stays blocked. The
+    corrected SR-1B target holds canonical B_Z dependent and solves the source
+    residual nonhomogeneously for T=varpi-B_Z and varpi; a rival Zorro
+    completion must derive nonzero mixed trace curvature explicitly.
     The ten rank-128 leaks are already the full N* tensor S observation-kernel
     module; the selected graph, not the carrier, remains only compact-natural.
     The bare selected action's endpoint potential now decides the boundary-law
@@ -144,6 +147,8 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-zorro-dewitt-trace-curvature-obstruction-2026-08-14.md
+    - lab/process/selected-k77-zorro-dewitt-trace-curvature-obstruction.json
     - explorations/conditional-build/selected-k77-cartan-slice-edge-cancellation-2026-08-14.md
     - lab/process/selected-k77-cartan-slice-edge-cancellation.json
     - explorations/conditional-build/selected-k77-native-connection-curvature-jet-gate-2026-08-14.md
@@ -217,11 +222,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the source's sketched Zorro chain be made explicit on native Y strongly
-  enough to compare the labelled distinguished-connection curvature one-jet
-  with either exact residual-zero branch, or must both remain frozen-frame
-  candidates? In parallel, can the action select a stationary nonhomogeneous
-  vacuum without importing a second boundary owner?
+  With both old homogeneous residual-zero branches excluded from the canonical
+  Zorro/DeWitt background bank, can the source residual be solved with B_Z held
+  dependent and T=varpi-B_Z, varpi moving nonhomogeneously, or does the action
+  fail to admit any stationary residual-zero vacuum on that geometry?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -230,12 +234,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the explicit Zorro distinguished connection on the actual Y
-  carrier and compare its labelled curvature one-jet separately with the
-  b-plus and b-minus tautological branches, moving Phi1, Shiab, Hodge, density
-  and observation together. A negative comparison kills the affected branch;
-  a positive comparison opens its common K_total/L_total carrier. In parallel,
-  construct the smallest action-stationary nonhomogeneous vacuum. Do not reopen
-  edge completion without a new second owner, promote algebraic BFV to
-  physical cohomology, choose W/mirror, or infer a generation count.
+  Freeze the canonical K77 Zorro/DeWitt B_Z as the dependent connection and
+  solve the complete source Euler/residual equations for a nonhomogeneous
+  T=varpi-B_Z, varpi and observation jet. Return a stationary residual-zero
+  background or a scoped nonexistence certificate for that reconstruction.
+  Admit a rival Zorro completion only with a derived metric/connection formula
+  and nonzero mixed trace curvature. Do not reopen edge completion without a
+  new second owner, promote algebraic BFV to physical cohomology, choose
+  W/mirror, or infer a generation count.
 what_needs_joe: none

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "BOTH_NONZERO_TAUTOLOGICAL_BRANCHES_KILLED_FOR_CANONICAL_ZORRO_DEWITT_CONNECTION_METRIC__SOURCE_GLOBAL_BACKGROUND_OPEN",
+  "lane_id": "SRC-RES-COH-01",
+  "predecessors": [
+    "selected-k77-native-connection-curvature-jet-gate",
+    "eric-curt-wave3d-b2c15p-source-epsilon-tangent-zorro-dewitt",
+    "selected-k77-tautological-total-residual-zero-background"
+  ],
+  "result": {
+    "fibre_signature": [6, 4],
+    "ambient_signature": [7, 7],
+    "base_sign_invariant_vertical_curvature": true,
+    "nonzero_coordinate_vertical_planes": 24,
+    "nonzero_intrinsic_fibre_curvature_rank": 6,
+    "trace_traceless_planes": 9,
+    "canonical_zorro_zero_planes": 9,
+    "branch_nonzero_planes": {
+      "plus": 9,
+      "minus": 9
+    },
+    "canonical_reconstruction_branch_disposition": "KILLED",
+    "source_global_disposition": "OPEN"
+  },
+  "source_return": "SOURCE_CONFIRMS_ABSTRACT_METRIC_TO_LC_TO_INDUCED_Y_CHAIN__SOURCE_SILENT_ON_COORDINATE_FORMULA_AND_UNIQUENESS__REPOSITORY_DERIVES_CANONICAL_RECONSTRUCTION_OBSTRUCTION",
+  "hostile_review": "SCOPED_PASS__CANONICAL_RECONSTRUCTION_KILLS_BOTH_OLD_BRANCHES__SOURCE_GLOBAL_BACKGROUND_OPEN",
+  "checks": {
+    "total": 35,
+    "failures": 0
+  },
+  "ledger_effect": "NONE__SOURCE_RESIDUAL_LANE_ONLY",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "next_gate": "SOLVE_THE_SOURCE_RESIDUAL_WITH_B_FIXED_TO_THE_CANONICAL_ZORRO_CONNECTION_AND_NONHOMOGENEOUS_T_VARPI__OR_DERIVE_A_DIFFERENT_ZORRO_COMPLETION_WITH_NONZERO_MIXED_TRACE_CURVATURE"
+}

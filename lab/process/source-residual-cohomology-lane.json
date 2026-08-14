@@ -39,7 +39,12 @@
       "native_prerequisite": {
         "result": "explorations/conditional-build/selected-k77-native-connection-curvature-jet-gate-2026-08-14.md",
         "probe": "tests/channel-swings/selected_k77_native_connection_curvature_jet_gate_probe.py",
-        "disposition": "LABELLED_CURVATURE_JET_AND_EXPLICIT_ZORRO_CONNECTION_REQUIRED"
+        "disposition": "LABELLED_CURVATURE_JET_AND_EXPLICIT_ZORRO_CONNECTION_REQUIRED",
+        "canonical_reconstruction_gate": {
+          "result": "explorations/conditional-build/selected-k77-zorro-dewitt-trace-curvature-obstruction-2026-08-14.md",
+          "probe": "tests/channel-swings/selected_k77_zorro_dewitt_trace_curvature_obstruction_probe.py",
+          "disposition": "BOTH_NONZERO_TAUTOLOGICAL_BRANCHES_KILLED_FOR_CANONICAL_ZORRO_DEWITT_CONNECTION_METRIC__SOURCE_GLOBAL_BACKGROUND_OPEN"
+        }
       },
       "depends_on": ["SR-0"]
     },
@@ -83,7 +88,7 @@
   ],
   "next_required_construction": {
     "id": "SR-1B",
-    "statement": "Construct the explicit Zorro distinguished connection on Y, compare its labelled curvature one-jet separately with both exact tautological branches while moving the native geometry packet, then construct one complete source/action-owned stationary total-residual-zero background and assemble K_total and L_total on its common carrier before replaying SR-1.",
+    "statement": "Hold the canonical Zorro/DeWitt distinguished connection B_Z dependent and solve the source residual nonhomogeneously for T=varpi-B_Z and varpi; alternatively derive a distinct Zorro completion with nonzero mixed trace curvature. Then construct one complete source/action-owned stationary total-residual-zero background and assemble K_total and L_total on its common carrier before replaying SR-1.",
     "failure_rule": "Do not manufacture the background by tangent restriction or promote a generic finite control or formal flat-zero ansatz to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
