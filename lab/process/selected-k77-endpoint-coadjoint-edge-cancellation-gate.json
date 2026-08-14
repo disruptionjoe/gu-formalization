@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "CHARGE_ZERO_HYPERPLANE_NOT_LIE_CLOSED__REGULAR_ENDPOINT_COADJOINT_ORBIT_DIM84__MINIMAL_FIXED_FIXTURE_HOMOGENEOUS_HAMILTONIAN_CANCELLATION_CARRIER_EXISTS__GLOBAL_OWNER_OPEN",
+  "endpoint": {
+    "gauge_algebra": "so(7,7)",
+    "gauge_algebra_dimension": 91,
+    "charge_support": 30,
+    "action_owner": "E_B-E_T paired with [X,T]",
+    "fixture_relative": true
+  },
+  "coadjoint_geometry": {
+    "kirillov_form": "K_mu(X,Y)=mu([X,Y])",
+    "kirillov_rank_over_QQ": 84,
+    "independent_modular_rank": 84,
+    "orbit_dimension": 84,
+    "stabilizer_dimension": 7,
+    "stabilizer_abelian": true,
+    "regular_at_fixture": true,
+    "transverse_invariant_count": 7
+  },
+  "charge_zero_restriction": {
+    "hyperplane_dimension": 90,
+    "restricted_kirillov_rank": 84,
+    "is_lie_subalgebra": false,
+    "canonical_stabilizer_intersection_dimension": 6,
+    "canonical_stabilizer_intersection_abelian": true,
+    "action_or_source_owned_restriction": false
+  },
+  "edge_candidate": {
+    "carrier": "coadjoint orbit O_{-mu}",
+    "symplectic_dimension": 84,
+    "moment_map": "inclusion into so(7,7)^*",
+    "diagonal_cancellation_at_fixture": true,
+    "minimality_scope": "smallest homogeneous Hamiltonian G-orbit containing a point mapped to -mu",
+    "cotangent_presentation_constructed": false,
+    "global_varying_endpoint_bundle_constructed": false,
+    "source_owned": false
+  },
+  "surviving_horns": {
+    "charged_boundary_symmetry": "OPEN",
+    "action_owned_zero_charge_boundary_law": "OPEN",
+    "fixed_coadjoint_orbit_edge": "CONDITIONAL_ON_SEVEN_INVARIANTS_BEING_LOCKED",
+    "larger_group_or_cotangent_edge": "OPEN_IF_INVARIANTS_VARY"
+  },
+  "claim_ceiling": {
+    "grade": "EXACT_FINITE_FIXED_FIXTURE_COADJOINT_AND_HOMOGENEOUS_SYMPLECTIC_THEOREM",
+    "ledger_migration": "DEFERRED_FOR_CONCURRENT_V0_253_RECONCILIATION",
+    "physical_cohomology": "NOT_CONSTRUCTED",
+    "total_theory_chirality": "NON_CHIRAL_SOURCE_TARGET_PRESERVED",
+    "emergent_luminous_dark_decoupling": "OPEN",
+    "generation_count": "NOT_INFERRED",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "compute the seven coadjoint invariants and their first variations under action-owned boundary field directions",
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_endpoint_coadjoint_edge_cancellation_gate_probe.py",
+    "result": "PASS_51_OF_51"
+  }
+}
