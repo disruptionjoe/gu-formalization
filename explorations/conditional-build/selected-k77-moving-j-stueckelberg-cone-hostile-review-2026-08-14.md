@@ -95,7 +95,7 @@ uses `J10` only on the associated spinor fibre.
 | J10/BV/Green gate | survives | its moving-BV and domain obligations remain correctly open |
 | twistor/BV seven-gate | survives | normal `J_N`, spinor `J10` and base twistor remain distinct; full BV and positive state space remain open |
 | total twisted Yang--Mills current gate | survives | its demand for a coupled cone is partially met, but its action-owned Euler/residual composition is still unbuilt |
-| frozen-frame residual-zero background | survives | its native `B(epsilon)/Y` legality and branch-specific stabilizer remain missing; no ranks are imported |
+| frozen-frame residual-zero background | survives | concurrent `969c56e2` sharpens its missing native owner to the explicit Zorro connection and labelled curvature one-jet; branch-specific stabilizer remains missing and no ranks are imported |
 | conditional physics ledger v0.258 | survives | no row owns this reverse-channel partial cohomological comparator and no verdict changes |
 | `CURRENT-STATE.yaml`, `RESEARCH-STATUS.md`, `NEXT-STEPS.md` | survives | the repository-wide missing total complex, legal background, domain and positivity remain governing |
 | canon and source-claim register | survives | no canon theorem or source polarity changes |
@@ -176,13 +176,17 @@ it is not a GU-wide frontier rerank.
 ## Reconciliation and bounded mailbox disposition
 
 ```text
-starting/current basis before this result: 7fd3b872414dadc5f784d45dc88bb63595dc6133
+starting computation basis: 7fd3b872414dadc5f784d45dc88bb63595dc6133
+concurrent disjoint reconciliation basis: 969c56e2e223cbc174dd17242e3cce010ee29217
 latest ledger inspected: v0.258
 ledger meter effect: none; no row owns this partial reverse-J comparator
 active source directive: preserve the non-chiral total target and do not infer
   physical cohomology or superposition from a moving reduction alone
 overlapping active work after serialization: none on the four declared paths
-high-fanout premise changed outside channel: none
+high-fanout premise changed outside channel: native background legality was
+  sharpened from pointwise curvature orbit to explicit Zorro labelled
+  curvature one-jet; this corrects the successor wording but does not alter
+  the cone ranks, associated-bundle theorem or candidate no-go
 mailbox disposition: NO_MATERIAL_DELTA
 ```
 

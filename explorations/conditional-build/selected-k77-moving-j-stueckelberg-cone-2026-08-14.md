@@ -246,8 +246,10 @@ L_dressed mathcal J = mathcal J_E L_dressed.
 ```
 
 The newly filed frozen-frame residual-zero branches cannot silently supply
-that background: their native `B(epsilon)/Y` legality and their own stabilizer
-and reducibility ranks remain type-missing.
+that background.  The concurrent native-legality refinement at `969c56e2`
+sharpens the missing input to the explicit Zorro induced-`Y` connection and
+its labelled curvature one-jet.  The branches' own stabilizer and reducibility
+ranks also remain type-missing.
 
 ## Accounting and reproduction
 

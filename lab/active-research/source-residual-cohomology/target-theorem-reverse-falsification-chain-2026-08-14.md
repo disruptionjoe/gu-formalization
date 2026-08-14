@@ -362,5 +362,7 @@ L_dressed mathcal J=mathcal J_E L_dressed.
 ```
 
 The newly identified frozen-frame residual-zero branches cannot be imported
-silently: native `B(epsilon)/Y` legality, branch-specific stabilizer and
-reducibility, boundary ownership and the common closed domain remain missing.
+silently.  The concurrent native-legality gate sharpens the first missing
+object to the explicit Zorro induced-`Y` connection and its labelled curvature
+one-jet.  Branch-specific stabilizer and reducibility, boundary ownership and
+the common closed domain remain missing.
