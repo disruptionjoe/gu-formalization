@@ -289,9 +289,9 @@ action pairings and carries `+Jhat10` to `-Jhat10`.  This kills a local
 measurement-selected `+/-` bit **inside the conditional moving-reduction
 family**.  It is not a theorem about a positive physical Hilbert space.
 
-The next cheapest live question is therefore not another fixed-`J`
-commutator.  It is a partial extended-BV/mapping-cone test for the tautological
-moving `J`, with the same asymmetric rule:
+The next cheapest live question was therefore not another fixed-`J`
+commutator.  It was a partial extended-BV/mapping-cone test for the
+tautological moving `J`, with the same asymmetric rule:
 
 ```text
 failure on a typed owned partial complex -> scoped candidate kill;
@@ -301,3 +301,66 @@ survival                              -> NOT-YET-FALSIFIED only.
 That partial comparator must not manufacture the still-missing total
 background, total `K/L`, positive quotient pairing or closed Lorentzian
 domain.
+
+## RF-2 result: the local moving-split cone is exact
+
+That partial test has now run.  The exact result, `66/66` probe and hostile
+review are filed at
+`explorations/conditional-build/selected-k77-moving-j-stueckelberg-cone-2026-08-14.md`.
+
+For
+
+```text
+G/H = Spin_0(7,7)/(Spin_0(1,3) x Spin_0(6,4)),
+```
+
+the forty mixed gauge directions map isomorphically to the forty moving-split
+tangents.  At local principal-symbol grade they form an exact contractible
+Stueckelberg pair.  The invariant dressed connection coordinate removes the
+frozen-reduction gauge defect.
+
+The spinor complex structure now has an exact type:
+
+```text
+E_S=G x_H S,
+mathcal J[g,s]=[g,J10 s],
+mathcal J^2=-1.
+```
+
+All 51 stabilizer generators commute with `J10`, while all 40 mixed
+generators transport it.  Thus fixed `J10` fails on a frozen full-`G` carrier,
+but tautological `J10` is well-defined on the associated spinor bundle.
+
+The same computation supplies a limitation.  The moving split-orbit tangent
+has scalar `H`-commutant and therefore no invariant square-minus-one
+endomorphism.  The fibrewise spinor `mathcal J` is not automatically a complex
+structure on the whole coupled bosonic-plus-fermionic deformation complex.
+The orbit-tangent candidate is killed; nonlocal, dynamical, phase-space and
+normal-twistor alternatives are not exhausted.
+
+The revised reverse disposition is:
+
+```text
+fixed split-natural J4/J10:                 KILLED at RF-1 scope
+physical +/- sign bit in moving family:     KILLED at RF-1 scope
+moving split/ghost local symbol subcone:    EXACT CONTRACTIBLE
+associated spinor J10:                      EXACT FIBREWISE DESCENT
+invariant complex structure on split orbit: CANDIDATE KILLED
+total coupled residual complex:             TYPE-MISSING
+positive physical cohomology/superposition: OPEN
+H1-R as a whole:                            NOT KILLED
+```
+
+The next in-channel gate is branch-specific composition, not a wider
+frontier rerank.  On one declared legal background and boundary horn, assemble
+the action-owned gauge map and coupled bosonic/fermionic residual map in the
+dressed coordinate, then test
+
+```text
+L_total K_total=0,
+L_dressed mathcal J=mathcal J_E L_dressed.
+```
+
+The newly identified frozen-frame residual-zero branches cannot be imported
+silently: native `B(epsilon)/Y` legality, branch-specific stabilizer and
+reducibility, boundary ownership and the common closed domain remain missing.
