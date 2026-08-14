@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SOURCE METRIC-FIBRE FAMILY-INDEX OBSTRUCTION (ledger v0.249).**
+> The actual source projection `Met_(1,3)(X4)->X4` has ten-dimensional but
+> noncompact fibres `GL(4,R)/O(1,3)`, hence is nonproper. Its settled K77
+> vertical trace-reversed form has signature `(6,4)`, with nonzero null
+> covectors and a nonelliptic Clifford symbol. The ordinary compact Riemannian
+> family-index antecedent therefore does not instantiate, although the prior
+> conditional integral theorem remains exact. **Next construct the smallest
+> independently action-owned asymmetric boundary relation or closed domain on
+> the primal W/mirror carrier and test Green/BFV compatibility.** Do not
+> compactify, Wick-rotate, choose flux or fit a projector to recover an index.
+> Modified/noncompact/relative index routes require new ownership. No verdict,
+> residue, count, canon or posture claim changes.
+
 > **2026-08-14 INTEGRAL FAMILY-INDEX CHARGE-CONJUGATION GATE (ledger v0.248).**
 > For a conditional proper ten-dimensional spin family, charge conjugation
 > exchanges half-spin chirality and proves

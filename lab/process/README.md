@@ -8,6 +8,15 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.249.json`](conditional-physics-ledger-v0.249.json),
+summarized in
+`explorations/conditional-build/conditional-physics-ledger-v0.249.md`.
+The source metric fibre is noncompact, the projection is nonproper and the
+split vertical Clifford symbol is nonelliptic, so the ordinary compact-family
+index theorem does not instantiate. The conditional integral theorem is
+preserved; physical work switches to an action-owned asymmetric domain.
+
+Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.248.json`](conditional-physics-ledger-v0.248.json),
 summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.248.md`.
@@ -15,7 +24,7 @@ Charge conjugation upgrades the conditional 10D family-index parity theorem to
 integral complex K-theory, including torsion. The GU fibration, operator, line,
 domain and physical descent remain unbuilt; no verdict or public posture moved.
 
-Immediate predecessor append-only progress surface:
+Earlier predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.247.json`](conditional-physics-ledger-v0.247.json),
 summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.247.md`.

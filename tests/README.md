@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_source_metric_fibre_family_index_obstruction_probe.py`
+  constructs the exact ten-dimensional symmetric-metric Gram matrix, certifies
+  inertia `(6,4,0)`, determinant `64` and an explicit nonzero null covector,
+  then audits fibre noncompactness, nonproperness, nonellipticity, firing
+  compact-Riemannian controls and the modified-index claim ceiling. Run with
+  pinned SymPy `1.14.0`.
+
 - `channel-swings/selected_k77_integral_family_index_charge_conjugation_gate_probe.py`
   audits the half-spin chirality rule, integral virtual-index sign, recovery of
   every rational Chern-character component, torsion sensitivity, adjacent-

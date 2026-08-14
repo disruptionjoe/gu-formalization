@@ -7,6 +7,15 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 source metric-fibre family-index obstruction (2026-08-14)
+
+`conditional-build/selected-k77-source-metric-fibre-family-index-obstruction-2026-08-14.md`
+proves that the actual ten-dimensional metric fibre is noncompact, the
+projection is nonproper and the split `(6,4)` vertical Clifford symbol is
+nonelliptic. The conditional integral family theorem survives, but its ordinary
+compact-family antecedent does not instantiate; physical work switches to an
+independently action-owned asymmetric boundary/domain.
+
 ## K77 integral family-index charge-conjugation gate (2026-08-14)
 
 `conditional-build/selected-k77-integral-family-index-charge-conjugation-gate-2026-08-14.md`

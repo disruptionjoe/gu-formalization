@@ -10,6 +10,12 @@ updated_at: "2026-08-14"
 Additional source-custody and reinspection records retained by the native
 research boundary:
 
+- [`selected-k77-source-metric-fibre-family-index-obstruction-source-return-2026-08-14.md`](selected-k77-source-metric-fibre-family-index-obstruction-source-return-2026-08-14.md)
+  - confirms the source metric-bundle projection, split vertical geometry and
+    multiple-time analytic debt; attributes the nonproper/nonelliptic ordinary
+    family-index obstruction to the repository; and returns source-silent on
+    modified index operators, asymmetric domains, selected flux and BFV.
+
 - [`selected-k77-spin-induced-determinant-line-source-return-2026-08-14.md`](selected-k77-spin-induced-determinant-line-source-return-2026-08-14.md)
   - confirms the unitary spinor-frame parent, full `U(64,64)` connection arena,
     two `C^(32,32)` carrier halves and the source's non-chiral-total/emergent-

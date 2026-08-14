@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.249 source metric-fibre obstruction:** the actual source
+> projection `Met_(1,3)(X4)->X4` has noncompact ten-dimensional fibres and is
+> nonproper. The K77 vertical trace-reversed form has signature `(6,4)` and a
+> nonelliptic Clifford symbol. The conditional integral family theorem remains
+> exact, but it does not instantiate on this object. Rank one is now the
+> smallest independently action-owned asymmetric boundary relation or closed
+> primal domain, with Green/BFV tests. Do not silently compactify, Wick-rotate,
+> choose flux or fit a projector. Modified index routes need new ownership.
+
 > **Current v0.248 integral family-index gate:** analytic charge conjugation
 > upgrades the conditional 10D identity to
 > `Ind(L^-1)=-conjugate(Ind(L))` in integral complex `K^0`, including torsion.
