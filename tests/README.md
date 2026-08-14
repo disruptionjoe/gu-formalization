@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_asymmetric_boundary_domain_gate_probe.py`
+  computes both current action Green horns on exact W/mirror bases for all
+  fourteen canonical conormals, certifies the base maximal-isotropic and normal
+  non-isotropic split, tests all 91 Spin generators, and reconstructs the
+  selected rank-25 ordinary-gauge image with its rank-eight mixed obstruction.
+  Run with `sage -python`; it passes `38/38`.
+
 - `channel-swings/selected_k77_source_metric_fibre_family_index_obstruction_probe.py`
   constructs the exact ten-dimensional symmetric-metric Gram matrix, certifies
   inertia `(6,4,0)`, determinant `64` and an explicit nonzero null covector,

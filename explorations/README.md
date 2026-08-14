@@ -7,6 +7,14 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 asymmetric W/mirror boundary/domain gate (2026-08-14)
+
+`conditional-build/selected-k77-asymmetric-boundary-domain-gate-2026-08-14.md`
+constructs the two smallest W/mirror base-conormal maximal-isotropic Green
+relations for both current action horns. Conjugation selects neither, and the
+rank-eight mixed selected gauge image preserves neither; BFV edge/gauge
+ownership and analytic closedness remain open.
+
 ## K77 source metric-fibre family-index obstruction (2026-08-14)
 
 `conditional-build/selected-k77-source-metric-fibre-family-index-obstruction-2026-08-14.md`

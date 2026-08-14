@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 ASYMMETRIC W/MIRROR BOUNDARY-DOMAIN GATE (ledger v0.250).**
+> For both current action-pairing horns, W and mirror are complementary
+> maximal-isotropic Green relations for all four observation-base conormals
+> and non-isotropic for all ten normal conormals. Conjugation exchanges the
+> pair and selects neither member. All 51 split-stabilizer generators preserve
+> both halves, but none of the 40 mixed generators does; the selected ordinary-
+> gauge image has exact rank `25=17+8`, so neither relation is basic. **Next
+> construct a source/action-owned split-stabilizer reduction or BFV edge
+> completion for the rank-eight mixed image, then test a codimension-one
+> analytic closed base domain.** Do not choose W or mirror, fit a projector or
+> edge field, or treat the codimension-ten observation section as a boundary.
+> No physical half, cohomology, verdict, residue, count, canon or posture claim
+> changes.
+
 > **2026-08-14 SOURCE METRIC-FIBRE FAMILY-INDEX OBSTRUCTION (ledger v0.249).**
 > The actual source projection `Met_(1,3)(X4)->X4` has ten-dimensional but
 > noncompact fibres `GL(4,R)/O(1,3)`, hence is nonproper. Its settled K77

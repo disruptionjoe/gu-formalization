@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.250 asymmetric W/mirror boundary/domain gate:** for either
+> current action-pairing horn, W and mirror are complementary maximal-isotropic
+> Green relations for every observation-base conormal, while neither is
+> isotropic for any normal conormal. The real structure exchanges the two
+> candidate relations and selects neither. All 51 split-stabilizer generators
+> preserve both; none of the 40 mixed generators does. The actual selected
+> ordinary-gauge image contains rank eight of those mixed directions, so
+> neither candidate is basic. Rank one is a source/action-owned split reduction
+> or BFV edge completion, then an analytic closed base-conormal domain. Do not
+> choose W or mirror, fit a projector or edge field, or call the codimension-ten
+> observation section a Green boundary.
+
 > **Current v0.249 source metric-fibre obstruction:** the actual source
 > projection `Met_(1,3)(X4)->X4` has noncompact ten-dimensional fibres and is
 > nonproper. The K77 vertical trace-reversed form has signature `(6,4)` and a

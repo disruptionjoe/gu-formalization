@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c6e6d907609010e9420e41aed0de2e201043cf92
+revision_basis: 4fb49518fdfb30ef8dfc2178114e0776a6f37b6d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -18,9 +18,14 @@ current_result:
     projection is nonproper, while the settled K77 vertical trace-reversed
     form has signature (6,4) and a nonelliptic Clifford symbol. The ordinary
     compact-family index route is therefore blocked before line selection,
-    flux, observation or BV/BFV descent. Modified index constructions require
-    new source/action-owned data, so no luminous/mirror physical selection
-    follows.
+    flux, observation or BV/BFV descent. The smallest W/mirror asymmetric
+    base-boundary pair now constructs for both current action Green horns:
+    each half is maximal isotropic for base conormals, while neither is
+    isotropic for normal conormals. Conjugation selects neither member, and
+    the rank-eight mixed part of the selected ordinary-gauge image preserves
+    neither. Modified index constructions, a boundary gauge/BFV owner and an
+    analytic closed domain require new source/action-owned data, so no
+    luminous/mirror physical selection follows.
     Weinstein's total theory remains
     explicitly non-chiral; the open physics burden is low-curvature
     luminous/dark chiral-looking decoupling through a nonstandard operator or
@@ -32,6 +37,9 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-asymmetric-boundary-domain-gate-2026-08-14.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.250.md
+    - lab/process/conditional-physics-ledger-v0.250.json
     - explorations/conditional-build/selected-k77-source-metric-fibre-family-index-obstruction-2026-08-14.md
     - explorations/conditional-build/conditional-physics-ledger-v0.249.md
     - lab/process/conditional-physics-ledger-v0.249.json
@@ -55,10 +63,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the source action own an asymmetric boundary relation or closed domain
-  on the primal W/mirror carrier that survives Green and BV/BFV reduction and
-  supplies the claimed luminous/dark effective decoupling without a fitted
-  projector, chosen flux or silent compactification?
+  Can the source action own a boundary gauge reduction or BFV edge completion
+  that restores closure of the maximal-isotropic W/mirror base-boundary pair
+  under the rank-eight mixed ordinary-gauge image, without choosing a half or
+  fitting a projector, and then support a global analytic closed domain?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -67,9 +75,10 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the smallest source-action-derived boundary relation or closed
-  domain that is not invariant under W/mirror exchange, then test its Green
-  form, gauge basicness, BFV closure and physical cohomology. Do not rescue the
-  blocked ordinary family-index route by choosing a compactification, Wick
-  rotation, flux, line, projector or boundary condition by hand.
+  Construct the smallest source/action-owned reduction to the split stabilizer
+  or a BFV edge complex whose boundary moment map closes the rank-eight mixed
+  gauge action on the W/mirror base-boundary pair. Only after that passes,
+  build the codimension-one interface and test analytic closedness,
+  well-posedness and physical cohomology. Do not choose W or mirror, fit a
+  projector or edge field, or rescue the blocked family-index route by hand.
 what_needs_joe: none
