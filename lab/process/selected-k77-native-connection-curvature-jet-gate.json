@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "CURVATURE_ONLY_GATE_REPLACED_BY_LABELLED_CURVATURE_JET_AND_ZORRO_CONNECTION_PREREQUISITE__BOTH_BRANCHES_REMAIN_TYPE_MISSING",
+  "lane_id": "SRC-RES-COH-01",
+  "gauge_transport": {
+    "connection": "B(epsilon)=epsilon^-1 Gamma0 epsilon+epsilon^-1 d epsilon",
+    "curvature": "F_B=epsilon^-1 F_Gamma0 epsilon",
+    "first_covariant_jet": "D_B F_B=epsilon^-1 D_Gamma0 F_Gamma0 epsilon",
+    "higher_jets": "(D_B)^r F_B=epsilon^-1 (D_Gamma0)^r F_Gamma0 epsilon",
+    "pointwise_curvature_orbit_sufficient": false
+  },
+  "frozen_tautological_branch": {
+    "connection_components": "B_i=b gamma_i",
+    "curvature": "F_ij=b^2[gamma_i,gamma_j]",
+    "first_jet_i": "D_i F_ij=4 eta_i b^3 gamma_j",
+    "first_jet_j": "D_j F_ij=-4 eta_j b^3 gamma_i",
+    "first_jet_nonzero_for_nonzero_b": true,
+    "moving_coefficients_required": [
+      "Phi1",
+      "Shiab",
+      "Hodge",
+      "density",
+      "observation"
+    ]
+  },
+  "branches": {
+    "plus": {
+      "b": "1/208-sqrt(3)/312",
+      "native_legality": "TYPE_MISSING"
+    },
+    "minus": {
+      "b": "1/208+sqrt(3)/312",
+      "native_legality": "TYPE_MISSING"
+    },
+    "b_squared_distinct": true,
+    "quadratic_curvature_invariants_distinct": true,
+    "same_fixed_labelled_orbit_can_realize_both": false,
+    "different_Y_points_remain_open": true
+  },
+  "zorro_prerequisite": {
+    "source_status": "SKETCH_WITHOUT_EXPLICIT_INDUCED_Y_CONNECTION_FORMULA",
+    "required_next_objects": [
+      "explicit distinguished connection Gamma0 on Y",
+      "labelled curvature F_Gamma0",
+      "labelled first covariant jet D_Gamma0 F_Gamma0",
+      "branchwise gauge-orbit comparison",
+      "moving native geometry packet"
+    ]
+  },
+  "disposition": {
+    "curvature_only_gate": "RETIRED_AS_UNDER_TYPED",
+    "labelled_curvature_jet_necessity": "EXACT",
+    "both_branches_native_background": "TYPE_MISSING",
+    "SR_1_background_missing": "NARROWED_NOT_CLOSED",
+    "SR_2": "REMAINS_BLOCKED"
+  },
+  "claim_ceiling": {
+    "global_epsilon": "NOT_CONSTRUCTED",
+    "native_Y_background": "NOT_CONSTRUCTED",
+    "ledger_row_changes": "NONE",
+    "canon_verdict_change": "NONE",
+    "physical_cohomology": "NOT_INFERRED",
+    "public_posture_change": "NONE"
+  },
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_native_connection_curvature_jet_gate_probe.py",
+    "expected_result": "PASS_36_OF_36"
+  }
+}

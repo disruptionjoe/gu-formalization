@@ -181,3 +181,18 @@ its complete owner equations are proved.
 
 No quantum state space, superposition mechanism, physical cohomology,
 ellipticity, positivity, decoherence law or empirical prediction follows.
+
+## 2026-08-14 native-connection curvature-jet refinement
+
+The later exact native-legality gate retires the underspecified pointwise
+curvature-orbit discriminator.  If `B=B(epsilon)`, the labelled curvature and
+all covariant curvature jets must be gauge transports of the distinguished
+Zorro connection.  The frozen `b Phi1` ansatz already has a nonzero first jet,
+and the two exact branches have distinct `b^4` curvature invariants.  One fixed
+labelled orbit cannot realize both at one `Y` point, but either branch could
+still match a different moving-`Y` jet.
+
+The source-facing Zorro construction is presently a sketch without an explicit
+induced-`Y` connection formula.  `SR-1B` therefore begins by constructing that
+connection and comparing its labelled curvature one-jet branchwise.  This
+sharpens `BACKGROUND-MISSING`; it does not close it or start `SR-2`.

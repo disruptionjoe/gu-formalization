@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Native connection curvature-jet prerequisite 2026-08-14 (no ledger-row
+move).** The curvature-only legality test for the two exact frozen
+total-residual-zero branches was under-typed. For the dependent source
+connection `B(epsilon)`, curvature and every covariant curvature jet are gauge
+transports of the distinguished Zorro connection data. An exact nonabelian
+control proves that equal point curvature does not imply equal first jet. The
+frozen `B_i=b gamma_i` ansatz itself has nonzero first jet, and the two branches
+have distinct quadratic curvature invariants, so one fixed labelled orbit
+cannot realize both at one point. The source Zorro chain is only a sketch and
+does not print the induced-`Y` connection or jet needed for a branchwise test.
+Both individual branches therefore remain `TYPE-MISSING`, not killed. See
+`explorations/conditional-build/selected-k77-native-connection-curvature-jet-gate-2026-08-14.md`.
+
 **Source-epsilon cotangent ownership and selector obstruction 2026-08-14
 (ledger v0.258; headline advanced).** The unrestricted source epsilon
 preboundary potential is exactly the canonical left-trivialized potential on

@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 NATIVE CONNECTION CURVATURE-JET GATE.** A pointwise
+> `F_B=epsilon^-1 F_Gamma0 epsilon` orbit match is necessary but not sufficient
+> to identify either frozen `b Phi1` branch with the dependent source
+> connection. Gauge transport preserves the full labelled covariant curvature
+> jet, and the frozen ansatz has an exact nonzero first jet. The two branches
+> have distinct `b^4` invariants, so one fixed labelled orbit cannot realize
+> both at one `Y` point. The source Zorro chain is explicitly only a sketch and
+> prints no induced-`Y` connection or jet; neither branch is killed. **Next
+> construct that distinguished connection explicitly and compare its labelled
+> curvature one-jet branchwise, moving the entire native geometry packet.**
+> Exact probe passes `36/36`; no ledger, verdict, residue, quotient, canon or public-
+> posture change.
+
 > **2026-08-14 SOURCE-EPSILON COTANGENT OWNERSHIP/SELECTOR GATE (ledger
 > v0.258).** The unrestricted source epsilon preboundary potential is exactly
 > the canonical potential on the full 182-dimensional `T*Spin_0(7,7)` parent.

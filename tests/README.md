@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_native_connection_curvature_jet_gate_probe.py`
+  derives curvature and first-jet gauge transport with the inhomogeneous
+  connection term, gives a same-curvature/different-jet nonabelian control,
+  proves the frozen tautological first jet is nonzero, and separates the two
+  exact branch curvature scales. It audits the sketched Zorro prerequisite and
+  makes no native-background existence claim. Run with pinned SymPy 1.14.0; it
+  passes `36/36`.
+
 - `channel-swings/selected_k77_stabilizer_koszul_tate_resolution_gate_probe.py`
   proves the exact `21 -> 91 -> 70` stabilizer sequence, reductive complement,
   rank-21 complement curvature, local KT acyclicity and actual endpoint's 30
