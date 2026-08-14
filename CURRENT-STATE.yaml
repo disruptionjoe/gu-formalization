@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b87fa5cdda837737ab4f27942e0d9b5975852a89
+revision_basis: 730a224c80a77346dea4e0e6fc1991a491ae0877
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -49,11 +49,16 @@ current_result:
     its inverse of the forced target obeys differential Bianchi and has an
     explicit symmetric Spencer second-varpi-jet right inverse, with zero
     residual, Bianchi and holonomicity defects. Thus the first prolongation is
-    admitted. The remaining live gate is the action-owned bulk E_B-E_T row
-    and primitive-epsilon metric/observation formal-adjoint chain on this
-    two-jet. Residual zero does not imply dependent-connection Euler
-    stationarity. This is not yet an open stationary background, so SR-1
-    remains background-missing and SR-2 remains blocked.
+    admitted for the printed residual complex. The selected noncyclic
+    transgression action has a different translation Euler covector. On the
+    pure antisymmetric jet it has 14 live grade-one cells. More strongly, an
+    exact 14-row left-cokernel certificate excludes every one of the 9,555
+    symmetric grade-two DT corrections before Bianchi is imposed. Thus the
+    canonical T=F_varpi=0 residual-first family is killed as a stationary
+    first-action two-jet. This is reconstruction and branch scoped: a
+    nonzero-T action-stationary branch or explicitly different
+    connection-grade reconstruction remains open. SR-1 remains
+    background-missing and SR-2 remains blocked.
     The ten rank-128 leaks are already the full N* tensor S observation-kernel
     module; the selected graph, not the carrier, remains only compact-natural.
     The bare selected action's endpoint potential now decides the boundary-law
@@ -158,6 +163,8 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-zorro-first-action-euler-gate-2026-08-14.md
+    - lab/process/selected-k77-zorro-first-action-euler-gate.json
     - explorations/conditional-build/selected-k77-zorro-differentiated-shiab-second-jet-gate-2026-08-14.md
     - lab/process/selected-k77-zorro-differentiated-shiab-second-jet.json
     - explorations/conditional-build/selected-k77-zorro-dewitt-trace-curvature-obstruction-2026-08-14.md
@@ -235,9 +242,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the action-owned bulk E_B-E_T row and the primitive-epsilon
-  metric/observation formal-adjoint chain vanish on the explicit selected-K77
-  residual-zero two-jet whose first prolongation is now exactly admitted?
+  Does a genuinely distinct nonzero-T branch or an explicitly derived
+  different connection-grade/Zorro reconstruction furnish one complete
+  source/action-owned stationary background after the canonical zero-T
+  residual-first family is excluded by the true translation Euler row?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -246,11 +254,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compute the action-owned bulk E_B-E_T row and the primitive-epsilon
-  metric/observation formal-adjoint chain on the explicit two-jet. If all
-  remaining rows vanish, continue the Spencer/formal-integrability tower and
-  extend to one complete stationary background; if any row is nonzero, return
-  a stationary-background obstruction at its exact owner and derivative grade.
+  Do not retry symmetric-DT repair of the canonical T=F_varpi=0 branch. Build
+  either a nonzero-T candidate and solve its true action Euler rows, or derive
+  an explicitly different connection-grade/Zorro reconstruction and show that
+  its new typed jet columns hit the 14-dimensional action cokernel. Only after
+  translation stationarity may primitive-epsilon, metric/observation and
+  Spencer/formal-integrability rows resume.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

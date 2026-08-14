@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Selected-K77 canonical-Zorro first-action Euler obstruction 2026-08-14
+(zero-`T` stationary branch killed; broader background search open).** The
+previous point/two-jet solves the source-printed residual and its first
+prolongation, but the selected noncyclic transgression action has the distinct
+Euler covector `E_T=S(barF)+L_T^!S^!T+*kappa T`. On the pure antisymmetric
+representative its direct term has 14 live grade-one cells and its exact
+formal-adjoint companion has nine, with overlap ratio `1/7`; the total still
+has support 14. No symmetric grade-two `DT` repair exists. The exact sparse
+system contains 9,555 variables, 196 action rows and 5,096 Bianchi rows; a
+14-supported left-cokernel certificate uses only action rows, annihilates all
+correction columns and evaluates to one on the target. Thus the obstruction
+precedes Bianchi and the primitive-epsilon metric/observation chain. It is
+scoped to canonical Zorro/DeWitt, selected `comm/symi/symi`, and
+`T=F_varpi=0`; nonzero-`T` or differently graded reconstructions remain open.
+See
+`explorations/conditional-build/selected-k77-zorro-first-action-euler-gate-2026-08-14.md`
+and its exact `35/35` probe. `SR-1` remains `BACKGROUND-MISSING`, `SR-2`
+remains blocked, and no ledger, canon or public-posture change follows.
+
 **Selected-K77 differentiated-Shiab second-jet gate 2026-08-14 (first
 prolongation admitted; background still missing).** The selected
 `comm/symi/symi` Hodge--Shiab map is an exact `1274 x 1274` signed-permutation

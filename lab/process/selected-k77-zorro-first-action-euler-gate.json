@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "artifact": "explorations/conditional-build/selected-k77-zorro-first-action-euler-gate-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_zorro_first_action_euler_gate_probe.py",
+  "status": "SELECTED_K77_CANONICAL_ZORRO_ZERO_T_FIRST_ACTION_TWO_JET_OBSTRUCTED__SYMMETRIC_DT_REPAIR_EXCLUDED_BEFORE_BIANCHI",
+  "action_euler": {
+    "formula": "E_T=S(barF)+L_T^!S^!T+*kappa T",
+    "barF": "F_B+(1/2)D_B T+(1/3)T^2",
+    "L_T": "X -> (1/2)D_B X+(1/3)(XT+TX)",
+    "formal_adjoint_entries": 1274
+  },
+  "pure_antisymmetric_representative": {
+    "distortion_derivative": "DT_(r;k)^ij=-(1/2)(F_BZ)_(rk)^ij",
+    "direct_support": 14,
+    "adjoint_companion_support": 9,
+    "overlap_ratio": "1/7",
+    "total_euler_support": 14
+  },
+  "symmetric_dt_affine_system": {
+    "variables": 9555,
+    "action_rows": 196,
+    "bianchi_rows": 5096,
+    "matrix_nonzeros": 17836,
+    "consistent": false,
+    "cokernel_certificate_support": 14,
+    "cokernel_action_support": 14,
+    "cokernel_bianchi_support": 0
+  },
+  "downstream": "PRIMITIVE_EPSILON_AND_METRIC_OBSERVATION_ROWS_NOT_REACHED_ON_THIS_FAMILY",
+  "source_return": "SOURCE_CONFIRMS_TRANSGRESSION_ACTION_AND_PRINTED_ENDPOINT__REPO_DERIVES_SELECTED_NONCYCLIC_ACTION_EULER_OBSTRUCTION__SOURCE_SILENT_SELECTED_K77_CANONICAL_WITNESS",
+  "scope": "CANONICAL_ZORRO_DEWITT__SELECTED_COMM_SYMI_SYMI__T_AND_F_VARPI_ZERO__GRADE_TWO_SYMMETRIC_DT",
+  "canon_verdict_change": "none",
+  "ledger_row_changes": [],
+  "next_gate": "NONZERO_T_ACTION_STATIONARY_BRANCH_OR_EXPLICIT_DIFFERENT_CONNECTION_GRADE_RECONSTRUCTION"
+}

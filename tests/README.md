@@ -4208,3 +4208,15 @@ opposite compensator.
 ```sh
 sage -python tests/channel-swings/selected_k77_opposite_edge_dependent_selector_obstruction_probe.py
 ```
+
+## K77 canonical-Zorro first-action Euler gate
+
+`channel-swings/selected_k77_zorro_first_action_euler_gate_probe.py` derives
+the true selected noncyclic translation Euler row on the canonical residual-
+first two-jet. It proves the pure representative has 14 live Euler cells and
+constructs an exact 14-row cokernel certificate excluding all 9,555 symmetric
+grade-two `DT` corrections even before Bianchi.
+
+```sh
+sage -python tests/channel-swings/selected_k77_zorro_first_action_euler_gate_probe.py
+```

@@ -7,6 +7,21 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SELECTED-K77 CANONICAL-ZORRO FIRST-ACTION EULER
+> OBSTRUCTION.** The preceding point/two-jet solves the source-printed
+> residual, but not the Euler covector of the selected noncyclic transgression
+> action. On the pure antisymmetric representative, `S(F_BZ/2)` has 14 live
+> grade-one cells and the formal-adjoint `DT` companion occupies nine with
+> exact ratio `1/7`; all 14 total cells remain nonzero. The complete 9,555-
+> variable symmetric-`DT` correction family cannot cancel them: a 14-row
+> exact left-cokernel certificate annihilates every correction column and
+> uses no Bianchi row. This kills the canonical `T=F_varpi=0` stationary
+> branch, not the printed-residual theorem or GU generally. **Next require a
+> genuinely distinct nonzero-`T` action-stationary branch or an explicitly
+> derived different connection-grade reconstruction before reopening
+> `SR-1B`.** `SR-1` remains `BACKGROUND-MISSING`, `SR-2` remains blocked, and
+> no ledger, canon, residue, datum or posture changes. Exact probe `35/35`.
+
 > **2026-08-14 SELECTED-K77 DIFFERENTIATED-SHIAB SECOND-JET GATE.** The
 > repository-selected `comm/symi/symi` Hodge--Shiab is exactly a
 > `1274 x 1274` signed-permutation isomorphism. On the canonical

@@ -278,3 +278,35 @@ the primitive-epsilon metric/observation formal-adjoint chain on this live
 the exact control `L=t b'` has `E_t=b'=0` but `E_b=-t'` nonzero.  The narrowed
 `SR-1B` must compute that row before any Spencer tower, stationary background, `SR-2`
 or physical-cohomology claim can begin.
+
+## 2026-08-14 true first-action Euler disposition
+
+The selected noncyclic transgression action supplies an earlier obstruction
+than the dependent metric/observation chain. Its translation Euler covector is
+
+```text
+E_T=S(barF)+L_T^!S^!T+*kappa T,
+```
+
+not the separately printed residual. On the pure antisymmetric representative
+of the canonical point/two-jet, the direct term has 14 live grade-one cells;
+the exact formal-adjoint `DT` companion occupies nine with ratio `1/7`, and
+the total remains nonzero on all 14 cells.
+
+The contrary affine family was exhausted. All `9,555` grade-two corrections
+`Q_(r;k)^ij=Q_(k;r)^ij` were assembled. An exact 14-supported left-cokernel
+covector annihilates every action column and evaluates to one on the forced
+target. It uses zero differential-Bianchi rows, so relaxing or re-solving the
+Spencer constraint cannot repair the action equation.
+
+Therefore the canonical Zorro/DeWitt, selected `comm/symi/symi`,
+`T=F_varpi=0` residual-first family is excluded at stationary first-action
+two-jet grade. The prior printed-residual and second-jet theorems remain exact,
+but no longer constitute a candidate stationary background. Primitive epsilon
+and metric/observation rows are downstream on this family because the
+independent bulk translation row already fails.
+
+`SR-1` remains `BACKGROUND-MISSING`, rather than becoming a global no-go. The
+next admissible candidate must be genuinely distinct: a nonzero-`T` branch, or
+an explicitly derived different connection-grade/Zorro reconstruction with
+new typed jet columns. `SR-2` remains blocked.

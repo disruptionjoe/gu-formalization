@@ -52,7 +52,12 @@
           "differentiated_shiab_second_jet_gate": {
             "result": "explorations/conditional-build/selected-k77-zorro-differentiated-shiab-second-jet-gate-2026-08-14.md",
             "probe": "tests/channel-swings/selected_k77_zorro_differentiated_shiab_second_jet_probe.py",
-            "disposition": "SELECTED_K77_SHIAB_SPENCER_TARGET_ADMITTED__SYMMETRIC_SECOND_VARPI_JET_CONSTRUCTED__DEPENDENT_BZ_FIRST_ACTION_EULER_ROWS_TYPE_MISSING"
+            "disposition": "SELECTED_K77_SHIAB_SPENCER_TARGET_ADMITTED__SYMMETRIC_SECOND_VARPI_JET_CONSTRUCTED__DEPENDENT_BZ_FIRST_ACTION_EULER_ROWS_TYPE_MISSING",
+            "first_action_euler_gate": {
+              "result": "explorations/conditional-build/selected-k77-zorro-first-action-euler-gate-2026-08-14.md",
+              "probe": "tests/channel-swings/selected_k77_zorro_first_action_euler_gate_probe.py",
+              "disposition": "SELECTED_K77_CANONICAL_ZORRO_ZERO_T_FIRST_ACTION_TWO_JET_OBSTRUCTED__SYMMETRIC_DT_REPAIR_EXCLUDED_BEFORE_BIANCHI"
+            }
           }
         }
       },
@@ -97,9 +102,9 @@
     }
   ],
   "next_required_construction": {
-    "id": "SR-1B",
-    "statement": "On the explicit selected-K77 residual-zero two-jet, compute the action-owned bulk E_B-E_T row and the primitive-epsilon metric/observation formal-adjoint chain. If every row vanishes, continue the Spencer/formal-integrability tower and extend to one complete source/action-owned stationary background before replaying SR-1; if any row is nonzero, return a stationary-background obstruction at its exact owner and derivative grade.",
-    "failure_rule": "Do not manufacture a background by tangent restriction, infer dependent-connection Euler stationarity from residual zero, or promote a local formal two-jet to a GU solution."
+    "id": "SR-1C",
+    "statement": "After the canonical T=F_varpi=0 residual-first family is excluded by the true translation Euler row, construct either a nonzero-T candidate and solve its complete action Euler system or derive an explicitly different connection-grade/Zorro reconstruction whose new typed jet columns hit the 14-dimensional action cokernel. Only then resume primitive-epsilon, metric/observation and formal-integrability rows before replaying SR-1.",
+    "failure_rule": "Do not retry the exhausted symmetric grade-two DT correction family, substitute the printed residual for the action Euler row, manufacture a background by tangent restriction, or promote a local formal two-jet to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
 }
