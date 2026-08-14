@@ -2,11 +2,31 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-13"
+updated_at: "2026-08-14"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Twistor carrier/Weyl-integrability gate 2026-08-14 (ledger v0.253;
+headline unchanged).** The K77 base Weyl factors reconstruct a conventional
+local/developable rank-four twistor carrier. Graph two-planes encode spacetime
+points and give the exact tangent adapter into `Hom(S_X,T_GU/S_X)`. This is
+not the ambient carrier split: K77 has four complex-32 observation summands,
+two in each complex-64 ambient Weyl half; the source's two `C^(32,32)` halves
+are not individual complex-32 blocks. Mixed `4 x 10` Clifford generators
+preserve ambient chirality and exchange the paired summands. Exact
+Weyl-contraction and binary-quartic controls show that a full Lorentzian
+holomorphic projective-line fibration is conformally-flat scoped; Euclidean
+ASD geometry remains a non-flat horn. For general Lorentzian curvature, the
+recommended next object is the GU conformal local-twistor/tractor connection,
+with CR/null-geodesic and ambitwistor routes kept separate. The proper
+homogeneous-orbit KT complex still does not admit the actual off-zero endpoint.
+See
+`explorations/conditional-build/selected-k77-twistor-carrier-weyl-integrability-gate-2026-08-14.md`
+and its `54/54` exact probe. `HYP-TW-COHERENCE-01` is sharpened and branched,
+not promoted. `LT-SM8` receives one distance-only migration; no verdict,
+residue, quotient, datum, canon or public-posture move.
 
 **Twistor/moving-BV/positive-state seven-gate 2026-08-13 (ledger v0.245;
 headline unchanged).** The base `Gr(2,C^4)` correspondence and separate normal

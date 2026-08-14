@@ -57,13 +57,23 @@ current_result:
     explicitly non-chiral; the open physics burden is low-curvature
     luminous/dark chiral-looking decoupling through a nonstandard operator or
     owned BV/domain, not a net-chirality target. The
-    separate base and normal twistor kinematics and minimal moving-J
-    longitudinal BRST extension now construct; the actual twistor connection,
-    Penrose pushforward and positive physical state-space reconstruction do not.
-    Ledger hypothesis HYP-TW-COHERENCE-01 preserves, without promoting, the
-    proposal that superposition lives in positive moving-twistor/BV cohomology
-    and normalized mixed curvature supplies a coherence obstruction.
+    separate base and normal twistor kinematics now extend to a reconstructed
+    local/developable rank-four carrier and exact graph-incidence tangent
+    adapter. The settled K77 branching has four complex-32 observation
+    summands, not two; they sit two per complex-64 ambient Weyl half and are
+    distinct from spacetime graph two-planes. Mixed 4-by-10 connection terms
+    exchange each paired set. Exact Weyl controls scope the strict Lorentzian
+    holomorphic horn to conformally-flat regions, leaving a Euclidean ASD horn
+    and a recommended general-Lorentzian local-twistor/tractor successor.
+    Ledger hypothesis HYP-TW-COHERENCE-01 preserves this branched geometric
+    proposal without promoting it: endpoint admission, the action-owned lift,
+    Penrose pushforward, positive domain and pairing, physical cohomology and
+    any Willmore/decoherence identification remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-twistor-carrier-weyl-integrability-gate-2026-08-14.md
+    - lab/process/selected-k77-twistor-carrier-weyl-integrability-gate.json
+    - explorations/conditional-build/conditional-physics-ledger-v0.253.md
+    - lab/process/conditional-physics-ledger-v0.253.json
     - explorations/conditional-build/selected-k77-stabilizer-koszul-tate-resolution-gate-2026-08-14.md
     - lab/process/selected-k77-stabilizer-koszul-tate-resolution-gate.json
     - explorations/conditional-build/conditional-physics-ledger-v0.252.md

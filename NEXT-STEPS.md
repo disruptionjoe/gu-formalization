@@ -147,6 +147,27 @@ updated_at: "2026-08-14"
 > nonstandard operator or domain.** No verdict, residue, quotient, datum,
 > canon or public-posture move.
 
+> **2026-08-14 TWISTOR CARRIER/WEYL-INTEGRABILITY GATE (ledger v0.253).**
+> The K77 base Weyl factors reconstruct the local/developable rank-four
+> carrier `T_GU=S_L+S_R^*`; graph two-planes give spacetime incidence and the
+> exact tangent adapter. Layer 0 is now fixed: the ambient branching has four
+> complex-32 observation summands, paired two per complex-64 Weyl half, while
+> a spacetime point is a rank-two plane inside `T_GU`. Mixed `4 x 10`
+> generators exchange each paired set. Exact Weyl controls make the strict
+> Lorentzian holomorphic horn conformally-flat scoped, while Euclidean ASD and
+> general Lorentzian curved-successor horns survive. **Take the general
+> Lorentzian H3 route first: construct the GU conformal local-twistor/tractor
+> connection and compute its curvature square against the owned Weyl, Dirac
+> and Rarita--Schwinger symbols. Keep CR/null-geodesic and ambitwistor objects
+> as explicit alternatives. In parallel, admit the actual off-zero endpoint
+> through an action/Green law or covariant edge momentum. Do not identify a
+> mixed connection coefficient, its curvature, and normalized Willmore `II`
+> without an exact adapter.** See
+> `explorations/conditional-build/selected-k77-twistor-carrier-weyl-integrability-gate-2026-08-14.md`
+> and its `54/54` exact probe. `HYP-TW-COHERENCE-01` is branched but remains
+> conditional; `LT-SM8` receives one distance-only migration and no public
+> physics posture changes.
+
 > **2026-08-13 TWISTOR/MOVING-BV/POSITIVE-STATE SEVEN-GATE (ledger
 > v0.245).** The base
 > `Gr(2,C^4)` correspondence and the normal `O(6,4)/U(3,2)` twistor fibre

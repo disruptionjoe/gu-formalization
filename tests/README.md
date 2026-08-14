@@ -81,6 +81,17 @@ the map: which directory/group supports which claim.
   controls. Run with pinned SymPy `1.14.0` and NumPy `2.3.2`; it passes
   `54/54`.
 
+- `channel-swings/selected_k77_twistor_carrier_weyl_integrability_gate_probe.py`
+  reconstructs the local/developable rank-four carrier from the settled K77
+  base Weyl factors, verifies graph incidence and the Lorentz determinant,
+  types the four complex-32 observation summands against the two complex-64
+  ambient halves, and proves the mixed `4 x 10` chirality exchange. Exact
+  Weyl-contraction ranks and five-point binary-quartic evaluation separate a
+  full projective-line fibration from an isolated Petrov principal line and
+  branch the Lorentzian, Euclidean ASD and curved-successor routes. It also
+  audits the off-zero BFV endpoint and physics fences. Run with Python 3; it
+  passes `54/54`.
+
 - `channel-swings/selected_k77_twistor_bv_positive_state_seven_gate_probe.py`
   constructs the base `Gr(2,C^4)` correspondence and the separate normal
   `O(6,4)/U(3,2)` homogeneous twistor fibre, verifies the moving-J constraint
