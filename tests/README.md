@@ -6,6 +6,11 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_ten_dimensional_family_index_parity_gate_probe.py`
+  certifies the complete degree-parity theorem for a conditional 10D spin
+  family, including virtual-rank and higher Chern-character components plus
+  8D, 12D and 14D firing controls. It passes `58/58` with Python 3.
+
 - `channel-swings/selected_k77_mu128_holonomy_classification_gate_probe.py`
   classifies `Hom(Z/2,mu_128)` exactly, preserves both possible fibre images
   in total `pi_1`, verifies trivial observation of the pure vertical

@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 TEN-DIMENSIONAL FAMILY-INDEX PARITY GATE (ledger v0.247).**
+> A conditional proper ten-dimensional spin family obeys
+> `Ind(D_v tensor L^-1)=-conjugate(Ind(D_v tensor L))` rationally. This is the
+> exact virtual asymmetry shape missing from the ordinary four-dimensional
+> index, but GU does not yet own the fibration, vertical operator, nontrivial
+> line, selected flux, integral lift, Fredholm domain or physical BV descent.
+> Build those objects before any luminous/mirror interpretation; a virtual
+> rank is not a particle or generation count. Evidence:
+> `explorations/conditional-build/selected-k77-ten-dimensional-family-index-parity-gate-2026-08-14.md`.
+
 > **2026-08-14 `MU_128` HOLONOMY CLASSIFICATION GATE (ledger v0.246).**
 > The Lorentz-metric `RP^3` spine supplies at most
 > `Hom(Z/2,mu_128)=mu_2={+1,-1}`, not 128 physical sectors. The homotopy

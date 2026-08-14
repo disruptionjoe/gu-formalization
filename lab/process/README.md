@@ -8,6 +8,15 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.247.json`](conditional-physics-ledger-v0.247.json),
+summarized in
+`explorations/conditional-build/conditional-physics-ledger-v0.247.md`.
+The conditional ten-dimensional spin-family index is conjugate-odd under
+inverse line twists rationally. The GU fibration, vertical operator, line,
+flux, Fredholm domain and physical descent remain unbuilt. No verdict,
+residue, quotient, canon claim or public posture moved.
+
+Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.246.json`](conditional-physics-ledger-v0.246.json),
 summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.246.md`.

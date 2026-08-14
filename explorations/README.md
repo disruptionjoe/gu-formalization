@@ -7,6 +7,14 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 ten-dimensional family-index parity gate (2026-08-14)
+
+`conditional-build/selected-k77-ten-dimensional-family-index-parity-gate-2026-08-14.md`
+proves that a conditional proper ten-dimensional spin-family index is
+conjugate-odd under inverse line twists at rational Chern-character grade. It
+constructs no GU fibration, vertical operator, flux, domain or physical
+selection; those are the next ownership and descent gates.
+
 ## K77 `mu_128` holonomy classification gate (2026-08-14)
 
 `conditional-build/selected-k77-mu128-holonomy-classification-gate-2026-08-14.md`

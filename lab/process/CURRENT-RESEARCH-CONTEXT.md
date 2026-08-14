@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.247 ten-dimensional family-index parity gate:** for a
+> conditional proper ten-dimensional spin family, inverse central-line twists
+> obey `Ind(L^-1)=-conjugate(Ind(L))` rationally. This is the exact virtual
+> asymmetry shape missing from the ordinary 4D numerical index. It does not
+> construct the GU fibration, vertical operator, nontrivial line, selected
+> flux, integral lift, Fredholm domain, physical cohomology or vacuum. A
+> virtual negative rank is not a particle or generation count. Rank one is to
+> build and own those family/operator/domain objects and test observation/BFV
+> descent; otherwise use the independently action-owned asymmetric-domain
+> route. Preserve the non-chiral total target.
+
 > **Current v0.246 finite-centre holonomy classification:** the determinant's
 > `mu_128` kernel does not create 128 physical sectors. The universal
 > Lorentz-metric `RP^3` spine supplies only `mu_2={+1,-1}`; its image in total

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 36198e781d39189653803f8692d47508ae32505d
+revision_basis: da2b01e0ef33dea49e3877cc9f69d90a68d7b9e8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -10,14 +10,15 @@ current_result:
   status: conditional_research_front
   summary: >-
     The full U(64,64) parent retains one exact central W/mirror-odd curvature
-    leg, but its canonical first-Chern route and universal fibre-supplied
-    finite-centre selector are now closed. The connected Spin(7,7)-induced
-    determinants are trivial. The Lorentz-metric RP3 spine contributes at most
-    Hom(Z/2,mu_128)=mu_2, and the total-space homotopy boundary may kill even
-    that sign. The pure vertical sign pulls back trivially along observation
-    and acts as the same scalar on both Weyl halves, so it cannot distinguish
-    luminous matter from its mirror. Actual base/domain characters,
-    independent twists and boundary-relative charge remain unbuilt routes.
+    leg. Its canonical first-Chern and universal fibre-character routes are
+    closed, but the precise nonstandard family-index successor is now known:
+    for a conditional proper ten-dimensional spin family over the observed
+    four-dimensional base, inverse central-line twists have virtual indices
+    related by minus complex conjugation rationally. This supplies an exact
+    possible asymmetry shape that the ordinary four-dimensional numerical
+    index lacks. The GU fibration, vertical operator, nontrivial selected line,
+    integral lift, Fredholm domain and physical observation/BFV descent remain
+    unbuilt, so no luminous/mirror physical selection follows.
     Weinstein's total theory remains
     explicitly non-chiral; the open physics burden is low-curvature
     luminous/dark chiral-looking decoupling through a nonstandard operator or
@@ -29,9 +30,10 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-ten-dimensional-family-index-parity-gate-2026-08-14.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.247.md
+    - lab/process/conditional-physics-ledger-v0.247.json
     - explorations/conditional-build/selected-k77-mu128-holonomy-classification-gate-2026-08-14.md
-    - explorations/conditional-build/conditional-physics-ledger-v0.246.md
-    - lab/process/conditional-physics-ledger-v0.246.json
     - explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md
@@ -47,11 +49,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the actual base or owned physical domain carry a selected finite central
-  character, or does a boundary-relative BV/BFV charge survive the physical
-  gauge quotient; and can an action-owned nonstandard family operator or
-  asymmetric domain produce the source-claimed luminous/dark effective
-  decoupling while the total theory remains non-chiral?
+  Can the exact conjugate-odd ten-dimensional virtual family index be realized
+  by an actual source-owned GU fibration, vertical operator, nontrivial line
+  sector and Fredholm/BFV domain, or does an independently asymmetric boundary
+  domain supply the source-claimed luminous/dark effective decoupling instead?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -60,11 +61,10 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not enumerate more scalar roots. Either construct the actual physical
-  domain and compute its fundamental group, allowed gauge quotient and selected
-  character, or build the preboundary/BFV complex and boundary charge. Keep an
-  independent root line separate and do not choose holonomy by hand. In
-  parallel, retain the more direct nonstandard family-operator/asymmetric-domain
-  and moving-J routes; build the program-native twistor carrier and actual
-  lifted `(0,1)` connection before a Penrose or positive-state claim.
+  Construct a proper ten-dimensional spin family and its source-owned vertical
+  operator/domain before using the family-index theorem. Supply rather than
+  assume the nontrivial central line and test its integral index lift,
+  observation and BV/BFV descent. A virtual negative rank is not a particle
+  count. If ownership or Fredholm closure fails, move to the independently
+  action-owned boundary/asymmetric-domain route; do not choose flux by hand.
 what_needs_joe: none
