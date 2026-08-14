@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "OPPOSITE_CARTAN_SLICE_CANCELS_91_ENDPOINT_COMPONENTS_AND_FIRST_VARIATION__DIAGONAL_BFV_ALGEBRAICALLY_COMPATIBLE__BOUNDARY_OWNERSHIP_OPEN",
+  "predecessor": {
+    "carrier": "selected-k77-cartan-slice-cotangent-realization",
+    "carrier_dimension": 98,
+    "selected_regular_cartan_type": {
+      "split_rank": 5,
+      "compact_rank": 2
+    },
+    "bfv": "selected-k77-full-bfv-master-equation-gate"
+  },
+  "edge_carrier": {
+    "space": "M_-C=G x (-C)",
+    "base_point": "(e,-L)",
+    "moment_value": "-mu",
+    "symplectic_rank": 98,
+    "moment_differential_rank": 91,
+    "moment_fibre_dimension": 7,
+    "complete_linear_moment_flows": true
+  },
+  "cancellation": {
+    "base_component_count": 91,
+    "base_result": "mu+J_edge=0_COMPONENTWISE",
+    "first_variation_component_count": 91,
+    "first_variation_result": "dmu+dJ_edge(v)=0_COMPONENTWISE",
+    "exact_edge_lift_constructed": true,
+    "one_exact_solver_lift": {
+      "group_coordinate_support": 0,
+      "cartan_coordinate_support": 2,
+      "support_is_basis_dependent": true
+    },
+    "edge_lift_ambiguity_dimension": 7,
+    "ambiguity": "right-Cartan moment fibre",
+    "nonlinear_global_edge_section": "NOT_CONSTRUCTED"
+  },
+  "bfv_compatibility": {
+    "gauge_algebra": "so(7,7)",
+    "generator_count": 91,
+    "endpoint_kirillov_brackets_checked": 4095,
+    "opposite_edge_kirillov_brackets_checked": 4095,
+    "representation_identities_inherited": 4095,
+    "jacobi_triples_inherited": 121485,
+    "diagonal_charge": "Omega_diag=c^a J_diag,a-(1/2)f_ab^c c^a c^b b_c",
+    "classical_algebraic_master_equation": "EXACTLY_ZERO",
+    "scope": "mathematical Hamiltonian product carrier only",
+    "proper_koszul_tate_resolution": "NOT_CONSTRUCTED",
+    "functional_bfv_phase_space": "NOT_CONSTRUCTED"
+  },
+  "plants": {
+    "same_sign_chamber": "mu+mu=2mu_NONZERO",
+    "fixed_opposite_orbit_base": "CANCELS",
+    "fixed_opposite_orbit_first_variation": "FAILS_BECAUSE_-dmu_NOT_IN_IMAGE_K_-mu"
+  },
+  "source_action_boundary_ceiling": {
+    "source_owned_edge_field": false,
+    "action_owned_edge_potential_or_kinetic_term": false,
+    "boundary_stationarity_law_selecting_edge_lift": false,
+    "analytic_domain": "NOT_CONSTRUCTED",
+    "positive_pairing": "NOT_CONSTRUCTED",
+    "equivariant_prequantization": "NOT_CONSTRUCTED",
+    "physical_cohomology": "NOT_CONSTRUCTED",
+    "w_mirror_selection": "NOT_INFERRED",
+    "chirality": "NOT_INFERRED",
+    "generation_count": "NOT_INFERRED",
+    "ledger_or_canon_or_public_posture_change": "NONE"
+  },
+  "disposition": {
+    "mathematical_edge_composition": "POSITIVE",
+    "charged_boundary_symmetry": "OPEN_ZERO_IMPORT_RIVAL",
+    "next_gate": "derive an action/source boundary admission and kinetic law for M_-C or retain the transformations as charged boundary symmetry before analytic BFV"
+  },
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_cartan_slice_edge_cancellation_probe.py",
+    "expected": "PASS_ALL_DECLARED_CHECKS"
+  }
+}

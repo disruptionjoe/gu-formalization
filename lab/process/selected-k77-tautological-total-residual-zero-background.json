@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "revision_basis": "fb128b49bcb78eef66ec4822a84ddd28865e0f47",
+  "status": "LOCAL_FROZEN_FRAME_FIXED_BOUNDARY_TOTAL_RESIDUAL_ZERO_CANDIDATE_SURVIVES__FREE_EDGE_HORN_KILLED__NATIVE_B_EPSILON_Y_LEGALITY_TYPE_MISSING",
+  "lane_id": "SRC-RES-COH-01",
+  "source_claims": [
+    "SC-ACT-01",
+    "SC-ACT-04",
+    "SC-ACT-05",
+    "SC-ACT-06"
+  ],
+  "branches": [
+    {
+      "id": "plus",
+      "b": "1/208-sqrt(3)/312",
+      "t": "(-2+sqrt(3))/208",
+      "varpi_scale_b_plus_t": "(-3+sqrt(3))/624"
+    },
+    {
+      "id": "minus",
+      "b": "1/208+sqrt(3)/312",
+      "t": "(-2-sqrt(3))/208",
+      "varpi_scale_b_plus_t": "(-3-sqrt(3))/624"
+    }
+  ],
+  "exact_equations": {
+    "bosonic_residual": "[312(b+t)^2+t] Phi1=0",
+    "metric_volume_euler_trace": "624(b^2+bt+t^2/3)+t=0",
+    "xi_redundancy": "2(b+t) Upsilon_B (Phi1 wedge Phi1)=0",
+    "eliminant": "97344 t^2 (43264 t^2+832 t+1)",
+    "endpoint_momentum": "312 t(2b+t) != 0 on both nonzero branches"
+  },
+  "zero_fermion_totalization": {
+    "fields": [
+      "nu",
+      "bar_nu",
+      "zeta",
+      "bar_zeta"
+    ],
+    "fermion_euler": "ZERO",
+    "fermion_residual": "ZERO",
+    "fermion_connection_current": "ZERO",
+    "total_first_order_residual": "ZERO",
+    "southeast_nonzero_rival_tadpole": "ABSENT_BECAUSE_BILINEAR"
+  },
+  "action_ownership": {
+    "first_order_total_residual": "SOURCE_OWNED_BY_SC_ACT_01_AND_SC_ACT_05",
+    "bosonic_second_action": "SOURCE_OWNED_BY_SC_ACT_04",
+    "total_boson_fermion_residual_square": "NOT_SOURCE_CONSTRUCTED",
+    "bosonic_i2_stationarity": "AUTOMATIC_AT_UPSILON_B_ZERO",
+    "bosonic_i2_hessian": "L_UPSILON_B_ADJOINT_Q_B_L_UPSILON_B"
+  },
+  "native_legality": {
+    "frozen_open_ball": "EXACT_LOCAL_CANDIDATE",
+    "B_equals_B_epsilon": "TYPE_MISSING",
+    "required_curvature_orbit": "F_B=epsilon^-1 F_Gamma0 epsilon",
+    "branch_curvature": "NONZERO",
+    "flat_pure_gauge_shortcut": "KILLED",
+    "moving_Phi1_Shiab_Hodge_density_observation": "NOT_CONSTRUCTED_ON_BRANCH",
+    "native_Y_Met_X_background": "NOT_CONSTRUCTED"
+  },
+  "boundary_horns": {
+    "compact_support_or_fixed_endpoint": "LOCAL_BULK_STATIONARITY_SURVIVES",
+    "bare_free_endpoint": "KILLED_BY_NONZERO_ENDPOINT_MOMENTUM",
+    "boundary_nonvanishing_transformations": "CHARGED_SYMMETRIES",
+    "generated_robin_or_edge_completion": "SOURCE_UNOWNED_AND_OPEN"
+  },
+  "bv_pde_scope": {
+    "branch_specific_stabilizer": "NOT_COMPUTED",
+    "K_total": "NOT_ASSEMBLED",
+    "L_total": "NOT_ASSEMBLED",
+    "closed_domain": "NOT_CONSTRUCTED",
+    "euclidean_ellipticity": "NOT_TESTED",
+    "lorentzian_green_hyperbolicity": "NOT_TESTED",
+    "positive_physical_cohomology": "NOT_CONSTRUCTED"
+  },
+  "disposition": {
+    "local_total_residual_zero_candidate": "SURVIVES",
+    "free_edge_nonzero_background": "KILLED",
+    "native_source_background": "TYPE_MISSING",
+    "SR_1_background_missing": "NARROWED_NOT_CLOSED",
+    "SR_2": "REMAINS_BLOCKED_PENDING_NATIVE_LEGALITY_AND_COMMON_CARRIER"
+  },
+  "next_gate": "test whether the actual distinguished K77 connection curvature is in the orbit of the b-plus/minus Phi1 branch and move the native Phi1/Shiab/Hodge/density/observation packet; if positive assemble branch-specific K_total and L_total, if negative kill both branches as GU backgrounds",
+  "claim_ceiling": {
+    "ledger_row_changes": "NONE",
+    "canon_verdict_change": "NONE",
+    "residue_or_datum_change": "NONE",
+    "physical_cohomology": "NOT_INFERRED",
+    "superposition": "NOT_INFERRED",
+    "spectrum_or_particle_count": "NOT_INFERRED",
+    "public_posture_change": "NONE"
+  },
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_tautological_total_residual_zero_background_probe.py",
+    "result": "PASS_55_OF_55"
+  }
+}

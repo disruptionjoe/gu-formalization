@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 23f7345a5a3baef3c2e79f226ad7b2c3f0bc56e4
+revision_basis: fb128b49bcb78eef66ec4822a84ddd28865e0f47
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,23 +9,30 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The exact endpoint trace-dual is regular semisimple but not split-regular.
-    Its even characteristic polynomial reduces to a squarefree degree-seven
-    squared-spectrum polynomial with five positive and two negative real
-    roots, so its real Cartan type is split rank five plus compact rank two.
-    The two compact directions carry nonzero KKS periods that vary along the
-    action-owned scaling line. This obstructs the untwisted 98-dimensional
-    orbit-family product globalization: one closed product-family form cannot
-    restrict to fibre KKS classes whose periods vary. Twisted or monodromic
-    98-dimensional equivariant realizations remain open, so the global
-    minimum remains in [98,182] and the 182-dimensional cotangent-group
-    fallback survives.
-    The new source-residual cohomology lane correctly retyped the candidate
-    first arrow to the action-owned Cl2 adjoint source gauge map. Its next
-    composition gate cannot yet run: no complete source/action-owned
-    stationary total-residual-zero background supplies the common carrier and
-    linearizations. The lane is blocked on that background rather than
-    promoted to source cohomology.
+    The selected regular endpoint has real Cartan type split rank five plus
+    compact rank two. Its live globalization gate now closes sharply on that
+    stratum: restricting the canonical cotangent form to
+    M_C=Spin_0(7,7) x C gives a globally exact symplectic 98-dimensional
+    carrier with rank-91 moment differential and seven-dimensional right-
+    Cartan fibre. This attains the inherited lower bound, so the selected
+    regular-stratum global minimum is exactly 98. It is not the previously
+    obstructed orbit-product family: the compact Cartan directions remain
+    upstairs and pair with transverse momenta. Singular walls, other real
+    Cartan types and the all-strata minimum remain open; T*Spin(7,7) remains
+    the 182-dimensional all-charge fallback.
+    The opposite chamber M_-C cancels all 91 exact endpoint moment components
+    and all 91 components of the action-owned first variation. The diagonal
+    moment map is algebraically BFV-compatible, with a seven-dimensional lift
+    ambiguity. This is a mathematical Hamiltonian construction only: source/
+    action boundary admission, a kinetic term, stationarity, proper functional
+    BFV, domains, positivity and physical cohomology remain open, and charged
+    boundary symmetry remains the zero-import rival.
+    In the disjoint source-residual lane, two old tautological branches are
+    exact total-residual-zero candidates at frozen-frame fixed-boundary grade,
+    but their native B(epsilon)/Y curvature legality is type-missing and the
+    bare free-edge horn excludes them. SR-1 is narrowed rather than closed.
+    The ten rank-128 leaks are already the full N* tensor S observation-kernel
+    module; the selected graph, not the carrier, remains only compact-natural.
     The bare selected action's endpoint potential now decides the boundary-law
     horn. Free endpoint variation forces p_0=p_2=0, hence zero moment map and
     zero coadjoint invariants; it excludes rather than explains the exact
@@ -125,6 +132,16 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-cartan-slice-edge-cancellation-2026-08-14.md
+    - lab/process/selected-k77-cartan-slice-edge-cancellation.json
+    - explorations/conditional-build/selected-k77-cartan-slice-cotangent-realization-2026-08-14.md
+    - lab/process/selected-k77-cartan-slice-cotangent-realization.json
+    - explorations/conditional-build/selected-k77-tautological-total-residual-zero-background-2026-08-14.md
+    - lab/process/selected-k77-tautological-total-residual-zero-background.json
+    - explorations/conditional-build/selected-k77-rank128-normal-module-mixed-boost-2026-08-14.md
+    - lab/process/selected-k77-rank128-normal-module-mixed-boost.json
+    - explorations/conditional-build/conditional-physics-ledger-v0.257.md
+    - lab/process/conditional-physics-ledger-v0.257.json
     - explorations/conditional-build/selected-k77-regular-cartan-global-realization-obstruction-2026-08-14.md
     - lab/process/selected-k77-regular-cartan-global-realization-obstruction.json
     - lab/active-research/source-residual-cohomology/sr1-total-residual-complex-background-gate-2026-08-14.md
@@ -186,11 +203,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can a twisted or monodromic 98-dimensional Spin(7,7)-equivariant
-  realization handle the actual split-five/compact-two Cartan type, or what
-  is the smallest global carrier below the 182-dimensional cotangent-group
-  fallback? Separately, can a complete source-owned stationary
-  total-residual-zero background be constructed for the residual complex?
+  Does the source or selected action own a boundary admission and kinetic law
+  for the exact 98-dimensional opposite Cartan-slice carrier, or should the
+  nonzero transformations remain charged boundary symmetry? Separately, can
+  either frozen-frame residual-zero branch be realized on the native
+  B(epsilon)/Y curvature orbit with its moving coefficients?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -199,14 +216,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct or obstruct a nontrivial twisted/monodromic 98-dimensional
-  Spin(7,7)-equivariant realization for real Cartan type (5,2), or construct
-  the best global carrier below the 182-dimensional cotangent fallback. Only
-  then compare the surviving carrier with charged boundary symmetry and
-  source ownership. In the disjoint source-residual lane, construct one
-  complete source/action-owned stationary total-residual-zero background
-  before replaying composition. Do not reuse the obstructed untwisted product,
-  manufacture the missing background, promote a mathematical carrier to a
-  physical edge theory, choose W/mirror, or replace the non-chiral total
-  target with net chirality.
+  Run the variational ownership comparison for M_-C: derive an edge admission
+  and kinetic term from the source/selected action or retain charged boundary
+  symmetry, with proper functional BFV postponed until ownership is positive.
+  In parallel, test the tautological branch curvature orbit against the actual
+  distinguished B(epsilon) connection and first moving-Y jet. Do not reopen
+  the selected-stratum 98-dimensional carrier, rebuild ten rank-128 repairs,
+  promote algebraic BFV to physical cohomology, choose W/mirror, or replace the
+  non-chiral total target with net chirality.
 what_needs_joe: none

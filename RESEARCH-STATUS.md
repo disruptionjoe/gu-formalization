@@ -8,29 +8,48 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Regular-Cartan globalization obstruction 2026-08-14 (headline unchanged).**
-The selected endpoint trace-dual has a squarefree even characteristic
-polynomial whose squared-spectrum polynomial has exactly five positive and
-two negative roots. The regular stabilizer therefore has real Cartan type
-`(split,compact)=(5,2)`, not the maximally split type. Its two compact
-directions carry nonzero KKS period classes that vary under the exact
-action-owned scaling line. This obstructs the untwisted 98-dimensional
-`orbit family x T*R^7` globalization, because fibre restrictions of one
-closed product-family form have locally constant cohomology class. Twisted or
-monodromic 98-dimensional realizations remain open; the smallest global
-equivariant carrier is still only bounded in `[98,182]`. See
-`explorations/conditional-build/selected-k77-regular-cartan-global-realization-obstruction-2026-08-14.md`
-and its `29/29` exact probe. No source-owned edge field, physical cohomology,
-ledger verdict, residue, quotient, datum, canon or public-posture move.
+**Cartan-slice cotangent realization and edge composition 2026-08-14 (ledger
+v0.257; headline advanced).** The selected regular endpoint has Cartan type
+`(split,compact)=(5,2)`. Restricting the canonical cotangent form to
+`M_C=Spin_0(7,7) x C` gives a globally exact 98-dimensional symplectic
+realization over its regular chamber stratum. The moment differential has
+rank 91 and seven-dimensional right-Cartan fibre, attaining the regular
+Poisson lower bound. The opposite chamber `M_-C` cancels all 91 endpoint
+components and all 91 first-variation components; the diagonal BFV charge is
+algebraically compatible. This is not the previously obstructed orbit product:
+the Cartan fibre stays upstairs and pairs with transverse momenta. Singular
+walls, other Cartan types and the all-strata minimum remain open, with
+`T*Spin(7,7)` the 182-dimensional fallback. Source/action boundary admission,
+a kinetic term, stationarity, proper functional BFV, domains, positivity and
+physical cohomology remain open; charged boundary symmetry remains the
+zero-import rival. See
+`explorations/conditional-build/selected-k77-cartan-slice-cotangent-realization-2026-08-14.md`
+and `explorations/conditional-build/selected-k77-cartan-slice-edge-cancellation-2026-08-14.md`,
+with exact probes `45/45` and `46/46`.
 
-**Source-residual cohomology background gate 2026-08-14 (disjoint lane).** The
-candidate first arrow is now the action-owned Cl2 adjoint source gauge map,
-not the older exact-form surrogate. The first composition test is
-`BACKGROUND-MISSING`: the repository has no complete source/action-owned
-stationary total-residual-zero background on which the total residual and
-its linearizations share a common carrier. SR-2 remains blocked on this gate.
-Next construct that background without tangent restriction or a promoted
-formal flat-zero ansatz. No source cohomology or physical state claim follows.
+**Tautological residual-zero background audit 2026-08-14 (disjoint lane).**
+Two exact `b±,t±` branches survive as total-first-residual-zero candidates at
+frozen-frame, fixed-boundary/compact-support grade. Zero fermions produce no
+tadpole, and bosonic residual-square stationarity and Gauss--Newton Hessian
+factorization follow. The bare free-edge horn kills both nonzero branches
+because endpoint momentum is nonzero. Native `B(epsilon)/Y` legality remains
+type-missing: the branch has nonzero curvature and cannot be renamed flat pure
+gauge, while no receipt matches it to the distinguished-connection curvature
+orbit or moves the full geometry. SR-1 is narrowed, not closed, and SR-2 stays
+blocked. See
+`explorations/conditional-build/selected-k77-tautological-total-residual-zero-background-2026-08-14.md`
+and its `55/55` probe.
+
+**Rank-128 normal-module anti-redo 2026-08-14.** The ten transverse rank-128
+defects already sum to the canonical `N* tensor S` observation kernel of
+dimension 1280 and its coordinate inclusion intertwines all 45
+`so(6,4)` generators. The earlier `21/45` split is a vector/covector
+convention plus a real failure of the selected H640 graph, which remains
+compact-natural only. The carrier is not the obstruction and must not be
+rebuilt as ten repairs. The next owner is one action/BV moving graph correction
+or a proof that only the compact stabilizer is physical. See
+`explorations/conditional-build/selected-k77-rank128-normal-module-mixed-boost-2026-08-14.md`,
+whose `20/20` probe replays the held `27/27` theorem.
 
 **Boundary stationarity/symplectic-realization gate 2026-08-14 (headline
 unchanged).** The selected bare action's endpoint potential has only a

@@ -4102,3 +4102,52 @@ product family while retaining twisted/monodromic minimal realizations and the
 ```sh
 sage -python tests/channel-swings/selected_k77_regular_cartan_global_realization_obstruction_probe.py
 ```
+
+## K77 Cartan-slice cotangent realization
+
+`channel-swings/selected_k77_cartan_slice_cotangent_realization_probe.py`
+constructs the exact 98-dimensional `G x C` Cartan-slice restriction of
+`T*Spin_0(7,7)`, certifies symplectic rank 98 and moment-map rank 91, and
+identifies the fixed-Cartan quotient with the 84-dimensional KKS orbit.  Its
+sharpness claim is confined to the selected regular `(5,2)` chamber; singular
+walls, other real Cartan types and the all-strata minimum remain open.
+
+```sh
+sage -python tests/channel-swings/selected_k77_cartan_slice_cotangent_realization_probe.py
+```
+
+## K77 Cartan-slice edge cancellation
+
+`channel-swings/selected_k77_cartan_slice_edge_cancellation_probe.py` composes
+the opposite Cartan chamber with the exact endpoint.  It verifies cancellation
+of all 91 moment components and their first variations and the inherited
+finite-dimensional BFV algebra, while keeping source ownership, a boundary
+action, domain, quantization and physical cohomology open.
+
+```sh
+sage -python tests/channel-swings/selected_k77_cartan_slice_edge_cancellation_probe.py
+```
+
+## K77 tautological total-residual-zero background audit
+
+`channel-swings/selected_k77_tautological_total_residual_zero_background_probe.py`
+totalizes the two exact tautological bosonic branches with zero fermions and
+checks first-order residual and `I2` stationarity.  The result is only at
+frozen-frame, fixed-boundary/compact-support grade; bare free-edge conditions
+fail and native `B(epsilon)/Y` legality remains unconstructed.
+
+```sh
+uv run --with sympy==1.14.0 python tests/channel-swings/selected_k77_tautological_total_residual_zero_background_probe.py
+```
+
+## K77 rank-128 normal-module convention audit
+
+`channel-swings/selected_k77_rank128_normal_module_mixed_boost_probe.py`
+replays the exact observation-kernel theorem over characteristic zero and
+shows that the ten rank-128 leaks form the canonical `N* tensor S` carrier.
+It separates the full 45-generator covector convention from the genuinely
+compact-natural selected graph, preventing ten redundant repair searches.
+
+```sh
+sage -python tests/channel-swings/selected_k77_rank128_normal_module_mixed_boost_probe.py
+```

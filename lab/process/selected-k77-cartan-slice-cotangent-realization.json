@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "SELECTED_REGULAR_CARTAN_STRATUM_GLOBAL_MINIMUM_98_CONSTRUCTED__ALL_STRATA_MINIMUM_OPEN",
+  "endpoint": {
+    "group": "Spin_0(7,7)",
+    "algebra": "so(7,7)",
+    "algebra_dimension": 91,
+    "trace_dual": "exact selected-action endpoint L",
+    "regular_semisimple": true,
+    "real_cartan_type": {
+      "split_rank": 5,
+      "compact_rank": 2,
+      "dimension": 7
+    }
+  },
+  "cartan_slice_realization": {
+    "total_space": "M_C=G x C subset T*G in left trivialization",
+    "chamber": "connected regular chamber C in h* through the endpoint Cartan representative",
+    "potential": "theta_C=<lambda,g^-1 dg>",
+    "symplectic_form": "omega_C=d theta_C",
+    "dimension": 98,
+    "symplectic_rank": 98,
+    "exact": true,
+    "left_G_action_free": true,
+    "linear_moment_hamiltonians_complete": true,
+    "trace_form_rank_on_h": 7,
+    "cartan_momentum_centralizer_pairing_rank": 7
+  },
+  "moment_map": {
+    "formula": "J(g,lambda)=Ad*_g(lambda)",
+    "equivariant": true,
+    "differential_shape": [91, 98],
+    "differential_rank": 91,
+    "fibre_dimension": 7,
+    "fibre_tangent": "right-Cartan tangent",
+    "image": "U_(5,2)=Ad*_G(C)",
+    "image_scope": "open invariant regular semisimple stratum containing the selected endpoint"
+  },
+  "fixed_cartan_slice": {
+    "space": "G x {lambda}",
+    "dimension": 91,
+    "presymplectic_rank": 84,
+    "kernel_dimension": 7,
+    "kernel": "Cartan centralizer h",
+    "quotient": "G/H with KKS form up to the declared cotangent sign"
+  },
+  "product_obstruction_composition": {
+    "prior_untwisted_orbit_product_obstruction_preserved": true,
+    "reason": "the varying KKS orbit is a quotient of a presymplectic G slice, not a symplectic product fibre inside M_C",
+    "compact_KKS_period_rank": 2,
+    "upstairs_form_exact": true
+  },
+  "plants": {
+    "zero_singular_wall_rank": 14,
+    "deleted_cartan_momenta_rank": 84,
+    "product_relabel_rejected_by_G_orbit_dimensions": "91 versus 84"
+  },
+  "minimality": {
+    "inherited_regular_lower_bound": 98,
+    "selected_regular_cartan_stratum_minimum": 98,
+    "all_strata_minimum": "OPEN",
+    "canonical_all_charge_fallback": "T*Spin(7,7)",
+    "canonical_all_charge_fallback_dimension": 182
+  },
+  "source_and_physics": {
+    "source_owned_cartan_slice_edge_carrier": false,
+    "source_owned_boundary_potential_or_kinetic_term": false,
+    "analytic_domain": "NOT_CONSTRUCTED",
+    "equivariant_prequantization": "NOT_CONSTRUCTED",
+    "positive_pairing": "NOT_CONSTRUCTED",
+    "physical_cohomology": "NOT_CONSTRUCTED",
+    "w_mirror_selection": "NOT_INFERRED",
+    "chirality": "NOT_INFERRED",
+    "generation_count": "NOT_INFERRED",
+    "ledger_or_canon_or_public_posture_change": "NONE"
+  },
+  "disposition": {
+    "primary_A": "POSITIVE",
+    "edge_composition": "UNLOCKED",
+    "edge_composition_scope": "use sign-reversed chamber M_-C for diagonal moment-map cancellation, then test source/action ownership before analytic BFV",
+    "charged_boundary_symmetry": "OPEN_RIVAL"
+  },
+  "next_gate": "compose M_-C with the exact selected-action endpoint and existing algebraic BFV moment map; test boundary admission and kinetic ownership without promoting the mathematical carrier to a physical edge theory",
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_cartan_slice_cotangent_realization_probe.py",
+    "expected": "PASS_ALL_DECLARED_CHECKS"
+  }
+}

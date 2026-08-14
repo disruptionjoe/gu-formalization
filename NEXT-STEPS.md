@@ -7,28 +7,41 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
-> **2026-08-14 REGULAR-CARTAN GLOBALIZATION OBSTRUCTION.** The exact endpoint
-> is regular but not split-regular. Its squared-spectrum polynomial is
-> squarefree with five positive and two negative roots, giving real Cartan
-> type `(split,compact)=(5,2)`. The two compact directions carry nonzero KKS
-> periods that vary under the action-owned scaling line. This rejects the
-> simplest untwisted `orbit family x T*R^7` globalization at dimension 98:
-> fibre restrictions of one closed product-family form cannot have varying
-> cohomology classes. **Next construct or obstruct a twisted/monodromic
-> 98-dimensional equivariant realization, or build the best carrier below the
-> 182-dimensional cotangent fallback.** Do not turn this scoped product
-> obstruction into a universal 98-dimensional no-go or a physical edge
-> theory. Exact probe: `29/29`; no ledger verdict, canon or public-posture
-> change.
+> **2026-08-14 CARTAN-SLICE COTANGENT/EDGE CONSTRUCTION (ledger v0.257).**
+> The selected regular `(5,2)` charge stratum has a sharp global
+> 98-dimensional Hamiltonian realization: the canonical cotangent form
+> restricts symplectically to `M_C=Spin_0(7,7) x C`, with rank-91 moment map
+> and seven-dimensional fibre. Its opposite chamber cancels all 91 endpoint
+> components and all 91 first-variation components; the diagonal BFV charge
+> is algebraically compatible. This evades without contradicting the old
+> product-family obstruction. **Next derive a source/action-owned boundary
+> admission and kinetic term for `M_-C`, or retain charged boundary symmetry;
+> only a positive owner opens proper functional BFV and domains.** Singular
+> walls and the all-strata minimum remain open, with `T*Spin(7,7)` the
+> 182-dimensional fallback. Exact probes: `45/45` and `46/46`; no verdict,
+> residue, quotient, canon or public-posture change.
 
-> **2026-08-14 SOURCE-RESIDUAL BACKGROUND GATE.** The new residual-cohomology
-> lane correctly replaces the old exact-form surrogate with the action-owned
-> Cl2 adjoint source gauge map, but its first total-residual composition test
-> is blocked: no complete source/action-owned stationary total-residual-zero
-> background supplies the common carrier, `K_total` and `L_total`. **Next
-> construct that background before replaying SR-1.** Do not manufacture it by
-> tangent restriction or promote a generic finite control or flat-zero ansatz
-> to a GU solution.
+> **2026-08-14 TAUTOLOGICAL RESIDUAL-ZERO BACKGROUND AUDIT.** Two exact old
+> `b±,t±` branches do solve the total first-order residual at zero fermion and
+> make the bosonic residual-square action stationary at frozen-frame,
+> fixed-boundary/compact-support grade. The bare free-edge horn excludes them
+> because endpoint momentum is nonzero. They are not yet native GU
+> backgrounds: no receipt realizes `B=b Phi1` on the actual distinguished
+> `B(epsilon)` curvature orbit or moves the full `Y` geometry. **Next test that
+> curvature orbit and the first moving coefficient jet.** Failure kills the
+> branches as GU backgrounds; success opens branch-specific `K_total`,
+> `L_total` and SR-2 factorization. Exact probe: `55/55`; SR-1 narrows but
+> remains open.
+
+> **2026-08-14 RANK-128 NORMAL-MODULE ANTI-REDO.** The ten rank-128 leaks
+> already sum to the exact full `N* tensor S` observation kernel of dimension
+> 1280, equivariant under all 45 `so(6,4)` generators. The old `21/45` split
+> comes from using a vector action on covector labels and from the selected
+> H640 graph, which remains compact-natural only. **Do not rebuild ten repairs.
+> Next construct or kill one action/BV-owned moving graph correction, or prove
+> the compact stabilizer is the operative physical symmetry.** New probe:
+> `20/20`, replaying held `27/27`; no ledger migration because v0.228 already
+> owned the carrier theorem.
 
 > **2026-08-14 BOUNDARY STATIONARITY/SYMPLECTIC-REALIZATION GATE.** The bare
 > endpoint potential `Theta=p_0 delta g_0-p_2 delta g_3` now decides the

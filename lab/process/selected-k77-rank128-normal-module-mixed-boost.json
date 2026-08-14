@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "HELD_V0228_FULL_NORMAL_MODULE_RECONFIRMED__VECTOR_COVECTOR_SIGN_FORK_EXACT__SELECTED_GRAPH_ONLY_COMPACT_NATURAL",
+  "anti_redo": {
+    "held_result": "explorations/conditional-build/selected-k77-rank128-observation-kernel-module-2026-08-13.md",
+    "held_probe": "tests/channel-swings/portfolio_rank128_observation_kernel_module_probe.py",
+    "held_ledger": "lab/process/conditional-physics-ledger-v0.228.json",
+    "disposition": "RECONFIRM_AND_EXPLAIN_CONVENTION__DO_NOT_REBOOK_OR_RERUN_TEN_REPAIRS"
+  },
+  "carrier": {
+    "object": "ker(R_obs)=N* tensor S",
+    "normal_signature": [6, 4],
+    "dimension": 1280,
+    "defect_summands": 10,
+    "summand_rank": 128,
+    "pairwise_intersections": 0,
+    "full_so6_4_intertwiners": "45_OF_45_EXACT"
+  },
+  "convention_resolution": {
+    "field": "QQ",
+    "vector_generator": "A",
+    "covector_generator": "-transpose(A)",
+    "metric_relation": "-transpose(A)=eta_(6,4) A eta_(6,4)^(-1)",
+    "wrong_vector_on_covector_agreement": {
+      "same_sign_rotations": "21_OF_21",
+      "mixed_boosts": "0_OF_24"
+    },
+    "canonical_inclusion_after_correct_typing": "45_OF_45",
+    "selected_h640_graph_after_correct_typing": "21_OF_45__ALL_24_MIXED_BOOSTS_FAIL"
+  },
+  "decision": {
+    "full_normal_module": "CONSTRUCTED_AND_EXACT",
+    "compact_subgroup_only": "FALSE_FOR_CARRIER__TRUE_FOR_SELECTED_GRAPH_TRIVIALIZATION",
+    "ten_independent_repairs": "SUPERSEDED",
+    "remaining_gate": "ONE_ACTION_OR_BV_OWNED_MOVING_GRAPH_CORRECTION_OR_A_PHYSICAL_SYMMETRY_REDUCTION"
+  },
+  "source": {
+    "return": "lab/sources/selected-k77-rank128-normal-module-mixed-boost-source-return-2026-08-14.md",
+    "disposition": "SOURCE_CONFIRMS_CARRIER_GRAMMAR_AND_PULLBACK_PROPOSAL__SOURCE_SILENT_ON_RANK1280_MODULE_AND_GRAPH_NATURALITY"
+  },
+  "scope": {
+    "ledger_row_changes": "NONE__V0_228_ALREADY_BOOKS_THE_SCOPED_THEOREM",
+    "canon_verdict_change": "NONE",
+    "physical_carrier": "NOT_CONSTRUCTED",
+    "physical_cohomology": "NOT_CONSTRUCTED",
+    "domain_or_positive_pairing": "NOT_CONSTRUCTED",
+    "index_or_count": "NOT_INFERRED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_rank128_normal_module_mixed_boost_probe.py",
+    "method": "CHARACTERISTIC_ZERO_SPARSE_CLIFFORD_AND_DUAL_REPRESENTATION_IDENTITIES_PLUS_HELD_GF1009_DEFECT_MODULE_REPLAY"
+  },
+  "result": "explorations/conditional-build/selected-k77-rank128-normal-module-mixed-boost-2026-08-14.md",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-rank128-normal-module-mixed-boost-review.md"
+}
