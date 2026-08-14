@@ -179,6 +179,21 @@ A quick map of how the repo is organized, so additions land in the right place:
 - **Archived automation output** (`explorations/research-cycles/`, `tests/research-cycles/`) is not load-bearing;
   do not cite it as a result.
 
+### Conditional evidence deltas
+
+A focused exploration that may affect the sequential conditional-physics
+ledger can file a native, versionless evidence delta under
+`lab/process/conditional-evidence-deltas/`. The delta names its exact base
+ledger digest, affected rows, scientific evidence, claim ceiling, and conflict
+keys. It does not guess the next ledger version, change a verdict, or acquire
+priority merely because of who requested the exploration.
+
+Canonical Progress independently dispositions each delta as `incorporated`,
+`duplicate`, `deferred`, or `conflicting`. Only incorporation assigns a new
+canonical ledger version. Keep execution Run IDs, schedules, service Lanes,
+models, claims, and receipts out of these native artifacts; see the directory
+README and run `python process_gates/conditional_evidence_delta_gate.py`.
+
 ---
 
 ## Licensing

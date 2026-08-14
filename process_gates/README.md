@@ -1,5 +1,16 @@
 # process_gates
 
+## Conditional evidence delta gate
+
+`conditional_evidence_delta_gate.py` validates the native versionless handoff
+from focused GU explorations to canonical Progress. It checks exact index/file
+agreement, base-ledger digests, affected-row and evidence references, typed
+integration state, and the boundary excluding private execution metadata.
+
+```bash
+python3 process_gates/conditional_evidence_delta_gate.py
+```
+
 Governance / consistency / prose-discipline audits, relocated here from `tests/` in the
 2026-06-30 de-theater pass so that `tests/` is reserved for files that build a mathematical
 object and compute a number/rank/dim/index.
