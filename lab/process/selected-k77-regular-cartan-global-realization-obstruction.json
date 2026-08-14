@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "REGULAR_CARTAN_SPLIT5_COMPACT2__UNTWISTED_PRODUCT_98_OBSTRUCTED__TWISTED_MINIMAL_REALIZATION_OPEN",
+  "endpoint": {
+    "algebra": "so(7,7)",
+    "trace_dual_dimension": 14,
+    "characteristic_polynomial_even": true,
+    "squared_spectrum_degree": 7,
+    "squared_spectrum_squarefree": true
+  },
+  "real_cartan": {
+    "positive_squared_roots": 5,
+    "negative_squared_roots": 2,
+    "real_eigenvalues": 10,
+    "purely_imaginary_eigenvalues": 4,
+    "split_rank": 5,
+    "compact_rank": 2,
+    "regular": true,
+    "split_regular": false
+  },
+  "globalization": {
+    "local_sharp_dimension": 98,
+    "untwisted_product_family": "OBSTRUCTED_BY_VARYING_RANK_TWO_KKS_PERIOD_CLASS",
+    "obstruction_scope": "a product family over the regular Cartan chamber whose orbit restrictions are the KKS forms",
+    "twisted_or_monodromic_98_dimensional_realization": "OPEN",
+    "smallest_global_equivariant_dimension": "OPEN_IN_INTERVAL_98_TO_182",
+    "canonical_cotangent_group_fallback_dimension": 182
+  },
+  "source_and_physics": {
+    "source_owned_edge_carrier": false,
+    "source_owned_boundary_functional": false,
+    "analytic_domain": "NOT_CONSTRUCTED",
+    "physical_cohomology": "NOT_CONSTRUCTED",
+    "w_mirror_selection": "NOT_INFERRED",
+    "generation_count": "NOT_INFERRED",
+    "ledger_or_canon_or_public_posture_change": "NONE"
+  },
+  "next_gate": "construct or obstruct a twisted/monodromic 98-dimensional equivariant realization for Cartan type (5,2), or sharpen the best global carrier below T*Spin(7,7); compare only a surviving mathematical carrier with charged boundary symmetry and source ownership",
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_regular_cartan_global_realization_obstruction_probe.py",
+    "expected": "PASS_29_OF_29"
+  }
+}

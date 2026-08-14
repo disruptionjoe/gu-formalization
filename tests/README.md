@@ -4089,3 +4089,16 @@ the Noether interpretation.
 ```sh
 uv run --with sympy==1.14.0 --with numpy==2.5.1 python tests/channel-swings/selected_k77_i2b_principal_degeneracy_retype_probe.py
 ```
+## K77 regular-Cartan globalization obstruction
+
+`channel-swings/selected_k77_regular_cartan_global_realization_obstruction_probe.py`
+replays the endpoint trace-dual, reduces its even characteristic polynomial to
+a degree-seven squared-spectrum polynomial, and certifies by exact rational
+root isolation that the regular Cartan type is split-five/compact-two. It then
+checks the precise KKS-period obstruction to the untwisted 98-dimensional
+product family while retaining twisted/monodromic minimal realizations and the
+182-dimensional cotangent fallback.
+
+```sh
+sage -python tests/channel-swings/selected_k77_regular_cartan_global_realization_obstruction_probe.py
+```

@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Regular-Cartan globalization obstruction 2026-08-14 (headline unchanged).**
+The selected endpoint trace-dual has a squarefree even characteristic
+polynomial whose squared-spectrum polynomial has exactly five positive and
+two negative roots. The regular stabilizer therefore has real Cartan type
+`(split,compact)=(5,2)`, not the maximally split type. Its two compact
+directions carry nonzero KKS period classes that vary under the exact
+action-owned scaling line. This obstructs the untwisted 98-dimensional
+`orbit family x T*R^7` globalization, because fibre restrictions of one
+closed product-family form have locally constant cohomology class. Twisted or
+monodromic 98-dimensional realizations remain open; the smallest global
+equivariant carrier is still only bounded in `[98,182]`. See
+`explorations/conditional-build/selected-k77-regular-cartan-global-realization-obstruction-2026-08-14.md`
+and its `29/29` exact probe. No source-owned edge field, physical cohomology,
+ledger verdict, residue, quotient, datum, canon or public-posture move.
+
+**Source-residual cohomology background gate 2026-08-14 (disjoint lane).** The
+candidate first arrow is now the action-owned Cl2 adjoint source gauge map,
+not the older exact-form surrogate. The first composition test is
+`BACKGROUND-MISSING`: the repository has no complete source/action-owned
+stationary total-residual-zero background on which the total residual and
+its linearizations share a common carrier. SR-2 remains blocked on this gate.
+Next construct that background without tangent restriction or a promoted
+formal flat-zero ansatz. No source cohomology or physical state claim follows.
+
 **Boundary stationarity/symplectic-realization gate 2026-08-14 (headline
 unchanged).** The selected bare action's endpoint potential has only a
 zero-charge free stationary locus: arbitrary endpoint variations force

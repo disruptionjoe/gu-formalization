@@ -7,6 +7,29 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 REGULAR-CARTAN GLOBALIZATION OBSTRUCTION.** The exact endpoint
+> is regular but not split-regular. Its squared-spectrum polynomial is
+> squarefree with five positive and two negative roots, giving real Cartan
+> type `(split,compact)=(5,2)`. The two compact directions carry nonzero KKS
+> periods that vary under the action-owned scaling line. This rejects the
+> simplest untwisted `orbit family x T*R^7` globalization at dimension 98:
+> fibre restrictions of one closed product-family form cannot have varying
+> cohomology classes. **Next construct or obstruct a twisted/monodromic
+> 98-dimensional equivariant realization, or build the best carrier below the
+> 182-dimensional cotangent fallback.** Do not turn this scoped product
+> obstruction into a universal 98-dimensional no-go or a physical edge
+> theory. Exact probe: `29/29`; no ledger verdict, canon or public-posture
+> change.
+
+> **2026-08-14 SOURCE-RESIDUAL BACKGROUND GATE.** The new residual-cohomology
+> lane correctly replaces the old exact-form surrogate with the action-owned
+> Cl2 adjoint source gauge map, but its first total-residual composition test
+> is blocked: no complete source/action-owned stationary total-residual-zero
+> background supplies the common carrier, `K_total` and `L_total`. **Next
+> construct that background before replaying SR-1.** Do not manufacture it by
+> tangent restriction or promote a generic finite control or flat-zero ansatz
+> to a GU solution.
+
 > **2026-08-14 BOUNDARY STATIONARITY/SYMPLECTIC-REALIZATION GATE.** The bare
 > endpoint potential `Theta=p_0 delta g_0-p_2 delta g_3` now decides the
 > action-owned horn. Free variation forces zero momentum and zero charge, so
