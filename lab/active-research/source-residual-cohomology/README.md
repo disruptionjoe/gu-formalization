@@ -102,7 +102,10 @@ then establishes the typed total-complex descent theorem. Moving `J10` remains
 fibrewise gauge-covariant only because bosonic, ghost, residual and charged-
 boundary extensions, total intertwiners, a common closed domain and a positive
 pairing are still missing. `H-Q*` survives and `H0` strengthens without proof.
-`VRS-5`/`SR-1C` is now the exact forward enabler.
+`VRS-5`/`SR-1C` is now the exact forward enabler. Its primitive input contract
+has been corrected from a uniform field two-jet to mixed safe envelopes:
+`(3,2,2)` for the primitive-epsilon evaluator and `(4,3,3)` for the complete
+fixed-`varpi` metric row. The actual branch coefficients remain type-missing.
 
 ## Swing sequence
 
@@ -135,8 +138,8 @@ is `SR-1C`, the source-coordinate variational-prolongation build on the exact
 canonical-`B_Z`, nonzero-`T` action/Bianchi witness. The executable
 [`SR-1C packet`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md)
 is `VRS-5`, one forward enabling swing within the broader reverse scaffold.
-It puts the minimal two-jet needed by primitive epsilon inside the Euler gate
-and keeps the complete formal-integrability tower downstream. `SR-2` cannot
+It puts the mixed-order primitive jet demanded by the Euler gate inside the
+construction and keeps the complete formal-integrability tower downstream. `SR-2` cannot
 begin until its background premise is owned.
 
 The first `VRS-5`/`SR-1C` execution object is now exact at type grade:
@@ -145,6 +148,10 @@ construct and held-out validate `O_SR1C`, the common-basis evaluator for
 do not serialize that operator on the two-root branch, and exact
 non-identifiability controls forbid replacing it by zero. See the
 [`owner-operator type gate`](../../../explorations/conditional-build/selected-k77-sr1c-owner-operator-type-gate-2026-08-14.md).
+The
+[`mixed-order admission`](../../../explorations/conditional-build/selected-k77-sr1c-mixed-order-operator-admission-2026-08-14.md)
+then proves why the coefficient bank must accept safe `(3,2,2)` and
+`(4,3,3)` primitive envelopes until exact cancellation lowers them.
 
 ## Claim ceiling
 

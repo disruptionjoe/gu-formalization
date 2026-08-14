@@ -4301,6 +4301,19 @@ killing either branch.
 python3 tests/channel-swings/selected_k77_sr1c_owner_operator_type_gate_probe.py
 ```
 
+## K77 SR-1C mixed-order operator admission
+
+`channel-swings/selected_k77_sr1c_mixed_order_operator_admission_probe.py`
+composes the owned `(2,1,1)` source-density weights with the `O_SR1C` demand,
+certifies the safe `(3,2,2)` primitive and `(4,3,3)` metric envelopes, and
+uses exact top-order, adjoint-sign and held-out two-root controls to reject a
+silent uniform two-jet truncation. It does not substitute for the missing
+selected 196-row coefficient bank.
+
+```sh
+python3 tests/channel-swings/selected_k77_sr1c_mixed_order_operator_admission_probe.py
+```
+
 ## K77 rank-singular all-charge Poisson-map target
 
 `channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py` types

@@ -83,7 +83,7 @@
     },
     {
       "id": "VRS-5",
-      "status": "next_forward_enabler",
+      "status": "mixed_order_interface_corrected__coefficient_bank_next",
       "construction": "SR-1C"
     },
     {
@@ -154,7 +154,12 @@
                   "epsilon_jet_order_gate": {
                     "result": "explorations/conditional-build/selected-k77-nonzero-t-epsilon-jet-order-gate-2026-08-14.md",
                     "probe": "tests/channel-swings/selected_k77_nonzero_t_epsilon_jet_order_gate_probe.py",
-                    "disposition": "CANONICAL_ZORRO_NONZERO_T_ACTION_BIANCHI_ONE_JET_ADMITTED__PRIMITIVE_EPSILON_AND_TOTAL_METRIC_ROWS_UNDERDETERMINED_AT_THIS_JET_ORDER"
+                    "disposition": "CANONICAL_ZORRO_NONZERO_T_ACTION_BIANCHI_ONE_JET_ADMITTED__PRIMITIVE_EPSILON_AND_TOTAL_METRIC_ROWS_UNDERDETERMINED_AT_THIS_JET_ORDER",
+                    "mixed_order_operator_admission": {
+                      "result": "explorations/conditional-build/selected-k77-sr1c-mixed-order-operator-admission-2026-08-14.md",
+                      "probe": "tests/channel-swings/selected_k77_sr1c_mixed_order_operator_admission_probe.py",
+                      "disposition": "MIXED_ORDER_INTERFACE_ADMITTED__O_SR1C_COEFFICIENT_BANK_TYPE_MISSING"
+                    }
                   }
                 }
               }
@@ -205,9 +210,9 @@
   "next_required_construction": {
     "id": "SR-1C",
     "scaffold": "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md",
-    "statement": "The canonical-B_Z nonzero-T formal branch solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes, but the admitted field one-jet does not determine primitive epsilon or the total metric graph. First construct and held-out validate O_SR1C: j1(E_B-E_T) on this branch in the common 196-row basis plus the fixed-varpi derivatives of B_Z, Shiab, Hodge, frame, density and lowerer. Only then construct the minimal compatible field two-jet required by D_B-adjoint(E_B-E_T), compute primitive epsilon plus the total fixed-varpi metric row, and evaluate observation as a dependent receiver. Continue to the full formal-integrability tower and total carrier only if those source rows close, then replay SR-1.",
+    "statement": "The canonical-B_Z nonzero-T formal branch solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes, but the admitted field one-jet does not determine primitive epsilon or the total metric graph. The primitive interface is now corrected: O_SR1C must accept safe mixed source jets (3,2,2) for j1(E_B-E_T)/epsilon and (4,3,3) for the complete fixed-varpi metric row until actual top-coefficient cancellations are certified. Next compute and serialize those branch-specific coefficients in the common 196-row basis, held-out validate both roots, and solve only the surviving exact jet orders. Evaluate observation as a dependent receiver. Continue to the full formal-integrability tower and total carrier only if those source rows close, then replay SR-1.",
     "first_blocking_operator": "O_SR1C__COMMON_BASIS_BRANCH_EVALUATOR_FOR_J1_E_B_MINUS_E_T_AND_FIXED_VARPI_METRIC_DERIVATIVE_SLOTS",
-    "forward_stage": "VRS_5_FORWARD_ENABLER__S2_MINIMAL_SOURCE_COORDINATE_VARIATIONAL_PROLONGATION",
+    "forward_stage": "VRS_5_FORWARD_ENABLER__S2_MIXED_ORDER_SOURCE_COORDINATE_VARIATIONAL_PROLONGATION",
     "reverse_falsification_status": "RF_1_AND_RF_2_COMPLETE__RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST",
     "failure_rule": "Do not retry the exhausted zero-T family, repeat excluded homogeneous branches, substitute the printed residual for the action Euler row, fill missing higher derivatives with zero, choose one floating algebraic root before exact reduction, count observation as an independent Euler row, call the direct volume partial a total metric obstruction, manufacture a background by tangent restriction, or promote this local formal jet to a GU solution."
   },

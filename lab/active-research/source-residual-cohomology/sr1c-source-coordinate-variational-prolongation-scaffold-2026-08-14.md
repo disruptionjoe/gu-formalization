@@ -38,7 +38,7 @@ The immediate task is:
 
 ```text
 derive E_B on the admitted witness;
-determine and construct exactly the field two-jet needed by
+determine and construct exactly the mixed primitive jet needed by
   D_B^!(E_B-E_T);
 evaluate primitive E_epsilon and the complete fixed-varpi metric Euler row;
 then evaluate the dependent observation receiver;
@@ -100,7 +100,7 @@ fermion sector.
 | Source criticism | `B_Z` is repository-canonical, not proved source-unique. | Keep a derived rival Zorro reconstruction as a fallback, not a concurrent target. |
 | Source-coordinate geometry | The primitive fields are `(g,varpi,epsilon)` and `T=varpi-B_Z(g)`. | Use `E_varpi=E_T` and fixed-`varpi` `delta T=-delta B`; do not impose artificial independent `B,T` stationarity. |
 | Variational bicomplex | `E_epsilon` contains the divergence `D_B^!(E_B-E_T)`. | Derive the Euler dependency graph before solving rows. |
-| Jet-order determinacy | The admitted field one-jet does not determine that divergence. | Construct the minimal compatible field two-jet inside this gate. |
+| Jet-order determinacy | The admitted field one-jet does not determine that divergence. | Use the corrected `(3,2,2)` primitive and `(4,3,3)` metric ceilings until exact top coefficients lower them. |
 | Metric geometry | The direct density `-t(27+728t^2)` is nonzero at both roots but is only one partial. | Compute the complete fixed-`varpi` metric/Hodge/frame/volume graph before declaring an obstruction. |
 | Zorro geometry | The canonical connection vanishes on the nine mixed trace-curvature planes while the old homogeneous branches do not. | Preserve the labelled canonical geometry and do not import the excluded branches. |
 | Clifford representation | The exact computation is selected-Spin K77 graded. | Do not transfer it to either `U32` half or the full `U64` carrier without a typed adapter. |
@@ -126,8 +126,8 @@ S0  source owner and canonical labelled geometry
 S1  exact point/action/Bianchi field one-jet
     DONE for both algebraic nonzero-t roots
      |
-S2  minimal source-coordinate variational prolongation
-    E_B, required two-jet, primitive epsilon, total fixed-varpi metric row
+S2  mixed-order source-coordinate variational prolongation
+    E_B, primitive (3,2,2) evaluator, total metric (4,3,3) ceiling
     NEXT
      |
 S3  total-field completion
@@ -163,6 +163,14 @@ witness. Construct and held-out validate `O_SR1C`; do not set an absent slot
 to zero. See
 [`selected-k77-sr1c-owner-operator-type-gate-2026-08-14.md`](../../../explorations/conditional-build/selected-k77-sr1c-owner-operator-type-gate-2026-08-14.md).
 
+The subsequent
+[`mixed-order admission`](../../../explorations/conditional-build/selected-k77-sr1c-mixed-order-operator-admission-2026-08-14.md)
+corrects the old uniform “field two-jet” wording. In primitive source
+coordinates the safe `j^1(E_B-E_T)`/epsilon envelope is `(3,2,2)` and the
+complete metric envelope is `(4,3,3)` until exact top-coefficient
+cancellations are proved. This types the input contract but does not construct
+the missing branch coefficient bank.
+
 ### Packet A: source-coordinate dependency graph
 
 1. Derive the action variation in primitive coordinates `(g,varpi,epsilon)`.
@@ -176,10 +184,11 @@ to zero. See
 row. Return `TYPE-MISSING` with the smallest missing source map; do not replace
 it by zero.
 
-### Packet B: minimal compatible prolongation
+### Packet B: mixed-order compatible prolongation
 
-1. Determine all field-two-jet variables on which
-   `D_B^!(E_B-E_T)` depends.
+1. Compute the actual top coefficients on the safe primitive envelopes
+   `(3,2,2)` for `D_B^!(E_B-E_T)` and `(4,3,3)` for the complete metric row;
+   remove an order only with an exact zero-certificate.
 2. Impose holonomicity, algebraic symmetry and inherited differential Bianchi
    relations on those variables.
 3. Solve over `A`, preserving both real embeddings.

@@ -7,6 +7,17 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1C MIXED-ORDER OPERATOR ADMISSION.** The uniform “field
+> two-jet” successor was mistyped in primitive source coordinates. The owned
+> first-action density weights are `(g,varpi,epsilon)=(2,1,1)`, so the safe
+> input ceiling for `j^1(E_B-E_T)` and primitive epsilon is `(3,2,2)`, while
+> the complete fixed-`varpi` metric Euler row reaches `(4,3,3)` before exact
+> cancellations are computed. Exact planted top-order, adjoint-sign and
+> held-out two-root controls pass `27/27`. **Next compute the actual
+> branch-specific top coefficients, serialize `O_SR1C` on the mixed jet
+> envelopes, and solve only the exact orders that survive.** Both branches
+> remain `NOT-YET-FALSIFIED`; no stationary background is promoted.
+
 > **2026-08-14 VRS-3/VRS-4 DERIVED OWNERSHIP AND TOTAL DESCENT.** At
 > conditional residual zero the second-action Hessian owns the real symmetric
 > pullback `D Upsilon^! Q D Upsilon`, not a complex structure, symplectic form,
@@ -16,8 +27,9 @@ updated_at: "2026-08-14"
 > companions intertwine both `K_total` and `L_total`, preserve the closed gauge
 > image and the full boundary domain, and carry a separately basic pairing.
 > GU currently owns only fibrewise gauge covariance. **Next execute
-> VRS-5/SR-1C: construct and held-out validate `O_SR1C`, then the minimal
-> compatible two-jet.** Exact controls pass `20/20` and `21/21`; `H-Q*`
+> VRS-5/SR-1C: construct and held-out validate `O_SR1C` on the corrected
+> mixed-order primitive jet envelopes, then solve only its surviving exact
+> orders.** Exact controls pass `20/20` and `21/21`; `H-Q*`
 > survives and `H0` strengthens without proof.
 
 > **2026-08-14 VRS-2 BOUNDARY NECESSITY.** The live nonzero selected branch
@@ -56,7 +68,7 @@ updated_at: "2026-08-14"
 > Exact planted completions change primitive epsilon and the total metric row
 > while preserving all admitted field-one-jet data, so absence cannot be
 > replaced by zero. **Next derive and held-out validate `O_SR1C`, then run the
-> minimal compatible two-jet solve.** Both branches remain
+> corrected mixed-order compatible-jet solve.** Both branches remain
 > `NOT-YET-FALSIFIED`; exact probe `23/23`.
 
 > **2026-08-14 RANK-SINGULAR ALL-CHARGE POISSON TARGET.** The weaker target is

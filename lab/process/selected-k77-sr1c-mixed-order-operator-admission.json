@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "SR1C_PRIMITIVE_JET_INTERFACE_CORRECTED_TO_MIXED_ORDER__TOP_COEFFICIENTS_STILL_MISSING",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "source_coordinates": ["g", "varpi", "epsilon"],
+  "density_weights": {
+    "g": 2,
+    "varpi": 1,
+    "epsilon": 1
+  },
+  "safe_euler_ceilings": {
+    "E_g": {"g": 4, "varpi": 3, "epsilon": 3},
+    "E_varpi": {"g": 3, "varpi": 2, "epsilon": 2},
+    "E_epsilon": {"g": 3, "varpi": 2, "epsilon": 2}
+  },
+  "operator_contract": {
+    "id": "O_SR1C",
+    "primitive_epsilon_input_ceiling": {"g": 3, "varpi": 2, "epsilon": 2},
+    "complete_fixed_varpi_metric_input_ceiling": {"g": 4, "varpi": 3, "epsilon": 3},
+    "common_action_rows": 196,
+    "amplitude_ring": "QQ[t]/(28392*t^2+91*t-351)",
+    "real_embeddings": 2,
+    "top_coefficients_computed": false,
+    "uniform_field_two_jet_admissible": false,
+    "ceiling_may_lower_after_exact_cancellation": true
+  },
+  "exact_control": {
+    "model": "B=g_prime__T=varpi-B__p=D_T=varpi_prime-g_double_prime",
+    "primitive_row": "-D_p=-varpi_double_prime+g_triple_prime",
+    "metric_row": "-D2_p=-varpi_triple_prime+g_quadruple_prime",
+    "primitive_same_lower_jet_counterexample": true,
+    "metric_same_lower_jet_counterexample": true,
+    "wrong_adjoint_sign_fires": true,
+    "held_out_branch_element": "1+t",
+    "held_out_branch_norm": "13975/14196",
+    "interpretation": "SOURCE_SHAPED_ORDER_CONTROL_NOT_THE_SELECTED_ACTION_COEFFICIENT_BANK"
+  },
+  "disposition": "MIXED_ORDER_INTERFACE_ADMITTED__O_SR1C_COEFFICIENT_BANK_TYPE_MISSING",
+  "branch_status": "BOTH_NOT_YET_FALSIFIED__BACKGROUND_MISSING",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "next_gate": "COMPUTE_BRANCH_SPECIFIC_TOP_COEFFICIENTS_AND_SERIALIZE_O_SR1C_ON_MIXED_JETS__THEN_SOLVE_ONLY_THE_SURVIVING_EXACT_ORDERS",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "probe": "tests/channel-swings/selected_k77_sr1c_mixed_order_operator_admission_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1c-mixed-order-operator-admission-review.md"
+}

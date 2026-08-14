@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**SR-1C mixed-order operator admission 2026-08-14 (primitive interface
+corrected; coefficient bank still type-missing).** The prior uniform “field
+two-jet” successor conflated connection jets with primitive source jets. The
+owned reduced first-action density weights `(g,varpi,epsilon)=(2,1,1)` give a
+safe `(3,2,2)` envelope for `j^1(E_B-E_T)`/primitive epsilon and `(4,3,3)` for
+the complete fixed-`varpi` metric Euler row, until exact top-coefficient
+cancellations are proved. A source-shaped exact model supplies firing
+top-order and adjoint-sign controls, while a held-out quotient-ring element is
+nonzero on both algebraic branches. See
+`explorations/conditional-build/selected-k77-sr1c-mixed-order-operator-admission-2026-08-14.md`
+and its `27/27` probe. This admits the corrected interface, not `O_SR1C`'s
+missing 196-row coefficients or a stationary background.
+
 **VRS-3/VRS-4 derived ownership and total descent 2026-08-14 (conditional
 theorems; instantiation type-missing).** At residual zero, the second-action
 Hessian is exactly the real symmetric pullback `D Upsilon^! Q D Upsilon`.
@@ -21,7 +34,8 @@ analytic seams remain missing. See
 `lab/active-research/source-residual-cohomology/vrs3-second-action-ownership-discriminator-2026-08-14.md`
 and
 `lab/active-research/source-residual-cohomology/vrs4-moving-j-total-descent-conditional-theorem-2026-08-14.md`.
-Exact controls pass `20/20` and `21/21`. VRS-5/SR-1C is next; `H-Q*` is not
+Exact controls pass `20/20` and `21/21`. VRS-5/SR-1C now has its mixed-order
+primitive interface; its branch coefficient bank remains next. `H-Q*` is not
 killed and `H0` is not proved.
 
 **VRS-2 boundary necessity 2026-08-14 (live nonzero branch requires a

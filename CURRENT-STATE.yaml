@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fc86ac910eee0183f365018650fe727e4da4dc46
+revision_basis: 1b1ae9a8a0c0cdad065e304aabe3d9d8d688e0e4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -232,8 +232,18 @@ current_result:
     boundary domain, and a separately basic compatible pairing. Current GU
     truth owns only fibrewise gauge covariance, so every cross-sector and
     analytic seam is type-missing. H-Q* survives and H0 strengthens without
-    proof. VRS-5/SR-1C is next.
+    proof. VRS-5/SR-1C now has a corrected primitive-source jet interface.
+    The old uniform field-two-jet wording conflated connection jets with
+    primitive source jets. The owned reduced action weights
+    (g,varpi,epsilon)=(2,1,1) require safe input envelopes (3,2,2) for
+    j1(E_B-E_T)/primitive epsilon and (4,3,3) for the complete fixed-varpi
+    metric row until exact top-coefficient cancellations are proved. Exact
+    source-shaped top-order, adjoint-sign and held-out two-root controls fire.
+    The actual common 196-row O_SR1C coefficient bank remains type-missing;
+    neither branch is killed and no stationary background is promoted.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1c-mixed-order-operator-admission-2026-08-14.md
+    - lab/process/selected-k77-sr1c-mixed-order-operator-admission.json
     - lab/active-research/source-residual-cohomology/vrs4-moving-j-total-descent-conditional-theorem-2026-08-14.md
     - lab/process/superposition-vrs4-moving-j-total-descent-conditional-theorem.json
     - lab/active-research/source-residual-cohomology/vrs3-second-action-ownership-discriminator-2026-08-14.md
@@ -337,10 +347,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can O_SR1C be constructed and held-out validated as the common source-
-  coordinate evaluator, then extended by the minimal compatible two-jet to
-  supply an action-owned stationary background premise for the typed total-
-  descent theorem?
+  Do the actual branch-specific top coefficients of O_SR1C survive on the
+  safe mixed primitive jet envelopes (3,2,2) and (4,3,3), and can the resulting
+  common-basis bank be held-out validated before a compatible stationary-jet
+  solve supplies the typed total-descent theorem's background premise?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -349,14 +359,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute VRS-3 horn by horn: compute the conditional residual-zero second-
-  action Hessian including the boundary/Green contribution and decide whether
-  it owns only a real symmetric quadratic form and differential, supplies an
-  action-derived symplectic/Hermitian input, or supplies no internal complex
-  role. Do not identify a Hessian with J or positivity. Independently, the
-  RSAP carrier still needs a local 98D wall normal form with target rank 84 to
-  82 and map rank 91 to 90. In VRS-5, construct and held-out validate O_SR1C
-  before any two-jet solve; never zero-fill the missing operator.
+  In VRS-5, compute the branch-specific top coefficients of O_SR1C on the safe
+  primitive envelopes (3,2,2) for j1(E_B-E_T)/epsilon and (4,3,3) for the
+  complete fixed-varpi metric row. Serialize and held-out validate the common
+  196-row bank, remove an order only with an exact zero certificate, and only
+  then solve the surviving compatible jets. Never zero-fill the missing
+  operator. Independently, the RSAP carrier still needs a local 98D wall
+  normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose
