@@ -7,6 +7,27 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 COMPLETE REGULAR-SEMISIMPLE CARTAN ATLAS.** The sharp
+> `98`-dimensional restricted cotangent construction works for every real
+> Cartan chamber. The finite generally disconnected union of
+> `Spin_0(7,7) x C` components globally realizes the complete regular-
+> semisimple locus and attains its lower bound. It does not cover singular
+> charges. **Next glue or obstruct the construction across singular orbit-type
+> walls, or sharpen the best all-strata carrier below the 182-dimensional
+> cotangent-group fallback.** Exact structural probe `27/27`; no source-owned
+> edge theory, ledger, canon or public-posture move.
+
+> **2026-08-14 NONZERO-T/ZORRO INTERSECTION CORRECTION.** Two exact nonzero-
+> `T` homogeneous branches already solve the known local source-variable bulk
+> equations, but both use `B=b Phi1` and are nonzero on all nine mixed trace-
+> curvature planes where canonical `B_Z` vanishes. Neither is a native
+> background for that reconstruction. **Next solve the true source/action
+> Euler equations with canonical `B_Z` and nonzero `T`, or derive a rival
+> Zorro connection with nonzero mixed trace curvature.** Do not repeat branch
+> construction, relabel `b Phi1` as distinguished, or extend the zero-`T`
+> 14-row cokernel to nonzero `T`. Exact composition probe `25/25`; `SR-1`
+> remains `BACKGROUND-MISSING` and `SR-2` remains blocked.
+
 > **2026-08-14 SELECTED-K77 CANONICAL-ZORRO FIRST-ACTION EULER
 > OBSTRUCTION.** The preceding point/two-jet solves the source-printed
 > residual, but not the Euler covector of the selected noncyclic transgression

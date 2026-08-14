@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "COMPLETE_REGULAR_SEMISIMPLE_LOCUS_GLOBAL_MINIMUM_98_CONSTRUCTED__DISCONNECTED_CARTAN_ATLAS__SINGULAR_STRATA_OPEN",
+  "target": {
+    "group": "Spin_0(7,7)",
+    "algebra_dimension": 91,
+    "regular_rank": 84,
+    "cartan_dimension": 7
+  },
+  "component": {
+    "model": "M_C=G x C subset T*G",
+    "potential": "theta_C=<lambda,g^-1 dg>",
+    "symplectic_form": "omega_C=d theta_C",
+    "dimension": 98,
+    "symplectic_rank": 98,
+    "moment_map": "J_C(g,lambda)=Ad*_g(lambda)",
+    "moment_rank": 91,
+    "fibre_dimension": 7
+  },
+  "atlas": {
+    "index": "representative real-Cartan conjugacy classes and connected regular chambers",
+    "component_count": "FINITE",
+    "topology": "GENERALLY_DISCONNECTED",
+    "image": "COMPLETE_REGULAR_SEMISIMPLE_LOCUS"
+  },
+  "minimality": {
+    "complete_regular_semisimple_minimum": 98,
+    "singular_strata": "OPEN",
+    "all_strata_minimum": "OPEN_IN_98_TO_182",
+    "canonical_all_charge_fallback": "T*Spin_0(7,7)",
+    "fallback_dimension": 182
+  },
+  "product_obstruction_preserved": true,
+  "source_owned_edge_carrier": false,
+  "physical_cohomology": "NOT_CONSTRUCTED",
+  "next_gate": "CONSTRUCT_OR_OBSTRUCT_SYMPLECTIC_GLUE_ACROSS_SINGULAR_ORBIT_TYPE_WALLS__OR_SHARPEN_THE_BEST_ALL_STRATA_CARRIER_BELOW_182",
+  "checks": {"primary": "27/27 PASS"},
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  }
+}

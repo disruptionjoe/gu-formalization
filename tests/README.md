@@ -6,6 +6,19 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_regular_semisimple_cartan_atlas_realization_probe.py`
+  replays the selected chamber certificate, proves the type-independent
+  `84+14=98` restricted-cotangent rank theorem, composes the finite real-Cartan
+  chamber atlas, and fires the singular-wall rank-14 control. It establishes
+  the complete regular-semisimple minimum 98 while leaving singular strata
+  open; `27/27` pass with pinned SymPy.
+
+- `channel-swings/selected_k77_nonzero_t_zorro_intersection_gate_probe.py`
+  replays both exact nonzero-`T` source-stationary branches, composes them with
+  the canonical nine-plane Zorro curvature signature, and proves the
+  currently owned homogeneous intersection is empty while preserving the
+  zero-`T` action-cokernel ceiling. It passes `25/25` with pinned SymPy.
+
 - `channel-swings/selected_k77_zorro_differentiated_shiab_second_jet_probe.py`
   proves the selected `comm/symi/symi` Hodge--Shiab is a `1274 x 1274`
   signed-permutation isomorphism, ports the canonical K77 curvature target,

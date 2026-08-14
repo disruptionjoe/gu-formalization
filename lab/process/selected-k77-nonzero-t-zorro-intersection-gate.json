@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "KNOWN_NONZERO_T_SOURCE_STATIONARY_BRANCHES_EXIST__BOTH_EXCLUDED_BY_CANONICAL_ZORRO_TRACE_CURVATURE__NATIVE_INTERSECTION_OPEN",
+  "lane_id": "SRC-RES-COH-01",
+  "owned_nonzero_t_branches": 2,
+  "branch_scope": "HOMOGENEOUS_FROZEN_FRAME_LOCAL_SOURCE_VARIABLE_STATIONARITY",
+  "branch_equations": [
+    "312(b+t)^2+t=0",
+    "624(b^2+bt+t^2/3)+t=0"
+  ],
+  "branch_resultant": "97344*t^2*(43264*t^2+832*t+1)",
+  "canonical_zorro_intersection": {
+    "trace_traceless_planes": 9,
+    "canonical_zero_planes": 9,
+    "plus_branch_nonzero_planes": 9,
+    "minus_branch_nonzero_planes": 9,
+    "currently_owned_homogeneous_intersection": "EMPTY"
+  },
+  "zero_t_action_cokernel": {
+    "preserved": true,
+    "scope": "CANONICAL_ZORRO_T_AND_F_VARPI_ZERO_GRADE_TWO_SYMMETRIC_DT",
+    "nonzero_t_global_no_go": false
+  },
+  "source_global_zorro_disposition": "OPEN__COORDINATE_FORMULA_AND_UNIQUENESS_NOT_PRINTED",
+  "next_gate": "SOLVE_TRUE_SOURCE_EULER_WITH_CANONICAL_BZ_AND_NONZERO_T__OR_DERIVE_RIVAL_ZORRO_WITH_NONZERO_MIXED_TRACE_CURVATURE",
+  "checks": {"primary": "25/25 PASS"},
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  }
+}

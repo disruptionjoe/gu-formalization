@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Complete regular-semisimple Cartan atlas 2026-08-14 (global minimum 98 on
+the regular locus; singular strata open).** For every representative real
+Cartan chamber `C`, the restricted cotangent carrier
+`M_C=Spin_0(7,7) x C` is exact symplectic of dimension 98 and its equivariant
+moment map has rank 91. The finite generally disconnected union over real
+Cartan conjugacy and chamber types covers the complete regular-semisimple
+locus, where the regular Poisson lower bound makes 98 minimal. This preserves
+the earlier orbit-product obstruction because the right-Cartan fibre remains
+upstairs. It does not cover singular charges; the all-strata minimum remains
+open in `[98,182]`. See
+`explorations/conditional-build/selected-k77-regular-semisimple-cartan-atlas-realization-2026-08-14.md`
+and its `27/27` exact structural certificate.
+
+**Nonzero-`T`/Zorro intersection correction 2026-08-14.** GU already owns two
+exact nonzero-`T` homogeneous branches solving the known local source-variable
+bulk equations. Both nevertheless fail canonical Zorro/DeWitt legality: their
+`B=b Phi1` curvatures are nonzero on all nine mixed trace planes where the
+canonical dependent connection vanishes. Thus the live gate is not to build
+an arbitrary nonzero-`T` branch; it is to solve the true source/action Euler
+system with canonical `B_Z` and nonzero `T`, or derive a rival Zorro formula
+with nonzero mixed trace curvature. The zero-`T` 14-row action cokernel remains
+exact and scoped. See
+`explorations/conditional-build/selected-k77-nonzero-t-zorro-intersection-gate-2026-08-14.md`
+and its `25/25` exact composition probe.
+
 **Selected-K77 canonical-Zorro first-action Euler obstruction 2026-08-14
 (zero-`T` stationary branch killed; broader background search open).** The
 previous point/two-jet solves the source-printed residual and its first

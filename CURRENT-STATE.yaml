@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 730a224c80a77346dea4e0e6fc1991a491ae0877
+revision_basis: c17307ee0f26f2d04dde9101dad3ca51412ddc18
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -14,10 +14,12 @@ current_result:
     exactly symplectic, with rank-91 moment differential. The selected regular
     endpoint has Cartan type split rank five plus compact rank two, and the
     previously constructed 98-dimensional M_C=Spin_0(7,7) x C carrier is
-    exactly the symplectic pullback of that full parent. This attains the
-    regular-stratum lower bound but is an admissible restriction, not an
-    action-selected physical subcarrier. Singular walls, other real Cartan
-    types and the all-strata minimum remain open.
+    exactly the symplectic pullback of that full parent. The same construction
+    works for every real Cartan chamber. Its finite generally disconnected
+    union therefore gives a global 98-dimensional realization of the complete
+    regular-semisimple locus and attains the regular lower bound there. It is
+    an admissible restriction, not an action-selected physical subcarrier.
+    Singular walls and the all-strata minimum remain open in [98,182].
     The opposite chamber M_-C cancels all 91 endpoint components and their
     first variation only as a distinct mathematical system. The one source
     epsilon carries the original endpoint sign, so duplicating it gives 2mu,
@@ -55,9 +57,14 @@ current_result:
     exact 14-row left-cokernel certificate excludes every one of the 9,555
     symmetric grade-two DT corrections before Bianchi is imposed. Thus the
     canonical T=F_varpi=0 residual-first family is killed as a stationary
-    first-action two-jet. This is reconstruction and branch scoped: a
-    nonzero-T action-stationary branch or explicitly different
-    connection-grade reconstruction remains open. SR-1 remains
+    first-action two-jet. This is reconstruction and branch scoped. Two exact
+    nonzero-T homogeneous branches already solve the known local source-
+    variable bulk equations, so constructing an arbitrary nonzero-T branch is
+    not the live gate. Both use B=b Phi1 and are nonzero on all nine mixed
+    trace-curvature planes; hence neither intersects the canonical Zorro/
+    DeWitt connection, which vanishes on all nine. The remaining gate is a
+    canonical-B_Z nonzero-T source-Euler solve or a derived rival Zorro
+    reconstruction with nonzero mixed trace curvature. SR-1 remains
     background-missing and SR-2 remains blocked.
     The ten rank-128 leaks are already the full N* tensor S observation-kernel
     module; the selected graph, not the carrier, remains only compact-natural.
@@ -73,9 +80,10 @@ current_result:
     corank seven, so any local symplectic realization spanning an open charge
     neighborhood has dimension at least 98. The sharp local split model has
     dimension 84+14=98; the exact Cartan-slice construction now globalizes
-    that minimum over the selected regular chamber. The canonical full
-    cotangent parent has dimension 182. Only the all-strata minimum remains
-    open between those bounds.
+    that minimum over every regular Cartan chamber as a finite disconnected
+    atlas. The canonical full cotangent parent has dimension 182. Only
+    singular-stratum gluing and the all-strata minimum remain open between
+    those bounds.
     The endpoint's seven independent type-D7 coadjoint invariants all have
     exact nonzero first derivative along the action-owned off-shell line
     (B,T)->lambda(B,T). Their common kernel is the 84-dimensional Kirillov
@@ -163,6 +171,10 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-regular-semisimple-cartan-atlas-realization-2026-08-14.md
+    - lab/process/selected-k77-regular-semisimple-cartan-atlas-realization.json
+    - explorations/conditional-build/selected-k77-nonzero-t-zorro-intersection-gate-2026-08-14.md
+    - lab/process/selected-k77-nonzero-t-zorro-intersection-gate.json
     - explorations/conditional-build/selected-k77-zorro-first-action-euler-gate-2026-08-14.md
     - lab/process/selected-k77-zorro-first-action-euler-gate.json
     - explorations/conditional-build/selected-k77-zorro-differentiated-shiab-second-jet-gate-2026-08-14.md
@@ -242,10 +254,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does a genuinely distinct nonzero-T branch or an explicitly derived
-  different connection-grade/Zorro reconstruction furnish one complete
-  source/action-owned stationary background after the canonical zero-T
-  residual-first family is excluded by the true translation Euler row?
+  Does the known source-stationary nonzero-T family admit a canonical-B_Z
+  member, or can an explicitly derived rival Zorro reconstruction with
+  nonzero mixed trace curvature furnish one complete source/action-owned
+  stationary background?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -255,11 +267,14 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Do not retry symmetric-DT repair of the canonical T=F_varpi=0 branch. Build
-  either a nonzero-T candidate and solve its true action Euler rows, or derive
-  an explicitly different connection-grade/Zorro reconstruction and show that
-  its new typed jet columns hit the 14-dimensional action cokernel. Only after
-  translation stationarity may primitive-epsilon, metric/observation and
-  Spencer/formal-integrability rows resume.
+  a canonical-B_Z nonzero-T candidate and solve its true source/action Euler
+  rows, or derive an explicitly different connection-grade/Zorro
+  reconstruction with nonzero mixed trace curvature and show that its new
+  typed jet columns hit the 14-dimensional action cokernel. In the independent
+  carrier lane, glue or obstruct the 98-dimensional regular Cartan atlas
+  across singular orbit-type walls, or sharpen the best all-strata carrier
+  below 182. Only after translation stationarity may primitive-epsilon,
+  metric/observation and Spencer/formal-integrability rows resume.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

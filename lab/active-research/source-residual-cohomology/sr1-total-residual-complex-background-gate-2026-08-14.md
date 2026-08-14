@@ -310,3 +310,28 @@ independent bulk translation row already fails.
 next admissible candidate must be genuinely distinct: a nonzero-`T` branch, or
 an explicitly derived different connection-grade/Zorro reconstruction with
 new typed jet columns. `SR-2` remains blocked.
+
+## 2026-08-14 nonzero-T/Zorro intersection refinement
+
+The repository already owns the two exact nonzero-`T` homogeneous branches
+
+```text
+t_+ = (-2+sqrt(3))/208,  b_+ = 1/208-sqrt(3)/312,
+t_- = (-2-sqrt(3))/208,  b_- = 1/208+sqrt(3)/312.
+```
+
+They solve the known local source-variable bulk Euler equations, including
+all 1,470 low-grade `varpi` directions and 91 selected primitive-epsilon bulk
+directions. Therefore “construct any nonzero-`T` candidate” is no longer the
+correct next gate.
+
+Both branches use the homogeneous connection `B=b Phi1`. Each is nonzero on
+all nine labelled mixed trace-curvature planes, while the canonical
+Zorro/DeWitt connection is zero on all nine. Neither branch intersects the
+canonical dependent-connection locus. This is an empty intersection for the
+currently owned homogeneous family, not a source-global background no-go.
+
+The corrected `SR-1C` construction is a canonical-`B_Z` nonzero-`T`
+source/action Euler solve, or a derived rival Zorro reconstruction with
+nonzero mixed trace curvature. The 14-row action cokernel remains exact and
+zero-`T` scoped. `SR-1` remains `BACKGROUND-MISSING`; `SR-2` remains blocked.
