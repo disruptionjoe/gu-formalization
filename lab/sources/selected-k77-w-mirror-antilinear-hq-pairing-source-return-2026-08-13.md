@@ -2,10 +2,16 @@
 artifact_type: source_return
 created: 2026-08-13
 run_id: RUN-20260813-233813-gu-w-mirror-antilinear-hq-ledger-compose
-status: SOURCE_CONFIRMS_CARRIER_PARENT_GRAMMAR__SOURCE_SILENT_REPO_PROJECTORS_HQ_AND_PHYSICAL_SELECTOR
+status: CORRECTED_BASE_Q_ATTRIBUTION__SOURCE_CONFIRMS_CARRIER_PARENT_GRAMMAR__SOURCE_SILENT_REPO_PROJECTORS_HQ_AND_PHYSICAL_SELECTOR
 ---
 
 # Source return: W/mirror anti-linear and Hq pairing gate
+
+> **Correction, 2026-08-13.** The associated probe used a positive base
+> covector, not the source/repository-owned vertical trace receiver. The source
+> return remains valid about carrier grammar and source silence, but the
+> `(96,96)` restricted form belongs only to that base-q witness. The trace-q
+> return is filed separately.
 
 ## Return codes
 

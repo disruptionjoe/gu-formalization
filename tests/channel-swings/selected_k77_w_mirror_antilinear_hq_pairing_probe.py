@@ -1,5 +1,11 @@
 #!/usr/bin/env sage-python
-"""Exact W/mirror anti-linear equivalence and trace-Hq pairing gate."""
+"""Exact W/mirror anti-linear equivalence for a positive base-q witness.
+
+Correction 2026-08-13: gamma_0 is in the observation base, not the
+tautological vertical trace direction.  The exact theorem below remains valid
+for that base-q witness.  The companion trace-Hq correction probe owns the
+normal/trace classification and must be cited for trace-q claims.
+"""
 
 import ast
 import sys
@@ -87,7 +93,7 @@ B_sp = c12.sparse_to_sp(bB[0], 128)
 if B_sp.sign[0] == -1:
     B_sp = B_sp.neg()
 B = sympy_to_sage(dense(B_sp), K, ii)
-Q = data["gammas"][0]
+Q = data["gammas"][0]  # positive observation-base witness, not trace q_g
 Hq = ii * B * Q
 
 check("exact", "Hq is an exact Hermitian involution",

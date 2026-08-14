@@ -7,11 +7,18 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+- [`selected-k77-w-mirror-trace-hq-isotropy-correction-source-return-2026-08-13.md`](selected-k77-w-mirror-trace-hq-isotropy-correction-source-return-2026-08-13.md)
+  - confirms the distinguished metric-fibre trace direction and carrier-parent
+    grammar; corrects the prior base-q/trace-q attribution; and returns
+    source-silent on the exact W/mirror trace-Hq cross-pair and every physical
+    action, BV or domain use of it.
+
 - [`selected-k77-w-mirror-antilinear-hq-pairing-source-return-2026-08-13.md`](selected-k77-w-mirror-antilinear-hq-pairing-source-return-2026-08-13.md)
   - confirms the distinct full `U(64,64)` arena and two `C^(32,32)` carrier
-    halves; attributes W/mirror conjugation and neutral trace-Hq anti-isometry
-    to the repository; and returns source-silent on a physical-half selector,
-    primal BV differential, common domain and index.
+    halves; corrected to attribute W/mirror conjugation and neutral
+    anti-isometry to a positive base-q witness, not trace q; and returns
+    source-silent on a physical-half selector, primal BV differential, common
+    domain and index.
 
 - [`selected-k77-physical-operator-admission-source-return-2026-08-13.md`](selected-k77-physical-operator-admission-source-return-2026-08-13.md)
   - confirms the displayed four-field fermion grammar, full `U(64,64)` arena

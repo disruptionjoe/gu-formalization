@@ -2,13 +2,19 @@
 artifact_type: hostile_review
 created: 2026-08-13
 run_id: RUN-20260813-233813-gu-w-mirror-antilinear-hq-ledger-compose
-verdict: SCOPED_SURVIVES
+verdict: CORRECTED__BASE_Q_SCOPED_SURVIVES__TRACE_Q_ATTRIBUTION_RETRACTED
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
 ---
 
 # Hostile review: W/mirror anti-linear and Hq pairing gate
+
+> **Correction, 2026-08-13.** This review missed a Layer-0 ownership defect:
+> the probe used base axis `0` while the prose called `q` trace-owned. Its
+> verdict survives only for the base-q witness. The trace-q successor finds
+> zero same-sector restrictions and a full-rank cross-pair. See
+> `2026-08-13-selected-k77-w-mirror-trace-hq-isotropy-correction-review.md`.
 
 ## Pre-wave
 

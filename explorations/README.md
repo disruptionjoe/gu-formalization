@@ -7,15 +7,23 @@ updated_at: "2026-08-13"
 
 # Explorations
 
+## K77 W/mirror trace-Hq isotropy correction (2026-08-13)
+
+`conditional-build/selected-k77-w-mirror-trace-hq-isotropy-correction-2026-08-13.md`
+corrects a Layer-0 owner mismatch without discarding the valid predecessor.
+The neutral `(96,96)` same-sector form belongs to a base-q witness. For actual
+vertical trace q, W and mirror are separately totally isotropic and their
+cross-pair has rank `192`; together they form a nondegenerate Witt-neutral
+`(192,192)` carrier. Physical action/BV/domain ownership remains open.
+
 ## K77 W/mirror anti-linear and Hq pairing gate (2026-08-13)
 
 `conditional-build/selected-k77-w-mirror-antilinear-hq-pairing-2026-08-13.md`
 upgrades equal W/mirror principal ranks to an exact conjugation equivalence.
-The trace-owned `H_q` changes sign, making the restricted sectors
+For its actual positive base-q witness, `H_q` changes sign, making the restricted sectors
 anti-isometric; 32 exact six-dimensional congruence blocks give total neutral
-inertia `(96,96,0)` on both. This closes selection by the current
-principal-plus-Hq package only; an owned lower-order/BV/domain breaking is the
-next gate.
+inertia `(96,96,0)` on both. It does not state the trace-q restriction; the
+correction above owns that result.
 
 ## K77 physical-operator admission closure (2026-08-13)
 

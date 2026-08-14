@@ -153,9 +153,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > supersedes the generic representative search and makes constraint
 > propagation the next gate. No accounting move.
 
-> **Current v0.238 W/mirror anti-linear and Hq pairing theorem:** the exact
+> **Current v0.239 trace-Hq W/mirror correction:** the prior `(96,96)`
+> same-sector theorem used positive base q, not the owned vertical trace q.
+> Base q remains exact. On the entire normal ten-plane, including trace q,
+> W and mirror are separately totally isotropic and cross-paired at rank 192;
+> W plus mirror has rank 384 and Witt inertia `(192,192)`. The same-sector and
+> cross-pair restriction maps have complementary kernels normal-10 and base-4.
+> Physical action/BV/domain ownership remains open. No accounting move.
+
+> **Predecessor v0.238 W/mirror anti-linear and base-q pairing theorem:** the exact
 > principal projectors obey `conj(P_W)=P_mirror`, the rolled symbol is real,
-> and `conj(H_q)=-H_q`. The restricted Gram forms are anti-isometric and each
+> and `conj(H_q)=-H_q`. For the actual base-q witness the restricted Gram forms are anti-isometric and each
 > has exact inertia `(96,96,0)`. This repairs the prior equal-rank inference:
 > the current principal-plus-Hq package is exactly conjugation-blind but does
 > not choose a luminous half. Lower-order action, nonzero-fermion, BV/BFV,

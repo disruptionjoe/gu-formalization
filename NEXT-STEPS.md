@@ -7,13 +7,27 @@ updated_at: "2026-08-13"
 
 # Next Steps For Contributors
 
+> **2026-08-13 TRACE-HQ W/MIRROR POLARIZATION CORRECTED (ledger v0.239).**
+> The prior exact `(96,96)` same-sector result used positive base axis `0`, not
+> the owned vertical trace receiver. Its base-q theorem survives. For every
+> normal direction—and hence actual trace `q_g`—the W and mirror restrictions
+> vanish exactly, while their cross-pair has rank `192`; on `W direct-sum
+> mirror` the form has rank `384` and Witt inertia `(192,192)`. The same-sector
+> restriction map has kernel the normal ten-plane; the cross-pair map has
+> kernel the base four-plane. **Next type whether the equation-9.16 lower
+> vertex, nonzero-fermion Hessian, BV/BFV complex or analytic domain owns this
+> off-diagonal pairing or another physical form. Do not substitute base q for
+> trace q or call the cross-pair physical cohomology.** No verdict, accounting,
+> datum, canon or public-posture move.
+
 > **2026-08-13 W/MIRROR ANTI-LINEAR EQUIVALENCE AND HQ NEUTRALITY
-> EXACT (ledger v0.238).** The prior equal `224/96` fingerprints are now
+> EXACT FOR A BASE-Q WITNESS (corrected by ledger v0.239).** The prior equal `224/96` fingerprints are now
 > upgraded to the theorem they did not by themselves imply:
 > `conj(P_W)=P_mirror`, the rolled principal symbol is real, and
-> `conj(H_q)=-H_q`. The restricted forms are exact anti-isometric,
+> `conj(H_q)=-H_q`. For the base-q witness the restricted forms are exact anti-isometric,
 > nondegenerate and neutral `(96,96,0)` on both sectors, decomposing into 32
-> exact `(3,3,0)` blocks. **Do not use principal rank or trace-Hq
+> exact `(3,3,0)` blocks. **Do not cite that inertia as the trace-q
+> restriction. Do not use principal rank or Hq
 > compatibility as a luminous-half selector. Next construct the smallest
 > action-owned lower-order, nonzero-fermion, BV/BFV, reality or domain term and
 > require it to break this equivalence without a fitted projector or

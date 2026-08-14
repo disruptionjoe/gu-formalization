@@ -10,23 +10,25 @@ current_result:
   status: conditional_research_front
   summary: >-
     The W and ASD-mirror principal complexes are exactly related by complex
-    conjugation, not merely equal in rank. The real rolled symbol intertwines
-    them, while trace-owned Hq changes sign and gives both restricted sectors
-    exact neutral nondegenerate inertia (96,96,0). Together with the full/block
-    Hq compatibility torsor, the current package therefore supplies no
-    luminous-half selector or physical cohomology.
+    conjugation, not merely equal in rank. A positive base-q witness gives
+    neutral nondegenerate (96,96) restrictions on each. The owned vertical
+    trace q instead makes W and mirror separately totally isotropic and pairs
+    them nondegenerately off diagonal at rank 192; W plus mirror is
+    Witt-neutral (192,192). The action-owned physical pairing and cohomology
+    remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-w-mirror-trace-hq-isotropy-correction-2026-08-13.md
     - explorations/conditional-build/selected-k77-w-mirror-antilinear-hq-pairing-2026-08-13.md
     - explorations/conditional-build/selected-k77-physical-operator-admission-closure-2026-08-13.md
     - explorations/conditional-build/selected-k77-trace-hq-connection-compatibility-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
-    - lab/process/conditional-physics-ledger-v0.238.json
+    - lab/process/conditional-physics-ledger-v0.239.json
 current_question: >-
-  Can a source/action-owned lower-order, nonzero-fermion, reality, BV/BFV or
-  analytic-domain differential act on the primal carrier and break the exact
-  W-versus-mirror anti-linear equivalence without fitting a projector,
+  Does a source/action-owned lower-order vertex, nonzero-fermion Hessian,
+  reality, BV/BFV or analytic-domain structure own the trace-Hq W-mirror
+  cross-pair—or a different physical pairing—without fitting a projector,
   compatible connection or external datum?
 acceptance:
   - RESEARCH-POSTURE.md
@@ -37,8 +39,9 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Construct the smallest action-owned primal-carrier differential on a
-  nonzero-fermion or full moving background. Preregister preservation of the
-  exact conjugation equivalence and dependence on a fitted projector,
-  trace-Hq connection or external datum as kill conditions. Compute physical
-  cohomology only after an asymmetric invariant complex survives.
+  nonzero-fermion or full moving background and type its pairing. Preregister
+  silent base-q substitution, W/mirror-to-ambient-half identification,
+  preservation of the exact conjugation equivalence and fitted-choice
+  dependence as kills. Compute physical cohomology only after the actual
+  complex and form survive.
 what_needs_joe: none

@@ -2,7 +2,7 @@
 artifact_type: exact_conditional_operator_and_krein_pairing_result
 created: 2026-08-13
 run_id: RUN-20260813-233813-gu-w-mirror-antilinear-hq-ledger-compose
-status: EXACT_ANTILINEAR_PRINCIPAL_EQUIVALENCE__HQ_NEUTRAL_ANTIISOMETRY__NO_CURRENT_HALF_SELECTOR
+status: CORRECTED_BASE_Q_WITNESS__EXACT_ANTILINEAR_PRINCIPAL_EQUIVALENCE__HQ_NEUTRAL_ANTIISOMETRY
 lane: "1"
 functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_FULL_U6464_AND_TWO_C32_32_CARRIER_HALVES__SOURCE_SILENT_W_MIRROR_HQ_PHYSICAL_SELECTOR
@@ -14,6 +14,15 @@ public_posture_change: none
 
 # Selected K77 W/mirror anti-linear and Hq pairing gate
 
+> **Correction, 2026-08-13.** The executable certificate used
+> `Q=gamma_0`. Axis `0` is a positive observation-**base** direction, not the
+> tautological vertical trace receiver `q_g=g/2`, which prior art places in
+> the normal ten-plane. The exact conjugation, anti-isometry and `(96,96,0)`
+> theorem below survives for this base-q witness. It must not be cited as the
+> trace-q restriction. The append-only correction proves that actual trace
+> `H_q` vanishes on W and mirror separately and pairs them nondegenerately:
+> `selected-k77-w-mirror-trace-hq-isotropy-correction-2026-08-13.md`.
+
 ## Result first
 
 The preceding principal-operator wave had the right scoped conclusion but did
@@ -21,7 +30,8 @@ not yet have the theorem its prose suggested. Equal W/mirror rank and nullity
 alone do not prove operator equivalence. This wave supplies the missing exact
 relation.
 
-On the fixed K77 real-Clifford carrier over the Gaussian rationals,
+For the positive base-q witness on the fixed K77 real-Clifford carrier over
+the Gaussian rationals,
 
 \[
  \overline{P_W}=P_{\bar W},\qquad
@@ -31,7 +41,7 @@ On the fixed K77 real-Clifford carrier over the Gaussian rationals,
 
 Consequently complex conjugation is an exact anti-linear equivalence of the W
 and ASD-mirror principal complexes, while it is an **anti-isometry** for the
-trace-owned Hermitian form:
+base-q Hermitian form:
 
 \[
  G_{\bar W}=-\overline{G_W}.
@@ -39,9 +49,10 @@ trace-owned Hermitian form:
 
 Both restricted forms are nondegenerate. Their support decomposes into 32
 exact six-dimensional blocks; Hermitian congruence gives inertia `(3,3,0)` on
-every block and therefore `(96,96,0)` on both W and mirror. The current
+every block and therefore `(96,96,0)` on both W and mirror. This base-q
 principal-plus-Hq package thus recognizes a natural conjugate pair but does
-not choose a K-definite luminous half.
+not choose a K-definite luminous half. The separately owned trace-q package
+instead supplies an off-diagonal W/mirror polarization.
 
 This is stronger than an equal-rank observation and narrower than a universal
 no-go. An action-owned lower-order, nonzero-fermion, BV/BFV, reality or domain
@@ -55,7 +66,7 @@ chosen compatible connection.
 | --- | --- | --- |
 | W and ASD mirror | conjugate rank-192 one-form sectors | the source's two ambient `C^(32,32)` halves |
 | complex conjugation | anti-linear principal-complex equivalence | a complex-linear gauge identification |
-| `H_q` | Hermitian fibre form with a sign flip under conjugation | positive physical Hilbert form |
+| base-witness `H_q` | Hermitian fibre form with a sign flip under conjugation | tautological trace-q restriction or positive physical Hilbert form |
 | restricted Gram | nondegenerate neutral `(96,96)` on each sector | a luminous/ghost selection |
 | symmetric pairing | finite carrier eligibility datum | presymplectic reduction, BV cohomology or domain |
 | two `C^(32,32)` halves | carrier decomposition named by Curt | two independently selected connection fields |
@@ -88,7 +99,7 @@ componentwise congruence owns the inertia claim.
 
 - `SOURCE-CONFIRMS`: a full `U(64,64)` arena and two complex
   `C^(32,32)` carrier halves are distinct source/expository objects.
-- `SOURCE-SILENT`: the repository's W/ASD-mirror projectors, trace-Hq form,
+- `SOURCE-SILENT`: the repository's W/ASD-mirror projectors and Hq restrictions,
   anti-linear equivalence, physical projector, BV cohomology and global
   domain.
 - `SOURCE-DOES-NOT-CONFLICT`: the authorial nonchiral-total/emergent-chiral
