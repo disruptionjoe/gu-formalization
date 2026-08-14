@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_spin_induced_determinant_line_gate_probe.py`
+  proves the actual K77 spin generators are trace-free on the full carrier and
+  both Weyl halves, computes the resulting trivial determinant characters,
+  separates exact curvature from Chern flux and integral torsion from de Rham
+  classes, and preserves finite `mu_128`, independent-twist and boundary
+  controls. Run with pinned SymPy `1.14.0` and NumPy `2.3.2`; it passes
+  `54/54`.
+
 - `channel-swings/selected_k77_twistor_bv_positive_state_seven_gate_probe.py`
   constructs the base `Gr(2,C^4)` correspondence and the separate normal
   `O(6,4)/U(3,2)` homogeneous twistor fibre, verifies the moving-J constraint

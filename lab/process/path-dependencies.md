@@ -117,8 +117,10 @@ graph TD
   PD_STRUCTURE_TRANSPORT_s2 --> PD_STRUCTURE_TRANSPORT_s3
   PD_STRUCTURE_TRANSPORT_chk{"CHECK: Inherit carrier, pairing/form, real structure, grading, signature horn and ..."}
   PD_STRUCTURE_TRANSPORT_s3 --> PD_STRUCTURE_TRANSPORT_chk
-  PD_STRUCTURE_TRANSPORT_t0("TRAP 2026-08-12")
+  PD_STRUCTURE_TRANSPORT_t0("TRAP 2026-08-14")
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t0
+  PD_STRUCTURE_TRANSPORT_t1("TRAP 2026-08-12")
+  PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t1
   PD_I2B_ACTION_OWNER["PD-I2B-ACTION-OWNER"]
   PD_I2B_ACTION_OWNER_s0["AUTHOR-STATED: The source prints Upsilon_print=S(F_A)+*kappa T and separately gives E_act=..."]
   PD_I2B_ACTION_OWNER --> PD_I2B_ACTION_OWNER_s0
@@ -320,6 +322,9 @@ graph TD
 
 **Traps that actually happened:**
 
+- **2026-08-14** — A full U(64,64) frame/connection group was treated as if it supplied an arbitrary U(64,64) bundle and therefore a freely available determinant first-Chern class. The source object is instead the unitary frame bundle of the Spin-induced spinor bundle, whose connected determinant character is trivial; determinant also forgets the finite scalar kernel mu_128.
+  - *Cost:* Would build observation and BV/BFV machinery around absolute determinant topology the minimal carrier cannot possess, while simultaneously discarding the genuinely open finite-holonomy and boundary-relative routes.
+  - *Receipt:* `explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md`
 - **2026-08-12** — A source-normal-jet calculation silently replaced the inherited trace-H_q embedded real form with a B-skew comparator, then promoted the comparator's exact rank and scalar exclusion as the live contact result.
   - *Cost:* Reported rank 80/cokernel 80 instead of rank 120/cokernel 40 and incorrectly excluded the scalar completion until the append-only v0.221 correction.
   - *Receipt:* `explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md`

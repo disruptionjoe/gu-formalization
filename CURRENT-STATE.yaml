@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 03e1e9a385e8f373c583f3ad7e3f45ea272a4dbc
+revision_basis: 149775c6ac7f6ca4e144a0d9eefe9d14ee70ad83
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,23 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The full U(64,64) parent has one canonical central U(1) line that is odd
-    under the exact anti-linear W/mirror exchange. Its curvature is the first
-    gauge-invariant candidate bosonic leg, but every local real exchange-
-    invariant action is even in that curvature and cannot select its sign.
-    A global determinant-line flux or boundary charge may distinguish sectors,
-    but neither is constructed or selected. Equal ordinary four-dimensional
-    conjugate indices are compatible with Weinstein's non-chiral total theory;
-    they do not construct its claimed low-curvature luminous/dark decoupling.
-    Adjacent fixed-J10 work shows eight mixed ordinary-gauge directions obstruct
-    fixed polarization, while moving J is covariant but not yet physical. The
+    The full U(64,64) parent retains one exact central W/mirror-odd curvature
+    leg, but its canonical global first-Chern route is now closed. On the
+    connected Spin(7,7)-induced full and half-spin bundles the determinant
+    characters are trivial, so enlarging to the full unitary spinor-frame
+    bundle does not create determinant topology and observation pullback keeps
+    c1 zero. The determinant sees the scalar center through its 128th power,
+    so finite mu_128 holonomy, independent twists and boundary-relative charge
+    remain distinct unbuilt routes. Weinstein's total theory remains
+    explicitly non-chiral; the open physics burden is low-curvature
+    luminous/dark chiral-looking decoupling through a nonstandard operator or
+    owned BV/domain, not a net-chirality target. The
     separate base and normal twistor kinematics and minimal moving-J
     longitudinal BRST extension now construct; the actual twistor connection,
     Penrose pushforward and positive physical state-space reconstruction do not.
   evidence:
+    - explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.244.md
+    - lab/process/conditional-physics-ledger-v0.244.json
     - explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
-    - explorations/conditional-build/conditional-physics-ledger-v0.243.md
-    - lab/process/conditional-physics-ledger-v0.243.json
     - explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md
     - explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md
     - explorations/conditional-build/selected-k77-hq-vacuum-conjugation-quotient-2026-08-14.md
@@ -39,10 +41,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the source-full determinant/central line descend through observation to
-  a nonzero flux or boundary sector on the actual physical BV/BFV and analytic
-  domain, and can a nonstandard family operator or owned domain turn that
-  global structure into the source-claimed luminous/dark effective decoupling?
+  Does the actual observerse or physical domain carry finite mu_128 central
+  holonomy or a boundary-relative charge that survives observation and BV/BFV
+  reduction, and can a nonstandard family operator or owned domain turn that
+  global structure into the source-claimed luminous/dark effective decoupling
+  while the total theory remains non-chiral?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -51,12 +54,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the global determinant line and its pullback to an observation
-  section, then test flux, boundary charge, large-gauge and closed-domain
-  survival. Do not identify the central U(1) with hypercharge, choose a flux by
-  hand, or treat ordinary four-dimensional index equality as the source's
-  emergent decoupling. In parallel, retain the moving-J BV extension and
-  normalized-connection bridge as the adjacent physical-domain route; build
-  the program-native twistor carrier and actual lifted `(0,1)` connection
-  before attempting a Penrose pushforward or positive-state claim.
+  Classify representations of the actual observerse/physical-domain
+  fundamental group into mu_128 and test observation, large-gauge, BV/BFV and
+  closed-domain survival; keep boundary-relative charge separate. Do not
+  replace the source-induced frame bundle by an independent twist, identify
+  the center with hypercharge, choose holonomy by hand, or turn the non-chiral
+  source target into net chirality. In parallel, retain the nonstandard family
+  operator and moving-J BV/domain routes; build the program-native twistor
+  carrier and actual lifted `(0,1)` connection before attempting a Penrose
+  pushforward or positive-state claim.
 what_needs_joe: none

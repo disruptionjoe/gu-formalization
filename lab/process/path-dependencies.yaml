@@ -382,6 +382,20 @@ chains:
       never enough.  Also state the variational altitude and globalization
       grade reached; pointwise availability does not imply on-shell selection.
     traps:
+      - date: 2026-08-14
+        what: >-
+          A full U(64,64) frame/connection group was treated as if it supplied
+          an arbitrary U(64,64) bundle and therefore a freely available
+          determinant first-Chern class. The source object is instead the
+          unitary frame bundle of the Spin-induced spinor bundle, whose
+          connected determinant character is trivial; determinant also
+          forgets the finite scalar kernel mu_128.
+        cost: >-
+          Would build observation and BV/BFV machinery around absolute
+          determinant topology the minimal carrier cannot possess, while
+          simultaneously discarding the genuinely open finite-holonomy and
+          boundary-relative routes.
+        receipt: explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md
       - date: 2026-08-12
         what: >-
           A source-normal-jet calculation silently replaced the inherited

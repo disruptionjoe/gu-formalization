@@ -7,6 +7,23 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SPIN-INDUCED DETERMINANT-LINE GATE (ledger v0.244).**
+> The canonical absolute first-Chern route is closed for the source-induced
+> spinor bundle: every actual `Spin(7,7)` generator is trace-free on the full
+> carrier and on both Weyl halves, so the connected-Spin determinant
+> characters and their observation pullbacks are trivial. Enlarging the frame
+> and connection group to `U(64,64)` does not replace that bundle by an
+> arbitrary unitary bundle. This does **not** make the central connection flat:
+> exact curvature may remain locally nonzero, and `det(z I_128)=z^128` forgets
+> finite `mu_128` holonomy. Independent twists and boundary-relative charge
+> also remain separate unbuilt objects. **Next classify the actual
+> observerse/physical-domain fundamental-group representations into `mu_128`
+> and test observation, large-gauge, BV/BFV and closed-domain survival. Keep
+> Weinstein's target exact: the total theory is non-chiral; the physics burden
+> is emergent luminous/dark chiral-looking decoupling through an action-owned
+> nonstandard operator or domain.** No verdict, residue, quotient, datum,
+> canon or public-posture move.
+
 > **2026-08-13 TWISTOR/MOVING-BV/POSITIVE-STATE SEVEN-GATE.** The base
 > `Gr(2,C^4)` correspondence and the normal `O(6,4)/U(3,2)` twistor fibre
 > construct separately and exactly; the latter has orbit/stabilizer dimensions

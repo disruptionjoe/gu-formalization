@@ -8,18 +8,24 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
-[`conditional-physics-ledger-v0.243.json`](conditional-physics-ledger-v0.243.json),
+[`conditional-physics-ledger-v0.244.json`](conditional-physics-ledger-v0.244.json),
 summarized in
-`explorations/conditional-build/conditional-physics-ledger-v0.243.md`.
-The full-parent central curvature is an exact gauge-invariant, exchange-odd
-candidate bosonic leg, but local real invariant actions cannot select its
-sign. Global determinant-line flux, observation and BV/BFV/domain descent
-remain open. The ordinary 4D conjugate-index equality is consistent with the
-source's non-chiral total theory and does not produce its claimed effective
-luminous/dark decoupling. No physics-row verdict, residue, quotient, canon
-claim, or public posture moved.
+`explorations/conditional-build/conditional-physics-ledger-v0.244.md`.
+The source-induced full and half-spin determinant characters are trivial, so
+the canonical absolute first-Chern flux route is closed and observation
+pullback cannot reopen it. Local exact central curvature, finite `mu_128`
+holonomy, independent twists and boundary-relative charge remain distinct
+unbuilt routes. The substantive target remains emergent luminous/dark
+decoupling inside Weinstein's non-chiral total theory. No physics-row verdict,
+residue, quotient, canon claim, or public posture moved.
 
 Immediate predecessor append-only progress surface:
+[`conditional-physics-ledger-v0.243.json`](conditional-physics-ledger-v0.243.json),
+summarized as ledger v0.243. The full-parent central curvature is an exact
+gauge-invariant, exchange-odd candidate bosonic leg, while local real invariant
+actions cannot select its sign.
+
+Earlier predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.242.json`](conditional-physics-ledger-v0.242.json),
 summarized as ledger v0.242. The fixed-background real-action class remains
 closed, and the simplest one-doublet broken-vacuum escape is decided wholesale.

@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.244 spin-induced determinant-line gate:** the full and
+> half-spin determinant characters of connected `Spin(7,7)` are trivial, so
+> the source-induced unitary spinor-frame bundle has no canonical absolute
+> first-Chern flux and observation pullback cannot create one. A full
+> `U(64,64)` frame/connection arena does not silently replace that underlying
+> bundle by an arbitrary unitary bundle. The local central curvature can still
+> be nonzero and exact, while determinant forgets finite scalar information by
+> `det(z I_128)=z^128`; finite `mu_128` holonomy, independent twists and
+> boundary-relative charge remain distinct unbuilt routes. Rank one is the
+> actual fundamental-group/finite-holonomy and BV/BFV/domain survival test;
+> rank two remains an action-owned nonstandard family operator or domain.
+> Weinstein's target is never net fundamental chirality: preserve a non-chiral
+> total theory and test only its claimed effective luminous/dark decoupling.
+
 > **Current v0.243 central-`U(1)` W/mirror flux gate:** the full
 > `U(64,64)` parent has one central line and its curvature is gauge invariant
 > and odd under the exact anti-linear half exchange. The block parent's

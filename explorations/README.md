@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 spin-induced determinant-line gate (2026-08-14)
+
+`conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md`
+closes the canonical absolute first-Chern route on the source-induced full and
+half-spin bundles: all connected `Spin(7,7)` determinant characters are
+trivial, and observation pullback preserves that result. It keeps local exact
+central curvature, finite `mu_128` holonomy, independent twists and
+boundary-relative charge distinct and open. The physics target remains
+emergent luminous/dark separation inside a non-chiral total theory.
+
 ## K77 central-U(1) W/mirror flux gate (2026-08-14)
 
 `conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md`

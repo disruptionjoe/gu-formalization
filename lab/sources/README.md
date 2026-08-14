@@ -10,6 +10,12 @@ updated_at: "2026-08-14"
 Additional source-custody and reinspection records retained by the native
 research boundary:
 
+- [`selected-k77-spin-induced-determinant-line-source-return-2026-08-14.md`](selected-k77-spin-induced-determinant-line-source-return-2026-08-14.md)
+  - confirms the unitary spinor-frame parent, full `U(64,64)` connection arena,
+    two `C^(32,32)` carrier halves and the source's non-chiral-total/emergent-
+    decoupling target; returns source-silent on an independent twist or root,
+    finite holonomy, boundary charge, selection and physical decoupling.
+
 - [`selected-k77-central-u1-w-mirror-flux-source-return-2026-08-14.md`](selected-k77-central-u1-w-mirror-flux-source-return-2026-08-14.md)
   - confirms the full `U(64,64)` connection arena, connection-hosted
     gauge/Higgs-like functions and the source's explicitly non-chiral total
