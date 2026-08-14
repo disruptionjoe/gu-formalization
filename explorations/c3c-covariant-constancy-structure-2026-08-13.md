@@ -264,66 +264,109 @@ That is the version worth computing; it is not the version tested here.
 
 ---
 
-## 7. Falsification record: the Willmore-coherence hypothesis
+## 7. Correction: the strong Willmore-coherence identity fails as typed
 
 **Hypothesis tested (strong form).** GU's variational principle is a coherence
 principle: `E[s]` is the functional whose minimum is exactly the condition for the
 emergent complex structure to be parallel, because `D_varpi J = 0` iff the mixed
 connection block vanishes iff `II_s = 0` iff `E[s] = 0`.
 
-**VERDICT: FALSIFIED.** Three independent attacks, two of them decisive.
+**CORRECTED VERDICT: THE STRONG GEOMETRIC IDENTITY IS NOT ESTABLISHED AND
+FAILS WITH THE CURRENT OBJECT TYPING. THE QUANTUM/DECOHERENCE CLAIM IS
+UNDERIVED, NOT EMPIRICALLY FALSIFIED BY THIS COMPUTATION.**
 
-**Attack 1 — the functional is narrower than the claim (LANDS).** The canon form is
-`E[s] = integral |II_s^H|^2` (`canon/schwarzschild-weak-field-rfail.md:22`;
-`DERIVATION-PROGRESS.md:1433`) — the *horizontal* second fundamental form.
-`DERIVATION-PROGRESS.md:543` and `:640` write `|II_s|^2` without the superscript, so
-the repository is inconsistent here and the canon form governs. `E[s] = 0` therefore
-forces only `II^H = 0`, while `D_varpi J = 0` requires the entire mixed block to
-vanish. The central equivalence does not hold.
+**Attack 1 — raw versus reference-normalized `II` (DECISIVE TYPING FAILURE).**
+The operative geometric shadow is written
+`E[s] = integral |II_s^H|^2` (`canon/schwarzschild-weak-field-rfail.md:22`).
+Here the superscript is not merely a projection onto fewer components.  The
+repo's moving-frame calculation gives
 
-**Attack 2 — the physical section is not even critical (DECISIVE).**
-`DERIVATION-PROGRESS.md:1293`: three independent lines establish that **Schwarzschild
-is NOT a critical section** of `E[s]`. That is the solar system. Combined with
-Section 1's **kernel-zero** result — parallel or not is binary, no protected
-direction, no partial escape — the strong hypothesis predicts **no stable
-superposition anywhere near a mass.** Refuted by every interference experiment
-performed.
+```text
+II_s^raw = nonzero algebraic slice term,
+II_s^H   = II_s^raw - II_s^ref = 0
+```
 
-**Attack 3 — the surviving weak form makes no measurable prediction (LANDS).** The
-rate version ("the functional penalizes incoherence rather than enforcing coherence,
-with decoherence rate proportional to `|II_s^H|^2`") survives Attacks 1 and 2, but
-yields a **dimensionless suppression**, not a rate, until a frequency scale is
-supplied. Near a mass `RFAIL-03` gives a linear-order residual that vanishes
-identically (`H^(1) ~ M/r` is harmonic) with the leading term at `O(M^2/r^4)`, so
-the suppression is second order in mass. Whether that is observable depends entirely
-on the undetermined scale: with an ordinary laboratory frequency the effect sits far
-above graviton-induced decoherence (recent estimates put that at `10^-64` to
-`10^-74` across matter-wave platforms) and could be reachable; with a Planck-scale
-frequency it would already be excluded. **The hypothesis does not predict; it
-awaits a scale.**
+at the tautological LC section
+(`explorations/geometry-curvature-emergence/ii-s-moving-frames-2026-06-23.md`,
+Section 4.1).  By contrast, `[varpi,J]` sees the mixed block of the connection
+actually supplied to it.  Standard Gauss--Weingarten identifies that block
+with raw `II` only for an adapted ambient Levi-Civita connection with the
+soldering fixed.  No current artifact constructs a normalized `varpi^H` and
+proves `(varpi^H)_mixed=II_s^H`.  Thus the middle equivalence is not merely
+narrower; its two sides are different typed objects.
 
-**What the external bounds actually do.** They constrain the missing scale rather
-than the hypothesis. Collapse-model limits from matter-wave interferometry
-(underground experiments pushing `tau > 10^3 s` at `~10^4 Da`, exceeding naive
-Diósi-Penrose by two orders of magnitude) bound any candidate frequency. That
-converts "unfalsifiable" into "constrained but undetermined" — an improvement, not a
-result.
+There is a second defect in the zero-energy step.  K77 carries an indefinite
+normal/DeWitt form.  Without a positive majorant, `|II_s^H|^2=0` need not imply
+`II_s^H=0`; a nonzero null tensor may have zero quadratic density.  The older
+assertion `E[s]>=0` cannot decide this horn without a positivity proof.
+
+**Attack 2 — Schwarzschild does not supply an empirical falsification.**
+The repo records that an imported Schwarzschild section is not an exact
+critical point of the geometric `E[s]` shadow at nonlinear order.  That is a
+useful obstruction to claiming that this shadow alone derives the physical
+vacuum.  It does **not** imply “no stable superposition near a mass.”  That
+inference would require all of the missing identifications: `J10` as the
+physical amplitude complex structure, the shadow as the operative action, a
+physical BV/state-space descent, and a dynamics connecting nonparallel `J` to
+loss of interference.
+
+The Section-1 kernel-zero result is a statement about the 40-dimensional
+mixed **connection-parameter** obstruction map.  It does not say that every
+mixed generator acts injectively on every spinor or that no protected state
+subspace exists.  It therefore cannot turn the Schwarzschild residual into an
+experimental exclusion.
+
+**Attack 3 — no decoherence rate is derived (LANDS).**  A geometric penalty
+density is not an open-system generator.  A statement such as
+
+```text
+Gamma_decoherence = lambda |II_s^H|^2
+```
+
+still needs a physical state space, a positive or Krein-reduced inner product,
+a coupling `lambda` with units, a trace-preserving reduced dynamics, and an
+observable visibility functional.  None follows from the Willmore integrand.
+External interferometry can constrain a completed model's coefficient; it
+cannot repair the absent map or choose its scale.  No unsourced numerical
+experimental bound is used in this verdict.
 
 **Third weak link, recorded for completeness.** The 4-block in Section 1 was chosen
 *algebraically* (four Clifford generators). Whether that split coincides with the
 geometric tangent/normal split of an actual section is an assumption the algebra
 cannot see. The identification "mixed block = second fundamental form" requires that
 correspondence, and the canon `^H` superscript indicates the operative object is
-narrower still.
+reference-normalized rather than the raw mixed block.
 
-**What would revive it.** A derivation of the frequency scale from the geometry,
-turning `|II_s^H|^2` into an actual rate. Absent that, this line should not be
-carried as support for anything.
+**Exact BV/operator composition.**  The dedicated descent gate adds a further
+constraint.  Spinor-only `J10` is mistyped on the rolled
+`Omega1(S)+Omega0(S)` carrier.  Its gamma-trace-preserving lift is
 
-**What survives from this whole pass, independent of the falsified hypothesis:**
-Section 1's exact `C3c` structure (kernel zero; `omega` central so the two-half split
-is unconditional), Result 3's Lorentzian selection (robust across all ambient
-signatures tested), and Section 6's permanent `c1` constraint on index-change claims.
+```text
+Jhat = (R_split tensor J10) direct-sum J10.
+```
+
+`Jhat` commutes with every observed horizontal principal symbol and preserves
+both current Spin-natural action pairings, but fails on all ten normal ambient
+symbols.  The actual rank-25 selected ordinary-gauge image contains a
+rank-eight mixed/J-breaking subimage, so fixed `J10` does not descend through
+the owned gauge complex.  Moving `J` with `sJ=[c,J]` is covariant for all 91
+ghosts.  See
+`explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md`
+and its `112/112` exact probe.
+
+**What would revive the geometric core.** Construct a normalized operative
+connection `varpi^H` whose mixed block is exactly `II_s^H`; prove that the
+action and physical operator use it; supply a positive norm or classify the
+null cone; and extend the BV complex by the moving reduction field before
+testing a closed Green domain.  Only after those gates could an open-system
+calculation ask for a rate.
+
+**What survives from this whole pass, independent of the failed strong identity:**
+Section 1's exact `C3c` structure (kernel zero on mixed connection parameters;
+`omega` central so the two-half split is unconditional), Result 3's Lorentzian
+four-block selection (robust across all ambient signatures tested), Section 6's
+permanent `c1` constraint on index-change claims, and the conditional observed
+principal complex-linearity of the correctly lifted moving structure.
 
 ---
 
