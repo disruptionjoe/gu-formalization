@@ -8,6 +8,21 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.252.json`](conditional-physics-ledger-v0.252.json),
+summarized in
+`explorations/conditional-build/conditional-physics-ledger-v0.252.md`.
+The selected homogeneous distortion orbit now has a proper exact
+`21 -> 91 -> 70` Koszul--Tate resolution, but the actual action endpoint has
+30 nonzero independent-orbit charges and lies off the moment-map zero level.
+An action-owned zero-charge boundary law or covariant edge cancellation is
+therefore required before the curved BFV presentation and analytic domain.
+
+Current stabilizer-aware KT and endpoint-admission result:
+`explorations/conditional-build/selected-k77-stabilizer-koszul-tate-resolution-gate-2026-08-14.md`.
+Machine-readable exact registry:
+[`selected-k77-stabilizer-koszul-tate-resolution-gate.json`](selected-k77-stabilizer-koszul-tate-resolution-gate.json).
+
+Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.251.json`](conditional-physics-ledger-v0.251.json),
 summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.251.md`.

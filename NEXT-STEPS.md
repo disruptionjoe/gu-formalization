@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 STABILIZER-AWARE KOSZUL--TATE GATE (ledger v0.252).** On the
+> selected homogeneous distortion orbit, the exact sequence
+> `0 -> so(3,4)_21 -> so(7,7)_91 -> T(G/H)_70 -> 0` yields a proper KT
+> resolution of the cotangent zero section, with no higher linear
+> reducibility. The natural 70-dimensional complement is not a Lie algebra;
+> its bracket curvature spans all 21 stabilizer directions. The actual
+> selected-action endpoint nevertheless has 30 nonzero independent-orbit
+> charges and lies off zero. **Next derive either an action-owned
+> boundary/Green law that forces zero charge or a covariant edge cotangent
+> carrier with opposite moment map, then complete curved BFV and the analytic
+> domain.** Do not treat mathematical properness as authority to impose the
+> constraint, one orbit as the full dynamical stratification, or this result
+> as net chirality or physical cohomology.
+
 > **2026-08-14 FULL 91-GHOST BFV MASTER-EQUATION GATE.** On the retained
 > charged edge completion, the normalized charge
 > `Omega=c^a J_a-(1/2)f_ab^c c^a c^b b_c` closes exactly: all 4,095 action

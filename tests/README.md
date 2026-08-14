@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_stabilizer_koszul_tate_resolution_gate_probe.py`
+  proves the exact `21 -> 91 -> 70` stabilizer sequence, reductive complement,
+  rank-21 complement curvature, local KT acyclicity and actual endpoint's 30
+  nonzero orbit charges; validates the v0.252 registry and passes `58/58` with
+  pinned SymPy 1.14.0.
+
 - `channel-swings/selected_k77_full_bfv_master_equation_gate_probe.py`
   constructs exact `so(7,7)` structure constants, verifies all 4,095 action
   commutators and 121,485 independent Jacobi triples, certifies the normalized

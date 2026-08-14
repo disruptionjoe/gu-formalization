@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 236263d8d8dc771467995b711bb76c853548df50
+revision_basis: ee0a3077a57433f2839719c1f6e39da63295e99b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The selected homogeneous distortion orbit now has an exact proper
+    stabilizer-aware Koszul--Tate model: 21 stabilizer relations resolve the
+    91 labelled moment-map components to 70 independent orbit directions,
+    with no higher linear reducibility. The natural 70-dimensional complement
+    is not a Lie algebra; its curvature spans all 21 stabilizer directions.
+    This closes KT properness only on that one orbit. The actual selected-
+    action endpoint is a valid orbit covector but has 30 nonzero independent
+    charges and lies off the moment-map zero level. The live physics gate is
+    therefore action ownership of either a zero-charge boundary/Green law or
+    a compensating covariant edge momentum, followed by the curved BFV
+    presentation and analytic domain.
     The full U(64,64) parent retains one exact central W/mirror-odd curvature
     leg. Its canonical first-Chern and universal fibre-character routes are
     closed. The conditional proper ten-dimensional spin-family theorem is
@@ -53,6 +64,10 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-stabilizer-koszul-tate-resolution-gate-2026-08-14.md
+    - lab/process/selected-k77-stabilizer-koszul-tate-resolution-gate.json
+    - explorations/conditional-build/conditional-physics-ledger-v0.252.md
+    - lab/process/conditional-physics-ledger-v0.252.json
     - explorations/conditional-build/selected-k77-full-bfv-master-equation-gate-2026-08-14.md
     - lab/process/selected-k77-full-bfv-master-equation-gate.json
     - explorations/conditional-build/selected-k77-endpoint-stabilizer-charge-gate-2026-08-14.md
@@ -88,9 +103,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the algebraically closed but rank-70 reducible full moment-map
-  presentation be completed to a proper stabilizer-aware Koszul--Tate/BFV
-  resolution on a source-owned orbit-type stratum?
+  Does the selected action derive a boundary/Green stationarity condition that
+  makes all 70 independent orbit charges vanish, or must a covariant edge
+  cotangent carrier cancel the exact 30-component endpoint charge?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -99,11 +114,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Derive a source-owned constant-orbit-type stratum or explicit singular
-  stratification for the retained charged edge carrier, globalize the
-  21-dimensional stabilizer relations where valid, and construct the proper
-  Koszul--Tate/ghost-for-ghost completion. Prove acyclicity/properness before
-  any codimension-one analytic domain. Do not identify the distortion
-  stabilizer with the W-polarization stabilizer, choose W or mirror, or call
-  the algebraic complex physical cohomology.
+  Compare the two action-level boundary horns: derive a boundary/Green
+  stationarity law placing the endpoint on the moment-map zero level, or
+  construct the smallest covariant edge cotangent carrier with opposite
+  charge. Then assemble the moving-stabilizer connection/curvature terms in
+  the fixed-label reducible BFV charge and only afterward enter the analytic
+  domain. Do not impose zero because its KT resolution is proper, identify one
+  homogeneous orbit with the full dynamical stratification, choose W/mirror,
+  or replace Weinstein's non-chiral total target with net chirality.
 what_needs_joe: none

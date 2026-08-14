@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.252 stabilizer-aware Koszul--Tate gate:** the selected
+> homogeneous distortion orbit has the exact sequence
+> `0 -> h_21 -> so(7,7)_91 -> T(G/H)_70 -> 0`. Its local KT normal form is
+> acyclic above degree zero and globalizes as the tangent-bundle resolution of
+> the cotangent zero section. The natural 70-dimensional complement is curved,
+> not a fixed Lie algebra. The actual selected-action endpoint annihilates
+> `h_21` but has 30 nonzero orbit charges, so it is a valid orbit covector off
+> the zero level. Rank one is now action ownership: a boundary/Green zero-
+> charge law or compensating covariant edge momentum, then curved BFV and the
+> analytic domain. Preserve Weinstein's non-chiral total target.
+
 > **Current full BFV master-equation gate:** the retained charged edge
 > completion carries the normalized 91-ghost charge
 > `Omega=cJ-(1/2)fccb`, and its classical master equation closes exactly by

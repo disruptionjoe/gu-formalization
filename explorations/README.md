@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 stabilizer-aware Koszul--Tate gate (2026-08-14)
+
+`conditional-build/selected-k77-stabilizer-koszul-tate-resolution-gate-2026-08-14.md`
+proves the exact `21 -> 91 -> 70` reducibility sequence and proper KT model on
+the selected homogeneous distortion orbit. The natural 70-dimensional
+complement has rank-21 stabilizer curvature, and the actual action endpoint
+has 30 nonzero independent-orbit charges, so it lies off the resolved zero
+level. The live gate is an action-owned zero-charge boundary law or covariant
+edge cancellation, not another algebraic ghost expansion.
+
 ## K77 full BFV master-equation gate (2026-08-14)
 
 `conditional-build/selected-k77-full-bfv-master-equation-gate-2026-08-14.md`

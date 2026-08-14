@@ -384,6 +384,20 @@ chains:
     traps:
       - date: 2026-08-14
         what: >-
+          A proper Koszul--Tate resolution of the moment-map zero section on
+          one homogeneous gauge orbit was at risk of being treated as source
+          or action authority to impose that zero level, and the single orbit
+          as the full dynamical orbit-type stratum. The actual selected-action
+          endpoint is a legitimate orbit covector with 30 nonzero independent
+          charges, so it lies outside the cleanly resolved constraint surface.
+        cost: >-
+          Would discard the action-derived boundary endpoint by definition,
+          call a local homogeneous-orbit theorem the complete BFV theory, and
+          skip the real missing owner: a boundary/Green zero-charge law or
+          compensating covariant edge momentum.
+        receipt: explorations/conditional-build/selected-k77-stabilizer-koszul-tate-resolution-gate-2026-08-14.md
+      - date: 2026-08-14
+        what: >-
           A full U(64,64) frame/connection group was treated as if it supplied
           an arbitrary U(64,64) bundle and therefore a freely available
           determinant first-Chern class. The source object is instead the

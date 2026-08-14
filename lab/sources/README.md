@@ -10,6 +10,11 @@ updated_at: "2026-08-14"
 Additional source-custody and reinspection records retained by the native
 research boundary:
 
+- [`selected-k77-stabilizer-koszul-tate-resolution-source-return-2026-08-14.md`](selected-k77-stabilizer-koszul-tate-resolution-source-return-2026-08-14.md)
+  - confirms source ownership of the moving `epsilon` gauge-frame orbit and
+    the non-chiral total target; returns source-silent on the BFV zero level,
+    ghost-for-ghost tower, edge cancellation and analytic domain.
+
 - [`selected-k77-source-metric-fibre-family-index-obstruction-source-return-2026-08-14.md`](selected-k77-source-metric-fibre-family-index-obstruction-source-return-2026-08-14.md)
   - confirms the source metric-bundle projection, split vertical geometry and
     multiple-time analytic debt; attributes the nonproper/nonelliptic ordinary

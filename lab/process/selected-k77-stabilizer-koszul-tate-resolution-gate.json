@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "HOMOGENEOUS_GAUGE_ORBIT_HAS_EXACT_PROPER_21_TO_91_TO_70_KOSZUL_TATE_MODEL__NATURAL_COMPLEMENT_CURVATURE_SPANS_H21__SELECTED_ENDPOINT_OFF_ZERO__EDGE_CANCELLATION_OR_BOUNDARY_CONDITION_OPEN",
+  "carrier": {
+    "configuration": "single Spin(7,7) gauge orbit through the frozen selected distortion T",
+    "source_owner": "epsilon owns the moving gauge frame and hence the dependent orbit",
+    "not_owned": "a complete dynamical constant-orbit-type stratum, BFV zero-level boundary condition, compensating edge momentum, functional phase space or analytic domain",
+    "stabilizer": "odd-axis so(3,4)",
+    "stabilizer_dimension": 21,
+    "orbit_dimension": 70
+  },
+  "resolution": {
+    "exact_sequence": "0 -> h21 -> g91 -> T_orbit70 -> 0",
+    "stabilizer_relations": 21,
+    "labelled_constraints": 91,
+    "independent_constraints": 70,
+    "higher_linear_reducibility": 0,
+    "homogeneous_orbit_kt_proper": true,
+    "local_normal_form": "delta b_m=p_m; delta b_h=0; delta beta_h=b_h",
+    "h0": "functions on the cotangent zero section of the selected gauge orbit",
+    "global_minimal_model": "tangent-bundle ghosts on T_orbit",
+    "fixed_70_generator_lie_algebra": false
+  },
+  "reductive_geometry": {
+    "h_is_subalgebra": true,
+    "m70_is_h_invariant": true,
+    "m70_is_subalgebra": false,
+    "canonical_connection_curvature_h_span": 21,
+    "fixed_label_91_plus_21_completion_requires_connection_curvature_terms": true
+  },
+  "endpoint": {
+    "annihilates_h21": true,
+    "descends_to_cotangent_of_selected_distortion_orbit": true,
+    "nonzero_independent_orbit_charge_components": 30,
+    "on_zero_level": false,
+    "zero_level_on_transitive_orbit": "cotangent zero section",
+    "current_selected_endpoint_survives_imposed_zero_level": false
+  },
+  "continuation": {
+    "mathematical_kt_properness_on_single_orbit": "CLOSED",
+    "source_owned_zero_level": "OPEN",
+    "edge_momentum_cancellation": "OPEN",
+    "boundary_condition_for_zero_charge": "OPEN",
+    "complete_dynamical_orbit_type_stratification": "OPEN",
+    "fixed_label_curved_bfv_completion": "OPEN",
+    "functional_analytic_domain": "DEFERRED"
+  },
+  "claim_ceiling": {
+    "grade": "EXACT_FINITE_HOMOGENEOUS_GAUGE_ORBIT_PLUS_LOCAL_GLOBAL_BUNDLE_THEOREM",
+    "physical_cohomology": "NOT_CONSTRUCTED",
+    "w_or_mirror_selected": false,
+    "total_theory_chirality": "NON_CHIRAL_SOURCE_TARGET_PRESERVED",
+    "emergent_luminous_dark_decoupling": "OPEN",
+    "generation_count": "NOT_INFERRED",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_stabilizer_koszul_tate_resolution_gate_probe.py",
+    "result": "PASS_58_OF_58"
+  }
+}

@@ -119,8 +119,10 @@ graph TD
   PD_STRUCTURE_TRANSPORT_s3 --> PD_STRUCTURE_TRANSPORT_chk
   PD_STRUCTURE_TRANSPORT_t0("TRAP 2026-08-14")
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t0
-  PD_STRUCTURE_TRANSPORT_t1("TRAP 2026-08-12")
+  PD_STRUCTURE_TRANSPORT_t1("TRAP 2026-08-14")
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t1
+  PD_STRUCTURE_TRANSPORT_t2("TRAP 2026-08-12")
+  PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t2
   PD_I2B_ACTION_OWNER["PD-I2B-ACTION-OWNER"]
   PD_I2B_ACTION_OWNER_s0["AUTHOR-STATED: The source prints Upsilon_print=S(F_A)+*kappa T and separately gives E_act=..."]
   PD_I2B_ACTION_OWNER --> PD_I2B_ACTION_OWNER_s0
@@ -322,6 +324,9 @@ graph TD
 
 **Traps that actually happened:**
 
+- **2026-08-14** — A proper Koszul--Tate resolution of the moment-map zero section on one homogeneous gauge orbit was at risk of being treated as source or action authority to impose that zero level, and the single orbit as the full dynamical orbit-type stratum. The actual selected-action endpoint is a legitimate orbit covector with 30 nonzero independent charges, so it lies outside the cleanly resolved constraint surface.
+  - *Cost:* Would discard the action-derived boundary endpoint by definition, call a local homogeneous-orbit theorem the complete BFV theory, and skip the real missing owner: a boundary/Green zero-charge law or compensating covariant edge momentum.
+  - *Receipt:* `explorations/conditional-build/selected-k77-stabilizer-koszul-tate-resolution-gate-2026-08-14.md`
 - **2026-08-14** — A full U(64,64) frame/connection group was treated as if it supplied an arbitrary U(64,64) bundle and therefore a freely available determinant first-Chern class. The source object is instead the unitary frame bundle of the Spin-induced spinor bundle, whose connected determinant character is trivial; determinant also forgets the finite scalar kernel mu_128.
   - *Cost:* Would build observation and BV/BFV machinery around absolute determinant topology the minimal carrier cannot possess, while simultaneously discarding the genuinely open finite-holonomy and boundary-relative routes.
   - *Receipt:* `explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md`
