@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 POLARIZATION COTANGENT-DESCENT GATE.** Source `epsilon`
+> already owns the full moving labelled Clifford frame, so the
+> 40-dimensional `Spin(7,7)/H_split` W/mirror polarization orbit is a
+> dependent composite with zero new configuration fields. This corrects the
+> v0.251 configuration-owner wording without selecting W or mirror. The
+> reduced preboundary owner remains open: a full-frame endpoint covector
+> descends to the orbit iff all 51 split-stabilizer charge components vanish.
+> **Next decompose the actual selected-action endpoint momentum into its
+> 51 split and 40 mixed components.** If split charge vanishes, construct the
+> reduced moment map and 91-ghost BFV complex; otherwise derive the required
+> reduction/constraint or retain a larger edge completion. Do not call the
+> dependent orbit physical cohomology or begin the analytic domain early.
+
 > **2026-08-14 BOUNDARY-EDGE LIE-CLOSURE GATE (ledger v0.251).**
 > The selected rank-eight mixed obstruction is a tangent image, not a closed
 > gauge algebra: the eight generators close to dimension 15, and the active
@@ -14,10 +27,9 @@ updated_at: "2026-08-14"
 > The 66 inactive tangent directions are not an ideal. Full-gauge covariance
 > of W therefore requires the 40-dimensional `Spin(7,7)/H_split` moving-
 > polarization orbit, or an independently action-owned reduction to the
-> 51-dimensional split stabilizer. The source owns neither and the conjugate
-> mirror family remains equal. **Next derive one of those owners from the
-> action and its preboundary variation, then build the ghost-closed BFV
-> complex and codimension-one analytic domain.** Do not add eight fitted edge
+> 51-dimensional split stabilizer. The successor now shows that source
+> `epsilon` owns the orbit as a dependent configuration composite; its
+> reduced preboundary momentum remains open. Do not add eight fitted edge
 > coordinates or call a covariant family a physical half.
 
 > **2026-08-14 ASYMMETRIC W/MIRROR BOUNDARY-DOMAIN GATE (ledger v0.250).**

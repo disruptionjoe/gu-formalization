@@ -9,16 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current polarization cotangent-descent gate:** source `epsilon` owns the
+> full moving labelled Clifford frame. Projecting its four base labels gives
+> the required 40-dimensional `Spin(7,7)/H_split` orbit as a dependent
+> configuration composite with zero new fields; W and mirror remain equal
+> associated families. Configuration covariance is not preboundary descent:
+> the actual source endpoint covector must annihilate all 51 stabilizer
+> directions. Rank one is the exact 51+40 endpoint-charge decomposition, then
+> reduced moment map/BFV only if the split charge vanishes.
+
 > **Current v0.251 boundary-edge Lie-closure gate:** rank eight is the mixed
 > tangent rank at the selected coefficient bank, not a closed gauge algebra.
 > Those eight directions close to dimension 15, and the active `17+8`
 > representatives generate all 91 directions of `so(7,7)`; the inactive 66
 > are not an ideal. Full-gauge covariance of W requires the 40-dimensional
 > `Spin(7,7)/H_split` polarization orbit, while a source-owned reduction to
-> the 51-dimensional split stabilizer is the alternative. Neither is action-
-> owned, and the mirror family is equal. Rank one is to derive one owner from
-> the source action/preboundary variation, then build the ghost-closed BFV
-> complex and analytic domain. Do not add eight fitted edge fields.
+> the 51-dimensional split stabilizer is the alternative. The successor
+> identifies the orbit as a dependent source-`epsilon` configuration; its
+> cotangent/preboundary descent remains open. Do not add eight fitted fields.
 
 > **Current v0.250 asymmetric W/mirror boundary/domain gate:** for either
 > current action-pairing horn, W and mirror are complementary maximal-isotropic

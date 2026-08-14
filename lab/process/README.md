@@ -13,8 +13,13 @@ summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.251.md`.
 The rank-eight mixed obstruction is not a closed edge algebra and the active
 `17+8` representatives generate full `so(7,7)`. Full covariance requires a
-source-owned split reduction or the 40-dimensional moving-polarization orbit,
-then BFV and an analytic closed domain.
+source-owned split reduction or the 40-dimensional moving-polarization orbit.
+The successor proves source `epsilon` owns that orbit as a dependent
+configuration composite; the actual endpoint momentum's 51+40 charge
+decomposition, reduced BFV and analytic domain remain open.
+
+Current ownership correction/result:
+`explorations/conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md`.
 
 Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.250.json`](conditional-physics-ledger-v0.250.json),

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 550d12cf10dac5d9c5e0057f3fb56a501d7c44b1
+revision_basis: 1d5754bcb1db504c09d1f12a15ccd7883b33007f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -28,8 +28,12 @@ current_result:
     91 directions of `so(7,7)` and the inactive 66 are not an ideal. Full-
     gauge covariance requires either an independently action-owned split-
     stabilizer reduction or the 40-dimensional `Spin(7,7)/H_split` moving-
-    polarization orbit. The source owns neither. BFV and analytic closure
-    remain open, so no luminous/mirror physical selection follows.
+    polarization orbit. Source `epsilon` already owns the latter as a
+    dependent projection of its full moving labelled Clifford frame, with
+    zero new configuration fields, but the actual endpoint momentum has not
+    yet passed the necessary 51-component stabilizer-annihilation test for
+    cotangent/preboundary descent. BFV and analytic closure remain open, so
+    no luminous/mirror physical selection follows.
     Weinstein's total theory remains
     explicitly non-chiral; the open physics burden is low-curvature
     luminous/dark chiral-looking decoupling through a nonstandard operator or
@@ -41,6 +45,7 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-boundary-edge-lie-closure-gate-2026-08-14.md
     - explorations/conditional-build/conditional-physics-ledger-v0.251.md
     - lab/process/conditional-physics-ledger-v0.251.json
@@ -70,9 +75,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the source action derive either a split-stabilizer reduction or the
-  40-dimensional Spin(7,7)/H_split moving-polarization field, together with
-  its preboundary moment map, without choosing W or mirror?
+  Does the actual selected-action endpoint momentum annihilate all 51
+  split-stabilizer directions so that the source-epsilon-dependent
+  40-dimensional polarization orbit has a reduced preboundary moment map?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -81,10 +86,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Derive from the source action and preboundary variation either the reduction
-  to the split stabilizer or the full 40-dimensional moving-polarization owner.
-  Then construct the 91-ghost-closed BFV charge/master equation and a
-  codimension-one analytic domain. Do not install only the eight active tangent
-  coordinates, choose W or mirror, fit a projector, or rescue the blocked
-  family-index route by hand.
+  Decompose the exact selected-action endpoint momentum into its 51 split and
+  40 mixed charge components. If the split charge vanishes, construct the
+  reduced orbit moment map and then the 91-ghost-closed BFV charge/master
+  equation. If it survives, derive the corresponding constraint/reduction or
+  retain a larger edge completion. Only after BFV closure construct a
+  codimension-one analytic domain. Do not choose W or mirror, add independent
+  orbit coordinates, or call the dependent family physical cohomology.
 what_needs_joe: none

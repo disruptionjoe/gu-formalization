@@ -6,6 +6,11 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_polarization_cotangent_descent_gate_probe.py`
+  proves the source-frame split-orbit differential has kernel 51 and rank 40,
+  checks moving-projector covariance, and proves the exact cotangent descent
+  criterion with descending and stabilizer-charged controls. Run with Python 3.
+
 - `channel-swings/selected_k77_boundary_edge_lie_closure_gate_probe.py`
   reconstructs the exact active `17+8` gauge generators, proves the eight
   mixed directions close to 15 and the active 25 close to all 91
