@@ -147,6 +147,17 @@ updated_at: "2026-08-14"
 > nonstandard operator or domain.** No verdict, residue, quotient, datum,
 > canon or public-posture move.
 
+> **2026-08-14 COADJOINT-INVARIANT VARIATION GATE (ledger v0.255
+> preserved).** The seven type-D7 invariant differentials have rank seven and
+> common 84-dimensional kernel, exactly the Kirillov tangent. Along the
+> action-owned off-shell line `(B,T)->lambda(B,T)`, all seven derivatives are
+> nonzero. One fixed KKS orbit cannot cancel the unconstrained nearby endpoint
+> family. **Next derive the boundary/Green stationarity locus and test whether
+> it locks all seven values; otherwise construct the smallest equivariant
+> group/cotangent carrier spanning their variation and compare charged boundary
+> symmetry.** A fixed orbit on a derived admissible locus remains open. Exact
+> probe: `37/37`; no verdict or public-posture change.
+
 > **2026-08-14 LOCAL-TWISTOR/BACH-DETOUR COMPOSITION GATE (ledger
 > v0.255).** H3 now has a canonical curved object: the observed conformal spin
 > geometry supplies the local-twistor connection. Its raw square is Weyl/

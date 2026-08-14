@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Coadjoint-invariant variation gate 2026-08-14 (ledger v0.255 preserved;
+headline unchanged).** The endpoint charge's six even trace invariants and
+degree-seven Pfaffian have independent differential rank seven, with common
+kernel equal to the 84-dimensional Kirillov tangent. All seven vary exactly
+along the action-owned off-shell line `(B,T)->lambda(B,T)`. This rejects one
+fixed KKS orbit over the unconstrained nearby endpoint family. A derived
+boundary/Green law may still lock every value on an admissible locus;
+otherwise a larger equivariant carrier or charged boundary symmetry is
+required. The `37/37` probe changes no verdict, canon, or public posture.
+
 **Local-twistor/Bach-detour composition gate 2026-08-14 (ledger v0.255;
 headline unchanged).** The general-Lorentzian H3 branch now constructs the
 canonical local-twistor connection from the observed conformal spin geometry.

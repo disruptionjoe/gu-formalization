@@ -81,6 +81,12 @@ the map: which directory/group supports which claim.
   controls. Run with pinned SymPy `1.14.0` and NumPy `2.3.2`; it passes
   `54/54`.
 
+- `channel-swings/selected_k77_coadjoint_invariant_variation_gate_probe.py`
+  reconstructs the trace-dual endpoint element in `so(7,7)`, proves the seven
+  type-D7 invariant differentials have rank seven and 84-dimensional common
+  kernel, and differentiates the action endpoint along an exact `B/T` line.
+  All seven derivatives are nonzero. Run with Sage Python; it passes `37/37`.
+
 - `channel-swings/selected_k77_local_twistor_bach_detour_composition_gate_probe.py`
   builds the exact four-dimensional twistor projector, proves its rank and
   carrier embedding into ambient `ker Gamma14`, and distinguishes `Pi4` from

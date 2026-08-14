@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ee0a3077a57433f2839719c1f6e39da63295e99b
+revision_basis: d80f505c4ea1ff11877dfc3e1d645b1758b16fa3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,13 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The endpoint's seven independent type-D7 coadjoint invariants all have
+    exact nonzero first derivative along the action-owned off-shell line
+    (B,T)->lambda(B,T). Their common kernel is the 84-dimensional Kirillov
+    tangent, so one fixed coadjoint orbit cannot carry the unconstrained
+    nearby endpoint family. A boundary/Green law could still lock all seven
+    values; absent that law, the successor must span multiple coadjoint values
+    or retain charged boundary symmetry. No physical cohomology follows.
     The selected homogeneous distortion orbit now has an exact proper
     stabilizer-aware Koszul--Tate model: 21 stabilizer relations resolve the
     91 labelled moment-map components to 70 independent orbit directions,
@@ -78,6 +85,8 @@ current_result:
     factorization, positive domain and pairing, physical cohomology and any
     decoherence law remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-coadjoint-invariant-variation-gate-2026-08-14.md
+    - lab/process/selected-k77-coadjoint-invariant-variation-gate.json
     - explorations/conditional-build/selected-k77-local-twistor-bach-detour-composition-gate-2026-08-14.md
     - lab/process/selected-k77-local-twistor-bach-detour-composition-gate.json
     - explorations/conditional-build/conditional-physics-ledger-v0.255.md
@@ -127,9 +136,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the selected action derive a boundary/Green stationarity condition that
-  makes all 70 independent orbit charges vanish, or must a covariant edge
-  cotangent carrier cancel the exact 30-component endpoint charge?
+  Does the selected action derive a boundary/Green stationarity law locking
+  all seven coadjoint invariants, or must the edge phase space span their exact
+  transverse variation?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -138,12 +147,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compare the two action-level boundary horns: derive a boundary/Green
-  stationarity law placing the endpoint on the moment-map zero level, or
-  construct the smallest covariant edge cotangent carrier with opposite
-  charge. Then assemble the moving-stabilizer connection/curvature terms in
-  the fixed-label reducible BFV charge and only afterward enter the analytic
-  domain. Do not impose zero because its KT resolution is proper, identify one
-  homogeneous orbit with the full dynamical stratification, choose W/mirror,
-  or replace Weinstein's non-chiral total target with net chirality.
+  Derive the selected action's boundary/Green stationarity equations and test
+  whether their admissible locus kills all seven invariant derivatives. In
+  parallel, construct the smallest equivariant symplectic group/cotangent
+  carrier spanning the exact variation and compare charged boundary symmetry.
+  Only afterward enter the analytic domain. Do not treat the off-shell witness
+  as an on-shell theorem, choose W/mirror, or replace Weinstein's non-chiral
+  total target with net chirality.
 what_needs_joe: none
