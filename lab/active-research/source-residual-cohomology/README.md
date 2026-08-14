@@ -54,8 +54,8 @@ The mandatory null remains:
 | swing | question | earned result required before continuing | status |
 |---|---|---|---|
 | `SR-0` | Which operator owns the proposed cohomology and the Yang--Mills-like equation? | Typed separation of source residual square from ordinary Yang--Mills, with exact controls. | **executed** |
-| `SR-1` | Does the source gauge map compose with the linearized total residual on an action-owned stationary background? | Construct `K`, `L_Upsilon`; certify `L_Upsilon K=0` on shell and identify reducibility. | queued |
-| `SR-2` | Is the second action genuinely the square/factorization of the first layer? | Compare the full Hessian, including the residual-dependent term, with `L_Upsilon^! Q_B L_Upsilon`; identify the exact on-shell condition. | queued |
+| `SR-1` | Does the source gauge map compose with the linearized total residual on an action-owned stationary background? | Construct `K`, `L_Upsilon`; certify `L_Upsilon K=0` on shell and identify reducibility. | **executed negative: `BACKGROUND-MISSING`** |
+| `SR-2` | Is the second action genuinely the square/factorization of the first layer? | Compare the full Hessian, including the residual-dependent term, with `L_Upsilon^! Q_B L_Upsilon`; identify the exact on-shell condition. | blocked by `SR-1` premise |
 | `SR-3` | Does Weinstein's rolled Dirac--Rarita--Schwinger operator factor or intertwine with that complex? | Principal and lower-order symbol map on one common carrier/domain. | queued |
 | `SR-4` | What exactly decouples into Weyl sectors? | Construct the off-diagonal zero-order mass/VEV block `M(Phi)` and prove the algebraic decoupling criterion `M=0`. | queued |
 | `SR-5` | Does curvature dynamically control `M(Phi)`? | Derive, rather than posit, the map from scalar curvature/distortion/VEV to `M`; test low- and high-curvature controls. | queued |
@@ -65,13 +65,19 @@ The mandatory null remains:
 The dependency order is strict. A later swing may be explored early only as a
 clearly typed comparator; it cannot close an earlier gate.
 
-## First result
+## Results
 
 [`sr0-operator-owner-rebase-2026-08-14.md`](sr0-operator-owner-rebase-2026-08-14.md)
 establishes the operator-owner rebase. Ordinary source-free Yang--Mills remains
 a useful comparator and a component of the twistor detour, but it is not the
-source's printed second equation. The next mathematical swing is `SR-1` on an
-action-owned stationary background.
+source's printed second equation.
+
+[`sr1-total-residual-complex-background-gate-2026-08-14.md`](sr1-total-residual-complex-background-gate-2026-08-14.md)
+proves the conditional equivariant composition theorem and returns
+`BACKGROUND-MISSING`: no complete action-owned total-residual-zero stationary
+GU background is currently constructed. The next mathematical construction
+is `SR-1B`, the background and total-carrier build. `SR-2` cannot begin until
+that premise is owned.
 
 ## Claim ceiling
 
@@ -79,4 +85,3 @@ This lane constructs no quantum state space, positive pairing, superposition
 law, Born rule, luminous/dark separation, decoherence channel, memory kernel,
 particle spectrum or empirical prediction. Weinstein's formulas are source
 statements; repository computations decide only the exact objects they model.
-

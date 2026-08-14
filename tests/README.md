@@ -105,6 +105,16 @@ the map: which directory/group supports which claim.
   solution-set or quantum-superposition test. Run with Python 3; it passes
   `43/43`.
 
+- `channel-swings/source_residual_cohomology_sr1_total_residual_complex_background_probe.py`
+  certifies the exact conditional identity
+  `L_Upsilon K=rho_*(eta)Upsilon` with nonvacuous on-shell, off-shell and
+  frozen-block matrix controls, then audits the repository's source-moduli,
+  selected radial, factorization, Ward, BV/KT and fermion-background
+  candidates. It returns `BACKGROUND-MISSING`: no complete action-owned
+  total-residual-zero stationary GU background and common total carrier are
+  currently constructed, so `SR-2` is blocked. It is not a no-solution theorem
+  and does not test physical cohomology. Run with Python 3; it passes `45/45`.
+
 - `channel-swings/selected_k77_total_twisted_yang_mills_current_gate_probe.py`
   constructs the universal K77-typed adapted metric-connection algebra at the
   actual `4+10` dimensions over exact rationals, verifies its
