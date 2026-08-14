@@ -46,6 +46,7 @@ current_result:
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
     - explorations/conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md
+    - lab/process/selected-k77-polarization-cotangent-descent.json
     - explorations/conditional-build/selected-k77-boundary-edge-lie-closure-gate-2026-08-14.md
     - explorations/conditional-build/conditional-physics-ledger-v0.251.md
     - lab/process/conditional-physics-ledger-v0.251.json

@@ -4,6 +4,7 @@ created: 2026-08-14
 status: SOURCE_EPSILON_OWNS_DEPENDENT_DIM40_POLARIZATION_ORBIT__COTANGENT_DESCENT_IFF_SPLIT_CHARGES_VANISH__ACTUAL_ENDPOINT_CHARGE_DECOMPOSITION_OPEN
 source_return: SOURCE_OWNS_FULL_LABELLED_MOVING_FRAME_AND_ACTION_ENDPOINT_MOMENTUM__REPO_DERIVES_DEPENDENT_SPLIT_ORBIT_AND_COTANGENT_DESCENT_CRITERION__SOURCE_SILENT_W_MIRROR_SELECTION_AND_REDUCED_BFV_DOMAIN
 ledger_rows: [RA-G2, LT-SM3, AC-F1, AC-G1a]
+registry: lab/process/selected-k77-polarization-cotangent-descent.json
 canon_verdict_change: none
 ---
 
@@ -143,4 +144,5 @@ analytic domain before the charge test closes.
 python tests/channel-swings/selected_k77_polarization_cotangent_descent_gate_probe.py
 ```
 
-The exact probe passes all declared checks.
+The exact probe passes all declared checks and validates the machine-readable
+registry.

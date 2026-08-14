@@ -9,6 +9,7 @@ orbit.  It constructs no BFV master action or analytic boundary domain.
 
 from collections import Counter
 from pathlib import Path
+import json
 
 import sympy as sp
 
@@ -49,6 +50,7 @@ GENERATORS = {pair: generator(*pair) for pair in PAIRS}
 
 
 print("A. SOURCE, PREDECESSORS, AND LAYER ZERO")
+registry = json.loads(read("lab/process/selected-k77-polarization-cotangent-descent.json"))
 reduction = read("explorations/conditional-build/selected-k77-full-reduction-quotient-reconciliation-2026-08-07.md")
 edge = read("explorations/conditional-build/selected-k77-boundary-edge-lie-closure-gate-2026-08-14.md")
 noether = read("explorations/conditional-build/selected-k77-action-noether-preboundary-2026-08-08.md")
@@ -59,6 +61,11 @@ check("prior", "the W polarization has split stabilizer 51 and orbit dimension 4
       "dim H = 51" in edge and "dim Spin(7,7)/H = 40" in edge)
 check("prior", "the selected action has a live unrestricted boundary moment map",
       "live moment map / surface charge" in noether)
+check("registry", "the machine-readable carrier dimensions and zero field cost are exact",
+      registry["carrier"]["group_dimension"] == 91
+      and registry["carrier"]["stabilizer_dimension"] == 51
+      and registry["carrier"]["orbit_dimension"] == 40
+      and registry["carrier"]["independent_configuration_fields_added"] == 0)
 for label in (
     "full labelled frame versus its split-orbit projection",
     "dependent configuration composite versus independent edge field",
@@ -116,6 +123,9 @@ check("cotangent", "a covector with a stabilizer component does not descend",
 check("cotangent", "descent is equivalent to annihilating all 51 stabilizer generators",
       all(descending[0, index] == 0 for index in split_columns)
       and any(generic[0, index] != 0 for index in split_columns))
+check("registry", "the registry preserves the exact open endpoint test",
+      registry["cotangent_descent"]["actual_selected_action_endpoint_test"] == "OPEN"
+      and "51_SPLIT" in registry["next_gate"])
 
 # Canonical local cotangent-lift moment map: mu_X=<Pi,[X,P]>.
 Pi = sp.zeros(14)

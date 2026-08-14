@@ -20,6 +20,8 @@ decomposition, reduced BFV and analytic domain remain open.
 
 Current ownership correction/result:
 `explorations/conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md`.
+Machine-readable exact registry:
+[`selected-k77-polarization-cotangent-descent.json`](selected-k77-polarization-cotangent-descent.json).
 
 Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.250.json`](conditional-physics-ledger-v0.250.json),

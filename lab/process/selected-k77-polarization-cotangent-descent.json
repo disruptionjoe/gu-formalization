@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "SOURCE_EPSILON_OWNS_DEPENDENT_DIM40_POLARIZATION_ORBIT__COTANGENT_DESCENT_IFF_SPLIT_CHARGES_VANISH__ACTUAL_ENDPOINT_CHARGE_DECOMPOSITION_OPEN",
+  "carrier": {
+    "source_field": "epsilon full moving labelled Clifford frame",
+    "group": "Spin(7,7)",
+    "group_dimension": 91,
+    "stabilizer": "Spin(1,3) x Spin(6,4)",
+    "stabilizer_dimension": 51,
+    "orbit": "Spin(7,7)/H_split",
+    "orbit_dimension": 40,
+    "independent_configuration_fields_added": 0
+  },
+  "differential": {
+    "formula": "d pi_e(X) = [X,P0]",
+    "rank": 40,
+    "kernel_dimension": 51,
+    "kernel": "h_split",
+    "moving_projector_law": "delta P = [X,P]"
+  },
+  "cotangent_descent": {
+    "criterion": "lambda descends iff lambda restricted to h_split is zero",
+    "equivalent_component_test": "all 51 split-stabilizer charges vanish",
+    "local_moment_map": "mu_X(P,Pi) = <Pi,[X,P]>",
+    "actual_selected_action_endpoint_test": "OPEN"
+  },
+  "selection": {
+    "w_family_owned_as_dependent_composite": true,
+    "mirror_family_owned_as_dependent_composite": true,
+    "member_selected": false
+  },
+  "claim_ceiling": {
+    "bfv_master_equation": "OPEN",
+    "analytic_domain": "OPEN",
+    "physical_cohomology": "OPEN",
+    "chirality_or_generation_count": "NOT_INFERRED",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "DECOMPOSE_ACTUAL_SELECTED_ACTION_ENDPOINT_MOMENTUM_INTO_51_SPLIT_PLUS_40_MIXED_CHARGES"
+}
