@@ -35,8 +35,13 @@ current_result:
     exact fixture: 15 of 51 split charges and 15 of 40 mixed charges are
     nonzero. Direct cotangent descent to the polarization orbit is therefore
     unavailable there. The larger charged edge completion and its split
-    moment-map zero level must be retained; full BFV and analytic closure
-    remain open, so no luminous/mirror physical selection follows.
+    moment-map zero level must be retained. The normalized full 91-ghost
+    classical BFV charge now closes exactly by moment-map equivariance and
+    `so(7,7)` Jacobi. At the frozen distortion, however, the action has rank
+    70 and a 21-dimensional odd-axis `so(3,4)` stabilizer; the full zero level
+    is nonregular at `(T,0)`. A proper stabilizer-aware Koszul--Tate/
+    ghost-for-ghost resolution and the analytic domain remain open, so no
+    luminous/mirror physical selection follows.
     Weinstein's total theory remains
     explicitly non-chiral; the open physics burden is low-curvature
     luminous/dark chiral-looking decoupling through a nonstandard operator or
@@ -48,6 +53,8 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-full-bfv-master-equation-gate-2026-08-14.md
+    - lab/process/selected-k77-full-bfv-master-equation-gate.json
     - explorations/conditional-build/selected-k77-endpoint-stabilizer-charge-gate-2026-08-14.md
     - lab/process/selected-k77-endpoint-stabilizer-charge-gate.json
     - explorations/conditional-build/selected-k77-polarization-cotangent-descent-gate-2026-08-14.md
@@ -81,9 +88,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the full 91-ghost BFV charge close on the retained charged edge
-  completion when the nonzero split-stabilizer endpoint moment map is imposed
-  as a zero-level constraint?
+  Can the algebraically closed but rank-70 reducible full moment-map
+  presentation be completed to a proper stabilizer-aware Koszul--Tate/BFV
+  resolution on a source-owned orbit-type stratum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -92,11 +99,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the full 91-ghost BFV charge on the retained charged edge
-  completion, include the split-stabilizer zero-level constraint and all
-  structure constants, and verify the classical master equation. Determine
-  constraint rank, regularity and reducibility rather than inferring them from
-  the 15-component support. Only after BFV closure construct a codimension-one
-  analytic domain. Do not choose W or mirror, add independent orbit
-  coordinates, or call the dependent family physical cohomology.
+  Derive a source-owned constant-orbit-type stratum or explicit singular
+  stratification for the retained charged edge carrier, globalize the
+  21-dimensional stabilizer relations where valid, and construct the proper
+  Koszul--Tate/ghost-for-ghost completion. Prove acyclicity/properness before
+  any codimension-one analytic domain. Do not identify the distortion
+  stabilizer with the W-polarization stabilizer, choose W or mirror, or call
+  the algebraic complex physical cohomology.
 what_needs_joe: none

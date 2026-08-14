@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "FULL_91_GHOST_CLASSICAL_BFV_CHARGE_CLOSES_EXACTLY__FROZEN_DISTORTION_ACTION_RANK_70_WITH_SO34_STABILIZER_DIM21__ZERO_LEVEL_NONREGULAR_AND_PROPER_RESOLUTION_OPEN",
+  "carrier": {
+    "configuration": "source-epsilon-dependent full labelled K77 frame with retained charged endpoint completion",
+    "gauge_algebra": "so(7,7)",
+    "gauge_dimension": 91,
+    "moment_map": "J_a = P([E_a,T]) for normalized E_ab=(1/2)e_a e_b; equivalently J_a=(1/2)Q_ab in the predecessor raw-bivector convention",
+    "ghosts": 91,
+    "conjugate_ghost_momenta": 91
+  },
+  "bfv": {
+    "charge": "Omega = c^a J_a - (1/2) f_ab^c c^a c^b b_c",
+    "moment_map_equivariance": "PASS_4095_OF_4095",
+    "lie_jacobi": "PASS_121485_OF_121485_DISTINCT_TRIPLES",
+    "classical_master_equation": "EXACTLY_ZERO",
+    "proper_koszul_tate_resolution": "OPEN",
+    "functional_boundary_phase_space": "OPEN"
+  },
+  "constraint_geometry": {
+    "rank_at_frozen_distortion": 70,
+    "stabilizer_dimension": 21,
+    "stabilizer": "odd-axis so(3,4)",
+    "stabilizer_basis": "all 21 odd-odd bivectors",
+    "frozen_point_first_stage_relations": 21,
+    "zero_is_regular_value_of_full_91_map": false,
+    "w_polarization_split_51_plus_40_is_same_as_distortion_stabilizer_21_plus_70": false,
+    "actual_endpoint_is_on_zero_level": false
+  },
+  "continuation": {
+    "retained_charged_edge_completion": "ALGEBRAIC_BFV_CLOSURE_ESTABLISHED",
+    "next_gate": "CONSTRUCT_STABILIZER_AWARE_REDUCIBILITY_AND_KOSZUL_TATE_COMPLETION_ON_A_SOURCE_OWNED_ORBIT_TYPE_STRATUM__ONLY_THEN_BUILD_CODIMENSION_ONE_ANALYTIC_DOMAIN",
+    "analytic_domain": "DEFERRED",
+    "physical_cohomology": "OPEN"
+  },
+  "claim_ceiling": {
+    "grade": "EXACT_FINITE_FROZEN_SELECTED_ACTION_FIXTURE_PLUS_UNIVERSAL_SO77_LIE_IDENTITIES",
+    "every_background_regular_quotient": false,
+    "w_or_mirror_selected": false,
+    "chirality_or_generation_count": "NOT_INFERRED",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  }
+}

@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_full_bfv_master_equation_gate_probe.py`
+  constructs exact `so(7,7)` structure constants, verifies all 4,095 action
+  commutators and 121,485 independent Jacobi triples, certifies the normalized
+  91-ghost classical master equation, and proves frozen action rank 70 with a
+  21-dimensional odd-axis `so(3,4)` stabilizer. It validates the nonregular-
+  zero-level/properness registry and passes `27/27` with pinned SymPy 1.14.0.
+
 - `channel-swings/selected_k77_endpoint_stabilizer_charge_gate_probe.py`
   replays the exact selected-action endpoint bank, evaluates all 51 split and
   40 mixed moment-map components, independently reproduces every component by

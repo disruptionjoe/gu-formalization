@@ -7,17 +7,29 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 FULL 91-GHOST BFV MASTER-EQUATION GATE.** On the retained
+> charged edge completion, the normalized charge
+> `Omega=c^a J_a-(1/2)f_ab^c c^a c^b b_c` closes exactly: all 4,095 action
+> commutators and 121,485 independent Jacobi triples pass. The frozen
+> distortion action has rank 70 with a 21-dimensional odd-axis `so(3,4)`
+> stabilizer, so the full 91-component zero level is not regular at `(T,0)`.
+> Algebraic closure therefore does not yet supply a proper constraint
+> resolution. **Next construct the stabilizer-aware reducibility/Koszul--Tate
+> and ghost-for-ghost completion on a source-owned orbit-type stratum; only
+> then build the analytic domain.** Do not identify this `21+70` split with
+> the W-polarization `51+40` split or infer physical counts/cohomology.
+
 > **2026-08-14 ENDPOINT STABILIZER-CHARGE GATE.** The exact selected-action
 > endpoint covector `E_B-E_T` has nonzero split charge on the frozen fixture:
 > 15 of 51 split components and 15 of 40 mixed components survive, with every
 > analytic value independently reproduced by exact action differentiation.
 > Cotangent descent to `Spin(7,7)/H_split` therefore fails at this point. The
 > preregistered fallback is active: retain the larger charged edge completion
-> and impose the split moment-map zero level as a genuine constraint. **Next
-> construct the full 91-ghost BFV charge and verify its master equation,
-> including constraint rank/reducibility; only then build the analytic
-> domain.** Do not infer fifteen independent constraints from support, choose
-> W/mirror, or call the dependent orbit physical cohomology.
+> and impose the split moment-map zero level as a genuine constraint. The
+> successor closes the full 91-ghost algebraic master equation and finds rank
+> 70 with 21 stabilizer relations, so proper reducibility—not Lie closure—is
+> now the next gate. Do not infer fifteen independent constraints from
+> support, choose W/mirror, or call the dependent orbit physical cohomology.
 
 > **2026-08-14 POLARIZATION COTANGENT-DESCENT GATE.** Source `epsilon`
 > already owns the full moving labelled Clifford frame, so the

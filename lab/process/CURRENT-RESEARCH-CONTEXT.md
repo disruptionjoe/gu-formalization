@@ -9,14 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current full BFV master-equation gate:** the retained charged edge
+> completion carries the normalized 91-ghost charge
+> `Omega=cJ-(1/2)fccb`, and its classical master equation closes exactly by
+> moment-map equivariance plus exhaustive `so(7,7)` Jacobi. The selected
+> distortion action has rank 70 with a 21-dimensional odd-axis `so(3,4)`
+> stabilizer. Hence the full zero level is nonregular at `(T,0)`: algebraic
+> closure is established, but a proper stabilizer-aware reducibility/
+> Koszul--Tate and ghost-for-ghost completion remains rank one. Analytic
+> boundary work waits for that completion. Keep this `21+70` split distinct
+> from the W-polarization `51+40` split.
+
 > **Current endpoint stabilizer-charge gate:** the exact selected-action
 > endpoint covector has 15 nonzero split components among 51 and 15 nonzero
 > mixed components among 40 on the frozen fixture. All 91 analytic charges
 > agree with independent exact action differentiation. The point is not in
 > the split moment-map zero level, so cotangent descent to the 40-dimensional
-> polarization orbit fails there. Rank one is the full 91-ghost BFV charge on
-> the retained larger edge completion, including constraint rank/reducibility
-> and the master equation; analytic domain follows only after closure.
+> polarization orbit fails there. The successor closes the full algebraic BFV
+> charge and moves rank one to its proper reducibility resolution.
 
 > **Current polarization cotangent-descent gate:** source `epsilon` owns the
 > full moving labelled Clifford frame. Projecting its four base labels gives

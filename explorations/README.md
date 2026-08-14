@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 full BFV master-equation gate (2026-08-14)
+
+`conditional-build/selected-k77-full-bfv-master-equation-gate-2026-08-14.md`
+constructs the normalized full 91-ghost classical BFV charge and verifies its
+master equation by exact moment-map equivariance and exhaustive Jacobi checks.
+The frozen distortion action has rank 70 with an `so(3,4)` stabilizer of
+dimension 21, so the full zero level is nonregular. Algebraic closure survives;
+a proper stabilizer-aware Koszul--Tate resolution and analytic domain remain
+open.
+
 ## K77 endpoint stabilizer-charge gate (2026-08-14)
 
 `conditional-build/selected-k77-endpoint-stabilizer-charge-gate-2026-08-14.md`
@@ -14,7 +24,8 @@ evaluates the exact selected-action endpoint moment map on all 91 `so(7,7)`
 generators. Fifteen of 51 split and fifteen of 40 mixed components are nonzero,
 so cotangent descent to the polarization orbit fails at the frozen fixture.
 The larger charged edge completion and split zero-level constraint are
-retained; BFV closure, constraint regularity and analytic domain remain open.
+retained. The successor closes the full algebraic BFV master equation and
+locates the remaining properness obstruction at a rank-70 reducible zero level.
 
 ## K77 polarization cotangent-descent gate (2026-08-14)
 

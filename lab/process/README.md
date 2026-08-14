@@ -17,8 +17,16 @@ source-owned split reduction or the 40-dimensional moving-polarization orbit.
 The successor proves source `epsilon` owns that orbit as a dependent
 configuration composite. The exact endpoint decomposition then finds 15 live
 split and 15 live mixed components, so direct cotangent descent fails at the
-frozen fixture. The larger charged edge completion, full BFV closure and
-analytic domain remain open.
+frozen fixture. The larger charged edge completion now carries an exact full
+91-ghost classical BFV charge. Its master equation closes, but the frozen
+distortion action has rank 70 with an odd-axis `so(3,4)` stabilizer of
+dimension 21, so the full zero level is nonregular and a proper reducibility/
+Koszul--Tate completion remains open before the analytic domain.
+
+Current BFV closure and reducibility result:
+`explorations/conditional-build/selected-k77-full-bfv-master-equation-gate-2026-08-14.md`.
+Machine-readable exact registry:
+[`selected-k77-full-bfv-master-equation-gate.json`](selected-k77-full-bfv-master-equation-gate.json).
 
 Current endpoint charge result:
 `explorations/conditional-build/selected-k77-endpoint-stabilizer-charge-gate-2026-08-14.md`.
