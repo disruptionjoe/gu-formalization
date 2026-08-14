@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 CANONICAL-ZORRO NONZERO-T FIRST-ACTION JET ADMISSION.** A
+> genuinely new canonical-`B_Z` branch now passes the printed residual, true
+> translation Euler and inherited Bianchi rows. With `T=t Phi1`, the sole
+> action-cokernel condition is `28392t^2+91t-351=0`, giving two real nonzero
+> roots. The action map has rank `195/196`—one cokernel dimension with
+> fourteen-cell certificate support—and the same explicit rational 13-cell
+> symmetric correction kills all `196+5,096` rows at either root. The direct
+> density `-t(27+728t^2)` is nonzero, but that is only a volume partial because
+> `E_B` has not closed. **Next compute `E_B` and the moving-Shiab primitive-
+> epsilon plus total fixed-`varpi` metric/observation graph on this exact
+> witness; if admitted, continue formal integrability on the same carrier.**
+> Exact probe `40/40`; `SR-1` remains `BACKGROUND-MISSING`, `SR-2` remains
+> blocked, and no ledger, canon or scheduled-priority change follows.
+
 > **2026-08-14 COMPLETE REGULAR-SEMISIMPLE CARTAN ATLAS.** The sharp
 > `98`-dimensional restricted cotangent construction works for every real
 > Cartan chamber. The finite generally disconnected union of
@@ -25,7 +39,8 @@ updated_at: "2026-08-14"
 > Euler equations with canonical `B_Z` and nonzero `T`, or derive a rival
 > Zorro connection with nonzero mixed trace curvature.** Do not repeat branch
 > construction, relabel `b Phi1` as distinguished, or extend the zero-`T`
-> 14-row cokernel to nonzero `T`. Exact composition probe `25/25`; `SR-1`
+> one-dimensional, 14-supported cokernel to nonzero `T`. Exact composition
+> probe `25/25`; `SR-1`
 > remains `BACKGROUND-MISSING` and `SR-2` remains blocked.
 
 > **2026-08-14 SELECTED-K77 CANONICAL-ZORRO FIRST-ACTION EULER

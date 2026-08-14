@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c17307ee0f26f2d04dde9101dad3ca51412ddc18
+revision_basis: 8ec9c6a1e07beba50bde58d9d3a3ee6f3dd5549c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -62,10 +62,19 @@ current_result:
     variable bulk equations, so constructing an arbitrary nonzero-T branch is
     not the live gate. Both use B=b Phi1 and are nonzero on all nine mixed
     trace-curvature planes; hence neither intersects the canonical Zorro/
-    DeWitt connection, which vanishes on all nine. The remaining gate is a
-    canonical-B_Z nonzero-T source-Euler solve or a derived rival Zorro
-    reconstruction with nonzero mixed trace curvature. SR-1 remains
-    background-missing and SR-2 remains blocked.
+    DeWitt connection, which vanishes on all nine. A genuinely new canonical-
+    B_Z branch now passes the next local gate. With T=t Phi1 and a residual-
+    compatible grade-two DT, the true action quotient is
+    28392t^2+91t-351. It has two real nonzero roots. The symmetric-DT action
+    map has rank 195 in 196 rows, so its cokernel is one-dimensional with a
+    14-cell certificate support. At either root the same explicit rational
+    13-cell correction kills all 196 action and 5,096 Bianchi rows exactly.
+    This is a canonical-Zorro local formal action/Bianchi jet, not a complete
+    stationary background. Its direct action density -t(27+728t^2) is nonzero
+    at both roots, but only E_T has closed; the total fixed-varpi metric and
+    primitive-epsilon rows still require E_B and the moving Shiab/Hodge/frame/
+    observation graph. SR-1 remains background-missing and SR-2 remains
+    blocked.
     The ten rank-128 leaks are already the full N* tensor S observation-kernel
     module; the selected graph, not the carrier, remains only compact-natural.
     The bare selected action's endpoint potential now decides the boundary-law
@@ -171,6 +180,8 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-zorro-nonzero-t-first-action-jet-gate-2026-08-14.md
+    - lab/process/selected-k77-zorro-nonzero-t-first-action-jet-gate.json
     - explorations/conditional-build/selected-k77-regular-semisimple-cartan-atlas-realization-2026-08-14.md
     - lab/process/selected-k77-regular-semisimple-cartan-atlas-realization.json
     - explorations/conditional-build/selected-k77-nonzero-t-zorro-intersection-gate-2026-08-14.md
@@ -254,10 +265,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the known source-stationary nonzero-T family admit a canonical-B_Z
-  member, or can an explicitly derived rival Zorro reconstruction with
-  nonzero mixed trace curvature furnish one complete source/action-owned
-  stationary background?
+  Does the exact canonical-B_Z nonzero-T action/Bianchi jet also satisfy the
+  source-owned primitive-epsilon and total fixed-varpi metric/observation
+  Euler graph, and can it prolong to one complete stationary background?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -266,15 +276,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not retry symmetric-DT repair of the canonical T=F_varpi=0 branch. Build
-  a canonical-B_Z nonzero-T candidate and solve its true source/action Euler
-  rows, or derive an explicitly different connection-grade/Zorro
-  reconstruction with nonzero mixed trace curvature and show that its new
-  typed jet columns hit the 14-dimensional action cokernel. In the independent
-  carrier lane, glue or obstruct the 98-dimensional regular Cartan atlas
-  across singular orbit-type walls, or sharpen the best all-strata carrier
-  below 182. Only after translation stationarity may primitive-epsilon,
-  metric/observation and Spencer/formal-integrability rows resume.
+  Hold the two algebraic amplitudes and explicit 13-cell symmetric correction
+  fixed. Compute E_B and the moving-Shiab primitive-epsilon plus fixed-varpi
+  metric/Hodge/frame/observation graph on that exact jet. Do not call the live
+  direct volume partial a total metric obstruction. If these rows close,
+  continue the Spencer/formal-integrability tower on the same carrier; if one
+  fails, kill this branch at that owned row. In the independent carrier lane,
+  glue or obstruct the 98-dimensional regular Cartan atlas across singular
+  orbit-type walls, or sharpen the best all-strata carrier below 182.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

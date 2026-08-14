@@ -333,5 +333,39 @@ currently owned homogeneous family, not a source-global background no-go.
 
 The corrected `SR-1C` construction is a canonical-`B_Z` nonzero-`T`
 source/action Euler solve, or a derived rival Zorro reconstruction with
-nonzero mixed trace curvature. The 14-row action cokernel remains exact and
-zero-`T` scoped. `SR-1` remains `BACKGROUND-MISSING`; `SR-2` remains blocked.
+nonzero mixed trace curvature. The one-dimensional action cokernel remains
+exact, has fourteen-cell support, and is zero-`T` scoped. `SR-1` remains
+`BACKGROUND-MISSING`; `SR-2` remains blocked.
+
+## 2026-08-14 canonical-Zorro nonzero-T action/Bianchi refinement
+
+The corrected `SR-1C` construction now exists at local formal-jet grade. Set
+
+```text
+C=Phi1 wedge Phi1,
+T=t Phi1,
+DT=-F_BZ+(-t/312-t^2)C+Q,
+```
+
+with `Q` symmetric in its derivative indices. The printed endpoint residual
+vanishes because `S(C)=312 Hodge(Phi1)`. The true action Euler projects onto
+the sole symmetric-`DT` cokernel as
+
+```text
+28392t^2+91t-351.
+```
+
+This polynomial has two real nonzero roots. At either root, one rational
+thirteen-cell `Q` kills all 196 action rows and all 5,096 inherited Bianchi
+rows exactly. Thus the canonical-Zorro nonzero-`T` action/Bianchi jet is
+`NOT-YET-FALSIFIED`; the zero-`T` obstruction and the exclusion of both old
+homogeneous branches remain exact.
+
+This does not close `SR-1`. The action density
+`-t(27+728t^2)` is nonzero on both roots, so a direct volume partial remains
+live. Because only `E_T` has closed, that partial cannot be promoted to the
+total fixed-`varpi` metric Euler. The next construction must evaluate `E_B`,
+`D_B^!(E_B-E_T)`, the moving-Shiab epsilon term and the full
+metric/Hodge/frame/observation graph on this exact witness. Only after those
+rows and the remaining formal-integrability tower close can this become a
+complete stationary background and unblock `SR-2`.

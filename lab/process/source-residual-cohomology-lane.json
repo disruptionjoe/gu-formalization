@@ -60,7 +60,12 @@
               "nonzero_t_zorro_intersection_gate": {
                 "result": "explorations/conditional-build/selected-k77-nonzero-t-zorro-intersection-gate-2026-08-14.md",
                 "probe": "tests/channel-swings/selected_k77_nonzero_t_zorro_intersection_gate_probe.py",
-                "disposition": "KNOWN_NONZERO_T_SOURCE_STATIONARY_BRANCHES_EXIST__BOTH_EXCLUDED_BY_CANONICAL_ZORRO_TRACE_CURVATURE__NATIVE_INTERSECTION_OPEN"
+                "disposition": "KNOWN_NONZERO_T_SOURCE_STATIONARY_BRANCHES_EXIST__BOTH_EXCLUDED_BY_CANONICAL_ZORRO_TRACE_CURVATURE__NATIVE_INTERSECTION_OPEN",
+                "nonzero_t_first_action_jet_gate": {
+                  "result": "explorations/conditional-build/selected-k77-zorro-nonzero-t-first-action-jet-gate-2026-08-14.md",
+                  "probe": "tests/channel-swings/selected_k77_zorro_nonzero_t_first_action_jet_probe.py",
+                  "disposition": "SELECTED_K77_CANONICAL_ZORRO_NONZERO_T_FIRST_ACTION_BIANCHI_JET_ADMITTED__SOURCE_METRIC_EPSILON_COMPLETION_OPEN"
+                }
               }
             }
           }
@@ -108,8 +113,8 @@
   ],
   "next_required_construction": {
     "id": "SR-1C",
-    "statement": "The repository already owns two nonzero-T local source-stationary branches, but both fail canonical Zorro/DeWitt connection legality on all nine mixed trace-curvature planes. Construct a canonical-B_Z nonzero-T source/action Euler solution, or derive a rival Zorro reconstruction with nonzero mixed trace curvature whose new typed jet columns hit the 14-dimensional zero-T action cokernel. Only then resume primitive-epsilon, metric/observation and formal-integrability rows before replaying SR-1.",
-    "failure_rule": "Do not retry the exhausted symmetric grade-two DT correction family, repeat construction of the already-owned homogeneous branches, substitute the printed residual for the action Euler row, relabel b Phi1 as the distinguished connection, manufacture a background by tangent restriction, or promote a local formal two-jet to a GU solution."
+    "statement": "The canonical-B_Z nonzero-T formal branch now solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes with one explicit 13-cell rational symmetric correction. Compute E_B and the moving-Shiab primitive-epsilon plus total fixed-varpi metric/Hodge/frame/observation graph on this exact witness. If those rows close, continue formal integrability on the same carrier before replaying SR-1.",
+    "failure_rule": "Do not retry the exhausted zero-T symmetric grade-two DT family, repeat the already-excluded homogeneous branches, substitute the printed residual for the action Euler row, call the live direct volume partial a total metric obstruction, manufacture a background by tangent restriction, or promote this local formal jet to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
 }

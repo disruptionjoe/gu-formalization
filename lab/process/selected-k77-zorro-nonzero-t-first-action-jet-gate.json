@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "SELECTED_K77_CANONICAL_ZORRO_NONZERO_T_FIRST_ACTION_BIANCHI_JET_ADMITTED__SOURCE_METRIC_EPSILON_COMPLETION_OPEN",
+  "lane_id": "SRC-RES-COH-01",
+  "carrier": {
+    "dependent_connection": "CANONICAL_B_Z",
+    "translation_point_value": "T=t*Phi1",
+    "scalar_cell": "C=Phi1_wedge_Phi1",
+    "exterior_first_jet": "DT=-F_BZ+(-t/312-t^2)C",
+    "printed_endpoint_curvature": "F_varpi=-(t/312)C",
+    "printed_residual": "ZERO_EXACT"
+  },
+  "amplitudes": {
+    "polynomial": "28392*t^2+91*t-351",
+    "discriminant": 39870649,
+    "roots": "t=(-91+-sqrt(39870649))/56784",
+    "real_nonzero_roots": 2
+  },
+  "action_map": {
+    "rows": 196,
+    "rank": 195,
+    "cokernel_dimension": 1,
+    "certificate_cell_support": 14,
+    "symmetric_variables": 9555
+  },
+  "symmetric_correction": {
+    "support": 13,
+    "negative_9_over_56_axes": [1, 2, 3, 10],
+    "positive_5_over_56_axes": [4, 5, 6, 7, 8, 9, 11, 12, 13],
+    "coordinate_pattern": "Q_(0,a)^0a",
+    "all_other_entries": "ZERO",
+    "action_defect": 0,
+    "bianchi_rows": 5096,
+    "bianchi_defect": 0
+  },
+  "direct_metric_partial": {
+    "action_density": "-t*(27+728*t^2)",
+    "zero_on_branch": false,
+    "total_fixed_varpi_metric_euler": "OPEN__E_B_AND_MOVING_GRAPH_REQUIRED"
+  },
+  "primitive_epsilon": "OPEN__D_B_ADJOINT_EB_MINUS_ET_PLUS_MOVING_SHIAB_ADJOINT",
+  "formal_grade": "LOCAL_ACTION_BIANCHI_JET__NOT_OPEN_BACKGROUND",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "next_gate": "COMPUTE_E_B_AND_THE_MOVING_SHIAB_PRIMITIVE_EPSILON_PLUS_FIXED_VARPI_METRIC_OBSERVATION_GRAPH_ON_THIS_EXACT_JET",
+  "checks": {
+    "primary": "40/40 PASS"
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "scheduled_priority": "unchanged",
+    "public_posture": "none"
+  }
+}

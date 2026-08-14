@@ -4233,3 +4233,17 @@ grade-two `DT` corrections even before Bianchi.
 ```sh
 sage -python tests/channel-swings/selected_k77_zorro_first_action_euler_gate_probe.py
 ```
+
+## K77 canonical-Zorro nonzero-T first-action jet gate
+
+`channel-swings/selected_k77_zorro_nonzero_t_first_action_jet_probe.py`
+constructs a genuinely new canonical-`B_Z`, nonzero-`T` residual-compatible
+jet. It derives the exact quadratic action-cokernel condition, proves its two
+real roots, and supplies a thirteen-cell rational symmetric correction with
+zero defect on all 196 action and 5,096 Bianchi rows. It also proves the direct
+volume partial remains live and fences that partial from the still-open total
+fixed-`varpi` metric/epsilon graph.
+
+```sh
+sage -python tests/channel-swings/selected_k77_zorro_nonzero_t_first_action_jet_probe.py
+```

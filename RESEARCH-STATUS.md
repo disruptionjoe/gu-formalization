@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Canonical-Zorro nonzero-`T` first-action jet 2026-08-14 (action/Bianchi
+admitted; source metric/epsilon open).** Holding canonical `B_Z`, set
+`T=t Phi1` and choose the grade-two exterior jet so the printed residual is
+zero. The true action quotient is exactly `28392t^2+91t-351`, with two real
+nonzero roots. The symmetric correction map has rank `195` in `196` action
+rows, hence one cokernel dimension represented on fourteen cells. At either
+root the same rational 13-cell correction kills all 196 action and 5,096
+Bianchi rows. The direct action density `-t(27+728t^2)` is nonzero at both
+roots, but it is not the total fixed-`varpi` metric Euler because `E_B` and the
+moving coefficient/observation graph remain open. See
+`explorations/conditional-build/selected-k77-zorro-nonzero-t-first-action-jet-gate-2026-08-14.md`
+and its exact `40/40` probe. `SR-1` remains `BACKGROUND-MISSING`, `SR-2`
+remains blocked, and no ledger, canon or public-posture change follows.
+
 **Complete regular-semisimple Cartan atlas 2026-08-14 (global minimum 98 on
 the regular locus; singular strata open).** For every representative real
 Cartan chamber `C`, the restricted cotangent carrier
@@ -28,8 +42,8 @@ bulk equations. Both nevertheless fail canonical Zorro/DeWitt legality: their
 canonical dependent connection vanishes. Thus the live gate is not to build
 an arbitrary nonzero-`T` branch; it is to solve the true source/action Euler
 system with canonical `B_Z` and nonzero `T`, or derive a rival Zorro formula
-with nonzero mixed trace curvature. The zero-`T` 14-row action cokernel remains
-exact and scoped. See
+with nonzero mixed trace curvature. The zero-`T` one-dimensional action
+cokernel, represented on fourteen cells, remains exact and scoped. See
 `explorations/conditional-build/selected-k77-nonzero-t-zorro-intersection-gate-2026-08-14.md`
 and its `25/25` exact composition probe.
 
