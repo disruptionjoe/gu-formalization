@@ -6,11 +6,31 @@
   "index": "lab/active-research/source-residual-cohomology/README.md",
   "primary_hypothesis": {
     "id": "H1-R",
-    "statement": "If GU derives superposition internally, its first plausible home is a positive physical cohomology of the action-owned total-residual deformation complex; moving-reduction and local-twistor structures are downstream adapters."
+    "statement": "If GU derives superposition internally, its strongest current candidate is a gauge-dressed positive physical cohomology of the full action-owned bulk-plus-boundary residual complex; the moving associated-spinor J10 is the leading surviving complex candidate, while second-action and twistor structures are ownership and evolution adapters."
   },
   "mandatory_null": {
     "id": "H0",
     "statement": "GU supplies classical complex-linear geometry while ordinary quantization supplies superposition externally."
+  },
+  "hypothesis_council": {
+    "result": "lab/active-research/source-residual-cohomology/superposition-twenty-lens-hypothesis-council-reverse-scaffold-2026-08-14.md",
+    "lens_count": 20,
+    "votes": {
+      "H-Q": 7,
+      "H0": 7,
+      "H-B": 2,
+      "H-M": 2,
+      "H-D": 1,
+      "H-T": 1
+    },
+    "strongest_live_internal_hypothesis": "H-Q*",
+    "truth_status_default": "H0",
+    "protected_high_conviction_minorities": ["H-B", "H-D"],
+    "reverse_swing_sequence": ["VRS-1", "VRS-2", "VRS-3", "VRS-4", "VRS-5", "VRS-6", "VRS-7"],
+    "forward_enabler": {
+      "swing": "VRS-5",
+      "construction": "SR-1C"
+    }
   },
   "exact_floor": [
     "explorations/conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md",
@@ -119,8 +139,9 @@
   "next_required_construction": {
     "id": "SR-1C",
     "scaffold": "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md",
-    "statement": "The canonical-B_Z nonzero-T formal branch solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes, but the admitted field one-jet does not determine primitive epsilon or the total metric graph. Derive E_B, determine and construct the minimal compatible field two-jet required by D_B-adjoint(E_B-E_T), and compute primitive epsilon plus the complete fixed-varpi metric/Hodge/frame/volume row on the same witness. Evaluate observation afterward as a dependent receiver. Continue to the full formal-integrability tower and total carrier only if those source rows close, then replay SR-1.",
-    "forward_stage": "S2_MINIMAL_SOURCE_COORDINATE_VARIATIONAL_PROLONGATION",
+    "statement": "The canonical-B_Z nonzero-T formal branch solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes, but the admitted field one-jet does not determine primitive epsilon or the total metric graph. First construct and held-out validate O_SR1C: j1(E_B-E_T) on this branch in the common 196-row basis plus the fixed-varpi derivatives of B_Z, Shiab, Hodge, frame, density and lowerer. Only then construct the minimal compatible field two-jet required by D_B-adjoint(E_B-E_T), compute primitive epsilon plus the total fixed-varpi metric row, and evaluate observation as a dependent receiver. Continue to the full formal-integrability tower and total carrier only if those source rows close, then replay SR-1.",
+    "first_blocking_operator": "O_SR1C__COMMON_BASIS_BRANCH_EVALUATOR_FOR_J1_E_B_MINUS_E_T_AND_FIXED_VARPI_METRIC_DERIVATIVE_SLOTS",
+    "forward_stage": "VRS_5_FORWARD_ENABLER__S2_MINIMAL_SOURCE_COORDINATE_VARIATIONAL_PROLONGATION",
     "reverse_falsification_status": "RF_1_AND_RF_2_COMPLETE__RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST",
     "failure_rule": "Do not retry the exhausted zero-T family, repeat excluded homogeneous branches, substitute the printed residual for the action Euler row, fill missing higher derivatives with zero, choose one floating algebraic root before exact reduction, count observation as an independent Euler row, call the direct volume partial a total metric obstruction, manufacture a background by tangent restriction, or promote this local formal jet to a GU solution."
   },

@@ -383,22 +383,51 @@ object to the explicit Zorro induced-`Y` connection and its labelled curvature
 one-jet.  Branch-specific stabilizer and reducibility, boundary ownership and
 the common closed domain remain missing.
 
-## 2026-08-14 scaffold reconciliation
+## 2026-08-14 twenty-lens council and scaffold correction
 
-The canonical-`B_Z`, nonzero-`T` branch has since passed the exact printed
-residual, true translation Euler and inherited Bianchi field-one-jet gate at
-two algebraic amplitudes. The admitted order does not determine primitive
-epsilon or the total fixed-`varpi` metric row. The next run is therefore the
-[`SR-1C source-coordinate variational-prolongation scaffold`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md).
+The first scaffold reconciliation used twenty lenses as an audit checklist for
+the forward background construction. The corrected
+[`twenty-lens hypothesis council`](superposition-twenty-lens-hypothesis-council-reverse-scaffold-2026-08-14.md)
+instead asks every lens for its strongest hypothesis, records a vote, protects
+high-conviction minorities and synthesizes the next series of swings.
 
-It synchronizes the two spines as follows:
+The result is a tied plurality:
 
 ```text
-forward:  minimal Euler prolongation -> total fields -> formal germ -> SR-1
-reverse:  RF-1 complete -> RF-2 complete -> pause until actual K_total/L_total
+H-Q  gauge-dressed positive physical cohomology: 7
+H0   external-quantization null:                  7
+H-B  boundary/BFV-first route:                    2
+H-M  family/moduli emergence:                     2
+H-D  second-action derived route:                 1
+H-T  twistor/detour route:                        1
 ```
 
-Observation remains a dependent receiver, not an independent Euler row.
-Minimal prolongation required to evaluate `D_B^!(E_B-E_T)` belongs inside the
-next Euler gate; the complete Spencer/formal-integrability tower follows only
-if those source rows close.
+The strongest live internal hypothesis is `H-Q*`: if GU owns superposition,
+it occurs only on positive physical cohomology of the full action-owned
+bulk-plus-boundary complex, with the moving associated-spinor `J10` as the
+leading surviving complex candidate. `H0` remains the strongest current
+truth-status and mandatory null. The high-conviction boundary/BFV and
+second-action minorities receive explicit discriminators despite their vote
+counts.
+
+The governing order remains reverse conditional building:
+
+```text
+superposition
+  -> internally owned complex physical state space
+  -> positive cohomology with descended J and pairing
+  -> compatible bulk-boundary K/L complex and domain
+  -> stationary background and local/global existence.
+```
+
+The canonical-`B_Z`, nonzero-`T` branch has passed the exact printed residual,
+true translation Euler and inherited Bianchi field-one-jet gate at two
+algebraic amplitudes. Its
+[`SR-1C variational packet`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md)
+is retained as `VRS-5`, the smallest present forward enabling swing exposed by
+the reverse scaffold. Its first typed execution object is `O_SR1C`, the
+still-missing common-basis evaluator for `j^1(E_B-E_T)` and the fixed-`varpi`
+metric derivative slots. It is not the whole scaffold. RF-1 and RF-2 remain
+complete; candidate census, boundary necessity, second-action ownership and a
+conditional total moving-`J` descent theorem now precede instantiation of the
+full physical quotient.

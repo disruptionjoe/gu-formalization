@@ -38,16 +38,32 @@ between them.
 
 ## Working hypothesis
 
-> **H1-R.** If GU derives superposition internally, its first plausible home
-> is a positive physical cohomology of the action-owned total-residual
-> deformation complex. The moving reduction and local-twistor structures must
-> be derived as compatible reductions, prolongations or representations of
-> that complex. They are not allowed to replace its action owner.
+> **H1-R / H-Q\*.** If GU derives superposition internally, its strongest
+> current candidate is a positive physical cohomology of the full action-owned
+> bulk-plus-boundary residual complex. The moving associated-spinor `J10` is
+> the leading surviving complex candidate. Second-action and local-twistor
+> structures must be derived as ownership and evolution adapters; they are not
+> allowed to replace the action owner or physical quotient.
 
 The mandatory null remains:
 
 > **H0.** GU supplies classical complex-linear geometry while ordinary
 > quantization supplies superposition externally.
+
+## Twenty-lens council and live scaffold
+
+The
+[`twenty-lens hypothesis council`](superposition-twenty-lens-hypothesis-council-reverse-scaffold-2026-08-14.md)
+reassesses everything learned in this channel rather than merely auditing the
+current background packet. Its vote is tied: seven lenses select the
+gauge-dressed physical-cohomology route as the strongest internal challenger,
+and seven select `H0` as the strongest current truth-status. Boundary/BFV,
+solution-family, second-action and twistor hypotheses remain protected
+minorities because their specialist conviction can change the route.
+
+The governing scaffold remains reverse conditional building from intrinsic
+superposition to its necessary conditions. Forward construction is launched
+only to supply the smallest missing premise exposed by that reverse chain.
 
 ## Swing sequence
 
@@ -78,11 +94,18 @@ proves the conditional equivariant composition theorem and returns
 GU background is currently constructed. The next mathematical construction
 is `SR-1C`, the source-coordinate variational-prolongation build on the exact
 canonical-`B_Z`, nonzero-`T` action/Bianchi witness. The executable
-[`SR-1C scaffold`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md)
-puts the minimal two-jet needed by primitive epsilon inside the Euler gate,
-keeps the complete formal-integrability tower downstream, and pauses further
-reverse-`J` work until the actual total carrier exists. `SR-2` cannot begin
-until that premise is owned.
+[`SR-1C packet`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md)
+is `VRS-5`, one forward enabling swing within the broader reverse scaffold.
+It puts the minimal two-jet needed by primitive epsilon inside the Euler gate
+and keeps the complete formal-integrability tower downstream. `SR-2` cannot
+begin until its background premise is owned.
+
+The first `VRS-5`/`SR-1C` execution object is now exact at type grade:
+construct and held-out validate `O_SR1C`, the common-basis evaluator for
+`j^1(E_B-E_T)` and the fixed-`varpi` metric derivative slots. Current receipts
+do not serialize that operator on the two-root branch, and exact
+non-identifiability controls forbid replacing it by zero. See the
+[`owner-operator type gate`](../../../explorations/conditional-build/selected-k77-sr1c-owner-operator-type-gate-2026-08-14.md).
 
 ## Claim ceiling
 

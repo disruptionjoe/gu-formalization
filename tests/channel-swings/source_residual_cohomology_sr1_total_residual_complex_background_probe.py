@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import re
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -12,6 +13,7 @@ LANE = ROOT / "lab/process/source-residual-cohomology-lane.json"
 INDEX = ROOT / "lab/active-research/source-residual-cohomology/README.md"
 REPORT = ROOT / "lab/active-research/source-residual-cohomology/sr1-total-residual-complex-background-gate-2026-08-14.md"
 SCAFFOLD = ROOT / "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md"
+COUNCIL = ROOT / "lab/active-research/source-residual-cohomology/superposition-twenty-lens-hypothesis-council-reverse-scaffold-2026-08-14.md"
 SOURCE_REGISTER = ROOT / "lab/sources/source-claim-register.yaml"
 SOURCE_PACK = ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
 RADIAL = ROOT / "explorations/conditional-build/selected-k77-i2b-lower-order-exact-form-lift-2026-08-13.md"
@@ -56,6 +58,7 @@ lane = json.loads(LANE.read_text())
 index = INDEX.read_text()
 report = REPORT.read_text()
 scaffold = SCAFFOLD.read_text()
+council = COUNCIL.read_text()
 source_register = SOURCE_REGISTER.read_text()
 source_pack = SOURCE_PACK.read_text()
 radial = RADIAL.read_text()
@@ -75,6 +78,13 @@ check("SR-1C is the next construction", lane["next_required_construction"]["id"]
 check("the SR-1C scaffold exists", (ROOT / lane["next_required_construction"]["scaffold"]).is_file())
 check("the lane forbids manufacturing a background", "manufacture a background" in lane["next_required_construction"]["failure_rule"])
 check("the lane pauses RF-3 until the total carrier exists", "RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST" in lane["next_required_construction"]["reverse_falsification_status"])
+check("the lane names O_SR1C as the first forward blocker", lane["next_required_construction"]["first_blocking_operator"].startswith("O_SR1C__"))
+check("the twenty-lens council exists", (ROOT / lane["hypothesis_council"]["result"]).is_file())
+check("the council records twenty lenses", lane["hypothesis_council"]["lens_count"] == 20)
+check("the council vote totals twenty", sum(lane["hypothesis_council"]["votes"].values()) == 20)
+check("H-Q and H0 tie for the plurality", lane["hypothesis_council"]["votes"]["H-Q"] == lane["hypothesis_council"]["votes"]["H0"] == 7)
+check("boundary and second action are protected minorities", lane["hypothesis_council"]["protected_high_conviction_minorities"] == ["H-B", "H-D"])
+check("the council serializes twenty individual lens ballots", len(re.findall(r"^\| \d+ \|", council, re.MULTILINE)) == 20)
 check("the index exposes the negative result", "executed negative: `BACKGROUND-MISSING`" in index)
 check("the index keeps the lane active", "status: active_research" in index)
 check("H0 remains mandatory", lane["mandatory_null"]["id"] == "H0")
@@ -139,6 +149,10 @@ check("report preserves the historical SR-1B stage", "The next construction is\n
 check("report names SR-1C as the current next construction", "The next construction, now named `SR-1C`" in report)
 check("scaffold keeps SR-1 background missing", "`SR-1` remains `BACKGROUND-MISSING`" in scaffold)
 check("scaffold keeps observation dependent", "not an additional independently varied action field" in scaffold)
+check("SR-1C is typed as a forward enabling packet", "role: forward_enabling_packet" in scaffold)
+check("council preserves reverse conditional building", "Reverse conditional-building rule" in council)
+check("council names H-Q star and keeps H0", "H-Q\\*" in council and "`H0` remains the mandatory paired null" in council)
+check("council protects the boundary and Hessian minorities", "boundary/BFV hypothesis must be protected" in council and "second-action/Hessian hypothesis must be protected" in council)
 check("report changes no canon verdict", "canon_verdict_change: none" in report)
 check("report claims no physical cohomology", "No quantum state space" in report)
 
