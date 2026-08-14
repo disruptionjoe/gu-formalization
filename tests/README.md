@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_hq_vacuum_conjugation_quotient_probe.py`
+  proves over `Q(i)(a_R,a_I,b_R,b_I)` that every complex-conjugate
+  representative of one weak doublet lies in the same exact `SU(2)` orbit and
+  composes the theorem with both current radial stationary branches. A
+  two-doublet relative-phase control proves richer quotients can retain
+  conjugation, while joint W/mirror-bosonic action ownership, full
+  stationarity, BV/BFV and domains stay open. Run with SageMath 10.9; it
+  passes `43/43`.
+
 - `channel-swings/selected_k77_w_mirror_real_action_wholesale_gate_probe.py`
   proves the complete anti-linear homogeneous block theorem, demonstrates the
   exact broken-vacuum escape, attaches it to the K77 W/mirror projectors and

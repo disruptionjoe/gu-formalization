@@ -8,16 +8,21 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.242.json`](conditional-physics-ledger-v0.242.json),
+summarized as ledger v0.242. The fixed-background real-action class remains
+closed, and the simplest broken-vacuum escape is now decided wholesale. The
+current moving-`H_q` candidate is one complex doublet; each nonzero norm sphere
+is one `SU(2)` orbit, so every within-doublet norm-preserving involution is
+identity on the quotient. The next discriminator is a joint W/mirror action
+on bosonic and fermionic fields plus a phase-sensitive stationary invariant,
+or an explicitly asymmetric BV/BFV or closed analytic domain. No physics-row
+verdict, residue, quotient, canon claim, or public posture moved.
+
+Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.241.json`](conditional-physics-ledger-v0.241.json),
 summarized as ledger v0.241. Frozen source-faithful I2B is already an explicit
-residual-square action, so its Helmholtz ownership is not an open test. For the
-exact anti-linear involution exchanging W with its mirror, every homogeneous
-block-preserving operator has conjugate-up-to-sign blocks. Thus a real
-invariant action Hessian at a conjugation-fixed stationary background has
-equal W/mirror rank/nullity and conjugate characteristic polynomials. The next discriminator
-is an action-owned non-fixed stationary vacuum with a selection rule, or an
-explicitly asymmetric BV/BFV or closed analytic domain. No physics-row
-verdict, residue, quotient, canon claim, or public posture moved.
+residual-square action, and the complete fixed-background real-action class
+cannot split W/mirror by rank, nullity or characteristic data.
 
 Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.240.json`](conditional-physics-ledger-v0.240.json),

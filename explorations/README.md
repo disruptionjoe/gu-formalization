@@ -7,6 +7,15 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 moving-Hq vacuum conjugation quotient (2026-08-14)
+
+`conditional-build/selected-k77-hq-vacuum-conjugation-quotient-2026-08-14.md`
+decides the complete norm-preserving one-complex-doublet class before another
+W/mirror Hessian. Each nonzero fixed-radius locus is one `SU(2)` orbit, so a
+within-doublet conjugation is identity on the physical orbit quotient. A
+two-doublet relative-phase control preserves richer cross-carrier exits, while
+the joint boson/fermion involution and full stationarity remain open.
+
 ## K77 W/mirror real-action wholesale gate (2026-08-14)
 
 `conditional-build/selected-k77-w-mirror-real-action-wholesale-gate-2026-08-14.md`

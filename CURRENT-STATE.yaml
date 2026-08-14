@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9554352808c1dd7ba07539b8a7636c242956c1b8
+revision_basis: db41ebc2e2ea2f253c799d83be9c7861fbb9de9c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,16 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The frozen source-faithful I2B path is already an explicit residual-square
-    action, so its Helmholtz ownership is not the missing gate. The exact
-    anti-linear involution exchanges W with its ASD mirror. Every
-    block-preserving operator homogeneous under that involution has
-    conjugate-up-to-sign blocks; hence a real invariant action Hessian at a
-    conjugation-fixed stationary background gives equal rank/nullity and
-    conjugate characteristic polynomials, so no real conjugation-invariant
-    spectral fingerprint splits them. A non-fixed stationary vacuum, action-owned
-    asymmetric BV/BFV reduction or asymmetric analytic domain remains open.
+    The fixed-background real-action class cannot split W from its ASD mirror.
+    The simplest broken-vacuum escape is now also decided wholesale: the
+    moving-Hq candidate is one complex weak doublet, SU(2) is transitive on
+    every nonzero norm sphere, and every within-doublet norm-preserving
+    involution is the identity on the orbit quotient. Thus a complex
+    orientation of either radial branch is not a physical conjugate-vacuum
+    pair. The joint W/mirror action on bosonic and fermionic fields remains
+    untyped, the trace-Hq branch retains fourteen transverse Euler failures,
+    and a cross-carrier/phase-sensitive stationary invariant or asymmetric
+    BV/BFV/domain remains open.
   evidence:
+    - explorations/conditional-build/selected-k77-hq-vacuum-conjugation-quotient-2026-08-14.md
     - explorations/conditional-build/selected-k77-w-mirror-real-action-wholesale-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-w-mirror-action-pairing-ownership-2026-08-13.md
     - explorations/conditional-build/selected-k77-w-mirror-trace-hq-isotropy-correction-2026-08-13.md
@@ -28,11 +30,12 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
-    - lab/process/conditional-physics-ledger-v0.241.json
+    - lab/process/conditional-physics-ledger-v0.242.json
 current_question: >-
-  Does the source/action construct a fully stationary background that is not
-  fixed by W/mirror conjugation, or an owned BV/domain reduction that breaks
-  the equivalence, without fitting a projector or compatible connection?
+  Does the source/action construct a joint W/mirror involution on the actual
+  bosonic and fermionic field complex and a conjugation-odd gauge invariant
+  with a fully stationary nonzero vacuum, or an owned BV/domain reduction that
+  breaks the equivalence without fitting a projector or compatible connection?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -41,9 +44,10 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Identify the smallest action-owned non-conjugation-fixed stationary vacuum,
-  prove stationarity on the complete owned tangent and state what selects one
-  member of its conjugate pair. If no such vacuum exists, construct an
-  explicitly asymmetric BV/BFV or closed-domain reduction. Only then compute
-  W/mirror Hessian fingerprints and physical cohomology.
+  Construct the joint W/mirror boson-fermion involution and compute its
+  gauge-invariant stationary ring. Continue the vacuum route only if a
+  cross-carrier or phase-sensitive conjugation-odd invariant survives the
+  physical quotient and the complete Euler equations. Otherwise construct an
+  explicitly asymmetric BV/BFV or closed-domain reduction before another
+  W/mirror Hessian or physical-cohomology calculation.
 what_needs_joe: none

@@ -10,6 +10,12 @@ updated_at: "2026-08-14"
 Additional source-custody and reinspection records retained by the native
 research boundary:
 
+- [`selected-k77-hq-vacuum-conjugation-quotient-source-return-2026-08-14.md`](selected-k77-hq-vacuum-conjugation-quotient-source-return-2026-08-14.md)
+  - confirms the source's Higgs-like `varpi` assignment and emergent-chiral
+    target; attributes the one-doublet quotient theorem to the repository; and
+    returns source-silent on the joint W/mirror bosonic involution, a fully
+    stationary vacuum, its selection, BV/BFV reduction and analytic domain.
+
 - [`selected-k77-w-mirror-real-action-wholesale-gate-source-return-2026-08-14.md`](selected-k77-w-mirror-real-action-wholesale-gate-source-return-2026-08-14.md)
   - confirms the source's nonchiral-total and emergent-chiral target; attributes
     the fixed-background real-action no-selection theorem to the repository;

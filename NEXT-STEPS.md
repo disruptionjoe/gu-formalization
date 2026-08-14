@@ -7,6 +7,21 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 ONE-DOUBLET BROKEN-VACUUM CLASS DECIDED WHOLESALE (ledger
+> v0.242).** The moving-`H_q` Higgs candidate is one complex weak doublet.
+> `SU(2)` is transitive on every nonzero norm sphere, so every involution that
+> stays inside this doublet and preserves its norm is the identity on the
+> gauge-orbit quotient. A complex orientation of either radial branch cannot
+> be a physical W/mirror-breaking vacuum. The two-doublet control retains a
+> conjugation-odd relative phase, so no universal no-go follows. **Next build
+> the joint W/mirror action on bosonic and fermionic fields and compute its
+> invariant stationary ring. Require a cross-carrier or phase-sensitive
+> conjugation-odd invariant plus complete-tangent stationarity; otherwise move
+> to an explicitly asymmetric BV/BFV or closed-domain reduction.** The
+> trace-`H_q` branch still fails fourteen Euler cells, observer-`Q_B` remains
+> conditional, and the two `C^(32,32)` halves are not two Higgs doublets. No
+> verdict, residue, quotient, datum, canon or public-posture move.
+
 > **2026-08-14 REAL-ACTION W/MIRROR CLASS DECIDED WHOLESALE (ledger
 > v0.241).** The frozen source-faithful I2B path is already an explicit action;
 > do not rerun a tautological Helmholtz owner test. For the exact anti-linear

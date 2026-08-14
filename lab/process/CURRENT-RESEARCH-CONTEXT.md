@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.242 one-doublet vacuum quotient gate:** the simplest
+> non-fixed-vacuum escape from the W/mirror real-action theorem is closed as a
+> class. The moving-`H_q` candidate is one complex weak doublet; every nonzero
+> norm sphere is one `SU(2)` orbit, so every within-doublet norm-preserving
+> involution descends to the identity. Do not build another Hessian at a
+> complex orientation or treat the two ambient `C^(32,32)` halves as two Higgs
+> doublets. Rank one is the joint W/mirror boson-fermion action plus a
+> cross-carrier or phase-sensitive stationary invariant. If none survives the
+> physical quotient and complete Euler equations, advance an explicitly
+> asymmetric BV/BFV or closed domain. The trace-`H_q` branch retains fourteen
+> transverse failures; observer-`Q_B` remains conditional.
+
 > **Current v0.241 W/mirror real-action wholesale gate:** the frozen
 > source-faithful I2B endpoint square is already an explicit action, so a
 > Helmholtz owner search there is tautological. The exact anti-linear
