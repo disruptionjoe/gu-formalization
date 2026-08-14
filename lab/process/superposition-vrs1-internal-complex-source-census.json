@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-1",
+  "result": "lab/active-research/source-residual-cohomology/vrs1-internal-complex-source-census-2026-08-14.md",
+  "probe": "tests/channel-swings/superposition_vrs1_internal_complex_source_census_probe.py",
+  "disposition": "CURRENT_NAMED_COMPLEX_SOURCE_CENSUS_COMPLETE__NO_CURRENT_SINGLE_OBJECT_IS_J_PHYS__FIXED_AND_DIRECT_ROUTES_KILLED_OR_RETYPED__MOVING_BULK_BOUNDARY_COMPOSITE_ONLY_SURVIVES__GLOBAL_ACTION_ADMISSIBLE_EXHAUSTION_OPEN",
+  "quantifiers": {
+    "current_repo_named_families_accounted_for": true,
+    "complete_fixed_split_equivariant_spinor_family_exhausted": true,
+    "natural_split_orbit_tangent_candidate_exhausted": true,
+    "all_future_action_admissible_complex_sources_exhausted": false,
+    "intrinsic_superposition_hypothesis_killed": false,
+    "current_action_owned_physical_complex_structure_constructed": false
+  },
+  "candidate_families": [
+    {
+      "id": "CS-EXT",
+      "name": "external scalar i and source complexification",
+      "owner": "complexified source carrier or ordinary quantization",
+      "carrier": "complexified classical fields or externally built state space",
+      "status": "KILLED_AS_INTRINSIC_GU_SOURCE",
+      "reason": "The scalar structure enters with complexification or quantization rather than descending from the real action-owned physical quotient.",
+      "class_exhaustion": "CURRENT_NAMED_ROUTE_ONLY"
+    },
+    {
+      "id": "CS-CL95",
+      "name": "retired Cl(9,5) quaternionic units",
+      "owner": "rejected real-form control",
+      "carrier": "Cl(9,5) quaternionic module",
+      "status": "KILLED_BY_NONTRANSFER",
+      "reason": "The quaternionic units do not transfer to the selected Cl(7,7) fork.",
+      "class_exhaustion": "RETIRED_SOURCE_FAMILY"
+    },
+    {
+      "id": "CS-REAL",
+      "name": "K77 gradings, involutions, anti-linear maps and four-dimensional Hodge star",
+      "owner": "selected real Clifford and base-form geometry",
+      "carrier": "spinors, rolled fields, or base two-forms",
+      "status": "KILLED_AS_CURRENT_DIRECT_J_PHYS_FAMILY",
+      "reason": "The named structures either square to plus one, are anti-linear, or lack a gauge-basic map to the physical carrier.",
+      "class_exhaustion": "CURRENT_NAMED_STRUCTURES"
+    },
+    {
+      "id": "CS-FIX",
+      "name": "fixed split-equivariant spinor complex structures",
+      "owner": "selected Cl(7,7) split commutant",
+      "carrier": "fixed spinor and split-natural rolled carrier",
+      "status": "KILLED_EXACT_FINITE_FAMILY",
+      "reason": "The complete family is plus/minus J4 and plus/minus J10; J4 fails the observed principal operator and J10 fails fixed gauge basicness.",
+      "class_exhaustion": "COMPLETE_AT_DECLARED_LOCAL_SPLIT_NATURAL_SCOPE"
+    },
+    {
+      "id": "CS-MOVE",
+      "name": "moving associated-spinor J10",
+      "owner": "associated bundle G x_H S over the moving split reduction",
+      "carrier": "spinor fibre after stabilizer descent",
+      "status": "NOT_YET_FALSIFIED_PARTIAL_CONSTRUCTION",
+      "reason": "Fibrewise descent is exact, but extension through the total bulk-fermion-ghost-boundary complex, physical quotient and positive domain is missing.",
+      "class_exhaustion": "ONE_SURVIVING_CONSTRUCTION_NOT_A_UNIQUENESS_THEOREM"
+    },
+    {
+      "id": "CS-ORBIT",
+      "name": "invariant complex structure on the moving split-orbit tangent",
+      "owner": "SO(1,3) x SO(6,4) homogeneous split geometry",
+      "carrier": "forty-dimensional split-orbit tangent",
+      "status": "KILLED_EXACT_NATURAL_CANDIDATE",
+      "reason": "The stabilizer commutant is real scalar, so no invariant endomorphism squares to minus one.",
+      "class_exhaustion": "COMPLETE_NATURAL_INVARIANT_CANDIDATE"
+    },
+    {
+      "id": "CS-TW",
+      "name": "base local-twistor and normal homogeneous-twistor structures",
+      "owner": "conformal local-twistor or normal homogeneous geometry",
+      "carrier": "rank-four complex spin tractor or normal twistor fibre",
+      "status": "TYPE_MISSING_ADAPTER",
+      "reason": "Local algebra and a Bach-flat detour comparator exist, but no total GU action adapter, physical quotient, positive domain or base-normal identification exists.",
+      "class_exhaustion": "CURRENT_DIRECT_REALIZATIONS_ACCOUNTED_FOR__ALTERNATIVE_TWISTOR_ADAPTERS_OPEN"
+    },
+    {
+      "id": "CS-BFV",
+      "name": "boundary or BFV compatible polarization",
+      "owner": "first-action preboundary variation",
+      "carrier": "real preboundary symplectic parent and its endpoint reductions",
+      "status": "OWNER_PARTIAL__COMPLEX_POLARIZATION_UNSELECTED",
+      "reason": "The real symplectic parent and moment data are action-owned, but no compatible positive complex polarization or physical BFV cohomology is selected.",
+      "class_exhaustion": "BOUNDARY_HORNS_EXIST__POLARIZATION_CLASS_OPEN"
+    },
+    {
+      "id": "CS-I2",
+      "name": "second-action or Hessian complex source",
+      "owner": "residual-square action I2",
+      "carrier": "common action field tangent and residual carrier",
+      "status": "RETYPED_AS_DIFFERENTIAL_OWNER__KILLED_AS_STANDALONE_J",
+      "reason": "On shell the Hessian factorization supplies symmetric quadratic and differential ownership data, not by itself a square-minus-one endomorphism, symplectic form or positive Hermitian pairing.",
+      "class_exhaustion": "STANDALONE_HESSIAN_TO_J_IDENTIFICATION_KILLED__DERIVED_COMPOSITE_ROLE_OPEN"
+    },
+    {
+      "id": "CS-MOD",
+      "name": "solution-stack, moduli-family or local-to-global complex transport",
+      "owner": "claimed solution family and deformation problem",
+      "carrier": "unconstructed formal or global solution stack",
+      "status": "SOURCE_ASSERTED__TYPE_MISSING",
+      "reason": "Rich moduli and Euclidean ellipticity are source claims; no selected Lorentzian complex atlas, integrable family J, action-owned transport or physical quotient is constructed.",
+      "class_exhaustion": "UNEXHAUSTED_FUTURE_CLASS"
+    },
+    {
+      "id": "CS-NL",
+      "name": "action-licensed nonlocal, reduced-process or memory-kernel complex source",
+      "owner": "none in the current GU action inventory",
+      "carrier": "unconstructed reduced state or history space",
+      "status": "CURRENT_INSTANTIATIONS_EXTERNAL__FUTURE_CLASS_OPEN",
+      "reason": "Mori-Zwanzig, channel and Hilbert-space machinery are presently imported analogies; GU owns no Liouvillian, state algebra, positive representation or memory kernel that derives their complex scalars.",
+      "class_exhaustion": "UNEXHAUSTED_FUTURE_ACTION_OWNED_CLASS"
+    }
+  ],
+  "surviving_composite": {
+    "id": "C-MOVE-BFV-I2",
+    "status": "NOT_YET_FALSIFIED__NOT_CONSTRUCTED",
+    "required_roles": {
+      "background": "a legal stationary action-owned bulk-boundary GU configuration",
+      "complex_fibre": "moving associated-spinor J10",
+      "differential_owner": "total residual linearization and the conditional I2 Hessian factorization",
+      "reduction": "boundary-aware gauge/BV/BFV cohomology",
+      "pairing": "descended nondegenerate positive Hermitian structure on the quotient",
+      "evolution_adapter": "possibly twistor/detour data on one common closed Lorentzian domain"
+    },
+    "forbidden_compression": "No one role may be silently identified with J_phys or with the positive physical Hilbert space."
+  },
+  "hypothesis_update": {
+    "H-Q*": "NARROWED_NOT_KILLED",
+    "H0": "STRENGTHENED_NOT_PROVED",
+    "H-B": "PROMOTED_TO_NEXT_REVERSE_TEST",
+    "H-D": "RETAINED_AS_DIFFERENTIAL_OWNERSHIP_DISCRIMINATOR",
+    "H-T": "RETAINED_AS_ADAPTER_NOT_OWNER",
+    "H-M": "RETAINED_AS_UNCONSTRUCTED_FAMILY_ROUTE"
+  },
+  "next_reverse_swing": {
+    "id": "VRS-2",
+    "question": "Does every surviving intrinsic candidate require the action-owned boundary moment and Green data, and does a bulk-only quotient fail under at least one fixed, free or charged endpoint horn?"
+  }
+}

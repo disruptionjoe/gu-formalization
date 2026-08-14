@@ -65,6 +65,20 @@ The governing scaffold remains reverse conditional building from intrinsic
 superposition to its necessary conditions. Forward construction is launched
 only to supply the smallest missing premise exposed by that reverse chain.
 
+## Reverse-swing result
+
+[`VRS-1`](vrs1-internal-complex-source-census-2026-08-14.md) now accounts for
+all eleven complex-source families presently named in the repository. The
+complete fixed split-equivariant family, the natural invariant split-orbit
+candidate, and the standalone Hessian-to-`J` identification are killed at
+their declared scopes. No current single object is `J_phys`. The only live
+internal route is an unconstructed composite joining moving associated-spinor
+`J10`, action-owned total differential data, boundary-aware BV/BFV reduction,
+a descended positive pairing and a common Lorentzian domain. This strengthens
+`H0` without proving it because future action-admissible, moduli and nonlocal
+classes remain unexhausted. `VRS-2` is the next reverse swing and tests whether
+the live boundary moment and Green data kill any bulk-only realization.
+
 ## Swing sequence
 
 | swing | question | earned result required before continuing | status |

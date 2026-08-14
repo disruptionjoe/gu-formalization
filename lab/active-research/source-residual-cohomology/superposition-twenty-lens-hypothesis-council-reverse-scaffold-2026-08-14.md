@@ -208,6 +208,15 @@ For each, state owner, carrier, background/boundary dependence, descent
 conditions, import point and exhaustion status. Kill any candidate whose
 complex structure enters only through external quantization.
 
+**Executed.** The
+[`VRS-1 census`](vrs1-internal-complex-source-census-2026-08-14.md) accounts
+for all eleven currently repo-named candidate families. It kills or retypes
+the complete fixed/direct routes, leaves moving associated-spinor `J10` only
+as a fibrewise component, and narrows the sole live internal route to an
+unconstructed moving bulk-boundary composite. This is current-name census
+completion, not global action-admissible uniqueness. `H-Q*` is not killed;
+`H0` is strengthened but not proved. `VRS-2` is next.
+
 ### `VRS-2` — Boundary necessity and bulk-only kill test
 
 Honor the high-conviction `H-B` minority. Determine whether a physical quotient

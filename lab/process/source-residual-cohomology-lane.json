@@ -32,6 +32,58 @@
       "construction": "SR-1C"
     }
   },
+  "reverse_swings": [
+    {
+      "id": "VRS-1",
+      "status": "executed_scoped_negative_and_narrowing",
+      "question": "Which currently source- or action-admissible complex structures could become physical, and which candidate classes are actually exhausted?",
+      "result": "lab/active-research/source-residual-cohomology/vrs1-internal-complex-source-census-2026-08-14.md",
+      "registry": "lab/process/superposition-vrs1-internal-complex-source-census.json",
+      "probe": "tests/channel-swings/superposition_vrs1_internal_complex_source_census_probe.py",
+      "disposition": "CURRENT_NAMED_COMPLEX_SOURCE_CENSUS_COMPLETE__NO_CURRENT_SINGLE_OBJECT_IS_J_PHYS__FIXED_AND_DIRECT_ROUTES_KILLED_OR_RETYPED__MOVING_BULK_BOUNDARY_COMPOSITE_ONLY_SURVIVES__GLOBAL_ACTION_ADMISSIBLE_EXHAUSTION_OPEN"
+    },
+    {
+      "id": "VRS-2",
+      "status": "next",
+      "question": "Does every surviving intrinsic candidate require the action-owned boundary moment and Green data, and does a bulk-only quotient fail under at least one fixed, free or charged endpoint horn?",
+      "depends_on": [
+        "VRS-1"
+      ]
+    },
+    {
+      "id": "VRS-3",
+      "status": "queued",
+      "question": "What physical-complex role, if any, is actually owned by the conditional second-action Hessian?",
+      "depends_on": [
+        "VRS-1"
+      ]
+    },
+    {
+      "id": "VRS-4",
+      "status": "queued",
+      "question": "Under what typed conditions can moving associated-spinor J10 descend through the total complex?",
+      "depends_on": [
+        "VRS-1",
+        "VRS-2",
+        "VRS-3"
+      ]
+    },
+    {
+      "id": "VRS-5",
+      "status": "forward_enabler_active",
+      "construction": "SR-1C"
+    },
+    {
+      "id": "VRS-6",
+      "status": "queued",
+      "question": "Can the total complex and nontrivial correctly typed physical symbol quotient be instantiated?"
+    },
+    {
+      "id": "VRS-7",
+      "status": "queued",
+      "question": "Can pairing, domain and evolution close the final H-Q* versus H0 fork?"
+    }
+  ],
   "exact_floor": [
     "explorations/conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md",
     "explorations/conditional-build/selected-k77-i2b-source-bvkt-exact-sequence-2026-08-13.md",

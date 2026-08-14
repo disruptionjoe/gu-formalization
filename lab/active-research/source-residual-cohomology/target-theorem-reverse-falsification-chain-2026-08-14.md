@@ -280,6 +280,22 @@ can turn those failures into a kill of H1-R itself.
 RF-1 and RF-2 below have now exhausted that cheap first stage. This paragraph
 is historical method, not the current next-run instruction.
 
+## VRS-1 result: current named sources exhausted, global class open
+
+The twenty-lens reverse scaffold has now executed its first new swing. The
+[`VRS-1 internal complex-source census`](vrs1-internal-complex-source-census-2026-08-14.md)
+accounts for every presently repo-named source of a candidate complex scalar
+action. It separates exact finite-family kills from partial owners and from
+future unexhausted classes.
+
+No current single object is `J_phys`. The only not-yet-falsified internal route
+is a composite in which moving associated-spinor `J10` supplies a fibre
+complex structure, the total residual and `I2` Hessian supply differential
+ownership, BFV data supply a boundary-aware reduction, and twistor data may
+serve as an evolution adapter. No such composite is constructed. Therefore
+`H-Q*` narrows but survives, while `H0` strengthens without becoming a global
+no-go theorem. The next reverse question is `VRS-2`, boundary necessity.
+
 ## RF-1 result: fixed candidates fail; the sign bit is locally redundant
 
 The first candidate census has now run.  Its exact result is filed at
