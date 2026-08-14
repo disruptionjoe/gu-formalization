@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "BARE_FREE_BOUNDARY_FORCES_ZERO_CHARGE__NONZERO_FIXTURE_REQUIRES_FIXED_GENERATED_OR_EDGE_HORN__LOCAL_REGULAR_SYMPLECTIC_REALIZATION_MINIMUM_98__GLOBAL_EQUIVARIANT_MINIMUM_OPEN",
+  "boundary_potential": {
+    "form": "Theta=p_0 delta g_0-p_2 delta g_3",
+    "free_variation": {
+      "stationarity": "p_0=p_2=0",
+      "charge": "Q_eta=0 for every eta",
+      "coadjoint_invariants": "all zero",
+      "selected_nonzero_fixture_admissible": false
+    },
+    "fixed_dirichlet": {
+      "stationarity": "delta g_0=delta g_3=0",
+      "momentum_locked": false,
+      "unrestricted_boundary_transformations": "physical symmetry unless separately completed",
+      "seven_invariants_locked": false
+    },
+    "generated_or_robin": {
+      "form": "Theta restricted to the boundary graph is delta F",
+      "source_owned_F": false,
+      "invariant_locking_condition": "dI_k(L) dL(v)=0 for k=1,...,7 on every admissible tangent v",
+      "codimension_at_regular_fixture": 7
+    }
+  },
+  "regular_lie_poisson_geometry": {
+    "base_dimension": 91,
+    "poisson_rank": 84,
+    "poisson_corank": 7,
+    "fixed_orbit_dimension": 84,
+    "local_symplectic_realization_lower_bound": 98,
+    "local_sharp_model": "84-dimensional symplectic leaf times T*R^7",
+    "local_sharp_model_dimension": 98,
+    "canonical_global_equivariant_fallback": "T*Spin(7,7)",
+    "canonical_global_equivariant_fallback_dimension": 182,
+    "smallest_global_equivariant_dimension": "OPEN_IN_INTERVAL_98_TO_182"
+  },
+  "disposition": {
+    "bare_action_locks_nonzero_regular_charge_invariants": "NO",
+    "bare_free_stationarity": "ZERO_CHARGE_ONLY",
+    "nonzero_charge_boundary_functional": "UNOWNED",
+    "one_fixed_84_dimensional_orbit_global_horn": "REJECTED_BY_PREDECESSOR",
+    "98_dimensional_local_regular_realization": "CONSTRUCTS_LOCALLY",
+    "182_dimensional_cotangent_group_carrier": "CONSTRUCTS_GLOBALLY_AS_MATHEMATICAL_FALLBACK",
+    "charged_boundary_symmetry": "OPEN",
+    "analytic_domain": "NOT_CONSTRUCTED",
+    "physical_cohomology": "NOT_CONSTRUCTED"
+  },
+  "claim_ceiling": {
+    "ledger_verdict_change": "NONE",
+    "residue_or_datum_change": "NONE",
+    "quotient_change": "NONE",
+    "source_owned_edge_field": false,
+    "w_mirror_selection": "NOT_INFERRED",
+    "generation_count": "NOT_INFERRED",
+    "canon_or_public_posture_change": "NONE"
+  },
+  "next_gate": "derive or source a concrete boundary functional and test its seven invariant tangencies, or construct a global equivariant realization below the 182-dimensional cotangent fallback; only then choose charged symmetry versus gauge completion",
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_boundary_stationarity_symplectic_realization_gate_probe.py",
+    "result": "PASS_26_OF_26"
+  }
+}

@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Boundary stationarity/symplectic-realization gate 2026-08-14 (headline
+unchanged).** The selected bare action's endpoint potential has only a
+zero-charge free stationary locus: arbitrary endpoint variations force
+`p_0=p_2=0`, so the nonzero regular fixture is excluded rather than locked.
+Fixed endpoint data leaves momentum and the seven coadjoint invariants free;
+unrestricted endpoint transformations remain boundary symmetry. A nonzero
+generated/Robin locking graph requires a boundary functional not owned by the
+source or selected action and must pass seven independent invariant-tangency
+conditions. Regular Lie--Poisson rank/corank gives a sharp local symplectic-
+realization minimum `91+7=84+14=98`. The canonical global equivariant
+fallback `T*Spin(7,7)` has dimension 182; the smallest global equivariant
+carrier remains open between 98 and 182. See
+`explorations/conditional-build/selected-k77-boundary-stationarity-symplectic-realization-gate-2026-08-14.md`
+and its `26/26` probe. No ledger verdict, residue, quotient, datum, canon or
+public-posture move.
+
 **Total K77 Yang--Mills current/moving-reduction gate 2026-08-14 (ledger
 v0.256; headline unchanged).** The universal K77-typed adapted-connection
 algebra at the actual `4+10` dimensions now has exact Gauss, Codazzi and Ricci

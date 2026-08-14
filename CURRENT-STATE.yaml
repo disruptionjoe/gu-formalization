@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d80f505c4ea1ff11877dfc3e1d645b1758b16fa3
+revision_basis: 4a24cf1c9caee55047f6335f3f3e9b08d7e5cfdc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The bare selected action's endpoint potential now decides the boundary-law
+    horn. Free endpoint variation forces p_0=p_2=0, hence zero moment map and
+    zero coadjoint invariants; it excludes rather than explains the exact
+    nonzero regular fixture. Fixed endpoint data leaves momentum and all seven
+    invariant values unlocked, with unrestricted endpoint transformations
+    retained as boundary symmetry. A nonzero locking Robin/generated graph
+    requires an added boundary functional that neither source nor selected
+    action owns and must satisfy seven independent invariant-tangency
+    equations. The regular Lie--Poisson carrier has dimension 91, rank 84 and
+    corank seven, so any local symplectic realization spanning an open charge
+    neighborhood has dimension at least 98. The sharp local split model has
+    dimension 84+14=98; the canonical global equivariant cotangent-group
+    fallback has dimension 182. The smallest global equivariant carrier
+    remains open between those bounds.
     The endpoint's seven independent type-D7 coadjoint invariants all have
     exact nonzero first derivative along the action-owned off-shell line
     (B,T)->lambda(B,T). Their common kernel is the 84-dimensional Kirillov
@@ -94,6 +108,8 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-boundary-stationarity-symplectic-realization-gate-2026-08-14.md
+    - lab/process/selected-k77-boundary-stationarity-symplectic-realization-gate.json
     - explorations/conditional-build/selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md
     - lab/process/selected-k77-total-twisted-yang-mills-current-gate.json
     - explorations/conditional-build/conditional-physics-ledger-v0.256.md
@@ -149,9 +165,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the selected action derive a boundary/Green stationarity law locking
-  all seven coadjoint invariants, or must the edge phase space span their exact
-  transverse variation?
+  Does a source/action-owned boundary functional exist whose generated graph
+  locks all seven regular coadjoint invariants, or can the 98-dimensional
+  local realization be globalized equivariantly below the 182-dimensional
+  cotangent-group fallback?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -160,11 +177,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Derive the selected action's boundary/Green stationarity equations and test
-  whether their admissible locus kills all seven invariant derivatives. In
-  parallel, construct the smallest equivariant symplectic group/cotangent
-  carrier spanning the exact variation and compare charged boundary symmetry.
-  Only afterward enter the analytic domain. Do not treat the off-shell witness
-  as an on-shell theorem, choose W/mirror, or replace Weinstein's non-chiral
-  total target with net chirality.
+  Derive or source a concrete boundary functional and test all seven invariant
+  tangencies on its graph, or construct a global Spin(7,7)-equivariant
+  symplectic realization below the canonical 182-dimensional cotangent-group
+  fallback. Compare either result with retained charged boundary symmetry
+  before entering the analytic domain. Do not promote the local 98-dimensional
+  split model to a global physical edge theory, choose W/mirror, or replace
+  Weinstein's non-chiral total target with net chirality.
 what_needs_joe: none

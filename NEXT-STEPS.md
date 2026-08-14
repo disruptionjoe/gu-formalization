@@ -7,6 +7,22 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 BOUNDARY STATIONARITY/SYMPLECTIC-REALIZATION GATE.** The bare
+> endpoint potential `Theta=p_0 delta g_0-p_2 delta g_3` now decides the
+> action-owned horn. Free variation forces zero momentum and zero charge, so
+> the exact nonzero fixture is not on that locus. Fixed data leaves momentum
+> and all seven orbit invariants unlocked and retains unrestricted endpoint
+> transformations as boundary symmetry. A nonzero locking graph needs an
+> unowned boundary functional and seven independent tangency equations. Any
+> symplectic realization spanning the regular `91`-dimensional charge space
+> has dimension at least `91+7=98`; the `84+14` split model attains this
+> locally, while `T*Spin(7,7)` gives a canonical global equivariant fallback
+> of dimension `182`. **Next derive/source and test the boundary functional,
+> or globalize a carrier below 182; then compare charged symmetry with gauge
+> completion.** Do not call the local 98-dimensional realization a global
+> physical edge theory or enter the analytic domain early. Exact probe:
+> `26/26`; no ledger verdict, canon or public-posture change.
+
 > **2026-08-14 STABILIZER-AWARE KOSZUL--TATE GATE (ledger v0.252).** On the
 > selected homogeneous distortion orbit, the exact sequence
 > `0 -> so(3,4)_21 -> so(7,7)_91 -> T(G/H)_70 -> 0` yields a proper KT
