@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.240 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; no row verdict moves. Canonicity distance v0.1 is unchanged. The current equation-9.16 pairing-owner branch closes negatively: trace-Hq is outside both action lines and reality selects neither. The next gate is the first action-owned nonzero-fermion Hessian or graded BV differential, with analytic-domain selection separate."
   },
-  "updated_by": "RUN-20260814-002843-gu-w-mirror-action-pairing-ownership",
+  "updated_by_evidence": "explorations/conditional-build/selected-k77-w-mirror-action-pairing-ownership-2026-08-13.md",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

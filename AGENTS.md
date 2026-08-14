@@ -27,6 +27,13 @@ source records, papers, and branch-relative current state.
   bound.
 - Preserve negative results, counterexamples, superseded routes, and correction
   history. Apply `lab/methods/claim-status-consistency.md` to status changes.
+- Before writing a verdict about a registered claim, apply
+  `explorations/claim-indexed-verdict-doctrine-2026-08-12.md`. Never say a
+  critic, critique, or objection is "correct" or "sound" without binding that
+  judgment to the exact object analyzed; a correct computation on one object
+  does not settle a differently scoped claim.
+- Before assuming a fork horn or citing a blocker, check
+  `lab/process/path-dependencies.md` for a chain covering it.
 - New findings do not promote themselves to `canon/` or `CANON.md`. A later
   independent verification must check both the result and proposed wording.
 - No publication, account action, submission, or other external effect occurs

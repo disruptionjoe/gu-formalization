@@ -1,15 +1,9 @@
 ---
 artifact_type: exact_layer0_correction_and_pairing_classification
 created: 2026-08-13
-run_id: RUN-20260813-235701-gu-w-mirror-trace-hq-isotropy-correction
 status: BASE_Q_THEOREM_PRESERVED__TRACE_Q_SAME_SECTORS_ISOTROPIC__TRACE_Q_CROSS_PAIR_NONDEGENERATE
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_SILENT_REPO_W_MIRROR_TRACE_HQ_POLARIZATION
 ledger_rows: [RA-G2, LT-SM3, AC-G1a]
-claim_status_change: none
-canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 W/mirror trace-Hq isotropy correction

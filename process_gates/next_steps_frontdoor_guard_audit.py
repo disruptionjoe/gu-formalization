@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 NEXT_STEPS = ROOT / "NEXT-STEPS.md"
 CLAIM_STATUS_WORKFLOW = (
-    ROOT / "lab" / "process" / "runbooks" / "claim-status-consistency-quality-workflow.md"
+    ROOT / "lab" / "methods" / "claim-status-consistency.md"
 )
 RESEARCH_POSTURE = ROOT / "RESEARCH-POSTURE.md"
 FIREWALL_BOUNDARY_CANON = ROOT / "canon" / "firewall-boundary-hypothesis.md"

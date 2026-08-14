@@ -278,7 +278,7 @@ load-bearing here.
 
 **Constraint surplus, counted rather than argued** (the doctrine, verbatim, is
 "posits with more independent constraints than free parameters are informative;
-count, don't argue", `agent-context-pack.md:24-26`):
+count, don't argue", `lab/process/CURRENT-RESEARCH-CONTEXT.md:24-26`):
 
 ```text
     independent constraints satisfied : 11   (6 hypercharges + 5 anomaly conditions)

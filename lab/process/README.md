@@ -8,6 +8,16 @@ updated_at: "2026-08-12"
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.240.json`](conditional-physics-ledger-v0.240.json),
+summarized as ledger v0.240. The complete tested Spin-natural,
+degree-diagonal equation-9.16 action-pairing class has two lines; the
+q-dependent trace-Hq restriction is a third exact independent form on W and
+its mirror, and the existing graded reality graphs select neither action horn.
+The next discriminator is an action-owned nonzero-fermion Hessian or graded BV
+differential, with analytic-domain selection kept separate. No physics-row
+verdict, residue, quotient, canon claim, or public posture moved.
+
+Predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.222.json`](conditional-physics-ledger-v0.222.json),
 summarized as ledger v0.222. Contact is
 `Omega^1(Cl^2)`, the principal Euler response is `Omega^13(Cl^2)`, and the
@@ -774,8 +784,8 @@ moving-operator inference. The next gate constructs the selected nonzero
 curvature/torsion constituents and the physical Shiab/Hodge metric-normal
 response. See `selected-second-layer-residual-constituent-operator-correction.json`.
 
-Perspective passes, dialectical method, synthesis history, runbooks, templates, and
-process-quality notes.
+Perspective passes, dialectical method, synthesis history, templates, and
+native process-quality notes.
 
 This surface is process navigation. It does not change claim status, canon
 verdicts, proof status, research verdicts, or public posture. Status-changing
@@ -791,24 +801,20 @@ consistency workflow.
 - `perspective-passes/` - perspective-pass records and method variants.
 - `public-surface-refresh-2026-05-31/` - public surface refresh provenance.
 - `queue-reviews/` - periodic reviews of the QUEUE (not of individual waves); freshness-gated by `process_gates/queue_review_freshness_audit.py`.
-- `runbooks/` - standard repo-local process workflows.
-- `runs/` - per-run working records and their receipts.
 - `syntheses/` - synthesis history and consolidation notes.
 - `templates/` - reusable local templates.
 
-Runbooks:
-
-- `runbooks/five-lane-frontier-run.md` - standard repo-local five-independent reviewer frontier run.
-- `runbooks/daily-research-portfolio-stewardship.md` - daily priority and dependency reconciliation.
-- `runbooks/draft-factory-paper-seed-handoff.md` - cheap paper-seed routing and capacity-backed source-hardening requests.
-- `runbooks/meaningful-hourly-progress-swing.md` - default substantial hourly Progress swing.
-- `runbooks/three-cycle-fifteen-hole-run.md` - three sequential five-lane runs for
-  fifteen quality holes without padding weak lanes.
-- `runbooks/claim-status-consistency-quality-workflow.md` - required sweep for any
-  status-changing promotion, downgrade, or correction.
-
 ## Direct Process Files
 
+- `path-dependencies.yaml` - native causal chains and dated traps behind
+  high-value scientific checks.
+- `path-dependencies.md` - generated human-readable view of the path-dependency
+  chains.
+- `correction-registry.yaml` - native correction provenance and current
+  dispositions.
+- `public-boundary-migration-completion-2026-08-13.md` - native completion
+  record for the public-boundary migration, pointer reconciliation, and
+  semantic replay.
 - `conditional-physics-ledger-v0.96.json` - current append-only conditional
   ledger; the actual varpi equation-dual/Green closes while common-coordinate
   `D_g`, full primitive `D_epsilon` and field Riesz remain.
@@ -1017,7 +1023,10 @@ Runbooks:
 - `conditional-physics-ledger-v0.40.json` - immutable predecessor after the
   selected second-layer TT carrier gate.
 
-- `agent-context-pack.md` - one-read current rules, forks, anchors, functional-channel contract pointer and active scientific directives for GU agents.
+- `CURRENT-RESEARCH-CONTEXT.md` - one-read current scientific rules, forks,
+  anchors, evidence-contract pointer, and active research directives.
+- `authorial-dependency-assessment-2026-08-08.md` - native assessment of the
+  conditional build's author-stated and externally selected signature inputs.
 
 - `pw2fr2b2b2i2-resumable-full-evaluator-coverage.json` -
   PW2F-R2B2B2I2 append-only coverage ledger: chains to the exact `3/380`
@@ -1254,8 +1263,8 @@ Runbooks:
 - `deflation-false-negative-audit-2026-07-03.md` - deflation false-negative audit.
 - `fanout-recent-run-convergence-2026-07-06.md` - recent fan-out convergence addendum.
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
-- `research-evidence-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
-- `research-evidence-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
+- [research-evidence-contract-v1.0.md](../methods/research-evidence-contract-v1.0.md) - ratified native Build/Compose/Source/Verify evidence contract.
+- [research-evidence-contract-v1.0.json](../methods/research-evidence-contract-v1.0.json) - machine-readable native evidence and claim-strength contract.
 - `conditional-physics-ledger-v0.39.json` - current machine ledger; the complete selected `Cl2` pullback is rank 100 with 640 nonzeros and remains full-II plus trace-square, while total-residual other-grade support is primary; headline counts, residue, four quotients and P1/P2/P3 remain fixed.
 - `selected-second-layer-full-cl2-residual-pullback.json` - exact sparse-support, Gram, inertia and stationary co-moving receipt; higher variational grades and the total-residual rival remain open.
 - `conditional-physics-ledger-v0.38.json` - immutable predecessor; the rank-100 Gauss projection is exact but a `2/39` orthogonal `Cl2` leakage witness blocks its identification with the full second-layer I2B pullback.
@@ -1378,7 +1387,6 @@ Runbooks:
 - `layer0-fork-registry.yaml` - Layer-0 fork registry: horns, status, and the artifacts that settled each fork; read by the fork-stack depth gate.
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.
-- `OPERATING-MODEL.md` - owner-local relationship between purpose Lanes, portfolio authority, functional channels, ledger progress and condition-based dispatch.
 - `paper-hardening-inventory.md` - paper portfolio, external-eyes ceiling, and overlap gates.
 - `recovery-certification-assessment-2026-07-15.md` - recovery-certification status assessment.
 - `recovery-certification-matrix.json` - recovery-certification matrix and sector checkpoints.
@@ -1733,7 +1741,9 @@ Runbooks:
   certificate routing the Weinstein source callouts through five shared
   conditional parent objects, with passed finite controls and every actual
   `Y^14` emergence gate kept open.
-- `research-portfolio.json` - machine-readable GU truth-status research/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
+- `RESEARCH-AGENDA.json` - target-native questions, evidence state,
+  dependencies, and next scientific conditions; it is not service priority or
+  scheduling.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.
 - `wave-discipline-gates-2026-08-04.md` - what the wave-disposition schema gate and the fork-stack depth gate enforce, the dated grandfathering cutover, and how to add a fork to the registry.
 - `first-interaction-krein-global-zero-mode.json` — exact registry for the

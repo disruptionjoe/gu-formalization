@@ -1,11 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260814-002843-gu-w-mirror-action-pairing-ownership
 verdict: SCOPED_RESULT_SURVIVES__CURRENT_EQUATION916_PAIRING_CLASS_DOES_NOT_OWN_TRACE_HQ__NO_W_MIRROR_SELECTOR
 lenses: [layer0_semantics, prior_art, representation, real_structure, variational_grassmann, symplectic_bv, analytic]
-claim_status_change: none
-canon_verdict_change: none
 ---
 
 # Hostile review: W/mirror action-pairing ownership

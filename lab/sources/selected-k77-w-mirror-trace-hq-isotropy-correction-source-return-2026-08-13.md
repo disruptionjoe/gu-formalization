@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-235701-gu-w-mirror-trace-hq-isotropy-correction
 status: SOURCE_CONFIRMS_TRACE_DIRECTION_GRAMMAR__SOURCE_SILENT_REPO_W_MIRROR_TRACE_HQ_POLARIZATION
 ---
 

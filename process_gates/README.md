@@ -636,7 +636,6 @@ selected notes below and in each script header.
 - `explorations_top_level_file_boundary_audit.py`
 - `explorations_readme_surface_map_audit.py`
 - `finite_control_provenance_audit.py`
-- `functional_channel_operating_contract_scope_audit.py`
 - `forcing_slot_readme_inventory_audit.py`
 - `flrw_theta_xi_branch_gate.py`
 - `fork_depth_audit.py`
@@ -675,11 +674,9 @@ selected notes below and in each script header.
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
 - `lab_process_readme_surface_map_audit.py`
-- `lab_process_runbooks_readme_inventory_audit.py`
 - `lab_readme_surface_map_audit.py`
 - `lab_sources_readme_surface_map_audit.py`
 - `lab_specifications_readme_surface_map_audit.py`
-- `lane_state_freshness_audit.py`
 - `lean_certificate_surface_audit.py`
 - `literal_derivation_audit.py`
 - `live_claim_dag_audit.py`
@@ -756,7 +753,6 @@ selected notes below and in each script header.
 - `recovery_certification_matrix_audit.py`
 - `recovery_contract_action_fingerprint_audit.py`
 - `recovery_contract_manifest_audit.py`
-- `research_portfolio_contract_audit.py`
 - `research_posture_audit.py`
 - `resolver_wave_a_scope_audit.py`
 - `resolver_wave_b_scope_audit.py`
@@ -786,7 +782,6 @@ selected notes below and in each script header.
 - `tests_manifest_count_audit.py`
 - `tests_root_readme_inventory_audit.py`
 - `threads_readme_inventory_audit.py`
-- `three_cycle_fifteen_hole_runbook_audit.py`
 - `three_generation_route_alternatives_audit.py`
 - `topological_generation_count_families_k3_chi_gate_audit.py`
 - `unified_marble_wood_closure_audit.py`
@@ -859,15 +854,6 @@ the live direct process directories and direct process files, while preserving t
 that process navigation does not move claim status, canon verdicts, proof status, research
 verdicts, or public posture. This is a navigation/process guard only; it does not inspect
 process payloads or validate research claims.
-
-## Lab process runbooks README inventory gate
-
-`lab_process_runbooks_readme_inventory_audit.py` checks that
-`lab/process/runbooks/README.md` names every live direct runbook, uses relative links that
-resolve from the runbooks README location, and preserves the boundary between process
-navigation and claim-status, canon-verdict, public-posture, proof-status, or research-verdict
-movement. This is a navigation/process guard only; it does not run Lean or validate research
-claims.
 
 ## Lab sources README surface-map gate
 
@@ -2025,34 +2011,6 @@ soldering, odd super-IG cohomology, loop/UV positivity, ambient/global/nonlocal
 cosmology and action-owned `w(z)` open. The third scoped quotient is ranked
 without booking a global residue reduction.
 
-## Functional-channel operating-contract scope gate
-
-`functional_channel_operating_contract_scope_audit.py` requires the ratified
-Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
-`lab/process/RESEARCH-AGENDA.json` and the operating model while purpose the active research agenda/A remain
-unchanged. It enforces information-preserving ledger fields, source return
-codes, independent adverse-row adjudication, condition-based dispatch,
-two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
-receiver, formal homogeneous-gauge CME, null physical quotient, exact
-first-jet section-germ observation, action-owned Hilbert stress, canonical
-full-II norm selection, massless-plus-massive simple-pole response and
-selected nonzero K77 algebraic stationary branch. It now also enforces ledger
-v0.13, the distinct `100/117` and `124/117` Gauss Hessians, the common defect
-Krein/Green domain, exact opposite residues, the direct-plus-soldered current
-chain, then the v0.14 metric-soldering/even-BV/local-curvature results and the
-v0.15 first-interaction and global-zero-mode update, followed by the v0.16
-fixed-background field-mixing spectral `C` and exact exceptional-locus
-classification. The latest return is `SOURCE-SILENT` for this C construction;
-the predecessor source correction still holds that algebraic super-IG descent
-is not a default odd action. It now also enforces v0.17's zero vacuum cubic
-Hessian, three-species odd-channel shells, numerator-before-pole fence and
-symplectic descent veto. It keeps the full nonlinear/Fock `C`, selected
-on-shell numerator, physical-sheet test, full cubic bank, common domain,
-domain/measure functional, algebraic global descent, action-owned `w(z)` and
-external `P2_datum` open. It
-also forbids treating Einstein recovery as recovery of a constant or dynamical
-cosmological sector and records that this reset changes no scheduler, trigger,
-activation grant, canon, external datum or public posture.
 ## Cross-theory mechanism-donor scope gate
 
 `cross_theory_mechanism_donor_crosswalk_scope_audit.py` enforces that the donor

@@ -1,10 +1,7 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260814-002843-gu-w-mirror-action-pairing-ownership
 status: SOURCE_CONFIRMS_INDEPENDENT_FOUR_FIELD_GRAMMAR__SOURCE_SILENT_TRACE_HQ_AS_DEFINING_FERMION_FORM_AND_W_MIRROR_SELECTOR
-claim_status_change: none
-canon_verdict_change: none
 ---
 
 # Source return: W/mirror action-pairing ownership

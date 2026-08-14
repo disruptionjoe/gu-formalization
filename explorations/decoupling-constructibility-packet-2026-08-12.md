@@ -50,7 +50,7 @@ critique (SC-CHI-50: "it is not chiral ... nobody notices it"), and its
 price: the burden of showing the decoupling can actually produce the observed
 chiral world. The repo fences the burden (PH-K1-PHYSICAL OPEN/BLOCKED; the
 Witten-1983 exit owed for any chiral use of the 384; kinematic-vs-physical
-carrier, OQ-RK1 BLOCKED_NEEDS_SPEC — `agent-context-pack.md:1630-1650`) but
+carrier, OQ-RK1 BLOCKED_NEEDS_SPEC — `lab/process/CURRENT-RESEARCH-CONTEXT.md:1630-1650`) but
 no artifact types WHAT CONSTRUCTIBILITY WOULD TAKE end-to-end. This packet is
 that criteria-and-first-checks design: a precise criteria chain R1-R5, the
 finite exact checks available today on existing banks, the fork conditioning,
@@ -73,7 +73,7 @@ formula authority (they/them; media-index: `secondary-exposition-reviewed`).
 | "dark" | (i) massive/gapped mirror; (ii) massless but operator-decoupled from observed cells; (iii) dark-sector-confined (charged under a mirror-only factor); prior typing: charged colored mirrors near EW are excluded, a neutral minority is not a clean prediction (MP-M2, (9,5)-horn grade) | R3 requires the wave to pick and verify ONE operator-theoretic sense; "currently dark to us" (p.52) and "reconnect when gravity strengthens" (SC-CHI-53, no scale supplied — custody) do not by themselves select one |
 | "imposter" / "the 384" | IMPOSTER-LABEL-AB settled (A), confidence 0.90: the label attaches to the 128 `S(V)(x)S(W)` slot; the RS-shaped 384 is the draft's separate "new cousin"; any chiral use of the 384 owes the Witten-1983 exit (`layer0-fork-registry.yaml:310-330`) | do not re-litigate; R5 uses the settled reading; Witten-1983 = the 1983 KK/RS quantum-numbers object, not Witten 1981/1982/1985 (nguyen packet object table) |
 | "settled (7,7)" | REAL-CLIFFORD-FORM (settled `Cl(7,7)=M(128,R)`, author-asserted rationale) vs SIGNATURE-AMBIENT (OPEN, depth 10) — NAMES.md marks Distinct; conflated twice in one month | all criteria below live on the REAL-CLIFFORD-FORM arena; Lens 3 states the SIGNATURE-AMBIENT conditioning explicitly; no ambient-signature claim is made |
-| "2+1" | the ledger's block decomposition vs lega2's family census (roles inverted, unadjudicated live fork, `agent-context-pack.md:1647-1648`) | R5 names which 2+1 it means (the settled label-level reading: the "2" are `nu` and the gamma-trace part of `zeta` upstairs) |
+| "2+1" | the ledger's block decomposition vs lega2's family census (roles inverted, unadjudicated live fork, `lab/process/CURRENT-RESEARCH-CONTEXT.md:1647-1648`) | R5 names which 2+1 it means (the settled label-level reading: the "2" are `nu` and the gamma-trace part of `zeta` upstairs) |
 | correlation convention | eq (12.20) L-half pairs `L(x)L (+) R(x)R`; eq (11.6) `F+` pairs `2-(x)16+ (+) 2+(x)16-` (anti-correlated); different carriers (plain spinors on Y vs the one-form-valued complex); relative sign = the allocation-dependent `omega_4 omega_10 = +/- omega` caveat — recorded, not adjudicated (extraction s11:265-274) | R2/R3 statements must carry which display's convention they use; the two-carrier discrepancy is itself a datum outcome (c) can name |
 
 ## Pre-flight assessment
@@ -86,7 +86,7 @@ Failure modes this design could commit, and mitigations:
    stabilizer cocycle; next gate a target-blind action-derived `(H,Q)`
    selector, then lower-order BV/KT; v0.183 names the complete sixteen-cell
    lower-order graph/Riccati with the rank-1,920 carrier as control —
-   `agent-context-pack.md:12-49`, RESEARCH-STATUS.md:11-54). Mitigation: the
+   `lab/process/CURRENT-RESEARCH-CONTEXT.md:12-49`, RESEARCH-STATUS.md:11-54). Mitigation: the
    criteria quantify over an interface (Lens 3); the first checks run on the
    FROZEN v0.173/v0.174 bank, not the moving frontier; no queue priority.
 2. **False novelty.** Zero exact hits is not evidence of new.
@@ -146,7 +146,7 @@ Failure modes this design could commit, and mitigations:
   unresolved imposter A/B referent [since settled (A)] and the unbuilt
   observation/VEV/BRST/reality/SM-gauge map"; any chiral use of the 384
   owes the Witten-1983 exit; `Pi_RS^phys` does not exist (OQ-RK1
-  BLOCKED_NEEDS_SPEC) (`agent-context-pack.md:1630-1650`;
+  BLOCKED_NEEDS_SPEC) (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1630-1650`;
   `layer0-fork-registry.yaml:310-330`).
 - **The campaign bank the checks run on.** v0.173: the source-admitted
   wedge-Shiab plus nonzero-southeast family (the SE rival is source-admitted,
@@ -170,7 +170,7 @@ Failure modes this design could commit, and mitigations:
 - **The already-typed VEV/curvature linkage.** The local action-derived
   curvature/VEV horn passes the limited two-values-to-one count but fails
   screening exactly; action-owned `w(z)` remains open
-  (`agent-context-pack.md:1539-1548`; SC-CHI-52 adherence: the dynamical
+  (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1539-1548`; SC-CHI-52 adherence: the dynamical
   half — masses drop, Dirac decouples into Weyl — "has no construction or
   fence anywhere; it is PH-K1-PHYSICAL's unnamed source-side mechanism").
 - **The prior reduction of the mirror problem (retired-horn grade).** W224
@@ -199,7 +199,7 @@ Failure modes this design could commit, and mitigations:
   title: 2+1, two True Generations and one Effective Imposter); SC-GEN-51
   (two-equivalent-one-not via subgroup restriction — computed structure);
   the 2+1 mechanism is panel-settled at label/multiplicity level, fenced
-  "multiplicity, not index" (`agent-context-pack.md:1703-1713`). The
+  "multiplicity, not index" (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1703-1713`). The
   escape-corners campaign: the spin-3/2's mass "rides the SAME single VEV
   dial whose decrease is GU's generation mechanism"
   (`canon/escape-corners-campaign-RESULTS.md`, title block).
@@ -485,7 +485,7 @@ are the named remainder in outcome (a).
   quantify over interface I so that every future campaign object slots in
   without rework; the single overlap surface (the sixteen-cell lower-order
   system) is consumed as an interface, and the campaign's own next-gate
-  text remains the sole queue truth (`agent-context-pack.md:1096-1099`
+  text remains the sole queue truth (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1096-1099`
   discipline).
 
 ## Lens 4 — Graded outcome table (dispositions owned by the wave, not this packet)

@@ -160,9 +160,9 @@ is not evidence for or against GU and cannot move claim status.
   its bounded defense and returns control to the map.
 - No silent revisits: the map is append-honest; dispositions carry evidence
   pointers, and reopening requires a history audit.
-- Coverage is visible: `scope_position` in LANE-STATE reports map coverage,
-  so circling is visible from the helicopter view instead of being buried in
-  hourly narration.
+- Coverage is visible in `lab/process/construction-space-map.json`; report its
+  `scope_position` through the native current-state/agenda views so circling is
+  not buried in investigation narration.
 
 ## Boundaries
 

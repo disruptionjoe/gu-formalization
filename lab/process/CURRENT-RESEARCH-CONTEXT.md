@@ -2325,8 +2325,9 @@ the independent repair. Do not book a parameter, datum, action or spectrum.
   check surfaces against artifacts before citing either.
 - lab/process/hostile-reviews/ — the two filed reviews; their corrections
   are binding on the corrected artifacts.
-- CURRENT-STATE.yaml is now freshness-gated
-  (process_gates/lane_state_freshness_audit.py).
+- `CURRENT-STATE.yaml` is the branch-relative orientation surface. Its
+  `revision_basis` must resolve to a recent ancestor of the actual branch tip;
+  agreement among its own pointers is not sufficient evidence of currency.
 - lab/process/queue-reviews/ — the QUEUE review (PRE-1 across all live forks,
   not per wave); RED at 5 unreviewed dispositions
   (process_gates/queue_review_freshness_audit.py).

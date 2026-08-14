@@ -1,15 +1,9 @@
 ---
 artifact_type: exact_conditional_operator_and_krein_pairing_result
 created: 2026-08-13
-run_id: RUN-20260813-233813-gu-w-mirror-antilinear-hq-ledger-compose
 status: CORRECTED_BASE_Q_WITNESS__EXACT_ANTILINEAR_PRINCIPAL_EQUIVALENCE__HQ_NEUTRAL_ANTIISOMETRY
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_CONFIRMS_FULL_U6464_AND_TWO_C32_32_CARRIER_HALVES__SOURCE_SILENT_W_MIRROR_HQ_PHYSICAL_SELECTOR
 ledger_rows: [RA-G2, LT-SM3, AC-G1a]
-claim_status_change: none
-canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 W/mirror anti-linear and Hq pairing gate

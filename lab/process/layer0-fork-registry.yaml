@@ -8,7 +8,8 @@
 # one answers "why do we check". A 2026-08-08 council found that filing path
 # dependencies under Layer 0 would be a category error - semantics vs
 # justification - creating a homonym inside the file meant to prevent them.
-# See lab/process/councils/2026-08-08-path-dependency-integration-council.md.
+# The retained rationale and dated traps live in
+# lab/process/path-dependencies.yaml (rendered as path-dependencies.md).
 # SIGNATURE-AMBIENT is covered by chain PD-SIGNATURE-PARITY.
 #
 # One row per discrete Layer-0 fork the program stands on: the horns, whether it

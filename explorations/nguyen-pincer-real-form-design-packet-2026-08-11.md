@@ -112,7 +112,7 @@ Failure modes this design could commit, and mitigations applied:
    disposes on.
 7. **Queue overreach.** The fence names the authoritative next gate as the
    K77 functional-contract instantiation, and "historical campaign-local
-   pointers are not queue truth" (`agent-context-pack.md:1096-1099`). This
+   pointers are not queue truth" (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1096-1099`). This
    packet claims no queue priority; it supplies a named resolver design for
    a register item that currently has none.
 
@@ -122,7 +122,7 @@ Failure modes this design could commit, and mitigations applied:
 |---|---|---|
 | "anomaly" | (a) **perturbative/local**: the degree-16 polynomial `I_16`, exact rational lattice on the content (`cb-c:2.1`); (b) **global/nonperturbative**: Dai-Freed eta / torsion of `Omega^Spin_15(BG)` (`anomaly-sp64-i16-daifreed.md:27-32`); (c) **gravitational channel**: the pure-`p_k` monomials inside (a) (AGW coefficients; where MOVE1-01's artifact lived) | never mix legs; each check names its leg; a defusal of (a) says nothing about (b) |
 | the group ladder | `U(128)` critic's complexified compact form, `dim_R u(128)=16384` — `U(64,64)` source's spoken principal group, `dim_R u(64,64)=16384`, center `U(1)` — two `C^(32,32)` Weyl halves (block product) — `SO(64,64)` source's real form inside `Cl_R(7,7)`, dim `8128`, center `Z/2` — `Spin(7,7)` dim `91` — `GL(128,R)` full-algebra reading, dim `16384` — retired-horn objects `Sp(64)=U(64,H)` dim `8256`, `Sp(1)`=right-H commutant, `Sp(32,32;H)` Krein form (all `M(64,H)`-side; none exists on `M(128,R)`) | the pincer must name which rung it grips; retired-horn rungs may appear only as controls |
-| "chiral" | ambient 14d chirality (`S^+/S^-` of `Spin(7,7)`; the printed `64±/832±` halves) vs observed 4d chirality (physical families) | PH-K1-KINEMATIC (CONFIRMED, vectorlike `64+64`) vs PH-K1-PHYSICAL (OPEN/BLOCKED) — `agent-context-pack.md:1626-1628`; Rung 1: the index is grading-determined |
+| "chiral" | ambient 14d chirality (`S^+/S^-` of `Spin(7,7)`; the printed `64±/832±` halves) vs observed 4d chirality (physical families) | PH-K1-KINEMATIC (CONFIRMED, vectorlike `64+64`) vs PH-K1-PHYSICAL (OPEN/BLOCKED) — `lab/process/CURRENT-RESEARCH-CONTEXT.md:1626-1628`; Rung 1: the index is grading-determined |
 | "Witten exit" | Witten 1981 (KK Dirac chirality no-go) vs Witten 1982 (SU(2) global anomaly, `pi_4=Z/2`) vs **Witten 1983** (KK Rarita-Schwinger fermion quantum numbers — the in-repo "Witten-1983 exit" on any chiral use of the 384: `layer0-fork-registry.yaml:326`, `seat3-particle-flavor.md:74`) vs Witten 1985 (global gravitational) | four distinct papers; all flagged for independent citation-check; the 384's exit obligation is the 1983 object, not the 1982 one |
 | "the 384" | the RS-shaped spin-3/2 block (`Q -> 384` per ambient half; the draft's separate "new cousin" label) — NOT the imposter-labelled 128 (settled A, 0.90) | IMPOSTER-LABEL-AB is settled; do not re-litigate; the 384's chiral use owes the Witten-1983 exit |
 | "settled (7,7)" | REAL-CLIFFORD-FORM (which real Clifford algebra the source computes in — SETTLED `Cl(7,7)=M128(R)`, rationale author-asserted, K95 = geometry-derived comparator) vs SIGNATURE-AMBIENT (ambient signature — OPEN, depth over threshold, own design packet 2026-08-11) | NAMES.md marks these Distinct; conflated twice by two authors in one month; this packet attacks the REAL-CLIFFORD-FORM arena only and asserts nothing about ambient signature |
@@ -198,7 +198,7 @@ Failure modes this design could commit, and mitigations applied:
     `cb-c:4.2` H1).
   - The carrier is kinematically vectorlike: PH-K1-KINEMATIC CONFIRMED,
     `64+64`, joint `32/32/32/32`; the `832+832` grading and derived `W = 0`
-    reached by two unrelated routes (`agent-context-pack.md:1626-1628`;
+    reached by two unrelated routes (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1626-1628`;
     `cb-c`, Group F preamble).
   - Global facts already banked for the real side (W232): the mapping-torus
     dimension 15 sits in a dead KO degree — `KO_15 = KO_7 = 0` — so the
@@ -226,7 +226,7 @@ Failure modes this design could commit, and mitigations applied:
     are dead — the torsion column has no 3-primary entry, and the free
     column vanishes on every locally consistent bulk (`cb-c:4.2` F3).
   - Any chiral use of the 384 owes the Witten-1983 exit
-    (`agent-context-pack.md:1628-1629`; `layer0-fork-registry.yaml:326`).
+    (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1628-1629`; `layer0-fork-registry.yaml:326`).
 
 ## Route scaffolding (lens sections; planning evidence only)
 
@@ -478,7 +478,7 @@ read; every literature value used is re-derived or flagged.
 - **C3 — local leg, typed content through the existing lattice.**
   Feed the K77 source carrier as typed by the settled fences (per ambient
   half `F = 128, Q = 384, Z = 1152`; printed `64±/832±`;
-  `agent-context-pack.md:1619-1635`) through CB-C's validated exact lattice,
+  `lab/process/CURRENT-RESEARCH-CONTEXT.md:1619-1635`) through CB-C's validated exact lattice,
   under the C1-typed parent's rep assignments. (C3a) full-Dirac / paired
   branch: expect `I_16 = 0` identically [SCOPED — expected from `W = 0`
   plus pairing; must be computed, not inferred]. (C3b) every chiral
@@ -556,7 +556,7 @@ carries the source-contradiction tripwire.
    it.** "FULLY CLOSED" was derived on (9,5) and propagated unconditionally
    to CANON/RESEARCH-STATUS; REAL-CLIFFORD-FORM then settled the other way
    (2026-08-04), and the disconnect sat uncaught until CB-C found it by
-   accident (`cb-c:4.1`; `agent-context-pack.md:1596-1605` — "the one
+   accident (`cb-c:4.1`; `lab/process/CURRENT-RESEARCH-CONTEXT.md:1596-1605` — "the one
    confirmed casualty, AC-G1, was found by accident").
 2. **Settlement-mechanism gap.** Wave dispositions emit no licensed-edits
    list; hostile reviews do. REAL-CLIFFORD-FORM settled by wave disposition
@@ -584,7 +584,7 @@ carries the source-contradiction tripwire.
 ## Prior art
 
 **In-repo (enumerated; all opened at HEAD `bdd2c93`):** the AC-G1 fence and
-live-forks block (`agent-context-pack.md`); CB-C (the G1 legs, the exact
+live-forks block (`lab/process/CURRENT-RESEARCH-CONTEXT.md`); CB-C (the G1 legs, the exact
 local lattice, F3); the AC-G1a propagation file and ledger v0.185 rows;
 the Nguyen synthesis and the nguyen-gu-critique folder; the Sp(64)
 dimension-matching file; the anomaly audit (`anomaly-and-bordism/`); internal

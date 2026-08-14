@@ -608,7 +608,7 @@ executing wave owns every disposition under the full checking contract.
 - HEAD pinned: `bdd2c934335e6e534d4e0f9e7f55d7678eb566d8` (2026-08-11
   17:12:35 -0500). All file:line citations were opened in this tree.
   **CONFIRMED.**
-- Anchor fact re-verified verbatim at `agent-context-pack.md:1643-1666`,
+- Anchor fact re-verified verbatim at `lab/process/CURRENT-RESEARCH-CONTEXT.md:1643-1666`,
   including the two-file W187 warning and the TaF bracket. **CONFIRMED.**
 - The two W187 files are distinct; the law-shadow audit contains zero
   `r(N)` occurrences (grep count 0). **CONFIRMED.**

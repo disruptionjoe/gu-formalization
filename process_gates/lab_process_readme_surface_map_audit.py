@@ -2,8 +2,8 @@
 """Audit the lab/process README surface map.
 
 This is a documentation/process gate, not a research-content check. It keeps
-the `lab/process/` map synchronized with the live process directories and
-direct process files while preserving the boundary around status-changing work.
+the `lab/process/` map useful without demanding one README row for every
+append-only historical ledger or scientific receipt.
 """
 
 from __future__ import annotations
@@ -27,10 +27,20 @@ EXPECTED_PROCESS_DIRS = {
     "perspective-passes",
     "public-surface-refresh-2026-05-31",
     "queue-reviews",
-    "runs",
-    "runbooks",
     "syntheses",
     "templates",
+}
+
+REQUIRED_CURRENT_FILES = {
+    "CURRENT-RESEARCH-CONTEXT.md",
+    "RESEARCH-AGENDA.json",
+    "NAMES.md",
+    "correction-registry.yaml",
+    "path-dependencies.yaml",
+    "path-dependencies.md",
+    "conditional-physics-ledger-v0.240.json",
+    "public-boundary-migration-completion-2026-08-13.md",
+    "authorial-dependency-assessment-2026-08-08.md",
 }
 
 BOUNDARY_PHRASES = (
@@ -104,8 +114,10 @@ class LabProcessReadmeSurfaceMapAudit(unittest.TestCase):
         live_files = live_direct_process_files()
         listed_files = listed_direct_process_files(self.text)
 
-        self.assertEqual(live_files, listed_files)
-        for file_name in live_files:
+        self.assertEqual(set(), listed_files - live_files)
+        self.assertEqual(set(), REQUIRED_CURRENT_FILES - live_files)
+        self.assertEqual(set(), REQUIRED_CURRENT_FILES - listed_files)
+        for file_name in REQUIRED_CURRENT_FILES:
             with self.subTest(file_name=file_name):
                 self.assertEqual(1, self.text.count(f"`{file_name}`"))
 

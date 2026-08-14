@@ -35,7 +35,7 @@ registry_change: none
 
 # Design packet: positivity-exit criteria for the BRST/quotient route (M-H17)
 
-The program's standing anchor (agent-context-pack.md:1679-1691) closes the
+The program's standing anchor (lab/process/CURRENT-RESEARCH-CONTEXT.md:1679-1691) closes the
 direct positivity route: no admissible fundamental symmetry exists on the
 kinematic carrier (F = ∅, signature-robust), the classification leg says at
 most one could ever have existed, and the exit is register-tracked as M-H17 —
@@ -108,7 +108,7 @@ Failure modes this packet could commit, and the mitigations applied:
 |---|---|---|---|---|
 | "positivity" | state-space metric positivity (six-axis L7: signature of the inner product on the state space) | energy positivity / positive symmetrizer (the cone proved EMPTY for the unreduced K77 Cauchy route, 2026-08-11 domain gate) | probability positivity (generalized/projector Born rule, Turok-Bateman) | this packet's target is A on the *physical sector*; B's kill is corroborating context only; C is the native-route criterion (PC-N below), never merged with A |
 | "fundamental symmetry" | J ∈ F: a LINEAR commuting involution that is a positivity majorant on the kinematic carrier (the trichotomy's `F_A(η_V)` sense) | definitizing structure: a definitizable Gram operator admitting a spectral function (Langer) — an analytic property, automatic at finite rank | positive quotient: positive-definite *descended* pairing on H⁰(Q) — a cohomological property | three different objects. The no-gos (W219 + uniqueness + DQ2) kill A only. B is untestable on finite banks (Pontryagin collapse, rankN). C is this packet's subject and no filed no-go touches it |
-| "the carrier" | kinematic carrier: `ker Γ`, dim 1664, exact fixtures | physical carrier: the gh-0 cohomology of the eventual interacting complex; `Π_RS^phys` does not exist — OQ-RK1 BLOCKED_NEEDS_SPEC (agent-context-pack:1638) | the campaign's K77 four-field carrier (dim 1920 rolled operator; 960/960 null half) | kinematic ≠ physical is repo-marked; criteria are stated on B as a function of the constructed complex; A hosts the finite shadows; C is campaign-owned |
+| "the carrier" | kinematic carrier: `ker Γ`, dim 1664, exact fixtures | physical carrier: the gh-0 cohomology of the eventual interacting complex; `Π_RS^phys` does not exist — OQ-RK1 BLOCKED_NEEDS_SPEC (lab/process/CURRENT-RESEARCH-CONTEXT.md:1638) | the campaign's K77 four-field carrier (dim 1920 rolled operator; 960/960 null half) | kinematic ≠ physical is repo-marked; criteria are stated on B as a function of the constructed complex; A hosts the finite shadows; C is campaign-owned |
 | "the BRST charge Q" | the interacting nilpotent charge on the RS/ker Γ sector — M-H17 step (i), UNBUILT; its sole named blocker is C2 = 155.36 not closing without the Y¹⁴ connection-curvature 2-form | the built FREE BV differential `s = s_KT + s_long`, nilpotent on the (9,5) comparator (`tests/rs_bicomplex_explicit_koszul_tate_bicomplex.py`) | the campaign's source-typed local ordinary-gauge Noether/BRST differential, closing on `varpi, ζ, ν`, barred rows, and the nonabelian ghost (v0.164) — local, not global-physical | three differentials. Criteria are conditions on A; B and C are the stages where finite shadows of the criteria can run today; no result on B or C is a result on A |
 | "ghost parity" vs "Krein parity" | ghost parity: the Z2 swapping generation ↔ mirror inside each hyperbolic pair | the Krein form K = η_V ⊗ β_S implementing the Cartan involution of so(9,5) | — | on the 192-triplet they coincide (canon synthesis V2, residual 0.0e+00) — one Z2 at kinematic grade — but they are distinct types, and NAMES.md records four objects under the letter C; no property transfers between senses without the synthesis' explicit identification |
 | "the exit" | (A) BRST/quotient exit — standard covariant side: quotient to a positive H⁰ (Gupta-Bleuler, Kugo-Ojima). This is what M-H17 tracks | (B) keep-and-grade — the settled NATIVE ghost clearance (GEOMETER-VS-PHYSICS-OBJECTS.md:20): Krein grading kept, positivity at the probability level via `[P_ghost, S] = 0` + projector Born rule | — | the packet's primary criteria (PC-0..PC-6) serve exit A per the register brief; exit B's distinct criteria are typed separately as PC-N and never silently merged. The fork itself is a settled Layer-0 row; whether the physical answer lives on A or B is OPEN |
@@ -552,9 +552,9 @@ edits nothing inside the repository.
 
 ## Verify status manifest (absorption protocol)
 
-- Anchor fact verbatim at agent-context-pack.md:1679-1691; M-H17/M-H4 rows
+- Anchor fact verbatim at lab/process/CURRENT-RESEARCH-CONTEXT.md:1679-1691; M-H17/M-H4 rows
   and rider at improvement-register:352/:156/:418; kinematic ≠ physical at
-  agent-context-pack:1638 — **CONFIRMED** (opened at HEAD bdd2c93).
+  lab/process/CURRENT-RESEARCH-CONTEXT.md:1638 — **CONFIRMED** (opened at HEAD bdd2c93).
 - Trichotomy legs, hostile-review corrections, Gupta-Bleuler normality
   reading, the two-exits sentence — **CONFIRMED** (files opened; hostile
   review verdict block read).

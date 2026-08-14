@@ -125,7 +125,7 @@ Registration mechanics for the prediction-paper type:
    ITSELF — the external act on the specific artifact. If a
    time-sensitive posting-ready item sits more than ~2 days, the
    factory escalates via standard routing (system mailbox / JoeOps)
-   and may flag its LANE-STATE surface. Agents do everything up to the
+   and may flag its native current-state surface. Agents do everything up to the
    boundary; Joe crosses it.
 6. **Backfill:** already-frozen packets without external timestamps
    (PP1, PP2) are standing registration candidates under the same

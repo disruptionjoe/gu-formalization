@@ -1,11 +1,7 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-233813-gu-w-mirror-antilinear-hq-ledger-compose
 verdict: CORRECTED__BASE_Q_SCOPED_SURVIVES__TRACE_Q_ATTRIBUTION_RETRACTED
-claim_status_change: none
-canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: W/mirror anti-linear and Hq pairing gate

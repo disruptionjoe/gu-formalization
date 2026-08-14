@@ -711,7 +711,7 @@ Three differences from the SM kinetic term, each with a stated origin:
    *dimensionless number* rather than charging a coefficient.
 2. **The pairing is Krein, not positive-definite.** `F = empty` on the kinematic
    carrier and this is **signature-robust** — the boost witness transfers to
-   `(7,7)` (`agent-context-pack:130-136`). This is normal for covariant
+   `(7,7)` (`lab/process/CURRENT-RESEARCH-CONTEXT.md:130-136`). This is normal for covariant
    indefinite theories (Gupta-Bleuler) and its only exit is the BRST/quotient
    route, register-tracked as `M-H17`. See SM-8.
 3. **The parent is NON-CHIRAL.** Wave K reframed the gate from "force chirality"
@@ -719,7 +719,7 @@ Three differences from the SM kinetic term, each with a stated origin:
    (`science-council:113`). Under the settled reading A, the imposter 128
    `S(V)(x)S(W)` block is kinematically **VECTORLIKE** — `64 + 64`, joint
    `32/32/32/32` — with `PH-K1-PHYSICAL` OPEN/BLOCKED and any chiral use of the
-   384 still owing the Witten-1983 exit (`agent-context-pack:76-82`).
+   384 still owing the Witten-1983 exit (`lab/process/CURRENT-RESEARCH-CONTEXT.md:76-82`).
 
 **Verdict: DIFFERS BY A NAMED TERM (`lambda_F V_GT`, ratio `-1/6` fixed) AND
 REQUIRES-UNKNOWN `U8` for the polarization coefficients AND `REQUIRES-UNKNOWN`
@@ -1096,7 +1096,7 @@ the borrowed skeleton the council recommended.
 most important thing to understand about it.** GU's ghost sector is not optional
 technology. `F = empty` on the kinematic carrier is **signature-robust**, and the
 **only** exit to a positive physical subspace is the BRST/quotient route,
-register-tracked as `M-H17` (`agent-context-pack:130-134`). So the object `U11`
+register-tracked as `M-H17` (`lab/process/CURRENT-RESEARCH-CONTEXT.md:130-134`). So the object `U11`
 must supply is sharply typed: **a BV/BRST differential whose ghost-number-zero
 cohomology is positive-definite on the Krein carrier.** That is a T3 requirement —
 type and role fixed, and a whole class of alternatives (any attempt to find
@@ -1146,7 +1146,7 @@ mechanisms on `(9,5)`, and *"the `(7,7)`/real side has no candidate at all
 (`pi_4(SO(128)) = 0`)"* (`W232-close-a5-signature-witten-anomaly-2026-07-14.md:10-11`).
 And there is **no 3-primary column** in the spin Dai-Freed ledger in any
 dimension, which is why the `Z/3` generation route stays dead
-(`global-anomaly-leg:9`; `agent-context-pack:126-129`).
+(`global-anomaly-leg:9`; `lab/process/CURRENT-RESEARCH-CONTEXT.md:126-129`).
 
 **(iii) The 14D local `I_16` leg: REQUIRES-UNKNOWN, and it is the piece that is
 fork-exposed.** `CANON.md:170` holds the position open pending an explicit

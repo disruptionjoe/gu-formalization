@@ -630,10 +630,10 @@ the two-phase rule governs anything that later approaches canon.
 
 ## Verify status manifest
 
-- Anchor fact verbatim (`agent-context-pack.md:1675-1678`); sole-bridge
+- Anchor fact verbatim (`lab/process/CURRENT-RESEARCH-CONTEXT.md:1675-1678`); sole-bridge
   sentence (`CRT-RESULTS.md:40`); M-C1/GC-FC3b closure and `pi_!`
   NOT_DEFINED (`improvement-register:144`); multiplicity fence
-  ({3^0,3^1,3^2}, `agent-context-pack` + `hinge-panel-synthesis` Section 4):
+  ({3^0,3^1,3^2}, `lab/process/CURRENT-RESEARCH-CONTEXT.md` + `hinge-panel-synthesis` Section 4):
   **CONFIRMED** — re-read at `head_commit` this session.
 - Receptacle facts (`Omega_13^fr = Z/3`, `Im J_13 = 0`,
   `Omega_13^Spin = 0`, filtration 3, product-framing kill, purity to

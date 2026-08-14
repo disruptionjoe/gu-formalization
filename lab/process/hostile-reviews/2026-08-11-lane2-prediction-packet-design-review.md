@@ -41,7 +41,7 @@ needs-recheck).**
   BLOCKED-ON-A4 and DC-H2's reduction; the TaF fences; C10's
   unbiasedness certificate.
 - `needs-recheck` (all conditional on STEP-XS executing): on ANY horn —
-  the anchor-fact wording in `agent-context-pack.md` (it should carry the
+  the anchor-fact wording in `lab/process/CURRENT-RESEARCH-CONTEXT.md` (it should carry the
   horn and drop the superseded caveat); on H-K — seat4's A6/C11 rows and
   the M-H13 register entry; on H-S — the θ-sector canon surfaces
   (`theta-field-flrw-dark-energy-eos.md`,

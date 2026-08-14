@@ -10,9 +10,6 @@ binding: >-
   ledger, fence or posture change. Every statement in section 3 is PROPOSED by
   this pass and has NOT been proved here. A proposed statement is a candidate
   for extraction work, not a result.
-claim_status_change: none
-canon_verdict_change: none
-public_posture_change: none
 row_change: none
 registry_change: none
 ---
@@ -156,11 +153,12 @@ files. And this pass's own headline risks reading as "three promotable theorems
 found" when what it found is three *candidate statements from three files*, with
 130 unread.
 
-**Where rigor defends a superseded object.** `LANE-STATE.yaml` was deleted from
-this repository at `43c66e3b`, hours after the opportunity register was written
-against it. The register's lane column and this pass's Lane 3 framing are both
-citing a surface that no longer exists here. Flagged, not repaired, because the
-migration's intent is not mine to interpret.
+**Where rigor defends a superseded object.** The former service current-state
+file was removed from this repository at `43c66e3b`, hours after the opportunity
+register was written against it. The register's old service-track column is
+historical rather than current authority; native opportunity state belongs in
+the research agenda and evidence surfaces. This pass's result-hardening label
+describes scientific purpose only.
 
 **Downstream dispositions.** Dissolved: none. Survives: the ROR-11 entry, now with
 a concrete candidate list. Needs-recheck: the opportunity register's lane tags, and

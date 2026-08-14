@@ -1,11 +1,7 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-13
-run_id: RUN-20260813-235701-gu-w-mirror-trace-hq-isotropy-correction
 verdict: CORRECTION_SURVIVES__EXACT_TRACE_Q_WITT_PAIR__NO_PHYSICAL_SELECTOR
-claim_status_change: none
-canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Hostile review: W/mirror trace-Hq isotropy correction

@@ -7,6 +7,33 @@ updated_at: "2026-08-13"
 
 # Source and Media Index
 
+Additional source-custody and reinspection records retained by the native
+research boundary:
+
+- `curt-iceberg-77-primary-transcript-fetch-2026-08-08.md`
+- `k77-exact-bank-source-custody-2026-08-09.md`
+- `literature-ultrahyperbolic-wellposedness-2026-08-08.md`
+- `selected-k77-action-parent-source-reinspection-2026-08-09.md`
+- `selected-k77-branch-bfv-source-reinspection-2026-08-09.md`
+- `selected-k77-branch-boundary-source-reinspection-2026-08-09.md`
+- `selected-k77-branch-hessian-source-reinspection-2026-08-09.md`
+- `selected-k77-bulk-operator-source-reinspection-2026-08-09.md`
+- `selected-k77-common-graded-trace-source-reinspection-2026-08-09.md`
+- `selected-k77-curvature-vev-trace-source-reinspection-2026-08-09.md`
+- `selected-k77-first-action-tangent-source-reinspection-2026-08-09.md`
+- `selected-k77-i2b-action-euler-square-source-return-2026-08-12.md`
+- `selected-k77-i2b-moving-qu-contact-source-return-2026-08-12.md`
+- `selected-k77-i2b-observer-qb-source-return-2026-08-12.md`
+- `selected-k77-i2b-two-connection-tangent-source-return-2026-08-12.md`
+- `selected-k77-lower-order-source-block-reinspection-2026-08-09.md`
+- `selected-k77-metric-epsilon-hessian-source-reinspection-2026-08-09.md`
+- `selected-k77-moving-epsilon-first-action-source-reinspection-2026-08-09.md`
+- `selected-k77-nonconstant-atlas-xi-source-reinspection-2026-08-09.md`
+- `selected-k77-relative-edge-bitorsor-source-reinspection-2026-08-09.md`
+- `selected-k77-source-euler-two-to-one-source-reinspection-2026-08-09.md`
+- `selected-k77-source-tangent-branch-source-reinspection-2026-08-09.md`
+- `selected-k77-two-branch-action-block-source-reinspection-2026-08-09.md`
+
 - [`selected-k77-w-mirror-action-pairing-ownership-source-return-2026-08-13.md`](selected-k77-w-mirror-action-pairing-ownership-source-return-2026-08-13.md)
   - confirms the independent barred/unbarred equation-9.16 grammar; attributes
     the exact two-line action-pairing classification and trace-Hq independence

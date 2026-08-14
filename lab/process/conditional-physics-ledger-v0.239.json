@@ -74,7 +74,7 @@
     },
     "meter": "Ledger v0.239 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; no row verdict moves. Canonicity distance v0.1 is unchanged. One Layer-0 owner ambiguity closes and one physical cross-pair ownership condition opens; the next gate must determine whether the action/BV/domain owns the trace-Hq W-mirror pairing or another physical form."
   },
-  "updated_by": "RUN-20260813-235701-gu-w-mirror-trace-hq-isotropy-correction",
+  "updated_by_evidence": "explorations/conditional-build/selected-k77-w-mirror-trace-hq-isotropy-correction-2026-08-13.md",
   "frontier_delta": {
     "headline_delta": "NONE",
     "conditions_closed": 1,

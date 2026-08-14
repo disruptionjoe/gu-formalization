@@ -54,7 +54,8 @@ unitary parent. No superseded object is promoted.
 
 - `functional-channel-operating-contract-v1.0`: **needs-recheck/update** — name
   the efficient core-plus-triggered lens routing and current v0.124 surface.
-- `agent-context-pack`, `LANES`, `NEXT-STEPS`, `RESEARCH-STATUS`, READMEs:
+- `lab/process/CURRENT-RESEARCH-CONTEXT.md`, the historical service-Lane view,
+  `NEXT-STEPS`, `RESEARCH-STATUS`, and READMEs:
   **needs-recheck/update** — replace the process prerequisite with the next
   scientific gate.
 - v0.122/v0.123 scientific artifacts: **survive** unchanged.

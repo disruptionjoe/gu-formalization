@@ -1,7 +1,6 @@
 ---
 artifact_type: source_return
 created: 2026-08-13
-run_id: RUN-20260813-233813-gu-w-mirror-antilinear-hq-ledger-compose
 status: CORRECTED_BASE_Q_ATTRIBUTION__SOURCE_CONFIRMS_CARRIER_PARENT_GRAMMAR__SOURCE_SILENT_REPO_PROJECTORS_HQ_AND_PHYSICAL_SELECTOR
 ---
 

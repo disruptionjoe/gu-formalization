@@ -1,15 +1,9 @@
 ---
 artifact_type: exact_pairing_ownership_and_layer0_result
 created: 2026-08-13
-run_id: RUN-20260814-002843-gu-w-mirror-action-pairing-ownership
 status: CURRENT_SPIN_NATURAL_ACTION_PAIRING_CLASS_EXCLUDES_TRACE_HQ__REALITY_SELECTS_NEITHER__NONZERO_FERMION_BV_DOMAIN_OPEN
-lane: "1"
-functional_channels: [BUILD, COMPOSE, SOURCE, VERIFY]
 source_return: SOURCE_SILENT_TRACE_HQ_AS_DEFINING_FERMION_FORM_AND_W_MIRROR_SELECTOR
 ledger_rows: [RA-G2, LT-SM3, AC-G1a]
-claim_status_change: none
-canon_verdict_change: none
-public_posture_change: none
 ---
 
 # Selected K77 W/mirror action-pairing ownership
