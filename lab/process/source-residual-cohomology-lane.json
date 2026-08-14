@@ -48,7 +48,12 @@
         "residual_first_point_jet_gate": {
           "result": "explorations/conditional-build/selected-k77-zorro-source-residual-point-jet-prolongation-gate-2026-08-14.md",
           "probe": "tests/channel-swings/selected_k77_zorro_source_residual_point_jet_prolongation_probe.py",
-          "disposition": "POINTWISE_REAL_RESIDUAL_ZERO_JET_EXISTS_FOR_EVERY_DEPENDENT_BZ__CURVED_BZ_FORCES_NONZERO_FIRST_PROLONGATION_TARGET__OPEN_BACKGROUND_STILL_MISSING"
+          "disposition": "POINTWISE_REAL_RESIDUAL_ZERO_JET_EXISTS_FOR_EVERY_DEPENDENT_BZ__CURVED_BZ_FORCES_NONZERO_FIRST_PROLONGATION_TARGET__OPEN_BACKGROUND_STILL_MISSING",
+          "differentiated_shiab_second_jet_gate": {
+            "result": "explorations/conditional-build/selected-k77-zorro-differentiated-shiab-second-jet-gate-2026-08-14.md",
+            "probe": "tests/channel-swings/selected_k77_zorro_differentiated_shiab_second_jet_probe.py",
+            "disposition": "SELECTED_K77_SHIAB_SPENCER_TARGET_ADMITTED__SYMMETRIC_SECOND_VARPI_JET_CONSTRUCTED__DEPENDENT_BZ_FIRST_ACTION_EULER_ROWS_TYPE_MISSING"
+          }
         }
       },
       "depends_on": ["SR-0"]
@@ -93,8 +98,8 @@
   ],
   "next_required_construction": {
     "id": "SR-1B",
-    "statement": "Starting from the exact real point jet T=F_varpi=Upsilon_B=0 with Alt(DT)=-F_BZ, compute the actual selected-K77 differentiated-Shiab image with Bianchi and symmetric second-varpi-jet compatibility. If the target is admitted, append the remaining I1 metric, observation and fixed-boundary Euler rows and extend to one complete source/action-owned stationary background before replaying SR-1; if it is excluded, return a reconstruction-scoped formal-germ obstruction.",
-    "failure_rule": "Do not manufacture the background by tangent restriction or promote a generic finite control or formal flat-zero ansatz to a GU solution."
+    "statement": "On the explicit selected-K77 residual-zero two-jet, compute the action-owned bulk E_B-E_T row and the primitive-epsilon metric/observation formal-adjoint chain. If every row vanishes, continue the Spencer/formal-integrability tower and extend to one complete source/action-owned stationary background before replaying SR-1; if any row is nonzero, return a stationary-background obstruction at its exact owner and derivative grade.",
+    "failure_rule": "Do not manufacture a background by tangent restriction, infer dependent-connection Euler stationarity from residual zero, or promote a local formal two-jet to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
 }

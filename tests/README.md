@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_zorro_differentiated_shiab_second_jet_probe.py`
+  proves the selected `comm/symi/symi` Hodge--Shiab is a `1274 x 1274`
+  signed-permutation isomorphism, ports the canonical K77 curvature target,
+  verifies differential Bianchi, and constructs an explicit symmetric
+  second-connection-jet Spencer right inverse. It separates that local
+  admission from the still-missing dependent-`B_Z` bulk Euler row and passes
+  `46/46` under Sage's pinned SymPy 1.14.0 environment.
+
 - `channel-swings/selected_k77_zorro_source_residual_point_jet_prolongation_probe.py`
   constructs an exact real independent-connection one-jet with curved
   dependent `B_Z` but `T=F_varpi=Upsilon_B=0`, proves

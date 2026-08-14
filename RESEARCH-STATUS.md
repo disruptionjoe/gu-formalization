@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Selected-K77 differentiated-Shiab second-jet gate 2026-08-14 (first
+prolongation admitted; background still missing).** The selected
+`comm/symi/symi` Hodge--Shiab map is an exact `1274 x 1274` signed-permutation
+isomorphism.  On the canonical Levi-Civita Zorro/DeWitt curvature module, the
+unique inverse of the forced point-jet target satisfies differential Bianchi
+and admits an explicit symmetric second-`varpi`-jet Spencer right inverse.
+Exact reconstruction has zero residual, Bianchi and holonomicity defects,
+with 214 supported curvature-derivative and 323 second-jet cells.  This closes
+the first-prolongation image gate, not `SR-1`: the bulk action-owned
+`E_B-E_T` row and primitive-epsilon metric/observation formal-adjoint chain
+remain type-missing on the live `DT` jet.  `SR-2` therefore stays blocked.
+See
+`explorations/conditional-build/selected-k77-zorro-differentiated-shiab-second-jet-gate-2026-08-14.md`
+and its exact `46/46` probe.  No ledger, canon or public-posture change follows.
+
 **Canonical-Zorro source-residual point-jet gate 2026-08-14 (exact point jet;
 no background or ledger move).** Holding the canonical distinguished
 connection `B_Z` dependent still leaves the source connection `varpi` with an

@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SELECTED-K77 DIFFERENTIATED-SHIAB SECOND-JET GATE.** The
+> repository-selected `comm/symi/symi` Hodge--Shiab is exactly a
+> `1274 x 1274` signed-permutation isomorphism. On the canonical
+> Levi-Civita Zorro/DeWitt curvature module, its inverse of the forced
+> `-Hodge(DT)` target obeys differential Bianchi and has the explicit
+> symmetric Spencer right inverse
+> `B_(ri);j^k=(C_(r;ij)^k+C_(i;rj)^k)/3`. The witness has 214 supported
+> curvature-derivative and 323 second-jet cells with zero residual, Bianchi
+> and holonomicity defects. **Next compute the action-owned bulk `E_B-E_T`
+> row and primitive-epsilon metric/observation formal-adjoint chain on this
+> exact two-jet.** Residual zero does not imply that dependent-connection
+> Euler row. `SR-1` remains `BACKGROUND-MISSING`, `SR-2` remains blocked, and
+> no ledger, canon, residue, datum or posture changes. Exact probe `46/46`.
+
 > **2026-08-14 CANONICAL-ZORRO SOURCE-RESIDUAL POINT-JET GATE.** Curvature of
 > dependent `B_Z` is not a pointwise algebraic obstruction to the source
 > equation. At any point, the independent source connection has a real first

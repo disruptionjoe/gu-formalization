@@ -245,3 +245,36 @@ compatibility. A flat-`varpi` patch cannot extend the construction when `B_Z`
 is curved: residual zero would force `T=0`, hence `varpi=B_Z` and the
 contradictory equality `F_varpi=F_BZ`. This point-jet theorem neither starts
 `SR-2` nor changes a ledger or canon verdict.
+
+## 2026-08-14 differentiated-Shiab/Spencer refinement
+
+The actual selected `comm/symi/symi` Hodge--Shiab map is an exact
+`1274 x 1274` signed-permutation isomorphism,
+
+```text
+F_ij^k |-> -2 eta_i eta_j eta_k T_k^ij,
+```
+
+with `637` positive and `637` negative columns.  On the canonical
+Levi-Civita Zorro/DeWitt curvature module, the unique inverse of the forced
+target obeys differential Bianchi by Riemann pair exchange and first Bianchi.
+The explicit Spencer right inverse
+
+```text
+B_(ri);j^k=(C_(r;ij)^k+C_(i;rj)^k)/3
+```
+
+is symmetric in the derivative indices and reconstructs all `214` supported
+curvature-derivative cells from `323` supported second-jet cells with zero
+residual, Bianchi or holonomicity defect.  The selected first-prolongation
+target is therefore admitted; no free symmetric `DT` correction is needed.
+
+`SR-1` nevertheless stays `BACKGROUND-MISSING`.  At `T=0`, coefficient-only
+density/Hodge/Shiab/pairing variations vanish, the source observation remains
+a dependent receiver, and the selected fixed boundary kills preboundary
+flux.  What remains type-missing is the bulk action-owned `E_B-E_T` row and
+the primitive-epsilon metric/observation formal-adjoint chain on this live
+`DT` jet.  Residual zero does not imply that dependent-connection Euler row;
+the exact control `L=t b'` has `E_t=b'=0` but `E_b=-t'` nonzero.  The narrowed
+`SR-1B` must compute that row before any Spencer tower, stationary background, `SR-2`
+or physical-cohomology claim can begin.

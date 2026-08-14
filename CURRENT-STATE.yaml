@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3cb65f9d661fe4de1f2c813406a24b3704a63645
+revision_basis: b87fa5cdda837737ab4f27942e0d9b5975852a89
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -41,13 +41,19 @@ current_result:
     chain remains a sketch without a coordinate formula or uniqueness theorem,
     so no source-global background no-go follows and SR-2 stays blocked. The
     corrected SR-1B target holds canonical B_Z dependent. An exact real
-    source-varpi one-jet now gives T=F_varpi=Upsilon_B=0 at every point without
-    a Shiab inverse or external datum, so B_Z curvature is not a pointwise
-    obstruction. Curvature reappears in the first prolongation as
-    Alt(DT)=-F_BZ. The live gate is whether the actual differentiated Shiab
-    image, with Bianchi and symmetric second-jet compatibility, contains the
-    required -Hodge(DT) target. This is not yet an open stationary background,
-    so SR-2 remains blocked.
+    source-varpi one-jet gives T=F_varpi=Upsilon_B=0 at every point without a
+    Shiab inverse or external datum, so B_Z curvature is not a pointwise
+    obstruction. Curvature reappears as Alt(DT)=-F_BZ. The actual selected
+    comm/symi/symi Hodge--Shiab map is now proved to be a 1274-by-1274 signed-
+    permutation isomorphism. On the canonical Levi-Civita curvature module,
+    its inverse of the forced target obeys differential Bianchi and has an
+    explicit symmetric Spencer second-varpi-jet right inverse, with zero
+    residual, Bianchi and holonomicity defects. Thus the first prolongation is
+    admitted. The remaining live gate is the action-owned bulk E_B-E_T row
+    and primitive-epsilon metric/observation formal-adjoint chain on this
+    two-jet. Residual zero does not imply dependent-connection Euler
+    stationarity. This is not yet an open stationary background, so SR-1
+    remains background-missing and SR-2 remains blocked.
     The ten rank-128 leaks are already the full N* tensor S observation-kernel
     module; the selected graph, not the carrier, remains only compact-natural.
     The bare selected action's endpoint potential now decides the boundary-law
@@ -152,6 +158,8 @@ current_result:
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-zorro-differentiated-shiab-second-jet-gate-2026-08-14.md
+    - lab/process/selected-k77-zorro-differentiated-shiab-second-jet.json
     - explorations/conditional-build/selected-k77-zorro-dewitt-trace-curvature-obstruction-2026-08-14.md
     - lab/process/selected-k77-zorro-dewitt-trace-curvature-obstruction.json
     - explorations/conditional-build/selected-k77-cartan-slice-edge-cancellation-2026-08-14.md
@@ -227,9 +235,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the actual selected-K77 differentiated-Shiab image admit the forced
-  -Hodge(DT) first-prolongation target of the exact real residual-zero point
-  jet, with Bianchi and symmetric second-varpi-jet compatibility imposed?
+  Does the action-owned bulk E_B-E_T row and the primitive-epsilon
+  metric/observation formal-adjoint chain vanish on the explicit selected-K77
+  residual-zero two-jet whose first prolongation is now exactly admitted?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -238,11 +246,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Freeze the exact point jet T=F_varpi=Upsilon_B=0 and compute the selected-K77
-  map from second varpi jets to the first residual prolongation on the
-  canonical Zorro curvature module. If -Hodge(DT) is admitted, append the
-  remaining I1 metric, observation and fixed-boundary Euler rows on the same
-  jet; otherwise return a scoped formal-germ obstruction.
+  Compute the action-owned bulk E_B-E_T row and the primitive-epsilon
+  metric/observation formal-adjoint chain on the explicit two-jet. If all
+  remaining rows vanish, continue the Spencer/formal-integrability tower and
+  extend to one complete stationary background; if any row is nonzero, return
+  a stationary-background obstruction at its exact owner and derivative grade.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

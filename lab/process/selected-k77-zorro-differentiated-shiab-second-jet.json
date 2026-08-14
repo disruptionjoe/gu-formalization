@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "artifact": "explorations/conditional-build/selected-k77-zorro-differentiated-shiab-second-jet-gate-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_zorro_differentiated_shiab_second_jet_probe.py",
+  "status": "SELECTED_K77_SHIAB_SPENCER_TARGET_ADMITTED__SYMMETRIC_SECOND_VARPI_JET_CONSTRUCTED__DEPENDENT_BZ_FIRST_ACTION_EULER_ROWS_TYPE_MISSING",
+  "selected_shiab": {
+    "product": ["comm", "symi", "symi"],
+    "basis_action": "F_ij^k -> -2 eta_i eta_j eta_k T_k^ij",
+    "shape": [1274, 1274],
+    "positive_columns": 637,
+    "negative_columns": 637,
+    "rank": 1274
+  },
+  "canonical_vertical_module": {
+    "nonzero_form_legs": 25,
+    "spin_coefficients": 107,
+    "trace_traceless_zero_legs": 9,
+    "riemann_pair_exchange": true,
+    "algebraic_first_bianchi": true
+  },
+  "witness": {
+    "distortion_derivative": "DT_(r;k)^ij=-(1/2)(F_BZ)_(rk)^ij",
+    "spencer_right_inverse": "B_(ri);j^k=(C_(r;ij)^k+C_(i;rj)^k)/3",
+    "curvature_derivative_support": 214,
+    "symmetric_second_jet_support": 323,
+    "residual_defects": 0,
+    "bianchi_defects": 0,
+    "holonomicity_defects": 0
+  },
+  "first_action_rows": {
+    "coefficient_only_at_T_zero": "ZERO",
+    "fixed_boundary_flux": "ZERO",
+    "observation_independent_row": "NOT_SOURCE_OWNED",
+    "dependent_BZ_bulk_metric_epsilon_observation_chain": "TYPE_MISSING"
+  },
+  "source_return": "SOURCE_CONFIRMS_VARPI_B_EPSILON_T_AND_FIRST_RESIDUAL_GRAMMAR__SOURCE_SILENT_SELECTED_K77_SECOND_JET_WITNESS_AND_DEPENDENT_BZ_FULL_EULER_COMPLETION",
+  "canon_verdict_change": "none",
+  "ledger_row_changes": [],
+  "next_gate": "COMPUTE_ACTION_OWNED_E_B_MINUS_E_T_AND_PRIMITIVE_EPSILON_METRIC_OBSERVATION_CHAIN_ON_THIS_EXPLICIT_TWO_JET__IF_ZERO_CONTINUE_SPENCER_FORMAL_INTEGRABILITY__IF_NONZERO_RETURN_STATIONARY_BACKGROUND_OBSTRUCTION"
+}
