@@ -7,6 +7,26 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1C OWNER-OPERATOR TYPE GATE.** The precise first blocker is
+> now `O_SR1C`, a common-basis branch evaluator for
+> `j^1(E_B-E_T)` plus the fixed-`varpi` derivatives of `B_Z`, Shiab, Hodge,
+> frame, density and lowerer. Existing action, Noether, Zorro and Shiab
+> receipts do not serialize that operator on the exact two-root witness.
+> Exact planted completions change primitive epsilon and the total metric row
+> while preserving all admitted field-one-jet data, so absence cannot be
+> replaced by zero. **Next derive and held-out validate `O_SR1C`, then run the
+> minimal compatible two-jet solve.** Both branches remain
+> `NOT-YET-FALSIFIED`; exact probe `23/23`.
+
+> **2026-08-14 RANK-SINGULAR ALL-CHARGE POISSON TARGET.** The weaker target is
+> an RSAP map: one smooth surjective Poisson map to `so(7,7)*`, submersive on
+> the regular locus and allowed to lose rank on singular strata. Its regular
+> restriction forces `dim M>=98`; the zero-orbit 182 bound does not transfer
+> without submersivity. The existing 98-dimensional regular atlas is not an
+> RSAP candidate because it omits singular charges. **Next construct or
+> obstruct one smooth symplectic Poisson attachment across a codimension-one
+> discriminant wall.** Existence remains open; exact probe `21/21`.
+
 > **2026-08-14 ALL-CHARGE POISSON-SUBMERSION MINIMUM.** For any symplectic
 > Poisson submersion onto `so(7,7)*`, the pointwise bound is
 > `dim M >= 182-rank(pi)`. The zero coadjoint orbit has rank zero, so an

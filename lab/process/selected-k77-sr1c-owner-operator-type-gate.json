@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "TYPE_MISSING__COMMON_BASIS_SR1C_BRANCH_EVALUATION_OPERATOR_NOT_SERIALIZED",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "branch": {
+    "connection": "CANONICAL_B_Z_DEPENDENT",
+    "amplitude_ring": "QQ[t]/(28392*t^2+91*t-351)",
+    "real_embeddings": 2,
+    "action_rows": 196,
+    "bianchi_rows": 5096,
+    "symmetric_correction_support": 13
+  },
+  "available": [
+    "SOURCE_PRIMITIVE_EPSILON_IDENTITY",
+    "LOCAL_SELECTED_ACTION_ENDPOINT_E_B_MINUS_E_T_BANK",
+    "CANONICAL_ZORRO_DEWITT_CONNECTION_METRIC_JET",
+    "SELECTED_COMM_SYMI_SYMI_HODGE_SHIAB_ISOMORPHISM",
+    "NONZERO_T_ACTION_BIANCHI_FIELD_ONE_JET"
+  ],
+  "missing_operator": {
+    "id": "O_SR1C",
+    "first_blocking_output": "J1_OF_E_B_MINUS_E_T_ON_THE_EXACT_NONZERO_T_BRANCH_IN_THE_COMMON_196_ROW_BASIS",
+    "metric_outputs": [
+      "D_G_B_Z_AT_FIXED_VARPI",
+      "D_G_SHIAB",
+      "D_G_HODGE",
+      "D_G_FRAME",
+      "D_G_DENSITY",
+      "D_G_LOWERER"
+    ],
+    "observation_role": "DEPENDENT_RECEIVER_AFTER_SOURCE_ROWS",
+    "zero_substitution_allowed": false
+  },
+  "exact_control": {
+    "direct_density": "-t*(27+728*t^2)",
+    "coprime_to_branch_polynomial": true,
+    "same_admitted_data_two_metric_returns": ["0", "t*(27+728*t^2)"],
+    "total_rows": ["-t*(27+728*t^2)", "0"],
+    "interpretation": "LOGICAL_NON_IDENTIFIABILITY_CONTROL_NOT_PHYSICAL_COMPLETIONS"
+  },
+  "disposition": "TYPE_MISSING",
+  "branch_status": "BOTH_NOT_YET_FALSIFIED__BACKGROUND_MISSING",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "next_gate": "CONSTRUCT_AND_HELD_OUT_VALIDATE_O_SR1C__THEN_SOLVE_THE_MINIMAL_COMPATIBLE_TWO_JET",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "probe": "tests/channel-swings/selected_k77_sr1c_owner_operator_type_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1c-owner-operator-type-gate-review.md"
+}

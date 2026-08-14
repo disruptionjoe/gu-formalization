@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**SR-1C owner-operator type gate 2026-08-14 (`TYPE-MISSING`).** The exact
+canonical nonzero-`T` witness still lacks one executable composition object:
+`O_SR1C`, the common-196-row-basis evaluator for `j^1(E_B-E_T)` and the
+fixed-`varpi` derivatives of `B_Z`, Shiab, Hodge, frame, density and lowerer.
+Existing exact receipts own the dependency identity and its ingredients at
+different types but do not evaluate that packet on the two-root branch. Exact
+non-identifiability controls reject silent zero substitution. See
+`explorations/conditional-build/selected-k77-sr1c-owner-operator-type-gate-2026-08-14.md`
+and its `23/23` probe. Neither branch is killed; `SR-1` remains
+`BACKGROUND-MISSING` and `SR-2` remains blocked.
+
+**Rank-singular all-charge Poisson target 2026-08-14 (RSAP typed; existence
+open).** An RSAP map is one smooth surjective Poisson map to `so(7,7)*` that
+is submersive over the regular locus and may lose rank on singular strata.
+Regular submersivity forces dimension at least 98, while the zero-orbit 182
+bound is specific to an all-charge submersion. The existing 98-dimensional
+regular atlas omits singular charges and is not yet an RSAP candidate. The
+first construction gate is a smooth symplectic Poisson attachment across one
+codimension-one discriminant wall. See
+`explorations/conditional-build/selected-k77-rank-singular-poisson-map-target-2026-08-14.md`
+and its `21/21` probe.
+
 **All-charge Poisson-submersion minimum 2026-08-14 (exactly 182).** A Poisson
 submersion from symplectic `M` to the 91-dimensional Lie--Poisson target obeys
 the pointwise bound `dim M >= 91+corank(pi_p)=182-rank(pi_p)`. The regular

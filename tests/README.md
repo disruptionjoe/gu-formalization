@@ -4259,3 +4259,27 @@ fixed-`varpi` metric/epsilon graph.
 ```sh
 sage -python tests/channel-swings/selected_k77_zorro_nonzero_t_first_action_jet_probe.py
 ```
+
+## K77 SR-1C owner-operator type gate
+
+`channel-swings/selected_k77_sr1c_owner_operator_type_gate_probe.py` certifies
+that the exact two-root action/Bianchi witness lacks a serialized common-basis
+`j^1(E_B-E_T)` evaluator and fixed-`varpi` metric derivative bank. It uses
+exact non-identifiability controls to reject silent zero substitution without
+killing either branch.
+
+```sh
+python3 tests/channel-swings/selected_k77_sr1c_owner_operator_type_gate_probe.py
+```
+
+## K77 rank-singular all-charge Poisson-map target
+
+`channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py` types
+the weaker smooth RSAP class, proves its inherited 98-dimensional regular-
+locus lower bound, and fences it from both an all-charge submersion and a
+stratified-domain map. It leaves existence to the first discriminant-wall
+attachment gate.
+
+```sh
+python3 tests/channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py
+```

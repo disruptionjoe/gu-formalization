@@ -32,6 +32,13 @@ Exact same-one-jet controls give different values for both downstream rows,
 so missing higher-order data cannot be filled with zero and neither algebraic
 branch is yet admitted or killed as a complete background.
 
+The subsequent owner audit identifies the first missing executable object as
+`O_SR1C`: `j^1(E_B-E_T)` on this branch in the common 196-row basis, together
+with the fixed-`varpi` derivatives of `B_Z`, Shiab, Hodge, frame, density and
+lowerer. The generic dependency identity and separate exact receipts do not
+serialize this branch evaluator. Construct and held-out validate `O_SR1C`
+before the compatible two-jet solve.
+
 The algebraic composition is not the obstruction. For any equivariant total
 residual, differentiating equivariance gives
 
@@ -374,7 +381,7 @@ This does not close `SR-1`. The action density
 `-t(27+728t^2)` is nonzero on both roots, so a direct volume partial remains
 live. Because only `E_T` has closed, that partial cannot be promoted to the
 total fixed-`varpi` metric Euler. The next construction, now named `SR-1C`,
-must derive `E_B`, construct the minimal compatible field two-jet required by
+must first construct `O_SR1C`, then build the minimal compatible field two-jet required by
 `D_B^!(E_B-E_T)`, and evaluate the moving-Shiab primitive-epsilon term plus
 the complete fixed-`varpi` metric/Hodge/frame/volume graph on this exact
 witness. Observation is a dependent receiver and is checked after the

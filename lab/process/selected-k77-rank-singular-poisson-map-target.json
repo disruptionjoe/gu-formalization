@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "RSAP_TARGET_TYPED__REGULAR_LOWER_BOUND_98__EXISTENCE_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "target": {
+    "id": "RSAP",
+    "domain": "ONE_SMOOTH_SYMPLECTIC_MANIFOLD",
+    "map": "SMOOTH_SURJECTIVE_POISSON",
+    "regular_locus": "SUBMERSION",
+    "singular_strata": "RANK_LOSS_ALLOWED",
+    "stratified_domain": false
+  },
+  "dimensions": {
+    "target": 91,
+    "regular_poisson_rank": 84,
+    "regular_corank": 7,
+    "lower_bound": 98,
+    "all_charge_submersion_minimum": 182,
+    "smaller_candidate_interval": "[98,182)"
+  },
+  "existing_regular_atlas": {
+    "dimension": 98,
+    "coverage": "COMPLETE_REGULAR_SEMISIMPLE_LOCUS",
+    "all_charge": false,
+    "rsap_candidate": false
+  },
+  "first_gate": "CONSTRUCT_ONE_SMOOTH_SYMPLECTIC_POISSON_ATTACHMENT_ACROSS_A_CODIMENSION_ONE_DISCRIMINANT_WALL",
+  "toy_control": {
+    "map": "J(q,p)=q^3",
+    "source_poisson": "STANDARD_SYMPLECTIC_R2",
+    "target_poisson": "ZERO_POISSON_R",
+    "surjective": true,
+    "critical_at_zero": true,
+    "scope": "HYPOTHESIS_CONTROL_NOT_SO_7_7_CONSTRUCTION"
+  },
+  "claim_ceiling": "NO_RSAP_EXISTENCE__NO_ALL_CHARGE_CARRIER__NO_PHYSICAL_SUBCARRIER",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "probe": "tests/channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-rank-singular-poisson-map-target-review.md"
+}
