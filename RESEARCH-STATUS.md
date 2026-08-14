@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Canonical-Zorro source-residual point-jet gate 2026-08-14 (exact point jet;
+no background or ledger move).** Holding the canonical distinguished
+connection `B_Z` dependent still leaves the source connection `varpi` with an
+independent first jet. At every point one can set `varpi=B_Z` in value and
+choose its antisymmetric derivative so that `T=F_varpi=Upsilon_B=0`. This uses
+no inverse or rank claim for Shiab and adds no external datum. The construction
+does not extend naively to a flat patch: curved `B_Z` forces
+`Alt(DT)=-F_BZ`, and first prolongation requires the actual selected-K77 image
+equation `Shiab(D_varpi F_varpi)=-Hodge(DT)`, together with Bianchi and
+symmetric-second-jet compatibility. `BACKGROUND-MISSING` therefore survives
+at neighborhood/stationary grade and SR-2 remains blocked. See
+`explorations/conditional-build/selected-k77-zorro-source-residual-point-jet-prolongation-gate-2026-08-14.md`
+and its exact `40/40` probe.
+
 **K77 Zorro/DeWitt trace-curvature obstruction 2026-08-14 (reconstruction-
 scoped; no ledger verdict move).** The older B2C15P exact connection-metric
 reconstruction closes the canonical branchwise comparison earlier than the

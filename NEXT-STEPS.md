@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 CANONICAL-ZORRO SOURCE-RESIDUAL POINT-JET GATE.** Curvature of
+> dependent `B_Z` is not a pointwise algebraic obstruction to the source
+> equation. At any point, the independent source connection has a real first
+> jet with `varpi=B_Z`, `T=0` and `F_varpi=0`, hence `Upsilon_B=0`, without a
+> Shiab inverse or external datum. Curvature returns at first prolongation:
+> `Alt(DT)=-F_BZ`, so the second `varpi` jet must supply
+> `Shiab(D_varpi F_varpi)=-Hodge(DT)`. A flat-`varpi` patch is impossible for
+> curved `B_Z`, and no open stationary background follows. **Next compute this
+> actual selected-K77 differentiated-Shiab image with Bianchi and symmetric
+> second-jet compatibility; only after admission append the remaining I1
+> metric, observation and fixed-boundary rows.** Exact probe `40/40`; SR-2
+> remains blocked and no ledger, canon, residue, datum or posture changes.
+
 > **2026-08-14 K77 ZORRO/DEWITT TRACE-CURVATURE OBSTRUCTION.** The older
 > B2C15P packet already supplied a canonical Levi-Civita-horizontal
 > connection-metric reconstruction. Its pure-vertical geometry is exactly

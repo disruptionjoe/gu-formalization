@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "artifact": "explorations/conditional-build/selected-k77-zorro-source-residual-point-jet-prolongation-gate-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_zorro_source_residual_point_jet_prolongation_probe.py",
+  "status": "POINTWISE_REAL_RESIDUAL_ZERO_JET_EXISTS_FOR_EVERY_DEPENDENT_BZ__CURVED_BZ_FORCES_NONZERO_FIRST_PROLONGATION_TARGET__OPEN_BACKGROUND_STILL_MISSING",
+  "layer0": {
+    "dependent_connection": "B_Z",
+    "independent_connection": "varpi",
+    "distortion": "T=varpi-B_Z",
+    "point_jet_is_open_background": false
+  },
+  "point_jet": {
+    "T_value": "0",
+    "F_varpi": "0",
+    "alternating_D_T": "-F_BZ",
+    "uses_shiab_inverse": false,
+    "external_datum_delta": 0
+  },
+  "first_prolongation": {
+    "equation": "Shiab(D_varpi F_varpi)=-Hodge(DT)",
+    "actual_k77_image_membership": "OPEN",
+    "bianchi_and_symmetric_second_jet": "REQUIRED"
+  },
+  "flat_patch_shortcut": "KILLED_FOR_CURVED_BZ",
+  "source_return": "SOURCE_CONFIRMS_INDEPENDENT_VARPI_DEPENDENT_B_EPSILON_T_DIFFERENCE_AND_RESIDUAL_GRAMMAR__SOURCE_SILENT_EXACT_CANONICAL_ZORRO_POINT_JET_AND_PROLONGATION_IMAGE",
+  "canon_verdict_change": "none",
+  "ledger_row_changes": [],
+  "next_gate": "COMPUTE_ACTUAL_K77_J2_VARPI_TO_J1_UPSILON_IMAGE_ON_THE_CANONICAL_ZORRO_CURVATURE_MODULE__THEN_APPEND_REMAINING_I1_EULER_AND_FIXED_BOUNDARY_ROWS"
+}

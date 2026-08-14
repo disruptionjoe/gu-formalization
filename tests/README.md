@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_zorro_source_residual_point_jet_prolongation_probe.py`
+  constructs an exact real independent-connection one-jet with curved
+  dependent `B_Z` but `T=F_varpi=Upsilon_B=0`, proves
+  `Alt(DT)=-F_BZ`, isolates the actual differentiated-Shiab image as the first
+  prolongation gate, and kills the flat-`varpi` patch shortcut. It distinguishes
+  a point jet from an open stationary background and passes `40/40` under
+  Sage's pinned SymPy 1.14.0 environment.
+
 - `channel-swings/selected_k77_zorro_dewitt_trace_curvature_obstruction_probe.py`
   ports the canonical Zorro/DeWitt fibre curvature to authorial K77, proves
   exact base-sign invariance and fibre inertia `(6,4)`, and shows all nine

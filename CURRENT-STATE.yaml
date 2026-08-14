@@ -40,9 +40,14 @@ current_result:
     that canonical reconstruction before first-jet grade. The source Zorro
     chain remains a sketch without a coordinate formula or uniqueness theorem,
     so no source-global background no-go follows and SR-2 stays blocked. The
-    corrected SR-1B target holds canonical B_Z dependent and solves the source
-    residual nonhomogeneously for T=varpi-B_Z and varpi; a rival Zorro
-    completion must derive nonzero mixed trace curvature explicitly.
+    corrected SR-1B target holds canonical B_Z dependent. An exact real
+    source-varpi one-jet now gives T=F_varpi=Upsilon_B=0 at every point without
+    a Shiab inverse or external datum, so B_Z curvature is not a pointwise
+    obstruction. Curvature reappears in the first prolongation as
+    Alt(DT)=-F_BZ. The live gate is whether the actual differentiated Shiab
+    image, with Bianchi and symmetric second-jet compatibility, contains the
+    required -Hodge(DT) target. This is not yet an open stationary background,
+    so SR-2 remains blocked.
     The ten rank-128 leaks are already the full N* tensor S observation-kernel
     module; the selected graph, not the carrier, remains only compact-natural.
     The bare selected action's endpoint potential now decides the boundary-law
@@ -222,10 +227,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  With both old homogeneous residual-zero branches excluded from the canonical
-  Zorro/DeWitt background bank, can the source residual be solved with B_Z held
-  dependent and T=varpi-B_Z, varpi moving nonhomogeneously, or does the action
-  fail to admit any stationary residual-zero vacuum on that geometry?
+  Does the actual selected-K77 differentiated-Shiab image admit the forced
+  -Hodge(DT) first-prolongation target of the exact real residual-zero point
+  jet, with Bianchi and symmetric second-varpi-jet compatibility imposed?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -234,10 +238,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Freeze the canonical K77 Zorro/DeWitt B_Z as the dependent connection and
-  solve the complete source Euler/residual equations for a nonhomogeneous
-  T=varpi-B_Z, varpi and observation jet. Return a stationary residual-zero
-  background or a scoped nonexistence certificate for that reconstruction.
+  Freeze the exact point jet T=F_varpi=Upsilon_B=0 and compute the selected-K77
+  map from second varpi jets to the first residual prolongation on the
+  canonical Zorro curvature module. If -Hodge(DT) is admitted, append the
+  remaining I1 metric, observation and fixed-boundary Euler rows on the same
+  jet; otherwise return a scoped formal-germ obstruction.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

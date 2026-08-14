@@ -216,3 +216,32 @@ now a residual-first solve with canonical `B_Z` held dependent and
 `T=varpi-B_Z`, `varpi` allowed to move nonhomogeneously.  A rival Zorro
 completion may substitute only after deriving nonzero mixed trace curvature or
 changing the connection owner explicitly.
+
+## 2026-08-14 residual-first point-jet refinement
+
+Holding the canonical dependent `B_Z` fixed does **not** create a pointwise
+algebraic obstruction. The independent source connection can be chosen at any
+point so that
+
+```text
+varpi_y=(B_Z)_y,   T_y=0,   F_varpi(y)=0,
+```
+
+by using its free antisymmetric first jet to cancel the connection-value
+commutator. Therefore `Upsilon_B(y)=0` for every linear Shiab, with no inverse
+or surjectivity assumption and no external datum.
+
+Curvature returns at the next order rather than disappearing:
+
+```text
+Alt(DT)_y=-F_BZ(y),
+D Upsilon_B=Shiab(D_varpi F_varpi)+Hodge(DT).
+```
+
+Thus `BACKGROUND-MISSING` survives at neighborhood/stationary-background
+grade, but its first honest obstruction is now the actual selected-K77
+`j^2 varpi -> j^1 Upsilon_B` image with Bianchi and symmetric-second-jet
+compatibility. A flat-`varpi` patch cannot extend the construction when `B_Z`
+is curved: residual zero would force `T=0`, hence `varpi=B_Z` and the
+contradictory equality `F_varpi=F_BZ`. This point-jet theorem neither starts
+`SR-2` nor changes a ledger or canon verdict.
