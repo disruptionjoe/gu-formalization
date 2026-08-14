@@ -2,10 +2,24 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-13"
+updated_at: "2026-08-14"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-14 REAL-ACTION W/MIRROR CLASS DECIDED WHOLESALE (ledger
+> v0.241).** The frozen source-faithful I2B path is already an explicit action;
+> do not rerun a tautological Helmholtz owner test. For the exact anti-linear
+> involution exchanging W and its mirror, every homogeneous block-preserving
+> operator has conjugate-up-to-sign blocks. Thus any real invariant action
+> Hessian at a conjugation-fixed stationary background has equal W/mirror
+> rank/nullity and conjugate characteristic polynomials, so no real
+> conjugation-invariant spectral fingerprint splits them. The theorem decides a
+> `73,728`-real-dimensional class without brute force. **Next identify an
+> action-owned stationary vacuum that is not conjugation-fixed, prove full-
+> tangent stationarity and state what selects one conjugate vacuum. If none
+> exists, test an explicitly asymmetric BV/BFV or closed-domain reduction.**
+> No verdict, residue, quotient, datum, canon or public-posture move.
 
 > **2026-08-13 CURRENT EQUATION-9.16 ACTION PAIRINGS DO NOT OWN TRACE-HQ
 > (ledger v0.240).** The complete tested Spin-natural, degree-diagonal local

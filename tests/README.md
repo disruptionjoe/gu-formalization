@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_w_mirror_real_action_wholesale_gate_probe.py`
+  proves the complete anti-linear homogeneous block theorem, demonstrates the
+  exact broken-vacuum escape, attaches it to the K77 W/mirror projectors and
+  current action forms, and rejects a planted one-sided selector. Run with
+  SageMath 10.9; it passes `42/42`.
+
 - `channel-swings/selected_k77_w_mirror_action_pairing_ownership_probe.py`
   classifies the two complete tested Spin-natural equation-9.16 action
   pairing lines against trace-Hq on W and mirror over two exact primes. A

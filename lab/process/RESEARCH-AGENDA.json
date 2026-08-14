@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-08-13",
-  "refresh_note": "Pairing-owner closure 2026-08-13: the complete tested Spin-natural equation-9.16 action pairing class has two lines; trace-Hq adds an exact third independent W/mirror restriction and the existing Majorana graphs select neither horn. The next discriminator is the first action-owned nonzero-fermion Hessian or graded BV differential, with analytic-domain selection separate. The trace-q Layer-0 correction, portfolio correction 2026-08-12 and earlier 2026-08-03 reconciliation remain in force. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "updated_at": "2026-08-14",
+  "refresh_note": "Real-action wholesale closure 2026-08-14: frozen source-faithful I2B is already an explicit action, and the complete conjugation-homogeneous W/mirror block class has equal rank/nullity and conjugate characteristic polynomials at every conjugation-fixed stationary background. Do not brute-force another symmetric-background Hessian. The next discriminator is an action-owned non-fixed stationary vacuum with a selection rule, or an explicitly asymmetric BV/BFV or analytic domain. The trace-q and action-pairing results, portfolio correction 2026-08-12 and earlier reconciliation remain in force. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
     "ACTIVE",
@@ -659,8 +659,8 @@
   "extensions": {
     "operating_architecture": {
       "work_state_refs": [
-        "lab/process/conditional-physics-ledger-v0.240.json",
-        "explorations/conditional-build/conditional-physics-ledger-v0.240.md"
+        "lab/process/conditional-physics-ledger-v0.241.json",
+        "explorations/conditional-build/conditional-physics-ledger-v0.241.md"
       ]
     }
   }

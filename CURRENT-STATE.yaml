@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6f86edf2530845d00ec1548c231462ad9971c3d0
+revision_basis: 9554352808c1dd7ba07539b8a7636c242956c1b8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,14 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The current equation-9.16 Spin-natural, degree-diagonal fermion action
-    pairing class has exactly two lines, each nondegenerate on W and its ASD
-    mirror. The q-dependent trace-Hq form adds a third independent restriction
-    with exact Q(i) witness determinant -27/256, so neither action line owns
-    the prior trace-Hq Witt pairing. Existing graded Majorana graphs select
-    neither horn. A nonzero-fermion Hessian, graded BV differential and
-    analytic-domain selector remain open.
+    The frozen source-faithful I2B path is already an explicit residual-square
+    action, so its Helmholtz ownership is not the missing gate. The exact
+    anti-linear involution exchanges W with its ASD mirror. Every
+    block-preserving operator homogeneous under that involution has
+    conjugate-up-to-sign blocks; hence a real invariant action Hessian at a
+    conjugation-fixed stationary background gives equal rank/nullity and
+    conjugate characteristic polynomials, so no real conjugation-invariant
+    spectral fingerprint splits them. A non-fixed stationary vacuum, action-owned
+    asymmetric BV/BFV reduction or asymmetric analytic domain remains open.
   evidence:
+    - explorations/conditional-build/selected-k77-w-mirror-real-action-wholesale-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-w-mirror-action-pairing-ownership-2026-08-13.md
     - explorations/conditional-build/selected-k77-w-mirror-trace-hq-isotropy-correction-2026-08-13.md
     - explorations/conditional-build/selected-k77-w-mirror-antilinear-hq-pairing-2026-08-13.md
@@ -25,11 +28,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
-    - lab/process/conditional-physics-ledger-v0.240.json
+    - lab/process/conditional-physics-ledger-v0.241.json
 current_question: >-
-  Does the first action-owned nonzero-fermion Hessian or graded BV
-  differential give W and its mirror different invariant fingerprints without
-  fitting a projector, compatible connection or external datum?
+  Does the source/action construct a fully stationary background that is not
+  fixed by W/mirror conjugation, or an owned BV/domain reduction that breaks
+  the equivalence, without fitting a projector or compatible connection?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -38,10 +41,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Evaluate the first action-owned nonzero-fermion Hessian or graded BV
-  differential on the exact W/mirror controls and demand a nonzero asymmetric
-  invariant. Preregister preservation of the conjugation equivalence,
-  W/mirror-to-ambient-half identification and fitted-choice dependence as
-  kills. Keep analytic-domain selection separate and compute cohomology only
-  after the actual complex and form survive.
+  Identify the smallest action-owned non-conjugation-fixed stationary vacuum,
+  prove stationarity on the complete owned tangent and state what selects one
+  member of its conjugate pair. If no such vacuum exists, construct an
+  explicitly asymmetric BV/BFV or closed-domain reduction. Only then compute
+  W/mirror Hessian fingerprints and physical cohomology.
 what_needs_joe: none

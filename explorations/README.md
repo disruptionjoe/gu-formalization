@@ -2,10 +2,19 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-13"
+updated_at: "2026-08-14"
 ---
 
 # Explorations
+
+## K77 W/mirror real-action wholesale gate (2026-08-14)
+
+`conditional-build/selected-k77-w-mirror-real-action-wholesale-gate-2026-08-14.md`
+decides the complete conjugation-homogeneous block class before another large
+Hessian is built. At a conjugation-fixed stationary background, a real
+invariant action Hessian gives conjugate W/mirror blocks, equal rank/nullity,
+and conjugate characteristic polynomials. An exact broken-vacuum control preserves the
+non-fixed-vacuum, BV/BFV and analytic-domain exits.
 
 ## K77 W/mirror action-pairing ownership (2026-08-13)
 

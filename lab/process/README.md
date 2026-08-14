@@ -2,20 +2,29 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-12"
+updated_at: "2026-08-14"
 ---
 
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.241.json`](conditional-physics-ledger-v0.241.json),
+summarized as ledger v0.241. Frozen source-faithful I2B is already an explicit
+residual-square action, so its Helmholtz ownership is not an open test. For the
+exact anti-linear involution exchanging W with its mirror, every homogeneous
+block-preserving operator has conjugate-up-to-sign blocks. Thus a real
+invariant action Hessian at a conjugation-fixed stationary background has
+equal W/mirror rank/nullity and conjugate characteristic polynomials. The next discriminator
+is an action-owned non-fixed stationary vacuum with a selection rule, or an
+explicitly asymmetric BV/BFV or closed analytic domain. No physics-row
+verdict, residue, quotient, canon claim, or public posture moved.
+
+Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.240.json`](conditional-physics-ledger-v0.240.json),
 summarized as ledger v0.240. The complete tested Spin-natural,
 degree-diagonal equation-9.16 action-pairing class has two lines; the
 q-dependent trace-Hq restriction is a third exact independent form on W and
 its mirror, and the existing graded reality graphs select neither action horn.
-The next discriminator is an action-owned nonzero-fermion Hessian or graded BV
-differential, with analytic-domain selection kept separate. No physics-row
-verdict, residue, quotient, canon claim, or public posture moved.
 
 Predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.222.json`](conditional-physics-ledger-v0.222.json),

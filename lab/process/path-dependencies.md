@@ -130,6 +130,8 @@ graph TD
   PD_I2B_ACTION_OWNER_s3 --> PD_I2B_ACTION_OWNER_chk
   PD_I2B_ACTION_OWNER_t0("TRAP 2026-08-13")
   PD_I2B_ACTION_OWNER_chk -.-> PD_I2B_ACTION_OWNER_t0
+  PD_I2B_ACTION_OWNER_t1("TRAP 2026-08-14")
+  PD_I2B_ACTION_OWNER_chk -.-> PD_I2B_ACTION_OWNER_t1
   PD_SIGNATURE_PARITY === PD_SOURCE_NOTATION
   PD_SIGNATURE_PARITY === PD_GHOST_PARITY
   PD_GHOST_PARITY === PD_SIGNATURE_PARITY
@@ -340,6 +342,9 @@ graph TD
 - **2026-08-13** — After v0.236, the next queue almost ported the endpoint's compatible two-jet directly to E_act because v0.226 had equal fixed-background squared Euler covectors. The full action-pairing comparison instead gave endpoint principal rank 182 and E_act principal rank zero.
   - *Cost:* Would have launched nonlinear Spencer/involutivity work for a different PDE while reporting progress on the action-derived rival.
   - *Receipt:* `lab/process/hostile-reviews/2026-08-13-selected-k77-i2b-action-euler-principal-owner-comparison-review.md`
+- **2026-08-14** — A portfolio preflight proposed an inverse-variational/Helmholtz test for the frozen source-faithful I2B endpoint square. That object is already an explicit residual-square action, so the proposed test was tautological. The nontrivial wholesale question was instead whether a real action Hessian at a conjugation-fixed vacuum could distinguish W from its mirror; the anti-linear block theorem answers no for the complete reality-compatible class and preserves non-fixed vacua.
+  - *Cost:* Caught before a redundant Hessian campaign; redirected the wave from owner re-verification to a 73,728-dimensional class theorem.
+  - *Receipt:* `lab/process/hostile-reviews/2026-08-14-selected-k77-w-mirror-real-action-wholesale-gate-review.md`
 
 **Invalidates if:** A source/action receipt proves the operative completed second action and constructs a structure-preserving equality between its full moving principal map and one of the compared operators.
 

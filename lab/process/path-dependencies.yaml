@@ -23,7 +23,7 @@
 # Speculative pitfalls belong in the improvement register, not here.
 
 version: 1
-updated: 2026-08-12
+updated: 2026-08-14
 generator: process_gates/path_dependency_audit.py
 
 chains:
@@ -442,6 +442,19 @@ chains:
           Would have launched nonlinear Spencer/involutivity work for a
           different PDE while reporting progress on the action-derived rival.
         receipt: lab/process/hostile-reviews/2026-08-13-selected-k77-i2b-action-euler-principal-owner-comparison-review.md
+      - date: 2026-08-14
+        what: >-
+          A portfolio preflight proposed an inverse-variational/Helmholtz test
+          for the frozen source-faithful I2B endpoint square. That object is
+          already an explicit residual-square action, so the proposed test was
+          tautological. The nontrivial wholesale question was instead whether
+          a real action Hessian at a conjugation-fixed vacuum could distinguish
+          W from its mirror; the anti-linear block theorem answers no for the
+          complete reality-compatible class and preserves non-fixed vacua.
+        cost: >-
+          Caught before a redundant Hessian campaign; redirected the wave from
+          owner re-verification to a 73,728-dimensional class theorem.
+        receipt: lab/process/hostile-reviews/2026-08-14-selected-k77-w-mirror-real-action-wholesale-gate-review.md
     invalidates_if: >-
       A source/action receipt proves the operative completed second action and
       constructs a structure-preserving equality between its full moving

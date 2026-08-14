@@ -3,11 +3,23 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-13
+updated: 2026-08-14
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-13)
+# Agent context pack (updated 2026-08-14)
+
+> **Current v0.241 W/mirror real-action wholesale gate:** the frozen
+> source-faithful I2B endpoint square is already an explicit action, so a
+> Helmholtz owner search there is tautological. The exact anti-linear
+> involution exchanges W and mirror. Every block-preserving operator even or
+> odd under it has conjugate-up-to-sign blocks, so a real invariant action
+> Hessian at a conjugation-fixed stationary background has equal rank/nullity
+> and conjugate characteristic polynomials. Do not build another large fixed-background
+> Hessian. Rank one is an action-owned non-fixed stationary vacuum with a
+> selection rule, or an explicitly asymmetric BV/BFV or closed-domain
+> reduction. The source's emergent-chirality target survives; no physical
+> cohomology, index or count is constructed.
 
 > **Current endpoint compatibility + rank-56 adapter correction (ledger
 > no-change):** the prior frozen theorem inherited the one-third path-average

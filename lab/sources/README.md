@@ -2,13 +2,19 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-13"
+updated_at: "2026-08-14"
 ---
 
 # Source and Media Index
 
 Additional source-custody and reinspection records retained by the native
 research boundary:
+
+- [`selected-k77-w-mirror-real-action-wholesale-gate-source-return-2026-08-14.md`](selected-k77-w-mirror-real-action-wholesale-gate-source-return-2026-08-14.md)
+  - confirms the source's nonchiral-total and emergent-chiral target; attributes
+    the fixed-background real-action no-selection theorem to the repository;
+    and returns source-silent on a non-fixed W/mirror vacuum, its selection,
+    physical BV/BFV reduction and asymmetric closed domain.
 
 - `curt-iceberg-77-primary-transcript-fetch-2026-08-08.md`
 - `k77-exact-bank-source-custody-2026-08-09.md`
