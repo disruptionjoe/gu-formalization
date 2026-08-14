@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: da2b01e0ef33dea49e3877cc9f69d90a68d7b9e8
+revision_basis: ac5225da2ad5f6aa48daf051e740afcef8875007
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -14,10 +14,11 @@ current_result:
     closed, but the precise nonstandard family-index successor is now known:
     for a conditional proper ten-dimensional spin family over the observed
     four-dimensional base, inverse central-line twists have virtual indices
-    related by minus complex conjugation rationally. This supplies an exact
+    related by minus complex conjugation in integral complex K-theory by
+    analytic charge conjugation. This includes torsion and supplies an exact
     possible asymmetry shape that the ordinary four-dimensional numerical
     index lacks. The GU fibration, vertical operator, nontrivial selected line,
-    integral lift, Fredholm domain and physical observation/BFV descent remain
+    Fredholm domain and physical observation/BFV descent remain
     unbuilt, so no luminous/mirror physical selection follows.
     Weinstein's total theory remains
     explicitly non-chiral; the open physics burden is low-curvature
@@ -30,9 +31,10 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-integral-family-index-charge-conjugation-gate-2026-08-14.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.248.md
+    - lab/process/conditional-physics-ledger-v0.248.json
     - explorations/conditional-build/selected-k77-ten-dimensional-family-index-parity-gate-2026-08-14.md
-    - explorations/conditional-build/conditional-physics-ledger-v0.247.md
-    - lab/process/conditional-physics-ledger-v0.247.json
     - explorations/conditional-build/selected-k77-mu128-holonomy-classification-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
@@ -62,9 +64,9 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Construct a proper ten-dimensional spin family and its source-owned vertical
-  operator/domain before using the family-index theorem. Supply rather than
-  assume the nontrivial central line and test its integral index lift,
-  observation and BV/BFV descent. A virtual negative rank is not a particle
+  operator/domain before using the now-integral family-index theorem. Supply
+  rather than assume the nontrivial central line and test observation and
+  BV/BFV descent. A virtual negative rank is not a particle
   count. If ownership or Fredholm closure fails, move to the independently
   action-owned boundary/asymmetric-domain route; do not choose flux by hand.
 what_needs_joe: none

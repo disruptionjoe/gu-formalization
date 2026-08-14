@@ -7,6 +7,17 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 INTEGRAL FAMILY-INDEX CHARGE-CONJUGATION GATE (ledger v0.248).**
+> For a conditional proper ten-dimensional spin family, charge conjugation
+> exchanges half-spin chirality and proves
+> `Ind(D_v tensor L^-1)=-conjugate(Ind(D_v tensor L))` in integral complex
+> `K^0`, including torsion. This closes the predecessor's integral-lift seam
+> but constructs none of the antecedent GU objects. **Next build the proper
+> family, source-owned vertical operator and Fredholm domain, supply a
+> nontrivial line rather than choosing flux, and test observation/BFV descent;
+> otherwise use an independently asymmetric boundary/domain.** No physical
+> state, particle, generation, net-chirality, canon or posture claim follows.
+
 > **2026-08-14 TEN-DIMENSIONAL FAMILY-INDEX PARITY GATE (ledger v0.247).**
 > A conditional proper ten-dimensional spin family obeys
 > `Ind(D_v tensor L^-1)=-conjugate(Ind(D_v tensor L))` rationally. This is the

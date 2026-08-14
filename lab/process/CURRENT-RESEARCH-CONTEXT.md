@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.248 integral family-index gate:** analytic charge conjugation
+> upgrades the conditional 10D identity to
+> `Ind(L^-1)=-conjugate(Ind(L))` in integral complex `K^0`, including torsion.
+> It supplies no GU fibration, vertical operator, nontrivial line, selected
+> flux, Fredholm domain, observation/BFV descent, physical cohomology or
+> vacuum. Rank one is now entirely existence and ownership: build those
+> objects or use an independently asymmetric boundary/domain. Do not claim a
+> KO/KR refinement, particle/generation count or net chirality.
+
 > **Current v0.247 ten-dimensional family-index parity gate:** for a
 > conditional proper ten-dimensional spin family, inverse central-line twists
 > obey `Ind(L^-1)=-conjugate(Ind(L))` rationally. This is the exact virtual

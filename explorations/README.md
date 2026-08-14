@@ -7,6 +7,13 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 integral family-index charge-conjugation gate (2026-08-14)
+
+`conditional-build/selected-k77-integral-family-index-charge-conjugation-gate-2026-08-14.md`
+upgrades the conditional 10D inverse-line family-index identity from rational
+Chern-character grade to integral complex K-theory, including torsion. It does
+not construct the GU family, operator, line, domain or physical descent.
+
 ## K77 ten-dimensional family-index parity gate (2026-08-14)
 
 `conditional-build/selected-k77-ten-dimensional-family-index-parity-gate-2026-08-14.md`

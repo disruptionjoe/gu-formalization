@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_integral_family_index_charge_conjugation_gate_probe.py`
+  audits the half-spin chirality rule, integral virtual-index sign, recovery of
+  every rational Chern-character component, torsion sensitivity, adjacent-
+  dimension controls and the strict GU ownership ceiling. It passes `52/52`
+  with Python 3.
+
 - `channel-swings/selected_k77_ten_dimensional_family_index_parity_gate_probe.py`
   certifies the complete degree-parity theorem for a conditional 10D spin
   family, including virtual-rank and higher Chern-character components plus
