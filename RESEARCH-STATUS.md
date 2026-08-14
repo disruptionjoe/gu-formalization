@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**VRS-3/VRS-4 derived ownership and total descent 2026-08-14 (conditional
+theorems; instantiation type-missing).** At residual zero, the second-action
+Hessian is exactly the real symmetric pullback `D Upsilon^! Q D Upsilon`.
+Residual-dependent, boundary-functional and Green-domain terms remain in the
+honest full Hessian. No `J`, symplectic form, Hermitian pairing or positivity
+is produced. A moving `J` descends through a total complex exactly when typed
+companions intertwine `K_total` and `L_total`, preserve the closed gauge image
+and common boundary domain, and a separate pairing is basic and compatible.
+Current moving `J10` is fibrewise gauge-covariant only; all cross-sector and
+analytic seams remain missing. See
+`lab/active-research/source-residual-cohomology/vrs3-second-action-ownership-discriminator-2026-08-14.md`
+and
+`lab/active-research/source-residual-cohomology/vrs4-moving-j-total-descent-conditional-theorem-2026-08-14.md`.
+Exact controls pass `20/20` and `21/21`. VRS-5/SR-1C is next; `H-Q*` is not
+killed and `H0` is not proved.
+
 **VRS-2 boundary necessity 2026-08-14 (live nonzero branch requires a
 boundary-aware quotient).** The action-owned endpoint potential separates the
 horns exactly. Free variation forces zero charge and excludes the live
@@ -17,7 +33,7 @@ preserved by the rank-eight mixed gauge image, and no normal-conormal or closed
 domain survives. This kills a bulk-only realization only for the live nonzero
 branch. See
 `lab/active-research/source-residual-cohomology/vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md`
-and its exact `34/34` probe. VRS-3 is next.
+and its exact `34/34` probe. VRS-3 and VRS-4 are now executed.
 
 **VRS-1 internal complex-source census 2026-08-14 (current named families
 accounted for; global exhaustion open).** Eleven source families now have

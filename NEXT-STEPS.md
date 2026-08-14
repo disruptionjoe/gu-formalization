@@ -7,15 +7,27 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 VRS-3/VRS-4 DERIVED OWNERSHIP AND TOTAL DESCENT.** At
+> conditional residual zero the second-action Hessian owns the real symmetric
+> pullback `D Upsilon^! Q D Upsilon`, not a complex structure, symplectic form,
+> Hermitian pairing or positive physical metric. Honest boundary second
+> variation and a common Green domain remain separately required. Moving
+> associated-spinor `J10` descends to physical cohomology only if typed
+> companions intertwine both `K_total` and `L_total`, preserve the closed gauge
+> image and the full boundary domain, and carry a separately basic pairing.
+> GU currently owns only fibrewise gauge covariance. **Next execute
+> VRS-5/SR-1C: construct and held-out validate `O_SR1C`, then the minimal
+> compatible two-jet.** Exact controls pass `20/20` and `21/21`; `H-Q*`
+> survives and `H0` strengthens without proof.
+
 > **2026-08-14 VRS-2 BOUNDARY NECESSITY.** The live nonzero selected branch
 > cannot support a bulk-only physical quotient. Free variation forces zero
 > charge and excludes that fixture; fixed data leaves charged endpoint labels;
 > the charged horn requires boundary/BFV data. The exact W/mirror base
 > relations are broken by all eight active mixed-gauge directions, while
 > normal conormals make neither half isotropic, so no closed domain is owned.
-> **Next execute VRS-3 with honest boundary terms and decide the precise role
-> of the second-action Hessian.** Boundaryless and zero-charge routes remain
-> open; exact probe `34/34`.
+> VRS-3/VRS-4 now provide the exact Hessian type and total-descent theorem.
+> Boundaryless and zero-charge routes remain open; exact probe `34/34`.
 
 > **2026-08-14 VRS-1 INTERNAL COMPLEX-SOURCE CENSUS.** All eleven currently
 > repo-named families are accounted for. Fixed split-equivariant, natural

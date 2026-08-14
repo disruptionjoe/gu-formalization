@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/superposition_vrs3_second_action_ownership_probe.py`
+  checks the exact residual-zero pullback Hessian, firing off-shell and
+  boundary terms, and independent complex/symplectic/positivity controls. It
+  validates the VRS-3 type registry and passes `20/20` with Python 3.
+
+- `channel-swings/superposition_vrs4_moving_j_total_descent_probe.py`
+  constructs an exact finite total complex with compatible `J` intertwiners,
+  verifies quotient descent, and fires independent `K`, `L`, boundary-domain
+  and pairing failures. It validates the conditional VRS-4 registry and passes
+  `21/21` with Python 3.
+
 - `channel-swings/superposition_vrs2_boundary_necessity_bulk_only_kill_probe.py`
   composes the fixed, free, charged and generated endpoint horns with the
   action moment map and exact Green/gauge controls. It kills a bulk-only

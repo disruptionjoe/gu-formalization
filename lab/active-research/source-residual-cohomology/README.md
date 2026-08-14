@@ -86,12 +86,23 @@ first rank-82 wall to zero charge. The tangent bounds are sharp; a nonlinear
 local wall normal form and global attachment remain open. See the
 [`RSAP rank-loss schedule`](../../../explorations/conditional-build/selected-k77-rank-singular-poisson-rank-loss-schedule-2026-08-14.md).
 
-[`VRS-2`](vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md) now kills the
+[`VRS-2`](vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md) kills the
 bulk-only realization of the live nonzero selected branch. The free horn
 remains a distinct zero-charge escape; fixed and charged horns retain physical
 endpoint data. Exact finite Green relations still fail selected mixed-gauge
-basicness and do not define a closed domain. `VRS-3` is next and tests what the
-second-action Hessian actually owns after those boundary terms are included.
+basicness and do not define a closed domain.
+
+[`VRS-3`](vrs3-second-action-ownership-discriminator-2026-08-14.md) now types
+the conditional second-action Hessian exactly. At residual zero it owns the
+real symmetric pullback `D Upsilon^! Q D Upsilon`; off shell and at a boundary
+it requires additional residual-dependent, boundary-functional and Green-domain
+terms. It does not produce `J`, a symplectic form, a Hermitian pairing or
+positivity. [`VRS-4`](vrs4-moving-j-total-descent-conditional-theorem-2026-08-14.md)
+then establishes the typed total-complex descent theorem. Moving `J10` remains
+fibrewise gauge-covariant only because bosonic, ghost, residual and charged-
+boundary extensions, total intertwiners, a common closed domain and a positive
+pairing are still missing. `H-Q*` survives and `H0` strengthens without proof.
+`VRS-5`/`SR-1C` is now the exact forward enabler.
 
 ## Swing sequence
 

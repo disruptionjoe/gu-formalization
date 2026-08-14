@@ -56,16 +56,25 @@
     },
     {
       "id": "VRS-3",
-      "status": "next",
+      "status": "executed_exact_type_theorem",
       "question": "What physical-complex role, if any, is actually owned by the conditional second-action Hessian?",
+      "result": "lab/active-research/source-residual-cohomology/vrs3-second-action-ownership-discriminator-2026-08-14.md",
+      "registry": "lab/process/superposition-vrs3-second-action-ownership-discriminator.json",
+      "probe": "tests/channel-swings/superposition_vrs3_second_action_ownership_probe.py",
+      "disposition": "CONDITIONAL_REAL_SYMMETRIC_PULLBACK_OWNED__COMPLEX_SYMPLECTIC_HERMITIAN_AND_POSITIVE_DATA_REQUIRE_SEPARATE_INPUT__BOUNDARY_HESSIAN_AND_DOMAIN_REMAIN_REQUIRED",
       "depends_on": [
-        "VRS-1"
+        "VRS-1",
+        "VRS-2"
       ]
     },
     {
       "id": "VRS-4",
-      "status": "queued",
+      "status": "executed_conditional_theorem_type_missing_instantiation",
       "question": "Under what typed conditions can moving associated-spinor J10 descend through the total complex?",
+      "result": "lab/active-research/source-residual-cohomology/vrs4-moving-j-total-descent-conditional-theorem-2026-08-14.md",
+      "registry": "lab/process/superposition-vrs4-moving-j-total-descent-conditional-theorem.json",
+      "probe": "tests/channel-swings/superposition_vrs4_moving_j_total_descent_probe.py",
+      "disposition": "GENERAL_TOTAL_DESCENT_THEOREM_ESTABLISHED__MOVING_J10_REMAINS_FIBREWISE_GAUGE_COVARIANT_ONLY__TOTAL_INTERTWINERS_BOUNDARY_DOMAIN_AND_PAIRING_TYPE_MISSING",
       "depends_on": [
         "VRS-1",
         "VRS-2",
@@ -74,7 +83,7 @@
     },
     {
       "id": "VRS-5",
-      "status": "forward_enabler_active",
+      "status": "next_forward_enabler",
       "construction": "SR-1C"
     },
     {

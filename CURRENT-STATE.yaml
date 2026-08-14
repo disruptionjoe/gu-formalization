@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 375afe07aa7e6e668aa464132e9840828d7b1fba
+revision_basis: fc86ac910eee0183f365018650fe727e4da4dc46
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -221,9 +221,23 @@ current_result:
     base-conormal candidates are not preserved by the rank-eight mixed gauge
     image, and neither half is isotropic for normal conormals, so no closed
     Green domain or polarization is selected. Boundaryless/zero-charge families
-    remain unexhausted. VRS-3 is next and must type the second-action Hessian
-    with honest boundary terms.
+    remain unexhausted.
+    VRS-3 now proves that, at conditional residual zero, the second-action
+    Hessian owns only the real symmetric pullback D Upsilon^! Q D Upsilon.
+    Honest off-shell, boundary-functional and Green-domain terms remain; the
+    Hessian itself produces no complex structure, symplectic form, Hermitian
+    pairing or positivity. VRS-4 establishes the exact typed descent theorem:
+    moving J10 reaches ker(L_total)/closure(im K_total) only through companion
+    J maps intertwining both total arrows, invariant closed gauge image and
+    boundary domain, and a separately basic compatible pairing. Current GU
+    truth owns only fibrewise gauge covariance, so every cross-sector and
+    analytic seam is type-missing. H-Q* survives and H0 strengthens without
+    proof. VRS-5/SR-1C is next.
   evidence:
+    - lab/active-research/source-residual-cohomology/vrs4-moving-j-total-descent-conditional-theorem-2026-08-14.md
+    - lab/process/superposition-vrs4-moving-j-total-descent-conditional-theorem.json
+    - lab/active-research/source-residual-cohomology/vrs3-second-action-ownership-discriminator-2026-08-14.md
+    - lab/process/superposition-vrs3-second-action-ownership-discriminator.json
     - lab/active-research/source-residual-cohomology/vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md
     - lab/process/superposition-vrs2-boundary-necessity-bulk-only-kill.json
     - lab/active-research/source-residual-cohomology/vrs1-internal-complex-source-census-2026-08-14.md
@@ -323,10 +337,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  After the live nonzero branch is restricted to a boundary-aware quotient,
-  what complex, symplectic or Hermitian role, if any, is actually owned by the
-  conditional second-action Hessian once its boundary terms and domain are
-  typed?
+  Can O_SR1C be constructed and held-out validated as the common source-
+  coordinate evaluator, then extended by the minimal compatible two-jet to
+  supply an action-owned stationary background premise for the typed total-
+  descent theorem?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
