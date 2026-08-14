@@ -373,8 +373,13 @@ homogeneous branches remain exact.
 This does not close `SR-1`. The action density
 `-t(27+728t^2)` is nonzero on both roots, so a direct volume partial remains
 live. Because only `E_T` has closed, that partial cannot be promoted to the
-total fixed-`varpi` metric Euler. The next construction must evaluate `E_B`,
-`D_B^!(E_B-E_T)`, the moving-Shiab epsilon term and the full
-metric/Hodge/frame/observation graph on this exact witness. Only after those
-rows and the remaining formal-integrability tower close can this become a
-complete stationary background and unblock `SR-2`.
+total fixed-`varpi` metric Euler. The next construction, now named `SR-1C`,
+must derive `E_B`, construct the minimal compatible field two-jet required by
+`D_B^!(E_B-E_T)`, and evaluate the moving-Shiab primitive-epsilon term plus
+the complete fixed-`varpi` metric/Hodge/frame/volume graph on this exact
+witness. Observation is a dependent receiver and is checked after the
+underlying source rows, not added as an independent Euler row. Only after
+those rows close does the complete formal-integrability tower begin. A formal
+tower, local germ, total boson--fermion carrier and legal global background
+remain separate burdens before `SR-2` can unblock. See
+[`sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md).

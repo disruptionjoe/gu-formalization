@@ -42,7 +42,7 @@ current_result:
     that canonical reconstruction before first-jet grade. The source Zorro
     chain remains a sketch without a coordinate formula or uniqueness theorem,
     so no source-global background no-go follows and SR-2 stays blocked. The
-    corrected SR-1B target holds canonical B_Z dependent. An exact real
+    corrected SR-1C target holds canonical B_Z dependent. An exact real
     source-varpi one-jet gives T=F_varpi=Upsilon_B=0 at every point without a
     Shiab inverse or external datum, so B_Z curvature is not a pointwise
     obstruction. Curvature reappears as Alt(DT)=-F_BZ. The actual selected
@@ -290,9 +290,10 @@ contribution_path:
 next_condition: >-
   Hold the two algebraic amplitudes and explicit 13-cell symmetric correction
   fixed. Construct a compatible field two-jet and serialize the selected K77
-  moving Shiab/Hodge/frame/volume/observation derivative bank. Then compute
-  E_B, D_B-adjoint(E_B-E_T), primitive epsilon and the total fixed-varpi metric
-  row on that same witness. Do not fill missing higher derivatives with zero
+  moving Shiab/Hodge/frame/volume derivative bank. Then compute E_B,
+  D_B-adjoint(E_B-E_T), primitive epsilon and the total fixed-varpi metric row
+  on that same witness, followed by observation as a dependent receiver. Do
+  not fill missing higher derivatives with zero
   or call the direct density partial a total obstruction. In the independent
   carrier lane, treat 182 as the exact all-charge Poisson-submersion minimum;
   type a weaker rank-singular Poisson-map target before seeking below 182.

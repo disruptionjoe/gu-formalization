@@ -76,8 +76,13 @@ source's printed second equation.
 proves the conditional equivariant composition theorem and returns
 `BACKGROUND-MISSING`: no complete action-owned total-residual-zero stationary
 GU background is currently constructed. The next mathematical construction
-is `SR-1B`, the background and total-carrier build. `SR-2` cannot begin until
-that premise is owned.
+is `SR-1C`, the source-coordinate variational-prolongation build on the exact
+canonical-`B_Z`, nonzero-`T` action/Bianchi witness. The executable
+[`SR-1C scaffold`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md)
+puts the minimal two-jet needed by primitive epsilon inside the Euler gate,
+keeps the complete formal-integrability tower downstream, and pauses further
+reverse-`J` work until the actual total carrier exists. `SR-2` cannot begin
+until that premise is owned.
 
 ## Claim ceiling
 

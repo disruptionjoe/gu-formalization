@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 LANE = ROOT / "lab/process/source-residual-cohomology-lane.json"
 INDEX = ROOT / "lab/active-research/source-residual-cohomology/README.md"
 REPORT = ROOT / "lab/active-research/source-residual-cohomology/sr1-total-residual-complex-background-gate-2026-08-14.md"
+SCAFFOLD = ROOT / "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md"
 SOURCE_REGISTER = ROOT / "lab/sources/source-claim-register.yaml"
 SOURCE_PACK = ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
 RADIAL = ROOT / "explorations/conditional-build/selected-k77-i2b-lower-order-exact-form-lift-2026-08-13.md"
@@ -54,6 +55,7 @@ zero = [[0, 0], [0, 0]]
 lane = json.loads(LANE.read_text())
 index = INDEX.read_text()
 report = REPORT.read_text()
+scaffold = SCAFFOLD.read_text()
 source_register = SOURCE_REGISTER.read_text()
 source_pack = SOURCE_PACK.read_text()
 radial = RADIAL.read_text()
@@ -69,8 +71,10 @@ check("SR-1 disposition is background missing", lane["swings"][1]["disposition"]
 check("SR-1 result exists", (ROOT / lane["swings"][1]["result"]).is_file())
 check("SR-1 probe points to this executable", (ROOT / lane["swings"][1]["probe"]).resolve() == Path(__file__).resolve())
 check("SR-2 is blocked by the failed premise", lane["swings"][2]["status"] == "blocked" and lane["swings"][2]["blocked_by"] == "SR-1:BACKGROUND-MISSING")
-check("SR-1B is the next construction", lane["next_required_construction"]["id"] == "SR-1B")
-check("the lane forbids manufacturing a background", "Do not manufacture" in lane["next_required_construction"]["failure_rule"])
+check("SR-1C is the next construction", lane["next_required_construction"]["id"] == "SR-1C")
+check("the SR-1C scaffold exists", (ROOT / lane["next_required_construction"]["scaffold"]).is_file())
+check("the lane forbids manufacturing a background", "manufacture a background" in lane["next_required_construction"]["failure_rule"])
+check("the lane pauses RF-3 until the total carrier exists", "RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST" in lane["next_required_construction"]["reverse_falsification_status"])
 check("the index exposes the negative result", "executed negative: `BACKGROUND-MISSING`" in index)
 check("the index keeps the lane active", "status: active_research" in index)
 check("H0 remains mandatory", lane["mandatory_null"]["id"] == "H0")
@@ -131,7 +135,10 @@ check("report states the exact conditional composition", "L_Upsilon(Phi) K_Phi(e
 check("report refuses to promote the trivial ansatz", "trivial flat-zero ansatz" in report and "not shown to be a legal global" in report)
 check("report keeps the total gauge map unassembled", "not yet one owned map" in report)
 check("report blocks SR-2", "`SR-2` is blocked at its premise" in report)
-check("report names SR-1B", "The next construction is\n`SR-1B`" in report)
+check("report preserves the historical SR-1B stage", "The next construction is\n`SR-1B`" in report)
+check("report names SR-1C as the current next construction", "The next construction, now named `SR-1C`" in report)
+check("scaffold keeps SR-1 background missing", "`SR-1` remains `BACKGROUND-MISSING`" in scaffold)
+check("scaffold keeps observation dependent", "not an additional independently varied action field" in scaffold)
 check("report changes no canon verdict", "canon_verdict_change: none" in report)
 check("report claims no physical cohomology", "No quantum state space" in report)
 

@@ -88,10 +88,19 @@ decoherence law.
 ## Saved forward chain
 
 ```text
-F0  actual action-owned GU solution Phi_*
+F0a source owner and canonical labelled geometry
+      |
+F0b exact residual/action/Bianchi point and finite-jet data
+      |
+F0c source-coordinate stationary jet
+     E_varpi, primitive epsilon and total fixed-varpi metric Euler rows
+      |
+F0d total boson--fermion carrier, reducibility and boundary horn
+      |
+F0e formal tower, local germ and legal global GU solution Phi_*
      Upsilon(Phi_*)=0 and every independent Euler row vanishes
       |
-F1  total gauge-residual complex on one carrier
+F1  total gauge-residual complex on that carrier
      L_Upsilon K=0, reducibility and boundary extension owned
       |
 F2  genuine infinitesimal solutions modulo gauge
@@ -222,8 +231,10 @@ all independent Euler rows=0,
 all carrier, reality, boundary and domain conditions legal.
 ```
 
-This is the construction currently named `SR-1B`. A formal zero field or generic finite model is not a
-GU solution until its Observerse geometry and owner equations are proved.
+This is the construction currently named `SR-1C`. Its immediate subgate is
+the source-coordinate variational prolongation, not the whole existence
+burden at once. A formal zero field or generic finite model is not a GU
+solution until its Observerse geometry and owner equations are proved.
 
 ## Illustrative finite descent controls
 
@@ -254,16 +265,20 @@ result:             KILLED or NOT-YET-FALSIFIED
 promotion ceiling: what missing lower layer prevents a positive conclusion
 ```
 
-This strategy may falsify a candidate before `SR-1B`. It may not promote
+This strategy may falsify a candidate before `SR-1C`. It may not promote
 superposition, physical cohomology, positivity or even background existence.
 
-## Cheapest first question
+## Executed historical cheapest question
 
-Start with `J` descent, because it is algebraic and cheapest: test whether the
+The reverse chain started with `J` descent because it was algebraic and
+cheapest: test whether the
 repo's candidate `J_10`, its two signs, and the base/normal twistor complex
 preserve the already-owned candidate kernels and gauge images. Report
 candidate-specific failures separately. Only a uniqueness/exhaustion theorem
 can turn those failures into a kill of H1-R itself.
+
+RF-1 and RF-2 below have now exhausted that cheap first stage. This paragraph
+is historical method, not the current next-run instruction.
 
 ## RF-1 result: fixed candidates fail; the sign bit is locally redundant
 
@@ -351,10 +366,11 @@ positive physical cohomology/superposition: OPEN
 H1-R as a whole:                            NOT KILLED
 ```
 
-The next in-channel gate is branch-specific composition, not a wider
-frontier rerank.  On one declared legal background and boundary horn, assemble
-the action-owned gauge map and coupled bosonic/fermionic residual map in the
-dressed coordinate, then test
+The next reverse-falsification gate remains branch-specific composition, not a
+wider frontier rerank. It is paused until the forward construction owns one
+declared legal background and boundary horn. Then assemble the action-owned
+gauge map and coupled bosonic/fermionic residual map in the dressed coordinate
+and test
 
 ```text
 L_total K_total=0,
@@ -366,3 +382,23 @@ silently.  The concurrent native-legality gate sharpens the first missing
 object to the explicit Zorro induced-`Y` connection and its labelled curvature
 one-jet.  Branch-specific stabilizer and reducibility, boundary ownership and
 the common closed domain remain missing.
+
+## 2026-08-14 scaffold reconciliation
+
+The canonical-`B_Z`, nonzero-`T` branch has since passed the exact printed
+residual, true translation Euler and inherited Bianchi field-one-jet gate at
+two algebraic amplitudes. The admitted order does not determine primitive
+epsilon or the total fixed-`varpi` metric row. The next run is therefore the
+[`SR-1C source-coordinate variational-prolongation scaffold`](sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md).
+
+It synchronizes the two spines as follows:
+
+```text
+forward:  minimal Euler prolongation -> total fields -> formal germ -> SR-1
+reverse:  RF-1 complete -> RF-2 complete -> pause until actual K_total/L_total
+```
+
+Observation remains a dependent receiver, not an independent Euler row.
+Minimal prolongation required to evaluate `D_B^!(E_B-E_T)` belongs inside the
+next Euler gate; the complete Spencer/formal-integrability tower follows only
+if those source rows close.
