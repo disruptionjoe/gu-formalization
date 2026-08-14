@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**J10 BV/Green descent side gate 2026-08-13 (headline unchanged).** The
+reflection-twisted full-carrier lift
+`Jhat=(R_split tensor J10) direct-sum J10` is an exact complex structure,
+preserves the gamma-trace carrier and current action pairings, and commutes
+with the complete observed horizontal principal symbol. It is not ambient:
+all ten normal symbols break it. Fixed J10 also fails the actually owned
+ordinary-gauge quotient, whose rank-25 image contains an exact rank-eight
+mixed/J-breaking subimage; moving `J` is gauge-covariant for all 91 ghosts.
+The complete physical BV differential and Green domain remain unbuilt. The
+Willmore/coherence identification additionally owes a raw-to-normalized
+second-fundamental-form bridge and a positive-norm theorem. See
+`explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md`
+and its `112/112` exact probe. No verdict, residue, quotient, datum, canon or
+public-posture move.
+
 **Current Build/Compose/Source/Verify result 2026-08-13 (ledger v0.238;
 headline unchanged).** W and its ASD mirror are exactly anti-linearly
 equivalent at principal grade: their projectors are conjugate and the rolled

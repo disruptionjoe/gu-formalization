@@ -7,6 +7,25 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-13 FIXED-J10 BV/GREEN DESCENT GATE.** The spinor-only normal
+> volume does not act on the rolled fermion carrier as written; its natural
+> lift is `Jhat=(R_split tensor J10) direct-sum J10`. This lift squares to
+> `-1`, preserves the gamma-trace carrier, is compatible with both current
+> Spin-natural action pairings, and commutes with all observed horizontal
+> principal symbols. It fails on all ten normal ambient symbols. More
+> decisively, the actual rank-25 selected ordinary-gauge image splits as
+> `17` split-preserving plus `8` mixed directions, and the mixed rank-eight
+> image breaks fixed `J10`. Moving `J` with `sJ=[c,J]` is covariant for all
+> `91` ghosts, but that is not a fixed polarization on gauge cohomology.
+> **Do not identify the Willmore zero with parallel fixed J yet:** the repo's
+> `II_s^H` is reference-normalized while `[varpi,J]` sees the supplied raw
+> mixed connection; trace-Hq makes J10 an anti-isometry; K77 positivity and
+> the complete physical BV/Green domain are absent. Next construct the
+> normalized-connection bridge and the moving-J BV extension, then test a
+> closed observed domain.** See
+> `explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md`.
+> No verdict, ledger, residue, quotient, datum, canon or public-posture move.
+
 > **2026-08-14 ONE-DOUBLET BROKEN-VACUUM CLASS DECIDED WHOLESALE (ledger
 > v0.242).** The moving-`H_q` Higgs candidate is one complex weak doublet.
 > `SU(2)` is transitive on every nonzero norm sphere, so every involution that

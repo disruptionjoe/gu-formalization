@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_j10_bv_green_descent_gate_probe.py`
+  constructs the reflection-twisted `J10` lift on the exact rolled
+  `Omega1(S)+Omega0(S)` carrier, tests all observed and ambient axis symbols,
+  both current action-pairing lines, all 91 Spin generators, and the actual
+  selected rank-25 gauge image. It finds exact split/mixed ranks `17+8`:
+  fixed `J10` fails ordinary-gauge descent, moving `J` is covariant, and only
+  the conditional observed principal/domain layer is complex-linear. Run
+  with SageMath 10.9; it passes `112/112`.
+
 - `channel-swings/selected_k77_hq_vacuum_conjugation_quotient_probe.py`
   proves over `Q(i)(a_R,a_I,b_R,b_I)` that every complex-conjugate
   representative of one weak doublet lies in the same exact `SU(2)` orbit and
