@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 83d27282cdffc1b53cd3fa4f047d79d7c662d9f8
+revision_basis: 375afe07aa7e6e668aa464132e9840828d7b1fba
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -213,7 +213,19 @@ current_result:
     The next carrier gate is a local smooth 98-dimensional Poisson wall normal
     form with map rank 91-to-90 and target rank 84-to-82; no global RSAP exists
     yet.
+    VRS-2 now kills a bulk-only physical quotient for the live nonzero selected
+    branch. Free endpoint variation forces zero charge and remains a distinct
+    escape, but excludes the fixture. Fixed data leaves momentum unconstrained
+    and turns endpoint movers into charged boundary symmetries; the charged
+    horn requires endpoint symplectic/BFV data. The exact W/mirror
+    base-conormal candidates are not preserved by the rank-eight mixed gauge
+    image, and neither half is isotropic for normal conormals, so no closed
+    Green domain or polarization is selected. Boundaryless/zero-charge families
+    remain unexhausted. VRS-3 is next and must type the second-action Hessian
+    with honest boundary terms.
   evidence:
+    - lab/active-research/source-residual-cohomology/vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md
+    - lab/process/superposition-vrs2-boundary-necessity-bulk-only-kill.json
     - lab/active-research/source-residual-cohomology/vrs1-internal-complex-source-census-2026-08-14.md
     - lab/process/superposition-vrs1-internal-complex-source-census.json
     - explorations/conditional-build/selected-k77-rank-singular-poisson-rank-loss-schedule-2026-08-14.md
@@ -311,10 +323,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Under the fixed, free and charged endpoint horns, does the action-owned
-  moment/Green data force every surviving intrinsic-complex candidate to use
-  a bulk-boundary quotient, and can the independent minimal RSAP carrier cross
-  its first discriminant wall with the forced map-rank drop 91 to 90?
+  After the live nonzero branch is restricted to a boundary-aware quotient,
+  what complex, symplectic or Hermitian role, if any, is actually owned by the
+  conditional second-action Hessian once its boundary terms and domain are
+  typed?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -323,16 +335,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute VRS-2 on the VRS-1 surviving composite: compare fixed, free and
-  charged endpoint horns, type gauge versus charged transformations, moment
-  levels and Green flux, and kill any bulk-only realization that discards live
-  action-owned boundary data. Independently construct or obstruct a local
-  98-dimensional smooth Poisson wall normal form with target rank 84 to 82
-  and map rank 91 to 90; preserve the exact ceiling rank(dJ)<=m/2 at zero.
-  In VRS-5, hold both exact algebraic amplitudes and the 13-cell correction
-  fixed, construct and held-out validate O_SR1C, then solve the compatible
-  two-jet. Do not fill the missing operator with zero or call pointwise RSAP
-  sharpness a global attachment.
+  Execute VRS-3 horn by horn: compute the conditional residual-zero second-
+  action Hessian including the boundary/Green contribution and decide whether
+  it owns only a real symmetric quadratic form and differential, supplies an
+  action-derived symplectic/Hermitian input, or supplies no internal complex
+  role. Do not identify a Hessian with J or positivity. Independently, the
+  RSAP carrier still needs a local 98D wall normal form with target rank 84 to
+  82 and map rank 91 to 90. In VRS-5, construct and held-out validate O_SR1C
+  before any two-jet solve; never zero-fill the missing operator.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

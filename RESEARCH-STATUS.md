@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**VRS-2 boundary necessity 2026-08-14 (live nonzero branch requires a
+boundary-aware quotient).** The action-owned endpoint potential separates the
+horns exactly. Free variation forces zero charge and excludes the live
+fixture; fixed data leaves charged labels; retaining nonzero charge requires
+endpoint symplectic/BFV data. The current base-conormal W/mirror pair is not
+preserved by the rank-eight mixed gauge image, and no normal-conormal or closed
+domain survives. This kills a bulk-only realization only for the live nonzero
+branch. See
+`lab/active-research/source-residual-cohomology/vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md`
+and its exact `34/34` probe. VRS-3 is next.
+
 **VRS-1 internal complex-source census 2026-08-14 (current named families
 accounted for; global exhaustion open).** Eleven source families now have
 typed owners, carriers and dispositions. No currently owned single object is

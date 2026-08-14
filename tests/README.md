@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/superposition_vrs2_boundary_necessity_bulk_only_kill_probe.py`
+  composes the fixed, free, charged and generated endpoint horns with the
+  action moment map and exact Green/gauge controls. It kills a bulk-only
+  quotient for the live nonzero branch while preserving the zero-charge escape
+  and analytic-domain ceiling. It passes `34/34` with the Python standard
+  library.
+
 - `channel-swings/selected_k77_rank_singular_poisson_rank_loss_schedule_probe.py`
   proves `2 rank(dJ)<=dim(M)+rank(pi)`, derives the minimal 98-dimensional
   schedule `91,90,49`, and constructs exact tangent-space models saturating

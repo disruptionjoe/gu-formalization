@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-2",
+  "status": "LIVE_NONZERO_SELECTED_BRANCH_REQUIRES_BOUNDARY_AWARE_QUOTIENT__BULK_ONLY_REALIZATION_KILLED__FREE_ZERO_CHARGE_ESCAPE_OPEN",
+  "action_owned": {
+    "endpoint_potential": "Theta=p_0 delta g_0-p_2 delta g_3",
+    "moment_map": "Q_eta=p_0 eta_0-p_2 eta_3"
+  },
+  "horns": [
+    {"id": "FREE", "admitted_variation": "ARBITRARY_ENDPOINT_DELTA_G", "stationarity": "p_0=p_2=0", "charge": "ZERO", "live_nonzero_fixture": "EXCLUDED", "bulk_only_status": "ESCAPE_NOT_KILLED_ON_THIS_DISTINCT_ZERO_CHARGE_BRANCH"},
+    {"id": "FIXED", "admitted_variation": "delta_g_0=delta_g_3=0", "stationarity": "NO_MOMENTUM_EQUATION", "charge": "UNCONSTRAINED", "endpoint_transformations": "CHARGED_BOUNDARY_SYMMETRY_IF_THEY_MOVE_FIXED_DATA", "bulk_only_status": "KILLED_FOR_NONZERO_FIXTURE"},
+    {"id": "CHARGED", "admitted_variation": "ENDPOINT_PHASE_SPACE_RETAINED", "stationarity": "REQUIRES_BOUNDARY_BFV_REDUCTION", "charge": "NONZERO_ALLOWED", "bulk_only_status": "KILLED_FOR_NONZERO_FIXTURE"},
+    {"id": "GENERATED", "admitted_variation": "LAGRANGIAN_GRAPH", "stationarity": "Theta_RESTRICTED_EQUALS_delta_F", "owner": "UNOWNED", "required_invariant_tangencies": 7, "bulk_only_status": "CONTRARY_ROUTE_NOT_ADMITTED"}
+  ],
+  "green_domain": {
+    "base_conormal_W_mirror": "COMPLEMENTARY_MAXIMAL_ISOTROPIC_PAIR",
+    "normal_conormal_W_mirror": "NEITHER_IS_ISOTROPIC",
+    "selected_gauge_image_rank": 25,
+    "active_mixed_rank": 8,
+    "mixed_directions_preserve_W_or_mirror": false,
+    "closed_domain_constructed": false
+  },
+  "surviving_composite": {
+    "moving_J10": "FIBREWISE_ONLY__BOUNDARY_EXTENSION_OPEN",
+    "BFV": "NECESSARY_ON_LIVE_NONZERO_BRANCH__PROPER_FUNCTIONAL_COMPLEX_OPEN",
+    "I2_Hessian": "RETAINED_FOR_VRS_3_WITH_BOUNDARY_TERMS",
+    "twistor": "ENDPOINT_ADMISSION_AND_COMMON_DOMAIN_MISSING",
+    "moduli": "BOUNDARYLESS_OR_ZERO_CHARGE_CLASS_NOT_EXHAUSTED",
+    "nonlocal": "BOUNDARY_CONDITION_ACTION_OWNER_AND_GREEN_DOMAIN_REQUIRED"
+  },
+  "scope": {
+    "bulk_only_killed": "LIVE_NONZERO_SELECTED_BRANCH",
+    "all_GU_backgrounds_killed": false,
+    "H_Q_star_killed": false,
+    "H0_proved": false
+  },
+  "next_reverse_swing": {"id": "VRS-3", "question": "What complex, symplectic or Hermitian role if any is actually owned by the conditional second-action Hessian after honest boundary terms are included?"},
+  "forward_dependency": "VRS_5_O_SR1C_REMAINS_ACTIVE",
+  "claim_ceiling": "NO_PHYSICAL_COHOMOLOGY_COMPLEX_HILBERT_SPACE_POSITIVE_PAIRING_CLOSED_DOMAIN_OR_SUPERPOSITION",
+  "changes": {"ledger": "none", "canon": "none", "residue": "none", "quotient": "none", "datum": "none", "public_posture": "none"},
+  "probe": "tests/channel-swings/superposition_vrs2_boundary_necessity_bulk_only_kill_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-superposition-vrs2-boundary-necessity-review.md"
+}

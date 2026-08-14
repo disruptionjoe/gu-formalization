@@ -44,15 +44,19 @@
     },
     {
       "id": "VRS-2",
-      "status": "next",
+      "status": "executed_scoped_bulk_only_kill",
       "question": "Does every surviving intrinsic candidate require the action-owned boundary moment and Green data, and does a bulk-only quotient fail under at least one fixed, free or charged endpoint horn?",
+      "result": "lab/active-research/source-residual-cohomology/vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md",
+      "registry": "lab/process/superposition-vrs2-boundary-necessity-bulk-only-kill.json",
+      "probe": "tests/channel-swings/superposition_vrs2_boundary_necessity_bulk_only_kill_probe.py",
+      "disposition": "LIVE_NONZERO_SELECTED_BRANCH_REQUIRES_BOUNDARY_AWARE_QUOTIENT__BULK_ONLY_REALIZATION_KILLED__FREE_ZERO_CHARGE_ESCAPE_OPEN",
       "depends_on": [
         "VRS-1"
       ]
     },
     {
       "id": "VRS-3",
-      "status": "queued",
+      "status": "next",
       "question": "What physical-complex role, if any, is actually owned by the conditional second-action Hessian?",
       "depends_on": [
         "VRS-1"

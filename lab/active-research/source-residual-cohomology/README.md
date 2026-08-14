@@ -86,6 +86,13 @@ first rank-82 wall to zero charge. The tangent bounds are sharp; a nonlinear
 local wall normal form and global attachment remain open. See the
 [`RSAP rank-loss schedule`](../../../explorations/conditional-build/selected-k77-rank-singular-poisson-rank-loss-schedule-2026-08-14.md).
 
+[`VRS-2`](vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md) now kills the
+bulk-only realization of the live nonzero selected branch. The free horn
+remains a distinct zero-charge escape; fixed and charged horns retain physical
+endpoint data. Exact finite Green relations still fail selected mixed-gauge
+basicness and do not define a closed domain. `VRS-3` is next and tests what the
+second-action Hessian actually owns after those boundary terms are included.
+
 ## Swing sequence
 
 | swing | question | earned result required before continuing | status |

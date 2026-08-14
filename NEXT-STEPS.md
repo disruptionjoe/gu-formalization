@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 VRS-2 BOUNDARY NECESSITY.** The live nonzero selected branch
+> cannot support a bulk-only physical quotient. Free variation forces zero
+> charge and excludes that fixture; fixed data leaves charged endpoint labels;
+> the charged horn requires boundary/BFV data. The exact W/mirror base
+> relations are broken by all eight active mixed-gauge directions, while
+> normal conormals make neither half isotropic, so no closed domain is owned.
+> **Next execute VRS-3 with honest boundary terms and decide the precise role
+> of the second-action Hessian.** Boundaryless and zero-charge routes remain
+> open; exact probe `34/34`.
+
 > **2026-08-14 VRS-1 INTERNAL COMPLEX-SOURCE CENSUS.** All eleven currently
 > repo-named families are accounted for. Fixed split-equivariant, natural
 > orbit-tangent and standalone Hessian-to-`J` routes are killed or retyped at
