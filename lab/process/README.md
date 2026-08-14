@@ -8,16 +8,23 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
+[`conditional-physics-ledger-v0.251.json`](conditional-physics-ledger-v0.251.json),
+summarized in
+`explorations/conditional-build/conditional-physics-ledger-v0.251.md`.
+The rank-eight mixed obstruction is not a closed edge algebra and the active
+`17+8` representatives generate full `so(7,7)`. Full covariance requires a
+source-owned split reduction or the 40-dimensional moving-polarization orbit,
+then BFV and an analytic closed domain.
+
+Immediate predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.250.json`](conditional-physics-ledger-v0.250.json),
 summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.250.md`.
-The minimal W/mirror asymmetric base-boundary pair now constructs for both
-current action Green horns, but conjugation selects neither member and the
-rank-eight mixed selected gauge image preserves neither. The next route is a
-source/action-owned split reduction or BFV edge completion, then an analytic
-closed base-conormal domain.
+The minimal W/mirror asymmetric base-boundary pair constructs for both current
+action Green horns, but the action selects neither and current gauge descent
+fails.
 
-Immediate predecessor append-only progress surface:
+Earlier predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.249.json`](conditional-physics-ledger-v0.249.json),
 summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.249.md`.

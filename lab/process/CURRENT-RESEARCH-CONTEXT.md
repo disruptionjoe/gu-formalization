@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.251 boundary-edge Lie-closure gate:** rank eight is the mixed
+> tangent rank at the selected coefficient bank, not a closed gauge algebra.
+> Those eight directions close to dimension 15, and the active `17+8`
+> representatives generate all 91 directions of `so(7,7)`; the inactive 66
+> are not an ideal. Full-gauge covariance of W requires the 40-dimensional
+> `Spin(7,7)/H_split` polarization orbit, while a source-owned reduction to
+> the 51-dimensional split stabilizer is the alternative. Neither is action-
+> owned, and the mirror family is equal. Rank one is to derive one owner from
+> the source action/preboundary variation, then build the ghost-closed BFV
+> complex and analytic domain. Do not add eight fitted edge fields.
+
 > **Current v0.250 asymmetric W/mirror boundary/domain gate:** for either
 > current action-pairing horn, W and mirror are complementary maximal-isotropic
 > Green relations for every observation-base conormal, while neither is

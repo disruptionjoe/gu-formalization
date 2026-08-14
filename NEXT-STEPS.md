@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 BOUNDARY-EDGE LIE-CLOSURE GATE (ledger v0.251).**
+> The selected rank-eight mixed obstruction is a tangent image, not a closed
+> gauge algebra: the eight generators close to dimension 15, and the active
+> `17+8` representatives bracket-generate all 91 directions of `so(7,7)`.
+> The 66 inactive tangent directions are not an ideal. Full-gauge covariance
+> of W therefore requires the 40-dimensional `Spin(7,7)/H_split` moving-
+> polarization orbit, or an independently action-owned reduction to the
+> 51-dimensional split stabilizer. The source owns neither and the conjugate
+> mirror family remains equal. **Next derive one of those owners from the
+> action and its preboundary variation, then build the ghost-closed BFV
+> complex and codimension-one analytic domain.** Do not add eight fitted edge
+> coordinates or call a covariant family a physical half.
+
 > **2026-08-14 ASYMMETRIC W/MIRROR BOUNDARY-DOMAIN GATE (ledger v0.250).**
 > For both current action-pairing horns, W and mirror are complementary
 > maximal-isotropic Green relations for all four observation-base conormals

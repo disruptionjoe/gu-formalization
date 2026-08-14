@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_boundary_edge_lie_closure_gate_probe.py`
+  reconstructs the exact active `17+8` gauge generators, proves the eight
+  mixed directions close to 15 and the active 25 close to all 91
+  `so(7,7)` directions, rejects the inactive tangent kernel as an ideal,
+  classifies the 40-dimensional polarization orbit, and checks moving-
+  projector covariance with a fixed-projector control. Run with
+  `sage -python`; it passes `35/35`.
+
 - `channel-swings/selected_k77_asymmetric_boundary_domain_gate_probe.py`
   computes both current action Green horns on exact W/mirror bases for all
   fourteen canonical conormals, certifies the base maximal-isotropic and normal

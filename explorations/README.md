@@ -7,6 +7,15 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 boundary-edge Lie-closure gate (2026-08-14)
+
+`conditional-build/selected-k77-boundary-edge-lie-closure-gate-2026-08-14.md`
+proves that the rank-eight mixed tangent image is not a closed edge algebra:
+it closes to dimension 15, while the active `17+8` representatives generate
+all 91 `so(7,7)` directions. The minimal local covariant W-polarization orbit
+has dimension 40. A source-owned split reduction or polarization field, BFV
+complex and analytic domain remain open; mirror selection does not move.
+
 ## K77 asymmetric W/mirror boundary/domain gate (2026-08-14)
 
 `conditional-build/selected-k77-asymmetric-boundary-domain-gate-2026-08-14.md`
