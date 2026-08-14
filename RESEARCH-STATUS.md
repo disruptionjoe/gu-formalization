@@ -8,8 +8,8 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Twistor/moving-BV/positive-state seven-gate 2026-08-13 (headline
-unchanged).** The base `Gr(2,C^4)` correspondence and separate normal
+**Twistor/moving-BV/positive-state seven-gate 2026-08-13 (ledger v0.245;
+headline unchanged).** The base `Gr(2,C^4)` correspondence and separate normal
 `O(6,4)/U(3,2)` twistor fibre now construct at exact local/homogeneous grade.
 The moving normal complex structure closes the minimal longitudinal BRST
 algebra, and the universal twistor superconnection cancels its ghost and
@@ -20,7 +20,11 @@ principal complex linearity survives, but the Penrose bundles/weights/
 pushforward, positive-energy closed domain, positive physical pairing and
 physical cohomology remain open. See
 `explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md`
-and its `47/47` exact probe. No verdict, residue, quotient, datum, canon or
+and its `47/47` exact probe. Ledger hypothesis `HYP-TW-COHERENCE-01` retains
+the possible physical reading—superposition as positive moving-twistor/BV
+cohomology and normalized mixed curvature as a coherence obstruction—without
+promoting it beyond the six remaining construction gates. `LT-SM8` receives
+one distance-only migration; no verdict, residue, quotient, datum, canon or
 public-posture move.
 
 **J10 BV/Green descent side gate 2026-08-13 (headline unchanged).** The

@@ -23,10 +23,13 @@ current_result:
     separate base and normal twistor kinematics and minimal moving-J
     longitudinal BRST extension now construct; the actual twistor connection,
     Penrose pushforward and positive physical state-space reconstruction do not.
+    Ledger hypothesis HYP-TW-COHERENCE-01 preserves, without promoting, the
+    proposal that superposition lives in positive moving-twistor/BV cohomology
+    and normalized mixed curvature supplies a coherence obstruction.
   evidence:
     - explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md
-    - explorations/conditional-build/conditional-physics-ledger-v0.244.md
-    - lab/process/conditional-physics-ledger-v0.244.json
+    - explorations/conditional-build/conditional-physics-ledger-v0.245.md
+    - lab/process/conditional-physics-ledger-v0.245.json
     - explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md
     - explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md
