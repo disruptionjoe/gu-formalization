@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "ALL_SEVEN_REGULAR_COADJOINT_INVARIANTS_VARY__UNCONSTRAINED_FIXED_ORBIT_EDGE_HORN_REJECTED__BOUNDARY_LOCKING_OR_LARGER_CARRIER_OPEN",
+  "endpoint": {
+    "gauge_algebra": "so(7,7)",
+    "dimension": 91,
+    "coadjoint_orbit_dimension": 84,
+    "regular_stabilizer_dimension": 7,
+    "fixture_relative": true
+  },
+  "coadjoint_invariants": {
+    "identification": "vector-representation trace-dual so(7,7) element L",
+    "generators": [
+      "tr(L^2)",
+      "tr(L^4)",
+      "tr(L^6)",
+      "tr(L^8)",
+      "tr(L^10)",
+      "tr(L^12)",
+      "pfaffian(eta L)"
+    ],
+    "values": [
+      "86656/3",
+      "506177853056/81",
+      "4818611145213952/81",
+      "64846155961388406247424/6561",
+      "3035200969981579046614532096/19683",
+      "8566885402141449500084853536325632/531441",
+      "725831647232/9"
+    ],
+    "differential_rank": 7,
+    "common_tangent_kernel_dimension": 84,
+    "first_derivatives": [
+      "173312",
+      "2024711412224/27",
+      "9637222290427904/9",
+      "518769247691107249979392/2187",
+      "30352009699815790466145320960/6561",
+      "34267541608565798000339414145302528/59049",
+      "5080821530624/3"
+    ],
+    "nonzero_first_derivative_count": 7
+  },
+  "variation": {
+    "line": "(B,T) -> lambda (B,T)",
+    "tangent_at_fixture": "(delta B,delta T)=(B,T)",
+    "ownership": "selected action coefficient fields",
+    "grade": "exact finite off-shell coefficient-space direction",
+    "charge_homogeneity": "mu(lambda)=lambda^3 mu_cubic + lambda^2 mu_mass",
+    "transverse_to_selected_coadjoint_orbit": true,
+    "on_shell_or_boundary_admissibility_proved": false
+  },
+  "disposition": {
+    "single_fixed_orbit_over_unconstrained_nearby_endpoints": "REJECTED",
+    "action_or_boundary_law_locking_all_seven_invariants": "OPEN",
+    "larger_group_or_cotangent_carrier_spanning_orbit_values": "OPEN",
+    "charged_boundary_symmetry": "OPEN",
+    "source_owned_edge_field": false,
+    "analytic_domain": "NOT_CONSTRUCTED",
+    "physical_cohomology": "NOT_CONSTRUCTED"
+  },
+  "claim_ceiling": {
+    "ledger_version_preserved": "0.254",
+    "verdict_change": "NONE",
+    "residue_change": "NONE",
+    "quotient_or_datum_change": "NONE",
+    "total_theory_chirality": "NON_CHIRAL_SOURCE_TARGET_PRESERVED",
+    "w_mirror_selection": "NOT_INFERRED",
+    "generation_count": "NOT_INFERRED",
+    "canon_or_public_posture_change": "NONE"
+  },
+  "next_gate": "derive an action-owned boundary/Green law locking all seven invariant values, or construct the smallest equivariant carrier spanning their exact variation before analytic BFV work",
+  "probe": {
+    "path": "tests/channel-swings/selected_k77_coadjoint_invariant_variation_gate_probe.py",
+    "result": "PASS_37_OF_37"
+  }
+}
