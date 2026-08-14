@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rank_singular_poisson_rank_loss_schedule_probe.py`
+  proves `2 rank(dJ)<=dim(M)+rank(pi)`, derives the minimal 98-dimensional
+  schedule `91,90,49`, and constructs exact tangent-space models saturating
+  each bound while preserving global RSAP existence as open. It passes
+  `33/33` with the Python standard library.
+
+- `channel-swings/superposition_vrs1_internal_complex_source_census_probe.py`
+  validates the canonical eleven-family VRS-1 census, scoped exhaustion
+  claims and surviving composite without promoting a single carrier to
+  `J_phys`. It passes `41/41` with the Python standard library.
+
 - `channel-swings/selected_k77_all_charge_poisson_submersion_minimum_probe.py`
   proves the pointwise bound `dim M>=182-rank(pi_p)`, recovers the regular
   minimum 98 and uses the zero orbit to fix the all-charge Poisson-submersion
@@ -4282,4 +4293,15 @@ attachment gate.
 
 ```sh
 python3 tests/channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py
+```
+
+## K77 rank-singular Poisson rank-loss schedule
+
+`channel-swings/selected_k77_rank_singular_poisson_rank_loss_schedule_probe.py`
+derives the pointwise map-rank ceiling, checks every even carrier dimension in
+`[98,182]`, and constructs exact standard-symplectic tangent models saturating
+the regular, first-wall and zero-charge bounds for the minimal carrier.
+
+```sh
+python3 tests/channel-swings/selected_k77_rank_singular_poisson_rank_loss_schedule_probe.py
 ```

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "RSAP_POINTWISE_RANK_SCHEDULE_EXACT__MINIMAL_98_CARRIER_MUST_LOSE_ONE_RANK_AT_FIRST_WALL__GLOBAL_EXISTENCE_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "map": {"id": "RSAP", "domain": "SMOOTH_SYMPLECTIC_M_DIMENSIONAL", "target": "SO_7_7_DUAL_DIMENSION_91", "regular": "SUBMERSION", "singular": "RANK_LOSS_ALLOWED"},
+  "pointwise_theorem": {
+    "map_rank_symbol": "s",
+    "target_poisson_rank_symbol": "r",
+    "inequality": "2*s <= m+r",
+    "ceiling": "s <= floor((m+r)/2)",
+    "deficit": "91-s >= max(0,91-floor((m+r)/2))",
+    "proof_carrier": "HAMILTONIAN_SPAN_W_AND_ITS_RADICAL_INSIDE_KERNEL_DJ"
+  },
+  "minimal_98_schedule": [
+    {"stratum": "REGULAR", "poisson_rank": 84, "map_rank_ceiling": 91, "forced_rank_deficit": 0},
+    {"stratum": "FIRST_RANK_DROP_WALL", "poisson_rank": 82, "map_rank_ceiling": 90, "forced_rank_deficit": 1},
+    {"stratum": "ZERO_CHARGE", "poisson_rank": 0, "map_rank_ceiling": 49, "forced_rank_deficit": 42}
+  ],
+  "all_below_182": {"first_wall_loss_forced": false, "zero_charge_loss_forced": true, "zero_charge_ceiling": "m/2", "reason": "m/2<91_FOR_EVEN_m_IN_[98,182)"},
+  "tangent_sharpness": {"construction": "r/2_SYMPLECTIC_PAIRS_PLUS_s-r_UNPAIRED_ISOTROPIC_VECTORS", "saturating_triples": [[98, 91, 84], [98, 90, 82], [98, 49, 0]], "global_map_constructed": false},
+  "next_gate": "CONSTRUCT_OR_OBSTRUCT_A_LOCAL_98D_SMOOTH_POISSON_WALL_NORMAL_FORM_WITH_MAP_RANK_91_TO_90_AND_TARGET_RANK_84_TO_82",
+  "claim_ceiling": "NO_GLOBAL_RSAP_EXISTENCE__NO_ALL_CHARGE_CARRIER__POINTWISE_LINEAR_ALGEBRA_ONLY",
+  "changes": {"ledger": "none", "canon": "none", "residue": "none", "quotient": "none", "datum": "none", "public_posture": "none"},
+  "probe": "tests/channel-swings/selected_k77_rank_singular_poisson_rank_loss_schedule_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-rank-singular-poisson-rank-loss-schedule-review.md"
+}

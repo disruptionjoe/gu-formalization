@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f5a9a28bc4047c085499c7f53bb996c05a5c97d7
+revision_basis: 83d27282cdffc1b53cd3fa4f047d79d7c662d9f8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -195,7 +195,29 @@ current_result:
     Bach ownership, endpoint admission, rolled-operator factorization,
     positive domain and pairing, physical cohomology and any decoherence law
     remain open.
+    The twenty-lens reverse scaffold has now executed VRS-1 against all eleven
+    complex-source families presently named in the repository. No current
+    single object is J_phys. Fixed and direct routes are killed or retyped;
+    moving associated-spinor J10 survives only inside an unconstructed
+    bulk-boundary composite. Future action-admissible, moduli and nonlocal
+    classes remain unexhausted, so H-Q* narrows without dying and H0 is
+    strengthened without being proved. VRS-2 is the next reverse discriminator:
+    test fixed, free and charged endpoint horns and kill any bulk-only quotient
+    that drops live moment or Green data.
+    The independent RSAP target now has an exact pointwise differential-rank
+    schedule. If s=rank(dJ), r=rank(pi) and dim(M)=m, symplectic Poisson
+    compatibility forces 2s<=m+r. For the minimal m=98 carrier this gives map
+    ranks at most 91, 90 and 49 on the regular rank-84 locus, first rank-82
+    wall and zero charge, respectively. Exact tangent-space models saturate
+    all three bounds, so no stronger pointwise linear obstruction is available.
+    The next carrier gate is a local smooth 98-dimensional Poisson wall normal
+    form with map rank 91-to-90 and target rank 84-to-82; no global RSAP exists
+    yet.
   evidence:
+    - lab/active-research/source-residual-cohomology/vrs1-internal-complex-source-census-2026-08-14.md
+    - lab/process/superposition-vrs1-internal-complex-source-census.json
+    - explorations/conditional-build/selected-k77-rank-singular-poisson-rank-loss-schedule-2026-08-14.md
+    - lab/process/selected-k77-rank-singular-poisson-rank-loss-schedule.json
     - explorations/conditional-build/selected-k77-sr1c-owner-operator-type-gate-2026-08-14.md
     - lab/process/selected-k77-sr1c-owner-operator-type-gate.json
     - explorations/conditional-build/selected-k77-rank-singular-poisson-map-target-2026-08-14.md
@@ -289,10 +311,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the exact canonical-B_Z nonzero-T action/Bianchi one-jet be prolonged to
-  a compatible field two-jet carrying the complete selected K77 moving graph
-  derivative bank, so that primitive-epsilon and total fixed-varpi metric
-  stationarity become determined on the same witness?
+  Under the fixed, free and charged endpoint horns, does the action-owned
+  moment/Green data force every surviving intrinsic-complex candidate to use
+  a bulk-boundary quotient, and can the independent minimal RSAP carrier cross
+  its first discriminant wall with the forced map-rank drop 91 to 90?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -301,17 +323,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Hold the two algebraic amplitudes and explicit 13-cell symmetric correction
-  fixed. Construct and held-out validate O_SR1C: j1(E_B-E_T) on this branch in
-  the common 196-row basis plus the fixed-varpi derivatives of B_Z, Shiab,
-  Hodge, frame, density and lowerer. Only then solve the compatible field
-  two-jet and compute primitive epsilon and the total metric row, followed by
-  observation as a dependent receiver. Do not fill the missing operator with
-  zero or call the direct density partial a total obstruction. In the
-  independent carrier lane, construct or obstruct one smooth RSAP symplectic-
-  Poisson attachment across a codimension-one discriminant wall; the exact
-  search interval is [98,182), while 182 remains the all-charge submersion
-  minimum.
+  Execute VRS-2 on the VRS-1 surviving composite: compare fixed, free and
+  charged endpoint horns, type gauge versus charged transformations, moment
+  levels and Green flux, and kill any bulk-only realization that discards live
+  action-owned boundary data. Independently construct or obstruct a local
+  98-dimensional smooth Poisson wall normal form with target rank 84 to 82
+  and map rank 91 to 90; preserve the exact ceiling rank(dJ)<=m/2 at zero.
+  In VRS-5, hold both exact algebraic amplitudes and the 13-cell correction
+  fixed, construct and held-out validate O_SR1C, then solve the compatible
+  two-jet. Do not fill the missing operator with zero or call pointwise RSAP
+  sharpness a global attachment.
   Admit a rival Zorro completion only with a derived metric/connection formula
   and nonzero mixed trace curvature. Do not reopen edge completion without a
   new second owner, promote algebraic BFV to physical cohomology, choose

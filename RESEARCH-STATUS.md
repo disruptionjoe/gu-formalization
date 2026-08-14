@@ -8,6 +8,26 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**VRS-1 internal complex-source census 2026-08-14 (current named families
+accounted for; global exhaustion open).** Eleven source families now have
+typed owners, carriers and dispositions. No currently owned single object is
+`J_phys`; the sole live internal route is an unconstructed composite joining
+moving associated-spinor `J10`, action-owned total differential data,
+boundary-aware reduction, positive pairing and a common Lorentzian domain.
+`H-Q*` is narrowed, `H0` is strengthened but not proved, and VRS-2 is next.
+See `lab/active-research/source-residual-cohomology/vrs1-internal-complex-source-census-2026-08-14.md`
+and its `41/41` probe.
+
+**RSAP pointwise rank-loss schedule 2026-08-14 (exact and tangent-sharp;
+existence open).** At any point of a symplectic Poisson map,
+`2 rank(dJ)<=dim(M)+rank(pi)`. A minimal 98-dimensional RSAP therefore has
+map-rank ceilings `91`, `90` and `49` at target Poisson ranks `84`, `82` and
+`0`. Exact symplectic tangent models saturate the bounds. The first nonlinear
+gate is a smooth local wall form with ranks `91->90` over `84->82`; this does
+not construct a global RSAP. See
+`explorations/conditional-build/selected-k77-rank-singular-poisson-rank-loss-schedule-2026-08-14.md`
+and its exact `33/33` probe.
+
 **SR-1C owner-operator type gate 2026-08-14 (`TYPE-MISSING`).** The exact
 canonical nonzero-`T` witness still lacks one executable composition object:
 `O_SR1C`, the common-196-row-basis evaluator for `j^1(E_B-E_T)` and the

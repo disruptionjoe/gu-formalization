@@ -7,6 +7,25 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 VRS-1 INTERNAL COMPLEX-SOURCE CENSUS.** All eleven currently
+> repo-named families are accounted for. Fixed split-equivariant, natural
+> orbit-tangent and standalone Hessian-to-`J` routes are killed or retyped at
+> their declared scopes. No current single object is `J_phys`; only an
+> unconstructed moving-`J10` plus action-owned bulk-boundary composite
+> survives. Future action-admissible, moduli and nonlocal classes remain open,
+> so `H-Q*` narrows and `H0` strengthens without proof. **Next run VRS-2 across
+> fixed, free and charged endpoint horns and kill any bulk-only quotient that
+> drops live moment or Green data.** Exact structural probe `41/41`.
+
+> **2026-08-14 RSAP POINTWISE RANK-LOSS SCHEDULE.** Every symplectic Poisson
+> map obeys `2 rank(dJ)<=dim(M)+rank(pi)`. For the minimal 98-dimensional RSAP
+> target, map-rank ceilings are `91`, `90` and `49` on the regular rank-84
+> locus, first rank-82 wall and zero charge. Exact tangent models saturate all
+> three, so pointwise linear algebra gives no stronger obstruction. **Next
+> construct or obstruct a local smooth 98D wall normal form with map rank
+> `91->90` and target rank `84->82`.** Global RSAP existence remains open;
+> exact probe `33/33`.
+
 > **2026-08-14 SR-1C OWNER-OPERATOR TYPE GATE.** The precise first blocker is
 > now `O_SR1C`, a common-basis branch evaluator for
 > `j^1(E_B-E_T)` plus the fixed-`varpi` derivatives of `B_Z`, Shiab, Hodge,
