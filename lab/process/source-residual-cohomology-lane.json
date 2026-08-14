@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "lane_id": "SRC-RES-COH-01",
+  "lane_kind": "repo_native_research_workstream",
+  "status": "active_research",
+  "index": "lab/active-research/source-residual-cohomology/README.md",
+  "primary_hypothesis": {
+    "id": "H1-R",
+    "statement": "If GU derives superposition internally, its first plausible home is a positive physical cohomology of the action-owned total-residual deformation complex; moving-reduction and local-twistor structures are downstream adapters."
+  },
+  "mandatory_null": {
+    "id": "H0",
+    "statement": "GU supplies classical complex-linear geometry while ordinary quantization supplies superposition externally."
+  },
+  "exact_floor": [
+    "explorations/conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md",
+    "explorations/conditional-build/selected-k77-i2b-source-bvkt-exact-sequence-2026-08-13.md",
+    "explorations/conditional-build/selected-k77-i2b-lower-order-exact-form-lift-2026-08-13.md",
+    "explorations/conditional-build/selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md",
+    "explorations/conditional-build/selected-k77-local-twistor-bach-detour-composition-gate-2026-08-14.md",
+    "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
+  ],
+  "swings": [
+    {
+      "id": "SR-0",
+      "status": "executed",
+      "question": "Which operator owns the proposed cohomology and Yang-Mills-like equation?",
+      "result": "lab/active-research/source-residual-cohomology/sr0-operator-owner-rebase-2026-08-14.md",
+      "probe": "tests/channel-swings/source_residual_cohomology_sr0_operator_owner_probe.py",
+      "depends_on": []
+    },
+    {
+      "id": "SR-1",
+      "status": "queued",
+      "question": "Does the source gauge map compose with the linearized total residual on an action-owned residual-zero stationary background?",
+      "depends_on": ["SR-0"]
+    },
+    {
+      "id": "SR-2",
+      "status": "queued",
+      "question": "Does the complete second-action Hessian factor through the first-layer residual linearization on shell?",
+      "depends_on": ["SR-1"]
+    },
+    {
+      "id": "SR-3",
+      "status": "queued",
+      "question": "Does the rolled Dirac-Rarita-Schwinger operator factor or intertwine with the source deformation complex?",
+      "depends_on": ["SR-2"]
+    },
+    {
+      "id": "SR-4",
+      "status": "queued",
+      "question": "What off-diagonal zero-order mass/VEV block controls the Dirac-to-Weyl split?",
+      "depends_on": ["SR-3"]
+    },
+    {
+      "id": "SR-5",
+      "status": "queued",
+      "question": "Does the action derive the claimed curvature dependence of the mass/VEV block?",
+      "depends_on": ["SR-4"]
+    },
+    {
+      "id": "SR-6",
+      "status": "queued",
+      "question": "Can the local-twistor prolongation carry the source complex on a Lorentzian closed positive domain with endpoint admission?",
+      "depends_on": ["SR-2", "SR-3"]
+    },
+    {
+      "id": "SR-7",
+      "status": "queued",
+      "question": "Does normal-sector reduction derive a transition law, memory kernel, channel and coherence observable?",
+      "depends_on": ["SR-5", "SR-6"]
+    }
+  ],
+  "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
+}
+

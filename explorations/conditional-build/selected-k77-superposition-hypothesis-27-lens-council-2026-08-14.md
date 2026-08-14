@@ -278,3 +278,28 @@ This council changes no verdict or canon and supplies no new GU theorem. It
 does not establish an action owner, positive physical cohomology, stochastic
 transition law, quantum channel, superposition mechanism or decoherence law.
 It ranks the next hypotheses and makes their dependency order explicit.
+
+## Source-residual rebase, 2026-08-14
+
+Subsequent source-controlled comparison with the 2021 draft, Oxford/Portal,
+modern TOE and Into the Impossible surfaces changes the **planning owner** of
+H1 without changing the council's historical vote.
+
+The source does not make ordinary `D_A^*F_A=0` primitive. It prints a
+first-order total residual `Upsilon_omega`, a second action
+`I2=(1/2)<Upsilon,Q_B Upsilon>`, its Yang--Mills-like second Euler equation,
+and a prospective on-shell deformation complex. Existing K77 work already
+constructs the source-natural fixed-grade `I2B` owner and substantial exact
+Hessian/Ward/BV/Spencer data.
+
+H1 is therefore retyped for future work as **H1-R**:
+
+> If GU derives superposition internally, its first plausible home is a
+> positive physical cohomology of the action-owned total-residual deformation
+> complex. Moving-reduction and local-twistor structures are downstream
+> adapters whose compositions must be proved.
+
+The 27-lens source reread moves five modeled primary votes to H1-R, yielding
+`H1-R:14, H2:6, H3:5, H0:2`. This remains planning evidence. The new
+repo-native research lane and first exact operator-owner discriminator are at
+`lab/active-research/source-residual-cohomology/README.md`. H0 remains live.

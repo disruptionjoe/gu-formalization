@@ -95,6 +95,16 @@ the map: which directory/group supports which claim.
   preserving the planning-evidence claim ceiling and `H0` null. It does not
   test any candidate physics hypothesis. Run with Python 3; it passes `40/40`.
 
+- `channel-swings/source_residual_cohomology_sr0_operator_owner_probe.py`
+  opens the repo-native source-residual-cohomology research lane and validates
+  its eight-swing dependency order, source claims, exact predecessor floor and
+  claim ceiling. It gives exact two-way finite controls separating the source
+  residual-square Euler equation from ordinary Yang--Mills and verifies that
+  the residual-dependent Hessian term vanishes on a residual-zero shell but
+  not off shell. It is an operator-architecture discriminator, not a full-GU
+  solution-set or quantum-superposition test. Run with Python 3; it passes
+  `43/43`.
+
 - `channel-swings/selected_k77_total_twisted_yang_mills_current_gate_probe.py`
   constructs the universal K77-typed adapted metric-connection algebra at the
   actual `4+10` dimensions over exact rationals, verifies its
