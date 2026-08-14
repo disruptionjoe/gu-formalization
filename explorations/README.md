@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Explorations
 
+## K77 `mu_128` holonomy classification gate (2026-08-14)
+
+`conditional-build/selected-k77-mu128-holonomy-classification-gate-2026-08-14.md`
+classifies the universal Lorentz-metric-fibre contribution. The `RP^3` spine
+offers only the common `mu_2` sign inside `mu_128`; the total-space homotopy
+boundary can kill it, observation of the pure vertical class is trivial, and
+the sign acts identically on both K77 Weyl halves. Actual base/domain
+characters, independent root lines, boundary-relative charge, BV/BFV and
+nonstandard physical operators remain open.
+
 ## K77 spin-induced determinant-line gate (2026-08-14)
 
 `conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md`

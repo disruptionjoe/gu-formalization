@@ -8,18 +8,27 @@ updated_at: "2026-08-14"
 # Process
 
 Current append-only progress surface:
-[`conditional-physics-ledger-v0.244.json`](conditional-physics-ledger-v0.244.json),
+[`conditional-physics-ledger-v0.246.json`](conditional-physics-ledger-v0.246.json),
 summarized in
-`explorations/conditional-build/conditional-physics-ledger-v0.244.md`.
-The source-induced full and half-spin determinant characters are trivial, so
-the canonical absolute first-Chern flux route is closed and observation
-pullback cannot reopen it. Local exact central curvature, finite `mu_128`
-holonomy, independent twists and boundary-relative charge remain distinct
-unbuilt routes. The substantive target remains emergent luminous/dark
-decoupling inside Weinstein's non-chiral total theory. No physics-row verdict,
-residue, quotient, canon claim, or public posture moved.
+`explorations/conditional-build/conditional-physics-ledger-v0.246.md`.
+The canonical determinant flux and universal fibre finite-centre selector are
+closed. The `RP^3` spine supplies at most the common `mu_2` sign; observation
+of the pure vertical class is trivial and the sign acts identically on both
+Weyl halves. Actual base/domain characters, boundary charge and physical
+operators/domains remain open. No physics-row verdict, residue, quotient,
+canon claim, or public posture moved.
 
 Immediate predecessor append-only progress surface:
+[`conditional-physics-ledger-v0.245.json`](conditional-physics-ledger-v0.245.json),
+which registers the moving-twistor conditional mechanism hypothesis and one
+distance-only `LT-SM8` migration without promoting a physical claim.
+
+Earlier predecessor append-only progress surface:
+[`conditional-physics-ledger-v0.244.json`](conditional-physics-ledger-v0.244.json),
+which closes the canonical Spin-induced determinant first-Chern route while
+preserving finite-centre, independent-root and boundary-relative survivors.
+
+Earlier predecessor append-only progress surface:
 [`conditional-physics-ledger-v0.243.json`](conditional-physics-ledger-v0.243.json),
 summarized as ledger v0.243. The full-parent central curvature is an exact
 gauge-invariant, exchange-odd candidate bosonic leg, while local real invariant

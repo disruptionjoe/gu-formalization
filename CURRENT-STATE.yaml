@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 149775c6ac7f6ca4e144a0d9eefe9d14ee70ad83
+revision_basis: 36198e781d39189653803f8692d47508ae32505d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -10,13 +10,15 @@ current_result:
   status: conditional_research_front
   summary: >-
     The full U(64,64) parent retains one exact central W/mirror-odd curvature
-    leg, but its canonical global first-Chern route is now closed. On the
-    connected Spin(7,7)-induced full and half-spin bundles the determinant
-    characters are trivial, so enlarging to the full unitary spinor-frame
-    bundle does not create determinant topology and observation pullback keeps
-    c1 zero. The determinant sees the scalar center through its 128th power,
-    so finite mu_128 holonomy, independent twists and boundary-relative charge
-    remain distinct unbuilt routes. Weinstein's total theory remains
+    leg, but its canonical first-Chern route and universal fibre-supplied
+    finite-centre selector are now closed. The connected Spin(7,7)-induced
+    determinants are trivial. The Lorentz-metric RP3 spine contributes at most
+    Hom(Z/2,mu_128)=mu_2, and the total-space homotopy boundary may kill even
+    that sign. The pure vertical sign pulls back trivially along observation
+    and acts as the same scalar on both Weyl halves, so it cannot distinguish
+    luminous matter from its mirror. Actual base/domain characters,
+    independent twists and boundary-relative charge remain unbuilt routes.
+    Weinstein's total theory remains
     explicitly non-chiral; the open physics burden is low-curvature
     luminous/dark chiral-looking decoupling through a nonstandard operator or
     owned BV/domain, not a net-chirality target. The
@@ -27,9 +29,10 @@ current_result:
     proposal that superposition lives in positive moving-twistor/BV cohomology
     and normalized mixed curvature supplies a coherence obstruction.
   evidence:
+    - explorations/conditional-build/selected-k77-mu128-holonomy-classification-gate-2026-08-14.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.246.md
+    - lab/process/conditional-physics-ledger-v0.246.json
     - explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md
-    - explorations/conditional-build/conditional-physics-ledger-v0.245.md
-    - lab/process/conditional-physics-ledger-v0.245.json
     - explorations/conditional-build/selected-k77-central-u1-w-mirror-flux-gate-2026-08-14.md
     - explorations/conditional-build/selected-k77-j10-bv-green-descent-gate-2026-08-13.md
     - explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md
@@ -44,11 +47,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the actual observerse or physical domain carry finite mu_128 central
-  holonomy or a boundary-relative charge that survives observation and BV/BFV
-  reduction, and can a nonstandard family operator or owned domain turn that
-  global structure into the source-claimed luminous/dark effective decoupling
-  while the total theory remains non-chiral?
+  Does the actual base or owned physical domain carry a selected finite central
+  character, or does a boundary-relative BV/BFV charge survive the physical
+  gauge quotient; and can an action-owned nonstandard family operator or
+  asymmetric domain produce the source-claimed luminous/dark effective
+  decoupling while the total theory remains non-chiral?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -57,13 +60,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify representations of the actual observerse/physical-domain
-  fundamental group into mu_128 and test observation, large-gauge, BV/BFV and
-  closed-domain survival; keep boundary-relative charge separate. Do not
-  replace the source-induced frame bundle by an independent twist, identify
-  the center with hypercharge, choose holonomy by hand, or turn the non-chiral
-  source target into net chirality. In parallel, retain the nonstandard family
-  operator and moving-J BV/domain routes; build the program-native twistor
-  carrier and actual lifted `(0,1)` connection before attempting a Penrose
-  pushforward or positive-state claim.
+  Do not enumerate more scalar roots. Either construct the actual physical
+  domain and compute its fundamental group, allowed gauge quotient and selected
+  character, or build the preboundary/BFV complex and boundary charge. Keep an
+  independent root line separate and do not choose holonomy by hand. In
+  parallel, retain the more direct nonstandard family-operator/asymmetric-domain
+  and moving-J routes; build the program-native twistor carrier and actual
+  lifted `(0,1)` connection before a Penrose or positive-state claim.
 what_needs_joe: none

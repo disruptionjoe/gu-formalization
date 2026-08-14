@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 `MU_128` HOLONOMY CLASSIFICATION GATE (ledger v0.246).**
+> The Lorentz-metric `RP^3` spine supplies at most
+> `Hom(Z/2,mu_128)=mu_2={+1,-1}`, not 128 physical sectors. The homotopy
+> connecting map may kill the fibre loop in the total observerse; when the
+> sign survives, the pure vertical character pulls back trivially along an
+> observation section and acts as the same `-I` on both K77 Weyl halves. It is
+> not a luminous/mirror selector. **Do not enumerate roots or fit a holonomy.
+> Next either construct the actual physical domain and its allowed character/
+> gauge quotient, build a boundary-relative BFV charge, or pursue the more
+> direct action-owned nonstandard family operator/asymmetric domain.** Base or
+> domain characters, independent root lines, boundary charge and closed
+> domains remain open. No verdict, residue, quotient, datum, canon or
+> public-posture move.
+
 > **2026-08-14 SPIN-INDUCED DETERMINANT-LINE GATE (ledger v0.244).**
 > The canonical absolute first-Chern route is closed for the source-induced
 > spinor bundle: every actual `Spin(7,7)` generator is trace-free on the full

@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_mu128_holonomy_classification_gate_probe.py`
+  classifies `Hom(Z/2,mu_128)` exactly, preserves both possible fibre images
+  in total `pi_1`, verifies trivial observation of the pure vertical
+  character, and proves the surviving sign acts identically on both K77 Weyl
+  halves. `Z/3`, `Z/4` and grading controls preserve domain sensitivity and a
+  genuine half-asymmetric comparator. Run with Python 3 and NumPy; it passes
+  `55/55`.
+
 - `channel-swings/selected_k77_spin_induced_determinant_line_gate_probe.py`
   proves the actual K77 spin generators are trace-free on the full carrier and
   both Weyl halves, computes the resulting trivial determinant characters,

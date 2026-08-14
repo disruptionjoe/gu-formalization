@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-14)
 
+> **Current v0.246 finite-centre holonomy classification:** the determinant's
+> `mu_128` kernel does not create 128 physical sectors. The universal
+> Lorentz-metric `RP^3` spine supplies only `mu_2={+1,-1}`; its image in total
+> `pi_1` can be killed by the homotopy boundary. The pure vertical sign pulls
+> back trivially along observation and is the same scalar `-I` on both Weyl
+> halves, so it cannot split W from its mirror. Do not enumerate roots or fit
+> holonomy. Rank one now requires an actual base/physical domain plus allowed
+> gauge quotient, or an owned boundary-relative BFV charge. The direct physics
+> route remains an action-owned nonstandard family operator/asymmetric domain.
+> No base topology, root line, boundary complex or closed domain is source-
+> supplied.
+
 > **Current v0.244 spin-induced determinant-line gate:** the full and
 > half-spin determinant characters of connected `Spin(7,7)` are trivial, so
 > the source-induced unitary spinor-frame bundle has no canonical absolute
