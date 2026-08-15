@@ -4526,6 +4526,18 @@ the regular, first-wall and zero-charge bounds for the minimal carrier.
 python3 tests/channel-swings/selected_k77_rank_singular_poisson_rank_loss_schedule_probe.py
 ```
 
+## K77 RSAP split/mixed A2 real-form Cartan transitions
+
+`channel-swings/selected_k77_rsap_a2_real_form_cartan_transition_probe.py`
+classifies all four split/mixed regular-semisimple `A2` Cartan types and checks
+their lattice, Weyl, component, primitive, dimension and rank transitions
+exactly. It preserves the regular nilpotent as a locally passing but globally
+type-missing bridge target.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_a2_real_form_cartan_transition_probe.py
+```
+
 ## K77 RSAP rank-82 wall family and A2 cocycle gate
 
 `channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py`

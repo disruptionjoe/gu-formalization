@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 SPLIT/MIXED `A2` REAL-FORM CARTAN TRANSITIONS.** All four
+> regular-semisimple Cartan types now close at classical cotangent-atlas grade.
+> `SL(3,R)` contributes split rank-two/lattice-rank-zero and complex-pair
+> rank-one/lattice-rank-one types; `SU(2,1)` contributes compact rank-two and
+> split rank-one/lattice-rank-one types. The split diagonal centralizer's four
+> sign components act discretely by cotangent lifts. Primitive, symplectic and
+> moment gluing therefore retain `98D` and map rank `91` without new fields,
+> twists or integrality conditions. This does not cover regular nilpotents,
+> which have rank-eight local factor maps but no Cartan diagonalizer. **Next
+> construct the real regular-centralizer/Kostant-slice transition through the
+> size-three nilpotent; higher roots remain dependency-blocked until it
+> passes.** Exact probe `65/65`; full singular extension, zero charge and
+> all-strata RSAP remain open.
+
 > **2026-08-15 COMPACT-`A2` INTEGRAL-AFFINE ATLAS.** The complete compact
 > two-simple-root `98D` classical atlas now closes. The predecessor's nonzero
 > fixed-charge Hopf period remains genuine, but the full varying-charge

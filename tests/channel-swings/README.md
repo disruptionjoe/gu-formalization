@@ -93,6 +93,13 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_rsap_a2_real_form_cartan_transition_probe.py` certifies all
+  four split/mixed regular-semisimple Cartan types, compact lattice ranks,
+  split centralizer components and exact cotangent-pairing transitions. It
+  also proves the regular size-three nilpotent is outside the semisimple
+  Cartan atlas and records the missing regular-centralizer/Kostant bridge;
+  `65/65` pass with Python 3.
+
 - `selected_k77_sr1h_action_owned_point_carrier_census_probe.py` inventories
   all five currently serialized action-owned point-carrier classes, replays
   their cheapest canonical, stationarity and boundedness certificates, and

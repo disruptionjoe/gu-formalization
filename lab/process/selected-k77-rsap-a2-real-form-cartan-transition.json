@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "real_form_a2_semisimple_cartan_transition_certificate",
+  "created": "2026-08-15",
+  "status": "SPLIT_AND_MIXED_REGULAR_SEMISIMPLE_CARTAN_TRANSITIONS_CLOSE__REGULAR_NONSEMISIMPLE_EXTENSION_TYPE_MISSING",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "cartan_types": {
+    "sl3r_split": {
+      "eigenvalue_type": "THREE_DISTINCT_REAL",
+      "split_rank": 2,
+      "compact_lattice_rank": 0,
+      "centralizer_component_group": "(Z/2)^2",
+      "component_count": 4,
+      "real_weyl_group": "S3"
+    },
+    "sl3r_complex_pair": {
+      "eigenvalue_type": "ONE_REAL_PLUS_ONE_NONREAL_CONJUGATE_PAIR",
+      "split_rank": 1,
+      "compact_lattice_rank": 1,
+      "centralizer_component_group": "TRIVIAL",
+      "component_count": 1,
+      "real_weyl_group": "Z/2"
+    },
+    "su21_compact": {
+      "eigenvalue_type": "THREE_DISTINCT_IMAGINARY_WITH_SIGNATURE_LABELS",
+      "split_rank": 0,
+      "compact_lattice_rank": 2,
+      "centralizer_component_group": "TRIVIAL",
+      "component_count": 1,
+      "real_weyl_group": "Z/2"
+    },
+    "su21_split": {
+      "eigenvalue_type": "ONE_COMPACT_PLUS_ONE_SPLIT_DIRECTION",
+      "split_rank": 1,
+      "compact_lattice_rank": 1,
+      "centralizer_component_group": "TRIVIAL",
+      "component_count": 1,
+      "real_weyl_group": "Z/2"
+    }
+  },
+  "transition": {
+    "charge_rule": "mu_i=A_ij^{-T} mu_j",
+    "conjugate_rule": "tau_i=A_ij tau_j+phi_ij modulo 2 pi Lambda_compact",
+    "orbit_primitive_difference": "mu_i^T dphi_ij",
+    "full_cotangent_primitive": "Theta=theta_orbit-mu^T dtau+Theta_rest",
+    "same_type_overlap_gluing": "STRICT_AFTER_COTANGENT_LIFT",
+    "lattice_triples": "2 pi Lambda_compact",
+    "component_action": "DISCRETE_INTEGRAL_AFFINE_COTANGENT_LIFT",
+    "new_degrees_of_freedom": 0
+  },
+  "nilpotent_gate": {
+    "regular_nilpotent_in_split_and_mixed_factor": true,
+    "moment_map_rank": 8,
+    "semisimple": false,
+    "cartan_diagonalizer_exists": false,
+    "semisimple_cartan_atlas_covers": false,
+    "required_next_object": "REGULAR_CENTRALIZER_GROUP_SCHEME_OR_KOSTANT_SLICE_TRANSITION",
+    "classification": "TYPE_MISSING_NOT_OBSTRUCTED"
+  },
+  "dimension_and_rank": {
+    "full_source_dimension": 98,
+    "regular_semisimple_map_rank": 91,
+    "regular_nilpotent_local_factor_map_rank": 91,
+    "new_degrees_of_freedom": 0
+  },
+  "scope": {
+    "split_regular_semisimple_cartan_atlas": "CONSTRUCTED",
+    "mixed_regular_semisimple_cartan_atlas": "CONSTRUCTED",
+    "full_regular_real_form_atlas": "NOT_YET_TYPED_AT_NONSEMISIMPLE_VALUES",
+    "higher_root_subsystems": "DEPENDENCY_BLOCKED",
+    "full_singular_stratification": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-real-form-cartan-transition-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_real_form_cartan_transition_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a2-real-form-cartan-transition-review.md",
+  "next_gate": "CONSTRUCT_REGULAR_CENTRALIZER_OR_KOSTANT_SLICE_TRANSITION_ACROSS_NONSEMISIMPLE_A2_VALUES"
+}

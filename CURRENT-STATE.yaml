@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 98678f61c3c802d5806f9c35c85d24dcbdc8663a
+revision_basis: a62f7286e9ffdb26decdd3794063c95e87788b6b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -401,9 +401,22 @@ current_result:
     regular, A1-wall and A2-origin schedules. The single-diagonalizer route
     and its fixed-charge period remain obstructed; no charge quantization
     follows. Compact A1/A2 lattice, primitive and rank compatibility is now
-    constructed. Split/mixed globalization, higher root subsystems, the full
-    singular stratification, zero charge and all-strata RSAP remain open.
+    constructed. The split and mixed regular-semisimple continuation now also
+    closes type by type. Their four real Cartan types have compact
+    cocharacter-lattice ranks 0, 1, 2 and 1 respectively; the split
+    three-real-eigenvalue centralizer has four sign components. All lattice,
+    Weyl and component transitions act by cotangent lifts, so the primitive,
+    symplectic form and moment map glue with no new degree of freedom or
+    integrality condition. This is not full regular globalization: the split
+    and mixed principal factors contain regular nilpotents with rank-eight
+    moment differential but no semisimple Cartan diagonalizer. Their overlap
+    with the semisimple atlas is type-missing until a real regular-centralizer
+    or Kostant-slice transition is constructed. Higher root subsystems remain
+    dependency-blocked; the full singular stratification, zero charge and
+    all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a2-real-form-cartan-transition-2026-08-15.md
+    - lab/process/selected-k77-rsap-a2-real-form-cartan-transition.json
     - explorations/conditional-build/selected-k77-rsap-a2-integral-affine-atlas-2026-08-15.md
     - lab/process/selected-k77-rsap-a2-integral-affine-atlas.json
     - explorations/conditional-build/selected-k77-rsap-a2-global-primitive-monodromy-obstruction-2026-08-15.md
@@ -549,9 +562,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the compact regular adjacent-A2 comparison close as a Cech--de Rham
-  multi-chart 98D symplectic/moment atlas that absorbs the now-proved
-  nonexact group-section primitive cocycle, without an unowned twist?
+  Can the split and mixed regular-semisimple A2 cotangent atlases extend
+  smoothly through regular nonsemisimple and nilpotent values by a real
+  regular-centralizer or Kostant-slice transition while preserving the 98D
+  primitive, moment map and rank-91 schedule?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -560,15 +574,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the compact regular adjacent-A2 transition as a Cech--de Rham
-  multi-chart object on both simple roots, retaining the nontrivial torus
-  clutching class and charge-paired primitive periods. Decide whether the 98D
-  symplectic/moment atlas closes without an added twist. If a prequantum
-  repair is proposed, first prove integrality and exact cancellation. Do not
-  infer failure or existence of a global RSAP from the killed one-section
-  exact-primitive presentation; split and mixed global topology, singular
-  extension, deeper strata and the rank-at-most-49 zero-charge gate remain
-  open, with the 182D cotangent parent still the all-charge fallback.
+  Construct the rank-two regular-centralizer or real Kostant/companion-slice
+  transition through the size-three nilpotent for both split and mixed
+  principal A2 factors. It must reproduce all four semisimple Cartan-type
+  transitions away from the discriminant, use the unipotent centralizer at
+  the nilpotent, preserve the full primitive and moment components, and retain
+  map rank 91. Do not infer a full regular atlas from the passing semisimple
+  components or treat absence of a Cartan diagonalizer as nonexistence. A3 or
+  another higher-root subsystem remains dependency-blocked until this bridge
+  passes. Deeper strata and the rank-at-most-49 zero-charge gate remain open,
+  with the 182D cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6
