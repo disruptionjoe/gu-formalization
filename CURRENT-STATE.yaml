@@ -816,7 +816,22 @@ current_result:
     the balanced (3,4)|(4,3) type is a discrete real-orbit/domain choice, not
     a trace-polynomial consequence. Nonhomogeneous curvature and unreleased
     action routes remain open.
+    K101 closes the conditional dressed-connection projection itself. The
+    R_0 involution gives exact 42D h_bal and 49D p_bal projectors; under local
+    right H_bal frame changes the h part transforms as a connection and the p
+    part homogeneously. Its symmetric-pair Gauss projection necessarily
+    contains the p-sector current [phi,pi]. K101 also withdraws the proposed
+    zero coordinate self-Hessian test: a normal connection component can have
+    nonzero coordinate Hessian in a covariant action, no normal velocity, and
+    become linear only after Legendre transformation. The correct diagnostic
+    is the normal-velocity Legendre kernel followed by an explicit canonical
+    Gauss coupling. The released source owns neither a preferred non-null
+    one-time collar nor the projected Legendre map or bridge from bulk Gauss
+    flux to the endpoint J_R,H_bal moment map, so multiplier ownership is
+    TYPE-MISSING at Hamiltonian grade rather than proved or killed.
   evidence:
+    - explorations/conditional-build/selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate-2026-08-15.md
+    - lab/process/selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate.json
     - explorations/conditional-build/selected-k100-rsap-balanced-order-parameter-owner-census-2026-08-15.md
     - lab/process/selected-k100-rsap-balanced-order-parameter-owner-census.json
     - explorations/conditional-build/selected-k99-rsap-balanced-multiplier-owner-exhaustion-2026-08-15.md
@@ -1022,10 +1037,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Conditional on the now-minimal balanced real-orbit seed R_0, does projecting
-  the source-owned dressed connection B(epsilon) into h_bal+p_bal and carrying
-  out the actual boundary Hamiltonian/collar decomposition make its normal
-  h_bal component the multiplier for J_R,H_bal=0 in the released action?
+  Conditional on the balanced real-orbit seed R_0 and exact 42+49 dressed-
+  connection projection, can one derive a source-compatible non-null collar
+  and Legendre map whose normal-velocity kernel yields the full h_bal Gauss
+  coupling, then identify its boundary flux coefficientwise with J_R,H_bal
+  and select the zero level over the charged-boundary horn?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1046,12 +1062,19 @@ next_condition: >-
   only after one balanced real-orbit seed R_0 is given; source metric data,
   the physical 4|10 split and any globally equivariant charge-only map cannot
   derive that seed. Carry R_0 explicitly as Variancer's conditional reverse-
-  scaffold datum, not as action-owned truth or 49 new continuous fields. Next
-  project the source-owned dressed B(epsilon) by R_0 into h_bal+p_bal and
-  perform the actual boundary Hamiltonian/collar split. Selection advances
-  only if the normal h_bal component has zero self-Hessian and the exact mixed
-  coupling -<J_R,a_t> in the released action. A full-algebra or physical-split
-  Gauss law is the wrong object. Do not repeat finite BFV, multiplier or orbit
+  scaffold datum, not as action-owned truth or 49 new continuous fields. K101
+  closes that conditional projection: h_bal has dimension 42, p_bal has
+  dimension 49, the first transforms as an H_bal connection, and the second
+  homogeneously. It also corrects the variational test. Zero coordinate self-
+  Hessian is not necessary for a normal connection multiplier; use the
+  normal-velocity Legendre kernel and derive the canonical Gauss coupling.
+  The source-owned non-null collar, projected Legendre map and bulk-flux-to-
+  endpoint-J_R bridge remain TYPE-MISSING. Next derive those objects from I1B
+  without importing a one-time standard gauge model. The h_bal Gauss covector
+  must include the p-sector current [phi,pi], then match J_R,H_bal
+  coefficientwise and select its zero level over the charged horn. A full-
+  algebra or physical-split Gauss law is the wrong object. Do not repeat
+  finite BFV, multiplier or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal
   reduction to physical selection, or infer quantization, particle content or
   phenomenology. A stationary nonhomogeneous curvature selector remains an

@@ -178,10 +178,17 @@ B(epsilon)=epsilon^(-1) B epsilon + epsilon^(-1)d epsilon.
 ```
 
 Project it by `R_0` into `h_bal+p_bal`, then perform the actual boundary
-Hamiltonian/collar decomposition. The next test is whether its normal
-`h_bal` component occurs in the released action with zero self-Hessian and
-the exact mixed coupling `-<J_R,a_t>`. Geometry alone is no longer the gate;
-the variational role is.
+Hamiltonian/collar decomposition. Geometry alone is no longer the gate; the
+variational role is.
+
+> **Successor correction (K101).** A zero coordinate self-Hessian in the
+> covariant action is not a necessary multiplier test. A normal connection
+> component can have nonzero coordinate Hessian yet no normal velocity and
+> become linear after the Legendre transform. The corrected gate is an exact
+> normal-velocity Legendre kernel, followed by the canonical Gauss coupling
+> and its preboundary identification with `J_R,H_bal`. K101 proves the
+> conditional `42+49` projection but finds the source-owned collar, Legendre
+> map and endpoint bridge type-missing.
 
 No ledger, datum booking, quotient booking, canon claim, public posture,
 W/mirror choice, chirality or generation count changes.

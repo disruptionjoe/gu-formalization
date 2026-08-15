@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "projected_dressed_connection_hamiltonian_type_gate",
+  "created": "2026-08-15",
+  "status": "BALANCED_DRESSED_CONNECTION_SPLIT_EXACT__ZERO_SELF_HESSIAN_TEST_WITHDRAWN__SOURCE_OWNED_HAMILTONIAN_MULTIPLIER_TYPE_MISSING",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "CONDITIONAL_BALANCED_R0__SOURCE_DRESSED_B_EPSILON__RELEASED_I1B_I2B_RECORD__FORMAL_EPSILON_PREBOUNDARY_PARENT",
+  "target_claim": {
+    "id": "K100_NEXT_GATE__PROJECTED_NORMAL_H_BAL_COMPONENT_IS_RELEASED_ACTION_MULTIPLIER",
+    "verdict": "TYPE_MISSING_AT_SOURCE_HAMILTONIAN_GRADE"
+  },
+  "conditional_projection": {
+    "involution": "theta_X=R0_X_R0",
+    "h_projector": "P_h_X=(X+theta_X)/2",
+    "p_projector": "P_p_X=(X-theta_X)/2",
+    "h_dimension": 42,
+    "p_dimension": 49,
+    "bracket_parity": ["HH_TO_H", "HP_TO_P", "PP_TO_H"],
+    "right_h_law_h": "a_prime=Ad_h_inverse_a+h_inverse_dh",
+    "right_h_law_p": "phi_prime=Ad_h_inverse_phi",
+    "new_continuous_fields": 0,
+    "external_inputs_retained": ["BALANCED_R0", "RIGHT_H_BAL_GAUGE_DECLARATION"]
+  },
+  "diagnostic_correction": {
+    "withdrawn_criterion": "ZERO_COORDINATE_SELF_HESSIAN_OF_NORMAL_CONNECTION_COMPONENT",
+    "reason": "A_NORMAL_CAN_HAVE_NONZERO_COORDINATE_HESSIAN_IN_A_COVARIANT_LAGRANGIAN_WHILE_NO_DOT_A_NORMAL_EXISTS_AND_THE_LEGENDRE_TRANSFORM_IS_LINEAR_IN_A_NORMAL",
+    "correct_criterion": "NORMAL_VELOCITY_LEGENDRE_KERNEL_THEN_EXPLICIT_CANONICAL_GAUSS_COUPLING",
+    "pointwise_connection_hessian_decides_normal_multiplier": false
+  },
+  "source_hamiltonian_inventory": {
+    "dependent_B_epsilon": "SOURCE_OWNED",
+    "I1B_I2B_and_variations": "SOURCE_OWNED",
+    "preferred_one_time_or_non_null_collar": "TYPE_MISSING",
+    "projected_canonical_momenta": "TYPE_MISSING",
+    "full_projected_legendre_map": "TYPE_MISSING",
+    "minus_pair_a_normal_G_h_term": "TYPE_MISSING",
+    "G_h_to_endpoint_J_R_H_bal_bridge": "TYPE_MISSING",
+    "boundary_zero_level_selection": "OPEN_CHARGED_VERSUS_GAUGE_HORN"
+  },
+  "conditional_gauss_template": {
+    "A_split": "A_i=a_i+phi_i",
+    "E_split": "E_i=e_i+pi_i",
+    "G_h": "partial_i_e_i+[a_i,e_i]+[phi_i,pi_i]",
+    "G_p": "partial_i_pi_i+[a_i,pi_i]+[phi_i,e_i]",
+    "mandatory_h_matter_current": "[phi_i,pi_i]",
+    "identical_to_endpoint_J_R_H_bal": "NOT_ESTABLISHED"
+  },
+  "source_return": "SOURCE_CONFIRMS_COVARIANT_ACTION_GRAMMAR_AND_ONE_TIME_VERSUS_ULTRAHYPERBOLIC_DISTINCTION__SOURCE_SILENT_BALANCED_PROJECTION_COLLAR_LEGENDRE_MAP_AND_PROJECTED_GAUSS_ENDPOINT_BRIDGE",
+  "claim_ceiling": {
+    "balanced_connection_geometry": "EXACT_CONDITIONAL",
+    "source_action_multiplier_ownership": "TYPE_MISSING",
+    "analytic_domain": "OPEN",
+    "physical_boundary_selection": "OPEN",
+    "unreleased_action_term": "OPEN"
+  },
+  "disposition": {
+    "next_gate": "DERIVE_SOURCE_COMPATIBLE_NON_NULL_COLLAR_AND_LEGENDRE_MAP__TEST_NORMAL_VELOCITY_KERNEL__DERIVE_FULL_H_BAL_GAUSS_COUPLING_WITH_P_CURRENT__BRIDGE_BOUNDARY_FLUX_TO_J_R_H_BAL__RESOLVE_CHARGED_VERSUS_GAUGE_HORN",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "balanced_seed": "lab/process/selected-k100-rsap-balanced-order-parameter-owner-census.json",
+    "minimal_multiplier": "lab/process/selected-k99-rsap-balanced-multiplier-owner-exhaustion.json",
+    "epsilon_parent": "lab/process/selected-k77-source-epsilon-cotangent-parent.json",
+    "source_action": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+    "ultrahyperbolic_source_return": "lab/sources/selected-k77-unreduced-hyperbolic-domain-gate-source-return-2026-08-11.md"
+  },
+  "artifact": "explorations/conditional-build/selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k101_rsap_projected_dressed_connection_hamiltonian_type_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate-review.md"
+}

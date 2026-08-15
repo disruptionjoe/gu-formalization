@@ -145,6 +145,12 @@ zero-Hessian algebraic multiplier. They do not settle a not-yet-constructed
 Hamiltonian collar split, so this result does not claim that no component of a
 future canonical decomposition could serve as `a_t`.
 
+> **Successor correction (K101).** Nonzero coordinate self-Hessian is not a
+> negative test for a normal connection multiplier. The canonical test is
+> absence of normal velocity (a Legendre-kernel statement), followed by the
+> explicit linear Gauss coupling after transformation. K101 leaves that
+> source-owned collar and Legendre construction type-missing.
+
 ## Hostile boundary and claim ceiling
 
 - The completion proves mathematical gauge invariance, the Euler constraint

@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K101 CONDITIONAL CONNECTION SPLIT CLOSED; HAMILTONIAN OWNER IS
+> TYPE-MISSING.** Given balanced `R_0`, conjugation defines exact projectors
+> `so(7,7)=h_bal+p_bal` of dimensions `42+49`. The dressed connection's `h`
+> part transforms as an `H_bal` connection and its `p` part homogeneously.
+> The projected Gauss expression necessarily contains the matter-like current
+> `[phi,pi]`. The prior `zero self-Hessian` gate is withdrawn: nonzero
+> coordinate Hessian does not preclude a normal component from having no
+> normal velocity and becoming linear after a Legendre transform. **Next
+> derive a source-compatible non-null collar and Legendre map for `I1B`, test
+> the normal-velocity kernel, derive the full projected Gauss coupling, bridge
+> its boundary flux coefficientwise to `J_R,H_bal`, and resolve the charged-
+> boundary versus zero-level gauge horn.** The released source currently owns
+> none of that Hamiltonian layer. Exact probe `27/27`.
+
 > **2026-08-15 BALANCED ORDER-PARAMETER CENSUS CLOSED; ONE CONDITIONAL REAL-
 > ORBIT SEED REMAINS.** Given balanced `R_0`, the existing epsilon produces
 > `R_epsilon=epsilon R_0 epsilon^-1` with exact tangent rank 49 and kernel
