@@ -15,9 +15,8 @@ canon_verdict_change: none
 
 K87's real-Cartan obstruction is not universal. A balanced symmetric subgroup
 gives a smooth `98D` cotangent horn that contains zero and exact submersive
-representatives of all ten real regular-semisimple Cartan spectral classes of
-`so(7,7)`, including the action-owned non-loxodromic `(split 5, compact 2)`
-class.
+Cartan subalgebras from all ten real Cartan conjugacy classes of `so(7,7)`,
+including the action-owned non-loxodromic `(split 5, compact 2)` class.
 
 Let
 
@@ -82,13 +81,19 @@ split rank = H+L,
 compact rank = 2E+L.
 ```
 
-The ten triples `(H,E,L)` with `E+L <= 3` are the ten spectral classes. The
+The ten triples `(H,E,L)` with `E+L <= 3` are the ten real Cartan conjugacy
+classes, not ten adjoint conjugacy classes of individual regular elements. The
 seven split/compact-rank pairs alone are not a complete classification:
 `(5,2)`, `(4,3)`, and `(3,4)` occur with more than one loxodromic count.
 This is the `O(p,q)` maximal-real-torus block classification specialized to
 `p=q=7`; the indecomposable definite, hyperbolic, and neutral `C*` blocks and
 conjugacy-by-block-parameters are given in Propositions 2.1--2.4 of
 [Dokovic--Thang 1994](https://doi.org/10.4153/CJM-1994-039-5).
+Proposition 2.4 also closes the connected-group seam: an `O(p,q)` torus class
+can split in `SO(p,q)` only in the all-loxodromic `p=q` even exception, while
+`p=q=7` is odd; `SO`- and `SO^0`-classes coincide. The surjective central cover
+`Spin_0(7,7) -> SO_0(7,7)` therefore leaves the same ten adjoint Cartan
+classes.
 
 ### Four non-loxodromic classes
 
@@ -111,7 +116,7 @@ moment-map rank `91` for every row.
 For the selected `(5,2)` control, weights `(3,1,2,5,4,8,16)` give compact
 parameters `3i,5i` and split parameters `1,2,4,8,16`, exactly matching the
 K87 excluded spectral type. The whole corresponding Cartan lies in `p`, so
-the construction contains a conjugate of every regular element of that type,
+the construction contains a conjugate of every regular element of that class,
 not only the printed witness.
 
 ### Six loxodromic classes
@@ -140,7 +145,12 @@ by `1,4,16`, plus distinct pure-block weights, give the remaining six classes:
 Exact row reduction again gives ambient adjoint rank `84`, trivial
 `h`-centralizer, `p`-kernel dimension `7`, and moment-map rank `91` in every
 class. Together with the four non-loxodromic rows, this exhausts the ten
-orthogonal spectral decompositions compatible with signature `(7,7)`.
+real Cartan conjugacy classes compatible with signature `(7,7)`. In every
+row, centralizer dimension `7`, zero `h`-centralizer and `p`-kernel dimension
+`7` put the entire centralizer Cartan—not merely the printed spectrum—inside
+`p`. Consequently every regular-semisimple element is conjugate into one of
+these `p`-Cartans, while the continuum of individual adjoint orbits remains a
+continuum.
 
 ## Layer 0 and ownership
 

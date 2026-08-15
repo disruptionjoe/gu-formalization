@@ -47,9 +47,10 @@ the ledger probe uses the standard Python interpreter.
   bracket and Killing-orthogonal decomposition, and certifies the canonical
   `98D` cotangent horn has map rank `49` at zero. Four non-loxodromic
   matchings and six controls with up to three loxodromic four-planes realize
-  all ten regular semisimple Cartan spectral classes with map rank `91`;
+  all ten real Cartan conjugacy classes and the complete regular-semisimple
+  locus with map rank `91`;
   mutation controls preserve the singular/nonsemisimple orbit-census ceiling.
-  It passes `102/102` with Python 3.
+  It passes `104/104` with Python 3.
 
 - `selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py` constructs
   the split `D7` maximal-unipotent cotangent horn exactly. It checks Lie

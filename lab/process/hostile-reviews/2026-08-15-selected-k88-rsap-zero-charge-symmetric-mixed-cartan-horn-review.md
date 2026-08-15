@@ -20,8 +20,8 @@ would miss the finite kernel. The exact basis verifies `[h,h]`, `[h,p]`, and
 
 Dimension arithmetic is not the positive result. K87's nilradical has the
 same `42/49/98` counts but misses every mixed/elliptic regular Cartan. The
-balanced complement contains exact regular witnesses in all ten orthogonal
-Cartan spectral classes and has trivial `h`-centralizer intersection at each.
+balanced complement contains exact regular witnesses in all ten real Cartan
+conjugacy classes and has trivial `h`-centralizer intersection at each.
 
 ## Four-type or seven-signature exhaustion attack
 
@@ -33,11 +33,22 @@ two `(4,3)` classes. The hardened certificate constructs all ten admissible
 `(H,E,L)` triples satisfying `H+2E+2L=7`, including controls with two and three
 disjoint loxodromic blocks.
 
+## Connected-group or individual-spectrum splitting attack
+
+Đoković--Thang Table V classifies the ten maximal-real-torus block types, and
+Proposition 2.4 says the only `O(p,q)` class that splits in `SO(p,q)` requires
+even `p=q` and an all-loxodromic torus. Here `p=q=7` is odd; `SO`- and
+`SO^0`-classes coincide, and the central `Spin_0 -> SO_0` cover adds no adjoint
+class. These are ten Cartan conjugacy classes, not ten individual adjoint
+orbits. Each exact witness has its whole seven-dimensional centralizer Cartan
+inside `p`, which is the fact that licenses complete regular-semisimple
+coverage.
+
 ## One planted `(5,2)` matrix attack
 
 The construction contains the entire representative non-loxodromic `(5,2)`
 Cartan subalgebra selected by the action-owned endpoint. Conjugacy within that
-spectral class then places a conjugate of every regular charge in the class in
+Cartan class then places a conjugate of every regular charge in the class in
 the image. A separate two-loxodromic `(5,2)` control covers the other class.
 Exact distinct weights verify centralizer dimension seven and map rank `91`.
 
@@ -53,7 +64,7 @@ to a signed-Young-diagram and mixed-Jordan census, not an RSAP.
 The `(7,0)|(0,7)` complement supports split blocks only. The
 `(2,5)|(5,2)` complement supports at most four compact blocks and therefore
 misses type `(1,6)`. These controls show why the balanced `(3,4)|(4,3)` split,
-not rank arithmetic alone, supplies all ten spectral classes.
+not rank arithmetic alone, supplies all ten Cartan conjugacy classes.
 
 ## Wrong-sign and repeated-weight controls
 

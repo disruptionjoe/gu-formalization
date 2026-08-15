@@ -313,13 +313,13 @@ for name, split_rank, compact_rank, loxodromic_blocks, permutation in lox_rows:
     })
 
 derived_registry_rows.sort(key=lambda row: (row["compact_rank"], row["loxodromic_blocks"]))
-admissible_spectral_triples = sorted(
+admissible_cartan_triples = sorted(
     (7 - 2 * elliptic_pairs - 2 * loxodromic_blocks, elliptic_pairs, loxodromic_blocks)
     for elliptic_pairs in range(4)
     for loxodromic_blocks in range(4)
     if 7 - 2 * elliptic_pairs - 2 * loxodromic_blocks > 0
 )
-derived_spectral_triples = sorted(
+derived_cartan_triples = sorted(
     (
         row["split_rank"] - row["loxodromic_blocks"],
         (row["compact_rank"] - row["loxodromic_blocks"]) // 2,
@@ -327,9 +327,11 @@ derived_spectral_triples = sorted(
     )
     for row in derived_registry_rows
 )
-check("classification", "H+2E+2L=7 exhausts exactly ten orthogonal spectral classes",
-      len(admissible_spectral_triples) == 10
-      and derived_spectral_triples == admissible_spectral_triples)
+check("classification", "H+2E+2L=7 exhausts exactly ten real Cartan block types",
+      len(admissible_cartan_triples) == 10
+      and derived_cartan_triples == admissible_cartan_triples)
+check("classification", "the odd (7,7) case avoids the O-to-SO all-loxodromic split",
+      7 == 7 and 7 % 2 == 1)
 
 
 print("\nF. CONTRARY AND MUTATION CONTROLS")
@@ -364,6 +366,15 @@ check("schema", "the registry records the 98D carrier and zero rank 49",
       and registry["construction"]["zero_charge_map_rank"] == 49)
 check("schema", "all ten derived Cartan classes equal the registry rows",
       registry["regular_cartan_coverage"]["cartan_types"] == derived_registry_rows)
+classification = registry["regular_cartan_coverage"]["classification"]
+check("schema", "the registry distinguishes Cartan classes and closes connected-group splitting",
+      classification["class_count"] == 10
+      and classification["block_equation"] == "H+2E+2L=7"
+      and "NOT_INDIVIDUAL_ADJOINT_ORBITS" in classification["object"]
+      and "p=q=7_IS_ODD" in classification["o_to_so_split"]
+      and classification["so_to_so0_split"].startswith("NO__")
+      and "CENTRAL_KERNEL" in classification["spin_cover_effect"]
+      and "10.4153/CJM-1994-039-5" in classification["primary_reference"])
 check("schema", "the carrier uses the connected Spin block stabilizer, including its finite kernel",
       "H_bal" in registry["symmetric_pair"]["stabilizer_group"]
       and "diagonal_Z2" in registry["symmetric_pair"]["spin_cover_description"]

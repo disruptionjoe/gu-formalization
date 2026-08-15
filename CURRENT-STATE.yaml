@@ -658,7 +658,9 @@ current_result:
     Therefore T*(G/H_bal) is a smooth 98-dimensional Hamiltonian carrier with
     map rank 49 at zero. Four non-loxodromic matchings and six controls with
     one, two or three loxodromic four-planes exhaust all ten real Cartan
-    spectral classes compatible with signature (7,7). In every row the
+    conjugacy classes compatible with signature (7,7). The odd p=q=7 case
+    has no O-to-SO class split, SO and SO0 classes coincide, and the central
+    Spin_0-to-SO_0 cover adds none. In every row the
     ambient adjoint rank is 84, h meets the seven-dimensional centralizer
     trivially, and the cotangent moment map has rank 91. Thus the selected
     non-loxodromic (5,2) charge and the complete regular-semisimple locus pass;

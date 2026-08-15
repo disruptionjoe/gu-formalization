@@ -10,10 +10,10 @@ the map: which directory/group supports which claim.
   builds the exact balanced symmetric decomposition
   `so(7,7)=(so(3,4)+so(4,3))+p`, proves `dim(p)=49` and `h^perp=p`, and
   certifies the `98D` cotangent horn has rank `49` at zero. Four pure-match
-  controls and six one/two/three-loxodromic controls cover all ten regular
-  semisimple real Cartan spectral classes, including the selected
-  non-loxodromic `(5,2)` class, at map rank `91`; singular/nonsemisimple
-  coverage remains open. It passes `102/102`.
+  controls and six one/two/three-loxodromic controls cover all ten real Cartan
+  conjugacy classes and the complete regular-semisimple locus, including the
+  selected non-loxodromic `(5,2)` class, at map rank `91`;
+  singular/nonsemisimple coverage remains open. It passes `104/104`.
 
 - `channel-swings/selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py`
   builds the exact `91D` split-`D7` matrix algebra, its `42D` positive-root

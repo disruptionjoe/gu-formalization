@@ -13,14 +13,14 @@ updated_at: "2026-08-15"
 > `91=42+49`, with `h^perp=p`, so `T*(G/H_bal)` is a smooth `98D` Hamiltonian
 > carrier whose moment map has rank `49` at zero. Four non-loxodromic
 > matchings plus six controls with one, two or three loxodromic four-planes
-> exhaust all ten real regular Cartan spectral classes compatible with
+> exhaust all ten real Cartan conjugacy classes compatible with
 > signature `(7,7)`; each has adjoint rank `84`, trivial `h`-centralizer and
 > map rank `91`. The selected non-loxodromic `(5,2)` gate therefore
 > constructs, and K87's spectral kill is specific to the unipotent horn.
 > **Next classify nilpotent and mixed-Jordan orbits by the balanced
 > anticommuting-involution predicate.** One missed orbit kills this horn's
 > zero-neighborhood claim; singular coverage, surjectivity, RSAP, source
-> selection and global gluing remain open. Exact probe `102/102`.
+> selection and global gluing remain open. Exact probe `104/104`.
 
 > **2026-08-15 `98D` ZERO-CHARGE MAXIMAL-UNIPOTENT HORN.** For
 > `G=Spin_0(7,7)`, the maximal split unipotent `N` has dimension `42`, so
