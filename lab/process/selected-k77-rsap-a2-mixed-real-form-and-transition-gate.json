@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_transverse_construction_and_transition_type_gate",
+  "created": "2026-08-15",
+  "status": "ALL_THREE_REAL_A2_PRINCIPAL_FACTORS_CONSTRUCTED__ADJACENT_TRANSITION_COMMON_REFINEMENT_TYPE_MISSING__GLOBAL_RSAP_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "mixed_model": {
+    "lie_algebra": "su(2,1)",
+    "principal_isotropy": "so(2,1)",
+    "carrier": "T*(SU(2,1)/SO(2,1))",
+    "symmetric_decomposition": "su(2,1)=so(2,1) direct_sum i Sym_0(2,1;R)",
+    "annihilator": "i times trace-free real Lorentz-self-adjoint 3x3 matrices",
+    "source_dimension": 10,
+    "surjectivity": "PSEUDO_HERMITIAN_CANONICAL_FORMS_ADMIT_REAL_LORENTZ_SELF_ADJOINT_REPRESENTATIVES_FOR_EVERY_REAL_JORDAN_AND_NONREAL_CONJUGATE_PAIR_TYPE",
+    "su_reduction": "FOR_X_IN_SU_2_1_THE_OPERATOR_MINUS_I_X_IS_LORENTZ_HERMITIAN_WITH_REAL_CHARACTERISTIC_POLYNOMIAL",
+    "special_unitary_adjustment": "A_PSEUDO_UNITARY_CONJUGATOR_IS_MULTIPLIED_BY_A_CENTRAL_UNIT_SCALAR_TO_SET_DETERMINANT_ONE_WITHOUT_CHANGING_CONJUGATION",
+    "regular_stabilizer_intersection": "ZERO_BECAUSE_A_REAL_SO_2_1_ELEMENT_COMMUTING_WITH_A_REGULAR_REAL_SELF_ADJOINT_REPRESENTATIVE_IS_A_REAL_POLYNOMIAL_IN_IT_AND_IS_BOTH_SELF_AND_SKEW_ADJOINT",
+    "regular_map_rank": 8,
+    "origin_map_rank": 5,
+    "regular_nilpotent_control": "PASS_RANK_8",
+    "nonreal_spectrum_control": "PASS_RANK_8",
+    "verdict": "CONSTRUCTED"
+  },
+  "real_form_census": {
+    "split_sl3R": "CONSTRUCTED",
+    "compact_su3": "CONSTRUCTED",
+    "mixed_su2_1": "CONSTRUCTED",
+    "complete_for_real_forms_of_complex_A2": true
+  },
+  "complete_98d_schedule": {
+    "carrier_dimension": 98,
+    "regular_map_rank": 91,
+    "a2_origin_map_rank": 88,
+    "regular_target_poisson_rank": 84,
+    "a2_origin_target_poisson_rank": 78
+  },
+  "adjacent_transition_gate": {
+    "status": "TYPE_MISSING_COMMON_REFINEMENT_MAP",
+    "rank_one_chart_decomposition": "S_82 times X_4(A1) times T*R^6",
+    "a2_chart_decomposition": "S_78 times X_10(A2) times T*R^5",
+    "rank_one_total_dimension": 98,
+    "a2_total_dimension": 98,
+    "leaf_dimension_transfer": 4,
+    "rank_one_naive_transverse_dimension": 16,
+    "a2_naive_transverse_dimension": 20,
+    "common_refinement_source": "O_4 times X_4(A1) times T*R^6",
+    "common_refinement_target": "X_10(A2) times T*R^5",
+    "common_refinement_dimension": 20,
+    "required_map": "AN_EXPLICIT_SYMPLECTOMORPHISM_ON_THE_COMMON_REGULAR_OVERLAP_INTERTWINING_THE_FULL_A2_PLUS_CENTRE_MOMENT_MAP",
+    "why_direct_potential_comparison_is_invalid": "THE_A1_AND_A2_TAUTOLOGICAL_FACTORS_HAVE_DIFFERENT_DIMENSIONS_AND_FOUR_SYMPLECTIC_DIRECTIONS_MOVE_BETWEEN_LEAF_AND_TRANSVERSE_BLOCKS",
+    "pairwise_potential_cocycle": "NOT_YET_TYPED",
+    "pairwise_moment_cocycle": "NOT_YET_TYPED",
+    "first_noncommuting_triple_cocycle": "DEPENDENCY_BLOCKED_ON_PAIRWISE_COMMON_REFINEMENT"
+  },
+  "scope": {
+    "all_real_a2_principal_factors": "CONSTRUCTED",
+    "adjacent_pair_transition": "TYPE_MISSING",
+    "noncommuting_triple_cocycle": "BLOCKED_ON_PAIR_TRANSITION",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-mixed-real-form-and-transition-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_mixed_real_form_and_transition_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a2-mixed-real-form-and-transition-gate-review.md",
+  "next_gate": "CONSTRUCT_THE_EXPLICIT_20D_COMMON_REFINEMENT_TRANSITION_AND_TEST_FULL_MOMENT_AND_TAUTOLOGICAL_POTENTIAL_EQUALITY"
+}

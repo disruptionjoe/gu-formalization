@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 51ad6860b29620358ec3053d19e203931475f7ad
+revision_basis: d2762e794ba4aa0d769a8ec68fad7de72b1bd66d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -228,10 +228,18 @@ current_result:
     in a self-adjoint representative and therefore cannot meet the skew-adjoint
     isotropy; the map has rank eight even on regular nilpotents, and rank five
     at zero. T*(SU(3)/SO(3)) passes the compact analogue by the unitary
-    spectral theorem. Both give the required 10D A2 factor and exact 98D
-    regular/origin map ranks 91/88. The mixed su(2,1) form, actual adjacent
-    transition cocycles, deeper strata, zero charge and global RSAP remain
-    open.
+    spectral theorem. The mixed principal pair T*(SU(2,1)/SO(2,1)) now passes
+    as well: pseudo-Hermitian canonical forms give real Lorentz-self-adjoint
+    representatives for every real-Jordan and nonreal-pair type, including
+    regular nilpotents, and the same polynomial-centralizer argument gives map
+    rank eight on the complete regular locus and five at zero. All three real
+    A2 principal factors therefore construct and give the required 10D factor
+    with exact 98D regular/origin map ranks 91/88. The first actual adjacent
+    transition is not yet typed. The rank-one chart uses an 82D leaf plus a
+    16D transverse package, while the A2 chart uses a 78D leaf plus a 20D
+    package; four orbit directions move between the blocks. Pairwise potential
+    and moment-map comparison requires an explicit 20D common-refinement
+    symplectomorphism. Deeper strata, zero charge and global RSAP remain open.
     VRS-2 now kills a bulk-only physical quotient for the live nonzero selected
     branch. Free endpoint variation forces zero charge and remains a distinct
     escape, but excludes the fixture. Fixed data leaves momentum unconstrained
@@ -363,9 +371,12 @@ current_result:
     the current-owned-class ceiling. Historical twenty-lens votes remain
     unchanged, but H0 is now first current truth-status while H-Q* survives
     conditionally and is blocked on a new stationary-background owner. VRS-6
-    still cannot instantiate. The independent RSAP split-root wall-normal-form
-    gate has now passed locally; the all-wall cocycle census ranks next.
+    still cannot instantiate. The independent RSAP real-A2 factor census is
+    complete; the explicit 20D adjacent common-refinement transition ranks
+    next.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a2-mixed-real-form-and-transition-gate-2026-08-15.md
+    - lab/process/selected-k77-rsap-a2-mixed-real-form-and-transition-gate.json
     - explorations/conditional-build/selected-k77-rsap-a2-principal-symmetric-pair-2026-08-14.md
     - lab/process/selected-k77-rsap-a2-principal-symmetric-pair.json
     - explorations/conditional-build/selected-k77-rsap-98d-first-wall-slice-obstruction-2026-08-14.md
@@ -503,10 +514,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the mixed su(2,1) A2 sector admit a 10-dimensional Hamiltonian
-  transverse factor with rank eight over every regular value and rank five at
-  zero, and can the passing A2 factors be glued to neighboring rank-one charts
-  with exact potential and moment-map cocycles?
+  Does there exist an explicit 20-dimensional common-refinement
+  symplectomorphism from the neighboring rank-one chart's transferred
+  four-dimensional orbit block, A1 factor and T*R^6 to the A2 principal factor
+  and T*R^5 that intertwines the full moment map and cotangent potential?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -515,15 +526,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Complete the real A2 census at su(2,1). Construct or obstruct a 10D
-  principal symmetric-pair, noncotangent or multicomponent factor against all
-  real semisimple and regular-nilpotent orbit types. If it passes, build the
-  actual transitions from the neighboring A1 charts and prove pairwise
-  equality of cotangent potentials and moment components before testing the
-  first noncommuting triple cocycle. Do not infer a global RSAP from the split
-  and compact A2 factors; deeper strata and the rank-at-most-49 zero-charge
-  gate remain open, with the 182D cotangent parent still the all-charge
-  fallback.
+  Fix one adjacent root embedding and construct the exact 20D common
+  refinement O_4 x X_4(A1) x T*R^6 -> X_10(A2) x T*R^5. Identify the
+  four-dimensional orbit-transfer block, express both maps in one A2 plus
+  R^5 target, and prove the symplectic, full moment-map and tautological-
+  potential pullback identities. Only then test the first noncommuting triple
+  cocycle. Do not infer a global RSAP from the completed real-A2 factor census;
+  deeper strata and the rank-at-most-49 zero-charge gate remain open, with the
+  182D cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

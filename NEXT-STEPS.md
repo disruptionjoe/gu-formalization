@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-14"
+updated_at: "2026-08-15"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-15 RSAP MIXED `A2` FACTOR AND TRANSITION TYPE GATE.** The mixed
+> principal factor `T*(SU(2,1)/SO(2,1))` is onto `su(2,1)*`, has map rank `8`
+> above every regular covector—including regular nilpotents and non-real
+> conjugate-pair types—and rank `5` at zero. This completes the principal-pair
+> census for all three real forms of complex `A2` and composes to the same
+> `98D`, `91/88` schedule. The first actual gluing step exposes a missing type:
+> the rank-one and `A2` charts move four symplectic directions between their
+> `82D/78D` leaf and transverse blocks, so their bare `16D/20D` cotangent
+> potentials cannot be compared. **Next construct the explicit 20D common
+> refinement `O_4 x X_4(A1) x T*R^6 -> X_10(A2) x T*R^5`, then test the full
+> moment map and potential pullback before any noncommuting triple claim.**
+> Exact probe `54/54`; global RSAP, deeper strata and zero charge remain open.
 
 > **2026-08-14 RSAP `A2` PRINCIPAL SYMMETRIC-PAIR CONSTRUCTION.** The
 > regular-nilpotent failure of `T*(SL(3,R)/SL(2,R))` was an isotropy-choice
@@ -15,10 +28,9 @@ updated_at: "2026-08-14"
 > real-Jordan Lorentz symmetrizers prove coverage; self-adjoint polynomial
 > centralizers cannot meet skew-adjoint isotropy on the regular locus. The
 > compact analogue `T*(SU(3)/SO(3))` passes by the unitary spectral theorem.
-> Both compose to the exact `98D` schedule. **Next decide the mixed
-> `su(2,1)` real form, then construct the actual adjacent transition maps and
-> test their pairwise potential/moment cocycle before the first noncommuting
-> triple.** Global RSAP, deeper strata and zero charge remain open.
+> Both compose to the exact `98D` schedule. The 2026-08-15 successor completes
+> the mixed real form and isolates the common-refinement transition as the next
+> exact gate. Global RSAP, deeper strata and zero charge remain open.
 
 > **2026-08-14 RSAP RANK-82 WALL FAMILY AND `A2` COCYCLE GATE.** Both real
 > rank-one first-wall factors construct locally at dimension `98`:

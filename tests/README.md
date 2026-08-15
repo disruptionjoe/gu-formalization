@@ -6,12 +6,22 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_a2_mixed_real_form_and_transition_gate_probe.py`
+  completes the real-`A2` principal-pair census with
+  `T*(SU(2,1)/SO(2,1))`. Exact pseudo-Hermitian canonical-form,
+  regular-nilpotent, non-real-spectrum and stabilizer controls give rank eight
+  over every regular value and rank five at zero. It also proves that the
+  adjacent `A1`/`A2` potential comparison needs a 20D common refinement because
+  four symplectic directions move between leaf and transverse blocks. Pairwise
+  gluing remains type-missing. It passes `54/54` with Python 3.
+
 - `channel-swings/selected_k77_rsap_a2_principal_symmetric_pair_probe.py`
   replaces the failed block-`SL2` adjacent factor by the principal symmetric
   pairs `SL(3,R)/SO(2,1)` and `SU(3)/SO(3)`. Exact real-Jordan,
   regular-nilpotent, compact-spectral and stabilizer controls give rank eight
-  over every regular value and rank five at zero. Mixed `su(2,1)`, adjacent
-  cocycles and global RSAP remain open.
+  over every regular value and rank five at zero. The successor mixed-form
+  probe completes the real-form census; adjacent cocycles and global RSAP
+  remain open.
 
 - `channel-swings/selected_k77_rsap_98d_first_wall_slice_obstruction_probe.py`
   constructs the exact `sl(2,R)^* x R^6_zero` transverse wall model, checks
