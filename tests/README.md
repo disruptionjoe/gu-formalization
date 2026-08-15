@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_vrs5_curvature_vev_reopener_qualification_probe.py`
+  proves that the existing action-owned scalar-jet trace closure is exact but
+  curvature- and branch-disjoint from canonical SR-1C. It checks the nine-plane
+  mismatch, nonproportional supports, `-1397/4` branch exclusion and the
+  root-dependent no-fit control, then ranks the constrained nonparallel graph
+  image/cokernel as SR-1D. It passes `34/34` under Sage.
+
 - `channel-swings/selected_k77_sr1c_fixed_varpi_metric_stationarity_probe.py`
   fuses the moving coefficient packet by exact naturality, distinguishes
   lowerer/observation equation transport from action variation, kills the

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "ACTION_OWNED_SCALAR_JET_TRACE_CLOSURE_CONFIRMED_BUT_DISJOINT_FROM_CANONICAL_SR1C__NONPARALLEL_GRAPH_REOPENER_RANKED_FIRST",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1D-RERANK",
+  "predecessors": [
+    "lab/process/selected-k77-curvature-vev-trace-closure.json",
+    "lab/process/selected-k77-sr1c-fixed-varpi-metric-stationarity.json",
+    "lab/process/selected-k77-zorro-dewitt-trace-curvature-obstruction.json"
+  ],
+  "old_scalar_branch": {
+    "B": "Phi1/208",
+    "T": "-Phi1/104",
+    "r": "1/129792",
+    "total_B_curvature": "(b^2+r)C=C/32448",
+    "canonical_trace_plane_mismatch": "9_OF_9",
+    "status": "HIGH_CONVICTION_DISTINCT_SCALAR_JET_HYPOTHESIS__CANONICAL_REALISATION_OPEN"
+  },
+  "canonical_intersection": {
+    "C_cells": 91,
+    "F_BZ_coefficients": 107,
+    "F_BZ_form_legs": 25,
+    "support_overlap": 25,
+    "overlap_distinct_ratios": 6,
+    "proportional": false,
+    "old_amplitude_in_sr1c_polynomial": "-1397/4",
+    "direct_graft_legal": false
+  },
+  "counterfactual_no_fit": {
+    "old_action_normalization_required": "3/364-t/1872",
+    "endpoint_preserving_required": "3/182-t/936",
+    "root_independent": false,
+    "old_r_cancels_either_sr1c_root": false
+  },
+  "rerank": {
+    "first": "SR-1D_CANONICAL_NONPARALLEL_SOURCE_GRAPH_IMAGE_COKERNEL_GATE",
+    "second": "GENUINELY_DISTINCT_CANONICAL_BRANCH_OR_CONNECTION_JET",
+    "high_conviction_not_current_vote": "SCALAR_CURVATURE_VEV_BRANCH_REQUIRES_DISTINCT_CANONICAL_REALISATION"
+  },
+  "sr1d_scaffold": [
+    "SERIALIZE_ALLOWED_NONPARALLEL_SECOND_JETS",
+    "ASSEMBLE_DIFFERENTIATED_TRANSLATION_AND_BIANCHI_ROWS",
+    "RESTRICT_TO_PRIMITIVE_EPSILON_ZERO",
+    "PROJECT_FIXED_VARPI_GRAPH_ADJOINT_TO_METRIC_TRACE",
+    "COMPUTE_EXACT_IMAGE_OR_LEFT_COKERNEL_ON_BOTH_ROOTS",
+    "RECOMPUTE_ALL_ROWS_AND_PROLONG_ONLY_IF_A_WITNESS_EXISTS"
+  ],
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6_background_premise": "ABSENT",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "BUILD_THE_COMBINED_SECOND_JET_MAP_TO_DIFFERENTIATED_TRANSLATION_BIANCHI_PRIMITIVE_EPSILON_AND_FIXED_VARPI_METRIC_GRAPH__TEST_WHETHER_MINUS_RHO_L1_LIES_IN_ITS_CONSTRAINED_IMAGE_ON_EACH_ROOT",
+  "artifact": "explorations/conditional-build/selected-k77-vrs5-curvature-vev-reopener-qualification-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_vrs5_curvature_vev_reopener_qualification_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-vrs5-curvature-vev-reopener-qualification-review.md"
+}

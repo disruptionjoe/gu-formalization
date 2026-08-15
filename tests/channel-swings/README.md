@@ -41,6 +41,14 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_vrs5_curvature_vev_reopener_qualification_probe.py` composes
+  the exact scalar curvature/VEV closure, canonical Zorro curvature signature
+  and killed SR-1C trace. It proves the old representative has curvature
+  `C/32448`, is branch- and curvature-disjoint from canonical SR-1C, and
+  cannot cancel either root with its solved `r`; it then ranks the constrained
+  nonparallel source-graph image/cokernel as SR-1D. Run with
+  `sage -python <path>`; `34/34` pass.
+
 - `selected_k77_sr1c_fixed_varpi_metric_stationarity_probe.py` composes the
   all-ten naturality packet, the exact parallel `j1p=0` result and the
   fixed-`varpi` Levi-Civita graph. It proves the graph adjoint is zero but the

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1b1ae9a8a0c0cdad065e304aabe3d9d8d688e0e4
+revision_basis: 2d009f5353c639b01868c2eedb52cd1c75a4642f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -272,9 +272,23 @@ current_result:
     second action has zero first variation at printed-residual zero, so it
     cannot cancel the trace. Both compatible parallel extensions are therefore
     killed at total fixed-varpi metric stationarity. Primitive epsilon remains
-    zero on them, but no stationary background is promoted; VRS-5 must rerank
-    the background search before VRS-6 can instantiate.
+    zero on them, but no stationary background is promoted. The VRS-5 rerank
+    now qualifies the strongest already-owned trace sector. The exact scalar-
+    jet closure remains a genuine no-new-field/no-new-coefficient cancellation,
+    but its total B curvature is C/32448 and is nonzero on all nine mixed trace
+    planes where canonical F_BZ is zero. The tensors are not proportional: C
+    has 91 cells, F_BZ has 107 coefficients on 25 form legs and their supports
+    overlap in only 25 cells. Its t=-1/104 amplitude also misses the SR-1C
+    polynomial by -1397/4. Even a generous counterfactual import requires
+    root-dependent r=3/364-t/1872, while the old r=1/129792 cancels neither
+    root. Thus the scalar branch remains high-conviction as a distinct
+    canonical-realization hypothesis but does not reopen SR-1C. The first next
+    swing is SR-1D: compute the constrained image/cokernel of nonparallel
+    second jets into primitive epsilon and the fixed-varpi metric graph before
+    attempting another large solve. VRS-6 still cannot instantiate.
   evidence:
+    - explorations/conditional-build/selected-k77-vrs5-curvature-vev-reopener-qualification-2026-08-14.md
+    - lab/process/selected-k77-vrs5-curvature-vev-reopener-qualification.json
     - explorations/conditional-build/selected-k77-sr1c-fixed-varpi-metric-stationarity-2026-08-14.md
     - lab/process/selected-k77-sr1c-fixed-varpi-metric-stationarity.json
     - explorations/conditional-build/selected-k77-sr1c-compatible-parallel-two-jet-epsilon-2026-08-14.md
@@ -392,10 +406,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  After the compatible parallel nonzero-T two-jet is killed by its exact
-  nonzero total fixed-varpi metric trace, which honest VRS-5 background
-  reopener has the highest expected information gain: a distinct canonical
-  branch/jet or an already action-owned no-fit trace sector?
+  On either exact SR-1C root, does the constrained nonparallel second-jet
+  source graph contain the opposite rank-one fixed-varpi metric trace while
+  differentiated translation, Bianchi and primitive epsilon rows vanish?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -404,13 +417,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In VRS-5, do not prolong the metric-killed compatible parallel two-jet.
-  Rerank the remaining source/action-owned background reopeners. Admit a
-  distinct canonical branch or nonparallel jet only by recomputing translation,
-  primitive epsilon and total metric rows on the same exact carrier. Admit a
-  trace cancellation only if an existing action-owned sector emits the exact
-  opposite rank-one row without a fitted coefficient. Keep VRS-6 conditional
-  until one complete stationary background exists.
+  In SR-1D, serialize the allowed nonparallel second-jet variables and assemble
+  one exact constrained map carrying differentiated translation and Bianchi,
+  primitive epsilon and the fixed-varpi metric graph. Retain the irreducible
+  quadratic algebra through the image test. Decide whether -rho L1 lies in the
+  primitive-epsilon-zero graph image on either root by an exact witness or
+  left-cokernel certificate. Only for a witness, recompute every source row on
+  that same carrier and prolong once. Do not import the old scalar curvature
+  cell as a free value: its canonical curvature orbit is disjoint from F_BZ.
+  Keep VRS-6 conditional until one complete stationary background exists.
   Independently, the RSAP carrier still needs a local 98D wall
   normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula

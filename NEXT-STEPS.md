@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 VRS-5 REOPENER RERANK / SR-1D.** The strongest owned no-fit
+> trace closure is genuine but belongs to a different scalar-jet carrier. Its
+> total `B` curvature is `C/32448`, nonzero on all nine mixed trace planes
+> where canonical `F_BZ` is zero. The tensors are not proportional: scalar
+> `C` has 91 cells, canonical `F_BZ` has 107 coefficients, and only 25 cells
+> overlap. Its `t=-1/104` misses the SR-1C polynomial by `-1397/4`. Even a
+> generous imported-cell control requires root-dependent
+> `r=3/364-t/1872`; the old `r=1/129792` cancels neither root. **Next
+> serialize the constrained nonparallel second-jet map and compute whether its
+> primitive-epsilon-zero fixed-`varpi` graph image contains `-rho L1`; obtain
+> an exact witness or left-cokernel before another large solve.** The scalar
+> branch stays high-conviction as a distinct canonical-realization hypothesis,
+> but receives no vote as a direct SR-1C graft; exact probe `34/34`.
+
 > **2026-08-14 SR-1C TOTAL FIXED-`VARPI` METRIC KILL.** The moving queue now
 > composes as one intrinsic first variation. Exact all-ten naturality fuses
 > Hodge/pairing/Shiab/frame motion; lowerer and observation are postvariation
