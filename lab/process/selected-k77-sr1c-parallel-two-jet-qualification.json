@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "PARALLEL_TWO_JET_SHORTCUT_NOT_YET_CONSTRUCTED__RESTRICTED_COEFFICIENT_DIFFERENTIATION_IS_NOT_J1P",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "operator": "O_SR1C",
+  "branch_polynomial": "28392*t^2+91*t-351",
+  "simple_root_consequence": "DT_AMPLITUDE_ZERO_ONLY",
+  "restricted_momentum": {
+    "support": 14,
+    "coefficient_families": ["+/- (7/2-t)", "+/- (9/2-t)"],
+    "derivative_at_dt_zero": "ZERO",
+    "identifies_full_j1p": false
+  },
+  "unreduced_local_operator": {
+    "symmetric_dt_action_shape": [196, 9555],
+    "symmetric_dt_action_rank": 195,
+    "d_s_E_B": "2A",
+    "d_s_E_T": "A",
+    "d_s_p": "A_NONZERO"
+  },
+  "parallel_ansatz": {
+    "status": "ADMISSIBLE_CANDIDATE__UNPROVED",
+    "zero_assignment_is_construction": false,
+    "required_checks": [
+      "DIFFERENTIATED_196_ACTION_ROWS",
+      "DIFFERENTIATED_5096_BIANCHI_ROWS",
+      "RICCI_SPENCER_HOLONOMICITY",
+      "LOCAL_E_B_MINUS_E_T_DIFFERENTIATION",
+      "FORMAL_ADJOINT_CONTRACTION"
+    ]
+  },
+  "branch_status": "BOTH_NOT_YET_FALSIFIED",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "moving_metric_graph": "OPEN",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "CONSTRUCT_SECOND_JET_VARIABLES_AND_DIFFERENTIATED_ACTION_BIANCHI_RICCI_SPENCER_ROWS__THEN_DERIVE_J1P_FROM_THE_UNREDUCED_LOCAL_EULER_OPERATOR",
+  "artifact": "explorations/conditional-build/selected-k77-sr1c-parallel-two-jet-qualification-gate-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1c_parallel_two_jet_qualification_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1c-parallel-two-jet-qualification-review.md"
+}

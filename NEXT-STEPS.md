@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1C PARALLEL-TWO-JET QUALIFICATION.** Simple-root rigidity
+> forces only `dt=0`; it does not construct the spatial first jet of the local
+> Euler momentum. Differentiating the already-restricted fourteen coefficients
+> gives zero, but the unreduced formula retains the rank-195 symmetric-`DT`
+> map with exact differential `d_s(E_B-E_T)=A`. Thus assigning `j1p=0` is an
+> admissible parallel ansatz, not yet a proof. **Next serialize actual second-
+> jet variables; pass differentiated `196` action and `5,096` Bianchi rows,
+> Ricci/Spencer holonomicity, local Euler differentiation and the signed
+> adjoint contraction on both roots.** Neither root is killed; probe `24/24`.
+
 > **2026-08-14 SR-1C BRANCH MOMENTUM ZERO-JET.** The first lower
 > `O_SR1C` bank now serializes. In the common 196-row basis,
 > `p=E_B-E_T` has exactly 14 diagonal cells with coefficients

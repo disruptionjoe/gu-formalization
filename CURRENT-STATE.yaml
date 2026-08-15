@@ -249,11 +249,19 @@ current_result:
     p=E_B-E_T has exactly fourteen diagonal invariant cells in the common
     196-row basis, with coefficients +/- (7/2-t) or +/- (9/2-t), and is nonzero
     on both irreducible roots. The separate moving-Shiab primitive zero-jet
-    return vanishes exactly despite two rank-91 live-image controls. Spatial
-    j1p and the moving Hodge/frame/density/lowerer metric graph remain
-    type-missing. Neither branch is killed and no stationary background is
-    promoted.
+    return vanishes exactly despite two rank-91 live-image controls. A proposed
+    parallel shortcut is now qualified: the simple root forces only dt=0, and
+    differentiating the restricted fourteen coefficients is not the spatial
+    first jet of the unreduced Euler operator. The latter retains the exact
+    rank-195 symmetric-DT map with differential d_s(E_B-E_T)=A. A parallel
+    two-jet therefore remains admissible but unproved until explicit second-
+    jet variables pass differentiated action, Bianchi and Ricci/Spencer rows
+    and reconstruct the signed adjoint. Spatial j1p and the moving Hodge/frame/
+    density/lowerer metric graph remain type-missing. Neither branch is killed
+    and no stationary background is promoted.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1c-parallel-two-jet-qualification-gate-2026-08-14.md
+    - lab/process/selected-k77-sr1c-parallel-two-jet-qualification.json
     - explorations/conditional-build/selected-k77-sr1c-branch-momentum-zero-jet-2026-08-14.md
     - lab/process/selected-k77-sr1c-branch-momentum-zero-jet.json
     - explorations/conditional-build/selected-k77-sr1c-metric-epsilon3-top-block-2026-08-14.md
@@ -365,10 +373,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the spatial first jet of the live fourteen-cell branch momentum cancel
-  in D_B-adjoint p, and can the remaining moving metric returns complete the
-  common-basis O_SR1C bank before a compatible stationary-jet solve supplies
-  the typed total-descent theorem's background premise?
+  Does an explicit compatible nonzero-T second jet force or cancel the spatial
+  first jet of the live fourteen-cell branch momentum in D_B-adjoint p, and can
+  the remaining moving metric returns complete the common-basis O_SR1C bank
+  before a compatible stationary-jet solve supplies the typed total-descent
+  theorem's background premise?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -377,8 +386,10 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In VRS-5, differentiate the exact fourteen-cell p=E_B-E_T zero-jet on the
-  admitted branch first jet and construct D_B-adjoint p. Compose the exact-zero
+  In VRS-5, construct explicit second-jet variables for the nonzero-T branch
+  and pass differentiated action, Bianchi and Ricci/Spencer compatibility.
+  Differentiate the unreduced local E_B-E_T operator rather than its restricted
+  fourteen-cell value and construct D_B-adjoint p. Compose the exact-zero
   moving-Shiab primitive return, then serialize the moving
   Hodge/frame/density/lowerer metric returns on the reduced (3,2,2) envelope.
   Held-out validate both roots before solving compatible jets. Preserve all

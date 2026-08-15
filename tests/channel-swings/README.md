@@ -38,3 +38,13 @@ the ledger probe uses the standard Python interpreter.
   adverse-row finders cannot self-adjudicate, unchanged replay is rejected,
   and the cosmological directive cannot collapse the Einstein tensor,
   stress-energy, constant `Lambda g`, variable olive/`varpi`/VEV and `w(z)`.
+
+# SR-1C branch-operator probes
+
+- `selected_k77_sr1c_parallel_two_jet_qualification_probe.py` proves that
+  simple-root rigidity fixes only the scalar branch amplitude derivative and
+  that differentiating the restricted fourteen-cell momentum is not a
+  construction of `j1p`. The unreduced local Euler formula retains the exact
+  rank-195 symmetric-`DT` response; a parallel ansatz must pass differentiated
+  action/Bianchi and Ricci/Spencer checks before primitive epsilon can close.
+  Run with `sage -python <path>`.
