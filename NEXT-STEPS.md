@@ -7,16 +7,26 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1C BRANCH MOMENTUM ZERO-JET.** The first lower
+> `O_SR1C` bank now serializes. In the common 196-row basis,
+> `p=E_B-E_T` has exactly 14 diagonal cells with coefficients
+> `+/- (7/2-t)` or `+/- (9/2-t)` and is nonzero on both irreducible roots.
+> The moving-Shiab primitive zero-jet return is exactly zero even though both
+> constituent image banks have rank 91; probe `29/29`. **Next differentiate
+> the fourteen-cell momentum on the admitted first jet, construct
+> `D_B^!p`, and then complete the moving Hodge/frame/density/lowerer metric
+> returns.** A live point momentum is not yet an epsilon obstruction.
+
 > **2026-08-14 SR-1C METRIC `EPSILON^3` TOP ZERO.** The remaining top metric
 > cross-block is an exact `10 x 91` zero on timelike, spacelike and null
 > covectors. The metric and epsilon source banks are live (`9` and `91`), as
 > are the rank-6 metric curvature and selected-Shiab images. The two polarized
 > action terms vanish separately: exterior nilpotence kills the epsilon-
 > curvature half and the selected same-grade pairing kills the other. The safe
-> metric envelope is now `(3,2,2)`; probe `29/29`. **Next serialize the lower
-> branch-dependent `j^1(E_B-E_T)` and moving Shiab/Hodge/frame/density/lowerer
-> returns in the common bank, held-out validate both roots, and then solve only
-> the surviving compatible jets.**
+> metric envelope is now `(3,2,2)`; probe `29/29`. **Next serialize the
+> branch-dependent lower bank.** The successor above now supplies the momentum
+> zero-jet and moving-Shiab return; spatial `j^1p` and the other moving metric
+> returns remain.
 
 > **2026-08-14 SR-1C ACTION-OWNED TOP-SYMBOL REDUCTION.** The first actual
 > `O_SR1C` top block now constructs: primitive epsilon has symbol

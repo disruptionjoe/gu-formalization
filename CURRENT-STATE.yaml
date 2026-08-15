@@ -245,9 +245,17 @@ current_result:
     coefficientwise under the selected same-grade pairing despite live rank-6
     metric curvature and Shiab images. The safe metric envelope is therefore
     (3,2,2). Lower branch-dependent j1(E_B-E_T) coefficients and the moving
-    Shiab/Hodge/frame/density/lowerer graph remain type-missing. Neither branch
-    is killed and no stationary background is promoted.
+    graph were still type-missing. The first lower component now serializes:
+    p=E_B-E_T has exactly fourteen diagonal invariant cells in the common
+    196-row basis, with coefficients +/- (7/2-t) or +/- (9/2-t), and is nonzero
+    on both irreducible roots. The separate moving-Shiab primitive zero-jet
+    return vanishes exactly despite two rank-91 live-image controls. Spatial
+    j1p and the moving Hodge/frame/density/lowerer metric graph remain
+    type-missing. Neither branch is killed and no stationary background is
+    promoted.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1c-branch-momentum-zero-jet-2026-08-14.md
+    - lab/process/selected-k77-sr1c-branch-momentum-zero-jet.json
     - explorations/conditional-build/selected-k77-sr1c-metric-epsilon3-top-block-2026-08-14.md
     - lab/process/selected-k77-sr1c-metric-epsilon3-top-block.json
     - explorations/conditional-build/selected-k77-sr1c-top-symbol-reduction-2026-08-14.md
@@ -357,10 +365,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the remaining branch-dependent lower mixed coefficients complete the
-  common-basis O_SR1C bank after the primitive rank-13 top block and metric
-  g4/varpi3/epsilon3 zeros are fixed, before a compatible stationary-jet solve
-  supplies the typed total-descent theorem's background premise?
+  Does the spatial first jet of the live fourteen-cell branch momentum cancel
+  in D_B-adjoint p, and can the remaining moving metric returns complete the
+  common-basis O_SR1C bank before a compatible stationary-jet solve supplies
+  the typed total-descent theorem's background premise?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -369,13 +377,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In VRS-5, serialize every remaining branch-dependent lower mixed coefficient
-  of O_SR1C on the reduced (3,2,2) metric envelope, including the moving
-  Shiab/Hodge/frame/density/lowerer returns. Held-out validate the common
-  196-row bank on both algebraic roots, and only then solve the surviving
-  compatible jets. Preserve the exact primitive rank-13 top block and the
-  metric g4, varpi3 and epsilon3 zero certificates; never zero-fill the missing
-  lower operator.
+  In VRS-5, differentiate the exact fourteen-cell p=E_B-E_T zero-jet on the
+  admitted branch first jet and construct D_B-adjoint p. Compose the exact-zero
+  moving-Shiab primitive return, then serialize the moving
+  Hodge/frame/density/lowerer metric returns on the reduced (3,2,2) envelope.
+  Held-out validate both roots before solving compatible jets. Preserve all
+  top zero certificates and never infer the missing divergence from the live
+  point momentum.
   Independently, the RSAP carrier still needs a local 98D wall
   normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula

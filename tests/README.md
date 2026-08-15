@@ -4343,6 +4343,20 @@ retain ranks `9`, `91`, `6` and `6`. This lowers the safe metric envelope to
 sage -python tests/channel-swings/selected_k77_sr1c_metric_epsilon3_top_block_probe.py
 ```
 
+## K77 SR-1C branch momentum zero-jet
+
+`channel-swings/selected_k77_sr1c_branch_momentum_zero_jet_probe.py`
+reconstructs the independent-`B` Euler covector from the exact antisymmetric
+`DT`, thirteen-cell symmetric correction and nonzero-`T` algebraic action
+term, then reduces all 196 coefficients in the two-root quadratic algebra. It
+finds a live fourteen-cell diagonal `p=E_B-E_T` bank on both roots and proves
+the separately computed moving-Shiab primitive zero-jet return vanishes despite
+rank-91 constituent image banks. Spatial `j^1p` remains open.
+
+```sh
+sage -python tests/channel-swings/selected_k77_sr1c_branch_momentum_zero_jet_probe.py
+```
+
 ## K77 rank-singular all-charge Poisson-map target
 
 `channel-swings/selected_k77_rank_singular_poisson_map_target_probe.py` types
