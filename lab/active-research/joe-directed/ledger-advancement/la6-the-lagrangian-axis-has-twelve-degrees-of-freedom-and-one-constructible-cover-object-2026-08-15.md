@@ -14,9 +14,9 @@ canonical_effect: pending_integration
 canon_verdict_change: none
 priority_change: none
 steering_effect: unchanged
-title: "LA-6: the LAGRANGIAN axis has 12 effective degrees of freedom over 21 rows, and its unique minimum certificate set has size 2 -- {an action-owned stationary background, one absolute scale} -- of which exactly ONE is constructible, because the other is the banked scale no-go. Computed exactly: rank_Q of a 21x13 substring-certified incidence is 12, left-null 9, minimum cover 2 with integrality gap 0 (dual witness LT-GR1 / LT-GR7), 19 distinct dependency signatures with two permanently-coupled pairs. Structural findings the 41 perspective passes do not contain: 17 of 21 rows have NEVER migrated while 4 rows absorbed all 107 migrations with ZERO verdict movement; the mapping_grade field is overwritten rather than appended, so 39 EXACT tokens present in migration history are absent from current row state; LT-GR2a is the axis's only zero-atom row and its own bipartite component; and applying CG-1's GU-YM-Delta1..Delta5 to the LT-SM rows re-types four of them, including an exact pi_3 rank statement (Delta-5 group carries 3 topological angles, the SM carries 2, LT-SM7 books 1)."
-grade: "EXACT integer / fractions.Fraction arithmetic throughout; rank over Q by fraction-free elimination, not numpy; assert_no_float sweeps the entire result dict. 122/122 checks, exit 0, via lab/active-research/joe-directed/ledger-advancement/la6-lagrangian-effective-dof.py. Certificate splits as 112 [E] exact results and 10 [C] controls that must have power. Every one of the 76 incidence entries is backed by an exact substring that must occur in that row's own v0.258 text; a first-pass LT-GR5/H_ABSOLUTE_SCALE assertion was REJECTED by that certificate and is retained as a live control. Conditioning is measured, not assumed: all 273 single-entry flips are swept and 90 percent preserve the minimum-cover result. NOT: a ledger edit, a verdict change, a physics derivation, a coefficient, a selection principle, a claim-status movement, or any statement that a GU object exists."
-disposition: LAGRANGIAN_AXIS_EDOF_12__UNIQUE_MINIMUM_COVER_SIZE_2__ONE_COVER_OBJECT_CONSTRUCTIBLE_ONE_IS_A_BANKED_NO_GO__SEVENTEEN_OF_TWENTYONE_ROWS_NEVER_MIGRATED__ZERO_VERDICT_MOVEMENT_UNDER_107_MIGRATIONS__DELTA_TYPING_RETYPES_FOUR_LT_SM_ROWS
+title: "LA-6: the LAGRANGIAN axis has 12 effective degrees of freedom over 21 rows, and its unique minimum certificate set has size 2 -- {an action-owned stationary background, one absolute scale} -- of which exactly ONE is constructible, because the other is the banked scale no-go. Computed exactly: rank_Q of a 21x13 substring-certified incidence is 12, left-null 9, minimum cover 2 with integrality gap 0 (dual witness LT-GR1 / LT-GR7), 19 distinct dependency signatures with two permanently-coupled pairs. Structural findings the 41 perspective passes do not contain: 17 of 21 rows have NEVER migrated while 4 rows absorbed all 107 migrations with ZERO verdict movement; the mapping_grade field is overwritten rather than appended, so 39 EXACT tokens present in migration history are absent from current row state; LT-GR2a is the axis's only zero-atom row and its own bipartite component; LT-GR7 carries reason_kind REAL_PARAMETER against a SCALE_NO_GO mapping grade while the taxonomy's PROVEN_UNSUPPLYABLE sits unused across all 84 rows; and applying CG-1's GU-YM-Delta1..Delta5 to the LT-SM rows re-types four of them, including an exact pi_3 rank statement (Delta-5 group carries 3 topological angles, the SM carries 2, LT-SM7 books 1)."
+grade: "EXACT integer / fractions.Fraction arithmetic throughout; rank over Q by fraction-free elimination, not numpy; assert_no_float sweeps the entire result dict. 130/130 checks, exit 0, via lab/active-research/joe-directed/ledger-advancement/la6-lagrangian-effective-dof.py. Certificate splits as 120 [E] exact results and 10 [C] controls that must have power. Every one of the 76 incidence entries is backed by an exact substring that must occur in that row's own v0.258 text; a first-pass LT-GR5/H_ABSOLUTE_SCALE assertion was REJECTED by that certificate and is retained as a live control. Conditioning is measured, not assumed: all 273 single-entry flips are swept and 90 percent preserve the minimum-cover result. NOT: a ledger edit, a verdict change, a physics derivation, a coefficient, a selection principle, a claim-status movement, or any statement that a GU object exists."
+disposition: LAGRANGIAN_AXIS_EDOF_12__UNIQUE_MINIMUM_COVER_SIZE_2__ONE_COVER_OBJECT_CONSTRUCTIBLE_ONE_IS_A_BANKED_NO_GO__SEVENTEEN_OF_TWENTYONE_ROWS_NEVER_MIGRATED__ZERO_VERDICT_MOVEMENT_UNDER_107_MIGRATIONS__DELTA_TYPING_RETYPES_FOUR_LT_SM_ROWS__LT_GR7_KIND_CONTRADICTS_ITS_OWN_GRADE
 rows_assessed:
   structural_finding:
     - LT-GR1
@@ -25,6 +25,7 @@ rows_assessed:
     - LT-GR7
     - LT-SM1
   retyping_proposed:
+    - LT-GR7
     - LT-SM1
     - LT-SM2
     - LT-SM5
@@ -529,7 +530,8 @@ So the entire conditioning of the result rests on two facts: **`A` really is in
 almost every row**, and **`LT-GR2a` really is empty**. Both are the most directly
 checkable entries in the whole matrix — `A`'s substrings are the phrases
 "action-owned" / "action theorem" / "source-action" in the rows' own text, and
-`LT-GR2a`'s distance is the four-word string `"none at source-typing grade"`.
+`LT-GR2a`'s distance opens with the literal string `"none at source-typing
+grade"`.
 
 ### 2.8 Optimization duality
 
@@ -584,8 +586,48 @@ gap is the whole problem.** By cardinality the cheapest row on the axis is
 the banked scale no-go. **The cheapest row is the one that is provably
 impossible.** Any ranking by "number of open objects" will select `LT-GR7` first
 and will be wrong; any ranking that excludes proven-impossible atoms will select
-`LT-SM1`. The ranking rule has to carry a constructibility predicate, and no
-ledger field currently does.
+`LT-SM1`. The ranking rule has to carry a constructibility predicate.
+
+**OL-3 — and the ledger has the predicate. It is declared in the taxonomy and
+used zero times.** This is the sharpest mis-typing on the axis and it is
+mechanical:
+
+- `LT-GR7`'s `reason_kind` is **`REAL_PARAMETER`** — which reads "a number is
+  needed" and is indistinguishable from a schedule item.
+- `LT-GR7`'s `mapping_grade` is **`SCALE_NO_GO`** — which reads "no condition of
+  the available class can supply it."
+- `LT-GR7` is the **only** row on the axis whose mapping grade asserts a `NO_GO`,
+  and it has **never migrated**, so it has carried both statements
+  simultaneously since the ledger was created.
+
+The taxonomy declares 22 reason kinds; **6 are used zero times across all 84
+rows**: `PUT_IN`, `ONE_BIT`, `INTEGER_DATUM`, `PROVEN_UNSUPPLYABLE`,
+`PROVEN_UNABLE_BY_CURRENT_ACTION`, `SCOPE_ERROR`. Two of the six —
+`PROVEN_UNSUPPLYABLE` and `PROVEN_UNABLE_BY_CURRENT_ACTION` — exist for exactly
+the situation `LT-GR7` is in, and `v0.2`'s own gloss says so: *"an object proven
+unavailable from current machinery is a no-go on that supply route."* A third
+option is `EXTERNAL_DATUM`, which is declared **and in use** (`AC-F5`, and one
+other), and which is arguably the most accurate: DC-H2 excludes the *internal*
+supply class, so the scale must come from outside — which is a datum, not a
+parameter.
+
+**Scope fence, load-bearing.** `PROVEN_UNSUPPLYABLE` is not an unexercised idea:
+`LT-SM8` carried it at `v0.16`/`v0.17` and it was **deliberately downgraded** to
+`MISSING_CONSTRUCTION` at `v0.18` for a stated reason. So the kind is live and
+its retirement from one row was considered. What is not on the record anywhere is
+whether it — or `EXTERNAL_DATUM` — was ever considered for `LT-GR7`. `LT-GR7`'s
+zero migrations say it was not.
+
+**Why this matters beyond bookkeeping.** `REAL_PARAMETER` and
+`PROVEN_UNSUPPLYABLE` sort differently under every priority rule the program
+uses. As long as the three scale rows carry `REAL_PARAMETER`, a
+cheapest-first ranking will keep surfacing them, and each time a wave attacks one
+it will re-derive DC-H2. That is precisely the 2026-08-04 council's §2.1 failure
+mode — *three artifacts returning three non-selections of one quantity where one
+theorem decided the class* — with the theorem already in hand and the ledger
+unable to express it. **`ONE_BIT` being unused is already on the record**
+(`lt-sm1-horn-surplus-attempt-2026-08-12.md:466`, computed there); the
+`PROVEN_UNSUPPLYABLE` / `LT-GR7` pairing is not.
 
 ### 2.11 Model theory and definability
 
@@ -645,6 +687,37 @@ The operationally sharper number is **2**: the unique minimum cover
 0. And the number that should drive scheduling is **1**: exactly one of those two
 is constructible, because the other is a triply-banked no-go.
 
+### 3.1b Cross-axis convergence, and the scoping it forces
+
+The sibling channel artifacts `LA-4` (REPRESENTATION) and `LA-5`
+(ANOMALY_CONSISTENCY) landed the same session, independently, with the same
+method — a grant/row incidence matrix, exact rank, and (in LA-5's case)
+substring-certified entries. Their results and this one compose:
+
+| axis | rows | rank | headline |
+|---|---:|---:|---|
+| REPRESENTATION | 35 | **13** | vertex cut of size 1 — *the operative second action* reaches 28 of 29 open rows |
+| ANOMALY_CONSISTENCY | 26 | **7** | 11 of 26 rows carry the empty signature |
+| LAGRANGIAN | 21 | **12** | unique 2-cover, one member constructible |
+| **ledger** | **82** | **32** | — |
+
+**The convergence that matters: LA-4's cut vertex and this artifact's `A` are the
+same object.** LA-4 names *"the operative second action"*; this artifact's
+`A_ACTION_OWNED_BACKGROUND` is certified on `LT-SM6` by the exact substring
+`"Derive the operative second action"`. Two agents, two axes, two independently
+declared vocabularies, one object at 28/29 and 18/20 respectively. That is
+stronger evidence than either artifact alone, and neither had access to the
+other's basis.
+
+**And the scoping it forces on §2.2.** LA-4 reports the ledger-wide fact — zero
+verdicts and zero reason kinds changed across 54 version steps and 244
+migrations. **CT-2's 107/0 is a special case of that, not an independent
+finding**, and is re-labelled here as the axis-local decomposition of a
+ledger-wide result. What remains this artifact's own on that thread is the
+*mechanism*: PH-2's measurement that `mapping_grade` is overwritten rather than
+appended, and that 39 `EXACT` tokens are consequently present in migration
+history and absent from current row state.
+
 ### 3.2 Single points of failure
 
 1. **`A` — an action-owned stationary background.** Fan-out 18/20. Removing it
@@ -679,9 +752,14 @@ already terminal.
 | `LT-SM7` | `NEEDS / REAL_PARAMETER`, `T0_OPEN` | books **one** theta coefficient where the declared `Delta5` reduction supplies **three** (§4.4) | the row is a rank-1 booking of a rank-3 sector; needs a count before it needs a value |
 | `LT-SM2` | `NEEDS / REAL_PARAMETER` | conflates a *relative* normalization question that `Delta5` may already answer with an *absolute* scale question that MT-1 says is undefinable (§4.2) | split; the relative half is not a `REAL_PARAMETER` row |
 | `LT-SM5` | `SAME / DERIVED_PARTIAL` | its charged residue presupposes an independent Yukawa sector that `Delta4` says the source disavows (§4.3) | not a re-typing of the verdict; a declared condition on the residue count |
+| `LT-GR7` | `NEEDS / REAL_PARAMETER`, grade `SCALE_NO_GO` | reason_kind and mapping grade assert different things; the taxonomy declares `PROVEN_UNSUPPLYABLE` / `PROVEN_UNABLE_BY_CURRENT_ACTION` (0 uses in 84 rows) and `EXTERNAL_DATUM` (in use) for exactly this case (OL-3) | one of the three; `EXTERNAL_DATUM` is the most defensible because DC-H2 excludes only the internal supply class |
 
 **No `DERIVED_CONDITIONAL -> DERIVED` promotion is proposed for any row.** No
-grant is laundered here; no reason_kind is proposed for upgrade at all.
+grant is laundered here. The single reason_kind change proposed anywhere in this
+artifact is `LT-GR7`'s, and it moves the row **away** from dischargeability, not
+toward it — from "a number is needed" to "no internal condition can supply it."
+That is the opposite of a laundering direction, and it is the only direction this
+artifact proposes.
 
 ### 3.5 Correction to the brief
 
@@ -1058,7 +1136,7 @@ _local/cas-venv/bin/python \
   lab/active-research/joe-directed/ledger-advancement/la6-lagrangian-effective-dof.py
 ```
 
-Expected: `CERTIFICATE: 122/122 checks pass; no load-bearing float (swept).`,
+Expected: `CERTIFICATE: 130/130 checks pass; no load-bearing float (swept).`,
 exit 0. The script reads only
 `lab/process/conditional-physics-ledger-v0.258.json` and
 `lab/process/layer0-fork-registry.yaml` and writes nothing.
