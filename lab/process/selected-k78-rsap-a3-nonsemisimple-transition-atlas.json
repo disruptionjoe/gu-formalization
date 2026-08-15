@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "split_a3_nonsemisimple_singular_jordan_transition_atlas",
+  "created": "2026-08-15",
+  "status": "ALL_FIVE_SPLIT_A3_SINGULAR_NONSEMISIMPLE_FAMILIES_CLASSIFIED__POINTWISE_RANK_BOUNDS_SATURATED__COTANGENT_TRANSITION_NERVE_CLOSED__NO_NEW_LOCAL_MODEL",
+  "layer_0": {
+    "object": "classical symplectic and moment-map singular Jordan transition atlas",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false
+  },
+  "classification": {
+    "method": "real-primary partitions weighted by irreducible-factor degree",
+    "families": [
+      "J3+J1_same",
+      "J2+J2_same",
+      "J2+J1+J1_same",
+      "J2+J1_same_plus_J1_distinct",
+      "J2_plus_repeated_semisimple_pair"
+    ],
+    "family_count": 5,
+    "complex_primary_singular_nonsemisimple_count": 0,
+    "complex_primary_reason": "the only dimension-four nonsemisimple complex-primary cases have one block per real irreducible primary and are regular",
+    "exhaustion": "COMPLETE_FOR_REAL_sl4"
+  },
+  "rank_census": {
+    "J3+J1_same": {
+      "sl4_centralizer_dimension": 5,
+      "moving_centralizer_dimension": 4,
+      "factor_map_rank": 14,
+      "target_poisson_rank": 82,
+      "full_map_rank": 90,
+      "pointwise_bound": 90,
+      "schedule_match": "WALL_RANK_82_90"
+    },
+    "J2+J2_same": {
+      "sl4_centralizer_dimension": 7,
+      "moving_centralizer_dimension": 5,
+      "factor_map_rank": 13,
+      "target_poisson_rank": 80,
+      "full_map_rank": 89,
+      "pointwise_bound": 89,
+      "schedule_match": "A1xA1_RANK_80_89"
+    },
+    "J2+J1+J1_same": {
+      "sl4_centralizer_dimension": 9,
+      "moving_centralizer_dimension": 6,
+      "factor_map_rank": 12,
+      "target_poisson_rank": 78,
+      "full_map_rank": 88,
+      "pointwise_bound": 88,
+      "schedule_match": "A2_RANK_78_88"
+    },
+    "J2+J1_same_plus_J1_distinct": {
+      "sl4_centralizer_dimension": 5,
+      "moving_centralizer_dimension": 4,
+      "factor_map_rank": 14,
+      "target_poisson_rank": 82,
+      "full_map_rank": 90,
+      "pointwise_bound": 90,
+      "schedule_match": "WALL_RANK_82_90"
+    },
+    "J2_plus_repeated_semisimple_pair": {
+      "sl4_centralizer_dimension": 5,
+      "moving_centralizer_dimension": 4,
+      "factor_map_rank": 14,
+      "target_poisson_rank": 82,
+      "full_map_rank": 90,
+      "pointwise_bound": 90,
+      "schedule_match": "WALL_RANK_82_90"
+    }
+  },
+  "transitions": {
+    "carrier": "S72 times T*(SL(4,R)/SO(2,2)) times T*R4",
+    "source_dimension": 98,
+    "regular_approach": "A+tD_IN_mH__GENERICALLY_REGULAR_BY_A_NONZERO_EXACT_MINOR",
+    "normalization": "EXPLICIT_SL4_CONGRUENCES_SEND_ALL_FIVE_SYMMETRIZERS_TO_DIAG(+,-,+,-)",
+    "moving_tangent_transition_dimension": 9,
+    "cotangent_transition": "INVERSE_TRANSPOSE_OF_THE_MOVING_TANGENT_CHANGE",
+    "degeneration_targets": {
+      "J3+J1_same": "A3_ORIGIN",
+      "J2+J2_same": "A3_ORIGIN",
+      "J2+J1+J1_same": "A3_ORIGIN",
+      "J2+J1_same_plus_J1_distinct": "A2_SEMISIMPLE",
+      "J2_plus_repeated_semisimple_pair": "A1xA1_SEMISIMPLE"
+    },
+    "regular_chart_overlap": "GENERIC_REGULAR_PERTURBATIONS_INSIDE_THE_SAME_MOVING_FIBRE",
+    "wall_a1_squared_a2_origin_overlap": "RANK_MATCHED_CONTROLS_INSIDE_THE_SAME_GLOBAL_PRINCIPAL_FACTOR",
+    "every_triangle": "STRICT_IDENTITY_BY_COMMON_NORMALIZATION",
+    "moment_cech_defect": "ZERO_BY_GLOBAL_MOMENT_MAP_EQUIVARIANCE",
+    "primitive_cech_defect": "ZERO_BY_CANONICAL_COTANGENT_LIFTS",
+    "new_degrees_of_freedom": 0
+  },
+  "scope": {
+    "split_a3_nonsemisimple_singular_transition_census": "CLOSED",
+    "genuinely_new_split_a3_local_model": "NOT_REQUIRED",
+    "same_sign_sl2_so2_sheet": "PARTIAL_NOT_RSAP",
+    "other_a3_real_forms": "OPEN",
+    "deeper_so77_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "references": [
+    "https://doi.org/10.2140/pjm.1959.9.893",
+    "https://doi.org/10.4310/jdg/1214437787"
+  ],
+  "artifact": "explorations/conditional-build/selected-k78-rsap-a3-nonsemisimple-transition-atlas-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k78_rsap_a3_nonsemisimple_transition_atlas_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k78-rsap-a3-nonsemisimple-transition-atlas-review.md",
+  "next_gate": "CLASSIFY_OTHER_REAL_A3_PRINCIPAL_FACTORS_AND_TEST_ALL_REGULAR_NONSEMISIMPLE_AND_FIRST_SINGULAR_CONTROLS_BEFORE_DEEPER_AMBIENT_STRATA"
+}

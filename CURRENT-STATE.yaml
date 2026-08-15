@@ -479,8 +479,25 @@ current_result:
     map is onto every real sl4 Jordan type. The first four-chart face/origin
     nerve has zero moment and primitive Cech defects. Remaining split-A3
     nonsemisimple singular transition types, other A3 real forms, deeper
-    ambient strata, zero charge and all-strata RSAP remain open.
+    ambient strata, zero charge and all-strata RSAP remain open. The remaining
+    split-A3 nonsemisimple singular transition census now also closes. Real
+    primary-partition exhaustion leaves exactly five families: three with
+    sl4 centralizer dimension five, one with dimension seven and one with
+    dimension nine; every nonsemisimple complex-primary dimension-four case
+    is regular and adds no sixth family. Exact signature-(2,2) symmetrizers
+    give moving-centralizer dimensions four, five and six, so the full 98D
+    map ranks are respectively 90, 89 and 88 over target Poisson ranks 82,
+    80 and 78. Every row saturates its pointwise RSAP bound. Exact regular
+    approach arcs and nilpotent-scaling paths meet the banked regular,
+    semisimple A1xA1, semisimple A2 and A3-origin schedules inside the same
+    principal factor. Rational SL4 congruences normalize all five moving
+    fibres to the alternating form; their inverse-transpose cotangent changes
+    have zero primitive and moment Cech defects on every admitted overlap.
+    No new split-A3 local model is required. Other A3 real forms, deeper
+    ambient strata, zero charge and global all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k78-rsap-a3-nonsemisimple-transition-atlas-2026-08-15.md
+    - lab/process/selected-k78-rsap-a3-nonsemisimple-transition-atlas.json
     - explorations/conditional-build/selected-k77-rsap-a3-two-wall-census-origin-attachment-2026-08-15.md
     - lab/process/selected-k77-rsap-a3-two-wall-census-origin-attachment.json
     - explorations/conditional-build/selected-k77-rsap-a3-adjacent-a2-two-wall-attachment-2026-08-15.md
@@ -640,9 +657,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do all remaining split-A3 nonsemisimple singular Jordan transitions glue to
-  the now-surjective principal factor with the required rank and primitive
-  cocycles, or does one require a genuinely new local model?
+  Do the four remaining real A3 forms admit 18D principal symmetric-pair
+  factors that cover every regular Jordan type and their first singular
+  centralizer jumps at the required 98D ranks, or does one real form fail
+  surjectivity, regular rank or cotangent transition compatibility?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -651,16 +669,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify the remaining split-A3 nonsemisimple singular Jordan strata and
-  their centralizer/moving-isotropy ranks, using the exact nine-case (2,2)
-  symmetrizer census rather than semisimple eigenline charts. Construct their
-  transitions to the regular, wall, A2 and A3-origin charts and check the
-  complete moment and tautological-primitive Cech cocycles. Treat the naive
-  same-sign SL2/SO2 face only as a partial hyperbolic source sheet, never as a
-  locally surjective wall chart. Do not enter another A3 real form until this
-  split nonsemisimple transition census closes. Deeper ambient strata and the
-  rank-at-most-49 zero-charge gate remain open, with the 182D cotangent parent
-  still the all-charge fallback.
+  Classify the principal dimension-six isotropy candidates for the compact,
+  two pseudo-unitary and quaternionic real forms of A3. For each candidate,
+  test complete real-form Jordan coverage, map rank 15 at every regular value
+  including regular nonsemisimple controls, and the first singular
+  centralizer/moving-isotropy jump before attempting cross-real-form gluing.
+  Reuse the split-A3 principal-factor and exact cotangent-transition method;
+  do not substitute semisimple eigenline evidence for the nonsemisimple tests.
+  Keep the naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary
+  Higgs, family-index and chirality comparators remain irrelevant to this
+  classical moment-map lane and must not be reintroduced. Deeper ambient
+  strata and the rank-at-most-49 zero-charge gate remain open, with the 182D
+  cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

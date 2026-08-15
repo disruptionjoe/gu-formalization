@@ -4635,6 +4635,20 @@ in the first four-chart nerve. It passes `105/105` with Python 3.
 python3 tests/channel-swings/selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py
 ```
 
+## K78 RSAP split-A3 nonsemisimple transition atlas
+
+`channel-swings/selected_k78_rsap_a3_nonsemisimple_transition_atlas_probe.py`
+exhausts all five singular nonsemisimple real `sl4` Jordan families, proves
+that complex-primary cases add none, computes their exact centralizer and
+moving-centralizer rank schedules, constructs regular approaches and lower-
+stratum degenerations, and checks every rational cotangent transition and
+triangle through the common principal factor. It passes `133/133` with
+Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k78_rsap_a3_nonsemisimple_transition_atlas_probe.py
+```
+
 ## K77 RSAP rank-82 wall family and A2 cocycle gate
 
 `channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py`

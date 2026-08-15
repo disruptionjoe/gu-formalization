@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 SPLIT-`A3` NONSEMISIMPLE TRANSITION ATLAS.** Real-primary
+> partition exhaustion leaves exactly five singular nonsemisimple `sl4`
+> families; complex-primary nonsemisimple cases are all regular in real
+> dimension four. Their `(dim Z_sl4, dim Z_m)` pairs are
+> `(5,4),(7,5),(9,6),(5,4),(5,4)`, giving target/map schedules
+> `82/90`, `80/89`, `78/88`, `82/90`, `82/90`. Every row saturates the
+> `98D` pointwise bound. Exact regular approaches, degeneration paths and
+> rational `SL4` congruences place all five in the existing principal factor;
+> all admitted cotangent primitive and moment cocycles close. No new split-
+> `A3` local model is required. **Next classify the four remaining real `A3`
+> principal-factor candidates and test regular nonsemisimple plus first
+> singular controls before cross-form gluing.** Exact probe `133/133`; deeper
+> ambient strata, zero charge and global all-strata RSAP remain open.
+
 > **2026-08-15 SPLIT-`A3` TWO-WALL CENSUS AND ORIGIN ATTACHMENT.** All `15`
 > root pairs reduce to `12` `A2` and three `A1 x A1` target pairs. The naive
 > same-sign `SL2/SO2` face is only a hyperbolic-cone sheet and is not locally

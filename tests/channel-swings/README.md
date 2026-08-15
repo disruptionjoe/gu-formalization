@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k78_rsap_a3_nonsemisimple_transition_atlas_probe.py` exhausts the
+  five singular nonsemisimple real `sl4` Jordan families, excludes additional
+  complex-primary cases, computes every centralizer/moving-centralizer rank,
+  constructs exact regular and degeneration paths, and checks the complete
+  rational cotangent transition nerve. It closes the split-`A3` census with no
+  new local model and passes `133/133` with Python 3.
+
 - `selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py`
   classifies all split-`A3` two-wall root/sign presentations, excludes the
   same-sign `SL2/SO2` sheet as locally non-surjective, proves opposite-sign
