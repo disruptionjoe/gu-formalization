@@ -46,7 +46,10 @@ or kill this frozen native class by substitution.
 Source grades remain separated:
 
 - manuscript-grounded: the full-Dirac `Omega^0(S) + Omega^1(S)` field arena
-  and the four-slot deformation skeleton;
+  and the four-slot deformation skeleton (**[CN-2 S-TYPING: S-FULL-DIRAC]** —
+  already correct here; "full-Dirac" is load-bearing and `S` means both Weyl
+  halves. The *chirality assignment* on the two slots is a separate question
+  this freeze does not fix and does not need to);
 - podcast-level: the generation conclusion, the rolled southeast zero, and
   the cyclic two-connection `D^2` fragment; and
 - repo reconstruction: every proposed BV/BRST completion, physical quotient,

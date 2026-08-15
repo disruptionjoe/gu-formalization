@@ -111,6 +111,18 @@ actors by type. `G` is a group, `N` is its linear translation module, and
 `A(P_H)` is an affine space modeled on `N`. It also visually confirms
 `Omega^1(S)+Omega^0(S)` as Curt's proposed odd carrier.
 
+**[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** The slide writes `S` **unsubscripted**
+while the adjacent row calls the supercharges *"chiral spinor-valued"*. Those
+two statements do not compose into a chirality assignment: "chiral" names a
+grading, not a choice of halves for the two slots. Three inequivalent readings
+remain open at this locus — `S-FULL-DIRAC` (eq (9.16) as declared),
+`S-HALF-OPPOSITE` (`Omega^0(S+) + Omega^1(S-)`, the source's only spoken
+chirality declaration, typed emergent by `SC-CHI-01`), and `S-HALF-SAME`
+(stated by neither primary; `canon/escape-corners-campaign-RESULTS.md` records
+the A2 leg as `REFUTED-AS-FILED` for computing on it). The slide does not pick
+one, so neither does this reconstruction. Add the chirality assignment to the
+list of things the slide does not supply, immediately below.
+
 The slide does **not** supply the action of the even group on the odd carrier,
 the odd-odd bracket, chirality/reality conditions, the derivative cocycle,
 Jacobi identities, or closure into `N`. The final displayed group expression

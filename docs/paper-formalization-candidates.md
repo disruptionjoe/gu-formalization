@@ -564,7 +564,19 @@ Section 12 of the paper contains several claims that are mathematical (not merel
 | Model space ℝ^{1,3} | N = Ω^1(Y, ad) |
 | Core symmetries Spin(1,3) | H = Γ^∞(P_H ×_{Ad} H) |
 | Inhomogeneous Poincaré = Spin(1,3) ⋉ ℝ^{1,3} | G = H ⋉ N |
-| Fermionic extension (spacetime SUSY) | (ψ, φ) ∈ Ω^0(S/) ⊕ Ω^1(S/) |
+| Fermionic extension (spacetime SUSY) | (ψ, φ) ∈ Ω^0(S/) ⊕ Ω^1(S/) **[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** |
+
+**[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** on the fermionic-extension row: `S/` is
+written **unsubscripted** in both slots and this table does not fix which Weyl
+halves they carry. The three readings are inequivalent — `S-FULL-DIRAC` (the
+draft's eq (9.16) declaration, both halves, four fields `ν±`, `ζ±`),
+`S-HALF-OPPOSITE` (`Ω^0(S+) ⊕ Ω^1(S-)`, the source's only explicit spoken
+chirality declaration, typed *emergent* by `SC-CHI-01`), and `S-HALF-SAME`
+(`Ω^0(S+) ⊕ Ω^1(S+)`, stated by **neither** primary and recorded
+`REFUTED-AS-FILED` in `canon/escape-corners-campaign-RESULTS.md`). A reader who
+takes the repeated unsubscripted symbol to mean the same half twice lands on the
+last of those. Row 2B ("field content") therefore has an open chirality
+sub-question that this table does not answer and does not need to.
 
 The key claim: the natural setting for GU's dynamics is the affine space of connections A (with G as its symmetry group), not Minkowski space. This reframes the physical problem from "field theory on M^{1,3}" to "gauge theory on A."
 

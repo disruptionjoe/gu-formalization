@@ -157,7 +157,7 @@ wording itself matters; the table otherwise paraphrases.
 
 | id | timestamp | conservative claim | status and repo confrontation |
 | --- | --- | --- | --- |
-| WG-F01 | O `02:27:xx`; L `02:28:46` | The fermion carrier is `Omega^0(Y,S) direct-sum Omega^1(Y,S)`. | `AUTHOR-STATED`, manuscript-grounded. |
+| WG-F01 | O `02:27:xx`; L `02:28:46` | The fermion carrier is `Omega^0(Y,S) direct-sum Omega^1(Y,S)`. | `AUTHOR-STATED`, manuscript-grounded. **[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** `S` is unsubscripted at this locus and the row does not fix which Weyl halves the two slots carry; do not read it as one half used twice (`S-HALF-SAME`, stated by neither primary and `REFUTED-AS-FILED` in `canon/escape-corners-campaign-RESULTS.md`). The draft's eq (9.16) declaration is `S-FULL-DIRAC`; the source's only spoken chirality declaration is the opposite-half `Omega^0(S+) + Omega^1(S-)` (`[00:32:46]`), which `SC-CHI-01` types as emergent. Fork unresolved here. |
 | WG-F02 | O `02:28:35`; L `02:30:11` | The zero-form spinor sector is labeled the first generation. | `AUTHOR-STATED`, explicitly tentative. Label, not count theorem. |
 | WG-F03 | O `02:29:12`; L `02:30:41` | Clifford contraction/gamma trace of the one-form spinor sector is labeled the second generation. | `AUTHOR-STATED`; the map matches the repo's pointwise `Gamma`. |
 | WG-F04 | O `02:30:04`; L `02:31:23` | The kernel/gamma-traceless sector is labeled the third generation. | `AUTHOR-STATED`; this is a summand label. It does not make the kernel's 384/1152/128 blocks into three generations. |

@@ -2457,6 +2457,11 @@ open; Wave 3 and P1/P2/P3 remain closed. Next gate:
   from homogeneous distortion `T=A-B`. The user-supplied Step 13 still adds an explicit
   `Omega^1(S)+Omega^0(S)` odd-carrier directive without claiming the missing
   bracket, Jacobi identity, or super-extension.
+  **[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** — nor the chirality assignment: `S`
+  is unsubscripted in that directive, and `S-FULL-DIRAC` / `S-HALF-OPPOSITE` /
+  `S-HALF-SAME` are three inequivalent readings of it. The last is stated by
+  neither primary and is `REFUTED-AS-FILED` in
+  `canon/escape-corners-campaign-RESULTS.md`.
 
 - [`eric-source-directed-native-closure-swing-2026-07-31.md`](eric-source-directed-native-closure-swing-2026-07-31.md)
   closes the ten Weinstein-directed physics routes through five shared

@@ -46,6 +46,22 @@ nu, bar-nu     in Omega^0(Y,S)
 zeta, bar-zeta in Omega^1(Y,S).
 ```
 
+**[CN-2 S-TYPING: S-FULL-DIRAC]** The block above is a verbatim transcription
+and must not be edited (four probes string-match it). The typing note is
+additive: **`S` is UNSUBSCRIPTED at this locus, and that is a fact about the
+draft, not an omission by this extraction.** `S` here is the full Dirac bundle
+of `Y^14` — 128 complex dimensions, both `Spin(7,7)` Weyl halves — which is why
+the very next display prints `nu±` and `zeta±` as *four* distinct fields rather
+than two. Anyone quoting these two lines downstream must not silently read `S`
+as one Weyl half used twice: that reading is `S-HALF-SAME`, it is stated by
+neither primary, and `canon/escape-corners-campaign-RESULTS.md` already records
+the A2 leg as `REFUTED-AS-FILED` for computing on it. The source's only explicit
+spoken chirality declaration is the OPPOSITE-half pairing `Omega^0(S+) +
+Omega^1(S-)` (`papers/drafts/Transcript into the impossible.md:107`), which
+draft eq (11.6)/`SC-CHI-01` type as *emergent*, not as this declaration. This
+note fixes what `S` is at eq (9.16); it does **not** decide which reading is
+operative in the built theory.
+
 The displayed bilinear has row order
 
 ```text

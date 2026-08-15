@@ -25,7 +25,11 @@ The closure uses five shared objects:
 2. one stationary native orbit, its stabilizer, and one reduced bosonic
    Hessian;
 3. one minimal Krein-paired odd action on
-   `Omega^0(Y,S) + Omega^1(Y,S)` and its action-derived current;
+   `Omega^0(Y,S) + Omega^1(Y,S)` and its action-derived current
+   (**[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** — `S` unsubscripted; which Weyl
+   halves the two slots carry is not fixed here and the route does not choose,
+   but the same-half reading `S-HALF-SAME` is stated by neither primary and is
+   `REFUTED-AS-FILED` in `canon/escape-corners-campaign-RESULTS.md`);
 4. one Frobenius-fibre trace-reversed metric readout; and
 5. one action-derived preboundary quotient, positive majorant, and eventual
    observed-time Hamiltonian split.

@@ -197,7 +197,9 @@ he has **"never released to anyone"** (`claim-mining-toe-weinstein-2026-07-20.md
 §3, verdict UNRELEASED-CLAIM: "Nothing verifiable exists"). The existing primary
 sources (draft Sec 9.3 / eqs 9.16, 9.18-9.19 / diagram 10.10; TOE transcript
 02:41-02:45) have already been mined and yield only the *arena* (full-Dirac
-`Omega^0(S)+Omega^1(S)`), the *degree skeleton* (`0->1->13->14`), and a
+`Omega^0(S)+Omega^1(S)` — **[CN-2 S-TYPING: S-FULL-DIRAC]**, already correct
+here: "full-Dirac" is doing the disambiguating work and `S` means both Weyl
+halves, not one half used twice), the *degree skeleton* (`0->1->13->14`), and a
 southeast-zero `2x2` roll — not a complete differential class. So the blocker is
 **not** incomplete mining; it is material that does not exist publicly. Reopen
 requires **new released material** ("a released formula matching the

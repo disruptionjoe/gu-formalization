@@ -32,6 +32,33 @@ content. `canon/gu-forces-field-space-declaration-RESULTS.md` establishes SG4,
 the source action's field-space declaration, as the open decider, so none of
 these is a falsification of GU.
 
+**[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** "Candidate-2B field content" is the
+repository's shorthand for the draft's eq (9.16) declaration `nu, bar-nu in
+Omega^0(Y,S)` and `zeta, bar-zeta in Omega^1(Y,S)`. **The spinor bundle `S` is
+UNSUBSCRIPTED there, and this shorthand does not fix which Weyl halves the two
+slots carry.** Three readings are live and they are not equivalent:
+
+- **`S-FULL-DIRAC`** — `S` is the full 128-complex Dirac bundle, both halves.
+  This is what eq (9.16) literally declares (the draft prints `nu±`, `zeta±` as
+  four distinct fields) and what draft §12.9 ("Chirality Is Merely Effective and
+  Results From Decoupling a Fundamentally Non-Chiral Theory") asserts of the
+  total theory.
+- **`S-HALF-OPPOSITE`** — the two slots carry OPPOSITE halves,
+  `Omega^0(S+) + Omega^1(S-)`. This is the source's only explicit spoken
+  chirality declaration (`papers/drafts/Transcript into the impossible.md:107`,
+  transcript `[00:32:46]`) and, per draft eq (11.6)/`SC-CHI-01`, an *emergent*
+  half rather than the declaration.
+- **`S-HALF-SAME`** — the two slots carry the SAME half,
+  `Omega^0(S+) + Omega^1(S+)`. **This reading is stated by NEITHER primary and
+  is already refuted in canon**: `canon/escape-corners-campaign-RESULTS.md`
+  records the A2 leg as `REFUTED-AS-FILED` for computing on exactly it.
+
+Reading the unsubscripted shorthand naively — as the same half twice — silently
+selects `S-HALF-SAME`. Any downstream argument that turns on the chirality
+assignment must name which of the three it uses; **this tree does not resolve
+the fork**, and `SC-CHI-01`'s VEV condition (equivalently SG4 bit 2) is where
+the source puts the selector.
+
 Two further ceilings recur and should be read with every file:
 
 - **SRC-1** established that the source explicitly disavows a Higgs ("there's

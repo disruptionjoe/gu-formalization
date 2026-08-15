@@ -140,6 +140,12 @@ Leading carrier disposition: `SOURCE-CONFIRMS`.
 
 - The complete TOE ledger's `WG-F01` records
   `Omega^0(Y,S) direct-sum Omega^1(Y,S)` as the fermion carrier.
+  **[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]** `S` is unsubscripted; this line does
+  not fix which Weyl halves the two slots carry, and nothing below depends on
+  fixing them. The same-half reading `S-HALF-SAME` is stated by neither primary
+  (`canon/escape-corners-campaign-RESULTS.md`, A2 `REFUTED-AS-FILED`); eq (9.16)
+  declares `S-FULL-DIRAC`; the spoken declaration is the opposite-half
+  `Omega^0(S+) + Omega^1(S-)`. Fork unresolved here.
 - The TOE transcript at `02:28:46--02:31:53` explicitly separates the
   zero-form spinor, Clifford-contracted one-form spinor, and kernel pieces.
 - `WG-X01--WG-X04` and the TOE transcript at `02:38:12--02:42:55` describe a

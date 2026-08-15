@@ -47,6 +47,16 @@ The source supplies independent `Omega^0(S)` and `Omega^1(S)` fields. The
 repository constructs their principal spatial action. Their composition is a
 repository derivation, not an attribution to Weinstein.
 
+**[CN-2 S-TYPING: S-FULL-DIRAC]** `S` is unsubscripted in the source and this
+file reads it as the **full** Dirac bundle, not one Weyl half. That is not a
+convention: the probe's `spin = 128` and the `128 zero-form directions` of the
+`640 = 512 + 128` split are the full complex Dirac dimension of `Cl(7,7)`. Under
+a Weyl-half reading the seed would be `64`-dimensional and the reported module
+would not be this one, so the arithmetic here **depends** on `S-FULL-DIRAC` and
+is stated to depend on it. This fixes the dimension only; it decides nothing
+about whether the built theory's operative content is the total declaration or
+one of its two class-homogeneous halves.
+
 ## Why the eight-word closure is complete
 
 The three spatial evolution matrices square to the identity and pairwise

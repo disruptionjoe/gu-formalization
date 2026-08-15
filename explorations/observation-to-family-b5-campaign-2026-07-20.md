@@ -188,7 +188,14 @@ solution. Four gates remain:
 1. prove a nonzero native real-form projection into
    \(\mathfrak{sp}(32,32;\mathbb H)\);
 2. justify why field content \(\Omega^0(S)\oplus\Omega^1(S)\) is the odd
-   parameter/charge module;
+   parameter/charge module — and, **[CN-2 S-TYPING: S-CHIRALITY-UNTYPED]**,
+   say which reading of the unsubscripted `S` the justification uses, since
+   the three are inequivalent: `S-FULL-DIRAC` (eq (9.16) as literally
+   declared), `S-HALF-OPPOSITE` (`Omega^0(S+) + Omega^1(S-)`, the source's
+   only spoken chirality declaration, typed emergent by `SC-CHI-01`), and
+   `S-HALF-SAME` (stated by neither primary, `REFUTED-AS-FILED` in
+   `canon/escape-corners-campaign-RESULTS.md`). This gate is unresolved and
+   this note does not resolve it;
 3. define its action on the full rolled/BV field complex and prove the master
    or Ward identities; and
 4. connect the full-symplectic bracket to the Clifford/RS reduction without
