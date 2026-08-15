@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "regular_minimal_symplectic_realization_transition",
+  "created": "2026-08-15",
+  "status": "ADJACENT_A1_A2_REGULAR_GERM_CONSTRUCTED__FIRST_NONCOMMUTING_TRIPLE_GERM_COCYCLE_STRICT__GLOBAL_TRANSITION_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "common_target": {
+    "poisson_model": "sl(3)^*_regular times R^5_zero",
+    "dimension": 13,
+    "poisson_rank": 6,
+    "corank": 7,
+    "local_coordinates": "(q1,q2,q3,p1,p2,p3,c1,...,c7)",
+    "casimirs": ["two local sl3 invariants", "five central coordinates"]
+  },
+  "universal_minimal_realization": {
+    "dimension": 20,
+    "coordinates": "(q1,q2,q3,p1,p2,p3,c1,...,c7,t1,...,t7)",
+    "symplectic_form": "sum_i dqi wedge dpi plus sum_a dca wedge dta",
+    "primitive": "sum_i pi dqi plus sum_a ta dca",
+    "moment_map": "projection forgetting t1,...,t7",
+    "map_rank": 13,
+    "minimality_identity": "dim_source=dim_target+corank_target=20"
+  },
+  "rank_one_refinement": {
+    "decomposition": "O4 times X4(A1) times T*R1 times T*R5",
+    "orbit_transfer_block": "O4=(q1,p1,q2,p2)",
+    "rank_one_block": "X4(A1)=(q3,p3,c1,t1)",
+    "promoted_invariant_block": "T*R1=(c2,t2)",
+    "old_centre_block": "T*R5=(c3,t3,...,c7,t7)",
+    "dimension": 20
+  },
+  "a2_refinement": {
+    "decomposition": "X10(A2) times T*R5",
+    "principal_block": "X10(A2)=(q1,q2,q3,p1,p2,p3,c1,c2,t1,t2)",
+    "centre_block": "T*R5=(c3,t3,...,c7,t7)",
+    "dimension": 20
+  },
+  "pair_transition": {
+    "map": "Phi=kappa_A2^{-1} composed with kappa_A1",
+    "normal_form_coordinate_certificate": "EXPLICIT_20_BY_20_PERMUTATION_REGROUPING_THE_SAME_CANONICAL_PAIRS",
+    "symplectic_form_pullback": "STRICT_EQUALITY",
+    "moment_map_intertwining": "STRICT_EQUALITY_TO_COMPLETE_13D_TARGET",
+    "primitive_pullback": "STRICT_EQUALITY_IN_THE_FROZEN_NORMALIZATION",
+    "allowed_section_change": "t maps to t+A c for symmetric A, changing the primitive by d(half c^T A c)",
+    "grade": "REGULAR_CONTRACTIBLE_GERM"
+  },
+  "first_noncommuting_triple": {
+    "construction": "three root-adapted normalizations through one universal minimal realization",
+    "pair_maps_commute": false,
+    "triple_composition": "STRICT_IDENTITY_BY_TELESCOPING",
+    "moment_cech_defect": "ZERO_AT_GERM_GRADE",
+    "primitive_cech_defect": "ZERO_AT_GERM_GRADE"
+  },
+  "scope": {
+    "adjacent_pair_regular_germ": "CONSTRUCTED",
+    "first_noncommuting_triple_regular_germ": "CONSTRUCTED",
+    "canonical_global_algebraic_transition": "OPEN",
+    "monodromy_and_section_gluing": "OPEN",
+    "singular_extension": "OPEN",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-common-refinement-germ-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_common_refinement_germ_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a2-common-refinement-germ-review.md",
+  "next_gate": "GLOBALIZE_ONE_ADJACENT_PAIR_TRANSITION_ACROSS_ITS_FULL_REGULAR_OVERLAP_AND_TEST_MONODROMY_BEFORE_SINGULAR_EXTENSION"
+}

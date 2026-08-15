@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d2762e794ba4aa0d769a8ec68fad7de72b1bd66d
+revision_basis: cd39514f2c95c09205f40317df6b7f8f8d9e840c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -234,12 +234,20 @@ current_result:
     regular nilpotents, and the same polynomial-centralizer argument gives map
     rank eight on the complete regular locus and five at zero. All three real
     A2 principal factors therefore construct and give the required 10D factor
-    with exact 98D regular/origin map ranks 91/88. The first actual adjacent
-    transition is not yet typed. The rank-one chart uses an 82D leaf plus a
-    16D transverse package, while the A2 chart uses a 78D leaf plus a 20D
-    package; four orbit directions move between the blocks. Pairwise potential
-    and moment-map comparison requires an explicit 20D common-refinement
-    symplectomorphism. Deeper strata, zero charge and global RSAP remain open.
+    with exact 98D regular/origin map ranks 91/88. The adjacent transition now
+    constructs on every contractible regular germ. Relative to the common 78D
+    leaf, the transferred O4 is exactly two Darboux leaf pairs, the rank-one
+    factor supplies the third leaf pair and one invariant pair, and T*R1
+    supplies the second A2 invariant pair. Both the rank-one refinement and
+    X10(A2) x T*R5 are therefore the same universal minimal 20D realization
+    of the rank-6, corank-7 target sl3* x R5_zero. The explicit normal-form
+    permutation is symplectic, intertwines all 13 moment components and
+    preserves the primitive; symmetric section changes add only an exact
+    quadratic Casimir differential. Three root-adapted normalizations give
+    noncommuting pair maps whose ordered triple product is exactly the
+    identity, so the first noncommuting moment and primitive Cech defects
+    vanish at germ grade. A global algebraic transition, monodromy, singular
+    extension, deeper strata, zero charge and global RSAP remain open.
     VRS-2 now kills a bulk-only physical quotient for the live nonzero selected
     branch. Free endpoint variation forces zero charge and remains a distinct
     escape, but excludes the fixture. Fixed data leaves momentum unconstrained
@@ -375,6 +383,8 @@ current_result:
     complete; the explicit 20D adjacent common-refinement transition ranks
     next.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a2-common-refinement-germ-2026-08-15.md
+    - lab/process/selected-k77-rsap-a2-common-refinement-germ.json
     - explorations/conditional-build/selected-k77-rsap-a2-mixed-real-form-and-transition-gate-2026-08-15.md
     - lab/process/selected-k77-rsap-a2-mixed-real-form-and-transition-gate.json
     - explorations/conditional-build/selected-k77-rsap-a2-principal-symmetric-pair-2026-08-14.md
@@ -514,10 +524,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does there exist an explicit 20-dimensional common-refinement
-  symplectomorphism from the neighboring rank-one chart's transferred
-  four-dimensional orbit block, A1 factor and T*R^6 to the A2 principal factor
-  and T*R^5 that intertwines the full moment map and cotangent potential?
+  Can the now-constructed adjacent A1/A2 regular-germ transition be globalized
+  across one complete connected regular overlap with explicit homogeneous
+  cotangent sections and zero primitive monodromy?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -526,14 +535,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Fix one adjacent root embedding and construct the exact 20D common
-  refinement O_4 x X_4(A1) x T*R^6 -> X_10(A2) x T*R^5. Identify the
-  four-dimensional orbit-transfer block, express both maps in one A2 plus
-  R^5 target, and prove the symplectic, full moment-map and tautological-
-  potential pullback identities. Only then test the first noncommuting triple
-  cocycle. Do not infer a global RSAP from the completed real-A2 factor census;
-  deeper strata and the rank-at-most-49 zero-charge gate remain open, with the
-  182D cotangent parent still the all-charge fallback.
+  Globalize one adjacent pair transition across its full connected regular
+  overlap. Choose explicit group/cotangent sections for one real A2 form,
+  compute their transition functions around the discriminant, and decide
+  whether the exact primitive gauges have zero monodromy. Do not infer a
+  global RSAP from the passing contractible germs or first noncommuting germ
+  cocycle; singular extension, deeper strata and the rank-at-most-49
+  zero-charge gate remain open, with the 182D cotangent parent still the
+  all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

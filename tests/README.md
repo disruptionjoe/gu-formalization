@@ -6,14 +6,24 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_a2_common_refinement_germ_probe.py`
+  constructs the universal 20D regular minimal realization of
+  `sl(3)^* x R5_zero`, identifies the transferred `O4`, and gives an explicit
+  symplectic permutation between the rank-one and principal-`A2`
+  decompositions. It verifies all 13 moment components, strict primitive
+  equality, exact section gauges, and a strict first noncommuting triple germ
+  cocycle. Globalization, monodromy and singular extension remain open. It
+  passes `44/44` with Python 3.
+
 - `channel-swings/selected_k77_rsap_a2_mixed_real_form_and_transition_gate_probe.py`
   completes the real-`A2` principal-pair census with
   `T*(SU(2,1)/SO(2,1))`. Exact pseudo-Hermitian canonical-form,
   regular-nilpotent, non-real-spectrum and stabilizer controls give rank eight
   over every regular value and rank five at zero. It also proves that the
   adjacent `A1`/`A2` potential comparison needs a 20D common refinement because
-  four symplectic directions move between leaf and transverse blocks. Pairwise
-  gluing remains type-missing. It passes `54/54` with Python 3.
+  four symplectic directions move between leaf and transverse blocks. The
+  successor constructs that refinement at regular-germ grade. It passes
+  `54/54` with Python 3.
 
 - `channel-swings/selected_k77_rsap_a2_principal_symmetric_pair_probe.py`
   replaces the failed block-`SL2` adjacent factor by the principal symmetric

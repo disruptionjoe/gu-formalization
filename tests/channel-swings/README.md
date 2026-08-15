@@ -41,6 +41,14 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_a2_common_refinement_germ_probe.py` identifies the
+  transferred `O4` as two regular-leaf canonical pairs, constructs the common
+  universal 20D realization, and certifies an explicit rank-one/`A2`
+  symplectic permutation with full 13-component moment and primitive
+  compatibility. It also closes the first noncommuting triple at germ grade
+  while preserving globalization and singular extension as open. It passes
+  `44/44` with Python 3.
+
 - `selected_k77_rsap_a2_mixed_real_form_and_transition_gate_probe.py` verifies
   the mixed factor `T*(SU(2,1)/SO(2,1))` across the complete pseudo-Hermitian
   canonical-form census, including regular nilpotent and non-real-spectrum

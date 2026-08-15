@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 RSAP ADJACENT-`A2` COMMON-REFINEMENT GERM.** The missing 20D
+> pair transition now constructs on every contractible regular overlap. The
+> transferred `O4` is exactly two Darboux leaf pairs; together with
+> `X4(A1)`, one promoted `T*R1` invariant pair and the unchanged `T*R5`, it
+> is the same universal minimal realization as `X10(A2) x T*R5`. An explicit
+> normal-form permutation preserves the symplectic form, all 13 moment
+> components and the primitive; section changes add an exact quadratic
+> Casimir differential. Three root-adapted maps are genuinely noncommuting but
+> their ordered triple product is identity, so the first noncommuting Cech
+> defect vanishes at germ grade. **Next globalize one adjacent pair over its
+> full connected regular overlap and test primitive monodromy before singular
+> extension.** Exact probe `44/44`; global RSAP, deeper strata and zero charge
+> remain open.
+
 > **2026-08-15 RSAP MIXED `A2` FACTOR AND TRANSITION TYPE GATE.** The mixed
 > principal factor `T*(SU(2,1)/SO(2,1))` is onto `su(2,1)*`, has map rank `8`
 > above every regular covector—including regular nilpotents and non-real
