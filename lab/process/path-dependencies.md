@@ -129,6 +129,8 @@ graph TD
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t4
   PD_STRUCTURE_TRANSPORT_t5("TRAP 2026-08-15")
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t5
+  PD_STRUCTURE_TRANSPORT_t6("TRAP 2026-08-15")
+  PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t6
   PD_I2B_ACTION_OWNER["PD-I2B-ACTION-OWNER"]
   PD_I2B_ACTION_OWNER_s0["AUTHOR-STATED: The source prints Upsilon_print=S(F_A)+*kappa T and separately gives E_act=..."]
   PD_I2B_ACTION_OWNER --> PD_I2B_ACTION_OWNER_s0
@@ -348,6 +350,9 @@ graph TD
 - **2026-08-15** — A full so(7,7) connection or the source physical K77 split was at risk of being treated as the owner of the reverse-constructed balanced constraint. The source (1,3)+(6,4) stabilizer has dimension 51 and gives an 80D formal cotangent reduction; the balanced (3,4)+(4,3) stabilizer has dimension 42 and gives 98D. The balanced projector, boundary gauge declaration and multiplier are separate owners.
   - *Cost:* Would silently project an existing connection with an unowned involution, impose the wrong Gauss law, and report physical selection from a mathematically successful reverse scaffold.
   - *Receipt:* `explorations/conditional-build/selected-k99-rsap-balanced-multiplier-owner-exhaustion-2026-08-15.md`
+- **2026-08-15** — The action-owned epsilon field was at risk of being treated as the owner of the balanced order parameter. It transports any selected seed by R_epsilon=epsilon R0 epsilon^-1 with the correct 49D orbit, but an equivariant map on the free torsor is determined by its unowned value R0 at the identity. Homogeneous metric data has only 4+1+9 Lorentz blocks and charge-only equivariance fails at zero.
+  - *Cost:* Would hide a discrete real-orbit/domain assumption inside an action-owned field and turn conditional reverse scaffolding into a false source derivation.
+  - *Receipt:* `explorations/conditional-build/selected-k100-rsap-balanced-order-parameter-owner-census-2026-08-15.md`
 
 **Invalidates if:** A receipt constructs an explicit intertwiner proving the two concrete structures equivalent for the operator and variational problem at hand.
 

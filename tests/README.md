@@ -4836,3 +4836,15 @@ owner census and claim ceiling. It passes `27/27` with Python 3.
 ```sh
 python3 tests/channel-swings/selected_k99_rsap_balanced_multiplier_owner_exhaustion_probe.py
 ```
+
+## K100 balanced RSAP order-parameter owner census
+
+`channel-swings/selected_k100_rsap_balanced_order_parameter_owner_census_probe.py`
+enumerates all eight real `7|7` involution types, verifies the 49D epsilon-
+dressed orbit, proves the scalar full-G commutant obstruction at zero charge,
+and computes the exact `4+1+9` Lorentz commutant on the source physical
+carrier. It passes `29/29` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k100_rsap_balanced_order_parameter_owner_census_probe.py
+```

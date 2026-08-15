@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f0545ae7b0713bcedefc1bbc30eb0867596e52dd
+revision_basis: e73d570edd8f57f1de92f1632c92e8bd410715b4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -801,7 +801,24 @@ current_result:
     is a current-serialized-action exhaustion, not universal nonexistence: an
     unreleased term, an action-owned moving balanced order parameter or a
     complete Hamiltonian collar decomposition remains open.
+    The balanced order-parameter owner is now classified exactly. Given one
+    balanced real-orbit seed R_0, the existing epsilon constructs
+    R_epsilon=epsilon R_0 epsilon^-1 with tangent rank 49 and kernel h_bal of
+    dimension 42, so it supplies all moving G/H_bal coordinates without a new
+    continuous field. It does not derive R_0 or declare its stabilizer gauge.
+    The source-native homogeneous metric/observation representation has exact
+    Lorentz commutant blocks 4+1+9; its equivariant involution eigenspaces have
+    dimensions only 0,1,4,5,9,10,13,14, never seven. Dressing the physical
+    4|10 split preserves the wrong multiplicities. A global adjoint-
+    equivariant charge-only construction also fails at lambda=0 because the
+    full so(7,7) vector commutant is scalar. All eight real signature types of
+    trace-zero 7|7 involutions share the same trace-polynomial spectrum, so
+    the balanced (3,4)|(4,3) type is a discrete real-orbit/domain choice, not
+    a trace-polynomial consequence. Nonhomogeneous curvature and unreleased
+    action routes remain open.
   evidence:
+    - explorations/conditional-build/selected-k100-rsap-balanced-order-parameter-owner-census-2026-08-15.md
+    - lab/process/selected-k100-rsap-balanced-order-parameter-owner-census.json
     - explorations/conditional-build/selected-k99-rsap-balanced-multiplier-owner-exhaustion-2026-08-15.md
     - lab/process/selected-k99-rsap-balanced-multiplier-owner-exhaustion.json
     - explorations/conditional-build/selected-k98-rsap-balanced-bfv-selection-classifier-2026-08-15.md
@@ -1005,10 +1022,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the selected action construct a balanced involution or moving order
-  parameter with eigenspace signatures (3,4)|(4,3), and can a subsequent
-  boundary Hamiltonian/collar decomposition make an existing normal
-  connection component the independent h_bal multiplier for J_R,H_bal=0?
+  Conditional on the now-minimal balanced real-orbit seed R_0, does projecting
+  the source-owned dressed connection B(epsilon) into h_bal+p_bal and carrying
+  out the actual boundary Hamiltonian/collar decomposition make its normal
+  h_bal component the multiplier for J_R,H_bal=0 in the released action?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1024,18 +1041,23 @@ next_condition: >-
   master charge closes. The exact minimal missing term is now known:
   L_min=<lambda,g^-1 dot(g)-a_t>, with a_t in h_bal, has the required local
   gauge invariance, Euler constraint and rank-42 mixed block. It is not in the
-  current serialized action. The earlier reverse scaffold also supplied the
-  balanced projector without an action owner: the source physical split has
-  stabilizer dimension 51 and formal reduced dimension 80, not the balanced
-  values 42 and 98. Reopen selection only by constructing both layers: first
-  an action-owned balanced involution/order parameter with signatures
-  (3,4)|(4,3), then an exact Hamiltonian/collar split whose existing normal
-  connection component couples as -<J_R,a_t>. A full-algebra or physical-
-  split Gauss law is the wrong object. Do not repeat the finite BFV or
-  multiplier algebra, relabel a dynamical connection as a multiplier, promote
-  formal reduction to physical selection, or infer quantization, particle
-  content or phenomenology. Only after both owner layers pass should work
-  enter analytic BFV domain and positivity. The
+  current serialized action. K100 closes the primitive zero-order balanced-
+  owner census. The existing epsilon supplies the complete 49D moving orbit
+  only after one balanced real-orbit seed R_0 is given; source metric data,
+  the physical 4|10 split and any globally equivariant charge-only map cannot
+  derive that seed. Carry R_0 explicitly as Variancer's conditional reverse-
+  scaffold datum, not as action-owned truth or 49 new continuous fields. Next
+  project the source-owned dressed B(epsilon) by R_0 into h_bal+p_bal and
+  perform the actual boundary Hamiltonian/collar split. Selection advances
+  only if the normal h_bal component has zero self-Hessian and the exact mixed
+  coupling -<J_R,a_t> in the released action. A full-algebra or physical-split
+  Gauss law is the wrong object. Do not repeat finite BFV, multiplier or orbit
+  algebra, relabel a dynamical connection as a multiplier, promote formal
+  reduction to physical selection, or infer quantization, particle content or
+  phenomenology. A stationary nonhomogeneous curvature selector remains an
+  open action-owned rival and must pass without a fitted spectral cut. Only
+  after the variational multiplier layer passes should work enter analytic
+  BFV domain and positivity. The
   one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
   target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
   constructed. Reopen an ambient successor only with an explicit source/action-

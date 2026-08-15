@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 BALANCED ORDER-PARAMETER CENSUS CLOSED; ONE CONDITIONAL REAL-
+> ORBIT SEED REMAINS.** Given balanced `R_0`, the existing epsilon produces
+> `R_epsilon=epsilon R_0 epsilon^-1` with exact tangent rank 49 and kernel
+> `h_bal` of dimension 42. Thus no new 49-component continuous field is needed.
+> Epsilon does not choose `R_0`. The homogeneous source-metric carrier has
+> Lorentz blocks `4+1+9`, so no equivariant seven-plane exists; dressing the
+> physical `4|10` split preserves its wrong multiplicities; and a global
+> charge-only map is obstructed at zero charge by the scalar full-G
+> commutant. All eight real `7|7` signature types share the same trace
+> spectrum. **Carry one balanced real-orbit seed explicitly as the reverse
+> conditional, project the dressed source connection, and test its actual
+> normal Hamiltonian component for the multiplier variational role.** Exact
+> probe `29/29`.
+
 > **2026-08-15 MINIMAL BALANCED MULTIPLIER CONSTRUCTED; CURRENT OWNER CENSUS
 > EMPTY.** The exact first-order completion
 > `L_min=<lambda,g^-1 dot(g)-a_t>`, with `a_t in h_bal`, is locally
@@ -17,9 +31,9 @@ updated_at: "2026-08-15"
 > 51D stabilizer and would give an 80D cotangent reduction, while the balanced
 > `(3,4)+(4,3)` split has a 42D stabilizer and gives 98D. Existing epsilon,
 > restricted epsilon variation, projected/dressed connections and the old
-> edge horn do not own both missing layers. **Next construct or obstruct an
-> action-owned balanced involution/order parameter, then test whether a full
-> Hamiltonian/collar split produces the required normal `h_bal` multiplier.**
+> edge horn do not own both missing layers. **Successor K100 proves epsilon can
+> carry the full moving balanced orbit from one conditional real-orbit seed,
+> but homogeneous source-metric and global charge data cannot derive it.**
 > Exact probe `27/27`.
 
 > **2026-08-15 CANONICAL BALANCED BFV COMPLETION CLOSED; ACTION OWNERSHIP

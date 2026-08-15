@@ -378,3 +378,9 @@ the ledger probe uses the standard Python interpreter.
   Euler/mixed block, the 51D physical-split versus 42D balanced-split mismatch,
   and the current serialized no-new-field owner census. Run with
   `python3 <path>`; `27/27` pass.
+
+- `selected_k100_rsap_balanced_order_parameter_owner_census_probe.py`
+  certifies all eight real `7|7` involution types, the rank-49 epsilon-dressed
+  balanced orbit, the global zero-charge equivariance obstruction, and the
+  source-physical `4+1+9` Lorentz commutant obstruction. Run with
+  `python3 <path>`; `29/29` pass.

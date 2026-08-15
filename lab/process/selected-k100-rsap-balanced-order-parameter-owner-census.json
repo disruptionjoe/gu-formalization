@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "balanced_rsap_equivariant_order_parameter_owner_census",
+  "created": "2026-08-15",
+  "status": "EPSILON_DRESSES_BALANCED_SEED_WITH_EXACT_49D_ORBIT__SOURCE_METRIC_AND_GLOBAL_CHARGE_DATA_CANNOT_SUPPLY_SEED",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "CURRENT_K77_ZERO_ORDER_METRIC_OBSERVATION_EPSILON_CHARGE_CONNECTION_AND_SPINOR_PRIMITIVES",
+  "target_claim": {
+    "id": "K99_NEXT_GATE__CURRENT_ACTION_CONSTRUCTS_BALANCED_INVOLUTION_OR_ORDER_PARAMETER",
+    "verdict": "CURRENT_ACTION_NO__MINIMAL_CONDITIONAL_BALANCED_ORBIT_DATUM_EXACT"
+  },
+  "balanced_involution_orbits": {
+    "carrier": "R14_WITH_Q_SIGNATURE_7_7",
+    "conditions": "R_squared=1__R_Q_self_adjoint__trace_R=0",
+    "real_orbit_types": 8,
+    "type_index": "signature_of_plus_seven_plane_a_7_minus_a_for_a_0_through_7",
+    "balanced_unordered_type": "a=3_or_4",
+    "common_characteristic_polynomial": "(t-1)^7(t+1)^7",
+    "trace_polynomial_distinguishes_real_types": false,
+    "stabilizer_dimension_each_type": 42,
+    "orbit_dimension_each_type": 49
+  },
+  "epsilon_dressing": {
+    "formula": "R_epsilon=rho(epsilon)R0rho(epsilon)^-1",
+    "infinitesimal_variation": "delta_R=[eta,R]",
+    "derivative_rank": 49,
+    "kernel": "h_bal",
+    "kernel_dimension": 42,
+    "homogeneous_orbit": "G/H_bal",
+    "new_continuous_local_field_components": 0,
+    "required_external_input": "BALANCED_REAL_ORBIT_SEED_R0_PLUS_RIGHT_H_BAL_GAUGE_DECLARATION"
+  },
+  "source_metric_obstruction": {
+    "lorentz_carrier_decomposition": [4, 1, 9],
+    "exact_commutant_dimension": 3,
+    "commutant_generators": ["P_base", "P_trace", "P_traceless"],
+    "possible_equivariant_involution_eigenspace_dimensions": [0, 1, 4, 5, 9, 10, 13, 14],
+    "balanced_seven_plane_available": false,
+    "physical_split_eigen_multiplicities": [4, 10],
+    "physical_split_trace": -6,
+    "epsilon_conjugation_reaches_balanced_orbit": false
+  },
+  "charge_global_obstruction": {
+    "domain": "so(7,7)*_INCLUDING_ZERO",
+    "vector_representation_commutant_dimension": 1,
+    "equivariant_value_at_zero": "SCALAR_ENDOMORPHISM",
+    "scalar_involution_traces": [-14, 14],
+    "balanced_trace": 0,
+    "global_adjoint_equivariant_charge_only_map_exists": false,
+    "regular_stratum_local_spectral_routes": "NOT_EXCLUDED_BUT_NOT_GLOBAL"
+  },
+  "candidate_census": [
+    {"candidate": "AMBIENT_Q_ORIENTATION_SCALARS", "status": "FULL_G_COMMUTANT_SCALAR__NO_BALANCED_INVOLUTION"},
+    {"candidate": "PHYSICAL_4_PLUS_10_METRIC_OBSERVATION_DATA", "status": "LORENTZ_COMMUTANT_4_PLUS_1_PLUS_9__NO_SEVEN_PLANE"},
+    {"candidate": "EPSILON_DRESSED_PHYSICAL_SPLIT", "status": "CONJUGATION_PRESERVES_4_PLUS_10_MULTIPLICITIES"},
+    {"candidate": "CHARGE_ONLY_SPECTRAL_MAP", "status": "GLOBAL_ZERO_CHARGE_EQUIVARIANCE_OBSTRUCTION"},
+    {"candidate": "EPSILON_PLUS_BALANCED_R0", "status": "EXACT_49D_CONDITIONAL_CONSTRUCTION__SEED_AND_GAUGE_UNOWNED"},
+    {"candidate": "SPINOR_OMEGA_J4_OR_WEYL_PROJECTOR", "status": "OBJECT_CHANGED__NO_VECTOR14_INTERTWINER_OWNED"},
+    {"candidate": "CONNECTION_CURVATURE_HOLONOMY", "status": "VALID_PARALLEL_R_CRITERION__CURRENT_ACTION_SELECTION_NOT_CONSTRUCTED"},
+    {"candidate": "NEW_INDEPENDENT_BALANCED_R_FIELD", "status": "MATHEMATICALLY_AVAILABLE_49D_COSET__NEW_FIELD_ACTION_AND_REAL_DOMAIN"}
+  ],
+  "claim_ceiling": {
+    "primitive_zero_order_current_owner_census": "EXHAUSTED",
+    "nonhomogeneous_curvature_selector": "OPEN",
+    "unreleased_action_term": "OPEN",
+    "finite_connected_component_refinement": "OPEN",
+    "physical_phase_space_selection": "OPEN"
+  },
+  "disposition": {
+    "minimal_reverse_conditional_datum": "ONE_BALANCED_REAL_ORBIT_TYPE_SEED_PLUS_RIGHT_H_BAL_GAUGE_DECLARATION",
+    "new_49_component_bulk_field_required_if_epsilon_is_reused": false,
+    "current_action_owns_minimal_datum": false,
+    "next_gate": "WITH_CONDITIONAL_BALANCED_R0_PROJECT_DRESSED_B_EPSILON_TO_H_BAL_PLUS_P_BAL_AND_TEST_ACTUAL_BOUNDARY_HAMILTONIAN_NORMAL_COMPONENT_FOR_ZERO_SELF_HESSIAN_AND_MINUS_PAIR_JR_A_COUPLING",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "multiplier_owner": "lab/process/selected-k99-rsap-balanced-multiplier-owner-exhaustion.json",
+    "metric_concomitant": "explorations/conditional-build/selected-k77-action-concomitant-residual-flag-gate-2026-08-12.md",
+    "physical_split": "lab/process/selected-k77-physical-diffeomorphism-split.json",
+    "moving_split": "lab/process/selected-k77-moving-split-structure-action-selection-gate.json",
+    "epsilon_parent": "lab/process/selected-k77-source-epsilon-cotangent-parent.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k100-rsap-balanced-order-parameter-owner-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k100_rsap_balanced_order_parameter_owner_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k100-rsap-balanced-order-parameter-owner-census-review.md"
+}
