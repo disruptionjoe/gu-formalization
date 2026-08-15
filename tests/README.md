@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k81_rsap_a3_relative_placement_ownership_gate_probe.py`
+  distinguishes the abstract `D7` root census, the endpoint's `(5,2)` Cartan
+  type and the independently constructed real-`A3` factors. It verifies that
+  no selected split/`SU(2,2)` support maps or joint-orbit invariant are owned,
+  records cross-form incidence as `TYPE_MISSING`, and routes the factors as
+  alternative local horns pending new joint-embedding data. It passes `46/46`.
+
 - `channel-swings/selected_k80_rsap_a3_cross_real_form_incidence_probe.py`
   constructs exact `so(3,3)` and `so(4,2)` support embeddings in `so(7,7)`,
   proves generic full-support separation, and exhibits transverse,

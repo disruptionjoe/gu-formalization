@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "a3_relative_placement_owner_inventory_and_routing_gate",
+  "created": "2026-08-15",
+  "status": "NO_SELECTED_JOINT_A3_EMBEDDING_OWNED__CROSS_FORM_INCIDENCE_TYPE_MISSING__REAL_FORM_FACTORS_ARE_ALTERNATIVE_LOCAL_HORNS",
+  "layer_0": {
+    "object": "repository and source-return ownership of classical ambient embedding maps",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false
+  },
+  "owned_inputs": {
+    "abstract_d7_roots": "PLUS_MINUS_EI_PLUS_MINUS_EJ__84_ROOTS",
+    "abstract_a3_subsystem": "THREE_SIMPLE_ROOT_CHAIN__12_ROOTS",
+    "split_a3_principal_factor": "CONSTRUCTED_AT_LOCAL_FACTOR_AND_TRANSITION_ATLAS_GRADE",
+    "su22_a3_principal_factor": "CONSTRUCTED_AT_LOCAL_FACTOR_GRADE",
+    "selected_endpoint_real_cartan": {
+      "split_rank": 5,
+      "compact_rank": 2,
+      "regular": true,
+      "split_regular": false
+    }
+  },
+  "missing_joint_type": {
+    "selected_split_support_map": "NOT_PROVIDED",
+    "selected_su22_support_map": "NOT_PROVIDED",
+    "same_endpoint_or_source_ownership_proof": "NOT_PROVIDED",
+    "support_intersection_dimension": "NOT_PROVIDED",
+    "support_intersection_signature": "NOT_PROVIDED",
+    "selected_relative_orbit": "TYPE_MISSING",
+    "root_combinatorics_selects_real_form": false,
+    "cartan_rank_pair_selects_six_plane_support": false,
+    "source_owned_edge_carrier": false,
+    "source_owned_global_symplectic_realization": false
+  },
+  "k80_contrary_completions": {
+    "transverse": [0, [0, 0]],
+    "a1xa1_face": [4, [2, 2]],
+    "b2_bridge": [5, [3, 2]],
+    "current_owner_data_excludes_all_but_one": false
+  },
+  "routing": {
+    "real_a3_forms": "ALTERNATIVE_LOCAL_CARRIER_HORNS_AT_CURRENT_OWNERSHIP_GRADE",
+    "cross_form_atlas_edge": "DO_NOT_ADD",
+    "common_refinement": "NOT_LICENSED",
+    "moment_map_comparison": "NOT_LICENSED",
+    "tautological_primitive_comparison": "NOT_LICENSED",
+    "triple_cocycle": "NOT_LICENSED",
+    "revival_trigger": "EXPLICIT_SOURCE_OR_ACTION_OWNED_PAIR_OF_AMBIENT_SUPPORT_EMBEDDINGS_OR_EQUIVALENT_JOINT_ORBIT_DATUM"
+  },
+  "scope": {
+    "claim_is_repository_and_inspected_source_return_scoped": true,
+    "universal_nonexistence_of_cross_form_incidence": "NOT_CLAIMED",
+    "individual_a3_principal_factors": "UNCHANGED",
+    "complete_su22_singular_transition_atlas": "OPEN_NEXT",
+    "other_nonsplit_singular_transition_atlases": "OPEN",
+    "deeper_so77_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k81-rsap-a3-relative-placement-ownership-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k81_rsap_a3_relative_placement_ownership_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k81-rsap-a3-relative-placement-ownership-gate-review.md",
+  "next_gate": "COMPLETE_THE_SU22_SO22_SINGULAR_TRANSITION_ATLAS_WITHIN_ONE_FACTOR__REOPEN_CROSS_FORM_INCIDENCE_ONLY_WITH_A_NEW_OWNED_JOINT_EMBEDDING"
+}

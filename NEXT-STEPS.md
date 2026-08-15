@@ -7,6 +7,22 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 CROSS-REAL-FORM OWNERSHIP GATE.** The selected chain owns an
+> abstract `D7` root census, independently constructed real-`A3` factors and
+> an endpoint Cartan of type `(split 5, compact 2)`, but no ambient support
+> maps tying either the split or `SU(2,2)` six-plane to that endpoint or to a
+> source-owned edge carrier. Root combinatorics does not select a real form,
+> and Cartan ranks do not select a pair of supports. The k80 transverse,
+> `A1 x A1`, and `B2` placements therefore remain contrary completions of the
+> same owned data. Cross-form incidence is `TYPE_MISSING`: treat the real-form
+> factors as alternative local horns and add no atlas edge, common refinement,
+> moment comparison, primitive transition or cocycle. **Next complete the
+> within-factor `SU(2,2)/SO(2,2)` singular transition atlas across its nine
+> compatible canonical configurations.** Reopen cross-form incidence only
+> with an explicit source/action-owned pair of ambient embeddings. Exact probe
+> `46/46`; individual factors remain constructed, while deeper strata, zero
+> charge and global RSAP remain open.
+
 > **2026-08-15 SPLIT/`SU(2,2)` AMBIENT INCIDENCE GATE.** The two individual
 > `A3` factors embed as `so(3,3)` and `so(4,2)` on six-planes of signatures
 > `(3,3)` and `(4,2)` in `so(7,7)`, so they are not ambient-conjugate and their

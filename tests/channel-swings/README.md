@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k81_rsap_a3_relative_placement_ownership_gate_probe.py` checks the
+  abstract `D7`/`A3` root combinatorics, the selected endpoint's `(5,2)` real
+  Cartan, factor-census ownership and source-return ceiling. It certifies that
+  no selected split/`SU(2,2)` support maps or relative orbit are owned, marks
+  cross-form incidence `TYPE_MISSING`, and routes the real forms as alternative
+  local horns. It passes `46/46` with Python 3.
+
 - `selected_k80_rsap_a3_cross_real_form_incidence_probe.py` embeds split
   `A3 ~= so(3,3)` and `SU(2,2) A3 ~= so(4,2)` exactly in `so(7,7)`, proves
   their full-support classes nonconjugate, and constructs three inequivalent
