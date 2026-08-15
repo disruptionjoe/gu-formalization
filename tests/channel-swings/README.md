@@ -41,6 +41,14 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k97_rsap_action_parent_reduction_selection_gate_probe.py` proves
+  that the K96 balanced carrier is exactly the global right-`H_bal` zero
+  reduction of the action-owned formal epsilon `T*Spin_0(7,7)` parent. It
+  checks `h_bal^perp=p_0`, the `182 -> 140 -> 98` reduction dimensions and the
+  nondegenerate reduced form, then exhausts the current free, fixed and
+  generated bare-boundary horns. The formal attachment constructs, but no
+  current horn selects the constraint-and-gauge law. It passes `25/25`.
+
 - `selected_k96_rsap_connected_orbit_refinement_probe.py` proves that the fixed
   balanced complement's normalizer maps onto all four components of
   `O(7,7)/SO_0(7,7)`. Its double-coset argument reaches every connected

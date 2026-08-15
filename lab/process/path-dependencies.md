@@ -123,6 +123,8 @@ graph TD
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t1
   PD_STRUCTURE_TRANSPORT_t2("TRAP 2026-08-12")
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t2
+  PD_STRUCTURE_TRANSPORT_t3("TRAP 2026-08-15")
+  PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t3
   PD_I2B_ACTION_OWNER["PD-I2B-ACTION-OWNER"]
   PD_I2B_ACTION_OWNER_s0["AUTHOR-STATED: The source prints Upsilon_print=S(F_A)+*kappa T and separately gives E_act=..."]
   PD_I2B_ACTION_OWNER --> PD_I2B_ACTION_OWNER_s0
@@ -333,6 +335,9 @@ graph TD
 - **2026-08-12** — A source-normal-jet calculation silently replaced the inherited trace-H_q embedded real form with a B-skew comparator, then promoted the comparator's exact rank and scalar exclusion as the live contact result.
   - *Cost:* Reported rank 80/cokernel 80 instead of rank 120/cokernel 40 and incorrectly excluded the scalar completion until the append-only v0.221 correction.
   - *Receipt:* `explorations/conditional-build/selected-k77-i2b-trace-hq-normal-contact-correction-2026-08-12.md`
+- **2026-08-15** — The globally surjective balanced 98D RSAP was at risk of remaining labelled wholly unattached, or conversely of being promoted to an action-selected phase space. It is exactly the right-H_bal zero reduction of the action-owned formal epsilon T*Spin_0(7,7) parent, but the current bare action supplies neither that right-moment constraint nor its gauge quotient.
+  - *Cost:* The first reading hides a completed global formal attachment; the second manufactures the missing variational and BFV owner from successful reverse geometry.
+  - *Receipt:* `explorations/conditional-build/selected-k97-rsap-action-parent-reduction-selection-gate-2026-08-15.md`
 
 **Invalidates if:** A receipt constructs an explicit intertwiner proving the two concrete structures equivalent for the operator and variational problem at hand.
 

@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 FORMAL ACTION-PARENT ATTACHMENT CLOSED; CURRENT BARE ACTION
+> DOES NOT SELECT IT.** The selected epsilon preboundary potential already
+> makes formal `T*Spin_0(7,7)` an action-owned `182D` cotangent parent. Its
+> right-`H_bal` moment zero set is `G x h_bal^perp = G x p_0`; quotienting the
+> `42D` characteristic right action gives exactly
+> `T*(Spin_0(7,7)/H_bal)`, dimension `182-2(42)=98`, with the K96 moment map.
+> Thus global formal attachment constructs. Selection does not: free boundary
+> variation forces the full covector to zero, fixed data leaves it
+> unrestricted and does not gauge the right action, and no owned generated
+> boundary graph or BFV constraint supplies the missing law. **Next construct
+> or obstruct an action-owned constraint `J_R,H_bal=0` whose characteristic
+> orbits are exactly right `H_bal`; do not infer selection from the success of
+> the reverse-built geometry.** Physical attachment remains open. Exact probe
+> `25/25`.
+
 > **2026-08-15 CONNECTED REFINEMENT CLOSED; EXACT 98D CLASSICAL RSAP.** The
 > fixed balanced complement normalizer contains independent positive- and
 > negative-coordinate reflections and therefore surjects onto all four
@@ -15,9 +30,9 @@ updated_at: "2026-08-15"
 > moment map on `T*(Spin_0(7,7)/H_bal)` is onto all `so(7,7)*`, has rank `91`
 > on the complete regular locus, and realizes an RSAP at the exact lower bound
 > `98`. The stronger everywhere-submersive all-charge minimum remains `182`.
-> **Next derive or obstruct source/action selection and global attachment of
-> `H_bal`; do not promote the independent classical carrier to physical GU.**
-> Exact probe `23/23`.
+> **Successor K97 closes the formal global attachment as a right-`H_bal`
+> reduction of the owned epsilon cotangent parent; action selection and
+> physical attachment remain open.** Exact probe `23/23`.
 
 > **2026-08-15 COMPLETE ALL-CENTRALIZER STRUCTURAL CENSUS.** The calibrated
 > K95 dynamic program scans every even excess `0,...,84` and exhausts `3,691`

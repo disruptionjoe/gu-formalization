@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k97_rsap_action_parent_reduction_selection_gate_probe.py`
+  proves that the K96 carrier is globally the right-`H_bal` zero reduction of
+  the action-owned formal `182D` epsilon cotangent parent. Exact dimensions
+  are `182 -> 140 -> 98`, and the descended left moment map is K96's globally
+  surjective map. The complete current bare-boundary census supplies neither
+  the required right-moment constraint nor the gauge quotient, so formal
+  attachment closes while physical selection remains open. It passes
+  `25/25`.
+
 - `channel-swings/selected_k96_rsap_connected_orbit_refinement_probe.py`
   proves that independent positive- and negative-coordinate reflections in the
   balanced-complement normalizer realize all four components of

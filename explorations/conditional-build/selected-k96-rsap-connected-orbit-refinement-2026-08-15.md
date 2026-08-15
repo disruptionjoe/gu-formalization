@@ -111,12 +111,19 @@ the weaker rank-singular target exactly as defined.
 This is an independent classical Hamiltonian construction. The source does not
 select `H_bal`, this cotangent carrier, or its global attachment to the actual
 GU action. No BFV reduction, positivity, quantum state space, particle content,
-phenomenology, Higgs, family-index, chirality, datum, ledger or public-posture
+phenomenology, datum, ledger or public-posture
 claim follows.
 
 The next gate is source/action ownership: derive or obstruct selection and
 global attachment of `H_bal` from the actual source-owned action before giving
 this exact mathematical RSAP any physical interpretation.
+
+**Successor note (K97, 2026-08-15).** K97 constructs the *formal* global
+attachment: this carrier is exactly the right-`H_bal` zero reduction of the
+action-owned formal epsilon `T*Spin_0(7,7)` preboundary parent. The current
+bare action still supplies neither the right-moment constraint nor its gauge
+quotient, so action selection and physical attachment remain open. See
+`selected-k97-rsap-action-parent-reduction-selection-gate-2026-08-15.md`.
 
 Reproduce with:
 

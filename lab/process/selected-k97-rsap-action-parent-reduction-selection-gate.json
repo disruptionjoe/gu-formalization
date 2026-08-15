@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_action_parent_reduction_and_selection_gate",
+  "created": "2026-08-15",
+  "status": "GLOBAL_FORMAL_ATTACHMENT_CONSTRUCTED__CURRENT_BARE_ACTION_SELECTION_OBSTRUCTED",
+  "layer_0": {
+    "source_owned_object": "FORMAL_UNRESTRICTED_EPSILON_PREBOUNDARY_TSTAR_SPIN0_7_7",
+    "repository_derived_reduction": "TSTAR_SPIN0_7_7_MOD_RIGHT_H_BAL_AT_ZERO",
+    "reduced_carrier": "TSTAR_SPIN0_7_7_OVER_H_BAL",
+    "physical_phase_space": false,
+    "source_selected_subgroup": false,
+    "action_selected_constraint": false,
+    "particle_comparator": false
+  },
+  "parent": {
+    "group": "Spin_0(7,7)",
+    "dimension": 182,
+    "canonical_potential": "PAIR_lambda_WITH_g_inverse_delta_g",
+    "ownership": "ACTION_OWNED_FORMAL_PREBOUNDARY"
+  },
+  "right_reduction": {
+    "subgroup": "H_bal",
+    "subgroup_lie_algebra": "so(3,4)+so(4,3)",
+    "subgroup_dimension": 42,
+    "right_moment_map": "lambda_restricted_to_h_bal",
+    "zero_level": "lambda_in_h_bal_perp_equals_p0",
+    "zero_level_dimension": 140,
+    "characteristic_dimension": 42,
+    "quotient_dimension": 98,
+    "global_quotient": "(G_x_p0)/H_bal_equals_G_x_H_bal_p0_equals_Tstar(G/H_bal)",
+    "reduced_form": "CANONICAL_COTANGENT_SYMPLECTIC_FORM",
+    "left_moment_map": "J([g,X])=Ad_g_X",
+    "left_moment_map_matches_k96": true,
+    "formal_global_attachment": "CONSTRUCTED"
+  },
+  "selection_census": {
+    "free_boundary_variation": "FORCES_lambda_ZERO_NOT_lambda_IN_FULL_p0",
+    "fixed_boundary_data": "LEAVES_lambda_UNRESTRICTED_AND_RIGHT_TRANSFORMATIONS_PHYSICAL",
+    "generated_or_mixed_boundary_graph": "NOT_ACTION_OWNED",
+    "bfv_right_h_bal_constraint": "NOT_CONSTRUCTED",
+    "current_bare_action_selects_reduction": false,
+    "current_bare_action_selection": "OBSTRUCTED_BY_COMPLETE_BOUNDARY_HORN_CLASSIFICATION"
+  },
+  "reverse_construction": {
+    "dimension_requirement": "dim_h_equals_42_from_182_minus_2_dim_h_equals_98",
+    "coverage_requirement": "balanced_3_4_bar_4_3_involution_makes_moment_map_surjective",
+    "mathematical_success_implies_dynamical_selection": false
+  },
+  "disposition": {
+    "classical_rsap": "K96_PROVED_GLOBAL_AT_MINIMUM_98",
+    "formal_attachment_to_action_owned_parent": "CLOSED",
+    "action_selection_of_h_bal": "TYPE_MISSING_AFTER_CURRENT_BARE_ACTION_OBSTRUCTION",
+    "physical_gu_attachment": "OPEN",
+    "bfv_positivity_quantization": "OPEN",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none",
+    "next_gate": "CONSTRUCT_OR_OBSTRUCT_ACTION_OWNED_RIGHT_H_BAL_COISOTROPIC_CONSTRAINT_AND_GAUGE_LAW_COMPATIBLE_WITH_SELECTED_EPSILON_VARIATION"
+  },
+  "dependencies": {
+    "classical_rsap": "lab/process/selected-k96-rsap-connected-orbit-refinement.json",
+    "balanced_pair": "lab/process/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn.json",
+    "action_owned_parent": "lab/process/selected-k77-source-epsilon-cotangent-parent.json",
+    "boundary_horns": "lab/process/selected-k77-boundary-stationarity-symplectic-realization-gate.json",
+    "source_return": "lab/sources/selected-k77-source-epsilon-cotangent-parent-source-return-2026-08-14.md"
+  },
+  "artifact": "explorations/conditional-build/selected-k97-rsap-action-parent-reduction-selection-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k97_rsap_action_parent_reduction_selection_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k97-rsap-action-parent-reduction-selection-gate-review.md"
+}

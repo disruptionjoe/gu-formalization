@@ -756,10 +756,24 @@ current_result:
     map of rank 91 on the complete regular locus, rank 49 at zero, and the
     sharp K95 rank on each singular layer. It is therefore a classical RSAP
     at the exact minimum dimension 98. The stronger everywhere-submersive
-    all-charge minimum remains 182. Source selection of H_bal, action-owned
-    global attachment, BFV/positivity, quantization and physical identity all
-    remain open.
+    all-charge minimum remains 182.
+    The action-parent composition now closes the formal global attachment.
+    The selected epsilon preboundary potential is the canonical one-form on
+    the action-owned formal T*Spin_0(7,7) parent. Its right-H_bal moment zero
+    set is G times h_bal-perp = G times p, and quotienting its 42-dimensional
+    characteristic right-H_bal orbits gives exactly
+    T*(Spin_0(7,7)/H_bal), with dimension 182-2(42)=98 and the same K96 left
+    moment map. The current bare action does not select this reduction: free
+    epsilon variation forces the full covector to zero, fixed epsilon data
+    leaves it unrestricted and makes boundary transformations physical, and
+    no owned generated boundary graph or BFV constraint supplies precisely
+    J_R,H_bal=0 plus the right-H_bal gauge quotient. Thus formal attachment is
+    constructed, current-bare-action selection is obstructed, and physical
+    attachment, BFV/positivity, quantization and physical identity remain
+    open.
   evidence:
+    - explorations/conditional-build/selected-k97-rsap-action-parent-reduction-selection-gate-2026-08-15.md
+    - lab/process/selected-k97-rsap-action-parent-reduction-selection-gate.json
     - explorations/conditional-build/selected-k96-rsap-connected-orbit-refinement-2026-08-15.md
     - lab/process/selected-k96-rsap-connected-orbit-refinement.json
     - explorations/conditional-build/selected-k95-rsap-all-centralizer-global-compatibility-census-2026-08-15.md
@@ -957,9 +971,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does every connected SO_0(7,7) orbit refining a nonnilpotent signed
-  structural class meet the balanced symmetric complement p, or does an
-  O(7,7)-to-SO_0(7,7) orbit split leave one component outside this 98D horn?
+  Can the selected action or a source-owned completion derive a boundary or
+  BFV law whose constraint is exactly J_R,H_bal=0 and whose characteristic
+  orbits are exactly the right-H_bal action, while remaining compatible with
+  the certified epsilon preboundary variation and boundary horns?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -970,12 +985,16 @@ contribution_path:
 next_condition: >-
   The independent classical RSAP problem is closed at the exact minimum 98:
   the balanced horn is globally surjective and regular-submersive, while the
-  everywhere-submersive all-charge minimum remains 182. Next derive or
-  obstruct source/action selection of H_bal and a global attachment of this
-  cotangent carrier to the actual source-owned action. Do not treat the
-  mathematical existence theorem as a physical phase-space selection, and do
-  not infer BFV reduction, positivity, quantization, particle content or
-  phenomenology. The
+  everywhere-submersive all-charge minimum remains 182. Its formal global
+  attachment is also closed: it is the right-H_bal zero reduction of the
+  action-owned formal epsilon T*Spin_0(7,7) preboundary parent. The current
+  bare boundary action does not select that reduction. Next derive or
+  obstruct an action-owned boundary or BFV law that imposes exactly
+  J_R,H_bal=0 and gauges exactly the right-H_bal characteristic orbits.
+  Dimension 98 and global surjectivity explain the reverse construction but
+  do not supply dynamical selection. Do not treat the formal reduction as a
+  physical phase-space selection, and do not infer BFV master closure,
+  positivity, quantization, particle content or phenomenology. The
   one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
   target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
   constructed. Reopen an ambient successor only with an explicit source/action-

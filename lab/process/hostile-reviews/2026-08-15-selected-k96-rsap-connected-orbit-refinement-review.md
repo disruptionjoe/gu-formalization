@@ -47,13 +47,17 @@ separate `182D` everywhere-submersive all-charge minimum remain explicit.
 ## Mathematical carrier promoted to physics attack
 
 Nothing in the component argument selects `H_bal` from Weinstein's source
-action, constructs the action-owned global attachment, performs BFV reduction,
-establishes positivity or quantizes the carrier. All such consequences remain
-open.
+action, performs BFV reduction, establishes positivity or quantizes the
+carrier. At K96 the action-parent attachment was not composed. Successor K97
+later constructs the formal attachment as a right-`H_bal` zero reduction of
+the action-owned epsilon cotangent parent, while proving that the current bare
+action still does not select the constraint or gauge quotient. Physical
+attachment remains open.
 
 ## Verdict
 
 Accept the uniform connected-orbit refinement, global classical surjectivity,
-and exact `98D` RSAP minimum. Retire further component-by-component census work.
-Move next to source/action selection and global attachment of `H_bal`; do not
-promote the independent mathematical carrier to a physical GU phase space.
+and exact `98D` RSAP minimum. Retire further component-by-component census
+work. Successor K97 closes the formal action-parent reduction but not action
+selection or physical attachment; do not promote the mathematical carrier to
+a physical GU phase space.
