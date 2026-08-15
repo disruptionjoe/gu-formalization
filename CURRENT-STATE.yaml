@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c0e34db3f6b88e7d8a5b88276265f5c74d64c685
+revision_basis: fb854a13c0b3d956c83c1e06648c201a988fc785
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -935,7 +935,25 @@ current_result:
     closed domain and moving-R/BFV compatibility. This is current-inventory
     exhaustion, not a universal no-go; H-Q* remains narrowed and unconstructed
     and H0 is strengthened but not proved.
+    K110 corrects one K109 explanatory over-separation. The fixed-background
+    TT spectral C and observed Green construction use the same two-field
+    pencil. On the free-connected real-spectrum component, H=KC is a positive
+    fibre majorant, D=Box I+L is formally H-symmetric, constant C preserves
+    compact and spacelike-compact support, and Green uniqueness gives exact
+    commutation with the advanced and retarded operators. This closes a real
+    positive-fibre/Green-grade composition. It does not construct a positive
+    conserved energy, selected closed self-adjoint quantum domain, Fock space
+    or physical cohomology. The supplied constant background is not proved
+    stationary for the complete action; for u(x), nonzero dC/du produces
+    uncancelled first- and zero-order derivative terms. The 2D package is not
+    a 49D invariant linear subquotient of the conditional 98D balanced phase
+    tangent. Thus the current inventory now has ten rows, one positive-fibre
+    plus Green-grade composite, and zero full 98D entrants. The next bridge
+    must be an action-owned stationary total-field or boundary map into the
+    actual BFV complex with moving-background derivative completion.
   evidence:
+    - explorations/conditional-build/selected-k110-rsap-tt-c-green-domain-composition-gate-2026-08-15.md
+    - lab/process/selected-k110-rsap-tt-c-green-domain-composition-gate.json
     - explorations/conditional-build/selected-k109-rsap-concrete-positivity-domain-owner-census-2026-08-15.md
     - lab/process/selected-k109-rsap-concrete-positivity-domain-owner-census.json
     - explorations/conditional-build/selected-k108-rsap-physical-split-positivity-owner-gate-2026-08-15.md
@@ -1159,10 +1177,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can a genuinely new action-owned stationary carrier or boundary law provide
-  one typed map into the conditional 98D phase/BFV complex together with its
-  selector, positive quotient pairing, common closed analytic domain and
-  moving-R Euler/Noether plus BFV compatibility?
+  Can an action-owned stationary total-field background or boundary law map
+  the K110 positive-fibre/Green-grade observed TT package into the conditional
+  98D phase/BFV complex while supplying the moving-background derivative
+  completion, positive physical quotient and selected closed quantum domain?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1246,15 +1264,18 @@ next_condition: >-
   actual phase/BFV carrier. K109 now exhausts the current nine-candidate
   inventory at that entry gate. The exact positive TT C-operator, conditional
   observed-defect Green domain and conditional 98D classical BFV carrier are
-  the strongest partial results, but they belong to different objects and no
-  typed composition map joins them. Park repeated positivity algebra over the
-  current inventory. Retain the reverse scaffold through its exact classical
-  layer and reopen only with one genuinely new action-owned stationary carrier
-  or boundary law packaged with carrier map, selector, positive quotient
-  pairing, common closed domain and moving-R/BFV compatibility. This does not
-  kill future nonlinear, nonlocal, contour, Wick or boundary constructions and
-  does not prove H0. Keep the 182D charged and 98D reverse-RSAP horns
-  distinct. Do not repeat finite BFV, multiplier,
+  the strongest partial results. K110 corrects their typing: the TT C-operator
+  and observed Green domain share the same two-field pencil and compose at
+  fixed constant-background Green grade, while the conditional 98D BFV
+  carrier remains distinct. Park repeated fixed-background positivity algebra
+  over the current inventory. Retain the reverse scaffold through its exact
+  classical layer and reopen only with one genuinely new action-owned
+  stationary total-field or boundary map into the BFV complex, including the
+  moving-background derivative completion, positive physical quotient and
+  selected closed quantum domain. This does not kill future nonlinear,
+  nonlocal, contour, Wick or boundary constructions and does not prove H0.
+  Keep the 182D charged and 98D reverse-RSAP horns distinct. Do not repeat
+  finite BFV, multiplier,
   boundary-route, released-source or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal
   reduction to physical selection, or infer quantization, particle content or

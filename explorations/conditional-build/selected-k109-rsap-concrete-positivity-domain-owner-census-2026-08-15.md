@@ -22,6 +22,12 @@ canon_verdict_change: none
 
 Classification: `SOURCE_NATIVE_ROUTE`.
 
+> **Current correction:** K110 proves that the TT spectral `C` and observed
+> Green construction share the same two-field pencil and compose at Green
+> grade. Read the successor correction below before using K109's original
+> “different carriers” explanation. The zero-of-nine full-eligibility verdict
+> remains unchanged; the conditional `98D` BFV carrier is still unattached.
+
 ## Result in plain English
 
 The repository does contain real pieces of a positive quantum construction.
@@ -157,3 +163,15 @@ phenomenology or GU truth-status claim changes. Reproduce:
 ```bash
 python3 tests/channel-swings/selected_k109_rsap_concrete_positivity_domain_owner_census_probe.py
 ```
+
+> **Successor correction (K110).** K109 separated the TT spectral `C` and the
+> observed Green domain too sharply. They use the same two-field pencil and
+> compose exactly at fixed constant-background Green grade: `H=KC` is a
+> positive fibre majorant, the normalized normally hyperbolic operator is
+> `H`-symmetric, and `C` commutes with its advanced/retarded Green operators.
+> The zero-eligibility verdict survives. The inherited core is not a selected
+> closed self-adjoint quantum domain, variable backgrounds add uncancelled
+> derivative terms, and the `2D` package has no invariant linear attachment to
+> the `98D` balanced phase tangent. The current inventory is now ten rows, one
+> with positive-fibre-plus-Green composition and zero meeting the full `98D`
+> criterion.

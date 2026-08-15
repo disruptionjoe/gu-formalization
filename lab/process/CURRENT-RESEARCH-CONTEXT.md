@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K110 TT spectral-C/Green composition gate:** K109 over-separated
+> its two strongest analytic partials. The fixed-background `C` and observed
+> Green construction use the same two-field TT pencil. On the free-connected
+> real-spectrum component, `H=KC` is positive, `D=Box I+L` is formally
+> `H`-symmetric, constant `C` preserves the Green core/support classes, and
+> Green uniqueness gives `C G^+/-=G^+/- C`. This is a positive fibre majorant
+> plus Green propagation, not a positive conserved energy or selected closed
+> self-adjoint quantum domain. For `u(x)`, nonzero `dC/du` creates derivative
+> commutator terms. The `2D` package is not a `49D` invariant subquotient of
+> the conditional `98D` balanced phase tangent. Reopen only with a stationary
+> total-field or boundary map into the actual BFV complex that owns those
+> moving-background terms.
+
 > **Current K109 concrete positivity/domain owner census:** zero of the nine
 > presently named constructed, partial or composite candidates owns the full
 > package on one object. The fixed-background TT spectral `C` is an exact

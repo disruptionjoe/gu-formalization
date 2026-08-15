@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_spectral_c_green_domain_composition_and_carrier_gate",
+  "created": "2026-08-15",
+  "status": "EXACT_POSITIVE_FIBRE_MAJORANT_AND_GREEN_OPERATOR_COMPOSITION_ON_SHARED_FIXED_BACKGROUND_2D_TT_PENCIL__NO_CLOSED_QUANTUM_DOMAIN_STATIONARY_TOTAL_FIELD_OR_98D_BFV_ATTACHMENT",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "SELECTED_ACTION_TWO_FIELD_TT_HESSIAN_AT_SUPPLIED_CONSTANT_SCALAR_BACKGROUND_ON_THE_INHERITED_GLOBALLY_HYPERBOLIC_OBSERVED_DEFECT",
+  "target_claim": {
+    "id": "K109_CLOSEST_SEAM__THE_FIXED_BACKGROUND_TT_C_AND_OBSERVED_GREEN_SYSTEM_COMPOSE_INTO_THE_FULL_98D_RSAP_POSITIVITY_DOMAIN_PACKET",
+    "verdict": "PARTIAL__YES_ON_THE_SHARED_CONSTANT_BACKGROUND_2D_OBSERVED_DEFECT_AT_GREEN_GRADE__NO_AT_CLOSED_QUANTUM_DOMAIN_STATIONARY_TOTAL_FIELD_OR_98D_BFV_GRADE"
+  },
+  "shared_pencil": {
+    "kinetic_form": "K=[[alpha,1],[1,0]]",
+    "kinetic_determinant": -1,
+    "mass_hessian": "M(u)=M0+u*v*vT__v=(1,1)__u=2*c*theta_bar",
+    "normalized_operator": "D_u=Box*I+L(u)__L(u)=K_inverse*M(u)",
+    "action_owns_interaction_and_hessian": true,
+    "action_owns_constant_stationary_background": false
+  },
+  "composition": {
+    "component": "FREE_CONNECTED_REAL_SPECTRUM__DELTA_POSITIVE_WITH_BOTH_FACTORS_POSITIVE",
+    "C_squared": "IDENTITY",
+    "C_commutes_with_L": true,
+    "C_K_self_adjoint": true,
+    "positive_fibre_majorant": "H=K*C_POSITIVE_DEFINITE__DET_H=1",
+    "H_self_adjoint_potential": "H*L=L_transpose*H",
+    "normally_hyperbolic": true,
+    "test_core": "C_c_infinity",
+    "green_images": "SPACELIKE_COMPACT",
+    "C_preserves_test_core_and_support": true,
+    "C_commutes_with_advanced_and_retarded_green_operators": true,
+    "new_fitted_coefficients": 0
+  },
+  "ceilings": {
+    "variable_background": "FAILS_NAIVE_POINTWISE_GLOBALIZATION__BOX_COMMUTATOR_HAS_GRAD_C_AND_BOX_C_TERMS",
+    "generic_dC_du_nonzero": true,
+    "closed_self_adjoint_positive_hilbert_domain": "NOT_CONSTRUCTED",
+    "positive_conserved_energy": "NOT_CONSTRUCTED",
+    "opposite_original_metric_response_residues": "RETAINED_AS_SEPARATE_AMPLITUDE_WARNING",
+    "stationary_complete_action_background": "NOT_CONSTRUCTED",
+    "ambient_Y14_domain": "OPEN",
+    "physical_BFV_cohomology": "OPEN"
+  },
+  "rsap_attachment": {
+    "tt_package_dimension": 2,
+    "balanced_phase_dimension": 98,
+    "balanced_irreducible_factor_dimension": 49,
+    "proper_nonzero_H_bal_invariant_linear_subquotient_dimensions": [49],
+    "tt_package_is_H_bal_invariant_linear_subquotient": false,
+    "current_typed_noninvariant_attachment_map": "TYPE_MISSING"
+  },
+  "k109_correction": {
+    "eligibility_verdict_survives": true,
+    "superseded_explanation": "TT_SPECTRAL_C_AND_OBSERVED_GREEN_DOMAIN_ARE_NOT_DIFFERENT_CARRIERS__THEY_SHARE_THE_SAME_TWO_FIELD_PENCIL_AND_COMPOSE_AT_GREEN_GRADE",
+    "remaining_distinct_object": "CONDITIONAL_98D_BALANCED_RSAP_BFV_CARRIER",
+    "current_inventory_after_composite_row": {
+      "candidate_rows": 10,
+      "positive_fibre_plus_green_grade_same_carrier": 1,
+      "full_98d_entry_criterion_yes": 0
+    }
+  },
+  "reverse_scaffold": {
+    "conditional_classical_98d_rsap_bfv": "RETAINED",
+    "next_bridge": "ACTION_OWNED_STATIONARY_TOTAL_FIELD_OR_BOUNDARY_MAP_TO_98D_BFV_WITH_MOVING_BACKGROUND_DERIVATIVE_COMPLETION",
+    "H_Q_star": "NARROWED_UNCONSTRUCTED_NOT_KILLED",
+    "H0": "NOT_PROVED"
+  },
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "spectral_C": "lab/process/first-perturbative-background-c-operator.json",
+    "green_domain": "lab/process/selected-branch-linearized-totalization-current-green-domain.json",
+    "rsap_phase": "lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json",
+    "owner_census": "lab/process/selected-k109-rsap-concrete-positivity-domain-owner-census.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k110-rsap-tt-c-green-domain-composition-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k110_rsap_tt_c_green_domain_composition_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k110-rsap-tt-c-green-domain-composition-gate-review.md"
+}

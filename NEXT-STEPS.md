@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K110 POSITIVITY AND GREEN PROPAGATION COMPOSE ON THE SHARED
+> `2D` TT PENCIL, NOT YET ON THE `98D` RSAP.** At fixed constant scalar
+> background on the free-connected real-spectrum component, the spectral
+> `C(u)` preserves the observed Green core and spacelike-compact images,
+> `H=KC` is positive, `D=Box I+L(u)` is formally `H`-symmetric, and uniqueness
+> gives `C G^+/-=G^+/- C`. This corrects K109's claim that those two partials
+> were on different carriers. It does not produce a positive conserved energy
+> or closed self-adjoint quantum domain; a variable background creates
+> uncancelled `grad C` and `Box C` terms. The `2D` package is not an invariant
+> linear subquotient of the balanced `98D` phase tangent, whose proper factors
+> are `49D`. **The next admissible bridge is an action-owned stationary
+> total-field or boundary map into the actual BFV complex, including the
+> moving-background derivative completion. Do not repeat fixed-background
+> spectral algebra or promote Green grade to quantum-domain grade.**
+
 > **2026-08-15 K109 CURRENT POSITIVITY/DOMAIN INVENTORY IS EXHAUSTED AT THE
 > FULL OWNER-PACKET GATE.** Zero of nine presently named constructed, partial
 > or composite candidates owns selector, positive pairing and common closed
