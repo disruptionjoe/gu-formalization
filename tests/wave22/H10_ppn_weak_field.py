@@ -77,8 +77,49 @@ physics: a verbatim numbered equation from a Stelle-co-authored paper citing
 Stelle 1978, plus three independent confirmations.
 =============================================================================
 """
+# REPAIRED 2026-08-15.  The 2026-08-09 banner above was prepended as a SECOND
+# module docstring, which pushed `from __future__ import annotations` past the
+# start of the file and made this module raise SyntaxError on import and on
+# run.  The repository's only Cassini/LLR bar was therefore DEAD for six days
+# and no RED list recorded it, so a dead falsifier read as a live one.
+# The future-import is hoisted here; both text blocks are preserved verbatim,
+# the second now being an ordinary string expression.
+#
+# Note for anyone writing a gate against this class: `ast.parse` does NOT catch
+# it.  The __future__-placement rule is enforced at compile, not parse, so a
+# syntax check built on ast.parse reports this file clean.
+from __future__ import annotations
 
-#!/usr/bin/env python3
+import os as _os
+import sys as _sys
+
+# KNOWN-DEFECT GUARD, added 2026-08-15 with the parse repair above.
+#
+# Repairing the SyntaxError alone would have been actively harmful.  This file's
+# own banner records that its Yukawa assignment is WRONG -- the spin-2
+# coefficient is -4/3, not +1/3, so the magnitude is four times larger, the sign
+# is REPULSIVE as a ghost must be, and `gamma - 1` flips sign.  The banner says
+# plainly that "that sign is the entire observational content here", and that
+# remediation is OWED and NOT DONE because it changes behaviour and propagates
+# to explorations/wave22/H10-ppn-weak-field-2026-07-11.md.
+#
+# Un-gated, this module runs to completion and prints
+# "VERDICT: GATED-ON-mu_DW, effectively PASSES (not falsified)" -- a
+# non-falsification verdict computed from the assignment its own header
+# disavows.  Dead and silent was bad; alive and confidently wrong is worse.
+#
+# So it now exits nonzero and says why.  Set H10_ACKNOWLEDGE_KNOWN_DEFECT=1 to
+# run it anyway while performing the remediation; the flag exists so the person
+# fixing it can still execute it, not so callers can silence it.
+if not _os.environ.get("H10_ACKNOWLEDGE_KNOWN_DEFECT"):
+    _sys.stderr.write(
+        "H10 REFUSES TO REPORT: its Yukawa assignment is known wrong per this\n"
+        "file's own 2026-08-09 banner (spin-2 coefficient is -4/3, not +1/3;\n"
+        "gamma-1 flips sign). Any verdict printed below would be unsound.\n"
+        "Remediation is owed and listed in the banner. To run while fixing it:\n"
+        "  H10_ACKNOWLEDGE_KNOWN_DEFECT=1 python tests/wave22/H10_ppn_weak_field.py\n")
+    raise SystemExit(1)
+
 r"""H10 -- THE PPN / WEAK-FIELD SOLAR-SYSTEM BAR for GU's tree-level gravity.
 
 Wave 22. A CHEAP FALSIFIER. GU's gravity (Waves 1-10) is a tree-level Stelle-clear:
@@ -132,7 +173,6 @@ PUBLISHED BOUNDS USED (comparison only, cited; NOT imported as targets):
 
 Run: python -u tests/wave22/H10_ppn_weak_field.py   (exit 0 iff all PASS)
 """
-from __future__ import annotations
 import math
 import sympy as sp
 

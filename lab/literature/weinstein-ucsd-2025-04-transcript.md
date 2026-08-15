@@ -10,6 +10,58 @@ date: 2025-04
 
 # Eric Weinstein UCSD April 2025 — Full Transcript
 
+> [!IMPORTANT]
+> **Textual apparatus — added 2026-08-15. This copy was NOT verbatim-complete
+> and one restoration has been made to the body.**
+>
+> This file is graded `doc_type: primary_source` and is what every
+> source-fidelity judgment in the repository is read against. A sentence-level
+> diff against `papers/drafts/Transcript into the impossible.md` (378 vs 377
+> comparable sentences, 291 shared) shows this copy is an **edited derivative**,
+> not an independent transcription: it silently normalises speech (`Stückelberg`
+> for `Stuckelberg`, `gauge invariance` for `gauge and variance`, `Weyl spinors`
+> for `vial Weyl spinners`) and, at `[00:45:00]`, **deleted a sentence**.
+>
+> **Restored to the body at `[00:45:00]`**, verbatim from the drafts copy:
+>
+> > *"But this is the right chain. Spin six four, spin three comma two, s u
+> > three cross s u two cross u one, Brian,"*
+>
+> This copy previously replaced that entire span with the single word *"So,"*.
+> The deletion is material and not cosmetic. It removes Weinstein's only
+> affirmative statement of the chain, leaving the surrounding passage as
+> complaint alone — *"this spin 10 is not right … we wasted the seventies work
+> … we're shielded experimentally"* — so a reader of this copy saw the
+> concession without the endorsement that follows it. The steward pass of
+> 2026-08-14 characterised the defect as flipping a passage from
+> concession-only to concession-plus-endorsement, and that is exactly right.
+>
+> **Consequence, verified 2026-08-15:** `Spin(3,2)` occurs **zero** times in
+> `lab/sources/source-claim-register.yaml`, and the chain occurs nowhere in
+> `lab/sources/`, `explorations/` or `canon/`. A source-attested chain naming
+> `Spin(6,4)`, `Spin(3,2)` and `SU(3)xSU(2)xU(1)` has therefore been absent
+> from the repository's entire source apparatus for as long as this copy has
+> been the one people read. An artifact written on 2026-08-15 quoted this very
+> passage for its "seventies work" sentence and could not have seen the chain.
+>
+> **Still owed by the source owner, and NOT done here:** confirmation against
+> the actual recording of which copy is faithful, and registration of the chain
+> as a source claim if it is. The restoration above follows the drafts copy on
+> the evidence that this file is the edited derivative; it is not independent
+> confirmation. Further divergences are recorded and NOT actioned, all of them
+> wording rather than content: this copy normalises the "Stuckelberg trick"
+> sentence and the "pull back vial Weyl spinners" sentence, and it contains one
+> sentence — *"Three hidden curvature components visible only with torsion."* —
+> that the drafts copy lacks. After the restoration above, no further **deleted
+> content** was found; the residual sentence-level differences are transcription
+> variants and line-splitting of speaker attributions.
+>
+> *(An earlier draft of this apparatus asserted that this copy also lacked the
+> drafts copy's opening line. That was wrong — both copies carry it, split
+> differently across lines — and it is corrected here rather than quietly
+> removed, since an inaccurate apparatus on a `primary_source` file is the same
+> class of defect this block exists to record.)*
+
 Brian Keating [00:00:00]:
 The great nap is now over.
 
@@ -164,7 +216,7 @@ Eric Weinstein [00:43:47]:
 And then you combine these two, and suddenly you have spinners because you have a a bundle that is semi canonically equivalent to the tangent bundle upstairs with a god given metric without ever choosing a metric. So part of the whole point of g u is that your quantum gravity escape will never work as long as you have fermions because you don't have a metric bundle if you don't have a metric between observations of the metric in a quantum theory. In the case of integral spin fields, you have the bundles, but you don't know where the wave is. In the case of fractional spin bundles, you can't even define spin one half without a metric. Standard model answers the question, what is the maximal compact subgroup of s u three comma two? And that's s u three cross s u two cross u one. In other words, the punch line comes first. What is s u three cross s u two cross u one? And it's an answer to the question, what is maximal compact of s u three comma two? Same question, what is, the petite salam group? It's not s u four cross s u two cross s u two. It's spin six cross spin four, and it's the maximal compact subgroup of spin six comma spin four.
 
 Eric Weinstein [00:45:00]:
-So you can see this chain. Everything is contained in spin 10 c, which mathematicians care about my guess as physicists less unless they're string theorists. And what you see is that this spin 10 is not right. We wasted the seventies work because we wanted to avoid indefinite signature on the killing form, and I don't know what to do because we're in a maximally compact subgroup. We're shielded experimentally from understanding how nature handles the, indeterminacy of the killing form. So, in terms of the axis of evil in certain, Lorentz breaking directions in space. If you take the one dimension that's distinguished in the space of all metrics and this has a complex structure, you can ask where that gets sent to, and that will actually break, in a certain sense, your Lorentz invariance.
+So you can see this chain. Everything is contained in spin 10 c, which mathematicians care about my guess as physicists less unless they're string theorists. And what you see is that this spin 10 is not right. We wasted the seventies work because we wanted to avoid indefinite signature on the killing form, and I don't know what to do because we're in a maximally compact subgroup. We're shielded experimentally from understanding how nature handles the, indeterminacy of the killing form. But this is the right chain. Spin six four, spin three comma two, s u three cross s u two cross u one, Brian, in terms of the axis of evil in certain, Lorentz breaking directions in space. If you take the one dimension that's distinguished in the space of all metrics and this has a complex structure, you can ask where that gets sent to, and that will actually break, in a certain sense, your Lorentz invariance.
 
 Eric Weinstein [00:46:02]:
 Okay. We will never find space time Susie. We fed Salam Strathy, which always needs to eat an affine space, the wrong affine space. Don't feed it Minkowski space. Feed it the space of connections. Then the Lorentz group is the gauge group. The space of four momentum becomes the space of gauge potentials. And what you find is the fermionic extension gives you exactly three families of chiral fermions if you have a decreased VEV in the total space taking a Dirac equation into two vial equations because the mass is actually a variable to your point.

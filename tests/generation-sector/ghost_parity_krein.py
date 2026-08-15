@@ -73,7 +73,24 @@ def analyze(timelike, label):
 
     etaV = np.diag([(-1.0 if a in timelike else 1.0) for a in range(14)]).astype(complex)
     K = np.kron(etaV, bS)
-    B = Wt.conj().T @ K @ Wt; B = 0.5 * (B + B.conj().T)
+    B = Wt.conj().T @ K @ Wt
+    # PRECONDITION added 2026-08-15.  The next line symmetrises B, and did so
+    # with no check.  That is a no-op when B is already Hermitian and a silent
+    # rewrite of the object when it is not: eigvalsh would then report the
+    # signature of the Hermitian PART rather than of B, which is the difference
+    # between COMPUTING the (96,96) result below and MANUFACTURING it.  The
+    # generation sector leans on that number, so the assumption is now checked
+    # rather than assumed.  Measured residual here is ~1e-16, i.e. the
+    # symmetrisation really was only floating-point cleanup -- but nothing in
+    # the file said so, and nothing would have complained if it stopped being
+    # true.
+    _herm_residual = np.linalg.norm(B - B.conj().T)
+    assert _herm_residual < 1e-9, (
+        f"{label}: B is NOT Hermitian before symmetrisation (residual "
+        f"{_herm_residual:.2e}). Symmetrising would discard a real "
+        f"anti-Hermitian part and the Krein signature below would be an "
+        f"artifact of that discard, not a property of B.")
+    B = 0.5 * (B + B.conj().T)
     sig = np.linalg.eigvalsh(B)
     npl, nmi, nz = int(np.sum(sig > 1e-9)), int(np.sum(sig < -1e-9)), int(np.sum(np.abs(sig) < 1e-9))
     print(f"{label} ({p},{q}): beta pseudo-anti-Herm residual {res:.0e} | "
