@@ -60,6 +60,8 @@ LIBRARY_ALLOWLIST = frozenset({
     "tests/channel-swings/actual_sym2_c14_orbit_probe.py",
     "tests/channel-swings/full20_dewitt_loop_transport_probe.py",
     "tests/channel-swings/p77_real_index_twin.py",
+    "tests/channel-swings/k77_exact_bank_api.py",
+    "tests/channel-swings/nguyen_c1c2_real_form_probe.py",
     "tests/channel-swings/unified_source_datum_packet_v0_probe.py",
     "tests/channel-swings/uniformity_execution_probe.py",
     "tests/channel-swings/w177_ym_residual_and_mode_closure_probe.py",

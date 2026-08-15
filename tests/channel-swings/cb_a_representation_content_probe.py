@@ -25,8 +25,52 @@ Conventions fixed once (and checked against the K77-A charge dictionary):
 from __future__ import annotations
 
 import itertools
+import sys
 from collections import Counter
 from fractions import Fraction as F
+
+if "--selftest" in sys.argv:
+    # Non-vacuity harness (added 2026-08-15).  Adding `sys.exit(1)` at the end
+    # is worthless unless a wrong answer actually reaches it, so each mutation
+    # below plants a FALSE arithmetic fact in a copy of this file and requires
+    # exit 1.  A mutation that still exits 0 means the corresponding check is
+    # decorative.
+    import pathlib, subprocess, tempfile
+    _full = pathlib.Path(__file__).read_text(encoding="utf-8")
+    # Mutate only the probe BODY.  The table below quotes each anchor, so a
+    # naive whole-file search finds every anchor twice and silently mutates
+    # this harness instead of the computation.
+    _split = "CHECKS: list[tuple[str, bool, str]] = []"
+    # rsplit, not split: the marker's own string literal above is the FIRST
+    # occurrence in the file, so a forward split puts this harness in the body
+    # and finds every anchor twice.
+    _head, _body = _full.rsplit(_split, 1)
+    src = _body
+    MUTATIONS = [
+        ("dim-V10", "dim(V10) == 10", "dim(V10) == 11"),
+        ("dim-L5", "dim(L5) == 252", "dim(L5) == 253"),
+        ("family-dict", "(F(1, 6), F(1, 2), F(2, 3)): 3,", "(F(1, 6), F(1, 2), F(2, 3)): 4,"),
+        ("trace-Y", "sum(Ys) == 0", "sum(Ys) == 1"),
+        ("adjoint-dim", "dim(L2) == 45", "dim(L2) == 46"),
+    ]
+    bad = 0
+    with tempfile.TemporaryDirectory() as d:
+        for label, old, new in MUTATIONS:
+            if src.count(old) != 1:
+                print(f"  mutation {label:14} ANCHOR NOT UNIQUE ({src.count(old)}x)")
+                bad += 1
+                continue
+            f = pathlib.Path(d) / f"mut_{label}.py"
+            f.write_text(_head + _split + src.replace(old, new), encoding="utf-8")
+            rc = subprocess.run([sys.executable, str(f)],
+                                capture_output=True).returncode
+            if rc == 0:
+                print(f"  mutation {label:14} exit 0  <-- VACUOUS CHECK")
+                bad += 1
+            else:
+                print(f"  mutation {label:14} exit {rc}  OK")
+    print("FAILURE-PATH SELFTEST: " + ("PASS" if not bad else "FAIL"))
+    sys.exit(1 if bad else 0)
 
 CHECKS: list[tuple[str, bool, str]] = []
 
@@ -379,7 +423,25 @@ for name, ok, detail in CHECKS:
         n_fail += 1
     print(f"[{tag}] {name}" + (f"   -> {detail}" if detail else ""))
 print("=" * 74)
-print(f"{len(CHECKS) - n_fail} passed, {n_fail} failed")
+
+# Entries whose name ends in ": report" are passed `True` by construction --
+# they transport a number for the reader and decide nothing.  They are counted
+# SEPARATELY so the certificate figure reflects only checks that can fail.
+n_report = sum(1 for name, _, _ in CHECKS if name.endswith(": report"))
+n_real = len(CHECKS) - n_report
+print(f"{n_real - n_fail}/{n_real} falsifiable checks pass, "
+      f"{n_fail} failed, plus {n_report} labelled reports (unconditional).")
+
+# ---- FAILURE PATH (added 2026-08-15).
+# This probe computed n_fail and then EXITED 0 REGARDLESS, so a genuine [FAIL]
+# line would scroll past in a green run: certificate_shape_audit flagged it as
+# an unconditional PASS and was right.  It backs
+# explorations/conditional-build/cb-a-representation-content-2026-08-05.md.
+if n_real == 0:
+    print("VACUITY: no falsifiable check ran")
+    sys.exit(1)
+if n_fail:
+    sys.exit(1)
 
 print("\n--- 45 weak-doublet audit (why it is empty) ---")
 for w in sorted(L2):

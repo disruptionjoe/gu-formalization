@@ -27,7 +27,7 @@ def gamma5(G, sig):
         if eq(mm(c,c),eye(n)): return c,ph
     return None,None
 
-def analyse(G,name):
+def analyse(G,name,expect_norm=None,expect_verdicts=None,checks=None):
     print(f"\n=== {name}")
     g5,ph=gamma5(G,name)
     print(f"  gamma5 = ({ph})*g0g1g2g3, gamma5^2 = +I  [normalisation {'REAL' if ph in (1,-1) else 'IMAGINARY'}]")
@@ -54,5 +54,78 @@ def analyse(G,name):
     verdicts={v for _,_,_,v in found}
     print(f"  SUMMARY: verdicts present = {sorted(verdicts)}")
 
-analyse(LOR,"Cl(1,3) Lorentzian")
-analyse(EUC,"Cl(4,0) Euclidean")
+    # ---- FAILURE PATH (added 2026-08-15).
+    # This probe printed its result and asserted NOTHING, so it could not fail:
+    # certificate_shape_audit correctly flagged it as an unconditional PASS.
+    # It backs a live claim (explorations/signature-chirality-conjugation-
+    # check-2026-08-13.md), so every conclusion resting on it was uncertified.
+    # The assertions below encode THAT ARTIFACT'S published table, not whatever
+    # this code happens to print today.
+    ck = checks if checks is not None else []
+    def req(cond, label):
+        ck.append(label)
+        if not cond:
+            raise AssertionError(f"{name}: {label}")
+
+    # The most dangerous missing check: with `found` empty this function
+    # printed "verdicts present = []" and returned happily.  An empty search is
+    # not agreement, it is a vacuous pass.
+    req(len(found) > 0, "at least one admissible conjugation exists")
+    req(g5 is not None, "gamma5 normalisation exists with gamma5^2 = +I")
+    req(eq(mm(g5, g5), eye(len(G[0]))), "gamma5^2 == +I verified, not assumed")
+    req("?" not in verdicts, "every admissible conjugation is classified (no '?')")
+    # Exactness: every entry is a Gaussian integer with unit-or-zero parts, so
+    # the complex arithmetic above is exact and the equality tests are not
+    # float comparisons in disguise.
+    req(all(x.real in (-1.0, 0.0, 1.0) and x.imag in (-1.0, 0.0, 1.0)
+            for row in g5 for x in (complex(v) for v in row)),
+        "gamma5 entries are exact Gaussian units -- no load-bearing float")
+    if expect_norm is not None:
+        got = "REAL" if ph in (1, -1) else "IMAGINARY"
+        req(got == expect_norm, f"gamma5 normalisation is {expect_norm} (got {got})")
+    if expect_verdicts is not None:
+        req(verdicts == expect_verdicts,
+            f"verdict set is {sorted(expect_verdicts)} (got {sorted(verdicts)})")
+    return ck
+
+
+def main(lor=LOR, euc=EUC, expect=("IMAGINARY", {"FLIPS"}, "REAL", {"PRESERVES"})):
+    checks = []
+    analyse(lor, "Cl(1,3) Lorentzian", expect[0], expect[1], checks)
+    analyse(euc, "Cl(4,0) Euclidean", expect[2], expect[3], checks)
+    # Cross-signature check: the whole point of the artifact is that the two
+    # signatures DISAGREE.  Asserting each table separately would still pass if
+    # some future edit made both signatures identical.
+    checks.append("the two signatures give opposite verdicts")
+    assert expect[1] != expect[3], "signatures must disagree"
+    print(f"\nsignature_chirality_conjugation_probe: {len(checks)}/{len(checks)} checks pass")
+    return checks
+
+
+def selftest():
+    """Planted mutations.  Each must raise; a mutation that passes means the
+    corresponding assertion is vacuous."""
+    ok = True
+    muts = [
+        ("swapped-signatures", lambda: main(EUC, LOR)),
+        ("wrong-lor-norm", lambda: main(expect=("REAL", {"FLIPS"}, "REAL", {"PRESERVES"}))),
+        ("wrong-lor-verdict", lambda: main(expect=("IMAGINARY", {"PRESERVES"}, "REAL", {"PRESERVES"}))),
+        ("wrong-euc-verdict", lambda: main(expect=("IMAGINARY", {"FLIPS"}, "REAL", {"FLIPS"}))),
+        ("empty-generators", lambda: main([], [])),
+    ]
+    for label, fn in muts:
+        try:
+            fn()
+            print(f"  mutation {label:20} DID NOT FAIL  <-- vacuous assertion")
+            ok = False
+        except Exception as exc:
+            # Print the exception TYPE.  A bare "it raised" would score a typo
+            # in the mutation itself as a healthy failure path.
+            print(f"  mutation {label:20} raised {type(exc).__name__}  OK")
+    print("FAILURE-PATH SELFTEST: " + ("PASS" if ok else "FAIL"))
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(selftest() if "--selftest" in sys.argv else (main() and 0))
