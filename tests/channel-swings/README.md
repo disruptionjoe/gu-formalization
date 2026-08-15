@@ -183,3 +183,9 @@ the ledger probe uses the standard Python interpreter.
   rank-195 symmetric-`DT` response; a parallel ansatz must pass differentiated
   action/Bianchi and Ricci/Spencer checks before primitive epsilon can close.
   Run with `sage -python <path>`.
+
+- `selected_k77_rsap_a2_a3_common_refinement_probe.py` certifies the `26D`
+  universal split `A2/A3` refinement, complete `19`-component moment and
+  primitive transition, fixed-sign Gauss-cell globality, and strict closure of
+  the first noncommuting `A2/A3/A2` triple. Run with `python3 <path>`; `53/53`
+  pass.

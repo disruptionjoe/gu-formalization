@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "split_a2_a3_regular_common_refinement_transition",
+  "created": "2026-08-15",
+  "status": "ONE_COMPLETE_CONNECTED_SPLIT_BIG_CELL_A2_A3_TRANSITION_CONSTRUCTED__FIRST_A2_A3_A2_TRIPLE_STRICT__OTHER_COMPONENTS_AND_SINGULAR_STRATA_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "common_target": {
+    "poisson_model": "sl(4,R)^*_regular times R^4_zero",
+    "dimension": 19,
+    "poisson_rank": 12,
+    "corank": 7,
+    "local_coordinates": "(q1,...,q6,p1,...,p6,c1,...,c7)",
+    "casimirs": ["three local sl4 invariants", "four central coordinates"]
+  },
+  "universal_minimal_realization": {
+    "dimension": 26,
+    "coordinates": "(q1,...,q6,p1,...,p6,c1,...,c7,t1,...,t7)",
+    "symplectic_form": "sum_i dqi wedge dpi plus sum_a dca wedge dta",
+    "primitive": "sum_i pi dqi plus sum_a ta dca",
+    "moment_map": "projection forgetting t1,...,t7",
+    "map_rank": 19,
+    "minimality_identity": "dim_source=dim_target+corank_target=26"
+  },
+  "a2_refinement": {
+    "decomposition": "O6 times X10(A2) times T*R5",
+    "orbit_transfer_block": "O6=(q1,p1,q2,p2,q3,p3)",
+    "principal_block": "X10(A2)=(q4,q5,q6,p4,p5,p6,c1,c2,t1,t2)",
+    "centre_block": "T*R5=(c3,t3,...,c7,t7)",
+    "dimension": 26
+  },
+  "a3_refinement": {
+    "decomposition": "X18(A3) times T*R4",
+    "principal_block": "X18(A3)=(q1,...,q6,p1,...,p6,c1,c2,c3,t1,t2,t3)",
+    "centre_block": "T*R4=(c4,t4,...,c7,t7)",
+    "dimension": 26
+  },
+  "pair_transition": {
+    "map": "Phi=kappa_A3^{-1} composed with kappa_A2",
+    "normal_form_coordinate_certificate": "EXPLICIT_26_BY_26_COMPLETE_PAIR_PERMUTATION",
+    "symplectic_form_pullback": "STRICT_EQUALITY",
+    "moment_map_intertwining": "STRICT_EQUALITY_TO_COMPLETE_19D_TARGET",
+    "primitive_pullback": "STRICT_EQUALITY_IN_THE_FROZEN_NORMALIZATION",
+    "allowed_section_change": "t maps to t+A c for symmetric A, changing the primitive by d(half c^T A c)",
+    "grade": "ONE_COMPLETE_CONNECTED_SPLIT_REGULAR_BIG_CELL_COMPONENT"
+  },
+  "connected_overlap": {
+    "base": "one fixed-sign split SL4 Gauss big-cell component with ordered regular invariants",
+    "coordinates": "six unipotent root coordinates, three logarithms of positive principal minors, and invariant coordinates",
+    "topology": "contractible Euclidean cell",
+    "transition_class": "ordinary global diffeomorphism on that component",
+    "cotangent_lift": "GLOBAL_AND_STRICTLY_TAUTOLOGICAL",
+    "monodromy": "ZERO_ON_THE_SELECTED_COMPONENT",
+    "other_sign_or_bruhat_components": "OPEN"
+  },
+  "first_noncommuting_triple": {
+    "charts": ["A2_left", "A3_middle", "A2_right"],
+    "construction": "three root-adapted global normalizations through the same universal 26D realization",
+    "pair_maps_commute": false,
+    "triple_composition": "STRICT_IDENTITY_BY_TELESCOPING",
+    "moment_cech_defect": "ZERO_ON_THE_SELECTED_COMPONENT",
+    "primitive_cech_defect": "ZERO_ON_THE_SELECTED_COMPONENT"
+  },
+  "full_schedule": {
+    "common_leaf_dimension": 72,
+    "refinement_dimension": 26,
+    "carrier_dimension": 98,
+    "regular_map_rank": 91
+  },
+  "scope": {
+    "selected_split_big_cell_component": "CONSTRUCTED",
+    "every_split_regular_component": "OPEN",
+    "compact_and_mixed_a3_real_forms": "OPEN",
+    "singular_extension": "OPEN",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-a3-common-refinement-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_a3_common_refinement_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a2-a3-common-refinement-review.md",
+  "next_gate": "CLASSIFY_AND_GLUE_THE_REMAINING_SPLIT_A3_REGULAR_SIGN_AND_BRUHAT_COMPONENTS__THEN_TEST_THE_FIRST_SINGULAR_CENTRALIZER_JUMP"
+}

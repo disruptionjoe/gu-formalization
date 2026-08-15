@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d4bc62ca273794e1995cfc35345941366317e46b
+revision_basis: 02ef0881ce42847f5da18fc7ee7f519d4df77af4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -419,10 +419,22 @@ current_result:
     centralizer jumps remain open. The first licensed higher-root factor also
     constructs: T*(SL(4,R)/SO(2,2)) is 18D, has map rank 15 on the split-A3
     regular locus and rank 9 at zero; with T*R4 it gives a 26D refinement and
-    retains the full 98D/rank-91 schedule. Its transition to the A2 atlas,
-    other A3 real forms, the full singular stratification, zero charge and
-    all-strata RSAP remain open.
+    retains the full 98D/rank-91 schedule. The first A2/A3 transition now
+    constructs on one complete connected split regular Gauss big-cell
+    component. Relative to the common 72D leaf, the A2 side is
+    O6 x X10(A2) x T*R5 and the A3 side is X18(A3) x T*R4. Both are the same
+    universal minimal 26D realization of the rank-12, corank-seven target
+    sl4* x R4_zero. The exact complete-pair transition preserves all 19
+    moment components and the tautological primitive. Fixed minor signs,
+    ordered invariants and logarithms of the three positive diagonal ratios
+    make the selected overlap component contractible, so its cotangent lift
+    is global there with zero monodromy. The first noncommuting A2/A3/A2
+    triple telescopes to identity with zero moment and primitive Cech defect.
+    Other split sign and Bruhat components, other A3 real forms, the full
+    singular stratification, zero charge and all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a2-a3-common-refinement-2026-08-15.md
+    - lab/process/selected-k77-rsap-a2-a3-common-refinement.json
     - explorations/conditional-build/selected-k77-rsap-a2-kostant-a3-factor-2026-08-15.md
     - lab/process/selected-k77-rsap-a2-kostant-a3-factor.json
     - explorations/conditional-build/selected-k77-rsap-a2-real-form-cartan-transition-2026-08-15.md
@@ -572,9 +584,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the split A2/A3 26D common refinement admit a global regular-overlap
-  symplectomorphism preserving the primitive and all moment components, and
-  does its first noncommuting A2/A3/A2 triple close?
+  Do the remaining split-A3 regular sign and Bruhat components glue to the
+  constructed big-cell component with compatible moment and primitive
+  cocycles, and can the resulting atlas cross its first singular centralizer
+  jump?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -583,13 +596,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the split A2/A3 26D common-refinement transition over its complete
-  connected regular overlap. It must preserve the full moment map and
-  tautological primitive and pass the first noncommuting A2/A3/A2 triple.
-  Do not infer this gluing from the passing split-A3 principal factor, and do
-  not extend to compact or mixed A3 forms before the split transition passes.
-  Deeper singular strata and the rank-at-most-49 zero-charge gate remain open,
-  with the 182D cotangent parent still the all-charge fallback.
+  Classify the remaining split-A3 regular sign and Bruhat components and
+  compute their transition cocycles against the constructed identity-cell
+  component. Only if the full split regular atlas closes should the next gate
+  attach the first singular centralizer jump. Do not infer coverage of every
+  regular component from one contractible big cell, and do not extend to
+  compact or mixed A3 forms before the split component census passes. Deeper
+  singular strata and the rank-at-most-49 zero-charge gate remain open, with
+  the 182D cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

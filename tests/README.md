@@ -4550,6 +4550,18 @@ dimension/rank schedule exactly.
 python3 tests/channel-swings/selected_k77_rsap_a2_kostant_a3_factor_probe.py
 ```
 
+## K77 RSAP split-A2/A3 common refinement
+
+`channel-swings/selected_k77_rsap_a2_a3_common_refinement_probe.py` certifies
+the universal minimal `26D` realization of `sl4* x R4_zero`, the exact
+`O6 x X10(A2) x T*R5` to `X18(A3) x T*R4` transition, all `19` moment
+components, the tautological primitive, selected connected big-cell controls,
+and the first noncommuting `A2/A3/A2` triple. It passes `53/53` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_a2_a3_common_refinement_probe.py
+```
+
 ## K77 RSAP rank-82 wall family and A2 cocycle gate
 
 `channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py`

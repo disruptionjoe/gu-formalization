@@ -7,6 +7,18 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 SPLIT `A2/A3` COMMON REFINEMENT.** One complete connected
+> split regular Gauss big-cell component now closes. Relative to the common
+> `72D` leaf, `O6 x X10(A2) x T*R5` and `X18(A3) x T*R4` are the same
+> universal minimal `26D` realization of `sl4* x R4_zero`. The exact
+> transition preserves all `19` moment components and the tautological
+> primitive; fixed minor signs and ordered invariants make the selected cell
+> contractible, so monodromy vanishes there. The first noncommuting
+> `A2/A3/A2` triple closes strictly. **Next classify and glue the remaining
+> split sign and Bruhat components, then test the first singular centralizer
+> jump.** Exact probe `53/53`; other `A3` real forms, singular strata, zero
+> charge and all-strata RSAP remain open.
+
 > **2026-08-15 REAL-REGULAR `A2` KOSTANT BRIDGE AND SPLIT-`A3` FACTOR.**
 > Principal real `sl2` triples close the missing nonsemisimple transition. The
 > split Kostant directions are `f,f^2`; the mixed directions are `f,i f^2`.
