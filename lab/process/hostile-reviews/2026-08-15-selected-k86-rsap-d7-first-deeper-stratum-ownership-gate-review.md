@@ -22,6 +22,9 @@ tests the rational span after adding each of the remaining `72` roots. The
 subsystem root counts are exactly `14`, `20`, and `24`, with multiplicities
 `12`, `48`, and `12`. These are `A3+A1`, `A4`, and `D4`; the census is
 exhaustive for one-root rank-four extensions of the fixed abstract `A3`.
+It is not an exhaustion of nonsemisimple or multi-root ambient paths, other
+Cartan embeddings, or non-root-parametrized degenerations. The contract and
+narrative state that scope directly.
 
 ## Complex type determines real stratum attack
 
@@ -36,6 +39,17 @@ The values `84`, `81`, and `79` come only from
 `2 rank(dJ) <= 98 + rank(pi)`. They are upper bounds. The registry explicitly
 marks each as not achieved by a construction. The displayed `A3+A1` product
 is dimensional revival arithmetic, not a chart or attachment.
+
+The planted `ACHIEVED_RANK_REQUIRES_CONSTRUCTION_WITNESS` mutation promotes
+one ceiling without a construction reference and must fail.
+
+## Same ranks, wrong ambient object attack
+
+K80's transverse, `(2,2)`, and `(3,2)` controls have the same individual
+local factor classes but inequivalent ambient joint objects. The planted
+`SELECTION_REQUIRES_OWNED_AMBIENT_WITNESS` mutation selects `A3+A1` while the
+embedding, extra root and path remain missing and must fail. This prevents
+formula closure from masquerading as ownership.
 
 ## Local-origin equals ambient-origin attack
 

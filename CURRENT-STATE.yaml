@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a64642e9ae02058b979d2db01c5d7d96cf40e102
+revision_basis: 4e07464866919bb8d46844e52e80a4894103c2fc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -629,7 +629,10 @@ current_result:
     neither constructed nor attached. No ambient or cross-form edge is added.
     The next independent local gate is zero charge, where a 98D map must have
     differential rank at most 49; global gluing remains blocked by the missing
-    ambient successor.
+    ambient successor. A reusable ambient-stratum contract now enforces that
+    boundary against K80's transverse, (2,2) and (3,2) contrary placements,
+    synchronizes the owner/transfer decision with the narrative, and records
+    that the existence interval remains [98,182].
     The first zero-charge construction now proves that ceiling is nonlinearly
     sharp. For G=Spin_0(7,7) and a 42-dimensional maximal split unipotent N,
     G/N is 49-dimensional and T*(G/N) is a smooth 98-dimensional symplectic
@@ -648,7 +651,25 @@ current_result:
     real-polarization test at the selected (5,2) Cartan: construct or obstruct
     a 42-dimensional Lie subalgebra of its Killing orthogonal that can serve
     as a cotangent stabilizer, while preserving nonhomogeneous models.
+    That real-polarization gate now constructs. Split R^(7,7) as U_(3,4) plus
+    W_(4,3). The connected symmetric subgroup H_bal with Lie algebra
+    so(3,4)+so(4,3) has dimension 42, and its 49-dimensional off-diagonal
+    complement p is exactly h-perp.
+    Therefore T*(G/H) is a smooth 98-dimensional Hamiltonian carrier with map
+    rank 49 at zero. Four exact commuting matchings place full regular Cartan
+    subalgebras of types (7,0), (5,2), (3,4) and (1,6) inside p. In every row
+    the ambient adjoint rank is 84, h meets the seven-dimensional centralizer
+    trivially, and the cotangent moment map has rank 91. Thus the selected
+    (5,2) charge and the complete regular-semisimple locus pass; K87's real-
+    triangular spectral obstruction was candidate-specific. The image is
+    Ad(G)p. Coverage of regular nonsemisimple and singular orbits remains open,
+    so no zero neighborhood, surjectivity or RSAP is claimed. The next exact
+    gate is the anticommuting-involution orbit census, beginning with signed
+    Young diagrams; one missed nonzero orbit kills this horn's neighborhood
+    claim because the image is conic.
   evidence:
+    - explorations/conditional-build/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn-2026-08-15.md
+    - lab/process/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn.json
     - explorations/conditional-build/selected-k87-rsap-zero-charge-maximal-unipotent-horn-2026-08-15.md
     - lab/process/selected-k87-rsap-zero-charge-maximal-unipotent-horn.json
     - explorations/conditional-build/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate-2026-08-15.md
@@ -828,10 +849,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the Killing orthogonal of the action-owned regular (split 5, compact 2)
-  Cartan charge contain a 42-dimensional Lie subalgebra whose homogeneous
-  cotangent horn reaches both that charge and zero, or are all such 98D real-
-  polarization horns obstructed?
+  Does every regular nonsemisimple and singular so(7,7) orbit meet the balanced
+  symmetric complement p under the required anticommuting orthogonal
+  involution, with trivial h-centralizer on the complete regular locus, or
+  does one exact orbit kill this 98D zero-neighborhood horn?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -840,17 +861,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Test the selected (5,2) Cartan real-polarization condition. For a homogeneous
-  98D cotangent horn T*(G/H), require dim(H)=42, h contained in the Killing
-  orthogonal of the selected charge, and h intersecting its seven-dimensional
-  centralizer trivially; verify Lie closure rather than choosing a Lagrangian
-  subspace only. Construct such an h or give a scoped obstruction, and keep
-  nonhomogeneous 98D Hamiltonian models open unless separately controlled.
-  The maximal-unipotent horn T*(G/N) already achieves rank(dJ)=49 at zero and
-  rank 91 over the split-regular locus, proving the pointwise ceiling sharp,
-  but its image Ad(G)b excludes mixed/elliptic charges arbitrarily close to
-  zero and therefore fails zero-neighborhood coverage. Do not claim global
-  gluing across the missing ambient successor. The
+  Classify the balanced symmetric horn image Ad(G)p beyond the now-complete
+  regular-semisimple Cartan locus. Use the equivalent predicate that X admits
+  a Q-orthogonal involution R with R^2=1, RX+XR=0 and eigenspace signatures
+  (3,4) and (4,3). Begin with exact signed-Young-diagram representatives for
+  the nilpotent cone, including principal [13,1] and regular nonsemisimple
+  controls; for every regular admitted orbit also require h intersection g_X
+  to be zero. Only after the nilpotent cone passes should mixed Jordan types in
+  singular semisimple centralizers be enumerated. Because Ad(G)p is conic, one
+  missed nonzero orbit kills zero-neighborhood coverage for this horn but not
+  nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
+  global gluing across the missing ambient successor before that census. The
   one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
   target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
   constructed. Reopen an ambient successor only with an explicit source/action-

@@ -92,6 +92,160 @@
     "nearest_by_rank_selects_actual_successor": false,
     "revival_trigger": "EXPLICIT_SOURCE_OR_ACTION_OWNED_AMBIENT_A3_EMBEDDING_PLUS_EXTRA_ROOT_OR_EQUIVALENT_COADJOINT_DEGENERATION_PATH"
   },
+  "ambient_discriminator_contract": {
+    "contract_id": "rsap_ambient_stratum_discriminator",
+    "contract_version": "1.0",
+    "schema_ref": "lab/process/ambient-stratum-contract.schema.json",
+    "candidate_scope": {
+      "included": "FIXED_CARTAN_SEMISIMPLE_ONE_ROOT_RANK_FOUR_EXTENSIONS",
+      "not_exhausted": [
+        "NONSEMISIMPLE_OR_MULTI_ROOT_AMBIENT_PATHS",
+        "OTHER_CARTAN_OR_NON_ROOT_PARAMETRIZED_DEGENERATIONS"
+      ]
+    },
+    "typing": {
+      "object": "CLASSICAL_D7_AMBIENT_COADJOINT_STRATUM_DISCRIMINATOR",
+      "carrier": "COMPLETED_LOCAL_98D_A3_CARRIERS_WITH_ABSTRACT_S72_LEAF",
+      "pairing_or_form": "D7_ROOT_PAIRING_AND_LIE_POISSON_RANK",
+      "real_structure": "so(7,7)_REAL_FORM_NOT_SELECTED_FOR_SUCCESSOR",
+      "grading": "NOT_APPLICABLE",
+      "action_owner": "NOT_PROVIDED_FOR_AMBIENT_SUCCESSOR",
+      "target_object": "FIRST_DEEPER_AMBIENT_so(7,7)_COADJOINT_STRATUM",
+      "assumptions": [
+        "FIX_ONE_ABSTRACT_A3_CHAIN_INSIDE_D7",
+        "ENUMERATE_ONE_ADDED_ROOT_ONLY"
+      ],
+      "comparator_exclusions": [
+        "ORDINARY_HIGGS",
+        "ORDINARY_FAMILY_INDEX",
+        "NET_CHIRALITY"
+      ]
+    },
+    "ambient_object": {
+      "owner_status": "NOT_PROVIDED",
+      "selection_status": "TYPE_MISSING",
+      "required_witnesses": [
+        "selected_a3_ambient_embedding",
+        "selected_extra_root_or_equivalent_support_change",
+        "ambient_degeneration_path"
+      ],
+      "owned_witnesses": [],
+      "invariant_tuple": {
+        "support_dimension": "NOT_PROVIDED",
+        "support_signature": "NOT_PROVIDED",
+        "intersection_signature": "NOT_PROVIDED",
+        "real_support_type": "NOT_PROVIDED",
+        "orbit_closure_parent": "NOT_PROVIDED",
+        "orbit_closure_order": "NOT_PROVIDED",
+        "actual_centralizer_component": "NOT_PROVIDED"
+      }
+    },
+    "table_refs": {
+      "candidate_extensions": "#/classification/one_root_extensions",
+      "rank_schedule": "#/rank_schedule/candidate_rows"
+    },
+    "source_refs": [
+      {
+        "id": "k80_relative_models",
+        "path": "lab/process/selected-k80-rsap-a3-cross-real-form-incidence.json",
+        "json_pointer": "/relative_models",
+        "role": "CONTRARY_AMBIENT_PLACEMENTS"
+      },
+      {
+        "id": "k81_missing_joint_type",
+        "path": "lab/process/selected-k81-rsap-a3-relative-placement-ownership-gate.json",
+        "json_pointer": "/missing_joint_type",
+        "role": "AMBIENT_OWNER_CONTROL"
+      },
+      {
+        "id": "k87_resolution",
+        "path": "lab/process/selected-k87-rsap-zero-charge-maximal-unipotent-horn.json",
+        "json_pointer": "/construction/zero_charge_status",
+        "role": "LATER_SUCCESSOR_RESOLUTION"
+      }
+    ],
+    "contrary_controls": [
+      {
+        "id": "K80_TRANSVERSE",
+        "source_key": "transverse",
+        "expected_tuple": {
+          "support_intersection_dimension": 0,
+          "support_intersection_signature": [0, 0],
+          "embedded_algebra_intersection": "zero",
+          "embedded_algebra_intersection_dimension": 0
+        }
+      },
+      {
+        "id": "K80_A1XA1_22",
+        "source_key": "a1xa1_face_candidate",
+        "expected_tuple": {
+          "support_intersection_dimension": 4,
+          "support_intersection_signature": [2, 2],
+          "embedded_algebra_intersection": "so(2,2)_isomorphic_to_sl2(R)_plus_sl2(R)",
+          "embedded_algebra_intersection_dimension": 6
+        }
+      },
+      {
+        "id": "K80_B2_32",
+        "source_key": "b2_bridge_candidate",
+        "expected_tuple": {
+          "support_intersection_dimension": 5,
+          "support_intersection_signature": [3, 2],
+          "embedded_algebra_intersection": "so(3,2)_isomorphic_to_sp4(R)",
+          "embedded_algebra_intersection_dimension": 10
+        }
+      }
+    ],
+    "transfer_decision": {
+      "ambient_edge": "DO_NOT_ADD",
+      "rank_schedule_transfer": "NOT_LICENSED",
+      "local_a3_rank_schedule": "COMPLETED_BUT_NOT_AMBIENTLY_ATTACHED",
+      "conditional_template": "DIMENSIONAL_ONLY_NOT_CONSTRUCTED"
+    },
+    "interval_effect": {
+      "before": [98, 182],
+      "after": [98, 182],
+      "tightened": false,
+      "reason": "NO_GLOBAL_98D_CONSTRUCTION_OR_STRONGER_LOWER_BOUND_FOLLOWS_FROM_THE_TYPE_MISSING_SUCCESSOR"
+    },
+    "successor_gate": {
+      "issued": {
+        "status": "OPEN_NEXT_AS_OF_K86",
+        "object": "ZERO_COADJOINT_VALUE_ON_A_SMOOTH_98D_HAMILTONIAN_CARRIER",
+        "scope": "LOCAL_ONLY",
+        "rank_ceiling": 49
+      },
+      "current_resolution": {
+        "status": "COMPLETED_BY_K87",
+        "registry": "lab/process/selected-k87-rsap-zero-charge-maximal-unipotent-horn.json",
+        "result": "RANK49_ACHIEVED_BUT_ZERO_NEIGHBORHOOD_COVERAGE_FAILED_FOR_THIS_CANDIDATE"
+      },
+      "global_glue": "PROHIBITED_UNTIL_AMBIENT_SUCCESSOR_SELECTED"
+    },
+    "decision_summary": {
+      "ambient_owner": "NOT_PROVIDED",
+      "selected_ambient_successor": "TYPE_MISSING",
+      "candidate_scope": "FIXED_CARTAN_SEMISIMPLE_ONE_ROOT_ONLY",
+      "candidate_types": ["A3+A1", "A4", "D4"],
+      "contrary_controls": ["TRANSVERSE", "INTERSECTION_2_2", "INTERSECTION_3_2"],
+      "rank_schedule_transfer": "NOT_LICENSED",
+      "bound_interval_before": [98, 182],
+      "bound_interval_after": [98, 182],
+      "bound_tightened": false,
+      "zero_charge_gate_at_k86": "ADMITTED_LOCAL_ONLY_WITH_RANK_CEILING_49",
+      "global_glue": "PROHIBITED"
+    },
+    "mutation_controls": [
+      {
+        "id": "same_ranks_wrong_ambient_object",
+        "expected_error": "SELECTION_REQUIRES_OWNED_AMBIENT_WITNESS"
+      },
+      {
+        "id": "ceiling_promoted_without_construction",
+        "expected_error": "ACHIEVED_RANK_REQUIRES_CONSTRUCTION_WITNESS"
+      }
+    ]
+  },
   "conditional_a3xa1_template": {
     "carrier": "S70 times T*(A3 principal factor) times T*(A1 principal factor) times T*R3",
     "dimension_terms": [70, 18, 4, 6],

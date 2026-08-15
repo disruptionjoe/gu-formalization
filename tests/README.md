@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
+  builds the exact balanced symmetric decomposition
+  `so(7,7)=(so(3,4)+so(4,3))+p`, proves `dim(p)=49` and `h^perp=p`, and
+  certifies the `98D` cotangent horn has rank `49` at zero. Exact commuting
+  matchings cover all four regular semisimple real Cartan types, including the
+  selected `(5,2)` type, at map rank `91`; singular/nonsemisimple coverage
+  remains open. It passes `58/58`.
+
 - `channel-swings/selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py`
   builds the exact `91D` split-`D7` matrix algebra, its `42D` positive-root
   nilradical and `49D` Borel, proving `n^perp=b`. It certifies the canonical
@@ -19,7 +27,10 @@ the map: which directory/group supports which claim.
   `70/64/60` plus `98D` map-rank ceilings `84/81/79`. It verifies that the
   completed local carriers own no extra ambient root or degeneration path,
   keeps the actual successor `TYPE_MISSING`, and leaves the displayed
-  `A3+A1` product as an unattached dimensional template. It passes `53/53`.
+  `A3+A1` product as an unattached dimensional template. The reusable
+  ambient-stratum contract also binds K80 contrary placements, the exact
+  `[98,182]` no-change effect, narrative synchronization, and two planted
+  ownership failures. It passes `59/59`.
 
 - `channel-swings/selected_k85_rsap_sustar4_a3_singular_transition_atlas_probe.py`
   retains all six `SU*(4)/SO*(4)` canonical spectral/Jordan families,

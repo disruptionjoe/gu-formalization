@@ -146,8 +146,8 @@ print("A. PREDECESSOR AND DURABLE FILES")
 capture = io.StringIO()
 with contextlib.redirect_stdout(capture):
     prior = runpy.run_path(str(PREDECESSOR))
-check("prior", "the K86 ambient ownership predecessor replays 53/53",
-      '"checks": 53' in capture.getvalue()
+check("prior", "the hardened K86 ambient ownership predecessor replays 59/59",
+      '"checks": 59' in capture.getvalue()
       and '"failures": []' in capture.getvalue()
       and not prior["FAILURES"])
 check("artifact", "result registry and hostile review exist",

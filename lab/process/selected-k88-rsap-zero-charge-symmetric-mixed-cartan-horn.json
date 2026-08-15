@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_zero_charge_balanced_symmetric_pair_cotangent_horn",
+  "created": "2026-08-15",
+  "status": "SHARP_98D_ZERO_HORN__ALL_FOUR_REGULAR_SEMISIMPLE_CARTAN_TYPES_SUBMERSIVE__SINGULAR_AND_NONSEMISIMPLE_COVERAGE_OPEN",
+  "layer_0": {
+    "object": "classical cotangent-lift Hamiltonian moment map for a balanced pseudo-orthogonal symmetric space",
+    "physical_phase_space": false,
+    "source_selected_subgroup": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "ordinary_higgs_model_relevant": false,
+    "ordinary_family_index_relevant": false,
+    "ordinary_chirality_target_relevant": false
+  },
+  "symmetric_pair": {
+    "group": "Spin_0(7,7)",
+    "ambient_lie_algebra_dimension": 91,
+    "orthogonal_decomposition": "R^(7,7)=U_(3,4)+W_(4,3)",
+    "involution": "S=+1_on_U_minus_1_on_W",
+    "stabilizer_group": "CONNECTED_CLOSED_SYMMETRIC_SUBGROUP_H_bal_WITH_LIE_ALGEBRA_so(3,4)+so(4,3)__CENTRAL_QUOTIENT_SUPPRESSED",
+    "stabilizer_lie_algebra": "so(3,4)+so(4,3)",
+    "stabilizer_dimension": 42,
+    "complement": "p=off_diagonal_S_odd_part",
+    "complement_dimension": 49,
+    "brackets": ["[h,h] subset h", "[h,p] subset p", "[p,p] subset h"],
+    "killing_orthogonal": "h_perp=p"
+  },
+  "construction": {
+    "carrier": "T*(Spin_0(7,7)/H_bal)",
+    "carrier_dimension": 98,
+    "symplectic_form": "CANONICAL_COTANGENT_FORM",
+    "moment_map": "J([g,X])=Ad_g(X)_for_X_in_p",
+    "moment_image": "Ad(G)p",
+    "moment_map_equivariant": true,
+    "moment_map_poisson": true,
+    "zero_charge_point": "[e,0]",
+    "zero_charge_stabilizer_dimension": 42,
+    "zero_charge_map_rank": 49,
+    "zero_charge_target_poisson_rank": 0,
+    "zero_charge_status": "ACHIEVED_AND_BOUND_SATURATING",
+    "regular_rank_formula": "rank_dJ=49+rank(ad_X:p_to_h)=91-dim(h_intersection_g_X)"
+  },
+  "regular_cartan_coverage": {
+    "cartan_types": [
+      {"type": "(7,0)", "split_rank": 7, "compact_rank": 0, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(5,2)", "split_rank": 5, "compact_rank": 2, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(3,4)", "split_rank": 3, "compact_rank": 4, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(1,6)", "split_rank": 1, "compact_rank": 6, "map_rank": 91, "target_poisson_rank": 84}
+    ],
+    "selected_action_owned_type": "(5,2)",
+    "selected_type_status": "CONTAINED_WITH_TRIVIAL_h_CENTRALIZER_INTERSECTION",
+    "k87_real_triangular_spectral_obstruction": "REMOVED_FOR_THIS_HORN",
+    "complete_regular_semisimple_locus": "COVERED_AND_SUBMERSIVE"
+  },
+  "coverage_gate": {
+    "membership_equivalence": "X_in_Ad(G)p_iff_exists_Q_orthogonal_involution_R_with_RX+XR=0_and_eigenspace_signatures_(3,4)_(4,3)",
+    "regular_nonsemisimple_orbits": "OPEN",
+    "singular_semisimple_orbits": "OPEN",
+    "singular_nonsemisimple_orbits": "OPEN",
+    "principal_nilpotent": "NOT_YET_CLASSIFIED",
+    "full_target_neighborhood_of_zero": "OPEN",
+    "surjective_to_so77_dual": "OPEN",
+    "conic_kill_rule": "ONE_MISSED_NONZERO_ORBIT_KILLS_ZERO_NEIGHBORHOOD_COVERAGE_FOR_THIS_HORN"
+  },
+  "contrary_controls": {
+    "k87_same_dimension_wrong_real_coverage": "MAXIMAL_UNIPOTENT_HORN_MISSES_(5,2)",
+    "unbalanced_7_0_0_7": "ONLY_SPLIT_CARTAN_BLOCKS",
+    "unbalanced_2_5_5_2": "COMPACT_RANK_AT_MOST_4_SO_(1,6)_FAILS",
+    "wrong_off_diagonal_sign": "FAILS_so(7,7)_IDENTITY",
+    "duplicate_matching_target": "FAILS_COMMUTING_CARTAN_BLOCKS",
+    "repeated_weight": "CENTRALIZER_DIMENSION_EXCEEDS_7"
+  },
+  "disposition": {
+    "selected_5_2_real_polarization_gate": "CONSTRUCTED",
+    "all_regular_semisimple_real_cartan_types": "CONSTRUCTED",
+    "rsap_zero_neighborhood_candidate": "SURVIVES_TO_SINGULAR_ORBIT_CENSUS",
+    "global_all_strata_rsap": "OPEN",
+    "ambient_a3_successor": "TYPE_MISSING_NOT_REOPENED",
+    "source_action_selection": "NOT_PROVIDED",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn-review.md",
+  "next_gate": "CLASSIFY_NILPOTENT_THEN_MIXED_JORDAN_ORBITS_BY_THE_BALANCED_ANTI_COMMUTING_INVOLUTION_PREDICATE__ONE_MISSED_ORBIT_KILLS_ONLY_THIS_HORN"
+}

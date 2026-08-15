@@ -26,7 +26,8 @@ e1-e2, e2-e3, e3-e4.
 ```
 
 There are `72` `D7` roots outside its twelve-root subsystem. Adding any one
-of them gives exactly one of three rank-four root systems:
+of them gives exactly one of three rank-four semisimple root systems within
+this fixed-Cartan one-root extension class:
 
 | one-root extension | number of extra roots producing it | centralizer dimension | ambient target rank | `98D` map-rank ceiling |
 |---|---:|---:|---:|---:|
@@ -44,10 +45,15 @@ The honest answer to “what is the first deeper ambient stratum reached?” is
 therefore:
 
 ```text
-abstract possibilities: A3+A1, A4, D4
-nearest by rank:         A3+A1
-actual selected type:    TYPE_MISSING
+candidate semisimple one-root extensions: A3+A1, A4, D4
+nearest by rank:                           A3+A1
+actual selected type:                      TYPE_MISSING
 ```
+
+This census does not exhaust nonsemisimple paths, simultaneous multi-root
+jumps, other Cartan embeddings, or non-root-parametrized ambient
+degenerations. Those routes remain unclassified until an owner supplies the
+actual ambient object and path.
 
 ## Why the local atlases stop before this question
 
@@ -68,6 +74,50 @@ combinatorics does not select a real-form support, and independently completed
 real-form factors are alternative local horns rather than proved charts of
 one ambient atlas. The new census narrows the missing type to three abstract
 possibilities but does not supply the missing map.
+
+## Enforced ambient-discriminator decision
+
+The reusable contract in the registry binds the owner tuple, candidate
+formulae, K80 contrary placements, transfer disposition, exact bound effect,
+and independent successor admission. The synchronized decision view is:
+
+<!-- RSAP_AMBIENT_STRATUM_DECISION_V1_BEGIN -->
+```json
+{
+  "ambient_owner": "NOT_PROVIDED",
+  "selected_ambient_successor": "TYPE_MISSING",
+  "candidate_scope": "FIXED_CARTAN_SEMISIMPLE_ONE_ROOT_ONLY",
+  "candidate_types": [
+    "A3+A1",
+    "A4",
+    "D4"
+  ],
+  "contrary_controls": [
+    "TRANSVERSE",
+    "INTERSECTION_2_2",
+    "INTERSECTION_3_2"
+  ],
+  "rank_schedule_transfer": "NOT_LICENSED",
+  "bound_interval_before": [
+    98,
+    182
+  ],
+  "bound_interval_after": [
+    98,
+    182
+  ],
+  "bound_tightened": false,
+  "zero_charge_gate_at_k86": "ADMITTED_LOCAL_ONLY_WITH_RANK_CEILING_49",
+  "global_glue": "PROHIBITED"
+}
+```
+<!-- RSAP_AMBIENT_STRATUM_DECISION_V1_END -->
+
+K80's transverse, `(2,2)`, and `(3,2)` placements are the contrary control:
+the same individual local factor classes admit inequivalent joint ambient
+objects. K81 supplies no selected support maps or relative orbit. Therefore a
+rank row cannot select an ambient object, and the `[98,182]` existence interval
+does not tighten.
 
 ## Conditional `A3+A1` revival template
 
@@ -117,6 +167,11 @@ The next independent local swing is the zero-charge gate. At the zero
 coadjoint value, a `98D` RSAP map must have differential rank at most `49`.
 Attempt a local construction or obstruction there without pretending that it
 glues across the still-type-missing ambient successor.
+
+Subsequent K87 work executed that independent gate: a maximal-unipotent
+cotangent horn achieves rank `49` at zero but fails zero-neighborhood coverage.
+That later result resolves K86's issued successor without retroactively adding
+an ambient `A3` edge or tightening `[98,182]`.
 
 Reproduce with:
 

@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 `98D` ZERO-CHARGE BALANCED SYMMETRIC HORN.** Split
+> `R^(7,7)=U_(3,4)+W_(4,3)` and take the connected symmetric subgroup
+> `H_bal` with Lie algebra `so(3,4)+so(4,3)`. The symmetric decomposition has exact dimensions
+> `91=42+49`, with `h^perp=p`, so `T*(G/H)` is a smooth `98D` Hamiltonian
+> carrier whose moment map has rank `49` at zero. Four exact commuting
+> matchings put full regular Cartan subalgebras of types `(7,0)`, `(5,2)`,
+> `(3,4)`, and `(1,6)` inside `p`; each has adjoint rank `84`, trivial
+> `h`-centralizer and map rank `91`. The selected `(5,2)` gate therefore
+> constructs, and K87's spectral kill is specific to the unipotent horn.
+> **Next classify nilpotent and mixed-Jordan orbits by the balanced
+> anticommuting-involution predicate.** One missed orbit kills this horn's
+> zero-neighborhood claim; singular coverage, surjectivity, RSAP, source
+> selection and global gluing remain open. Exact probe `58/58`.
+
 > **2026-08-15 `98D` ZERO-CHARGE MAXIMAL-UNIPOTENT HORN.** For
 > `G=Spin_0(7,7)`, the maximal split unipotent `N` has dimension `42`, so
 > `T*(G/N)` is a smooth `98D` Hamiltonian carrier. Its canonical moment map
@@ -30,9 +44,11 @@ updated_at: "2026-08-15"
 > abstract `S72` and own no ambient support, extra root, real successor or
 > degeneration path, so the actual successor is `TYPE_MISSING`. The formal
 > `S70 x T*(A3) x T*(A1) x T*R3` arithmetic is a revival template only, not
-> a constructed attachment. **Next attempt the independent zero-charge local
-> gate, enforcing `rank(dJ)<=49` on a smooth `98D` carrier without claiming
-> global gluing.** No ambient or cross-form edge is added; exact probe `53/53`.
+> a constructed attachment. The reusable ambient-stratum contract now binds
+> the K80 contrary placements, exact owner tuple, transfer stop, and unchanged
+> `[98,182]` interval. K87 subsequently executed the independent zero-charge
+> gate without adding an ambient edge. No ambient or cross-form edge is added;
+> exact hardened probe `59/59`.
 
 > **2026-08-15 COMPLETE QUATERNIONIC `SU*(4)` SINGULAR TRANSITION ATLAS.**
 > The K79 census gives exactly six quaternionic canonical spectral/Jordan

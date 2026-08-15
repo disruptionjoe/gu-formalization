@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gu-formalization:ambient-stratum-contract:v1",
+  "title": "GU ambient-stratum discriminator contract",
+  "description": "Reusable owner, invariant, contrary-control, transfer, bound-effect, and successor-gate contract for an ambient stratum decision. The scientific registry carrying the instance remains authoritative; this schema is not a second stratum registry.",
+  "type": "object",
+  "required": [
+    "contract_id",
+    "contract_version",
+    "schema_ref",
+    "candidate_scope",
+    "typing",
+    "ambient_object",
+    "table_refs",
+    "source_refs",
+    "contrary_controls",
+    "transfer_decision",
+    "interval_effect",
+    "successor_gate",
+    "decision_summary",
+    "mutation_controls"
+  ],
+  "properties": {
+    "contract_id": {"const": "rsap_ambient_stratum_discriminator"},
+    "contract_version": {"const": "1.0"},
+    "schema_ref": {"const": "lab/process/ambient-stratum-contract.schema.json"},
+    "candidate_scope": {
+      "type": "object",
+      "required": ["included", "not_exhausted"],
+      "properties": {
+        "included": {"const": "FIXED_CARTAN_SEMISIMPLE_ONE_ROOT_RANK_FOUR_EXTENSIONS"},
+        "not_exhausted": {
+          "type": "array",
+          "contains": {"const": "NONSEMISIMPLE_OR_MULTI_ROOT_AMBIENT_PATHS"}
+        }
+      }
+    },
+    "ambient_object": {
+      "type": "object",
+      "required": ["owner_status", "selection_status", "required_witnesses", "invariant_tuple"],
+      "properties": {
+        "owner_status": {"const": "NOT_PROVIDED"},
+        "selection_status": {"const": "TYPE_MISSING"},
+        "required_witnesses": {"type": "array", "minItems": 3},
+        "invariant_tuple": {"type": "object"}
+      }
+    },
+    "table_refs": {
+      "type": "object",
+      "required": ["candidate_extensions", "rank_schedule"]
+    },
+    "source_refs": {"type": "array", "minItems": 3},
+    "contrary_controls": {"type": "array", "minItems": 3},
+    "transfer_decision": {"type": "object"},
+    "interval_effect": {
+      "type": "object",
+      "required": ["before", "after", "tightened"],
+      "properties": {
+        "before": {"const": [98, 182]},
+        "after": {"const": [98, 182]},
+        "tightened": {"const": false}
+      }
+    },
+    "successor_gate": {"type": "object"},
+    "decision_summary": {"type": "object"},
+    "mutation_controls": {"type": "array", "minItems": 2}
+  },
+  "additionalProperties": false
+}

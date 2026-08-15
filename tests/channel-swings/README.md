@@ -41,6 +41,15 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
+  constructs the balanced symmetric pair
+  `so(7,7)=(so(3,4)+so(4,3))+p`, verifies the exact `42+49`
+  bracket and Killing-orthogonal decomposition, and certifies the canonical
+  `98D` cotangent horn has map rank `49` at zero. Four exact commuting
+  matchings realize every regular semisimple Cartan type `(7,0)`, `(5,2)`,
+  `(3,4)`, and `(1,6)` with map rank `91`; mutation controls preserve the
+  singular/nonsemisimple orbit-census ceiling. It passes `58/58` with Python 3.
+
 - `selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py` constructs
   the split `D7` maximal-unipotent cotangent horn exactly. It checks Lie
   closure, Killing orthogonality, the achieved zero/split-regular map ranks
@@ -51,8 +60,10 @@ the ledger probe uses the standard Python interpreter.
   computes every one-root rank-four extension of the fixed abstract `A3`
   inside `D7`, deriving the `A3+A1/A4/D4` multiplicities, centralizers and
   exact pointwise rank ceilings. It separately audits local-carrier and K81
-  ownership, so nearest `A3+A1` is not promoted to the actual ambient
-  successor or an attached chart. It passes `53/53` with Python 3.
+  ownership, then enforces the reusable ambient-stratum contract, K80 contrary
+  placements, synchronized decision view and two planted ownership mutations.
+  Nearest `A3+A1` is not promoted to the actual ambient successor or an
+  attached chart. It passes `59/59` with Python 3.
 
 - `selected_k85_rsap_sustar4_a3_singular_transition_atlas_probe.py`
   replays the exact `su*(4)=so*(4)+m` decomposition, retains all six

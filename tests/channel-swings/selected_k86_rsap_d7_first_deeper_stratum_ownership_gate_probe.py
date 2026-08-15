@@ -8,6 +8,7 @@ import contextlib
 from fractions import Fraction
 import io
 import itertools
+import importlib.util
 import json
 from pathlib import Path
 import runpy
@@ -19,6 +20,8 @@ K85_PROBE = ROOT / "tests/channel-swings/selected_k85_rsap_sustar4_a3_singular_t
 RESULT = ROOT / "explorations/conditional-build/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate-2026-08-15.md"
 REGISTRY = ROOT / "lab/process/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate.json"
 REVIEW = ROOT / "lab/process/hostile-reviews/2026-08-15-selected-k86-rsap-d7-first-deeper-stratum-ownership-gate-review.md"
+CONTRACT_SCHEMA = ROOT / "lab/process/ambient-stratum-contract.schema.json"
+CONTRACT_AUDIT = ROOT / "process_gates/ambient_stratum_contract_audit.py"
 K81_REGISTRY = ROOT / "lab/process/selected-k81-rsap-a3-relative-placement-ownership-gate.json"
 A3_REGISTRIES = [
     ROOT / "lab/process/selected-k77-rsap-a3-two-wall-census-origin-attachment.json",
@@ -196,6 +199,33 @@ check("schema", "the registry records the exact three-way multiplicity census",
       {row["type"]: row["extension_root_multiplicity"]
        for row in classification["one_root_extensions"]}
       == {"A3+A1": 12, "A4": 48, "D4": 12})
+type_by_root_count = {14: "A3+A1", 20: "A4", 24: "D4"}
+derived_extensions = []
+derived_schedule = []
+for subsystem_roots, multiplicity in sorted(extension_root_counts.items()):
+    name = type_by_root_count[subsystem_roots]
+    centralizer = 7 + subsystem_roots
+    target_rank = 91 - centralizer
+    ceiling = (98 + target_rank) // 2
+    derived_extensions.append({
+        "type": name,
+        "subsystem_root_count": subsystem_roots,
+        "extension_root_multiplicity": multiplicity,
+        "ambient_centralizer_dimension": centralizer,
+        "ambient_target_poisson_rank": target_rank,
+        "pointwise_98d_map_rank_ceiling": ceiling,
+    })
+    derived_schedule.append({
+        "type": name,
+        "target_poisson_rank": target_rank,
+        "map_rank_ceiling": ceiling,
+        "forced_loss_from_85": 85 - ceiling,
+        "map_rank_status": "POINTWISE_CEILING_NOT_ACHIEVED_CONSTRUCTION",
+    })
+check("schema", "the complete registry candidate table equals the derived census and formulas",
+      classification["one_root_extensions"] == derived_extensions)
+check("schema", "the complete registry rank table equals the independently derived schedule",
+      registry["rank_schedule"]["candidate_rows"] == derived_schedule)
 check("schema", "the registry labels A3+A1 as nearest but not selected",
       classification["nearest_by_target_rank"] == "A3+A1"
       and classification["selected_ambient_successor"] == "TYPE_MISSING")
@@ -232,6 +262,25 @@ check("scope", "global RSAP remains open and the fallback remains 182D",
 check("review", "hostile review preserves the type-missing ceiling",
       "PASS_WITH_EXACT_THREE_WAY_CENSUS_AND_TYPE_MISSING_SUCCESSOR_CEILING"
       in REVIEW.read_text(encoding="utf-8"))
+
+
+print("\nG. REUSABLE AMBIENT-DISCRIMINATOR CONTRACT")
+check("contract", "the reusable schema and executable audit exist",
+      CONTRACT_SCHEMA.exists() and CONTRACT_AUDIT.exists())
+spec = importlib.util.spec_from_file_location("ambient_contract_audit", CONTRACT_AUDIT)
+assert spec and spec.loader
+contract_audit = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(contract_audit)
+check("contract", "K86 closes the reusable owner/control/transfer/bound contract",
+      contract_audit.validate_registry(registry, ROOT) == [])
+mutation_expectations = {
+    "same_ranks_wrong_ambient_object": "SELECTION_REQUIRES_OWNED_AMBIENT_WITNESS",
+    "ceiling_promoted_without_construction": "ACHIEVED_RANK_REQUIRES_CONSTRUCTION_WITNESS",
+}
+for mutation_id, expected_error in mutation_expectations.items():
+    errors = contract_audit.mutation_errors(registry, mutation_id)
+    check("mutation", f"{mutation_id} fails with its exact ownership error",
+          expected_error in errors)
 
 
 print("\nSUMMARY")

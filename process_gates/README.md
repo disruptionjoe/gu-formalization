@@ -23,6 +23,16 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `current_state_absolute_currency_audit.py` checks the public steering
+  surface's `revision_basis` against repository `HEAD`, failing when commit or
+  elapsed-time drift exceeds the preserved absolute-currency tolerance.
+
+- `ambient_stratum_contract_audit.py` enforces the reusable RSAP ambient-
+  stratum discriminator: owned ambient witnesses, exact candidate formulae,
+  K80 contrary placements, K81 type-missing control, unchanged `[98,182]`
+  interval, local-only zero-charge admission, synchronized narrative, and
+  planted selection/achievement failures.
+
 - `k77_i2b_contact_euler_hodge_adapter_audit.py` enforces ledger v0.222's
   typed `Omega1-Cl2` / `Omega13-Cl2` / `Omega13-Cl1` separation, failed
   identity/raw-pairing shortcuts, exact observer-active rank-four Hodge
