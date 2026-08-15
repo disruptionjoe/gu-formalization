@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 RSAP RANK-82 WALL FAMILY AND `A2` COCYCLE GATE.** Both real
+> rank-one first-wall factors construct locally at dimension `98`:
+> `T*(SL(2,R)/A)` and `T*(SU(2)/U(1))`. Every split/compact orthogonal
+> `A1 x A1` pairing passes the exact target/map schedules
+> `84/91 -> 82/90 -> 80/89`, and the first commuting `A1^3` potential and
+> moment-map cocycle closes strictly. The natural adjacent split-`A2` factor
+> `T*(SL(3,R)/SL(2,R))` is killed by an explicit regular nilpotent value where
+> its differential has rank `7`, not `8`; the full `98D` map consequently has
+> rank `90`, not the required regular rank `91`. This is not a universal `A2`
+> obstruction. **Next work backward from the superposition hypothesis and
+> classify or obstruct every `10D` `A2` transverse realization, testing
+> regular nilpotents before any noncommuting cocycle claim.** Exact probe
+> `92/92`.
+
 > **2026-08-14 RSAP 98D FIRST SPLIT-ROOT WALL.** The first nonlinear wall
 > attachment constructs. At a generic split-root wall, Poisson splitting gives
 > an 82D leaf times `sl(2,R)^* x R^6_zero`; the canonical cotangent moment map

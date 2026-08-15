@@ -105,14 +105,17 @@ current_result:
     cotangent parent attains that bound. Hence the all-charge submersion
     minimum is exactly 182. The weaker RSAP target is one smooth surjective
     Poisson map submersive on the regular locus and allowed to lose rank on
-    singular strata. Its first generic split-root wall now constructs at the
-    sharp lower bound 98. Poisson splitting gives an 82D wall leaf times
-    sl(2,R)^* x R^6_zero; the canonical cotangent moment map from
-    T*(SL(2,R)/A) x T*R^6 is surjective, smooth and Poisson. It matches the two
-    adjacent regular Cartan cotangent charts and realizes target rank 84-to-82
-    with map rank 91-to-90. This is one local wall admission, not a global
-    all-charge RSAP; other wall types, multiwall cocycles, deeper strata and
-    zero charge remain open.
+    singular strata. Both real rank-82 first-wall types now construct at the
+    sharp lower bound 98, using T*(SL(2,R)/A) for the split factor and
+    T*(SU(2)/U(1)) for the compact factor. Orthogonal A1 x A1 intersections
+    admit every split/compact pairing with target ranks 84-to-82-to-80 and map
+    ranks 91-to-90-to-89; the first commuting A1^3 potential and moment-map
+    cocycle closes exactly. The natural adjacent split-A2 candidate
+    T*(SL(3,R)/SL(2,R)) fails: its moment differential drops to rank seven at
+    an explicit regular nilpotent value, so the full map has rank 90 rather
+    than the required 91. This kills that candidate, not every 10D A2 model.
+    Adjacent-root gluing, deeper strata, zero charge and global RSAP remain
+    open.
     The endpoint's seven independent type-D7 coadjoint invariants all have
     exact nonzero first derivative along the action-owned off-shell line
     (B,T)->lambda(B,T). Their common kernel is the 84-dimensional Kirillov
@@ -208,15 +211,15 @@ current_result:
     strengthened without being proved. VRS-2 is the next reverse discriminator:
     test fixed, free and charged endpoint horns and kill any bulk-only quotient
     that drops live moment or Green data.
-    The independent RSAP target has now passed its first nonlinear wall gate.
-    At one generic split-root wall, the smooth 98-dimensional product
-    S_82 x T*(SL(2,R)/A) x T*R^6 has symplectic rank 98, is locally onto the
-    full Poisson neighborhood, and exactly satisfies dJ Pi_M dJ^T=Pi_target.
-    The old regular charts are its two hyperbolic overlap gauges; their
-    cotangent potential agrees on both sides. The wall is codimension one in
-    the Cartan/invariant base but codimension three in the full target. The
-    next gate is a census of all real rank-82 wall types plus pairwise and
-    first triple cocycles. No global RSAP exists yet.
+    The independent RSAP target now passes the complete isolated rank-82 wall
+    census and the orthogonal overlap gate. Split and compact rank-one factors
+    both give smooth 98-dimensional first-wall attachments. All four real-form
+    A1 x A1 products and a commuting A1^3 triple cocycle satisfy exact product
+    Poisson and potential identities. The first adjacent A2 test is adverse:
+    T*(SL(3,R)/SL(2,R)) has rank seven over a regular nilpotent value where
+    rank eight is required. The next reverse gate classifies or obstructs all
+    10D A2 transverse realizations, including noncotangent and multicomponent
+    models. No global RSAP exists yet.
     VRS-2 now kills a bulk-only physical quotient for the live nonzero selected
     branch. Free endpoint variation forces zero charge and remains a distinct
     escape, but excludes the fixture. Fixed data leaves momentum unconstrained

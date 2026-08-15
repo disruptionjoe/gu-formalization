@@ -41,6 +41,12 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py` classifies
+  both real rank-one first-wall factors, verifies all split/compact orthogonal
+  pairings and one strict `A1^3` cocycle, then rejects the natural split-A2
+  cotangent factor at a regular nilpotent rank defect. General A2 and global
+  RSAP remain open. It passes `92/92` with Python 3.
+
 - `selected_k77_rsap_98d_first_wall_slice_obstruction_probe.py` verifies the
   homogeneous cotangent realization `T*(SL(2,R)/A)`, its full transverse
   coadjoint saturation and rank `3->2`, then composes the exact 98D wall model

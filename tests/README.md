@@ -4484,3 +4484,16 @@ the regular, first-wall and zero-charge bounds for the minimal carrier.
 ```sh
 python3 tests/channel-swings/selected_k77_rank_singular_poisson_rank_loss_schedule_probe.py
 ```
+
+## K77 RSAP rank-82 wall family and A2 cocycle gate
+
+`channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py`
+constructs both real isolated first-wall factors, all four split/compact
+orthogonal pair products and a strict commuting triple cocycle. It then kills
+the natural split-A2 factor `T*(SL(3,R)/SL(2,R))` by a regular-nilpotent map-
+rank defect. It passes `92/92` with Python 3; general A2 and global RSAP remain
+open.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py
+```

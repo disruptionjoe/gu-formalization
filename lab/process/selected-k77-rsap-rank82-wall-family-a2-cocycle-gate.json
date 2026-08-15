@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_and_obstruction_registry",
+  "created": "2026-08-14",
+  "status": "RSAP_RANK82_WALL_FAMILY_AND_ORTHOGONAL_COCYCLES_CONSTRUCTED__NATURAL_SPLIT_A2_CANDIDATE_REJECTED__GENERAL_A2_AND_GLOBAL_RSAP_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "wall_family": {
+    "regular_centralizer_dimension": 7,
+    "rank_82_centralizer_dimension": 9,
+    "real_rank_one_forms": ["sl(2,R)", "su(2)"],
+    "split_factor": "T*(SL(2,R)/A)",
+    "compact_factor": "T*(SU(2)/U(1))=T*S^2",
+    "factor_dimension": 4,
+    "factor_map_rank_regular_to_wall": "3->2",
+    "factor_target_rank_regular_to_wall": "2->0",
+    "complex_root_jump_target_rank_ceiling": 80
+  },
+  "orthogonal_overlaps": {
+    "root_subsystem": "A1 direct_sum A1",
+    "double_wall_centralizer": "s1 direct_sum s2 direct_sum R^5",
+    "double_wall_leaf_dimension": 80,
+    "carrier": "S_80 times X_4(s1) times X_4(s2) times T*R^5",
+    "carrier_dimension": 98,
+    "map_rank_regular_one_wall_two_walls": [91, 90, 89],
+    "target_rank_regular_one_wall_two_walls": [84, 82, 80],
+    "mixed_real_forms_checked": ["split+split", "split+compact", "compact+split", "compact+compact"],
+    "pair_potential_cocycle": "STRICT_BY_ADDITIVITY",
+    "triple_model": "S_78 times X_4(s1) times X_4(s2) times X_4(s3) times T*R^4",
+    "triple_potential_cocycle": "STRICT_ZERO_DEFECT"
+  },
+  "adjacent_a2_gate": {
+    "root_subsystem": "A2",
+    "intersection_leaf_dimension": 78,
+    "required_transverse_factor_dimension": 10,
+    "required_rank_schedule": {
+      "regular_map_rank": 8,
+      "a2_origin_map_rank": 5,
+      "regular_target_poisson_rank": 6,
+      "a2_origin_target_poisson_rank": 0
+    },
+    "natural_candidate": "T*(SL(3,R)/SL(2,R))",
+    "annihilator_model": "[[a,0,u],[0,a,v],[r,s,-2a]]",
+    "generic_map_rank": 8,
+    "origin_map_rank": 5,
+    "regular_nilpotent_map_rank": 7,
+    "regular_nilpotent_required_map_rank": 8,
+    "full_candidate_rank_at_regular_nilpotent": 90,
+    "full_required_rank_at_regular_nilpotent": 91,
+    "natural_candidate_verdict": "REJECTED_REGULAR_NILPOTENT_RANK_DEFECT",
+    "universal_obstruction": false
+  },
+  "scope": {
+    "all_isolated_rank_82_real_wall_types": "CONSTRUCTED_LOCALLY",
+    "orthogonal_a1_overlaps": "CONSTRUCTED",
+    "natural_split_a2_candidate": "REJECTED",
+    "universal_a2_obstruction": "NOT_PROVED",
+    "other_real_a2_forms": "OPEN",
+    "deeper_singular_strata": "NOT_CONSTRUCTED",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "CLASSIFY_OR_OBSTRUCT_ALL_10D_A2_TRANSVERSE_REALIZATIONS_INCLUDING_NONCOTANGENT_AND_MULTICOMPONENT_MODELS",
+  "artifact": "explorations/conditional-build/selected-k77-rsap-rank82-wall-family-a2-cocycle-gate-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-rsap-rank82-wall-family-a2-cocycle-gate-review.md",
+  "checks": "92/92 PASS"
+}
