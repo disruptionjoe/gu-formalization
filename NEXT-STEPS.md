@@ -7,6 +7,19 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPACT-`A2` GLOBAL PRIMITIVE MONODROMY.** The regular germ
+> does not extend over the complete compact overlap as one group-section chart
+> with one globally exact Liouville primitive. On a simple-root
+> `SU(2)/U(1)=S2`, the north/south diagonalizers have unit Hopf clutching; the
+> lifted cotangent primitive period is `2 pi (lambda1-lambda2)`, nonzero at
+> every regular value. Finite quotienting by the root circle's intersection
+> with `SO(3)` cannot remove the pulled-back class. The symplectic and moment
+> atlas is not killed. **Next construct its two-simple-root Cech--de Rham
+> transition and test `98D` atlas closure; require a separate integrality and
+> cancellation proof for any prequantum twist before singular extension.**
+> Exact probe `50/50`; global RSAP, split/mixed topology, deeper strata and zero
+> charge remain open.
+
 > **2026-08-15 RSAP ADJACENT-`A2` COMMON-REFINEMENT GERM.** The missing 20D
 > pair transition now constructs on every contractible regular overlap. The
 > transferred `O4` is exactly two Darboux leaf pairs; together with

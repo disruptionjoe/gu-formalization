@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "compact_a2_global_primitive_monodromy_obstruction",
+  "created": "2026-08-15",
+  "status": "COMPACT_A2_GROUP_SECTION_ROUTE_OBSTRUCTED__SECTION_PRIMITIVE_COCYCLE_NONEXACT__GENERAL_GLOBAL_TRANSITION_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "factor": {
+    "group": "SU(3)",
+    "isotropy": "SO(3)",
+    "source": "T*(SU(3)/SO(3))",
+    "target": "su(3)*",
+    "role": "mathematical Hamiltonian transverse factor"
+  },
+  "simple_root_restriction": {
+    "orbit": "SU(2)/U(1)=S2",
+    "north_south_transition": "h(phi)=exp(i phi H_alpha)",
+    "first_eigenline_clutching": "z",
+    "second_eigenline_clutching": "z^-1",
+    "determinant_degree": 0,
+    "first_chern_number": 1,
+    "global_group_section": "OBSTRUCTED"
+  },
+  "primitive": {
+    "regular_charge": "mu_alpha=lambda1-lambda2",
+    "transition_one_form": "mu_alpha dphi",
+    "lifted_period": "2 pi mu_alpha",
+    "regularity_condition": "mu_alpha != 0",
+    "global_exact_gauge": "OBSTRUCTED_FOR_SELECTED_GROUP_SECTION_ROUTE_ON_COMPLETE_REGULAR_SIMPLE_ROOT_OVERLAP",
+    "zero_period_locus": "DISCRIMINANT_WALL_OUTSIDE_REGULAR_OVERLAP"
+  },
+  "surviving_structure": {
+    "contractible_regular_germs": "CONSTRUCTED",
+    "symplectic_atlas": "NOT_OBSTRUCTED_BY_THIS_RESULT",
+    "moment_map_atlas": "NOT_OBSTRUCTED_BY_THIS_RESULT",
+    "a2_cotangent_tautological_primitive": "GLOBAL_AND_UNCHANGED",
+    "section_generated_relative_primitive": "NONEXACT_ON_SELECTED_COMPLETE_REGULAR_OVERLAP",
+    "minimal_honest_object": "TORUS_BUNDLE_WITH_CECH_DE_RHAM_PRIMITIVE_CLASS",
+    "prequantum_repair": "REQUIRES_SEPARATE_INTEGRALITY_AND_CANCELLATION_PROOF"
+  },
+  "scope": {
+    "compact_a2_group_section_exact_transition": "KILLED_FOR_SELECTED_SECTION_ROUTE",
+    "compact_a2_general_global_transition": "OPEN",
+    "compact_a2_multichart_transition": "OPEN",
+    "split_and_mixed_global_topology": "OPEN",
+    "singular_extension": "OPEN",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-global-primitive-monodromy-obstruction-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_global_primitive_monodromy_obstruction_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a2-global-primitive-monodromy-obstruction-review.md",
+  "next_gate": "CONSTRUCT_THE_COMPACT_REGULAR_CECH_DE_RHAM_TRANSITION_ON_BOTH_SIMPLE_ROOTS_AND_TEST_ATLAS_LEVEL_98D_CLOSURE_BEFORE_SINGULAR_EXTENSION"
+}

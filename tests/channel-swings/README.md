@@ -41,6 +41,12 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_a2_global_primitive_monodromy_obstruction_probe.py`
+  gives the compact global obstruction after the passing common-refinement
+  germ: the simple-root eigenline clutching has degree one and the lifted
+  cotangent primitive has nonzero period at every regular value. It preserves
+  the multi-chart symplectic/moment continuation as open and passes `50/50`.
+
 - `selected_k77_rsap_a2_common_refinement_germ_probe.py` identifies the
   transferred `O4` as two regular-leaf canonical pairs, constructs the common
   universal 20D realization, and certifies an explicit rank-one/`A2`

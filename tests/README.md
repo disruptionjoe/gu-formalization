@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_a2_global_primitive_monodromy_obstruction_probe.py`
+  restricts the compact principal `A2` factor to a simple-root Hopf sphere.
+  It certifies unit clutching/Chern number and the nonzero lifted primitive
+  period `2 pi (lambda1-lambda2)` on the complete regular overlap. This kills
+  the selected one-section exact-relative-primitive route, not the multi-chart
+  symplectic or moment atlas. It passes `50/50` with Python 3.
+
 - `channel-swings/selected_k77_rsap_a2_common_refinement_germ_probe.py`
   constructs the universal 20D regular minimal realization of
   `sl(3)^* x R5_zero`, identifies the transferred `O4`, and gives an explicit
