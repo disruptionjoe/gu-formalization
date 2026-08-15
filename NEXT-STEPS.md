@@ -7,6 +7,16 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1F MOVING OBSERVER-`Q_B` BOUNDEDNESS.** The strongest
+> existing moving repair is now tested on the exact SR-1E residuals. For every
+> unit timelike observer, the two vertical quartics are `+16c(u),-16c(u)`,
+> where `c(u)=sum u_mu^2=1+2|v|^2>0`; a rational boost fires at
+> `+656/9,-656/9`. Thus even a field-dependent choice `u(T)` cannot stabilize
+> both rays, and cubic I1B cannot bound the surviving runaway. **SR-1G must
+> audit a source/BV-owned dynamically closed constraint or a source-owned
+> higher-even action term. Do not fit a tangent slice or post-hoc counterterm.**
+> Exact probe `35/35`.
+
 > **2026-08-14 SR-1E VERTICAL CARRIER / FIXED-NATURAL BOUNDEDNESS.** The
 > missing carrier interface now constructs: the observation split gives an
 > exact rank-`450` inclusion `V10* x so(6,4) -> V14* x so(7,7)`, with image

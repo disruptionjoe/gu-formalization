@@ -4410,6 +4410,18 @@ the cubic first action cannot stabilize.
 sage -python tests/channel-swings/selected_k77_sr1e_vertical_carrier_fixed_natural_boundedness_probe.py
 ```
 
+## K77 SR-1F moving observer-Q_B boundedness
+
+`channel-swings/selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py`
+recomputes the two exact SR-1E quartics with the existing observer-Hermitian
+moving pairing. It proves the values are `+16c(u),-16c(u)` with strictly
+positive `c(u)` for every unit timelike observer, including a firing rational
+boost, so even field-dependent observer selection cannot repair the runaway.
+
+```sh
+sage -python tests/channel-swings/selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py
+```
+
 ## K77 SR-1C branch momentum zero-jet
 
 `channel-swings/selected_k77_sr1c_branch_momentum_zero_jet_probe.py`

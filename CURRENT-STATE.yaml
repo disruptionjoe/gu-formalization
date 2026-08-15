@@ -316,11 +316,20 @@ current_result:
     sign of c leaves one negative quartic ray. I1B is at most cubic and cannot
     repair the large-amplitude runaway. Thus the carrier seam is closed but the
     complete released fixed-natural bosonic route is killed at boundedness.
-    SR-1F must construct an action-owned moving fundamental symmetry or
-    field-dependent Q_B, a dynamically closed source/BV constraint, or a new
-    higher-even stabilising action term before selecting a critical orbit and
-    canonical first jet. VRS-6 still cannot instantiate.
+    SR-1F now kills the strongest existing moving repair as well. For the
+    already-built observer-Hermitian family Q_u, the same two exact residuals
+    have quartics +16c(u),-16c(u), where c(u)=sum u_mu^2. On the unit-timelike
+    observer hyperboloid c(u)=1+2|v|^2 is strictly positive; a rational boost
+    fires at +656/9,-656/9. Thus observer motion, including a field-dependent
+    choice u(T), changes magnitude but cannot repair the sign pair. This
+    closes only the existing conditional Q_u family, not every imaginable
+    field-dependent primalizer. SR-1G must now audit a source/BV-owned
+    dynamically closed constraint or a source-owned higher-even stabilising
+    action term before selecting a critical orbit and canonical first jet.
+    VRS-6 still cannot instantiate.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1f-observer-qb-vertical-boundedness-2026-08-14.md
+    - lab/process/selected-k77-sr1f-observer-qb-vertical-boundedness.json
     - explorations/conditional-build/selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness-2026-08-14.md
     - lab/process/selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness.json
     - explorations/conditional-build/selected-k77-sr1d-affine-first-jet-parity-exhaustion-2026-08-14.md
@@ -448,10 +457,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the source action own a moving fundamental symmetry or field-dependent
-  Q_B, a dynamically closed constraint, or a higher-even term that can bound
-  both exact embedded quartic rays and select a nonlinear critical orbit for a
-  labelled canonical Zorro first-jet lift?
+  Does the source/BV complex own a dynamically closed invariant constraint
+  that excludes every negative quartic direction, or does the source action
+  own a higher-even term with fixed positive leading sign on the full admitted
+  carrier, so that a nonlinear critical orbit and labelled canonical Zorro
+  first-jet lift can be selected?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -460,16 +470,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In SR-1F, do not rebuild the now-exact rank-450 vertical carrier map or try
-  another fixed-natural Q_B scale. Construct or kill one action-owned moving
-  fundamental symmetry/field-dependent Q_B on the nonlinear residual carrier;
-  alternatively require a source/BV-owned dynamically closed constraint that
-  excludes every negative ray, or a source-owned higher-even term with fixed
-  positive leading sign on both exact rays. Only after one repair passes may
-  the lane select an orbit, solve a nonzero exact critical amplitude, lift a
-  labelled canonical-B_Z first jet and recompute translation, Bianchi, j1E_T,
-  j1E_B, primitive epsilon and total fixed-varpi metric rows. Keep VRS-6
-  conditional until one complete stationary background exists.
+  In SR-1G, do not rebuild the exact rank-450 vertical carrier map, try another
+  fixed-natural Q_B scale or retry the observer-Hermitian family by choosing a
+  different or field-dependent unit observer: its quartics remain
+  +16c(u),-16c(u) with c(u)>0. Audit ownership first. Require a source/BV-owned
+  dynamically closed invariant constraint that excludes every negative ray,
+  or a source-owned higher-even term with fixed positive leading sign on the
+  full admitted carrier. Keep a genuinely different action-derived
+  field-dependent primalizer open only if its owner and full carrier form are
+  constructed. Only after one repair passes may the lane select an orbit,
+  solve a nonzero exact critical amplitude, lift a labelled canonical-B_Z
+  first jet and recompute translation, Bianchi, j1E_T, j1E_B, primitive
+  epsilon and total fixed-varpi metric rows. Keep VRS-6 conditional until one
+  complete stationary background exists.
   Independently, the RSAP carrier still needs a local 98D wall
   normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula

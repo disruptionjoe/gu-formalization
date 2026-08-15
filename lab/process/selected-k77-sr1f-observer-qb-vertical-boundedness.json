@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "EXISTING_MOVING_OBSERVER_Q_U_REPAIR_KILLED_ON_EXACT_VERTICAL_RAYS__OPPOSITE_SIGNS_PERSIST_FOR_EVERY_UNIT_TIMELIKE_OBSERVER",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1F",
+  "predecessor": "lab/process/selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness.json",
+  "candidate": {
+    "family": "OBSERVER_HERMITIAN_Q_U",
+    "formula": "H_u=i*B*gamma(u)",
+    "observer_plane": [0, 7, 8, 9],
+    "simultaneous_spin_covariant": true,
+    "observer_free_basic": false,
+    "source_identified_with_Q_B": false,
+    "positive_hilbert_majorant": false
+  },
+  "quartic": {
+    "positive_vertical_plane": "+16*c(u)",
+    "mixed_vertical_plane": "-16*c(u)",
+    "c_u": "sum_mu u_mu^2",
+    "unit_timelike_restriction": "c(u)=1+2*|v|^2>0",
+    "rational_boost_values": ["656/9", "-656/9"],
+    "observer_cross_coefficients": 0,
+    "ray_dependent_observer_can_repair": false,
+    "nonzero_scale_can_repair": false
+  },
+  "degree_theorem": {
+    "I1B_ceiling": 3,
+    "I2B_leading_degree": 4,
+    "I1B_can_repair_negative_I2B_quartic": false
+  },
+  "closed_objects": [
+    "EXISTING_CONDITIONAL_OBSERVER_HERMITIAN_Q_U_BOUNDEDNESS_REPAIR"
+  ],
+  "open_objects": [
+    "OTHER_ACTION_DERIVED_FIELD_DEPENDENT_PRIMALIZER_OUTSIDE_Q_U",
+    "SOURCE_OR_BV_OWNED_DYNAMICALLY_CLOSED_CONSTRAINT",
+    "SOURCE_OWNED_HIGHER_EVEN_STABILISING_ACTION_TERM",
+    "SELECTED_NONLINEAR_CRITICAL_ORBIT_AND_EXACT_AMPLITUDE",
+    "CANONICAL_BZ_FIRST_JET_AND_BIANCHI_LIFT",
+    "RECOMPUTED_POINT_AND_SOURCE_GRAPH_EULER_ROWS"
+  ],
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6": "BLOCKED",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "SR-1G_SOURCE_BV_DYNAMIC_CONSTRAINT_OR_SOURCE_OWNED_HIGHER_EVEN_ACTION_TERM",
+  "artifact": "explorations/conditional-build/selected-k77-sr1f-observer-qb-vertical-boundedness-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1f-observer-qb-vertical-boundedness-review.md",
+  "checks": "35/35 PASS"
+}

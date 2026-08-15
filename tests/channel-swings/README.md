@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py` evaluates the
+  existing moving observer-Hermitian `Q_u` on both exact SR-1E residual rays.
+  It proves the quartics are `+16c(u),-16c(u)` with
+  `c(u)=1+2|v|^2>0` for every unit timelike observer, so neither observer
+  motion nor field-dependent observer selection repairs boundedness. Run with
+  `sage -python <path>`; `35/35` pass.
+
 - `selected_k77_sr1d_affine_first_jet_parity_exhaustion_probe.py` proves that
   every shift in the `5265`-dimensional affine action/Bianchi first-jet kernel
   has zero source-graph response by Clifford parity, then composes that result
