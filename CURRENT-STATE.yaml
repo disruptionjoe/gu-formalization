@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 52d85ae0055ff8aa2e9a6e53761989aca23774ab
+revision_basis: 1f4b3137a4e1cb8ee5ad8033c6d800820e124fc6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -103,12 +103,16 @@ current_result:
     is dim(M)>=182-rank(pi). At the zero coadjoint orbit the rank is zero, so
     every all-charge Poisson submersion has dimension at least 182. The full
     cotangent parent attains that bound. Hence the all-charge submersion
-    minimum is exactly 182. The weaker RSAP target is now typed as one smooth
-    surjective Poisson map submersive on the regular locus and allowed to lose
-    rank on singular strata. It inherits the sharp lower bound 98 but is not
-    constructed: the existing regular atlas omits singular charges. Its first
-    gate is a smooth symplectic Poisson attachment across one codimension-one
-    discriminant wall.
+    minimum is exactly 182. The weaker RSAP target is one smooth surjective
+    Poisson map submersive on the regular locus and allowed to lose rank on
+    singular strata. Its first generic split-root wall now constructs at the
+    sharp lower bound 98. Poisson splitting gives an 82D wall leaf times
+    sl(2,R)^* x R^6_zero; the canonical cotangent moment map from
+    T*(SL(2,R)/A) x T*R^6 is surjective, smooth and Poisson. It matches the two
+    adjacent regular Cartan cotangent charts and realizes target rank 84-to-82
+    with map rank 91-to-90. This is one local wall admission, not a global
+    all-charge RSAP; other wall types, multiwall cocycles, deeper strata and
+    zero charge remain open.
     The endpoint's seven independent type-D7 coadjoint invariants all have
     exact nonzero first derivative along the action-owned off-shell line
     (B,T)->lambda(B,T). Their common kernel is the 84-dimensional Kirillov
@@ -204,15 +208,15 @@ current_result:
     strengthened without being proved. VRS-2 is the next reverse discriminator:
     test fixed, free and charged endpoint horns and kill any bulk-only quotient
     that drops live moment or Green data.
-    The independent RSAP target now has an exact pointwise differential-rank
-    schedule. If s=rank(dJ), r=rank(pi) and dim(M)=m, symplectic Poisson
-    compatibility forces 2s<=m+r. For the minimal m=98 carrier this gives map
-    ranks at most 91, 90 and 49 on the regular rank-84 locus, first rank-82
-    wall and zero charge, respectively. Exact tangent-space models saturate
-    all three bounds, so no stronger pointwise linear obstruction is available.
-    The next carrier gate is a local smooth 98-dimensional Poisson wall normal
-    form with map rank 91-to-90 and target rank 84-to-82; no global RSAP exists
-    yet.
+    The independent RSAP target has now passed its first nonlinear wall gate.
+    At one generic split-root wall, the smooth 98-dimensional product
+    S_82 x T*(SL(2,R)/A) x T*R^6 has symplectic rank 98, is locally onto the
+    full Poisson neighborhood, and exactly satisfies dJ Pi_M dJ^T=Pi_target.
+    The old regular charts are its two hyperbolic overlap gauges; their
+    cotangent potential agrees on both sides. The wall is codimension one in
+    the Cartan/invariant base but codimension three in the full target. The
+    next gate is a census of all real rank-82 wall types plus pairwise and
+    first triple cocycles. No global RSAP exists yet.
     VRS-2 now kills a bulk-only physical quotient for the live nonzero selected
     branch. Free endpoint variation forces zero charge and remains a distinct
     escape, but excludes the fixture. Fixed data leaves momentum unconstrained
@@ -344,9 +348,11 @@ current_result:
     the current-owned-class ceiling. Historical twenty-lens votes remain
     unchanged, but H0 is now first current truth-status while H-Q* survives
     conditionally and is blocked on a new stationary-background owner. VRS-6
-    still cannot instantiate. The independent RSAP wall-normal-form gate now
-    ranks first.
+    still cannot instantiate. The independent RSAP split-root wall-normal-form
+    gate has now passed locally; the all-wall cocycle census ranks next.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-98d-first-wall-slice-obstruction-2026-08-14.md
+    - lab/process/selected-k77-rsap-98d-first-wall-slice-obstruction.json
     - explorations/conditional-build/selected-k77-sr1h-action-owned-point-carrier-census-2026-08-14.md
     - lab/process/selected-k77-sr1h-action-owned-point-carrier-census.json
     - explorations/conditional-build/selected-k77-sr1g-released-action-repair-ownership-exhaustion-2026-08-14.md
@@ -480,9 +486,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can a local 98-dimensional symplectic Poisson realization attach smoothly
-  across one codimension-one discriminant wall while the target Poisson rank
-  drops from 84 to 82 and the moment-map rank drops from 91 to 90?
+  Do the remaining real rank-82 wall types admit compatible 98-dimensional
+  homogeneous cotangent attachments, and do their pairwise and first triple
+  overlaps satisfy the symplectic-potential and moment-map cocycles?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -491,13 +497,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the RSAP wall in local Poisson-splitting coordinates. Require one
-  smooth 98D symplectic carrier, a surjective Poisson map, submersion on the
-  regular rank-84 side, target rank 82 and map rank 90 on the first wall, and
-  exact Jacobi, symplectic nondegeneracy and rank controls. A tangent-space
-  schedule or disconnected regular atlas is not the nonlinear attachment.
-  Preserve the global all-strata range [98,182] and do not claim a global RSAP
-  from one wall chart. Reopen VRS-5 only with a genuinely new source/action-
+  Classify every real rank-82 wall type meeting the regular Cartan atlas.
+  For each type, identify the centralizer and construct or obstruct the
+  corresponding minimal homogeneous cotangent factor. Then prove pairwise
+  equality of the cotangent potentials and moment components, and test the
+  first triple-wall cocycle. Preserve the correction that a root wall is
+  codimension one in the Cartan/invariant base but codimension three in the
+  full Lie-Poisson target. Do not infer a global RSAP from the one admitted
+  split-root chart; deeper strata and the rank-at-most-49 zero-charge gate
+  remain open, with the 182D cotangent parent still the all-charge fallback.
+  Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6
   conditional until one complete stationary background exists. Admit a rival

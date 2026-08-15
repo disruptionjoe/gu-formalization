@@ -79,12 +79,14 @@ a descended positive pairing and a common Lorentzian domain. This strengthens
 classes remain unexhausted. `VRS-2` is the next reverse swing and tests whether
 the live boundary moment and Green data kill any bulk-only realization.
 
-The independent rank-singular carrier lane now has the exact pointwise bound
-`2 rank(dJ)<=dim(M)+rank(pi)`. For a minimal 98-dimensional RSAP this forces
-the map-rank schedule `91 -> <=90 -> <=49` from the regular locus through the
-first rank-82 wall to zero charge. The tangent bounds are sharp; a nonlinear
-local wall normal form and global attachment remain open. See the
-[`RSAP rank-loss schedule`](../../../explorations/conditional-build/selected-k77-rank-singular-poisson-rank-loss-schedule-2026-08-14.md).
+The independent rank-singular carrier lane now passes its first nonlinear
+gate. At one generic split-root wall,
+`S_82 x T*(SL(2,R)/A) x T*R^6` is a smooth 98-dimensional symplectic Poisson
+attachment with target rank `84 -> 82` and map rank `91 -> 90`. It matches the
+two adjacent regular Cartan cotangent charts. Global RSAP remains open: the
+other real wall types, multiwall cocycles, deeper strata and zero charge are
+unconstructed. See the
+[`RSAP first-wall construction`](../../../explorations/conditional-build/selected-k77-rsap-98d-first-wall-slice-obstruction-2026-08-14.md).
 
 [`VRS-2`](vrs2-boundary-necessity-bulk-only-kill-2026-08-14.md) kills the
 bulk-only realization of the live nonzero selected branch. The free horn

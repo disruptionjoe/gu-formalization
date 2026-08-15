@@ -59,13 +59,26 @@ boundary-aware reduction, positive pairing and a common Lorentzian domain.
 See `lab/active-research/source-residual-cohomology/vrs1-internal-complex-source-census-2026-08-14.md`
 and its `41/41` probe.
 
+**RSAP 98D first split-root wall 2026-08-14 (exact local construction; global
+RSAP open).** At a generic split-root rank-82 wall, the target is Poisson-
+locally an 82D symplectic leaf times `sl(2,R)^* x R^6_zero`. The product
+`S_82 x T*(SL(2,R)/A) x T*R^6` is one smooth 98D symplectic carrier. Its
+cotangent moment map is locally surjective, matches both adjacent regular
+Cartan charts and realizes target rank `84->82` with map rank `91->90`.
+Codimension one refers to the Cartan/invariant base; the full target locus is
+codimension three. Other wall types, overlap cocycles, deeper strata and zero
+charge remain open. See
+`explorations/conditional-build/selected-k77-rsap-98d-first-wall-slice-obstruction-2026-08-14.md`
+and its exact `46/46` probe.
+
 **RSAP pointwise rank-loss schedule 2026-08-14 (exact and tangent-sharp;
-existence open).** At any point of a symplectic Poisson map,
+first split-root wall now constructed).** At any point of a symplectic Poisson
+map,
 `2 rank(dJ)<=dim(M)+rank(pi)`. A minimal 98-dimensional RSAP therefore has
 map-rank ceilings `91`, `90` and `49` at target Poisson ranks `84`, `82` and
-`0`. Exact symplectic tangent models saturate the bounds. The first nonlinear
-gate is a smooth local wall form with ranks `91->90` over `84->82`; this does
-not construct a global RSAP. See
+`0`. Exact symplectic tangent models saturate the bounds. The first split-root
+wall now attains the nonlinear `91->90` over `84->82` schedule; this does not
+construct a global RSAP. See
 `explorations/conditional-build/selected-k77-rank-singular-poisson-rank-loss-schedule-2026-08-14.md`
 and its exact `33/33` probe.
 

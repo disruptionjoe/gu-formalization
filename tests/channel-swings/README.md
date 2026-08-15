@@ -39,6 +39,15 @@ the ledger probe uses the standard Python interpreter.
   and the cosmological directive cannot collapse the Einstein tensor,
   stress-energy, constant `Lambda g`, variable olive/`varpi`/VEV and `w(z)`.
 
+# RSAP probes
+
+- `selected_k77_rsap_98d_first_wall_slice_obstruction_probe.py` verifies the
+  homogeneous cotangent realization `T*(SL(2,R)/A)`, its full transverse
+  coadjoint saturation and rank `3->2`, then composes the exact 98D wall model
+  and checks `dJ Pi dJ^T=pi` with map rank `91->90` over target rank `84->82`.
+  One split-root wall passes; global RSAP remains open. It passes `46/46` with
+  Python 3.
+
 # SR-1C branch-operator probes
 
 - `selected_k77_sr1h_action_owned_point_carrier_census_probe.py` inventories

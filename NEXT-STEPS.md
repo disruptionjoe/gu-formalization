@@ -7,6 +7,17 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 RSAP 98D FIRST SPLIT-ROOT WALL.** The first nonlinear wall
+> attachment constructs. At a generic split-root wall, Poisson splitting gives
+> an 82D leaf times `sl(2,R)^* x R^6_zero`; the canonical cotangent moment map
+> from `T*(SL(2,R)/A) x T*R^6` is smooth, surjective and Poisson. Its product
+> carrier has dimension and symplectic rank `98`, matches both adjacent regular
+> Cartan cotangent charts, and realizes target rank `84->82` with map rank
+> `91->90`. The wall is codimension one in the Cartan/invariant base and three
+> in the full target. This admits one wall, not a global RSAP. **Next classify
+> every real rank-82 wall type and prove pairwise plus first triple overlap
+> cocycles before entering deeper strata.** Exact probe `46/46`.
+
 > **2026-08-14 SR-1H ACTION-OWNED POINT-CARRIER CENSUS.** All five currently
 > serialized classes are now dispositioned: canonical zero-T fails the first
 > action; the two homogeneous nonzero-T source branches miss canonical B_Z;

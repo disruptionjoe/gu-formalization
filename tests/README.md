@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_98d_first_wall_slice_obstruction_probe.py`
+  constructs the exact `sl(2,R)^* x R^6_zero` transverse wall model, checks
+  Jacobi and full coadjoint saturation, and verifies the complete 98D product
+  Poisson identity with target rank `84->82` and map rank `91->90`. It admits
+  one split-root wall while preserving global RSAP as open. It passes `46/46`
+  with the Python standard library.
+
 - `channel-swings/selected_k77_sr1h_action_owned_point_carrier_census_probe.py`
   covers the canonical zero-T class, two homogeneous nonzero-T source
   branches, two canonical nonzero-T roots, the source-instability carrier and

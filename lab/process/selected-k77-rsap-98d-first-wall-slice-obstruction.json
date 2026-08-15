@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "RSAP_98D_FIRST_SPLIT_ROOT_WALL_NORMAL_FORM_CONSTRUCTED__LOCAL_WALL_ADMISSION_ONLY__GLOBAL_RSAP_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "target": {
+    "algebra": "so(7,7)",
+    "wall_type": "GENERIC_SEMISIMPLE_SPLIT_ROOT_WALL",
+    "wall_codimension": {
+      "cartan_or_invariant_base": 1,
+      "full_lie_poisson_target": 3
+    },
+    "wall_centralizer": "sl(2,R) direct_sum R^6",
+    "wall_leaf_dimension": 82,
+    "transverse_poisson_model": "sl(2,R)^* times R^6_zero"
+  },
+  "transverse_realization": {
+    "split_cartan_subgroup": "A subset SL(2,R)",
+    "carrier": "T*(SL(2,R)/A) times T*R^6",
+    "dimension": 16,
+    "symplectic_rank": 16,
+    "moment_map": "([g,xi],q,p) maps to (Ad_g^* xi,q)",
+    "surjective": true,
+    "sl2_map_rank_off_zero": 3,
+    "sl2_map_rank_at_zero": 2,
+    "abelian_map_rank": 6,
+    "target_poisson_rank_off_zero": 2,
+    "target_poisson_rank_at_zero": 0
+  },
+  "wall_attachment": {
+    "carrier": "S_82 times T*(SL(2,R)/A) times T*R^6",
+    "dimension": 98,
+    "symplectic_rank": 98,
+    "target_dimension": 91,
+    "regular_target_poisson_rank": 84,
+    "wall_target_poisson_rank": 82,
+    "regular_map_rank": 91,
+    "wall_map_rank": 90,
+    "regular_fibre_dimension": 7,
+    "wall_fibre_dimension": 8,
+    "smooth_domain": true,
+    "stratified_domain": false,
+    "local_target_surjectivity": true,
+    "poisson_compatibility": "EXACT_PRODUCT_OF_IDENTITY_AND_COTANGENT_MOMENT_MAPS"
+  },
+  "regular_overlap": {
+    "existing_model": "G times C subset T*G",
+    "new_sl2_factor": "SL(2,R) times_A ann(a)",
+    "matching_region": "TWO_HYPERBOLIC_REGULAR_COMPONENTS",
+    "matching_mechanism": "A_GAUGE_FIX_OF_ann(a)_REGULAR_HYPERBOLIC_CONE_PLUS_FIXED_WEYL_CONJUGATION",
+    "tautological_potential_preserved": true,
+    "adjacent_chambers_attached": true
+  },
+  "surjectivity_control": {
+    "annihilator": "ann(a)={h=0} in sl(2,R)^*",
+    "coadjoint_saturation": "Ad^*(SL(2,R)) ann(a)=sl(2,R)^*",
+    "covered_types": [
+      "ZERO",
+      "SPLIT_SEMISIMPLE_BOTH_WEYL_SIDES",
+      "ELLIPTIC_SEMISIMPLE_BOTH_ORIENTATIONS",
+      "NONZERO_NILPOTENT_COMPONENTS"
+    ]
+  },
+  "scope": {
+    "first_split_root_wall": "CONSTRUCTED",
+    "all_rank_82_wall_types": "NOT_CLASSIFIED",
+    "multiple_wall_cocycle": "NOT_CONSTRUCTED",
+    "deeper_singular_strata": "NOT_CONSTRUCTED",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "CLASSIFY_EVERY_REAL_FIRST_WALL_TYPE_AND_PROVE_PAIRWISE_AND_TRIPLE_OVERLAP_COCYCLES_BEFORE_DEEPER_STRATA",
+  "artifact": "explorations/conditional-build/selected-k77-rsap-98d-first-wall-slice-obstruction-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_98d_first_wall_slice_obstruction_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-rsap-98d-first-wall-slice-obstruction-review.md",
+  "checks": "46/46 PASS"
+}
