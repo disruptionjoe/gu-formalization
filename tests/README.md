@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_sr1c_fixed_varpi_metric_stationarity_probe.py`
+  fuses the moving coefficient packet by exact naturality, distinguishes
+  lowerer/observation equation transport from action variation, kills the
+  fixed-`varpi` graph adjoint with the proved `j1p=0`, and certifies a nonzero
+  rank-one total metric trace on both roots. It kills the two compatible
+  parallel extensions while preserving their primitive-epsilon zero. Run with
+  `sage -python <path>`.
+
 - `channel-swings/selected_k77_sr1c_compatible_parallel_two_jet_epsilon_probe.py`
   constructs the qualified parallel second jet, checks exact Ricci/Spencer and
   all differentiated action/Bianchi rows, differentiates the unreduced `E_T`

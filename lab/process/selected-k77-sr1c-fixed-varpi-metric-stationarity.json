@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "COMPATIBLE_PARALLEL_TWO_JET_METRIC_KILLED__TOTAL_FIXED_VARPI_TRACE_NONZERO_ON_BOTH_ROOTS",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1C",
+  "branch_polynomial": "28392*t^2+91*t-351",
+  "predecessor": "lab/process/selected-k77-sr1c-compatible-parallel-two-jet-epsilon.json",
+  "owner_reduction": {
+    "intrinsic_first_variation": "E_g=rho*L1+(D_g B_Z)^!(E_B-E_T)",
+    "hodge_pairing_shiab_frame": "FUNCTORIALLY_FUSED_IN_COMOVING_TRIVIALIZATION",
+    "density": "INTRINSIC_GIMMEL_VOLUME_TRACE",
+    "lowerer_observation": "POST_VARIATION_COMPLETE_GERM_EQUATION_TRANSPORT__NOT_ACTION_EULER_SUMMANDS"
+  },
+  "source_graph": {
+    "fixed_varpi": "deltaT=-deltaB_Z__deltaA=deltaF_A=0",
+    "covariant_levi_civita_rank": 20,
+    "zero_order_owner": "NONE_IN_COVARIANT_NABLA_H_PRESENTATION",
+    "j1_p_support": 0,
+    "formal_adjoint_support": 0,
+    "nonparallel_control": "FIRED"
+  },
+  "metric_row": {
+    "action_density": "-t*(27+728*t^2)",
+    "density_remainder": "-33703/936*t+3/104",
+    "normalized_scalar": "33703/468*t-3/52",
+    "normalized_pattern": [1, 0, 0, 0, -1, 0, 0, -1, 0, -1],
+    "support": 4,
+    "rank": 1,
+    "traceless_kernel_dimension": 9,
+    "coordinate_volume_factor": 8,
+    "nonzero_on_both_roots": true
+  },
+  "second_action_first_variation": "ZERO_AT_PRINTED_RESIDUAL_ZERO",
+  "primitive_epsilon": "REMAINS_ZERO_ON_THIS_EXTENSION",
+  "branch_status": "BOTH_PARALLEL_EXTENSIONS_KILLED_AT_TOTAL_FIXED_VARPI_METRIC_STATIONARITY",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6_background_premise": "ABSENT",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "RERANK_VRS5_BACKGROUND_REOPENERS__REQUIRE_ACTION_OWNED_TRACE_CANCELLATION_OR_DISTINCT_CANONICAL_BRANCH_BEFORE_ANY_VRS6_INSTANTIATION",
+  "artifact": "explorations/conditional-build/selected-k77-sr1c-fixed-varpi-metric-stationarity-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1c_fixed_varpi_metric_stationarity_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1c-fixed-varpi-metric-stationarity-review.md"
+}

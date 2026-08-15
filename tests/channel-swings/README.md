@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_sr1c_fixed_varpi_metric_stationarity_probe.py` composes the
+  all-ten naturality packet, the exact parallel `j1p=0` result and the
+  fixed-`varpi` Levi-Civita graph. It proves the graph adjoint is zero but the
+  remaining rank-one gimmel trace is nonzero on both algebraic roots, killing
+  both compatible parallel extensions as stationary backgrounds. Run with
+  `sage -python <path>`.
+
 - `selected_k77_sr1c_compatible_parallel_two_jet_epsilon_probe.py` constructs
   the zero symmetric second jet and verifies Ricci/Spencer, differentiated
   action/Bianchi and unreduced local Euler compatibility. It proves

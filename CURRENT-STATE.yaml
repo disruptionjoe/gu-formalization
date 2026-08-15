@@ -261,10 +261,22 @@ current_result:
     E_T and independent-B E_B formulas gives j1E_T=j1E_B=j1p=0 as exact
     degree-at-most-three polynomial identities. Thus D_B-adjoint p and the
     already-zero moving-Shiab term close all 91 primitive-epsilon components
-    on both roots. The moving Hodge/frame/density/lowerer/observation metric
-    graph remains type-missing. Neither branch is killed and no stationary
-    background is promoted.
+    on both roots. The moving metric queue now composes intrinsically rather
+    than as six independent owners. Exact all-ten naturality fuses Hodge,
+    pairing, Shiab and frame motion; lowerer and observation are postvariation
+    equation transports; and the fixed-varpi action covector is
+    rho L1+(D_g B_Z)^!(E_B-E_T). The graph-adjoint term vanishes with the
+    proved j1p=0. The remaining normalized metric row is the rank-one trace
+    (33703t/468-3/52)(1,0,0,0,-1,0,0,-1,0,-1), whose coefficient is coprime
+    to the branch polynomial. It is nonzero on both roots. The residual-square
+    second action has zero first variation at printed-residual zero, so it
+    cannot cancel the trace. Both compatible parallel extensions are therefore
+    killed at total fixed-varpi metric stationarity. Primitive epsilon remains
+    zero on them, but no stationary background is promoted; VRS-5 must rerank
+    the background search before VRS-6 can instantiate.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1c-fixed-varpi-metric-stationarity-2026-08-14.md
+    - lab/process/selected-k77-sr1c-fixed-varpi-metric-stationarity.json
     - explorations/conditional-build/selected-k77-sr1c-compatible-parallel-two-jet-epsilon-2026-08-14.md
     - lab/process/selected-k77-sr1c-compatible-parallel-two-jet-epsilon.json
     - explorations/conditional-build/selected-k77-sr1c-parallel-two-jet-qualification-gate-2026-08-14.md
@@ -380,10 +392,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  On the compatible parallel nonzero-T two-jet where primitive epsilon closes,
-  can the moving Hodge, frame, density, lowerer and observation returns cancel
-  the live direct fixed-varpi metric partial and complete the common-basis
-  O_SR1C bank before the typed total-descent theorem gains a background premise?
+  After the compatible parallel nonzero-T two-jet is killed by its exact
+  nonzero total fixed-varpi metric trace, which honest VRS-5 background
+  reopener has the highest expected information gain: a distinct canonical
+  branch/jet or an already action-owned no-fit trace sector?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -392,13 +404,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In VRS-5, preserve the compatible parallel nonzero-T two-jet and its exact
-  zero primitive-epsilon certificate. Serialize the moving Hodge, frame,
-  density, lowerer and observation metric returns at fixed varpi on the reduced
-  (3,2,2) envelope and add them to the live direct density partial.
-  Held-out validate both roots before solving compatible jets. Preserve all
-  top zero certificates and never infer the missing divergence from the live
-  point momentum.
+  In VRS-5, do not prolong the metric-killed compatible parallel two-jet.
+  Rerank the remaining source/action-owned background reopeners. Admit a
+  distinct canonical branch or nonparallel jet only by recomputing translation,
+  primitive epsilon and total metric rows on the same exact carrier. Admit a
+  trace cancellation only if an existing action-owned sector emits the exact
+  opposite rank-one row without a fitted coefficient. Keep VRS-6 conditional
+  until one complete stationary background exists.
   Independently, the RSAP carrier still needs a local 98D wall
   normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula

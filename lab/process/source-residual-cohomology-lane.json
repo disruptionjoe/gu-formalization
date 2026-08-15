@@ -83,7 +83,7 @@
     },
     {
       "id": "VRS-5",
-      "status": "primitive_epsilon_closed_on_compatible_parallel_two_jet__moving_fixed_varpi_metric_graph_next",
+      "status": "compatible_parallel_two_jet_killed_by_total_fixed_varpi_metric_trace__background_search_rerank_next",
       "construction": "SR-1C"
     },
     {
@@ -174,7 +174,12 @@
                             "compatible_parallel_two_jet_epsilon": {
                               "result": "explorations/conditional-build/selected-k77-sr1c-compatible-parallel-two-jet-epsilon-2026-08-14.md",
                               "probe": "tests/channel-swings/selected_k77_sr1c_compatible_parallel_two_jet_epsilon_probe.py",
-                              "disposition": "COMPATIBLE_PARALLEL_TWO_JET_CONSTRUCTED__J1P_AND_PRIMITIVE_EPSILON_ZERO_ON_BOTH_ROOTS__MOVING_FIXED_VARPI_METRIC_GRAPH_OPEN"
+                              "disposition": "COMPATIBLE_PARALLEL_TWO_JET_CONSTRUCTED__J1P_AND_PRIMITIVE_EPSILON_ZERO_ON_BOTH_ROOTS__MOVING_FIXED_VARPI_METRIC_GRAPH_OPEN",
+                              "fixed_varpi_metric_stationarity": {
+                                "result": "explorations/conditional-build/selected-k77-sr1c-fixed-varpi-metric-stationarity-2026-08-14.md",
+                                "probe": "tests/channel-swings/selected_k77_sr1c_fixed_varpi_metric_stationarity_probe.py",
+                                "disposition": "COMPATIBLE_PARALLEL_TWO_JET_METRIC_KILLED__TOTAL_FIXED_VARPI_TRACE_NONZERO_ON_BOTH_ROOTS"
+                              }
                             }
                           }
                         }
@@ -228,13 +233,13 @@
     }
   ],
   "next_required_construction": {
-    "id": "SR-1C",
+    "id": "VRS-5-RERANK",
     "scaffold": "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md",
-    "statement": "The canonical-B_Z nonzero-T formal branch solves the printed residual, true translation Euler and inherited Bianchi rows at two exact algebraic amplitudes, but the admitted field one-jet does not yet determine primitive epsilon or the total metric graph. O_SR1C owns the branch-independent rank-13 primitive top symbol and exact metric g4, varpi3 and epsilon3 zeros, reducing the metric envelope to (3,2,2). Its first lower bank now serializes: p=E_B-E_T has fourteen diagonal cells, +/- (7/2-t) or +/- (9/2-t), and is live on both roots; the paired moving-Shiab primitive zero-jet return is exact zero with rank-91 live-image controls. Next differentiate p on the admitted first jet, construct D_B-adjoint p, then complete moving Hodge/frame/density/lowerer metric returns and held-out validate both roots before solving. Evaluate observation as a dependent receiver. Continue to the full formal-integrability tower and total carrier only if those source rows close, then replay SR-1.",
-    "first_blocking_operator": "O_SR1C__COMMON_BASIS_BRANCH_EVALUATOR_FOR_J1_E_B_MINUS_E_T_AND_FIXED_VARPI_METRIC_DERIVATIVE_SLOTS",
-    "forward_stage": "VRS_5_FORWARD_ENABLER__S2_MIXED_ORDER_SOURCE_COORDINATE_VARIATIONAL_PROLONGATION",
+    "statement": "The canonical-B_Z nonzero-T parallel formal extension closes translation, inherited Bianchi and primitive epsilon, but exact naturality plus the fixed-varpi source graph leaves a rank-one total metric trace nonzero on both algebraic roots. The residual-square second action has zero first variation there, so both parallel extensions are killed as stationary backgrounds. Rerank VRS-5 between a genuinely distinct canonical branch or nonparallel jet whose complete source rows are recomputed, and an already action-owned trace sector that emits the exact opposite row without a fitted coefficient. Do not enter VRS-6 until one complete stationary background exists.",
+    "first_blocking_operator": "STATIONARY_BACKGROUND_REOPENER__DISTINCT_CANONICAL_BRANCH_OR_ACTION_OWNED_NO_FIT_TRACE_CANCELLATION",
+    "forward_stage": "VRS_5_BACKGROUND_SEARCH_RERANK__VRS_6_PREMISE_ABSENT",
     "reverse_falsification_status": "RF_1_AND_RF_2_COMPLETE__RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST",
-    "failure_rule": "Do not retry the exhausted zero-T family, repeat excluded homogeneous branches, substitute the printed residual for the action Euler row, fill missing higher derivatives with zero, choose one floating algebraic root before exact reduction, count observation as an independent Euler row, call the direct volume partial a total metric obstruction, manufacture a background by tangent restriction, or promote this local formal jet to a GU solution."
+    "failure_rule": "Do not prolong the metric-killed parallel extension, retry the exhausted zero-T family, repeat excluded homogeneous branches, substitute the printed residual for the action Euler row, fill missing higher derivatives with zero, choose one floating algebraic root before exact reduction, count lowerer or observation as independent Euler rows, introduce a fitted trace counterterm, manufacture a background by tangent restriction, or promote a local formal jet to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
 }

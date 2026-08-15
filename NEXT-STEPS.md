@@ -7,6 +7,20 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1C TOTAL FIXED-`VARPI` METRIC KILL.** The moving queue now
+> composes as one intrinsic first variation. Exact all-ten naturality fuses
+> Hodge/pairing/Shiab/frame motion; lowerer and observation are postvariation
+> equation transports; and the source row is
+> `E_g=rho L1+(D_g B_Z)^!(E_B-E_T)`. The parallel `j1p=0` kills the graph
+> adjoint, leaving the exact rank-one trace
+> `(33703t/468-3/52)(1,0,0,0,-1,0,0,-1,0,-1)`, nonzero on both roots. The
+> residual-square action has zero first variation there. **Both compatible
+> parallel extensions are killed as stationary backgrounds. Next rerank VRS-5
+> between a genuinely distinct canonical branch/jet and an already
+> action-owned no-fit trace cancellation; do not enter VRS-6 without a complete
+> background.** Primitive epsilon remains zero on the killed extensions; exact
+> probe `38/38`.
+
 > **2026-08-14 SR-1C COMPATIBLE PARALLEL TWO-JET.** The qualified candidate
 > now constructs: all `133,770` symmetric second-jet slots are assigned zero,
 > with exact Ricci/Spencer compatibility, and all `2,744` differentiated action
