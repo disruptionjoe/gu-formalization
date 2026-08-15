@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "rsap_balanced_symmetric_horn_nilpotent_orbit_census",
   "created": "2026-08-15",
-  "status": "COMPLETE_NILPOTENT_CONE_ADMITTED__PRINCIPAL_ORBIT_SUBMERSIVE__MIXED_JORDAN_CENSUS_OPEN",
+  "status": "COMPLETE_NILPOTENT_CONE_ADMITTED__ALL_99_CONNECTED_ORBITS_POINTWISE_RANK_SATURATING__MIXED_JORDAN_CENSUS_OPEN",
   "layer_0": {
     "object": "real nilpotent adjoint orbits in split so(7,7) tested against a balanced anticommuting orthogonal involution",
     "construction": "classical_hamiltonian_symmetric_space_moment_image",
@@ -17,6 +17,9 @@
     "admissible_partition_count": 43,
     "split_real_signed_form_allocation_count": 99,
     "failed_balanced_allocations": 0,
+    "stable_signed_diagram_count": 99,
+    "connected_so0_orbit_count": 99,
+    "o_to_so0_split_count": 0,
     "very_even_split_cases": 0,
     "very_even_reason": "a very-even partition has size divisible by 4, whereas 14 is 2 modulo 4",
     "odd_block_model": "d=2k+1, Q_d(i,d-1-i)=c*(-1)^i, D_d(i)=(-1)^i",
@@ -59,6 +62,8 @@
   "coverage_gate": {
     "nilpotent_cone": "COVERED",
     "principal_regular_nilpotent_submersivity": "PROVED",
+    "all_nilpotent_pointwise_rank_saturation": "PROVED_ON_ALL_99_CONNECTED_REAL_ORBITS",
+    "all_nilpotent_rank_formula": "rank_dJ=(189-c(lambda))/2__target_rank=91-c(lambda)__2rank_dJ=98+target_rank",
     "regular_nonsemisimple_controls": "TWO_EXACT_CONTROLS_PASS",
     "complete_regular_nonsemisimple_census": "OPEN",
     "singular_mixed_jordan_census": "OPEN",

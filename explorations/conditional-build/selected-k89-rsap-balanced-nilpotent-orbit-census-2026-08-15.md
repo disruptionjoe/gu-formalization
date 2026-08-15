@@ -5,7 +5,7 @@ doc_type: exact_real_nilpotent_signed_diagram_census_and_principal_rank_certific
 created: "2026-08-15"
 registry: lab/process/selected-k89-rsap-balanced-nilpotent-orbit-census.json
 probe: tests/channel-swings/selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py
-grade: "COMPLETE NILPOTENT CONE IN Ad(G)p; PRINCIPAL [13,1] MAP RANK 91; MIXED JORDAN CENSUS OPEN"
+grade: "COMPLETE NILPOTENT CONE IN Ad(G)p; ALL 99 CONNECTED REAL ORBITS SATURATE POINTWISE RANK; MIXED JORDAN CENSUS OPEN"
 canon_verdict_change: none
 ---
 
@@ -42,12 +42,17 @@ signature(Q|R=-1)=(3,4),
 up to swapping the two eigenspaces. Hence every nilpotent orbit meets the
 balanced symmetric complement `p`. The exact finite census contains `43`
 orthogonal partitions of `14` and `99` split-real signed-form allocations;
-all `99` pass and none is omitted by a very-even split.
+all `99` pass, all are stable signed diagrams, and none splits under
+`SO_0(7,7)` or is omitted by a very-even split. Thus these are the `99`
+connected real nilpotent adjoint-orbit classes, not merely full-orthogonal
+types.
 
-For the principal `[13,1]` orbit, an explicit integer matrix has ambient
+For both principal `[13,1]` orbits, explicit integer matrices have ambient
 adjoint rank `84`, centralizer dimension `7`, trivial intersection with
-`h=so(3,4)+so(4,3)`, and cotangent moment-map rank `91`. It therefore saturates
-the regular `98D` pointwise bound. Two exact regular-nonsemisimple controls,
+`h=so(3,4)+so(4,3)`, and cotangent moment-map rank `91`. More strongly, exact
+row reduction proves that every one of the `99` nilpotent classes saturates
+its own `98D` pointwise rank bound, from rank `91` at either principal orbit
+to rank `49` at zero. Two exact regular-nonsemisimple controls,
 with zero-primary partitions `[5,1]` and `[3,1]`, also have map rank `91` and
 trivial `h`-centralizer. They are controls, not an exhaustion of mixed primary
 types.
@@ -91,6 +96,14 @@ and time-orientation corrections can be made inside their block stabilizers;
 the involution criterion therefore remains valid for `Spin_0(7,7)`, not only
 the full orthogonal group.
 
+The identity-component count is also checked at the signed-diagram level.
+Under the orthogonal `ab`-diagram splitting rule recalled by
+[Đoković--Lemire--Sekiguchi](https://doi.org/10.2748/tmj/1178207418), a full
+orbit splits only at a diagram whose odd rows have one common middle letter.
+All `99` signature-`(7,7)` diagrams contain both middle letters and are stable.
+Hence every full orbit is already one connected `SO_0(7,7)` orbit; the central
+`Spin_0 -> SO_0` cover adds no adjoint class.
+
 ## Principal `[13,1]` certificate
 
 Take a thirteen-chain with alternating anti-diagonal form of signature
@@ -118,6 +131,35 @@ powers `X,X^3,...,X^11` plus the one cross-map between the singleton and the
 two ends of the thirteen-chain. All seven anticommute with `R`, so none lies
 in `h`.
 
+## Pointwise rank on all 99 nilpotent orbits
+
+Let `lambda'` be the transpose orthogonal partition, let `o(lambda)` be its
+number of odd rows, and set
+
+```text
+c(lambda) = (sum_j (lambda'_j)^2 - o(lambda))/2.
+```
+
+This is the real centralizer dimension. For every canonical representative,
+the probe builds the complete `91D` `so(Q)` basis, splits it into `42D h` and
+`49D p`, and row-reduces both adjoint maps. It obtains
+
+```text
+rank(ad_X:h->p) = rank(ad_X:p->h) = (91-c(lambda))/2,
+dim h_X = (c(lambda)-7)/2,
+dim p_X = (c(lambda)+7)/2,
+rank(dJ) = 49 + rank(ad_X:p->h) = (189-c(lambda))/2,
+target Poisson rank = 91-c(lambda).
+```
+
+Consequently `2 rank(dJ)=98+target Poisson rank` on all `99` connected real
+nilpotent orbits. Integer row reduction modulo a prime supplies lower bounds
+whose fixed-plus-moving sum reaches the exact characteristic-zero adjoint rank
+`91-c(lambda)`; the partition centralizer formula supplies the matching upper
+bound, so the displayed ranks are exact over the rationals. Nilpotent
+singularity introduces precisely the rank loss required by the target Poisson
+structure and no additional defect.
+
 ## Regular-nonsemisimple controls
 
 Two independently typed direct sums test that nilpotent admission composes
@@ -138,7 +180,10 @@ all regular nonsemisimple primary decompositions.
 ## Claim ceiling and next gate
 
 - The complete nilpotent cone meets `Ad(G)p`.
-- The principal regular nilpotent orbit is submersive for the `98D` horn.
+- All `99` connected real nilpotent orbit classes saturate the `98D`
+  pointwise rank bound.
+- Both principal regular nilpotent orbits are submersive for the `98D` horn;
+  zero has map rank `49`.
 - Two regular-nonsemisimple controls are submersive.
 - Complete regular-nonsemisimple and singular mixed-Jordan coverage remains
   open. Nilpotent coverage does not imply it.

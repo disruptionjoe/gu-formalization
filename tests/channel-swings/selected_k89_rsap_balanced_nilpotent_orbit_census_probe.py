@@ -362,7 +362,33 @@ control_51 = verify_rank_control("regular [5,1] plus four elliptic primaries", *
 control_31 = verify_rank_control("regular [3,1] plus elliptic/hyperbolic primaries", *regular_control(3))
 
 
-print("\nD. MUTATION AND CLAIM-CEILING CONTROLS")
+print("\nD. ALL-ORBIT POINTWISE RANK SATURATION")
+rank_schedule = []
+for row in rows:
+    form, value, grading = canonical_row_representative(row)
+    basis = lie_basis(form)
+    h_basis, p_basis = grading_parts(basis, grading)
+    centralizer = centralizer_dimension(row["partition"])
+    h_rank = rank_mod_prime([flatten(commutator(value, direction)) for direction in h_basis])
+    p_rank = rank_mod_prime([flatten(commutator(value, direction)) for direction in p_basis])
+    rank_schedule.append((centralizer, h_rank, p_rank, len(h_basis), len(p_basis)))
+check("rank-census", "every nilpotent representative has the balanced 42+49 decomposition",
+      all(h_dimension == 42 and p_dimension == 49
+          for _, _, _, h_dimension, p_dimension in rank_schedule))
+check("rank-census", "all 99 fixed and moving adjoint ranks reach the exact orbit ceiling",
+      all(h_rank == p_rank == (91 - centralizer) // 2
+          for centralizer, h_rank, p_rank, _, _ in rank_schedule))
+check("rank-census", "all 99 nilpotent map ranks saturate the 98D pointwise bound",
+      all(49 + p_rank == (189 - centralizer) // 2
+          for centralizer, _, p_rank, _, _ in rank_schedule))
+check("rank-census", "the two principal rows are rank 91 and zero is rank 49",
+      sum(centralizer == 7 and 49 + p_rank == 91
+          for centralizer, _, p_rank, _, _ in rank_schedule) == 2
+      and sum(centralizer == 91 and 49 + p_rank == 49
+              for centralizer, _, p_rank, _, _ in rank_schedule) == 1)
+
+
+print("\nE. MUTATION AND CLAIM-CEILING CONTROLS")
 bad_partition = (2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
 check("mutation", "a singleton even block violates the orthogonal partition rule",
       Counter(bad_partition)[2] % 2 == 1)
@@ -381,6 +407,9 @@ check("schema", "registry principal ranks equal the exact matrix certificate",
       and registry["principal_control"]["moment_map_rank"] == 91)
 check("schema", "both mixed regular controls equal the exact matrix ranks",
       control_51 == (84, 42, 42) and control_31 == (84, 42, 42))
+check("schema", "registry records all-orbit pointwise rank saturation",
+      registry["coverage_gate"]["all_nilpotent_pointwise_rank_saturation"]
+      == "PROVED_ON_ALL_99_CONNECTED_REAL_ORBITS")
 check("scope", "mixed Jordan, zero-neighborhood and global RSAP remain open",
       registry["coverage_gate"]["complete_regular_nonsemisimple_census"] == "OPEN"
       and registry["coverage_gate"]["singular_mixed_jordan_census"] == "OPEN"
@@ -390,7 +419,7 @@ check("scope", "ambient successor and dimension interval are unchanged",
       registry["disposition"]["ambient_a3_successor"] == "TYPE_MISSING_NOT_REOPENED"
       and registry["disposition"]["dimension_interval"] == [98, 182])
 check("review", "hostile review preserves the mixed-Jordan ceiling",
-      "PASS_COMPLETE_NILPOTENT_CONE__MIXED_JORDAN_CENSUS_OPEN"
+      "PASS_FULL_NILPOTENT_CONE__ALL_99_POINTWISE_RANK_SATURATING__MIXED_JORDAN_AND_ZERO_NEIGHBORHOOD_OPEN"
       in REVIEW.read_text(encoding="utf-8"))
 
 

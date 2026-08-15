@@ -11,13 +11,15 @@ updated_at: "2026-08-15"
 > signed-form type in split `so(7,7)` meets the K88 symmetric complement.
 > Exact enumeration gives `43` orthogonal partitions and `99` split-real
 > signed-form allocations; all admit the required anticommuting orthogonal
-> involution with eigenspace signatures `(3,4)|(4,3)`. The principal `[13,1]`
-> row has ambient/`h`/`p` adjoint ranks `84/42/42`, trivial `h`-centralizer
-> and cotangent map rank `91`. Two regular-nonsemisimple mixed-primary controls
+> involution with eigenspace signatures `(3,4)|(4,3)`. All `99` diagrams are
+> stable and therefore give `99` connected `SO_0(7,7)` orbit classes. Every
+> class saturates its `98D` pointwise rank bound:
+> `rank(dJ)=(189-c(lambda))/2`; both principal `[13,1]` rows have rank `91`
+> and zero has rank `49`. Two regular-nonsemisimple mixed-primary controls
 > pass at the same rank. **Next exhaust all regular nonsemisimple primary
 > decompositions, then the singular mixed-Jordan types.** Zero-neighborhood
 > coverage, surjectivity, RSAP, source selection and global gluing remain open.
-> Exact probe `32/32`.
+> Exact probe `37/37`.
 
 > **2026-08-15 `98D` ZERO-CHARGE BALANCED SYMMETRIC HORN.** Split
 > `R^(7,7)=U_(3,4)+W_(4,3)` and take the connected symmetric subgroup

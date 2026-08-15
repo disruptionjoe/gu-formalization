@@ -8,11 +8,11 @@ the map: which directory/group supports which claim.
 
 - `channel-swings/selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py`
   exhausts all `43` orthogonal partitions of `14` and all `99` split-real
-  signed-form allocations, proving every nilpotent type admits the balanced
-  anticommuting involution. It certifies the principal `[13,1]` orbit and two
-  regular-nonsemisimple controls have ambient/`h`/`p` adjoint ranks
-  `84/42/42` and cotangent map rank `91`, while preserving the complete
-  mixed-Jordan census as open. It passes `32/32`.
+  stable connected orbit classes, proving every nilpotent type admits the
+  balanced anticommuting involution and saturates its `98D` pointwise rank
+  bound. Both principal `[13,1]` orbits have map rank `91`, zero has rank
+  `49`, and two regular-nonsemisimple controls pass, while the complete mixed-
+  Jordan census stays open. It passes `37/37`.
 
 - `channel-swings/selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
   builds the exact balanced symmetric decomposition

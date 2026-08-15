@@ -3,7 +3,7 @@ title: "Hostile review: K89 balanced nilpotent-orbit census"
 status: complete
 reviewed_artifact: explorations/conditional-build/selected-k89-rsap-balanced-nilpotent-orbit-census-2026-08-15.md
 created: "2026-08-15"
-verdict: PASS_COMPLETE_NILPOTENT_CONE__MIXED_JORDAN_CENSUS_OPEN
+verdict: PASS_FULL_NILPOTENT_CONE__ALL_99_POINTWISE_RANK_SATURATING__MIXED_JORDAN_AND_ZERO_NEIGHBORHOOD_OPEN
 ---
 
 # Hostile review
@@ -39,6 +39,16 @@ checked separately against the complete `91D` `so(Q)` basis. Its ambient,
 `h`, and `p` adjoint ranks are exactly `84`, `42`, and `42`, so the
 `h`-centralizer is zero and the moment rank is `91`.
 
+## Principal rank extrapolated to singular nilpotents attack
+
+The hardened certificate no longer extrapolates. It constructs the full
+`91D` orthogonal Lie-algebra basis separately for every signed diagram, splits
+each basis into dimensions `42+49`, and row-reduces both adjoint maps. For
+centralizer dimension `c(lambda)`, both ranks are
+`(91-c(lambda))/2`, giving map rank `(189-c(lambda))/2`. Thus all `99`
+connected classes—not just the principal controls—saturate the pointwise
+`98D` bound; zero supplies the opposite endpoint at map rank `49`.
+
 ## Regular-nonsemisimple extrapolation attack
 
 The `[5,1]` and `[3,1]` direct sums prove only that two mixed regular families
@@ -55,6 +65,7 @@ counts or create a failure. The K88 `104/104` predecessor also replays.
 
 ## Verdict
 
-Accept complete nilpotent-cone membership and principal rank-91 submersivity.
-Keep zero-neighborhood coverage, surjectivity and RSAP existence open pending
-the complete mixed-primary census.
+Accept complete nilpotent-cone membership and pointwise rank saturation on all
+`99` connected real orbit classes. Keep zero-neighborhood coverage,
+surjectivity and RSAP existence open pending the complete mixed-primary
+census.
