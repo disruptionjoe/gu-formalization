@@ -117,7 +117,10 @@ def render(doc: dict) -> str:
         out.append("")
         out.append(f"**Invalidates if:** {chain['invalidates_if'].strip()}")
         out.append("")
-    return "\n".join(out) + "\n"
+    # ``out`` already ends with an empty line, so joining supplies exactly one
+    # terminal newline. Adding another makes the generated file fail the
+    # repository-wide ``git diff --check`` whitespace gate.
+    return "\n".join(out)
 
 
 class PathDependencyAudit(unittest.TestCase):

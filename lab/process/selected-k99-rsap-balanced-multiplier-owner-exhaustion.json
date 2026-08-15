@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "balanced_rsap_minimal_multiplier_and_current_owner_exhaustion",
+  "created": "2026-08-15",
+  "status": "MINIMAL_RIGHT_H_BAL_MULTIPLIER_COMPLETION_CONSTRUCTED__CURRENT_SERIALIZED_ACTION_OWNS_NEITHER_BALANCED_PROJECTOR_NOR_MULTIPLIER",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "RELEASED_SOURCE_ACTION_RECORDS_PLUS_FORMAL_EPSILON_PREBOUNDARY_AND_REVERSE_CONSTRUCTED_BALANCED_PAIR",
+  "target_claim": {
+    "id": "K98_NEXT_GATE__SOURCE_OR_CURRENT_ACTION_OWNS_RIGHT_H_BAL_MULTIPLIER_CONNECTION_OR_BOUNDARY_GAUGE_TERM",
+    "verdict": "CURRENT_SERIALIZED_NO__MINIMAL_NEW_COMPLETION_EXACT"
+  },
+  "minimal_completion": {
+    "fields": "g_in_G__lambda_in_gstar__a_t_in_h_bal",
+    "lagrangian": "L_min=pair(lambda,g_inverse_dot_g-a_t)",
+    "gauge_variations": {
+      "g": "delta_g=g_xi",
+      "lambda": "delta_lambda=[lambda,xi]_under_trace_identification",
+      "a_t": "delta_a_t=dot_xi+[a_t,xi]"
+    },
+    "local_gauge_variation": "ZERO_EXACT",
+    "multiplier_euler_equation": "J_R_H_bal=lambda_restricted_to_h_bal=0",
+    "constraint_rank": 42,
+    "a_t_a_t_hessian_rank": 0,
+    "lambda_a_t_mixed_rank": 42,
+    "zero_level_dimension": 140,
+    "quotient_dimension": 98,
+    "noether_identity": "FOLLOWS_FROM_EXACT_LOCAL_RIGHT_H_BAL_INVARIANCE",
+    "bfv_successor": "K98_CANONICAL_REGULAR_IRREDUCIBLE_COMPLETION"
+  },
+  "owner_stack": {
+    "balanced_involution_or_projector": "NOT_SOURCE_OR_CURRENT_ACTION_OWNED",
+    "right_h_bal_boundary_gauge_declaration": "NOT_SOURCE_OR_CURRENT_ACTION_OWNED",
+    "independent_h_bal_multiplier_connection": "NOT_SOURCE_OR_CURRENT_ACTION_OWNED",
+    "minimal_bfv_ghost_sector": "CANONICAL_ONLY_AFTER_THE_PRECEDING_GAUGE_LAW_IS_POSTULATED"
+  },
+  "subgroup_type_check": {
+    "source_physical_split": "(1,3)+(6,4)",
+    "source_physical_stabilizer_dimension": 51,
+    "source_physical_formal_cotangent_reduction_dimension": 80,
+    "reverse_balanced_split": "(3,4)+(4,3)",
+    "reverse_balanced_stabilizer_dimension": 42,
+    "reverse_balanced_formal_cotangent_reduction_dimension": 98,
+    "same_subgroup_object": false
+  },
+  "candidate_census": [
+    {
+      "candidate": "EXISTING_EPSILON",
+      "new_field": false,
+      "status": "WRONG_VARIATIONAL_ROLE__FREE_VARIATION_FORCES_ALL_91_MOMENTA_ZERO"
+    },
+    {
+      "candidate": "RESTRICT_EPSILON_VARIATIONS_TO_H_BAL",
+      "new_field": false,
+      "status": "ASSUMES_UNOWNED_PROJECTOR__BOUNDARY_CONDITION_NOT_GAUGE_DECLARATION"
+    },
+    {
+      "candidate": "PROJECT_EXISTING_B_OR_VARPI_TO_H_BAL",
+      "new_field": false,
+      "status": "UNOWNED_PROJECTOR_AND_CURRENT_POINTWISE_CONNECTION_SECTOR_DYNAMICAL__FUTURE_HAMILTONIAN_SPLIT_OPEN"
+    },
+    {
+      "candidate": "DRESS_FULL_CONNECTION_BY_EPSILON_AND_PROJECT",
+      "new_field": false,
+      "status": "NEW_STUECKELBERG_LIKE_COUPLING_AND_EXTERNAL_R0_NOT_IN_RELEASED_ACTION"
+    },
+    {
+      "candidate": "REUSE_CONDITIONAL_EDGE_FIELD",
+      "new_field": false,
+      "status": "PRESUPPOSES_BOUNDARY_GAUGE_HORN__DOES_NOT_SELECT_H_BAL_OR_ZERO_CHARGE"
+    },
+    {
+      "candidate": "NEW_INDEPENDENT_H_BAL_MULTIPLIER_A_T",
+      "new_field": true,
+      "status": "EXACT_MINIMAL_COMPLETION__NOT_CURRENT_ACTION_OWNED"
+    }
+  ],
+  "exhaustion_ceiling": "CURRENT_SERIALIZED_NO_NEW_FIELD_CANDIDATES_AT_AVAILABLE_PREBOUNDARY_AND_POINTWISE_VARIATIONAL_GRADES_ONLY",
+  "not_excluded": [
+    "UNRELEASED_SOURCE_ACTION_TERM",
+    "ACTION_OWNED_MOVING_BALANCED_ORDER_PARAMETER",
+    "FULL_HAMILTONIAN_COLLAR_DECOMPOSITION_WITH_EXISTING_NORMAL_COMPONENT"
+  ],
+  "disposition": {
+    "mathematical_minimal_multiplier_completion": "CONSTRUCTED",
+    "current_source_action_ownership": "NOT_CONSTRUCTED",
+    "physical_phase_space_selection": "OPEN",
+    "next_gate": "CONSTRUCT_OR_OBSTRUCT_ACTION_OWNED_BALANCED_INVOLUTION_OR_ORDER_PARAMETER_THEN_TEST_EXACT_HAMILTONIAN_NORMAL_CONNECTION_MULTIPLIER",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "bfv": "lab/process/selected-k98-rsap-balanced-bfv-selection-classifier.json",
+    "formal_parent": "lab/process/selected-k77-source-epsilon-cotangent-parent.json",
+    "preboundary_noether": "lab/process/selected-k77-action-noether-preboundary.json",
+    "boundary_horns": "lab/process/selected-k77-boundary-disposition-selector.json",
+    "connection_action": "lab/process/selected-k77-bosonic-parent-action-ownership.json",
+    "moving_split_action": "lab/process/selected-k77-moving-split-structure-action-selection-gate.json",
+    "released_action_grammar": "explorations/conditional-build/selected-k77-i2b-source-action-grammar-exhaustion-2026-08-13.md"
+  },
+  "artifact": "explorations/conditional-build/selected-k99-rsap-balanced-multiplier-owner-exhaustion-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k99_rsap_balanced_multiplier_owner_exhaustion_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k99-rsap-balanced-multiplier-owner-exhaustion-review.md"
+}

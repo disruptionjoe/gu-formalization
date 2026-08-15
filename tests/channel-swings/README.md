@@ -372,3 +372,9 @@ the ledger probe uses the standard Python interpreter.
   system, all 861 brackets and 11,480 Jacobi triples, minimal classical BFV
   closure, and the 49D-boundary-graph versus 98D-reduction ownership
   classifier. Run with `python3 <path>`; `31/31` pass.
+
+- `selected_k99_rsap_balanced_multiplier_owner_exhaustion_probe.py` certifies
+  the minimal locally right-`H_bal` invariant multiplier action, its rank-42
+  Euler/mixed block, the 51D physical-split versus 42D balanced-split mismatch,
+  and the current serialized no-new-field owner census. Run with
+  `python3 <path>`; `27/27` pass.

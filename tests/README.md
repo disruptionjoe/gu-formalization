@@ -4824,3 +4824,15 @@ an invariant boundary-functional graph is only a 49D Lagrangian inside the
 ```sh
 python3 tests/channel-swings/selected_k98_rsap_balanced_bfv_selection_classifier_probe.py
 ```
+
+## K99 balanced RSAP multiplier-owner exhaustion
+
+`channel-swings/selected_k99_rsap_balanced_multiplier_owner_exhaustion_probe.py`
+replays K98, distinguishes the source physical 51D stabilizer from the reverse
+balanced 42D stabilizer, verifies exact local gauge invariance of the minimal
+multiplier action and its rank-42 mixed block, and checks the typed current
+owner census and claim ceiling. It passes `27/27` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k99_rsap_balanced_multiplier_owner_exhaustion_probe.py
+```

@@ -125,6 +125,10 @@ graph TD
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t2
   PD_STRUCTURE_TRANSPORT_t3("TRAP 2026-08-15")
   PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t3
+  PD_STRUCTURE_TRANSPORT_t4("TRAP 2026-08-15")
+  PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t4
+  PD_STRUCTURE_TRANSPORT_t5("TRAP 2026-08-15")
+  PD_STRUCTURE_TRANSPORT_chk -.-> PD_STRUCTURE_TRANSPORT_t5
   PD_I2B_ACTION_OWNER["PD-I2B-ACTION-OWNER"]
   PD_I2B_ACTION_OWNER_s0["AUTHOR-STATED: The source prints Upsilon_print=S(F_A)+*kappa T and separately gives E_act=..."]
   PD_I2B_ACTION_OWNER --> PD_I2B_ACTION_OWNER_s0
@@ -338,9 +342,12 @@ graph TD
 - **2026-08-15** — The globally surjective balanced 98D RSAP was at risk of remaining labelled wholly unattached, or conversely of being promoted to an action-selected phase space. It is exactly the right-H_bal zero reduction of the action-owned formal epsilon T*Spin_0(7,7) parent, but the current bare action supplies neither that right-moment constraint nor its gauge quotient.
   - *Cost:* The first reading hides a completed global formal attachment; the second manufactures the missing variational and BFV owner from successful reverse geometry.
   - *Receipt:* `explorations/conditional-build/selected-k97-rsap-action-parent-reduction-selection-gate-2026-08-15.md`
-- **2026-08-15** — The full-so(7,7) frozen-distortion BFV presentation is nonregular, but the balanced reduction uses a different action: free right multiplication by H_bal on the group. Its 42 constraints are regular and irreducible. Conversely, that canonical BFV theorem does not make the current action its owner.
+- **2026-08-15** — The full-so(7,7) frozen-distortion BFV presentation is nonregular, but the balanced reduction uses free right multiplication by H_bal on the group. Its 42 constraints are regular and irreducible. That canonical BFV theorem still does not make the current action its owner.
   - *Cost:* Transferring nonregularity would manufacture a ghost-for-ghost tower; transferring constructibility into ownership would manufacture a physical phase space.
   - *Receipt:* `explorations/conditional-build/selected-k98-rsap-balanced-bfv-selection-classifier-2026-08-15.md`
+- **2026-08-15** — A full so(7,7) connection or the source physical K77 split was at risk of being treated as the owner of the reverse-constructed balanced constraint. The source (1,3)+(6,4) stabilizer has dimension 51 and gives an 80D formal cotangent reduction; the balanced (3,4)+(4,3) stabilizer has dimension 42 and gives 98D. The balanced projector, boundary gauge declaration and multiplier are separate owners.
+  - *Cost:* Would silently project an existing connection with an unowned involution, impose the wrong Gauss law, and report physical selection from a mathematically successful reverse scaffold.
+  - *Receipt:* `explorations/conditional-build/selected-k99-rsap-balanced-multiplier-owner-exhaustion-2026-08-15.md`
 
 **Invalidates if:** A receipt constructs an explicit intertwiner proving the two concrete structures equivalent for the operator and variational problem at hand.
 

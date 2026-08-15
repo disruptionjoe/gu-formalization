@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 MINIMAL BALANCED MULTIPLIER CONSTRUCTED; CURRENT OWNER CENSUS
+> EMPTY.** The exact first-order completion
+> `L_min=<lambda,g^-1 dot(g)-a_t>`, with `a_t in h_bal`, is locally
+> right-`H_bal` invariant and its 42 multiplier equations impose
+> `J_R,H_bal=0`; its mixed block has rank 42. It is new completion data, not a
+> recovered term in the released action. The reverse scaffold also imported
+> the balanced projector: Weinstein's physical `(1,3)+(6,4)` split has a
+> 51D stabilizer and would give an 80D cotangent reduction, while the balanced
+> `(3,4)+(4,3)` split has a 42D stabilizer and gives 98D. Existing epsilon,
+> restricted epsilon variation, projected/dressed connections and the old
+> edge horn do not own both missing layers. **Next construct or obstruct an
+> action-owned balanced involution/order parameter, then test whether a full
+> Hamiltonian/collar split produces the required normal `h_bal` multiplier.**
+> Exact probe `27/27`.
+
 > **2026-08-15 CANONICAL BALANCED BFV COMPLETION CLOSED; ACTION OWNERSHIP
 > STILL MISSING.** Right multiplication by `H_bal` on `Spin_0(7,7)` is free,
 > so the 42 right-moment constraints on the formal cotangent parent have rank
@@ -14,9 +29,10 @@ updated_at: "2026-08-15"
 > minimal 42-ghost classical BFV charge closes exactly; no ghosts-for-ghosts
 > are needed at this finite grade. A right-invariant scalar boundary
 > functional does not create the full law: its 91D graph descends to only a
-> 49D Lagrangian inside the 98D reduction. **Reopen selection only with an
-> explicit source/action-owned right-`H_bal` multiplier, connection or
-> boundary gauge term whose Euler and Noether data derive `J_R,H_bal=0`.**
+> 49D Lagrangian inside the 98D reduction. **Successor K99 constructs the
+> exact minimal multiplier law but finds both
+> its balanced projector and multiplier absent from the current serialized
+> action.**
 > Analytic domain, positivity, quantization and physical identity remain open.
 > Exact probe `31/31`.
 
