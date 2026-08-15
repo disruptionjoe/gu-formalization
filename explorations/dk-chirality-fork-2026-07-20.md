@@ -33,6 +33,13 @@ external_refs:
   - "Bianconi, G., Gravity from entropy, arXiv:2408.14391; discrete precursor arXiv:2404.08556 -- Dirac-Kahler (untruncated forms-as-spinors) matter content; intake pointer only, untrusted data."
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `CONVENTIONAL_COMPARATOR`.
+
 # The Dirac-Kahler chirality fork: is the -13 a fact about GU or a fact about a truncation?
 
 ## 0. The charge and the one-paragraph answer

@@ -14,6 +14,13 @@ canon_verdict_change: none
 outcome: "DISTINGUISHED-NOT-ORIENTED"
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
+
 # B5 chirality orientation audit
 
 > **FOLLOW-UP (2026-07-29, vertical--Krein weld).** The four X-sector orbits

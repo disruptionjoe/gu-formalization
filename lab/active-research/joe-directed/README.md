@@ -7,6 +7,14 @@ updated_at: "2026-08-14"
 
 # Joe-Directed Channels
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** Several threads below are
+> conventional controls, not Weinstein's operative model. Their exclusions do
+> not count as adverse GU evidence or select the next task without a typed
+> bridge. Read `lab/methods/source-native-comparator-routing.md` before using
+> any Higgs/VEV, index, chirality, Majorana/126, anomaly, breaking or vector-
+> mass result. The source-native entry points are collected there.
+
 Native research artifacts produced by Joe's directed workstream. Channel
 selection, orchestration and service history are **external** and are not
 authority for any scientific claim here; only the native evidence in these
@@ -38,13 +46,13 @@ Two further ceilings recur and should be read with every file:
 
 | thread | first gate | current disposition |
 |---|---|---|
-| `majorana-126-neutrino/` | MJ-1 | Explicit Majorana route closed: exact rank-one `nu_R` block exists (MJ-1) but has no carrier (MJ-2), is `B-L` symmetry-forbidden (MJ-5), and the 126 channel is repulsive so no condensate forms (BD-2). SG4-1 names the minimal carrier exhaustively: a 16 or a 126. SRC-1/2/3 steelman and test the source's own curvature-induced mechanism instead. |
-| `photon-extra-vector-spectrum/` | PV-1 | Obstruction reached by both mechanisms: no SM-preserving VEV leaves exactly the SM (PV-1, minimum unbroken 13), and observation reaches only `p` so nine non-SM directions survive (PV-2). |
-| `baryon-number-and-proton-decay/` | BD-1 | The 24 B-violating roots all lie in `p`, so observation removes precisely the proton-decay mediators; `B-L` is conserved by all six available mechanisms, giving `eta_B = 0`. |
-| `anomaly-cancellation/` | AC-1 | Route retired as a selector: anomaly cancellation has zero discriminating power over the carrier bit, signature horn, chirality or multiplicities. Derives the Rarita-Schwinger rescalings the carrier-bit canon held at literature grade. |
+| `majorana-126-neutrino/` | MJ-1 | **Conventional comparator:** the standard SO(10) `126`-VEV route is closed in the declared content. This does not adjudicate Weinstein's disavowed-Higgs curvature mechanism; SRC-1/2/3 are the source-native successor. |
+| `photon-extra-vector-spectrum/` | PV-1 | **Comparator plus bridge boundary:** VEV-only breaking fails, and an observation-only slice reaches only `p`. Neither result composes the later Yang--Mills--Higgs/connection layer, so no full source-native vector-spectrum obstruction follows. |
+| `baryon-number-and-proton-decay/` | BD-1 | **Bridge boundary:** the root and observation calculation is exact on its named reduction. Transport to physical baryogenesis or proton decay still requires the source-native action, quotient and observable bridge. |
+| `anomaly-cancellation/` | AC-1 | **Conventional comparator:** ordinary anomaly cancellation has zero discriminating power over the named representation choices. It is not Weinstein's generation/chirality selector. |
 | `cosmological-constant-sign/` | CC-1 | Literal `SC-COS-01` reading typed as TYPE-MISSING; a degree-`<=4` sign lock with an exact degree-6 boundary. Corroborates the existing `Q2-FREE` verdict rather than challenging it. |
-| `coupling-unification/` | CU-1 | `b_2L = b_2R` identically across 672 fork combinations, making the SU(2) difference a one-loop RG invariant; unbroken Pati-Salam at `M_Z` misses by 63 units of `alpha^-1`. |
-| `massless-vector-cosmology/` | MV-1 | Leptons confined in the observation-only stage; after breaking, exactly one extra massless boson, the gauged `U(1)_{B-L}`. MV-2 closes **all four** abelian mass mechanisms. |
+| `coupling-unification/` | CU-1 | **Conventional comparator:** the ordinary one-loop Pati--Salam running model fails its named test. It does not adjudicate a source-native coupling mechanism until one is constructed and bridged. |
+| `massless-vector-cosmology/` | MV-1 | **Conventional comparator:** four familiar abelian mass routes are closed in the tested model. The result does not include Weinstein's full observation-plus-later-action construction. |
 | `high-energy-two-plus-one/` | HE-1 | The 144 is a **mirror**, multiplicity exactly one, forced by a mod-4 chirality class. The 2+1 partition is forced with no free parameter but is unlabelled and subtractive. `SC-GEN-53` stays a typed seed. |
 | `coset-versus-gauge/` | CG-1 | `p` is a declared coset, not a gauge sector. Delivers the reusable typing `GU-YM-Delta1..Delta5`: Yang-Mills-**like**, not Yang-Mills, failing at `Delta1`/`Delta2` before the action is written. |
 | `metric-cone-boundedness/` | MC-1 | The cone does **not** bound SRC-3's runaway, and the reason inverts: the DeWitt-negative direction is the cone's own dilation generator. |

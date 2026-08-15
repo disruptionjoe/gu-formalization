@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `CONVENTIONAL_COMPARATOR`.
+
 # No net chirality without a boundary: the generation no-go is Nielsen-Ninomiya; the count is a boundary anomaly-inflow quantity
 
 2026-07-10. GU-INDEPENDENT result, hardened from the session's computed pieces. Canon-candidate.

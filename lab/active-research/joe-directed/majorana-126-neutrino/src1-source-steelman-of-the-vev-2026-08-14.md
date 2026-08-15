@@ -20,6 +20,13 @@ depends_on:
   - lab/active-research/joe-directed/photon-extra-vector-spectrum/pv2-observation-cannot-reach-the-extra-vectors-2026-08-14.md
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `SOURCE_NATIVE_ROUTE`.
+
 # SRC-1 — the source steelman of the VEV
 
 ## The operative passage, verbatim

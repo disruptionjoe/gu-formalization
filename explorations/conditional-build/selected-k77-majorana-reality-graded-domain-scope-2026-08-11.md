@@ -11,6 +11,13 @@ source_return: SOURCE-SILENT
 ledger_rows: [RA-D4, RA-F1, RA-F2, RA-G2, LT-SM3, AC-F1]
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
+
 # Selected K77 Majorana reality and graded-domain scope
 
 ## Plain-English result

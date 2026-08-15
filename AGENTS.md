@@ -6,13 +6,24 @@ source records, papers, and branch-relative current state.
 
 ## Start here
 
-1. Read `CURRENT-STATE.yaml` for the branch-relative result, evidence, exact
-   next condition, contribution path, and `what_needs_joe`.
-2. Read `GEOMETER-VS-PHYSICS-OBJECTS.md` before identifying same-named
+1. Read `GEOMETER-VS-PHYSICS-OBJECTS.md` before identifying same-named
    geometric and physics constructions.
-3. Read `lab/specifications/six-axis/six-axis-template.md`; Layer 0 semantic
+2. Before reading particle-physics verdicts in `CURRENT-STATE.yaml`, read
+   `lab/methods/source-native-comparator-routing.md`. For Higgs/VEV,
+   family-index, chirality, Majorana/126, anomaly, symmetry-breaking or
+   vector-mass reasoning, also read the source-native pointers it names. A
+   conventional comparator binds only the conventional model it states. It is
+   not evidence against Weinstein's source-native mechanism, may not move a
+   hypothesis vote or
+   become the default successor, and may be reused only after an explicit
+   typed bridge is proved. New or materially revised comparator artifacts must
+   carry the routing notice required by that method and be registered in
+   `lab/process/source-native-comparator-routing-registry.json`.
+3. Read `CURRENT-STATE.yaml` for the branch-relative result, evidence, exact
+   next condition, contribution path, and `what_needs_joe`.
+4. Read `lab/specifications/six-axis/six-axis-template.md`; Layer 0 semantic
    alignment precedes L1--L7.
-4. Follow `RESEARCH-POSTURE.md`, `VERIFICATION.md`, and `CONTRIBUTING.md`.
+5. Follow `RESEARCH-POSTURE.md`, `VERIFICATION.md`, and `CONTRIBUTING.md`.
 
 ## Scientific integrity
 

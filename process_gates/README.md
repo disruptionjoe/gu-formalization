@@ -3243,3 +3243,17 @@ trace gives rank zero. It records the conditional three-function observer
 cost without booking it, preserves the two-half/full-parent fence, and fails
 closed on source/action selection of `u`, basicness, complete Euler/Green/
 preboundary, analytic domain, physical spectrum or datum use.
+
+## Source-native comparator routing
+
+Gate: `source_native_comparator_routing_audit.py`.
+
+```bash
+python3 process_gates/source_native_comparator_routing_audit.py
+```
+
+Requires every live Higgs/VEV, family-index, chirality, Majorana/126,
+anomaly, symmetry-breaking and vector-mass comparator surface to repeat the
+mandatory routing notice, point to the source-native method, and carry a typed
+classification. It prevents a conventional-route exclusion from silently
+becoming an adverse GU verdict or default successor.

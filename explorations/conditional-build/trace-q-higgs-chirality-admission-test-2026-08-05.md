@@ -9,6 +9,13 @@ scripts:
 registry: lab/process/trace-q-higgs-chirality-admission-test.json
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
+
 # Trace-q, Higgs and chirality admission test
 
 ## Result first

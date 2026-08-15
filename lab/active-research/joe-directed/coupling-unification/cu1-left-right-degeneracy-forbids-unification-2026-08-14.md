@@ -28,6 +28,13 @@ scripts:
   - tests/channel-swings/joe_directed_unification_gauge_running_probe.py
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `CONVENTIONAL_COMPARATOR`.
+
 # CU-1 — the declared content is left-right degenerate, so the couplings can never meet
 
 ## 0. Claim ceiling, stated first

@@ -26,6 +26,13 @@ scripts:
   - tests/observable-algebra/dq2_trichotomy_77_rerun.py
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `SOURCE_NATIVE_ROUTE`.
+
 # Chirality grading of the 128 (Q2) and the (7,7) trichotomy rerun (DQ2)
 
 > **Hostile-review correction (2026-08-03; controls this artifact).** The

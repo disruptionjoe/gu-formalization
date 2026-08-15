@@ -11,6 +11,13 @@ canon_verdict_change: none
 probe: tests/channel-swings/signature_chirality_conjugation_probe.py
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `SOURCE_NATIVE_ROUTE`.
+
 # Signature-dependence of chirality
 
 Joe-directed (direct chat, 2026-08-13). Two hypotheses were posed about

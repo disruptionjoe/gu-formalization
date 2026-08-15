@@ -5,6 +5,13 @@ status: FIRST_GREEN_ZERO_BUT_SECOND_PRINCIPAL_HESSIAN_RANK2__TWO_LIVE_KREIN_RADI
 canon_verdict_change: none
 ---
 
+> [!IMPORTANT]
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Its result binds only the
+> named model and does not adjudicate Weinstein's source-native mechanism
+> without a typed bridge. Read `lab/methods/source-native-comparator-routing.md`
+> and follow its source-native pointers. Classification: `SOURCE_NATIVE_ROUTE`.
+
 # Selected K77 I2B moving-Higgs principal Hessian
 
 ## Result
