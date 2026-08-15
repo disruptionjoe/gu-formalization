@@ -8,6 +8,7 @@ channel: majorana_126_neutrino_mechanism
 title: "MJ-2 the 126 has no native carrier in GU's stated field content: the 126 occurs in NO Lambda^k(10) except k=5, and neither bosonic GU field reaches it -- eps (Omega^0 (x) ad) gives Lambda^2(10)=45 and $ (Omega^1 (x) ad) gives 10 (x) 45 = 10+120+320, both with 126-multiplicity exactly zero. The elementary-carrier route is killed; the nu-nu condensate route survives."
 grade: "EXACT integer representation theory: Racah/Klimyk multiplicities over the full 1920-element Weyl group of D5, weight multisets enumerated from scratch, highest weights certified by the Weyl dimension formula, 34/34 checks, no floating point and no external character table. NOT: a statement about SG4's undeclared completion, a kill of the 126 mechanism itself, or a kill of neutrino mass in GU."
 disposition: NO_NATIVE_ELEMENTARY_126_CARRIER__126_MULTIPLICITY_ZERO_IN_BOTH_GU_BOSONIC_FIELDS__TILTED_GROUP_ROBUST__CONDENSATE_ROUTE_NOT_YET_FALSIFIED__SG4_COMPLETION_OUT_OF_SCOPE
+target_claim: NONE-NOT-A-KILL
 canon_verdict_change: none
 steering_effect: unchanged
 canonical_effect: pending_integration

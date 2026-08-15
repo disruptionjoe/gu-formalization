@@ -41,6 +41,10 @@ LEDGER_GLOB = "lab/process/conditional-physics-ledger-v0.*.json"
 # Untyped kill-bearing rows at extension time (2026-08-13). Lower this as
 # rows are typed; never raise it to make a red go green.
 LEDGER_BASELINE = 8
+# Reds present when scope was widened from `explorations/` to the whole repo
+# (2026-08-14).  These are pre-existing, owned elsewhere, and enumerated in the
+# control-change record.  Never raise this to make a new red go green.
+SCOPE_BASELINE = 3
 CUTOFF = "2026-08-12"
 # House style writes results both in prose ("route killed") and in
 # UNDERSCORE_CAPS tokens ("..._ROUTE_KILLED"); underscores are word chars,
@@ -69,13 +73,41 @@ def register_ids():
     except OSError:
         return None
 
+# Scope is DERIVED FROM CONVENTION, not enumerated.  A claim-bearing artifact
+# in this repo is a markdown file with dated YAML frontmatter; the `created`
+# cutoff below does the real filtering.  Enumerating directories is what let
+# `lab/active-research/joe-directed/` escape this gate entirely on 2026-08-14 --
+# a namespace created after the gate shipped.  Any new namespace is now in
+# scope automatically.
+VENDOR = ("_local/", ".lake/", "node_modules/", "__pycache__/", ".git/")
+
+
+def scan_set():
+    return [f for f in glob.glob("**/*.md", recursive=True)
+            if not any(v in f for v in VENDOR)]
+
+
+def coverage():
+    """Register coverage is the CEILING on what this gate can catch: it only
+    sees disavowals that are registered.  Emit the count so Observation can
+    sense a coverage gap rather than reading a green scan as safety."""
+    try:
+        text = open(REG).read()
+    except OSError:
+        return None
+    # Count ROWS, not mentions: the rules block and the adjudication headline
+    # both contain the phrase, and an inflated coverage number is exactly the
+    # kind of vacuous reassurance this control exists to prevent.
+    return len(re.findall(r"^\s+core:\s*disavowed-by-source\s*$", text, re.M))
+
+
 def audit(paths=None):
     ids = register_ids()
     if ids is None:
         print("RED kill_target_claim_audit: register missing at " + REG)
         return 1, 0
     red, hatch_uses = [], 0
-    for f in paths or glob.glob("explorations/**/*.md", recursive=True):
+    for f in paths or scan_set():
         try:
             text = open(f, encoding="utf-8").read()
         except OSError:
@@ -103,8 +135,13 @@ def audit(paths=None):
             red.append((f, "source quotes without register locus"))
     for f, why in red:
         print(f"RED  {f}: {why}")
-    print(f"kill_target_claim_audit: {len(red)} red, escape-hatch uses this scan: {hatch_uses}")
-    return (1 if red else 0), hatch_uses
+    cov = coverage()
+    print(f"kill_target_claim_audit: {len(red)} red "
+          f"(scope baseline {SCOPE_BASELINE}), escape-hatch uses this scan: {hatch_uses}")
+    print(f"kill_target_claim_audit[coverage]: {cov} disavowed-by-source rows in register; "
+          f"{len(paths or scan_set())} markdown files in derived scope. "
+          f"A green scan bounds only the REGISTERED class.")
+    return (1 if len(red) > SCOPE_BASELINE else 0), hatch_uses
 
 def latest_ledger(pattern=None):
     paths = glob.glob(pattern or LEDGER_GLOB)

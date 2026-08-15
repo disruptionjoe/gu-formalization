@@ -8,6 +8,7 @@ channel: majorana_126_neutrino_mechanism
 title: "MJ-3/MJ-4: the source's single declared VEV channel (spin-0 eps = internal adjoint 45) is ORTHOGONAL to the entire renormalizable fermion-mass sector -- 45 is absent from 16 (x) 16 for every direction. Only the 126 reaches the (nu_R,nu_R) entry; the 10 and 120 have it identically zero. Gauge exchange does reach the 126, but only as a dimension-six four-fermion operator, Fierz coefficient exactly -5/32. Twenty-lens council selects DIRAC-NEUTRINOS-FROM-OBSERVATION as the strongest hypothesis, falsifiable by neutrinoless double beta decay."
 grade: "EXACT integer representation theory in Z[i] plus an exactly-verified Fierz identity (checked on all 16^4 = 65536 components after clearing denominators, not fitted). MJ-3 11/11, MJ-4 16/16. NOT: a source action, a vacuum, a condensate, a dynamical claim, a value for M_R, or any claim-status movement."
 disposition: SOURCE_DECLARED_VEV_CHANNEL_ORTHOGONAL_TO_RENORMALIZABLE_FERMION_MASS__ONLY_126_REACHES_NU_R__GAUGE_EXCHANGE_REACHES_126_ONLY_AT_DIMENSION_SIX__DIRAC_HYPOTHESIS_SELECTED_AND_FALSIFIABLE
+target_claim: SC-COS-01
 canon_verdict_change: none
 steering_effect: unchanged
 canonical_effect: pending_integration
