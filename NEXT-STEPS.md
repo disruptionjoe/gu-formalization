@@ -7,6 +7,23 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K105 CURVATURE-SIGN HORN CONSTRUCTS CONDITIONALLY; CURRENT
+> ACTION OWNER INPUT IS EMPTY.** For a natural `Q`-self-adjoint real-
+> semisimple curvature endomorphism `S` with a persistent gap, seven positive
+> and seven negative eigenvalues, and eigenspace signatures `(3,4)|(4,3)`,
+> `R_S=S(S^2)^(-1/2)` is the exact smooth balanced involution. An algebraic
+> Riemann tensor realizes this with exact symmetries, Bianchi and Ricci
+> contraction. Spectrum alone is insufficient: `(7,0)|(0,7)` is a same-
+> spectrum hostile control, and gap closure makes sign undefined. The SR-1H
+> census has five currently serialized action-owned point-carrier classes and
+> zero eligible stationary survivors, so the current action supplies no input
+> on which to evaluate this construction. **Park repeated curvature-owner
+> searches over those five carriers. Reopen only with a genuinely new action-
+> owned stationary background (for example an explicit source-global rival
+> Zorro reconstruction or coupled nonzero-fermion saddle) or a new action
+> term. Otherwise retain `R_0` and the boundary law as explicit Variancer
+> reverse conditionals.** Exact probe `40/40`.
+
 > **2026-08-15 K104 RELEASED-SOURCE BOUNDARY OWNER CLOSED; FIXED BALANCED
 > SELECTOR IS NOT FULL-G EQUIVARIANT.** The draft displays `I1B`, `I2B` and
 > the total Euler residual, while the later source names the upstairs

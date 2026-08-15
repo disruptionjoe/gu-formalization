@@ -222,3 +222,12 @@ No ledger, datum, quotient, canon claim or public posture changes. Reproduce:
 ```bash
 python3 tests/channel-swings/selected_k104_rsap_source_boundary_variational_owner_census_probe.py
 ```
+
+> **Successor closure (K105).** The curvature horn is mathematically nonempty:
+> spectral sign sends any natural, real-semisimple, gapped curvature
+> endomorphism with the balanced eigenspace signatures to the required moving
+> involution. An exact algebraic Riemann fixture realizes it. Current action
+> ownership nevertheless fails upstream: SR-1H's five serialized point-
+> carrier classes have zero eligible stationary survivors. Reopen only with a
+> genuinely new stationary background or action term; do not repeat spectral
+> searches over those same five carriers.

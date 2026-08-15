@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "balanced_rsap_curvature_sign_owner_qualification",
+  "created": "2026-08-15",
+  "status": "CONDITIONAL_GAPPED_CURVATURE_SIGN_CONSTRUCTION_EXACT__CURRENT_SERIALIZED_ACTION_STATIONARY_CARRIER_EMPTY__OWNER_ROUTE_PARKED_PENDING_NEW_BACKGROUND",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "K104_NONHOMOGENEOUS_CURVATURE_OWNER_HORN__K100_REAL_ORBIT_CENSUS__K77_SR1H_CURRENT_ACTION_OWNED_POINT_CARRIER_CENSUS",
+  "target_claim": {
+    "id": "K104_NEXT_GATE__CURRENT_ACTION_OWNED_NONHOMOGENEOUS_CURVATURE_OR_CONNECTION_CONCOMITANT_CONSTRUCTS_A_SMOOTH_GAPPED_BALANCED_7_PLUS_7_INVOLUTION_AT_ZERO_CHARGE",
+    "verdict": "NO_AT_CURRENT_SERIALIZED_STATIONARY_CARRIER_GRADE__CONDITIONAL_GAPPED_CURVATURE_SIGN_CONSTRUCTION_EXACT"
+  },
+  "conditional_construction": {
+    "input": "Q_SELF_ADJOINT_REAL_SEMISIMPLE_INVERTIBLE_CURVATURE_ENDOMORPHISM_S_WITH_SEVEN_POSITIVE_AND_SEVEN_NEGATIVE_EIGENVALUES",
+    "formula": "R_S=S_TIMES_SQUARED_INVERSE_SQUARE_ROOT",
+    "properties": [
+      "R_S_SQUARED_EQUALS_IDENTITY",
+      "R_S_IS_Q_SELF_ADJOINT",
+      "TRACE_R_S_EQUALS_ZERO",
+      "SMOOTH_AND_NATURAL_WHILE_THE_REAL_SPECTRAL_GAP_AND_INERTIA_PERSIST"
+    ],
+    "balanced_real_type_requirement": "Q_SIGNATURE_OF_POSITIVE_S_EIGENBUNDLE_IS_3_4_AND_NEGATIVE_IS_4_3_OR_THE_REVERSED_UNORDERED_TYPE",
+    "zero_charge_compatible": true,
+    "zero_curvature_defined": false
+  },
+  "exact_algebraic_witness": {
+    "dimension": 14,
+    "Q_signature": [7, 7],
+    "ricci_endomorphism": "S=R0_DIAGONAL_BALANCED_TYPE",
+    "ricci_bilinear": "r=Q_TIMES_R0",
+    "riemann_tensor": "Rm=(r_KULKARNI_NOMIZU_Q)/(14-2)",
+    "riemann_symmetries": "EXACT",
+    "first_bianchi": "EXACT",
+    "ricci_contraction": "r_EXACT",
+    "spectral_gap": 1,
+    "plus_Q_signature": [3, 4],
+    "minus_Q_signature": [4, 3],
+    "grade": "POINTWISE_ALGEBRAIC_CURVATURE_FIXTURE_NOT_A_STATIONARY_GEOMETRY"
+  },
+  "orbit_control": {
+    "real_seven_plus_seven_orbit_types": 8,
+    "same_plus_minus_one_spectrum_selects_balanced_real_type": false,
+    "required_extra_check": "Q_SIGNATURE_OF_THE_TWO_EIGENBUNDLES",
+    "wrong_type_control": "7_0_BAR_0_7_HAS_THE_SAME_SPECTRUM_BUT_IS_NOT_BALANCED"
+  },
+  "zero_and_gap_boundary": {
+    "natural_output_at_zero_tensor_commutes_with_O_7_7": true,
+    "involutive_commutant_outputs": ["PLUS_IDENTITY", "MINUS_IDENTITY"],
+    "balanced_output_at_zero_tensor": false,
+    "spectral_sign_at_gap_closure": "UNDEFINED",
+    "regularization_without_extra_selector": "CANNOT_RETAIN_EXACT_INVOLUTION_AND_BALANCED_TRACE_AT_ZERO"
+  },
+  "current_stationary_carrier_census": {
+    "dependency": "lab/process/selected-k77-sr1h-action-owned-point-carrier-census.json",
+    "serialized_candidate_classes": 5,
+    "serialized_candidate_instances": 7,
+    "full_local_stationarity_survivors": 0,
+    "eligible_vrs5_backgrounds": 0,
+    "classes": {
+      "CANONICAL_ZORRO_ZERO_T": "KILLED_ACTION_TWO_JET",
+      "HOMOGENEOUS_NONZERO_T_SOURCE_BRANCHES": "CURRENT_CANONICAL_INTERSECTION_EMPTY",
+      "CANONICAL_BZ_NONZERO_T_ROOTS": "KILLED_COMPLETE_AFFINE_JET_FIBRE",
+      "SOURCE_INSTABILITY_VERTICAL_CARRIER": "KILLED_CHECKED_ACTION_BOUNDEDNESS",
+      "SCALAR_CURVATURE_VEV_TRACE_BRANCH": "INELIGIBLE_CANONICAL_REALISATION_OPEN"
+    },
+    "curvature_concomitant_evaluable_on_current_eligible_stationary_carrier": false,
+    "unconstructed_future_classes_counted_as_current": 0
+  },
+  "owner_disposition": {
+    "conditional_curvature_sign_map": "CONSTRUCTED",
+    "current_action_stationary_input": "MISSING",
+    "global_persistent_gap_and_balanced_inertia": "UNPROVED",
+    "boundary_zero_level_equation": "UNOWNED",
+    "right_H_bal_gauge_declaration": "UNOWNED",
+    "current_owner_archaeology": "PARKED_UNTIL_GENUINELY_NEW_STATIONARY_BACKGROUND_OR_ACTION_TERM",
+    "reverse_rsap": "RETAIN_R0_AND_K99_MULTIPLIER_AS_EXPLICIT_CONDITIONAL_INPUTS"
+  },
+  "claim_ceiling": {
+    "curvature_can_define_balanced_R_conditionally": "EXACT_AT_GAPPED_POINTWISE_AND_SMOOTH_GAPPED_FAMILY_GRADE",
+    "current_serialized_action_derives_R": false,
+    "all_possible_action_backgrounds_exhausted": false,
+    "zero_charge_forces_zero_curvature": false,
+    "global_solution_or_domain": "OPEN",
+    "physical_phase_space_selection": "OPEN",
+    "unreleased_source_or_new_action": "OPEN"
+  },
+  "disposition": {
+    "next_gate": "REOPEN_OWNER_WORK_ONLY_WITH_A_GENUINELY_NEW_ACTION_OWNED_STATIONARY_BACKGROUND_SUCH_AS_AN_EXPLICIT_SOURCE_GLOBAL_RIVAL_ZORRO_RECONSTRUCTION_OR_NONZERO_FERMION_SADDLE__OTHERWISE_ADVANCE_THE_REVERSE_RSAP_ONLY_WITH_R0_AND_THE_BOUNDARY_LAW_LABELLED_CONDITIONAL",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "boundary_owner": "lab/process/selected-k104-rsap-source-boundary-variational-owner-census.json",
+    "balanced_orbits": "lab/process/selected-k100-rsap-balanced-order-parameter-owner-census.json",
+    "stationary_carriers": "lab/process/selected-k77-sr1h-action-owned-point-carrier-census.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k105-rsap-curvature-sign-owner-qualification-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k105_rsap_curvature_sign_owner_qualification_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k105-rsap-curvature-sign-owner-qualification-review.md"
+}

@@ -3,11 +3,24 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-14
+updated: 2026-08-15
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-14)
+# Agent context pack (updated 2026-08-15)
+
+> **Current K105 curvature-sign owner qualification:** curvature can perform
+> the balanced-order-parameter step conditionally. A natural `Q`-self-adjoint
+> real-semisimple curvature endomorphism with a persistent gap at zero, `7+7`
+> spectral inertia and eigenspace signatures `(3,4)|(4,3)` has the exact
+> smooth sign involution `R_S=S(S^2)^(-1/2)`. An algebraic Riemann fixture
+> realizes it exactly; a same-spectrum `(7,0)|(0,7)` control proves that
+> eigenvalue counts alone do not select the real orbit. Current action
+> ownership fails before this calculation: the SR-1H census has five
+> serialized point-carrier classes and zero eligible stationary survivors.
+> Do not repeat curvature-polynomial searches on those carriers. Reopen with
+> a genuinely new action-owned stationary background or action term;
+> otherwise keep `R_0` and the boundary law explicit reverse conditionals.
 
 > **Current v0.252 stabilizer-aware Koszul--Tate gate:** the selected
 > homogeneous distortion orbit has the exact sequence

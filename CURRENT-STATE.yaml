@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a6e1c231254c8dbbeee88daafe6f34273df9778c
+revision_basis: 5f9e3a1d7a475694cbde8bffaca4b00f2839347b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -872,7 +872,23 @@ current_result:
     balanced orbit, a boundary equation selecting lambda_h=0, and the
     declaration that right H_bal is gauge. None is selected by the current
     released source/action.
+    K105 qualifies the remaining curvature-owner horn without conflating
+    mathematical existence with action ownership. If a natural Q-self-
+    adjoint curvature endomorphism is real semisimple, has a persistent gap,
+    seven positive and seven negative eigenvalues, and balanced eigenspace
+    signatures (3,4)|(4,3), its spectral sign is the exact smooth balanced
+    involution. An algebraic Riemann tensor supplies an exact positive
+    pointwise witness. The same-spectrum (7,0)|(0,7) control shows why inertia
+    alone does not choose the real orbit, and gap closure leaves sign
+    undefined. The current SR-1H action-owned point-carrier census has five
+    serialized classes and zero eligible stationary survivors, so there is no
+    current stationary input on which to evaluate the construction. This
+    parks repeated owner searches over those classes but does not exhaust new
+    stationary backgrounds, coupled fermion saddles, higher actions or
+    unreleased source.
   evidence:
+    - explorations/conditional-build/selected-k105-rsap-curvature-sign-owner-qualification-2026-08-15.md
+    - lab/process/selected-k105-rsap-curvature-sign-owner-qualification.json
     - explorations/conditional-build/selected-k104-rsap-source-boundary-variational-owner-census-2026-08-15.md
     - lab/process/selected-k104-rsap-source-boundary-variational-owner-census.json
     - explorations/conditional-build/selected-k103-rsap-boundary-owner-polarization-census-2026-08-15.md
@@ -1139,10 +1155,13 @@ next_condition: >-
   Moving-R covariance is exact, but epsilon transports rather than derives
   the balanced seed. The missing theory has three distinct owners: balanced
   orbit, zero-level boundary equation and right-H_bal gauge declaration.
-  Next test only the remaining stationary nonhomogeneous curvature/connection
-  concomitant route for an action-owned smooth gapped balanced 7|7 R, defined
-  at zero charge and selected without a fitted spectral threshold; then
-  derive its boundary Euler/Noether law. Keep the 182D charged and 98D
+  K105 now gives the exact conditional curvature-sign construction but finds
+  no eligible input across SR-1H's five currently serialized action-owned
+  point-carrier classes. Park repeated spectral searches on those carriers.
+  Reopen only with a genuinely new stationary background such as an explicit
+  source-global rival Zorro reconstruction or coupled nonzero-fermion saddle,
+  or with a new action term. Otherwise keep R_0 and the boundary multiplier/
+  gauge law explicit as Variancer reverse conditionals. Keep the 182D charged and 98D
   reverse-RSAP horns distinct. Do not repeat finite BFV, multiplier,
   boundary-route, released-source or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal
