@@ -41,14 +41,22 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k90_rsap_balanced_regular_nonsemisimple_primary_census_probe.py`
+  enumerates exactly `547` signed structural configurations across zero,
+  real, pure-imaginary and loxodromic regular primary species. Every assembled
+  representative satisfies the balanced reversing identities. Exact local
+  row reduction on all `88` canonical signed and graded primary variants,
+  assembled by coprime primary decomposition, proves ranks `84/42/42` and
+  moment-map rank `91` for all configurations. A repeated-parameter mutation
+  detects the singular rank drop. It passes `23/23` with Python 3.
+
 - `selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py` enumerates the
   complete split-real nilpotent signed-diagram census (`43` partitions, `99`
   stable connected real-orbit classes, zero failures), proves every class
   saturates its `98D` pointwise rank bound, and checks ranks `91` at both
   principal `[13,1]` orbits and `49` at zero. Two mixed regular controls pass.
-  It keeps complete
-  regular-nonsemisimple and singular mixed-Jordan coverage open. It passes
-  `38/38` with Python 3.
+  K90 subsequently closes regular-nonsemisimple coverage; singular
+  mixed-Jordan coverage stays open. It passes `38/38` with Python 3.
 
 - `selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
   constructs the balanced symmetric pair

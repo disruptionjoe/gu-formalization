@@ -6,13 +6,22 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k90_rsap_balanced_regular_nonsemisimple_primary_census_probe.py`
+  exhausts the four-species real skew-adjoint primary grammar at rank seven,
+  obtaining exactly `547` signed regular-nonsemisimple configurations. It
+  checks every assembled canonical matrix and all `88` signed and graded
+  primary-block centralizers, proving balanced image coverage and map rank
+  `91` throughout. Singular mixed-Jordan coverage remains open. It passes
+  `23/23`.
+
 - `channel-swings/selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py`
   exhausts all `43` orthogonal partitions of `14` and all `99` split-real
   stable connected orbit classes, proving every nilpotent type admits the
   balanced anticommuting involution and saturates its `98D` pointwise rank
   bound. Both principal `[13,1]` orbits have map rank `91`, zero has rank
-  `49`, and two regular-nonsemisimple controls pass, while the complete mixed-
-  Jordan census stays open. It passes `38/38`.
+  `49`, and two regular-nonsemisimple controls pass. K90 supplies the complete
+  regular-nonsemisimple census; singular mixed Jordan remains open. It passes
+  `38/38`.
 
 - `channel-swings/selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
   builds the exact balanced symmetric decomposition

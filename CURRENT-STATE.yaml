@@ -683,12 +683,23 @@ current_result:
     class saturates the 98D pointwise bound. Both principal [13,1] classes
     have map rank 91, while zero has map rank 49. Exact [5,1] plus
     four-elliptic and [3,1] plus elliptic/hyperbolic
-    regular-nonsemisimple controls have the same ranks. Those two mixed rows
-    are controls, not a primary-decomposition exhaustion. Complete regular
-    nonsemisimple and singular mixed-Jordan coverage remains open, so no zero
-    neighborhood, surjectivity or RSAP is claimed. The next gate is the full
-    mixed-primary census, requiring trivial h-centralizer on every regular row.
+    regular-nonsemisimple controls have the same ranks.
+    The full regular-nonsemisimple census now closes positively as well. The
+    four real skew-adjoint primary species Z_m, R_d, I_d^eps and L_d give
+    exactly 547 signed structural configurations at rank seven after form
+    signature, imaginary sign-characteristic, equal-row and nonsemisimplicity
+    constraints. All 547 admit a balanced reversing involution. Exact checks
+    on all assembled matrices plus all 88 canonical signed and graded primary
+    blocks prove that every local regular centralizer is moving; coprime
+    primary direct sum then gives ambient/fixed/moving ranks 84/42/42 and
+    moment-map rank 91 throughout. K88, K89 and K90 therefore cover the
+    complete regular locus and pure nilpotent cone. Singular mixed-Jordan
+    coverage remains open, so no zero neighborhood, surjectivity or RSAP is
+    claimed. The next census is indexed by real singular semisimple
+    centralizer type and nilpotent orbit inside it.
   evidence:
+    - explorations/conditional-build/selected-k90-rsap-balanced-regular-nonsemisimple-primary-census-2026-08-15.md
+    - lab/process/selected-k90-rsap-balanced-regular-nonsemisimple-primary-census.json
     - explorations/conditional-build/selected-k89-rsap-balanced-nilpotent-orbit-census-2026-08-15.md
     - lab/process/selected-k89-rsap-balanced-nilpotent-orbit-census.json
     - explorations/conditional-build/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn-2026-08-15.md
@@ -872,9 +883,8 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does every regular nonsemisimple and singular so(7,7) orbit meet the balanced
-  symmetric complement p under the required anticommuting orthogonal
-  involution, with trivial h-centralizer on the complete regular locus, or
+  Does every singular mixed-Jordan so(7,7) orbit meet the balanced symmetric
+  complement p under one simultaneous anticommuting orthogonal involution, or
   does one exact orbit kill this 98D zero-neighborhood horn?
 acceptance:
   - RESEARCH-POSTURE.md
@@ -884,14 +894,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Complete the mixed-primary census for the balanced symmetric horn image
-  Ad(G)p now that all 43 nilpotent partition types and 99 split-real signed-form
-  allocations pass. Enumerate regular nonsemisimple primary decompositions
-  first and require h intersection g_X to be zero on every regular row; then
-  enumerate singular mixed Jordan types inside their real semisimple
-  centralizers. The exact [5,1] plus four-elliptic and [3,1] plus
-  elliptic/hyperbolic rows are positive controls, not exhaustion. Because
-  Ad(G)p is conic, one
+  Enumerate singular mixed Jordan types inside their real semisimple
+  centralizers now that all 547 signed regular-nonsemisimple configurations
+  pass with trivial h-centralizer. Index the census by real semisimple
+  centralizer type and internal nilpotent orbit, and require one balanced
+  involution to reverse both parts simultaneously. Because Ad(G)p is conic, one
   missed nonzero orbit kills zero-neighborhood coverage for this horn but not
   nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
   global gluing across the missing ambient successor before that census. The

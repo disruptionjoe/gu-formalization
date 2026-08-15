@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_balanced_regular_nonsemisimple_primary_census",
+  "created": "2026-08-15",
+  "status": "COMPLETE_REGULAR_NONSEMISIMPLE_LOCUS_CONTAINED_AND_SUBMERSIVE__SINGULAR_MIXED_JORDAN_OPEN",
+  "layer_0": {
+    "object": "classical real skew-adjoint primary decomposition in the balanced symmetric horn moment image",
+    "physical_phase_space": false,
+    "source_selected_subgroup": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "ordinary_higgs_model_relevant": false,
+    "ordinary_family_index_relevant": false,
+    "ordinary_chirality_target_relevant": false
+  },
+  "predecessor": {
+    "artifact": "explorations/conditional-build/selected-k89-rsap-balanced-nilpotent-orbit-census-2026-08-15.md",
+    "probe": "tests/channel-swings/selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py",
+    "status": "REPLAYED_38_OF_38"
+  },
+  "primary_grammar": {
+    "reference": "Jang_Parker_2003__arXiv:math/0302030",
+    "species": {
+      "Z_m": "zero_primary_regular_partition_[2m-1,1]__dimension_2m__rank_units_m",
+      "R_d": "real_pair_plus_minus_a__dimension_2d__rank_units_d",
+      "I_d_eps": "pure_imaginary_pair_plus_minus_ib_with_sign_characteristic_eps__dimension_2d__rank_units_d",
+      "L_d": "loxodromic_quartet_plus_minus_a_plus_minus_ib__dimension_4d__rank_units_2d"
+    },
+    "regularity_equation": "m+sum_d_R+sum_d_I+2sum_d_L=7",
+    "nonsemisimple_predicate": "m>1_OR_some_nonzero_primary_Jordan_size_d>1",
+    "spectral_parameter_rule": "NONZERO_PRIMARY_PARAMETERS_DISTINCT_AND_UNORDERED",
+    "imaginary_sign_characteristics": "BOTH_RETAINED_FOR_EVERY_d",
+    "zero_m1_equal_row_rule": "TWO_SIZE_ONE_ROWS_UNORDERED",
+    "zero_primary_grading_rule": "LONG_CHAIN_AND_SINGLETON_HAVE_OPPOSITE_COLORS_SO_EXTRA_CENTRALIZER_DIRECTION_IS_MOVING"
+  },
+  "regular_nonsemisimple_census": {
+    "signed_primary_configuration_count": 547,
+    "count_kind": "FINITE_STRUCTURAL_SIGNED_PRIMARY_CONFIGURATIONS_NOT_INDIVIDUAL_ADJOINT_ORBITS",
+    "zero_primary_rank_distribution": {
+      "0": 124,
+      "1": 167,
+      "2": 136,
+      "3": 72,
+      "4": 28,
+      "5": 14,
+      "6": 4,
+      "7": 2
+    },
+    "balanced_grading_failures": 0,
+    "image_coverage": "ALL_REGULAR_NONSEMISIMPLE_PRIMARY_CONFIGURATIONS",
+    "fixed_dimension": 42,
+    "moving_dimension": 49,
+    "ambient_adjoint_rank": 84,
+    "fixed_adjoint_rank": 42,
+    "moving_adjoint_rank": 42,
+    "h_centralizer_dimension": 0,
+    "p_kernel_dimension": 7,
+    "moment_map_rank": 91,
+    "rank_certificate": "ALL_547_ASSEMBLED_MATRIX_IDENTITIES_PLUS_88_LOCAL_PRIMARY_CENTRALIZER_RANK_CONTROLS_AND_COPRIME_PRIMARY_DIRECT_SUM",
+    "rank_histogram": {
+      "fixed42_moving49_ambient84_fixedrank42_movingrank42": 547
+    }
+  },
+  "canonical_identities": [
+    "X^T*Q+Q*X=0",
+    "R^2=1",
+    "R^T*Q*R=Q",
+    "R*X+X*R=0",
+    "signature_Q=(7,7)",
+    "signature_Q_on_R_eigenspaces=(3,4)_(4,3)"
+  ],
+  "contrary_controls": {
+    "repeated_nonzero_primary_parameter": "CENTRALIZER_ENLARGES_AND_AMBIENT_ADJOINT_RANK_DROPS_BELOW_84",
+    "definite_seven_plane": "NOT_A_BALANCED_GRADING_TARGET",
+    "ordered_m1_zero_singletons": "OVERCOUNTS_THE_SIGNED_PRIMARY_CENSUS"
+  },
+  "coverage_status": {
+    "regular_semisimple": "COMPLETE_BY_K88",
+    "pure_nilpotent": "COMPLETE_BY_K89",
+    "regular_nonsemisimple": "COMPLETE_BY_K90",
+    "complete_regular_locus": "COVERED_AND_SUBMERSIVE",
+    "singular_mixed_jordan": "OPEN",
+    "zero_neighborhood": "OPEN",
+    "surjectivity": "OPEN",
+    "global_rsap": "OPEN"
+  },
+  "disposition": {
+    "balanced_horn": "SURVIVES_COMPLETE_REGULAR_LOCUS_AND_PURE_NILPOTENT_CONE_TO_SINGULAR_MIXED_JORDAN_CENSUS",
+    "ambient_a3_successor": "TYPE_MISSING_NOT_REOPENED",
+    "dimension_interval": [98, 182],
+    "source_action_selection": "NOT_PROVIDED",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k90-rsap-balanced-regular-nonsemisimple-primary-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k90_rsap_balanced_regular_nonsemisimple_primary_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k90-rsap-balanced-regular-nonsemisimple-primary-census-review.md",
+  "next_gate": "ENUMERATE_SINGULAR_MIXED_JORDAN_TYPES_BY_REAL_SEMISIMPLE_CENTRALIZER_AND_INTERNAL_NILPOTENT_ORBIT__ONE_SIMULTANEOUS_BALANCED_INVOLUTION_REQUIRED"
+}

@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE REGULAR-NONSEMISIMPLE PRIMARY CENSUS.** The four
+> real skew-adjoint primary species `Z_m`, `R_d`, `I_d^eps` and `L_d` give
+> exactly `547` signed structural configurations in split `so(7,7)` after all
+> dimension, form-signature, sign-characteristic, equal-row and regularity
+> constraints. Every configuration admits the balanced reversing involution.
+> All-family matrix identities and exact centralizer checks on all `88`
+> canonical signed and graded primary blocks give ambient/fixed/moving ranks
+> `84/42/42`, hence moment-map rank `91`, throughout. Together K88--K90 cover
+> the complete regular locus and pure nilpotent cone. **Next enumerate singular
+> mixed-Jordan types by real semisimple centralizer and internal nilpotent
+> orbit, requiring one balanced involution to reverse both parts.** A single
+> missed nonzero orbit kills this horn's zero-neighborhood claim. Surjectivity,
+> RSAP, source selection and global gluing remain open. Exact probe `23/23`.
+
 > **2026-08-15 BALANCED NILPOTENT-ORBIT CENSUS.** Every real nilpotent
 > signed-form type in split `so(7,7)` meets the K88 symmetric complement.
 > Exact enumeration gives `43` orthogonal partitions and `99` split-real
