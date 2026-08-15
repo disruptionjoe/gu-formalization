@@ -4812,3 +4812,15 @@ open.
 ```sh
 python3 tests/channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py
 ```
+
+## K98 balanced RSAP BFV and selection classifier
+
+`channel-swings/selected_k98_rsap_balanced_bfv_selection_classifier_probe.py`
+checks the concrete `so(3,4)+so(4,3)` constraint algebra, regularity and
+irreducibility of the free right action, exact classical BFV closure, and why
+an invariant boundary-functional graph is only a 49D Lagrangian inside the
+98D reduced phase space. It passes `31/31` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k98_rsap_balanced_bfv_selection_classifier_probe.py
+```

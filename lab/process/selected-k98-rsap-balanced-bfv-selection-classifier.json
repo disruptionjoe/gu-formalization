@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "balanced_rsap_bfv_and_selection_classifier",
+  "created": "2026-08-15",
+  "status": "CANONICAL_CLASSICAL_BFV_CONSTRUCTED_REGULAR_IRREDUCIBLE__CURRENT_BARE_ACTION_GAUGE_OWNERSHIP_NOT_CONSTRUCTED",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "FINITE_DIMENSIONAL_CLASSICAL_EPSILON_PREBOUNDARY_COTANGENT_CARRIER_ONLY",
+  "target_claim": {
+    "id": "K97_NEXT_GATE__CURRENT_ACTION_OWNS_RIGHT_H_BAL_COISOTROPIC_AND_GAUGE_LAW",
+    "verdict": "CURRENT_BARE_ACTION_NO__CANONICAL_MATHEMATICAL_BFV_COMPLETION_YES"
+  },
+  "constraint_geometry": {
+    "parent": "Tstar(Spin_0(7,7))",
+    "parent_dimension": 182,
+    "gauge_subgroup": "H_bal",
+    "gauge_lie_algebra": "so(3,4)+so(4,3)",
+    "gauge_dimension": 42,
+    "right_action_on_group_is_free": true,
+    "moment_map": "J_R(g,lambda)=lambda_restricted_to_h_bal_up_to_sign",
+    "moment_map_rank_everywhere": 42,
+    "zero_is_regular_value": true,
+    "constraints_irreducible": true,
+    "zero_level_dimension": 140,
+    "characteristic_orbit_dimension": 42,
+    "reduced_dimension": 98,
+    "reduced_space": "Tstar(Spin_0(7,7)/H_bal)"
+  },
+  "bfv": {
+    "charge": "Omega_bal=c^a J_a-(1/2)f_ab^c c^a c^b b_c",
+    "classical_master_equation": "EXACTLY_ZERO",
+    "ghosts": 42,
+    "ghost_momenta": 42,
+    "ghosts_for_ghosts_required": false,
+    "proper_at_finite_classical_cotangent_grade": true,
+    "analytic_domain": "NOT_CONSTRUCTED",
+    "physical_cohomology": "NOT_CONSTRUCTED"
+  },
+  "boundary_functional_classifier": {
+    "graph_dimension_upstairs": 91,
+    "right_invariant_graph_lies_in_zero_level": true,
+    "right_invariant_graph_quotient_dimension": 49,
+    "full_reduced_phase_space_dimension": 98,
+    "boundary_functional_alone_constructs_full_coisotropic_and_gauge_law": false,
+    "free_variation": "FORCES_FULL_COVECTOR_ZERO_AND_IS_TOO_STRONG",
+    "fixed_data": "LEAVES_COVECTOR_UNRESTRICTED_AND_RIGHT_TRANSFORMATIONS_PHYSICAL",
+    "generated_graph": "SELECTS_AT_MOST_A_REDUCED_LAGRANGIAN",
+    "gauged_multiplier_completion": "MATHEMATICALLY_AVAILABLE_BUT_NOT_CURRENT_ACTION_OWNED"
+  },
+  "ownership": {
+    "action_owned_parent_potential": true,
+    "source_or_current_action_owned_right_h_bal_gauge_declaration": false,
+    "source_or_current_action_owned_multiplier_sector": false,
+    "source_or_current_action_owned_bfv_ghost_sector": false,
+    "canonical_after_gauge_law_is_postulated": true,
+    "physical_phase_space_selected": false
+  },
+  "disposition": {
+    "classical_rsap": "K96_PROVED_GLOBAL_AT_MINIMUM_98",
+    "formal_attachment": "K97_CONSTRUCTED",
+    "canonical_classical_bfv_completion": "CONSTRUCTED",
+    "current_bare_action_selection": "NOT_CONSTRUCTED",
+    "next_gate": "REQUIRE_EXPLICIT_SOURCE_ACTION_OWNED_RIGHT_H_BAL_MULTIPLIER_CONNECTION_OR_BOUNDARY_GAUGE_TERM_BEFORE_ANALYTIC_BFV_DOMAIN_AND_POSITIVITY",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "formal_attachment": "lab/process/selected-k97-rsap-action-parent-reduction-selection-gate.json",
+    "balanced_pair": "lab/process/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn.json",
+    "boundary_horns": "lab/process/selected-k77-boundary-stationarity-symplectic-realization-gate.json",
+    "full_so77_bfv_comparator": "lab/process/selected-k77-full-bfv-master-equation-gate.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k98-rsap-balanced-bfv-selection-classifier-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k98_rsap_balanced_bfv_selection_classifier_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k98-rsap-balanced-bfv-selection-classifier-review.md"
+}

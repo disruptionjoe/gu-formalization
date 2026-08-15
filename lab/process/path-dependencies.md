@@ -338,6 +338,9 @@ graph TD
 - **2026-08-15** — The globally surjective balanced 98D RSAP was at risk of remaining labelled wholly unattached, or conversely of being promoted to an action-selected phase space. It is exactly the right-H_bal zero reduction of the action-owned formal epsilon T*Spin_0(7,7) parent, but the current bare action supplies neither that right-moment constraint nor its gauge quotient.
   - *Cost:* The first reading hides a completed global formal attachment; the second manufactures the missing variational and BFV owner from successful reverse geometry.
   - *Receipt:* `explorations/conditional-build/selected-k97-rsap-action-parent-reduction-selection-gate-2026-08-15.md`
+- **2026-08-15** — The full-so(7,7) frozen-distortion BFV presentation is nonregular, but the balanced reduction uses a different action: free right multiplication by H_bal on the group. Its 42 constraints are regular and irreducible. Conversely, that canonical BFV theorem does not make the current action its owner.
+  - *Cost:* Transferring nonregularity would manufacture a ghost-for-ghost tower; transferring constructibility into ownership would manufacture a physical phase space.
+  - *Receipt:* `explorations/conditional-build/selected-k98-rsap-balanced-bfv-selection-classifier-2026-08-15.md`
 
 **Invalidates if:** A receipt constructs an explicit intertwiner proving the two concrete structures equivalent for the operator and variational problem at hand.
 
@@ -367,4 +370,3 @@ graph TD
   - *Receipt:* `lab/process/hostile-reviews/2026-08-14-selected-k77-w-mirror-real-action-wholesale-gate-review.md`
 
 **Invalidates if:** A source/action receipt proves the operative completed second action and constructs a structure-preserving equality between its full moving principal map and one of the compared operators.
-

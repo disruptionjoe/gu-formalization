@@ -7,6 +7,19 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 CANONICAL BALANCED BFV COMPLETION CLOSED; ACTION OWNERSHIP
+> STILL MISSING.** Right multiplication by `H_bal` on `Spin_0(7,7)` is free,
+> so the 42 right-moment constraints on the formal cotangent parent have rank
+> 42 everywhere, zero is regular and the constraints are irreducible. The
+> minimal 42-ghost classical BFV charge closes exactly; no ghosts-for-ghosts
+> are needed at this finite grade. A right-invariant scalar boundary
+> functional does not create the full law: its 91D graph descends to only a
+> 49D Lagrangian inside the 98D reduction. **Reopen selection only with an
+> explicit source/action-owned right-`H_bal` multiplier, connection or
+> boundary gauge term whose Euler and Noether data derive `J_R,H_bal=0`.**
+> Analytic domain, positivity, quantization and physical identity remain open.
+> Exact probe `31/31`.
+
 > **2026-08-15 FORMAL ACTION-PARENT ATTACHMENT CLOSED; CURRENT BARE ACTION
 > DOES NOT SELECT IT.** The selected epsilon preboundary potential already
 > makes formal `T*Spin_0(7,7)` an action-owned `182D` cotangent parent. Its

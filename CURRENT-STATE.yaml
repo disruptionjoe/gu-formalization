@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ad1f13342da1fb26d9599af1a37904650df3046d
+revision_basis: 51f638ac30685367cfc79f53282aabe2e6eb28d9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -771,7 +771,24 @@ current_result:
     constructed, current-bare-action selection is obstructed, and physical
     attachment, BFV/positivity, quantization and physical identity remain
     open.
+    The canonical finite-dimensional BFV completion of that reduction now
+    closes exactly. The right H_bal action on Spin_0(7,7) is free, so its 42
+    cotangent moment constraints have rank 42 everywhere, zero is a regular
+    value and the presentation is irreducible. The minimal 42-ghost BFV
+    charge satisfies the classical master equation by moment equivariance and
+    the direct-sum so(3,4)+so(4,3) Jacobi identity; no ghosts-for-ghosts are
+    needed at this finite classical grade. This does not repair ownership. A
+    right-H_bal-invariant boundary functional has a 91-dimensional graph in
+    the 140-dimensional zero level and descends only to a 49-dimensional
+    Lagrangian inside the 98-dimensional reduction. It cannot by itself
+    create the whole coisotropic constraint plus gauge quotient. The selected
+    bare action owns neither the right-H_bal gauge declaration nor the
+    multiplier/ghost sector. Canonical BFV constructibility is closed;
+    action-selected physical phase space, analytic domain, positivity and
+    quantization remain open.
   evidence:
+    - explorations/conditional-build/selected-k98-rsap-balanced-bfv-selection-classifier-2026-08-15.md
+    - lab/process/selected-k98-rsap-balanced-bfv-selection-classifier.json
     - explorations/conditional-build/selected-k97-rsap-action-parent-reduction-selection-gate-2026-08-15.md
     - lab/process/selected-k97-rsap-action-parent-reduction-selection-gate.json
     - explorations/conditional-build/selected-k96-rsap-connected-orbit-refinement-2026-08-15.md
@@ -971,10 +988,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the selected action or a source-owned completion derive a boundary or
-  BFV law whose constraint is exactly J_R,H_bal=0 and whose characteristic
-  orbits are exactly the right-H_bal action, while remaining compatible with
-  the certified epsilon preboundary variation and boundary horns?
+  Can an explicit source/action-owned right-H_bal multiplier, connection or
+  boundary gauge term derive J_R,H_bal=0 and its Noether gauge identity from
+  the selected epsilon variation, rather than merely postulating the now-
+  canonical mathematical BFV completion?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -983,18 +1000,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  The independent classical RSAP problem is closed at the exact minimum 98:
-  the balanced horn is globally surjective and regular-submersive, while the
-  everywhere-submersive all-charge minimum remains 182. Its formal global
-  attachment is also closed: it is the right-H_bal zero reduction of the
-  action-owned formal epsilon T*Spin_0(7,7) preboundary parent. The current
-  bare boundary action does not select that reduction. Next derive or
-  obstruct an action-owned boundary or BFV law that imposes exactly
-  J_R,H_bal=0 and gauges exactly the right-H_bal characteristic orbits.
-  Dimension 98 and global surjectivity explain the reverse construction but
-  do not supply dynamical selection. Do not treat the formal reduction as a
-  physical phase-space selection, and do not infer BFV master closure,
-  positivity, quantization, particle content or phenomenology. The
+  The independent classical RSAP is closed at the exact minimum 98 and its
+  formal attachment to the action-owned 182D cotangent parent is exact. Its
+  canonical finite-dimensional BFV completion is also closed: the 42 right-
+  H_bal constraints are regular and irreducible and the minimal classical
+  master charge closes. The current bare action still does not select that
+  law. An invariant scalar boundary functional reaches only a 49D reduced
+  Lagrangian, not the complete 98D phase space. Reopen selection only with an
+  explicit source/action-owned right-H_bal multiplier, connection or boundary
+  gauge term whose Euler and Noether data derive the constraint and gauge
+  identity. Only then enter analytic BFV domain and positivity. Do not repeat
+  the finite BFV algebra, promote formal reduction to physical selection, or
+  infer quantization, particle content or phenomenology. The
   one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
   target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
   constructed. Reopen an ambient successor only with an explicit source/action-

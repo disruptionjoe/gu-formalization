@@ -366,3 +366,9 @@ the ledger probe uses the standard Python interpreter.
   primitive transition, fixed-sign Gauss-cell globality, and strict closure of
   the first noncommuting `A2/A3/A2` triple. Run with `python3 <path>`; `53/53`
   pass.
+
+- `selected_k98_rsap_balanced_bfv_selection_classifier_probe.py` certifies
+  the free right-`H_bal` action, exact rank-42 regular irreducible constraint
+  system, all 861 brackets and 11,480 Jacobi triples, minimal classical BFV
+  closure, and the 49D-boundary-graph versus 98D-reduction ownership
+  classifier. Run with `python3 <path>`; `31/31` pass.
