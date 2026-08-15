@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_transverse_construction_registry",
+  "created": "2026-08-14",
+  "status": "SPLIT_AND_COMPACT_A2_PRINCIPAL_SYMMETRIC_PAIR_FACTORS_CONSTRUCTED__MIXED_REAL_FORM_AND_ADJACENT_COCYCLES_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "target": {
+    "transverse_lie_algebra_complex_type": "A2",
+    "factor_dimension": 10,
+    "required_regular_map_rank": 8,
+    "required_origin_map_rank": 5,
+    "complete_carrier_dimension": 98,
+    "complete_regular_map_rank": 91,
+    "complete_a2_origin_map_rank": 88
+  },
+  "split_model": {
+    "lie_algebra": "sl(3,R)",
+    "principal_isotropy": "so(2,1)",
+    "carrier": "T*(SL(3,R)/SO(2,1))",
+    "annihilator": "trace-free q-self-adjoint 3x3 real matrices",
+    "lorentz_form": "reverse_identity_R3",
+    "surjectivity": "EVERY_REAL_3X3_MATRIX_IS_SELF_ADJOINT_FOR_SOME_LORENTZ_FORM_BY_REAL_JORDAN_BLOCK_SYMMETRIZERS",
+    "regular_stabilizer_intersection": "ZERO_BECAUSE_THE_REGULAR_CENTRALIZER_IS_POLYNOMIAL_IN_XI_AND_THUS_Q_SELF_ADJOINT_WHILE_SO_Q_IS_Q_SKEW",
+    "regular_map_rank": 8,
+    "origin_map_rank": 5,
+    "regular_nilpotent_control": "PASS_RANK_8",
+    "verdict": "CONSTRUCTED"
+  },
+  "compact_model": {
+    "lie_algebra": "su(3)",
+    "principal_isotropy": "so(3)",
+    "carrier": "T*(SU(3)/SO(3))",
+    "annihilator": "i times trace-free real symmetric 3x3 matrices",
+    "surjectivity": "UNITARY_SPECTRAL_THEOREM",
+    "regular_stabilizer_intersection": "ZERO_BECAUSE_A_REAL_SKEW_MATRIX_COMMUTING_WITH_A_REAL_SYMMETRIC_MATRIX_WITH_DISTINCT_EIGENVALUES_IS_ZERO",
+    "regular_map_rank": 8,
+    "origin_map_rank": 5,
+    "verdict": "CONSTRUCTED"
+  },
+  "homogeneous_moment_map": {
+    "formula": "mu([g,xi])=Ad_g^*(xi)",
+    "image": "Ad_G(h_annihilator)",
+    "differential_rank": "dim(g)-dim(h intersect g_xi)",
+    "poisson": "EQUIVARIANT_HAMILTONIAN_MOMENT_MAP",
+    "source_dimension": 10
+  },
+  "real_form_census": {
+    "split_sl3R": "CONSTRUCTED",
+    "compact_su3": "CONSTRUCTED",
+    "mixed_su2_1": "OPEN"
+  },
+  "scope": {
+    "failed_block_sl2_candidate": "REPLACED_FOR_SPLIT_A2_BY_PRINCIPAL_SO2_1_MODEL",
+    "all_10d_a2_real_forms": "NOT_YET_COMPLETE",
+    "adjacent_pair_potential_cocycle": "OPEN",
+    "noncommuting_triple_cocycle": "OPEN",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-principal-symmetric-pair-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_principal_symmetric_pair_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-rsap-a2-principal-symmetric-pair-review.md",
+  "next_gate": "DECIDE_THE_MIXED_SU_2_1_TEN_DIMENSIONAL_A2_FACTOR_THEN_TEST_ADJACENT_PAIR_AND_FIRST_NONCOMMUTING_TRIPLE_COCYCLES"
+}

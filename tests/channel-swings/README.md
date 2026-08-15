@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_a2_principal_symmetric_pair_probe.py` verifies the
+  principal symmetric-pair factors `T*(SL(3,R)/SO(2,1))` and
+  `T*(SU(3)/SO(3))`. It checks the complete real-Jordan Lorentz symmetrizer
+  census, the regular-nilpotent stabilizer, compact spectral controls and the
+  exact `98D` rank schedule while preserving `su(2,1)`, adjacent cocycles and
+  global RSAP as open. It uses the Python standard library.
+
 - `selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py` classifies
   both real rank-one first-wall factors, verifies all split/compact orthogonal
   pairings and one strict `A1^3` cocycle, then rejects the natural split-A2

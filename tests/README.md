@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_a2_principal_symmetric_pair_probe.py`
+  replaces the failed block-`SL2` adjacent factor by the principal symmetric
+  pairs `SL(3,R)/SO(2,1)` and `SU(3)/SO(3)`. Exact real-Jordan,
+  regular-nilpotent, compact-spectral and stabilizer controls give rank eight
+  over every regular value and rank five at zero. Mixed `su(2,1)`, adjacent
+  cocycles and global RSAP remain open.
+
 - `channel-swings/selected_k77_rsap_98d_first_wall_slice_obstruction_probe.py`
   constructs the exact `sl(2,R)^* x R^6_zero` transverse wall model, checks
   Jacobi and full coadjoint saturation, and verifies the complete 98D product

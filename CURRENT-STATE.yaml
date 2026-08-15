@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1f4b3137a4e1cb8ee5ad8033c6d800820e124fc6
+revision_basis: 51ad6860b29620358ec3053d19e203931475f7ad
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -220,6 +220,18 @@ current_result:
     rank eight is required. The next reverse gate classifies or obstructs all
     10D A2 transverse realizations, including noncotangent and multicomponent
     models. No global RSAP exists yet.
+    That reverse gate now finds a stronger homogeneous factor. The failed
+    block-SL2 quotient is replaced by the principal symmetric pair
+    T*(SL(3,R)/SO(2,1)). Every real 3-by-3 matrix is self-adjoint for some
+    Lorentz form by the complete real-Jordan block symmetrizer census, so its
+    moment map is onto. At every regular covector the centralizer is polynomial
+    in a self-adjoint representative and therefore cannot meet the skew-adjoint
+    isotropy; the map has rank eight even on regular nilpotents, and rank five
+    at zero. T*(SU(3)/SO(3)) passes the compact analogue by the unitary
+    spectral theorem. Both give the required 10D A2 factor and exact 98D
+    regular/origin map ranks 91/88. The mixed su(2,1) form, actual adjacent
+    transition cocycles, deeper strata, zero charge and global RSAP remain
+    open.
     VRS-2 now kills a bulk-only physical quotient for the live nonzero selected
     branch. Free endpoint variation forces zero charge and remains a distinct
     escape, but excludes the fixture. Fixed data leaves momentum unconstrained
@@ -354,6 +366,8 @@ current_result:
     still cannot instantiate. The independent RSAP split-root wall-normal-form
     gate has now passed locally; the all-wall cocycle census ranks next.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a2-principal-symmetric-pair-2026-08-14.md
+    - lab/process/selected-k77-rsap-a2-principal-symmetric-pair.json
     - explorations/conditional-build/selected-k77-rsap-98d-first-wall-slice-obstruction-2026-08-14.md
     - lab/process/selected-k77-rsap-98d-first-wall-slice-obstruction.json
     - explorations/conditional-build/selected-k77-sr1h-action-owned-point-carrier-census-2026-08-14.md
@@ -489,9 +503,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do the remaining real rank-82 wall types admit compatible 98-dimensional
-  homogeneous cotangent attachments, and do their pairwise and first triple
-  overlaps satisfy the symplectic-potential and moment-map cocycles?
+  Does the mixed su(2,1) A2 sector admit a 10-dimensional Hamiltonian
+  transverse factor with rank eight over every regular value and rank five at
+  zero, and can the passing A2 factors be glued to neighboring rank-one charts
+  with exact potential and moment-map cocycles?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -500,15 +515,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify every real rank-82 wall type meeting the regular Cartan atlas.
-  For each type, identify the centralizer and construct or obstruct the
-  corresponding minimal homogeneous cotangent factor. Then prove pairwise
-  equality of the cotangent potentials and moment components, and test the
-  first triple-wall cocycle. Preserve the correction that a root wall is
-  codimension one in the Cartan/invariant base but codimension three in the
-  full Lie-Poisson target. Do not infer a global RSAP from the one admitted
-  split-root chart; deeper strata and the rank-at-most-49 zero-charge gate
-  remain open, with the 182D cotangent parent still the all-charge fallback.
+  Complete the real A2 census at su(2,1). Construct or obstruct a 10D
+  principal symmetric-pair, noncotangent or multicomponent factor against all
+  real semisimple and regular-nilpotent orbit types. If it passes, build the
+  actual transitions from the neighboring A1 charts and prove pairwise
+  equality of cotangent potentials and moment components before testing the
+  first noncommuting triple cocycle. Do not infer a global RSAP from the split
+  and compact A2 factors; deeper strata and the rank-at-most-49 zero-charge
+  gate remain open, with the 182D cotangent parent still the all-charge
+  fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

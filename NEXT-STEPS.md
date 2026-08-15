@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 RSAP `A2` PRINCIPAL SYMMETRIC-PAIR CONSTRUCTION.** The
+> regular-nilpotent failure of `T*(SL(3,R)/SL(2,R))` was an isotropy-choice
+> defect, not an `A2` no-go. The principal factor
+> `T*(SL(3,R)/SO(2,1))` is onto `sl(3,R)*`, has map rank `8` above every
+> regular value—including regular nilpotents—and rank `5` at zero. Complete
+> real-Jordan Lorentz symmetrizers prove coverage; self-adjoint polynomial
+> centralizers cannot meet skew-adjoint isotropy on the regular locus. The
+> compact analogue `T*(SU(3)/SO(3))` passes by the unitary spectral theorem.
+> Both compose to the exact `98D` schedule. **Next decide the mixed
+> `su(2,1)` real form, then construct the actual adjacent transition maps and
+> test their pairwise potential/moment cocycle before the first noncommuting
+> triple.** Global RSAP, deeper strata and zero charge remain open.
+
 > **2026-08-14 RSAP RANK-82 WALL FAMILY AND `A2` COCYCLE GATE.** Both real
 > rank-one first-wall factors construct locally at dimension `98`:
 > `T*(SL(2,R)/A)` and `T*(SU(2)/U(1))`. Every split/compact orthogonal
