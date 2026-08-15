@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "CANONICAL_VERTICAL_450_TO1274_CARRIER_MAP_BUILT__FIXED_NATURAL_SELECTED_I2B_QUARTIC_HAS_OPPOSITE_SIGN_RAYS__RELEASED_BOSONIC_ACTION_UNBOUNDED_BELOW",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1E",
+  "predecessor": "lab/process/selected-k77-sr1e-source-instability-ownership-gate.json",
+  "carrier_map": {
+    "domain": "V10_STAR_TENSOR_SO_6_4",
+    "domain_dimension": 450,
+    "codomain": "V14_STAR_TENSOR_SO_7_7",
+    "codomain_dimension": 1274,
+    "rank": 450,
+    "kernel_dimension": 0,
+    "image": "N_STAR_TENSOR_LAMBDA2_N",
+    "so_6_4_intertwiner_checks": 20250,
+    "observation_relative": true,
+    "full_so_7_7_equivariant": false
+  },
+  "quartic": {
+    "raw_dewitt_killing_rays": [-4, 4],
+    "selected_shiab_i2b_rays": [-16, 16],
+    "residual_type": "ONE_LAMBDA13_CL1_CELL_PER_RAY",
+    "first_action_cubic_on_rays": [0, 0],
+    "fixed_natural_Q_B": "c*Q_TRACE_HODGE__c_NONZERO",
+    "positive_c_negative_ray": "POSITIVE_VERTICAL_TWO_PLANE",
+    "negative_c_negative_ray": "MIXED_VERTICAL_TWO_PLANE",
+    "bounded_for_any_nonzero_c": false
+  },
+  "degree_theorem": {
+    "I1B_ceiling": 3,
+    "I2B_leading_degree": 4,
+    "I1B_can_repair_negative_I2B_quartic": false
+  },
+  "closed_objects": [
+    "EQUIVARIANT_SOURCE_450_TO_SELECTED_K77_1274_CARRIER_MAP",
+    "FIXED_NATURAL_QB_SCALE_REPAIR"
+  ],
+  "open_objects": [
+    "ACTION_OWNED_MOVING_FUNDAMENTAL_SYMMETRY_OR_FIELD_DEPENDENT_QB",
+    "SOURCE_OR_BV_OWNED_DYNAMICALLY_CLOSED_CONSTRAINT",
+    "SOURCE_OWNED_HIGHER_EVEN_STABILISING_ACTION_TERM",
+    "SELECTED_NONLINEAR_CRITICAL_ORBIT_AND_EXACT_AMPLITUDE",
+    "CANONICAL_BZ_FIRST_JET_AND_BIANCHI_LIFT",
+    "RECOMPUTED_POINT_AND_SOURCE_GRAPH_EULER_ROWS"
+  ],
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6": "BLOCKED",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "SR-1F_ACTION_OWNED_MOVING_FUNDAMENTAL_SYMMETRY_OR_SOURCE_CONSTRAINT_OR_HIGHER_EVEN_ACTION_TERM__THEN_SELECT_CRITICAL_ORBIT_AND_BUILD_CANONICAL_FIRST_JET",
+  "artifact": "explorations/conditional-build/selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1e_vertical_carrier_fixed_natural_boundedness_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness-review.md",
+  "checks": "40/40 PASS"
+}

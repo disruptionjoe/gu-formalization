@@ -7,6 +7,18 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1E VERTICAL CARRIER / FIXED-NATURAL BOUNDEDNESS.** The
+> missing carrier interface now constructs: the observation split gives an
+> exact rank-`450` inclusion `V10* x so(6,4) -> V14* x so(7,7)`, with image
+> `N* x Lambda2(N)` and all `20,250` infinitesimal intertwiners zero-defect.
+> The selected action then strengthens the obstruction. Two embedded rays have
+> raw quartics `-4,+4` and selected-Shiab I2B quartics `-16,+16`. Since the
+> fixed-natural owner is `Q_B=c Q_trace/Hodge`, `c!=0`, either sign leaves one
+> runaway; I1B is at most cubic and cannot bound it. **SR-1F must construct an
+> action-owned moving fundamental symmetry/field-dependent Q_B, a dynamically
+> closed source/BV constraint, or a higher-even stabilising action term. Do not
+> rebuild the carrier map or try another fixed scale.** Exact probe `40/40`.
+
 > **2026-08-14 SR-1D AFFINE FIRST-JET PARITY EXHAUSTION.** The canonical
 > action/Bianchi branch has the full affine family `Q=Q0+ker(S)`, with
 > `rank(S)=4290` and `dim ker(S)=5265`; the thirteen-cell correction was not

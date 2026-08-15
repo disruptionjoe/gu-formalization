@@ -4398,6 +4398,18 @@ canonical SR-1E branch.
 python3 tests/channel-swings/selected_k77_sr1e_source_instability_ownership_gate_probe.py
 ```
 
+## K77 SR-1E vertical carrier and fixed-natural boundedness
+
+`channel-swings/selected_k77_sr1e_vertical_carrier_fixed_natural_boundedness_probe.py`
+constructs the exact rank-450 vertical inclusion into the 1,274-dimensional
+K77 point carrier, verifies all 20,250 `so(6,4)` intertwiners, and proves that
+the selected fixed-natural I2B quartic has opposite-sign `-16,+16` rays which
+the cubic first action cannot stabilize.
+
+```sh
+sage -python tests/channel-swings/selected_k77_sr1e_vertical_carrier_fixed_natural_boundedness_probe.py
+```
+
 ## K77 SR-1C branch momentum zero-jet
 
 `channel-swings/selected_k77_sr1c_branch_momentum_zero_jet_probe.py`

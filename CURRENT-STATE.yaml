@@ -306,16 +306,23 @@ current_result:
     Mexican-hat instability is an exact branch generator but does not yet
     instantiate that object. Its mass form acts on 450 constant modes in
     10 x so(6,4), whereas the selected K77 point value lies in the
-    1274-dimensional Omega1(Y14,so(7,7)) carrier before first jets. The source
-    owns no equivariant carrier map, selected negative orbit, stabilising
-    nonlinear restriction, critical amplitude or canonical first-jet lift.
-    Moreover, its declared Ad-invariant/DeWitt norm-square potential is
-    unbounded below on an exact K=-4 ray; a stable branch requires a full-action
-    repair of that conditional obstruction. SR-1E is therefore TYPE-MISSING at
-    the six-object interface and the unmodified norm-square route is killed at
-    boundedness. This is not a no-go for a repaired full-action source branch.
-    VRS-6 still cannot instantiate.
+    1274-dimensional Omega1(Y14,so(7,7)) carrier before first jets. The
+    observation H/N splitting now supplies the exact missing interface: a
+    rank-450 inclusion with image N* tensor Lambda2(N), verified on all 20250
+    infinitesimal so(6,4) intertwiner cells. The map is observation-relative,
+    not full-so(7,7) equivariant. On two exact embedded rays the raw
+    DeWitt/Killing quartics are -4,+4 and the actual selected-Shiab fixed-natural
+    I2B quartics are -16,+16. Since Q_B=c Q_trace/Hodge with c nonzero, either
+    sign of c leaves one negative quartic ray. I1B is at most cubic and cannot
+    repair the large-amplitude runaway. Thus the carrier seam is closed but the
+    complete released fixed-natural bosonic route is killed at boundedness.
+    SR-1F must construct an action-owned moving fundamental symmetry or
+    field-dependent Q_B, a dynamically closed source/BV constraint, or a new
+    higher-even stabilising action term before selecting a critical orbit and
+    canonical first jet. VRS-6 still cannot instantiate.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness-2026-08-14.md
+    - lab/process/selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness.json
     - explorations/conditional-build/selected-k77-sr1d-affine-first-jet-parity-exhaustion-2026-08-14.md
     - lab/process/selected-k77-sr1d-affine-first-jet-parity-exhaustion.json
     - explorations/conditional-build/selected-k77-sr1e-source-instability-ownership-gate-2026-08-14.md
@@ -441,10 +448,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the exact source constant-mode instability be mapped equivariantly into
-  the selected K77 point carrier, select and stabilise one nonlinear critical
-  orbit, and lift it to a labelled canonical Zorro first jet whose on-shell
-  momentum derivative is independent of differentiated translation?
+  Does the source action own a moving fundamental symmetry or field-dependent
+  Q_B, a dynamically closed constraint, or a higher-even term that can bound
+  both exact embedded quartic rays and select a nonlinear critical orbit for a
+  labelled canonical Zorro first-jet lift?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -453,17 +460,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In SR-1E, first construct an exact equivariant map from the 450-dimensional
-  10 x so(6,4) constant-mode carrier to the selected 1274-dimensional
-  Omega1(Y14,so(7,7)) point-T carrier. On one source-owned negative line or
-  orbit, derive the full-action nonlinear potential, repair or bypass the
-  exact negative-quartic ray, solve a nonzero exact critical amplitude and
-  lift it to a labelled canonical-B_Z first jet. Only then recompute point translation,
-  inherited Bianchi, j1E_T, j1E_B, primitive epsilon and total fixed-varpi
-  metric rows on that same carrier. Do not search more affine first-jet kernels,
-  choose a floating eigenvector, or treat the automatic instability as a
-  vacuum. Keep VRS-6 conditional until
-  one complete stationary background exists.
+  In SR-1F, do not rebuild the now-exact rank-450 vertical carrier map or try
+  another fixed-natural Q_B scale. Construct or kill one action-owned moving
+  fundamental symmetry/field-dependent Q_B on the nonlinear residual carrier;
+  alternatively require a source/BV-owned dynamically closed constraint that
+  excludes every negative ray, or a source-owned higher-even term with fixed
+  positive leading sign on both exact rays. Only after one repair passes may
+  the lane select an orbit, solve a nonzero exact critical amplitude, lift a
+  labelled canonical-B_Z first jet and recompute translation, Bianchi, j1E_T,
+  j1E_B, primitive epsilon and total fixed-varpi metric rows. Keep VRS-6
+  conditional until one complete stationary background exists.
   Independently, the RSAP carrier still needs a local 98D wall
   normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula

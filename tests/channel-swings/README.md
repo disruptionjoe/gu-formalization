@@ -47,6 +47,13 @@ the ledger probe uses the standard Python interpreter.
   with SR-1D to kill the complete compatible affine first/two-jet fibre. Run
   with `sage -python <path>`; `43/43` pass.
 
+- `selected_k77_sr1e_vertical_carrier_fixed_natural_boundedness_probe.py`
+  builds the observation-relative rank-450 source-to-K77 carrier inclusion,
+  checks all 20,250 `so(6,4)` intertwiners, and evaluates the selected I2B
+  quartic as `-16,+16` on two embedded rays. It proves no nonzero fixed-natural
+  scale is bounded and that cubic I1B cannot repair the runaway. Run with
+  `sage -python <path>`; `40/40` pass.
+
 - `selected_k77_sr1e_source_instability_ownership_gate_probe.py` composes the
   exact source constant-mode instability with the SR-1D successor contract.
   It proves the `450`-dimensional `10 x so(6,4)` mass-form carrier is not yet

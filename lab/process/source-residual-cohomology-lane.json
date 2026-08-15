@@ -83,8 +83,8 @@
     },
     {
       "id": "VRS-5",
-      "status": "complete_affine_first_two_jet_fibre_killed__distinct_point_carrier_required__source_instability_interface_and_full_action_repair_type_missing",
-      "construction": "SR-1E"
+      "status": "complete_affine_first_two_jet_fibre_killed__vertical_point_carrier_map_built__fixed_natural_released_bosonic_action_unbounded",
+      "construction": "SR-1F"
     },
     {
       "id": "VRS-6",
@@ -243,13 +243,13 @@
     }
   ],
   "next_required_construction": {
-    "id": "SR-1E",
+    "id": "SR-1F",
     "scaffold": "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md",
-    "statement": "Both canonical SR-1C point branches are killed across the complete compatible affine first/two-jet fibre. The 5265-dimensional first-jet kernel has identically zero source-graph response by Clifford parity, and differentiated translation kills every remaining second-jet response. A distinct point carrier is required. The source Mexican-hat mass form supplies an exact branch generator only on the 450-dimensional 10 x so(6,4) constant-mode carrier; selected K77 requires a labelled point value in the 1274-dimensional Omega1(Y14,so(7,7)) carrier. No equivariant carrier map, selected negative orbit, full-action stabilising restriction, critical amplitude or canonical first-jet lift is owned. The declared norm-square is also unbounded below on an exact negative quartic ray. Construct the interface and a full-action repair before recomputing all source rows. Do not enter VRS-6 until one complete stationary background exists.",
-    "first_blocking_operator": "EQUIVARIANT_SOURCE_450_TO_SELECTED_K77_1274_CARRIER_MAP_PLUS_FULL_ACTION_REPAIR_OF_NEGATIVE_QUARTIC_PLUS_SELECTED_CRITICAL_ORBIT_AND_CANONICAL_FIRST_JET_LIFT",
+    "statement": "Both canonical SR-1C point branches are killed across the complete compatible affine first/two-jet fibre. A distinct point carrier is required, and the source-to-K77 carrier seam is now exact: the observation splitting gives a rank-450 so(6,4)-equivariant inclusion into the 1274-dimensional point carrier, with image N* tensor Lambda2(N). The full fixed-natural released bosonic route nevertheless fails boundedness. Two embedded rays have selected I2B quartics -16 and +16; Q_B=c Q_trace/Hodge with c nonzero leaves one negative ray for either sign, while I1B is at most cubic. Construct an action-owned moving fundamental symmetry or field-dependent Q_B, a dynamically closed source/BV constraint, or a higher-even stabilising term before selecting a critical orbit and canonical first jet. Do not enter VRS-6 until one complete stationary background exists.",
+    "first_blocking_operator": "ACTION_OWNED_MOVING_FUNDAMENTAL_SYMMETRY_OR_FIELD_DEPENDENT_QB__OR_DYNAMICALLY_CLOSED_SOURCE_BV_CONSTRAINT__OR_HIGHER_EVEN_STABILISING_ACTION_TERM",
     "forward_stage": "VRS_5_BACKGROUND_SEARCH_RERANK__VRS_6_PREMISE_ABSENT",
     "reverse_falsification_status": "RF_1_AND_RF_2_COMPLETE__RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST",
-    "failure_rule": "Do not spend another solve on first- or second-jet kernels over the exhausted SR-1C point carrier, import the old scalar trace branch as an additive sector, retry the exhausted zero-T family, repeat excluded homogeneous branches, substitute the printed residual for the action Euler row, inherit the old A-factorization without recomputing a new point carrier, fill missing higher derivatives with zero, choose one floating algebraic root or eigenvector, count lowerer or observation as independent Euler rows, introduce a fitted trace counterterm, manufacture a background by tangent restriction, or promote a local formal jet to a GU solution."
+    "failure_rule": "Do not rebuild the exact vertical carrier map, rescale the fixed-natural Q_B line, spend another solve on first- or second-jet kernels over the exhausted SR-1C point carrier, import the old scalar trace branch as an additive sector, retry the exhausted zero-T family, substitute the printed residual for the action Euler row, choose a ray-dependent fundamental symmetry, exclude a negative direction by an unowned tangent restriction, add an unowned higher term, fill missing higher derivatives with zero, choose one floating algebraic root or eigenvector, introduce a fitted trace counterterm, or promote a local formal jet to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
 }
