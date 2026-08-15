@@ -118,3 +118,35 @@ channel's — so this is the point at which the channel's own resources run out.
 Selection stays inside this channel. Repository-wide GU priority is unchanged,
 the superposition / source-residual workstream is untouched, and no ledger,
 canon, or current-state surface moves.
+
+---
+
+## Corrections recorded by research maintenance (2026-08-14)
+
+Two downstream gates re-typed this artifact. Its arithmetic is exact and was
+independently reproduced (`-4`, `+4`); what changes is its scope and its
+claimed irremovability.
+
+**1. CG-1 re-types the result as pre-reduction.** `p` is a **declared coset**,
+not a gauge sector — `p` is not a subalgebra, and the source declares the
+reduction ("reduce maximal compact subgroups along the fibers", UCSD
+`[00:46:40]`). The correct statement is therefore: **unbounded below iff the
+norm-square uses the pre-reduction `G`-invariant forms.** After reduction,
+`B_theta` is positive definite and Ad(`K`)-invariant, and the obstruction
+completes the square away. CG-1 also closes **cause (2)** — the DeWitt metric
+this artifact called "geometric and therefore not a choice" — and records a
+**third cause missed here**: non-abelian Killing-null brackets give `K = 0`
+with `Q != 0`.
+
+**2. The abelian flat-direction paragraph is conditionally vacuous** on this
+artifact's own ansatz: abelian implies `a ^ a = 0`, hence `Q = 0` as well, so
+those 630 pairs are not directions with `Q < 0` and no quartic.
+
+**3. MC-1 confirms the cone does not rescue it**, and inverts the reason: the
+DeWitt-negative direction is the cone's own dilation generator, so cone
+geometry certifies the runaway is unobstructed rather than truncating it. MC-1
+also notes this removes an objection to SRC-3 without adding support to it.
+
+Net standing: the unboundedness is **conditional on one undeclared choice** —
+whether GU's norm-square sits above or below the Cartan reduction — which is
+SG4/Lane-1 property.

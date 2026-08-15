@@ -124,3 +124,21 @@ channel and compare it to GU's gauge coupling at the breaking scale. That is
 now the *only* remaining route to a Majorana mass inside GU-as-declared, since
 the explicit route is symmetry-closed. A negative there closes the channel's
 central question; a positive predicts a `Z'_{B-L}` and reopens it dynamically.
+
+---
+
+## Correction recorded by research maintenance (2026-08-14)
+
+**The `$` half of the result above is vacuously true as stated.** Gate MV-2
+established that `$` has **no SM-singlet component at all**, not merely none
+carrying `B-L`: an SM singlet requires the zero weight, and `10 (x) 45` never
+contains it because a single `+-e_i` cannot cancel a two-entry root.
+
+The conclusion is unaffected and in fact **strengthened** — `$` cannot take an
+SM-preserving VEV in any direction whatsoever. Only the grounds for the `$`
+half change. The `eps` half is sound and non-vacuous, since `eps` genuinely
+does have SM singlets.
+
+Recorded rather than silently patched: a vacuously-passing check is the exact
+defect `process_gates/certificate_shape_audit.py` exists to flag, and this one
+reached a committed artifact.
