@@ -737,7 +737,20 @@ current_result:
     rows route to K89. Centralizer dimension at least 15 and connected-orbit
     refinements remain open, so no zero neighborhood, surjectivity or RSAP is
     claimed.
+    The higher structural census now closes completely. K95 scans every even
+    centralizer excess from 0 through 84 and finds 3,691 non-pure-zero
+    nonsemisimple signed structural rows across every attainable mixed
+    centralizer dimension 7 through 49. All 3,691 admit a balanced sum of
+    K93-optimal local gradings and saturate the uniform pointwise rank law.
+    The same enumerator separately routes 558 fully semisimple rows to K88 and
+    all 99 pure-zero rows to K89; its K90--K94 calibration counts are exact.
+    No signed structural layer remains open. The surviving gate is whether a
+    nonnilpotent O(7,7) canonical class can split into connected SO_0(7,7)
+    orbits not all meeting the balanced complement. Until that refinement is
+    closed, no zero neighborhood, surjectivity or RSAP is claimed.
   evidence:
+    - explorations/conditional-build/selected-k95-rsap-all-centralizer-global-compatibility-census-2026-08-15.md
+    - lab/process/selected-k95-rsap-all-centralizer-global-compatibility-census.json
     - explorations/conditional-build/selected-k94-rsap-centralizer13-global-compatibility-census-2026-08-15.md
     - lab/process/selected-k94-rsap-centralizer13-global-compatibility-census.json
     - explorations/conditional-build/selected-k93-rsap-uniform-local-centralizer-parity-qualification-2026-08-15.md
@@ -931,10 +944,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does every higher-singular mixed-Jordan so(7,7) configuration with
-  centralizer dimension at least 13 meet the balanced symmetric complement p
-  under one simultaneous anticommuting orthogonal involution, or does one
-  exact configuration kill this 98D zero-neighborhood horn?
+  Does every connected SO_0(7,7) orbit refining a nonnilpotent signed
+  structural class meet the balanced symmetric complement p, or does an
+  O(7,7)-to-SO_0(7,7) orbit split leave one component outside this 98D horn?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -943,14 +955,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Extend K94's calibrated multiset dynamic program from centralizer dimension
-  13 across every attainable higher mixed centralizer dimension. K94 proves
-  that all 645 centralizer-thirteen signed structural rows admit a balanced
-  sum of K93-optimal local gradings at sharp map rank 88; it does not prove the
-  remaining layers. Route fully semisimple and pure-zero rows to K88 and K89,
-  retain connected SO_0(7,7) orbit refinements as a separate seam, and stop on
-  the first balanced-signature failure. Require one balanced involution to
-  reverse all Jordan parts and attain the pointwise rank ceiling. Because Ad(G)p is conic, one
+  Classify O(7,7)-to-SO_0(7,7) orbit splitting for every nonnilpotent signed
+  structural class now that K95 closes all 3,691 non-pure-zero nonsemisimple
+  rows with zero balanced-signature failures. Determine the component group of
+  each real centralizer and prove that every connected refinement contains a
+  balanced representative; do not infer this from one O(7,7) representative.
+  K89 already closes the pure nilpotent seam and K88 owns semisimple Cartan
+  closures. Because Ad(G)p is conic, one
   missed nonzero orbit kills zero-neighborhood coverage for this horn but not
   nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
   global gluing across the missing ambient successor before that census. The

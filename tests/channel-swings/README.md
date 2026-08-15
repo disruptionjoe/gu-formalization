@@ -41,6 +41,12 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k95_rsap_all_centralizer_global_compatibility_census_probe.py`
+  extends K94 across every even excess `0,...,84`. The exact `4,348`-row
+  inventory splits into `3,691` non-pure-zero nonsemisimple, `558` semisimple
+  and `99` pure-zero rows; every structural row balances. It preserves
+  connected nonnilpotent orbit refinement as the next gate and passes `20/20`.
+
 - `selected_k94_rsap_centralizer13_global_compatibility_census_probe.py`
   forms every unordered global multiset from K93's optimal local signature
   options at total rank seven and excess six. It reproduces the K91/K92

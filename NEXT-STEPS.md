@@ -7,6 +7,18 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE ALL-CENTRALIZER STRUCTURAL CENSUS.** The calibrated
+> K95 dynamic program scans every even excess `0,...,84` and exhausts `3,691`
+> non-pure-zero nonsemisimple signed structural rows across every attainable
+> mixed centralizer dimension `7,...,49`. All `3,691` admit balanced K93-
+> optimal direct sums and saturate `rank(dJ)=(189-c)/2`. Another `558` fully
+> semisimple rows route to K88 and all `99` pure-zero rows route to K89; total
+> structural inventory `4,348`, zero balance failures. **Next classify
+> nonnilpotent `O(7,7)`-to-`SO_0(7,7)` orbit splitting and prove every
+> connected component meets the balanced complement.** Zero-neighborhood
+> coverage, surjectivity, RSAP, source selection and global gluing remain open.
+> Exact probe `20/20`.
+
 > **2026-08-15 COMPLETE CENTRALIZER-THIRTEEN GLOBAL COMPATIBILITY CENSUS.**
 > A calibrated multiset dynamic program reproduces K91's `714` and K92's
 > `673` mixed rows, then exhausts exactly `645` mixed centralizer-`13` signed

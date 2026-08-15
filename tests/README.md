@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k95_rsap_all_centralizer_global_compatibility_census_probe.py`
+  scans every centralizer excess in the full rank-seven primary grammar. It
+  exhausts `3,691` non-pure-zero nonsemisimple signed structural rows, balances
+  all of them, and routes `558` semisimple plus `99` pure-zero rows to K88 and
+  K89. Connected nonnilpotent orbit refinement remains open. It passes
+  `20/20`.
+
 - `channel-swings/selected_k94_rsap_centralizer13_global_compatibility_census_probe.py`
   calibrates its multiset enumerator against K91 and K92, then exhausts all
   `645` mixed centralizer-thirteen signed structural rows. Every row admits a
