@@ -34,6 +34,67 @@ one. Reproducible: `python tests/wave14/H19_seven_seven_branch.py` (**exit 0, 11
 
 ---
 
+> [!CAUTION]
+> **CORRECTION filed 2026-08-15 (CH-3) -- the chain this artifact attributes to
+> the source. Attribution only: no verdict, computation or reproduction claim in
+> this document changes.**
+>
+> **What this artifact wrote.** Q3b, Q4b and the Q4 summary below asserted the chain as
+> `Spin(6,4)` then `Spin(3,2)` then `maximal compact SU(3) x SU(2) x U(1)`, sourced to
+> `[00:43:47]-[00:45:00]`, and called it *"Weinstein's own SM chain"* and an *"SM embedding."*
+> **Both halves of that are wrong**, and the second is wrong independently of the first.
+>
+> **1. The nested form is group-theoretically impossible.** `dim so(3,2) = 10 < 12 =
+> dim(su(3)+su(2)+u(1))`, so no injective homomorphism exists; and every `so(p,q)` with
+> `p+q = 5` is 10-dimensional, so no relabelling of the signature rescues it. Reading the
+> `Spin(3,2)` as a commuting factor instead of a containing group fails too: the largest
+> centraliser of **any** `Spin(3,2)` in `Spin(6,4)` is `10 < 12`, exhaustive over `so(5,C)`
+> module structures on `C^10`.
+>
+> **2. The source's words.** He says *"s u three comma two"* **twice** at `[00:43:47]` --
+> attached to a statement this repository has machine-verified twice (`SU(3)xSU(2)xU(1)` **is**
+> the maximal compact of `SU(3,2)`) -- and *"spin three comma two"* **once**, inside the chain
+> sentence at `[00:45:00]`. The same speaker turn contains the provable ASR garble *"the maximal
+> compact subgroup of spin six comma spin four"*, which names no group at all: a spurious `spin`
+> inserted into the same `X comma Y` frame, one clause earlier.
+>
+> **3. The decided reading, and its provenance.** `Spin(6,4) > SU(3,2) > S(U(3)xU(2))`, decided
+> by `lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md` (SC-A, 85/85)
+> on the chain sentence, and by `la7-...-2026-08-15.md` §1.4 on the adjacent sentence. Both
+> arrows are constructed: `SU(3,2) < Spin(6,4)` by realifying a Hermitian `(3,2)` form
+> (`24 <= 45`), and `S(U(3)xU(2)) < SU(3,2)` as the maximal compact (`12 <= 24`).
+>
+> **4. It is not a subgroup tower at all, and this is the part that matters here.** The arrows
+> are **structure-group reductions of one rank-10 vertical bundle**, not symmetry breakings.
+> The source denies the GUT frame outright at `[00:38:09]`: *"There is no grand unification.
+> It's just a normal bundle in your ambient space."* He names the operation at `[00:46:40]`:
+> *"reduce maximal compact subgroups along the fibers."* So **"SM embedding" was the wrong
+> phrase for this object even with the middle term corrected**, and every use of it below should
+> be read as *"the reduction chain whose last node is the SM algebra."*
+>
+> **What this correction does and does not do to Q3/Q4.** Q3b and Q4b are load-bearing on the
+> **fibre**, not on the chain: what is computed is that the trace-reversed DeWitt fibre is
+> `(6,4)` for both base orientations. The corrected chain lives on that same fibre -- all three
+> of its nodes are successive structure groups of it -- so **Q3b's and Q4b's conclusions
+> survive, and Q4b's is if anything tighter.** No verdict in this artifact moves, and
+> `tests/wave14/H19_seven_seven_branch.py` is unaffected in its assertions: the chain appears
+> there only in docstrings and detail strings (lines 49, 60, 327, 362), never in a predicate, so
+> its 11/11 stands -- but **those four strings still carry the impossible form and are owed the
+> same repair by whoever owns that file** (out of scope for CH-3, which may touch only the
+> attribution in this document).
+>
+> **The correction is not a point in GU's favour.** It removes an impossibility from *this
+> repository's account of the source*; it supplies nothing. Reductions are not cheaper than
+> breakings here -- the non-compact-to-compact reduction that arrow 2 needs is typed
+> `REDUCTION_EXTERNAL` (`explorations/big-swing-2026-07-03/AUDIT-noncompact-compact-reduction-EXTERNAL.md`),
+> i.e. the Weyl unitarian trick rather than a GU-forced selection. Q4's verdict `NOT-GU-NATIVE`
+> is a **negative** result, so tightening its argument makes GU's under-determination *more*
+> firmly established, not less.
+>
+> Reproduced independently in `tests/channel-swings/joe_directed_ch3_chain_repair.py`.
+
+---
+
 ## Q1 -- Does (7,7) force the count to exactly 3, or just odd?
 
 **VERDICT: ODD-ADMISSIBLE, NOT FORCED-3. (high confidence)**
@@ -110,16 +171,26 @@ restated for the real class. This is a change, not a break.
   order `Tr F^8` (an even symmetric Casimir), which is reality-class-**blind** (BIG-SWING angle 1).
   Anomaly-free content is admissible in both classes. **No cost.**
 
-- **Q3b (SM embedding: survives on the common fiber).** Weinstein's own SM chain is
-  `Spin(6,4) -> Spin(3,2) -> maximal compact SU(3) x SU(2) x U(1)` (transcript `[00:43:47]-[00:45:00]`:
-  "the Standard Model answers the question, what is the maximal compact subgroup of `SU(3,2)`"; Pati-Salam
-  `= Spin(6) x Spin(4) =` maximal compact of `Spin(6,4)`). The `(6,4)` here is the **trace-reversed
-  DeWitt fiber**, and it is `(6,4)` for **both** base orientations (mostly-plus AND mostly-minus,
-  computed) -- the fiber form is quadratic in `g`, hence `g -> -g` invariant. So the entire Pati-Salam
-  embedding rides a fiber **common** to `(9,5)` and `(7,7)`. **No cost.** (Notably, the SM embedding
-  *requires* indefinite internal groups `(6,4),(3,2),(3,2)` -- Weinstein's point that the seventies
-  "wasted ... work because we wanted to avoid indefinite signature" -- and both total signatures deliver
-  the same indefinite fiber.)
+- **Q3b (SM reduction chain: survives on the common fiber).** *(Chain attribution CORRECTED
+  2026-08-15 -- see the CAUTION block above. This bullet originally wrote the middle node as
+  `Spin(3,2)` and called the object an "SM embedding"; both were wrong.)* The source's chain is
+  `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` (transcript `[00:43:47]`: "the Standard Model answers the
+  question, what is the maximal compact subgroup of `SU(3,2)`", said twice; Pati-Salam
+  `= Spin(6) x Spin(4) =` maximal compact of `Spin(6,4)`), and its arrows are **structure-group
+  reductions of the rank-10 vertical bundle**, not a subgroup tower -- *"There is no grand
+  unification. It's just a normal bundle in your ambient space"* (`[00:38:09]`). The `(6,4)` is the
+  **trace-reversed DeWitt fiber**, and it is `(6,4)` for **both** base orientations (mostly-plus AND
+  mostly-minus, computed) -- the fiber form is quadratic in `g`, hence `g -> -g` invariant. So the
+  entire Pati-Salam reduction rides a fiber **common** to `(9,5)` and `(7,7)`. **No cost.**
+  **Did this bullet's conclusion USE the nesting? No.** The computed content is the fiber
+  signature; the chain was cited as a passenger. The verdict is a *differential* one -- `(7,7)`
+  costs no more here than `(9,5)` -- and it never asserted that GU possesses an SM embedding.
+  Under the corrected reading it asserts even less: what rides the fiber is a chain of reductions
+  whose second arrow is typed `REDUCTION_EXTERNAL`. (Notably, the reduction chain *requires*
+  indefinite internal structure -- the real `(6,4)` fiber and its Hermitian halving `(3,2)`,
+  **two** signatures, not the three `(6,4),(3,2),(3,2)` this bullet used to list -- which is
+  Weinstein's point that the seventies "wasted ... work because we wanted to avoid indefinite
+  signature"; and both total signatures deliver the same indefinite fiber.)
 
 - **Q3c (QM unitarity: same cost as (9,5)).** Both `(9,5)` (`q=5`) and `(7,7)` (`q=7`) have `q > 0`, so
   **both** are Krein spaces, neither is a Hilbert space, and both require the Turok-Bateman ghost-parity
@@ -145,24 +216,37 @@ the honest cost is that `(7,7)` is a weaker constraint, not a stronger one.**
   in the base: `d = +2` (mostly-plus `(3,1)`) `-> p-q = 4 -> (9,5)/H`; `d = -2` (mostly-minus `(1,3)`)
   `-> p-q = 0 -> (7,7)/R`. The whole H/R decision rests on `sign(d)`.
 
-- **Q4b (no GU-native selector for `sign(d)`).** The `(6,4)` fiber -- the only structure common to the
-  two totals -- is `g -> -g` invariant, so it carries no `sign(d)` and cannot select. Weinstein's
-  `Spin(6,4)/Spin(3,2)` chain rides that invariant fiber, so it too is **neutral** on the total
-  signature. Only the base pullback (linear in `g`) carries the sign, and the observerse (the space of
-  metrics) has no preferred timelike-norm sign. The three candidate levers named in the swing all fail
-  to select:
+- **Q4b (no GU-native selector for `sign(d)`).** *(Chain attribution CORRECTED 2026-08-15 -- see the
+  CAUTION block above.)* The `(6,4)` fiber -- the only structure common to the two totals -- is
+  `g -> -g` invariant, so it carries no `sign(d)` and cannot select. Weinstein's
+  `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` chain rides that invariant fiber, so it too is **neutral** on
+  the total signature. Only the base pullback (linear in `g`) carries the sign, and the observerse
+  (the space of metrics) has no preferred timelike-norm sign. The three candidate levers named in the
+  swing all fail to select:
   - *the H19 term linear in `g` carrying the timelike-norm sign* -- the only `sign(d)`-carrier is the
     base pullback, and no GU-native term fixing its sign is exhibited (BIG-SWING angle 4);
   - *the trace-reversed `(6,4)` fiber (VG-V3)* -- `g -> -g` invariant, common to both, selects neither;
-  - *Weinstein's `spin(6,4) -> spin(3,2)` chain* -- the internal/fiber chain, common to both totals.
-    The transcript's three-family claim rides a **VEV** mechanism (`[00:46:02]`: "decreased VEV in the
-    total space taking a Dirac equation into two Weyl equations"), which is a chiral-selection story,
-    not a signature selector.
+  - *Weinstein's `so(6,4) > su(3,2) > s(u(3)+u(2))` chain* -- the internal/fiber chain, common to both
+    totals. The transcript's three-family claim rides a **VEV** mechanism (`[00:46:02]`: "decreased VEV
+    in the total space taking a Dirac equation into two Weyl equations"), which is a chiral-selection
+    story, not a signature selector.
 
-**So the primary source's own "use indefinite signature" argument is about the INTERNAL groups
-`(6,4),(3,2),(3,2)` being indefinite -- and those are the fiber, common to `(9,5)` and `(7,7)`.** It
-does **not** supply a total-signature selector. `(7,7)` stays an under-determined declared choice,
-exactly as BIG-SWING concluded.
+  **Did this bullet's neutrality argument USE the nesting? No -- and the corrected reading makes it
+  STRONGER, which is a fact about the argument and not a point for GU.** The neutrality claim needs
+  only that the chain's nodes are structure groups of a `g -> -g` invariant fiber. Under the old
+  nested reading that was an assertion about a chain that could not exist. Under the decided reading
+  it is exact: all three nodes are successive structure groups of the *same* rank-10 `(6,4)` bundle
+  (`so(6,4)` is its structure algebra, `su(3,2)` is the stabiliser of a compatible complex structure
+  on it, `s(u(3)+u(2))` is the maximal compact of that), so their common neutrality is a theorem about
+  one bundle rather than a coincidence across three groups. **The conclusion this tightens is
+  `NOT-GU-NATIVE`** -- a negative verdict -- so the tightening increases the confidence that GU does
+  not select its own signature.
+
+**So the primary source's own "use indefinite signature" argument is about the INTERNAL structure of
+the fiber being indefinite -- the real `(6,4)` form and its Hermitian halving `(3,2)`, both carried by
+the same rank-10 normal bundle, common to `(9,5)` and `(7,7)`.** It does **not** supply a
+total-signature selector. `(7,7)` stays an under-determined declared choice, exactly as BIG-SWING
+concluded.
 
 ---
 

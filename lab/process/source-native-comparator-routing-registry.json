@@ -109,6 +109,10 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/chain-repair/ch3-the-nested-chain-is-repaired-at-three-sites-and-the-rank-drop-moves-to-arrow-one-2026-08-15.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
       "path": "lab/active-research/joe-directed/coupling-unification/cu1-left-right-degeneracy-forbids-unification-2026-08-14.md",
       "classification": "CONVENTIONAL_COMPARATOR"
     },
@@ -223,6 +227,10 @@
     {
       "path": "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
       "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "classification": "SOURCE_NATIVE_ROUTE",
+      "path": "lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md"
     }
   ]
 }

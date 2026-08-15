@@ -914,14 +914,58 @@ Model carries **two** (of which one is `theta_QCD`, observable, and one is
 booking of a rank-3 sector, and the difference is exactly one extra angle
 relative to the SM.
 
-**Fences, both load-bearing.** (i) The source's chain has a second step,
-`Spin(6,4) -> Spin(3,2) -> SU(3)xSU(2)xU(1)`; the rank drop from 3 to 2 happens
-somewhere in that second step and **this artifact does not compute where**. (ii)
+**Fences, both load-bearing.** (i) *(CORRECTED 2026-08-15 by CH-3; the original
+text of this fence is quoted and dispositioned in the note below.)* The source's
+chain is `Spin(6,4) > SU(3,2) > S(U(3)xU(2))`, and its arrows are
+structure-group reductions of the rank-10 normal bundle, not a subgroup tower;
+the rank drop from 3 to 2 is at the **first** arrow, and **this artifact does
+not compute the index data of that arrow**. (ii)
 Whether any of the three angles is physical depends on the fermion content and
 on whether the corresponding `U(1)` rotations are anomalous — neither is settled
 on this axis. So the finding is: *the topological sector of the declared reduction
 has a rank, the rank is 3, and the ledger has never assigned it one.* It is not:
 *GU predicts an extra theta angle.*
+
+> [!CAUTION]
+> **CH-3 correction to fence (i), 2026-08-15 — attribution only; the
+> Lagrangian-axis result above is untouched.**
+>
+> **What this fence said.** *"The source's chain has a second step,
+> `Spin(6,4)` then `Spin(3,2)` then `SU(3) x SU(2) x U(1)`; the rank drop from 3
+> to 2 happens somewhere in that second step and this artifact does not compute
+> where."*
+>
+> **Why it changed.** The nested form is impossible: `dim so(3,2) = 10 < 12 =
+> dim(su(3)+su(2)+u(1))`, and every `so(p,q)` with `p+q = 5` is 10-dimensional,
+> so no relabelling rescues it; the commuting-factor reading fails too, the
+> largest centraliser of any `Spin(3,2)` in `Spin(6,4)` being `10`. The decided
+> reading is `Spin(6,4) > SU(3,2) > S(U(3)xU(2))`, with both arrows constructed
+> (`24 <= 45`, `12 <= 24`) — see
+> `lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md`
+> (SC-A, 85/85) for the chain sentence and `la7-...-2026-08-15.md` §1.4 for the
+> adjacent sentence. The source refuses the GUT frame outright: *"There is no
+> grand unification. It's just a normal bundle in your ambient space"*
+> (`[00:38:09]`), and names the operation as *"reduce maximal compact subgroups
+> along the fibers"* (`[00:46:40]`).
+>
+> **The consequence for this fence, stated rather than quietly restated.** The
+> fence's own content was wrong, not merely its notation: it put the rank drop
+> in the **second** step. Under the decided reading the second arrow is a
+> maximal-compact reduction, and a Lie group deformation-retracts onto its
+> maximal compact, so that arrow **cannot** change `pi_3` at all. `rank pi_3`
+> along the chain is `3 -> 2 -> 2`: the drop is at arrow 1, the
+> complex-structure reduction. The three node numbers are LA-7's (§1.4 table,
+> `tests/channel-swings/joe_directed_ledger_sm7_topological_rank.py` P1/P2/P3);
+> what is added here is only the localisation, re-derived by a second invariant
+> in `tests/channel-swings/joe_directed_ch3_chain_repair.py` (block F).
+>
+> **What did NOT change.** `LT-SM7`'s booking deficit is computed from
+> `Delta5`'s declared gauge group `K = Spin(6) x Spin(4)` alone. It never used
+> the chain, so the rank-3 sector, the rank-1 booking, and every number in §4.4
+> stand exactly as written. The correction also **buys GU nothing**: knowing
+> which arrow loses the angle does not supply the angle, does not settle whether
+> any of the three is physical (fence (ii) is untouched), and does not make the
+> reduction GU-forced — arrow 2 remains typed `REDUCTION_EXTERNAL`.
 
 **Why this is the row's cheapest next step.** `LT-SM7` at `T0` is the axis's
 lowest-graded residue. A rank statement moves it from "met by an unexamined
