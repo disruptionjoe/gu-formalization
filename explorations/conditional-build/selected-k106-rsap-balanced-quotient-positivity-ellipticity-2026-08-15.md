@@ -225,3 +225,12 @@ Closing hostile charges:
 
 Reproduce with
 `python3 tests/channel-swings/selected_k106_rsap_balanced_quotient_positivity_ellipticity_probe.py`.
+
+> **Successor closure (K107).** Cotangent doubling does produce invariant
+> compatible complex structures and preserves the canonical invariant
+> vertical real polarization, so absence of complex or polarized geometry is
+> not the obstruction. At the zero section every compatible invariant metric
+> has signature `48|50` or `50|48`, and invariant Krein or linear-subquotient
+> repairs retain the `24|25` factor. Reopen only with a concrete action-owned
+> non-invariant selector or analytic domain, not another invariant linear
+> construction.

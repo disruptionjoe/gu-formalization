@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5b57e9fcc79b315044f7f9b52673ab4dafe96973
+revision_basis: c00127d751ea635e20501e27f44aa98d97317f15
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -899,7 +899,21 @@ current_result:
     physical interpretation do not follow. Non-invariant, Krein,
     constrained, contour/Wick and boundary-domain routes remain open only
     with a new action/domain owner and moving-R Noether compatibility.
+    K107 closes the invariant linear phase-space loophole without claiming
+    that complex or polarization geometry is absent. At the zero section of
+    the conditional cotangent phase space, M=U plus U* is R^2 tensor U and
+    its invariant commutant is M_2(R). Invariant compatible complex
+    structures exist, but every associated metric is (KA) tensor q and has
+    signature 48|50 or 50|48. The canonical invariant vertical real
+    polarization also exists, while supplying no positive kinetic operator or
+    domain by itself. Invariant Krein fundamental symmetries and nonzero
+    invariant linear subquotients retain the irreducible 24|25 factor. Thus
+    the next positivity step requires a concrete action-owned non-invariant
+    selector or explicit analytic domain, not another abstract invariant
+    linear construction.
   evidence:
+    - explorations/conditional-build/selected-k107-rsap-phase-space-compatible-complex-positivity-2026-08-15.md
+    - lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json
     - explorations/conditional-build/selected-k106-rsap-balanced-quotient-positivity-ellipticity-2026-08-15.md
     - lab/process/selected-k106-rsap-balanced-quotient-positivity-ellipticity.json
     - explorations/conditional-build/selected-k105-rsap-curvature-sign-owner-qualification-2026-08-15.md
@@ -1117,11 +1131,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the conditional balanced reverse RSAP acquire a positive physical
-  quantum domain through an action-owned non-invariant sector, Krein or
-  constrained quotient, contour/Wick rotation, or boundary condition that is
-  compatible with the moving-R Euler/Noether law, while a genuinely new
-  action-owned stationary background remains the separate selector reopener?
+  Does the source/action supply one concrete non-invariant positive selector
+  or boundary, contour, Wick or constrained domain on the conditional balanced
+  RSAP whose moving-R Euler/Noether law and actual BFV cohomology can be tested,
+  while a genuinely new stationary background remains the separate ownership
+  reopener?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1187,7 +1201,15 @@ next_condition: >-
   or physical cohomology follows. Reopen positivity only with an action-owned
   non-invariant positive sector, a Krein/constrained physical quotient, an
   owned contour or Wick rotation, or a boundary domain compatible with the
-  moving-R Euler/Noether law. Keep the 182D charged and 98D reverse-RSAP horns
+  moving-R Euler/Noether law. K107 closes the abstract invariant linear
+  phase-space loopholes. Compatible complex structures exist after cotangent
+  doubling, but their associated metrics have signature 48|50 or 50|48. The
+  canonical invariant vertical real polarization also exists, but supplies no
+  positive kinetic/domain package by itself. Invariant Krein fundamental
+  symmetries and nonzero invariant linear subquotients retain the irreducible
+  24|25 factor. Stop abstract invariant linear repairs; require an explicit
+  action-owned non-invariant selector or concrete boundary/contour/Wick/
+  constrained domain before another positivity swing. Keep the 182D charged and 98D reverse-RSAP horns
   distinct. Do not repeat finite BFV, multiplier,
   boundary-route, released-source or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal

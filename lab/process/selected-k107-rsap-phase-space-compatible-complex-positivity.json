@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "balanced_rsap_zero_section_complex_krein_positivity_classification",
+  "created": "2026-08-15",
+  "status": "INVARIANT_COMPATIBLE_COMPLEX_AND_REAL_VERTICAL_POLARIZATION_EXIST__EVERY_INVARIANT_ASSOCIATED_METRIC_REMAINS_INDEFINITE__NO_POSITIVE_INVARIANT_LINEAR_REDUCTION",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "CONDITIONAL_98D_BALANCED_COTANGENT_PHASE_SPACE_AT_THE_ZERO_SECTION__H_BAL_INVARIANT_LINEAR_COMPLEX_POLARIZATION_KREIN_AND_CONSTRAINT_DATA",
+  "target_claim": {
+    "id": "K106_NEXT_GATE__AN_INVARIANT_PHASE_SPACE_COMPLEX_POLARIZATION_OR_KREIN_STRUCTURE_PRODUCES_A_POSITIVE_PAIRING_ON_THE_CONDITIONAL_98D_RSAP",
+    "verdict": "NO_AT_ZERO_SECTION_INVARIANT_LINEAR_GRADE__COMPATIBLE_COMPLEX_AND_VERTICAL_POLARIZATION_EXIST_BUT_DO_NOT_REPAIR_SIGNATURE"
+  },
+  "carrier": {
+    "base_isotropy_module": "U=R_3_4_tensor_R_4_3",
+    "dimension_U": 49,
+    "signature_q": [24, 25],
+    "phase_tangent": "U_plus_U_dual_IDENTIFIED_WITH_R2_tensor_U",
+    "phase_dimension": 98,
+    "canonical_symplectic_form": "K_tensor_q_WITH_K=[[0,1],[-1,0]]",
+    "H_commutant_on_U": "R",
+    "H_commutant_on_phase_tangent": "M2_R_tensor_identity_U"
+  },
+  "compatible_complex_classification": {
+    "form": "J=A_tensor_identity_U",
+    "conditions": "A=[[a,b],[c,-a]]__a_squared_plus_b_c=-1",
+    "examples_exist": true,
+    "associated_metric": "g_J=(K_A)_tensor_q",
+    "K_A_signature": "2_0_OR_0_2",
+    "g_J_signature": "48_50_OR_50_48",
+    "positive_compatible_invariant_complex_structure_exists": false,
+    "pseudo_Kahler_linear_structure_exists": true
+  },
+  "polarization": {
+    "canonical_vertical_real_polarization": "EXISTS_AND_IS_G_INVARIANT",
+    "zero_section_H_invariant_lagrangian_lines": "RP1_FAMILY_ell_tensor_U",
+    "polarization_alone_produces_positive_kinetic_or_domain": false,
+    "claim": "EXISTENCE_OF_REAL_POLARIZATION_IS_NOT_THE_MISSING_POSITIVITY_OWNER"
+  },
+  "krein_and_constraint": {
+    "H_invariant_fundamental_symmetry_on_U": "ONLY_PLUS_OR_MINUS_IDENTITY__CANNOT_POSITIVIZE_q",
+    "H_invariant_fundamental_symmetry_on_phase_tangent": "D_tensor_identity_U__ANY_NONZERO_ASSOCIATED_FORM_RETAINS_BOTH_SIGNS_FROM_q",
+    "nonzero_proper_H_invariant_linear_subquotient_dimensions": [49],
+    "signature_on_49D_subquotient": "24_25_UP_TO_SIGN",
+    "positive_nonzero_H_invariant_linear_reduction_exists": false
+  },
+  "owner_fence": {
+    "R0": "EXPLICIT_REVERSE_CONDITIONAL",
+    "balanced_boundary_law": "EXPLICIT_REVERSE_CONDITIONAL",
+    "current_action_selects_noninvariant_positive_sector": false,
+    "current_action_selects_krein_fundamental_symmetry": false,
+    "current_action_selects_contour_or_boundary_domain": false
+  },
+  "claim_ceiling": {
+    "binds": "H_bal_invariant_linear_data_on_the_zero_section_tangent_of_the_conditional_balanced_cotangent_phase_space",
+    "does_not_bind": "nonlinear_BFV_cohomology_noninvariant_background_selected_structures_contours_Wick_rotations_boundary_domains_or_nonlocal_quantization",
+    "global_complex_structure_constructed": false,
+    "positive_Hilbert_space_constructed": false,
+    "physical_cohomology_constructed": false
+  },
+  "disposition": {
+    "next_gate": "STOP_ABSTRACT_INVARIANT_LINEAR_POSITIVITY_SEARCHES__REOPEN_ONLY_WITH_AN_EXPLICIT_ACTION_OWNED_NONINVARIANT_SELECTOR_OR_A_CONCRETE_BOUNDARY_CONTOUR_DOMAIN_AND_TEST_MOVING_R_NOETHER_PLUS_BFV_COHOMOLOGY_COMPATIBILITY",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "base_positivity": "lab/process/selected-k106-rsap-balanced-quotient-positivity-ellipticity.json",
+    "classical_BFV": "lab/process/selected-k98-rsap-balanced-bfv-selection-classifier.json",
+    "curvature_owner": "lab/process/selected-k105-rsap-curvature-sign-owner-qualification.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k107-rsap-phase-space-compatible-complex-positivity-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k107_rsap_phase_space_compatible_complex_positivity_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k107-rsap-phase-space-compatible-complex-positivity-review.md"
+}

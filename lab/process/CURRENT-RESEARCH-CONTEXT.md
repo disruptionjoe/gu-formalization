@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K107 conditional phase-space positivity gate:** K106's
+> `24|25` base does acquire invariant compatible complex structures after
+> cotangent doubling, and the cotangent bundle retains its canonical invariant
+> vertical real polarization. Neither is a positivity owner. At the zero
+> section `M=R^2 tensor U`; every invariant compatible `J=A tensor 1` has
+> associated metric `(KA) tensor q` of signature `48|50` or `50|48`.
+> Invariant Krein fundamental symmetries and nonzero invariant linear
+> subquotients retain the irreducible `24|25` factor. Stop abstract invariant
+> linear repairs. Reopen only with a concrete action-owned non-invariant
+> selector or boundary/contour/Wick/constrained domain and test moving-`R`
+> Noether plus actual BFV-cohomology compatibility. All RSAP inputs remain
+> explicit reverse conditionals.
+
 > **Current K105 curvature-sign owner qualification:** curvature can perform
 > the balanced-order-parameter step conditionally. A natural `Q`-self-adjoint
 > real-semisimple curvature endomorphism with a persistent gap at zero, `7+7`

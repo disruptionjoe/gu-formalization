@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K107 PHASE-SPACE COMPLEX AND POLARIZATION GEOMETRY EXISTS,
+> BUT INVARIANT POSITIVITY STILL DOES NOT.** At the zero section of the
+> conditional `98D` cotangent phase space, the tangent carrier is
+> `M=U+U*=R^2 tensor U`, with `signature(U)=(24,25)` and invariant commutant
+> `M_2(R)`. Every invariant compatible complex structure is
+> `J=A tensor 1`, `A^2=-1`; its associated form is `(KA) tensor q` and has
+> signature exactly `48|50` or `50|48`. The canonical vertical real
+> polarization exists and is invariant, but does not supply a positive
+> kinetic/domain package. Invariant Krein involutions and nonzero invariant
+> linear subquotients also retain both signs. **Stop abstract invariant linear
+> positivity searches. Reopen only with an explicit action-owned non-invariant
+> selector or a concrete boundary/contour/Wick/constrained domain, then test
+> moving-`R` Noether compatibility and actual BFV cohomology.** Exact probe
+> `39/39`.
+
 > **2026-08-15 K106 BALANCED QUOTIENT HAS NO INVARIANT POSITIVE ELLIPTIC
 > KINETIC ROUTE; CLASSICAL BFV SURVIVES CONDITIONALLY.** For
 > `G/H_bal=Spin_0(7,7)/(Spin(3,4)xSpin(4,3))`, the `49D` isotropy module is
