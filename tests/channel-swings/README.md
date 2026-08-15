@@ -41,6 +41,14 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py`
+  classifies all split-`A3` two-wall root/sign presentations, excludes the
+  same-sign `SL2/SO2` sheet as locally non-surjective, proves opposite-sign
+  routing for every `A2` pair and both alternating `A3` chains, certifies all
+  nine dimension-four real Jordan symmetrizer configurations, and checks the
+  complete origin rank schedule and four-chart cotangent cocycles. It passes
+  `105/105` with Python 3.
+
 - `selected_k77_rsap_a3_adjacent_a2_two_wall_attachment_probe.py` checks the
   principal `sl3/so(2,1)` embedding, both adjacent opposite-sign
   `sl2/so(1,1)` restrictions, exact centralizers, the complete `98D`

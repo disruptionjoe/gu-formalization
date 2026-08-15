@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py`
+  classifies all `15` split-`A3` root pairs, separates target subsystem types
+  from source-sign presentations, and proves the naive same-sign `SL2/SO2`
+  face is not locally surjective. It verifies opposite-sign routing for every
+  `A2` pair and the two alternating `A3` sheets, checks all nine real
+  four-dimensional Jordan symmetrizer configurations, derives the complete
+  `84/91 -> 82/90 -> 80/89 or 78/88 -> 72/85` schedules, and closes every
+  triangle in the first four-chart origin nerve. It passes `105/105`.
+
 - `channel-swings/selected_k77_rsap_a3_block_pivot_atlas_probe.py` completes
   the split-`A3` regular atlas using the determinant-one signature-`(2,2)`
   symmetric-form model. It enumerates five block shapes, `66` ordered pivot
@@ -4612,6 +4621,18 @@ primitive cocycle. It passes `71/71` with Python 3.
 
 ```sh
 python3 tests/channel-swings/selected_k77_rsap_a3_adjacent_a2_two_wall_attachment_probe.py
+```
+
+## K77 RSAP split-A3 two-wall census and origin attachment
+
+`channel-swings/selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py`
+checks the complete root/sign census, the exact same-sign partial-image
+obstruction, opposite-sign sheet routing, every real `sl4` Jordan symmetrizer
+type, the origin rank-bound saturation and all triangular cotangent cocycles
+in the first four-chart nerve. It passes `105/105` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py
 ```
 
 ## K77 RSAP rank-82 wall family and A2 cocycle gate

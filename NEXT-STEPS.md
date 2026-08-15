@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 SPLIT-`A3` TWO-WALL CENSUS AND ORIGIN ATTACHMENT.** All `15`
+> root pairs reduce to `12` `A2` and three `A1 x A1` target pairs. The naive
+> same-sign `SL2/SO2` face is only a hyperbolic-cone sheet and is not locally
+> onto `sl2*`; it is excluded as an RSAP wall chart. Every `A2` target pair
+> has two alternative `(2,2)` preimages making both roots opposite-sign, and
+> every full `A3` chain has the alternating sheets `(+,-,+,-)` and
+> `(-,+,-,+)`. The selected alternating sheet reduces all faces to banked
+> models and attaches the `A3` origin on the existing smooth `98D` carrier.
+> Target/map ranks reach `72/85`, saturating the pointwise bound. A nine-case
+> exact Jordan census proves the split principal moment map is onto every real
+> `sl4` Jordan type; the first four-chart origin cocycles close strictly.
+> **Next classify and glue the remaining nonsemisimple split-`A3` Jordan
+> transitions before entering another real form.** Exact probe `105/105`;
+> deeper ambient strata, zero charge and all-strata RSAP remain open.
+
 > **2026-08-15 SPLIT-`A3` ADJACENT-`A2` TWO-WALL ATTACHMENT.** On an ordered
 > signature block `(+,-,+)`, both adjacent roots restrict the principal
 > `sl3/so(2,1)` pair to the banked `sl2/so(1,1)` split-wall model. The smooth

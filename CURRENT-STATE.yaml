@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 920a6ad98555398b36ce1be746d86710fd5d14fc
+revision_basis: b6364941e9c1882d304ad929ac617d421bcf0fce
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -461,9 +461,28 @@ current_result:
     intersection, while target Poisson rank changes 84 to 82 to 78. Both
     wall-to-A2 gauges are cotangent lifts preserving the complete moment map
     and tautological primitive, and the first wall/wall/A2 Cech defects
-    vanish. Remaining split-A3 two-wall types, other A3 real forms, deeper
-    strata, zero charge and all-strata RSAP remain open.
+    vanish. The remaining split-A3 two-wall target census now closes. The 15
+    unordered root pairs comprise 12 A2 and three A1xA1 pairs. Relative to a
+    fixed (2,2) source form, their four presentations are A2 split/split,
+    A2 same/opposite, A1xA1 split/split and A1xA1 same/same. The naive
+    same-sign SL2/SO2 face sees only zero plus the hyperbolic semisimple cone,
+    misses elliptic and nonzero nilpotent controls, and is excluded as an RSAP
+    wall chart. It does not obstruct the principal factor: every A2 target
+    pair has exactly two alternative total-signature-(2,2) preimages making
+    both roots opposite-sign. Every ordered A3 chain similarly has the two
+    alternating sheets (+,-,+,-) and (-,+,-,+). On the selected alternating
+    sheet all three walls, both adjacent A2 faces and the orthogonal A1xA1 face
+    are already constructed models. The first A3 three-wall origin therefore
+    attaches on S72 x T*(SL4/SO22) x T*R4. Its full map rank is 85 at target
+    Poisson rank 72, saturating the pointwise 98D bound. An exact nine-case
+    real Jordan symmetrizer census proves that the split A3 cotangent moment
+    map is onto every real sl4 Jordan type. The first four-chart face/origin
+    nerve has zero moment and primitive Cech defects. Remaining split-A3
+    nonsemisimple singular transition types, other A3 real forms, deeper
+    ambient strata, zero charge and all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a3-two-wall-census-origin-attachment-2026-08-15.md
+    - lab/process/selected-k77-rsap-a3-two-wall-census-origin-attachment.json
     - explorations/conditional-build/selected-k77-rsap-a3-adjacent-a2-two-wall-attachment-2026-08-15.md
     - lab/process/selected-k77-rsap-a3-adjacent-a2-two-wall-attachment.json
     - explorations/conditional-build/selected-k77-rsap-a3-first-singular-attachment-2026-08-15.md
@@ -621,10 +640,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do the remaining split-A3 two-wall orbit types reduce to the constructed
-  principal split-A2 attachment under the completed block-pivot/Weyl atlas,
-  and which first three-wall or mixed-real-form intersection is the next
-  genuinely new singular model?
+  Do all remaining split-A3 nonsemisimple singular Jordan transitions glue to
+  the now-surjective principal factor with the required rank and primitive
+  cocycles, or does one require a genuinely new local model?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -633,14 +651,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify the remaining split-A3 two-wall orbit types under the completed
-  block-pivot and Weyl atlas. Prove which are conjugate to the constructed
-  (+,-,+) principal split-A2 attachment and isolate any genuinely distinct
-  isotropy or component type. Then attach the first nonredundant three-wall
-  or mixed-real-form intersection with its exact rank and primitive cocycle.
-  Other A3 real forms, deeper singular strata and the rank-at-most-49
-  zero-charge gate remain open, with the 182D cotangent parent still the
-  all-charge fallback.
+  Classify the remaining split-A3 nonsemisimple singular Jordan strata and
+  their centralizer/moving-isotropy ranks, using the exact nine-case (2,2)
+  symmetrizer census rather than semisimple eigenline charts. Construct their
+  transitions to the regular, wall, A2 and A3-origin charts and check the
+  complete moment and tautological-primitive Cech cocycles. Treat the naive
+  same-sign SL2/SO2 face only as a partial hyperbolic source sheet, never as a
+  locally surjective wall chart. Do not enter another A3 real form until this
+  split nonsemisimple transition census closes. Deeper ambient strata and the
+  rank-at-most-49 zero-charge gate remain open, with the 182D cotangent parent
+  still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

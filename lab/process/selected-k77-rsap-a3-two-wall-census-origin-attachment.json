@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "split_a3_two_wall_census_and_first_three_wall_origin_attachment",
+  "created": "2026-08-15",
+  "status": "FULL_SPLIT_A3_TWO_WALL_CENSUS_CLOSED__SAME_SIGN_FACE_PARTIAL_NOT_RSAP__ALTERNATING_THREE_WALL_ORIGIN_ATTACHED_AT_98D_MAP_RANK_85",
+  "layer_0": {
+    "object": "classical symplectic and moment-map singular-atlas census and attachment",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false
+  },
+  "two_wall_census": {
+    "root_pairs_total": 15,
+    "a2_pairs": 12,
+    "a1_squared_pairs": 3,
+    "typed_source_presentations": {
+      "a2_split_split": 4,
+      "a2_same_opposite": 8,
+      "a1_squared_split_split": 2,
+      "a1_squared_same_same": 1
+    },
+    "target_subsystem_orbits": ["A2", "A1xA1"],
+    "a2_target_model": "sl(3,R) plus R5_zero",
+    "a2_rsap_sheet": "signature allocation (+,-,+) or (-,+,-) on the three-coordinate block",
+    "a1_squared_status": "ALL_SPLIT_AND_COMPACT_ORTHOGONAL_FACTORS_ALREADY_BANKED",
+    "remaining_distinct_two_wall_target": "NONE"
+  },
+  "same_sign_face": {
+    "naive_pair": "T*(SL(2,R)/SO(2)) to sl(2,R)^*",
+    "annihilator": "span(H,E+F)",
+    "image": "ZERO_PLUS_HYPERBOLIC_SEMISIMPLE_CONE",
+    "excluded_controls": ["elliptic E-F", "nonzero nilpotent H+E-F"],
+    "local_surjectivity_at_zero": false,
+    "rsap_wall_chart": false,
+    "disposition": "PARTIAL_SOURCE_SHEET_ROUTED_THROUGH_AN_OPPOSITE_SIGN_PREIMAGE"
+  },
+  "opposite_sign_routing": {
+    "a2_statement": "every adjacent root pair on four coordinates admits a total-signature-(2,2) allocation making both roots opposite-sign",
+    "a3_statement": "every ordered A3 simple chain admits exactly two alternating total-signature-(2,2) allocations making all three roots opposite-sign",
+    "selected_a3_signature": [1, -1, 1, -1],
+    "rank_one_faces": ["sl2/so11", "sl2/so11", "sl2/so11"],
+    "adjacent_two_wall_faces": ["principal sl3/so21", "principal sl3/so21"],
+    "orthogonal_two_wall_face": "split A1xA1",
+    "new_degrees_of_freedom": 0
+  },
+  "all_jordan_symmetrizer_census": {
+    "real_dimension": 4,
+    "configurations": [
+      "real 4",
+      "real 3+1",
+      "real 2+2",
+      "real 2+1+1",
+      "real 1+1+1+1",
+      "one complex pair plus real 2",
+      "one complex pair plus real 1+1",
+      "two complex pairs",
+      "one size-two complex Jordan block"
+    ],
+    "configuration_count": 9,
+    "symmetrizer_signature": [2, 2],
+    "identity": "A^T H=H A",
+    "consequence": "THE_SPLIT_A3_COTANGENT_MOMENT_MAP_IS_SURJECTIVE_ON_EVERY_REAL_JORDAN_TYPE"
+  },
+  "three_wall_origin": {
+    "target_model": "sl(4,R)^* times R4_zero",
+    "carrier": "S72 times T*(SL(4,R)/SO(2,2)) times T*R4",
+    "source_dimension": 98,
+    "selected_sheet": "alternating (+,-,+,-)",
+    "factor_map_rank_regular": 15,
+    "factor_map_rank_one_wall": 14,
+    "factor_map_rank_a1_squared": 13,
+    "factor_map_rank_a2": 12,
+    "factor_map_rank_origin": 9,
+    "full_map_rank_regular": 91,
+    "full_map_rank_one_wall": 90,
+    "full_map_rank_a1_squared": 89,
+    "full_map_rank_a2": 88,
+    "full_map_rank_origin": 85,
+    "target_poisson_rank_regular": 84,
+    "target_poisson_rank_one_wall": 82,
+    "target_poisson_rank_a1_squared": 80,
+    "target_poisson_rank_a2": 78,
+    "target_poisson_rank_origin": 72,
+    "origin_fibre_dimension": 13,
+    "pointwise_rank_bound_at_origin": "s<=(98+72)/2=85, saturated",
+    "origin_preimage": "zero cotangent fibre over the complete SL4/SO22 base"
+  },
+  "cocycle": {
+    "charts": ["A2_left", "A2_right", "A1xA1", "A3_origin"],
+    "all_pair_maps": "BASE_TRANSITIONS_WITH_CANONICAL_COTANGENT_LIFTS",
+    "every_triangle": "STRICT_IDENTITY_BY_NORMALIZATION",
+    "moment_cech_defect": "ZERO",
+    "primitive_cech_defect": "ZERO",
+    "contractibility_required": false
+  },
+  "scope": {
+    "all_split_a3_two_wall_target_types": "CLASSIFIED_AND_COVERED",
+    "same_sign_local_face_as_rsap": "EXCLUDED",
+    "first_split_a3_three_wall_origin": "CONSTRUCTED",
+    "remaining_split_a3_nonsemisimple_singular_transition_census": "OPEN",
+    "other_a3_real_forms": "OPEN",
+    "deeper_so77_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "references": [
+    "https://doi.org/10.2140/pjm.1959.9.893",
+    "https://doi.org/10.4310/jdg/1214437787"
+  ],
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a3-two-wall-census-origin-attachment-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a3-two-wall-census-origin-attachment-review.md",
+  "next_gate": "CLASSIFY_AND_GLUE_THE_REMAINING_SPLIT_A3_NONSEMISIMPLE_SINGULAR_JORDAN_TRANSITIONS_BEFORE_ANOTHER_REAL_FORM"
+}
