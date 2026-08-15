@@ -7,6 +7,18 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE `SU(3,1)` SINGULAR TRANSITION ATLAS.** Signature
+> `(3,1)` admits four canonical configurations and nine singular Jordan-
+> incidence families. Twenty-five admissible block-sign controls preserve the
+> exact schedules: five families at target/map `82/90`, one at `80/89`, two at
+> `78/88`, and the origin at `72/85`; every row saturates the `98D` pointwise
+> bound. Eleven exact degenerations connect every configuration. Determinant-
+> one rational normalizations close all six primitive overlaps and all four
+> base plus four cotangent triangles in one four-chart nerve. No new local
+> model is needed. **Next complete the compact `SU(4)/SO(4)` semisimple
+> singular transition atlas.** Cross-real-form incidence remains
+> `TYPE_MISSING`; exact probe `80/80`.
+
 > **2026-08-15 COMPLETE `SU(2,2)` SINGULAR TRANSITION ATLAS.** All nine
 > pseudo-Hermitian canonical configurations contain exact regular controls.
 > Eigenvalue-incidence exhaustion gives eleven singular families: five real

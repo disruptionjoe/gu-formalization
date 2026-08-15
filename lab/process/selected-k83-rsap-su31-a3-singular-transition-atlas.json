@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "su31_a3_complete_canonical_configuration_singular_transition_atlas",
+  "created": "2026-08-15",
+  "status": "ALL_FOUR_SU31_CANONICAL_CONFIGURATIONS_CONNECTED__NINE_SINGULAR_JORDAN_INCIDENCE_FAMILIES_CLASSIFIED__POINTWISE_BOUNDS_SATURATED__COTANGENT_NERVE_CLOSED",
+  "layer_0": {
+    "object": "classical pseudo-Hermitian canonical forms and cotangent moment-map transitions inside SU(3,1)/SO(3,1)",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "cross_real_form_incidence_used": false
+  },
+  "classification": {
+    "canonical_configurations": [
+      "real_3_plus_1",
+      "real_2_plus_1_plus_1",
+      "real_1_plus_1_plus_1_plus_1",
+      "complex_plus_real_1_plus_1"
+    ],
+    "configuration_count": 4,
+    "singular_family_counts": {
+      "real_3_plus_1": 1,
+      "real_2_plus_1_plus_1": 3,
+      "real_1_plus_1_plus_1_plus_1": 4,
+      "complex_plus_real_1_plus_1": 1
+    },
+    "singular_jordan_incidence_family_count": 9,
+    "sign_characteristic_controls_checked": 25,
+    "family_count_is_not_claimed_as_real_adjoint_orbit_count": true,
+    "sign_characteristic_disposition": "ALL_ADMISSIBLE_BLOCK_SIGN_CONTROLS_HAVE_THE_SAME_FAMILY_RANK_SCHEDULE_AND_LIE_IN_SIGNATURE_3_1_FIBRES",
+    "exhaustion": "COMPLETE_AT_CANONICAL_JORDAN_INCIDENCE_AND_SIGN_CONTROL_GRADE"
+  },
+  "rank_census": {
+    "J3+J1_same": [5, 4, 14, 82, 90],
+    "J2+J1+J1_same": [9, 6, 12, 78, 88],
+    "J2+J1_same_plus_J1_distinct": [5, 4, 14, 82, 90],
+    "J2_plus_repeated_semisimple_pair": [5, 4, 14, 82, 90],
+    "semisimple_2+1+1": [5, 4, 14, 82, 90],
+    "semisimple_2+2": [7, 5, 13, 80, 89],
+    "semisimple_3+1": [9, 6, 12, 78, 88],
+    "origin_4": [15, 9, 9, 72, 85],
+    "complex_pair_plus_repeated_real_pair": [5, 4, 14, 82, 90]
+  },
+  "transitions": {
+    "carrier": "S72 times T*(SU(3,1)/SO(3,1)) times T*R4",
+    "source_dimension": 98,
+    "regular_configuration_charts": 4,
+    "pairwise_chart_transitions": 6,
+    "chart_triangles": 4,
+    "regular_approach": "A+tD_IN_mH__GENERICALLY_REGULAR_BY_A_NONZERO_EXACT_ORBIT_MINOR",
+    "linear_degenerations_checked": 11,
+    "normalization": "EXPLICIT_RATIONAL_DETERMINANT_ONE_CONGRUENCES_SEND_ALL_FOUR_CONFIGURATION_FORMS_TO_DIAG(+,+,+,-)",
+    "moving_tangent_transition_dimension": 9,
+    "cotangent_transition": "INVERSE_TRANSPOSE_OF_THE_MOVING_TANGENT_CHANGE",
+    "configuration_closure": {
+      "real_3_plus_1": ["J3+J1_same"],
+      "real_2_plus_1_plus_1": ["J2+J1+J1_same", "J2+J1_same_plus_J1_distinct", "J2_plus_repeated_semisimple_pair"],
+      "real_1_plus_1_plus_1_plus_1": ["semisimple_2+1+1", "semisimple_2+2", "semisimple_3+1", "origin_4"],
+      "complex_plus_real_1_plus_1": ["semisimple_2+1+1", "complex_pair_plus_repeated_real_pair", "semisimple_2+2"]
+    },
+    "every_chart_triangle": "STRICT_IDENTITY_BY_COMMON_NORMALIZATION",
+    "moment_cech_defect": "ZERO_BY_ONE_GLOBAL_SU31_COTANGENT_MOMENT_MAP",
+    "primitive_cech_defect": "ZERO_BY_CANONICAL_COTANGENT_LIFTS",
+    "new_degrees_of_freedom": 0
+  },
+  "scope": {
+    "su31_singular_transition_atlas": "CLOSED_AT_LOCAL_CANONICAL_CONFIGURATION_AND_COTANGENT_GRADE",
+    "new_su31_local_model": "NOT_REQUIRED",
+    "cross_real_form_atlas_edge": "TYPE_MISSING_NOT_REOPENED",
+    "compact_su4_singular_transition_atlas": "OPEN_NEXT",
+    "quaternionic_singular_transition_atlas": "OPEN",
+    "deeper_so77_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k83-rsap-su31-a3-singular-transition-atlas-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k83_rsap_su31_a3_singular_transition_atlas_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k83-rsap-su31-a3-singular-transition-atlas-review.md",
+  "next_gate": "COMPLETE_THE_COMPACT_SU4_SO4_SEMISIMPLE_SINGULAR_TRANSITION_ATLAS_WITHOUT_REOPENING_CROSS_REAL_FORM_INCIDENCE"
+}

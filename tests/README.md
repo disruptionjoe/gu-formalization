@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k83_rsap_su31_a3_singular_transition_atlas_probe.py`
+  exhausts all four `SU(3,1)` pseudo-Hermitian configurations, nine singular
+  Jordan-incidence families, twenty-five admissible sign controls and eleven
+  exact degeneration paths. It verifies every pointwise rank bound and closes
+  the six-pair/four-triangle cotangent nerve without using a cross-real-form
+  edge. It passes `80/80`.
+
 - `channel-swings/selected_k82_rsap_su22_a3_singular_transition_atlas_probe.py`
   exhausts all nine `SU(2,2)` pseudo-Hermitian configurations, eleven singular
   Jordan-incidence families, fifty admissible sign controls and seventeen
