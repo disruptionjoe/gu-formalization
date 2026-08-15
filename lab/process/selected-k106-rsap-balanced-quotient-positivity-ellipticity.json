@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260815-232000-gu-k106-balanced-quotient-positivity",
+  "status": "CONDITIONAL_BALANCED_QUOTIENT_CLASSICAL_BFV_RETAINED__CANONICAL_INVARIANT_POSITIVE_ELLIPTIC_KINETIC_QUANTIZATION_OBSTRUCTED",
+  "target_claim": "CONDITIONAL_BALANCED_RSAP_HAS_CANONICAL_INVARIANT_POSITIVE_ELLIPTIC_KINETIC_QUANTIZATION",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "conditional_inputs": {
+    "balanced_seed_R0": "IMPORTED_REVERSE_SCAFFOLD_DATUM",
+    "zero_level_boundary_equation": "IMPORTED_K99_STYLE_CONDITIONAL",
+    "right_H_bal_gauge_declaration": "IMPORTED_CONDITIONAL",
+    "current_action_owned": false
+  },
+  "isotropy": {
+    "group": "Spin_0(7,7)",
+    "stabilizer": "Spin(3,4)_times_Spin(4,3)",
+    "module": "R_3_4_tensor_R_4_3",
+    "dimension": 49,
+    "factor_commutant_ranks_mod_1000003": [48, 48],
+    "factor_commutant_dimensions": [1, 1],
+    "product_commutant_dimension": 1,
+    "invariant_symmetric_form_dimension": 1,
+    "invariant_form_signature_up_to_sign": [24, 25],
+    "positive_definite_invariant_form_exists": false
+  },
+  "hamiltonian": {
+    "canonical_invariant_quadratic_form": "UNBOUNDED_ABOVE_AND_BELOW",
+    "positive_ray_energy_at_scale_17": 289,
+    "negative_ray_energy_at_scale_17": -289,
+    "semibounded": false
+  },
+  "principal_symbol": {
+    "signature_up_to_sign": [24, 25],
+    "nonzero_null_covector_constructed": true,
+    "elliptic": false,
+    "plane_wave_symbols_have_both_signs": true,
+    "canonical_invariant_scalar_friedrichs_route": "UNAVAILABLE"
+  },
+  "bfv_boundary": {
+    "classical_98d_symplectic_realization": "RETAINED_CONDITIONALLY",
+    "regular_irreducible_42_constraint_classical_bfv": "RETAINED_CONDITIONALLY",
+    "classical_master_charge_closure": "RETAINED",
+    "positive_hilbert_space": "NOT_DERIVED",
+    "quantum_physical_cohomology": "NOT_DERIVED",
+    "particle_interpretation": "NOT_DERIVED"
+  },
+  "reopeners": [
+    "ACTION_OWNED_NONINVARIANT_POSITIVE_SECTOR",
+    "KREIN_OR_CONSTRAINED_QUANTIZATION_WITH_PROVED_PHYSICAL_POSITIVITY",
+    "ACTION_OWNED_CONTOUR_OR_WICK_ROTATION",
+    "BOUNDARY_DOMAIN_WITH_FULL_MOVING_R_NOETHER_COMPATIBILITY"
+  ],
+  "claim_ceiling": {
+    "binds": "canonical G-invariant local quadratic kinetic form and scalar second-order principal-symbol quantization on the conditional balanced quotient",
+    "does_not_bind": "all non-invariant, Krein, constrained, contour, Wick-rotated, boundary-defined, interacting or nonlocal quantizations",
+    "source_action_selects_any_reopener": false
+  },
+  "accounting": {
+    "new_continuous_parameters": 0,
+    "new_function_slots": 0,
+    "new_discrete_forks": 0,
+    "new_quotients": 0,
+    "ledger_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false
+  },
+  "next_gate": "DO_NOT_CALL_CLASSICAL_BFV_PHYSICAL__REOPEN_POSITIVITY_ONLY_WITH_AN_ACTION_OWNED_NONINVARIANT_SECTOR_KREIN_CONSTRAINT_CONTOUR_WICK_ROTATION_OR_BOUNDARY_DOMAIN_AND_PROVE_MOVING_R_NOETHER_COMPATIBILITY"
+}

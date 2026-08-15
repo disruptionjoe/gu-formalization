@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5f9e3a1d7a475694cbde8bffaca4b00f2839347b
+revision_basis: 5b57e9fcc79b315044f7f9b52673ab4dafe96973
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -886,7 +886,22 @@ current_result:
     parks repeated owner searches over those classes but does not exhaust new
     stationary backgrounds, coupled fermion saddles, higher actions or
     unreleased source.
+    K106 now closes the first conditional analytic positivity gate. On the
+    balanced base G/H_bal, the isotropy module is
+    R^(3,4) tensor R^(4,3). Exact factor-commutant ranks 48/49 make its
+    invariant symmetric form unique up to scale, and the tensor signature is
+    24 positive plus 25 negative directions, up to overall sign. Hence no
+    invariant positive kinetic form exists. Its quadratic Hamiltonian is
+    unbounded in both signs and the scalar second-order principal symbol has a
+    nonempty null cone, so it is nonelliptic and not semibounded. The exact
+    98D classical symplectic realization and minimal classical BFV charge
+    survive conditionally; positive Hilbert space, quantum cohomology and
+    physical interpretation do not follow. Non-invariant, Krein,
+    constrained, contour/Wick and boundary-domain routes remain open only
+    with a new action/domain owner and moving-R Noether compatibility.
   evidence:
+    - explorations/conditional-build/selected-k106-rsap-balanced-quotient-positivity-ellipticity-2026-08-15.md
+    - lab/process/selected-k106-rsap-balanced-quotient-positivity-ellipticity.json
     - explorations/conditional-build/selected-k105-rsap-curvature-sign-owner-qualification-2026-08-15.md
     - lab/process/selected-k105-rsap-curvature-sign-owner-qualification.json
     - explorations/conditional-build/selected-k104-rsap-source-boundary-variational-owner-census-2026-08-15.md
@@ -1102,11 +1117,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can a stationary nonhomogeneous curvature or connection concomitant already
-  owned by the action construct a smooth gapped balanced 7|7 involution at the
-  zero-charge stratum, without a fitted spectral cut, and can its boundary
-  Euler/Noether law own both zero h_bal flux and the right-H_bal gauge
-  disposition required for the 98D reverse RSAP?
+  Can the conditional balanced reverse RSAP acquire a positive physical
+  quantum domain through an action-owned non-invariant sector, Krein or
+  constrained quotient, contour/Wick rotation, or boundary condition that is
+  compatible with the moving-R Euler/Noether law, while a genuinely new
+  action-owned stationary background remains the separate selector reopener?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1161,15 +1176,25 @@ next_condition: >-
   Reopen only with a genuinely new stationary background such as an explicit
   source-global rival Zorro reconstruction or coupled nonzero-fermion saddle,
   or with a new action term. Otherwise keep R_0 and the boundary multiplier/
-  gauge law explicit as Variancer reverse conditionals. Keep the 182D charged and 98D
-  reverse-RSAP horns distinct. Do not repeat finite BFV, multiplier,
+  gauge law explicit as Variancer reverse conditionals. K106 tests the first
+  analytic continuation of that conditional horn. The balanced isotropy
+  module R^(3,4) tensor R^(4,3) has a unique invariant symmetric form up to
+  scale, with signature 24|25. The resulting invariant fibre Hamiltonian is
+  unbounded above and below, and the scalar second-order principal symbol is
+  nonelliptic with a nonempty null cone. Thus classical 98D symplectic and
+  finite BFV closure survive conditionally, but no canonical invariant
+  positive kinetic form, semibounded scalar operator, positive Hilbert space
+  or physical cohomology follows. Reopen positivity only with an action-owned
+  non-invariant positive sector, a Krein/constrained physical quotient, an
+  owned contour or Wick rotation, or a boundary domain compatible with the
+  moving-R Euler/Noether law. Keep the 182D charged and 98D reverse-RSAP horns
+  distinct. Do not repeat finite BFV, multiplier,
   boundary-route, released-source or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal
   reduction to physical selection, or infer quantization, particle content or
-  phenomenology. A stationary nonhomogeneous curvature selector remains an
-  open action-owned rival and must pass without a fitted spectral cut. Only
-  after the variational multiplier layer passes should work enter analytic
-  BFV domain and positivity. The
+  phenomenology. A genuinely new stationary nonhomogeneous curvature selector
+  remains an open action-owned rival and must pass without a fitted spectral
+  cut; it does not erase K106's separate conditional positivity burden. The
   one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
   target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
   constructed. Reopen an ambient successor only with an explicit source/action-
