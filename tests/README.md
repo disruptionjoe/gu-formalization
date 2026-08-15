@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py`
+  builds the exact `91D` split-`D7` matrix algebra, its `42D` positive-root
+  nilradical and `49D` Borel, proving `n^perp=b`. It certifies the canonical
+  `98D` `T*(G/N)` moment map has rank `49` at zero and `91` at a split-regular
+  point, then excludes the action-owned `(5,2)` Cartan and every zero
+  neighborhood from its image `Ad(G)b`. It passes `48/48`.
+
 - `channel-swings/selected_k86_rsap_d7_first_deeper_stratum_ownership_gate_probe.py`
   exhausts all `72` roots outside a fixed abstract `A3` in `D7`, proving the
   exact `12/48/12` census of `A3+A1/A4/D4` extensions and their target ranks

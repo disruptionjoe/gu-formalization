@@ -41,6 +41,12 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py` constructs
+  the split `D7` maximal-unipotent cotangent horn exactly. It checks Lie
+  closure, Killing orthogonality, the achieved zero/split-regular map ranks
+  `49/91`, and the mixed-Cartan spectral obstruction proving the image has no
+  full neighborhood of zero. It passes `48/48` with Python 3.
+
 - `selected_k86_rsap_d7_first_deeper_stratum_ownership_gate_probe.py`
   computes every one-root rank-four extension of the fixed abstract `A3`
   inside `D7`, deriving the `A3+A1/A4/D4` multiplicities, centralizers and

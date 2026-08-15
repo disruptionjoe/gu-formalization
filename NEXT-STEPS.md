@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 `98D` ZERO-CHARGE MAXIMAL-UNIPOTENT HORN.** For
+> `G=Spin_0(7,7)`, the maximal split unipotent `N` has dimension `42`, so
+> `T*(G/N)` is a smooth `98D` Hamiltonian carrier. Its canonical moment map
+> achieves rank `49` at zero and rank `91` over a split-regular locus: the
+> zero ceiling is nonlinearly sharp. Exact trace pairing gives
+> `n^perp=b=a+n`, hence image `Ad(G)b`. Every such charge is real-
+> triangularizable, so the action-owned regular `(split 5, compact 2)` Cartan
+> and all its nonzero rescalings are excluded arbitrarily close to zero. The
+> horn is constructed on its image but fails as a zero-neighborhood RSAP
+> chart. **Next test the selected `(5,2)` real-polarization condition: construct
+> or obstruct a `42D` Lie subalgebra inside its Killing orthogonal that can
+> serve as a cotangent stabilizer.** Nonhomogeneous `98D` models and global
+> RSAP remain open; exact probe `48/48`.
+
 > **2026-08-15 `D7` FIRST-DEEPER-STRATUM OWNERSHIP GATE.** Fixing the
 > completed abstract `A3`, the other `72` `D7` roots give exactly `12`
 > `A3+A1`, `48` `A4`, and `12` `D4` one-root extensions. Their centralizer

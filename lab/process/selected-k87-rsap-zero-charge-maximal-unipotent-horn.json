@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_zero_charge_maximal_unipotent_cotangent_horn",
+  "created": "2026-08-15",
+  "status": "SHARP_98D_ZERO_CHARGE_HORN_CONSTRUCTED__RANK49_ACHIEVED__SPLIT_REGULAR_SUBMERSION__MIXED_CARTAN_AND_ZERO_NEIGHBORHOOD_COVERAGE_FAIL",
+  "layer_0": {
+    "object": "classical cotangent-lift Hamiltonian moment map for a maximal split unipotent homogeneous space",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "ordinary_higgs_model_relevant": false,
+    "ordinary_family_index_relevant": false,
+    "ordinary_chirality_target_relevant": false
+  },
+  "lie_data": {
+    "group": "Spin_0(7,7)",
+    "lie_algebra_dimension": 91,
+    "positive_d7_roots": 42,
+    "N": "MAXIMAL_SPLIT_UNIPOTENT_SUBGROUP",
+    "N_dimension": 42,
+    "G_over_N_dimension": 49,
+    "n_killing_orthogonal": "b=a+n",
+    "b_dimension": 49
+  },
+  "construction": {
+    "carrier": "T*(Spin_0(7,7)/N)",
+    "carrier_dimension": 98,
+    "symplectic_form": "CANONICAL_COTANGENT_FORM",
+    "moment_map": "J(q,p)(xi)=p(xi_G_over_N(q))",
+    "moment_map_equivariant": true,
+    "moment_map_poisson": true,
+    "zero_charge_point": "ZERO_COVECTOR_OVER_eN",
+    "zero_charge_stabilizer_dimension": 42,
+    "zero_charge_map_rank": 49,
+    "zero_charge_target_poisson_rank": 0,
+    "zero_charge_status": "ACHIEVED_AND_BOUND_SATURATING",
+    "split_regular_point": "REGULAR_H_IN_a_SUBSET_b",
+    "split_regular_stabilizer_dimension": 0,
+    "split_regular_map_rank": 91,
+    "split_regular_target_poisson_rank": 84
+  },
+  "coverage": {
+    "moment_image": "Ad(G)b",
+    "split_regular_charges": "CONTAINS_OPEN_SUBMERSIVE_LOCUS",
+    "split_triangularizable_singular_charges": "PARTIALLY_INCLUDED",
+    "all_elements_of_b_have_real_vector_eigenvalues": true,
+    "action_owned_cartan_5_2": "EXCLUDED",
+    "mixed_or_elliptic_regular_charges_arbitrarily_close_to_zero": "EXCLUDED",
+    "full_target_neighborhood_of_zero": false,
+    "surjective_to_so77_dual": false
+  },
+  "disposition": {
+    "pointwise_zero_rank_ceiling": "NONLINEARLY_SHARP",
+    "maximal_unipotent_horn": "CONSTRUCTED_ON_ITS_IMAGE",
+    "rsap_zero_neighborhood_candidate": "KILLED_BY_REAL_SPECTRAL_COVERAGE",
+    "general_zero_neighborhood_obstruction": "NOT_PROVED",
+    "next_discriminator": "CLASSIFY_OR_CONSTRUCT_ALTERNATIVE_42D_STABILIZER_OR_NONHOMOGENEOUS_98D_ZERO_HORNS_THAT_MEET_MIXED_CARTAN_TYPES"
+  },
+  "scope": {
+    "rsap_zero_neighborhood_chart": "FAILED_FOR_THIS_CANDIDATE",
+    "general_98d_zero_neighborhood_chart": "OPEN",
+    "global_all_strata_rsap": "OPEN",
+    "ambient_a3_successor_used": false,
+    "cross_real_form_incidence": "TYPE_MISSING_NOT_REOPENED",
+    "action_owned_physical_carrier": false,
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k87-rsap-zero-charge-maximal-unipotent-horn-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k87-rsap-zero-charge-maximal-unipotent-horn-review.md",
+  "next_gate": "TEST_ALTERNATIVE_42D_STABILIZER_COTANGENT_HORNS_AND_NONHOMOGENEOUS_98D_ZERO_MODELS_AGAINST_THE_ACTION_OWNED_SPLIT5_COMPACT2_CARTAN"
+}

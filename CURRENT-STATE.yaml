@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6292f9de126b8bb8da6bdd84bcd437927598991f
+revision_basis: a64642e9ae02058b979d2db01c5d7d96cf40e102
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -630,7 +630,27 @@ current_result:
     The next independent local gate is zero charge, where a 98D map must have
     differential rank at most 49; global gluing remains blocked by the missing
     ambient successor.
+    The first zero-charge construction now proves that ceiling is nonlinearly
+    sharp. For G=Spin_0(7,7) and a 42-dimensional maximal split unipotent N,
+    G/N is 49-dimensional and T*(G/N) is a smooth 98-dimensional symplectic
+    carrier. Its canonical cotangent moment map reaches zero at the zero
+    covector with stabilizer N and differential rank exactly 49. At a regular
+    split-Cartan covector the N stabilizer is zero and the same map has rank
+    91 over target Poisson rank 84. Exact D7 matrices identify n-perp with the
+    49-dimensional split Borel b=a+n, so the complete moment image is Ad(G)b.
+    This kills the horn as a zero-neighborhood RSAP chart: all elements in a
+    real split Borel have real vector eigenvalues, while the action-owned
+    regular Cartan has type split five plus compact two. That mixed charge and
+    every nonzero rescaling of it lie outside Ad(G)b and accumulate at zero.
+    Thus the horn contains zero but no full target neighborhood of zero. The
+    rank condition is achievable; real-Cartan coverage is the obstruction.
+    General 98D zero-neighborhood existence remains open. The next gate is a
+    real-polarization test at the selected (5,2) Cartan: construct or obstruct
+    a 42-dimensional Lie subalgebra of its Killing orthogonal that can serve
+    as a cotangent stabilizer, while preserving nonhomogeneous models.
   evidence:
+    - explorations/conditional-build/selected-k87-rsap-zero-charge-maximal-unipotent-horn-2026-08-15.md
+    - lab/process/selected-k87-rsap-zero-charge-maximal-unipotent-horn.json
     - explorations/conditional-build/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate-2026-08-15.md
     - lab/process/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate.json
     - explorations/conditional-build/selected-k85-rsap-sustar4-a3-singular-transition-atlas-2026-08-15.md
@@ -808,10 +828,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can a smooth 98-dimensional local symplectic realization reach the zero
-  coadjoint value with differential rank at most 49, and what construction or
-  obstruction controls that rank loss independently of the still-type-missing
-  ambient A3 successor?
+  Does the Killing orthogonal of the action-owned regular (split 5, compact 2)
+  Cartan charge contain a 42-dimensional Lie subalgebra whose homogeneous
+  cotangent horn reaches both that charge and zero, or are all such 98D real-
+  polarization horns obstructed?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -820,10 +840,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Attempt the zero-charge gate as an independent local construction or
-  obstruction. At target Poisson rank zero, enforce the exact 98D pointwise
-  ceiling rank(dJ)<=49 and distinguish a ceiling from an achieved moment-map
-  rank. Do not claim global gluing across the missing ambient successor. The
+  Test the selected (5,2) Cartan real-polarization condition. For a homogeneous
+  98D cotangent horn T*(G/H), require dim(H)=42, h contained in the Killing
+  orthogonal of the selected charge, and h intersecting its seven-dimensional
+  centralizer trivially; verify Lie closure rather than choosing a Lagrangian
+  subspace only. Construct such an h or give a scoped obstruction, and keep
+  nonhomogeneous 98D Hamiltonian models open unless separately controlled.
+  The maximal-unipotent horn T*(G/N) already achieves rank(dJ)=49 at zero and
+  rank 91 over the split-regular locus, proving the pointwise ceiling sharp,
+  but its image Ad(G)b excludes mixed/elliptic charges arbitrarily close to
+  zero and therefore fails zero-neighborhood coverage. Do not claim global
+  gluing across the missing ambient successor. The
   one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
   target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
   constructed. Reopen an ambient successor only with an explicit source/action-
