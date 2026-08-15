@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "i1b_partial_legendre_gauss_owner_discriminator",
+  "created": "2026-08-15",
+  "status": "CONDITIONAL_NONNULL_I1B_PARTIAL_LEGENDRE_EXACT__VARPI_NORMAL_OWNS_DIAGONAL_GAUSS__B_EPSILON_NORMAL_IS_VELOCITY__RIGHT_H_ZERO_NOT_RECOVERED",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "RELEASED_BOSONIC_I1B__DISPLAYED_ZERO_ORDER_MOVING_SHIAB__FIXED_LOCAL_NONNULL_COLLAR__CONDITIONAL_BALANCED_R0",
+  "target_claim": {
+    "id": "K101_NEXT_GATE__SOURCE_I1B_RECOVERS_STANDALONE_J_R_H_BAL_ZERO_FROM_PROJECTED_B_EPSILON_NORMAL",
+    "verdict": "NO_AT_LOCAL_FORMAL_I1B_GRADE__ADJACENT_FULL_G_DIAGONAL_GAUSS_OWNER_EXACT"
+  },
+  "layer0": {
+    "collar_normal": "ONE_NONNULL_CODIMENSION_ONE_NORMAL_IN_Y14__CONDITIONAL",
+    "observation_normal": "TEN_DIMENSIONAL_NORMAL_BUNDLE_OF_X4_IN_Y14__DISTINCT",
+    "B_epsilon_normal": "DEPENDENT_EPSILON_VELOCITY_PLUS_ROTATED_REFERENCE",
+    "varpi_normal": "INDEPENDENT_SOURCE_CONNECTION_NORMAL_COMPONENT",
+    "T_normal": "VARPI_NORMAL_MINUS_B_EPSILON_NORMAL",
+    "source_gauss": "DIAGONAL_FULL_G_BULK_PLUS_EPSILON_CONSTRAINT",
+    "reverse_rsap": "RIGHT_H_BAL_ENDPOINT_MOMENT_ZERO__DISTINCT"
+  },
+  "source_normal_form": {
+    "affine_curvature_identity": "F_varpi=F_B+D_B_T+q_T_T",
+    "i1b_transgression": "F_B+one_half_D_B_T+one_third_q_T_T",
+    "primitive_form": "one_half_times_parenthesis_F_varpi_plus_F_B_parenthesis_minus_one_sixth_q_T_T",
+    "B_epsilon_curvature": "Ad_epsilon_inverse_F_Gamma",
+    "epsilon_normal_velocity_in_F_B": false,
+    "epsilon_normal_velocity_in_T_normal": true
+  },
+  "partial_legendre": {
+    "variables": "T_n=varpi_n-b0_n-v__X_i=partial_n_varpi_i-D_i_varpi_n",
+    "epsilon_momentum": "lambda=partial_ell_partial_v=-partial_ell_partial_T_n",
+    "tangential_varpi_momentum": "Pi_i=partial_ell_partial_X_i",
+    "varpi_normal_velocity_present": false,
+    "varpi_normal_canonical_role": "AFFINE_MULTIPLIER",
+    "full_constraint": "Div_varpi_Pi-lambda=0",
+    "requires_invertible_legendre_map": false
+  },
+  "balanced_projection": {
+    "external_inputs": ["BALANCED_R0", "RIGHT_H_BAL_GAUGE_DECLARATION"],
+    "h_constraint": "partial_i_e_i+[a_i,e_i]+[phi_i,pi_i]-lambda_h=0",
+    "mandatory_p_current": "[phi_i,pi_i]",
+    "implies_lambda_h_zero": false,
+    "nonzero_lambda_h_solutions_exist": true,
+    "standalone_J_R_H_bal_zero_owned": false
+  },
+  "preboundary_composition": {
+    "epsilon_potential": "Theta_epsilon=<lambda,epsilon_inverse_delta_epsilon>",
+    "lambda": "i_n_E_B_minus_E_T",
+    "unrestricted_endpoint_transformations": "CHARGED",
+    "compact_support_transformations": "BASIC",
+    "zero_h_flux_boundary_condition": "NOT_SOURCE_SELECTED"
+  },
+  "source_return": "SOURCE_CONFIRMS_EPSILON_VARPI_T_CHAIN_AND_I1B_TRANSGRESSION__REPOSITORY_COMPOSES_PARTIAL_LEGENDRE_AND_PREBOUNDARY__SOURCE_SILENT_COLLAR_BALANCED_REDUCTION_ZERO_H_FLUX_AND_PHYSICAL_POLARIZATION",
+  "claim_ceiling": {
+    "local_formal_partial_legendre": "EXACT_CONDITIONAL",
+    "source_selected_physical_time": "TYPE_MISSING",
+    "global_ultrahyperbolic_hamiltonian_domain": "OPEN",
+    "full_i2b_and_fermion_extension": "OPEN",
+    "right_h_bal_zero_selection": "NOT_OWNED_BY_I1B",
+    "unreleased_action_term": "OPEN"
+  },
+  "disposition": {
+    "next_gate": "BOUNDARY_OWNER_AND_POLARIZATION_CENSUS__ZERO_H_BULK_FLUX_VERSUS_EDGE_COMBINED_MOMENT_VERSUS_EXPLICIT_K99_MULTIPLIER__COMPUTE_CHARACTERISTIC_DISTRIBUTIONS_AND_DIMENSIONS",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "hamiltonian_type": "lab/process/selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate.json",
+    "minimal_multiplier": "lab/process/selected-k99-rsap-balanced-multiplier-owner-exhaustion.json",
+    "preboundary": "lab/process/selected-k77-action-noether-preboundary.json",
+    "epsilon_parent": "lab/process/selected-k77-source-epsilon-cotangent-parent.json",
+    "transgression": "lab/process/pw2b-source-composed-action-order-registry.json",
+    "conormal_symbol": "lab/process/k77-wave2-i1b-conormal-symbol-weld-domain.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k102-rsap-i1b-partial-legendre-gauss-owner-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k102_rsap_i1b_partial_legendre_gauss_owner_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k102-rsap-i1b-partial-legendre-gauss-owner-review.md"
+}

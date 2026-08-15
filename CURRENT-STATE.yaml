@@ -829,7 +829,22 @@ current_result:
     one-time collar nor the projected Legendre map or bridge from bulk Gauss
     flux to the endpoint J_R,H_bal moment map, so multiplier ownership is
     TYPE-MISSING at Hamiltonian grade rather than proved or killed.
+    K102 composes the actual I1B transgression with a conditional local non-
+    null collar and resolves that type. B(epsilon)_n equals a rotated
+    reference component plus epsilon^-1 partial_n epsilon, so it is the
+    epsilon normal velocity and cannot be the independent multiplier. The
+    independent source connection component varpi_n becomes affine under the
+    partial Legendre transform and imposes the diagonal full-G constraint
+    Div_varpi(Pi)-lambda=0, with lambda=i_n(E_B-E_T) the already action-owned
+    epsilon preboundary momentum. Conditional balanced projection gives
+    partial e+[a,e]+[phi,pi]-lambda_h=0. It retains the mandatory p-sector
+    current but permits nonzero lambda_h equal to bulk covariant flux; it does
+    not recover the standalone J_R,H_bal=lambda_h=0 reduction. A zero h flux
+    boundary condition, edge combined moment map or explicit K99 multiplier
+    is still required, and the source selects none of them.
   evidence:
+    - explorations/conditional-build/selected-k102-rsap-i1b-partial-legendre-gauss-owner-2026-08-15.md
+    - lab/process/selected-k102-rsap-i1b-partial-legendre-gauss-owner.json
     - explorations/conditional-build/selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate-2026-08-15.md
     - lab/process/selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate.json
     - explorations/conditional-build/selected-k100-rsap-balanced-order-parameter-owner-census-2026-08-15.md
@@ -1037,11 +1052,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Conditional on the balanced real-orbit seed R_0 and exact 42+49 dressed-
-  connection projection, can one derive a source-compatible non-null collar
-  and Legendre map whose normal-velocity kernel yields the full h_bal Gauss
-  coupling, then identify its boundary flux coefficientwise with J_R,H_bal
-  and select the zero level over the charged-boundary horn?
+  Given the exact source diagonal constraint
+  Div_varpi(Pi)_h-lambda_h=0, does any current action-owned boundary condition,
+  edge completion or polarization isolate lambda_h=J_R,H_bal=0 with the
+  correct 42D characteristic distribution and 98D reduced phase space, while
+  preserving the distinct live charged-boundary horn?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1069,12 +1084,16 @@ next_condition: >-
   Hessian is not necessary for a normal connection multiplier; use the
   normal-velocity Legendre kernel and derive the canonical Gauss coupling.
   The source-owned non-null collar, projected Legendre map and bulk-flux-to-
-  endpoint-J_R bridge remain TYPE-MISSING. Next derive those objects from I1B
-  without importing a one-time standard gauge model. The h_bal Gauss covector
-  must include the p-sector current [phi,pi], then match J_R,H_bal
-  coefficientwise and select its zero level over the charged horn. A full-
-  algebra or physical-split Gauss law is the wrong object. Do not repeat
-  finite BFV, multiplier or orbit
+  endpoint-J_R bridge were the next requested objects. K102 now closes their
+  local formal owner typing without importing a standard action:
+  B(epsilon)_n is the epsilon velocity, while independent varpi_n imposes
+  Div_varpi(Pi)-lambda=0. Its h_bal projection contains [phi,pi] but equates
+  lambda_h to bulk flux rather than setting it to zero. The full-algebra Gauss
+  law is therefore a correct adjacent source object but the wrong replacement
+  for the reverse RSAP reduction. Next census the three remaining boundary
+  routes—zero h bulk flux, edge combined moment, and K99's explicit
+  multiplier—computing characteristic ranks and reduced dimensions while
+  keeping the charged horn distinct. Do not repeat finite BFV, multiplier or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal
   reduction to physical selection, or infer quantization, particle content or
   phenomenology. A stationary nonhomogeneous curvature selector remains an

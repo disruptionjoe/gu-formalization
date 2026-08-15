@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K102 SOURCE-NATIVE PARTIAL LEGENDRE OWNER CLOSED; DIAGONAL
+> GAUSS IS NOT THE RSAP ZERO LEVEL.** On a conditional non-null collar,
+> `B(epsilon)_n=b_n^0+epsilon^-1 partial_n epsilon` is an epsilon velocity,
+> not an independent multiplier. The independent `varpi_n` is affine after
+> partial Legendre transformation and imposes the full source-gauge equation
+> `Div_varpi(Pi)-lambda=0`, where the action preboundary momentum is
+> `lambda=i_n(E_B-E_T)`. Balanced projection gives
+> `partial e+[a,e]+[phi,pi]-lambda_h=0`; it allows nonzero `lambda_h` equal to
+> bulk flux and does not recover `J_R,H_bal=0`. **Next run a boundary-owner
+> and polarization census comparing zero `h_bal` bulk flux, an edge combined
+> moment map, and K99's explicit multiplier. Compute each characteristic
+> distribution and dimension without erasing the live charged boundary horn.**
+> Exact probe `23/23`.
+
 > **2026-08-15 K101 CONDITIONAL CONNECTION SPLIT CLOSED; HAMILTONIAN OWNER IS
 > TYPE-MISSING.** Given balanced `R_0`, conjugation defines exact projectors
 > `so(7,7)=h_bal+p_bal` of dimensions `42+49`. The dressed connection's `h`

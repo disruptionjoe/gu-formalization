@@ -203,3 +203,11 @@ not an action-owned multiplier. Reproduce with:
 ```bash
 python3 tests/channel-swings/selected_k101_rsap_projected_dressed_connection_hamiltonian_type_gate_probe.py
 ```
+
+> **Successor correction (K102).** The conditional local `I1B` partial
+> Legendre split is now exact. `B(epsilon)_n` contains the epsilon normal
+> velocity and is not the multiplier. The independent `varpi_n` is affine in
+> the canonical action, but it imposes the diagonal full-`G` equation
+> `Div(Pi)-lambda=0`. Its balanced projection equates `lambda_h` to bulk flux;
+> it does not impose the standalone `J_R,H_bal=lambda_h=0` level. The next gate
+> is boundary ownership/polarization, not another collar Hessian.
