@@ -16,17 +16,16 @@ MARKER = "GU-COMPARATOR-ROUTING"
 
 def discovered_artifacts() -> set[str]:
     result: set[str] = set()
+    # Scope is DERIVED FROM CONVENTION, not enumerated.  The previous token
+    # list named seven namespaces and rotted as soon as new ones were created:
+    # on 2026-08-15 it missed coset-versus-gauge, cosmological-constant-sign,
+    # four-d-mode-decomposition, ledger-advancement and metric-cone-boundedness
+    # -- 17 of 34 files, half the tree, and 11 of those already carried the
+    # routing notice, so the registry and its own audit had drifted apart.
+    # Every joe-directed artifact is now in scope automatically.
     joe_root = ROOT / "lab/active-research/joe-directed"
-    joe_tokens = (
-        "high-energy-two-plus-one", "anomaly-cancellation",
-        "majorana-126-neutrino", "photon-extra-vector-spectrum",
-        "massless-vector-cosmology", "coupling-unification",
-        "baryon-number-and-proton-decay",
-    )
     for path in joe_root.rglob("*.md"):
-        relative = path.relative_to(ROOT).as_posix()
-        if any(token in relative for token in joe_tokens):
-            result.add(relative)
+        result.add(path.relative_to(ROOT).as_posix())
     for path in (ROOT / "explorations/conditional-build").glob("*.md"):
         if any(token in path.name.lower() for token in ("family-index", "higgs", "majorana")):
             result.add(path.relative_to(ROOT).as_posix())
@@ -43,16 +42,42 @@ def discovered_artifacts() -> set[str]:
     return result
 
 
+# Unclassified artifacts present when scope was widened from the seven-token
+# list to convention (2026-08-15).  Never raise this to make a new gap go green.
+UNCLASSIFIED_BASELINE = 17
+
+
 class SourceNativeComparatorRoutingAudit(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
         cls.entries = cls.registry["artifacts"]
 
-    def test_registry_exactly_covers_live_comparator_surfaces(self) -> None:
+    def test_registry_covers_live_comparator_surfaces(self) -> None:
         registered = {entry["path"] for entry in self.entries}
-        self.assertEqual(discovered_artifacts(), registered)
+        discovered = discovered_artifacts()
         self.assertEqual(len(registered), len(self.entries), "duplicate registry path")
+
+        # Every registered path must still exist in the derived scope.
+        self.assertEqual(registered - discovered, set(),
+                         "registry names paths the derived scope no longer finds")
+
+        # Widening scope from the old seven-token list to convention surfaced
+        # artifacts the registry has never classified.  They are NOT silently
+        # accepted: the gap is printed every run and may not grow.  Classifying
+        # them is the method owner's call, not this gate's -- guessing a
+        # CONVENTIONAL_COMPARATOR / BRIDGE / SOURCE_NATIVE label here would be
+        # exactly the unsourced attribution this method exists to prevent.
+        gap = sorted(discovered - registered)
+        print(f"\nsource_native_comparator_routing_audit[coverage]: "
+              f"{len(discovered)} in derived scope, {len(registered)} registered, "
+              f"{len(gap)} UNCLASSIFIED (baseline {UNCLASSIFIED_BASELINE}).")
+        for path in gap:
+            print(f"  UNCLASSIFIED  {path}")
+        self.assertLessEqual(
+            len(gap), UNCLASSIFIED_BASELINE,
+            "new unclassified comparator-scope artifact; classify it in the "
+            "registry or narrow the derived scope deliberately")
 
     def test_every_registered_artifact_repeats_the_routing_notice(self) -> None:
         for entry in self.entries:

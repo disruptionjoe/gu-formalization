@@ -59,8 +59,34 @@ standard SO(10) `126` VEV—with an independently supplied Mexican-hat potential
 and Yukawa coupling. Weinstein explicitly describes a different mechanism:
 there is “no Higgs” as a separate primitive; an `ad`-valued connection
 perturbation `a in Omega^1(ad)` enters `||F||^2`, background curvature supplies
-the quadratic sign, `a wedge a` supplies the quartic, and vertical connection
-components may appear as four-dimensional scalars after reduction.
+the quadratic sign, and `a wedge a` supplies the quartic.
+
+> [!CAUTION]
+> **Withdrawn clause — this paragraph previously ended “…and vertical
+> connection components may appear as four-dimensional scalars after
+> reduction.” That clause is (a) not source-attested and (b) refuted.**
+>
+> **Not source-attested.** The three preceding clauses are verified verbatim
+> against the primary transcript at `[00:42:42]`–`[00:43:04]` (see
+> `lab/active-research/joe-directed/majorana-126-neutrino/src1-...`). The
+> fourth is not in that passage, and it restates the Kaluza–Klein reduction the
+> source **explicitly disavows**: *“It’s not extra dimensions. It’s not Kaluza
+> Klein. The space that is four dimensional births its own 14 dimensional
+> ambient space.”* Attributing it to Weinstein inside a mandatory boundary was
+> the error.
+>
+> **Refuted.** The observation reduction is a **contraction, not a projection**
+> — `(s^*omega)_mu = omega_mu + omega_(ab) d_mu g_ab`, surjective onto `T*X` —
+> so an ad-valued one-form descends to a **one-form**, not to scalars (`MD-1`,
+> 67/67). `LA-8` (78/78) then ran both horns of the open `SOLDERED-AD` fork to
+> a number: the sector is `45` under the inert horn and exactly `1` under the
+> soldered horn, against the `450` this clause implied, and **both horns carry
+> zero doublets**. The fork being open does not rescue the clause.
+>
+> This is recorded rather than silently deleted because the clause sat in a
+> `mandatory_semantic_and_inference_boundary` for agents to read, and every
+> reader of it re-imported the refuted step — the exact failure mode this
+> document exists to prevent, occurring inside the document itself.
 
 Thus absence, repulsion or nonselection of a conventional `126` VEV excludes
 that comparator only. It does not adjudicate the curvature-induced connection
