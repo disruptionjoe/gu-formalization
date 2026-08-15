@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE `SU(2,2)` SINGULAR TRANSITION ATLAS.** All nine
+> pseudo-Hermitian canonical configurations contain exact regular controls.
+> Eigenvalue-incidence exhaustion gives eleven singular families: five real
+> nonsemisimple, four real semisimple, one mixed complex/real and one repeated
+> complex-pair family. Fifty admissible signature-`(2,2)` block-sign controls
+> preserve the schedules: five families at target/map `82/90`, three at
+> `80/89`, two at `78/88`, and the origin at `72/85`; every row saturates the
+> `98D` pointwise bound. Seventeen exact degenerations connect every
+> configuration. Determinant-one rational normalizations close all `36`
+> primitive overlaps and all `84` base plus `84` cotangent triangles in one
+> noncommuting nine-chart nerve. No new local model is needed. **Next complete
+> the four-configuration `SU(3,1)/SO(3,1)` singular transition atlas.** The
+> split/`SU(2,2)` edge remains `TYPE_MISSING`; exact probe `115/115`.
+
 > **2026-08-15 CROSS-REAL-FORM OWNERSHIP GATE.** The selected chain owns an
 > abstract `D7` root census, independently constructed real-`A3` factors and
 > an endpoint Cartan of type `(split 5, compact 2)`, but no ambient support

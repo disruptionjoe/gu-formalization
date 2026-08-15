@@ -543,7 +543,26 @@ current_result:
     nonexistence theorem; a new source/action-owned joint embedding is the
     explicit revival trigger. The next mathematical gate is the complete
     within-factor SU(2,2)/SO(2,2) singular transition atlas.
+    That SU(2,2) atlas now closes at local canonical-configuration,
+    sign-control and cotangent grade. All nine pseudo-Hermitian configurations
+    have exact regular controls. Eigenvalue-incidence exhaustion gives eleven
+    singular families: five real nonsemisimple, four real semisimple, one
+    complex-pair plus repeated-real-pair family and one repeated complex-pair
+    family. The family count is not an adjoint-orbit count; fifty admissible
+    block-sign controls retain their sign data and all reproduce the same
+    family schedules. Five families lie at target/map rank 82/90, three at
+    80/89, two at 78/88, and the origin at 72/85. Every row saturates the 98D
+    pointwise bound. Seventeen exact self-adjoint degeneration paths connect
+    every configuration to its boundary types. Determinant-one rational
+    normalizations put all nine forms in one alternating fibre; all 36
+    primitive overlaps and all 84 base plus 84 cotangent triangles close in a
+    genuinely noncommuting nerve, with zero moment defect from the global
+    SU(2,2) cotangent moment map. No new local model is required. The
+    cross-real-form edge remains TYPE_MISSING and was not used. The next gate
+    is the four-configuration SU(3,1)/SO(3,1) singular transition atlas.
   evidence:
+    - explorations/conditional-build/selected-k82-rsap-su22-a3-singular-transition-atlas-2026-08-15.md
+    - lab/process/selected-k82-rsap-su22-a3-singular-transition-atlas.json
     - explorations/conditional-build/selected-k81-rsap-a3-relative-placement-ownership-gate-2026-08-15.md
     - lab/process/selected-k81-rsap-a3-relative-placement-ownership-gate.json
     - explorations/conditional-build/selected-k80-rsap-a3-cross-real-form-incidence-2026-08-15.md
@@ -712,9 +731,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
   What is the complete singular transition atlas inside the constructed
-  SU(2,2)/SO(2,2) A3 principal factor across all nine compatible canonical
-  configurations, including exact degeneration paths, rank schedules and
-  within-factor cotangent transition cocycles?
+  SU(3,1)/SO(3,1) A3 principal factor across its four compatible canonical
+  configurations, including sign-characteristic controls, exact degeneration
+  paths, rank schedules and within-factor cotangent transition cocycles?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -723,12 +742,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Work entirely inside the constructed SU(2,2)/SO(2,2) factor. Exhaust its
-  nine compatible pseudo-Hermitian canonical configurations and their
-  singular specializations; compute exact centralizer, moving-centralizer,
-  target-rank and map-rank schedules; construct explicit regular approaches
-  and degeneration paths; and close every admitted within-factor cotangent
-  moment and primitive cocycle. Do not manufacture a split/SU(2,2) atlas edge:
+  Work entirely inside the constructed SU(3,1)/SO(3,1) factor. Exhaust its
+  four compatible pseudo-Hermitian canonical configurations and their
+  singular specializations, retaining admissible sign characteristics;
+  compute exact centralizer, moving-centralizer, target-rank and map-rank
+  schedules; construct explicit regular approaches and degeneration paths;
+  and close every admitted within-factor cotangent moment and primitive
+  cocycle. Do not manufacture any cross-real-form atlas edge:
   cross-real-form incidence is TYPE_MISSING until an explicit source/action-
   owned pair of ambient support embeddings or equivalent joint-orbit datum is
   supplied. On revival, fix the common-support dimension and signature and
@@ -736,9 +756,10 @@ next_condition: >-
   a bridge. Keep the
   naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary Higgs,
   family-index and chirality comparators remain irrelevant to this classical
-  moment-map lane and must not be reintroduced. Complete nonsplit singular
-  atlases, deeper ambient strata and the rank-at-most-49 zero-charge gate
-  remain open, with the 182D cotangent parent still the all-charge fallback.
+  moment-map lane and must not be reintroduced. The SU(3,1), compact and
+  quaternionic singular atlases, deeper ambient strata and the rank-at-most-49
+  zero-charge gate remain open, with the 182D cotangent parent still the
+  all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

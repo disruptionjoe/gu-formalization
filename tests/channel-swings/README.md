@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k82_rsap_su22_a3_singular_transition_atlas_probe.py` constructs a
+  regular control in all nine `SU(2,2)` canonical configurations, exhausts
+  eleven singular incidence families and checks fifty signature-`(2,2)` sign
+  controls. Seventeen exact paths close the configuration graph; rational
+  normalizations close all `36` primitive overlaps and `84+84` base/cotangent
+  triangles. It passes `115/115` with Python 3.
+
 - `selected_k81_rsap_a3_relative_placement_ownership_gate_probe.py` checks the
   abstract `D7`/`A3` root combinatorics, the selected endpoint's `(5,2)` real
   Cartan, factor-census ownership and source-return ceiling. It certifies that

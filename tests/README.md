@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k82_rsap_su22_a3_singular_transition_atlas_probe.py`
+  exhausts all nine `SU(2,2)` pseudo-Hermitian configurations, eleven singular
+  Jordan-incidence families, fifty admissible sign controls and seventeen
+  exact degeneration paths. It verifies every pointwise rank bound and closes
+  the `36` pair plus `84` triangle nine-chart cotangent nerve without using a
+  cross-real-form edge. It passes `115/115`.
+
 - `channel-swings/selected_k81_rsap_a3_relative_placement_ownership_gate_probe.py`
   distinguishes the abstract `D7` root census, the endpoint's `(5,2)` Cartan
   type and the independently constructed real-`A3` factors. It verifies that
