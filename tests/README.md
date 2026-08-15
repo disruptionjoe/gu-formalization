@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_sr1d_nonparallel_source_graph_cokernel_probe.py`
+  proves the class-wide second-jet obstruction over the fixed canonical
+  SR-1C one-jet. The differentiated translation constraint and momentum-jet
+  map are the same exact rank-195 block, so every compatible second jet has
+  zero metric-graph image while the density trace remains nonzero. Both roots
+  are killed at this grade; `40/40` pass under Sage.
+
 - `channel-swings/selected_k77_vrs5_curvature_vev_reopener_qualification_probe.py`
   proves that the existing action-owned scalar-jet trace closure is exact but
   curvature- and branch-disjoint from canonical SR-1C. It checks the nine-plane

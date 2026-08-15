@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_sr1d_nonparallel_source_graph_cokernel_probe.py` lifts the
+  parallel result to the full affine second-jet fibre over the fixed SR-1C
+  one-jet. It proves `j1E_T=A h`, `j1E_B=2A h` and `j1p=A h`, so translation
+  compatibility annihilates the complete metric-graph image. The known
+  rank-one density trace therefore kills both roots across all compatible
+  second jets. Run with `sage -python <path>`; `40/40` pass.
+
 - `selected_k77_vrs5_curvature_vev_reopener_qualification_probe.py` composes
   the exact scalar curvature/VEV closure, canonical Zorro curvature signature
   and killed SR-1C trace. It proves the old representative has curvature

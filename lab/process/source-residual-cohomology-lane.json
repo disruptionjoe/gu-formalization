@@ -83,8 +83,8 @@
     },
     {
       "id": "VRS-5",
-      "status": "parallel_roots_metric_killed__old_scalar_trace_branch_disjoint__nonparallel_graph_image_cokernel_gate_next",
-      "construction": "SR-1D"
+      "status": "fixed_sr1c_point_one_jets_killed_across_all_compatible_second_jets__distinct_canonical_first_jet_next",
+      "construction": "SR-1E"
     },
     {
       "id": "VRS-6",
@@ -182,7 +182,12 @@
                                 "vrs5_curvature_vev_reopener_qualification": {
                                   "result": "explorations/conditional-build/selected-k77-vrs5-curvature-vev-reopener-qualification-2026-08-14.md",
                                   "probe": "tests/channel-swings/selected_k77_vrs5_curvature_vev_reopener_qualification_probe.py",
-                                  "disposition": "ACTION_OWNED_SCALAR_JET_TRACE_CLOSURE_CONFIRMED_BUT_DISJOINT_FROM_CANONICAL_SR1C__NONPARALLEL_GRAPH_REOPENER_RANKED_FIRST"
+                                  "disposition": "ACTION_OWNED_SCALAR_JET_TRACE_CLOSURE_CONFIRMED_BUT_DISJOINT_FROM_CANONICAL_SR1C__NONPARALLEL_GRAPH_REOPENER_RANKED_FIRST",
+                                  "sr1d_nonparallel_source_graph_cokernel": {
+                                    "result": "explorations/conditional-build/selected-k77-sr1d-nonparallel-source-graph-cokernel-2026-08-14.md",
+                                    "probe": "tests/channel-swings/selected_k77_sr1d_nonparallel_source_graph_cokernel_probe.py",
+                                    "disposition": "FIXED_CANONICAL_SR1C_POINT_ONE_JET_KILLED_FOR_ALL_COMPATIBLE_SECOND_JETS__TRANSLATION_CONSTRAINT_FORCES_ZERO_METRIC_GRAPH_IMAGE"
+                                  }
                                 }
                               }
                             }
@@ -238,13 +243,13 @@
     }
   ],
   "next_required_construction": {
-    "id": "SR-1D",
+    "id": "SR-1E",
     "scaffold": "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md",
-    "statement": "The canonical-B_Z nonzero-T parallel formal extension closes translation, inherited Bianchi and primitive epsilon, but has a rank-one total metric trace nonzero on both roots. The older action-owned scalar-jet trace closure is not a direct reopener: its curvature orbit and amplitude are disjoint from canonical SR-1C, and even its solved scalar cell cancels neither root under a generous counterfactual import. Before another large branch solve, assemble the constrained nonparallel second-jet map and decide whether its primitive-epsilon-zero metric graph image contains -rho L1 on either root. A witness reopens that root; a left-cokernel certificate kills the complete nonparallel two-jet class over it. Do not enter VRS-6 until one complete stationary background exists.",
-    "first_blocking_operator": "CONSTRAINED_NONPARALLEL_SECOND_JET_TO_PRIMITIVE_EPSILON_AND_FIXED_VARPI_METRIC_GRAPH_IMAGE_COKERNEL",
+    "statement": "Both canonical SR-1C point/one-jets are now killed across every compatible formal second jet. For arbitrary correction h, the same rank-195 action block gives j1E_T=A h and j1(E_B-E_T)=A h; differentiated translation compatibility therefore forces the complete momentum jet and fixed-varpi metric graph image to zero. The nonzero rank-one density trace survives on both roots. No larger solve in this second-jet fibre can repair stationarity. Next construct or exhaust a genuinely distinct canonical point/first-jet branch, recomputing translation, Bianchi, primitive epsilon and total metric rows on the same carrier before prolongation. Do not enter VRS-6 until one complete stationary background exists.",
+    "first_blocking_operator": "DISTINCT_CANONICAL_POINT_FIRST_JET_WITH_ON_SHELL_J1P_COMPONENT_INDEPENDENT_OF_DIFFERENTIATED_TRANSLATION",
     "forward_stage": "VRS_5_BACKGROUND_SEARCH_RERANK__VRS_6_PREMISE_ABSENT",
     "reverse_falsification_status": "RF_1_AND_RF_2_COMPLETE__RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST",
-    "failure_rule": "Do not prolong the metric-killed parallel extension, import the old scalar trace branch as an additive sector, start another large branch solve before the constrained graph image is known, retry the exhausted zero-T family, repeat excluded homogeneous branches, substitute the printed residual for the action Euler row, fill missing higher derivatives with zero, choose one floating algebraic root before exact reduction, count lowerer or observation as independent Euler rows, introduce a fitted trace counterterm, manufacture a background by tangent restriction, or promote a local formal jet to a GU solution."
+    "failure_rule": "Do not spend another solve on second jets over the exhausted SR-1C one-jet, import the old scalar trace branch as an additive sector, retry the exhausted zero-T family, repeat excluded homogeneous branches, substitute the printed residual for the action Euler row, inherit the old A-factorization without recomputing a new first jet, fill missing higher derivatives with zero, choose one floating algebraic root before exact reduction, count lowerer or observation as independent Euler rows, introduce a fitted trace counterterm, manufacture a background by tangent restriction, or promote a local formal jet to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
 }

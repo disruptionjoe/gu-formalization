@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2d009f5353c639b01868c2eedb52cd1c75a4642f
+revision_basis: a195f66198ec6754a387248cc09beaddd4703fc7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -285,8 +285,19 @@ current_result:
     canonical-realization hypothesis but does not reopen SR-1C. The first next
     swing is SR-1D: compute the constrained image/cokernel of nonparallel
     second jets into primitive epsilon and the fixed-varpi metric graph before
-    attempting another large solve. VRS-6 still cannot instantiate.
+    attempting another large solve. That image gate is now exact. For every
+    direction and arbitrary second-jet correction h, the same rank-195 block
+    gives j1E_T=A h, j1E_B=2A h and j1(E_B-E_T)=A h. Differentiated
+    translation compatibility imposes A h=0, so the complete momentum jet and
+    fixed-varpi metric graph vanish throughout the compatible second-jet
+    fibre. Bianchi and Ricci/Spencer only shrink the domain. Primitive epsilon
+    therefore remains zero, while the nonzero rank-one density trace survives
+    on both roots. Both fixed canonical SR-1C point/one-jets are killed across
+    all compatible second jets. SR-1E must now construct or exhaust a genuinely
+    distinct canonical point/first-jet branch; VRS-6 still cannot instantiate.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1d-nonparallel-source-graph-cokernel-2026-08-14.md
+    - lab/process/selected-k77-sr1d-nonparallel-source-graph-cokernel.json
     - explorations/conditional-build/selected-k77-vrs5-curvature-vev-reopener-qualification-2026-08-14.md
     - lab/process/selected-k77-vrs5-curvature-vev-reopener-qualification.json
     - explorations/conditional-build/selected-k77-sr1c-fixed-varpi-metric-stationarity-2026-08-14.md
@@ -406,9 +417,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  On either exact SR-1C root, does the constrained nonparallel second-jet
-  source graph contain the opposite rank-one fixed-varpi metric trace while
-  differentiated translation, Bianchi and primitive epsilon rows vanish?
+  Does a genuinely distinct canonical Zorro point/first-jet branch exist whose
+  on-shell momentum derivative has a component independent of differentiated
+  translation and can close primitive epsilon plus total metric stationarity?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -417,15 +428,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In SR-1D, serialize the allowed nonparallel second-jet variables and assemble
-  one exact constrained map carrying differentiated translation and Bianchi,
-  primitive epsilon and the fixed-varpi metric graph. Retain the irreducible
-  quadratic algebra through the image test. Decide whether -rho L1 lies in the
-  primitive-epsilon-zero graph image on either root by an exact witness or
-  left-cokernel certificate. Only for a witness, recompute every source row on
-  that same carrier and prolong once. Do not import the old scalar curvature
-  cell as a free value: its canonical curvature orbit is disjoint from F_BZ.
-  Keep VRS-6 conditional until one complete stationary background exists.
+  In SR-1E, do not spend another solve on second jets over the exhausted
+  SR-1C point/one-jet. Construct or exhaust a genuinely distinct canonical
+  point/first-jet branch, retaining exact algebraic amplitudes and labelled
+  Zorro curvature. Recompute point translation, inherited Bianchi, j1E_T,
+  j1E_B, primitive epsilon and total fixed-varpi metric rows on the same
+  carrier. The first discriminator is whether on-shell j1(E_B-E_T) has a
+  component not locked to j1E_T. Prolong only after all point/one-jet rows
+  close. Keep VRS-6 conditional until one complete stationary background exists.
   Independently, the RSAP carrier still needs a local 98D wall
   normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula

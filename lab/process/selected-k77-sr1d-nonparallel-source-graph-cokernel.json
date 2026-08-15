@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "FIXED_CANONICAL_SR1C_POINT_ONE_JET_KILLED_FOR_ALL_COMPATIBLE_SECOND_JETS__TRANSLATION_CONSTRAINT_FORCES_ZERO_METRIC_GRAPH_IMAGE",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1D",
+  "branch_polynomial": "28392*t^2+91*t-351",
+  "predecessor": "lab/process/selected-k77-vrs5-curvature-vev-reopener-qualification.json",
+  "fixed_one_jet": {
+    "T": "t*Phi1",
+    "DT": "-F_BZ+(-t/312-t^2)C+Q",
+    "symmetric_Q_support": 13,
+    "real_nonzero_roots": 2
+  },
+  "directionwise_map": {
+    "variables": 9555,
+    "translation_rows": 196,
+    "bianchi_rows": 5096,
+    "translation_rank": 195,
+    "combined_rank": 4290,
+    "combined_nullity": 5265,
+    "directions": 14,
+    "serialized_variables": 133770,
+    "directionwise_kernel_total_before_cross_spencer": 73710
+  },
+  "factorization": {
+    "j1_E_T": "A*h",
+    "j1_E_B": "2*A*h",
+    "j1_E_B_minus_E_T": "A*h",
+    "translation_compatibility": "A*h=0",
+    "constrained_j1_p": "ZERO",
+    "primitive_epsilon": "ZERO_ON_EVERY_COMPATIBLE_SECOND_JET",
+    "fixed_varpi_metric_graph_rank": 0
+  },
+  "metric_cokernel": {
+    "receiver_dimension": 1,
+    "target": "(33703/468*t-3/52)*(1,0,0,0,-1,0,0,-1,0,-1)",
+    "target_nonzero_on_both_roots": true,
+    "certificate": "IDENTITY_ON_ONE_DIMENSIONAL_TRACE_RECEIVER"
+  },
+  "branch_status": "BOTH_FIXED_CANONICAL_POINT_ONE_JETS_KILLED_ACROSS_ALL_COMPATIBLE_SECOND_JETS",
+  "scope": "SELECTED_K77_CANONICAL_ZORRO_FIXED_POINT_ONE_JET__LOCAL_FORMAL_TWO_JET_CLASS",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6_background_premise": "ABSENT",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "SR-1E_DISTINCT_CANONICAL_FIRST_JET_OR_CONNECTION_RECONSTRUCTION__RECOMPUTE_POINT_ACTION_BIANCHI_EPSILON_AND_TOTAL_METRIC_ROWS_BEFORE_PROLONGATION",
+  "artifact": "explorations/conditional-build/selected-k77-sr1d-nonparallel-source-graph-cokernel-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1d_nonparallel_source_graph_cokernel_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1d-nonparallel-source-graph-cokernel-review.md",
+  "checks": "40/40 PASS"
+}

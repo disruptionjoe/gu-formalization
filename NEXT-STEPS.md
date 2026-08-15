@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1D NONPARALLEL SOURCE-GRAPH COKERNEL.** The whole
+> nonparallel second-jet fibre over the fixed SR-1C one-jet is now decided.
+> For arbitrary `h_m`, exact unreduced differentiation gives
+> `j1E_T=A h_m`, `j1E_B=2A h_m`, and `j1(E_B-E_T)=A h_m`. Formal translation
+> compatibility already imposes `A h_m=0`; Bianchi and Ricci/Spencer can only
+> shrink that kernel. Thus primitive epsilon remains zero but the constrained
+> fixed-`varpi` metric graph has rank zero and cannot cancel the nonzero
+> rank-one density trace on either root. **Both fixed canonical point/one-jets
+> are killed across all compatible second jets. Next run SR-1E: construct or
+> exhaust a genuinely distinct canonical point/first-jet branch and recompute
+> every source row before prolonging.** Do not spend another solve in the
+> exhausted fibre or enter VRS-6; exact probe `40/40`.
+
 > **2026-08-14 VRS-5 REOPENER RERANK / SR-1D.** The strongest owned no-fit
 > trace closure is genuine but belongs to a different scalar-jet carrier. Its
 > total `B` curvature is `C/32448`, nonzero on all nine mixed trace planes
