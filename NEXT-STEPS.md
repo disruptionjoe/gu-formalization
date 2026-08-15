@@ -7,6 +7,17 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 UNIFORM LOCAL CENTRALIZER-PARITY QUALIFICATION.** Exhaustion of
+> `459` signed zero-primary, `44` real, `248` signed imaginary and `6`
+> loxodromic types proves that all `757` local canonical primary types admit a
+> reversing grading with fixed centralizer equal to half the excess above the
+> primary rank contribution. This explains the sharp K89--K92 rank pattern
+> locally. **Next enumerate centralizer-`13` global sums using only these
+> optimal signature options.** Local optimality does not automatically give
+> the balanced global `(3,4)|(4,3)` signature; connected-orbit refinement also
+> remains separate. Zero-neighborhood coverage, surjectivity and RSAP remain
+> open. Exact probe `15/15`.
+
 > **2026-08-15 COMPLETE CENTRALIZER-ELEVEN MIXED CENSUS.** Total centralizer
 > excess four has exactly four census families: `137` primitive real,
 > imaginary or loxodromic excess-four primaries; `169` pairs of nonzero

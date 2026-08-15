@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k93_rsap_uniform_local_centralizer_parity_qualification_probe.py`
+  exhausts all `757` local signed primary types available within the ambient
+  rank budget and proves each admits a half-excess fixed-centralizer grading.
+  It preserves global balanced-signature compatibility and connected-orbit
+  refinement as open gates. It passes `15/15`.
+
 - `channel-swings/selected_k92_rsap_balanced_centralizer11_mixed_census_probe.py`
   exhausts all `673` centralizer-eleven mixed structural configurations across
   primitive excess-four primaries, paired nonzero collisions, zero-primary

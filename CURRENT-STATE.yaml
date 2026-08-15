@@ -719,7 +719,18 @@ current_result:
     to K88 rather than being mislabeled mixed. Singular mixed strata with
     centralizer dimension at least 13 remain open, so no zero neighborhood,
     surjectivity or RSAP is claimed.
+    The proposed half-excess centralizer law now passes an exhaustive local
+    qualification. Across 459 signed zero-primary types, 44 real partitions,
+    248 signed imaginary partitions and six loxodromic partitions, every one
+    of the 757 local primary types admits a reversing grading with fixed
+    centralizer equal to half its excess above the rank contribution. This is
+    not yet a global theorem: locally optimal choices must still sum to the
+    balanced (3,4)|(4,3) signature, and connected-orbit refinements remain
+    separate. The next exact gate is centralizer-13 global compatibility using
+    only the locally optimal signature-option sets.
   evidence:
+    - explorations/conditional-build/selected-k93-rsap-uniform-local-centralizer-parity-qualification-2026-08-15.md
+    - lab/process/selected-k93-rsap-uniform-local-centralizer-parity-qualification.json
     - explorations/conditional-build/selected-k92-rsap-balanced-centralizer11-mixed-census-2026-08-15.md
     - lab/process/selected-k92-rsap-balanced-centralizer11-mixed-census.json
     - explorations/conditional-build/selected-k91-rsap-balanced-minimal-singular-mixed-census-2026-08-15.md
@@ -923,11 +934,11 @@ contribution_path:
 next_condition: >-
   Classify centralizer-dimension-13 mixed Jordan configurations now that all
   673 centralizer-eleven signed structural rows pass at sharp map rank 89.
-  Test whether the K89--K92 pattern dim(h intersection g_X)=(dim g_X-7)/2
-  follows from a uniform centralizer-parity theorem before defaulting to
-  another full layer census; retain exact higher-partition and multi-collision
-  controls either way. Require one balanced involution to reverse all Jordan
-  parts and attain the pointwise rank ceiling. Because Ad(G)p is conic, one
+  K93 proves that every one of 757 local signed primary types has a reversing
+  grading with half-excess fixed centralizer. Use only those locally optimal
+  signature-option sets in the global census; do not infer that they
+  automatically sum to (3,4)|(4,3). Require one balanced involution to reverse
+  all Jordan parts and attain the pointwise rank ceiling. Because Ad(G)p is conic, one
   missed nonzero orbit kills zero-neighborhood coverage for this horn but not
   nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
   global gluing across the missing ambient successor before that census. The

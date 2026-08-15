@@ -41,6 +41,12 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k93_rsap_uniform_local_centralizer_parity_qualification_probe.py`
+  exhausts `757` local signed primary types across zero, real, imaginary and
+  loxodromic species. Every type has an exact reversing grading whose fixed
+  centralizer is half the centralizer excess. It deliberately does not infer
+  balanced global direct-sum compatibility. It passes `15/15` with Python 3.
+
 - `selected_k92_rsap_balanced_centralizer11_mixed_census_probe.py`
   exhausts all total-centralizer-excess-four mixed primary structures: `137`
   primitive nonzero, `169` paired nonzero collisions, `283` singular-zero,
