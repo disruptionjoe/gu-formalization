@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE COMPACT `SU(4)` SINGULAR TRANSITION ATLAS.** Compact
+> normality reduces every moving control to a real symmetric trace-free
+> matrix, so nonsemisimple types are empty. The fifteen set partitions of four
+> labels exhaust one regular and four singular multiplicities: `2+1+1`,
+> `2+2`, `3+1`, and the origin. Their target/map schedules are respectively
+> `82/90`, `80/89`, `78/88`, and `72/85`; every row saturates the `98D`
+> pointwise bound. Eight exact paths certify every arrow and endpoint
+> centralizer in the multiplicity closure graph. Four rational `SO(4)` frames
+> close all six primitive overlaps and all four base plus four cotangent
+> triangles in a noncommuting consistency nerve. No new local model is
+> needed. **Next complete the six-configuration quaternionic
+> `SU*(4)/SO*(4)` singular transition atlas.** Cross-real-form incidence
+> remains `TYPE_MISSING`; exact probe `55/55`.
+
 > **2026-08-15 COMPLETE `SU(3,1)` SINGULAR TRANSITION ATLAS.** Signature
 > `(3,1)` admits four canonical configurations and nine singular Jordan-
 > incidence families. Twenty-five admissible block-sign controls preserve the

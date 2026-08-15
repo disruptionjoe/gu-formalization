@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k84_rsap_compact_su4_a3_semisimple_singular_transition_atlas_probe.py`
+  reconstructs the compact `6+9` symmetric pair, exhausts the four singular
+  eigenvalue multiplicities, recomputes their exact centralizers and
+  bound-saturating rank schedules, and certifies all eight closure arrows and
+  endpoint strata. Four rational `SO(4)` frames close all six primitive
+  overlaps and four base/cotangent triangles. It passes `55/55` with Python 3.
+
 - `selected_k83_rsap_su31_a3_singular_transition_atlas_probe.py` constructs a
   regular control in all four `SU(3,1)` canonical configurations, exhausts
   nine singular incidence families and checks twenty-five signature-`(3,1)`

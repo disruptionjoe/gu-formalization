@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1e3b51e25512ca0600e2dbb47ad99fb1e95b1f9d
+revision_basis: 576af2916a5aa28e749c8f60b2906a5a99de2653
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -575,7 +575,26 @@ current_result:
     SU(3,1) cotangent moment map. No new local model is required. The
     cross-real-form edge remains TYPE_MISSING and was not used. The next gate
     is the compact SU(4)/SO(4) semisimple singular transition atlas.
+    The compact SU(4)/SO(4) atlas now closes at complete spectral-
+    multiplicity, exact-rank and cotangent-frame grade. Compact normality
+    identifies every moving control with i times a real symmetric trace-free
+    matrix, excluding all nonsemisimple types. Set-partition exhaustion gives
+    the regular 1+1+1+1 type and exactly four singular multiplicities:
+    2+1+1, 2+2, 3+1 and the origin. Their centralizer/moving-centralizer
+    dimensions are 5/4, 7/5, 9/6 and 15/9, giving target/map schedules 82/90,
+    80/89, 78/88 and 72/85. Every row saturates the 98D pointwise bound.
+    Eight exact diagonal paths realize the complete multiplicity closure
+    graph and independently certify every endpoint centralizer. Four rational
+    SO(4) frames form a noncommuting consistency nerve; all six primitive
+    overlaps and all four base plus four cotangent triangles close, with zero
+    defect from the global compact cotangent moment map. The multiplicities
+    are strata, not orbit counts, and the test frames are not asserted to be
+    a finite global cover. No new local model is required. The cross-real-form
+    edge remains TYPE_MISSING and was not used. The next gate is the complete
+    six-configuration quaternionic SU*(4)/SO*(4) singular transition atlas.
   evidence:
+    - explorations/conditional-build/selected-k84-rsap-compact-su4-a3-semisimple-singular-transition-atlas-2026-08-15.md
+    - lab/process/selected-k84-rsap-compact-su4-a3-semisimple-singular-transition-atlas.json
     - explorations/conditional-build/selected-k83-rsap-su31-a3-singular-transition-atlas-2026-08-15.md
     - lab/process/selected-k83-rsap-su31-a3-singular-transition-atlas.json
     - explorations/conditional-build/selected-k82-rsap-su22-a3-singular-transition-atlas-2026-08-15.md
@@ -747,10 +766,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  What is the complete semisimple singular transition atlas inside the
-  constructed compact SU(4)/SO(4) A3 principal factor, including eigenvalue-
-  multiplicity strata, exact rank schedules and within-factor cotangent
-  transition cocycles?
+  What is the complete singular transition atlas across the six canonical
+  configurations inside the constructed quaternionic SU*(4)/SO*(4) A3
+  principal factor, including exact rank schedules, degeneration paths and
+  within-factor cotangent transition cocycles?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -759,11 +778,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Work entirely inside the constructed compact SU(4)/SO(4) factor. Use
-  compact normality to keep every control semisimple; exhaust the eigenvalue-
-  multiplicity strata, compute exact centralizer, moving-centralizer, target-
-  rank and map-rank schedules, construct explicit regular approaches and
-  close every admitted within-factor cotangent moment and primitive cocycle.
+  Work entirely inside the constructed quaternionic SU*(4)/SO*(4) factor.
+  Exhaust all six canonical spectral/Jordan configurations, compute exact
+  centralizer, moving-centralizer, target-rank and map-rank schedules,
+  construct explicit regular approaches and degeneration paths, and close
+  every admitted within-factor cotangent moment and primitive cocycle.
   Do not manufacture any cross-real-form atlas edge:
   cross-real-form incidence is TYPE_MISSING until an explicit source/action-
   owned pair of ambient support embeddings or equivalent joint-orbit datum is
@@ -772,8 +791,8 @@ next_condition: >-
   a bridge. Keep the
   naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary Higgs,
   family-index and chirality comparators remain irrelevant to this classical
-  moment-map lane and must not be reintroduced. The compact and quaternionic
-  singular atlases, deeper ambient strata and the rank-at-most-49
+  moment-map lane and must not be reintroduced. The quaternionic singular
+  atlas, deeper ambient strata and the rank-at-most-49
   zero-charge gate remain open, with the 182D cotangent parent still the
   all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-

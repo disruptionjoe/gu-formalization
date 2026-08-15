@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "compact_su4_a3_complete_semisimple_multiplicity_transition_atlas",
+  "created": "2026-08-15",
+  "status": "COMPACT_NORMALITY_EXCLUDES_NONSEMISIMPLE_TYPES__FOUR_SINGULAR_MULTIPLICITY_STRATA_CLASSIFIED__POINTWISE_BOUNDS_SATURATED__SO4_COTANGENT_FRAME_NERVE_CLOSED",
+  "layer_0": {
+    "object": "classical compact symmetric-matrix spectral strata and cotangent moment-map transitions inside SU(4)/SO(4)",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "cross_real_form_incidence_used": false
+  },
+  "classification": {
+    "canonical_configuration": "real_1_plus_1_plus_1_plus_1",
+    "canonical_configuration_count": 1,
+    "nonsemisimple_types": 0,
+    "nonsemisimple_exclusion": "EVERY_MOVING_CONTROL_IS_I_TIMES_A_REAL_SYMMETRIC_MATRIX_AND_IS_NORMAL_DIAGONALIZABLE",
+    "regular_multiplicity": [1, 1, 1, 1],
+    "singular_multiplicities": [[2, 1, 1], [2, 2], [3, 1], [4]],
+    "singular_multiplicity_count": 4,
+    "sign_characteristic_count": 1,
+    "exhaustion": "COMPLETE_FOR_COMPACT_SU4_MOVING_CONTROLS"
+  },
+  "rank_census": {
+    "semisimple_2+1+1": [5, 4, 14, 82, 90],
+    "semisimple_2+2": [7, 5, 13, 80, 89],
+    "semisimple_3+1": [9, 6, 12, 78, 88],
+    "origin_4": [15, 9, 9, 72, 85]
+  },
+  "transitions": {
+    "carrier": "S72 times T*(SU(4)/SO(4)) times T*R4",
+    "source_dimension": 98,
+    "regular_approach": "DIAGONAL_EIGENVALUE_SPLITTING_INSIDE_THE_SAME_REAL_SYMMETRIC_MOVING_FIBRE",
+    "multiplicity_closure_paths_checked": 8,
+    "closure_graph": {
+      "1+1+1+1": ["2+1+1", "2+2", "3+1", "4"],
+      "2+1+1": ["2+2", "3+1"],
+      "2+2": ["4"],
+      "3+1": ["4"]
+    },
+    "exact_so4_frame_controls": 4,
+    "pairwise_frame_transitions": 6,
+    "frame_triangles": 4,
+    "moving_tangent_transition_dimension": 9,
+    "cotangent_transition": "INVERSE_TRANSPOSE_OF_THE_SO4_MOVING_TANGENT_CHANGE",
+    "every_frame_triangle": "STRICT_IDENTITY_BY_GROUP_COMPOSITION",
+    "moment_cech_defect": "ZERO_BY_ONE_GLOBAL_COMPACT_SU4_COTANGENT_MOMENT_MAP",
+    "primitive_cech_defect": "ZERO_BY_CANONICAL_COTANGENT_LIFTS",
+    "new_degrees_of_freedom": 0
+  },
+  "scope": {
+    "compact_su4_singular_transition_atlas": "CLOSED_AT_SEMISIMPLE_MULTIPLICITY_AND_COTANGENT_FRAME_GRADE",
+    "new_compact_su4_local_model": "NOT_REQUIRED",
+    "cross_real_form_atlas_edge": "TYPE_MISSING_NOT_REOPENED",
+    "quaternionic_singular_transition_atlas": "OPEN_NEXT",
+    "deeper_so77_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k84-rsap-compact-su4-a3-semisimple-singular-transition-atlas-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k84_rsap_compact_su4_a3_semisimple_singular_transition_atlas_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k84-rsap-compact-su4-a3-semisimple-singular-transition-atlas-review.md",
+  "next_gate": "COMPLETE_THE_SIX_CONFIGURATION_QUATERNIONIC_SU_STAR4_SO_STAR4_SINGULAR_TRANSITION_ATLAS_WITHOUT_REOPENING_CROSS_REAL_FORM_INCIDENCE"
+}

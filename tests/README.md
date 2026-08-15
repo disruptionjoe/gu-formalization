@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k84_rsap_compact_su4_a3_semisimple_singular_transition_atlas_probe.py`
+  exhausts all compact `SU(4)/SO(4)` eigenvalue multiplicities, excludes
+  nonsemisimple controls by compact normality, recomputes the four singular
+  centralizer/rank schedules and checks every endpoint of the eight-arrow
+  closure graph. Four rational `SO(4)` frames close the six-pair/four-triangle
+  cotangent consistency nerve. It passes `55/55`.
+
 - `channel-swings/selected_k83_rsap_su31_a3_singular_transition_atlas_probe.py`
   exhausts all four `SU(3,1)` pseudo-Hermitian configurations, nine singular
   Jordan-incidence families, twenty-five admissible sign controls and eleven
