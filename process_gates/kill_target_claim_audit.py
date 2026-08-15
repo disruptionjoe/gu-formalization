@@ -101,12 +101,21 @@ def coverage():
     return len(re.findall(r"^\s+core:\s*disavowed-by-source\s*$", text, re.M))
 
 
-def audit(paths=None):
+def audit(paths=None, baseline=None):
+    # `baseline` is injectable for the same reason audit_ledger's already is:
+    # SELF-TEST VACUITY.  SCOPE_BASELINE was added 2026-08-14 for the repo-wide
+    # scope widening, and it silently absorbed the self-test's two planted
+    # reds -- the harness asserted exit 1 and got 0, so the gate's own
+    # failure-path check has been FAILING since that commit, unnoticed because
+    # normal runs never invoke --self-test.  A tolerance that swallows planted
+    # controls makes the control vacuous, which is the precise defect this
+    # gate family exists to detect.  The self-test now pins baseline=0.
+    baseline = SCOPE_BASELINE if baseline is None else baseline
     ids = register_ids()
     if ids is None:
         print("RED kill_target_claim_audit: register missing at " + REG)
         return 1, 0
-    red, hatch_uses = [], 0
+    red, hatch_uses, internal_targets = [], 0, 0
     for f in paths or scan_set():
         try:
             text = open(f, encoding="utf-8").read()
@@ -123,6 +132,22 @@ def audit(paths=None):
         if HATCH in target:
             hatch_uses += 1
             continue
+        # INTERNAL-TARGET FORM (2026-08-15).  The gate assumed every kill either
+        # targets a registered SOURCE claim or is not a kill.  LA-10 is a third
+        # thing the channel now produces routinely: a kill aimed at a
+        # repository-internal claim -- here its own channel's published
+        # headline.  Forcing it onto the NONE-NOT-A-KILL hatch would make it
+        # assert something false (it IS a kill), and inventing an SC- id would
+        # be the unsourced attribution this gate exists to prevent.
+        #
+        # This form is deliberately HARDER to satisfy than the hatch, which
+        # demands nothing: it requires a named target AND a recorded verdict
+        # against it, so an internal kill must state what happened to its
+        # target.  Counted and printed separately -- an internal kill is not
+        # evidence about the source, and must never be summarised as one.
+        if target and fm.get("target_claim_verdict", "") and not CLAIM_ID.search(target):
+            internal_targets += 1
+            continue
         named = set(CLAIM_ID.findall(target))
         if not named:
             red.append((f, "kill-language with no target_claim"))
@@ -137,11 +162,12 @@ def audit(paths=None):
         print(f"RED  {f}: {why}")
     cov = coverage()
     print(f"kill_target_claim_audit: {len(red)} red "
-          f"(scope baseline {SCOPE_BASELINE}), escape-hatch uses this scan: {hatch_uses}")
+          f"(scope baseline {baseline}), escape-hatch uses this scan: {hatch_uses}, "
+          f"internal-target kills: {internal_targets}")
     print(f"kill_target_claim_audit[coverage]: {cov} disavowed-by-source rows in register; "
           f"{len(paths or scan_set())} markdown files in derived scope. "
           f"A green scan bounds only the REGISTERED class.")
-    return (1 if len(red) > SCOPE_BASELINE else 0), hatch_uses
+    return (1 if len(red) > baseline else 0), hatch_uses
 
 def latest_ledger(pattern=None):
     paths = glob.glob(pattern or LEDGER_GLOB)
@@ -207,15 +233,27 @@ def self_test():
                 "fail_untyped.md": ("---\ntitle: route killed\ncreated: 2026-09-01\n---\nbody"),
                 "fail_unknown.md": ("---\ntitle: no-go filed\ncreated: 2026-09-01\n"
                                     "target_claim: SC-FAKE-99\n---\nbody"),
+                # Controls for the internal-target form.  The FAIL case is the
+                # load-bearing one: it proves the new path does not wave through
+                # any non-SC target string, only one carrying a verdict.
+                "pass_internal.md": ("---\ntitle: route killed\ncreated: 2026-09-01\n"
+                                     "target_claim: CHANNEL-HEADLINE-X\n"
+                                     "target_claim_verdict: PARTIALLY_BROKEN\n---\nbody"),
+                "fail_internal_noverdict.md": ("---\ntitle: route killed\n"
+                                     "created: 2026-09-01\n"
+                                     "target_claim: CHANNEL-HEADLINE-X\n---\nbody"),
             }
             for name, content in cases.items():
                 open(os.path.join("explorations", name), "w").write(content)
-            code, hatches = audit()
+            code, hatches = audit(baseline=0)
             ok = (code == 1) and (hatches == 1)
+            # 3 reds now: fail_untyped, fail_unknown, fail_internal_noverdict.
+            _c, _h = audit(baseline=2)
+            ok = ok and (_c == 1)   # the no-verdict internal kill IS caught
             out = []
-            code2, _ = audit([os.path.join("explorations", "pass_typed.md"),
-                              os.path.join("explorations", "pass_hatch.md"),
-                              os.path.join("explorations", "pass_old.md")])
+            code2, _ = audit(baseline=0, paths=[os.path.join("explorations", "pass_typed.md"),
+                             os.path.join("explorations", "pass_hatch.md"),
+                             os.path.join("explorations", "pass_old.md")])
             ok = ok and (code2 == 0)
 
             # ---- ledger-extension controls

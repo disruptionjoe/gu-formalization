@@ -9,6 +9,7 @@ import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
+NON_ARTIFACT_DOC_TYPES = ("overview", "stewardship_record")
 REGISTRY_PATH = ROOT / "lab/process/source-native-comparator-routing-registry.json"
 METHOD = "lab/methods/source-native-comparator-routing.md"
 MARKER = "GU-COMPARATOR-ROUTING"
@@ -23,8 +24,19 @@ def discovered_artifacts() -> set[str]:
     # -- 17 of 34 files, half the tree, and 11 of those already carried the
     # routing notice, so the registry and its own audit had drifted apart.
     # Every joe-directed artifact is now in scope automatically.
+    # Scope is narrowed by DECLARED DOCUMENT TYPE, not by filename.  An index
+    # or a stewardship record does not contain or border a comparator: it
+    # points at artifacts that do.  Requiring them to carry a routing
+    # classification would permanently inflate the gap with documents that can
+    # never legitimately be classified, which trains readers to ignore it.
+    # This is the second horn the failure message already offers ("or narrow
+    # the derived scope deliberately"), and it is keyed to front matter so a
+    # renamed file cannot slip out of scope.
     joe_root = ROOT / "lab/active-research/joe-directed"
     for path in joe_root.rglob("*.md"):
+        head = path.read_text(encoding="utf-8")[:400]
+        if any(f"doc_type: {kind}" in head for kind in NON_ARTIFACT_DOC_TYPES):
+            continue
         result.add(path.relative_to(ROOT).as_posix())
     for path in (ROOT / "explorations/conditional-build").glob("*.md"):
         if any(token in path.name.lower() for token in ("family-index", "higgs", "majorana")):
@@ -44,7 +56,19 @@ def discovered_artifacts() -> set[str]:
 
 # Unclassified artifacts present when scope was widened from the seven-token
 # list to convention (2026-08-15).  Never raise this to make a new gap go green.
-UNCLASSIFIED_BASELINE = 17
+# It may only RATCHET DOWN as artifacts are classified: 17 -> 16 once the four
+# self-declaring artifacts were registered and index/stewardship documents left
+# scope.
+#
+# KNOWN INCONSISTENCY, recorded rather than papered over.  The method says an
+# artifact "may then state" its classification -- optional -- while this gate
+# counts every unregistered artifact as a gap.  So an artifact can be fully
+# method-compliant and still appear here.  Of the 16 remaining, 12 carry the
+# required notice and simply never declared a type, and 4 carry no notice at
+# all; only the latter are actual method violations.  Resolving this means the
+# method owner either makes declaration mandatory or this gate separates the
+# two populations.  Guessing types to close the gap is still forbidden.
+UNCLASSIFIED_BASELINE = 16
 
 
 class SourceNativeComparatorRoutingAudit(unittest.TestCase):
