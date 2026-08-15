@@ -83,7 +83,7 @@
     },
     {
       "id": "VRS-5",
-      "status": "top_symbol_partially_constructed__lower_mixed_coefficient_bank_next",
+      "status": "primitive_epsilon_closed_on_compatible_parallel_two_jet__moving_fixed_varpi_metric_graph_next",
       "construction": "SR-1C"
     },
     {
@@ -170,7 +170,12 @@
                           "branch_momentum_zero_jet": {
                             "result": "explorations/conditional-build/selected-k77-sr1c-branch-momentum-zero-jet-2026-08-14.md",
                             "probe": "tests/channel-swings/selected_k77_sr1c_branch_momentum_zero_jet_probe.py",
-                            "disposition": "BRANCH_MOMENTUM_ZERO_JET_SUPPORT14_LIVE_ON_BOTH_ROOTS__MOVING_SHIAB_PRIMITIVE_ZERO_JET_ZERO__SPATIAL_J1P_TYPE_MISSING"
+                            "disposition": "BRANCH_MOMENTUM_ZERO_JET_SUPPORT14_LIVE_ON_BOTH_ROOTS__MOVING_SHIAB_PRIMITIVE_ZERO_JET_ZERO__SPATIAL_J1P_TYPE_MISSING",
+                            "compatible_parallel_two_jet_epsilon": {
+                              "result": "explorations/conditional-build/selected-k77-sr1c-compatible-parallel-two-jet-epsilon-2026-08-14.md",
+                              "probe": "tests/channel-swings/selected_k77_sr1c_compatible_parallel_two_jet_epsilon_probe.py",
+                              "disposition": "COMPATIBLE_PARALLEL_TWO_JET_CONSTRUCTED__J1P_AND_PRIMITIVE_EPSILON_ZERO_ON_BOTH_ROOTS__MOVING_FIXED_VARPI_METRIC_GRAPH_OPEN"
+                            }
                           }
                         }
                       }

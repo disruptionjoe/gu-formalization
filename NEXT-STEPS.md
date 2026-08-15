@@ -7,6 +7,17 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1C COMPATIBLE PARALLEL TWO-JET.** The qualified candidate
+> now constructs: all `133,770` symmetric second-jet slots are assigned zero,
+> with exact Ricci/Spencer compatibility, and all `2,744` differentiated action
+> plus `71,344` differentiated Bianchi rows vanish. Differentiating the
+> unreduced formulas gives `j1E_T=j1E_B=j1p=0` as degree-at-most-three
+> polynomial identities. Hence `D_B^!p` and the prior moving-Shiab return close
+> all 91 primitive-epsilon components on both roots. **Next compute the moving
+> Hodge/frame/density/lowerer/observation metric returns on this same two-jet
+> and decide the total fixed-`varpi` row.** This remains a local formal
+> extension, not a stationary background; probe `34/34`.
+
 > **2026-08-14 SR-1C PARALLEL-TWO-JET QUALIFICATION.** Simple-root rigidity
 > forces only `dt=0`; it does not construct the spatial first jet of the local
 > Euler momentum. Differentiating the already-restricted fourteen coefficients

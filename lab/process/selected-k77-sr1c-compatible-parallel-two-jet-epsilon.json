@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "COMPATIBLE_PARALLEL_TWO_JET_CONSTRUCTED__J1P_AND_PRIMITIVE_EPSILON_ZERO_ON_BOTH_ROOTS__MOVING_FIXED_VARPI_METRIC_GRAPH_OPEN",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "operator": "O_SR1C",
+  "branch_polynomial": "28392*t^2+91*t-351",
+  "second_jet": {
+    "scope": "COVARIANTLY_NORMAL_CANONICAL_CONNECTION_METRIC_PARALLEL_FORMAL_TWO_JET",
+    "symmetric_slots": 133770,
+    "support": 0,
+    "ricci_curvature_action_support": 0,
+    "spencer_defect": 0
+  },
+  "polynomial_certificate": {
+    "degree_ceiling": 3,
+    "exact_samples": [0, 1, 2, 3],
+    "directions_per_sample": 14,
+    "rows_per_direction": 196,
+    "j1_E_T_support": 0,
+    "j1_E_B_support": 0,
+    "j1_p_support": 0
+  },
+  "differentiated_rows": {
+    "action": 2744,
+    "bianchi": 71344,
+    "defects": 0
+  },
+  "primitive_epsilon": {
+    "D_B_adjoint_p_components": 91,
+    "D_B_adjoint_p_support": 0,
+    "moving_shiab_support": 0,
+    "total": "ZERO_EXACT_ON_BOTH_PARALLEL_ROOT_EXTENSIONS"
+  },
+  "controls": {
+    "nonparallel_second_jet": "FIRED_ACTION_DERIVATIVE",
+    "branch_transverse_amplitude": "FIRED_14_E_T_ROWS"
+  },
+  "branch_status": "BOTH_NOT_YET_FALSIFIED",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "moving_metric_graph": "OPEN",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "COMPUTE_MOVING_HODGE_FRAME_DENSITY_LOWERER_AND_OBSERVATION_RETURNS_ON_THIS_SAME_TWO_JET__DECIDE_TOTAL_FIXED_VARPI_METRIC_ROW",
+  "artifact": "explorations/conditional-build/selected-k77-sr1c-compatible-parallel-two-jet-epsilon-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1c_compatible_parallel_two_jet_epsilon_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1c-compatible-parallel-two-jet-epsilon-review.md"
+}

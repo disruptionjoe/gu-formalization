@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_sr1c_compatible_parallel_two_jet_epsilon_probe.py` constructs
+  the zero symmetric second jet and verifies Ricci/Spencer, differentiated
+  action/Bianchi and unreduced local Euler compatibility. It proves
+  `j1E_T=j1E_B=j1p=0` and closes primitive epsilon on both parallel root
+  extensions while preserving the moving metric graph as open. Run with
+  `sage -python <path>`.
+
 - `selected_k77_sr1c_parallel_two_jet_qualification_probe.py` proves that
   simple-root rigidity fixes only the scalar branch amplitude derivative and
   that differentiating the restricted fourteen-cell momentum is not a

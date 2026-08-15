@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_sr1c_compatible_parallel_two_jet_epsilon_probe.py`
+  constructs the qualified parallel second jet, checks exact Ricci/Spencer and
+  all differentiated action/Bianchi rows, differentiates the unreduced `E_T`
+  and `E_B` formulas, and closes all 91 primitive-epsilon components on both
+  roots. The moving fixed-`varpi` metric graph remains open. Run with
+  `sage -python <path>`.
+
 - `channel-swings/superposition_vrs3_second_action_ownership_probe.py`
   checks the exact residual-zero pullback Hessian, firing off-shell and
   boundary terms, and independent complex/symplectic/positivity controls. It
