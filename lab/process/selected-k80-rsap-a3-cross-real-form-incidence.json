@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "a3_cross_real_form_ambient_incidence_classification",
+  "created": "2026-08-15",
+  "status": "INDIVIDUAL_EMBEDDING_CLASSES_FIXED__RELATIVE_AMBIENT_ORBIT_UNDERDETERMINED__NO_CANONICAL_CROSS_FORM_REFINEMENT",
+  "layer_0": {
+    "object": "classical real orthogonal embedding and cotangent-atlas incidence",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false
+  },
+  "ambient": {
+    "algebra": "so(7,7)",
+    "vector_signature": [7, 7],
+    "split_a3_model": "sl4(R)_isomorphic_to_so(3,3)",
+    "pseudo_unitary_a3_model": "su(2,2)_isomorphic_to_so(4,2)",
+    "split_support_signature": [3, 3],
+    "pseudo_unitary_support_signature": [4, 2],
+    "individual_conjugacy": "ONE_SO(7,7)_ORBIT_FOR_EACH_NONDEGENERATE_SUPPORT_SIGNATURE",
+    "cross_form_conjugacy": "IMPOSSIBLE_BECAUSE_SUPPORT_SIGNATURE_IS_PRESERVED"
+  },
+  "relative_models": {
+    "transverse": {
+      "support_intersection_dimension": 0,
+      "support_intersection_signature": [0, 0],
+      "embedded_algebra_intersection": "zero",
+      "embedded_algebra_intersection_dimension": 0
+    },
+    "a1xa1_face_candidate": {
+      "support_intersection_dimension": 4,
+      "support_intersection_signature": [2, 2],
+      "embedded_algebra_intersection": "so(2,2)_isomorphic_to_sl2(R)_plus_sl2(R)",
+      "embedded_algebra_intersection_dimension": 6
+    },
+    "b2_bridge_candidate": {
+      "support_intersection_dimension": 5,
+      "support_intersection_signature": [3, 2],
+      "embedded_algebra_intersection": "so(3,2)_isomorphic_to_sp4(R)",
+      "embedded_algebra_intersection_dimension": 10
+    }
+  },
+  "incidence": {
+    "joint_orbit_invariant": "dimension_and_signature_of_W_split_intersection_W_22",
+    "three_inequivalent_relative_orbits_constructed": true,
+    "individual_factor_data_select_relative_orbit": false,
+    "generic_full_support_target_overlap": "EMPTY",
+    "special_lower_support_overlap": "POSSIBLE_BUT_NOT_FORCED",
+    "closure_claim": "SPECIAL_INCIDENCE_REQUIRES_EXTRA_RELATIVE_PLACEMENT_DATA__NOT_DERIVED_FROM_FACTOR_CENSUS",
+    "canonical_common_target_domain": "NOT_SELECTED"
+  },
+  "symplectic_disposition": {
+    "common_refinement_constructed": false,
+    "reason": "THE_IF_AND_ONLY_IF_AMBIENT_COMMON_DOMAIN_GATE_IS_UNRESOLVED_BY_OWNER_TRUTH",
+    "moment_map_comparison": "NOT_LICENSED",
+    "tautological_primitive_comparison": "NOT_LICENSED",
+    "triple_cocycle": "NOT_LICENSED",
+    "candidate_faces": ["A1xA1_on_so(2,2)", "B2_on_so(3,2)"],
+    "candidate_faces_are_alternatives_not_simultaneous_truth": true
+  },
+  "scope": {
+    "split_su22_forced_cross_form_gluing": "OBSTRUCTED_BY_RELATIVE_ORBIT_UNDERDETERMINATION",
+    "individual_a3_principal_factors": "UNCHANGED",
+    "complete_nonsplit_singular_atlases": "OPEN",
+    "deeper_so77_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k80-rsap-a3-cross-real-form-incidence-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k80_rsap_a3_cross_real_form_incidence_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k80-rsap-a3-cross-real-form-incidence-review.md",
+  "next_gate": "DERIVE_THE_RELATIVE_SIX_PLANE_PLACEMENT_FROM_THE_ACTUAL_D7_ROOT_OR_SOURCE_EMBEDDING__THEN_SELECT_EXACTLY_ONE_COMMON_FACE_OR_PROVE_THE_COMPONENTS_DISJOINT"
+}

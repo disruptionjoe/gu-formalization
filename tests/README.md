@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k80_rsap_a3_cross_real_form_incidence_probe.py`
+  constructs exact `so(3,3)` and `so(4,2)` support embeddings in `so(7,7)`,
+  proves generic full-support separation, and exhibits transverse,
+  `A1 x A1`, and `B2` relative placements with intersection dimensions
+  `0`, `6`, and `10`. It passes `44/44` and blocks cross-form symplectic
+  gluing until the actual `D7` relative embedding is derived.
+
 - `channel-swings/selected_k77_rsap_a3_two_wall_census_origin_attachment_probe.py`
   classifies all `15` split-`A3` root pairs, separates target subsystem types
   from source-sign presentations, and proves the naive same-sign `SL2/SO2`

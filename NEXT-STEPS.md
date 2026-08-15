@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 SPLIT/`SU(2,2)` AMBIENT INCIDENCE GATE.** The two individual
+> `A3` factors embed as `so(3,3)` and `so(4,2)` on six-planes of signatures
+> `(3,3)` and `(4,2)` in `so(7,7)`, so they are not ambient-conjugate and their
+> full-support target loci are generically disjoint. Their relative placement
+> is not fixed by the individual factor census: exact models with common
+> support dimensions `0`, `4`, and `5` have intersections `0`, `so(2,2)` and
+> `so(3,2)`, yielding no face, an `A1 x A1` face, or a `B2` bridge. These joint
+> orbits are inequivalent. **Next derive the relative six-plane orbit from the
+> actual selected `D7` root/source embedding; do not choose a banked face for
+> convenience.** No common symplectic refinement is licensed until that datum
+> is fixed. Exact probe `44/44`; individual factors remain constructed, while
+> nonsplit singular atlases, deeper strata, zero charge and global RSAP remain
+> open.
+
 > **2026-08-15 COMPLETE REAL-`A3` PRINCIPAL-FACTOR CENSUS.** The four
 > nonsplit candidates `SU4/SO4`, `SU(3,1)/SO(3,1)`, `SU(2,2)/SO(2,2)` and
 > `SU*(4)/SO*(4)` all have `6+9` symmetric decompositions and `18D`

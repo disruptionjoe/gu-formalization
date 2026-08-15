@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b6364941e9c1882d304ad929ac617d421bcf0fce
+revision_basis: 6c06f4d51292e02ebc8d4603fc3547a65ff8abca
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -512,8 +512,22 @@ current_result:
     SU*(4)/SO*(4) principal factor. Cross-real-form common domains are not yet
     typed; shared complexification does not prove ambient so(7,7) incidence.
     Complete nonsplit singular atlases, deeper strata, zero charge and global
-    all-strata RSAP remain open.
+    all-strata RSAP remain open. The first ambient cross-real-form incidence
+    test now proves why the missing typing matters. Under the orthogonal
+    identifications sl4(R)=so(3,3) and su(2,2)=so(4,2), the two A3 factors
+    occupy nonconjugate six-plane classes in so(7,7); their support signatures
+    are (3,3) and (4,2). Full-support target operators therefore have disjoint
+    generic loci. The individual classes do not determine a relative orbit:
+    exact placements with common support dimensions 0, 4 and 5 have algebra
+    intersections 0, so(2,2) and so(3,2), respectively. The latter two would
+    select inequivalent A1xA1 and B2 common faces. Because all three placements
+    preserve the already constructed individual factors, no canonical common
+    target domain, cotangent transition, moment comparison or primitive
+    cocycle follows from current owner truth. This is a relative-embedding
+    underdetermination, not a failure of either factor or a global RSAP no-go.
   evidence:
+    - explorations/conditional-build/selected-k80-rsap-a3-cross-real-form-incidence-2026-08-15.md
+    - lab/process/selected-k80-rsap-a3-cross-real-form-incidence.json
     - explorations/conditional-build/selected-k79-rsap-a3-real-form-principal-factor-census-2026-08-15.md
     - lab/process/selected-k79-rsap-a3-real-form-principal-factor-census.json
     - explorations/conditional-build/selected-k78-rsap-a3-nonsemisimple-transition-atlas-2026-08-15.md
@@ -677,9 +691,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do the split and SU(2,2) A3 factors occur in incident target strata under
-  explicit embeddings into the selected so(7,7) endpoint, and if so what is
-  their correctly typed common symplectic refinement?
+  Which relative six-plane orbit does the actual selected D7 root/source
+  embedding assign to the split and SU(2,2) A3 factors: transverse, an
+  A1xA1-type (2,2) intersection, a B2-type (3,2) intersection, or another
+  explicitly typed incidence class?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -688,14 +703,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct explicit split-sl4 and su(2,2) embeddings into the selected
-  so(7,7) endpoint algebra and classify their conjugacy, intersection and
-  closure incidence. Shared complexification, dimension and signature-(2,2)
-  Jordan coverage are not enough. If and only if an actual ambient common
-  target domain exists, type the leaf-transfer block and construct the common
-  symplectic refinement before comparing the full moment map, tautological
-  primitive or any triple cocycle. Otherwise record the two factors as
-  disjoint atlas components rather than manufacturing a transition. Keep the
+  Derive the joint placement from the actual D7 root realization or a
+  source-owned ambient embedding, not from the two individual factor classes.
+  The derivation must fix the dimension and signature of the common support
+  and exclude the exact transverse, (2,2) and (3,2) contrary controls before
+  selecting a bridge. Only then construct exactly one typed common factor and
+  compare its full moment map, tautological primitive and first triple
+  cocycle. If the selected relative orbit is transverse, retain disjoint atlas
+  components rather than manufacturing a transition. Keep the
   naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary Higgs,
   family-index and chirality comparators remain irrelevant to this classical
   moment-map lane and must not be reintroduced. Complete nonsplit singular

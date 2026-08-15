@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k80_rsap_a3_cross_real_form_incidence_probe.py` embeds split
+  `A3 ~= so(3,3)` and `SU(2,2) A3 ~= so(4,2)` exactly in `so(7,7)`, proves
+  their full-support classes nonconjugate, and constructs three inequivalent
+  relative placements with algebra intersections `0`, `so(2,2)` and
+  `so(3,2)`. It certifies the relative-orbit underdetermination and the
+  no-refinement disposition in `44/44` exact checks with Python 3.
+
 - `selected_k79_rsap_a3_real_form_principal_factor_census_probe.py` builds
   exact `6+9` symmetric-pair bases for the compact, two pseudo-unitary and
   quaternionic `A3` forms, exhausts their compatible canonical types, tests
