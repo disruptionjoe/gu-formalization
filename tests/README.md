@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k94_rsap_centralizer13_global_compatibility_census_probe.py`
+  calibrates its multiset enumerator against K91 and K92, then exhausts all
+  `645` mixed centralizer-thirteen signed structural rows. Every row admits a
+  balanced K93-optimal direct sum and the sharp `13/78/3/88` rank schedule.
+  Higher centralizers and connected-orbit refinements remain open. It passes
+  `20/20`.
+
 - `channel-swings/selected_k93_rsap_uniform_local_centralizer_parity_qualification_probe.py`
   exhausts all `757` local signed primary types available within the ambient
   rank budget and proves each admits a half-excess fixed-centralizer grading.

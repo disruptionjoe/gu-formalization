@@ -728,7 +728,18 @@ current_result:
     balanced (3,4)|(4,3) signature, and connected-orbit refinements remain
     separate. The next exact gate is centralizer-13 global compatibility using
     only the locally optimal signature-option sets.
+    That first global compatibility gate now passes. An exact multiset dynamic
+    program reproduces the independent K91 and K92 counts 714 and 673, then
+    exhausts 645 genuinely mixed centralizer-thirteen signed structural rows
+    across seven excess-six mechanisms. All 645 admit a balanced sum of K93-
+    optimal local gradings, with h-centralizer 3, target rank 78 and sharp map
+    rank 88. Another 95 fully semisimple rows route to K88 and five pure-zero
+    rows route to K89. Centralizer dimension at least 15 and connected-orbit
+    refinements remain open, so no zero neighborhood, surjectivity or RSAP is
+    claimed.
   evidence:
+    - explorations/conditional-build/selected-k94-rsap-centralizer13-global-compatibility-census-2026-08-15.md
+    - lab/process/selected-k94-rsap-centralizer13-global-compatibility-census.json
     - explorations/conditional-build/selected-k93-rsap-uniform-local-centralizer-parity-qualification-2026-08-15.md
     - lab/process/selected-k93-rsap-uniform-local-centralizer-parity-qualification.json
     - explorations/conditional-build/selected-k92-rsap-balanced-centralizer11-mixed-census-2026-08-15.md
@@ -932,13 +943,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify centralizer-dimension-13 mixed Jordan configurations now that all
-  673 centralizer-eleven signed structural rows pass at sharp map rank 89.
-  K93 proves that every one of 757 local signed primary types has a reversing
-  grading with half-excess fixed centralizer. Use only those locally optimal
-  signature-option sets in the global census; do not infer that they
-  automatically sum to (3,4)|(4,3). Require one balanced involution to reverse
-  all Jordan parts and attain the pointwise rank ceiling. Because Ad(G)p is conic, one
+  Extend K94's calibrated multiset dynamic program from centralizer dimension
+  13 across every attainable higher mixed centralizer dimension. K94 proves
+  that all 645 centralizer-thirteen signed structural rows admit a balanced
+  sum of K93-optimal local gradings at sharp map rank 88; it does not prove the
+  remaining layers. Route fully semisimple and pure-zero rows to K88 and K89,
+  retain connected SO_0(7,7) orbit refinements as a separate seam, and stop on
+  the first balanced-signature failure. Require one balanced involution to
+  reverse all Jordan parts and attain the pointwise rank ceiling. Because Ad(G)p is conic, one
   missed nonzero orbit kills zero-neighborhood coverage for this horn but not
   nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
   global gluing across the missing ambient successor before that census. The

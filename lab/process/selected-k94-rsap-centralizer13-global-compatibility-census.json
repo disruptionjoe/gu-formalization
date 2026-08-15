@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_centralizer13_global_compatibility_census",
+  "created": "2026-08-15",
+  "status": "COMPLETE_CENTRALIZER_13_MIXED_STRUCTURAL_LOCUS_CONTAINED_AND_POINTWISE_SHARP__HIGHER_CENTRALIZERS_OPEN",
+  "layer_0": {
+    "object": "classical centralizer-thirteen real skew-adjoint primary locus in the balanced symmetric horn moment image",
+    "physical_phase_space": false,
+    "source_selected_subgroup": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "ordinary_higgs_model_relevant": false,
+    "ordinary_family_index_relevant": false,
+    "ordinary_chirality_target_relevant": false
+  },
+  "predecessor": {
+    "artifact": "explorations/conditional-build/selected-k93-rsap-uniform-local-centralizer-parity-qualification-2026-08-15.md",
+    "probe": "tests/channel-swings/selected_k93_rsap_uniform_local_centralizer_parity_qualification_probe.py",
+    "status": "REPLAYED_15_OF_15"
+  },
+  "centralizer13_global_compatibility_census": {
+    "centralizer_dimension": 13,
+    "target_poisson_rank": 78,
+    "mixed_structural_configuration_count": 645,
+    "count_kind": "FINITE_SIGNED_STRUCTURAL_CONFIGURATIONS_NOT_INDIVIDUAL_CONNECTED_ADJOINT_ORBITS",
+    "mechanism_counts": {
+      "nonzero_four_plus_nonzero_two": 23,
+      "primitive_nonzero_excess_six": 226,
+      "three_nonzero_excess_two": 4,
+      "zero_four_plus_nonzero_two": 233,
+      "zero_primary_excess_six": 138,
+      "zero_two_plus_nonzero_four": 11,
+      "zero_two_plus_two_nonzero_two": 10
+    },
+    "balanced_grading_failures": 0,
+    "h_centralizer_dimension": 3,
+    "ambient_adjoint_rank": 78,
+    "fixed_adjoint_rank": 39,
+    "moving_adjoint_rank": 39,
+    "moment_map_rank": 88,
+    "pointwise_ceiling": 88,
+    "rank_histogram": {
+      "centralizer13_target78_hcentralizer3_map88": 645
+    }
+  },
+  "exhaustion": {
+    "enumerator": "UNORDERED_MULTISET_DYNAMIC_PROGRAM_OVER_K93_LOCAL_OPTIMAL_SIGNATURE_OPTIONS",
+    "total_rank_units": 7,
+    "total_centralizer_excess": 6,
+    "positive_excess_partitions": [[6], [4, 2], [2, 2, 2]],
+    "k91_calibration_mixed_rows": 714,
+    "k92_calibration_mixed_rows": 673,
+    "semisimple_rows_routed_to_k88": 95,
+    "pure_zero_rows_routed_to_k89": 5,
+    "nonzero_dynamic_program_states": 324,
+    "local_types_by_species_and_excess": {
+      "I0": 14,
+      "I2": 23,
+      "I4": 15,
+      "I6": 35,
+      "L0": 3,
+      "L4": 2,
+      "R0": 7,
+      "R2": 6,
+      "R4": 4,
+      "R6": 7,
+      "Z0": 27,
+      "Z2": 20,
+      "Z4": 57,
+      "Z6": 52
+    }
+  },
+  "canonical_identities": [
+    "X^T*Q+Q*X=0",
+    "R^2=1",
+    "R^T*Q*R=Q",
+    "R*X+X*R=0",
+    "signature_Q=(7,7)",
+    "signature_Q_on_R_eigenspaces=(3,4)_(4,3)",
+    "dim_h_centralizer=(dim_g_centralizer-7)/2"
+  ],
+  "coverage_status": {
+    "all_semisimple": "COVERED_BY_K88_CARTAN_ARGUMENT",
+    "pure_nilpotent": "COVERED_BY_K89",
+    "complete_regular_locus": "COVERED_BY_K88_AND_K90",
+    "centralizer_9_mixed": "COMPLETE_BY_K91_AT_SIGNED_STRUCTURAL_GRADE",
+    "centralizer_11_mixed": "COMPLETE_BY_K92_AT_SIGNED_STRUCTURAL_GRADE",
+    "local_primary_parity": "COMPLETE_BY_K93",
+    "centralizer_13_mixed": "COMPLETE_BY_K94_AT_SIGNED_STRUCTURAL_GRADE",
+    "centralizer_at_least_15_mixed": "OPEN",
+    "connected_orbit_refinement": "OPEN",
+    "zero_neighborhood": "OPEN",
+    "surjectivity": "OPEN",
+    "global_rsap": "OPEN"
+  },
+  "disposition": {
+    "balanced_horn": "SURVIVES_COMPLETE_CENTRALIZER_13_LAYER_TO_ALL_HIGHER_CENTRALIZER_CENSUS",
+    "uniform_fixed_centralizer_law": "GLOBALLY_COMPATIBLE_THROUGH_EXCESS_SIX_NOT_YET_ALL_LAYERS",
+    "next_gate": "RUN_THE_K93_OPTIMAL_SIGNATURE_MULTISET_PROGRAM_ACROSS_EVERY_ATTAINABLE_HIGHER_CENTRALIZER_AND_THEN_CLOSE_CONNECTED_ORBIT_REFINEMENTS",
+    "source_action_selection": "NOT_PROVIDED",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k94-rsap-centralizer13-global-compatibility-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k94_rsap_centralizer13_global_compatibility_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k94-rsap-centralizer13-global-compatibility-census-review.md"
+}

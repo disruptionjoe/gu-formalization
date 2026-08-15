@@ -7,6 +7,18 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE CENTRALIZER-THIRTEEN GLOBAL COMPATIBILITY CENSUS.**
+> A calibrated multiset dynamic program reproduces K91's `714` and K92's
+> `673` mixed rows, then exhausts exactly `645` mixed centralizer-`13` signed
+> structural configurations across seven excess-six mechanisms. Every row
+> admits a balanced sum of K93-optimal local gradings and has target rank `78`,
+> `h`-centralizer `3` and sharp map rank `88`. Another `95` fully semisimple
+> rows route to K88 and `5` pure-zero rows route to K89. **Next run the same
+> exact program across every attainable higher mixed centralizer dimension,
+> then close the required connected-orbit refinements.** A zero neighborhood,
+> surjectivity, RSAP, source selection and global gluing remain open. Exact
+> probe `20/20`.
+
 > **2026-08-15 UNIFORM LOCAL CENTRALIZER-PARITY QUALIFICATION.** Exhaustion of
 > `459` signed zero-primary, `44` real, `248` signed imaginary and `6`
 > loxodromic types proves that all `757` local canonical primary types admit a

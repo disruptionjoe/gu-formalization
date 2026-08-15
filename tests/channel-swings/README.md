@@ -41,6 +41,12 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k94_rsap_centralizer13_global_compatibility_census_probe.py`
+  forms every unordered global multiset from K93's optimal local signature
+  options at total rank seven and excess six. It reproduces the K91/K92
+  counts, finds `645` new mixed rows, and balances all of them at sharp map
+  rank `88`. It passes `20/20` with Python 3.
+
 - `selected_k93_rsap_uniform_local_centralizer_parity_qualification_probe.py`
   exhausts `757` local signed primary types across zero, real, imaginary and
   loxodromic species. Every type has an exact reversing grading whose fixed
