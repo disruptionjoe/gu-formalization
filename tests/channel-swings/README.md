@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_sr1g_released_action_repair_ownership_exhaustion_probe.py`
+  inventories `SC-ACT-01…06`, proves the released bosonic degree ceiling is
+  four, and audits source/BV constraint ownership. It composes SR-1E/F to kill
+  the source-instability carrier as a stable VRS-5 route under the checked
+  released action while preserving future completions as new constructions;
+  `46/46` pass with Python 3.
+
 - `selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py` evaluates the
   existing moving observer-Hermitian `Q_u` on both exact SR-1E residual rays.
   It proves the quartics are `+16c(u),-16c(u)` with

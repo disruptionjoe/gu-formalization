@@ -83,8 +83,8 @@
     },
     {
       "id": "VRS-5",
-      "status": "complete_affine_first_two_jet_fibre_killed__vertical_point_carrier_map_built__fixed_natural_and_observer_hu_released_bosonic_action_unbounded",
-      "construction": "SR-1G"
+      "status": "complete_affine_first_two_jet_fibre_killed__source_instability_carrier_killed_under_checked_released_action__distinct_point_carrier_rerank_required",
+      "construction": "SR-1H"
     },
     {
       "id": "VRS-6",
@@ -243,13 +243,13 @@
     }
   ],
   "next_required_construction": {
-    "id": "SR-1G",
+    "id": "SR-1H",
     "scaffold": "lab/active-research/source-residual-cohomology/sr1c-source-coordinate-variational-prolongation-scaffold-2026-08-14.md",
-    "statement": "Both canonical SR-1C point branches are killed across the complete compatible affine first/two-jet fibre. The source-to-K77 carrier seam is exact, but the released bosonic action remains unbounded. Fixed-natural Q_B has selected quartics -16,+16. The strongest existing moving repair also fails: observer-Hermitian Q_u gives +16c(u),-16c(u), with c(u)=1+2|v|^2 positive for every unit timelike observer, so even u=u(T) cannot repair the sign pair. Audit whether the source/BV complex owns a dynamically closed invariant constraint excluding every negative direction or the source action owns a higher-even positive term on the full admitted carrier. Keep other field-dependent primalizers open only with an explicit action owner and full-carrier form. Do not enter VRS-6 until one complete stationary background exists.",
-    "first_blocking_operator": "SOURCE_BV_OWNED_DYNAMICALLY_CLOSED_NEGATIVE_RAY_EXCLUSION__OR_SOURCE_OWNED_HIGHER_EVEN_POSITIVE_ACTION_TERM",
+    "statement": "Both canonical SR-1C point branches are killed across the complete compatible affine first/two-jet fibre. The distinct source-instability carrier is also killed as a stable VRS-5 background under the checked released action: fixed-natural and observer-Hermitian pairings leave opposite-sign quartic rays, while the complete registered SC-ACT-01 through SC-ACT-06 grammar owns neither a primal/BV negative-ray constraint nor a degree-six-or-higher stabilising term. This is released-grammar exhaustion, not a universal no-go for future completions. Rerank genuinely distinct action-owned point carriers; label any new action, primalizer or constrained domain as a new construction before algebra. Do not enter VRS-6 until one complete stationary background exists.",
+    "first_blocking_operator": "DISTINCT_ACTION_OWNED_POINT_CARRIER_CENSUS_AND_STATIONARY_BOUNDEDNESS_RERANK",
     "forward_stage": "VRS_5_BACKGROUND_SEARCH_RERANK__VRS_6_PREMISE_ABSENT",
     "reverse_falsification_status": "RF_1_AND_RF_2_COMPLETE__RF_3_PAUSED_UNTIL_K_TOTAL_L_TOTAL_EXIST",
-    "failure_rule": "Do not rebuild the exact vertical carrier map, rescale the fixed-natural Q_B line, retry observer-Hermitian Q_u with another or field-dependent unit observer, spend another solve on first- or second-jet kernels over the exhausted SR-1C point carrier, import the old scalar trace branch as an additive sector, retry the exhausted zero-T family, substitute the printed residual for the action Euler row, choose a ray-dependent fundamental symmetry, exclude a negative direction by an unowned tangent restriction, add an unowned higher term, fill missing higher derivatives with zero, choose one floating algebraic root or eigenvector, introduce a fitted trace counterterm, or promote a local formal jet to a GU solution."
+    "failure_rule": "Do not rebuild the exact vertical carrier map, rescale the fixed-natural Q_B line, retry observer-Hermitian Q_u with another or field-dependent unit observer, repeat ordinary BV/KT descent, reuse the exhausted omega/J4 fixed-moving-penalty-multiplier family, spend another solve on first- or second-jet kernels over the exhausted SR-1C point carrier, import the old scalar trace branch as an additive sector, retry the exhausted zero-T family, substitute the printed residual for the action Euler row, choose a ray-dependent fundamental symmetry, exclude a negative direction by an unowned tangent restriction, add an unowned higher term, fill missing higher derivatives with zero, choose one floating algebraic root or eigenvector, introduce a fitted trace counterterm, or promote a local formal jet to a GU solution."
   },
   "claim_ceiling": "No source-complete action, quantum state space, positive physical cohomology, superposition law, Born rule, luminous/dark decoupling, decoherence law, memory kernel, channel, particle spectrum or empirical prediction is established."
 }

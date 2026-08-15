@@ -4422,6 +4422,18 @@ boost, so even field-dependent observer selection cannot repair the runaway.
 sage -python tests/channel-swings/selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py
 ```
 
+## K77 SR-1G released-action repair ownership exhaustion
+
+`channel-swings/selected_k77_sr1g_released_action_repair_ownership_exhaustion_probe.py`
+audits the complete registered `SC-ACT-01…06` action family, proves the
+released bosonic constant-amplitude degree ceiling is four, and checks that
+the source/BV grammar owns neither a primal negative-ray constraint nor a
+higher-even stabilizer. It passes `46/46` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k77_sr1g_released_action_repair_ownership_exhaustion_probe.py
+```
+
 ## K77 SR-1C branch momentum zero-jet
 
 `channel-swings/selected_k77_sr1c_branch_momentum_zero_jet_probe.py`

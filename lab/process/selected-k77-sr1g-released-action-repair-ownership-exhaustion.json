@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "RELEASED_SOURCE_GRAMMAR_OWNS_NO_PRIMAL_CONSTRAINT_OR_HIGHER_EVEN_STABILIZER__SOURCE_INSTABILITY_BRANCH_KILLED_FOR_VRS5_UNDER_CHECKED_ACTION",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1G",
+  "predecessor": "lab/process/selected-k77-sr1f-observer-qb-vertical-boundedness.json",
+  "source_action_census": {
+    "ids": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-03", "SC-ACT-04", "SC-ACT-05", "SC-ACT-06"],
+    "I1B_degree_ceiling": 3,
+    "Upsilon_B_degree_ceiling": 2,
+    "I2B_degree_ceiling": 4,
+    "higher_even_degree_at_least_six_owned": false,
+    "third_bosonic_action_owned": false
+  },
+  "constraint_ownership": {
+    "arbitrary_connection_translation_alpha": true,
+    "source_chart_alpha_block": "IDENTITY",
+    "source_primal_constraint_owned": false,
+    "source_BV_master_action_owned": false,
+    "principal_constraint_propagation_owned": false,
+    "local_BVKT_supplies_primal_restriction": false,
+    "minimal_omega_J4_family_supplies_positive_surplus_repair": false
+  },
+  "composed_boundedness": {
+    "fixed_natural_repair": "KILLED_SR1E",
+    "observer_Q_u_repair": "KILLED_SR1F",
+    "source_constraint_repair": "NOT_OWNED",
+    "source_higher_even_repair": "NOT_OWNED",
+    "source_instability_branch_under_released_action": "KILLED_AT_BOUNDEDNESS"
+  },
+  "scope": "CHECKED_RELEASED_SOURCE_GRAMMAR_ONLY__FUTURE_ACTION_OR_DOMAIN_COMPLETIONS_OPEN_AS_NEW_CONSTRUCTIONS",
+  "closed_objects": [
+    "SOURCE_INSTABILITY_CARRIER_AS_VRS5_BACKGROUND_UNDER_CHECKED_RELEASED_ACTION",
+    "RELEASED_SOURCE_HIGHER_EVEN_STABILIZER",
+    "RELEASED_SOURCE_OR_BV_PRIMAL_NEGATIVE_RAY_CONSTRAINT"
+  ],
+  "open_objects": [
+    "DISTINCT_ACTION_OWNED_POINT_CARRIER",
+    "EXPLICITLY_NEW_FIELD_DEPENDENT_PRIMALIZER",
+    "EXPLICITLY_NEW_DYNAMICAL_CONSTRAINED_DOMAIN",
+    "EXPLICITLY_NEW_HIGHER_ACTION",
+    "COMPLETE_STATIONARY_BACKGROUND"
+  ],
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6": "BLOCKED",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "SR-1H_RERANK_DISTINCT_ACTION_OWNED_POINT_CARRIERS_OR_EXPLICIT_NEW_CONSTRUCTION",
+  "artifact": "explorations/conditional-build/selected-k77-sr1g-released-action-repair-ownership-exhaustion-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1g_released_action_repair_ownership_exhaustion_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1g-released-action-repair-ownership-exhaustion-review.md",
+  "checks": "46/46 PASS"
+}

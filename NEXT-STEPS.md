@@ -7,6 +7,17 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1G RELEASED-ACTION REPAIR OWNERSHIP EXHAUSTION.** The
+> registered released source grammar is exactly `SC-ACT-01…06`: I1B has
+> constant-amplitude degree at most `3`, its residual degree at most `2`, and
+> I2B degree at most `4`. It owns no primal/BV constraint on arbitrary
+> connection translations and no degree-six-or-higher bosonic stabilizer.
+> Combined with SR-1E/F, the embedded source-instability carrier is killed as
+> a stable VRS-5 background under the checked action. **SR-1H must rerank a
+> genuinely distinct action-owned point carrier. Any new action or constrained
+> domain must be labelled as new construction before algebra.** Exact
+> source/interface probe `46/46`.
+
 > **2026-08-14 SR-1F MOVING OBSERVER-`Q_B` BOUNDEDNESS.** The strongest
 > existing moving repair is now tested on the exact SR-1E residuals. For every
 > unit timelike observer, the two vertical quartics are `+16c(u),-16c(u)`,

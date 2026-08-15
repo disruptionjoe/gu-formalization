@@ -323,11 +323,22 @@ current_result:
     fires at +656/9,-656/9. Thus observer motion, including a field-dependent
     choice u(T), changes magnitude but cannot repair the sign pair. This
     closes only the existing conditional Q_u family, not every imaginable
-    field-dependent primalizer. SR-1G must now audit a source/BV-owned
-    dynamically closed constraint or a source-owned higher-even stabilising
-    action term before selecting a critical orbit and canonical first jet.
-    VRS-6 still cannot instantiate.
+    field-dependent primalizer. SR-1G now exhausts both remaining repairs in
+    the checked released source grammar. The complete registered SC-ACT-01
+    through SC-ACT-06 family gives I1B degree at most three, Upsilon_B degree
+    at most two and I2B degree at most four; it prints no degree-six-or-higher
+    bosonic term. The source varies through arbitrary connection translations,
+    prints no primal/BV tangent constraint and supplies no propagation theorem
+    for the candidate principal constraint split. Ordinary BV/KT descent does
+    not restrict the primal carrier. Thus the source-instability carrier is
+    killed as a stable VRS-5 background under the checked released action.
+    This is not a universal no-go for future GU completions: any new action,
+    primalizer or constrained domain must be labelled a new construction.
+    SR-1H must rerank genuinely distinct action-owned point carriers. VRS-6
+    still cannot instantiate.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1g-released-action-repair-ownership-exhaustion-2026-08-14.md
+    - lab/process/selected-k77-sr1g-released-action-repair-ownership-exhaustion.json
     - explorations/conditional-build/selected-k77-sr1f-observer-qb-vertical-boundedness-2026-08-14.md
     - lab/process/selected-k77-sr1f-observer-qb-vertical-boundedness.json
     - explorations/conditional-build/selected-k77-sr1e-vertical-carrier-fixed-natural-boundedness-2026-08-14.md
@@ -457,11 +468,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the source/BV complex own a dynamically closed invariant constraint
-  that excludes every negative quartic direction, or does the source action
-  own a higher-even term with fixed positive leading sign on the full admitted
-  carrier, so that a nonlinear critical orbit and labelled canonical Zorro
-  first-jet lift can be selected?
+  After the complete SR-1C affine-jet kill and the released-action
+  source-instability boundedness kill, does any genuinely distinct
+  action-owned point carrier remain capable of supplying a complete stationary
+  background, or should the VRS-5 background route close and increase
+  conviction in the H0 null?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -470,19 +481,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In SR-1G, do not rebuild the exact rank-450 vertical carrier map, try another
-  fixed-natural Q_B scale or retry the observer-Hermitian family by choosing a
-  different or field-dependent unit observer: its quartics remain
-  +16c(u),-16c(u) with c(u)>0. Audit ownership first. Require a source/BV-owned
-  dynamically closed invariant constraint that excludes every negative ray,
-  or a source-owned higher-even term with fixed positive leading sign on the
-  full admitted carrier. Keep a genuinely different action-derived
-  field-dependent primalizer open only if its owner and full carrier form are
-  constructed. Only after one repair passes may the lane select an orbit,
-  solve a nonzero exact critical amplitude, lift a labelled canonical-B_Z
-  first jet and recompute translation, Bianchi, j1E_T, j1E_B, primitive
-  epsilon and total fixed-varpi metric rows. Keep VRS-6 conditional until one
-  complete stationary background exists.
+  In SR-1H, inventory and rerank only genuinely distinct action-owned point
+  carriers against the accumulated stationary and boundedness kill contracts.
+  Do not rebuild the exact vertical map, rescale fixed-natural Q_B, choose a
+  different observer, repeat ordinary BV/KT descent, reuse the exhausted
+  omega/J4 reductions, fit a tangent slice, or add an unowned higher term.
+  Any new field-dependent primalizer, constrained domain or higher action must
+  be labelled and invoiced as a new construction before algebra begins. If no
+  distinct owned carrier survives, close this VRS-5 route and update the
+  twenty-lens hypothesis ranking while preserving H0. Only a surviving route
+  may proceed to orbit selection, exact amplitude, canonical-B_Z first jet and
+  recomputed translation, Bianchi, j1E_T, j1E_B, primitive epsilon and total
+  fixed-varpi metric rows. Keep VRS-6 conditional until one complete
+  stationary background exists.
   Independently, the RSAP carrier still needs a local 98D wall
   normal form with target rank 84 to 82 and map rank 91 to 90.
   Admit a rival Zorro completion only with a derived metric/connection formula
