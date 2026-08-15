@@ -7,6 +7,19 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K103 BOUNDARY-OWNER TRILEMMA CLOSED; PHYSICAL SELECTOR
+> ABSENT.** On the `182D` endpoint parent, zero `h_bal` bulk flux gives the
+> `140D` zero level, rank `98`, characteristic rank `42`, and quotient `98D`,
+> but removes generic boundary charge. A minimal `42`-coordinate edge
+> extension is `224D`, rank `182`, kernel `42`, and quotient `182D`: it
+> preserves charge rather than imposing zero. It reaches `98D` only after the
+> extra `lambda_h=0` condition. K99's multiplier has the exact Dirac count
+> `266 -> 182 -> 98` but is new action data and also gauges the charge.
+> **Next require a source/action-derived boundary variational principle or
+> owned balanced edge/multiplier equation that actually selects the zero-
+> charge branch. Until then retain the charged `182D` and reverse-RSAP `98D`
+> horns as distinct conditional boundary theories.** Exact probe `32/32`.
+
 > **2026-08-15 K102 SOURCE-NATIVE PARTIAL LEGENDRE OWNER CLOSED; DIAGONAL
 > GAUSS IS NOT THE RSAP ZERO LEVEL.** On a conditional non-null collar,
 > `B(epsilon)_n=b_n^0+epsilon^-1 partial_n epsilon` is an epsilon velocity,

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e73d570edd8f57f1de92f1632c92e8bd410715b4
+revision_basis: 23c4b6b4293c89608866be5638cebe3dbc5d0584
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -842,7 +842,22 @@ current_result:
     not recover the standalone J_R,H_bal=lambda_h=0 reduction. A zero h flux
     boundary condition, edge combined moment map or explicit K99 multiplier
     is still required, and the source selects none of them.
+    K103 closes that three-route boundary census. On the 182D endpoint parent,
+    zero h bulk flux implies lambda_h=0 and gives a 140D coisotropic surface
+    of rank 98 with 42 characteristic directions, hence the 98D quotient; it
+    excludes generic charged endpoints and is not source/action selected. A
+    minimal 42-coordinate H_bal edge extension has dimension 224, rank 182
+    and kernel 42, so its charge-preserving quotient remains 182D. It reaches
+    98D only after the extra lambda_h=0 restriction, which reinstates the
+    zero-charge horn. K99's explicit multiplier has the exact Dirac count
+    266D -> 182D joint constraint surface -> 98D quotient, but is new action
+    data and likewise gauges away the charge. Thus no current route both
+    isolates the 98D RSAP zero level and retains generic h_bal boundary charge
+    in the same phase space. The two horns remain distinct conditional
+    boundary theories; their physical selector is absent.
   evidence:
+    - explorations/conditional-build/selected-k103-rsap-boundary-owner-polarization-census-2026-08-15.md
+    - lab/process/selected-k103-rsap-boundary-owner-polarization-census.json
     - explorations/conditional-build/selected-k102-rsap-i1b-partial-legendre-gauss-owner-2026-08-15.md
     - lab/process/selected-k102-rsap-i1b-partial-legendre-gauss-owner.json
     - explorations/conditional-build/selected-k101-rsap-projected-dressed-connection-hamiltonian-type-gate-2026-08-15.md
@@ -1052,11 +1067,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Given the exact source diagonal constraint
-  Div_varpi(Pi)_h-lambda_h=0, does any current action-owned boundary condition,
-  edge completion or polarization isolate lambda_h=J_R,H_bal=0 with the
-  correct 42D characteristic distribution and 98D reduced phase space, while
-  preserving the distinct live charged-boundary horn?
+  Can the source or a released action term derive the physical boundary
+  variational principle that chooses between the distinct 182D charged horn
+  and 98D right-H_bal zero-level horn, specifically by owning zero h bulk flux
+  or a balanced edge/multiplier equation that selects rather than merely
+  permits the zero-charge branch?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1090,10 +1105,17 @@ next_condition: >-
   Div_varpi(Pi)-lambda=0. Its h_bal projection contains [phi,pi] but equates
   lambda_h to bulk flux rather than setting it to zero. The full-algebra Gauss
   law is therefore a correct adjacent source object but the wrong replacement
-  for the reverse RSAP reduction. Next census the three remaining boundary
-  routes—zero h bulk flux, edge combined moment, and K99's explicit
-  multiplier—computing characteristic ranks and reduced dimensions while
-  keeping the charged horn distinct. Do not repeat finite BFV, multiplier or orbit
+  for the reverse RSAP reduction. K103 closes the three remaining boundary
+  routes. Zero h bulk flux and K99's explicit multiplier each give the 98D
+  quotient by setting lambda_h=0 and removing generic charge; the minimal edge
+  extension preserves generic charge but reduces only to 182D. Adding the
+  zero level after the edge extension merely reinstates the zero-charge horn.
+  No route is currently source/action selected, and no single reduced phase
+  space both keeps arbitrary lambda_h and imposes lambda_h=0. Reopen only on a
+  source/action-derived boundary variational principle or owned balanced
+  edge/multiplier equation whose Euler and Noether data choose the zero-charge
+  branch. Keep the 182D charged and 98D reverse-RSAP horns distinct. Do not
+  repeat finite BFV, multiplier, boundary-route or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal
   reduction to physical selection, or infer quantization, particle content or
   phenomenology. A stationary nonhomogeneous curvature selector remains an

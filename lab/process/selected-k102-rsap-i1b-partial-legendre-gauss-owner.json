@@ -60,7 +60,8 @@
     "unreleased_action_term": "OPEN"
   },
   "disposition": {
-    "next_gate": "BOUNDARY_OWNER_AND_POLARIZATION_CENSUS__ZERO_H_BULK_FLUX_VERSUS_EDGE_COMBINED_MOMENT_VERSUS_EXPLICIT_K99_MULTIPLIER__COMPUTE_CHARACTERISTIC_DISTRIBUTIONS_AND_DIMENSIONS",
+    "next_gate": "CLOSED_BY_K103__REOPEN_ONLY_WITH_SOURCE_OR_ACTION_DERIVED_PHYSICAL_BOUNDARY_DISPOSITION",
+    "successor": "lab/process/selected-k103-rsap-boundary-owner-polarization-census.json",
     "canon_change": "none",
     "ledger_change": "none",
     "public_posture_change": "none"

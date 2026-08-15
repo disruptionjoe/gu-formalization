@@ -253,3 +253,13 @@ gauge. Reproduce this gate with:
 ```bash
 python3 tests/channel-swings/selected_k102_rsap_i1b_partial_legendre_gauss_owner_probe.py
 ```
+
+> **Successor closure (K103).** The three remaining boundary routes are now
+> exactly classified. Zero `h_bal` bulk flux and K99's explicit multiplier
+> both give the `98D` quotient by imposing `lambda_h=0`; neither preserves
+> generic endpoint charge, and neither is selected by the current action. A
+> minimal `H_bal` edge extension preserves that charge but has a `182D`
+> quotient, not `98D`. Adding `lambda_h=0` after the edge extension reaches
+> `98D` only by reinstating the zero-charge horn. The missing object is a
+> source/action-owned physical boundary disposition, not another algebraic
+> reduction.

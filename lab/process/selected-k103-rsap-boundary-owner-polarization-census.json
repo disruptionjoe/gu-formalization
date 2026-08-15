@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "balanced_rsap_boundary_owner_polarization_census",
+  "created": "2026-08-15",
+  "status": "THREE_BOUNDARY_ROUTES_EXACT__ZERO_FLUX_AND_MULTIPLIER_GIVE_98D_BY_REMOVING_CHARGE__EDGE_PRESERVES_CHARGE_AT_182D__PHYSICAL_SELECTOR_ABSENT",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "K102_CONDITIONAL_LOCAL_I1B_COLLAR__ACTION_OWNED_EPSILON_PREBOUNDARY_PARENT__CONDITIONAL_BALANCED_R0_AND_RIGHT_H_BAL_DECLARATION",
+  "target_claim": {
+    "id": "K102_NEXT_GATE__CURRENT_ACTION_OWNED_BOUNDARY_ROUTE_BOTH_ISOLATES_J_R_H_BAL_ZERO_AND_PRESERVES_LIVE_CHARGED_HORN",
+    "verdict": "NO_AT_CURRENT_BOUNDARY_OWNERSHIP_GRADE__CONDITIONAL_ROUTE_TRILEMMA_EXACT"
+  },
+  "dimensions": {
+    "g": 91,
+    "h_bal": 42,
+    "p_bal": 49,
+    "charged_endpoint": {"ambient": 182, "surface": 182, "form_rank": 182, "characteristic": 0, "quotient": 182},
+    "zero_flux_zero_level": {"ambient": 182, "surface": 140, "form_rank": 98, "characteristic": 42, "quotient": 98},
+    "minimal_edge": {"ambient": 224, "surface": 224, "form_rank": 182, "characteristic": 42, "quotient": 182},
+    "edge_plus_zero_charge": {"ambient": 224, "surface": 182, "form_rank": 98, "characteristic": 84, "quotient": 98},
+    "explicit_multiplier_dirac": {"ambient": 266, "surface": 182, "form_rank": 98, "characteristic": 84, "quotient": 98}
+  },
+  "routes": {
+    "zero_h_bulk_flux": {
+      "equation": "Div_varpi_Pi_h=0__WITH_K102_IMPLIES_lambda_h=0",
+      "reaches_rsap_98": true,
+      "retains_generic_h_charge": false,
+      "source_or_action_selected": false
+    },
+    "minimal_edge_completion": {
+      "local_form": "delta_lambda_h_wedge_delta_q_h_minus_u_h",
+      "reaches_rsap_98": false,
+      "retains_generic_h_charge": true,
+      "quotient_dimension": 182,
+      "source_or_action_selected": false
+    },
+    "minimal_edge_plus_zero_charge": {
+      "reaches_rsap_98": true,
+      "retains_generic_h_charge": false,
+      "meaning": "ZERO_CHARGE_HORN_REINTRODUCED_AFTER_EDGE_EXTENSION"
+    },
+    "explicit_k99_multiplier": {
+      "lagrangian": "L_min=pair_lambda_g_inverse_dot_g_minus_a_t",
+      "primary_constraints": 42,
+      "secondary_constraints": 42,
+      "reaches_rsap_98": true,
+      "retains_generic_h_charge": false,
+      "current_serialized_action_owned": false
+    }
+  },
+  "trilemma": {
+    "zero_flux": "98D_AND_ZERO_CHARGE__UNSELECTED",
+    "edge": "182D_AND_GENERIC_CHARGE__UNSELECTED",
+    "multiplier": "98D_AND_ZERO_CHARGE__NEW_ACTION_DATA",
+    "simultaneous_98D_and_generic_charge": false
+  },
+  "source_return": "SOURCE_CONFIRMS_LIVE_UNRESTRICTED_PREBOUNDARY_CHARGE__REPOSITORY_COMPOSES_CONDITIONAL_THREE_ROUTE_CENSUS__SOURCE_SILENT_PHYSICAL_BOUNDARY_DISPOSITION",
+  "claim_ceiling": {
+    "finite_presymplectic_and_dirac_ranks": "EXACT",
+    "source_selected_physical_boundary_theory": "OPEN",
+    "global_ultrahyperbolic_hamiltonian_domain": "OPEN",
+    "analytic_bfv_positivity_quantization": "OPEN"
+  },
+  "disposition": {
+    "next_gate": "SOURCE_OR_ACTION_DERIVED_BOUNDARY_VARIATIONAL_PRINCIPLE_OR_OWNED_BALANCED_EDGE_MULTIPLIER_TERM_THAT_SELECTS_ZERO_H_FLUX_AND_RIGHT_GAUGE",
+    "charged_horn": "RETAIN_AS_DISTINCT_182D_CONDITIONAL_BOUNDARY_THEORY",
+    "reverse_rsap": "RETAIN_AS_DISTINCT_98D_CONDITIONAL_BOUNDARY_THEORY",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "partial_legendre": "lab/process/selected-k102-rsap-i1b-partial-legendre-gauss-owner.json",
+    "minimal_multiplier": "lab/process/selected-k99-rsap-balanced-multiplier-owner-exhaustion.json",
+    "bfv": "lab/process/selected-k98-rsap-balanced-bfv-selection-classifier.json",
+    "preboundary": "lab/process/selected-k77-action-noether-preboundary.json",
+    "edge_model": "lab/process/selected-k77-minimal-edge-mode-reduction.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k103-rsap-boundary-owner-polarization-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k103_rsap_boundary_owner_polarization_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k103-rsap-boundary-owner-polarization-census-review.md"
+}
