@@ -4602,6 +4602,18 @@ schedule, and strict wall/Cartan/block-pivot cotangent triple. It passes
 python3 tests/channel-swings/selected_k77_rsap_a3_first_singular_attachment_probe.py
 ```
 
+## K77 RSAP split-A3 adjacent-A2 two-wall attachment
+
+`channel-swings/selected_k77_rsap_a3_adjacent_a2_two_wall_attachment_probe.py`
+checks the principal `sl3/so(2,1)` embedding, both adjacent opposite-sign
+`sl2/so(1,1)` wall restrictions, exact centralizers, the complete `98D`
+`91 -> 90 -> 88` map-rank schedule, and the strict wall/wall/`A2` moment and
+primitive cocycle. It passes `71/71` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_a3_adjacent_a2_two_wall_attachment_probe.py
+```
+
 ## K77 RSAP rank-82 wall family and A2 cocycle gate
 
 `channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py`

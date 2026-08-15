@@ -7,6 +7,18 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 SPLIT-`A3` ADJACENT-`A2` TWO-WALL ATTACHMENT.** On an ordered
+> signature block `(+,-,+)`, both adjacent roots restrict the principal
+> `sl3/so(2,1)` pair to the banked `sl2/so(1,1)` split-wall model. The smooth
+> carrier `S78 x T*(SL(3,R)/SO(2,1)) x T*R5` stays `98D`; full map rank is
+> `91 -> 90 -> 88` and target Poisson rank is `84 -> 82 -> 78` from the
+> regular locus through either wall to the `A2` intersection. Both wall
+> gauges are cotangent lifts, and the first wall/wall/`A2` moment and
+> primitive cocycle closes strictly. **Next classify the remaining split-`A3`
+> two-wall orbit types, then attach the first genuinely new three-wall or
+> mixed-real-form intersection.** Exact probe `71/71`; deeper strata, zero
+> charge and all-strata RSAP remain open.
+
 > **2026-08-15 SPLIT-`A3` FIRST SINGULAR ATTACHMENT.** The banked generic
 > split-root wall chart now attaches to the complete regular block-pivot atlas.
 > The opposite-sign root embeds as `sl2/so(1,1)`; the exact subregular control
@@ -14,9 +26,9 @@ updated_at: "2026-08-15"
 > rank `15 -> 14`, full map rank `91 -> 90`, and target Poisson rank
 > `84 -> 82`. Both regular-side wall gauges compose with every meeting
 > block-pivot chart by strict cotangent lifts, and the first
-> wall/Cartan/block-pivot moment and primitive cocycle closes. **Next attach
-> the first adjacent split-`A2` two-wall intersection and test the
-> wall/wall/`A2` cocycle before deeper strata.** Exact probe `56/56`.
+> wall/Cartan/block-pivot moment and primitive cocycle closes. The adjacent
+> split-`A2` successor is now constructed by the newer packet. Exact probe
+> `56/56`.
 
 > **2026-08-15 COMPLETE SPLIT-`A3` BLOCK-PIVOT ATLAS.** The omitted regular
 > sign/Bruhat region now closes through the determinant-one signature-`(2,2)`

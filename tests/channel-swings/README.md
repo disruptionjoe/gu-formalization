@@ -41,6 +41,12 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_a3_adjacent_a2_two_wall_attachment_probe.py` checks the
+  principal `sl3/so(2,1)` embedding, both adjacent opposite-sign
+  `sl2/so(1,1)` restrictions, exact centralizers, the complete `98D`
+  `91 -> 90 -> 88` map-rank schedule, and the strict wall/wall/`A2`
+  cotangent cocycle. It passes `71/71` with Python 3.
+
 - `selected_k77_rsap_a3_block_pivot_atlas_probe.py` completes the split-`A3`
   regular cotangent atlas on the determinant-one signature-`(2,2)` symmetric-
   form space. It checks the five block shapes, `66` pivot skeletons, `306`

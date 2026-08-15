@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1a606ee9e568dff758351b82d968dcdf8ce5ddeb
+revision_basis: 920a6ad98555398b36ce1be746d86710fd5d14fc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -451,10 +451,21 @@ current_result:
     T*(SL(2,R)/SO(1,1)) wall chart gauges to both split Cartan sides, and those
     charts compose with every meeting block-pivot chart by strict cotangent
     lifts. The geometric moment map and tautological primitive agree, while
-    the first wall/Cartan/block-pivot triple has zero Cech defects. Other A3
-    real forms, the adjacent split-A2 two-wall attachment, deeper strata, zero
-    charge and all-strata RSAP remain open.
+    the first wall/Cartan/block-pivot triple has zero Cech defects. The first
+    adjacent split-A2 two-wall attachment now also closes. On an ordered
+    (+,-,+) three-coordinate block, both simple roots are opposite-sign and
+    restrict the principal sl3/so(2,1) pair to the banked
+    sl2/so(1,1) wall model. The smooth carrier
+    S78 x T*(SL(3,R)/SO(2,1)) x T*R5 remains 98D. Its map rank changes
+    91 to 90 to 88 from the regular locus through either wall to the A2
+    intersection, while target Poisson rank changes 84 to 82 to 78. Both
+    wall-to-A2 gauges are cotangent lifts preserving the complete moment map
+    and tautological primitive, and the first wall/wall/A2 Cech defects
+    vanish. Remaining split-A3 two-wall types, other A3 real forms, deeper
+    strata, zero charge and all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a3-adjacent-a2-two-wall-attachment-2026-08-15.md
+    - lab/process/selected-k77-rsap-a3-adjacent-a2-two-wall-attachment.json
     - explorations/conditional-build/selected-k77-rsap-a3-first-singular-attachment-2026-08-15.md
     - lab/process/selected-k77-rsap-a3-first-singular-attachment.json
     - explorations/conditional-build/selected-k77-rsap-a3-block-pivot-atlas-2026-08-15.md
@@ -610,9 +621,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the constructed principal split-A2 factor attach the first adjacent
-  two-wall intersection to both split-A3 first-wall charts with the required
-  rank schedule and a strict wall/wall/A2 moment and primitive cocycle?
+  Do the remaining split-A3 two-wall orbit types reduce to the constructed
+  principal split-A2 attachment under the completed block-pivot/Weyl atlas,
+  and which first three-wall or mixed-real-form intersection is the next
+  genuinely new singular model?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -621,15 +633,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Attach the first adjacent split-A2 two-wall intersection using the already
-  constructed principal symmetric-pair factor rather than the killed
-  SL(3,R)/SL(2,R) candidate. Prove its overlap with both first-wall charts,
-  preserve the complete moment map and tautological primitive, realize the
-  exact regular/one-wall/two-wall rank schedule, and test the first
-  wall/wall/A2 triple cocycle. Do not infer the singular attachment from the
-  regular A2/A3 common refinement alone. Other A3 real forms, deeper singular
-  strata and the rank-at-most-49 zero-charge gate remain open, with the 182D
-  cotangent parent still the all-charge fallback.
+  Classify the remaining split-A3 two-wall orbit types under the completed
+  block-pivot and Weyl atlas. Prove which are conjugate to the constructed
+  (+,-,+) principal split-A2 attachment and isolate any genuinely distinct
+  isotropy or component type. Then attach the first nonredundant three-wall
+  or mixed-real-form intersection with its exact rank and primitive cocycle.
+  Other A3 real forms, deeper singular strata and the rank-at-most-49
+  zero-charge gate remain open, with the 182D cotangent parent still the
+  all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "split_a3_adjacent_a2_two_wall_attachment",
+  "created": "2026-08-15",
+  "status": "FIRST_ADJACENT_SPLIT_A2_TWO_WALL_ATTACHMENT_CONSTRUCTED__98D_MAP_RANK_91_TO_90_TO_88__WALL_WALL_A2_COCYCLE_STRICT",
+  "layer_0": {
+    "object": "classical symplectic and moment-map singular-atlas attachment",
+    "physical_phase_space": false,
+    "quantization": false,
+    "claim_ceiling": "one adjacent split-A2 two-wall intersection inside the split-A3 carrier"
+  },
+  "embedded_a2": {
+    "ambient_symmetric_pair": "sl(4,R)/so(2,2)",
+    "three_coordinate_signature": "diag(1,-1,1)",
+    "principal_pair": "sl(3,R)/so(2,1)",
+    "carrier": "T*(SL(3,R)/SO(2,1))",
+    "carrier_dimension": 10,
+    "simple_roots": ["alpha_1", "alpha_2"],
+    "root_signatures": ["opposite-sign", "opposite-sign"],
+    "rank_one_restrictions": ["sl(2,R)/so(1,1)", "sl(2,R)/so(1,1)"],
+    "intersection_centralizer": "sl(3,R) direct_sum R5"
+  },
+  "rank_schedule": {
+    "common_leaf_dimension": 78,
+    "external_centre_dimension": 5,
+    "full_source_dimension": 98,
+    "a2_factor_map_rank_regular": 8,
+    "a2_factor_map_rank_one_wall": 7,
+    "a2_factor_map_rank_intersection": 5,
+    "regular_target_poisson_rank": 84,
+    "one_wall_target_poisson_rank": 82,
+    "two_wall_target_poisson_rank": 78,
+    "regular_map_rank": 91,
+    "one_wall_map_rank": 90,
+    "two_wall_map_rank": 88,
+    "regular_fibre_dimension": 7,
+    "one_wall_fibre_dimension": 8,
+    "two_wall_fibre_dimension": 10
+  },
+  "wall_restrictions": {
+    "alpha_1_control": "diag(1,1,-2)",
+    "alpha_2_control": "diag(2,-1,-1)",
+    "regular_control": "diag(2,0,-2)",
+    "intersection_control": "zero in sl3*",
+    "each_wall_sl3_centralizer_dimension": 4,
+    "each_wall_isotropy_centralizer_dimension": 1,
+    "each_wall_model": "S82 times T*(SL(2,R)/SO(1,1)) times T*R6",
+    "two_wall_model": "S78 times T*(SL(3,R)/SO(2,1)) times T*R5",
+    "centre_accounting": "R1 from each A2 wall centralizer plus external R5 gives wall R6",
+    "both_banked_split_wall_models_recovered": true
+  },
+  "attachment": {
+    "alpha_1_wall_to_a2": "embedded opposite-sign root gauge followed by canonical cotangent lift",
+    "alpha_2_wall_to_a2": "embedded opposite-sign root gauge followed by canonical cotangent lift",
+    "moment_map": "STRICT_GEOMETRIC_EQUALITY",
+    "tautological_primitive": "STRICT_EQUALITY_BY_COTANGENT_LIFTS",
+    "symplectic_form": "STRICT_EQUALITY",
+    "both_regular_sides_of_each_wall": true,
+    "intersection_preimage": "smooth zero section of T*(SL(3,R)/SO(2,1))",
+    "local_target_surjectivity": true
+  },
+  "first_triple": {
+    "charts": ["alpha_1_split_wall", "alpha_2_split_wall", "principal_A2_intersection"],
+    "base_cocycle": "STRICT_IDENTITY_BY_COMPOSITION",
+    "cotangent_cocycle": "STRICT_IDENTITY_BY_CHAIN_RULE",
+    "a2_weyl_braid": "s1 s2 s1 equals s2 s1 s2",
+    "moment_cech_defect": "ZERO",
+    "primitive_cech_defect": "ZERO"
+  },
+  "scope": {
+    "first_adjacent_split_a2_two_wall_attachment": "CONSTRUCTED",
+    "all_split_a3_two_wall_intersections": "NOT_CLASSIFIED",
+    "other_a3_real_forms": "OPEN",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a3-adjacent-a2-two-wall-attachment-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a3_adjacent_a2_two_wall_attachment_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a3-adjacent-a2-two-wall-attachment-review.md",
+  "next_gate": "CLASSIFY_THE_REMAINING_SPLIT_A3_TWO_WALL_TYPES_THEN_ATTACH_THE_FIRST_THREE_WALL_OR_MIXED_REAL_FORM_INTERSECTION"
+}
