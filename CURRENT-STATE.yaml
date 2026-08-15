@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4e07464866919bb8d46844e52e80a4894103c2fc
+revision_basis: 1af2124e5bc328b4b2563261f02482370bc4a3d6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -670,7 +670,23 @@ current_result:
     gate is the anticommuting-involution orbit census, beginning with signed
     Young diagrams; one missed nonzero orbit kills this horn's neighborhood
     claim because the image is conic.
+    That nilpotent census now closes positively. Orthogonal partitions of 14
+    with paired even rows give exactly 43 partition types and 99 split-real
+    signed-form allocations. Every row admits a Q-orthogonal involution
+    anticommuting with the nilpotent and having eigenspace signatures (3,4)
+    and (4,3); no very-even split occurs because 14 is two modulo four. Thus
+    the complete real nilpotent cone meets Ad(G)p. An explicit principal
+    [13,1] integer matrix has ambient/h/p adjoint ranks 84/42/42, so its
+    seven-dimensional centralizer lies in p and the cotangent moment map has
+    rank 91. Exact [5,1] plus four-elliptic and [3,1] plus elliptic/hyperbolic
+    regular-nonsemisimple controls have the same ranks. Those two mixed rows
+    are controls, not a primary-decomposition exhaustion. Complete regular
+    nonsemisimple and singular mixed-Jordan coverage remains open, so no zero
+    neighborhood, surjectivity or RSAP is claimed. The next gate is the full
+    mixed-primary census, requiring trivial h-centralizer on every regular row.
   evidence:
+    - explorations/conditional-build/selected-k89-rsap-balanced-nilpotent-orbit-census-2026-08-15.md
+    - lab/process/selected-k89-rsap-balanced-nilpotent-orbit-census.json
     - explorations/conditional-build/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn-2026-08-15.md
     - lab/process/selected-k88-rsap-zero-charge-symmetric-mixed-cartan-horn.json
     - explorations/conditional-build/selected-k87-rsap-zero-charge-maximal-unipotent-horn-2026-08-15.md
@@ -864,14 +880,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify the balanced symmetric horn image Ad(G)p beyond the now-complete
-  regular-semisimple Cartan locus. Use the equivalent predicate that X admits
-  a Q-orthogonal involution R with R^2=1, RX+XR=0 and eigenspace signatures
-  (3,4) and (4,3). Begin with exact signed-Young-diagram representatives for
-  the nilpotent cone, including principal [13,1] and regular nonsemisimple
-  controls; for every regular admitted orbit also require h intersection g_X
-  to be zero. Only after the nilpotent cone passes should mixed Jordan types in
-  singular semisimple centralizers be enumerated. Because Ad(G)p is conic, one
+  Complete the mixed-primary census for the balanced symmetric horn image
+  Ad(G)p now that all 43 nilpotent partition types and 99 split-real signed-form
+  allocations pass. Enumerate regular nonsemisimple primary decompositions
+  first and require h intersection g_X to be zero on every regular row; then
+  enumerate singular mixed Jordan types inside their real semisimple
+  centralizers. The exact [5,1] plus four-elliptic and [3,1] plus
+  elliptic/hyperbolic rows are positive controls, not exhaustion. Because
+  Ad(G)p is conic, one
   missed nonzero orbit kills zero-neighborhood coverage for this horn but not
   nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
   global gluing across the missing ambient successor before that census. The

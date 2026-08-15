@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py` enumerates the
+  complete split-real nilpotent signed-diagram census (`43` partitions, `99`
+  real form allocations, zero failures), then proves exact rank `91` for the
+  principal `[13,1]` orbit and two mixed regular controls. It keeps complete
+  regular-nonsemisimple and singular mixed-Jordan coverage open. It passes
+  `32/32` with Python 3.
+
 - `selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
   constructs the balanced symmetric pair
   `so(7,7)=(so(3,4)+so(4,3))+p`, verifies the exact `42+49`

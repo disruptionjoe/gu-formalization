@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_balanced_symmetric_horn_nilpotent_orbit_census",
+  "created": "2026-08-15",
+  "status": "COMPLETE_NILPOTENT_CONE_ADMITTED__PRINCIPAL_ORBIT_SUBMERSIVE__MIXED_JORDAN_CENSUS_OPEN",
+  "layer_0": {
+    "object": "real nilpotent adjoint orbits in split so(7,7) tested against a balanced anticommuting orthogonal involution",
+    "construction": "classical_hamiltonian_symmetric_space_moment_image",
+    "physical_phase_space": false,
+    "source_selected": false,
+    "particle_comparator": false
+  },
+  "classification": {
+    "ambient_dimension": 14,
+    "ambient_signature": [7, 7],
+    "orthogonal_partition_rule": "every_even_part_has_even_multiplicity",
+    "admissible_partition_count": 43,
+    "split_real_signed_form_allocation_count": 99,
+    "failed_balanced_allocations": 0,
+    "very_even_split_cases": 0,
+    "very_even_reason": "a very-even partition has size divisible by 4, whereas 14 is 2 modulo 4",
+    "odd_block_model": "d=2k+1, Q_d(i,d-1-i)=c*(-1)^i, D_d(i)=(-1)^i",
+    "even_block_model": "paired d=2k chains use Q=omega_d tensor eta_2m and R=D_d tensor A_2m for two anti-symplectic involutions",
+    "balanced_target": "R eigenspace signatures (3,4) and (4,3)",
+    "membership_result": "EVERY_REAL_NILPOTENT_SIGNED_FORM_TYPE_MEETS_Ad(G)p"
+  },
+  "principal_control": {
+    "partition": [13, 1],
+    "form": "13-chain alternating anti-diagonal of signature (7,6) plus one negative singleton",
+    "involution": "alternating chain grading plus negative singleton",
+    "involution_signatures": [[4, 3], [3, 4]],
+    "ambient_adjoint_rank": 84,
+    "ambient_centralizer_dimension": 7,
+    "h_adjoint_rank": 42,
+    "h_centralizer_dimension": 0,
+    "p_kernel_dimension": 7,
+    "moment_map_rank": 91,
+    "target_poisson_rank": 84,
+    "status": "ADMITTED_AND_POINTWISE_BOUND_SATURATING"
+  },
+  "regular_nonsemisimple_controls": [
+    {
+      "zero_primary_partition": [5, 1],
+      "nonzero_primary_blocks": "two positive elliptic planes plus two negative elliptic planes",
+      "weights": [1, 2, 4, 8],
+      "ambient_adjoint_rank": 84,
+      "h_centralizer_dimension": 0,
+      "moment_map_rank": 91
+    },
+    {
+      "zero_primary_partition": [3, 1],
+      "nonzero_primary_blocks": "two positive elliptic, two negative elliptic and one hyperbolic plane",
+      "weights": [1, 2, 4, 8, 16],
+      "ambient_adjoint_rank": 84,
+      "h_centralizer_dimension": 0,
+      "moment_map_rank": 91
+    }
+  ],
+  "coverage_gate": {
+    "nilpotent_cone": "COVERED",
+    "principal_regular_nilpotent_submersivity": "PROVED",
+    "regular_nonsemisimple_controls": "TWO_EXACT_CONTROLS_PASS",
+    "complete_regular_nonsemisimple_census": "OPEN",
+    "singular_mixed_jordan_census": "OPEN",
+    "zero_neighborhood": "OPEN",
+    "surjectivity": "OPEN",
+    "global_rsap": "OPEN"
+  },
+  "disposition": {
+    "balanced_horn": "SURVIVES_NILPOTENT_CONE_TO_MIXED_PRIMARY_CENSUS",
+    "ambient_a3_successor": "TYPE_MISSING_NOT_REOPENED",
+    "dimension_interval": [98, 182],
+    "source_action_selection": "NOT_PROVIDED",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k89-rsap-balanced-nilpotent-orbit-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k89-rsap-balanced-nilpotent-orbit-census-review.md",
+  "next_gate": "EXHAUST_REGULAR_NONSEMISIMPLE_PRIMARY_DECOMPOSITIONS_THEN_SINGULAR_MIXED_JORDAN_TYPES__REQUIRE_TRIVIAL_h_CENTRALIZER_ON_EVERY_REGULAR_ROW"
+}
