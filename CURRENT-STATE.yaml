@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 576af2916a5aa28e749c8f60b2906a5a99de2653
+revision_basis: 510bfdff522280e137fcaad4ea988e6a2569ee21
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -592,7 +592,29 @@ current_result:
     a finite global cover. No new local model is required. The cross-real-form
     edge remains TYPE_MISSING and was not used. The next gate is the complete
     six-configuration quaternionic SU*(4)/SO*(4) singular transition atlas.
+    That quaternionic atlas now closes at canonical-family, exact-rank,
+    degeneration and cotangent-frame grade. The K79 census gives six
+    quaternionic spectral/Jordan families: two regular and four singular.
+    The one-nonreal-pair plus real-double family has full/moving centralizers
+    5/4 and target/map rank 82/90. The repeated-nonreal semisimple pair, two
+    distinct real doubles and paired real size-two Jordan family each have
+    centralizers 7/5 and target/map rank 80/89. The origin has 15/9 and
+    72/85. Every row saturates the 98D pointwise bound. Twelve exact complex-
+    symmetric quaternionic-real paths connect both regular families to the
+    singular set and every singular family to the origin directly or through
+    a registered intermediate. Four rational SO*(4) Cayley frames form a
+    noncommuting consistency nerve; all six primitive overlaps and all four
+    base plus four cotangent triangles close, with zero defect from the one
+    global SU*(4) cotangent moment map. The six families are canonical types,
+    not real adjoint-orbit counts, and the four frames are not asserted to be
+    a finite global cover. No new local model is required. All five local real-
+    A3 atlases are now closed at their stated local grades. Cross-real-form
+    incidence remains TYPE_MISSING. The next gate is the first deeper ambient
+    so(7,7) singular stratum reached by the completed local A3 atlases, before
+    the zero-charge gate.
   evidence:
+    - explorations/conditional-build/selected-k85-rsap-sustar4-a3-singular-transition-atlas-2026-08-15.md
+    - lab/process/selected-k85-rsap-sustar4-a3-singular-transition-atlas.json
     - explorations/conditional-build/selected-k84-rsap-compact-su4-a3-semisimple-singular-transition-atlas-2026-08-15.md
     - lab/process/selected-k84-rsap-compact-su4-a3-semisimple-singular-transition-atlas.json
     - explorations/conditional-build/selected-k83-rsap-su31-a3-singular-transition-atlas-2026-08-15.md
@@ -766,10 +788,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  What is the complete singular transition atlas across the six canonical
-  configurations inside the constructed quaternionic SU*(4)/SO*(4) A3
-  principal factor, including exact rank schedules, degeneration paths and
-  within-factor cotangent transition cocycles?
+  What is the first deeper ambient so(7,7) singular stratum reached by the
+  completed local real-A3 atlases, and which exact local rank and transition
+  data survive its ambient incidence constraints?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -778,12 +799,10 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Work entirely inside the constructed quaternionic SU*(4)/SO*(4) factor.
-  Exhaust all six canonical spectral/Jordan configurations, compute exact
-  centralizer, moving-centralizer, target-rank and map-rank schedules,
-  construct explicit regular approaches and degeneration paths, and close
-  every admitted within-factor cotangent moment and primitive cocycle.
-  Do not manufacture any cross-real-form atlas edge:
+  Classify the first deeper ambient so(7,7) singular stratum reached by the
+  now-complete local real-A3 atlases. Freeze the actual ambient support,
+  centralizer and incidence object before transferring any local rank or
+  cotangent transition. Do not manufacture any cross-real-form atlas edge:
   cross-real-form incidence is TYPE_MISSING until an explicit source/action-
   owned pair of ambient support embeddings or equivalent joint-orbit datum is
   supplied. On revival, fix the common-support dimension and signature and
@@ -791,8 +810,8 @@ next_condition: >-
   a bridge. Keep the
   naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary Higgs,
   family-index and chirality comparators remain irrelevant to this classical
-  moment-map lane and must not be reintroduced. The quaternionic singular
-  atlas, deeper ambient strata and the rank-at-most-49
+  moment-map lane and must not be reintroduced. The local A3 atlas family is
+  complete at its stated grades; deeper ambient strata and the rank-at-most-49
   zero-charge gate remain open, with the 182D cotangent parent still the
   all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-

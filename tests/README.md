@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k85_rsap_sustar4_a3_singular_transition_atlas_probe.py`
+  retains all six `SU*(4)/SO*(4)` canonical spectral/Jordan families,
+  recomputes the four singular-family and origin schedules, and checks twelve
+  exact quaternionic degenerations. Four rational `SO*(4)` Cayley frames
+  close the six-pair/four-triangle cotangent consistency nerve. It passes
+  `61/61`.
+
 - `channel-swings/selected_k84_rsap_compact_su4_a3_semisimple_singular_transition_atlas_probe.py`
   exhausts all compact `SU(4)/SO(4)` eigenvalue multiplicities, excludes
   nonsemisimple controls by compact normality, recomputes the four singular

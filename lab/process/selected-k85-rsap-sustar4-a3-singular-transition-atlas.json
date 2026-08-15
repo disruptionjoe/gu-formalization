@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "quaternionic_sustar4_a3_complete_singular_transition_atlas",
+  "created": "2026-08-15",
+  "status": "SIX_CANONICAL_FAMILIES_EXHAUSTED__FOUR_SINGULAR_FAMILIES_PLUS_ORIGIN_SCHEDULED__QUATERNIONIC_CLOSURE_GRAPH_AND_SO_STAR4_COTANGENT_NERVE_CLOSED",
+  "layer_0": {
+    "object": "classical quaternionic-real-form spectral and Jordan families with cotangent moment-map transitions inside SU*(4)/SO*(4)",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "cross_real_form_incidence_used": false
+  },
+  "classification": {
+    "canonical_families": [
+      "two_distinct_nonreal_pairs",
+      "paired_nonreal_size_two_jordan",
+      "repeated_nonreal_pair_semisimple",
+      "one_nonreal_pair_plus_real_double",
+      "two_distinct_real_doubles",
+      "paired_real_size_two_jordan"
+    ],
+    "canonical_family_count": 6,
+    "regular_families": [
+      "two_distinct_nonreal_pairs",
+      "paired_nonreal_size_two_jordan"
+    ],
+    "singular_families": [
+      "repeated_nonreal_pair_semisimple",
+      "one_nonreal_pair_plus_real_double",
+      "two_distinct_real_doubles",
+      "paired_real_size_two_jordan"
+    ],
+    "singular_family_count": 4,
+    "origin_is_terminal_stratum_not_seventh_canonical_family": true,
+    "family_count_is_not_claimed_as_real_adjoint_orbit_count": true,
+    "exhaustion": "COMPLETE_FOR_THE_K79_QUATERNIONIC_CANONICAL_SPECTRAL_AND_JORDAN_CENSUS"
+  },
+  "rank_census": {
+    "regular": [3, 3, 15, 84, 91],
+    "one_nonreal_pair_plus_real_double": [5, 4, 14, 82, 90],
+    "repeated_nonreal_pair_semisimple": [7, 5, 13, 80, 89],
+    "two_distinct_real_doubles": [7, 5, 13, 80, 89],
+    "paired_real_size_two_jordan": [7, 5, 13, 80, 89],
+    "origin": [15, 9, 9, 72, 85]
+  },
+  "transitions": {
+    "carrier": "S72 times T*(SU*(4)/SO*(4)) times T*R4",
+    "source_dimension": 98,
+    "linear_degenerations_checked": 12,
+    "every_singular_family_has_regular_approach": true,
+    "every_singular_family_reaches_origin_or_a_registered_intermediate": true,
+    "exact_so_star4_cayley_frames": 4,
+    "pairwise_frame_transitions": 6,
+    "frame_triangles": 4,
+    "moving_tangent_transition_dimension": 9,
+    "cotangent_transition": "INVERSE_TRANSPOSE_OF_THE_SO_STAR4_MOVING_TANGENT_CHANGE",
+    "every_frame_triangle": "STRICT_IDENTITY_BY_GROUP_COMPOSITION",
+    "moment_cech_defect": "ZERO_BY_ONE_GLOBAL_SU_STAR4_COTANGENT_MOMENT_MAP",
+    "primitive_cech_defect": "ZERO_BY_CANONICAL_COTANGENT_LIFTS",
+    "new_degrees_of_freedom": 0
+  },
+  "scope": {
+    "quaternionic_sustar4_singular_transition_atlas": "CLOSED_AT_CANONICAL_FAMILY_RANK_DEGENERATION_AND_COTANGENT_FRAME_GRADE",
+    "all_five_local_a3_real_form_atlases": "CLOSED_AT_THEIR_STATED_LOCAL_GRADES",
+    "new_quaternionic_local_model": "NOT_REQUIRED",
+    "cross_real_form_atlas_edge": "TYPE_MISSING_NOT_REOPENED",
+    "deeper_so77_singular_strata": "OPEN_NEXT",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k85-rsap-sustar4-a3-singular-transition-atlas-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k85_rsap_sustar4_a3_singular_transition_atlas_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k85-rsap-sustar4-a3-singular-transition-atlas-review.md",
+  "next_gate": "CLASSIFY_THE_FIRST_DEEPER_SO77_SINGULAR_STRATUM_REACHED_BY_THE_COMPLETED_LOCAL_A3_ATLASES_BEFORE_ZERO_CHARGE"
+}

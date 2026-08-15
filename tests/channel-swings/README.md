@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k85_rsap_sustar4_a3_singular_transition_atlas_probe.py`
+  replays the exact `su*(4)=so*(4)+m` decomposition, retains all six
+  quaternionic canonical spectral/Jordan families, and recomputes the four
+  singular-family plus origin schedules. Twelve exact paths close the admitted
+  family graph; four rational `SO*(4)` Cayley frames close all six primitive
+  overlaps and four base/cotangent triangles. It passes `61/61` with Python 3.
+
 - `selected_k84_rsap_compact_su4_a3_semisimple_singular_transition_atlas_probe.py`
   reconstructs the compact `6+9` symmetric pair, exhausts the four singular
   eigenvalue multiplicities, recomputes their exact centralizers and

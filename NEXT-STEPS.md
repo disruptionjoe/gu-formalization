@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE QUATERNIONIC `SU*(4)` SINGULAR TRANSITION ATLAS.**
+> The K79 census gives exactly six quaternionic canonical spectral/Jordan
+> families. Two are regular; the four singular families have
+> centralizer/moving-centralizer pairs `5/4` or `7/5`, giving target/map
+> schedules `82/90` or `80/89`, while the origin is `72/85`. Every row
+> saturates the `98D` pointwise bound. Twelve exact quaternionic-real symmetric
+> degenerations connect both regular families to the singular set and every
+> singular family to the origin directly or through a registered
+> intermediate. Four rational `SO*(4)` Cayley frames close all six primitive
+> overlaps and all four base plus four cotangent triangles in a noncommuting
+> consistency nerve. No new local model is needed. **Next classify the first
+> deeper ambient `so(7,7)` singular stratum reached by the completed local
+> `A3` atlases, before attempting the zero-charge gate.** Cross-real-form
+> incidence remains `TYPE_MISSING`; exact probe `61/61`.
+
 > **2026-08-15 COMPLETE COMPACT `SU(4)` SINGULAR TRANSITION ATLAS.** Compact
 > normality reduces every moving control to a real symmetric trace-free
 > matrix, so nonsemisimple types are empty. The fifteen set partitions of four
