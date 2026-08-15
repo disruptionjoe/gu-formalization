@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_connected_orbit_normalizer_refinement",
+  "created": "2026-08-15",
+  "status": "COMPLETE_CONNECTED_REFINEMENT__CLASSICAL_98D_RSAP_CONSTRUCTED",
+  "layer_0": {
+    "object": "classical balanced symmetric-pair cotangent moment map into so(7,7)*",
+    "physical_phase_space": false,
+    "source_selected_subgroup": false,
+    "quantization": false,
+    "particle_comparator": false
+  },
+  "symmetric_pair": {
+    "group": "Spin_0(7,7)",
+    "adjoint_group": "SO_0(7,7)",
+    "ambient_full_group": "O(7,7)",
+    "isotropy_lie_algebra": "so(3,4)+so(4,3)",
+    "balanced_eigenspace_signatures": [[3, 4], [4, 3]],
+    "complement_dimension": 49,
+    "cotangent_carrier_dimension": 98
+  },
+  "component_normalizer": {
+    "ambient_component_quotient": "O(7,7)/SO_0(7,7)=Z2xZ2",
+    "labels": [[1, 1], [-1, 1], [1, -1], [-1, -1]],
+    "generators": ["positive_coordinate_reflection", "negative_coordinate_reflection"],
+    "both_generators_commute_with_balanced_involution": true,
+    "both_generators_preserve_symmetric_complement": true,
+    "image_size": 4,
+    "image": "SURJECTIVE_ON_AMBIENT_COMPONENTS"
+  },
+  "orbit_refinement": {
+    "argument": "For Y in p0 and o in O(7,7), choose k in N_O(p0) in the same ambient component. Then g=o*k^-1 lies in SO_0(7,7), kYk^-1 remains in p0, and oYo^-1 is G-conjugate to that p0 point.",
+    "centralizer_component_enumeration_required": false,
+    "centralizer_component_merging_safe": true,
+    "every_connected_refinement_meets_balanced_complement": true
+  },
+  "coverage_composition": {
+    "semisimple": "K88",
+    "pure_nilpotent_connected_orbits": "K89",
+    "regular_nonsemisimple": "K90",
+    "all_signed_structural_layers": "K95",
+    "all_SO0_connected_orbits": "K96"
+  },
+  "moment_map": {
+    "carrier": "T*(Spin_0(7,7)/H_bal)",
+    "image_formula": "Ad(SO_0(7,7))*p0",
+    "image": "ALL_SO77_DUAL",
+    "surjective": true,
+    "regular_locus_map_rank": 91,
+    "zero_map_rank": 49,
+    "allowed_singular_rank_law": "(189-c)/2"
+  },
+  "rsap": {
+    "definition": "smooth surjective Poisson map submersive on the regular coadjoint locus and allowed to lose rank on singular strata",
+    "constructed": true,
+    "minimum_dimension": 98,
+    "lower_bound": 98,
+    "all_charge_everywhere_submersion_minimum": 182,
+    "distinction_preserved": true
+  },
+  "disposition": {
+    "balanced_horn": "GLOBAL_CLASSICAL_RSAP",
+    "connected_orbit_refinement": "CLOSED_UNIFORMLY_BY_NORMALIZER_COMPONENTS",
+    "zero_neighborhood": "CLOSED_BY_GLOBAL_SURJECTIVITY",
+    "surjectivity": "PROVED",
+    "global_rsap": "PROVED_AT_EXACT_MINIMUM_98",
+    "source_action_selection": "OPEN",
+    "global_source_attachment": "OPEN",
+    "bfv_positivity_quantization": "OPEN",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none",
+    "next_gate": "DERIVE_OR_OBSTRUCT_SOURCE_ACTION_SELECTION_AND_GLOBAL_ATTACHMENT_OF_H_BAL_BEFORE_ANY_PHYSICAL_INTERPRETATION"
+  },
+  "artifact": "explorations/conditional-build/selected-k96-rsap-connected-orbit-refinement-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k96_rsap_connected_orbit_refinement_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k96-rsap-connected-orbit-refinement-review.md"
+}

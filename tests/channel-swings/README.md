@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k96_rsap_connected_orbit_refinement_probe.py` proves that the fixed
+  balanced complement's normalizer maps onto all four components of
+  `O(7,7)/SO_0(7,7)`. Its double-coset argument reaches every connected
+  refinement of every K88--K95 structural class, closes global surjectivity,
+  and certifies the exact `98D` classical RSAP minimum while keeping the
+  everywhere-submersive minimum at `182`. It passes `23/23`.
+
 - `selected_k95_rsap_all_centralizer_global_compatibility_census_probe.py`
   extends K94 across every even excess `0,...,84`. The exact `4,348`-row
   inventory splits into `3,691` non-pure-zero nonsemisimple, `558` semisimple

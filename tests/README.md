@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k96_rsap_connected_orbit_refinement_probe.py`
+  proves that independent positive- and negative-coordinate reflections in the
+  balanced-complement normalizer realize all four components of
+  `O(7,7)/SO_0(7,7)`. The resulting double-coset argument upgrades K88--K95 to
+  every connected orbit, proves global moment-map surjectivity, and certifies
+  the exact `98D` classical RSAP minimum while preserving the separate `182D`
+  everywhere-submersive minimum. It passes `23/23`.
+
 - `channel-swings/selected_k95_rsap_all_centralizer_global_compatibility_census_probe.py`
   scans every centralizer excess in the full rank-seven primary grammar. It
   exhausts `3,691` non-pure-zero nonsemisimple signed structural rows, balances

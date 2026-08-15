@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3441efde6603e24598ac0bb5666c54e2f1821a7f
+revision_basis: ad1f13342da1fb26d9599af1a37904650df3046d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -744,11 +744,24 @@ current_result:
     K93-optimal local gradings and saturate the uniform pointwise rank law.
     The same enumerator separately routes 558 fully semisimple rows to K88 and
     all 99 pure-zero rows to K89; its K90--K94 calibration counts are exact.
-    No signed structural layer remains open. The surviving gate is whether a
-    nonnilpotent O(7,7) canonical class can split into connected SO_0(7,7)
-    orbits not all meeting the balanced complement. Until that refinement is
-    closed, no zero neighborhood, surjectivity or RSAP is claimed.
+    No signed structural layer remains open.
+    The connected-orbit seam now closes uniformly. The normalizer of the fixed
+    balanced complement contains independent positive- and negative-coordinate
+    reflections, so it maps onto all four components of
+    O(7,7)/SO_0(7,7). Acting by a same-component normalizer representative
+    keeps a balanced point in the complement and reduces every other ambient
+    representative to SO_0(7,7). Thus every connected refinement of every
+    K88--K95 class meets the same complement, and the canonical moment image
+    is all of so(7,7)*. The smooth 98D cotangent horn is a surjective Poisson
+    map of rank 91 on the complete regular locus, rank 49 at zero, and the
+    sharp K95 rank on each singular layer. It is therefore a classical RSAP
+    at the exact minimum dimension 98. The stronger everywhere-submersive
+    all-charge minimum remains 182. Source selection of H_bal, action-owned
+    global attachment, BFV/positivity, quantization and physical identity all
+    remain open.
   evidence:
+    - explorations/conditional-build/selected-k96-rsap-connected-orbit-refinement-2026-08-15.md
+    - lab/process/selected-k96-rsap-connected-orbit-refinement.json
     - explorations/conditional-build/selected-k95-rsap-all-centralizer-global-compatibility-census-2026-08-15.md
     - lab/process/selected-k95-rsap-all-centralizer-global-compatibility-census.json
     - explorations/conditional-build/selected-k94-rsap-centralizer13-global-compatibility-census-2026-08-15.md
@@ -955,16 +968,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify O(7,7)-to-SO_0(7,7) orbit splitting for every nonnilpotent signed
-  structural class now that K95 closes all 3,691 non-pure-zero nonsemisimple
-  rows with zero balanced-signature failures. Determine the component group of
-  each real centralizer and prove that every connected refinement contains a
-  balanced representative; do not infer this from one O(7,7) representative.
-  K89 already closes the pure nilpotent seam and K88 owns semisimple Cartan
-  closures. Because Ad(G)p is conic, one
-  missed nonzero orbit kills zero-neighborhood coverage for this horn but not
-  nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
-  global gluing across the missing ambient successor before that census. The
+  The independent classical RSAP problem is closed at the exact minimum 98:
+  the balanced horn is globally surjective and regular-submersive, while the
+  everywhere-submersive all-charge minimum remains 182. Next derive or
+  obstruct source/action selection of H_bal and a global attachment of this
+  cotangent carrier to the actual source-owned action. Do not treat the
+  mathematical existence theorem as a physical phase-space selection, and do
+  not infer BFV reduction, positivity, quantization, particle content or
+  phenomenology. The
   one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
   target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
   constructed. Reopen an ambient successor only with an explicit source/action-

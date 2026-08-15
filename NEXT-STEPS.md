@@ -7,6 +7,18 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 CONNECTED REFINEMENT CLOSED; EXACT 98D CLASSICAL RSAP.** The
+> fixed balanced complement normalizer contains independent positive- and
+> negative-coordinate reflections and therefore surjects onto all four
+> components of `O(7,7)/SO_0(7,7)`. Every connected refinement of every
+> K88--K95 structural class meets the same complement. Hence the canonical
+> moment map on `T*(Spin_0(7,7)/H_bal)` is onto all `so(7,7)*`, has rank `91`
+> on the complete regular locus, and realizes an RSAP at the exact lower bound
+> `98`. The stronger everywhere-submersive all-charge minimum remains `182`.
+> **Next derive or obstruct source/action selection and global attachment of
+> `H_bal`; do not promote the independent classical carrier to physical GU.**
+> Exact probe `23/23`.
+
 > **2026-08-15 COMPLETE ALL-CENTRALIZER STRUCTURAL CENSUS.** The calibrated
 > K95 dynamic program scans every even excess `0,...,84` and exhausts `3,691`
 > non-pure-zero nonsemisimple signed structural rows across every attainable
