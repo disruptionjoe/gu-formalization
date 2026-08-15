@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_a3_block_pivot_atlas_probe.py` completes the split-`A3`
+  regular cotangent atlas on the determinant-one signature-`(2,2)` symmetric-
+  form space. It checks the five block shapes, `66` pivot skeletons, `306`
+  inertia-labelled sectors, exact symmetric elimination, discrete Weyl/sign
+  actions, a nonlinear rational overlap and strict cotangent triple closure.
+  It passes `53/53` with Python 3 and leaves the first singular jump open.
+
 - `selected_k77_rsap_a2_integral_affine_atlas_probe.py` restores the two
   varying charges and their existing conjugate Cartan angles, checks the full
   Cech--de Rham differential, the rank-two coroot-lattice triple closure,

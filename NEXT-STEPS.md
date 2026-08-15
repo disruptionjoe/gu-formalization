@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE SPLIT-`A3` BLOCK-PIVOT ATLAS.** The omitted regular
+> sign/Bruhat region now closes through the determinant-one signature-`(2,2)`
+> symmetric-form model of `SL(4,R)/SO(2,2)`. Five `1 x 1`/`2 x 2` pivot
+> shapes give `66` ordered skeletons and `306` inertia-labelled sectors in a
+> redundant finite cover: `144` scalar Gauss sectors and `162` sectors using
+> a `2 x 2` pivot. These are overlapping atlas labels, not connected
+> components. Symmetric elimination proves coverage; nonlinear transitions
+> are cotangent lifts, so the primitive, symplectic form, all moment components
+> and triple cocycles close strictly without a contractibility assumption.
+> The complete split `A2/A3` regular atlas stays `98D`, map rank `91`.
+> **Next attach the first split-`A3` singular centralizer jump and realize the
+> required `91 -> 90` rank loss.** Exact probe `53/53`; other `A3` forms,
+> deeper strata, zero charge and all-strata RSAP remain open.
+
 > **2026-08-15 SPLIT `A2/A3` COMMON REFINEMENT.** One complete connected
 > split regular Gauss big-cell component now closes. Relative to the common
 > `72D` leaf, `O6 x X10(A2) x T*R5` and `X18(A3) x T*R4` are the same

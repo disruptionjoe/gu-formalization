@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_a3_block_pivot_atlas_probe.py` completes
+  the split-`A3` regular atlas using the determinant-one signature-`(2,2)`
+  symmetric-form model. It enumerates five block shapes, `66` ordered pivot
+  skeletons and `306` inertia-labelled sectors, proves exact `1 x 1`/`2 x 2`
+  elimination coverage, exhausts `12,284` determinant-one ternary controls,
+  and checks Weyl/sign actions, a nonlinear rational cotangent overlap and
+  strict triple closure. The split regular atlas closes at `98D`/rank `91`;
+  the first singular jump remains open. It passes `53/53`.
+
 - `channel-swings/selected_k77_rsap_a2_integral_affine_atlas_probe.py`
   constructs the complete compact two-root Cech--de Rham atlas. It verifies
   the existing Cartan-angle cotangent cancellation, coroot-lattice triple
@@ -4560,6 +4569,18 @@ and the first noncommuting `A2/A3/A2` triple. It passes `53/53` with Python 3.
 
 ```sh
 python3 tests/channel-swings/selected_k77_rsap_a2_a3_common_refinement_probe.py
+```
+
+## K77 RSAP complete split-A3 block-pivot atlas
+
+`channel-swings/selected_k77_rsap_a3_block_pivot_atlas_probe.py` certifies the
+complete symmetric `1 x 1`/`2 x 2` block-pivot cover of
+`SL(4,R)/SO(2,2)`, the exact inertia/sign/Weyl census, a genuinely nonlinear
+rational cotangent transition, strict primitive and triple cocycles, and the
+unchanged `98D`/rank-`91` schedule.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_a3_block_pivot_atlas_probe.py
 ```
 
 ## K77 RSAP rank-82 wall family and A2 cocycle gate

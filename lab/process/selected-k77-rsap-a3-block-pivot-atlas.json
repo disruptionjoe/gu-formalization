@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "split_a3_complete_block_pivot_cotangent_atlas",
+  "created": "2026-08-15",
+  "status": "FULL_SPLIT_A3_REGULAR_ATLAS_CONSTRUCTED__SIGNED_BLOCK_PIVOT_COCYCLES_STRICT__FIRST_SINGULAR_CENTRALIZER_JUMP_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "layer_0": {
+    "object": "classical symplectic and moment atlas on T*(SL(4,R)/SO(2,2)) times T*R4",
+    "physical_phase_space": false,
+    "particle_comparator": false
+  },
+  "symmetric_space": {
+    "model": "B22={Q=Q^T, det(Q)=1, inertia(Q)=(2,2)}",
+    "homogeneous_identification": "SL(4,R)/SO(2,2) via gH maps to g H22 g^T",
+    "base_dimension": 9,
+    "cotangent_factor_dimension": 18
+  },
+  "block_pivot_cover": {
+    "factorization": "P Q P^T=L D L^T with symmetric nonsingular 1x1 or 2x2 blocks in D",
+    "block_compositions": ["1+1+1+1", "2+1+1", "1+2+1", "1+1+2", "2+2"],
+    "ordered_pivot_skeletons": {
+      "1+1+1+1": 24,
+      "2+1+1": 12,
+      "1+2+1": 12,
+      "1+1+2": 12,
+      "2+2": 6,
+      "total": 66
+    },
+    "inertia_labels_per_skeleton": {
+      "1+1+1+1": 6,
+      "2+1+1": 4,
+      "1+2+1": 4,
+      "1+1+2": 4,
+      "2+2": 3
+    },
+    "labelled_chart_sectors": {
+      "1+1+1+1": 144,
+      "2+1+1": 48,
+      "1+2+1": 48,
+      "1+1+2": 48,
+      "2+2": 18,
+      "total": 306
+    },
+    "ordinary_scalar_gauss_sectors": 144,
+    "new_block_pivot_sectors": 162,
+    "labels_are_disjoint_components": false,
+    "coverage": "EVERY_NONSINGULAR_SIGNATURE_22_FORM",
+    "coverage_argument": "symmetric elimination always finds a nonzero 1x1 diagonal pivot or, when every diagonal vanishes, a nonsingular 2x2 off-diagonal pivot; the Schur complement stays nonsingular"
+  },
+  "sign_and_weyl_data": {
+    "scalar_pivot_inertia_words": 6,
+    "weyl_group": "S4",
+    "weyl_order": 24,
+    "split_diagonal_centralizer_components": 8,
+    "effective_form_congruence_sign_actions": 4,
+    "reason_for_four_effective_actions": "epsilon and -epsilon induce the same congruence on symmetric forms",
+    "action": "base diffeomorphisms with inverse-transpose cotangent lifts"
+  },
+  "transition_cocycle": {
+    "base_transition": "f_ji=kappa_j^{-1} composed with kappa_i on every nonempty block-pivot overlap",
+    "cotangent_lift": "x_j=f_ji(x_i), xi_j=(Df_ji)^{-T} xi_i",
+    "tautological_primitive": "STRICT_EQUALITY",
+    "symplectic_form": "STRICT_EQUALITY",
+    "moment_map": "STRICT_GEOMETRIC_EQUALITY_IN_ALL_LOCAL_COORDINATES",
+    "triple_cocycle": "STRICT_IDENTITY_BY_CHART_COMPOSITION",
+    "primitive_monodromy": "ZERO_WITHOUT_CONTRACTIBILITY_ASSUMPTION",
+    "nonlinear_control": "exact rational two-pivot overlap"
+  },
+  "common_refinement": {
+    "a3_factor": "X18(A3)=T*B22",
+    "centre_factor": "T*R4",
+    "refinement_dimension": 26,
+    "common_leaf_dimension": 72,
+    "full_source_dimension": 98,
+    "regular_map_rank": 91,
+    "all_19_local_target_components_intertwined": true
+  },
+  "scope": {
+    "selected_identity_gauss_component": "CONSTRUCTED_BY_PREDECESSOR",
+    "full_split_a3_regular_atlas": "CONSTRUCTED",
+    "split_a2_a3_regular_transition_atlas": "CONSTRUCTED",
+    "compact_and_mixed_a3_real_forms": "OPEN",
+    "first_singular_centralizer_jump": "OPEN",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "reference": "https://www.netlib.org/lapack/explore-html/d8/d0e/group__hetrf_ga431b081d6c9c48af82ec003a7d3070ff.html",
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a3-block-pivot-atlas-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a3_block_pivot_atlas_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a3-block-pivot-atlas-review.md",
+  "next_gate": "ATTACH_THE_FIRST_SPLIT_A3_SINGULAR_CENTRALIZER_JUMP_WITH_THE_REQUIRED_91_TO_90_MAP_RANK_LOSS"
+}

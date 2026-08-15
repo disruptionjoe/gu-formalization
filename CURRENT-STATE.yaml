@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 02ef0881ce42847f5da18fc7ee7f519d4df77af4
+revision_basis: a148ed80a9885f5412bbd3f018ab12aaba3d185a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -430,9 +430,23 @@ current_result:
     make the selected overlap component contractible, so its cotangent lift
     is global there with zero monodromy. The first noncommuting A2/A3/A2
     triple telescopes to identity with zero moment and primitive Cech defect.
-    Other split sign and Bruhat components, other A3 real forms, the full
-    singular stratification, zero charge and all-strata RSAP remain open.
+    The remaining split-A3 regular atlas now closes through the complete
+    symmetric block-pivot cover of
+    B22={Q=Q^T,det(Q)=1,inertia(Q)=(2,2)}=SL(4,R)/SO(2,2). The five
+    1x1/2x2 pivot shapes give 66 ordered skeletons and 306 inertia-labelled
+    sectors in a redundant finite atlas; 144 are scalar Gauss sectors and 162
+    genuinely use a 2x2 pivot. These labels are overlapping charts, not
+    connected-component counts. Exact symmetric elimination proves coverage,
+    while every nonlinear overlap is an ordinary cotangent lift. The
+    tautological primitive and symplectic form therefore glue strictly without
+    a contractibility assumption, the geometric moment map intertwines in all
+    local coordinates, and triple cocycles close by chart composition. The
+    split A2/A3 regular transition atlas is complete at 98D/map rank 91.
+    Other A3 real forms, the first singular centralizer jump, deeper strata,
+    zero charge and all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a3-block-pivot-atlas-2026-08-15.md
+    - lab/process/selected-k77-rsap-a3-block-pivot-atlas.json
     - explorations/conditional-build/selected-k77-rsap-a2-a3-common-refinement-2026-08-15.md
     - lab/process/selected-k77-rsap-a2-a3-common-refinement.json
     - explorations/conditional-build/selected-k77-rsap-a2-kostant-a3-factor-2026-08-15.md
@@ -584,10 +598,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do the remaining split-A3 regular sign and Bruhat components glue to the
-  constructed big-cell component with compatible moment and primitive
-  cocycles, and can the resulting atlas cross its first singular centralizer
-  jump?
+  Can the completed split-A3 regular block-pivot atlas attach the first
+  singular centralizer jump with a smooth Poisson map, compatible moment and
+  primitive overlaps, and the required full-carrier map-rank loss 91 to 90?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -596,14 +609,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify the remaining split-A3 regular sign and Bruhat components and
-  compute their transition cocycles against the constructed identity-cell
-  component. Only if the full split regular atlas closes should the next gate
-  attach the first singular centralizer jump. Do not infer coverage of every
-  regular component from one contractible big cell, and do not extend to
-  compact or mixed A3 forms before the split component census passes. Deeper
-  singular strata and the rank-at-most-49 zero-charge gate remain open, with
-  the 182D cotangent parent still the all-charge fallback.
+  Attach one codimension-one split-A3 subregular centralizer-jump chart to the
+  completed regular block-pivot atlas. Construct the local smooth Poisson
+  normal form, prove surjectivity onto a neighborhood of both regular sides
+  and the wall, preserve the geometric moment map and tautological primitive
+  on every overlap, and realize the required 98D full-carrier differential-
+  rank change 91 to 90 as the target Poisson rank changes 84 to 82. Do not
+  infer this singular attachment from regular cotangent naturality, and do not
+  extend to compact or mixed A3 forms before the split singular gate passes.
+  Deeper singular strata and the rank-at-most-49 zero-charge gate remain open,
+  with the 182D cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6
