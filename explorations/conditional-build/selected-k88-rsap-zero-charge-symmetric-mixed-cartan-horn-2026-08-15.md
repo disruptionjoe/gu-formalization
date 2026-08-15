@@ -15,8 +15,9 @@ canon_verdict_change: none
 
 K87's real-Cartan obstruction is not universal. A balanced symmetric subgroup
 gives a smooth `98D` cotangent horn that contains zero and exact submersive
-representatives of all four real regular-semisimple Cartan types of
-`so(7,7)`, including the action-owned `(split 5, compact 2)` type.
+representatives of all ten real regular-semisimple Cartan spectral classes of
+`so(7,7)`, including the action-owned non-loxodromic `(split 5, compact 2)`
+class.
 
 Let
 
@@ -27,9 +28,10 @@ h = so(3,4) + so(4,3).
 ```
 
 Let `H_bal` be the connected closed symmetric subgroup with Lie algebra `h`.
-It is locally the product of the two indicated spin groups; the harmless
-finite central quotient is suppressed rather than falsely identifying the
-embedded subgroup with a literal direct product.
+Globally it is the block-stabilizer image of
+`(Spin_0(3,4) x Spin_0(4,3))/diagonal Z2`; writing a plain direct product would
+suppress that finite kernel. The quotient changes no Lie-algebra dimension or
+differential-rank calculation below.
 
 The involution `S=+1` on `U` and `-1` on `W` gives
 
@@ -67,7 +69,28 @@ rank(dJ) = 49 + rank(ad_X:p->h)
 Thus a regular `X` with its seven-dimensional centralizer contained in `p`
 has map rank `91` over target rank `84`.
 
-## Four exact real Cartan controls
+## Ten exact real Cartan controls
+
+A regular real Cartan in the vector representation decomposes into `H`
+hyperbolic two-planes, paired positive/negative definite elliptic two-planes
+counted by `E`, and `L` neutral loxodromic four-planes. Signature `(7,7)`
+forces
+
+```text
+H + 2E + 2L = 7,
+split rank = H+L,
+compact rank = 2E+L.
+```
+
+The ten triples `(H,E,L)` with `E+L <= 3` are the ten spectral classes. The
+seven split/compact-rank pairs alone are not a complete classification:
+`(5,2)`, `(4,3)`, and `(3,4)` occur with more than one loxodromic count.
+This is the `O(p,q)` maximal-real-torus block classification specialized to
+`p=q=7`; the indecomposable definite, hyperbolic, and neutral `C*` blocks and
+conjugacy-by-block-parameters are given in Propositions 2.1--2.4 of
+[Dokovic--Thang 1994](https://doi.org/10.4153/CJM-1994-039-5).
+
+### Four non-loxodromic classes
 
 Write the signs of `U` as `+++----` and those of `W` as `++++---`. Pair the
 seven `U` lines with `W` using these permutations:
@@ -91,11 +114,39 @@ K87 excluded spectral type. The whole corresponding Cartan lies in `p`, so
 the construction contains a conjugate of every regular element of that type,
 not only the printed witness.
 
+### Six loxodromic classes
+
+On a neutral `U_(1,1)+W_(1,1)` four-plane, use the cross-block coefficient
+matrix
+
+```text
+A = [-3 -3; -3 -2].
+```
+
+On one half of that block, `X^2` has trace `5`, determinant `9`, and
+discriminant `-11`. It therefore supplies a genuine loxodromic Cartan block,
+not a disguised pair of pure real or imaginary blocks. Disjoint copies scaled
+by `1,4,16`, plus distinct pure-block weights, give the remaining six classes:
+
+| `H` | `E` | `L` | split/compact rank |
+|---:|---:|---:|---:|
+| `5` | `0` | `1` | `(6,1)` |
+| `3` | `1` | `1` | `(4,3)` |
+| `1` | `2` | `1` | `(2,5)` |
+| `3` | `0` | `2` | `(5,2)` |
+| `1` | `1` | `2` | `(3,4)` |
+| `1` | `0` | `3` | `(4,3)` |
+
+Exact row reduction again gives ambient adjoint rank `84`, trivial
+`h`-centralizer, `p`-kernel dimension `7`, and moment-map rank `91` in every
+class. Together with the four non-loxodromic rows, this exhausts the ten
+orthogonal spectral decompositions compatible with signature `(7,7)`.
+
 ## Layer 0 and ownership
 
 This is a classical Hamiltonian homogeneous-space construction. It is
-canonically obtainable as a right-`H` zero reduction of `T*G`, but neither the
-balanced subgroup nor that reduction is selected by the source action. It is
+canonically obtainable as a right-`H_bal` zero reduction of `T*G`, but neither
+the balanced subgroup nor that reduction is selected by the source action. It is
 not a physical BFV phase space, boundary condition, quantization, positive
 domain, or cohomology result. Ordinary Higgs, family-index, and net-chirality
 comparators do not type this question.
@@ -124,7 +175,7 @@ semisimple centralizers.
 - `T*(Spin_0(7,7)/H_bal)` is a smooth canonical `98D`
   Hamiltonian carrier.
 - It achieves map rank `49` at zero and map rank `91` on every real regular-
-  semisimple Cartan type.
+  semisimple Cartan spectral class.
 - It constructs the selected `(5,2)` real-polarization gate and removes K87's
   real-triangular spectral obstruction for this candidate.
 - It does not yet prove coverage or submersivity on regular nonsemisimple or

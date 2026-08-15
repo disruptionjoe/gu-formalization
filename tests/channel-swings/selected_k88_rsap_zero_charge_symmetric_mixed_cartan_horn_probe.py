@@ -118,6 +118,45 @@ def weighted_matching(permutation: list[int], weights: list[int]) -> tuple[list[
     return value, blocks
 
 
+def loxodromic_matching(
+    loxodromic_blocks: int,
+    permutation: list[int],
+) -> tuple[list[list[int]], list[list[list[int]]], list[list[list[int]]], list[int], list[int]]:
+    """Disjoint loxodromic four-planes plus the remaining pure blocks."""
+    coefficients = [[-3, -3], [-3, -2]]
+    lox_values = []
+    used_u: set[int] = set()
+    used_w: set[int] = set()
+    for block_index in range(loxodromic_blocks):
+        lox_u = [block_index, 3 + block_index]
+        lox_w = [block_index, 4 + block_index]
+        used_u.update(lox_u)
+        used_w.update(lox_w)
+        lox_value = zero_matrix()
+        for row, u_index in enumerate(lox_u):
+            for column, w_index in enumerate(lox_w):
+                lox_value = add(
+                    lox_value,
+                    so_basis(U[u_index], W[w_index]),
+                    (4 ** block_index) * coefficients[row][column],
+                )
+        lox_values.append(lox_value)
+
+    remaining_u = [index for index in range(7) if index not in used_u]
+    remaining_w = [index for index in range(7) if index not in used_w]
+    weights = [128 * (2 ** index) for index in range(len(remaining_u))]
+    blocks = [
+        so_basis(U[remaining_u[index]], W[remaining_w[permutation[index]]])
+        for index in range(len(remaining_u))
+    ]
+    value = zero_matrix()
+    for lox_value in lox_values:
+        value = add(value, lox_value)
+    for weight, block in zip(weights, blocks):
+        value = add(value, block, weight)
+    return value, lox_values, blocks, remaining_u, remaining_w
+
+
 def adjoint_rank(value: list[list[int]], basis: list[list[list[int]]]) -> int:
     return matrix_rank([flatten(commutator(value, direction)) for direction in basis])
 
@@ -162,7 +201,7 @@ check("rank", "the target Poisson rank at zero is zero", True)
 check("rank", "the pointwise zero bound is saturated", 2 * 49 == 98 + 0)
 
 
-print("\nD. ALL FOUR REGULAR SEMISIMPLE REAL CARTAN TYPES")
+print("\nD. FOUR NON-LOXODROMIC REGULAR SEMISIMPLE CARTAN CLASSES")
 cartan_rows = [
     ("(7,0)", 7, 0, [4, 5, 6, 0, 1, 2, 3], [1, 2, 4, 8, 16, 32, 64]),
     ("(5,2)", 5, 2, [0, 5, 6, 4, 1, 2, 3], [3, 1, 2, 5, 4, 8, 16]),
@@ -201,12 +240,99 @@ for name, split_rank, compact_rank, permutation, weights in cartan_rows:
         "type": name,
         "split_rank": split_rank,
         "compact_rank": compact_rank,
+        "loxodromic_blocks": 0,
         "map_rank": 91,
         "target_poisson_rank": 84,
     })
 
 
-print("\nE. CONTRARY AND MUTATION CONTROLS")
+print("\nE. SIX LOXODROMIC REGULAR SEMISIMPLE CARTAN CLASSES")
+lox_rows = [
+    ("(6,1)", 6, 1, 1, [3, 4, 0, 1, 2]),
+    ("(4,3)", 4, 3, 1, [0, 4, 3, 1, 2]),
+    ("(2,5)", 2, 5, 1, [0, 1, 3, 4, 2]),
+    ("(5,2)", 5, 2, 2, [2, 0, 1]),
+    ("(3,4)", 3, 4, 2, [0, 2, 1]),
+    ("(4,3)", 4, 3, 3, [0]),
+]
+for name, split_rank, compact_rank, loxodromic_blocks, permutation in lox_rows:
+    value, lox_values, blocks, remaining_u, remaining_w = loxodromic_matching(
+        loxodromic_blocks, permutation
+    )
+    lox_invariants = []
+    for block_index, lox_value in enumerate(lox_values):
+        square = matmul(lox_value, lox_value)
+        u_pair = (block_index, 3 + block_index)
+        squared_half = [[square[U[i]][U[j]] for j in u_pair] for i in u_pair]
+        squared_trace = squared_half[0][0] + squared_half[1][1]
+        squared_determinant = (
+            squared_half[0][0] * squared_half[1][1]
+            - squared_half[0][1] * squared_half[1][0]
+        )
+        squared_discriminant = squared_trace * squared_trace - 4 * squared_determinant
+        scale = 4 ** block_index
+        lox_invariants.append(
+            squared_trace == 5 * scale * scale
+            and squared_determinant == 9 * scale ** 4
+            and squared_discriminant == -11 * scale ** 4
+        )
+    same_sign_blocks = sum(
+        Q_SIGNS[U[remaining_u[index]]]
+        == Q_SIGNS[W[remaining_w[permutation[index]]]]
+        for index in range(len(remaining_u))
+    )
+    full_rank = adjoint_rank(value, G_BASIS)
+    h_rank = adjoint_rank(value, H_BASIS)
+    p_rank = adjoint_rank(value, P_BASIS)
+    class_label = f"{name} with L={loxodromic_blocks}"
+    check("loxodromic", f"{class_label} has its declared irreducible loxodromic four-planes",
+          all(lox_invariants))
+    check("loxodromic", f"{name} has its declared split/compact type",
+          loxodromic_blocks + len(blocks) - same_sign_blocks == split_rank
+          and loxodromic_blocks + same_sign_blocks == compact_rank)
+    check("loxodromic", f"{class_label} blocks commute pairwise",
+          all(commutator(left, right) == zero_matrix() for left in blocks for right in blocks)
+          and all(commutator(lox_value, block) == zero_matrix()
+                  for lox_value in lox_values for block in blocks)
+          and all(commutator(left, right) == zero_matrix()
+                  for left in lox_values for right in lox_values))
+    check("loxodromic", f"{class_label} witness lies in the symmetric complement p", in_p(value))
+    check("loxodromic", f"{class_label} has adjoint rank 84 and centralizer dimension seven",
+          full_rank == 84 and 91 - full_rank == 7)
+    check("loxodromic", f"{class_label} has trivial h-centralizer and p-kernel dimension seven",
+          h_rank == 42 and len(P_BASIS) - p_rank == 7)
+    check("loxodromic", f"{class_label} cotangent moment map has rank 91",
+          49 + p_rank == 91)
+    derived_registry_rows.append({
+        "type": name,
+        "split_rank": split_rank,
+        "compact_rank": compact_rank,
+        "loxodromic_blocks": loxodromic_blocks,
+        "map_rank": 91,
+        "target_poisson_rank": 84,
+    })
+
+derived_registry_rows.sort(key=lambda row: (row["compact_rank"], row["loxodromic_blocks"]))
+admissible_spectral_triples = sorted(
+    (7 - 2 * elliptic_pairs - 2 * loxodromic_blocks, elliptic_pairs, loxodromic_blocks)
+    for elliptic_pairs in range(4)
+    for loxodromic_blocks in range(4)
+    if 7 - 2 * elliptic_pairs - 2 * loxodromic_blocks > 0
+)
+derived_spectral_triples = sorted(
+    (
+        row["split_rank"] - row["loxodromic_blocks"],
+        (row["compact_rank"] - row["loxodromic_blocks"]) // 2,
+        row["loxodromic_blocks"],
+    )
+    for row in derived_registry_rows
+)
+check("classification", "H+2E+2L=7 exhausts exactly ten orthogonal spectral classes",
+      len(admissible_spectral_triples) == 10
+      and derived_spectral_triples == admissible_spectral_triples)
+
+
+print("\nF. CONTRARY AND MUTATION CONTROLS")
 check("control", "the (7,0)|(0,7) split has no same-sign cross block",
       min(7, 0) + min(0, 7) == 0)
 check("control", "the (2,5)|(5,2) split supports at most four compact blocks",
@@ -228,7 +354,7 @@ check("mutation", "repeating a split weight enlarges the centralizer",
 check("control", "one missed orbit would remain missed under every nonzero rescaling", True)
 
 
-print("\nF. REGISTRY AND CLAIM CEILING")
+print("\nG. REGISTRY AND CLAIM CEILING")
 registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
 check("schema", "the registry records the balanced 42+49 symmetric pair",
       registry["symmetric_pair"]["stabilizer_dimension"] == 42
@@ -236,10 +362,15 @@ check("schema", "the registry records the balanced 42+49 symmetric pair",
 check("schema", "the registry records the 98D carrier and zero rank 49",
       registry["construction"]["carrier_dimension"] == 98
       and registry["construction"]["zero_charge_map_rank"] == 49)
-check("schema", "all four derived Cartan rows equal the registry rows",
+check("schema", "all ten derived Cartan classes equal the registry rows",
       registry["regular_cartan_coverage"]["cartan_types"] == derived_registry_rows)
+check("schema", "the carrier uses the connected Spin block stabilizer, including its finite kernel",
+      "H_bal" in registry["symmetric_pair"]["stabilizer_group"]
+      and "diagonal_Z2" in registry["symmetric_pair"]["spin_cover_description"]
+      and "H_bal" in registry["construction"]["carrier"])
 check("schema", "the selected action-owned (5,2) type is constructed",
       registry["regular_cartan_coverage"]["selected_action_owned_type"] == "(5,2)"
+      and registry["regular_cartan_coverage"]["selected_action_owned_loxodromic_blocks"] == 0
       and registry["disposition"]["selected_5_2_real_polarization_gate"] == "CONSTRUCTED")
 check("scope", "regular semisimple coverage is not promoted to singular coverage",
       registry["coverage_gate"]["regular_nonsemisimple_orbits"] == "OPEN"
@@ -250,7 +381,7 @@ check("scope", "zero-neighborhood coverage and global RSAP remain open",
 check("scope", "the ambient A3 successor remains type-missing",
       registry["disposition"]["ambient_a3_successor"] == "TYPE_MISSING_NOT_REOPENED")
 check("review", "hostile review preserves the singular-coverage ceiling",
-      "PASS_SELECTED_MIXED_CARTAN_AND_ALL_REGULAR_SEMISIMPLE_TYPES__SINGULAR_COVERAGE_OPEN"
+      "PASS_ALL_TEN_REGULAR_SEMISIMPLE_CARTAN_TYPES__SINGULAR_COVERAGE_OPEN"
       in REVIEW.read_text(encoding="utf-8"))
 
 

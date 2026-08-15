@@ -655,13 +655,14 @@ current_result:
     W_(4,3). The connected symmetric subgroup H_bal with Lie algebra
     so(3,4)+so(4,3) has dimension 42, and its 49-dimensional off-diagonal
     complement p is exactly h-perp.
-    Therefore T*(G/H) is a smooth 98-dimensional Hamiltonian carrier with map
-    rank 49 at zero. Four exact commuting matchings place full regular Cartan
-    subalgebras of types (7,0), (5,2), (3,4) and (1,6) inside p. In every row
-    the ambient adjoint rank is 84, h meets the seven-dimensional centralizer
+    Therefore T*(G/H_bal) is a smooth 98-dimensional Hamiltonian carrier with
+    map rank 49 at zero. Four non-loxodromic matchings and six controls with
+    one, two or three loxodromic four-planes exhaust all ten real Cartan
+    spectral classes compatible with signature (7,7). In every row the
+    ambient adjoint rank is 84, h meets the seven-dimensional centralizer
     trivially, and the cotangent moment map has rank 91. Thus the selected
-    (5,2) charge and the complete regular-semisimple locus pass; K87's real-
-    triangular spectral obstruction was candidate-specific. The image is
+    non-loxodromic (5,2) charge and the complete regular-semisimple locus pass;
+    K87's real-triangular spectral obstruction was candidate-specific. The image is
     Ad(G)p. Coverage of regular nonsemisimple and singular orbits remains open,
     so no zero neighborhood, surjectivity or RSAP is claimed. The next exact
     gate is the anticommuting-involution orbit census, beginning with signed

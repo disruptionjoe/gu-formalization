@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "rsap_zero_charge_balanced_symmetric_pair_cotangent_horn",
   "created": "2026-08-15",
-  "status": "SHARP_98D_ZERO_HORN__ALL_FOUR_REGULAR_SEMISIMPLE_CARTAN_TYPES_SUBMERSIVE__SINGULAR_AND_NONSEMISIMPLE_COVERAGE_OPEN",
+  "status": "SHARP_98D_ZERO_HORN__ALL_TEN_REGULAR_SEMISIMPLE_CARTAN_SPECTRAL_CLASSES_SUBMERSIVE__SINGULAR_AND_NONSEMISIMPLE_COVERAGE_OPEN",
   "layer_0": {
     "object": "classical cotangent-lift Hamiltonian moment map for a balanced pseudo-orthogonal symmetric space",
     "physical_phase_space": false,
@@ -18,7 +18,8 @@
     "ambient_lie_algebra_dimension": 91,
     "orthogonal_decomposition": "R^(7,7)=U_(3,4)+W_(4,3)",
     "involution": "S=+1_on_U_minus_1_on_W",
-    "stabilizer_group": "CONNECTED_CLOSED_SYMMETRIC_SUBGROUP_H_bal_WITH_LIE_ALGEBRA_so(3,4)+so(4,3)__CENTRAL_QUOTIENT_SUPPRESSED",
+    "stabilizer_group": "CONNECTED_CLOSED_SYMMETRIC_BLOCK_STABILIZER_H_bal_WITH_LIE_ALGEBRA_so(3,4)+so(4,3)",
+    "spin_cover_description": "H_bal_is_the_block_stabilizer_image_of_(Spin_0(3,4)xSpin_0(4,3))/diagonal_Z2",
     "stabilizer_lie_algebra": "so(3,4)+so(4,3)",
     "stabilizer_dimension": 42,
     "complement": "p=off_diagonal_S_odd_part",
@@ -43,12 +44,19 @@
   },
   "regular_cartan_coverage": {
     "cartan_types": [
-      {"type": "(7,0)", "split_rank": 7, "compact_rank": 0, "map_rank": 91, "target_poisson_rank": 84},
-      {"type": "(5,2)", "split_rank": 5, "compact_rank": 2, "map_rank": 91, "target_poisson_rank": 84},
-      {"type": "(3,4)", "split_rank": 3, "compact_rank": 4, "map_rank": 91, "target_poisson_rank": 84},
-      {"type": "(1,6)", "split_rank": 1, "compact_rank": 6, "map_rank": 91, "target_poisson_rank": 84}
+      {"type": "(7,0)", "split_rank": 7, "compact_rank": 0, "loxodromic_blocks": 0, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(6,1)", "split_rank": 6, "compact_rank": 1, "loxodromic_blocks": 1, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(5,2)", "split_rank": 5, "compact_rank": 2, "loxodromic_blocks": 0, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(5,2)", "split_rank": 5, "compact_rank": 2, "loxodromic_blocks": 2, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(4,3)", "split_rank": 4, "compact_rank": 3, "loxodromic_blocks": 1, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(4,3)", "split_rank": 4, "compact_rank": 3, "loxodromic_blocks": 3, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(3,4)", "split_rank": 3, "compact_rank": 4, "loxodromic_blocks": 0, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(3,4)", "split_rank": 3, "compact_rank": 4, "loxodromic_blocks": 2, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(2,5)", "split_rank": 2, "compact_rank": 5, "loxodromic_blocks": 1, "map_rank": 91, "target_poisson_rank": 84},
+      {"type": "(1,6)", "split_rank": 1, "compact_rank": 6, "loxodromic_blocks": 0, "map_rank": 91, "target_poisson_rank": 84}
     ],
     "selected_action_owned_type": "(5,2)",
+    "selected_action_owned_loxodromic_blocks": 0,
     "selected_type_status": "CONTAINED_WITH_TRIVIAL_h_CENTRALIZER_INTERSECTION",
     "k87_real_triangular_spectral_obstruction": "REMOVED_FOR_THIS_HORN",
     "complete_regular_semisimple_locus": "COVERED_AND_SUBMERSIVE"

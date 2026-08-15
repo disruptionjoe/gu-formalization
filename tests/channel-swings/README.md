@@ -45,10 +45,11 @@ the ledger probe uses the standard Python interpreter.
   constructs the balanced symmetric pair
   `so(7,7)=(so(3,4)+so(4,3))+p`, verifies the exact `42+49`
   bracket and Killing-orthogonal decomposition, and certifies the canonical
-  `98D` cotangent horn has map rank `49` at zero. Four exact commuting
-  matchings realize every regular semisimple Cartan type `(7,0)`, `(5,2)`,
-  `(3,4)`, and `(1,6)` with map rank `91`; mutation controls preserve the
-  singular/nonsemisimple orbit-census ceiling. It passes `58/58` with Python 3.
+  `98D` cotangent horn has map rank `49` at zero. Four non-loxodromic
+  matchings and six controls with up to three loxodromic four-planes realize
+  all ten regular semisimple Cartan spectral classes with map rank `91`;
+  mutation controls preserve the singular/nonsemisimple orbit-census ceiling.
+  It passes `102/102` with Python 3.
 
 - `selected_k87_rsap_zero_charge_maximal_unipotent_horn_probe.py` constructs
   the split `D7` maximal-unipotent cotangent horn exactly. It checks Lie
