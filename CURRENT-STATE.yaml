@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a148ed80a9885f5412bbd3f018ab12aaba3d185a
+revision_basis: 1a606ee9e568dff758351b82d968dcdf8ce5ddeb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -441,10 +441,22 @@ current_result:
     tautological primitive and symplectic form therefore glue strictly without
     a contractibility assumption, the geometric moment map intertwines in all
     local coordinates, and triple cocycles close by chart composition. The
-    split A2/A3 regular transition atlas is complete at 98D/map rank 91.
-    Other A3 real forms, the first singular centralizer jump, deeper strata,
-    zero charge and all-strata RSAP remain open.
+    split A2/A3 regular transition atlas is complete at 98D/map rank 91. The
+    first opposite-sign split-A3 singular attachment now also closes. The
+    embedded root has symmetric pair sl2/so(1,1); at
+    lambda0=diag(3,1,1,-5), the sl4 centralizer grows from dimension three to
+    five and its moving-space intersection from three to four. Thus the A3
+    cotangent moment rank changes 15 to 14, giving the full-carrier map-rank
+    change 91 to 90 as target Poisson rank changes 84 to 82. The banked smooth
+    T*(SL(2,R)/SO(1,1)) wall chart gauges to both split Cartan sides, and those
+    charts compose with every meeting block-pivot chart by strict cotangent
+    lifts. The geometric moment map and tautological primitive agree, while
+    the first wall/Cartan/block-pivot triple has zero Cech defects. Other A3
+    real forms, the adjacent split-A2 two-wall attachment, deeper strata, zero
+    charge and all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a3-first-singular-attachment-2026-08-15.md
+    - lab/process/selected-k77-rsap-a3-first-singular-attachment.json
     - explorations/conditional-build/selected-k77-rsap-a3-block-pivot-atlas-2026-08-15.md
     - lab/process/selected-k77-rsap-a3-block-pivot-atlas.json
     - explorations/conditional-build/selected-k77-rsap-a2-a3-common-refinement-2026-08-15.md
@@ -598,9 +610,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the completed split-A3 regular block-pivot atlas attach the first
-  singular centralizer jump with a smooth Poisson map, compatible moment and
-  primitive overlaps, and the required full-carrier map-rank loss 91 to 90?
+  Can the constructed principal split-A2 factor attach the first adjacent
+  two-wall intersection to both split-A3 first-wall charts with the required
+  rank schedule and a strict wall/wall/A2 moment and primitive cocycle?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -609,16 +621,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Attach one codimension-one split-A3 subregular centralizer-jump chart to the
-  completed regular block-pivot atlas. Construct the local smooth Poisson
-  normal form, prove surjectivity onto a neighborhood of both regular sides
-  and the wall, preserve the geometric moment map and tautological primitive
-  on every overlap, and realize the required 98D full-carrier differential-
-  rank change 91 to 90 as the target Poisson rank changes 84 to 82. Do not
-  infer this singular attachment from regular cotangent naturality, and do not
-  extend to compact or mixed A3 forms before the split singular gate passes.
-  Deeper singular strata and the rank-at-most-49 zero-charge gate remain open,
-  with the 182D cotangent parent still the all-charge fallback.
+  Attach the first adjacent split-A2 two-wall intersection using the already
+  constructed principal symmetric-pair factor rather than the killed
+  SL(3,R)/SL(2,R) candidate. Prove its overlap with both first-wall charts,
+  preserve the complete moment map and tautological primitive, realize the
+  exact regular/one-wall/two-wall rank schedule, and test the first
+  wall/wall/A2 triple cocycle. Do not infer the singular attachment from the
+  regular A2/A3 common refinement alone. Other A3 real forms, deeper singular
+  strata and the rank-at-most-49 zero-charge gate remain open, with the 182D
+  cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

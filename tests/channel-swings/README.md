@@ -48,6 +48,12 @@ the ledger probe uses the standard Python interpreter.
   actions, a nonlinear rational overlap and strict cotangent triple closure.
   It passes `53/53` with Python 3 and leaves the first singular jump open.
 
+- `selected_k77_rsap_a3_first_singular_attachment_probe.py` checks the
+  opposite-sign embedded `sl2/so(1,1)` root, exact subregular centralizer,
+  `15 -> 14` A3 moment-rank loss, complete `98D` `91 -> 90` schedule, and
+  strict wall/Cartan/block-pivot cotangent triple. It passes `56/56` with
+  Python 3 and leaves adjacent `A2` intersections open.
+
 - `selected_k77_rsap_a2_integral_affine_atlas_probe.py` restores the two
   varying charges and their existing conjugate Cartan angles, checks the full
   Cech--de Rham differential, the rank-two coroot-lattice triple closure,

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "split_a3_first_singular_attachment",
+  "created": "2026-08-15",
+  "status": "FIRST_SPLIT_A3_SUBREGULAR_ATTACHMENT_CONSTRUCTED__98D_MAP_RANK_91_TO_90__WALL_CARTAN_BLOCK_PIVOT_COCYCLE_STRICT",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "layer_0": {
+    "object": "classical symplectic and moment-map attachment",
+    "physical_phase_space": false,
+    "quantization": false,
+    "claim_ceiling": "one generic opposite-sign split-root subregular attachment"
+  },
+  "embedded_split_root": {
+    "ambient_symmetric_pair": "sl(4,R)/so(2,2)",
+    "signature_matrix": "diag(1,1,-1,-1)",
+    "root_indices": [2, 3],
+    "root_signature": "opposite-sign",
+    "root_algebra": "sl(2,R)",
+    "isotropy_intersection": "so(1,1)",
+    "transverse_carrier": "T*(SL(2,R)/SO(1,1))",
+    "subregular_control": "diag(3,1,1,-5)",
+    "sl4_centralizer_dimension": 5,
+    "sl4_symmetric_space_centralizer_dimension": 4,
+    "sl4_orbit_dimension": 10,
+    "sl4_central_centre_dimension": 2
+  },
+  "wall_model_reconciliation": {
+    "banked_wall_artifact": "explorations/conditional-build/selected-k77-rsap-98d-first-wall-slice-obstruction-2026-08-14.md",
+    "banked_regular_artifact": "explorations/conditional-build/selected-k77-rsap-a3-block-pivot-atlas-2026-08-15.md",
+    "full_wall_centralizer": "sl(2,R) direct_sum R^6",
+    "centre_accounting": "R2 from the subregular sl4 centralizer plus the existing external R4",
+    "wall_carrier": "S82 times T*(SL(2,R)/SO(1,1)) times T*R6",
+    "wall_carrier_dimension": 98,
+    "regular_a3_carrier": "S72 times T*(SL(4,R)/SO(2,2)) times T*R4",
+    "regular_a3_carrier_dimension": 98
+  },
+  "rank_schedule": {
+    "regular_target_poisson_rank": 84,
+    "wall_target_poisson_rank": 82,
+    "regular_map_rank": 91,
+    "wall_map_rank": 90,
+    "regular_fibre_dimension": 7,
+    "wall_fibre_dimension": 8,
+    "a3_factor_map_rank_regular": 15,
+    "a3_factor_map_rank_wall": 14
+  },
+  "attachment": {
+    "wall_to_cartan": "the banked nonzero transverse SO(1,1) gauge and fixed Weyl conjugation",
+    "cartan_to_block_pivot": "the completed symmetric block-pivot cotangent atlas",
+    "wall_to_block_pivot": "composition on every nonempty regular overlap",
+    "moment_map": "STRICT_GEOMETRIC_EQUALITY",
+    "tautological_primitive": "STRICT_EQUALITY_BY_COMPOSED_COTANGENT_LIFTS",
+    "symplectic_form": "STRICT_EQUALITY",
+    "both_regular_sides": true,
+    "wall_preimage": "smooth zero section of T*(SL(2,R)/SO(1,1))",
+    "local_target_surjectivity": true
+  },
+  "first_triple": {
+    "charts": ["split_root_wall", "split_Cartan", "A3_block_pivot"],
+    "base_cocycle": "STRICT_IDENTITY_BY_COMPOSITION",
+    "cotangent_cocycle": "STRICT_IDENTITY_BY_CHAIN_RULE",
+    "moment_cech_defect": "ZERO",
+    "primitive_cech_defect": "ZERO"
+  },
+  "scope": {
+    "complete_split_a3_regular_atlas": "CONSTRUCTED_BY_PREDECESSOR",
+    "first_split_a3_singular_attachment": "CONSTRUCTED",
+    "other_a3_real_forms": "OPEN",
+    "adjacent_a2_deeper_intersection": "OPEN",
+    "deeper_singular_strata": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a3-first-singular-attachment-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a3_first_singular_attachment_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a3-first-singular-attachment-review.md",
+  "next_gate": "ATTACH_THE_FIRST_ADJACENT_SPLIT_A2_TWO_WALL_INTERSECTION_AND_TEST_THE_WALL_WALL_A2_COCYCLE"
+}

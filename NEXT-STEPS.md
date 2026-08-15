@@ -7,6 +7,17 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 SPLIT-`A3` FIRST SINGULAR ATTACHMENT.** The banked generic
+> split-root wall chart now attaches to the complete regular block-pivot atlas.
+> The opposite-sign root embeds as `sl2/so(1,1)`; the exact subregular control
+> `diag(3,1,1,-5)` changes the `sl4` centralizer dimension `3 -> 5`, A3 moment
+> rank `15 -> 14`, full map rank `91 -> 90`, and target Poisson rank
+> `84 -> 82`. Both regular-side wall gauges compose with every meeting
+> block-pivot chart by strict cotangent lifts, and the first
+> wall/Cartan/block-pivot moment and primitive cocycle closes. **Next attach
+> the first adjacent split-`A2` two-wall intersection and test the
+> wall/wall/`A2` cocycle before deeper strata.** Exact probe `56/56`.
+
 > **2026-08-15 COMPLETE SPLIT-`A3` BLOCK-PIVOT ATLAS.** The omitted regular
 > sign/Bruhat region now closes through the determinant-one signature-`(2,2)`
 > symmetric-form model of `SL(4,R)/SO(2,2)`. Five `1 x 1`/`2 x 2` pivot

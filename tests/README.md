@@ -15,6 +15,13 @@ the map: which directory/group supports which claim.
   strict triple closure. The split regular atlas closes at `98D`/rank `91`;
   the first singular jump remains open. It passes `53/53`.
 
+- `channel-swings/selected_k77_rsap_a3_first_singular_attachment_probe.py`
+  embeds the opposite-sign `sl2/so(1,1)` root in `sl4/so(2,2)`, verifies the
+  centralizer and cotangent moment-rank jumps, reconciles the banked 98D wall
+  model with the complete block-pivot atlas, and certifies strict
+  wall/Cartan/block-pivot moment and primitive cocycles. It passes `56/56` and
+  leaves adjacent `A2` intersections open.
+
 - `channel-swings/selected_k77_rsap_a2_integral_affine_atlas_probe.py`
   constructs the complete compact two-root Cech--de Rham atlas. It verifies
   the existing Cartan-angle cotangent cancellation, coroot-lattice triple
@@ -4581,6 +4588,18 @@ unchanged `98D`/rank-`91` schedule.
 
 ```sh
 python3 tests/channel-swings/selected_k77_rsap_a3_block_pivot_atlas_probe.py
+```
+
+## K77 RSAP split-A3 first singular attachment
+
+`channel-swings/selected_k77_rsap_a3_first_singular_attachment_probe.py`
+checks the opposite-sign embedded `sl2/so(1,1)` root, exact subregular
+centralizer, `15 -> 14` A3 moment-rank loss, complete `98D` `91 -> 90`
+schedule, and strict wall/Cartan/block-pivot cotangent triple. It passes
+`56/56` with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_a3_first_singular_attachment_probe.py
 ```
 
 ## K77 RSAP rank-82 wall family and A2 cocycle gate
