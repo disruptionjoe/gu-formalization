@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "CANONICAL_SR1C_AFFINE_FIRST_JET_FIBRE_EXHAUSTED__CLIFFORD_PARITY_FORCES_ZERO_SOURCE_GRAPH_RESPONSE__BOTH_ROOTS_KILLED_FOR_ALL_COMPATIBLE_FIRST_AND_SECOND_JETS",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1D-AFFINE-COMPLETION",
+  "branch_polynomial": "28392*t^2+91*t-351",
+  "fixed_point_carrier": {
+    "T": "t*Phi1",
+    "F_B": "F_BZ",
+    "first_jet": "DT=-F_BZ+(-t/312-t^2)C+Q",
+    "affine_Q": "Q0+ker(S)"
+  },
+  "affine_first_jet": {
+    "variables": 9555,
+    "action_rows": 196,
+    "bianchi_rows": 5096,
+    "combined_rank": 4290,
+    "kernel_dimension": 5265,
+    "particular_support": 13,
+    "directionwise_cl2_carrier": 1274
+  },
+  "parity_certificate": {
+    "receiver": "LAMBDA13_CL1_ODD",
+    "shift": "LAMBDA1_CL2_EVEN",
+    "selected_shiab": "FLIPS_CLIFFORD_PARITY",
+    "hodge": "PRESERVES_CLIFFORD_PARITY",
+    "direct_shiab": "EVEN__ZERO_AGAINST_RECEIVER",
+    "algebraic_half_X_VS_S_UT": "EVEN_VS_ODD__ZERO",
+    "algebraic_half_T_VS_S_UX": "ODD_VS_EVEN__ZERO",
+    "direct_coefficients_checked": 249704,
+    "direct_support": 0,
+    "hodge_coefficients_checked": 249704,
+    "hodge_support": 0,
+    "quotient_map_rank": 0
+  },
+  "joint_fibre": {
+    "first_jet": "Q0+KER_ACTION_BIANCHI",
+    "second_jet": "ARBITRARY_H_WITH_AH_ZERO",
+    "j1_E_T": "ZERO",
+    "j1_E_B": "ZERO",
+    "j1_E_B_minus_E_T": "ZERO",
+    "primitive_epsilon": "ZERO",
+    "fixed_varpi_metric_graph_rank": 0,
+    "density_trace": "NONZERO_ON_BOTH_ROOTS"
+  },
+  "branch_status": "BOTH_FIXED_CANONICAL_POINT_BRANCHES_KILLED_ACROSS_COMPLETE_AFFINE_FIRST_JET_AND_COMPATIBLE_SECOND_JET_FIBRES",
+  "scope": "SELECTED_K77_FIXED_T_AND_F_BZ_POINT_CARRIER__COMPLETE_LOCAL_FORMAL_AFFINE_FIRST_TWO_JET_CLASS",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6_background_premise": "ABSENT",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "SR-1E_DISTINCT_POINT_CARRIER__CONSTRUCT_EQUIVARIANT_SOURCE_INSTABILITY_TO_K77_CARRIER_MAP_THEN_SELECT_AND_STABILIZE_ONE_NONLINEAR_CRITICAL_ORBIT",
+  "artifact": "explorations/conditional-build/selected-k77-sr1d-affine-first-jet-parity-exhaustion-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1d_affine_first_jet_parity_exhaustion_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1d-affine-first-jet-parity-exhaustion-review.md",
+  "checks": "43/43 PASS"
+}
