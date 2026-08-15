@@ -7,6 +7,19 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE REAL-`A3` PRINCIPAL-FACTOR CENSUS.** The four
+> nonsplit candidates `SU4/SO4`, `SU(3,1)/SO(3,1)`, `SU(2,2)/SO(2,2)` and
+> `SU*(4)/SO*(4)` all have `6+9` symmetric decompositions and `18D`
+> cotangent factors. Exact regular nonsemisimple controls pass factor rank
+> `15` wherever they exist; compact normality makes that locus empty in
+> `SU4`. First singular controls pass rank `14` in every form, giving the
+> common `98D` schedule `84/91 -> 82/90 -> 72/85`. The smaller quaternionic
+> Cartan quotient `SU*(4)/Sp(2)` is excluded at dimension `10`, not confused
+> with the passing `SO*(4)` factor. **Next type the ambient `so(7,7)`
+> embeddings and incidence of split `A3` and `SU(2,2)` before constructing
+> any cross-form transition.** Exact probe `105/105`; nonsplit singular atlases,
+> deeper strata, zero charge and global RSAP remain open.
+
 > **2026-08-15 SPLIT-`A3` NONSEMISIMPLE TRANSITION ATLAS.** Real-primary
 > partition exhaustion leaves exactly five singular nonsemisimple `sl4`
 > families; complex-primary nonsemisimple cases are all regular in real

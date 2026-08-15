@@ -494,8 +494,28 @@ current_result:
     fibres to the alternating form; their inverse-transpose cotangent changes
     have zero primitive and moment Cech defects on every admitted overlap.
     No new split-A3 local model is required. Other A3 real forms, deeper
-    ambient strata, zero charge and global all-strata RSAP remain open.
+    ambient strata, zero charge and global all-strata RSAP remain open. The
+    principal-factor census for the other four real A3 forms now closes at
+    factor grade. SU4/SO4, SU(3,1)/SO(3,1), SU(2,2)/SO(2,2) and
+    SU*(4)/SO*(4) all have isotropy dimension six, moving dimension nine and
+    18D cotangent factors. Pseudo-Hermitian block signatures admit one, four
+    and nine dimension-four canonical configurations in signatures (4,0),
+    (3,1) and (2,2). The quaternionic two-by-two classification gives six
+    spectral/Jordan families with complex-symmetric representatives. Exact
+    regular nonsemisimple controls pass factor rank 15 in every form where
+    they exist; compact normality makes that locus empty in SU4. Exact first
+    singular controls have centralizer/moving-centralizer dimensions 5/4 and
+    factor rank 14 in all four forms. Thus every new factor realizes the same
+    98D target/map schedule 84/91 to 82/90 to 72/85, saturating each pointwise
+    bound. The tempting quaternionic Cartan factor SU*(4)/Sp(2) is excluded:
+    its cotangent dimension is only ten. This does not affect the passing
+    SU*(4)/SO*(4) principal factor. Cross-real-form common domains are not yet
+    typed; shared complexification does not prove ambient so(7,7) incidence.
+    Complete nonsplit singular atlases, deeper strata, zero charge and global
+    all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k79-rsap-a3-real-form-principal-factor-census-2026-08-15.md
+    - lab/process/selected-k79-rsap-a3-real-form-principal-factor-census.json
     - explorations/conditional-build/selected-k78-rsap-a3-nonsemisimple-transition-atlas-2026-08-15.md
     - lab/process/selected-k78-rsap-a3-nonsemisimple-transition-atlas.json
     - explorations/conditional-build/selected-k77-rsap-a3-two-wall-census-origin-attachment-2026-08-15.md
@@ -657,10 +677,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do the four remaining real A3 forms admit 18D principal symmetric-pair
-  factors that cover every regular Jordan type and their first singular
-  centralizer jumps at the required 98D ranks, or does one real form fail
-  surjectivity, regular rank or cotangent transition compatibility?
+  Do the split and SU(2,2) A3 factors occur in incident target strata under
+  explicit embeddings into the selected so(7,7) endpoint, and if so what is
+  their correctly typed common symplectic refinement?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -669,18 +688,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify the principal dimension-six isotropy candidates for the compact,
-  two pseudo-unitary and quaternionic real forms of A3. For each candidate,
-  test complete real-form Jordan coverage, map rank 15 at every regular value
-  including regular nonsemisimple controls, and the first singular
-  centralizer/moving-isotropy jump before attempting cross-real-form gluing.
-  Reuse the split-A3 principal-factor and exact cotangent-transition method;
-  do not substitute semisimple eigenline evidence for the nonsemisimple tests.
-  Keep the naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary
-  Higgs, family-index and chirality comparators remain irrelevant to this
-  classical moment-map lane and must not be reintroduced. Deeper ambient
-  strata and the rank-at-most-49 zero-charge gate remain open, with the 182D
-  cotangent parent still the all-charge fallback.
+  Construct explicit split-sl4 and su(2,2) embeddings into the selected
+  so(7,7) endpoint algebra and classify their conjugacy, intersection and
+  closure incidence. Shared complexification, dimension and signature-(2,2)
+  Jordan coverage are not enough. If and only if an actual ambient common
+  target domain exists, type the leaf-transfer block and construct the common
+  symplectic refinement before comparing the full moment map, tautological
+  primitive or any triple cocycle. Otherwise record the two factors as
+  disjoint atlas components rather than manufacturing a transition. Keep the
+  naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary Higgs,
+  family-index and chirality comparators remain irrelevant to this classical
+  moment-map lane and must not be reintroduced. Complete nonsplit singular
+  atlases, deeper ambient strata and the rank-at-most-49 zero-charge gate
+  remain open, with the 182D cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

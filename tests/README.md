@@ -4649,6 +4649,19 @@ Python 3.
 python3 tests/channel-swings/selected_k78_rsap_a3_nonsemisimple_transition_atlas_probe.py
 ```
 
+## K79 RSAP complete A3 real-form principal-factor census
+
+`channel-swings/selected_k79_rsap_a3_real_form_principal_factor_census_probe.py`
+constructs exact symmetric-pair bases for `SU4/SO4`, `SU(3,1)/SO(3,1)`,
+`SU(2,2)/SO(2,2)` and `SU*(4)/SO*(4)`, exhausts their compatible canonical
+types, tests regular nonsemisimple and first singular rank schedules, and
+excludes the undersized `SU*(4)/Sp(2)` Cartan quotient. It passes `105/105`
+with Python 3.
+
+```sh
+python3 tests/channel-swings/selected_k79_rsap_a3_real_form_principal_factor_census_probe.py
+```
+
 ## K77 RSAP rank-82 wall family and A2 cocycle gate
 
 `channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py`

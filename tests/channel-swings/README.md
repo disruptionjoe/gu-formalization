@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k79_rsap_a3_real_form_principal_factor_census_probe.py` builds
+  exact `6+9` symmetric-pair bases for the compact, two pseudo-unitary and
+  quaternionic `A3` forms, exhausts their compatible canonical types, tests
+  regular nonsemisimple and first singular ranks, and excludes the undersized
+  quaternionic Cartan quotient. It completes the five-form factor census at
+  factor grade and passes `105/105` with Python 3.
+
 - `selected_k78_rsap_a3_nonsemisimple_transition_atlas_probe.py` exhausts the
   five singular nonsemisimple real `sl4` Jordan families, excludes additional
   complex-primary cases, computes every centralizer/moving-centralizer rank,
