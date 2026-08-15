@@ -167,6 +167,24 @@ def inverse(matrix):
     return [row[n:] for row in work]
 
 
+def centralizers(matrix):
+    return (
+        15 - column_rank([cbracket(value, matrix) for value in g_q], True),
+        9 - column_rank([cbracket(value, matrix) for value in m_q], True),
+    )
+
+
+J4 = qmatrix(CZ, cmat(I2))
+
+
+def in_moving_fibre(matrix):
+    return (
+        ctranspose(matrix) == matrix
+        and cmul(matrix, J4) == cmul(J4, cconj(matrix))
+        and column_rank(m_q + [matrix], True) == 9
+    )
+
+
 print("A. QUATERNIONIC PAIR AND SIX-FAMILY EXHAUSTION")
 check("pair", "the quaternionic pair has dimensions six plus nine",
       column_rank(h_q, True) == 6 and column_rank(m_q, True) == 9 and column_rank(g_q, True) == 15)
@@ -196,7 +214,11 @@ check("census", "the origin is a terminal stratum rather than a seventh canonica
       REG["classification"]["origin_is_terminal_stratum_not_seventh_canonical_family"] is True
       and "origin" not in families)
 check("census", "every canonical representative is quaternionic-real and transpose symmetric",
-      all(ctranspose(value) == value for value in families.values()))
+      all(in_moving_fibre(value) for value in families.values()))
+check("census", "the six types separate into two regular and four nonzero singular families",
+      len(REG["classification"]["regular_families"]) == 2
+      and len(REG["classification"]["singular_families"])
+      == REG["classification"]["singular_family_count"] == 4)
 
 
 print("\nB. EXACT CENTRALIZERS AND POINTWISE-BOUND SCHEDULES")
@@ -222,29 +244,35 @@ check("bound", "the origin saturates the 98D pointwise bound", 85 == (98 + 72) /
 
 print("\nC. REGULAR APPROACHES AND QUATERNIONIC CLOSURE GRAPH")
 paths = {
-    "spectral_to_repeated_nonreal": (regular_spectral, repeated_nonreal, (7, 5)),
-    "spectral_to_mixed": (regular_spectral, mixed, (5, 4)),
-    "spectral_to_real_distinct": (regular_spectral, real_distinct, (7, 5)),
-    "spectral_to_origin": (regular_spectral, origin, (15, 9)),
-    "jordan_to_repeated_nonreal": (regular_jordan, repeated_nonreal, (7, 5)),
-    "jordan_to_real_jordan": (regular_jordan, real_jordan, (7, 5)),
-    "jordan_to_origin": (regular_jordan, origin, (15, 9)),
-    "mixed_to_real_distinct": (mixed, real_distinct, (7, 5)),
-    "mixed_to_origin": (mixed, origin, (15, 9)),
-    "repeated_nonreal_to_origin": (repeated_nonreal, origin, (15, 9)),
-    "real_distinct_to_origin": (real_distinct, origin, (15, 9)),
-    "real_jordan_to_origin": (real_jordan, origin, (15, 9)),
+    "spectral_to_repeated_nonreal": (regular_spectral, repeated_nonreal, (3, 3), (7, 5)),
+    "spectral_to_mixed": (regular_spectral, mixed, (3, 3), (5, 4)),
+    "spectral_to_real_distinct": (regular_spectral, real_distinct, (3, 3), (7, 5)),
+    "spectral_to_origin": (regular_spectral, origin, (3, 3), (15, 9)),
+    "jordan_to_repeated_nonreal": (regular_jordan, repeated_nonreal, (3, 3), (7, 5)),
+    "jordan_to_real_jordan": (regular_jordan, real_jordan, (3, 3), (7, 5)),
+    "jordan_to_origin": (regular_jordan, origin, (3, 3), (15, 9)),
+    "mixed_to_real_distinct": (mixed, real_distinct, (5, 4), (7, 5)),
+    "mixed_to_origin": (mixed, origin, (5, 4), (15, 9)),
+    "repeated_nonreal_to_origin": (repeated_nonreal, origin, (7, 5), (15, 9)),
+    "real_distinct_to_origin": (real_distinct, origin, (7, 5), (15, 9)),
+    "real_jordan_to_origin": (real_jordan, origin, (7, 5), (15, 9)),
 }
-for label, (start, limit, endpoint) in paths.items():
+for label, (start, limit, source, endpoint) in paths.items():
     direction = csub(start, limit)
+    nonzero_samples = [cadd(limit, cscale(parameter, direction))
+                       for parameter in (F(1), F(1, 2), F(2, 3))]
     check("path", f"{label} stays in the quaternionic symmetric moving fibre",
-          all(ctranspose(value) == value for value in (start, limit, direction)))
-    orbit_rank = column_rank([cbracket(value, limit) for value in g_q], True)
-    moving_rank = column_rank([cbracket(value, limit) for value in m_q], True)
+          all(in_moving_fibre(value) for value in nonzero_samples + [limit, direction]))
+    check("path", f"{label} retains the claimed source centralizer away from the endpoint",
+          all(centralizers(value) == source for value in nonzero_samples))
     check("path", f"{label} lands in the claimed centralizer stratum",
-          (15 - orbit_rank, 9 - moving_rank) == endpoint)
+          centralizers(limit) == endpoint)
 check("path", "all twelve registered family-degeneration controls are present",
       len(paths) == REG["transitions"]["linear_degenerations_checked"] == 12)
+check("approach", "every singular family and the origin has an exact regular approach",
+      {"spectral_to_repeated_nonreal", "spectral_to_mixed",
+       "spectral_to_real_distinct", "jordan_to_real_jordan",
+       "spectral_to_origin"}.issubset(paths))
 
 
 print("\nD. NONCOMMUTING SO*(4) COTANGENT CAYLEY NERVE")
@@ -269,6 +297,7 @@ for label, frame in frames.items():
     coordinate_maps[label] = coordinate_map
     check("frame", f"{label} is an exact determinant-one SO*(4) frame",
           cmul(ctranspose(frame), frame) == I4C
+          and cmul(frame, J4) == cmul(J4, cconj(frame))
           and cdet(frame) == (F(1), F(0))
           and rank(coordinate_map) == 9)
 

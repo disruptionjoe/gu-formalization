@@ -42,7 +42,9 @@ are canonical spectral/Jordan families, not real adjoint-orbit counts.
 
 Twelve exact linear degenerations place every singular family on a regular
 approach and connect every family to the origin directly or through a
-registered intermediate. Four rational Cayley frames in `SO*(4)` provide a
+registered intermediate. Exact nonzero controls on every path retain the
+registered source centralizer before landing in the endpoint centralizer.
+Four rational Cayley frames in `SO*(4)` provide a
 genuinely noncommuting transition nerve. All six inverse-transpose cotangent
 changes preserve the tautological primitive, all four base and cotangent
 triangles close strictly, and the global quaternionic cotangent moment map has

@@ -47,6 +47,8 @@
     "carrier": "S72 times T*(SU*(4)/SO*(4)) times T*R4",
     "source_dimension": 98,
     "linear_degenerations_checked": 12,
+    "nonzero_source_centralizer_samples_per_path": 3,
+    "every_nonzero_path_sample_retains_registered_source_type": true,
     "every_singular_family_has_regular_approach": true,
     "every_singular_family_reaches_origin_or_a_registered_intermediate": true,
     "exact_so_star4_cayley_frames": 4,

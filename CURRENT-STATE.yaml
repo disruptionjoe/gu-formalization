@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 510bfdff522280e137fcaad4ea988e6a2569ee21
+revision_basis: 4c4b0e14492a27014c687956115cde9aa2140643
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -602,7 +602,9 @@ current_result:
     72/85. Every row saturates the 98D pointwise bound. Twelve exact complex-
     symmetric quaternionic-real paths connect both regular families to the
     singular set and every singular family to the origin directly or through
-    a registered intermediate. Four rational SO*(4) Cayley frames form a
+    a registered intermediate. Three exact nonzero controls on every path
+    retain its registered source centralizer before reaching the certified
+    endpoint centralizer. Four rational SO*(4) Cayley frames form a
     noncommuting consistency nerve; all six primitive overlaps and all four
     base plus four cotangent triangles close, with zero defect from the one
     global SU*(4) cotangent moment map. The six families are canonical types,

@@ -20,7 +20,7 @@ updated_at: "2026-08-15"
 > consistency nerve. No new local model is needed. **Next classify the first
 > deeper ambient `so(7,7)` singular stratum reached by the completed local
 > `A3` atlases, before attempting the zero-charge gate.** Cross-real-form
-> incidence remains `TYPE_MISSING`; exact probe `61/61`.
+> incidence remains `TYPE_MISSING`; exact probe `75/75`.
 
 > **2026-08-15 COMPLETE COMPACT `SU(4)` SINGULAR TRANSITION ATLAS.** Compact
 > normality reduces every moving control to a real symmetric trace-free

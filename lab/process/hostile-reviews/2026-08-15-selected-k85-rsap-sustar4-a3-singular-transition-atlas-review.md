@@ -34,10 +34,13 @@ pseudo-unitary factor, though the resulting pointwise bounds agree.
 
 ## Fake closure attack
 
-Twelve exact linear paths remain complex symmetric and quaternionic-real. Each
-endpoint recomputes the registered centralizer pair. Both regular families
-approach singular families, and every singular family reaches the origin
-directly or through a registered intermediate.
+Twelve exact linear paths remain complex symmetric and quaternionic-real.
+Three exact nonzero controls on every path retain the registered source
+centralizer, and each endpoint recomputes the destination pair. The displayed
+diagonal and square-zero formulas certify the same type for every nonzero path
+parameter. Both regular families approach singular families, and every
+singular family reaches the origin directly or through a registered
+intermediate.
 
 ## Fake global frame attack
 
