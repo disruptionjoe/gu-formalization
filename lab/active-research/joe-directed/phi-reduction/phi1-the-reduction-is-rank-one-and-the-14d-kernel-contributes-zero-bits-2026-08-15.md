@@ -43,7 +43,7 @@ scripts:
 > It is not evidence for or against Weinstein's source-native mechanism without
 > an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md`
 > and follow its source-native pointers before reusing this result.
-> Classification: **`BRIDGE_OR_SEMANTIC_BOUNDARY`.**
+> Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
 
 # PHI-1 — the reduction is rank one, and the 14D kernel is invisible to it
 

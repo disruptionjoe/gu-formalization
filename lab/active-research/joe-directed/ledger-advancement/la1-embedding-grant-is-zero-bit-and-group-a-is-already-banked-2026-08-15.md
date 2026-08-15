@@ -35,8 +35,8 @@ scripts:
 > mass route binds only that named model. It is not evidence for or against
 > Weinstein's source-native mechanism without an explicit typed bridge. Read
 > `lab/methods/source-native-comparator-routing.md` and follow its source-native
-> pointers before reusing this result. Classification:
-> `BRIDGE_OR_SEMANTIC_BOUNDARY`.
+> pointers before reusing this result.
+> Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
 
 # LA-1 — the embedding grant is the stabilizer grant
 

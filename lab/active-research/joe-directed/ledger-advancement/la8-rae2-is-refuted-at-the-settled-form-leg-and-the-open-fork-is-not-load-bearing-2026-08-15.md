@@ -55,7 +55,7 @@ scripts:
 > Weinstein's source-native mechanism without an explicit typed bridge. Read
 > `lab/methods/source-native-comparator-routing.md` and follow its source-native
 > pointers before reusing this result.
-> Classification: **`BRIDGE_OR_SEMANTIC_BOUNDARY`.**
+> Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
 >
 > Internal routing of this artifact, stated once so it cannot be flattened:
 > **§3.1 (the contraction) is `SOURCE_NATIVE`.** **§3.2–§3.4 (the SO(10)→SM

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 import unittest
 
@@ -13,6 +14,22 @@ NON_ARTIFACT_DOC_TYPES = ("overview", "stewardship_record")
 REGISTRY_PATH = ROOT / "lab/process/source-native-comparator-routing-registry.json"
 METHOD = "lab/methods/source-native-comparator-routing.md"
 MARKER = "GU-COMPARATOR-ROUTING"
+
+
+def classification_pattern(classification: str) -> str:
+    """Match a declaration allowing markdown emphasis around the token.
+
+    ROOT CAUSE OF A FALSE BACKLOG (found 2026-08-15).  This test used an exact
+    substring, so an author who wrote ``Classification: **`X`.**`` -- correct
+    content, ordinary markdown bolding -- read as non-compliant.  EIGHT
+    artifacts were fully method-compliant and were counted as an unclassified
+    backlog for a full day, which is worse than a missing check: it invented
+    work and made a real coverage number untrustworthy.
+
+    The emphasis characters are optional; the token itself is still required
+    verbatim inside backticks, so a WRONG classification still fails.
+    """
+    return r"Classification:\s*[*_]{0,2}`" + re.escape(classification) + r"`"
 
 
 def discovered_artifacts() -> set[str]:
@@ -58,17 +75,36 @@ def discovered_artifacts() -> set[str]:
 # list to convention (2026-08-15).  Never raise this to make a new gap go green.
 # It may only RATCHET DOWN as artifacts are classified: 17 -> 16 once the four
 # self-declaring artifacts were registered and index/stewardship documents left
-# scope.
+# scope, then 17 -> 9 on 2026-08-15 when the backlog was worked (disposition:
+# lab/active-research/joe-directed/base-duality/
+# bd-reg-routing-backlog-disposition-2026-08-15.md).  That pass TRANSCRIBED
+# eight in-vocabulary self-declarations (LA-1..LA-5, LA-8, LA-9, PHI-1, all
+# `BRIDGE_OR_SEMANTIC_BOUNDARY`); it invented none.
 #
 # KNOWN INCONSISTENCY, recorded rather than papered over.  The method says an
 # artifact "may then state" its classification -- optional -- while this gate
 # counts every unregistered artifact as a gap.  So an artifact can be fully
-# method-compliant and still appear here.  Of the 16 remaining, 12 carry the
-# required notice and simply never declared a type, and 4 carry no notice at
-# all; only the latter are actual method violations.  Resolving this means the
-# method owner either makes declaration mandatory or this gate separates the
-# two populations.  Guessing types to close the gap is still forbidden.
-UNCLASSIFIED_BASELINE = 16
+# method-compliant and still appear here.  The 9 remaining split three ways and
+# each way needs a DIFFERENT owner decision, not a guess:
+#   (a) 4 carry no notice and declare no type at all (CG-1, CC-1, MD-1, MC-1).
+#       Only these are actual method violations.  CC-1 and MC-1 do carry a
+#       section headed "Classification, in target-native vocabulary", but it is
+#       claim-status vocabulary (ROUTE KILLED / REFUTED), a homonym, not a
+#       routing type.
+#   (b) 4 declare a type OUTSIDE this registry's closed three-value vocabulary
+#       -- `STRUCTURAL_LEDGER_ONLY` (LA-10) and `STRUCTURAL_PLUS_DEFINITIONAL`
+#       (LA-11, OT-1, OT-2).  Each says in prose that it binds no comparator
+#       AND is not evidence about the source-native mechanism, i.e. it asserts
+#       that none of the three values applies.  Mapping them onto one anyway is
+#       guessing; the owner either extends the vocabulary or narrows scope.
+#   (c) 1 self-contradicts (PHI-2): its scope paragraph says it "is built
+#       entirely inside a conventional particle-physics comparator" and that
+#       "Every result below binds only that named model ... without an explicit
+#       typed bridge", which describes `CONVENTIONAL_COMPARATOR`, while its
+#       label requests `BRIDGE_OR_SEMANTIC_BOUNDARY`.  Its author resolves it,
+#       not an auditor.
+# Guessing types to close the gap is still forbidden.
+UNCLASSIFIED_BASELINE = 9
 
 
 class SourceNativeComparatorRoutingAudit(unittest.TestCase):
@@ -109,7 +145,7 @@ class SourceNativeComparatorRoutingAudit(unittest.TestCase):
                 text = (ROOT / entry["path"]).read_text(encoding="utf-8")
                 self.assertIn(MARKER, text)
                 self.assertIn(METHOD, text)
-                self.assertIn(f"Classification: `{entry['classification']}`", text)
+                self.assertRegex(text, classification_pattern(entry["classification"]))
 
     def test_classifications_are_typed(self) -> None:
         allowed = set(self.registry["classifications"])

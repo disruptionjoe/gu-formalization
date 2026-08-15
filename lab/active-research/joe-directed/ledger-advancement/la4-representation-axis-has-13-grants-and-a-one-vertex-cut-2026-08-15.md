@@ -46,7 +46,7 @@ scripts:
 > Weinstein's source-native mechanism without an explicit typed bridge. Read
 > `lab/methods/source-native-comparator-routing.md` and follow its source-native
 > pointers before reusing this result.
-> Classification: **`BRIDGE_OR_SEMANTIC_BOUNDARY`.**
+> Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
 
 # LA-4 — the REPRESENTATION axis has thirteen grants and one cut vertex
 

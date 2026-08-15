@@ -78,7 +78,7 @@ scripts:
 > `16`'s SM constituents). Any result there binds only that named model. It is not
 > evidence for or against Weinstein's source-native mechanism without an explicit
 > typed bridge. Read `lab/methods/source-native-comparator-routing.md`.
-> Classification: **`BRIDGE_OR_SEMANTIC_BOUNDARY`.**
+> Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
 > Everything outside §2.3 is bookkeeping about the ledger file and carries no
 > physics content at all.
 
