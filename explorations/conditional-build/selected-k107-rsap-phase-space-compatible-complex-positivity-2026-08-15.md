@@ -195,3 +195,10 @@ python3 tests/channel-swings/selected_k107_rsap_phase_space_compatible_complex_p
 The exact probe reports `39/39`, including a symbolic all-family certificate
 for `A^2`, symplectic compatibility, symmetry of `KA`, and
 `det(KA)=-(a^2+bc)` before the rational hostile fixtures are evaluated.
+
+> **Successor closure (K108).** The source physical `(1,3)|(6,4)` split is a
+> genuine concrete non-invariant candidate, but its isotropy metric is
+> `18|22` and its conditional cotangent reduction is a distinct `80D` theory
+> with `36|44` phase signature. The source owns the observation split, not the
+> right-`H_phys` reduction or a positive domain. Preserve the former and do
+> not substitute the latter for the balanced `98D` RSAP.

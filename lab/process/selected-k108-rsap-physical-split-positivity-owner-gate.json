@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_physical_observation_split_positivity_and_owner_gate",
+  "created": "2026-08-15",
+  "status": "SOURCE_CONFIRMED_PHYSICAL_4_PLUS_10_KINEMATIC_SPLIT__CONDITIONAL_RIGHT_REDUCTION_IS_80D_AND_STILL_INDEFINITE__NOT_A_POSITIVE_98D_RSAP_REPAIR",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "SOURCE_PHYSICAL_TX_1_3_PLUS_N_6_4_SPLIT__ITS_H_PHYS_HOMOGENEOUS_ISOTROPY_MODULE__CONDITIONAL_COTANGENT_RIGHT_REDUCTION",
+  "target_claim": {
+    "id": "K107_NEXT_GATE__THE_SOURCE_PHYSICAL_1_3_PLUS_6_4_SPLIT_IS_A_CONCRETE_NONINVARIANT_SELECTOR_THAT_POSITIVIZES_THE_BALANCED_98D_RSAP",
+    "verdict": "NO__IT_DEFINES_A_DISTINCT_CONDITIONAL_80D_QUOTIENT_WITH_18_22_BASE_AND_36_44_PHASE_SIGNATURES__RIGHT_REDUCTION_NOT_ACTION_SELECTED"
+  },
+  "source_ownership": {
+    "claim_id": "SC-CHI-03",
+    "source_confirms": "gimel_X_1_3_TO_Y_7_7_WITH_TX_1_3_PLUS_N_6_4_CARRIER_SPLIT",
+    "repository_derives": "H_phys_ISOTROPY_MODULE_SIGNATURE_AND_CONDITIONAL_COTANGENT_REDUCTION",
+    "source_silent": [
+      "RIGHT_H_PHYS_MOMENT_ZERO_BOUNDARY_EQUATION",
+      "RIGHT_H_PHYS_GAUGE_DECLARATION",
+      "POSITIVE_KINETIC_FORM",
+      "CLOSED_QUANTUM_DOMAIN"
+    ],
+    "kinematic_split_action_selected_as_boundary_reduction": false
+  },
+  "physical_split": {
+    "ambient_group": "Spin_0(7,7)",
+    "stabilizer": "Spin(1,3)_times_Spin(6,4)",
+    "stabilizer_dimension": 51,
+    "isotropy_module": "R_1_3_tensor_R_6_4",
+    "isotropy_dimension": 40,
+    "invariant_form_signature": [18, 22],
+    "invariant_form_dimension": 1,
+    "cotangent_reduction_dimension": 80,
+    "phase_compatible_metric_signature_up_to_sign": [[36, 44], [44, 36]],
+    "positive_invariant_form_exists": false
+  },
+  "balanced_comparison": {
+    "stabilizer": "Spin(3,4)_times_Spin(4,3)",
+    "stabilizer_dimension": 42,
+    "isotropy_dimension": 49,
+    "invariant_form_signature": [24, 25],
+    "cotangent_reduction_dimension": 98,
+    "physical_and_balanced_involutions_conjugate": false,
+    "reason": "EIGEN_MULTIPLICITIES_4_10_TRACE_MINUS_6_VERSUS_7_7_TRACE_ZERO"
+  },
+  "controls": {
+    "base_factor_signature": [1, 3],
+    "normal_factor_signature": [6, 4],
+    "neither_factor_positive": true,
+    "selecting_positive_directions_only_is_H_phys_invariant": false,
+    "physical_observation_kinematics_survives": true,
+    "balanced_classical_RSAP_survives_conditionally": true
+  },
+  "claim_ceiling": {
+    "binds": "physical_split_homogeneous_invariant_quadratic_and_zero_section_phase_grade_plus_current_boundary_owner_census",
+    "does_not_bind": "the_source_observation_construction_itself_nonhomogeneous_action_selected_domains_spinor_cohomology_or_nonlocal_quantization",
+    "physical_split_is_a_positive_selector": false,
+    "all_noninvariant_selectors_exhausted": false
+  },
+  "disposition": {
+    "physical_split_route": "RETAIN_AS_SOURCE_CONFIRMED_KINEMATIC_CARRIER_SPLIT__REJECT_AS_POSITIVE_98D_RSAP_REPAIR",
+    "next_gate": "DO_NOT_IDENTIFY_THE_PHYSICAL_4_PLUS_10_SPLIT_WITH_THE_BALANCED_7_PLUS_7_REDUCTION__TEST_THE_NEXT_CONCRETE_SOURCE_NATIVE_CANDIDATE_ONLY_IF_IT_OWNS_A_PAIRING_AND_DOMAIN_ON_THE_ACTUAL_PHASE_OR_BFV_CARRIER",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "phase_positivity": "lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json",
+    "balanced_owner": "lab/process/selected-k100-rsap-balanced-order-parameter-owner-census.json",
+    "physical_split": "lab/process/selected-k77-physical-diffeomorphism-split.json",
+    "source_claims": "lab/sources/source-claim-register.yaml"
+  },
+  "artifact": "explorations/conditional-build/selected-k108-rsap-physical-split-positivity-owner-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k108_rsap_physical_split_positivity_owner_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k108-rsap-physical-split-positivity-owner-gate-review.md"
+}

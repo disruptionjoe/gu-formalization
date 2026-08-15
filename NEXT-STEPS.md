@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K108 SOURCE PHYSICAL `4|10` SPLIT IS CONCRETE BUT DOES NOT
+> POSITIVIZE THE `98D` RSAP.** The source-confirmed observation split has
+> `H_phys=Spin(1,3)xSpin(6,4)`, dimension `51`, and isotropy module
+> `R^(1,3) tensor R^(6,4)` with unique invariant signature `18|22`. Declaring
+> right `H_phys` gauge would therefore produce a distinct conditional
+> `182-2(51)=80D` cotangent quotient, whose compatible phase metrics have
+> signature `36|44` or `44|36`. It is not conjugate to the balanced `7|7`
+> split and remains indefinite. The source owns the kinematic carrier split,
+> not the right moment-zero law, gauge declaration or quantum domain.
+> **Preserve the observation construction, but do not substitute its `80D`
+> conditional quotient for the balanced `98D` theory. Admit another concrete
+> positivity candidate only if it owns a selector, pairing and analytic domain
+> on the actual phase/BFV carrier.** Exact probe `31/31`.
+
 > **2026-08-15 K107 PHASE-SPACE COMPLEX AND POLARIZATION GEOMETRY EXISTS,
 > BUT INVARIANT POSITIVITY STILL DOES NOT.** At the zero section of the
 > conditional `98D` cotangent phase space, the tangent carrier is

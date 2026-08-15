@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c00127d751ea635e20501e27f44aa98d97317f15
+revision_basis: 41eac966d5fa1d86a16345994ec54311d4a95027
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -911,7 +911,19 @@ current_result:
     the next positivity step requires a concrete action-owned non-invariant
     selector or explicit analytic domain, not another abstract invariant
     linear construction.
+    K108 tests the strongest concrete source-native non-invariant candidate:
+    the physical TX(1,3)+N(6,4) observation split. Its stabilizer has
+    dimension 51 and its 40D isotropy module has unique invariant signature
+    18|22. A right-H_phys cotangent reduction would therefore be a distinct
+    conditional 80D phase space, not the balanced 98D RSAP, and its compatible
+    zero-section phase metrics have signature 36|44 or 44|36. The source
+    confirms the kinematic carrier split but supplies neither the right moment-
+    zero boundary equation, right-gauge declaration nor positive quantum
+    domain. The observation construction survives; its promotion to a
+    positive balanced-RSAP replacement does not.
   evidence:
+    - explorations/conditional-build/selected-k108-rsap-physical-split-positivity-owner-gate-2026-08-15.md
+    - lab/process/selected-k108-rsap-physical-split-positivity-owner-gate.json
     - explorations/conditional-build/selected-k107-rsap-phase-space-compatible-complex-positivity-2026-08-15.md
     - lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json
     - explorations/conditional-build/selected-k106-rsap-balanced-quotient-positivity-ellipticity-2026-08-15.md
@@ -1131,11 +1143,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the source/action supply one concrete non-invariant positive selector
-  or boundary, contour, Wick or constrained domain on the conditional balanced
-  RSAP whose moving-R Euler/Noether law and actual BFV cohomology can be tested,
-  while a genuinely new stationary background remains the separate ownership
-  reopener?
+  Is there another concrete source/action-native candidate that owns all three
+  required objects on the actual conditional phase/BFV carrier: a non-invariant
+  selector, a positive pairing, and an analytic domain compatible with moving-R
+  Euler/Noether data; or is the positivity lane parked pending new input?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1209,7 +1220,14 @@ next_condition: >-
   symmetries and nonzero invariant linear subquotients retain the irreducible
   24|25 factor. Stop abstract invariant linear repairs; require an explicit
   action-owned non-invariant selector or concrete boundary/contour/Wick/
-  constrained domain before another positivity swing. Keep the 182D charged and 98D reverse-RSAP horns
+  constrained domain before another positivity swing. K108 tests the concrete
+  source physical 4|10 split and rejects only its promotion to a positive 98D
+  repair: its conditional right reduction is 80D, its base signature is
+  18|22 and its compatible phase signatures are 36|44 or 44|36. Preserve the
+  source-confirmed observation geometry, but do not infer a right-H_phys moment
+  law, gauge declaration or quantum domain. Another positivity candidate must
+  arrive with selector, pairing and analytic domain already typed on the
+  actual phase/BFV carrier. Keep the 182D charged and 98D reverse-RSAP horns
   distinct. Do not repeat finite BFV, multiplier,
   boundary-route, released-source or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal

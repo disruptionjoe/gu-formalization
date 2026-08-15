@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K108 physical-split positivity/owner gate:** the source-confirmed
+> `(1,3)|(6,4)` observation split is the first concrete non-invariant K107
+> reopener, but not a positive repair. Its stabilizer has dimension `51`, its
+> `40D` isotropy module has invariant signature `18|22`, and its conditional
+> cotangent quotient is `80D`, with zero-section compatible metrics `36|44`
+> or `44|36`. This is distinct from the balanced `98D` quotient and still
+> indefinite. Preserve the kinematic observation split. The source/action
+> does not select the right-`H_phys` moment law, gauge declaration or positive
+> domain. Do not admit another candidate unless it owns selector, pairing and
+> domain on the actual phase/BFV carrier.
+
 > **Current K107 conditional phase-space positivity gate:** K106's
 > `24|25` base does acquire invariant compatible complex structures after
 > cotangent doubling, and the cotangent bundle retains its canonical invariant
