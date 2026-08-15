@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 41eac966d5fa1d86a16345994ec54311d4a95027
+revision_basis: c0e34db3f6b88e7d8a5b88276265f5c74d64c685
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -921,7 +921,23 @@ current_result:
     zero boundary equation, right-gauge declaration nor positive quantum
     domain. The observation construction survives; its promotion to a
     positive balanced-RSAP replacement does not.
+    K109 exhausts the nine currently named constructed, partial and composite
+    positivity/domain candidates against one typed admission criterion. Zero
+    of nine rows owns a selector, positive pairing and common closed domain on
+    the actual conditional 98D phase/BFV carrier. The strongest partial wins are
+    genuine but disjoint: the fixed-background TT spectral C owns positivity
+    on one 2D Hessian block, the observed two-field defect owns a conditional
+    common Krein/Green domain, and the balanced BFV construction owns the
+    correct conditional phase carrier. No typed map composes them. Repeated
+    positivity reassessment over this inventory is parked while the reverse
+    classical scaffold is retained. A future swing requires one new owner
+    packet with carrier map, selector, positive quotient pairing, common
+    closed domain and moving-R/BFV compatibility. This is current-inventory
+    exhaustion, not a universal no-go; H-Q* remains narrowed and unconstructed
+    and H0 is strengthened but not proved.
   evidence:
+    - explorations/conditional-build/selected-k109-rsap-concrete-positivity-domain-owner-census-2026-08-15.md
+    - lab/process/selected-k109-rsap-concrete-positivity-domain-owner-census.json
     - explorations/conditional-build/selected-k108-rsap-physical-split-positivity-owner-gate-2026-08-15.md
     - lab/process/selected-k108-rsap-physical-split-positivity-owner-gate.json
     - explorations/conditional-build/selected-k107-rsap-phase-space-compatible-complex-positivity-2026-08-15.md
@@ -1143,10 +1159,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Is there another concrete source/action-native candidate that owns all three
-  required objects on the actual conditional phase/BFV carrier: a non-invariant
-  selector, a positive pairing, and an analytic domain compatible with moving-R
-  Euler/Noether data; or is the positivity lane parked pending new input?
+  Can a genuinely new action-owned stationary carrier or boundary law provide
+  one typed map into the conditional 98D phase/BFV complex together with its
+  selector, positive quotient pairing, common closed analytic domain and
+  moving-R Euler/Noether plus BFV compatibility?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1227,7 +1243,17 @@ next_condition: >-
   source-confirmed observation geometry, but do not infer a right-H_phys moment
   law, gauge declaration or quantum domain. Another positivity candidate must
   arrive with selector, pairing and analytic domain already typed on the
-  actual phase/BFV carrier. Keep the 182D charged and 98D reverse-RSAP horns
+  actual phase/BFV carrier. K109 now exhausts the current nine-candidate
+  inventory at that entry gate. The exact positive TT C-operator, conditional
+  observed-defect Green domain and conditional 98D classical BFV carrier are
+  the strongest partial results, but they belong to different objects and no
+  typed composition map joins them. Park repeated positivity algebra over the
+  current inventory. Retain the reverse scaffold through its exact classical
+  layer and reopen only with one genuinely new action-owned stationary carrier
+  or boundary law packaged with carrier map, selector, positive quotient
+  pairing, common closed domain and moving-R/BFV compatibility. This does not
+  kill future nonlinear, nonlocal, contour, Wick or boundary constructions and
+  does not prove H0. Keep the 182D charged and 98D reverse-RSAP horns
   distinct. Do not repeat finite BFV, multiplier,
   boundary-route, released-source or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal

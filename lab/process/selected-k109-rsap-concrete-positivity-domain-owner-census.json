@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_current_concrete_positivity_domain_owner_census",
+  "created": "2026-08-15",
+  "status": "ZERO_OF_NINE_CURRENT_CANDIDATES_MEETS_THE_FULL_98D_RSAP_POSITIVITY_ENTRY_CRITERION__CURRENT_INVENTORY_LANE_PARKED_PENDING_NEW_OWNER",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "CURRENT_REPOSITORY_NAMED_CONSTRUCTED_PARTIAL_OR_COMPOSITE_POSITIVITY_AND_DOMAIN_CANDIDATES__NOT_ALL_FUTURE_CONSTRUCTIONS",
+  "target_claim": {
+    "id": "K108_NEXT_GATE__A_CURRENTLY_NAMED_CONCRETE_SOURCE_OR_ACTION_NATIVE_CANDIDATE_MEETS_THE_FULL_98D_RSAP_POSITIVITY_ENTRY_CRITERION",
+    "verdict": "NO_ACROSS_THE_CURRENT_NINE_CANDIDATE_INVENTORY__PARTIAL_OWNERS_LIVE_ON_DIFFERENT_OBJECTS_AND_DO_NOT_COMPOSE"
+  },
+  "entry_criterion": {
+    "actual_98d_phase_or_bfv_carrier_or_typed_map": true,
+    "source_or_action_owned_noninvariant_selector_or_constraint": true,
+    "nondegenerate_positive_pairing_on_physical_quotient": true,
+    "common_closed_analytic_domain_with_moving_R_noether_and_bfv_compatibility": true,
+    "rule": "ALL_FOUR_FIELDS_MUST_BE_YES_ON_ONE_TYPED_OBJECT__PARTIAL_FIELDS_DO_NOT_COMPOSE_BY_JUXTAPOSITION"
+  },
+  "candidates": [
+    {
+      "id": "BALANCED_INVARIANT_PHASE",
+      "carrier": "YES_CONDITIONAL_98D",
+      "selector": "PARTIAL_REVERSE_CONDITIONAL_R0_AND_BOUNDARY_LAW",
+      "positive_pairing": "NO_SIGNATURE_48_50_OR_50_48",
+      "closed_domain": "NO",
+      "eligible": false,
+      "evidence": "lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json"
+    },
+    {
+      "id": "SOURCE_PHYSICAL_4_PLUS_10",
+      "carrier": "NO_DISTINCT_CONDITIONAL_80D_QUOTIENT",
+      "selector": "YES_KINEMATIC_ONLY__NO_RIGHT_GAUGE_LAW",
+      "positive_pairing": "NO_SIGNATURE_36_44_OR_44_36",
+      "closed_domain": "NO",
+      "eligible": false,
+      "evidence": "lab/process/selected-k108-rsap-physical-split-positivity-owner-gate.json"
+    },
+    {
+      "id": "MOVING_ASSOCIATED_SPINOR_J10",
+      "carrier": "NO_TOTAL_PHASE_BFV_COMPLEX_NOT_BUILT",
+      "selector": "PARTIAL_EXACT_FIBREWISE_DESCENT",
+      "positive_pairing": "NO",
+      "closed_domain": "NO",
+      "eligible": false,
+      "evidence": "lab/process/superposition-vrs1-internal-complex-source-census.json"
+    },
+    {
+      "id": "VERTICAL_BFV_POLARIZATION",
+      "carrier": "YES_CONDITIONAL_98D",
+      "selector": "PARTIAL_CONDITIONAL_CLASSICAL_CONSTRAINT_AND_REAL_POLARIZATION",
+      "positive_pairing": "NO",
+      "closed_domain": "NO",
+      "eligible": false,
+      "evidence": "lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json"
+    },
+    {
+      "id": "FIXED_BACKGROUND_TT_SPECTRAL_C",
+      "carrier": "NO_TWO_DIMENSIONAL_TT_HESSIAN_BLOCK",
+      "selector": "YES_SELECTED_ACTION_HESSIAN_AT_SUPPLIED_BACKGROUND",
+      "positive_pairing": "YES_ON_FIXED_2D_BLOCK",
+      "closed_domain": "NO_COMMON_NONLINEAR_BV_GREEN_FOCK_DOMAIN",
+      "eligible": false,
+      "evidence": "lab/process/first-perturbative-background-c-operator.json"
+    },
+    {
+      "id": "OBSERVED_TWO_FIELD_DEFECT_GREEN",
+      "carrier": "NO_OBSERVED_TWO_FIELD_DEFECT_NOT_98D_RSAP",
+      "selector": "YES_ON_SUPPLIED_SELECTED_BRANCH",
+      "positive_pairing": "NO_KREIN_PAIRING_AND_OPPOSITE_RESIDUES",
+      "closed_domain": "YES_CONDITIONAL_OBSERVED_DEFECT_CORE",
+      "eligible": false,
+      "evidence": "lab/process/selected-branch-linearized-totalization-current-green-domain.json"
+    },
+    {
+      "id": "STRICT_CENTER_KER_N_ULTRAHYPERBOLIC",
+      "carrier": "NO_FLAT_SOURCE_SHAPED_PRINCIPAL_OPERATOR",
+      "selector": "PARTIAL_PRINCIPAL_SYMBOL_RESTRICTION",
+      "positive_pairing": "NO",
+      "closed_domain": "PARTIAL_EXPLICITLY_NOT_A_PHYSICAL_CLOSED_DOMAIN",
+      "eligible": false,
+      "evidence": "explorations/conditional-build/selected-k77-nonlocal-ultrahyperbolic-polarization-gate-2026-08-11.md"
+    },
+    {
+      "id": "RESIDUAL_SQUARE_I2_HESSIAN",
+      "carrier": "NO_COMMON_ACTION_FIELD_TANGENT_ONLY",
+      "selector": "NO_DIFFERENTIAL_AND_QUADRATIC_OWNER_ONLY",
+      "positive_pairing": "NO",
+      "closed_domain": "NO",
+      "eligible": false,
+      "evidence": "lab/process/superposition-vrs1-internal-complex-source-census.json"
+    },
+    {
+      "id": "C_MOVE_BFV_I2_COMPOSITE",
+      "carrier": "PARTIAL_INTENDED_BULK_BOUNDARY_TARGET_NOT_CONSTRUCTED",
+      "selector": "PARTIAL_ROLES_NAMED_COMPOSITION_UNBUILT",
+      "positive_pairing": "NO",
+      "closed_domain": "NO",
+      "eligible": false,
+      "evidence": "lab/process/superposition-vrs1-internal-complex-source-census.json"
+    }
+  ],
+  "counts": {
+    "candidate_rows": 9,
+    "conditional_98d_carrier_yes": 2,
+    "exact_positive_pairing_yes": 1,
+    "conditional_common_closed_domain_yes": 1,
+    "full_entry_criterion_yes": 0
+  },
+  "strongest_partial_results": {
+    "positivity": "FIXED_BACKGROUND_TT_SPECTRAL_C__EXACT_POSITIVE_2D_BLOCK__WRONG_CARRIER_AND_NO_COMMON_DOMAIN",
+    "analytic_domain": "OBSERVED_TWO_FIELD_DEFECT_GREEN__COMMON_CONDITIONAL_DOMAIN__INDEFINITE_AND_WRONG_CARRIER",
+    "phase_carrier": "BALANCED_CLASSICAL_98D_BFV__CORRECT_CONDITIONAL_CARRIER__NO_POSITIVE_PAIRING_OR_CLOSED_DOMAIN",
+    "composition": "TYPE_MISSING__NO_TYPED_MAP_PLACES_ALL_THREE_PARTIAL_RESULTS_ON_ONE_OBJECT"
+  },
+  "reverse_scaffold": {
+    "retain": [
+      "CONDITIONAL_BALANCED_SEED_R0",
+      "CONDITIONAL_RIGHT_H_BAL_ZERO_LAW_AND_GAUGE_DECLARATION",
+      "EXACT_98D_CLASSICAL_SYMPLECTIC_REALIZATION",
+      "EXACT_FINITE_CLASSICAL_BFV_CHARGE"
+    ],
+    "do_not_append": "POSITIVE_QUANTUM_OR_PHYSICAL_COHOMOLOGY_LAYER_FROM_CURRENT_INVENTORY",
+    "reopen_only_with": "ONE_NEW_TYPED_OWNER_PACKET_SUPPLYING_CARRIER_MAP_SELECTOR_POSITIVE_QUOTIENT_PAIRING_COMMON_CLOSED_DOMAIN_AND_MOVING_R_BFV_COMPATIBILITY"
+  },
+  "claim_ceiling": {
+    "current_named_inventory_exhausted": true,
+    "all_future_action_admissible_candidates_exhausted": false,
+    "universal_positivity_no_go_proved": false,
+    "H_Q_star": "NARROWED_UNCONSTRUCTED_NOT_KILLED",
+    "H0": "STRENGTHENED_NOT_PROVED",
+    "conditional_classical_98d_rsap": "RETAINED"
+  },
+  "disposition": {
+    "current_positivity_inventory_lane": "PARKED_PENDING_NEW_OWNER",
+    "productive_upstream_routes": [
+      "EXPLICIT_SOURCE_GLOBAL_RIVAL_ZORRO_RECONSTRUCTION",
+      "COUPLED_NONZERO_FERMION_STATIONARY_SADDLE",
+      "GENUINELY_NEW_ACTION_TERM",
+      "ACTION_OWNED_BOUNDARY_VARIATIONAL_LAW"
+    ],
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k109-rsap-concrete-positivity-domain-owner-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k109_rsap_concrete_positivity_domain_owner_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k109-rsap-concrete-positivity-domain-owner-census-review.md"
+}

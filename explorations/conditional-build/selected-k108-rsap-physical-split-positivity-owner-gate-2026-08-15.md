@@ -177,3 +177,14 @@ phenomenology claim changes. Reproduce:
 ```bash
 python3 tests/channel-swings/selected_k108_rsap_physical_split_positivity_owner_gate_probe.py
 ```
+
+> **Successor closure (K109).** The complete current concrete-candidate census
+> finds zero of nine rows satisfying the full admission test on one object.
+> The fixed-background TT spectral `C` is the strongest positive-pairing
+> witness, the observed two-field defect is the strongest common-domain
+> witness, and the balanced classical BFV system is the correct conditional
+> `98D` carrier. They live on different carriers and no typed composition map
+> joins them. Park reassessment of this inventory while retaining the reverse
+> classical scaffold. Reopen only with one new typed owner packet containing
+> a carrier map, selector, positive quotient pairing, common closed domain and
+> moving-`R`/BFV compatibility.

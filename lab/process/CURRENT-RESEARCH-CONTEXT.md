@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K109 concrete positivity/domain owner census:** zero of the nine
+> presently named constructed, partial or composite candidates owns the full
+> package on one object. The fixed-background TT spectral `C` is an exact
+> positive pairing on a `2D` block but has no common nonlinear/BV/Fock domain
+> and is not the RSAP carrier. The observed two-field defect has a conditional
+> common Green domain but remains Krein-indefinite and is not the RSAP carrier.
+> The balanced classical BFV system owns the conditional `98D` carrier but no
+> positive pairing or closed physical domain. No typed composition map joins
+> those partial wins. Park the current inventory, not all future routes, and
+> retain Variancer's reverse classical scaffold. Reopen only with one new
+> typed owner packet supplying the carrier map, selector, positive quotient
+> pairing, common closed domain and moving-`R`/BFV compatibility.
+
 > **Current K108 physical-split positivity/owner gate:** the source-confirmed
 > `(1,3)|(6,4)` observation split is the first concrete non-invariant K107
 > reopener, but not a positive repair. Its stabilizer has dimension `51`, its
