@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1af2124e5bc328b4b2563261f02482370bc4a3d6
+revision_basis: 3441efde6603e24598ac0bb5666c54e2f1821a7f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -704,9 +704,24 @@ current_result:
     98D pointwise ceiling. Purely semisimple centralizer-nine walls already
     lie in the K88 Cartans. Thus the complete first singular layer is covered
     at structural grade. Singular mixed strata with centralizer dimension at
-    least 11 remain open, so no zero neighborhood, surjectivity or RSAP is
-    claimed.
+    least 11 remained open at that stage.
+    The next singular mixed layer now closes positively too. Total
+    centralizer excess four has four disjoint census families: 137 primitive
+    real, imaginary or loxodromic excess-four primaries; 169 pairs of
+    nonzero excess-two collisions; 283 zero-primary excess-four rows with
+    regular complement; and 84 zero-plus-nonzero excess-two combinations.
+    Exact enumeration therefore gives 673 signed centralizer-eleven mixed
+    configurations. All admit one simultaneous balanced reversing involution
+    with h-centralizer dimension 2, target rank 80 and map rank 89,
+    saturating the 98D pointwise ceiling. All 621 zero-primary grading
+    allocations remain explicit: 237 are optimal and 384 are adverse
+    controls. Twenty-four fully semisimple all-singleton-zero rows route back
+    to K88 rather than being mislabeled mixed. Singular mixed strata with
+    centralizer dimension at least 13 remain open, so no zero neighborhood,
+    surjectivity or RSAP is claimed.
   evidence:
+    - explorations/conditional-build/selected-k92-rsap-balanced-centralizer11-mixed-census-2026-08-15.md
+    - lab/process/selected-k92-rsap-balanced-centralizer11-mixed-census.json
     - explorations/conditional-build/selected-k91-rsap-balanced-minimal-singular-mixed-census-2026-08-15.md
     - lab/process/selected-k91-rsap-balanced-minimal-singular-mixed-census.json
     - explorations/conditional-build/selected-k90-rsap-balanced-regular-nonsemisimple-primary-census-2026-08-15.md
@@ -895,7 +910,7 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
   Does every higher-singular mixed-Jordan so(7,7) configuration with
-  centralizer dimension at least 11 meet the balanced symmetric complement p
+  centralizer dimension at least 13 meet the balanced symmetric complement p
   under one simultaneous anticommuting orthogonal involution, or does one
   exact configuration kill this 98D zero-neighborhood horn?
 acceptance:
@@ -906,12 +921,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Enumerate mixed Jordan configurations with total centralizer excess at
-  least four now that all 714 centralizer-nine signed structural rows pass at
-  sharp map rank 90. Index by real semisimple centralizer type, internal
-  nilpotent partition and simultaneous primary collisions; require one
-  balanced involution to reverse both Jordan parts and attain the pointwise
-  rank ceiling. Because Ad(G)p is conic, one
+  Classify centralizer-dimension-13 mixed Jordan configurations now that all
+  673 centralizer-eleven signed structural rows pass at sharp map rank 89.
+  Test whether the K89--K92 pattern dim(h intersection g_X)=(dim g_X-7)/2
+  follows from a uniform centralizer-parity theorem before defaulting to
+  another full layer census; retain exact higher-partition and multi-collision
+  controls either way. Require one balanced involution to reverse all Jordan
+  parts and attain the pointwise rank ceiling. Because Ad(G)p is conic, one
   missed nonzero orbit kills zero-neighborhood coverage for this horn but not
   nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
   global gluing across the missing ambient successor before that census. The

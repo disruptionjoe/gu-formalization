@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k92_rsap_balanced_centralizer11_mixed_census_probe.py`
+  exhausts all `673` centralizer-eleven mixed structural configurations across
+  primitive excess-four primaries, paired nonzero collisions, zero-primary
+  excess four, and zero-plus-nonzero combinations. Every row attains target
+  rank `80`, `h`-centralizer `2` and sharp map rank `89`. Centralizer at least
+  `13` remains open. It passes `27/27`.
+
 - `channel-swings/selected_k91_rsap_balanced_minimal_singular_mixed_census_probe.py`
   exhausts all centralizer-excess-two mixed primary structures: `590`
   real/imaginary `[d,1]` collisions and `124` singular-zero configurations.

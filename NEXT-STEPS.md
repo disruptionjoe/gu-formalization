@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE CENTRALIZER-ELEVEN MIXED CENSUS.** Total centralizer
+> excess four has exactly four census families: `137` primitive real,
+> imaginary or loxodromic excess-four primaries; `169` pairs of nonzero
+> excess-two collisions; `283` zero-primary excess-four rows with regular
+> complement; and `84` zero-plus-nonzero excess-two combinations. All `673`
+> signed structural configurations admit one simultaneous balanced reversing
+> involution and have centralizer `11`, target rank `80`, `h`-centralizer `2`
+> and map rank `89`, saturating the `98D` pointwise bound. All `621`
+> zero-primary grading allocations remain explicit (`237` optimal, `384`
+> adverse); `24` fully semisimple rows route back to K88. **Next classify
+> centralizer dimension `13` while testing whether the half-excess fixed-
+> centralizer pattern admits a uniform proof.** Zero-neighborhood coverage,
+> surjectivity, RSAP, source selection and global gluing remain open. Exact
+> probe `27/27`.
+
 > **2026-08-15 COMPLETE MINIMAL-SINGULAR MIXED CENSUS.** Centralizer excess
 > two in split `so(7,7)` has exactly two mixed mechanisms: a real or imaginary
 > `[d,1]` primary collision, or a zero primary of shape `(2,2)` or

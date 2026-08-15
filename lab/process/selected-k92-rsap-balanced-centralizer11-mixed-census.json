@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_balanced_centralizer11_mixed_census",
+  "created": "2026-08-15",
+  "status": "COMPLETE_CENTRALIZER_11_MIXED_STRUCTURAL_LOCUS_CONTAINED_AND_POINTWISE_SHARP__CENTRALIZER_AT_LEAST_13_OPEN",
+  "layer_0": {
+    "object": "classical centralizer-eleven mixed real skew-adjoint primary locus in the balanced symmetric horn moment image",
+    "physical_phase_space": false,
+    "source_selected_subgroup": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "ordinary_higgs_model_relevant": false,
+    "ordinary_family_index_relevant": false,
+    "ordinary_chirality_target_relevant": false
+  },
+  "predecessor": {
+    "artifact": "explorations/conditional-build/selected-k91-rsap-balanced-minimal-singular-mixed-census-2026-08-15.md",
+    "probe": "tests/channel-swings/selected_k91_rsap_balanced_minimal_singular_mixed_census_probe.py",
+    "status": "REPLAYED_23_OF_23"
+  },
+  "centralizer11_mixed_census": {
+    "centralizer_dimension": 11,
+    "target_poisson_rank": 80,
+    "signed_structural_configuration_count": 673,
+    "count_kind": "FINITE_SIGNED_STRUCTURAL_CONFIGURATIONS_NOT_INDIVIDUAL_ADJOINT_ORBITS",
+    "primitive_nonzero_excess_four_count": 137,
+    "primitive_nonzero_by_species": {
+      "real": 35,
+      "pure_imaginary": 87,
+      "loxodromic": 15
+    },
+    "two_nonzero_excess_two_count": 169,
+    "double_collision_by_species_pair": {
+      "real_real": 30,
+      "real_imaginary": 63,
+      "imaginary_imaginary": 76
+    },
+    "zero_primary_excess_four_count": 283,
+    "zero_two_plus_nonzero_two_count": 84,
+    "balanced_grading_failures": 0,
+    "h_centralizer_dimension": 2,
+    "ambient_adjoint_rank": 80,
+    "fixed_adjoint_rank": 40,
+    "moving_adjoint_rank": 40,
+    "moment_map_rank": 89,
+    "pointwise_ceiling": 89,
+    "rank_histogram": {
+      "centralizer11_target80_hcentralizer2_map89": 673
+    }
+  },
+  "exhaustion": {
+    "real_or_imaginary_primitive_excess_four_partition": "[n-2,2]_ONLY",
+    "loxodromic_primitive_excess_four_partition": "REALIFICATION_OF_[n-1,1]",
+    "composite_excess_four_mechanisms": [
+      "TWO_DISTINCT_NONZERO_EXCESS_TWO_PRIMARIES",
+      "ZERO_EXCESS_TWO_PLUS_NONZERO_EXCESS_TWO"
+    ],
+    "zero_excess_four_partitions_by_dimension": {
+      "4": ["[1,1,1,1]"],
+      "6": ["[3,1,1,1]"],
+      "8": ["[4,4]", "[5,1,1,1]"],
+      "10": ["[5,5]", "[7,1,1,1]"],
+      "12": ["[7,5]", "[9,1,1,1]"]
+    },
+    "semisimple_zero_rows_excluded_from_mixed_count": 24,
+    "primitive_nonzero_local_controls": 40,
+    "zero_primary_local_gradings": 621,
+    "zero_primary_optimal_gradings": 237,
+    "zero_primary_nonoptimal_controls": 384
+  },
+  "canonical_identities": [
+    "X^T*Q+Q*X=0",
+    "R^2=1",
+    "R^T*Q*R=Q",
+    "R*X+X*R=0",
+    "signature_Q=(7,7)",
+    "signature_Q_on_R_eigenspaces=(3,4)_(4,3)"
+  ],
+  "coverage_status": {
+    "all_semisimple": "COVERED_BY_K88_CARTAN_ARGUMENT",
+    "complete_regular_locus": "COVERED_BY_K88_AND_K90",
+    "pure_nilpotent": "COVERED_BY_K89",
+    "centralizer_9_mixed": "COMPLETE_BY_K91_AT_SIGNED_STRUCTURAL_GRADE",
+    "centralizer_11_mixed": "COMPLETE_BY_K92_AT_SIGNED_STRUCTURAL_GRADE",
+    "centralizer_at_least_13_mixed": "OPEN",
+    "zero_neighborhood": "OPEN",
+    "surjectivity": "OPEN",
+    "global_rsap": "OPEN"
+  },
+  "disposition": {
+    "balanced_horn": "SURVIVES_COMPLETE_CENTRALIZER_11_LAYER_TO_CENTRALIZER_AT_LEAST_13_CENSUS",
+    "uniform_fixed_centralizer_law": "SUPPORTED_AT_EXCESS_TWO_AND_FOUR_NOT_PROVED_UNIFORMLY",
+    "ambient_a3_successor": "TYPE_MISSING_NOT_REOPENED",
+    "dimension_interval": [98, 182],
+    "source_action_selection": "NOT_PROVIDED",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k92-rsap-balanced-centralizer11-mixed-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k92_rsap_balanced_centralizer11_mixed_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k92-rsap-balanced-centralizer11-mixed-census-review.md",
+  "next_gate": "CLASSIFY_CENTRALIZER_DIMENSION_13_AND_TEST_A_UNIFORM_FIXED_CENTRALIZER_PARITY_THEOREM"
+}

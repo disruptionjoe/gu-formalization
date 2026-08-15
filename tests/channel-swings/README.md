@@ -41,6 +41,15 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k92_rsap_balanced_centralizer11_mixed_census_probe.py`
+  exhausts all total-centralizer-excess-four mixed primary structures: `137`
+  primitive nonzero, `169` paired nonzero collisions, `283` singular-zero,
+  and `84` zero-plus-nonzero configurations. All `673` rows admit exact
+  balanced representatives with the sharp `11/80/2/89`
+  centralizer/target/fixed/map schedule. It retains all `384` nonoptimal zero
+  gradings and excludes `24` fully semisimple rows back to K88. It passes
+  `27/27` with Python 3.
+
 - `selected_k91_rsap_balanced_minimal_singular_mixed_census_probe.py`
   proves the centralizer-excess-two classification and enumerates `714`
   signed mixed structural configurations. It checks `48` nonzero collision
