@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-14",
+  "status": "CURRENTLY_SERIALIZED_ACTION_OWNED_POINT_CARRIER_CLASSES_EXHAUSTED__NO_ELIGIBLE_VRS5_STATIONARY_BACKGROUND__FUTURE_NEW_CONSTRUCTIONS_OPEN",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1H",
+  "predecessor": "lab/process/selected-k77-sr1g-released-action-repair-ownership-exhaustion.json",
+  "census": [
+    {
+      "id": "CANONICAL_ZORRO_ZERO_T",
+      "multiplicity": 1,
+      "owner": "SOURCE_RESIDUAL_PLUS_CANONICAL_ZORRO_RECONSTRUCTION",
+      "disposition": "KILLED_ACTION_TWO_JET",
+      "evidence": "lab/process/selected-k77-zorro-first-action-euler-gate.json"
+    },
+    {
+      "id": "HOMOGENEOUS_NONZERO_T_SOURCE_BRANCHES",
+      "multiplicity": 2,
+      "owner": "LOCAL_SOURCE_VARIABLE_BULK_STATIONARITY",
+      "disposition": "CANONICAL_INTERSECTION_EMPTY",
+      "evidence": "lab/process/selected-k77-nonzero-t-zorro-intersection-gate.json"
+    },
+    {
+      "id": "CANONICAL_BZ_NONZERO_T_ROOTS",
+      "multiplicity": 2,
+      "owner": "EXACT_ACTION_BIANCHI_POINT_AND_AFFINE_JETS",
+      "disposition": "KILLED_COMPLETE_AFFINE_JET_FIBRE",
+      "evidence": "lab/process/selected-k77-sr1d-affine-first-jet-parity-exhaustion.json"
+    },
+    {
+      "id": "SOURCE_INSTABILITY_VERTICAL_CARRIER",
+      "multiplicity": 1,
+      "owner": "OBSERVATION_RELATIVE_450_TO_1274_INCLUSION_PLUS_CHECKED_RELEASED_ACTION",
+      "disposition": "KILLED_CHECKED_ACTION_BOUNDEDNESS",
+      "evidence": "lab/process/selected-k77-sr1g-released-action-repair-ownership-exhaustion.json"
+    },
+    {
+      "id": "SCALAR_CURVATURE_VEV_TRACE_BRANCH",
+      "multiplicity": 1,
+      "owner": "ACTION_OWNED_SCALAR_JET_TRACE_CLOSURE",
+      "disposition": "INELIGIBLE_CANONICAL_REALISATION_OPEN",
+      "evidence": "lab/process/selected-k77-vrs5-curvature-vev-reopener-qualification.json"
+    }
+  ],
+  "coverage": {
+    "serialized_candidate_classes": 5,
+    "serialized_candidate_instances": 7,
+    "canonical_geometry_admitted_classes": 2,
+    "full_local_stationarity_survivors": 0,
+    "eligible_vrs5_backgrounds": 0,
+    "unconstructed_future_classes_counted_as_current": 0
+  },
+  "unconstructed_reopeners": [
+    "DERIVED_RIVAL_ZORRO_CONNECTION_AND_METRIC",
+    "NONZERO_FERMION_COUPLED_STATIONARY_SADDLE",
+    "NEW_FIELD_DEPENDENT_PRIMALIZER_OUTSIDE_Q_U",
+    "NEW_DYNAMICALLY_CLOSED_CONSTRAINED_DOMAIN",
+    "NEW_HIGHER_EVEN_FULL_CARRIER_ACTION",
+    "FUTURE_OR_UNRELEASED_SOURCE_FORMULA"
+  ],
+  "hypothesis_rerank": {
+    "historical_twenty_lens_votes_changed": false,
+    "first_current_truth_status": "H0_EXTERNAL_ORDINARY_QUANTIZATION",
+    "H_Q_star": "CONDITIONAL_ROUTE_SURVIVES_BUT_BLOCKED_ON_NEW_STATIONARY_BACKGROUND_OWNER",
+    "H_B": "PROTECTED_INDEPENDENT_BOUNDARY_SYMPLECTIC_ROUTE",
+    "H_D": "PROTECTED_SECOND_ACTION_OWNERSHIP_THEOREM_WITHOUT_BACKGROUND"
+  },
+  "vrs5": "CLOSED_AT_CURRENTLY_SERIALIZED_ACTION_OWNED_POINT_CARRIER_CLASS_CEILING",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6": "BLOCKED",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "RSAP_LOCAL_98D_SYMPLECTIC_POISSON_WALL_NORMAL_FORM__TARGET_RANK_84_TO_82__MAP_RANK_91_TO_90",
+  "artifact": "explorations/conditional-build/selected-k77-sr1h-action-owned-point-carrier-census-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1h_action_owned_point_carrier_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1h-action-owned-point-carrier-census-review.md",
+  "checks": "48/48 PASS"
+}

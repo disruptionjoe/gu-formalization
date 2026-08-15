@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "integration_cursor": null,
+  "integration_cursor": "GU-TW-COHERENCE-27-LENS-2026-08-14",
   "deltas": [
     {
       "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
       "path": "lab/process/conditional-evidence-deltas/gu-tw-coherence-27-lens-2026-08-14.json",
-      "status": "pending"
+      "status": "conflicting"
     }
   ]
 }

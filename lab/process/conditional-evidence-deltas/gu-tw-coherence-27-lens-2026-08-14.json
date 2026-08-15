@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
-  "status": "pending",
+  "status": "conflicting",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.256.json",
     "ledger_sha256": "5c5b86ad30ad71fcf771784a318f6dc5d03cb7a12afcdfa63bdc488c2d6b4a7e"
@@ -35,5 +35,9 @@
     "TWISTOR-COHERENCE-DEPENDENCY-ORDER",
     "SOURCE-RESIDUAL-OPERATOR-OWNER"
   ],
-  "integration": null
+  "integration": {
+    "disposition": "conflicting",
+    "canonical_ledger_ref": null,
+    "reason": "The source-residual operator-owner rebase remains valid, but its v0.256-based VRS-5-forward work order is overtaken by SR-1H. All five currently serialized action-owned point-carrier classes fail canonical geometry, local stationarity or released-action boundedness, so no present background licenses that continuation. No ledger row changes; H-Q* remains conditional but blocked on a new stationary-background owner, H0 strengthens, and the independent RSAP wall normal form reranks first."
+  }
 }

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7b94412c9953fedb78e37e8e31e90363eb05ea01
+revision_basis: 52d85ae0055ff8aa2e9a6e53761989aca23774ab
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -334,9 +334,21 @@ current_result:
     killed as a stable VRS-5 background under the checked released action.
     This is not a universal no-go for future GU completions: any new action,
     primalizer or constrained domain must be labelled a new construction.
-    SR-1H must rerank genuinely distinct action-owned point carriers. VRS-6
-    still cannot instantiate.
+    SR-1H now completes that rerank. The five currently serialized point-
+    carrier classes contain no eligible VRS-5 background: zero-T fails the
+    first action; the two homogeneous nonzero-T source branches miss canonical
+    B_Z; both canonical nonzero-T roots retain the metric trace across the
+    complete compatible affine first/two-jet fibre; the source-instability
+    carrier is unbounded under the checked action; and the old scalar trace
+    branch lacks a derived canonical realization. This closes VRS-5 only at
+    the current-owned-class ceiling. Historical twenty-lens votes remain
+    unchanged, but H0 is now first current truth-status while H-Q* survives
+    conditionally and is blocked on a new stationary-background owner. VRS-6
+    still cannot instantiate. The independent RSAP wall-normal-form gate now
+    ranks first.
   evidence:
+    - explorations/conditional-build/selected-k77-sr1h-action-owned-point-carrier-census-2026-08-14.md
+    - lab/process/selected-k77-sr1h-action-owned-point-carrier-census.json
     - explorations/conditional-build/selected-k77-sr1g-released-action-repair-ownership-exhaustion-2026-08-14.md
     - lab/process/selected-k77-sr1g-released-action-repair-ownership-exhaustion.json
     - explorations/conditional-build/selected-k77-sr1f-observer-qb-vertical-boundedness-2026-08-14.md
@@ -468,11 +480,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  After the complete SR-1C affine-jet kill and the released-action
-  source-instability boundedness kill, does any genuinely distinct
-  action-owned point carrier remain capable of supplying a complete stationary
-  background, or should the VRS-5 background route close and increase
-  conviction in the H0 null?
+  Can a local 98-dimensional symplectic Poisson realization attach smoothly
+  across one codimension-one discriminant wall while the target Poisson rank
+  drops from 84 to 82 and the moment-map rank drops from 91 to 90?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -481,23 +491,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  In SR-1H, inventory and rerank only genuinely distinct action-owned point
-  carriers against the accumulated stationary and boundedness kill contracts.
-  Do not rebuild the exact vertical map, rescale fixed-natural Q_B, choose a
-  different observer, repeat ordinary BV/KT descent, reuse the exhausted
-  omega/J4 reductions, fit a tangent slice, or add an unowned higher term.
-  Any new field-dependent primalizer, constrained domain or higher action must
-  be labelled and invoiced as a new construction before algebra begins. If no
-  distinct owned carrier survives, close this VRS-5 route and update the
-  twenty-lens hypothesis ranking while preserving H0. Only a surviving route
-  may proceed to orbit selection, exact amplitude, canonical-B_Z first jet and
-  recomputed translation, Bianchi, j1E_T, j1E_B, primitive epsilon and total
-  fixed-varpi metric rows. Keep VRS-6 conditional until one complete
-  stationary background exists.
-  Independently, the RSAP carrier still needs a local 98D wall
-  normal form with target rank 84 to 82 and map rank 91 to 90.
-  Admit a rival Zorro completion only with a derived metric/connection formula
-  and nonzero mixed trace curvature. Do not reopen edge completion without a
-  new second owner, promote algebraic BFV to physical cohomology, choose
-  W/mirror, or infer a generation count.
+  Construct the RSAP wall in local Poisson-splitting coordinates. Require one
+  smooth 98D symplectic carrier, a surjective Poisson map, submersion on the
+  regular rank-84 side, target rank 82 and map rank 90 on the first wall, and
+  exact Jacobi, symplectic nondegeneracy and rank controls. A tangent-space
+  schedule or disconnected regular atlas is not the nonlinear attachment.
+  Preserve the global all-strata range [98,182] and do not claim a global RSAP
+  from one wall chart. Reopen VRS-5 only with a genuinely new source/action-
+  owned stationary point carrier, derived canonical metric/connection and
+  bounded full action; then restart at the cheapest failed gate. Keep VRS-6
+  conditional until one complete stationary background exists. Admit a rival
+  Zorro completion only with a derived formula and nonzero mixed trace
+  curvature. Do not reopen edge completion without a new second owner,
+  promote algebraic BFV to physical cohomology, choose W/mirror, or infer a
+  generation count.
 what_needs_joe: none

@@ -7,6 +7,19 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1H ACTION-OWNED POINT-CARRIER CENSUS.** All five currently
+> serialized classes are now dispositioned: canonical zero-T fails the first
+> action; the two homogeneous nonzero-T source branches miss canonical B_Z;
+> both canonical nonzero-T roots fail metric stationarity across their complete
+> affine first/two-jet fibres; the source-instability carrier is unbounded
+> under the checked action; and the old scalar trace branch has no derived
+> canonical realization. No current class licenses VRS-5 continuation. This is
+> current-owned-class exhaustion, not a universal no-background theorem.
+> Historical twenty-lens votes stay fixed; H0 strengthens while H-Q* is blocked
+> on a new stationary-background owner. **Next construct the independent local
+> 98D RSAP Poisson wall normal form with target rank 84->82 and map rank
+> 91->90.** Exact census probe `48/48`.
+
 > **2026-08-14 SR-1G RELEASED-ACTION REPAIR OWNERSHIP EXHAUSTION.** The
 > registered released source grammar is exactly `SC-ACT-01…06`: I1B has
 > constant-amplitude degree at most `3`, its residual degree at most `2`, and
