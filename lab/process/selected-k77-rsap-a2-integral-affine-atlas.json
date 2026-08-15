@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "compact_a2_integral_affine_atlas_construction",
+  "created": "2026-08-15",
+  "status": "COMPACT_A2_98D_SYMPLECTIC_MOMENT_ATLAS_CLOSED__EXISTING_CARTAN_TORUS_ABSORBS_CECH_CLASS__SINGLE_SECTION_ROUTE_REMAINS_KILLED",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "VERIFY"],
+  "charges": {
+    "simple_roots": ["mu1=lambda1-lambda2", "mu2=lambda2-lambda3"],
+    "third_positive_root": "mu12=mu1+mu2",
+    "regular_compact_chamber": "mu1>0 and mu2>0"
+  },
+  "cech_de_rham": {
+    "clutching_lattice": "Z alpha1^vee plus Z alpha2^vee",
+    "local_log_triple": "phi_ij+phi_jk+phi_ki=2 pi n_ijk",
+    "triple_integer": "n_ijk in Z^2",
+    "orbit_primitive_difference": "mu^T dphi_ij",
+    "varying_charge_completion": "phi_ij^T dmu",
+    "local_generating_differential": "d(mu^T phi_ij)",
+    "cartan_angle_transition": "tau_i=tau_j+phi_ij mod 2 pi Z^2",
+    "full_primitive": "Theta_i=theta_i^orb-mu^T dtau_i+Theta_rest",
+    "full_primitive_gluing": "STRICT_EQUALITY",
+    "fixed_charge_period": "2 pi mu_alpha NONZERO ON REGULAR SIMPLE_ROOT_ORBIT"
+  },
+  "weyl": {
+    "s1_on_mu": [[-1, 0], [1, 1]],
+    "s2_on_mu": [[1, 1], [0, -1]],
+    "angle_action": "inverse_transpose",
+    "involutions": true,
+    "a2_braid": true,
+    "cotangent_pairing_preserved": true
+  },
+  "dimension_and_rank": {
+    "common_leaf_dimension": 78,
+    "transverse_dimension": 20,
+    "full_source_dimension": 98,
+    "regular_map_rank": 91,
+    "a1_wall_map_rank": 90,
+    "a2_origin_map_rank": 88,
+    "new_degrees_of_freedom": 0
+  },
+  "collapse": {
+    "mu1_zero": "alpha1 circle primitive coefficient vanishes; alpha2 circle remains",
+    "mu2_zero": "alpha2 circle primitive coefficient vanishes; alpha1 circle remains",
+    "compact_a1_attachment": "LATTICE_PRIMITIVE_AND_RANK_COMPATIBLE",
+    "compact_a2_attachment": "TWO_ROOT_LATTICE_PRIMITIVE_AND_RANK_COMPATIBLE"
+  },
+  "scope": {
+    "compact_a2_regular_multichart_atlas": "CONSTRUCTED",
+    "compact_a1_a2_wall_atlas": "CONSTRUCTED_AT_LATTICE_PRIMITIVE_AND_RANK_GRADE",
+    "single_global_diagonalizing_section": "OBSTRUCTED",
+    "bare_orbit_relative_primitive": "NONEXACT",
+    "prequantum_twist": "NOT_USED_AND_NO_INTEGRALITY_CLAIM",
+    "split_and_mixed_global_topology": "OPEN",
+    "higher_root_subsystems": "OPEN",
+    "full_singular_stratification": "OPEN",
+    "zero_charge_rank_at_most_49": "NOT_CONSTRUCTED",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-integral-affine-atlas-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_integral_affine_atlas_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a2-integral-affine-atlas-review.md",
+  "next_gate": "GLOBALIZE_SPLIT_AND_MIXED_A2_CARTAN_LATTICE_TRANSITIONS_THEN_TEST_THE_FIRST_HIGHER_ROOT_SUBSYSTEM"
+}

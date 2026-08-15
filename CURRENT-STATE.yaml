@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 92959b2224a9816f474575adfd62ccb87d90a34f
+revision_basis: 98678f61c3c802d5806f9c35c85d24dcbdc8663a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -389,8 +389,23 @@ current_result:
     single-valued relative primitive exists on that overlap.
     The local symplectic and moment atlas survives; its torus bundle and
     Cech--de Rham primitive class must be retained or independently cancelled
-    before singular extension.
+    before singular extension. The complete compact two-simple-root
+    comparison now performs that classical cancellation with no added field
+    or prequantum twist. For varying charges, the orbit transition
+    mu^T dphi is completed by the already-owned conjugate Cartan-angle term
+    phi^T dmu=d(mu^T phi)-mu^T dphi. The inverse angle transition closes
+    modulo the A2 coroot lattice, both Weyl cotangent lifts preserve the
+    pairing and satisfy the braid relation, and the full primitive,
+    symplectic form and moment map glue across the compact multichart atlas.
+    The carrier remains 98-dimensional with map ranks 91, 90 and 88 on the
+    regular, A1-wall and A2-origin schedules. The single-diagonalizer route
+    and its fixed-charge period remain obstructed; no charge quantization
+    follows. Compact A1/A2 lattice, primitive and rank compatibility is now
+    constructed. Split/mixed globalization, higher root subsystems, the full
+    singular stratification, zero charge and all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a2-integral-affine-atlas-2026-08-15.md
+    - lab/process/selected-k77-rsap-a2-integral-affine-atlas.json
     - explorations/conditional-build/selected-k77-rsap-a2-global-primitive-monodromy-obstruction-2026-08-15.md
     - lab/process/selected-k77-rsap-a2-global-primitive-monodromy-obstruction.json
     - explorations/conditional-build/selected-k77-rsap-a2-common-refinement-germ-2026-08-15.md

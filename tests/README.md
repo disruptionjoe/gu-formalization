@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_rsap_a2_integral_affine_atlas_probe.py`
+  constructs the complete compact two-root Cech--de Rham atlas. It verifies
+  the existing Cartan-angle cotangent cancellation, coroot-lattice triple
+  closure, Weyl braid/cotangent identities and the `98D` map-rank schedule.
+  The classical symplectic/moment atlas closes without charge integrality;
+  split/mixed globalization and higher strata remain open. It passes `60/60`.
+
 - `channel-swings/selected_k77_rsap_a2_global_primitive_monodromy_obstruction_probe.py`
   restricts the compact principal `A2` factor to a simple-root Hopf sphere.
   It certifies unit clutching/Chern number and the nonzero lifted primitive

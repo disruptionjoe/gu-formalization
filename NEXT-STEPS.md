@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPACT-`A2` INTEGRAL-AFFINE ATLAS.** The complete compact
+> two-simple-root `98D` classical atlas now closes. The predecessor's nonzero
+> fixed-charge Hopf period remains genuine, but the full varying-charge
+> common refinement already owns the two conjugate Cartan angles. Their
+> inverse transition supplies the missing `phi^T dmu` term, so the total
+> primitive glues strictly while logarithm defects close modulo the `A2`
+> coroot lattice. Weyl cotangent lifts preserve the pairing and braid
+> exactly; the carrier stays `98D` with map ranks `91 -> 90 -> 88`. No new
+> field, prequantum twist, or charge-integrality condition is used. Compact
+> `A1/A2` lattice, primitive and rank compatibility is constructed; the one-
+> diagonalizer route stays killed. **Next globalize the split and mixed `A2`
+> Cartan/component transitions, then test the first genuinely higher root
+> subsystem.** Exact probe `60/60`; full singular stratification, zero charge
+> and all-strata RSAP remain open.
+
 > **2026-08-15 COMPACT-`A2` GLOBAL PRIMITIVE MONODROMY.** The regular germ
 > does not extend over the complete compact overlap as one group-section chart
 > with one globally exact Liouville primitive. On a simple-root

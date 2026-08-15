@@ -41,6 +41,14 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k77_rsap_a2_integral_affine_atlas_probe.py` restores the two
+  varying charges and their existing conjugate Cartan angles, checks the full
+  Cech--de Rham differential, the rank-two coroot-lattice triple closure,
+  Weyl cotangent lifts and braid relation, and the `98D` `91 -> 90 -> 88`
+  compact `A1/A2` collapse schedule. It closes the classical compact atlas
+  without a prequantum twist while retaining the one-section obstruction. It
+  passes `60/60` with Python 3.
+
 - `selected_k77_rsap_a2_global_primitive_monodromy_obstruction_probe.py`
   gives the compact global obstruction after the passing common-refinement
   germ: the simple-root eigenline clutching has degree one and the lifted
