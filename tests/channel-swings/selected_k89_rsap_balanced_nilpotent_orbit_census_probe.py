@@ -106,6 +106,18 @@ def signed_orbit_rows():
     return rows
 
 
+def stable_signed_diagram(row) -> bool:
+    multiplicities = Counter(row["partition"])
+    middle_signs = []
+    for size, positive_count in zip(
+        sorted(size for size in multiplicities if size % 2),
+        row["positive_counts"],
+    ):
+        starts = [1] * positive_count + [-1] * (multiplicities[size] - positive_count)
+        middle_signs.extend(start * (-1) ** ((size - 1) // 2) for start in starts)
+    return set(middle_signs) == {-1, 1}
+
+
 def zero_matrix(size: int) -> list[list[int]]:
     return [[0] * size for _ in range(size)]
 
@@ -354,6 +366,8 @@ check("classification", "no very-even partition can occur at total size 14",
 principal_rows = [row for row in rows if row["partition"] == (13, 1)]
 check("classification", "the two real principal [13,1] signed forms both pass",
       len(principal_rows) == 2 and all(row["allocations"] for row in principal_rows))
+check("classification", "all 99 signed diagrams are stable connected SO_0 orbit classes",
+      all(stable_signed_diagram(row) for row in rows))
 
 
 print("\nC. PRINCIPAL AND REGULAR-NONSEMISIMPLE RANK CONTROLS")
@@ -401,7 +415,10 @@ registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
 check("schema", "registry freezes the 43/99/0 census",
       registry["classification"]["admissible_partition_count"] == 43
       and registry["classification"]["split_real_signed_form_allocation_count"] == 99
-      and registry["classification"]["failed_balanced_allocations"] == 0)
+      and registry["classification"]["failed_balanced_allocations"] == 0
+      and registry["classification"]["stable_signed_diagram_count"] == 99
+      and registry["classification"]["connected_so0_orbit_count"] == 99
+      and registry["classification"]["o_to_so0_split_count"] == 0)
 check("schema", "registry principal ranks equal the exact matrix certificate",
       principal_ranks == (84, 42, 42)
       and registry["principal_control"]["moment_map_rank"] == 91)

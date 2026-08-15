@@ -48,7 +48,7 @@ the ledger probe uses the standard Python interpreter.
   principal `[13,1]` orbits and `49` at zero. Two mixed regular controls pass.
   It keeps complete
   regular-nonsemisimple and singular mixed-Jordan coverage open. It passes
-  `37/37` with Python 3.
+  `38/38` with Python 3.
 
 - `selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
   constructs the balanced symmetric pair

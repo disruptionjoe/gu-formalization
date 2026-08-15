@@ -19,7 +19,7 @@ updated_at: "2026-08-15"
 > pass at the same rank. **Next exhaust all regular nonsemisimple primary
 > decompositions, then the singular mixed-Jordan types.** Zero-neighborhood
 > coverage, surjectivity, RSAP, source selection and global gluing remain open.
-> Exact probe `37/37`.
+> Exact probe `38/38`.
 
 > **2026-08-15 `98D` ZERO-CHARGE BALANCED SYMMETRIC HORN.** Split
 > `R^(7,7)=U_(3,4)+W_(4,3)` and take the connected symmetric subgroup

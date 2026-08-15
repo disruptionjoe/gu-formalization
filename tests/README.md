@@ -12,7 +12,7 @@ the map: which directory/group supports which claim.
   balanced anticommuting involution and saturates its `98D` pointwise rank
   bound. Both principal `[13,1]` orbits have map rank `91`, zero has rank
   `49`, and two regular-nonsemisimple controls pass, while the complete mixed-
-  Jordan census stays open. It passes `37/37`.
+  Jordan census stays open. It passes `38/38`.
 
 - `channel-swings/selected_k88_rsap_zero_charge_symmetric_mixed_cartan_horn_probe.py`
   builds the exact balanced symmetric decomposition
