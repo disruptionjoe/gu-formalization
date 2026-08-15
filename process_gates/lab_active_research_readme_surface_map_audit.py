@@ -23,6 +23,31 @@ CURRENT_THREAD_ROW = re.compile(
 )
 
 EXPECTED_CURRENT_THREADS = {
+    # Synced 2026-08-15: these four surfaces existed on disk and were listed in
+    # the README while this pinned set still omitted them, so the audit had been
+    # RED on real, correctly-documented threads. Status and note strings are
+    # TRANSCRIBED from the README, not written here -- the pin catches drift and
+    # is not itself authority for what a thread says.
+    "joe-directed/": {
+        "status": "active_research",
+        "note": "Joe-directed channel artifacts. All carry `canonical_effect: pending_integration` and move no canon, ledger or current-state surface. See that directory's own README for per-thread dispositions and the corrections carried against them.",
+        "target": ACTIVE_RESEARCH / "joe-directed" / "README.md",
+    },
+    "anomaly/": {
+        "status": "active_research",
+        "note": "Anomaly program; `Sp(1)` 2-primary Dai-Freed gate. Indexed 2026-08-14 by research maintenance; the directory pre-dates this row.",
+        "target": ACTIVE_RESEARCH / "anomaly" / "README.md",
+    },
+    "source-residual-cohomology/": {
+        "status": "active_research",
+        "note": "Source-owned `Upsilon` residual, Dirac-pair/cohomology, mass-block decoupling and physical-state gates; H0 retained.",
+        "target": ACTIVE_RESEARCH / "source-residual-cohomology" / "README.md",
+    },
+    "lab/active-research/triplet-boundary-flavor-conjecture-2026-07-25.md": {
+        "status": "active_research / open staged conjecture",
+        "note": "Separates the canonical triplet carrier from the still-missing source/boundary chiral selector and downstream flavor differentiation; no count or priority change.",
+        "target": ACTIVE_RESEARCH / "triplet-boundary-flavor-conjecture-2026-07-25.md",
+    },
     "signed-readout/": {
         "status": "active_research",
         "note": "Boundary/readout theorem program.",

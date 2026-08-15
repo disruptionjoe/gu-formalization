@@ -2,7 +2,7 @@
 title: "Joe-Directed Channels"
 status: active_research
 doc_type: overview
-updated_at: "2026-08-14"
+updated_at: "2026-08-15"
 ---
 
 # Joe-Directed Channels
@@ -57,6 +57,10 @@ Two further ceilings recur and should be read with every file:
 | `coset-versus-gauge/` | CG-1 | `p` is a declared coset, not a gauge sector. Delivers the reusable typing `GU-YM-Delta1..Delta5`: Yang-Mills-**like**, not Yang-Mills, failing at `Delta1`/`Delta2` before the action is written. |
 | `metric-cone-boundedness/` | MC-1 | The cone does **not** bound SRC-3's runaway, and the reason inverts: the DeWitt-negative direction is the cone's own dilation generator. |
 | `four-d-mode-decomposition/` | MD-1 | Form leg settled in GU's favour — the nine **are** 4D vectors, via contraction not projection. Ad leg is `NOT-DETERMINED` pending the `SOLDERED-AD` fork. |
+| `ledger-advancement/` | LA-1 | Difficulty assessment and versionless deltas against the conditional-physics ledger. 82 rows resolve to ~32 formal degrees of freedom; the near-universal cut vertex is **real** but its identification was broken and corrected by LA-10. See that namespace's own index. |
+| `ownership-theorem/` | OT-1 | An ownership predicate for GU's non-reductive symmetry, plus a pairing obstruction. OT-2 applied it and **broke the pair OT-1 proposed**: `OWN` is the right instrument for one row and the wrong one for the other. |
+| `phi-reduction/` | PHI-1 | The `14 -> 4` reduction map, constructed. 14D anomaly cancellation contributes **exactly zero bits** to the 4D verdict through the observation. PHI-2 extended the target lattice and promoted the `SOLDERED-AD` fork to **verdict-load-bearing** for `AC-D1..D5`. |
+| `base-duality/` | BD-A | **The blocking object was never the obstruction.** `MET(X^{1,3})` is the second argument of the source's own first action; a **domain error** (algebra vs module) had inverted the answer; and the fibre subscript is **inert**. Obstruction re-typed to **fibre positivity**, which the source disavows demanding. See that namespace's index and `bd-disposition-packet-2026-08-15.md`. |
 
 ## Known corrections carried against these files
 
