@@ -7,6 +7,18 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 REAL-REGULAR `A2` KOSTANT BRIDGE AND SPLIT-`A3` FACTOR.**
+> Principal real `sl2` triples close the missing nonsemisimple transition. The
+> split Kostant directions are `f,f^2`; the mixed directions are `f,i f^2`.
+> Exact transversality covers the principal nilpotent and nonnilpotent Jordan
+> discriminant controls, while cotangent lifts preserve the primitive, moment
+> map and `98D`/rank-`91` schedule. The first licensed higher-root factor
+> `T*(SL(4,R)/SO(2,2))` also constructs: `18D`, regular map rank `15`, origin
+> rank `9`; with `T*R4` it gives the `26D` refinement. **Next construct the
+> split `A2/A3` common-refinement transition and first noncommuting triple.**
+> Exact probe `47/47`; other `A3` forms, singular strata, zero charge and
+> all-strata RSAP remain open.
+
 > **2026-08-15 SPLIT/MIXED `A2` REAL-FORM CARTAN TRANSITIONS.** All four
 > regular-semisimple Cartan types now close at classical cotangent-atlas grade.
 > `SL(3,R)` contributes split rank-two/lattice-rank-zero and complex-pair

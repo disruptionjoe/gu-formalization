@@ -4538,6 +4538,18 @@ type-missing bridge target.
 python3 tests/channel-swings/selected_k77_rsap_a2_real_form_cartan_transition_probe.py
 ```
 
+## K77 RSAP A2 Kostant bridge and split-A3 factor
+
+`channel-swings/selected_k77_rsap_a2_kostant_a3_factor_probe.py` checks the
+split and mixed principal `sl2` triples, correctly typed real Kostant
+directions, nilpotent and nonnilpotent discriminant controls, centralizer and
+cotangent identities, then certifies the split-`A3` principal factor and full
+dimension/rank schedule exactly.
+
+```sh
+python3 tests/channel-swings/selected_k77_rsap_a2_kostant_a3_factor_probe.py
+```
+
 ## K77 RSAP rank-82 wall family and A2 cocycle gate
 
 `channel-swings/selected_k77_rsap_rank82_wall_family_a2_cocycle_gate_probe.py`

@@ -1,0 +1,44 @@
+{
+  "status": "A2_REGULAR_BRIDGE_CONSTRUCTED_A3_SPLIT_FACTOR_CONSTRUCTED",
+  "artifact": "explorations/conditional-build/selected-k77-rsap-a2-kostant-a3-factor-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k77_rsap_a2_kostant_a3_factor_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k77-rsap-a2-kostant-a3-factor-review.md",
+  "a2": {
+    "split_slice_directions": ["f", "f^2"],
+    "mixed_slice_directions": ["f", "i f^2"],
+    "orbit_rank_at_principal_nilpotent": 6,
+    "slice_rank": 2,
+    "target_rank": 8,
+    "regular_centralizer_rank": 2,
+    "full_source_dimension": 98,
+    "full_map_rank": 91,
+    "regular_atlas": "CONSTRUCTED_LOCALLY_ALL_REAL_TYPES",
+    "singular_atlas": "OPEN"
+  },
+  "a3_split": {
+    "factor": "T*(SL(4,R)/SO(2,2))",
+    "factor_dimension": 18,
+    "regular_factor_map_rank": 15,
+    "origin_factor_map_rank": 9,
+    "residual_zero_pairs": 4,
+    "common_refinement_dimension": 26,
+    "full_source_dimension": 98,
+    "full_regular_map_rank": 91,
+    "full_origin_map_rank": 85,
+    "regular_real_jordan_census": "COVERED_BY_SIGNATURE_2_2_SELF_ADJOINT_FORMS",
+    "a2_a3_transition": "NOT_YET_CONSTRUCTED"
+  },
+  "cotangent_transition": {
+    "primitive": "STRICTLY_PRESERVED",
+    "symplectic_form": "STRICTLY_PRESERVED",
+    "moment_map": "INTERTWINED",
+    "new_degrees_of_freedom": 0
+  },
+  "changes": {
+    "canon": "none",
+    "ledger": "none",
+    "physical_claim": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "CONSTRUCT_SPLIT_A2_A3_COMMON_REFINEMENT_TRANSITION_BEFORE_OTHER_A3_REAL_FORMS"
+}

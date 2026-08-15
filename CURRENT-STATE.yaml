@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a62f7286e9ffdb26decdd3794063c95e87788b6b
+revision_basis: d4bc62ca273794e1995cfc35345941366317e46b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -407,14 +407,24 @@ current_result:
     three-real-eigenvalue centralizer has four sign components. All lattice,
     Weyl and component transitions act by cotangent lifts, so the primitive,
     symplectic form and moment map glue with no new degree of freedom or
-    integrality condition. This is not full regular globalization: the split
-    and mixed principal factors contain regular nilpotents with rank-eight
-    moment differential but no semisimple Cartan diagonalizer. Their overlap
-    with the semisimple atlas is type-missing until a real regular-centralizer
-    or Kostant-slice transition is constructed. Higher root subsystems remain
-    dependency-blocked; the full singular stratification, zero charge and
+    integrality condition. The missing nonsemisimple transition now also
+    constructs. Exact principal real sl2 triples give two-dimensional
+    Kostant slices transverse to the six-dimensional regular orbit: the split
+    directions are f,f^2, while the mixed directions are f,i f^2. They cover
+    the principal nilpotent and the nonnilpotent Jordan discriminant controls,
+    retain centralizer dimension two, and overlap the four semisimple Cartan
+    atlases by ordinary local diffeomorphisms. Their cotangent lifts preserve
+    the primitive and moment map strictly. The complete split/mixed real A2
+    regular locus therefore has a local 98D atlas at map rank 91. Singular
+    centralizer jumps remain open. The first licensed higher-root factor also
+    constructs: T*(SL(4,R)/SO(2,2)) is 18D, has map rank 15 on the split-A3
+    regular locus and rank 9 at zero; with T*R4 it gives a 26D refinement and
+    retains the full 98D/rank-91 schedule. Its transition to the A2 atlas,
+    other A3 real forms, the full singular stratification, zero charge and
     all-strata RSAP remain open.
   evidence:
+    - explorations/conditional-build/selected-k77-rsap-a2-kostant-a3-factor-2026-08-15.md
+    - lab/process/selected-k77-rsap-a2-kostant-a3-factor.json
     - explorations/conditional-build/selected-k77-rsap-a2-real-form-cartan-transition-2026-08-15.md
     - lab/process/selected-k77-rsap-a2-real-form-cartan-transition.json
     - explorations/conditional-build/selected-k77-rsap-a2-integral-affine-atlas-2026-08-15.md
@@ -562,10 +572,9 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the split and mixed regular-semisimple A2 cotangent atlases extend
-  smoothly through regular nonsemisimple and nilpotent values by a real
-  regular-centralizer or Kostant-slice transition while preserving the 98D
-  primitive, moment map and rank-91 schedule?
+  Does the split A2/A3 26D common refinement admit a global regular-overlap
+  symplectomorphism preserving the primitive and all moment components, and
+  does its first noncommuting A2/A3/A2 triple close?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -574,15 +583,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Construct the rank-two regular-centralizer or real Kostant/companion-slice
-  transition through the size-three nilpotent for both split and mixed
-  principal A2 factors. It must reproduce all four semisimple Cartan-type
-  transitions away from the discriminant, use the unipotent centralizer at
-  the nilpotent, preserve the full primitive and moment components, and retain
-  map rank 91. Do not infer a full regular atlas from the passing semisimple
-  components or treat absence of a Cartan diagonalizer as nonexistence. A3 or
-  another higher-root subsystem remains dependency-blocked until this bridge
-  passes. Deeper strata and the rank-at-most-49 zero-charge gate remain open,
+  Construct the split A2/A3 26D common-refinement transition over its complete
+  connected regular overlap. It must preserve the full moment map and
+  tautological primitive and pass the first noncommuting A2/A3/A2 triple.
+  Do not infer this gluing from the passing split-A3 principal factor, and do
+  not extend to compact or mixed A3 forms before the split transition passes.
+  Deeper singular strata and the rank-at-most-49 zero-charge gate remain open,
   with the 182D cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and

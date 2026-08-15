@@ -93,6 +93,12 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_rsap_a2_kostant_a3_factor_probe.py` certifies the complete
+  local real-regular `A2` bridge using split `f,f^2` and mixed `f,i f^2`
+  Kostant directions, including both nonsemisimple discriminant types. It then
+  checks the split-`A3` principal factor, `26D` refinement and `98D` rank
+  schedule while leaving `A2/A3` gluing open; `47/47` pass with Python 3.
+
 - `selected_k77_rsap_a2_real_form_cartan_transition_probe.py` certifies all
   four split/mixed regular-semisimple Cartan types, compact lattice ranks,
   split centralizer components and exact cotangent-pairing transitions. It
