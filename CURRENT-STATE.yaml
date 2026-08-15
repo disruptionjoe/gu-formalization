@@ -693,11 +693,22 @@ current_result:
     blocks prove that every local regular centralizer is moving; coprime
     primary direct sum then gives ambient/fixed/moving ranks 84/42/42 and
     moment-map rank 91 throughout. K88, K89 and K90 therefore cover the
-    complete regular locus and pure nilpotent cone. Singular mixed-Jordan
-    coverage remains open, so no zero neighborhood, surjectivity or RSAP is
-    claimed. The next census is indexed by real singular semisimple
-    centralizer type and nilpotent orbit inside it.
+    complete regular locus and pure nilpotent cone.
+    The first singular mixed layer now closes positively. Centralizer excess
+    two is exhaustive: nonzero real or imaginary primaries have partition
+    [d,1], while the zero primary has (2,2) or [2m-3,3]; loxodromic excess
+    starts at four. Exact enumeration gives 590 nonzero-collision plus 124
+    singular-zero configurations, for 714 signed structural rows. All admit a
+    simultaneous balanced reversing involution with centralizer dimension 9,
+    h-centralizer dimension 1, target rank 82 and map rank 90, saturating the
+    98D pointwise ceiling. Purely semisimple centralizer-nine walls already
+    lie in the K88 Cartans. Thus the complete first singular layer is covered
+    at structural grade. Singular mixed strata with centralizer dimension at
+    least 11 remain open, so no zero neighborhood, surjectivity or RSAP is
+    claimed.
   evidence:
+    - explorations/conditional-build/selected-k91-rsap-balanced-minimal-singular-mixed-census-2026-08-15.md
+    - lab/process/selected-k91-rsap-balanced-minimal-singular-mixed-census.json
     - explorations/conditional-build/selected-k90-rsap-balanced-regular-nonsemisimple-primary-census-2026-08-15.md
     - lab/process/selected-k90-rsap-balanced-regular-nonsemisimple-primary-census.json
     - explorations/conditional-build/selected-k89-rsap-balanced-nilpotent-orbit-census-2026-08-15.md
@@ -883,9 +894,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does every singular mixed-Jordan so(7,7) orbit meet the balanced symmetric
-  complement p under one simultaneous anticommuting orthogonal involution, or
-  does one exact orbit kill this 98D zero-neighborhood horn?
+  Does every higher-singular mixed-Jordan so(7,7) configuration with
+  centralizer dimension at least 11 meet the balanced symmetric complement p
+  under one simultaneous anticommuting orthogonal involution, or does one
+  exact configuration kill this 98D zero-neighborhood horn?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -894,11 +906,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Enumerate singular mixed Jordan types inside their real semisimple
-  centralizers now that all 547 signed regular-nonsemisimple configurations
-  pass with trivial h-centralizer. Index the census by real semisimple
-  centralizer type and internal nilpotent orbit, and require one balanced
-  involution to reverse both parts simultaneously. Because Ad(G)p is conic, one
+  Enumerate mixed Jordan configurations with total centralizer excess at
+  least four now that all 714 centralizer-nine signed structural rows pass at
+  sharp map rank 90. Index by real semisimple centralizer type, internal
+  nilpotent partition and simultaneous primary collisions; require one
+  balanced involution to reverse both Jordan parts and attain the pointwise
+  rank ceiling. Because Ad(G)p is conic, one
   missed nonzero orbit kills zero-neighborhood coverage for this horn but not
   nonhomogeneous 98D Hamiltonian models. Do not claim surjectivity, RSAP or
   global gluing across the missing ambient successor before that census. The

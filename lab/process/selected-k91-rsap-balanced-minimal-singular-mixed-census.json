@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_balanced_minimal_singular_mixed_census",
+  "created": "2026-08-15",
+  "status": "COMPLETE_CENTRALIZER_9_MIXED_STRUCTURAL_LOCUS_CONTAINED_AND_POINTWISE_SHARP__CENTRALIZER_AT_LEAST_11_OPEN",
+  "layer_0": {
+    "object": "classical minimal-singular mixed real skew-adjoint primary locus in the balanced symmetric horn moment image",
+    "physical_phase_space": false,
+    "source_selected_subgroup": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "ordinary_higgs_model_relevant": false,
+    "ordinary_family_index_relevant": false,
+    "ordinary_chirality_target_relevant": false
+  },
+  "predecessor": {
+    "artifact": "explorations/conditional-build/selected-k90-rsap-balanced-regular-nonsemisimple-primary-census-2026-08-15.md",
+    "probe": "tests/channel-swings/selected_k90_rsap_balanced_regular_nonsemisimple_primary_census_probe.py",
+    "status": "REPLAYED_23_OF_23"
+  },
+  "minimal_singular_mixed_census": {
+    "centralizer_dimension": 9,
+    "target_poisson_rank": 82,
+    "signed_structural_configuration_count": 714,
+    "count_kind": "FINITE_SIGNED_STRUCTURAL_CONFIGURATIONS_NOT_INDIVIDUAL_ADJOINT_ORBITS",
+    "nonzero_primary_collision_count": 590,
+    "nonzero_primary_by_species": {
+      "real": 212,
+      "pure_imaginary": 378
+    },
+    "nonzero_primary_by_long_chain_size": {
+      "1": 272,
+      "2": 213,
+      "3": 71,
+      "4": 27,
+      "5": 6,
+      "6": 1
+    },
+    "singular_zero_primary_count": 124,
+    "singular_zero_by_rank_units": {
+      "2": 34,
+      "3": 44,
+      "4": 28,
+      "5": 14,
+      "6": 4
+    },
+    "balanced_grading_failures": 0,
+    "h_centralizer_dimension": 1,
+    "ambient_adjoint_rank": 82,
+    "fixed_adjoint_rank": 41,
+    "moving_adjoint_rank": 41,
+    "moment_map_rank": 90,
+    "pointwise_ceiling": 90,
+    "rank_histogram": {
+      "centralizer9_target82_hcentralizer1_map90": 714
+    }
+  },
+  "exhaustion": {
+    "nonzero_real_or_imaginary_excess_two_partition": "[d,1]_ONLY",
+    "loxodromic_minimum_nonzero_excess": 4,
+    "zero_excess_two_partitions": [
+      "(2,2)_IN_DIMENSION_4",
+      "(2m-3,3)_IN_DIMENSIONS_6_THROUGH_12"
+    ],
+    "nonzero_collision_local_controls": 48,
+    "zero_primary_local_gradings": 61,
+    "zero_primary_optimal_gradings": 31,
+    "zero_primary_nonoptimal_controls": 30
+  },
+  "canonical_identities": [
+    "X^T*Q+Q*X=0",
+    "R^2=1",
+    "R^T*Q*R=Q",
+    "R*X+X*R=0",
+    "signature_Q=(7,7)",
+    "signature_Q_on_R_eigenspaces=(3,4)_(4,3)"
+  ],
+  "coverage_status": {
+    "all_semisimple": "COVERED_BY_K88_CARTAN_ARGUMENT",
+    "complete_regular_locus": "COVERED_BY_K88_AND_K90",
+    "pure_nilpotent": "COVERED_BY_K89",
+    "centralizer_9_mixed": "COMPLETE_BY_K91_AT_SIGNED_STRUCTURAL_GRADE",
+    "centralizer_at_least_11_mixed": "OPEN",
+    "zero_neighborhood": "OPEN",
+    "surjectivity": "OPEN",
+    "global_rsap": "OPEN"
+  },
+  "disposition": {
+    "balanced_horn": "SURVIVES_COMPLETE_CENTRALIZER_9_LAYER_TO_CENTRALIZER_AT_LEAST_11_CENSUS",
+    "ambient_a3_successor": "TYPE_MISSING_NOT_REOPENED",
+    "dimension_interval": [98, 182],
+    "source_action_selection": "NOT_PROVIDED",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k91-rsap-balanced-minimal-singular-mixed-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k91_rsap_balanced_minimal_singular_mixed_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k91-rsap-balanced-minimal-singular-mixed-census-review.md",
+  "next_gate": "ENUMERATE_CENTRALIZER_DIMENSION_AT_LEAST_11_MIXED_PRIMARY_CONFIGURATIONS_BY_TOTAL_EXCESS_AND_SIMULTANEOUS_BALANCED_REVERSAL"
+}

@@ -7,6 +7,19 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 COMPLETE MINIMAL-SINGULAR MIXED CENSUS.** Centralizer excess
+> two in split `so(7,7)` has exactly two mixed mechanisms: a real or imaginary
+> `[d,1]` primary collision, or a zero primary of shape `(2,2)` or
+> `[2m-3,3]` with nonzero complement. Exact enumeration gives `590+124=714`
+> signed structural configurations. Every row admits one simultaneous
+> balanced reversing involution and has centralizer `9`, target rank `82`,
+> `h`-centralizer `1` and map rank `90`, saturating the `98D` pointwise bound.
+> Together with K88's semisimple Cartans, the complete first singular layer is
+> covered. **Next enumerate total centralizer excess at least four, including
+> larger partitions, simultaneous collisions and loxodromic multiplicity.**
+> Zero-neighborhood coverage, surjectivity, RSAP, source selection and global
+> gluing remain open. Exact probe `23/23`.
+
 > **2026-08-15 COMPLETE REGULAR-NONSEMISIMPLE PRIMARY CENSUS.** The four
 > real skew-adjoint primary species `Z_m`, `R_d`, `I_d^eps` and `L_d` give
 > exactly `547` signed structural configurations in split `so(7,7)` after all

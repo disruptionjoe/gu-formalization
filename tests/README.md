@@ -6,12 +6,19 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k91_rsap_balanced_minimal_singular_mixed_census_probe.py`
+  exhausts all centralizer-excess-two mixed primary structures: `590`
+  real/imaginary `[d,1]` collisions and `124` singular-zero configurations.
+  All `714` rows admit balanced representatives with centralizer `9`, target
+  rank `82`, `h`-centralizer `1` and sharp map rank `90`. Higher singular
+  strata with centralizer at least `11` remain open. It passes `23/23`.
+
 - `channel-swings/selected_k90_rsap_balanced_regular_nonsemisimple_primary_census_probe.py`
   exhausts the four-species real skew-adjoint primary grammar at rank seven,
   obtaining exactly `547` signed regular-nonsemisimple configurations. It
   checks every assembled canonical matrix and all `88` signed and graded
   primary-block centralizers, proving balanced image coverage and map rank
-  `91` throughout. Singular mixed-Jordan coverage remains open. It passes
+  `91` throughout. K91 supplies the minimal-singular mixed layer. It passes
   `23/23`.
 
 - `channel-swings/selected_k89_rsap_balanced_nilpotent_orbit_census_probe.py`
