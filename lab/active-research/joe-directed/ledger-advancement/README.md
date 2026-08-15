@@ -30,16 +30,39 @@ in this channel and was **refused** by the executing agent as laundering.
 
 ## Ledger-wide result
 
-**82 rows resolve to 32 formal degrees of freedom** (13 + 7 + 12). More
-sharply: LA-4's representation cut vertex and LA-6's cover object `A` are the
-**same object** — the operative completed second action — independently
-identified by two agents using independently declared vocabularies, and
-certified on `LT-SM6` by exact substring. It reaches **28 of 29** on
-REPRESENTATION and **18 of 20** on LAGRANGIAN.
+**82 rows resolve to 32 formal degrees of freedom** (13 + 7 + 12) — but see
+the correction below. A size-one cut vertex reaching **28 of 29** REPRESENTATION
+rows survives every attack `la10` could construct, so the *fan-out is real*.
+The ledger is not a backlog of independent items; partial grants buy close to
+nothing.
 
-The practical consequence is that the ledger is not a backlog of independent
-items. It is largely one construction with a very large fan-out, and partial
-grants buy close to nothing.
+### Correction, `la10` (adversarial, 195/195)
+
+An earlier revision of this index asserted that LA-4's cut vertex and LA-6's
+cover object are "the same object — the operative completed second action."
+**That identification is wrong**, and it was this index that made it.
+
+- LA-6's own published gloss for `A` is *"a stationary, action-owned
+  background"* — which is verbatim LA-4's **`b1`**, not `b9`. The convergence
+  that made the headline persuasive is a convergence on `b1`, relabelled.
+- Deleting the one DAG edge LA-4 conceded no row states drops `b9`'s reach from
+  **28/29 to 2/29**, with `b1` inheriting it. The cut survives; **the naming
+  does not.**
+- Splitting the head atom moves LAGRANGIAN rank 12 → **15** and the minimum
+  cover 2 → **6** (exact disjoint dual witness, gap 0), with max single-atom
+  fan-out falling 90% → **35%**. The forced constituent of every minimum cover
+  is the **ownership theorem**, not the second action — so "identify the second
+  action and 18 rows move" is **not supported**.
+- **32 is vocabulary-relative**: stable under audit, unstable under refinement
+  (32 → 35). It measures the reader's lexicon as much as the ledger.
+- LA-4's **rank 13 survives** certification and the split under a stricter
+  evidence standard — a hostile-route confirmation. But 20 of its 77 atom-edges
+  fail that standard, 15 hard.
+
+**The replacement finding is worse for the ledger than the one it corrects:**
+the largest structural dependency is on an object that **no v0.258 row names**
+(`b9_STAT`, a zero of the complete ghost-free Euler system). The cheapest real
+action available is to write that row.
 
 ## Provenance correction
 
