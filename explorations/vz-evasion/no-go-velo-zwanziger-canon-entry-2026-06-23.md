@@ -168,8 +168,14 @@ survives the shadow, the mechanism (non-decoupling) does not.
   computation; subprincipal and curved-gauge open).** OQ3-V1/V2/V3 are resolved at the
   principal-symbol, flat-gauge level (§18): the pulled-back symbol satisfies
   `c_s(η)^2 = g_s(η,η) Id_{E_s}` exactly in flat-gauge coordinates; the 4D E-block is
-  invertible (`det = −1/4`); `R_s = ker Γ^{4D}` exactly, with the normal RS components being
-  KK scalars, not spin-3/2 fields. The 4D effective RS characteristic cone is the null cone of
+  invertible (`det = −1/4`); `R_s = ker Γ^{4D}` exactly — and this identification is
+  **gauge-independent**, being a statement about the horizontal subbundle `π^*(T*X^4)`
+  (CORRECTION VZ4-01, `vz-schur` §18.3, 2026-08-15). ~~with the normal RS components being
+  KK scalars, not spin-3/2 fields.~~ **REFUTED 2026-08-15:** the observation map is a
+  contraction, `(s*ψ)_μ = ψ_μ + ψ_(ab) d_μ g_ab`, so the normal components are contracted
+  into the 4D one-form in **every** gauge, flat section included; `s*(R^{14D})` is the whole
+  4D one-form bundle, strictly larger than `R_s`. The characteristic-cone result below is
+  unaffected — it uses only the `R_s = ker Γ^{4D}` identification. The 4D effective RS characteristic cone is the null cone of
   `g_s`; no spacelike characteristics at the principal-symbol level. The subprincipal order and
   the curved-gauge extension are open (see FC-VZ-4).
 

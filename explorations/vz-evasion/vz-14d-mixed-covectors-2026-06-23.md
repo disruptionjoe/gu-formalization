@@ -266,7 +266,7 @@ sector (via B and C) cannot be removed at any energy scale -- the coupling is ki
 | Subprincipal symbol: no sub-characteristics | CONDITIONALLY_RESOLVED | vz-subprincipal-symbol-rs-2026-06-23.md |
 | OQ3-V1: no anomalous normal terms in `s*(sigma)` | RESOLVED | vz-schur-complement-2026-06-23.md §18.1 |
 | OQ3-V2: 4D E-block invertible (`det = -1/4`) | RESOLVED | vz-schur-complement-2026-06-23.md §18.2 |
-| OQ3-V3: `R_s = ker Gamma^{4D}` identification | RESOLVED | vz-schur-complement-2026-06-23.md §18.3 |
+| OQ3-V3: `R_s = ker Gamma^{4D}` identification | RESOLVED (exact, gauge-independent) — but on the **corrected** ground of CORRECTION VZ4-01 (2026-08-15): the pullback is a contraction, not an `H*/N*` projection, and the "normal RS components are KK scalars" corollary is refuted in every gauge. This row uses only the identification and is unchanged | vz-schur-complement-2026-06-23.md §18.3 |
 | 4D section-pullback VZ evasion | CONDITIONALLY_RESOLVED (constant-coefficient gauge; OQ3-V1 open curved-background check) | vz-schur-complement-2026-06-23.md §17-18 |
 | F5: 4D curvature non-reintroduction | CONDITIONALLY_RESOLVED | vz-f5-curvature-check-2026-06-23.md |
 | F6: 4D EFT decoupling (B/C kinematic, loop-exact) | CONDITIONALLY_RESOLVED | vz-f6-eft-decoupling-2026-06-23.md |

@@ -7,7 +7,8 @@ verdict: EVADED
 oq3_status: CONDITIONALLY_RESOLVED
 oq3_v1: CONDITIONALLY_RESOLVED
 oq3_v2: RESOLVED
-oq3_v3: RESOLVED
+oq3_v3: RESOLVED_ON_CORRECTED_GROUND
+oq3_v3_correction: "CORRECTION VZ4-01 (2026-08-15, §18.3). V3a -- the identification R_s = ker Gamma^{4D}, restricted to the horizontal subbundle pi^*(T*X^4) -- is VERIFIED, exact and GAUGE-INDEPENDENT. V3b -- the stated ground, 's* sends psi to its horizontal part' -- is REFUTED unless d_mu g_ab = 0: s* is a contraction, (s*psi)_mu = psi_mu + psi_(ab) d_mu g_ab. V3c -- 'not a larger sector / normal RS components are KK scalars' -- is REFUTED in EVERY gauge including the flat section, because Delta_i = (d_mu g_i) gamma^mu_H - gamma^i_N is never zero; s*(R^{14D}) is the whole 4D one-form bundle. §18.4 uses only V3a and is unaffected. Verified by tests/channel-swings/joe_directed_vz4_pullback_contraction.py."
 vz_4d_status: CONDITIONALLY_RESOLVED
 oq3_open_upgrade_condition: "OQ3-V1/V2/V3 verified only in constant-coefficient (flat Minkowski) gauge; curved-background frame-splitting check (no anomalous {gamma^a_H, gamma^i_N} mixing computed, not asserted, on a non-flat section) is the open upgrade condition to VERIFIED"
 f6_eft_decoupling: CONDITIONALLY_RESOLVED
@@ -1057,7 +1058,7 @@ higher-spin gravity? This is the P53-NOVEL target from the 62-perspective steelm
 | Section-pullback 4D RS VZ evasion (OQ3) | **CONDITIONALLY_RESOLVED** (§17-18) | §17 structural + §18 V1/V2/V3 in constant-coefficient gauge; curved case asserted |
 | OQ3-V1: No anomalous normal terms in `s*(sigma)` | **CONDITIONALLY_RESOLVED** (§18.1) | Horizontal Clifford computation in flat Minkowski gauge ONLY; curved frame-splitting asserted, not computed |
 | OQ3-V2: 4D E-block invertible for `g_s != 0` | **RESOLVED** (§18.2) | Block determinant + explicit E-matrix (`det = -1/4`) |
-| OQ3-V3: `R_s = ker Gamma^{4D}` | **RESOLVED** (§18.3) | Section pullback on H*/N* split (exact) |
+| OQ3-V3: `R_s = ker Gamma^{4D}` | **RESOLVED on corrected ground** (§18.3 + CORRECTION VZ4-01) | Section pullback restricted to the horizontal subbundle `pi^*(T*X^4)` (exact, gauge-independent). NOT via an `H*/N*` projection: `s*` is a contraction, `(s*psi)_mu = psi_mu + psi_(ab) d_mu g_ab`. The "no extra RS components from the normal directions" clause is REFUTED in every gauge |
 
 **Verdict: EVADED (reconstruction grade).**
 
@@ -1335,6 +1336,13 @@ characteristic cone equal to the null cone of the induced 4D metric `g_s`. This 
 - OQ3-V3: Confirmation that `R_s = s*(R^{14D})` coincides with `ker Gamma^{4D}` (not
   a larger or smaller RS sector, which could happen if horizontal and vertical gamma traces
   are not cleanly separated after section pullback).
+  **ANSWERED, and the answer is NO as stated (CORRECTION VZ4-01, §18.3, 2026-08-15):**
+  `s*(R^{14D})` is strictly larger — it is all of `Omega^1(X^4) tensor s*(S^-)` — in every
+  gauge, flat section included. The horizontal and vertical gamma traces are *not* cleanly
+  separated by `s*`, exactly as this line anticipated. What is exact and gauge-independent
+  is the **domain-restricted** statement
+  `s*( R^{14D} intersect (pi^*(T*X^4) tensor S^-) ) = ker Gamma^{4D}`, and that is what
+  §18.4 uses.
 
 ---
 
@@ -1640,26 +1648,126 @@ holds exactly. It is not a larger sector (no extra RS components from the normal
 survive as 4D spin-3/2 fields) and not a smaller sector (all horizontal 1-forms satisfying
 `Gamma^{4D}(psi) = 0` arise from the pullback of `R^{14D}` with zero normal components).
 
-**Grade.** VERIFIED. The argument uses only:
-1. The definition of section pullback on cotangent bundles (standard differential geometry).
-2. The horizontal/vertical splitting at the section (from the fiber bundle structure of `pi: Y^{14} -> X^4`).
-3. The fact that `Gamma^{4D}` is exactly the pullback of `Gamma^{14D}` restricted to horizontal 1-forms.
+**Grade.** ~~VERIFIED~~ **SPLIT — see CORRECTION VZ4-01 immediately below.** The grade
+above was written for the whole section; the section actually contains three propositions
+with different truth values. The corrected grades are:
 
-No approximation is made.
+- **V3a (the identification, restricted to horizontal 1-forms): VERIFIED, exact,
+  gauge-independent.** No condition on `d_mu g_ab`.
+- **V3b (the stated ground, "`s*` sends `psi` to its horizontal part"): REFUTED unless
+  `d_mu g_ab = 0`.** `s*` is a contraction, not a projection.
+- **V3c (the "not a larger sector" / KK-scalar clause): REFUTED in EVERY gauge**, flat
+  section included.
 
-**Verdict: OQ3-V3 RESOLVED.**
+~~No approximation is made.~~ **A domain restriction is made, and it is load-bearing:
+the conclusion is a statement about the horizontal subbundle `pi^*(T*X^4) tensor S`, not
+about the pullback functor.**
+
+---
+
+#### CORRECTION VZ4-01 (2026-08-15) — the pullback is a contraction, and the "not a larger sector" clause fails in every gauge
+
+Origin: `MD-1` (2026-08-14) flagged the stated ground; the steward pass of the same date
+routed it as the highest-severity open finding. Verified independently, from scratch, by
+`tests/channel-swings/joe_directed_vz4_pullback_contraction.py` (27/27, exit 0; 10/10 planted
+controls each drive exit 1, including a contrary control on a non-flat section; exact sympy
+on a general `g_ab(x)` plus an exact Gaussian-integer 128x128 representation of `Cl(9,5)`,
+all 91 anticommutators verified). Analysis:
+`lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md`.
+
+**(1) The pullback is a contraction.** For the observation section `s(x) = (x, g_ab(x))`
+in adapted coordinates, `s*` is the transpose of `ds`, so
+
+```
+(s*psi)_mu = psi_mu + psi_(ab) d_mu g_ab.
+```
+
+`s*` equals the horizontal projection `P_H` **iff `d_mu g_ab = 0`** — the constant-coefficient
+flat-section gauge, which is the only gauge in which OQ3-V1 was ever computed. The sentence
+"The pullback functor `s*` sends `psi` to its horizontal part" is therefore false for a
+general section. Equivalently: `ker s* = Ann(ds(TX^4))`, the *section-dependent* complement,
+**not** the coordinate/frame normal span `N* = span{de^i}` this section identifies it with.
+Those two 10-dimensional subspaces coincide exactly when `d_mu g_ab = 0`.
+
+The notation `H*_x = s*(T*X^4)` above is part of the same slip: `s*` maps `T*Y^{14} -> T*X^4`
+and cannot produce a subbundle *of* `T*Y^{14}`. The horizontal subbundle is `pi^*(T*X^4)`,
+the annihilator of the vertical — a canonical object requiring no section and no gauge.
+**Read every "`H*`" in this section as `pi^*(T*X^4)`.**
+
+**(2) The conclusion survives, on a different ground.** On the horizontal subbundle the
+pullback is a canonical isomorphism for **every** section:
+
+```
+s* o iota_H = id_{T*X^4}          (exact, no condition on d_mu g_ab)
+```
+
+and it intertwines `Gamma^{14D}|_{pi^*T*X}` with `Gamma^{4D}`. Hence
+
+```
+R_s = s*( R^{14D}  intersect  (pi^*(T*X^4) tensor S^-) ) = ker Gamma^{4D}
+```
+
+**holds exactly and gauge-independently, in both inclusions.** The displayed conclusion
+above, read with its `|_{horizontal 1-forms}` qualifier as a restriction of the *domain*,
+is correct as written. What is wrong is the prose around it.
+
+**(3) The "not a larger sector" clause is false in every gauge — including the flat one.**
+This is a second defect, independent of (1), and the flat-section gauge does not repair it.
+Transporting the gamma trace through the pullback gives the exact identity
+
+```
+Gamma^{4D}(s*psi) = Gamma^{14D}(psi) + sum_i Delta_i psi_i,
+Delta_i := (d_mu g_i) gamma^mu_H  -  gamma^i_N.
+```
+
+`Delta_i` is the Clifford element of the vector `(d_mu g_i, -e_i)`, so
+`Delta_i^2 = (g^{mu nu} d_mu g_i d_nu g_i + eta^{ii}) Id`, and **`Delta_i` is never zero**
+— `gamma^i_N` is linearly independent of `{gamma^mu_H}`. At `d_mu g_ab = 0` it is exactly
+`-gamma^i_N`, which is invertible. Consequences:
+
+- For `psi in R^{14D}` with any nonzero normal component, `Gamma^{4D}(s*psi) = sum_i Delta_i psi_i != 0`.
+  So `s*(R^{14D})` is **not** contained in `ker Gamma^{4D}`, for any section.
+- Because each `Delta_i` with `(d_mu g_i, -e_i)` non-null is invertible,
+  `s*(R^{14D}) = Omega^1(X^4) tensor s*(S^-)` — the **whole** 4D one-form bundle, strictly
+  larger than `R_s`.
+- Therefore "no extra RS components from the normal directions survive as 4D spin-3/2
+  fields" is **false**, and the paragraph "**The normal RS components** ... They do not
+  contribute to `R_s`" describes a Kaluza-Klein *projection*, which is not the map GU
+  supplies. The source explicitly disavows the KK reading
+  (`lab/methods/source-native-comparator-routing.md`, `[!CAUTION]`; author-stated Layer-0
+  correction `WG-B06`, "the relevant map is a contraction, not a projection").
+
+**(4) What this does NOT damage.** The §18.4 theorem (a)-(d) uses only V3a: `R_s` enters as
+a *subbundle of the 4D bundle* `E_s = R_s (+) Q_s`, and the theorem statement and its
+proof summary quantify only over `eta in T*X^4` and 4D blocks. No step invokes V3b or V3c.
+The `oq3_open_upgrade_condition` is unchanged: OQ3-V1's curved-background frame-splitting
+check remains the single open upgrade condition, because V3a is gauge-independent.
+
+**(5) New named residual — REDUCTION-FIDELITY (open, not decided here).** Since
+`s*(R^{14D})` is all of `Omega^1(X^4) tensor s*(S^-)`, a 4D RS configuration neither
+determines nor is determined by a 14D RS configuration. The identification of "the 4D RS
+sector" with "the observed image of the 14D RS sector" is therefore **not** available, in
+any gauge. §18.4 does not use that identification, so nothing here moves; but any later
+argument that reads the 4D RS field as *the observation of* the 14D RS field must close
+this gap first. Recorded, not adjudicated.
+
+**Verdict: OQ3-V3 RESOLVED for V3a (exact, gauge-independent); V3b and V3c REFUTED.**
+The identification `R_s = ker Gamma^{4D}` stands; the stated ground and the KK-scalar
+corollary do not.
 
 ---
 
 ### 18.4 Combined Result: OQ3 CONDITIONALLY_RESOLVED
 
-With OQ3-V2 and OQ3-V3 resolved exactly and OQ3-V1 resolved only in constant-coefficient gauge:
+With OQ3-V2 resolved exactly, OQ3-V3 resolved exactly **on the corrected (domain-restricted)
+ground of CORRECTION VZ4-01** — which is the only part §18.4 uses — and OQ3-V1 resolved only
+in constant-coefficient gauge:
 
 | Condition | Status | Method |
 |---|---|---|
 | OQ3-V1: No anomalous normal terms in `s*(sigma_{D_GU})` | **CONDITIONALLY_RESOLVED** | Horizontal-frame Clifford computation in flat Minkowski gauge ONLY; curved frame-splitting asserted pointwise, not computed |
 | OQ3-V2: 4D E-block invertible for `g_s(eta,eta) != 0` | **RESOLVED** | Block determinant + explicit 4x4 E-matrix (`det = -1/4`) |
-| OQ3-V3: `R_s = ker Gamma^{4D}` | **RESOLVED** | Section pullback on horizontal/vertical split (exact) |
+| OQ3-V3: `R_s = ker Gamma^{4D}` | **RESOLVED on corrected ground** | Section pullback restricted to the horizontal subbundle (exact, gauge-independent). The `H*/N*`-projection ground and the KK-scalar corollary are REFUTED — see CORRECTION VZ4-01 in §18.3. §18.4 uses only the surviving part |
 
 **The 4D VZ evasion theorem (reconstruction grade, CONDITIONALLY_RESOLVED).** The theorem
 below is established in the constant-coefficient gauge; its extension to a general curved

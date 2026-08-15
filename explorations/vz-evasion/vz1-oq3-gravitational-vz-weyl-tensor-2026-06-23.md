@@ -347,8 +347,14 @@ From the Codazzi/Gauss machinery (codazzi-sp64, pc2-gauss-y14-curvature):
 - The H-V mixed pieces contain II_s (second fundamental form) -- these contribute
   ZERO-ORDER to s*(D_GU) by the Gauss formula (II_s is a normal-bundle valued 2-tensor,
   its Clifford action on E_s is zero-order).
-- The normal components become KK scalar fields, not RS fields, so they do not affect
-  the RS characteristic cone.
+- ~~The normal components become KK scalar fields, not RS fields, so they do not affect
+  the RS characteristic cone.~~ **REFUTED 2026-08-15** (CORRECTION VZ4-01, `vz-schur` §18.3):
+  `s*` is a contraction, `(s*psi)_mu = psi_mu + psi_(ab) d_mu g_ab`, so the normal
+  components are contracted *into* the 4D one-form in every gauge, not split off as
+  scalars. **The conclusion of this bullet is unaffected** on the corrected ground: `R_s`
+  is defined as `ker Gamma^{4D}` inside the 4D bundle `E_s`, and the characteristic-cone
+  argument below quantifies only over `eta in T*X^4` and 4D blocks. The KK-scalar sentence
+  was a redundant restatement, not a premise.
 
 The Weyl tensor of g_s on X^4 can in principle be non-zero (e.g., for gravitational
 waves or black hole spacetimes). The above argument shows this does not cause VZ

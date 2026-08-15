@@ -46,9 +46,16 @@ Prior results load-bearing for this computation:
   This is the primary source of difficulty for G2: L^2 on a noncompact fiber need not
   have a gap above zero for D_{fiber}.
 
-- **vz-schur §18 (CONDITIONALLY_RESOLVED, constant-coefficient gauge; OQ3-V3 exact):** s*(Gamma^{14D})|_{horizontal} = Gamma^{4D} exactly;
-  normal RS components = KK scalar fields after section pullback. The H*/N* splitting
-  is exact.
+- **vz-schur §18 (CONDITIONALLY_RESOLVED, constant-coefficient gauge; OQ3-V3 exact on the
+  corrected ground):** `s*(Gamma^{14D})|_{horizontal} = Gamma^{4D}` exactly — this clause
+  survives, and is gauge-independent (CORRECTION VZ4-01, vz-schur §18.3, 2026-08-15).
+  ~~normal RS components = KK scalar fields after section pullback. The H*/N* splitting
+  is exact.~~ **REFUTED 2026-08-15.** `s*` is a **contraction**, not an `H*/N*` projection:
+  `(s*psi)_mu = psi_mu + psi_(ab) d_mu g_ab`, so the normal components are contracted *into*
+  the 4D one-form, not split off as scalars. This fails in every gauge, flat section
+  included. Only the horizontal-restriction clause above is used below; the KK-scalar
+  reading is not load-bearing for G2's fibre-spectrum question, which concerns
+  `D_{fiber}` on `GL(4,R)/O(3,1)` and not the form-leg typing.
 
 - **oc2-h-linear-fredholm-y14 (CONDITIONALLY_RESOLVED):** H-linearity of D_GU and
   s*(D_GU) is exact. The Fredholmness of s*(D_GU) on compact K3 is classical elliptic.

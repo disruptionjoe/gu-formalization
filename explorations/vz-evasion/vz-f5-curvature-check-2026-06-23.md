@@ -293,7 +293,14 @@ The §8 kernel argument descends exactly to 4D:
 ker S_{R_s}^{4D}(eta) = 0    for g_s(eta,eta) != 0.
 ```
 
-This was VERIFIED (OQ3-V1, OQ3-V2, OQ3-V3). Including lower-order curvature corrections:
+~~This was VERIFIED (OQ3-V1, OQ3-V2, OQ3-V3).~~ **GRADE CORRECTED.** OQ3-V1 is
+CONDITIONALLY_RESOLVED (constant-coefficient gauge only, 2026-06-24 correction pass);
+OQ3-V2 is RESOLVED; OQ3-V3 is RESOLVED on the corrected, domain-restricted ground of
+CORRECTION VZ4-01 (`vz-schur` §18.3, 2026-08-15) — the identification `R_s = ker Gamma^{4D}`
+is exact and gauge-independent, while the "`s*` sends `psi` to its horizontal part" ground
+and the KK-scalar corollary are refuted. The line below uses only the identification, so its
+content is unchanged; the word VERIFIED was the defect. Including lower-order curvature
+corrections:
 
 ```
 S_{R_s}^{4D,full}(eta) = S_{R_s}^{4D}(eta) + (zero-order corrections from all curvature sources)
