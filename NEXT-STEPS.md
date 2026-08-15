@@ -7,6 +7,22 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K104 RELEASED-SOURCE BOUNDARY OWNER CLOSED; FIXED BALANCED
+> SELECTOR IS NOT FULL-G EQUIVARIANT.** The draft displays `I1B`, `I2B` and
+> the total Euler residual, while the later source names the upstairs
+> ultrahyperbolic boundary-condition problem but supplies no physical
+> boundary law. Exact symmetric-pair algebra shows that
+> `lambda_h=0 <=> lambda in p_bal` is not invariant under full `G`, because
+> `[p_bal,p_bal]` contains nonzero `h_bal`. A full-`G`-invariant boundary
+> functional therefore cannot select that fixed 42-component zero level.
+> Moving `R` restores covariance exactly, but epsilon only transports the
+> unowned balanced seed. The 98D theory needs three distinct owners: balanced
+> orbit, zero-level boundary equation, and right-`H_bal` gauge declaration.
+> **Next test the remaining stationary nonhomogeneous curvature/connection
+> route for a smooth gapped balanced `7|7` involution defined at zero charge,
+> without a fitted spectral cut, then derive its boundary Euler/Noether law.**
+> Exact probe `36/36`.
+
 > **2026-08-15 K103 BOUNDARY-OWNER TRILEMMA CLOSED; PHYSICAL SELECTOR
 > ABSENT.** On the `182D` endpoint parent, zero `h_bal` bulk flux gives the
 > `140D` zero level, rank `98`, characteristic rank `42`, and quotient `98D`,

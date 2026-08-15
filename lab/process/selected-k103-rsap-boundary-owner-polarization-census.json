@@ -61,7 +61,8 @@
     "analytic_bfv_positivity_quantization": "OPEN"
   },
   "disposition": {
-    "next_gate": "SOURCE_OR_ACTION_DERIVED_BOUNDARY_VARIATIONAL_PRINCIPLE_OR_OWNED_BALANCED_EDGE_MULTIPLIER_TERM_THAT_SELECTS_ZERO_H_FLUX_AND_RIGHT_GAUGE",
+    "next_gate": "CLOSED_BY_K104__REMAINING_OWNER_CLASS_IS_STATIONARY_NONHOMOGENEOUS_ACTION_OWNED_CURVATURE_OR_CONNECTION_CONCOMITANT",
+    "successor": "lab/process/selected-k104-rsap-source-boundary-variational-owner-census.json",
     "charged_horn": "RETAIN_AS_DISTINCT_182D_CONDITIONAL_BOUNDARY_THEORY",
     "reverse_rsap": "RETAIN_AS_DISTINCT_98D_CONDITIONAL_BOUNDARY_THEORY",
     "canon_change": "none",

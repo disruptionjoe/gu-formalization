@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 23c4b6b4293c89608866be5638cebe3dbc5d0584
+revision_basis: a6e1c231254c8dbbeee88daafe6f34273df9778c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -855,7 +855,26 @@ current_result:
     isolates the 98D RSAP zero level and retains generic h_bal boundary charge
     in the same phase space. The two horns remain distinct conditional
     boundary theories; their physical selector is absent.
+    K104 closes the checked released-source boundary-variational census and
+    proves a structural obstruction. The draft owns I1B, I2B and the total
+    Euler-residual grammar, while the later source says the upstairs
+    ultrahyperbolic problem requires boundary conditions and records that its
+    treatment is not known; no balanced boundary density, zero-flux law,
+    edge/multiplier action, right-H_bal gauge declaration or physical
+    polarization is displayed. More strongly, lambda_h=0 identifies the
+    balanced complement p_bal inside so(7,7)*, but p_bal is not invariant
+    under the full adjoint action because [p_bal,p_bal] has nonzero h_bal
+    components. Therefore no boundary functional retaining full-G
+    equivariance can select that fixed 42-component zero level without a
+    moving balanced order parameter. Allowing delta R=[X,R] restores exact
+    covariance, but epsilon only transports an unowned balanced seed R_0.
+    The 98D theory consequently factors through three distinct owners: the
+    balanced orbit, a boundary equation selecting lambda_h=0, and the
+    declaration that right H_bal is gauge. None is selected by the current
+    released source/action.
   evidence:
+    - explorations/conditional-build/selected-k104-rsap-source-boundary-variational-owner-census-2026-08-15.md
+    - lab/process/selected-k104-rsap-source-boundary-variational-owner-census.json
     - explorations/conditional-build/selected-k103-rsap-boundary-owner-polarization-census-2026-08-15.md
     - lab/process/selected-k103-rsap-boundary-owner-polarization-census.json
     - explorations/conditional-build/selected-k102-rsap-i1b-partial-legendre-gauss-owner-2026-08-15.md
@@ -1067,11 +1086,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the source or a released action term derive the physical boundary
-  variational principle that chooses between the distinct 182D charged horn
-  and 98D right-H_bal zero-level horn, specifically by owning zero h bulk flux
-  or a balanced edge/multiplier equation that selects rather than merely
-  permits the zero-charge branch?
+  Can a stationary nonhomogeneous curvature or connection concomitant already
+  owned by the action construct a smooth gapped balanced 7|7 involution at the
+  zero-charge stratum, without a fitted spectral cut, and can its boundary
+  Euler/Noether law own both zero h_bal flux and the right-H_bal gauge
+  disposition required for the 98D reverse RSAP?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1111,11 +1130,21 @@ next_condition: >-
   extension preserves generic charge but reduces only to 182D. Adding the
   zero level after the edge extension merely reinstates the zero-charge horn.
   No route is currently source/action selected, and no single reduced phase
-  space both keeps arbitrary lambda_h and imposes lambda_h=0. Reopen only on a
-  source/action-derived boundary variational principle or owned balanced
-  edge/multiplier equation whose Euler and Noether data choose the zero-charge
-  branch. Keep the 182D charged and 98D reverse-RSAP horns distinct. Do not
-  repeat finite BFV, multiplier, boundary-route or orbit
+  space both keeps arbitrary lambda_h and imposes lambda_h=0. K104 now closes
+  the released-source boundary-variational census: the source names the
+  ultrahyperbolic boundary problem but supplies no physical boundary law, and
+  the fixed set lambda_h=0 is not full-G invariant because
+  [p_bal,p_bal] contains h_bal. A full-G-equivariant boundary functional
+  therefore cannot select the fixed balanced zero level without a moving R.
+  Moving-R covariance is exact, but epsilon transports rather than derives
+  the balanced seed. The missing theory has three distinct owners: balanced
+  orbit, zero-level boundary equation and right-H_bal gauge declaration.
+  Next test only the remaining stationary nonhomogeneous curvature/connection
+  concomitant route for an action-owned smooth gapped balanced 7|7 R, defined
+  at zero charge and selected without a fitted spectral threshold; then
+  derive its boundary Euler/Noether law. Keep the 182D charged and 98D
+  reverse-RSAP horns distinct. Do not repeat finite BFV, multiplier,
+  boundary-route, released-source or orbit
   algebra, relabel a dynamical connection as a multiplier, promote formal
   reduction to physical selection, or infer quantization, particle content or
   phenomenology. A stationary nonhomogeneous curvature selector remains an

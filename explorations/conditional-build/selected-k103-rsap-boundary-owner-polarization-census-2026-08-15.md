@@ -199,3 +199,14 @@ distinct conditional boundary theories. Reproduce the exact ranks with:
 ```bash
 python3 tests/channel-swings/selected_k103_rsap_boundary_owner_polarization_census_probe.py
 ```
+
+> **Successor closure (K104).** The checked released source names the upstairs
+> boundary-condition problem but supplies no balanced boundary law. Moreover,
+> the fixed zero set `lambda_h=0`, identified with `p_bal`, is not invariant
+> under the full source group because `[p_bal,p_bal]` has nonzero `h_bal`.
+> Moving the balanced involution restores covariance, but imports the same
+> unowned balanced seed isolated by K100. The boundary theory therefore has
+> three irreducible owners: balanced orbit, zero-level equation and right-
+> `H_bal` gauge declaration. The remaining live source-native owner test is a
+> stationary nonhomogeneous curvature/connection concomitant, not another
+> relabeling of the released bulk action.

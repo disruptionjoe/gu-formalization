@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "balanced_rsap_source_boundary_variational_owner_census",
+  "created": "2026-08-15",
+  "status": "RELEASED_SOURCE_BOUNDARY_LAW_ABSENT__FIXED_BALANCED_ZERO_LEVEL_NOT_FULL_G_INVARIANT__MOVING_R_REQUIRES_UNOWNED_BALANCED_SEED__THREE_OWNER_FACTORIZATION_EXACT",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "CHECKED_2021_RELEASED_ACTION_GRAMMAR__2025_ULTRAHYPERBOLIC_BOUNDARY_ADMISSION__K100_BALANCED_OWNER__K103_BOUNDARY_TRILEMMA",
+  "target_claim": {
+    "id": "K103_NEXT_GATE__RELEASED_SOURCE_OR_ACTION_OWNS_A_BOUNDARY_VARIATIONAL_PRINCIPLE_SELECTING_THE_98D_BALANCED_ZERO_CHARGE_HORN",
+    "verdict": "NO_AT_RELEASED_SOURCE_AND_FULL_G_EQUIVARIANT_LOCAL_GRADE__THREE_OWNER_FACTORIZATION_EXACT"
+  },
+  "source_census": {
+    "released_bulk_actions": ["SC-ACT-01_I1B", "SC-ACT-04_I2B", "SC-ACT-05_TOTAL_EULER_RESIDUAL"],
+    "upstairs_boundary_problem": "SC-META-52_SOURCE_CONFIRMS_BOUNDARY_RATHER_THAN_ORDINARY_INITIAL_DATA_AND_AUTHOR_UNCERTAINTY",
+    "balanced_boundary_density_or_domain_law": "NOT_DISPLAYED",
+    "zero_h_flux_selection": "NOT_DISPLAYED",
+    "right_h_bal_multiplier_or_edge_action": "NOT_DISPLAYED",
+    "right_h_bal_gauge_declaration": "NOT_DISPLAYED"
+  },
+  "equivariance_obstruction": {
+    "g": "so(7,7)",
+    "g_dimension": 91,
+    "h_bal_dimension": 42,
+    "p_bal_dimension": 49,
+    "target_zero_set": "lambda_h=0_EQUIVALENT_lambda_in_p_bal",
+    "symmetric_pair_brackets": ["[h,h]_in_h", "[h,p]_in_p", "[p,p]_in_h"],
+    "p_bal_full_G_invariant": false,
+    "explicit_nonzero_defect": "X_AND_lambda_IN_p_bal_BUT_[X,lambda]_IN_h_bal_NONZERO",
+    "full_G_invariant_boundary_functional_can_select_fixed_balanced_zero_set": false,
+    "full_zero_level_is_G_invariant_but_wrong_dimension": true
+  },
+  "moving_order_parameter": {
+    "projector": "P_h_R_Y=one_half_Y_plus_RYR",
+    "variation": "delta_R=[X,R]__delta_lambda=[X,lambda]",
+    "covariance_identity": "delta_P_h_R_lambda=[X,P_h_R_lambda]",
+    "epsilon_can_transport_R0": true,
+    "epsilon_derives_balanced_R0": false,
+    "balanced_seed_owner": "ABSENT",
+    "nonhomogeneous_curvature_owner": "OPEN"
+  },
+  "dimension_controls": {
+    "balanced_reduction": "182-2_times_42=98",
+    "full_G_zero_reduction": "182-2_times_91=0",
+    "physical_4_plus_10_stabilizer_reduction": "182-2_times_51=80",
+    "right_invariant_boundary_graph_after_H_bal_quotient": "91-42=49_NOT_FULL_98D_PHASE_SPACE"
+  },
+  "owner_factorization": [
+    "BALANCED_REAL_ORBIT_SEED_R0_OR_ACTION_DERIVED_MOVING_R",
+    "BOUNDARY_EQUATION_SELECTING_lambda_h_ZERO",
+    "RIGHT_H_BAL_GAUGE_DECLARATION"
+  ],
+  "source_return": "SOURCE_CONFIRMS_BULK_ACTION_GRAMMAR_AND_ULTRAHYPERBOLIC_BOUNDARY_PROBLEM__REPOSITORY_DERIVES_FIXED_BALANCED_EQUIVARIANCE_OBSTRUCTION__SOURCE_SILENT_ALL_THREE_BALANCED_BOUNDARY_OWNERS",
+  "claim_ceiling": {
+    "released_source_and_action_census": "CLOSED_AT_CHECKED_CORPUS_GRADE",
+    "full_G_equivariant_fixed_balanced_selector": "OBSTRUCTED",
+    "explicit_G_breaking_boundary_principle": "NOT_EXCLUDED_BUT_NEW_OWNER_DATA",
+    "stationary_nonhomogeneous_curvature_selector": "OPEN",
+    "unreleased_action_term": "OPEN",
+    "global_analytic_domain_and_physical_selection": "OPEN"
+  },
+  "disposition": {
+    "charged_horn": "RETAIN_DISTINCT_182D_CONDITIONAL_THEORY",
+    "reverse_rsap": "RETAIN_98D_CONDITIONAL_ON_THREE_OWNER_STACK",
+    "next_gate": "TEST_STATIONARY_NONHOMOGENEOUS_ACTION_OWNED_CURVATURE_OR_CONNECTION_CONCOMITANT_FOR_SMOOTH_GAPPED_BALANCED_7_PLUS_7_INVOLUTION_WITHOUT_FITTED_SPECTRAL_CUT__THEN_DERIVE_BOUNDARY_EULER_NOETHER_SELECTION",
+    "canon_change": "none",
+    "ledger_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "order_parameter": "lab/process/selected-k100-rsap-balanced-order-parameter-owner-census.json",
+    "boundary_routes": "lab/process/selected-k103-rsap-boundary-owner-polarization-census.json",
+    "source_action": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+    "source_claims": "lab/sources/source-claim-register.yaml",
+    "preboundary": "lab/process/selected-k77-action-noether-preboundary.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k104-rsap-source-boundary-variational-owner-census-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k104_rsap_source_boundary_variational_owner_census_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k104-rsap-source-boundary-variational-owner-census-review.md"
+}
