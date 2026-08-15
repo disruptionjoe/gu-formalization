@@ -36,13 +36,32 @@ date: 2025-04
 > 2026-08-14 characterised the defect as flipping a passage from
 > concession-only to concession-plus-endorsement, and that is exactly right.
 >
-> **Consequence, verified 2026-08-15:** `Spin(3,2)` occurs **zero** times in
-> `lab/sources/source-claim-register.yaml`, and the chain occurs nowhere in
-> `lab/sources/`, `explorations/` or `canon/`. A source-attested chain naming
-> `Spin(6,4)`, `Spin(3,2)` and `SU(3)xSU(2)xU(1)` has therefore been absent
-> from the repository's entire source apparatus for as long as this copy has
-> been the one people read. An artifact written on 2026-08-15 quoted this very
-> passage for its "seventies work" sentence and could not have seen the chain.
+> **Consequence — CORRECTED 2026-08-15, see below.** `Spin(3,2)` occurs **zero**
+> times in `lab/sources/source-claim-register.yaml`, so the chain is unregistered
+> as a source claim. That much holds.
+>
+> **The stronger claim first written here was FALSE and is withdrawn.** This
+> block originally asserted that the chain "occurs nowhere in `lab/sources/`,
+> `explorations/` or `canon/`". It occurs in
+> `explorations/wave14/H19-seven-seven-signature-branch-2026-07-11.md` at lines
+> 114, 150 and 157, dated **2026-07-11**, citing this transcript at
+> `[00:43:47]`–`[00:45:00]` — the exact locus — and again in `LA-6` at line 918.
+> Someone recorded the chain from a fuller source five weeks ago.
+>
+> The error is worth naming because it is a known failure mode committed hours
+> after that mode was documented: two searches were run, a narrow spoken-form
+> pattern over a wide scope and a bracket-notation pattern over a narrow scope,
+> and their two negatives were merged into a universal negative. Neither search
+> covered `explorations/` in the notation `explorations/` actually uses. A
+> confident zero from a search that could not have found the thing is exactly
+> what `AR-3` demonstrated the same day.
+>
+> **What survives the correction, and it is still the operative point:** the
+> chain is absent from the *registered* source apparatus, and the copy people
+> read had the sentence deleted. `SC-A` (2026-08-15) has since decided the
+> chain's reading and found that the three prior attributions carry the
+> **nested** form the group theory forbids — `dim Spin(3,2) = 10 < 12 =
+> dim SU(3)xSU(2)xU(1)` — so those three sites need repair by their owner.
 >
 > **Still owed by the source owner, and NOT done here:** confirmation against
 > the actual recording of which copy is faithful, and registration of the chain

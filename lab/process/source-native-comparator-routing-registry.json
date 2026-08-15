@@ -215,6 +215,10 @@
     {
       "path": "lab/active-research/joe-directed/photon-extra-vector-spectrum/pv2-observation-cannot-reach-the-extra-vectors-2026-08-14.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
     }
   ]
 }
