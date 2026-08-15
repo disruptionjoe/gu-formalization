@@ -41,6 +41,19 @@ the ledger probe uses the standard Python interpreter.
 
 # SR-1C branch-operator probes
 
+- `selected_k77_sr1d_affine_first_jet_parity_exhaustion_probe.py` proves that
+  every shift in the `5265`-dimensional affine action/Bianchi first-jet kernel
+  has zero source-graph response by Clifford parity, then composes that result
+  with SR-1D to kill the complete compatible affine first/two-jet fibre. Run
+  with `sage -python <path>`; `43/43` pass.
+
+- `selected_k77_sr1e_source_instability_ownership_gate_probe.py` composes the
+  exact source constant-mode instability with the SR-1D successor contract.
+  It proves the `450`-dimensional `10 x so(6,4)` mass-form carrier is not yet
+  the selected `1274`-dimensional K77 point-`T` carrier, and certifies the
+  nonlinear and first-jet objects required to bridge them, and replays the
+  exact negative-quartic boundedness obstruction. Run with `python3 <path>`.
+
 - `selected_k77_sr1d_nonparallel_source_graph_cokernel_probe.py` lifts the
   parallel result to the full affine second-jet fibre over the fixed SR-1C
   one-jet. It proves `j1E_T=A h`, `j1E_B=2A h` and `j1p=A h`, so translation

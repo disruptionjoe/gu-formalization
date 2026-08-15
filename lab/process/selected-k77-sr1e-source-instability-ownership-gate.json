@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-14",
+  "status": "SOURCE_INSTABILITY_EXACT__SR1E_CANONICAL_POINT_FIRST_JET_INTERFACE_TYPE_MISSING",
+  "lane_id": "SRC-RES-COH-01",
+  "swing": "VRS-5",
+  "construction": "SR-1E",
+  "source_instability": {
+    "carrier": "CONSTANT_MODES_ON_10_X_SO_6_4",
+    "base_dimension": 10,
+    "adjoint_dimension": 45,
+    "total_dimension": 450,
+    "owned_result": "NONZERO_SYMMETRIC_TRACELESS_MASS_FORM_HAS_BOTH_SIGNS",
+    "claim_ceiling": "CROSS_TERM_ONLY__SELECTION_AND_VACUUM_OPEN"
+  },
+  "selected_k77_requirement": {
+    "carrier": "OMEGA1_Y14_SO_7_7_POINT_T_BEFORE_FIRST_JET",
+    "base_dimension": 14,
+    "adjoint_dimension": 91,
+    "total_dimension": 1274,
+    "dimension_gap": 824,
+    "required_object": "DISTINCT_LABELLED_CANONICAL_POINT_FIRST_JET_WITH_COMPLETE_SOURCE_ROWS"
+  },
+  "missing_bridge": [
+    "EQUIVARIANT_450_TO_1274_CARRIER_MAP",
+    "SOURCE_OWNED_NEGATIVE_LINE_OR_ORBIT",
+    "FULL_ACTION_REPAIR_OF_EXACT_NEGATIVE_QUARTIC_RAY",
+    "NONZERO_EXACT_CRITICAL_AMPLITUDE",
+    "CANONICAL_BZ_COMPATIBLE_FIRST_JET_AND_BIANCHI_LIFT",
+    "RECOMPUTED_TRANSLATION_J1ET_J1EB_EPSILON_AND_TOTAL_METRIC_ROWS"
+  ],
+  "declared_norm_square": "UNBOUNDED_BELOW_ON_EXACT_K_MINUS_4_RAY__CONDITIONAL_ON_UNDECLARED_SG4_PAIRING",
+  "disposition": "TYPE_MISSING__INSTABILITY_IS_NOT_A_SELECTED_NONLINEAR_CANONICAL_BRANCH__DECLARED_NORM_ROUTE_REQUIRES_FULL_ACTION_REPAIR",
+  "sr1": "BACKGROUND-MISSING",
+  "sr2": "BLOCKED",
+  "vrs6_background_premise": "ABSENT",
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "CONSTRUCT_EQUIVARIANT_SOURCE_INSTABILITY_TO_K77_CARRIER_MAP__THEN_DERIVE_FULL_ACTION_REPAIR_OF_NEGATIVE_QUARTIC_AND_SELECT_ONE_CRITICAL_ORBIT_BEFORE_FIRST_JET_ROWS",
+  "artifact": "explorations/conditional-build/selected-k77-sr1e-source-instability-ownership-gate-2026-08-14.md",
+  "probe": "tests/channel-swings/selected_k77_sr1e_source_instability_ownership_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-14-selected-k77-sr1e-source-instability-ownership-gate-review.md",
+  "checks": "45/45 PASS"
+}

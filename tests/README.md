@@ -4372,6 +4372,32 @@ retain ranks `9`, `91`, `6` and `6`. This lowers the safe metric envelope to
 sage -python tests/channel-swings/selected_k77_sr1c_metric_epsilon3_top_block_probe.py
 ```
 
+## K77 SR-1D affine first-jet parity exhaustion
+
+`channel-swings/selected_k77_sr1d_affine_first_jet_parity_exhaustion_probe.py`
+exhausts all `5265` action/Bianchi first-jet kernel directions by an exact
+Clifford-parity theorem and combines it with SR-1D's arbitrary second-jet
+factorization. It checks `249704` direct and `249704` Hodge coefficients and
+kills both fixed roots across the complete compatible affine first/two-jet
+fibre.
+
+```sh
+sage -python tests/channel-swings/selected_k77_sr1d_affine_first_jet_parity_exhaustion_probe.py
+```
+
+## K77 SR-1E source-instability ownership gate
+
+`channel-swings/selected_k77_sr1e_source_instability_ownership_gate_probe.py`
+replays the automatic source mass instability and the SR-1D class kill, then
+checks the exact `450` versus `1274` carrier seam, replays the conditional
+negative-quartic boundedness obstruction, and certifies the six full-action,
+selection and first-jet objects required before that instability can become a
+canonical SR-1E branch.
+
+```sh
+python3 tests/channel-swings/selected_k77_sr1e_source_instability_ownership_gate_probe.py
+```
+
 ## K77 SR-1C branch momentum zero-jet
 
 `channel-swings/selected_k77_sr1c_branch_momentum_zero_jet_probe.py`

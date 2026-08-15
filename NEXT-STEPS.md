@@ -7,6 +7,31 @@ updated_at: "2026-08-14"
 
 # Next Steps For Contributors
 
+> **2026-08-14 SR-1D AFFINE FIRST-JET PARITY EXHAUSTION.** The canonical
+> action/Bianchi branch has the full affine family `Q=Q0+ker(S)`, with
+> `rank(S)=4290` and `dim ker(S)=5265`; the thirteen-cell correction was not
+> unique. Clifford parity kills the complete affine response before the kernel
+> restriction: every shift is even, the Euler receiver is odd, and all
+> `249704+249704` direct/Hodge coefficients vanish. Combined with the arbitrary
+> second-jet factorization, both roots fail metric stationarity across the
+> complete compatible affine first/two-jet fibre. **Do not search another
+> kernel direction. SR-1E must cross to a genuinely new point carrier.** Exact
+> probe passes `43/43`.
+
+> **2026-08-14 SR-1E SOURCE-INSTABILITY OWNERSHIP GATE.** The automatic
+> Mexican-hat result is genuine but does not yet instantiate the distinct
+> canonical point/first jet needed by VRS-5. Its exact mass form acts on `450`
+> source constant modes (`10 x so(6,4)`); selected K77 needs a labelled point
+> value in the `1274`-dimensional `Omega^1(Y14,so(7,7))` carrier before first
+> jets. The source result owns neither an equivariant carrier map, selected
+> negative orbit, full-action stabilising restriction, critical amplitude nor
+> canonical jet lift. The declared Ad-invariant/DeWitt norm-square route is
+> also unbounded below on an exact `K=-4` ray. **Next construct the exact
+> `450 -> 1274` source/K77 interface and a full-action repair of that ray, then
+> select and stabilise one nonlinear critical orbit before
+> recomputing the SR-1E point/first-jet rows.** This is `TYPE-MISSING`, not a
+> no-go for a repaired full-action source branch; exact/interface probe passes.
+
 > **2026-08-14 SR-1D NONPARALLEL SOURCE-GRAPH COKERNEL.** The whole
 > nonparallel second-jet fibre over the fixed SR-1C one-jet is now decided.
 > For arbitrary `h_m`, exact unreduced differentiation gives
