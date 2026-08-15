@@ -41,6 +41,13 @@ the ledger probe uses the standard Python interpreter.
 
 # RSAP probes
 
+- `selected_k86_rsap_d7_first_deeper_stratum_ownership_gate_probe.py`
+  computes every one-root rank-four extension of the fixed abstract `A3`
+  inside `D7`, deriving the `A3+A1/A4/D4` multiplicities, centralizers and
+  exact pointwise rank ceilings. It separately audits local-carrier and K81
+  ownership, so nearest `A3+A1` is not promoted to the actual ambient
+  successor or an attached chart. It passes `53/53` with Python 3.
+
 - `selected_k85_rsap_sustar4_a3_singular_transition_atlas_probe.py`
   replays the exact `su*(4)=so*(4)+m` decomposition, retains all six
   quaternionic canonical spectral/Jordan families, and recomputes the four

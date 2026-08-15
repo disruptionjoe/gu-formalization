@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4c4b0e14492a27014c687956115cde9aa2140643
+revision_basis: 6292f9de126b8bb8da6bdd84bcd437927598991f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -614,7 +614,25 @@ current_result:
     incidence remains TYPE_MISSING. The next gate is the first deeper ambient
     so(7,7) singular stratum reached by the completed local A3 atlases, before
     the zero-charge gate.
+    That ambient gate now closes at the actual ownership boundary. Relative
+    to a fixed abstract A3 chain, the 72 remaining D7 roots give exactly three
+    rank-four one-root extensions: twelve A3+A1, forty-eight A4 and twelve D4.
+    Their ambient centralizer dimensions are 21, 27 and 31, hence target
+    Poisson ranks 70, 64 and 60 and 98D pointwise map-rank ceilings 84, 81 and
+    79. Those are ceilings, not constructed ranks. A3+A1 is nearest to the
+    completed A3-origin row 72/85 only by smallest rank loss. The five local
+    carriers keep S72 as an abstract leaf and T*R4 as an unlabelled zero
+    complement; they own no ambient A3 support, extra D7 root, real successor
+    type or coadjoint degeneration path. Thus the actual first deeper ambient
+    stratum is TYPE_MISSING. A formal 98D A3+A1 product has the arithmetic
+    70+18+4+6 dimensions and joint-origin map ceiling 70+9+2+3=84, but it is
+    neither constructed nor attached. No ambient or cross-form edge is added.
+    The next independent local gate is zero charge, where a 98D map must have
+    differential rank at most 49; global gluing remains blocked by the missing
+    ambient successor.
   evidence:
+    - explorations/conditional-build/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate-2026-08-15.md
+    - lab/process/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate.json
     - explorations/conditional-build/selected-k85-rsap-sustar4-a3-singular-transition-atlas-2026-08-15.md
     - lab/process/selected-k85-rsap-sustar4-a3-singular-transition-atlas.json
     - explorations/conditional-build/selected-k84-rsap-compact-su4-a3-semisimple-singular-transition-atlas-2026-08-15.md
@@ -790,9 +808,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  What is the first deeper ambient so(7,7) singular stratum reached by the
-  completed local real-A3 atlases, and which exact local rank and transition
-  data survive its ambient incidence constraints?
+  Can a smooth 98-dimensional local symplectic realization reach the zero
+  coadjoint value with differential rank at most 49, and what construction or
+  obstruction controls that rank loss independently of the still-type-missing
+  ambient A3 successor?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -801,21 +820,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Classify the first deeper ambient so(7,7) singular stratum reached by the
-  now-complete local real-A3 atlases. Freeze the actual ambient support,
-  centralizer and incidence object before transferring any local rank or
-  cotangent transition. Do not manufacture any cross-real-form atlas edge:
-  cross-real-form incidence is TYPE_MISSING until an explicit source/action-
-  owned pair of ambient support embeddings or equivalent joint-orbit datum is
-  supplied. On revival, fix the common-support dimension and signature and
-  exclude the k80 transverse, (2,2) and (3,2) contrary controls before choosing
-  a bridge. Keep the
+  Attempt the zero-charge gate as an independent local construction or
+  obstruction. At target Poisson rank zero, enforce the exact 98D pointwise
+  ceiling rank(dJ)<=49 and distinguish a ceiling from an achieved moment-map
+  rank. Do not claim global gluing across the missing ambient successor. The
+  one-root D7 census is complete at abstract grade: A3+A1, A4 and D4 have
+  target/map ceilings 70/84, 64/81 and 60/79, but none is selected or
+  constructed. Reopen an ambient successor only with an explicit source/action-
+  owned ambient A3 embedding plus extra root, or equivalent coadjoint
+  degeneration path. Do not manufacture any cross-real-form atlas edge:
+  cross-real-form incidence remains TYPE_MISSING until an explicit source/
+  action-owned pair of ambient support embeddings or equivalent joint-orbit
+  datum is supplied. On revival, freeze the relevant support and real
+  centralizer before transferring local rank or cotangent data. Keep the
   naive same-sign SL2/SO2 sheet partial and non-RSAP. The ordinary Higgs,
   family-index and chirality comparators remain irrelevant to this classical
   moment-map lane and must not be reintroduced. The local A3 atlas family is
-  complete at its stated grades; deeper ambient strata and the rank-at-most-49
-  zero-charge gate remain open, with the 182D cotangent parent still the
-  all-charge fallback.
+  complete at its stated grades; the actual deeper ambient successor remains
+  TYPE_MISSING, with the 182D cotangent parent still the all-charge fallback.
   Reopen VRS-5 only with a genuinely new source/action-
   owned stationary point carrier, derived canonical metric/connection and
   bounded full action; then restart at the cheapest failed gate. Keep VRS-6

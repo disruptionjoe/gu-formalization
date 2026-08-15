@@ -7,6 +7,19 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 `D7` FIRST-DEEPER-STRATUM OWNERSHIP GATE.** Fixing the
+> completed abstract `A3`, the other `72` `D7` roots give exactly `12`
+> `A3+A1`, `48` `A4`, and `12` `D4` one-root extensions. Their centralizer
+> dimensions are `21/27/31`, target ranks `70/64/60`, and `98D` pointwise
+> map-rank ceilings `84/81/79`. `A3+A1` is nearest to the local origin row
+> `72/85`, but nearest is not selected. The completed carriers freeze an
+> abstract `S72` and own no ambient support, extra root, real successor or
+> degeneration path, so the actual successor is `TYPE_MISSING`. The formal
+> `S70 x T*(A3) x T*(A1) x T*R3` arithmetic is a revival template only, not
+> a constructed attachment. **Next attempt the independent zero-charge local
+> gate, enforcing `rank(dJ)<=49` on a smooth `98D` carrier without claiming
+> global gluing.** No ambient or cross-form edge is added; exact probe `53/53`.
+
 > **2026-08-15 COMPLETE QUATERNIONIC `SU*(4)` SINGULAR TRANSITION ATLAS.**
 > The K79 census gives exactly six quaternionic canonical spectral/Jordan
 > families. Two are regular; the four singular families have

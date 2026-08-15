@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k86_rsap_d7_first_deeper_stratum_ownership_gate_probe.py`
+  exhausts all `72` roots outside a fixed abstract `A3` in `D7`, proving the
+  exact `12/48/12` census of `A3+A1/A4/D4` extensions and their target ranks
+  `70/64/60` plus `98D` map-rank ceilings `84/81/79`. It verifies that the
+  completed local carriers own no extra ambient root or degeneration path,
+  keeps the actual successor `TYPE_MISSING`, and leaves the displayed
+  `A3+A1` product as an unattached dimensional template. It passes `53/53`.
+
 - `channel-swings/selected_k85_rsap_sustar4_a3_singular_transition_atlas_probe.py`
   retains all six `SU*(4)/SO*(4)` canonical spectral/Jordan families,
   recomputes the four singular-family and origin schedules, and checks twelve

@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "d7_first_deeper_stratum_one_root_census_and_ownership_gate",
+  "created": "2026-08-15",
+  "status": "THREE_ABSTRACT_ONE_ROOT_DEEPER_D7_TYPES_CLASSIFIED__NEAREST_A3XA1_RANK70__ACTUAL_AMBIENT_SUCCESSOR_TYPE_MISSING",
+  "layer_0": {
+    "object": "classical D7 root-subsystem census and ownership of an ambient degeneration out of a completed local A3 origin",
+    "physical_phase_space": false,
+    "quantization": false,
+    "particle_comparator": false,
+    "ordinary_higgs_model_relevant": false,
+    "ordinary_family_index_relevant": false,
+    "ordinary_chirality_target_relevant": false
+  },
+  "classification": {
+    "ambient_root_system": "D7",
+    "ambient_root_count": 84,
+    "fixed_abstract_subsystem": "A3",
+    "fixed_subsystem_root_count": 12,
+    "outside_root_count": 72,
+    "one_root_extensions": [
+      {
+        "type": "A3+A1",
+        "subsystem_root_count": 14,
+        "extension_root_multiplicity": 12,
+        "ambient_centralizer_dimension": 21,
+        "ambient_target_poisson_rank": 70,
+        "pointwise_98d_map_rank_ceiling": 84
+      },
+      {
+        "type": "A4",
+        "subsystem_root_count": 20,
+        "extension_root_multiplicity": 48,
+        "ambient_centralizer_dimension": 27,
+        "ambient_target_poisson_rank": 64,
+        "pointwise_98d_map_rank_ceiling": 81
+      },
+      {
+        "type": "D4",
+        "subsystem_root_count": 24,
+        "extension_root_multiplicity": 12,
+        "ambient_centralizer_dimension": 31,
+        "ambient_target_poisson_rank": 60,
+        "pointwise_98d_map_rank_ceiling": 79
+      }
+    ],
+    "nearest_by_target_rank": "A3+A1",
+    "nearest_means": "SMALLEST_FORCED_RANK_LOSS_FROM_THE_A3_ORIGIN_ROW_ONLY",
+    "selected_ambient_successor": "TYPE_MISSING"
+  },
+  "rank_schedule": {
+    "completed_local_a3_origin": {
+      "target_poisson_rank": 72,
+      "map_rank": 85,
+      "pointwise_bound_saturated": true
+    },
+    "candidate_rows": [
+      {
+        "type": "A3+A1",
+        "target_poisson_rank": 70,
+        "map_rank_ceiling": 84,
+        "forced_loss_from_85": 1,
+        "map_rank_status": "POINTWISE_CEILING_NOT_ACHIEVED_CONSTRUCTION"
+      },
+      {
+        "type": "A4",
+        "target_poisson_rank": 64,
+        "map_rank_ceiling": 81,
+        "forced_loss_from_85": 4,
+        "map_rank_status": "POINTWISE_CEILING_NOT_ACHIEVED_CONSTRUCTION"
+      },
+      {
+        "type": "D4",
+        "target_poisson_rank": 60,
+        "map_rank_ceiling": 79,
+        "forced_loss_from_85": 6,
+        "map_rank_status": "POINTWISE_CEILING_NOT_ACHIEVED_CONSTRUCTION"
+      }
+    ],
+    "bound": "2*rank(dJ) <= 98 + rank(pi_target)"
+  },
+  "ownership": {
+    "completed_local_carrier_shape": "S72 times T*(A3 principal factor) times T*R4",
+    "s72_leaf_is_treated_as_abstract_common_symplectic_leaf": true,
+    "r4_zero_complement_labels_an_extra_d7_root": false,
+    "selected_a3_ambient_embedding": "NOT_PROVIDED",
+    "selected_extra_root": "NOT_PROVIDED",
+    "ambient_degeneration_path": "NOT_PROVIDED",
+    "successor_real_form": "NOT_PROVIDED",
+    "actual_first_deeper_ambient_stratum": "TYPE_MISSING",
+    "root_census_selects_actual_successor": false,
+    "nearest_by_rank_selects_actual_successor": false,
+    "revival_trigger": "EXPLICIT_SOURCE_OR_ACTION_OWNED_AMBIENT_A3_EMBEDDING_PLUS_EXTRA_ROOT_OR_EQUIVALENT_COADJOINT_DEGENERATION_PATH"
+  },
+  "conditional_a3xa1_template": {
+    "carrier": "S70 times T*(A3 principal factor) times T*(A1 principal factor) times T*R3",
+    "dimension_terms": [70, 18, 4, 6],
+    "map_rank_terms": [70, 9, 2, 3],
+    "formal_target_poisson_rank_at_joint_origin": 70,
+    "formal_map_rank_at_joint_origin": 84,
+    "status": "DIMENSIONAL_TEMPLATE_ONLY__NOT_CONSTRUCTED__NOT_ATTACHED",
+    "use": "REVIVAL_TEMPLATE_IF_AND_ONLY_IF_AN_OWNED_A3_PLUS_A1_AMBIENT_PATH_IS_SUPPLIED"
+  },
+  "scope": {
+    "completed_local_a3_atlases": "UNCHANGED",
+    "ambient_successor_edge": "DO_NOT_ADD",
+    "cross_real_form_incidence": "TYPE_MISSING_NOT_REOPENED",
+    "three_way_abstract_extension_census": "CLOSED",
+    "actual_first_deeper_ambient_stratum": "TYPE_MISSING_REPOSITORY_SCOPED",
+    "zero_charge_rank_at_most_49": "OPEN_NEXT_AS_AN_INDEPENDENT_LOCAL_GATE",
+    "global_all_strata_rsap": "OPEN",
+    "all_charge_fallback_dimension": 182
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "residue": "none",
+    "quotient": "none",
+    "datum": "none",
+    "public_posture": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k86-rsap-d7-first-deeper-stratum-ownership-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k86_rsap_d7_first_deeper_stratum_ownership_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k86-rsap-d7-first-deeper-stratum-ownership-gate-review.md",
+  "next_gate": "ATTEMPT_THE_RANK_AT_MOST_49_ZERO_CHARGE_LOCAL_GATE_INDEPENDENTLY__DO_NOT_CLAIM_GLOBAL_GLUEING_ACROSS_THE_TYPE_MISSING_AMBIENT_SUCCESSOR"
+}
