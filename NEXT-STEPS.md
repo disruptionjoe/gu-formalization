@@ -7,6 +7,23 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K129 EVALUATES THE ACTUAL `T=0` BLOCKS BUT DOES NOT YET
+> SELECT A GLOBAL SCHUR INVERSE.** At K127's Ricci-flat stationary germ,
+> `A=D_g[S_g(F_B)]` is the natural selected curvature linearization, with
+> metric principal ranks `6/6/4`, exact diffeomorphism radical, two additional
+> null TT characteristics and K127's generic Weyl leakage outside the chosen
+> TT plane. Direct differentiation gives the distinct distortion operator
+> `C=kappa_1 K+E(D_B)`: `K` is the nondegenerate quadratic-`T` flat map and
+> `E(D_B)` is the covariant first-order `d_BT` Euler block. The held adjacent-
+> grade cross ranks are `12/12/11`, giving parity-completed ranks `24/24/22`.
+> Nonzero `kappa_1` removes the zero-momentum algebraic kernel but does not
+> choose a uniform inverse or domain; `kappa_1=0` leaves the complete
+> zero-momentum distortion carrier as a constraint/multiplier kernel. The
+> earlier nonzero-`Phi1` Schur Hessian is not ported. **K130 must construct the
+> complete covariant characteristic and Green concomitant for `C`, then
+> select or obstruct one common closed Krein domain and the coupled BV-BFV
+> constraint complex.**
+
 > **2026-08-16 K128 RETYPES THE K127 CURVED RESPONSE: THE `T=0`
 > QUADRATIC THEORY IS COUPLED, NOT A PURE METRIC PENCIL.** In native
 > coordinates `(g,T)`, `I1B(g,0)=0` identically, so every pure metric

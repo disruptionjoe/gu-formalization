@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K129 T=0 A/C kernel and domain classification:** at K127's local
+> Ricci-flat `T=0` germ the mixed block is the natural selected curvature
+> linearization, with metric principal ranks `6/6/4`, exact diffeomorphism
+> radical, two additional null TT characteristics and generic curved Weyl
+> leakage outside the selected TT plane. The distortion block is
+> `C=kappa_1 K+E(D_B)`, not the earlier nonzero-`Phi1` stationary Hessian.
+> `K` is the nondegenerate quadratic-`T` flat map; the covariant first-order
+> `d_BT` Euler block has certified adjacent-grade cross ranks `12/12/11` and
+> parity-completed ranks `24/24/22`. Nonzero `kappa_1` removes only the
+> zero-momentum algebraic kernel; it does not select a global inverse,
+> boundary adjoint or common closed domain. K130 owns the complete
+> characteristic/Green packet and coupled constraint/BV-BFV domain.
+
 > **Current K128 T=0 coupled-Hessian and Schur/domain gate:** the native first
 > action obeys `I1B(g,0)=0` for every metric, so K127's Ricci-flat stationary
 > germ has exact zero pure `h-h` Hessian block. The actual quadratic carrier is

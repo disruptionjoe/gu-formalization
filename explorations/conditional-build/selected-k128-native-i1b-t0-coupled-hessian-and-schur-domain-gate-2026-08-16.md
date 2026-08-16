@@ -200,3 +200,17 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k128_native_i1b_t0_coupled_hessian_and_schur_domain_gate_probe.py
 ```
+
+## K129 successor classification
+
+K129 evaluates the two blocks without importing the repository's earlier
+nonzero-`Phi1` stationary Hessian. On K127's Ricci-flat `T=0` germ,
+`A=D_g[S_g(F_B)]` is the natural selected curvature linearization, with
+principal ranks `6/6/4`, exact diffeomorphism radical and two additional null
+TT characteristics; generic Weyl curvature still leaks off the selected TT
+plane. The distortion operator is `C=kappa_1 K+E(D_B)`. Its nondegenerate
+algebraic map removes the zero-momentum kernel only for nonzero `kappa_1`,
+while its covariant first-order adjacent-grade block has exact parity-completed
+ranks `24/24/22`. This does not select `kappa_1`, a global inverse, boundary
+adjoint, common closed domain or BFV quotient. K130 owns the complete
+characteristic/Green and coupled constraint-domain packet.

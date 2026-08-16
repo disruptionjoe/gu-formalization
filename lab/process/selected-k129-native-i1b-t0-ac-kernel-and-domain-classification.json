@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k129-native-i1b-t0-ac-kernel-and-domain-classification",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K128_NEXT_GATE__EVALUATE_ACTUAL_A_C_AND_CLASSIFY_KERNEL_GAUGE_ADJOINT_DOMAIN",
+  "target_verdict": "T0_A_IS_SELECTED_CURVATURE_LINEARIZATION__C_IS_KAPPA_K_PLUS_COVARIANT_FIRST_ORDER_DBT_EULER__POINTWISE_NONDEGENERATE_FOR_NONZERO_KAPPA_NOT_GLOBAL_INVERTIBLE_BY_THAT_FACT__EXACT_ADJACENT_GRADE_DERIVATIVE_RANKS_24_24_22__DIFFEO_RADICAL_AND_GENERIC_WEYL_TT_LEAKAGE_RETAINED__K130_DOMAIN_CHARACTERISTIC_BFV",
+  "background": {
+    "native_coordinates": "(g,T)",
+    "stationary_grade": "K127_LOCAL_RICCI_FLAT_T0_FIXED_BOUNDARY",
+    "source_global_background_selected": false
+  },
+  "mixed_operator": {
+    "formula": "A=D_g[S_g(F_B)]|RICCI_FLAT=-2*D_g G_HORIZONTAL_WITH_MOVING_NATURAL_PACKET",
+    "principal_ranks_on_metric_carrier": {"timelike": 6, "spacelike": 6, "null": 4},
+    "nonnull_kernel": "DIFFEOMORPHISM4",
+    "null_principal_kernel": "DIFFEOMORPHISM4_PLUS_TT2",
+    "curved_lower_order_effect": "K127_GENERIC_WEYL_LEAKS_OUTSIDE_SELECTED_TT_PLANE"
+  },
+  "distortion_operator": {
+    "formula": "C=kappa_1*K+E(D_B)",
+    "algebraic_flat_map": "K_IS_NONDEGENERATE_ON_THE_TRACKED_SOURCE_CARRIER",
+    "pointwise_zero_momentum_kernel_for_nonzero_kappa": 0,
+    "pointwise_zero_momentum_kernel_for_zero_kappa": "FULL_T_CARRIER",
+    "selected_adjacent_grade_cross_ranks": {"timelike": 12, "spacelike": 12, "null": 11},
+    "selected_adjacent_grade_derivative_ranks": {"timelike": 24, "spacelike": 24, "null": 22},
+    "same_grade_derivative_blocks": "ZERO_BY_SELECTED_SHIAB_PARITY",
+    "fixed_symbol_generic_invertibility": "ALL_BUT_FINITELY_MANY_KAPPA_VALUES_PER_FINITE_SYMBOL",
+    "uniform_global_invertibility": "UNPROVED"
+  },
+  "nonzero_phi1_schur_packet_ported_to_t0": false,
+  "formal_schur_expression": "-A_STAR*C_INVERSE*A",
+  "formal_schur_selected": false,
+  "global_closed_inverse_selected": false,
+  "boundary_adjoint_selected": false,
+  "bfv_reduction_selected": false,
+  "physical_spectrum_selected": false,
+  "next_gate": "K130_CONSTRUCT_THE_FULL_COVARIANT_CHARACTERISTIC_AND_GREEN_PACKET_FOR_C_ON_THE_K127_FAMILY__SELECT_OR_OBSTRUCT_A_COMMON_CLOSED_KREIN_DOMAIN__THEN_BUILD_THE_COUPLED_CONSTRAINT_BV_BFV_COMPLEX",
+  "canon_verdict_change": "none"
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1e21d272482bb27e46f6c7f405ad48c423db7e74
+revision_basis: 2f24848432c91435111c5c8063c3eec4ccabb181
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K129 now identifies the actual source-native quadratic blocks at K127's
+    local Ricci-flat T=0 germ. The mixed block A is the natural selected-Shiab
+    curvature linearization, equivalent on the horizontal Ricci-flat packet
+    to -2 delta G: its metric principal ranks are 6, 6 and 4 on timelike,
+    spacelike and null covectors, with exact diffeomorphism radical and two
+    additional null TT characteristics. Generic Weyl curvature still leaks
+    outside the selected two-polarization plane. The distortion block is not
+    the repository's earlier nonzero-Phi1 stationary Hessian. Direct action-
+    degree differentiation gives C=kappa_1 K+E(D_B), where K is the
+    nondegenerate quadratic-T flat map and E(D_B) is the covariant first-order
+    formal-Euler block. The already-certified Cl1/horizontal-Cl2 cross ranks
+    are 12,12,11 and the parity-completed derivative ranks are 24,24,22.
+    Nonzero kappa_1 removes the zero-momentum algebraic kernel but selects
+    neither kappa_1 nor a global inverse; kappa_1=0 leaves the whole
+    zero-momentum T carrier as a constraint/multiplier kernel. Fixed-symbol
+    generic invertibility does not supply a uniform inverse, boundary adjoint,
+    common closed Krein/Green domain or BV-BFV reduction. K130 must build the
+    full covariant characteristic and Green packet and select or obstruct the
+    common domain before a reduced spectrum or physical cohomology.
     The source/action epsilon variation now formally owns the full canonical
     cotangent preboundary parent T*Spin_0(7,7): its 182-dimensional two-form is
     exactly symplectic, with rank-91 moment differential. The selected regular
