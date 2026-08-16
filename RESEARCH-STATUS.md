@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K145 native I1B T=0 curved generalized-C composition and compatibility gate
+2026-08-16 (exact fifth-power inverse remainder and action-owned
+diffeomorphism chain; selected null lower remainder open).** For
+`C=kappa_1 K+E(D_B)` and `P=K E(D_B)`, K135's degree-four Neumann candidate
+has exact two-sided remainders conjugate to `kappa_1^-5 P^5`. The frozen null
+identity kills only the order-five symbol at that covector; the actual
+spacelike generalized principal spectrum proves that full differential `P^5`
+is nonzero. The K138 Brinkmann family supplies exact transverse curvature
+`[[-a,-b],[-b,a]]` and independent first curvature jets without changing the
+principal quotient. The selected-Shiab projection of the lower null remainder
+is not yet evaluated. Diffeomorphism invariance closes the local coupled chain
+through `A G=0` and `G^* A^*=0`, but imposes no differential identity on `C`
+and selects no distortion KT/BV complex. See
+`explorations/conditional-build/selected-k145-native-i1b-t0-curved-c-composition-and-compatibility-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| frozen null inverse | exact pointwise polynomial | exact operator extension remainder `P^5` | selected null lower remainder | K135/K144/current/context | K145 packet |
+| full `P^5` | unknown | nonzero by actual spacelike principal spectrum | none at full-operator grade | K134/K144 | K145 proof |
+| Brinkmann lower inputs | free three-jets only | exact curvature and first-jet matrices | selected-Shiab projection | K138/K144 | K145 probe |
+| Noether compatibility | coupled local owner retained | consecutive-zero diffeomorphism chain constrains `A`, not `C` | homological/KT-BV owner | K132/K144 | K145 complex |
+| five-class basicness | undefined | still `UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR` | K146 projected remainder | K143/K144 | K145 registry |
+
 **K134 native I1B T=0 Hodge mass and Hermitian Fourier-pencil gate
 2026-08-16 (exact all-grade `K`, causal roots, inertia and uniform-gap
 obstruction; coupled domain open).** The action-owned quadratic mass map on

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1d6b6c879c4be835f40ca7d66f5f1eca19d4da4a
+revision_basis: 05332ba10b6a86458e565daaa6fe8bcc55b92987
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,30 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K145 now derives the exact variable-coefficient composition behind K135's
+    frozen null inverse. With C=kappa_1 K+E(D_B), K^2=I and
+    P=K E(D_B), the degree-four Neumann candidate has exact right remainder
+    kappa_1^-5 P^5 and left remainder kappa_1^-5 K P^5 K. The frozen null
+    identity L(n)^5=0 therefore kills only the order-five principal symbol at
+    that covector. It does not make P^5 the zero differential operator: the
+    actual all-grade spacelike generalized principal family has nonzero
+    spectrum at 27 exact squared radii, so a global P^5=0 identity is already
+    impossible at flat coefficient grade. On K138's Brinkmann family the
+    central frame is parallel but the exact transverse curvature matrix is
+    [[-a,-b],[-b,a]] and its u derivative is
+    [[-a1,-b1],[-b1,a1]]. These are live total-covariant inputs while the
+    principal null quotient stays fixed. The selected comm/symi/symi
+    projection of the order-at-most-four null P^5 remainder is not yet
+    evaluated and is typed UNEVALUATED_SELECTED_SHIAB_REMAINDER, not zero.
+    Diffeomorphism invariance owns the local consecutive-zero chain
+    X -> (L_X g,0) -> H -> (L_X g,0)^*: equivalently A G=0 and
+    G^* A^*=0. Because the distortion gauge component vanishes at T=0, this
+    chain imposes no C^2=0 or P^5=0 identity and supplies no distortion KT/BV
+    resolution. No curved five-class reduced endomorphism is owned, so
+    basicness remains UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR. K146 may
+    compute the selected-Shiab order-at-most-four P^5 remainder on the
+    two-profile Brinkmann null jet and test preservation of H_n and G_n before
+    any parametrix or domain selection. Joe input is not required.
     K144 now proves that K135's fixed-kappa frozen null inverse does not
     determine the curved-neighborhood reduction sought after K143. The action
     owns the local coupled Hessian [[0,A*],[A,C]], and K135's nilpotent frozen

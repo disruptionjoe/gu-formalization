@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K145_NATIVE_I1B_T0_CURVED_C_COMPOSITION_AND_COMPATIBILITY",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected comm/symi/symi I1B Hessian on K127/K138 Ricci-flat T=0 germs; exact generalized-C polynomial remainder, Brinkmann curvature substrate, and coupled diffeomorphism Noether chain before reduction.",
+  "layer0": {
+    "distortion_euler_operator": "C=kappa_1*K+E(D_B)",
+    "generalized_differential_operator": "P=K*E(D_B)",
+    "frozen_null_symbol": "L(n)=sigma_1(P)(n)",
+    "coupled_hessian": "[[0,A*],[A,C]]",
+    "noether_generator_at_T0": "R_diff=(G_diff,0)"
+  },
+  "exact_composition": {
+    "KC": "kappa_1*I+P",
+    "degree_four_candidate": "kappa_1^-1*sum_j=0^4(-kappa_1^-1*P)^j*K",
+    "right_remainder": "kappa_1^-5*P^5",
+    "left_remainder": "kappa_1^-5*K*P^5*K",
+    "candidate_is_full_operator_inverse": false,
+    "full_P5_zero": false,
+    "proof_full_P5_nonzero": "actual spacelike generalized principal symbol has nonzero spectrum",
+    "null_order_five_symbol_zero": true,
+    "null_lower_selected_shiab_remainder": "UNEVALUATED_SELECTED_SHIAB_REMAINDER"
+  },
+  "brinkmann": {
+    "family": "2du dv+dx^2+dy^2+[a(u)(x^2-y^2)+2b(u)xy]du^2",
+    "ricci_flat": true,
+    "central_connection_zero": true,
+    "transverse_curvature": "[[-a,-b],[-b,a]]",
+    "transverse_curvature_determinant": "-(a^2+b^2)",
+    "curvature_derivative": "[[-a_1,-b_1],[-b_1,a_1]]",
+    "independent_curvature_derivative_parameters": 2,
+    "total_covariant_square_live": true,
+    "selected_shiab_P5_projection_evaluated": false
+  },
+  "noether_compatibility": {
+    "chain": "TM --(G,0)--> fields --H--> equation_duals --(G*,0)--> T*M",
+    "H_R_diff_zero": true,
+    "R_diff_star_H_zero": true,
+    "A_G_zero": true,
+    "G_star_A_star_zero": true,
+    "constrains_C_square": false,
+    "distortion_gauge_component_at_T0": 0,
+    "homological_exactness_proved": false,
+    "distortion_KT_BV_complex_selected": false
+  },
+  "quotient": {
+    "principal_dimension": 5,
+    "owned_reduced_endomorphism_exists": false,
+    "basicness": "UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR"
+  },
+  "claim_ceiling": "Exact operator-polynomial remainder, full-symbol obstruction, Brinkmann curvature/jet substrate, and coupled diffeomorphism Noether identities; no evaluated null lower P5 projection, inverse, parametrix, domain, BFV, positivity, states, or physical propagation.",
+  "next_gate": "K146_SELECTED_SHIAB_ORDER_AT_MOST_FOUR_P5_REMAINDER_ON_TWO_PROFILE_BRINKMANN_NULL_JET__TEST_H_N_AND_G_N_PRESERVATION_BEFORE_PARAMETRIX_OR_DOMAIN",
+  "canon_verdict_change": "none"
+}

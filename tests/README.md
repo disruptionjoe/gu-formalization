@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k145_native_i1b_t0_curved_c_composition_and_compatibility_probe.py`
+  derives the exact two-sided fifth-power remainder left by extending K135's
+  frozen null Neumann polynomial, uses the actual spacelike spectrum to rule
+  out full differential nilpotence, reconstructs the Ricci-flat Brinkmann
+  curvature and first jet, and checks that the coupled diffeomorphism Noether
+  chain constrains `A` rather than `C`.
+
 - `channel-swings/selected_k144_native_i1b_t0_curved_local_inverse_owner_gate_probe.py`
   proves that frozen nilpotent symbol data do not determine curved operator
   inversion, using exact derivative-dependent local matrix and nonlocal scalar

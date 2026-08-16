@@ -235,6 +235,22 @@ selecting an inverse. Joe input is not required for that bounded audit.
 Selecting a Green/domain realization, pseudodifferential calculus, gauge
 fixing, or boundary functional remains a separate authority decision.
 
+## K145 successor classification
+
+K145 writes `P=K E(D_B)` and proves that extending K135's degree-four frozen
+null Neumann polynomial leaves exact right remainder `kappa_1^-5 P^5` and
+left remainder `kappa_1^-5 K P^5 K`. The actual spacelike generalized
+principal spectrum makes full differential `P^5=0` impossible, so the frozen
+polynomial does not silently become a neighborhood operator inverse. On the
+Brinkmann null characteristic the order-five symbol does vanish; the exact
+curvature and first curvature jet are live lower inputs, while their selected
+`comm/symi/symi` projection remains
+`UNEVALUATED_SELECTED_SHIAB_REMAINDER`. The coupled diffeomorphism Noether
+chain closes through `A G=0` and `G^* A^*=0` but imposes no identity on `C`,
+because the distortion gauge component vanishes at `T=0`. K146 owns the
+bounded selected-Shiab order-at-most-four remainder and quotient-preservation
+test before any inverse, parametrix, gauge, boundary, or domain selection.
+
 Reproduce:
 
 ```bash

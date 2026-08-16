@@ -7,6 +7,24 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K145 IDENTIFIES THE EXACT CURVED OPERATOR REMAINDER AND
+> SEPARATES THE COUPLED NOETHER COMPLEX FROM A DISTORTION COMPLEX.** Write
+> `C=kappa_1 K+E(D_B)` and `P=K E(D_B)`. K135's degree-four Neumann candidate
+> has exact right remainder `kappa_1^-5 P^5` and left remainder
+> `kappa_1^-5 K P^5 K`. Although the frozen null symbol satisfies
+> `L(n)^5=0`, the full differential operator cannot: K134's actual spacelike
+> generalized symbol has nonzero spectrum at 27 squared radii. On the K138
+> Brinkmann family the central frame is parallel while transverse curvature
+> is `[[-a,-b],[-b,a]]` with derivative `[[-a1,-b1],[-b1,a1]]`; the lower
+> null-characteristic selected-Shiab remainder is therefore a live finite
+> evaluator but remains `UNEVALUATED_SELECTED_SHIAB_REMAINDER`. The local
+> diffeomorphism chain gives `A G=0` and `G^* A^*=0`, not `C^2=0` or a
+> distortion KT/BV tower, because the `T=0` distortion gauge column vanishes.
+> No five-class reduced map exists yet. **K146 should compute the
+> order-at-most-four selected `comm/symi/symi` part of `P^5` on the
+> two-profile Brinkmann null jet and test preservation of `H_n` and `G_n`
+> before any parametrix, gauge, boundary, or domain selection.**
+
 > **2026-08-16 K144 PROVES THAT THE FROZEN NILPOTENT INVERSE DOES NOT SELECT
 > A CURVED FIVE-CLASS COEFFICIENT.** K135's constant-coefficient polynomial
 > inverse remains exact. The new two-by-two control has the same frozen

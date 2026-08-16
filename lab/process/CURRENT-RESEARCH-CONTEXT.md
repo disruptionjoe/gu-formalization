@@ -9,6 +9,22 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K145 curved generalized-C composition:** with
+> `C=kappa_1 K+E(D_B)` and `P=K E(D_B)`, the exact extension of K135's
+> degree-four null Neumann polynomial leaves right remainder
+> `kappa_1^-5 P^5` and left remainder `kappa_1^-5 K P^5 K`. The null frozen
+> symbol has fifth power zero, but full differential `P^5` cannot vanish
+> because K134's actual spacelike generalized symbol has nonzero spectrum.
+> K138's Brinkmann family has a parallel central frame and exact transverse
+> curvature `[[-a,-b],[-b,a]]` with independent derivative jets `a1,b1`.
+> Those are live lower-order inputs, but the selected-Shiab projection of the
+> order-at-most-four null remainder remains
+> `UNEVALUATED_SELECTED_SHIAB_REMAINDER`. The coupled diffeomorphism Noether
+> chain proves `A G=0` and `G^* A^*=0`; it supplies no identity for `C` because
+> the distortion gauge component is zero at `T=0`. K146 owns the finite local
+> selected-Shiab remainder and `H_n/G_n` preservation test before any inverse
+> or domain selection.
+
 > **Current K144 curved local-inverse owner gate:** K135's nilpotent frozen
 > polynomial inverse remains exact, but it does not determine curved operator
 > composition. The exact matrix control `P_s` has the same frozen square-zero
