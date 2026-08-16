@@ -233,6 +233,18 @@ Exact probe: `42/42`. The result changes no canon, ledger verdict or public post
 the repository's custody rule: an action name without a selected action layer
 and field map is not an owner.
 
+## K119 selection correction — 2026-08-15
+
+K119 proves that neither stationarity nor cubic agreement can select the map
+requested above. At `DI=0`, every `DF,D2F` preserves stationarity, while the
+Hessian-times-`D2F` terms remain in the cubic. On a nondegenerate three-field
+branch, the exact 18-dimensional quadratic-jet space surjects onto all ten
+symmetric cubic coefficients with an eight-dimensional kernel. Even the
+affine diagonal lift retains one rescaling dimension after both known
+projections match. K120 must therefore derive the geometric map jet
+independently from one selected action's soldering/observation owners; cubic
+assembly moves to K121.
+
 Reproduce:
 
 ```bash

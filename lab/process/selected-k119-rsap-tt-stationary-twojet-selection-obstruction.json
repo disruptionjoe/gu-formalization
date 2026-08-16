@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k119-rsap-tt-stationary-twojet-selection-obstruction",
+  "created": "2026-08-15",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K118_NEXT_GATE__STATIONARITY_OR_CUBIC_MATCHING_CAN_SELECT_ONE_ACTION_LAYER_AND_SCALAR_LIFT_WITHOUT_AN_INDEPENDENTLY_DERIVED_OBSERVED_TO_NATIVE_TWO_JET",
+  "target_verdict": "NO__STATIONARITY_IS_JET_BLIND_AND_A_FREE_SECOND_MAP_JET_CAN_MANUFACTURE_AN_ARBITRARY_CUBIC_MATCH_ON_THE_NONDEGENERATE_BRANCH",
+  "carrier": {
+    "observed_fields": ["theta", "h", "v"],
+    "dimension": 3,
+    "quadratic_jet_dimension": 18,
+    "symmetric_cubic_dimension": 10
+  },
+  "stationary_pullback": {
+    "constrains_DF": false,
+    "constrains_D2F": false,
+    "removes_DI_D3F_term": true,
+    "retains_H_D2F_terms": true
+  },
+  "nondegenerate_branch": {
+    "second_jet_to_cubic_rank": 10,
+    "second_jet_to_cubic_kernel_dimension": 8,
+    "surjective": true,
+    "selection_consequence": "CUBIC_MATCH_HAS_NO_ACTION_SELECTION_FORCE_WITHOUT_INDEPENDENT_JET_CUSTODY"
+  },
+  "degenerate_branch": {
+    "rule": "COMPUTE_SELECTED_HESSIAN_AND_USE_ONLY_THE_COKERNEL_COMPONENT_AS_MAP_INDEPENDENT_CUBIC_DATA"
+  },
+  "affine_diagonal_lift": {
+    "variables": ["lambda", "a", "b"],
+    "matched_products": ["lambda*a^2", "lambda*b^2"],
+    "constraint_rank": 2,
+    "remaining_scaling_dimension": 1,
+    "kernel_direction_at_unit_control": [-2, 1, 1]
+  },
+  "candidate_layers": {
+    "I_sc": "MISSING_NATIVE_HV_ACTION_COMPLETION_AND_MAP",
+    "I1B": "MISSING_OBSERVED_SCALAR_IDENTIFICATION_AND_COMPOSED_GEOMETRIC_J2F",
+    "I2B": "MISSING_SELECTED_RESIDUAL_TARGET_PAIRING_OBSERVED_J2F_AND_CUBIC",
+    "I_II": "MISSING_TYPED_EQUALITY_OR_PULLBACK_FROM_SOURCE_ACTION"
+  },
+  "complete_selection_tuple_owned": false,
+  "next_gate": "K120_GEOMETRIC_JET_CUSTODY_BEFORE_CUBIC_ASSEMBLY",
+  "canon_verdict_change": "none"
+}

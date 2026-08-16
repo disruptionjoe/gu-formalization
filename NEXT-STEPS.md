@@ -7,7 +7,23 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
-> **2026-08-15 K118 FINDS THAT THE FULL-MOVING `D3 I_SELECTED` OWNER IS NOT
+> **2026-08-15 K119 PROVES THAT STATIONARITY AND CUBIC MATCHING CANNOT SELECT
+> THE MISSING ACTION LIFT.** At a stationary native base point, the composite
+> is stationary for every `DF,D2F`; stationarity removes `DI[D3F]` but leaves
+> the Hessian-times-`D2F` terms in the cubic. For the three-field carrier and
+> a nondegenerate primitive Hessian, the exact `18 -> 10` quadratic-jet-to-
+> cubic map is surjective with kernel dimension eight. A fitted `D2F` can
+> therefore manufacture any desired cubic, and even a full match cannot own
+> the map. On a degenerate selected branch, only the computed cokernel is
+> map-independent evidence. Even imposing `D2F=0` and a diagonal affine lift,
+> the two known projections retain one scalar/TT rescaling orbit. **K120 must
+> derive one action layer's stationary `DF,D2F`, pairing and preboundary owner
+> from the actual soldering/observation geometry independently of the cubic.**
+> K121 may then assemble the pullback cubic; spectral, domain and attachment
+> gates remain later. Exact probe records the complete rank/kernel and planted
+> degenerate boundary.
+
+> **REFINED BY K119 — 2026-08-15 K118 FINDS THAT THE FULL-MOVING `D3 I_SELECTED` OWNER IS NOT
 > YET ONE TYPED ACTION OBJECT.** The observed scalar horn `I_sc`, first action
 > `I1B`, residual-square second action `I2B`, and observer `I_II=||II||^2`
 > have distinct owners. No current theorem identifies their cubic tensors,
@@ -16,11 +32,10 @@ updated_at: "2026-08-15"
 > known diagonal projections, a general first-order symmetric TT pencil has
 > six coefficients and retains four free slots. Exact direct and congruence
 > completions share those projections but have different discriminant
-> response. **K119 must select one primitive action layer and construct a
-> stationary `j2F:E_obs -> fields(I)` before coefficient assembly.** K120 may
-> then compute the pullback cubic/preboundary class; K121 may test spectral
-> ownership only if one pencil results. K122 stationarity/domain and K123
-> attachment remain later. Exact probe `42/42`.
+> response. K119 has since shown that neither stationarity nor cubic agreement
+> can select `j2F`; K120 must derive it independently from the geometric
+> soldering/observation owners. Pullback assembly moves to K121, with spectral,
+> domain and attachment gates conditional after that. Exact K118 probe `42/42`.
 
 > **REFINED BY K118 — 2026-08-15 K117 RESTORES TT SYMBOL ORDER AND REOPENS THE FULL MOVING
 > HESSIAN OWNER.** The inherited interaction is

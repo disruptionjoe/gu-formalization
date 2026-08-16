@@ -9,7 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
-> **Current K118 full-moving D3 owner-sufficiency gate:** `I_selected` is not
+> **Current K119 stationary two-jet selection obstruction:** stationarity is
+> blind to `DF,D2F`. At `DI=0`, the pullback cubic still contains the
+> Hessian-times-`D2F` cyclic terms. For a nondegenerate primitive Hessian on
+> `E=span(theta,h,v)`, the exact `18 -> 10` second-jet map is surjective and
+> has an eight-dimensional kernel. Hence a fitted map jet can manufacture any
+> cubic agreement and a full match still leaves eight invisible directions.
+> A selected degenerate Hessian must be tested through its cokernel instead.
+> Even the affine diagonal `D2F=0` lift retains one rescaling dimension after
+> both known diagonal projections match. Do not select `I_sc`, `I1B`, `I2B`
+> or `I_II` by stationarity, symbol reuse or cubic fit. K120 must independently
+> compose the genuine spin-Levi-Civita, soldering, section and observation
+> jets, pairing and preboundary owner for one named action/base point; K121
+> assembles the cubic only afterward.
+
+> **Refined by K119 — K118 full-moving D3 owner-sufficiency gate:** `I_selected` is not
 > yet one cubic object at this seam. The observed scalar horn, `I1B`, `I2B`
 > and observer `||II||^2` functional are distinct action layers with no
 > selected third-derivative identification. The observed `theta` to intrinsic
@@ -18,8 +32,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > symmetric-pencil coefficients undetermined; exact direct and
 > field-redefinition completions share both projections and disagree
 > spectrally. Do not assemble terms across action layers or run a spectral
-> census. K119 must first select one primitive action and a stationary
-> observed-to-native two-jet; K120 then computes its pullback cubic if owned.
+> census. K119 proves that selection cannot come from stationarity or cubic
+> matching; use the current K119 block for the K120 geometric-custody gate.
 
 > **K117 symbol-order correction, retained and refined by K118:** the owned fixed-symbol response
 > is `delta J_hh(z)=d z E_hh`, inherited from `a -> a+beta theta`. K116 fixed
