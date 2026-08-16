@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K147 radical-module factorization result:** K146's pointwise
+> `H_n` preservation wording is insufficient because `S_4` is an order-at-most
+> eight differential operator. Full preservation would require
+> `ell_n S_4=Q ell_n` on 4455 radical section jets. That strong reading fails
+> already at the exact top symbol: for fixed null `n=(1,0,0,1)` and spacelike
+> derivative covector `xi=(0,1,0,0)`, the radical tensor
+> `h=(2,0,0,1,0,0,0,0,0,0)` has leakage `-384`. Lower curved coefficients
+> cannot repair this order-eight failure. The result does not kill the null
+> finite-frequency quotient: the frozen null Schur law remains
+> `-48 ell_n ell_n^T`, the frozen restricted `K P(n)^5 K A(n)` residual is
+> zero, and an independent null covector has zero top term. Continue only with
+> a precisely declared null-characteristic symbol/transport module and its
+> curved lower evaluator; do not retry full `S_4(Gamma H_n)` preservation or
+> infer a domain, propagator, BFV class, physical mode, or state.
+
 > **Current K146 remainder/quotient type correction:** `P^5` is an
 > endomorphism of `Omega1(Cl(7,7))`, not of the metric radical `H_n` or gauge
 > image `G_n`; the proposed direct test is `ILL_TYPED_DIFFERENT_CARRIERS`.

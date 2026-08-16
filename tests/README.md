@@ -6,6 +6,7 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k147_native_i1b_t0_radical_module_factorization_gate_probe.py`
 - `channel-swings/selected_k146_native_i1b_t0_null_remainder_type_and_quotient_gate_probe.py`
   corrects the direct `P^5` quotient test by carrier, derives the exact
   `P_s^5=s^4P_s` lower-order control, constructs the first typed metric

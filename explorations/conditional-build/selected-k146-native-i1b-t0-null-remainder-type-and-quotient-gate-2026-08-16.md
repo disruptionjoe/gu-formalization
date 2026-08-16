@@ -166,6 +166,17 @@ R6 only after R5 passes: descend S_4 to H_n/G_n.
 Joe input is not required. K147 is an implementation/evaluator gate, not a
 new action, inverse, gauge, boundary or physical-state choice.
 
+## K147 successor classification
+
+K147 corrects the phrase "compute on a basis of H_n". Since `S_4` is a
+differential operator, full preservation of `Gamma(H_n)` is an all-jet
+factorization condition. Its necessary order-eight principal-symbol condition
+fails exactly at a spacelike derivative covector, with leakage `-384` on one
+radical tensor. Thus the full differential-module reading is killed without a
+curved lower evaluator. The frozen null symbol and its five-class geometric
+quotient remain intact; the surviving question is a separately typed
+null-characteristic symbol/transport module.
+
 Reproduce:
 
 ```bash

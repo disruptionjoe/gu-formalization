@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K147_NATIVE_I1B_T0_RADICAL_MODULE_FACTORIZATION_GATE",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected comm/symi/symi I1B Hessian on the K127/K138 Ricci-flat T=0 null germ; exact carrier, differential-order and radical-jet-module audit before constructing a curved polynomial Schur evaluator.",
+  "preflight": {
+    "repository_head": "b21876d3",
+    "worktree_overlap_on_target_at_open": false,
+    "predecessor": "K146_NATIVE_I1B_T0_NULL_REMAINDER_TYPE_AND_QUOTIENT_GATE",
+        "admitted_write_surfaces": [
+            "CURRENT-STATE.yaml",
+            "NEXT-STEPS.md",
+            "RESEARCH-STATUS.md",
+            "explorations/conditional-build/selected-k146-native-i1b-t0-null-remainder-type-and-quotient-gate-2026-08-16.md",
+            "explorations/conditional-build/selected-k147-native-i1b-t0-radical-module-factorization-gate-2026-08-16.md",
+            "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+            "lab/process/hostile-reviews/2026-08-16-selected-k147-native-i1b-t0-radical-module-factorization-gate-review.md",
+            "lab/process/selected-k147-native-i1b-t0-radical-module-factorization-gate.json",
+            "tests/README.md",
+            "tests/channel-swings/selected_k147_native_i1b_t0_radical_module_factorization_gate_probe.py"
+        ],
+    "predecessor_facts_retained": [
+      "P^5 acts on Omega1(Cl(7,7)), not directly on the metric radical or gauge image",
+      "S_4=-A^*R_4A is the first well-typed local polynomial metric operator",
+      "S_4G=0 follows exactly from AG=0",
+      "S_4(H_n) subset H_n and the curved selected-Shiab remainder remain unevaluated"
+    ]
+  },
+  "carrier_order_module_theorem": {
+    "metric_carrier": "Sym2(T*)",
+    "metric_dimension": 10,
+    "distortion_carrier": "Omega1(Cl(7,7))",
+    "distortion_dimension": 229376,
+    "null_radical": "H_n=ker(ell_n)",
+    "null_radical_dimension": 9,
+    "diffeomorphism_image": "G_n=im(n odot -)",
+    "diffeomorphism_image_dimension": 4,
+    "quotient": "H_n/G_n",
+    "quotient_dimension": 5,
+    "operator_orders": {
+      "A": 2,
+      "A_star": 2,
+      "P": 1,
+      "R_4_maximum": 4,
+      "S_4=-A^*R_4A_maximum": 8
+    },
+    "four_variable_section_jets_through_order_8": 495,
+    "jet_count_identity": "binomial(4+8,8)=binomial(12,4)=495",
+    "radical_section_jet_dimension": 4455,
+    "radical_section_jet_identity": "dim(H_n)*binomial(12,4)=9*495=4455",
+    "theorem": "Preservation of H_n by the order-at-most-eight differential operator S_4 is a factorization statement on the 4455-dimensional H_n-valued eight-jet module. Testing nine constant radical vectors, five quotient representatives, or one frozen Fourier symbol cannot prove the differential-module inclusion S_4(H_n) subset H_n.",
+    "constant_representative_test_sufficient": false,
+    "frozen_symbol_test_sufficient": false
+  },
+  "brinkmann_profile_jet_audit": {
+    "profiles": {
+      "a": ["a0", "a1", "a2", "a3", "a4", "a5", "a6"],
+      "b": ["b0", "b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "maximum_profile_jet_order_required": 6,
+    "current_serialized_family": ["a0", "a1", "b0", "b1"],
+    "current_family_is_jet_generic_for_gate": false,
+    "reason": "K138 serializes curvature and its first profile derivative. The Leibniz expansion of A^*P^jKA through j=4 requires background coefficient data through the sixth profile jet. Vanishing on the present linear-profile specialization would therefore be a restricted-family zero, not radical-module factorization."
+  },
+  "reusable_serialized_components": [
+    {
+      "path": "tests/channel-swings/k77_exact_bank_api.py",
+      "provides": "import-safe exact Cl(7,7) Clifford, exterior, Hodge, selected-Shiab and pairing arithmetic"
+    },
+    {
+      "path": "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py",
+      "provides": "exact sparse Gaussian-rational form arithmetic and sparse-rank pattern"
+    },
+    {
+      "path": "tests/channel-swings/selected_k132_native_i1b_t0_all_grade_noether_complex_probe.py",
+      "provides": "frozen selected comm/symi/symi raw coefficient, formal-Euler antisymmetrization, invariant labels and all-grade block census"
+    },
+    {
+      "path": "tests/channel-swings/selected_k134_native_i1b_t0_kappa_hodge_fingerprint_and_fourier_pencil_probe.py",
+      "provides": "pointwise Hodge-Clifford mass K and frozen 56/56/49 block library"
+    },
+    {
+      "path": "tests/channel-swings/selected_k135_native_i1b_t0_coupled_shell_green_domain_probe.py",
+      "provides": "metric slots, principal curvature injection, frozen A/C/K support closure and null polynomial replay"
+    },
+    {
+      "path": "tests/channel-swings/selected_k138_native_i1b_t0_null_stratum_covariant_transport_probe.py",
+      "provides": "ell_n, gauge columns, radical and quotient bases, rotated-null covariance, Brinkmann metric, connection, curvature and first curvature jet"
+    },
+    {
+      "path": "tests/channel-swings/selected_k144_native_i1b_t0_curved_local_inverse_owner_gate_probe.py",
+      "provides": "slope-dependent lower-power control separating frozen nilpotence from operator composition"
+    }
+  ],
+  "nonportable_nearby_components": [
+    {
+      "path": "tests/channel-swings/pw2fr2b2b2h_mixed_shiab_second_jet_probe.py",
+      "reason": "Its moving Clifford, Hodge and Shiab jet patterns belong to a trace-adapted Cl(9,5) port and do not provide a typed bridge to the selected source-native Cl(7,7) I1B operator."
+    },
+    {
+      "path": "tests/channel-swings/eric_curt_wave3d_b2c15m_moving_shiab_exact_g2_weighted_euler_probe.py",
+      "reason": "Its moving formal-adjoint fixture is a bounded comparator, not the complete Omega1(Cl(7,7)) formal Euler operator required here."
+    }
+  ],
+  "missing_primitives": [
+    "one unified executable variable-coefficient selected-Shiab operator on Omega1(Cl(7,7))",
+    "total covariant derivative carrying ordinary coefficient, one-form Levi-Civita and Clifford-adjoint spin-connection actions together",
+    "mechanical variable-coefficient formal Euler adjoint with moving pairing, Hodge and density terms",
+    "Leibniz-complete sparse differential-jet composition through P^5",
+    "pointwise K action on arbitrary sparse differential-jet states",
+    "full curved A=D_g[S_g(F_B)], including background-curvature and moving Shiab, frame, Hodge, pairing and density contributions",
+    "the corresponding operative A^* or an exact dual-pairing replacement using the same owned moving coefficients",
+    "Brinkmann profile coefficients a0 through a6 and b0 through b6 in one common evaluator"
+  ],
+  "conditional_formula_ownership_audit": {
+    "selected_frozen_comm_symi_symi_coefficient_serialized": true,
+    "selected_conditional_comm_symi_symi_local_branch_mathematically_owned": true,
+    "joe_authorized_implementation": true,
+    "complete_moving_Cl7_7_operator_serialized": false,
+    "source_unique_preferred_shiab_recovered": false,
+    "source_complete_pairing_hodge_density_and_adjoint_conventions_serialized_together": false,
+    "owned_conditional_formulas_are_sufficient_to_derive_evaluator": true,
+    "preferred_historical_shiab_selector_remains_source_open": true,
+    "preferred_GU_claim_moves": false,
+    "serialization_verdict": "NOT_SERIALIZED_FROM_OWNED_CONDITIONAL_FORMULAS",
+    "conclusion": "The selected conditional comm/symi/symi local branch is mathematically owned and authorized for implementation. The remaining gap is a unified executable Cl(7,7) variable-coefficient serialization, not authority or formula closure. This conditional branch does not recover the preferred historical Shiab selector or move a preferred-GU claim."
+  },
+  "restricted_residual": {
+    "formula": "Q_h=K P^5 K A h",
+    "meaning": "C R_4 A h=A h+kappa_1^-5 Q_h",
+    "frozen_null_principal_value": "ZERO_BY_L_N_POWER_5",
+    "frozen_principal_action_image_value": "ZERO_BY_EXACT_K_L_N_POWER_5_K_A_COMPOSITION",
+    "frozen_principal_action_image_classification": "IMPLEMENTATION_VALIDATION_ONLY",
+    "curved_value": "UNEVALUATED_NOT_SERIALIZED_FROM_OWNED_CONDITIONAL_FORMULAS",
+    "status": "NOT_COMPUTED",
+    "claim": "Global P^5 nonvanishing does not decide whether the coupled image im(A) is annihilated; the restricted curved residual remains open."
+  },
+  "radical_leakage": {
+    "factorization_condition": "ell_n S_4(j^8 h)=0 for every j^8 h in J^8(H_n)",
+    "dual_krylov_candidate": "ell_n S_4 h=-<A ell_n^sharp,R_4 A h>",
+    "constant_five_representative_status": "INSUFFICIENT_FOR_DIFFERENTIAL_MODULE_THEOREM",
+    "full_4455_jet_status": "DECIDED_BY_NECESSARY_PRINCIPAL_SYMBOL_FAILURE",
+    "necessary_principal_symbol_test": {
+      "formula": "sigma_8(S_4)(xi)=-A(xi)^T*(K*C_1(xi))^4*K*A(xi) up to a nonzero scalar",
+      "fixed_null_constraint": "n=(1,0,0,1); ell_n=[1,0,0,-2,0,0,0,0,0,1]",
+      "derivative_covector": "xi=(0,1,0,0)",
+      "sigma_8_rank": 6,
+      "leakage_row": [-64, 0, 0, -256, 0, 0, 0, 0, 0, -64],
+      "radical_witness": [2, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+      "witness_is_in_H_n": true,
+      "leakage_value": -384,
+      "verdict": "FAIL_FULL_DIFFERENTIAL_MODULE_PRESERVATION"
+    },
+    "quotient_endomorphism_on_full_differential_module": "FAIL_PRINCIPAL_SYMBOL_LEAKAGE",
+    "null_microlocal_quotient_endomorphism": "UNDEFINED_CURVED_LOWER_COMPOSITION_OPEN",
+    "status": "FAIL_FULL_DIFFERENTIAL_MODULE_PRESERVATION"
+  },
+  "outcome": {
+    "classification": "FULL_DIFFERENTIAL_MODULE_FACTORIZATION_FAIL",
+    "serialization_classification": "NOT_SERIALIZED_FROM_OWNED_CONDITIONAL_FORMULAS",
+    "radical_preservation": "FAIL_FOR_FULL_DIFFERENTIAL_MODULE_BY_ORDER_EIGHT_PRINCIPAL_SYMBOL",
+    "restricted_inverse_on_im_A": "UNDEFINED_NOT_ZERO_PASS_OR_FAIL",
+    "scientific_disposition": "The exact spacelike order-eight principal symbol leaks a fixed null-radical witness by -384, so full differential-module preservation fails without needing the curved lower evaluator. The selected conditional formulas remain mathematically owned; their unified executable serialization is still absent. The correctly scoped null-microlocal descent remains open, and no preferred historical-Shiab claim moves."
+  },
+  "route_switch": {
+    "current_route": "RETURN_TO_CORRECTLY_SCOPED_NULL_MICROLOCAL_OBJECT",
+    "strongest_next_path": "Do not build all 4455 jets to retest full module preservation; the necessary principal condition already fails. Serialize the owned conditional curved evaluator only for the narrower null-microlocal lower-composition and restricted-residual questions.",
+    "resume_conditional_curved_computation_if": "The unified executable Cl(7,7) variable-coefficient evaluator is serialized and its frozen specialization exactly replays K132 and K135.",
+    "first_computations_after_resume": [
+      "compute the curved restricted residual Q_h=K P^5 K A h on the null-microlocal action image",
+      "compute the curved lower ell_n S_4 leakage on the fixed null-microlocal quotient",
+      "replay the result at a rationally rotated null covector",
+      "descend only at the explicitly null-microlocal grade if its narrower factorization vanishes"
+    ],
+    "adverse_switch": "Any exact nonzero curved Q_h or fixed-null microlocal ell_n S_4 coefficient closes the corresponding polynomial restricted-inverse or null-microlocal endomorphism route on the owned conditional family."
+  },
+  "claim_ceiling": "Exact carrier dimensions, order-eight and 4455-jet module theorem, frozen K132/K135 recovery, frozen restricted-residual implementation validation, and failure of full differential-module preservation by one exact spacelike principal-symbol witness. No curved restricted-residual value, no null-microlocal lower-composition verdict, no preferred historical-Shiab verdict, inverse, parametrix, domain, BFV, positivity, state or physical-propagation claim.",
+  "postflight": {
+    "target_json_validated": true,
+    "probe_result": "PASS_63_OF_63",
+    "probe_command": "PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python -u tests/channel-swings/selected_k147_native_i1b_t0_radical_module_factorization_gate_probe.py",
+        "files_changed": [
+            "CURRENT-STATE.yaml",
+            "NEXT-STEPS.md",
+            "RESEARCH-STATUS.md",
+            "explorations/conditional-build/selected-k146-native-i1b-t0-null-remainder-type-and-quotient-gate-2026-08-16.md",
+            "explorations/conditional-build/selected-k147-native-i1b-t0-radical-module-factorization-gate-2026-08-16.md",
+            "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+            "lab/process/hostile-reviews/2026-08-16-selected-k147-native-i1b-t0-radical-module-factorization-gate-review.md",
+            "lab/process/selected-k147-native-i1b-t0-radical-module-factorization-gate.json",
+            "tests/README.md",
+            "tests/channel-swings/selected_k147_native_i1b_t0_radical_module_factorization_gate_probe.py"
+        ],
+        "other_repository_files_changed_by_this_gate": true,
+    "runtime_provenance_in_target": false,
+    "outcome": "FULL_DIFFERENTIAL_MODULE_FACTORIZATION_FAIL__NULL_MICROLOCAL_DESCENT_OPEN__OWNED_CONDITIONAL_EVALUATOR_NOT_SERIALIZED"
+  },
+  "canon_verdict_change": "none"
+}

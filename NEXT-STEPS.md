@@ -7,6 +7,23 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K147 KILLS THE FULL DIFFERENTIAL-MODULE READING BUT PRESERVES
+> THE NULL-MICROLOCAL ROUTE.** Because `S_4=-A^*R_4A` has order at most eight,
+> preservation of arbitrary `H_n`-valued sections is equivalent to
+> `ell_n S_4=Q ell_n` and spans `9*binomial(12,4)=4455` radical jet
+> generators. The necessary top-symbol factorization already fails. For
+> fixed `n=(1,0,0,1)` and spacelike derivative covector `xi=(0,1,0,0)`,
+> `ell_n^T sigma_8(S_4)(xi)=[-64,0,0,-256,0,0,0,0,0,-64]`, while
+> `ell_n=[1,0,0,-2,0,0,0,0,0,1]`; the exact radical tensor
+> `h=(2,0,0,1,0,0,0,0,0,0)` leaks by `-384`. Lower terms cannot cancel this
+> order-eight failure. The frozen null packet still has
+> `S_null=-48 ell_n ell_n^T`, `K P(n)^5 K A(n)=0`, and zero order-eight term at
+> an independent null covector. **The next gate should therefore define the
+> exact null-characteristic symbol/transport module and compute only its
+> curved lower leakage with the unified sparse evaluator; do not retry full
+> `S_4(Gamma H_n)` preservation, build 4455 curved evaluations, or infer a
+> quotient propagator/domain/physical mode.**
+
 > **2026-08-16 K146 CORRECTS THE NULL-REMAINDER QUOTIENT TYPE AND PROVES
 > EXACT GAUGE PRESERVATION FOR THE FIRST TYPED METRIC POLYNOMIAL.** `P^5`
 > acts on the distortion carrier; `H_n`, `G_n` and `H_n/G_n` live in the

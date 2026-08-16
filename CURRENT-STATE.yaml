@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8b04672251123dc79fb730cdeea75f40ecbaf94a
+revision_basis: b21876d3463616df5bc42df8e36d2cd7d7b98d5d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K147 now corrects and decides the full differential-module reading of
+    K146's radical-preservation question. Since S_4=-A^*R_4A has order at
+    most eight, preservation of arbitrary H_n-valued sections would require
+    the operator factorization ell_n S_4=Q ell_n. This is a 4455-generator
+    finite jet condition: 495 scalar four-variable jets through order eight
+    for each of nine radical directions. The condition fails already at the
+    exact top symbol. For fixed null n=(1,0,0,1) and spacelike derivative
+    covector xi=(0,1,0,0), ell_n^T sigma_8(S_4)(xi) is
+    [-64,0,0,-256,0,0,0,0,0,-64], not proportional to
+    ell_n=[1,0,0,-2,0,0,0,0,0,1]. The radical vector
+    h=(2,0,0,1,0,0,0,0,0,0) leaks by -384 exactly. Lower curved terms cannot
+    repair a top-order failure, so S_4 does not preserve Gamma(H_n) as a full
+    differential module. This does not kill the finite-frequency null
+    quotient: the frozen null Schur map remains -48 ell_n ell_n^T, the frozen
+    restricted K P(n)^5 K A(n) residual is zero, and an independent null
+    covector has zero order-eight term. The live route is therefore a
+    correctly scoped null-characteristic symbol/transport module, not an
+    all-derivative-covector H_n submodule. Its curved lower evaluator remains
+    not serialized from the owned conditional comm/symi/symi formulas. Joe
+    input is not required.
     K146 now corrects the proposed direct null-remainder quotient test. P^5
     acts on the 229376-dimensional distortion carrier Omega1(Cl(7,7)), while
     H_n, G_n and H_n/G_n live in the ten-dimensional metric carrier; applying

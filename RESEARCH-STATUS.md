@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K147 native I1B T=0 radical-module factorization gate 2026-08-16
+(full differential-module route killed at exact order-eight principal-symbol
+grade; null-microlocal route retained).** Full preservation of arbitrary
+`H_n`-valued sections requires `ell_n S_4=Q ell_n` on 4455 radical jets. The
+existing K135 principal packet decides the necessary top-order test: at fixed
+null `n=(1,0,0,1)` and spacelike derivative covector `xi=(0,1,0,0)`, the
+leakage row is `[-64,0,0,-256,0,0,0,0,0,-64]`, and the radical tensor with
+`h_00=2,h_03=1` leaks by `-384`. Thus lower curved terms cannot make
+`S_4(Gamma H_n)` invariant. The frozen null symbol remains the rank-one
+outer-square law, its restricted `K P^5 K A` principal residual is zero, and
+an independent null covector has zero order-eight term. The result switches
+from the over-strong full module to a null-characteristic symbol/transport
+module; the latter's curved lower coefficient is still not serialized. See
+`explorations/conditional-build/selected-k147-native-i1b-t0-radical-module-factorization-gate-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| pointwise `H_n` test | proposed | insufficient for differential operators | arbitrary section jets | K146/current/context | K147 theorem |
+| full `S_4(Gamma H_n)` preservation | unevaluated | exact fail by spacelike order-eight leakage `-384` | none at principal grade | K146 | K147 probe |
+| frozen null restricted residual | unevaluated | `K P(n)^5 K A(n)=0` | curved lower composition | K145/K146 | K147 replay |
+| null finite-frequency quotient | exact geometric object | retained; not killed by cross-covector module failure | null-microlocal lower transport | K138-K146 | K147 scope correction |
+| curved null leakage | not materialized | still not serialized from owned conditional formulas | unified sparse evaluator and null-module convention | K146 | K147 switch |
+
 **K146 native I1B T=0 null-remainder type and quotient gate 2026-08-16
 (direct `P^5` quotient test corrected; polynomial metric gauge preservation
 exact; radical preservation open).** `P^5` acts on the distortion carrier and
