@@ -9,8 +9,8 @@ title: "SN-1: the released equation-9.16 southeast zero does not by itself gener
 grade: "EXACT dependency-free formal Laurent-polynomial arithmetic over Q on the identity-grade source equation-9.16 cell grammar, 45/45. The characteristic polynomial identity chi_t(t mu)=t^4 chi_1(mu), determinant/trace/coefficient scaling, fixed-heavy t^2 control, direct-Dirac t control, uniform-zero-corner t control, charge control and first-order-PDE-versus-zero-order-mass control are exact. SOURCE-NATIVE scoped lemma on the printed complex grammar; the physical implementation target is the source-aligned real Cl(7,7) carrier. NOT a Cl(9,5) port, a reality map, a mass, a vacuum, a spectrum, a physical quotient, or an empirical neutrino prediction."
 disposition: RELEASED_EQ916_UNIFORM_CONNECTION_RAY_IS_DEGREE_ONE__SOUTHEAST_ZERO_ALONE_DOES_NOT_FORCE_SEESAW_HIERARCHY__SEPARATE_HEAVY_SCALE_INDEPENDENT_COMPONENT_SCALING_OR_NONLINEAR_OWNER_REQUIRED__MAJORANA_STATUS_UNDEFINED_WITHOUT_REALITY_MAP__DIRAC_CHANNEL_KINEMATIC_ONLY
 canon_verdict_change: none
-steering_effect: unchanged
-canonical_effect: pending_integration
+steering_effect: "SN-2 supersedes the open neutral-restriction successor: use the durable SN-2 read packet, exact Q0/SM1 and F-occurrence carrier counts, typed SN2-NEUTRAL-CLOSED horn, valuation classifier, and local coefficient-type census. One existing-varpi incidence census is next; do not derive scales or return to a standard 126 mechanism."
+canonical_effect: successor_integrated_through_sn2
 depends_on:
   - lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md
   - explorations/k77-wave2-dirac-derham-superig-rebase-2026-08-04.md
@@ -299,3 +299,22 @@ PASS: released eq9.16 uniform connection scaling is linear; a southeast zero
 alone does not furnish a parametric seesaw; Majorana status remains undefined
 without a reality map.
 ```
+
+## Successor update — SN-2 neutral restriction and conditional valuation
+
+SN-2 corrects and closes this artifact's open neutral-restriction successor.
+The exact four-block carrier ranks are `16/8` for
+`SN2-NEUTRAL=Q0|SM1`; the minimal four-field F subcarrier ranks are `32/16`;
+and retaining both declared F occurrences in each zeta slot gives `48/24`.
+Under the separately declared typed `SN2-NEUTRAL-CLOSED` horn, a strict
+bilateral integer fixed-heavy `t^2` branch minimally requires the unselected
+valuation pattern `(v(A),v(B),v(C))=(0,1,1)` plus nondegenerate leading
+`C A^-1 B`. The local K77 pairing horns make only `X_D/X_R` type requirements
+available after a declared source-slot incidence; they do not supply a
+coefficient or global reality condition.
+
+The next bounded calculation is one census of already-admitted `varpi`
+coefficient representations against those incidence requirements. Scale,
+action, vacuum, selector, new-coefficient, quotient and standard-`126` routes
+remain outside this conditional build. See
+`sn2-wave-neutral-pencil-reprioritization-2026-08-16.md`.
