@@ -36,6 +36,14 @@ scripts:
 
 # HE-3 — four-corner partner placement and the family-rank gate
 
+> [!NOTE]
+> **Later steering (HE-4, 2026-08-16).** Section 6's original proposal to
+> derive a source-owned mediator has been superseded by
+> `he4-path-reprioritization-2026-08-16.md`. This channel is a conditional
+> build: declare `H210`, `H54`, `HBOTH`, or `HNONE`, then test downstream
+> geometric composition. Deriving a source action or importing an external
+> selector is off-limits here.
+
 ## Outcome first
 
 The corrected carrier census changes what the earlier isolated `16 x 144`
