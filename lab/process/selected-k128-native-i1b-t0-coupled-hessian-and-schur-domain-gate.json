@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K127_NEXT_GATE__TEST_SOURCE_GLOBAL_LEGALITY_AND_METRIC_CONSTRAINT_CLOSURE_OF_RICCI_FLAT_WEYL_FAMILY",
+  "target_verdict": "T0_LEVI_CIVITA_GRAPH_I1B_IDENTICALLY_ZERO__PURE_METRIC_HESSIAN_ZERO__COUPLED_HT_BLOCK_DG_SHIAB_FB__TT_BLOCK_OWNED_SEPARATELY__K127_CTHH_IS_THIRD_DERIVATIVE_NOT_HESSIAN__SCHUR_EFFECTIVE_METRIC_OPERATOR_REQUIRES_OWNED_INVERSE_COMMON_DOMAIN_OR_KERNEL_CONSTRAINT_BFV__K129",
+  "background": {
+    "native_coordinates": "(g,T)__varpi=B_LC(g)+T",
+    "stationary_grade": "K127_LOCAL_RICCI_FLAT_T0_FIXED_BOUNDARY",
+    "source_global_background_selected": false
+  },
+  "zero_graph_identity": {
+    "statement": "I1B(g,T=0)=0_FOR_EVERY_g",
+    "pure_metric_derivatives": "ZERO_TO_ALL_ORDERS_ALONG_T0_GRAPH"
+  },
+  "t0_coupled_hessian": {
+    "carrier_order": ["h", "t"],
+    "hh_block": 0,
+    "ht_block": "D_g_SHIAB_F_B",
+    "th_block": "FORMAL_ADJOINT_OF_D_g_SHIAB_F_B_AFTER_BOUNDARY_CHOICE",
+    "tt_block": "D_T_TRANSLATION_EULER__INCLUDES_DB_AND_KAPPA_STAR_PACKET",
+    "block_form": "[[0,A_STAR],[A,C]]"
+  },
+  "k127_radial_response": {
+    "object": "D3_I1B[t,h,h]",
+    "aligned_value": "24*K_PERP*I2_AFTER_K124_NORMALIZATION",
+    "pure_metric_hessian": false,
+    "quadratic_fluctuation_operator_at_T0": false
+  },
+  "schur_reduction": {
+    "formal_expression": "-A_STAR*C_INVERSE*A",
+    "selected": false,
+    "requires": [
+      "OWNED_C_OPERATOR",
+      "KERNEL_AND_GAUGE_QUOTIENT",
+      "COMMON_CLOSED_DOMAIN",
+      "BOUNDARY_ADJOINT_CONVENTION"
+    ],
+    "singular_case": "KERNEL_ROWS_BECOME_CONSTRAINTS_AND_MULTIPLIERS__NO_UNQUALIFIED_INVERSE"
+  },
+  "k124_green_current_is_t0_full_hessian_current": false,
+  "unique_full_pencil_selected": false,
+  "global_domain_selected": false,
+  "bfv_charge_selected": false,
+  "positive_physical_cohomology_selected": false,
+  "next_gate": "K129_EVALUATE_ACTUAL_TT_DISTORTION_BLOCK_C_AND_MIXED_OPERATOR_A_ON_K127_BACKGROUND__CLASSIFY_KERNEL_GAUGE_AND_BOUNDARY_DOMAIN__ONLY_THEN_FORM_SCHUR_OR_BFV_REDUCTION",
+  "canon_verdict_change": "none"
+}

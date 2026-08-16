@@ -1133,10 +1133,21 @@ current_result:
     TT block but sends plus and cross into 13 and 23 metric components, proving
     that generic Weyl curvature does not preserve the selected two-field TT
     plane. Symmetric lower-order terms leave the local Green current unchanged.
-    Source-global background legality, a quadratic fluctuation owner, full
-    metric constraint/gauge closure, global domain, BFV and positive
-    cohomology/superposition now route to K128.
+    K128 now proves that I1B(g,T=0)=0 identically on the entire native
+    Levi-Civita metric graph. Hence the pure metric h-h Hessian block at every
+    K127 germ is exactly zero. The actual quadratic (h,t) operator has coupled
+    block form [[0,A*],[A,C]], with A=D_g S(F_B) and C the distortion Hessian.
+    K127's aligned 24 K_perp I_2 response is D3I1B[t,h,h], not D2I1B[h,h]
+    and not a T=0 graviton pencil. A formal effective metric expression
+    -A* C^{-1} A requires an owned inverse, kernel/gauge quotient, boundary
+    adjoint and common closed domain. If C is singular, its kernel rows are
+    constraints and multiplier directions rather than coefficients that may
+    be filled by a pseudoinverse. Source-global background legality, the
+    coefficientwise A,C packet, global domain, BFV and positive
+    cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate-2026-08-16.md
+    - lab/process/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate.json
     - explorations/conditional-build/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate-2026-08-16.md
     - lab/process/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate.json
     - explorations/conditional-build/selected-k126-native-i1b-radial-momentum-principal-scope-correction-2026-08-15.md

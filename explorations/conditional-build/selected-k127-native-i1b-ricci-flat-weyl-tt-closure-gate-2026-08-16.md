@@ -292,6 +292,18 @@ the aligned fixture is generic. Its cheapest exact discriminator is the
 source/observation legality and constraint closure of the Ricci-flat Weyl
 family.
 
+## K128 successor classification
+
+K128 proves the exact action-degree correction that the present artifact left
+open. In native `(g,T)` coordinates, `I1B(g,0)=0` identically, so the pure
+metric Hessian at every K127 germ is zero. The actual quadratic fluctuation
+operator is coupled, `[[0,A*],[A,C]]`, while this artifact's aligned
+`24 K_perp I_2` response is the third derivative `D3[t,h,h]`. Eliminating
+distortion gives `-A* C^{-1} A` only after the actual `C`, its kernel/gauge
+quotient, boundary adjoint and a common closed domain are selected. K129 owns
+that coefficientwise evaluation. K127's stationary family, aligned radial
+response and generic Weyl leakage remain unchanged.
+
 No ledger, canon, particle interpretation, phenomenology or GU truth-status
 claim changes.
 

@@ -7,6 +7,19 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K128 RETYPES THE K127 CURVED RESPONSE: THE `T=0`
+> QUADRATIC THEORY IS COUPLED, NOT A PURE METRIC PENCIL.** In native
+> coordinates `(g,T)`, `I1B(g,0)=0` identically, so every pure metric
+> derivative along the Levi-Civita graph vanishes and the exact `h-h` Hessian
+> block at K127's Ricci-flat germ is zero. The quadratic block is
+> `[[0,A*],[A,C]]`, with `A=D_g S(F_B)` and `C` the distortion Hessian.
+> K127's aligned `24 K_perp I_2` is `D3I1B[t,h,h]`, not `D2I1B[h,h]`.
+> Forming an effective metric operator `-A* C^{-1} A` requires the actual
+> background-evaluated `A,C`, kernel/gauge quotient, boundary adjoint and one
+> common closed domain; a singular `C` produces constraints and multipliers,
+> not a license for a fitted pseudoinverse. **K129 must evaluate `A,C` on the
+> same K127 family and classify kernels/domain before BFV or spectrum.**
+
 > **2026-08-16 K127 CONSTRUCTS LOCAL RICCI-FLAT CURVED `I1B` GERMS BUT
 > FINDS THAT THE TWO-FIELD TT PENCIL IS NOT GENERICALLY CLOSED.** On the native
 > Levi-Civita graph, `T=0` plus any Ricci-flat horizontal metric two-jet has

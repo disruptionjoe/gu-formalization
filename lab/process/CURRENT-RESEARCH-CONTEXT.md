@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K128 T=0 coupled-Hessian and Schur/domain gate:** the native first
+> action obeys `I1B(g,0)=0` for every metric, so K127's Ricci-flat stationary
+> germ has exact zero pure `h-h` Hessian block. The actual quadratic carrier is
+> coupled: `H=[[0,A*],[A,C]]`, where `A=D_g S(F_B)` and `C` is the distortion
+> Hessian. K127's aligned `24 K_perp I_2` is `D3[t,h,h]`, not the quadratic
+> metric operator. An effective `-A* C^{-1} A` is conditional on an owned
+> inverse, kernel/gauge quotient, boundary adjoint and common closed domain;
+> singular rows are constraints and multipliers. K129 must evaluate `A,C` on
+> the same background before a full pencil, closed domain, BFV or spectrum.
+
 > **Current K127 Ricci-flat Weyl stationarity and TT-closure gate:** on the
 > native Levi-Civita graph, `T=0` with any Ricci-flat horizontal metric two-jet
 > gives an exact local fixed-boundary `I1B` stationary germ; the full selected
