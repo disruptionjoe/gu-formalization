@@ -237,3 +237,19 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k139_native_i1b_t0_dn_principal_type_obstruction_probe.py
 ```
+
+## K140 successor classification
+
+K140 constructs the exact action-derived finite-frequency graph reduction
+wherever `C(rho,n)` is invertible. On the null metric packet its reconstruction
+Jordan-coefficient ranks are `4/3/1/0/0`, while all positive degrees cancel
+only after the second metric composition. Restoring the order-two metric block
+makes the graph order four rather than the DN-relative order one. The joint
+scaling `kappa_1=rho mu` restores the formal orders on a cone separated from
+`mu=0` and the 27 spacelike shell ratios, but the original fixed-`kappa_1`
+ultraviolet limit forces `mu->0`, where the full inverse and graph have poles
+of orders five and three. Together with K132's tangential/Noether obstruction,
+this proves that the graph is neither an action-owned homogeneous constraint
+projector nor a uniform principal reduction of the original equations. K141
+may test one compact shell-avoiding parameter annulus as an explicitly
+band-limited effective family.

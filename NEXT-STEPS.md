@@ -7,6 +7,24 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K140 CONSTRUCTS THE EXACT GRAPH REDUCTION BUT OBSTRUCTS
+> FIXED-`KAPPA_1` UV EQUIVALENCE.** Wherever
+> `C(rho,n)=i rho C_1(n)+kappa_1 K` is invertible, the action gives the exact
+> graph `T=-C^-1 A g`, so K138's five-class finite-frequency Schur kernel
+> remains exact. On the null metric packet the graph coefficient ranks are
+> `4/3/1/0/0`, whereas the Schur coefficient ranks are `1/0/0/0/0`.
+> Cancellation occurs only after `A*` composition: the full reconstruction
+> reaches order four rather than the relative DN order one. Scaling
+> `kappa_1=rho mu` restores the expected orders on cones separated from
+> `mu=0` and all 27 spacelike shells, but fixed `kappa_1` forces `mu->0`, where
+> the full inverse has a fifth-order pole and the graph a third-order pole.
+> K132's `24` normal-null versus `11` common tangential-null rows and its only
+> four owned diffeomorphisms also prevent relabeling the graph as an
+> action-owned constraint projector. **K141 may construct the graph Green,
+> Riesz/projector and subprincipal objects on one compact shell-avoiding
+> `mu` annulus, explicitly as a band-limited parameter family rather than an
+> ultraviolet equivalence or physical propagation claim.**
+
 > **2026-08-16 K139 SEPARATES THE FIVE-CLASS FINITE SCHUR BUNDLE FROM THE
 > COMPLETE DN PRINCIPAL MODULE.** The homogeneous `229386`-dimensional coupled
 > DN symbol has null rank `122748` and nullity `106638`; modulo the only four

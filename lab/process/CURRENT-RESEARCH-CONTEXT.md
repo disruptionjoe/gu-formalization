@@ -9,6 +9,22 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K140 graph/parameter-cone obstruction:** the action gives an exact
+> finite-frequency graph `T=-C^-1 A g` wherever the distortion block is
+> invertible, so the five-class Schur kernel is preserved at that grade. On
+> the null metric packet, graph Jordan-coefficient ranks are `4/3/1/0/0`
+> while Schur ranks are `1/0/0/0/0`; positive degrees cancel only after left
+> metric composition. Restoring the order-two metric block makes the graph
+> order four, not the DN-relative order one. The joint scaling
+> `kappa_1=rho mu` restores correct orders only on cones bounded away from
+> `mu=0` and the 27 spacelike shells. It does not recover the original fixed-
+> `kappa_1` ultraviolet limit, where `mu->0`, the full inverse has a fifth-
+> order parameter pole and the metric graph a third-order pole. The exact
+> `24` versus `11` tangential test and four owned diffeomorphisms supply no
+> separate principal constraint projector. The original five-by-five Dencker
+> matrix remains undefined. K141 owns a compact shell-avoiding parameter-
+> annulus Green/projector/subprincipal test, explicitly band-limited.
+
 > **Current K139 DN principal-type obstruction:** the complete homogeneous
 > coupled DN symbol acts on `229386` variables and has null rank `122748`,
 > hence nullity `106638`. Removing the only four action-owned metric

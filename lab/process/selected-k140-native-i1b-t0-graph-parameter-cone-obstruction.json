@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k140-native-i1b-t0-graph-parameter-cone-obstruction",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B mixed-order Hessian at T=0 and fixed nonzero kappa_1 on the null metric-support packet of the complete real Omega1(Cl(7,7)) carrier",
+  "target_claim": "K139_NEXT_GATE__ACTION_OWNED_CONSTRAINT_OR_SEMICLASSICAL_CALCULUS_SELECTION__PROJECTOR_EQUIVALENCE_TANGENTIAL_PRESERVATION_AND_TYPED_SUBPRINCIPAL_GATE",
+  "finite_frequency_graph": {
+    "distortion_equation": "C(rho,n)T+A(rho,n)g=0",
+    "graph_reconstruction": "T=-C(rho,n)^(-1)A(rho,n)g",
+    "graph_projector_exact_where_C_invertible": true,
+    "null_local_reconstruction_jordan_coefficient_ranks": [4, 3, 1, 0, 0],
+    "null_local_schur_jordan_coefficient_ranks": [1, 0, 0, 0, 0],
+    "highest_nonzero_normalized_reconstruction_degree": 2,
+    "highest_nonzero_full_dn_reconstruction_degree": 4,
+    "required_dn_reconstruction_order": 1,
+    "uniform_fixed_kappa_principal_equivalence": false
+  },
+  "parameter_cone": {
+    "parameter": "mu=kappa_1/rho",
+    "joint_scaling": "kappa_1=rho*mu",
+    "distortion_inverse_order_on_mu_away_from_zero_and_shells": -1,
+    "graph_reconstruction_order_on_that_cone": 1,
+    "full_inverse_worst_mu_pole_order_on_null_chain": 5,
+    "metric_graph_worst_mu_pole_order_on_null_packet": 3,
+    "fixed_kappa_uv_limit": "mu->0",
+    "uniform_recovery_through_mu_zero": false,
+    "spacelike_exceptional_squared_mu_values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 25, 36, 48, 49, 64, 81, 88, 100, 120, 121, 144, 160, 168],
+    "valid_as_separate_parameter_family": true,
+    "equivalent_to_original_fixed_kappa_ultraviolet": false
+  },
+  "constraint_ownership": {
+    "action_owned_metric_diffeomorphism_rank": 4,
+    "additional_principal_quotient_directions_to_remove": 106629,
+    "action_owned_distortion_constraint_complex": false,
+    "normal_kernel_dimension_in_exact_tangential_test": 24,
+    "normal_tangential_common_kernel_dimension": 11,
+    "principal_null_rows_tangentially_preserved": false,
+    "projector_from_dn_principal_quotient_to_five": false,
+    "five_by_five_dencker_endomorphism": "UNDEFINED_FOR_ORIGINAL_FIXED_KAPPA_UV_CALCULUS"
+  },
+  "claim_ceiling": "exact fixed-frequency graph elimination plus obstruction to interpreting it as an action-owned homogeneous constraint projector or a parameter-uniform principal reduction of the original fixed-kappa ultraviolet equations",
+  "next_gate": "K141_COMPACT_PARAMETER_ANNULUS_GRAPH_GREEN_AND_SUBPRINCIPAL_TEST__BAND_LIMITED_EFFECTIVE_FAMILY_NOT_UV_EQUIVALENCE",
+  "canon_verdict_change": "none"
+}

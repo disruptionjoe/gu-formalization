@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 80b9381f4ab578328eebbc3fb4755371bf5739cb
+revision_basis: 157fce043c040a614726915a656e9c63bdc1cbf5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,27 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K140 now constructs the exact action-derived finite-frequency graph
+    reduction T=-C(rho,n)^(-1)A(rho,n)g wherever the distortion block is
+    invertible, preserving K138's five-class Schur kernel at its exact grade.
+    On the null metric-support packet, the graph's five Jordan coefficient
+    ranks are 4,3,1,0,0, while the metric Schur coefficient ranks are
+    1,0,0,0,0. Positive frequency degrees therefore cancel only after left
+    composition by A-star; the full-field reconstruction retains degree two
+    and, after the order-two metric block is restored, reaches order four
+    instead of the relative DN order one. The joint scaling
+    kappa_1=rho*mu restores inverse order minus one and graph order plus one
+    on cones bounded away from mu=0 and the 27 spacelike shell ratios, but it
+    is a separate large-mass/high-frequency family. Fixed kappa_1 forces
+    mu->0 in the ultraviolet, where the full null inverse has a fifth-order
+    mu pole and the metric graph a third-order pole, so there is no uniform
+    recovery of the original equations. K132's exact 24-versus-11
+    normal/tangential kernel test and four-dimensional Noether image also
+    leave no action-owned constraint projector removing the other 106629 DN
+    principal classes. The original five-by-five Dencker matrix remains
+    undefined. K141 may test a compact shell-avoiding parameter annulus as an
+    explicitly band-limited effective family, not as ultraviolet equivalence.
+    Joe input is not required.
     K139 now proves that K138's covariant five-class null quotient is not the
     characteristic kernel of the action's currently declared homogeneous
     Douglis-Nirenberg principal symbol. The complete 229386-dimensional
