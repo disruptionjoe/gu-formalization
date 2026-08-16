@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k141-native-i1b-t0-parameter-annulus-riesz-obstruction",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B mixed-order Hessian at T=0 on the smooth null stratum of the complete real Omega1(Cl(7,7)) carrier, restricted to the separate joint family kappa_1=rho*mu and 13<=|mu|<=14",
+  "target_claim": "K140_NEXT_GATE__COMPACT_PARAMETER_ANNULUS_GRAPH_GREEN_RIESZ_PROJECTOR_COVARIANCE_AND_SUBPRINCIPAL_TEST",
+  "parameter_annulus": {
+    "absolute_mu_min": 13,
+    "absolute_mu_max": 14,
+    "squared_mu_interval": [169, 196],
+    "largest_spacelike_exceptional_squared_mu": 168,
+    "minimum_squared_shell_separation": 1,
+    "minimum_zero_separation": 13,
+    "uniform_distortion_inverse": true,
+    "uniform_graph_and_parameter_derivatives": true,
+    "equivalent_to_original_fixed_kappa_ultraviolet": false
+  },
+  "graph_projector": {
+    "reconstruction": "R_mu(g)=(g,-C_mu^(-1)A g)",
+    "extraction": "E(g,T)=g",
+    "projector": "P_mu=R_mu E",
+    "idempotent": true,
+    "range_dimension_over_metric_carrier": 10,
+    "parameter_derivative": "d_mu(C_mu^(-1)A)=-C_mu^(-1)K C_mu^(-1)A",
+    "covariant_at_graph_grade": true,
+    "characteristic_radical_projector": false
+  },
+  "native_riesz_test": {
+    "metric_schur_form": "-48*ell_n*ell_n^T",
+    "metric_form": "DeWitt",
+    "reference_covector": [1, 0, 0, 1],
+    "dewitt_determinant_in_symmetric_slot_basis": 64,
+    "raised_schur_rank": 1,
+    "raised_schur_square_rank": 0,
+    "raised_schur_characteristic_polynomial": "lambda^10",
+    "spectrum": [0],
+    "ordinary_radical_dimension": 9,
+    "generalized_zero_eigenspace_dimension": 10,
+    "zero_riesz_projector_rank": 10,
+    "zero_riesz_projector_equals_radical_projector": false,
+    "transverse_complement_action_owned": false
+  },
+  "quotient_and_transport": {
+    "diffeomorphism_image_dimension": 4,
+    "gauge_reduced_quotient_dimension": 5,
+    "action_owned_gauge_slice_or_kt_resolution": false,
+    "five_by_five_green_subprincipal_endomorphism": "UNDEFINED_WITHOUT_COMPLEMENT_AND_GAUGE_QUOTIENT_DATA",
+    "full_graph_parameter_derivative_available": true
+  },
+  "claim_ceiling": "uniform smooth band-limited graph elimination plus exact obstruction to extracting the null radical and five-class quotient by native Riesz calculus; no fixed-kappa ultraviolet equivalence, physical propagation, closed domain, positivity or cohomology",
+  "next_gate": "K142_INTRINSIC_QUOTIENT_CONNECTION_WELL_DEFINEDNESS_MODULO_DIFFEOMORPHISMS__OR_EXPLICIT_GAUGE_BOUNDARY_OWNER_NECESSITY",
+  "canon_verdict_change": "none"
+}

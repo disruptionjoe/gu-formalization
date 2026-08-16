@@ -231,6 +231,20 @@ state that it is not an ultraviolet equivalence theorem for fixed
 the projector is smooth and uniformly bounded on that annulus. Joe input is
 not required.
 
+## K141 successor classification
+
+K141 selects the explicit compact band `13 <= |mu| <= 14`, proves the
+action-derived graph and its parameter derivatives uniformly bounded there,
+and preserves that object as a valid band-limited effective elimination. It
+also separates this ten-dimensional graph projector from the characteristic
+projector K140 left open. Raising the null Schur form with the native DeWitt
+metric gives a nonzero square-zero rank-one endomorphism with spectrum `{0}`;
+the zero Riesz projector is therefore `I_10`, not the rank-nine radical
+projector. A radical complement and the further diffeomorphism quotient remain
+unowned. The five-by-five Green/subprincipal operator is still undefined, not
+zero. See
+`selected-k141-native-i1b-t0-parameter-annulus-riesz-obstruction-2026-08-16.md`.
+
 Reproduce:
 
 ```bash

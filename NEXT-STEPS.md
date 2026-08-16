@@ -7,6 +7,25 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K141 PRESERVES A UNIFORM COMPACT GRAPH FAMILY BUT OBSTRUCTS A
+> NATIVE RIESZ PROJECTOR ONTO THE FIVE-CLASS OBJECT.** The explicit annulus
+> `13 <= |mu| <= 14` has squared range `[169,196]`, separated from `mu=0` and
+> every one of K134's 27 spacelike shells, whose largest squared ratio is
+> `168`. Hence `C_mu^-1`, the action-derived graph
+> `R_mu g=(g,-C_mu^-1 A g)`, its idempotent `P_mu=R_mu E`, and finite
+> parameter derivatives are uniformly bounded and smooth. This is a valid
+> band-limited effective elimination, not fixed-`kappa_1` UV equivalence.
+> The characteristic reduction still fails spectrally: raising
+> `S_null=-48 ell_n ell_n^T` with the native DeWitt form gives a rank-one
+> square-zero endomorphism with spectrum `{0}` and characteristic polynomial
+> `lambda^10`. Its zero Riesz projector is `I_10`, not the rank-nine radical
+> projector. A transverse complement and a diffeomorphism slice/KT complex
+> remain unowned, so the five-by-five Green/subprincipal matrix is undefined.
+> **K142 may test whether the action-induced graph derivative descends
+> intrinsically to the radical modulo diffeomorphisms without choosing
+> representatives; otherwise require an explicit action-owned gauge,
+> boundary or quotient connection before any closed-domain test.**
+
 > **2026-08-16 K140 CONSTRUCTS THE EXACT GRAPH REDUCTION BUT OBSTRUCTS
 > FIXED-`KAPPA_1` UV EQUIVALENCE.** Wherever
 > `C(rho,n)=i rho C_1(n)+kappa_1 K` is invertible, the action gives the exact

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a968b489dcfed726aeb6a00c81fdc87b45d86813
+revision_basis: 9865e99350f90bc930599ba3e4b92f3babd6dfd2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K141 now constructs a uniformly bounded smooth action-derived graph
+    family on the explicit compact annulus 13<=|mu|<=14, separated from
+    mu=0 and all 27 spacelike shell ratios. The graph idempotent P_mu=R_mu E
+    and its parameter derivative are exact and covariant at the full
+    ten-dimensional metric-graph grade. They do not select the null
+    characteristic radical. Raising K138's rank-one Schur form
+    -48 ell_n ell_n^T with the native DeWitt form gives a rank-one square-zero
+    endomorphism with characteristic polynomial lambda^10. Its zero Riesz
+    projector is therefore the identity on all ten metric directions, not
+    the rank-nine radical projector. Selecting that radical requires an
+    unowned transverse complement, and descending to the five-class quotient
+    additionally requires an unowned diffeomorphism slice or KT/BV data. The
+    band-limited graph elimination remains exact, but a five-by-five
+    Green/subprincipal endomorphism remains undefined. K142 may test whether
+    the action-induced derivative defines an intrinsic connection directly
+    on the quotient modulo diffeomorphisms, without choosing representatives;
+    otherwise an explicit gauge or boundary owner is necessary. Joe input is
+    not required.
     K140 now constructs the exact action-derived finite-frequency graph
     reduction T=-C(rho,n)^(-1)A(rho,n)g wherever the distortion block is
     invertible, preserving K138's five-class Schur kernel at its exact grade.

@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K141 compact parameter-annulus Riesz obstruction:** on the exact
+> annulus `13 <= |mu| <= 14`, the joint `kappa_1=rho mu` distortion block is
+> separated from zero and all 27 spacelike shell ratios, so its inverse and
+> the action-derived graph projector are uniformly bounded and smooth. The
+> graph projector has a ten-dimensional metric base and is not the
+> characteristic projector. Raising the null Schur form
+> `-48 ell_n ell_n^T` with the native DeWitt form gives a rank-one square-zero
+> endomorphism with only eigenvalue zero. The zero Riesz projector is the
+> identity on ten dimensions, not the nine-dimensional ordinary radical.
+> Selecting the radical needs an unowned transverse complement; representing
+> its five-dimensional quotient also needs an unowned diffeomorphism slice or
+> KT/BV resolution. Thus the band-limited graph survives, but the five-by-five
+> Green/subprincipal operator remains undefined. K142 owns the intrinsic
+> quotient-connection well-definedness test before any closed-domain claim.
+
 > **Current K140 graph/parameter-cone obstruction:** the action gives an exact
 > finite-frequency graph `T=-C^-1 A g` wherever the distortion block is
 > invertible, so the five-class Schur kernel is preserved at that grade. On
