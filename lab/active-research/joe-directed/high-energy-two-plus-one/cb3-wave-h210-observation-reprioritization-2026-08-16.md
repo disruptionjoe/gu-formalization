@@ -240,3 +240,17 @@ Use the banked receiver jet as the positive control, flat and totally
 isotropic strata as adverse controls, both ambient halves, and the fixed-
 `Hq` failure as a separate subhorn. Stop before the full `d0+varpi` cell,
 physical quotient, action, or spectrum unless the square commutes.
+
+## Successor status — CB-4 banked
+
+CB-4 completed the square above. It commutes exactly on the admitted finite
+graph/Spin overlaps, so pointwise rank and kernel dimension descend for the
+declared associated-bundle morphism. This is intrinsic formal rank, not a
+physical observation or global topology theorem.
+
+CB-4 also proves that no nonzero mixed graph preserves the fixed PS embedding.
+A co-moving subgroup therefore requires the separate declared horn
+`H210-PSRED`; the graph projector and existing twistor structures do not
+supply it. The current next gate is the decorated four-dimensional Clifford
+split `F_J^tr/Q_J^RS`, as specified in
+`cb4-wave-h210-naturality-reprioritization-2026-08-16.md`.

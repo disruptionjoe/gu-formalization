@@ -8,9 +8,9 @@ channel: high_energy_two_plus_one_prediction
 target_claim: SC-GEN-53
 title: "Conditional-build read packet: Eric Weinstein's 2+1 imposter, emergent-chirality source claims, the HE-4 owner split, and the next composition scaffold"
 grade: "SOURCE-PINNED READ PACKET plus exact-receipt synthesis. Source statements are separated from repository reconstructions and from declared conditional inputs. The lane assumes explicit H210/H54/HBOTH/HNONE horns and tests how they fit the existing geometry. Deriving a source action, searching for an external selector, fitting a family vector, or substituting an ordinary family index, net-chirality theorem, or scalar Higgs/VEV is outside scope."
-disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__H210_DOWNSTREAM_COMPOSITION_FIRST__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT__SOURCE_MATERIAL_MANDATORY_FOR_FUTURE_AGENTS
+disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__H210_FINITE_NATURALITY_BANKED__FQ_CLIFFORD_SPLIT_NEXT__H210_ALIGN_AND_H210_PSRED_SEPARATE__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT
 canon_verdict_change: none
-steering_effect: "Every future preflight and execution agent in this channel must read this packet first. Begin from Eric Weinstein's source claims and a declared conditional horn; spend the swing on downstream geometric compatibility, not on deriving the missing dynamical selector."
+steering_effect: "Every future preflight and execution agent in this channel must read this packet first. Begin from Eric Weinstein's source claims and declared H210/H210-ALIGN/H210-PSRED horns. The next swing is the decorated four-dimensional Clifford-trace/gamma-traceless split of the contracted H210 port, not derivation of a selector, reduction, action, or external datum."
 canonical_effect: pending_integration
 depends_on:
   - lab/methods/source-native-comparator-routing.md
@@ -255,52 +255,78 @@ The zero-order H210 summands occupy the off-diagonal
 wrong-channel controls. The full `d0+varpi` collision remains open. Exact
 pre-observation internal-sector ranks and kernels are banked.
 
-### CB-3 — observation and low/high-energy comparison
+### CB-3 — typed observation — banked
 
-Carry the conditional block through the known observation maps. Compare the
-declared zero-coupling and nonzero-coupling limits:
+Literal contraction consumes the free normal covector index and lands in
+`T*X tensor s^*S`. Its exact rank depends on the graph stratum. At the banked
+receiver it is injective on the internal `16`, with family-input kernel
+`ker(r) tensor 16`, complex dimension `32`. `H210-ALIGN` remains a separate
+source-provenance horn.
+
+### CB-4 — finite co-moving naturality and PS typing — banked
+
+The complete finite K77/Spin square commutes on the tested graph overlaps, so
+pointwise rank and kernel dimension descend for the declared associated-bundle
+morphism. A fixed PS embedding is incompatible with every nonzero mixed graph,
+while a co-moving conjugate embedding requires the additional declared horn
 
 ```text
-coupling off: three family-shaped low-energy copies;
-H210 on:      one unlabelled family direction reconnects with the 144 sector,
-              while a two-dimensional family kernel remains.
+H210-PSRED = observer-normal overlaps reduce at least to N(PS).
 ```
 
-Test whether this realizes the source's subgroup-sameness / parent-group-
-difference claim without calling the algebraic kernel a measured spectrum.
+The graph projector and current twistor structures do not supply that horn.
 
-### CB-4 — adverse horns
+### CB-5 — four-dimensional F/Q Clifford split — next
 
-Only if CB-1 or CB-2 kills `H210`, run `H54`. Run `HBOTH-PROP` and
-`HBOTH-IND` only if both ports are conditionally admissible. `HNONE` closes the
-mediator route and triggers a switch rather than more branching.
+After contraction, decompose
+
+```text
+A_J    = O_J T,
+F_J^tr = (1/4) j_4 Gamma_4 A_J,
+Q_J^RS = (I-(1/4)j_4 Gamma_4) A_J.
+```
+
+Test ranks, kernels, intersections, and separate co-moving naturality across
+flat, isotropic, and banked strata, both exact fields, and both ambient halves.
+Keep `Pi_4 != Pi_14`. `F_J^tr` means the F-shaped Clifford-trace carrier
+component; source-F/imposter provenance still requires the equation-(12.22)
+bridge and `H210-ALIGN`.
+
+### CB-6 — adverse horns
+
+Only if the H210 carrier-fit chain fails should the lane run `H54` or switch.
+Run `HBOTH-PROP` and `HBOTH-IND` only if both ports are conditionally
+admissible. `HNONE` closes the mediator route rather than starting action or
+external-selector work.
 
 ## 7. Reprioritization
 
 | path-relative item | priority | fertility | reason |
 |---|---:|---:|---|
-| `H210` typed observation of the zero-order port | 1 | `9/10` for the next finite swing | exact port and cell support now pass; observation is the first remaining downstream survival gate |
-| fixed trace-`Hq` adverse subhorn | 2 | `6/10` as a control inside observation | owner passes but one-phase RS realization fails; keep separate from the source-level H210 horn |
-| `HBOTH` relation split | 3 | `5/10` | useful only if both conditional ports survive; rows must remain separate horns |
-| `H54` quadratic route | 4 | `3/10` | no direct weld; retain only as an adverse/fallback horn |
+| co-moving `F_J^tr/Q_J^RS` split | 1 | `9/10` | finite naturality passed; this is the cheapest source-proximate carrier-fit test |
+| `H210-PSRED` overlap descent | 2 | `5/10` | carry as a declared horn; current twistors do not supply it and deriving it is off limits |
+| full `d0+varpi` composition | 3 | `5/10` | enter after the F/Q split; derivative-half collision remains live |
+| fixed trace-`Hq` adverse subhorn | 4 | `4/10` | keep the one-phase failure as a control, not a source-level H210 kill |
+| `H54` / `HBOTH` routes | fallback | `3/10` to `5/10` | use only if the H210 carrier-fit chain fails or both ports become conditionally admissible |
 | full `945/1050` branching | retired | `0/10` | exact saturation already proves both singlet counts zero |
 | single-irrep common-owner alignment | retired | `0/10` | HE-4 excludes it |
 | deriving the source action or importing an external selector | off-limits | not scored | violates the conditional-build lane contract |
 
-Relative to the wider exploration portfolio, this path remains first for the
-next bounded swing because CB-1 and CB-2 both passed and observation is now a
-sharp finite survival test. If the typed pullback/quotient kills every allowed
-zero-order block, reduce this path below SN-1 rather than attempting to
-manufacture the missing action.
+Relative to the wider exploration portfolio, this path remains first for one
+more bounded swing because CB-1 through CB-4 pass and the decorated F/Q split
+is now a sharp finite source-carrier test. If `F_J^tr=0` on every intrinsic
+nonzero stratum, reduce this path below SN-1 rather than attempting to
+manufacture the missing action or reduction.
 
 ## Plain-English checkpoint
 
-We have now built the exact mathematical bridge for the cleaner of the two
-ways an unlabelled family-shaped `16` can meet the Z/internal-`144` partner. It
-fits the real K77 carrier and the zero-order part of two displayed
-fermion-operator cells. Under `H210` it can touch only one quotient line of the
-three family copies, leaving a two-dimensional multiplicity plane untouched.
-Only under the separate `H210-ALIGN` horn is that quotient identified with the
-source's F/imposter provenance. The next question is whether the co-moving
-observation geometry preserves the contracted port. It is still not this
-lane's job to invent what turns the channel on.
+We have now shown that the cleaner H210 connector fits the real K77 carrier,
+the zero-order part of two displayed fermion-operator cells, literal
+observation at the banked receiver, and finite co-moving graph/Spin transport.
+It can touch one quotient line of the three family copies while leaving a
+two-dimensional multiplicity plane untouched. The connector's rank is not a
+coordinate artifact, but a moving observer cannot keep one fixed PS embedding.
+`H210-ALIGN` and `H210-PSRED` name the two independent conditional bridges.
+The next question is whether the observed connector has a nonzero F-shaped
+four-dimensional Clifford-trace component. It is still not this lane's job to
+invent what turns the channel or reduction on.
