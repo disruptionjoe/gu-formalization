@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K111 TT spectral-transport owner gate:** K110's
+> moving-background obstruction has a canonical kinematic completion. On the
+> gapped simple-spectrum `2D` bundle, `A_C=(1/2)C dC` is the unique connection
+> preserving both `K` and `C`, hence also `H=KC`. It is flat for the one-scalar
+> family, and `D_A=Box_A+L(u(x))` remains normally hyperbolic, formally
+> `H`-symmetric and compatible with the `C` sectors. This completion is **not
+> action-owned** by the selected cubic: its TT Hessian supplies only the
+> zero-order `u(x)vv^T` block, while all derivative Hessians vanish. The next
+> admissible swing is a coefficientwise complete-action or boundary/BFV port
+> on an action-owned stationary background. This still gives no closed
+> quantum domain or typed attachment to the conditional `98D` phase/BFV
+> carrier.
+
 > **Current K110 TT spectral-C/Green composition gate:** K109 over-separated
 > its two strongest analytic partials. The fixed-background `C` and observed
 > Green construction use the same two-field TT pencil. On the free-connected

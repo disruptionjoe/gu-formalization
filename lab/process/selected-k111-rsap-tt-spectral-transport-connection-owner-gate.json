@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_moving_spectral_transport_connection_and_action_owner_gate",
+  "created": "2026-08-15",
+  "status": "UNIQUE_K_AND_C_COMPATIBLE_FLAT_SPECTRAL_TRANSPORT_CONNECTION_BUILT_ON_GAPPED_2D_TT_FAMILY__SELECTED_CUBIC_HESSIAN_DOES_NOT_OWN_THE_REQUIRED_DERIVATIVE_TERMS__FULL_ACTION_BFV_AND_98D_PORT_OPEN",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "REAL_TWO_FIELD_TT_SIMPLE_SPECTRUM_BUNDLE_OVER_ONE_SMOOTH_SCALAR_BACKGROUND_u_ON_THE_OBSERVED_GLOBALLY_HYPERBOLIC_DEFECT",
+  "target_claim": {
+    "id": "K110_NEXT_GATE__THE_MOVING_BACKGROUND_DERIVATIVE_COMPLETION_IS_CANONICAL_AND_ALREADY_ACTION_OWNED",
+    "verdict": "CANONICAL_AND_UNIQUE_YES__ACTION_OWNED_NO_AT_THE_SELECTED_CUBIC_TT_TRUNCATION__FULL_ACTION_AND_BFV_PORT_OPEN"
+  },
+  "spectral_connection": {
+    "formula": "A_C=(1/2)*C*dC",
+    "domain": "FREE_CONNECTED_GAPPED_SIMPLE_REAL_SPECTRUM_COMPONENT",
+    "nabla_C": "ZERO",
+    "nabla_K": "ZERO",
+    "nabla_H_with_H_KC": "ZERO",
+    "unique_among_K_COMPATIBLE_C_PARALLEL_CONNECTIONS_IN_2D": true,
+    "new_continuous_parameters": 0,
+    "new_independent_function_slots_after_u_is_supplied": 0,
+    "flat_for_one_scalar_family": true
+  },
+  "moving_green_completion": {
+    "operator": "D_A=Box_A*I+L(u(x))",
+    "C_commutes_with_D_A": true,
+    "D_A_formally_H_symmetric": true,
+    "principal_symbol": "UNCHANGED_SCALAR_LORENTZIAN",
+    "normally_hyperbolic": true,
+    "advanced_retarded_green_operators_preserve_C_sectors": true,
+    "positive_fibre_majorant": "RETAINED",
+    "closed_self_adjoint_quantum_domain": "NOT_CONSTRUCTED"
+  },
+  "action_owner": {
+    "selected_cubic": "V3=c*theta*(q0+qm)^2",
+    "tt_hessian": "u(x)*v*vT__ZEROTH_ORDER_ONLY",
+    "tt_derivative_hessian": "ZERO",
+    "free_kinetic_K_background_dependent": false,
+    "selected_cubic_owns_A_C_terms": false,
+    "full_action_coefficientwise_port": "OPEN",
+    "source_return": "SOURCE_SILENT"
+  },
+  "ceilings": {
+    "gap_walls": "EXCLUDED__A_C_SINGULAR_OR_UNSELECTED_AT_DELTA_ZERO",
+    "stationary_complete_action_background": "NOT_CONSTRUCTED",
+    "positive_conserved_energy": "NOT_CONSTRUCTED",
+    "physical_BFV_cohomology": "OPEN",
+    "ambient_Y14_domain": "OPEN",
+    "typed_98d_attachment": "TYPE_MISSING"
+  },
+  "inventory_after_k111": {
+    "candidate_rows": 10,
+    "moving_background_positive_fibre_green_completion": 1,
+    "action_owned_moving_completion": 0,
+    "full_98d_entry_criterion_yes": 0
+  },
+  "reverse_scaffold": {
+    "conditional_classical_98d_rsap_bfv": "RETAINED",
+    "next_gate": "COMPARE_COMPLETE_ACTION_OR_BOUNDARY_BFV_FIRST_DERIVATIVE_TT_LINEARIZATION_COEFFICIENTWISE_TO_A_C_ON_AN_ACTION_OWNED_STATIONARY_MOVING_BACKGROUND",
+    "H_Q_star": "NARROWED_UNCONSTRUCTED_NOT_KILLED",
+    "H0": "NOT_PROVED"
+  },
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "fixed_background_composition": "lab/process/selected-k110-rsap-tt-c-green-domain-composition-gate.json",
+    "spectral_C": "lab/process/first-perturbative-background-c-operator.json",
+    "green_domain": "lab/process/selected-branch-linearized-totalization-current-green-domain.json",
+    "rsap_phase": "lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k111-rsap-tt-spectral-transport-connection-owner-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k111_rsap_tt_spectral_transport_connection_owner_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k111-rsap-tt-spectral-transport-connection-owner-gate-review.md"
+}

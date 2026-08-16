@@ -187,6 +187,13 @@ coexist at all?” It is an action-owned stationary total-field or boundary map
 that embeds or descends the observed package into the actual BFV complex and
 controls the moving-background derivative terms.
 
+> **Successor closure (K111).** The missing moving-background completion is
+> canonical at kinematic Green grade: `A_C=(1/2)C dC` is the unique connection
+> preserving `K` and `C`, and hence `H=KC`. The selected cubic does not own its
+> derivative terms; its TT Hessian supplies only the zero-order variable mass
+> block. The next gate is therefore a coefficientwise complete-action or
+> boundary/BFV owner-port audit, not another arbitrary connection ansatz.
+
 ## Claim ceiling
 
 This is an exact fixed-constant-background, two-field, observed globally

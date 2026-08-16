@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fb854a13c0b3d956c83c1e06648c201a988fc785
+revision_basis: c1ba71594ea7fc9beff6452e69b06bdd495acba7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -951,7 +951,23 @@ current_result:
     plus Green-grade composite, and zero full 98D entrants. The next bridge
     must be an action-owned stationary total-field or boundary map into the
     actual BFV complex with moving-background derivative completion.
+    K111 constructs that moving-background completion at kinematic Green
+    grade. On the gapped simple-spectrum 2D TT bundle,
+    A_C=(1/2)C dC is the unique connection preserving both K and C, hence it
+    also preserves H=KC. The connection is flat for the one-scalar family,
+    and D_A=Box_A+L(u(x)) is normally hyperbolic, formally H-symmetric and
+    C-compatible. The selected cubic does not action-own this completion: its
+    TT Hessian contributes only the zero-order u(x)vv^T block, while its
+    derivative-field and mixed TT/derivative Hessians vanish. Thus K111
+    replaces an arbitrary missing connection with one exact coefficientwise
+    target, but does not produce a stationary complete-action owner, selected
+    closed quantum domain or typed 98D BFV attachment. The next swing is a
+    coefficientwise audit of the complete action linearization on an
+    action-owned stationary moving background, or of a boundary/BFV law,
+    against A_C.
   evidence:
+    - explorations/conditional-build/selected-k111-rsap-tt-spectral-transport-connection-owner-gate-2026-08-15.md
+    - lab/process/selected-k111-rsap-tt-spectral-transport-connection-owner-gate.json
     - explorations/conditional-build/selected-k110-rsap-tt-c-green-domain-composition-gate-2026-08-15.md
     - lab/process/selected-k110-rsap-tt-c-green-domain-composition-gate.json
     - explorations/conditional-build/selected-k109-rsap-concrete-positivity-domain-owner-census-2026-08-15.md
@@ -1177,10 +1193,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can an action-owned stationary total-field background or boundary law map
-  the K110 positive-fibre/Green-grade observed TT package into the conditional
-  98D phase/BFV complex while supplying the moving-background derivative
-  completion, positive physical quotient and selected closed quantum domain?
+  Does the complete action linearization on an action-owned stationary moving
+  background, or a boundary/BFV law, reproduce the K111 spectral connection
+  A_C=(1/2)C dC coefficientwise and provide a typed map from the resulting
+  positive-fibre/Green package into the conditional 98D phase/BFV complex?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1267,11 +1283,15 @@ next_condition: >-
   the strongest partial results. K110 corrects their typing: the TT C-operator
   and observed Green domain share the same two-field pencil and compose at
   fixed constant-background Green grade, while the conditional 98D BFV
-  carrier remains distinct. Park repeated fixed-background positivity algebra
-  over the current inventory. Retain the reverse scaffold through its exact
-  classical layer and reopen only with one genuinely new action-owned
-  stationary total-field or boundary map into the BFV complex, including the
-  moving-background derivative completion, positive physical quotient and
+  carrier remains distinct. K111 now supplies the unique K- and C-compatible
+  moving-background completion A_C=(1/2)C dC at kinematic Green grade, but the
+  selected cubic owns only the zero-order variable mass block and none of the
+  required derivative terms. Park repeated fixed-background positivity
+  algebra over the current inventory. Retain the reverse scaffold through its
+  exact classical layer. Reopen by comparing the complete action's
+  first-derivative TT linearization on an action-owned stationary background,
+  or a boundary/BFV operator, coefficientwise to A_C; require the same owner
+  packet to supply a typed 98D carrier map, positive physical quotient and
   selected closed quantum domain. This does not kill future nonlinear,
   nonlocal, contour, Wick or boundary constructions and does not prove H0.
   Keep the 182D charged and 98D reverse-RSAP horns distinct. Do not repeat

@@ -7,6 +7,20 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K111 THE MOVING TT COMPLETION IS CANONICAL, BUT THE SELECTED
+> CUBIC DOES NOT OWN IT.** On the gapped simple-spectrum `2D` TT bundle,
+> `A_C=(1/2)C dC` is the unique connection that preserves both the Krein form
+> `K` and spectral involution `C`; it therefore preserves `H=KC`. The completed
+> operator `D_A=Box_A+L(u(x))` is normally hyperbolic, formally `H`-symmetric
+> and `C`-compatible, and the one-scalar connection is flat. But the selected
+> cubic Hessian owns only the zero-order `u(x)vv^T` mass block: its derivative
+> Hessians vanish, so it supplies none of the required connection terms.
+> **The next swing is a coefficientwise owner-port audit in the complete action
+> linearization on an action-owned stationary background, or in a boundary/BFV
+> law. Keep this canonical kinematic completion, but do not call it
+> action-owned or attach it to the conditional `98D` carrier without a typed
+> map.**
+
 > **2026-08-15 K110 POSITIVITY AND GREEN PROPAGATION COMPOSE ON THE SHARED
 > `2D` TT PENCIL, NOT YET ON THE `98D` RSAP.** At fixed constant scalar
 > background on the free-connected real-spectrum component, the spectral
