@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K137 curved-transport rank/jet obstruction:** K136's five null
+> classes do not extend as one smooth constant-rank quotient through the
+> generic nonnull and 27 spacelike-shell strata. Gauge-reduced dimensions are
+> `0` generically off shell, `5` on the null Schur stratum, `46481` at `a=4`,
+> `0` at `a=121`, and positive shell-dependent values elsewhere. Null base
+> bicharacteristics are geodesic Hamilton flow, but the system amplitude
+> connection requires a smooth stratum projector and full subprincipal symbol
+> along a selected background neighborhood. K127 provides only an arbitrary
+> point Ricci-flat two-jet, not that neighborhood; different third jets leave
+> the point data fixed and change transport away from it. The displayed bulk
+> `I1B` owns no boundary functional, gauge fixing, spectral projector or
+> crossing law. K138 owns the generic Ricci-flat three-jet subprincipal
+> evaluator and a stratumwise null-quotient invariance test.
+
 > **Current K136 null-characteristic and local-domain classification:** the
 > null effective metric radical has exact nested dimensions `4` action-owned
 > diffeomorphisms inside `6` dimensions of `ker A` inside the full `9`-dimensional

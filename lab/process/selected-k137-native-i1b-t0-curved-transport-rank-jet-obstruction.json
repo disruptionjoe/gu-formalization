@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k137-native-i1b-t0-curved-transport-rank-jet-obstruction",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B Hessian at the K127 local Ricci-flat T=0 point-germ family on real Cl(7,7)",
+  "target_claim": "K136_NEXT_GATE__COMPLETE_CURVED_SUBPRINCIPAL_TRANSPORT_ON_FIVE_CLASS_QUOTIENT_OR_ACTION_OWNED_BOUNDARY_ADDITION",
+  "characteristic_rank_strata": {
+    "generic_nonshell_nonnull_gauge_reduced_kernel_dimension": 0,
+    "exact_nonshell_control_radius_squared": 17,
+    "null_gauge_reduced_kernel_dimension": 5,
+    "spacelike_shell_a4_gauge_reduced_kernel_dimension": 46481,
+    "spacelike_shell_a121_gauge_reduced_kernel_dimension": 0,
+    "other_spacelike_shells": "POSITIVE_SHELL_DEPENDENT_DISTORTION_MULTIPLICITY_BEYOND_GAUGE",
+    "one_smooth_cross_stratum_rank_five_bundle": false
+  },
+  "hamilton_transport": {
+    "null_base_flow": "H_q_FOR_q=g_inverse(xi,xi)__NULL_GEODESIC_FLOW",
+    "base_flow_selected": true,
+    "amplitude_connection_selected": false,
+    "constant_rank_projector_across_crossings": false,
+    "cross_stratum_gluing_law_selected": false
+  },
+  "background_jet": {
+    "k127_owned_jet_order": 2,
+    "source_global_background_selected": false,
+    "neighborhood_symbol_selected": false,
+    "equal_twojet_different_threejet_transport_control": true,
+    "complete_subprincipal_transport_from_current_data": false
+  },
+  "boundary_owner": {
+    "displayed_I1B_boundary_functional": false,
+    "fixed_boundary_variation_is_boundary_addition": false,
+    "action_owned_gauge_fixing": false,
+    "action_owned_pseudodifferential_projector": false,
+    "action_owned_rank_change_transmission_law": false
+  },
+  "claim_ceiling": "exact cross-stratum rank and current jet/boundary-owner obstruction; stratumwise transport with added owned data remains open",
+  "next_gate": "K138_GENERIC_RICCI_FLAT_THREEJET_COVARIANT_SUBPRINCIPAL_EVALUATOR__TEST_FIVE_CLASS_NULL_STRATUM_DENCKER_INVARIANCE_AND_FIRST_RANK_CHANGE_SWITCH",
+  "canon_verdict_change": "none"
+}

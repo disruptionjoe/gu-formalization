@@ -192,3 +192,17 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k136_native_i1b_t0_microlocal_boundary_domain_probe.py
 ```
+
+## K137 successor classification
+
+K137 applies the constant-rank test before constructing a transport
+connection. Modulo the four action-owned diffeomorphisms, the coupled kernel
+has dimension zero generically off shell, five on the null Schur stratum,
+`46481` at `a=4`, zero at `a=121`, and shell-dependent positive dimension on
+the remaining shells. These fibres cannot be one smooth rank-five bundle
+through the crossings. The null scalar factor still owns geodesic Hamilton
+base flow, but K127's point Ricci-flat two-jet does not select the complete
+amplitude connection along a neighborhood, and the displayed bulk `I1B` owns
+no boundary functional or transmission law. K138 must build the generic
+Ricci-flat three-jet subprincipal evaluator and test the five-class quotient
+on one fixed smooth null stratum before any crossing or domain claim.

@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K137 now proves that K136's five gauge-reduced null characteristic
+    classes do not form one smooth constant-rank bundle through the generic
+    nonnull, null and spacelike-shell strata. After quotienting the four
+    action-owned metric diffeomorphisms, the coupled kernel dimension is zero
+    at generic nonshell nonnull covectors, five on the null Schur stratum,
+    46481 at the a=4 shell, zero at a=121, and positive shell-dependent values
+    on the other shells. The null scalar factor still generates null-geodesic
+    Hamilton base flow, but amplitude transport requires a smooth
+    characteristic projector and complete subprincipal coefficient along a
+    selected background neighborhood. K127 owns only an arbitrary pointwise
+    Ricci-flat metric two-jet; equal two-jets with different three-jets retain
+    all frozen K127-K136 point data while changing neighborhood transport.
+    The displayed bulk I1B action owns no boundary functional, gauge fixing,
+    pseudodifferential projector or cross-stratum gluing law. Fixed-boundary
+    variation is not such an addition. K138 must build the generic Ricci-flat
+    three-jet covariant subprincipal evaluator and test Dencker invariance on
+    one smooth null stratum, with an explicit switch before any rank-changing
+    encounter. No cross-stratum propagation or universal domain impossibility
+    is claimed. Joe input is not required.
     K136 now exactly quotients K135's nine-dimensional null metric-symbol
     radical. Four directions are the action-owned diffeomorphism image. The
     five gauge-reduced characteristic classes split into two A-null transverse-

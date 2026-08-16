@@ -7,6 +7,24 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K137 OBSTRUCTS ONE CROSS-STRATUM FIVE-CLASS TRANSPORT
+> BUNDLE AND FINDS NO CURRENT ACTION-OWNED BOUNDARY REPAIR.** After quotienting
+> the four action-owned diffeomorphisms, the coupled kernel dimension is zero
+> at generic nonshell nonnull covectors, five on the null Schur stratum,
+> `46481` at the `a=4` spacelike shell, zero at `a=121`, and positive but
+> shell-dependent elsewhere. Those fibres cannot form one smooth constant-
+> rank five-bundle through null/shell crossings. The scalar null factor still
+> gives null-geodesic Hamilton base flow, but amplitude transport needs a
+> constant-rank projector and the complete subprincipal symbol along a
+> background neighborhood. K127 owns only an unselected point Ricci-flat
+> two-jet; equal two-jets with different three-jets preserve the frozen K136
+> data while changing neighborhood transport. The displayed bulk `I1B` owns
+> no boundary functional, gauge fixing, spectral projector or crossing law;
+> fixed-boundary variation is not a boundary addition. **K138 must construct
+> the generic Ricci-flat three-jet covariant subprincipal evaluator and test
+> Dencker invariance on one smooth null stratum, with an explicit switch
+> condition before a rank-changing encounter.**
+
 > **2026-08-16 K136 CLASSIFIES THE FIVE GAUGE-REDUCED NULL CLASSES AND
 > CLOSES THE FROZEN UNBOUNDED LOCAL-FREDHOLM ROUTE.** K135's rank-one null
 > Schur form has radical nine. The action-owned diffeomorphism image has
