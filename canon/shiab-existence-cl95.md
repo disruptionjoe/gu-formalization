@@ -68,7 +68,15 @@ The gauge group in the (9,5) setting is Sp(64) = U(64, H) (the quaternionic unit
 ## Known Failure Modes
 
 - **Signature uncertainty.** If Weinstein's intended signature is (7,7) or another real form, the algebra changes. Cl(7,7) ~= M(128, R) gives a real spinor module and a different (but parallel) construction. The (9,5) result is confirmed by the Frobenius metric computation.
-- **Kernel/rank not computed.** The map is non-zero, but it is not injective dimensionally. Its kernel, image, and rank on the full domain Lambda^2 V tensor S have not been computed. Any future use of Shiab that needs injectivity must replace this canon entry with an explicit representation-theoretic rank/kernel computation.
+- **Full-domain kernel/rank — RESOLVED for the literal constructed map (AR-5,
+  2026-08-16).** The exact signed-companion/right-inverse computation gives
+  `rank_R(Phi)=3,584` and `dim_R ker(Phi)=19,712`, so this literal
+  `Cl(9,5)` contraction is surjective and non-injective. See
+  `lab/active-research/joe-directed/archaeology/ar5-cl95-full-shiab-rank-crosswalk-2026-08-16.md`
+  and its exact certificate. This closes only the rank/kernel gap for the map
+  constructed in this file. It does **not** identify Weinstein's preferred
+  shiab, select the supplied `192`, or transfer any rank or kernel statement
+  to the distinct current-K77 `1,274 x 1,274` Hodge--Shiab operator.
 - **Non-degeneracy on gauge curvature forms.** The restriction of Phi to curvature inputs arising from GU connections may have additional degeneracy or selection structure. That is a separate physical question and is not settled by algebraic existence of Phi.
 - **Generation count.** Shiab existence does not establish the generation count. That requires an index theorem on a non-compact Y^14 — a separate open problem.
 - **Gauge group uniqueness.** Sp(64) is the natural gauge group from the automorphism structure of S = H^64; whether the tau^+ homomorphism selects a subgroup of Sp(64) is open.
