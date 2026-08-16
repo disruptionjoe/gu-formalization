@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_spectral_connection_minimal_variational_owner_and_bfv_attachment_gate",
+  "created": "2026-08-15",
+  "status": "MINIMAL_LOCAL_COVARIANT_TT_QUADRATIC_OWNS_THE_K111_CONNECTION_OPERATOR_WITHOUT_A_FREE_COEFFICIENT__THIS_IS_RECONSTRUCTED_NEW_ACTION_DATA_NOT_THE_CURRENT_RELEASED_ACTION__STATIONARY_BACKGROUND_BFV_DOMAIN_AND_NONINVARIANT_98D_ATTACHMENT_REMAIN_OPEN",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "GAPPED_REAL_TWO_FIELD_TT_SPECTRAL_BUNDLE__LOCAL_QUADRATIC_VARIATIONAL_COMPLETION__CURRENT_FINITE_CLASSICAL_BALANCED_BFV_AND_LINEAR_INVARIANT_ATTACHMENT_GRADE",
+  "target_claim": {
+    "id": "K111_NEXT_GATE__THE_SPECTRAL_CONNECTION_HAS_A_LOCAL_VARIATIONAL_OWNER_AND_CURRENT_ACTION_BACKGROUND_BFV_DATA_PROMOTE_IT_TO_THE_CONDITIONAL_98D_PHYSICAL_PACKET",
+    "verdict": "MINIMAL_VARIATIONAL_OWNER_CONSTRUCTED_AT_RECONSTRUCTION_GRADE__CURRENT_SERIALIZED_SOURCE_OWNER_STATIONARY_BACKGROUND_PHYSICAL_BFV_DOMAIN_AND_TYPED_98D_ATTACHMENT_NO"
+  },
+  "minimal_variational_completion": {
+    "connection": "A_C=(1/2)C*dC",
+    "covariant_derivative": "nabla_A=d+A_C",
+    "quadratic_density": "L_TT_C=(1/2)<nabla_A_phi,K*nabla_A_phi>-(1/2)<phi,M(u)*phi>",
+    "normalized_euler_operator": "D_A=Box_A+K_inverse*M(u)",
+    "first_derivative_coefficient": "2*A_C",
+    "zero_order_connection_coefficient": "div(A_C)+A_C_squared",
+    "free_connection_coefficient_count": 0,
+    "K_metric_compatible": true,
+    "C_parallel": true,
+    "H_KC_parallel": true,
+    "grade": "EXACT_LOCAL_QUADRATIC_RECONSTRUCTION_ON_THE_GAPPED_COMPONENT"
+  },
+  "ownership": {
+    "mathematical_variational_owner_exists": true,
+    "selected_cubic_owns_variable_mass_block": true,
+    "selected_cubic_owns_connection_terms": false,
+    "released_source_action_displays_this_covariant_TT_quadratic": false,
+    "classification": "NEW_RECONSTRUCTED_ACTION_DATA__NOT_SOURCE_CONFIRMED_OR_CURRENT_ACTION_OWNED",
+    "full_action_coefficientwise_match": "OPEN"
+  },
+  "stationary_background": {
+    "u_is_supplied": true,
+    "TT_quadratic_u_euler_source_at_phi_zero": "ZERO",
+    "TT_sector_selects_nonconstant_u_background": false,
+    "current_serialized_stationary_candidate_classes": 5,
+    "current_full_local_stationarity_survivors": 0,
+    "action_owned_smooth_gapped_moving_background": "NOT_CONSTRUCTED"
+  },
+  "boundary_and_bfv": {
+    "covariant_green_flux": "j_n(phi,psi)=phiT*K*nabla_n(psi)-nabla_n(phi)T*K*psi",
+    "C_compatible": true,
+    "right_H_bal_zero_level_equation": "NOT_SUPPLIED",
+    "right_H_bal_gauge_declaration": "NOT_SUPPLIED",
+    "classical_BFV_charge": "RETAINED_EXACT_REGULAR_IRREDUCIBLE",
+    "analytic_domain": "NOT_CONSTRUCTED",
+    "positive_physical_cohomology": "NOT_CONSTRUCTED",
+    "green_flux_is_balanced_moment_map": false
+  },
+  "attachment": {
+    "TT_dimension": 2,
+    "balanced_phase_dimension": 98,
+    "nonzero_proper_H_bal_invariant_linear_subquotient_dimensions": [49],
+    "nonzero_H_bal_invariant_linear_map_from_TT_to_balanced_phase": false,
+    "reason": "ANY_NONZERO_IMAGE_WOULD_BE_AN_INVARIANT_SUBOBJECT_OF_DIMENSION_AT_MOST_TWO__K107_CLASSIFICATION_ALLOWS_ONLY_49D_NONZERO_PROPER_SUBQUOTIENTS",
+    "noninvariant_background_owned_map": "OPEN",
+    "nonlinear_boundary_or_cohomological_map": "OPEN"
+  },
+  "reverse_scaffold": {
+    "conditional_classical_98d_rsap_bfv": "RETAINED",
+    "minimal_variational_TT_connection": "ADDED_AS_RECONSTRUCTION_GRADE_CANDIDATE_ONLY",
+    "do_not_append": "PHYSICAL_HILBERT_BFV_OR_98D_POSITIVITY_LAYER",
+    "next_gate": "REQUIRE_ONE_SOURCE_OR_ACTION_OWNED_STATIONARY_MOVING_BACKGROUND_AND_NONINVARIANT_OR_NONLINEAR_2D_TO_98D_BV_BFV_MAP_WITH_SELECTED_CLOSED_POSITIVE_DOMAIN__THEN_COMPARE_THE_COMPLETE_LINEARIZATION_TO_A_C_COEFFICIENTWISE"
+  },
+  "claim_ceiling": {
+    "local_variational_completion": "EXACT_RECONSTRUCTION",
+    "current_released_action_match": false,
+    "stationary_solution": false,
+    "invariant_linear_attachment": "OBSTRUCTED",
+    "all_noninvariant_nonlinear_boundary_or_nonlocal_attachments": "NOT_EXHAUSTED",
+    "quantization_particle_phenomenology": "NO_INFERENCE"
+  },
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none",
+    "what_needs_joe": "none"
+  },
+  "dependencies": {
+    "spectral_connection": "lab/process/selected-k111-rsap-tt-spectral-transport-connection-owner-gate.json",
+    "invariant_phase_classification": "lab/process/selected-k107-rsap-phase-space-compatible-complex-positivity.json",
+    "stationary_owner_census": "lab/process/selected-k105-rsap-curvature-sign-owner-qualification.json",
+    "boundary_owner_census": "lab/process/selected-k104-rsap-source-boundary-variational-owner-census.json",
+    "classical_bfv": "lab/process/selected-k98-rsap-balanced-bfv-selection-classifier.json"
+  },
+  "artifact": "explorations/conditional-build/selected-k112-rsap-spectral-connection-variational-owner-port-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k112_rsap_spectral_connection_variational_owner_port_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k112-rsap-spectral-connection-variational-owner-port-review.md"
+}

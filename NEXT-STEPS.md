@@ -7,6 +7,23 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K112 THE SPECTRAL CONNECTION HAS A MINIMAL VARIATIONAL OWNER,
+> BUT THE CURRENT SOURCE/ACTION AND `98D` PHYSICAL PACKET STILL DO NOT OWN IT.**
+> The local covariant TT quadratic built from `nabla_A=d+A_C` has normalized
+> Euler operator `D_A=Box_A+K^-1M(u)`: its first-order coefficient is `2A_C`
+> and its connection zero-order coefficient is `div(A_C)+A_C^2`, with no
+> fitted connection parameter. This is exact reconstruction-grade new action
+> data, not a term displayed by the selected cubic or released action. At zero
+> TT field it contributes no `u` Euler source, so it does not select a moving
+> stationary background. Its `C`-compatible Green flux is not the balanced
+> moment/gauge/BFV law, and K107's `49D` invariant-subquotient minimum forbids
+> every nonzero invariant linear map from the `2D` TT package to the `98D`
+> phase tangent. **Retain the minimal variational completion as a candidate,
+> but do not append a physical layer. Reopen only with one source- or action-
+> owned stationary moving background, a coefficientwise complete-action port,
+> a non-invariant/nonlinear/boundary/cohomological BV-BFV attachment, and a
+> selected closed positive physical domain.** Exact probe `28/28`.
+
 > **2026-08-15 K111 THE MOVING TT COMPLETION IS CANONICAL, BUT THE SELECTED
 > CUBIC DOES NOT OWN IT.** On the gapped simple-spectrum `2D` TT bundle,
 > `A_C=(1/2)C dC` is the unique connection that preserves both the Krein form

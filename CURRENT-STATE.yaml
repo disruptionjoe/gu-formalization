@@ -965,7 +965,24 @@ current_result:
     coefficientwise audit of the complete action linearization on an
     action-owned stationary moving background, or of a boundary/BFV law,
     against A_C.
+    K112 constructs the exact minimal local quadratic variational owner of
+    that connection. With nabla_A=d+A_C, the covariant TT kinetic quadratic
+    has normalized Euler operator D_A=Box_A+K^-1 M(u): its first-order
+    coefficient is 2A_C and its connection zero-order coefficient is
+    div(A_C)+A_C^2, with no fitted connection parameter. This is new
+    reconstruction-grade action data, not a term displayed by the current
+    released action. At zero TT field its u-Euler source vanishes, so it does
+    not select a moving stationary background. Its C-compatible covariant
+    Green flux is not the 42-component balanced moment law, zero-level
+    equation, gauge declaration or physical BFV domain. Finally, K107's 49D
+    minimum for nonzero proper invariant subquotients obstructs every nonzero
+    H_bal-invariant linear map from the 2D TT package into the conditional
+    98D phase tangent. The surviving bridge must therefore be non-invariant,
+    nonlinear, boundary or cohomological and action/background owned, with a
+    selected closed positive domain.
   evidence:
+    - explorations/conditional-build/selected-k112-rsap-spectral-connection-variational-owner-port-2026-08-15.md
+    - lab/process/selected-k112-rsap-spectral-connection-variational-owner-port.json
     - explorations/conditional-build/selected-k111-rsap-tt-spectral-transport-connection-owner-gate-2026-08-15.md
     - lab/process/selected-k111-rsap-tt-spectral-transport-connection-owner-gate.json
     - explorations/conditional-build/selected-k110-rsap-tt-c-green-domain-composition-gate-2026-08-15.md
@@ -1193,10 +1210,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the complete action linearization on an action-owned stationary moving
-  background, or a boundary/BFV law, reproduce the K111 spectral connection
-  A_C=(1/2)C dC coefficientwise and provide a typed map from the resulting
-  positive-fibre/Green package into the conditional 98D phase/BFV complex?
+  Does a source- or action-owned smooth gapped stationary moving background
+  carry the K112 minimal covariant TT quadratic, and does a non-invariant,
+  nonlinear, boundary or cohomological map place its positive-fibre/Green
+  package into the conditional 98D BV-BFV complex with a selected closed
+  positive physical domain?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1286,14 +1304,22 @@ next_condition: >-
   carrier remains distinct. K111 now supplies the unique K- and C-compatible
   moving-background completion A_C=(1/2)C dC at kinematic Green grade, but the
   selected cubic owns only the zero-order variable mass block and none of the
-  required derivative terms. Park repeated fixed-background positivity
-  algebra over the current inventory. Retain the reverse scaffold through its
-  exact classical layer. Reopen by comparing the complete action's
-  first-derivative TT linearization on an action-owned stationary background,
-  or a boundary/BFV operator, coefficientwise to A_C; require the same owner
-  packet to supply a typed 98D carrier map, positive physical quotient and
-  selected closed quantum domain. This does not kill future nonlinear,
-  nonlocal, contour, Wick or boundary constructions and does not prove H0.
+  required derivative terms. K112 now constructs the exact minimal local
+  covariant TT quadratic whose Euler operator reproduces A_C coefficientwise,
+  without a fitted connection parameter. That functional is new
+  reconstruction-grade action data rather than a current released-source
+  term. It does not select u at zero TT field; its Green flux is not the
+  balanced moment/gauge law; and every invariant linear 2D-to-98D attachment
+  vanishes by K107's 49D invariant-subquotient minimum. Park repeated fixed-
+  background positivity and invariant linear attachment algebra over the
+  current inventory. Retain the reverse scaffold through its exact classical
+  layer and the minimal variational TT completion only at reconstruction
+  grade. Reopen with one source- or action-owned stationary moving background,
+  a coefficientwise complete-action occurrence of A_C, and a non-invariant,
+  nonlinear, boundary or cohomological 2D-to-98D BV-BFV map carrying a
+  selected closed positive physical domain. This does not kill future
+  nonlinear, nonlocal, contour, Wick or boundary constructions and does not
+  prove H0.
   Keep the 182D charged and 98D reverse-RSAP horns distinct. Do not repeat
   finite BFV, multiplier,
   boundary-route, released-source or orbit
