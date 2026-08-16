@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K146 native I1B T=0 null-remainder type and quotient gate 2026-08-16
+(direct `P^5` quotient test corrected; polynomial metric gauge preservation
+exact; radical preservation open).** `P^5` acts on the distortion carrier and
+cannot be applied directly to the metric spaces `H_n` or `G_n`. The first
+well-typed local metric composition is `S_4=-A^*R_4A`; it satisfies
+`S_4 G=0` exactly by the Noether identity `A G=0`. This is not yet an
+endomorphism of `H_n/G_n`, because preservation of `H_n` remains unevaluated.
+The exact control `P_s^5=s^4P_s` proves that common frozen nilpotence leaves
+the lower remainder free. Existing frozen selected-Shiab and Brinkmann probes
+do not constitute one complete variable-coefficient fivefold evaluator, so
+the lower value is `NOT_MATERIALIZED_FROM_CURRENT_SERIALIZED_EVALUATOR`. See
+`explorations/conditional-build/selected-k146-native-i1b-t0-null-remainder-type-and-quotient-gate-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| direct `P^5` preservation | proposed | `ILL_TYPED_DIFFERENT_CARRIERS` | `A/A*` metric composition | K145/current/context | K146 packet |
+| polynomial metric map | unnamed | `S_4=-A^*R_4A` local formal operator | exact inverse not claimed | K135/K145 | K146 proof |
+| gauge preservation | unevaluated | `S_4 G=0` exact | none at formal local grade | K145 | K146 proof |
+| radical preservation | unevaluated | still unevaluated | sparse curved `S_4` evaluator | K138/K145 | K146 registry |
+| lower selected remainder | unevaluated | not materialized by current serialized evaluator | K147 common covariant routine | K145 | K146 gate |
+
 **K145 native I1B T=0 curved generalized-C composition and compatibility gate
 2026-08-16 (exact fifth-power inverse remainder and action-owned
 diffeomorphism chain; selected null lower remainder open).** For

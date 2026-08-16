@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K146_NATIVE_I1B_T0_NULL_REMAINDER_TYPE_AND_QUOTIENT_GATE",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected comm/symi/symi I1B Hessian on the K127/K138 Ricci-flat T=0 germ; carrier typing and polynomial metric composition before inverse or domain selection.",
+  "carrier_typing": {"distortion_dimension": 229376, "metric_dimension": 10, "P5_domain": "Omega1(Cl(7,7))", "P5_codomain": "Omega1(Cl(7,7))", "H_n_carrier": "Sym2(T*)", "G_n_carrier": "Sym2(T*)", "direct_P5_HG_test": "ILL_TYPED_DIFFERENT_CARRIERS"},
+  "polynomial_metric_operator": {"formula": "S_4=-A^* R_4 A", "R_4": "kappa_1^-1*sum_j=0^4(-kappa_1^-1*P)^j*K", "action_owned_formal_local_operator": true, "exact_schur_complement": false, "G_n_preservation": "PASS_BY_A_G_ZERO", "H_n_preservation": "UNEVALUATED_CURVED_COMPOSITION", "quotient_endomorphism": "UNDEFINED_H_PRESERVATION_OPEN"},
+  "lower_remainder_control": {"family": "P_s=M_s*d/dx; M_s=u_s*v_s^T; u_s=(1,sx)^T; v_s=(-sx,1)^T", "pointwise_M_square_zero": true, "operator_identity": "P_s^2=s*P_s", "fifth_power": "P_s^5=s^4*P_s", "conclusion": "frozen_nilpotence_does_not_determine_lower_P5"},
+  "serialized_evaluator": {"frozen_all_grade_selected_shiab": true, "brinkmann_curvature_and_first_jet": true, "complete_variable_coefficient_fivefold_composition": false, "lower_selected_shiab_P5": "NOT_MATERIALIZED_FROM_CURRENT_SERIALIZED_EVALUATOR"},
+  "claim_ceiling": "Exact carrier typing, polynomial metric composition, gauge preservation and missing-evaluator result; no H_n preservation, quotient endomorphism, inverse, parametrix, domain, BFV, positivity, states or physical propagation.",
+  "next_gate": "K147_SERIALIZE_SPARSE_COVARIANT_SELECTED_SHIAB_E_DB_EVALUATOR__COMPUTE_ELL_N_S4_ON_H_N_BASIS_OVER_TWO_PROFILE_BRINKMANN_FAMILY",
+  "canon_verdict_change": "none"
+}

@@ -255,3 +255,14 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k145_native_i1b_t0_curved_c_composition_and_compatibility_probe.py
 ```
+
+## K146 successor classification
+
+K146 corrects the direct quotient test: `P^5` acts on the distortion carrier,
+while `H_n` and `G_n` are metric subspaces. The first well-typed polynomial
+metric operator is `S_4=-A^*R_4A`. It kills `G_n` exactly by `A G=0`, but
+preservation of `H_n` remains a separate curved composition. The complete
+selected-Shiab lower remainder is
+`NOT_MATERIALIZED_FROM_CURRENT_SERIALIZED_EVALUATOR`; it is not assigned a
+zero or nonzero value. K147 owns the sparse covariant evaluator and the exact
+`ell_n S_4|H_n` test.

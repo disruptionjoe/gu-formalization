@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K146 remainder/quotient type correction:** `P^5` is an
+> endomorphism of `Omega1(Cl(7,7))`, not of the metric radical `H_n` or gauge
+> image `G_n`; the proposed direct test is `ILL_TYPED_DIFFERENT_CARRIERS`.
+> The first typed local metric polynomial is `S_4=-A^*R_4A`, and `A G=0`
+> gives `S_4 G=0`. Radical preservation remains unevaluated, so no
+> endomorphism on `H_n/G_n` is owned. The control `P_s^5=s^4P_s` proves common
+> frozen nilpotence does not determine the lower remainder. The current
+> executable value is `NOT_MATERIALIZED_FROM_CURRENT_SERIALIZED_EVALUATOR`.
+> K147 owns the sparse covariant evaluator and `ell_n S_4|H_n` test.
+
 > **Current K145 curved generalized-C composition:** with
 > `C=kappa_1 K+E(D_B)` and `P=K E(D_B)`, the exact extension of K135's
 > degree-four null Neumann polynomial leaves right remainder

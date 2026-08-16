@@ -7,6 +7,21 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K146 CORRECTS THE NULL-REMAINDER QUOTIENT TYPE AND PROVES
+> EXACT GAUGE PRESERVATION FOR THE FIRST TYPED METRIC POLYNOMIAL.** `P^5`
+> acts on the distortion carrier; `H_n`, `G_n` and `H_n/G_n` live in the
+> metric carrier, so a direct preservation test is
+> `ILL_TYPED_DIFFERENT_CARRIERS`. The first action-owned local metric operator
+> from K135's polynomial is `S_4=-A^*R_4A`, and `S_4 G=0` exactly because
+> `A G=0`. Radical preservation remains a separate curved composition.
+> K144's exact control gives `P_s^5=s^4P_s` despite common frozen nilpotence.
+> The current repository has no one complete variable-coefficient fivefold
+> evaluator, so the lower value is
+> `NOT_MATERIALIZED_FROM_CURRENT_SERIALIZED_EVALUATOR`, not zero. **K147
+> should serialize a sparse covariant `E(D_B)` evaluator and compute
+> `ell_n S_4 h` on a basis of `H_n` over the Brinkmann family; only if it
+> vanishes may `S_4` descend to `H_n/G_n`.**
+
 > **2026-08-16 K145 IDENTIFIES THE EXACT CURVED OPERATOR REMAINDER AND
 > SEPARATES THE COUPLED NOETHER COMPLEX FROM A DISTORTION COMPLEX.** Write
 > `C=kappa_1 K+E(D_B)` and `P=K E(D_B)`. K135's degree-four Neumann candidate

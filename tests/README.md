@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k146_native_i1b_t0_null_remainder_type_and_quotient_gate_probe.py`
+  corrects the direct `P^5` quotient test by carrier, derives the exact
+  `P_s^5=s^4P_s` lower-order control, constructs the first typed metric
+  polynomial `S_4=-A^*R_4A`, proves `S_4 G=0`, and separates gauge
+  preservation from the still-open radical-preservation test.
+
 - `channel-swings/selected_k145_native_i1b_t0_curved_c_composition_and_compatibility_probe.py`
   derives the exact two-sided fifth-power remainder left by extending K135's
   frozen null Neumann polynomial, uses the actual spacelike spectrum to rule

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 05332ba10b6a86458e565daaa6fe8bcc55b92987
+revision_basis: 8b04672251123dc79fb730cdeea75f40ecbaf94a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K146 now corrects the proposed direct null-remainder quotient test. P^5
+    acts on the 229376-dimensional distortion carrier Omega1(Cl(7,7)), while
+    H_n, G_n and H_n/G_n live in the ten-dimensional metric carrier; applying
+    P^5 directly to them is ILL_TYPED_DIFFERENT_CARRIERS. The first
+    action-owned local metric operator built from K135's polynomial is
+    S_4=-A^* R_4 A. K145's exact Noether identity A G=0 gives S_4 G=0, so the
+    polynomial candidate preserves and annihilates the diffeomorphism image
+    without an inverse, boundary condition or domain. Descent to H_n/G_n also
+    requires S_4(H_n) subset H_n, which remains an unevaluated curved
+    composition. K144's exact variable-coefficient control sharpens the
+    obstruction: P_s^2=s P_s implies P_s^5=s^4 P_s although every frozen
+    coefficient is square-zero, so frozen nilpotence does not determine the
+    lower fifth-power remainder. The current repository serializes the frozen
+    all-grade selected-Shiab coefficient and Brinkmann curvature packet but
+    not one complete moving connection/formal-Euler fivefold evaluator. The
+    lower value is therefore NOT_MATERIALIZED_FROM_CURRENT_SERIALIZED_EVALUATOR,
+    not zero or nonzero by inference. K147 may serialize that sparse
+    covariant evaluator and compute ell_n S_4 h on a basis of H_n over the
+    two-profile Brinkmann family. Joe input is not required.
     K145 now derives the exact variable-coefficient composition behind K135's
     frozen null inverse. With C=kappa_1 K+E(D_B), K^2=I and
     P=K E(D_B), the degree-four Neumann candidate has exact right remainder
