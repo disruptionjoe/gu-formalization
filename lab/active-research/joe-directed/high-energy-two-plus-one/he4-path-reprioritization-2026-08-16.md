@@ -8,10 +8,10 @@ channel: high_energy_two_plus_one_prediction
 target_claim: SC-GEN-53
 title: "Conditional-build read packet: Eric Weinstein's 2+1 imposter, emergent-chirality source claims, the HE-4 owner split, and the next composition scaffold"
 grade: "SOURCE-PINNED READ PACKET plus exact-receipt synthesis. Source statements are separated from repository reconstructions and from declared conditional inputs. The lane assumes explicit H210/H54/HBOTH/HNONE horns and tests how they fit the existing geometry. Deriving a source action, searching for an external selector, fitting a family vector, or substituting an ordinary family index, net-chirality theorem, or scalar Higgs/VEV is outside scope."
-disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__H210_FINITE_NATURALITY_BANKED__FQ_CLIFFORD_SPLIT_NEXT__H210_ALIGN_AND_H210_PSRED_SEPARATE__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT
+disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__H210_INTRINSIC_CORRELATED_CHAIN_BANKED__FULL_D0_VARPI_HALF_DUALITY_CLASSIFIER_NEXT__THREE_HORN_WITNESSES_SEPARATE__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT
 canon_verdict_change: none
-steering_effect: "Every future preflight and execution agent in this channel must read this packet first. Begin from Eric Weinstein's source claims and declared H210/H210-ALIGN/H210-PSRED horns. The next swing is the decorated four-dimensional Clifford-trace/gamma-traceless split of the contracted H210 port, not derivation of a selector, reduction, action, or external datum."
-canonical_effect: pending_integration
+steering_effect: "Every future preflight and execution agent in this channel must read this packet first. Begin from Eric Weinstein's source claims and declared H210/H210-FCORR/H210-ALIGN/H210-PSRED horns. The next swing is the reverse-conditional full d0+varpi half/form-degree/density-duality classifier, not more kappa-rank or horn-matrix work and not derivation of a selector, reduction, action, family row, graph, or external datum."
+canonical_effect: integrated_through_cb6
 depends_on:
   - lab/methods/source-native-comparator-routing.md
   - lab/sources/source-claim-register.yaml
@@ -26,6 +26,11 @@ depends_on:
   - lab/active-research/joe-directed/high-energy-two-plus-one/cb3-h210-source-observation-functor-crosswalk-2026-08-16.md
   - lab/process/hostile-reviews/2026-08-16-joe-directed-cb3-h210-observation-review.md
   - lab/process/hostile-reviews/2026-08-16-joe-directed-he4-distinct-channel-owners-review.md
+  - lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-full-correlated-lift-naturality-2026-08-16.md
+  - lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-equation916-observed-composition-2026-08-16.md
+  - lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-three-horn-compatibility-2026-08-16.md
+  - lab/process/hostile-reviews/2026-08-16-joe-directed-cb6-h210-correlated-lift-review.md
+  - lab/active-research/joe-directed/high-energy-two-plus-one/cb6-wave-h210-correlated-lift-reprioritization-2026-08-16.md
 ---
 
 > [!IMPORTANT]
@@ -302,48 +307,66 @@ H210-FCORR = the observation-induced correlated lift is the typed
               realization of the equation-(12.22) F reveal.
 ```
 
-`H210-FCORR`, `H210-ALIGN`, and `H210-PSRED` remain independent.
+`H210-FCORR`, `H210-ALIGN`, and `H210-PSRED` remain separate declared
+prerequisites; their concrete witnesses are not constructed or proven to
+coexist.
 
-### CB-6 — full correlated-lift and operator composition — next
+### CB-6 — intrinsic correlated lift and zero-order composition — banked
 
-First certify the complete co-moving horizontal/normal `kappa_J` square,
-including the moving normal complement, graded normal Clifford map, full spin
-transport, chirality allocation, and both halves. Then compose the admitted
-carrier with the already banked off-diagonal equation-9.16 zero-order cells.
-The full `d0+varpi` derivative collision must remain explicit. A third bounded
-gate should test the three declared horns for joint typing without deriving or
-choosing any of them.
+Given admitted O/Spin overlaps, the complete moving horizontal/normal
+`kappa_J` square passes with induced Grams, separate coframe cocycles, graded
+normal Clifford action, full right-domain transport, chirality allocation,
+and both halves. The result is conditional naturality, not construction of an
+observer atlas or global Spin/PS cocycle.
+
+The downstream composition with the off-diagonal equation-9.16 zero-order
+cells is typed. Intrinsic internal-complex ranks on the six fixtures are
+`0/8/12/16/12/16`; the nonflat CB-5 fixed-frame ranks remain chartwise only.
+The eight horn rows form a prerequisite ledger, not a proof that concrete
+FCORR/ALIGN/PSRED witnesses coexist.
+
+### CB-7 — reverse-conditional full-cell half/duality classifier — next
+
+Begin from the superposition hypothesis that each displayed `d0+varpi` cell
+has one homogeneous typed realization. Derive the necessary ambient-half,
+form-degree, derivative, H210 parity, barred-row density-dual, and product-
+grading equations. Exhaust only source-faithful same-half, opposite-half, and
+degree-twisted conventions already present in the repository. Require both
+forward cells, both reverse-shaped cells, both halves, and the section-11.2
+source labels simultaneously. Stop before action, selector, graph, family-row,
+reduction, quotient, external-datum, mass, or spectrum work.
 
 ## 7. Reprioritization
 
 | path-relative item | priority | fertility | reason |
 |---|---:|---:|---|
-| full correlated-lift naturality | 1 | `8/10` | horizontal F/Q naturality passed; the moving normal trace partner is the remaining functorial debt |
-| off-diagonal equation-9.16 composition | 2 | `7/10` | enter after the full lift; preserve the derivative-half collision |
-| `H210-FCORR` / `H210-ALIGN` / `H210-PSRED` compatibility | 3 | `6/10` | test jointly as declared inputs without deriving them |
-| `H210-PSRED` overlap descent by itself | 4 | `5/10` | carry as a horn; current twistors do not supply it and deriving it is off limits |
-| fixed trace-`Hq` adverse subhorn | 5 | `4/10` | keep the one-phase failure as a control, not a source-level H210 kill |
+| reverse-conditional full `d0+varpi` typing classifier | 1 | `8/10` | derive the source-faithful half/form-degree/duality conditions for one homogeneous displayed cell |
+| global O/Spin descent ceiling audit | 2 | `6/10` | distinguish conditional naturality from an actual atlas and triple cocycle without selecting a graph |
+| all-three PS overlap replay | 3 conditional | `4/10` with a concrete witness; `1/10` without | otherwise it merely restates the declared PSRED horn |
+| fixed trace-`Hq` adverse subhorn | 4 | `4/10` | keep the one-phase failure as a control, not a source-level H210 kill |
 | `H54` / `HBOTH` routes | fallback | `3/10` to `5/10` | use only if the H210 carrier-fit chain fails or both ports become conditionally admissible |
 | full `945/1050` branching | retired | `0/10` | exact saturation already proves both singlet counts zero |
 | single-irrep common-owner alignment | retired | `0/10` | HE-4 excludes it |
 | more projected-rank strata | retired | `1/10` | generic locus plus exact counterexamples settle the classifier question |
+| more intrinsic kappa-rank strata | retired | `1/10` | CB-6 closes the bounded naturality/rank gate |
+| more Boolean horn matrices | retired | `0/10` | CB-6 closes the prerequisite ledger; witness existence remains assumed |
 | deriving the source action or importing an external selector | off-limits | not scored | violates the conditional-build lane contract |
 
 Relative to the wider exploration portfolio, this path remains first for one
-more bounded swing because CB-1 through CB-5 pass and the full correlated
-square is now a sharp finite source-carrier falsifier. Failure demotes
-`H210-FCORR` while preserving the horizontal split; success earns the typed
-operator-composition gate. Neither outcome licenses manufacturing an action,
-selector, reduction, graph, family row, or external datum.
+more bounded swing because CB-1 through CB-6 pass and the full displayed-cell
+collision is now a sharp finite source/operator classifier. Neither outcome
+licenses manufacturing an action, selector, reduction, graph, family row, or
+external datum.
 
 ## Plain-English checkpoint
 
 We have now shown that the cleaner H210 connector fits the real K77 carrier,
 the zero-order part of two displayed fermion-operator cells, literal
-observation at the banked receiver, finite co-moving graph/Spin transport, and
-an exact four-dimensional trace/RS split. Observation can turn the upstream
-Z/partner port into an F-shaped trace, but the original port had zero source-F
-projection. The correlated F carrier can be constructed pointwise; its full
-moving horizontal/normal naturality remains the next gate. `H210-FCORR`,
-`H210-ALIGN`, and `H210-PSRED` name three different conditional bridges. It is
-still not this lane's job to invent what turns any of them on.
+observation, the intrinsic moving graph/normal Clifford geometry, and the
+correlated equation-(12.22) carrier type on admitted overlaps. Observation
+creates the downstream F-shaped adapter; the original Z/partner port had zero
+source-F projection. `H210-FCORR`, `H210-ALIGN`, and `H210-PSRED` name three
+different conditional bridges, and the Boolean ledger does not prove their
+witnesses coexist. The next question is whether the source's printed
+derivative and H210 terms can inhabit one homogeneous full cell without
+relabeling its halves or form degrees.

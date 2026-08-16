@@ -11,6 +11,7 @@ grade: "ROOT INTEGRATION of exact QQ/GF(1009)/GF(1013) certificates, source cust
 disposition: H210_4D_FQ_SPLIT_EXACT__PROJECTED_RANK_CLASSIFIER_EXHAUSTED__UPSTREAM_H210_IS_Z_NOT_F__POINTWISE_CORRELATED_LIFT_SURVIVES__FULL_CORRELATED_NATURALITY_AND_OPERATOR_COMPOSITION_NEXT
 canon_verdict_change: none
 steering_effect: "Retire further projected-rank sampling. The next conditional wave should first certify the complete moving horizontal/normal kappa square on both halves, then compose the admitted correlated carrier with the off-diagonal equation-9.16 zero-order cells. Keep H210-FCORR, H210-ALIGN, and H210-PSRED independent, and stop before all action/external-datum paths."
+successor_status: "CB-6 completed this scaffold. Its intrinsic induced-Gram kappa square and staged zero-order composition pass on admitted overlaps; its horn table is a prerequisite ledger only. The live next gate is CB-7 reverse-conditional full d0+varpi half/duality typing."
 depends_on:
   - lab/active-research/joe-directed/high-energy-two-plus-one/he4-path-reprioritization-2026-08-16.md
   - lab/active-research/joe-directed/high-energy-two-plus-one/cb4-wave-h210-naturality-reprioritization-2026-08-16.md
@@ -245,6 +246,16 @@ usual inline divergent-specialist preflight and archaeology:
 The hostile review should then attack the full correlated square, functor
 order, off-diagonal typing, horn independence, both halves, and all attempted
 source or physical promotions.
+
+## Successor status — CB-6 banked
+
+CB-6 completed the scaffold above. The full intrinsic horizontal/normal
+correlated-lift square passes on admitted O/Spin overlaps, and the isolated
+zero-order equation-(9.16) composition is typed. The intrinsic nonflat ranks
+supersede CB-5's fixed-frame chartwise ranks. The three-horn artifact is an
+eight-row prerequisite ledger, not proof that concrete horn witnesses coexist.
+The live successor is the reverse-conditional CB-7 classifier for the full
+`d0+varpi` half/form-degree/density-duality collision.
 
 ## Strict ceiling
 
