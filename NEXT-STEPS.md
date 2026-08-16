@@ -7,6 +7,24 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K122 COMPLETES THE NATIVE `I1B` STRUCTURAL OWNER
+> DECOMPOSITION, NOT THE NUMERICAL CUBIC.** For
+> `Pbar=(0,Phi1)`, `Hbar=(H,DB_LC[H])`, `Vbar=(0,V)` and
+> `Q_hh=(0,D2B_LC[H,H])`, the exact stationary slots are
+> `C_t_h_h=D3I1B[Pbar,Hbar,Hbar]+D2I1B[Pbar,Q_hh]`,
+> `C_t_h_v=D3I1B[Pbar,Hbar,Vbar]`, and
+> `C_t_v_v=D3I1B[Pbar,Vbar,Vbar]`. Only `t-h-h` receives a nonlinear
+> Levi-Civita second-jet correction. The unreduced preboundary columns are
+> `p_t=p_varpi[Phi1]`, `p_h=p_g[H]+p_varpi[DB_LC[H]]`, and
+> `p_v=p_varpi[V]`. Exact coordinate controls cancel all apparent metric
+> couplings of a torsion-only source-coordinate term. The known `8736` and
+> `-56/3` values are therefore retained only as intrinsic sub-summands.
+> **K123 must evaluate four full-`I1B` primitive tensor slots
+> coefficientwise before any unique pencil or spectral owner is tested.**
+> Keep `lambda` outside the native packet and do not promote preboundary
+> columns to physical charges before Green/BFV descent. Exact probe records
+> `32/32`.
+
 > **2026-08-15 K121 SELECTS A ROLE LINK, NOT AN ACTION-GERM IDENTITY.** The
 > source identifies the movable dark-energy carrier as the full equivariant
 > parameterized-torsion/connection-difference field. It does not identify the

@@ -1045,7 +1045,23 @@ current_result:
     the coordinate t: K122 must compute the complete native cubic and
     preboundary packet without importing I_sc coefficients, exposing lambda
     only at the later observed-translation interface.
+    K122 now closes the complete structural owner decomposition of that native
+    packet. With Pbar=(0,Phi1), Hbar=(H,DB_LC[H]), Vbar=(0,V), and
+    Q_hh=(0,D2B_LC[H,H]), the three stationary slots are
+    C_t_h_h=D3I1B[Pbar,Hbar,Hbar]+D2I1B[Pbar,Q_hh],
+    C_t_h_v=D3I1B[Pbar,Hbar,Vbar], and
+    C_t_v_v=D3I1B[Pbar,Vbar,Vbar]. Only t-h-h receives the nonlinear
+    Levi-Civita second-jet correction. The unreduced preboundary columns are
+    p_varpi[Phi1], p_g[H]+p_varpi[DB_LC[H]], and p_varpi[V]. Exact
+    source-coordinate controls cancel apparent metric couplings of the
+    torsion-only summand. The intrinsic 8736 and -56/3 coefficients remain
+    exact sub-summands, not the full I1B cubic. The decomposition is
+    structurally complete but current artifacts do not serialize four full
+    primitive tensor evaluations, so K123 must compute those coefficientwise
+    before any unique pencil or spectral/domain/attachment inference.
   evidence:
+    - explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md
+    - lab/process/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition.json
     - explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md
     - lab/process/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate.json
     - explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md

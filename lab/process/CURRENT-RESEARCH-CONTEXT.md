@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K122 native `I1B` owner decomposition:** with the exact
+> source-coordinate jet, the stationary native TT cubic is
+> `C_t_h_h=D3I1B[Pbar,Hbar,Hbar]+D2I1B[Pbar,Q_hh]`,
+> `C_t_h_v=D3I1B[Pbar,Hbar,Vbar]`, and
+> `C_t_v_v=D3I1B[Pbar,Vbar,Vbar]`. Only `t-h-h` receives the nonlinear
+> Levi-Civita second-jet correction. The pointwise preboundary columns are
+> `p_varpi[Phi1]`, `p_g[H]+p_varpi[DB_LC[H]]`, and `p_varpi[V]` before
+> reduction. This is a complete structural owner decomposition, not a
+> numerical cubic: K123 must evaluate four full-`I1B` primitive tensor slots.
+> The intrinsic `8736` and `-56/3` values remain sub-summands, `lambda` stays
+> outside the native packet, and no unique pencil, spectral owner, domain,
+> attachment or physical charge is selected.
+
 > **Current K121 scalar role/action-germ gate:** the source identifies the
 > dark-energy carrier as the full equivariant parameterized-torsion field,
 > not as a normalized scalar coefficient. The `I_sc` scalar horn and exact

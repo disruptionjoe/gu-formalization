@@ -1,0 +1,46 @@
+---
+title: "Hostile review — selected K122 native I1B owner decomposition"
+status: complete
+created: "2026-08-15"
+target_claim: K122_STRUCTURAL_DECOMPOSITION_IS_A_NUMERICALLY_COMPLETE_NATIVE_CUBIC
+verdict: STRUCTURAL_PACKET_PASSES__NUMERICAL_COMPLETENESS_REJECTED__FOUR_PRIMITIVE_EVALUATIONS_REMAIN
+lenses: [variational_calculus, source_coordinates, multilinear_algebra, action_custody, cartan_preboundary, hostile_falsification]
+---
+
+# Hostile review — K122 native I1B owner decomposition
+
+## Strongest attacks
+
+1. **The owned map jet makes every coefficient known.** Rejected. The map jet
+   determines how primitive tensors compose; it does not evaluate the full
+   `I1B` derivative/curvature/density/observation tensors that predecessors
+   explicitly leave open.
+2. **The intrinsic `-56/3` coefficient is the full native `t-v-v` answer.**
+   Rejected. It is the exact augmented-torsion zero-jet sub-summand. Full
+   `I1B` may add derivative, curvature, moving pairing/density, observation,
+   Euler-exact, or preboundary contributions.
+3. **The Levi-Civita second jet affects every TT channel.** Rejected. The
+   source-coordinate map has only `D2F_hh` nonzero, so the Hessian correction
+   occurs only in `t-h-h`. The `t-h-v` and `t-v-v` slots are pure primitive
+   trilinear evaluations.
+4. **Writing `I1B` in source coordinates creates physical metric couplings
+   from the intrinsic torsion term.** Rejected by the exact cancellation
+   control: for `T=varpi-B_LC(g)`, every apparent `B_LC` contribution cancels
+   after pullback to independent `(g,T)` coordinates.
+5. **Set the observed/native slope to one.** Mistyped. K122 is entirely native
+   in `t`; `lambda` belongs only to a later translation of the native result
+   and supplies no coefficient to the action.
+6. **The three preboundary columns are already physical charges.** Rejected.
+   They are the unreduced Cartan pullback. Green-domain selection, boundary
+   generators and BFV descent remain open.
+7. **A symbolic four-slot packet is no progress.** Rejected. It removes the
+   prior undifferentiated owner list, proves the exact support of the nonlinear
+   map correction, preserves cancellation identities, and makes the next
+   computation falsifiable coefficient by coefficient.
+
+## Verdict
+
+Pass at exact local stationary structural-owner grade. The native cubic and
+preboundary decomposition is complete as a typed formula, but the numerical
+`I1B` cubic is not complete. K123 must evaluate exactly four primitive tensor
+slots before any unique pencil, spectral owner, or physical descent claim.

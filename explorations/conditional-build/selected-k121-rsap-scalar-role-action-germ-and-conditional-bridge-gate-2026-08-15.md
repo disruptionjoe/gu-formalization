@@ -308,6 +308,16 @@ phenomenology or GU truth-status claim changes.
 
 Exact probe: `38/38`.
 
+## K122 successor closure — 2026-08-15
+
+K122 completes the native stationary structural decomposition without
+importing `I_sc` or choosing `lambda`. Only `t-h-h` contains the
+`D2I1B[Pbar,D2B_LC(H,H)]` map-jet correction; `t-h-v` and `t-v-v` are pure
+primitive trilinear slots. The three unreduced preboundary columns also pull
+back exactly. Four full-`I1B` primitive tensor evaluations remain
+unserialized, so K123 must compute those before a numerical cubic, unique
+pencil, spectral owner or physical boundary class can be claimed.
+
 Reproduce:
 
 ```bash
