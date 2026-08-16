@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2e35807f1ea19cfa81d7c7a0c66d31bd9c5a6bba
+revision_basis: e5a36d2182ebecc7a4a41d5a054e325e339881d5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -994,7 +994,23 @@ current_result:
     The next gate is the action normalization of alpha_II and a
     structure-preserving source-variable-to-TT Jacobian comparison to the
     exact transport.
+    K114 closes the normalization horn. Splitting the TT dynamics into free
+    and interaction pieces gives the exact invariant
+    [L_0,L_1]=b(alpha_II-1)G. Under every invertible linear field change this
+    commutator transforms by similarity, so its vanishing cannot be created
+    by coordinates. The complete transformations preserving the recorded
+    free mass block, interaction ray and kinetic normal form send alpha_II
+    only to alpha_II or 2-alpha_II. The point alpha_II=1 is fixed by both
+    branches and cannot be reached from alpha_II!=1. Thus zero transport is
+    the genuine invariant locus where free and interaction dynamics commute
+    and share fixed spectral directions, not a normalization artifact. The
+    condition remains action-unselected: alpha_II is still charged as U7 and
+    only positivity is currently used. The next live owner test is therefore
+    the generic-alpha source/action moving-TT Jacobian against K113 transport,
+    or genuinely new source/action evidence selecting the commuting locus.
   evidence:
+    - explorations/conditional-build/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate-2026-08-15.md
+    - lab/process/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate.json
     - explorations/conditional-build/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate-2026-08-15.md
     - lab/process/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate.json
     - explorations/conditional-build/selected-k112-rsap-spectral-connection-variational-owner-port-2026-08-15.md
@@ -1226,11 +1242,12 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the selected action derive alpha_II=1 in the recorded TT normalization,
-  making K113 transport vanish, or does its source-variable-to-moving-TT
-  Jacobian induce exp(-(phi(u)-phi(u0))G) and the complete K113 coefficient packet?
-  If so, can the separately open boundary or cohomological attachment carry
-  that owned package into the conditional 98D BV-BFV complex and closed domain?
+  For generic alpha_II!=1, does a source- or action-derived moving-TT Jacobian
+  induce exp(-(phi(u)-phi(u0))G) and the complete K113 coefficient packet, or
+  does new source geometry or an Euler equation select the invariant commuting
+  locus alpha_II=1? If either owner exists, can the separately open boundary or
+  cohomological attachment carry that owned package into the conditional 98D
+  BV-BFV complex and a selected closed domain?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1331,12 +1348,19 @@ next_condition: >-
   exp(-(phi(u)-phi(u0))G). It identifies the unselected alpha_II=1 zero-transport
   locus and excludes boundary-only ownership of the interior coefficient,
   while preserving boundary domain selection and non-invariant/boundary/
-  cohomological attachment as different open jobs. Park repeated fixed-
+  cohomological attachment as different open jobs. K114 proves that this
+  zero-transport locus is not removable field normalization: the exact
+  free/interaction commutator b(alpha_II-1)G transforms by similarity under
+  every invertible field change, and the full structure-preserving
+  redefinition class sends alpha_II only to alpha_II or 2-alpha_II. The
+  commuting point is fixed and remains a genuine but action-unselected U7
+  coefficient relation. Park repeated fixed-
   background positivity and invariant linear attachment algebra over the
   current inventory. Retain the reverse scaffold through its exact classical
   layer and the minimal variational TT completion only at reconstruction
-  grade. Reopen by deriving the action normalization of alpha_II or comparing
-  an action-derived moving-TT Jacobian to the K113 transport, then compose a
+  grade. Reopen by comparing a generic-alpha action-derived moving-TT Jacobian
+  to the K113 transport or by producing genuinely new source/action evidence
+  selecting the invariant commuting locus, then compose a
   non-invariant, nonlinear, boundary or cohomological 2D-to-98D map carrying a
   selected closed positive physical domain. This does not kill future
   nonlinear, nonlocal, contour, Wick or boundary constructions and does not

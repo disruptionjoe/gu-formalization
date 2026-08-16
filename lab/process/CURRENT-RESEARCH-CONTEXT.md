@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K114 TT alpha normalization-invariant gate:** K113's
+> `alpha_II=1` zero-transport locus is not a field-coordinate convention. The
+> free and interaction dynamics have exact commutator
+> `b(alpha_II-1)G`, which transforms by similarity under every invertible
+> field change. Transformations preserving the recorded free mass block,
+> interaction ray and kinetic normal form send `alpha_II` only to
+> `alpha_II` or `2-alpha_II`; one is a fixed point and cannot be reached from
+> any other value. The invariant content is commuting free/interaction
+> dynamics and fixed spectral directions. This condition is genuine but not
+> selected: `alpha_II` remains charged as `U7`. Stop normalization detours.
+> Next test a generic-alpha source/action moving-TT Jacobian against K113, or
+> require new source/action evidence selecting the commuting locus. The
+> stationary background, `98D` attachment and closed physical domain remain
+> open.
+
 > **Current K113 TT transport normal form and boundary-support gate:** K112's
 > reconstructed minimal variational connection is exactly `A_C=G dphi`, with
 > one fixed `K`-skew involution and closed-form parallel transport

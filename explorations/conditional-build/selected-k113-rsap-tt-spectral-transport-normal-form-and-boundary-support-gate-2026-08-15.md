@@ -206,3 +206,14 @@ phenomenology or GU truth-status claim changes. Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k113_rsap_tt_spectral_transport_normal_form_and_boundary_support_gate_probe.py
 ```
+
+## Successor closure (K114)
+
+K114 excludes the normalization horn. The exact free/interaction commutator
+is `b(alpha_II-1)G` and transforms by similarity under every invertible field
+change. The complete redefinitions preserving the recorded TT structural
+normal form send `alpha_II` only to `alpha_II` or `2-alpha_II`; the point one
+is fixed. Thus K113's zero transport is a genuine invariant alignment locus,
+not a removable convention, while remaining action-unselected. Continue with
+the generic-alpha source/action moving-TT Jacobian audit or genuinely new
+evidence selecting the commuting locus.

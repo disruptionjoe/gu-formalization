@@ -7,6 +7,22 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K114 `alpha_II=1` IS A GENUINE ALIGNMENT CONDITION, NOT A
+> FIELD-NORMALIZATION TRICK.** For the TT pencil, the free and interaction
+> dynamics obey `[L_0,L_1]=b(alpha_II-1)G`. Every invertible field change
+> conjugates this commutator, so it cannot turn a noncommuting pencil into the
+> commuting zero-transport one. The complete changes preserving the recorded
+> free mass block, interaction ray and kinetic normal form send `alpha_II`
+> only to `alpha_II` or `2-alpha_II`; the point one is fixed. This excludes
+> K113's normalization horn but does not select the coefficient: `alpha_II`
+> remains the charged `U7`, with no current source/action equation fixing it.
+> **Stop trying to remove the K113 transport by field rescaling. For generic
+> `alpha_II!=1`, compare a source- or action-derived moving-TT Jacobian to the
+> exact K113 transport. Reopen the zero-transport route only with new source
+> geometry or an Euler equation selecting the invariant commuting locus.**
+> Boundary/cohomological `2D`-to-`98D` attachment and a selected closed domain
+> remain separate open jobs.
+
 > **2026-08-15 K113 THE MOVING TT OWNER TEST IS ONE EXACT JACOBIAN, AND
 > BOUNDARY OWNERSHIP IS NOT BOUNDARY ATTACHMENT.** K112's connection reduces
 > to `A_C=G dphi`, with fixed `K`-skew involution

@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_alpha_normalization_invariant_and_structure_preserving_redefinition_gate",
+  "created": "2026-08-15",
+  "status": "NORMALIZATION_HORN_EXCLUDED__ZERO_TRANSPORT_IS_INVARIANT_FREE_INTERACTION_ALIGNMENT__GENUINE_BUT_ACTION_UNSELECTED",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "GAPPED_REAL_TWO_FIELD_TT_PENCIL__LINEAR_FIELD_REDEFINITIONS__RECORDED_ACTION_NORMAL_FORM",
+  "target_claim": {
+    "id": "K113_NEXT_GATE__alpha_II_ONE_MAY_BE_A_FIELD_NORMALIZATION_RATHER_THAN_A_GENUINE_ACTION_COEFFICIENT_CONDITION",
+    "verdict": "EXCLUDED_BY_SIMILARITY_INVARIANT_COMMUTATOR_AND_COMPLETE_STRUCTURE_PRESERVING_REDEFINITION_CLASSIFICATION"
+  },
+  "owner_packet": {
+    "carrier": "REAL_TWO_FIELD_OBSERVED_TT_FLUCTUATION",
+    "form": "K(alpha)=[[alpha,1],[1,0]]",
+    "real_structure": "ORDINARY_REAL_TWO_COMPONENT_FIELD",
+    "grading": "K113_SPECTRAL_PLUS_MINUS_INVOLUTION_C(u)",
+    "action_owner": "RECORDED_TT_QUADRATIC_PENCIL__alpha_II_CHARGED_AS_U7",
+    "target": "NORMALIZATION_VERSUS_INVARIANT_COEFFICIENT_RELATION",
+    "assumptions": ["b!=0", "invertible_linear_field_change", "K113_gapped_component"],
+    "claim_ceiling": "EXACT_FINITE_DIMENSIONAL_PENCIL_CLASSIFICATION"
+  },
+  "invariant": {
+    "L0": "K^-1*M0",
+    "L1": "K^-1*v*v^T",
+    "commutator": "[L0,L1]=b*(alpha-1)*G",
+    "G": "[[-1,0],[alpha,1]]",
+    "G_squared": "IDENTITY",
+    "vanishing_iff": "alpha=1_FOR_b_NONZERO",
+    "field_change_law": "[L0_prime,L1_prime]=S^-1*[L0,L1]*S",
+    "coordinate_invariants": ["vanishing", "rank", "similarity_class"],
+    "meaning": "FREE_AND_INTERACTION_DYNAMICS_SHARE_FIXED_SPECTRAL_DIRECTIONS"
+  },
+  "structure_preserving_classification": {
+    "preserved_data": ["free_mass_kernel_and_distortion_only_block", "interaction_ray_R*(1,1)", "kinetic_normal_form_up_to_overall_action_scale"],
+    "general_shape": "S=[[a,c],[0,e]], c=a-e",
+    "branch_A": {
+      "condition": "c=0",
+      "alpha_prime": "alpha"
+    },
+    "branch_B": {
+      "condition": "alpha*c+2*e=0",
+      "alpha_prime": "2-alpha",
+      "b_prime": "alpha*b/(2-alpha)",
+      "u_prime": "(2-alpha)*u/alpha",
+      "invariant_mass_pole": "alpha_prime*b_prime=alpha*b",
+      "positive_normalization_domain": "0<alpha<2"
+    },
+    "alpha_orbit": "SUBSET_OF_{alpha,2-alpha}",
+    "alpha_one_is_fixed": true,
+    "alpha_not_one_can_map_to_one": false
+  },
+  "ownership": {
+    "alpha_II_registry_slot": "U7",
+    "current_assumption": "alpha_II>0",
+    "source_or_action_selects_alpha_II_one": false,
+    "normalization_horn": "EXCLUDED",
+    "generic_alpha_K113_transport_target": "RETAINED",
+    "next_test": "SOURCE_OR_ACTION_MOVING_TT_JACOBIAN_AGAINST_K113_TRANSPORT"
+  },
+  "ceilings": {
+    "stationary_moving_background": "NOT_CONSTRUCTED",
+    "closed_positive_quantum_domain": "NOT_CONSTRUCTED",
+    "typed_98d_attachment": "OPEN_NONINVARIANT_NONLINEAR_BOUNDARY_OR_COHOMOLOGICAL_ONLY",
+    "physical_BFV_cohomology": "OPEN"
+  },
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "transport_normal_form": "lab/process/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate.json",
+    "action_coefficient_census": "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+  },
+  "artifact": "explorations/conditional-build/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k114_rsap_tt_alpha_normalization_invariant_owner_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate-review.md"
+}
