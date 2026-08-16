@@ -9,7 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
-> **Current K116 TT frame-consistency correction:** K110--K115 combined raw
+> **Current K117 TT symbol-order correction:** the owned fixed-symbol response
+> is `delta J_hh(z)=d z E_hh`, inherited from `a -> a+beta theta`. K116 fixed
+> the coordinate frame but not the differential order: its zero-order mass
+> insertion is not the literal action-derived target. The observed `hh` horn
+> instead moves `K(r)=[[r,1],[1,0]]`; its unique `K/C` connection is
+> `diag(1,-1)dlog(r)/2`, while the literal divergence-form Euler coefficient
+> fails to parallelize `C` for moving `r`. An exact full-pencil
+> field-redefinition completion has the same `hh` derivative and different
+> `h-v` response, so the full selected moving pencil remains underdetermined.
+> Start K118 at the full moving `D3 I_selected` owner. Do not reuse K116's
+> mass-deformed packet as action-derived, and do not run another transport
+> census until the full third derivative selects a pencil.
+
+> **Historical K116 TT frame-consistency correction, superseded as an action target by K117:** K110--K115 combined raw
 > `(h,v)` `K,M0` with the eigenmode `(q0,qm)` interaction Hessian. In either
 > consistent frame, `Delta=b(alpha_II^2 b+4u)` and
 > `A_C=H du/(alpha_II^2 b+4u)` with

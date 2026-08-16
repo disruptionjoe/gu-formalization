@@ -2,7 +2,13 @@
   "schema_version": "1.0",
   "artifact_type": "rsap_tt_frame_consistency_correction_and_transport_gate",
   "created": "2026-08-15",
-  "status": "PASS__K110_K115_CONCRETE_PENCIL_SUPERSEDED__CONSISTENT_ONE_WALL_NONZERO_ALL_ALPHA_TRANSPORT_BUILT",
+  "status": "SUPERSEDED_AS_ACTION_TARGET_BY_K117__COORDINATE_CUSTODY_METHOD_RETAINED",
+  "further_correction": {
+    "superseded_by": "lab/process/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate.json",
+    "reason": "INHERITED_d_z_Ehh_KINETIC_RESPONSE_WAS_RETYPED_AS_ZERO_ORDER_MASS",
+    "survives": "COORDINATE_FRAME_CUSTODY_METHOD_AND_TWENTY_LENS_REVERSE_SCAFFOLD",
+    "concrete_action_target_survives": false
+  },
   "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
   "scope": "SELECTED_REAL_TWO_FIELD_TT_PENCIL__RAW_AND_FREE_EIGENMODE_FRAME_CUSTODY__LOCAL_RECONSTRUCTION_GRADE",
   "target_claim": {

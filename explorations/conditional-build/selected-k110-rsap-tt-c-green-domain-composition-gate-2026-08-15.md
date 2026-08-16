@@ -16,8 +16,13 @@ canon_verdict_change: none
 > **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the abstract
 > fixed-background spectral-`C`/Green composition survives, but the concrete
 > `C`, discriminant, positivity component and walls below used a mixed-frame
-> pencil. Reinstantiate them from K116's consistent raw or eigenmode triple.
-> In particular there is one wall `alpha^2 b+4u=0`, not two.
+> pencil. K116 historically repaired that frame mismatch, but K117 below
+> supersedes its mass-deformed action target as well.
+
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116's replacement also is
+> not action-derived: the owned response is kinetic `d z E_hh`, not a mass
+> insertion. Only the abstract fixed-pencil `C`/Green composition survives;
+> await the full moving `D3 I_selected` owner before reinstantiation.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV carrier question. Ordinary Higgs/VEV,

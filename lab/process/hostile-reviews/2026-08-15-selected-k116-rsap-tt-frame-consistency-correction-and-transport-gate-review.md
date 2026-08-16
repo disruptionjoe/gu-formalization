@@ -8,6 +8,12 @@ artifact: explorations/conditional-build/selected-k116-rsap-tt-frame-consistency
 
 # Hostile review
 
+> **K117 SYMBOL-ORDER CORRECTION:** this historical review predates the
+> discovery that the inherited response is kinetic `d z E_hh`, not K116's
+> zero-order mass insertion. Its frame-custody objections survive; its
+> concrete `H dpsi` owner target and final next-step sentence do not. Use the
+> K117 hostile review for the current gate.
+
 ## Strongest objections
 
 1. **Perhaps `K`, `M0`, and `vv^T` were deliberately redefined in one new
@@ -43,4 +49,6 @@ artifact: explorations/conditional-build/selected-k116-rsap-tt-frame-consistency
 
 Pass at exact local correction grade. The prior concrete K110--K115 packet
 must remain visibly superseded wherever current agents encounter it. The
-next owner swing is admissible only against the corrected `H dpsi` target.
+historical next-owner conclusion is superseded by K117. The current next swing
+must construct the full moving `D3 I_selected` owner before selecting a new
+transport target.

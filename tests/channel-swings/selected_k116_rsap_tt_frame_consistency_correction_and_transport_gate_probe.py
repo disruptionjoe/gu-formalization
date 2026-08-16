@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact checks for the K116 TT frame-consistency correction."""
+"""Historical K116 frame audit; concrete action target superseded by K117."""
 
 from pathlib import Path
 import json
@@ -103,10 +103,11 @@ current_state = (ROOT / "CURRENT-STATE.yaml").read_text()
 roadmap = (ROOT / "NEXT-STEPS.md").read_text()
 context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 research_status = (ROOT / "RESEARCH-STATUS.md").read_text()
-check("repo", "current question uses corrected transport", "F0 exp((psi-psi0)H)" in current_state)
-check("repo", "roadmap leads with K116 correction", "K116 CORRECTS THE TT TRANSPORT TARGET" in roadmap)
+check("repo", "current question routes through full moving third derivative", "full moving third derivative" in current_state.lower())
+check("repo", "roadmap preserves K116 as superseded predecessor", "K116 CORRECTS THE TT TRANSPORT TARGET" in roadmap and "K117" in roadmap[:3000])
 check("repo", "agent context blocks historical owner census", "Do not run an owner census against" in context)
 check("repo", "research status records downgrade", "K116 TT frame-consistency correction" in research_status and "superseded in full" in research_status)
+check("repo", "K116 artifact records K117 symbol-order correction", "K117 SYMBOL-ORDER CORRECTION" in artifact)
 
 for rel in [
     "explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md",

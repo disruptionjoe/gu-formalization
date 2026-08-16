@@ -14,10 +14,15 @@ canon_verdict_change: none
 # Selected-K112 RSAP spectral-connection variational owner port
 
 > **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the minimal covariant
-> quadratic and its ownership ceilings survive structurally, but its concrete
-> connection must be replaced by K116's consistent
-> `A_C=H du/(alpha^2 b+4u)`. Do not reuse the predecessor's two-wall or
-> `alpha=1` conclusions.
+> quadratic and its ownership ceilings survive structurally. K116 repaired
+> the predecessor's frame mismatch, but its concrete mass-deformed connection
+> is itself superseded by K117 below. Do not reuse either concrete target.
+
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116's mass-deformed
+> connection is itself superseded as an action target. The owned `d z E_hh`
+> response moves the kinetic form. Retain only the general variational-
+> reconstruction and ownership-ceiling method until the full moving Hessian
+> selects a pencil.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > variational, Krein/Green and balanced BV-BFV carrier question. Ordinary

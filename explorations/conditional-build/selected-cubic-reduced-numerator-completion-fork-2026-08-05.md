@@ -311,3 +311,13 @@ CONSTRUCT_FULL_MOVING_D3_I_SELECTED_ON_THETA_Q0_QM_AND_THETA_QM_QM
 INCLUDING_HV_OBSERVATION_SHIAB_PAIRING_COMPENSATOR_AND_PREBOUNDARY_RESPONSE
 THEN_RESTRICT_THE_RESULTING_HAMILTONIAN_CLASS_TO_THE_EXACT_SHELLS
 ```
+
+## Successor closure: K117
+
+K117 shows that this completion fork is again the controlling dependency.
+The inherited `delta J_hh(z)=d z` response fixes its differential order but
+still does not fix the `h-v` response: the `hh`-only kinetic completion and
+the full-pencil field-redefinition completion remain inequivalent. K116's
+intervening zero-order mass target is superseded. The current successor is
+therefore K118's full moving `D3 I_selected` construction named above, not
+another spectral calculation on a guessed pencil.

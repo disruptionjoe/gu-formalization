@@ -1,7 +1,7 @@
 ---
 artifact_type: construction_result
 created: 2026-08-05
-status: SUPERSEDED_BY_K116_FRAME_MISMATCH__RETAINED_AS_HISTORICAL_PROVENANCE
+status: SUPERSEDED_BY_K117_FRAME_AND_SYMBOL_ORDER__RETAINED_AS_HISTORICAL_PROVENANCE
 source_return: SOURCE-SILENT
 ledger_rows: [LT-GR2b, LT-GR3, LT-GR5, LT-SM8]
 scripts:
@@ -19,6 +19,11 @@ registry: lab/process/first-perturbative-background-c-operator.json
 > in one consistent frame `Delta=b(alpha^2 b+4u)`, there is one gap wall, and
 > the moving connection is nonzero at `alpha=1`. Retain this file only as the
 > provenance record of the historical calculation and its scope ceilings.
+
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116 repaired the frame but
+> not the differential order. The inherited response is `d z E_hh`, a kinetic
+> change, not a zero-order mass term. Use the K117 symbol-order gate; no
+> concrete pencil in this file or K116 is the selected full moving action.
 
 ## Result first
 

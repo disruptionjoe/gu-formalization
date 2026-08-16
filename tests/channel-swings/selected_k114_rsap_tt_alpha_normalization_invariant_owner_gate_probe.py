@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Historical mixed-frame K114 certificate; result superseded in full by K116."""
+"""Historical mixed-frame K114 certificate; result superseded through K116/K117."""
 
 from __future__ import annotations
 
@@ -169,8 +169,8 @@ current_text = CURRENT.read_text(encoding="utf-8")
 next_text = NEXT.read_text(encoding="utf-8-sig")
 context_text = CONTEXT.read_text(encoding="utf-8")
 k113_result = (ROOT / "explorations/conditional-build/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate-2026-08-15.md").read_text(encoding="utf-8")
-check("roadmap", "CURRENT records K114 as superseded in full",
-      "K114" in current_text and "superseded in full" in current_text.lower())
+check("roadmap", "CURRENT records K114 as superseded through K117",
+      "K114" in current_text and "superseded" in current_text.lower() and "K117" in current_text)
 check("roadmap", "NEXT retracts the normalization result",
       "K114" in next_text and "normalization result" in next_text and "superseded" in next_text.lower())
 check("roadmap", "context blocks reuse of the alpha orbit conclusion",

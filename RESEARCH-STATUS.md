@@ -8,7 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**K116 TT frame-consistency correction 2026-08-15 (local exact correction;
+**K117 TT symbol-order custody and moving-Hessian gate 2026-08-15 (local
+exact correction; no canon/public-posture change).** The inherited response
+is `delta J_hh(z)=d z E_hh`, because the scalar horn replaces the Einstein
+kinetic coefficient `a -> a+beta theta`. K116 repaired the coordinate frame
+but dropped `z` and treated the response as a zero-order mass term; its
+concrete spectral packet is therefore not action-derived. Restoring order
+gives the exact observed `hh` horn `K(r)=[[r,1],[1,0]]`, with one wall `r=0`
+and unique simultaneous `K/C` connection
+`A_*=diag(1,-1)dlog(r)/2`. The literal divergence-form Euler connection is
+not `C`-compatible for moving `r`. Moreover, the previously constructed
+full-pencil field-redefinition completion shares the same inherited `hh`
+entry but has a different `h-v` entry and fixed spectrum. Thus the complete
+moving `Y14` Hessian and any action-owned transport remain underdetermined.
+K118 resumes the full moving third-derivative owner; K119 transport, K120
+stationarity/domain and K121 attachment remain conditional on that result.
+Exact probe `43/43`. See
+`explorations/conditional-build/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| K116 concrete pencil | corrected coordinate-frame target | superseded as action-derived target | differential-order custody | status, canon, derivation, roadmap, papers | K116 packet and current surfaces |
+| observed scalar `hh` horn | fixed-symbol derivative | exact kinetic horn; moving transport owner fails | full Euler coefficient | same | K117 artifact/registry/probe |
+| complete moving `Y14` pencil | implicitly treated as selected | underdetermined | full moving `D3 I_selected`, especially `h-v` response | same | moving-completion fork and current surfaces |
+
+**Historical K116 TT frame-consistency correction, superseded as an action
+target by K117, 2026-08-15 (local exact correction;
 no canon/public-posture change).** The concrete K110--K115 transport packet
 mixed coordinate frames: it retained raw metric/distortion `K,M0` while
 inserting the free-eigenmode cubic Hessian `u vv^T`. In one consistent frame,

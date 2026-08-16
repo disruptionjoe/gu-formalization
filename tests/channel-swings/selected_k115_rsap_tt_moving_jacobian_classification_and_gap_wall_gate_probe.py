@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Historical K115 certificate; concrete fingerprint superseded by K116.
+"""Historical K115 certificate; concrete fingerprint superseded through K116/K117.
 
 The abstract local moving-frame ODE classification survives.
 """

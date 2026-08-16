@@ -20,6 +20,11 @@ canon_verdict_change: none
 > `H=[[1,0],[-alpha,-1]]`, `psi=(1/4)log(alpha^2 b+4u)`, and it is nonzero at
 > `alpha=1` when `du` is nonzero.
 
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116's `H dpsi` is not an
+> inherited action target either; it retyped `d z E_hh` as a mass term.
+> Retain only the abstract one-generator/local-ODE and boundary-support
+> statements. The next concrete adapter target waits on full moving `D3I`.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV action-owner question. Ordinary
 > Higgs/VEV, family-index, net-chirality, anomaly, symmetry-breaking and

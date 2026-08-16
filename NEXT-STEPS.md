@@ -7,7 +7,25 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
-> **2026-08-15 K116 CORRECTS THE TT TRANSPORT TARGET BEFORE THE NEXT OWNER
+> **2026-08-15 K117 RESTORES TT SYMBOL ORDER AND REOPENS THE FULL MOVING
+> HESSIAN OWNER.** The inherited interaction is
+> `delta J_hh(z)=d z E_hh`, from `a -> a+beta theta`; it changes the kinetic
+> coefficient and vanishes at `z=0`. K116 correctly repaired the coordinate
+> frame but incorrectly retyped this response as a zero-order mass insertion.
+> Its concrete spectral packet is therefore hypothetical, not an inherited
+> action target. The exact observed `hh` horn has
+> `K(r)=[[r,1],[1,0]]`, `M0=[[0,0],[0,b]]`, one wall `r=0`, and unique
+> simultaneous form/grading connection
+> `A_*=diag(1,-1)dlog(r)/2`; its literal divergence-form Euler coefficient
+> does not own that connection for moving `r`. A full-pencil field-redefinition
+> completion shares the same observed `hh` derivative but has different
+> `h-v` response and fixed spectrum, proving that the current datum does not
+> select a unique moving pencil. **K118 must construct the full moving third
+> derivative `D3 I_selected`, especially its `h-v` and geometric responses,
+> before any new spectral owner match.** Then K119 may test transport, K120
+> stationarity/domain, and K121 attachment. Exact probe `43/43`.
+
+> **SUPERSEDED AS AN ACTION TARGET BY K117 — 2026-08-15 K116 CORRECTS THE TT TRANSPORT TARGET BEFORE THE NEXT OWNER
 > SWING.** K110--K115 combined the raw `(h,v)` kinetic/free-mass matrices with
 > the eigenmode `(q0,qm)` interaction Hessian. In one consistent frame,
 > `Delta=b(alpha_II^2 b+4u)` and

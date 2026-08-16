@@ -19,6 +19,11 @@ canon_verdict_change: none
 > `[L0,L1]=b[[1,0],[-alpha,-1]]`, which has rank two for every `alpha` when
 > `b!=0`; no `alpha=1` commuting or zero-transport locus exists.
 
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116's replacement
+> commutator belongs to a hypothetical mass deformation, not the inherited
+> kinetic response. This file remains superseded in full; no coefficient
+> locus should be reinstated before the complete moving action pencil exists.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV action-owner question. Ordinary
 > Higgs/VEV, family-index, net-chirality, anomaly, symmetry-breaking and

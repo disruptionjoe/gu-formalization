@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0",
   "correction": {"superseded_in_part_by": "lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json", "survives": "ABSTRACT_LOCAL_MOVING_FRAME_ODE_CLASSIFICATION", "replaced": "CONCRETE_G_PHI_FINGERPRINT_TWO_WALLS_AND_ALPHA_ONE_CONTROL"},
+  "further_correction": {"superseded_as_action_target_by": "lab/process/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate.json", "reason": "FULL_MOVING_D3I_REQUIRED_BEFORE_NEW_FINGERPRINT"},
   "artifact_type": "rsap_tt_complete_local_moving_jacobian_classification_and_gap_wall_gate",
   "created": "2026-08-15",
   "status": "LOCAL_ADAPTER_CLASS_UNIQUE_UP_TO_CONSTANT_FRAME__EXACT_VOLUME_AND_STRETCH_FINGERPRINT__NO_BOUNDED_INVERTIBLE_GAP_WALL_EXTENSION__NO_SERIALIZED_SOURCE_ACTION_OWNER",

@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_symbol_order_custody_and_moving_hessian_gate",
+  "created": "2026-08-15",
+  "status": "PASS__K116_ACTION_TARGET_SUPERSEDED_BY_SYMBOL_ORDER_ERROR__OBSERVED_HH_KINETIC_HORN_EXACT__FULL_MOVING_Y14_HESSIAN_UNDERDETERMINED",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "SELECTED_TWO_FIELD_TT_FIXED_SYMBOL_RESPONSE__OBSERVED_SCALAR_HORN__FULL_MOVING_ACTION_COMPLETION_BOUNDARY",
+  "target_claim": {
+    "id": "K116_CORRECTED_ZERO_ORDER_PENCIL_IS_THE_LITERAL_ACTION_DERIVED_MOVING_TT_HESSIAN_TARGET",
+    "verdict": "NO__INHERITED_RESPONSE_IS_d_z_Ehh_KINETIC_ORDER_NOT_ZERO_ORDER_MASS"
+  },
+  "owner_packet": {
+    "carrier": "REAL_TWO_FIELD_OBSERVED_TT_FLUCTUATION_x=(h,v)",
+    "symbol": "z_TT_DIFFERENTIAL_ORDER_MARKER",
+    "free_form": "K0=[[alpha,1],[1,0]]",
+    "free_lower_order": "M0=[[0,0],[0,b]]",
+    "known_owner": "FIXED_SYMBOL_hh_DERIVATIVE_FROM_OBSERVED_(a+beta*theta)R_HORN",
+    "missing_owner": "FULL_MOVING_Y14_D3I_WITH_hv_AND_GEOMETRIC_RESPONSES",
+    "claim_ceiling": "EXACT_OBSERVED_TWO_FIELD_HORN_PLUS_FULL_ACTION_UNDERDETERMINATION"
+  },
+  "symbol_order_correction": {
+    "inherited": "deltaJ_hh=d*z*Ehh",
+    "k116_used": "deltaJ=u*Ehh_IN_MASS_BLOCK",
+    "z_zero_control": "INHERITED_RESPONSE_ZERO__K116_RESPONSE_NONZERO",
+    "typed_identification": false,
+    "reason": "WOULD_REQUIRE_BACKGROUND_PARAMETER_TO_DEPEND_ON_FOURIER_SYMBOL"
+  },
+  "observed_hh_horn": {
+    "r": "alpha+d*theta_bar",
+    "K": "[[r,1],[1,0]]",
+    "M0": "[[0,0],[0,b]]",
+    "L": "[[0,b],[0,-r*b]]",
+    "C": "[[1,2/r],[0,-1]]",
+    "majorant": "[[r,1],[1,2/r]]",
+    "positive_component": "r>0__b>0",
+    "gap": "abs(r*b)",
+    "wall": "r=0"
+  },
+  "moving_connection": {
+    "compatibility_equations": ["dK=A^T*K+K*A", "dC+[A,C]=0"],
+    "unique_solution": "A_star=diag(1,-1)*dlog(r)/2",
+    "parallel_transport": "diag(sqrt(r0/r),sqrt(r/r0))",
+    "literal_first_order_coefficient": "B=K^-1*dK=[[0,0],[dr,0]]",
+    "literal_metric_connection": "A_lit=B/2",
+    "literal_C_parallel": false,
+    "mismatch_determinant": "-(dr/r)^2",
+    "moving_background_owner_match": false
+  },
+  "completion_fork": {
+    "hh_only": "K=[[alpha+d*t,1],[1,0]]__M=M0__MASSIVE_POLE_MOVES",
+    "field_redefinition": "J_fr=S^T*J0*S__S=diag(1+d*t/(2*alpha),1)__SPECTRUM_FIXED",
+    "shared_inherited_entry": "dJ_hh=d*z",
+    "unmeasured_discriminator": "h-v_RESPONSE",
+    "full_selected_action_pencil": "NOT_SELECTED"
+  },
+  "reverse_scaffold": {
+    "R0": "FIXED_SYMBOL_dJ_hh",
+    "R1": "FULL_MOVING_D3I_OWNER",
+    "R2": "UNIQUE_K_M_C_PENCIL_IF_SELECTED",
+    "R3": "FORM_AND_GRADING_COMPATIBLE_TRANSPORT",
+    "R4": "LITERAL_EULER_OWNER_MATCH",
+    "R5": "STATIONARITY_DOMAIN_BFV_ATTACHMENT",
+    "next_swings": ["K118_FULL_MOVING_D3I_OWNER", "K119_SPECTRAL_CONNECTION_AND_OWNER_MATCH_IF_SELECTED", "K120_STATIONARITY_AND_DOMAIN_IF_SURVIVES", "K121_ATTACHMENT_ONLY_AFTER_OWNERSHIP"]
+  },
+  "status_changes": {
+    "K116": "CONCRETE_ACTION_DERIVED_TARGET_SUPERSEDED__COORDINATE_CUSTODY_METHOD_RETAINED",
+    "K110_K115": "STRUCTURAL_ONLY__NO_CURRENT_CONCRETE_ACTION_PENCIL",
+    "moving_completion_fork": "RESTORED_AS_CONTROLLING_DEPENDENCY"
+  },
+  "checks": {"total": 43, "failures": 0},
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k117_rsap_tt_symbol_order_custody_and_moving_hessian_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate-review.md"
+}

@@ -15,9 +15,14 @@ canon_verdict_change: none
 
 > **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the abstract theorem
 > `A_C=(1/2)C dC` and its compatibility/uniqueness claims survive. Its
-> historical concrete `C(u)` came from a mixed-frame pencil. The corrected
-> instantiation is `A_C=H du/(alpha^2 b+4u)` with
-> `H=[[1,0],[-alpha,-1]]`; use K116 for any owner comparison.
+> historical concrete `C(u)` came from a mixed-frame pencil. K116 repaired
+> that frame mismatch, but its concrete mass-deformed target is itself
+> superseded by the K117 differential-order correction below.
+
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** do not use K116 for an
+> action-owner comparison. The inherited response moves `K`, and for moving
+> `K` the constant-form formula below is not the simultaneous compatibility
+> connection. The abstract fixed-form theorem survives; use K117 for scope.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV operator question. Ordinary Higgs/VEV,

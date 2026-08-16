@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3a0a1fc07af1099762c4897855be7125eda03d7e
+revision_basis: c8c632dd1fec0897fd346e5eca6e57e39b1878d6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -980,24 +980,26 @@ current_result:
     98D phase tangent. The surviving bridge must therefore be non-invariant,
     nonlinear, boundary or cohomological and action/background owned, with a
     selected closed positive domain.
-    K116 corrects the concrete K110--K115 pencil before another owner search.
-    Those runs retained raw (h,v) kinetic/free-mass matrices while inserting
-    the eigenmode (q0,qm) interaction Hessian. In either single consistent
-    frame the discriminant is b(alpha_II^2 b+4u), the free-connected positive
-    component has one wall alpha_II^2 b+4u=0, and
-    A_C=H du/(alpha_II^2 b+4u) with
-    H=[[1,0],[-alpha_II,-1]]. The connection is nonzero at alpha_II=1, and
-    [L_0,L_1]=bH has rank two for every alpha_II when b!=0. Therefore K114 is
-    superseded in full; K113's concrete G,phi/zero locus and K115's concrete
-    fingerprint/two-wall claims are also superseded. Their structural
-    one-generator, boundary-support and complete local-frame ODE results
-    survive after corrected reinstantiation, as do K110's fixed-background
-    composition, K111's abstract A_C theorem and K112's minimal variational
-    reconstruction. The next gate is the literal moving-background TT
-    Hessian in one source/action frame, including every derivative term,
-    compared coefficientwise to corrected H dpsi. Stationary background, 98D
-    attachment, closed positive domain and physical cohomology remain open.
+    K117 further corrects K116: the inherited fixed-symbol response is
+    delta J_hh(z)=d z E_hh, from the kinetic replacement
+    a -> a+beta theta, not a zero-order mass insertion. K116's coordinate
+    audit survives, but its concrete mass-deformed spectral packet is not an
+    inherited action target. The concrete K110--K115 packet, including K113's
+    adapter target and K114's locus, is therefore superseded; only explicitly
+    named structural results survive. The exact observed hh-only horn instead
+    has
+    K(r)=[[r,1],[1,0]], M0 fixed, one wall r=0 and unique simultaneous
+    K/C-compatible connection A_*=diag(1,-1)dlog(r)/2. Its literal
+    divergence-form Euler coefficient fails C compatibility for moving r.
+    A full-pencil field-redefinition completion shares the same inherited hh
+    derivative but has different h-v response and fixed spectrum, so the
+    complete moving Y14 Hessian and transport target remain underdetermined.
+    K118 must construct the full moving third derivative D3 I_selected before
+    K119 can perform another spectral owner match. Stationarity/domain and
+    2D-to-98D attachment remain later, separately typed gates.
   evidence:
+    - explorations/conditional-build/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate-2026-08-15.md
+    - lab/process/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate.json
     - explorations/conditional-build/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate-2026-08-15.md
     - lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json
     - explorations/conditional-build/selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate-2026-08-15.md
@@ -1235,13 +1237,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does the literal moving-background TT Hessian, derived without changing
-  coordinate frames mid-pencil and including every action-generated
-  derivative term, induce the corrected K116 transport
-  F0 exp((psi-psi0)H)? If such an owner exists, can
-  the separately open non-invariant, nonlinear, boundary or cohomological
-  attachment carry it into the conditional 98D BV-BFV complex and a selected
-  closed positive domain?
+  Does the full moving third derivative D3 I_selected, including the h-v and
+  geometric responses omitted by the inherited fixed-symbol hh datum, select
+  one moving two-field TT pencil? Only if it does, does that pencil's literal
+  Euler operator own the simultaneous form/grading transport, and can the
+  separately open stationarity, domain and 2D-to-98D BV-BFV gates be tested?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1337,21 +1337,18 @@ next_condition: >-
   reconstruction-grade action data rather than a current released-source
   term. It does not select u at zero TT field; its Green flux is not the
   balanced moment/gauge law; and every invariant linear 2D-to-98D attachment
-  vanishes by K107's 49D invariant-subquotient minimum. K116 supersedes the
-  concrete K113--K115 target after finding that raw-frame K,M0 had been mixed
-  with the eigenmode-frame interaction Hessian. In one consistent frame,
-  Delta=b(alpha_II^2 b+4u), there is one wall, and
-  A_C=H du/(alpha_II^2 b+4u) with
-  H=[[1,0],[-alpha_II,-1]]. It is nonzero at alpha_II=1 and
-  [L0,L1]=bH has rank two for all alpha_II, so K114 is superseded in full.
-  K113's one-generator and boundary-support results and K115's abstract local
-  frame ODE classification survive with corrected H,psi; their old G,phi,
-  two-wall, zero-locus and fingerprint claims do not. Retain the reverse
-  scaffold through its exact classical layer and the minimal variational TT
-  completion only at reconstruction grade. Reopen by deriving the literal
-  moving-background TT Hessian in one source/action frame, including every
-  derivative term, and comparing its Jacobian to corrected H dpsi; then
-  compose a
+  vanishes by K107's 49D invariant-subquotient minimum. K116 corrected the
+  K110--K115 coordinate-frame mismatch, but K117 finds that the inherited
+  response is d z E_hh at kinetic order, not K116's zero-order mass insertion.
+  The observed hh horn has moving K(r), one wall and an exact spectral
+  connection, but its literal Euler coefficient fails the transport owner
+  match. A full-pencil field-redefinition completion shares the same hh
+  response and has different h-v response and fixed spectrum. Therefore no
+  unique full moving Y14 pencil or action-owned transport is selected. Retain
+  the reverse scaffold through its exact classical layer and the minimal
+  variational TT completion only at reconstruction grade. Reopen with K118's
+  full moving D3 I_selected owner, then conditionally test transport before
+  composing a
   non-invariant, nonlinear, boundary or cohomological 2D-to-98D map carrying a
   selected closed positive physical domain. This does not kill future
   nonlinear, nonlocal, contour, Wick or boundary constructions and does not

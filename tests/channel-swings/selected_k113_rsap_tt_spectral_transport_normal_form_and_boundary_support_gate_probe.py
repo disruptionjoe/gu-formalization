@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Historical K113 certificate; G/phi and alpha-one locus superseded by K116.
+"""Historical K113 certificate; concrete target superseded through K116/K117.
 
 The one-generator and boundary-support results survive.
 """
@@ -152,8 +152,8 @@ current_text = CURRENT.read_text(encoding="utf-8")
 next_text = NEXT.read_text(encoding="utf-8-sig")
 context_text = CONTEXT.read_text(encoding="utf-8")
 k112_result = (ROOT / "explorations/conditional-build/selected-k112-rsap-spectral-connection-variational-owner-port-2026-08-15.md").read_text(encoding="utf-8")
-check("roadmap", "CURRENT marks K113 concrete target superseded by K116",
-      "K113" in current_text and "superseded" in current_text.lower() and "K116" in current_text)
+check("roadmap", "CURRENT marks K113 concrete target superseded through K117",
+      "K113" in current_text and "superseded" in current_text.lower() and "K117" in current_text)
 check("roadmap", "NEXT preserves boundary-support structure but replaces the concrete target",
       "K113" in next_text and "boundary-support" in next_text and "corrected" in next_text)
 check("roadmap", "context records that the alpha-one zero locus is superseded",

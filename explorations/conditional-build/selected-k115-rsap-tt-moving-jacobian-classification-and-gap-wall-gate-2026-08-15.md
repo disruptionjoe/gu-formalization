@@ -20,6 +20,11 @@ canon_verdict_change: none
 > `H=[[1,0],[-alpha,-1]]`, `psi=(1/4)log(alpha^2 b+4u)`, and single wall
 > `alpha^2 b+4u=0`. The corrected connection is nonzero at `alpha=1`.
 
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116's concrete fingerprint
+> is also superseded as an action target because the inherited `d z E_hh`
+> response is kinetic, not zero order. Retain only the abstract local-frame
+> ODE classification. A new fingerprint requires the full moving `D3I` owner.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein/Green moving-frame and action-owner question. Ordinary Higgs/VEV,
 > family-index, chirality, anomaly and symmetry-breaking constructions do not

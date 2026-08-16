@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0",
   "correction": {"superseded_in_part_by": "lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json", "survives": "A_C_HALF_C_dC_UNIQUENESS_AND_COMPATIBILITY", "replaced": "CONCRETE_C_AND_CONNECTION_INSTANTIATION"},
+  "further_correction": {"superseded_as_action_target_by": "lab/process/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate.json", "reason": "K_MOVES_AND_FULL_MOVING_PENCIL_IS_UNDERDETERMINED"},
   "artifact_type": "rsap_tt_moving_spectral_transport_connection_and_action_owner_gate",
   "created": "2026-08-15",
   "status": "UNIQUE_K_AND_C_COMPATIBLE_FLAT_SPECTRAL_TRANSPORT_CONNECTION_BUILT_ON_GAPPED_2D_TT_FAMILY__SELECTED_CUBIC_HESSIAN_DOES_NOT_OWN_THE_REQUIRED_DERIVATIVE_TERMS__FULL_ACTION_BFV_AND_98D_PORT_OPEN",

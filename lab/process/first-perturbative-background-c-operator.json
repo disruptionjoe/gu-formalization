@@ -1,7 +1,11 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-05",
-  "status": "SUPERSEDED_BY_K116_FRAME_MISMATCH__HISTORICAL_PROVENANCE_ONLY",
+  "status": "SUPERSEDED_BY_K117_FRAME_AND_SYMBOL_ORDER__HISTORICAL_PROVENANCE_ONLY",
+  "further_correction": {
+    "superseded_by": "lab/process/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate.json",
+    "reason": "K116_REPAIRED_FRAME_BUT_RETYPED_d_z_Ehh_AS_ZERO_ORDER_MASS"
+  },
   "correction": {
     "superseded_by": "lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json",
     "reason": "RAW_K_AND_M0_WERE_COMBINED_WITH_EIGENMODE_M1",

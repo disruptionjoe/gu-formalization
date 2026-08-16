@@ -1,6 +1,6 @@
 ---
 title: "Selected-K116 RSAP TT frame-consistency correction and transport gate"
-status: active_research
+status: superseded_as_action_target_by_k117
 doc_type: exact_coordinate_custody_correction_consistent_tt_spectral_transport_and_successor_gate
 created: "2026-08-15"
 registry: lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json
@@ -12,6 +12,15 @@ canon_verdict_change: none
 ---
 
 # Selected-K116 RSAP TT frame-consistency correction and transport gate
+
+> **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116 correctly repairs the
+> coordinate-frame mismatch, but its concrete action target is superseded.
+> The inherited response is `delta J_hh(z)=d z E_hh`, a kinetic/principal-
+> symbol change from `a -> a+beta theta`, not the zero-order mass insertion
+> used below. Use
+> `selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate-2026-08-15.md`.
+> Retain K116's coordinate-custody method and 20-lens scaffold; treat its
+> mass-deformed spectral algebra only as a hypothetical calculation.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > coordinate-custody, Krein/Green and action-Hessian question. Ordinary
