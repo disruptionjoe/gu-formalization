@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K138 now proves that K136's five gauge-reduced null classes do form a
+    covariant rank-five vector bundle on one smooth null stratum, while K137's
+    obstruction to extending that bundle through nonnull and spacelike-shell
+    strata remains exact. At both n=(1,0,0,1) and the rationally rotated null
+    covector n=(1,3/5,0,4/5), the complete action-derived Clifford packet gives
+    the same metric Schur law S_null=-48 ell_n ell_n^T, with radical dimension
+    nine, diffeomorphism image dimension four and quotient dimension five.
+    Exact Lorentz transport carries both the radical and gauge image. Since
+    H_q q={q,q}=0, a null bicharacteristic stays null and does not ordinarily
+    cross the distinct spacelike shells. An exact Ricci-flat Brinkmann family
+    supplies two independent curvature-derivative three-jet parameters while
+    leaving the principal null projector and quotient unchanged. This closes
+    the geometric projector/frame part of stratumwise transport and re-scopes
+    K137's three-jet ordering. It does not yet construct the full
+    action-specific Dencker endomorphism: the coupled Hessian is mixed order
+    and has no declared covariant first-order or Douglis-Nirenberg reduction,
+    real-principal-type certificate or invariant subprincipal convention.
+    K139 must construct that reduction and compute the exact five-by-five
+    subprincipal leakage map before domain, BFV, positivity or states. Joe
+    input is not required.
     K137 now proves that K136's five gauge-reduced null characteristic
     classes do not form one smooth constant-rank bundle through the generic
     nonnull, null and spacelike-shell strata. After quotienting the four

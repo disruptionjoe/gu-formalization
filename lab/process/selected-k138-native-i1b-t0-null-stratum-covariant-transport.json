@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k138-native-i1b-t0-null-stratum-covariant-transport",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B Hessian at T=0 and nonzero normalized kappa_1 on real Cl(7,7), restricted to one smooth horizontal null stratum",
+  "target_claim": "K137_NEXT_GATE__GENERIC_RICCI_FLAT_THREEJET_COVARIANT_SUBPRINCIPAL_EVALUATOR_AND_FIVE_CLASS_NULL_STRATUM_DENCKER_INVARIANCE",
+  "null_stratum": {
+    "metric_schur_form": "-48*ell_n*ell_n^T",
+    "ell_n": "h(n_sharp,n_sharp)",
+    "reference_covector": [1, 0, 0, 1],
+    "second_exact_covector": [1, "3/5", 0, "4/5"],
+    "second_distortion_packet_dimension": 224,
+    "second_generalized_coefficient_power_ranks": [118, 63, 8, 4, 0],
+    "schur_rank": 1,
+    "radical_dimension": 9,
+    "diffeomorphism_image_dimension": 4,
+    "gauge_reduced_dimension": 5,
+    "lorentz_covariant": true
+  },
+  "three_jet": {
+    "exact_family": "RICCI_FLAT_BRINKMANN_TWO_PROFILE_LINEAR_U_JET",
+    "independent_curvature_derivative_parameters": 2,
+    "central_geodesic_parallel_frame": true,
+    "principal_null_projector_depends_on_curvature_gradient": false,
+    "lower_action_transport_may_depend_on_threejet": true
+  },
+  "hamilton": {
+    "principal_scalar": "q=g_inverse(n,n)",
+    "H_q_q": 0,
+    "null_ray_reaches_spacelike_shell_under_q_flow": false,
+    "cross_stratum_obstruction_retained_for_full_domain_problem": true
+  },
+  "transport": {
+    "geometric_quotient_parallel": true,
+    "full_action_specific_dencker_endomorphism_constructed": false,
+    "mixed_order_reduction_declared": false,
+    "real_principal_type_certificate_declared": false,
+    "five_by_five_subprincipal_leakage_test_complete": false
+  },
+  "claim_ceiling": "exact null-stratum Schur covariance, gauge quotient, Hamilton stratum conservation and three-jet projector independence; full action amplitude transport, crossing, domain, BFV, positivity and states remain open",
+  "next_gate": "K139_COVARIANT_MIXED_ORDER_FIRST_ORDER_OR_DOUGLIS_NIRENBERG_REDUCTION__REAL_PRINCIPAL_TYPE_CERTIFICATE__EXACT_FIVE_BY_FIVE_ACTION_SUBPRINCIPAL_LEAKAGE",
+  "canon_verdict_change": "none"
+}

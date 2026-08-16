@@ -194,6 +194,24 @@ five-dimensional null quotient is invariant under that connection, and state
 the first rank-change switch condition. It must not smuggle in a global
 background or boundary term. Joe input is not required.
 
+## K138 successor classification
+
+K138 separates the geometric null carrier from the still-untyped
+action-specific amplitude law. At the reference null covector and a second
+exact rationally rotated null covector, the complete action-derived packet
+gives `S_null=-48 ell_n ell_n^T`; the nine-dimensional radical modulo the
+four action-owned diffeomorphisms is therefore a Lorentz-covariant rank-five
+bundle on a smooth null patch. Moreover `H_q q={q,q}=0`, so a null Hamilton
+ray does not drift onto K135's distinct spacelike shells. An exact Ricci-flat
+Brinkmann family varies two independent curvature-gradient three-jet
+parameters without changing that principal projector. This re-scopes the
+present artifact's implication that a three-jet is required before geometric
+projector/frame transport can be evaluated. The cross-stratum rank
+obstruction remains unchanged. Full Dencker invariance is still open because
+the mixed-order Hessian has no declared covariant first-order or
+Douglis--Nirenberg reduction and hence no typed invariant subprincipal
+five-by-five endomorphism. K139 owns that exact reduction and leakage test.
+
 Reproduce:
 
 ```bash

@@ -7,6 +7,24 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K138 CONSTRUCTS THE COVARIANT FIVE-CLASS NULL BUNDLE AND
+> CORRECTS THE CROSSING/THREE-JET ORDER.** At the reference null covector and
+> the exact rationally rotated covector `(1,3/5,0,4/5)`, the full action-derived
+> Clifford packet gives `S_null=-48 ell_n ell_n^T`. Thus the radical has
+> dimension nine, the action-owned diffeomorphism image has dimension four,
+> and their quotient is a Lorentz-covariant rank-five bundle on a smooth null
+> patch. `H_q q={q,q}=0`, so a null bicharacteristic stays null rather than
+> meeting the distinct spacelike shells under ordinary Hamilton transport. An
+> exact Ricci-flat Brinkmann family carries two independent `nabla R` three-jet
+> parameters without changing the principal projector. K137's cross-stratum
+> obstruction remains exact, but a three-jet is not needed for the geometric
+> quotient/frame transport. The full action-specific Dencker matrix remains
+> untyped because `[[0,A*],[A,C]]` is mixed order and no covariant reduction
+> has been declared. **K139 must construct a first-order or
+> Douglis--Nirenberg reduction, prove real principal type modulo the four
+> diffeomorphisms, and compute the exact five-by-five invariant subprincipal
+> leakage/endomorphism before any propagated-mode, domain or BFV claim.**
+
 > **2026-08-16 K137 OBSTRUCTS ONE CROSS-STRATUM FIVE-CLASS TRANSPORT
 > BUNDLE AND FINDS NO CURRENT ACTION-OWNED BOUNDARY REPAIR.** After quotienting
 > the four action-owned diffeomorphisms, the coupled kernel dimension is zero

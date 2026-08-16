@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K138 null-stratum covariance and subprincipal type gate:** on two
+> exact null directions, including a full `224`-coordinate rotated Clifford
+> packet, the action-derived metric Schur form is
+> `S_null=-48 ell_n ell_n^T`. Its radical is nine-dimensional, the
+> diffeomorphism image is four-dimensional, and the quotient is a covariant
+> rank-five bundle on a smooth null patch. `H_q q=0`, so null Hamilton rays do
+> not drift onto the separate spacelike shells. Exact Ricci-flat Brinkmann
+> controls vary two independent curvature-gradient three-jet parameters
+> without changing the principal projector. K137's cross-stratum obstruction
+> survives, but the three-jet is not a prerequisite for geometric quotient
+> transport. Full action amplitude transport remains open because the
+> mixed-order Hessian has no declared covariant first-order/Douglis--Nirenberg
+> reduction or invariant subprincipal matrix. K139 owns that reduction,
+> real-principal-type certificate and exact five-by-five leakage test.
+
 > **Current K137 curved-transport rank/jet obstruction:** K136's five null
 > classes do not extend as one smooth constant-rank quotient through the
 > generic nonnull and 27 spacelike-shell strata. Gauge-reduced dimensions are
