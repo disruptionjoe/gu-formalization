@@ -1064,7 +1064,8 @@ current_result:
     that the primitive source-coordinate pieces are chart-split and that the
     resulting native-coefficient evidence deficit has rank two. This is the
     pre-K124 evidence boundary; the principal TT slice is resolved below,
-    while K125 retains the lower-order/full-Cartan completion before any
+    while K127 retains the curved lower-order/representative completion after
+    K125 covariance and K126 principal-scope correction, before any
     unique pencil or spectral/domain/attachment inference.
     K123 now proves that the current serialized bank cannot perform that
     numerical step. A planted same-action moving germ
@@ -1081,8 +1082,9 @@ current_result:
     C_t_h_h and C_t_h_v plus primitive checksums and the Cartan current. Ward
     solvability, the old 14/3 raw LC value and cross-action coefficients may
     not fill the gap.
-    K124 now constructs the full-K77-carrier local principal TT slice of that
-    evaluator. On the native graph delta B=DB_LC[H], delta T_h=0, direct
+    K124 now constructs the full-K77-carrier homogeneous-radial,
+    back-to-back local principal TT slice of that evaluator. On the native
+    graph delta B=DB_LC[H], delta T_h=0, direct
     scalar-action polarization gives C_t_h_h^prin=-12 q^2 times the TT DeWitt
     pairing and C_t_h_v^prin=0. Unit plus/cross values are -24, +24 and 0 on
     timelike, spacelike and null covectors; the mixed coefficient vanishes in
@@ -1099,13 +1101,31 @@ current_result:
     noncyclic Shiab-like coefficient reproduces the co-moving scalar without
     a cyclic-trace assumption. The principal Green current is frame-covariant;
     Cartan improvements change its presymplectic representative only by a
-    spacetime-exact term, not necessarily by a boundary-trivial term. K124's
-    principal coefficients remain unchanged. The same-I1B curved lower-order
+    spacetime-exact term, not necessarily by a boundary-trivial term. K126
+    subsequently vindicates that covariance theorem by exposing and cancelling
+    a planted isolated-cell error, while completing the flat-germ
+    common-transverse three-momentum polynomial. The same-I1B curved lower-order
     two-polarization TT endomorphism still has three symmetric entries
-    E=[[a,c],[c,b]] uninstantiated by current background-jet evidence. K126
+    E=[[a,c],[c,b]] uninstantiated by current background-jet evidence. K127
     must evaluate those entries before a unique full pencil, spectrum, global
     domain or BFV charge can be selected.
+    K126 now performs the missing actual-action audit. K124's metric waves
+    are back-to-back and its radial leg is homogeneous, so total metric
+    momentum kills d(D2B_LC) on that slice and the -12 q^2 DeWitt result is
+    retained as a specialization. For p=(1,0,0,0), q=(0,0,0,1) and nonzero
+    null radial momentum r=(-1,0,0,-1), the isolated K77 exterior cell is -24
+    and B-squared is zero, with partial noncyclic Cartan covector
+    (-12,0,0,-12). An independent fixed-coordinate curvature expansion finds
+    the omitted coframe/pairing/tautological transport contribution +24, so
+    the complete witness is zero and K125 covariance is vindicated. On the
+    common-transverse TT family the exact completion is
+    C_t_h_h=-6(p^2+q^2+3r^2)<H1,H2>_DW with crossed polarizations zero; it
+    reduces to K124 when r=0 and q=-p. The selected C_t_h_v packet remains
+    zero in all 120 tests. Curved lower order, representative/domain selection
+    and BFV now route to K127.
   evidence:
+    - explorations/conditional-build/selected-k126-native-i1b-radial-momentum-principal-scope-correction-2026-08-15.md
+    - lab/process/selected-k126-native-i1b-radial-momentum-principal-scope-correction.json
     - explorations/conditional-build/selected-k125-native-i1b-fixed-chart-cartan-recombination-2026-08-15.md
     - lab/process/selected-k125-native-i1b-fixed-chart-cartan-recombination.json
     - explorations/conditional-build/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate-2026-08-15.md

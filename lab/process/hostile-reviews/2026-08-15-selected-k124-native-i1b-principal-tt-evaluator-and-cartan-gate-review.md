@@ -46,3 +46,13 @@ recombination explicitly and compare it with the principal normal form.
 Accept the exact principal TT bulk coefficients and Green identity. Reject
 any stronger wording that calls `O_K123` fully nonlinear, selects a complete
 pencil or spectrum, or promotes the Cartan representative to a BFV charge.
+
+## K126 successor correction
+
+The strongest concern fires outside K124's actual kinematics, but the first
+hostile inference also fails. K124's radial leg is homogeneous and its metric
+waves are back-to-back, so total metric momentum kills `d(D2B_LC)`. K126's
+nonzero-radial witness has isolated exterior cell `-24`, but independent
+fixed-coordinate completion supplies natural transport `+24`. Retain K124 as
+the `r=0,q=-p` specialization of the exact common-transverse polynomial
+`-6(p^2+q^2+3r^2)<DW>`; do not promote the isolated cell.

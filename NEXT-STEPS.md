@@ -7,6 +7,22 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K126 COMPLETES THE COMMON-TRANSVERSE THREE-MOMENTUM
+> PRINCIPAL SYMBOL AND FIRES A PARTIAL-FRAME TRAP.** K124's radial leg was
+> homogeneous and its TT metric waves were back-to-back, so total metric
+> momentum killed the exterior second-LC term. K125 proved generic
+> frame/curvature/noncyclic covariance. Direct evaluation of the isolated cell
+> with `p=(1,0,0,0)`, `q=(0,0,0,1)` and null nonzero radial momentum
+> `r=(-1,0,0,-1)` gives `d(D2B_LC)=-24`, `B^2=0`, and partial Cartan covector
+> `(-12,0,0,-12)`, but the independently expanded fixed-coordinate curvature
+> supplies the omitted natural transport `+24`; the complete witness is zero.
+> The exact common-transverse result is
+> `C_t_h_h=-6(p^2+q^2+3r^2)<H1,H2>_DW`, with crossed polarizations zero.
+> K124's `-12q^2<DW>` is its `r=0,q=-p` specialization, and the selected
+> `C_t_h_v` packet remains `120/120` zero. **K127 must now select a stationary curved
+> background jet and Cartan representative/domain convention before
+> evaluating the lower-order endomorphism.**
+
 > **2026-08-15 K125 CLOSES THE FIXED-CHART COVARIANCE AND CARTAN-CLASS
 > SEAM, NOT THE CURVED LOWER-ORDER COEFFICIENTS.** The explicit
 > symmetric-frame spin-Levi-Civita connection has a nonzero symmetric mixed
@@ -15,9 +31,11 @@ updated_at: "2026-08-15"
 > together reproduces the co-moving action scalar without trace cyclicity.
 > The principal Green current is frame-covariant, and Cartan improvements
 > shift the presymplectic representative by a spacetime-exact term; this does
-> not select a boundary condition or BFV charge. K124's
-> `C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0` remain exact. **K126 must
-> now evaluate the same-`I1B` curved background-jet endomorphism
+> not select a boundary condition or BFV charge. K126 subsequently vindicates
+> that covariance theorem and supplies the full common-transverse extension;
+> K124's `C_t_h_h^prin=-12q^2<DW>` is its homogeneous-radial, back-to-back
+> specialization, while `C_t_h_v^prin=0` remains exact on the selected packet.
+> **K127 must now evaluate the same-`I1B` curved background-jet endomorphism
 > `E=[[a,c],[c,b]]` coefficientwise.** Its three entries preserve the
 > principal symbol but generically change the determinant and spectrum, so no
 > unique full pencil or spectral owner exists before that evaluation.
@@ -25,7 +43,8 @@ updated_at: "2026-08-15"
 > **2026-08-15 K124 CONSTRUCTS THE FULL-K77-CARRIER PRINCIPAL TT SLICE OF
 > `O_K123`.** Direct corner polarization of the printed source-native `I1B`
 > scalar action on the native graph `delta B=DB_LC[H], delta T_h=0` gives
-> `C_t_h_h^prin=-12 q^2 <H_1,H_2>_DW` and `C_t_h_v^prin=0`. The raw unit-TT
+> `C_t_h_h^prin=-12 q^2 <H_1,H_2>_DW` and `C_t_h_v^prin=0` on the
+> homogeneous-radial/back-to-back slice. The raw unit-TT
 > `h-h` values are `-24,+24,0` on timelike, spacelike and null covectors; the
 > mixed value vanishes in all `120/120` causal/polarization/normal tests. The
 > same evaluator independently reproduces `D3_ttt=8736` and
@@ -33,7 +52,8 @@ updated_at: "2026-08-15"
 > `j^mu=-12(<H1,nabla^mu H2>_DW-<nabla^mu H1,H2>_DW)`. **K125 must now
 > restore the explicit exterior-derivative, `D2B_LC`, curved lower-order and
 > noncyclic Cartan packet in a fixed chart and prove that it recombines with
-> this co-moving principal normal form.** Do not promote the null-shell zero
+> this co-moving slice. K126 supplies the three-momentum completion above.**
+> Do not promote the null-shell slice zero
 > to an absent coupling, the Green representative to a BFV charge, or this
 > principal slice to a unique full pencil/spectrum.
 
@@ -49,7 +69,9 @@ updated_at: "2026-08-15"
 > connection-coordinate changes while the two native sums stay invariant.
 > **K124 subsequently constructs the principal TT slice of that evaluator and
 > fixes `C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0`; use the K124 block
-> above.** The full lower-order/noncyclic Cartan completion now routes to K125.
+> above.** K125 closes generic covariance, K126 completes the common-transverse
+> three-momentum principal polynomial, and curved lower-order completion now
+> routes to K127.
 > Do not import the old `14/3`, fit the Ward quotient, or use
 > `I_sc/I2B/I_II`. Exact probe records `40/40`.
 
@@ -70,7 +92,9 @@ updated_at: "2026-08-15"
 > `C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric `I1B` values.
 > **K123 subsequently proved that those primitive slots are chart-split, and
 > K124 closes the principal TT native sums; use the K124 block above and
-> route K125 through the fixed-chart lower-order/Cartan completion before any
+> route K125 through generic covariance, K126 through three-momentum
+> completion, and
+> K127 through curved lower-order/Cartan representative selection before any
 > unique pencil or spectral owner is tested.**
 > Keep `lambda` outside the native packet and do not promote preboundary
 > columns to physical charges before Green/BFV descent. Exact probe records

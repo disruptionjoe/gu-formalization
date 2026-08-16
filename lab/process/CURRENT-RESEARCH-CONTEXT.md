@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K126 three-momentum principal completion:** K124's
+> `-12q^2<DW>` is exact for a homogeneous radial leg and back-to-back TT
+> metric waves. At nonzero null radial momentum the isolated K77
+> `d(D2B_LC)` cell is `-24` with `B^2=0` and partial Cartan covector
+> `(-12,0,0,-12)`, but independent fixed-coordinate curvature supplies
+> omitted natural transport `+24`; the complete witness is zero and K125's
+> frame/curvature/noncyclic covariance is vindicated. The exact
+> common-transverse extension is
+> `C_t_h_h=-6(p^2+q^2+3r^2)<H1,H2>_DW`, with crossed polarizations zero.
+> K124 is its `r=0,q=-p` specialization.
+> `C_t_h_v` remains zero on the selected 120-entry TT packet. K127 must select
+> a stationary curved background jet and representative/domain convention
+> before lower-order/pencil/spectrum work.
+
 > **Current K125 fixed-chart/Cartan gate:** the explicit symmetric-frame
 > `D2B_LC` is nonzero and symmetric; restoring `dB` makes the connection
 > curvature exactly moving-frame covariant. Transporting the pairing and
@@ -16,14 +30,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > without a cyclic-trace assumption. The principal Green current is
 > frame-covariant, while Cartan improvements shift the presymplectic
 > representative by a spacetime-exact term and need not vanish at a boundary.
-> Retain K124's `C_t_h_h^prin=-12 q^2<DW>` and `C_t_h_v^prin=0`. K126 must
-> evaluate the three-entry same-`I1B` curved TT endomorphism before any unique
+> K126 subsequently vindicates this covariance theorem and extends K124's
+> `C_t_h_h` value to the common-transverse three-momentum family; retain
+> `C_t_h_v^prin=0` on the selected packet. K127 must evaluate the three-entry
+> same-`I1B` curved TT endomorphism before any unique
 > full pencil, spectrum, global domain or BFV charge is claimed.
 
 > **Current K124 native `I1B` principal TT evaluator:** composing the exact
 > full-K77 Clifford/exterior scalar-action engine with the native
 > spin-Levi-Civita graph gives
-> `C_t_h_h^prin=-12q^2<H_1,H_2>_DW` and `C_t_h_v^prin=0`. The mixed zero is a
+> `C_t_h_h^prin=-12q^2<H_1,H_2>_DW` on the homogeneous-radial/back-to-back
+> slice and `C_t_h_v^prin=0`. The mixed zero is a
 > direct `120/120` result across three causal representatives, both metric and
 > distortion TT polarizations and all ten vertical normals; it is not an
 > absent-storage zero. The same evaluator reproduces `D3_ttt=8736` and
@@ -31,7 +48,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > perform the explicit exterior-derivative/`D2B_LC` fixed-chart recombination,
 > curved lower-order evaluation and noncyclic Cartan completion. Do not call
 > the null-shell `h-h` zero an absent coupling or promote the current to a BFV
-> charge, unique full pencil or spectrum.
+> charge, unique full pencil or spectrum. Use K126 for the three-momentum
+> completion and the `-24+24=0` partial-frame adverse control.
 
 > **Current K123 native `I1B` coefficient identifiability gate:** the present
 > bank does not numerically determine `C_t_h_h` or `C_t_h_v`. The exact
@@ -41,9 +59,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > evidence deficit has rank two. This is not action freedom. It identifies
 > absent common-basis tensor jets. The three K122 primitive evaluations are
 > source-coordinate pieces and redistribute while the two native sums remain
-> invariant. K124 subsequently constructs the full-carrier principal TT slice
-> and fixes its two native sums; use the K124 block above. K125 retains the
-> lower-order and full Cartan completion. Do not import `I_sc/I2B/I_II`, the
+> invariant. K124 subsequently constructs the homogeneous-radial/back-to-back
+> slice, and K126 supplies the common-transverse three-momentum completion.
+> K127 retains curved
+> lower-order and representative completion. Do not import `I_sc/I2B/I_II`, the
 > old raw `14/3`, or a Ward-fitted quotient coefficient.
 
 > **Current K122 native `I1B` owner decomposition:** with the exact
@@ -60,8 +79,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `C_t_v_v=-(56/3)<V,*V>` are complete full-`I1B` values. K123 subsequently
 > proved that the three primitive slots are chart-split and not numerically
 > recoverable from the serialized bank. K124 subsequently closes the
-> principal TT native sums; use the K124 block above. K125 retains the
-> lower-order/full-Cartan completion before Green/BFV descent.
+> homogeneous-radial/back-to-back native sums, while K126 completes their
+> common-transverse three-momentum extension. K127 retains curved lower-order
+> completion before Green/BFV descent.
 > `lambda` stays outside the native packet, and no unique pencil, spectral
 > owner, domain, attachment or physical charge is selected.
 

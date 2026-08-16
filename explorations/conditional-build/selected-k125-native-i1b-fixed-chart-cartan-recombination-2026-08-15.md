@@ -5,9 +5,9 @@ doc_type: exact_fixed_chart_connection_curvature_coefficient_and_cartan_covarian
 created: "2026-08-15"
 registry: lab/process/selected-k125-native-i1b-fixed-chart-cartan-recombination.json
 probe: tests/channel-swings/selected_k125_native_i1b_fixed_chart_cartan_recombination_probe.py
-grade: "K125 CLOSES THE EXPLICIT FIXED-CHART COVARIANCE SEAM BEHIND K124. THE SYMMETRIC-FRAME SPIN-LEVI-CIVITA CONNECTION HAS A LIVE NONZERO MIXED SECOND METRIC JET; RESTORING dB TO B-WEDGE-B MAKES CURVATURE TRANSFORM EXACTLY; AND TRANSPORTING THE PAIRING AND NONCYCLIC SHIAB-LIKE COEFFICIENT TOGETHER REPRODUCES THE CO-MOVING SCALAR WITHOUT A CYCLIC-TRACE ASSUMPTION. THE PRINCIPAL GREEN CURRENT IS FRAME-COVARIANT AND CARTAN IMPROVEMENTS CHANGE THE PRESYMPLECTIC REPRESENTATIVE BY A SPACETIME-EXACT TERM. THIS DOES NOT EVALUATE THE CURVED LOWER-ORDER ENDOMORPHISM: EVEN THE TWO-POLARIZATION TT BLOCK RETAINS THREE SYMMETRIC ZERO-ORDER ENTRIES. K126 MUST COMPUTE THAT BACKGROUND-JET PACKET BEFORE A UNIQUE FULL PENCIL OR SPECTRUM IS CLAIMED."
+grade: "K125 CLOSES THE EXPLICIT FIXED-CHART COVARIANCE SEAM BEHIND K124. THE SYMMETRIC-FRAME SPIN-LEVI-CIVITA CONNECTION HAS A LIVE NONZERO MIXED SECOND METRIC JET; RESTORING dB TO B-WEDGE-B MAKES CURVATURE TRANSFORM EXACTLY; AND TRANSPORTING THE PAIRING AND NONCYCLIC SHIAB-LIKE COEFFICIENT TOGETHER REPRODUCES THE CO-MOVING SCALAR WITHOUT A CYCLIC-TRACE ASSUMPTION. K126 VINDICATES THIS COVARIANCE BY SHOWING THAT AN ISOLATED D(D2B_LC)=-24 CELL IS CANCELLED BY OMITTED NATURAL TRANSPORT +24, THEN COMPLETES THE COMMON-TRANSVERSE THREE-MOMENTUM POLYNOMIAL. THE PRINCIPAL GREEN CURRENT IS FRAME-COVARIANT AND CARTAN IMPROVEMENTS CHANGE THE PRESYMPLECTIC REPRESENTATIVE BY A SPACETIME-EXACT TERM. K127 MUST COMPUTE THE CURVED BACKGROUND-JET PACKET BEFORE A UNIQUE FULL PENCIL OR SPECTRUM IS CLAIMED."
 target_claim: K124_NEXT_GATE__FIXED_CHART_D2LC_EXTERIOR_DERIVATIVE_NONCYCLIC_CARTAN_RECOMBINATION
-target_verdict: FIXED_CHART_COVARIANCE_EXACT__CARTAN_CLASS_EXACT__CURVED_LOWER_ORDER_PACKET_OPEN_K126
+target_verdict: FIXED_CHART_COVARIANCE_EXACT__CARTAN_CLASS_EXACT__K126_VINDICATES_COVARIANCE_AND_COMPLETES_COMMON_TRANSVERSE_PRINCIPAL_SYMBOL__CURVED_LOWER_ORDER_PACKET_OPEN_K127
 canon_verdict_change: none
 ---
 
@@ -34,7 +34,8 @@ that is done, the fixed-chart scalar equals the co-moving scalar without using
 cyclicity of a trace. Freezing the noncyclic map gives a planted nonzero mixed
 mismatch.
 
-Therefore K124's principal values remain exact:
+At K125's generic covariance grade, K124's principal values appeared to remain
+exact:
 
 ```text
 C_t_h_h^prin=-12 q^2 <H1,H2>_DW,
@@ -57,10 +58,10 @@ P(q)=-12 q^2 I_2+E_curved,
 E_curved=[[a,c],[c,b]].
 ```
 
-The three entries `(a,b,c)` are background-curvature/connection-jet data.
+The three entries `(a,b,c)` are formal background-curvature/connection-jet data.
 They do not change the principal symbol or its Green current, but they do
 change the characteristic polynomial and spectrum. K124 and covariance do
-not determine them. K126 must evaluate the same-`I1B` curved background jet
+not determine them. After K126's principal-scope correction, K127 must evaluate the same-`I1B` curved background jet
 coefficientwise before any unique full pencil or spectral owner is claimed.
 
 ## Layer-0 packet
@@ -126,7 +127,7 @@ whether the exact local shift survives as edge data. No BFV charge follows.
 | explicit fixed-chart `D2B_LC` owner | exact, nonzero, symmetric |
 | `dB+B wedge B` frame covariance | exact through mixed order |
 | noncyclic coefficient transport | exact without trace cyclicity |
-| K124 principal coefficients | retained unchanged |
+| K124 principal coefficients | K126: exact specialization of the common-transverse three-momentum polynomial |
 | principal Green current | frame-covariant |
 | Cartan representative ambiguity | spacetime-exact class identified |
 | curved lower-order TT endomorphism | three-entry symmetric packet open |
@@ -135,14 +136,28 @@ whether the exact local shift survives as edge data. No BFV charge follows.
 ## Reverse scaffold
 
 ```text
-R4 K124: full-carrier principal TT evaluator
+R4 K124: homogeneous-radial/back-to-back principal TT evaluator
 R5 K124: -12 q^2 DeWitt, mixed zero, principal Green current
 R6 K125: fixed-chart D2LC + exterior derivative + noncyclic transport exact
 R7 K125: Cartan representative class exact; BFV boundary value still open
-R8 K126: evaluate E_curved from the same-I1B background jet
-R9 then: unique full-pencil and spectral-owner test
-R10 later: common global domain, BFV reduction and 2D-to-98D attachment
+R8 K126: isolated `d(D2B_LC)=-24` cancelled by natural transport `+24`; complete three-momentum polynomial exact
+R9 K127: evaluate E_curved from a selected same-I1B background jet
+R10 then: unique full-pencil and spectral-owner test
+R11 later: common global domain, BFV reduction and 2D-to-98D attachment
 ```
+
+## K126 successor correction
+
+K125 proves a covariance identity, not the value of every principal action
+cell. K126 evaluates both the isolated K77 contraction and an independent
+fixed-coordinate completion. K124's metric waves were back-to-back and its
+radial leg was homogeneous, so total metric momentum killed `d(D2B_LC)`.
+With nonzero radial momentum that exterior term is live: the selected witness
+has `d(D2B_LC)=-24`, `B^2=0`, and partial Cartan covector
+`(-12,0,0,-12)`. But the omitted coframe/pairing/tautological transport is
+`+24`, so the complete witness is zero. K125's covariance theorem is thereby
+vindicated, and K126 completes the common-transverse result as
+`-6(p^2+q^2+3r^2)<DW>`. Curved lower order now routes to K127.
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.

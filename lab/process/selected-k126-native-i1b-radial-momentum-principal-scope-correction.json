@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k126-native-i1b-radial-momentum-principal-scope-correction",
+  "created": "2026-08-15",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K125_PRINCIPAL_RETENTION__AUDIT_ACTUAL_K77_D_D2BLC_AT_NONZERO_RADIAL_MOMENTUM",
+  "target_verdict": "COMMON_TRANSVERSE_THREE_MOMENTUM_PRINCIPAL_POLYNOMIAL_EXACT__PARTIAL_D_D2LC_MINUS24_CANCELLED_BY_TRANSPORT_PLUS24__K125_COVARIANCE_VINDICATED__CURVED_LOWER_ORDER_OPEN_K127",
+  "k124_scope_correction": {
+    "valid_scope": "HOMOGENEOUS_RADIAL_LEG__BACK_TO_BACK_TT_METRIC_WAVES",
+    "three_momentum_extension": "C_THH=-6*(p2+q2+3*r2)*DEWITT_ON_COMMON_TRANSVERSE_TT_FAMILY",
+    "null_zero": "NONZERO_NULL_RADIAL_WITNESS_ZERO_AFTER_FULL_TRANSPORT"
+  },
+  "fixed_chart_curvature_polarization": "(p+q)WEDGE_D2B_LC+DB1_WEDGE_DB2+DB2_WEDGE_DB1",
+  "back_to_back_replay": {
+    "d_D2B_LC": 0,
+    "unit_timelike": -24,
+    "unit_spacelike": 24,
+    "unit_null": 0
+  },
+  "radial_momentum_witness": {
+    "p": [1, 0, 0, 0],
+    "q": [0, 0, 0, 1],
+    "r": [-1, 0, 0, -1],
+    "r_square": 0,
+    "polarizations": ["PLUS_PLUS", "CROSS_CROSS"],
+    "partial_d_D2B_LC": -24,
+    "B_squared": 0,
+    "omitted_natural_transport": 24,
+    "complete_transported_action": 0,
+    "cross_polarization": 0
+  },
+  "common_transverse_symbol": {
+    "momenta": "p=(a,0,0,b)__q=(c,0,0,d)__r=-(p+q)",
+    "coordinate_scalar_curvature_mixed": "2*(p^2+q^2)+3*p.q",
+    "K77_action": "-6*(p^2+q^2+3*r^2)*<H1,H2>_DW",
+    "polarization_matrix": "DIAGONAL_PLUS_CROSS",
+    "K124_specialization": "r=0__q=-p__GIVES_-12*p^2*DEWITT"
+  },
+  "principal_cartan": {
+    "covector": [-12, 0, 0, -12],
+    "identity": "(p+q)_mu*Theta^mu=-24=-r_transfer",
+    "scope": "PARTIAL_EXTERIOR_CELL_ONLY",
+    "complete_cartan": "NOT_SELECTED",
+    "representative_only": true
+  },
+  "mixed_tt": {
+    "C_t_h_v": "ZERO_ON_SELECTED_120_ENTRY_PACKET",
+    "D2B_LC_owner": "ABSENT_BY_ONE_METRIC_LEG_TYPE"
+  },
+  "curved_lower_order_complete": false,
+  "curved_lower_order_missing": [
+    "SELECTED_STATIONARY_BACKGROUND_JET",
+    "NATURAL_FIXED_CHART_COEFFICIENT_TRANSPORT",
+    "CARTAN_REPRESENTATIVE_AND_BOUNDARY_CONVENTION"
+  ],
+  "bfv_charge_selected": false,
+  "unique_full_pencil_selected": false,
+  "next_gate": "K127_SELECT_STATIONARY_CURVED_BACKGROUND_JET_AND_CARTAN_REPRESENTATIVE_DOMAIN_THEN_ASSEMBLE_LOWER_ORDER_OPERATOR",
+  "canon_verdict_change": "none"
+}

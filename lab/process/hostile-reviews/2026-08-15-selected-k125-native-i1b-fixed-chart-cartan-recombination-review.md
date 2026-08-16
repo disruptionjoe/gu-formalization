@@ -44,3 +44,12 @@ Accept the fixed-chart curvature/coefficient naturality theorem, the
 frame-covariant principal Green current, and the exact Cartan representative
 class. Retain the curved lower-order endomorphism, unique pencil, spectrum,
 global domain and BFV charge as open.
+
+## K126 successor correction
+
+The covariance theorem survives and is vindicated by the stronger check.
+K126 evaluates the isolated K77 `d(D2B_LC)` cell and finds `-24` at nonzero
+radial momentum, but an independent fixed-coordinate expansion finds omitted
+natural transport `+24`; the complete witness is zero. It then obtains the
+exact common-transverse polynomial `-6(p^2+q^2+3r^2)<DW>`, with K124 as its
+back-to-back specialization. Curved lower order now routes to K127.

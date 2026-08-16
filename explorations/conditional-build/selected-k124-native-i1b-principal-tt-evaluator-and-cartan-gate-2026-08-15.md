@@ -5,9 +5,9 @@ doc_type: exact_full_k77_carrier_principal_tt_action_evaluator_and_green_gate
 created: "2026-08-15"
 registry: lab/process/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate.json
 probe: tests/channel-swings/selected_k124_native_i1b_principal_tt_evaluator_and_cartan_gate_probe.py
-grade: "K124 CONSTRUCTS THE FIRST EXECUTABLE O_K123 SLICE ON THE FULL REAL K77 CLIFFORD/EXTERIOR CARRIER. IN THE NATIVE GRAPH DELTA_B=DB_LC[H], DELTA_T_H=0, DIRECT POLARIZATION OF THE PRINTED I1B PRINCIPAL BULK NORMAL FORM GIVES C_THH=-12 Q_SQUARED TIMES THE TT DEWITT PAIRING AND C_THV=0 ON ALL 120 CAUSAL-POLARIZATION-NORMAL TESTS. IT ALSO REPRODUCES D3_TTT=8736 AND C_TVV=-(56/3)<V,*V>. THE PRINCIPAL GREEN CURRENT IS EXACT. THIS DOES NOT YET CLOSE THE FULL LOWER-ORDER, SECOND-LC-JET, NONCYCLIC CARTAN OR GLOBAL DOMAIN PACKET, SO NO UNIQUE FULL PENCIL OR SPECTRAL CLAIM FOLLOWS."
+grade: "K124 CONSTRUCTS THE FIRST EXECUTABLE O_K123 SLICE ON THE FULL REAL K77 CLIFFORD/EXTERIOR CARRIER. IN THE NATIVE GRAPH DELTA_B=DB_LC[H], DELTA_T_H=0, DIRECT POLARIZATION ON A HOMOGENEOUS RADIAL LEG AND BACK-TO-BACK TT WAVES GIVES C_THH=-12 Q_SQUARED TIMES THE TT DEWITT PAIRING AND C_THV=0 ON ALL 120 CAUSAL-POLARIZATION-NORMAL TESTS. K126 IDENTIFIES THIS AS THE R=0, Q=-P SPECIALIZATION OF THE EXACT COMMON-TRANSVERSE THREE-MOMENTUM POLYNOMIAL AND SHOWS AN ISOLATED D(D2B_LC)=-24 CELL IS CANCELLED BY NATURAL TRANSPORT +24. K124 ALSO REPRODUCES D3_TTT=8736 AND C_TVV=-(56/3)<V,*V>."
 target_claim: K123_NEXT_GATE__BUILD_O_K123_AND_COMPUTE_NATIVE_C_THH_C_THV
-target_verdict: PRINCIPAL_TT_SLICE_COMPUTED__C_THH_MINUS_12_Q2_DEWITT__C_THV_ZERO__FULL_LOWER_ORDER_CARTAN_OPEN
+target_verdict: HOMOGENEOUS_RADIAL_BACK_TO_BACK_PRINCIPAL_TT_SLICE_COMPUTED__C_THH_MINUS_12_Q2_DEWITT__C_THV_ZERO__K126_EXTENDS_TO_COMMON_TRANSVERSE_THREE_MOMENTA__FULL_LOWER_ORDER_CARTAN_OPEN
 canon_verdict_change: none
 ---
 
@@ -28,7 +28,7 @@ K124 finds that K123's requested evaluator was partly hidden in two already
 exact but uncomposed surfaces: the full real `(7,7)` Clifford/exterior action
 engine and the symmetric-frame spin-Levi-Civita symbol. Composing them on the
 native graph, rather than the fixed-`varpi` graph, produces a definite answer
-for the local principal TT packet.
+for the homogeneous-radial, back-to-back local principal TT packet.
 
 For TT metric polarizations `H_1,H_2`, covector `q`, and an independent
 normal-valued TT distortion `V`, direct scalar-action polarization gives
@@ -56,11 +56,12 @@ two-parameter freedom. Once the existing action factors are composed, the
 principal TT slice has one universal kinetic coefficient and one exact mixed
 zero.
 
-This is not yet the whole `O_K123`. Equation (1) is the complete local
-principal TT bulk normal form on the full 14D carrier. The lower-order curved
-background, explicit second spin-LC jet, noncyclic Cartan representative and
-global Green/BFV domain remain open. Those cannot alter the principal symbol,
-but they can alter lower-order bulk entries and boundary representatives.
+This is not yet the whole `O_K123`. K126 subsequently proves that equation
+(1) is the homogeneous-radial/back-to-back specialization of the complete
+common-transverse polynomial `-6(p^2+q^2+3r^2)<DW>`. Its isolated live
+`d(D2B_LC)=-24` witness is cancelled by natural transport `+24` in the full
+fixed-coordinate packet. The lower-order curved background, representative
+selection and global Green/BFV domain also remain open.
 
 ## 1. Layer-0 packet
 
@@ -92,10 +93,12 @@ bar F    = B^2 + (1/2)(BT+TB) + (1/3)T^2,
 I1B^prin = <T,S(bar F)> + (kappa_1/2)<T,*T>.           (3)
 ```
 
-Exterior-derivative pieces are not deleted. At this order their integration-
-by-parts contribution is the Cartan/Green representative displayed below;
-the non-exact bulk principal coefficient is (3). K125 must restore the full
-noncyclic derivative packet before any lower-order or boundary claim.
+The exterior-derivative pieces vanish on K124's back-to-back metric packet
+because its total metric momentum is zero. K126 shows that this is not a
+general deletion: when the radial leg carries momentum, integration by parts
+transfers a live `d(D2B_LC)` term to the radial derivative. It also shows that
+the isolated exterior cell is not a complete fixed-chart action cell; omitted
+coframe, pairing and tautological transport can cancel it exactly.
 
 The evaluator uses the selected source-displayed `comm/symi/symi` Shiab in
 exact Gaussian-rational `Cl(7,7)` arithmetic. It constructs the LC symbol
@@ -167,8 +170,9 @@ into the evaluator.
 
 ## 6. Principal Cartan/Green packet
 
-The operator with symbol in (1) is `L_h=-12 Box` in unit DeWitt
-normalization. One exact principal Green representative is
+With the radial coefficient held constant, the operator with symbol in (1)
+is `L_h=-12 Box` in unit DeWitt normalization. One exact principal Green
+representative on that slice is
 
 ```text
 j^mu_A(H1,H2)
@@ -193,12 +197,12 @@ class. K124 therefore does not promote (8) to a physical charge.
 | --- | --- |
 | full 14D real carrier and selected Shiab | executable |
 | native metric graph | executable |
-| local principal TT bulk `C_t_h_h` | exact, `-12 q^2 N_DW` |
+| homogeneous-radial/back-to-back TT `C_t_h_h` | exact, `-12 q^2 N_DW` |
 | local principal TT bulk `C_t_h_v` | exact zero on complete selected TT packet |
 | fixed-metric controls | exact |
 | principal Green current | exact representative |
 | curved/lower-order action jet | open |
-| explicit `D2B_LC` plus exterior-derivative recombination | open beyond principal bulk equivalence |
+| explicit `D2B_LC` plus exterior-derivative recombination | K126: isolated `-24`, cancelled by natural transport `+24` on the adverse witness |
 | full noncyclic Cartan potential and global domain | open |
 | unique full two-field pencil and spectrum | not selected |
 
@@ -216,29 +220,34 @@ R0 target: native radial response of the TT I1B Hessian
 R1 complete: source/native graph and full K77 scalar polynomial
 R2 complete: fixed-metric controls 8736 and -56/3
 R3 complete at K123: rank-two evidence deficit and coordinate-split warning
-R4 complete at K124: full-carrier principal TT evaluator
-R5 complete at K124: A=-12 q^2 N_DW and B=0; principal Green current
-R6 next at K125: exterior derivative + D2LC + noncyclic Cartan recombination
-R7 then: lower-order curved packet and unique-pencil test
-R8 then: spectral owner and common Green/domain gate
-R9 later: BFV reduction and 2D-to-98D attachment
+R4 complete at K124: homogeneous-radial/back-to-back principal TT evaluator
+R5 complete at K124: A=-12 q^2 N_DW and B=0 on that slice
+R6 K125: generic fixed-chart curvature and coefficient covariance
+R7 K126: isolated d(D2LC) is live but cancels in the complete transported witness
+R8 K126: common-transverse polynomial -6(p2+q2+3r2)<DW>
+R9 next at K127: select background and representative/domain convention
+R10 then: curved lower-order operator and unique-pencil test
+R11 later: spectral/domain/BFV and 2D-to-98D attachment
 ```
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.
 
-## K125 successor closure — 2026-08-15
+## K125/K126 successor correction — 2026-08-15
 
-K125 closes the coordinate concern at K124's exact scope. The explicit
+K125 closes generic curvature/frame covariance. The explicit
 fixed-chart symmetric-frame connection has the required nonzero mixed second
 metric jet; restoring `dB` gives exact curvature covariance; and transporting
 the pairing plus noncyclic Shiab-like map reproduces the co-moving scalar
 without a cyclic-trace assumption. The principal Green current is likewise
-frame-covariant, while Cartan improvements change its representative by a
-spacetime-exact term. K124's principal coefficients are retained unchanged.
-K126 now owns the same-`I1B` curved lower-order background-jet endomorphism;
-its three symmetric TT entries must be evaluated before any unique full
-pencil or spectrum is claimed.
+frame-covariant. K126 then evaluates the isolated K77 `d(D2B_LC)` action cell
+and an independent fixed-coordinate completion. The exterior cell is live at
+nonzero radial momentum, but the selected `-24` witness is cancelled by
+natural transport `+24`; K125's covariance theorem is vindicated. K124's
+coefficient is the `r=0,q=-p` specialization of the exact common-transverse
+polynomial `-6(p^2+q^2+3r^2)<DW>`.
+K127 now owns the curved lower-order background-jet and representative/domain
+selection before any unique full pencil or spectrum is claimed.
 
 Reproduce:
 
