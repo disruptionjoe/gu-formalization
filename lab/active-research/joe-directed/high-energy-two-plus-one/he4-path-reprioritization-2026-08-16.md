@@ -325,24 +325,39 @@ cells is typed. Intrinsic internal-complex ranks on the six fixtures are
 The eight horn rows form a prerequisite ledger, not a proof that concrete
 FCORR/ALIGN/PSRED witnesses coexist.
 
-### CB-7 — reverse-conditional full-cell half/duality classifier — next
+### CB-7 — reverse-conditional full-cell half/duality classifier — banked
 
-Begin from the superposition hypothesis that each displayed `d0+varpi` cell
-has one homogeneous typed realization. Derive the necessary ambient-half,
-form-degree, derivative, H210 parity, barred-row density-dual, and product-
-grading equations. Exhaust only source-faithful same-half, opposite-half, and
-degree-twisted conventions already present in the repository. Require both
-forward cells, both reverse-shaped cells, both halves, and the section-11.2
-source labels simultaneously. Stop before action, selector, graph, family-row,
-reduction, quotient, external-datum, mass, or spectrum work.
+No homogeneous summand-blind source-half primalizer types any complete
+`d0+varpi` cell: the derivative is ambient-even and H210 is ambient-odd in all
+four forward/reverse incidences. The local F2 contradiction subsumes further
+degree/sign enumeration. The owned vertical trace `q` is adverse, and an odd
+adapter on H210 fails the banked `144bar/144` destination modules.
+
+The only current pointwise custody candidate leaves H210 untouched and uses
+`gamma(q_H)d0` with opposite-half density duality. Here `q_H` must be a
+declared coherently transforming nowhere-null horizontal covector section (or
+the target must remain line-valued). Forward overlap covariance, base/stage,
+and the reverse `nabla q_H` lower-order term remain `TYPE_MISSING`; this is not
+a completed source operator.
+
+### CB-8 — derivative-adapter covariance and reverse completion — next
+
+Assume the typed `q_H` section/cocycle without constructing or selecting it.
+Distinguish source `Y`, pulled-back `X`, and graph-plane `H_J` locations. Test
+the forward moving overlap square, Clifford connection, principal symbol,
+Leibniz rule, and null strata. Then distinguish the algebraic density dual
+from the formal transpose `d0* gamma(q_H)*`, expose its forced `nabla q_H`
+term, and test both reverse cells, both halves, and source-module custody.
+Stop before owner/action/selector/graph/row/reduction/quotient/external-datum,
+domain, mass, or spectrum construction.
 
 ## 7. Reprioritization
 
 | path-relative item | priority | fertility | reason |
 |---|---:|---:|---|
-| reverse-conditional full `d0+varpi` typing classifier | 1 | `8/10` | derive the source-faithful half/form-degree/duality conditions for one homogeneous displayed cell |
-| global O/Spin descent ceiling audit | 2 | `6/10` | distinguish conditional naturality from an actual atlas and triple cocycle without selecting a graph |
-| all-three PS overlap replay | 3 conditional | `4/10` with a concrete witness; `1/10` without | otherwise it merely restates the declared PSRED horn |
+| ownership-free `gamma(q_H)d0` covariance and stage gate | 1 | `8/10` | assume the horn and test whether its forward operator type descends without selecting it |
+| reverse `nabla q_H` density-dual completion | 2 | `7/10` | decide whether the principal-symbol escape extends to both reverse source cells |
+| line-valued versus untwisted target classifier | 3 | `6/10` | a bare line is insufficient; test whether a section/trivialization or common twist is required |
 | fixed trace-`Hq` adverse subhorn | 4 | `4/10` | keep the one-phase failure as a control, not a source-level H210 kill |
 | `H54` / `HBOTH` routes | fallback | `3/10` to `5/10` | use only if the H210 carrier-fit chain fails or both ports become conditionally admissible |
 | full `945/1050` branching | retired | `0/10` | exact saturation already proves both singlet counts zero |
@@ -350,23 +365,24 @@ reduction, quotient, external-datum, mass, or spectrum work.
 | more projected-rank strata | retired | `1/10` | generic locus plus exact counterexamples settle the classifier question |
 | more intrinsic kappa-rank strata | retired | `1/10` | CB-6 closes the bounded naturality/rank gate |
 | more Boolean horn matrices | retired | `0/10` | CB-6 closes the prerequisite ledger; witness existence remains assumed |
+| more half/degree SAT enumeration | retired | `0/10` | CB-7's local homogeneous-primalizer theorem is complete |
 | deriving the source action or importing an external selector | off-limits | not scored | violates the conditional-build lane contract |
 
 Relative to the wider exploration portfolio, this path remains first for one
-more bounded swing because CB-1 through CB-6 pass and the full displayed-cell
-collision is now a sharp finite source/operator classifier. Neither outcome
-licenses manufacturing an action, selector, reduction, graph, family row, or
-external datum.
+more bounded stop/go swing because CB-7 leaves exactly one conditional
+principal-symbol candidate. Failure of its stage, covariance, or reverse
+lower-order typing retires the full-cell escape; success still establishes
+only a conditional operator type. Neither outcome licenses manufacturing an
+action, selector, reduction, graph, family row, or external datum.
 
 ## Plain-English checkpoint
 
 We have now shown that the cleaner H210 connector fits the real K77 carrier,
-the zero-order part of two displayed fermion-operator cells, literal
+the isolated zero-order part of two displayed fermion-operator cells, literal
 observation, the intrinsic moving graph/normal Clifford geometry, and the
-correlated equation-(12.22) carrier type on admitted overlaps. Observation
-creates the downstream F-shaped adapter; the original Z/partner port had zero
-source-F projection. `H210-FCORR`, `H210-ALIGN`, and `H210-PSRED` name three
-different conditional bridges, and the Boolean ledger does not prove their
-witnesses coexist. The next question is whether the source's printed
-derivative and H210 terms can inhabit one homogeneous full cell without
-relabeling its halves or form degrees.
+correlated equation-(12.22) carrier type on admitted overlaps. But the printed
+derivative and H210 pieces have irreconcilable ambient-half types under every
+common homogeneous convention. A hypothetical non-null horizontal section
+can repair the derivative principal symbol without damaging H210, but the
+repository does not own or select it and its moving forward/reverse operator
+typing remains open. CB-8 tests that conditional compatibility only.

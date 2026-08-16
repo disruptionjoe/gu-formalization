@@ -244,3 +244,18 @@ a selected graph or family row, a common full operator domain or adjoint, an
 action, selector, physical quotient, luminous sector, free observed `144`,
 mass, scale, threshold, spectrum, observable, or phenomenology. The parent
 carrier remains non-chiral and both conjugate halves remain present.
+
+## Successor update — CB-7 banked
+
+CB-7 completed the full-cell classifier queued above. No homogeneous
+summand-blind source-half primalizer types a displayed `d0+varpi` cell: the
+derivative is ambient-even and H210 is ambient-odd in every forward/reverse
+incidence. The owned vertical trace `q` is adverse, and adapting H210 instead
+misroutes the banked `144bar/144` modules.
+
+The sole pointwise custody candidate is a declared nowhere-null horizontal
+section postcomposed with `d0` under opposite-half density duality. It is only
+a conditional principal-symbol type. Its base/stage, forward covariance, and
+reverse `nabla q_H` lower-order term remain `TYPE_MISSING`. See
+`cb7-wave-h210-half-duality-reprioritization-2026-08-16.md`; CB-8, not another
+parity or kappa sweep, is now the active scaffold.

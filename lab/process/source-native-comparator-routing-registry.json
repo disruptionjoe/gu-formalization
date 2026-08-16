@@ -339,6 +339,22 @@
     {
       "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-wave-h210-correlated-lift-reprioritization-2026-08-16.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-homogeneous-cell-parity-classifier-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-h210-minimal-odd-adapter-classifier-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-forward-reverse-density-duality-composition-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-wave-h210-half-duality-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     }
   ]
 }
