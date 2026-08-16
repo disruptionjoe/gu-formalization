@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 094f27bbca88924ec83f17d1b025b1880be449e8
+revision_basis: defbb6a39096d98a521a1200b3ac5f6562db3ef4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,27 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K144 now proves that K135's fixed-kappa frozen null inverse does not
+    determine the curved-neighborhood reduction sought after K143. The action
+    owns the local coupled Hessian [[0,A*],[A,C]], and K135's nilpotent frozen
+    principal matrix genuinely has a finite polynomial inverse at constant
+    coefficients. But frozen matrix nilpotence does not determine differential
+    operator composition when coefficients vary. An exact matrix control
+    P_s=u_s v_s^T D has the same frozen square-zero principal matrix for every
+    slope s at x=0, yet P_s^2=s P_s and kappa I+P_s has a slope-dependent
+    local differential inverse. An exact scalar control with the same
+    fixed-mass/positive-order shape instead has a rational pseudodifferential
+    inverse, with left first correction i a a' xi/(kappa+i a xi)^3 and zero
+    Weyl first correction. These are opposite controls, not I1B coefficients:
+    they prove that both local derivative-dependent and nonlocal continuations
+    share frozen point data. K138 independently varies two Brinkmann
+    curvature-gradient three-jets while leaving the principal null quotient
+    fixed. No complete variable-coefficient I1B reduction evaluator, Green or
+    parametrix equivalence, closed domain, or five-class endomorphism is
+    presently owned. Radical/gauge basicness is therefore
+    UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR, not zero, pass or fail. K145 may
+    derive the exact curved C-composition and coupled Noether/compatibility
+    complex before selecting an inverse. Joe input is not required.
     K143 now proves that K141's compact shell-free family does not own a
     lower-order subprincipal coefficient of the original fixed-coupling local
     I1B action. With fixed nonzero kappa_1, mu=kappa_1/rho and the annulus

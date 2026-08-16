@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K144 curved local-inverse owner gate:** K135's nilpotent frozen
+> polynomial inverse remains exact, but it does not determine curved operator
+> composition. The exact matrix control `P_s` has the same frozen square-zero
+> principal matrix for every slope and the local identity `P_s^2=sP_s`, hence
+> a derivative-dependent local inverse. The scalar fixed-mass control instead
+> has a rational pseudodifferential inverse with convention-dependent lower
+> symbol. Both horns share frozen point data. K138's independent Brinkmann
+> curvature-gradient parameters also preserve the principal quotient. No
+> complete variable-coefficient `I1B` reduction evaluator or five-class
+> endomorphism is owned, so basicness is
+> `UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR`. K145 owns exact curved
+> `C`-composition and the coupled Noether/compatibility complex before any
+> parametrix or domain selection.
+
 > **Current K143 fixed-action subprincipal-owner obstruction:** with fixed
 > nonzero `kappa_1`, K141's annulus is the bounded frequency band
 > `|kappa_1|/14<=rho<=|kappa_1|/13`, not a conic set. The alternative joint

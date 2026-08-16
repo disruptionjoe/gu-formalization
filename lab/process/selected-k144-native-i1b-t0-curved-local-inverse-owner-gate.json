@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K144_NATIVE_I1B_T0_CURVED_LOCAL_INVERSE_OWNER_GATE",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Fixed-kappa local coupled I1B Hessian on K127/K138 Ricci-flat T=0 germs; what the frozen nilpotent inverse does and does not determine about the curved distortion-eliminated five-class response.",
+  "layer0": {
+    "coupled_local_hessian": "ACTION_OWNED_DIFFERENTIAL_OPERATOR",
+    "frozen_symbol_inverse": "EXACT_POINTWISE_FULL_SYMBOL_ON_STATED_BAND",
+    "curved_neighborhood_inverse": "UNDEFINED_UNTIL_VARIABLE_COEFFICIENT_OPERATOR_COMPOSITION_IS_EVALUATED",
+    "five_class_quotient": "PRINCIPAL_FINITE_SCHUR_METRIC_QUOTIENT_NOT_PHYSICAL_COHOMOLOGY"
+  },
+  "locality": {
+    "distortion_operator_positive_order": true,
+    "differential_inverse_exists": "UNDEFINED_FOR_CURVED_I1B_OPERATOR",
+    "scalar_control": "c(xi)=kappa+i*xi",
+    "scalar_inverse": "1/(kappa+i*xi)",
+    "scalar_inverse_polynomial": false,
+    "frozen_invertibility_implies_local_inverse": false,
+    "positive_order_alone_excludes_system_differential_inverse": false,
+    "nilpotent_matrix_control": {
+      "operator": "P_s=u_s*v_s^T*d/dx",
+      "pointwise_principal_square": 0,
+      "operator_identity": "P_s^2=s*P_s",
+      "local_inverse": "kappa^-1*I-[kappa*(kappa+s)]^-1*P_s",
+      "same_frozen_matrix_at_x0_for_all_s": true
+    }
+  },
+  "parametrix": {
+    "left_first_correction": "-c0^{-1}(1/i)(partial_xi c0)(partial_x c0^{-1}) plus declared lower-symbol terms",
+    "scalar_left_value": "i*a*a_prime*xi/(kappa+i*a*xi)^3",
+    "scalar_weyl_first_correction": "0",
+    "same_frozen_symbol_family": "a_s(x)=1+s*x",
+    "same_frozen_left_corrections": "i*s*xi/(kappa+i*xi)^3",
+    "declared_calculus_required": true,
+    "full_variable_coefficient_hessian_required": true
+  },
+  "ricci_flat_control": {
+    "source": "K138 Brinkmann family",
+    "independent_curvature_gradient_parameters": ["a1", "b1"],
+    "principal_null_quotient_changes": false,
+    "universal_lower_coefficient_selected_by_principal_data": false
+  },
+  "quotient": {
+    "radical": "H_n=ker(ell_n)",
+    "gauge": "G_n=im(n_odot_minus)",
+    "dimension": 5,
+    "owned_reduced_endomorphism_exists": false,
+    "basicness": "UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR",
+    "zero_subprincipal_claim": false
+  },
+  "owned_result": {
+    "local_coupled_noether_system": true,
+    "green_operator": false,
+    "pseudodifferential_parametrix": false,
+    "closed_domain": false,
+    "gauge_or_boundary_addition": false
+  },
+  "claim_ceiling": "Exact non-identifiability of curved operator inversion from frozen nilpotent symbols, one local derivative-dependent and one nonlocal control, formal first inverse-symbol correction, neighborhood-jet freedom and quotient-basicness typing; no verdict on the full curved I1B inverse, physical propagation, BFV, positivity or states.",
+  "next_gate": "K145_VARIABLE_COEFFICIENT_CURVED_COUPLED_NOETHER_COMPATIBILITY_COMPLEX_AND_EXACT_C_COMPOSITION_ON_BRINKMANN_FAMILY__CLASSIFY_LOCALITY_BEFORE_PARAMETRIX_OR_DOMAIN_SELECTION",
+  "canon_verdict_change": "none"
+}

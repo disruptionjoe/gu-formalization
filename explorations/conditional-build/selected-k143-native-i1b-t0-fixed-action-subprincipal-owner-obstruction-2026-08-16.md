@@ -225,3 +225,16 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k143_native_i1b_t0_fixed_action_subprincipal_owner_obstruction_probe.py
 ```
+
+## K144 successor classification
+
+K144 proves that K135's frozen nilpotent polynomial inverse does not determine
+the curved five-class coefficient. Exact opposite controls with the same
+frozen-order data give a derivative-dependent local system inverse and a
+rational pseudodifferential scalar inverse. K138's independent Brinkmann
+curvature-gradient parameters also leave the principal quotient fixed. No
+complete variable-coefficient `I1B` reduction evaluator or reduced
+endomorphism is presently owned, so radical/gauge basicness remains
+`UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR`. K145 owns exact curved
+`C`-composition and the coupled Noether/compatibility complex before any
+Green, parametrix, domain, gauge or boundary selection.

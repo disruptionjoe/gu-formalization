@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k144_native_i1b_t0_curved_local_inverse_owner_gate_probe.py`
+  proves that frozen nilpotent symbol data do not determine curved operator
+  inversion, using exact derivative-dependent local matrix and nonlocal scalar
+  controls. It derives the first left/Weyl symbol corrections, checks retained
+  K138/K143 invariants, and keeps five-class basicness undefined pending the
+  complete curved reduction evaluator.
+
 - `channel-swings/selected_k97_rsap_action_parent_reduction_selection_gate_probe.py`
   proves that the K96 carrier is globally the right-`H_bal` zero reduction of
   the action-owned formal `182D` epsilon cotangent parent. Exact dimensions

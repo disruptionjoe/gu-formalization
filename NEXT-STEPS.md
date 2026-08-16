@@ -7,6 +7,23 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K144 PROVES THAT THE FROZEN NILPOTENT INVERSE DOES NOT SELECT
+> A CURVED FIVE-CLASS COEFFICIENT.** K135's constant-coefficient polynomial
+> inverse remains exact. The new two-by-two control has the same frozen
+> square-zero principal matrix for every slope `s`, but differential
+> composition gives `P_s^2=s P_s` and a slope-dependent local inverse of
+> `kappa I+P_s`. The scalar fixed-mass control instead has only a rational
+> pseudodifferential inverse and calculus-dependent lower symbol. Thus frozen
+> point data admit both local derivative-dependent and nonlocal continuations;
+> positive order alone does not decide the system horn. K138's independent
+> Brinkmann curvature-gradient jets likewise leave the principal quotient
+> fixed. No complete curved `I1B` reduction evaluator or owned five-class map
+> exists yet, so basicness is
+> `UNDEFINED_NO_CURVED_REDUCTION_EVALUATOR`, not zero/pass/fail. **K145 should
+> derive the exact variable-coefficient `C` composition and the coupled
+> Noether/compatibility complex on the Brinkmann family, classify locality,
+> and only then consider a parametrix/domain/gauge/boundary selection.**
+
 > **2026-08-16 K143 PROVES THAT THE COMPACT JOINT FAMILY HAS NO OWNED
 > LOWER-ORDER COEFFICIENT OF THE FIXED LOCAL ACTION.** For fixed nonzero
 > `kappa_1`, `mu=kappa_1/rho`, so `13<=|mu|<=14` is exactly the bounded band
