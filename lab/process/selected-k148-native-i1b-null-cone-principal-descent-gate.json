@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K148_NATIVE_I1B_NULL_CONE_PRINCIPAL_DESCENT_GATE",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected conditional comm/symi/symi I1B T=0 frozen null symbols and K138 Lorentz-covariant null-stratum transport only.",
+  "preflight": {"repository_head": "36bc6c13", "predecessor": "K147_NATIVE_I1B_T0_RADICAL_MODULE_FACTORIZATION_GATE", "sn3_disjoint_revision_consumed": "36bc6c13", "fixed_n_arbitrary_xi_module_route_retried": false},
+  "null_bundle": {"base": "nonzero null covectors modulo nonzero rescaling", "radical": "H_n=ker(ell_n)", "radical_dimension": 9, "gauge": "G_n=im(n symmetric-product -)", "gauge_dimension": 4, "quotient": "Q_n=H_n/G_n", "quotient_dimension": 5, "lorentz_covariant": true, "null_ray_invariant": true},
+  "principal_descent": {"frozen_metric_degree_coefficient_ranks": [1, 0, 0, 0, 0], "surviving_hessian": "-48*ell_n*ell_n^T", "native_musical_map": "G_DeWitt^-1", "raised_endomorphism": "G_DeWitt^-1*(-48*ell_n*ell_n^T)", "preserves_H_n": true, "annihilates_G_n": true, "induced_five_class_map": "ZERO", "standard_covector": [1, 0, 0, 1], "rotated_covector": [1, "3/5", 0, "4/5"], "globalization": "NONZERO_NULL_ORBIT_PLUS_K138_EXACT_LORENTZ_TRANSPORT"},
+  "k147_index_raising_correction": {"classification": "UNRAISED_HESSIAN_COVECTOR_RETRACTED", "original_spacelike_raw_leakage": -384, "raised_spacelike_row": "-64*ell_n^T", "raised_spacelike_radical_leakage": 0, "full_module_verdict_survives": true, "surviving_derivative_covector": "timelike_(1,0,0,0)", "raised_timelike_row": [0, 0, 0, 0, -648704, 0, 0, -648704, 0, -648768], "radical_witness": "h_11=1", "raised_timelike_leakage": -648704},
+  "lower_transport": {"status": "UNDEFINED_EVALUATOR_NOT_SERIALIZED", "curved_restricted_residual": "NOT_COMPUTED", "curved_null_leakage": "NOT_COMPUTED", "dencker_endomorphism_constructed": false, "required_next": "minimal unified moving Cl(7,7) evaluator with frozen and rotated controls"},
+  "outcome": "COVARIANT_NULL_CONE_QUOTIENT_EXACT__FROZEN_PRINCIPAL_DESCENT_PASS_ZERO_MAP__CURVED_LOWER_TRANSPORT_UNDEFINED",
+  "claim_ceiling": "No curved transport, inverse, domain, BFV, physical mode, state, positivity, or GU-wide conclusion.",
+  "next_gate": "K149 serialize the minimal moving evaluator and compute the first curved null restricted residual and lower leakage.",
+  "canon_verdict_change": "none"
+}

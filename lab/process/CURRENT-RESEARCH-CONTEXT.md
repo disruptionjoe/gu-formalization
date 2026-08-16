@@ -9,13 +9,26 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K148 null-cone principal descent:** the correctly paired
+> microlocal object is the rank-five null-ray bundle
+> `Q_n=ker(ell_n)/im(n symmetric-product -)`. K135's complete frozen metric
+> polynomial has coefficient ranks `[1,0,0,0,0]`; after the native DeWitt
+> musical map the surviving `-48 ell_n ell_n^T` annihilates the radical and
+> induces zero on `Q_n`.
+> K138 Lorentz transport globalizes this over the nonzero null cone. This does
+> corrects K147's witness: the unraised spacelike `-384` is retracted, while
+> DeWitt-raised timelike leakage `-648704` preserves the full-module kill. It does not compute
+> curved lower transport. Continue with K149's minimal unified moving
+> `Cl(7,7)` evaluator, frozen replay, curved restricted residual, and rotated
+> null leakage control. Do not infer Dencker, domain, BFV, or physical states.
+
 > **Current K147 radical-module factorization result:** K146's pointwise
 > `H_n` preservation wording is insufficient because `S_4` is an order-at-most
 > eight differential operator. Full preservation would require
 > `ell_n S_4=Q ell_n` on 4455 radical section jets. That strong reading fails
-> already at the exact top symbol: for fixed null `n=(1,0,0,1)` and spacelike
-> derivative covector `xi=(0,1,0,0)`, the radical tensor
-> `h=(2,0,0,1,0,0,0,0,0,0)` has leakage `-384`. Lower curved coefficients
+> already at the exact top symbol after native DeWitt raising. The original
+> spacelike `-384` contraction is retracted; its raised row is `-64 ell_n`.
+> At timelike `xi=(1,0,0,0)`, `h_11=1` has leakage `-648704`. Lower curved coefficients
 > cannot repair this order-eight failure. The result does not kill the null
 > finite-frequency quotient: the frozen null Schur law remains
 > `-48 ell_n ell_n^T`, the frozen restricted `K P(n)^5 K A(n)` residual is

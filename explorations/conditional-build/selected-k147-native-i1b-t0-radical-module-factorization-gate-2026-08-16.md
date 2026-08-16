@@ -5,9 +5,9 @@ doc_type: exact_differential_module_typing_and_evaluator_materialization_gate
 created: "2026-08-16"
 registry: lab/process/selected-k147-native-i1b-t0-radical-module-factorization-gate.json
 probe: tests/channel-swings/selected_k147_native_i1b_t0_radical_module_factorization_gate_probe.py
-grade: "K147 CORRECTS AND DECIDES THE FULL DIFFERENTIAL-MODULE READING OF K146. FULL PRESERVATION IS EQUIVALENT TO ELL_N S_4=Q ELL_N ON 4455 RADICAL SECTION JETS. THAT STRONG READING FAILS ALREADY AT THE EXACT ORDER-EIGHT PRINCIPAL SYMBOL: FOR FIXED N=(1,0,0,1) AND SPACELIKE DERIVATIVE COVECTOR XI=(0,1,0,0), ELL_N^T SIGMA_8(S_4)(XI)=[-64,0,0,-256,0,0,0,0,0,-64], NOT PROPORTIONAL TO ELL_N=[1,0,0,-2,0,0,0,0,0,1]. THE RADICAL TENSOR H=(2,0,0,1,0,0,0,0,0,0) HAS EXACT LEAKAGE -384. LOWER TERMS CANNOT REPAIR THIS TOP-ORDER FAILURE. THE FROZEN NULL SYMBOL RETAINS K135'S RANK-ONE OUTER-SQUARE LAW AND THE FROZEN K P^5 K A RESIDUAL IS ZERO. K147 THEREFORE KILLS ONLY THE OVER-STRONG ALL-DERIVATIVE-COVECTOR MODULE ROUTE AND RETURNS THE LIVE QUESTION TO A NULL-MICROLOCAL SYMBOL/TRANSPORT MODULE. ITS CURVED LOWER EVALUATOR REMAINS NOT SERIALIZED FROM THE OWNED CONDITIONAL FORMULAS."
+grade: "K147 CORRECTS AND DECIDES THE FULL DIFFERENTIAL-MODULE READING OF K146, WITH K148 INDEX-RAISING CORRECTION. FULL PRESERVATION IS EQUIVALENT TO ELL_N S_4=Q ELL_N ON 4455 RADICAL SECTION JETS. K147'S ORIGINAL SPACELIKE -384 WITNESS IS RETRACTED: IT CONTRACTED THE HESSIAN COVECTOR WITHOUT THE NATIVE DEWITT MUSICAL MAP. AFTER RAISING, THE SPACELIKE ROW IS -64 ELL_N AND HAS ZERO RADICAL LEAKAGE. THE BROAD FULL-MODULE FAILURE SURVIVES EXACTLY AT A TIMELIKE DERIVATIVE COVECTOR: THE DEWITT-RAISED ROW [0,0,0,0,-648704,0,0,-648704,0,-648768] LEAKS THE RADICAL VECTOR H_11=1 BY -648704. LOWER TERMS CANNOT REPAIR THIS TOP-ORDER FAILURE. THE FROZEN NULL SYMBOL RETAINS K135'S RANK-ONE OUTER-SQUARE LAW AND THE FROZEN K P^5 K A RESIDUAL IS ZERO. K147 THEREFORE KILLS ONLY THE OVER-STRONG ALL-DERIVATIVE-COVECTOR MODULE ROUTE AND RETURNS THE LIVE QUESTION TO A NULL-MICROLOCAL SYMBOL/TRANSPORT MODULE."
 target_claim: K146_NEXT_GATE__SPARSE_COVARIANT_EVALUATOR_AND_ELL_N_S4_H_N_TEST
-target_verdict: POINTWISE_FIBRE_TEST_INSUFFICIENT__FULL_MODULE_FACTORIZATION_REQUIRED__EXACT_SPACELIKE_ORDER8_PRINCIPAL_LEAK_MINUS384__FULL_DIFFERENTIAL_MODULE_ROUTE_KILLED__NULL_MICROLOCAL_ROUTE_REMAINS_OPEN
+target_verdict: POINTWISE_FIBRE_TEST_INSUFFICIENT__UNRAISED_SPACELIKE_MINUS384_RETRACTED__EXACT_DEWITT_RAISED_TIMELIKE_ORDER8_LEAK_MINUS648704__FULL_DIFFERENTIAL_MODULE_ROUTE_KILLED__NULL_MICROLOCAL_ROUTE_REMAINS_OPEN
 canon_verdict_change: none
 ---
 
@@ -83,8 +83,9 @@ cannot certify a generic identity.
 
 The full 4455-coefficient calculation is nevertheless unnecessary. A
 differential factorization must hold first at its highest-order symbol for
-every derivative covector `xi`. K135 already serializes that exact frozen
-coefficient. For
+every derivative covector `xi`. K135 serializes the exact frozen Hessian
+coefficient as a map `Sym2 -> Sym2*`. K148 corrects the musical typing: a
+metric endomorphism requires the native DeWitt map `G^-1`. For
 
 ```text
 n=(1,0,0,1),
@@ -96,16 +97,24 @@ ell_n^T sigma_8(S_4)(xi)
   =[-64,0,0,-256,0,0,0,0,0,-64].                              (4)
 ```
 
-That row is not a scalar multiple of `ell_n`. The exact radical vector
+The displayed row is the original unraised Hessian-covector contraction. It is
+not the typed endomorphism leakage. After raising,
 
 ```text
-h=[2,0,0,1,0,0,0,0,0,0]^T,
-ell_n^T h=0,
-ell_n^T sigma_8(S_4)(xi) h=-384.                                (5)
+ell_n^T G^-1 sigma_8(S_4)(xi)=-64 ell_n^T,                       (5)
 ```
 
-is therefore a complete top-order counterexample to (1). Lower-order curved
-coefficients cannot cancel an order-eight failure.
+so the spacelike `-384` witness is retracted. The correctly raised timelike
+control supplies the decisive counterexample:
+
+```text
+xi=(1,0,0,0),
+ell_n^T G^-1 sigma_8(S_4)(xi)
+  =[0,0,0,0,-648704,0,0,-648704,0,-648768],
+h_11=1,  ell_n^T h=0,  leakage=-648704.                          (6)
+```
+
+Lower-order curved coefficients cannot cancel this order-eight failure.
 
 ```text
 pointwise or five-representative test:  INSUFFICIENT_FOR_MODULE_DESCENT;
@@ -189,8 +198,8 @@ K P(n)^5 K A(n)=0.                                                        (8)
 
 The prior power remains nonzero, so this is the exact terminal null
 nilpotence, not an empty packet. It is a null principal-symbol result, not a
-curved differential identity. The spacelike family simultaneously supplies
-the nonzero order-eight leakage (5). This causal contrast is why the result
+curved differential identity. The timelike family simultaneously supplies
+the nonzero DeWitt-raised order-eight leakage (6). This causal contrast is why the result
 returns to a null-microlocal module rather than strengthening the null quotient
 into an all-derivative-covector differential submodule.
 
@@ -208,7 +217,7 @@ into an all-derivative-covector differential submodule.
   must fail (1).
 - **Covariance:** replay at the rationally rotated null covector before a pass.
 
-Equation (5) kills full differential-module descent of this `S_4` on the
+Equation (6) kills full differential-module descent of this `S_4` on the
 conditional local branch. It does not kill the covariant five-class null
 geometry or claim that the frozen null symbol leaks: an independent null
 covector control has zero order-eight term, consistent with K135. Any future
@@ -225,7 +234,8 @@ R1 K145: R_4 leaves exact P^5 remainders as differential operators.
 R2 K146: S_4=-A^*R_4A is the first typed metric polynomial and S_4G=0.
 R3 K147: pointwise H_n tests are insufficient for a differential operator.
 R4 K147: full descent is ell_n S_4=Q ell_n on 4455 radical jets.
-R5 K147: the spacelike order-eight symbol violates factorization by -384.
+R5 K147/K148 correction: the unraised spacelike -384 witness is retracted;
+   the DeWitt-raised timelike symbol violates factorization by -648704.
 R6 K147: kill the full differential-module route; preserve the frozen null law.
 R7 next route: define the exact null-characteristic symbol/transport module and
    compute only its curved lower coefficient with the unified sparse evaluator.
@@ -235,6 +245,15 @@ R8 only after R7 passes: descend the null-microlocal coefficient to the
 
 No K147 result changes canon, a ledger, a source claim, a particle or
 phenomenology verdict, a paper, or GU's public posture.
+
+## K148 successor classification
+
+K148 pairs each nonzero null covector with its own `H_n/G_n`, rather than
+reusing fixed `n` against arbitrary derivative covectors. The frozen metric
+polynomial descends covariantly and induces the zero principal map on the
+rank-five null-cone quotient. K147's full-module failure remains exact through
+the corrected DeWitt-raised timelike witness; the curved lower transport
+remains unserialized and is now the K149 gate.
 
 Reproduce the exact gate:
 

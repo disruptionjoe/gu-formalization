@@ -8,14 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K148 native I1B null-cone principal descent 2026-08-16 (rank-five bundle
+exact; frozen induced map zero; curved lower transport open).** The correct
+microlocal object pairs each nonzero null covector with its own
+`Q_n=H_n/G_n`. Exact dimensions are `9-4=5`, invariant under null-ray scaling.
+K135's full frozen metric polynomial has coefficient ranks `[1,0,0,0,0]` and
+surviving Hessian outer-square `-48 ell_n ell_n^T`; after the native DeWitt
+musical map, K138 covariance globalizes its zero induced map over the null cone.
+K148 retracts K147's unraised spacelike `-384` witness. The full-module kill
+survives through a DeWitt-raised timelike leakage `-648704`. The unified curved evaluator is absent, so no lower
+endomorphism is booked. See
+`explorations/conditional-build/selected-k148-native-i1b-null-cone-principal-descent-gate-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| null-cone quotient bundle | exact at two representatives | covariant rank-five null-ray bundle | K138 transport | K148 theorem |
+| frozen principal descent | open after K147 switch | pass; induced map zero | K135 coefficient replay | K148 probe |
+| curved lower transport | unserialized | still undefined | unified moving evaluator | unchanged fence |
+
 **K147 native I1B T=0 radical-module factorization gate 2026-08-16
 (full differential-module route killed at exact order-eight principal-symbol
 grade; null-microlocal route retained).** Full preservation of arbitrary
 `H_n`-valued sections requires `ell_n S_4=Q ell_n` on 4455 radical jets. The
-existing K135 principal packet decides the necessary top-order test: at fixed
-null `n=(1,0,0,1)` and spacelike derivative covector `xi=(0,1,0,0)`, the
-leakage row is `[-64,0,0,-256,0,0,0,0,0,-64]`, and the radical tensor with
-`h_00=2,h_03=1` leaks by `-384`. Thus lower curved terms cannot make
+existing K135 principal packet decides the necessary top-order test after the
+native DeWitt index-raising. The original spacelike `-384` contraction was
+unraised and is retracted; its raised row factors as `-64 ell_n`. At timelike
+derivative covector `xi=(1,0,0,0)`, the raised row leaks `h_11=1` by
+`-648704`. Thus lower curved terms cannot make
 `S_4(Gamma H_n)` invariant. The frozen null symbol remains the rank-one
 outer-square law, its restricted `K P^5 K A` principal residual is zero, and
 an independent null covector has zero order-eight term. The result switches
@@ -26,7 +45,7 @@ module; the latter's curved lower coefficient is still not serialized. See
 | claim | prior status | current status | weakest dependency | stale wording searched | files updated |
 | --- | --- | --- | --- | --- | --- |
 | pointwise `H_n` test | proposed | insufficient for differential operators | arbitrary section jets | K146/current/context | K147 theorem |
-| full `S_4(Gamma H_n)` preservation | unevaluated | exact fail by spacelike order-eight leakage `-384` | none at principal grade | K146 | K147 probe |
+| full `S_4(Gamma H_n)` preservation | unevaluated | exact fail by DeWitt-raised timelike order-eight leakage `-648704`; unraised spacelike `-384` retracted | none at principal grade | K146 | K147/K148 probes |
 | frozen null restricted residual | unevaluated | `K P(n)^5 K A(n)=0` | curved lower composition | K145/K146 | K147 replay |
 | null finite-frequency quotient | exact geometric object | retained; not killed by cross-covector module failure | null-microlocal lower transport | K138-K146 | K147 scope correction |
 | curved null leakage | not materialized | still not serialized from owned conditional formulas | unified sparse evaluator and null-module convention | K146 | K147 switch |

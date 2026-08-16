@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b21876d3463616df5bc42df8e36d2cd7d7b98d5d
+revision_basis: 36bc6c132810f104cc0c90f9decdfce2010d1e90
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,17 +9,33 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K148 now defines the correctly paired null-characteristic object left open
+    by K147. Over each nonzero null ray [n], H_n=ker ell_n contains the
+    four-dimensional diffeomorphism image G_n and Q_n=H_n/G_n has dimension
+    five. K135's complete frozen metric Hessian has coefficient ranks
+    [1,0,0,0,0]: only -48 ell_n ell_n^T survives. After the native DeWitt
+    musical map it annihilates H_n and induces the zero principal map on Q_n.
+    K138's exact Lorentz transport and
+    null-ray scaling globalize the result over the nonzero null cone. This
+    also corrects K147's musical typing: the unraised spacelike -384 witness
+    is retracted, while a DeWitt-raised timelike row leaks h_11=1 by -648704
+    and preserves K147's broad full-module failure. K148 does not compute curved
+    transport. The unified moving Cl(7,7) evaluator remains unserialized, so
+    the curved restricted residual and lower map remain undefined. K149 owns
+    that minimal evaluator and its frozen/rotated controls. Joe input is not
+    required.
     K147 now corrects and decides the full differential-module reading of
     K146's radical-preservation question. Since S_4=-A^*R_4A has order at
     most eight, preservation of arbitrary H_n-valued sections would require
     the operator factorization ell_n S_4=Q ell_n. This is a 4455-generator
     finite jet condition: 495 scalar four-variable jets through order eight
     for each of nine radical directions. The condition fails already at the
-    exact top symbol. For fixed null n=(1,0,0,1) and spacelike derivative
-    covector xi=(0,1,0,0), ell_n^T sigma_8(S_4)(xi) is
-    [-64,0,0,-256,0,0,0,0,0,-64], not proportional to
-    ell_n=[1,0,0,-2,0,0,0,0,0,1]. The radical vector
-    h=(2,0,0,1,0,0,0,0,0,0) leaks by -384 exactly. Lower curved terms cannot
+    exact top symbol after applying the native DeWitt musical map. The original
+    spacelike -384 contraction was unraised and is retracted; its raised row is
+    -64 ell_n and has zero radical leakage. For timelike derivative covector
+    xi=(1,0,0,0), the raised row
+    [0,0,0,0,-648704,0,0,-648704,0,-648768] leaks the radical vector
+    h_11=1 by -648704 exactly. Lower curved terms cannot
     repair a top-order failure, so S_4 does not preserve Gamma(H_n) as a full
     differential module. This does not kill the finite-frequency null
     quotient: the frozen null Schur map remains -48 ell_n ell_n^T, the frozen

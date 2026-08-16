@@ -6,6 +6,11 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k148_native_i1b_null_cone_principal_descent_gate_probe.py`
+  proves exact null-ray quotient dimensions, Lorentz congruence, frozen
+  principal descent, the zero five-class induced map, and the curved-lower
+  owner fence.
+
 - `channel-swings/selected_k147_native_i1b_t0_radical_module_factorization_gate_probe.py`
 - `channel-swings/selected_k146_native_i1b_t0_null_remainder_type_and_quotient_gate_probe.py`
   corrects the direct `P^5` quotient test by carrier, derives the exact

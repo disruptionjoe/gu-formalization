@@ -7,15 +7,28 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K148 CLOSES FROZEN PRINCIPAL DESCENT ON THE COVARIANT NULL-CONE
+> QUOTIENT.** Pair each nonzero null covector `n` with
+> `Q_n=ker(ell_n)/im(n symmetric-product -)`, a rank-five null-ray bundle.
+> K135's full frozen metric polynomial has degree ranks `[1,0,0,0,0]` and
+> surviving Hessian coefficient `-48 ell_n ell_n^T`; after the native DeWitt
+> musical map, the induced principal map
+> on every `Q_n` is exactly zero. K138 Lorentz transport globalizes the result;
+> it does not compute the curved lower map. **K149 should serialize the minimal
+> unified moving `Cl(7,7)` evaluator and compute the curved restricted residual
+> and first null lower leakage, replaying frozen and rationally rotated
+> controls. Do not infer a Dencker map, domain, BFV class, or physical mode
+> before that evaluator exists.**
+
 > **2026-08-16 K147 KILLS THE FULL DIFFERENTIAL-MODULE READING BUT PRESERVES
 > THE NULL-MICROLOCAL ROUTE.** Because `S_4=-A^*R_4A` has order at most eight,
 > preservation of arbitrary `H_n`-valued sections is equivalent to
 > `ell_n S_4=Q ell_n` and spans `9*binomial(12,4)=4455` radical jet
-> generators. The necessary top-symbol factorization already fails. For
-> fixed `n=(1,0,0,1)` and spacelike derivative covector `xi=(0,1,0,0)`,
-> `ell_n^T sigma_8(S_4)(xi)=[-64,0,0,-256,0,0,0,0,0,-64]`, while
-> `ell_n=[1,0,0,-2,0,0,0,0,0,1]`; the exact radical tensor
-> `h=(2,0,0,1,0,0,0,0,0,0)` leaks by `-384`. Lower terms cannot cancel this
+> generators. The necessary top-symbol factorization already fails after the
+> native DeWitt musical map. K148 retracts the original unraised spacelike
+> `-384` witness: its raised row is `-64 ell_n` and has zero radical leakage.
+> At timelike derivative covector `xi=(1,0,0,0)`, the raised row leaks the
+> exact radical tensor `h_11=1` by `-648704`. Lower terms cannot cancel this
 > order-eight failure. The frozen null packet still has
 > `S_null=-48 ell_n ell_n^T`, `K P(n)^5 K A(n)=0`, and zero order-eight term at
 > an independent null covector. **The next gate should therefore define the
