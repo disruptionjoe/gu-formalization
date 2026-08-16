@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K125 fixed-chart/Cartan gate:** the explicit symmetric-frame
+> `D2B_LC` is nonzero and symmetric; restoring `dB` makes the connection
+> curvature exactly moving-frame covariant. Transporting the pairing and
+> noncyclic Shiab-like coefficient together reproduces K124's co-moving scalar
+> without a cyclic-trace assumption. The principal Green current is
+> frame-covariant, while Cartan improvements shift the presymplectic
+> representative by a spacetime-exact term and need not vanish at a boundary.
+> Retain K124's `C_t_h_h^prin=-12 q^2<DW>` and `C_t_h_v^prin=0`. K126 must
+> evaluate the three-entry same-`I1B` curved TT endomorphism before any unique
+> full pencil, spectrum, global domain or BFV charge is claimed.
+
 > **Current K124 native `I1B` principal TT evaluator:** composing the exact
 > full-K77 Clifford/exterior scalar-action engine with the native
 > spin-Levi-Civita graph gives

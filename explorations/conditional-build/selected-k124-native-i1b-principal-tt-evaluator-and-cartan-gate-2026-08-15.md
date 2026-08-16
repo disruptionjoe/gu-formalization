@@ -227,6 +227,19 @@ R9 later: BFV reduction and 2D-to-98D attachment
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.
 
+## K125 successor closure — 2026-08-15
+
+K125 closes the coordinate concern at K124's exact scope. The explicit
+fixed-chart symmetric-frame connection has the required nonzero mixed second
+metric jet; restoring `dB` gives exact curvature covariance; and transporting
+the pairing plus noncyclic Shiab-like map reproduces the co-moving scalar
+without a cyclic-trace assumption. The principal Green current is likewise
+frame-covariant, while Cartan improvements change its representative by a
+spacetime-exact term. K124's principal coefficients are retained unchanged.
+K126 now owns the same-`I1B` curved lower-order background-jet endomorphism;
+its three symmetric TT entries must be evaluated before any unique full
+pencil or spectrum is claimed.
+
 Reproduce:
 
 ```bash

@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K125 CLOSES THE FIXED-CHART COVARIANCE AND CARTAN-CLASS
+> SEAM, NOT THE CURVED LOWER-ORDER COEFFICIENTS.** The explicit
+> symmetric-frame spin-Levi-Civita connection has a nonzero symmetric mixed
+> second metric jet. Restoring `dB` gives exact covariance of
+> `dB+B wedge B`, while transporting the pairing and noncyclic Shiab-like map
+> together reproduces the co-moving action scalar without trace cyclicity.
+> The principal Green current is frame-covariant, and Cartan improvements
+> shift the presymplectic representative by a spacetime-exact term; this does
+> not select a boundary condition or BFV charge. K124's
+> `C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0` remain exact. **K126 must
+> now evaluate the same-`I1B` curved background-jet endomorphism
+> `E=[[a,c],[c,b]]` coefficientwise.** Its three entries preserve the
+> principal symbol but generically change the determinant and spectrum, so no
+> unique full pencil or spectral owner exists before that evaluation.
+
 > **2026-08-15 K124 CONSTRUCTS THE FULL-K77-CARRIER PRINCIPAL TT SLICE OF
 > `O_K123`.** Direct corner polarization of the printed source-native `I1B`
 > scalar action on the native graph `delta B=DB_LC[H], delta T_h=0` gives

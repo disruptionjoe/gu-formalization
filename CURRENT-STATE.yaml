@@ -1092,7 +1092,22 @@ current_result:
     second-LC-jet, curved lower-order and noncyclic Cartan packet in a fixed
     chart. No unique full pencil, spectrum, global domain or BFV charge is
     selected.
+    K125 now closes the explicit fixed-chart covariance and Cartan-class seam.
+    The symmetric-frame spin-Levi-Civita connection has a live nonzero mixed
+    second metric jet. Restoring dB to B-wedge-B gives exact moving-frame
+    curvature covariance, and simultaneous transport of the pairing and
+    noncyclic Shiab-like coefficient reproduces the co-moving scalar without
+    a cyclic-trace assumption. The principal Green current is frame-covariant;
+    Cartan improvements change its presymplectic representative only by a
+    spacetime-exact term, not necessarily by a boundary-trivial term. K124's
+    principal coefficients remain unchanged. The same-I1B curved lower-order
+    two-polarization TT endomorphism still has three symmetric entries
+    E=[[a,c],[c,b]] uninstantiated by current background-jet evidence. K126
+    must evaluate those entries before a unique full pencil, spectrum, global
+    domain or BFV charge can be selected.
   evidence:
+    - explorations/conditional-build/selected-k125-native-i1b-fixed-chart-cartan-recombination-2026-08-15.md
+    - lab/process/selected-k125-native-i1b-fixed-chart-cartan-recombination.json
     - explorations/conditional-build/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate-2026-08-15.md
     - lab/process/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate.json
     - explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md

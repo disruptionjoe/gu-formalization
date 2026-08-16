@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K125 native I1B fixed-chart Cartan recombination 2026-08-15 (exact local
+covariance/class closure; curved lower-order packet remains open).** The
+explicit fixed-chart symmetric-frame connection retains a nonzero symmetric
+`D2B_LC`; `dB+B wedge B` transforms exactly under the moving frame; and the
+pairing/noncyclic-Shiab packet reproduces the co-moving scalar without trace
+cyclicity. The principal Green current is frame-covariant. Cartan
+improvements change the presymplectic representative by a spacetime-exact
+term but are not automatically boundary trivial. K124's principal
+coefficients survive. A three-entry symmetric curved TT endomorphism remains
+uninstantiated and changes the full characteristic polynomial, so K126 must
+evaluate it before unique-pencil or spectral work. No BFV/domain/attachment
+or physics claim follows. See
+`explorations/conditional-build/selected-k125-native-i1b-fixed-chart-cartan-recombination-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| fixed-chart K124 equivalence | unverified coordinate concern | exact through mixed second frame order | none at local covariance grade | K124/current/context | K125 surfaces |
+| noncyclic coefficient motion | co-moving packet only | exact dual/conjugation transport without trace cyclicity | actual curved background bank | same | K125 artifact/probe |
+| Cartan/Green | principal representative | frame-covariant class; exact improvements retained | boundary conditions/global domain | same | K125 review |
+| full TT pencil | principal block fixed | three lower-order symmetric entries open | K126 same-action background jet | current/roadmap | K126 route |
+
 **K124 native I1B principal TT evaluator and Cartan gate 2026-08-15 (full
 K77 carrier, exact principal bulk and Green representative; no canon/public-
 posture change).** The previously separate K77 Clifford/exterior action engine
