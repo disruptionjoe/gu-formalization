@@ -158,6 +158,20 @@ characteristics using tangential and lower-order coefficients. No ledger,
 canon, public posture, particle, phenomenology, or GU truth-status claim
 changes. Joe input is not required.
 
+## K136 successor classification
+
+K136 exactly resolves the frozen null quotient: four action-owned
+diffeomorphisms sit inside a six-dimensional `ker A`, whose other two classes
+are TT plus/cross; three further `A`-visible compensated classes complete the
+nine-dimensional Schur radical. The five quotient classes are finite-symbol
+characteristics only. The non-gauge `a=4` shell kernel also produces
+approximate-shell sequences, obstructing the frozen translation-invariant
+whole-space Fredholm route and unbounded finite-order local-boundary repairs.
+Compact, nonlocal, anisotropic, different-background, and new action-boundary
+routes remain outside that theorem. K137 now owns full curved subprincipal
+transport on the five-class quotient or an explicit action-owned boundary
+addition.
+
 Reproduce:
 
 ```bash

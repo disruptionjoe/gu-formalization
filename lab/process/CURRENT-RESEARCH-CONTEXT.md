@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K136 null-characteristic and local-domain classification:** the
+> null effective metric radical has exact nested dimensions `4` action-owned
+> diffeomorphisms inside `6` dimensions of `ker A` inside the full `9`-dimensional
+> Schur radical. Modulo gauge, the five finite-symbol classes are two `A`-null
+> TT representatives and three `A`-visible compensated mixed representatives.
+> They are not yet propagated or physical modes. The non-gauge `a=4` shell
+> kernel produces normalized approximate-shell sequences, obstructing closed
+> range and Fredholmness for the frozen translation-invariant whole-space
+> realization and for unbounded local-boundary realizations with the same
+> interior operator. Every conormal remains principal-characteristic and the
+> action Green form is degenerate. Compact, nonlocal, anisotropic, different-
+> background, and new action-boundary-term routes remain outside the theorem.
+> K137 owns complete curved subprincipal transport on the five-class quotient
+> or verification of an explicit action-owned boundary addition.
+
 > **Current K135 coupled-shell, Green, and domain classification:** the
 > action-owned spacelike metric map has rank six and closes in an exact
 > 112-dimensional distortion packet. It intersects K134's shell kernels only

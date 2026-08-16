@@ -7,6 +7,25 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K136 CLASSIFIES THE FIVE GAUGE-REDUCED NULL CLASSES AND
+> CLOSES THE FROZEN UNBOUNDED LOCAL-FREDHOLM ROUTE.** K135's rank-one null
+> Schur form has radical nine. The action-owned diffeomorphism image has
+> dimension four; modulo it, the five exact characteristic classes split into
+> two `A`-null TT representatives and three `A`-visible compensated mixed
+> representatives. They are finite-symbol characteristics, not yet propagated
+> or physical modes. K135's non-gauge `a=4` shell kernel supplies normalized
+> approximate-shell sequences, so the frozen translation-invariant whole-space
+> realization has non-closed range. Local finite-order boundary traces on an
+> unbounded domain cannot repair interior packets translated away from the
+> boundary. Every conormal is principal-characteristic and the Green form is
+> degenerate, so ordinary noncharacteristic Cauchy and elliptic Calderon routes
+> remain unavailable. Compact, nonlocal, anisotropic, different-background,
+> and newly action-supplied boundary routes remain open at their added
+> assumptions. **K137 must evaluate the complete curved-background
+> subprincipal/Hamilton transport on the five-class quotient, including null
+> and shell crossings, or verify an explicit action-owned boundary addition
+> before any KT/BFV quotient, positivity, inverse or physical cohomology.**
+
 > **2026-08-16 K135 COMPOSES THE METRIC BLOCK BUT ALL 27 SPACELIKE SHELLS
 > REMAIN SINGULAR.** The action-owned rank-six spacelike metric map closes in
 > an exact 112-dimensional invariant packet and meets distortion shell kernels

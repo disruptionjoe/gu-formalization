@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k136-native-i1b-t0-microlocal-boundary-domain",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B Hessian at the K127 local Ricci-flat T=0 frozen germ on real Cl(7,7)",
+  "target_claim": "K135_NEXT_GATE__CLASSIFY_FIVE_NULL_METRIC_CLASSES_AND_ACTION_COMPATIBLE_LOCAL_GREEN_REALIZATIONS",
+  "null_metric_quotient": {
+    "schur_rank": 1,
+    "schur_radical_dimension": 9,
+    "action_owned_diffeomorphism_dimension": 4,
+    "A_kernel_dimension": 6,
+    "A_null_TT_quotient_dimension": 2,
+    "A_visible_compensated_quotient_dimension": 3,
+    "gauge_reduced_characteristic_dimension": 5,
+    "A_visible_compensated_image_rank": 3
+  },
+  "mode_classes": {
+    "A_null_TT": ["h11-h22", "h12"],
+    "A_visible_compensated": ["h11+h22", "h01-h13", "h02-h23"],
+    "propagation_status": "finite_symbol_characteristics_only__curved_subprincipal_transport_not_constructed"
+  },
+  "domain_result": {
+    "witness_shell_radius_squared": 4,
+    "witness_contains_non_gauge_kernel": true,
+    "frozen_translation_invariant_whole_space_fredholm": false,
+    "unbounded_finite_order_local_boundary_repair": false,
+    "reason": "normalized weakly-null approximate-shell sequences defeat a lower bound modulo finite kernel",
+    "not_ruled_out": [
+      "specified compact-domain realization",
+      "externally supplied nonlocal anisotropic projector",
+      "different-background realization",
+      "action-owned boundary addition not present in the frozen packet"
+    ]
+  },
+  "green_boundary_result": {
+    "every_conormal_principal_characteristic": true,
+    "ordinary_noncharacteristic_Cauchy_route": false,
+    "ordinary_elliptic_Calderon_route": false,
+    "action_green_form_selects_polarization": false
+  },
+  "claim_ceiling": "exact finite-symbol quotient and frozen unbounded local-domain obstruction; no physical modes, global curved propagation, universal domain no-go, KT/BFV quotient, positivity, or cohomology",
+  "next_gate": "K137_COMPLETE_CURVED_SUBPRINCIPAL_TRANSPORT_ON_FIVE_CLASS_QUOTIENT_OR_ACTION_OWNED_BOUNDARY_ADDITION"
+}
