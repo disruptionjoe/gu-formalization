@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 15ec450409e37d5e0f374c212541d742039f39ae
+revision_basis: 64320d65b26a747fc3bc3e425c2080e183654d15
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,27 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K143 now proves that K141's compact shell-free family does not own a
+    lower-order subprincipal coefficient of the original fixed-coupling local
+    I1B action. With fixed nonzero kappa_1, mu=kappa_1/rho and the annulus
+    13<=|mu|<=14 is exactly the bounded frequency band
+    |kappa_1|/14<=rho<=|kappa_1|/13. It is not conic: covector dilation sends
+    mu to mu/t and leaves the annulus. The joint rule kappa_1=rho*mu instead
+    gives C=rho(i C_1+mu K), promoting the Hodge mass to homogeneous order one
+    inside the principal parameter family rather than supplying a lower-order
+    coefficient. Realizing rho as an operator would require an auxiliary
+    homogeneous norm, quantization, adjoint and equivalence theorem absent
+    from the displayed local action; sqrt(|q|) vanishes on the null cone and
+    cannot realize the nonzero annulus. The original fixed kappa_1 K is a true
+    zero-order distortion coefficient, but K132 shows it breaks principal
+    distortion null identities and K139's homogeneous DN quotient remains
+    106634-dimensional rather than five. Principal graph/quotient data admit
+    both basic and non-basic lower maps, so five-class radical/gauge basicness
+    is undefined until an actual fixed-action curved coefficient or explicit
+    new pseudodifferential, gauge or boundary owner exists. K144 may extract
+    the fixed-kappa local coefficient on a selected or generic Ricci-flat
+    background neighborhood and test basicness without reusing compact-annulus
+    conic language. Joe input is not required.
     K142 now proves that K141's compact action-derived graph family carries a
     representative-free intrinsic connection, but that connection is
     tautological at the metric-base grade and supplies no action-specific

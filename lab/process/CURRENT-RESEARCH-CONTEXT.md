@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K143 fixed-action subprincipal-owner obstruction:** with fixed
+> nonzero `kappa_1`, K141's annulus is the bounded frequency band
+> `|kappa_1|/14<=rho<=|kappa_1|/13`, not a conic set. The alternative joint
+> scaling `kappa_1=rho mu` promotes the Hodge mass to order one inside
+> `rho(i C_1+mu K)` and therefore does not supply a lower-order coefficient of
+> the original fixed local action. An operator realization would require a
+> homogeneous norm, quantization, adjoint and equivalence theorem; none is
+> action-owned, and `sqrt(|q|)` vanishes on the null cone. The original
+> zero-order `kappa_1 K` lives on the distortion carrier and does not by itself
+> descend to K138's separate five-class finite-Schur quotient. Principal
+> graph/quotient data admit both basic and non-basic lower endomorphisms, so
+> radical/gauge basicness remains undefined until K144 extracts an actual
+> fixed-action curved local coefficient or an explicit new owner is supplied.
+
 > **Current K142 intrinsic quotient-connection classification:** for K141's
 > fixed extraction `E(g,T)=g` and graph inclusion `R_mu`, differentiating
 > `E R_mu=I` gives `E dR_mu=0` and hence `P_mu dR_mu=0`. The projected graph

@@ -213,6 +213,22 @@ physical subprincipal symbol. It must obtain the relevant lower-order
 coefficient from the action/reduction and test it on the radical and gauge
 image before choosing representatives. Joe input is not required.
 
+## K143 successor classification
+
+K143 proves that the requested coefficient is not owned on K141's compact
+joint family. For fixed action coupling, `mu=kappa_1/rho`, so the annulus is a
+bounded nonconic frequency band. The rule `kappa_1=rho mu` that makes the graph
+uniform instead promotes `mu K` into the homogeneous order-one principal
+family and changes the fixed local action. Realizing `rho` as an operator
+requires an unowned homogeneous norm, quantization, adjoint and equivalence
+theorem; the Lorentz scalar `sqrt(|q|)` vanishes on the null cone. The fixed
+zero-order distortion coefficient `kappa_1 K` does not automatically descend
+to the separate five-class quotient, and exact controls show that principal
+graph/quotient data admit both basic and non-basic lower maps. Basicness is
+therefore undefined pending K144's fixed-action curved local coefficient audit
+or an explicit new pseudodifferential, gauge or boundary owner. The present
+intrinsic quotient connection remains exact.
+
 Reproduce:
 
 ```bash

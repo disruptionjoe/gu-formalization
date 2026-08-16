@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k143-native-i1b-t0-fixed-action-subprincipal-owner-obstruction",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed local comm/symi/symi I1B Hessian at T=0 with fixed scalar kappa_1, compared with K141's compact joint family 13<=|mu|<=14 and K138's smooth null quotient",
+  "target_claim": "K142_NEXT_GATE__ACTUAL_LOWER_ORDER_ACTION_COEFFICIENT_ON_COMPACT_NULL_FAMILY_AND_RADICAL_GAUGE_BASICNESS",
+  "fixed_action": {
+    "distortion_symbol": "C(rho,n)=i*rho*C_1(n)+kappa_1*K",
+    "coupling_fixed": true,
+    "mu_relation": "mu=kappa_1/rho",
+    "annulus_frequency_band": ["abs(kappa_1)/14", "abs(kappa_1)/13"],
+    "annulus_conic": false,
+    "principal_term": "i*rho*C_1(n)",
+    "zero_order_term": "kappa_1*K"
+  },
+  "joint_family": {
+    "scaling": "kappa_1=rho*mu",
+    "distortion_symbol": "C_joint=rho*(i*C_1(n)+mu*K)",
+    "hodge_term_order": 1,
+    "hodge_term_is_subprincipal": false,
+    "same_fixed_local_action": false,
+    "uniform_compact_graph_retained_as_parameter_family": true
+  },
+  "operator_owner": {
+    "rho_operator_declared": false,
+    "homogeneous_norm_declared": false,
+    "quantization_declared": false,
+    "adjoint_declared": false,
+    "equivalence_to_fixed_action_declared": false,
+    "sqrt_abs_q_nonzero_on_null_cone": false,
+    "auxiliary_positive_norm_action_owned": false,
+    "owned_five_class_subprincipal_coefficient": false
+  },
+  "quotient_basicness": {
+    "radical": "H_n=ker(ell_n)",
+    "gauge": "G_n=im(n_odot_minus)",
+    "quotient_dimension": 5,
+    "frozen_schur_induced_map_on_quotient": "ZERO_CHARACTERISTIC_EQUATION_MAP_NOT_SUBPRINCIPAL_TRANSPORT",
+    "graph_derivative_induced_action_map": "ZERO_EXTRINSIC_SPLIT_RESULT_NOT_SUBPRINCIPAL_TRANSPORT",
+    "principal_data_determine_lower_basicness": false,
+    "actual_lower_coefficient_basicness": "UNDEFINED_NO_OWNED_COEFFICIENT"
+  },
+  "claim_ceiling": "fixed-versus-joint scaling, conicity, symbol order, quantization ownership and quotient-basicness non-identifiability; no physical subprincipal-zero claim, closed domain, BFV reduction, positivity, states or propagation",
+  "next_gate": "K144_FIXED_KAPPA_CURVED_LOCAL_OPERATOR_COEFFICIENT_EXTRACTION_ON_SELECTED_OR_GENERIC_RICCI_FLAT_NEIGHBORHOOD__RADICAL_GAUGE_BASICNESS_WITHOUT_COMPACT_ANNULUS_CONIC_PROMOTION__OR_EXACT_MISSING_OWNER_RESULT",
+  "canon_verdict_change": "none"
+}

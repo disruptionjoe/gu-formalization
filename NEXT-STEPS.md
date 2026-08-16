@@ -7,6 +7,24 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K143 PROVES THAT THE COMPACT JOINT FAMILY HAS NO OWNED
+> LOWER-ORDER COEFFICIENT OF THE FIXED LOCAL ACTION.** For fixed nonzero
+> `kappa_1`, `mu=kappa_1/rho`, so `13<=|mu|<=14` is exactly the bounded band
+> `|kappa_1|/14<=rho<=|kappa_1|/13`, not a conic set: dilation sends `mu` to
+> `mu/t`. The joint scaling `kappa_1=rho mu` instead gives
+> `C=rho(i C_1+mu K)`, making the Hodge mass homogeneous order one and part of
+> the promoted principal family rather than its subprincipal coefficient.
+> Turning `rho` into an operator requires a homogeneous norm, quantization,
+> adjoint and equivalence theorem not owned by the displayed local action;
+> the invariant candidate `sqrt(|q|)` vanishes on the null cone. The original
+> fixed `kappa_1 K` is a genuine zero-order distortion term, but it does not
+> define an endomorphism of the separate five-class quotient. Principal data
+> admit both basic and non-basic lower maps, so the requested basicness is
+> undefined, not pass, fail or zero. **K144 may extract the actual fixed-kappa
+> local operator coefficient on a selected or generic Ricci-flat background
+> neighborhood and test radical/gauge basicness without promoting the compact
+> band to a conic family; otherwise it must record the exact missing owner.**
+
 > **2026-08-16 K142 CONSTRUCTS THE INTRINSIC QUOTIENT CONNECTION AND PROVES
 > THE ACTION GRAPH DERIVATIVE IS PURELY EXTRINSIC.** For the fixed metric
 > extraction `E` and graph inclusion `R_mu`, the exact split `E R_mu=I` gives
