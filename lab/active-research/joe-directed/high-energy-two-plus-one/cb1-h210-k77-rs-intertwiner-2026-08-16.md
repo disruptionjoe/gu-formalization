@@ -85,7 +85,7 @@ ambient Weyl half to the opposite half. After the complex PS factorization,
 this is rank `16` on each internal Weyl copy; complexification is needed for
 the conventional `(4,2,1)` / `(4bar,1,2)` names, not for existence of the
 K77 representation map.
-For a declared nonzero family covector `r:F=C^3 -> C`, the conditional map
+For a declared nonzero family covector `r:M_3=C^3 -> C`, the conditional map
 `r tensor T` has rank `16` and kernel
 
 ```text
@@ -98,11 +98,14 @@ This is the algebraic shape needed by the `2+1` hypothesis. It neither derives
 
 ## Source contract carried into the calculation
 
-The mandatory packet rows `SC-GEN-57/51/53/59/02/04/56/50/52` and
+The mandatory packet rows `SC-GEN-03/05/06/57/51/53/59/02/04/56/50/52`,
+`SC-PRE-52`, and
 `SC-CHI-50/54/51/53/03` control the interpretation:
 
-- the target is two representation-theoretically ordinary family-shaped
-  outputs plus one imposter-shaped output that can look the same at low energy;
+- the source target is two representation-theoretically ordinary family-shaped
+  outputs plus one F-shaped imposter output that can look the same at low
+  energy; the `144` in this calculation is its distinct predicted partner, not
+  the imposter itself;
 - the parent carrier stays non-chiral and four-cornered even when luminous and
   dark halves decouple effectively;
 - no ordinary three-family index, scalar Higgs mechanism, net-chirality no-go,
@@ -195,7 +198,7 @@ choose a new form in this lane.
 
 ### 7. Family-symmetry lens
 
-The family result is basis-free. Any nonzero `r in F*` has a two-dimensional
+The family result is basis-free. Any nonzero `r in M_3*` has a two-dimensional
 kernel and stabilizer preserving the line `[r]`; no basis vector is selected
 or called the third family. The conjugate half must carry the conjugate map.
 

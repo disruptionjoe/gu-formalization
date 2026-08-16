@@ -23,6 +23,8 @@ depends_on:
   - lab/active-research/joe-directed/high-energy-two-plus-one/he3-four-corner-partner-placement-and-family-rank-2026-08-16.md
   - lab/active-research/joe-directed/high-energy-two-plus-one/he4-two-ps-channels-have-distinct-upstairs-owners-2026-08-16.md
   - lab/active-research/joe-directed/high-energy-two-plus-one/he4-source-owner-intersection-2026-08-16.md
+  - lab/active-research/joe-directed/high-energy-two-plus-one/cb3-h210-source-observation-functor-crosswalk-2026-08-16.md
+  - lab/process/hostile-reviews/2026-08-16-joe-directed-cb3-h210-observation-review.md
   - lab/process/hostile-reviews/2026-08-16-joe-directed-he4-distinct-channel-owners-review.md
 ---
 
@@ -62,6 +64,9 @@ memory of grand unification.
 | source row | source-owned content | consequence for this lane |
 |---|---|---|
 | `SC-GEN-57` | The rolled-up Dirac--de Rham--Rarita--Schwinger gadget gives “three families, really two plus one”; the imposter is representation-theoretic and looks the same at low energy. | The target is representation-origin sameness at low energy and difference higher up, not three copies from an index. |
+| `SC-GEN-03`, `SC-GEN-05` | Equation (12.22) labels the F-shaped `128 = S(TX) tensor S(N)` term as the imposter; the RS remainder is said to reveal it under pullback. | Reserve *imposter* for F provenance. The internal `144` is not this referent. |
+| `SC-GEN-06` | The p.53 table contains imposter-named rows whose printed dimensions sum to `144`, but the host representation and star notation are unresolved. | Preserve the ambiguity; it does not license renaming the whole `144` as the imposter. |
+| `SC-PRE-52` | An additional roughly `144`-complex-dimensional spin-one-half sector is predicted to combine with the observed third generation at Pati--Salam. | Call the internal `144` the predicted partner sector. A family-to-partner port still needs a separate alignment to F provenance. |
 | `SC-GEN-51` | Two labeled generation modules are equivalent and one is not at the larger-group level; restriction to a subgroup can make inequivalent parent representations isomorphic. | The low/high-energy contrast is a restriction/reunification question. |
 | `SC-GEN-53` | As energy increases, two generations are claimed to remain identical up to mass and one not. | This is the prediction-shaped target, but the source supplies no scale, discriminator, or threshold. Do not invent one. |
 | `SC-GEN-59` | The 2020 formulation says there are two true generations and the third reunifies with other matter at higher energy. | The imposter should reconnect to a larger carrier, not merely receive a different ordinary Yukawa mass. |
@@ -84,6 +89,32 @@ high-energy claim: the imposter reunifies or behaves differently
 This is the proposal to conditionally build. It is not the ordinary statement
 that three chiral generations arise from a topological index and one gets a
 larger Higgs mass.
+
+### Referent and alignment fence
+
+Use three different symbols and do not collapse them:
+
+```text
+F     = the source's equation-(12.22) imposter summand;
+M_3   = the abstract three-dimensional family-multiplicity space;
+144   = the Z-sector partner predicted separately in SC-PRE-52.
+```
+
+`H210` assumes a nonzero row `r in M_3*` and a `16 -> 144bar` port plus its
+conjugate. It does not identify the quotient line `M_3/ker(r)` with F
+provenance. Any source-shaped “imposter reunifies with its partner” statement
+must declare the additional conditional horn
+
+```text
+H210-ALIGN = identify M_3/ker(r) with the F/imposter provenance line.
+```
+
+This lane may assume that horn for downstream composition, but it may not fit
+or derive the row, action, background, or selector.
+
+Historical note: CB-2 used `F` for the three-dimensional multiplicity space.
+That symbol is retyped here as `M_3`; no CB-2 formula changes. Future agents
+must not transport the historical homonym into source F provenance.
 
 ## 2. Repository facts that must be carried forward
 
@@ -265,10 +296,11 @@ manufacture the missing action.
 ## Plain-English checkpoint
 
 We have now built the exact mathematical bridge for the cleaner of the two
-ways a family-shaped `16` can meet the imposter-shaped `144`. It fits the real
-K77 carrier and the zero-order part of two displayed fermion-operator cells.
-Under the declared H210 horn it can touch only one linear combination of the
-three family copies, leaving two untouched. That is exactly the algebraic
-shape Eric's “two plus one” language suggests. The next question is whether
-observation preserves any of that coupling. It is still not this lane's job
-to invent what turns the channel on.
+ways an unlabelled family-shaped `16` can meet the Z/internal-`144` partner. It
+fits the real K77 carrier and the zero-order part of two displayed
+fermion-operator cells. Under `H210` it can touch only one quotient line of the
+three family copies, leaving a two-dimensional multiplicity plane untouched.
+Only under the separate `H210-ALIGN` horn is that quotient identified with the
+source's F/imposter provenance. The next question is whether the co-moving
+observation geometry preserves the contracted port. It is still not this
+lane's job to invent what turns the channel on.

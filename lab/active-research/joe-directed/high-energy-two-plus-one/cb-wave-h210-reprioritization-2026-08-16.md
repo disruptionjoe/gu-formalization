@@ -229,10 +229,11 @@ On the next `Go`, perform CB-3:
 ## Plain English
 
 Assuming the H210 channel is present, we now know exactly how it can connect
-one combination of the three family-shaped pieces to the imposter-shaped
-piece. The connector exists in the real K77 algebra and lands in the right
-zero-order slots of Weinstein's displayed fermion matrix. Two independent
-family combinations are left untouched. The next question is whether the
-observation map preserves that connector or erases it. We are still not
-claiming what switches the connector on, which family it is, or that it has a
-measured mass.
+one unlabelled quotient line of the three family-shaped pieces to the distinct
+Z/internal-`144` partner sector. The connector exists in the real K77 algebra
+and lands in the right zero-order slots of Weinstein's displayed fermion
+matrix. Two independent family-multiplicity directions are left untouched.
+Identifying the coupled line with the source's F/imposter provenance requires
+the separate `H210-ALIGN` horn. The next question is whether the co-moving
+observation map preserves the contracted connector. We are still not claiming
+what switches it on, which family it is, or that it has a measured mass.
