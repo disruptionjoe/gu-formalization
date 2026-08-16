@@ -7,6 +7,25 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K131 BUILDS THE STRATIFIED CONSTRAINT QUOTIENT AND EXACT
+> MIXED-ORDER WEIGHTS, BUT OBSTRUCTS ONE REGULAR GLOBAL BV-BFV REDUCTION.**
+> For cross rank `r`, the K130 Green radical splits as
+> `ker R plus ker R*`, and the reduced fixed-symbol carrier has dimension
+> `2r`. The timelike/spacelike/null packets are respectively
+> `(ker R,ker R*,rad,quotient)=(184,12,196,24)`, `(184,12,196,24)` and
+> `(185,13,198,22)`. Each fixed-rank stratum has an exact symplectic quotient,
+> but the two-dimensional null rank jump prevents one smooth constant-rank
+> radical bundle across conormals crossing the null stratum. The normal
+> symbol does not determine propagation: tangential and subprincipal
+> coefficients control its left-null equations. The mixed Hessian has the
+> exact DN family `(s_g,s_T)=(1+a,a)`, `(t_g,t_T)=(2-a,1-a)`; `a=0` gives
+> `H^2(g)+H^1(T) -> H^-1+L^2`, but no closed domain or boundary polarization.
+> At `T=0` only metric diffeomorphisms are action-owned gauge; the `196/198`
+> distortion radical is not their image. **K132 must totalize the all-grade
+> principal, tangential and subprincipal source operator and derive its
+> Noether/compatibility complex stratum by stratum before a KT resolution,
+> BFV edge packet, reduced inverse or physical cohomology.**
+
 > **2026-08-16 K130 PROVES THAT THE TRACKED DISTORTION GREEN FORM IS
 > PRESYMPLECTIC FOR EVERY CONORMAL; `KAPPA_1` DOES NOT REPAIR IT.** The
 > serialized `Cl1 full plus horizontal-Cl2` carrier has dimension

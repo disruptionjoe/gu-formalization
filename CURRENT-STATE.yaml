@@ -9,6 +9,27 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K131 now constructs the maximal exact finite-symbol differential-
+    algebraic packet available from K130. For cross rank r, the Green radical
+    splits as ker R plus ker R-star and the fixed-stratum symplectic quotient
+    has dimension 2r. Timelike and spacelike conormals give kernel/cokernel
+    dimensions 184 plus 12, radical 196 and quotient 24; null conormals give
+    185 plus 13, radical 198 and quotient 22. The null rank jump obstructs one
+    smooth constant-rank covariant radical or quotient bundle across
+    conormals crossing the null stratum. Normal-symbol left-null rows do not
+    establish constraint propagation; tangential and subprincipal
+    coefficients can change a zero row into a live constraint. The mixed
+    Hessian admits the exact relative Douglis-Nirenberg family with row
+    weights (1+a,a) and column weights (2-a,1-a). Its integer representative
+    maps H2(g) plus H1(T) to H-1 plus L2, but selects no closed realization,
+    boundary polarization or inverse. The action owns the formal mixed Green
+    class from the second-order A concomitant plus K130's distortion term.
+    At T=0, however, only the metric diffeomorphism Noether generator is
+    action-owned; the 196/198 distortion radical is not its image. No
+    distortion Koszul-Tate resolution, higher reducibility, regular global
+    BFV quotient, nilpotent BV completion or physical cohomology follows.
+    K132 must totalize the all-grade principal, tangential and subprincipal
+    operator and derive its Noether/compatibility sequence stratum by stratum.
     K130 now totalizes the serialized 196-plus-24 distortion carrier for
     K129's actual source-native T=0 operator. Its covariant first-order
     principal and Green coefficients have ranks 24,24,22 and radicals

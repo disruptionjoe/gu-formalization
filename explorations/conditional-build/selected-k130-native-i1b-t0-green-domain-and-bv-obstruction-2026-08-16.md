@@ -144,6 +144,19 @@ The all-grade source carrier remains a later totalization. No ledger, datum,
 quotient, canon, public posture, particle interpretation, phenomenology or GU
 truth-status claim changes. Joe input is not required.
 
+## K131 successor classification
+
+K131 constructs the exact fixed-stratum quotient: the causal
+`(ker R,ker R*,radical,reduced)` dimensions are
+`(184,12,196,24)`, `(184,12,196,24)` and `(185,13,198,22)`.
+The null rank jump obstructs one regular constant-rank radical bundle across
+all conormals. The mixed operator admits the relative DN weight family
+`(s_g,s_T)=(1+a,a)`, `(t_g,t_T)=(2-a,1-a)`, but the normal symbol alone does
+not propagate constraints and the distortion radical is not the image of an
+action-owned gauge generator at `T=0`. Use K132's all-grade tangential and
+subprincipal Noether-complex gate; do not promote the stratified quotient to
+a global KT/BFV resolution or physical cohomology.
+
 Reproduce:
 
 ```bash

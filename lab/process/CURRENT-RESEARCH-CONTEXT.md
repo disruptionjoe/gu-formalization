@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K131 stratified DAE/DN/BV-BFV obstruction:** for the K130 cross
+> symbol of rank `r`, the exact radical is `ker R plus ker R*` and the
+> fixed-rank symplectic quotient has dimension `2r`. Timelike and spacelike
+> conormals give `(184+12)=196` radical and quotient dimension `24`; null
+> conormals give `(185+13)=198` radical and quotient dimension `22`. The null
+> jump blocks one smooth constant-rank radical bundle across all conormals.
+> Normal-symbol null rows do not prove propagation without tangential and
+> subprincipal coefficients. The mixed Hessian admits exactly the relative
+> DN family `(s_g,s_T)=(1+a,a)`, `(t_g,t_T)=(2-a,1-a)`; the integer
+> representative maps `H^2(g)+H^1(T)` to `H^-1+L^2`, but does not select a
+> closed domain. At `T=0`, only metric diffeomorphism gauge is action-owned;
+> the `196/198` distortion radical is not a gauge image. K132 must totalize
+> the all-grade tangential/subprincipal Noether complex stratum by stratum
+> before KT/BFV reduction, a closed inverse or cohomology.
+
 > **Current K130 tracked-carrier Green/domain obstruction:** the serialized
 > `Cl1 full plus horizontal-Cl2` distortion carrier has dimension `220`.
 > K129's exact cross ranks give principal and Green ranks `24/24/22` and

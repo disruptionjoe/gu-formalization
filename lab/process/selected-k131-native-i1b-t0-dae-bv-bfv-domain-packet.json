@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k131-native-i1b-t0-dae-bv-bfv-domain-packet",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K130_NEXT_GATE__COVARIANT_DAE_SPLIT_RADICAL_PROPAGATION_DN_WEIGHTS_BOUNDARY_CLASS_MINIMAL_BV_KT_BFV",
+  "target_verdict": "STRATIFIED_SYMBOL_QUOTIENT_EXACT__GLOBAL_CONSTANT_RANK_SPLIT_OBSTRUCTED__DN_RELATIVE_WEIGHTS_EXACT__NORMAL_SYMBOL_PROPAGATION_INSUFFICIENT__DISTORTION_RADICAL_NOT_ACTION_OWNED_GAUGE__GLOBAL_BV_BFV_UNSELECTED",
+  "background": {
+    "native_coordinates": "(g,T)",
+    "stationary_grade": "K127_LOCAL_RICCI_FLAT_T0_FIXED_BOUNDARY",
+    "source_global_background_selected": false
+  },
+  "tracked_distortion_carrier": {
+    "cl1_dimension": 196,
+    "horizontal_cl2_dimension": 24,
+    "total_dimension": 220,
+    "all_grade_source_totalization": false
+  },
+  "stratified_constraint_packet": {
+    "timelike": {"cross_rank": 12, "ker_R": 184, "ker_R_star": 12, "green_radical": 196, "reduced_dimension": 24},
+    "spacelike": {"cross_rank": 12, "ker_R": 184, "ker_R_star": 12, "green_radical": 196, "reduced_dimension": 24},
+    "null": {"cross_rank": 11, "ker_R": 185, "ker_R_star": 13, "green_radical": 198, "reduced_dimension": 22},
+    "fixed_rank_stratum_symplectic_quotient_constructed": true,
+    "single_constant_rank_bundle_across_null_stratum": false,
+    "complement_canonical": false
+  },
+  "constraint_propagation": {
+    "normal_left_null_rows_identified": true,
+    "tangential_coefficients_totalized": false,
+    "subprincipal_coefficients_totalized": false,
+    "propagation_complex_selected": false,
+    "normal_symbol_alone_sufficient": false
+  },
+  "douglis_nirenberg": {
+    "row_weights_family": "(s_g,s_T)=(1+a,a)",
+    "column_weights_family": "(t_g,t_T)=(2-a,1-a)",
+    "integer_representative": {"a": 0, "domain": "H2(g)+H1(T)", "codomain": "H-1(g-row)+L2(T-row)"},
+    "relative_metric_minus_distortion_derivatives": 1,
+    "closed_realization_selected": false
+  },
+  "boundary_class": {
+    "formal_action_owned_class": "B_A(h,t')-B_A(h',t)+<t,J_C(n)t'>",
+    "classical_trace_burden": ["metric_value", "metric_normal_derivative", "distortion_value"],
+    "operative_closed_adjoint_selected": false,
+    "boundary_polarization_selected": false
+  },
+  "minimal_bv_kt_bfv": {
+    "metric_diffeomorphism_generator_owned": true,
+    "distortion_gauge_generator_at_T0_owned": false,
+    "distortion_radical_identified_with_gauge": false,
+    "kt_euler_antifield_slots_formal": true,
+    "distortion_kt_resolution_selected": false,
+    "higher_reducibility_selected": false,
+    "regular_global_bfv_reduction_selected": false,
+    "physical_cohomology_selected": false
+  },
+  "next_gate": "K132_TOTALIZE_ALL_GRADE_PRINCIPAL_TANGENTIAL_SUBPRINCIPAL_OPERATOR_AND_ACTION_OWNED_NOETHER_COMPATIBILITY_COMPLEX_STRATUM_BY_STRATUM",
+  "canon_verdict_change": "none"
+}
