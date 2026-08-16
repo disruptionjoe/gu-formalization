@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k132-native-i1b-t0-all-grade-noether-complex",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K131_NEXT_GATE__ALL_GRADE_PRINCIPAL_TANGENTIAL_SUBPRINCIPAL_NOETHER_COMPATIBILITY_COMPLEX",
+  "target_verdict": "ALL_GRADE_DISTORTION_AND_COUPLED_DN_CAUSAL_RANKS_EXACT__TANGENTIAL_NULL_ROWS_NOT_PRESERVED__NONZERO_KAPPA_BREAKS_PRINCIPAL_IDENTITIES__GENERIC_WEYL_COVARIANT_SQUARE_OBSTRUCTS_DISTORTION_COMPLEX__ONLY_METRIC_DIFF_NOETHER_OWNED__GLOBAL_KT_BFV_UNSELECTED",
+  "background": {
+    "native_coordinates": "(g,T)",
+    "stationary_grade": "K127_LOCAL_RICCI_FLAT_T0_FIXED_BOUNDARY",
+    "selected_shiab": "comm/symi/symi displayed family row",
+    "full_source_natural_shiab_uniqueness": false
+  },
+  "all_grade_distortion": {
+    "carrier": "Omega1(Cl(7,7))",
+    "dimension": 229376,
+    "raw_density_ranks": {"timelike": 122864, "spacelike": 122864, "null": 122864},
+    "formal_euler_green_ranks": {"timelike": 130912, "spacelike": 130912, "null": 122746},
+    "radicals": {"timelike": 98464, "spacelike": 98464, "null": 106630},
+    "null_radical_jump": 8166,
+    "grade_chains": [[0, 3, 4, 7, 8, 11, 12], [1, 2, 5, 6, 9, 10, 13, 14]],
+    "isolated_grades": [],
+    "nonnull_block_dimension": 28,
+    "null_block_dimension": 56
+  },
+  "coupled_dn_symbol": {
+    "carrier_dimension": 229386,
+    "metric_curvature_ranks": {"timelike": 6, "spacelike": 6, "null": 4},
+    "ranks": {"timelike": 130912, "spacelike": 130912, "null": 122748},
+    "radicals": {"timelike": 98474, "spacelike": 98474, "null": 106638},
+    "null_radical_jump": 8164,
+    "nonnull_metric_rank_increment": 0,
+    "null_metric_rank_increment": 2,
+    "closed_realization_selected": false
+  },
+  "compatibility": {
+    "actual_tangent_test_block_dimension": 56,
+    "normal_rank": 32,
+    "tangential_rank": 32,
+    "normal_kernel_dimension": 24,
+    "normal_tangential_common_kernel_dimension": 11,
+    "normal_null_rows_automatically_propagated": false,
+    "nonzero_kappa_preserves_principal_null_identities": false,
+    "covariant_square": "D_B^2=ad(F_B)",
+    "generic_weyl_distortion_complex": false,
+    "flat_or_curvature_central_exception_tested": false
+  },
+  "minimal_bv_kt_bfv": {
+    "metric_diffeomorphism_generator_rank": 4,
+    "distortion_gauge_generator_at_T0_owned": false,
+    "distortion_radical_is_gauge": false,
+    "distortion_kt_resolution_selected": false,
+    "higher_reducibility_selected": false,
+    "global_bfv_selected": false,
+    "physical_cohomology_selected": false
+  },
+  "next_gate": "K133_FLAT_OR_CENTRAL_CURVATURE_KAPPA_ZERO_COMPATIBILITY_COHOMOLOGY_AND_NONZERO_KAPPA_ALL_GRADE_PARAMETER_PENCIL",
+  "canon_verdict_change": "none"
+}

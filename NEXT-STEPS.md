@@ -7,6 +7,24 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K132 TOTALIZES THE ALL-GRADE SOURCE SYMBOL AND OBSTRUCTS THE
+> GENERIC DISTORTION NOETHER COMPLEX.** On the complete
+> `Omega1(Cl(7,7))` distortion carrier of dimension `229376`, the selected
+> first-order Euler/Green ranks are `130912/130912/122746` and the radicals
+> are `98464/98464/106630`. The exhaustive grade graph is
+> `0-3-4-7-8-11-12` plus `1-2-5-6-9-10-13-14`, exhausting all grades.
+> Adding the ten metric variables gives coupled DN ranks
+> `130912/130912/122748` and radicals `98474/98474/106638`: the curvature
+> block adds no nonnull rank and exactly two null ranks. In an actual
+> all-grade block, only `11` of `24` normal-null rows are also tangential-null.
+> Nonzero `kappa_1 K` breaks identities based only on principal nullity; at
+> `kappa_1=0`, generic Ricci-flat Weyl curvature gives
+> `D_B^2=ad(F_B)!=0`, so the distortion differential is not a complex. Only
+> the four metric diffeomorphism columns are action-owned Noether data.
+> **K133 must classify the flat/curvature-central `kappa_1=0` exceptional
+> compatibility complex and the nonzero-`kappa_1` all-grade parameter pencil
+> before any closed domain, KT/BFV quotient, inverse or cohomology.**
+
 > **2026-08-16 K131 BUILDS THE STRATIFIED CONSTRAINT QUOTIENT AND EXACT
 > MIXED-ORDER WEIGHTS, BUT OBSTRUCTS ONE REGULAR GLOBAL BV-BFV REDUCTION.**
 > For cross rank `r`, the K130 Green radical splits as

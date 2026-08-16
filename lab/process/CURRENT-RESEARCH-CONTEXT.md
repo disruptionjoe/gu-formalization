@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K132 all-grade Noether/compatibility obstruction:** the complete
+> real `Omega1(Cl(7,7))` distortion carrier has dimension `229,376`. The
+> selected-Shiab Euler/Green ranks are `130,912/130,912/122,746`, with
+> radicals `98,464/98,464/106,630`. The complete `229,386`-dimensional
+> coupled DN symbol has ranks `130,912/130,912/122,748` and radicals
+> `98,474/98,474/106,638`; the metric block adds zero nonnull rank and two
+> null ranks. Its grade graph is two exact chains through grades zero to
+> fourteen and exhausts every grade. Only `11` of `24` normal-null rows
+> in an actual 56D block remain tangential-null. Nonzero `kappa_1 K` breaks
+> principal-null identities; at `kappa_1=0`, generic Ricci-flat Weyl
+> curvature gives `D_B^2=ad(F_B)!=0`. The distortion radical is not gauge;
+> only four metric diffeomorphism columns are owned. K133 must test the
+> flat/central-curvature zero-kappa complex and nonzero-kappa full pencil.
+
 > **Current K131 stratified DAE/DN/BV-BFV obstruction:** for the K130 cross
 > symbol of rank `r`, the exact radical is `ker R plus ker R*` and the
 > fixed-rank symplectic quotient has dimension `2r`. Timelike and spacelike

@@ -9,6 +9,28 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K132 now totalizes the selected-Shiab T=0 distortion coefficient on the
+    complete 229376-dimensional real Omega1(Cl(7,7)) carrier. Its timelike,
+    spacelike and null formal-Euler/Green ranks are 130912,130912,122746,
+    with radicals 98464,98464,106630. The exhaustive grade graph is two
+    chains, 0-3-4-7-8-11-12 and 1-2-5-6-9-10-13-14, exhausting all grades.
+    Invariant-label blocks of dimension 28 off the null cone and 56 on it
+    recover every one of the 229376 directions by exact combinatorial
+    multiplicity. Adding the ten metric variables gives the complete
+    229386-dimensional coupled Douglis-Nirenberg symbol. Its ranks are
+    130912,130912,122748 and radicals 98474,98474,106638: the metric
+    curvature row adds no nonnull rank and exactly two null ranks. An actual
+    56-dimensional block has 24 normal-null rows but only 11 rows also null
+    for a tangential covector, so normal nullity does not propagate itself.
+    For nonzero kappa_1 the nondegenerate lower-order K term breaks every
+    would-be identity based only on principal nullity. At kappa_1=0, generic
+    nonflat Ricci-flat Weyl curvature gives D_B squared equal to ad(F_B)
+    nonzero, so the distortion differential does not form a complex. Only
+    the four metric diffeomorphism Noether columns are action-owned at this
+    germ; the large distortion radical is not gauge. K133 must test the flat
+    or curvature-central kappa-zero exceptional complex and the nonzero-kappa
+    all-grade parameter pencil before a closed domain, KT/BFV reduction,
+    inverse or physical cohomology.
     K131 now constructs the maximal exact finite-symbol differential-
     algebraic packet available from K130. For cross rank r, the Green radical
     splits as ker R plus ker R-star and the fixed-stratum symplectic quotient

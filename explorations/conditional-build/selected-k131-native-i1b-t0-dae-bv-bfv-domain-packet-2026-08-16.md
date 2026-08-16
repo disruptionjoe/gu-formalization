@@ -183,6 +183,20 @@ cohomology.
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.
 
+## K132 successor classification
+
+K132 totalizes the selected-Shiab coefficient on the complete
+`229376`-dimensional real `Omega1(Cl(7,7))` carrier. The distortion
+Euler/Green ranks are `130912/130912/122746`, while the complete coupled DN
+ranks are `130912/130912/122748`; the coupled radicals are
+`98474/98474/106638`. An actual all-grade block shows that only 11 of 24
+normal-null rows remain tangential-null. Nonzero `kappa_1 K` breaks
+identities based only on principal nullity, and at `kappa_1=0` generic
+Ricci-flat Weyl curvature gives `D_B^2=ad(F_B)!=0`. Use K133's exceptional
+flat/central-curvature and full parameter-pencil gate; do not promote the
+all-grade radical to distortion gauge, a KT tower, regular BFV quotient,
+closed inverse or physical cohomology.
+
 Reproduce:
 
 ```bash
