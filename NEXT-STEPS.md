@@ -7,6 +7,24 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K123 PROVES A RANK-TWO NATIVE COEFFICIENT DEFICIT AND
+> REPLACES PARTIAL-SLOT EVALUATION WITH ONE COMMON EVALUATOR.** The planted
+> missing moving germ `DeltaI=(a/2)t h^2+b t h v` preserves stationarity, the
+> complete quadratic/free germ, K122's coordinate cancellation,
+> `D3_ttt=8736`, and `C_t_v_v=-(56/3)<V,*V>`, while shifting
+> `(C_t_h_h,C_t_h_v)` by `(a,b)`. Thus neither `h`-containing coefficient is
+> selected by the current serialized bank; the rank-two deficit is missing
+> action-evaluator data, not two physical couplings. The three K122 primitive
+> source-coordinate slots also redistribute under linear and nonlinear
+> connection-coordinate changes while the two native sums stay invariant.
+> **K124 must build `O_K123`, a common full-14D moving-`I1B` evaluator, and
+> differentiate the written scalar action directly.** Compose the chimeric
+> metric, full spin-LC/curvature jets, Shiab, Hodge, Krein pairing,
+> frame/density and compatible `D_B T` jets in one labelled K77 basis. Return
+> native `C_t_h_h,C_t_h_v`, then the frozen-chart primitive split as a
+> checksum and the Cartan current. Do not import the old `14/3`, fit the Ward
+> quotient, or use `I_sc/I2B/I_II`. Exact probe records `40/40`.
+
 > **2026-08-15 K122 COMPLETES THE NATIVE `I1B` STRUCTURAL OWNER
 > DECOMPOSITION, NOT THE NUMERICAL CUBIC.** For
 > `Pbar=(0,Phi1)`, `Hbar=(H,DB_LC[H])`, `Vbar=(0,V)` and
@@ -22,9 +40,10 @@ updated_at: "2026-08-15"
 > not a native `t-h-h` owner. At fixed metric, every other term in the printed
 > `I1B` action has degree at most two in `T`; hence `D3_ttt=8736` and
 > `C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric `I1B` values.
-> **K123 must evaluate three same-`I1B` primitive tensor slots for the open
-> `t-h-h` and `t-h-v` coefficients before any unique pencil or spectral owner
-> is tested.**
+> **K123 subsequently proved that those primitive slots are chart-split and
+> are not numerically recoverable from the serialized bank; use the K123
+> block above and route K124 through the common native evaluator before any
+> unique pencil or spectral owner is tested.**
 > Keep `lambda` outside the native packet and do not promote preboundary
 > columns to physical charges before Green/BFV descent. Exact probe records
 > `39/39`.

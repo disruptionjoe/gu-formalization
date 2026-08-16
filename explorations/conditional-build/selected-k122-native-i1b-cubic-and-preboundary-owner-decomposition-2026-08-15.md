@@ -259,21 +259,36 @@ S1 complete: exact three-slot cubic support theorem
 S2 complete: exact three-column preboundary pullback
 S3 complete: fixed-metric full-I1B values 8736 and -56/3
 S4 corrected: old 14/3 LC-LC representative is not a native h coefficient
-S5 open: evaluate three same-I1B primitive tensor slots for C_t_h_h/C_t_h_v
-S6 then: determine whether all six first-order pencil coefficients are fixed
-S7 then: test spectral ownership and common Green/domain data
-S8 later: BFV reduction and non-invariant/nonlinear/boundary/cohomological
+S5 complete at K123: primitive slots are chart-split; evidence deficit rank 2
+S6 open at K124: build O_K123 and evaluate the native sums in one basis
+S7 then: determine whether all six first-order pencil coefficients are fixed
+S8 then: test spectral ownership and common Green/domain data
+S9 later: BFV reduction and non-invariant/nonlinear/boundary/cohomological
           2D-to-98D attachment
 ```
 
-K123 must evaluate the three-slot same-`I1B` packet coefficientwise, with
-planted coordinate-cancellation and Ward/Cartan controls. Only if those
-values fix one pencil may K124 test its spectral owner and common domain.
+K123 subsequently proves that the three primitive source-coordinate slots
+redistribute under admissible chart changes and that the current serialized
+bank leaves the two native sums underdetermined with rank two. K124 must build
+`O_K123`, evaluate the native sums directly, and use the primitive split only
+as a frozen-chart checksum. Only a completed native evaluator may reopen the
+pencil, spectral-owner, and common-domain gates.
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.
 
 Exact probe: `39/39`.
+
+## K123 successor closure — 2026-08-15
+
+K123 proves that the three primitive source-coordinate evaluations cannot be
+recovered numerically from the current serialized bank. More sharply, linear
+and nonlinear connection-coordinate changes redistribute those primitive
+pieces while preserving the two native sums. A planted missing moving germ
+shifts `C_t_h_h,C_t_h_v` with rank two while preserving every K122 control.
+The next target is therefore `O_K123`, one common full-14D native-`I1B`
+evaluator returning the two native coefficients first and the three frozen-
+chart pieces only as checksums.
 
 Reproduce:
 

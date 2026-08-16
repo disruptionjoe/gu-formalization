@@ -229,3 +229,13 @@ reduced scalar horn and exact native radial restriction are role-linked but
 not affinely identical action germs (`D3=0` versus `8736`). K122 should use
 the native radial coordinate and the owned observation/soldering jets, with
 `lambda` exposed only if the native answer is translated afterward.
+
+## K123 successor closure — 2026-08-15
+
+The local 4D spin-LC second jet remains an exact slice and an implementation
+control. K123 proves it is not sufficient for the full native action
+coefficients: the missing common full-14D composition leaves
+`C_t_h_h,C_t_h_v` rank-two underdetermined by current evidence. Observation
+is downstream of the native bulk evaluation, not a summand that fills it.
+K124 must compose the full metric/connection and moving action tensors before
+using these jets as primitive checksums.

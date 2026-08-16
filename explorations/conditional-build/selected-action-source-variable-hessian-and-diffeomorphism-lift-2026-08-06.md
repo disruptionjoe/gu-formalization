@@ -204,3 +204,12 @@ the `I1B` `Phi1` coefficient: their stationary pure-scalar third derivatives
 are `0` and `8736`. `lambda` is therefore only an explicit observed
 translation datum. K122 composes the owned source-coordinate TT jets directly
 inside native `I1B`, without importing `I_sc` coefficients.
+
+## K123 successor closure — 2026-08-15
+
+K123 keeps the source-variable block formulas as exact coordinate checks but
+shows that their three primitive cubic extensions are not individually native
+targets. Connection-coordinate reparametrizations redistribute them while the
+two native `h`-containing sums remain fixed. Current evidence leaves those two
+sums rank-two underdetermined. K124 must build the full 14D common-basis
+`I1B` evaluator rather than extend the zero-jet block by fit.

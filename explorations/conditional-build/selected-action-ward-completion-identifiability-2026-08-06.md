@@ -228,3 +228,12 @@ P1/P2/P3 consumed: 0
 
 Curt remains formally separate inside the Eric lane. No third lane, canon
 verdict, claim status or public posture is promoted.
+
+## K123 successor closure — 2026-08-15
+
+K123 turns the open same-action packet into a rank-two native coefficient
+deficit on the selected TT control. Equation (1) remains a mandatory Ward
+check, but its 21-dimensional quotient-form freedom proves it cannot select
+the two TT cubic numbers. K124 must derive them from the common full-14D
+`I1B` evaluator and only then test the Ward columns; the diagnostic completion
+is not an admissible coefficient source.

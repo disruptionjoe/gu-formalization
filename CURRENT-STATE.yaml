@@ -1059,11 +1059,30 @@ current_result:
     t-h-h coefficient. Since all other fixed-metric I1B terms have degree at
     most two in T, the 8736 radial value and -56/3 radial-TT coefficient are
     the complete fixed-metric I1B third derivatives. The decomposition is
-    structurally complete but current artifacts do not serialize three
-    same-I1B primitive tensor evaluations for t-h-h and t-h-v, so K123 must
-    compute those coefficientwise before any unique pencil or
+    structurally complete but current artifacts do not serialize the common
+    moving-I1B evaluator needed for t-h-h and t-h-v. K123 subsequently proves
+    that the primitive source-coordinate pieces are chart-split and that the
+    resulting native-coefficient evidence deficit has rank two. K124 must
+    build the common evaluator before any unique pencil or
     spectral/domain/attachment inference.
+    K123 now proves that the current serialized bank cannot perform that
+    numerical step. A planted same-action moving germ
+    DeltaI=(a/2)t h^2+b t h v preserves stationarity, the complete quadratic
+    germ, the native coordinate cancellation, D3_ttt=8736 and
+    C_t_v_v=-(56/3)<V,*V>, while shifting C_t_h_h and C_t_h_v by the arbitrary
+    pair (a,b). The evidence deficit therefore has exact rank two; this is
+    missing evaluator data, not two new physical coefficients. Linear and
+    nonlinear connection-coordinate changes also redistribute the three K122
+    primitive source slots while leaving the two native sums invariant. The
+    next gate is K124: build O_K123, one common full-14D moving-I1B evaluator
+    composing the chimeric metric, spin-Levi-Civita curvature, Shiab, Hodge,
+    Krein pairing, frame/density and compatible D_B T jets, then return native
+    C_t_h_h and C_t_h_v plus primitive checksums and the Cartan current. Ward
+    solvability, the old 14/3 raw LC value and cross-action coefficients may
+    not fill the gap.
   evidence:
+    - explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md
+    - lab/process/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate.json
     - explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md
     - lab/process/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition.json
     - explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md

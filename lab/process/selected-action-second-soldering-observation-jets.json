@@ -48,11 +48,11 @@
   "public_posture_change": "NONE",
   "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
   "third_lane": "NOT_PROMOTED",
-  "next_gate": "K122_COMPOSE_NATIVE_I1B_CUBIC_WITH_OWNED_TT_JETS__LAMBDA_TRANSLATION_ONLY",
+  "next_gate": "K124_BUILD_O_K123_COMMON_FULL_14D_NATIVE_I1B_EVALUATOR",
   "successor_closure": {
-    "swing": "K120",
-    "result": "SECOND_SPIN_LC_JET_NOW_COMPOSED_IN_I1B_TT_MAP__SCALAR_BRIDGE_LAMBDA_REMAINS_UNOWNED",
-    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md",
-    "refines": "K118_ACTION_LAYER_AND_MAP_SELECTION_GATE"
+    "swing": "K123",
+    "result": "LOCAL_4D_SPIN_LC_JET_RETAINED_AS_SLICE__FULL_14D_ACTION_COMPOSITION_MISSING__OBSERVATION_DOWNSTREAM_OF_NATIVE_BULK",
+    "artifact": "explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md",
+    "prior_k120": "SECOND_SPIN_LC_JET_COMPOSED_IN_ABSTRACT_I1B_TT_MAP__SCALAR_BRIDGE_LAMBDA_UNOWNED"
   }
 }

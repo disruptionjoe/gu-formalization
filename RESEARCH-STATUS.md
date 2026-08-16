@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K123 native I1B h-containing cubic identifiability and evaluator gate
+2026-08-15 (exact rank-two evidence deficit; no canon/public-posture
+change).** The current bank fixes the complete quadratic germ, native
+coordinate map and fixed-metric cubic, but a planted missing same-action germ
+`(a/2)t h^2+b t h v` preserves every one of those data while shifting
+`C_t_h_h,C_t_h_v` by the arbitrary pair `(a,b)`. The deficit is exactly rank
+two and represents uninstantiated moving tensor jets, not new physical
+coefficients. The three K122 primitive source slots are coordinate-split
+pieces: linear and nonlinear connection-coordinate changes redistribute them
+while leaving the two native sums invariant. K124 must build `O_K123`, one
+common full-14D moving-`I1B` evaluator, and return the native coefficients,
+primitive checksums and Cartan current before any pencil or spectral work.
+See
+`explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| `C_t_h_h,C_t_h_v` | three primitive evaluations requested | exact rank-two evidence deficit; neither numerical value selected | `O_K123` | current, roadmap, context, K122 | K123 surfaces |
+| primitive three-slot packet | treated as coefficient target | source-chart checksum; only two native sums are invariant | frozen source coordinate | K122 and predecessor routing | K123 artifact/probe |
+| full 14D action evaluator | broad moving packet | six-part executable contract named | full composed metric/connection/coefficient jets | moving-gimmel, second-jet, Ward artifacts | K123 reverse scaffold |
+| preboundary | columns typed | representative still exact-shift/domain dependent | Cartan/Green/BFV completion | current and context | K123 artifact/review |
+
 **K122 native I1B cubic and preboundary owner decomposition 2026-08-15
 (exact structural completion and fixed-metric cubic; two moving coefficients
 remain open; no canon/public-posture change).** The independently owned

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate",
+  "created": "2026-08-15",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K122_NEXT_GATE__EVALUATE_THREE_PRIMITIVE_I1B_TENSOR_SLOTS_COEFFICIENTWISE",
+  "target_verdict": "CURRENT_SERIALIZED_BANK_HAS_RANK_TWO_NATIVE_COEFFICIENT_DEFICIT__COMMON_FULL_14D_I1B_EVALUATOR_REQUIRED",
+  "native_targets": {
+    "A": "C_t_h_h",
+    "B": "C_t_h_v",
+    "C_fixed": "C_t_v_v=-(56/3)*<V,*V>",
+    "radial_fixed": "D3_t_t_t=8736"
+  },
+  "identifiability": {
+    "planted_missing_germ": "DeltaI=(a/2)*t*h^2+b*t*h*v",
+    "preserves": ["STATIONARITY", "COMPLETE_QUADRATIC_GERM", "D3_TTT", "C_TVV", "FIXED_METRIC_SLICE", "NATIVE_COORDINATE_CANCELLATION"],
+    "target_shift": "(DeltaC_thh,DeltaC_thv)=(a,b)",
+    "deficit_rank": 2,
+    "physical_free_coefficients_added": 0,
+    "meaning": "EVIDENCE_SUFFICIENCY_OBSTRUCTION__NOT_ACTION_FREEDOM"
+  },
+  "primitive_coordinate_split": {
+    "native_A": "C_rgg+2*s*C_rgw+s^2*C_rww+b2*H_rw",
+    "native_B": "C_rgw+s*C_rww",
+    "linear_reparametrization": "w_prime=w+c*g",
+    "nonlinear_reparametrization": "w_prime=w+(d/2)*g^2",
+    "result": "PRIMITIVE_TERMS_REDISTRIBUTE__NATIVE_A_B_C_INVARIANT"
+  },
+  "serialization_audit": {
+    "printed_i1b_architecture": true,
+    "fixed_metric_cubic": true,
+    "abstract_native_coordinate_map": true,
+    "selected_horizontal_4d_spin_lc_jets": true,
+    "moving_14d_gimmel_first_jet": true,
+    "full_composed_14d_spin_lc_curvature_twojet": false,
+    "moving_shiab_hodge_krein_pairing_frame_action_composition": false,
+    "compatible_db_t_background_jets_in_common_basis": false,
+    "native_cartan_green_domain_reduction": false
+  },
+  "required_operator": {
+    "name": "O_K123",
+    "role": "COMMON_FULL_14D_NATIVE_I1B_MOVING_COEFFICIENT_EVALUATOR",
+    "outputs": ["C_T_H_H", "C_T_H_V", "C_T_V_V_CONTROL", "D3_T_T_T_CONTROL", "CARTAN_GREEN_CURRENT"],
+    "forbidden_imports": ["I_SC_COEFFICIENTS", "I2B_COEFFICIENTS", "I_II_COEFFICIENTS", "RAW_14_OVER_3_LC_LC_VALUE", "WARD_FITTED_QUOTIENT_COEFFICIENTS"]
+  },
+  "unique_pencil_selected": false,
+  "next_gate": "K124_BUILD_O_K123_COMMON_FULL_14D_NATIVE_I1B_EVALUATOR_AND_COMPUTE_C_THH_C_THV",
+  "checks": {"total": 40, "failures": 0},
+  "canon_verdict_change": "none"
+}

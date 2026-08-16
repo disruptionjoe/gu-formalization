@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K123 native `I1B` coefficient identifiability gate:** the present
+> bank does not numerically determine `C_t_h_h` or `C_t_h_v`. The exact
+> planted missing moving germ `(a/2)t h^2+b t h v` preserves stationarity,
+> the whole quadratic germ, K122's native cancellation, `D3_ttt=8736`, and
+> `C_t_v_v=-(56/3)<V,*V>`, while shifting the two targets by `(a,b)`; the
+> evidence deficit has rank two. This is not action freedom. It identifies
+> absent common-basis tensor jets. The three K122 primitive evaluations are
+> source-coordinate pieces and redistribute while the two native sums remain
+> invariant. K124 must build `O_K123`, the common full-14D moving-`I1B`
+> evaluator, and return native `C_t_h_h,C_t_h_v`, primitive checksums and the
+> Cartan current. Do not import `I_sc/I2B/I_II`, the old raw `14/3`, or a
+> Ward-fitted quotient coefficient.
+
 > **Current K122 native `I1B` owner decomposition:** with the exact
 > source-coordinate jet, the stationary native TT cubic is
 > `C_t_h_h=D3I1B[Pbar,Hbar,Hbar]+D2I1B[Pbar,Q_hh]`,
@@ -20,9 +33,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > LC--LC insertion as a fixed-`varpi` partial representative, not a native
 > `t-h-h` coefficient. At fixed metric only the augmented-torsion term is
 > cubic in `T`, so `D3_ttt=8736` and
-> `C_t_v_v=-(56/3)<V,*V>` are complete full-`I1B` values. K123 must evaluate
-> three same-`I1B` primitive slots for the open `t-h-h` and `t-h-v`
-> coefficients, then carry the preboundary packet through Green/BFV descent.
+> `C_t_v_v=-(56/3)<V,*V>` are complete full-`I1B` values. K123 subsequently
+> proved that the three primitive slots are chart-split and not numerically
+> recoverable from the serialized bank. Use the K123 block above: K124 must
+> build the common native evaluator before Green/BFV descent.
 > `lambda` stays outside the native packet, and no unique pencil, spectral
 > owner, domain, attachment or physical charge is selected.
 

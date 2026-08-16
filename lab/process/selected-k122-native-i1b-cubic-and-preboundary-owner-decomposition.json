@@ -53,7 +53,12 @@
     "numerical_cubic_complete": false
   },
   "unique_pencil_selected": false,
-  "next_gate": "K123_EVALUATE_THREE_SAME_I1B_PRIMITIVE_TENSOR_SLOTS_FOR_C_THH_AND_C_THV_THEN_TEST_PENCIL_UNIQUENESS",
+  "next_gate": "K124_BUILD_O_K123_COMMON_FULL_14D_NATIVE_I1B_EVALUATOR_AND_COMPUTE_C_THH_C_THV",
+  "successor_closure": {
+    "swing": "K123",
+    "result": "CURRENT_EVIDENCE_DEFICIT_RANK_TWO__THREE_PRIMITIVE_SLOTS_COORDINATE_SPLIT__COMMON_FULL_14D_EVALUATOR_REQUIRED",
+    "artifact": "explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md"
+  },
   "checks": {"total": 39, "failures": 0},
   "canon_verdict_change": "none"
 }
