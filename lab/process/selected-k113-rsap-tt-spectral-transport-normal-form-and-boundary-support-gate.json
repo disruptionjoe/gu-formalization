@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_spectral_transport_one_generator_normal_form_zero_locus_and_boundary_support_gate",
+  "created": "2026-08-15",
+  "status": "EXACT_ONE_GENERATOR_SPECTRAL_TRANSPORT_AND_CLOSED_FORM_ADAPTER_TARGET_BUILT__alpha_II_ONE_ZERO_TRANSPORT_LOCUS_UNSELECTED__BOUNDARY_ONLY_INTERIOR_OWNER_EXCLUDED__BOUNDARY_ATTACHMENT_AND_ACTION_JACOBIAN_OPEN",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "GAPPED_REAL_TWO_FIELD_TT_SPECTRAL_BUNDLE__K112_LOCAL_VARIATIONAL_COMPLETION__BOUNDARY_SUPPORT_AND_ACTION_ADAPTER_GRADE",
+  "target_claim": {
+    "id": "K112_NEXT_GATE__A_SOURCE_ACTION_OR_BOUNDARY_PACKET_CAN_OWN_THE_MOVING_TT_COMPLETION_WITHOUT_A_MORE_SPECIFIC_COEFFICIENT_OR_ADAPTER_TEST",
+    "verdict": "EXACT_ONE_GENERATOR_ADAPTER_TARGET_BUILT__alpha_II_ONE_ZERO_TRANSPORT_LOCUS_UNSELECTED__BOUNDARY_ONLY_INTERIOR_OWNER_EXCLUDED__BOUNDARY_ATTACHMENT_AND_ACTION_JACOBIAN_REMAIN_OPEN"
+  },
+  "normal_form": {
+    "R": "alpha^2*b+(alpha-2)^2*u",
+    "G": "[[-1,0],[alpha,1]]",
+    "G_squared": "IDENTITY",
+    "G_K_skew": true,
+    "g": "b*(alpha-1)/((b+u)*R)",
+    "phi": "(1/4)*log((b+u)/R)",
+    "A_C": "G*d(phi)",
+    "matrix_direction_count": 1,
+    "flat": true,
+    "parallel_transport": "T(u,u0)=exp(-(phi(u)-phi(u0))*G)"
+  },
+  "operator_packet": {
+    "first_order": "2*g*G*(partial^mu u)*partial_mu",
+    "zero_order_linear_G": "G*(g*Box(u)+g_prime*(partial u)^2)",
+    "zero_order_scalar": "g^2*I*(partial u)^2",
+    "new_fitted_coefficients": 0
+  },
+  "zero_transport_locus": {
+    "condition": "alpha_II=1",
+    "gapped_component": "b+u>0",
+    "C": "[[1,2],[0,-1]]",
+    "dC_du": "ZERO",
+    "A_C": "ZERO",
+    "current_action_selects_alpha_II_one": false,
+    "disposition": "EXACT_CONDITIONAL_LOCUS__NOT_PHYSICAL_SELECTION"
+  },
+  "boundary_support": {
+    "boundary_only_changes_compactly_supported_interior_euler_operator": false,
+    "boundary_only_owns_interior_A_C": false,
+    "boundary_can_select_domain_or_edge_law": true,
+    "boundary_or_cohomological_2d_to_98d_attachment": "OPEN",
+    "bulk_BV_action_with_A_C": "OPEN"
+  },
+  "ownership": {
+    "K112_minimal_variational_owner": "RETAINED_RECONSTRUCTION_GRADE",
+    "selected_cubic_owns_operator_packet": false,
+    "released_action_moving_TT_jacobian": "NOT_CONSTRUCTED",
+    "next_normalization_test": "DERIVE_OR_REJECT_alpha_II_EQUALS_ONE_IN_RECORDED_TT_NORMALIZATION",
+    "next_adapter_test": "COMPARE_ACTION_DERIVED_MOVING_TT_JACOBIAN_TO_exp_minus_delta_phi_G"
+  },
+  "ceilings": {
+    "stationary_moving_background": "NOT_CONSTRUCTED",
+    "closed_positive_quantum_domain": "NOT_CONSTRUCTED",
+    "typed_98d_attachment": "OPEN_NONINVARIANT_NONLINEAR_BOUNDARY_OR_COHOMOLOGICAL_ONLY",
+    "physical_BFV_cohomology": "OPEN"
+  },
+  "inventory_after_k113": {
+    "candidate_rows": 10,
+    "reconstructed_minimal_variational_completion": 1,
+    "currently_action_owned_moving_completion": 0,
+    "full_98d_entry_criterion_yes": 0
+  },
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "minimal_variational_owner": "lab/process/selected-k112-rsap-spectral-connection-variational-owner-port.json",
+    "spectral_connection": "lab/process/selected-k111-rsap-tt-spectral-transport-connection-owner-gate.json",
+    "action_coefficient_census": "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+  },
+  "artifact": "explorations/conditional-build/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k113_rsap_tt_spectral_transport_normal_form_and_boundary_support_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate-review.md"
+}

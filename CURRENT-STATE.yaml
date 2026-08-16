@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c775b8ca9a131063a436715abed7eebaf4641895
+revision_basis: 2e35807f1ea19cfa81d7c7a0c66d31bd9c5a6bba
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -980,7 +980,23 @@ current_result:
     98D phase tangent. The surviving bridge must therefore be non-invariant,
     nonlinear, boundary or cohomological and action/background owned, with a
     selected closed positive domain.
+    K113 reduces the K112 connection to the exact one-generator normal form
+    A_C=G dphi, with G=[[-1,0],[alpha_II,1]] and
+    phi=(1/4)log((b+u)/(alpha_II^2 b+(alpha_II-2)^2u)). Its parallel
+    transport is exp(-(phi(u)-phi(u0))G), giving a closed-form target for an
+    action-derived moving-TT Jacobian. At alpha_II=1, C is constant and A_C
+    vanishes on the whole gapped component, but the current action does not
+    select that normalization. Boundary-only or BFV-only functionals cannot
+    change the interior first-order Euler coefficient against compactly
+    supported variations. This does not close boundary domain selection or a
+    non-invariant, boundary or cohomological 2D-to-98D attachment; it separates
+    those open attachment jobs from ownership of the interior transport.
+    The next gate is the action normalization of alpha_II and a
+    structure-preserving source-variable-to-TT Jacobian comparison to the
+    exact transport.
   evidence:
+    - explorations/conditional-build/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate-2026-08-15.md
+    - lab/process/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate.json
     - explorations/conditional-build/selected-k112-rsap-spectral-connection-variational-owner-port-2026-08-15.md
     - lab/process/selected-k112-rsap-spectral-connection-variational-owner-port.json
     - explorations/conditional-build/selected-k111-rsap-tt-spectral-transport-connection-owner-gate-2026-08-15.md
@@ -1210,11 +1226,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does a source- or action-owned smooth gapped stationary moving background
-  carry the K112 minimal covariant TT quadratic, and does a non-invariant,
-  nonlinear, boundary or cohomological map place its positive-fibre/Green
-  package into the conditional 98D BV-BFV complex with a selected closed
-  positive physical domain?
+  Does the selected action derive alpha_II=1 in the recorded TT normalization,
+  making K113 transport vanish, or does its source-variable-to-moving-TT
+  Jacobian induce exp(-(phi(u)-phi(u0))G) and the complete K113 coefficient packet?
+  If so, can the separately open boundary or cohomological attachment carry
+  that owned package into the conditional 98D BV-BFV complex and closed domain?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1310,13 +1326,18 @@ next_condition: >-
   reconstruction-grade action data rather than a current released-source
   term. It does not select u at zero TT field; its Green flux is not the
   balanced moment/gauge law; and every invariant linear 2D-to-98D attachment
-  vanishes by K107's 49D invariant-subquotient minimum. Park repeated fixed-
+  vanishes by K107's 49D invariant-subquotient minimum. K113 further reduces
+  A_C to the exact one-generator packet G dphi and closed-form transport
+  exp(-(phi(u)-phi(u0))G). It identifies the unselected alpha_II=1 zero-transport
+  locus and excludes boundary-only ownership of the interior coefficient,
+  while preserving boundary domain selection and non-invariant/boundary/
+  cohomological attachment as different open jobs. Park repeated fixed-
   background positivity and invariant linear attachment algebra over the
   current inventory. Retain the reverse scaffold through its exact classical
   layer and the minimal variational TT completion only at reconstruction
-  grade. Reopen with one source- or action-owned stationary moving background,
-  a coefficientwise complete-action occurrence of A_C, and a non-invariant,
-  nonlinear, boundary or cohomological 2D-to-98D BV-BFV map carrying a
+  grade. Reopen by deriving the action normalization of alpha_II or comparing
+  an action-derived moving-TT Jacobian to the K113 transport, then compose a
+  non-invariant, nonlinear, boundary or cohomological 2D-to-98D map carrying a
   selected closed positive physical domain. This does not kill future
   nonlinear, nonlocal, contour, Wick or boundary constructions and does not
   prove H0.

@@ -265,6 +265,14 @@ all of:
 Another fixed-background spectral calculation, invariant dimension match, or
 finite classical BFV replay cannot satisfy this packet.
 
+> **Successor closure (K113).** The K112 connection reduces exactly to
+> `A_C=G dphi` with closed-form transport `exp[-(phi(u)-phi(u0))G]`. It vanishes on
+> the gapped but unselected `alpha_II=1` locus. Boundary-only/BFV-only data
+> cannot generate its interior first-order coefficient, although boundary
+> domain selection and non-invariant/boundary/cohomological attachment remain
+> open. The next owner test is therefore the action normalization of
+> `alpha_II` or an action-derived moving-TT Jacobian match to this transport.
+
 ## Claim ceiling and reproduction
 
 This is an exact local quadratic variational reconstruction and current-owner

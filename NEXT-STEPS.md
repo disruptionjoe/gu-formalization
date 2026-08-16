@@ -7,6 +7,22 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K113 THE MOVING TT OWNER TEST IS ONE EXACT JACOBIAN, AND
+> BOUNDARY OWNERSHIP IS NOT BOUNDARY ATTACHMENT.** K112's connection reduces
+> to `A_C=G dphi`, with fixed `K`-skew involution
+> `G=[[-1,0],[alpha_II,1]]` and
+> `phi=(1/4)log[(b+u)/(alpha_II^2 b+(alpha_II-2)^2u)]`. Its parallel transport
+> is the explicit `exp[-(phi(u)-phi(u0))G]`, so a full-action port must reproduce
+> this Jacobian and all first/zero-order coefficients—not merely contain a
+> connection. At `alpha_II=1`, `C` is constant and `A_C=0` on the gapped
+> component, but the action does not select that normalization. A
+> boundary-only functional cannot alter the interior Euler coefficient for
+> compactly supported variations. **Trace the action ownership and
+> normalization of `alpha_II`, then compare any source-variable-to-TT Jacobian
+> to `exp[-(phi(u)-phi(u0))G]`. Keep boundary domain selection and non-invariant or
+> cohomological `2D`-to-`98D` attachment open; those do not by themselves own
+> the interior transport.**
+
 > **2026-08-15 K112 THE SPECTRAL CONNECTION HAS A MINIMAL VARIATIONAL OWNER,
 > BUT THE CURRENT SOURCE/ACTION AND `98D` PHYSICAL PACKET STILL DO NOT OWN IT.**
 > The local covariant TT quadratic built from `nabla_A=d+A_C` has normalized

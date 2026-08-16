@@ -9,6 +9,26 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K113 TT transport normal form and boundary-support gate:** K112's
+> reconstructed minimal variational connection is exactly `A_C=G dphi`, with
+> one fixed `K`-skew involution and closed-form parallel transport
+> `exp[-(phi(u)-phi(u0))G]`. This is the precise source/action Jacobian target. On
+> the gapped `alpha_II=1` locus, `C` is constant and `A_C=0`, but the current
+> action does not select that normalization. Boundary-only/BFV-only data
+> cannot generate an interior first-order Euler coefficient; they may still
+> select a domain, carry edge data, or provide the non-invariant/boundary/
+> cohomological `2D`-to-`98D` attachment left open by K112. Next trace the
+> action normalization of `alpha_II` and test an action-derived moving-TT
+> Jacobian against the exact transport. Stationary background, closed quantum
+> domain and physical BFV attachment remain open.
+
+> **Current K112 TT minimal variational owner:** `nabla_A=d+A_C` gives an
+> exact zero-parameter quadratic action whose Euler operator is
+> `Box_A+K^-1M(u)`. This is new reconstruction-grade action data, not a
+> released-source term; it does not select `u` at zero TT field. Its Green
+> flux is not the balanced moment/gauge law, and every invariant linear
+> `2D`-to-`98D` map vanishes by the `49D` invariant-subquotient minimum.
+
 > **Current K111 TT spectral-transport owner gate:** K110's
 > moving-background obstruction has a canonical kinematic completion. On the
 > gapped simple-spectrum `2D` bundle, `A_C=(1/2)C dC` is the unique connection
