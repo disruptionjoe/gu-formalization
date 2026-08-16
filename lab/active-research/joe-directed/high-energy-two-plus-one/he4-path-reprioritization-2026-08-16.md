@@ -122,9 +122,32 @@ The two PS lines have distinct D5 owners:
 
 This excludes a single irreducible D5 owner that fixes both rows. The `54` has
 no direct native linear owner; only an unselected quadratic distortion
-composite can reach it. The `210` has a closer connection-grade parent, but
-its current-K77 internal PS port is not yet constructed. These are typing
-facts and dependency fences, not instructions to derive a source action.
+composite can reach it. The `210` has a closer connection-grade parent. CB-1
+now constructs its exact real-K77 gamma-traceless RS port and CB-2 places its
+zero-order summands in the off-diagonal equation-9.16 cells. The fixed
+trace-`Hq` realization, the full derivative cells, and observation/quotient
+survival remain open. These are typing facts and dependency fences, not
+instructions to derive a source action.
+
+### CB-1/CB-2 successor packet
+
+- The unique PS orientation line is `phi4=vol(B4)` or its Hodge-dual
+  `phi6=vol(A6)`. The owner is grade `4/6`; the actual gamma-traceless RS port
+  has shifted grades `3/5` (or `5/7`). A pure grade-six blade is not the port.
+- With covariant coframe components, the exact raised-contraction projector
+  gives coefficients `-2/5` on `A6` and `+3/5` on `B4`; it is PS equivariant,
+  D odd, chirality-flipping, and injective of internal complex rank `16`.
+- The fixed trace-`Hq` horn admits the owner but not the full PS-equivariant RS
+  tensor with one common phase. This is an adverse constructed-real-form horn,
+  not a source-level no-go.
+- The bilinear `16 x 144` is cross-effective-half, while the raw operator arrow
+  is `16 -> 144bar` inside one effective package. Under the inherited
+  opposite-half density-dual bridge, the zero-order cells are therefore
+  `varpi_-+ / varpi_+-`; the tempting `varpi_++ / varpi_--` cells are exact
+  zero-channel controls.
+- One declared nonzero family covector leaves `ker(r) tensor 16`, complex
+  dimension `32`, before observation. This is a family-multiplicity kernel,
+  not a mass or physical kernel.
 
 ## 3. Non-negotiable conditional-build contract
 
@@ -148,7 +171,7 @@ Every preflight must state all five rules:
 
 | horn | conditional input | immediate algebraic expectation | downstream falsifier |
 |---|---|---|---|
-| `H210` | compatible nonzero `210` PS channel; no `54` | one family covector; if nonzero, a two-dimensional kernel | no K77 internal port, wrong cross-half cell/reality, zero row, or loss under observation/quotient |
+| `H210` | compatible nonzero `210` PS channel; no `54` | exact K77 RS port plus one family covector; if nonzero, a two-dimensional kernel | adverse fixed-`Hq` horn, failure of inherited density dual, or loss under observation/quotient |
 | `H54` | compatible nonzero quadratic `54`; no `210` | one family covector; if nonzero, a two-dimensional kernel | no typed composite port/cell, zero row, or downstream loss |
 | `HBOTH-PROP` | both channels with proportional rows | algebraic rank one | incompatibility of the relation with the carrier/operator grammar |
 | `HBOTH-IND` | both channels with independent rows | algebraic rank two | failure of either row to survive downstream |
@@ -188,21 +211,18 @@ reprioritizes, validates, commits, and closes the governed session.
 
 ## 6. Next series of swings
 
-### CB-1 — `H210` internal-line and Clebsch composition
+### CB-1 — `H210` internal-line and Clebsch composition — banked
 
-Assume the nonzero `210` horn. Construct the current-K77 internal
-`Lambda^4(V_10) ~= Lambda^6(V_10)` PS-singlet line and its unique
-`16 x 144` intertwiner. Compute its relative action on the two Pati--Salam
-family blocks. This is geometry and representation composition, not action
-selection.
+Exact real-K77 RS port constructed. Relative coefficients are `-2/5,+3/5`;
+the map is PS equivariant, D odd, ambient-half flipping, and injective. Owner
+grade and port grade are separated. Fixed trace-`Hq` remains an adverse horn.
 
-### CB-2 — cross-half equation-9.16 block packet
+### CB-2 — cross-half equation-9.16 block packet — banked
 
-Under `H210`, enumerate the source-displayed barred/unbarred cells compatible
-with the cross-half intertwiner. For each permitted cell horn, compute the
-finite block rank, conjugate completion, and kernel on
-`3 x 16 + 144bar` together with its conjugate half. Refuse to invent a cell
-that the displayed grammar forbids.
+The zero-order H210 summands occupy the off-diagonal
+`varpi_-+ / varpi_+-` cells under the inherited density-dual bridge; pp/mm are
+wrong-channel controls. The full `d0+varpi` collision remains open. Exact
+pre-observation internal-sector ranks and kernels are banked.
 
 ### CB-3 — observation and low/high-energy comparison
 
@@ -228,27 +248,27 @@ mediator route and triggers a switch rather than more branching.
 
 | path-relative item | priority | fertility | reason |
 |---|---:|---:|---|
-| `H210` downstream conditional composition | 1 | `8/10` for two or three finite swings | unique PS line, exact owner, clear carrier/cell/observation falsifiers |
-| `HBOTH` relation split | 2 | `5/10` | useful only if both conditional ports survive; rows must remain separate horns |
-| `H54` quadratic route | 3 | `3/10` | no direct weld; retain only as an adverse/fallback horn |
+| `H210` typed observation of the zero-order port | 1 | `9/10` for the next finite swing | exact port and cell support now pass; observation is the first remaining downstream survival gate |
+| fixed trace-`Hq` adverse subhorn | 2 | `6/10` as a control inside observation | owner passes but one-phase RS realization fails; keep separate from the source-level H210 horn |
+| `HBOTH` relation split | 3 | `5/10` | useful only if both conditional ports survive; rows must remain separate horns |
+| `H54` quadratic route | 4 | `3/10` | no direct weld; retain only as an adverse/fallback horn |
 | full `945/1050` branching | retired | `0/10` | exact saturation already proves both singlet counts zero |
 | single-irrep common-owner alignment | retired | `0/10` | HE-4 excludes it |
 | deriving the source action or importing an external selector | off-limits | not scored | violates the conditional-build lane contract |
 
 Relative to the wider exploration portfolio, this path remains first for the
-next bounded swing because CB-1 is exact, cheap, and source-shaped. If CB-1
-finds no K77 internal port or CB-2 finds no compatible cross-half cell, reduce
-this path below SN-1 rather than attempting to manufacture the missing action.
+next bounded swing because CB-1 and CB-2 both passed and observation is now a
+sharp finite survival test. If the typed pullback/quotient kills every allowed
+zero-order block, reduce this path below SN-1 rather than attempting to
+manufacture the missing action.
 
 ## Plain-English checkpoint
 
-We have found two mathematical ways for the family-shaped `16` to meet the
-imposter-shaped `144` at Pati--Salam. They come from different structures. The
-metric-like one is not directly present in GU; the connection-like one is the
-cleaner conditional fit. If we assume that connection channel is present, it
-can touch only one linear combination of the three family copies, leaving two
-untouched. That is exactly the algebraic shape Eric's “two plus one” language
-suggests. What remains for this lane is to see whether that assumed channel
-threads consistently through the actual K77 carrier, the displayed fermion
-operator, and observation. It is not this lane's job to invent what turns the
-channel on.
+We have now built the exact mathematical bridge for the cleaner of the two
+ways a family-shaped `16` can meet the imposter-shaped `144`. It fits the real
+K77 carrier and the zero-order part of two displayed fermion-operator cells.
+Under the declared H210 horn it can touch only one linear combination of the
+three family copies, leaving two untouched. That is exactly the algebraic
+shape Eric's “two plus one” language suggests. The next question is whether
+observation preserves any of that coupling. It is still not this lane's job
+to invent what turns the channel on.

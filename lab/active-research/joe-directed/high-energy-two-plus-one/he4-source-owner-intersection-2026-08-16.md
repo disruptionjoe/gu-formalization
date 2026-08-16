@@ -6,11 +6,11 @@ created: 2026-08-16
 work_item: HE-4B
 channel: high_energy_two_plus_one_prediction
 target_claim: SC-GEN-53
-title: "HE-4B: the two Pati-Salam channels have unequal source-native prospects: the 54 has no direct distortion owner, while the 210 has a connection-grade parent but no K77 singlet port, equation-9.16 placement, or stationary activation"
-grade: "SOURCE/REPOSITORY COMPOSITION over exact prior receipts. The 54 direct weld is excluded by the complex D5 Hom-space and survives only as an unselected quadratic distortion composite. The 210-to-internal-grade-six identification is a complexified D5/Hodge template; the prior exact q6 construction is on the non-current Cl(9,5) native horn and is not promoted to the source-aligned K77 carrier. Current K77 work admits grade-six connection directions but supplies no specific Pati-Salam-singlet port or action selection. No physical operator rank, VEV, mass, scale, threshold, observable, or prediction is derived."
-disposition: DISTINCT_SOURCE_PROSPECTS__54_DIRECT_OWNER_ABSENT_AND_QUADRATIC_ONLY__210_PARENT_CONNECTION_PLAUSIBLE_BUT_K77_PS_SINGLET_PORT_CELL_PLACEMENT_AND_STATIONARY_ACTIVATION_TYPE_MISSING__ONE_CHANNEL_ASYMMETRY_IS_A_KILLABLE_HYPOTHESIS_ONLY
+title: "HE-4B: the two Pati-Salam channels have unequal source-native prospects: the 54 has no direct distortion owner, while the 210 successor has an exact K77 RS port and conditional equation-9.16 placement"
+grade: "SOURCE/REPOSITORY COMPOSITION over exact prior receipts plus a clearly marked CB-1/CB-2 successor correction. The 54 direct weld is excluded by the complex D5 Hom-space and survives only as an unselected quadratic distortion composite. The 210 owner is grade 4 or Hodge-dual grade 6; its exact K77 gamma-traceless RS port instead has shifted grades 3/5 (or 5/7). CB-1 constructs that port and CB-2 places its zero-order summands conditionally in the released off-diagonal equation-9.16 cells. Fixed trace-Hq realization, the full derivative cells, observation, and quotient remain open. No source action, selector, physical rank, VEV, mass, scale, threshold, observable, or prediction is derived."
+disposition: DISTINCT_SOURCE_PROSPECTS__54_DIRECT_OWNER_ABSENT_AND_QUADRATIC_ONLY__210_REAL_K77_RS_PORT_AND_OFFDIAGONAL_ZERO_ORDER_PLACEMENT_PASS_CONDITIONALLY__FIXED_HQ_FULL_CELL_OBSERVATION_AND_QUOTIENT_TYPE_MISSING
 canon_verdict_change: none
-steering_effect: "Use H210/H54/HBOTH/HNONE as declared conditional inputs and test downstream K77, equation-9.16, observation, and family-kernel compatibility.  Missing action selection is a dependency fence, not this path's work queue; do not import an external selector or a standard scalar Higgs/VEV."
+steering_effect: "Continue H210 through typed observation of the off-diagonal zero-order port, carrying fixed trace-Hq only as an adverse subhorn. Missing action selection is a dependency fence, not this path's work queue; do not import an external selector or a standard scalar Higgs/VEV."
 canonical_effect: pending_integration
 depends_on:
   - lab/methods/source-native-comparator-routing.md
@@ -46,13 +46,23 @@ depends_on:
 
 ## Outcome first
 
+> [!NOTE]
+> **Successor correction (CB-1/CB-2).** This audit originally left the K77
+> singlet port and equation-9.16 placement open. CB-1 has now constructed the
+> exact real `Cl(7,7)` gamma-traceless RS port, and CB-2 has placed its
+> zero-order summands in the off-diagonal `varpi_-+ / varpi_+-` cells under the
+> inherited opposite-half density-dual bridge. Any `TYPE_MISSING` wording
+> below about those two specific gates records the pre-successor state. The
+> fixed trace-`Hq` horn, full `d0+varpi` collision, observation, quotient, and
+> source selection remain open. Selection is still off limits in this lane.
+
 The two Pati-Salam channels isolated after HE-3 do **not** currently have
 equal source-native standing.
 
 | complexified D5 owner | conventional tensor label | best GU-side candidate | present result |
 |---|---|---|---|
 | `54` | `Sym^2_0(V_10)` | traceless quadratic composite of the native distortion | no direct owner; composite only; source/action unselected |
-| `210` | `Lambda^4(V_10) ~= Lambda^6(V_10)` after internal Hodge duality | an internal grade-six coefficient of the source connection/distortion one-form | plausible parent only; current-K77 singlet port, operator cell, and stationary activation missing |
+| `210` | `Lambda^4(V_10) ~= Lambda^6(V_10)` after internal Hodge duality | grade-4/6 owner tensor; shifted-grade full RS contraction port | exact real K77 port and conditional off-diagonal zero-order cells pass; fixed `Hq`, full derivative cell, observation, quotient, and selection remain open |
 
 This kills the simplest version of HE-3's proposed **common upstairs
 mediator**: the repository supplies no single source-owned field or map that
@@ -66,10 +76,11 @@ SOURCE-NATIVE ONE-CHANNEL ASYMMETRY:
 the 210 connection channel survives, while the 54 composite is absent.
 ```
 
-That is a hypothesis, not a result. If it survived all gates, the pre-quotient
-family coupling would have only one contraction row available. This artifact
-does not construct that row, prove that it is nonzero, promote its algebraic
-rank to a physical rank, or identify an observed family.
+That remains a declared horn, not a dynamical result. CB-1/CB-2 now show that
+under the horn the pre-quotient family coupling has one exact contraction row
+and compatible zero-order cell support. They do not derive why the row is
+nonzero, promote its algebraic rank to a physical rank, or identify an
+observed family.
 
 ## 1. Layer-0 object table
 
