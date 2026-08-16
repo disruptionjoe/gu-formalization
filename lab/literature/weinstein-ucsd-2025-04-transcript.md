@@ -36,7 +36,7 @@ date: 2025-04
 > 2026-08-14 characterised the defect as flipping a passage from
 > concession-only to concession-plus-endorsement, and that is exactly right.
 >
-> **Consequence — CORRECTED 2026-08-15, see below.** `Spin(3,2)` occurs **zero**
+> **Consequence — CORRECTION IV-20260815, see below.** `Spin(3,2)` occurs **zero**
 > times in `lab/sources/source-claim-register.yaml`, so the chain is unregistered
 > as a source claim. That much holds.
 >
@@ -58,10 +58,13 @@ date: 2025-04
 >
 > **What survives the correction, and it is still the operative point:** the
 > chain is absent from the *registered* source apparatus, and the copy people
-> read had the sentence deleted. `SC-A` (2026-08-15) has since decided the
-> chain's reading and found that the three prior attributions carry the
-> **nested** form the group theory forbids — `dim Spin(3,2) = 10 < 12 =
-> dim SU(3)xSU(2)xU(1)` — so those three sites need repair by their owner.
+> read had the sentence deleted. `SC-A` (2026-08-15) has since established the
+> **best-supported, transcript-uncertain reconstruction** as
+> `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` and found that the three prior
+> attributions carry the **nested** `Spin(3,2)` form the group theory forbids —
+> `dim Spin(3,2) = 10 < 12 = dim SU(3)xSU(2)xU(1)`. The algebra kills the
+> literal nesting; it does not replace the still-owed audio check or construct
+> the global bundle reductions.
 >
 > **Still owed by the source owner, and NOT done here:** confirmation against
 > the actual recording of which copy is faithful, and registration of the chain

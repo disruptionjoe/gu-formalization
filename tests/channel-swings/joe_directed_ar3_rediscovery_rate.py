@@ -13,10 +13,10 @@ Run FROM THE REPO ROOT:
 WHAT THIS COMPUTES
 ------------------
 1. The DENOMINATOR, from the filesystem: the dated artifacts of the
-   Joe-directed channel in the window 2026-08-14..2026-08-15.  A PINNED list of
-   44 paths is asserted to exist exactly; the live count is asserted only as a
-   FLOOR, because the checkout is shared with concurrent agents who can only
-   raise it.
+   Joe-directed channel in the window 2026-08-14..2026-08-15 that existed at
+   the measurement cut, commit 805713e8.  A PINNED list of 44 paths is asserted
+   to exist exactly; later same-session artifacts are explicit exclusions, not
+   unexplained denominator drift.
 2. Every declared cluster is VERIFIED against the repository before it is
    allowed to contribute to any numerator:
      - both files exist;
@@ -243,6 +243,23 @@ DENOM_FILES: tuple[str, ...] = (
 )
 
 WIN = {f"{WINDOW_DIR}/{p}" for p in DENOM_FILES}
+
+# AR-3 was committed at 14:04.  These eight research artifacts landed later in
+# the same session.  They were not audited by AR-3's declared cluster sweep and
+# therefore cannot be silently added to its denominator; doing so would change
+# the rate without measuring their numerators.  Their explicit exclusion is a
+# correction to the original claim that archaeology/steward files were the only
+# possible unpinned paths.
+POST_MEASUREMENT_SAME_SESSION = frozenset({
+    f"{WINDOW_DIR}/carrier-notation/cn2-notation-carries-the-answer-2026-08-15.md",
+    f"{WINDOW_DIR}/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md",
+    f"{WINDOW_DIR}/chain-repair/ch3-the-nested-chain-is-repaired-at-three-sites-and-the-rank-drop-moves-to-arrow-one-2026-08-15.md",
+    f"{WINDOW_DIR}/class-shift/cs1-first-order-shift-is-the-chirality-grading-2026-08-15.md",
+    f"{WINDOW_DIR}/h10-remediation/h105-stelle-ghost-sign-2026-08-15.md",
+    f"{WINDOW_DIR}/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md",
+    f"{WINDOW_DIR}/source-chain/sca-right-chain-2026-08-15.md",
+    f"{WINDOW_DIR}/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md",
+})
 
 
 def live_window_count() -> int:
@@ -581,7 +598,9 @@ def main(selftest: bool = False, mutations: dict | None = None) -> int:
     extra = sorted(live_paths - WIN)
     def excluded(p: str) -> bool:
         tail = p[len(WINDOW_DIR) + 1:]
-        return tail.startswith("archaeology/") or tail.startswith("steward-")
+        return (tail.startswith("archaeology/") or tail.startswith("steward-")
+                or tail.startswith("integration-review/")
+                or p in POST_MEASUREMENT_SAME_SESSION)
     unexplained = [p for p in extra if not excluded(p)]
     E("denominator.every_unpinned_window_file_is_a_declared_exclusion",
       not unexplained, f"unexplained={unexplained}")
@@ -769,6 +788,14 @@ FALSE_FACTS: tuple[tuple[str, dict], ...] = (
 
 
 def selftest() -> int:
+    import subprocess
+    baseline = subprocess.run(
+        [sys.executable, __file__], cwd=REPO, capture_output=True, text=True)
+    if baseline.returncode != 0:
+        print("AR-3 SELFTEST REFUSED: the unmutated baseline is not clean.")
+        print(baseline.stdout)
+        print(baseline.stderr)
+        return 1
     print("=" * 78)
     print("AR-3 SELFTEST — planting false facts; each MUST force exit 1")
     print("=" * 78)

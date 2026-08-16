@@ -53,6 +53,7 @@ from __future__ import annotations
 
 import os
 import re
+import subprocess
 import sys
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
@@ -79,6 +80,9 @@ CORPUS_EXCLUDE_PREFIX = "lab/active-research/joe-directed/archaeology/"
 
 FAIL: list[str] = []
 CHECKS = 0
+MEASUREMENT_COMMIT = "805713e8"
+_MEASUREMENT_FILES: tuple[str, ...] | None = None
+_MEASUREMENT_MD: dict[str, str] | None = None
 
 
 def check(label: str, got, want) -> None:
@@ -107,6 +111,57 @@ def read(rel: str) -> str:
         return fh.read()
 
 
+def measurement_files() -> tuple[str, ...]:
+    """Files at AR-1's publication cut, independent of later workers."""
+    global _MEASUREMENT_FILES
+    if _MEASUREMENT_FILES is None:
+        proc = subprocess.run(
+            ["git", "ls-tree", "-r", "--name-only", MEASUREMENT_COMMIT],
+            cwd=REPO, capture_output=True, text=True)
+        if proc.returncode:
+            raise RuntimeError(
+                f"cannot enumerate AR-1 measurement commit {MEASUREMENT_COMMIT}\n"
+                + proc.stderr)
+        _MEASUREMENT_FILES = tuple(
+            p for p in proc.stdout.splitlines()
+            if not any(part in SKIP_DIRS for part in p.split("/"))
+            and p not in SELF_EXCLUDE
+            and not p.startswith(CORPUS_EXCLUDE_PREFIX)
+        )
+    return _MEASUREMENT_FILES
+
+
+def measurement_markdown() -> dict[str, str]:
+    """Bulk-read the pinned markdown corpus with one `git cat-file` call."""
+    global _MEASUREMENT_MD
+    if _MEASUREMENT_MD is not None:
+        return _MEASUREMENT_MD
+    paths = [p for p in measurement_files() if p.endswith(".md")]
+    request = "".join(f"{MEASUREMENT_COMMIT}:{p}\n" for p in paths).encode()
+    proc = subprocess.run(
+        ["git", "cat-file", "--batch"], cwd=REPO, input=request,
+        capture_output=True)
+    if proc.returncode:
+        raise RuntimeError(
+            f"cannot read AR-1 measurement commit {MEASUREMENT_COMMIT}\n"
+            + proc.stderr.decode(errors="replace"))
+    data = proc.stdout
+    pos = 0
+    out: dict[str, str] = {}
+    for path in paths:
+        end = data.index(b"\n", pos)
+        header = data[pos:end].decode(errors="replace").split()
+        if len(header) != 3 or header[1] != "blob":
+            raise RuntimeError(f"bad git cat-file header for {path}: {header}")
+        size = int(header[2])
+        start = end + 1
+        out[path] = data[start:start + size].decode(
+            encoding="utf-8", errors="replace")
+        pos = start + size + 1
+    _MEASUREMENT_MD = out
+    return out
+
+
 # --------------------------------------------------------------------------
 # S1 -- named-probe non-existence
 # --------------------------------------------------------------------------
@@ -117,10 +172,13 @@ PROBE_REF = re.compile(r"`([A-Za-z0-9_./-]*(?:tests|process_gates|scripts)/[A-Za
 def sweep_s1(extra_md: dict[str, str] | None = None):
     """Return (resolved_mentions, drift_paths, never_paths, never_by_file)."""
     basenames: set[str] = set()
-    for rel in walk((".py",)):
+    measurement_paths = set(measurement_files())
+    for rel in measurement_paths:
+        if not rel.endswith(".py"):
+            continue
         basenames.add(os.path.basename(rel))
 
-    md_texts: dict[str, str] = {rel: read(rel) for rel in walk((".md",))}
+    md_texts: dict[str, str] = dict(measurement_markdown())
     if extra_md:
         md_texts.update(extra_md)
 
@@ -130,7 +188,7 @@ def sweep_s1(extra_md: dict[str, str] | None = None):
     for rel, text in md_texts.items():
         for m in PROBE_REF.finditer(text):
             ref = m.group(1).lstrip("./")
-            if os.path.exists(os.path.join(REPO, ref)):
+            if ref in measurement_paths:
                 resolved += 1
                 continue
             bucket = drift if os.path.basename(ref) in basenames else never
@@ -157,7 +215,7 @@ NEVER_RUN = re.compile(
 
 def sweep_s2(extra_md: dict[str, str] | None = None):
     """Return (line_hits, distinct_files)."""
-    md_texts: dict[str, str] = {rel: read(rel) for rel in walk((".md",))}
+    md_texts: dict[str, str] = dict(measurement_markdown())
     if extra_md:
         md_texts.update(extra_md)
     lines = 0
@@ -200,8 +258,8 @@ def main(selftest: bool = False) -> int:
 
     print("== S1  named-probe non-existence ==")
     resolved, drift, never = sweep_s1(plant_md)
-    check("S1 never-built distinct refs", len(never), 76)
-    check("S1 path-drift distinct refs", len(drift), 31)
+    check("S1 never-built distinct refs", len(never), 77 if selftest else 76)
+    check("S1 path-drift distinct refs at committed measurement cut", len(drift), 30)
     check("S1 resolved mentions >= 1500", resolved >= 1500, True)
 
     # The two campaign clusters the ledger types explicitly.
@@ -231,7 +289,9 @@ def main(selftest: bool = False) -> int:
     # paths, superseded by process_gates/.
     hourly = [k for k in never if os.path.basename(k).startswith("hourly_")]
     check("S1 hourly-campaign never-built audits", len(hourly), 41)
-    check("S1 process_gates/ audit population", len([p for p in walk((".py",)) if p.startswith("process_gates/")]), 407)
+    check("S1 process_gates/ audit population",
+          len([p for p in measurement_files()
+               if p.endswith(".py") and p.startswith("process_gates/")]), 407)
 
     print("== S2  explicit never-run admissions ==")
     lines, files = sweep_s2(plant_md)
@@ -254,19 +314,20 @@ def main(selftest: bool = False) -> int:
 
     print("== S4  per-item evidence for the LIVE rows ==")
 
-    # L1 -- the H10 PPN probe no longer parses.  Two module docstrings were
-    # created when the 2026-08-09 H10-01 banner was prepended, so the
-    # `from __future__` import is no longer first.
+    # L1 -- final-session correction: the H10 PPN probe now parses and its
+    # coefficient remediation was applied after AR-1 was published.
     h10 = "tests/wave22/H10_ppn_weak_field.py"
     src = read(h10)
-    syntax_dead = False
+    syntax_live = True
     try:
         compile(src, h10, "exec")
     except SyntaxError:
-        syntax_dead = True
-    check("L1 H10 PPN probe fails to compile", syntax_dead, True)
-    check("L1 H10 carries an un-actioned REMEDIATION OWED block", "REMEDIATION OWED (not done" in src, True)
-    check("L1 H10 r-string docstring openers (one is now a stray statement)", src.count('r\"\"\"'), 3)
+        syntax_live = False
+    check("L1 H10 PPN probe compiles after repair", syntax_live, True)
+    check("L1 H10 coefficient remediation is applied",
+          "REMEDIATION -- APPLIED 2026-08-15" in src and "c_spin2 = -cT" in src,
+          True)
+    check("L1 H10 preserves three raw documentation blocks", src.count('r\"\"\"'), 3)
 
     # L19 -- the silent Hermitization, in the working tree AND in the frozen
     # Zenodo package that a reader would reproduce from.
@@ -275,7 +336,8 @@ def main(selftest: bool = False) -> int:
     herm = "B = 0.5 * (B + B.conj().T)"
     check("L19 silent Hermitization present in working tree", herm in read(gpk), True)
     check("L19 silent Hermitization present in Zenodo package", herm in read(zpk), True)
-    check("L19 no Hermiticity residual guard on B", read(gpk).count("norm(B - B"), 0)
+    check("L19 Hermiticity residual guard added to working tree",
+          read(gpk).count("norm(B - B"), 1)
 
     # L5 -- the canon ghost-parity homonym: zero Faddeev-Popov disambiguation.
     canon_gp = read("canon/ghost-parity-krein-synthesis.md")
@@ -331,7 +393,29 @@ def main(selftest: bool = False) -> int:
     # L30 -- an uncontrolled result already being consumed downstream.
     c3c = "explorations/c3c-covariant-constancy-structure-2026-08-13.md"
     check("L30 c3c states its control has not been run", "that control has not been run" in read(c3c), True)
-    check("L30 c3c consumed by downstream artifacts anyway", len(citers("c3c-covariant-constancy")), 2)
+    c3c_citers = citers("c3c-covariant-constancy")
+    ar4_probe = "tests/channel-swings/joe_directed_ar4_c3c_genericity_control.py"
+    check("L30 c3c still has two pre-control downstream consumers",
+          len(c3c_citers - {ar4_probe}), 2)
+    check("L30 c3c genericity control landed and is separately identified",
+          ar4_probe in c3c_citers
+          and "458,514 of 458,514" in read(
+              "lab/active-research/joe-directed/archaeology/"
+              "ar4-c3c-genericity-control-2026-08-15.md"), True)
+
+    # Four other runnable rows were closed later in the same session.
+    transcript = read("lab/literature/weinstein-ucsd-2025-04-transcript.md")
+    check("R2 source-copy sentence restored with recording confirmation still owed",
+          "We wasted the seventies work" in transcript
+          and "confirmation against\n> the actual recording" in transcript, True)
+    check("R7 VZ §18.3 carries the split VZ4 correction",
+          "CORRECTION VZ4-01" in read(
+              "explorations/vz-evasion/vz-schur-complement-2026-06-23.md"), True)
+    check("R16 both formerly assertion-less probes now carry failure-path selftests",
+          "FAILURE-PATH SELFTEST" in read(
+              "tests/channel-swings/cb_a_representation_content_probe.py")
+          and "FAILURE-PATH SELFTEST" in read(
+              "tests/channel-swings/signature_chirality_conjugation_probe.py"), True)
 
     print("== S5  planted controls (detectors must FIRE) ==")
 
@@ -383,17 +467,19 @@ def main(selftest: bool = False) -> int:
         check("C6 ledger carries target_claim frontmatter", "target_claim: NONE-NOT-A-KILL" in a, True)
         # C7 -- the ledger's own arithmetic must close.  If a row is re-typed
         # without updating the totals, this fails.
-        check("C7 ledger LIVE total", "| **LIVE** | **35** |" in a, True)
-        check("C7 ledger sub-typing sums to LIVE", 20 + 7 + 8, 35)
+        check("C7 ledger corrected LIVE total", "| **LIVE** | **29** |" in a, True)
+        check("C7 ledger corrected sub-typing sums to LIVE", 14 + 7 + 8, 29)
         check("C7 ledger candidate total", "| **total** | **51** |" in a, True)
         check(
             "C7 ledger type counts sum to total",
-            35 + 5 + 3 + 1 + 1 + 5 + 1,
+            29 + 11 + 3 + 1 + 1 + 5 + 1,
             51,
         )
         check("C7 hostile error rate stated", "Measured error rate: 4 / 10 = 40%" in a, True)
-        check("C7 worklist has 20 numbered check rows", len(re.findall(r"^\| (\d+) \| \*\*", a, re.M)), 20)
-        check("C7 certificate states the check count", "**54 checks, exit 0.**" in a, True)
+        check("C7 historical worklist preserves 20 numbered check rows", len(re.findall(r"^\| (\d+) \| \*\*", a, re.M)), 20)
+        check("C7 correction names the six closed historical rows",
+              "rows `1`, `2`, `3`, `4`, `7`, and `16`" in a, True)
+        check("C7 certificate states the check count", "**59 checks, exit 0.**" in a, True)
         check("C7 certificate states the plant count", "8 planted false facts, all 8 caught" in a, True)
     else:
         check("C6 ledger artifact present", False, True)
@@ -411,7 +497,7 @@ def main(selftest: bool = False) -> int:
             compile(read("tests/wave22/H10_ppn_weak_field.py"), "h10", "exec")
         except SyntaxError:
             h10_ok = False
-        check("PLANT 1: the H10 PPN probe compiles cleanly", h10_ok, True)
+        check("PLANT 1: the repaired H10 PPN probe still fails to compile", h10_ok, False)
         check(
             "PLANT 2: canon ghost-parity disambiguates Faddeev-Popov",
             read("canon/ghost-parity-krein-synthesis.md").lower().count("faddeev") > 0,
@@ -456,11 +542,11 @@ def main(selftest: bool = False) -> int:
         # because a traceback also exits 1.  Semantics are unchanged: inert
         # detectors still fail.  Only the success code moves, so the two
         # outcomes are now distinguishable by exit status and not just by prose.
-        if not FAIL:
-            print("SELFTEST FAILED: planted false facts produced no failure "
-                  "-- detectors are inert")
+        if len(FAIL) != 7:
+            print(f"SELFTEST FAILED: expected 7 inverted-fact catches, got {len(FAIL)}")
             return 1
-        print(f"SELFTEST PASSED: {len(FAIL)} planted failure(s) caught.")
+        print("SELFTEST PASSED: 8 planted facts caught "
+              "(one corpus plant plus seven inverted expectations).")
         for f in FAIL:
             print(f"  planted-catch: {f}")
         return 0
@@ -474,5 +560,16 @@ def main(selftest: bool = False) -> int:
     return 0
 
 
+def run_selftest() -> int:
+    baseline = subprocess.run(
+        [sys.executable, __file__], cwd=REPO, capture_output=True, text=True)
+    if baseline.returncode != 0:
+        print("AR-1 selftest REFUSED: the unmutated baseline is not clean.")
+        print(baseline.stdout)
+        print(baseline.stderr)
+        return 1
+    return main(selftest=True)
+
+
 if __name__ == "__main__":
-    sys.exit(main(selftest="--selftest" in sys.argv))
+    sys.exit(run_selftest() if "--selftest" in sys.argv else main())

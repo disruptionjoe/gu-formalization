@@ -15,6 +15,7 @@ claim_status_change: none
 public_posture_change: none
 ledger_row_changes: none
 registry_change: none
+canonical_effect: none
 probe: tests/channel-swings/joe_directed_ar4_c3c_genericity_control.py
 runs_control_named_by: explorations/c3c-covariant-constancy-structure-2026-08-13.md (section 5)
 worklist_row: lab/active-research/joe-directed/archaeology/ar1-dropped-commitments-ledger-2026-08-15.md (section 5, row 1)

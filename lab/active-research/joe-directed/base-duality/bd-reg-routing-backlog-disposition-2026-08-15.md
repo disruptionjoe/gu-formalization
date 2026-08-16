@@ -8,6 +8,7 @@ method: lab/methods/source-native-comparator-routing.md
 audit: process_gates/source_native_comparator_routing_audit.py
 result: "8 of 17 transcribed from in-vocabulary self-declarations; 9 left
   unclassified and itemised; UNCLASSIFIED_BASELINE ratcheted 16 -> 9"
+canonical_effect: none
 ---
 
 # BD-REG — the routing backlog, worked without guessing

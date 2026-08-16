@@ -1,9 +1,10 @@
 ---
-title: "CH-3: the impossible nested chain is repaired at three sites; two conclusions never used it, one fence did and was wrong; and the correct object was already in the repository in two other notations the whole time"
+title: "CH-3: the impossible nested chain is repaired at three sites; two conclusions never used it, one fence did and was wrong; and the best-supported replacement was already in the repository in two other notations"
 created: "2026-08-15"
 doc_type: attribution-correction-and-independent-reproduction
 status: repaired
-result: "SC-A's group theory REPRODUCES independently (58/58, exit 0, no shared code): dim so(3,2) = 10 < 12, every so(p,q) with p+q = 5 is 10-dimensional, max centraliser of any Spin(3,2) in Spin(6,4) is 10, and both arrows of Spin(6,4) > SU(3,2) > S(U(3)xU(2)) construct (24 <= 45, 12 <= 24). Three sites repaired. H19 Q3b and Q4b did NOT use the nesting -- both are load-bearing on the (6,4) fibre, and Q4b's neutrality argument comes out TIGHTER under the corrected reading. LA-6's fence (i) DID use it and was wrong in content, not only in notation: it put the rank drop in the second step, and the second arrow is a maximal-compact retract that cannot change pi_3. rank pi_3 along the chain is 3 -> 2 -> 2; the drop is at arrow 1."
+canonical_effect: pending_integration
+result: "SC-A's group theory REPRODUCES independently (58/58, exit 0, no shared code): dim so(3,2) = 10 < 12, every so(p,q) with p+q = 5 is 10-dimensional, max centraliser of any Spin(3,2) in Spin(6,4) is 10, and the subgroup embeddings underlying the best-supported Spin(6,4) > SU(3,2) > S(U(3)xU(2)) reconstruction construct fibrewise (24 <= 45, 12 <= 24). Global reduction data remain unbuilt and arrow 2 is REDUCTION_EXTERNAL. Three sites repaired. H19 Q3b and Q4b did NOT use the nesting. LA-6's fence put the pi_3 rank drop in the second step; on the reconstructed subgroup sequence the ranks are 3 -> 2 -> 2, so the algebraic/topological drop is at arrow 1."
 target_claim: "internal: the repository-written chain `Spin(6,4) -> Spin(3,2) -> maximal compact SU(3) x SU(2) x U(1)` as ASSERTED (not as quoted) at explorations/wave14/H19-seven-seven-signature-branch-2026-07-11.md:114, :150, :157 (with the derived three-signature list at :120 and :163), and at la6-the-lagrangian-axis-...-2026-08-15.md:918"
 target_claim_verdict: "KILLED AS WRITTEN and now REPAIRED IN PLACE at both files. No source claim is killed -- the source's own adjacent sentence says SU(3,2), twice. No repository RESULT is killed either: two of the three sites cite the chain in passing and their verdicts stand verbatim; the third is a fence whose content was wrong and is now corrected with its consequence named."
 test: tests/channel-swings/joe_directed_ch3_chain_repair.py
@@ -65,11 +66,22 @@ claim, in either direction.
 
 # CH-3 — repairing the chain, and finding out what leaned on it
 
+> [!CAUTION]
+> **CORRECTION IV-20260815 — RECONSTRUCTION CEILING.** This repair still kills
+> the literal nested `Spin(3,2)` chain and preserves the corrected attribution
+> history. It no longer calls the `SU(3,2)` replacement source-determined. SC-A
+> supplies the best-supported transcript reconstruction and fibrewise subgroup
+> embeddings. The audio is unchecked, the 2021 PDF is absent and
+> extraction-mediated, arrow 1 needs global complex/determinant reduction data,
+> and arrow 2 remains `REDUCTION_EXTERNAL`. The `3 -> 2 -> 2` rank computation is
+> a conditional statement along that reconstructed subgroup sequence.
+
 Joe-directed, 2026-08-15. Downstream of `SC-A`
 (`lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md`,
-85/85), which decided that the source's *"right chain"* is a chain of
-structure-group reductions of the rank-10 normal bundle and not a nesting of GUT
-subgroups. This artifact does three things: reproduces SC-A's group theory
+85/85), which established the best-supported reconstruction of the source's
+*"right chain"* as a chain of structure-group reductions of the rank-10 normal
+bundle and not a nesting of GUT subgroups. This artifact does three things:
+reproduces SC-A's group theory
 independently before relying on it, repairs the three repository sites that
 carry the impossible nested form, and traces what depended on it.
 
@@ -301,7 +313,8 @@ the fibre form is quadratic in `g`. The chain is a passenger. The verdict — th
 `(7,7)` costs nothing here relative to `(9,5)` — is differential and stands
 verbatim.
 
-**Repair.** The chain now reads `Spin(6,4) > SU(3,2) > S(U(3)xU(2))`; the
+**Repair.** The repository's best-supported reconstruction now reads
+`Spin(6,4) > SU(3,2) > S(U(3)xU(2))`; the
 transcript cite is narrowed to `[00:43:47]`, where the source says *"s u three
 comma two"*, rather than to the range whose far end contains the garble; the
 frame is stated (*"structure-group reductions of the rank-10 vertical bundle, not
@@ -327,7 +340,8 @@ to both totals."* The summary at `:163` repeats the three-signature list.
 flagged.** The neutrality claim needs only that the chain's nodes are structure
 groups of a `g -> -g` invariant fibre. **It survives the corrected reading, and
 comes out tighter.** Under the old reading it was an assertion about a chain that
-could not exist. Under the decided reading it is exact: `so(6,4)` is the
+could not exist. Under the best-supported reconstruction the fibrewise account
+is exact: `so(6,4)` is the
 structure algebra of the rank-10 fibre, `su(3,2)` is the stabiliser of a
 compatible complex structure **on that same fibre** (the repository's own
 `O(6,4)/U(3,2)`), and `s(u(3)+u(2))` is its maximal compact. Their common
@@ -352,7 +366,7 @@ carries three independent topological angles, the SM carries two, `LT-SM7` books
 one — is computed from the declared group alone and never touches the chain.
 Every number in §4.4 stands. But **fence (i) is itself a claim about the chain,
 and it was wrong in content, not only in notation**: it located the rank drop in
-the *second* step. Under the decided reading the second arrow is a maximal-compact
+the *second* step. Under the best-supported reconstruction the second arrow is a maximal-compact
 reduction, hence a deformation retract, hence unable to change `pi_3` at all.
 
 **Repair.** Fence (i) now reads: the chain is `Spin(6,4) > SU(3,2) >
@@ -502,9 +516,10 @@ wrong would have been the worse choice. Mitigation: the computation lives in
 **my** artifact and my probe; LA-6 gets the corrected sentence, a verbatim quote
 of what it used to say, and a pointer. No number in LA-6 changed.
 
-**H4 — "The `12 > 10` obstruction is not news; LA-7 decided the middle node this
-morning."** Correct, and §0.1 credits it. LA-7 decided the **term** by testing the
-adjacent sentence (`dim K(SU(3,2)) = 12` vs `dim K(Spin(3,2)) = 4`); SC-A decided
+**H4 — "The `12 > 10` obstruction is not news; LA-7 selected the middle-node
+reconstruction this morning."** Correct, and §0.1 credits it. LA-7 selected the
+**source-internally consistent term** by testing the adjacent sentence
+(`dim K(SU(3,2)) = 12` vs `dim K(Spin(3,2)) = 4`); SC-A reconstructed
 the **chain** and the **kind of chain**. CH-3 owns neither. It owns the repair,
 the reproduction, and one sentence about which arrow drops the rank.
 
@@ -556,7 +571,7 @@ complex-structure sentence and both spoken forms of the middle term are gated by
 exact substring counts in the probe (`s u three comma two` = 2,
 `spin three comma two` = 1, the `spin six comma spin four` garble = 1). *Repo →
 source:* nothing in either repaired site now attributes a *mechanism* to the
-author; the corrected chain is stated as the repository's decided reading with
+author; the corrected chain is stated as the repository's best-supported reconstruction with
 SC-A named as its owner, and the source's own words are quoted for the frame.
 **Clean.**
 

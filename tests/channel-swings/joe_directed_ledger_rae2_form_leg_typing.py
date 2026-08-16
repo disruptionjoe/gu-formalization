@@ -225,9 +225,10 @@ check("S9", "the 2026-07-30 packet types s*(a_V) as the object it is NOT",
 check("S10", "the routing method names MD-1 as a fork-3 source-native pointer",
       "lab/active-research/joe-directed/four-d-mode-decomposition/"
       "md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md" in routing)
-check("S11", "SEAM: the routing method itself asserts the refuted step",
-      "vertical connection components may appear as four-dimensional scalars after "
-      "reduction" in routing.replace("\n", " ").replace("  ", " "))
+check("S11", "CORRECTION: the routing method withdraws the refuted step",
+      "**Withdrawn clause —" in routing
+      and "That clause is (a) not source-attested and (b) refuted." in
+      routing.replace("\n> ", " "))
 check("S12c", "CONTROL fires: a deliberately wrong substring does not occur",
       "the Lorentz-scalar components are exactly those with both legs horizontal" not in cb_a)
 

@@ -24,6 +24,18 @@ scripts:
 
 Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`
 
+> **CORRECTION IV-20260815 — final-session baseline.** This archaeology file
+> was published at commit `805713e8` (14:04) and its exact `48`-file / `24`-
+> occurrence census is now explicitly read from that commit. Eight additional
+> Joe-directed research artifacts landed later in the same session; they are
+> not silently added to the historical census. Seam status, however, is a live
+> classification: later commit `bfb23253` repaired VZ §18.3, so `AR2-S04` is
+> now `RESOLVED`, not `OPEN`. The current catalogue is therefore `15 OPEN / 4
+> RESOLVED / 1 SUPERSEDED / 1 REFUTED / 1 DISAVOWED / 1 UNTYPED`, and the
+> load-bearing open worklist has five entries. The original S04 discussion and
+> 16/3 counts below are retained as the 14:04 measurement record, not as current
+> status.
+
 This file adjudicates no physics. It catalogues *deferrals* — seams that an
 author raised, judged real, and consciously left unanswered — across artifacts
 that sit on both sides of the comparator boundary. It borders comparators
@@ -552,14 +564,15 @@ _local/cas-venv/bin/python tests/channel-swings/joe_directed_ar2_deferral_archae
 _local/cas-venv/bin/python tests/channel-swings/joe_directed_ar2_deferral_archaeology.py --selftest
 ```
 
-**Certificate: 13/13 checks, exit 0. Failure path exercised: 13/13 planted
-controls each drive exit 1.** Controls: 7 mutate asserted counts
+**Certificate: 13/13 checks, exit 0. `--selftest` first requires the unmutated
+baseline to pass, then verifies that all 13 planted controls each drive exit
+1.** Controls: 7 mutate asserted counts
 (`census_occurrences` 24→23, `census_files` 48→47, `phrase_table`, `repo_floor`
-315→400, `type_counts` 16→15, `worklist` 6→5, `multiply_flagged` 14→13);
+315→400, `type_counts` 15→14, `worklist` 6→5, `multiply_flagged` 14→13);
 1 asserts the wrap-blind and normalized counts are equal; 5 plant **false facts
 about the world** — that the disposition packet resolves `SOLDERED-AD`, that
-`OT-2` answers the `LT-SM3b` successor question, that the VZ chain was repaired
-against `MD-1`, that `LA-6` never wrote *"Not resolved here"*, and that the hedge
+`OT-2` answers the `LT-SM3b` successor question, that the VZ4 correction marker
+is absent, that `LA-6` never wrote *"Not resolved here"*, and that the hedge
 vocabulary is no larger than the core vocabulary. No float is asserted anywhere.
 Repo-wide numbers are asserted as floors and labelled as floors, because the
 checkout is shared.

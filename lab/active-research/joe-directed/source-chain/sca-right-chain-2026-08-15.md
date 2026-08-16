@@ -1,14 +1,29 @@
 ---
-title: "SC-A: 'the right chain' is a reduction chain on the rank-10 normal bundle, not a nesting of GUT subgroups"
+title: "SC-A: the best-supported reconstruction of 'the right chain' is a rank-10 normal-bundle reduction pattern, not a GUT subgroup tower"
 created: "2026-08-15"
 doc_type: construction_result
-status: decided
-result: "R1/R2/R3 KILLED by exact group theory (12 > 10, and the largest centraliser of any Spin(3,2) in Spin(6,4) is 10). The surviving reading is Spin(6,4) > SU(3,2) > S(U(3)xU(2)), whose two steps are a complex-structure reduction and a maximal-compact reduction of the same rank-10 vertical bundle. Register entry proposed, not written."
+status: reconstruction_partial
+canonical_effect: pending_integration
+result: "R1/R2/R3 KILLED by exact group theory (12 > 10, and the largest centraliser of any Spin(3,2) in Spin(6,4) is 10). The best-supported reconstruction is Spin(6,4) > SU(3,2) > S(U(3)xU(2)), interpreted as a compatible complex/special-unitary reduction followed by a maximal-compact reduction on the same rank-10 vertical bundle. The embeddings construct fibrewise; they do not construct the global bundle reductions. Audio confirmation, the absent 2021 PDF, global complex/determinant reduction data, and the REDUCTION_EXTERNAL selector remain open. Register entry proposed, not written."
 target_claim: "internal: the repository-written chain `Spin(6,4) -> Spin(3,2) -> maximal compact SU(3) x SU(2) x U(1)`, at explorations/wave14/H19-seven-seven-signature-branch-2026-07-11.md:114 and :157, and la6-the-lagrangian-axis-...-2026-08-15.md:918"
-target_claim_verdict: "KILLED AS WRITTEN. dim so(3,2) = 10 and dim(su(3)+su(2)+u(1)) = 12, so the second arrow admits no injective homomorphism. The chain survives only with SU(3,2) in the middle slot, which is what LA-7 independently decided today for the adjacent sentence. No source claim is killed: the source's own adjacent sentence says SU(3,2)."
+target_claim_verdict: "KILLED AS WRITTEN. dim so(3,2) = 10 and dim(su(3)+su(2)+u(1)) = 12, so the second arrow admits no injective homomorphism. SU(3,2) is the best-supported reconstruction of the middle slot because it makes the adjacent maximal-compact sentence consistent and matches the extraction-mediated 2021 equation, but the disputed audio was not checked and the 2021 PDF is absent. No source claim is killed; the literal repository nesting is."
 test: tests/channel-swings/joe_directed_sca_right_chain.py
 certificate: "85/85 checks, exit 0; --selftest: 4 planted false facts each force exit 1 and the clean run exits 0"
 ---
+
+> [!CAUTION]
+> **CORRECTION IV-20260815 — EVIDENCE AND GLOBALITY.** The original artifact
+> repeatedly called the `SU(3,2)` chain “decided” and said the source supplies
+> arrow 1. That was too strong. The exact algebra decides which literal readings
+> are impossible and constructs the subgroup embeddings. It does not determine
+> what was said on the unchecked audio, independently verify the absent 2021
+> draft PDF, or construct a global reduction of the normal bundle. The
+> `SU(3,2)` reading is the **best-supported reconstruction**: it is consistent
+> with the adjacent transcript sentences and the registered draft extraction.
+> Arrow 1 additionally needs a global compatible pseudo-Hermitian complex
+> structure and the determinant data reducing `U(3,2)` to `SU(3,2)`; arrow 2
+> remains `REDUCTION_EXTERNAL`. The original exact dimensions, centraliser
+> obstruction, embeddings, and intersection calculations are preserved.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Its result binds only the
@@ -44,7 +59,7 @@ ambient space."*
 
 ---
 
-# SC-A — deciding "the right chain"
+# SC-A — reconstructing "the right chain"
 
 Joe-directed, 2026-08-15. On 2026-08-15 a deleted sentence was restored to the
 `primary_source` transcript at `[00:45:00]`. Verbatim, from
@@ -55,8 +70,8 @@ Joe-directed, 2026-08-15. On 2026-08-15 a deleted sentence was restored to the
 > Lorentz breaking directions in space."*
 
 Read literally that is `Spin(6,4) > Spin(3,2) > SU(3)xSU(2)xU(1)`, and
-`dim Spin(3,2) = 10 < 12 = dim SU(3)xSU(2)xU(1)`. This artifact decides what the
-sentence can mean instead.
+`dim Spin(3,2) = 10 < 12 = dim SU(3)xSU(2)xU(1)`. This artifact tests what the
+sentence can consistently mean instead.
 
 ---
 
@@ -73,7 +88,7 @@ vocabularies. The sweep changed the shape of this artifact twice.
 | `SU(3,2)`, `su(3,2)`, `s u three comma two`, `\mathfrak{su}(3,2)`, `SU_{3,2}` | **PRESENT**, 221 hits / 110 files | `tests/legs/forces_maximal_compact_is_sm.py`, `tests/one-residual/forces_maxcompact_independent.py`, `lab/sources/source-claim-register.yaml:358` (SC-GRP-03) |
 | max compact of `su(3,2)` **is** the SM algebra | **PRESENT and machine-verified twice**, independent methods | `tests/legs/forces_maximal_compact_is_sm.py` (full Cartan-involution proof), `tests/one-residual/forces_maxcompact_independent.py` |
 | SM as **maximal compact rather than symmetry breaking** | **PRESENT and already adjudicated `REDUCTION_EXTERNAL`** | `explorations/big-swing-2026-07-03/AUDIT-noncompact-compact-reduction-EXTERNAL.md:21-25` |
-| `SU(3,2)` vs `Spin(3,2)` as the middle node | **DECIDED TODAY, by dimension** | `lab/active-research/joe-directed/ledger-advancement/la7-...-2026-08-15.md:288-300` |
+| `SU(3,2)` vs `Spin(3,2)` as the middle node | **SU(3,2) selected as the source-internally consistent reconstruction; audio not checked** | `lab/active-research/joe-directed/ledger-advancement/la7-...-2026-08-15.md:288-304` |
 | `S(U(3)xU(2))`, `Z_6`, global form | **PRESENT**; `Baez`/`Huerta` **ABSENT** | `RESEARCH-STATUS.md:503`; `tests/anchored-leads/sm_z6_quotient_bridge.py` |
 | `Spin(6,4)`, `Pati-Salam`, `Spin(6)xSpin(4)`, `(7,3) -> (6,4)` | **PRESENT, saturated** (3006 Pati-Salam hits) | `lab/active-research/pati_salam_chain_verification.py`, `canon/shiab-existence-cl95.md:31` |
 | `Sp(4,R)` literal | **0 hits**; `so(3,2) ~= sp4(R)` present in 3 ledger files | `lab/process/selected-k80-rsap-a3-cross-real-form-incidence.json:38` |
@@ -90,8 +105,9 @@ vocabularies. The sweep changed the shape of this artifact twice.
    It is a named, dated, audited result with the verdict `REDUCTION_EXTERNAL`.
    Had I led with it I would have made the eighth false-novelty claim of this
    channel. It is an **input** below, cited, not re-derived as mine.
-2. *"The middle node is `SU(3,2)`, not `Spin(3,2)`"* was **decided this morning**
-   by LA-7 §1.4, by the arithmetic `dim K(SU(3,2)) = 12` vs
+2. *"The middle node is `SU(3,2)`, not `Spin(3,2)`"* was **selected this morning
+   as the consistent transcript reconstruction** by LA-7 §1.4, using the
+   arithmetic `dim K(SU(3,2)) = 12` vs
    `dim K(Spin(3,2)) = 4`. My contribution is **not** that decision. LA-7 tested
    the *adjacent sentence* ("what is the maximal compact subgroup of X"). Nobody
    has tested the **chain sentence**, whose obstruction is a different integer
@@ -300,10 +316,12 @@ gives a genuine embedding `Spin(3,2) < Spin(6,4)`: `ad` is injective (image
 dimension 10, computed) and every `ad(X)` is skew for the Killing matrix `K`
 (`ad^T K + K ad = 0`, verified on every generator).
 
-This matters because it is what Weinstein is talking about **in the same breath**:
+This matters as a repository reconstruction because Weinstein discusses the
+Killing form **in the same breath**:
 *"we wanted to avoid indefinite signature on the killing form ... how nature
 handles the indeterminacy of the killing form."* The 10-dimensional `(6,4)` space
-he is standing on is, as an orthogonal space, `(so(3,2), B_Killing)`.
+under discussion can be modelled, as an orthogonal space, by
+`(so(3,2), B_Killing)`. The source does not state that adjoint identification.
 
 **But R5 does not rescue R1.** The centraliser of the adjoint copy inside
 `so(6,4)` is exactly **0** (computed; Schur, the adjoint is irreducible), so
@@ -311,13 +329,14 @@ nothing at all — least of all a 12-dimensional `g_SM` — commutes with it. R5
 real structure and a plausible reason the token `(3,2)` is in his mouth. It is not
 a chain step.
 
-### 1.5 R6 — the surviving reading, built explicitly
+### 1.5 R6 — the best-supported reading, built fibrewise
 
 ```text
 Spin(6,4)  ---(1)-->  SU(3,2)  ---(2)-->  S(U(3) x U(2)) = (SU(3)xSU(2)xU(1))/Z_6
 ```
 
-**Step (1) is a complex-structure reduction, and it is a genuine nesting.**
+**Step (1) has a genuine subgroup embedding and is the algebraic model for a
+complex/special-unitary reduction.**
 Realify `C^5` with a Hermitian form of signature `(3,2)`: `Re(h)` is a real
 symmetric form of signature `(6,4)` on `R^10`. The artifact builds `u(3,2)` and
 `su(3,2)` from `{0, +-1, +-i}` entries, realifies, and **verifies**
@@ -327,9 +346,13 @@ indefinite real form of the classical `SL(5,C) < SO(10,C)` — i.e. of the
 Georgi-Glashow embedding — and the repo had only the **commutant** direction of
 it (`vg_v3_j_commutant_conformal_native.py:419`), never the embedding.
 
-The source supplies the reduction datum in the **next sentence after the chain**:
-*"If you take the one dimension that's distinguished in the space of all metrics
-and **this has a complex structure**..."*
+The source mentions a distinguished direction and a complex structure in the
+**next sentence after the chain**: *"If you take the one dimension that's
+distinguished in the space of all metrics and **this has a complex
+structure**..."* That is evidence for the reconstruction, not a construction of
+the reduction datum. A global arrow needs a section of the associated
+`SO(6,4)/U(3,2)` bundle plus determinant/trivialisation data for the further
+`U(3,2) -> SU(3,2)` reduction; neither is supplied here.
 
 **Step (2) is a maximal-compact reduction, and the source names the operation.**
 The `theta`-fixed part of `su(3,2)` has dimension **12**, derived algebra
@@ -355,11 +378,12 @@ dim( so(6)+so(4) )              = 21      <- Pati-Salam
 Two simultaneous reductions of one `Spin(6,4)` bundle — maximal-compact
 (Pati-Salam) and complex (`U(3,2)`) — meeting in the Standard Model. The `12` vs
 `13` reproduces the eq (4.6) sentence's own `U(1)` proviso to the integer, from a
-completely independent construction. **The 2021 written edition therefore
-corroborates the spoken chain's middle term across four years, in the author's own
-typeset notation, as `SU(3,2)`/`U(3,2)`.**
+completely independent construction. **The registered extraction of the 2021
+written edition therefore corroborates the reconstructed middle term as
+`SU(3,2)`/`U(3,2)`.** The PDF itself is absent from this checkout, so this
+artifact does not claim an independent visual check of the typeset equation.
 
-### 1.6 The philological control — this transcript corrupts this exact frame
+### 1.6 The philological control — a same-frame transcription hypothesis
 
 Counted exactly in `papers/drafts/Transcript into the impossible.md`:
 
@@ -373,17 +397,19 @@ orthogonal form **once**, and the twice-spoken version is attached to a statemen
 that is **true** (`max compact of SU(3,2) = SU(3)xSU(2)xU(1)`, machine-verified
 twice in this repo) while the once-spoken version makes the chain **impossible**.
 
-**The provable corruption.** The same speaker turn contains:
+**The mechanism-compatible transcription hypothesis.** The same speaker turn
+contains:
 
 > *"it's the maximal compact subgroup of **spin six comma spin four**"*
 
 which names **no group at all** — the second slot of a signature is an integer,
 not a group. The intended object is `Spin(6,4)`, whose maximal compact is indeed
-`Spin(6) x Spin(4)`. So the transcript **demonstrably inserts a spurious `spin`
-into the `X comma Y` frame**, in the same paragraph, in the same construction,
-about the same chain. `spin three comma two` for `s u three comma two` is the same
-defect one clause later. This is a single-token, mechanism-attested edit, not a
-reinterpretation.
+`Spin(6) x Spin(4)`. The transcript therefore contains one demonstrably
+malformed `spin X comma spin Y` frame in the same paragraph. That makes `spin
+three comma two` for `s u three comma two` a plausible same-mechanism
+transcription defect; it does not prove that the audio contains the latter
+substitution. Audio confirmation remains the decider between an ASR defect and
+a source-side slip.
 
 Also verified in the source text, and load-bearing for what follows: *"There is no
 grand unification"* (present), *"It's just a normal bundle in your ambient space"*
@@ -396,7 +422,7 @@ know what to do because we're in a maximally compact subgroup"* (present).
 
 ---
 
-## 2. THE DECISION
+## 2. THE BEST-SUPPORTED RECONSTRUCTION
 
 | reading | verdict | the group theory |
 |---|---|---|
@@ -406,19 +432,23 @@ know what to do because we're in a maximally compact subgroup"* (present).
 | **R4** `Spin(3,2) ~ Sp(4,R) ~ AdS_4` in the picture | **identity TRUE, not in evidence** | brief's "3+1 conformal group" is wrong: that is `so(4,2)`, `dim 15` |
 | **R5** the `(6,4)` fibre **is** `(so(3,2), B_Killing)` | **SURVIVES as structure** | unique in dim 5; adjoint embedding exists; centraliser `0`, so not a chain step |
 | **R7** lossy transcription of a longer chain | **not excluded** | but any completion must still route through a `>= 12`-dimensional node, i.e. through `SU(3,2)` or `U(3,2)` |
-| **R6** `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` | **DECIDED** | both steps constructed; `24 <= 45`, `12 <= 24`; intersection `12`/`13` reproduces eq (4.6) |
+| **R6** `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` | **BEST-SUPPORTED RECONSTRUCTION** | subgroup embeddings construct fibrewise; `24 <= 45`, `12 <= 24`; intersection `12`/`13` reproduces the registered eq (4.6) extraction; global reductions remain unbuilt |
 
-**The decision, stated once.** *"The right chain"* is
+**The reconstruction, stated once.** The best-supported reading of *"the right
+chain"* is
 `Spin(6,4) > SU(3,2) > S(U(3)xU(2))`, and its two arrows are **not** symmetry
 breakings. They are **structure-group reductions of one rank-10 bundle** — the
 vertical/normal bundle of `X^4` in the space of metrics, carrying the
 trace-reversed Frobenius metric of signature `(6,4)`. Arrow 1 is a
 complex-structure reduction (`R^{6,4} -> C^{3,2}`); arrow 2 is a maximal-compact
-(Cartan) reduction. The three groups are the successive structure groups of the
-**same** 10-dimensional object, which is exactly why the source counts them the
+(Cartan) reduction. At the algebraic/fibrewise level the three groups can be
+successive structure groups of the **same** 10-dimensional object, which fits how
+the source counts them
 way he does — `SO(10)` is 10 real, `SU(5)` is 5 complex, Pati-Salam is `6 + 4`,
 and `SU(3,2)` is `3 + 2` complex. He is not walking down a subgroup tower. He is
-saying the same 10 four different ways.
+saying the same 10 four different ways. Promoting this pattern to a global
+bundle statement requires the reduction sections and determinant data named in
+the correction above.
 
 **And that is why the GUT frame was the wrong frame all along.** *"There is no
 grand unification. It's just a normal bundle in your ambient space."* The
@@ -468,9 +498,10 @@ for this artifact. `SC-GRP-50` is free — `SC-GRP` has no 50-series at all, and
 ```yaml
 - id: SC-GRP-50
   polarity: ASSERTS
-  claim: The correct chain is Spin(6,4), then the (3,2)-signature unitary form, then
-    SU(3)xSU(2)xU(1) -- offered as the replacement for the Spin(10) chain, whose
-    definite Killing form the author says wasted the 1970s work.
+  claim: The best-supported reconstruction of the chain is Spin(6,4), then the
+    (3,2)-signature unitary form, then SU(3)xSU(2)xU(1) -- offered as a reading of
+    the replacement for the Spin(10) chain, whose definite Killing form the author
+    says wasted the 1970s work.
   verbatim: But this is the right chain. Spin six four, spin three comma two, s u three
     cross s u two cross u one, Brian, in terms of the axis of evil in certain, Lorentz
     breaking directions in space.
@@ -489,10 +520,12 @@ for this artifact. `SC-GRP-50` is free — `SC-GRP` has no 50-series at all, and
     speaker turn contains the provable ASR corruption "the maximal compact subgroup of spin
     six comma spin four", which names no group -- a spurious "spin" inserted into the same
     "X comma Y" frame; (iii) draft-2021 p.29 eq (4.6) writes SU(3,2)/U(3,2) (see SC-GRP-03),
-    so the written edition corroborates across four years; (iv) with SU(3,2) both arrows are
-    constructible -- SU(3,2) < Spin(6,4) by realification of a Hermitian (3,2) form, and
+    so the registered written-edition extraction corroborates across four years (the PDF is
+    absent from this checkout); (iv) with SU(3,2) both subgroup embeddings are constructible
+    fibrewise -- SU(3,2) < Spin(6,4) by realification of a Hermitian (3,2) form, and
     S(U(3)xU(2)) < SU(3,2) as the maximal compact, dims 24 <= 45 and 12 <= 24. The two arrows
-    are STRUCTURE-GROUP REDUCTIONS of the rank-10 vertical bundle, not symmetry breakings:
+    model STRUCTURE-GROUP REDUCTIONS of the rank-10 vertical bundle, not symmetry breakings;
+    the global reduction sections are not constructed here:
     the author denies the GUT frame outright at 00:38:09 ("There is no grand unification. It
     is just a normal bundle in your ambient space") and names the operation at 00:46:40
     ("reduce maximal compact subgroups along the fibers"). Machine-verified in
@@ -513,7 +546,8 @@ for this artifact. `SC-GRP-50` is free — `SC-GRP` has no 50-series at all, and
     the [ASR] note in `notes` retired; if it shows he said "spin three comma two", the
     verbatim stands and the row records a source-side slip rather than a transcription defect
     -- in EITHER case the mathematics of the notes field is unchanged, because it is the
-    adjacent sentence and the 2021 draft that carry the decision, not this token.'
+    adjacent sentence and the registered 2021 extraction that support the reconstruction,
+    not this token.'
   adherence:
     adherence: PARTIAL
     evidence:
@@ -523,11 +557,13 @@ for this artifact. `SC-GRP-50` is free — `SC-GRP` has no 50-series at all, and
     - explorations/big-swing-2026-07-03/AUDIT-noncompact-compact-reduction-EXTERNAL.md:21-25
     pinned_at: UNPINNED-propose-only
     date: '2026-08-15'
-    note: PARTIAL, not ADHERED, and the reason is not the transcription. The chain is
-      constructible and machine-verified, but the non-compact -> compact reduction that makes
-      step 2 happen is typed REDUCTION_EXTERNAL (AUDIT-noncompact-compact-reduction-EXTERNAL,
-      2026-07-04) -- it is the Weyl unitarian trick, not a GU-forced selection, and GU's native
-      invariant form is Krein. The claim is carried with that datum cost named. The register
+    note: PARTIAL, not ADHERED, for reasons beyond the transcription. The subgroup embeddings
+      are constructible and machine-verified, but arrow 1 still needs a global compatible
+      pseudo-Hermitian complex structure plus determinant data, and the non-compact -> compact
+      reduction that makes step 2 happen is typed REDUCTION_EXTERNAL
+      (AUDIT-noncompact-compact-reduction-EXTERNAL, 2026-07-04) -- it is the Weyl unitarian
+      trick, not a GU-forced selection, and GU's native invariant form is Krein. The claim is
+      carried with both datum costs named. The register
       has no `provenance_caveat` field today; if the schema is not extended, fold that block
       into `notes` verbatim rather than dropping it.
 ```
@@ -582,10 +618,10 @@ unchanged either way, because the decision rests on the adjacent sentence and th
 2021 draft, not on the disputed token.
 
 **H3 — "LA-7 already did this, this morning."** Half true and I have said so
-plainly in §2.1. LA-7 decided the **term** by testing the adjacent sentence
+plainly in §2.1. LA-7 selected the **best-supported term** by testing the adjacent sentence
 (`dim K(SU(3,2)) = 12` vs `dim K(Spin(3,2)) = 4`). It did not test the **chain**
 sentence, whose obstruction is a different integer, it did not consider the
-factorisation reading at all, and it did not decide what **kind** of chain this
+factorisation reading at all, and it did not reconstruct what **kind** of chain this
 is — which is the thing the coordinator's `[00:38:09]` material makes decisive and
 which changes the answer from "a GUT chain with a typo" to "not a GUT chain."
 
@@ -593,8 +629,9 @@ which changes the answer from "a GUT chain with a typo" to "not a GUT chain."
 worth less than you are pricing it at."** Correct, and it is why the proposed
 adherence is `PARTIAL` and not `ADHERED`. The counter-argument is also on record
 (`curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md:296-302`: every
-subgroup step introduces new physics through breaking). This artifact decides
-what the sentence **means**; it does not upgrade what the sentence **buys**.
+subgroup step introduces new physics through breaking). This artifact supplies
+the best-supported reconstruction of what the sentence **means**; it does not
+upgrade what the sentence **buys**.
 
 **H5 — "Your exhaustiveness claim in §1.2 rests on a representation-theory fact
 you asserted."** Fair, and it is why the `C_2` irrep list is **computed** from the

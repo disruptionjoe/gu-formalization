@@ -17,7 +17,7 @@ priority_change: none
 steering_effect: unchanged
 title: "LA-8: RA-E2's shape constraint is refuted at the FORM leg, which is the settled leg, so MD-1's open SOLDERED-AD fork is NOT load-bearing for this row -- the vertical form leg's Lorentz-trivial component is 1, not 10, so CB-A:E2's 10 (x) 45 sector is 45-dimensional (INERT-AD) or exactly 1-dimensional (SOLDERED-AD, dim Inv_so(3,1)(V (x) Lambda^2 V) = 1), and hosts 0 + 0 colour-singlet weak doublets on BOTH horns instead of the printed 6 + 6. The named adapter is built, not missing: RA-E2 is DIFFERS/STRUCTURAL_DIFFERENCE, not NEEDS/MISSING_CONSTRUCTION. The packet's live res_s^V route is FORCED through the same 1-dimensional trace line, so owning it does not restore the count. RA-E4 prints the same refuted sector (12 of its 18 doublets) but its DIFFERS survives; RA-E3's revival trigger is unfireable through observation; RA-E1 inherits the shape premise underneath its own rank-196/rank-0 compatibility failure."
 grade: "EXACT throughout: fractions.Fraction / integer linear algebra over Q, exact sympy symbolic differentiation against a general metric section, and one nullity bounded by INTEGER arithmetic mod two primes (rank_p <= rank_Q, so nullity_Q <= nullity_p) with a matching hand-constructed exact Fraction witness for the lower bound. No float is load-bearing anywhere; assert_no_float sweeps the result dict. 78/78, exit 0, via tests/channel-swings/joe_directed_ledger_rae2_form_leg_typing.py. Certificate splits as 12 [L] ledger reproductions, 12 [S] exact source substrings, 7 [A] source-native symbolic results, 8 [B] Lorentz-typing results, 13 [C] comparator branching results, 10 [D] soldered-horn results, 16 [E] E-block incidence results, of which 10 are controls that MUST fire. The harness independently reproduces three numbers CB-A printed by hand -- E1's 1+1, E3's 0, E2's 6+6 -- before it corrects the fourth. NOT: a source action, a vacuum, a Higgs mechanism verdict, a decision of SOLDERED-AD, a statement about the spinor sector, a statement about composites, a ledger edit, or any claim-status movement."
-disposition: FORM_LEG_REFUTES_THE_SHAPE_CONSTRAINT__TRIVIAL_COMPONENT_1_NOT_10__ZERO_DOUBLETS_ON_BOTH_FORK_HORNS__SOLDERED_AD_NOT_LOAD_BEARING_FOR_THIS_ROW__ADAPTER_BUILT_NOT_MISSING__EQUIVARIANT_PROJECTOR_FORCED_THROUGH_THE_TRACE_LINE__RA_E2_NEVER_MIGRATED_IN_258_VERSIONS_AND_IS_IN_NO_WORK_QUEUE__ROUTING_METHOD_ASSERTS_THE_REFUTED_STEP_AT_ITS_OWN_LINE_62
+disposition: FORM_LEG_REFUTES_THE_SHAPE_CONSTRAINT__TRIVIAL_COMPONENT_1_NOT_10__ZERO_DOUBLETS_ON_BOTH_FORK_HORNS__SOLDERED_AD_NOT_LOAD_BEARING_FOR_THIS_ROW__ADAPTER_BUILT_NOT_MISSING__EQUIVARIANT_PROJECTOR_FORCED_THROUGH_THE_TRACE_LINE__RA_E2_NEVER_MIGRATED_IN_258_VERSIONS_AND_IS_IN_NO_WORK_QUEUE__ROUTING_METHOD_SEAM_WITHDRAWN_LATER_2026_08_15
 rows_assessed:
   retyping_proposed:
     - RA-E2
@@ -65,6 +65,14 @@ scripts:
 > source-native object. Report their content as `CONVENTIONAL_ROUTE_EXCLUDED`.
 
 # LA-8 — RA-E2 fails at the settled leg, so the open fork does not protect it
+
+> **CORRECTION IV-20260815 — final-session baseline.** LA-8 correctly detected that the
+> routing method still carried the refuted vertical-scalar sentence when this
+> artifact was written. Commit `920a6ad9` later withdrew that clause in the
+> same session and left an explicit correction marker in the method. The
+> calculation and the proposed `RA-E2` retyping are unchanged; only the
+> downstream seam is now closed. The probe's `S11` check has been updated from
+> “sentence present” to “withdrawal marker present and sentence absent.”
 
 ## Result first
 

@@ -99,8 +99,8 @@ CONTROLS = {
         "B7 asserts ker Gamma^14D is carried into ker Gamma^4D at K = 0",
     "quote_drift":
         "C1 asserts a sentence that is NOT in SS18.3",
-    "canon_already_repaired":
-        "C4 asserts canon carries the correction (it must not -- diff is proposed)",
+    "canon_correction_missing":
+        "C4 asserts canon is missing the independently verified correction",
     "repair_reverted":
         "C5 asserts a repaired dependent still carries its defective text",
 }
@@ -840,18 +840,16 @@ class PartC_RepairState(unittest.TestCase):
         self.assertIn("oq3_v3_correction:", head)
         self.assertNotIn("oq3_v3: RESOLVED\n", read(VZ_SCHUR).split("---", 2)[1])
 
-    def test_c4_CANON_IS_UNTOUCHED_diff_is_proposed_not_applied(self):
-        """Repository rule: new findings do not promote themselves to canon.
-        The canon site must still carry its ORIGINAL wording -- this pass is
-        the first verification, not the second."""
+    def test_c4_CANON_CARRIES_INDEPENDENTLY_VERIFIED_NARROW_CORRECTION(self):
+        """A later independent review approved and integrated the narrow diff."""
         text = norm(read(CANON_MAP))
         self.assertIn("OQ3-V2 and OQ3-V3 are RESOLVED (exact, gauge-independent)", text)
-        self.assertIn(norm(CANON_ANCHOR), text)
-        if MUT == "canon_already_repaired":
-            self.assertIn("CORRECTION VZ4-01", text)
+        if MUT == "canon_correction_missing":
+            self.assertIn(norm(CANON_ANCHOR), text)
         else:
-            self.assertNotIn("CORRECTION VZ4-01", text,
-                             "canon was edited: this pass must only PROPOSE the diff")
+            self.assertIn("VZ4-01", text)
+            self.assertIn("REDUCTION-FIDELITY", text)
+            self.assertNotIn(norm(CANON_ANCHOR), text)
 
     def test_c5_every_non_canon_repair_is_applied(self):
         for rel, (marker, _kind) in REPAIRED.items():

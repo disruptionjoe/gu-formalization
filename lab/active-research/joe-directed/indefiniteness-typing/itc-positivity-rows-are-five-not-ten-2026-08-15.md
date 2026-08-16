@@ -66,15 +66,26 @@ Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`
 
 **Why that classification.** The census in §2 is purely internal — it reads the
 repository's own ledger and counts tokens, and nothing in it borders a
-comparator. But the *adjudication* in §4 turns on whether "a positive physical
-space" is a GU demand or an imported one, and the answer comes from
+comparator. But the *adjudication* in §4 turns on how the ledger sourced and
+typed “a positive physical space,” and the provenance comes from
 `explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md`, whose
 `SM-8` row is explicitly typed `[N|S]` — *"where the row is precisely a
 comparison between the two"* (`:191-193`) — with the `[S]` side reading
 *"**Physics writes:** `-(1/2 xi)(partial . A)^2 + c-bar partial^mu D_mu c`"*.
-Positivity of the physical state space is the imported side of that comparison.
-An artifact whose central move is "this demand came from the comparator, not the
-source" sits on the boundary by construction, and declares it.
+The ledger imported the wording through that comparison. The physical demand
+itself is not thereby optional or merely conventional: a predictive quantum
+theory still owes an adequate positive physical state space or equivalent
+probability structure. This artifact sits on the boundary because the bridge
+from that demand to GU's carrier is unconstructed.
+
+> [!CAUTION]
+> **CORRECTION IV-20260815 — source polarity.** The original version relied on
+> BD-C's claim that the source disavows positivity on the physical quotient.
+> That claim is withdrawn. The source affirms ambient Killing-form
+> indefiniteness and says its physical handling is unknown and experimentally
+> shielded; it neither supplies nor rejects a positive observed-sector
+> quotient. IT-C's census and proposed `NEEDS` retyping survive, but the grounds
+> are **source-open/unsupplied**, not “source rejects the demand.”
 
 ---
 
@@ -86,7 +97,7 @@ source" sits on the boundary by construction, and declares it.
 |---|---|---|
 | R1 | `lab/process/conditional-physics-ledger-v0.258.json`, sha256 `540b50e3…a725047`, 84 row records, 82 canonical targets | the base. Latest version present on disk; `v0.259+` does not exist |
 | R2 | `bd-d-…-2026-08-15.md:56` `rows_touched_structurally` and `:746-762` | BD-D's class-H list and its rule, replayed rather than quoted (§2.3) |
-| R3 | `bd-c-…-2026-08-15.md:655-672` §4.4 | the disavowal, with its own explicit fence: *"It may still be the right physics demand — this artifact takes no position on that"* |
+| R3 | `bd-c-…-2026-08-15.md` §4.4, corrected by `CORRECTION IV-20260815` | ambient Killing-form indefiniteness is source-confirmed; observed-sector positivity is source-open/unsupplied |
 | R4 | `papers/drafts/Transcript into the impossible.md:155` (copy A1, the complete one) | the `[00:45:00]` sentence, read directly, not via the edited `lab/literature/` derivative |
 | R5 | `papers/drafts/Transcript into the impossible.md:107,119,125,131,158` | the coordinator's five additional loci, each verified verbatim against A1 (§3.2) |
 | R6 | `lab/sources/source-claim-register.yaml` `SC-META-53`, `SC-SIG-52`, `SC-GEN-54` | register polarity, so the typing rests on `polarity:` fields and not on my reading of a transcript |
@@ -481,16 +492,17 @@ the mirror image: the object is neither supplied nor known to be constructible.
 
 **Four grounds, in order of independence from this artifact's own reasoning.**
 
-**G1 — the criterion is imported, not native.** `CB-B:SM-8` is typed `[N|S]`,
+**G1 — the ledger wording is comparator-provenanced, not source-derived.** `CB-B:SM-8` is typed `[N|S]`,
 and the legend at `cb-b-lagrangian-terms:191-193` reads *"`[S]` where a
 standard-field object is imported for comparison, and `[N|S]` where the row is
 precisely a comparison between the two."* `SM-8`'s `[S]` side is *"**Physics
 writes:** `-(1/2 xi)(partial . A)^2 + c-bar partial^mu D_mu c`, with `xi` a free
-gauge parameter."* Positivity of the BRST-reduced state space is a property of
-that imported standard, and GU is not on record demanding it. This is `BD-C`
-§4.4's finding, arrived at by a different route: BD-C got there from the
-`[00:45:00]` disavowal, this gets there from the comparison-basis provenance
-code. Two independent routes, same answer.
+gauge parameter."* Positivity of the BRST-reduced state space enters this row
+from that imported standard. That provenance does **not** make physical
+positivity optional; it means GU has not supplied or derived the same owner,
+quotient and condition. Corrected BD-C independently places the
+observed-sector question at source-open/unsupplied rather than
+source-disavowed.
 
 **G2 — the repository's own statement of the object already concedes the
 carrier is indefinite.** `cb-b-lagrangian-terms:1095-1103`:
@@ -521,8 +533,9 @@ side, independently established: `Krein` = 0, `ghost` = 0, `indefiniteness` = 0,
 `negative norm` = 0 across the verbatim primary corpus. The vocabulary of a
 solution is entirely absent from the source.
 
-**The named condition this re-typing carries.** G1–G4 establish that the demand
-is imported, under-specified, blocked and unsupported by the source. They do
+**The named condition this re-typing carries.** G1–G4 establish that the row's
+wording is comparator-provenanced, under-specified, blocked and unsupported by
+a source mechanism. They do
 **not** establish that the physical-space pairing descends from the fibre trace
 form — and without that, `SC-META-53`'s Killing-form problem and `LT-SM8`'s
 state-space problem are two problems, not one. That link is supplied by
@@ -957,11 +970,11 @@ A theory whose author declares its central consistency question unsolved is not
 thereby consistent. Nothing in this artifact is evidence for GU.
 
 The temptation `IT-C` creates is precise and I want it named before anyone else
-names it. Having established that `LT-SM8`'s positivity demand is an imported
-criterion the source disavows, that the source declares the underlying
-indefiniteness problem open, and that `MISSING_CONSTRUCTION` therefore
-over-grants — the available bad inference is: *so the row was never really GU's
-problem, and the ledger was being unfair.* That inference is wrong twice over.
+names it. Having established that `LT-SM8`'s wording is comparator-provenanced,
+that the source leaves the underlying physical handling of indefiniteness open,
+and that `MISSING_CONSTRUCTION` therefore over-grants — the available bad
+inference is: *so the row was never really GU's problem, and the ledger was
+being unfair.* That inference is wrong twice over.
 
 **Wrong once, on the physics.** Positivity of the physical state space is not a
 convention the standard model happens to prefer. It is what makes probabilities
@@ -987,9 +1000,10 @@ The Krein keep-and-grade posture is a **repository proposal** for that open
 problem. `Krein` occurs zero times in the verbatim primary corpus. `canon/`
 grades its dynamical half open and blocked, and this artifact attributes it to
 no one but the repository. The correct summary of the day's work is not *"the
-positivity demand was unfair"* but *"the positivity demand is real, imported,
-under-specified in the ledger, blocked in the repository, and unaddressed by the
-source."* Four bad facts, and the delta records all four.
+positivity demand was unfair"* but *"the positivity demand is real,
+comparator-provenanced in the ledger, under-specified, blocked in the
+repository, and unaddressed by a source mechanism."* Four bad facts, and the
+delta records all four.
 
 ---
 
@@ -1037,13 +1051,11 @@ operator that has not been constructed. That is a third bad fact and it is worse
 than the two `D1` records.
 
 **P6 — adversarial reading, self-applied.** The sentence in this file most
-likely to be quoted out of context is §4.1's *"the criterion is imported, not
-native."* Read alone it sounds like *GU is not obliged to be unitary.* Read in
-place it means *the ledger sourced this demand from the comparison basis, so
-`MISSING_CONSTRUCTION`'s grant was never a GU commitment.* §7 exists to make the
-second reading the only available one, and if a downstream artifact quotes §4.1
-without §7 the frame will have regressed at exactly the boundary this repository
-already knows it regresses at.
+likely to be quoted out of context is §4.1's statement that the ledger wording
+is comparator-provenanced. Read carelessly it sounds like *GU is not obliged to
+be unitary.* Read in place it means only that the ledger did not derive the
+owner, quotient or condition from GU. Section 7 states explicitly that the
+physical demand remains mandatory.
 
 ---
 

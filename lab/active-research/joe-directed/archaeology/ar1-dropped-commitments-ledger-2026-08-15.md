@@ -21,8 +21,8 @@ diffs_against:
   - lab/active-research/joe-directed/steward-2026-08-14-research-maintenance-pass.md (5 routed findings)
   - lab/process/improvement-register-2026-08-03.md (M-/P- rows)
   - lab/roadmap/objection-triage-register.md (viability layer, not execution layer)
-title: "AR-1: the dropped-commitments ledger — 51 candidates typed, 35 LIVE,
-  20 of them runnable checks, a 40% self-measured mistype rate, and the
+title: "AR-1: the dropped-commitments ledger — 51 candidates typed, 29 LIVE,
+  14 of them runnable checks after final-session closure, a 40% self-measured mistype rate, and the
   mechanical signature a gate could sense"
 ---
 
@@ -36,6 +36,21 @@ title: "AR-1: the dropped-commitments ledger — 51 candidates typed, 35 LIVE,
 > pointers before reusing this result.
 
 Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`
+
+> **CORRECTION IV-20260815 — final-session baseline.** AR-1 was committed at
+> `805713e8` (14:04). Its S1/S2 census is now explicitly reproduced from that
+> measurement commit, so unrelated later work cannot rewrite the historical
+> sample. That committed cut reproduces `30` PATH-DRIFT references, not the
+> original live-checkout `31`; the extra basename was concurrent/uncommitted
+> state and is not part of the reproducible snapshot. Six of its twenty runnable rows were then closed by later commits in
+> the same session: rows `1`, `2`, `3`, `4`, `7`, and `16` (c3c genericity,
+> source-copy restoration, H10 parse/remediation, the Hermiticity guard, VZ
+> §18.3, and the two assertion-less probes). Current typing is therefore `29
+> LIVE` (`14 LIVE-CHECK + 7 LIVE-GAP + 8 LIVE-HYGIENE`) and `11
+> DONE_ELSEWHERE`. The twenty-row table below is retained as the 14:04
+> historical worklist; those six rows are not current work. Recording
+> confirmation for the restored transcript sentence and six stale H10 copies
+> remain successor obligations, not reasons to keep the repaired rows open.
 
 **Declared doc type, and why.** This file declares `doc_type:
 stewardship_record`, which
@@ -252,11 +267,11 @@ silently desynchronising this ledger.
 
 | type | count |
 |---|---:|
-| **LIVE** | **35** |
-| — of which `LIVE-CHECK` (runnable, decision rule stated) | 20 |
+| **LIVE** | **29** |
+| — of which `LIVE-CHECK` (runnable, decision rule stated) | 14 |
 | — of which `LIVE-GAP` (open question / missing construction, no runnable check yet) | 7 |
 | — of which `LIVE-HYGIENE` (naming, bookkeeping, tooling) | 8 |
-| `DONE_ELSEWHERE` | 5 |
+| `DONE_ELSEWHERE` | 11 |
 | `SUPERSEDED` | 3 |
 | `REFUTED` (premise dead) | 1 |
 | `OUT_OF_SCOPE` (repository boundary) | 1 |
@@ -379,7 +394,12 @@ carried once, as worklist row 5.
 
 ---
 
-## 5. THE LIVE WORKLIST — 20 runnable checks, ranked
+## 5. THE HISTORICAL 14:04 WORKLIST — 20 runnable checks, ranked
+
+Rows `1`, `2`, `3`, `4`, `7`, and `16` were closed later in the same session;
+see correction `IV-20260815` above. The remaining fourteen rows are the current
+runnable worklist. The original table is preserved to retain correction
+history and the evidence by which the later closures were recognized.
 
 Ranking is `decides × cheapness × downstream-blocked`. Difficulty:
 **XS** < 1 h · **S** = hours · **M** = days · **L** = week+.
@@ -647,8 +667,9 @@ anything.
 ## 9. CERTIFICATE
 
 - Probe: `tests/channel-swings/joe_directed_ar1_dropped_commitments_ledger.py`
-- **54 checks, exit 0.**
-- `--selftest`: **8 planted false facts, all 8 caught, exit 1 returned.** The
+- **59 checks, exit 0.**
+- `--selftest`: first requires the unmutated baseline to pass, then confirms
+  **8 planted false facts, all 8 caught, exit 0 returned.** The
   plants are a fabricated artifact citing a non-existent probe (moves S1 and
   S2), plus seven inverted expectations — that the H10 probe compiles, that
   canon disambiguates Faddeev-Popov, that the register has no disavowed rows,

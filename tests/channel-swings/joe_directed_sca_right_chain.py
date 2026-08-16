@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""SC-A "the right chain": decide what Weinstein's UCSD [00:45:00] chain can mean.
+"""SC-A "the right chain": test what Weinstein's UCSD [00:45:00] chain can consistently mean.
 
 The sentence under test, restored to `lab/literature/weinstein-ucsd-2025-04-
 transcript.md` on 2026-08-15 from `papers/drafts/Transcript into the
@@ -18,7 +18,7 @@ READINGS UNDER TEST
   R3  spacetime factor     Spin(3,2) is the source's spacetime group
   R4  AdS_4 / conformal    Spin(3,2) ~ Sp(4,R) enters as a conformal group
   R5  adjoint / Killing    the (6,4) fibre IS (so(3,2), B_Killing)
-  R6  SU(3,2) reading      Spin(6,4) > SU(3,2) > S(U(3)xU(2)), by reduction
+  R6  SU(3,2) reading      fibrewise inclusion pattern; global reduction open
 
 METHOD NOTE.  R1/R2 are settled over the COMPLEXIFICATION.  A real subalgebra
 h_0 of g_0 has centraliser z_0 cut out by real linear equations, so
@@ -803,7 +803,7 @@ def block6_philology():
           "It's spin six, which is s u four, cross spin four, six plus four, ten." in drafts)
     check("P.11 the named operation is a maximal-compact reduction along the fibres",
           "reduce maximal compact subgroups along the fibers" in drafts)
-    check("P.12 the sentence AFTER the chain supplies the complex structure that step 1 needs",
+    check("P.12 the sentence AFTER the chain names a complex structure relevant to step 1",
           "this has a complex structure" in drafts)
     check("P.13 Kaluza-Klein is disavowed, so Y^14 is endogenous",
           "births its own 14 dimensional ambient space" in drafts)
@@ -831,21 +831,24 @@ def run() -> int:
     RESULT["block6_philology"] = block6_philology()
 
     log("\n" + "=" * 78)
-    log("THE DECISION")
+    log("THE BEST-SUPPORTED RECONSTRUCTION")
     log("=" * 78)
     log("  R1 literal nesting Spin(6,4) > Spin(3,2) > G_SM ......... KILLED  (12 > 10)")
     log("  R2 commuting factors Spin(3,2) x G_SM in Spin(6,4) ..... KILLED  (12 > 10 max cent.)")
     log("  R3 Spin(3,2) as the spacetime factor ................... KILLED  (slot is Spin(1,3), 6)")
     log("  R4 Spin(3,2) ~ Sp(4,R) ~ AdS_4 isometry ................ TRUE identity, NOT in evidence")
     log("  R5 the (6,4) fibre as (so(3,2), Killing) ............... SURVIVES as structure")
-    log("  R6 Spin(6,4) > SU(3,2) > S(U(3)xU(2)), by reduction .... SURVIVES -- the decided reading")
+    log("  R6 Spin(6,4) > SU(3,2) > S(U(3)xU(2)), by reduction .... BEST-SUPPORTED RECONSTRUCTION")
     RESULT["decision"] = {
         "R1": "KILLED", "R2": "KILLED", "R3": "KILLED",
         "R4": "IDENTITY_CORRECT_NOT_IN_EVIDENCE",
-        "R5": "SURVIVES_AS_STRUCTURE", "R6": "DECIDED",
+        "R5": "SURVIVES_AS_STRUCTURE", "R6": "BEST_SUPPORTED_RECONSTRUCTION",
         "chain": "Spin(6,4) -> SU(3,2) -> S(U(3)xU(2)) = (SU(3)xSU(2)xU(1))/Z_6",
         "step_1_kind": "complex-structure reduction of the rank-10 vertical bundle",
+        "step_1_global_status": "UNBUILT_REQUIRES_COMPLEX_AND_DETERMINANT_REDUCTION_DATA",
         "step_2_kind": "maximal-compact (Cartan) reduction",
+        "step_2_global_status": "REDUCTION_EXTERNAL",
+        "source_status": "TRANSCRIPT_UNCERTAIN_AUDIO_UNCHECKED_PDF_EXTRACTION_MEDIATED",
         "not_a": "GUT symmetry-breaking chain; the source denies grand unification outright",
     }
 

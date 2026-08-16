@@ -46,12 +46,14 @@ TWO INDEPENDENT INSTRUMENTS, because "carrier" is doing two jobs:
      complexification every real form shares) and it is signature blind because
      Cl(p,q) (x) C depends only on p+q.
 
-THE OBJECT DECIDED.  The 2021 draft p.51 prints FOUR corners,
+THE TOTAL DECLARATION DECIDED.  The 2021 draft p.51 prints FOUR corners,
     nu_+ in Omega^0(S_+),  nu_- in Omega^0(S_-),
     zeta_+ in Omega^1(S_+), zeta_- in Omega^1(S_-),
 and the draft's own eq (5.2) p.31 / eq (9.16) p.46 declare S UNSUBSCRIPTED.
-Section 3 computes the centre class of all four corners and of every pairing of
-them, and reports which pairings are class-homogeneous.
+This does not erase the distinct source claim that one effective generation is
+a Weyl-spinor pullback. Section 3 computes the centre class of all four ambient
+corners and of every pairing of them, and reports which pairings are
+class-homogeneous.
 
 EXACTNESS DISCIPLINE
   Every Clifford step is integer arithmetic in Z[i], carried as a pair of int64

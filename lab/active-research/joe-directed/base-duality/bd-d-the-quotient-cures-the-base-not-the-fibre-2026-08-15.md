@@ -23,7 +23,7 @@ target_claim: "BD-D-2026-08-15-WRONG-STAGE -- the brief's constraint-solver
 target_claim_verdict: "SPLIT VERDICT, AND THE SPLIT IS THE RESULT -- the
   wrong-stage hypothesis is CONFIRMED for the BASE factor and REFUTED for the
   FIBRE factor, exactly. Confirmed: BD-A's ambient negative part `3 n_kappa +
-  p_kappa` is a wrong-stage artifact; on the actual gauge-theoretic physical
+  p_kappa` is a wrong-stage artifact; on the free linearised Yang--Mills symbol
   quotient the negative part is `2 n_kappa`, so the whole `p_kappa` term -- the
   entire contribution of the Lorentzian base -- is removed, and what the
   quotient removes is a NEUTRAL `(91,91)` pair. Refuted: `2 n_kappa` vanishes
@@ -33,40 +33,36 @@ target_claim_verdict: "SPLIT VERDICT, AND THE SPLIT IS THE RESULT -- the
   subquotient of `Lambda^1 (x) ad` is `U (x) ad`, and a tensor product is
   definite iff both factors are, NO equivariant reduction whatsoever can remove
   an indefinite fibre form. BD-A H5's conceded restriction is therefore
-  DISCHARGED in the direction that strengthens BD-A. The `LT-GR6b` positivity
-  subclause is re-typed a second time: it is not a base condition, not a
-  globality condition, and not a quotient condition -- it is one condition on
-  one factor, `n_kappa = 0` at a named subscript, which is the already-priced
-  `REDUCTION_EXTERNAL` Cartan involution and nothing else."
+  narrowed for the bare module. The `LT-GR6b` positivity subclause is priced
+  only conditionally: for this comparator quotient it is one condition on one
+  factor, `n_kappa = 0` at a named subscript. GU has no derived Gauss law,
+  interacting BRST/BV complex or physical quotient to which that condition can
+  yet be transported."
 canon_verdict_change: none
 priority_change: none
 steering_effect: unchanged
 canonical_effect: pending_integration
-title: "BD-D: the physical quotient cures the BASE and cannot touch the FIBRE.
-  The gauge-theoretic physical quotient of `Lambda^1 (x) ad P` on `X^4` is the
+title: "BD-D: the free Yang--Mills symbol quotient cures the BASE and cannot touch the FIBRE.
+  The comparator symbol cohomology of `Lambda^1 (x) ad P` on `X^4` is the
   null screen `(k^perp/<k>) (x) ad`, dimension `2 dim g` = 182, and its
   descended pairing has exact inertia `(98,84)` at the source trace form and
   `(182,0)` at a compact one -- so the reduction removes the base half of BD-A's
   obstruction entirely and leaves the fibre half untouched. A NO-GO follows:
   every gauge-equivariant subquotient is `U (x) ad`, a tensor product is
-  definite iff both factors are, hence no equivariant reduction can rescue
-  positivity from an indefinite fibre form. Positivity is required NOWHERE; the
-  operative mechanism is Krein grading, ALREADY BANKED, and on the quotient its
-  price falls from two Cartan involutions to one."
+  definite iff both factors are, hence no equivariant subquotient of this bare
+  module can rescue definiteness from an indefinite fibre form. The calculation
+  does not decide positivity of GU's unconstructed physical quotient; it shows
+  that a Cartan involution gives a positive Krein majorant on this comparator
+  quotient and that its price there falls from two involutions to one."
 rows_touched_structurally: [RA-A4, RA-A5, RA-B6, RA-D4, RA-E4, RA-E6, RA-G1, RA-G4, LT-SM4, LT-SM6]
 rows_advanced: 0
 rows_proposed: []
-free_object_delta: -1
-free_object_delta_note: "One un-owned object is REMOVED. BD-A section 5.3
-  priced positivity at TWO Cartan involutions, one per factor, of which the
-  base one was free only GIVEN the observation section. On the physical
-  quotient the base involution is not needed at all: the screen form is
-  definite canonically, fixed by the characteristic variety of the equation
-  rather than by a chosen timelike line. What remains un-owned is exactly one
-  object, the fibre Cartan involution, already priced
-  `AUDIT-noncompact-compact-reduction-EXTERNAL`. No new object is added; the
-  Yang-Mills constraint used to CONSTRUCT the quotient is a conventional
-  comparator import and is proved non-load-bearing for the verdict in section 6."
+free_object_delta: 0
+free_object_delta_note: "No GU-owned object is removed. In the imported free
+  Yang--Mills symbol complex, the null screen makes a separate base Cartan
+  involution unnecessary and leaves one fibre involution. That is a conditional
+  comparator price, not a construction of GU's Gauss law, interacting BRST/BV
+  complex, physical quotient or maximal-compact selector."
 grade: "EXACT integer / fractions.Fraction arithmetic. so(p,q) matrix bases
   built in-file and Jacobi-verified; the Cartan involution built as `-X^T` and
   verified entrywise, for closure, for `theta^2 = 1` and for the automorphism
@@ -96,7 +92,7 @@ grade: "EXACT integer / fractions.Fraction arithmetic. so(p,q) matrix bases
   claim that GU's action is owned, a claim that GU has a Gauss law, a claim that
   the interacting BRST charge exists, or any domain, boundedness, Fredholm or
   Hilbert-space statement."
-disposition: PHYSICAL_QUOTIENT_CONSTRUCTED_AND_ITS_DESCENDED_INERTIA_COMPUTED_EXACTLY__NULL_SCREEN_TIMES_ad_DIM_2_dim_g_EQUALS_182__DESCENDED_INERTIA_98_84_AT_THE_SOURCE_TRACE_FORM_AND_182_0_AT_A_COMPACT_ONE__WRONG_STAGE_HYPOTHESIS_CONFIRMED_IN_THE_BASE_AND_REFUTED_IN_THE_FIBRE__THE_QUOTIENT_REMOVES_A_NEUTRAL_91_91_PAIR__NO_EQUIVARIANT_SUBQUOTIENT_CAN_CURE_AN_INDEFINITE_FIBRE_FORM__BD_A_H5_RESTRICTION_DISCHARGED_TOWARD_BD_A__POSITIVITY_REQUIRED_NOWHERE__KREIN_IS_THE_MECHANISM_AND_IS_ALREADY_BANKED__KREIN_PRICE_FALLS_FROM_TWO_INVOLUTIONS_TO_ONE__BASE_CURE_IS_LORENTZIAN_SPECIFIC_AND_FAILS_ON_A_7_7_BASE__PC3_EXECUTED_FOR_ONE_SECTOR__ZERO_ROWS_ADVANCE
+disposition: FREE_LINEARIZED_YANG_MILLS_SYMBOL_QUOTIENT_CONSTRUCTED__NOT_GU_PHYSICAL_QUOTIENT__NULL_SCREEN_TIMES_ad_DIM_2_dim_g_EQUALS_182__DESCENDED_INERTIA_98_84_AT_THE_SOURCE_TRACE_FORM_AND_182_0_AT_A_COMPACT_ONE__COMPARATOR_REMOVES_A_NEUTRAL_91_91_PAIR__EQUIVARIANT_SUBQUOTIENT_THEOREM_PRESERVES_AN_INDEFINITE_FIBRE_FORM_ON_THE_BARE_MODULE__NO_CLAIM_FOR_ENLARGED_GHOST_BV_COMPLEXES_OR_INTERACTING_DYNAMICS__OBSERVED_SECTOR_POSITIVITY_SOURCE_OPEN__ONE_INVOLUTION_KREIN_MAJORANT_ON_THIS_COMPARATOR__ZERO_GU_OBJECTS_REMOVED__ZERO_ROWS_ADVANCE
 depends_on:
   - lab/active-research/joe-directed/base-duality/bd-a-the-base-duality-is-the-observation-and-positivity-is-the-obstruction-2026-08-15.md
   - lab/active-research/joe-directed/base-duality/bd-b-obstruction-is-fibre-independent-and-evades-only-at-translation-depth-one-2026-08-15.md
@@ -130,11 +126,23 @@ scripts:
 
 Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`
 
+> [!CAUTION]
+> **CORRECTION IV-20260815 — source semantics and quotient scope.** The original
+> version repeatedly shortened the object below to “the physical quotient” and
+> treated BD-C as proving that the source disavows physical positivity. Both
+> readings are withdrawn. The 182-dimensional object is the ghost-number-zero
+> **symbol cohomology of an imported free, linearised Yang--Mills complex**. GU
+> has no derived Gauss law, interacting BRST/BV complex, analytic domain or
+> physical quotient here. Separately, the source affirms an indefinite ambient
+> Killing form but leaves observed-sector positivity open/unsupplied. The exact
+> inertias and the bare-module equivariant-subquotient theorem survive with
+> those scopes.
+
 **Why that classification, and why it is not `SOURCE_NATIVE_ROUTE` as BD-A and
 BD-B declared.** The *module* is source-native: `Λ¹ ⊗ ad P` over the observed
 `X⁴`, the source's `𝒢 = Γ(Ad P)`, the source's `𝒲 = 𝒢 ⋉ Ω¹(ad P)`, the
 chimeric frame algebra of the source's own signature chain. But to *construct*
-a physical quotient this artifact imports something the source does not own: a
+the comparator quotient this artifact imports something the source does not own: a
 **Yang–Mills constraint symbol**, from which the Gauss law and the
 characteristic variety follow. GU's action is the open object; a Gauss law is
 not a source datum, and no artifact in this repository has derived one. That
@@ -143,15 +151,16 @@ declares it.
 
 The routing method's bridge burden item 4 — *"the quotient, boundary and
 analytic domain if physical modes are claimed"* — is exactly what is at stake,
-and only part of it is discharged here. **What makes the result survive the
-boundary anyway is §6:** the verdict is proved *independent* of which
-equivariant quotient is taken, so the comparator import fixes the *dimension*
-(182) and the *base inertia* (2,0) but does **not** fix the *verdict*. Every
-sentence below marks which side it binds.
+and it is **not discharged for GU**. Section 6 survives as a theorem about
+equivariant subquotients of the bare module: the comparator import fixes the
+dimension `(182)` and base inertia `(2,0)`, while the theorem fixes what such a
+bare-module subquotient can do to an indefinite fibre form. It does not cover
+an enlarged ghost/antifield complex, an interacting differential, a non-split
+derived quotient or an analytic physical domain.
 
 ---
 
-# BD-D — the quotient cures the base and cannot touch the fibre
+# BD-D — the free Yang--Mills symbol quotient cures the base and cannot touch the fibre
 
 ## Verdict first, unsoftened
 
@@ -162,9 +171,10 @@ wrong stage, and that the reduced object on the constraint null space may be
 definite where the ambient is not. I computed the reduced object. Three
 results, in decreasing order of how much they move.
 
-**1. The base half of BD-A's obstruction is a wrong-stage artifact, exactly.**
-BD-A's ambient negative part is `3 n_κ + p_κ`. On the actual gauge-theoretic
-physical quotient it is `2 n_κ`. The entire `p_κ` term — the whole contribution
+**1. The base half of BD-A's obstruction is a wrong-stage artifact in the free
+Yang--Mills symbol comparator, exactly.** BD-A's ambient negative part is
+`3 n_κ + p_κ`. On `P_k^{YM,sym}`, the symbol cohomology defined in §2, it is
+`2 n_κ`. The entire `p_κ` term — the whole contribution
 of the Lorentzian base signature, the thing that made BD-A's theorem hold *for
 any nonzero fibre form* — is **gone**. And what the quotient removes is not
 some arbitrary block: it is a **neutral `(91, 91)` pair**, the same neutral pair
@@ -172,7 +182,8 @@ for every fibre form, because the removed base directions span a hyperbolic
 plane. That is the Gupta–Bleuler quartet mechanism, and it is the exact reason
 the hypothesis was worth testing.
 
-**2. The fibre half is untouched, and no quotient can touch it.** `2 n_κ`
+**2. The fibre half is untouched, and no bare-module equivariant subquotient can
+touch it.** `2 n_κ`
 vanishes iff `n_κ = 0`. So BD-A's headline — equivariance at the source group
 and positivity are jointly unsatisfiable — **survives the reduction verbatim**,
 with the arithmetic changed and the verdict unchanged. And it survives for a
@@ -180,16 +191,19 @@ structural reason BD-A did not have: because `ad` is absolutely irreducible,
 every `Γ(Ad P)`-equivariant subquotient of `Λ¹ ⊗ ad P` is `U ⊗ ad` for a
 subquotient `U ⊆ Λ¹`, so the descended form is always `(N|_U) ⊗ κ`, and a
 tensor product of nonzero symmetric forms is definite **iff both factors are**.
-**No equivariant reduction whatsoever can remove an indefinite fibre form.**
-The constraint-solver escape is closed, not narrowed.
+**No equivariant subquotient of the bare module can remove an indefinite fibre
+form.** This closes the escape within that category. It does not classify an
+enlarged ghost/antifield complex, a non-split derived cohomology, or interacting
+dynamics.
 
-**3. Positivity is required nowhere, and the mechanism is Krein — already
-banked.** On the physical quotient the Krein condition is satisfied with a
-certificate: `J = 1_screen ⊗ θ`, `J² = 1`, `−B(·, J·)` of inertia `(182, 0)`.
+**3. This comparator admits a one-involution Krein majorant; GU's physical
+positivity remains open.** On `P_k^{YM,sym}` the Krein condition is satisfied
+with a certificate: `J = 1_screen ⊗ θ`, `J² = 1`, `−B(·, J·)` of inertia `(182, 0)`.
 That is *one* Cartan involution. On the ambient the same certificate needs
 *two*, `(364, 0)` at `P_base ⊗ θ`, and the fibre involution alone leaves the
-ambient indefinite. **So the quotient's real contribution is not positivity —
-it is that it halves the Krein price.** The mechanism itself is
+ambient indefinite. **So the comparator quotient's contribution is not a GU
+positivity result — it is that it halves the involution count in this model.**
+The mechanism itself is
 `GEOMETER-VS-PHYSICS-OBJECTS.md`'s settled KEEP-AND-GRADE row and BD-A's own
 Lens Q2, and **no novelty is claimed for it**.
 
@@ -199,8 +213,8 @@ Lens Q2, and **no novelty is claimed for it**.
 | ... **global** | line field, `chi(X^4) = 0` for closed `X⁴` | unchanged — still needed, to have a Lorentzian base at all |
 | composed with an `Ad`-invariant fibre form | SUPPLIED (trace form) | unchanged |
 | into a `Γ(Ad P)`-equivariant pairing on `Λ¹ ⊗ ad P` | CONSTRUCTED, inertia `(189,175)` | unchanged |
-| ... **positive on the physical quotient** | BLOCKED; needs **two** Cartan involutions | **BLOCKED, and the block is now one condition on one factor: `n_κ = 0`.** The base involution is not needed; the quotient supplies it canonically. `REDUCTION_EXTERNAL`, once |
-| — | — | **and the demand should be Krein, not positive: on the quotient, `−B(·,J·) = (182,0)`** |
+| ... **positive on the physical quotient** | BLOCKED; needs **two** Cartan involutions | **CONDITIONAL COMPARATOR PRICE:** on `P_k^{YM,sym}` definiteness is `n_κ = 0`; the base involution is not needed. Transport to GU's physical quotient is unproved. |
+| — | — | **Krein-majorant certificate on the comparator only:** `−B(·,J·) = (182,0)` |
 
 ---
 
@@ -226,18 +240,18 @@ Standing rule: N lenses means N sections written here, never N subagents.
   a base-side reduction will not move the fibre-side answer. BD-D's §6 is that
   prediction made exact for *inertia* rather than for *rank*, and BD-B is
   credited for the mechanism, not re-derived.
-- **BD-C** established that the source **disavows** the positivity demand
-  (`SOURCE-CONFIRMED`, UCSD `[00:45:00]`). That does **not** retire this route;
-  it retypes its output. If the source disavows positivity, then computing the
-  reduced inertia is not "checking whether GU passes"; it is *pricing a demand
-  the ledger makes and the source refuses*, so that the demand can be replaced
-  by the right one. §9 is the replacement.
+- **BD-C**, as corrected by `CORRECTION IV-20260815`, establishes ambient
+  Killing-form indefiniteness and maximal-compact experimental shielding. It
+  does **not** establish that the source disavows positivity on an observed
+  physical quotient. The latter remains source-open/unsupplied. BD-D therefore
+  prices a comparator realization of that demand; it does not replace or close
+  the GU physicalization debt.
 - **What moved in the ranking, stated plainly.** Before today: "build the base
-  duality." After BD-A: "decide the composite." After BD-A's H5 and BD-C's
-  disavowal: **"decide whether the demand is even the right demand, on the
-  object that would carry it."** The ambient sweep is finished; the quotient
-  was the only remaining place the answer could have been different, and this
-  route is the last one that could have overturned BD-A. It did not.
+  duality." After BD-A: "decide the composite." After BD-A's H5: **"price the
+  demand on a named reduced object, while preserving the missing bridge to
+  GU."** The ambient sweep is finished; the free Yang--Mills symbol quotient
+  was one controlled place the answer could differ. It removes the base
+  contribution but does not supply GU's quotient.
 
 ### Lens P2 — constrained optimization / KKT and reduced Hessians: what does the analogy actually import?
 
@@ -280,8 +294,8 @@ lives on the second (`GEOMETER-VS-PHYSICS-OBJECTS.md`, ghost-clearance row:
 
 The lens's instruction to the computation: **do not report only the inertia of
 `B̄`. Report the inertia of `B̄_J` as well, and report how many involutions `J`
-costs on each space.** §9 does, and the involution count is the one number in
-this artifact that improves GU's position rather than confirming BD-A.
+costs on each space.** §9 does. The lower involution count improves this
+comparator construction; it is not a GU advance without the missing bridge.
 
 The lens also fences: `F = ∅` on the 1664-dimensional kinematic carrier
 (`observable-algebra-commutant-trichotomy-2026-08-03.md`) is a statement about
@@ -289,7 +303,7 @@ a **different object**, and this artifact's `J` on a 182-dimensional adjoint
 quotient neither contradicts it nor is licensed by it. The repository keeps
 those apart deliberately; so does this file.
 
-### Lens P4 — BRST/BV cohomology and gauge fixing: what IS the physical quotient here?
+### Lens P4 — BRST/BV cohomology and gauge fixing: what comparator is computed here?
 
 For a gauge one-form the physical sector is `H⁰` of the BRST complex at ghost
 number zero, which at the linearised/symbol level is
@@ -299,8 +313,9 @@ number zero, which at the linearised/symbol level is
            =  ker H(k) / <k>            tensored with  ad.
 ```
 
-That is the object. Its dimension is `0` off the light cone and `2 dim 𝔤` on
-it, which is the standard two-polarization count. The lens's warnings, all
+That is the **free Yang--Mills symbol object**. Its dimension is `0` off the
+light cone and `2 dim 𝔤` on it, which is the standard two-polarization count.
+It is not a derivation of GU's physical sector. The lens's warnings, all
 respected below:
 
 1. **The interacting BRST charge does not exist in this repository.** Register
@@ -362,7 +377,7 @@ claimed as new.
 | no convention-independent structure selects the base sign | `no-selector-for-the-base-sign-2026-08-08` | why every statement here is about **definiteness**, never about which block is *positive* |
 
 **The narrow novelty claim, and it is all of it:** (i) the exact inertia of the
-**descended** pairing on the gauge-theoretic physical quotient — `(98,84)` at
+**descended** pairing on the free Yang--Mills symbol quotient — `(98,84)` at
 the source trace form, `(182,0)` at a compact one, `(90,92)` at `so(9,5)`,
 `(48,42)`/`(90,0)` at `so(6,4)` — a number that exists nowhere in this
 repository for any sector; (ii) that the removed complement is a **neutral
@@ -441,7 +456,7 @@ family are covered only by their own internal controls.
 
 ---
 
-## 2. THE PHYSICAL QUOTIENT, NAMED PRECISELY, AND ITS DIMENSION
+## 2. THE FREE YANG--MILLS SYMBOL QUOTIENT, NAMED PRECISELY, AND ITS DIMENSION
 
 > **Definition (BD-D).** Fix `x ∈ X⁴`, a nonzero covector `k ∈ T*_xX⁴`, and the
 > free gauge symbol
@@ -450,15 +465,16 @@ family are covered only by their own internal controls.
 >   H(k)  =  <k,k>_N * N  -  (Nk)(Nk)^T          on Lambda^1,
 > ```
 >
-> the quadratic form of `|k ∧ a|²`. The **physical quotient** is
+> the quadratic form of `|k ∧ a|²`. Define the comparator symbol cohomology
 >
 > ```text
->   P_k  =  ( ker H(k) / im(symbol of d_A) )  (x)  ad P_x
->        =  ( k^perp / <k> )  (x)  ad P_x           [ only when <k,k> = 0 ]
+>   P_k^{YM,sym}  =  ( ker H(k) / im(symbol of d_A) )  (x)  ad P_x
+>                 =  ( k^perp / <k> )  (x)  ad P_x   [ only when <k,k> = 0 ]
 > ```
 >
-> i.e. the ghost-number-zero cohomology of the linearised gauge complex at `k`,
-> tensored with the adjoint.
+> i.e. the ghost-number-zero symbol cohomology of the **imported free,
+> linearised Yang--Mills complex** at `k`, tensored with the adjoint. It is not
+> GU's derived physical quotient.
 
 Everything in that definition is computed, not asserted:
 
@@ -472,7 +488,7 @@ Everything in that definition is computed, not asserted:
 and the gauge direction lies in `ker H(k)` for **every** `k` (`[E]`, with a
 control: a non-gauge-invariant symbol does not annihilate `⟨k⟩`). So:
 
-> **The physical quotient is nonzero only on the light cone**, where it is the
+> **`P_k^{YM,sym}` is nonzero only on the light cone**, where it is the
 > **null screen** `k^⊥/⟨k⟩` tensored with `ad`. Its dimension is
 >
 > ```text
@@ -502,7 +518,8 @@ nothing else.
                              nullity  91  =  dim g  =  the gauge orbit
 ```
 
-**This is the object `LT-GR6b`'s trigger names and BD-A did not compute.** BD-A
+**This is one comparator realization of the object `LT-GR6b`'s trigger names;
+it is not the source-derived object.** BD-A
 computed `ker(c) ⊗ ad` at dimension `273` — the *constraint surface*, or
 equivalently a codimension-1 gauge slice — and said so in H5. `P_k` is one
 further quotient down.
@@ -631,7 +648,7 @@ Hamiltonian and time-dependent — agree.
 
 ---
 
-## 5. ROBUSTNESS SWEEP — six candidate "physical quotients"
+## 5. ROBUSTNESS SWEEP — six candidate bare-module reductions
 
 Each candidate is an explicit subquotient `U` of `Λ¹`; the descended form on
 `U ⊗ ad` is computed by direct congruence on the ambient Gram.
@@ -640,7 +657,7 @@ Each candidate is an explicit subquotient `U` of `Λ¹`; the descended form on
 candidate                          dim U  base       dim   source kappa   compact kappa
 ambient Lambda^1 (x) ad              4   (3,1)       364   (189, 175)     (273,  91)
 constraint surface only (null k)     3   (2,0,1)     273   ( 98, 84, 91)  (182, 0, 91)
-PHYSICAL QUOTIENT (null screen)      2   (2,0)       182   ( 98,  84)     (182,   0)
+YM SYMBOL QUOTIENT (null screen)     2   (2,0)       182   ( 98,  84)     (182,   0)
 timelike slice (BD-A's object)       3   (3,0)       273   (147, 126)     (273,   0)
 spacelike slice                      3   (2,1)       273   (140, 133)     (182,  91)
 massive (Proca) 3-plane              3   (3,0)       273   (147, 126)     (273,   0)
@@ -660,7 +677,7 @@ Three things to read off, all `[E]` except where marked:
 
 ---
 
-## 6. THE NO-GO — no equivariant reduction can cure an indefinite fibre form
+## 6. THE BARE-MODULE THEOREM — no equivariant subquotient cures an indefinite fibre form
 
 > **Theorem (BD-D).** Let `𝔤` be a real Lie algebra with `End_𝔤(𝔤) = ℝ` (the
 > adjoint absolutely irreducible), let `Λ¹` be `d`-dimensional with a
@@ -674,8 +691,9 @@ Three things to read off, all `[E]` except where marked:
 >    are definite**.
 >
 > **Therefore, if `κ` is indefinite, no `Γ(Ad P)`-equivariant subquotient of
-> `Λ¹ ⊗ ad P` carries a definite descended form. Positivity cannot be recovered
-> by reduction — at any stage, by any constraint, in any gauge.**
+> the bare module `Λ¹ ⊗ ad P` carries a definite descended form.** This theorem
+> does not classify an enlarged ghost/antifield complex, a differential mixing
+> extra representations, an interacting BV cohomology, or an analytic domain.
 
 **Part 2, exhaustively.** Over all `(p_A,n_A,p_B,n_B)` with each part at most
 6 and both factors nonzero — **2304 cases, zero exceptions** (`[E]`). The law
@@ -703,8 +721,8 @@ form `U ⊗ 𝔤`. The universality clause genuinely fails there. **This does no
 touch the load-bearing conclusion**, because the gauge-theoretic subquotients
 used above — `⟨k⟩ ⊗ ad` and `k^⊥ ⊗ ad` — are of the form `U ⊗ ad` **by
 construction**, being built from base data alone. Part 1 upgrades the result
-from "these quotients" to "all equivariant quotients"; the no-go for *the*
-physical quotient does not need it.
+from "these quotients" to "all equivariant subquotients of this bare module";
+it supplies no theorem about GU's unconstructed derived physical quotient.
 
 **For the GU-scale algebras the hypothesis is asserted with a named
 dependency, not computed.** `dim End_𝔤(𝔤)` at `dim 𝔤 = 91` is an 8281-unknown
@@ -728,7 +746,7 @@ definite respectively (`[E]`: `dim 𝔭 = 49`, `κ|_𝔭 = (49,0)`). Then
 ```
 
 **at the source group, with the source's own indefinite trace form.** So a
-definite descended form on a subspace of the physical quotient *does* exist —
+definite descended form on a subspace of the comparator quotient *does* exist —
 and `𝔭` is **not** `ad`-invariant (`[E]`: `[𝔭,𝔭]` is a nonzero bracket leaving
 `𝔭`). **Definiteness is available exactly at the cost of equivariance.** That
 is BD-A §5.2's joint-unsatisfiability statement, reproduced one quotient
@@ -739,34 +757,24 @@ buy.
 
 ## 7. WHICH LEDGER ROWS THIS BEARS ON, AND UNDER WHAT CONDITION
 
-BD-A §7.2 established that the positivity clause is a condition on the **second
-variation**, so it binds **class H** — the ten rows of
-`conditional-physics-ledger-v0.258` whose `distance` or `revival_trigger`
-demands a Hessian, mass matrix, eigenvalue or spectrum — and *"the rows that
-most need `LT-GR6b`'s hardest clause are precisely the ten rows it declined to
-touch."* Recomputed here from the ledger by replaying the class rule; the list
-is exactly ten and is unchanged:
+BD-A's string rule returns a ten-row **class H**:
+`RA-A4`, `RA-A5`, `RA-B6`, `RA-D4`, `RA-E4`, `RA-E6`, `RA-G1`, `RA-G4`,
+`LT-SM4`, `LT-SM6`. That census is reproducible, but it does not make BD-D
+direct evidence for those rows. Nine rows do not demand positivity at all, and
+`RA-D4` demands an interacting positive BRST cohomology with a chiral light
+spectrum—an object this free ordinary-gauge symbol computation does not build.
 
-| row | axis | verdict | the demand | what BD-D changes for it |
-|---|---|---|---|---|
-| `RA-D4` | REPRESENTATION | NEEDS | *"a **positive BRST cohomology** with chiral light spectrum"* | **directly.** This row names the object BD-D computed. Its positivity demand, on the gauge sector, is now priced at exactly one number: `n_κ = 0`. It is **not** a base condition and **not** a globality condition |
-| `RA-G1` | REPRESENTATION | DIFFERS | *"a **physical quotient** and spectrum for Q/Z"* | **directly.** The physical quotient is constructed and its descended pairing is exact. The row's remaining content is the `Q/Z` sector, untouched |
-| `RA-A4` | REPRESENTATION | DIFFERS | *"a vacuum mass matrix for the extra U(1)"* | via the pencil: a real mass spectrum needs a **definite descended** form, hence `n_κ = 0` |
-| `RA-A5` | REPRESENTATION | DIFFERS | *"a complete gauge-boson mass and **BRST** spectrum"* | same, and the BRST half is the same `H⁰` |
-| `RA-B6` | REPRESENTATION | DIFFERS | *"a neutrino-sector mass spectrum and mixing map"* | same condition, different sector |
-| `RA-E4` | REPRESENTATION | DIFFERS | *"a computed scalar mass matrix with one light doublet"* | same condition |
-| `RA-E6` | REPRESENTATION | NEEDS | *"an exact vacuum **Hessian** and one-dimensional unbroken U(1)_em"* | same condition |
-| `RA-G4` | REPRESENTATION | NEEDS | *"a computed stabilizer and gauge-boson mass matrix"* | same condition |
-| `LT-SM4` | LAGRANGIAN | DIFFERS | *"a complete constrained pole spectrum"* | same condition |
-| `LT-SM6` | LAGRANGIAN | DIFFERS | *"an exact pullback and **Hessian** with one light Higgs"* | same condition |
+The transportable statement is conditional and narrower:
 
-**The condition, stated once for all ten rows.**
+> If a future GU construction has a physical carrier that is an equivariant
+> subquotient of the same bare `Λ¹ ⊗ ad P` module, and if its pairing descends
+> from `N ⊗ κ` without ghost/antifield mixing, then an indefinite `κ` cannot
+> become definite by the quotient alone. On the particular free Yang--Mills
+> symbol quotient, definiteness is exactly `n_κ = 0`.
 
-> A real physical spectrum on the gauge sector requires the descended pairing on
-> the physical quotient to be **definite**, and on `X⁴` that is **exactly**
-> `n_κ = 0` at a named subscript — one Cartan involution on the fibre,
-> `REDUCTION_EXTERNAL`. The base signature, the globality/`chi = 0` clause, and
-> the choice of quotient contribute **nothing** to it.
+Those “if” clauses are the bridge. They are not established for any of the ten
+ledger rows, so no row acquires `n_κ = 0` as a filed condition from this
+artifact.
 
 **Zero rows advance.** No verdict, reason kind, priority, canon,
 `CURRENT-STATE` or public posture moves. The sequential ledger is untouched. The
@@ -774,9 +782,9 @@ movement available to a canonical owner is a **re-typing**, not an advance:
 
 | object | movement available | condition |
 |---|---|---|
-| `LT-GR6b`'s positivity subclause | replace *"positive on the physical quotient"* with *"admits a fundamental symmetry `J` at a named Cartan involution on the fibre"*. **BD-A already proposed the replacement in its Lens Q2**; BD-D supplies the certificate `(182,0)` and shows the base half of `J` is not needed | none — the source disavows positivity (BD-C §4.4) and definiteness is convention-independent while *positive* is not |
-| the ten class-H rows | may carry **one** declared condition, `n_κ = 0` at a named subscript, rather than a bundle of base + globality + quotient conditions | §6's theorem makes the condition quotient-independent |
-| BD-A §5.3's *"two Cartan involutions"* price | **falls to one** on the physical quotient | §9; the base involution is supplied canonically by the characteristic variety |
+| `LT-GR6b`'s positivity subclause | split from base duality and retain as an open physicalization debt; BD-D supplies a conditional comparator certificate, not the GU object | source-open/unsupplied; bridge required |
+| the ten class-H rows | no filed movement from BD-D | each row's actual carrier, action, quotient and spectrum must be bridged separately |
+| BD-A §5.3's *"two Cartan involutions"* price | falls to one on `P_k^{YM,sym}` only | comparator characteristic variety; no GU owner removed |
 | `M-H17` (iii)–(iv) / PC-3 | **executed for one sector** (ordinary gauge `Ω¹(ad P)`, free level) | **not** executed for the RS/`ker Γ` carrier the register row actually tracks, and **not** at the interacting level |
 
 ---
@@ -787,7 +795,7 @@ The brief names `Zᵀ H Z` as the object that governs stability. Computed
 (`[E]`):
 
 ```text
-  Z^T H Z  =  0   identically on the physical quotient.
+  Z^T H Z  =  0   identically on the free symbol quotient.
 ```
 
 Necessarily so: `Z` spans `ker H(k)`, so `H Z = 0`. **In a gauge field theory
@@ -805,10 +813,11 @@ That is not a technicality; it is the reason the answer is a **Krein** answer:
                                                 real spectrum                [C]
 ```
 
-reproducing BD-A §7.2 and `W183`/`W178` one quotient further down. **So
-definiteness of the *descended* form is exactly the condition that the physical
-mass spectrum is real** — which is the precise sense in which the ten class-H
-rows depend on this artifact, and the precise sense in which nothing else does.
+reproducing BD-A §7.2 and `W183`/`W178` one quotient further down. Thus
+definiteness of the descended form supplies a **uniform real-spectrum
+guarantee** for symmetric pencils, while indefiniteness permits—not forces—
+complex pairs. No physical mass operator is built here, so this observation
+does not directly adjudicate the ten class-H rows.
 
 ---
 
@@ -820,7 +829,7 @@ In the built basis it is **diagonal**, with entries `η_i η_j` — verified
 entrywise — giving the split `𝔨(42) ⊕ 𝔭(49)`.
 
 ```text
-  on the PHYSICAL QUOTIENT (dim 182):     J = 1_screen (x) theta
+  on P_k^{YM,sym} (dim 182):              J = 1_screen (x) theta
       J^2 = 1,  J is B-selfadjoint,  -B(., J.)  =  (182, 0)     DEFINITE   [E]
       control: J = 1 gives back            B    =  ( 98, 84)    INDEFINITE [C]
       control: a NON-Cartan involution     fails to definitise             [C]
@@ -834,27 +843,27 @@ entrywise — giving the split `𝔨(42) ⊕ 𝔭(49)`.
 `GEOMETER-VS-PHYSICS-OBJECTS.md`'s settled ghost-clearance row and `VG-V2`'s
 machine-checked `B_θ > 0`; BD-A's Lens Q2 already concluded that *"the row
 should demand a Krein structure, not positivity."* **BD-D claims none of that.**
-What BD-D adds is one number and one count: the certificate on the quotient is
-`(182,0)`, and the quotient **halves the involution count**. BD-A §5.3 priced
+What BD-D adds is one number and one count: the certificate on
+`P_k^{YM,sym}` is `(182,0)`, and that comparator quotient **halves the
+involution count**. BD-A §5.3 priced
 positivity at two Cartan involutions, one per factor, with the base one free
-*given* the observation section and a chosen timelike line. On the physical
-quotient the base involution is not needed at all — the screen form is definite
-**canonically**, fixed by the characteristic variety of the equation rather
-than by an observer's choice. That is a modest improvement and it is stated as
-modest: the Lorentzian metric whose light cone defines the screen is still the
-same section, with the same `chi(X^4) = 0` globality condition. What changes is
-that no *further* choice is charged.
+*given* the observation section and a chosen timelike line. On
+`P_k^{YM,sym}` the base involution is not needed — the screen form is definite,
+fixed by the comparator's characteristic variety rather than by a separate
+timelike-line choice. The Lorentzian metric whose light cone defines the screen
+is still the same section, with the same `chi(X^4) = 0` globality condition.
+This lowers the price only inside the comparator.
 
-**So the answer to the brief's question 3 is: yes, Krein grading is the actual
-mechanism, and it is already banked.** The thing to check is the Krein
-condition, and the Krein condition on the physical quotient is satisfied at
-exactly one external price, the one already on the books.
+**So the answer to the brief's question 3 is conditional:** a one-involution
+Krein majorant exists on the free symbol quotient. Whether GU's actual
+physical cohomology exists, inherits this form, and meets the required
+positivity/domain conditions remains open.
 
 ---
 
 ## 10. HOSTILE REVIEW — run on my own result
 
-**H1. "Your 'physical quotient' is the one that gives a clean answer. You chose
+**H1. "Your comparator quotient is the one that gives a clean answer. You chose
 the null screen because `(2,0)` is definite."** *The strongest objection, and
 the one the brief flagged.* Four independent answers, in increasing order of
 weight.
@@ -865,20 +874,21 @@ carrying anything. (b) The **Hamiltonian route** (§4), which needs a chosen
 timelike direction and no null covector — different data, different
 construction — lands on the same inertia. (c) The **sweep** (§5) computes six
 candidates and **none** is definite at the source form. (d) §6 proves the
-verdict is the same for **every** equivariant subquotient. **The concession
-that remains:** if GU's physical quotient is not equivariant under
-`𝒢 = Γ(Ad P)`, everything above is inapplicable — and §6.1 shows exactly what
-such a quotient would look like (`screen ⊗ 𝔭`, definite, non-invariant). I do
-not claim that is impossible; I claim it is not a *gauge* quotient.
+bare-module verdict for every equivariant subquotient. **The limitation is not
+only equivariance:** GU's eventual cohomology may live in an enlarged
+ghost/antifield complex, use a different differential, or carry an analytic
+domain not represented by a subquotient of `Λ¹ ⊗ ad P`. Section 6 makes no
+claim about those possibilities. Section 6.1 merely shows the definite,
+non-invariant witness `screen ⊗ 𝔭` inside the tested module.
 
 **H2. "You imported a Yang–Mills constraint into a theory that has no
 action."** **Conceded, named in the classification line, and the reason §6
 exists.** GU's action is the open object; there is no source-derived Gauss law
 and this repository has never built one. The import fixes the *dimension* (182)
-and the *base inertia* (2,0). It does **not** fix the *verdict*, because §6's
-theorem holds for any equivariant subquotient regardless of which constraint
-produced it. **A reader who rejects the Yang–Mills symbol keeps §6 and loses
-§§2–5.** That is the honest split, and §6 is the load-bearing half.
+and the *base inertia* (2,0). It does **not** fix the bare-module theorem in §6,
+which is independent of the constraint. **A reader who rejects the Yang–Mills
+symbol keeps §6 as algebra and loses §§2–5 as a physical candidate.** That is
+the honest split; neither half constructs GU's quotient.
 
 **H3. "GU's gauge group is `𝒲 = 𝒢 ⋉ Ω¹(ad P)`, not `𝒢`. You quotiented by the
 wrong group."** **Half right, and the half that is right is a real scope
@@ -916,9 +926,9 @@ and §6 is not a multiplication.
 have a Lorentzian metric at all, so nothing got cheaper."** **Correct, and
 stated in §9 rather than left to be found.** The globality condition is
 unchanged and is BD-A's and the 2026-08-08 gate's. What falls is only the
-*second* base datum — BD-A §5.3's timelike covector line, a choice of observer
-— which the characteristic variety supplies canonically. The net change is one
-choice, not one topological hypothesis.
+*second* base datum — BD-A §5.3's timelike covector line — which the comparator
+characteristic variety supplies. The net change is one comparator choice, not
+one GU-owned object or one topological hypothesis.
 
 **H7. "You are executing PC-3, which the design packet said would probably
 fail, and reporting a failure as a result."** The packet's own outcome table
@@ -932,9 +942,9 @@ and the noncompact-reduction audit already price it.
 **H8. "The `so(3,1)` contrary case shows your theorem's hypothesis can fail, so
 the theorem is weak."** The hypothesis fails for exactly the algebras with a
 complex structure, which have **even** real dimension; the GU candidates have
-dimension 91 and 45, **odd** (`[E]`). And the load-bearing conclusion — the
-no-go for *the* physical quotient — does not use the hypothesis at all, because
-those subquotients are `U ⊗ ad` by construction. The `so(3,1)` case is in the
+dimension 91 and 45, **odd** (`[E]`). The conclusion for the particular
+base-defined subquotients does not use the hypothesis, because those objects
+are `U ⊗ ad` by construction. The `so(3,1)` case is in the
 certificate because a theorem whose hypothesis is never tested is a theorem
 whose hypothesis is decorative.
 
@@ -1005,27 +1015,20 @@ currently do not.
 
 ### Lens Q5 — ledger metrology: which direction does this move the file, and should it be distrusted?
 
-**It moves the file in the unflattering direction, which is the direction that
-should be trusted more, and it should still be checked.** BD-A's Lens Q5 noted
-that its own route *removed* a demand and therefore carried a higher burden.
-This route does the opposite: it **closes an escape hatch** that BD-A had
-explicitly left open in H5, and it does so against the brief's own hypothesis.
+The exact computation narrows a bare-module escape while leaving the GU bridge
+open. It neither removes nor adds a GU-owned object.
 
 ```text
-demands REMOVED     BD-A section 5.3's base Cartan involution (the observer's
-                    timelike line) -- supplied canonically by the quotient
-demands CLOSED      "reduce first, then positivity may hold" -- refuted for
-                    every equivariant reduction (section 6)
-demands SHARPENED   class H's condition collapses from {base signature,
-                    globality, quotient choice, fibre form} to {n_kappa = 0}
+comparator price    two involutions -> one on P_k^{YM,sym}
+bare-module result  an equivariant subquotient cannot cure indefinite kappa
+GU debts retained  Lorentz section; fibre selector; action/BRST/BV quotient;
+                    analytic positive physical domain
 demands ADDED       none
-rows advanced       0        `SAME` rows touched  0        free_object_delta  -1
+rows advanced       0        `SAME` rows touched  0        free_object_delta   0
 ```
 
-The one flattering half is the involution count falling from two to one, and
-its justification is a two-line arithmetic fact — `(1,1) ⊗ κ` is neutral — that
-a reader can check in under a minute. The unflattering half is §6, and it is
-the half I had to look for, because the brief asked me to find the opposite.
+The involution count follows from the two-line fact that `(1,1) ⊗ κ` is neutral.
+Section 6 is the durable algebraic result; the rest remains comparator-scoped.
 
 ---
 
@@ -1033,8 +1036,8 @@ the half I had to look for, because the brief asked me to find the opposite.
 
 **May be claimed, exactly and only:**
 
-- The gauge-theoretic physical quotient of `Λ¹ ⊗ ad P` on a Lorentzian `X⁴`,
-  at the free/linearised level, is `(k^⊥/⟨k⟩) ⊗ ad` for null `k`, of dimension
+- The free linearised Yang--Mills symbol cohomology `P_k^{YM,sym}` of
+  `Λ¹ ⊗ ad P` on a Lorentzian `X⁴` is `(k^⊥/⟨k⟩) ⊗ ad` for null `k`, of dimension
   `2 dim 𝔤` = 182 (`so(7,7)`, `so(9,5)`) and 90 (`so(6,4)`); it is
   zero-dimensional off the light cone; the pairing descends to it and not to a
   gauge quotient without a constraint; and the radical it removes is exactly
@@ -1052,7 +1055,7 @@ the half I had to look for, because the brief asked me to find the opposite.
   screen quotient is neutral `(546,546)` for any fibre form. **Novelty is NOT
   claimed for the `(6,6)` ambient screen** — `selected-k77-total-upsilon-null-screen-2026-08-07`.
 - That the Hamiltonian/Coulomb reduction reaches the same inertia.
-- **The no-go**: for `End_𝔤(𝔤) = ℝ`, every equivariant subquotient is `U ⊗ 𝔤`
+- **The bare-module theorem**: for `End_𝔤(𝔤) = ℝ`, every equivariant subquotient is `U ⊗ 𝔤`
   and a tensor product is definite iff both factors are; hence no equivariant
   reduction can cure an indefinite fibre form. With `so(3,1)` and `so(2,2)` as
   the computed cases where the universality hypothesis fails, and with the
@@ -1060,7 +1063,7 @@ the half I had to look for, because the brief asked me to find the opposite.
   certified here**.
 - That a definite descended form exists on the **non-equivariant** subspace
   `screen ⊗ 𝔭`, inertia `(98,0)`, at the source group.
-- That `Zᵀ H Z` vanishes identically on the physical quotient at the free
+- That `Zᵀ H Z` vanishes identically on `P_k^{YM,sym}` at the free
   level, so the KKT reduced-Hessian object is vacuous and the descended
   **pairing** is what governs.
 - The Krein certificate `−B(·,J·) = (182,0)` with `J = 1_screen ⊗ θ`, and that
@@ -1073,6 +1076,9 @@ the half I had to look for, because the brief asked me to find the opposite.
 - That GU has a Gauss law, a constraint, an action, or an interacting BRST
   charge. None of these is built anywhere, and the Yang–Mills symbol used here
   is a declared comparator import.
+- That `P_k^{YM,sym}` is GU's physical quotient, or that the bare-module theorem
+  extends to enlarged ghost/antifield complexes, non-split derived cohomology,
+  interacting dynamics or analytic domains.
 - That `M-H17` is discharged. Steps (iii)–(iv) are executed for **one sector at
   the free level**; the row tracks the RS/`ker Γ` carrier and the interacting
   charge, neither of which is touched.
@@ -1087,9 +1093,10 @@ the half I had to look for, because the brief asked me to find the opposite.
   advanced. Zero rows advance.
 - Any domain, boundedness, Fredholm, Hilbert-space, measure or global-section
   statement.
-- That positivity is *impossible* for GU. It is impossible **equivariantly**;
-  §6.1 exhibits a definite non-equivariant witness, and the source's own
-  posture (BD-C §4.4) is that the demand is the wrong one.
+- That positivity is impossible for GU, or that the source rejects it on the
+  observed physical sector. Section 6.1 exhibits a definite non-equivariant
+  witness inside the tested module; BD-C now types observed-sector positivity
+  as source-open/unsupplied.
 
 **Not laundered:** no grant is converted into a derivation. The one conditional
 result — that a compact fibre form gives `(182,0)` — is reported **only** with

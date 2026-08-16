@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: exploration
+status: independently_verified_and_narrow_canon_diff_integrated
 doc_type: internal-regrade-and-repair
 created: 2026-08-15
 work_item: VZ-4
@@ -11,7 +11,7 @@ disposition: DEFECT_VERIFIED_INDEPENDENTLY__CONCLUSION_SURVIVES_ON_A_DIFFERENT_A
 target_claim: OQ3-V3
 target_claim_verdict: "INTERNAL-TARGET, SPLIT. V3a (the identification, domain-restricted to the horizontal subbundle) UPHELD and strengthened: exact, gauge-independent. V3b (the stated ground, 's* sends psi to its horizontal part') KILLED: holds iff d_mu g_ab = 0. V3c (the 'not a larger sector' / KK-scalar corollary) KILLED in every gauge, flat section included. This is a regrade of a repository claim. It is NOT evidence about Weinstein's source, which supplies the contraction reading (WG-B06) that this correction restores."
 canon_verdict_change: none
-canonical_effect: proposed_diff_pending_second_verification
+canonical_effect: narrow_canon_correction_integrated_after_independent_second_verification
 steering_effect: unchanged
 depends_on:
   - explorations/vz-evasion/vz-schur-complement-2026-06-23.md
@@ -250,11 +250,13 @@ under its own 2026-08-03 terminal guard and is **not** edited.
 `CONDITIONALLY_RESOLVED`, unaffected — and its single open upgrade condition is still
 OQ3-V1's curved-background frame-splitting check, because V3a is gauge-independent.
 
-## 6. Proposed canon diff — NOT APPLIED
+## 6. Canon diff — APPLIED AFTER INDEPENDENT SECOND VERIFICATION
 
 Repository rule: new findings do not promote themselves to canon, and canon changes require
-independent verification. **This pass is the first verification, not the second.** The diff
-below is proposed and awaits a second, independent check.
+independent verification. **CORRECTION IV-20260815:** a later independent
+source-coherence/derivation review reproduced the pullback distinction and
+approved this narrow wording correction. The diff below is now integrated in
+`canon/no-go-class-relative-map.md`; it does not upgrade either VZ verdict.
 
 `canon/no-go-class-relative-map.md`, line 401. Replace:
 
@@ -319,7 +321,7 @@ Planted controls, each of which must fire:
 | `delta_vanishes_in_flat_gauge` | `Δ_i = 0` at `K = 0` |
 | `flat_gauge_saves_not_larger` | `ker Γ¹⁴ᴰ` carried into `ker Γ⁴ᴰ` at `K = 0` |
 | `quote_drift` | a sentence that is not in §18.3 |
-| `canon_already_repaired` | canon carries the correction (it must not) |
+| `canon_correction_missing` | canon does not carry the independently verified correction |
 | `repair_reverted` | a repaired dependent still carries its defective text |
 
 Exactness: Part A is symbolic sympy plus exact `Rational`s; Part B is integer arithmetic
@@ -330,9 +332,10 @@ never from eigenvalues.
 ## 8. Claim ceiling, and every imported assumption
 
 **Ceiling.** Kinematic and algebraic. This artifact repairs a grade and its stated ground.
-It computes no action, no propagator, no mass, no spectrum; it decides no fork; it moves no
-canon entry, ledger row, or current-state surface. `canonical_effect` is
-`proposed_diff_pending_second_verification`.
+It computes no action, no propagator, no mass, no spectrum; it decides no fork;
+and it does not move a ledger row or current-state verdict. The narrow canon
+wording correction is now integrated after independent second verification;
+`REDUCTION-FIDELITY` and the larger VZ status remain open/conditional.
 
 Imported, each load-bearing somewhere:
 

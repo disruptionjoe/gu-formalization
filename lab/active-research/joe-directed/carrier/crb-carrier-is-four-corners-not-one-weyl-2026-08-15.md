@@ -6,10 +6,10 @@ created: 2026-08-15
 work_item: CR-B
 channel: carrier
 target_claim: "INTERNAL — HE-2 §6, the contrary construction it named as the live attack: 'if GU's declared spinorial content is not a single ambient Weyl (or symplectic-Majorana-Weyl) spinor but a full ambient Dirac or non-Weyl Majorana object, then the ambient chirality tie of §3.3 never engages ... and n_g = 0 outright.'"
-target_claim_verdict: "PREMISE REFUTED AS A DICHOTOMY, ANTECEDENT CONFIRMED AS STATED. The declared content is NOT a single ambient Weyl or symplectic-Majorana-Weyl spinor — three source loci say so and the answer is not close. But HE-2's fork is FALSE: the source's object is neither a single Weyl spinor nor a full ambient Dirac object at the working level. It is FOUR printed corners whose Z/4 centre classes partition them into exactly two class-homogeneous halves, and the criterion that actually governs the tie is ODD CENTRE-CLASS HOMOGENEITY, not single-Weyl-ness. HE-2's criterion is sufficient and NOT necessary. On the total declared content the tie does not engage and n_g = 0 (HE-2's consequent, confirmed). On either source-stated emergent half the tie DOES engage and n_g -> n_g - 1 has an input. Which is operative is SG4 bit 2, not a new unknown."
-title: "CR-B: GU's declared fermionic carrier is NOT a single ambient Weyl or symplectic-Majorana-Weyl spinor — the source declares FOUR corners and an unsubscripted S, and says so in its own §12.9 title. HE-2's named kill therefore LANDS on the declared total content: n_g = 0 there. But HE-2's two-way fork is FALSE. The governing invariant is not 'one Weyl spinor', it is ODD Z/4 CENTRE-CLASS HOMOGENEITY of the content, an exact integer certificate that is real-form BLIND and signature BLIND. Computed: the four corners carry classes 3,1,1,3; exactly two of the four 0-form/1-form pairings are class-homogeneous; and the source's own L107 declaration `Omega^0(S+) + Omega^1(S-)` is one of them, hence PROTECTED and the tie engages. The repository's `nu in Omega^0(S), zeta in Omega^1(S)` shorthand, read as the same half twice, is the one pairing that is class-MIXED. CARRIER AVAILABILITY IS THE WRONG INSTRUMENT: in TWELVE dimensions Majorana-Weyl exists and the half-spinor is still self-dual. HONEST CEILING: the certificate forbids only a BARE mass; a class-2 bosonic insertion is allowed, which is exactly the source's own VEV conditional, so the fork terminates on SG4 bit 2 with both horns computed."
+target_claim_verdict: "PREMISE REFUTED AS A DICHOTOMY, WITH A SOURCE-LAYER CORRECTION. The total field-space declaration is not a single ambient Weyl or symplectic-Majorana-Weyl spinor: it is an unsubscripted Dirac bundle printed in four corners. That does not erase the separate source-attested claim SC-GEN-55 that one effective generation is the pullback of a properly understood Weyl spinor, nor SC-GEN-56's package-to-three claim. The four corners partition into exactly two Z/4 class-homogeneous halves, and the criterion governing the bare pairing is ODD CENTRE-CLASS HOMOGENEITY, not single-Weyl-ness. On the total declaration the conventional n_g comparator has no chiral input; on a source-stated effective half it does. Which effective split is dynamically realized remains SG4 bit 2 and is not constructed here."
+title: "CR-B: GU's total fermionic field space is four corners in an unsubscripted Dirac bundle, while the source separately describes one effective generation as a Weyl-spinor pullback. The governing bare-pairing invariant is odd Z/4 centre-class homogeneity, not carrier minimality. Computed: the four corners carry classes 3,1,1,3; exactly two 0-form/1-form pairings are class-homogeneous; and the source's opposite-half package is one of them. The result forbids only a bare mass: a class-2 bosonic insertion can recouple the halves, so the physical split remains conditional on SG4 bit 2."
 grade: "EXACT integer/Z[i] arithmetic. Instrument 1: explicit Jordan-Wigner Clifford algebras over Z[i] carried as int64 real/imaginary pairs for 15 signatures, relations verified elementwise, antilinear intertwiners SOLVED for (eta read off, not assumed), Z[i] magnitude sweep max |entry| = 1 against a bound of 2^20 so no int64 overflow can hide. Ranks over F_p for three primes p = 1 mod 4 whose PRIMALITY IS CHECKED IN THE FILE (a composite modulus was caught corrupting a rank during the build and is now guarded); every rank SANDWICHED between the F_p lower bound and a codomain upper bound, so each is pinned exactly rather than probabilistically. Instrument 2: exact integer weight combinatorics in DOUBLED coordinates, class arithmetic mod 4, 2^7 weight enumeration for the tie. 179/179 checks, exit 0. No float is load-bearing anywhere; assert_no_float sweeps the whole result dict. NON-VACUITY three ways: 13 predeclared positive controls reproducing HE-2's banked reality table row-for-row plus its two horn rows (dim_R J-fixed set 64 on (7,7), 0 on (9,5)); TWO contrary controls, (9,5) where Majorana-Weyl provably does NOT exist and D_6/12 dimensions where the centre-class protection provably FAILS; and 13/13 planted false assertions each observed False. Failure path: 14/14 injected machinery mutations drive exit 1 under --selftest, which exits 0 on success. STANDARD REPRESENTATION THEORY throughout: mod-8 Clifford periodicity, the Z/4 grading of the D_n representation ring, -w_0 by weight-multiset negation. NOT: an index, a generation count, a physical carrier, a source action, a dynamical or VEV statement, a resolution of SIGNATURE-AMBIENT, or any claim-status movement."
-disposition: DECLARED_CARRIER_IS_NOT_A_SINGLE_AMBIENT_WEYL_SPINOR__HE2_PREMISE_REFUTED_AS_A_DICHOTOMY__GOVERNING_INVARIANT_IS_ODD_Z4_CENTRE_CLASS_HOMOGENEITY_NOT_SINGLE_WEYLNESS__FOUR_PRINTED_CORNERS_PARTITION_INTO_EXACTLY_TWO_PROTECTED_HALVES__SOURCE_L107_DECLARES_ONE_OF_THEM__TOTAL_DECLARED_CONTENT_IS_MIXED_AND_N_G_IS_ZERO_THERE__EMERGENT_HALF_ENGAGES_THE_TIE__CERTIFICATE_IS_CONDITIONAL_ON_A_CLASS_2_INSERTION__FORK_TERMINATES_ON_SG4_BIT_2_WITH_BOTH_HORNS_COMPUTED
+disposition: TOTAL_DECLARATION_IS_FULL_DIRAC_FOUR_CORNER__ONE_WEYL_TO_ONE_EFFECTIVE_GENERATION_REMAINS_SOURCE_ATTESTED__PACKAGE_TO_THREE_REMAINS_SOURCE_ATTESTED__GOVERNING_BARE_PAIRING_INVARIANT_IS_ODD_Z4_CENTRE_CLASS_HOMOGENEITY__PHYSICAL_SPLIT_REMAINS_CONDITIONAL_ON_SG4_BIT_2
 canon_verdict_change: none
 steering_effect: unchanged
 canonical_effect: pending_integration
@@ -47,7 +47,19 @@ scripts:
 > owner's call; the notice and classification string above are in the exact form
 > `process_gates/source_native_comparator_routing_audit.py` requires.
 
-# CR-B — the carrier is four corners and an unsubscripted `S`, not one Weyl spinor
+# CR-B — four ambient corners and an effective Weyl-generation claim live at different layers
+
+> [!CAUTION]
+> **CORRECTION IV-20260815 — SOURCE LAYER.** The original framing below predicted
+> that “one Weyl spinor” would turn out to be repository compression rather than
+> a source claim. That prediction was false as a global statement. `SC-GEN-55`
+> records Weinstein saying that one effective Standard-Model generation is the
+> pullback of a properly understood Weyl spinor; `SC-GEN-56` separately records
+> the full `Omega^0(S+) (+) Omega^1(S-)` package-to-three claim. The exact
+> four-corner and centre-class calculations remain unchanged. Their correct use
+> is to distinguish the **total ambient field-space declaration** from a
+> **reduced effective-generation description**, not to reject the latter as
+> unsourced.
 
 ## 0. The gate, verbatim
 
@@ -102,6 +114,8 @@ already banked, and is reproduced rather than re-derived.**
 | `PH-K1-KINEMATIC`: the `Cl(9,5)` 128 block is kinematically vectorlike, `64+64`, both signatures | `explorations/chirality-grading-and-77-rerun-2026-08-03.md` | CONFIRMED |
 | The four printed corners, `832±/64±`, `Spin(7,7)±` superscripts, eq (11.6), eq (12.20), eq (12.22) | `lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md` (SHA-256 pinned) | primary source |
 | `S` UNSUBSCRIPTED at eq (9.16); `nu, nubar, zeta, zetabar` are **four distinct fields**; reality adjoint `SOURCE-SILENT` | `lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md` | primary source |
+| **One effective generation is the pullback of a properly understood Weyl spinor** | `SC-GEN-55`, TOE `01:29:19`, with UCSD twin at `00:46:40` | source-attested; coexists with the total declaration |
+| **The opposite-half `Omega^0(S+) (+) Omega^1(S-)` package is claimed to yield three generations** | `SC-GEN-56`, UCSD `00:32:46` | source-attested claim; mechanism not constructed |
 | SG4 is the single open decider; the residual is 2 bits, bit 2 = "phase: chiral/unbroken vs massive/super-Higgs" | `canon/gu-forces-field-space-declaration-RESULTS.md` | canon |
 
 **Honest ratio: Instrument 1 (§3.1) is ~85% reproduction of banked work — every
@@ -183,11 +197,11 @@ means the content to be chiral.
 **Lens 4 — source philologist.** *Route:* the register (`lab/sources/source-claim-register.yaml`,
 110 claims, edition-pinned, `sha256:3f28d742...`) is the authority, not repo
 prose. Read the DECLARATION loci (eq 5.2 p.31, eq 9.16 p.46) separately from the
-GRADING loci (p.51, eq 11.6 p.52, eq 12.20 p.61) and separately again from the
-MECHANISM loci (§12.9 title p.60, eq 12.13, TOE `02:36:02`). *Prediction:* the
-declaration will be unsubscripted and the grading will retain both halves, so
-"one Weyl spinor" will turn out to be a repo compression rather than a source
-claim. *Binding condition:* every source sentence quoted with a locus; anything
+GRADING loci (p.51, eq 11.6 p.52, eq 12.20 p.61), the EFFECTIVE-GENERATION locus
+(`SC-GEN-55`), and the PACKAGE-TO-THREE locus (`SC-GEN-56`). *Corrected outcome:*
+the declaration is unsubscripted and retains both halves, while “one Weyl
+spinor” is independently source-attested at the reduced effective-generation
+layer. *Binding condition:* every source sentence quoted with a locus; anything
 the source does not say gets typed `SOURCE-SILENT` and stays there.
 
 **Lens 5 — adversary / kill designer.** *Route:* design the failure before
@@ -485,28 +499,40 @@ reality condition"*. `SOURCE-SILENT` is the answer, and it is load-bearing: it
 means **no reality condition may be imposed on GU's carrier by this file or any
 other without declaring the imposition.**
 
-**SOURCE-SILENT, second.** No **chirality restriction**. The source grades; it
-never projects.
+**SOURCE-SILENT, second, at the declaration locus.** No **chirality restriction
+on the total field space** is imposed there. The source separately describes
+effective Weyl output, but does not construct the dynamical projection or
+decoupling that would select it from the four corners.
 
-### 4.1 The decision
+### 4.1 The layer distinction
 
 > **GU's declared fermionic content is NOT a single ambient Weyl or
 > symplectic-Majorana-Weyl spinor.** It is `Omega^0 (+) Omega^1` valued in an
 > UNSUBSCRIPTED `S̸` — the full `128`-complex-dimensional Dirac bundle of the
-> chimeric bundle — printed as FOUR graded corners, with **no reality condition
-> and no chirality projection anywhere in the source**.
+> chimeric bundle — printed as FOUR graded corners, with no reality condition
+> or chirality projection imposed at that declaration locus.
 
-HE-2's antecedent is therefore true as stated, and its consequent follows: on the
-total declared content the classes are `{1, 3}`, the content is class-MIXED, the
-tie does **not** engage, and **`n_g = 0`**. That is a first-class negative and it
-is reported as plainly as a positive would be. It is also exactly what
-`CURRENT-STATE.yaml:172` and `PH-K1-KINEMATIC` already say, so nothing moves.
+This is a statement about the **total ambient field-space declaration**, not a
+global denial that the source ever speaks of a Weyl carrier. `SC-GEN-55`
+independently records the source's one-Weyl-pullback-to-one-effective-generation
+claim, while `SC-GEN-56` records the opposite-half package-to-three claim. These
+statements coexist because they refer to different layers: ambient content,
+effective pulled-back generation, and full package output.
+
+HE-2's antecedent is therefore true of the total declaration. On that total
+content the classes are `{1, 3}`, the content is class-MIXED, and the bare
+chirality tie does **not** engage. The shorthand **`n_g = 0`** is only the
+conventional net-chirality comparator readout, not a source-native verdict and
+not a contradiction of `SC-GEN-55` or `SC-GEN-56`. This is consistent with the
+standing non-chirality of the total theory; nothing moves.
 
 > **But HE-2's fork is FALSE.** It offered "a single ambient Weyl spinor" versus
-> "a full ambient Dirac or non-Weyl Majorana object". The source's working object
-> is neither. It is four corners that the `Z/4` grading partitions into exactly
-> **two** class-homogeneous halves, and the source declares one of those halves
-> verbatim at L107 and asserts the split at `SC-CHI-01`. The governing invariant
+> "a full ambient Dirac or non-Weyl Majorana object" as mutually exclusive global
+> descriptions. The source uses the latter at the ambient declaration layer and
+> the former at an effective-generation layer. The four corners partition into
+> exactly **two** class-homogeneous halves; the source declares one such package
+> at L107/`SC-GEN-56`, describes a one-Weyl effective generation at `SC-GEN-55`,
+> and asserts the split at `SC-CHI-01`. The governing invariant
 > is **odd centre-class homogeneity**, not single-Weyl-ness — and §3.5 exhibits a
 > dimension where a Majorana-Weyl spinor exists and is nevertheless self-dual, so
 > the two criteria are genuinely different.
@@ -516,7 +542,7 @@ is reported as plainly as a positive would be. It is also exactly what
 | | **HORN DECLARED** | **HORN EMERGENT** |
 |---|---|---|
 | what | the total content, `S̸` unsubscripted, four corners | one class-homogeneous half |
-| source loci | eq (5.2) p.31; eq (9.16) p.46; p.51 four corners; §12.9 title p.60; synopsis iii p.64; TOE `02:36:02` | L107 verbatim; draft p.51 corner pairing; `SC-CHI-01` p.52; L158; §12.9 eqs (12.13)–(12.17) |
+| source loci | eq (5.2) p.31; eq (9.16) p.46; p.51 four corners; §12.9 title p.60; synopsis iii p.64; TOE `02:36:02` | `SC-GEN-55` one-Weyl effective generation; `SC-GEN-56`/L107 package-to-three; draft p.51 corner pairing; `SC-CHI-01`; L158; §12.9 eqs (12.13)–(12.17) |
 | centre classes | `{1, 3}` | `{3}` (or `{1}`) |
 | homogeneous | **NO** | **YES** |
 | protected (odd) | — | **YES** |
@@ -571,7 +597,7 @@ of this artifact.
 | item | after CR-B |
 |---|---|
 | HE-2's named contrary construction, `route-alive, and upstream` | **ADJUDICATED.** Its antecedent is TRUE of the declared total content, and its consequent (`n_g = 0`) holds there. Its FORK is false. |
-| HE-2's premise "a single ambient Weyl or symplectic-Majorana-Weyl spinor" | **REFUTED as a description of GU's declaration** (§4.1) and **demoted as a criterion** (§3.5): sufficient at `D_7`, not necessary, not sufficient in general. |
+| HE-2's premise "a single ambient Weyl or symplectic-Majorana-Weyl spinor" | **REFUTED only as a description of the total declaration** (§4.1), explicitly retained as the source-attested effective-generation description `SC-GEN-55`, and **demoted as a bare-pairing criterion** (§3.5). |
 | `n_g -> n_g - 1` | unchanged as a rule; now known to have an input on the emergent horn and NO input on the declared horn |
 | `CURRENT-STATE.yaml:172` ("total theory explicitly non-chiral") | **CONFIRMED, with a mechanism and six loci.** It is now a computed centre-class statement, not only a quoted one. |
 | `PH-K1-KINEMATIC` | unchanged and consistent: class-mixed content is vectorlike |
@@ -594,9 +620,11 @@ and no chirality projection"* is a statement about **what the source declares**,
 carried entirely by SHA-pinned primary-source extractions and the claim register.
 So is *"the four printed corners partition into exactly two odd-class-homogeneous
 halves"*, which is a fact about `D_7` and GU's own printed field content, common
-to both horns of SIGNATURE-AMBIENT. This is a **negative-then-structural** result
-in the source-native register: it removes a premise HE-2 was relying on, and
-supplies the invariant that replaces it.
+to both horns of SIGNATURE-AMBIENT. This is a **layer-separating structural**
+result in the source-native register: it prevents HE-2 from treating the total
+ambient declaration and the effective Weyl-generation claim as mutually
+exclusive, and supplies the invariant that prices the bare pairing on each
+layer.
 
 **Comparator half — this does NOT bind.** *"vectorlike"*, *"net chirality"*,
 *"`n_g = 0`"* and *"a generation"* are fork-1's conventional comparators. Under
@@ -644,9 +672,10 @@ pullback along a section, not compactification, and §3.4 says so.
 
 **Lens B — strongest overclaim available, and where it is refused.** *"The source
 declares a chiral carrier at L107, so GU is chiral after all."* Refused on three
-counts. First, L107 is a spoken-lecture sentence describing what you get, not the
-draft's field-space declaration, and where the two are compared the draft is
-authority: eq (9.16) is unsubscripted and p.51 prints all four corners, not two.
+counts. First, L107 and `SC-GEN-55` are spoken-lecture claims describing reduced
+output, not the draft's total field-space declaration. They are source evidence
+at their own layer; eq (9.16) and p.51 govern the different ambient-declaration
+question and print all four corners.
 Second, even granting the L107 half, §3.6 shows the protection is conditional on a
 class-2 insertion that both declared bosonic slots can supply. Third, the source
 itself titles §12.9 *"...a Fundamentally Non-Chiral Theory"* — reading L107 as a
@@ -744,14 +773,13 @@ with a "but" between them.
 **I decided two of the three things and relocated the third, and the relocation
 landed on a bit that canon had already named.**
 
-*Decided, and it is a real decision:* GU's declared fermionic carrier is **not** a
-single ambient Weyl or symplectic-Majorana-Weyl spinor. That is not a judgement
-call — the declaration locus is unsubscripted, the draft prints four corners, and
-the source titles a section *"...a Fundamentally Non-Chiral Theory"*. HE-2 wrote
-its survival conditional on a premise the source does not supply, and that premise
-is now false rather than open. Reporting that is the main thing this file does,
-and it makes HE-2's and HE-1's results conditional in a way they were not
-previously known to be.
+*Decided, at the ambient declaration layer:* GU's total fermionic field space is
+not a single ambient Weyl or symplectic-Majorana-Weyl spinor. The declaration
+locus is unsubscripted, the draft prints four corners, and the source titles a
+section *"...a Fundamentally Non-Chiral Theory"*. This does **not** make the
+one-Weyl premise globally false: `SC-GEN-55` supplies it for one effective
+pulled-back generation. Reporting the layer distinction is the main correction
+to HE-2's dichotomy.
 
 *Decided, and it is a correction:* the mathematics half does **not** decide the
 carrier, and the brief's hoped-for cheap route is closed — not because the
@@ -762,9 +790,10 @@ odd centre-class homogeneity. That instrument is new here, it is exact and
 integer, and it is blind to both open forks. It is the file's actual contribution
 and it is worth more than the signature sweep, which was mostly reproduction.
 
-*Relocated, and I will not dress it up:* **which of the two source-attested
-readings is GU's operative content, I did not decide.** The source declares both
-— the non-chiral total AND the split into chiral halves — and conditions the
+*Relocated, and I will not dress it up:* **how the total field space produces the
+source's claimed effective Weyl generation and package-to-three output, I did not
+decide.** The source declares all three layers — the non-chiral total, one
+Weyl-pullback effective generation, and the split package — and conditions the
 split on a VEV mechanism it hedges as *"the idea being explored here"*, flags as
 *"stylized"*, and does not build. So the question moves to the selector. What
 keeps this from being motion into fog is that the selector is not a new unknown:

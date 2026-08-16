@@ -83,8 +83,12 @@ HEDGE_OPERATORS = (
 NAIVE_JD_OCCURRENCES = 23
 NAIVE_REPO_OCCURRENCE_FLOOR = 299
 
-# Pinned census, measured 2026-08-15 over the joe-directed tree.
+# Pinned census, measured at the AR-2 publication cut.  The original probe
+# described this as pinned but accidentally enumerated the live tree.  Eight
+# same-session artifacts landed after AR-2 and exposed the mismatch.  The
+# census is historical; seam status below is intentionally checked live.
 JOE_DIRECTED = "lab/active-research/joe-directed"
+MEASUREMENT_COMMIT = "805713e8"
 PINNED_JD_FILES = 48
 PINNED_JD_OCCURRENCES = 24
 PINNED_JD_HIT_FILES = 18
@@ -165,11 +169,13 @@ SEAMS = [
         (STEWARD, "position relative to the Cartan reduction"),
         (SRC4, "kappa_1 * flat_1 >= 0"),
     ], []),
-    ("AR2-S04", "OPEN", True, [
+    ("AR2-S04", "RESOLVED", True, [
         (MD1, "Flagged for the owner of the VZ chain; not"),
         (STEWARD, "**OQ3-V3 was not re-decided.**"),
         (STEWARD, "**Fix the §18.3 defect**"),
-    ], [(VZ, "MD-1"), (NOGO, "MD-1")]),
+        (VZ, "oq3_v3_correction"),
+        (VZ, "CORRECTION VZ4-01"),
+    ], []),
     ("AR2-S05", "OPEN", True, [
         (MD1, "Whether they reappear as independent 4D fields is a"),
         (LA8, "MD-1 explicitly leaves open whether the 10-dimensional `s^*`-kernel reappears as"),
@@ -224,7 +230,7 @@ SEAMS = [
         (PV2, "first reading fails."),
     ], []),
     ("AR2-S20", "RESOLVED", True, [
-        (BDD, "explicitly left open in H5"),
+        (BDD, "conceded the exact"),
     ], []),
     ("AR2-S21", "SUPERSEDED", False, [
         (MV1, "PV-2 explicitly leaves that open"),
@@ -241,11 +247,11 @@ SEAMS = [
 ]
 
 EXPECTED_TYPE_COUNTS = {
-    "OPEN": 16, "RESOLVED": 3, "SUPERSEDED": 1,
+    "OPEN": 15, "RESOLVED": 4, "SUPERSEDED": 1,
     "REFUTED": 1, "DISAVOWED": 1, "UNTYPED": 1,
 }
 EXPECTED_SEAMS = 23
-EXPECTED_WORKLIST = 6          # OPEN and load-bearing; UNTYPED is excluded
+EXPECTED_WORKLIST = 5          # OPEN and load-bearing; UNTYPED is excluded
 EXPECTED_MULTIPLY_FLAGGED = 14  # seams with >= 2 distinct flagging surfaces
 
 # ---------------------------------------------------------------------------
@@ -257,14 +263,14 @@ CONTROLS = {
     "census_files": "joe-directed file count 48 -> 47",
     "phrase_table": "'not resolved here' 4 -> 3 in the pinned phrase table",
     "repo_floor": "repo-wide core floor 315 -> 400 (an unreachable floor)",
-    "type_counts": "OPEN total 16 -> 15",
+    "type_counts": "OPEN total 15 -> 14",
     "worklist": "worklist size 6 -> 5",
     "multiply_flagged": "multiply-flagged count 14 -> 13",
     "wrap_blind": "assert the wrap-blind count equals the normalized count",
     # --selftest plants FALSE FACTS about the world, not just about the numbers.
     "false_resolution_soldered_ad": "plant: the disposition packet resolves SOLDERED-AD",
     "false_resolution_lt_sm3b": "plant: OT-2 answers the LT-SM3b successor question",
-    "false_repair_vz": "plant: the VZ chain was repaired against MD-1",
+    "false_repair_vz": "plant: the VZ4 correction marker is absent",
     "false_flag_la6": "plant: LA-6 never wrote 'Not resolved here'",
     "false_hedge_split": "plant: hedge vocabulary is no larger than the core vocabulary",
 }
@@ -274,6 +280,31 @@ MUT = os.environ.get("AR2_CONTROL", "")
 
 def read(path: str) -> str:
     return (ROOT / path).read_text(encoding="utf-8")
+
+
+def read_at_measurement(path: str) -> str:
+    proc = subprocess.run(
+        ["git", "show", f"{MEASUREMENT_COMMIT}:{path}"],
+        cwd=ROOT, capture_output=True, text=True)
+    if proc.returncode:
+        raise RuntimeError(
+            f"cannot read pinned AR-2 corpus at {MEASUREMENT_COMMIT}: {path}\n"
+            + proc.stderr)
+    return proc.stdout
+
+
+def pinned_joe_directed_files() -> list[str]:
+    proc = subprocess.run(
+        ["git", "ls-tree", "-r", "--name-only", MEASUREMENT_COMMIT,
+         JOE_DIRECTED], cwd=ROOT, capture_output=True, text=True)
+    if proc.returncode:
+        raise RuntimeError(
+            f"cannot enumerate pinned AR-2 corpus at {MEASUREMENT_COMMIT}\n"
+            + proc.stderr)
+    return sorted(
+        p for p in proc.stdout.splitlines()
+        if p.endswith(".md") and not p.startswith(INSTRUMENT_PREFIX)
+    )
 
 
 def markdown_files() -> list[str]:
@@ -290,7 +321,7 @@ def markdown_files() -> list[str]:
     return out
 
 
-def sweep(paths, vocabulary, normalize=True):
+def sweep(paths, vocabulary, normalize=True, reader=read):
     """Occurrence count, hit-file count, per-phrase counter. Integers only.
 
     `normalize=False` reproduces the WRAP-BLIND detector, kept so the recall
@@ -301,7 +332,7 @@ def sweep(paths, vocabulary, normalize=True):
     total = 0
     for rel in paths:
         try:
-            text = (ROOT / rel).read_text(encoding="utf-8", errors="replace").lower()
+            text = reader(rel).lower()
         except OSError:
             continue
         if normalize:
@@ -319,11 +350,11 @@ class AR2DeferralArchaeology(unittest.TestCase):
 
     # -- 1. census ---------------------------------------------------------
     def test_01_joe_directed_census_is_exact(self):
-        jd = [p for p in markdown_files() if p.startswith(JOE_DIRECTED + "/")]
+        jd = pinned_joe_directed_files()
         expected_files = PINNED_JD_FILES - (1 if MUT == "census_files" else 0)
         self.assertEqual(len(jd), expected_files,
                          "joe-directed markdown file count moved")
-        total, nfiles, _ = sweep(jd, CORE_OPERATORS)
+        total, nfiles, _ = sweep(jd, CORE_OPERATORS, reader=read_at_measurement)
         expected = PINNED_JD_OCCURRENCES - (1 if MUT == "census_occurrences" else 0)
         self.assertEqual(total, expected)
         self.assertEqual(nfiles, PINNED_JD_HIT_FILES)
@@ -331,8 +362,9 @@ class AR2DeferralArchaeology(unittest.TestCase):
               f"{total} core-operator occurrences in {nfiles} files")
 
     def test_02_phrase_table_is_exact(self):
-        jd = [p for p in markdown_files() if p.startswith(JOE_DIRECTED + "/")]
-        _, _, per_phrase = sweep(jd, CORE_OPERATORS)
+        jd = pinned_joe_directed_files()
+        _, _, per_phrase = sweep(
+            jd, CORE_OPERATORS, reader=read_at_measurement)
         expected = dict(PINNED_JD_BY_PHRASE)
         if MUT == "phrase_table":
             expected["not resolved here"] = 3
@@ -359,11 +391,13 @@ class AR2DeferralArchaeology(unittest.TestCase):
         normalization was silently dropped; both make the recall claim false.
         """
         allmd = markdown_files()
-        jd = [p for p in allmd if p.startswith(JOE_DIRECTED + "/")]
+        jd = pinned_joe_directed_files()
         naive_repo, _, _ = sweep(allmd, CORE_OPERATORS, normalize=False)
         norm_repo, _, _ = sweep(allmd, CORE_OPERATORS, normalize=True)
-        naive_jd, _, _ = sweep(jd, CORE_OPERATORS, normalize=False)
-        norm_jd, _, _ = sweep(jd, CORE_OPERATORS, normalize=True)
+        naive_jd, _, _ = sweep(
+            jd, CORE_OPERATORS, normalize=False, reader=read_at_measurement)
+        norm_jd, _, _ = sweep(
+            jd, CORE_OPERATORS, normalize=True, reader=read_at_measurement)
         self.assertEqual(naive_jd, NAIVE_JD_OCCURRENCES)
         self.assertGreaterEqual(naive_repo, NAIVE_REPO_OCCURRENCE_FLOOR)
         if MUT == "wrap_blind":
@@ -396,6 +430,11 @@ class AR2DeferralArchaeology(unittest.TestCase):
                     if MUT == "false_flag_la6" and seam_id == "AR2-S18" and path == LA6:
                         self.assertNotIn(needle, read(path), "planted: LA-6 never deferred")
                         continue
+                    if (MUT == "false_repair_vz" and seam_id == "AR2-S04"
+                            and path == VZ and needle == "CORRECTION VZ4-01"):
+                        self.assertNotIn(needle, read(path),
+                                         "planted: VZ4 correction marker absent")
+                        continue
                     self.assertIn(needle, read(path),
                                   f"{seam_id}: flag evidence missing in {path}")
 
@@ -410,9 +449,6 @@ class AR2DeferralArchaeology(unittest.TestCase):
                     if MUT == "false_resolution_lt_sm3b" and path == OT2:
                         self.assertIn(token, text, "planted: OT-2 answers the successor question")
                         continue
-                    if MUT == "false_repair_vz" and path in (VZ, NOGO):
-                        self.assertIn(token, text, "planted: VZ chain repaired against MD-1")
-                        continue
                     self.assertNotIn(token, text,
                                      f"{seam_id}: '{token}' now present in {path} — "
                                      f"the seam may have been resolved; re-type it")
@@ -421,7 +457,7 @@ class AR2DeferralArchaeology(unittest.TestCase):
         counts = Counter(kind for _i, kind, _lb, _f, _a in SEAMS)
         expected = dict(EXPECTED_TYPE_COUNTS)
         if MUT == "type_counts":
-            expected["OPEN"] = 15
+            expected["OPEN"] = 14
         self.assertEqual(len(SEAMS), EXPECTED_SEAMS)
         self.assertEqual(dict(counts), expected)
         self.assertEqual(sum(counts.values()), len(SEAMS))
@@ -473,6 +509,13 @@ class AR2DeferralArchaeology(unittest.TestCase):
 
 def run_selftest() -> int:
     """Every planted control must exit 1.  A control that passes is vacuous."""
+    baseline = subprocess.run(
+        [sys.executable, __file__], cwd=ROOT, capture_output=True, text=True)
+    if baseline.returncode != 0:
+        print("AR-2 selftest REFUSED: the unmutated baseline is not clean.")
+        print(baseline.stdout)
+        print(baseline.stderr)
+        return 1
     print("AR-2 selftest: planted controls, each must exit 1\n")
     failures = []
     for name, description in CONTROLS.items():

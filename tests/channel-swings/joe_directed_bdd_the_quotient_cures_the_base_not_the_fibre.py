@@ -36,7 +36,7 @@ What this probe certifies, in build order:
           Plus lift-independence and null-covector-independence.
   S4  [E] the HAMILTONIAN route (timelike foliation + Coulomb transverse
           plane) reaches the SAME reduced inertia by a different construction.
-  S5  [E][C] robustness sweep over six candidate "physical quotients".
+  S5  [E][C] robustness sweep over six candidate bare-module reductions.
   S6  [E][C] THE STRUCTURAL THEOREM: every gauge-equivariant subquotient is
           `U (x) ad`, so the descended form is `(N|_U) (x) kappa`, and a
           tensor product is definite IFF both factors are.  Hence no
@@ -674,9 +674,9 @@ def main():
     C('E', 'gh-0 quotient ker H / <k> has dim 2 on the light cone, 0 off it',
       gh0 == {'null': 2, 'time': 0, 'space': 0}, gh0)
     RESULT['gh0_dim_module'] = {'so77': 2 * dg77, 'so64': 2 * dg64}
-    C('E', 'tensored with ad: the physical quotient has dim 2 dim g = 182 / 90',
+    C('E', 'tensored with ad: the free symbol quotient has dim 2 dim g = 182 / 90',
       2 * dg77 == 182 and 2 * dg64 == 90, (2 * dg77, 2 * dg64))
-    C('E', 'the physical quotient is a PROPER subquotient: 182 < 273 < 364',
+    C('E', 'the free symbol quotient is a PROPER subquotient: 182 < 273 < 364',
       2 * dg77 < 3 * dg77 < 4 * dg77, (182, 273, 364))
 
     # -------------------------------------------------------------------
@@ -878,13 +878,13 @@ def main():
       [(x[2], x[3]) for x in ham])
 
     # -------------------------------------------------------------------
-    # S5  ROBUSTNESS SWEEP over candidate "physical quotients"
+    # S5  ROBUSTNESS SWEEP over candidate bare-module reductions
     # -------------------------------------------------------------------
     sweep = {}
     cands = {
         'ambient Lambda^1 (x) ad': [e0, e1, e2, e3],
         'constraint surface only (null k)': kperp_null,
-        'physical quotient (null screen)': screen_lift,
+        'free YM symbol quotient (null screen)': screen_lift,
         'timelike slice (BD-A)': kernel_basis(
             [[sum(N[i][j] * k_time[j] for j in range(D)) for i in range(D)]]),
         'spacelike slice': kernel_basis(
@@ -909,9 +909,9 @@ def main():
       sweep['spacelike slice']['compact_form'] == (182, 91, 0),
       sweep['spacelike slice']['compact_form'])
     C('E', 'at a compact fibre form the null screen and timelike slice ARE definite',
-      sweep['physical quotient (null screen)']['compact_form'] == (182, 0, 0)
+      sweep['free YM symbol quotient (null screen)']['compact_form'] == (182, 0, 0)
       and sweep['timelike slice (BD-A)']['compact_form'] == (273, 0, 0),
-      (sweep['physical quotient (null screen)']['compact_form'],
+      (sweep['free YM symbol quotient (null screen)']['compact_form'],
        sweep['timelike slice (BD-A)']['compact_form']))
 
     # -------------------------------------------------------------------
@@ -1061,7 +1061,7 @@ def main():
     Zbase = transpose(screen_lift)
     redH = matmul(matmul(transpose(Zbase), Hnull), Zbase)
     RESULT['reduced_hessian_free'] = [[str(v) for v in row] for row in redH]
-    C('E', 'Z^T H Z vanishes IDENTICALLY on the physical quotient (free massless)',
+    C('E', 'Z^T H Z vanishes IDENTICALLY on the free symbol quotient',
       is_zero(redH), 'the constraint null space IS the Hessian kernel')
     C('E', 'so the KKT reduced-Hessian object is vacuous here: content is in Z^T B Z',
       is_zero(redH) and r77 != (0, 0, 182), (redH, r77))
@@ -1131,7 +1131,7 @@ def main():
                  for a in range(2 * dg77) for b in range(2 * dg77))
     ik = inertia(KreinRed)
     RESULT['krein_reduced'] = ik
-    C('E', 'J = 1_screen (x) theta is an involution on the physical quotient',
+    C('E', 'J = 1_screen (x) theta is an involution on the free symbol quotient',
       all(sum(Jred[a][c] * Jred[c][b] for c in range(2 * dg77))
           == (1 if a == b else 0)
           for a in range(0, 2 * dg77, 23) for b in range(0, 2 * dg77, 29)),
@@ -1193,7 +1193,7 @@ def main():
     if mut:
         M = {
             'reduced_sig': ('the reduced 182 form is (99,83)', r77 == (99, 83, 0)),
-            'reduced_dim': ('the physical quotient has dim 273', 2 * dg77 == 273),
+            'reduced_dim': ('the free symbol quotient has dim 273', 2 * dg77 == 273),
             'compact_cure': ('a compact fibre form leaves the quotient indefinite',
                              r77K != (182, 0, 0)),
             'descent': ('the pairing descends for TIMELIKE k too', descend_time),
@@ -1209,7 +1209,7 @@ def main():
             'nonequi': ('the non-equivariant subspace is indefinite too',
                         nonequi[1] > 0),
             'endg': ('so(3,1) has dim End_g(g) = 1', ends['so(3,1)'] == 1),
-            'hessian': ('Z^T H Z is nonzero on the physical quotient',
+            'hessian': ('Z^T H Z is nonzero on the free symbol quotient',
                         not is_zero(redH)),
             'spacelike': ('the spacelike slice is definite at a compact form',
                           sweep['spacelike slice']['compact_form'] == (182, 0, 0)),

@@ -15,7 +15,7 @@ steering_effect: unchanged
 canonical_effect: pending_integration
 title: "BD-C: the source supplies the base duality on X^4 by NAME, as the second ARGUMENT of its own action -- `I^B_1 : G x MET(X^{1,3}) -> R` (draft p.43, eq 9.1), with the pairing subscripted by the Zorro metric `g_gimel` and a printed `Hodge Star` brace label (p.44, eq 9.4). It supplies NO canonical one, and the reason is exact rather than rhetorical: every structure the source declares on X^4 -- smooth structure, spin structure, 'one dimension of time' -- has a structure group containing the scalings `lambda*I`, and the space of `lambda*I`-invariant symmetric forms on `R^4` is ZERO-dimensional and the invariant density space is ZERO. The duality appears exactly at the `O(1,3)` reduction, which is exactly a point of `MET(X^{1,3})`, i.e. exactly the observation. Therefore LT-GR6b's revival trigger does not have one source horn but two, and neither is `MISSING_CONSTRUCTION`: read as `canonical`, the source REFUSES it by design commitment; read as `declared and used`, the source has ALREADY SATISFIED it since 2021 and LA-9 mode-TOP fires. The pullback route adds nothing: `s^*(tautological horizontal metric) = s`, exactly -- the base duality obtained by observation IS the observation."
 grade: "SOURCE DETERMINATION with quote-and-locus discipline, plus EXACT fractions.Fraction linear algebra (no numpy, no float constructed anywhere; assert_no_float sweeps the result dict). 87/87 checks, exit 0, via tests/channel-swings/joe_directed_bdc_met_x_argument.py from the repository root under _local/cas-venv. Split: 35 [Q] quote-at-locus checks against three primary surfaces, 15 [R] reproductions of repository facts made BEFORE use, 11 [E] exact results, 26 [C] controls -- including two ANTI-DRIFT checks that require this artifact's printed certificate to equal the probe's actual output, so the record and the certificate cannot diverge. FAILURE PATH EXERCISED: ten planted mutations each drive exit 1 through --selftest. NOT: a physics derivation, a construction of any GU object, a ledger edit, a register edit, a claim that GU works or fails, a coefficient, a count, or a canon movement."
-disposition: SOURCE_SUPPLIES_NO_CANONICAL_BASE_DUALITY_ON_X4_BY_EXACT_NATURALITY_OBSTRUCTION__BUT_DECLARES_ONE_AS_THE_SECOND_ARGUMENT_OF_ITS_OWN_FIRST_ACTION__LT_GR6b_TRIGGER_BIFURCATES_AND_BOTH_HORNS_ARE_DECIDED__NEITHER_IS_MISSING_CONSTRUCTION__CANONICAL_HORN_REFUSED_BY_DESIGN__DECLARED_HORN_SATISFIED_SINCE_2021__POSITIVITY_SUBCLAUSE_DISAVOWED_BY_SOURCE__PULLBACK_IDENTITY_S_STAR_TAU_EQUALS_S__OT1_LEG_B_NOT_SUPPLIED_CORRECTED__WITHDRAWN_CLAUSE_STILL_LIVE_IN_GEOMETER_VS_PHYSICS_OBJECTS
+disposition: SOURCE_SUPPLIES_NO_CANONICAL_BASE_DUALITY_ON_X4_BY_EXACT_NATURALITY_OBSTRUCTION__BUT_DECLARES_ONE_AS_THE_SECOND_ARGUMENT_OF_ITS_OWN_FIRST_ACTION__LT_GR6b_BASE_TRIGGER_BIFURCATES__CANONICAL_HORN_REFUSED_BY_DESIGN__DECLARED_HORN_SATISFIED_SINCE_2021__GLOBAL_LORENTZ_SECTION_REMAINS_CONDITIONAL__OBSERVED_SECTOR_POSITIVITY_IS_SOURCE_OPEN_OR_UNSUPPLIED_NOT_DISAVOWED__PULLBACK_IDENTITY_S_STAR_TAU_EQUALS_S__OT1_LEG_B_NOT_SUPPLIED_CORRECTED__WITHDRAWN_CLAUSE_STILL_LIVE_IN_GEOMETER_VS_PHYSICS_OBJECTS
 rows_proposed: []
 rows_advanced: 0
 free_object_delta: 0
@@ -48,9 +48,19 @@ scripts:
 > Classification: `SOURCE_NATIVE_ROUTE`.
 >
 > This artifact makes **no** conventional-comparator claim. It reads the primary
-> sources for what they supply on `X^4` and reports it. The only comparator-
-> adjacent sentence is the positivity finding in §4.4, and it is reported as the
-> source's own stated posture, not as a conventional result imported into GU.
+> sources for what they supply on `X^4` and reports it. Section 4.4 distinguishes
+> the source-confirmed ambient Killing-form posture from the separate, unresolved
+> question of positivity on an observed physical quotient.
+
+> [!CAUTION]
+> **CORRECTION IV-20260815 — post-verification source semantics.** The original version inferred
+> from the `[00:45:00]` Killing-form passage that the source *disavows positivity
+> on the physical quotient*. That inference crossed two objects. The passage
+> endorses ambient noncompact/indefinite structure and says the author does not
+> know how nature handles it while experiments are shielded by a maximal compact
+> subgroup. It neither constructs nor rejects a positive observed-sector
+> quotient. Every former “source disavows physical positivity” conclusion below
+> is therefore withdrawn; the honest source status is **open/unsupplied**.
 
 # BD-C — the base duality is the second argument, not the missing datum
 
@@ -81,11 +91,12 @@ Three further findings, each certified below:
 1. **The pullback route adds nothing.** `s^*(tautological horizontal metric) = s`,
    exactly. Whatever base duality observation delivers on `X^4` **is** the
    observation. There is no second, independent object to construct (§3.4).
-2. **The trigger carries a clause the source disavows.** Its last words are
-   *"positive on the physical quotient."* At UCSD `[00:45:00]` Weinstein says
-   *"We wasted the seventies work because we wanted to avoid indefinite
-   signature on the killing form."* The positivity subclause is not an open
-   construction in GU; it is a posture GU rejects (§4.4).
+2. **The trigger fuses an ambient posture with an unresolved physical demand.**
+   Its last words are *"positive on the physical quotient."* At UCSD
+   `[00:45:00]` Weinstein defends indefinite signature on the **Killing form**,
+   then says he does not know how nature handles the indeterminacy and that a
+   maximal compact subgroup shields experiment. That passage does not decide
+   whether a positive observed-sector quotient exists or is required (§4.4).
 3. **A correction of record with a live blast radius.** The clause the routing
    method withdrew on 2026-08-14 as *not source-attested and refuted* is still
    present, in almost the same words, at `GEOMETER-VS-PHYSICS-OBJECTS.md:25` —
@@ -211,10 +222,11 @@ explicitly in that list of responsibilities, because it is the least glamorous
 one and therefore the one a rhetorician would omit unless he meant it.** It is
 named first (§2.1, `[00:53:11]`).
 
-The reason this matters for `LT-GR6b`: a row demanding that GU produce a
-*source-owned* density on `X^4` is demanding that GU re-assign to some new owner
-the exact duty the source's stated motivation is to strip. That is not an open
-construction. It is a demand aimed against the theory's declared design.
+The reason this matters for `LT-GR6b`: a row demanding a **canonical
+background** density on bare `X^4` would re-assign the exact duty the source's
+stated motivation is to strip. But the source's own observed action is allowed
+to depend on the chosen metric argument. This history-of-physics reading says
+nothing by itself about positivity after observation or reduction.
 
 ### Lens P6 — epistemics of attribution: how this route fails
 
@@ -606,7 +618,7 @@ Clause by clause:
 | *source-owned* | **bifurcates** — §4.2 |
 | *global* | **conditional on the topology of `X`**, and the source knows it — §4.3 |
 | *`Ad`-invariant fibre form at a NAMED subscript* | **available at subscript `G`**; OT-1 itself returns `O4 = OWNED_G` on the `𝔰𝔬(7,7)` trace form `[R]` |
-| *positive on the physical quotient* | **disavowed by the source** — §4.4 |
+| *positive on the physical quotient* | **source-open/unsupplied** — the source affirms ambient Killing-form indefiniteness but does not determine observed-sector positivity; §4.4 |
 
 ### 4.2 The bifurcation, and why neither horn is `MISSING_CONSTRUCTION`
 
@@ -652,7 +664,7 @@ uncertain, and I do not read a settled posture out of it in either direction.
 whose real content is "assume `χ(X) = 0`, or restrict to `X` admitting a
 Lorentz section" is a very different row from one demanding a missing object.
 
-### 4.4 The positivity subclause is aimed against the source's stated posture
+### 4.4 Ambient Killing-form indefiniteness does not decide physical positivity
 
 The trigger ends *"that is positive on the physical quotient."* At UCSD
 `[00:45:00]` (`:155`):
@@ -663,14 +675,27 @@ The trigger ends *"that is positive on the physical quotient."* At UCSD
 > experimentally from understanding how nature handles the indeterminacy of the
 > killing form."*
 
-**`SOURCE-CONFIRMED`.** This is the same posture `GEOMETER-VS-PHYSICS-OBJECTS.md`
-already records as settled on the geometer's side (`KEEP-AND-GRADE` the ghost
-via a Krein form; indefinite rather than positive Hilbert). A revival trigger
-requiring positivity on the physical quotient is therefore requiring GU to
-become the theory the author says was the seventies' mistake. It may still be
-the right *physics* demand — this artifact takes no position on that — but it
-is **not** a source horn, and it should not sit inside a clause labelled
-*source-owned*.
+**`SOURCE-CONFIRMED`, but only for the ambient Killing-form posture.** This
+supports the repository's rule that noncompact/Krein structure cannot be
+rejected merely because the raw invariant form is indefinite. The next two
+sentences matter equally: Weinstein says he does not know what to do, and that
+experiment is shielded by a maximal compact subgroup. They leave open exactly
+the question `LT-GR6b` asks at a later layer: whether an observed physical
+quotient carries an adequate positive or definitized pairing.
+
+The original version of this section called that later demand “disavowed by the
+source.” **Withdrawn.** It conflated an ambient invariant form with a reduced
+physical state space. The corrected source classification is:
+
+- ambient noncompact/Killing-form indefiniteness: `SOURCE-CONFIRMED`;
+- maximal-compact experimental shielding: `SOURCE-CONFIRMED` as a stated
+  interpretation, not a constructed selector;
+- a positive observed physical quotient: `SOURCE-OPEN/UNSUPPLIED` in the
+  available material.
+
+Thus positivity must not be bundled into the phrase *source-owned base
+duality*. It is a distinct physicalization debt whose owner, quotient and
+mechanism still have to be constructed.
 
 ### 4.5 Where the frame actually regressed — and it is NOT at OT-1's identification
 
@@ -718,7 +743,7 @@ routes' theorems are untouched.
 | 8 | `I^B_1 : 𝒢 × MET(X^{1,3}) → ℝ` — the base metric is the second argument | `SOURCE-CONFIRMED` |
 | 9 | Eq (9.4) prints `Hodge Star` and `Zorro Metric` brace labels on a `g_ℷ`-subscripted pairing | `SOURCE-CONFIRMED` (register-mediated) |
 | 10 | The source's declared inputs are: four degrees of freedom, one time dimension, a spin structure | `SOURCE-CONFIRMED` |
-| 11 | The source disavows a positivity posture on the Killing form | `SOURCE-CONFIRMED` |
+| 11 | The source affirms ambient Killing-form indefiniteness, reports maximal-compact experimental shielding, and leaves the physical resolution open | `SOURCE-CONFIRMED` for the quoted posture; observed-sector positivity remains `SOURCE-OPEN/UNSUPPLIED` |
 | 12 | The source disavows Kaluza–Klein | `SOURCE-CONFIRMED` |
 | 13 | No `GL(4,ℝ)`-invariant symmetric form or density on `ℝ⁴`; obstruction survives `GL⁺` and the line stabiliser; dies at `O(1,3)` | `REPOSITORY-DERIVED` (exact, this artifact) |
 | 14 | `s^*(tautological horizontal metric) = s`, exactly | `REPOSITORY-DERIVED` (exact, this artifact) |

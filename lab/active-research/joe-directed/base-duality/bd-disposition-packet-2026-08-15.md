@@ -8,6 +8,7 @@ ledger_base: lab/process/conditional-physics-ledger-v0.258.json
 base_revision: a148ed80
 ledger_edit: "none -- versionless delta packet for the canonical owner"
 target_claim: "NONE-NOT-A-KILL -- this packet adjudicates no source claim. It consolidates repository-internal corrections already certified in their own artifacts, each cited below."
+canonical_effect: pending_integration
 ---
 
 # Consolidated disposition packet
@@ -16,6 +17,14 @@ Everything the joe-directed channel produced on 2026-08-15 that requires a
 **canonical-owner decision**, in one place, with the artifact and certificate
 that established each item. The channel never edits the ledger; this is the
 handoff.
+
+> [!CAUTION]
+> **CORRECTION IV-20260815.** The original packet said the source disavows
+> positivity on the physical quotient and treated the free Yang--Mills symbol
+> quotient as if it removed a GU-owned object. Both claims are withdrawn. The
+> source affirms ambient Killing-form indefiniteness while leaving observed-
+> sector positivity open/unsupplied; BD-D computes a comparator symbol
+> cohomology, not GU's physical quotient.
 
 Items are ordered by consequence. Nothing here is a grant laundered into a
 derivation: where a result holds only under a condition, the condition is
@@ -32,8 +41,8 @@ separate defect in it. The row's *subject* survives; its **statement does not**.
 |---|---|---|
 | 1 | Its `distance` contains a **domain error**. `OT-1`'s theorem is about invariant forms on the **algebra**; the trigger asks for a pairing on the **module**. At `d = 4`: algebra gives max rank 6 of 15, module gives **12 of 12**. The clause *"at subscript `W` the composite provably does not exist"* is **false of the trigger's own object**, and a nondegenerate member exists at `d = 14`. | `bd-a`, 68/68 |
 | 2 | The subscript clause is **malformed in principle**, not merely wrong. The fibre subscript is **inert** — an exact rank bound in which it never appears. Any subscript-indexed clause here is a category error. | `bd-b`, 131/131 |
-| 3 | The final clause *"positive on the physical quotient"* is **disavowed by the source**, which states that avoiding indefinite signature on the Killing form is what wasted the seventies work. | `bd-c`, 87/87 |
-| 4 | Its `reason_kind` `NEEDS / MISSING_CONSTRUCTION` is **unavailable under both readings** of "source-owned": the canonical horn is refused as *purpose*, and the declared-and-used horn has been satisfied since April 2021, when the first action's domain was printed as a product whose second factor is the space of base metrics. | `bd-c` |
+| 3 | The final clause *"positive on the physical quotient"* is a **separate physicalization debt**, not a base-duality clause. The source confirms ambient Killing-form indefiniteness but leaves observed-sector positivity open/unsupplied. BD-D prices only an imported free Yang--Mills symbol quotient. | corrected `bd-c`; corrected `bd-d` |
+| 4 | Its single `reason_kind` fuses distinct statuses: the action's metric-dependent pairing is declared; existence of a global Lorentz section is conditional; the fibre Cartan/maximal-compact selector is external; and GU's action-derived BRST/BV quotient is unbuilt. | corrected `bd-c`; corrected `bd-d` |
 
 Two further corrections to the same artifact:
 
@@ -45,11 +54,23 @@ Two further corrections to the same artifact:
   ones that need this clause, and the **eleven action-zero rows** do not
   (`bd-a`).
 
-**Recommended disposition.** Do not file as written. If filed, the subject is
-*fibre positivity*, not base duality; the `reason_kind` is external-datum or
-structural rather than missing-construction; "positive" is replaced by
-"definite at a **named** Cartan involution"; and the row attaches to the
-Hessian class.
+**Recommended disposition.** Do not file as written. Replace the compound row
+with separately typed debts:
+
+1. **Formal action metric/pairing — declared.** `MET(X^{1,3})` is the action's
+   second argument and `g_ℷ`/Hodge data supply the metric-dependent family. This
+   does not establish metric variation or the full action.
+2. **Global Lorentz section — conditional topology.** A section must exist on
+   the chosen `X`; this is not a missing algebraic pairing.
+3. **Fibre Cartan/maximal-compact selection — external/open.** A named
+   involution yields a positive majorant, but the source does not construct the
+   physical selector.
+4. **Actual GU action/BRST/BV quotient — missing construction.** The 182D
+   screen is a free Yang--Mills symbol comparator. GU still owes its Gauss law,
+   interacting complex, quotient, domain and physical positivity.
+
+No Hessian or spectrum row inherits BD-D's `n_κ = 0` condition without a typed
+carrier/action/quotient bridge.
 
 **Open and NOT settled here:** whether the object belongs in `rows` at all.
 `CB-B §PRE-3` asserts `free_object_delta = 0`, so a reader holding that binding

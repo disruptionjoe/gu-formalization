@@ -58,11 +58,14 @@ one. Reproducible: `python tests/wave14/H19_seven_seven_branch.py` (**exit 0, 11
 > compact subgroup of spin six comma spin four"*, which names no group at all: a spurious `spin`
 > inserted into the same `X comma Y` frame, one clause earlier.
 >
-> **3. The decided reading, and its provenance.** `Spin(6,4) > SU(3,2) > S(U(3)xU(2))`, decided
-> by `lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md` (SC-A, 85/85)
+> **3. The best-supported reconstruction, and its provenance.** `Spin(6,4) > SU(3,2) >
+> S(U(3)xU(2))` is selected by
+> `lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md` (SC-A, 85/85)
 > on the chain sentence, and by `la7-...-2026-08-15.md` §1.4 on the adjacent sentence. Both
-> arrows are constructed: `SU(3,2) < Spin(6,4)` by realifying a Hermitian `(3,2)` form
-> (`24 <= 45`), and `S(U(3)xU(2)) < SU(3,2)` as the maximal compact (`12 <= 24`).
+> subgroup embeddings construct fibrewise: `SU(3,2) < Spin(6,4)` by realifying a Hermitian
+> `(3,2)` form (`24 <= 45`), and `S(U(3)xU(2)) < SU(3,2)` as the maximal compact (`12 <= 24`).
+> The audio remains unchecked; the 2021 draft is extraction-mediated; a global arrow 1 needs
+> compatible complex/determinant reduction data; arrow 2 remains `REDUCTION_EXTERNAL`.
 >
 > **4. It is not a subgroup tower at all, and this is the part that matters here.** The arrows
 > are **structure-group reductions of one rank-10 vertical bundle**, not symmetry breakings.
@@ -173,8 +176,9 @@ restated for the real class. This is a change, not a break.
 
 - **Q3b (SM reduction chain: survives on the common fiber).** *(Chain attribution CORRECTED
   2026-08-15 -- see the CAUTION block above. This bullet originally wrote the middle node as
-  `Spin(3,2)` and called the object an "SM embedding"; both were wrong.)* The source's chain is
-  `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` (transcript `[00:43:47]`: "the Standard Model answers the
+  `Spin(3,2)` and called the object an "SM embedding"; both were wrong.)* The repository's
+  best-supported chain reconstruction is `Spin(6,4) > SU(3,2) > S(U(3)xU(2))`
+  (transcript `[00:43:47]`: "the Standard Model answers the
   question, what is the maximal compact subgroup of `SU(3,2)`", said twice; Pati-Salam
   `= Spin(6) x Spin(4) =` maximal compact of `Spin(6,4)`), and its arrows are **structure-group
   reductions of the rank-10 vertical bundle**, not a subgroup tower -- *"There is no grand
@@ -218,8 +222,8 @@ the honest cost is that `(7,7)` is a weaker constraint, not a stronger one.**
 
 - **Q4b (no GU-native selector for `sign(d)`).** *(Chain attribution CORRECTED 2026-08-15 -- see the
   CAUTION block above.)* The `(6,4)` fiber -- the only structure common to the two totals -- is
-  `g -> -g` invariant, so it carries no `sign(d)` and cannot select. Weinstein's
-  `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` chain rides that invariant fiber, so it too is **neutral** on
+  `g -> -g` invariant, so it carries no `sign(d)` and cannot select. The reconstructed
+  `Spin(6,4) > SU(3,2) > S(U(3)xU(2))` pattern rides that invariant fiber, so it too is **neutral** on
   the total signature. Only the base pullback (linear in `g`) carries the sign, and the observerse
   (the space of metrics) has no preferred timelike-norm sign. The three candidate levers named in the
   swing all fail to select:
@@ -234,8 +238,9 @@ the honest cost is that `(7,7)` is a weaker constraint, not a stronger one.**
   **Did this bullet's neutrality argument USE the nesting? No -- and the corrected reading makes it
   STRONGER, which is a fact about the argument and not a point for GU.** The neutrality claim needs
   only that the chain's nodes are structure groups of a `g -> -g` invariant fiber. Under the old
-  nested reading that was an assertion about a chain that could not exist. Under the decided reading
-  it is exact: all three nodes are successive structure groups of the *same* rank-10 `(6,4)` bundle
+  nested reading that was an assertion about a chain that could not exist. Under the best-supported
+  reconstruction the fibrewise neutrality is exact: all three nodes can be successive structure
+  groups of the *same* rank-10 `(6,4)` bundle
   (`so(6,4)` is its structure algebra, `su(3,2)` is the stabiliser of a compatible complex structure
   on it, `s(u(3)+u(2))` is the maximal compact of that), so their common neutrality is a theorem about
   one bundle rather than a coincidence across three groups. **The conclusion this tightens is

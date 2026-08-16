@@ -36,6 +36,19 @@ probe: tests/channel-swings/joe_directed_ar3_rediscovery_rate.py
 
 Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`
 
+> **CORRECTION IV-20260815 — final-session baseline.** AR-3 was committed at
+> `805713e8` (14:04). Eight additional Joe-directed research artifacts landed
+> later in the same session. They were not members of the human-audited cluster
+> sweep and cannot be added to the denominator without also auditing their
+> numerators. The `44` denominator is therefore the explicit publication-cut
+> cohort, not every file bearing the same calendar date. The probe now lists
+> the eight later paths as `POST_MEASUREMENT_SAME_SESSION`; archaeology files
+> and the steward record remain the other declared exclusions. Later
+> `integration-review/` outputs are also excluded by declared path class. The published
+> `6/44` floor and sensitivity spread are unchanged, but they must be described
+> as a measurement-cut result, not a final-day census. `--selftest` now refuses
+> to run mutations unless the unmutated baseline passes first.
+
 This artifact quotes results drawn from all three routing classes — a
 `(49,42)` inertia from a source-native construction, a `MET(X)` action domain
 from the primary draft, a `126`-channel result from a conventional comparator —
@@ -284,7 +297,8 @@ surfaced as banked knowledge.
 
 **Population.** Every dated markdown artifact in
 `lab/active-research/joe-directed/` bearing the date `2026-08-14` or
-`2026-08-15`.
+`2026-08-15` that existed at the publication cut `805713e8`. See correction
+`IV-20260815` above for the eight later same-session exclusions.
 
 **Why this window.** It is bounded, recent, and *complete* — no sampling, every
 artifact examined. It is the channel in which all four brief-named cases
@@ -303,6 +317,7 @@ drift:
 |---|---|
 | `archaeology/*` — the `AR-1`, `AR-2` and `AR-3` sweeps | meta-audits **of** this channel, commissioned to measure it. Counting a measurement of the corpus as a member of the corpus is circular, and in `AR-3`'s case would let this artifact lower its own rate by existing |
 | `steward-2026-08-14-research-maintenance-pass.md` | housekeeping; derives nothing |
+| eight `POST_MEASUREMENT_SAME_SESSION` artifacts, listed exactly in the probe | landed after the human-audited sweep; adding them to the denominator without auditing their numerators would manufacture a rate |
 
 Both exclusions raise the rate rather than lower it (they would otherwise be
 clean denominators with no re-derivation), so they are declared against
@@ -717,7 +732,8 @@ _local/cas-venv/bin/python tests/channel-swings/joe_directed_ar3_rediscovery_rat
 ```
 
 `301/301` checks, exit 0 — `291` exact `[E]`, `10` planted controls `[C]` that
-must fail for the certificate to have power. `--selftest` plants ten false facts
+must fail for the certificate to have power. `--selftest` first requires this
+unmutated baseline to pass, then plants ten false facts
 — re-labelling `K6` as `REPRODUCED`, declaring `K9` cited, back-dating an owner,
 calling `BD-D`'s disciplined `[R]` reproduction waste — and each forces exit 1.
 

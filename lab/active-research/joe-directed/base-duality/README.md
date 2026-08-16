@@ -48,13 +48,20 @@ forms on the **algebra**; `LT-GR6b`'s trigger asks for a pairing on the
 reading 12 of 12. *Same group, opposite answers.* `BD-B` independently
 confirmed the fork and found the pairing names **three** distinct objects.
 
-**3. The obstruction is fibre positivity, and the source disavows demanding
-it.** With a Lorentzian base the composite is never positive-definite for any
+**3. The bare-module obstruction is fibre definiteness; physical positivity is
+source-open.** With a Lorentzian base the composite is never positive-definite for any
 nonzero fibre form; an `Ad`-invariant definite fibre form requires compact
 type, and the source group's trace form is `(49, 42)`. So equivariance at the
-source group and positivity are **jointly unsatisfiable** — while the source
-states that avoiding indefinite signature on the Killing form is what wasted
-the seventies work.
+source group and definiteness are **jointly unsatisfiable** on that bare module.
+The source says avoiding indefinite Killing-form signature was a mistake, but
+also leaves the observed-sector handling unknown and invokes maximal-compact
+experimental shielding. `CORRECTION IV-20260815` withdraws the old claim that
+the source disavows positive physical cohomology.
+
+`BD-D`'s 182-dimensional screen is free linearised Yang--Mills symbol
+cohomology, not GU's derived physical quotient. Its exact inertias and
+one-involution Krein majorant survive as comparator results; GU still owes its
+Gauss law, interacting BRST/BV complex, domain and physical positivity.
 
 ## The relay defect, located to one word
 

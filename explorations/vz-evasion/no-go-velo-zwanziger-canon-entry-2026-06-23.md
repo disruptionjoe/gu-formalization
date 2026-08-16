@@ -26,9 +26,9 @@ verdict to `CONDITIONALLY_EVADED` (VZ-01 circularity flag,
 the curved-gauge extension still open.
 What the map still lacks is a **formal fifth-theorem VZ canon entry of the same shape as
 the other four**: a self-contained statement of (a) the assumptions VZ fixes, (b) the
-precise evasion type — the Clifford-module-non-sub-module mechanism — stated as a formal
-condition GU satisfies in place of a VZ hypothesis, and (c) explicit failure conditions
-that would falsify the evasion.
+precise candidate evasion type — the Clifford-module-non-sub-module mechanism — stated as
+a conditional reconstruction in place of a VZ hypothesis, and (c) explicit failure
+conditions that would falsify the evasion.
 
 This file is that entry. It is a **synthesis / no-go-map update**, not an index inflation
 or a new computation. It does not re-derive the Schur complement, the §18 4D pullback, or
@@ -99,16 +99,17 @@ VZ fixes the class of theories satisfying **all** of:
 - **VZ-H5 (no guardian).** No local symmetry principle (local SUSY, higher-spin gauge
   invariance) maintains the subsidiary conditions.
 
-### 3.3 Condition GU satisfies instead of VZ-H1 — the evasion type
+### 3.3 Candidate condition in place of VZ-H1 — the conditional evasion type
 
 **Evasion type: Clifford-module-non-sub-module mechanism.**
 
-GU does **not** evade VZ by exiting H3 (it does not — the RS(3,1)⊗S(6,4) sector carries a
+The proposed route does **not** exit H3 (the RS(3,1)⊗S(6,4) sector carries a
 full Pati-Salam generation of SM charges, so H3 fires at 4D; the "trivial internal coupling"
-claim is false, `vz1-velo-zwanziger-analysis-2026-06-22.md` Finding 1). Nor does it evade by
-supplying a guardian (H5 may hold; GU has no established local SUSY). GU evades by
-**violating H1**: there is no standalone RS field to which VZ applies. The formal condition
-GU satisfies in place of VZ-H1 is:
+claim is false, `vz1-velo-zwanziger-analysis-2026-06-22.md` Finding 1). Nor does it supply a
+guardian (H5 may hold; GU has no established local SUSY). The candidate class-exit is H1:
+the reconstructed operator treats the RS component as a summand of a larger Clifford
+module rather than as a standalone field. Whether the actual GU action and interacting
+constraint complex realize that candidate is open. The formal symbol-level condition is:
 
 > **GU-VZ (Clifford-module non-sub-module).** The RS sector is the gamma-trace kernel
 > `R = ker Γ ⊂ E` of the full Clifford module bundle `E` of the single Dirac-type operator
@@ -125,19 +126,21 @@ GU satisfies in place of VZ-H1 is:
 > ```
 >
 > (exact, from block-square identities (I) `A^2 + BC = xi2 Id` and (II)/(III) `AB = −BE`,
-> `EC = −CA`; `vz-oq1`). Identity (GU-VZ-ENT) is the formal statement that the RS sector
-> cannot be detached from the spin-1/2 sector at any energy scale: the coupling is
-> **kinematic** (fixed by the Clifford algebra), not dynamical (a choice of Lagrangian).
+> `EC = −CA`; `vz-oq1`). Where the Schur complement exists, identity (GU-VZ-ENT) states
+> symbol-level kinematic mixing between the RS and spin-1/2 summands. It is not by itself an
+> interacting no-decoupling theorem at every energy scale.
 
-**Why GU-VZ defeats the VZ mechanism.** VZ's acausality is the statement that the
+**Why GU-VZ would defeat the VZ mechanism under its open conditions.** VZ's acausality is the statement that the
 characteristic cone of the standalone RS operator has spacelike sheets. Under GU-VZ the
 effective RS characteristic cone is `{xi : det S_R(xi) = 0}`. The §8 kernel argument shows
-`ker S_R(xi) = 0` for all non-null `xi` (i.e. `g_Y(xi,xi) ≠ 0`), so the characteristic cone
+`ker S_R(xi) = 0` for all non-null `xi` (i.e. `g_Y(xi,xi) ≠ 0`) **conditional on E-block
+invertibility**, so the characteristic cone
 is **contained in the null cone** `{g_Y(xi,xi) = 0}`. No spacelike characteristics exist;
-VZ acausality cannot arise. The mechanism is **not a guardian symmetry** (no SUSY is
+VZ acausality cannot arise within that conditional symbol model. The mechanism is **not a guardian symmetry** (no SUSY is
 invoked) and **not class-exit by trivial coupling** (H3 fires) — it is non-decoupling: VZ's
-H1 is structurally unavailable because `R` is a direct summand of a Clifford module, not a
-standalone field.
+H1 is absent from the reconstructed symbol because `R` is a direct summand of a Clifford
+module, not a standalone field. The actual GU action and physical carrier remain required
+before this becomes a theory-level evasion.
 
 ### 3.4 Forgetful operation
 
@@ -150,9 +153,10 @@ The VZ class is the image of the **minimal-coupling functor**
 
 `ϕ_mc` **forgets the Clifford-module embedding** `R ⊂ E` (the data of `B` and `C`) and
 treats `R` as an independent matter field. VZ is the statement that the image of `ϕ_mc` is
-ill-posed. GU lives in the domain of `ϕ_mc` but not in its image: the embedding datum
+ill-posed. The current GU reconstruction is placed in the domain of `ϕ_mc`, not its image;
+that placement remains conditional on the unconstructed action and carrier. The embedding datum
 `R ⊂ E` is exactly what `ϕ_mc` discards, and it is precisely (GU-VZ-ENT) — the kinematic
-entanglement — that carries the causal-cone guarantee. The smooth-bundle shadow forgets the
+entanglement — that conditionally carries the symbol-level causal-cone guarantee. The smooth-bundle shadow forgets the
 non-sub-module structure; the relation (a physical spin-3/2 multiplet in the spectrum)
 survives the shadow, the mechanism (non-decoupling) does not.
 

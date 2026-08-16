@@ -47,6 +47,19 @@ scripts:
 
 # HE-2 — the real form does not pair the `144` with the `144bar`
 
+> [!CAUTION]
+> **CORRECTION IV-20260815 — PARTNER PLACEMENT.** The original postflight
+> upgraded “the declared field content does not obviously supply a `144bar`” to
+> “a real defect of the construction.” That upgrade was not licensed. CR-B's
+> later source census establishes a full-Dirac, four-corner **ambient** field
+> space containing both conjugate centre classes. HE-2 still proves that one
+> `144` is complex and has no self-bilinear in any real form, and its
+> `n_g -> n_g - 1` statement remains a conventional comparator. What remains
+> open is whether the conjugate ambient corner is the physically relevant
+> partner, how the observation/VEV operator places it, and whether the exotic
+> remainder decouples. This is a partner-placement and physical-decoupling
+> obligation, not an established intrinsic defect.
+
 ## 0. The gate, verbatim, and what answering it decides
 
 HE-1 (2026-08-14, 62/62 exact) established in **complex** `so(10)` that the
@@ -575,15 +588,18 @@ antecedent is false. Classified: **HE-1's named kill is KILLED.**
 
 **Source-silent, recorded as such.** Everything HE-1 recorded as source-silent
 remains so: the energy scale; the threshold; the sign; which family is
-distinguished; whether the 128-state exotic remainder has a partner. HE-2 adds
-nothing to any of them. The remainder still carries no SM singlet, still cannot
-be lifted by any singlet VEV, and still would require a `144bar` that GU's
-declared field content does not obviously supply — and §3.2 now certifies that
-this `144bar` genuinely is a *different module*, so the problem is real rather
-than an artefact of computing in the complex form. **HE-1 posed exactly that
-disjunction ("either a real defect of the construction or an artefact of
-computing in the complex form — and which one it is, is exactly the real-form
-fork"). It is the first.**
+distinguished; and how the 128-state exotic remainder is paired or decoupled.
+HE-2 adds nothing to any of them. The remainder still carries no SM singlet and
+cannot be lifted by the singlet-VEV route tested here. Section 3.2 certifies that
+`144bar` is a genuinely different module, so a single isolated `144` cannot
+self-pair by changing real form. It does **not** establish that the total GU
+content lacks a conjugate ambient corner: CR-B's later census shows that the
+full-Dirac four-corner declaration contains both centre classes. Whether that
+corner supplies the relevant physical partner after observation, whether it
+belongs to the luminous or looking-glass half, and whether the remainder
+decouples are unconstructed. HE-1's disjunction is therefore not decided in
+favour of “intrinsic defect”; it is retyped as an open partner-placement and
+physical-decoupling obligation.
 
 ---
 
@@ -610,7 +626,8 @@ fork"). It is the first.**
   content is chiral; a physical carrier (`Pi_RS^phys` still does not exist); a
   dynamical or mass-matrix statement; an energy scale; a threshold; a resolution
   of the SIGNATURE-AMBIENT fork (this file is *robust to* it, which is not the
-  same as *deciding* it); that any experiment must see anything.
+  same as *deciding* it); absence of a conjugate ambient corner; an intrinsic
+  128-state defect; that any experiment must see anything.
 - **Claim-status movement:** none. `canon_verdict_change: none`. The count stays
   `{1,3}`. `SC-GEN-53` remains a typed seed. `canonical_effect:
   pending_integration`.

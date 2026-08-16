@@ -20,10 +20,16 @@ selection, orchestration and service history are **external** and are not
 authority for any scientific claim here; only the native evidence in these
 files is.
 
-Every artifact in this tree carries `canonical_effect: pending_integration`
-and moves no ledger, canon, `CURRENT-STATE` or `NEXT-STEPS` surface. They are
-**versionless deltas awaiting independent integration** by the canonical
-owner.
+Artifacts in this tree declare their own canonical effect. Most 2026-08-15
+research deltas carry `canonical_effect: pending_integration`, but this is not
+universal: some records declare `none`, a more specific proposed-diff status,
+or no field. Read the artifact front matter rather than inheriting a tree-wide
+default. None promotes itself into canon.
+
+**Session scope correction.** The exact trailer
+`session_015qsiNaasV9Pabea3Cf9K64` identifies **39 commits in this GU
+repository**, not 38. Three same-trailer commits in the separately governed
+private Runtime repository are not part of that GU count.
 
 ## Scope discipline that applies to the whole tree
 
@@ -87,7 +93,8 @@ Two further ceilings recur and should be read with every file:
 | `ledger-advancement/` | LA-1 | Difficulty assessment and versionless deltas against the conditional-physics ledger. 82 rows resolve to ~32 formal degrees of freedom; the near-universal cut vertex is **real** but its identification was broken and corrected by LA-10. See that namespace's own index. |
 | `ownership-theorem/` | OT-1 | An ownership predicate for GU's non-reductive symmetry, plus a pairing obstruction. OT-2 applied it and **broke the pair OT-1 proposed**: `OWN` is the right instrument for one row and the wrong one for the other. |
 | `phi-reduction/` | PHI-1 | The `14 -> 4` reduction map, constructed. 14D anomaly cancellation contributes **exactly zero bits** to the 4D verdict through the observation. PHI-2 extended the target lattice and promoted the `SOLDERED-AD` fork to **verdict-load-bearing** for `AC-D1..D5`. |
-| `base-duality/` | BD-A | **The blocking object was never the obstruction.** `MET(X^{1,3})` is the second argument of the source's own first action; a **domain error** (algebra vs module) had inverted the answer; and the fibre subscript is **inert**. Obstruction re-typed to **fibre positivity**, which the source disavows demanding. See that namespace's index and `bd-disposition-packet-2026-08-15.md`. |
+| `base-duality/` | BD-A | **The blocking object was never one object.** `MET(X^{1,3})` is the second action argument; global Lorentz-section existence remains conditional; fibre Cartan/maximal-compact selection is external; and GU's action-derived BRST/BV quotient remains unbuilt. Ambient Killing-form indefiniteness is source-confirmed, while observed-sector positivity is source-open/unsupplied. See `CORRECTION IV-20260815` in that namespace. |
+| `integration-review/` | IV-20260815 | Coherence integration record for exact session `015qsi`: source-semantic corrections, comparator ceilings, stale-probe repairs and verified disposition. See `session-015qsi-coherence-integration-repair-2026-08-15.md`. |
 
 ## Known corrections carried against these files
 
