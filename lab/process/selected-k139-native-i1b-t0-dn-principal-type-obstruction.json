@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k139-native-i1b-t0-dn-principal-type-obstruction",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B mixed-order Hessian at T=0 and nonzero normalized kappa_1 on the complete real Omega1(Cl(7,7)) carrier",
+  "target_claim": "K138_NEXT_GATE__COVARIANT_MIXED_ORDER_FIRST_ORDER_OR_DN_REDUCTION_REAL_PRINCIPAL_TYPE_AND_FIVE_BY_FIVE_LEAKAGE",
+  "dn_principal": {
+    "carrier_dimension": 229386,
+    "null_rank": 122748,
+    "null_kernel_dimension": 106638,
+    "action_owned_gauge_dimension": 4,
+    "null_principal_quotient_dimension": 106634,
+    "nonnull_kernel_dimension": 98474,
+    "nonnull_principal_quotient_dimension": 98470,
+    "gauge_reduced_null_jump": 8164,
+    "five_class_principal_kernel": false
+  },
+  "finite_schur": {
+    "distortion_block": "i*C_1(n)+kappa_1*K",
+    "K_order": 0,
+    "C_1_order": 1,
+    "C_1_null_kernel_dimension": 106630,
+    "K_required_for_fixed_frequency_inverse": true,
+    "metric_schur_form": "-48*ell_n*ell_n^T",
+    "metric_radical_dimension": 9,
+    "gauge_reduced_dimension": 5,
+    "ordinary_dn_principal_object": false
+  },
+  "reduction": {
+    "equivalent_first_order_five_carrier_constructed": false,
+    "action_owned_distortion_constraint_complex": false,
+    "action_owned_projector_from_106634_to_5": false,
+    "real_principal_type_five_carrier_certificate": false,
+    "invariant_five_by_five_dencker_endomorphism": "UNDEFINED_WITHOUT_REDUCTION_OWNER",
+    "semiclassical_or_anisotropic_route_open": true
+  },
+  "claim_ceiling": "exact mismatch between the complete homogeneous DN principal quotient and the covariant finite-frequency five-class Schur quotient; added constrained or parameter-dependent reductions remain open",
+  "next_gate": "K140_ACTION_OWNED_CONSTRAINT_OR_SEMICLASSICAL_CALCULUS_SELECTION__PROJECTOR_EQUIVALENCE_TANGENTIAL_PRESERVATION_AND_TYPED_SUBPRINCIPAL_GATE",
+  "canon_verdict_change": "none"
+}

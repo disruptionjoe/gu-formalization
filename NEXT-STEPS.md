@@ -7,6 +7,22 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K139 SEPARATES THE FIVE-CLASS FINITE SCHUR BUNDLE FROM THE
+> COMPLETE DN PRINCIPAL MODULE.** The homogeneous `229386`-dimensional coupled
+> DN symbol has null rank `122748` and nullity `106638`; modulo the only four
+> action-owned diffeomorphisms, its principal quotient is `106634`-dimensional,
+> not five. K138's exact rank-five bundle arises only after the lower-order
+> Hodge mass makes `i C_1+kappa_1 K` invertible at finite frequency and the
+> distortion variables are Schur-eliminated. Since `K` is order zero, it is
+> absent from the ordinary DN principal symbol; `C_1` alone has nullity
+> `106630`. No owned distortion constraint complex or projector reduces those
+> principal classes to five, so the requested five-by-five Dencker leakage
+> matrix is currently undefined rather than zero or nonzero. K138's geometric
+> quotient remains exact. **K140 must derive an action-owned invariant
+> constraint/projector or specify a semiclassical/anisotropic calculus with
+> parameter weights, uniform estimates and equivalence to the original
+> equations before computing a typed subprincipal connection.**
+
 > **2026-08-16 K138 CONSTRUCTS THE COVARIANT FIVE-CLASS NULL BUNDLE AND
 > CORRECTS THE CROSSING/THREE-JET ORDER.** At the reference null covector and
 > the exact rationally rotated covector `(1,3/5,0,4/5)`, the full action-derived

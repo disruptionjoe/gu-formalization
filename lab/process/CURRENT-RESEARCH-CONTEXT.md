@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K139 DN principal-type obstruction:** the complete homogeneous
+> coupled DN symbol acts on `229386` variables and has null rank `122748`,
+> hence nullity `106638`. Removing the only four action-owned metric
+> diffeomorphisms leaves a `106634`-dimensional principal quotient, not K138's
+> five-class bundle. The five classes arise from a nonhomogeneous
+> finite-frequency Schur elimination that essentially uses the lower-order
+> Hodge mass `K`; `C_1(n)` alone has nullity `106630`. No action-owned
+> distortion constraint complex or projector collapses that principal module
+> to five. Consequently a five-by-five Dencker leakage matrix is undefined in
+> the current DN calculus, while K138's covariant finite-symbol geometry stays
+> exact. K140 owns the action-derived constraint/projector or explicitly
+> semiclassical/anisotropic calculus and equivalence gate.
+
 > **Current K138 null-stratum covariance and subprincipal type gate:** on two
 > exact null directions, including a full `224`-coordinate rotated Clifford
 > packet, the action-derived metric Schur form is

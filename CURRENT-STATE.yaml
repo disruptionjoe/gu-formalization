@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K139 now proves that K138's covariant five-class null quotient is not the
+    characteristic kernel of the action's currently declared homogeneous
+    Douglis-Nirenberg principal symbol. The complete 229386-dimensional
+    coupled DN symbol has null rank 122748 and nullity 106638; after removing
+    the only four action-owned diffeomorphisms, its principal quotient has
+    dimension 106634, not five. K138's exact five-class object instead arises
+    only after the lower-order Hodge mass makes i C_1(n)+kappa_1 K invertible
+    at finite frequency and distortion is Schur-eliminated. K is order zero
+    and cannot enter the ordinary DN principal symbol, while C_1(n) alone has
+    nullity 106630. An equivalent homogeneous first-order prolongation cannot
+    silently delete the remaining non-gauge modes, and the action owns no
+    distortion gauge or constraint complex that does so. The five-by-five
+    action-specific Dencker leakage matrix is therefore undefined under the
+    current calculus, while K138's finite-symbol geometric bundle remains
+    exact. K140 must test an action-derived constraint projector or declare a
+    semiclassical/anisotropic calculus with uniform equivalence before any
+    subprincipal, domain, BFV, positivity or physical-state claim. Joe input
+    is not required.
     K138 now proves that K136's five gauge-reduced null classes do form a
     covariant rank-five vector bundle on one smooth null stratum, while K137's
     obstruction to extending that bundle through nonnull and spacelike-shell

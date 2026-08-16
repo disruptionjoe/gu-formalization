@@ -303,6 +303,20 @@ subprincipal convention and the exact leakage map from the five quotient
 classes to their complement. If two admissible reductions give inequivalent
 leakage, that nonuniqueness is the result. Joe input is not required.
 
+## K139 successor classification
+
+K139 now proves that the five-dimensional K138 quotient is not the
+characteristic kernel of the currently declared homogeneous DN system. The
+complete coupled DN null kernel has dimension `106638`; after the only four
+action-owned diffeomorphisms are removed, its quotient is `106634`, not five.
+K138's quotient instead uses the lower-order Hodge mass to invert
+`iC_1+kappa_1 K` at finite frequency and then Schur-eliminate distortion.
+That exact construction remains valid, but it is not an ordinary homogeneous
+principal-symbol reduction. With no action-owned distortion constraint
+complex or projector from `106634` classes to five, a five-by-five Dencker
+matrix is undefined. K140 owns the action-derived constraint or explicitly
+semiclassical/anisotropic calculus gate and its equivalence proof.
+
 Reproduce:
 
 ```bash
