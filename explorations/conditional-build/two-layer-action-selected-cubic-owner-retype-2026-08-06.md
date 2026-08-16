@@ -163,6 +163,14 @@ Before any further coefficient assembly, K119 must select the primitive action
 layer and construct the stationary observed-to-native two-jet.  See
 `selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md`.
 
+## K121 successor closure — 2026-08-15
+
+K120 owned the native `I1B` TT two-jet; K121 now refutes affine fusion of the
+`I_sc` scalar action germ with the exact `I1B` radial germ. Their shared
+dark-energy role does not license coefficient addition. K122 therefore
+assembles the complete native `I1B` cubic first and retains `lambda` only as
+an explicit later translation datum.
+
 ## Evidence
 
 - `tests/channel-swings/two_layer_action_selected_cubic_owner_retype_probe.py`

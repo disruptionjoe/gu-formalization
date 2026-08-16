@@ -95,9 +95,9 @@ check("source", "unrestricted boundary moment map remains live", "unrestricted e
 check("artifact", "source-native routing notice is present", "GU-COMPARATOR-ROUTING — scope before inference" in artifact)
 check("artifact", "I1B partial closure is explicit", "TT geometric two-jet is owned for `I1B`" in artifact)
 check("registry", "registry owns TT columns but not the complete map", registry["i1b_twojet"]["tt_columns_independent_of_lambda"] and not registry["i1b_twojet"]["complete_three_field_map_selected"])
-check("registry", "registry routes next to scalar normalization", registry["next_gate"].startswith("K121_SCALAR_BRIDGE"))
-check("repo", "current question advances to scalar bridge", "scalar bridge" in current.lower())
-check("repo", "roadmap leads with K120", "K120" in roadmap[:5000] and "scalar" in roadmap[:5000].lower())
+check("registry", "registry records K121 closure and routes to native K122", registry["next_gate"].startswith("K122_NATIVE_I1B") and registry["successor_closure"]["swing"] == "K121")
+check("repo", "current question advances to native cubic assembly", "complete native i1b pullback cubic" in current.lower())
+check("repo", "roadmap leads with K121", "K121" in roadmap[:5000] and "8736" in roadmap[:5000])
 check("repo", "context records TT partial closure", "tt" in context[:9000].lower() and "lambda" in context[:9000].lower())
 check("repo", "K119 carries the K120 successor closure", "K120 successor closure" in k119)
 

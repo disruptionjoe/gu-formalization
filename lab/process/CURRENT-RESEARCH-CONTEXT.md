@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K121 scalar role/action-germ gate:** the source identifies the
+> dark-energy carrier as the full equivariant parameterized-torsion field,
+> not as a normalized scalar coefficient. The `I_sc` scalar horn and exact
+> `I1B` `Phi1` radial restriction are role-linked but not the same affine
+> action germ: at stationarity their pure-scalar third derivatives are `0`
+> and `8736`. Their stationary families do not select a universal slope. A
+> nonlinear cancellation is possible only by adding the unowned scalar
+> second jet `q=208 lambda^2/kappa_1`, to which K119's fitted-`D2F` fence
+> applies. Keep `lambda` as an explicit Variancer translation datum. K122
+> must compute the complete native `I1B` cubic/preboundary packet on `(t,h,v)`
+> without importing `I_sc` coefficients; translate afterward, if needed, as
+> a family parametrized by `lambda`.
+
 > **Current K120 geometric two-jet custody and scalar-bridge gate:** the
 > source-native coordinate change `T=varpi-B_LC(g)` independently owns the
 > `I1B` metric/distortion `DF` columns and the nonzero spin-Levi-Civita `D2F`
@@ -16,9 +29,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > scalar injection `theta_Isc -> lambda theta Phi1`. Every nonzero `lambda`
 > leaves the owned TT jet unchanged but rescales the native radial cubic and
 > pulled preboundary scalar column. Observation is a receiver and the current
-> boundary moment map is live; neither selects `lambda`. K121 must compare the
-> two action quadratic forms, oriented interactions, stationary backgrounds
-> and observation semantics before any cubic assembly.
+> boundary moment map is live; neither selects `lambda`. K121 has now shown
+> that the role link survives but strict affine action-germ identity fails;
+> use the K121 block above for the current native K122 assembly.
 
 > **Current K119 stationary two-jet selection obstruction:** stationarity is
 > blind to `DF,D2F`. At `DI=0`, the pullback cubic still contains the
@@ -30,8 +43,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > Even the affine diagonal `D2F=0` lift retains one rescaling dimension after
 > both known diagonal projections match. Do not select `I_sc`, `I1B`, `I2B`
 > or `I_II` by stationarity, symbol reuse or cubic fit. K120 has since closed
-> the `I1B` TT geometry and isolated the scalar bridge. Use the K120 block
-> above for the current K121 gate.
+> the `I1B` TT geometry and isolated the scalar bridge; K121 has since refuted
+> strict affine action-germ fusion. Use the K121 block above for the native
+> K122 gate.
 
 > **Refined by K119 — K118 full-moving D3 owner-sufficiency gate:** `I_selected` is not
 > yet one cubic object at this seam. The observed scalar horn, `I1B`, `I2B`

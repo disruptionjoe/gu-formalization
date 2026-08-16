@@ -114,10 +114,10 @@ check("repo", "artifact states symbol-order correction", "The missing symbol" in
 check("repo", "registry leaves full selected pencil unselected", registry["completion_fork"]["full_selected_action_pencil"] == "NOT_SELECTED")
 check(
     "repo",
-    "current question has advanced through K120 to scalar-bridge selection",
-    "scalar bridge" in current.lower() and "two-jet" in current.lower(),
+    "current question has advanced through K121 to native cubic assembly",
+    "complete native i1b pullback cubic" in current.lower(),
 )
-check("repo", "roadmap preserves K117 beneath current K120", "K120" in roadmap[:3000] and "K117" in roadmap and "symbol" in roadmap.lower())
+check("repo", "roadmap preserves K117 beneath current K121", "K121" in roadmap[:3000] and "K117" in roadmap and "symbol" in roadmap.lower())
 check("repo", "context blocks K116 action-target reuse", "K116" in context[:5000] and "differential order" in context[:5000])
 check("repo", "research status records K117 correction", "K117 TT symbol-order" in status)
 check("repo", "K116 carries nearby K117 supersession notice", "K117 SYMBOL-ORDER CORRECTION" in k116)

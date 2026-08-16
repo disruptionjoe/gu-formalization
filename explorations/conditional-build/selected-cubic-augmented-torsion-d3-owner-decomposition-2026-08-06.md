@@ -315,3 +315,12 @@ observed scalar horn, `I2B`, and `I_II` remain different action layers, while
 the known `hh` and `vv` projections leave four first-order pencil entries
 free.  K119 therefore precedes package assembly: select the primitive action
 layer and the stationary observed-to-native two-jet first.
+
+## K121 successor closure — 2026-08-15
+
+K121 retains `theta_rad` as the native `Phi1` coefficient and resolves the
+previous scalar uncertainty at a sharper type: it shares the intended
+parameterized-torsion carrier role with the reduced `I_sc` scalar, but the two
+stationary action germs are not affinely identical (`D3=8736` here and zero
+in the horn). K122 may now assemble the complete native `I1B` owner sum; any
+observed translation remains explicitly parametrized by `lambda`.

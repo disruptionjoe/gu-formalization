@@ -250,6 +250,17 @@ phenomenology or GU truth-status claim changes.
 
 Exact probe: `35/35`.
 
+## K121 successor closure — 2026-08-15
+
+K121 finds a role link but refutes strict affine action-germ identity. The
+source's dark-energy candidate is the full parameterized-torsion field; the
+`Phi1` coefficient is only one native slice. At stationarity the `I_sc` pure
+scalar cubic is zero while the exact `I1B` radial cubic is `8736`, so no
+nonzero affine bridge equates the written actions. A nonlinear cancellation
+requires the new unowned scalar second jet `q=208 lambda^2/kappa_1`.
+Therefore `lambda` remains an explicit translation datum, while K122 may
+advance natively on `(t,h,v)` without importing `I_sc` coefficients.
+
 Reproduce:
 
 ```bash

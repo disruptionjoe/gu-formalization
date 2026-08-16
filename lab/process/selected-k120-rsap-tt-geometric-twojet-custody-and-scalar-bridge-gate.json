@@ -51,6 +51,11 @@
     "R6": "SPECTRAL_DOMAIN_AND_ATTACHMENT_LATER"
   },
   "checks": {"total": 35, "failures": 0},
-  "next_gate": "K121_SCALAR_BRIDGE_NORMALIZATION_AND_BACKGROUND_COMPATIBILITY",
+  "next_gate": "K122_NATIVE_I1B_COMPLETE_PULLBACK_CUBIC_AND_PREBOUNDARY_OWNER_DECOMPOSITION",
+  "successor_closure": {
+    "swing": "K121",
+    "result": "FULL_PARAMETERIZED_TORSION_ROLE_LINK_RETAINED__STRICT_AFFINE_I_SC_TO_I1B_RADIAL_ACTION_GERM_IDENTITY_REFUTED__LAMBDA_CONDITIONAL",
+    "artifact": "explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md"
+  },
   "canon_verdict_change": "none"
 }

@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K121 scalar role, action-germ and conditional-bridge gate 2026-08-15
+(exact incompatibility plus source-role retention; no canon/public-posture
+change).** Weinstein's source-level dark-energy candidate is the full
+equivariant parameterized-torsion field. The invariant `T=t Phi1` line is an
+exact native slice, but the source does not identify its coefficient with a
+separately normalized observed scalar. At their stationary points the
+fixed-geometry `I_sc` scalar restriction has `D3=0`, whereas the exact `I1B`
+radial restriction `1456t^3+7kappa_1 t^2` has `D3=8736`; hence no nonzero
+affine scalar map, even with overall action rescaling, identifies the action
+germs. Stationary-family matching leaves the slope arbitrary or makes it
+`rho` dependent. A nonlinear cubic cancellation requires the new unowned
+second jet `q=208 lambda^2/kappa_1`. The 20-lens vote is
+`ROLE 15 / SEPARATE 2 / NONLINEAR 3 / STRICT IDENTITY 0`. K122 now computes
+the complete native `I1B` cubic/preboundary packet on `(t,h,v)` and keeps
+`lambda` only as an explicit observed-translation datum. See
+`explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| parameterized torsion/dark-energy relation | scalar objects uncertain | full carrier role source-supported; `Phi1` coefficient not source-normalized | full observation/action map | current, roadmap, context, K120 | K121 surfaces |
+| `I_sc`/`I1B` affine action-germ equality | one unselected slope | refuted by `0` versus `8736` pure-scalar `D3` | none at affine-germ grade | same | K121 artifact/registry/probe |
+| scalar translation | `lambda` unselected | `lambda` retained explicitly; nonlinear `q` also unowned | independent observation/action jet | same | K121 surfaces |
+| cubic assembly | blocked on bridge selection | native `I1B` assembly can proceed; observed translation remains conditional | complete native owner sum | same | K121 reverse scaffold |
+
 **K120 TT geometric two-jet custody and scalar-bridge gate 2026-08-15 (local
 exact partial closure; no canon/public-posture change).** The source-native
 identity `T=varpi-B_LC(g)` plus the exact first and second symmetric-frame
@@ -18,9 +42,9 @@ legs. It does not identify the observed `I_sc` scalar with the invariant
 `theta -> lambda theta Phi1` has identical TT `DF,D2F` for every nonzero
 `lambda`; its native scalar cubic and preboundary column scale with `lambda`.
 Quadratic-form matching would impose `lambda^2=kappa/k_rad`, but that is an
-unproved cross-action equality and remains sign-blind. K121 must test the
-scalar bridge from action/background/observation truth before K122 cubic
-assembly. See
+unproved cross-action equality and remains sign-blind. K121 has now refuted
+strict affine action-germ identity while retaining `lambda` as a conditional
+translation interface. See
 `explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md`.
 
 | claim | prior status | current status | weakest dependency | stale wording searched | files updated |

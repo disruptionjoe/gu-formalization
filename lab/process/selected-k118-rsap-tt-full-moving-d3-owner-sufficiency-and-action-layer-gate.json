@@ -52,10 +52,10 @@
     "next_swings": ["K119_ACTION_LAYER_AND_SCALAR_LIFT_SELECTION", "K120_COMPLETE_PULLBACK_D3_IF_SELECTED", "K121_SPECTRAL_OWNER_MATCH_IF_UNIQUE", "K122_STATIONARITY_DOMAIN", "K123_ATTACHMENT"]
   },
   "successor_correction": {
-    "through": "K120",
-    "result": "I1B_TT_TWOJET_OWNED_FROM_SOURCE_COORDINATES__OBSERVED_THETA_TO_PHI1_RADIAL_SLOPE_UNSELECTED",
-    "active_next_gate": "K121_SCALAR_BRIDGE_NORMALIZATION_AND_BACKGROUND_COMPATIBILITY",
-    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md"
+    "through": "K121",
+    "result": "I1B_NATIVE_CARRIER_SELECTED_FOR_ASSEMBLY__I_SC_AFFINE_ACTION_GERM_IDENTITY_REFUTED__LAMBDA_TRANSLATION_CONDITIONAL",
+    "active_next_gate": "K122_NATIVE_I1B_COMPLETE_PULLBACK_CUBIC_AND_PREBOUNDARY",
+    "artifact": "explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md"
   },
   "checks": {"total": 42, "failures": 0},
   "disposition": {

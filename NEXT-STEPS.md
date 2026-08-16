@@ -7,6 +7,26 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K121 SELECTS A ROLE LINK, NOT AN ACTION-GERM IDENTITY.** The
+> source identifies the movable dark-energy carrier as the full equivariant
+> parameterized-torsion/connection-difference field. It does not identify the
+> coefficient of the invariant `Phi1` line with a separately normalized
+> observed scalar. Exact action data sharpen the distinction: at their
+> stationary points the fixed-geometry `I_sc` scalar horn has pure-scalar
+> `D3=0`, while the complete `I1B` radial restriction
+> `1456t^3+7kappa_1 t^2` has `D3=8736`. No nonzero affine scalar map, even with
+> an overall action rescaling, equates those germs. The `I_sc` stationary
+> value tracks `rho`, while the native algebraic branch does not; background
+> matching therefore leaves `lambda` free or makes it `rho` dependent. A
+> nonlinear cancellation requires the new unowned scalar jet
+> `q=208 lambda^2/kappa_1`. The 20-lens vote is `ROLE 15 / SEPARATE 2 /
+> NONLINEAR 3 / STRICT IDENTITY 0`. **Retain Variancer's reverse conditional:
+> compute K122 natively on `(t,h,v)` from `I1B`, never import `I_sc`
+> coefficients, and expose `lambda` only at the observed-translation
+> interface.** Reopen normalization only with an independently owned linear
+> or nonlinear observation/action map and compatible coupled stationary
+> family. Exact probe records `38/38`.
+
 > **2026-08-15 K120 CLOSES THE `I1B` TT GEOMETRIC TWO-JET BUT ISOLATES ONE
 > UNOWNED SCALAR BRIDGE.** The source-coordinate identity
 > `T=varpi-B_LC(g)` and the exact first/second symmetric-frame
@@ -19,9 +39,11 @@ updated_at: "2026-08-15"
 > the current live boundary moment map do not select it. **K121 must compare
 > the two action normalizations, stationary backgrounds, oriented interaction
 > and observation meaning, ending with a typed equality, incompatibility, or
-> explicit conditional datum `lambda`.** K122 may assemble the cubic only if
-> that bridge closes; spectral/domain/attachment work remains later. Exact
-> probe records the full coordinate and pairing controls.
+> explicit conditional datum `lambda`.** K121 has now refuted strict affine
+> action-germ identity while retaining the source-level carrier-role link and
+> explicit conditional `lambda`. K122 proceeds in the native `t` coordinate;
+> spectral/domain/attachment work remains later. Exact probe records the full
+> coordinate and pairing controls.
 
 > **2026-08-15 K119 PROVES THAT STATIONARITY AND CUBIC MATCHING CANNOT SELECT
 > THE MISSING ACTION LIFT.** At a stationary native base point, the composite

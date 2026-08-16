@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate",
+  "created": "2026-08-15",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K120_NEXT_GATE__ACTION_NORMALIZATION_STATIONARY_BACKGROUND_ORIENTATION_AND_OBSERVATION_SEMANTICS_SELECT_THETA_ISC_EQUALS_LAMBDA_TIMES_T_RADIAL",
+  "target_verdict": "ROLE_LINK_ONLY__STRICT_AFFINE_ACTION_GERM_IDENTITY_REFUTED__LAMBDA_AND_ANY_NONLINEAR_SCALAR_JET_REMAIN_CONDITIONAL",
+  "source_semantics": {
+    "dark_energy_carrier": "FULL_PARAMETERIZED_TORSION_OR_EQUIVARIANT_CONNECTION_DIFFERENCE",
+    "phi1_radial_line": "EXACT_INVARIANT_NATIVE_SLICE__NOT_SOURCE_IDENTIFIED_AS_THE_FULL_OBSERVED_FIELD",
+    "ordinary_comparator_routes": "OUT_OF_SCOPE"
+  },
+  "action_germs": {
+    "I_sc_fixed_geometry": "beta*R*theta+kappa*theta^2/2-rho",
+    "I1B_radial": "1456*t^3+7*kappa_1*t^2",
+    "theta_stationary": "-beta*R/kappa",
+    "t_nonzero_stationary": "-kappa_1/312",
+    "I_sc_D2": "kappa",
+    "I_sc_D3": 0,
+    "I1B_D2_at_nonzero_branch": "-14*kappa_1",
+    "I1B_D3": 8736,
+    "nonzero_affine_action_germ_identity": false,
+    "quadratic_match_if_imposed": "kappa=mu*(-14*kappa_1)*lambda^2__CROSS_ACTION_CONDITIONAL"
+  },
+  "background_test": {
+    "I_sc_family": ["R_star=2*rho/a", "theta_star=-2*beta*rho/(a*kappa)"],
+    "I1B_algebraic_branch": "t_star=-kappa_1/312__FIXED_METRIC_ZERO_JET_ONLY",
+    "origin_preserving_point_match": "lambda_bg=a*kappa*kappa_1/(624*beta*rho)",
+    "universal_slope_selected": false,
+    "background_centered_affine_slope_free": true
+  },
+  "nonlinear_reopening": {
+    "map": "t=t_star+lambda*x+q*x^2/2+...",
+    "cubic_canceling_second_jet": "q=208*lambda^2/kappa_1",
+    "owned": false,
+    "disposition": "VARIANCER_CONDITIONAL_ONLY__K119_FITTED_D2F_FENCE_APPLIES"
+  },
+  "twenty_lens_vote": {
+    "H_A_STRICT_AFFINE_ACTION_IDENTITY": 0,
+    "H_B_ROLE_LINKED_NATIVE_OWNER_LAMBDA_CONDITIONAL": 15,
+    "H_C_STRICT_ACTION_SEPARATION_IN_ASSEMBLY": 2,
+    "H_D_NONLINEAR_BRIDGE_REQUIRES_OWNED_D2": 3
+  },
+  "selected_scaffold": {
+    "native_primitive": "I1B",
+    "native_scalar_coordinate": "t_in_T=t*Phi1",
+    "observed_translation": "delta_T=lambda*delta_theta_obs*Phi1__LAMBDA_EXPLICIT",
+    "forbidden_merge": "DO_NOT_IMPORT_I_sc_COEFFICIENTS_INTO_I1B",
+    "next_assembly": "COMPLETE_NATIVE_I1B_D3_AND_PREBOUNDARY_ON_T_H_V",
+    "nonlinear_reopen": "ONLY_WITH_INDEPENDENTLY_OWNED_SCALAR_D2_JET_AND_COMPATIBLE_STATIONARY_FAMILY"
+  },
+  "checks": {"total": 38, "failures": 0},
+  "next_gate": "K122_NATIVE_I1B_COMPLETE_PULLBACK_CUBIC_AND_PREBOUNDARY_OWNER_DECOMPOSITION_WITH_LAMBDA_ONLY_AS_TRANSLATION_DATUM",
+  "canon_verdict_change": "none"
+}

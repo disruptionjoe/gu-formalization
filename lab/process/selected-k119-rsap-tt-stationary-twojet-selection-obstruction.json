@@ -40,11 +40,11 @@
     "I_II": "MISSING_TYPED_EQUALITY_OR_PULLBACK_FROM_SOURCE_ACTION"
   },
   "complete_selection_tuple_owned": false,
-  "next_gate": "K121_SCALAR_BRIDGE_NORMALIZATION_AND_BACKGROUND_COMPATIBILITY_AFTER_K120_TT_GEOMETRIC_PARTIAL_CLOSURE",
+  "next_gate": "K122_NATIVE_I1B_COMPLETE_PULLBACK_CUBIC_AFTER_K121_ROLE_LINK_AND_ACTION_GERM_SEPARATION",
   "successor_closure": {
-    "swing": "K120",
-    "result": "I1B_TT_DF_D2F_OWNED_FROM_SOURCE_COORDINATES__ONE_DIMENSIONAL_OBSERVED_TO_RADIAL_SCALAR_BRIDGE_REMAINS",
-    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md"
+    "swing": "K121",
+    "result": "I1B_TT_DF_D2F_OWNED__STRICT_AFFINE_I_SC_RADIAL_ACTION_IDENTITY_REFUTED__LAMBDA_TRANSLATION_CONDITIONAL",
+    "artifact": "explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md"
   },
   "canon_verdict_change": "none"
 }

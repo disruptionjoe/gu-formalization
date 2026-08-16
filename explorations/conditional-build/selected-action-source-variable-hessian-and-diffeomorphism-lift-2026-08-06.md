@@ -195,3 +195,12 @@ spin-Levi-Civita artifact supplies `D2F`. This closes the TT geometric map
 without fitting a cubic. It does not identify the separately written
 `I_sc` scalar with the invariant `Phi1` radial coordinate. That remaining
 normalization/sign bridge is K121.
+
+## K121 successor closure — 2026-08-15
+
+K121 preserves the source-level role of full parameterized torsion while
+refuting an affine action-germ identity between the reduced `I_sc` scalar and
+the `I1B` `Phi1` coefficient: their stationary pure-scalar third derivatives
+are `0` and `8736`. `lambda` is therefore only an explicit observed
+translation datum. K122 composes the owned source-coordinate TT jets directly
+inside native `I1B`, without importing `I_sc` coefficients.

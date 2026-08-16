@@ -6,7 +6,7 @@
   "successor_correction": {
     "refined_by": "lab/process/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate.json",
     "reason": "FULL_MOVING_D3_I_SELECTED_IS_NOT_ONE_TYPED_ACTION_LAYER_WITHOUT_A_STATIONARY_OBSERVED_TO_NATIVE_TWO_JET",
-    "active_next_gate": "K121_OBSERVED_TO_RADIAL_SCALAR_BRIDGE_NORMALIZATION_AFTER_K120_TT_JET_CLOSURE"
+    "active_next_gate": "K122_NATIVE_I1B_COMPLETE_PULLBACK_CUBIC_AFTER_K121_ACTION_GERM_SEPARATION"
   },
   "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
   "scope": "SELECTED_TWO_FIELD_TT_FIXED_SYMBOL_RESPONSE__OBSERVED_SCALAR_HORN__FULL_MOVING_ACTION_COMPLETION_BOUNDARY",

@@ -221,3 +221,11 @@ nonlinear metric second jet. The remaining map defect is no longer the full
 two-jet: it is the one-dimensional identification
 `theta_Isc -> lambda theta Phi1`. K121 must select that scalar bridge before
 coefficient assembly.
+
+## K121 successor closure — 2026-08-15
+
+K121 shows that the observation receiver does not normalize this bridge. The
+reduced scalar horn and exact native radial restriction are role-linked but
+not affinely identical action germs (`D3=0` versus `8736`). K122 should use
+the native radial coordinate and the owned observation/soldering jets, with
+`lambda` exposed only if the native answer is translated afterward.

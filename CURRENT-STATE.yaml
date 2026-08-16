@@ -1031,7 +1031,23 @@ current_result:
     pairing and the current live boundary moment map do not select it. K121
     must test the two scalar action normalizations, oriented interaction,
     stationary backgrounds and observation meaning before K122 assembly.
+    K121 now selects a role link rather than a scalar action identity. The
+    source names the full equivariant parameterized-torsion field as the
+    movable dark-energy carrier, while the Phi1 coefficient is only one
+    invariant native slice. At their stationary points the fixed-geometry
+    I_sc scalar horn has pure-scalar D3=0 and the complete I1B radial
+    restriction has D3=8736. Thus no nonzero affine scalar map, even with an
+    overall action rescaling, identifies their action germs. Their stationary
+    families leave lambda free or make an origin-preserving slope depend on
+    rho. A nonlinear cancellation would require the new scalar second jet
+    q=208 lambda^2/kappa_1, which has no current owner and remains inside
+    K119's fitted-D2F fence. Native I1B assembly can nevertheless proceed in
+    the coordinate t: K122 must compute the complete native cubic and
+    preboundary packet without importing I_sc coefficients, exposing lambda
+    only at the later observed-translation interface.
   evidence:
+    - explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md
+    - lab/process/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate.json
     - explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md
     - lab/process/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate.json
     - explorations/conditional-build/selected-k119-rsap-tt-stationary-twojet-selection-obstruction-2026-08-15.md
@@ -1277,13 +1293,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do the action-owned quadratic normalization, oriented interaction,
-  stationary background map and observation semantics identify the observed
-  I_sc scalar theta with the invariant I1B Phi1 radial coordinate, including
-  the slope and sign lambda? Only after that scalar bridge is selected can the
-  now-owned TT geometric two-jet produce a map-independent pullback D3,
-  preboundary class, unique pencil, spectral owner, domain and 2D-to-98D
-  attachment.
+  What is the complete native I1B pullback cubic and preboundary owner
+  decomposition on the native carrier (t,h,v), using the action-owned TT
+  first/second jets and keeping intrinsic torsion, induced Levi-Civita,
+  moving pairing/density/Shiab, direct curvature, observation and boundary
+  terms separate? Report any reduced/observed scalar translation only as the
+  explicit family delta T=lambda delta theta_obs Phi1; do not import I_sc
+  coefficients or add the unowned nonlinear scalar second jet.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1400,8 +1416,11 @@ next_condition: >-
   scaling orbit after both projections are matched. K120 now independently
   derives the I1B TT jet from T=varpi-B_LC(g), but every nonzero scalar slope
   lambda leaves that TT jet fixed while rescaling the radial cubic and
-  preboundary column. Reopen with K121's scalar normalization/background/
-  observation bridge test, then compute the complete pullback D3 before
+  preboundary column. K121 now proves that the source supports a full-carrier
+  role link but that I_sc and the I1B radial restriction are not affinely
+  identical action germs: their pure-scalar D3 values are zero and 8736. A
+  nonlinear bridge requires the unowned q=208 lambda^2/kappa_1 second jet.
+  Retain lambda explicitly and compute K122's complete native I1B D3 before
   testing transport or composing a
   non-invariant, nonlinear, boundary or cohomological 2D-to-98D map carrying a
   selected closed positive physical domain. This does not kill future
