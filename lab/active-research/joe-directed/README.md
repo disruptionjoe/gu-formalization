@@ -2,7 +2,7 @@
 title: "Joe-Directed Channels"
 status: active_research
 doc_type: overview
-updated_at: "2026-08-15"
+updated_at: "2026-08-16"
 ---
 
 # Joe-Directed Channels
@@ -19,6 +19,15 @@ Native research artifacts produced by Joe's directed workstream. Channel
 selection, orchestration and service history are **external** and are not
 authority for any scientific claim here; only the native evidence in these
 files is.
+
+## Conditional-build dispatch
+
+Before opening a new source-native conditional-build problem set, read
+`conditional-build-channel-read-packet-2026-08-16.md`. It supplies the
+mandatory read order, reverse-conditional protocol, off-limit paths,
+stale-test check, and current pause/reopen conditions. It routes detailed
+source custody to the HE4 `2+1` packet and, where equation (9.16) or neutrino
+incidence is involved, the SN2 packet; it does not replace either one.
 
 Artifacts in this tree declare their own canonical effect. Most 2026-08-15
 research deltas carry `canonical_effect: pending_integration`, but this is not
@@ -77,18 +86,18 @@ Two further ceilings recur and should be read with every file:
 
 ## Threads
 
-| thread | first gate | current disposition |
+| thread | entry / current gate | current disposition |
 |---|---|---|
-| `majorana-126-neutrino/` | MJ-1 | **Conventional comparator:** the standard SO(10) `126`-VEV route is closed in the declared content. This does not adjudicate Weinstein's disavowed-Higgs curvature mechanism; SRC-1/2/3 are the source-native successor. |
-| `photon-extra-vector-spectrum/` | PV-1 | **Comparator plus bridge boundary:** VEV-only breaking fails, and an observation-only slice reaches only `p`. Neither result composes the later Yang--Mills--Higgs/connection layer, so no full source-native vector-spectrum obstruction follows. |
+| `majorana-126-neutrino/` | MJ-1 / SN-3 | **Comparator and source-native route are distinct:** the standard SO(10) `126`-VEV route is closed only in its declared model. The source-native equation-(9.16) pencil has exact internal parent content but lacks an already-owned coindex descent and slot-to-observed-line incidence receipt; pause it unless both arrive independently. Read the SN2 packet before reuse. |
+| `photon-extra-vector-spectrum/` | PV-1 | **Comparator plus bridge boundary; retired from this conditional-build channel:** VEV-only breaking fails, and an observation-only slice reaches only `p`. Neither result composes the later Yang--Mills--Higgs/connection layer, so no full source-native vector-spectrum obstruction follows. |
 | `baryon-number-and-proton-decay/` | BD-1 | **Bridge boundary:** the root and observation calculation is exact on its named reduction. Transport to physical baryogenesis or proton decay still requires the source-native action, quotient and observable bridge. |
 | `anomaly-cancellation/` | AC-1 | **Conventional comparator:** ordinary anomaly cancellation has zero discriminating power over the named representation choices. It is not Weinstein's generation/chirality selector. |
 | `cosmological-constant-sign/` | CC-1 | Literal `SC-COS-01` reading typed as TYPE-MISSING; a degree-`<=4` sign lock with an exact degree-6 boundary. Corroborates the existing `Q2-FREE` verdict rather than challenging it. |
 | `coupling-unification/` | CU-1 | **Conventional comparator:** the ordinary one-loop Pati--Salam running model fails its named test. It does not adjudicate a source-native coupling mechanism until one is constructed and bridged. |
 | `massless-vector-cosmology/` | MV-1 | **Conventional comparator:** four familiar abelian mass routes are closed in the tested model. The result does not include Weinstein's full observation-plus-later-action construction. |
-| `high-energy-two-plus-one/` | HE-1 | The 144 is a **mirror**, multiplicity exactly one, forced by a mod-4 chirality class. The 2+1 partition is forced with no free parameter but is unlabelled and subtractive. `SC-GEN-53` stays a typed seed. |
+| `high-energy-two-plus-one/` | HE-4 / CB-8 | The source-pinned packet keeps `F`, `M_3`, and the partner `144` distinct and carries both K77 halves/four corners. The H210 intrinsic zero-order chain is banked, but its derivative-adapter path is **paused**; reopen only if an independent source-native result supplies a source-`Y` split/connection implying `L_q|_Z=0`. |
 | `coset-versus-gauge/` | CG-1 | `p` is a declared coset, not a gauge sector. Delivers the reusable typing `GU-YM-Delta1..Delta5`: Yang-Mills-**like**, not Yang-Mills, failing at `Delta1`/`Delta2` before the action is written. |
-| `metric-cone-boundedness/` | MC-1 | The cone does **not** bound SRC-3's runaway, and the reason inverts: the DeWitt-negative direction is the cone's own dilation generator. |
+| `metric-cone-boundedness/` | MC-1 / MC-2 | The cone does **not** bound SRC-3's runaway; the DeWitt-negative direction is the cone's own dilation generator. MC-2 closes and deprioritizes the uniform straight-contour repair: no source-reality-preserving uniform phase makes the full indefinite quartic coercive. Non-straight complex thimbles remain unselected, not excluded. |
 | `four-d-mode-decomposition/` | MD-1 | Form leg settled in GU's favour — the nine **are** 4D vectors, via contraction not projection. Ad leg is `NOT-DETERMINED` pending the `SOLDERED-AD` fork. |
 | `ledger-advancement/` | LA-1 | Difficulty assessment and versionless deltas against the conditional-physics ledger. 82 rows resolve to ~32 formal degrees of freedom; the near-universal cut vertex is **real** but its identification was broken and corrected by LA-10. See that namespace's own index. |
 | `ownership-theorem/` | OT-1 | An ownership predicate for GU's non-reductive symmetry, plus a pairing obstruction. OT-2 applied it and **broke the pair OT-1 proposed**: `OWN` is the right instrument for one row and the wrong one for the other. |

@@ -52,6 +52,37 @@ Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`
 > confirmation for the restored transcript sentence and six stale H10 copies
 > remain successor obligations, not reasons to keep the repaired rows open.
 
+> **CORRECTION AR1-CB-20260816 — conditional-build queue reset.** The 14:04
+> table and its probe remain the historical measurement; this banner does not
+> rewrite either one. Current preflight must correct four rows before treating
+> them as work:
+>
+> - **Row 5 is `TYPE_MISSING__NO_16_CELL_NERVE__NO_GU_NATIVE_J`.** The existing
+>   `gate2a_f2_consistency.py` is a generic graph/rule-family scaffold. The
+>   repository does not currently contain the exact `RP3`/16-cell nerve or a
+>   GU-native edge cocycle `J(uv)`, so the advertised GU run is not runnable.
+> - **Row 9 is `RETIRED_AS_NONDECISIVE_LEGACY_VERIFY`.** The fixed-192
+>   `Cl(9,5)` carrier-mass harness is carrier-blind under the available internal
+>   scramble: its projector has spectator-spin form, its capstone mass uses
+>   base Clifford data, and the decoupling cancellation is analytic. Repeating
+>   it would certify that legacy scope, not discriminate a current K77 carrier.
+> - **Row 12 is
+>   `CLOSED_EXACT_FOR_LITERAL_CL95_CONTRACTION__NO_K77_OR_SOURCE_SELECTOR_TRANSFER`.**
+>   `lab/active-research/joe-directed/archaeology/ar5-cl95-full-shiab-rank-crosswalk-2026-08-16.md`
+>   proves exact real rank `3,584` and kernel `19,712` for the literal
+>   `Cl(9,5)` contraction `Lambda2(V) tensor S -> V tensor S`. The selected
+>   current-K77 rank-1274 Hodge-Shiab map is a different object. AR5 closes the
+>   legacy rank question only; it transfers neither rank/injectivity nor a
+>   source selector to K77.
+> - **Row 21 is
+>   `TRIGGER_GATED__REQUIRES_W192_SOURCE_ACTION_SELECTION__AND__TYPED_CL95_TO_CURRENT_K77_SHIAB_BRIDGE`.**
+>   The recorded second wall is a fixed-192 K95 Schur-channel result, not a
+>   runnable current-K77 follow-up. Reopen only when **both** W192 is selected
+>   by a source/action owner **and** a typed `Cl(9,5)`-to-current-K77 Shiab
+>   bridge is proved. Neither condition alone makes the coupling operational.
+>
+> These corrections alter current dispatch, not AR-1's historical counts.
+
 **Declared doc type, and why.** This file declares `doc_type:
 stewardship_record`, which
 `process_gates/source_native_comparator_routing_audit.py` excludes from its

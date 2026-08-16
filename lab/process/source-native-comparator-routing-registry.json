@@ -85,6 +85,14 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/archaeology/ar5-cl95-full-shiab-rank-crosswalk-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/integration-review/conditional-portfolio-reset-wave-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/baryon-number-and-proton-decay/bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
@@ -223,6 +231,10 @@
     {
       "path": "lab/active-research/joe-directed/massless-vector-cosmology/mv2-all-four-abelian-mass-routes-closed-2026-08-14.md",
       "classification": "CONVENTIONAL_COMPARATOR"
+    },
+    {
+      "path": "lab/active-research/joe-directed/metric-cone-boundedness/mc2-ghp-contour-does-not-repair-indefinite-quartic-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
     },
     {
       "path": "lab/active-research/joe-directed/phi-reduction/phi1-the-reduction-is-rank-one-and-the-14d-kernel-contributes-zero-bits-2026-08-15.md",
