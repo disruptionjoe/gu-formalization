@@ -293,3 +293,21 @@ same finite naturality packet:
    family counting; and
 7. stop before action, Bach/Yang--Mills, Penrose transform, physical quotient,
    mass, scale, threshold, or observable.
+
+## Successor status — CB-5 banked
+
+CB-5 completed the decorated four-dimensional split. The horizontal F/Q maps
+commute in the tested co-moving squares on both ambient halves. Exact rational
+counterexamples prove that projected ranks are not determined by raw rank;
+the banked full/full/full result is generic only in the declared affine
+coefficient family.
+
+The source bridge also sharpened. H210 starts in the Z/internal-partner sector
+and has zero upstream correlated-F projection. Observation can create a
+horizontal trace, which has a unique pointwise completion into the correlated
+equation-(12.22) F carrier relative to the declared split. That construction
+does not recover the consumed H210 normal leg and is not yet a full co-moving
+horizontal/normal natural transformation. The successor read packet now names
+`H210-FCORR`, `H210-ALIGN`, and `H210-PSRED` as three independent declared
+horns. CB-6 owns the full correlated-lift naturality and off-diagonal operator
+composition gates; further rank sampling is retired.

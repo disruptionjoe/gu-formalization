@@ -276,7 +276,7 @@ H210-PSRED = observer-normal overlaps reduce at least to N(PS).
 
 The graph projector and current twistor structures do not supply that horn.
 
-### CB-5 — four-dimensional F/Q Clifford split — next
+### CB-5 — four-dimensional F/Q Clifford split — banked
 
 After contraction, decompose
 
@@ -286,47 +286,64 @@ F_J^tr = (1/4) j_4 Gamma_4 A_J,
 Q_J^RS = (I-(1/4)j_4 Gamma_4) A_J.
 ```
 
-Test ranks, kernels, intersections, and separate co-moving naturality across
-flat, isotropic, and banked strata, both exact fields, and both ambient halves.
-Keep `Pi_4 != Pi_14`. `F_J^tr` means the F-shaped Clifford-trace carrier
-component; source-F/imposter provenance still requires the equation-(12.22)
-bridge and `H210-ALIGN`.
+The exact split and separate horizontal co-moving squares pass on both halves
+over both fields. The projected ranks are not functions of raw rank; the
+banked full/full/full point is generic only in the declared affine coefficient
+family, while exact special full-A strata have smaller projected ranks.
 
-### CB-6 — adverse horns
+The source correction is load-bearing: H210 starts in Z with zero upstream F
+projection. The post-contraction trace has a pointwise split-canonical lift
+into the correlated equation-(12.22) F carrier, but that lift constructs a new
+normal trace-image partner rather than recovering the consumed H210 leg.
+Calling it Weinstein's intended reveal is the separate horn
 
-Only if the H210 carrier-fit chain fails should the lane run `H54` or switch.
-Run `HBOTH-PROP` and `HBOTH-IND` only if both ports are conditionally
-admissible. `HNONE` closes the mediator route rather than starting action or
-external-selector work.
+```text
+H210-FCORR = the observation-induced correlated lift is the typed
+              realization of the equation-(12.22) F reveal.
+```
+
+`H210-FCORR`, `H210-ALIGN`, and `H210-PSRED` remain independent.
+
+### CB-6 — full correlated-lift and operator composition — next
+
+First certify the complete co-moving horizontal/normal `kappa_J` square,
+including the moving normal complement, graded normal Clifford map, full spin
+transport, chirality allocation, and both halves. Then compose the admitted
+carrier with the already banked off-diagonal equation-9.16 zero-order cells.
+The full `d0+varpi` derivative collision must remain explicit. A third bounded
+gate should test the three declared horns for joint typing without deriving or
+choosing any of them.
 
 ## 7. Reprioritization
 
 | path-relative item | priority | fertility | reason |
 |---|---:|---:|---|
-| co-moving `F_J^tr/Q_J^RS` split | 1 | `9/10` | finite naturality passed; this is the cheapest source-proximate carrier-fit test |
-| `H210-PSRED` overlap descent | 2 | `5/10` | carry as a declared horn; current twistors do not supply it and deriving it is off limits |
-| full `d0+varpi` composition | 3 | `5/10` | enter after the F/Q split; derivative-half collision remains live |
-| fixed trace-`Hq` adverse subhorn | 4 | `4/10` | keep the one-phase failure as a control, not a source-level H210 kill |
+| full correlated-lift naturality | 1 | `8/10` | horizontal F/Q naturality passed; the moving normal trace partner is the remaining functorial debt |
+| off-diagonal equation-9.16 composition | 2 | `7/10` | enter after the full lift; preserve the derivative-half collision |
+| `H210-FCORR` / `H210-ALIGN` / `H210-PSRED` compatibility | 3 | `6/10` | test jointly as declared inputs without deriving them |
+| `H210-PSRED` overlap descent by itself | 4 | `5/10` | carry as a horn; current twistors do not supply it and deriving it is off limits |
+| fixed trace-`Hq` adverse subhorn | 5 | `4/10` | keep the one-phase failure as a control, not a source-level H210 kill |
 | `H54` / `HBOTH` routes | fallback | `3/10` to `5/10` | use only if the H210 carrier-fit chain fails or both ports become conditionally admissible |
 | full `945/1050` branching | retired | `0/10` | exact saturation already proves both singlet counts zero |
 | single-irrep common-owner alignment | retired | `0/10` | HE-4 excludes it |
+| more projected-rank strata | retired | `1/10` | generic locus plus exact counterexamples settle the classifier question |
 | deriving the source action or importing an external selector | off-limits | not scored | violates the conditional-build lane contract |
 
 Relative to the wider exploration portfolio, this path remains first for one
-more bounded swing because CB-1 through CB-4 pass and the decorated F/Q split
-is now a sharp finite source-carrier test. If `F_J^tr=0` on every intrinsic
-nonzero stratum, reduce this path below SN-1 rather than attempting to
-manufacture the missing action or reduction.
+more bounded swing because CB-1 through CB-5 pass and the full correlated
+square is now a sharp finite source-carrier falsifier. Failure demotes
+`H210-FCORR` while preserving the horizontal split; success earns the typed
+operator-composition gate. Neither outcome licenses manufacturing an action,
+selector, reduction, graph, family row, or external datum.
 
 ## Plain-English checkpoint
 
 We have now shown that the cleaner H210 connector fits the real K77 carrier,
 the zero-order part of two displayed fermion-operator cells, literal
-observation at the banked receiver, and finite co-moving graph/Spin transport.
-It can touch one quotient line of the three family copies while leaving a
-two-dimensional multiplicity plane untouched. The connector's rank is not a
-coordinate artifact, but a moving observer cannot keep one fixed PS embedding.
-`H210-ALIGN` and `H210-PSRED` name the two independent conditional bridges.
-The next question is whether the observed connector has a nonzero F-shaped
-four-dimensional Clifford-trace component. It is still not this lane's job to
-invent what turns the channel or reduction on.
+observation at the banked receiver, finite co-moving graph/Spin transport, and
+an exact four-dimensional trace/RS split. Observation can turn the upstream
+Z/partner port into an F-shaped trace, but the original port had zero source-F
+projection. The correlated F carrier can be constructed pointwise; its full
+moving horizontal/normal naturality remains the next gate. `H210-FCORR`,
+`H210-ALIGN`, and `H210-PSRED` name three different conditional bridges. It is
+still not this lane's job to invent what turns any of them on.
