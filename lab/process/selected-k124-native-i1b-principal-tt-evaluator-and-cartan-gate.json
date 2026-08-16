@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate",
+  "created": "2026-08-15",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K123_NEXT_GATE__BUILD_O_K123_AND_COMPUTE_NATIVE_C_THH_C_THV",
+  "target_verdict": "O_K123_PRINCIPAL_TT_SLICE_CONSTRUCTED_ON_FULL_K77_CARRIER__C_THH_MINUS_12_Q2_DEWITT__C_THV_ZERO__LOWER_ORDER_AND_FULL_CARTAN_REMAIN_OPEN",
+  "completion_grade": "FULL_14D_CARRIER__LOCAL_PRINCIPAL_TT_BULK_AND_GREEN_ONLY",
+  "native_coefficients": {
+    "C_t_h_h_principal": "-12*q^2*<H1,H2>_DW",
+    "C_t_h_v_principal": "0_ON_COMPLETE_SELECTED_2_POLARIZATION_X_10_NORMAL_TT_PACKET",
+    "C_t_v_v": "-(56/3)*<V,*V>",
+    "D3_t_t_t": 8736
+  },
+  "exact_census": {
+    "causal_representatives": ["TIMELIKE", "SPACELIKE", "NULL"],
+    "tt_metric_polarizations": ["PLUS", "CROSS"],
+    "vertical_normals": 10,
+    "C_t_h_v_evaluations": 120,
+    "C_t_h_v_failures": 0,
+    "A_raw_unit_polarization": {"timelike": -24, "spacelike": 24, "null": 0}
+  },
+  "native_graph": {
+    "delta_B": "DB_LC[H]",
+    "delta_T_metric": "0",
+    "delta_T_distortion": "V",
+    "old_14_over_3_import": "FORBIDDEN"
+  },
+  "cartan_green": {
+    "principal_hh_representative": "j^mu=-12*(<H1,nabla^mu H2>_DW-<nabla^mu H1,H2>_DW)",
+    "principal_hv_representative": "0",
+    "tvv_derivative_current": "0_ALGEBRAIC",
+    "full_noncyclic_cartan": "OPEN",
+    "global_green_domain": "OPEN",
+    "bfv_charge": "NOT_SELECTED"
+  },
+  "controls": {
+    "D3_ttt": 8736,
+    "C_tvv_reproduced": true,
+    "causal_covariance": "A_TIMELIKE_MINUS_24__A_SPACELIKE_PLUS_24__A_NULL_ZERO",
+    "polarization_diagonal": true,
+    "cross_polarization_zero": true
+  },
+  "full_O_K123_complete": false,
+  "unique_full_pencil_selected": false,
+  "forbidden_imports": [
+    "I_SC_COEFFICIENTS",
+    "I2B_COEFFICIENTS",
+    "I_II_COEFFICIENTS",
+    "RAW_14_OVER_3_LC_LC_VALUE",
+    "WARD_FITTED_QUOTIENT_COEFFICIENTS"
+  ],
+  "next_gate": "K125_COMPLETE_EXTERIOR_DERIVATIVE_SECOND_LC_JET_NONCYCLIC_CARTAN_AND_LOWER_ORDER_O_K123_PACKET",
+  "canon_verdict_change": "none"
+}

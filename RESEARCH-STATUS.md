@@ -8,6 +8,26 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K124 native I1B principal TT evaluator and Cartan gate 2026-08-15 (full
+K77 carrier, exact principal bulk and Green representative; no canon/public-
+posture change).** The previously separate K77 Clifford/exterior action engine
+and symmetric-frame spin-LC symbol now compose on the native graph. Direct
+scalar polarization gives `C_t_h_h^prin=-12q^2<H_1,H_2>_DW` and
+`C_t_h_v^prin=0`; the latter is `120/120` across the complete selected TT
+causal/polarization/normal census. The same evaluator reproduces `8736` and
+`-56/3`. The principal Green current is exact. Explicit exterior derivatives,
+the fixed-chart `D2B_LC` recombination, curved lower-order tensors, the full
+noncyclic Cartan potential and global domain remain K125; no unique full
+pencil or spectrum follows. See
+`explorations/conditional-build/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| `C_t_h_h` | rank-two evidence deficit | principal TT polynomial `-12q^2<DW>` | lower-order fixed-chart completion | K123/current/context | K124 surfaces |
+| `C_t_h_v` | rank-two evidence deficit | exact principal zero on selected 120-entry TT census | unrestricted/lower-order packet | same | K124 artifact/probe |
+| `O_K123` | six-part contract | full-carrier principal TT slice executable | exterior derivative, `D2B_LC`, noncyclic Cartan | moving-gimmel/second-jet | K125 route |
+| Cartan/Green | typed columns only | exact principal Green representative | global domain and BFV descent | K122/K123 | K124 review |
+
 **K123 native I1B h-containing cubic identifiability and evaluator gate
 2026-08-15 (exact rank-two evidence deficit; no canon/public-posture
 change).** The current bank fixes the complete quadratic germ, native
@@ -17,22 +37,22 @@ coordinate map and fixed-metric cubic, but a planted missing same-action germ
 two and represents uninstantiated moving tensor jets, not new physical
 coefficients. The three K122 primitive source slots are coordinate-split
 pieces: linear and nonlinear connection-coordinate changes redistribute them
-while leaving the two native sums invariant. K124 must build `O_K123`, one
-common full-14D moving-`I1B` evaluator, and return the native coefficients,
-primitive checksums and Cartan current before any pencil or spectral work.
+while leaving the two native sums invariant. K124 subsequently closes the
+principal TT slice; use the K124 block above. K125 retains the lower-order and
+full noncyclic Cartan completion before any pencil or spectral work.
 See
 `explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md`.
 
 | claim | prior status | current status | weakest dependency | stale wording searched | files updated |
 | --- | --- | --- | --- | --- | --- |
-| `C_t_h_h,C_t_h_v` | three primitive evaluations requested | exact rank-two evidence deficit; neither numerical value selected | `O_K123` | current, roadmap, context, K122 | K123 surfaces |
+| `C_t_h_h,C_t_h_v` | three primitive evaluations requested | pre-K124 rank-two evidence deficit; K124 later closes principal TT values | `O_K123` | current, roadmap, context, K122 | K123/K124 surfaces |
 | primitive three-slot packet | treated as coefficient target | source-chart checksum; only two native sums are invariant | frozen source coordinate | K122 and predecessor routing | K123 artifact/probe |
 | full 14D action evaluator | broad moving packet | six-part executable contract named | full composed metric/connection/coefficient jets | moving-gimmel, second-jet, Ward artifacts | K123 reverse scaffold |
 | preboundary | columns typed | representative still exact-shift/domain dependent | Cartan/Green/BFV completion | current and context | K123 artifact/review |
 
 **K122 native I1B cubic and preboundary owner decomposition 2026-08-15
-(exact structural completion and fixed-metric cubic; two moving coefficients
-remain open; no canon/public-posture change).** The independently owned
+(exact structural completion and fixed-metric cubic; K124 later closes the
+principal moving slice; no canon/public-posture change).** The independently owned
 source-coordinate two-jet gives
 `C_t_h_h=D3I1B[Pbar,Hbar,Hbar]+D2I1B[Pbar,Q_hh]`,
 `C_t_h_v=D3I1B[Pbar,Hbar,Vbar]`, and
@@ -43,10 +63,10 @@ source-coordinate cancellation also corrects the old nonzero `14/3` LC--LC
 insertion: it is a fixed-`varpi` partial representative, not a native
 `t-h-h` coefficient. Since every other fixed-metric term in `I1B` has degree
 at most two in `T`, `D3_ttt=8736` and
-`C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric values. Three same-`I1B`
-primitive evaluations remain for `t-h-h` and `t-h-v`, followed by Green/BFV
-descent. No complete numerical cubic, unique pencil, spectral owner or
-physical charge follows. See
+`C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric values. K123 later proves
+the primitive pieces chart-split, and K124 closes their principal native sums;
+the lower-order/full-Cartan packet remains K125. No complete nonlinear cubic,
+unique pencil, spectral owner or physical charge follows. See
 `explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md`.
 
 | claim | prior status | current status | weakest dependency | stale wording searched | files updated |
@@ -54,7 +74,7 @@ physical charge follows. See
 | native cubic owner shape | broad owner list | exact three-slot chain-rule decomposition | none at structural local grade | current, roadmap, context, K121 | K122 surfaces |
 | fixed-metric cubic | intrinsic values treated as possible sub-summands | full `I1B` `D3_ttt=8736` and `C_t_v_v=-(56/3)<V,*V>` | none at fixed-metric bulk grade | owner artifacts | K122 artifact/probe |
 | old LC--LC representative | treated as metric-induced native interaction | fixed-`varpi` partial representative; not native `C_t_h_h` | exact native map | old owner artifact/registry | K122 correction surfaces |
-| moving `h` coefficients | requested after K121 | three same-action primitive evaluations remain | K123 | current, roadmap, context | K122 reverse scaffold |
+| moving `h` coefficients | requested after K121 | principal native values closed at K124; lower order remains | K125 | current, roadmap, context | K122--K124 reverse scaffold |
 | native preboundary | owner location only | exact three-column pullback | full action evaluation plus Green/BFV descent | same | K122 artifact/registry |
 
 **K121 scalar role, action-germ and conditional-bridge gate 2026-08-15

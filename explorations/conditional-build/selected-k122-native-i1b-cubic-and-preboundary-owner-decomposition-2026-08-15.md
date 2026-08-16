@@ -268,11 +268,12 @@ S9 later: BFV reduction and non-invariant/nonlinear/boundary/cohomological
 ```
 
 K123 subsequently proves that the three primitive source-coordinate slots
-redistribute under admissible chart changes and that the current serialized
-bank leaves the two native sums underdetermined with rank two. K124 must build
-`O_K123`, evaluate the native sums directly, and use the primitive split only
-as a frozen-chart checksum. Only a completed native evaluator may reopen the
-pencil, spectral-owner, and common-domain gates.
+redistribute under admissible chart changes and that the pre-K124 serialized
+bank leaves the two native sums underdetermined with rank two. K124 then
+constructs the full-carrier principal TT slice, obtaining
+`C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0`. K125 owns the explicit
+lower-order and full-Cartan completion. Only a completed native evaluator may
+reopen the pencil, spectral-owner, and common-domain gates.
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.

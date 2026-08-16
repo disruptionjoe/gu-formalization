@@ -239,3 +239,10 @@ coefficients: the missing common full-14D composition leaves
 is downstream of the native bulk evaluation, not a summand that fills it.
 K124 must compose the full metric/connection and moving action tensors before
 using these jets as primitive checksums.
+
+## K124 principal-TT successor closure — 2026-08-15
+
+K124 completes the top-order composition in the co-moving full-K77 carrier:
+`C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0`. The second soldering jet here
+now routes to K125's explicit fixed-chart derivative/Cartan checksum and
+curved lower-order completion, not another partial coefficient insertion.

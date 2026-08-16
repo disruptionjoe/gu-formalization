@@ -52,10 +52,11 @@
   "claim_status_change": "NONE",
   "canon_verdict_change": "NONE",
   "public_posture_change": "NONE",
-  "next_gate": "K124_BUILD_O_K123_COMMON_FULL_14D_NATIVE_I1B_EVALUATOR",
+  "next_gate": "K125_EXPLICIT_D2BLC_EXTERIOR_DERIVATIVE_AND_NONCYCLIC_CARTAN_RECOMBINATION",
   "k123_successor_closure": {
     "result": "SOURCE_BLOCKS_RETAINED_AS_COORDINATE_CHECKS__THREE_PRIMITIVE_CUBIC_PIECES_REDISTRIBUTE__TWO_NATIVE_SUMS_RANK_TWO_UNDERDETERMINED",
-    "active_next_gate": "K124_BUILD_O_K123_COMMON_FULL_14D_NATIVE_I1B_EVALUATOR",
+    "active_next_gate": "K125_EXPLICIT_D2BLC_EXTERIOR_DERIVATIVE_AND_NONCYCLIC_CARTAN_RECOMBINATION",
+    "k124_successor": "PRINCIPAL_C_THH_MINUS_12_Q2_DEWITT__PRINCIPAL_C_THV_ZERO",
     "artifact": "explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md"
   }
 }

@@ -237,3 +237,10 @@ check, but its 21-dimensional quotient-form freedom proves it cannot select
 the two TT cubic numbers. K124 must derive them from the common full-14D
 `I1B` evaluator and only then test the Ward columns; the diagnostic completion
 is not an admissible coefficient source.
+
+## K124 principal-TT successor closure — 2026-08-15
+
+K124 derives the principal values directly, without using this Ward family:
+`C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0`. Retest the Ward columns only
+after K125 completes the lower-order/noncyclic-Cartan packet; the
+21-dimensional quotient freedom remains unavailable for fitting.

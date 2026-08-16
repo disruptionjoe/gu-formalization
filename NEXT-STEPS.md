@@ -7,6 +7,21 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K124 CONSTRUCTS THE FULL-K77-CARRIER PRINCIPAL TT SLICE OF
+> `O_K123`.** Direct corner polarization of the printed source-native `I1B`
+> scalar action on the native graph `delta B=DB_LC[H], delta T_h=0` gives
+> `C_t_h_h^prin=-12 q^2 <H_1,H_2>_DW` and `C_t_h_v^prin=0`. The raw unit-TT
+> `h-h` values are `-24,+24,0` on timelike, spacelike and null covectors; the
+> mixed value vanishes in all `120/120` causal/polarization/normal tests. The
+> same evaluator independently reproduces `D3_ttt=8736` and
+> `C_t_v_v=-(56/3)<V,*V>`. Its exact principal Green representative is
+> `j^mu=-12(<H1,nabla^mu H2>_DW-<nabla^mu H1,H2>_DW)`. **K125 must now
+> restore the explicit exterior-derivative, `D2B_LC`, curved lower-order and
+> noncyclic Cartan packet in a fixed chart and prove that it recombines with
+> this co-moving principal normal form.** Do not promote the null-shell zero
+> to an absent coupling, the Green representative to a BFV charge, or this
+> principal slice to a unique full pencil/spectrum.
+
 > **2026-08-15 K123 PROVES A RANK-TWO NATIVE COEFFICIENT DEFICIT AND
 > REPLACES PARTIAL-SLOT EVALUATION WITH ONE COMMON EVALUATOR.** The planted
 > missing moving germ `DeltaI=(a/2)t h^2+b t h v` preserves stationarity, the
@@ -17,13 +32,11 @@ updated_at: "2026-08-15"
 > action-evaluator data, not two physical couplings. The three K122 primitive
 > source-coordinate slots also redistribute under linear and nonlinear
 > connection-coordinate changes while the two native sums stay invariant.
-> **K124 must build `O_K123`, a common full-14D moving-`I1B` evaluator, and
-> differentiate the written scalar action directly.** Compose the chimeric
-> metric, full spin-LC/curvature jets, Shiab, Hodge, Krein pairing,
-> frame/density and compatible `D_B T` jets in one labelled K77 basis. Return
-> native `C_t_h_h,C_t_h_v`, then the frozen-chart primitive split as a
-> checksum and the Cartan current. Do not import the old `14/3`, fit the Ward
-> quotient, or use `I_sc/I2B/I_II`. Exact probe records `40/40`.
+> **K124 subsequently constructs the principal TT slice of that evaluator and
+> fixes `C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0`; use the K124 block
+> above.** The full lower-order/noncyclic Cartan completion now routes to K125.
+> Do not import the old `14/3`, fit the Ward quotient, or use
+> `I_sc/I2B/I_II`. Exact probe records `40/40`.
 
 > **2026-08-15 K122 COMPLETES THE NATIVE `I1B` STRUCTURAL OWNER
 > DECOMPOSITION, NOT THE NUMERICAL CUBIC.** For
@@ -40,9 +53,9 @@ updated_at: "2026-08-15"
 > not a native `t-h-h` owner. At fixed metric, every other term in the printed
 > `I1B` action has degree at most two in `T`; hence `D3_ttt=8736` and
 > `C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric `I1B` values.
-> **K123 subsequently proved that those primitive slots are chart-split and
-> are not numerically recoverable from the serialized bank; use the K123
-> block above and route K124 through the common native evaluator before any
+> **K123 subsequently proved that those primitive slots are chart-split, and
+> K124 closes the principal TT native sums; use the K124 block above and
+> route K125 through the fixed-chart lower-order/Cartan completion before any
 > unique pencil or spectral owner is tested.**
 > Keep `lambda` outside the native packet and do not promote preboundary
 > columns to physical charges before Green/BFV descent. Exact probe records

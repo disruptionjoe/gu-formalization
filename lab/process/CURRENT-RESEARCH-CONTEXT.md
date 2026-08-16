@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K124 native `I1B` principal TT evaluator:** composing the exact
+> full-K77 Clifford/exterior scalar-action engine with the native
+> spin-Levi-Civita graph gives
+> `C_t_h_h^prin=-12q^2<H_1,H_2>_DW` and `C_t_h_v^prin=0`. The mixed zero is a
+> direct `120/120` result across three causal representatives, both metric and
+> distortion TT polarizations and all ten vertical normals; it is not an
+> absent-storage zero. The same evaluator reproduces `D3_ttt=8736` and
+> `C_t_v_v=-(56/3)<V,*V>`. The principal Green current is exact. K125 must
+> perform the explicit exterior-derivative/`D2B_LC` fixed-chart recombination,
+> curved lower-order evaluation and noncyclic Cartan completion. Do not call
+> the null-shell `h-h` zero an absent coupling or promote the current to a BFV
+> charge, unique full pencil or spectrum.
+
 > **Current K123 native `I1B` coefficient identifiability gate:** the present
 > bank does not numerically determine `C_t_h_h` or `C_t_h_v`. The exact
 > planted missing moving germ `(a/2)t h^2+b t h v` preserves stationarity,
@@ -17,10 +30,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > evidence deficit has rank two. This is not action freedom. It identifies
 > absent common-basis tensor jets. The three K122 primitive evaluations are
 > source-coordinate pieces and redistribute while the two native sums remain
-> invariant. K124 must build `O_K123`, the common full-14D moving-`I1B`
-> evaluator, and return native `C_t_h_h,C_t_h_v`, primitive checksums and the
-> Cartan current. Do not import `I_sc/I2B/I_II`, the old raw `14/3`, or a
-> Ward-fitted quotient coefficient.
+> invariant. K124 subsequently constructs the full-carrier principal TT slice
+> and fixes its two native sums; use the K124 block above. K125 retains the
+> lower-order and full Cartan completion. Do not import `I_sc/I2B/I_II`, the
+> old raw `14/3`, or a Ward-fitted quotient coefficient.
 
 > **Current K122 native `I1B` owner decomposition:** with the exact
 > source-coordinate jet, the stationary native TT cubic is
@@ -35,8 +48,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > cubic in `T`, so `D3_ttt=8736` and
 > `C_t_v_v=-(56/3)<V,*V>` are complete full-`I1B` values. K123 subsequently
 > proved that the three primitive slots are chart-split and not numerically
-> recoverable from the serialized bank. Use the K123 block above: K124 must
-> build the common native evaluator before Green/BFV descent.
+> recoverable from the serialized bank. K124 subsequently closes the
+> principal TT native sums; use the K124 block above. K125 retains the
+> lower-order/full-Cartan completion before Green/BFV descent.
 > `lambda` stays outside the native packet, and no unique pencil, spectral
 > owner, domain, attachment or physical charge is selected.
 

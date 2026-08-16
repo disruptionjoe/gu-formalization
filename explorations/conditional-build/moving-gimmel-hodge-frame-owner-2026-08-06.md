@@ -222,3 +222,11 @@ The first 14D gimmel jet and Hodge/frame fusion are exact, but native
 14D spin-LC/curvature jets and every moving action tensor are composed in one
 labelled K77 basis. K124 builds that common evaluator; zero may not be inferred
 from the current absence.
+
+## K124 principal-TT successor closure — 2026-08-15
+
+K124 uses this co-moving packet to freeze natural coefficient motion while
+retaining the genuine spin-LC symbol. The full-carrier principal TT normal
+form gives `C_t_h_h=-12q^2<DW>` and `C_t_h_v=0`. K125 must verify the explicit
+fixed-chart lower-order and noncyclic-Cartan recombination; no global domain
+or BFV charge follows from the co-moving result.

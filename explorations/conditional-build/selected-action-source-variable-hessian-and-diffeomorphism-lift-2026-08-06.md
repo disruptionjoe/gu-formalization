@@ -213,3 +213,9 @@ targets. Connection-coordinate reparametrizations redistribute them while the
 two native `h`-containing sums remain fixed. Current evidence leaves those two
 sums rank-two underdetermined. K124 must build the full 14D common-basis
 `I1B` evaluator rather than extend the zero-jet block by fit.
+
+## K124 principal-TT successor closure — 2026-08-15
+
+The common full-carrier principal TT evaluator now exists and returns
+`C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0`. K125 retains the fixed-chart
+`D2B_LC`/exterior-derivative recombination and full noncyclic Cartan packet.

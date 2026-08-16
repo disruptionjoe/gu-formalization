@@ -226,6 +226,17 @@ phenomenology or GU truth-status claim changes. Joe input is not required.
 
 Exact probe: `40/40`.
 
+## K124 successor closure — 2026-08-15
+
+K124 composes the existing full-K77 scalar-action engine and native spin-LC
+symbol into the local principal TT slice of `O_K123`. It finds
+`C_t_h_h^prin=-12q^2<H_1,H_2>_DW` and `C_t_h_v^prin=0`, with the latter
+vanishing on all 120 selected TT census entries. The principal Green current
+also closes. K123's rank-two statement remains the correct verdict about the
+*pre-K124 serialized evidence*; it is not physical action freedom. K125 now
+owns the explicit lower-order, `D2B_LC`, exterior-derivative and full
+noncyclic-Cartan completion.
+
 Reproduce:
 
 ```bash

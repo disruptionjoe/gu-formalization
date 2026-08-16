@@ -160,8 +160,9 @@ check("registry", "registry names the common full-14D evaluator",
       registry["required_operator"]["name"] == "O_K123")
 check("repo", "current state advances to the K123 evaluator obstruction",
       "K123" in current and "rank two" in current.lower())
-check("repo", "context routes K124 to O_K123",
-      "K124" in context[:15000] and "O_K123" in context[:15000])
+check("repo", "context records K124 principal closure and routes K125",
+      "K124" in context[:15000] and "K125" in context[:15000]
+      and "C_t_h_h" in context[:15000])
 
 failures = [item for item in CHECKS if not item[2]]
 print(f"\nTOTAL {len(CHECKS)}  FAILURES {len(failures)}")

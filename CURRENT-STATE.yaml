@@ -1062,9 +1062,10 @@ current_result:
     structurally complete but current artifacts do not serialize the common
     moving-I1B evaluator needed for t-h-h and t-h-v. K123 subsequently proves
     that the primitive source-coordinate pieces are chart-split and that the
-    resulting native-coefficient evidence deficit has rank two. K124 must
-    build the common evaluator before any unique pencil or
-    spectral/domain/attachment inference.
+    resulting native-coefficient evidence deficit has rank two. This is the
+    pre-K124 evidence boundary; the principal TT slice is resolved below,
+    while K125 retains the lower-order/full-Cartan completion before any
+    unique pencil or spectral/domain/attachment inference.
     K123 now proves that the current serialized bank cannot perform that
     numerical step. A planted same-action moving germ
     DeltaI=(a/2)t h^2+b t h v preserves stationarity, the complete quadratic
@@ -1080,7 +1081,20 @@ current_result:
     C_t_h_h and C_t_h_v plus primitive checksums and the Cartan current. Ward
     solvability, the old 14/3 raw LC value and cross-action coefficients may
     not fill the gap.
+    K124 now constructs the full-K77-carrier local principal TT slice of that
+    evaluator. On the native graph delta B=DB_LC[H], delta T_h=0, direct
+    scalar-action polarization gives C_t_h_h^prin=-12 q^2 times the TT DeWitt
+    pairing and C_t_h_v^prin=0. Unit plus/cross values are -24, +24 and 0 on
+    timelike, spacelike and null covectors; the mixed coefficient vanishes in
+    all 120 causal-polarization-normal evaluations. The same evaluator
+    reproduces D3_ttt=8736 and C_t_v_v=-(56/3)<V,*V>. Its principal Green
+    current is exact. K125 must restore the explicit exterior-derivative,
+    second-LC-jet, curved lower-order and noncyclic Cartan packet in a fixed
+    chart. No unique full pencil, spectrum, global domain or BFV charge is
+    selected.
   evidence:
+    - explorations/conditional-build/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate-2026-08-15.md
+    - lab/process/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate.json
     - explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md
     - lab/process/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate.json
     - explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md

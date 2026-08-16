@@ -43,8 +43,14 @@
     "outputs": ["C_T_H_H", "C_T_H_V", "C_T_V_V_CONTROL", "D3_T_T_T_CONTROL", "CARTAN_GREEN_CURRENT"],
     "forbidden_imports": ["I_SC_COEFFICIENTS", "I2B_COEFFICIENTS", "I_II_COEFFICIENTS", "RAW_14_OVER_3_LC_LC_VALUE", "WARD_FITTED_QUOTIENT_COEFFICIENTS"]
   },
+  "successor_closure": {
+    "gate": "K124",
+    "principal_C_t_h_h": "-12*q^2*<H1,H2>_DW",
+    "principal_C_t_h_v": "0_ON_120_SELECTED_TT_ENTRIES",
+    "meaning": "RANK_TWO_PRE_K124_EVIDENCE_DEFICIT_RESOLVED_AT_PRINCIPAL_TT_GRADE__LOWER_ORDER_FULL_CARTAN_OPEN"
+  },
   "unique_pencil_selected": false,
-  "next_gate": "K124_BUILD_O_K123_COMMON_FULL_14D_NATIVE_I1B_EVALUATOR_AND_COMPUTE_C_THH_C_THV",
+  "next_gate": "K125_COMPLETE_EXTERIOR_DERIVATIVE_SECOND_LC_JET_NONCYCLIC_CARTAN_AND_LOWER_ORDER_O_K123_PACKET",
   "checks": {"total": 40, "failures": 0},
   "canon_verdict_change": "none"
 }
