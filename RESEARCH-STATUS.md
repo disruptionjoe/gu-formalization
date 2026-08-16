@@ -8,6 +8,36 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K120 TT geometric two-jet custody and scalar-bridge gate 2026-08-15 (local
+exact partial closure; no canon/public-posture change).** The source-native
+identity `T=varpi-B_LC(g)` plus the exact first and second symmetric-frame
+spin-Levi-Civita jets independently fixes the `I1B` metric/distortion columns
+and nonlinear TT second jet. This closes K119's no-fitting demand on both TT
+legs. It does not identify the observed `I_sc` scalar with the invariant
+`Phi1` radial coordinate. The exact family
+`theta -> lambda theta Phi1` has identical TT `DF,D2F` for every nonzero
+`lambda`; its native scalar cubic and preboundary column scale with `lambda`.
+Quadratic-form matching would impose `lambda^2=kappa/k_rad`, but that is an
+unproved cross-action equality and remains sign-blind. K121 must test the
+scalar bridge from action/background/observation truth before K122 cubic
+assembly. See
+`explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| `I1B` TT observed-to-native jet | owner locations only | `DF_h`, `DF_v`, `D2F_hh` source-coordinate owned | none at local geometric grade | current, roadmap, context, K119 | K120 surfaces |
+| observed/native scalar equality | continuous affine rescaling orbit | one explicit `lambda` bridge remains unselected | action normalization, orientation, background and observation identity | same | K120 artifact/registry/probe |
+| cubic assembly | blocked on arbitrary `j2F` | blocked only on scalar bridge | K121 | same | current surfaces |
+
+**K119 stationary two-jet selection obstruction 2026-08-15 (retained and
+refined by K120; no canon/public-posture change).** At a stationary native
+base point, stationarity constrains neither `DF` nor `D2F`. On a nondegenerate
+three-field branch the `18 -> 10` quadratic-jet contribution to the cubic is
+surjective with an eight-dimensional kernel, so a fitted map can manufacture
+any cubic match. Even the affine diagonal lift retains one rescaling orbit.
+K120 now independently owns the `I1B` TT part and reduces the orbit to the
+single observed/native scalar slope. Exact K119 probe remains authoritative.
+
 **K118 TT full-moving D3 owner-sufficiency and action-layer gate 2026-08-15
 (local exact correction; no canon/public-posture change).** The requested
 `D3 I_selected` is not yet one typed object. `I_sc`, `I1B`, `I2B`, and the

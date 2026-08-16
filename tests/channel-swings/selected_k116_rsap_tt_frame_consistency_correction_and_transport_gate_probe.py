@@ -105,10 +105,10 @@ context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 research_status = (ROOT / "RESEARCH-STATUS.md").read_text()
 check(
     "repo",
-    "current question has advanced through K118 to action-layer and two-jet selection",
-    "action layer" in current_state.lower() and "two-jet" in current_state.lower(),
+    "current question has advanced through K120 to scalar-bridge selection",
+    "scalar bridge" in current_state.lower() and "two-jet" in current_state.lower(),
 )
-check("repo", "roadmap preserves K116 as superseded predecessor", "K116 CORRECTS THE TT TRANSPORT TARGET" in roadmap and "K117" in roadmap[:3000])
+check("repo", "roadmap preserves K116 as superseded predecessor", "K116 CORRECTS THE TT TRANSPORT TARGET" in roadmap and "K120" in roadmap[:3000])
 check("repo", "agent context blocks historical owner census", "Do not run an owner census against" in context)
 check("repo", "research status records downgrade", "K116 TT frame-consistency correction" in research_status and "superseded in full" in research_status)
 check("repo", "K116 artifact records K117 symbol-order correction", "K117 SYMBOL-ORDER CORRECTION" in artifact)

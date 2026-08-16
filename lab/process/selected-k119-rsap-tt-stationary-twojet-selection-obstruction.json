@@ -40,6 +40,11 @@
     "I_II": "MISSING_TYPED_EQUALITY_OR_PULLBACK_FROM_SOURCE_ACTION"
   },
   "complete_selection_tuple_owned": false,
-  "next_gate": "K120_GEOMETRIC_JET_CUSTODY_BEFORE_CUBIC_ASSEMBLY",
+  "next_gate": "K121_SCALAR_BRIDGE_NORMALIZATION_AND_BACKGROUND_COMPATIBILITY_AFTER_K120_TT_GEOMETRIC_PARTIAL_CLOSURE",
+  "successor_closure": {
+    "swing": "K120",
+    "result": "I1B_TT_DF_D2F_OWNED_FROM_SOURCE_COORDINATES__ONE_DIMENSIONAL_OBSERVED_TO_RADIAL_SCALAR_BRIDGE_REMAINS",
+    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md"
+  },
   "canon_verdict_change": "none"
 }

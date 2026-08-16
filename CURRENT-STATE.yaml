@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6deadc4258a19875df6dd6b58b749b4484a58503
+revision_basis: c1a15abb262e762ad1d883589c1e15e93c7387e8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -1021,7 +1021,19 @@ current_result:
     compose one action's stationary base point, first/second soldering and
     observation jets, pairing and preboundary owner independently of the
     desired cubic. K121 may assemble D3 only after that map is fixed.
+    K120 closes that demand on the I1B TT legs. The source-coordinate identity
+    T=varpi-B_LC(g) and exact first/second spin-Levi-Civita jets fix DF_h,
+    DF_v and D2F_hh without fitting the cubic. They do not identify the
+    observed I_sc scalar with the invariant Phi1 radial coefficient. The
+    family theta -> lambda theta Phi1 has identical TT jets for every nonzero
+    lambda, while the native radial cubic and pulled preboundary scalar column
+    scale with lambda. Stationarity, observation transport, the native
+    pairing and the current live boundary moment map do not select it. K121
+    must test the two scalar action normalizations, oriented interaction,
+    stationary backgrounds and observation meaning before K122 assembly.
   evidence:
+    - explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md
+    - lab/process/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate.json
     - explorations/conditional-build/selected-k119-rsap-tt-stationary-twojet-selection-obstruction-2026-08-15.md
     - lab/process/selected-k119-rsap-tt-stationary-twojet-selection-obstruction.json
     - explorations/conditional-build/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md
@@ -1265,13 +1277,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can one selected primitive action and stationary base point independently
-  derive the observed-to-native DF and D2F from the actual spin-Levi-Civita,
-  soldering, section and observation geometry, including its pairing and
-  preboundary representative, without fitting those jets to the desired
-  cubic? Only after that geometric custody exists can a map-independent
-  pullback D3, unique pencil, spectral owner, domain and 2D-to-98D attachment
-  be tested.
+  Do the action-owned quadratic normalization, oriented interaction,
+  stationary background map and observation semantics identify the observed
+  I_sc scalar theta with the invariant I1B Phi1 radial coordinate, including
+  the slope and sign lambda? Only after that scalar bridge is selected can the
+  now-owned TT geometric two-jet produce a map-independent pullback D3,
+  preboundary class, unique pencil, spectral owner, domain and 2D-to-98D
+  attachment.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1385,10 +1397,12 @@ next_condition: >-
   the 18-dimensional D2F space surjects onto all ten observed cubic
   coefficients with an eight-dimensional kernel. Cubic fitting is therefore
   not ownership. Even an affine diagonal lift retains a one-dimensional
-  scaling orbit after both projections are matched. Reopen with K120's
-  independently derived geometric jet custody for one selected action and
-  base point, then compute the complete pullback D3 before testing transport
-  or composing a
+  scaling orbit after both projections are matched. K120 now independently
+  derives the I1B TT jet from T=varpi-B_LC(g), but every nonzero scalar slope
+  lambda leaves that TT jet fixed while rescaling the radial cubic and
+  preboundary column. Reopen with K121's scalar normalization/background/
+  observation bridge test, then compute the complete pullback D3 before
+  testing transport or composing a
   non-invariant, nonlinear, boundary or cohomological 2D-to-98D map carrying a
   selected closed positive physical domain. This does not kill future
   nonlinear, nonlocal, contour, Wick or boundary constructions and does not

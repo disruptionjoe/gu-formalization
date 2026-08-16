@@ -82,10 +82,11 @@
     "hostile_review": "PASS_AFTER_EIGHT_SCOPE_CORRECTIONS",
     "symplectic_review": "NO_PHYSICAL_TRANSITION_OR_FIFTH_QUOTIENT"
   },
-  "next_gate": "K119_SELECT_PRIMITIVE_ACTION_LAYER_AND_STATIONARY_OBSERVED_TO_NATIVE_TWO_JET_BEFORE_PACKAGE_ASSEMBLY",
+  "next_gate": "K121_SELECT_OBSERVED_THETA_TO_I1B_RADIAL_SCALAR_BRIDGE_BEFORE_PACKAGE_ASSEMBLY",
   "successor_closure": {
-    "swing": "K118",
-    "result": "INTRINSIC_I1B_CUBIC_IS_NOT_THE_COMMON_OWNER_AND_HH_VV_PROJECTIONS_LEAVE_FOUR_FIRST_ORDER_PENCIL_ENTRIES_FREE",
-    "artifact": "explorations/conditional-build/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md"
+    "swing": "K120",
+    "result": "I1B_TT_GEOMETRIC_JET_OWNED__THETA_RAD_TO_OBSERVED_THETA_SLOPE_REMAINS_UNSELECTED",
+    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md",
+    "refines": "K118_ACTION_LAYER_AND_MAP_SELECTION_GATE"
   }
 }

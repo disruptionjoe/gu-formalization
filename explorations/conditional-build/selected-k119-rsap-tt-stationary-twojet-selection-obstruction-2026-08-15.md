@@ -204,6 +204,17 @@ remain conditional.
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes.
 
+## K120 successor closure — 2026-08-15
+
+K120 independently derives the `I1B` TT map jet from the source-coordinate
+identity `T=varpi-B_LC(g)`: both TT columns and the nonlinear
+spin-Levi-Civita second jet are owned without cubic fitting. The complete
+three-field map still fails selection for one precise reason. The observed
+`I_sc` scalar may enter the invariant `Phi1` radial line with any nonzero
+slope `lambda`; the owned TT jet is unchanged, while the native scalar cubic
+and preboundary column scale with `lambda`. K121 must compare the two action
+normalizations, backgrounds and observation semantics before assembly.
+
 Reproduce:
 
 ```bash

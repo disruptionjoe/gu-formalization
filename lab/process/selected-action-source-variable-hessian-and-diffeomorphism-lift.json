@@ -52,5 +52,10 @@
   "claim_status_change": "NONE",
   "canon_verdict_change": "NONE",
   "public_posture_change": "NONE",
-  "next_gate": "FULL_I1B_DERIVATIVE_CURVATURE_DENSITY_OBSERVATION_HESSIAN_ON_SOURCE_VARIABLES_AND_SIX_VERSUS_FOUR_NULLITY_TEST"
+  "next_gate": "FULL_I1B_DERIVATIVE_CURVATURE_DENSITY_OBSERVATION_HESSIAN_ON_SOURCE_VARIABLES_AND_SIX_VERSUS_FOUR_NULLITY_TEST",
+  "k120_successor_closure": {
+    "result": "SOURCE_COORDINATE_IDENTITY_NOW_OWNS_CURRENT_I1B_TT_DF__D2F_SUPPLIED_BY_SECOND_SPIN_LC_JET__SCALAR_BRIDGE_OPEN",
+    "active_next_gate": "K121_OBSERVED_THETA_TO_PHI1_RADIAL_NORMALIZATION",
+    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md"
+  }
 }

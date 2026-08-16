@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate",
+  "created": "2026-08-15",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K119_NEXT_GATE__THE_EXISTING_SOLDERING_OBSERVATION_PAIRING_AND_PREBOUNDARY_OWNERS_SELECT_A_COMPLETE_OBSERVED_TO_NATIVE_TWOJET_FOR_ONE_ACTION_LAYER",
+  "target_verdict": "PARTIAL__I1B_TT_GEOMETRIC_JET_CUSTODY_CLOSES__OBSERVED_THETA_TO_NATIVE_RADIAL_SCALAR_BRIDGE_AND_NORMALIZATION_REMAIN_UNOWNED",
+  "source_coordinate_map": {
+    "native_variables": ["g", "varpi"],
+    "geometric_variables": ["g", "T"],
+    "identity": "T=varpi-B_LC(g)",
+    "inverse": "varpi=B_LC(g)+T"
+  },
+  "i1b_twojet": {
+    "DF_theta": "(0,lambda*Phi1)",
+    "DF_h": "(H,DB_LC[H])",
+    "DF_v": "(0,V)",
+    "D2F_hh": "(0,D2B_LC[H,H])",
+    "tt_columns_independent_of_lambda": true,
+    "second_lc_jet_independent_of_lambda": true,
+    "complete_three_field_map_selected": false
+  },
+  "scalar_bridge": {
+    "map": "theta_Isc -> lambda*theta*Phi1_in_T",
+    "lambda_selected": false,
+    "stationarity_selects_lambda": false,
+    "observation_receiver_selects_lambda": false,
+    "pairing_match_if_imposed": "lambda^2=kappa/k_rad__CROSS_ACTION_CONDITIONAL",
+    "remaining_sign_if_only_quadratic_match": true,
+    "preboundary_scalar_column": "lambda*p_rad"
+  },
+  "exact_control": {
+    "F_lambda": "(h,lambda*theta,v+b1*h+b2*h^2/2)",
+    "jacobian_determinant": "-lambda",
+    "only_nonzero_second_jet": "D2F_hh=(0,0,b2)",
+    "native_cubic_pullback": ["theta_h_h=lambda*c_h", "theta_v_v=lambda*c_v"]
+  },
+  "candidate_layers": {
+    "I_sc": "IDENTITY_ON_THETA_G__NO_NATIVE_INDEPENDENT_V_COMPLETION",
+    "I1B": "TT_DF_D2F_OWNED__SCALAR_BRIDGE_UNOWNED",
+    "I2B": "RESIDUAL_TARGET_PAIRING_AND_SCALAR_BRIDGE_UNOWNED",
+    "I_II": "SOURCE_ACTION_EQUALITY_AND_INDEPENDENT_DISTORTION_LEG_UNOWNED"
+  },
+  "reverse_scaffold": {
+    "R0": "TWO_KNOWN_DIAGONAL_PROJECTIONS",
+    "R1": "NO_CUBIC_FITTING_OF_MAP_JETS",
+    "R2": "I1B_TT_SOURCE_COORDINATE_TWOJET_OWNED",
+    "R3": "LAMBDA_SCALAR_RESCALE_FAMILY_EXACT",
+    "R4": "SELECT_SCALAR_BRIDGE_FROM_ACTION_BACKGROUND_AND_OBSERVATION_TRUTH",
+    "R5": "ASSEMBLE_PULLBACK_CUBIC_AND_PREBOUNDARY_ONLY_IF_R4_CLOSES",
+    "R6": "SPECTRAL_DOMAIN_AND_ATTACHMENT_LATER"
+  },
+  "checks": {"total": 35, "failures": 0},
+  "next_gate": "K121_SCALAR_BRIDGE_NORMALIZATION_AND_BACKGROUND_COMPATIBILITY",
+  "canon_verdict_change": "none"
+}

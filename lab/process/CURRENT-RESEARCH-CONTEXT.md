@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K120 geometric two-jet custody and scalar-bridge gate:** the
+> source-native coordinate change `T=varpi-B_LC(g)` independently owns the
+> `I1B` metric/distortion `DF` columns and the nonzero spin-Levi-Civita `D2F`
+> term. Do not refit those jets. The remaining map freedom is exactly the
+> scalar injection `theta_Isc -> lambda theta Phi1`. Every nonzero `lambda`
+> leaves the owned TT jet unchanged but rescales the native radial cubic and
+> pulled preboundary scalar column. Observation is a receiver and the current
+> boundary moment map is live; neither selects `lambda`. K121 must compare the
+> two action quadratic forms, oriented interactions, stationary backgrounds
+> and observation semantics before any cubic assembly.
+
 > **Current K119 stationary two-jet selection obstruction:** stationarity is
 > blind to `DF,D2F`. At `DI=0`, the pullback cubic still contains the
 > Hessian-times-`D2F` cyclic terms. For a nondegenerate primitive Hessian on
@@ -18,10 +29,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > A selected degenerate Hessian must be tested through its cokernel instead.
 > Even the affine diagonal `D2F=0` lift retains one rescaling dimension after
 > both known diagonal projections match. Do not select `I_sc`, `I1B`, `I2B`
-> or `I_II` by stationarity, symbol reuse or cubic fit. K120 must independently
-> compose the genuine spin-Levi-Civita, soldering, section and observation
-> jets, pairing and preboundary owner for one named action/base point; K121
-> assembles the cubic only afterward.
+> or `I_II` by stationarity, symbol reuse or cubic fit. K120 has since closed
+> the `I1B` TT geometry and isolated the scalar bridge. Use the K120 block
+> above for the current K121 gate.
 
 > **Refined by K119 — K118 full-moving D3 owner-sufficiency gate:** `I_selected` is not
 > yet one cubic object at this seam. The observed scalar horn, `I1B`, `I2B`

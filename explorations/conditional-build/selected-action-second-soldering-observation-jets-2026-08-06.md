@@ -212,3 +212,12 @@ K118 also exhibits four unfixed entries in the first-order pencil after the
 known `hh` and `vv` projections are imposed.  Consequently the next operation
 is K119 action-layer/scalar-lift selection, followed by complete coefficient
 assembly only after that typed map is fixed.
+
+## K120 successor refinement — 2026-08-15
+
+K120 composes this second spin-Levi-Civita jet with the source-coordinate map
+`T=varpi-B_LC(g)`, closing `I1B` custody for the two TT columns and their
+nonlinear metric second jet. The remaining map defect is no longer the full
+two-jet: it is the one-dimensional identification
+`theta_Isc -> lambda theta Phi1`. K121 must select that scalar bridge before
+coefficient assembly.

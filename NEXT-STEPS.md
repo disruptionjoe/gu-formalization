@@ -7,6 +7,22 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K120 CLOSES THE `I1B` TT GEOMETRIC TWO-JET BUT ISOLATES ONE
+> UNOWNED SCALAR BRIDGE.** The source-coordinate identity
+> `T=varpi-B_LC(g)` and the exact first/second symmetric-frame
+> spin-Levi-Civita jets independently fix the metric/distortion columns and
+> nonlinear TT second jet of the `I1B` map. They do not identify the observed
+> `I_sc` scalar with the invariant `Phi1` radial coefficient. The exact family
+> `theta -> lambda theta Phi1` has the same TT `DF,D2F` for every nonzero
+> `lambda`, while the radial cubic and pulled preboundary scalar column scale
+> with `lambda`. Stationarity, observation transport, the native pairing and
+> the current live boundary moment map do not select it. **K121 must compare
+> the two action normalizations, stationary backgrounds, oriented interaction
+> and observation meaning, ending with a typed equality, incompatibility, or
+> explicit conditional datum `lambda`.** K122 may assemble the cubic only if
+> that bridge closes; spectral/domain/attachment work remains later. Exact
+> probe records the full coordinate and pairing controls.
+
 > **2026-08-15 K119 PROVES THAT STATIONARITY AND CUBIC MATCHING CANNOT SELECT
 > THE MISSING ACTION LIFT.** At a stationary native base point, the composite
 > is stationary for every `DF,D2F`; stationarity removes `DI[D3F]` but leaves
@@ -19,9 +35,9 @@ updated_at: "2026-08-15"
 > the two known projections retain one scalar/TT rescaling orbit. **K120 must
 > derive one action layer's stationary `DF,D2F`, pairing and preboundary owner
 > from the actual soldering/observation geometry independently of the cubic.**
-> K121 may then assemble the pullback cubic; spectral, domain and attachment
-> gates remain later. Exact probe records the complete rank/kernel and planted
-> degenerate boundary.
+> K120 has now done so for both `I1B` TT legs and exposed the remaining scalar
+> bridge; use the K120 block above for the current order. Exact K119 probe
+> records the complete rank/kernel and planted degenerate boundary.
 
 > **REFINED BY K119 — 2026-08-15 K118 FINDS THAT THE FULL-MOVING `D3 I_SELECTED` OWNER IS NOT
 > YET ONE TYPED ACTION OBJECT.** The observed scalar horn `I_sc`, first action

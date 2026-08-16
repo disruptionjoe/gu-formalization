@@ -108,8 +108,8 @@ check("artifact", "classification is explicit", "Classification: `SOURCE_NATIVE_
 check("artifact", "target claim is internal and exact", "target_claim: K118_NEXT_GATE" in artifact)
 check("registry", "registry records full rank and eight-dimensional kernel", registry["nondegenerate_branch"]["second_jet_to_cubic_rank"] == 10 and registry["nondegenerate_branch"]["second_jet_to_cubic_kernel_dimension"] == 8)
 check("registry", "no complete selection tuple is claimed", registry["complete_selection_tuple_owned"] is False)
-check("repo", "current state routes to geometric jet custody", "geometric jet custody" in current.lower())
-check("repo", "roadmap leads with K119", "K119" in roadmap[:4500] and "cubic matching" in roadmap[:4500].lower())
+check("repo", "current state advances through K120 to scalar-bridge custody", "scalar bridge" in current.lower() and "two-jet" in current.lower())
+check("repo", "roadmap preserves K119 beneath current K120", "K120" in roadmap[:4500] and "K119" in roadmap and "cubic matching" in roadmap.lower())
 check("repo", "context states the surjective obstruction", "eight-dimensional" in context[:8000].lower())
 check("repo", "K118 carries the K119 successor correction", "K119 selection correction" in k118)
 

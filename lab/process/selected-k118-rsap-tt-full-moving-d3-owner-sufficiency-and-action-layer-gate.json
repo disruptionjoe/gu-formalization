@@ -51,6 +51,12 @@
     "R6": "SPECTRAL_OWNER_STATIONARITY_DOMAIN_AND_ATTACHMENT",
     "next_swings": ["K119_ACTION_LAYER_AND_SCALAR_LIFT_SELECTION", "K120_COMPLETE_PULLBACK_D3_IF_SELECTED", "K121_SPECTRAL_OWNER_MATCH_IF_UNIQUE", "K122_STATIONARITY_DOMAIN", "K123_ATTACHMENT"]
   },
+  "successor_correction": {
+    "through": "K120",
+    "result": "I1B_TT_TWOJET_OWNED_FROM_SOURCE_COORDINATES__OBSERVED_THETA_TO_PHI1_RADIAL_SLOPE_UNSELECTED",
+    "active_next_gate": "K121_SCALAR_BRIDGE_NORMALIZATION_AND_BACKGROUND_COMPATIBILITY",
+    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md"
+  },
   "checks": {"total": 42, "failures": 0},
   "disposition": {
     "ledger_change": "none",

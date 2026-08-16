@@ -50,10 +50,11 @@
     "NO_CANON_OR_PUBLIC_POSTURE_CHANGE"
   ],
   "review_receipt": "lab/process/hostile-reviews/2026-08-06-two-layer-action-selected-cubic-owner-retype-review.md",
-  "next_gate": "K119_SELECT_PRIMITIVE_ACTION_LAYER_AND_STATIONARY_OBSERVED_TO_NATIVE_TWO_JET_BEFORE_ANY_COMMON_MOVING_CUBIC",
+  "next_gate": "K121_SELECT_OBSERVED_THETA_TO_I1B_RADIAL_SCALAR_BRIDGE_BEFORE_ANY_COMMON_MOVING_CUBIC",
   "successor_closure": {
-    "swing": "K118",
-    "result": "LAYER_SPLIT_REMAINS_ACTIVE_AND_KNOWN_HH_VV_PROJECTIONS_DO_NOT_SELECT_A_UNIQUE_FIRST_ORDER_PENCIL",
-    "artifact": "explorations/conditional-build/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md"
+    "swing": "K120",
+    "result": "I1B_IS_STRONGEST_PRIMITIVE_CANDIDATE_WITH_OWNED_TT_TWOJET__SCALAR_ACTION_LAYER_BRIDGE_REMAINS_OPEN",
+    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md",
+    "refines": "K118_ACTION_LAYER_AND_MAP_SELECTION_GATE"
   }
 }

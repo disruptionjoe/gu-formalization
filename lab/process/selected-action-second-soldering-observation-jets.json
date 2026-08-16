@@ -48,10 +48,11 @@
   "public_posture_change": "NONE",
   "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
   "third_lane": "NOT_PROMOTED",
-  "next_gate": "K119_SELECT_PRIMITIVE_ACTION_LAYER_AND_COMPLETE_STATIONARY_OBSERVED_TO_NATIVE_TWO_JET__THEN_EXPAND_SELECTED_COEFFICIENTS",
+  "next_gate": "K121_SELECT_OBSERVED_THETA_TO_I1B_RADIAL_SCALAR_BRIDGE__TT_GEOMETRIC_JET_CLOSED_BY_K120",
   "successor_closure": {
-    "swing": "K118",
-    "result": "EXISTING_SECOND_JETS_ARE_NECESSARY_BUT_DO_NOT_SELECT_THE_ACTION_LAYER_OR_FULL_MAP",
-    "artifact": "explorations/conditional-build/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md"
+    "swing": "K120",
+    "result": "SECOND_SPIN_LC_JET_NOW_COMPOSED_IN_I1B_TT_MAP__SCALAR_BRIDGE_LAMBDA_REMAINS_UNOWNED",
+    "artifact": "explorations/conditional-build/selected-k120-rsap-tt-geometric-twojet-custody-and-scalar-bridge-gate-2026-08-15.md",
+    "refines": "K118_ACTION_LAYER_AND_MAP_SELECTION_GATE"
   }
 }

@@ -185,3 +185,13 @@ P1/P2/P3 consumed: 0
 
 Curt remains formally separate inside the Eric lane. No third lane, canon
 verdict, claim status or public posture is promoted.
+
+## K120 successor closure — 2026-08-15
+
+K120 uses this source-coordinate identity in the direction required by the
+current TT reverse scaffold. The map `(g,T)->(g,B_LC(g)+T)` independently
+owns the metric/distortion `DF` columns; the later exact second
+spin-Levi-Civita artifact supplies `D2F`. This closes the TT geometric map
+without fitting a cubic. It does not identify the separately written
+`I_sc` scalar with the invariant `Phi1` radial coordinate. That remaining
+normalization/sign bridge is K121.
