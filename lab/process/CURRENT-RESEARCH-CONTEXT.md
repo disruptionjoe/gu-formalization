@@ -9,7 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
-> **Current K117 TT symbol-order correction:** the owned fixed-symbol response
+> **Current K118 full-moving D3 owner-sufficiency gate:** `I_selected` is not
+> yet one cubic object at this seam. The observed scalar horn, `I1B`, `I2B`
+> and observer `||II||^2` functional are distinct action layers with no
+> selected third-derivative identification. The observed `theta` to intrinsic
+> `theta_rad` lift is also unselected. Even granting the known `hh` kinetic
+> and conditional `vv` cubic projections leaves four of six first-order
+> symmetric-pencil coefficients undetermined; exact direct and
+> field-redefinition completions share both projections and disagree
+> spectrally. Do not assemble terms across action layers or run a spectral
+> census. K119 must first select one primitive action and a stationary
+> observed-to-native two-jet; K120 then computes its pullback cubic if owned.
+
+> **K117 symbol-order correction, retained and refined by K118:** the owned fixed-symbol response
 > is `delta J_hh(z)=d z E_hh`, inherited from `a -> a+beta theta`. K116 fixed
 > the coordinate frame but not the differential order: its zero-order mass
 > insertion is not the literal action-derived target. The observed `hh` horn
@@ -18,9 +30,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > fails to parallelize `C` for moving `r`. An exact full-pencil
 > field-redefinition completion has the same `hh` derivative and different
 > `h-v` response, so the full selected moving pencil remains underdetermined.
-> Start K118 at the full moving `D3 I_selected` owner. Do not reuse K116's
-> mass-deformed packet as action-derived, and do not run another transport
-> census until the full third derivative selects a pencil.
+> K118 has now shown that the full derivative is not one typed action-layer
+> object. Start K119 at primitive-action and stationary two-jet selection. Do
+> not reuse K116's mass-deformed packet or run another transport census.
 
 > **Historical K116 TT frame-consistency correction, superseded as an action target by K117:** K110--K115 combined raw
 > `(h,v)` `K,M0` with the eigenmode `(q0,qm)` interaction Hessian. In either

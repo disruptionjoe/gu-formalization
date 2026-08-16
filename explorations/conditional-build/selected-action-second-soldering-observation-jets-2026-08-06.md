@@ -203,3 +203,12 @@ P1/P2/P3 consumed: 0
 
 Curt remains formally separate inside the Eric lane. No third lane, canon
 verdict, claim status or public posture is promoted.
+
+## K118 successor closure — 2026-08-15
+
+These second jets supply part of the required chain-rule data, but they do not
+by themselves select the action layer or the full observed-to-native map.
+K118 also exhibits four unfixed entries in the first-order pencil after the
+known `hh` and `vv` projections are imposed.  Consequently the next operation
+is K119 action-layer/scalar-lift selection, followed by complete coefficient
+assembly only after that typed map is fixed.

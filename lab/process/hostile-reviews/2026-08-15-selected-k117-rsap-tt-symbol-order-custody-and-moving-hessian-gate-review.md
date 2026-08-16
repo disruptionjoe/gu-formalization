@@ -49,5 +49,7 @@ lenses: [layer0_semantics, variational_pde, principal_symbol, krein_operator, so
 
 Pass at exact symbol-order and observed-horn grade. K116's concrete mass
 deformation must be retained only as hypothetical algebra, not as the
-inherited action target. K118 begins at the already-named full-moving `D3I`
-owner and may not choose between the two completion controls.
+inherited action target. K118 has since proved that the derivative is not one
+typed action-layer object. K119 begins with primitive-action and stationary
+observed-to-native two-jet selection and may not choose between completion
+controls by spectral preference.

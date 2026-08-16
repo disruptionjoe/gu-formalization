@@ -1,6 +1,6 @@
 ---
 title: "Selected-K117 RSAP TT symbol-order custody and moving-Hessian gate"
-status: active_research
+status: refined_by_k118_action_layer_gate
 doc_type: exact_symbol_order_correction_variable_kinetic_spectral_packet_and_full_moving_hessian_underdetermination_gate
 created: "2026-08-15"
 registry: lab/process/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate.json
@@ -12,6 +12,12 @@ canon_verdict_change: none
 ---
 
 # Selected-K117 RSAP TT symbol-order custody and moving-Hessian gate
+
+> **K118 ACTION-LAYER CORRECTION (2026-08-15):** K117's symbol-order result
+> remains exact, but “full moving `D3 I_selected`” is not yet one typed object.
+> The observed scalar horn, `I1B`, `I2B`, and observer `||II||^2` functional
+> are distinct, and no stationary observed-to-native two-jet identifies their
+> cubic tensors. Use K118 before attempting K117's proposed K118 assembly.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > variational-symbol, Krein and action-Hessian question. Ordinary Higgs/VEV,
@@ -231,13 +237,14 @@ R5 later gates:  stationarity, domain, BFV attachment
 
 Next swings:
 
-1. **K118:** resume the already-named full-moving `D3 I_selected` owner,
-   composing direct curvature/`II`/defect, nonlinear soldering, moving
-   Shiab/Hodge/pairing/observation, compensator and preboundary responses.
-2. **K119:** only if K118 selects one two-field pencil, construct its spectral
-   connection and perform the coefficientwise owner test.
-3. **K120:** test stationary background and common domain only after K119.
-4. **K121:** reopen `2D`-to-`98D` attachment only after ownership survives.
+1. **K118 (executed):** the requested derivative is not one typed action
+   object; four action layers and the observed/native scalar lift remain
+   distinct.
+2. **K119:** select one primitive action layer and construct a stationary
+   observed-to-native two-jet.
+3. **K120/K121:** compute the pullback cubic, then test spectral ownership only
+   if one pencil results.
+4. **K122/K123:** stationarity/domain and attachment remain last.
 
 The correction changes no canon, ledger verdict, public posture, particle or
 phenomenology claim. It retracts a reconstruction target and restores the

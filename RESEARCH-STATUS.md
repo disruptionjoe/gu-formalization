@@ -8,7 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**K117 TT symbol-order custody and moving-Hessian gate 2026-08-15 (local
+**K118 TT full-moving D3 owner-sufficiency and action-layer gate 2026-08-15
+(local exact correction; no canon/public-posture change).** The requested
+`D3 I_selected` is not yet one typed object. `I_sc`, `I1B`, `I2B`, and the
+observer `I_II=||II||^2` functional are distinct action layers; no current
+owner identifies their cubic tensors or supplies a stationary
+observed-to-native two-jet on `(theta,h,v)`. A stationary pullback cubic needs
+`DF` and `D2F`; an `I2B` cubic at residual zero additionally needs
+`DUpsilon`, `D2Upsilon`, and `DQ`, not only its known Hessian. Algebraically,
+the general first-order symmetric two-field pencil contains six coefficients.
+The observed kinetic `hh` response and even a conditionally granted intrinsic
+`vv` response leave four free. Exact direct and field-redefinition
+completions share both projections but have respectively nonzero generic and
+zero discriminant derivative. K119 now owns action-layer/scalar-lift
+selection; K120 pullback assembly and K121 spectral ownership are conditional.
+Exact probe `42/42`. See
+`explorations/conditional-build/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| full moving `D3 I_selected` | one underdetermined derivative | not yet a single typed action-layer object | primitive action selection plus stationary `j2F` | status, canon, derivation, roadmap, papers | K117 and current surfaces |
+| conditional `hh`+`vv` fusion | two strongest diagonal projections | four-dimensional pencil ambiguity | `h-v` and remaining moving coefficient owners | same | K118 artifact/registry/probe |
+| next spectral target | wait for full D3 | wait for action layer, map, and complete pullback D3 | K119/K120 | same | current surfaces |
+
+**K117 TT symbol-order custody and moving-Hessian gate, retained and refined
+by K118, 2026-08-15 (local
 exact correction; no canon/public-posture change).** The inherited response
 is `delta J_hh(z)=d z E_hh`, because the scalar horn replaces the Einstein
 kinetic coefficient `a -> a+beta theta`. K116 repaired the coordinate frame
@@ -21,9 +45,9 @@ not `C`-compatible for moving `r`. Moreover, the previously constructed
 full-pencil field-redefinition completion shares the same inherited `hh`
 entry but has a different `h-v` entry and fixed spectrum. Thus the complete
 moving `Y14` Hessian and any action-owned transport remain underdetermined.
-K118 resumes the full moving third-derivative owner; K119 transport, K120
-stationarity/domain and K121 attachment remain conditional on that result.
-Exact probe `43/43`. See
+K118 subsequently shows that the action layer and observed-to-native two-jet
+must be selected first; use the K118 entry above for the current order.
+Exact K117 probe `43/43`. See
 `explorations/conditional-build/selected-k117-rsap-tt-symbol-order-custody-and-moving-hessian-gate-2026-08-15.md`.
 
 | claim | prior status | current status | weakest dependency | stale wording searched | files updated |

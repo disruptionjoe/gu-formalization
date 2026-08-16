@@ -112,7 +112,11 @@ context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 status = (ROOT / "RESEARCH-STATUS.md").read_text()
 check("repo", "artifact states symbol-order correction", "The missing symbol" in artifact and "d z E_hh" in artifact)
 check("repo", "registry leaves full selected pencil unselected", registry["completion_fork"]["full_selected_action_pencil"] == "NOT_SELECTED")
-check("repo", "current question starts at full moving D3 owner", "full moving third derivative" in current.lower())
+check(
+    "repo",
+    "current question has advanced through K118 to action-layer and two-jet selection",
+    "action layer" in current.lower() and "two-jet" in current.lower(),
+)
 check("repo", "roadmap leads with K117", "K117" in roadmap[:3000] and "symbol" in roadmap[:3000].lower())
 check("repo", "context blocks K116 action-target reuse", "K116" in context[:5000] and "differential order" in context[:5000])
 check("repo", "research status records K117 correction", "K117 TT symbol-order" in status)

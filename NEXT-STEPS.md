@@ -7,7 +7,22 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
-> **2026-08-15 K117 RESTORES TT SYMBOL ORDER AND REOPENS THE FULL MOVING
+> **2026-08-15 K118 FINDS THAT THE FULL-MOVING `D3 I_SELECTED` OWNER IS NOT
+> YET ONE TYPED ACTION OBJECT.** The observed scalar horn `I_sc`, first action
+> `I1B`, residual-square second action `I2B`, and observer `I_II=||II||^2`
+> have distinct owners. No current theorem identifies their cubic tensors,
+> identifies observed `theta` with intrinsic `theta_rad`, or supplies one
+> stationary observed-to-native two-jet on `(theta,h,v)`. Even granting both
+> known diagonal projections, a general first-order symmetric TT pencil has
+> six coefficients and retains four free slots. Exact direct and congruence
+> completions share those projections but have different discriminant
+> response. **K119 must select one primitive action layer and construct a
+> stationary `j2F:E_obs -> fields(I)` before coefficient assembly.** K120 may
+> then compute the pullback cubic/preboundary class; K121 may test spectral
+> ownership only if one pencil results. K122 stationarity/domain and K123
+> attachment remain later. Exact probe `42/42`.
+
+> **REFINED BY K118 — 2026-08-15 K117 RESTORES TT SYMBOL ORDER AND REOPENS THE FULL MOVING
 > HESSIAN OWNER.** The inherited interaction is
 > `delta J_hh(z)=d z E_hh`, from `a -> a+beta theta`; it changes the kinetic
 > coefficient and vanishes at `z=0`. K116 correctly repaired the coordinate
@@ -20,10 +35,10 @@ updated_at: "2026-08-15"
 > does not own that connection for moving `r`. A full-pencil field-redefinition
 > completion shares the same observed `hh` derivative but has different
 > `h-v` response and fixed spectrum, proving that the current datum does not
-> select a unique moving pencil. **K118 must construct the full moving third
-> derivative `D3 I_selected`, especially its `h-v` and geometric responses,
-> before any new spectral owner match.** Then K119 may test transport, K120
-> stationarity/domain, and K121 attachment. Exact probe `43/43`.
+> select a unique moving pencil. K117 therefore requested a full moving third
+> derivative; K118 has since shown that the action layer and
+> observed-to-native two-jet must be selected first. Use the K118 block above
+> for the current K119--K123 order. Exact K117 probe `43/43`.
 
 > **SUPERSEDED AS AN ACTION TARGET BY K117 — 2026-08-15 K116 CORRECTS THE TT TRANSPORT TARGET BEFORE THE NEXT OWNER
 > SWING.** K110--K115 combined the raw `(h,v)` kinetic/free-mass matrices with

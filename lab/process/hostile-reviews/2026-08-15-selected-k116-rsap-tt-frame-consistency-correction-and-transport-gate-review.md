@@ -49,6 +49,6 @@ artifact: explorations/conditional-build/selected-k116-rsap-tt-frame-consistency
 
 Pass at exact local correction grade. The prior concrete K110--K115 packet
 must remain visibly superseded wherever current agents encounter it. The
-historical next-owner conclusion is superseded by K117. The current next swing
-must construct the full moving `D3 I_selected` owner before selecting a new
-transport target.
+historical next-owner conclusion is superseded by K117/K118. The current next
+swing must select one primitive action layer and a stationary
+observed-to-native two-jet before constructing a new transport target.

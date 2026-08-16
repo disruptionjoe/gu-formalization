@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_full_moving_d3_owner_sufficiency_and_action_layer_gate",
+  "created": "2026-08-15",
+  "status": "PASS__FULL_MOVING_D3_NOT_SINGLE_TYPED_OBJECT__ACTION_LAYER_AND_OBSERVED_TO_NATIVE_TWO_JET_REQUIRED__FOUR_PARAMETER_PENCIL_AMBIGUITY_REMAINS_AFTER_TWO_DIAGONAL_PROJECTIONS",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "OBSERVED_THETA_H_V_HORN__I_SC_I1B_I2B_I_II_ACTION_LAYER_CUSTODY__FIRST_ORDER_TWO_FIELD_PENCIL",
+  "target_claim": {
+    "id": "K117_NEXT_GATE__EXISTING_OWNER_PACKETS_ASSEMBLE_DIRECTLY_INTO_ONE_FULL_MOVING_D3_I_SELECTED",
+    "verdict": "NO__PRIMITIVE_ACTION_LAYER_AND_STATIONARY_OBSERVED_TO_NATIVE_TWO_JET_ARE_UNSELECTED"
+  },
+  "owner_packet": {
+    "observed_carrier": "E_obs=span(theta,h,v)",
+    "known_projection": "D3_I_sc[theta,h,h]=d*z",
+    "conditional_projection": "D3_I1B[theta_rad,v,v]=s__REQUIRES_theta_EQUALS_theta_rad_AND_NORMALIZATION_MAP",
+    "missing_owner": "ONE_PRIMITIVE_ACTION_LAYER_PLUS_STATIONARY_j2F_FROM_OBSERVED_TO_NATIVE_FIELDS",
+    "claim_ceiling": "EXACT_OWNER_INSUFFICIENCY_AND_MINIMUM_INTERFACE_THEOREM"
+  },
+  "action_layers": {
+    "I_sc": "OBSERVED_SCALAR_METRIC_HORN",
+    "I1B": "FIRST_TRANSGRESSION_ACTION",
+    "I2B": "RESIDUAL_SQUARE_SECOND_ACTION",
+    "I_II": "OBSERVER_EXTRINSIC_NORM_SQUARE",
+    "third_derivative_identification_selected": false
+  },
+  "pullback_interface": {
+    "stationary_formula": "D3(IoF)=D3I[DF,DF,DF]+D2I[D2F,DF]+CYCLIC",
+    "required_map_jet": 2,
+    "off_shell_extra": "DI[D3F]",
+    "residual_square_cubic_requires": ["DUPSILON", "D2UPSILON", "DQ"],
+    "current_three_leg_map_selected": false
+  },
+  "pencil_ambiguity": {
+    "general_deltaK": "[[d,c],[c,e]]",
+    "general_deltaM": "[[m,q],[q,s]]",
+    "coefficient_count": 6,
+    "known_projection_count_if_conditional_vv_is_granted": 2,
+    "remaining_dimension": 4,
+    "remaining_slots": ["c", "e", "m", "q"],
+    "direct_discriminant_derivative": "2*alpha*b*(alpha*s+b*d)",
+    "field_redefinition_discriminant_derivative": "0",
+    "unique_spectrum_selected": false
+  },
+  "reverse_scaffold": {
+    "R0": "OBSERVED_FIXED_SYMBOL_hh_RESPONSE",
+    "R1": "CONDITIONAL_INTRINSIC_RADIAL_vv_SUMMAND",
+    "R2": "SELECT_PRIMITIVE_ACTION_LAYER",
+    "R3": "CONSTRUCT_STATIONARY_OBSERVED_TO_NATIVE_j2F",
+    "R4": "COMPUTE_COMPLETE_PULLBACK_D3_AND_PREBOUNDARY",
+    "R5": "BUILD_UNIQUE_PENCIL_IF_ALL_SIX_COEFFICIENTS_FIXED",
+    "R6": "SPECTRAL_OWNER_STATIONARITY_DOMAIN_AND_ATTACHMENT",
+    "next_swings": ["K119_ACTION_LAYER_AND_SCALAR_LIFT_SELECTION", "K120_COMPLETE_PULLBACK_D3_IF_SELECTED", "K121_SPECTRAL_OWNER_MATCH_IF_UNIQUE", "K122_STATIONARITY_DOMAIN", "K123_ATTACHMENT"]
+  },
+  "checks": {"total": 42, "failures": 0},
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k118_rsap_tt_full_moving_d3_owner_sufficiency_and_action_layer_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-review.md"
+}

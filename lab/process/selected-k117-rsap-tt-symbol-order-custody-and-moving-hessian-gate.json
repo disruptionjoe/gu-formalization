@@ -3,6 +3,11 @@
   "artifact_type": "rsap_tt_symbol_order_custody_and_moving_hessian_gate",
   "created": "2026-08-15",
   "status": "PASS__K116_ACTION_TARGET_SUPERSEDED_BY_SYMBOL_ORDER_ERROR__OBSERVED_HH_KINETIC_HORN_EXACT__FULL_MOVING_Y14_HESSIAN_UNDERDETERMINED",
+  "successor_correction": {
+    "refined_by": "lab/process/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate.json",
+    "reason": "FULL_MOVING_D3_I_SELECTED_IS_NOT_ONE_TYPED_ACTION_LAYER_WITHOUT_A_STATIONARY_OBSERVED_TO_NATIVE_TWO_JET",
+    "active_next_gate": "K119_ACTION_LAYER_AND_SCALAR_LIFT_SELECTION"
+  },
   "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
   "scope": "SELECTED_TWO_FIELD_TT_FIXED_SYMBOL_RESPONSE__OBSERVED_SCALAR_HORN__FULL_MOVING_ACTION_COMPLETION_BOUNDARY",
   "target_claim": {

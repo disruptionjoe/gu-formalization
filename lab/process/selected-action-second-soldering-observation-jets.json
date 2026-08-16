@@ -48,5 +48,10 @@
   "public_posture_change": "NONE",
   "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
   "third_lane": "NOT_PROMOTED",
-  "next_gate": "EXPAND_DIRECT_SELECTED_ACTION_METRIC_HODGE_SHIAB_KREIN_DENSITY_AND_OBSERVATION_COEFFICIENTS_ON_THE_EXACT_SECOND_JET_PACKET__THEN_DIFFEO_ODD_BV_GLOBAL_DOMAIN_AND_BFV"
+  "next_gate": "K119_SELECT_PRIMITIVE_ACTION_LAYER_AND_COMPLETE_STATIONARY_OBSERVED_TO_NATIVE_TWO_JET__THEN_EXPAND_SELECTED_COEFFICIENTS",
+  "successor_closure": {
+    "swing": "K118",
+    "result": "EXISTING_SECOND_JETS_ARE_NECESSARY_BUT_DO_NOT_SELECT_THE_ACTION_LAYER_OR_FULL_MAP",
+    "artifact": "explorations/conditional-build/selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md"
+  }
 }

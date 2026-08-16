@@ -23,7 +23,13 @@ canon_verdict_change: none
 > **K117 SYMBOL-ORDER CORRECTION (2026-08-15):** K116's `H dpsi` is not an
 > inherited action target either; it retyped `d z E_hh` as a mass term.
 > Retain only the abstract one-generator/local-ODE and boundary-support
-> statements. The next concrete adapter target waits on full moving `D3I`.
+> statements.
+
+> **K118 ACTION-LAYER CORRECTION (2026-08-15):** “full moving `D3I`” is not
+> yet one typed object. The observed horn, `I1B`, `I2B`, and `I_II` remain
+> distinct, and two known diagonal projections leave four pencil entries
+> free. K119 must first select the primitive action layer and stationary
+> observed-to-native two-jet.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV action-owner question. Ordinary

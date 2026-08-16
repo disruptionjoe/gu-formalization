@@ -306,3 +306,12 @@ reduced class on the mixed shell. In parallel, combine the nonzero intrinsic
 
 Curt remains formally separated inside the Eric lane; no third lane is
 promoted. P1/P2/P3, canon, claim status and public posture do not move.
+
+## K118 successor closure — 2026-08-15
+
+The package list above remains necessary but is not yet sufficient to name a
+unique full moving cubic.  K118 proves that the intrinsic `I1B` summand, the
+observed scalar horn, `I2B`, and `I_II` remain different action layers, while
+the known `hh` and `vv` projections leave four first-order pencil entries
+free.  K119 therefore precedes package assembly: select the primitive action
+layer and the stationary observed-to-native two-jet first.

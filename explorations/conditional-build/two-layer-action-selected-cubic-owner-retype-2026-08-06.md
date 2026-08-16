@@ -154,6 +154,15 @@ P1/P2/P3 consumed: 0
 Curt remains formally separate inside the Eric lane. No third lane, canon
 verdict, claim status or public posture is promoted.
 
+## K118 successor closure — 2026-08-15
+
+K118 confirms that this layer split is an active prerequisite, not merely a
+queue annotation.  The observed `I_sc`, primitive `I1B`, residual-square
+`I2B`, and observer `I_II` channels do not determine one common moving cubic.
+Before any further coefficient assembly, K119 must select the primitive action
+layer and construct the stationary observed-to-native two-jet.  See
+`selected-k118-rsap-tt-full-moving-d3-owner-sufficiency-and-action-layer-gate-2026-08-15.md`.
+
 ## Evidence
 
 - `tests/channel-swings/two_layer_action_selected_cubic_owner_retype_probe.py`

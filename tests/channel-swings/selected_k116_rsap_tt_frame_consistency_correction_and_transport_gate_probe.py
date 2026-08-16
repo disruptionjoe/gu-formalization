@@ -103,7 +103,11 @@ current_state = (ROOT / "CURRENT-STATE.yaml").read_text()
 roadmap = (ROOT / "NEXT-STEPS.md").read_text()
 context = (ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md").read_text()
 research_status = (ROOT / "RESEARCH-STATUS.md").read_text()
-check("repo", "current question routes through full moving third derivative", "full moving third derivative" in current_state.lower())
+check(
+    "repo",
+    "current question has advanced through K118 to action-layer and two-jet selection",
+    "action layer" in current_state.lower() and "two-jet" in current_state.lower(),
+)
 check("repo", "roadmap preserves K116 as superseded predecessor", "K116 CORRECTS THE TT TRANSPORT TARGET" in roadmap and "K117" in roadmap[:3000])
 check("repo", "agent context blocks historical owner census", "Do not run an owner census against" in context)
 check("repo", "research status records downgrade", "K116 TT frame-consistency correction" in research_status and "superseded in full" in research_status)
