@@ -219,6 +219,19 @@ K142 must not choose (9), add a gauge fixing or infer a physical domain. It
 may test quotient-connection well-definedness directly from the action-induced
 derivative modulo the diffeomorphism image. Joe input is not required.
 
+## K142 successor classification
+
+K142 now proves that the fixed split itself supplies a representative-free
+intrinsic quotient connection, but no action-specific amplitude term. Since
+`E R_mu=I` with fixed `E`, differentiation gives `E dR_mu=0` and therefore
+`P_mu dR_mu=0`. All nonzero `dD_mu` data are the graph's extrinsic second
+fundamental form. K138's natural transport preserves both `ker ell_n` and the
+diffeomorphism image, so it descends directly to their quotient without the
+complement rejected here. The resulting connection is independent of `D_mu`
+and cannot be promoted to the missing five-by-five Green/subprincipal
+endomorphism. K143 must derive the actual lower-order action coefficient and
+test radical/gauge basicness before any representative matrix or domain claim.
+
 Reproduce:
 
 ```bash

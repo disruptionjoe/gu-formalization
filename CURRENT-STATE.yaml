@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 52707d6e5dfa30127217856c2847331cf1a62c4a
+revision_basis: b5f2434dd54f6ae16c9ea2baecc6048d9f40f636
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K142 now proves that K141's compact action-derived graph family carries a
+    representative-free intrinsic connection, but that connection is
+    tautological at the metric-base grade and supplies no action-specific
+    five-class subprincipal endomorphism. For the fixed extraction E(g,T)=g
+    and graph inclusion R_mu g=(g,-D_mu g), E R_mu=I implies E dR_mu=0 and
+    P_mu dR_mu=0. The complete nonzero action dependence
+    (I-P_mu)dR_mu=dR_mu=(0,-dD_mu) is the graph's extrinsic second fundamental
+    form. K138's natural null transport preserves both H_n=ker ell_n and the
+    four-dimensional diffeomorphism image G_n=im(n odot -), so
+    nabla_Q[h]=[nabla h] defines an intrinsic connection on the rank-five
+    quotient H_n/G_n without a complement, representative choice or gauge
+    slice. This positive descent does not repair the missing action transport:
+    changing D_mu changes the extrinsic bending and leaves the intrinsic
+    quotient connection unchanged. K143 must construct the actual lower-order
+    action coefficient on the compact finite-frequency null family and test
+    preservation of the radical and gauge image, or require an explicit
+    gauge/boundary owner. Joe input is not required.
     K141 now constructs a uniformly bounded smooth action-derived graph
     family on the explicit compact annulus 13<=|mu|<=14, separated from
     mu=0 and all 27 spacelike shell ratios. The graph idempotent P_mu=R_mu E

@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K142 intrinsic quotient-connection classification:** for K141's
+> fixed extraction `E(g,T)=g` and graph inclusion `R_mu`, differentiating
+> `E R_mu=I` gives `E dR_mu=0` and hence `P_mu dR_mu=0`. The projected graph
+> connection is therefore the tautological metric-base connection; all
+> action-dependent `dD_mu` data are the extrinsic second fundamental form
+> `(I-P_mu)dR_mu`. K138's natural null transport preserves both the rank-nine
+> radical and four-dimensional diffeomorphism image, so it descends
+> intrinsically to their rank-five quotient without a complement or gauge
+> slice. This is a positive geometric quotient connection, not the missing
+> action-specific subprincipal operator: it is independent of `D_mu`, and its
+> zero graph contribution is not a zero physical subprincipal symbol. K143
+> owns the actual lower-order action coefficient and radical/gauge basicness
+> test on the compact finite-frequency null family.
+
 > **Current K141 compact parameter-annulus Riesz obstruction:** on the exact
 > annulus `13 <= |mu| <= 14`, the joint `kappa_1=rho mu` distortion block is
 > separated from zero and all 27 spacelike shell ratios, so its inverse and

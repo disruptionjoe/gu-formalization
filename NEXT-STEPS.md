@@ -7,6 +7,22 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K142 CONSTRUCTS THE INTRINSIC QUOTIENT CONNECTION AND PROVES
+> THE ACTION GRAPH DERIVATIVE IS PURELY EXTRINSIC.** For the fixed metric
+> extraction `E` and graph inclusion `R_mu`, the exact split `E R_mu=I` gives
+> `E dR_mu=0` and `P_mu dR_mu=0`. Thus the projected graph connection is the
+> tautological metric-base connection, while every nonzero `dD_mu` term lies
+> in the extrinsic second fundamental form `(I-P_mu)dR_mu`. K138's natural
+> null transport preserves both `H_n=ker ell_n` and the diffeomorphism image
+> `G_n=im(n odot -)`, so `[h] -> [nabla h]` descends intrinsically to the
+> five-class quotient `H_n/G_n` without a complement or gauge slice. Changing
+> `D_mu` changes graph bending but not this quotient connection, so it cannot
+> be the missing action-specific Green/subprincipal endomorphism and its zero
+> projected contribution is not a zero physical subprincipal symbol. **K143
+> must construct the actual lower-order action coefficient on the compact
+> finite-frequency null family and test whether it preserves the radical and
+> gauge image, or prove that an explicit gauge/boundary owner is necessary.**
+
 > **2026-08-16 K141 PRESERVES A UNIFORM COMPACT GRAPH FAMILY BUT OBSTRUCTS A
 > NATIVE RIESZ PROJECTOR ONTO THE FIVE-CLASS OBJECT.** The explicit annulus
 > `13 <= |mu| <= 14` has squared range `[169,196]`, separated from `mu=0` and

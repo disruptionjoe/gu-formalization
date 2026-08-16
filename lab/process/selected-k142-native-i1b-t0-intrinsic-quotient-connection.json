@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k142-native-i1b-t0-intrinsic-quotient-connection",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B mixed-order Hessian at T=0 on K138's smooth horizontal null stratum, restricted to K141's compact joint family 13<=|mu|<=14 and the fixed metric extraction E(g,T)=g",
+  "target_claim": "K141_NEXT_GATE__INTRINSIC_QUOTIENT_CONNECTION_WELL_DEFINEDNESS_MODULO_DIFFEOMORPHISMS",
+  "split_graph": {
+    "inclusion": "R_mu(h)=(h,-D_mu*h)",
+    "extraction": "E(h,T)=h",
+    "split_identity": "E*R_mu=I",
+    "projector": "P_mu=R_mu*E",
+    "differentiated_split": "E*dR_mu=0",
+    "projected_graph_derivative": "P_mu*dR_mu=0",
+    "extrinsic_graph_derivative": "(I-P_mu)*dR_mu=dR_mu=(0,-dD_mu)",
+    "intrinsic_connection_depends_on_D_mu": false,
+    "extrinsic_second_fundamental_form_may_be_nonzero": true
+  },
+  "quotient_connection": {
+    "radical": "H_n=ker(ell_n)",
+    "gauge": "G_n=im(n_odot_minus)",
+    "quotient": "Q_n=H_n/G_n",
+    "radical_dimension": 9,
+    "gauge_dimension": 4,
+    "quotient_dimension": 5,
+    "natural_transport_preserves_radical": true,
+    "natural_transport_preserves_gauge": true,
+    "representative_independent_connection": "nabla_Q([h])=[nabla_h]",
+    "complement_required": false,
+    "gauge_slice_required": false
+  },
+  "action_transport": {
+    "graph_derivative_supplies_action_specific_quotient_endomorphism": false,
+    "five_by_five_green_subprincipal_endomorphism": "UNDEFINED_FROM_GRAPH_DERIVATIVE_ALONE",
+    "required_next_object": "TYPED_LOWER_ORDER_ACTION_COEFFICIENT_ON_THE_COMPACT_FINITE_FREQUENCY_NULL_FAMILY",
+    "required_basicness_tests": [
+      "L(H_n)_SUBSET_H_n_MODULO_DECLARED_EQUATION_IDEAL",
+      "L(G_n)_SUBSET_G_n"
+    ],
+    "explicit_gauge_or_boundary_owner_still_possible": true
+  },
+  "claim_ceiling": "intrinsic representative-free natural connection on the five-class quotient plus exact proof that the action-derived graph derivative is purely extrinsic; no complete subprincipal symbol, Dencker endomorphism, closed domain, BFV reduction, positivity, states or physical propagation",
+  "next_gate": "K143_ACTUAL_LOWER_ORDER_ACTION_COEFFICIENT_ON_COMPACT_NULL_FAMILY__RADICAL_AND_GAUGE_BASICNESS_TEST__OR_EXPLICIT_GAUGE_BOUNDARY_OWNER_NECESSITY",
+  "canon_verdict_change": "none"
+}
