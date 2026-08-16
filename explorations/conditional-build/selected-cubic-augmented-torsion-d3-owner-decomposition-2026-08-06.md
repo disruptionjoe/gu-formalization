@@ -63,10 +63,12 @@ movable dark-energy field or an observed scalar.
 Equation (2) moves the named full-moving gate without closing it. The mixed
 `q0-qm` class cannot come from the intrinsic augmented-torsion cubic. Its
 remaining possible owners are now the direct curvature/`|II|^2`/defect action
-terms, metric-induced gauge-rotated Levi-Civita response, moving Hodge/Shiab/
-DeWitt/Krein pairing, observation/soldering jets, and the unrestricted
-preboundary class. The nonzero `qm-qm` summand can still cancel against those
-owners after the physical quotient.
+terms, covariant-derivative and moving Hodge/Shiab/DeWitt/Krein pairing,
+density/frame and observation/soldering jets, and the unrestricted
+preboundary class. K122 later removes a separately inserted Levi-Civita
+response from this list: exact native-coordinate composition cancels it
+inside the `T`-only term. The nonzero `qm-qm` value remains an exact bulk
+coefficient, but it still requires physical descent before interpretation.
 
 No Q1 pole, physical transition, dark-energy scalar identification, positive
 Fock space or native-`Y14` quantum theory is claimed.
@@ -324,3 +326,17 @@ parameterized-torsion carrier role with the reduced `I_sc` scalar, but the two
 stationary action germs are not affinely identical (`D3=8736` here and zero
 in the horn). K122 may now assemble the complete native `I1B` owner sum; any
 observed translation remains explicitly parametrized by `lambda`.
+
+## K122 native-coordinate correction — 2026-08-15
+
+K122 proves that the separately evaluated `DB_LC[H]`--`DB_LC[H]` insertion is
+not an additional native metric-induced `I_T` owner. In the exact native map,
+`delta varpi=DB_LC[H]` cancels the reference-connection variation, so
+`delta T=0` along the pure `h` column to all orders. The intrinsic native
+`t-h-h` and `t-h-v` slots are therefore zero. Conversely, because every
+other fixed-metric term in the full printed `I1B` action has degree at most
+two in `T`, the exact `8736` and `-56/3` values here are the complete full-
+`I1B` fixed-metric third derivatives, not merely possible sub-summands. The
+remaining native cubic owners are the same-action `F_B`, `D_B T`, and moving
+metric/frame/Hodge/Shiab/pairing/density packets in the two `h`-containing
+slots, plus preboundary descent.

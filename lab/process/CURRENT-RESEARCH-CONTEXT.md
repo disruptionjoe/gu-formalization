@@ -16,11 +16,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `C_t_v_v=D3I1B[Pbar,Vbar,Vbar]`. Only `t-h-h` receives the nonlinear
 > Levi-Civita second-jet correction. The pointwise preboundary columns are
 > `p_varpi[Phi1]`, `p_g[H]+p_varpi[DB_LC[H]]`, and `p_varpi[V]` before
-> reduction. This is a complete structural owner decomposition, not a
-> numerical cubic: K123 must evaluate four full-`I1B` primitive tensor slots.
-> The intrinsic `8736` and `-56/3` values remain sub-summands, `lambda` stays
-> outside the native packet, and no unique pencil, spectral owner, domain,
-> attachment or physical charge is selected.
+> reduction. Exact coordinate cancellation retypes the old nonzero `14/3`
+> LC--LC insertion as a fixed-`varpi` partial representative, not a native
+> `t-h-h` coefficient. At fixed metric only the augmented-torsion term is
+> cubic in `T`, so `D3_ttt=8736` and
+> `C_t_v_v=-(56/3)<V,*V>` are complete full-`I1B` values. K123 must evaluate
+> three same-`I1B` primitive slots for the open `t-h-h` and `t-h-v`
+> coefficients, then carry the preboundary packet through Green/BFV descent.
+> `lambda` stays outside the native packet, and no unique pencil, spectral
+> owner, domain, attachment or physical charge is selected.
 
 > **Current K121 scalar role/action-germ gate:** the source identifies the
 > dark-energy carrier as the full equivariant parameterized-torsion field,
@@ -30,10 +34,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > and `8736`. Their stationary families do not select a universal slope. A
 > nonlinear cancellation is possible only by adding the unowned scalar
 > second jet `q=208 lambda^2/kappa_1`, to which K119's fitted-`D2F` fence
-> applies. Keep `lambda` as an explicit Variancer translation datum. K122
-> must compute the complete native `I1B` cubic/preboundary packet on `(t,h,v)`
-> without importing `I_sc` coefficients; translate afterward, if needed, as
-> a family parametrized by `lambda`.
+> applies. Keep `lambda` as an explicit Variancer translation datum. K122 has
+> now computed the native structural packet and fixed-metric cubic without
+> importing `I_sc` coefficients; use the K122 block above and translate only
+> afterward, if needed, as a family parametrized by `lambda`.
 
 > **Current K120 geometric two-jet custody and scalar-bridge gate:** the
 > source-native coordinate change `T=varpi-B_LC(g)` independently owns the
@@ -2465,15 +2469,15 @@ P1/P2/P3 remain unchanged and unused.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 
-The source-named gauge-rotated Levi-Civita first-jet owner is exact inside the
-selected cubic. On the mixed massless/massive TT shell it contributes
-`(14/3)(p.q)(h0:hm)`. The previous six-dimensional gauge/gauge block has rank
-five for one connection in isolation, but GU's source-owned augmented torsion
-is the two-connection difference `A-B`. Its complete `24+24` tangent map has
-rank 24 and kernel the 24-dimensional diagonal, so simultaneous
-inhomogeneous principal gauge motion has rank zero while the physical LC
-kernel survives. The intrinsic lower-order homogeneous orbit is now also
-exact when `T`, `Phi1/Phi2` and Shiab move together: cubic and quadratic Ward
+The source-named gauge-rotated Levi-Civita first-jet calculation gives the
+exact raw connection-carrier value `(14/3)(p.q)(h0:hm)`, but K122 corrects its
+native type. GU's source-owned augmented torsion is the difference `A-B`; its
+complete `24+24` tangent map has rank 24 and diagonal kernel. The native
+metric column is precisely diagonal,
+`(delta A,delta B)=(DB_LC[H],DB_LC[H])`, so its `delta T` is zero. The old
+`14/3` value is an anti-diagonal/fixed-`varpi` partial representative, not a
+native metric interaction. The intrinsic lower-order homogeneous orbit is
+still exact when `T`, `Phi1/Phi2` and Shiab move together: cubic and quadratic Ward
 variation vanish for all 91 K77 bivector generators, while a frozen Shiab
 leaves four exact defects. This remains a pointwise intrinsic even
 internal-gauge result. Direct curvature/`II`/defect, moving metric/Hodge/

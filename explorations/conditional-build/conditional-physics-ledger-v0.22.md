@@ -8,6 +8,13 @@ predecessor: explorations/conditional-build/conditional-physics-ledger-v0.21.md
 
 # Conditional physics ledger v0.22
 
+> **K122 native-coordinate correction (2026-08-15):** the diagonal kernel
+> computed below is exactly where the native metric column lies:
+> `(delta A,delta B)=(DB_LC[H],DB_LC[H])`, hence `delta T=0`. The nonzero
+> `14/3` anti-diagonal/raw relative-connection kernel remains a carrier
+> control, not a native metric interaction. Follow the K122 artifact before
+> using this historical ledger in a cubic assembly.
+
 ## Meter
 
 ```text
@@ -41,8 +48,9 @@ Consequently simultaneous inhomogeneous principal connection-gauge motion
 had rank five when one connection was tested in isolation has rank zero after
 the source-owned difference is assembled.
 
-This correction does not erase the physical first-jet result. The exact mixed
-helicity-two kernel remains
+This correction does not erase the raw anti-diagonal first-jet carrier
+calculation. The exact mixed helicity-two kernel on that non-native carrier
+remains
 
 ```text
 (14/3) (p.q) (h0:hm).

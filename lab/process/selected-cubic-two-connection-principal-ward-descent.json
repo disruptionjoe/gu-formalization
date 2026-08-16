@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-06",
-  "status": "TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT__PHYSICAL_LC_KERNEL_PRESERVED__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN",
+  "status": "TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT_FOR_RAW_CONNECTION_CARRIER__K122_NATIVE_H_COLUMN_IS_DIAGONAL_AND_HAS_ZERO_T_RESPONSE",
   "functional_channels": ["BUILD", "SOURCE", "COMPOSE", "VERIFY"],
   "source_return": "SOURCE-CONFIRMS",
   "source_scope": "TWO_CONNECTION_DIFFERENCE_AND_GAUGE_ROTATED_LC_OWNER__NOT_RANK_COEFFICIENT_OR_FULL_QUOTIENT",
@@ -30,7 +30,15 @@
     "mass_pairs": [[3, 1], [5, 3], [7, 1], [11, 5]],
     "plus_plus": "NONZERO_WHEN_MU2_NE_M2",
     "cross_cross": "NONZERO_WHEN_MU2_NE_M2",
-    "plus_cross": "ZERO"
+    "plus_cross": "ZERO",
+    "k122_corrected_type": "ANTI_DIAGONAL_RAW_RELATIVE_CONNECTION_CONTROL__NOT_NATIVE_H_COLUMN"
+  },
+  "successor_correction": {
+    "swing": "K122",
+    "artifact": "explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md",
+    "native_h_pair": "(DELTA_A,DELTA_B)=(DB_LC[H],DB_LC[H])",
+    "difference": "W(DELTA_A,DELTA_B)=0",
+    "disposition": "RAW_14_OVER_3_ANTI_DIAGONAL_CONTROL_DOES_NOT_ENTER_NATIVE_C_T_H_H"
   },
   "quotient_test": {
     "connection_gauge_symbol_dimension": 6,

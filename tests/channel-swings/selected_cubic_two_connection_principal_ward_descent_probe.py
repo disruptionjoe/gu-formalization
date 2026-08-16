@@ -4,8 +4,10 @@
 The predecessor found a rank-five connection-gauge block after varying one
 Levi-Civita connection representative in isolation.  GU's source-owned object
 is instead the difference of two connections, T=A-B.  This probe pulls the
-actual selected cubic back through that difference map and tests the diagonal
-gauge action on the complete finite carriers.
+raw selected cubic back through that difference map and tests the diagonal
+gauge action on the complete finite carriers. K122 later identifies the
+native metric column with that diagonal kernel, not with the anti-diagonal
+relative-connection control used for the nonzero shell value.
 
 Principal diagonal descent is not the full nonlinear homogeneous Ward/BV or
 preboundary quotient.  Those burdens remain explicit.
@@ -60,7 +62,8 @@ check("repo", "the existing two-connection reconstruction defines T=A-B",
 check("repo", "the existing even owner ledger distinguishes primitive epsilon from Ward",
       "primitive `epsilon` derivative" in even_ward and "homogeneous even Ward identity" in even_ward)
 check("repo", "the predecessor measured rank five only for the isolated representative",
-      "rank five" in prior_report and "does not descend by itself" in prior_report)
+      "rank five" in prior_report and "does not descend by itself" in prior_report
+      and "not a native `C_t_h_h` coefficient" in prior_report)
 check("repo", "ledger v0.21 makes the fused Ward completion rank one",
       ledger["next_work_queue"][0]["rank"] == 1
       and "rank-five gauge-gauge block" in ledger["next_work_queue"][0]["why"])
@@ -70,7 +73,7 @@ for label in (
     "inhomogeneous principal gauge motion versus homogeneous lower-order orbit",
     "principal radical versus full BV/preboundary quotient",
     "source-owned difference versus fitted cancellation counterterm",
-    "nonzero descended kernel versus physical transition",
+    "nonzero anti-diagonal raw kernel versus native metric column and physical transition",
 ):
     check("type", label + " remain distinct", True)
 
@@ -117,7 +120,7 @@ check("exact", "the complete diagonal connection carrier lies in the kernel",
       difference_matrix * diagonal == sp.zeros(n_connection))
 check("exact", "the diagonal is the complete kernel by matching dimension",
       diagonal.rank() == 24 and len(difference_matrix.nullspace()) == diagonal.rank())
-check("exact", "the physical anti-diagonal carrier is not erased",
+check("exact", "the raw anti-diagonal relative-connection carrier is not erased",
       (difference_matrix * anti_diagonal).rank() == 24)
 
 alpha, beta = sp.symbols("alpha beta")
@@ -144,7 +147,7 @@ for scalar_mass, partner_mass in MASS_PAIRS:
         expected = Fraction(14, 3) * minkowski_dot(p0, pm) * tensor_inner(
             (PLUS, CROSS)[index], (PLUS, CROSS)[index]
         )
-        check("exact", f"mass pair {scalar_mass}/{partner_mass}: {name} physical kernel survives difference pullback",
+        check("exact", f"mass pair {scalar_mass}/{partner_mass}: {name} raw anti-diagonal kernel survives difference pullback",
               old_value == completed_value == (expected, Fraction(0)) and expected != 0)
 
     check("exact", f"mass pair {scalar_mass}/{partner_mass}: plus/cross selection is preserved",
@@ -196,7 +199,7 @@ for label in (
     "the lower-order adjoint orbit at nonzero T remains open",
     "moving Shiab Hodge pairing observation and preboundary owners remain open",
     "the corrected quotient reuses rather than increments the four ranked quotients",
-    "surviving LC shell kernel is not a transition amplitude or Q1 pole",
+    "surviving anti-diagonal LC shell kernel is neither the native h column nor a transition amplitude",
     "no positivity unitarity or cosmological prediction is inferred",
     "P1 P2 P3 remain unused and Curt stays formally separate",
     "the one-connection rank-five result remains correct in its stated scope",
@@ -208,8 +211,9 @@ print("TWO_CONNECTION_DIFFERENCE_MAP=RANK24_KERNEL_DIAGONAL24")
 print("UNIQUE_NORMALIZED_DIFFERENCE_COEFFICIENTS=(1,-1)")
 print("ISOLATED_CONNECTION_GAUGE_BLOCK_RANK=5")
 print("TWO_CONNECTION_DIAGONAL_GAUGE_BLOCK_RANK=0")
-print("PHYSICAL_LC_TT_KERNEL=(14/3)*(p0.pm)*(h0.hm)")
-print("DISPOSITION=PRINCIPAL_DESCENT_EXACT__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN")
+print("RAW_ANTIDIAGONAL_LC_TT_KERNEL=(14/3)*(p0.pm)*(h0.hm)")
+print("NATIVE_H_COLUMN=DIAGONAL__DELTA_T_ZERO")
+print("DISPOSITION=PRINCIPAL_DESCENT_EXACT_FOR_RAW_CARRIER__NOT_NATIVE_C_T_H_H")
 print("LEDGER_ROWS=LT-GR1,LT-GR2b,LT-GR5,LT-GR6,LT-SM8")
 print("CHECKS=" + " ".join(f"{kind}:{count}" for kind, count in sorted(COUNTS.items())))
 if FAILURES:

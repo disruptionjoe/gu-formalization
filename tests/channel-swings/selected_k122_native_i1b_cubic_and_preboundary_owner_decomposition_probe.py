@@ -93,10 +93,25 @@ check("preboundary", "native distortion column is direct",
 check("preboundary", "preboundary Jacobian is locally invertible",
       J.det() == -1)
 
-# Certified intrinsic sub-summands retained at their exact grades.
-check("intrinsic", "native radial cubic sub-summand is 8736",
+# Fixed-metric degree support: the F_B term is linear in T, the D_B T and
+# kappa terms are quadratic, and only the augmented-torsion term is cubic.
+a1, a2, q11, q12, q22, norm = sp.symbols("a1 a2 q11 q12 q22 norm")
+fixed_linear = a1*t + a2*v
+fixed_quadratic = (q11*t**2 + 2*q12*t*v + q22*v**2)/2
+fixed_cubic = sp.Rational(8736, 6)*t**3 - sp.Rational(56, 6)*norm*t*v**2
+fixed_i1b = fixed_linear + fixed_quadratic + fixed_cubic
+check("degree", "fixed-metric F_B-linear terms have zero third derivative",
+      sp.diff(fixed_linear, t, v, v) == 0)
+check("degree", "fixed-metric D_B T and kappa quadratic terms have zero third derivative",
+      sp.diff(fixed_quadratic, t, v, v) == 0 and sp.diff(fixed_quadratic, t, 3) == 0)
+check("degree", "full fixed-metric I1B radial cubic is 8736",
+      sp.diff(fixed_i1b, t, 3) == 8736)
+check("degree", "full fixed-metric I1B radial-TT cubic is minus 56 over 3",
+      sp.diff(fixed_i1b, t, v, v) == -sp.Rational(56, 3)*norm)
+
+check("intrinsic", "native radial cubic evaluator supplies 8736",
       sp.Integer(8736) == 8736)
-check("intrinsic", "intrinsic TT radial-distortion coefficient is minus 56 over 3",
+check("intrinsic", "native TT radial-distortion evaluator supplies minus 56 over 3",
       sp.Rational(-56, 3) == -sp.Rational(56, 3))
 
 # Repository custody and serialization audit.
@@ -105,6 +120,9 @@ k120 = (ROOT / "explorations/conditional-build/selected-k120-rsap-tt-geometric-t
 jets = (ROOT / "explorations/conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md").read_text()
 source_hessian = (ROOT / "explorations/conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md").read_text()
 intrinsic = (ROOT / "explorations/conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md").read_text()
+old_lc = (ROOT / "explorations/conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md").read_text()
+two_connection = (ROOT / "explorations/conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md").read_text()
+k77 = (ROOT / "explorations/conditional-build/selected-k77-zorro-first-action-euler-gate-2026-08-14.md").read_text()
 artifact = (ROOT / "explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md").read_text()
 registry = json.loads((ROOT / "lab/process/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition.json").read_text())
 current = (ROOT / "CURRENT-STATE.yaml").read_text()
@@ -121,20 +139,31 @@ check("source", "source-variable predecessor leaves full I1B derivative blocks o
       "full first-order `I1B`" in source_hessian and "must lift those six" in source_hessian)
 check("source", "intrinsic predecessor distinguishes sub-summand from full moving cubic",
       "full moving numerator" in intrinsic and "not identified" in intrinsic.lower())
+check("source", "printed I1B formula has its only fixed-metric cubic in T squared",
+      "bar F = F_B + (1/2)D_B T + (1/3)T^2" in k77
+      and "I1B    = <T,S(bar F)> + (kappa/2)<T,*T>" in k77)
+check("custody", "old LC representative carries the K122 native-coordinate correction",
+      "K122 native-coordinate correction" in old_lc
+      and "not a native `C_t_h_h` coefficient" in old_lc
+      and "K122 native-coordinate correction" in two_connection
+      and "not the native `h` column" in two_connection)
 check("artifact", "source-native routing notice is present",
       "GU-COMPARATOR-ROUTING — scope before inference" in artifact)
 check("artifact", "artifact states the complete structural versus numerical boundary",
       "structurally complete" in artifact.lower() and "numerically complete" in artifact.lower())
-check("registry", "registry freezes four missing primitive evaluations",
-      len(registry["remaining_evaluation_packet"]) == 4)
+check("registry", "registry freezes three missing same-I1B primitive evaluations",
+      len(registry["remaining_evaluation_packet"]) == 3)
+check("registry", "registry retypes the old LC-LC representative",
+      registry["coordinate_custody_correction"]["corrected_type"]
+      == "FIXED_VARPI_PARTIAL_COORDINATE_REPRESENTATIVE__NOT_NATIVE_C_T_H_H_OWNER")
 check("registry", "registry blocks a unique pencil before primitive evaluation",
       registry["unique_pencil_selected"] is False)
 check("repo", "current question advances through K122",
       "K122" in current and "structural owner decomposition" in current)
 check("repo", "roadmap leads with K122",
       "K122" in roadmap[:5500] and "primitive" in roadmap[:5500].lower())
-check("repo", "context records the four-slot K123 packet",
-      "K123" in context[:12000] and "four" in context[:12000].lower())
+check("repo", "context records the three-slot K123 packet",
+      "K123" in context[:12000] and "three" in context[:12000].lower())
 
 failures = [item for item in CHECKS if not item[2]]
 print(f"\nTOTAL {len(CHECKS)}  FAILURES {len(failures)}")

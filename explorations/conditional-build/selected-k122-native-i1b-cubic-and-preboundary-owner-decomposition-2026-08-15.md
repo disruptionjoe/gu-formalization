@@ -5,9 +5,9 @@ doc_type: exact_native_stationary_chain_rule_and_preboundary_owner_decomposition
 created: "2026-08-15"
 registry: lab/process/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition.json
 probe: tests/channel-swings/selected_k122_native_i1b_cubic_and_preboundary_owner_decomposition_probe.py
-grade: "THE NATIVE I1B CUBIC ON (T,H,V) NOW HAS A COMPLETE STRUCTURAL OWNER DECOMPOSITION. WITH PBAR=(0,PHI1), HBAR=(H,DB_LC[H]), VBAR=(0,V), AND Q_HH=(0,D2B_LC[H,H]), THE THREE TT SLOTS ARE C_THH=D3I1B[PBAR,HBAR,HBAR]+D2I1B[PBAR,Q_HH], C_THV=D3I1B[PBAR,HBAR,VBAR], AND C_TVV=D3I1B[PBAR,VBAR,VBAR]. ONLY T-H-H RECEIVES A SECOND-LEVI-CIVITA-JET CORRECTION. THE PREBOUNDARY COLUMNS PULL BACK AS P_T=P_VARPI[PHI1], P_H=P_G[H]+P_VARPI[DB_LC[H]], AND P_V=P_VARPI[V]. THIS PACKET IS STRUCTURALLY COMPLETE BUT NOT NUMERICALLY COMPLETE: CURRENT ARTIFACTS DO NOT SERIALIZE FOUR REQUIRED FULL-I1B PRIMITIVE TENSOR EVALUATIONS. THE INTRINSIC 8736 AND -56/3 VALUES REMAIN EXACT SUB-SUMMANDS, NOT THE FULL CUBIC."
+grade: "THE NATIVE I1B CUBIC ON (T,H,V) NOW HAS A COMPLETE STRUCTURAL OWNER DECOMPOSITION. WITH PBAR=(0,PHI1), HBAR=(H,DB_LC[H]), VBAR=(0,V), AND Q_HH=(0,D2B_LC[H,H]), THE THREE TT SLOTS ARE C_THH=D3I1B[PBAR,HBAR,HBAR]+D2I1B[PBAR,Q_HH], C_THV=D3I1B[PBAR,HBAR,VBAR], AND C_TVV=D3I1B[PBAR,VBAR,VBAR]. ONLY T-H-H RECEIVES A SECOND-LEVI-CIVITA-JET CORRECTION. EXACT NATIVE COORDINATE CANCELLATION RETYPES THE OLD 14/3 LC-LC VALUE AS A FIXED-VARPI PARTIAL REPRESENTATIVE, NOT A NATIVE T-H-H COEFFICIENT. AT FIXED G THE FULL I1B ACTION IS AT MOST CUBIC IN T AND ONLY ITS AUGMENTED-TORSION TERM IS CUBIC, SO C_TVV=-56/3 TIMES THE NATIVE TT NORM AND D3_TTT=8736 ARE FULL-I1B VALUES ON THIS SLICE. C_THH, C_THV, AND REDUCED PREBOUNDARY DESCENT REMAIN OPEN ON THREE SAME-I1B PRIMITIVE EVALUATIONS."
 target_claim: K121_NEXT_GATE__COMPLETE_NATIVE_I1B_PULLBACK_CUBIC_AND_PREBOUNDARY_ON_T_H_V
-target_verdict: STRUCTURAL_OWNER_DECOMPOSITION_COMPLETE__NUMERICAL_PRIMITIVE_TENSOR_EVALUATION_REMAINS_OPEN
+target_verdict: STRUCTURAL_OWNER_DECOMPOSITION_COMPLETE__FIXED_METRIC_C_TVV_EXACT__C_THH_C_THV_AND_REDUCED_PREBOUNDARY_OPEN
 canon_verdict_change: none
 ---
 
@@ -65,10 +65,21 @@ p_v = p_varpi[V].                                      (4)
 No observed-scalar slope appears in (1)--(4). `lambda` enters only if a later
 interface reports the native answer in an observed/reduced scalar convention.
 
-Equations (3)--(4) are structurally complete. They are **not numerically
-complete** because the repository has not yet serialized four full-`I1B`
-primitive tensor evaluations. K123 is now a bounded coefficientwise task
-rather than another undifferentiated “full moving” request.
+Equations (3)--(4) are structurally complete. The fixed-metric slot is also
+numerically complete:
+
+```text
+C_t_v_v = -(56/3)<V,*V>.                              (5)
+```
+
+At fixed `g`, the printed `I1B` action is linear in `T` through `F_B`,
+quadratic through `D_B T` and the `kappa_1` term, and cubic only through
+`T^2`. Consequently no omitted moving or derivative term can add to a third
+derivative containing only `t,v,v`. The two `h`-containing coefficients are
+**not numerically complete** because the repository has not serialized three
+required same-`I1B` primitive tensor evaluations. K123 is now a bounded
+coefficientwise task rather than another undifferentiated “full moving”
+request.
 
 ## 1. Layer-0 packet
 
@@ -126,45 +137,92 @@ A torsion-only term written in source coordinates depends on
 u=varpi-B_LC(g).                                       (8)
 ```
 
-Under (1), `u=v` exactly. The probe plants a nonzero radial-connection Hessian,
-a nonzero `D2B_LC`, and a nonzero radial-distortion cubic. Every apparent
-`t-h-h` and `t-h-v` contribution cancels after the exact pullback, while the
-native `t-v-v` and `t-t-t` values survive unchanged.
+Under (1), `u=t Phi1+v` exactly; its TT component is `v`. The probe plants a
+nonzero radial-connection Hessian, a nonzero `D2B_LC`, and a nonzero
+radial-distortion cubic. Every apparent `t-h-h` and `t-h-v` contribution
+cancels after the exact pullback, while the native `t-v-v` and `t-t-t` values
+survive unchanged.
 
 This prevents a serious overcount. Source-basis direct, first-jet and
 second-jet terms are owner pieces, not separate physical interactions. They
 must be summed before interpretation.
 
-## 4. Certified intrinsic sub-summands
+### Correction to the earlier LC--LC representative
 
-The existing augmented-torsion zero-jet packet contributes
+The August 6 gauge-rotated Levi-Civita artifact inserted `DB_LC[H]` twice as
+though it were an independent distortion direction in the fixed-geometry
+`D3 I_T` backend and obtained the exact raw value
 
 ```text
-D3 I_T[t,t,t] = 8736,
-D3 I_T[t,v,v] / <v,*v> = -56/3                         (9)
+(14/3)(p.q)(h0:hm).                                   (9)
 ```
 
-on the named radial/TT slice. Its native `t-h-h` and `t-h-v` values vanish
-after the coordinate cancellation in Section 3.
+That evaluator is algebraically correct for the path where `varpi` is held
+fixed while `g` moves, or for two independently supplied connection
+directions. It is not the native `h` column of (1). On that column
 
-These are exact sub-summands, not the full `I1B` coefficients. The complete
-first transgression action also contains derivative/curvature, moving
-pairing/Hodge/Shiab/density, observation, Euler/Green and preboundary owners.
-Nothing in K122 licenses silently replacing the full right sides of (3) by
-(9).
+```text
+delta varpi=DB_LC[H],
+delta T=delta varpi-DB_LC[H]=0,
+delta2 T=D2B_LC[H,H]-D2B_LC[H,H]=0.                  (10)
+```
+
+Thus (9) is retyped as a noncomposable partial-coordinate representative,
+not a native `C_t_h_h` owner. Genuine nonzero `h`-containing coefficients
+must come from the `F_B`, `D_B T`, and moving metric/frame/Hodge/Shiab/
+pairing/density terms of the same full action after all source-coordinate
+pieces are summed.
+
+## 4. Exact fixed-metric full-`I1B` slots
+
+The printed selected first action is
+
+```text
+bar F = F_B + (1/2)D_B T + (1/3)T^2,
+I1B    = <T,S(bar F)> + (kappa_1/2)<T,*T>.            (11)
+```
+
+With `g` fixed, `B`, `S`, `*`, the pairing and density are fixed. The four
+summands in (11) have degrees one, two, three and two in `T`. Therefore the
+existing augmented-torsion computation gives the complete full-`I1B` third
+derivative for any three fixed-metric `T` directions:
+
+```text
+D3 I1B[t,t,t] = 8736,
+D3 I1B[t,v,v] / <v,*v> = -56/3                        (12)
+```
+
+on the named radial/TT slice. The native `t-h-h` and `t-h-v` values of the
+`T`-only term vanish after the coordinate cancellation in Section 3.
+Equation (12) does not settle the `h`-containing slots, because moving `g`
+activates the other terms and the metric-dependent tensors in (11).
+Euler/Green and preboundary data govern descent; they are not extra bulk
+terms that can alter (12).
 
 ## 5. Exact remaining evaluation packet
+
+The action formula itself sharpens the owner support:
+
+| same-`I1B` summand | fixed-`g` degree in `T` | native cubic support still requiring evaluation |
+| --- | ---: | --- |
+| `<T,S(F_B)>` | 1 | `t-h-h` through two metric/curvature or moving-tensor variations |
+| `(1/2)<T,S(D_B T)>` | 2 | `t-h-v`, and `t-h-h` on the nonzero radial background through moving coefficients/connection |
+| `(1/3)<T,S(T^2)>` | 3 | exact fixed-metric `t-v-v`; its moving tensors may also enter the two `h` slots |
+| `(kappa_1/2)<T,*T>` | 2 | only `h`-containing slots through moving Hodge/pairing/density |
+
+This is why the old LC insertion cannot simply be subtracted and the job
+declared done: cancellation removes a mistyped `T`-only path, while the
+printed action still contains genuine metric-dependent same-action owners.
 
 Current artifacts own the map jet and the nonlinear Euler/preboundary
 *locations*, but explicitly leave the direct selected-action coefficient
 expansion and full derivative/curvature/density/observation tensors open.
-Numerical completion therefore requires exactly these four evaluations:
+Numerical completion of the two open bulk slots therefore requires exactly
+these three evaluations:
 
 1. `D3I1B[Pbar,Hbar,Hbar]`;
 2. `D2I1B[Pbar,Q_hh]`;
-3. `D3I1B[Pbar,Hbar,Vbar]`; and
-4. the full `D3I1B[Pbar,Vbar,Vbar]`, retaining (9) only as its certified
-   torsion-only sub-summand.
+3. `D3I1B[Pbar,Hbar,Vbar]`.
 
 The pointwise preboundary columns are already completely typed by (4), but
 their explicit values must be evaluated from the same full action and then
@@ -181,14 +239,14 @@ carried through a selected Green domain and boundary reduction.
 | representation theory | retain `Phi1`, TT metric and TT distortion types | selected |
 | Cartan/Green | pull back the preboundary one-form before reduction | selected |
 | symplectic/BFV | withhold charge and cohomology claims until descent | selected |
-| exact computation | use symbolic generic tensors and planted cancellations | certificate role |
+| exact computation | use symbolic generic tensors, degree support and planted cancellations | certificate role |
 | brute-force matrix search | enumerate full coefficients without a tensor contract | rejected as premature |
 | cross-action matching | import `I_sc` or `I_II` coefficients | rejected by custody and K121 |
 | field redefinition | choose a fitted scalar or quadratic map | rejected by K119/K121 |
-| wild-frontier | infer a spectral mode directly from `-56/3` | rejected as sub-summand overreach |
+| wild-frontier | infer a spectral mode directly from `-56/3` | rejected: a cubic coefficient is not a free pencil or reduced observable |
 
 The selected route has the highest decision power because it converts the
-open request into four falsifiable primitive evaluations while preserving all
+open request into three falsifiable primitive evaluations while preserving all
 exact cancellations. The fallback is coefficientwise evaluation of any
 proper subset with explicit residual slots; a guessed pencil is never the
 fallback.
@@ -199,22 +257,23 @@ fallback.
 S0 complete: native source-coordinate two-jet
 S1 complete: exact three-slot cubic support theorem
 S2 complete: exact three-column preboundary pullback
-S3 retained: intrinsic 8736 and -56/3 sub-summands
-S4 open: evaluate four full-I1B primitive tensor slots
-S5 then: determine whether all six first-order pencil coefficients are fixed
-S6 then: test spectral ownership and common Green/domain data
-S7 later: BFV reduction and non-invariant/nonlinear/boundary/cohomological
+S3 complete: fixed-metric full-I1B values 8736 and -56/3
+S4 corrected: old 14/3 LC-LC representative is not a native h coefficient
+S5 open: evaluate three same-I1B primitive tensor slots for C_t_h_h/C_t_h_v
+S6 then: determine whether all six first-order pencil coefficients are fixed
+S7 then: test spectral ownership and common Green/domain data
+S8 later: BFV reduction and non-invariant/nonlinear/boundary/cohomological
           2D-to-98D attachment
 ```
 
-K123 must evaluate the four-slot packet coefficientwise, with planted
-coordinate-cancellation and Ward/Cartan controls. Only if those values fix one
-pencil may K124 test its spectral owner and common domain.
+K123 must evaluate the three-slot same-`I1B` packet coefficientwise, with
+planted coordinate-cancellation and Ward/Cartan controls. Only if those
+values fix one pencil may K124 test its spectral owner and common domain.
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.
 
-Exact probe: `32/32`.
+Exact probe: `39/39`.
 
 Reproduce:
 

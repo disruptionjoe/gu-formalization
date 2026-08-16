@@ -1,7 +1,7 @@
 ---
 artifact_type: construction_result
 created: 2026-08-06
-status: LC_MIXED_TT_REPRESENTATIVE_NONZERO__GAUGE_GAUGE_RANK5__WARD_DESCENT_OPEN
+status: RAW_FIXED_VARPI_LC_LC_REPRESENTATIVE_NONZERO__K122_NATIVE_COORDINATE_RETYPE__NOT_NATIVE_C_T_H_H
 source_return: SOURCE-CONFIRMS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:
@@ -12,11 +12,39 @@ registry: lab/process/selected-cubic-gauge-rotated-lc-ward-owner.json
 
 # Selected-cubic gauge-rotated Levi-Civita / Ward owner
 
+## K122 native-coordinate correction — 2026-08-15
+
+The exact `14/3` evaluation below remains valid as an algebraic insertion of
+two `DB_LC[H]` connection directions into the fixed-geometry `D3 I_T`
+backend. Its old interpretation as the native metric response is superseded.
+For the independently owned source/native map
+
+```text
+(t,h,v) -> (g=h,varpi=B_LC(h)+t Phi1+v),
+T=varpi-B_LC(g),
+```
+
+the native metric column has `delta varpi=DB_LC[H]` and hence `delta T=0`;
+the same cancellation holds at second order. The `14/3` number is therefore
+a fixed-`varpi` partial-coordinate representative (or an independent pair of
+connection insertions), not a native `C_t_h_h` coefficient. It must not be
+added to the full native cubic. The genuine `h`-containing owners are the
+same-`I1B` curvature/covariant-derivative and moving metric/frame/Hodge/Shiab/
+pairing/density terms after exact source-coordinate composition. K122 gives
+the corrected owner formula and K123 is tasked with their coefficientwise
+evaluation.
+
+All claims below that call this value a native or physical metric-induced
+interaction are historical and superseded by this correction. The raw
+carrier and gauge-rank computations remain exact controls for their typed
+partial representative.
+
 ## Result first
 
-The source-named Levi-Civita route creates a fixed, nonzero mixed
-helicity-two interaction inside the selected augmented-torsion cubic, but the
-result is not yet a gauge-quotient class.
+The source-named Levi-Civita insertion creates a fixed, nonzero mixed
+helicity-two value in the raw fixed-geometry augmented-torsion cubic. K122
+shows that this is not the native metric column; independently, the raw value
+is not a gauge-quotient class.
 
 In symmetric frame, the exact first jet of the Levi-Civita spin connection is
 
@@ -60,9 +88,9 @@ couple an ordinary graviton to the new massive partner. This swing checked
 the piece that was deliberately left out: when the metric moves, its
 Levi-Civita reference connection moves too.
 
-That missing response really does make a nonzero coupling, with a fixed
-coefficient. So the source's insistence on the gauge-rotated Levi-Civita
-connection points at productive mathematics rather than decorative language.
+That raw connection-direction response really is nonzero, with a fixed
+coefficient. It remains a useful test of the gauge-rotated Levi-Civita
+carrier, but K122 forbids reading it as the native metric coupling.
 
 But a gauge choice can still change part of the answer. The calculation is
 therefore a live ingredient, not yet an observable. The efficient next move

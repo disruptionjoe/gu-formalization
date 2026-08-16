@@ -4,7 +4,7 @@
   "created": "2026-08-15",
   "classification": "SOURCE_NATIVE_ROUTE",
   "target_claim": "K121_NEXT_GATE__COMPLETE_NATIVE_I1B_PULLBACK_CUBIC_AND_PREBOUNDARY_ON_T_H_V",
-  "target_verdict": "STRUCTURAL_OWNER_DECOMPOSITION_COMPLETE__NUMERICAL_PRIMITIVE_TENSOR_EVALUATION_REMAINS_OPEN",
+  "target_verdict": "STRUCTURAL_OWNER_DECOMPOSITION_COMPLETE__FIXED_METRIC_C_TVV_EXACT__C_THH_C_THV_AND_REDUCED_PREBOUNDARY_OPEN",
   "native_map": {
     "coordinates": "(t,h,v)->(g=h,varpi=B_LC(h)+t*Phi1+v)",
     "first_jet": ["DF_t=(0,Phi1)", "DF_h=(H,DB_LC[H])", "DF_v=(0,V)"],
@@ -24,18 +24,24 @@
     "p_v": "p_varpi[V]",
     "observed_lambda": "ABSENT_IN_NATIVE_PACKET__APPLIED_ONLY_AT_LATER_TRANSLATION_INTERFACE"
   },
-  "intrinsic_subsummands": {
+  "fixed_metric_full_i1b": {
     "D3_t_t_t": 8736,
     "D3_t_v_v_over_native_norm": "-56/3",
     "D3_t_h_h_T_only_after_exact_coordinate_pullback": 0,
     "D3_t_h_v_T_only_after_exact_coordinate_pullback": 0,
-    "scope": "AUGMENTED_TORSION_ZERO_JET_SUBSUMMAND__NOT_FULL_I1B"
+    "scope": "FULL_I1B_FIXED_METRIC_THIRD_DERIVATIVE__ONLY_T_CUBED_TERM_HAS_DEGREE_THREE"
+  },
+  "coordinate_custody_correction": {
+    "predecessor": "selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06",
+    "raw_value": "(14/3)*(p.q)*(h0:hm)",
+    "old_type": "DB_LC_INSERTED_AS_TWO_INDEPENDENT_DISTORTION_DIRECTIONS_IN_FIXED_GEOMETRY_D3I_T",
+    "native_identity": "DELTA_T=DELTA_VARPI-DB_LC[H]=0__DELTA2_T=D2VARPI-D2B_LC[H,H]=0",
+    "corrected_type": "FIXED_VARPI_PARTIAL_COORDINATE_REPRESENTATIVE__NOT_NATIVE_C_T_H_H_OWNER"
   },
   "remaining_evaluation_packet": [
     "D3I1B[P,Hbar,Hbar]",
     "D2I1B[P,Q_hh]",
-    "D3I1B[P,Hbar,V]",
-    "FULL_D3I1B[P,V,V]_BEYOND_CERTIFIED_T_ONLY_SUBSUMMAND"
+    "D3I1B[P,Hbar,V]"
   ],
   "serialization_audit": {
     "coordinate_twojet_owned": true,
@@ -43,10 +49,11 @@
     "direct_selected_action_metric_coefficients_serialized": false,
     "full_derivative_curvature_density_observation_tensors_serialized": false,
     "structural_decomposition_complete": true,
+    "fixed_metric_t_v_v_numerically_complete": true,
     "numerical_cubic_complete": false
   },
   "unique_pencil_selected": false,
-  "next_gate": "K123_EVALUATE_FOUR_PRIMITIVE_I1B_TENSOR_SLOTS_COEFFICIENTWISE_THEN_TEST_PENCIL_UNIQUENESS",
-  "checks": {"total": 32, "failures": 0},
+  "next_gate": "K123_EVALUATE_THREE_SAME_I1B_PRIMITIVE_TENSOR_SLOTS_FOR_C_THH_AND_C_THV_THEN_TEST_PENCIL_UNIQUENESS",
+  "checks": {"total": 39, "failures": 0},
   "canon_verdict_change": "none"
 }

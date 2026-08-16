@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created": "2026-08-06",
-  "status": "LC_MIXED_TT_REPRESENTATIVE_NONZERO__GAUGE_GAUGE_RANK5__WARD_DESCENT_OPEN",
+  "status": "RAW_FIXED_VARPI_LC_LC_REPRESENTATIVE_NONZERO__K122_NATIVE_COORDINATE_RETYPE__NOT_NATIVE_C_T_H_H",
   "functional_channels": ["BUILD", "SOURCE", "VERIFY"],
   "source_return": "SOURCE-CONFIRMS",
   "source_scope": "GAUGE_ROTATED_LEVI_CIVITA_OWNER_IN_CONTORSION_SLOT__NOT_COEFFICIENT_OR_QUOTIENT",
@@ -21,7 +21,15 @@
     "mass_pairs": [[3, 1], [5, 3], [7, 1], [11, 5]],
     "plus_plus": "NONZERO_WHEN_MU2_NE_M2",
     "cross_cross": "NONZERO_WHEN_MU2_NE_M2",
-    "plus_cross": "ZERO"
+    "plus_cross": "ZERO",
+    "k122_corrected_type": "FIXED_VARPI_PARTIAL_COORDINATE_REPRESENTATIVE__NOT_NATIVE_C_T_H_H_OWNER"
+  },
+  "successor_correction": {
+    "swing": "K122",
+    "artifact": "explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md",
+    "native_map": "(t,h,v)->(g=h,varpi=B_LC(h)+t*Phi1+v)",
+    "cancellation": "DELTA_T=DELTA_VARPI-DB_LC[H]=0__SECOND_ORDER_ALSO_ZERO",
+    "disposition": "DO_NOT_ADD_14_OVER_3_RAW_VALUE_TO_NATIVE_CUBIC"
   },
   "carrier_exhaustion": {
     "lc_carrier_dimension": 24,

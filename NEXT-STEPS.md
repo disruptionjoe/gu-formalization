@@ -17,13 +17,17 @@ updated_at: "2026-08-15"
 > Levi-Civita second-jet correction. The unreduced preboundary columns are
 > `p_t=p_varpi[Phi1]`, `p_h=p_g[H]+p_varpi[DB_LC[H]]`, and
 > `p_v=p_varpi[V]`. Exact coordinate controls cancel all apparent metric
-> couplings of a torsion-only source-coordinate term. The known `8736` and
-> `-56/3` values are therefore retained only as intrinsic sub-summands.
-> **K123 must evaluate four full-`I1B` primitive tensor slots
-> coefficientwise before any unique pencil or spectral owner is tested.**
+> couplings of a torsion-only source-coordinate term. This retypes the old
+> nonzero `14/3` LC--LC insertion as a fixed-`varpi` partial representative,
+> not a native `t-h-h` owner. At fixed metric, every other term in the printed
+> `I1B` action has degree at most two in `T`; hence `D3_ttt=8736` and
+> `C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric `I1B` values.
+> **K123 must evaluate three same-`I1B` primitive tensor slots for the open
+> `t-h-h` and `t-h-v` coefficients before any unique pencil or spectral owner
+> is tested.**
 > Keep `lambda` outside the native packet and do not promote preboundary
 > columns to physical charges before Green/BFV descent. Exact probe records
-> `32/32`.
+> `39/39`.
 
 > **2026-08-15 K121 SELECTS A ROLE LINK, NOT AN ACTION-GERM IDENTITY.** The
 > source identifies the movable dark-energy carrier as the full equivariant

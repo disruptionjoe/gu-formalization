@@ -1054,11 +1054,15 @@ current_result:
     Levi-Civita second-jet correction. The unreduced preboundary columns are
     p_varpi[Phi1], p_g[H]+p_varpi[DB_LC[H]], and p_varpi[V]. Exact
     source-coordinate controls cancel apparent metric couplings of the
-    torsion-only summand. The intrinsic 8736 and -56/3 coefficients remain
-    exact sub-summands, not the full I1B cubic. The decomposition is
-    structurally complete but current artifacts do not serialize four full
-    primitive tensor evaluations, so K123 must compute those coefficientwise
-    before any unique pencil or spectral/domain/attachment inference.
+    torsion-only summand. They also retype the old nonzero 14/3 LC-LC
+    insertion as a fixed-varpi partial representative rather than a native
+    t-h-h coefficient. Since all other fixed-metric I1B terms have degree at
+    most two in T, the 8736 radial value and -56/3 radial-TT coefficient are
+    the complete fixed-metric I1B third derivatives. The decomposition is
+    structurally complete but current artifacts do not serialize three
+    same-I1B primitive tensor evaluations for t-h-h and t-h-v, so K123 must
+    compute those coefficientwise before any unique pencil or
+    spectral/domain/attachment inference.
   evidence:
     - explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md
     - lab/process/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition.json

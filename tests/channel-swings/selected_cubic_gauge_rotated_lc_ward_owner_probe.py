@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Exact gauge-rotated Levi-Civita first-jet owner and Ward obstruction.
+"""Exact raw LC first-jet carrier and Ward obstruction, with K122 custody.
 
 The probe inserts the symmetric-frame linearized spin connection into the
 already-selected K77 augmented-torsion cubic.  It computes the mixed
 massless/massive TT shell and then asks the separate quotient question: does
-the bilinear descend under connection gauge?  A nonzero representative is not
-promoted when the gauge-gauge block survives.
+the bilinear descend under connection gauge? K122 subsequently proves this
+fixed-varpi/independent-connection insertion is not the native metric column.
+The raw algebra remains a useful carrier control but is not promoted.
 """
 
 from __future__ import annotations
@@ -54,9 +55,9 @@ check("source", "the source leaves the exact Euler quotient and domain open",
 check("repo", "the exact linear metric-to-LC derivative already exists modulo connection gauge",
       "rank ten on timelike, spacelike and null" in lc_predecessor
       and "modulo connection gauge" in lc_predecessor)
-check("repo", "the predecessor isolates LC/soldering as a remaining mixed owner",
-      "metric-induced gauge-rotated Levi-Civita response" in owner_predecessor
-      and "observation/soldering jets" in owner_predecessor)
+check("repo", "the predecessor now carries the K122 native-coordinate correction",
+      "K122 native-coordinate correction" in owner_predecessor
+      and "exact native-coordinate composition cancels" in owner_predecessor)
 check("repo", "ledger v0.20 keeps the selected moving-owner assembly at rank one",
       ledger["next_work_queue"][0]["rank"] == 1
       and "gauge-rotated Levi-Civita" in ledger["next_work_queue"][0]["why"])
@@ -66,7 +67,7 @@ for label in (
     "a connection-gauge representative versus its quotient class",
     "source confirmation of an owner versus derivation of its coefficient",
     "a nonzero cubic representative versus a reduced Hamiltonian class",
-    "metric-induced LC response versus independent Gauss distortion",
+    "fixed-varpi raw LC insertion versus the native h column",
 ):
     check("type", label + " remain distinct", True)
 
@@ -246,7 +247,7 @@ print("LC_GAUSS_CROSS_BLOCK=ZERO_ON_COMPLETE_24_BY_100_CARRIERS")
 print("RADIAL_HESSIAN_FULL_CL2=ZERO_ON_1274_DIRECTIONS")
 print("LC_LC_BILINEAR_RANK=24")
 print("CONNECTION_GAUGE_GAUGE_BLOCK_RANK=5")
-print("DISPOSITION=NONZERO_REPRESENTATIVE_WARD_REQUIRED")
+print("DISPOSITION=RAW_FIXED_VARPI_REPRESENTATIVE_NONZERO__NOT_NATIVE_C_T_H_H")
 print("LEDGER_ROWS=LT-GR1,LT-GR2b,LT-GR5,LT-GR6,LT-SM8")
 print("CHECKS=" + " ".join(f"{kind}:{count}" for kind, count in sorted(COUNTS.items())))
 if FAILURES:

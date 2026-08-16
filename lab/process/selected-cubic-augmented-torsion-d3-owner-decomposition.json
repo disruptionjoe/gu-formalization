@@ -36,8 +36,7 @@
     "unrestricted_preboundary": "OPEN"
   },
   "remaining_mixed_packages": [
-    "DIRECT_CURVATURE_FULL_II_AND_DEFECT_D3",
-    "GAUGE_ROTATED_LC_SOLDERING_FIRST_AND_SECOND_JETS",
+    "SAME_I1B_F_B_AND_D_B_T_H_CONTAINING_DERIVATIVES",
     "MOVING_SHIAB_HODGE_DEWITT_KREIN_PAIRING_DENSITY_OBSERVATION",
     "WARD_BV_GREEN_PREBOUNDARY_REDUCTION"
   ],
@@ -82,11 +81,11 @@
     "hostile_review": "PASS_AFTER_EIGHT_SCOPE_CORRECTIONS",
     "symplectic_review": "NO_PHYSICAL_TRANSITION_OR_FIFTH_QUOTIENT"
   },
-  "next_gate": "K122_COMPLETE_NATIVE_I1B_PULLBACK_CUBIC_WITHOUT_CROSS_ACTION_FUSION",
+  "next_gate": "K123_EVALUATE_THREE_SAME_I1B_PRIMITIVE_TENSOR_SLOTS_FOR_NATIVE_C_THH_AND_C_THV",
   "successor_closure": {
-    "swing": "K121",
-    "result": "NATIVE_RADIAL_COORDINATE_RETAINED__I_SC_AFFINE_ACTION_GERM_IDENTITY_REFUTED__OBSERVED_TRANSLATION_LAMBDA_CONDITIONAL",
-    "artifact": "explorations/conditional-build/selected-k121-rsap-scalar-role-action-germ-and-conditional-bridge-gate-2026-08-15.md",
-    "refines": "K118_ACTION_LAYER_AND_MAP_SELECTION_GATE"
+    "swing": "K122",
+    "result": "FIXED_METRIC_8736_AND_MINUS_56_OVER_3_ARE_FULL_I1B_D3__RAW_LC_LC_INSERTION_NOT_NATIVE_H_OWNER__THH_AND_THV_OPEN",
+    "artifact": "explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md",
+    "prior_k121": "NATIVE_RADIAL_COORDINATE_RETAINED__I_SC_AFFINE_ACTION_GERM_IDENTITY_REFUTED__OBSERVED_TRANSLATION_LAMBDA_CONDITIONAL"
   }
 }

@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K122 native I1B cubic and preboundary owner decomposition 2026-08-15
+(exact structural completion and fixed-metric cubic; two moving coefficients
+remain open; no canon/public-posture change).** The independently owned
+source-coordinate two-jet gives
+`C_t_h_h=D3I1B[Pbar,Hbar,Hbar]+D2I1B[Pbar,Q_hh]`,
+`C_t_h_v=D3I1B[Pbar,Hbar,Vbar]`, and
+`C_t_v_v=D3I1B[Pbar,Vbar,Vbar]`; only the first slot contains the nonlinear
+Levi-Civita second-jet correction. The unreduced preboundary columns are
+`p_varpi[Phi1]`, `p_g[H]+p_varpi[DB_LC[H]]`, and `p_varpi[V]`. Exact
+source-coordinate cancellation also corrects the old nonzero `14/3` LC--LC
+insertion: it is a fixed-`varpi` partial representative, not a native
+`t-h-h` coefficient. Since every other fixed-metric term in `I1B` has degree
+at most two in `T`, `D3_ttt=8736` and
+`C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric values. Three same-`I1B`
+primitive evaluations remain for `t-h-h` and `t-h-v`, followed by Green/BFV
+descent. No complete numerical cubic, unique pencil, spectral owner or
+physical charge follows. See
+`explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| native cubic owner shape | broad owner list | exact three-slot chain-rule decomposition | none at structural local grade | current, roadmap, context, K121 | K122 surfaces |
+| fixed-metric cubic | intrinsic values treated as possible sub-summands | full `I1B` `D3_ttt=8736` and `C_t_v_v=-(56/3)<V,*V>` | none at fixed-metric bulk grade | owner artifacts | K122 artifact/probe |
+| old LC--LC representative | treated as metric-induced native interaction | fixed-`varpi` partial representative; not native `C_t_h_h` | exact native map | old owner artifact/registry | K122 correction surfaces |
+| moving `h` coefficients | requested after K121 | three same-action primitive evaluations remain | K123 | current, roadmap, context | K122 reverse scaffold |
+| native preboundary | owner location only | exact three-column pullback | full action evaluation plus Green/BFV descent | same | K122 artifact/registry |
+
 **K121 scalar role, action-germ and conditional-bridge gate 2026-08-15
 (exact incompatibility plus source-role retention; no canon/public-posture
 change).** Weinstein's source-level dark-energy candidate is the full

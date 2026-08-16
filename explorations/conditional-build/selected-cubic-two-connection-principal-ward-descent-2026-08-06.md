@@ -1,7 +1,7 @@
 ---
 artifact_type: construction_result
 created: 2026-08-06
-status: TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT__PHYSICAL_LC_KERNEL_PRESERVED__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN
+status: TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT_FOR_RAW_CONNECTION_CARRIER__K122_NATIVE_H_COLUMN_IS_DIAGONAL_AND_HAS_ZERO_T_RESPONSE
 source_return: SOURCE-CONFIRMS
 ledger_rows: [LT-GR1, LT-GR2b, LT-GR5, LT-GR6, LT-SM8]
 scripts:
@@ -11,6 +11,27 @@ registry: lab/process/selected-cubic-two-connection-principal-ward-descent.json
 ---
 
 # Selected-cubic two-connection principal Ward descent
+
+## K122 native-coordinate correction — 2026-08-15
+
+The difference-map theorem below remains exact: `W(delta A,delta B)=delta
+A-delta B` has diagonal kernel and rank 24. K122 changes which carrier is the
+native metric column. For
+
+```text
+A=varpi=B_LC(g)+t Phi1+v,
+B=B_LC(g),
+```
+
+a pure native `h` variation is diagonal:
+`(delta A,delta B)=(DB_LC[H],DB_LC[H])`. Therefore `delta T=W(delta A,delta
+B)=0`, including the second-order cancellation. The anti-diagonal/raw
+relative connection insertion that produces equation (3) remains an exact
+carrier control, but it is not the native `h` column and does not establish a
+native metric-induced interaction. All claims below that call it the
+physical LC response are superseded at native-coordinate grade. Genuine
+`h`-containing cubic owners must be evaluated from the other same-`I1B`
+curvature/covariant-derivative and moving metric tensors.
 
 ## Result first
 
@@ -35,8 +56,8 @@ the simultaneous inhomogeneous principal connection-gauge motion
 `(D chi,D chi)` is in the radical. The old six-dimensional isolated gauge
 block has rank five; the two-connection diagonal gauge block has rank zero.
 
-The cancellation does not erase the physical Levi-Civita response. On the
-same exact shells,
+The cancellation does not erase the raw anti-diagonal relative-connection
+response. On the same exact shells,
 
 \[
  D^3I_T[\Phi_1,L_p(h_0),L_q(h_m)]
@@ -61,7 +82,9 @@ We had found a gauge problem in the new gravity interaction. The problem came
 from checking how one connection moved. Eric's construction actually uses the
 difference between two connections. Gauge transformations move both
 connections together, so their shared motion cancels in the difference while
-the physical relative motion remains.
+an anti-diagonal relative motion remains. K122 later shows that the native
+metric column is diagonal and therefore killed, so this surviving raw carrier
+is not itself a native metric interaction.
 
 That is genuine progress: the first and cheapest gauge obstruction is gone
 without adding a knob. It is not the end of the gauge problem. Once the

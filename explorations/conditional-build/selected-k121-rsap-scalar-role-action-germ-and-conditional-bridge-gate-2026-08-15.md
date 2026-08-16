@@ -314,9 +314,13 @@ K122 completes the native stationary structural decomposition without
 importing `I_sc` or choosing `lambda`. Only `t-h-h` contains the
 `D2I1B[Pbar,D2B_LC(H,H)]` map-jet correction; `t-h-v` and `t-v-v` are pure
 primitive trilinear slots. The three unreduced preboundary columns also pull
-back exactly. Four full-`I1B` primitive tensor evaluations remain
-unserialized, so K123 must compute those before a numerical cubic, unique
-pencil, spectral owner or physical boundary class can be claimed.
+back exactly. Exact coordinate cancellation retypes the old `14/3` LC--LC
+insertion as a fixed-`varpi` partial representative rather than a native
+metric owner. Degree support in the printed action makes
+`C_t_v_v=-(56/3)<V,*V>` exact for full fixed-metric `I1B`. Three same-action
+primitive evaluations remain for `t-h-h` and `t-h-v`, so K123 must compute
+those before a complete numerical cubic, unique pencil, spectral owner or
+physical boundary class can be claimed.
 
 Reproduce:
 

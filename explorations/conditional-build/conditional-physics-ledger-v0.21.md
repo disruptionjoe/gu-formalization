@@ -8,6 +8,14 @@ predecessor: explorations/conditional-build/conditional-physics-ledger-v0.20.md
 
 # Conditional physics ledger v0.21
 
+> **K122 native-coordinate correction (2026-08-15):** the `14/3` value below
+> remains an exact fixed-`varpi`/independent-connection insertion. It is not
+> the native metric column. In native coordinates
+> `delta varpi=DB_LC[H]`, so `delta T=delta varpi-DB_LC[H]=0`. Do not add the
+> historical representative to native `C_t_h_h`; follow the K122 artifact and
+> evaluate the same-`I1B` curvature/covariant-derivative and moving metric
+> owners instead.
+
 ## Meter
 
 ```text
