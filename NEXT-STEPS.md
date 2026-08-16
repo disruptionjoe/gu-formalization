@@ -7,6 +7,21 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K134 CONSTRUCTS THE ACTUAL `KAPPA_1` HODGE MASS AND FINDS
+> EXACT SPACELIKE FOURIER SHELLS.** On the complete `229376`-dimensional real
+> `Cl(7,7)` distortion carrier, `K_(mu,A)=eta_mu scalar(e_A^2)` is a real
+> grade-preserving involution with inertia `(114688,114688,0)`. The physical
+> frozen-Fourier Hessian is `i C_1(n)+kappa_1 K`; inertia does not belong to
+> the raw nonsymmetric coefficient pencil. The timelike Hermitian pencil has
+> no nonzero real root. The spacelike pencil has `27` exact squared root radii
+> with multiplicity `65456` per sign and `28` exact inertia intervals. On a
+> null covector, `K C_1(n)` is nilpotent of index five. Frequency rescaling
+> hits a spacelike shell for every fixed nonzero `kappa_1`, and the null
+> inverse reaches fourth-order frequency growth. **K135 must compose `A,A*`
+> on these exact shells and null Jordan chains, then classify the coupled
+> kernel, Green adjoint and admissible domain before any inverse, KT/BFV
+> quotient, physical cohomology or superposition claim.**
+
 > **2026-08-16 K133 CLOSES THE FLAT-COMPLEX EXCEPTION AND CLASSIFIES THE
 > UNIVERSAL `KAPPA_1` PENCIL WITHOUT INVENTING ITS REAL FORM.** A square-zero
 > endomorphism on the complete `229376`-dimensional distortion carrier has
@@ -19,9 +34,9 @@ updated_at: "2026-08-16"
 > a finite complex exceptional multiset follow. Real roots and inertia do not;
 > positive and indefinite exact controls already differ. Because `kappa K` is
 > zero order, every causal conormal remains principal-characteristic.
-> **K134 must construct the actual all-grade `K` structure fingerprint and
-> compute causal block roots, inertia, uniform frequency gaps and domain
-> admissibility before any inverse, KT/BFV quotient or cohomology.**
+> **K134 now constructs the exact `K` fingerprint and proves that no fixed
+> nonzero `kappa_1` gives a frequency-uniform distortion inverse. K135 owns
+> the coupled metric-shell and domain classification.**
 
 > **2026-08-16 K132 TOTALIZES THE ALL-GRADE SOURCE SYMBOL AND OBSTRUCTS THE
 > GENERIC DISTORTION NOETHER COMPLEX.** On the complete

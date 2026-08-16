@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K133_NEXT_GATE__ACTUAL_ALL_GRADE_K_STRUCTURE_FINGERPRINT_BLOCK_PENCIL_ROOT_INERTIA_AND_DOMAIN_ADMISSIBILITY",
+  "target_verdict": "K_EXACT_REAL_GRADE_PRESERVING_BALANCED_INVOLUTION__HERMITIAN_FOURIER_PENCIL_TYPED__SPACELIKE_27_RADIUS_SINGULAR_SHELLS_EXACT__NULL_NILPOTENCY_INDEX_FIVE__NO_FREQUENCY_UNIFORM_INVERSE__COUPLED_METRIC_SHELL_GATE_K135",
+  "pre_wave": {
+    "fork": "REAL_CLIFFORD_FORM_SETTLED_CL77__SIGNATURE_AMBIENT_NOT_SETTLED",
+    "path_dependency": "PD-SIGNATURE-PARITY",
+    "search_dimension": 229376,
+    "wholesale_block_types": {"timelike": 56, "spacelike": 56, "null": 49},
+    "new_unowned_object": null,
+    "rescoped_result": "K133_REAL_ROOT_AND_INERTIA_CEILING"
+  },
+  "K_fingerprint": {
+    "action_owner": "HESSIAN_OF_(KAPPA_1/2)*<T,*T>",
+    "coordinate_formula": "K_(mu,A)=eta_mu*scalar(e_A^2)",
+    "real": true,
+    "grade_preserving": true,
+    "involution": true,
+    "dimension": 229376,
+    "inertia": {"positive": 114688, "negative": 114688, "null": 0},
+    "grade_p_inertia": "(7*binomial(14,p),7*binomial(14,p),0)",
+    "positive_Hilbert_metric": false
+  },
+  "fourier_hermitian_pencil": {
+    "form": "H_n(kappa)=i*C_1(n)+kappa*K",
+    "raw_real_coefficient_pencil_is_inertia_object": false,
+    "timelike_nonzero_real_roots": [],
+    "spacelike_root_squared_multiplicity": {
+      "1": 312, "2": 78, "3": 286, "4": 46487, "5": 1287,
+      "6": 1716, "7": 1716, "8": 1287, "9": 2002, "10": 286,
+      "11": 78, "12": 13, "13": 1, "16": 1716, "25": 1716,
+      "36": 1287, "48": 13, "49": 715, "64": 286, "81": 78,
+      "88": 78, "100": 13, "120": 286, "121": 1, "144": 715,
+      "160": 1287, "168": 1716
+    },
+    "multiplicity_per_sign": 65456,
+    "nonnull_zero_root_multiplicity": 98464,
+    "null_nonzero_real_roots": [],
+    "null_KC_power_ranks": [122746, 65469, 8192, 4096, 0],
+    "null_nilpotency_index": 5,
+    "null_inverse_frequency_degree": 4,
+    "negative_kappa_inertia_rule": "SWAP_POSITIVE_AND_NEGATIVE"
+  },
+  "inertia": {
+    "nonnull_at_kappa_zero": [65456, 65456, 98464],
+    "null_at_kappa_zero": [61373, 61373, 106630],
+    "timelike_nonzero_kappa": [114688, 114688, 0],
+    "null_nonzero_kappa": [114688, 114688, 0],
+    "spacelike_positive_interval_table_in_artifact": true,
+    "spacelike_interval_count": 28
+  },
+  "domain": {
+    "spacelike_root_scaling": "kappa=plus_or_minus*rho*sqrt(a)",
+    "singular_shell_for_every_fixed_nonzero_kappa": true,
+    "frequency_uniform_inverse": false,
+    "principal_characteristic_set_changed": false,
+    "closed_ultrahyperbolic_domain_selected": false,
+    "boundary_polarization_selected": false
+  },
+  "minimal_bv_kt_bfv": {
+    "singular_shell_is_gauge": false,
+    "distortion_KT_differential_selected": false,
+    "global_BFV_selected": false,
+    "physical_cohomology_selected": false
+  },
+  "next_gate": "K135_COMPOSE_METRIC_CURVATURE_BLOCK_ON_EXACT_SPACELIKE_SHELLS_AND_NULL_JORDAN_CHAINS__CLASSIFY_COUPLED_KERNEL_ADJOINT_GREEN_DOMAIN",
+  "canon_verdict_change": "none"
+}

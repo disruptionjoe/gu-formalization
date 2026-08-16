@@ -69,3 +69,11 @@ successor note. No ledger, canon, claim-status or public-posture surface moves.
   exceptional set follow from nondegenerate `K`.
 - Real roots, inertia, uniform inverse, closed domain, KT/BFV quotient and
   physical cohomology remain unselected.
+
+## K134 successor note
+
+K134 supplies the missing `K` fingerprint and types the physical frozen
+object as the Hermitian Fourier pencil. It finds exact spacelike singular
+shells for every fixed nonzero `kappa_1` after frequency scaling and null
+nilpotency index five. The coupled metric-shell and closed-domain ceilings
+remain K135.

@@ -9,6 +9,21 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K134 Hodge mass and Hermitian Fourier-pencil classification:**
+> the action-owned all-grade mass map is
+> `K_(mu,A)=eta_mu scalar(e_A^2)` on the complete `229,376`-dimensional real
+> `Cl(7,7)` distortion carrier. It is a grade-preserving involution with
+> balanced inertia `114,688+114,688`. The correctly typed Fourier Hessian is
+> `i C_1(n)+kappa_1 K`. Timelike blocks have no nonzero real Hermitian root;
+> spacelike blocks have 27 exact squared root radii, total multiplicity
+> `65,456` per sign, and 28 exact inertia intervals. On the null
+> representative, `K C_1(n)` has nilpotency index five and power ranks
+> `122,746/65,469/8,192/4,096/0`. Every fixed nonzero `kappa_1` meets a
+> spacelike singular shell after frequency scaling, and the null inverse grows
+> through frequency degree four. No frequency-uniform full-carrier inverse or
+> closed ultrahyperbolic domain follows. K135 must compose the metric block on
+> the exact shells and null Jordan chains.
+
 > **Current K133 flat-complex and kappa-pencil classification:** flat or
 > curvature-central background removes the covariant `ad(F_B)` obstruction
 > but does not make the selected-Shiab Euler coefficient a differential. On
@@ -20,8 +35,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > invertibility and a finite complex exceptional multiset, but not real roots,
 > inertia or uniform estimates. `kappa K` is lower order, so all causal
 > conormals remain principal-characteristic and the ultrahyperbolic domain,
-> KT/BFV and physical-cohomology gates remain open. K134 must construct the
-> actual all-grade `K` structure fingerprint before root and domain analysis.
+> KT/BFV and physical-cohomology gates remain open. K134 now closes the actual
+> `K` fingerprint and routes the coupled singular-shell problem to K135.
 
 > **Current K132 all-grade Noether/compatibility obstruction:** the complete
 > real `Omega1(Cl(7,7))` distortion carrier has dimension `229,376`. The

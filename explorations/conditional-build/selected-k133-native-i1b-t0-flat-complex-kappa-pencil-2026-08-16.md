@@ -5,7 +5,7 @@ doc_type: exact_flat_symbol_square_and_universal_nondegenerate_parameter_pencil
 created: "2026-08-16"
 registry: lab/process/selected-k133-native-i1b-t0-flat-complex-kappa-pencil.json
 probe: tests/channel-swings/selected_k133_native_i1b_t0_flat_complex_kappa_pencil_probe.py
-grade: "K133 CLOSES THE FLAT OR CURVATURE-CENTRAL KAPPA-ZERO EXCEPTION: REMOVING D_B SQUARED EQUALS AD(F_B) DOES NOT MAKE THE SELECTED-SHIAB EULER OPERATOR A COMPLEX. ITS TIMELIKE, SPACELIKE AND NULL SYMBOL-SQUARE RANKS ARE 130912,130912,122746, EQUAL TO ITS NONZERO SYMBOL RANKS; EACH EXCEEDS THE 114688 MAXIMUM FOR A SQUARE-ZERO ENDOMORPHISM ON THE 229376-DIMENSIONAL CARRIER. FOR P_N(KAPPA)=C_1(N)+KAPPA K WITH K NONDEGENERATE, EACH FIXED-COVECTOR DETERMINANT HAS DEGREE 229376 AND NONZERO LEADING COEFFICIENT DET(K), SO THE COMPLEX EXCEPTIONAL SET IS FINITE AND THE FROZEN-FREQUENCY MAP IS GENERICALLY INVERTIBLE. NONDEGENERACY ALONE DOES NOT DETERMINE REAL ROOTS, INERTIA OR A UNIFORM INVERSE. KAPPA K IS LOWER ORDER, SO ALL CAUSAL CONORMALS REMAIN PRINCIPAL-CHARACTERISTIC AND NO CLOSED ULTRAHYPERBOLIC DOMAIN, KT/BFV QUOTIENT OR PHYSICAL COHOMOLOGY FOLLOWS. K134 MUST CONSTRUCT THE ACTUAL ALL-GRADE K STRUCTURE FINGERPRINT BEFORE ROOT, INERTIA OR DOMAIN CLASSIFICATION."
+grade: "K133 CLOSES THE FLAT OR CURVATURE-CENTRAL KAPPA-ZERO EXCEPTION: REMOVING D_B SQUARED EQUALS AD(F_B) DOES NOT MAKE THE SELECTED-SHIAB EULER OPERATOR A COMPLEX. ITS TIMELIKE, SPACELIKE AND NULL SYMBOL-SQUARE RANKS ARE 130912,130912,122746, EQUAL TO ITS NONZERO SYMBOL RANKS; EACH EXCEEDS THE 114688 MAXIMUM FOR A SQUARE-ZERO ENDOMORPHISM ON THE 229376-DIMENSIONAL CARRIER. FOR P_N(KAPPA)=C_1(N)+KAPPA K WITH K NONDEGENERATE, EACH FIXED-COVECTOR DETERMINANT HAS DEGREE 229376 AND NONZERO LEADING COEFFICIENT DET(K), SO THE COMPLEX EXCEPTIONAL SET IS FINITE AND THE FROZEN-FREQUENCY MAP IS GENERICALLY INVERTIBLE. NONDEGENERACY ALONE DOES NOT DETERMINE REAL ROOTS, INERTIA OR A UNIFORM INVERSE. KAPPA K IS LOWER ORDER, SO ALL CAUSAL CONORMALS REMAIN PRINCIPAL-CHARACTERISTIC AND NO CLOSED ULTRAHYPERBOLIC DOMAIN, KT/BFV QUOTIENT OR PHYSICAL COHOMOLOGY FOLLOWS. K134 SUBSEQUENTLY CONSTRUCTS THE ACTUAL K FINGERPRINT AND ROUTES THE COUPLED METRIC-SHELL DOMAIN PROBLEM TO K135."
 target_claim: K132_NEXT_GATE__FLAT_OR_CENTRAL_CURVATURE_KAPPA_ZERO_COMPLEX_AND_NONZERO_KAPPA_ALL_GRADE_PARAMETER_PENCIL
 target_verdict: FLAT_OR_CENTRAL_CURVATURE_REMOVES_ADF_BUT_SELECTED_EULER_SYMBOL_IS_NOT_SQUARE_ZERO__FIXED_COVECTOR_KAPPA_PENCIL_IS_GENERICALLY_INVERTIBLE_WITH_FINITE_COMPLEX_EXCEPTIONAL_SET__REAL_ROOTS_AND_INERTIA_REQUIRE_ACTUAL_K_FINGERPRINT__PRINCIPAL_CHARACTERISTICS_AND_DOMAIN_OBSTRUCTIONS_PERSIST
 canon_verdict_change: none
@@ -138,15 +138,27 @@ Therefore:
 - the ambient ultrahyperbolic problem still needs an explicitly supplied
   signature-appropriate domain and boundary data.
 
-## 4. Next gate
+## 4. Original next gate, now closed by K134
 
-K134 must construct the actual all-grade quadratic-`T` structure fingerprint:
+K134 was required to construct the actual all-grade quadratic-`T` structure fingerprint:
 carrier, pairing, real involution, grading action and invariant-block form of
 `K`. It must then compute the real exceptional roots and inertia of (4) on the
 three causal representatives, test whether any frequency-uniform gap exists,
 and compare the resulting admissible data with a signature-appropriate closed
 domain. Without that fingerprint, a root list would be an invented
 attribution.
+
+## K134 successor classification
+
+K134 constructs that missing action-owned fingerprint. In the complete real
+`Cl(7,7)` coefficient basis, `K_(mu,A)=eta_mu scalar(e_A^2)` is a
+grade-preserving involution with balanced inertia `114688+114688`. It also
+corrects the operative object: inertia belongs to the Hermitian Fourier
+pencil `i C_1(n)+kappa_1 K`, not the raw real coefficient pencil. The
+timelike Hermitian pencil has no nonzero real root; the spacelike pencil has
+27 exact root radii, and the null generalized coefficient is nilpotent of
+index five. Frequency scaling obstructs a uniform inverse for every fixed
+nonzero `kappa_1`. K135 now owns the coupled metric-shell and domain gate.
 
 No ledger, canon, public posture, particle, phenomenology or GU truth-status
 claim changes. Joe input is not required.

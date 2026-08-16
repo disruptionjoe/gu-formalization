@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K134 now constructs the actual all-grade kappa-one Hodge-Clifford mass
+    fingerprint on the complete 229376-dimensional real Cl(7,7) distortion
+    carrier. In the coefficient basis dx^mu e_A, K has diagonal sign eta_mu
+    times the scalar blade-square sign. It is a real grade-preserving
+    involution with balanced inertia 114688 plus and 114688 minus. The
+    action Hessian at real Fourier frequency is the Hermitian pencil
+    i C_1(n)+kappa_1 K, not the nonsymmetric raw real coefficient pencil.
+    Its timelike representative has no nonzero real root. Its spacelike
+    representative has 27 exact squared root radii from 1 through 168 with
+    algebraic multiplicity 65456 per sign and an exact 28-interval inertia
+    census. The null generalized coefficient K C_1(n) is nilpotent of index
+    five, with power ranks 122746,65469,8192,4096,0. Frequency scaling hits
+    a spacelike singular shell for every fixed nonzero kappa_1, while the
+    null inverse grows through fourth order in frequency. Hence no
+    frequency-uniform full-distortion inverse or automatic ultrahyperbolic
+    closed domain exists. K135 must compose the metric curvature block A and
+    its operative adjoint on the exact spacelike shells and terminal null
+    Jordan chains, then classify the coupled kernel, Green form and domain.
+    Joe input is not required.
     K133 now closes the flat or curvature-central kappa-zero exception without
     inventing a distortion complex. On the complete 229376-dimensional
     selected-Shiab carrier, any square-zero endomorphism would have rank at
@@ -27,9 +46,10 @@ current_result:
     real roots and roots plus/minus one. K is lower order, so every causal
     conormal remains principal-characteristic and no uniform inverse, closed
     ultrahyperbolic domain, distortion KT/BFV quotient or physical cohomology
-    follows. K134 must construct the actual all-grade K structure fingerprint,
-    then compute causal block roots, inertia, frequency-uniform gaps and
-    domain admissibility. Joe input is not required.
+    follows. K134 subsequently constructs the actual all-grade K fingerprint
+    and proves a frequency-uniform inverse obstruction; the coupled
+    metric-shell and domain problem now routes to K135. Joe input is not
+    required.
     K132 now totalizes the selected-Shiab T=0 distortion coefficient on the
     complete 229376-dimensional real Omega1(Cl(7,7)) carrier. Its timelike,
     spacelike and null formal-Euler/Green ranks are 130912,130912,122746,
@@ -1245,6 +1265,18 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil-2026-08-16.md
+    - lab/process/selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil.json
+    - explorations/conditional-build/selected-k133-native-i1b-t0-flat-complex-kappa-pencil-2026-08-16.md
+    - lab/process/selected-k133-native-i1b-t0-flat-complex-kappa-pencil.json
+    - explorations/conditional-build/selected-k132-native-i1b-t0-all-grade-noether-complex-2026-08-16.md
+    - lab/process/selected-k132-native-i1b-t0-all-grade-noether-complex.json
+    - explorations/conditional-build/selected-k131-native-i1b-t0-dae-bv-bfv-domain-packet-2026-08-16.md
+    - lab/process/selected-k131-native-i1b-t0-dae-bv-bfv-domain-packet.json
+    - explorations/conditional-build/selected-k130-native-i1b-t0-green-domain-and-bv-obstruction-2026-08-16.md
+    - lab/process/selected-k130-native-i1b-t0-green-domain-and-bv-obstruction.json
+    - explorations/conditional-build/selected-k129-native-i1b-t0-ac-kernel-and-domain-classification-2026-08-16.md
+    - lab/process/selected-k129-native-i1b-t0-ac-kernel-and-domain-classification.json
     - explorations/conditional-build/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate-2026-08-16.md
     - lab/process/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate.json
     - explorations/conditional-build/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate-2026-08-16.md

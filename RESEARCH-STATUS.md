@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K134 native I1B T=0 Hodge mass and Hermitian Fourier-pencil gate
+2026-08-16 (exact all-grade `K`, causal roots, inertia and uniform-gap
+obstruction; coupled domain open).** The action-owned quadratic mass map on
+`Omega1(Cl(7,7))` is the real grade-preserving involution
+`K_(mu,A)=eta_mu scalar(e_A^2)` with total inertia
+`(114688,114688,0)`. The formally self-adjoint frozen-Fourier Hessian is
+`i C_1(n)+kappa_1 K`, not the raw nonsymmetric real coefficient pencil. Its
+timelike representative has no nonzero real root; its spacelike
+representative has 27 exact squared root radii with multiplicity `65456` per
+sign and 28 exact inertia intervals. The null generalized coefficient has
+nilpotency index five. Frequency scaling forces a spacelike singular shell
+for every fixed nonzero `kappa_1`, while the null inverse grows through
+fourth order. K135 must compose the metric curvature block on those shells
+and null Jordan chains before a coupled domain, BFV or cohomology claim. See
+`explorations/conditional-build/selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| all-grade `K` | nondegenerate only | exact balanced grade-preserving involution | selected `Cl(7,7)` horn | K129--K133/current/context | K134 packet |
+| real roots | unknown without fingerprint | timelike none; spacelike 27 exact radii; null none off zero | Fourier convention and frequency scaling | K133 | K134 probe |
+| inertia | unknown | exact 28-interval spacelike census; balanced nonzero timelike/null | coupled metric block | K133 | K134 artifact/registry |
+| uniform inverse | fixed-frequency generic only | obstructed for every fixed nonzero `kappa_1` | restricted domain or coupled shell lift | K129--K133 | K134 domain gate |
+| BV/BFV/superposition | open | still open; singular shells are not gauge | K135 coupled kernel/domain | scaffold | K134 reverse scaffold |
+
 **K127 native I1B Ricci-flat Weyl stationarity and TT-closure gate 2026-08-16
 (exact local curved stationary family, one-parameter aligned one-radial response and
 generic off-TT leakage; global closure open).** At `T=0`, every Ricci-flat
