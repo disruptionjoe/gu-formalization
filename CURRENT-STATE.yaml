@@ -9,6 +9,27 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K133 now closes the flat or curvature-central kappa-zero exception without
+    inventing a distortion complex. On the complete 229376-dimensional
+    selected-Shiab carrier, any square-zero endomorphism would have rank at
+    most 114688, but the timelike, spacelike and null Euler ranks are
+    130912,130912,122746. Exact replay of all 56,56,49 invariant block types
+    gives the same nonzero ranks for C_1(n) squared. Flatness removes the
+    separate D_B squared equals ad(F_B) obstruction, but the selected Euler
+    image is still not contained in its kernel, so symbol cohomology of C_1
+    as a repeated differential is undefined. For the frozen-frequency pencil
+    P_n(kappa)=C_1(n)+kappa K with K nondegenerate, every fixed-covector
+    determinant has degree 229376 and leading coefficient det(K) nonzero.
+    The complex exceptional set is finite and the map is generically
+    invertible, including every nonzero kappa at zero frequency. But
+    nondegeneracy alone does not determine real roots or inertia: exact
+    two-dimensional positive and indefinite K controls give respectively no
+    real roots and roots plus/minus one. K is lower order, so every causal
+    conormal remains principal-characteristic and no uniform inverse, closed
+    ultrahyperbolic domain, distortion KT/BFV quotient or physical cohomology
+    follows. K134 must construct the actual all-grade K structure fingerprint,
+    then compute causal block roots, inertia, frequency-uniform gaps and
+    domain admissibility. Joe input is not required.
     K132 now totalizes the selected-Shiab T=0 distortion coefficient on the
     complete 229376-dimensional real Omega1(Cl(7,7)) carrier. Its timelike,
     spacelike and null formal-Euler/Green ranks are 130912,130912,122746,

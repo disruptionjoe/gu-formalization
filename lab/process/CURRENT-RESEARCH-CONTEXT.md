@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K133 flat-complex and kappa-pencil classification:** flat or
+> curvature-central background removes the covariant `ad(F_B)` obstruction
+> but does not make the selected-Shiab Euler coefficient a differential. On
+> the `229,376`-dimensional carrier, the square-zero rank ceiling is `114,688`;
+> the exact timelike/spacelike/null symbol-square ranks are instead
+> `130,912/130,912/122,746`, equal to the symbol ranks across all
+> `56/56/49` invariant block types. For
+> `P_n(kappa)=C_1(n)+kappa K`, `det K!=0` proves fixed-covector generic
+> invertibility and a finite complex exceptional multiset, but not real roots,
+> inertia or uniform estimates. `kappa K` is lower order, so all causal
+> conormals remain principal-characteristic and the ultrahyperbolic domain,
+> KT/BFV and physical-cohomology gates remain open. K134 must construct the
+> actual all-grade `K` structure fingerprint before root and domain analysis.
+
 > **Current K132 all-grade Noether/compatibility obstruction:** the complete
 > real `Omega1(Cl(7,7))` distortion carrier has dimension `229,376`. The
 > selected-Shiab Euler/Green ranks are `130,912/130,912/122,746`, with

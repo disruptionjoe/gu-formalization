@@ -175,3 +175,17 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k132_native_i1b_t0_all_grade_noether_complex_probe.py
 ```
+
+## K133 successor classification
+
+K133 closes both exceptional questions at their licensed grade. Flat or
+curvature-central background removes `D_B^2=ad(F_B)` but does not make the
+selected Euler coefficient square-zero: its exact causal symbol-square ranks
+are `130912/130912/122746`, equal to its symbol ranks and all above the
+`114688` square-zero ceiling. For nondegenerate `K`, each fixed-covector
+`det(C_1(n)+kappa K)` is a nonzero degree-`229376` polynomial, hence
+generically invertible with a finite complex exceptional multiset. Real roots,
+inertia and a uniform inverse depend on the unconstructed all-grade `K`
+structure fingerprint. Since `kappa K` is lower order, K132's principal
+characteristics and domain obstruction remain unchanged. Use K133 for the
+current K134 fingerprint/root/domain gate.

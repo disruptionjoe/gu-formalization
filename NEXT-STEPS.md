@@ -7,6 +7,22 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K133 CLOSES THE FLAT-COMPLEX EXCEPTION AND CLASSIFIES THE
+> UNIVERSAL `KAPPA_1` PENCIL WITHOUT INVENTING ITS REAL FORM.** A square-zero
+> endomorphism on the complete `229376`-dimensional distortion carrier has
+> rank at most `114688`, while K132's causal Euler ranks are
+> `130912/130912/122746`. Exact replay of all `56/56/49` invariant block types
+> gives identical symbol-square ranks, so flat or curvature-central background
+> removes `ad(F_B)` but does not make the selected Euler map a differential.
+> For `P_n(kappa)=C_1(n)+kappa K`, nondegenerate `K` makes each fixed-covector
+> determinant a degree-`229376` nonzero polynomial: generic invertibility and
+> a finite complex exceptional multiset follow. Real roots and inertia do not;
+> positive and indefinite exact controls already differ. Because `kappa K` is
+> zero order, every causal conormal remains principal-characteristic.
+> **K134 must construct the actual all-grade `K` structure fingerprint and
+> compute causal block roots, inertia, uniform frequency gaps and domain
+> admissibility before any inverse, KT/BFV quotient or cohomology.**
+
 > **2026-08-16 K132 TOTALIZES THE ALL-GRADE SOURCE SYMBOL AND OBSTRUCTS THE
 > GENERIC DISTORTION NOETHER COMPLEX.** On the complete
 > `Omega1(Cl(7,7))` distortion carrier of dimension `229376`, the selected

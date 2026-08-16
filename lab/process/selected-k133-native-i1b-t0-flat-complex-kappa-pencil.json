@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k133-native-i1b-t0-flat-complex-kappa-pencil",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K132_NEXT_GATE__FLAT_OR_CENTRAL_CURVATURE_KAPPA_ZERO_COMPLEX_AND_NONZERO_KAPPA_ALL_GRADE_PARAMETER_PENCIL",
+  "target_verdict": "FLAT_OR_CENTRAL_CURVATURE_REMOVES_ADF_BUT_SELECTED_EULER_SYMBOL_IS_NOT_SQUARE_ZERO__FIXED_COVECTOR_KAPPA_PENCIL_IS_GENERICALLY_INVERTIBLE_WITH_FINITE_COMPLEX_EXCEPTIONAL_SET__REAL_ROOTS_AND_INERTIA_REQUIRE_ACTUAL_K_FINGERPRINT__PRINCIPAL_CHARACTERISTICS_AND_DOMAIN_OBSTRUCTIONS_PERSIST",
+  "background": {
+    "native_coordinates": "(g,T)",
+    "stationary_grade": "K127_LOCAL_RICCI_FLAT_T0_FIXED_BOUNDARY",
+    "selected_shiab": "comm/symi/symi displayed family row",
+    "flat_or_curvature_central_horn": true,
+    "full_source_natural_shiab_uniqueness": false
+  },
+  "flat_kappa_zero": {
+    "carrier_dimension": 229376,
+    "square_zero_rank_ceiling": 114688,
+    "euler_ranks": {"timelike": 130912, "spacelike": 130912, "null": 122746},
+    "euler_square_ranks": {"timelike": 130912, "spacelike": 130912, "null": 122746},
+    "block_types_checked": {"timelike": 56, "spacelike": 56, "null": 49},
+    "covariant_curvature_square_obstruction_removed": true,
+    "selected_euler_is_square_zero": false,
+    "selected_euler_is_complex": false,
+    "symbol_cohomology_defined_for_selected_euler_as_differential": false
+  },
+  "nonzero_kappa_pencil": {
+    "form": "P_n(kappa)=C_1(n)+kappa K",
+    "K_nondegenerate": true,
+    "fixed_covector_determinant_degree": 229376,
+    "leading_coefficient": "det(K)!=0",
+    "fixed_covector_complex_exceptional_set": "finite_with_multiplicity",
+    "generic_fixed_covector_invertibility": true,
+    "zero_frequency_nonzero_kappa_invertibility": true,
+    "real_exceptional_roots_determined": false,
+    "inertia_determined": false,
+    "uniform_frequency_inverse_selected": false,
+    "required_next_input": "actual all-grade K structure fingerprint preserving carrier pairing real form grading and invariant-block action"
+  },
+  "principal_and_domain": {
+    "kappa_changes_principal_symbol": false,
+    "principal_ranks": {"timelike": 130912, "spacelike": 130912, "null": 122746},
+    "every_causal_conormal_characteristic": true,
+    "closed_ultrahyperbolic_domain_selected": false,
+    "boundary_polarization_selected": false,
+    "global_inverse_selected": false
+  },
+  "minimal_bv_kt_bfv": {
+    "metric_diffeomorphism_generator_rank": 4,
+    "flatness_creates_distortion_gauge_owner": false,
+    "distortion_kt_differential_selected": false,
+    "global_bfv_selected": false,
+    "physical_cohomology_selected": false
+  },
+  "next_gate": "K134_ACTUAL_ALL_GRADE_K_STRUCTURE_FINGERPRINT_BLOCK_PENCIL_ROOT_INERTIA_AND_DOMAIN_ADMISSIBILITY",
+  "canon_verdict_change": "none"
+}
