@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K130 tracked-carrier Green/domain obstruction:** the serialized
+> `Cl1 full plus horizontal-Cl2` distortion carrier has dimension `220`.
+> K129's exact cross ranks give principal and Green ranks `24/24/22` and
+> radicals `196/196/198` on timelike, spacelike and null conormals. Every
+> conormal is characteristic on this tracked carrier. `kappa_1 K` is zero
+> order and changes neither the principal coefficient nor the Green
+> concomitant, so its nonzero zero-momentum algebraic inverse does not select a
+> noncharacteristic domain or boundary polarization. The K77 four-field
+> nonnull domain belongs to a distinct carrier and is not ported. With
+> `ord(A)=2` and `ord(C)=1`, K131 must own the constraint split, radical
+> propagation, Douglis-Nirenberg weights, boundary class and minimal
+> BV/KT/BFV complex before a closed inverse or cohomology.
+
 > **Current K129 T=0 A/C kernel and domain classification:** at K127's local
 > Ricci-flat `T=0` germ the mixed block is the natural selected curvature
 > linearization, with metric principal ranks `6/6/4`, exact diffeomorphism

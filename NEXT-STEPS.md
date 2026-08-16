@@ -7,6 +7,23 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K130 PROVES THAT THE TRACKED DISTORTION GREEN FORM IS
+> PRESYMPLECTIC FOR EVERY CONORMAL; `KAPPA_1` DOES NOT REPAIR IT.** The
+> serialized `Cl1 full plus horizontal-Cl2` carrier has dimension
+> `196+24=220`. K129's exact cross ranks `12/12/11` therefore give principal
+> and Green ranks `24/24/22` and radicals `196/196/198` on timelike,
+> spacelike and null conormals. Every conormal is characteristic on this
+> tracked carrier. The algebraic `kappa_1 K` term is zero order, so nonzero
+> `kappa_1` can remove the zero-momentum kernel but cannot change the
+> characteristic rank, Green radical or boundary polarization. The distinct
+> K77 four-field nonnull inverse/domain is not portable. Since
+> `ord(A)=2` and `ord(C)=1`, the coupled Hessian also needs explicit mixed
+> Sobolev/Douglis-Nirenberg weights. **K131 must construct or kill a covariant
+> differential-algebraic constraint split, propagate the Green radicals,
+> select an action-owned boundary class and weights, and build the minimal
+> BV/KT/BFV packet before any closed inverse, Schur reduction or physical
+> cohomology.**
+
 > **2026-08-16 K129 EVALUATES THE ACTUAL `T=0` BLOCKS BUT DOES NOT YET
 > SELECT A GLOBAL SCHUR INVERSE.** At K127's Ricci-flat stationary germ,
 > `A=D_g[S_g(F_B)]` is the natural selected curvature linearization, with

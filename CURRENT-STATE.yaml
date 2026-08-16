@@ -9,7 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    K129 now identifies the actual source-native quadratic blocks at K127's
+    K130 now totalizes the serialized 196-plus-24 distortion carrier for
+    K129's actual source-native T=0 operator. Its covariant first-order
+    principal and Green coefficients have ranks 24,24,22 and radicals
+    196,196,198 on timelike, spacelike and null conormals. Every conormal is
+    therefore characteristic on this tracked carrier; the null stratum adds
+    two radical directions but is not the only singular stratum. The
+    algebraic kappa_1 K term has no boundary derivative. Nonzero kappa_1 still
+    removes the zero-momentum algebraic kernel, but it cannot change the
+    principal rank, repair the Green radical, select a boundary polarization,
+    or import the distinct nonnull K77 four-field domain. The coupled Hessian
+    is mixed order, with the curvature block A of order two and C of order
+    one. No ordinary unweighted common domain, closed inverse, Schur reduction
+    or BV-BFV quotient is selected. K131 must build a covariant differential-
+    algebraic constraint split, radical propagation, Douglis-Nirenberg
+    weights, an action-owned boundary class and the minimal BV/KT/BFV packet.
+    The all-grade source carrier remains untotalized. K129 now identifies the
+    actual source-native quadratic blocks at K127's
     local Ricci-flat T=0 germ. The mixed block A is the natural selected-Shiab
     curvature linearization, equivalent on the horizontal Ricci-flat packet
     to -2 delta G: its metric principal ranks are 6, 6 and 4 on timelike,

@@ -153,6 +153,16 @@ R7 only then: test reduced spectrum, positive cohomology and attachment.
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.
 
+## K130 successor classification
+
+K130 composes the serialized `196+24` carrier dimensions with the held causal
+ranks. The principal and Green coefficients have ranks `24/24/22` and
+radicals `196/196/198`, so every conormal is characteristic on this tracked
+carrier. Since `kappa_1 K` is zero order it cannot repair that Green radical,
+and the order-two `A` plus order-one `C` Hessian selects no unweighted common
+domain. Use K130's constraint-splitting and mixed-order successor; do not port
+the distinct K77 four-field domain or silently quotient the radical.
+
 Reproduce:
 
 ```bash

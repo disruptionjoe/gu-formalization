@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k130-native-i1b-t0-green-domain-and-bv-obstruction",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K129_NEXT_GATE__FULL_COVARIANT_CHARACTERISTIC_GREEN_COMMON_DOMAIN_AND_COUPLED_BV_BFV",
+  "target_verdict": "TRACKED_220_CARRIER_PRINCIPAL_AND_GREEN_RANKS_24_24_22__RADICALS_196_196_198__EVERY_CONORMAL_CHARACTERISTIC__KAPPA_ZERO_ORDER_CANNOT_REPAIR__MIXED_ORDER_DOMAIN_AND_BV_BFV_UNSELECTED",
+  "background": {
+    "native_coordinates": "(g,T)",
+    "stationary_grade": "K127_LOCAL_RICCI_FLAT_T0_FIXED_BOUNDARY",
+    "source_global_background_selected": false
+  },
+  "tracked_distortion_carrier": {
+    "cl1_dimension": 196,
+    "horizontal_cl2_dimension": 24,
+    "total_dimension": 220,
+    "all_grade_source_totalization": false
+  },
+  "principal_and_green_packet": {
+    "cross_ranks": {"timelike": 12, "spacelike": 12, "null": 11},
+    "principal_ranks": {"timelike": 24, "spacelike": 24, "null": 22},
+    "green_ranks": {"timelike": 24, "spacelike": 24, "null": 22},
+    "green_radicals": {"timelike": 196, "spacelike": 196, "null": 198},
+    "noncharacteristic_conormals_on_tracked_carrier": 0,
+    "green_form_type": "PRESYMPLECTIC_ON_FULL_TRACKED_TRACE_CARRIER"
+  },
+  "kappa_effect": {
+    "operator_term": "ZERO_ORDER_NONDEGENERATE_K_MAP",
+    "removes_zero_momentum_algebraic_kernel_when_nonzero": true,
+    "changes_principal_symbol": false,
+    "changes_green_concomitant": false,
+    "selects_boundary_domain": false
+  },
+  "coupled_hessian": {
+    "formula": "[[0,A_STAR],[A,C]]",
+    "A_order": 2,
+    "C_order": 1,
+    "ordinary_unweighted_common_domain_selected": false,
+    "douglis_nirenberg_weights_selected": false,
+    "formal_schur_expression": "-A_STAR*C_INVERSE*A",
+    "formal_schur_selected": false
+  },
+  "distinct_k77_fermion_domain_ported": false,
+  "boundary_class_selected": false,
+  "green_radical_quotient_selected": false,
+  "bfv_reduction_selected": false,
+  "physical_spectrum_selected": false,
+  "next_gate": "K131_BUILD_OR_KILL_A_COVARIANT_DIFFERENTIAL_ALGEBRAIC_CONSTRAINT_SPLIT_WITH_RADICAL_PROPAGATION__DOUGLIS_NIRENBERG_WEIGHTS__ACTION_OWNED_BOUNDARY_CLASS__MINIMAL_BV_KT_BFV_PACKET",
+  "canon_verdict_change": "none"
+}
