@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "correction": {"superseded_by": "lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json", "reason": "COMMUTATOR_WAS_COMPUTED_FROM_MIXED_FRAME_PENCIL", "correct_commutator": "b*[[1,0],[-alpha,-1]]", "alpha_one_commuting_locus": false},
   "artifact_type": "rsap_tt_alpha_normalization_invariant_and_structure_preserving_redefinition_gate",
   "created": "2026-08-15",
   "status": "NORMALIZATION_HORN_EXCLUDED__ZERO_TRANSPORT_IS_INVARIANT_FREE_INTERACTION_ALIGNMENT__GENUINE_BUT_ACTION_UNSELECTED",

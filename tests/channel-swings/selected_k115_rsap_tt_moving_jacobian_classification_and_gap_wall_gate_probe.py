@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Exact K115 moving-TT Jacobian classification and gap-wall gate."""
+"""Historical K115 certificate; concrete fingerprint superseded by K116.
+
+The abstract local moving-frame ODE classification survives.
+"""
 
 from __future__ import annotations
 
@@ -151,12 +154,12 @@ current_text = CURRENT.read_text(encoding="utf-8")
 next_text = NEXT.read_text(encoding="utf-8-sig")
 context_text = CONTEXT.read_text(encoding="utf-8")
 k114_result = (ROOT / "explorations/conditional-build/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate-2026-08-15.md").read_text(encoding="utf-8")
-check("roadmap", "CURRENT records K115 and the constant-frame classification",
-      "K115" in current_text and "constant frame" in current_text)
-check("roadmap", "NEXT requires a new typed source/action map",
-      "K115" in next_text and "typed source/action" in next_text)
-check("roadmap", "context preserves the gap-wall and ownership ceilings",
-      "K115" in context_text and "gap wall" in context_text and "reconstruction" in context_text)
+check("roadmap", "CURRENT records K115 as concretely superseded by K116",
+      "K115" in current_text and "superseded" in current_text.lower() and "K116" in current_text)
+check("roadmap", "NEXT blocks reuse of the historical K115 fingerprint",
+      "K115" in next_text and "SUPERSEDED IN CONCRETE FORM BY K116" in next_text)
+check("roadmap", "context routes owner work to the corrected K116 target",
+      "K115" in context_text and "Do not run an owner census" in context_text and "K116" in context_text)
 check("successor", "K114 records the K115 successor closure",
       "Successor closure (K115)" in k114_result)
 

@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Exact K113 TT transport normal-form and boundary-support gate."""
+"""Historical K113 certificate; G/phi and alpha-one locus superseded by K116.
+
+The one-generator and boundary-support results survive.
+"""
 
 from __future__ import annotations
 
@@ -149,11 +152,12 @@ current_text = CURRENT.read_text(encoding="utf-8")
 next_text = NEXT.read_text(encoding="utf-8-sig")
 context_text = CONTEXT.read_text(encoding="utf-8")
 k112_result = (ROOT / "explorations/conditional-build/selected-k112-rsap-spectral-connection-variational-owner-port-2026-08-15.md").read_text(encoding="utf-8")
-check("roadmap", "CURRENT records K113 and the Jacobian target", "K113" in current_text and "Jacobian" in current_text)
-check("roadmap", "NEXT separates boundary-only ownership from boundary attachment",
-      "K113" in next_text and "boundary-only" in next_text and "cohomological" in next_text)
-check("roadmap", "context records the alpha_II=1 zero-transport locus",
-      "K113" in context_text and "alpha_II=1" in context_text)
+check("roadmap", "CURRENT marks K113 concrete target superseded by K116",
+      "K113" in current_text and "superseded" in current_text.lower() and "K116" in current_text)
+check("roadmap", "NEXT preserves boundary-support structure but replaces the concrete target",
+      "K113" in next_text and "boundary-support" in next_text and "corrected" in next_text)
+check("roadmap", "context records that the alpha-one zero locus is superseded",
+      "K113" in context_text and "zero locus" in context_text and "superseded" in context_text.lower())
 check("successor", "K112 records the K113 successor closure", "Successor closure (K113)" in k112_result)
 
 

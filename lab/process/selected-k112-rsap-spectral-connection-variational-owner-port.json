@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "correction": {"superseded_in_part_by": "lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json", "survives": "MINIMAL_COVARIANT_VARIATIONAL_RECONSTRUCTION_AND_OWNER_CEILINGS", "replaced": "CONCRETE_CONNECTION_INSTANTIATION"},
   "artifact_type": "rsap_spectral_connection_minimal_variational_owner_and_bfv_attachment_gate",
   "created": "2026-08-15",
   "status": "MINIMAL_LOCAL_COVARIANT_TT_QUADRATIC_OWNS_THE_K111_CONNECTION_OPERATOR_WITHOUT_A_FREE_COEFFICIENT__THIS_IS_RECONSTRUCTED_NEW_ACTION_DATA_NOT_THE_CURRENT_RELEASED_ACTION__STATIONARY_BACKGROUND_BFV_DOMAIN_AND_NONINVARIANT_98D_ATTACHMENT_REMAIN_OPEN",

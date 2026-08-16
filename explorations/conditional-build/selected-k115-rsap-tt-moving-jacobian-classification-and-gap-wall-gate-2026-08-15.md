@@ -1,6 +1,6 @@
 ---
 title: "Selected-K115 RSAP TT moving-Jacobian classification and gap-wall gate"
-status: active_research
+status: superseded_in_part_by_k116
 doc_type: exact_local_moving_frame_classification_owner_fingerprint_and_gap_wall_obstruction
 created: "2026-08-15"
 registry: lab/process/selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate.json
@@ -12,6 +12,13 @@ canon_verdict_change: none
 ---
 
 # Selected-K115 RSAP TT moving-Jacobian classification and gap-wall gate
+
+> **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the abstract local
+> moving-frame ODE classification survives, but this concrete fingerprint is
+> superseded because it inherited a mixed-frame pencil. Replace `G,phi`, the
+> two walls and the `alpha=1` control by K116's
+> `H=[[1,0],[-alpha,-1]]`, `psi=(1/4)log(alpha^2 b+4u)`, and single wall
+> `alpha^2 b+4u=0`. The corrected connection is nonzero at `alpha=1`.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein/Green moving-frame and action-owner question. Ordinary Higgs/VEV,

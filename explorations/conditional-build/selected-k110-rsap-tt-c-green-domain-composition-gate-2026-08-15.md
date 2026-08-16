@@ -1,6 +1,6 @@
 ---
 title: "Selected-K110 RSAP TT spectral-C and Green-domain composition gate"
-status: active_research
+status: superseded_in_part_by_k116
 doc_type: exact_fixed_background_positive_fibre_majorant_green_domain_composition_and_carrier_gate
 created: "2026-08-15"
 registry: lab/process/selected-k110-rsap-tt-c-green-domain-composition-gate.json
@@ -12,6 +12,12 @@ canon_verdict_change: none
 ---
 
 # Selected-K110 RSAP TT spectral-C and Green-domain composition gate
+
+> **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the abstract
+> fixed-background spectral-`C`/Green composition survives, but the concrete
+> `C`, discriminant, positivity component and walls below used a mixed-frame
+> pencil. Reinstantiate them from K116's consistent raw or eigenmode triple.
+> In particular there is one wall `alpha^2 b+4u=0`, not two.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV carrier question. Ordinary Higgs/VEV,

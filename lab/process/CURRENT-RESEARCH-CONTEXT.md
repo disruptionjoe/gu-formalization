@@ -9,7 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
-> **Current K115 moving-TT Jacobian and gap-wall gate:** every local invertible
+> **Current K116 TT frame-consistency correction:** K110--K115 combined raw
+> `(h,v)` `K,M0` with the eigenmode `(q0,qm)` interaction Hessian. In either
+> consistent frame, `Delta=b(alpha_II^2 b+4u)` and
+> `A_C=H du/(alpha_II^2 b+4u)` with
+> `H=[[1,0],[-alpha_II,-1]]`. There is one gap wall, and the connection is
+> nonzero at `alpha_II=1`; `[L0,L1]=bH` has rank two for every alpha. K114 is
+> superseded in full. K113's concrete `G,phi`/zero locus and K115's concrete
+> fingerprint/two-wall claims are superseded, while their one-generator,
+> boundary-support and local-frame ODE structures survive. Next derive the
+> literal moving-background TT Hessian in one source/action frame and compare
+> it coefficientwise to corrected `H dpsi`. Do not run an owner census against
+> the historical K115 fingerprint.
+
+> **Superseded in concrete form by K116 — K115 moving-TT Jacobian and gap-wall gate:** every local invertible
 > frame inducing K113 is `F0 exp[(phi-phi0)G]`; the parallel transport is the
 > inverse factor. The moving part is `K`-orthogonal and determinant one, has
 > fixed `G` eigenlines, and its exact reciprocal stretch diverges at either
@@ -21,7 +34,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > evidence; stationary background, `98D` attachment, closed domain and
 > physical cohomology remain open.
 
-> **Current K114 TT alpha normalization-invariant gate:** K113's
+> **Superseded in full by K116 — K114 TT alpha normalization-invariant gate:** K113's
 > `alpha_II=1` zero-transport locus is not a field-coordinate convention. The
 > free and interaction dynamics have exact commutator
 > `b(alpha_II-1)G`, which transforms by similarity under every invertible
@@ -36,7 +49,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > stationary background, `98D` attachment and closed physical domain remain
 > open.
 
-> **Current K113 TT transport normal form and boundary-support gate:** K112's
+> **Superseded in concrete form by K116 — K113 TT transport normal form and boundary-support gate:** K112's
 > reconstructed minimal variational connection is exactly `A_C=G dphi`, with
 > one fixed `K`-skew involution and closed-form parallel transport
 > `exp[-(phi(u)-phi(u0))G]`. This is the precise source/action Jacobian target. On

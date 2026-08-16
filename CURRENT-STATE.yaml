@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8da3c36193d31b97f33aaa97accc080158d977ce
+revision_basis: 454900352cb3bd7b4e8dafd0e8936fa9a644a980
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -980,49 +980,26 @@ current_result:
     98D phase tangent. The surviving bridge must therefore be non-invariant,
     nonlinear, boundary or cohomological and action/background owned, with a
     selected closed positive domain.
-    K113 reduces the K112 connection to the exact one-generator normal form
-    A_C=G dphi, with G=[[-1,0],[alpha_II,1]] and
-    phi=(1/4)log((b+u)/(alpha_II^2 b+(alpha_II-2)^2u)). Its parallel
-    transport is exp(-(phi(u)-phi(u0))G), giving a closed-form target for an
-    action-derived moving-TT Jacobian. At alpha_II=1, C is constant and A_C
-    vanishes on the whole gapped component, but the current action does not
-    select that normalization. Boundary-only or BFV-only functionals cannot
-    change the interior first-order Euler coefficient against compactly
-    supported variations. This does not close boundary domain selection or a
-    non-invariant, boundary or cohomological 2D-to-98D attachment; it separates
-    those open attachment jobs from ownership of the interior transport.
-    The next gate is the action normalization of alpha_II and a
-    structure-preserving source-variable-to-TT Jacobian comparison to the
-    exact transport.
-    K114 closes the normalization horn. Splitting the TT dynamics into free
-    and interaction pieces gives the exact invariant
-    [L_0,L_1]=b(alpha_II-1)G. Under every invertible linear field change this
-    commutator transforms by similarity, so its vanishing cannot be created
-    by coordinates. The complete transformations preserving the recorded
-    free mass block, interaction ray and kinetic normal form send alpha_II
-    only to alpha_II or 2-alpha_II. The point alpha_II=1 is fixed by both
-    branches and cannot be reached from alpha_II!=1. Thus zero transport is
-    the genuine invariant locus where free and interaction dynamics commute
-    and share fixed spectral directions, not a normalization artifact. The
-    condition remains action-unselected: alpha_II is still charged as U7 and
-    only positivity is currently used. The next live owner test is therefore
-    the generic-alpha source/action moving-TT Jacobian against K113 transport,
-    or genuinely new source/action evidence selecting the commuting locus.
-    K115 classifies that generic-alpha Jacobian target completely. On each
-    connected gapped interval every invertible moving frame inducing K113 is,
-    up to one constant frame, exp((phi-phi0)G); parallel transport is the
-    inverse moving factor. Its moving determinant is one, it preserves K, its
-    G eigenlines are fixed, and its exact reciprocal stretch is the K113
-    cross-ratio. For generic alpha_II!=1 that stretch diverges at either
-    simple spectral gap wall, so no bounded invertible same-frame extension
-    crosses the wall. Patched, singular and new-action routes remain open.
-    The current serialized source/action custody supplies no typed two-field
-    TT map with this fingerprint: alpha_II is reconstructed and remains U7.
-    K112--K115 therefore remain reconstruction-grade owner data rather than a
-    released action port. The next reopener requires genuinely new typed
-    source/action map evidence, while stationary background, 98D attachment,
-    closed positive domain and physical cohomology remain separate.
+    K116 corrects the concrete K110--K115 pencil before another owner search.
+    Those runs retained raw (h,v) kinetic/free-mass matrices while inserting
+    the eigenmode (q0,qm) interaction Hessian. In either single consistent
+    frame the discriminant is b(alpha_II^2 b+4u), the free-connected positive
+    component has one wall alpha_II^2 b+4u=0, and
+    A_C=H du/(alpha_II^2 b+4u) with
+    H=[[1,0],[-alpha_II,-1]]. The connection is nonzero at alpha_II=1, and
+    [L_0,L_1]=bH has rank two for every alpha_II when b!=0. Therefore K114 is
+    superseded in full; K113's concrete G,phi/zero locus and K115's concrete
+    fingerprint/two-wall claims are also superseded. Their structural
+    one-generator, boundary-support and complete local-frame ODE results
+    survive after corrected reinstantiation, as do K110's fixed-background
+    composition, K111's abstract A_C theorem and K112's minimal variational
+    reconstruction. The next gate is the literal moving-background TT
+    Hessian in one source/action frame, including every derivative term,
+    compared coefficientwise to corrected H dpsi. Stationary background, 98D
+    attachment, closed positive domain and physical cohomology remain open.
   evidence:
+    - explorations/conditional-build/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate-2026-08-15.md
+    - lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json
     - explorations/conditional-build/selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate-2026-08-15.md
     - lab/process/selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate.json
     - explorations/conditional-build/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate-2026-08-15.md
@@ -1258,10 +1235,10 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does genuinely new source/action evidence supply a typed two-field TT map in
-  the complete K115 class F0 exp((phi-phi0)G), including its determinant,
-  fixed-eigenline and exact cross-ratio fingerprint, or an explicit patched or
-  singular action law at the spectral gap wall? If such an owner exists, can
+  Does the literal moving-background TT Hessian, derived without changing
+  coordinate frames mid-pencil and including every action-generated
+  derivative term, induce the corrected K116 transport
+  F0 exp((psi-psi0)H)? If such an owner exists, can
   the separately open non-invariant, nonlinear, boundary or cohomological
   attachment carry it into the conditional 98D BV-BFV complex and a selected
   closed positive domain?
@@ -1360,33 +1337,21 @@ next_condition: >-
   reconstruction-grade action data rather than a current released-source
   term. It does not select u at zero TT field; its Green flux is not the
   balanced moment/gauge law; and every invariant linear 2D-to-98D attachment
-  vanishes by K107's 49D invariant-subquotient minimum. K113 further reduces
-  A_C to the exact one-generator packet G dphi and closed-form transport
-  exp(-(phi(u)-phi(u0))G). It identifies the unselected alpha_II=1 zero-transport
-  locus and excludes boundary-only ownership of the interior coefficient,
-  while preserving boundary domain selection and non-invariant/boundary/
-  cohomological attachment as different open jobs. K114 proves that this
-  zero-transport locus is not removable field normalization: the exact
-  free/interaction commutator b(alpha_II-1)G transforms by similarity under
-  every invertible field change, and the full structure-preserving
-  redefinition class sends alpha_II only to alpha_II or 2-alpha_II. The
-  commuting point is fixed and remains a genuine but action-unselected U7
-  coefficient relation. K115 now completes the local generic-alpha adapter
-  class: every moving frame inducing K113 is F0 exp((phi-phi0)G), with no new
-  functional freedom, determinant-one K-isometric motion, fixed G eigenlines
-  and an exact reciprocal cross-ratio stretch. The stretch diverges at either
-  generic simple spectral gap wall, so there is no bounded invertible
-  same-frame extension across the wall. Current serialized source/action
-  custody contains zero typed two-field TT maps meeting this fingerprint;
-  alpha_II remains reconstructed U7 data. Reopen the owner route only with a
-  genuinely new typed source/action map matching the K115 fingerprint, or
-  explicit patched, singular or new-action wall data. Park repeated fixed-
-  background positivity and invariant linear attachment algebra over the
-  current inventory. Retain the reverse scaffold through its exact classical
-  layer and the minimal variational TT completion only at reconstruction
-  grade. Reopen by comparing a generic-alpha action-derived moving-TT Jacobian
-  to the K113 transport or by producing genuinely new source/action evidence
-  selecting the invariant commuting locus, then compose a
+  vanishes by K107's 49D invariant-subquotient minimum. K116 supersedes the
+  concrete K113--K115 target after finding that raw-frame K,M0 had been mixed
+  with the eigenmode-frame interaction Hessian. In one consistent frame,
+  Delta=b(alpha_II^2 b+4u), there is one wall, and
+  A_C=H du/(alpha_II^2 b+4u) with
+  H=[[1,0],[-alpha_II,-1]]. It is nonzero at alpha_II=1 and
+  [L0,L1]=bH has rank two for all alpha_II, so K114 is superseded in full.
+  K113's one-generator and boundary-support results and K115's abstract local
+  frame ODE classification survive with corrected H,psi; their old G,phi,
+  two-wall, zero-locus and fingerprint claims do not. Retain the reverse
+  scaffold through its exact classical layer and the minimal variational TT
+  completion only at reconstruction grade. Reopen by deriving the literal
+  moving-background TT Hessian in one source/action frame, including every
+  derivative term, and comparing its Jacobian to corrected H dpsi; then
+  compose a
   non-invariant, nonlinear, boundary or cohomological 2D-to-98D map carrying a
   selected closed positive physical domain. This does not kill future
   nonlinear, nonlocal, contour, Wick or boundary constructions and does not

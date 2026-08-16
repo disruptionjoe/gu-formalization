@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Exact K111 TT spectral-transport connection and selected-action owner gate."""
+"""Historical K111 certificate; concrete instantiation superseded by K116.
+
+The abstract A_C=(1/2)C dC theorem survives.
+"""
 
 from __future__ import annotations
 

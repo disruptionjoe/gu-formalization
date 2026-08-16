@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "correction": {"superseded_in_part_by": "lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json", "survives": "ONE_GENERATOR_REDUCTION_AND_BOUNDARY_SUPPORT_EXCLUSION", "replaced": "G_PHI_TWO_WALLS_AND_ALPHA_ONE_ZERO_TRANSPORT"},
   "artifact_type": "rsap_tt_spectral_transport_one_generator_normal_form_zero_locus_and_boundary_support_gate",
   "created": "2026-08-15",
   "status": "EXACT_ONE_GENERATOR_SPECTRAL_TRANSPORT_AND_CLOSED_FORM_ADAPTER_TARGET_BUILT__alpha_II_ONE_ZERO_TRANSPORT_LOCUS_UNSELECTED__BOUNDARY_ONLY_INTERIOR_OWNER_EXCLUDED__BOUNDARY_ATTACHMENT_AND_ACTION_JACOBIAN_OPEN",

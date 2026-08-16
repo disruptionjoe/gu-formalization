@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_frame_consistency_correction_and_transport_gate",
+  "created": "2026-08-15",
+  "status": "PASS__K110_K115_CONCRETE_PENCIL_SUPERSEDED__CONSISTENT_ONE_WALL_NONZERO_ALL_ALPHA_TRANSPORT_BUILT",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "SELECTED_REAL_TWO_FIELD_TT_PENCIL__RAW_AND_FREE_EIGENMODE_FRAME_CUSTODY__LOCAL_RECONSTRUCTION_GRADE",
+  "target_claim": {
+    "id": "K115_CONCRETE_TT_TRANSPORT_FINGERPRINT_IS_COORDINATE_CONSISTENT_WITH_ITS_ACTION_PROVENANCE",
+    "verdict": "NO__RAW_K_AND_M0_WERE_COMBINED_WITH_EIGENMODE_M1"
+  },
+  "owner_packet": {
+    "carrier": "REAL_TWO_FIELD_OBSERVED_TT_FLUCTUATION",
+    "raw_frame": "x=(h,v)_METRIC_DISTORTION_COORDINATES",
+    "mode_frame": "q=(q0,qm)_FREE_EIGENMODE_AMPLITUDES",
+    "frame_map": "x=Uq__U=[[1,1],[0,-alpha]]",
+    "form": "Kx=[[alpha,1],[1,0]]__Kq=diag(alpha,-alpha)",
+    "action_owner": "SELECTED_FREE_TT_PENCIL_PLUS_SELECTED_CUBIC_u_h_squared",
+    "assumptions": ["alpha>0", "b>0", "one_free_connected_gapped_component"],
+    "claim_ceiling": "EXACT_LOCAL_TWO_FIELD_RECONSTRUCTION_GRADE"
+  },
+  "frame_custody": {
+    "raw": {
+      "K": "[[alpha,1],[1,0]]",
+      "M0": "[[0,0],[0,b]]",
+      "M1": "[[1,0],[0,0]]"
+    },
+    "mode": {
+      "K": "diag(alpha,-alpha)",
+      "M0": "diag(0,alpha^2*b)",
+      "M1": "[[1,1],[1,1]]"
+    },
+    "historical_error": "RAW_K_AND_M0_COMBINED_WITH_MODE_M1"
+  },
+  "corrected_spectral_packet": {
+    "L": "[[0,b],[u,-alpha*b]]",
+    "discriminant": "b*(alpha^2*b+4*u)",
+    "free_connected_component": "alpha^2*b+4*u>0",
+    "walls": ["alpha^2*b+4*u=0"],
+    "C": "[[alpha*b,2*b],[2*u,-alpha*b]]/sqrt(b*(alpha^2*b+4*u))",
+    "majorant_numerator": "[[alpha^2*b+2*u,alpha*b],[alpha*b,2*b]]"
+  },
+  "corrected_transport": {
+    "H": "[[1,0],[-alpha,-1]]",
+    "H_squared": "IDENTITY",
+    "H_K_skew": true,
+    "psi": "(1/4)*log(alpha^2*b+4*u)",
+    "A_C": "H*dpsi=H*du/(alpha^2*b+4*u)",
+    "moving_frame": "F0*exp((psi(u)-psi(u0))*H)",
+    "parallel_transport": "exp(-(psi(u)-psi(u0))*H)",
+    "mode_frame_generator": "U^-1*H*U=[[0,1],[1,0]]"
+  },
+  "controls": {
+    "free_interaction_commutator": "[L0,L1]=b*H",
+    "commutator_rank_for_b_nonzero": 2,
+    "alpha_one_connection": "[[1,0],[-1,-1]]*du/(b+4*u)__NONZERO",
+    "old_two_wall_discriminant": "SUPERSEDED",
+    "old_alpha_one_zero_transport": "SUPERSEDED"
+  },
+  "twenty_lens_vote": {
+    "FRAME": 9,
+    "SALVAGE": 5,
+    "ACTION": 5,
+    "PARK": 1,
+    "total": 20,
+    "highest_vote_hypothesis": "REPAIR_FRAME_CUSTODY_BEFORE_ANY_OWNER_CENSUS",
+    "highest_conviction": [
+      "MIXED_FRAME_ORIGIN_OF_OLD_TWO_WALL_AND_ALPHA_ONE_PACKET",
+      "CORRECTED_ONE_WALL_NONZERO_ALPHA_ONE_TRANSPORT",
+      "ABSTRACT_CONNECTION_VARIATIONAL_BOUNDARY_AND_FRAME_ODE_RESULTS_SURVIVE",
+      "ACTION_OWNERSHIP_RESET_TO_OPEN"
+    ]
+  },
+  "reverse_scaffold": {
+    "superposition_hypothesis": "LITERAL_GU_SOURCE_ACTION_MOVING_TT_HESSIAN_IN_ONE_FRAME_INDUCES_CORRECTED_H_dpsi",
+    "conditions": ["CORRECTED_TARGET", "LITERAL_MAP_OWNER", "FULL_SECOND_VARIATION", "COEFFICIENTWISE_MATCH", "STATIONARY_BACKGROUND", "COMMON_ANALYTIC_DOMAIN", "TYPED_2D_TO_98D_ATTACHMENT"],
+    "next_swings": ["K117_FRAME_CUSTODY_AND_LITERAL_HESSIAN", "K118_COEFFICIENTWISE_TRANSPORT_OWNER_MATCH", "K119_STATIONARITY_DOMAIN_OR_MINIMAL_MISSING_TERM", "K120_ATTACHMENT_ONLY_AFTER_OWNERSHIP"]
+  },
+  "checks": {
+    "total": 57,
+    "failures": 0,
+    "historical_predecessor_probes_replayed": 7
+  },
+  "status_changes": {
+    "first_perturbative_background_c": "CONCRETE_FORMULAS_SUPERSEDED",
+    "K110": "STRUCTURE_SURVIVES__CONCRETE_PENCIL_REPLACED",
+    "K111": "ABSTRACT_CONNECTION_THEOREM_SURVIVES__INSTANTIATION_REPLACED",
+    "K112": "VARIATIONAL_RECONSTRUCTION_SURVIVES_WITH_CORRECTED_CONNECTION",
+    "K113": "ONE_GENERATOR_AND_BOUNDARY_SUPPORT_SURVIVE__CONCRETE_PACKET_REPLACED",
+    "K114": "SUPERSEDED_IN_FULL",
+    "K115": "ABSTRACT_LOCAL_FRAME_ODE_SURVIVES__CONCRETE_FINGERPRINT_REPLACED"
+  },
+  "next_gate": "DERIVE_LITERAL_MOVING_BACKGROUND_TT_HESSIAN_IN_ONE_SOURCE_ACTION_FRAME_AND_COMPARE_ITS_JACOBIAN_TO_CORRECTED_H_dpsi",
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "artifact": "explorations/conditional-build/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k116_rsap_tt_frame_consistency_correction_and_transport_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate-review.md"
+}

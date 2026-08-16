@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "correction": {"superseded_in_part_by": "lab/process/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate.json", "survives": "ABSTRACT_FIXED_BACKGROUND_C_GREEN_COMPOSITION", "replaced": "CONCRETE_PENCIL_C_COMPONENT_AND_WALLS"},
   "artifact_type": "rsap_tt_spectral_c_green_domain_composition_and_carrier_gate",
   "created": "2026-08-15",
   "status": "EXACT_POSITIVE_FIBRE_MAJORANT_AND_GREEN_OPERATOR_COMPOSITION_ON_SHARED_FIXED_BACKGROUND_2D_TT_PENCIL__NO_CLOSED_QUANTUM_DOMAIN_STATIONARY_TOTAL_FIELD_OR_98D_BFV_ATTACHMENT",

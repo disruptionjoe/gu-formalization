@@ -1,7 +1,7 @@
 ---
 artifact_type: construction_result
 created: 2026-08-05
-status: EXACT_BACKGROUND_C_BUILT_ON_FREE_CONNECTED_COMPONENT__ZERO_PARAMETER_FIRST_ORDER_LIFT__EXCEPTIONAL_AND_COMPLEX_LOCI_CLASSIFIED__FULL_INTERACTING_QFT_C_OPEN
+status: SUPERSEDED_BY_K116_FRAME_MISMATCH__RETAINED_AS_HISTORICAL_PROVENANCE
 source_return: SOURCE-SILENT
 ledger_rows: [LT-GR2b, LT-GR3, LT-GR5, LT-SM8]
 scripts:
@@ -11,6 +11,14 @@ registry: lab/process/first-perturbative-background-c-operator.json
 ---
 
 # First perturbative background C-operator on the selected TT action
+
+> **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the concrete pencil
+> below is superseded. It combines the raw `(h,v)` matrices `K,M0` with the
+> eigenmode `(q0,qm)` interaction Hessian `u vv^T`. Use
+> `selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate-2026-08-15.md`:
+> in one consistent frame `Delta=b(alpha^2 b+4u)`, there is one gap wall, and
+> the moving connection is nonzero at `alpha=1`. Retain this file only as the
+> provenance record of the historical calculation and its scope ceilings.
 
 ## Result first
 

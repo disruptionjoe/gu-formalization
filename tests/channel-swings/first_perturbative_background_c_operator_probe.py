@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Exact first perturbative background C-operator on the selected TT Hessian."""
+"""Historical mixed-frame certificate; concrete result superseded by K116.
+
+This probe remains reproducible evidence for the calculation as recorded. It
+must not be cited as the current action-owned TT pencil.
+"""
 
 from __future__ import annotations
 

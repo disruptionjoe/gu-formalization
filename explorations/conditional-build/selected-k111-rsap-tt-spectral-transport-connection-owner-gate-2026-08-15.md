@@ -1,6 +1,6 @@
 ---
 title: "Selected-K111 RSAP TT spectral-transport connection and owner gate"
-status: active_research
+status: superseded_in_part_by_k116
 doc_type: exact_moving_background_krein_complex_metric_connection_green_completion_and_action_owner_test
 created: "2026-08-15"
 registry: lab/process/selected-k111-rsap-tt-spectral-transport-connection-owner-gate.json
@@ -12,6 +12,12 @@ canon_verdict_change: none
 ---
 
 # Selected-K111 RSAP TT spectral-transport connection and owner gate
+
+> **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the abstract theorem
+> `A_C=(1/2)C dC` and its compatibility/uniqueness claims survive. Its
+> historical concrete `C(u)` came from a mixed-frame pencil. The corrected
+> instantiation is `A_C=H du/(alpha^2 b+4u)` with
+> `H=[[1,0],[-alpha,-1]]`; use K116 for any owner comparison.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV operator question. Ordinary Higgs/VEV,

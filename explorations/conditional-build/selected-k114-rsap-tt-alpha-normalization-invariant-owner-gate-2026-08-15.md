@@ -1,6 +1,6 @@
 ---
 title: "Selected-K114 RSAP TT alpha normalization-invariant owner gate"
-status: active_research
+status: superseded_by_k116
 doc_type: exact_commutator_invariant_and_structure_preserving_field_redefinition_classification
 created: "2026-08-15"
 registry: lab/process/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate.json
@@ -12,6 +12,12 @@ canon_verdict_change: none
 ---
 
 # Selected-K114 RSAP TT alpha normalization-invariant owner gate
+
+> **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** this result is
+> superseded in full. The commutator below used raw-frame `K,M0` with an
+> eigenmode-frame interaction block. For the consistent action-owned pencil,
+> `[L0,L1]=b[[1,0],[-alpha,-1]]`, which has rank two for every `alpha` when
+> `b!=0`; no `alpha=1` commuting or zero-transport locus exists.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV action-owner question. Ordinary

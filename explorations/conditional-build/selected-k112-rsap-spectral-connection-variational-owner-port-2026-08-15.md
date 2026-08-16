@@ -1,6 +1,6 @@
 ---
 title: "Selected-K112 RSAP spectral-connection variational owner port"
-status: active_research
+status: superseded_in_part_by_k116
 doc_type: exact_local_covariant_tt_quadratic_stationary_background_boundary_bfv_and_invariant_attachment_gate
 created: "2026-08-15"
 registry: lab/process/selected-k112-rsap-spectral-connection-variational-owner-port.json
@@ -12,6 +12,12 @@ canon_verdict_change: none
 ---
 
 # Selected-K112 RSAP spectral-connection variational owner port
+
+> **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the minimal covariant
+> quadratic and its ownership ceilings survive structurally, but its concrete
+> connection must be replaced by K116's consistent
+> `A_C=H du/(alpha^2 b+4u)`. Do not reuse the predecessor's two-wall or
+> `alpha=1` conclusions.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > variational, Krein/Green and balanced BV-BFV carrier question. Ordinary

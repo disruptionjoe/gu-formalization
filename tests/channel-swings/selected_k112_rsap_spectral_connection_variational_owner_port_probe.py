@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Exact K112 spectral-connection variational owner and attachment gate."""
+"""Historical K112 certificate; concrete connection superseded by K116.
+
+The minimal variational reconstruction and ownership ceilings survive.
+"""
 
 from __future__ import annotations
 

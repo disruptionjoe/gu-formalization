@@ -2,11 +2,37 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-14"
+updated_at: "2026-08-15"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**K116 TT frame-consistency correction 2026-08-15 (local exact correction;
+no canon/public-posture change).** The concrete K110--K115 transport packet
+mixed coordinate frames: it retained raw metric/distortion `K,M0` while
+inserting the free-eigenmode cubic Hessian `u vv^T`. In one consistent frame,
+`Delta=b(alpha_II^2 b+4u)`, the free-connected positive component has one
+wall, and `A_C=H du/(alpha_II^2 b+4u)` with
+`H=[[1,0],[-alpha_II,-1]]`. The connection is nonzero at `alpha_II=1`, while
+`[L0,L1]=bH` has rank two for every alpha when `b!=0`. K114 is superseded in
+full. K113's concrete `G,phi`/zero locus and K115's concrete fingerprint and
+two-wall claims are superseded; their one-generator, boundary-support and
+local-frame ODE structures survive after corrected reinstantiation. K110's
+composition theorem, K111's abstract connection theorem and K112's minimal
+variational reconstruction likewise survive structurally. The next gate is a
+literal moving-background TT Hessian derived in one source/action frame and
+compared coefficientwise to corrected `H dpsi`. The 20-lens reassessment votes
+`FRAME 9 / SALVAGE 5 / ACTION 5 / PARK 1` and retains Variancer's reverse
+scaffold from that corrected superposition hypothesis. Exact probe `57/57`. See
+`explorations/conditional-build/selected-k116-rsap-tt-frame-consistency-correction-and-transport-gate-2026-08-15.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| first background `C` concrete pencil | exact two-wall local construction | superseded concrete formulas | consistent raw/eigenmode quadratic-frame custody | status, canon, derivation, roadmap, papers | owner artifact/registry, this file, current surfaces |
+| K113 concrete transport | exact `G dphi`, alpha-one zero locus | superseded; replace by `H dpsi` | corrected action-owned pencil | same | K113 artifact/registry, current surfaces |
+| K114 normalization locus | invariant genuine coefficient condition | superseded in full | corrected free/interaction split | same | K114 artifact/registry, current surfaces |
+| K115 concrete fingerprint | complete two-wall local adapter target | superseded concrete target; abstract ODE survives | corrected K113 connection | same | K115 artifact/registry, current surfaces |
 
 **SR-1C mixed-order operator admission 2026-08-14 (primitive interface
 corrected; coefficient bank still type-missing).** The prior uniform “field
@@ -2304,9 +2330,11 @@ ledger v0.17 stays `82/82`, `33/19/24/6`, with residue
 `84 + >=19 functions + 9 forks`; P1/P2/P3 remain unused. See
 `explorations/conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md`.
 
-**Predecessor construction update 2026-08-05.**
+**Historical predecessor construction update 2026-08-05 — concrete formulas
+superseded by K116.**
 The first action-owned cubic now supplies an exact nontrivial field-mixing
-answer at fixed scalar background. Its two-field TT Hessian has a unique
+answer at fixed scalar background in the historical mixed-frame calculation.
+Its two-field TT Hessian was reported to have a unique
 positive spectral fundamental symmetry on the real component connected to
 the free point, and the four first-order correction coefficients are fixed by
 a rank-four system. The discriminant gives exact Jordan, complex-spectrum,
@@ -2317,6 +2345,8 @@ action, a physical Fock-space metric or a common BV/Green domain.
 `SOURCE-SILENT`; ledger v0.16 stays `82/82`, `33/19/24/6`, with residue
 `84 + >=19 functions + 9 forks`; P1/P2/P3 remain unused. See
 `explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md`.
+Do not reuse its discriminant, wall or `alpha=1` formulas; K116 gives the
+consistent replacement while preserving the stated physical ceilings.
 
 **Earlier predecessor construction update 2026-08-05.**
 The selected branch retains its positive finite TT spectral majorant at

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact K114 TT alpha normalization-invariant owner gate."""
+"""Historical mixed-frame K114 certificate; result superseded in full by K116."""
 
 from __future__ import annotations
 
@@ -169,11 +169,12 @@ current_text = CURRENT.read_text(encoding="utf-8")
 next_text = NEXT.read_text(encoding="utf-8-sig")
 context_text = CONTEXT.read_text(encoding="utf-8")
 k113_result = (ROOT / "explorations/conditional-build/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate-2026-08-15.md").read_text(encoding="utf-8")
-check("roadmap", "CURRENT records K114 and the invariant commutator", "K114" in current_text and "commut" in current_text)
-check("roadmap", "NEXT closes normalization and retains the generic Jacobian audit",
-      "K114" in next_text and "normalization" in next_text and "Jacobian" in next_text)
-check("roadmap", "context records the alpha orbit classification",
-      "K114" in context_text and "2-alpha" in context_text)
+check("roadmap", "CURRENT records K114 as superseded in full",
+      "K114" in current_text and "superseded in full" in current_text.lower())
+check("roadmap", "NEXT retracts the normalization result",
+      "K114" in next_text and "normalization result" in next_text and "superseded" in next_text.lower())
+check("roadmap", "context blocks reuse of the alpha orbit conclusion",
+      "K114" in context_text and "superseded in full" in context_text.lower())
 check("successor", "K113 records the K114 successor closure", "Successor closure (K114)" in k113_result)
 
 

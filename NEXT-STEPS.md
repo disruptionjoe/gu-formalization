@@ -7,7 +7,27 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
-> **2026-08-15 K115 THE GENERIC MOVING-TT JACOBIAN CLASS IS COMPLETE, AND THE
+> **2026-08-15 K116 CORRECTS THE TT TRANSPORT TARGET BEFORE THE NEXT OWNER
+> SWING.** K110--K115 combined the raw `(h,v)` kinetic/free-mass matrices with
+> the eigenmode `(q0,qm)` interaction Hessian. In one consistent frame,
+> `Delta=b(alpha_II^2 b+4u)` and
+> `A_C=H du/(alpha_II^2 b+4u)`,
+> `H=[[1,0],[-alpha_II,-1]]`. There is one gap wall and the connection is
+> nonzero at `alpha_II=1`; `[L0,L1]=bH` has rank two for every `alpha_II`.
+> **Treat K113's concrete `G,phi`, K114's normalization result, and K115's
+> concrete fingerprint/two-wall packet as superseded.** The abstract
+> connection, variational-completion, boundary-support and local-frame ODE
+> results survive after corrected reinstantiation. Next derive the literal
+> moving-background TT Hessian in one source/action frame, including all
+> derivative terms, and compare its induced Jacobian to the corrected
+> `H dpsi` transport. The 20-lens vote is `FRAME 9 / SALVAGE 5 / ACTION 5 /
+> PARK 1`; retain Variancer's reverse scaffold from the corrected
+> superposition hypothesis. K117 derives the literal Hessian, K118 performs
+> the coefficientwise owner match, K119 branches to stationarity/domain or a
+> minimal missing-term classification, and K120 defers attachment until an
+> owner survives. Exact probe `57/57`.
+
+> **SUPERSEDED IN CONCRETE FORM BY K116 — 2026-08-15 K115 THE GENERIC MOVING-TT JACOBIAN CLASS IS COMPLETE, AND THE
 > CURRENT SERIALIZED OWNER CENSUS IS EMPTY.** On one gapped component, every
 > invertible moving frame inducing K113 is, up to a constant frame,
 > `F=F0 exp[(phi-phi0)G]`; parallel transport is the inverse moving factor.
@@ -24,7 +44,7 @@ updated_at: "2026-08-15"
 > attachment, a selected closed positive domain and physical cohomology remain
 > separate open gates. Exact probe `33/33`.
 
-> **2026-08-15 K114 `alpha_II=1` IS A GENUINE ALIGNMENT CONDITION, NOT A
+> **SUPERSEDED IN FULL BY K116 — 2026-08-15 K114 `alpha_II=1` IS A GENUINE ALIGNMENT CONDITION, NOT A
 > FIELD-NORMALIZATION TRICK.** For the TT pencil, the free and interaction
 > dynamics obey `[L_0,L_1]=b(alpha_II-1)G`. Every invertible field change
 > conjugates this commutator, so it cannot turn a noncommuting pencil into the
@@ -40,7 +60,7 @@ updated_at: "2026-08-15"
 > Boundary/cohomological `2D`-to-`98D` attachment and a selected closed domain
 > remain separate open jobs.
 
-> **2026-08-15 K113 THE MOVING TT OWNER TEST IS ONE EXACT JACOBIAN, AND
+> **SUPERSEDED IN CONCRETE FORM BY K116 — 2026-08-15 K113 THE MOVING TT OWNER TEST IS ONE EXACT JACOBIAN, AND
 > BOUNDARY OWNERSHIP IS NOT BOUNDARY ATTACHMENT.** K112's connection reduces
 > to `A_C=G dphi`, with fixed `K`-skew involution
 > `G=[[-1,0],[alpha_II,1]]` and

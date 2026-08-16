@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Exact K110 TT spectral-C / Green-domain composition and RSAP carrier gate."""
+"""Historical K110 certificate; concrete pencil superseded by K116.
+
+The abstract C/Green composition survives after corrected reinstantiation.
+"""
 
 from __future__ import annotations
 

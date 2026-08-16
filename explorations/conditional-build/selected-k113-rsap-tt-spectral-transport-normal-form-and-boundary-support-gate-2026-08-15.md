@@ -1,6 +1,6 @@
 ---
 title: "Selected-K113 RSAP TT spectral-transport normal form and boundary-support gate"
-status: active_research
+status: superseded_in_part_by_k116
 doc_type: exact_one_generator_connection_rapidity_zero_transport_locus_boundary_support_and_action_adapter_gate
 created: "2026-08-15"
 registry: lab/process/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate.json
@@ -12,6 +12,13 @@ canon_verdict_change: none
 ---
 
 # Selected-K113 RSAP TT spectral-transport normal form and boundary-support gate
+
+> **K116 FRAME-CONSISTENCY CORRECTION (2026-08-15):** the one-generator
+> reduction and boundary-only support exclusion survive, but the concrete
+> `G,phi`, two-wall packet and `alpha=1` zero-transport locus are superseded.
+> The consistent result is `A_C=H dpsi`,
+> `H=[[1,0],[-alpha,-1]]`, `psi=(1/4)log(alpha^2 b+4u)`, and it is nonzero at
+> `alpha=1` when `du` is nonzero.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This is a source-native
 > Krein, observed-defect and RSAP/BFV action-owner question. Ordinary
