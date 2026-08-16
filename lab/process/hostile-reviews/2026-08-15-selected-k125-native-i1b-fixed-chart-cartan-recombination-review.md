@@ -52,4 +52,14 @@ K126 evaluates the isolated K77 `d(D2B_LC)` cell and finds `-24` at nonzero
 radial momentum, but an independent fixed-coordinate expansion finds omitted
 natural transport `+24`; the complete witness is zero. It then obtains the
 exact common-transverse polynomial `-6(p^2+q^2+3r^2)<DW>`, with K124 as its
-back-to-back specialization. Curved lower order now routes to K127.
+back-to-back specialization. K127 subsequently evaluates the curved
+one-radial response, while K128 owns the remaining closure questions.
+
+## K127 successor refinement
+
+The generic symmetric three-entry lower block was only a placeholder. K127
+constructs local `T=0` Ricci-flat stationary germs and finds the aligned
+one-radial TT response compression `24 K_perp I_2`, but no stationary
+selection of `K_perp`. This is not the pure TT Hessian at `T=0`. Its
+generic Weyl adverse control leaks off TT despite a zero compressed block.
+K125's covariance theorem survives; closed-pencil and domain claims do not.

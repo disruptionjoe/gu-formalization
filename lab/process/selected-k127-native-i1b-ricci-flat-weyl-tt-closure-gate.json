@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate",
+  "created": "2026-08-16",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "target_claim": "K126_NEXT_GATE__SELECT_STATIONARY_CURVED_BACKGROUND_JET_AND_COMPUTE_SAME_I1B_LOWER_ORDER_TT_ENDOMORPHISM_WITH_CARTAN_DOMAIN",
+  "target_verdict": "LOCAL_RICCI_FLAT_T0_STATIONARY_GERM_FAMILY_EXACT__ALIGNED_ONE_RADIAL_TT_RESPONSE_24_KPERP_I2__NOT_PURE_TT_HESSIAN_AT_T0__KPERP_UNSELECTED__GENERIC_WEYL_LEAKS_OFF_TT__GLOBAL_BACKGROUND_DOMAIN_BFV_OPEN_K128",
+  "background_family": {
+    "native_graph": "T=0__B=SPIN_LEVI_CIVITA_OF_HORIZONTAL_METRIC",
+    "curvature": "RICCI_FLAT_WITH_ARBITRARY_WEYL_TWOJET",
+    "stationarity": "EXACT_LOCAL_BULK_FOR_COMPACT_SUPPORT_OR_FIXED_BOUNDARY",
+    "k77_translation_response": "ZERO_AS_FULL_CLIFFORD_VALUED_OBJECT",
+    "global_source_background": "NOT_SELECTED"
+  },
+  "metric_jet_realization": {
+    "normal_coordinate_twojet": "g_mn,ab=-(R_manb+R_mbna)/3",
+    "riemann_symmetries": "EXACT",
+    "first_bianchi": "EXACT",
+    "ricci": 0,
+    "scalar_curvature": 0
+  },
+  "aligned_one_radial_tt_response": {
+    "K_perp": "R_1212",
+    "riemann_action": "-K_PERP*I2_ON_PLUS_CROSS",
+    "operator": "24*K_PERP*I2",
+    "radial_response_pencil": "(-12*q^2+24*K_PERP)*I2",
+    "pure_TT_hessian_at_T0": "NOT_IDENTIFIED_WITH_RADIAL_RESPONSE",
+    "cross_polarization": 0,
+    "K_perp_selected": false
+  },
+  "pure_TT_hessian_at_T0_selected": false,
+  "generic_weyl_tt_invariant": false,
+  "leakage_control": {
+    "electric_weyl": "E_13=E_31=1",
+    "plus_output": "-(dx1_ODOT_dx3)",
+    "cross_output": "-(dx2_ODOT_dx3)",
+    "compressed_tt_block": 0,
+    "full_response_nonzero": true
+  },
+  "cartan_green": {
+    "local_current": "-12*(<H1,nabla H2>_DW-<nabla H1,H2>_DW)",
+    "lower_order_contribution": "ZERO_FOR_SYMMETRIC_POTENTIAL",
+    "representative_grade": "LOCAL_FIXED_BOUNDARY"
+  },
+  "global_domain_selected": false,
+  "bfv_charge_selected": false,
+  "positive_physical_cohomology_selected": false,
+  "superposition_law_selected": false,
+  "unique_full_pencil_selected": false,
+  "next_gate": "K128_TEST_SOURCE_GLOBAL_LEGALITY_AND_METRIC_CONSTRAINT_CLOSURE_OF_RICCI_FLAT_WEYL_FAMILY",
+  "canon_verdict_change": "none"
+}

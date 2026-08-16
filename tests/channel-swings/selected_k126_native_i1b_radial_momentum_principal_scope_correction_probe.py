@@ -471,7 +471,7 @@ check("artifact", "artifact corrects K124 to homogeneous radial momentum", "homo
 check("registry", "registry records partial minus 24 and complete zero", registry["radial_momentum_witness"]["partial_d_D2B_LC"] == -24 and registry["radial_momentum_witness"]["complete_transported_action"] == 0)
 check("registry", "registry preserves curved lower-order and BFV fences", registry["curved_lower_order_complete"] is False and registry["bfv_charge_selected"] is False)
 check("repo", "current state advances through K126", "K126" in current and "transport" in current)
-check("repo", "roadmap routes K127 through background and representative selection", "K127" in roadmap[:8000])
+check("repo", "roadmap records K127 curved refinement and routes K128", "K127" in roadmap[:8000] and "K128" in roadmap[:8000])
 check("repo", "context records the K124 scope correction", "homogeneous-radial" in context[:7000])
 
 print("K124_SCOPE=HOMOGENEOUS_RADIAL__BACK_TO_BACK_TT")

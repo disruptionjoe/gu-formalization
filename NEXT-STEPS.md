@@ -2,10 +2,24 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-15"
+updated_at: "2026-08-16"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-16 K127 CONSTRUCTS LOCAL RICCI-FLAT CURVED `I1B` GERMS BUT
+> FINDS THAT THE TWO-FIELD TT PENCIL IS NOT GENERICALLY CLOSED.** On the native
+> Levi-Civita graph, `T=0` plus any Ricci-flat horizontal metric two-jet has
+> zero full selected K77 translation response and is an exact local bulk
+> stationary germ for compact-support or fixed-boundary variations. On a
+> Weyl-aligned common-transverse family the one-radial `C_t_h_h` lower-response
+> compression is `24 K_perp I_2`, so K125's formal three-entry block collapses to one
+> curvature scalar—but stationarity leaves `K_perp=R_1212` arbitrary. A
+> second exact Ricci-flat fixture has zero two-by-two compression while sending
+> plus/cross into `13/23` metric components. This is not the pure TT Hessian at
+> the `T=0` germ. **K128 must identify a quadratic fluctuation owner and test
+> source-global legality and complete metric constraint/gauge closure before
+> a unique pencil, spectrum, domain, BFV cohomology or superposition claim.**
 
 > **2026-08-15 K126 COMPLETES THE COMMON-TRANSVERSE THREE-MOMENTUM
 > PRINCIPAL SYMBOL AND FIRES A PARTIAL-FRAME TRAP.** K124's radial leg was
@@ -19,9 +33,8 @@ updated_at: "2026-08-15"
 > The exact common-transverse result is
 > `C_t_h_h=-6(p^2+q^2+3r^2)<H1,H2>_DW`, with crossed polarizations zero.
 > K124's `-12q^2<DW>` is its `r=0,q=-p` specialization, and the selected
-> `C_t_h_v` packet remains `120/120` zero. **K127 must now select a stationary curved
-> background jet and Cartan representative/domain convention before
-> evaluating the lower-order endomorphism.**
+> `C_t_h_v` packet remains `120/120` zero. K127 subsequently constructs the
+> local Ricci-flat family and identifies the TT-closure obstruction above.
 
 > **2026-08-15 K125 CLOSES THE FIXED-CHART COVARIANCE AND CARTAN-CLASS
 > SEAM, NOT THE CURVED LOWER-ORDER COEFFICIENTS.** The explicit
@@ -35,10 +48,9 @@ updated_at: "2026-08-15"
 > that covariance theorem and supplies the full common-transverse extension;
 > K124's `C_t_h_h^prin=-12q^2<DW>` is its homogeneous-radial, back-to-back
 > specialization, while `C_t_h_v^prin=0` remains exact on the selected packet.
-> **K127 must now evaluate the same-`I1B` curved background-jet endomorphism
-> `E=[[a,c],[c,b]]` coefficientwise.** Its three entries preserve the
-> principal symbol but generically change the determinant and spectrum, so no
-> unique full pencil or spectral owner exists before that evaluation.
+> K127 subsequently shows that the Weyl-aligned stationary compression is
+> one-radial response `24 K_perp I_2`, while generic Ricci-flat Weyl curvature leaks off the TT
+> plane. Use the K127 block above rather than the three-entry placeholder.
 
 > **2026-08-15 K124 CONSTRUCTS THE FULL-K77-CARRIER PRINCIPAL TT SLICE OF
 > `O_K123`.** Direct corner polarization of the printed source-native `I1B`
@@ -70,8 +82,8 @@ updated_at: "2026-08-15"
 > **K124 subsequently constructs the principal TT slice of that evaluator and
 > fixes `C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0`; use the K124 block
 > above.** K125 closes generic covariance, K126 completes the common-transverse
-> three-momentum principal polynomial, and curved lower-order completion now
-> routes to K127.
+> three-momentum principal polynomial, and K127 constructs the local curved
+> family while routing full closure to K128.
 > Do not import the old `14/3`, fit the Ward quotient, or use
 > `I_sc/I2B/I_II`. Exact probe records `40/40`.
 
@@ -94,7 +106,8 @@ updated_at: "2026-08-15"
 > K124 closes the principal TT native sums; use the K124 block above and
 > route K125 through generic covariance, K126 through three-momentum
 > completion, and
-> K127 through curved lower-order/Cartan representative selection before any
+> K127 through local curved response, and K128 through source-global and
+> constraint/domain closure before any
 > unique pencil or spectral owner is tested.**
 > Keep `lambda` outside the native packet and do not promote preboundary
 > columns to physical charges before Green/BFV descent. Exact probe records

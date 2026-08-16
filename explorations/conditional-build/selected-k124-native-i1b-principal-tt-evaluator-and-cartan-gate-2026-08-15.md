@@ -225,9 +225,10 @@ R5 complete at K124: A=-12 q^2 N_DW and B=0 on that slice
 R6 K125: generic fixed-chart curvature and coefficient covariance
 R7 K126: isolated d(D2LC) is live but cancels in the complete transported witness
 R8 K126: common-transverse polynomial -6(p2+q2+3r2)<DW>
-R9 next at K127: select background and representative/domain convention
-R10 then: curved lower-order operator and unique-pencil test
-R11 later: spectral/domain/BFV and 2D-to-98D attachment
+R9 K127: local Ricci-flat stationary family and aligned one-scalar one-radial response, not the pure TT Hessian at `T=0`
+R10 K127: generic Weyl leakage blocks automatic TT closure
+R11 K128: source-global background and metric constraint/domain closure
+R12 later: spectral/BFV and 2D-to-98D attachment
 ```
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,
@@ -246,8 +247,10 @@ nonzero radial momentum, but the selected `-24` witness is cancelled by
 natural transport `+24`; K125's covariance theorem is vindicated. K124's
 coefficient is the `r=0,q=-p` specialization of the exact common-transverse
 polynomial `-6(p^2+q^2+3r^2)<DW>`.
-K127 now owns the curved lower-order background-jet and representative/domain
-selection before any unique full pencil or spectrum is claimed.
+K127 later constructs the local Ricci-flat curved family, reduces the aligned
+compression to `24 K_perp I_2`, and exposes generic off-TT leakage. K128 owns
+source-global background and metric constraint/domain closure before any
+unique full pencil or spectrum is claimed.
 
 Reproduce:
 

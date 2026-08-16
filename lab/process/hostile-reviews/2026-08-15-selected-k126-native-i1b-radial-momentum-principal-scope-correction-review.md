@@ -48,3 +48,12 @@ shortcut. Accept K126's common-transverse three-momentum polynomial and exact
 curved lower-order operator, unique full pencil, BFV charge or global domain
 until K127 selects and composes the missing background and representative
 data.
+
+## K127 successor refinement
+
+K127 supplies an exact local fixed-boundary Ricci-flat background family, not
+a unique background. The aligned one-radial lower TT response compression is
+`24 K_perp I_2`; generic Weyl curvature leaks outside plus/cross. This is not
+the pure TT Hessian at `T=0` and leaves
+the K126 principal polynomial intact while routing source-global and full
+metric constraint/domain closure to K128.

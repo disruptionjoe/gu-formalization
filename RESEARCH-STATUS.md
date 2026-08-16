@@ -2,11 +2,35 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-15"
+updated_at: "2026-08-16"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**K127 native I1B Ricci-flat Weyl stationarity and TT-closure gate 2026-08-16
+(exact local curved stationary family, one-parameter aligned one-radial response and
+generic off-TT leakage; global closure open).** At `T=0`, every Ricci-flat
+horizontal metric two-jet has zero full selected K77 Shiab response and gives
+a local fixed-boundary stationary `I1B` germ. For an aligned Weyl tensor the
+K124-normalized one-radial `C_t_h_h` lower-response compression is
+`24 K_perp I_2`, reducing K125's
+formal three entries to one scalar that stationarity does not select. A second
+exact Ricci-flat fixture sends plus/cross outside the TT plane while its
+two-by-two compression vanishes. The local Green current is unchanged by the
+symmetric algebraic potential. K128 retains source-global legality, full
+metric constraint/gauge closure, identification of a quadratic fluctuation
+owner, global domain, BFV and positive physical
+cohomology/superposition. See
+`explorations/conditional-build/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| stationary curved same-`I1B` germ | absent | exact local `T=0` Ricci-flat family at fixed-boundary grade | source-global legality | K105/K126/current/context | K127 packet |
+| curved one-radial TT response | generic symmetric three-entry placeholder | aligned compression `24 K_perp I_2`; not the pure TT Hessian at `T=0` | selection of `K_perp` and quadratic fluctuation owner | K125/K126 | K127 artifact/probe |
+| two-field TT closure | assumed by compression | false generically; exact off-TT Weyl leakage | metric constraint/gauge reduction | K125 | K127 adverse control |
+| Cartan/Green | principal representative only | unchanged by symmetric algebraic potential | global boundary/domain | K124--K126 | K127 probe |
+| superposition route | reverse conditional | still downstream of positive physical cohomology | K128/global BV-BFV | scaffold | K127 reverse scaffold |
 
 **K126 native I1B three-momentum principal completion 2026-08-15
 (exact transport cancellation and common-transverse polynomial; curved
@@ -17,8 +41,9 @@ Cartan covector `(-12,0,0,-12)`, but independent fixed-coordinate curvature
 expansion supplies omitted natural transport `+24`, so the complete witness
 is zero. The exact common-transverse polynomial is
 `C_t_h_h=-6(p^2+q^2+3r^2)<H1,H2>_DW`, with crossed polarizations zero. The
-selected mixed TT packet remains `120/120` zero. K127 retains background
-selection, curved lower order, representative/domain choice and BFV. See
+selected mixed TT packet remains `120/120` zero. K127 subsequently constructs
+the local Ricci-flat family and exposes generic off-TT leakage; K128 owns
+source-global and constraint/domain closure. See
 `explorations/conditional-build/selected-k126-native-i1b-radial-momentum-principal-scope-correction-2026-08-15.md`.
 
 | claim | prior status | current status | weakest dependency | stale wording searched | files updated |
@@ -27,7 +52,7 @@ selection, curved lower order, representative/domain choice and BFV. See
 | isolated `d(D2B_LC)` action cell | generic covariance only | exact `-24` adverse control, cancelled by transport `+24` | complete natural packet | K125 | K126 probe |
 | common-transverse three-momentum symbol | back-to-back slice only | exact `-6(p^2+q^2+3r^2)<DW>` | unrestricted TT family | K124/K125 | K126 artifact/probe |
 | principal Cartan | constant-radial Green representative | partial covector retained only as adverse control | representative/domain selection | K124/K125 | K126 artifact |
-| curved lower order | three formal entries | open after principal correction | selected stationary background jet | K126 route | K127 |
+| curved lower order | three formal entries | aligned one-parameter compression; generic TT leakage | source-global background plus constraint closure | K127 | K128 |
 
 **K125 native I1B fixed-chart Cartan recombination 2026-08-15 (exact local
 covariance/class closure; curved lower-order packet remains open).** The
@@ -38,9 +63,9 @@ cyclicity. The principal Green current is frame-covariant. Cartan
 improvements change the presymplectic representative by a spacetime-exact
 term but are not automatically boundary trivial. K126 subsequently vindicates
 the covariance theorem and extends K124 to the common-transverse three-momentum
-polynomial. A three-entry symmetric curved TT endomorphism remains uninstantiated and
-changes the full characteristic polynomial, so K127 must
-evaluate it before unique-pencil or spectral work. No BFV/domain/attachment
+polynomial. K127 later reduces the aligned stationary compression to one
+unselected curvature scalar and proves generic Weyl leakage off TT. K128 must
+close the full metric system before unique-pencil or spectral work. No BFV/domain/attachment
 or physics claim follows. See
 `explorations/conditional-build/selected-k125-native-i1b-fixed-chart-cartan-recombination-2026-08-15.md`.
 
@@ -49,7 +74,7 @@ or physics claim follows. See
 | fixed-chart K124 equivalence | unverified coordinate concern | exact through mixed second frame order | none at local covariance grade | K124/current/context | K125 surfaces |
 | noncyclic coefficient motion | co-moving packet only | exact dual/conjugation transport without trace cyclicity | actual curved background bank | same | K125 artifact/probe |
 | Cartan/Green | principal representative | frame-covariant class; exact improvements retained | boundary conditions/global domain | same | K125 review |
-| full TT pencil | slice principal block fixed | three lower-order symmetric entries open | K127 same-action background jet | current/roadmap | K127 route |
+| full TT pencil | slice principal block fixed | aligned scalar compression, generic off-TT leakage | K128 source-global/constraint closure | current/roadmap | K127/K128 route |
 
 **K124 native I1B principal TT evaluator and Cartan gate 2026-08-15 (full
 K77 carrier, exact homogeneous-radial/back-to-back principal slice and Green representative; no canon/public-
@@ -61,7 +86,8 @@ causal/polarization/normal census. The same evaluator reproduces `8736` and
 `-56/3`. The constant-radial principal Green current is exact. K126 later
 finds that the isolated live exterior `D2B_LC` term cancels against natural
 transport and supplies the full common-transverse extension. Curved
-lower-order tensors, representative/domain selection and global descent remain K127; no unique full
+lower-order compression is refined by K127; source-global constraint/domain
+selection and global descent remain K128. No unique full
 pencil or spectrum follows. See
 `explorations/conditional-build/selected-k124-native-i1b-principal-tt-evaluator-and-cartan-gate-2026-08-15.md`.
 
@@ -69,7 +95,7 @@ pencil or spectrum follows. See
 | --- | --- | --- | --- | --- | --- |
 | `C_t_h_h` | rank-two evidence deficit | slice polynomial `-12q^2<DW>` | general radial-momentum and curved completion | K123/current/context | K124/K126 surfaces |
 | `C_t_h_v` | rank-two evidence deficit | exact principal zero on selected 120-entry TT census | unrestricted/lower-order packet | same | K124 artifact/probe |
-| `O_K123` | six-part contract | homogeneous-radial/back-to-back principal slice executable | general radial momentum and curved background | moving-gimmel/second-jet | K126/K127 route |
+| `O_K123` | six-part contract | principal polynomial plus local curved-family compression executable | source-global constraint/domain closure | moving-gimmel/second-jet | K126--K128 route |
 | Cartan/Green | typed columns only | exact principal Green representative | global domain and BFV descent | K122/K123 | K124 review |
 
 **K123 native I1B h-containing cubic identifiability and evaluator gate
@@ -83,8 +109,9 @@ coefficients. The three K122 primitive source slots are coordinate-split
 pieces: linear and nonlinear connection-coordinate changes redistribute them
 while leaving the two native sums invariant. K124 subsequently closes the
 homogeneous-radial/back-to-back principal TT slice; K126 supplies the
-common-transverse three-momentum completion. K127 retains curved lower-order
-and representative completion before any pencil or spectral work.
+common-transverse three-momentum completion. K127 constructs the local
+Ricci-flat curved family; K128 retains global constraint/domain completion
+before any pencil or spectral work.
 See
 `explorations/conditional-build/selected-k123-native-i1b-h-containing-cubic-identifiability-and-evaluator-gate-2026-08-15.md`.
 
@@ -111,7 +138,7 @@ at most two in `T`, `D3_ttt=8736` and
 `C_t_v_v=-(56/3)<V,*V>` are the full fixed-metric values. K123 later proves
 the primitive pieces chart-split, K124 closes a homogeneous-radial slice, and
 K126 completes the common-transverse three-momentum polynomial; the curved
-lower-order packet remains K127. No complete nonlinear cubic,
+source-global lower-order/constraint packet remains K128. No complete nonlinear cubic,
 unique pencil, spectral owner or physical charge follows. See
 `explorations/conditional-build/selected-k122-native-i1b-cubic-and-preboundary-owner-decomposition-2026-08-15.md`.
 
@@ -120,7 +147,7 @@ unique pencil, spectral owner or physical charge follows. See
 | native cubic owner shape | broad owner list | exact three-slot chain-rule decomposition | none at structural local grade | current, roadmap, context, K121 | K122 surfaces |
 | fixed-metric cubic | intrinsic values treated as possible sub-summands | full `I1B` `D3_ttt=8736` and `C_t_v_v=-(56/3)<V,*V>` | none at fixed-metric bulk grade | owner artifacts | K122 artifact/probe |
 | old LC--LC representative | treated as metric-induced native interaction | fixed-`varpi` partial representative; not native `C_t_h_h` | exact native map | old owner artifact/registry | K122 correction surfaces |
-| moving `h` coefficients | requested after K121 | homogeneous-radial slice closed at K124; common-transverse three-momentum polynomial completed K126 | K127 | current, roadmap, context | K122--K126 reverse scaffold |
+| moving `h` coefficients | requested after K121 | principal polynomial completed K126; local Ricci-flat compression refined K127 | K128 | current, roadmap, context | K122--K127 reverse scaffold |
 | native preboundary | owner location only | exact three-column pullback | full action evaluation plus Green/BFV descent | same | K122 artifact/registry |
 
 **K121 scalar role, action-germ and conditional-bridge gate 2026-08-15

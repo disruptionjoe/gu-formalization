@@ -255,7 +255,7 @@ check("artifact", "artifact states A=-12 q2 DeWitt and B=0", "-12 q^2" in artifa
 check("registry", "registry scopes K124 to homogeneous-radial back-to-back TT", registry["completion_grade"] == "FULL_14D_CARRIER__HOMOGENEOUS_RADIAL_BACK_TO_BACK_PRINCIPAL_TT_BULK_AND_GREEN_ONLY")
 check("registry", "registry carries the K126 three-momentum completion", registry["full_O_K123_complete"] is False and "COMMON_TRANSVERSE" in registry["k126_scope_correction"] and "CANCELLED" in registry["k126_scope_correction"])
 check("repo", "current state advances through K124", "K124" in current and "-12 q^2" in current)
-check("repo", "roadmap records K126 and routes K127", "K126" in roadmap[:8000] and "K127" in roadmap[:8000])
+check("repo", "roadmap records K127 and routes K128", "K127" in roadmap[:8000] and "K128" in roadmap[:8000])
 check("repo", "context records the 120-evaluation mixed zero", "120" in context[:6000] and "C_t_h_v" in context[:6000])
 check("scope", "no unique full pencil spectrum domain attachment or physics is promoted", registry["unique_full_pencil_selected"] is False)
 

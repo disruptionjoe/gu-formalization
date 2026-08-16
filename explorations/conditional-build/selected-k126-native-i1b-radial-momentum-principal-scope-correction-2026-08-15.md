@@ -5,9 +5,9 @@ doc_type: exact_fixed_chart_principal_recombination_scope_correction_and_cartan_
 created: "2026-08-15"
 registry: lab/process/selected-k126-native-i1b-radial-momentum-principal-scope-correction.json
 probe: tests/channel-swings/selected_k126_native_i1b_radial_momentum_principal_scope_correction_probe.py
-grade: "K126 COMPLETES THE COMMON-TRANSVERSE THREE-MOMENTUM PRINCIPAL TT POLYNOMIAL AND FIRES A PLANTED PARTIAL-FRAME FAILURE. K124'S -12 Q2 DEWITT RESULT IS THE HOMOGENEOUS-RADIAL BACK-TO-BACK SPECIALIZATION. AT NONZERO NULL RADIAL MOMENTUM THE ISOLATED K77 D(D2B_LC) CELL IS -24 WITH PARTIAL CARTAN COVECTOR (-12,0,0,-12), BUT AN INDEPENDENT FIXED-COORDINATE CURVATURE EXPANSION SHOWS THE OMITTED COFRAME/PAIRING/TAUTOLOGICAL TRANSPORT IS +24, SO THE COMPLETE WITNESS IS ZERO. ON THE COMMON-TRANSVERSE PLUS/CROSS FAMILY THE FULL RESULT IS C_THH=-6(P2+Q2+3R2)<H1,H2>_DW, R=-(P+Q); CROSS POLARIZATIONS VANISH. C_THV REMAINS ZERO ON THE SELECTED 120-ENTRY TT PACKET. CURVED LOWER ORDER, GLOBAL DOMAIN AND BFV REMAIN OPEN K127."
+grade: "K126 COMPLETES THE COMMON-TRANSVERSE THREE-MOMENTUM PRINCIPAL TT POLYNOMIAL AND FIRES A PLANTED PARTIAL-FRAME FAILURE. K124'S -12 Q2 DEWITT RESULT IS THE HOMOGENEOUS-RADIAL BACK-TO-BACK SPECIALIZATION. AT NONZERO NULL RADIAL MOMENTUM THE ISOLATED K77 D(D2B_LC) CELL IS -24 WITH PARTIAL CARTAN COVECTOR (-12,0,0,-12), BUT AN INDEPENDENT FIXED-COORDINATE CURVATURE EXPANSION SHOWS THE OMITTED COFRAME/PAIRING/TAUTOLOGICAL TRANSPORT IS +24, SO THE COMPLETE WITNESS IS ZERO. ON THE COMMON-TRANSVERSE PLUS/CROSS FAMILY THE FULL RESULT IS C_THH=-6(P2+Q2+3R2)<H1,H2>_DW, R=-(P+Q); CROSS POLARIZATIONS VANISH. C_THV REMAINS ZERO ON THE SELECTED 120-ENTRY TT PACKET. K127 LATER CONSTRUCTS THE LOCAL RICCI-FLAT CURVED FAMILY AND EXPOSES GENERIC OFF-TT LEAKAGE; GLOBAL DOMAIN AND BFV REMAIN OPEN K128."
 target_claim: K125_PRINCIPAL_RETENTION__AUDIT_ACTUAL_K77_D_D2BLC_AT_NONZERO_RADIAL_MOMENTUM
-target_verdict: COMMON_TRANSVERSE_THREE_MOMENTUM_PRINCIPAL_POLYNOMIAL_EXACT__PARTIAL_D_D2LC_MINUS24_CANCELLED_BY_TRANSPORT_PLUS24__K125_COVARIANCE_VINDICATED__CURVED_LOWER_ORDER_OPEN_K127
+target_verdict: COMMON_TRANSVERSE_THREE_MOMENTUM_PRINCIPAL_POLYNOMIAL_EXACT__PARTIAL_D_D2LC_MINUS24_CANCELLED_BY_TRANSPORT_PLUS24__K125_COVARIANCE_VINDICATED__K127_CURVED_FAMILY_REFINEMENT__GLOBAL_CLOSURE_OPEN_K128
 canon_verdict_change: none
 ---
 
@@ -144,26 +144,37 @@ jet and Cartan representative/domain convention are selected.
 | isolated `d(D2B_LC)` | generally live but not a complete fixed-chart action cell |
 | partial noncyclic Cartan | exact adverse-control covector; not full Cartan |
 | selected `C_t_h_v` | still zero on 120-entry TT packet |
-| curved lower-order operator | background-dependent and open |
+| curved one-radial lower response | K127: aligned compression `24 K_perp I_2`; generic Weyl leaks off TT; not the pure TT Hessian at `T=0` |
 | global Green/BFV/domain | open |
 
 ## Reverse scaffold
 
 ```text
-R0 target: complete native radial response of the I1B TT Hessian
+R0 target: complete native one-radial `C_t_h_h` response
 R1--R5: K122--K124 owner, evidence and homogeneous-radial principal slice
 R6 K125: generic fixed-chart curvature and noncyclic transport covariance
 R7 K126 adverse control: isolated d(D2LC)=-24 is cancelled by transport +24
 R8 K126 complete: common-transverse three-momentum polynomial (3)
 R9 K126: K125 covariance vindicated; partial Cartan not promoted
-R10 next at K127: select a stationary curved background jet and representative/domain convention
-R11 then: assemble curved lower-order operator and test a unique full pencil
-R12 later: common Green domain, BFV reduction and 2D-to-98D attachment
+R10 K127: local `T=0` Ricci-flat stationary germs and aligned one-radial `24 K_perp I_2`
+R11 K127 adverse control: generic stationary Weyl curvature leaks off TT
+R12 next at K128: source-global legality and full metric constraint/gauge closure
+R13 later: common Green domain, BFV reduction and 2D-to-98D attachment
 ```
 
 No ledger, canon, particle interpretation, phenomenology or GU truth-status
-claim changes. Joe input is not required for K127 unless no source/action
-background can be selected from existing evidence.
+claim changes.
+
+## K127 successor refinement — 2026-08-16
+
+K127 constructs a new local fixed-boundary stationary family rather than
+choosing an arbitrary background. At `T=0`, exact Ricci-flat Weyl metric jets
+have zero full K77 translation response. The aligned one-radial TT response
+compression is `24 K_perp I_2`, with `K_perp` unselected, while a generic exact Weyl fixture
+leaks plus/cross into off-TT metric components. Thus the curved calculation
+reduces the formal coefficient count but does not select a closed two-field
+pencil. This response is not the pure TT Hessian at `T=0`. Source-global,
+quadratic-owner and constraint/domain closure now route to K128.
 
 Reproduce:
 

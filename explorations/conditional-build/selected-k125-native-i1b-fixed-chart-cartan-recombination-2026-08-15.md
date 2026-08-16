@@ -5,9 +5,9 @@ doc_type: exact_fixed_chart_connection_curvature_coefficient_and_cartan_covarian
 created: "2026-08-15"
 registry: lab/process/selected-k125-native-i1b-fixed-chart-cartan-recombination.json
 probe: tests/channel-swings/selected_k125_native_i1b_fixed_chart_cartan_recombination_probe.py
-grade: "K125 CLOSES THE EXPLICIT FIXED-CHART COVARIANCE SEAM BEHIND K124. THE SYMMETRIC-FRAME SPIN-LEVI-CIVITA CONNECTION HAS A LIVE NONZERO MIXED SECOND METRIC JET; RESTORING dB TO B-WEDGE-B MAKES CURVATURE TRANSFORM EXACTLY; AND TRANSPORTING THE PAIRING AND NONCYCLIC SHIAB-LIKE COEFFICIENT TOGETHER REPRODUCES THE CO-MOVING SCALAR WITHOUT A CYCLIC-TRACE ASSUMPTION. K126 VINDICATES THIS COVARIANCE BY SHOWING THAT AN ISOLATED D(D2B_LC)=-24 CELL IS CANCELLED BY OMITTED NATURAL TRANSPORT +24, THEN COMPLETES THE COMMON-TRANSVERSE THREE-MOMENTUM POLYNOMIAL. THE PRINCIPAL GREEN CURRENT IS FRAME-COVARIANT AND CARTAN IMPROVEMENTS CHANGE THE PRESYMPLECTIC REPRESENTATIVE BY A SPACETIME-EXACT TERM. K127 MUST COMPUTE THE CURVED BACKGROUND-JET PACKET BEFORE A UNIQUE FULL PENCIL OR SPECTRUM IS CLAIMED."
+grade: "K125 CLOSES THE EXPLICIT FIXED-CHART COVARIANCE SEAM BEHIND K124. THE SYMMETRIC-FRAME SPIN-LEVI-CIVITA CONNECTION HAS A LIVE NONZERO MIXED SECOND METRIC JET; RESTORING dB TO B-WEDGE-B MAKES CURVATURE TRANSFORM EXACTLY; AND TRANSPORTING THE PAIRING AND NONCYCLIC SHIAB-LIKE COEFFICIENT TOGETHER REPRODUCES THE CO-MOVING SCALAR WITHOUT A CYCLIC-TRACE ASSUMPTION. K126 VINDICATES THIS COVARIANCE AND COMPLETES THE COMMON-TRANSVERSE THREE-MOMENTUM POLYNOMIAL. K127 THEN REDUCES THE ALIGNED CURVED ONE-RADIAL TT RESPONSE TO 24 K_PERP I2 AND EXHIBITS GENERIC OFF-TT WEYL LEAKAGE; IT DOES NOT IDENTIFY THAT RESPONSE WITH THE PURE TT HESSIAN AT T=0. THE PRINCIPAL GREEN CURRENT IS FRAME-COVARIANT AND CARTAN IMPROVEMENTS CHANGE THE PRESYMPLECTIC REPRESENTATIVE BY A SPACETIME-EXACT TERM. K128 MUST CLOSE SOURCE-GLOBAL BACKGROUND LEGALITY, A QUADRATIC FLUCTUATION OWNER AND THE FULL METRIC CONSTRAINT SYSTEM BEFORE A UNIQUE PENCIL OR SPECTRUM IS CLAIMED."
 target_claim: K124_NEXT_GATE__FIXED_CHART_D2LC_EXTERIOR_DERIVATIVE_NONCYCLIC_CARTAN_RECOMBINATION
-target_verdict: FIXED_CHART_COVARIANCE_EXACT__CARTAN_CLASS_EXACT__K126_VINDICATES_COVARIANCE_AND_COMPLETES_COMMON_TRANSVERSE_PRINCIPAL_SYMBOL__CURVED_LOWER_ORDER_PACKET_OPEN_K127
+target_verdict: FIXED_CHART_COVARIANCE_EXACT__CARTAN_CLASS_EXACT__K126_COMMON_TRANSVERSE_SYMBOL__K127_ALIGNED_ONE_SCALAR_COMPRESSION_AND_GENERIC_WEYL_LEAKAGE__GLOBAL_CLOSURE_OPEN_K128
 canon_verdict_change: none
 ---
 
@@ -61,8 +61,10 @@ E_curved=[[a,c],[c,b]].
 The three entries `(a,b,c)` are formal background-curvature/connection-jet data.
 They do not change the principal symbol or its Green current, but they do
 change the characteristic polynomial and spectrum. K124 and covariance do
-not determine them. After K126's principal-scope correction, K127 must evaluate the same-`I1B` curved background jet
-coefficientwise before any unique full pencil or spectral owner is claimed.
+not determine them at K125. K127 later replaces this generic placeholder with
+an aligned one-scalar compression plus an off-TT leakage obstruction. K128
+must close the full metric system before any unique pencil or spectral owner
+is claimed.
 
 ## Layer-0 packet
 
@@ -130,7 +132,7 @@ whether the exact local shift survives as edge data. No BFV charge follows.
 | K124 principal coefficients | K126: exact specialization of the common-transverse three-momentum polynomial |
 | principal Green current | frame-covariant |
 | Cartan representative ambiguity | spacetime-exact class identified |
-| curved lower-order TT endomorphism | three-entry symmetric packet open |
+| curved one-radial TT response | K127: aligned `24 K_perp I_2`; generic Weyl leaks off TT; not the pure TT Hessian at `T=0` |
 | unique full pencil, spectrum, global domain, BFV charge | not selected |
 
 ## Reverse scaffold
@@ -141,9 +143,10 @@ R5 K124: -12 q^2 DeWitt, mixed zero, principal Green current
 R6 K125: fixed-chart D2LC + exterior derivative + noncyclic transport exact
 R7 K125: Cartan representative class exact; BFV boundary value still open
 R8 K126: isolated `d(D2B_LC)=-24` cancelled by natural transport `+24`; complete three-momentum polynomial exact
-R9 K127: evaluate E_curved from a selected same-I1B background jet
-R10 then: unique full-pencil and spectral-owner test
-R11 later: common global domain, BFV reduction and 2D-to-98D attachment
+R9 K127: local Ricci-flat stationary family and aligned one-scalar compression
+R10 K127: generic Weyl leakage blocks automatic two-field closure
+R11 K128: source-global legality and full metric constraint/gauge closure
+R12 later: common global domain, BFV reduction and 2D-to-98D attachment
 ```
 
 ## K126 successor correction
@@ -157,7 +160,18 @@ has `d(D2B_LC)=-24`, `B^2=0`, and partial Cartan covector
 `(-12,0,0,-12)`. But the omitted coframe/pairing/tautological transport is
 `+24`, so the complete witness is zero. K125's covariance theorem is thereby
 vindicated, and K126 completes the common-transverse result as
-`-6(p^2+q^2+3r^2)<DW>`. Curved lower order now routes to K127.
+`-6(p^2+q^2+3r^2)<DW>`.
+
+## K127 successor refinement
+
+K127 replaces the generic three-entry lower-order placeholder with a sharper
+stationary-family result. On aligned `T=0` Ricci-flat Weyl germs the one-radial
+TT response compression is `24 K_perp I_2`, but `K_perp` is not selected. Generic
+Ricci-flat Weyl curvature sends the selected polarizations outside the TT
+plane, so even that compression is not automatically a closed response block.
+It is not the pure TT Hessian at `T=0`.
+The K125 covariance and Cartan-class theorems survive; K128 now owns
+source-global legality and constraint/domain closure.
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,
 phenomenology or GU truth-status claim changes. Joe input is not required.

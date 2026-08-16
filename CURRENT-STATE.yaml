@@ -1064,8 +1064,9 @@ current_result:
     that the primitive source-coordinate pieces are chart-split and that the
     resulting native-coefficient evidence deficit has rank two. This is the
     pre-K124 evidence boundary; the principal TT slice is resolved below,
-    while K127 retains the curved lower-order/representative completion after
-    K125 covariance and K126 principal-scope correction, before any
+    while K127 supplies the local Ricci-flat curved response and K128 retains
+    source-global constraint/domain completion after K125 covariance and K126
+    principal-scope correction, before any
     unique pencil or spectral/domain/attachment inference.
     K123 now proves that the current serialized bank cannot perform that
     numerical step. A planted same-action moving germ
@@ -1104,11 +1105,10 @@ current_result:
     spacetime-exact term, not necessarily by a boundary-trivial term. K126
     subsequently vindicates that covariance theorem by exposing and cancelling
     a planted isolated-cell error, while completing the flat-germ
-    common-transverse three-momentum polynomial. The same-I1B curved lower-order
-    two-polarization TT endomorphism still has three symmetric entries
-    E=[[a,c],[c,b]] uninstantiated by current background-jet evidence. K127
-    must evaluate those entries before a unique full pencil, spectrum, global
-    domain or BFV charge can be selected.
+    common-transverse three-momentum polynomial. K127 subsequently refines the
+    generic three-entry lower-order placeholder using a new local fixed-boundary
+    stationary family; the result below shows that a closed two-field block is
+    not automatic.
     K126 now performs the missing actual-action audit. K124's metric waves
     are back-to-back and its radial leg is homogeneous, so total metric
     momentum kills d(D2B_LC) on that slice and the -12 q^2 DeWitt result is
@@ -1121,9 +1121,24 @@ current_result:
     common-transverse TT family the exact completion is
     C_t_h_h=-6(p^2+q^2+3r^2)<H1,H2>_DW with crossed polarizations zero; it
     reduces to K124 when r=0 and q=-p. The selected C_t_h_v packet remains
-    zero in all 120 tests. Curved lower order, representative/domain selection
-    and BFV now route to K127.
+    zero in all 120 tests.
+    K127 now constructs exact local fixed-boundary same-I1B curved stationary
+    germs with T=0 and arbitrary Ricci-flat horizontal Weyl metric two-jet.
+    The full selected K77 Shiab translation response vanishes coefficientwise.
+    On the Weyl-aligned common-transverse family, the K124-normalized
+    one-radial C_t_h_h lower-response compression is 24 K_perp I_2, where
+    K_perp=R_1212; this is not the pure TT Hessian at T=0. Thus
+    K125's generic three-entry placeholder collapses to one unselected
+    curvature parameter. A second exact Ricci-flat fixture has zero compressed
+    TT block but sends plus and cross into 13 and 23 metric components, proving
+    that generic Weyl curvature does not preserve the selected two-field TT
+    plane. Symmetric lower-order terms leave the local Green current unchanged.
+    Source-global background legality, a quadratic fluctuation owner, full
+    metric constraint/gauge closure, global domain, BFV and positive
+    cohomology/superposition now route to K128.
   evidence:
+    - explorations/conditional-build/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate-2026-08-16.md
+    - lab/process/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate.json
     - explorations/conditional-build/selected-k126-native-i1b-radial-momentum-principal-scope-correction-2026-08-15.md
     - lab/process/selected-k126-native-i1b-radial-momentum-principal-scope-correction.json
     - explorations/conditional-build/selected-k125-native-i1b-fixed-chart-cartan-recombination-2026-08-15.md

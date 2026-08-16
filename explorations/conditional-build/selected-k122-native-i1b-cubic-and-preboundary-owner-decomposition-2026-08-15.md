@@ -274,8 +274,9 @@ constructs the homogeneous-radial/back-to-back full-carrier TT slice,
 obtaining `C_t_h_h^prin=-12q^2<DW>` and `C_t_h_v^prin=0` there. K126 later
 completes the common-transverse three-momentum polynomial and shows that its
 isolated live radial-momentum `d(D2B_LC)` cell cancels under full natural
-transport. Curved lower order
-and representative/domain selection now route to K127. Only a completed native evaluator may
+transport. K127 constructs the local Ricci-flat curved response and exposes
+off-TT leakage; source-global representative/domain selection now routes to
+K128. Only a completed native evaluator may
 reopen the pencil, spectral-owner, and common-domain gates.
 
 No ledger, datum, quotient, canon, public posture, particle interpretation,

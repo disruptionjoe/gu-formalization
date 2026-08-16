@@ -3,11 +3,24 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-15
+updated: 2026-08-16
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-15)
+# Agent context pack (updated 2026-08-16)
+
+> **Current K127 Ricci-flat Weyl stationarity and TT-closure gate:** on the
+> native Levi-Civita graph, `T=0` with any Ricci-flat horizontal metric two-jet
+> gives an exact local fixed-boundary `I1B` stationary germ; the full selected
+> K77 Shiab response vanishes. For a Weyl-aligned common-transverse plane the
+> one-radial `C_t_h_h` lower-response compression is `24 K_perp I_2`, but stationarity leaves
+> `K_perp=R_1212` arbitrary. Generic Ricci-flat Weyl curvature need not
+> preserve plus/cross: an exact fixture has zero compressed block and nonzero
+> off-TT `13/23` outputs. This response is not the pure TT Hessian at `T=0`.
+> The local Green current is unchanged. K128 must identify a quadratic
+> fluctuation owner and test source-global legality and full metric
+> constraint/gauge closure before any
+> unique pencil, spectrum, global domain, BFV cohomology or superposition law.
 
 > **Current K126 three-momentum principal completion:** K124's
 > `-12q^2<DW>` is exact for a homogeneous radial leg and back-to-back TT
@@ -19,9 +32,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > common-transverse extension is
 > `C_t_h_h=-6(p^2+q^2+3r^2)<H1,H2>_DW`, with crossed polarizations zero.
 > K124 is its `r=0,q=-p` specialization.
-> `C_t_h_v` remains zero on the selected 120-entry TT packet. K127 must select
-> a stationary curved background jet and representative/domain convention
-> before lower-order/pencil/spectrum work.
+> `C_t_h_v` remains zero on the selected 120-entry TT packet. K127 supplies
+> the local curved-family refinement above; K128 retains global closure.
 
 > **Current K125 fixed-chart/Cartan gate:** the explicit symmetric-frame
 > `D2B_LC` is nonzero and symmetric; restoring `dB` makes the connection
@@ -32,9 +44,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > representative by a spacetime-exact term and need not vanish at a boundary.
 > K126 subsequently vindicates this covariance theorem and extends K124's
 > `C_t_h_h` value to the common-transverse three-momentum family; retain
-> `C_t_h_v^prin=0` on the selected packet. K127 must evaluate the three-entry
-> same-`I1B` curved TT endomorphism before any unique
-> full pencil, spectrum, global domain or BFV charge is claimed.
+> `C_t_h_v^prin=0` on the selected packet. K127 replaces the three-entry
+> placeholder by an aligned one-scalar compression plus a generic off-TT
+> leakage obstruction. K128 owns source-global and constraint/domain closure.
 
 > **Current K124 native `I1B` principal TT evaluator:** composing the exact
 > full-K77 Clifford/exterior scalar-action engine with the native
@@ -61,8 +73,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > source-coordinate pieces and redistribute while the two native sums remain
 > invariant. K124 subsequently constructs the homogeneous-radial/back-to-back
 > slice, and K126 supplies the common-transverse three-momentum completion.
-> K127 retains curved
-> lower-order and representative completion. Do not import `I_sc/I2B/I_II`, the
+> K127 constructs the local curved response and K128 retains full closure. Do
+> not import `I_sc/I2B/I_II`, the
 > old raw `14/3`, or a Ward-fitted quotient coefficient.
 
 > **Current K122 native `I1B` owner decomposition:** with the exact
@@ -80,8 +92,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > proved that the three primitive slots are chart-split and not numerically
 > recoverable from the serialized bank. K124 subsequently closes the
 > homogeneous-radial/back-to-back native sums, while K126 completes their
-> common-transverse three-momentum extension. K127 retains curved lower-order
-> completion before Green/BFV descent.
+> common-transverse three-momentum extension. K127 constructs the local
+> Ricci-flat response; K128 retains constraint/domain completion before
+> Green/BFV descent.
 > `lambda` stays outside the native packet, and no unique pencil, spectral
 > owner, domain, attachment or physical charge is selected.
 

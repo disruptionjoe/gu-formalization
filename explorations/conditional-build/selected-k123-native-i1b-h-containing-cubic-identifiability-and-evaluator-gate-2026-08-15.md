@@ -236,7 +236,8 @@ also closes. K123's rank-two statement remains the correct verdict about the
 *pre-K124 serialized evidence*; it is not physical action freedom. K125 later
 closes generic covariance, K126 completes the common-transverse three-momentum
 polynomial and cancels the isolated live `d(D2B_LC)` cell under full natural
-transport, and K127 owns curved lower order and representative/domain
+transport. K127 then constructs the local Ricci-flat curved response and
+exposes generic off-TT leakage; K128 owns source-global constraint/domain
 completion.
 
 Reproduce:
