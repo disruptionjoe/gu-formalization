@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "selected-k135-native-i1b-t0-coupled-shell-green-domain",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "selected displayed comm/symi/symi I1B Hessian at K127 local Ricci-flat T=0 fixed-boundary germ on real Cl(7,7)",
+  "target_claim": "K134_NEXT_GATE__COMPOSE_METRIC_CURVATURE_BLOCK_ON_SPACELIKE_SHELLS_AND_NULL_JORDAN_CHAINS",
+  "spacelike_metric_packet": {
+    "dimension": 112,
+    "metric_rank": 6,
+    "interacting_radius_squared": [4, 121]
+  },
+  "spacelike_shells": [
+    {"radius_squared": 1, "distortion_multiplicity": 312, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 316, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 2, "distortion_multiplicity": 78, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 82, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 3, "distortion_multiplicity": 286, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 290, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 4, "distortion_multiplicity": 46487, "local_distortion_nullity": 45, "local_coupled_nullity": 43, "full_coupled_nullity": 46485, "metric_pairs_with_shell_kernel_rank": 6},
+    {"radius_squared": 5, "distortion_multiplicity": 1287, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1291, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 6, "distortion_multiplicity": 1716, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1720, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 7, "distortion_multiplicity": 1716, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1720, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 8, "distortion_multiplicity": 1287, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1291, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 9, "distortion_multiplicity": 2002, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 2006, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 10, "distortion_multiplicity": 286, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 290, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 11, "distortion_multiplicity": 78, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 82, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 12, "distortion_multiplicity": 13, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 17, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 13, "distortion_multiplicity": 1, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 5, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 16, "distortion_multiplicity": 1716, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1720, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 25, "distortion_multiplicity": 1716, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1720, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 36, "distortion_multiplicity": 1287, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1291, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 48, "distortion_multiplicity": 13, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 17, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 49, "distortion_multiplicity": 715, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 719, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 64, "distortion_multiplicity": 286, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 290, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 81, "distortion_multiplicity": 78, "local_distortion_nullity": 3, "local_coupled_nullity": 7, "full_coupled_nullity": 82, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 88, "distortion_multiplicity": 78, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 82, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 100, "distortion_multiplicity": 13, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 17, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 120, "distortion_multiplicity": 286, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 290, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 121, "distortion_multiplicity": 1, "local_distortion_nullity": 1, "local_coupled_nullity": 4, "full_coupled_nullity": 4, "metric_pairs_with_shell_kernel_rank": 1},
+    {"radius_squared": 144, "distortion_multiplicity": 715, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 719, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 160, "distortion_multiplicity": 1287, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1291, "metric_pairs_with_shell_kernel_rank": 0},
+    {"radius_squared": 168, "distortion_multiplicity": 1716, "local_distortion_nullity": 0, "local_coupled_nullity": 4, "full_coupled_nullity": 1720, "metric_pairs_with_shell_kernel_rank": 0}
+  ],
+  "null_chain": {
+    "local_power_ranks": [90, 48, 6, 3, 0],
+    "local_schur_degree_coefficient_ranks": {"0": 1, "1": 0, "2": 0, "3": 0, "4": 0},
+    "metric_schur_rank": 1,
+    "metric_symbol_radical": 9,
+    "positive_jordan_degrees_annihilated_by_metric_composition": true
+  },
+  "domain": {
+    "all_spacelike_shells_removed_by_metric_coupling": false,
+    "frequency_uniform_full_coupled_inverse": false,
+    "closed_green_realization_selected": false,
+    "boundary_polarization_selected": false,
+    "distortion_shell_kernel_is_gauge": false,
+    "global_bfv_selected": false,
+    "physical_cohomology_selected": false
+  },
+  "next_gate": "K136_CLASSIFY_ACTION_COMPATIBLE_MICROLOCAL_OR_BOUNDARY_REALIZATIONS_ACROSS_SHELL_DIVISOR_AND_NULL_RADICAL"
+}

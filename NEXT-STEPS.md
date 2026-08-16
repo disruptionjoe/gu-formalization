@@ -7,6 +7,21 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K135 COMPOSES THE METRIC BLOCK BUT ALL 27 SPACELIKE SHELLS
+> REMAIN SINGULAR.** The action-owned rank-six spacelike metric map closes in
+> an exact 112-dimensional invariant packet and meets distortion shell kernels
+> only at squared radii `4` and `121`, with pairing ranks six and one. It
+> reduces the `a=4` complete nullity to `46485` and lifts the unique `a=121`
+> distortion mode, but four diffeomorphism directions remain there and every
+> other shell also retains nonzero coupled nullity. On the null packet,
+> `K C_1` has local power ranks `90/48/6/3/0`, while
+> `-A* C^-1 A` is frequency-independent rank one: all positive Jordan-degree
+> terms cancel, leaving a nine-dimensional null metric-symbol radical.
+> **K136 must classify an action-compatible microlocal/boundary realization
+> across the shell divisor and propagate the five non-diffeomorphism null
+> metric directions before any closed inverse, KT/BFV quotient, positivity,
+> physical cohomology or superposition claim.**
+
 > **2026-08-16 K134 CONSTRUCTS THE ACTUAL `KAPPA_1` HODGE MASS AND FINDS
 > EXACT SPACELIKE FOURIER SHELLS.** On the complete `229376`-dimensional real
 > `Cl(7,7)` distortion carrier, `K_(mu,A)=eta_mu scalar(e_A^2)` is a real

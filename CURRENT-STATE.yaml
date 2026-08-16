@@ -9,6 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K135 now composes the action-owned metric curvature map and operative
+    finite-symbol adjoint with K134's complete Hermitian distortion pencil.
+    The metric image closes in an exact 112-dimensional invariant packet and
+    meets shell kernels only at squared radii 4 and 121, with pairing ranks six
+    and one. Nevertheless every one of the 27 complete coupled spacelike
+    shells remains singular: the full nullities are 46485 at radius-squared 4,
+    four diffeomorphism directions at 121, and the distortion multiplicity
+    plus four elsewhere except for the recorded orthogonal local kernels. On
+    the null metric-support packet, K C_1 has power ranks 90,48,6,3,0, but
+    -A* C^-1 A has only a frequency-independent rank-one coefficient; all
+    positive Jordan-degree terms vanish. The null metric symbol therefore has
+    radical nine. Metric coupling removes neither the shell obstruction nor
+    the need for an action-compatible closed Green domain. K136 must classify
+    microlocal or boundary realizations across the shell divisor and propagate
+    the five non-diffeomorphism null metric directions before KT/BFV,
+    positivity, inverse or physical cohomology. Joe input is not required.
     K134 now constructs the actual all-grade kappa-one Hodge-Clifford mass
     fingerprint on the complete 229376-dimensional real Cl(7,7) distortion
     carrier. In the coefficient basis dx^mu e_A, K has diagonal sign eta_mu
@@ -1265,6 +1281,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/selected-k135-native-i1b-t0-coupled-shell-green-domain-2026-08-16.md
+    - lab/process/selected-k135-native-i1b-t0-coupled-shell-green-domain.json
     - explorations/conditional-build/selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil-2026-08-16.md
     - lab/process/selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil.json
     - explorations/conditional-build/selected-k133-native-i1b-t0-flat-complex-kappa-pencil-2026-08-16.md

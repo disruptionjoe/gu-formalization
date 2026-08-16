@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K135 coupled-shell, Green, and domain classification:** the
+> action-owned spacelike metric map has rank six and closes in an exact
+> 112-dimensional distortion packet. It intersects K134's shell kernels only
+> at squared radii `4` and `121`, but every one of the 27 full coupled shells
+> remains singular. The full nullities at those two radii are `46,485` and
+> `4`; elsewhere the distortion shell modes remain together with the four
+> metric diffeomorphism directions. On the null packet, local `K C_1` power
+> ranks are `90/48/6/3/0`, while `-A* C^-1 A` has only a constant rank-one
+> coefficient and zero coefficients at frequency degrees one through four.
+> The null metric-symbol radical is nine. K136 must supply or obstruct an
+> action-compatible microlocal/boundary Green realization and classify the
+> five non-diffeomorphism null metric directions by actual propagation.
+
 > **Current K134 Hodge mass and Hermitian Fourier-pencil classification:**
 > the action-owned all-grade mass map is
 > `K_(mu,A)=eta_mu scalar(e_A^2)` on the complete `229,376`-dimensional real

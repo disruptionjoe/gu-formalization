@@ -242,3 +242,13 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k134_native_i1b_t0_kappa_hodge_fingerprint_and_fourier_pencil_probe.py
 ```
+
+## K135 successor classification
+
+K135 composes the actual metric curvature block in the same invariant basis.
+Only squared radii `4` and `121` meet its image, but all 27 complete coupled
+spacelike shells retain nonzero kernel. On the null metric-support packet, all
+positive frequency degrees in `-A*C^-1 A` vanish and the remaining metric form
+has rank one and radical nine. The analytic restricted-domain and constraint-
+propagation problem now routes to K136; do not delete shell frequencies or
+rename the retained radical as gauge.
