@@ -8,10 +8,10 @@ channel: high_energy_two_plus_one_prediction
 target_claim: SC-GEN-53
 title: "Conditional-build read packet: Eric Weinstein's 2+1 imposter, emergent-chirality source claims, the HE-4 owner split, and the next composition scaffold"
 grade: "SOURCE-PINNED READ PACKET plus exact-receipt synthesis. Source statements are separated from repository reconstructions and from declared conditional inputs. The lane assumes explicit H210/H54/HBOTH/HNONE horns and tests how they fit the existing geometry. Deriving a source action, searching for an external selector, fitting a family vector, or substituting an ordinary family index, net-chirality theorem, or scalar Higgs/VEV is outside scope."
-disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__H210_INTRINSIC_CORRELATED_CHAIN_BANKED__FULL_D0_VARPI_HALF_DUALITY_CLASSIFIER_NEXT__THREE_HORN_WITNESSES_SEPARATE__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT
+disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__H210_INTRINSIC_ZERO_ORDER_CHAIN_BANKED__FULL_D0_VARPI_DERIVATIVE_ADAPTER_PATH_CLOSED__LQ_KERNEL_REOPEN_ONLY__H210_PATH_PAUSED__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT
 canon_verdict_change: none
-steering_effect: "Every future preflight and execution agent in this channel must read this packet first. Begin from Eric Weinstein's source claims and declared H210/H210-FCORR/H210-ALIGN/H210-PSRED horns. The next swing is the reverse-conditional full d0+varpi half/form-degree/density-duality classifier, not more kappa-rank or horn-matrix work and not derivation of a selector, reduction, action, family row, graph, or external datum."
-canonical_effect: integrated_through_cb6
+steering_effect: "Every future preflight and execution agent in this channel must read this packet first. Begin from Eric Weinstein's source claims and explicit conditional horns. CB-8 closes the H210 derivative-adapter branch: reopen only if an independent source-native result supplies a source-Y split/connection implying L_q|_Z=0. Do not continue by constructing a q owner, connection, selector, reduction, action, family row, graph, or external datum; reprioritize to another independently fertile source-native lane."
+canonical_effect: integrated_through_cb8_path_closure
 depends_on:
   - lab/methods/source-native-comparator-routing.md
   - lab/sources/source-claim-register.yaml
@@ -31,6 +31,8 @@ depends_on:
   - lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-three-horn-compatibility-2026-08-16.md
   - lab/process/hostile-reviews/2026-08-16-joe-directed-cb6-h210-correlated-lift-review.md
   - lab/active-research/joe-directed/high-energy-two-plus-one/cb6-wave-h210-correlated-lift-reprioritization-2026-08-16.md
+  - lab/active-research/joe-directed/high-energy-two-plus-one/cb8-wave-h210-derivative-adapter-reprioritization-2026-08-16.md
+  - lab/process/hostile-reviews/2026-08-16-joe-directed-cb8-h210-derivative-adapter-review.md
 ---
 
 > [!IMPORTANT]
@@ -340,24 +342,34 @@ the target must remain line-valued). Forward overlap covariance, base/stage,
 and the reverse `nabla q_H` lower-order term remain `TYPE_MISSING`; this is not
 a completed source operator.
 
-### CB-8 — derivative-adapter covariance and reverse completion — next
+### CB-8 — derivative-adapter covariance and reverse completion — banked closure
 
-Assume the typed `q_H` section/cocycle without constructing or selecting it.
-Distinguish source `Y`, pulled-back `X`, and graph-plane `H_J` locations. Test
-the forward moving overlap square, Clifford connection, principal symbol,
-Leibniz rule, and null strata. Then distinguish the algebraic density dual
-from the formal transpose `d0* gamma(q_H)*`, expose its forced `nabla q_H`
-term, and test both reverse cells, both halves, and source-module custody.
-Stop before owner/action/selector/graph/row/reduction/quotient/external-datum,
-domain, mass, or spectrum construction.
+Under a supplied source-`Y` split, nowhere-null `q_H` section/cocycle and
+compatible connection, the forward moving square passes exactly. Pullback-`X`
+and graph-`H_J` sections remain observed-stage only; a bare line changes the
+target grammar.
+
+The reverse formal density transpose forces
+
+```text
+gamma(q_H) nabla^a alpha_a + gamma(nabla^a q_H) alpha_a.
+```
+
+An explicit normal first jet makes the second term nonzero on pure-normal
+H210 Z on both halves, so generic jets destroy isolated reverse-H210 custody.
+The exact escape `L_q|_Z=0` is meaningful but newly stipulated;
+`nabla_N q_H=0` is sufficient and unowned. Bank this as a reopen condition,
+not a CB-9 work queue. The derivative-adapter branch is paused.
 
 ## 7. Reprioritization
 
 | path-relative item | priority | fertility | reason |
 |---|---:|---:|---|
-| ownership-free `gamma(q_H)d0` covariance and stage gate | 1 | `8/10` | assume the horn and test whether its forward operator type descends without selecting it |
-| reverse `nabla q_H` density-dual completion | 2 | `7/10` | decide whether the principal-symbol escape extends to both reverse source cells |
-| line-valued versus untwisted target classifier | 3 | `6/10` | a bare line is insufficient; test whether a section/trivialization or common twist is required |
+| bank CB-8 covariance/transpose theorem and generic-Z obstruction | 1 | `9/10` as closure | exact local result; integrate and stop this derivative branch |
+| isolated zero-order H210 chain through CB-6 | 2 | highest surviving result | retain without promoting it to a full source operator |
+| independent result implying `L_q|_Z=0` | reopen only | `3/10` now | meaningful trigger, but do not manufacture its owner here |
+| vertically parallel source-`Y` continuation | paused | `2/10` | coherent but over-conditioned and not motivated by banked geometry |
+| line-valued rival grammar | retired | `1/10` | more horns and a changed target with no compensating gain |
 | fixed trace-`Hq` adverse subhorn | 4 | `4/10` | keep the one-phase failure as a control, not a source-level H210 kill |
 | `H54` / `HBOTH` routes | fallback | `3/10` to `5/10` | use only if the H210 carrier-fit chain fails or both ports become conditionally admissible |
 | full `945/1050` branching | retired | `0/10` | exact saturation already proves both singlet counts zero |
@@ -368,21 +380,22 @@ domain, mass, or spectrum construction.
 | more half/degree SAT enumeration | retired | `0/10` | CB-7's local homogeneous-primalizer theorem is complete |
 | deriving the source action or importing an external selector | off-limits | not scored | violates the conditional-build lane contract |
 
-Relative to the wider exploration portfolio, this path remains first for one
-more bounded stop/go swing because CB-7 leaves exactly one conditional
-principal-symbol candidate. Failure of its stage, covariance, or reverse
-lower-order typing retires the full-cell escape; success still establishes
-only a conditional operator type. Neither outcome licenses manufacturing an
-action, selector, reduction, graph, family row, or external datum.
+Relative to the wider exploration portfolio, the H210 derivative/full-cell
+path is no longer first. CB-8 closes its bounded conditional classifier and
+shows that the clean escape requires another unowned first-jet horn. The next
+wave should move to another independently fertile source-native lane rather
+than manufacture an action, q owner, connection, selector, reduction, graph,
+family row, or external datum. The prior three-lane review ranks the
+source-native neutrino pencil second; extra-vector work remains retired.
 
 ## Plain-English checkpoint
 
-We have now shown that the cleaner H210 connector fits the real K77 carrier,
-the isolated zero-order part of two displayed fermion-operator cells, literal
+We have shown that the cleaner H210 connector fits the real K77 carrier, the
+isolated zero-order part of two displayed fermion-operator cells, literal
 observation, the intrinsic moving graph/normal Clifford geometry, and the
-correlated equation-(12.22) carrier type on admitted overlaps. But the printed
-derivative and H210 pieces have irreconcilable ambient-half types under every
-common homogeneous convention. A hypothetical non-null horizontal section
-can repair the derivative principal symbol without damaging H210, but the
-repository does not own or select it and its moving forward/reverse operator
-typing remains open. CB-8 tests that conditional compatibility only.
+correlated equation-(12.22) carrier type on admitted overlaps. The full
+printed cell still does not close cleanly. A supplied horizontal section makes
+the forward derivative covariant, but its correct reverse differentiates that
+section and generically opens another route out of Z. Preventing that requires
+an extra condition no banked geometry supplies. The isolated H210 chain stays
+valuable; the derivative-adapter extension stops here.

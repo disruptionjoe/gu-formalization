@@ -235,3 +235,17 @@ adjoint/reality/domain, select a family or luminous half, or establish an
 action, quotient, mass, scale, threshold, spectrum, observable, phenomenology,
 or physical chirality. F/imposter, `M_3`, and Z/internal-`144` remain distinct,
 and both conjugate halves remain present.
+
+## Successor update — CB-8 closes the derivative-adapter branch
+
+CB-8 proves the conditional forward covariance square and the exact reverse
+formal-density-transpose formula. The forced `nabla q_H` lower term is nonzero
+on an explicit pure-normal H210 Z fixture, so generic normal first jets destroy
+isolated reverse-H210 custody. The exact escape `L_q|_Z=0` is a proper-kernel
+condition; `nabla_N q_H=0` is sufficient. Neither follows from a banked source
+split or connection.
+
+Accordingly there is no CB-9 on this adapter. Preserve `L_q|_Z=0` only as an
+externally triggered reopen condition and retain the isolated CB-2--CB-6 H210
+chain as the strongest result. See
+`cb8-wave-h210-derivative-adapter-reprioritization-2026-08-16.md`.
