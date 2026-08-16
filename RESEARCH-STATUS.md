@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K149 native I1B minimal moving evaluator gate 2026-08-16 (generic engine
+exact; first target adapter absent; curved lower transport still undefined).**
+The new sparse operator API implements exact multivariate Leibniz composition,
+explicit connection hooks, coordinate formal transpose, and the mechanical
+moving-density/moving-pairing adjoint. Its `25/25` probe fires plain-transpose,
+ordinary, one-form, Clifford-adjoint, and sixth-profile-jet plants. Executable
+closure across K77/K132/K135/K138/K149 locates the first missing target lift:
+`moving_selected_shiab_coefficient`. No curved restricted residual or null
+lower leakage is booked. See
+`explorations/conditional-build/selected-k149-native-i1b-minimal-moving-evaluator-gate-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| generic sparse differential algebra | absent | exact with Leibniz composition | none at engine grade | K149 API/probe |
+| moving weighted formal adjoint | absent | exact with Green plant | actual target pairing/density | K149 API/probe |
+| curved restricted residual | undefined, evaluator absent | still undefined | moving selected-Shiab coordinate adapter | K149 closure gate |
+
 **K148 native I1B null-cone principal descent 2026-08-16 (rank-five bundle
 exact; frozen induced map zero; curved lower transport open).** The correct
 microlocal object pairs each nonzero null covector with its own

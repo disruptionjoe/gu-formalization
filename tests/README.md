@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k149_native_i1b_minimal_moving_evaluator_gate_probe.py`
+  validates the exact sparse Leibniz engine, moving weighted formal adjoint,
+  three connection plants, sixth-profile-jet control, and the first absent
+  target adapter. The reusable implementation is
+  `channel-swings/k149_sparse_differential_jet_api.py`.
+
 - `channel-swings/selected_k148_native_i1b_null_cone_principal_descent_gate_probe.py`
   proves exact null-ray quotient dimensions, Lorentz congruence, frozen
   principal descent, the zero five-class induced map, and the curved-lower

@@ -115,6 +115,17 @@ K149: serialize the minimal moving evaluator and compute the first curved
       null restricted residual/lower leakage with frozen and rotated controls.
 ```
 
+## K149 successor classification
+
+K149 serializes the generic sparse differential-operator layer, including the
+complete Leibniz rule, explicit total-connection hooks, and a mechanical
+moving-density/moving-pairing formal adjoint. Its executable closure audit
+locates the first target-specific dependency at
+`moving_selected_shiab_coefficient`; that coordinate adapter is still absent,
+so the curved restricted residual and null lower leakage remain undefined.
+K150 owns that one adapter with frozen and rotated controls before any later
+pairing, bridge, or fivefold composition.
+
 Reproduce:
 
 ```bash

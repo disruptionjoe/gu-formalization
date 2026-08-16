@@ -7,6 +7,21 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K149 SERIALIZES THE GENERIC MOVING-EVALUATOR LAYER AND LOCATES
+> THE FIRST TARGET ADAPTER.** The new sparse exact engine implements complete
+> multivariate Leibniz composition, explicit total-connection hooks, and the
+> mechanical weighted formal adjoint
+> `B_in^-1 rho^-1 L^T_formal rho B_out`. All `25/25` controls pass, including
+> three connection removals, plain-transpose failure, and generic sixth
+> Brinkmann profile jets. The repository still exports no executable
+> `moving_selected_shiab_coefficient`; without that first adapter the moving
+> pairing, curved bridge, restricted residual, and lower null leakage cannot
+> be composed. **K150 should serialize only that selected conditional
+> `comm/symi/symi` coordinate adapter from the owned tensor formula and demand
+> K132 frozen plus K138 rationally rotated controls before proceeding. Do not
+> substitute the frozen matrix, guess the preferred historical Shiab, or call
+> the curved residual zero.**
+
 > **2026-08-16 K148 CLOSES FROZEN PRINCIPAL DESCENT ON THE COVARIANT NULL-CONE
 > QUOTIENT.** Pair each nonzero null covector `n` with
 > `Q_n=ker(ell_n)/im(n symmetric-product -)`, a rank-five null-ray bundle.

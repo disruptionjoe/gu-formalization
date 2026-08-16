@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 36bc6c132810f104cc0c90f9decdfce2010d1e90
+revision_basis: 6619c699fe3b2bac1ff09a552376f4c88355c897
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K149 now serializes the generic moving-evaluator layer required after
+    K148: exact sparse multivariate differential operators, complete Leibniz
+    composition, explicit total-connection hooks, and a mechanical formal
+    adjoint for moving density and pairings. All 25 controls pass, including
+    plain-transpose, ordinary, one-form, Clifford-adjoint, and sixth-profile-
+    jet plants. Executable closure locates the first target-specific gap:
+    no current reusable source exports the moving selected-Shiab coefficient
+    as a coordinate operator. Therefore the curved restricted residual and
+    first null lower leakage remain
+    UNDEFINED_TARGET_ADAPTER_NOT_SERIALIZED, not zero or nonzero. K150 owns
+    that one adapter with frozen and rotated controls before later pairing,
+    bridge, or fivefold composition. Joe input is not required.
     K148 now defines the correctly paired null-characteristic object left open
     by K147. Over each nonzero null ray [n], H_n=ker ell_n contains the
     four-dimensional diffeomorphism image G_n and Q_n=H_n/G_n has dimension

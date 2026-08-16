@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K149 minimal moving-evaluator result:** the generic exact operator
+> layer now exists. It composes sparse multivariate differential operators by
+> the full Leibniz rule, represents total connections explicitly, and derives
+> the moving-density/moving-pairing formal adjoint mechanically. All `25/25`
+> controls pass. The first action-specific executable dependency remains
+> absent: no reusable source exports `moving_selected_shiab_coefficient` as a
+> coordinate operator. Therefore the curved restricted residual and null lower
+> leakage remain undefined. Continue with that single K150 adapter and frozen
+> plus rotated controls; do not substitute K132's frozen matrix, use a plain
+> transpose, guess the preferred historical Shiab, or infer a quotient
+> endomorphism, domain, BFV class, or physical propagation.
+
 > **Current K148 null-cone principal descent:** the correctly paired
 > microlocal object is the rank-five null-ray bundle
 > `Q_n=ker(ell_n)/im(n symmetric-product -)`. K135's complete frozen metric

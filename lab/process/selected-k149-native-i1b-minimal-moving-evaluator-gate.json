@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K149_NATIVE_I1B_MINIMAL_MOVING_EVALUATOR_GATE",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected conditional comm/symi/symi I1B T=0 evaluator infrastructure and executable target-adapter closure only.",
+  "preflight": {
+    "repository_head": "32ccedab",
+    "predecessor": "K148_NATIVE_I1B_NULL_CONE_PRINCIPAL_DESCENT_GATE",
+    "conditional_portfolio_reset_consumed": "32ccedab",
+    "late_disjoint_shiab_canon_crosslink_consumed": "6619c699",
+    "joe_directed_paths_modified": false
+  },
+  "generic_engine": {
+    "module": "tests/channel-swings/k149_sparse_differential_jet_api.py",
+    "sparse_multivariate_leibniz": true,
+    "mechanical_formal_transpose": true,
+    "moving_density_pairing_adjoint": true,
+    "explicit_total_connection_hook": true,
+    "exact_coefficient_ring": "sympy"
+  },
+  "controls": {
+    "exact_probe": "PASS_25_OF_25",
+    "plain_transpose_plant_fires": true,
+    "ordinary_connection_plant_fires": true,
+    "one_form_connection_plant_fires": true,
+    "clifford_adjoint_connection_plant_fires": true,
+    "sixth_profile_jets_independent": true,
+    "brinkmann_transverse_harmonicity": true
+  },
+  "target_closure": {
+    "first_absent_adapter": "moving_selected_shiab_coefficient",
+    "dependent_absent_adapters": [
+      "moving_distortion_pairing",
+      "curved_metric_bridge_A",
+      "curved_null_restricted_residual"
+    ],
+    "curved_restricted_residual": "UNDEFINED_TARGET_ADAPTER_NOT_SERIALIZED",
+    "curved_null_lower_leakage": "UNDEFINED_TARGET_ADAPTER_NOT_SERIALIZED",
+    "frozen_principal_quotient_map": "ZERO_EXACT_UNCHANGED"
+  },
+  "outcome": "GENERIC_MOVING_EVALUATOR_LAYER_EXACT__FIRST_TARGET_ADAPTER_LOCATED__CURVED_RESIDUAL_UNDEFINED",
+  "claim_ceiling": "No preferred historical Shiab, curved residual value, quotient endomorphism, inverse, domain, BFV, physical mode, positivity, propagator, or GU-wide conclusion.",
+  "next_gate": "K150 serialize moving_selected_shiab_coefficient from the owned conditional tensor formula and replay frozen plus rotated controls before composing later adapters.",
+  "canon_verdict_change": "none"
+}
