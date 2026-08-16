@@ -7,9 +7,9 @@ work_item: SN2-WAVE
 channel: majorana_126_neutrino_mechanism
 title: "SN-2 wave: correct the neutral carrier, classify every conditional scale branch, retain only local coefficient admissibility, and run one existing-varpi incidence census before stopping"
 grade: "INTEGRATION SYNTHESIS over three exact conditional source-native certificates and one independent eighteen-lens hostile review. Neutral restriction: 51 checks plus 9/9 mutants. Valuation: 108 checks including six mutants. Reality/charge: 35 checks plus 9/9 mutants. The finite rank, cell, Newton, Schur/Smith, Jordan, charge, centre and Grassmann results are exact; neutral closure, F occurrence, relative scales, reality horn, coefficient incidence, action, vacuum, quotient and physical interpretation remain declared or missing."
-disposition: EXACT_NEUTRAL_COUNTS_AND_CONDITIONAL_PENCIL_CLASSIFIER_BANKED__STRICT_BILATERAL_T2_REQUIRES_UNSELECTED_0_1_1_PLUS_NONDEGENERATE_COMPOSITION__XD_XR_ARE_TYPE_REQUIREMENTS_PENDING_SLOT_INCIDENCE__ONE_EXISTING_VARPI_CENSUS_NEXT__THEN_REPRIORITIZE
+disposition: EXACT_NEUTRAL_COUNTS_AND_CONDITIONAL_PENCIL_CLASSIFIER_BANKED__STRICT_BILATERAL_T2_REQUIRES_UNSELECTED_0_1_1_PLUS_NONDEGENERATE_COMPOSITION__SN3_EXISTING_VARPI_CENSUS_COMPLETE__GRADE5_PARENT_TYPES_PRESENT_BUT_COINDEX_AND_SLOT_INCIDENCE_ABSENT__LANE_PAUSED
 canon_verdict_change: none
-steering_effect: "The neutrino lane is first for one more bounded source-native representation census: test only already-admitted varpi coefficient types against the declared X_D/X_R source-slot-to-observed-line requirements. Do not construct an action, vacuum, selector, scale relation, new coefficient, reality owner, quotient, or conventional 126. If no packet is present, or continuation needs another unowned horn, pause this lane."
+steering_effect: "SN3 completed the one bounded existing-varpi census. Bank the grade-five X_D/X_R internal parent content, native form-leg class repair, absent southeast placement, and shared-owner valuation obstruction. Pause the neutrino lane unless archaeology finds an already-owned source-native zero-order/coindex descent plus equation-9.16 slot-to-observed-line incidence receipt. Do not construct an action, vacuum, selector, scale relation, new coefficient, reality owner, quotient, or conventional 126."
 canonical_effect: pending_integration
 depends_on:
   - lab/active-research/joe-directed/majorana-126-neutrino/sn2-source-native-neutrino-conditional-build-read-packet-2026-08-16.md
@@ -20,6 +20,7 @@ depends_on:
   - lab/active-research/joe-directed/majorana-126-neutrino/sn2-neutral-reality-charge-admissibility-2026-08-16.md
   - tests/channel-swings/joe_directed_sn2_neutral_reality_charge_probe.py
   - lab/process/hostile-reviews/2026-08-16-joe-directed-sn2-neutral-pencil-review.md
+  - lab/active-research/joe-directed/majorana-126-neutrino/sn3-wave-varpi-incidence-reprioritization-2026-08-16.md
 ---
 
 > [!IMPORTANT]
@@ -228,6 +229,32 @@ continuation needs another unowned horn, pause the neutrino lane.
 The H210 derivative branch remains closed by CB-8. Extra-vector attachment
 still overlaps action selection. The neutrino incidence census is therefore
 the most fertile non-overlapping source-native calculation for one more wave.
+
+## 8. SN-3 successor resolution
+
+The authorized existing-`varpi` census is complete. It found the internal
+representation content SN-2 asked for, but it did not find the missing source
+incidence:
+
+- selected grades one and five contain `X_D` internal parent types, with grade
+  five the richer packet;
+- grade five contains the unique `X_R` internal line and conjugate;
+- the native connection one-form leg changes the cell-class composition, so
+  internal class two plus form-leg class two has positional net class zero;
+- the released equation 9.16 has no southeast owner and no supplied
+  zero-order/coindex descent; and
+- shared `A/B` owners make the strict `(0,1,1)` horn non-generic, requiring
+  leading-support separation in addition to neutral closure and
+  nondegeneracy.
+
+The hostile review verified the repaired A/B/C certificates at `56/56`,
+`65/65` with `11/11` mutants, and `69/69` with `10/10` planted controls. Its
+final disposition is `PASS_AFTER_REPAIR__BANK_AND_DEPENDENCY_FENCE`.
+
+Therefore the “one more census” instruction above is discharged. The lane is
+paused, not promoted to action, coefficient, scale, domain or phenomenology
+work. Reopen only if an independent artifact supplies the missing
+source-native coindex descent and slot-to-observed-line receipt.
 
 ## Claim ceiling
 

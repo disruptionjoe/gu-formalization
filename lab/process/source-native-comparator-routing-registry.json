@@ -391,6 +391,22 @@
     {
       "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-wave-neutral-pencil-reprioritization-2026-08-16.md",
       "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xd-incidence-census-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xr-incidence-census-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-source-slot-neutral-line-incidence-classifier-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-wave-varpi-incidence-reprioritization-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
     }
   ]
 }

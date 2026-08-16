@@ -5,11 +5,11 @@ doc_type: source-native-neutrino-conditional-build-read-packet
 created: 2026-08-16
 work_item: SN2-READ-PACKET
 channel: majorana_126_neutrino_mechanism
-title: "Source-native neutrino conditional-build packet: the rolled equation-9.16 seesaw hypothesis, K77 neutral carriers, independent fields, 2+1/chirality custody, and off-limit routes"
-grade: "SOURCE-PINNED READ PACKET plus exact-prior-art synthesis. It records the source's prospective rolled-operator/seesaw language, the exact released cell grammar, the K77 observed carrier and charge distinctions, and declared conditional horns. It neither selects those horns nor constructs an action, vacuum, scale owner, reality quotient, physical mass, or conventional SO(10) 126 mechanism."
-disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__ROLLED_OMEGA1_OMEGA0_PENCIL_NOT_STANDARD_NUL_NUR_MATRIX__Q0_AND_SM_SINGLET_HORNS_SEPARATE__RELATIVE_SCALE_AND_LOCAL_REALITY_HORNS_DECLARED_ONLY__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT
+title: "Source-native neutrino conditional-build packet: the rolled equation-9.16 seesaw hypothesis, K77 neutral carriers, existing-varpi incidence custody, 2+1/chirality context, and off-limit routes"
+grade: "SOURCE-PINNED READ PACKET plus exact-prior-art synthesis through SN-3. It records the source's prospective rolled-operator/seesaw language, the exact released cell grammar, the K77 observed carrier and charge distinctions, declared conditional horns, and the separation among internal parent content, connection one-form class, positional cell class, and actual observed incidence. It neither selects those horns nor constructs an action, vacuum, scale owner, coindex descent, coefficient, reality quotient, physical mass, or conventional SO(10) 126 mechanism."
+disposition: CONDITIONAL_BUILD_PACKET_ACTIVE__ROLLED_OMEGA1_OMEGA0_PENCIL_NOT_STANDARD_NUL_NUR_MATRIX__Q0_AND_SM_SINGLET_HORNS_SEPARATE__GRADE5_XD_XR_INTERNAL_PARENT_CONTENT_BANKED__NATIVE_FORM_LEG_COMPOSITION_AND_ACTUAL_INCIDENCE_SEPARATE__ACTION_AND_EXTERNAL_DATUM_PATHS_OFF_LIMIT__COINDEX_DESCENT_OFF_LIMIT
 canon_verdict_change: none
-steering_effect: "Every future source-native neutrino preflight and execution agent in this Joe-directed channel must read this packet first. Start from the released equation-9.16 rolled Omega1/Omega0 grammar, retain four independent fields and both K77 halves, and declare all neutral, scale, southeast, F-occurrence, and local-reality horns. Do not revert to a standard 126 VEV, identify zeta/nu with nu_L/nu_R, derive a selector/action/external datum, or call a local pencil eigenvalue a physical neutrino mass."
+steering_effect: "Every future source-native neutrino preflight and execution agent in this Joe-directed channel must read this packet first. Start from the released equation-9.16 rolled Omega1/Omega0 grammar, retain four independent fields and both K77 halves, and declare all neutral, scale, southeast, F-occurrence, local-reality, coindex-descent, and slot-incidence horns. Keep internal Clifford class, connection form-leg class, positional net cell class, and actual observed incidence separate. Do not revert to a standard 126 VEV, identify zeta/nu with nu_L/nu_R, derive a selector/action/external datum/descent, or call a local pencil eigenvalue a physical neutrino mass."
 canonical_effect: pending_integration
 depends_on:
   - lab/methods/source-native-comparator-routing.md
@@ -21,6 +21,10 @@ depends_on:
   - explorations/conditional-build/selected-k77-majorana-reality-graded-domain-scope-2026-08-11.md
   - lab/active-research/joe-directed/majorana-126-neutrino/sn1-observed-neutrino-mass-pencil-2026-08-16.md
   - lab/active-research/joe-directed/high-energy-two-plus-one/he4-path-reprioritization-2026-08-16.md
+  - lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xd-incidence-census-2026-08-16.md
+  - lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xr-incidence-census-2026-08-16.md
+  - lab/active-research/joe-directed/majorana-126-neutrino/sn3-source-slot-neutral-line-incidence-classifier-2026-08-16.md
+  - lab/process/hostile-reviews/2026-08-16-joe-directed-sn3-varpi-incidence-review.md
 ---
 
 > [!IMPORTANT]
@@ -244,3 +248,50 @@ horn. Reopen only when an independent source-native result supplies one of
 those data naturally. No action, vacuum, selector, family row, reduction,
 physical quotient, domain, pole, mass, scale, threshold, spectrum, observable,
 or phenomenology is constructed in this packet.
+
+## 8. SN-3 successor result: parent content is not incidence
+
+SN-3 completed the one permitted existing-`varpi` census and then stopped.
+The exact internal representation results are useful:
+
+- selected pure-internal Clifford grades one and five contain the
+  Dirac-capable `X_D` representation type; grade five has the richer `2+2`
+  doublet packet;
+- grade five contains the unique right-Majorana-capable internal `X_R` line
+  and its conjugate, with the required charge and same-Weyl Grassmann type;
+- both complex grade-five Hodge halves, both ambient K77 Weyl halves, and all
+  independent barred/unbarred source fields remain present; and
+- the exact fixed-`H_q` intersections have dimensions `1`, `36`, and `126`
+  in grades one, two, and five, without selecting weak multiplets inside a
+  fixed-`q` subspace.
+
+Those statements stop at **internal parent content**. For a native connection
+cell, the internal odd Clifford class and the one-form leg must be composed:
+
+```text
+internal class 2 + connection one-form class 2 = positional net class 0.
+```
+
+Accordingly the native one-form reading makes the printed `pp/mm`
+cross-degree positions only **formal class-compatible positions** for the
+grade-one/five `X_D` content. It does not make them nonzero observed maps.
+The crossed `pm/mp` reverse custody remains an exact source-ledger fact, not an
+`X_D` incidence theorem. A hypothetical grade-five `X_R` zero-order packet
+would match the two class-two southeast positions only after a separately
+declared zero-order/coindex descent. The released equation 9.16 has no
+southeast owner, and no such descent is constructed here.
+
+The valuation conclusion also sharpens. The same four unbarred owners recur
+in northwest `A` and northeast `B`. Generic one-scale-per-owner support gives
+`v(A)=v(B)`, not the strict `(0,1,1)` horn. That horn requires every
+valuation-zero owner that survives in `A` to vanish in the leading neutral
+restriction of `B`, while valuation-one support survives in `B` and the
+independent barred `C`; neutral closure, invertibility of `A_0`, and
+nondegeneracy of `C_0 A_0^-1 B_0` remain separate.
+
+The lane is therefore dependency-fenced. A future preflight may perform a
+read-only archaeology check for an **already-owned** source-native coindex
+descent and equation-(9.16) slot-to-observed-line receipt. If none exists, do
+not queue another grade census, scale fit, action search, southeast
+coefficient, or standard `126` mechanism. Reopen only when that receipt
+arrives independently.
