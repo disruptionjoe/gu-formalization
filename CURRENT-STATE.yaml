@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e5a36d2182ebecc7a4a41d5a054e325e339881d5
+revision_basis: 5f32f92a0c4d980a3356ea10a6a027f90eae3773
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -1008,7 +1008,23 @@ current_result:
     only positivity is currently used. The next live owner test is therefore
     the generic-alpha source/action moving-TT Jacobian against K113 transport,
     or genuinely new source/action evidence selecting the commuting locus.
+    K115 classifies that generic-alpha Jacobian target completely. On each
+    connected gapped interval every invertible moving frame inducing K113 is,
+    up to one constant frame, exp((phi-phi0)G); parallel transport is the
+    inverse moving factor. Its moving determinant is one, it preserves K, its
+    G eigenlines are fixed, and its exact reciprocal stretch is the K113
+    cross-ratio. For generic alpha_II!=1 that stretch diverges at either
+    simple spectral gap wall, so no bounded invertible same-frame extension
+    crosses the wall. Patched, singular and new-action routes remain open.
+    The current serialized source/action custody supplies no typed two-field
+    TT map with this fingerprint: alpha_II is reconstructed and remains U7.
+    K112--K115 therefore remain reconstruction-grade owner data rather than a
+    released action port. The next reopener requires genuinely new typed
+    source/action map evidence, while stationary background, 98D attachment,
+    closed positive domain and physical cohomology remain separate.
   evidence:
+    - explorations/conditional-build/selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate-2026-08-15.md
+    - lab/process/selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate.json
     - explorations/conditional-build/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate-2026-08-15.md
     - lab/process/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate.json
     - explorations/conditional-build/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate-2026-08-15.md
@@ -1242,12 +1258,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  For generic alpha_II!=1, does a source- or action-derived moving-TT Jacobian
-  induce exp(-(phi(u)-phi(u0))G) and the complete K113 coefficient packet, or
-  does new source geometry or an Euler equation select the invariant commuting
-  locus alpha_II=1? If either owner exists, can the separately open boundary or
-  cohomological attachment carry that owned package into the conditional 98D
-  BV-BFV complex and a selected closed domain?
+  Does genuinely new source/action evidence supply a typed two-field TT map in
+  the complete K115 class F0 exp((phi-phi0)G), including its determinant,
+  fixed-eigenline and exact cross-ratio fingerprint, or an explicit patched or
+  singular action law at the spectral gap wall? If such an owner exists, can
+  the separately open non-invariant, nonlinear, boundary or cohomological
+  attachment carry it into the conditional 98D BV-BFV complex and a selected
+  closed positive domain?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1354,7 +1371,16 @@ next_condition: >-
   every invertible field change, and the full structure-preserving
   redefinition class sends alpha_II only to alpha_II or 2-alpha_II. The
   commuting point is fixed and remains a genuine but action-unselected U7
-  coefficient relation. Park repeated fixed-
+  coefficient relation. K115 now completes the local generic-alpha adapter
+  class: every moving frame inducing K113 is F0 exp((phi-phi0)G), with no new
+  functional freedom, determinant-one K-isometric motion, fixed G eigenlines
+  and an exact reciprocal cross-ratio stretch. The stretch diverges at either
+  generic simple spectral gap wall, so there is no bounded invertible
+  same-frame extension across the wall. Current serialized source/action
+  custody contains zero typed two-field TT maps meeting this fingerprint;
+  alpha_II remains reconstructed U7 data. Reopen the owner route only with a
+  genuinely new typed source/action map matching the K115 fingerprint, or
+  explicit patched, singular or new-action wall data. Park repeated fixed-
   background positivity and invariant linear attachment algebra over the
   current inventory. Retain the reverse scaffold through its exact classical
   layer and the minimal variational TT completion only at reconstruction

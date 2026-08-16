@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-15)
 
+> **Current K115 moving-TT Jacobian and gap-wall gate:** every local invertible
+> frame inducing K113 is `F0 exp[(phi-phi0)G]`; the parallel transport is the
+> inverse factor. The moving part is `K`-orthogonal and determinant one, has
+> fixed `G` eigenlines, and its exact reciprocal stretch diverges at either
+> generic simple gap wall. Hence no bounded invertible same-frame extension
+> crosses the wall, although patched, singular or new-action routes remain
+> open. The current serialized source/action custody has no typed TT map with
+> this fingerprint: `alpha_II` is reconstructed and charged as `U7`. Retain
+> the adapter at reconstruction grade. Next require genuinely new typed owner
+> evidence; stationary background, `98D` attachment, closed domain and
+> physical cohomology remain open.
+
 > **Current K114 TT alpha normalization-invariant gate:** K113's
 > `alpha_II=1` zero-transport locus is not a field-coordinate convention. The
 > free and interaction dynamics have exact commutator

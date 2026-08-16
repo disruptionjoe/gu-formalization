@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "rsap_tt_complete_local_moving_jacobian_classification_and_gap_wall_gate",
+  "created": "2026-08-15",
+  "status": "LOCAL_ADAPTER_CLASS_UNIQUE_UP_TO_CONSTANT_FRAME__EXACT_VOLUME_AND_STRETCH_FINGERPRINT__NO_BOUNDED_INVERTIBLE_GAP_WALL_EXTENSION__NO_SERIALIZED_SOURCE_ACTION_OWNER",
+  "comparator_routing_classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "GAPPED_REAL_TWO_FIELD_TT_SPECTRAL_BUNDLE__LOCAL_MOVING_FRAME_AND_CURRENT_SERIALIZED_OWNER_GRADE",
+  "target_claim": {
+    "id": "K114_NEXT_GATE__A_CURRENT_SOURCE_OR_ACTION_MOVING_TT_JACOBIAN_MAY_OWN_THE_GENERIC_ALPHA_K113_TRANSPORT",
+    "verdict": "EXACT_LOCAL_JACOBIAN_FINGERPRINT_BUILT__CURRENT_SERIALIZED_OWNER_CENSUS_EMPTY__NEW_TYPED_SOURCE_ACTION_MAP_REQUIRED"
+  },
+  "owner_packet": {
+    "carrier": "REAL_TWO_FIELD_OBSERVED_TT_FLUCTUATION",
+    "form": "K(alpha)=[[alpha,1],[1,0]]",
+    "real_structure": "ORDINARY_REAL_TWO_COMPONENT_FIELD",
+    "grading": "K113_SPECTRAL_PLUS_MINUS_INVOLUTION_C(u)",
+    "action_owner": "K112_RECONSTRUCTED_MINIMAL_COVARIANT_QUADRATIC_ONLY",
+    "target": "COMPLETE_LOCAL_MOVING_TT_JACOBIAN_CLASS_AND_SERIALIZED_OWNER_MATCH",
+    "assumptions": ["b!=0", "one_gapped_simple_spectrum_component", "invertible_C1_local_field_map"],
+    "claim_ceiling": "EXACT_LOCAL_TWO_FIELD_CONNECTION_AND_COMPONENTWISE_GAP_WALL_CLASSIFICATION"
+  },
+  "connection": {
+    "G": "[[-1,0],[alpha,1]]",
+    "G_squared": "IDENTITY",
+    "G_trace": 0,
+    "G_determinant": -1,
+    "G_K_skew": true,
+    "phi": "(1/4)*log((b+u)/(alpha^2*b+(alpha-2)^2*u))",
+    "A_C": "G*d(phi)"
+  },
+  "complete_local_adapter_class": {
+    "moving_frame_equation": "F^-1*dF=A_C",
+    "moving_frame_solution": "F(u)=F0*exp((phi(u)-phi(u0))*G)",
+    "parallel_transport_equation": "dT+A_C*T=0",
+    "parallel_transport_solution": "T(u,u0)=exp(-(phi(u)-phi(u0))*G)",
+    "freedom": "ONE_CONSTANT_INVERTIBLE_LEFT_FRAME_F0",
+    "K_isometric_when": "F0_IS_K_ORTHOGONAL",
+    "new_functional_freedom": 0
+  },
+  "fingerprint": {
+    "determinant_ratio": 1,
+    "moving_eigenvalues": ["exp(delta_phi)", "exp(-delta_phi)"],
+    "eigenvalue_ratio": "exp(2*delta_phi)=sqrt(((b+u)*R(u0))/(R(u)*(b+u0)))",
+    "spectral_lines": "FIXED_G_EIGENLINES",
+    "K_form_preserved": true,
+    "flat_component_holonomy": "TRIVIAL_ON_CONTRACTIBLE_u_INTERVAL"
+  },
+  "gap_wall_gate": {
+    "walls": ["b+u=0", "R=alpha^2*b+(alpha-2)^2*u=0"],
+    "generic_alpha_not_one": "ABS_delta_phi_DIVERGES_AT_EITHER_SIMPLE_WALL",
+    "bounded_invertible_same_frame_extension": false,
+    "allowed_unclosed_routes": ["PATCHED_FRAME", "SINGULAR_FIELD_MAP", "DEGENERATE_SPECTRAL_THEORY", "NEW_ACTION_DATA"],
+    "alpha_one_control": "R=b+u__phi=0__F_CONSTANT"
+  },
+  "serialized_owner_audit": {
+    "unified_packet_role": "alpha_II_IS_RECONSTRUCTED_LOCAL_ACTION_COEFFICIENT_AND_U7_CHARGE",
+    "absorbed_source_names_alpha_II": false,
+    "absorbed_source_supplies_typed_two_field_TT_adapter": false,
+    "selected_cubic_supplies_derivative_TT_jacobian": false,
+    "current_matching_source_action_owner_count": 0,
+    "disposition": "REQUIRE_NEW_TYPED_SOURCE_ACTION_MAP_MEETING_THE_EXACT_FINGERPRINT"
+  },
+  "ceilings": {
+    "stationary_moving_background": "NOT_CONSTRUCTED",
+    "closed_positive_quantum_domain": "NOT_CONSTRUCTED",
+    "typed_98d_attachment": "OPEN_NONINVARIANT_NONLINEAR_BOUNDARY_OR_COHOMOLOGICAL_ONLY",
+    "physical_BFV_cohomology": "OPEN"
+  },
+  "disposition": {
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "dependencies": {
+    "normalization_gate": "lab/process/selected-k114-rsap-tt-alpha-normalization-invariant-owner-gate.json",
+    "transport_normal_form": "lab/process/selected-k113-rsap-tt-spectral-transport-normal-form-and-boundary-support-gate.json",
+    "minimal_variational_owner": "lab/process/selected-k112-rsap-spectral-connection-variational-owner-port.json",
+    "source_packet": "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+  },
+  "artifact": "explorations/conditional-build/selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate-2026-08-15.md",
+  "probe": "tests/channel-swings/selected_k115_rsap_tt_moving_jacobian_classification_and_gap_wall_gate_probe.py",
+  "hostile_review": "lab/process/hostile-reviews/2026-08-15-selected-k115-rsap-tt-moving-jacobian-classification-and-gap-wall-gate-review.md"
+}

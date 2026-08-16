@@ -7,6 +7,23 @@ updated_at: "2026-08-15"
 
 # Next Steps For Contributors
 
+> **2026-08-15 K115 THE GENERIC MOVING-TT JACOBIAN CLASS IS COMPLETE, AND THE
+> CURRENT SERIALIZED OWNER CENSUS IS EMPTY.** On one gapped component, every
+> invertible moving frame inducing K113 is, up to a constant frame,
+> `F=F0 exp[(phi-phi0)G]`; parallel transport is the inverse moving factor.
+> Its determinant is one, it preserves `K`, its `G` eigenlines are fixed, and
+> their reciprocal stretch is the exact K113 cross-ratio. For generic
+> `alpha_II!=1`, the stretch diverges at either simple spectral gap wall, so
+> there is no bounded invertible same-frame extension across the wall. The
+> absorbed source supplies no `alpha_II`-typed two-field TT adapter; the
+> unified packet reconstructs the coefficient and the action census charges
+> it as `U7`. **Do not count the reconstructed trivializing frame as action
+> ownership. Reopen with a new typed source/action map matching the complete
+> determinant, eigenline and cross-ratio fingerprint, or with explicit
+> patched/singular action data at the gap wall.** Stationarity, the `98D`
+> attachment, a selected closed positive domain and physical cohomology remain
+> separate open gates. Exact probe `33/33`.
+
 > **2026-08-15 K114 `alpha_II=1` IS A GENUINE ALIGNMENT CONDITION, NOT A
 > FIELD-NORMALIZATION TRICK.** For the TT pencil, the free and interaction
 > dynamics obey `[L_0,L_1]=b(alpha_II-1)G`. Every invertible field change

@@ -234,3 +234,16 @@ phenomenology or GU truth-status claim changes. Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k114_rsap_tt_alpha_normalization_invariant_owner_gate_probe.py
 ```
+
+## Successor closure (K115)
+
+K115 classifies the generic-alpha owner target completely. Every local
+invertible moving frame inducing K113 is, up to one constant frame,
+`exp((phi-phi0)G)`; the corresponding parallel transport is its inverse. The
+moving factor is `K`-orthogonal and determinant one, has fixed `G` eigenlines,
+and carries the exact reciprocal stretch fixed by the K113 cross-ratio. For
+generic `alpha_II!=1`, that stretch diverges at either simple spectral gap
+wall, excluding a bounded invertible same-frame extension but not patched or
+singular theories. The current serialized source/action custody supplies no
+typed TT map meeting this fingerprint, so the adapter remains reconstruction
+grade and requires genuinely new owner evidence.
