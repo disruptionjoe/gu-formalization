@@ -89,7 +89,7 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
-      "path": "lab/active-research/joe-directed/integration-review/conditional-portfolio-reset-wave-2026-08-16.md",
+      "path": "lab/active-research/joe-directed/archaeology/ar6-mh17-generation-inertia-type-crosswalk-2026-08-16.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
@@ -113,6 +113,10 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/carrier-notation/cn2-notation-carries-the-answer-2026-08-15.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
@@ -133,6 +137,106 @@
       "classification": "CONVENTIONAL_COMPARATOR"
     },
     {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb-wave-h210-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb1-h210-k77-rs-intertwiner-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb2-h210-equation916-cross-half-composition-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb3-h210-literal-pullback-rank-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb3-h210-source-observation-functor-crosswalk-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb3-wave-h210-observation-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb4-h210-finite-comoving-naturality-square-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb4-h210-fixed-versus-comoving-ps-typing-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb4-wave-h210-naturality-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-h210-four-dimensional-clifford-split-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-h210-projected-rank-strata-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-h210-source-fq-bridge-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-wave-h210-fq-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-equation916-observed-composition-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-full-correlated-lift-naturality-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-three-horn-compatibility-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-wave-h210-correlated-lift-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-forward-reverse-density-duality-composition-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-h210-minimal-odd-adapter-classifier-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-homogeneous-cell-parity-classifier-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-wave-h210-half-duality-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-h210-derivative-adapter-forward-covariance-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-h210-line-twist-stage-cb6-compatibility-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-h210-reverse-nabla-q-completion-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-wave-h210-derivative-adapter-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md",
       "classification": "SOURCE_NATIVE_ROUTE"
     },
@@ -141,11 +245,43 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he3-four-corner-partner-placement-and-family-rank-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he4-path-reprioritization-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he4-source-owner-intersection-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he4-two-ps-channels-have-distinct-upstairs-owners-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/integration-review/conditional-portfolio-reset-wave-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/integration-review/session-015qsi-coherence-integration-repair-2026-08-15.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/integration-review/three-lane-fertility-wave-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/integration-review/tw3-coherence-gluing-wave-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/integration-review/twistor-conditional-composition-wave-2026-08-16.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
@@ -209,6 +345,46 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn1-observed-neutrino-mass-pencil-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-equation916-k77-neutral-restriction-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-neutral-pencil-valuation-classifier-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-neutral-reality-charge-admissibility-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-source-native-neutrino-conditional-build-read-packet-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-wave-neutral-pencil-reprioritization-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xd-incidence-census-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xr-incidence-census-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-source-slot-neutral-line-incidence-classifier-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-wave-varpi-incidence-reprioritization-2026-08-16.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
       "path": "lab/active-research/joe-directed/majorana-126-neutrino/src1-source-steelman-of-the-vev-2026-08-14.md",
       "classification": "SOURCE_NATIVE_ROUTE"
     },
@@ -249,175 +425,11 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/sg4-axis/sg1-c6a-scope-narrowing-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/carrier-notation/cn2-notation-carries-the-answer-2026-08-15.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "classification": "SOURCE_NATIVE_ROUTE",
-      "path": "lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he3-four-corner-partner-placement-and-family-rank-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he4-two-ps-channels-have-distinct-upstairs-owners-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he4-source-owner-intersection-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/he4-path-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb1-h210-k77-rs-intertwiner-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb2-h210-equation916-cross-half-composition-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb-wave-h210-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb3-h210-literal-pullback-rank-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb3-h210-source-observation-functor-crosswalk-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb3-wave-h210-observation-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb4-h210-finite-comoving-naturality-square-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb4-h210-fixed-versus-comoving-ps-typing-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb4-wave-h210-naturality-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn1-observed-neutrino-mass-pencil-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/integration-review/three-lane-fertility-wave-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-h210-four-dimensional-clifford-split-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-h210-projected-rank-strata-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-h210-source-fq-bridge-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb5-wave-h210-fq-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-full-correlated-lift-naturality-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-equation916-observed-composition-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-h210-three-horn-compatibility-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb6-wave-h210-correlated-lift-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-homogeneous-cell-parity-classifier-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-h210-minimal-odd-adapter-classifier-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-forward-reverse-density-duality-composition-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb7-wave-h210-half-duality-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-h210-derivative-adapter-forward-covariance-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-h210-reverse-nabla-q-completion-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-h210-line-twist-stage-cb6-compatibility-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/high-energy-two-plus-one/cb8-wave-h210-derivative-adapter-reprioritization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-source-native-neutrino-conditional-build-read-packet-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-equation916-k77-neutral-restriction-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-neutral-pencil-valuation-classifier-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-neutral-reality-charge-admissibility-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn2-wave-neutral-pencil-reprioritization-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xd-incidence-census-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-existing-varpi-xr-incidence-census-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-source-slot-neutral-line-incidence-classifier-2026-08-16.md",
-      "classification": "SOURCE_NATIVE_ROUTE"
-    },
-    {
-      "path": "lab/active-research/joe-directed/majorana-126-neutrino/sn3-wave-varpi-incidence-reprioritization-2026-08-16.md",
       "classification": "SOURCE_NATIVE_ROUTE"
     },
     {
@@ -426,14 +438,6 @@
     },
     {
       "path": "lab/active-research/joe-directed/superposition-twistor/tw2-four-dimensional-detour-symbol-factorization-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/archaeology/ar6-mh17-generation-inertia-type-crosswalk-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
-    },
-    {
-      "path": "lab/active-research/joe-directed/integration-review/twistor-conditional-composition-wave-2026-08-16.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
@@ -449,8 +453,8 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
-      "path": "lab/active-research/joe-directed/integration-review/tw3-coherence-gluing-wave-2026-08-16.md",
-      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+      "classification": "SOURCE_NATIVE_ROUTE",
+      "path": "lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md"
     }
   ]
 }
