@@ -1,0 +1,1175 @@
+# The homonym register — one index for every same-token collision the program
+# has PAID for, plus the transcription-variant spellings that make exact-substring
+# censuses of the primary transcripts silently incomplete.
+#
+# CONSOLIDATION, NOT A RIVAL (FX-3, 2026-08-16). Homonym tracking existed on
+# five surfaces before this file; this register CONSOLIDATES them into one
+# machine-audited index with pointers back, and invents no new surface for
+# scoped work:
+#   1. lab/process/NAMES.md — the repo-level "homonym disambiguation table"
+#      (2026-08-10, 9 rows). Every row is absorbed here row-for-row
+#      (`names_md_row` holds the exact first table cell); the gate FAILS if
+#      NAMES.md ever has a name cell without a register entry, so the two
+#      surfaces cannot diverge silently. NAMES.md stays in place as the
+#      human-facing table.
+#   2. explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:182-189
+#      — the cb-b Layer-0 homonym quarantine (6 rows). Scope-local and
+#      AUTHORITATIVE for its cluster's wording; mirrored here as index rows.
+#      cb-b is not edited.
+#   3. explorations/unified-source-datum-packet-v0-2026-07-30.md:122-135 —
+#      the packet's "Layer-0 register" (10 rows), the surface LA-10 calls
+#      "the ledger's own Layer-0 homonym register". Scope-local and
+#      authoritative for packet vocabulary; mirrored here as index rows.
+#   4. Per-wave `layer0` blocks with disposition HOMONYM in wave JSONs
+#      (e.g. lab/process/eric-curt-wave3b-cech-domain-quotient.json,
+#      eric-curt-wave3c-y14-atlas-cauchy-domain.json). These are the SCOPED
+#      INSTRUMENT — typing-before-use inside one wave — and remain the right
+#      place for wave-local homonyms. Durable, cross-wave collisions graduate
+#      to this register.
+#   5. The `[ASR]` gloss convention in lab/sources/source-claim-register.yaml
+#      (10 rows carry per-quote glosses like "[ASR] 'petit salam' = Pati-Salam").
+#      That convention stays; the `transcription_variant` entries here are its
+#      central table.
+#   Earliest precedent: the canon torsion-pun quarantine in
+#   explorations/firewall-and-two-geometries/two-geometries-and-the-adapter-2026-06-29.md.
+#
+# ADJACENT REGISTRIES DELIBERATELY NOT MERGED (same reasoning as the 2026-08-08
+# council that split path-dependencies out of the fork registry):
+#   - lab/process/layer0-fork-registry.yaml — forks are OPEN QUESTIONS, not
+#     naming collisions.
+#   - lab/process/correction-registry.yaml — corrections propagation; a
+#     homonym-CAUSED correction (e.g. V15-2, C_fin vs C_inv) lives there and is
+#     cited here as a receipt.
+#   - GEOMETER-VS-PHYSICS-OBJECTS.md — a synonym crosswalk (one object, two
+#     vocabularies): the reverse hazard, its own surface.
+#
+# ENTRY DISCIPLINE. No entry without a receipt: every entry names the incident
+# and the artifact that paid for the confusion (or, for rows carried from a
+# prior surface, that surface's own recorded bite). A speculative homonym list
+# decays into noise; this one is grown on collision, like NAMES.md.
+#
+# KINDS.
+#   homonym               one token, two-plus unrelated live senses.
+#   near_collision        two spellings one token apart denoting different
+#                         objects, read as one.
+#   prefix_collision      two artifact-ID families sharing a prefix.
+#   transcription_variant one object, nonstandard spelling(s) in the primary
+#                         ASR transcripts; exact-substring censuses for the
+#                         standard spelling silently miss the source's own
+#                         statements.
+#   not_a_homonym         contrary control: a token that looks like a homonym
+#                         candidate and provably is not.
+# A lexicographer may call some `homonym` rows polysemy (senses share an
+# etymology). The register types by HAZARD — no result transfers between the
+# senses — not by etymology; the operational treatment is identical.
+#
+# SENSING FLOOR. A few highest-cost tokens carry a `sensing` block: a warn-only
+# census the gate PRINTS on every run and never fails on, because prose
+# legitimately uses ambient words. Baselines are dated observations, not
+# thresholds or targets.
+#
+# This file records typing only. It creates no claim, no verdict, no grade, no
+# priority, no lane movement and no public posture, and it is not evidence for
+# any physics statement. Every sense cites the artifact that owns it; the
+# artifact remains the authority.
+#
+# Read by: process_gates/homonym_register_audit.py (schema, locus resolution,
+# verbatim-quote verification, NAMES.md coverage, sensing census).
+# Certificate: tests/channel-swings/joe_directed_fx3_homonym_register.py.
+
+version: 1
+updated: 2026-08-16
+owner: lab/active-research/joe-directed/homonym/fx3-homonym-register-and-gate-2026-08-16.md
+gate: process_gates/homonym_register_audit.py
+seeded:
+  date: 2026-08-16
+  entries: 37
+  contrary_controls: 1
+
+consolidates:
+  - path: lab/process/NAMES.md
+    role: absorbed_row_for_row
+  - path: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    role: scope_local_authoritative
+    anchor: "## 2. Layer-0 typing (before use; the standing rule)"
+  - path: explorations/unified-source-datum-packet-v0-2026-07-30.md
+    role: scope_local_authoritative
+    anchor: "### 1.2 Layer-0 register"
+  - path: lab/process/eric-curt-wave3b-cech-domain-quotient.json
+    role: scoped_instrument
+  - path: lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json
+    role: scoped_instrument
+  - path: lab/sources/source-claim-register.yaml
+    role: asr_gloss_convention
+  - path: explorations/firewall-and-two-geometries/two-geometries-and-the-adapter-2026-06-29.md
+    role: earliest_precedent
+
+adjacent_not_consolidated:
+  - path: lab/process/layer0-fork-registry.yaml
+    reason: forks are open questions, not naming collisions
+  - path: lab/process/correction-registry.yaml
+    reason: correction propagation; homonym-caused corrections cited here as receipts
+  - path: GEOMETER-VS-PHYSICS-OBJECTS.md
+    reason: synonym crosswalk (one object, two vocabularies), the reverse hazard
+
+entries:
+
+  # ------------------------------------------------------------------
+  # FX-3 incident entries (new, 2026-08-16)
+  # ------------------------------------------------------------------
+
+  - token: cone
+    kind: homonym
+    provenance: fx3-2026-08-16
+    senses:
+      - definition: >-
+          the (9,5) characteristic/symbol cone {q=0} of the Dirac symbol on the
+          fibre GL(4,R)/O(3,1) — a finite lightcone, the boundary object of the
+          outside analysis
+        namespace: symbol/microlocal analysis on Y14
+        locus: "explorations/wave-swing3-the-outside-2026-07-21.md:18"
+        quote: "BOUNDARY=CHARACTERISTIC-CONE"
+      - definition: >-
+          the open cone c1>0, c2>0 of G*-invariant positive-definite bilinear
+          forms in W206 — a 2-parameter majorant family, not a single ray
+        namespace: invariant-form / Krein-grading analysis (W203/W206/W228)
+        locus: "explorations/W206-decisive-bit-counterfactual-invariance-2026-07-14.md:10"
+        quote: "restricts to the open cone c1>0,c2>0, a 2-parameter family"
+      - definition: >-
+          Met_Lor, the open, dilation-invariant, non-convex cone of Lorentzian
+          metrics at a point (signature-(3,1) locus in Sym^2(R^4*)) — MC-1's
+          object
+        namespace: metric-cone-boundedness (MC-1)
+        locus: "lab/active-research/joe-directed/metric-cone-boundedness/mc1-the-cone-does-not-bound-and-the-negative-direction-is-the-cone-itself-2026-08-14.md:479"
+        quote: "should be typed `Met_Lor`-cone wherever it appears"
+    disambiguator:
+      rule: >-
+        write "symbol cone" / "characteristic cone" for sense 1, "invariant-form
+        cone (W206)" for sense 2, "Met_Lor-cone" for sense 3; never bare "cone"
+        in a sentence that crosses namespaces
+      attested_at:
+        - "explorations/wave-swing3-the-outside-2026-07-21.md:18"
+        - "explorations/W228-close-a1-corrected-sign-gu-instance-2026-07-14.md:19"
+        - "lab/active-research/joe-directed/metric-cone-boundedness/mc1-the-cone-does-not-bound-and-the-negative-direction-is-the-cone-itself-2026-08-14.md:479"
+    receipt:
+      incident: >-
+        three distinct objects wearing one name repo-wide; flagged by the
+        2026-08-14 steward pass as live naming debt, filed by MC-1 as a homonym
+        warning, and carried as dropped commitment 32 in AR-1;
+        eric-curt-wave3c had already tagged the first sense HOMONYM ("null
+        cone") in its layer0 block
+      paid_by:
+        - "lab/active-research/joe-directed/steward-2026-08-14-research-maintenance-pass.md:56"
+        - "lab/active-research/joe-directed/metric-cone-boundedness/mc1-the-cone-does-not-bound-and-the-negative-direction-is-the-cone-itself-2026-08-14.md:476"
+        - "lab/active-research/joe-directed/archaeology/ar1-dropped-commitments-ledger-2026-08-15.md:516"
+      quote: "Three distinct objects are now called a \"cone\""
+      quote_at: "lab/active-research/joe-directed/steward-2026-08-14-research-maintenance-pass.md"
+    sensing:
+      pattern: '\bcones?\b'
+      pattern_flags: IGNORECASE
+      scope: "lab/active-research/joe-directed"
+      glob: "*.md"
+      exclude: ["joe-directed/homonym"]
+      baseline: 122
+      baseline_files: 11
+      measured: 2026-08-16
+      mode: warn_only
+      why: >-
+        highest breadth of the flagged homonyms (repo-wide per the steward
+        pass); the census tells a reader which files to re-type against the
+        three senses; red would be absurd — "light cone" alone is legitimate
+        prose
+
+  - token: "Classification:"
+    kind: homonym
+    provenance: fx3-2026-08-16
+    senses:
+      - definition: >-
+          ROUTING TYPE — the field of the GU-COMPARATOR-ROUTING notice, exact
+          machine-matched form Classification: `X` with X in
+          {CONVENTIONAL_COMPARATOR, SOURCE_NATIVE_ROUTE,
+          BRIDGE_OR_SEMANTIC_BOUNDARY, INTERNAL_STRUCTURAL_ONLY}
+        namespace: comparator-routing method and its audit
+        locus: "lab/methods/source-native-comparator-routing.md:143"
+        quote: "INTERNAL_STRUCTURAL_ONLY"
+      - definition: >-
+          CLAIM STATUS — artifact sections headed "Classification, in
+          target-native vocabulary" whose vocabulary is ROUTE KILLED /
+          CANDIDATE KILLED / REFUTED / ROUTE CLOSED: a verdict summary, not a
+          routing type
+        namespace: per-artifact verdict sections (CC-1 s5, MC-1 s4.4; census
+          2026-08-16 also finds AC-1 s4, BD-1 s7)
+        locus: "lab/active-research/joe-directed/cosmological-constant-sign/cc1-killing-signature-cannot-sign-lambda-2026-08-14.md:310"
+        quote: "Classification, in target-native vocabulary"
+    disambiguator:
+      rule: >-
+        the routing gate owns the token in the exact form Classification: `X`;
+        in NEW artifacts do not head a claim-status section with the word
+        "Classification" — a negative prescription, like "cite by namespace,
+        not by prefix"
+      attested_at:
+        - "process_gates/source_native_comparator_routing_audit.py:32"
+        - "lab/active-research/joe-directed/base-duality/README.md:25"
+    receipt:
+      incident: >-
+        the routing backlog stalled on artifacts that "carry a section headed
+        Classification but declare no routing type": bd-reg's Lens 4 names the
+        homonym, rows CC-1 and MC-1 sat undecidable ("no authorial tiebreak"),
+        and the routing audit's own comment block records "a homonym, not a
+        routing type"
+      paid_by:
+        - "lab/active-research/joe-directed/base-duality/bd-reg-routing-backlog-disposition-2026-08-15.md:68"
+        - "lab/active-research/joe-directed/base-duality/bd-reg-routing-backlog-disposition-2026-08-15.md:129"
+        - "process_gates/source_native_comparator_routing_audit.py:92"
+      quote: "claim-status vocabulary (ROUTE KILLED / REFUTED), a homonym, not a"
+      quote_at: "process_gates/source_native_comparator_routing_audit.py"
+    sensing:
+      pattern: '^#+.*Classification, in target-native vocabulary'
+      pattern_flags: MULTILINE
+      scope: "lab/active-research/joe-directed"
+      glob: "*.md"
+      exclude: ["joe-directed/homonym"]
+      baseline: 4
+      baseline_files: 4
+      measured: 2026-08-16
+      mode: warn_only
+      why: >-
+        the collision that stalled a real backlog; heading-anchored so quotes
+        of the phrase in prose do not count; NOTE the census already corrects
+        the record — FOUR files carry the heading (AC-1:409, BD-1:333,
+        CC-1:310, MC-1:466), not the two the tasking named
+
+  - token: CHIRAL
+    kind: homonym
+    provenance: fx3-2026-08-16
+    senses:
+      - definition: >-
+          PHASE-axis value in the forcing enumeration meaning the massless /
+          unbroken (decreased-VEV) point — says nothing about handedness
+        namespace: tests/gu-forces forcing enumerations (PHASE axis)
+        locus: "tests/gu-forces/leg_a_forcing_enumeration.py:57"
+        quote: "broken massive point / unbroken chiral (decreased-VEV) point"
+      - definition: >-
+          handedness — which half-spin bundle a declaration selects; the
+          source's written assignment is 0-forms in the positive half, 1-forms
+          in the negative half, and the closed repo vocabulary for it is CN-2's
+          S-typing (S-HALF-SAME / S-HALF-OPPOSITE / S-FULL-DIRAC /
+          S-CHIRALITY-UNTYPED)
+        namespace: carrier chirality typing (CN-2, CR-B, tree README)
+        locus: "papers/drafts/Transcript into the impossible.md:107"
+        quote: "zero forms valued in the positive spinners, direct sum one forms valued in the negative spinners"
+    disambiguator:
+      rule: >-
+        write "CHIRAL (massless/unbroken)" when naming the PHASE value, exactly
+        as leg_a's own comment glosses it; for handedness use the CN-2 closed
+        vocabulary S-HALF-SAME / S-HALF-OPPOSITE, never the bare word
+      attested_at:
+        - "tests/gu-forces/leg_a_forcing_enumeration.py:57"
+        - "lab/active-research/joe-directed/README.md:50"
+    receipt:
+      incident: >-
+        SG-1: a reader hunting a chirality selector finds exactly one token
+        spelled CHIRAL and routes to it; the collapse propagated to three
+        surfaces — C6a's own note, the independent referee (same collapse),
+        and the tree README's s7.4 misroute at README:74
+      paid_by:
+        - "lab/active-research/joe-directed/sg4-axis/sg1-c6a-scope-narrowing-2026-08-16.md:9"
+        - "lab/active-research/joe-directed/sg4-axis/sg1-c6a-scope-narrowing-2026-08-16.md:348"
+      quote: "the propagation mechanism is a Layer-0 HOMONYM, the phase axis carrying a value literally spelled CHIRAL meaning massless/unbroken"
+      quote_at: "lab/active-research/joe-directed/sg4-axis/sg1-c6a-scope-narrowing-2026-08-16.md"
+    sensing:
+      pattern: '^(?=.*\bCHIRAL\b)(?!.*(massless|PHASE|unbroken|MASSIVE|homonym|HOMONYM)).*$'
+      pattern_flags: MULTILINE
+      scope: "lab/active-research/joe-directed"
+      glob: "*.md"
+      exclude: ["joe-directed/homonym"]
+      baseline: 4
+      baseline_files: 2
+      measured: 2026-08-16
+      mode: warn_only
+      why: >-
+        the misroute reached three surfaces; the census counts lines carrying
+        the uppercase token WITHOUT its massless/PHASE gloss, which is exactly
+        the reader-trap SG-1 documented; lowercase prose "chiral" never counts
+
+  - token: positive
+    kind: homonym
+    provenance: fx3-2026-08-16
+    note: >-
+      a lexicographer would call this polysemy; typed here by hazard (IT-C: "No
+      result transfers between the four"). Executes IT-C's proposed delta D5 in
+      the central register instead of editing cb-b (cb-b is not this pass's to
+      edit; its quarantine stays authoritative for its own six rows).
+    senses:
+      - definition: definiteness of a state-space form
+        namespace: state-space / Krein analysis rows (LT-SM8, RA-D4, RA-G2)
+        locus: "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md:669"
+      - definition: positivity of a normalized global functional
+        namespace: LT-GR2c (the normalized-action row)
+        locus: "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md:670"
+      - definition: the sign of a cosmological term
+        namespace: LT-GR2.summary (Lambda sign)
+        locus: "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md:671"
+      - definition: positive-chirality half-spin bundles ("positive spinners")
+        namespace: carrier chirality (primary transcript vocabulary)
+        locus: "papers/drafts/Transcript into the impossible.md:107"
+    disambiguator:
+      rule: >-
+        qualify the noun, never the bare adjective — "form-definiteness (state
+        space)", "functional positivity (LT-GR2c)", "sign(Lambda)", "S^+
+        (positive-chirality) half"; all four qualified forms are the cited
+        rows' own vocabulary
+      attested_at:
+        - "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md:667"
+    receipt:
+      incident: >-
+        IT-C exhibited four distinct senses inside ONE artifact's evidence
+        while adjudicating LT-GR2c, and proposed quarantine row D5; no
+        quarantine row existed anywhere
+      paid_by:
+        - "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md:667"
+        - "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md:829"
+      quote: "distinct senses of `positive`/`positivity` in evidence"
+      quote_at: "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md"
+    sensing_refused: >-
+      deliberately NOT sensed: "positive" is ambient prose; a census would be
+      pure noise and a gate that reds on it would be removed within a week and
+      deserve it. The disambiguator rule is the whole instrument.
+
+  - token: so(1,3)
+    kind: homonym
+    provenance: fx3-2026-08-16
+    senses:
+      - definition: >-
+          so(1,3)_endo — the endogenous/diagonal six-dimensional Lorentz
+          subalgebra of so(7,7) induced by frame rotations of X; the graph of
+          delta over so(1,3)_H
+        namespace: soldered-ad / chimeric bundle analysis (SA-1)
+        locus: "lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md:384"
+      - definition: >-
+          so(1,3)_H — the block Lorentz subalgebra named by the manuscript's
+          observation chain Spin(7,7) -> Spin(1,3) x Spin(6,4)
+        namespace: manuscript observation chain (SC-GRP-02 family)
+        locus: "lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md:348"
+    disambiguator:
+      rule: >-
+        always subscript in any file where both are in play: so(1,3)_endo vs
+        so(1,3)_H (SA-1's own coinage); they intersect in zero, differ by an
+        internal rotation delta(X) in so(6,4), and give 0 and 21 on the same k
+      attested_at:
+        - "lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md:384"
+    receipt:
+      incident: >-
+        MD-1's INERT-AD horn text conflated the two subalgebras into one named
+        object; SA-1 re-typed the fork — the horn as typed is refuted while
+        the narrower two-subalgebra question is the genuine residue
+      paid_by:
+        - "lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md:8"
+        - "lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md:385"
+      quote: "=> they INTERSECT IN ZERO"
+      quote_at: "lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md"
+    sensing_refused: >-
+      not sensed: bare so(1,3) is correct in the hundreds of single-sense
+      contexts (the 4D Lorentz algebra); the subscript rule binds only files
+      where both subalgebras appear, which a token census cannot see.
+
+  - token: "Spin(6,4)/Spin(3,2) vs O(6,4)/U(3,2)"
+    kind: near_collision
+    provenance: fx3-2026-08-16
+    senses:
+      - definition: >-
+          O(6,4)/U(3,2) — the homogeneous space of compatible complex
+          structures; arrow 1 of the reduction chain, built and correct, live
+          in ledger v0.258 and the twistor construction
+        namespace: reduction chain, correct form
+        locus: "lab/active-research/joe-directed/chain-repair/ch3-the-nested-chain-is-repaired-at-three-sites-and-the-rank-drop-moves-to-arrow-one-2026-08-15.md:115"
+      - definition: >-
+          Spin(6,4) -> Spin(3,2) -> SU(3)xSU(2)xU(1) — the IMPOSSIBLE nested
+          chain (dim so(3,2) = 10 < 12): killed as written by SC-A, repaired in
+          place at H19 and LA-6 by CH-3; survives only inside quotations
+        namespace: killed repository nesting (historical)
+        locus: "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md:9"
+    disambiguator:
+      rule: >-
+        write the middle node in full, every time; the best-supported
+        reconstruction is Spin(6,4) > SU(3,2) > S(U(3)xU(2)); the two slash
+        forms differ by one token and are NOT the same object
+      attested_at:
+        - "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md:7"
+    receipt:
+      incident: >-
+        one object, two slash notations differing by one token let an
+        impossible variant survive five weeks (H19 2026-07-11 -> SC-A
+        2026-08-15) across three assertion sites while the correct coset form
+        was simultaneously present and correct in ~20 files
+      paid_by:
+        - "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md:7"
+        - "lab/active-research/joe-directed/chain-repair/ch3-the-nested-chain-is-repaired-at-three-sites-and-the-rank-drop-moves-to-arrow-one-2026-08-15.md:124"
+      quote: "they differ by one token: `O(6,4)/U(3,2)`"
+      quote_at: "lab/active-research/joe-directed/chain-repair/ch3-the-nested-chain-is-repaired-at-three-sites-and-the-rank-drop-moves-to-arrow-one-2026-08-15.md"
+    sensing:
+      pattern: 'Spin\(6,\s*4\)\s*(?:->|→|>|/|⊃|\\supset)\s*Spin\(3,\s*2\)'
+      pattern_flags: NONE
+      scope: "."
+      glob: "*.md"
+      exclude: ["_local", ".git", "joe-directed/homonym"]
+      baseline: 11
+      baseline_files: 4
+      measured: 2026-08-16
+      mode: warn_only
+      why: >-
+        the costliest incident in the class (five weeks); all 11 baseline
+        occurrences are quotations inside SC-A (4), CH-3 (5), LA-7 (1) and the
+        session-015qsi integration record (1) — a NEW occurrence outside a
+        quotation is a fresh instance of the killed spelling; warn-only because
+        quoting the killed form is legitimate and required for the record
+
+  - token: "BD-"
+    kind: prefix_collision
+    provenance: fx3-2026-08-16
+    senses:
+      - definition: >-
+          lettered BD-A/B/C/D — the base-duality wave
+          (lab/active-research/joe-directed/base-duality/)
+        namespace: base-duality channel
+        locus: "lab/active-research/joe-directed/base-duality/README.md:22"
+      - definition: >-
+          numbered BD-1/BD-2 — the baryon-number thread (BD-1 in
+          baryon-number-and-proton-decay/, BD-2 filed under
+          majorana-126-neutrino/)
+        namespace: baryon-number-and-proton-decay channel
+        locus: "lab/active-research/joe-directed/baryon-number-and-proton-decay/bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md:333"
+    disambiguator:
+      rule: "cite by namespace, not by prefix (the BD README's own prescription)"
+      attested_at:
+        - "lab/active-research/joe-directed/base-duality/README.md:25"
+    receipt:
+      incident: >-
+        the joe-directed index cited "BD-2's $ correction" meaning the baryon
+        thread while the lettered base-duality wave was live under the same
+        prefix; the base-duality README had to post a warning block
+      paid_by:
+        - "lab/active-research/joe-directed/base-duality/README.md:22"
+      quote: "`BD-A/B/C/D` here are NOT `BD-1/BD-2`."
+      quote_at: "lab/active-research/joe-directed/base-duality/README.md"
+    sensing_refused: >-
+      not sensed: every in-thread use of a BD id is legitimate; the namespace
+      rule is enforceable only at citation sites, which a token census cannot
+      classify.
+
+  # ------------------------------------------------------------------
+  # Transcription variants (primary ASR transcripts; one object, several
+  # spellings — the census-miss hazard runs opposite to homonymy)
+  # ------------------------------------------------------------------
+
+  - token: vial
+    kind: transcription_variant
+    provenance: fx3-2026-08-16
+    canonical: Weyl
+    variants:
+      - form: "vial spinors"
+        locus: "lab/sources/transcripts/toe-weinstein-gu-40-years.md:716"
+        quote: "the two complex dimensional vial spinors"
+        word_count: 1
+      - form: "vial equations"
+        locus: "papers/drafts/Transcript into the impossible.md:158"
+        quote: "taking a Dirac equation into two vial equations"
+        word_count: 1
+      - form: "vial/vile tensor, vile fermion (comparator-side, Mannheim)"
+        locus: "lab/sources/transcripts/toe-mannheim-conformal-gravity-2026-07-06.md:154"
+        quote: "the square of the vial tensor"
+    disambiguator:
+      rule: >-
+        censuses over the ASR transcripts MUST include the variant spellings;
+        analysis prose writes Weyl and glosses the quote, as the claim
+        register's [ASR] notes already do
+      attested_at:
+        - "lab/sources/source-claim-register.yaml:1833"
+        - "lab/sources/claim-mining-toe-mannheim-2026-07-20.md:428"
+    receipt:
+      incident: >-
+        the primary claim register itself must quote the variant verbatim
+        ("pull back 'vial spinners'") and gloss it [ASR]; an exact-substring
+        census for "Weyl" over the ASR transcripts misses the source's own
+        one-generation statement
+      paid_by:
+        - "lab/sources/source-claim-register.yaml:1833"
+      quote: "pull back ''vial spinners''"
+      quote_at: "lab/sources/source-claim-register.yaml"
+    control: >-
+      the professionally edited 2020 Portal transcript
+      (portal-special-gu-first-look-2020-04-02.md) has ZERO "vial" and writes
+      Weyl/spinor throughout — the variant is a property of the ASR engine,
+      not of the speaker.
+
+  - token: spinner
+    kind: transcription_variant
+    provenance: fx3-2026-08-16
+    canonical: spinor
+    variants:
+      - form: "spinner/spinners (toe-weinstein-gu-40-years)"
+        locus: "lab/sources/transcripts/toe-weinstein-gu-40-years.md:144"
+        quote: "the spinner bundle on y14"
+        word_count: 15
+      - form: "spinner/spinners (Transcript into the impossible)"
+        locus: "papers/drafts/Transcript into the impossible.md:107"
+        quote: "zero forms valued in the positive spinners"
+        word_count: 32
+    disambiguator:
+      rule: >-
+        same as vial: census both spellings; probes that read the primary must
+        carry the variant tokens, as SG-1's CHIRALITY_TOKENS already does
+        ("positive spinner", "negative spinner")
+      attested_at:
+        - "tests/channel-swings/joe_directed_sg1_c6a_scope_narrowing.py:86"
+    receipt:
+      incident: >-
+        the chirality-assignment locus itself (ITI:107) is spelled "positive
+        spinners"; IT-C's fourth sense of positive and SG-1's token vocabulary
+        both had to quote the variant to reach the source's statement
+      paid_by:
+        - "lab/active-research/joe-directed/indefiniteness-typing/itc-positivity-rows-are-five-not-ten-2026-08-15.md:829"
+        - "tests/channel-swings/joe_directed_sg1_c6a_scope_narrowing.py:86"
+      quote: "positive spinners"
+      quote_at: "papers/drafts/Transcript into the impossible.md"
+    control: >-
+      portal-special-gu-first-look-2020-04-02.md: zero "spinner", 37
+      spinor/spinors — engine-specific, not speaker-specific.
+
+  - token: "Ruidu Schwinger / Rarita Schwinger (unhyphenated)"
+    kind: transcription_variant
+    provenance: fx3-2026-08-16
+    canonical: Rarita-Schwinger
+    variants:
+      - form: "Ruidu Schwinger"
+        locus: "papers/drafts/Transcript into the impossible.md:128"
+        quote: "the Ruidu Schwinger three halves representation"
+        word_count: 1
+      - form: "Rarita Schwinger (unhyphenated)"
+        locus: "papers/drafts/Transcript into the impossible.md:128"
+        quote: "tensor Rarita Schwinger on w"
+    disambiguator:
+      rule: >-
+        canonical spelling Rarita-Schwinger in analysis; censuses over ITI must
+        also match "Ruidu Schwinger" and the unhyphenated form
+      attested_at:
+        - "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:507"
+    receipt:
+      incident: >-
+        class receipt (prophylactic, licensed by the demonstrated census-miss
+        mechanism of the [ASR] gloss convention): ITI:128 states the
+        Rarita-Schwinger exponential/product property — the same property
+        portal-special:507 states under the canonical spelling — and a
+        hyphen-exact census misses it
+      paid_by:
+        - "lab/sources/source-claim-register.yaml:1833"
+        - "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md:507"
+      quote: "the Ruidu Schwinger three halves representation"
+      quote_at: "papers/drafts/Transcript into the impossible.md"
+
+  - token: "Petit Salaam"
+    kind: transcription_variant
+    provenance: fx3-2026-08-16
+    canonical: Pati-Salam
+    variants:
+      - form: "Petit Salaam"
+        locus: "papers/drafts/Transcript into the impossible.md:161"
+        quote: "general relativity knows Petit Salaam"
+        word_count: 3
+      - form: "petit salam (glossed in the claim register)"
+        locus: "lab/sources/source-claim-register.yaml:2120"
+        quote: "[ASR] 'petit salam' = Pati-Salam"
+    disambiguator:
+      rule: >-
+        canonical Pati-Salam in analysis; censuses over ITI must include the
+        variant — the repo's ~3006 "Pati-Salam" hits (SC-A's census, row :93)
+        do not reach ITI's three statements, one of which is the program's
+        headline claim
+      attested_at:
+        - "lab/sources/source-claim-register.yaml:2120"
+    receipt:
+      incident: >-
+        the claim register already carries the [ASR] gloss for this exact
+        variant, and ITI:161/:164 state the headline "GR knows Pati-Salam"
+        claim ONLY under the variant spelling — an exact-substring census of
+        the canonical form returns zero on the source's central statement in
+        that transcript
+      paid_by:
+        - "lab/sources/source-claim-register.yaml:2120"
+        - "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md:93"
+      quote: "general relativity knows Petit Salaam"
+      quote_at: "papers/drafts/Transcript into the impossible.md"
+
+  - token: "Salam Strathy"
+    kind: transcription_variant
+    provenance: fx3-2026-08-16
+    canonical: Salam-Strathdee
+    grade: reconstructed-from-context; audio unchecked (same honesty bar as SC-A's audio caveat)
+    variants:
+      - form: "Salam Strathy"
+        locus: "papers/drafts/Transcript into the impossible.md:158"
+        quote: "We fed Salam Strathy"
+        word_count: 1
+    disambiguator:
+      rule: >-
+        read as Salam-Strathdee (the superspace construction that "eats an
+        affine space" in the surrounding sentence); censuses for
+        superspace/SUSY vocabulary over ITI must include the variant
+      attested_at:
+        - "papers/drafts/Transcript into the impossible.md:158"
+    receipt:
+      incident: >-
+        class receipt (prophylactic, same mechanism as the [ASR] convention):
+        the SUSY-refit statement — the transcript's one structural
+        supersymmetry claim — is stated only under this spelling; no census
+        for the canonical name reaches it
+      paid_by:
+        - "lab/sources/source-claim-register.yaml:1833"
+      quote: "We fed Salam Strathy"
+      quote_at: "papers/drafts/Transcript into the impossible.md"
+
+  # ------------------------------------------------------------------
+  # Carried row-for-row from lab/process/NAMES.md (2026-08-10..)
+  # The gate fails if NAMES.md ever holds a name cell not carried here.
+  # ------------------------------------------------------------------
+
+  - token: "Met(X^4)"
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "`Met(X^4)`"
+    senses:
+      - definition: space of Riemannian metrics — convex cone, contractible
+        namespace: canon/no-go-class-relative-map.md Sec 2.3
+        locus: "lab/process/NAMES.md:15"
+      - definition: >-
+          space of Lorentzian metrics = Y14 — fibre GL(4,R)/O(3,1),
+          non-contractible; wave3c's layer0 block additionally splits Met(X)
+          into the finite bundle vs the space of global sections
+        namespace: w2-y14 / Y14 analysis
+        locus: "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json:18"
+    disambiguator:
+      rule: "name the signature (Riemannian Met vs Met_Lor/Y14), and bundle vs section space"
+      attested_at: ["lab/process/NAMES.md:15"]
+    receipt:
+      incident: "D8: Riemannian fact applied under Lorentzian name, load-bearing for the FH Option-B elimination"
+      paid_by: ["lab/process/NAMES.md:15"]
+      quote: "Riemannian fact applied under Lorentzian name"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: "the 14"
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "\"the 14\""
+    senses:
+      - definition: "Y14 = Met(X4): total space, 4 + 10 symmetric fibre"
+        namespace: Y14 geometry
+        locus: "lab/process/NAMES.md:16"
+      - definition: "exterior-grading count Lambda^1+Lambda^2+Lambda^3 (totals 18 over a 4-base)"
+        namespace: exterior-algebra grading counts
+        locus: "lab/process/NAMES.md:16"
+    disambiguator:
+      rule: "say which 14: the total space, or the form-degree count (which is 18, not 14, over a 4-base)"
+      attested_at: ["lab/process/NAMES.md:16"]
+    receipt:
+      incident: "coefficients silently crossing a fork; no natural GL(4) iso S^2 =~ Lambda^2+Lambda^3"
+      paid_by: ["lab/process/NAMES.md:16"]
+      quote: "coefficients silently crossing a fork"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: "the metric"
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "\"the metric\""
+    senses:
+      - definition: base metric g on X^4 (Lorentzian, 4d)
+        namespace: base geometry
+        locus: "lab/process/NAMES.md:17"
+      - definition: DeWitt/gimmel fibre metric on Y14 (metric-on-metrics, (7,3)->(6,4))
+        namespace: fibre geometry
+        locus: "lab/process/NAMES.md:17"
+    disambiguator:
+      rule: "base metric g vs gimmel/DeWitt fibre metric — name the manifold it lives on"
+      attested_at: ["lab/process/NAMES.md:17"]
+    receipt:
+      incident: "two objects, one word, related by an action; conflation is the classic bug"
+      paid_by: ["lab/process/NAMES.md:17"]
+      quote: "conflation is the classic bug"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: "C (the parity)"
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "`C` / \"the parity\""
+    senses:
+      - definition: "ghost parity: LINEAR involution — the Krein form K = eta_V (x) beta_S"
+        namespace: Krein/ghost structure
+        locus: "lab/process/NAMES.md:18"
+      - definition: PT/Krein C-operator (existence near-closed-negative)
+        namespace: PT-symmetry analysis
+        locus: "lab/process/NAMES.md:18"
+      - definition: "antilinear chiralizer C = J_quat . G (frame charge exactly 0)"
+        namespace: frame-charge analysis
+        locus: "lab/process/NAMES.md:18"
+      - definition: "monodromy coflip C_perp = K J_obs (the C -> -C transport)"
+        namespace: monodromy transport
+        locus: "lab/process/NAMES.md:18"
+    disambiguator:
+      rule: "four objects, one letter: say Krein form K, C-operator, chiralizer, or coflip C_perp"
+      attested_at: ["lab/process/NAMES.md:18"]
+    receipt:
+      incident: "the 0.00e+00 frame charge belongs to (c) only and does NOT transfer to (a)"
+      paid_by: ["lab/process/NAMES.md:18"]
+      quote: "frame charge belongs to (c) only"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: sigma
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "`sigma`"
+    senses:
+      - definition: "the section sigma : X4 -> Y14 (a chosen metric per point)"
+        namespace: bundle geometry
+        locus: "lab/process/NAMES.md:19"
+      - definition: "the orientation / time-reversal ledger bit (the sigma in DU's sigma = w1 posit)"
+        namespace: orientation data
+        locus: "lab/process/NAMES.md:19"
+    disambiguator:
+      rule: "section sigma vs orientation bit — a section is not an orientation class"
+      attested_at: ["lab/process/NAMES.md:19"]
+    receipt:
+      incident: "which sense sigma = w1 means changes the claim entirely"
+      paid_by: ["lab/process/NAMES.md:19"]
+      quote: "changes the claim entirely"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: carrier
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "\"carrier\""
+    senses:
+      - definition: "the supplied fixed 192-dim W (j=1 sector) — conditional input, not derived (CARRIER-20260810)"
+        namespace: supplied-carrier theorems
+        locus: "lab/process/NAMES.md:20"
+      - definition: "ker(Gamma) matter content generally (e.g. the 40 SM-neutral states, 8 of which are provably NOT in W)"
+        namespace: matter-content analysis
+        locus: "lab/process/NAMES.md:20"
+    disambiguator:
+      rule: "supplied W vs ker(Gamma) content — the correction CARRIER-20260810 rides on the difference"
+      attested_at: ["lab/process/NAMES.md:20"]
+    receipt:
+      incident: "the 2026-08-10 canon byproduct sentence was false under sense 1"
+      paid_by: ["lab/process/NAMES.md:20", "lab/process/correction-registry.yaml:41"]
+      quote: "was false under sense 1"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: "SIGNATURE-AMBIENT vs REAL-CLIFFORD-FORM"
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "`SIGNATURE-AMBIENT` vs `REAL-CLIFFORD-FORM`"
+    senses:
+      - definition: "ambient signature fork (9,5) vs (7,7) — OPEN"
+        namespace: layer0-fork-registry (SIGNATURE-AMBIENT)
+        locus: "lab/process/NAMES.md:21"
+      - definition: "which real Clifford algebra the source computes in — settled Cl(7,7)=M128(R) 2026-08-04"
+        namespace: source-computation typing
+        locus: "lab/process/NAMES.md:21"
+    disambiguator:
+      rule: "the registry says Distinct in so many words: an open geometry fork vs a settled computation fact"
+      attested_at: ["lab/process/NAMES.md:21"]
+    receipt:
+      incident: "conflated twice by two authors in one month"
+      paid_by: ["lab/process/NAMES.md:21"]
+      quote: "conflated twice by two authors in one month"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: "class C"
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "class `C`"
+    senses:
+      - definition: "C_fin: the certified 7-row census (enum-completeness, post-V15-2)"
+        namespace: certified census
+        locus: "lab/process/NAMES.md:22"
+      - definition: "C_inv: the semantic invariant class (NOT certified); also \"category C\" elsewhere in the same file"
+        namespace: semantic class
+        locus: "lab/process/NAMES.md:22"
+    disambiguator:
+      rule: "C_fin vs C_inv, always subscripted; correction V15-2 owns the split"
+      attested_at: ["lab/process/NAMES.md:22"]
+    receipt:
+      incident: "the externality chain's strength depends on which one a sentence means; correction V15-2 exists because of it"
+      paid_by: ["lab/process/NAMES.md:22", "lab/process/correction-registry.yaml:29"]
+      quote: "depends on which one a sentence means"
+      quote_at: "lab/process/NAMES.md"
+
+  - token: "H / H_q / H_u / H^pm"
+    kind: homonym
+    provenance: lab/process/NAMES.md
+    names_md_row: "`H` / `H_q` / `H_u` / `H^\\pm`"
+    senses:
+      - definition: "H_q = iB gamma(q/2): trace-owned Hermitian form on the full two-C^(32,32) carrier; H_u: observer-time Hermitian form"
+        namespace: Hermitian-form analysis
+        locus: "lab/process/NAMES.md:23"
+      - definition: "H^- = X(S^+) and H^+ = X(S^-): generation-hinge carrier subspaces, not Hermitian forms"
+        namespace: generation-hinge carriers
+        locus: "lab/process/NAMES.md:23"
+    disambiguator:
+      rule: "subscripted forms are forms; superscripted H^pm are subspaces; never bare H where both are live"
+      attested_at: ["lab/process/NAMES.md:23"]
+    receipt:
+      incident: "v0.220 silently moved a rank calculation to a B-skew comparator; v0.221 corrected rank 80/160 to 120/160 and reopened the scalar completion"
+      paid_by: ["lab/process/NAMES.md:23"]
+      quote: "corrected rank `80/160` to `120/160`"
+      quote_at: "lab/process/NAMES.md"
+
+  # ------------------------------------------------------------------
+  # Mirrored from cb-b's Layer-0 quarantine (scope-local authority:
+  # explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:182-189)
+  # ------------------------------------------------------------------
+
+  - token: theta
+    kind: homonym
+    provenance: cb-b-lagrangian-terms-2026-08-05
+    senses:
+      - definition: "GU's connection distortion theta = pi - eps^{-1} B eps in Omega^1(Y, ad P); the dark-energy field"
+        namespace: cb-b rows GR-2/GR-6
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:184"
+      - definition: the QCD vacuum angle theta_QCD
+        namespace: cb-b row SM-7
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:184"
+      - definition: the packet's T_9, a Z/2 holonomy phase of the orientation line L_sigma
+        namespace: cb-b row SM-7
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:184"
+      - definition: the Cartan involution theta of so(9,5)
+        namespace: cb-b row SM-8
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:184"
+    disambiguator:
+      rule: "four objects; cb-b's row assigns each ledger row its sense — consult it before any theta transfer"
+      attested_at: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:184"]
+    receipt:
+      incident: "typed in cb-b for the first time precisely because rows using different senses coexist in one ledger"
+      paid_by: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:184"]
+      quote: "No result transfers between them."
+      quote_at: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+
+  - token: torsion
+    kind: homonym
+    provenance: cb-b-lagrangian-terms-2026-08-05
+    senses:
+      - definition: geometric torsion of a connection — GU's augmented torsion T
+        namespace: cb-b row GR-5
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:185"
+      - definition: "algebraic/homotopy torsion — the Z/3 inside pi_3^s = Z/24 of the generation-count arena"
+        namespace: torsion-generation arena
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:185"
+    disambiguator:
+      rule: "geometric vs homotopy torsion; the canon quarantined this pun first (two-geometries-and-the-adapter)"
+      attested_at: ["explorations/firewall-and-two-geometries/two-geometries-and-the-adapter-2026-06-29.md:29"]
+    receipt:
+      incident: "cb-b restricts GR-5 to the geometric sense because the arena object shares nothing but the word"
+      paid_by: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:185"]
+      quote: "Row GR-5 is about (a) ONLY."
+      quote_at: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+
+  - token: "Einstein contraction"
+    kind: homonym
+    provenance: cb-b-lagrangian-terms-2026-08-05
+    senses:
+      - definition: ambient-14D trace reversal
+        namespace: cb-b rows GR-1b/GR-6 (stated against this reading)
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:186"
+      - definition: observed-4D trace reversal
+        namespace: cb-b (fork open)
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:186"
+      - definition: vertical-Frobenius trace reversal (fork VERTICAL-FROBENIUS-TRACE, open)
+        namespace: cb-b (fork open)
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:186"
+    disambiguator:
+      rule: "name the arena of the trace reversal (ambient / observed / vertical-Frobenius)"
+      attested_at: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:186"]
+    receipt:
+      incident: "rows GR-1b and GR-6 are void under the other two readings until re-run"
+      paid_by: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:186"]
+      quote: "void under the other two until re-run"
+      quote_at: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+
+  - token: Z_U
+    kind: homonym
+    provenance: cb-b-lagrangian-terms-2026-08-05
+    senses:
+      - definition: "ledger sense — the whole gradient term |D_A U|^2 (NOT BUILT)"
+        namespace: cb-b unknown U4
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:187"
+      - definition: "W229 sense — the scalar coefficient multiplying it (normalization_unbuilt)"
+        namespace: W229
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:187"
+    disambiguator:
+      rule: "term vs coefficient; cb-b's U4 is the term"
+      attested_at: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:187"]
+    receipt:
+      incident: "flagged upstream and carried — the two senses differ by an entire unbuilt object"
+      paid_by: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:187"]
+      quote: "flagged upstream, carried"
+      quote_at: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+
+  - token: "the Higgs"
+    kind: homonym
+    provenance: cb-b-lagrangian-terms-2026-08-05
+    senses:
+      - definition: "SA-Y1's Higgs — the Lambda^0 carrier (dim Hom = 1, OPPOSITE chirality)"
+        namespace: SA-Y1 channel requirement
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:188"
+      - definition: "Weinstein's Higgs — the IG connection perturbation a in Omega^1(ad) = Lambda^1 (SAME chirality, not a Lorentz scalar)"
+        namespace: source mechanism
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:188"
+    disambiguator:
+      rule: "HOMONYM-WITH-NAMED-BRIDGE: carry both objects, never merge; the vertical-vev bridge is recorded UNCERTAIN"
+      attested_at: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:188"]
+    receipt:
+      incident: "adjudicated upstream (layer0-pass-on-the-two-higgs-objects): Weinstein's mechanism does not satisfy SA-Y1 as stated"
+      paid_by: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:188"]
+      quote: "does not satisfy `SA-Y1` as stated"
+      quote_at: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+
+  - token: square
+    kind: homonym
+    provenance: cb-b-lagrangian-terms-2026-08-05
+    senses:
+      - definition: a norm square as a functional — automatically defined for every coefficient
+        namespace: two-layer action analysis
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:189"
+      - definition: a squaring that would SELECT a coefficient — the sense every dead argument needs and no norm square has
+        namespace: coefficient-selection arguments
+        locus: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:189"
+    disambiguator:
+      rule: "load-bearing: any 'the norm square selects the coefficient' argument is dead on arrival (kills a class)"
+      attested_at: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:189"]
+    receipt:
+      incident: "cb-b PRE-2: three artifacts in one day returned three non-selections where one theorem decided the class"
+      paid_by: ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md:189"]
+      quote: "no independent coefficient constraint"
+      quote_at: "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"
+
+  # ------------------------------------------------------------------
+  # Mirrored from the packet's Layer-0 register (scope-local authority:
+  # explorations/unified-source-datum-packet-v0-2026-07-30.md:122-135) —
+  # "the ledger's own Layer-0 homonym register" (LA-10)
+  # ------------------------------------------------------------------
+
+  - token: "source action"
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: one bulk-plus-defect functional on (Y,sX)
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:126"
+      - definition: "what it is NOT: a claim that Weinstein supplied this functional"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:126"
+    disambiguator:
+      rule: "packet sense only inside packet-derived rows; supplied-by-source is a separate, false reading"
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:126"]
+    receipt:
+      incident: "carried from the packet register, whose right column names the confusable each row exists to block"
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:126"]
+      quote: "| source action | one bulk-plus-defect functional"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: "action-domain weld"
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: the current map s_! and the measure mu_Y + s_* mu_X
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:127"
+      - definition: "NOT: a smooth Y-density obtained by pretending X=Y"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:127"
+    disambiguator:
+      rule: "moved HOMONYM -> SAME FUNCTIONAL at definition grade; the N2b/N3 intertwiner equivalence stays UNCERTAIN"
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:137"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:127"]
+      quote: "| action-domain weld |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: "vertical scalar"
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: the coefficient restriction res_s^V(A-A_0) followed by a declared trace/orbit projector
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:128"
+      - definition: "NOT: the differential-form pullback s^*(a_V), which is zero or an X-one-form"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:128"
+    disambiguator:
+      rule: coefficient restriction, never form pullback
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:128"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:128"]
+      quote: "| vertical scalar |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: "odd bilinear"
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: either the K-sesquilinear form or the C_{eps_C}-complex bilinear
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:129"
+      - definition: "NOT: one interchangeable \"Yukawa\" object"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:129"
+    disambiguator:
+      rule: name which bilinear; "Yukawa" alone is banned by the row
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:129"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:129"]
+      quote: "| odd bilinear |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: "SW Majorana block"
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: a reduced two-form moment-map interaction
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:130"
+      - definition: "NOT: the same-Weyl Lambda^0 complex bilinear excluded by SHIAB-05"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:130"
+    disambiguator:
+      rule: moment-map interaction, not the excluded same-Weyl bilinear
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:130"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:130"]
+      quote: "| SW Majorana block |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: mass
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: a nonzero allowed zero-order action coefficient, later a gauge-quotiented normalizable Hessian eigenvalue
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:131"
+      - definition: "NOT: channel support or a provenance-block matrix"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:131"
+    disambiguator:
+      rule: coefficient-then-eigenvalue, never support/provenance shorthand
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:131"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:131"]
+      quote: "| mass |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: count
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: the future Fredholm/family pushforward of the final operator/domain/twist
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:132"
+      - definition: "NOT: three provenance summands, n, p_1, a loop sign, or a symbol-kernel dimension"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:132"
+    disambiguator:
+      rule: only the pushforward counts; every listed imposter is named in the row
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:132"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:132"]
+      quote: "| count |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: stationary
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: a zero of the complete bulk, defect, section, ghost-free Euler system including boundary terms
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:133"
+      - definition: "NOT: W177 or a retained local truncation"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:133"
+    disambiguator:
+      rule: complete ghost-free Euler system or nothing; LA-10 split b9 on exactly this line
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:133"]
+    receipt:
+      incident: >-
+        LA-10 used this register line as the licensed instrument to split b9
+        and showed the true 28/29 root is the Layer-0 typing of stationary —
+        an object ZERO v0.258 rows name
+      paid_by:
+        - "lab/active-research/joe-directed/ledger-advancement/la10-the-cut-vertex-survives-and-is-not-the-second-action-2026-08-15.md:368"
+      quote: "homonym register in `unified-source-datum-packet-v0-2026-07-30.md:133`"
+      quote_at: "lab/active-research/joe-directed/ledger-advancement/la10-the-cut-vertex-survives-and-is-not-the-second-action-2026-08-15.md"
+
+  - token: "P1/P2"
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: the one flat real orientation line L_sigma over S^1_DW
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:134"
+      - definition: "NOT: the integer/topology datum"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:134"
+    disambiguator:
+      rule: orientation line, not integer datum
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:134"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:134"]
+      quote: "| P1/P2 |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+  - token: "P3 topology interface"
+    kind: homonym
+    provenance: unified-source-datum-packet-v0
+    senses:
+      - definition: the relative pullback nu^* e_n-hat in KO^0-hat of (Y-bar, boundary)
+        namespace: packet vocabulary
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:135"
+      - definition: "NOT: the orientation bit, the future integer index, or an input integer equal to three"
+        namespace: packet right column
+        locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:135"
+    disambiguator:
+      rule: relative KO pullback; three named imposters excluded by the row
+      attested_at: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:135"]
+    receipt:
+      incident: carried from the packet register
+      paid_by: ["explorations/unified-source-datum-packet-v0-2026-07-30.md:135"]
+      quote: "| P3 topology interface |"
+      quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
+
+contrary_controls:
+
+  - token: gimmel
+    kind: not_a_homonym
+    provenance: fx3-2026-08-16
+    definition: >-
+      the (9,5) fibre/ambient metric G on Y14 and its transparently derived
+      apparatus (gimmel curvature, gimmel Christoffels, gimmel-area scale,
+      gimmel-Hodge star): ONE referent, many derived structures
+    why_it_looks_like_a_candidate: >-
+      1546 occurrences across the repo's md/py/yaml surfaces, 3575 counting the
+      wave/ledger JSONs (2026-08-16 census) — broader than any registered
+      homonym — in exotic-looking compounds
+    evidence_it_is_not:
+      - "head-word census over *.md/*.py/*.yaml, 2026-08-16: 'gimmel metric' 366, 'gimmel-area' 108, 'gimmel curvature' 48, 'gimmel Riemann' 37, 'gimmel Christoffel(s)' 56 — every head is an attribute of the one metric; no head from a disjoint object class"
+      - "zero quarantine rows: gimmel appears in NO prior homonym surface (NAMES.md, cb-b:182-189, packet:124-135, wave layer0 blocks) across 14 months of collision-grown registries"
+    discrimination: >-
+      the register discriminates on EVIDENCE OF COLLISION (receipts), not on
+      frequency or exoticism: 1546 uses, zero incidents -> excluded; "cone",
+      122 uses, one steward flag + one filed warning -> registered
+    locus: "explorations/unified-source-datum-packet-v0-2026-07-30.md:152"
+    quote: "gimmel metric"
+    quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
