@@ -133,7 +133,7 @@ Before execution, record one sentence for each lens:
 
 | lane or archaeology row | current state | only legitimate reopen or run condition |
 |---|---|---|
-| superposition / twistor composition | **TW-1 and TW-2 banked; one TW-3 gluing swing remains** | use only the owned normal Spin lift and four-dimensional detour/compressed blocks to test component/orientation and dual-target intertwining on both halves/four corners; if this is merely tensor-product commutation, bank and deprioritize |
+| superposition / twistor composition | **BANKED AND DEPRIORITIZED after TW-3** | TW3-B distinguishes the strict bilinear dual from the Krein/conjugate overline and closes the latter gluing; TW3-A/C are formal tensor closure. Reopen only after an independently owned global lifted normal `U(3,2)` reduction or a genuinely non-product normal/mixed operator term; do not construct either here |
 | H210 `2+1` derivative-adapter path | **PAUSED after CB-8** | an independent source-native result supplies a source-`Y` split/connection implying `L_q|_Z=0`; do not manufacture that owner here |
 | source-native neutrino pencil | **PAUSED after SN-3** | archaeology finds an already-owned source-native zero-order/coindex descent **and** an equation-(9.16) slot-to-observed-line incidence receipt |
 | extra-vector lane | **RETIRED from this channel** | no conditional-build successor; any later source-native observation-plus-action composition belongs to its actual owner |

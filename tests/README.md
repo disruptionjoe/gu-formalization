@@ -522,6 +522,27 @@ the map: which directory/group supports which claim.
   locates `Q,T,-T#` only as base-compressed rolled subblocks. Run with Python 3;
   its selftest passes `132/132`.
 
+- `channel-swings/joe_directed_tw3a_normal_spin_detour_intertwining_probe.py`
+  tensors the exact TW-2 detour complex with every TW-1 normal-lift variant,
+  both Weyl and normal halves, all four K77 corners and null/non-null
+  covectors. It proves that the same-carrier squares commute only by formal
+  tensor-factor separation and exposes the raw-dual contragredient fence. Run
+  with Sage's Python; its selftest passes `150/150`.
+
+- `channel-swings/joe_directed_tw3b_dual_pairing_orientation_gluing_probe.py`
+  constructs the exact current-K77 bilinear and correctly signed half-spin
+  Krein forms, proves signature `(8,8)` on each normal half, enforces raw
+  contragredient action, and distinguishes the strict-bilinear from
+  Krein/conjugate four-corner maps. Run with Sage's Python; its post-repair
+  selftest passes `56/56`.
+
+- `channel-swings/joe_directed_tw3c_rolled_compression_stabilizer_descent_probe.py`
+  carries the TW3-B dual convention into the base-compressed rolled symbol,
+  proves exact `Pi4`/gamma-trace/`R4` intertwining, and certifies the common
+  rank-20/kernel-25 lifted `u(3,2)` stabilizer while fencing global reduction
+  and physical-state claims. Run with Python 3; its post-repair selftest
+  passes `115/115`.
+
 - `channel-swings/selected_k77_twistor_carrier_weyl_integrability_gate_probe.py`
   reconstructs the local/developable rank-four carrier from the settled K77
   base Weyl factors, verifies graph incidence and the Lorentz determinant,
