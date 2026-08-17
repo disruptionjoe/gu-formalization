@@ -1,0 +1,641 @@
+{
+  "title": "Needs/provides typed morphism records — one token, two objects, told apart with receipts",
+  "created": "2026-08-17",
+  "owner_artifact": "lab/active-research/joe-directed/ct-hardening/ct3-typed-morphism-join-2026-08-17.md",
+  "consumed_by": [
+    "process_gates/needs_provides_typed_join_audit.py",
+    "tests/channel-swings/joe_directed_ct3_typed_morphism_join.py"
+  ],
+  "not_consumed_by": [
+    "process_gates/needs_provides_composition_audit.py — FX-1 does not read this file and is byte-untouched by CT-3; the typed-join gate asserts the non-reference mechanically every run"
+  ],
+  "record_shape": {
+    "keys": [
+      "key",
+      "dom",
+      "cod",
+      "map_type",
+      "source_file",
+      "receipt"
+    ],
+    "key": "a join key in FX-1's three exact token shapes (K1/K2/K3), minus CT-1's own closed vocabulary tokens, which name values and not objects",
+    "dom": "a CT-1 base-category object id (Source-Layer L1..L4, Carrier C1..C11 of lab/methods/gu-base-categories.md), a CT-1 declared-unknown marker (UNTYPED = M1, HOMONYM-AMBIGUOUS = M4), or a registered-homonym sense id HOM:<token>#<n> resolving in lab/process/homonym-register.yaml",
+    "cod": "same codomain as dom",
+    "map_type": "a CT-1 arrow label from the reference's gu-token-codomain block (section 3.3)",
+    "source_file": "the repository path the typing was read from",
+    "receipt": {
+      "site": "the join site this record types: LEDGER:<row-id>, FORK:<fork-id>, or FILE:<relpath>",
+      "rule": "the deterministic extraction rule that produced dom/cod/map_type; the gate RE-APPLIES it every run and reds if it does not reproduce the recorded values",
+      "quote": "a byte-exact excerpt of source_file that the rule read"
+    }
+  },
+  "laws": {
+    "no_guessing": "Where the text supports no typing, the record is UNTYPED or HOMONYM-AMBIGUOUS — never a plausible object. The CN-2 principle, carried: a declared unknown is compliance; a plausible token is a lie.",
+    "no_discriminator_without_a_receipt": "A homonym-sense discriminator may be recorded only for a kind:homonym register entry whose own disambiguator states it, every entry cites the register substrings that state it, and the gate re-measures byte-disjointness across the owning files on every run. This is the mirror of FX-1's alias law: FX-1's alias table MERGES two notations into one object; this table SPLITS one notation into two objects.",
+    "no_dom_alias_without_a_receipt": "dom_aliases is the typed analogue of FX-1's alias table and is EMPTY. An entry may be added only with a live receipt path plus the substring that proves the identification; the gate reds on a receipt-free entry.",
+    "thirteenth_object": "CT-3 coins no CT-1 object. HOM:<token>#<n> points at the homonym register, which CT-1 section 3.5 names as the disambiguation surface for registered tokens (a bare registered token fails to name an object). Every CT-1 category keeps its <= 12 object budget. A mixed LAYER (a+b) is recorded UNTYPED with its BRIDGE quoted, because CT-1 has no product object and CT-3 will not invent one."
+  },
+  "sources": {
+    "R1_fx2_typed_object_blocks": {
+      "available": true,
+      "description": "```gu-typed-objects blocks in the FX-2 gate's format; dom from a named CT-1 Carrier object occurring verbatim in the carrier slot, else from LAYER=; cod from a named Carrier object in the target slot; map_type from MAP-TYPE=. Conflicting blocks in one file give UNTYPED (fx2-block-conflict).",
+      "measured_at_mint": "22 blocks across 15 files when the extraction was first measured; 28 across 20 at close of build the same day (the frontier moves as sibling channels adopt the FX-2 block)"
+    },
+    "R2_ledger_context": {
+      "available": false,
+      "description": "CT-2's per-row `context` projection. CT-2 landed its schema on the same day (lab/process/conditional-physics-ledger-schema-v0.2.json, $defs.context: the required (layer, grant, carrier) triple, whose codomains are CT-1's own object ids -- L* for the Source-Layer axis, G* for the Grant poset, C* for the Carrier axis) and scoped the obligation to ledger version v0.260 ONWARD, deliberately not retro-filling existing ledgers. So this source is specified and still empty: the latest ledger lab/process/conditional-physics-ledger-v0.259.json carries no `context` key on any of its 87 rows. The gate re-measures that every run and reds if rows gain the field while this flag still reads false, which is the signal to re-mint these records against the new axis. The carrier slot's codomain is identical to this file's `dom` codomain, so no adapter is needed when it arrives.",
+      "measured_at_mint": "0 of 87 rows in v0.259; schema for v0.260+ present as of CT-2, 2026-08-17"
+    },
+    "R3_prose_tokens": {
+      "available": true,
+      "description": "Explicit LAYER= / MAP-TYPE= tokens written in prose outside any fenced block.",
+      "measured_at_mint": "1 record"
+    },
+    "R4_homonym_senses": {
+      "available": true,
+      "description": "Registered-homonym sense resolution. R4a (homonym-sense-by-owning-file) resolves a text that names exactly one sense's owning file — CP-1's own move, 'same object verified by LINEAGE RECEIPT, not token'. R4b (homonym-sense-by-discriminator) resolves a text carrying exactly one sense's byte-disjoint discriminator. Both-or-neither is HOMONYM-AMBIGUOUS.",
+      "measured_at_mint": "1 token with a receipted discriminator set (v_PSB), 2 refused; 13 records (5 by lineage receipt, 8 by discriminator)"
+    }
+  },
+  "sense_discriminators": [
+    {
+      "token": "v_PSB",
+      "kind": "two distinct objects under one written token; the class FX-1's token join is structurally blind to",
+      "documented_failure": "CP-1 (2026-08-17), verifying the RA-A6 composition, found a second object under the same token: the 2026-08-12 trace-hq chain gate computes a DIFFERENT rank-one v_PSB in (4,1,2) with the SAME 12-dimensional stabilizer, so the one numeric a reader would check cannot discriminate. The ledger owner had to exclude the wrong object BY HAND, in prose, inside RA-A6's revival trigger (v0.259 DELTA-2: 'the distinct rank-one (4,1,2) vector also named v_PSB by the 2026-08-12 trace-hq chain gate does not qualify').",
+      "proved_by": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "senses": [
+        {
+          "index": 1,
+          "gloss": "source-selected rank-one vector in the orbit of V_PSB = (10bar,1,3), the Pati-Salam-breaking datum RA-A6 watches",
+          "owning_file": "explorations/cycle-gates-and-audits/cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md",
+          "discriminators": [
+            "(10bar,1,3)"
+          ]
+        },
+        {
+          "index": 2,
+          "gloss": "independent rank-one vector in (4,1,2) whose stabilizer is the SM, computed as kron(e4, fR)",
+          "owning_file": "explorations/conditional-build/selected-k77-trace-hq-connection-internal-chain-gate-2026-08-12.md",
+          "discriminators": [
+            "(4,1,2)"
+          ]
+        }
+      ],
+      "receipts": {
+        "register_must_contain": [
+          "- token: v_PSB",
+          "v_PSB(10bar,1,3) vs v_PSB(4,1,2)",
+          "two are byte-disjoint across their owning files",
+          "source-selected rank-one vector in the orbit of V_PSB = (10bar,1,3)",
+          "independent rank-one vector in (4,1,2) whose stabilizer is the SM"
+        ],
+        "note": "The register's own disambiguator states both the naming rule and the byte-disjointness this table mechanises; the gate re-measures the disjointness against the two owning files every run rather than trusting the sentence."
+      }
+    }
+  ],
+  "sense_discriminators_refused": [
+    {
+      "token": "Met(X^4)",
+      "sense_count": 2,
+      "reason": "The register's disambiguator is a rule for FUTURE WRITING ('name the signature (Riemannian Met vs Met_Lor/Y14), and bundle vs section space'), not a byte-disjoint substring that partitions the existing corpus; neither sense's locus supplies a token a census could read off an arbitrary file. Recording a discriminator here would be guessing, which the no-guessing law forbids. The FX-1 candidate pair FORK:NUMBER-14-METRIC-VS-EXTERIOR::Met(X^4) therefore stays TYPE-UNVERIFIED, honestly.",
+      "register_must_contain": "name the signature (Riemannian Met vs Met_Lor/Y14), and bundle vs section space"
+    },
+    {
+      "token": "so(1,3)",
+      "sense_count": 2,
+      "reason": "The register REFUSES sensing on this token itself ('not sensed: bare so(1,3) is correct in the hundreds of single-sense contexts ... which a token census cannot see'). CT-1 already carries the two SUBSCRIPTED forms as Carrier objects C8 (so(1,3)_endo) and C9 (so(1,3)_H), which rule R1's named-carrier branch reads directly; the BARE token remains a non-object, exactly as CT-1 section 3.5 says.",
+      "register_must_contain": "not sensed: bare so(1,3) is correct in the hundreds of single-sense"
+    }
+  ],
+  "dom_aliases": [],
+  "records": [
+    {
+      "key": "C_x",
+      "dom": "C8",
+      "cod": "UNTYPED",
+      "map_type": "restriction",
+      "source_file": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+        "rule": "fx2-block-named-carrier-carrier",
+        "quote": "carrier: so(1,3)_endo and so(1,3)_H, both subalgebras of so(7,7) = Lambda^2 C_x"
+      }
+    },
+    {
+      "key": "Cl(3,1)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "gamma^mu built from exact Cl(3,1) gamma matrices, K a 4x4"
+      }
+    },
+    {
+      "key": "D(m)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/lens-digs/lda-sg4-bit2-type-and-transport-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/lens-digs/lda-sg4-bit2-type-and-transport-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        D(m) = sigma_1 (x) P + m M (x) I on C^2 (x) C^24, the periodic"
+      }
+    },
+    {
+      "key": "D_7",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "carrier: the 192-dim self-dual SU(2)+ top-Casimir stratum of ker(Gamma) inside V (x) S at D_7 (LAYER=ambient, CHIRALITY=S-FULL-DIRAC)"
+      }
+    },
+    {
+      "key": "F_2",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "real_structure: real vector bundle, F_2 (Stiefel-Whitney) coefficients"
+      }
+    },
+    {
+      "key": "G_PS",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: V_PSB = (10bar,1,3) = Sym^2(A^*) tensor Sym^2(C) under G_PS = SU(4) x SU(2)_L x"
+      }
+    },
+    {
+      "key": "II_s",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "result:         II_s(d_mu,d_nu), the explicit closed-form second fundamental"
+      }
+    },
+    {
+      "key": "M(xi)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        det(M(xi)+K), a scalar polynomial on T*X^4; M(xi)=xi_mu"
+      }
+    },
+    {
+      "key": "Met(X)",
+      "dom": "C10",
+      "cod": "C10",
+      "map_type": "homomorphism",
+      "source_file": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+        "rule": "fx2-block-named-carrier-carrier",
+        "quote": "carrier: ad(P_H)_{u(64,64)}, with P_H = P_Fr~(C^{7,7}) x_{rho_D} H over Y = Met(X)"
+      }
+    },
+    {
+      "key": "Met(X^4)",
+      "dom": "HOMONYM-AMBIGUOUS",
+      "cod": "HOMONYM-AMBIGUOUS",
+      "map_type": "contraction",
+      "source_file": "lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+        "rule": "homonym-unresolved",
+        "quote": "tangent space of Y^14=Met(X^4) LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega^1(S)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+        "rule": "prose-token",
+        "quote": "carrier: Omega^1(S) LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "P(R^4)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        nu = R (+) Sym^2(Q*) over RP^3 = P(R^4), the metric-fiber"
+      }
+    },
+    {
+      "key": "P_Fr",
+      "dom": "C10",
+      "cod": "C10",
+      "map_type": "homomorphism",
+      "source_file": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+        "rule": "fx2-block-named-carrier-carrier",
+        "quote": "carrier: ad(P_H)_{u(64,64)}, with P_H = P_Fr~(C^{7,7}) x_{rho_D} H over Y = Met(X)"
+      }
+    },
+    {
+      "key": "P_H",
+      "dom": "C10",
+      "cod": "C10",
+      "map_type": "homomorphism",
+      "source_file": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+        "rule": "fx2-block-named-carrier-carrier",
+        "quote": "result: SA-1 bundle layer -- INERT-AD as typed is refuted; P_H is an associated bundle of Fr~(C)"
+      }
+    },
+    {
+      "key": "S(nu)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "induced branch selector for the mod-3 homology of S(nu)"
+      }
+    },
+    {
+      "key": "SU(2)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: V_PSB = (10bar,1,3) = Sym^2(A^*) tensor Sym^2(C) under G_PS = SU(4) x SU(2)_L x"
+      }
+    },
+    {
+      "key": "SU(2)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "restriction",
+      "source_file": "lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: the 192-dim self-dual SU(2)+ top-Casimir stratum of ker(Gamma) inside V (x) S at D_7 (LAYER=ambient, CHIRALITY=S-FULL-DIRAC)"
+      }
+    },
+    {
+      "key": "SU(4)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: V_PSB = (10bar,1,3) = Sym^2(A^*) tensor Sym^2(C) under G_PS = SU(4) x SU(2)_L x"
+      }
+    },
+    {
+      "key": "S_R^4D",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "{det S_R^4D(xi) = 0} MAP-TYPE=not-a-map"
+      }
+    },
+    {
+      "key": "Spin_0",
+      "dom": "C10",
+      "cod": "C10",
+      "map_type": "homomorphism",
+      "source_file": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+        "rule": "fx2-block-named-carrier-target",
+        "quote": "target: ad(P_H)_{u(64,64)} as a Spin_0(1,3)-associated bundle via r~_C MAP-TYPE=homomorphism"
+      }
+    },
+    {
+      "key": "Sym^2(A^*)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: V_PSB = (10bar,1,3) = Sym^2(A^*) tensor Sym^2(C) under G_PS = SU(4) x SU(2)_L x"
+      }
+    },
+    {
+      "key": "Sym^2(C)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: V_PSB = (10bar,1,3) = Sym^2(A^*) tensor Sym^2(C) under G_PS = SU(4) x SU(2)_L x"
+      }
+    },
+    {
+      "key": "Sym^2(Q*)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "result:         w1(nu)=w2(nu)=w3(nu)=0 for nu=R(+)Sym^2(Q*), rank 7, over"
+      }
+    },
+    {
+      "key": "U(3)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "inclusion",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: S(U(3)xU(2)) as successive structure-group reductions of the one rank-10 bundle,"
+      }
+    },
+    {
+      "key": "VIOLATES-CORRECTION",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/source-currency/fixa-cb-corrections-applied-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/source-currency/fixa-cb-corrections-applied-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: the five VIOLATES-CORRECTION sentences typed by SCUR-1 section 3, corrected against register items 5, 6, 7 and 8 (with 3) MAP-TYPE=not-a-map"
+      }
+    },
+    {
+      "key": "V_PSB",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: V_PSB = (10bar,1,3) = Sym^2(A^*) tensor Sym^2(C) under G_PS = SU(4) x SU(2)_L x"
+      }
+    },
+    {
+      "key": "Y_C",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "result: CP-1 L1/L2 -- LT-SM5's Y_C/Y_K demand is CONDITIONED by wave-D's constructed"
+      }
+    },
+    {
+      "key": "Y_K",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "result: CP-1 L1/L2 -- LT-SM5's Y_C/Y_K demand is CONDITIONED by wave-D's constructed"
+      }
+    },
+    {
+      "key": "g_A^{",
+      "dom": "C3",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/integration-mint/im1-two-movers-four-debts-and-three-adjudications-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/integration-mint/im1-two-movers-four-debts-and-three-adjudications-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: the relative normalization datum g_A^{-2} together with its 1-to-3 branching"
+      }
+    },
+    {
+      "key": "pi_PSB",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "unsupplied source projection pi_PSB MAP-TYPE=UNTYPED"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+        "rule": "homonym-sense-by-owning-file",
+        "quote": "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#2",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "explorations/conditional-build/conditional-physics-ledger-v0.195.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/conditional-physics-ledger-v0.195.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(4,1,2)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#2",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "explorations/conditional-build/selected-k77-trace-hq-connection-internal-chain-gate-2026-08-12.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-trace-hq-connection-internal-chain-gate-2026-08-12.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(4,1,2)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "explorations/cycle-gates-and-audits/cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md",
+      "receipt": {
+        "site": "FILE:explorations/cycle-gates-and-audits/cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md",
+        "rule": "homonym-sense-by-owning-file",
+        "quote": "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "explorations/cycle-gates-and-audits/cycle2-source-critical-rank-one-psb-selection-certificate-2026-06-24.md",
+      "receipt": {
+        "site": "FILE:explorations/cycle-gates-and-audits/cycle2-source-critical-rank-one-psb-selection-certificate-2026-06-24.md",
+        "rule": "homonym-sense-by-owning-file",
+        "quote": "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "explorations/geometry-curvature-emergence/mission-a-matter-gauge-selector-construction-2026-06-24.md",
+      "receipt": {
+        "site": "FILE:explorations/geometry-curvature-emergence/mission-a-matter-gauge-selector-construction-2026-06-24.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(10bar,1,3)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/composition/fx1-needs-provides-join-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/composition/fx1-needs-provides-join-2026-08-16.md",
+        "rule": "homonym-sense-by-owning-file",
+        "quote": "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/photon-extra-vector-spectrum/pv1-available-orbits-retain-an-extra-massless-vector-2026-08-14.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/photon-extra-vector-spectrum/pv1-available-orbits-retain-an-extra-massless-vector-2026-08-14.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(10bar,1,3)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/photon-extra-vector-spectrum/pv2-observation-cannot-reach-the-extra-vectors-2026-08-14.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/photon-extra-vector-spectrum/pv2-observation-cannot-reach-the-extra-vectors-2026-08-14.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(10bar,1,3)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#2",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/exploration-absorption-priorities-2026-08-10.md",
+      "receipt": {
+        "site": "FILE:lab/process/exploration-absorption-priorities-2026-08-10.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(4,1,2)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#2",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/hostile-reviews/2026-08-12-selected-k77-moving-hq-u3_2-sm-higgs-direction-review.md",
+      "receipt": {
+        "site": "FILE:lab/process/hostile-reviews/2026-08-12-selected-k77-moving-hq-u3_2-sm-higgs-direction-review.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(4,1,2)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#2",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "tests/README.md",
+      "receipt": {
+        "site": "FILE:tests/README.md",
+        "rule": "homonym-sense-by-discriminator",
+        "quote": "(4,1,2)"
+      }
+    },
+    {
+      "key": "v_PSB",
+      "dom": "HOM:v_PSB#1",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.259.json",
+      "receipt": {
+        "site": "LEDGER:RA-A6",
+        "rule": "homonym-sense-by-owning-file",
+        "quote": "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+      }
+    },
+    {
+      "key": "x_{rho_D}",
+      "dom": "C10",
+      "cod": "C10",
+      "map_type": "homomorphism",
+      "source_file": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
+        "rule": "fx2-block-named-carrier-carrier",
+        "quote": "carrier: ad(P_H)_{u(64,64)}, with P_H = P_Fr~(C^{7,7}) x_{rho_D} H over Y = Met(X)"
+      }
+    }
+  ]
+}

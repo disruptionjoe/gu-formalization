@@ -37,8 +37,9 @@ items:
     title: FX-1 needs/provides extraction upgraded to typed dom/cod records from CT-1 categories
     origin: CT step 3; v_PSB token-blindness receipt
     owner: joe-directed ct-hardening wave
-    status: ACTIVE
-    activation: "CT-1 landed 2026-08-17; launched stage B"
+    status: DONE
+    activation: "receipt: ct3 -- 44 typed records, v_PSB acceptance test PASS by lineage-then-discriminator, FX-1 byte-identical, coverage honestly dark (1 of 182 edges decided) rising with FX-2/CT-2 adoption"
+    next_check: "2026-08-19"
     next_check: "2026-08-19"
   - id: CT-4-DIAGRAM-INVARIANT
     title: Dependency-diagram invariant gate (components/cycle rank on declared edges; stable under the 32-to-35 refinement)
@@ -213,6 +214,6 @@ items:
     title: The reverse-scaffold wave series (rung-targeted physics waves; the agreed next program after hardening)
     origin: "Joe, 2026-08-17: after the procedural updates and fixes, the next waves to scaffold are the reverse scaffolding"
     owner: session owner (scoping) then joe-directed channels
-    status: QUEUED
-    activation: CT hardening wave (CT-1..5) and FIX-A/FIX-B land
+    status: ACTIVE
+    activation: "hardening complete 2026-08-17 (CT-1..5 + FIX-A/B all DONE); scoping proposal delivered to Joe"
     next_check: "2026-08-19"
