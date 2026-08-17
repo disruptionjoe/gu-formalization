@@ -22,8 +22,15 @@ items:
     title: Non-retroactive (layer, grant, carrier) projection on every mint-touched ledger row
     origin: CT step 2 partial; FX-2 pattern
     owner: joe-directed ct-hardening wave
-    status: ACTIVE
-    activation: "CT-1 landed 2026-08-17; launched stage B"
+    status: DONE
+    activation: "receipt: ct2 schema v0.2 + mint-context-projection.md + gate; all 259 ledgers validate unchanged; launder-in-projection is a hard red; rule M floor on 6 rows"
+  - id: CT2-SCHEMA-FINDINGS
+    title: "CT-2's six reported findings: v0.1 schema validated NOTHING since v0.1 (14-21 errors on live ledgers); row closure closed-in-name-only (owner decision); v0.134 internal mislabel; G8/NEEDS polarity gap; G6/G7 mechanically uncheckable; CT-1 Layer coverage thin on LAGRANGIAN"
+    origin: ct2 artifact section 6
+    owner: ledger owner / next mint (closure decision); CT-1 owner (Layer coverage)
+    status: QUEUED
+    activation: next mint
+    next_check: "2026-08-24"
     next_check: "2026-08-19"
   - id: CT-3-MORPHISM-UPGRADE
     title: FX-1 needs/provides extraction upgraded to typed dom/cod records from CT-1 categories

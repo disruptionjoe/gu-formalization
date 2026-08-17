@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gu-formalization:conditional-physics-ledger-schema-v0.2",
+  "title": "Conditional physics ledger v0.2 -- v0.1 plus the optional (layer, grant, carrier) context projection",
+  "$comment": "CT-2, 2026-08-17. THE ACCRETION RULE. This schema is an ADDITIVE, NON-RETROACTIVE sibling of conditional-physics-ledger-schema-v0.1.json. v0.1 is not edited and remains the frozen statement of the original shape. v0.2 adds exactly one thing to a row record: an OPTIONAL `context` object carrying the row's (layer, grant, carrier) projection into the three base categories of lab/methods/gu-base-categories.md (CT-1). Context ACCRETES: it is written when someone is already adjudicating the row -- the FX-2 pattern -- and never by a retroactive sweep. No row that exists at v0.259 is required to grow one, and none is edited to add one; v0.259 and every earlier ledger validate against this schema UNCHANGED, which is the machine-checkable form of the non-retroactivity promise. The OBLIGATION (every row a mint TOUCHES at v0.260 or later must carry `context`) is deliberately NOT expressed here: `touched` is a two-document predicate (this ledger versus its `predecessor`) and no single-document schema can decide it. That obligation lives in process_gates/mint_context_projection_audit.py, and the rule is stated for authors in lab/methods/mint-context-projection.md. DIVISION OF LABOUR, load-bearing: this schema pins the SHAPE of a projection token (the L#/G#/C# grammar, the marker spellings, the slot cardinality); the GATE pins MEMBERSHIP (that `L3` is an object CT-1 actually carries today), because CT-1 is a live file and a schema that hardcoded its object list would drift from it silently. Neither surface may be used to infer the other's verdict.",
+  "type": "object",
+  "required": ["schema_version", "denominator", "taxonomy", "progress", "residue", "rows", "aliases", "over_determined_escalations"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^0\\.[0-9]+$",
+      "$comment": "v0.1 pinned this `const: \"0.1\"`, so the v0.1 schema validates the v0.1 ledger and nothing after it: measured 2026-08-17, v0.100/v0.200/v0.250/v0.258 each raise 14 validation errors against v0.1 and v0.259 raises 21. The frozen const, not the ledger, is the defect being repaired here. Version ORDER is numeric on the minor component (0.26 is twenty-six and precedes 0.259); string ordering of these values is wrong and the gate compares tuples."
+    },
+    "denominator": {
+      "type": "object",
+      "required": ["canonical_target_count", "source_row_count", "alias_count", "axes", "freeze_rule", "migration_rule"]
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": ["extensible", "unknown_kind_rule", "verdict_kinds"]
+    },
+    "progress": {
+      "type": "object",
+      "required": ["mapped", "total", "coverage_fraction", "verdict_counts"]
+    },
+    "residue": {
+      "type": "object",
+      "required": ["continuous_real", "function_valued_at_least", "open_discrete_forks", "quotients_ranked"]
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "axis", "source_row", "summary", "verdict", "reason_kind", "distance", "revival_trigger", "evidence", "mapping_grade"],
+        "properties": {
+          "id": {"type": "string"},
+          "axis": {"enum": ["REPRESENTATION", "LAGRANGIAN", "ANOMALY_CONSISTENCY"]},
+          "source_row": {"type": "string"},
+          "summary": {"type": "string"},
+          "verdict": {"enum": ["SAME", "DIFFERS", "NEEDS", "OVER_DETERMINED"]},
+          "reason_kind": {"type": "string"},
+          "distance": {"type": "string", "minLength": 1},
+          "revival_trigger": {"type": "string", "minLength": 1},
+          "evidence": {"type": "string", "minLength": 1},
+          "mapping_grade": {"type": "string", "minLength": 1},
+          "context": {"$ref": "#/$defs/context"}
+        },
+        "additionalProperties": true,
+        "$comment": "RECORDED FINDING, not a policy set here. v0.1 declared rows `additionalProperties: false`, and that closure has been non-operative since v0.1: live rows carry split_from, frontier_grade, row_status, successors, superseded_reason, trigger_conjuncts, trigger_conjunction, construction_scope, revival_reachability, named_condition, debt_note and annotation, none of them in v0.1's property list. Re-closing the row vocabulary would red every ledger from v0.10 onward and is the ledger owner's decision, not CT-2's; silently re-imposing it under cover of a context patch would be exactly the rival-schema move FX-3 forbids. v0.2 therefore keeps rows open and puts the accreted vocabulary on the record here. `context` is the one key v0.2 types."
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_row", "canonical_target_ids", "reason"]
+      }
+    },
+    "over_determined_escalations": {"type": "array"}
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "context": {
+      "type": "object",
+      "title": "The (layer, grant, carrier) projection of one ledger row",
+      "$comment": "All three slots are REQUIRED once `context` is present, because a projection that omits an axis is indistinguishable from one that forgot it. Each slot is either one token or a non-empty array of distinct tokens; an array means the row spans several objects at once -- CT-1 section 2 states the grant case verbatim (`A row carrying several conditions occupies the union of their sets (LT-SM8 sits at G5 union G7)`). UNTYPED is always in the codomain (CN-2: a row complies by declaring its ambiguity) and is never, by itself, a defect; the gate counts it, prints it, and requires the `note` that turns a blank into a declaration.",
+      "required": ["layer", "grant", "carrier"],
+      "properties": {
+        "layer": {
+          "$ref": "#/$defs/slot",
+          "$comment": "Codomain: the Source-Layer category L of lab/methods/gu-base-categories.md section 1 (object ids L1..Ln), or UNTYPED. NAMING TRAP, recorded because CT-1 section 4 D2 records it: three different axes in this repository share the word `layer`. This slot means the SOURCE-CONSTRUCTION layers (declared-total / pullback / pm-package / VEV-observed). It does NOT mean the typed-carrier gate's `LAYER=` stratum axis (ambient/observed/source-print/toy -- those are Carrier objects and belong in the `carrier` slot) and it does not mean the six-axis template's `Layer 0`.",
+          "items": {"pattern": "^(L[1-9][0-9]*|UNTYPED)$"},
+          "pattern": "^(L[1-9][0-9]*|UNTYPED)$"
+        },
+        "grant": {
+          "$ref": "#/$defs/slot",
+          "$comment": "Codomain: the Grant poset G of gu-base-categories.md section 2 (node ids G0..Gn, including the role-`bucket` node), or UNTYPED. G0 is the empty assumption set -- unconditional -- and CT-1 defines it as the `reason_kind: DERIVED` family. THE NEVER-LAUNDER INTERACTION: this slot must AGREE with the conditions the row already states in its own fields. Writing G0 on a row whose reason_kind is DERIVED_CONDITIONAL performs, in the projection, the launder the ledger forbids in the row (`DERIVED_CONDITIONAL -> DERIVED is forbidden`, v0.259 migration_policy). Disagreement between projection and row is a RED for adjudication -- never a silent fix of either side.",
+          "items": {"pattern": "^(G[0-9]+|UNTYPED)$"},
+          "pattern": "^(G[0-9]+|UNTYPED)$"
+        },
+        "carrier": {
+          "$ref": "#/$defs/slot",
+          "$comment": "Codomain: the Carrier category C of gu-base-categories.md section 3 (object ids C1..Cn), or UNTYPED, or HOMONYM-AMBIGUOUS. HOMONYM-AMBIGUOUS is CT-1 marker M4, the declared-unknown for the registered-homonym class: a bare registered token (`so(1,3)`, `ad(P_H)`) fails to name an object (CT-1 section 3.5), and a row that writes one has not typed its carrier however confident its prose sounds.",
+          "items": {"pattern": "^(C[1-9][0-9]*|UNTYPED|HOMONYM-AMBIGUOUS)$"},
+          "pattern": "^(C[1-9][0-9]*|UNTYPED|HOMONYM-AMBIGUOUS)$"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1,
+          "$comment": "Why this projection, in one or two sentences -- above all, why an UNTYPED is honest rather than lazy. Optional in the shape; the gate REQUIRES it whenever any slot is UNTYPED, and prints every note verbatim in its census. That is a visibility mechanism, not a verification one: no machine can tell a real reason from a plausible one, and this schema does not pretend otherwise."
+        }
+      },
+      "additionalProperties": false
+    },
+    "slot": {
+      "$comment": "One token, or a non-empty array of distinct tokens meaning the union/span. Per-slot token grammars are applied by the referring property; this definition fixes only cardinality and distinctness. An empty array is invalid: absence of an opinion is spelled UNTYPED, not omitted.",
+      "oneOf": [
+        {"type": "string", "minLength": 1},
+        {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      ]
+    }
+  }
+}
