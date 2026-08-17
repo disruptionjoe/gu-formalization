@@ -158,9 +158,22 @@ items:
     title: "Spectral-transport fence: the signed count moves 21.8 units with ZERO crossings (gapped throughout) — any future bit-2 counting argument must address transport, not crossings"
     origin: lda-sg4-bit2-type-and-transport-2026-08-17.md card 2 (LIVE-HIGH; one-liner mechanism falsified)
     owner: joe-directed channels (fence first, theorem later)
-    status: QUEUED
+    status: DONE
     activation: next counting-adjacent gate in channels 1/3
     next_check: "2026-08-24"
+    receipt: >-
+      TR-1 executed the fence at the real carrier 2026-08-17:
+      lab/active-research/joe-directed/spectral-transport/
+      tr1-transport-and-selection-are-opposite-parities-2026-08-17.md +
+      probe (90/90 live, selftest 12/12 targeted). Sharpened into a parity
+      dichotomy: Z/4 centre class (0 or 2) decides selection-capability and
+      transport-capability OPPOSITELY; class-2 (incl. the source's middle
+      forms) anticommute with the grading and FREEZE tr(Gamma P_<0) at 0;
+      class-0 commute (the LD-A phenomenon's home) but are selection-blind;
+      no direction has both. Branched layer: no gamma5-odd VEV direction
+      exists (form degree in {0,4}). Enforceable bill TB-0..TB-5 carries
+      CANON.md:136 verbatim. Theorem half re-registered as
+      TR1-COMPOSITE-PARITY.
   - id: UR-BIT2-BASE
     title: "R(y) position dependence: source states the transition location literally; canon requires the odd count external; walls are the named mechanism; ZERO wall-x-curvature co-occurrence in 7300 files"
     origin: lda card 7 (LIVE-HIGH); SC-CHI-02 register locus
@@ -238,8 +251,29 @@ items:
     origin: "Joe, 2026-08-17: after the procedural updates and fixes, the next waves to scaffold are the reverse scaffolding"
     owner: session owner (scoping) then joe-directed channels
     status: ACTIVE
-    activation: "hardening complete 2026-08-17; WAVE 1 LANDED 2026-08-17: B1P-1 (bit-1 price, committed dd84778b), RSC-1 (RS-DISJOINT exact obstruction), RW-1 (R(y) steers-not-hosts, typed VEV-orientation-wall target). Wave 2 candidates: UR-BIT2-TRANSPORT fence; RW-1 bill items W1/W3"
+    activation: "hardening complete 2026-08-17; WAVE 1 LANDED (B1P-1, RSC-1, RW-1). WAVE 2 LANDED 2026-08-17: TR-1 (parity dichotomy, UR-BIT2-TRANSPORT DONE), WB-1 (W1 RELOCATED to external Z/2 sector datum), GB-1 (W3 reduced to one angle + one missing arrow). Wave 3 candidates: TR1-COMPOSITE-PARITY, W1-PI0-NATIVE-VACUUM, GB1-SIGMA2-DIRECTION-SUPPLY — the three named decisive computations"
     next_check: "2026-08-19"
+  - id: TR1-COMPOSITE-PARITY
+    title: "The composite-parity flank of TR-1's dichotomy: two class-2 insertions compose to class 0, so a multi-insertion constructor meets TB-4/TB-5 as pricing, not prohibition — run this before trusting the dichotomy against a full mechanism; theorem shape = mixed-parity family index theorem (TR-1 section 6)"
+    origin: "TR-1 blunt paragraph + section 6 (tr1-transport-and-selection-are-opposite-parities-2026-08-17.md); the arc's own named successor"
+    owner: joe-directed channels (wave 3 candidate)
+    status: QUEUED
+    activation: next spectral-transport-adjacent wave
+    next_check: "2026-08-24"
+  - id: W1-PI0-NATIVE-VACUUM
+    title: "Compute pi_0 of the NATIVE varpi vacuum set: the decisive W1 gate. The repo's two proxies disagree (rung-2's disconnected {+-v} is an INPUT; VG-V5's candidate coset D is measured CONNECTED, double-fenced). pi_0 trivial on the actual carrier KILLS the VEV-orientation wall target at W1; nontrivial pi_0 types the external Z/2 sector datum the route needs"
+    origin: "WB-1 verdict (wb1-crossing-is-a-sector-datum-r-cannot-supply-2026-08-17.md): W1 RELOCATED to an external Z/2 sector datum; kill branch named, not fired"
+    owner: joe-directed channels (wave 3 candidate)
+    status: QUEUED
+    activation: next wall-adjacent wave; requires the native varpi vacuum-set object typed first
+    next_check: "2026-08-24"
+  - id: GB1-SIGMA2-DIRECTION-SUPPLY
+    title: "The W3 missing arrow: a source-native supply of the Gamma-odd, Krein-breaking mass direction (SC-CHI-02's m = R/4 is the charge-0 pole exactly). TR-1 section 8.3 supplies the typed inventory to shop: the Gamma-odd stock is exactly the class-2 rows (odd-k epsilon directions); the Krein leg of each candidate is reality-map-gated (SN-1); the gapping leg priced by TB-4's rank bound. If the carrier offers no such direction, W3 dies at this arrow"
+    origin: "GB-1 verdict (gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md) + TR-1 section 8.3 inventory"
+    owner: SC-CHI-02 register owner + joe-directed channels (wave 3 candidate)
+    status: QUEUED
+    activation: next grading-adjacent wave; shop TR-1's class-2 inventory first
+    next_check: "2026-08-24"
   - id: RSC1-R5-RESCOPE
     title: "Split ledger R5 into R5-K (kinematic: declared-slot directions' simultaneous action across the branched corner; partially executed by RSC-1 for the middle-form direction) and R5-D (dynamical: modulus action on masses in all sectors at once; unexecuted, Lane 1 jointly with the decoupling packet)"
     origin: "RSC-1 sections 5-6, PROPOSAL ONLY on the artifact; entered here so the proposal survives (rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:661-667)"
