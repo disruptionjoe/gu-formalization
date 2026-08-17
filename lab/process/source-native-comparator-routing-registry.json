@@ -142,6 +142,10 @@
       "classification": "CONVENTIONAL_COMPARATOR"
     },
     {
+      "path": "lab/active-research/joe-directed/ct-hardening/ct4-dependency-diagram-invariant-2026-08-17.md",
+      "classification": "INTERNAL_STRUCTURAL_ONLY"
+    },
+    {
       "path": "lab/active-research/joe-directed/h10-remediation/h105-stelle-ghost-sign-2026-08-15.md",
       "classification": "CONVENTIONAL_COMPARATOR"
     },
@@ -492,6 +496,10 @@
     {
       "classification": "SOURCE_NATIVE_ROUTE",
       "path": "lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md"
+    },
+    {
+      "path": "lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
+      "classification": "SOURCE_NATIVE_ROUTE"
     },
     {
       "path": "lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
