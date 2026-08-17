@@ -429,10 +429,26 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
     # ================= TIER 1 (35 pairs) =================
     "ART:lab/active-research/joe-directed/baryon-number-and-proton-decay/bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md::SU(3,2)": (
         LIVE_CANDIDATE,
-        "BD-1's CI-X04 directive presupposes the SU(3,2) real form; the chain "
-        "adjudication (sca-right-chain-2026-08-15.md R6, ch3 repair) postdates "
-        "BD-1 and neither cites the other.  Anyone executing CI-X04 must start "
-        "from SC-A's reconstruction, not from H19's impossible variant.",
+        "CP-1 2026-08-17 adjudication (supersedes the FX-1 introduction note; "
+        "dated-note mechanism per this file's header): CONSISTENT, no "
+        "amendment owed on either side.  The presupposition sits in CI-X04 "
+        "itself (curt-iceberg-native-crosswalk.json: CURT_REPORT_OF_AUTHOR_"
+        "CLAIM / UNTESTED_PHENOMENOLOGY), and BD-1 already fences the "
+        "identification ('the reported object is `SU(3,2)`, the computed "
+        "object is `so(6,4)`', its section 5) and keeps the grade unchanged.  "
+        "SC-A's R6 is reconstruction-grade with the audio check still owed "
+        "and SC-GRP-50 proposed-unwritten, so no composition may promote it "
+        "to a source determination, and none does.  Executor routing plus "
+        "the one new computable object (B-charge classification of "
+        "su(3,2)'s image under SC-A's fibrewise embedding against BD-1's "
+        "k/p partition): composition/cp1-three-live-pairs-adjudicated-"
+        "2026-08-17.md section 5.  BD-1 (08-14) is frozen and predates SC-A "
+        "(08-15); the ledger has no surface for this pair, so NO DELTA IS "
+        "OWED ANYWHERE.  Type stays LIVE_CANDIDATE only because the FX-1 "
+        "probe's C6 pins the introduction counts/set by equality and is not "
+        "CP-1's to edit; the FX-1 owner should flip this entry to "
+        "ALREADY_COMPOSED (composed-by-adjudication) at the next C6 refresh "
+        "and preserve this note.",
     ),
     "ART:lab/active-research/joe-directed/high-energy-two-plus-one/cb4-h210-fixed-versus-comoving-ps-typing-2026-08-16.md::V_10": (
         UNTYPED,
@@ -572,16 +588,34 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
     ),
     "LEDGER:LT-SM5::Y_C": (
         LIVE_CANDIDATE,
-        "resolver-wave-d-native-126-connection-placement-2026-08-03.md built "
-        "the native contraction machinery with exact kernels and says 'total "
-        "P0/Y placement … remain open'; LT-SM5's distance asks for exactly "
-        "that placement and its evidence cites only the 2026-08-12 varpi-"
-        "radial gate.  Compose before rebuilding the contraction machinery.",
+        "CP-1 2026-08-17 adjudication (supersedes the FX-1 introduction "
+        "note): CONDITION -- not discharge, not neighbor.  Wave D types the "
+        "row's exact objects (Layer-0 rows carry the ordered "
+        "Herm(P0^dagger K_G c_rho(T) Y_K P0) / Alt(P0^T C c_rho(T) Y_C P0) "
+        "densities) and its section-8 wave-E step 4 is the row's demanded "
+        "placement at machinery level -- but its grade line keeps 'total "
+        "P0/Y placement, source selection, VEV, and mass remain open' and "
+        "its section 9 says 'No total P0/rho/Y_K/Y_C/C full-20 kernel is "
+        "built', so NOTHING IS DISCHARGED.  Versionless DELTA-1 against "
+        "v0.258 (evidence field gains wave D typed 'machinery only'; "
+        "verdict/reason/mapping_grade untouched): composition/cp1-three-"
+        "live-pairs-adjudicated-2026-08-17.md section 3.  The second listed "
+        "provider (rb4 predecessor record) DOES NOT COMPOSE: its matched "
+        "line reads 'no ... placement until the moving reduction and "
+        "zero-order P_0/rho/Y_K/Y_C-reality map are built' -- a "
+        "non-regression requirement wearing the provide verb (PROVIDER-SIDE "
+        "mood-blindness, the supply-side mirror of the two need-side "
+        "receipts); rb4's own final boundary reads TYPED / UNSELECTED and "
+        "OPEN.  rb4 remains genuine machinery for wave-E step 2 only.  Pair "
+        "stays LIVE until the ledger owner applies DELTA-1; then re-type "
+        "ALREADY_COMPOSED with the C5/C6 refresh.",
     ),
     "LEDGER:LT-SM5::Y_K": (
         LIVE_CANDIDATE,
-        "same un-composed provider pair as Y_C (wave D + the rb4 predecessor "
-        "record)",
+        "same pair and same CP-1 2026-08-17 adjudication as Y_C: CONDITION "
+        "via wave D (DELTA-1), and the rb4 leg re-typed provider-side "
+        "mood-blindness -- see the Y_C note and cp1-three-live-pairs-"
+        "adjudicated-2026-08-17.md section 3.",
     ),
     "LEDGER:LT-SM6::E_act": (
         ALREADY_COMPOSED,
@@ -601,14 +635,26 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
     ),
     "LEDGER:RA-A6::v_PSB": (
         LIVE_CANDIDATE,
-        "the row's revival_trigger watches for 'a source-action-selected "
-        "v_PSB'; cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24"
-        ".md already formalizes exactly that object ('source-selected v_PSB "
-        "in the rank-one orbit of V_PSB') and records it NOT selected by "
-        "current repo data; the row's evidence cites only the 2026-08-12 "
-        "Higgs-direction gate.  The trigger's baseline is the June gate; any "
-        "future 'v_PSB selected' claim must be checked against its rank-one "
-        "orbit construction.",
+        "CP-1 2026-08-17 adjudication (supersedes the FX-1 introduction "
+        "note): COMPOSES -- same object verified by LINEAGE RECEIPT, not "
+        "token: RA-A6.source_row = CB-A:A6 and cb-a:222 reads 'conditional "
+        "on a source-selected rank-one v_PSB in (10bar,1,3)' citing "
+        "cycle1:275-283 by filename; the homonym register carries no v_PSB "
+        "entry.  The June gate FORMALIZES the object ('source-selected "
+        "v_PSB in the rank-one orbit of V_PSB', V_PSB = (10bar,1,3)) and "
+        "records it 'not selected by current repo data', so the trigger "
+        "fires on a SourceCriticalRankOnePSBSelectionCertificate, never on "
+        "formalization.  Versionless DELTA-2 against v0.258 (revival_trigger "
+        "field only): composition/cp1-three-live-pairs-adjudicated-"
+        "2026-08-17.md section 4.  Surfaced while verifying, first-class "
+        "and UNREGISTERED: the 2026-08-12 trace-hq family computes a "
+        "DIFFERENT rank-one v_psb = kron(e4, fR) in (4,1,2) under the same "
+        "token (stabilizer dim 12 either way, so a numeric check cannot "
+        "discriminate; byte-level: cycle1 has zero '(4,1,2)', the trace-hq "
+        "gate zero '(10bar,1,3)').  Flagged to the homonym channel, which "
+        "owns near-collisions; NOT written into the register by CP-1.  Pair "
+        "stays LIVE until the ledger owner applies DELTA-2; then re-type "
+        "ALREADY_COMPOSED with the C5/C6 refresh.",
     ),
     "LEDGER:RA-E3::C^(32,32)": (
         ALREADY_COMPOSED,

@@ -1150,6 +1150,39 @@ entries:
       quote: "| P3 topology interface |"
       quote_at: "explorations/unified-source-datum-packet-v0-2026-07-30.md"
 
+  - token: v_PSB
+    kind: homonym
+    provenance: cp1-2026-08-17
+    senses:
+      - definition: >-
+          source-selected rank-one vector in the orbit of V_PSB = (10bar,1,3),
+          the Pati-Salam-breaking datum RA-A6 watches; formalized by the
+          2026-06-24 cycle1 SourceCriticalRankOnePSBSelectionCertificate gate
+          and recorded NOT selected
+        namespace: cycle1 2026-06-24 / ledger RA-A6
+        locus: "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:254"
+      - definition: >-
+          independent rank-one vector in (4,1,2) whose stabilizer is the SM,
+          computed by the 2026-08-12 trace-hq chain gate as kron(e4, fR)
+        namespace: selected-k77 trace-hq chain 2026-08-12
+        locus: "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:281"
+    disambiguator:
+      rule: >-
+        name the representation with the token whenever both families are in
+        play: v_PSB(10bar,1,3) vs v_PSB(4,1,2); stabilizer dimension CANNOT
+        discriminate (12 either way) so numerics alone never disambiguate; the
+        two are byte-disjoint across their owning files
+      attested_at: ["lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:33"]
+    receipt:
+      incident: >-
+        CP-1, verifying the RA-A6 composition, found a second object under the
+        same token: the trace-hq family computes a DIFFERENT v_psb in (4,1,2)
+        with the same 12-dim stabilizer, indistinguishable by the one numeric a
+        reader would check; DELTA-2 had to name the excluded object explicitly
+        inside the revival trigger
+      paid_by: ["lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:33", "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:244"]
+      quote: "rank-one v_PSB in (4,1,2), same 12-dim stabilizer, handed to the homonym"
+      quote_at: "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md"
 contrary_controls:
 
   - token: gimmel
