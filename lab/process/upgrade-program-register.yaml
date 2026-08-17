@@ -1,0 +1,132 @@
+# Upgrade-program register — deferred improvements with owners and activations.
+#
+# WHY THIS EXISTS (2026-08-17, Joe's direction): "queue it as a rider on the
+# next touch" is the dropped-commitments class AR-1 measured — specified work
+# with no tracked home decays silently.  Every deferred upgrade idea lives
+# HERE, with an owner and an activation condition, and the Observation pass
+# reads this file (runtime stewardship binding, S1 floor).  An item leaves
+# only by DONE (with receipt) or DECLINED (with grounds).  This register is
+# gated: process_gates/upgrade_program_register_audit.py.
+schema_version: "1.0"
+created: "2026-08-17"
+status_vocabulary: [QUEUED, ACTIVE, DONE, DECLINED]
+items:
+  - id: CT-1-BASE-CATEGORIES
+    title: Base-category reference (Layer, Grant, Carrier — objects and arrows, once)
+    origin: session 015qsi CT assessment; incidents receipted per object
+    owner: joe-directed ct-hardening wave
+    status: ACTIVE
+    activation: launched 2026-08-17 (stage A of the CT wave)
+    next_check: "2026-08-19"
+  - id: CT-2-MINT-PROJECTION
+    title: Non-retroactive (layer, grant, carrier) projection on every mint-touched ledger row
+    origin: CT step 2 partial; FX-2 pattern
+    owner: joe-directed ct-hardening wave
+    status: QUEUED
+    activation: CT-1 lands (needs the closed codomains)
+    next_check: "2026-08-19"
+  - id: CT-3-MORPHISM-UPGRADE
+    title: FX-1 needs/provides extraction upgraded to typed dom/cod records from CT-1 categories
+    origin: CT step 3; v_PSB token-blindness receipt
+    owner: joe-directed ct-hardening wave
+    status: QUEUED
+    activation: CT-1 lands
+    next_check: "2026-08-19"
+  - id: CT-4-DIAGRAM-INVARIANT
+    title: Dependency-diagram invariant gate (components/cycle rank on declared edges; stable under the 32-to-35 refinement)
+    origin: CT step 4; LA-10 vocabulary-relativity receipt
+    owner: joe-directed ct-hardening wave
+    status: ACTIVE
+    activation: launched 2026-08-17 (independent of CT-1)
+    next_check: "2026-08-19"
+  - id: CT-5-DIRTY-PROPAGATION
+    title: Canonical-correction dirty-bit propagation gate (consumer edges; SCUR-1 seed)
+    origin: CT step 5; SCUR-1 hand-computed seed; canonical-currency bindings 2026-08-17
+    owner: joe-directed ct-hardening wave
+    status: QUEUED
+    activation: CT-1 lands
+    next_check: "2026-08-19"
+  - id: LEDGER-FULL-ROW-RETYPE
+    title: Full (layer, grant, carrier) retype of all v0.259 rows (beyond mint-touched accretion)
+    origin: CT step 2 full; deferred as adjudication-heavy
+    owner: integration owner (future mint)
+    status: QUEUED
+    activation: after CT-2 has accreted enough rows to measure the per-row cost honestly
+    next_check: "2026-08-24"
+  - id: FX1-BD1-PAIR-FLIP
+    title: FX-1's C6 refresh flipping the BD-1 pair to ALREADY_COMPOSED
+    origin: IM-1 mint tripwire disposition (left LIVE deliberately)
+    owner: FX-1 / composition channel
+    status: QUEUED
+    activation: next FX-1 probe touch
+    next_check: "2026-08-24"
+  - id: CANON-SHIAB-REWORD
+    title: canon/shiab-existence-cl95.md:84 ST-1-informed reword
+    origin: SCUR-1 §7 sixth diff (written, unapplied)
+    owner: needs independent second verification per repo rule
+    status: QUEUED
+    activation: any independent review pass (IV-class)
+    next_check: "2026-08-24"
+  - id: SC-GRP-50-REGISTRATION
+    title: Register the chain claim SC-GRP-50 (drafted in SC-A)
+    origin: SC-A; blocked on the audio check
+    owner: Joe (audio verification), then source owner
+    status: QUEUED
+    activation: audio check of the [00:45:00] sentence
+    next_check: "2026-08-31"
+  - id: AUDIO-CHECK-00-45-00
+    title: Verify the restored chain sentence against the actual UCSD recording
+    origin: transcript apparatus 2026-08-15; both copies are derivatives
+    owner: Joe
+    status: QUEUED
+    activation: manual
+    next_check: "2026-08-31"
+  - id: KERNEL-SESSION-SYNC-GUARD
+    title: Mechanical cwd guard in repo-session-sync.sh (3 violations in one day despite documented rule)
+    origin: session 015qsi; enforcement-not-visibility failure class
+    owner: Joe (kernel is Codex-approval load-bearing)
+    status: QUEUED
+    activation: Joe's call
+    next_check: "2026-08-31"
+  - id: VPSB-HOMONYM-KIND
+    title: Decide whether v_PSB register entry kind should be near_collision (touches FX-3 pins)
+    origin: IM-1 mint report; CP-1 vs register kind mismatch
+    owner: homonym register owner (FX-3 lineage)
+    status: QUEUED
+    activation: next homonym register touch
+    next_check: "2026-08-24"
+  - id: MINT-RESIDUE-AC-ROWS
+    title: AC-A5 trigger, AC-A7 addendum, ITC D5, the 14 declared-condition edits, eight legacy kill rows
+    origin: IM-1 §9 residue list (owners named per item there)
+    owner: per IM-1 §9
+    status: QUEUED
+    activation: next mint
+    next_check: "2026-08-24"
+  - id: CB-C-U4-MENU
+    title: CB-C U4 mechanism-menu addition (SCUR-1 finding, current doc, one omission)
+    origin: SCUR-1 CB-pack verdicts
+    owner: conditional-build owner / next mint
+    status: QUEUED
+    activation: next mint
+    next_check: "2026-08-24"
+  - id: PD-PARITY-DOWNSTREAM
+    title: Downstream census follow-ups from the PD-SIGNATURE-PARITY cross-check
+    origin: FIX-B (in flight 2026-08-17)
+    owner: session owner on FIX-B landing
+    status: ACTIVE
+    activation: FIX-B returns
+    next_check: "2026-08-19"
+  - id: K151-TYPED-CARRIER-RED
+    title: K-lane's selected-k151 artifact needs its gu-typed-objects block or exemption
+    origin: typed-carrier gate first live red; binding memo landed 2026-08-17
+    owner: scheduled K-lane (native validation)
+    status: QUEUED
+    activation: K-lane's next validation pass
+    next_check: "2026-08-19"
+  - id: RS-WAVE-SERIES
+    title: The reverse-scaffold wave series (rung-targeted physics waves; the agreed next program after hardening)
+    origin: "Joe, 2026-08-17: after the procedural updates and fixes, the next waves to scaffold are the reverse scaffolding"
+    owner: session owner (scoping) then joe-directed channels
+    status: QUEUED
+    activation: CT hardening wave (CT-1..5) and FIX-A/FIX-B land
+    next_check: "2026-08-19"
