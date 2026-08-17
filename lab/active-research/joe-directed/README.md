@@ -71,8 +71,11 @@ slots carry.** Three readings are live and they are not equivalent:
 Reading the unsubscripted shorthand naively — as the same half twice — silently
 selects `S-HALF-SAME`. Any downstream argument that turns on the chirality
 assignment must name which of the three it uses; **this tree does not resolve
-the fork**, and `SC-CHI-01`'s VEV condition (equivalently SG4 bit 2) is where
-the source puts the selector.
+the fork**. Note which selector answers which layer: `SC-CHI-01`'s VEV
+condition (equivalently SG4 bit 2) selects **which emergent split is
+dynamically realized**, and it PRESUPPOSES the non-chiral total, so it cannot
+select among the three readings above. For the DECLARATION-content fork the
+selector is the source itself, already read: see CR-B and SG-1 (2026-08-16).
 
 Two further ceilings recur and should be read with every file:
 
