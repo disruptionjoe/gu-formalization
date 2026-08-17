@@ -97,6 +97,13 @@ field, a mixed-layer carrier without a declared bridge, an unregistered
 exemption, and seven more -- each required to drive exit 1; exits 0 iff all
 behave.  --selftest --poison-baseline corrupts the clean set to prove the
 baseline guard itself has power (prints the refusal and exits 1).
+
+CODOMAIN WIRING (CT-1, 2026-08-17): the LAYER= and MAP-TYPE= vocabularies are
+canonically stated in lab/methods/gu-base-categories.md; every audit run
+cross-checks this module's token constants against that reference's
+gu-token-codomain block and reds on drift (fail-closed if the reference is
+missing).  The self-test plants a mismatched and a missing reference and
+requires both to be caught.
 """
 
 import glob
@@ -120,6 +127,14 @@ UNTYPED = "UNTYPED"
 # point: one vocabulary, one census.
 CHIRALITY_TOKENS = ("S-FULL-DIRAC", "S-HALF-OPPOSITE", "S-HALF-SAME",
                     "S-CHIRALITY-UNTYPED", "N/A")
+# CODOMAIN (CT-1, 2026-08-17): LAYER_TOKENS and MAP_TOKENS are this gate's
+# working copies of vocabularies whose canonical statement lives in
+# lab/methods/gu-base-categories.md (Carrier-category objects/markers for
+# LAYER, arrow labels for MAP-TYPE).  audit() cross-checks both sets against
+# that reference's `gu-token-codomain` block every run and REDS on any drift,
+# in either direction, so the two surfaces cannot diverge silently.
+# CHIRALITY_TOKENS' codomain owner remains CN-2 and OWNER_TOKENS' remains the
+# FX-2 design record (stated in the reference §3.4); neither is wired here.
 LAYER_TOKENS = ("ambient", "observed", "source-print", "toy", UNTYPED)
 OWNER_TOKENS = ("source-action", "observer", "repository-construction",
                 "comparator", "source-print", "N/A", UNTYPED)
@@ -127,6 +142,47 @@ MAP_TOKENS = ("projection", "contraction", "inclusion", "restriction",
               "pullback", "pushforward", "quotient", "isomorphism",
               "homomorphism", "intertwiner", "evaluation", "not-a-map",
               UNTYPED)
+REFERENCE_REL = "lab/methods/gu-base-categories.md"
+REFERENCE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              os.pardir, "lab", "methods",
+                              "gu-base-categories.md")
+CODOMAIN_FENCE_RE = re.compile(r"^```gu-token-codomain[ \t]*\n(.*?)^```",
+                               re.M | re.S)
+
+
+def codomain_drift(path=None):
+    """Compare LAYER_TOKENS/MAP_TOKENS against the base-category reference.
+
+    Returns a list of drift descriptions; empty means the two surfaces agree.
+    Fails closed: a missing reference, a missing block or a missing line is
+    drift.  Reads the module constants (not the source text) so a runtime
+    mutation of either surface is also caught.
+    """
+    path = REFERENCE_PATH if path is None else path
+    try:
+        text = open(path, encoding="utf-8").read()
+    except OSError:
+        return ["codomain reference missing: " + REFERENCE_REL]
+    m = CODOMAIN_FENCE_RE.search(text)
+    if not m:
+        return ["codomain reference has no gu-token-codomain block"]
+    declared = {}
+    for line in m.group(1).splitlines():
+        lm = re.match(r"^([a-z-]+):\s*(.*)$", line)
+        if lm:
+            declared[lm.group(1)] = tuple(lm.group(2).split())
+    drift = []
+    for key, tokens in (("layer-tokens", LAYER_TOKENS),
+                        ("map-type-tokens", MAP_TOKENS)):
+        ref = declared.get(key)
+        if ref is None:
+            drift.append("codomain reference missing line: " + key)
+        elif len(ref) != len(set(ref)):
+            drift.append("codomain reference duplicates tokens on " + key)
+        elif set(ref) != set(tokens):
+            drift.append("codomain drift on %s: gate=%s reference=%s"
+                         % (key, sorted(tokens), sorted(ref)))
+    return drift
 HOMONYMS = ("so(1,3)", "so(3,1)", "ad(P_H)")
 HOMONYM_ESCAPE = "HOMONYM-AMBIGUOUS"
 
@@ -340,6 +396,9 @@ def audit(paths=None, baseline=None):
             red.append((f, "states a result (%s) with no gu-typed-objects "
                            "block and no registered exemption"
                         % ", ".join(reasons)))
+    drift = codomain_drift()
+    for why in drift:
+        red.append((REFERENCE_REL, why))
     for f, why in red:
         print("RED  %s: %s" % (f, why))
     print("typed_carrier_declaration_audit: %d red (baseline %d); "
@@ -356,10 +415,15 @@ def audit(paths=None, baseline=None):
           "reads declared metadata and certificate shapes only; a result "
           "stated in prose with none of the four signals is invisible. "
           "A green scan bounds only the SIGNALLED class.")
+    print("typed_carrier_declaration_audit[codomain]: LAYER/MAP-TYPE token "
+          "sets vs %s: %s" % (REFERENCE_REL,
+                              "match" if not drift
+                              else "%d drift red" % len(drift)))
     stats = {"red": len(red), "scope": scope, "triggered": triggered,
              "blocks": blocks_seen, "exemptions": list(exemptions),
              "untyped_slots": untyped_slots,
-             "all_untyped": list(all_untyped_paths)}
+             "all_untyped": list(all_untyped_paths),
+             "codomain_drift": len(drift)}
     return (1 if len(red) > baseline else 0), stats
 
 
@@ -483,6 +547,22 @@ def self_test(poison=False):
                       "mutations were NOT run")
                 print("SELF-TEST FAILED")
                 return 1
+            # CT-1 codomain controls: the reference cross-check must be
+            # green against the live reference, catch a planted mismatch,
+            # and fail closed on a missing reference.
+            if codomain_drift():
+                ok = False
+                print("SELF-TEST: codomain check red against the live "
+                      "reference (must be green)")
+            open("bad_reference.md", "w", encoding="utf-8").write(
+                "```gu-token-codomain\nlayer-tokens: ambient observed\n"
+                "map-type-tokens: projection\n```\n")
+            if not codomain_drift("bad_reference.md"):
+                ok = False
+                print("SELF-TEST: planted codomain drift NOT caught")
+            if not codomain_drift("no_such_reference.md"):
+                ok = False
+                print("SELF-TEST: missing codomain reference NOT caught")
             for name, content in FIXTURES_FAIL.items():
                 open(name, "w", encoding="utf-8").write(content)
                 code, _stats = audit(paths=[name], baseline=0)

@@ -142,6 +142,10 @@
       "classification": "CONVENTIONAL_COMPARATOR"
     },
     {
+      "path": "lab/active-research/joe-directed/ct-hardening/ct1-base-categories-2026-08-17.md",
+      "classification": "INTERNAL_STRUCTURAL_ONLY"
+    },
+    {
       "path": "lab/active-research/joe-directed/ct-hardening/ct4-dependency-diagram-invariant-2026-08-17.md",
       "classification": "INTERNAL_STRUCTURAL_ONLY"
     },
