@@ -4,7 +4,7 @@ artifact_type: exploration
 status: exploration
 created: 2026-07-11
 wave: 66
-grade: "COMPUTED (deterministic, exit 0): that alpha_W is the c_W coefficient (needs the reconstruction-grade (R^Y.B)^TF input); that the O(M^1) II-class ambient term and the O(M^1) theta-source are the same order (the weld exists) and c_W = f0*K_theta/K_grav (symbolic); that the strong-field OBSERVABLE (Yukawa strength 1/3, range hbar_c/(sqrt(m2_eff) mu_DW)) carries NEITHER f_0 NOR c_W and d(lambda_Y)/d(f_0)=0 (symbolic); that alpha_Y=1/3 and c_L=3/8 are forced ratios while alpha_W is a relative weight between different tensor structures. ARGUED (structural): that the DE-EOS curvature vertex and the gravity-source matter vertex are DISTINCT theta-operators (the load-bearing assumption, = the wave20/H43 light-mode construction plus the Branch-3 source-law); that no DeWitt scale-covariance / Ward identity pins the relative weight; that the indirect beta/alpha-elimination route is gated three ways. Reconstruction-tier, internal. No canon promotion; no verdict/claim-status/RESEARCH-STATUS/posture change; no external action."
+grade: "COMPUTED (deterministic, exit 0): that alpha_W is the c_W coefficient (needs the reconstruction-grade (R^Y.B)^TF input); that the O(M^1) II-class ambient term and the O(M^1) theta-source are the same order (the weld exists) and c_W = f0*K_theta/K_grav (symbolic); that the strong-field OBSERVABLE (Yukawa strength 1/3, range hbar_c/(sqrt(m2_eff) mu_DW)) carries NEITHER f_0 NOR c_W and d(lambda_Y)/d(f_0)=0 (symbolic); that alpha_Y=-4/3 and c_L=3/8 are forced ratios while alpha_W is a relative weight between different tensor structures. ARGUED (structural): that the DE-EOS curvature vertex and the gravity-source matter vertex are DISTINCT theta-operators (the load-bearing assumption, = the wave20/H43 light-mode construction plus the Branch-3 source-law); that no DeWitt scale-covariance / Ward identity pins the relative weight; that the indirect beta/alpha-elimination route is gated three ways. Reconstruction-tier, internal. No canon promotion; no verdict/claim-status/RESEARCH-STATUS/posture change; no external action."
 depends_on:
   - tests/W66_path4_wave2_alphaW.py
   - explorations/path4-branchA-eos-gravity-correlation-2026-07-11.md
@@ -49,7 +49,7 @@ Two prior branches saw the coupling in tension:
 - **Gravity functional = program-native induced `|II|^2`** (II-class). Its curved-ambient
   Willmore-EL carries an ambient-curvature term `~ R^Y . B` whose prefactor **is** `c_W` (the
   OQ2-A functional-choice datum, UNBUILT). Its TT spectrum is Stelle `box(box + m2^2)`: massless
-  graviton + massive spin-2 of mass `m2 = sqrt(m2_eff) mu_DW`, strength `alpha_Y = 1/3`.
+  graviton + massive spin-2 of mass `m2 = sqrt(m2_eff) mu_DW`, strength `alpha_Y = -4/3` (corrected H10-5).
 - **theta (DE sector) = program-native normal mode of `X^4 -> Y^14`.** EOS shape set by the
   CURVATURE-coupling eigenvalue `M^2 = lambda_{N,1}` (root number `{3,7,8,...}`) and amplitude
   `f_0` -- the wave20/H43 light-mode construction.
@@ -109,10 +109,10 @@ decisive question is whether it reaches an observable.
 
 ## 3. Derivation 1 (DIRECT): the weld never reaches the strong-field observable
 
-The strong-field OBSERVABLE is the massive-spin-2 Yukawa: strength `alpha_Y = 1/3` (forced,
+The strong-field OBSERVABLE is the massive-spin-2 Yukawa: strength `alpha_Y = -4/3` (forced,
 scale-free), range `lambda_Y = hbar_c/(sqrt(m2_eff) mu_DW)`.
 
-- `alpha_Y = 1/3` carries NEITHER `f_0` NOR `c_W` (test P2a).
+- `alpha_Y = -4/3` carries NEITHER `f_0` NOR `c_W` (test P2a).
 - `lambda_Y` carries NO `f_0` and NO `c_W` (only `mu_DW`, `m2_eff`), so `d(lambda_Y)/d(f_0) = 0`
   at fixed `(mu_DW, m2_eff)` (tests P2b, P2c, symbolic). **The weld `c_W(f_0)` does not
   propagate to the observable.** A's block-diagonal OBSERVABLE conclusion STANDS.
@@ -130,7 +130,7 @@ reaches the `f_0`-blind / `c_W`-blind observable.
 
 For `alpha_W` to be parameter-free it would need to be a forced RATIO of computed invariants,
 like the framework's genuine parameter-free numbers:
-- `alpha_Y = 1/3` (vDVZ, a representation-theory fact -- massless limit of massive spin-2),
+- `alpha_Y = -4/3` (vDVZ ratio with ghost sign, a representation-theory fact -- massless limit of massive spin-2),
 - `c_L = 3/8` (DeWitt horizontal sectional curvature),
 
 each fixed by geometry/representation theory with NO unbuilt input (test P3a). By contrast
@@ -218,7 +218,7 @@ quantitative parameter-free slope.**
 
 - **COMPUTED (exact/symbolic):** `alpha_W` is the `c_W` coefficient (needs reconstruction-grade
   `(R^Y.B)^TF`); the `O(M^1)==O(M^1)` order-match giving the weld and `c_W = f_0 K_theta/K_grav`;
-  `alpha_Y=1/3` and `lambda_Y` carry no `f_0`/`c_W`; `d lambda_Y/d f_0 = 0`; `alpha_Y=1/3`,
+  `alpha_Y=-4/3` and `lambda_Y` carry no `f_0`/`c_W`; `d lambda_Y/d f_0 = 0`; `alpha_Y=-4/3`,
   `c_L=3/8` are forced rationals while `alpha_W` is a cross-structure weight.
 - **ARGUED (structural):** the two-distinct-theta-vertices assumption (load-bearing); no
   DeWitt-covariance/Ward identity pins the relative weight; the three-way gating of the indirect

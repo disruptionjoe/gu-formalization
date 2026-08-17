@@ -32,7 +32,7 @@ CONSTRUCTION USED (fork rule, GEOMETER-VS-PHYSICS-OBJECTS.md):
 TWO INDEPENDENT DERIVATIONS, encoded as deterministic assertions:
   D1 DIRECT   -- trace the c_W and beta/alpha dependence through the coupling to the OBSERVABLE.
   D2 STRUCTURAL -- is there a symmetry/normalization (a shared-theta Ward identity) that forces
-                   alpha_W to a computed pure number the way alpha_Y=1/3 and c_L=3/8 are forced?
+                   alpha_W to a computed pure number the way alpha_Y=-4/3 and c_L=3/8 are forced?
   They must AGREE.
 
 Run: python -u tests/W66_path4_wave2_alphaW.py    (exit 0 on success)
@@ -115,18 +115,20 @@ check("P1c: the weld terminates in the UNBUILT c_W (and needs reconstruction-gra
 
 # ===========================================================================
 # PART 2 -- DERIVATION 1 (DIRECT): does the weld reach the strong-field OBSERVABLE?
-#   The strong-field OBSERVABLE is the massive-spin-2 Yukawa: strength alpha_Y=1/3 (forced),
+#   The strong-field OBSERVABLE is the massive-spin-2 Yukawa: strength alpha_Y=-4/3 (forced; corrected H10-5),
 #   range lambda_Y = hbar_c/(sqrt(m2_eff)*mu_DW). Trace whether f_0 or c_W enter it.
 # ===========================================================================
 log("\n" + "=" * 78)
 log("PART 2 -- DERIVATION 1 (direct): the weld does NOT reach the f_0-blind, c_W-blind Yukawa")
 log("=" * 78)
 
-alpha_Y = sp.Rational(1, 3)                                   # forced, scale-free (vDVZ)
+# CORRECTED 2026-08-16 (H10-5): was 1/3; vDVZ RATIO with ghost sign is -4/3.
+# The claim under test is independence from f_0 and c_W, which is unchanged.
+alpha_Y = sp.Rational(-4, 3)                                  # forced, scale-free (vDVZ ratio, ghost)
 lamY = HBAR_C / (sp.sqrt(m2eff) * mu_DW)                      # the observable range
 
-check("P2a: the Yukawa STRENGTH alpha_Y = 1/3 is forced and carries NEITHER f_0 NOR c_W "
-      "[COMPUTED]", alpha_Y == sp.Rational(1, 3))
+check("P2a: the Yukawa STRENGTH alpha_Y = -4/3 is forced and carries NEITHER f_0 NOR c_W "
+      "[COMPUTED]", alpha_Y == sp.Rational(-4, 3))
 check("P2b: the Yukawa RANGE lambda_Y carries NO f_0 and NO c_W (only mu_DW and m2_eff) -> the "
       "weld c_W(f_0) does NOT propagate to the strong-field observable [COMPUTED, symbolic]",
       f0 not in lamY.free_symbols and c_W not in lamY.free_symbols)
@@ -162,7 +164,7 @@ log("\n  DERIVATION 1 verdict: alpha_W(f_0) is GATED -- it is the unbuilt c_W, i
 # ===========================================================================
 # PART 3 -- DERIVATION 2 (STRUCTURAL): is there a Ward identity forcing alpha_W parameter-free?
 #   For alpha_W to be parameter-free it would need to be a forced RATIO of computed invariants,
-#   like alpha_Y=1/3 (vDVZ representation fact) or c_L=3/8 (DeWitt sectional). Test whether the
+#   like alpha_Y=-4/3 (vDVZ ratio with ghost sign) or c_L=3/8 (DeWitt sectional). Test whether the
 #   shared theta's normalization pins it.
 # ===========================================================================
 log("\n" + "=" * 78)
@@ -172,7 +174,7 @@ log("=" * 78)
 # the genuinely forced scale-free numbers of the framework -- each is a RATIO fixed by geometry
 # / representation theory, needing NO unbuilt input:
 forced_numbers = {"alpha_Y": sp.Rational(1, 3), "c_L": sp.Rational(3, 8)}
-check("P3a: the framework's forced parameter-free numbers (alpha_Y=1/3, c_L=3/8) are RATIOS "
+check("P3a: the framework's forced parameter-free numbers (alpha_Y=-4/3, c_L=3/8) are RATIOS "
       "fixed by representation theory / DeWitt geometry, needing NO unbuilt input [cited]",
       all(v.is_Rational for v in forced_numbers.values()))
 

@@ -33,7 +33,7 @@ PRIOR RESULTS REUSED (cited, not re-derived):
   DE sector      wave20 H43 / wave29 H46 : w(z) is non-CPL; KG theta on FLRW; shape set by
                  M^2 = lambda_{N,1} in H0^2 units (root eigenvalues {3,7,8,...}) and f0.
   gravity sector wave28 H49 / wave30 H50 / wave31 H51 : |II|^2 -> Stelle-Yukawa,
-                 range lambda_Y = hbar_c/(sqrt(m2_eff)*mu_DW), strength alpha_Y = 1/3 (vDVZ),
+                 range lambda_Y = hbar_c/(sqrt(m2_eff)*mu_DW), strength alpha_Y = -4/3 (vDVZ ratio, ghost sign; corrected H10-5),
                  m2_eff in [5/6,5/4]; DeWitt vacuum rho_Lambda = c_L*mu_DW^4, c_L = 3/8.
   landscape      wave35 : shape-dim-1 FAMILY; residuals = beta/alpha (bounded), mu_DW, alpha.
 
@@ -191,7 +191,7 @@ check("P1c: the theta KG coefficient M^2/H^2 = lambda_N1 (root eigenvalue) conta
 
 # ===========================================================================
 # PART 2 -- THE GRAVITY-SECTOR DEPENDENCE: deviation = f(mu_DW, m2_eff), theta-EOS-BLIND
-#   |II|^2 Stelle-Yukawa: range lambda_Y = hbar_c/(sqrt(m2_eff)*mu_DW), strength 1/3.
+#   |II|^2 Stelle-Yukawa: range lambda_Y = hbar_c/(sqrt(m2_eff)*mu_DW), strength -4/3 (corrected H10-5).
 #   Depends on mu_DW (free scale) and m2_eff in [5/6,5/4] (bounded beta/alpha residual);
 #   INDEPENDENT of lambda_N1 and f0.
 # ===========================================================================
@@ -230,10 +230,16 @@ check("P2c: the Yukawa range symbol contains NO lambda_N1 and NO f0 -> the stron
       lamN1 not in lamY_symbol.free_symbols and f0s not in lamY_symbol.free_symbols)
 
 # strength is the ONE forced scale-free number in the gravity sector.
-alpha_Y = sp.Rational(1, 3)
-check("P2d: the Yukawa STRENGTH alpha_Y = 1/3 (vDVZ trace factor, H10) is forced, "
-      "scale-free, and beta/alpha-independent -- but it is a gravity-sector-ALONE fact, "
-      "not a correlation with the DE sector [COMPUTED]", alpha_Y == sp.Rational(1, 3))
+# CORRECTED 2026-08-16 (H10-5).  Was sp.Rational(1, 3).  The vDVZ potential
+# coefficient is the RATIO (1 - 1/3)/(1 - 1/2) = 4/3, not the projector trace
+# coefficient 1/3, and the massive spin-2 is a GHOST, so the sign is negative:
+# alpha_Y = -4/3, repulsive, four times larger in magnitude.  The claim under
+# test here is FORCEDNESS and DE-sector independence, which is unchanged.
+alpha_Y = sp.Rational(-4, 3)
+check("P2d: the Yukawa STRENGTH alpha_Y = -4/3 (vDVZ ratio, ghost sign; H10 as "
+      "corrected by H10-5) is forced, scale-free, and beta/alpha-independent -- but it "
+      "is a gravity-sector-ALONE fact, "
+      "not a correlation with the DE sector [COMPUTED]", alpha_Y == sp.Rational(-4, 3))
 
 
 # ===========================================================================
@@ -373,12 +379,12 @@ check("P6b: vs generic degravitation / 'graviton-mass = DE-scale' models -- thes
       "scale-lock [ARGUED]", generic_massive_gravity_reproduces_density_lock)
 
 # Generic quintessence + independent massive gravity: HAS both sectors but they are
-# INDEPENDENT (two objects, two free strengths). GU's only extra content is (i) alpha_Y=1/3
+# INDEPENDENT (two objects, two free strengths). GU's only extra content is (i) alpha_Y=-4/3
 # fixed and (ii) the root-system EOS family -- SEPARATE facts, not a joint locus. So GU's
 # discriminator over that class is qualitative co-presence + two fixed sub-facts, NOT a
 # forced correlation.
 check("P6c: vs generic quintessence + independent massive gravity -- that class ALSO has both "
-      "sectors, uncorrelated. GU adds (i) alpha_Y=1/3 fixed and (ii) the root-system EOS "
+      "sectors, uncorrelated. GU adds (i) alpha_Y=-4/3 fixed and (ii) the root-system EOS "
       "family, but these are SEPARATE forced facts, not a joint EOS x gravity locus. The "
       "discriminator is qualitative co-presence, not a correlation [ARGUED]", True)
 
@@ -403,7 +409,7 @@ log(r"""
   Q-disc   : WEAK. The density-lock is reproduced by generic massive-gravity-as-DE models
              (not discriminating). The genuine GU discriminator is a QUALITATIVE co-presence
              (dynamical EOS AND massive spin-2 from the one |II|^2 shape action) plus two
-             separate fixed sub-facts (alpha_Y = 1/3; the root-system EOS family) -- not a
+             separate fixed sub-facts (alpha_Y = -4/3; the root-system EOS family) -- not a
              quantitative family-invariant correlation locus.
 
   STRONGEST FORCED-AND-NOVEL STATEMENT the branch can defend (weaker than a headline):

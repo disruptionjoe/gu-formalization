@@ -108,7 +108,9 @@ All computed in `tests/track2/T2A_graviton_sector_numbers.py`; published bounds 
 **Yukawa correction** (strength FIXED, range a function of the free scale):
 
 ```
-V(r) = -(GM/r) [1 + (1/3) e^{-r/lambda}],   alpha = 1/3 (vDVZ trace factor, not tunable)
+V(r) = -(GM/r) [1 - (4/3) e^{-r/lambda}],   alpha = -4/3 (vDVZ RATIO with ghost sign,
+                                             not tunable; CORRECTED H10-5 2026-08-15,
+                                             was +1/3 -- magnitude x4, sign flipped)
 lambda(mu_DW) = hbar c / (sqrt(m2_eff) mu_DW),  m2_eff in [5/6, 5/4]
   mu_DW = 2.3 meV  -> lambda in [76.7, 94.0] um     (the H36 point, c_L = 1)
   mu_DW = 2.94 meV -> lambda in [60.0, 73.6] um     (H36 with computed c_L = 3/8) -- EXCLUDED
@@ -116,9 +118,26 @@ lambda(mu_DW) = hbar c / (sqrt(m2_eff) mu_DW),  m2_eff in [5/6, 5/4]
   mu_DW = M_Pl     -> lambda ~ 1.5e-35 m            (natural H24 default; unobservable)
 ```
 
-**PPN profile and Cassini:** `gamma(r) - 1 = -(2/3) e^{-m2 r}` (H10; endpoints vDVZ 1/2 and GR
+**PPN profile and Cassini:** `gamma(r) - 1 = +(2/3) e^{-m2 r}` (sign CORRECTED H10-5; magnitude unchanged, so the Cassini numbers below are unaffected) (H10; endpoints vDVZ 1/2 and GR
 1 cross-checked there). Cassini `|gamma - 1| < 2.3e-5` gives `m2 r > 10.27`, i.e.
 `mu_DW > 1.5e-17 eV` (1 AU) or `> 2.0e-15 eV` (1.6 R_sun). Reproduces H10; NOT binding.
+
+> [!CAUTION]
+> **CORRECTION 2026-08-16 — the Yukawa coupling below is at a SUPERSEDED value.**
+> `H10-5` (2026-08-15) derived the vDVZ potential coefficient from projector
+> traces and the ghost sign, and it is `alpha = -4/3`, not `+1/3`: four times
+> larger in magnitude and **repulsive**. Every `alpha = 1/3` in the sub-mm
+> discussion below is therefore the wrong coupling.
+>
+> **The verdict direction does not change, and gets stronger.** A coupling four
+> times larger is excluded out to LONGER ranges, so the H36 point at
+> `lambda in [60.0, 73.6] um` is excluded *a fortiori*. `falsified` stands.
+>
+> **What is NOT supplied here:** the exclusion boundary at `|alpha| = 4/3`. The
+> `~45-52 um` figure below was argued at `alpha = 1/3` against a curve this
+> artifact already records as *"boundary argued not digitized"*. Substituting
+> `4/3` into a bound read off at `1/3` would be inventing a number. Re-reading
+> the digitized curve at the corrected coupling is OWED and not done.
 
 **Sub-mm (the binding channel):** the H36 identification predicts `alpha = 1/3` at
 `lambda in [60.0, 73.6] um`, which sits above the argued alpha = 1/3 exclusion boundary

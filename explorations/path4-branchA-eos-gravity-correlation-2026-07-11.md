@@ -34,7 +34,7 @@ makes the free scales CANCEL, yielding a family-invariant, discriminating correl
   NOT a free `R^2/Weyl^2` Lagrangian. Its TT second variation is the Stelle operator
   `box(box + m2^2)` (wave28 H49): a massless graviton + a massive spin-2 of mass
   `m2 = sqrt(m2_eff) mu_DW`, giving a Yukawa of range `lambda_Y = hbar_c/(sqrt(m2_eff) mu_DW)`,
-  strength `alpha_Y = 1/3` (vDVZ, H10, fixed).
+  strength `alpha_Y = -4/3` (vDVZ ratio with ghost sign; H10 **as corrected by H10-5, 2026-08-15** -- was `+1/3`, magnitude x4 and sign flipped).
 - **theta (DE sector) = the program-native fiber / normal mode of the same embedding**
   `X^4 -> Y^14` (canon `theta-field-flrw-dark-energy-eos`). Its cosmological dynamics is a
   Klein-Gordon field whose EFFECTIVE mass on FLRW is `M^2 = lambda_{N,1}` -- a root-system
@@ -65,11 +65,11 @@ EOS SHAPE `(w0, wa)` is set by `(lambda_{N,1}, f0)` and is EXACTLY independent o
 (`M2=8, f0=0.125 -> (w0,wa) ~ (-0.84, +0.05)`; `M2=3, f0=0.40 -> (-0.86, -0.16)`), the H43
 ballpark.
 
-### Gravity sector: deviation `= (lambda_Y, 1/3)`, exactly EOS-blind [COMPUTED]
+### Gravity sector: deviation `= (lambda_Y, -4/3)`, exactly EOS-blind [COMPUTED]
 
-`lambda_Y = hbar_c/(sqrt(m2_eff) mu_DW)`, `alpha_Y = 1/3`. Depends on `mu_DW` (free scale) and
+`lambda_Y = hbar_c/(sqrt(m2_eff) mu_DW)`, `alpha_Y = -4/3` (corrected H10-5). Depends on `mu_DW` (free scale) and
 `m2_eff in [5/6,5/4]` (the `beta/alpha`-bounded residual). **Neither `lambda_{N,1}` nor `f0`
-appears.** The strength `alpha_Y = 1/3` is forced and scale-free -- but it is a
+appears.** The strength `alpha_Y = -4/3` is forced and scale-free -- but it is a
 gravity-sector-ALONE fact, not a correlation with the DE sector.
 
 ---
@@ -164,7 +164,7 @@ C3 EOS x gravity correlation.
 > carry masses ~30 orders of magnitude apart (`O(H0)` vs `mu_DW`) set by DIFFERENT mechanisms
 > (curvature-coupling vs mass-gap).
 
-GU adds two further SEPARATE forced facts on top of the co-presence -- `alpha_Y = 1/3` (fixed)
+GU adds two further SEPARATE forced facts on top of the co-presence -- `alpha_Y = -4/3` (fixed)
 and the root-system EOS family `{3,7,8,...}` -- but these are independent sub-facts, not a
 joint locus.
 

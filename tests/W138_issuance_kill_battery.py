@@ -149,6 +149,14 @@ m2_floor_eV = m2_floor_per_m * hbar * c / eV
 check("G1c: Cassini channel (repo H10): any metric-coupled Yukawa from an issuance "
       "mediator needs m > ~1.4e-17 eV (range < ~0.1 AU)",
       close(m2_floor_eV, 1.4e-17, 0.15), f"m2 floor = {m2_floor_eV:.2e} eV")
+# CORRECTION 2026-08-16 (H10-5): GU's own massive-spin-2 Yukawa coupling is
+# alpha_Y = -4/3, not +1/3.  The two figures below are bounds READ OFF a
+# digitized exclusion curve at the stated alpha values, so they are NOT
+# rescalable by substitution and are left exactly as cited.  This check tests
+# the CITED experimental bounds, not GU's coupling, so it remains correct as
+# written -- but any GU comparison against it must use |alpha| = 4/3, at which
+# the exclusion is STRICTER (larger coupling excluded to longer range).  The
+# boundary at |alpha| = 4/3 is owed and not supplied here.
 # H52: sub-mm: alpha=1 lambda < 38.6 um (Lee 2020); alpha=1/3 lambda_max = 47.6 um
 # (H52 cited). Any matter-coupled scalar channel at gravitational strength with
 # range > ~40-50 um is excluded.
