@@ -43,6 +43,12 @@ scripts:
 > rows, not evidence about a vacuum. Read
 > `lab/methods/source-native-comparator-routing.md` before reusing any quoted
 > sentence outside its owner.
+>
+> Classification: `INTERNAL_STRUCTURAL_ONLY`. *(Canonical value transcribed
+> 2026-08-17: the author's coined token above is out of the routing vocabulary
+> of `lab/methods/source-native-comparator-routing.md`, and its prose — no
+> physics, no comparator, repository governance only — is verbatim the meaning
+> of the fourth value added 2026-08-16. Original declaration preserved.)*
 
 ```gu-typed-objects
 result: LD-D governance assessment — five verdict cards on the SG4-bit-2 selector, one applied README diff, three protocol proposals
