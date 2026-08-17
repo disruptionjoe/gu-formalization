@@ -88,7 +88,7 @@ recorded below; no other composite is asserted anywhere in the corpus.
 |---|---|---|---|---|---|
 | LA1 | observation pullback `s^*` | L1 -> L2 | contraction | **NOT injective** (kernel is the section-dependent 10-plane, VZ-4 [A4]); surjective onto the 4D one-form content; unconditional (exists for every section) | `lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md` §2 [A2]-[A4], §3 [B7]; `lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md` §2 E1-E3; `lab/methods/source-native-comparator-routing.md` (withdrawn-clause CAUTION: WG-B06, contraction not projection); `canon/no-go-class-relative-map.md` :401 (CORRECTION IV-20260815 / VZ4-01) |
 | LA2 | package inclusion | L3 -> L1 | inclusion | Injective (a subobject); **no declared retraction** — see non-arrow N1 | `lab/active-research/joe-directed/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md` §4.1 (two class-homogeneous halves); `lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md` §3 (`W_+ = nu_+ (+) zeta_-`) |
-| LA3 | decoupling | L1 -> L4 | quotient | **VEV-conditional**: exists only under the `SC-CHI-01` hedge / SG4 bit 2 grant (Grant-poset node G6); in the `varpi -> 0` phase the arrow is absent. Not injective as declared: sectors below the dashed line are dark, not deleted | `lab/sources/source-claim-register.yaml` `SC-CHI-01`; `lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md` §5 V1; `lab/active-research/joe-directed/source-currency/scur1-source-currency-audit-2026-08-17.md` §1 item 6 |
+| LA3 | decoupling | L1 -> L4 | quotient | **VEV-conditional**: exists only under the `SC-CHI-01` hedge / SG4 bit 2 grant (Grant-poset node G6) — and the hedge's decoupling holds AT small `varpi`, so the arrow is PRESENT in the `varpi -> 0` (decreased-VEV, bit-2 CHIRAL) phase and ABSENT once a VEV pulls the `varpi` sub-fields significantly above zero (bit-2 MASSIVE) [DIRECTION CORRECTED 2026-08-17 by B1P-1, register item `CT1-LA3-WORDING`: the prior wording read "in the `varpi -> 0` phase the arrow is absent", which inverts the hedge it cites]. Not injective as declared: sectors below the dashed line are dark, not deleted | `lab/sources/source-claim-register.yaml` `SC-CHI-01`; `lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md` §5 V1; `lab/active-research/joe-directed/source-currency/scur1-source-currency-audit-2026-08-17.md` §1 item 6 |
 | LA4 | effective-Weyl description = LA1 after LA2 | L3 -> L2 | contraction | Composite of LA2 then LA1; the source's own effective-generation sentence lives on this composite (pull back the package/half) | `lab/sources/source-claim-register.yaml` `SC-GEN-55`, `SC-GEN-56` (both are pullback sentences); `lab/active-research/joe-directed/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md` §9 |
 
 The MAP-TYPE tokens in the `type` column are the Carrier-category arrow
@@ -157,6 +157,48 @@ Counted objects: G0-G7 (8; G8 is a bucket, role-marked, not a single set).
 NEEDS-side occupancy is polarity, not position: a NEEDS row at a node demands
 the set; a DERIVED_CONDITIONAL row at the same node advances under it
 (AC-A1's migration below is exactly the polarity flip at fixed node G1).
+
+**G6 addendum — the bit-1 price of a bit-2 CHIRAL grant (added 2026-08-17 by
+B1P-1, register item `BIT1-PRICE-PRINT`; annotation only — no object is
+coined, no row moves, no corner is selected).** G6 is a *phase* node (SG4 bit
+2), and the surfaces that route to it present its CHIRAL resolution as free on
+the other SG4 bit. It is not. Recomputed here from the SHA-pinned
+predeclaration (`tests/gu-forces/leg_a_forcing_enumeration.py`, the frozen
+`VERTEX` map at :68-74; SHA-256 `3043d29e...80197`, byte-identical, unedited):
+of the four corners of the (invariance, phase) square the **consistent support
+is THREE, not four** — `(ABSENT, MASSIVE) -> B (-38)`, `(PRESENT, CHIRAL) -> A
+(-42)`, `(PRESENT, MASSIVE) -> CTRL40 (-40)` — because `(ABSENT, CHIRAL)` is
+carried as `INCONSISTENT` ("ungauged massless CHARGED spin-3/2 -> GP bites, no
+SUSY"). A three-element support inside a 2x2 is not a product set, so the two
+bits are **correlated given consistency**: `ABSENT => MASSIVE`, and `CHIRAL =>
+PRESENT => carrier A`, the only consistent chiral corner. Both converses FAIL
+(`PRESENT` admits CHIRAL and MASSIVE; `MASSIVE` admits ABSENT and PRESENT), so
+this is a one-way price, not an equivalence, and it forces nothing in the
+ABSENT/MASSIVE direction. **The price:** granting bit 2 = CHIRAL at G6 also
+grants bit 1 = PRESENT and lands on carrier A — which collides with the
+standing B-tilt, whose own source string is *"A at the chiral point, B at the
+massive point"*. **This is banked, not new, and it is not a verdict:** canon
+recorded the same collision in Grisaru-Pendleton vocabulary on 2026-07-10
+(`canon/escape-corners-campaign-RESULTS.md` :59-64 — *"'Too massive' and
+'decreased VEV' are opposing demands on one dial, reconcilable only by an
+unstated hierarchy. At the chiral point GU's phenomenology commits to, ... GP's
+hypotheses populate, and its conclusion ... collides with 'We will never find
+space time Susie' -- UNLESS the demanded SUSY is the upstairs one"*), and the
+leg priced its firing conditions at
+`tests/escape-corners/lega1_flipped_chiral_adjudication.md` :257 — *"corner (a)
+fires only if GU's physical vacuum is taken at the chiral point AND the mass
+map is uniform across the fermionic extension"*. The **escape is named and
+open**: the second conjunct — a NON-uniform mass map across the fermionic
+extension — is exactly what the source's own *"sub-fields"* plural (p.52) and
+SN-1's separately-scaled components leave available. So the correlation is
+conditional structure about a frozen label map, not a claim about which corner
+GU or nature occupies: SG4 remains the sole decider, the residual remains
+2-bit, the B-tilt is unmoved. What this addendum adds is only that the two bits
+are **not independently grantable**, and that a router handing bit 2 to a lane
+as "the open phase bit" is handing bit 1 with it unless the mass map is
+non-uniform. Dig and recomputation:
+`lab/active-research/joe-directed/lens-digs/ldc-vev-selector-adjudication-2026-08-17.md`
+§7; `lab/active-research/joe-directed/bit1-price/b1p1-three-corner-support-prices-the-chiral-grant-2026-08-17.md`.
 
 ### 2.2 Order and recorded arrows
 

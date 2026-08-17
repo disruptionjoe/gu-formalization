@@ -186,22 +186,22 @@ items:
     title: "Adverse-mechanism news must fire SC-CHI-01's hedge-watch: three dated misses (SRC-2/3/4 produced zero adherence pings); stability routes INTO the selector"
     origin: ldc cards 6+16 (the consequential pair with card 18)
     owner: source register owner / steward pass
-    status: QUEUED
-    activation: next steward pass
+    status: DONE
+    activation: "receipt: b1p1 -- rule authored, hedge_watch register diff + claim-status-consistency section PROPOSED unapplied; CC-06 measured blind to the SRC arc (0/4 anchor family), fix needs no code: SC- id convention in target_claim"
     next_check: "2026-08-24"
   - id: BIT1-PRICE-PRINT
     title: "Print the bit-1 price on routing surfaces: consistency support is 3 corners, so CHIRAL implies PRESENT implies carrier A — the chiral grant collides with the B-tilt (banked 2026-07-10, printed nowhere post-ST-1)"
     origin: ldc card 18
     owner: canon SG4 surface owner / next mint
-    status: QUEUED
-    activation: next mint
+    status: DONE
+    activation: "receipt: b1p1 -- three-corner support verified from the frozen VERTEX map, one-way price printed at G6 with both failing converses inline, probe tripwires V09/V10 red any equivalence upgrade"
     next_check: "2026-08-24"
   - id: CT1-LA3-WORDING
     title: "gu-base-categories LA3 cell: two halves point opposite ways as written (hedge's decoupling holds AT the vanishing-VEV phase); one-sentence fix, probe pins to check"
     origin: ldc incidental; CT-1 owns the file
     owner: session owner (methods file)
-    status: QUEUED
-    activation: next lab/methods touch
+    status: DONE
+    activation: "receipt: b1p1 -- direction corrected with dated marker, old string quoted not deleted; CT-1 probe 99/99 with zero pin refreshes by construction"
     next_check: "2026-08-24"
   - id: LENS-DIG-REMAINING-PROPOSALS
     title: "The LIVE-MODERATE proposals across all four dig artifacts (stratum, provenance, critical-location tension, opposite-binning convention, CHK-2 scheduling, R5 obligation, OVER_DETERMINED entry, grade-boundary typing) — each carded in its artifact section (v)"
@@ -209,6 +209,20 @@ items:
     owner: joe-directed channels; adjudicated cards are the detailed home
     status: QUEUED
     activation: RS-WAVE-SERIES scoping reads the four card tables
+    next_check: "2026-08-24"
+  - id: B1P1-PROPOSED-DIFFS
+    title: "Apply B1P-1's four proposed diffs: canon SG4 surface price note; RA-D4/RA-D2/AC-F1 annotations; SC-CHI-01 hedge_watch block; claim-status-consistency coupling section"
+    origin: b1p1 artifact, diffs printed verbatim unapplied
+    owner: canon owner / next mint / source register owner / methods owner
+    status: QUEUED
+    activation: next mint or steward pass
+    next_check: "2026-08-24"
+  - id: SOURCE-MECHANISM-TARGET-CLAIM-CONVENTION
+    title: "Require source-mechanism gates to carry an SC- id in target_claim (closes the measured CC-06 blindness with no code; 12-line WARN fallback priced)"
+    origin: b1p1 measurement -- currency signature 0/4 on the SRC arc anchor family, kill gate misses them too
+    owner: gate/method owner
+    status: QUEUED
+    activation: next steward pass
     next_check: "2026-08-24"
   - id: RS-WAVE-SERIES
     title: The reverse-scaffold wave series (rung-targeted physics waves; the agreed next program after hardening)
