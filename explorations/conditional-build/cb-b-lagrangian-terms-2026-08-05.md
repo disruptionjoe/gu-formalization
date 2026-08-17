@@ -956,7 +956,13 @@ perturbation `a in Omega^1(ad)` = `Lambda^1` (`dim Hom = 1`, **SAME** chirality,
 and not a Lorentz scalar). The file's own conclusion is blunt: **"Weinstein's
 mechanism does not satisfy `SA-Y1` as stated"** (`:60-68`). The bridge is stated
 exactly and is recorded **UNCERTAIN** (`:70-82`): under `14D -> 4D`,
-`Lambda^1(V_14)` gives `Lambda^1(V_4)` plus **ten 4D scalars** — does a vertical
+~~`Lambda^1(V_14)` gives `Lambda^1(V_4)` plus **ten 4D scalars**~~
+**[setting CORRECTED 2026-08-17, see CORRECTION V3 at end of file: the
+observation reduction is a CONTRACTION, not a Kaluza-Klein mode split — every
+ad-valued one-form on Y descends to exactly ONE 4D one-form and no component
+descends to a 4D scalar (MD-1, VZ-4, canon-integrated; "It's not Kaluza
+Klein.", drafts L29). The bridge QUESTION below survives and must be computed
+on the contraction map]** — does a vertical
 vev of `a` convert the 14D same-chirality `Lambda^1` channel into a 4D
 opposite-chirality Dirac mass channel? That single question decides whether the
 "no Higgs" mechanism and the forced Yukawa channel are the same physics or two
@@ -1129,7 +1135,13 @@ condition is satisfied (four doublets, even); and the
 (`W222-falsify-sm-emergence-anomaly-hypercharge-2026-07-14.md:5`). **Verdict on
 this leg: exactly-same as physics.** The caveat travels with it and is the same
 one as SM-3: the carrier delivers a **vectorlike `16 + 16bar`**, so chirality is
-produced only by an unbuilt mirror-gapping condensate; and the mirror `16bar` is
+produced ~~only by an unbuilt mirror-gapping condensate~~ **[CORRECTED
+2026-08-17, see CORRECTION V4 at end of file: "only" foreclosed the source's
+named route — the chirality obligation is the SG4-bit-2 VEV-conditional
+decoupling selector (ST-1) plus the dark-sector partner-placement obligation
+(SC-FER-03; IV-20260815 §3.3) with the subtractive 2+1 (HE-1); a
+mirror-gapping condensate is one comparator-shaped option, not the only
+route]**; and the mirror `16bar` is
 itself anomaly-free on all three axes, with the teeth being that a 15-mirror
 (dropping `nu_R`) gives `mod-16 = 15 != 0` and flips the verdict to FALSIFIED
 (`W224:143, 227`).
@@ -1323,6 +1335,8 @@ and each has an informative negative outcome.
    mechanism and **SM-5**'s forced `Lambda^0` Yukawa channel are the same physics.
    Already named as the actionable item that replaces `T10`
    (`layer0-pass-on-the-two-higgs-objects-2026-07-29.md:90-96`).
+   [2026-08-17: compute this on the corrected observation map — a CONTRACTION,
+   not a vector-plus-ten-scalars mode split; see CORRECTION V3 at end of file.]
 5. **File `sign(F_{A_0})` as a new `SA-*` requirements row** and classify it
    FORCED / DECLARATION / FIT. The only obligation this pass generated that the
    spec does not already carry.
@@ -1379,3 +1393,83 @@ OVER-DETERMINED rows are reports of results already filed by K77-B2, W79, and
 none of them and files no falsification. Two `VERIFIED_REPO_DISCONNECT` items and
 one new requirement-row obligation are reported to the register owner, not edited
 in.*
+
+---
+
+# CORRECTIONS V3, V4 (2026-08-17, applied from the SCUR-1 source-currency audit)
+
+**What forced this.** The systematic currency audit SCUR-1
+(`lab/active-research/joe-directed/source-currency/scur1-source-currency-audit-2026-08-17.md`,
+every quote byte-matched by
+`tests/channel-swings/joe_directed_scur1_source_currency_audit.py`, 52/52)
+found two inherited framings in this ledger — both written 2026-08-05, before
+the source layer was pinned — that violate the 2026-08-14..17 correction
+register. The ledger's own verdicts and its three OVER-DETERMINED rows are
+untouched by the register; these blocks correct the two framing sentences
+only, append-only, original text struck in place, matching CB-E's E3/E9
+pattern. Application record:
+`lab/active-research/joe-directed/source-currency/fixa-cb-corrections-applied-2026-08-17.md`.
+
+**Kill-typing carried, not re-minted.** These corrections quote SCUR-1's
+claim-indexed typing (its `target_claim`: INTERNAL — the exact sentences below,
+no registered GU source claim attacked; its `target_claim_verdict`: SPLIT — the
+sentences violate corrections, the mathematics under them is banked). No new
+kill is asserted here; SM-6's verdict ("DETERMINED GIVEN U2 AND U13, with one
+named unadjudicated bridge") and SM-9's leg-(i) verdict ("exactly-same as
+physics") do not move.
+
+## CORRECTION V3 (2026-08-17) — "`Lambda^1(V_14)` gives `Lambda^1(V_4)` plus **ten 4D scalars**" (SM-6's bridge setting; §6.4 item 4)
+
+- **Withdrawn** (struck in place above): the quoted KK mode decomposition,
+  asserted as the factual setting of the (correctly UNCERTAIN-marked)
+  vertical-VEV bridge question inherited from the 07-29 layer0 pass.
+- **Corrected by** register item 7 of SCUR-1 §1: the source-declared
+  observation reduction is a CONTRACTION — it sends every ad-valued one-form
+  on Y¹⁴ to exactly ONE 4D one-form, and no component descends to a 4D scalar
+  (MD-1,
+  `lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md`;
+  VZ-4, `lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md`,
+  canon-integrated, killed in every gauge). The vector-plus-ten-scalars split
+  is the Kaluza-Klein reading the source disavows ("It's not Kaluza Klein.",
+  drafts L29). GEOMETER-VS-PHYSICS-OBJECTS' Higgs/VEV cell carried exactly
+  this clause and was withdrawn 2026-08-15; this line was the same clause,
+  un-withdrawn until now.
+- **What survives:** the bridge QUESTION itself (does a vertical vev of `a`
+  convert the 14D same-chirality `Lambda^1` channel into a 4D
+  opposite-chirality Dirac mass channel?) and its UNCERTAIN marking; §6.4
+  item 4 now carries a dated note to compute it on the contraction map rather
+  than the dead decomposition.
+- **Established by** SCUR-1 §3 V3 (severity MODERATE).
+- **Consumers named for the mint (Arc-1), not edited here:** any ledger row
+  carrying the bridge computation or E2-style shape constraints (SCUR-1 §6
+  item 2); the SM-6 verdict's named bridge stays open, now correctly based.
+
+## CORRECTION V4 (2026-08-17) — "chirality is produced only by an unbuilt mirror-gapping condensate" (SM-9 leg (i))
+
+- **Withdrawn** (struck in place above): the word "only" and the mechanism
+  attribution it forecloses. Within the SO(10) comparator the sentence was a
+  reasonable 08-05 shorthand; post-correction it steers the chirality
+  obligation to the wrong mechanism shape.
+- **Corrected by** register items 6 and 8 of SCUR-1 §1: the source's named
+  route is VEV-conditional decoupling — selector typed as SG4 bit 2 (ST-1,
+  `lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md`)
+  — with dark-sector partner placement typed as an obligation, not an
+  established defect (SC-FER-03; IV-20260815 §3.3), and the subtractive 2+1
+  (HE-1). None of that is a mirror-gapping condensate. The updated
+  GEOMETER-VS-PHYSICS-OBJECTS mechanism row ("Ordinary index and
+  net-chirality calculations are controls only") is the fence this sentence
+  lacked.
+- **What survives:** the vectorlike `16 + 16bar` carrier statement (register-3
+  consistent), the leg-(i) anomaly verdict and all of SM-9's anomaly
+  arithmetic, and the W224 mirror-anomaly teeth quoted alongside.
+- **Established by** SCUR-1 §3 V4 (severity LOW-MODERATE).
+- **Consumers named for the mint, not edited here:** SM-9's chirality caveat
+  as read by any chirality-obligation row (SCUR-1 §6 item 3); the W222/W224
+  caveat chain.
+
+*Corrections applied 2026-08-17 by FIX-A (application record and probe:
+`lab/active-research/joe-directed/source-currency/fixa-cb-corrections-applied-2026-08-17.md`,
+`tests/channel-swings/joe_directed_fixa_cb_corrections.py`). Append-only: no
+original sentence deleted, no verdict, grade, count, bar, canon entry,
+registry row, or ledger row moved. The struck sentences remain readable above
+so that SCUR-1's byte-matched evidence probe remains verifiable.*

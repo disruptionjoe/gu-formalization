@@ -2,7 +2,7 @@
 artifact_type: exploration
 cluster: A-representation-content
 created: 2026-08-05
-title: "CB-A: the three-column representation-content ledger — 41 rows built conditionally on an unbuilt source action, of which 18 are exactly-same, 11 need no unknown at all, 1 is OVER-DETERMINED (the source's own stated effective-chirality mechanism is excluded by Schur, not merely unbuilt), and the entire rank-two internal tensor class is excluded as a Higgs parent in one theorem"
+title: "CB-A: the three-column representation-content ledger — 41 rows built conditionally on an unbuilt source action, of which 18 are exactly-same, 11 need no unknown at all, 1 is OVER-DETERMINED (the source's own stated effective-chirality mechanism is excluded by Schur, not merely unbuilt [title clause CORRECTED 2026-08-17: the Schur exclusion binds a G_SM-preserving MASS mechanism on the conjugate-pair comparator carrier, not the source's stated VEV-conditional decoupling — see CORRECTION V1 at end of file]), and the entire rank-two internal tensor class is excluded as a Higgs parent in one theorem"
 grade: "EXACT finite weight-lattice representation theory over the complexified chain so(14) >= so(4)+so(10) >= su(4)+su(2)+su(2) >= su(3)+su(2)+u(1), 45/45 checks, no float load-bearing anywhere (P-H29 satisfied by construction). Plus a typed conditional ledger over a symbolically-carried unknown source action. NOT: any source action, vacuum, pole, residue, physical domain, effective chirality, generation count, or claim-status movement."
 named_gate: CONDITIONAL-BUILD-CLUSTER-A-REPRESENTATION-CONTENT
 gate_before: K77A_ATOMIC_LEDGER_ONE_COLUMN_NO_EXTERNAL_DATUM_JOIN
@@ -39,7 +39,7 @@ residue_touched:
   - {id: SU4C-SEESAW-MR, grade: T2}
   - {id: M-H7-GENERATION-SLOT, grade: T4}
 route_disposition: CONTINUE_CONDITIONAL_BUILD__MASS_TYPE_EFFECTIVE_CHIRALITY_EXCLUDED__HIGGS_CHANNEL_CLASS_NARROWED
-source_collision: SOURCE-CONFIRMS-PATI-SALAM-ONE16-AND-BIDOUBLET-CHANNEL; SOURCE-CONTRADICTED-ON-VEV-INDUCED-EFFECTIVE-CHIRALITY
+source_collision: SOURCE-CONFIRMS-PATI-SALAM-ONE16-AND-BIDOUBLET-CHANNEL; ~~SOURCE-CONTRADICTED-ON-VEV-INDUCED-EFFECTIVE-CHIRALITY~~ [second token WITHDRAWN 2026-08-17 per CORRECTION V1 at end of file -- the row contradicts a comparator-carrier mass mechanism, not the source's stated mechanism]
 canon_verdict_change: none
 priority_change: none
 third_lane_promoted: false
@@ -312,7 +312,7 @@ counted in the surplus above.
 | # | SM REQUIRES | GU DETERMINES | VERDICT |
 |---|---|---|---|
 | **D1** | the light spectrum is **chiral**: no gauge-invariant Dirac mass exists for it | the K77 parent is **exactly vectorlike**. `PH-K1-KINEMATIC = CONFIRMED`, `64+64`, both real forms, all five allocations, joint grading `32/32/32/32` (`chirality-grading-and-77-rerun-2026-08-03.md:190,194-201`). Net 4D chiral asymmetry **0** | **DIFFERS(net chirality 0 vs 3)** — stated at kinematic grade only; `PH-K1-PHYSICAL` stays `OPEN/BLOCKED` |
-| **D2** | a mechanism producing chirality at low energy | the source's stated mechanism — VEV/low-curvature mass decoupling into chiral sectors — **cannot work**. See §5.2 | **OVER-DETERMINED** |
+| **D2** | a mechanism producing chirality at low energy | ~~the source's stated mechanism — VEV/low-curvature mass decoupling into chiral sectors — **cannot work**. See §5.2~~ **[CORRECTED 2026-08-17, see CORRECTION V1 at end of file:** the exclusion binds a `G_SM`-preserving **mass** mechanism on the conjugate-pair (`16 ⊕ 16bar`) comparator carrier; the source's stated mechanism is the VEV-conditional **decoupling** typed as SG4 bit 2 (ST-1), on the four-corner carrier (CR-B), with dark-sector partner placement (SC-FER-03), and is **NOT excluded by this row**. The Schur argument of §5.2 survives intact at comparator-carrier scope. See §5.2.**]** | **OVER-DETERMINED** |
 | **D3** | no same-chirality Majorana mass for charged states | `dim Hom(S⁺⊗S⁺, Λ⁰) = 0` for **every** `(p,q)` with `p+q ≡ 2 mod 4` (M-M1, `signature-independent-scalar-vanishing-lemma-2026-08-03.md:35-43`). Independently reconfirmed here at `so(10)` level: `16 ⊗ 16` contains **zero** singlets (computed; `16×16 = 10+120+126`, singlet-free) | **SAME** — GU forbids exactly what the SM forbids, for a structural reason, fork-independently |
 | **D4** | no light mirror partners | the invariant form `B` anticommutes with `ω₁₄`, so same-half pairings **vanish** and opposite-half pairings are **perfect** (`k77a:193-201`). One ambient half carries an all-left `16`, the other an all-left `16bar` — an exact mirror | **NEEDS-U3** — and §5.2 shows `U3` cannot discharge it by mass |
 
@@ -404,7 +404,7 @@ Schur argument.
 | # | SM REQUIRES | GU DETERMINES | VERDICT |
 |---|---|---|---|
 | **E1** | Higgs is `(1,2,1/2)`, a colour-singlet weak doublet | present in `V₁₀` (exactly one `(1,2,+1/2)` and one `(1,2,−1/2)`), and in `Sym²(S) = 10 ⊕ 126` (two of each) — the repo's stated offer, the PS bidoublet `(1,2,2)` (`sm-gauge-higgs-...-2026-06-24.md:122-131`) | **NEEDS-U4** (`hosted_open`) |
-| **E2** | Higgs is a **Lorentz scalar** | in an adjoint-valued one-form `Ω¹(Y, ad)`, the Lorentz-scalar components are exactly those with **both** legs vertical: `V*₁₀ ⊗ Λ²V₁₀ = 10 ⊗ 45`, which hosts **6** `(1,2,+1/2)` and 6 `(1,2,−1/2)` (computed). Any component with a spacetime form leg is a **vector**, not a scalar | **NEEDS-U4, with an exact shape constraint**: the Higgs must consume the vertical form leg. This is a tightening act of type (iii) |
+| **E2** | Higgs is a **Lorentz scalar** | in an adjoint-valued one-form `Ω¹(Y, ad)`, ~~the Lorentz-scalar components are exactly those with **both** legs vertical:~~ **[CORRECTED 2026-08-17, see CORRECTION V2 at end of file: no component descends to a 4D scalar at all — the source-declared observation reduction is a CONTRACTION sending every ad-valued one-form to exactly ONE 4D one-form (MD-1, VZ-4, canon-integrated), and "vertical legs ⇒ 4D scalars" is the Kaluza-Klein reading the source disavows; the tensor decomposition and its multiplicities here survive as exact algebra on Y]** `V*₁₀ ⊗ Λ²V₁₀ = 10 ⊗ 45`, which hosts **6** `(1,2,+1/2)` and 6 `(1,2,−1/2)` (computed). Any component with a spacetime form leg is a **vector**, not a scalar | **NEEDS-U4**~~, with an exact shape constraint: the Higgs must consume the vertical form leg. This is a tightening act of type (iii)~~ **[shape constraint WITHDRAWN 2026-08-17, see CORRECTION V2 at end of file — under the corrected observation map there is no vertical-leg 4D scalar to consume, so the constraint and its type-(iii) tightening claim are withdrawn together]** |
 | **E3** | *(the exclusion)* — | **`Λ²V₁₀` (45) and `Sym²V₁₀` (1+54) contain ZERO colour-singlet weak doublets, at any `Y`.** The whole 100-dimensional rank-two internal tensor class is excluded as a Higgs parent | **DIFFERS(class exclusion)** — see §6.1 |
 | **E4** | exactly **one** complex doublet: 4 real dof → 3 eaten + 1 physical | every surviving GU channel supplies an **even number ≥ 2**: `V₁₀` → 2, `Sym²(S)` → 4, `10⊗45` → 12. A single doublet is representation-theoretically **unavailable**, because the underlying real/self-conjugate structure pairs `Y=+1/2` with `Y=−1/2` | **DIFFERS(multi-doublet forced)** — GU is a ≥2HDM at minimum; `U4` must give large mass to all but one combination |
 | **E5** | **no** light colour-triplet scalar (proton decay) | the `(1,2,±1/2)` in `V₁₀` sits in the **same irreducible 10** as a `(3,1,−1/3)+(3̄,1,1/3)` pair (the remaining 6 states, computed) | **DIFFERS(doublet–triplet splitting)**, inherited in full; and **conditionally OVER-DETERMINED**: if `U4`'s scalar mass term is exactly `so(10)`-invariant, doublet and triplet are **degenerate by Schur**, and a Higgs-light doublet forces a Higgs-light triplet — excluded by proton decay by ~13 orders of magnitude. Named trigger, not asserted |
@@ -470,10 +470,10 @@ summand.**
 | # | SM REQUIRES | GU DETERMINES | VERDICT |
 |---|---|---|---|
 | **F1** | exactly **3** generations | not derived. "three is NOT derived (the external index is any integer, nothing privileges 3)" (`CANON.md:176`). Receptacle exhibited at **T4**; **the slot is empty** (`Im J₁₃ = 0`) | **NEEDS-U5** |
-| **F2** | generations are exact **replicas** — identical rep content, differing only in mass | if multiplicity arises by repeating the `16`, replication is automatic and exact. GU has no mechanism that could make generation 2 differ in rep content | **SAME** (conditionally on `U5` acting by multiplicity) |
+| **F2** | generations are exact **replicas** — identical rep content, differing only in mass | if multiplicity arises by repeating the `16`, replication is automatic and exact. ~~GU has no mechanism that could make generation 2 differ in rep content~~ **[CORRECTED 2026-08-17, see CORRECTION V5 at end of file: the source's own construction names exactly such a mechanism — the third family is an imposter "for representation theoretic reasons", and HE-1 makes the partition FORCED and SUBTRACTIVE with the family-shaped block inside the 144 a MIRROR; generations are not exact replicas at the fundamental layer and look the same only at low energy. The corrections also falsify this row's antecedent at the fundamental layer; the verdict survives at the effective/low-energy layer]** | **SAME** (conditionally on `U5` acting by multiplicity) |
 | **F3** | *(the killed route)* | "three kinematic blocks ⇒ three observed generations" is **killed at Layer 0** — a `HOMONYM`, false-escape direction (`layer0-pass-on-the-2plus1-count-claim-2026-07-29.md:19`; `k77a:297`) | **DEAD ROUTE**, recorded so it is not re-derived. **This ledger does not count 16-blocks and compare to 3.** |
 | **G1** | no spin-3/2 fields | the DRS carrier forces them: per ambient half `F=64, Q=192, Z=576`, sum 832 (`k77a:239-246`). `Q`/`Z` are RS-shaped. Any chiral use owes the **Witten-1983 exit** (`layer0-fork-registry.yaml:130-131`) | **DIFFERS(spin-3/2 sectors forced)** — geometric reason: the carrier is `Ω⁰ ⊕ Ω¹(Y,S)`, and `ker Γ` is not optional. **NEEDS-U3** to decouple |
-| **G2** | no mirror sector | forced by `B`'s perfect cross-half pairing (row D4) | **DIFFERS(mirror forced)**; and by §5.2 `U3` **cannot** remove it by mass |
+| **G2** | no mirror sector | forced by `B`'s perfect cross-half pairing (row D4) | **DIFFERS(mirror forced)**; and by §5.2 `U3` **cannot** remove it by mass [scope re-set 2026-08-17 per CORRECTION V1 at end of file — "cannot remove by mass" binds the conjugate-pair comparator carrier; the source's stated exit is not a mass mechanism but the SG4-bit-2 decoupling with partner placement, a scope correction, not a refutation] |
 | **G3** | Majorana `M_R` for `ν_R` (if seesaw) | no `Λ⁰` channel exists (M-M1, row D3), so `M_R` **must** come from an odd-form channel. `Λ⁵ = 252` contains exactly **2** SM singlets `(1,1,0)` — one in `126`, one in `126bar` (computed), matching `126⁻ ⊃ (10,1,3)` (`resolver-wave-c-rebased-q5-q6-mh7-2026-08-03.md:190-196`) | **NEEDS-U3**, at grade **T2**, unmoved. Channel located, VEV not earned. `K2` open, `M-M22` open |
 | **G4** | no extra light `U(1)` beyond `U(1)_Y` | the 45 has exactly **2** SM-singlet directions (row A4); the second must be broken | **NEEDS-U1** |
 
@@ -489,7 +489,7 @@ backwards.
 |---|---|
 | **(ii)** excludes a **class**, not a candidate | the 100-dimensional rank-two internal tensor class, excluded as a Higgs parent by one weight-lattice theorem (E3) |
 | **(ii)** again | the mass-type realization of effective chirality, excluded by Schur (D2) |
-| **(iii)** adds a **shape constraint** the supplier must satisfy | the Higgs must consume the vertical form leg (E2); `M_R` must come from an odd-form channel (G3) |
+| **(iii)** adds a **shape constraint** the supplier must satisfy | ~~the Higgs must consume the vertical form leg (E2)~~ **[withdrawn 2026-08-17 with E2's shape constraint, see CORRECTION V2 at end of file]**; `M_R` must come from an odd-form channel (G3) |
 | **(v)** converts an assumption into a **derived** fact | the `(15,2,2)` doublet disambiguation, open since 2026-06-24, answered as arithmetic (§6.1) |
 | **(i)** reduces free-parameter count | `U3` restricted to `G_SM`-equivariant masses has exactly **6** parameters, and the chiral subset of that 6-parameter family is **empty** (D2) |
 
@@ -556,3 +556,132 @@ Creates no claim, verdict, grade, priority, lane movement, count, bar, canon
 entry, external-datum entry, or public posture. Nothing is committed. Row D2's
 verdict-adjacent consequence is gated on a filed hostile field-specialist review
 with a two-sided charge.*
+
+---
+
+# CORRECTIONS V1, V2, V5 (2026-08-17, applied from the SCUR-1 source-currency audit)
+
+**What forced this.** The systematic currency audit SCUR-1
+(`lab/active-research/joe-directed/source-currency/scur1-source-currency-audit-2026-08-17.md`,
+every quote byte-matched by
+`tests/channel-swings/joe_directed_scur1_source_currency_audit.py`, 52/52)
+found that this file's three steps from algebra into *source attribution* —
+written 2026-08-05, a week before the source layer was pinned — violate the
+2026-08-14..17 correction register. The algebra needed zero repair anywhere;
+these blocks correct attribution and typing sentences only, append-only,
+original text struck in place, matching CB-E's E3/E9 pattern. Application
+record: `lab/active-research/joe-directed/source-currency/fixa-cb-corrections-applied-2026-08-17.md`.
+
+**Kill-typing carried, not re-minted.** These corrections quote SCUR-1's
+claim-indexed typing (its `target_claim`: INTERNAL — the exact sentences below,
+no registered GU source claim attacked; its `target_claim_verdict`: SPLIT — the
+five sentences violate corrections, the mathematics under them is banked). No
+new kill is asserted here and no verdict cell token moves; D2 stays
+OVER-DETERMINED at its corrected scope, F2 stays SAME under its conditional,
+E2 stays NEEDS-U4.
+
+## CORRECTION V1 (2026-08-17) — the excluded-mechanism attribution (title clause, `source_collision`, row D2; G2 re-scoped)
+
+- **Withdrawn** (struck in place above): the title clause "the source's own
+  stated effective-chirality mechanism is excluded by Schur, not merely
+  unbuilt"; the frontmatter token
+  `SOURCE-CONTRADICTED-ON-VEV-INDUCED-EFFECTIVE-CHIRALITY`; row D2's middle
+  column "the source's stated mechanism — VEV/low-curvature mass decoupling
+  into chiral sectors — **cannot work**".
+- **Corrected by** register items 6, 3 and 8 of SCUR-1 §1: the source's stated
+  mechanism is a VEV-conditional DECOUPLING — "exactly three families of chiral
+  fermions if you have a decreased VEV in the total space taking a Dirac
+  equation into two [Weyl] equations because the mass is actually a variable"
+  (`papers/drafts/Transcript into the impossible.md:158`) — on the four-corner
+  carrier (CR-B,
+  `lab/active-research/joe-directed/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md`),
+  with partner sectors the source names as dark (SC-CHI-01, SC-FER-03), and
+  with the selector typed as SG4 bit 2 (ST-1,
+  `lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md`),
+  OPEN by design. D2's proof models a `G_SM`-preserving mirror-LIFTING mass on
+  a conjugate-pair (`16 ⊕ 16bar`) carrier and rejects the m→0 branch as
+  "vectorlike, no chirality" — but the m→0 branch IS the source's claimed
+  phase, with the mirror handled by partner placement that register 8 types as
+  an obligation, not an established defect. No corpus locus states a
+  mirror-lifting mass mechanism (SCUR-1 checked SC-CHI-01, SC-CHI-02, and the
+  TOE 02:36–02:38 decoupling sentence: all are decoupling statements). The
+  source's stated mechanism is therefore **NOT excluded by this row**.
+- **What survives, explicitly banked:** the §5.2 Schur argument itself (the
+  six-parameter `G_SM`-equivariant mass family on `16 ⊕ 16bar` has no chiral
+  point) is exact and stands as a comparator-carrier theorem; D2's own kill
+  table already lists the exits the corrections instantiate ("a parent in which
+  the two halves are **not** conjugate reps — i.e. a different `U2`"). G2's
+  "cannot remove it by mass" inherits this scope correction, not a refutation.
+- **Established by** SCUR-1 §3 V1 (severity HIGH), with the register owners
+  named above; underlying gate evidence byte-matched by SCUR-1's probe.
+- **Consumers named for the mint (Arc-1), not edited here:** the residue claim
+  "`CB-A-U3-CHIRALITY-MECHANISM` moved T1 → T3" (its T3 rests on the class
+  exclusion binding the source mechanism, which it no longer does at the
+  source layer); the `deposit_gate` framing ("would move the effective-chirality
+  axis to 'excluded in the stated class'"); "Result first" item 3 and §5.2's
+  kill-table row naming `M-EFFECTIVE-CHIRALITY` / TOE 02:36:02–02:38:12, which
+  now read at comparator-carrier scope; any v0.258 ledger row grounded on
+  D2/G2 (SCUR-1 §6 item 1).
+
+## CORRECTION V2 (2026-08-17) — the vertical-form-leg = Lorentz-scalar identification (row E2; §8 row (iii))
+
+- **Withdrawn** (struck in place above): E2's "the Lorentz-scalar components
+  are exactly those with **both** legs vertical" typing, E2's verdict-cell
+  shape constraint "the Higgs must consume the vertical form leg" with its
+  type-(iii) tightening claim, and §8 row (iii)'s restatement of that
+  constraint.
+- **Corrected by** register item 7 of SCUR-1 §1: the source-declared reduction
+  is a CONTRACTION that sends every ad-valued one-form on Y¹⁴ to exactly ONE
+  4D one-form — no component descends to a 4D scalar at all — and the
+  geometric fibre `Sym²(T*X⁴)` is not Lorentz-inert (MD-1,
+  `lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md`;
+  VZ-4, `lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md`,
+  canon-integrated, V3c killed in every gauge). "Vertical form leg ⇒ observed
+  Lorentz scalar" is the Kaluza-Klein reading the source disavows ("It's not
+  Kaluza Klein.", drafts L29). The contraction formula
+  `(s*ψ)_μ = ψ_μ + ψ_(ab) ∂_μ g_ab` feeds vertical content into the 4D
+  ONE-FORM slot, so the withdrawn constraint was arguably backwards.
+- **What survives, explicitly banked:** the branching multiplicities (6
+  doublets in `10 ⊗ 45`, zero in the whole rank-two class — row E3 is
+  untouched) are exact algebra on Y. Fork nuance recorded by SCUR-1: on MD-1's
+  INERT-AD horn the ad-leg inertness could be restored, but E2's scalar typing
+  rides the FORM leg, whose contraction answer is horn-independent.
+- **Established by** SCUR-1 §3 V2 (severity HIGH).
+- **Consumers named for the mint, not edited here:**
+  `CB-A-U4-HIGGS-CHANNEL`'s T3 grade ("type + dimension fixed"); CB-B SM-6's
+  bridge setting (corrected as V3 in that file); any Higgs-channel search that
+  filters candidates by vertical-leg consumption (SCUR-1 §6 item 2).
+
+## CORRECTION V5 (2026-08-17) — "GU has no mechanism that could make generation 2 differ in rep content" (row F2)
+
+- **Withdrawn** (struck in place above): the quoted absolute clause.
+- **Corrected by** register item 5 of SCUR-1 §1: the source's own construction
+  names exactly such a mechanism — the third family is an imposter "for
+  representation theoretic reasons" (drafts L119), it is "really two plus one"
+  (L128), and HE-1
+  (`lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md`)
+  makes the partition FORCED and SUBTRACTIVE (n_g → n_g − 1, unlabelled, the
+  distinguished family REMOVED), with the family-shaped block inside the 144 a
+  MIRROR. Generations are not exact replicas at the fundamental layer; they
+  look the same only at low energy.
+- **What survives, with SCUR-1's two-sided caveat quoted rather than
+  smoothed:** the row's verdict "SAME (conditionally on `U5` acting by
+  multiplicity)" survives at the effective/low-energy layer; the corrections
+  falsify the row's ANTECEDENT ("multiplicity arises by repeating the `16`")
+  at the fundamental layer rather than only the clause. SCUR-1 typed this
+  VIOLATES on the plain reading because the clause is written as an absolute
+  GU-side fact, and records it as its closest call: "a reviewer who weighs the
+  row-context fence more heavily than the plain reading would downgrade it to
+  PREDATES-BUT-CONSISTENT-WITH-SUPERSEDED-ANTECEDENT" (SCUR-1 §4). Severity
+  LOW.
+- **Established by** SCUR-1 §3 V5.
+- **Consumers named for the mint, not edited here:** any replica-exactness
+  citation from F2 (flavour-universality arguments are the natural consumers);
+  ledger generation rows citing CB-A §7 (SCUR-1 §6 item 4).
+
+*Corrections applied 2026-08-17 by FIX-A (application record and probe:
+`lab/active-research/joe-directed/source-currency/fixa-cb-corrections-applied-2026-08-17.md`,
+`tests/channel-swings/joe_directed_fixa_cb_corrections.py`). Append-only: no
+original sentence deleted, no verdict cell token, grade, count, bar, canon
+entry, registry row, or ledger row moved. The struck sentences remain readable
+above so that SCUR-1's byte-matched evidence probe remains verifiable.*
