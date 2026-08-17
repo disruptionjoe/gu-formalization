@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k151_moving_distortion_pairing_adjoint_probe.py`
+  verifies the exact 56-dimensional `Cl(7,7)` distortion lowerer, K149
+  weighted-adjoint compatibility with K150, K132 frozen principal replay, the
+  live rank-27 lower Euler coefficient, the weighted Green identity, and the
+  rationally rotated null control. Its reusable adapter is
+  `channel-swings/k151_moving_distortion_pairing_adapter.py`.
+
 - `channel-swings/selected_k150_moving_selected_shiab_coordinate_adapter_probe.py`
   validates the selected conditional `Cl(7,7)` Shiab coordinate coefficient,
   independent first-jet agreement, live second jet, K149 operator wrapping,

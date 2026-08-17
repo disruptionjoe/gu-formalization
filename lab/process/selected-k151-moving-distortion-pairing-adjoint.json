@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K151_MOVING_DISTORTION_PAIRING_AND_WEIGHTED_ADJOINT",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected conditional comm/symi/symi Cl(7,7) distortion pairing and formal Euler operator on one exact 56-dimensional null packet through first coordinate jet.",
+  "predecessors": {
+    "generic_operator_engine": "K149_NATIVE_I1B_MINIMAL_MOVING_EVALUATOR_GATE",
+    "moving_coefficient": "K150_MOVING_SELECTED_SHIAB_COORDINATE_ADAPTER",
+    "frozen_euler_control": "K132_NATIVE_I1B_T0_ALL_GRADE_NOETHER_COMPLEX",
+    "moving_pairing_geometry": "SELECTED_K77_FULL_NORMAL_OWNER_BANK"
+  },
+  "exact_result": {
+    "packet_dimension": 56,
+    "lowerer_rank": 56,
+    "lowerer_inertia": [18, 38, 0],
+    "spin_pairing_first_jet": "ZERO_EXACT_BY_NATURALITY",
+    "spin_density_first_jet": "ZERO_EXACT_BY_NATURALITY",
+    "frozen_raw_rank": 30,
+    "moving_coefficient_first_jet_rank": 27,
+    "frozen_weighted_euler_principal_rank": 30,
+    "moving_formal_euler_lower_rank": 27,
+    "moving_formal_euler_lower_formula": "-transpose(dC/dt)/2",
+    "reference_null_replay": "PASS",
+    "rationally_rotated_null_replay": "PASS",
+    "weighted_green_identity": "EXACT_TOTAL_DIVERGENCE"
+  },
+  "controls": {
+    "positive_identity_pairing_fails": true,
+    "plain_field_coordinate_transpose_fails": true,
+    "frozen_coefficient_erases_live_lower_term": true,
+    "truncated_spin_series_promoted_to_global_motion": false
+  },
+  "target_closure": {
+    "moving_distortion_pairing": "SERIALIZED_EXACT_ON_SELECTED_PACKET",
+    "weighted_formal_adjoint_compatibility": "PASS",
+    "curved_metric_bridge": "NOT_SERIALIZED",
+    "curved_restricted_residual": "UNDEFINED_CURVED_METRIC_BRIDGE_NOT_SERIALIZED",
+    "curved_null_lower_leakage": "UNDEFINED_CURVED_METRIC_BRIDGE_NOT_SERIALIZED"
+  },
+  "outcome": "MOVING_DISTORTION_PAIRING_EXACT__K132_FROZEN_WEIGHTED_ADJOINT_REPLAY__LIVE_RANK27_LOWER_TERM__CURVED_BRIDGE_REMAINS_NEXT",
+  "claim_ceiling": "No preferred historical Shiab, curved metric bridge, fivefold residual, quotient endomorphism, inverse, domain, BFV class, physical mode, positivity, propagator, or GU-wide conclusion.",
+  "next_gate": "K152 serialize the curved metric bridge from the owned selected-Shiab curvature linearization into the K149/K150/K151 operator algebra and replay frozen plus rationally rotated controls before fivefold composition.",
+  "canon_verdict_change": "none"
+}

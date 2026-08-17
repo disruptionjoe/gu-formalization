@@ -91,6 +91,15 @@ Clifford/form lowerers, and prove that its K149 mechanical weighted adjoint is
 compatible with the K150 coefficient. Only then may the curved metric bridge
 be composed. A later gate, not K150, owns the restricted fivefold residual.
 
+## K151 successor classification
+
+K151 now serializes the exact indefinite Hodge/scalar-Clifford lowerer on a
+nontrivial 56-dimensional null packet, reproduces K132's frozen rank-30 Euler
+principal coefficient through K149's complete weighted formal adjoint, and
+extracts the live rank-27 lower term forced by K150 coefficient motion. The
+curved metric bridge remains the first missing dependency; no curved residual
+or null leakage is yet defined.
+
 Reproduce:
 
 ```bash

@@ -2,11 +2,28 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-16"
+updated_at: "2026-08-17"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**K151 moving distortion pairing and weighted adjoint 2026-08-17 (exact
+indefinite lowerer; K132 frozen replay; live rank-27 lower term).** The
+selected 56-dimensional null packet now carries an explicit
+Hodge/scalar-Clifford density-dual lowerer with inertia `(18,38)` and exact
+inverse. K149's complete weighted formal adjoint, applied after primalizing
+K150, reproduces K132's rank-30 frozen principal Euler block at the reference
+and rationally rotated null covectors. Coefficient motion forces the nonzero
+order-zero term `-transpose(dC/dt)/2` of rank 27. That term is not the curved
+residual; the curved metric bridge remains unserialized. See
+`explorations/conditional-build/selected-k151-moving-distortion-pairing-adjoint-2026-08-17.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| moving distortion pairing/lowerer | unserialized | exact on selected 56D packet | K77 Hodge/scalar-Clifford pairing | K151 module/probe |
+| moving formal Euler compatibility | only generic K149 engine | K132 frozen replay plus live rank-27 lower term | K150 coefficient jet | K151 module/probe |
+| curved restricted residual | undefined after K150 | still undefined | curved metric bridge | K151 closure gate |
 
 **K150 moving selected-Shiab coordinate adapter 2026-08-16 (exact coordinate
 jets; frozen and rotated controls pass; moving pairing remains open).** The

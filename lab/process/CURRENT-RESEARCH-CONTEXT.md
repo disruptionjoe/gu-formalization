@@ -3,11 +3,23 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-16
+updated: 2026-08-17
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-16)
+# Agent context pack (updated 2026-08-17)
+
+> **Current K151 moving distortion pairing and weighted adjoint:** the selected
+> 56-dimensional null packet now has an exact indefinite
+> Hodge/scalar-Clifford lowerer with inertia `(18,38)` and exact inverse.
+> Primalizing K150 and applying K149's moving-density/moving-pairing formal
+> adjoint reproduces K132's frozen rank-30 principal Euler block at the
+> reference and rationally rotated null covectors. The rank-27 K150
+> coefficient jet forces the nonzero lower term `-transpose(dC/dt)/2`; a
+> frozen coefficient or plain transpose misses it. This is not a curved
+> residual. Continue with K152's curved metric bridge and frozen/rotated
+> controls before fivefold composition. Do not infer a quotient, domain, BFV
+> class, physical mode, positivity, or propagator.
 
 > **Current K150 moving selected-Shiab coordinate adapter:** the first
 > target-specific K149 dependency now exists on the settled `Cl(7,7)` branch.

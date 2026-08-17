@@ -7,6 +7,20 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-17 K151 SERIALIZES THE MOVING DISTORTION PAIRING AND WEIGHTED
+> FORMAL ADJOINT.** On a nontrivial 56-dimensional null packet, the exact
+> `Cl(7,7)` Hodge/scalar-Clifford lowerer has inertia `(18,38)` and an exact
+> inverse. Primalizing K150 and applying K149's complete weighted formal
+> adjoint reproduces K132's frozen rank-30 principal Euler block at both the
+> reference and rationally rotated null covectors. The live K150 coefficient
+> jet has rank 27 and forces a nonzero rank-27 lower term
+> `-transpose(dC/dt)/2`; freezing the coefficient or using a plain transpose
+> misses it. This is not yet a curved residual. **K152 should serialize the
+> curved metric bridge from K127/K129's owned selected-Shiab curvature
+> linearization into the K149/K150/K151 algebra and replay frozen plus rotated
+> controls before fivefold composition. Do not yet infer a quotient map,
+> domain, BFV class, physical mode, positivity, or propagator.**
+
 > **2026-08-16 K150 SERIALIZES THE MOVING SELECTED-SHIAB COORDINATE
 > ADAPTER.** The selected conditional `comm/symi/symi` `Cl(7,7)` two-term
 > tensor formula now produces an exact coordinate-jet coefficient wrapped as

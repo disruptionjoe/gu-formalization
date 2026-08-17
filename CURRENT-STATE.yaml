@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e9c1529c83e5ac844a57842f1f4393f42387f6b4
+revision_basis: 21dd8fa3700168047c71bd53d8ee47a69312a083
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K151 now serializes the selected Cl(7,7) distortion pairing as an exact
+    Hodge/scalar-Clifford density-dual lowerer on a nontrivial 56-dimensional
+    null packet. The lowerer is nondegenerate with inertia (18,38), its inverse
+    primalizes K150's density-dual coefficient, and the selected inner-Spin
+    chart preserves both pairing and unit density through first jet. Applying
+    K149's complete moving-density/moving-pairing formal adjoint reproduces
+    K132's frozen rank-30 Euler principal coefficient at the reference and
+    rationally rotated null covectors. The live K150 coefficient jet has rank
+    27 and forces the exact order-zero Euler term -transpose(dC/dt)/2, also of
+    rank 27; frozen-coefficient and plain-transpose plants miss it. This term
+    is not a curved residual. The curved metric bridge is still unserialized,
+    so the restricted fivefold residual and first null lower leakage remain
+    UNDEFINED_CURVED_METRIC_BRIDGE_NOT_SERIALIZED. K152 owns that bridge and
+    frozen/rotated controls before fivefold composition. Joe input is not
+    required.
     K150 now serializes the selected conditional comm/symi/symi Cl(7,7)
     moving-Shiab coefficient as an exact coordinate-jet multiplication
     operator in K149's sparse algebra. It rebuilds the owned two-term tensor
