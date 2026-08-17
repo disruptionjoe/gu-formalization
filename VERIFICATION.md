@@ -66,3 +66,44 @@ realization broke (d), and its status is mechanism-genuine + abstract-theorem-pr
 algebraically, with the full firewall-as-modular-conjugation WALLED. The durable, externally-attackable results
 are (a) the abstract theorem, (b) the UV structural map (truncation-conditional), (c) the interior-even /
 external-by-structure count no-go, and (d) the honest break. Trust the levels, not the adjectives.
+
+## Probe and mutation-harness discipline (adopted 2026-08-17)
+
+Every exact probe in this repository certifies a claim only as far as its own
+failure path is real. The following are the minimum standard, each learned
+from a dated incident in which a green instrument certified nothing:
+
+1. **A selftest verifies its clean baseline BEFORE running any mutation**, and
+   aborts red rather than banking a false "all mutations caught." A red
+   baseline makes every mutation exit nonzero for the pre-existing reason.
+   (Three archaeology probes shipped 2026-08-15 could accept a red baseline;
+   caught in independent review IV-20260815.)
+2. **A mutation corrupts machinery or a reference — never the check itself.**
+   Loosening a check's predicate (`== 4` → `>= 0`, a pin → a length test, a
+   gate → constant True) can only make the probe greener and is undetectable
+   by any runner: unfalsifiable by construction. (Six of fifteen mutations in
+   one probe were this class, masked by incident 3 below; repaired
+   2026-08-17.)
+3. **A catch counts only via a genuine failing check** — a `[FAIL]` line or
+   equivalent — and a nonzero exit without one is CRASH-NOT-DETECTION and
+   fails the selftest. A crash also exits nonzero, so exit codes alone cannot
+   distinguish a working harness from a broken one. (A path bug ran every
+   mutant one directory deep; all fifteen "catches" were crashes;
+   found by FX-3, 2026-08-17.)
+4. **An absence check on a clean corpus needs a planted-positive control**:
+   corrupting the detector cannot flip an absence result, so the detector's
+   power must be demonstrated on a synthetic positive it is required to flag.
+5. **Selftests exit 0 on success.** A harness that inverts the convention
+   reads as broken when healthy and healthy when crashed. (Normalised
+   2026-08-15.)
+6. **Tolerances and baselines must not absorb planted controls.** A scope
+   baseline wide enough to swallow the selftest's own planted reds silently
+   voids the selftest; pin the selftest's baseline independently of the
+   live one. (The kill-target gate's selftest failed invisibly for a day
+   this way; repaired 2026-08-15.)
+7. **Verification of a harness reads what the catches actually were**, not the
+   summary line — a PASS built on crash-catches prints the same PASS.
+
+These rules bind new probes and repairs of old ones; they are not a mandate to
+retrofit every historical probe. Where an old probe is touched for another
+reason, bring its harness to this standard in the same change.

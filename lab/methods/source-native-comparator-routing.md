@@ -156,6 +156,14 @@ may never be summarised as evidence for or against Weinstein's claims, and a
 kill it contains is an internal-target kill under the kill-target gate's
 vocabulary.
 
+**Registration discipline (2026-08-17).** A registry row is added only for a
+file that is (a) already committed — a row naming an uncommitted path breaks
+every fresh clone — and (b) inside the audit's derived scope: check the
+artifact's `doc_type` against the audit's scope exclusions BEFORE registering,
+not after. Both mistakes were made in one week by the same integrator, each
+turning the gate red in a different direction; the audit catches both, but
+only after the fact.
+
 The registry and audit stamp every current high-risk working artifact. Canon,
 published papers, primary-source transcripts and archives are not rewritten to
 retrofit this method; `AGENTS.md` applies this boundary whenever an agent reads,
