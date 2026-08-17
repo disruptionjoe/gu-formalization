@@ -91,12 +91,12 @@ def discovered_artifacts() -> set[str]:
 #       section headed "Classification, in target-native vocabulary", but it is
 #       claim-status vocabulary (ROUTE KILLED / REFUTED), a homonym, not a
 #       routing type.
-#   (b) 4 declare a type OUTSIDE this registry's closed three-value vocabulary
-#       -- `STRUCTURAL_LEDGER_ONLY` (LA-10) and `STRUCTURAL_PLUS_DEFINITIONAL`
-#       (LA-11, OT-1, OT-2).  Each says in prose that it binds no comparator
-#       AND is not evidence about the source-native mechanism, i.e. it asserts
-#       that none of the three values applies.  Mapping them onto one anyway is
-#       guessing; the owner either extends the vocabulary or narrows scope.
+#   (b) RESOLVED 2026-08-16: the owner EXTENDED the vocabulary with
+#       `INTERNAL_STRUCTURAL_ONLY` and the four artifacts (LA-10, LA-11, OT-1,
+#       OT-2) are registered under it, their original out-of-vocabulary
+#       declarations preserved in place.  Four authors independently inventing
+#       the same missing category was evidence of a genus gap, and the repair
+#       was a vocabulary decision, not a guess.  Baseline ratchets 9 -> 5.
 #   (c) 1 self-contradicts (PHI-2): its scope paragraph says it "is built
 #       entirely inside a conventional particle-physics comparator" and that
 #       "Every result below binds only that named model ... without an explicit
@@ -104,7 +104,7 @@ def discovered_artifacts() -> set[str]:
 #       label requests `BRIDGE_OR_SEMANTIC_BOUNDARY`.  Its author resolves it,
 #       not an auditor.
 # Guessing types to close the gap is still forbidden.
-UNCLASSIFIED_BASELINE = 9
+UNCLASSIFIED_BASELINE = 5
 
 
 class SourceNativeComparatorRoutingAudit(unittest.TestCase):
@@ -149,7 +149,7 @@ class SourceNativeComparatorRoutingAudit(unittest.TestCase):
 
     def test_classifications_are_typed(self) -> None:
         allowed = set(self.registry["classifications"])
-        self.assertEqual({"CONVENTIONAL_COMPARATOR", "SOURCE_NATIVE_ROUTE", "BRIDGE_OR_SEMANTIC_BOUNDARY"}, allowed)
+        self.assertEqual({"CONVENTIONAL_COMPARATOR", "SOURCE_NATIVE_ROUTE", "BRIDGE_OR_SEMANTIC_BOUNDARY", "INTERNAL_STRUCTURAL_ONLY"}, allowed)
         for entry in self.entries:
             with self.subTest(path=entry["path"]):
                 self.assertIn(entry["classification"], allowed)

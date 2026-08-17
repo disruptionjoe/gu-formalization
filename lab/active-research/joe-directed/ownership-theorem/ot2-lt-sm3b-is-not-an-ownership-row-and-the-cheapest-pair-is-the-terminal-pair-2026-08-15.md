@@ -42,6 +42,7 @@ scripts:
 > count, a selection principle, or evidence for or against Weinstein's
 > source-native mechanism. Classification:
 > **`STRUCTURAL_PLUS_DEFINITIONAL`, `pending_integration`.**
+> Classification: `INTERNAL_STRUCTURAL_ONLY`. *(Canonical value transcribed 2026-08-16 when the routing vocabulary of `lab/methods/source-native-comparator-routing.md` was extended; the author's original declaration above maps onto it and is preserved.)*
 
 # OT-2 — the predicate was applied, and `LT-SM3b` did not move
 

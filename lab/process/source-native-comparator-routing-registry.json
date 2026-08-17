@@ -9,7 +9,8 @@
   "classifications": [
     "CONVENTIONAL_COMPARATOR",
     "SOURCE_NATIVE_ROUTE",
-    "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    "BRIDGE_OR_SEMANTIC_BOUNDARY",
+    "INTERNAL_STRUCTURAL_ONLY"
   ],
   "artifacts": [
     {
@@ -289,6 +290,14 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/ledger-advancement/la10-the-cut-vertex-survives-and-is-not-the-second-action-2026-08-15.md",
+      "classification": "INTERNAL_STRUCTURAL_ONLY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/ledger-advancement/la11-b9stat-is-a-base-duality-row-and-four-rows-name-it-as-a-subclause-2026-08-15.md",
+      "classification": "INTERNAL_STRUCTURAL_ONLY"
+    },
+    {
       "path": "lab/active-research/joe-directed/ledger-advancement/la2-aca1-needs-no-kernel-selection-and-the-cascade-is-two-thirds-already-banked-2026-08-15.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
@@ -411,6 +420,14 @@
     {
       "path": "lab/active-research/joe-directed/metric-cone-boundedness/mc2-ghp-contour-does-not-repair-indefinite-quartic-2026-08-16.md",
       "classification": "SOURCE_NATIVE_ROUTE"
+    },
+    {
+      "path": "lab/active-research/joe-directed/ownership-theorem/ot1-the-ownership-predicate-and-the-pairing-obstruction-2026-08-15.md",
+      "classification": "INTERNAL_STRUCTURAL_ONLY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/ownership-theorem/ot2-lt-sm3b-is-not-an-ownership-row-and-the-cheapest-pair-is-the-terminal-pair-2026-08-15.md",
+      "classification": "INTERNAL_STRUCTURAL_ONLY"
     },
     {
       "path": "lab/active-research/joe-directed/phi-reduction/phi1-the-reduction-is-rank-one-and-the-14d-kernel-contributes-zero-bits-2026-08-15.md",

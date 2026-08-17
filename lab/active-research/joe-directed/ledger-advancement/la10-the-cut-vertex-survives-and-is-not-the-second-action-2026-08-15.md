@@ -41,6 +41,7 @@ scripts:
 > conventional comparator. Rows that border comparators (`RA-E7`, `RA-G3`,
 > `RA-B6`) are touched only in their graph position; their comparator status is
 > untouched. Classification: **`STRUCTURAL_LEDGER_ONLY`.**
+> Classification: `INTERNAL_STRUCTURAL_ONLY`. *(Canonical value transcribed 2026-08-16 when the routing vocabulary of `lab/methods/source-native-comparator-routing.md` was extended; the author's original declaration above maps onto it and is preserved.)*
 
 # LA-10 — the cut vertex survives; the identification does not
 

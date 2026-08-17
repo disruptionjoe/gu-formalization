@@ -49,6 +49,7 @@ scripts:
 > a statement about invariant bilinear forms, not a Lagrangian, a spectrum, a
 > count, or evidence for or against Weinstein's source-native mechanism.
 > Classification: **`STRUCTURAL_PLUS_DEFINITIONAL`, `pending_integration`.**
+> Classification: `INTERNAL_STRUCTURAL_ONLY`. *(Canonical value transcribed 2026-08-16 when the routing vocabulary of `lab/methods/source-native-comparator-routing.md` was extended; the author's original declaration above maps onto it and is preserved.)*
 
 # LA-11 — the row is writable, and here it is
 

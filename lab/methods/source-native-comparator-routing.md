@@ -139,7 +139,22 @@ must repeat this notice near its top:
 
 The notice is deliberately uniform so agents and audits can find it. An
 artifact may then state whether it is a `CONVENTIONAL_COMPARATOR`, a
-`SOURCE_NATIVE_ROUTE`, or a `BRIDGE_OR_SEMANTIC_BOUNDARY`.
+`SOURCE_NATIVE_ROUTE`, a `BRIDGE_OR_SEMANTIC_BOUNDARY`, or
+`INTERNAL_STRUCTURAL_ONLY`.
+
+**`INTERNAL_STRUCTURAL_ONLY` (added 2026-08-16).** The artifact adjudicates
+repository-internal structure — ledger typing, predicates, indices, censuses —
+and its result binds NO comparator and is NOT evidence about the source-native
+mechanism in either direction. This value exists because four artifacts
+independently invented out-of-vocabulary tokens (`STRUCTURAL_LEDGER_ONLY`,
+`STRUCTURAL_PLUS_DEFINITIONAL`) whose prose meaning was exactly this: each
+states that none of the original three values applies. Four authors
+independently inventing the same missing category was evidence the vocabulary
+was incomplete, not that four authors were careless; the method owner extended
+the vocabulary rather than forcing a fit. An `INTERNAL_STRUCTURAL_ONLY` result
+may never be summarised as evidence for or against Weinstein's claims, and a
+kill it contains is an internal-target kill under the kill-target gate's
+vocabulary.
 
 The registry and audit stamp every current high-risk working artifact. Canon,
 published papers, primary-source transcripts and archives are not rewritten to
