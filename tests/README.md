@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k150_moving_selected_shiab_coordinate_adapter_probe.py`
+  validates the selected conditional `Cl(7,7)` Shiab coordinate coefficient,
+  independent first-jet agreement, live second jet, K149 operator wrapping,
+  K132 frozen packets, and K138 rationally rotated control. The reusable
+  adapter is
+  `channel-swings/k150_moving_selected_shiab_coordinate_adapter.py`.
+
 - `channel-swings/selected_k149_native_i1b_minimal_moving_evaluator_gate_probe.py`
   validates the exact sparse Leibniz engine, moving weighted formal adjoint,
   three connection plants, sixth-profile-jet control, and the first absent

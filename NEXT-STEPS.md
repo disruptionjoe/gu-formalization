@@ -7,6 +7,19 @@ updated_at: "2026-08-16"
 
 # Next Steps For Contributors
 
+> **2026-08-16 K150 SERIALIZES THE MOVING SELECTED-SHIAB COORDINATE
+> ADAPTER.** The selected conditional `comm/symi/symi` `Cl(7,7)` two-term
+> tensor formula now produces an exact coordinate-jet coefficient wrapped as
+> a K149 zero-order multiplication operator. Its first two jets are live; the
+> first matches the independent K77 derivative. Frozen K132 blocks replay at
+> both the reference and K138 rationally rotated null covectors with packet
+> rank 30. No frozen matrix or distinct Eric `(9,5)` implementation is used as
+> the moving definition. **K151 should serialize the moving distortion pairing
+> and prove its density/lowerer-weighted formal-adjoint compatibility with the
+> K150 coefficient before composing the curved metric bridge. Do not yet
+> compute or name a curved residual, quotient map, domain, BFV class, or
+> physical mode.**
+
 > **2026-08-16 K149 SERIALIZES THE GENERIC MOVING-EVALUATOR LAYER AND LOCATES
 > THE FIRST TARGET ADAPTER.** The new sparse exact engine implements complete
 > multivariate Leibniz composition, explicit total-connection hooks, and the

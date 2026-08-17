@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6619c699fe3b2bac1ff09a552376f4c88355c897
+revision_basis: e9c1529c83e5ac844a57842f1f4393f42387f6b4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K150 now serializes the selected conditional comm/symi/symi Cl(7,7)
+    moving-Shiab coefficient as an exact coordinate-jet multiplication
+    operator in K149's sparse algebra. It rebuilds the owned two-term tensor
+    formula from moving Phi tensors rather than substituting K132's frozen
+    matrix. The first two coordinate jets are nonzero, and the first agrees
+    columnwise with the independent K77 moving-Phi derivative. Frozen K132
+    raw/Euler blocks replay at both the reference null covector and K138's
+    rationally rotated null covector, each with selected packet rank 30. The
+    nearby Eric moving-metric code is not imported because it belongs to a
+    distinct (9,5) port. The next exact dependency is the moving distortion
+    pairing and its weighted-adjoint compatibility; the curved metric bridge,
+    restricted residual, and first null lower leakage remain
+    UNDEFINED_DEPENDENT_ADAPTERS_NOT_SERIALIZED. K151 owns that pairing. Joe
+    input is not required.
     K149 now serializes the generic moving-evaluator layer required after
     K148: exact sparse multivariate differential operators, complete Leibniz
     composition, explicit total-connection hooks, and a mechanical formal

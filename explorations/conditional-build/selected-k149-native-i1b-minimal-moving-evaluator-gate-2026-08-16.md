@@ -125,3 +125,12 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k149_native_i1b_minimal_moving_evaluator_gate_probe.py
 ```
+
+## K150 successor classification
+
+K150 serializes `moving_selected_shiab_coefficient` from the selected
+conditional two-term tensor formula as an exact coordinate-jet multiplication
+operator. Frozen K132 blocks and the K138 rationally rotated null control pass.
+The next executable dependency is `moving_distortion_pairing`; the curved
+metric bridge and restricted residual remain undefined until that pairing is
+serialized and its weighted adjoint is checked.

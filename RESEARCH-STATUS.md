@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K150 moving selected-Shiab coordinate adapter 2026-08-16 (exact coordinate
+jets; frozen and rotated controls pass; moving pairing remains open).** The
+selected conditional `comm/symi/symi` `Cl(7,7)` coefficient is now serialized
+from the owned two-term tensor formula as a K149 zero-order multiplication
+operator. The first two coordinate jets are nonzero, the first agrees with the
+independent K77 derivative, and frozen K132 packets replay at the reference
+and K138 rationally rotated null covectors with rank 30. The moving distortion
+pairing and curved metric bridge remain unserialized, so no curved residual or
+lower null leakage is booked. See
+`explorations/conditional-build/selected-k150-moving-selected-shiab-coordinate-adapter-2026-08-16.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| moving selected-Shiab coefficient | absent as coordinate operator | exact coordinate-jet adapter | selected conditional tensor formula | K150 module/probe |
+| frozen and rotated selected blocks | separate fixtures | exact K132/K138 replay | 56D invariant control packet | K150 probe |
+| curved restricted residual | undefined at first adapter | still undefined | moving distortion pairing and curved metric bridge | K150 closure gate |
+
 **K149 native I1B minimal moving evaluator gate 2026-08-16 (generic engine
 exact; first target adapter absent; curved lower transport still undefined).**
 The new sparse operator API implements exact multivariate Leibniz composition,

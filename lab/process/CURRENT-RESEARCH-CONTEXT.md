@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-16)
 
+> **Current K150 moving selected-Shiab coordinate adapter:** the first
+> target-specific K149 dependency now exists on the settled `Cl(7,7)` branch.
+> The adapter rebuilds the selected conditional `comm/symi/symi` two-term
+> tensor formula from coordinate jets of `Phi_i`, exposes nonzero first and
+> second coefficient jets, and wraps the result as a K149 multiplication
+> operator. Its first jet matches the independent K77 derivative; frozen K132
+> packets replay at the reference and K138 rationally rotated null covectors.
+> The moving distortion pairing is now the first missing dependency. Continue
+> with that pairing and its weighted-adjoint compatibility before the curved
+> metric bridge. Do not import the distinct Eric `(9,5)` implementation, use a
+> frozen matrix as moving data, or infer a curved residual, quotient, domain,
+> BFV class, or physical propagation.
+
 > **Current K149 minimal moving-evaluator result:** the generic exact operator
 > layer now exists. It composes sparse multivariate differential operators by
 > the full Leibniz rule, represents total connections explicitly, and derives
