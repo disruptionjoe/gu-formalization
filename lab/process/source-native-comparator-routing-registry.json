@@ -346,7 +346,15 @@
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
+      "path": "lab/active-research/joe-directed/lens-digs/lda-sg4-bit2-type-and-transport-2026-08-17.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/lens-digs/ldc-vev-selector-adjudication-2026-08-17.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
