@@ -1227,6 +1227,39 @@ entries:
       paid_by: ["lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:600", "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:577"]
       quote: 'Three objects wear "Rarita-Schwinger" in this corpus'
       quote_at: "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md"
+  - token: PV-1
+    kind: prefix_collision
+    provenance: rs-wave3-2026-08-17
+    senses:
+      - definition: >-
+          the photon / extra-vector-spectrum arc of 2026-08-14: over the
+          SM-preserving adjoint orbit space the unbroken dimension never
+          hits 12 -- channel endpoint OBSTRUCTION
+        namespace: photon_and_extra_vector_spectrum channel
+        locus: "lab/active-research/joe-directed/photon-extra-vector-spectrum/pv1-available-orbits-retain-an-extra-massless-vector-2026-08-14.md:6"
+      - definition: >-
+          the RS wave-3 pi_0 arc of 2026-08-17: pi_0 of the native varpi
+          vacuum set is trivial in every grounded typing -- the W1 kill of
+          the VEV-orientation wall target fires
+        namespace: wall-bill channel (RS wave 3)
+        locus: "lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md:6"
+    disambiguator:
+      rule: >-
+        cite by path, never by bare id: the two arcs share work_item PV-1
+        verbatim and their verdicts point in unrelated directions
+        (OBSTRUCTION for extra vectors vs KILLED-AT-W1 for the wall); a
+        bare "PV-1 shows" citation is unresolvable
+      attested_at: ["lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md:1072"]
+    receipt:
+      incident: >-
+        the wave-3 brief assigned work-item id PV-1 without grepping for
+        the committed 2026-08-14 photon arc under the same id (the
+        integrator's naming mistake, caught by DS-1's destination re-check
+        mid-run); both artifacts carry work_item PV-1 at line 6
+      paid_by: ["lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md:1072", "lab/active-research/joe-directed/photon-extra-vector-spectrum/pv1-available-orbits-retain-an-extra-massless-vector-2026-08-14.md:6", "lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md:6"]
+      quote: "the name
+  collision stands and future consumers should cite by path"
+      quote_at: "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md"
 contrary_controls:
 
   - token: gimmel

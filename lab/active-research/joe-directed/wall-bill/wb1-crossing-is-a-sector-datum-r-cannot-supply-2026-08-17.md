@@ -583,6 +583,17 @@ open.**
   "OPEN, not forbidden" (rw1:267-269) is refined, not contradicted:
   RELOCATED-TYPED-EXTERNAL, pi_0 gate OPEN, kill branch named.
 
+> [!NOTE]
+> **STATUS PV1-20260817 — the stacked pi_0 gate closed against the wall.**
+> PV-1 (`lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md`)
+> computed the gate this verdict left OPEN: pi_0 is trivial in every
+> grounded typing of the native varpi vacuum set, the two proxies typed
+> different objects (the native object sides with VG-V5's connected coset
+> everywhere), and the kill branch this artifact named FIRED. W1's
+> RELOCATED verdict stands — the relocation is exactly why the kill lands
+> on the sector datum's carrier rather than on any source claim. Revival
+> forks: PV1-REVIVAL-FORKS in the upgrade register.
+
 ---
 
 ## 6. (e) The CC-05 fence on every count statement

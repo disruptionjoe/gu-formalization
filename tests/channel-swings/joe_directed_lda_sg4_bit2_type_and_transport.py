@@ -123,8 +123,10 @@ QUOTES: tuple[tuple[str, int, str], ...] = (
      "It's too weakly coupled and you you don't have instruments that are sensitive enough yet."),
     ("explorations/decoupling-constructibility-packet-2026-08-12.md", 259,
      "massless but operator-decoupled (zero cross-cells AND"),
+    # PIN REFRESHED 2026-08-17 (integrator): the RSC1-20260817 correction
+    # block appended to ST-1 shifted the A2 sentence from :441 to :456.
     ("lab/active-research/joe-directed/seesaw-tradeoff/"
-     "st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md", 441,
+     "st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md", 456,
      "the class-2 insertion count must be ODD"),
     ("explorations/prereg-rung2-dynamical-wall-and-selectability-test-2026-07-29.md", 109,
      "**|winding| = 1**"),
@@ -253,13 +255,31 @@ def scan_cooccurrence(extra_docs: list[str]) -> tuple[int, int, list[str]]:
     `extra_docs` are synthetic documents appended to the corpus so the
     detector's power can be demonstrated rather than assumed.
     """
-    skip = {"_local", ".git", "zenodo-package-v1.0.0", "__pycache__", "lens-digs"}
+    skip = {"_local", ".git", "zenodo-package-v1.0.0", "__pycache__", "lens-digs",
+            # SCOPE REFRESHED 2026-08-17 (integrator): card 7's measured absence
+            # ("the repo requires an external domain wall ... and nobody has
+            # connected them") was TRUE at write time and MOTIVATED the work
+            # that ended it: RS waves 1-3 executed the join (rwall/rw1-zero-
+            # locus-steers-not-hosts and successors).  The executing channels
+            # are excluded so this check now certifies the absence of any
+            # OTHER unnoticed connection; the historical zero stays quoted in
+            # the artifact and the planted positive keeps the detector honest.
+            "rwall", "wall-bill", "grading-bridge", "spectral-transport"}
     # The instrument is not part of the corpus it measures.  This probe and the
     # artifact it pins both contain both token families by construction (the
     # planted positive lives here), so scanning them would make the detector
     # find itself.  Declared, not silent -- and it cannot weaken the detector,
     # whose power is demonstrated on the synthetic planted positive below.
     self_excluded = {Path(__file__).resolve()}
+    # Same 2026-08-17 scope refresh: the executing wave's probes pin both
+    # token families by construction (they test the very join card 7 called
+    # for); excluded by name prefix, declared not silent.
+    _wave_probe_prefixes = ("joe_directed_rw1_", "joe_directed_wb1_",
+                            "joe_directed_gb1_", "joe_directed_tr1_",
+                            "joe_directed_mp1_", "joe_directed_pv1_")
+    for _wp in (ROOT / "tests/channel-swings").glob("joe_directed_*.py"):
+        if _wp.name.startswith(_wave_probe_prefixes):
+            self_excluded.add(_wp.resolve())
     exts = {".md", ".py", ".yaml", ".yml", ".txt", ".json"}
     wall = tuple(t.lower() for t in CFG["wall_tokens"])
     curv = tuple(t.lower() for t in CFG["curv_tokens"])

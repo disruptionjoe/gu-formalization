@@ -465,6 +465,19 @@ rung-2 null, the target's ceiling is HOSTING the external odd count
 (|winding| = 1 generic); it does not derive 3, and no stage of it may be
 written up as a count derivation.
 
+> [!NOTE]
+> **STATUS PV1-20260817 — the kill branch fired downstream, at W1.** This
+> disposition's named construction target
+> `TYPED-TARGET-VEV-ORIENTATION-WALL-R-STEERED` was killed at typing grade
+> by PV-1 (`lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md`):
+> pi_0 of the native varpi vacuum set is trivial in every typing the corpus
+> grounds, so the orientation flip W1 requires has no carrier to live in.
+> Nothing in THIS artifact moves: the steers-not-hosts verdict, the
+> R-steering results, and the bill W1-W6 stand as mathematics; what died is
+> the construction target they were typed for. Revival forks are named in
+> PV-1 and registered as PV1-REVIVAL-FORKS; either landing un-fires the
+> kill with nothing here needing retraction.
+
 ---
 
 ## 6. What each channel inherits, per layer — versionless deltas, each a typed condition gained, none a launder

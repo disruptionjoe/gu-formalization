@@ -114,7 +114,10 @@ PINS = [
     (RW1, 371, "Krein-only — precisely the exit canon's control says a nonzero net count"),
     (RW1, 372, "The source's stylized toy does not distinguish these two mass"),
     (RW1, 375, "**(e) Grading transport.** U = exp(-i pi sigma_1/4) is unitary, commutes"),
-    (RW1, 824, "W1 and W3 are the two items on"),
+    # PIN REFRESHED 2026-08-17 (integrator): wave-3 integration moved the
+    # cited surface after this probe shipped (register receipts/items above
+    # this row; STATUS note in RW-1).
+    (RW1, 837, "W1 and W3 are the two items on"),
     ("CANON.md", 135, "net chiral index = flux number (any integer, odd for odd flux)"),
     ("CANON.md", 136,
      "Net chiral spectral flow 0 for self-adjoint, chirality-odd, Krein-self-adjoint Fredholm families"),
@@ -549,9 +552,15 @@ def leg5(run, cfg, tmp):
               "planted positive for the novelty scan is flagged (detector has power)")
     # (c) destination duplicates
     gdir = sorted((ROOT / "lab/active-research/joe-directed/grading-bridge").glob("*.md"))
+    # PIN REFRESHED 2026-08-17 (integrator): DS-1's mount-required landing in
+    # grading-bridge/ is a legitimate sibling (wave-3 successor arc), not a
+    # duplicate seed.  The uniqueness pin now names BOTH files; any third
+    # arrival still fails loudly.
+    DS1_SIBLING = ("lab/active-research/joe-directed/grading-bridge/"
+                   "ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md")
     run.check("L5-dest-artifact",
-              [p.relative_to(ROOT).as_posix() for p in gdir] == [ARTIFACT],
-              "grading-bridge/ holds exactly the GB-1 artifact (no duplicate seed)")
+              [p.relative_to(ROOT).as_posix() for p in gdir] == sorted([ARTIFACT, DS1_SIBLING]),
+              "grading-bridge/ holds exactly the GB-1 artifact + the DS-1 sibling (no duplicate seed)")
     gprobe = sorted((ROOT / "tests/channel-swings").glob("joe_directed_gb1_*.py"))
     run.check("L5-dest-probe",
               [p.relative_to(ROOT).as_posix() for p in gprobe] == [SELF_PROBE],

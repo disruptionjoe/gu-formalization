@@ -186,23 +186,24 @@ def leg2_register_and_gate() -> None:
     # 12-dim stabilizer -- indistinguishable by the one numeric a reader would
     # check).  This pin makes every register addition a DELIBERATE two-file
     # act: the entry plus this dated bump.  A silent addition reds this cert.
-    # PIN BUMPED 2026-08-17 (second bump): +1 for the Rarita-Schwinger three-way
-    # homonym RSC-1 surfaced. The deliberate two-file act, per design.
-    check(f"register has exactly 39 entries (found {len(entries)})", len(entries) == 39)
+    # PIN BUMPED 2026-08-17 (third bump): +1 for the PV-1 work-item-id
+    # prefix_collision the wave-3 briefs caused and DS-1 caught. The
+    # deliberate two-file act, per design.
+    check(f"register has exactly 40 entries (found {len(entries)})", len(entries) == 40)
     kinds = {}
     for e in entries:
         kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1
-    check(f"kinds: 32 homonym / 1 near_collision / 1 prefix_collision / "
+    check(f"kinds: 32 homonym / 1 near_collision / 2 prefix_collision / "
           f"5 transcription_variant (found {kinds})",
           kinds == {"homonym": 32, "near_collision": 1,
-                    "prefix_collision": 1, "transcription_variant": 5})
-    check("receipts: 39/39 entries carry incident + paid_by",
+                    "prefix_collision": 2, "transcription_variant": 5})
+    check("receipts: 40/40 entries carry incident + paid_by",
           sum(1 for e in entries
               if e.get("receipt", {}).get("incident")
-              and e.get("receipt", {}).get("paid_by")) == 39)
+              and e.get("receipt", {}).get("paid_by")) == 40)
     check("every disambiguator is attested (0 coined names)",
           sum(1 for e in entries
-              if e.get("disambiguator", {}).get("attested_at")) == 39)
+              if e.get("disambiguator", {}).get("attested_at")) == 40)
     check("sensing blocks: exactly 4 (cone, Classification:, CHIRAL, the impossible chain)",
           sum(1 for e in entries if e.get("sensing")) == 4)
     check("sensing refusals documented: exactly 3 (positive, so(1,3), BD-)",
@@ -449,8 +450,8 @@ MUTATIONS = (
      'gate = subprocess.run([sys.executable, str(ROOT / REGISTER)],'),
     # Needle synced 2026-08-17 with the v_PSB pin bump (30 -> 31 homonyms).
     ("kind histogram expectation corrupted",
-     '{"homonym": 32, "near_collision": 1,\n                    "prefix_collision": 1, "transcription_variant": 5}',
-     '{"homonym": 29, "near_collision": 2,\n                    "prefix_collision": 1, "transcription_variant": 5}'),
+     '{"homonym": 32, "near_collision": 1,\n                    "prefix_collision": 2, "transcription_variant": 5}',
+     '{"homonym": 29, "near_collision": 2,\n                    "prefix_collision": 2, "transcription_variant": 5}'),
     ("heading census detector reads prose lines, not headings",
      'carriers = sorted(\n        p.name for p in corpus\n        if any(ln.lstrip().startswith("#") and heading in ln\n               for ln in p.read_text(encoding="utf-8").splitlines()))',
      'carriers = sorted(\n        p.name for p in corpus\n        if heading in p.read_text(encoding="utf-8"))'),

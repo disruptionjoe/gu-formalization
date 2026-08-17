@@ -251,29 +251,91 @@ items:
     origin: "Joe, 2026-08-17: after the procedural updates and fixes, the next waves to scaffold are the reverse scaffolding"
     owner: session owner (scoping) then joe-directed channels
     status: ACTIVE
-    activation: "hardening complete 2026-08-17; WAVE 1 LANDED (B1P-1, RSC-1, RW-1). WAVE 2 LANDED 2026-08-17: TR-1 (parity dichotomy, UR-BIT2-TRANSPORT DONE), WB-1 (W1 RELOCATED to external Z/2 sector datum), GB-1 (W3 reduced to one angle + one missing arrow). Wave 3 candidates: TR1-COMPOSITE-PARITY, W1-PI0-NATIVE-VACUUM, GB1-SIGMA2-DIRECTION-SUPPLY — the three named decisive computations"
+    activation: "waves 1-2 landed 2026-08-17. WAVE 3 LANDED 2026-08-17: MP-1 (dichotomy closes under composition; seven-insertion floor), PV-1 (pi_0 trivial in every grounded typing - the W1 KILL FIRES; VEV-orientation wall target dead, revival forks named), DS-1 (direction stock at the Krein-only pole; all residue funnels into SN-1 reality-map gate). Wave 4 candidates: DS1-REALITY-MAP-GATE (the common blocker, four consumers), PV1-REVIVAL-FORKS, DS1-BLINDROW-FORM-RANK, MP1-SEVEN-FLOOR-SUFFICIENCY"
     next_check: "2026-08-19"
+  - id: DS1-REALITY-MAP-GATE
+    title: "Adjudicate SN-1's reality map (the adjoint convention M-dagger = +-M on the corner pairings): the ONE gate that simultaneously decides DS-1's Krein-breaking verdicts (whole class-2 stock), the middle rows' return arrow, the blind rows' form ranks, and TR-1's mixed-parity family index theorem. Deepest single blocker in the wall/grading complex; source-native adjudication required, not a convention choice"
+    origin: "DS-1 verdict C-DS1-REALITY (ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md); one gate, four consumers"
+    owner: "SN-1 owner + Lane 1 (fork-shaped: source adjudication)"
+    status: QUEUED
+    activation: wave 4 lead candidate; certifying any Krein verdict without it would be the laundered object SN-1's gate exists to catch
+    next_check: "2026-08-24"
+  - id: PV1-REVIVAL-FORKS
+    title: "The two named revival forks for the W1-killed VEV-orientation wall target: (1) ground an epsilon-slot trace order parameter against PV-1's three pinned guards (the hedge does not name it, the plural excludes it, class arithmetic disqualifies it from selection); (2) supply a varpi confinement plus connector-breaking simultaneously. Either landing un-fires the kill cleanly with nothing retracted"
+    origin: "PV-1 (pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md); kill fired at typing grade, native action unbuilt"
+    owner: joe-directed channels (only via a future construction that aims at a fork)
+    status: QUEUED
+    activation: any future wall-revival construction must aim at a fork; no unprompted start
+    next_check: "2026-08-31"
+  - id: DS1-BLINDROW-FORM-RANK
+    title: "The blind-row form-rank census DS-1 named as runnable now (needs no new physics): complete the TB-4/O2 gapping-price table for the rows the pure-cross bite does not reach"
+    origin: "DS-1 blunt paragraph (ds1-...-2026-08-17.md)"
+    owner: joe-directed channels
+    status: QUEUED
+    activation: next grading-adjacent wave or idle capacity
+    next_check: "2026-08-24"
+  - id: MP1-SEVEN-FLOOR-SUFFICIENCY
+    title: "Sufficiency at seven: MP-1 proved SEVEN middle-form insertions is a FLOOR for gapping one corner (6x128 = 768 < 896 <= 7x128, generic witnesses 768/896); run the finite Klimyk/rank computation deciding whether seven SUFFICES before the floor is ever quoted as more than a floor"
+    origin: "MP-1 blunt paragraph P4 (mp1-composites-inherit-one-horn-never-both-2026-08-17.md)"
+    owner: joe-directed channels
+    status: QUEUED
+    activation: next spectral-transport-adjacent wave or idle capacity
+    next_check: "2026-08-24"
   - id: TR1-COMPOSITE-PARITY
     title: "The composite-parity flank of TR-1's dichotomy: two class-2 insertions compose to class 0, so a multi-insertion constructor meets TB-4/TB-5 as pricing, not prohibition — run this before trusting the dichotomy against a full mechanism; theorem shape = mixed-parity family index theorem (TR-1 section 6)"
     origin: "TR-1 blunt paragraph + section 6 (tr1-transport-and-selection-are-opposite-parities-2026-08-17.md); the arc's own named successor"
     owner: joe-directed channels (wave 3 candidate)
-    status: QUEUED
+    status: DONE
     activation: next spectral-transport-adjacent wave
     next_check: "2026-08-24"
+    receipt: >-
+      MP-1 executed 2026-08-17: spectral-transport/mp1-composites-inherit-
+      one-horn-never-both-2026-08-17.md + probe (86/86 live, selftest 12/12
+      targeted). Dichotomy CLOSES at term level: selection is DESTROYED at
+      even order (class-forbidden Hom exactly zero, witnessed twice at
+      Lambda7xLambda7); composites can move the count ((i/2)[W',W] =
+      Gamma_amb exactly) but every transport-capable family is mixed-parity,
+      forcing TR-1 section 6's theorem for every constructor. TB-4 gains a
+      floor of SEVEN middle-form insertions to gap one corner. No kill; no
+      holonomy (count is a point function). Successor: MP1-SEVEN-FLOOR-
+      SUFFICIENCY.
   - id: W1-PI0-NATIVE-VACUUM
     title: "Compute pi_0 of the NATIVE varpi vacuum set: the decisive W1 gate. The repo's two proxies disagree (rung-2's disconnected {+-v} is an INPUT; VG-V5's candidate coset D is measured CONNECTED, double-fenced). pi_0 trivial on the actual carrier KILLS the VEV-orientation wall target at W1; nontrivial pi_0 types the external Z/2 sector datum the route needs"
     origin: "WB-1 verdict (wb1-crossing-is-a-sector-datum-r-cannot-supply-2026-08-17.md): W1 RELOCATED to an external Z/2 sector datum; kill branch named, not fired"
     owner: joe-directed channels (wave 3 candidate)
-    status: QUEUED
+    status: DONE
     activation: next wall-adjacent wave; requires the native varpi vacuum-set object typed first
     next_check: "2026-08-24"
+    receipt: >-
+      PV-1 executed 2026-08-17: wall-bill/pv1-pi0-trivial-in-every-live-
+      typing-w1-kill-fires-2026-08-17.md + probe (146/146 live, selftest
+      9/9 targeted). KILLED-AT-W1 AT TYPING GRADE: the native order
+      parameter types to the declared varpi slot; pi_0 of the vacuum set is
+      trivial in EVERY grounded typing (all inertia indices >= 2, orbits of
+      connected groups, mu-fiber pair connected in the minimal nonabelian
+      model); the two proxies typed different objects and the native object
+      sides with VG-V5's connected coset everywhere. The killed claim is
+      RW-1's join disposition TYPED-TARGET-VEV-ORIENTATION-WALL-R-STEERED
+      (repo construction target; no source claim moves). Revival forks
+      registered as PV1-REVIVAL-FORKS.
   - id: GB1-SIGMA2-DIRECTION-SUPPLY
     title: "The W3 missing arrow: a source-native supply of the Gamma-odd, Krein-breaking mass direction (SC-CHI-02's m = R/4 is the charge-0 pole exactly). TR-1 section 8.3 supplies the typed inventory to shop: the Gamma-odd stock is exactly the class-2 rows (odd-k epsilon directions); the Krein leg of each candidate is reality-map-gated (SN-1); the gapping leg priced by TB-4's rank bound. If the carrier offers no such direction, W3 dies at this arrow"
     origin: "GB-1 verdict (gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md) + TR-1 section 8.3 inventory"
     owner: SC-CHI-02 register owner + joe-directed channels (wave 3 candidate)
-    status: QUEUED
+    status: DONE
     activation: next grading-adjacent wave; shop TR-1's class-2 inventory first
     next_check: "2026-08-24"
+    receipt: >-
+      DS-1 executed 2026-08-17: grading-bridge/ds1-the-stock-sits-at-the-
+      pole-and-waits-on-the-reality-map-2026-08-17.md + probe (107/107
+      live, selftest 10/10 targeted). CONDITIONAL - not paid, not dead, no
+      kill: the Gamma-odd stock is nonempty at every odd grade and sits
+      wholesale at the Krein-only pole (Gamma-residual identically zero),
+      but Krein-breaking is UNDEFINED WITHOUT the reality map (M-dagger =
+      +-M flips every verdict) - SN-1's gate C-DS1-REALITY is the common
+      blocker, gating this arrow, the middle rows' return arrow, the blind
+      rows' form ranks, and TR-1's missing theorem at once. Successors:
+      DS1-REALITY-MAP-GATE, DS1-BLINDROW-FORM-RANK.
   - id: RSC1-R5-RESCOPE
     title: "Split ledger R5 into R5-K (kinematic: declared-slot directions' simultaneous action across the branched corner; partially executed by RSC-1 for the middle-form direction) and R5-D (dynamical: modulus action on masses in all sectors at once; unexecuted, Lane 1 jointly with the decoupling packet)"
     origin: "RSC-1 sections 5-6, PROPOSAL ONLY on the artifact; entered here so the proposal survives (rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:661-667)"

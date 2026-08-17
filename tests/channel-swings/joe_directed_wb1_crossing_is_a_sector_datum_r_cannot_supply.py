@@ -130,7 +130,9 @@ PINS = [
     (RW1, 431, "is NOT proved: that domains of both orientations are realized"),
     (RW1, 457, "VEV-orientation (Z/2) domain walls inside the broken region, steered by"),
     (RW1, 458, "existence condition = the unfixable orientation Z/2 (P7)"),
-    (RW1, 525, "TYPED-TARGET-VEV-ORIENTATION-WALL-R-STEERED"),
+    # PIN REFRESHED 2026-08-17 (integrator): the STATUS PV1-20260817 note
+    # appended to RW-1's disposition shifted this row from :525 to :538.
+    (RW1, 538, "TYPED-TARGET-VEV-ORIENTATION-WALL-R-STEERED"),
     (RW1, 267, "Status: OPEN,"),
     (PREREG, 44, "transferred to the `(9,5)` Krein / gimmel / `ker Gamma` carrier"),
     (PREREG, 46, "The triplet is **supplied**, inherited from Rung 1, and no result here derives"),
