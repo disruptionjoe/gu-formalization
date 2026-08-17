@@ -1,0 +1,65 @@
+{
+  "title": "Needs/provides alias table — two notations, one object, with receipts",
+  "created": "2026-08-16",
+  "owner_artifact": "lab/active-research/joe-directed/composition/fx1-needs-provides-join-2026-08-16.md",
+  "consumed_by": [
+    "process_gates/needs_provides_composition_audit.py",
+    "tests/channel-swings/joe_directed_fx1_needs_provides_join.py"
+  ],
+  "rule": "NO ALIAS WITHOUT A RECEIPT. An entry may be added only for a documented case in which the same repository object demonstrably lived under two surface notations, and every entry cites the artifact pair that proved the synonymy. Receipts are verified byte-level on every gate run; if a receipt file loses its notation, the gate goes red rather than silently keeping the alias. An alias is a JOIN equivalence (a need naming either form is answerable by supply naming the other); it is never by itself a mathematical identity claim.",
+  "aliases": [
+    {
+      "class": ["MET(X)", "Met(X)"],
+      "kind": "case-variant notation for the same source object: the space of base metrics as the declared second argument of the source action I^B_1",
+      "documented_failure": "BD-C (2026-08-15): a 2026-08-09 source re-inspection recorded 'metric variation | explicit through MET(X)' while two independent routes (OT-1, LA-11) called that leg unsupplied six days later — the supply was on file under the other casing and nobody joined them.",
+      "proved_by": "lab/active-research/joe-directed/base-duality/bd-c-met-x-is-an-argument-not-a-background-2026-08-15.md",
+      "receipts": [
+        {
+          "path": "lab/sources/selected-k77-source-tangent-branch-source-reinspection-2026-08-09.md",
+          "must_contain": ["explicit through `MET(X)`"]
+        },
+        {
+          "path": "lab/active-research/joe-directed/base-duality/bd-c-met-x-is-an-argument-not-a-background-2026-08-15.md",
+          "must_contain": ["MET(X)", "`Met(X)`"]
+        }
+      ]
+    },
+    {
+      "class": ["SU(3,2)", "Spin(3,2)"],
+      "kind": "transcription variants of ONE spoken chain node in the source transcript ('s u three comma two' vs 'spin three comma two'); the Spin form makes the chain group-theoretically impossible (dim Spin(3,2) = 10 < 12 = dim SU(3)xSU(2)xU(1))",
+      "documented_failure": "SC-A (2026-08-15): the correct arrow-1 object SU(3,2) had been in ~20 files since 2026-07-06 while three sites (explorations/wave14/H19-seven-seven-signature-branch-2026-07-11.md:114,157 and successors) carried the impossible Spin(3,2) variant — one token apart, never joined.",
+      "proved_by": "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+      "join_only_note": "Spin(3,2) and SU(3,2) are DIFFERENT groups; the equivalence is philological (same spoken object, adjudicated reconstruction SU(3,2) per LA-7 §1.4 and SC-A), so a need written against either surface form is answerable by supply about the adjudicated object.",
+      "receipts": [
+        {
+          "path": "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+          "must_contain": ["Spin(3,2)", "SU(3,2)", "group-theoretically impossible"]
+        },
+        {
+          "path": "explorations/wave14/H19-seven-seven-signature-branch-2026-07-11.md",
+          "must_contain": ["Spin(3,2)"]
+        },
+        {
+          "path": "papers/drafts/Transcript into the impossible.md",
+          "must_contain": ["s u three comma two"]
+        }
+      ]
+    },
+    {
+      "class": ["Pi_RS^phys", "Π_RS^phys"],
+      "kind": "glyph variants (ASCII 'Pi' vs Greek capital pi) of the same object: the physical Rarita-Schwinger projector, which the repository records as not existing",
+      "documented_failure": "Measured at FX-1 introduction (2026-08-16): 132 files carry the ASCII form and 29 the Greek form; lab/process/CURRENT-RESEARCH-CONTEXT.md carries BOTH for the same nonexistent projector (lines 1020 vs 2942-2952), so an exact join without this entry would treat the two populations as different objects.",
+      "proved_by": "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+      "receipts": [
+        {
+          "path": "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+          "must_contain": ["Pi_RS^phys", "Π_RS^phys"]
+        },
+        {
+          "path": "explorations/positivity-exit-criteria-design-packet-2026-08-11.md",
+          "must_contain": ["Π_RS^phys"]
+        }
+      ]
+    }
+  ]
+}
