@@ -130,6 +130,13 @@ items:
     status: QUEUED
     activation: K-lane's next validation pass
     next_check: "2026-08-19"
+  - id: CANON-NULLITY-SCOPE
+    title: "canon Krein result 3 over-scopes: totally-null fails at (14,0); governing fact is null iff timelike count odd (both physical horns odd, no physics moves)"
+    origin: ldb-bit2-direction-and-krein-parity-2026-08-17.md, eight-point sweep
+    owner: needs independent second verification (IV-class) per canon rule
+    status: QUEUED
+    activation: any independent review pass
+    next_check: "2026-08-24"
   - id: RS-WAVE-SERIES
     title: The reverse-scaffold wave series (rung-targeted physics waves; the agreed next program after hardening)
     origin: "Joe, 2026-08-17: after the procedural updates and fixes, the next waves to scaffold are the reverse scaffolding"
