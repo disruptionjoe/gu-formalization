@@ -2,10 +2,26 @@
 title: "Conditional-Ledger Advancement — delta index"
 status: active_research
 doc_type: overview
-updated_at: "2026-08-15"
+updated_at: "2026-08-17"
 ---
 
 # Conditional-ledger advancement — delta index
+
+> **2026-08-17 — MINTED.** The canonical owner integrated this channel's
+> queued deltas as ledger **v0.259**
+> (`lab/process/conditional-physics-ledger-v0.259.json`; base v0.258 sha256
+> `540b50e3…a725047` recorded in-file). Applied: the `LT-SM1` split (LA-7) and
+> the corrected `LT-GR6b` carrier row (LA-11 via the disposition packet's four
+> typed debts) — **both** denominator movers, 82 → 84, SM-disagreement 19/84;
+> `LT-SM7` `T0 → T2` (LA-7); the `AC-A1`/`AC-A2`/`AC-A3` conditional
+> settlement (LA-2, grant named on every row); CP-1's DELTA-1/DELTA-2; ITC
+> D1–D4. Three canonical-owner adjudications (LT-SM1b's second-atom kind;
+> LT-GR6b's rows-vs-register placement; the packet-vs-ITC positivity-class
+> reconciliation) are recorded with grounds and reversal conditions in
+> `lab/active-research/joe-directed/integration-mint/im1-two-movers-four-debts-and-three-adjudications-2026-08-17.md`
+> (74/74). Still pending from this channel: AC-A5's trigger rewrite, AC-A7's
+> evidence addendum, and LA-11's fourteen declared-condition edits (refused at
+> mint pending recomputation against the corrected row statement).
 
 Artifacts of the Joe-directed channel `conditional_ledger_advancement`. The
 channel **never edits the sequential ledger**: every file here is a

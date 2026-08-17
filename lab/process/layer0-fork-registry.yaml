@@ -39,7 +39,7 @@
 # rename a title freely, never an id, because dispositions cite ids.
 
 version: 1
-updated: 2026-08-04
+updated: 2026-08-17
 maintained_by: lab/process/wave-discipline-gates-2026-08-04.md
 
 # Consecutive dispositions that may declare the same still-open horn before an
@@ -497,3 +497,63 @@ forks:
     sources:
       - GEOMETER-VS-PHYSICS-OBJECTS.md
       - explorations/geometry-curvature-emergence/graded-exterior-bundle-14d-comparator-2026-07-26.md
+
+  - id: SOLDERED-AD
+    title: "Is ad(P_H) soldered to the base Lorentz action, or an inert internal index?"
+    horns:
+      - "soldered: P_H is by definition the associated bundle of the chimeric FRAME bundle (manuscript 2A, eq (3.32); SC-GRP-02, hard-core), the chimeric carrier C = Sym^2(pi^* T^*X) (+) pi^* T^*X is functorial in T^*X, so ad(P_H) is Lorentz-associated"
+      - "inert (as typed by MD-1's fork_declared): ad(P_H) is inert: P_H is an independent principal bundle and the ad index is an ordinary internal label, Lorentz-inert"
+    status: settled
+    settled_side: "soldered (bundle/ambient layer). The inert horn AS TYPED is refuted: its premise contradicts the manuscript's printed definition of P_H"
+    settled_at: 2026-08-16
+    settled_how: >-
+      SA-1 composed three pre-existing positive facts rather than computing a
+      new one: (i) the manuscript's own definition P_H = P_Fr~(C^{7,7}) x_{rho_D} H
+      (2A, eq (3.32); register SC-GRP-02, core hard-core); (ii) the built
+      repository construction of the chimeric reduction (K77 2026-08-05, 53/53
+      plus an independent Sage certificate, source_return SOURCE-CORRECTS),
+      which itself names the independent-bundle reading "the correct negative
+      control, but ... not the source-defined GU object"; (iii) an exact
+      105/105 certificate (tests/channel-swings/joe_directed_sa1_soldered_ad_selector.py)
+      whose inert-ad mutation control flips five computed invariants and drives
+      exit 1, so the result is bought by d rho_{Sym^2} != 0 and not by
+      construction. DECIDED AT THE BUNDLE LAYER ONLY. The residual is a
+      DIFFERENT and narrower question that the inert horn's text conflated
+      with bundle ownership: so(7,7) contains two distinct Lorentz subalgebras
+      -- so(1,3)_endo (frame rotations of X) and so(1,3)_H (the manuscript's
+      observation chain Spin(7,7) -> Spin(1,3) x Spin(6,4)) -- intersecting in
+      zero, differing by an internal delta(X) in so(6,4) inside the declared
+      gauge group H, giving 0 and 21 on the same k. Which one labels observed
+      4D spin is re-typed as an ACTION-INVARIANCE question -- does the selected
+      action own D_varpi chi_epsilon = 0 and/or P_epsilon u = u -- and that
+      object is already owned and being ground by the K-lane's named gate
+      (explorations/conditional-build/selected-k77-moving-parent-bundle-observation-reduction-2026-08-10.md,
+      its own "next decisive gate"). The residual is NOT a horn of this fork
+      and is not tracked here; consumers of the old fork id should read SA-1
+      section 7 for what AC-D1..D5 inherit (a decided ambient horn plus a
+      named blocked condition; zero verdict movement). Registry archaeology:
+      this fork was declared 2026-08-14, promoted to verdict-load-bearing,
+      and never entered here -- the entry gap is the mechanism SA-1 section 8
+      names; entered 2026-08-17 at integration (IM-1) by the canonical owner.
+    settled_by:
+      - lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md
+      - explorations/conditional-build/k77-global-chimeric-spin-reduction-and-support-normalization-2026-08-05.md
+      - lab/sources/k77-global-chimeric-spin-reduction-source-reinspection-2026-08-05.md
+      - lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md
+    fan_out: "high while open - it was promoted verdict-load-bearing for AC-D1..D5 (PHI-2) and ranked the most-flagged open object across seven surfaces (AR-2); settled at the bundle layer, its load moves to the K-lane action-invariance gate"
+    notes: >-
+      Typed as SA-1 decided, entered by the ARC-1 integration mint
+      (im1-two-movers-four-debts-and-three-adjudications-2026-08-17.md).
+      The consequence attached to the inert horn is NOT established by the
+      refutation: solderedness is a bundle statement, and observable labels
+      may still be organised by a commuting subgroup of a larger gauge group
+      (SA-1 section 6). LA-8's scope survives exactly: the fork is not
+      load-bearing for RA-E2 at the settled form leg (both horns give zero
+      colour-singlet weak doublets). SA-1 declares and does not decide
+      CARRIER-SPLIT, SECTION-VS-OBSERVERSE and VERTICAL-FROBENIUS-TRACE;
+      the section-horn dependence of the residual is declared in its
+      fork_assumed.
+    sources:
+      - lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md
+      - lab/active-research/joe-directed/archaeology/ar2-deferral-archaeology-2026-08-15.md
+      - lab/process/path-dependencies.md

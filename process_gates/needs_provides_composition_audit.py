@@ -517,6 +517,14 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         ALREADY_COMPOSED,
         "mech: the wave file cites both the census and the classifier by name",
     ),
+    "ART:lab/active-research/joe-directed/majorana-126-neutrino/sn4-descent-receipt-archaeology-2026-08-17.md::X_R": (
+        UNTYPED,
+        "IM-1 2026-08-17: landed mid-mint from the live sibling channel "
+        "(K151-window write) and caught by the ratchet within the same "
+        "session — the gate's designed behavior.  Same token and channel as "
+        "the sn3::X_R entries above; the channel owner adjudicates, not "
+        "this integration pass.",
+    ),
     "ART:lab/active-research/joe-directed/soldered-ad/sa1-the-selector-is-built-and-the-bundle-horn-is-soldered-2026-08-16.md::D_varpi": (
         ALREADY_COMPOSED,
         "SA-1's blocked_on names its owner gate BY PATH (selected-k77-moving-"
@@ -581,13 +589,34 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         "Spin(1,3) is the shared observation-chain token",
     ),
     "LEDGER:LT-SM1::zeta_F": (
+        SUPERSEDED,
+        "IM-1 2026-08-17: LT-SM1 is row_status SUPERSEDED in v0.259 (LA-7's "
+        "split executed at the mint: successors LT-SM1a/LT-SM1b), so this "
+        "pair no longer derives; superseded per this file's header rule, row "
+        "kept.  Successor pair LEDGER:LT-SM1a::zeta_F is adjudicated below.  "
+        "Original note (2026-08-16, preserved): LT-SM7 exists in v0.258, "
+        "i.e. LA-7's banked split WAS executed; the current row is the "
+        "post-split row even though its evidence string still cites cb-b "
+        "rather than LA-7 — that reading conflated the SM7 grade move with "
+        "the SM1 split; the split actually landed at v0.259.",
+    ),
+    "LEDGER:LT-SM1a::zeta_F": (
         ALREADY_COMPOSED,
-        "LT-SM7 exists in v0.258, i.e. LA-7's banked split WAS executed; the "
-        "current row is the post-split row even though its evidence string "
-        "still cites cb-b rather than LA-7",
+        "IM-1 2026-08-17: split successor of LT-SM1 minted in v0.259; the "
+        "zeta_F object is unchanged and its composition receipts are the "
+        "row's own evidence field (route A explorations/lt-sm1-horn-surplus-"
+        "attempt-2026-08-12.md:460-468 and route B LA-6 sections 2.9/3.4, "
+        "banked by LA-7 section 3) — mech: cites-a-provider by construction.  "
+        "The bit is NOT discharged: FINITE_CHOICE retained, ONE_BIT gated "
+        "behind horn-completeness.",
     ),
     "LEDGER:LT-SM5::Y_C": (
-        LIVE_CANDIDATE,
+        ALREADY_COMPOSED,
+        "IM-1 2026-08-17: the ledger owner applied DELTA-1 at the v0.259 "
+        "mint (LT-SM5.evidence now cites wave D typed 'machinery only'; "
+        "verdict/reason/grade untouched), so per the note below the pair "
+        "re-types ALREADY_COMPOSED with this C5/C6 refresh.  NOTHING IS "
+        "DISCHARGED: composed-by-citation at machinery level only.  "
         "CP-1 2026-08-17 adjudication (supersedes the FX-1 introduction "
         "note): CONDITION -- not discharge, not neighbor.  Wave D types the "
         "row's exact objects (Layer-0 rows carry the ordered "
@@ -611,7 +640,9 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         "ALREADY_COMPOSED with the C5/C6 refresh.",
     ),
     "LEDGER:LT-SM5::Y_K": (
-        LIVE_CANDIDATE,
+        ALREADY_COMPOSED,
+        "IM-1 2026-08-17: DELTA-1 applied at the v0.259 mint; re-typed with "
+        "the C5/C6 refresh exactly as Y_C.  "
         "same pair and same CP-1 2026-08-17 adjudication as Y_C: CONDITION "
         "via wave D (DELTA-1), and the rb4 leg re-typed provider-side "
         "mood-blindness -- see the Y_C note and cp1-three-live-pairs-"
@@ -634,7 +665,16 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         "language",
     ),
     "LEDGER:RA-A6::v_PSB": (
-        LIVE_CANDIDATE,
+        ALREADY_COMPOSED,
+        "IM-1 2026-08-17: the ledger owner applied DELTA-2 at the v0.259 "
+        "mint (RA-A6.revival_trigger only; the bar only RISES: selection "
+        "certificate required, formalization excluded, the (4,1,2) homonym "
+        "excluded), so per the note below the pair re-types "
+        "ALREADY_COMPOSED with this C5/C6 refresh.  The near-collision CP-1 "
+        "flagged is now REGISTERED: lab/process/homonym-register.yaml token "
+        "v_PSB (kind: homonym, provenance cp1-2026-08-17, both senses, "
+        "representation-naming disambiguator) — CP-1 probe check D29 "
+        "retired against that entry.  "
         "CP-1 2026-08-17 adjudication (supersedes the FX-1 introduction "
         "note): COMPOSES -- same object verified by LINEAGE RECEIPT, not "
         "token: RA-A6.source_row = CB-A:A6 and cb-a:222 reads 'conditional "

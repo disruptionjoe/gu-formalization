@@ -163,23 +163,37 @@ def main(selftest: bool = False) -> int:
     check("C4 glyph split receipt: CRC carries BOTH Pi_RS spellings",
           "Pi_RS^phys" in crc and "Π_RS^phys" in crc, True)
 
-    print("== C5  file facts under the four LIVE_CANDIDATE adjudications ==")
+    print("== C5  file facts under the LIVE_CANDIDATE adjudications ==")
+    # C5 REFRESH, IM-1 2026-08-17: the ledger owner applied CP-1's DELTA-1 /
+    # DELTA-2 at the v0.259 mint, firing the two designed C5 reds below by
+    # design; expectations updated per the documented lifecycle (re-typed
+    # ALREADY_COMPOSED in the gate note).  The evidence citation is CONDITION
+    # machinery only — the pinned needle keeps that fence in the row text.
     ledger = json.loads(read(gate.latest_ledger_path()))
     rows = {r["id"]: r for r in ledger["rows"]}
     wave_d = read("explorations/resolver-wave-d-native-126-connection-placement-2026-08-03.md")
     check("C5 LT-SM5: wave D built the machinery and left placement open",
           "total P0/Y placement, source selection, VEV, and mass remain open" in wave_d, True)
-    check("C5 LT-SM5: row evidence still does not cite wave D",
-          "resolver-wave-d" in rows["LT-SM5"]["evidence"], False)
+    check("C5 LT-SM5: row evidence cites wave D since v0.259 (DELTA-1 applied "
+          "2026-08-17; was a designed red while un-applied)",
+          "resolver-wave-d" in rows["LT-SM5"]["evidence"], True)
+    check("C5 LT-SM5: the wave-D citation is fenced as condition machinery, "
+          "not advancement",
+          "do not read this citation as advancement" in rows["LT-SM5"]["evidence"], True)
     cycle1 = read("explorations/cycle-gates-and-audits/"
                   "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md")
     check("C5 RA-A6: June gate formalizes the source-selected v_PSB",
           "source-selected v_PSB" in cycle1, True)
     check("C5 RA-A6: June gate records it NOT selected",
           "not selected by current repo data" in cycle1, True)
-    check("C5 RA-A6: revival trigger watches exactly that object",
-          rows["RA-A6"]["revival_trigger"], "a source-action-selected v_PSB")
-    check("C5 RA-A6: row evidence still does not cite the June gate",
+    check("C5 RA-A6: revival trigger still opens on the watched object and is "
+          "re-baselined on the June gate (DELTA-2 applied 2026-08-17; the bar "
+          "only rises)",
+          rows["RA-A6"]["revival_trigger"].startswith("a source-action-selected v_PSB")
+          and "SourceCriticalRankOnePSBSelectionCertificate" in rows["RA-A6"]["revival_trigger"]
+          and "(4,1,2) vector also named v_PSB" in rows["RA-A6"]["revival_trigger"], True)
+    check("C5 RA-A6: row evidence still does not cite the June gate "
+          "(DELTA-2 was trigger-field-only)",
           "cycle1-source-selected-pati-salam" in rows["RA-A6"]["evidence"], False)
     bd1 = read("lab/active-research/joe-directed/baryon-number-and-proton-decay/"
                "bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md")
@@ -195,24 +209,29 @@ def main(selftest: bool = False) -> int:
         counts[typ] += 1
         if not note.strip():
             FAIL.append("C6 adjudication with empty note")
-    check("C6 adjudicated pairs at introduction", len(adjudicated), 63)
-    check("C6 LIVE_CANDIDATE count", counts["LIVE_CANDIDATE"], 4)
-    check("C6 ALREADY_COMPOSED count", counts["ALREADY_COMPOSED"], 42)
-    check("C6 UNTYPED count", counts["UNTYPED"], 17)
-    check("C6 SUPERSEDED count", counts["SUPERSEDED"], 0)
+    # C6 REFRESH, IM-1 2026-08-17 (introduction pins 63/4/42/17/0 fired by
+    # design at the v0.259 mint): +LEDGER:LT-SM1a::zeta_F (split successor,
+    # ALREADY_COMPOSED) and +sn4::X_R (sibling channel, UNTYPED) = 65;
+    # Y_C/Y_K/v_PSB re-typed ALREADY_COMPOSED per their own lifecycle notes;
+    # LT-SM1::zeta_F SUPERSEDED (row superseded in v0.259).  BD-1::SU(3,2)
+    # deliberately KEPT LIVE_CANDIDATE: its flip instruction belongs to this
+    # C6 refresh only together with its note's preservation, and no red of
+    # its own fired at the mint — the FX-1 owner may still flip it.
+    check("C6 adjudicated pairs after the v0.259 mint refresh", len(adjudicated), 65)
+    check("C6 LIVE_CANDIDATE count", counts["LIVE_CANDIDATE"], 1)
+    check("C6 ALREADY_COMPOSED count", counts["ALREADY_COMPOSED"], 45)
+    check("C6 UNTYPED count", counts["UNTYPED"], 18)
+    check("C6 SUPERSEDED count", counts["SUPERSEDED"], 1)
     check("C6 ratchet baseline is zero and may only go down",
           gate.UNADJUDICATED_BASELINE, 0)
     gate_src = read("process_gates/needs_provides_composition_audit.py")
     check("C6 gate states the never-raise rule", "Never raise the baseline" in gate_src, True)
     live_ids = sorted(pid for pid, (typ, _) in adjudicated.items()
                       if typ == "LIVE_CANDIDATE")
-    check("C6 the four LIVE pairs are exactly the adjudicated yield",
+    check("C6 the remaining LIVE pair is exactly the un-flipped BD-1 entry",
           live_ids,
           ["ART:lab/active-research/joe-directed/baryon-number-and-proton-decay/"
-           "bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md::SU(3,2)",
-           "LEDGER:LT-SM5::Y_C",
-           "LEDGER:LT-SM5::Y_K",
-           "LEDGER:RA-A6::v_PSB"])
+           "bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md::SU(3,2)"])
 
     print("== C7  register partition (the typing authority; if it moves, re-type) ==")
     reg = read("lab/sources/source-claim-register.yaml")

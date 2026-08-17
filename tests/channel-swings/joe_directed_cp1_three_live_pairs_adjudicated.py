@@ -246,10 +246,15 @@ def run_all(refs: dict) -> None:
               for ln in cb_a.splitlines()))
     check("D28 RA-A6's current evidence file contains ZERO v_PSB",
           "v_PSB" not in read(refs["higgs_gate"]))
-    check("D29 homonym register carries NO v_PSB entry (LIFECYCLE: reds when "
-          "the homonym channel registers the flagged near-collision -- then "
-          "cite the entry in the gate note and retire this check)",
-          "v_PSB" not in read(refs["homonym_register"]))
+    # D29 RETIRED AND REPLACED, IM-1 2026-08-17, per its own lifecycle note:
+    # the homonym channel registered the flagged near-collision (token v_PSB,
+    # provenance cp1-2026-08-17, both senses, representation-naming
+    # disambiguator) and the composition-gate note now cites the entry.
+    homreg = read(refs["homonym_register"])
+    check("D29 homonym register carries the v_PSB entry CP-1 flagged "
+          "(registered 2026-08-17; check retired from absence to presence)",
+          "token: v_PSB" in homreg and "(10bar,1,3)" in homreg
+          and "(4,1,2)" in homreg)
     check("D30 live ledger: RA-A6 evidence/trigger do NOT yet cite cycle1 "
           "(LIFECYCLE: reds when the owner applies DELTA-2 -- then re-type "
           "the pair ALREADY_COMPOSED, refresh FX-1 C5, retire this check)",
@@ -322,17 +327,23 @@ def run_all(refs: dict) -> None:
     check("F53 gate baseline stays 0 (never raised)",
           gate.UNADJUDICATED_BASELINE == 0)
     adj = gate.ADJUDICATED
+    # F54/F56/F57 REFRESH, IM-1 2026-08-17: these pins fired by design when
+    # the ledger owner applied DELTA-1/DELTA-2 at the v0.259 mint and the
+    # gate entries re-typed ALREADY_COMPOSED per their own lifecycle notes
+    # (which are preserved verbatim under the dated IM-1 addenda).
     l1 = adj.get(refs["pair_l1"], ("", ""))
-    check("F54 L1 typed LIVE_CANDIDATE with a dated CP-1 note",
-          l1[0] == "LIVE_CANDIDATE" and "CP-1 2026-08-17" in l1[1])
+    check("F54 L1 re-typed ALREADY_COMPOSED at the mint, dated notes kept",
+          l1[0] == "ALREADY_COMPOSED" and "CP-1 2026-08-17" in l1[1]
+          and "IM-1 2026-08-17" in l1[1])
     check("F55 L1 note carries DELTA-1 and the rb4 refusal",
           "DELTA-1" in l1[1] and "DOES NOT COMPOSE" in l1[1])
     l2 = adj.get(refs["pair_l2"], ("", ""))
-    check("F56 L2 typed LIVE_CANDIDATE with the same dated adjudication",
-          l2[0] == "LIVE_CANDIDATE" and "CP-1 2026-08-17" in l2[1])
+    check("F56 L2 re-typed ALREADY_COMPOSED with the same dated adjudication",
+          l2[0] == "ALREADY_COMPOSED" and "CP-1 2026-08-17" in l2[1]
+          and "IM-1 2026-08-17" in l2[1])
     l3 = adj.get(refs["pair_l3"], ("", ""))
-    check("F57 L3 typed LIVE_CANDIDATE with DELTA-2 named",
-          l3[0] == "LIVE_CANDIDATE" and "CP-1 2026-08-17" in l3[1]
+    check("F57 L3 re-typed ALREADY_COMPOSED with DELTA-2 named",
+          l3[0] == "ALREADY_COMPOSED" and "CP-1 2026-08-17" in l3[1]
           and "DELTA-2" in l3[1])
     l4 = adj.get(refs["pair_l4"], ("", ""))
     check("F58 L4 type matches the recorded disposition and says no delta owed",
