@@ -157,6 +157,16 @@ def leg1_defect() -> None:
     hits = [t for t in CHIRALITY_TOKENS if t in defs]
     check(f"no chirality-half token appears in any axis definition (found {hits})",
           hits == [])
+    # Planted-positive control (added 2026-08-17, found via FX-3): an ABSENCE
+    # check on a clean corpus cannot demonstrate its detector has power --
+    # corrupting the vocabulary leaves `hits == []` exactly as before, so the
+    # "vocabulary emptied" mutation was undetectable by construction and only
+    # ever "passed" via the path-bug crash.  A synthetic definitions blob
+    # carrying the first vocabulary token MUST be flagged; the mutation that
+    # corrupts that token now goes red HERE, on a genuine [FAIL].
+    planted_defs = 'FIELD_SPACE = {"S-FULL-DIRAC"}  # synthetic control blob'
+    check("chirality detector fires on a planted positive (non-vacuity control)",
+          any(t in planted_defs for t in CHIRALITY_TOKENS))
     check("the axis value-sets are exactly the carrier/vacuum vocabulary, with "
           "no half-spinor value",
           '{"CONSTRAINED", "FULL", "BARE"}' in defs
@@ -619,38 +629,80 @@ def planted_false_facts() -> None:
 # --------------------------------------------------------------------------
 
 MUTATIONS = (
-    ("axis-count detector loosened to accept any number of axes",
-     "len(axis_sets) == 4", "len(axis_sets) >= 0"),
+    # REPAIRED 2026-08-17 (found by FX-3): the original mutation rewrote the
+    # CHECK's predicate to a tautology ("len(axis_sets) >= 0"), which can only
+    # make the probe greener -- an unfalsifiable mutation that "passed" solely
+    # because every mutant crashed on a path bug before any check ran.  A
+    # mutation must corrupt MACHINERY so a check catches it: this one blinds
+    # the axis regex to one axis, so the count check and the set check both go
+    # red on a genuine [FAIL].
+    ("axis detector blinded to the provenance sub-axis",
+     'r"^(FIELD_SPACE|INVARIANCE|PHASE|INV_PROVENANCE)\\s*="',
+     'r"^(FIELD_SPACE|INVARIANCE|PHASE|ZZ_PROVENANCE)\\s*="'),
     ("chirality token vocabulary emptied",
      'CHIRALITY_TOKENS = (\n    "S-FULL-DIRAC"', 'CHIRALITY_TOKENS = (\n    "ZZ-NOT-A-TOKEN"'),
     ("coded-axis detector always returns True",
      "    return supplied and computed", "    return True"),
     ("coded-axis detector always returns False",
      "    return supplied and computed", "    return False"),
+    # REPAIRED 2026-08-17: the original retarget to C6b crashed rather than
+    # detected -- the extractor's end marker ("# --- C6b") lies BEFORE the C6b
+    # id, so the end search ran past itself and raised ValueError before any
+    # check.  Retargeting to C5 (upstream of C6a) yields a well-formed block
+    # whose fields belong to the WRONG commitment, which the content checks
+    # catch on a genuine [FAIL].
     ("C6a row extractor grabs the wrong commitment",
-     "    start = source.index('id=\"C6a\"')", "    start = source.index('id=\"C6b\"')"),
+     "    start = source.index('id=\"C6a\"')", "    start = source.index('id=\"C5\"')"),
     ("transcript opposite-half line index shifted off the locus",
      "    l_3246 = lines[106]", "    l_3246 = lines[105]"),
     ("transcript unsubscripted line index shifted off the locus",
      "    l_4916 = lines[172]", "    l_4916 = lines[171]"),
-    ("note-consumer count assertion loosened",
-     "len(note_refs) == 1", "len(note_refs) >= 0"),
+    # REPAIRED 2026-08-17: same defect class as mutation 1 -- loosening the
+    # CHECK's own predicate can only make the probe greener and is
+    # undetectable by construction.  Corrupt the DETECTOR instead: blind the
+    # note-consumer regex so it finds zero references, and the count check
+    # goes red on a genuine [FAIL].
+    ("note-consumer detector blinded",
+     """note_refs = re.findall(r'c\\["note"\\]', a)""",
+     """note_refs = re.findall(r'c\\["zz_no_such_key"\\]', a)"""),
     ("shadow drops C1's provenance elimination",
      '    prov -= {"SUGRA_4D"}', "    prov -= set()"),
-    ("shadow lets a soft tilt eliminate a corner",
-     '        if car in ("A", "CTRL40"):', '        if car in ("A", "CTRL40", "B"):'),
+    # REPAIRED 2026-08-17: the original added "B" to the survival guard, but
+    # the guard's condition ("GRADED_IG" in prov) is TRUE in the clean state,
+    # so the widened guard changed nothing observable -- a no-op mutation,
+    # undetectable by construction.  Kill the guard instead: guarded carriers
+    # die, the survivor set loses two corners, and the all-four-corners check
+    # goes red on a genuine [FAIL].
+    ("shadow survival guard kills guarded carriers",
+     '        return "GRADED_IG" in prov', "        return False"),
     ("shadow vertex map corrupted so B lands at the chiral point",
      '        ("ABSENT", "MASSIVE"): "B",', '        ("ABSENT", "MASSIVE"): "A",'),
-    ("SHA-256 pin replaced by a length-only check",
-     "hashlib.sha256(raw).hexdigest() == LEG_A_SHA256", "len(raw) > 0"),
+    # REPAIRED 2026-08-17: third instance of the assertion-tautology class --
+    # replacing the pin comparison with a length check weakens the CHECK and
+    # can only stay green.  Corrupt the REFERENCE instead: comparing against
+    # the reversed digest must fail on the real file, proving the pin is
+    # actually consulted, on a genuine [FAIL].
+    ("SHA-256 pin compared against a corrupted reference",
+     "hashlib.sha256(raw).hexdigest() == LEG_A_SHA256",
+     "hashlib.sha256(raw).hexdigest() == LEG_A_SHA256[::-1]"),
     ("blind-spot demonstration inverted to require the guard to catch the edit",
      'res.returncode == 0 and "CHECKS: 32 passed, 0 failed, 32 total" in res.stdout',
      'res.returncode != 0'),
-    ("base-duality correction weakened to a substring that is always absent",
-     '"SG4" not in bd_blob', '"ZZZZ" not in bd_blob'),
-    ("planted-false-fact gate accepts True observations",
+    # REPAIRED 2026-08-17: fourth instance of the assertion-tautology class --
+    # swapping one absent token for another absent token leaves the absence
+    # check vacuously green.  Corrupt the probe token to one that IS present:
+    # the check then fails on the real blob, proving the blob is actually
+    # consulted, on a genuine [FAIL].
+    ("base-duality absence check probed with a token that is present",
+     '"SG4" not in bd_blob', '"the" not in bd_blob'),
+    # REPAIRED 2026-08-17: fifth instance -- replacing the gate's predicate
+    # with a constant True loosens the CHECK and stays green forever.  INVERT
+    # the gate instead: requiring the planted facts to observe True makes all
+    # five fail on the real corpus, proving the gate actually consults the
+    # observation, on genuine [FAIL]s.
+    ("planted-false-fact gate inverted",
      "check(f\"planted false fact observed False: {label}\", observed is False)",
-     "check(f\"planted false fact observed False: {label}\", True)"),
+     "check(f\"planted false fact observed False: {label}\", observed is True)"),
 )
 
 
@@ -672,23 +724,37 @@ def selftest(scratch: pathlib.Path) -> int:
         return 1
     print("  baseline GREEN (exit 0) -- mutations are now meaningful\n")
 
-    tmp = scratch / "_sg1_mutant_tmp.py"
+    # REPAIRED 2026-08-17 (found by FX-3).  The mutant used to run from a
+    # scratch SUBDIRECTORY, so its own `parents[2]` resolved one level short
+    # and every mutant died on a doubled path before any check ran -- every
+    # "caught" was a crash-catch, not a detection.  Two fixes: the mutant now
+    # runs at the probe's own depth so ROOT resolves identically, and a catch
+    # only counts if the mutant fails via a genuine [FAIL] check -- a nonzero
+    # exit with no [FAIL] line is reported as CRASH-NOT-DETECTION and fails
+    # the selftest, per the FX-3 convention.
+    tmp = me.parent / "_sg1_mutant_tmp.py"
     caught = 0
     for name, old, new in MUTATIONS:
         if old not in source:
             print(f"  MUTATION NOT APPLICABLE (needle missing): {name}")
             tmp.unlink(missing_ok=True)
             return 1
-        # Re-created each pass: every child run tidies the scratch dir on exit.
-        scratch.mkdir(parents=True, exist_ok=True)
         tmp.write_text(source.replace(old, new, 1), encoding="utf-8")
         result = subprocess.run([sys.executable, str(tmp)], capture_output=True, text=True)
         if result.returncode == 0:
             print(f"  NOT CAUGHT (mutant exited 0): {name}")
             tmp.unlink(missing_ok=True)
             return 1
+        if "[FAIL]" not in result.stdout:
+            print(f"  CRASH-NOT-DETECTION (exit {result.returncode}, no [FAIL] "
+                  f"line): {name}")
+            err = result.stderr.strip().splitlines()
+            if err:
+                print(f"    last stderr line: {err[-1][:120]}")
+            tmp.unlink(missing_ok=True)
+            return 1
         caught += 1
-        print(f"  caught (exit {result.returncode}): {name}")
+        print(f"  caught by [FAIL] check (exit {result.returncode}): {name}")
     tmp.unlink(missing_ok=True)
     print(f"\n--selftest: baseline verified GREEN first, then "
           f"{caught}/{len(MUTATIONS)} injected mutations drove exit 1.")
