@@ -24,6 +24,7 @@ items:
     owner: joe-directed ct-hardening wave
     status: DONE
     activation: "receipt: ct2 schema v0.2 + mint-context-projection.md + gate; all 259 ledgers validate unchanged; launder-in-projection is a hard red; rule M floor on 6 rows"
+    next_check: "2026-08-19"
   - id: CT2-SCHEMA-FINDINGS
     title: "CT-2's six reported findings: v0.1 schema validated NOTHING since v0.1 (14-21 errors on live ledgers); row closure closed-in-name-only (owner decision); v0.134 internal mislabel; G8/NEEDS polarity gap; G6/G7 mechanically uncheckable; CT-1 Layer coverage thin on LAGRANGIAN"
     origin: ct2 artifact section 6
