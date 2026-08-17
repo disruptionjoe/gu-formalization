@@ -111,11 +111,18 @@ items:
     next_check: "2026-08-24"
   - id: PD-PARITY-DOWNSTREAM
     title: Downstream census follow-ups from the PD-SIGNATURE-PARITY cross-check
-    origin: FIX-B (in flight 2026-08-17)
+    origin: FIX-B (landed 2026-08-17)
     owner: session owner on FIX-B landing
-    status: ACTIVE
-    activation: FIX-B returns
+    status: DONE
+    activation: "receipt: pcx1-signature-parity-clause-does-not-fire-2026-08-17.md -- census complete, no citer consumes rows 6-7 as settled prohibition, all consumers unchanged or strengthened; SCUR-1 watch discharged into the typed armed condition"
     next_check: "2026-08-19"
+  - id: PD-CHAIN-STEP-ADDITION
+    title: Additive EXACT chain step recording the parity cross-check and its armed firing condition (proposed in pcx1 section 6, supersedes SCUR-1 section 7 note-request)
+    origin: pcx1 2026-08-17; verified safe against the k134 byte-pin and the row-7 CONDITIONAL pin
+    owner: process steward (path-dependencies surface)
+    status: QUEUED
+    activation: next steward pass or next path-dependencies touch
+    next_check: "2026-08-24"
   - id: K151-TYPED-CARRIER-RED
     title: K-lane's selected-k151 artifact needs its gu-typed-objects block or exemption
     origin: typed-carrier gate first live red; binding memo landed 2026-08-17
