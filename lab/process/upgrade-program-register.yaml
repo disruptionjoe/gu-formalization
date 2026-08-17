@@ -101,8 +101,8 @@ items:
     title: Mechanical cwd guard in repo-session-sync.sh (3 violations in one day despite documented rule)
     origin: session 015qsi; enforcement-not-visibility failure class
     owner: Joe (kernel is Codex-approval load-bearing)
-    status: QUEUED
-    activation: Joe's call
+    status: DONE
+    activation: "receipt: Joe approved 2026-08-17; system-runtime@9ec7a64 -- the script self-locates the checkout root and normalizes cwd, invocation byte-identical, from-root behavior proved byte-identical, wrong-cwd via absolute path now works with a stderr note"
     next_check: "2026-08-31"
   - id: VPSB-HOMONYM-KIND
     title: Decide whether v_PSB register entry kind should be near_collision (touches FX-3 pins)
