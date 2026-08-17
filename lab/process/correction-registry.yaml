@@ -99,3 +99,337 @@ corrections:
       lower-order Ward-obligation and gauge-cohomology readings; retain
       168/168 only as raw null principal-symbol quotient dimensions.
     enforce: false
+
+# =========================================================================
+# canonical_source_corrections  --  ADDED 2026-08-17 by CT-5 (ct-hardening).
+#
+# A SECOND, INDEPENDENT top-level key.  It is deliberately NOT part of
+# `corrections:` above, because `process_gates/correction_propagation_audit.py`
+# reads `data["corrections"]` and nothing else: this block is invisible to that
+# gate by construction, and the identity of its before/after output is proved
+# rather than hoped for (CT-5 section 5).
+#
+# WHY A SECOND CLASS EXISTS.  `corrections:` propagates along CITATION edges:
+# "if you cite the owner, acknowledge the correction."  That mechanism cannot
+# reach a document written BEFORE the correction existed, because such a
+# document never cites its owner -- there is no edge to walk.  That is not a
+# tuning failure, it is a reachability proof, and it is exactly the class the
+# Z/3 receptacle packet (2026-08-11) fell into: it engaged a route the week's
+# 2+1 sharpening later superseded, cited nothing that had been corrected, and
+# no gate could see it.
+#
+# A `canonical_source_correction` therefore propagates along CONSUMPTION edges
+# instead: it carries a `canonical_since` date and a greppable topic SIGNATURE,
+# and every document DATED EARLIER whose text matches the signature is DIRTY
+# for it until a check is recorded in
+# `lab/process/canonical-currency-checks.yaml`.  Read by
+# `process_gates/canonical_currency_audit.py`.
+#
+# THE CEILING, STATED ONCE HERE AND AGAIN PER ENTRY.  A signature is a
+# co-occurrence test over lowercased substrings, not a parse and not a
+# semantic model.  It has ONE-TOKEN BLINDNESS: a document that consumes the
+# superseded reading using vocabulary outside every listed family is INVISIBLE
+# to this mechanism, and a document that mentions the tokens without consuming
+# the reading is a false positive.  This is the alias-table lesson: the
+# instrument measures the lexicon it was given.  Each entry therefore carries
+# `blindness:` (what escapes) and `known_synonyms_outside_signature:` (synonym
+# families that were considered and deliberately NOT admitted, with the
+# reason).  Deliberately-excluded tokens are excluded for PRECISION, and every
+# one of them is a hole; they are listed so the hole is countable.
+#
+# SEED PROVENANCE.  All ten entries are transcribed -- not re-derived -- from
+# the ten-item correction register of
+# `lab/active-research/joe-directed/source-currency/`
+# `scur1-source-currency-audit-2026-08-17.md` section 1, whose every item was
+# byte-verified at its owner file by SCUR-1 (10/10, zero divergences).  The
+# `register_item` field is that table's row number.
+# =========================================================================
+canonical_source_corrections:
+  - id: CC-01-MET-X-ARGUMENT
+    entry_class: canonical_source_correction
+    register_item: 1
+    canonical_since: '2026-08-15'
+    owner: lab/active-research/joe-directed/base-duality/bd-c-met-x-is-an-argument-not-a-background-2026-08-15.md
+    superseded_reading: >-
+      That X^4 carries a canonical or background metric supplied to the theory,
+      rather than MET(X^{1,3}) being the SECOND ARGUMENT of the first action --
+      a canonical metric on X^4 is refused as purpose, by design.
+    signature:
+      match: all_families
+      token_families:
+        - ["met(x", "metric on x", "metric on the base", "x^4 metric", "x⁴ metric"]
+        - ["background metric", "canonical metric", "fixed metric", "chosen metric",
+           "given metric", "background geometry", "preferred metric"]
+      blindness: >-
+        A document that treats X^4's metric as ambient furniture without ever
+        writing one of the seven qualifier tokens -- e.g. by saying only "the
+        spacetime metric g" and using it as a background -- matches nothing and
+        stays invisible.
+      known_synonyms_outside_signature:
+        - "'spacetime metric' / 'the metric g' -- rejected: fires on essentially every
+           geometry file, so admitting it would swamp the dirty set with non-consumers"
+        - "'Lorentzian metric' -- rejected for the same frequency reason"
+  - id: CC-02-OBSERVED-POSITIVITY-OPEN
+    entry_class: canonical_source_correction
+    register_item: 2
+    canonical_since: '2026-08-15'
+    owner: lab/active-research/joe-directed/integration-review/session-015qsi-coherence-integration-repair-2026-08-15.md
+    owner_locus: "IV-20260815 section 3.1"
+    superseded_reading: >-
+      That the source DISAVOWS positivity, so positivity on an observed
+      physical quotient is excluded -- when the ambient indefinite
+      Killing/Krein structure is what is source-attested and observed-quotient
+      positivity is source-OPEN, not disavowed.
+    signature:
+      match: all_families
+      token_families:
+        - ["krein", "indefinite", "killing form"]
+        - ["positivity", "positive-definite", "positive definite"]
+        - ["do not look for", "positivity fails", "positivity is excluded",
+           "positivity is ruled out", "cannot be positive", "never positive",
+           "positivity is forbidden", "forbids positivity", "positivity disavowed",
+           "disavows positivity", "positivity is precluded"]
+      blindness: >-
+        The third family is a list of DISAVOWAL PHRASINGS; English has
+        unboundedly many. A file asserting the withdrawn reading as "there is
+        no positive-definite sector here" or "unitarity is not available"
+        escapes entirely.
+      known_synonyms_outside_signature:
+        - "'no positivity' -- MEASURED at 70 pre-date files and rejected: it fires
+           inside neutral phrasings like 'no positivity requirement is imposed',
+           which is the opposite of the superseded reading"
+        - "'forbidden' / 'excluded' / 'cannot' bare -- rejected as ubiquitous"
+  - id: CC-03-FOUR-CORNER-NONCHIRAL
+    entry_class: canonical_source_correction
+    register_item: 3
+    canonical_since: '2026-08-15'
+    owner: lab/active-research/joe-directed/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md
+    superseded_reading: >-
+      That the source's total fermionic declaration is one subscripted Weyl
+      object with a reality condition supplied -- when it is unsubscripted,
+      four corners (nu±, zeta±), non-chiral, the reality condition is
+      source-SILENT, and SC-GEN-55's Weyl pullback and SC-GEN-56's
+      package-to-three are DIFFERENT LAYERS.
+    signature:
+      match: all_families
+      token_families:
+        - ["total fermionic", "fermionic declaration", "four corners",
+           "total declaration", "fermion content of the source"]
+        - ["majorana", "reality condition", "single weyl", "one weyl",
+           "weyl pullback", "non-chiral", "nonchiral"]
+      blindness: >-
+        The first family is deliberately narrow (five phrases naming the
+        declaration AS an object). A file that assumes a single Weyl carrier
+        while only ever writing "the spinor bundle" or "psi" is invisible.
+        This entry's live dirty set is correspondingly small; that is a recall
+        statement, not a cleanliness statement.
+      known_synonyms_outside_signature:
+        - "'spinor' / 'Weyl' bare -- rejected: several hundred pre-date files, no
+           discrimination"
+        - "'16 + 16bar' -- rejected: it is comparator-carrier vocabulary and would
+           pull in the entire SO(10) comparator literature, which CC-06 already
+           addresses at the mechanism layer"
+  - id: CC-04-NORMAL-BUNDLE-RIGHT-CHAIN
+    entry_class: canonical_source_correction
+    register_item: 4
+    canonical_since: '2026-08-15'
+    owner: lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md
+    superseded_reading: >-
+      That GU contains a grand unification whose gauge group is the object to
+      identify -- when the source says "There is no grand unification. It's
+      just a normal bundle in your ambient space" (drafts L125) and the right
+      chain is structure-group reductions of ONE rank-10 normal bundle, with
+      SU(3,2) best-supported at RECONSTRUCTION grade (audio confirmation owed).
+    signature:
+      match: all_families
+      token_families:
+        - ["grand unification", "gauge group of the theory", "unification group",
+           "observed structure group"]
+        - ["normal bundle", "su(3,2)", "right chain", "rank-10", "rank 10"]
+      blindness: >-
+        Requires BOTH the unification framing AND a chain token in the same
+        file. A document that silently assumes a GUT group without using the
+        phrase "grand unification" -- writing only "SO(10)" or "the unified
+        group" -- escapes.
+      known_synonyms_outside_signature:
+        - "'GUT' -- rejected: three letters, fires inside unrelated substrings"
+        - "'SO(10)' / 'Pati-Salam' -- rejected: these are legitimately named
+           comparators throughout the repo and carry their own routing fences"
+  - id: CC-05-SUBTRACTIVE-TWO-PLUS-ONE
+    entry_class: canonical_source_correction
+    register_item: 5
+    canonical_since: '2026-08-14'
+    owner: lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md
+    superseded_reading: >-
+      That three generations is an ADDITIVE target count a mechanism must
+      produce -- when the source says it is "really two plus one" with the
+      third family an imposter "for representation theoretic reasons" (drafts
+      L119/L128/L131) and HE-1 makes the partition FORCED and SUBTRACTIVE
+      (n_g -> n_g - 1, unlabelled, the distinguished family REMOVED).
+    signature:
+      match: all_families
+      token_families:
+        - ["three generations", "three-generation", "generation count",
+           "three families", "n_g"]
+        - ["2+1", "2plus1", "two plus one", "imposter", "third family",
+           "third generation"]
+        - ["count invariant", "receptacle", "derive the count", "produce the count",
+           "forces three", "z/3", "additive", "selects three"]
+      blindness: >-
+        Three families conjoined: a file must name the count, name the 2+1 or
+        imposter structure, AND frame count PRODUCTION. A file that assumes an
+        additive three without ever writing "2+1", "imposter" or "third
+        family" -- which is the common case in older index work -- is
+        invisible. This is the entry the Z/3 packet fires on, and it is also
+        the entry with the largest known escape surface.
+      known_synonyms_outside_signature:
+        - "'generation' bare -- rejected: several hundred pre-date files"
+        - "'three' / '3 families' numeral forms -- rejected: numeral-only matching
+           is indiscriminate"
+        - "'net chirality' / 'chiral count' -- rejected here because it is the
+           count-CARRIER topic rather than the partition topic; it is a real hole"
+  - id: CC-06-CHIRALITY-VEV-CONDITIONAL
+    entry_class: canonical_source_correction
+    register_item: 6
+    canonical_since: '2026-08-16'
+    owner: lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md
+    co_owners:
+      - lab/sources/source-claim-register.yaml
+    owner_locus: "ST-1 V1 row binding SC-CHI-01's varpi hedge to SG4 bit 2"
+    superseded_reading: >-
+      That the source has no stated effective-chirality mechanism, or that
+      chirality can only come from an unbuilt mirror-gapping condensate --
+      when observed chirality is VEV-CONDITIONAL ("exactly three families of
+      chiral fermions if you have a decreased VEV ... taking a Dirac equation
+      into two [Weyl] equations", drafts L158 / ucsd 00:46:02) and the
+      selector is SG4 bit 2, OPEN by design.
+    signature:
+      match: all_families
+      token_families:
+        - ["chirality mechanism", "effective chirality", "chiral sectors",
+           "produces chirality", "chirality is produced", "source's stated mechanism"]
+        - ["vev", "vacuum expectation", "condensate", "symmetry breaking", "decoupling"]
+      blindness: >-
+        The first family names the mechanism AS a mechanism. A document that
+        forecloses the source's route implicitly -- by listing chirality
+        origins without ever writing "chirality mechanism" or "effective
+        chirality" -- escapes.
+      known_synonyms_outside_signature:
+        - "'chirality' / 'chiral' bare -- rejected: measured at 315 pre-date files
+           under a looser draft of this entry, dominated by non-consumers"
+        - "'mirror-gapping' -- deliberately NOT required: requiring it would make the
+           signature match only the exact sentence SCUR-1 already found by hand,
+           which is the failure mode this entry exists to avoid"
+  - id: CC-07-CONTRACTION-NOT-KK
+    entry_class: canonical_source_correction
+    register_item: 7
+    canonical_since: '2026-08-14'
+    owner: lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md
+    co_owners:
+      - lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md
+    owner_locus: >-
+      MD-1 (2026-08-14) is register item 7's upstream and sets canonical_since;
+      VZ-4 (2026-08-15) is the canon-integrated confirmation, V3c KILLED in
+      every gauge.
+    superseded_reading: >-
+      That observation reduces by a Kaluza-Klein-style mode split in which
+      normal one-form components descend to 4D scalars -- when the reduction is
+      a CONTRACTION sending every ad-valued one-form on Y^14 to exactly ONE 4D
+      one-form, no component descends to a 4D scalar, and the source disavows
+      the reading outright ("It's not Kaluza Klein.", drafts L29).
+    signature:
+      match: all_families
+      token_families:
+        - ["kaluza", "kaluza-klein", "kk reduction", "kk mode", "dimensional reduction",
+           "mode decomposition", "zero mode"]
+        - ["4d scalar", "4d scalars", "four-dimensional scalar", "vertical leg",
+           "vertical form leg", "scalar components", "descends to a 4d",
+           "lorentz-scalar component"]
+      blindness: >-
+        Requires a reduction word AND a descended-scalar word. A file that
+        performs the superseded mode split in coordinates -- writing only
+        "psi_mu and psi_ab" and treating the second as a 4D scalar -- matches
+        neither family.
+      known_synonyms_outside_signature:
+        - "' KK ' bare -- rejected: too short, collides inside identifiers"
+        - "'compactification' -- rejected: the repo's compactification literature is
+           largely comparator work with its own fences"
+  - id: CC-08-DARK-PARTNER-OBLIGATION
+    entry_class: canonical_source_correction
+    register_item: 8
+    canonical_since: '2026-08-15'
+    owner: lab/sources/source-claim-register.yaml
+    owner_locus: "SC-FER-03 (source-claim-register.yaml:780-786); IV-20260815 section 3.3"
+    superseded_reading: >-
+      That the 128 remainder is an established DEFECT of the construction --
+      when the source NAMES dark sectors (Looking-Glass, dark spinorial,
+      "Rarita-Schwinger matter and more") and the remainder is a
+      partner-placement / decoupling OBLIGATION, not an established defect.
+    signature:
+      match: all_families
+      token_families:
+        - ["128 remainder", "remaining 128", "leftover 128", "128 unaccounted",
+           "128 states", "looking glass", "looking-glass", "dark spinorial"]
+        - ["unaccounted", "unexplained", "defect", "surplus", "embarrassment",
+           "disposal", "spurious", "excess", "remainder", "problem"]
+      blindness: >-
+        The narrowest entry here, and knowingly so. Its first family names the
+        remainder AS an object; a file that calls the same states "the rest of
+        the 256" or discusses them by representation label only is invisible.
+      known_synonyms_outside_signature:
+        - "'Rarita' -- MEASURED at 295 pre-date files and rejected: Rarita-Schwinger
+           is standing vocabulary across the whole repo and discriminates nothing"
+        - "'the 128' -- MEASURED at 58 pre-date files and rejected: it fires on every
+           dimension count that happens to be 128"
+        - "'dark sector' -- MEASURED at 13 and rejected: it is dominated by dark-energy
+           cosmology usage unrelated to the fermionic remainder"
+  - id: CC-09-YUKAWA-REPULSIVE-SIGN
+    entry_class: canonical_source_correction
+    register_item: 9
+    canonical_since: '2026-08-15'
+    owner: lab/active-research/joe-directed/h10-remediation/h105-stelle-ghost-sign-2026-08-15.md
+    superseded_reading: >-
+      That GU's massive-spin-2 Yukawa coefficient is +1/3 and ATTRACTIVE --
+      when H10-5 establishes alpha_Y = -4/3, REPULSIVE.
+    signature:
+      match: all_families
+      token_families:
+        - ["yukawa coefficient", "yukawa coupling", "massive spin-2", "massive spin 2",
+           "spin-2 yukawa", "alpha_y"]
+        - ["+1/3", "1/3", "-4/3", "4/3", "attractive", "repulsive"]
+      blindness: >-
+        The second family includes bare "1/3" and "4/3", which is loose by
+        design (a sign error is exactly the thing a narrow signature would
+        miss); the first family carries the precision. A file quoting the
+        coefficient as a decimal, or as "one third", escapes.
+      known_synonyms_outside_signature:
+        - "'0.333' / 'one third' decimal and word forms -- not admitted; a real hole"
+        - "'graviton' bare -- rejected as ubiquitous"
+  - id: CC-10-UCSD-EDITED-DERIVATIVE
+    entry_class: canonical_source_correction
+    register_item: 10
+    canonical_since: '2026-08-15'
+    owner: lab/literature/weinstein-ucsd-2025-04-transcript.md
+    owner_locus: "provenance banner L20-25 ('edited derivative'); drafts L155"
+    superseded_reading: >-
+      That the repository's UCSD 2025-04 transcript copy is a PRIMARY SOURCE --
+      when it is an EDITED DERIVATIVE whose chain sentence at [00:45:00] had to
+      be restored on 2026-08-15 and whose audio confirmation is still owed.
+    signature:
+      match: all_families
+      token_families:
+        - ["weinstein-ucsd", "ucsd-2025-04", "ucsd transcript", "ucsd talk"]
+        - ["primary_source", "is a primary source", "the primary source",
+           "as primary source", "primary-source"]
+      blindness: >-
+        Co-occurrence only: a file whose `primary_source:` field names a
+        DIFFERENT document while the UCSD transcript appears elsewhere in the
+        same file is a false positive, and a file that quotes the transcript as
+        authoritative without ever writing "primary source" is a false
+        negative. This entry is the clearest demonstration that the signature
+        is a co-occurrence test, not a parse.
+      known_synonyms_outside_signature:
+        - "'authoritative' -- MEASURED at 65 pre-date files and rejected as
+           generic-prose noise"
+        - "'verbatim' / 'quote' -- rejected: they are the repo's standard evidence
+           vocabulary and fire nearly everywhere"

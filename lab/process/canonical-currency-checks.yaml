@@ -1,0 +1,412 @@
+# Recorded currency checks -- the sidecar to `canonical_source_corrections:` in
+# lab/process/correction-registry.yaml.  Read by
+# process_gates/canonical_currency_audit.py.
+#
+# WHAT A RECORD MEANS.  A document that predates a canonical correction and
+# matches its signature is DIRTY until somebody looks.  A record here says
+# somebody looked, and what they found.  This file is therefore the ONLY place
+# where hand adjudication accumulates instead of evaporating: three days of
+# SCUR-1/FIX-A reading is banked below, and a future correction re-dirties every
+# document it covers, because an `ALL-REGISTER` record only clears corrections
+# whose `canonical_since` is on or before the record's own date.
+#
+# RECORD SCHEMA
+#   file           repo-relative path; must exist (gate is RED otherwise)
+#   correction_id  a `canonical_source_corrections` id, or the token
+#                  ALL-REGISTER, meaning "adjudicated against the whole
+#                  canonical register as it stood on `date`"
+#   verdict        one of
+#                    CLEARED-CONSISTENT  predates the correction and does not
+#                                        consume the superseded reading
+#                    FENCED-COMPARATOR   consumes comparator-shaped content but
+#                                        carries an explicit routing fence, so
+#                                        it is scoped, not stale
+#                    STALE-FOUND         genuinely consumes the superseded
+#                                        reading; requires `pointer:`.  This
+#                                        verdict does NOT clear: it converts
+#                                        DIRTY-UNCHECKED into DIRTY-KNOWN-STALE
+#                    SUPERSEDED-DOC      the document itself is retired, so its
+#                                        staleness is not a live consumption risk
+#   date           ISO date the check was made
+#   by             the work item that made it
+#   pointer        required for STALE-FOUND: where the finding is written down
+#   note           free text
+#
+# PRECEDENCE (implemented in the gate, not inferred here)
+#   1. a record scoped to the exact correction id wins over an ALL-REGISTER one
+#   2. at equal scope, a clearing verdict wins over STALE-FOUND -- that is how a
+#      repair (FIX-A) retires a finding (SCUR-1) without deleting the finding
+#
+# SEED PROVENANCE.  Everything below the `checks:` key is transcribed from
+# `lab/active-research/joe-directed/source-currency/scur1-source-currency-audit-2026-08-17.md`
+# (section 2's per-document verdict table, section 3's five findings, section 5's
+# CB-pack table) and
+# `lab/active-research/joe-directed/source-currency/fixa-cb-corrections-applied-2026-08-17.md`
+# (section 2's five applied blocks).  Nothing here is a fresh adjudication by
+# CT-5; CT-5 transcribed and typed, it did not re-read the corpus.
+#
+# SCUR-1's type key maps onto the verdict vocabulary as:
+#   PREDATES-BUT-CONSISTENT -> CLEARED-CONSISTENT
+#   ALREADY-CORRECTED       -> CLEARED-CONSISTENT
+#   DELIBERATE-COMPARATOR   -> FENCED-COMPARATOR
+#   VIOLATES-CORRECTION     -> STALE-FOUND
+# SUPERSEDED-DOC is supported by the gate and is deliberately UNUSED in the seed:
+# SCUR-1 typed no audited document as superseded, and inventing one to exercise
+# the vocabulary would be a false record.  The verdict's machinery is exercised
+# in the probe's planted cases instead.
+
+checks:
+
+  # -----------------------------------------------------------------------
+  # A. SCUR-1's per-document verdicts, 2026-08-17.
+  #    Each document below was audited against the full ten-item register,
+  #    which is what ALL-REGISTER records.
+  # -----------------------------------------------------------------------
+
+  # --- the conditional-build pack (SCUR-1 section 5) ---
+  - file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      "stale at 3 sentences (V1, V2, V5), sound elsewhere". This ALL-REGISTER
+      record carries the REMAINDER only; the three findings are recorded
+      per-correction in block B and override this record at their own scope.
+  - file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      "stale at 2 sentences (V3, V4), sound elsewhere". Remainder only; see
+      block B.
+  - file: explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      "current at its scope" -- signature-independent characteristic-class
+      algebra that already quotes the non-chiral draft posture. One OMISSION
+      inherited to the mint (U4's mechanism menu omits the source's named
+      route); an omission is not a consumption of the superseded reading.
+  - file: explorations/conditional-build/cb-d-parameterizing-the-unknown-2026-08-05.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      "current at its scope" -- the pack's best fence-carrier (M-H2 both
+      readings open, per-horn branching, homonym typings).
+  - file: explorations/conditional-build/cb-e-source-contact-rows-2026-08-05.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      ALREADY-CORRECTED; SCUR-1's declared CONTRARY CONTROL. Carries its own
+      dated CORRECTION E3/E9 (2026-08-05) on exactly the failure mode this
+      register hunts. The detector must not fire on it.
+
+  # --- process and standing-reference surfaces (SCUR-1 section 2) ---
+  - file: lab/process/path-dependencies.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      PREDATES-BUT-CONSISTENT, with a SUPERSESSION-WATCH that is NOT a
+      violation: PD-SIGNATURE-PARITY step 7's "three generations is ODD"
+      conclusion plausibly fires the chain's own pre-declared invalidation
+      clause under HE-1's subtractive partition. The clause anticipated the
+      shape, so the document is consistent; the cross-check is SCUR-1 section 6
+      item 7 and was run by the parity-crosscheck lane (PCX-1).
+  - file: lab/process/layer0-fork-registry.yaml
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      No horn text asserts a corrected fact. TWO-IN-REPO-2PLUS1 stays honestly
+      "Unadjudicated"; an HE-1 pointer is inherited to the registry steward.
+  - file: lab/specifications/six-axis/six-axis-template.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      Mechanism-agnostic scaffolding; its one imposter mention marks
+      "generation" UNCERTAIN, which is still correct after HE-1 (whose
+      partition is UNLABELLED by its own fence).
+  - file: GEOMETER-VS-PHYSICS-OBJECTS.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      ALREADY-CORRECTED at the Higgs/VEV clause (WITHDRAWN 2026-08-15); the
+      generation/chirality-mechanism, symmetry-breaking and imposter rows carry
+      the corrected postures. The ghost-clearance row SURVIVED hostile review
+      as a withdrawn first-draft VIOLATES call (SCUR-1 section 4) -- recorded
+      here so the withdrawal is banked, not merely absent.
+  - file: CURRENT-STATE.yaml
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: 'narrative surfaces are post-correction, hourly-writer-owned'
+  - file: NEXT-STEPS.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: '08-16/17 K-series queue heads; no pre-correction narrative at the head'
+
+  # --- the twelve 2026-08-14 borderline artifacts (SCUR-1 section 2) ---
+  - file: lab/active-research/joe-directed/baryon-number-and-proton-decay/bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-17'
+    by: SCUR-1
+    note: 'DELIBERATE-COMPARATOR, routing notice PRESENT (BRIDGE_OR_SEMANTIC_BOUNDARY)'
+  - file: lab/active-research/joe-directed/coupling-unification/cu1-left-right-degeneracy-forbids-unification-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      DELIBERATE-COMPARATOR, fence PRESENT, target_claim NONE-NOT-A-KILL. One
+      mint item inherited: its PS->SM matching predates SC-A's chain and should
+      be re-read against the SU(3,2) middle term once the audio check lands.
+  - file: lab/active-research/joe-directed/cosmological-constant-sign/cc1-killing-signature-cannot-sign-lambda-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      Content-consistent (claim-indexed against SC-COS-01). Routing notice
+      ABSENT -- one of the four standing method violations already inside
+      source_native_comparator_routing_audit's UNCLASSIFIED baseline of 5.
+      That is a ROUTING debt, not a currency debt, and is the routing gate's.
+  - file: lab/active-research/joe-directed/coset-versus-gauge/cg1-p-is-a-declared-coset-not-a-gauge-sector-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      Source-typing that SEEDS the register-2 posture (maximal-compact
+      reduction "DECLARED but not DERIVED"). Routing notice ABSENT, same known
+      baseline four.
+  - file: lab/active-research/joe-directed/metric-cone-boundedness/mc1-the-cone-does-not-bound-and-the-negative-direction-is-the-cone-itself-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      Adjudicates a misaimed critique correctly. Routing notice ABSENT, same
+      known baseline four.
+  - file: lab/active-research/joe-directed/majorana-126-neutrino/mj1-exact-126-majorana-block-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      Routing notice PRESENT; pack-level ALREADY-CORRECTED by SRC-1, filed the
+      same day, which renames the arc's target in as many words.
+  - file: lab/active-research/joe-directed/majorana-126-neutrino/mj2-no-native-126-carrier-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-17'
+    by: SCUR-1
+    note: 'routing notice PRESENT; pack-level ALREADY-CORRECTED by SRC-1'
+  - file: lab/active-research/joe-directed/majorana-126-neutrino/mj3-4-source-vev-channel-and-twenty-lens-hypothesis-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      Routing notice PRESENT. Its premise "the source's single declared VEV
+      channel (spin-0 eps)" IS superseded (SC-CHI-01 conditions on varpi
+      sub-fields; ST-1 treats both declared bosonic slots) -- covered in-pack
+      by SRC-1 and inherited to the mint, which is why SCUR-1 typed the
+      document fenced rather than stale.
+  - file: lab/active-research/joe-directed/majorana-126-neutrino/mj5-b-minus-l-exactly-preserved-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-17'
+    by: SCUR-1
+    note: 'routing notice PRESENT; pack-level ALREADY-CORRECTED by SRC-1'
+  - file: lab/active-research/joe-directed/majorana-126-neutrino/sg4-1-minimal-carrier-constraint-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-17'
+    by: SCUR-1
+    note: 'routing notice PRESENT; pack-level ALREADY-CORRECTED by SRC-1'
+  - file: lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      Correction-ORIGINATING: MD-1 is CC-07's own owner and the standard the
+      E2/SM-6 findings are measured against. Routing notice ABSENT, same known
+      baseline four.
+  - file: lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md
+    correction_id: ALL-REGISTER
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: SCUR-1
+    note: >-
+      CC-05's own owner; audited only for internal consistency with its own
+      fences, and consistent.
+
+  # -----------------------------------------------------------------------
+  # B. SCUR-1's five VIOLATES-CORRECTION findings, per-correction.
+  #    Six (file, correction) pairs, because V4 violates two register items.
+  #    These OVERRIDE the ALL-REGISTER remainder records above at their scope.
+  # -----------------------------------------------------------------------
+  - file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md
+    correction_id: CC-06-CHIRALITY-VEV-CONDITIONAL
+    verdict: STALE-FOUND
+    date: '2026-08-17'
+    by: SCUR-1
+    pointer: 'SCUR-1 section 3, finding V1 (severity HIGH); loci cb-a:5, :42, :315'
+    note: >-
+      "the source's stated mechanism -- VEV/low-curvature mass decoupling into
+      chiral sectors -- cannot work". Register 6 primary, with 3 and 8
+      supporting. The Schur mathematics is banked and untouched.
+  - file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md
+    correction_id: CC-07-CONTRACTION-NOT-KK
+    verdict: STALE-FOUND
+    date: '2026-08-17'
+    by: SCUR-1
+    pointer: 'SCUR-1 section 3, finding V2 (severity HIGH); locus cb-a:407'
+    note: >-
+      "the Lorentz-scalar components are exactly those with both legs vertical"
+      plus "the Higgs must consume the vertical form leg". The branching
+      multiplicities are banked.
+  - file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md
+    correction_id: CC-05-SUBTRACTIVE-TWO-PLUS-ONE
+    verdict: STALE-FOUND
+    date: '2026-08-17'
+    by: SCUR-1
+    pointer: 'SCUR-1 section 3, finding V5 (severity LOW); locus cb-a:473'
+    note: >-
+      "GU has no mechanism that could make generation 2 differ in rep content".
+      SCUR-1's own closest call: the row-context conditional fence nearly won.
+  - file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    correction_id: CC-07-CONTRACTION-NOT-KK
+    verdict: STALE-FOUND
+    date: '2026-08-17'
+    by: SCUR-1
+    pointer: 'SCUR-1 section 3, finding V3 (severity MODERATE); locus cb-b:959'
+    note: >-
+      "Lambda^1(V_14) gives Lambda^1(V_4) plus ten 4D scalars" as the factual
+      setting of the SM-6 bridge question. The bridge QUESTION survives.
+  - file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    correction_id: CC-06-CHIRALITY-VEV-CONDITIONAL
+    verdict: STALE-FOUND
+    date: '2026-08-17'
+    by: SCUR-1
+    pointer: 'SCUR-1 section 3, finding V4 (severity LOW-MODERATE); locus cb-b:1131-1132'
+    note: >-
+      "chirality is produced only by an unbuilt mirror-gapping condensate" --
+      the "only" forecloses the source's named route.
+  - file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    correction_id: CC-08-DARK-PARTNER-OBLIGATION
+    verdict: STALE-FOUND
+    date: '2026-08-17'
+    by: SCUR-1
+    pointer: 'SCUR-1 section 3, finding V4 (severity LOW-MODERATE); locus cb-b:1131-1132'
+    note: >-
+      The same sentence also violates register 8: dark-sector partner placement
+      is an obligation, not an unavailable route.
+
+  # -----------------------------------------------------------------------
+  # C. FIX-A's applied correction blocks, 2026-08-17.
+  #    Five append-only blocks; six (file, correction) pairs repaired, because
+  #    the single V4 block discharges both CC-06 and CC-08.
+  #    These clear the block-B findings by the precedence rule.
+  # -----------------------------------------------------------------------
+  - file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md
+    correction_id: CC-06-CHIRALITY-VEV-CONDITIONAL
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: FIX-A
+    note: >-
+      FIX-A block V1 applied: title clause, source_collision token and row D2
+      struck byte-exact (never deleted), G2 scope-re-set, corrected to "the
+      exclusion binds a G_SM-preserving mass mechanism on the conjugate-pair
+      comparator carrier ... NOT excluded by this row".
+  - file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md
+    correction_id: CC-07-CONTRACTION-NOT-KK
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: FIX-A
+    note: >-
+      FIX-A block V2 applied: row E2 both cells struck and section-8 row (iii)'s
+      verbatim restatement struck with it; corrected to the contraction reading
+      (MD-1, VZ-4).
+  - file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md
+    correction_id: CC-05-SUBTRACTIVE-TWO-PLUS-ONE
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: FIX-A
+    note: >-
+      FIX-A block V5 applied: the replica-absolutism clause struck; SCUR-1's
+      two-sided caveat quoted verbatim inside the block rather than smoothed.
+      Verdict cell "SAME (conditionally on U5 acting by multiplicity)" untouched.
+  - file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    correction_id: CC-07-CONTRACTION-NOT-KK
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: FIX-A
+    note: >-
+      FIX-A block V3 applied: the ten-4D-scalars clause struck at :959 and
+      section 6.4 item 4 given the dated compute-on-the-contraction note.
+  - file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    correction_id: CC-06-CHIRALITY-VEV-CONDITIONAL
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: FIX-A
+    note: >-
+      FIX-A block V4 applied: "only by an unbuilt mirror-gapping condensate"
+      struck, corrected to the SG4-bit-2 selector plus partner-placement
+      obligation with the subtractive 2+1.
+  - file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md
+    correction_id: CC-08-DARK-PARTNER-OBLIGATION
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: FIX-A
+    note: >-
+      Same FIX-A block V4; it discharges the register-8 leg (dark-sector partner
+      placement named as the obligation) as well as the register-6 leg.
+
+# -------------------------------------------------------------------------
+# RATCHET BASELINE.  Per correction: the dirty count measured when the
+# correction's 7-day grace period is armed.  The gate is RED if the dirty count
+# for a correction OLDER THAN `grace_days` exceeds its baseline here.
+#
+# Corrections younger than the grace period are inside grace: their dirty count
+# may still grow while the corpus is being adjudicated, and the gate says so
+# every run instead of pretending to guard.  On 2026-08-17 ALL TEN entries are
+# 1-3 days old, so the ratchet is ARMED-BUT-VACUOUS today and starts biting on
+# 2026-08-21 for CC-05/CC-07.  The numbers below are the measured counts on
+# 2026-08-17 with the seed above applied; they were produced by the gate, not
+# by hand.
+# -------------------------------------------------------------------------
+ratchet:
+  grace_days: 7
+  baseline_measured_on: '2026-08-17'
+  baseline:
+    CC-01-MET-X-ARGUMENT: 22
+    CC-02-OBSERVED-POSITIVITY-OPEN: 11
+    CC-03-FOUR-CORNER-NONCHIRAL: 2
+    CC-04-NORMAL-BUNDLE-RIGHT-CHAIN: 2
+    CC-05-SUBTRACTIVE-TWO-PLUS-ONE: 40
+    CC-06-CHIRALITY-VEV-CONDITIONAL: 27
+    CC-07-CONTRACTION-NOT-KK: 5
+    CC-08-DARK-PARTNER-OBLIGATION: 6
+    CC-09-YUKAWA-REPULSIVE-SIGN: 28
+    CC-10-UCSD-EDITED-DERIVATIVE: 45

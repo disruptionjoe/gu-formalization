@@ -51,8 +51,16 @@ items:
     title: Canonical-correction dirty-bit propagation gate (consumer edges; SCUR-1 seed)
     origin: CT step 5; SCUR-1 hand-computed seed; canonical-currency bindings 2026-08-17
     owner: joe-directed ct-hardening wave
-    status: ACTIVE
-    activation: "CT-1 landed 2026-08-17; launched stage B"
+    status: DONE
+    activation: "receipt: ct5 -- ten canonical entries seeded, 35 cleared records, 188-pair dirty set printed every run, Z/3 both-states proof, 17% measured signature miss printed, ratchet first bites 2026-08-21"
+    next_check: "2026-08-19"
+  - id: CC-DIRTY-QUEUE-DRAIN
+    title: "Drain the 188-pair dirty queue, steering surfaces first (CURRENT-RESEARCH-CONTEXT, two generation-count canon files under CC-05, the s9 extraction under CC-08); ratchet bites 2026-08-21"
+    origin: ct5 dirty-set census
+    owner: steward passes + any agent consuming a listed file (clear-on-consume per the preflight input-currency clause)
+    status: QUEUED
+    activation: continuous; ratchet enforcement from 2026-08-21
+    next_check: "2026-08-21"
     next_check: "2026-08-19"
   - id: LEDGER-FULL-ROW-RETYPE
     title: Full (layer, grant, carrier) retype of all v0.259 rows (beyond mint-touched accretion)
