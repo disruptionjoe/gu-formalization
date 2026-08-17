@@ -15,36 +15,36 @@ items:
     title: Base-category reference (Layer, Grant, Carrier — objects and arrows, once)
     origin: session 015qsi CT assessment; incidents receipted per object
     owner: joe-directed ct-hardening wave
-    status: ACTIVE
-    activation: launched 2026-08-17 (stage A of the CT wave)
+    status: DONE
+    activation: "receipt: lab/methods/gu-base-categories.md + ct1-base-categories-2026-08-17.md, 99/99, codomains wired to the typed-carrier gate"
     next_check: "2026-08-19"
   - id: CT-2-MINT-PROJECTION
     title: Non-retroactive (layer, grant, carrier) projection on every mint-touched ledger row
     origin: CT step 2 partial; FX-2 pattern
     owner: joe-directed ct-hardening wave
-    status: QUEUED
-    activation: CT-1 lands (needs the closed codomains)
+    status: ACTIVE
+    activation: "CT-1 landed 2026-08-17; launched stage B"
     next_check: "2026-08-19"
   - id: CT-3-MORPHISM-UPGRADE
     title: FX-1 needs/provides extraction upgraded to typed dom/cod records from CT-1 categories
     origin: CT step 3; v_PSB token-blindness receipt
     owner: joe-directed ct-hardening wave
-    status: QUEUED
-    activation: CT-1 lands
+    status: ACTIVE
+    activation: "CT-1 landed 2026-08-17; launched stage B"
     next_check: "2026-08-19"
   - id: CT-4-DIAGRAM-INVARIANT
     title: Dependency-diagram invariant gate (components/cycle rank on declared edges; stable under the 32-to-35 refinement)
     origin: CT step 4; LA-10 vocabulary-relativity receipt
     owner: joe-directed ct-hardening wave
-    status: ACTIVE
-    activation: launched 2026-08-17 (independent of CT-1)
+    status: DONE
+    activation: "receipt: ct4-dependency-diagram-invariant-2026-08-17.md — beta=87 stable under the 12->15 split; residual instability isolated to ONE contested edge (LT-GR4 -> A); half-earns-the-word verdict recorded"
     next_check: "2026-08-19"
   - id: CT-5-DIRTY-PROPAGATION
     title: Canonical-correction dirty-bit propagation gate (consumer edges; SCUR-1 seed)
     origin: CT step 5; SCUR-1 hand-computed seed; canonical-currency bindings 2026-08-17
     owner: joe-directed ct-hardening wave
-    status: QUEUED
-    activation: CT-1 lands
+    status: ACTIVE
+    activation: "CT-1 landed 2026-08-17; launched stage B"
     next_check: "2026-08-19"
   - id: LEDGER-FULL-ROW-RETYPE
     title: Full (layer, grant, carrier) retype of all v0.259 rows (beyond mint-touched accretion)
