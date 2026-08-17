@@ -137,6 +137,62 @@ items:
     status: QUEUED
     activation: any independent review pass
     next_check: "2026-08-24"
+  - id: UR-BIT2-TRANSPORT
+    title: "Spectral-transport fence: the signed count moves 21.8 units with ZERO crossings (gapped throughout) — any future bit-2 counting argument must address transport, not crossings"
+    origin: lda-sg4-bit2-type-and-transport-2026-08-17.md card 2 (LIVE-HIGH; one-liner mechanism falsified)
+    owner: joe-directed channels (fence first, theorem later)
+    status: QUEUED
+    activation: next counting-adjacent gate in channels 1/3
+    next_check: "2026-08-24"
+  - id: UR-BIT2-BASE
+    title: "R(y) position dependence: source states the transition location literally; canon requires the odd count external; walls are the named mechanism; ZERO wall-x-curvature co-occurrence in 7300 files"
+    origin: lda card 7 (LIVE-HIGH); SC-CHI-02 register locus
+    owner: joe-directed channels / reverse-scaffold series
+    status: QUEUED
+    activation: RS-WAVE-SERIES scoping (candidate arc)
+    next_check: "2026-08-24"
+  - id: SG4-BIT2-FORK-ENTRY
+    title: "Enter the bit-2 selector in layer0-fork-registry (depth counter reads zero on ten-file fan-out) + REQUIRED_FORK_IDS pin + IV-class settlement bar; general class: non-enrolment invisible to entry-iterating gates"
+    origin: ldd card 20 (LIVE-HIGH); sa1 first instance
+    owner: fork-registry owner / next mint
+    status: QUEUED
+    activation: next mint or steward pass
+    next_check: "2026-08-24"
+  - id: DISCHARGE-ORDER-NONMONOTONE
+    title: "Grant-discharge order matters: LA-5's own postflight witness (discharging AC-A1 kills AC-F3) contradicts its order-irrelevance claim; type the non-monotonicity"
+    origin: ldb card 5 (LIVE-HIGH)
+    owner: integration owner / next mint
+    status: QUEUED
+    activation: next mint
+    next_check: "2026-08-24"
+  - id: SRC-SCCHI-COUPLING-RULE
+    title: "Adverse-mechanism news must fire SC-CHI-01's hedge-watch: three dated misses (SRC-2/3/4 produced zero adherence pings); stability routes INTO the selector"
+    origin: ldc cards 6+16 (the consequential pair with card 18)
+    owner: source register owner / steward pass
+    status: QUEUED
+    activation: next steward pass
+    next_check: "2026-08-24"
+  - id: BIT1-PRICE-PRINT
+    title: "Print the bit-1 price on routing surfaces: consistency support is 3 corners, so CHIRAL implies PRESENT implies carrier A — the chiral grant collides with the B-tilt (banked 2026-07-10, printed nowhere post-ST-1)"
+    origin: ldc card 18
+    owner: canon SG4 surface owner / next mint
+    status: QUEUED
+    activation: next mint
+    next_check: "2026-08-24"
+  - id: CT1-LA3-WORDING
+    title: "gu-base-categories LA3 cell: two halves point opposite ways as written (hedge's decoupling holds AT the vanishing-VEV phase); one-sentence fix, probe pins to check"
+    origin: ldc incidental; CT-1 owns the file
+    owner: session owner (methods file)
+    status: QUEUED
+    activation: next lab/methods touch
+    next_check: "2026-08-24"
+  - id: LENS-DIG-REMAINING-PROPOSALS
+    title: "The LIVE-MODERATE proposals across all four dig artifacts (stratum, provenance, critical-location tension, opposite-binning convention, CHK-2 scheduling, R5 obligation, OVER_DETERMINED entry, grade-boundary typing) — each carded in its artifact section (v)"
+    origin: lda/ldb/ldc/ldd 2026-08-17, per-card tables
+    owner: joe-directed channels; adjudicated cards are the detailed home
+    status: QUEUED
+    activation: RS-WAVE-SERIES scoping reads the four card tables
+    next_check: "2026-08-24"
   - id: RS-WAVE-SERIES
     title: The reverse-scaffold wave series (rung-targeted physics waves; the agreed next program after hardening)
     origin: "Joe, 2026-08-17: after the procedural updates and fixes, the next waves to scaffold are the reverse scaffolding"
