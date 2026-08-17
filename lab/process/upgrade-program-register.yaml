@@ -84,18 +84,18 @@ items:
     activation: any independent review pass (IV-class)
     next_check: "2026-08-24"
   - id: SC-GRP-50-REGISTRATION
-    title: Register the chain claim SC-GRP-50 (drafted in SC-A)
-    origin: SC-A; blocked on the audio check
-    owner: Joe (audio verification), then source owner
+    title: Register the chain claim SC-GRP-50 (drafted in SC-A) at permanent transcript-uncertain grade
+    origin: SC-A; the audio path is closed (AUDIO-CHECK-00-45-00 DECLINED)
+    owner: source register owner (steward pass or mint)
     status: QUEUED
-    activation: audio check of the [00:45:00] sentence
-    next_check: "2026-08-31"
+    activation: "next steward pass or mint: SC-A's entry already carries the provenance caveat for both audio outcomes; with audio permanently unavailable the caveat becomes permanent rather than pending, and registration proceeds at reconstruction grade"
+    next_check: "2026-08-24"
   - id: AUDIO-CHECK-00-45-00
     title: Verify the restored chain sentence against the actual UCSD recording
     origin: transcript apparatus 2026-08-15; both copies are derivatives
     owner: Joe
-    status: QUEUED
-    activation: manual
+    status: DECLINED
+    activation: "grounds: Joe, 2026-08-17 -- the audio check is not going to happen. The transcript-uncertain grade on the chain sentence becomes PERMANENT POSTURE, exactly the outcome SC-A's provenance block was written to survive: the mathematics rests on the adjacent sentence and the 2021 draft, not the disputed token."
     next_check: "2026-08-31"
   - id: KERNEL-SESSION-SYNC-GUARD
     title: Mechanical cwd guard in repo-session-sync.sh (3 violations in one day despite documented rule)
