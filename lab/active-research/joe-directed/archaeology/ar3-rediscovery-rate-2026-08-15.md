@@ -272,12 +272,18 @@ Checked against `lab/sources/source-claim-register.yaml` and
 `lab/methods/source-native-comparator-routing.md` before any prior result is
 surfaced as banked knowledge.
 
-- **Positivity.** `BD-C` establishes the positivity subclause is
-  **disavowed by the source** (`SC-META-54`, `DISAVOWS`, `toe-2025 [01:18:06]`).
-  RB1's sentence is a **negative** — positivity is *neither used nor available*
-  — and so aligns with the disavowal. Nothing here presents "positivity is the
-  right demand" as banked; the repository's own answer is that the demand is a
-  Krein structure.
+- **Positivity.** ~~`BD-C` establishes the positivity subclause is
+  **disavowed by the source** (`SC-META-54`, `DISAVOWS`, `toe-2025 [01:18:06]`).~~
+  **CORRECTION 2026-08-17 (found by BA-1):** this bullet carried the reading
+  the 2026-08-15 independent review WITHDREW — ambient Killing/Krein
+  indefiniteness is source-attested, but positivity on an observed physical
+  quotient is source-**OPEN**, not disavowed — and its register citation was
+  wrong twice over: `SC-META-54` is the **global-section** disavowal, not a
+  positivity row. Struck rather than deleted, per house practice. What
+  survives: RB1's sentence is a **negative** — positivity is *neither used nor
+  available* there — and nothing here presents "positivity is the right
+  demand" as banked. The repository's Krein proposal remains a repository
+  proposal for a source-open question.
 - **`GEOMETER-VS-PHYSICS-OBJECTS.md`.** Cluster `K4` cites this file for
   `KEEP-AND-GRADE`. A **different** clause of that same file — the
   vertical-components-become-4D-scalars clause — is refuted and was withdrawn
