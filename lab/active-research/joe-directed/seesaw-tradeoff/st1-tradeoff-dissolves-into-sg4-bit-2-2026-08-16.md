@@ -412,6 +412,21 @@ Machine-checked structure:
    join with the 128-partner-placement obligation, and nothing more: no
    action term, scale, or vacuum is selected.
 
+> [!NOTE]
+> **CORRECTION RSC1-20260817 (one granularity level, applied by the
+> integrator with RSC-1's receipt).** The two sentences above pointing the
+> heavy partner "at the Rarita-Schwinger-adjacent slot" over-reach by exactly
+> one level. RSC-1 (`rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-
+> 2026-08-17.md`, 103/103) computed the location: the corner `ζ_± = Ω¹(S_±)`
+> (896) is REDUCIBLE — gamma-trace `S_∓` (64) ⊕ gamma-traceless RS module
+> `R^(±)` (832) — and the multiplicity-1 channel sits ENTIRELY in the
+> trace-cross block: `mult(Λ⁷_±, Λ²(R^(±))) = 0`, computed twice
+> independently. The honest phrase is **RS-DISJOINT in the Grassmann-live
+> column**: the channel lands on the 1-form corner but NOT in its RS
+> submodule, and the 128 is dark spinorial matter inside `Z`, not RS matter.
+> Every number in this file is untouched (RSC-1 reproduces all ten `ζ_+`
+> cells); only the consumer phrase "RS-adjacent slot" is corrected.
+
 ### 4.6 Controls
 
 - **D_6 (presence + symmetry):** the class-homogeneous half at 12 dimensions

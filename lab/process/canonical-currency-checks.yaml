@@ -383,6 +383,65 @@ checks:
       Same FIX-A block V4; it discharges the register-8 leg (dark-sector partner
       placement named as the obligation) as well as the register-6 leg.
 
+  # -----------------------------------------------------------------------
+  # C. RW-1's per-input verdicts, 2026-08-17 (transcribed by the integrator
+  #    from the artifact's own section 11; RW-1 edits no sidecar).  Each
+  #    record is scoped to the exact correction the queue flagged, not
+  #    ALL-REGISTER.
+  # -----------------------------------------------------------------------
+
+  - file: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md
+    correction_id: CC-06-CHIRALITY-VEV-CONDITIONAL
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: RW-1
+    note: >-
+      The consumed content IS the correction's upstream: the section 11.6
+      hedge passage (:137-138) is quoted verbatim in RW-1 and every use
+      keeps the VEV-conditional reading (RW-1 section 1 row 1). Pointer:
+      extraction :137-138; RW-1 section 1.
+  - file: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md
+    correction_id: CC-08-DARK-PARTNER-OBLIGATION
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: RW-1
+    note: >-
+      Consumed content (section 12.9/12.20 renderings) is used as
+      mechanism/partner data; no defect/surplus framing imported. Pointer:
+      extraction section 4; RW-1 sections 1-2.
+  - file: explorations/decoupling-constructibility-packet-2026-08-12.md
+    correction_id: CC-05-SUBTRACTIVE-TWO-PLUS-ONE
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: RW-1
+    note: >-
+      Consumed rows (R3 dark-typing :259, R4a spontaneous-asymmetry, the
+      chirality homonym row :69) contain no additive-count framing, and
+      RW-1 applies the CC-05 fence to its own multiplicity statement (W5:
+      count = |winding| x N stays a supplied input, never a derived three).
+      Pointer: packet :259, :69; RW-1 W5.
+  - file: explorations/decoupling-constructibility-packet-2026-08-12.md
+    correction_id: CC-08-DARK-PARTNER-OBLIGATION
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: RW-1
+    note: >-
+      R3 treats the mirror half as a placement obligation -- consistent
+      with the correction by construction.
+  - file: lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md
+    correction_id: CC-10-UCSD-EDITED-DERIVATIVE
+    verdict: CLEARED-CONSISTENT
+    date: '2026-08-17'
+    by: RW-1
+    note: >-
+      The consumed block (WGS-05, :236-291) renders the 2021 DRAFT's
+      section 12.9 equations, not UCSD material -- unaffected by the
+      correction. The UCSD-derived quotes RW-1 does consume (drafts:149,
+      :158) are taken from the drafts transcript (not in the dirty queue)
+      WITH the correction's caveat carried: edited derivative, audio
+      confirmation still owed, transcript-verified grade only. Pointer:
+      pack :236-291; CC-10 owner banner.
+
 # -------------------------------------------------------------------------
 # RATCHET BASELINE.  Per correction: the dirty count measured when the
 # correction's 7-day grace period is armed.  The gate is RED if the dirty count

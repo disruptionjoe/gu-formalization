@@ -165,9 +165,18 @@ items:
     title: "R(y) position dependence: source states the transition location literally; canon requires the odd count external; walls are the named mechanism; ZERO wall-x-curvature co-occurrence in 7300 files"
     origin: lda card 7 (LIVE-HIGH); SC-CHI-02 register locus
     owner: joe-directed channels / reverse-scaffold series
-    status: QUEUED
+    status: DONE
     activation: RS-WAVE-SERIES scoping (candidate arc)
     next_check: "2026-08-24"
+    receipt: >-
+      RW-1 executed the arc 2026-08-17: lab/active-research/joe-directed/
+      rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md + probe (84/84,
+      selftest 9/9 targeted). Verdict NEIGHBOR-SHARED-INGREDIENT: the zero
+      locus STEERS a wall it does not constitute; source states the crossing
+      zero times (certified absence, planted controls); typed target is the
+      VEV-orientation Z/2 wall (rung-2's proved existence condition) steered
+      by R(y); six-item hosting bill W1-W6 recorded, W1 (sign-crossing) and
+      W3 (grading bridge) the live kill sites.
   - id: SG4-BIT2-FORK-ENTRY
     title: "Enter the bit-2 selector in layer0-fork-registry (depth counter reads zero on ten-file fan-out) + REQUIRED_FORK_IDS pin + IV-class settlement bar; general class: non-enrolment invisible to entry-iterating gates"
     origin: ldd card 20 (LIVE-HIGH); sa1 first instance
@@ -229,5 +238,19 @@ items:
     origin: "Joe, 2026-08-17: after the procedural updates and fixes, the next waves to scaffold are the reverse scaffolding"
     owner: session owner (scoping) then joe-directed channels
     status: ACTIVE
-    activation: "hardening complete 2026-08-17 (CT-1..5 + FIX-A/B all DONE); scoping proposal delivered to Joe"
+    activation: "hardening complete 2026-08-17; WAVE 1 LANDED 2026-08-17: B1P-1 (bit-1 price, committed dd84778b), RSC-1 (RS-DISJOINT exact obstruction), RW-1 (R(y) steers-not-hosts, typed VEV-orientation-wall target). Wave 2 candidates: UR-BIT2-TRANSPORT fence; RW-1 bill items W1/W3"
     next_check: "2026-08-19"
+  - id: RSC1-R5-RESCOPE
+    title: "Split ledger R5 into R5-K (kinematic: declared-slot directions' simultaneous action across the branched corner; partially executed by RSC-1 for the middle-form direction) and R5-D (dynamical: modulus action on masses in all sectors at once; unexecuted, Lane 1 jointly with the decoupling packet)"
+    origin: "RSC-1 sections 5-6, PROPOSAL ONLY on the artifact; entered here so the proposal survives (rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:661-667)"
+    owner: next mint / ledger owner
+    status: QUEUED
+    activation: next mint or steward pass adjudicates the split
+    next_check: "2026-08-24"
+  - id: RW1-CHANNEL-INHERITANCES
+    title: "Apply RW-1 section 6's seven versionless deltas: ledger G6 gains a base (global-bit use must fence R-variation); CANON.md:136 wall-side scope note; external-by-structure candidate family (mass-profile winding); register owner's three note-grade facts; NN-lane different-walls note; rung-2 N2 gradient source-native candidate"
+    origin: "RW-1 section 6 (rw1-zero-locus-steers-not-hosts-2026-08-17.md); all deltas add conditions, none relax"
+    owner: next mint / respective channel owners
+    status: QUEUED
+    activation: next mint or steward pass; G6 base note at next ledger touch
+    next_check: "2026-08-24"

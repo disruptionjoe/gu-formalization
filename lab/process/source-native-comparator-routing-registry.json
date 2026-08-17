@@ -162,10 +162,6 @@
       "classification": "INTERNAL_STRUCTURAL_ONLY"
     },
     {
-      "path": "lab/active-research/joe-directed/ct-hardening/ct5-canonical-corrections-as-dirty-bits-2026-08-17.md",
-      "classification": "INTERNAL_STRUCTURAL_ONLY"
-    },
-    {
       "path": "lab/active-research/joe-directed/h10-remediation/h105-stelle-ghost-sign-2026-08-15.md",
       "classification": "CONVENTIONAL_COMPARATOR"
     },
@@ -539,6 +535,14 @@
     },
     {
       "path": "lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     }
   ]

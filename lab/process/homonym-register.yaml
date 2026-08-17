@@ -1183,6 +1183,50 @@ entries:
       paid_by: ["lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:33", "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:244"]
       quote: "rank-one v_PSB in (4,1,2), same 12-dim stabilizer, handed to the homonym"
       quote_at: "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md"
+  - token: Rarita-Schwinger
+    kind: homonym
+    provenance: rsc1-2026-08-17
+    senses:
+      - definition: >-
+          RS-1, the AMBIENT gamma-traceless module V_14 (x) S_+- = R^(+-),
+          dim 832 at D_7 -- the second summand of the source's own product
+          rule eq (11.1), with the 832 subscript the draft prints on p.51
+        namespace: ambient representation theory / draft eq (11.1)
+        locus: "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:604"
+      - definition: >-
+          RS-2, the INTERNAL gamma-traceless module V_10 (x) 16 = 144,
+          living inside the Z sector of eq (11.6) -- a different layer from
+          RS-1, related by the same trace/traceless split one level down
+        namespace: internal so(10) representation theory / eq (11.6)
+        locus: "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:605"
+      - definition: >-
+          RS-3, the 4d spin-3/2 SECTOR Q^+-_{3/2}, dim 192, whose internal
+          factor is a 16 -- the only sector the draft glosses in spin terms,
+          hence the best-supported referent of SC-FER-03's
+          "Rarita-Schwinger matter"
+        namespace: eq (11.6) sector list / SC-FER-03 assignment slot
+        locus: "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:606"
+    disambiguator:
+      rule: >-
+        name which of the three you mean -- RS-1 ambient R(832), RS-2
+        internal 144, or RS-3 sector Q(192); the 128 remainder lies inside
+        RS-2 hence inside RS-1 and NOT inside RS-3, so "the 128 is RS
+        matter" is FALSE under the sector reading while "the 128 sits in
+        the RS-traceless part" is TRUE under the module readings --
+        unnamed use flips a placement verdict
+      attested_at: ["lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:609"]
+    receipt:
+      incident: >-
+        ST-1's consumer row pointed the heavy Majorana-type partner "at the
+        Rarita-Schwinger-adjacent slot"; RSC-1 resolved the corner
+        blockwise and found the multiplicity-1 channel entirely in the
+        trace-cross block with mult(Lambda^7_+-, Lambda^2(R^(+-))) = 0, so
+        the channel is RS-DISJOINT in the Grassmann-live column -- the
+        hedge "adjacent" was carrying three objects at two layers, and
+        upgrading it required separating them
+      paid_by: ["lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:600", "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md:577"]
+      quote: 'Three objects wear "Rarita-Schwinger" in this corpus'
+      quote_at: "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md"
 contrary_controls:
 
   - token: gimmel
