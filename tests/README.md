@@ -506,6 +506,22 @@ the map: which directory/group supports which claim.
   audits the Bach-flat detour sequence against the owned first-order GU rolled
   operator. Run with Python 3; it passes `50/50`.
 
+- `channel-swings/joe_directed_tw1_normal_twistor_spin_lift_probe.py`
+  constructs the exact current-`Cl(7,7)` Spin lift of the declared normal
+  `SO_0(6,4)/U(3,2)` twistor complex structure. It proves the selected-component
+  relations `S_J^2=-J10` and `S_hat_J^2=-Jhat`, fences the opposite orientation
+  component, certifies the `25/20` stabilizer/orbit split, and retains both K77
+  halves and all four observation blocks. Run with Sage's Python and a writable
+  `DOT_SAGE`; it passes `85/85`, with eight hostile mutants rejected.
+
+- `channel-swings/joe_directed_tw2_four_dimensional_detour_symbol_factorization_probe.py`
+  proves over exact rational `Cl(2,2)` that the declared cubic grammar contains
+  the unique complex symbol `Q^3-(q/4)Q` annihilating the twistor image on both
+  sides. It computes non-null exactness and null symbol cohomology on both Weyl
+  halves, preserves all four K77 corners, distinguishes `Pi4` from `Pi14`, and
+  locates `Q,T,-T#` only as base-compressed rolled subblocks. Run with Python 3;
+  its selftest passes `132/132`.
+
 - `channel-swings/selected_k77_twistor_carrier_weyl_integrability_gate_probe.py`
   reconstructs the local/developable rank-four carrier from the settled K77
   base Weyl factors, verifies graph incidence and the Lorentz determinant,

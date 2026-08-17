@@ -133,6 +133,7 @@ Before execution, record one sentence for each lens:
 
 | lane or archaeology row | current state | only legitimate reopen or run condition |
 |---|---|---|
+| superposition / twistor composition | **TW-1 and TW-2 banked; one TW-3 gluing swing remains** | use only the owned normal Spin lift and four-dimensional detour/compressed blocks to test component/orientation and dual-target intertwining on both halves/four corners; if this is merely tensor-product commutation, bank and deprioritize |
 | H210 `2+1` derivative-adapter path | **PAUSED after CB-8** | an independent source-native result supplies a source-`Y` split/connection implying `L_q|_Z=0`; do not manufacture that owner here |
 | source-native neutrino pencil | **PAUSED after SN-3** | archaeology finds an already-owned source-native zero-order/coindex descent **and** an equation-(9.16) slot-to-observed-line incidence receipt |
 | extra-vector lane | **RETIRED from this channel** | no conditional-build successor; any later source-native observation-plus-action composition belongs to its actual owner |
@@ -140,6 +141,7 @@ Before execution, record one sentence for each lens:
 | AR1 row 9, carrier MASS scramble | **RETIRED AS NONDECISIVE LEGACY VERIFY** | only reconsider with a selected current-K77 carrier, a non-carrier-blind typed operator, and a current scramble group; the fixed-192 `Cl(9,5)` test does not discriminate |
 | AR1 row 12, full-domain Shiab rank | **`CLOSED_EXACT_FOR_LITERAL_CL95_CONTRACTION__NO_K77_OR_SOURCE_SELECTOR_TRANSFER`** | AR5 proves exact real rank/kernel `3584/19712` for the literal legacy contraction; it does not adjudicate the distinct current-K77 `1274 x 1274` Hodge-Shiab object or select a source owner |
 | AR1 row 21, second Shiab wall | **TRIGGER-GATED** | reopen only when **both** W192 is selected by a source/action owner **and** a typed `Cl(9,5)`-to-current-K77 Shiab bridge is proved; neither condition alone makes the fixed-192 K95 Schur result operational |
+| AR1 row 8, repeated `(96,96,0)` | **CLOSED AS A TYPED NUMERICAL OVERLAP** | no reopen from equal inertia alone; a future claim needs an independently constructed carrier/chain/pairing map between the two objects |
 
 If no reopen condition is met, the correct outcome is `DEPENDENCY_FENCED`,
 `TYPE_MISSING`, `PAUSED`, or `RETIRED`—not another unowned construction.

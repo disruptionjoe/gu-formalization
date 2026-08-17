@@ -83,6 +83,19 @@ Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`
 >
 > These corrections alter current dispatch, not AR-1's historical counts.
 
+> **CORRECTION AR1-R8-20260816 — M-H17 overlap typed and closed.** Historical
+> worklist row 8 is
+> `CLOSED_AS_TYPED_NUMERICAL_OVERLAP__NO_OWNED_CARRIER_CHAIN_OR_PAIRING_MAP`.
+> `lab/active-research/joe-directed/archaeology/ar6-mh17-generation-inertia-type-crosswalk-2026-08-16.md`
+> establishes that the generation-sector `(96,96,0)` is the restriction of a
+> Clifford-derived Krein form to a selected 192-dimensional triplet inside
+> `ker Gamma`, with no differential or quotient, while the M-H17 result is the
+> descended form on a separately planted rational comparator complex whose
+> `pair_count=96` is an input. Equal inertia gives only a noncanonical abstract
+> isometry after scalar extension; no carrier, chain or pairing map is owned.
+> The interacting K77 BRST/physical-positivity question remains open. The
+> historical table and AR1 probe are preserved unchanged.
+
 **Declared doc type, and why.** This file declares `doc_type:
 stewardship_record`, which
 `process_gates/source_native_comparator_routing_audit.py` excludes from its
