@@ -8,6 +8,26 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**B5 Stage-B action normalization 2026-08-20 (current equations
+underdetermine Gram and coefficients; packet still fail-closed).** At the
+coarse formal compact-core grade, write the quadratic Hessian as `H=GM`.
+Then action symmetry and formal Krein adjointness are the same equation
+`H^T=H`, while linear BV/Noether closure and the coarse principal kernel are
+the same equation `Hr=0`. Two inequivalent allowed Grams admit exact
+full-support `q=1` rank-two packets with one common symmetric Hessian and
+all-grade kernel. For fixed `G`, the current normalized singular-Hessian
+locus is generically four-dimensional before full support. Field (iii)
+therefore remains `EXTERNAL-VIA-GRAM`. The next missing owner is an explicit
+action-owned `0->1->13->14` differential/roll packet carrying an independent
+nilpotence, acyclicity or nonlinear BV relation. See
+`explorations/b5-stage-b-action-normalization-underdetermination-2026-08-20.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| Stage-B normalization | next executable dependency | current quadratic/adjoint/kernel equations underdetermine Gram and coefficients | action-owned four-stage differential and roll maps | exact probe/result |
+| B5 field (iii) | `EXTERNAL-VIA-GRAM` | unchanged; two inequivalent exact action packets survive | independent action relation beyond Hessian symmetry/kernel | Stage-B registry/result |
+| five-field packet | fail-closed | still fail-closed | four-stage action owner, then remaining fields | design packet/contract replay |
+
 **B5 full-20 Gram-adjoint universality 2026-08-20 (RB6 exact null;
 full-support sign Gram-dependent; packet still fail-closed).** Exact gimmel
 derivatives put RB6's three curvature endomorphisms in `span{I,T_tr}` with
@@ -17,14 +37,15 @@ roundoff, satisfying P-H29. On the independent B5 coarse
 `b=d=c=f=g=h=0` and `a=-6e/7`; a fixed full-support nine-block expression
 therefore has no Gram-independent formal Krein-adjoint sign. The published
 odd candidate survives canonical `G3` and scale but fails an allowed Gram
-twist. Field (iii) is `EXTERNAL-VIA-GRAM`; Stage-B action normalization is
-next. See `explorations/b5-full20-gram-adjoint-universality-2026-08-20.md`.
+twist. Field (iii) is `EXTERNAL-VIA-GRAM`; this result opened the completed
+Stage-B owner test above. See
+`explorations/b5-full20-gram-adjoint-universality-2026-08-20.md`.
 
 | claim | prior status | current status | weakest dependency | files updated |
 | --- | --- | --- | --- | --- |
 | RB6 geometry-owned Q null | FD-floor unresolved | exact structural zero for all five commutators | exact gimmel-derivative library | RB6 re-verdict |
-| B5 field (iii) | unfrozen | `EXTERNAL-VIA-GRAM`; no uniform full-support sign | action-owned pairing normalization | all-Gram probe/result |
-| five-field packet | fail-closed | still fail-closed | Stage-B action normalization, then remaining fields | design packet/contract replay |
+| B5 field (iii) | unfrozen | `EXTERNAL-VIA-GRAM`; no uniform full-support sign | Stage-B owner test | all-Gram probe/result |
+| five-field packet | fail-closed | still fail-closed | Stage-B owner test, then remaining fields | design packet/contract replay |
 
 **K155 null fivefold third-lower coefficient 2026-08-20 (448D third-jet
 closure; live rank-82 unrestricted layer; rank-one complete order-four

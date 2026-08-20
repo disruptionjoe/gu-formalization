@@ -7,6 +7,20 @@ updated_at: "2026-08-20"
 
 # Next Steps For Contributors
 
+> **2026-08-20 B5 STAGE-B'S CURRENT ACTION EQUATIONS DO NOT NORMALIZE THE
+> GRAM.** At the coarse formal compact-core grade, `H=GM` makes quadratic-
+> action symmetry and formal Krein adjointness the same equation, while the
+> linear BV/Noether condition duplicates the coarse kernel equation. Two
+> inequivalent allowed Grams admit exact full-support `q=1` rank-two packets
+> with the same symmetric Hessian and all-grade kernel; for fixed `G`, the
+> current normalized singular-Hessian locus is generically four-dimensional.
+> **Field (iii) remains `EXTERNAL-VIA-GRAM`. Before retrying normalization,
+> serialize the action-owned `0->1->13->14` differential and Hodge/Krein roll
+> maps, and require an independent nilpotence/acyclicity or nonlinear BV
+> relation. Do not count Hessian symmetry or the same kernel twice, choose a
+> convenient Gram, import K77, or infer a domain, quotient, particle result,
+> historical preferred operator, or GU verdict.**
+
 > **2026-08-20 B5 WAVE ONE PROVES THE FORMAL-ADJOINT SIGN IS
 > GRAM-DEPENDENT.** Exact gimmel derivatives first recertify RB6: its three
 > curvature endomorphisms are exact `I,T_tr` combinations and all five frozen
@@ -16,7 +30,7 @@ updated_at: "2026-08-20"
 > Gram forces all six cross-grade coefficients to zero and contradicts full
 > support. The canonical diagonal `G3` remains a positive control and an
 > allowed off-diagonal Gram twist breaks it. **Field (iii) is
-> `EXTERNAL-VIA-GRAM`; execute Stage-B action normalization next. Do not pick
+> `EXTERNAL-VIA-GRAM`; this led to the completed Stage-B owner test above. Do not pick
 > `G3` by convenience or infer an action, Green domain, quotient,
 > source-preferred operator, particle result, or GU verdict.**
 

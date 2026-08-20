@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-CURRENT-STAGE-B-EQUATIONS-UNDERDETERMINE-GRAM-AND-COEFFICIENTS",
+  "grade": "exact rational coarse S+imGamma+kerGamma multiplicity matrix; formal compact core",
+  "probe": {
+    "checks": 26,
+    "status": "pass",
+    "arithmetic": "fractions.Fraction only",
+    "normalized_w131_coefficient": "q=1",
+    "full_nine_block_support": true,
+    "coarse_hessian_rank": 2,
+    "kernel": ["1", "-2", "1"]
+  },
+  "equation_independence": {
+    "quadratic_action": "H=GM with H^T=H",
+    "formal_adjoint": "M^T G=G M; identical to H^T=H",
+    "linear_bv_noether": "Hr=0",
+    "coarse_principal_kernel": "Mr=0; equivalent to Hr=0 for nondegenerate G",
+    "unserialized": [
+      "0->1->13->14 action differential",
+      "Hodge/Krein roll maps",
+      "four-stage acyclicity",
+      "nonlinear BV master equation"
+    ]
+  },
+  "inequivalent_witnesses": {
+    "gram_0": "diag(1,1/14,13/14)",
+    "gram_1": "[[1,1/28,0],[1/28,1/14,0],[0,0,13/14]]",
+    "common_hessian": "(13/735)(uu^T+vv^T), u=(1,2,3), v=(4,5,6)",
+    "not_common_rescalings": true,
+    "coefficient_packets_not_proportional": true
+  },
+  "solution_locus": {
+    "fixed_gram_generic_dimension_before_full_support": 4,
+    "count": "six symmetric Hessian entries minus q normalization minus determinant equation",
+    "interpretation": "positive-dimensional; current equations do not normalize the Gram"
+  },
+  "packet_consequence": {
+    "field_iii": "EXTERNAL-VIA-GRAM",
+    "packet_admission": "rejected_fail_closed",
+    "next": "ACTION-OWNED-FOUR-STAGE-DIFFERENTIAL"
+  },
+  "claim_ceiling": "No future action-owned normalization is excluded; no Gram, four-stage action, nonlinear BV completion, Green domain, quotient, particle result, historical-source recovery or GU verdict is selected."
+}

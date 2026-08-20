@@ -9,13 +9,25 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-20)
 
+> **Current B5 Stage-B owner result:** the quadratic-action equations now in
+> the tree do not normalize the `S/imGamma` Gram or nine-block coefficients.
+> Exact inequivalent allowed-Gram packets retain full support, `q=1`, rank-two
+> singularity, one all-grade kernel, action symmetry, formal adjointness and
+> linear BV/Noether closure. `H=GM` makes action symmetry and adjointness one
+> equation; invertible `G` makes `Hr=0` and `Mr=0` one equation. Field (iii)
+> remains `EXTERNAL-VIA-GRAM`; the packet stays fail-closed. Next serialize
+> the action-owned `0->1->13->14` differential and Hodge/Krein roll maps with
+> an independent nilpotence/acyclicity or nonlinear BV relation. Do not infer
+> that no future normalization exists or select a Gram, domain, quotient,
+> particle result, historical preferred operator, or GU verdict.
+
 > **Current B5 full-20 Gram-adjoint result:** P-H29 is cleared by an exact RB6
 > re-verdict: all five frozen geometry-owned commutators are structurally zero.
 > The independent B5 nine-block family's formal sign is not uniform over the
 > allowed `S/imGamma` multiplicity-Gram family. All-Gram universality forces
 > every cross-grade coefficient to zero, while canonical `G3` remains a
 > pairing-specific positive control. Field (iii) is `EXTERNAL-VIA-GRAM`; the
-> packet stays fail-closed and Stage-B action normalization is next. Do not
+> packet stays fail-closed and led to the completed Stage-B owner test above. Do not
 > select `G3`, import K77, claim the preferred historical Shiab, or infer a
 > Green domain, quotient, particle result, or GU verdict.
 

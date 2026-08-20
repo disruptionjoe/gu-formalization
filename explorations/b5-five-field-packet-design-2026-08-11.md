@@ -42,6 +42,24 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — Stage-B owner test completed 2026-08-20
+
+The current Stage-B equation set is now executed at
+`explorations/b5-stage-b-action-normalization-underdetermination-2026-08-20.md`.
+At the coarse formal compact-core grade, the quadratic-action symmetry and
+formal-adjoint conditions are the same equation `H^T=H`, and the linear
+BV/Noether condition duplicates the coarse kernel equation. Two inequivalent
+allowed Grams admit exact full-support `q=1` rank-two packets with one common
+symmetric Hessian and all-grade kernel. The current equations therefore do not
+normalize the Gram or coefficients.
+
+Field (iii) remains `EXTERNAL-VIA-GRAM` and the five-field packet remains
+fail-closed. Before another normalization attempt, the missing
+`ACTION-OWNED-FOUR-STAGE-DIFFERENTIAL` packet must serialize the Hodge/Krein
+roll maps and actual `0->1->13->14` differential, exposing an independent
+nilpotence/acyclicity or nonlinear BV relation. This update does not exclude a
+future selector and chooses no Gram, action, domain, quotient or GU verdict.
+
 ## Execution update — Wave One completed 2026-08-20
 
 P-H29 Step 0 and the formal-adjoint computation are now executed at
@@ -52,8 +70,8 @@ forces every cross-grade coefficient of a Gram-uniform adjoint expression to
 zero, which is incompatible with full nine-block support. The canonical `G3`
 candidate remains a pairing-specific positive control.
 
-Per K2, field (iii) is now `EXTERNAL-VIA-GRAM`: Stage-B action normalization
-is the next executable dependency. The five-field ingress contract remains
+Per K2, field (iii) became `EXTERNAL-VIA-GRAM` and opened the Stage-B owner
+test now recorded in the update above. The five-field ingress contract remains
 fail-closed; no Gram, action, Green form, common closed domain, packet
 admission, source-preferred operator, or GU verdict is selected. The coflip
 rider and domain-stability wave remain dependent on later owned data.
@@ -294,19 +312,17 @@ structure currently computes. This is exactly where the 07-29 packet's gate
 (1) bites: "coefficient normalization from the action rather than a
 favorable table."
 
-**Verdict class: DERIVATION-ROUTE, two-stage.** Stage A (bounded, inside
-Wave One below): determine whether the downstream objects — the
-formal-adjoint sign, the Green form, the mirror-parity split — are
-Gram-INdependent; every Gram-independent output is owned now. Stage B (the
-remaining construction): normalize the eight off-core chimeric-BV
-coefficients from the action (the S1 family has eight complex off-core
-coefficients and one open W131 scalar; acyclicity plus Krein adjointness
-plus BV closure are the equations that would fix the Gram). If Stage B's
-equations underdetermine the Gram, the residual is typed external, and the
-surplus meter for any posited Gram runs through the register's named bridge
-M-M20 ("a minimal 13d defect action gives the shared object that made B5's
-surplus UNCOMPUTABLE"; register B-Medium block, sequenced "After M-H10
-skeleton"). Until that bridge exists: SURPLUS-UNCOMPUTABLE, stated as such.
+**Verdict class: DERIVATION-ROUTE, two-stage.** Stage A (Wave One) determined
+that the formal-adjoint sign is Gram-dependent. Stage B then tested the
+equations actually serialized by S1/S3. They underdetermine the Gram because
+quadratic-action symmetry duplicates formal adjointness and linear BV closure
+duplicates the coarse kernel equation; exact inequivalent-Gram full-support
+witnesses survive with `q=1`. The residual is therefore typed external for the
+current action packet. Another normalization attempt must first serialize the
+missing four-stage differential/roll maps and expose an independent
+nilpotence/acyclicity or nonlinear BV relation. The surplus meter for any
+posited Gram still runs through M-M20; until that bridge exists it remains
+SURPLUS-UNCOMPUTABLE.
 
 ### Field (ii) — coflip linearity and phases
 
@@ -580,9 +596,10 @@ withheld promotion. Specification:
 - **Unblocking power if `s` is forced:** fields (iii) and formal-(iv)
   become repo-owned; the eleven-pair residual's semantics reduce to the
   monodromy statement (field ii, certify-on-packet rider); the packet's
-  remaining open matter is exactly field (i)'s Gram (Stage B) and field
-  (v)'s stability program — the blocked five-field wall becomes a
-  two-item list with one computation and one uniformity check.
+  remaining open matter includes field (i)'s Gram owner and field (v)'s
+  stability program. The completed Stage-B owner test shows the current
+  quadratic equations do not close the first item; an action-owned four-stage
+  differential/roll packet is required before retrying it.
 
 **Wave Two (field ii rider) and Wave Three (field v stability)** are
 specified in their field sections; neither may start before Wave One
@@ -594,7 +611,7 @@ formal Green form).
 | outcome | condition | packet consequence (proposed grade) |
 |---|---|---|
 | (a) sign forced, Gram-independent | Wave One (1)-(4) green; controls (a)-(e) as stated | fields (iii) + (iv-formal) fixed by repo-owned construction; contract fields fillable at declared grade; LANE-STATE lane-1 findings sentence due a refresh; proceed to Wave Two/Three |
-| (b) sign Gram-dependent | K2 fires | field (iii) typed EXTERNAL-VIA-GRAM; Stage-B action-normalization (chimeric-BV coefficients) promoted to the decisive computation; surplus via M-M20 bridge; no sign selected |
+| (b) sign Gram-dependent | K2 fires | field (iii) typed EXTERNAL-VIA-GRAM; completed Stage-B owner test shows current equations underdetermine it; four-stage differential/roll owner next; surplus via M-M20 bridge; no sign selected |
 | (c) sign scale/path-dependent | K1 fires | absolute sign DISSOLVES-AS-CONVENTION; packet contract schema amended (relative statement + declared convention), mirroring field (ii)'s type; a finding, not a failure |
 | (d) family closure breaks at coefficient level | K3 fires | S3 result corrected first; this packet's field-(iii) route re-derived after; escalate per finder-escalates |
 | (e) RB6 recertification flips the null | Step 0 | the RB-chain kill inventory changes; the interior reopening design is re-priced before any wave runs |

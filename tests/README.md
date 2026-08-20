@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current B5 five-field packet gate
 
+- `channel-swings/b5_stage_b_action_normalization_probe.py` uses exact
+  rational arithmetic to construct two inequivalent allowed-Gram,
+  full-nine-block, normalized-`q=1` rank-two action packets with the same
+  symmetric Hessian and all-grade kernel. It verifies that current action
+  symmetry duplicates formal adjointness, current linear BV/Noether closure
+  duplicates the coarse kernel equation, and the five-field packet remains
+  fail-closed. It passes `26/26`.
+
 - `channel-swings/verify/rb6_exact_derivative_reverdict.py` rebuilds RB6 from
   the exact gimmel-derivative library, proves the three curvature
   endomorphisms are exact `I,T_tr` combinations, and certifies all five frozen

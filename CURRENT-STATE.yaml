@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c83564cfd35291e447882cf51f9bbb52efad0428
+revision_basis: 1c17feda2eba07ab281a581f73670ce3e21371f5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,20 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The independent B5 full-20 packet now clears P-H29 and decides its Wave
-    One formal-adjoint gate. Exact gimmel derivatives prove RB6's five frozen
-    geometry-owned commutators structurally zero, with the three curvature
-    endomorphisms exactly in span{I,T_tr}; the prior null survives and its
-    evidence is upgraded from the finite-difference floor. On the B5 coarse
-    S+imGamma+kerGamma carrier, the complete allowed multiplicity Gram gives
-    three exact adjoint equations. Universality forces all six cross-grade
-    coefficients to zero, contradicting full nine-block support. The prior
-    odd candidate remains self-adjoint for canonical G3 and common rescaling
-    but fails an allowed off-diagonal Gram twist. Therefore field (iii) is
-    EXTERNAL-VIA-GRAM and the packet remains fail-closed. Stage-B action
-    normalization is the next live B5 dependency; no Gram, action, Green
-    domain, quotient, source-preferred operator or GU verdict is selected.
-    Joe input is not required.
+    The independent B5 Stage-B owner test now proves that the currently
+    serialized quadratic-action equations do not normalize the S/imGamma
+    multiplicity Gram or the nine-block coefficients. Two inequivalent
+    allowed Grams admit exact full-support q=1 rank-two packets with the same
+    symmetric Hessian and the same all-grade kernel. The action-symmetry and
+    formal-adjoint conditions are one equation H^T=H, while linear BV/Noether
+    closure duplicates the coarse kernel equation Hr=0. For each fixed Gram,
+    the current normalized singular-Hessian locus is generically
+    four-dimensional before the open full-support condition. Field (iii)
+    therefore remains EXTERNAL-VIA-GRAM and the five-field packet remains
+    fail-closed. The next missing owner is an explicit action-owned
+    0->1->13->14 differential with Hodge/Krein roll maps and an independent
+    nilpotence/acyclicity or nonlinear BV relation. This does not exclude a
+    future action normalization and selects no Gram, action, Green domain,
+    quotient, source-preferred operator or GU verdict. Joe input is not
+    required.
     K155 now extends the exact 448-dimensional selected-action packet through
     the minimal third coefficient jets. Ten-point exact interpolation certifies
     the degree-nine moving-Shiab polynomial and the same 32-label closure. At
@@ -1654,6 +1656,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/b5-stage-b-action-normalization-underdetermination-2026-08-20.md
+    - lab/process/b5-stage-b-action-normalization.json
+    - explorations/b5-full20-gram-adjoint-universality-2026-08-20.md
+    - lab/process/b5-full20-gram-adjoint-universality.json
     - explorations/conditional-build/selected-k135-native-i1b-t0-coupled-shell-green-domain-2026-08-16.md
     - lab/process/selected-k135-native-i1b-t0-coupled-shell-green-domain.json
     - explorations/conditional-build/selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil-2026-08-16.md
@@ -1929,11 +1935,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can Stage-B derive the independent B5 pairing/action normalization that
-  jointly fixes the S/imGamma multiplicity Gram and nine-block coefficient
-  relations, or must field (iii) remain an external datum? Preserve the
-  full-20 Cl(9,5) carrier, formal compact-core grade, fail-closed five-field
-  packet, and the distinction from the historical preferred Shiab and K77.
+  Can an explicit action-owned 0->1->13->14 differential and its Hodge/Krein
+  roll maps supply a genuinely independent nilpotence, acyclicity or nonlinear
+  BV relation that normalizes the B5 S/imGamma Gram and nine-block coefficients?
+  Do not repeat the quadratic-action symmetry, formal-adjoint or coarse-kernel
+  equations as independent constraints. Preserve the full-20 Cl(9,5) carrier,
+  formal compact-core grade, fail-closed five-field packet, and the distinction
+  from the historical preferred Shiab and K77.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1942,14 +1950,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  B5 Wave One is complete. Exact RB6 recertification clears P-H29, and the
-  all-Gram coefficient identity proves that a fixed full-support nine-block
-  expression has no Gram-independent formal Krein-adjoint sign. The canonical
-  diagonal Gram remains a positive control, so this is pairing dependence,
-  not nonexistence. Field (iii) is EXTERNAL-VIA-GRAM and Stage-B action
-  normalization owns the next B5 decision; coflip and domain-stability work
-  remain dependent. No pairing, action, domain, quotient or GU verdict is
-  licensed. Separately, the independent classical RSAP is closed at the exact
+  B5 Stage-B is closed against the equations currently serialized. Exact
+  inequivalent-Gram witnesses show that quadratic-action symmetry, formal
+  adjointness, normalized W131 support, a coarse principal kernel and linear
+  BV/Noether closure leave a positive-dimensional Gram/coefficient family.
+  Field (iii) remains EXTERNAL-VIA-GRAM. Before another normalization attempt,
+  serialize the missing action-owned four-stage differential and Hodge/Krein
+  roll maps, then expose one independent nilpotence/acyclicity or nonlinear BV
+  equation. Coflip and domain-stability work remain dependent. No pairing,
+  action, domain, quotient or GU verdict is licensed. Separately, the
+  independent classical RSAP is closed at the exact
   minimum 98 and its
   The independent classical RSAP is closed at the exact minimum 98 and its
   formal attachment to the action-owned 182D cotangent parent is exact. Its
