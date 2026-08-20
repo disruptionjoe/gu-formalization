@@ -122,6 +122,10 @@
       "classification": "INTERNAL_STRUCTURAL_ONLY"
     },
     {
+      "path": "lab/active-research/joe-directed/bit1-price/bp2-nonuniform-corner-decoupling-owner-census-2026-08-20.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
       "classification": "INTERNAL_STRUCTURAL_ONLY"
     },
@@ -303,6 +307,10 @@
     },
     {
       "path": "lab/active-research/joe-directed/integration-review/three-lane-fertility-wave-2026-08-16.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/integration-review/three-conditional-compositions-wave-2026-08-20.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
@@ -502,6 +510,10 @@
       "classification": "SOURCE_NATIVE_ROUTE"
     },
     {
+      "path": "lab/active-research/joe-directed/soldered-ad/sa2-two-lorentz-source-package-classifier-2026-08-20.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
       "path": "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
       "classification": "SOURCE_NATIVE_ROUTE"
     },
@@ -535,6 +547,10 @@
     },
     {
       "path": "lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/z3-receptacle/z3r2-asymmetric-equivariant-module-inventory-2026-08-20.md",
       "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     },
     {
