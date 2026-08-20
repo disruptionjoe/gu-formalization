@@ -7,6 +7,20 @@ updated_at: "2026-08-20"
 
 # Next Steps For Contributors
 
+> **2026-08-20 B5'S STRICT COMPLEX AND QUADRATIC EULER OPERATOR ARE NOW
+> SEPARATED.** The exact acyclic strict `0->1->13->14` complex and its
+> eight-block fold coexist with a separate symmetric rank-two full-nine
+> Hessian carrying live `S->S`. Changing that Euler term or either of two
+> inequivalent allowed Grams leaves strict nilpotence and exactness unchanged.
+> **Acyclicity therefore does not normalize `a D_S` or the Gram, and ordinary
+> Hessian symmetry is not the BV master equation. The five-field target is now
+> a paired strict-differential/Euler packet plus an action/BV bridge. Build
+> `B5-STRICT-DIFFERENTIAL-ACTION-BRIDGE` next; do not retry Gram, coflip or
+> domain work first. `EXTERNAL-VIA-GRAM` binds the current full-nine Euler
+> family; the strict differential's formal-adjoint field remains open. Do not
+> infer an action, full-rank complex, quotient, particle result, historical
+> preferred operator or GU verdict.**
+
 > **2026-08-20 THE STRICT B5 FOUR-STAGE FOLD HAS AN EIGHT-BLOCK
 > CEILING.** For `U0=S`, `U1=I+R`, `U2=(I+R)^vee_dens`, and
 > `U3=S^vee_dens`, a degree-`+1` differential under the declared

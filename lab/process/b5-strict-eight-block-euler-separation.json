@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-STRICT-COMPLEX-AND-QUADRATIC-EULER-OPERATOR-SEPARATED",
+  "grade": "exact rational formal compact-core and coarse multiplicity object-separation theorem",
+  "probe": {
+    "checks": 26,
+    "status": "pass",
+    "arithmetic": "fractions.Fraction only"
+  },
+  "strict_differential": {
+    "stages": ["S", "I+R", "(I+R)^vee_dens", "S^vee_dens"],
+    "forms": [0, 1, 13, 14],
+    "folded_support": ["SI", "SR", "IS", "II", "IR", "RS", "RI", "RR"],
+    "structurally_absent": "SS",
+    "coarse_control_ranks": [1, 1, 1],
+    "coarse_control_exact": true
+  },
+  "quadratic_euler_hessian": {
+    "support": "full_nine",
+    "ss_dirac_term": "live_and_separate",
+    "symmetric": true,
+    "rank": 2,
+    "kernel": ["1", "-2", "1"],
+    "gram_status": "EXTERNAL-VIA-GRAM"
+  },
+  "nontransfer": {
+    "cochain_exactness_selects_ss_euler_coefficient": false,
+    "cochain_exactness_selects_gram": false,
+    "hessian_symmetry_is_bv_master_equation": false,
+    "action_bridge_constructed": false
+  },
+  "packet_consequence": {
+    "ingress_target": "paired strict differential plus quadratic Euler/Hessian plus action/BV bridge",
+    "strict_differential_field_iii": "OPEN_UNCOMPUTED",
+    "current_full_nine_euler_field_iii": "EXTERNAL-VIA-GRAM",
+    "packet_admission": "rejected_fail_closed",
+    "next": "B5-STRICT-DIFFERENTIAL-ACTION-BRIDGE"
+  },
+  "claim_ceiling": "No full 128/1792 differential, action bridge, BV master equation, Gram, global domain, quotient, source-preferred operator, particle result or GU verdict is selected."
+}

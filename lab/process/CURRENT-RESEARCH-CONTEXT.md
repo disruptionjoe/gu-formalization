@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-20)
 
+> **Current B5 strict-eight-block plus Euler separation:** the strict
+> `0->1->13->14` differential `d`, its eight-block fold `Q8`, the quadratic
+> Euler/Hessian `H9`, and the multiplicity Gram are distinct objects. An exact
+> acyclic coarse complex coexists with a symmetric rank-two full-nine Hessian
+> carrying live `S->S`; changing that Euler term or either allowed Gram leaves
+> strict exactness unchanged. Nilpotence/acyclicity therefore does not
+> normalize `aD_S` or the Gram, and Hessian symmetry is not the BV master
+> equation. The five-field target is now a paired strict-differential/Euler
+> packet plus an unbuilt action/BV bridge. `EXTERNAL-VIA-GRAM` binds only the
+> current full-nine Euler family; strict field (iii) remains open. Build
+> `B5-STRICT-DIFFERENTIAL-ACTION-BRIDGE` next. Do not retry Gram, coflip or
+> domain work first or infer an action, quotient, particle result, historical
+> preferred operator or GU verdict.
+
 > **Current B5 four-stage roll-support result:** the strict typed
 > `0->1->13->14` differential, under stage-preserving Hodge/Krein high-to-low
 > rolls, has exactly eight eligible `S/I/R` blocks and structurally no

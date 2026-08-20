@@ -42,6 +42,23 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — strict-eight-block plus Euler separation completed 2026-08-20
+
+The strict route is now typed as a pair rather than one nine-block operator.
+The four-stage differential `d` and its stage-preserving fold `Q8` retain
+eight-block support and strict exactness. A separate quadratic Euler/Hessian
+`H9` may carry the live `aD_S` / `S->S` term. Exact witnesses prove that
+changing that term or the multiplicity Gram leaves `d^2` and strict exactness
+unchanged. Therefore acyclicity supplies no normalization equation for `a` or
+`G`, and ordinary Hessian symmetry is not the BV master equation.
+
+The packet ingress target is restated as `(d/Q8, H9, action/BV bridge)`. The
+all-Gram `EXTERNAL-VIA-GRAM` result binds the current full-nine Euler family;
+it does not compute the formal-adjoint sign of the strict eight-block
+differential without a bridge identifying the objects. The packet remains
+fail-closed. Next construct `B5-STRICT-DIFFERENTIAL-ACTION-BRIDGE` before
+coflip, domain, or another normalization solve.
+
 ## Execution update — strict four-stage roll support completed 2026-08-20
 
 The typed `0->1->13->14` owner has now been tested at strict

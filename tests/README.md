@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current B5 five-field packet gate
 
+- `channel-swings/b5_strict_eight_block_euler_separation_probe.py` keeps the
+  strict four-stage differential, eight-block fold, full-nine quadratic
+  Hessian and multiplicity Gram distinct. It proves exactness is independent
+  of the separate `S->S` Euler term and Gram, checks the paired packet remains
+  fail-closed without an action bridge, and passes `26/26`.
+
 - `channel-swings/b5_four_stage_roll_support_probe.py` proves that the typed
   strict `0->1->13->14` fold has an eight-block ceiling with structural
   `S->S=0`, and supplies an exact acyclic all-eight-block `q=1` control.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f81174b4cb452bd2f358a2c0d30bf8dc0cad322e
+revision_basis: 43dbcfb7f4cc73b995eec089b7686a56af8d9d15
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The B5 strict-eight-block-plus-Euler route is now typed and exactly
+    certified at formal compact-core coarse-multiplicity grade. The strict
+    0->1->13->14 differential d and its eight-block fold Q8 are distinct from
+    the quadratic Euler/Hessian object H9 and its multiplicity Gram. The exact
+    acyclic 1->2->2->1 control coexists with a symmetric rank-two full-nine
+    Hessian carrying live S->S; changing that Euler term or either of two
+    inequivalent allowed Grams does not change d^2 or strict exactness.
+    Therefore nilpotence/acyclicity supplies no equation for a D_S or the
+    Gram, ordinary Hessian symmetry is not the BV master equation, and the
+    separated route does not normalize the current family. The five-field
+    target is now a paired packet: strict d/Q8, quadratic H9 with separately
+    typed aD_S, and an action/BV bridge relating them. That bridge remains
+    unconstructed. EXTERNAL-VIA-GRAM binds the current full-nine Euler family;
+    the strict differential's own formal-adjoint field remains uncomputed.
+    The packet stays fail-closed. Next construct the
+    B5-STRICT-DIFFERENTIAL-ACTION-BRIDGE before coflip, domain or another Gram
+    solve. No full-rank differential, action, master equation, pairing,
+    domain, quotient, source-preferred operator, particle result or GU verdict
+    is selected. Joe input is not required.
     The typed B5 0->1->13->14 action-complex gate now proves a structural
     target mismatch. With U0=S, U1=I+R, U2=(I+R)^vee_dens and
     U3=S^vee_dens, any strict degree-+1 differential under the declared
@@ -1672,6 +1691,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/b5-strict-eight-block-euler-separation-2026-08-20.md
+    - lab/process/b5-strict-eight-block-euler-separation.json
+    - explorations/b5-four-stage-roll-support-obstruction-2026-08-20.md
+    - lab/process/b5-four-stage-roll-support.json
     - explorations/b5-stage-b-action-normalization-underdetermination-2026-08-20.md
     - lab/process/b5-stage-b-action-normalization.json
     - explorations/b5-full20-gram-adjoint-universality-2026-08-20.md
@@ -1951,13 +1974,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can an action-owned filtered field/antifield graph roll produce the missing
-  S->S block while preserving the 0->1->13->14 cochain/BV degree and master
-  equation, or should B5 instead keep the strict differential eight-block and
-  type a D_S as a separate quadratic Euler/Dirac term? Do not retry Gram or
-  nine-block normalization until that object fork is owned. Preserve the
-  full-20 Cl(9,5) carrier, formal compact-core grade, fail-closed five-field
-  packet, and the distinction from the historical preferred Shiab and K77.
+  Can an explicit action/BV bridge map the strict eight-block d/Q8 complex to
+  a quadratic Euler/Hessian H9 with separately typed a D_S, while exposing a
+  genuine classical master-equation condition and declaring whether the two
+  objects use the same Gram? Do not retry Gram normalization, coflip or domain
+  work before that bridge exists. Preserve the full-20 Cl(9,5) carrier,
+  formal compact-core grade, fail-closed five-field packet, and the
+  distinction from the historical preferred Shiab and K77.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1966,17 +1989,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  The strict B5 0->1->13->14 fold is now support-closed: stage-preserving
-  Hodge/Krein rolls permit exactly eight coarse blocks and forbid S->S, while
-  an exact acyclic q=1 eight-block control proves the route is nonvacuous. The
-  current full-nine-block Stage-B family is therefore not that differential.
-  Before another normalization attempt, either build the action-owned filtered
-  graph/BV roll whose stage mixing produces S->S with a proved master equation,
-  or separate the strict eight-block differential from the quadratic a D_S
-  Euler/Dirac term and restate the packet target. Field (iii) remains
-  EXTERNAL-VIA-GRAM for the current family. Coflip and domain-stability work
-  remain dependent. No pairing, action, domain, quotient or GU verdict is
-  licensed. Separately, the
+  The strict-eight-block-plus-Euler separation is complete at exact coarse
+  grade. The strict d/Q8 complex remains nilpotent and exact independently of
+  the separate full-nine H9, its live aD_S term and its Gram. Thus strict
+  acyclicity cannot normalize the Euler coefficient or Gram. The five-field
+  ingress target is now the pair d/Q8 and H9 plus an explicit action/BV bridge.
+  Construct B5-STRICT-DIFFERENTIAL-ACTION-BRIDGE next: derive H9 from a typed
+  action containing d, state where aD_S enters, serialize the odd symplectic or
+  antibracket owner, and expose a master-equation condition not identical to
+  Hessian symmetry. EXTERNAL-VIA-GRAM remains the current full-nine Euler
+  verdict; the strict differential's formal-adjoint field is open. Coflip and
+  domain-stability remain dependent. No pairing, action, domain, quotient or
+  GU verdict is licensed. Separately, the
   independent classical RSAP is closed at the exact
   minimum 98 and its
   The independent classical RSAP is closed at the exact minimum 98 and its
