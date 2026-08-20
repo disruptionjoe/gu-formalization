@@ -7,7 +7,19 @@ updated: 2026-08-17
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-17)
+# Agent context pack (updated 2026-08-20)
+
+> **Current K152 curved metric bridge:** the K127/K129 bridge now exists as
+> the exact normal-coordinate `-2 delta G` row followed by the selected
+> conditional Shiab on a closed 112-dimensional distortion packet. The
+> output lowerer has inertia `(58,54)`. Reference and rationally rotated null
+> symbols replay K135 entrywise with rank four and kill diffeomorphisms. The
+> aligned Ricci-flat Weyl fixture gives a rank-nine zero-order bridge; the
+> generic K127 fixture retains off-TT output. K149/K151 produce four live
+> rank-one first-order adjoint coefficients that freezing erases. Continue
+> with K153's smallest closed fivefold composition, frozen-zero replay and
+> first curved null lower coefficient. Do not infer a quotient, domain, BFV
+> class, physical mode, positivity, propagator or GU-wide verdict.
 
 > **Current K151 moving distortion pairing and weighted adjoint:** the selected
 > 56-dimensional null packet now has an exact indefinite

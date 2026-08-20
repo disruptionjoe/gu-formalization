@@ -31,6 +31,16 @@ resulting formal Euler operator through first coordinate jet. It does not
 recover the preferred historical Shiab, compose the curved metric bridge, or
 compute a curved restricted residual.
 
+```gu-typed-objects
+result: K151 moving distortion pairing and weighted formal adjoint
+carrier: LAYER=ambient CHIRALITY=N/A Omega1(Cl(7,7)) selected 56-packet
+pairing: Hodge/scalar-Clifford ON=distortion-56
+real_structure: real Cl(7,7) with exact complex-coordinate bookkeeping
+grading: one-form degree and Clifford blade grade
+action_owner: repository-construction
+target: density-dual formal Euler operator MAP-TYPE=homomorphism
+```
+
 ## 0. Pre-wave and route-selection answers
 
 1. **Typed object.** K150's matrix is a density-dual coefficient. It becomes a
@@ -176,3 +186,14 @@ K152 should serialize the curved metric bridge from K127/K129's owned
 selected-Shiab curvature linearization into the K149/K150/K151 operator
 algebra, replay the frozen and rationally rotated metric packets, and stop
 before fivefold composition unless the bridge passes those typed controls.
+
+## K152 successor classification
+
+K152 closes that bridge on an exact 112-dimensional distortion packet. It
+serializes the normal-coordinate `-2 delta G` selected-Shiab operator,
+replays the held K135 reference and rationally rotated null matrices
+entrywise at rank four, retains K127's aligned and off-TT Weyl controls, and
+constructs the moving weighted formal adjoint through its first lower
+coefficient. The restricted residual remains
+`UNDEFINED_FIVEFOLD_NOT_YET_COMPOSED`; K153 owns the smallest closed
+variable-coefficient fivefold composition and first null lower leakage.

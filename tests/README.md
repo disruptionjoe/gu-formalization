@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k152_curved_metric_bridge_probe.py` verifies the
+  exact normal-coordinate `-2 delta G` selected-Shiab bridge, the 112D
+  DeWitt/Cl(7,7) pairing packet, K135 reference and rationally rotated null
+  replay, K127 aligned/off-TT Weyl controls, and the moving first-order
+  formal-adjoint terms. Its reusable adapter is
+  `channel-swings/k152_curved_metric_bridge_adapter.py`.
+
 - `channel-swings/selected_k151_moving_distortion_pairing_adjoint_probe.py`
   verifies the exact 56-dimensional `Cl(7,7)` distortion lowerer, K149
   weighted-adjoint compatibility with K150, K132 frozen principal replay, the

@@ -2,11 +2,28 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-17"
+updated_at: "2026-08-20"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**K152 curved metric bridge 2026-08-20 (normal-coordinate `-2 delta G` exact;
+Weyl zero-order term live; frozen and rotated null replay).** The selected
+metric-to-distortion bridge now exists as a K149 sparse operator on an exact
+112-dimensional output packet. The Cl(7,7) lowerer has inertia `(58,54)`.
+Reference and rationally rotated null symbols exactly equal the held K135
+matrices, have rank four, and kill the diffeomorphism image. The aligned K127
+Weyl fixture supplies a rank-nine zero-order bridge; the generic fixture
+retains off-TT leakage. Four rank-one first-order formal-adjoint coefficients
+are live and disappear under a frozen-coefficient plant. See
+`explorations/conditional-build/selected-k152-curved-metric-bridge-2026-08-20.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| curved metric bridge | unserialized | exact through order two and Weyl-dependent order zero on selected 112D packet | K127/K129 curvature linearization | K152 module/probe |
+| operative bridge adjoint | absent | exact with four live first-order coefficients | K149/K151 weighted adjoint and pairings | K152 module/probe |
+| curved restricted residual | undefined because bridge absent | still undefined | variable-coefficient fivefold composition | K152 closure gate |
 
 **K151 moving distortion pairing and weighted adjoint 2026-08-17 (exact
 indefinite lowerer; K132 frozen replay; live rank-27 lower term).** The

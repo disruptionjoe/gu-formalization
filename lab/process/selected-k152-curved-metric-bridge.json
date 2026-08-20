@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K152_CURVED_METRIC_BRIDGE",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected conditional comm/symi/symi metric-to-distortion bridge at one Ricci-flat normal-coordinate germ on an exact 112-dimensional output packet.",
+  "predecessors": {
+    "curved_metric_germ": "K127_NATIVE_I1B_RICCI_FLAT_WEYL_TT_CLOSURE_GATE",
+    "mixed_operator_owner": "K129_NATIVE_I1B_T0_AC_KERNEL_AND_DOMAIN_CLASSIFICATION",
+    "sparse_operator_engine": "K149_NATIVE_I1B_MINIMAL_MOVING_EVALUATOR_GATE",
+    "moving_shiab": "K150_MOVING_SELECTED_SHIAB_COORDINATE_ADAPTER",
+    "distortion_pairing": "K151_MOVING_DISTORTION_PAIRING_AND_WEIGHTED_ADJOINT"
+  },
+  "exact_result": {
+    "metric_dimension": 10,
+    "distortion_packet_dimension": 112,
+    "distortion_packet_labels": 8,
+    "metric_pairing_determinant": 64,
+    "distortion_pairing_inertia": [58, 54, 0],
+    "bridge_order": 2,
+    "reference_null_symbol_rank": 4,
+    "rotated_null_symbol_rank": 4,
+    "reference_frozen_matrix_replay": "EXACT_ENTRYWISE",
+    "rotated_frozen_matrix_replay": "EXACT_ENTRYWISE",
+    "diffeomorphism_image_annihilated": true,
+    "aligned_weyl_zero_order_rank": 9,
+    "aligned_tt_weight": "-2*q",
+    "generic_weyl_off_tt_leakage": true,
+    "moving_adjoint_first_order_coefficient_ranks": [1, 1, 1, 1]
+  },
+  "controls": {
+    "normal_twojet_reconstructs_curvature": true,
+    "frozen_bridge_erases_first_order_adjoint_terms": true,
+    "plain_field_transpose_fails_native_weighted_adjoint": true,
+    "zero_tt_compression_does_not_erase_off_tt_output": true,
+    "preferred_historical_shiab_recovered": false
+  },
+  "target_closure": {
+    "curved_metric_bridge": "SERIALIZED_EXACT_ON_SELECTED_112D_PACKET",
+    "weighted_formal_adjoint": "SERIALIZED_THROUGH_FIRST_LOWER_COEFFICIENT",
+    "curved_restricted_residual": "UNDEFINED_FIVEFOLD_NOT_YET_COMPOSED",
+    "curved_null_lower_leakage": "UNDEFINED_FIVEFOLD_NOT_YET_COMPOSED"
+  },
+  "outcome": "CURVED_METRIC_BRIDGE_EXACT__NULL_SYMBOL_RANK4_REPLAY__WEYL_ZERO_ORDER_LIVE__MOVING_ADJOINT_FIRST_ORDER_LIVE__FIVEFOLD_REMAINS_K153",
+  "claim_ceiling": "No preferred historical Shiab, fivefold residual value, quotient endomorphism, inverse, domain, BFV class, physical mode, positivity, propagator, or GU-wide conclusion.",
+  "next_gate": "K153 compose the serialized K149-K152 operators on the smallest closed null action packet, replay the frozen zero, and extract the first curved null lower coefficient.",
+  "canon_verdict_change": "none"
+}

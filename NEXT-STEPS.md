@@ -2,10 +2,24 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-16"
+updated_at: "2026-08-20"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-20 K152 SERIALIZES THE CURVED METRIC BRIDGE AND ITS OPERATIVE
+> FORMAL ADJOINT.** The exact normal-coordinate `-2 delta G` row followed by
+> the selected conditional Shiab closes on a 112-dimensional distortion
+> packet with lowerer inertia `(58,54)`. Its reference and rationally rotated
+> null symbols replay K135 entrywise with rank four and annihilate the
+> diffeomorphism image. An aligned Ricci-flat Weyl fixture gives a live
+> rank-nine zero-order bridge; K127's generic fixture still leaks off TT.
+> Moving the selected frame forces four rank-one first-order adjoint
+> coefficients that a frozen bridge misses. **K153 should now compose the
+> serialized K149--K152 operators on the smallest closed null action packet,
+> replay the frozen fivefold zero, and extract the first curved null lower
+> coefficient. Do not infer a quotient, inverse, domain, BFV class, physical
+> mode, positivity, or propagator.**
 
 > **2026-08-17 K151 SERIALIZES THE MOVING DISTORTION PAIRING AND WEIGHTED
 > FORMAL ADJOINT.** On a nontrivial 56-dimensional null packet, the exact
