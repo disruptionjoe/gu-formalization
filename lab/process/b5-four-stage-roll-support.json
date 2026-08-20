@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-STRICT-FOUR-STAGE-FOLD-HAS-EIGHT-BLOCK-CEILING",
+  "grade": "exact rational formal compact-core and coarse multiplicity support theorem",
+  "probe": {
+    "checks": 22,
+    "status": "pass",
+    "arithmetic": "fractions.Fraction only",
+    "typed_stage_ranks": [128, 1792, 1792, 128],
+    "ordinary_form_degrees": [0, 1, 13, 14]
+  },
+  "fold_support": {
+    "eligible_blocks": ["SI", "SR", "IS", "II", "IR", "RS", "RI", "RR"],
+    "structurally_absent_block": "SS",
+    "maximum_block_count": 8,
+    "current_full_nine_target_eligible": false
+  },
+  "positive_control": {
+    "coarse_ranks": [1, 1, 1],
+    "nilpotent": true,
+    "acyclic": true,
+    "all_eight_eligible_blocks_nonzero": true,
+    "normalized_w131_q": 1,
+    "ss_coefficient_a": 0,
+    "actual_rank_profile_required_for_acyclicity": [128, 1664, 128]
+  },
+  "packet_consequence": {
+    "field_iii_current_nine_block_family": "EXTERNAL-VIA-GRAM",
+    "packet_admission": "rejected_fail_closed",
+    "next_routes": [
+      "ACTION-OWNED-FILTERED-GRAPH-ROLL",
+      "STRICT-EIGHT-BLOCK-PLUS-EULER-SEPARATION"
+    ]
+  },
+  "claim_ceiling": "No obstruction to a filtered graph/BV roll or a strict eight-block action complex is claimed; no full 128/1792 differential, pairing, global domain, quotient, particle result, historical-source recovery or GU verdict is selected."
+}

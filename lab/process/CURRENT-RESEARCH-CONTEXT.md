@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-20)
 
+> **Current B5 four-stage roll-support result:** the strict typed
+> `0->1->13->14` differential, under stage-preserving Hodge/Krein high-to-low
+> rolls, has exactly eight eligible `S/I/R` blocks and structurally no
+> `S->S`. An exact acyclic coarse control retains all eight and normalized
+> W131 `q=1`, so the current full-nine-block Stage-B family is not that
+> differential. Next either construct the filtered field/antifield graph roll
+> that generates `S->S` with proved BV degree/master compatibility, or keep
+> the strict differential eight-block and type `a D_S` as a separate
+> Euler/Dirac term. Field (iii) remains `EXTERNAL-VIA-GRAM` for the current
+> family and the packet stays fail-closed. Do not infer a no-go for all
+> four-stage complexes, a domain, quotient, particle result, preferred
+> historical operator, or GU verdict.
+
 > **Current B5 Stage-B owner result:** the quadratic-action equations now in
 > the tree do not normalize the `S/imGamma` Gram or nine-block coefficients.
 > Exact inequivalent allowed-Gram packets retain full support, `q=1`, rank-two

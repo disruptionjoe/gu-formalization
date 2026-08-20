@@ -42,6 +42,23 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — strict four-stage roll support completed 2026-08-20
+
+The typed `0->1->13->14` owner has now been tested at strict
+stage-preserving fold grade. Its three degree-`+1` arrows populate exactly
+eight coarse blocks and structurally exclude `S->S`; an exact acyclic
+`1->2->2->1` control retains all eight blocks and normalized W131 `q=1`.
+Therefore the current full-nine-block Stage-B family is not the roll of that
+strict differential.
+
+This does not kill the action-complex route. Before another normalization
+attempt, the owner must either construct the filtered field/antifield graph
+roll that generates `S->S` while preserving BV degree/master compatibility,
+or separate the strict eight-block differential from the quadratic `a D_S`
+Euler/Dirac term and restate the five-field target. Field (iii) remains
+`EXTERNAL-VIA-GRAM` for the current nine-block family; the packet remains
+fail-closed.
+
 ## Execution update — Stage-B owner test completed 2026-08-20
 
 The current Stage-B equation set is now executed at

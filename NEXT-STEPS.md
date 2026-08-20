@@ -7,6 +7,20 @@ updated_at: "2026-08-20"
 
 # Next Steps For Contributors
 
+> **2026-08-20 THE STRICT B5 FOUR-STAGE FOLD HAS AN EIGHT-BLOCK
+> CEILING.** For `U0=S`, `U1=I+R`, `U2=(I+R)^vee_dens`, and
+> `U3=S^vee_dens`, a degree-`+1` differential under the declared
+> stage-preserving Hodge/Krein fold supplies `SI,SR,IS,II,IR,RS,RI,RR` and
+> structurally no `SS`. An exact acyclic `1->2->2->1` control has all eight
+> eligible blocks nonzero and retains normalized W131 `q=1`. **The current
+> full-nine-block Stage-B family is therefore not the roll of this strict
+> differential. Next build either the action-owned filtered field/antifield
+> graph roll that produces `S->S` with proved BV degree/master compatibility,
+> or an eight-block strict differential with `a D_S` separately typed as an
+> Euler/Dirac term. Do not retry Gram normalization, call the present matrix
+> the actual four-stage differential, or infer a domain, quotient, particle
+> result, preferred historical operator, or GU verdict.**
+
 > **2026-08-20 B5 STAGE-B'S CURRENT ACTION EQUATIONS DO NOT NORMALIZE THE
 > GRAM.** At the coarse formal compact-core grade, `H=GM` makes quadratic-
 > action symmetry and formal Krein adjointness the same equation, while the

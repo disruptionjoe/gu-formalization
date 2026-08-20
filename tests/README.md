@@ -6,6 +6,9 @@ the map: which directory/group supports which claim.
 
 ## Current B5 five-field packet gate
 
+- `channel-swings/b5_four_stage_roll_support_probe.py` proves that the typed
+  strict `0->1->13->14` fold has an eight-block ceiling with structural
+  `S->S=0`, and supplies an exact acyclic all-eight-block `q=1` control.
 - `channel-swings/b5_stage_b_action_normalization_probe.py` uses exact
   rational arithmetic to construct two inequivalent allowed-Gram,
   full-nine-block, normalized-`q=1` rank-two action packets with the same

@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**B5 strict four-stage roll-support gate 2026-08-20 (eight-block ceiling;
+current full-nine target ineligible).** The typed
+`U0=S -> U1=I+R -> U2=(I+R)^vee_dens -> U3=S^vee_dens` complex, under the
+declared stage-preserving Hodge/Krein fold, has exactly eight eligible coarse
+blocks and structurally zero `S->S`. An exact acyclic `1->2->2->1` control
+retains all eight eligible blocks and normalized W131 `q=1`. Thus the current
+full-nine-block Stage-B family is not the roll of this strict differential.
+A filtered field/antifield graph roll or an eight-block-plus-separate-Euler
+reformulation remains open. See
+`explorations/b5-four-stage-roll-support-obstruction-2026-08-20.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| four-stage carrier | typed, differential unbuilt | strict fold support exact; eight-block ceiling | full `128->1792->1792->128` maps | exact probe/result |
+| current nine-block family | waiting for four-stage owner | ineligible as strict stage-preserving fold because `SS` is live | filtered graph/BV roll or Euler separation | B5 current state |
+| five-field packet | fail-closed | still fail-closed; field (iii) remains `EXTERNAL-VIA-GRAM` for current family | object-fork owner, then pairing/remaining fields | packet design |
+
 **B5 Stage-B action normalization 2026-08-20 (current equations
 underdetermine Gram and coefficients; packet still fail-closed).** At the
 coarse formal compact-core grade, write the quadratic Hessian as `H=GM`.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1c17feda2eba07ab281a581f73670ce3e21371f5
+revision_basis: f81174b4cb452bd2f358a2c0d30bf8dc0cad322e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The typed B5 0->1->13->14 action-complex gate now proves a structural
+    target mismatch. With U0=S, U1=I+R, U2=(I+R)^vee_dens and
+    U3=S^vee_dens, any strict degree-+1 differential under the declared
+    stage-preserving Hodge/Krein fold has exactly eight eligible S/I/R blocks
+    and structurally zero S->S. An exact acyclic 1->2->2->1 control retains
+    all eight eligible blocks and normalized W131 q=1, so the obstruction is
+    sharp: the current full-nine-block Stage-B family is not the fold of that
+    strict differential. This does not exclude a filtered field/antifield
+    graph roll that mixes stages or an eight-block differential with a
+    separately typed Euler/Dirac term. Field (iii) remains EXTERNAL-VIA-GRAM
+    for the current nine-block family and the five-field packet remains
+    fail-closed. Before another normalization solve, construct one of those
+    two action-owned routes and restate the exact object being normalized.
+    No full 128/1792 differential, pairing, global domain, quotient,
+    source-preferred operator, particle result or GU verdict is selected.
+    Joe input is not required.
     The independent B5 Stage-B owner test now proves that the currently
     serialized quadratic-action equations do not normalize the S/imGamma
     multiplicity Gram or the nine-block coefficients. Two inequivalent
@@ -1935,13 +1951,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can an explicit action-owned 0->1->13->14 differential and its Hodge/Krein
-  roll maps supply a genuinely independent nilpotence, acyclicity or nonlinear
-  BV relation that normalizes the B5 S/imGamma Gram and nine-block coefficients?
-  Do not repeat the quadratic-action symmetry, formal-adjoint or coarse-kernel
-  equations as independent constraints. Preserve the full-20 Cl(9,5) carrier,
-  formal compact-core grade, fail-closed five-field packet, and the distinction
-  from the historical preferred Shiab and K77.
+  Can an action-owned filtered field/antifield graph roll produce the missing
+  S->S block while preserving the 0->1->13->14 cochain/BV degree and master
+  equation, or should B5 instead keep the strict differential eight-block and
+  type a D_S as a separate quadratic Euler/Dirac term? Do not retry Gram or
+  nine-block normalization until that object fork is owned. Preserve the
+  full-20 Cl(9,5) carrier, formal compact-core grade, fail-closed five-field
+  packet, and the distinction from the historical preferred Shiab and K77.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -1950,15 +1966,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  B5 Stage-B is closed against the equations currently serialized. Exact
-  inequivalent-Gram witnesses show that quadratic-action symmetry, formal
-  adjointness, normalized W131 support, a coarse principal kernel and linear
-  BV/Noether closure leave a positive-dimensional Gram/coefficient family.
-  Field (iii) remains EXTERNAL-VIA-GRAM. Before another normalization attempt,
-  serialize the missing action-owned four-stage differential and Hodge/Krein
-  roll maps, then expose one independent nilpotence/acyclicity or nonlinear BV
-  equation. Coflip and domain-stability work remain dependent. No pairing,
-  action, domain, quotient or GU verdict is licensed. Separately, the
+  The strict B5 0->1->13->14 fold is now support-closed: stage-preserving
+  Hodge/Krein rolls permit exactly eight coarse blocks and forbid S->S, while
+  an exact acyclic q=1 eight-block control proves the route is nonvacuous. The
+  current full-nine-block Stage-B family is therefore not that differential.
+  Before another normalization attempt, either build the action-owned filtered
+  graph/BV roll whose stage mixing produces S->S with a proved master equation,
+  or separate the strict eight-block differential from the quadratic a D_S
+  Euler/Dirac term and restate the packet target. Field (iii) remains
+  EXTERNAL-VIA-GRAM for the current family. Coflip and domain-stability work
+  remain dependent. No pairing, action, domain, quotient or GU verdict is
+  licensed. Separately, the
   independent classical RSAP is closed at the exact
   minimum 98 and its
   The independent classical RSAP is closed at the exact minimum 98 and its
