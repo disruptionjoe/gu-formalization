@@ -157,6 +157,18 @@ frozen and positive-pairing plants. Only a later nonzero restricted coefficient
 can be tested for metric-radical leakage; another zero advances the exact
 lower-order boundary without licensing a quotient.
 
+## K154 successor classification
+
+K154 carries out that second-jet gate on the same exact 448-dimensional packet.
+The new unrestricted coefficient `[P^5]_3` is live at rank 16 and the moving
+bridge first jet is live at rank one, but both order-five restricted
+contributions vanish separately at the reference and rotated null covectors.
+The exact restricted-zero boundary therefore advances through order five.
+Orders four and below remain open; K155 owns the complete order-four
+coefficient with minimal third coefficient jets, higher bridge jets and
+K152's Weyl-dependent zero-order coefficient. See
+`selected-k154-null-fivefold-second-lower-2026-08-20.md`.
+
 Reproduce:
 
 ```bash

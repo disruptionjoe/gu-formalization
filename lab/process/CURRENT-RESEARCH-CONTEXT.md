@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-20)
 
+> **Current K154 null fivefold second lower:** exact second-jet closure stays
+> on K153's 32 labels and 448-dimensional selected-action packet at the
+> reference and rationally rotated null covectors. Raw second and first
+> formal-Euler lower jets have rank `241`; the principal second jet has rank
+> `260`; the moving fifth power has a live rank-sixteen `[P^5]_3`. K152's
+> order-two bridge symbol has rank four and its first jet rank one, but the
+> direct and bridge-jet terms in `[K P^5 K A]_5` vanish separately at both
+> covectors. This proves no leakage through the second restricted lower order,
+> not a zero full remainder or all-chart theorem. Continue with K155's
+> complete order-four coefficient, minimal third coefficient jets, higher
+> bridge jets and Weyl-dependent zero-order bridge. Do not infer a quotient,
+> domain, BFV class, physical mode, positivity, propagator or GU-wide verdict.
+
 > **Current K153 null fivefold first lower:** exact first-jet closure expands
 > K152's bridge seed to a 448-dimensional selected-action packet with
 > lowerer inertia `(260,188)`. Reference and rationally rotated null symbols

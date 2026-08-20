@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K154_NULL_FIVEFOLD_SECOND_LOWER",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected conditional comm/symi/symi null fivefold second-lower coefficient on the exact second-jet closed distortion packets, followed by the complete K152 order-five bridge restriction along one selected inner-Spin chart.",
+  "predecessors": {
+    "first_lower_gate": "K153_NULL_FIVEFOLD_FIRST_LOWER",
+    "curved_metric_bridge": "K152_CURVED_METRIC_BRIDGE",
+    "moving_operator_stack": [
+      "K149_NATIVE_I1B_MINIMAL_MOVING_EVALUATOR_GATE",
+      "K150_MOVING_SELECTED_SHIAB_COORDINATE_ADAPTER",
+      "K151_MOVING_DISTORTION_PAIRING_AND_WEIGHTED_ADJOINT"
+    ]
+  },
+  "exact_result": {
+    "reference_null_covector": [1, 0, 0, 1],
+    "rotated_null_covector": ["1", "3/5", "0", "4/5"],
+    "second_jet_closed_labels": 32,
+    "closed_packet_dimension": 448,
+    "distortion_lowerer_inertia": [260, 188, 0],
+    "reference_raw_second_jet_rank": 241,
+    "rotated_raw_second_jet_rank": 241,
+    "reference_principal_second_jet_rank": 260,
+    "rotated_principal_second_jet_rank": 260,
+    "reference_formal_lower_first_jet_rank": 241,
+    "rotated_formal_lower_first_jet_rank": 241,
+    "reference_P5_first_lower_rank": 4,
+    "rotated_P5_first_lower_rank": 4,
+    "reference_P5_second_lower_rank": 16,
+    "rotated_P5_second_lower_rank": 16,
+    "reference_bridge_symbol_rank": 4,
+    "rotated_bridge_symbol_rank": 4,
+    "reference_bridge_first_jet_rank": 1,
+    "rotated_bridge_first_jet_rank": 1,
+    "reference_restricted_order5_direct_rank": 0,
+    "rotated_restricted_order5_direct_rank": 0,
+    "reference_restricted_order5_bridge_jet_rank": 0,
+    "rotated_restricted_order5_bridge_jet_rank": 0,
+    "reference_restricted_order5_rank": 0,
+    "rotated_restricted_order5_rank": 0,
+    "second_restricted_metric_radical_leakage": "ZERO_AT_ORDER_5"
+  },
+  "controls": {
+    "full_k149_scalar_recurrence_replay": true,
+    "k153_first_lower_replay": true,
+    "first_jet_truncation_changes_second_lower_matrix": true,
+    "frozen_second_lower_zero": true,
+    "positive_identity_pairing_breaks_frozen_nilpotence": true,
+    "moving_bridge_first_jet_nonzero": true,
+    "unrestricted_second_lower_core_rank": 16,
+    "reference_rotated_rank_replay": true,
+    "lower_orders_computed": false
+  },
+  "target_closure": {
+    "null_action_packet": "SECOND_JET_CLOSED_EXACT_448D",
+    "P5_second_lower": "LIVE_RANK_16",
+    "moving_bridge_first_jet": "LIVE_RANK_1",
+    "restricted_fivefold_second_lower": "ZERO_DIRECT_AND_BRIDGE_JET_TERMS_AT_REFERENCE_AND_ROTATED_NULL",
+    "curved_null_lower_leakage": "NO_LEAKAGE_THROUGH_SECOND_LOWER_ORDER_ONLY",
+    "later_lower_coefficients": "UNEVALUATED_THIRD_AND_HIGHER_JETS_REQUIRED"
+  },
+  "outcome": "NULL_ACTION_PACKET_448D_SECOND_JET_CLOSED__P5_SECOND_LOWER_RANK16_LIVE__MOVING_BRIDGE_FIRST_JET_RANK1_LIVE__RESTRICTED_ORDER5_DIRECT_AND_BRIDGE_JET_TERMS_ZERO_AT_REFERENCE_AND_ROTATED_NULL__ORDERS4_AND_BELOW_OPEN",
+  "claim_ceiling": "No preferred historical Shiab, full curved-remainder zero, all-chart or mixed-jet theorem, all-order radical preservation, quotient endomorphism, inverse, domain, BFV class, physical mode, positivity, propagator, or GU-wide conclusion.",
+  "next_gate": "K155 compute the complete order-four coefficient of K P^5 K A using the minimal third coefficient jets, bridge first and second jets, and K152 Weyl-dependent zero-order coefficient, retaining closed-packet, recurrence, frozen, truncation, positive-pairing, reference and rotated controls.",
+  "canon_verdict_change": "none"
+}

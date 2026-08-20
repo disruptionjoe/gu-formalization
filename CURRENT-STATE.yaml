@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 324cfc0fd066fa26c30cb1274a3c896d909ddf99
+revision_basis: a91ba1b600812299eb6df6bd2c934f9a174cb81e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K154 now extends K153's exact 448-dimensional selected-action packet
+    through the minimal second coefficient jets without enlarging its 32
+    Clifford labels. At both the reference and rationally rotated null
+    covectors, the raw second jet and first formal-Euler lower jet have rank
+    241, the generalized principal second jet has rank 260, and the
+    order-three coefficient [P^5]_3 is live at rank 16. A first-jet
+    truncation changes that matrix even though its rank can agree, while full
+    coefficient freezing erases it. K152's moving order-two bridge symbol has
+    rank four and its first jet is live at rank one. The complete order-five
+    restriction is nevertheless zero: both K [P^5]_3 K A_2 and
+    4 K [P^5]_4 K (A_2)' vanish separately at both null covectors. Thus no
+    restricted metric-radical leakage appears through the second lower order.
+    Orders four and below remain unevaluated; K155 owns the next coefficient
+    with the minimal third jets and the Weyl-dependent zero-order bridge. No
+    all-chart, quotient, inverse, domain, BFV, physical-mode, positivity or
+    propagator claim follows. Joe input is not required.
     K153 now closes K152's eight-label bridge seed under the frozen and
     first-coordinate-jet selected conditional Shiab action. At both the
     reference and rationally rotated null covectors, the minimal packet has

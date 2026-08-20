@@ -8,6 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K154 null fivefold second-lower coefficient 2026-08-20 (448D second-jet
+closure; live rank-16 unrestricted layer; live bridge jet; zero complete
+second restriction).** The reference and rationally rotated packets remain
+closed on 32 Clifford labels and 448 distortion directions. Their raw second
+jets and first formal-Euler lower jets have rank `241`, generalized principal
+second jets have rank `260`, and `[P^5]_3` has rank `16`. K152's order-two
+bridge symbol has rank four and its first jet rank one. Both contributions to
+the complete order-five coefficient of `K P^5 K A` vanish separately, so no
+metric-radical leakage occurs through this second lower order. Orders four and
+below remain open. See
+`explorations/conditional-build/selected-k154-null-fivefold-second-lower-2026-08-20.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| second-jet null action packet | first-jet closed | exact same 448D closure at reference and rotated null covectors | selected conditional action | K154 module/probe |
+| second-lower `P^5` | unevaluated | live rank-sixteen order-three coefficient | second principal and first lower jets | K154 module/probe |
+| restricted curved residual | zero through order six | order-five direct and bridge-jet terms separately zero; orders four and below open | third coefficient jets and Weyl zero-order bridge | K154 closure gate |
+
 **K153 null fivefold first-lower coefficient 2026-08-20 (448D first-jet
 closure; frozen fifth-step nilpotence; live unrestricted lower term; zero
 first bridge restriction).** Closing K152's bridge seed under the selected

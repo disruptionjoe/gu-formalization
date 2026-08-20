@@ -7,6 +7,21 @@ updated_at: "2026-08-20"
 
 # Next Steps For Contributors
 
+> **2026-08-20 K154 CLOSES THE NULL FIVEFOLD SECOND-LOWER COEFFICIENT.** The
+> exact second-jet action closure stays on K153's 32 labels and 448 directions
+> at both `n0=(1,0,0,1)` and `n1=(1,3/5,0,4/5)`. The raw second jet and first
+> formal-Euler lower jet have rank `241`, the generalized principal second jet
+> has rank `260`, and `[P^5]_3` is live at rank `16`. K152's moving bridge
+> first jet is live at rank one, but the direct and bridge-jet terms in
+> `[K P^5 K A]_5` vanish separately at both covectors. There is no restricted
+> leakage through the second lower order; the full curved remainder remains
+> open. **K155 should compute the complete order-four coefficient using the
+> minimal third coefficient jets, the bridge first and second jets, and the
+> Weyl-dependent zero-order bridge, retaining closure, recurrence, frozen,
+> truncation, positive-pairing and reference/rotated controls. Do not infer
+> all-chart descent, a quotient, inverse, domain, BFV class, physical mode,
+> positivity or propagator.**
+
 > **2026-08-20 K153 CLOSES THE NULL FIVEFOLD FIRST-LOWER COEFFICIENT.** Exact
 > first-jet action closure enlarges K152's 112-dimensional bridge seed to a
 > 448-dimensional packet with lowerer inertia `(260,188)`. At both

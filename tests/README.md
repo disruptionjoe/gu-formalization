@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k154_null_fivefold_second_lower_probe.py` verifies
+  exact second-jet closure on the 448-dimensional reference and rotated null
+  packets, the live rank-sixteen second-lower coefficient of `P^5`, K153
+  first-lower replay, the live rank-one moving bridge jet, and the separately
+  zero direct and bridge-jet contributions to the complete order-five
+  restriction. Its reusable adapter is
+  `channel-swings/k154_null_fivefold_second_lower_adapter.py`.
+
 - `channel-swings/selected_k153_null_fivefold_first_lower_probe.py` verifies
   exact first-jet action closure on the 448-dimensional reference and rotated
   null packets, generalized-symbol power ranks `[234,125,16,8,0]`, the live
