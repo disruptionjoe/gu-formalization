@@ -8,6 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K153 null fivefold first-lower coefficient 2026-08-20 (448D first-jet
+closure; frozen fifth-step nilpotence; live unrestricted lower term; zero
+first bridge restriction).** Closing K152's bridge seed under the selected
+action yields 32 Clifford labels and 448 distortion directions with lowerer
+inertia `(260,188)`. The reference and rationally rotated generalized null
+symbols both have power ranks `[234,125,16,8,0]`. Their variable-coefficient
+fifth powers have a live rank-four first-lower term, but its exact composition
+with K152's rank-four bridge image is zero. Thus the order-six coefficient of
+`K P^5 K A` has no metric-radical leakage at either covector; later lower
+orders remain open. See
+`explorations/conditional-build/selected-k153-null-fivefold-first-lower-2026-08-20.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| closed null action packet | absent | exact 448D first-jet closure at reference and rotated null covectors | selected conditional action and K152 bridge seed | K153 module/probe |
+| frozen and first-lower `P^5` | frozen zero only | power ranks `[234,125,16,8,0]`; live rank-four first lower | K149--K151 moving formal Euler stack | K153 module/probe |
+| restricted curved residual | undefined | order-six coefficient zero at both null covectors; later orders open | second and higher coefficient jets | K153 closure gate |
+
 **K152 curved metric bridge 2026-08-20 (normal-coordinate `-2 delta G` exact;
 Weyl zero-order term live; frozen and rotated null replay).** The selected
 metric-to-distortion bridge now exists as a K149 sparse operator on an exact

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0770a47786e11ff5fa0e0a11a2de5bb514b45d99
+revision_basis: 324cfc0fd066fa26c30cb1274a3c896d909ddf99
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    K153 now closes K152's eight-label bridge seed under the frozen and
+    first-coordinate-jet selected conditional Shiab action. At both the
+    reference and rationally rotated null covectors, the minimal packet has
+    32 Clifford labels, 448 one-form/Clifford directions, and
+    Hodge/scalar-Clifford inertia (260,188). The native generalized symbol
+    P=K C has exact power ranks [234,125,16,8,0], replaying fifth-step frozen
+    nilpotence. Variable coefficients produce a live rank-four first-lower
+    coefficient [P^5]_4, which freezing erases. After exact embedding of
+    K152's rank-four bridge symbol, however, the order-six coefficient
+    [K P^5 K A]_6 vanishes at both null covectors: the live distortion term
+    annihilates the bridge image, so there is no restricted metric-radical
+    leakage at this first lower order. Orders five and below remain
+    unevaluated and require higher jets. K154 owns the second restricted lower
+    coefficient; no quotient, inverse, domain, BFV, physical-mode, positivity
+    or propagator claim follows. Joe input is not required.
     K152 now serializes the K127/K129 curved metric-to-distortion bridge as
     the exact normal-coordinate -2 linearized Einstein row followed by the
     selected conditional Shiab. The closed 112-dimensional output packet has

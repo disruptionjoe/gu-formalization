@@ -159,3 +159,14 @@ Reproduce:
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/selected_k152_curved_metric_bridge_probe.py
 ```
+
+## K153 successor classification
+
+K153 closes the bridge seed under the frozen and first-jet selected action on
+an exact 448-dimensional packet. The generalized null symbol has power ranks
+`[234,125,16,8,0]` at the reference and rationally rotated covectors. Its
+variable fifth power has a live rank-four first-lower coefficient, but the
+order-six coefficient of `K P^5 K A` is exactly zero at both covectors because
+that term annihilates the K152 bridge image. This is no first-lower restricted
+leakage, not a zero complete curved remainder. K154 owns the order-five
+restricted coefficient with the required second jets.

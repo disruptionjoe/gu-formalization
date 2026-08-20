@@ -7,6 +7,19 @@ updated_at: "2026-08-20"
 
 # Next Steps For Contributors
 
+> **2026-08-20 K153 CLOSES THE NULL FIVEFOLD FIRST-LOWER COEFFICIENT.** Exact
+> first-jet action closure enlarges K152's 112-dimensional bridge seed to a
+> 448-dimensional packet with lowerer inertia `(260,188)`. At both
+> `n0=(1,0,0,1)` and `n1=(1,3/5,0,4/5)`, the generalized symbol has power
+> ranks `[234,125,16,8,0]`. Moving coefficients force a live rank-four
+> `[P^5]_4`, but exact bridge restriction gives
+> `[K P^5 K A]_6=0`: there is no first-lower restricted leakage, while the
+> full curved remainder remains open. **K154 should compute the order-five
+> restricted coefficient using the minimal required second jets, retaining
+> packet closure, frozen, positive-pairing and reference/rotated controls. Do
+> not infer all-order descent, a quotient, inverse, domain, BFV class,
+> physical mode, positivity, or propagator.**
+
 > **2026-08-20 K152 SERIALIZES THE CURVED METRIC BRIDGE AND ITS OPERATIVE
 > FORMAL ADJOINT.** The exact normal-coordinate `-2 delta G` row followed by
 > the selected conditional Shiab closes on a 112-dimensional distortion

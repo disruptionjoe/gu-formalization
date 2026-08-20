@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k153_null_fivefold_first_lower_probe.py` verifies
+  exact first-jet action closure on the 448-dimensional reference and rotated
+  null packets, generalized-symbol power ranks `[234,125,16,8,0]`, the live
+  rank-four first-lower coefficient of `P^5`, and the zero order-six
+  coefficient after K152 bridge restriction. Its reusable adapter is
+  `channel-swings/k153_null_fivefold_first_lower_adapter.py`.
+
 - `channel-swings/selected_k152_curved_metric_bridge_probe.py` verifies the
   exact normal-coordinate `-2 delta G` selected-Shiab bridge, the 112D
   DeWitt/Cl(7,7) pairing packet, K135 reference and rationally rotated null

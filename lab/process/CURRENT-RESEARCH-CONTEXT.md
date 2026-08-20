@@ -3,11 +3,22 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-17
+updated: 2026-08-20
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
 # Agent context pack (updated 2026-08-20)
+
+> **Current K153 null fivefold first lower:** exact first-jet closure expands
+> K152's bridge seed to a 448-dimensional selected-action packet with
+> lowerer inertia `(260,188)`. Reference and rationally rotated null symbols
+> have power ranks `[234,125,16,8,0]`. The moving fifth power has a live
+> rank-four first-lower term, but `[K P^5 K A]_6=0` at both covectors because
+> that term annihilates the bridge image. This proves no leakage only at the
+> first restricted lower order, not a zero full remainder. Continue with
+> K154's order-five restricted coefficient and the minimal second jets. Do not
+> infer all-order descent, a quotient, domain, BFV class, physical mode,
+> positivity, propagator, or GU-wide verdict.
 
 > **Current K152 curved metric bridge:** the K127/K129 bridge now exists as
 > the exact normal-coordinate `-2 delta G` row followed by the selected
