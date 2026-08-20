@@ -134,6 +134,19 @@ and K152's Weyl-dependent zero-order bridge coefficient, so it needs the
 minimal third coefficient jets and must retain the same closure, recurrence,
 pairing, frozen, truncation, reference/rotated and nonvacuity controls.
 
+## K155 successor classification
+
+K155 closes the third-jet packet on the same 32 labels and 448 directions,
+finds `[P^5]_2` live at rank 82, and computes all four terms of the complete
+order-four restriction. The result has rank one and kills diffeomorphisms at
+both covectors. On K152's fixed nonzero aligned Weyl background it annihilates
+the reference metric radical but has exact rank-one rotated radical leakage,
+carried solely by the Weyl-dependent zero-order bridge coefficient. The flat
+control removes the leakage. This kills radical descent for the selected
+conditional branch and fixture; it does not bind the unrecovered preferred
+historical Shiab or GU, and it does not license mechanical continuation to
+K156 without a typed same-order owner.
+
 Reproduce:
 
 ```bash

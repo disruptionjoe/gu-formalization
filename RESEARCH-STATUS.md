@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K155 null fivefold third-lower coefficient 2026-08-20 (448D third-jet
+closure; live rank-82 unrestricted layer; rank-one complete order-four
+coefficient; Weyl-dependent rotated radical leakage).** The reference and
+rationally rotated packets remain closed on 32 labels and 448 distortion
+directions. Raw third and second formal-Euler lower jets have rank `238`,
+principal third jets rank `258`, and `[P^5]_2` rank `82`. The complete
+order-four coefficient is rank one and kills diffeomorphisms at both
+covectors. It annihilates the reference metric radical, but has a rank-one
+image on the rotated radical carried solely by K152's nonzero Weyl-dependent
+zero-order bridge term; the flat control removes it. This closes the selected
+conditional radical-descent route, not GU or the preferred historical Shiab.
+See `explorations/conditional-build/selected-k155-null-fivefold-third-lower-2026-08-20.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| third-jet null action packet | second-jet closed | exact same 448D closure at reference and rotated null covectors | selected conditional action | K155 module/probe |
+| third-lower `P^5` | unevaluated | live rank-82 order-two coefficient | third principal and second lower jets | K155 module/probe |
+| restricted curved residual | zero through order five | order-four rank one; rotated metric-radical leakage rank one from Weyl zero-order term | selected conditional Shiab and fixed Weyl fixture | K155 closure gate |
+
 **K154 null fivefold second-lower coefficient 2026-08-20 (448D second-jet
 closure; live rank-16 unrestricted layer; live bridge jet; zero complete
 second restriction).** The reference and rationally rotated packets remain

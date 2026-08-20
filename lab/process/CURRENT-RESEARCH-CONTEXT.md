@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-20)
 
+> **Current K155 null fivefold third lower:** exact degree-nine interpolation
+> closes the third-jet selected-action packet on the same 32 labels and 448
+> directions. Raw third and second formal-Euler lower jets have rank `238`,
+> the principal third jet rank `258`, and `[P^5]_2` rank `82`. The complete
+> order-four coefficient is rank one and kills diffeomorphisms at both tested
+> null covectors. On K152's fixed nonzero aligned Weyl background it
+> annihilates the reference metric radical but leaks the rotated radical at
+> rank one, solely through the Weyl zero-order bridge term; the flat control
+> removes the leakage. This kills radical descent only for the selected
+> conditional branch and fixture. Do not continue mechanically to K156 or
+> infer a preferred-Shiab/GU-wide no-go, quotient domain, BFV class, physical
+> mode, positivity or propagator. Reopen only with a typed same-order owner;
+> otherwise rebuild the broader substantial-arc frontier.
+
 > **Current K154 null fivefold second lower:** exact second-jet closure stays
 > on K153's 32 labels and 448-dimensional selected-action packet at the
 > reference and rationally rotated null covectors. Raw second and first

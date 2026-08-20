@@ -7,6 +7,22 @@ updated_at: "2026-08-20"
 
 # Next Steps For Contributors
 
+> **2026-08-20 K155 FINDS THE FIRST CURVATURE-DEPENDENT NULL RADICAL
+> LEAKAGE.** The exact third-jet packet remains 32 labels and 448 directions.
+> Raw third and second formal-Euler lower jets have rank `238`, the principal
+> third jet rank `258`, and `[P^5]_2` rank `82`. K152's order-two bridge jet
+> ranks are `[4,1,4]`; its Weyl zero-order coefficient has rank nine. The four
+> terms in `[K P^5 K A]_4` are each rank one and their sum is rank one. The
+> complete coefficient kills diffeomorphisms at both covectors. It annihilates
+> `H_n` at the aligned reference, but at `n1=(1,3/5,0,4/5)` it has rank-one
+> metric-radical leakage carried solely by the Weyl zero-order term; `q=0`
+> removes the leakage. **This kills radical descent for the selected
+> conditional branch and fixed nonzero Weyl fixture. Do not continue to K156.
+> Reopen only with a typed source/action-selected Shiab or separately owned
+> same-order correction; otherwise rebuild the broader substantial-arc
+> frontier. Do not infer a preferred-Shiab or GU-wide no-go, quotient domain,
+> BFV class, physical mode, positivity or propagator.**
+
 > **2026-08-20 K154 CLOSES THE NULL FIVEFOLD SECOND-LOWER COEFFICIENT.** The
 > exact second-jet action closure stays on K153's 32 labels and 448 directions
 > at both `n0=(1,0,0,1)` and `n1=(1,3/5,0,4/5)`. The raw second jet and first

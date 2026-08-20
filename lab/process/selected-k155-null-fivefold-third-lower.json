@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K155_NULL_FIVEFOLD_THIRD_LOWER",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Selected conditional comm/symi/symi null fivefold third-lower coefficient on the exact third-jet closed distortion packets, followed by the complete K152 order-four bridge restriction on one selected inner-Spin coordinate axis and fixed aligned Ricci-flat Weyl family.",
+  "predecessors": {
+    "second_lower_gate": "K154_NULL_FIVEFOLD_SECOND_LOWER",
+    "curved_metric_bridge": "K152_CURVED_METRIC_BRIDGE",
+    "moving_operator_stack": [
+      "K149_NATIVE_I1B_MINIMAL_MOVING_EVALUATOR_GATE",
+      "K150_MOVING_SELECTED_SHIAB_COORDINATE_ADAPTER",
+      "K151_MOVING_DISTORTION_PAIRING_AND_WEIGHTED_ADJOINT"
+    ]
+  },
+  "exact_result": {
+    "reference_null_covector": [1, 0, 0, 1],
+    "rotated_null_covector": ["1", "3/5", "0", "4/5"],
+    "third_jet_closed_labels": 32,
+    "closed_packet_dimension": 448,
+    "distortion_lowerer_inertia": [260, 188, 0],
+    "reference_raw_third_jet_rank": 238,
+    "rotated_raw_third_jet_rank": 238,
+    "reference_principal_third_jet_rank": 258,
+    "rotated_principal_third_jet_rank": 258,
+    "reference_formal_lower_second_jet_rank": 238,
+    "rotated_formal_lower_second_jet_rank": 238,
+    "reference_P5_third_lower_rank": 82,
+    "rotated_P5_third_lower_rank": 82,
+    "bridge_order2_jet_ranks": [4, 1, 4],
+    "bridge_zero_order_rank": 9,
+    "reference_order4_term_ranks": [1, 1, 1, 1],
+    "rotated_order4_term_ranks": [1, 1, 1, 1],
+    "reference_restricted_order4_rank": 1,
+    "rotated_restricted_order4_rank": 1,
+    "reference_gauge_image_rank": 0,
+    "rotated_gauge_image_rank": 0,
+    "reference_metric_radical_leakage_rank": 0,
+    "rotated_metric_radical_leakage_rank": 1,
+    "rotated_derivative_term_radical_leakage_rank": 0,
+    "rotated_weyl_zero_order_radical_leakage_rank": 1,
+    "flat_control_rotated_radical_leakage_rank": 0,
+    "rotated_witness": {
+      "metric_slot_vector": ["6/5", "1", "0", "0", "0", "0", "0", "0", "0", "0"],
+      "ell_contraction": 0,
+      "output_row_224": "2532096*q/125"
+    }
+  },
+  "controls": {
+    "ten_point_degree_nine_interpolation_certificate": true,
+    "full_k149_scalar_recurrence_replay": true,
+    "k154_top_three_layer_replay": true,
+    "third_jet_truncation_changes_third_lower_matrix": true,
+    "frozen_third_lower_zero": true,
+    "positive_identity_pairing_breaks_frozen_nilpotence": true,
+    "reference_rotated_rank_replay": true,
+    "diffeomorphism_annihilation_both_covectors": true,
+    "flat_control_removes_rotated_radical_leakage": true,
+    "lower_orders_computed": false
+  },
+  "target_closure": {
+    "null_action_packet": "THIRD_JET_CLOSED_EXACT_448D",
+    "P5_third_lower": "LIVE_RANK_82",
+    "complete_order4": "RANK_1_AT_REFERENCE_AND_ROTATED_NULL",
+    "gauge_action": "ZERO_AT_REFERENCE_AND_ROTATED_NULL",
+    "metric_radical_action": "ZERO_REFERENCE__RANK1_ROTATED_FROM_WEYL_ZERO_ORDER_TERM",
+    "selected_branch_descent_route": "KILLED_BY_CURVATURE_DEPENDENT_ORDER4_LEAKAGE"
+  },
+  "outcome": "NULL_ACTION_PACKET_448D_THIRD_JET_CLOSED__P5_THIRD_LOWER_RANK82_LIVE__COMPLETE_ORDER4_RANK1_GAUGE_ZERO__ROTATED_METRIC_RADICAL_LEAKAGE_RANK1_WEYL_ZERO_ORDER_ONLY__SELECTED_BRANCH_DESCENT_ROUTE_KILLED",
+  "claim_ceiling": "No preferred historical Shiab, all-chart or co-rotated-background theorem, GU-wide no-go, quotient endomorphism, inverse, domain, BFV class, physical mode, positivity or propagator.",
+  "next_gate": "Do not continue mechanically to K156. Reopen this descent route only with a typed source/action-selected Shiab or independently owned same-order correction; otherwise rebuild the broader substantial-arc frontier.",
+  "canon_verdict_change": "none"
+}

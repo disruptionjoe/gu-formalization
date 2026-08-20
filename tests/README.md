@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k155_null_fivefold_third_lower_probe.py` verifies
+  exact degree-nine interpolation and third-jet closure on the 448-dimensional
+  reference and rotated null packets, the live rank-82 third-lower coefficient
+  of `P^5`, the complete four-term order-four bridge coefficient, gauge
+  annihilation at both covectors, and the rank-one rotated metric-radical
+  leakage carried solely by the Weyl zero-order term. Run with
+  `uv run --offline --with sympy==1.14.0 python`.
+
 - `channel-swings/selected_k154_null_fivefold_second_lower_probe.py` verifies
   exact second-jet closure on the 448-dimensional reference and rotated null
   packets, the live rank-sixteen second-lower coefficient of `P^5`, K153
