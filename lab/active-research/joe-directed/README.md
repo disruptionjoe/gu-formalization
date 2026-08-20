@@ -2,7 +2,7 @@
 title: "Joe-Directed Channels"
 status: active_research
 doc_type: overview
-updated_at: "2026-08-16"
+updated_at: "2026-08-20"
 ---
 
 # Joe-Directed Channels
@@ -100,9 +100,12 @@ Two further ceilings recur and should be read with every file:
 | `massless-vector-cosmology/` | MV-1 | **Conventional comparator:** four familiar abelian mass routes are closed in the tested model. The result does not include Weinstein's full observation-plus-later-action construction. |
 | `high-energy-two-plus-one/` | HE-4 / CB-8 | The source-pinned packet keeps `F`, `M_3`, and the partner `144` distinct and carries both K77 halves/four corners. The H210 intrinsic zero-order chain is banked, but its derivative-adapter path is **paused**; reopen only if an independent source-native result supplies a source-`Y` split/connection implying `L_q|_Z=0`. |
 | `superposition-twistor/` | TW-1 / TW-2 / TW-3 | **Banked and deprioritized.** TW3-B proves that the strict complex-bilinear dual and Krein/conjugate overline have different four-corner maps; only the latter matches TW2's chiral target, with exact `(8,8)` half-spin Krein forms. TW3-A/C then close by formal tensor/rolled naturality. Reopen only with an independently owned global lifted normal reduction or genuinely non-product normal/mixed operator. |
+| `soldered-ad/` | SA-1 / SA-2 | **Banked structural discriminator.** SA1 settles the bundle as soldered and leaves two Lorentz embeddings. SA2 proves the block embedding preserves the source's factorized external-Weyl/internal-partner grammar, while the endogenous graph embedding has no simultaneous factorized PS partner invariant. This does not select the physical embedding; reopen only for an already-owned full-corner non-PS endogenous intertwiner or an action-owned selection outside this channel. |
+| `bit1-price/` | B1P1 / BP-2 | **Exact incidence, dependency-fenced.** BP2 proves the basis-free family-kernel sequence and finds H210 is the only right-direction/right-cell port in its bounded inventory. No owned family row, `H210-ALIGN`, phase activation, `MASSIVE => B`, or `A -> B` transition follows. |
+| `z3-receptacle/` | Z3R1 / Z3R2 | **Structural inventory only.** The bare dimension-13 `Z/3` remains insufficient. An owned K3 geometric-Q module has an exact occupied singleton-plus-conjugate-pair fingerprint, but fixed-module automorphisms obstruct a canonical family quotient and no typed map reaches the dimension-13 or current-K77/source carriers. |
 | `coset-versus-gauge/` | CG-1 | `p` is a declared coset, not a gauge sector. Delivers the reusable typing `GU-YM-Delta1..Delta5`: Yang-Mills-**like**, not Yang-Mills, failing at `Delta1`/`Delta2` before the action is written. |
 | `metric-cone-boundedness/` | MC-1 / MC-2 | The cone does **not** bound SRC-3's runaway; the DeWitt-negative direction is the cone's own dilation generator. MC-2 closes and deprioritizes the uniform straight-contour repair: no source-reality-preserving uniform phase makes the full indefinite quartic coercive. Non-straight complex thimbles remain unselected, not excluded. |
-| `four-d-mode-decomposition/` | MD-1 | Form leg settled in GU's favour — the nine **are** 4D vectors, via contraction not projection. Ad leg is `NOT-DETERMINED` pending the `SOLDERED-AD` fork. |
+| `four-d-mode-decomposition/` | MD-1 / SA-2 | Form leg settled in GU's favour — the nine **are** 4D vectors, via contraction not projection. SA1 later settles the bundle horn as soldered; SA2 banks the residual two-Lorentz structural discriminator without selecting the physical embedding. |
 | `ledger-advancement/` | LA-1 | Difficulty assessment and versionless deltas against the conditional-physics ledger. 82 rows resolve to ~32 formal degrees of freedom; the near-universal cut vertex is **real** but its identification was broken and corrected by LA-10. See that namespace's own index. |
 | `ownership-theorem/` | OT-1 | An ownership predicate for GU's non-reductive symmetry, plus a pairing obstruction. OT-2 applied it and **broke the pair OT-1 proposed**: `OWN` is the right instrument for one row and the wrong one for the other. |
 | `phi-reduction/` | PHI-1 | The `14 -> 4` reduction map, constructed. 14D anomaly cancellation contributes **exactly zero bits** to the 4D verdict through the observation. PHI-2 extended the target lattice and promoted the `SOLDERED-AD` fork to **verdict-load-bearing** for `AC-D1..D5`. |

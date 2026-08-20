@@ -580,6 +580,30 @@ the map: which directory/group supports which claim.
   and physical-state claims. Run with Python 3; its post-repair selftest
   passes `115/115`.
 
+- `channel-swings/joe_directed_sa2_two_lorentz_source_package_classifier.py`
+  exactly restricts the source `F`, both `16` halves, `144`, and the PS owner
+  channels under the two live Lorentz embeddings. It proves the block horn
+  preserves factorized source custody while the repaired graph-invariance
+  closure kills simultaneous factorized PS-partner custody on the endogenous
+  horn. It does not select the physical embedding. Its selftest passes `80/80`
+  and rejects eight false routes.
+
+- `channel-swings/joe_directed_bp2_nonuniform_corner_decoupling_owner_census.py`
+  proves the basis-free family-kernel exact sequence at stage ranks
+  `0,8,12,16`, preserves both independent halves and exact equation-(9.16)
+  cells, and audits a bounded five-candidate owner inventory. H210 is the only
+  right-direction/right-cell port in that inventory, but no family row,
+  alignment, activation or phase transition is owned. Run with `--repo .
+  --selftest`; it passes `90/90` and fires `17/17` semantic mutants.
+
+- `channel-swings/joe_directed_z3r2_asymmetric_equivariant_module_inventory_probe.py`
+  distinguishes genuine `Aut(C3)` from the enlarged affine label-equivalence
+  action, certifies the honest geometric-Q `(14,12,12)` occupied isotypic
+  fingerprint and realification, and proves the fixed-module automorphism
+  obstruction to a canonical three-slot quotient. No dimension-13 or K77
+  carrier bridge follows. Its selftest passes `78` exact checks and kills
+  `7/7` mutations.
+
 - `channel-swings/selected_k77_twistor_carrier_weyl_integrability_gate_probe.py`
   reconstructs the local/developable rank-four carrier from the settled K77
   base Weyl factors, verifies graph incidence and the Lorentz determinant,

@@ -4,7 +4,7 @@ status: active_method
 doc_type: overview
 artifact_type: navigation_and_dispatch_packet
 created: 2026-08-16
-updated_at: 2026-08-16
+updated_at: 2026-08-20
 canonical_effect: none
 depends_on:
   - lab/methods/source-native-comparator-routing.md
@@ -12,6 +12,7 @@ depends_on:
   - lab/active-research/joe-directed/majorana-126-neutrino/sn2-source-native-neutrino-conditional-build-read-packet-2026-08-16.md
   - lab/active-research/joe-directed/archaeology/ar1-dropped-commitments-ledger-2026-08-15.md
   - lab/active-research/joe-directed/archaeology/ar5-cl95-full-shiab-rank-crosswalk-2026-08-16.md
+  - lab/active-research/joe-directed/integration-review/three-conditional-compositions-wave-2026-08-20.md
 ---
 
 > [!IMPORTANT]
@@ -142,6 +143,9 @@ Before execution, record one sentence for each lens:
 | AR1 row 12, full-domain Shiab rank | **`CLOSED_EXACT_FOR_LITERAL_CL95_CONTRACTION__NO_K77_OR_SOURCE_SELECTOR_TRANSFER`** | AR5 proves exact real rank/kernel `3584/19712` for the literal legacy contraction; it does not adjudicate the distinct current-K77 `1274 x 1274` Hodge-Shiab object or select a source owner |
 | AR1 row 21, second Shiab wall | **TRIGGER-GATED** | reopen only when **both** W192 is selected by a source/action owner **and** a typed `Cl(9,5)`-to-current-K77 Shiab bridge is proved; neither condition alone makes the fixed-192 K95 Schur result operational |
 | AR1 row 8, repeated `(96,96,0)` | **CLOSED AS A TYPED NUMERICAL OVERLAP** | no reopen from equal inertia alone; a future claim needs an independently constructed carrier/chain/pairing map between the two objects |
+| soldered-ad Lorentz fork | **BANKED after SA-2** | the block embedding preserves the source's factorized Weyl/internal-partner grammar; the endogenous graph embedding does not preserve simultaneous factorized PS partner custody. Reopen only for an already-owned full-corner non-PS endogenous intertwiner preserving source provenance, or let an action-owned lane select the embedding; do not build either here |
+| B1P1 / nonuniform `2+1` incidence | **DEPENDENCY-FENCED after BP-2** | H210 is the only right-direction/right-cell port in the declared five-candidate inventory, but continuation requires independently owned `r`, `H210-ALIGN`, and phase/cell activation. The BP2 kernel sequence is an adverse control, not a decoupling mechanism |
+| dimension-13 `Z/3` receptacle | **STRUCTURAL INVENTORY ONLY after Z3R2** | the geometric Q module has an occupied singleton-plus-conjugate-pair fingerprint but no canonical family quotient and no typed map to the dimension-13 or K77/source carriers. Reopen only when both a typed carrier map and natural quotient datum are independently owned |
 
 If no reopen condition is met, the correct outcome is `DEPENDENCY_FENCED`,
 `TYPE_MISSING`, `PAUSED`, or `RETIRED`—not another unowned construction.
