@@ -7,6 +7,19 @@ updated_at: "2026-08-20"
 
 # Next Steps For Contributors
 
+> **2026-08-20 B5 WAVE ONE PROVES THE FORMAL-ADJOINT SIGN IS
+> GRAM-DEPENDENT.** Exact gimmel derivatives first recertify RB6: its three
+> curvature endomorphisms are exact `I,T_tr` combinations and all five frozen
+> geometry-owned commutators are structurally zero, clearing P-H29 without
+> adding an action-owned word. For the independent full-20 B5 nine-block
+> family, requiring `M^T G=G M` for every allowed `S/imGamma` multiplicity
+> Gram forces all six cross-grade coefficients to zero and contradicts full
+> support. The canonical diagonal `G3` remains a positive control and an
+> allowed off-diagonal Gram twist breaks it. **Field (iii) is
+> `EXTERNAL-VIA-GRAM`; execute Stage-B action normalization next. Do not pick
+> `G3` by convenience or infer an action, Green domain, quotient,
+> source-preferred operator, particle result, or GU verdict.**
+
 > **2026-08-20 K155 FINDS THE FIRST CURVATURE-DEPENDENT NULL RADICAL
 > LEAKAGE.** The exact third-jet packet remains 32 labels and 448 directions.
 > Raw third and second formal-Euler lower jets have rank `238`, the principal

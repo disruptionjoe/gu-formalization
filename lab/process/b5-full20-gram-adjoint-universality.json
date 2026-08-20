@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-FULL-SUPPORT-FORMAL-ADJOINT-SIGN-IS-GRAM-DEPENDENT",
+  "grade": "exact rational coarse S+imGamma+kerGamma multiplicity matrix; formal compact core",
+  "rb6_exact_reverdict": {
+    "checks": 10,
+    "status": "pass",
+    "commutator_count": 5,
+    "maximum_reference_commutator_norm": 4.597e-15,
+    "nearby_lorentzian_points": 3,
+    "consequence": "P-H29 satisfied; prior geometry-owned null survives"
+  },
+  "b5_all_gram": {
+    "checks": 8,
+    "status": "pass",
+    "pairing_family": "G=[[alpha,zeta,0],[zeta,beta/14,0],[0,0,rho]]",
+    "equations": {
+      "X01": "zeta(a+6e/7)+d beta/14-alpha b",
+      "X02": "g rho+13 alpha c/14-13 zeta f/7",
+      "X12": "h rho/7+13 zeta c/14-13 beta f/98"
+    },
+    "self_coefficient_universal_constraints": "b=d=c=f=g=h=0 and a=-6e/7; q unconstrained",
+    "skew_coefficient_universal_constraints": "a=b=c=d=e=f=g=h=q=0",
+    "canonical_pairing_control": "pass",
+    "uniform_scale_control": "pass",
+    "off_diagonal_gram_twist": "breaks the fixed full-support candidate exactly"
+  },
+  "packet_consequence": {
+    "field_iii": "EXTERNAL-VIA-GRAM",
+    "packet_admission": "rejected_fail_closed",
+    "next": "B5-STAGE-B-ACTION-NORMALIZATION"
+  },
+  "claim_ceiling": "No Gram, action, Green domain, quotient, particle, family count, historical-source recovery or GU verdict is selected."
+}

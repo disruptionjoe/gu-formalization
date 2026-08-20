@@ -8,6 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**B5 full-20 Gram-adjoint universality 2026-08-20 (RB6 exact null;
+full-support sign Gram-dependent; packet still fail-closed).** Exact gimmel
+derivatives put RB6's three curvature endomorphisms in `span{I,T_tr}` with
+sub-`1e-15` residual and make all five geometry-owned commutators zero to
+roundoff, satisfying P-H29. On the independent B5 coarse
+`S+imGamma+kerGamma` carrier, the all-Gram equations force
+`b=d=c=f=g=h=0` and `a=-6e/7`; a fixed full-support nine-block expression
+therefore has no Gram-independent formal Krein-adjoint sign. The published
+odd candidate survives canonical `G3` and scale but fails an allowed Gram
+twist. Field (iii) is `EXTERNAL-VIA-GRAM`; Stage-B action normalization is
+next. See `explorations/b5-full20-gram-adjoint-universality-2026-08-20.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| RB6 geometry-owned Q null | FD-floor unresolved | exact structural zero for all five commutators | exact gimmel-derivative library | RB6 re-verdict |
+| B5 field (iii) | unfrozen | `EXTERNAL-VIA-GRAM`; no uniform full-support sign | action-owned pairing normalization | all-Gram probe/result |
+| five-field packet | fail-closed | still fail-closed | Stage-B action normalization, then remaining fields | design packet/contract replay |
+
 **K155 null fivefold third-lower coefficient 2026-08-20 (448D third-jet
 closure; live rank-82 unrestricted layer; rank-one complete order-four
 coefficient; Weyl-dependent rotated radical leakage).** The reference and

@@ -42,6 +42,22 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — Wave One completed 2026-08-20
+
+P-H29 Step 0 and the formal-adjoint computation are now executed at
+`explorations/b5-full20-gram-adjoint-universality-2026-08-20.md`. Exact
+gimmel derivatives recertify RB6's five geometry-owned commutators as
+structurally zero. The full allowed `S/imGamma` multiplicity-Gram family then
+forces every cross-grade coefficient of a Gram-uniform adjoint expression to
+zero, which is incompatible with full nine-block support. The canonical `G3`
+candidate remains a pairing-specific positive control.
+
+Per K2, field (iii) is now `EXTERNAL-VIA-GRAM`: Stage-B action normalization
+is the next executable dependency. The five-field ingress contract remains
+fail-closed; no Gram, action, Green form, common closed domain, packet
+admission, source-preferred operator, or GU verdict is selected. The coflip
+rider and domain-stability wave remain dependent on later owned data.
+
 The interior program's `B5-INDEPENDENT-RECONSTRUCTION` has been BLOCKED since
 the 2026-07-29 source audit at "the five-field native operator/domain packet"
 (`CURRENT-STATE.yaml:12-14`), under the standing decision default

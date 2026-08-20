@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Current B5 five-field packet gate
+
+- `channel-swings/verify/rb6_exact_derivative_reverdict.py` rebuilds RB6 from
+  the exact gimmel-derivative library, proves the three curvature
+  endomorphisms are exact `I,T_tr` combinations, and certifies all five frozen
+  geometry-owned commutators as structurally zero. It passes `8/8`.
+
+- `channel-swings/b5_full20_gram_adjoint_universality_probe.py` uses exact
+  rational arithmetic to derive the complete coarse all-Gram formal-adjoint
+  equations for both formal signs, replay canonical `G3` and scale, break the
+  fixed candidate with an allowed Gram twist, prove full-support universality
+  impossible, and replay the fail-closed five-field packet. It passes `10/10`.
+
 ## Current Eric/Curt campaign gate
 
 - `channel-swings/selected_k155_null_fivefold_third_lower_probe.py` verifies

@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-20)
 
+> **Current B5 full-20 Gram-adjoint result:** P-H29 is cleared by an exact RB6
+> re-verdict: all five frozen geometry-owned commutators are structurally zero.
+> The independent B5 nine-block family's formal sign is not uniform over the
+> allowed `S/imGamma` multiplicity-Gram family. All-Gram universality forces
+> every cross-grade coefficient to zero, while canonical `G3` remains a
+> pairing-specific positive control. Field (iii) is `EXTERNAL-VIA-GRAM`; the
+> packet stays fail-closed and Stage-B action normalization is next. Do not
+> select `G3`, import K77, claim the preferred historical Shiab, or infer a
+> Green domain, quotient, particle result, or GU verdict.
+
 > **Current K155 null fivefold third lower:** exact degree-nine interpolation
 > closes the third-jet selected-action packet on the same 32 labels and 448
 > directions. Raw third and second formal-Euler lower jets have rank `238`,
