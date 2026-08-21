@@ -2,13 +2,20 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-14"
+updated_at: "2026-08-21"
 ---
 
 # Source and Media Index
 
 Additional source-custody and reinspection records retained by the native
 research boundary:
+
+- [`jacobson-gravitational-entropy-primary-pack-2026-08-21.md`](jacobson-gravitational-entropy-primary-pack-2026-08-21.md)
+  - verifies and registers the five 2023--2025 Jacobson/collaborator primaries
+    on gravitational partition functions, lapse contours, simplicial de
+    Sitter entropy, causal-diamond ensembles and de Sitter first-law energy
+    accounting. It records exact claim ceilings and forbids direct transfer
+    to B5 domains, edge modes, probability positivity or a GU verdict.
 
 - [`selected-k77-stabilizer-koszul-tate-resolution-source-return-2026-08-14.md`](selected-k77-stabilizer-koszul-tate-resolution-source-return-2026-08-14.md)
   - confirms source ownership of the moving `epsilon` gauge-frame orbit and

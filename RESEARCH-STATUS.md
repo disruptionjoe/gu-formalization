@@ -2,11 +2,38 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-20"
+updated_at: "2026-08-21"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Jacobson gravitational-entropy source and B5 transfer council 2026-08-21
+(five primaries registered; twenty modeled seats; physical-pairing priority
+refined without claim promotion).** The repository now recognizes the complete
+2023--2025 five-paper packet on gravitational partition functions, lapse
+contours, simplicial de Sitter entropy, causal-diamond ensembles and de Sitter
+first-law energy accounting. A ten-seat science council and ten triggered
+variant specialists return no `EXACT_PORT`. They select two compound
+`METHOD_PORTS`: constraint-reduced state meaning must precede a covariant
+state count, and a named physical boundary/ensemble must precede contour,
+vacuum-convergence, entropy or sign interpretation. The generic B5 positivity
+discriminator remains closed. The refined live condition is
+`B5-SIGNATURE-TYPED-REDUCED-PHASE-SPACE-BVBFV-OWNER-PACKET`; it first asks for
+a signature-correct canonical/BV--BFV owner and lapse-like multiplier or a
+proof none exists, then tests whether the joint Jacobson-inspired admissibility
+battery narrows the hit/miss extension family. The multiple-time veto,
+edge-mode non-identification and entropy/probability firewall remain binding.
+See `lab/sources/jacobson-gravitational-entropy-primary-pack-2026-08-21.md`
+and
+`explorations/jacobson-b5-entropy-boundary-transfer-council-2026-08-21.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| recent Jacobson entropy/path-integral literature | absent; only older Jacobson line recognized | five primary papers registered with exact ceilings | primary-source maintenance | source pack/index |
+| B5 physical pairing | positive completions exist but no owner selects one | unchanged scientifically; owner gate refined by constraint/boundary/convergence battery | signature-correct reduced phase space and quantum BV--BFV packet | council/current state |
+| B5 marked class as edge mode | suggested adjacency only | explicitly unproved and forbidden without native boundary charge/algebra | boundary observable algebra and BFV representation | council/registry |
+| GU verdict | none | unchanged | complete physical theory and prediction chain | none |
 
 **B5 strict four-stage roll-support gate 2026-08-20 (eight-block ceiling;
 current full-nine target ineligible).** The typed

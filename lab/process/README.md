@@ -2,10 +2,18 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-14"
+updated_at: "2026-08-21"
 ---
 
 # Process
+
+Current Jacobson/B5 source-transfer council registry:
+[`jacobson-b5-twenty-seat-priority-sweep-2026-08-21.json`](jacobson-b5-twenty-seat-priority-sweep-2026-08-21.json).
+It records exactly five primaries, ten science-council seats, ten variant
+specialists, two selected compound method ports, protected outliers and the
+refined signature-typed BV--BFV owner condition. The seats are modeled
+disciplinary lenses, not twenty independent AI vendors or scientific
+replications.
 
 Current append-only progress surface:
 [`conditional-physics-ledger-v0.252.json`](conditional-physics-ledger-v0.252.json),

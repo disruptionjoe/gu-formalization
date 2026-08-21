@@ -4,6 +4,14 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Jacobson/B5 source-transfer council gate
+
+- `source-sweeps/jacobson_b5_transfer_sweep_probe.py` strictly parses the
+  five-source twenty-seat registry, requires ten science-council and ten
+  variant-specialist records with inference fences, caps selected method
+  ports at two, verifies the refined physical-pairing owner condition, and
+  rejects duplicate seats, missing fences and a third selected port.
+
 ## Current B5 five-field packet gate
 
 - `channel-swings/b5_strict_eight_block_euler_separation_probe.py` keeps the

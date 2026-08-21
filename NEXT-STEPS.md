@@ -2,10 +2,29 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-20"
+updated_at: "2026-08-21"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-21 JACOBSON 2023--2025 SOURCE PACK AND TWENTY-SEAT COUNCIL
+> REFINE THE LIVE B5 PHYSICAL-PAIRING OWNER GATE.** All five primaries are now
+> registered. No paper supplies an exact B5 port, preferred domain, edge-mode
+> identification, positive probability pairing or GU verdict. The generic
+> Krein-to-positivity search is already closed: positive completions exist and
+> are unselected. **Next build
+> `B5-SIGNATURE-TYPED-REDUCED-PHASE-SPACE-BVBFV-OWNER-PACKET`: derive the
+> action-owned presymplectic/constraint/BV--BFV packet on the actual `(9,5)`
+> carrier and construct a signature-correct lapse-like multiplier or prove no
+> analogue exists. Only then test whether constraint projection, a named
+> physical boundary/ensemble, both multiplier signs where owned,
+> short-distance convergence, boundary observable algebra and a conserved
+> positive reduced pairing jointly select hit, miss, a proper extension
+> subclass, none or all.** Do not copy the below-zero lapse contour into five
+> times, identify the marked class as an edge mode, equate entropy or
+> convergence with Born positivity, or infer particles or a GU verdict. The
+> full-nine Euler family remains separately `EXTERNAL-VIA-GRAM` and still
+> needs its action/BV bridge.
 
 > **2026-08-20 B5'S STRICT COMPLEX AND QUADRATIC EULER OPERATOR ARE NOW
 > SEPARATED.** The exact acyclic strict `0->1->13->14` complex and its

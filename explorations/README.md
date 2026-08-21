@@ -2,10 +2,20 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-14"
+updated_at: "2026-08-21"
 ---
 
 # Explorations
+
+## Jacobson gravitational-entropy to B5 transfer council (2026-08-21)
+
+`jacobson-b5-entropy-boundary-transfer-council-2026-08-21.md` records ten
+science-council and ten triggered variant-specialist seats over five verified
+primaries. No exact B5 port exists. The council refines the live
+physical-pairing gate to a signature-typed reduced-phase-space/BV--BFV owner
+packet followed by a sealed boundary, ensemble, contour, convergence and
+conserved-positive-cohomology battery. The multiple-time veto, edge-mode
+non-identification and entropy/probability firewall remain binding.
 
 ## K77 stabilizer-aware Koszul--Tate gate (2026-08-14)
 
