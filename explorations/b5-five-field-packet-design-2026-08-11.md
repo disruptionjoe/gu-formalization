@@ -42,6 +42,31 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — curved coflip/Green transport completed 2026-08-20
+
+The assembled strict curved branch now carries an explicit complete formal
+Green trace. For conormal `n`, the folded BV boundary coefficient is
+`B_n=[[0,A_n^vee],[A_n,K_n]]`. It is Krein self-adjoint and has exact
+two-sided Clifford inverses on both non-null conormal orbits. At a null
+conormal, the prior transverse nongauge class remains an exact trace radical.
+
+The Gamma-natural antilinear coflip transports the trace by
+`C_fold overline(B_n) C_fold^-1=B_(N eta n)`. All relative phases remain forced equal;
+changing the absolute coflip trivialization cancels from the trace, so the
+global content is the relative covariance plus the nontrivial local-system
+class, not an ordered phase. The lower-order Einstein deformation contributes
+no boundary term. Real deformation branches are individually coflip-fixed;
+imaginary branches descend only as a conjugate unordered pair.
+
+Strict field (ii) is now transported through the curved action at relative
+formal-trace grade, strict field (iv) is the explicit `B_n`, and strict field
+(iii) remains `ANTI-PRINCIPAL-SYMBOL / ACTION-CLOSED-EINSTEIN`. The separate
+graph-mixing full-nine family remains `EXTERNAL-VIA-GRAM`; the packet stays
+fail-closed. A common ambient domain remains unconstructed because no
+geometrically owned non-null boundary/end model and ultrahyperbolic closed
+realization have been frozen. Next execute
+`B5-COMMON-AMBIENT-DOMAIN-ON-NAMED-END-MODEL`.
+
 ## Execution update — curved Rarita--Schwinger BV completion completed 2026-08-20
 
 The strict native branch now closes at local formal compact-core curved

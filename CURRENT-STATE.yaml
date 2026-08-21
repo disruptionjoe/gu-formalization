@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5807bd32b42ca6cbda8c918d1d7f6d29b86afb80
+revision_basis: 0499c5a7bd4198a5aa65233effd05ca3d7b9d34a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The strict B5 curved branch now has a complete exact formal Green/coflip
+    packet on the actual complexified (9,5) carrier. For conormal n, the
+    folded BV boundary coefficient is B_n=[[0,A_n^vee],[A_n,K_n]]. It is
+    Krein self-adjoint and has exact two-sided inverses on both non-null
+    conormal orbits. At null n the prior transverse nongauge class survives
+    as an exact trace radical. The Gamma-natural antilinear coflip transports
+    B_n to B_(N eta n); all relative phases are fixed, while the absolute
+    coflip trivialization cancels, so only the relative covariance and local-
+    system class descend globally. The lower-order Einstein deformation does
+    not change the trace. Real branches are coflip-fixed and imaginary
+    branches descend as a conjugate unordered pair. This constructs no
+    boundary/end geometry, common closed domain, Calderon projector, null
+    quotient, global cohomology, physical state space or historical source-
+    preferred Shiab. Strict fields (ii) and formal (iv) now transport through
+    the curved action; strict field (iii) remains ANTI-PRINCIPAL-SYMBOL/ACTION-
+    CLOSED-EINSTEIN. The graph-mixing full-nine family remains EXTERNAL-VIA-
+    GRAM and the five-field packet remains fail-closed. Next execute
+    B5-COMMON-AMBIENT-DOMAIN-ON-NAMED-END-MODEL. Joe input is not required.
     The strict B5 native branch now has an exact curved action completion at
     local formal compact-core grade. For the actual complexified (9,5)
     spinor/vector-spinor carrier, covariantizing the triple-Clifford

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-CURVED-RELATIVE-COFLIP-AND-FORMAL-GREEN-TRACE-DESCEND",
+  "grade": "exact complexified Cl(9,5) local formal compact-core curved Green/coflip grade",
+  "probe": {
+    "checks": 29,
+    "status": "pass",
+    "arithmetic": "fractions.Fraction Clifford-word reduction"
+  },
+  "folded_trace": {
+    "formula": "B_n=[[0,A_n^vee],[A_n,K_n]]",
+    "krein_adjoint": "SELF",
+    "positive_nonnull_inverse": "exact two-sided Clifford inverse",
+    "negative_nonnull_inverse": "exact two-sided Clifford inverse",
+    "middle_off_null_radical": "im A_n rank128",
+    "null_radical": "exact transverse nongauge class retained"
+  },
+  "coflip_transport": {
+    "spinor": "C_perp",
+    "vector_spinor": "(N eta) tensor C_perp",
+    "covariance": "C_fold overline(B_n) C_fold^-1=B_(N eta n)",
+    "relative_phases": "all equal and required",
+    "absolute_phase": "cancels; represented only by local-system class plus local trivialization",
+    "pairing_only_plant": "rejected",
+    "relative_phase_plant": "rejected"
+  },
+  "einstein_deformation": {
+    "green_trace_change": "none; alpha and m terms are lower order",
+    "real_branch": "coflip fixed",
+    "imaginary_branch": "conjugate pair exchanged",
+    "massless_branch": "coflip fixed"
+  },
+  "packet_consequence": {
+    "strict_native_field_ii": "RELATIVE-ANTILINEAR-COFLIP-TRANSPORTED/ABSOLUTE-LOCAL-SYSTEM",
+    "strict_native_field_iii": "ANTI-PRINCIPAL-SYMBOL/ACTION-CLOSED-EINSTEIN",
+    "strict_native_field_iv": "EXPLICIT-FORMAL-GREEN-TRACE-B_n",
+    "current_full_nine_euler_field_iii": "EXTERNAL-VIA-GRAM",
+    "packet_admission": "rejected_fail_closed",
+    "next": "B5-COMMON-AMBIENT-DOMAIN-ON-NAMED-END-MODEL"
+  },
+  "claim_ceiling": "No global closed domain, Calderon projector, characteristic boundary realization, global cohomology, null quotient, physical state space, source-attested nonlinear action, historical preferred Shiab, particle result or GU verdict is claimed."
+}
