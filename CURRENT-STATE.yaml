@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 43b8434db6163932883458eeb6da18cf0819429f
+revision_basis: 3b168f4f31035b87ac0d9c23e4f553c4de56c179
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1A has now frozen and closed the smallest constant one-axis
+    coefficient-anisotropic K77 action class. The selected first action has a
+    new exact nonzero reduced root (a,b)=(-13/96,1/48); its complete
+    14-by-16,384 real pointwise translation covector is zero and its reduced
+    curvature is nonzero. The held-out intrinsic MET(X) variation kills the
+    branch: the on-shell density is 221/55296, the constant-zero-jet
+    source-graph adjoint vanishes, and the four-cell metric trace is nonzero.
+    This is coefficient anisotropy, not a spacetime-inhomogeneous solution,
+    and the class does not advance to Hessian, stabilizer or spectrum work.
+    CBRS-1 remains active at the next materially distinct class: a frozen
+    genuinely nonparallel one-axis first jet whose complete field and metric
+    source-graph equations must close together without a fitted trace term.
+    No ledger verdict, source ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
     CONDITIONAL-BUILD-REVERSE-SCAFFOLD as the active Lane-1 research lead. Work
     backward from the conditional-physics ledger through

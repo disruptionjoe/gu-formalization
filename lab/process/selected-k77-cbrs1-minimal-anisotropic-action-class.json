@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1_MINIMAL_ONE_AXIS_CLASS_KILLED_AT_INTRINSIC_METRIC_TRACE__NONPARALLEL_FIRST_JET_SUCCESSOR_LIVE",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1A",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_AND_METX_ARGUMENT_GRAMMAR__REPO_DERIVES_CONDITIONAL_CLASS__SOURCE_SILENT_ON_THIS_ANISOTROPIC_BRANCH",
+  "frozen_class": {
+    "type": "CONSTANT_ZERO_JET__ONE_PINNED_K77_AXIS_PLUS_THIRTEEN_EQUAL_AXES",
+    "target_blind": true,
+    "free_parameters_before_solve": 2,
+    "reduced_action": "a^2/2+312*a*b^2+1144*b^3+13*b^2/2",
+    "anisotropic_root": {
+      "a": "-13/96",
+      "b": "1/48"
+    },
+    "reduced_curvature_nonzero": true,
+    "full_ii_action_owner": "EXISTING_RANK_100_GAUSS_RECEIVER_AND_UNTRACED_ACTION_NORM",
+    "spacetime_inhomogeneity": "NOT_CONSTRUCTED__COEFFICIENT_ANISOTROPY_ONLY"
+  },
+  "complete_translation_bank": {
+    "coefficient_slots": 14,
+    "real_directions_per_slot": 16384,
+    "total_directions": 229376,
+    "support": 0,
+    "disposition": "EXACT_POINTWISE_ACTION_STATIONARY"
+  },
+  "heldout_metric": {
+    "action_density": "221/55296",
+    "source_graph_adjoint": "ZERO_ON_FROZEN_CONSTANT_ZERO_JET",
+    "normalized_metric_row": [
+      "-221/27648",
+      "0",
+      "0",
+      "0",
+      "221/27648",
+      "0",
+      "0",
+      "221/27648",
+      "0",
+      "221/27648"
+    ],
+    "stationary": false,
+    "disposition": "KILLED_INTRINSIC_METRIC_TRACE"
+  },
+  "conditional_arcs": {
+    "full_hessian": "NOT_ADMITTED_AFTER_METRIC_KILL",
+    "global_stabilizer": "NOT_ADMITTED_AFTER_METRIC_KILL",
+    "spectrum_mu6_j_higgs_photon_extra_u1": "NOT_ADMITTED_AFTER_METRIC_KILL",
+    "first_gravitational_symbol": "NOT_ADMITTED_AFTER_METRIC_KILL"
+  },
+  "changes": {
+    "ledger": "none",
+    "canon": "none",
+    "source_ownership": "none",
+    "residue": "none",
+    "quotient_datum": "none",
+    "public_posture": "none"
+  },
+  "next_gate": "FREEZE_SMALLEST_GENUINELY_NONPARALLEL_ONE_AXIS_FIRST_JET_CLASS__SOLVE_COMPLETE_FIELD_AND_METRIC_GRAPH_TOGETHER",
+  "artifact": "explorations/conditional-build/selected-k77-cbrs1-minimal-anisotropic-action-class-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1_minimal_anisotropic_action_class_probe.py",
+  "checks": "32/32 PASS"
+}

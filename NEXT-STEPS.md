@@ -7,6 +7,20 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
+> **2026-08-21 CBRS-1A MINIMAL ANISOTROPIC CLASS CLOSED AT MET(X).** The
+> frozen one-axis coefficient class has a new exact action-stationary root
+> `(a,b)=(-13/96,1/48)` and zero support across the complete `14 x 16,384`
+> real pointwise translation bank, but its held-out on-shell density is
+> `221/55296`. The constant-zero-jet source graph cannot cancel the resulting
+> nonzero intrinsic metric trace. This is coefficient anisotropy, not a
+> spacetime-inhomogeneous solution, so do not compute or interpret its
+> Hessian, stabilizer or spectrum as a vacuum. **Continue CBRS-1 with the
+> smallest frozen genuinely nonparallel one-axis first-jet class; solve the
+> complete field equations and metric source graph together, with no fitted
+> trace counterterm.** No ledger verdict or source-ownership state changes.
+> See
+> `explorations/conditional-build/selected-k77-cbrs1-minimal-anisotropic-action-class-2026-08-21.md`.
+
 > **2026-08-21 LANE-1 LEAD: CONDITIONAL-BUILD-REVERSE-SCAFFOLD.** Work
 > backward from ledger v0.260 through shared constructions, not row-specific
 > fits and not an unavailable external source ledger. **CBRS-1 is next:**
