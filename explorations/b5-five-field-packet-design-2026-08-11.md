@@ -42,6 +42,25 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — curved Rarita--Schwinger BV completion completed 2026-08-20
+
+The strict native branch now closes at local formal compact-core curved
+action grade. For the metric/Clifford-compatible covariantization,
+`K_nabla A_nabla` is exactly one-half the Einstein tensor acting by Clifford
+multiplication. The massless complex therefore closes on every Ricci-flat
+spin background, including nonzero Weyl curvature. The minimal natural
+deformation `A_alpha=nabla+alpha gamma`,
+`K_m=gamma(3)nabla+m gamma(2)` closes on Einstein backgrounds precisely when
+`m=-(d-2)alpha` and `alpha^2=-kappa/4`; at `d=14`, `m=-12alpha`.
+
+This constructs the curved action-owned strict branch without fitting W177
+or selecting a source background. It neither repairs the null-symbol kernel
+nor proves global cohomology, a common domain or a physical quotient. Strict
+field (iii) is now `ANTI-PRINCIPAL-SYMBOL / ACTION-CLOSED-EINSTEIN`; the
+separate current graph-mixing full-nine family remains
+`EXTERNAL-VIA-GRAM`, so the five-field packet stays fail-closed. Next execute
+`B5-COFLIP-GREEN-TRANSPORT-ON-CURVED-COMPLEX` before any common-domain claim.
+
 ## Execution update — native Rarita--Schwinger BV/Hessian lift completed 2026-08-20
 
 The strict branch now reaches the actual complexified

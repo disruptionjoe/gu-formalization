@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8957dbc5760ce437caf2ab931126ff1cdee8b3a3
+revision_basis: 5807bd32b42ca6cbda8c918d1d7f6d29b86afb80
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The strict B5 native branch now has an exact curved action completion at
+    local formal compact-core grade. For the actual complexified (9,5)
+    spinor/vector-spinor carrier, covariantizing the triple-Clifford
+    Rarita--Schwinger operator gives the complete gauge defect
+    K_nabla A_nabla=(1/2)G^mu_nu gamma^nu. Arbitrary Weyl curvature cancels,
+    so the massless BV/Noether complex closes on every Ricci-flat spin
+    background. The minimal natural lower-order deformation
+    A_alpha=nabla+alpha gamma and K_m=gamma(3)nabla+m gamma(2) closes on
+    Einstein backgrounds precisely when m=-(d-2)alpha=-12alpha and
+    alpha^2=-kappa/4. A generic non-Einstein curvature, wrong mass and wrong
+    curvature each break closure exactly. This does not select a GU source
+    background, repair the null-symbol nongauge kernel, prove curved
+    exactness/global cohomology, construct a common domain or identify the
+    historical source-preferred Shiab. Strict field (iii) is now
+    ANTI-PRINCIPAL-SYMBOL/ACTION-CLOSED-EINSTEIN; the separate current
+    graph-mixing full-nine family remains EXTERNAL-VIA-GRAM and the five-field
+    packet remains fail-closed. Next execute
+    B5-COFLIP-GREEN-TRANSPORT-ON-CURVED-COMPLEX before any common-domain work.
+    Joe input is not required.
     The B5 strict action branch now has an exact native full-carrier
     principal-symbol lift. On the actual complexified
     128->1792->1792->128 carrier, A_xi(s)=xi tensor s, the triple-Clifford

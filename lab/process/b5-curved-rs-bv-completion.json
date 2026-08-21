@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-CURVED-RS-BV-COMPLETION-EXISTS-ON-EINSTEIN-BACKGROUNDS",
+  "grade": "exact complexified Cl(9,5) local formal compact-core curved action/Noether grade",
+  "probe": {
+    "checks": 33,
+    "status": "pass",
+    "arithmetic": "fractions.Fraction Clifford-word reduction"
+  },
+  "massless_complex": {
+    "gauge_map": "A_nabla(epsilon)_mu=nabla_mu epsilon",
+    "middle_operator": "(K_nabla psi)^mu=gamma^{mu nu rho}nabla_nu psi_rho",
+    "curvature_defect": "K_nabla A_nabla=(1/2)G^mu_nu gamma^nu",
+    "compatible_background": "Ricci-flat pseudo-Riemannian spin background",
+    "weyl_curvature_allowed": true
+  },
+  "minimal_einstein_deformation": {
+    "gauge_map": "A_alpha=nabla+alpha gamma",
+    "middle_operator": "K_m=gamma(3)nabla+m gamma(2)",
+    "dimension": 14,
+    "derivative_relation": "m=-(d-2)alpha=-12alpha",
+    "background_relation": "alpha^2=-kappa/4=-lambda/[4(d-1)]",
+    "einstein_plus_weyl_control": "pass"
+  },
+  "adverse_controls": {
+    "non_einstein_curvature": "live massless defect",
+    "wrong_mass": "live first-order defect",
+    "wrong_einstein_curvature": "live zero-order defect"
+  },
+  "packet_consequence": {
+    "strict_native_field_iii": "ANTI-PRINCIPAL-SYMBOL/ACTION-CLOSED-EINSTEIN",
+    "current_full_nine_euler_field_iii": "EXTERNAL-VIA-GRAM",
+    "packet_admission": "rejected_fail_closed",
+    "next": "B5-COFLIP-GREEN-TRANSPORT-ON-CURVED-COMPLEX"
+  },
+  "claim_ceiling": "No null exactness, global cohomology, common closed domain, physical quotient, source-attested nonlinear action, selected Einstein background, historical preferred Shiab, particle result or GU verdict is claimed."
+}
