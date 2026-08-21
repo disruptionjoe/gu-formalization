@@ -9,3 +9,5 @@ import GUFormalization.CoflipCore
 import GUFormalization.CoflipAbstract
 import GUFormalization.CompactImageObstructions
 import GUFormalization.CompactImageObstructionsAxioms
+import GUFormalization.FiniteResearchKernels
+import GUFormalization.FiniteResearchKernelsAxioms

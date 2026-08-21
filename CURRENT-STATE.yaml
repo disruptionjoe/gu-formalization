@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c61b6f7b0704260a9532474c099fc91f51ae8d90
+revision_basis: d15eb8fa5d851a6d41735497367a4f559c608045
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Result hardening now has three additional default-target Lean kernels. The
+    finite complex-matrix trace proof derives a purely imaginary
+    tr(chi K^-1 H) and zero real projector readout from explicit Hermiticity,
+    anticommutation and zero-trace premises. The residue-field proof shows
+    m^2 d + sigma vanishes for every d in Z/3 exactly when m=sigma=0, with the
+    unit-charge case excluded. The reduced quartic coefficient comparison is
+    proved to switch exactly at lq=-l4/192. These are deduction hardenings,
+    not new physical premises: Lean does not establish GU carrier faithfulness,
+    source-action ownership, physical chirality, a generation count, coupling
+    signs, or vacuum selection. W243's extremal-annihilation kernel was already
+    integrated by b895a49c, and the stale hardening pointer is reconciled.
     The strict B5 fixed-background action now closes its signature-typed
     canonical/BV--BFV owner discriminator at classical linear boundary-phase
     grade. On the positive-normal plus-first (9,5) half-cylinder, complete

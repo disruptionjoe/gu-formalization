@@ -1,0 +1,10 @@
+import GUFormalization.FiniteResearchKernels
+
+#print axioms GUFormalization.FiniteResearchKernels.trace_chirality_pure_imaginary
+#print axioms GUFormalization.FiniteResearchKernels.trace_chirality_real_zero
+#print axioms GUFormalization.FiniteResearchKernels.projector_trace_real_zero
+#print axioms GUFormalization.FiniteResearchKernels.ModThree.section_independent_vanishes_iff
+#print axioms GUFormalization.FiniteResearchKernels.ModThree.unit_charge_not_section_independent
+#print axioms GUFormalization.FiniteResearchKernels.PhaseBoundary.aligned_inequality
+#print axioms GUFormalization.FiniteResearchKernels.PhaseBoundary.boundary_equality
+#print axioms GUFormalization.FiniteResearchKernels.PhaseBoundary.mirror_blind_inequality

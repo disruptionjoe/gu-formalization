@@ -366,7 +366,7 @@
       "state": "READY",
       "owner": "gu-formalization",
       "depends_on": [],
-      "next_swing": "Purged 2026-08-03 (register P-H14; audit P-H27 flagged this row as an agent-would-redo-work hazard): the baseline and R4TwoArena-into-default-target steps were already executed 2026-07-22 (R4TwoArena is in the pinned default target; the 2026-07-23 rewrite is receipted in the zenodo VERIFICATION.md). Do not redo them. Next: specify the W243/GU-002 extremal-weight kernel, and retire the un-typechecked A1 draft duplicate if it still exists.",
+      "next_swing": "The baseline, R4TwoArena integration, stale A1 duplicate retirement, W243 extremal-annihilation kernel, achirality trace kernel, section-independent mod-3 kernel, and exact rational A1 phase boundary are complete and default-target integrated. Next resolve L7's missing A1b power-mean source pointer before formalization; if the source remains absent, record that exact source gap and advance to L8 chi-parity without inventing a theorem statement. Do not redo completed kernels or infer physical realization from their explicit Lean premises.",
       "kill_condition": "If the proposed Lean statement requires hiding representation faithfulness, physical interpretation, full Sp(32,32;H) construction, or interacting QFT as an axiom, leave it prose/Python and choose the next eligible finite kernel.",
       "forbidden_shortcut": "Lean verifies deduction from explicit premises. It does not prove that the premises are GU's physical realization."
     },

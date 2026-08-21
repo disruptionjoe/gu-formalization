@@ -4,7 +4,7 @@ status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
-updated: 2026-08-03
+updated: 2026-08-21
 owner_surface: lab/methods/lean-verification.md
 ---
 
@@ -60,6 +60,8 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
 | `Lean/GUFormalization/CoflipCore.lean` | Concrete Q×Q coflip accounting, Part A derived | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/CoflipAbstract.lean` | Abstract (eps,mu) sign accounting; the `FiniteSignature` field and the `witnessed` Prop are currently formally inert — noted | `LEAN-VERIFIED`; 2026-07-22 baseline |
+| `Lean/GUFormalization/CompactImageObstructions.lean` | W243 extremal-weight annihilation algebraic kernel plus compact-image block identities; carrier faithfulness and compactness remain outside Lean | `LEAN-VERIFIED`; integrated by `b895a49c`, receipt in the good-stable paper verification |
+| `Lean/GUFormalization/FiniteResearchKernels.lean` | Matrix-trace achirality deduction, section-independent `ZMod 3` arithmetic, and exact rational reduced-potential phase boundary; physical realization remains outside Lean | `LEAN-VERIFIED`; 2026-08-21 targeted serialized build, standard mathlib axioms only |
 | `tests/big-swing/R4_TwoArena.lean` | Stable R4 compatibility entrypoint | imports the default-target proof-bearing module |
 
 The un-typechecked draft duplicate formerly at
@@ -73,14 +75,14 @@ The un-typechecked draft duplicate formerly at
 | T1 | No-go is 2-primary; no obstruction is 3-divisible | located-not-forced paper section 4 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
 | T2 | Krein transversality: positive-definite subspace meets each totally isotropic subspace trivially (`intersectionDifference = 0`) | located-not-forced paper section 6 | `LEAN-VERIFIED` at last receipt (retitled 2026-08-03: `papers/candidates/located-not-forced/HARDENING-QUEUE.md:118` bans the former "net chiral index" phrasing) | complete | located-not-forced |
 | T3 | Antilinear null-eigenspace bound | located-not-forced paper section 6 | `SYMPY-DERIVED` (corrected 2026-08-03: no antilinear operator content exists in `Lean/`; the owning canon file `canon/core-theorems-symbolic-proof-RESULTS.md` itself states "a symbolic proof, not a Lean-checked one"; the Krein-transversality Lean lemma covers T2 only) | high | located-not-forced |
-| A | Achirality: `{K,chi}=0` implies `Re tr(chi Pi_+) = 0` | `canon/ghost-parity-krein-synthesis.md:26` (statement); `explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md` | `NUMPY-CERT` | high | fences the chiral-generation reading |
-| B | V7 mod-3 index arithmetic | `explorations/big-swing-2026-07-06/VG-V7-cp2-equivariant-payoff.md` | `SYMPY-DERIVED` | high | count-import boundary |
-| C | Exact A1 phase boundary `lq = -l4/192` | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` | `SYMPY-DERIVED` | high | mirror alignment phase |
+| A | Achirality: `{K,chi}=0` implies `Re tr(chi Pi_+) = 0` | `canon/ghost-parity-krein-synthesis.md:26` (statement); `explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md` | `LEAN-VERIFIED`; explicit finite complex-matrix premises, trace readout only | complete | fences the chiral-generation reading |
+| B | V7 mod-3 index arithmetic | `explorations/big-swing-2026-07-06/VG-V7-cp2-equivariant-payoff.md` | `LEAN-VERIFIED`; section-independent `ZMod 3` core only | complete | count-import boundary |
+| C | Exact A1 phase boundary `lq = -l4/192` | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` | `LEAN-VERIFIED`; rational reduced-family coefficient boundary only | complete | mirror alignment phase |
 | D | Power-mean reduction | A1b (source document not located in repo — flagged 2026-08-03) | `NUMPY-CERT` | medium | supports C |
 | E | Chi-parity no-go for orientation selection | `explorations/big-swing-2026-07-07/A2-native-ring-symmetry-nogo.md` | `NUMPY-CERT` | medium | sign-selection boundary |
 | F | Abstract Cartan-involution structural core | `explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md` | `NUMPY-CERT` | medium | quantization seat |
 | G | Involution projector algebra for the mirror map | `explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md` | `NUMPY-CERT` | medium | mirror kinematics |
-| H | Extremal-weight stabilizer contains an explicit nonzero nilpotent | W243, GU-002, W244 | structural plus `NUMPY-CERT` | medium | compactification no-go |
+| H | Extremal-weight stabilizer contains an explicit nonzero nilpotent | W243, GU-002, W244 | `LEAN-VERIFIED` for extremal annihilation and explicit square-zero blocks; stabilizer compactness and carrier lift remain structural premises | complete | compactification no-go |
 
 ## Part C: integrity-first execution order
 
@@ -91,12 +93,15 @@ The first three items are mandatory integrity work, not a retreat from the North
    retained as a compatibility entrypoint; post-integration build and placeholder audit required by the investigation receipt.
 3. `L2 STALE DUPLICATE` — **DONE 2026-07-22**: the un-typechecked A1 draft duplicate was removed;
    `Lean/GUFormalization/LocatedNotForcedLegs.lean` is the sole authoritative certificate.
-4. `L3 THEOREM H`: formalize the extremal-weight stabilizer deduction over an explicitly graded finite
-   representation. Carrier realization, Proposition 1, W235, and compactness remain explicit premises or
-   outside the Lean conclusion. Do not formalize W241's false fixed-`P` implication.
-5. `L4 THEOREM A`: formalize the achirality trace core with matrix anticommutation supplied as a premise.
-6. `L5 THEOREM B`: formalize the pure mod-3 arithmetic using `Nat`, `Int`, `omega`, or `decide`.
-7. `L6 THEOREM C`: formalize the exact rational phase boundary with `field_simp` and `ring`.
+4. `L3 THEOREM H` — **DONE by `b895a49c`**: `CompactImageObstructions.lean` formalizes extremal
+   annihilation and the explicit square-zero blocks. Carrier realization, Proposition 1, W235, and
+   compactness remain outside the Lean conclusion; W241's false fixed-`P` implication is not formalized.
+5. `L4 THEOREM A` — **DONE 2026-08-21**: finite complex-matrix achirality trace core with
+   Hermiticity, anticommutation, and zero trace supplied as explicit premises.
+6. `L5 THEOREM B` — **DONE 2026-08-21**: section-independent mod-3 arithmetic over `ZMod 3`,
+   including the unit-charge negative control.
+7. `L6 THEOREM C` — **DONE 2026-08-21**: exact rational aligned/equality/mirror-blind boundary at
+   `lq = -l4/192`.
 8. `L7 THEOREM D`: formalize the power-mean reduction.
 9. `L8 THEOREM E`: formalize trace parity under chi conjugation.
 10. `L9 THEOREMS F AND G`: formalize only the abstract involution and projector cores.
