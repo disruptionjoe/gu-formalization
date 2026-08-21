@@ -7,6 +7,24 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
+> **2026-08-21 CBRS-1B/C1 ONE-AXIS FIRST-JET MODULES THROUGH TRANSVERSE
+> GRADES ZERO AND ONE ARE RIGID AND METRIC-KILLED.**
+> Allowing the exact anisotropic coefficients to vary along one labelled base
+> axis gives the prolonged field matrix `[[1,13],[13,143/2]]`, with determinant
+> `-195/2`. It therefore forces `a'=b'=0`. Exact differentiation of the full
+> `14 x 16,384` pointwise action covector restricts to the same rank-two
+> matrix, so this is not merely a reduced-gradient shortcut. The source-graph
+> adjoint stays zero and the inherited `221/55296` density leaves the nonzero
+> intrinsic metric trace. The target-blind scalar and first off-diagonal
+> grade-one extensions enlarge the matrix to `diag(H,-1,-1/3)`, determinant
+> `-65/2`, and still force every jet coefficient to zero. This kills the
+> nested `a/b` plus representative grade-zero/one derivative module, not
+> arbitrary Clifford first jets. **Continue with CBRS-1D: move the smallest
+> grade-two connection-algebra direction and the connection/gauge owner
+> together, then solve the complete field, primitive-epsilon, and metric graph
+> before any second jet, Hessian, stabilizer, or spectrum work.** See
+> `explorations/conditional-build/selected-k77-cbrs1-one-axis-first-jet-rigidity-2026-08-21.md`.
+
 > **2026-08-21 CBRS-1A MINIMAL ANISOTROPIC CLASS CLOSED AT MET(X).** The
 > frozen one-axis coefficient class has a new exact action-stationary root
 > `(a,b)=(-13/96,1/48)` and zero support across the complete `14 x 16,384`
@@ -14,10 +32,9 @@ updated_at: "2026-08-21"
 > `221/55296`. The constant-zero-jet source graph cannot cancel the resulting
 > nonzero intrinsic metric trace. This is coefficient anisotropy, not a
 > spacetime-inhomogeneous solution, so do not compute or interpret its
-> Hessian, stabilizer or spectrum as a vacuum. **Continue CBRS-1 with the
-> smallest frozen genuinely nonparallel one-axis first-jet class; solve the
-> complete field equations and metric source graph together, with no fitted
-> trace counterterm.** No ledger verdict or source-ownership state changes.
+> Hessian, stabilizer or spectrum as a vacuum. Its named first-jet successor
+> is now closed through representative transverse grades zero and one by the
+> block above. No ledger verdict or source-ownership state changes.
 > See
 > `explorations/conditional-build/selected-k77-cbrs1-minimal-anisotropic-action-class-2026-08-21.md`.
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3b168f4f31035b87ac0d9c23e4f553c4de56c179
+revision_basis: d1d0807fe9507e1b5be8f77fe6b51703ee9788d0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,18 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    CBRS-1A has now frozen and closed the smallest constant one-axis
-    coefficient-anisotropic K77 action class. The selected first action has a
-    new exact nonzero reduced root (a,b)=(-13/96,1/48); its complete
-    14-by-16,384 real pointwise translation covector is zero and its reduced
-    curvature is nonzero. The held-out intrinsic MET(X) variation kills the
-    branch: the on-shell density is 221/55296, the constant-zero-jet
-    source-graph adjoint vanishes, and the four-cell metric trace is nonzero.
-    This is coefficient anisotropy, not a spacetime-inhomogeneous solution,
-    and the class does not advance to Hessian, stabilizer or spectrum work.
-    CBRS-1 remains active at the next materially distinct class: a frozen
-    genuinely nonparallel one-axis first jet whose complete field and metric
-    source-graph equations must close together without a fitted trace term.
+    CBRS-1B/C1 has now frozen and closed the smallest one-axis a/b first jet
+    plus the two lowest representative transverse Clifford grades. At the
+    exact anisotropic point (a,b)=(-13/96,1/48), the prolonged reduced field
+    matrix is [[1,13],[13,143/2]]. Adding i times the scalar and the first
+    off-diagonal grade-one vector gives the complete restricted block
+    diag(H,-1,-1/3), determinant -65/2 and rank four, so it forces
+    a'=b'=c'=d'=0. The source-graph adjoint is therefore zero and the inherited
+    density 221/55296 leaves the nonzero four-cell MET(X) trace. This is a
+    nested derivative-module class kill, not a full-Clifford theorem. CBRS-1
+    remains active at CBRS-1D: move the smallest grade-two
+    connection-algebra direction and the connection/gauge owner together,
+    then solve the complete field, primitive-epsilon and metric graph before
+    any second jet, Hessian, stabilizer or spectrum work.
     No ledger verdict, source ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
     CONDITIONAL-BUILD-REVERSE-SCAFFOLD as the active Lane-1 research lead. Work
@@ -2279,13 +2280,15 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. Freeze the smallest
-  target-blind nonhomogeneous reduced-curvature plus full-II conditional
-  action class; resolve direct metric stationarity and the complete admitted
-  tangent; compute the full Hessian, global stabilizer, mu6 descent, J/Higgs
+  returning to old hardening or the B5 comparator. Execute CBRS-1D: freeze one
+  labelled base axis and the smallest grade-two connection-algebra direction
+  transverse to the closed a/b plus grade-zero/one carriers; move T and the
+  connection/gauge owner together, then solve the complete pointwise
+  field-covector derivative, primitive-epsilon equation and intrinsic metric
+  source graph on the same carrier before allowing second jets. Only a fully metric-stationary branch
+  may advance to the full Hessian, global stabilizer, mu6 descent, J/Higgs
   selection, photon kernel, extra-U1 mass direction and first gravitational
-  symbol consequences; and reserve at least one output not used to construct
-  the background. A class-wide negative is a valid result. Do not promote
+  symbol consequences. A class-wide negative is a valid result. Do not promote
   reconstruction grade to source ownership or fit separate constructions to
   individual ledger rows. After CBRS-1, follow CBRS-2 through CBRS-5 in order.
   For LT-GR8, first type the K77-to-observed-3+1 carrier and boundary map, then
