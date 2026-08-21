@@ -8,6 +8,20 @@ work_item: B5-INDEPENDENT-RECONSTRUCTION
 
 # B5 native phase/domain packet contract
 
+## Execution update — stage-compatible marked cohomology separates domains
+
+The strict massless zero mode now belongs to an explicit closed hit Hilbert
+complex. Green-line extension of the minimal middle operator, pullback through
+the closed maximal gauge operator, and the maximal terminal domain preserve
+the two Noether compositions. A bounded `e4` Fourier/transverse projection
+annihilates the complete gauge range but fixes the mode, so its marked class
+survives both algebraic and reduced hit quotients. The miss middle graph uses
+the opposite Witt line and excludes the same section.
+
+This is a marked linear gauge/BRST cohomology discriminator. It does not
+compute total cohomology, select a unique domain, or admit positivity,
+physical states, source ownership or the graph-mixing full-nine family.
+
 ## Execution update — strict massless operator kernel is extension-sensitive
 
 For the undeformed action-owned folded expression, the coflip-fixed complex-

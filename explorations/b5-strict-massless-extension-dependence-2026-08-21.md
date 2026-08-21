@@ -14,6 +14,22 @@ canon_verdict_change: none
 
 # B5 strict-massless extension dependence
 
+## Continuation update — marked reduced cohomology class separates domains
+
+The exact decaying mode now has closed stage-separated realizations. Finite-
+dimensional Green-line extensions of the minimal middle operator place its
+trace in the hit domain and the opposite Witt line in the miss domain; closed
+pullback gauge domains and the maximal terminal domain preserve both Noether
+compositions. A bounded projection to Fourier mode `e4` and vector components
+`1,2` annihilates the complete gauge range but fixes the witness. Its marked
+class therefore survives both the algebraic and reduced hit quotients and is
+absent from the miss domain.
+
+This is extension-sensitivity of one marked linear gauge/BRST class, not a
+calculation of total cohomology, positivity, physical states or a source-
+selected domain. See
+`explorations/b5-domain-compatible-brst-cohomology-2026-08-21.md`.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Any result about a
 > standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`

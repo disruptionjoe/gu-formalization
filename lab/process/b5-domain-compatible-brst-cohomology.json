@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-21",
+  "result": "B5-MARKED-MIDDLE-STAGE-BRST-CLASS-IS-EXTENSION-SENSITIVE",
+  "grade": "exact closed Hilbert-complex and marked algebraic/reduced quotient grade on the repository-constructed flat complexified (9,5) half-cylinder",
+  "probe": {
+    "checks": 50,
+    "status": "pass",
+    "arithmetic": "exact Gaussian-integer Clifford coefficients, rank arithmetic and rational Witt controls"
+  },
+  "stage_complex": {
+    "ranks": [128, 1792, 1792, 128],
+    "maps": ["A", "K", "A^vee"],
+    "identities": ["K A=0", "A^vee K=0"],
+    "normal_middle_inertia": [832, 832, 128]
+  },
+  "domains": {
+    "hit_middle": "Dom(K_min) direct-sum C u",
+    "miss_middle": "Dom(K_min) direct-sum C z_w",
+    "gauge": "closed pullback of each middle domain through A_max",
+    "terminal": "A^vee_max",
+    "coflip": "both complexes invariant"
+  },
+  "marked_class": {
+    "section": "u=exp(-r) exp(i y4) v",
+    "hit_algebraic": "nonzero",
+    "hit_reduced": "nonzero",
+    "miss": "section excluded from middle domain",
+    "separator": "bounded projection to Fourier mode e4 and vector components 1,2 annihilates the complete gauge range but fixes u"
+  },
+  "ownership": {
+    "bulk_action": "admits both refined trace isotropics and selects neither",
+    "source": "SOURCE-SILENT for endpoint, asymptotic and real-Krein selectors"
+  },
+  "next_condition": "B5-KREIN-TO-PROBABILITY-POSITIVITY-DISCRIMINATOR",
+  "claim_ceiling": "A marked linear middle-stage class survives algebraic and reduced hit quotients and is absent from the miss domain. No total cohomology dimension, Hilbert self-adjointness, Fredholmness, positivity, physical state space, source-selected geometry, particle result, canon change or GU verdict follows."
+}

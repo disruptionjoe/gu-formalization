@@ -42,6 +42,20 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — closed stage domains and marked reduced class 2026-08-21
+
+The strict massless witness now promotes from folded operator kernel to a
+marked middle-stage class in explicit closed Hilbert complexes. The hit and
+miss stage domains are finite-dimensional Green-line extensions of the
+minimal middle graph, with closed pullback gauge domains and the maximal
+terminal domain. A bounded Fourier-transverse separator proves that the hit
+class survives both the algebraic and reduced gauge quotients; the same
+section is excluded from the miss middle domain.
+
+This sharpens the packet's extension warning without selecting a physical
+domain. Total cohomology, Hilbert self-adjointness, Fredholmness, positivity,
+probability and source ownership remain unearned.
+
 ## Execution update — strict massless operator kernel separates domains 2026-08-21
 
 The action-owned undeformed member now has an exact decaying coflip-real
