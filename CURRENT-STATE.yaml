@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0499c5a7bd4198a5aa65233effd05ca3d7b9d34a
+revision_basis: 1037c2c1bfbae213791b9a5404a028dba19d63e5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The action-owned strict B5 branch now has one common closed domain on a
+    named geometric model. On the repository-constructed flat half-cylinder
+    [0,infinity) x T^(8,5) with positive coflip-fixed normal, the compact-
+    interior folded expression is closable and its minimal graph closure is
+    closed. The same domain carries the formal anti-adjoint and every bounded
+    lower-order deformation by exact graph-norm equivalence, and the relative
+    Gamma-natural coflip preserves it. Together with the actual-carrier-
+    induced stage pairing, transported antilinear coflip, ANTI formal sign and
+    explicit program-native B_n, this admits the strict five-field packet at
+    repository-constructed non-null-product-end/minimal-realization grade.
+    This is not a maximal-isotropic or self-adjoint extension, a Fredholm or
+    Calderon result, a characteristic quotient, a physical state space, or
+    the source-selected global Met(X) geometry. The null radical is unchanged.
+    The graph-mixing full-nine family remains EXTERNAL-VIA-GRAM and is not
+    admitted. Next decide B5-BOUNDARY-POLARIZED-EXTENSION-VERDICT by either an
+    action/source-owned maximal-isotropic polarization or verdict stability
+    across extension moduli. Joe input is not required.
     The strict B5 curved branch now has a complete exact formal Green/coflip
     packet on the actual complexified (9,5) carrier. For conormal n, the
     folded BV boundary coefficient is B_n=[[0,A_n^vee],[A_n,K_n]]. It is
@@ -2051,13 +2068,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the exact coarse strict BV action and its full-nine H(a,t) Euler family
-  be lifted to the actual 20-slot 128/1792/1792/128 B5 carrier with
-  representation-natural blocks and a declared native Krein pairing? The
-  lift must decide whether the strict branch intersects the native
-  coefficient family or is empty. Keep the current Stage-B H9 on its separate
-  graph-mixing route, preserve the fail-closed five-field packet, and do not
-  start coflip or domain work before a native assembled operator exists.
+  Does any action/source-owned boundary polarization select a maximal-
+  isotropic closed extension of the strict B5 operator on an appropriate
+  non-null end, or are the downstream mirror, exactness and quotient verdicts
+  stable across the admissible extension moduli? Keep the newly admitted
+  minimal graph closure distinct from self-adjoint or physical extensions,
+  and keep the graph-mixing full-nine family on its separate
+  EXTERNAL-VIA-GRAM route.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -2066,19 +2083,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  The strict coarse action/BV bridge is complete. Its canonical antibracket
-  makes K A=0 the independent master-equation/Noether condition, and its exact
-  normalized 1->2->2->1 complex folds to a canonical-coarse self-adjoint
-  eight-block operator. The separate full-nine H(a,t) family retains live
-  aD_S and the same strict generator but leaves a and t free. The current
-  Stage-B H9 fails the strict generator and instead closes on a graph-mixing
-  kernel with nonzero S component. Construct B5-NATIVE-BV-HESSIAN-LIFT next:
-  realize or obstruct the strict A/K/A^T and H(a,t) relations on the actual
-  20-slot 128/1792 carrier with representation-natural blocks and a declared
-  native Krein pairing. SELF-CANONICAL-COARSE is not packet field (iii);
-  EXTERNAL-VIA-GRAM remains the current full-nine Euler verdict. Coflip and
-  domain-stability remain dependent. No native pairing, full-rank action,
-  nonlinear/source BV completion, domain, quotient or GU verdict is licensed.
+  The strict actual-carrier action, curved completion, relative coflip, formal
+  Green trace and one minimal common closed domain are complete at their exact
+  grades. On the flat non-null product end the strict five-field packet is
+  admitted, but the minimal graph closure supplies no boundary polarization,
+  self-adjointness, Fredholm estimate, characteristic quotient or physical
+  state space. Execute B5-BOUNDARY-POLARIZED-EXTENSION-VERDICT next only with
+  one of two exact endpoints: an action/source-owned maximal-isotropic
+  polarization on a named compatible end, or a proof that the downstream
+  verdict is stable across the admissible extension moduli. Preserve the null
+  radical and keep the graph-mixing full-nine family EXTERNAL-VIA-GRAM and
+  fail-closed. Do not infer a source-selected global Met(X) geometry,
+  historical preferred Shiab, particle result or GU verdict.
   Separately, the
   independent classical RSAP is closed at the exact
   minimum 98 and its

@@ -42,6 +42,31 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — named minimal domain and strict packet admission completed 2026-08-20
+
+The exact next domain owner is now constructed on the repository-owned flat
+B5 half-cylinder `[0,infinity) x T^(8,5)` with positive coflip-fixed normal.
+The compact-interior strict expression is closable because its formal adjoint
+contains the same dense core. Its minimal graph closure is closed, is common
+to the formal anti-adjoint expression and every bounded lower-order
+deformation by two-sided graph-norm equivalence, and is preserved by the
+Gamma-natural relative coflip.
+
+This fills field (v) at the literal one-common-closed-domain grade. Combined
+with the actual-carrier-induced strict stage pairing, transported antilinear
+coflip, `ANTI` sign and explicit program-native `B_n`, the strict action-owned
+five-field packet now passes the fail-closed ingress contract. The result is
+graded to a repository-constructed non-null product end and a **minimal**
+realization. It supplies no maximal-isotropic polarization, self-adjointness,
+Fredholm estimate, Calderon projector, characteristic quotient, physical
+state space or source-selected global `Met(X)` geometry.
+
+The current graph-mixing full-nine Euler family remains separate and
+`EXTERNAL-VIA-GRAM`; it receives no packet admission by inheritance. Any next
+domain work must ask the stronger `B5-BOUNDARY-POLARIZED-EXTENSION-VERDICT`:
+construct a source/action-owned maximal-isotropic extension or prove the
+downstream verdict stable across the admissible extension moduli.
+
 ## Execution update — curved coflip/Green transport completed 2026-08-20
 
 The assembled strict curved branch now carries an explicit complete formal

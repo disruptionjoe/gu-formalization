@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-STRICT-PACKET-ADMITS-MINIMAL-CLOSED-PRODUCT-END-DOMAIN",
+  "grade": "exact unbounded-operator minimal-closure grade on the repository-constructed flat complexified (9,5) half-cylinder",
+  "probe": {
+    "checks": 38,
+    "status": "pass",
+    "arithmetic": "exact fractions plus structural graph-closure theorem"
+  },
+  "model": {
+    "manifold": "[0,infinity)_r x T^13",
+    "ambient_signature": [9, 5],
+    "tangential_signature": [8, 5],
+    "normal": "dr",
+    "normal_square": 1,
+    "spin_structure": "periodic",
+    "coflip_geometry": "integral N eta coordinate involution fixing r and dr"
+  },
+  "domain": {
+    "core": "C_c^infinity(interior(M_plus);U0 plus U1)",
+    "realization": "minimal_graph_closure",
+    "closability_owner": "dense formal-adjoint core",
+    "closed": true,
+    "formal_adjoint_common_domain": true,
+    "bounded_lower_order_common_domain": true,
+    "coflip_compatible": true
+  },
+  "packet_consequence": {
+    "strict_native_field_i": "ACTUAL-CARRIER-INDUCED-KREIN-STAGE-PAIRING",
+    "strict_native_field_ii": "RELATIVE-ANTILINEAR-GAMMA-NATURAL/ABSOLUTE-LOCAL-SYSTEM",
+    "strict_native_field_iii": "ANTI-PRINCIPAL-SYMBOL/ACTION-CLOSED-EINSTEIN",
+    "strict_native_field_iv": "EXPLICIT-FORMAL-GREEN-TRACE-B_n",
+    "strict_native_field_v": "MINIMAL-GRAPH-CLOSURE-ON-FLAT-NONNULL-PRODUCT-END",
+    "strict_packet_admission": "admitted_at_declared_minimal_realization_grade",
+    "current_full_nine_euler_field_iii": "EXTERNAL-VIA-GRAM",
+    "current_full_nine_packet_admission": "rejected_fail_closed"
+  },
+  "claim_ceiling": "No maximal-isotropic, self-adjoint, maximal-dissipative, Fredholm, Calderon, characteristic quotient, global cohomology, physical state space, source-attested nonlinear action, historical preferred Shiab, particle result or GU verdict is claimed."
+}
