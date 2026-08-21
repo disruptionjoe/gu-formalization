@@ -7,6 +7,19 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## Jacobson/K77 reverse-scaffold benchmark council (2026-08-21)
+
+`jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md` records the
+8-1-1 adjudication to treat scoped semiclassical horizon/entropy/first-law
+behavior as an external benchmark without importing Jacobson's mechanism.
+It makes K77 `(7,7)` to observed `3+1` the primary reverse track, keeps B5
+`(9,5)` as a comparator, withdraws the unconstructed capability-boundary/local-
+horizon identity and fixes the claim ceiling: reverse recovery is compatibility;
+only a forward held-out consequence can become a prediction candidate.
+
+`conditional-build/conditional-physics-ledger-v0.260.md` summarizes the one-row
+`LT-GR8` append and the associated benchmark/realization/context fences.
+
 ## Jacobson gravitational-entropy to B5 transfer council (2026-08-21)
 
 `jacobson-b5-entropy-boundary-transfer-council-2026-08-21.md` records ten

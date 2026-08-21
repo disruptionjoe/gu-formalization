@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d15eb8fa5d851a6d41735497367a4f559c608045
+revision_basis: 6581e8691b0665132d6b6284b2ac77a3e889b1d1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The scoped semiclassical gravitational horizon/entropy/first-law behavior
+    is now an external reverse-scaffold benchmark in append-only ledger row
+    LT-GR8. The 8-1-1 science-council adjudication accepts the benchmark
+    without assuming Jacobson's mechanism: the missing object is a native,
+    source-aligned K77 (7,7) to observed 3+1 construction owning the boundary
+    map, entropy/area quantity, temperature, stress-energy flux and first-law
+    relation. Reverse-only recovery earns compatibility, not confirmation;
+    prediction credit requires a forward derivation and a preregistered
+    held-out consequence. B5 (9,5) is a scoped comparator whose direct
+    scalar-lapse port is already WRONG_TYPE, not the main program priority.
+    W151's former capability-boundary/local-horizon identity is withdrawn in
+    favor of a proposed typed bridge. No GU verdict changes.
     Result hardening now has three additional default-target Lean kernels. The
     finite complex-matrix trace proof derives a purely imaginary
     tr(chi K^-1 H) and zero real projector readout from explicit Hermiticity,
@@ -48,14 +60,16 @@ current_result:
     constraint-reduced physical state meaning, and require a named physical
     boundary/ensemble before contour, convergence, entropy or sign
     interpretation. This refines rather than reopens the already-closed generic
-    positivity search. The next admissible physical-pairing swing is
+    positivity search. The scoped physical-pairing swing was registered as
     B5-SIGNATURE-TYPED-REDUCED-PHASE-SPACE-BVBFV-OWNER-PACKET: construct a
     signature-correct canonical/BV--BFV owner and genuine lapse-like multiplier
     or prove none exists, then apply the sealed boundary/ensemble, both-sign,
     vacuum-convergence, observable-algebra and conserved-positive-cohomology
     battery across hit/miss and the relevant extension subclass. The
     ultrahyperbolic veto, edge-mode non-identification and entropy/probability
-    firewall are binding. Joe input is not required.
+    firewall are binding. That packet was subsequently executed at classical
+    linear boundary grade and its direct scalar-lapse port closed WRONG_TYPE,
+    as summarized above. Joe input is not required.
     The exact B5 marked reduced class now closes its first positivity
     discriminator. On its normalized real Witt plane, the program-native
     Green form has G(v,v)=G(w,w)=0 and G(v,w)=1, so the hit class [u] is
@@ -1924,6 +1938,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.260.md
+    - lab/process/conditional-physics-ledger-v0.260.json
+    - tests/source-sweeps/jacobson_k77_reverse_scaffold_ledger_probe.py
     - explorations/b5-strict-eight-block-euler-separation-2026-08-20.md
     - lab/process/b5-strict-eight-block-euler-separation.json
     - explorations/b5-four-stage-roll-support-obstruction-2026-08-20.md
@@ -2207,7 +2225,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can an action/source-owned dynamical metric or coframe extend the strict B5
+  Can source-aligned K77 (7,7) generate an observed 3+1 boundary, area/entropy
+  object, temperature, stress-energy flux and first-law relation without
+  importing Jacobson's mechanism, and can a preregistered held-out consequence
+  distinguish native forward derivation from reverse-fit compatibility? In the
+  separate B5 comparator, can an action/source-owned dynamical metric or coframe extend the strict B5
   packet with an even scalar Hamiltonian constraint and lapse, or can a named
   physical causal boundary/ensemble independently supply a BFV charge,
   observable algebra, selected closed domain, quantum measure and conserved
@@ -2223,7 +2245,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Rebuild the broader frontier from
+  For LT-GR8, first type the K77-to-observed-3+1 carrier and boundary map, then
+  derive the thermodynamic roles forward from the native action and reserve a
+  held-out consequence before comparing with the external benchmark. Do not
+  import a Jacobson mechanism, identify unlike boundary types, or award
+  prediction or confirmation credit for reverse-only recovery. Separately,
+  rebuild the B5 comparator frontier from
   B5-DYNAMICAL-GRAVITY-OR-PHYSICAL-BOUNDARY-BFV-REOPENER. Reopen the strict
   physical-pairing branch only if a typed action/source packet adds a
   dynamical metric or coframe with an even scalar Hamiltonian constraint and

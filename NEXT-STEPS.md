@@ -7,12 +7,30 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
-> **2026-08-21 JACOBSON 2023--2025 SOURCE PACK AND TWENTY-SEAT COUNCIL
-> REFINE THE LIVE B5 PHYSICAL-PAIRING OWNER GATE.** All five primaries are now
+> **2026-08-21 JACOBSON IS NOW AN EXTERNAL REVERSE-SCAFFOLD BENCHMARK,
+> WITH K77 `(7,7)` AS THE PRIMARY GU ROUTE.** Ledger target `LT-GR8` asks for
+> a source-aligned K77-to-observed-`3+1` construction that supplies the native
+> boundary, entropy/area object, temperature, stress-energy flux and first-law
+> relation needed to recover the scoped semiclassical horizon behavior. Keep
+> the reverse and forward tracks separate: reverse-only recovery earns
+> compatibility; a native forward derivation plus a preregistered held-out
+> consequence may earn a prediction candidate. Jacobson's mechanism is not a
+> premise, and external benchmark status is not GU realization. The `(9,5)`
+> B5 owner packet below was a comparator; it has since been executed and the
+> direct scalar-lapse port closed `WRONG_TYPE`. Do not treat it as the main
+> program priority. See
+> `explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md`
+> and `lab/process/conditional-physics-ledger-v0.260.json`.
+
+> **2026-08-21 HISTORICAL SCOPED B5 COMPARATOR: JACOBSON 2023--2025 SOURCE
+> PACK AND TWENTY-SEAT COUNCIL.** All five primaries are now
 > registered. No paper supplies an exact B5 port, preferred domain, edge-mode
 > identification, positive probability pairing or GU verdict. The generic
 > Krein-to-positivity search is already closed: positive completions exist and
-> are unselected. **Next build
+> are unselected. This packet was subsequently built at classical linear
+> boundary grade and the direct lapse analogue closed `WRONG_TYPE`; retain the
+> following text as its preregistered design, not as the current top priority.
+> **The registered build was
 > `B5-SIGNATURE-TYPED-REDUCED-PHASE-SPACE-BVBFV-OWNER-PACKET`: derive the
 > action-owned presymplectic/constraint/BV--BFV packet on the actual `(9,5)`
 > carrier and construct a signature-correct lapse-like multiplier or prove no

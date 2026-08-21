@@ -7,6 +7,19 @@ updated_at: "2026-08-21"
 
 # Process
 
+Current append-only progress surface:
+[`conditional-physics-ledger-v0.260.json`](conditional-physics-ledger-v0.260.json),
+summarized in
+`../../explorations/conditional-build/conditional-physics-ledger-v0.260.md`.
+It appends `LT-GR8` as an external reverse-scaffold target for scoped
+semiclassical horizon/entropy/first-law behavior while keeping the GU/K77
+realization, Jacobson mechanism and confirmation status separate. K77 `(7,7)`
+is the primary source-aligned route; B5 `(9,5)` remains a comparator. The
+ledger now contains 85 canonical targets and changes no predecessor row.
+
+Current Jacobson/K77 reverse-scaffold council:
+`../../explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md`.
+
 Current Jacobson/B5 source-transfer council registry:
 [`jacobson-b5-twenty-seat-priority-sweep-2026-08-21.json`](jacobson-b5-twenty-seat-priority-sweep-2026-08-21.json).
 It records exactly five primaries, ten science-council seats, ten variant
@@ -15,7 +28,7 @@ refined signature-typed BV--BFV owner condition. The seats are modeled
 disciplinary lenses, not twenty independent AI vendors or scientific
 replications.
 
-Current append-only progress surface:
+Earlier append-only progress surface:
 [`conditional-physics-ledger-v0.252.json`](conditional-physics-ledger-v0.252.json),
 summarized in
 `explorations/conditional-build/conditional-physics-ledger-v0.252.md`.

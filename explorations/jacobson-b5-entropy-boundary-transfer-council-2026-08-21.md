@@ -12,6 +12,17 @@ registry: lab/process/jacobson-b5-twenty-seat-priority-sweep-2026-08-21.json
 
 # Jacobson gravitational entropy to B5: twenty-seat transfer council
 
+> **Priority correction, 2026-08-21.** This council's direct `(9,5)` B5
+> transfer was a scoped comparator, not the main GU gravity program. Its
+> proposed owner packet has now been executed at classical linear boundary
+> grade and the direct scalar-lapse port closed `WRONG_TYPE`. The broader
+> reverse scaffold is ledger target `LT-GR8`: recover the scoped external
+> semiclassical horizon/entropy/first-law benchmark from source-aligned K77
+> `(7,7)` through an explicit observed-`3+1` and boundary bridge. Jacobson's
+> mechanism is not assumed. See
+> `jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md` and ledger
+> `lab/process/conditional-physics-ledger-v0.260.json`.
+
 ## Owner-packet continuation resolved
 
 The signature-typed strict-action continuation is now decided in

@@ -4,7 +4,7 @@ status: exploration (TEAM EMERGENCE, W151; 5 perspectives inline, one context, n
 created: 2026-07-14
 wave: W151
 hypothesis: "W151 -- Joe's strongest structural substrate conjecture: records are held in the Y14 substrate and COMMUNICATED THROUGH LIGHT (causal order); TIME is the growing set of mutually-consistent shared records across the global/regional/individual capability tiers (the number/volume leg); and GENERAL RELATIVITY and the SPEED OF LIGHT should POP OUT of this record/light/consistency structure. CRUX: does GU make the emergence NATIVE (forced by Y14 = Met(X4)) rather than a generic import, and does the record-thermodynamic route reproduce GU's already-computed native Einstein coefficient (W126/W130 a1 = 1/3, split 3:2:1)?"
-title: "VERDICT: HALF-NATIVE, with a sharp two-route split. (1) The causal/CONFORMAL leg is GU-NATIVE: 'records communicated by light' = the causal order, and Malament's theorem (causal order -> conformal metric + topology + differentiable structure + a maximal signal speed) is realized IN GU by the W131 gimmel null cone, whose (9,5) = base (3,1) + DeWitt fiber (6,4) split makes the observed X4 light cone the (3,1) base factor -- so c-emergence is THEOREM-BACKED and GU-LOCALIZED (though the VALUE of c is not a substrate prediction; c = 1 by convention, the content is cone existence + Lorentzian signature). (2) The number/VOLUME leg (BLMS 'order + number = geometry') IS Joe's 'time = consistent additional records': counting = volume = the conformal factor Malament drops; positive control reproduces order->[g]-only and number->volume on a toy causal diamond. Lorentz invariance survives via sprinkling (no preferred frame), at the price of the standing LIV bound. (3) The DYNAMICS leg (Jacobson equation-of-state on the measurement-gated capability-tier boundary as a LOCAL causal horizon) is a GENERIC IMPORT that AGREES with GU's own geometric route (alpha, W126/W130) on the SIGN of the Einstein term (both attractive: alpha a1 = +1/3 > 0, beta entropy density eta = +1/4 > 0) but does NOT reproduce the MAGNITUDE 1/3 (beta FIXES the Einstein coefficient by DEFINING G via eta, so the number is normalization, not a prediction: NUMBER-MATCH NOT-YET-COMPUTABLE) and CANNOT produce the 3:2:1 sector split (a GU-specific literal-graph object with a longitudinal residue the covariant record route lacks). (4) R^2-SECTOR: genuine CONFLICT, informative -- the record/thermodynamic route famously gives PURE EINSTEIN (Raychaudhuri focusing is LINEAR in R_ab; area-entropy Clausius yields G_ab + Lambda g_ab with NO R^2; f(R) needs a non-equilibrium entropy-production term, Eling-Guedens-Jacobson 2006), whereas GU's |II|^2 geometry FORCES the tachyonic R^2 scalaron (a2 = -1/9, W126/W130). The record route would truncate GU to Einstein and explain the tachyon away; GU's own geometry does not permit that. The departure LOCALIZES exactly there: the record route is an equilibrium/area-entropy (leading-order) statement blind to the higher-derivative structure GU's exact induced functional carries. (5) NOVELTY: at the GR-emergence level the bare chain is a RELABEL-OF-{Malament 1977 + BLMS 1987 + Jacobson 1995}, and Padmanabhan equipartition + the W138 G5 de Sitter relabel gate bite; the ONE GU-SPECIFIC PIN is structural not numerical -- the measurement-gated Y14 -> X4 projection identifies the Jacobson horizon with the capability-tier/firewall boundary AND forces the counting dimension to collapse 14 -> 4 (the W146 shadow-map constraint) AND localizes the cone as the (3,1) base of the (9,5) gimmel cone; the only numerical hook (everpresent-Lambda subleading structure) is the W145-W149 siblings' object and is G5-degenerate at leading order."
+title: "VERDICT: HALF-NATIVE, with a sharp two-route split. The causal/conformal leg is GU-localized; the number/volume leg is imported with a GU dimensional rider; and the Jacobson dynamics leg is an external conditional benchmark whose mechanism is not assumed. The measurement-gated Y14 -> X4 boundary has only a proposed typed bridge to a local causal horizon. The prior sign match, uncomputed magnitude, missing 3:2:1 recovery, and equilibrium R^2 mismatch remain unchanged."
 grade: "exploration / conditional register throughout. METHOD AND ANALYSIS plus positive-control computation, NOT evidence. The real-physics chain (Malament / BLMS / Jacobson / Padmanabhan / Sorkin everpresent-Lambda) is PORTED and labelled as such; the native GU Einstein data (W126 F(R) = 2 + R/3 - R^2/9; W130 split 3:2:1, c_R = -4/9) is RECORDED in-repo and regression-pinned here, not re-derived. The two-route comparison is stated as sign-MATCH / R^2-MISMATCH / magnitude-NOT-YET-COMPUTABLE with the exact reason for each. Deterministic test tests/W151_gr_and_c_emergence_from_records.py (25 checks, exit 0), positive controls first: Malament order->[g]-only + number->volume on a toy 1+1 causal diamond; the Jacobson null-vector lemma checked numerically in d=4; the W126/W130 coefficients regression-pinned. NO forbidden target assumed/inserted. NO canon / RESEARCH-STATUS / claim-status / verdict / posture change. Tri-repo gating honored (capability measure = TaF; record/finality/time semantics = temporal-issuance + time-as-finality; GU owns the emergent-metric MATH only; no cross-repo identity asserted). Zero em dashes in paper-facing text."
 depends_on:
   - explorations/W126-beyond4th-vacuum-lift-2026-07-13.md
@@ -40,6 +40,19 @@ chain, and the sharp GU-native test against GU's own already-computed native Ein
 coefficient (W126/W130). Five perspectives inline, one context, no independent reviewers. Deterministic test
 `tests/W151_gr_and_c_emergence_from_records.py` (25 checks, exit 0).
 
+> **COUNCIL CORRECTION 2026-08-21 — TARGET ADMITTED; BOUNDARY IDENTITY
+> WITHDRAWN.** The scoped semiclassical horizon-entropy/first-law behavior is
+> now an accepted external reverse-scaffold target in ledger row `LT-GR8`.
+> Jacobson 1995 remains a conditional theorem and its mechanism is not assumed
+> to be GU's. This artifact's statement that Joe's measurement-gated
+> capability boundary “IS” the local causal horizon is superseded: it is a
+> proposed typed bridge. A capability boundary, local Rindler horizon,
+> cosmological horizon, York ensemble boundary, analytic operator-domain
+> boundary and BV--BFV boundary remain distinct until a map is constructed.
+> The original `PORTED` grade, sign-only match, uncomputed normalization and
+> equilibrium-`R^2` mismatch remain unchanged. See
+> `explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md`.
+
 Two things are kept strictly separate throughout, following the W138 discipline: whether the
 emergence WORKS (does GR pop out) and whether it is NATIVE (forced by `Y14 = Met(X4)`, versus a
 generic import that any causal substrate would supply). The headline is that they split cleanly
@@ -55,7 +68,8 @@ across the three legs.
 
 Joe's conjecture maps onto this chain exactly: light-communication = the causal order (Malament
 leg); `time = consistent additional records across observers` = the number/volume leg (BLMS);
-the measurement-gated capability-tier boundary = the local causal horizon (Jacobson leg). The
+the measurement-gated capability-tier boundary is proposed to bridge to the local causal horizon
+(Jacobson leg), but no identity map has been constructed. The
 rest of this note assesses each leg for NATIVITY and runs the two-route Einstein test.
 
 ---
@@ -131,13 +145,15 @@ Clausius relation `delta Q = T delta S` for ALL local Rindler horizons forces
 `G_ab + Lambda g_ab = 8 pi G T_ab` with `eta = 1 / (4 G hbar)`. GR pops out of the thermodynamics of
 records crossing a local causal horizon.
 
-**Joe's measurement-gated boundary IS the local horizon.** The capability hierarchy GLOBAL ->
+**Joe's measurement-gated boundary is a proposed bridge to the local horizon.** The capability hierarchy GLOBAL ->
 REGIONAL -> INDIVIDUAL, where an individual must OBSERVE a record to promote it into the regional
-measured component, is precisely a local causal horizon: unpromoted Y14 records sit behind the
-observer's capability boundary, and promotion is the heat flux across it. In canon terms this is the
-firewall boundary (`firewall-boundary-hypothesis.md`), read as the interface where individual
-observation promotes hidden Y14 records into shared regional reality. The Jacobson horizon and the
-firewall/capability boundary are the same object under this reading.
+measured component, suggests a comparator to a local causal horizon: unpromoted Y14 records may sit
+behind an observer capability boundary, and promotion may be compared with heat flux across a
+physical boundary. In canon terms the nearest object is the firewall boundary
+(`firewall-boundary-hypothesis.md`). No current construction identifies that capability boundary
+with a local Rindler horizon, defines the required stress-energy flux, or proves the two boundaries
+are the same physical system. The identification is therefore a proposed bridge, not an owned
+object identity.
 
 **Positive control (test J).** The load-bearing step of Jacobson 1995 is the null-vector lemma:
 if `S_ab k^a k^b = 0` for all null `k`, then `S_ab = phi g_ab`. Checked numerically in d=4: the
@@ -259,9 +275,9 @@ verdict for the bare chain.
 only if GU pins an object the bare program lacks. There is exactly one, and it is STRUCTURAL not
 numerical:
 
-- The measurement-gated `Y14 -> X4` projection IDENTIFIES the Jacobson horizon with the
-  capability-tier / firewall boundary (a canon object, `firewall-boundary-hypothesis.md`), rather
-  than positing a generic Rindler horizon.
+- The measurement-gated `Y14 -> X4` projection is a candidate source of a typed bridge from the
+  capability-tier / firewall boundary (a canon object, `firewall-boundary-hypothesis.md`) to a
+  local causal horizon. No such bridge is currently constructed.
 - It FORCES the counting dimension to collapse `14 -> 4` (the W146 shadow-map constraint): a naive
   14-dim Y14 Planck sprinkle catastrophically mispredicts, so the projection must reduce the
   effective sprinkling dimension to 4. That is a GU-specific constraint on the number leg absent from
@@ -274,8 +290,9 @@ None of these pins a NUMBER the standard program cannot produce; they pin STRUCT
 subleading correction (a non-Poisson `{2,7,13}`-smooth record spectrum rescaling the amplitude by
 `sqrt(c)`, per sibling W145), and that is the siblings' object, G5-degenerate at leading order. So the
 skeptic's honest scorecard: **NOVELTY = RELABEL-OF-{Malament + BLMS + Jacobson + Padmanabhan} at the
-GR-emergence level, with ONE GU-SPECIFIC STRUCTURAL PIN (horizon = firewall/capability boundary; 14 ->
-4 dimension collapse; cone = (3,1) base of (9,5)), and NO GU-specific NUMBER yet, the numerical hook
+GR-emergence level, with ONE GU-SPECIFIC STRUCTURAL CANDIDATE (a still-missing typed bridge from the
+firewall/capability boundary to a horizon; 14 -> 4 dimension collapse; cone localization), and NO
+GU-specific NUMBER yet, the numerical hook
 being delegated to the W145-W149 siblings.**
 
 ---
@@ -286,8 +303,9 @@ being delegated to the W145-W149 siblings.**
 order -> conformal `[g]` + topology + differentiable structure + maximal speed; NOT the conformal
 factor. BLMS (PORTED): number/record-count -> the conformal factor -> full `g`; Joe's
 consistent-record-time IS this number leg; Lorentz invariance via sprinkling, LIV-bounded,
-Hauptvermutung case-proven. Jacobson (PORTED): area-entropy Clausius on the measurement-gated
-horizon -> `G_ab + Lambda g_ab = 8 pi G T_ab` (the dynamics); NOT the `R^2` sector.
+Hauptvermutung case-proven. Jacobson (PORTED): area-entropy Clausius on a local causal horizon
+-> `G_ab + Lambda g_ab = 8 pi G T_ab` (the dynamics); NOT the `R^2` sector. The bridge from the
+measurement-gated boundary to that horizon remains missing.
 
 **GU-NATIVE test result.** MATCH-ON-SIGN (both routes attractive: alpha `a1 = +1/3 > 0`, beta
 `eta = +1/4 > 0`); MISMATCH-BY-the-`R^2`-sector (alpha `a2 = -1/9 != 0`, beta `a2 = 0` at
@@ -312,9 +330,9 @@ functional), not a sign or structural contradiction.
 
 **Novelty verdict.** RELABEL-OF-{Malament 1977 + BLMS 1987 + Jacobson 1995 + Padmanabhan
 equipartition} at the GR-emergence level; the W138 G5 de Sitter relabel gate and the Padmanabhan
-prior-art sub-gate both bite. ONE GU-SPECIFIC PIN, structural: the measurement-gated `Y14 -> X4`
-projection = the Jacobson horizon = the capability-tier/firewall boundary, forcing the `14 -> 4`
-counting collapse and the (3,1)-base cone localisation. No GU-specific NUMBER yet; the numerical hook
+prior-art sub-gate both bite. ONE GU-SPECIFIC STRUCTURAL CANDIDATE remains: a typed bridge from the
+measurement-gated `Y14 -> X4` capability boundary to a local causal horizon, alongside the `14 -> 4`
+counting collapse and the base-cone localisation. The boundary identity is not established. No GU-specific NUMBER yet; the numerical hook
 is the siblings' everpresent-subleading object.
 
 **Native-or-import summary (the crux).** HALF-NATIVE. The causal/conformal leg is GU-NATIVE (the

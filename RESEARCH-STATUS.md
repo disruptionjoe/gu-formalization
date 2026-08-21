@@ -8,9 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Jacobson/K77 reverse-scaffold benchmark 2026-08-21 (external target
+accepted; mechanism and GU realization unproved).** Ledger v0.260 adds one
+target, `LT-GR8`, for the scoped semiclassical gravitational
+horizon/entropy/first-law behavior associated with Jacobson's 1995
+equation-of-state result and the newer model-scoped entropy work. The external
+benchmark is established at its cited conditional scope; what remains missing
+is a source-aligned K77 `(7,7)` to observed-`3+1` construction that owns the
+boundary map, entropy/area object, temperature, stress-energy flux and
+first-law relation. The council vote was 8 for benchmark-without-mechanism,
+1 for direct reverse premise and 1 for later validation only. Reverse-only
+recovery counts as compatibility, not confirmation; prediction credit requires
+a native forward derivation and a preregistered held-out consequence. No GU
+verdict changes. See
+`explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md`
+and `lab/process/conditional-physics-ledger-v0.260.json`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| scoped semiclassical horizon behavior | recognized literature, not a ledger target | external conditional benchmark and active reverse scaffold | preserve cited scope | council / ledger |
+| GU/K77 realization | conflated in places with a capability-boundary identity | `NEEDS/MISSING_CONSTRUCTION`; boundary identity withdrawn | K77 `(7,7)` -> observed `3+1` typed bridge | W151 / ledger |
+| Jacobson mechanism | sometimes read as the proposed GU route | no commitment; model-scoped test library only | native action and boundary derivation | council |
+| prediction or confirmation | none | none; reverse-only match is compatibility | held-out forward consequence | council / ledger |
+
 **Jacobson gravitational-entropy source and B5 transfer council 2026-08-21
-(five primaries registered; twenty modeled seats; physical-pairing priority
-refined without claim promotion).** The repository now recognizes the complete
+(five primaries registered; twenty modeled seats; scoped B5 comparator,
+superseded as the main priority).** The repository now recognizes the complete
 2023--2025 five-paper packet on gravitational partition functions, lapse
 contours, simplicial de Sitter entropy, causal-diamond ensembles and de Sitter
 first-law energy accounting. A ten-seat science council and ten triggered
@@ -18,11 +41,14 @@ variant specialists return no `EXACT_PORT`. They select two compound
 `METHOD_PORTS`: constraint-reduced state meaning must precede a covariant
 state count, and a named physical boundary/ensemble must precede contour,
 vacuum-convergence, entropy or sign interpretation. The generic B5 positivity
-discriminator remains closed. The refined live condition is
+discriminator remains closed. The registered scoped condition was
 `B5-SIGNATURE-TYPED-REDUCED-PHASE-SPACE-BVBFV-OWNER-PACKET`; it first asks for
 a signature-correct canonical/BV--BFV owner and lapse-like multiplier or a
 proof none exists, then tests whether the joint Jacobson-inspired admissibility
-battery narrows the hit/miss extension family. The multiple-time veto,
+battery narrows the hit/miss extension family. That packet was later executed
+at classical linear boundary grade and the direct scalar-lapse port closed
+`WRONG_TYPE`; the K77 `(7,7)` reverse scaffold above is the broader program
+placement. The multiple-time veto,
 edge-mode non-identification and entropy/probability firewall remain binding.
 See `lab/sources/jacobson-gravitational-entropy-primary-pack-2026-08-21.md`
 and

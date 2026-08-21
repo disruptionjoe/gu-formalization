@@ -4,6 +4,15 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Jacobson/K77 reverse-scaffold ledger gate
+
+- `source-sweeps/jacobson_k77_reverse_scaffold_ledger_probe.py` strictly
+  compares ledger v0.260 with v0.259, requires exactly one appended `LT-GR8`
+  row and no predecessor-row changes, recomputes all counts, verifies the
+  external-benchmark/GU-realization/mechanism/confirmation separations and
+  context projection, checks the repo front doors, and runs planted-negative
+  mutations against the claim ceiling.
+
 ## Jacobson/B5 source-transfer council gate
 
 - `source-sweeps/jacobson_b5_transfer_sweep_probe.py` strictly parses the
