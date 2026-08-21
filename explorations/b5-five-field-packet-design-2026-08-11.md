@@ -828,6 +828,18 @@ formal Green form).
 
 ## Why the program parked here (cited)
 
+### 2026-08-21 positivity closure
+
+The strict packet now reaches a marked reduced class, but that class is null
+for the native Green form. Exact positive fundamental symmetries on its Witt
+plane necessarily exchange the hit null line with its opposite partner, while
+auxiliary positive quotient norms remain freely rescalable and unowned. The
+bulk action and filed source select neither trace extension nor physical
+pairing. Reopen positivity only with a typed owner packet supplying the
+carrier map, closed domain, gauge descent, positive quotient pairing and
+dynamical conservation; do not infer physical probability from graph-topology
+positivity alone.
+
 - The recorded reason: BLOCKED at the five-field packet (2026-07-29 audit)
   plus the RB7 kill, with the new acceptance rules holding the door shut —
   "do not cite an FD-read null or kill until it is certified ... (P-H29)"

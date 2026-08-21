@@ -218,3 +218,14 @@ decide whether either mathematically available reduced class carries a
 domain-selected positive physical pairing or prove that the action/source
 silence leaves positivity extension-underdetermined. Total cohomology,
 Fredholmness and source selection remain separate reopen conditions.
+
+## Positivity continuation closed
+
+The continuation is now decided in
+`b5-krein-probability-positivity-discriminator-2026-08-21.md`. The marked hit
+class is null for the native Green form. Exact positive fundamental symmetries
+on its Witt plane necessarily mix the hit line with the opposite partner and
+therefore do not preserve the admitted hit trace line. Arbitrary positive
+auxiliary quotient norms exist, but the action and filed source select none
+as a physical probability pairing. The correct current verdict is extension-
+and metric-underdetermination, not a universal positivity no-go.

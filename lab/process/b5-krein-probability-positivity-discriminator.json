@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-21",
+  "result": "B5-MARKED-REDUCED-CLASS-POSITIVITY-IS-CURRENTLY-UNSELECTED",
+  "grade": "exact Witt-plane, closed reduced-class and current action/source nonselection grade on the repository-constructed flat complexified (9,5) half-cylinder",
+  "probe": {
+    "checks": 61,
+    "status": "pass",
+    "arithmetic": "exact rational two-dimensional Witt controls and positive fundamental-symmetry family"
+  },
+  "marked_class": {
+    "hit_reduced": "nonzero",
+    "miss": "section excluded",
+    "native_green_norm": "zero"
+  },
+  "positive_completions": {
+    "fundamental_symmetry_family": "J_r=[[0,1/r],[r,0]] for r>0",
+    "positive_majorant": "G J_r=diag(r,1/r)",
+    "domain_effect": "J_r maps the hit Witt line to the opposite miss line",
+    "auxiliary_quotient_metrics": "alpha |z|^2 for arbitrary alpha>0"
+  },
+  "ownership": {
+    "bulk_action": "admits hit and miss trace choices and selects neither",
+    "source": "SOURCE-SILENT for endpoint, asymptotic, fundamental-symmetry and probability selectors",
+    "physical_pairing": "not selected"
+  },
+  "next_condition": "B5-PHYSICAL-PAIRING-OWNER-PACKET",
+  "reopen_requirements": [
+    "typed carrier map",
+    "action/source-owned positive selector",
+    "selected closed domain",
+    "gauge descent",
+    "positive quotient pairing",
+    "dynamical conservation"
+  ],
+  "claim_ceiling": "The current exact marked reduced class is Green-null; positive mathematical completions exist but require unselected domain/metric data. This is not a universal positivity no-go, total-cohomology comparison, self-adjointness/Fredholm theorem, quantum BRST construction, particle result, canon change or GU verdict."
+}

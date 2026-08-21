@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b479890867670cec38e080d40afb12f6e8f5f06f
+revision_basis: 147c7d3ea05bc8196fcd8dffb63295649af1315b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The exact B5 marked reduced class now closes its first positivity
+    discriminator. On its normalized real Witt plane, the program-native
+    Green form has G(v,v)=G(w,w)=0 and G(v,w)=1, so the hit class [u] is
+    native-null. Positive fundamental symmetries exist as the exact family
+    J_r=[[0,1/r],[r,0]], r>0, with G J_r=diag(r,1/r), but every member sends
+    the hit line v to the opposite partner r w and therefore does not preserve
+    the admitted hit trace line. The auxiliary reduced-quotient topology also
+    supplies arbitrary positive norms alpha|z|^2, but no bulk-action identity,
+    boundary selector, filed source statement, conservation law, observable
+    algebra or quantum measure chooses r or alpha or identifies either as
+    probability. The miss realization excludes the marked section entirely.
+    Thus positive mathematical completion is available while physical
+    positivity is extension- and metric-underdetermined at the current exact
+    packet. This is not a universal positivity no-go, total-cohomology
+    comparison, self-adjointness/Fredholm theorem, quantum BRST construction,
+    particle result or GU verdict. Reopen only with
+    B5-PHYSICAL-PAIRING-OWNER-PACKET carrying a typed action/source-owned
+    selector, closed domain, gauge descent, positive quotient pairing and
+    dynamical conservation; otherwise rebuild the broader frontier. Joe input
+    is not required.
     The strict B5 massless witness now defines an extension-sensitive marked
     middle-stage gauge/BRST class in explicit closed stage realizations on the
     named flat half-cylinder. At the non-null normal, the middle Green form
