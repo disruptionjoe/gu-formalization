@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-08-14",
-  "refresh_note": "Regular-Cartan globalization gate 2026-08-14: the exact endpoint trace-dual has a squarefree squared-spectrum polynomial with five positive and two negative roots, so its regular real Cartan type is split rank five plus compact rank two. The two compact directions carry nonzero KKS periods that vary along the action-owned scaling line, obstructing the untwisted 98-dimensional orbit-family product globalization. Twisted or monodromic 98-dimensional equivariant realizations remain open; the global minimum stays in [98,182]. The disjoint source-residual lane now uses the action-owned Cl2 adjoint gauge map but is blocked on construction of a complete source/action-owned stationary total-residual-zero background. Next construct or obstruct the twisted minimal carrier, or sharpen the best global carrier below 182; independently build the missing source background before replaying residual composition. Do not universalize the product obstruction, manufacture the background, install a source-owned edge field, choose W or mirror, infer physical counts/cohomology, or replace the non-chiral total target by net chirality. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "updated_at": "2026-08-21",
+  "refresh_note": "Joe direct priority 2026-08-21: the active Lane-1 research lead is CONDITIONAL-BUILD-REVERSE-SCAFFOLD. Work backward from the conditional-physics ledger through one shared dependency sequence: stationary nonhomogeneous vacuum and full Hessian/stabilizer, observed 3+1 bridge, interacting BV/BFV physical quotient, relative index/count observable, then target-frozen thermodynamic and cosmological adjudication. Conditional construction must preserve source ownership as explicit residue and reserve a held-out consequence. B5 remains a scoped comparator, not the default merely because it is executable. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
     "ACTIVE",
@@ -218,6 +218,38 @@
       },
       "lane_one_lead": false,
       "lead_note": "No longer the Lane-1 default (Joe 2026-07-21). C1 showed the lattice non-generative pending an owner-grade source packet. The source-domain-selector and Q1a work localized the same gap but did not produce the missing native noncompact-end/object specification. Wait for materially new owner evidence; remains available, not disabled."
+    },
+    {
+      "id": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+      "title": "Reverse-scaffold one conditional physics build from the ledger's shared missing objects",
+      "track": "north_star",
+      "state": "ACTIVE",
+      "owner": "gu-formalization",
+      "depends_on": [],
+      "lane_one_lead": true,
+      "lead_authority": "Joe direct chat 2026-08-21: make the 20-lens plus Science Council conditional-build ranking canonical GU research priority.",
+      "objective": "Meaningfully upgrade multiple conditional-physics-ledger entries by constructing exact shared bridges backward from required physics roles while keeping every comparator-driven assumption, external datum and source-ownership gap explicit.",
+      "current_authority": "Ledger v0.260 has 85 canonical targets and 28 NEEDS rows, but the 20 specialist lenses plus Science Council show that most of the live construction debt concentrates in four shared objects: an action-stationary nonhomogeneous vacuum, a typed K77-to-observed-3+1 bridge, an interacting physical BV/BFV quotient with domain and positive pairing, and a normalization/index layer with held-out adjudication. The conditional build is authorized to construct and falsify these objects at explicit reconstruction grade; it is not authorized to relabel them source-owned or award confirmation credit for reverse-only recovery.",
+      "evidence_ref": "lab/process/conditional-physics-ledger-v0.260.json; explorations/conditional-build/conditional-physics-ledger-v0.260.md; explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md; explorations/conditional-build/selected-k77-action-concomitant-residual-flag-gate-2026-08-12.md; explorations/conditional-build/selected-k77-common-first-action-epsilon-hessian-2026-08-08.md",
+      "priority_sequence": [
+        "CBRS-1: smallest target-blind action-stationary nonhomogeneous K77 vacuum with reduced curvature, full second-fundamental data, complete admitted field tangent, full Hessian, global stabilizer and spectrum",
+        "CBRS-2: typed K77-to-observed-3+1 map with one named physical causal region, boundary and canonical constraint system",
+        "CBRS-3: interacting BV/BFV complex, common closed domain, reduced physical cohomology and conserved positive pairing",
+        "CBRS-4: typed relative index/count observable with P3 retained as external residue",
+        "CBRS-5: target-frozen thermodynamic and cosmological comparison using one preregistered held-out consequence"
+      ],
+      "first_packet_rows": [
+        "RA-A1",
+        "RA-A2",
+        "RA-A6",
+        "RA-A8",
+        "RA-E1",
+        "RA-E6",
+        "RA-G4"
+      ],
+      "next_swing": "Execute CBRS-1. Start from the smallest target-blind nonhomogeneous reduced-curvature plus full-II orbit allowed by the current K77 conditional-build grammar. Resolve direct metric stationarity and the complete admitted tangent before computing the full Hessian. Then compute the global stabilizer, mu6 descent, J/Higgs selection, photon kernel, extra-U1 mass direction and first gravitational symbol consequences without fitting a spectral cut or row-specific mechanism. Freeze at least one output not used to construct the background. A negative result over the frozen class is a valid high-leverage outcome.",
+      "kill_condition": "If the frozen target-blind conditional action class has no fully stationary nonhomogeneous solution, or every such solution retains only the trace/traceless invariant algebra and cannot jointly improve the seven first-packet rows, close that class and advance to the next materially distinct conditional action class rather than tuning one row at a time.",
+      "forbidden_shortcut": "Do not promote reconstruction grade to source ownership; do not change NEEDS to SAME merely because a conditional model fits; do not choose the vacuum, boundary, domain, positive metric, index value or normalization after reading the target-facing result; do not build separate incompatible constructions per ledger row; and do not return to old Lean hardening or the B5 comparator while an admissible CBRS packet remains executable."
     },
     {
       "id": "PRED-FLAVOR-RANK",
@@ -559,7 +591,8 @@
       "state_note": "Reconciled 2026-08-12 by the portfolio correction. The fail-closed packet remains BLOCKED, but the old five-blank-field summary is stale. Coflip support and relative transport exist; its absolute ordered phase is globally mistyped and only the unordered pair descends. A formal Green packet exists below packet grade. The section-domain moduli have no canonical selector at filed symmetry, but B5 asks for one common compatible domain and the ambient domain is open. The genuine bounded computation is the pairing-table/formal-adjoint sign, preceded by RB6 exact-derivative recertification. No verdict or coefficient space is promoted.",
       "owner": "gu-formalization (acyclization swing + native-vs-forced adjudication); possibility-to-capability (discrete-GfE / boundary-action sigma-habitat ingredient, transferred source-action lane)",
       "depends_on": [],
-      "lane_one_lead": true,
+      "lane_one_lead": false,
+      "lead_note": "Superseded as Lane-1 default by Joe's 2026-08-21 CONDITIONAL-BUILD-REVERSE-SCAFFOLD priority. Preserve this B5 packet as a scoped comparator and revival route; its scientific state is unchanged.",
       "current_authority": "OPENED 2026-07-21 by Joe direct chat and reaffirmed 2026-07-23: replace the step-0 'check Weinstein source' gate with an INDEPENDENT symbol-class enumeration and open the build. Scoped by explorations/b5-independent-reconstruction-scope-2026-07-21.md: independent B.5 reconstruction is FEASIBLE at operator grade and strictly more uncontestable than waiting on Weinstein's unreleased cyclic two-connection complex (one un-verifiable sketch that buys nothing; we need the repo's own P_S,g, not it). The selecting datum stays EXTERNAL (sigma Godel-independent, LC-SELECTOR) so this build recovers the physics, it does not force uniqueness. Discharging SRC-COH-1 here is what turns the anomaly co-variance prediction from proposal to forced and lifts six legs from hosting to R1-forced (see ANOMALY-DESCENT-HARDENING, parsimony-unexplained-joints-ledger). Native source recovery remains valuable but does not gate this explicitly conditional truth test; every non-native input stays named. historical-investigation froze the complete finite Hom-space enumeration contract and prohibited treating the currently named symbol seeds as a completeness proof.",
       "evidence_ref": "explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md; explorations/b5-independent-reconstruction-scope-2026-07-21.md; explorations/observation-to-family-b5-campaign-2026-07-20.md (section 8, the predeclared acyclization swing); canon/source-action-seiberg-witten-construction.md; canon/shiab-existence-cl95.md; tests/channel-swings/ch_src_minimal_action_toy.py (B.1-B.4 toy)",
       "next_swing": "Step 0: recertify the remaining RB6 null with exact derivatives. Step 1: execute the already-named 20-slot pairing-table plus formal-Krein-adjoint-sign computation on the full assembled expression. Step 2: lift the formal Green packet and test verdict-stability over the filed section-domain moduli while separately constructing one common ambient-compatible domain. Do not solve for a globally nonexistent absolute coflip phase, demand a unique domain the contract does not require, or import the K77 boundary campaign's different operator/domain.",

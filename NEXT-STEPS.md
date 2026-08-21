@@ -7,6 +7,25 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
+> **2026-08-21 LANE-1 LEAD: CONDITIONAL-BUILD-REVERSE-SCAFFOLD.** Work
+> backward from ledger v0.260 through shared constructions, not row-specific
+> fits and not an unavailable external source ledger. **CBRS-1 is next:**
+> construct the smallest target-blind action-stationary nonhomogeneous K77
+> vacuum carrying reduced curvature and full second-fundamental data; resolve
+> the complete admitted tangent and direct metric stationarity; then compute
+> the full Hessian, global stabilizer, `mu6` descent, `J`/Higgs selection,
+> photon kernel, extra-`U(1)` mass direction and first gravitational symbol
+> consequences. It must jointly confront `RA-A1`, `RA-A2`, `RA-A6`, `RA-A8`,
+> `RA-E1`, `RA-E6` and `RA-G4`, and freeze at least one held-out output. Then
+> proceed in dependency order through the observed-`3+1` bridge, interacting
+> BV/BFV physical quotient, relative index/count observable, and frozen
+> thermodynamic/cosmological adjudication. Conditional success upgrades
+> exactness and compatibility, not source ownership or confirmation. A
+> class-wide negative is equally valid. B5 remains a scoped comparator and
+> old Lean hardening is not the default while a CBRS packet is executable.
+> Canonical steering lives in agenda item
+> `CONDITIONAL-BUILD-REVERSE-SCAFFOLD`.
+
 > **2026-08-21 JACOBSON IS NOW AN EXTERNAL REVERSE-SCAFFOLD BENCHMARK,
 > WITH K77 `(7,7)` AS THE PRIMARY GU ROUTE.** Ledger target `LT-GR8` asks for
 > a source-aligned K77-to-observed-`3+1` construction that supplies the native
