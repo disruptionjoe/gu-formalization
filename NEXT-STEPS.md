@@ -7,6 +7,20 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
+> **2026-08-21 CBRS-1D FIRST COUPLED GRADE-TWO INCIDENCE IS RIGID AND
+> METRIC-KILLED.** On the exact anisotropic point, put `p` on the connection
+> `gamma_0 gamma_1` cell and `q` on the matching `T` cell in form slot zero.
+> The selected action is `221/55296-pq/24+17q^2/36`; the coupled prolonged
+> matrix `[[0,-1/24],[-1/24,17/18]]` has determinant `-1/576`, so
+> `p'=q'=0`. Independent complete `E_B` and `E_T` covectors reproduce it,
+> primitive epsilon closes, and the held-out metric trace remains nonzero.
+> This is one incidence, not the full grade-two theorem. **Continue with
+> CBRS-1E: classify the symmetry-inequivalent grade-two incidences, beginning
+> with the exact off-incidence `diag(0,-1)` flat connection control, through
+> gauge/primitive-epsilon and metric-graph quotient before any second jet,
+> Hessian, stabilizer, or spectrum work.** See
+> `explorations/conditional-build/selected-k77-cbrs1d-coupled-grade2-connection-jet-2026-08-21.md`.
+
 > **2026-08-21 CBRS-1B/C1 ONE-AXIS FIRST-JET MODULES THROUGH TRANSVERSE
 > GRADES ZERO AND ONE ARE RIGID AND METRIC-KILLED.**
 > Allowing the exact anisotropic coefficients to vary along one labelled base
@@ -19,10 +33,8 @@ updated_at: "2026-08-21"
 > grade-one extensions enlarge the matrix to `diag(H,-1,-1/3)`, determinant
 > `-65/2`, and still force every jet coefficient to zero. This kills the
 > nested `a/b` plus representative grade-zero/one derivative module, not
-> arbitrary Clifford first jets. **Continue with CBRS-1D: move the smallest
-> grade-two connection-algebra direction and the connection/gauge owner
-> together, then solve the complete field, primitive-epsilon, and metric graph
-> before any second jet, Hessian, stabilizer, or spectrum work.** See
+> arbitrary Clifford first jets. The first honest coupled grade-two incidence
+> is now closed by CBRS-1D above. See
 > `explorations/conditional-build/selected-k77-cbrs1-one-axis-first-jet-rigidity-2026-08-21.md`.
 
 > **2026-08-21 CBRS-1A MINIMAL ANISOTROPIC CLASS CLOSED AT MET(X).** The

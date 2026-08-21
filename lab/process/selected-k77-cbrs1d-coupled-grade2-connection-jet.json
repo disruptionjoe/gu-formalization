@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1D_LEXICOGRAPHIC_FIRST_COUPLED_GRADE2_INCIDENCE_KILLED__OFF_INCIDENCE_FLAT_CONNECTION_SUCCESSOR_LIVE",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1D",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_MOVING_SHIAB_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPO_DERIVES_AND_KILLS_THIS_FROZEN_COUPLED_INCIDENCE__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_carrier": {
+    "point": {"a": "-13/96", "b": "1/48"},
+    "base_axes": 1,
+    "form_slot": 0,
+    "clifford_blade": "gamma_0_gamma_1",
+    "connection_parameter": "p",
+    "t_parameter": "q",
+    "target_blind": true,
+    "full_grade2_incidence_census": false
+  },
+  "reduced_action": "221/55296-p*q/24+17*q^2/36",
+  "coupled_prolongation": {
+    "matrix": [["0", "-1/24"], ["-1/24", "17/18"]],
+    "determinant": "-1/576",
+    "rank": 2,
+    "on_shell_jet": {"p_prime": "0", "q_prime": "0"}
+  },
+  "complete_covector_crosscheck": {
+    "pointwise_t_directions": 229376,
+    "pointwise_spin_connection_directions": 1274,
+    "total_pointwise_directions": 230650,
+    "derivative_supports": {"p_B": 12, "p_T": 13, "q_B": 13, "q_T": 13},
+    "restricted_matrix_matches_reduced_hessian": true
+  },
+  "primitive_epsilon": {
+    "point_momentum_support": 14,
+    "point_momentum_clifford_grade": 1,
+    "grade2_connection_restriction": "ZERO",
+    "moving_shiab_support_across_91_generators": 0,
+    "on_shell_one_axis_return": "ZERO"
+  },
+  "heldout_metric": {
+    "action_density": "221/55296",
+    "source_graph_adjoint": "ZERO_ON_THE_SELECTED_RIGID_COUPLED_JET",
+    "normalized_metric_row": ["-221/27648", "0", "0", "0", "221/27648", "0", "0", "221/27648", "0", "221/27648"],
+    "stationary": false,
+    "disposition": "KILLED_INTRINSIC_METRIC_TRACE"
+  },
+  "contrary_control": {
+    "form_slot": 2,
+    "clifford_blade": "gamma_0_gamma_1",
+    "matrix": [["0", "0"], ["0", "-1"]],
+    "connection_flat": true
+  },
+  "claim_ceiling": "EXACT_ONE_INCIDENCE_COUPLED_GRADE2_FIRST_JET_CLASS_KILL__NOT_A_FULL_GRADE2_OR_FULL_CLIFFORD_THEOREM",
+  "next_gate": "CBRS1E_SYMMETRY_INEQUIVALENT_GRADE2_INCIDENCE_CENSUS__CLASSIFY_FLAT_CONNECTION_DIRECTIONS_BY_GAUGE_ORBIT_PRIMITIVE_EPSILON_AND_METRIC_GRAPH_BEFORE_SECOND_JETS",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1d-coupled-grade2-connection-jet-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1d_coupled_grade2_connection_jet_probe.py",
+  "probe_result": "PASS_43_OF_43"
+}

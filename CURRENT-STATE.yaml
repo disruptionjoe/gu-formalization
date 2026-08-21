@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d1d0807fe9507e1b5be8f77fe6b51703ee9788d0
+revision_basis: 040f25191b7eaa071c14beb829779062945b44bd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,19 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    CBRS-1B/C1 has now frozen and closed the smallest one-axis a/b first jet
-    plus the two lowest representative transverse Clifford grades. At the
-    exact anisotropic point (a,b)=(-13/96,1/48), the prolonged reduced field
-    matrix is [[1,13],[13,143/2]]. Adding i times the scalar and the first
-    off-diagonal grade-one vector gives the complete restricted block
-    diag(H,-1,-1/3), determinant -65/2 and rank four, so it forces
-    a'=b'=c'=d'=0. The source-graph adjoint is therefore zero and the inherited
-    density 221/55296 leaves the nonzero four-cell MET(X) trace. This is a
-    nested derivative-module class kill, not a full-Clifford theorem. CBRS-1
-    remains active at CBRS-1D: move the smallest grade-two
-    connection-algebra direction and the connection/gauge owner together,
-    then solve the complete field, primitive-epsilon and metric graph before
-    any second jet, Hessian, stabilizer or spectrum work.
+    CBRS-1D has now closed the lexicographically first honest coupled
+    grade-two connection/T one-axis incidence. At the anisotropic point, with
+    p on the connection gamma_0 gamma_1 cell and q on the matching T cell, the
+    exact selected action is 221/55296-pq/24+17q^2/36. Its prolonged matrix is
+    [[0,-1/24],[-1/24,17/18]], determinant -1/576 and rank two, so p'=q'=0.
+    The complete independent B/T pointwise covectors reproduce the same
+    matrix; the grade-one point momentum restricts to zero on the grade-two
+    owner, all 91 moving-Shiab returns vanish, and primitive epsilon closes.
+    The source-graph adjoint is therefore zero and the inherited density leaves
+    the nonzero four-cell MET(X) trace. This is one coupled incidence, not a
+    full grade-two theorem. CBRS-1 remains active at CBRS-1E: classify the
+    symmetry-inequivalent grade-two incidences, starting with the exact
+    off-incidence flat connection control, before any second jet, Hessian,
+    stabilizer or spectrum work.
     No ledger verdict, source ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
     CONDITIONAL-BUILD-REVERSE-SCAFFOLD as the active Lane-1 research lead. Work
@@ -2280,12 +2281,12 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. Execute CBRS-1D: freeze one
-  labelled base axis and the smallest grade-two connection-algebra direction
-  transverse to the closed a/b plus grade-zero/one carriers; move T and the
-  connection/gauge owner together, then solve the complete pointwise
-  field-covector derivative, primitive-epsilon equation and intrinsic metric
-  source graph on the same carrier before allowing second jets. Only a fully metric-stationary branch
+  returning to old hardening or the B5 comparator. Execute CBRS-1E: classify
+  the symmetry-inequivalent grade-two connection/T incidence orbits, beginning
+  with the exact off-incidence flat connection control left by CBRS-1D. Decide
+  which flat columns are gauge or primitive-epsilon characteristics and whether
+  any surviving quotient class has a nonzero intrinsic metric source-graph
+  image before allowing second jets. Only a fully metric-stationary branch
   may advance to the full Hessian, global stabilizer, mu6 descent, J/Higgs
   selection, photon kernel, extra-U1 mass direction and first gravitational
   symbol consequences. A class-wide negative is a valid result. Do not promote
