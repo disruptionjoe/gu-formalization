@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1E_COMPLETE_REAL_GRADE2_CONNECTION_T_FIRST_JET_BLOCK_NONDEGENERATE__GRADE2_RESTRICTED_BRANCH_METRIC_KILLED__REAL_GRADE3_SUCCESSOR_LIVE",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1E",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_MOVING_SHIAB_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPO_DERIVES_AND_KILLS_THIS_FROZEN_COMPLETE_GRADE2_RESTRICTED_FIRST_JET_CLASS__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_carrier": {
+    "point": {"a": "-13/96", "b": "1/48"},
+    "connection_module": "Omega1_base_tensor_Spin77_grade2",
+    "t_module": "Omega1_base_tensor_real_Cl77_grade2",
+    "connection_directions": 1274,
+    "t_directions": 1274,
+    "coupled_directions": 2548,
+    "target_blind": true,
+    "all_grade_first_jet": false
+  },
+  "paired_incidence_strata": [
+    {"matrix": [["0", "0"], ["0", "-1"]], "count": 546},
+    {"matrix": [["0", "0"], ["0", "1"]], "count": 546},
+    {"matrix": [["0", "-1/24"], ["-1/24", "17/18"]], "count": 91},
+    {"matrix": [["0", "1/24"], ["1/24", "-17/18"]], "count": 78},
+    {"matrix": [["0", "-13/48"], ["-13/48", "-49/36"]], "count": 13}
+  ],
+  "paired_only_false_flat_connection_axes": 1092,
+  "first_off_incidence_cross_terms": {
+    "input": "B_form0_gamma12",
+    "bb": {"B_form1_gamma02": "-1", "B_form2_gamma01": "1"},
+    "bt": {"T_form1_gamma02": "-13/24", "T_form2_gamma01": "13/24"}
+  },
+  "complete_coupled_hessian": {
+    "dimension": 2548,
+    "rank": 2548,
+    "nullity": 0,
+    "symmetric": true,
+    "independent_selected_column_crosschecks": ["BB", "BT", "TT"]
+  },
+  "gauge": {
+    "pointwise_spin_orbit_of_background_t_clifford_grade": 1,
+    "restricted_t_clifford_grade": 2,
+    "principal_gauge_tangent_contained": false,
+    "paired_flat_equals_gauge": false
+  },
+  "primitive_epsilon": {
+    "moving_shiab_support_across_91_generators": 0,
+    "surviving_grade2_field_kernel": 0,
+    "surviving_quotient_class": false
+  },
+  "heldout_metric": {
+    "action_density": "221/55296",
+    "source_graph_adjoint": "ZERO_ON_THE_UNIQUE_ZERO_GRADE2_JET",
+    "normalized_metric_row": ["-221/27648", "0", "0", "0", "221/27648", "0", "0", "221/27648", "0", "221/27648"],
+    "stationary": false,
+    "disposition": "KILLED_INTRINSIC_METRIC_TRACE"
+  },
+  "claim_ceiling": "EXACT_COMPLETE_REAL_GRADE2_CONNECTION_T_FIRST_JET_RESTRICTED_CLASS_KILL__NOT_AN_ALL_GRADE_FIRST_JET_HESSIAN_OR_PHYSICAL_GAUGE_QUOTIENT_THEOREM",
+  "next_gate": "CBRS1F_EXTEND_THE_COUPLED_FIRST_JET_HESSIAN_TO_THE_COMPLETE_REAL_FORM_GRADE3_T_MODULE_WITH_ALL_SPIN_CONNECTION_EQUATIONS__NO_SECOND_JETS_YET",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1e-complete-grade2-incidence-census-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1e_complete_grade2_incidence_census_probe.py",
+  "probe_result": "PASS_36_OF_36"
+}

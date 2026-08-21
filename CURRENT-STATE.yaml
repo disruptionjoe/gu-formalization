@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 040f25191b7eaa071c14beb829779062945b44bd
+revision_basis: 097368f1a91766e1e22b90aceb2afa6dd64ef5b4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,19 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    CBRS-1D has now closed the lexicographically first honest coupled
-    grade-two connection/T one-axis incidence. At the anisotropic point, with
-    p on the connection gamma_0 gamma_1 cell and q on the matching T cell, the
-    exact selected action is 221/55296-pq/24+17q^2/36. Its prolonged matrix is
-    [[0,-1/24],[-1/24,17/18]], determinant -1/576 and rank two, so p'=q'=0.
-    The complete independent B/T pointwise covectors reproduce the same
-    matrix; the grade-one point momentum restricts to zero on the grade-two
-    owner, all 91 moving-Shiab returns vanish, and primitive epsilon closes.
-    The source-graph adjoint is therefore zero and the inherited density leaves
-    the nonzero four-cell MET(X) trace. This is one coupled incidence, not a
-    full grade-two theorem. CBRS-1 remains active at CBRS-1E: classify the
-    symmetry-inequivalent grade-two incidences, starting with the exact
-    off-incidence flat connection control, before any second jet, Hessian,
+    CBRS-1E has now closed the complete real grade-two connection/T restricted
+    first-jet block over the anisotropic point. The two modules each have 1,274
+    directions. Their exact symmetric 2,548 by 2,548 coupled Hessian has rank
+    2,548 and nullity zero. The five matching-cell incidence strata contain
+    182 individually nondegenerate pairs and 1,092 apparently flat connection
+    axes, but the latter are artifacts of deleting cross-incidence terms. The
+    first control B_0 gamma_1 gamma_2 couples to B_1 gamma_0 gamma_2 and
+    B_2 gamma_0 gamma_1 with coefficients -1,+1 and to the corresponding T
+    cells with -13/24,+13/24. A Spin gauge jet moves the grade-one background T
+    in Clifford grade one, so it is not contained in this grade-two/grade-two
+    carrier; paired flatness was never a gauge verdict. No grade-two field
+    kernel or primitive-epsilon quotient class survives. The unique zero jet
+    has zero graph return, leaving the inherited nonzero four-cell MET(X)
+    trace. This is a complete real grade-two restricted result, not an
+    all-grade first-jet or full Clifford Hessian theorem. CBRS-1 remains active
+    at CBRS-1F: extend the coupled Hessian to the complete real-form grade-three
+    T module with all Spin connection equations before any second jet,
     stabilizer or spectrum work.
     No ledger verdict, source ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
