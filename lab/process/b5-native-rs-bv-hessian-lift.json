@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-NATIVE-RS-BV-HESSIAN-LIFT-EXISTS-NONCHARACTERISTICALLY",
+  "grade": "exact complexified Cl(9,5) actual-carrier principal-symbol and formal compact-core grade",
+  "probe": {
+    "checks": 26,
+    "status": "pass",
+    "arithmetic": "fractions.Fraction Clifford-word reduction"
+  },
+  "strict_complex": {
+    "stages": [128, 1792, 1792, 128],
+    "gauge_symbol": "A_xi(s)=xi tensor s",
+    "middle_symbol": "(K_xi psi)_a=gamma_[a b c] xi^b psi^c",
+    "terminal_symbol": "A_xi^vee(phi)=xi^a phi_a",
+    "noether_identities": ["K_xi A_xi=0", "A_xi^vee K_xi=0"],
+    "noncharacteristic_ranks": [128, 1664, 128],
+    "noncharacteristic_exact": true,
+    "null_exact": false
+  },
+  "native_pairing": {
+    "spinor": "invariant Cl(9,5) Krein form",
+    "vector_spinor": "g tensor K",
+    "middle_formal_adjoint": "ANTI",
+    "rr_block": "P_R c(xi) P_R",
+    "w131_normalization": "q=1"
+  },
+  "coarse_support": {
+    "strict": ["SI", "SR", "IS", "II", "IR", "RS", "RI", "RR"],
+    "strict_ss": "structural_zero",
+    "euler_extension": "full_nine"
+  },
+  "euler_extension": {
+    "spectator": "gauge-inert S",
+    "cross_row": "B_xi=Gamma K_xi",
+    "hessian": "[[a c(xi),t B_xi],[-t B_xi^x,K_xi]]",
+    "master_equation": "H_xi(a,t)(0,A_xi)^T=0",
+    "free_coefficients": ["a", "t"]
+  },
+  "null_control": {
+    "covector": "e0+e9",
+    "clifford_square": 0,
+    "nongauge_kernel_witness": "psi_1=gamma_2 c(xi)u; psi_2=gamma_1 c(xi)u"
+  },
+  "packet_consequence": {
+    "strict_native_field_iii": "ANTI-PRINCIPAL-SYMBOL",
+    "current_full_nine_euler_field_iii": "EXTERNAL-VIA-GRAM",
+    "native_multiplicity_gram": "UNSELECTED",
+    "packet_admission": "rejected_fail_closed",
+    "next": "B5-CURVED-RS-BV-COMPLETION"
+  },
+  "claim_ceiling": "No curved/source BV completion, null exactness, global cohomology, coflip, Green form, closed domain, quotient, historical source-preferred operator, particle result or GU verdict is selected."
+}

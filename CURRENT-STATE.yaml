@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 35cd94919fdbcc0056bc0b6953e47296525ceb0b
+revision_basis: 8957dbc5760ce437caf2ab931126ff1cdee8b3a3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The B5 strict action branch now has an exact native full-carrier
+    principal-symbol lift. On the actual complexified
+    128->1792->1792->128 carrier, A_xi(s)=xi tensor s, the triple-Clifford
+    Rarita--Schwinger middle symbol K_xi, and terminal A_xi^vee obey both
+    Noether compositions identically. For every non-null covector the
+    transverse Clifford inverse gives ranks (128,1664,128), so the symbol
+    complex is exact. The native (9,5) Krein formal sign is ANTI, the RR
+    restriction is exactly the W131-normalized P_R c(xi) P_R block with q=1,
+    and all eight strict S/I/R blocks are live. A gauge-inert S spectator
+    gives a full-nine graded Euler family H_xi(a,t) with the same master
+    identity, but the CME leaves a and t free. At null covectors an exact
+    nongauge kernel witness prevents symbol exactness, and curved closure
+    remains unconstructed with the prior W177 obstruction retained. The
+    current Stage-B H9 still belongs only to the alternative graph-mixing
+    route; its field (iii) remains EXTERNAL-VIA-GRAM and the five-field packet
+    remains fail-closed. Next construct or obstruct
+    B5-CURVED-RS-BV-COMPLETION before coflip or domain work. No curved/source
+    BV completion, global cohomology, null quotient, native multiplicity
+    Gram, historical preferred operator, particle result or GU verdict is
+    selected. Joe input is not required.
     The B5 strict action bridge is now constructed at exact formal
     compact-core coarse-multiplicity grade. The quadratic abelian BV action
     with generator A=(1,1), symmetric middle Hessian

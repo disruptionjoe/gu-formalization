@@ -42,6 +42,28 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — native Rarita--Schwinger BV/Hessian lift completed 2026-08-20
+
+The strict branch now reaches the actual complexified
+`128 -> 1792 -> 1792 -> 128` carrier at principal-symbol grade. The natural
+maps `A_xi(s)=xi tensor s`,
+`(K_xi psi)_a=gamma_[a b c]xi^b psi^c`, and `A_xi^vee` obey both Noether
+compositions identically. Off the null cone the transverse Clifford inverse
+gives exact ranks `(128,1664,128)`. Under the native `(9,5)` Krein pairing the
+middle symbol is formally anti-adjoint, its `RR` restriction is exactly the
+W131-normalized `P_R c(xi) P_R` block with `q=1`, and all eight strict coarse
+blocks are live.
+
+A gauge-inert `S` spectator and cross row `B_xi=Gamma K_xi` produce a
+full-nine graded Euler family with free coefficients `a,t` and the same
+master/Noether identity. The CME still normalizes neither coefficient. At a
+null covector the middle symbol has an exact nongauge kernel witness, and
+covariant closure still carries the prior curvature obstruction. Thus strict
+field (iii) is now `ANTI-PRINCIPAL-SYMBOL` on the native carrier, while the
+current separate full-nine Euler family remains `EXTERNAL-VIA-GRAM` and the
+five-field packet remains fail-closed. Next construct or obstruct
+`B5-CURVED-RS-BV-COMPLETION`; coflip and domain work remain dependent.
+
 ## Execution update — strict BV action bridge completed 2026-08-20
 
 The strict coarse complex now has an exact quadratic abelian
