@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fb99d0dfc82414665a5e436ffa93ef5c100da8ca
+revision_basis: 789efba4467ce2fddab761e0b62ee11482e3f87e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The action-owned strict massless B5 expression now has extension-sensitive
+    global operator-kernel data on the named flat half-cylinder. For the
+    positive tangential lattice mode e4, xi=-e0+i e4 is complex-null and fixed
+    by the anti-linear coflip. Applying the nonzero coflip-real transverse
+    trace map to a suitable coflip-real spinor gives
+    v_1=gamma_2 c(xi)s, v_2=gamma_1 c(xi)s; it obeys B_xi v=0 and has null
+    program-native Green norm. Thus u=exp(-r) exp(i y4) v is a periodic L2
+    zero mode at M=0. A coflip-real Witt polarization L_hit contains v, while
+    L_miss replaces its first Witt line and excludes v; the prior Fourier-
+    modal theorem makes both constant realizations closed. Therefore u lies
+    in ker(D_hit) and not in Dom(D_miss). This is global folded-operator kernel
+    dependence, not BV/BRST cohomology: stage-separated closed domains and the
+    exact/reduced quotient remain unconstructed. The bulk action and filed
+    source select neither polarization. No Hilbert self-adjointness,
+    Fredholmness, positivity, physical state space, source-selected global
+    Met(X), particle result or GU verdict follows. Next execute
+    B5-DOMAIN-COMPATIBLE-BRST-COHOMOLOGY-DISCRIMINATOR. Joe input is not
+    required.
     The strict B5 pointwise boundary polarizations now promote to genuine
     closed global realizations on the named flat half-cylinder. Tangential
     Fourier decomposition gives D_k=B_dr d_r+C(k); invertibility of B_dr makes
@@ -20,10 +38,10 @@ current_result:
     distinct domains. For the explicit bounded coflip-compatible deformation
     M=B_dr P_v, u=exp(-r)v is a zero mode in the first domain and not the
     second, so global kernel subspaces are extension-sensitive in the bounded-
-    deformation family. This does not compute extension dependence for the
-    action-owned strict massless member M=0, select a source/physical domain,
-    or prove self-adjointness, Fredholmness, positivity or cohomology. Next
-    execute B5-STRICT-MASSLESS-EXTENSION-DEPENDENCE. Joe input is not required.
+    deformation family. The later characteristic-mode result above closes the
+    strict massless operator-kernel question. Neither result selects a source/
+    physical domain or proves self-adjointness, Fredholmness, positivity or
+    cohomology.
     The strict B5 regular-boundary extension verdict is now exact at local
     trace-polarization grade. At r=0 on the named flat half-cylinder, the
     complex rank-1920 program-native Green form is nondegenerate and Gamma-
@@ -2105,12 +2123,13 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Do two named constant coflip-compatible closed realizations of the
-  action-owned strict massless B5 expression have different global kernel or
-  BV/BRST cohomology, or is the massless member stable even though a controlled
-  bounded deformation is not? Keep closed Fourier-modal domains distinct from
-  Hilbert self-adjoint or physical extensions, and keep the graph-mixing full-
-  nine family on its separate EXTERNAL-VIA-GRAM route.
+  Can the strict B5 complex be given stage-separated closed coflip-compatible
+  domains for A, K and A^vee such that the exact massless characteristic mode
+  survives the global gauge quotient in L_hit but is absent in L_miss, or is
+  BV/BRST cohomology stable even though the folded operator kernel is not?
+  Distinguish algebraic from reduced closed-range cohomology, keep both from a
+  Hilbert-positive physical quotient, and keep the graph-mixing full-nine
+  family on its separate EXTERNAL-VIA-GRAM route.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -2121,13 +2140,14 @@ contribution_path:
 next_condition: >-
   The strict actual-carrier action, curved completion, relative coflip, formal
   Green trace, minimal graph closure and constant-polarization closed global
-  realizations are complete on the named flat non-null product end. A
-  controlled bounded coflip-compatible deformation has different kernel
-  subspaces on two opposite-component trace graphs, but the action-owned
-  strict massless member remains uncomputed. Execute
-  B5-STRICT-MASSLESS-EXTENSION-DEPENDENCE next by comparing two named closed
-  D_U domains at M=0, with an exact zero/nonzero-mode kernel or cohomology
-  discriminator or a proof of stability. Preserve the null radical and keep
+  realizations are complete on the named flat non-null product end. The
+  action-owned strict massless member now has an exact coflip-real decaying
+  nongauge characteristic mode in one closed Witt-polarized realization and
+  not in a second, so the global folded-operator kernel is extension-sensitive
+  at M=0. Execute B5-DOMAIN-COMPATIBLE-BRST-COHOMOLOGY-DISCRIMINATOR next by
+  constructing stage-separated closed domains for A, K and A^vee, proving
+  domain preservation and deciding the algebraic and reduced gauge quotient
+  for the witness across L_hit and L_miss. Preserve the null radical and keep
   the graph-mixing full-nine family EXTERNAL-VIA-GRAM and fail-closed. Do not
   infer Hilbert self-adjointness, Fredholmness, positivity, a physical state
   space, source-selected global Met(X) geometry, historical preferred Shiab,

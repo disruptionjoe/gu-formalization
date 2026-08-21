@@ -14,6 +14,19 @@ canon_verdict_change: none
 
 # B5 boundary-extension verdict
 
+## Continuation update — strict massless kernel is extension-sensitive
+
+The action-owned undeformed member now has an exact global discriminator. The
+coflip-fixed complex-null Fourier covector `-e0+i e4` yields a periodic
+decaying nongauge zero mode with Green-null trace. Two coflip-real Witt
+polarizations respectively contain and exclude that trace, and the prior
+Fourier theorem makes both realizations closed. Thus strict `M=0` global
+operator-kernel data depend on the extension.
+
+This does not yet define stage-compatible BV/BRST cohomology, a Hilbert self-
+adjoint extension, positivity or a physical domain. The action and filed
+source still select no member of the polarization family.
+
 ## Continuation update — constant polarizations have closed global realizations
 
 The graph-trace obstruction is absent on the named constant-coefficient flat
@@ -25,9 +38,9 @@ and a reflection graph in the opposite component give distinct domains.
 
 For one explicitly declared bounded coflip-compatible deformation, a decaying
 zero mode lies in the first domain and not the second, proving that global
-kernel subspaces can depend on the extension. The action-owned strict massless
-member remains open; no source selector, self-adjointness, positivity or
-physical domain is inferred. See
+kernel subspaces can depend on the extension. The later strict-massless result
+closes the corresponding `M=0` operator-kernel question; no source selector,
+self-adjointness, positivity or physical domain is inferred. See
 `explorations/b5-polarized-closed-realization-2026-08-21.md`.
 
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or

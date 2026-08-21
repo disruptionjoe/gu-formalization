@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-21",
+  "result": "B5-STRICT-MASSLESS-GLOBAL-OPERATOR-KERNEL-IS-EXTENSION-SENSITIVE",
+  "grade": "exact closed global operator-kernel grade on the repository-constructed flat complexified (9,5) half-cylinder",
+  "probe": {
+    "checks": 73,
+    "status": "pass",
+    "arithmetic": "exact Gaussian-integer Clifford coefficients plus real split-form Witt controls"
+  },
+  "massless_mode": {
+    "fourier_covector": "xi=-e0+i e4",
+    "null_relation": "q(xi)=0",
+    "section": "u=exp(-r) exp(i y4) v",
+    "trace": "choose a coflip-real spinor s on which the nonzero coflip-real trace map is nonzero; v1=gamma2 c(xi)s, v2=gamma1 c(xi)s, all other folded slots zero",
+    "properties": [
+      "B_xi v=0",
+      "coflip(v)=v",
+      "h_dr(v,v)=0",
+      "vector support {1,2} is disjoint from gauge-symbol support {0,4}"
+    ]
+  },
+  "realizations": {
+    "hit": "L_hit=complexification(span_R(v,e2,...,e960))",
+    "miss": "L_miss=complexification(span_R(w,e2,...,e960))",
+    "closedness_owner": "prior constant-polarization Fourier-modal theorem",
+    "result": "u belongs to ker(D_hit) and is excluded from Dom(D_miss)"
+  },
+  "ownership": {
+    "bulk_action": "admits both maximal-isotropic trace graphs and selects neither",
+    "source": "SOURCE-SILENT for endpoint, asymptotic and real-Krein selectors"
+  },
+  "next_condition": "B5-DOMAIN-COMPATIBLE-BRST-COHOMOLOGY-DISCRIMINATOR",
+  "claim_ceiling": "Strict massless global operator-kernel subspaces differ between two named closed coflip-compatible realizations. No BV/BRST cohomology, Hilbert self-adjointness, Fredholmness, positivity, physical state space, source-selected geometry, particle result or GU verdict follows."
+}

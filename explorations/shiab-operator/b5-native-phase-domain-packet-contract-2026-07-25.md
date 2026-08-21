@@ -8,6 +8,19 @@ work_item: B5-INDEPENDENT-RECONSTRUCTION
 
 # B5 native phase/domain packet contract
 
+## Execution update — strict massless operator kernel is extension-sensitive
+
+For the undeformed action-owned folded expression, the coflip-fixed complex-
+null mode `xi=-e0+i e4` gives a periodic decaying nongauge zero mode. A
+coflip-real Witt polarization contains its Green-null trace, while replacing
+that Witt line gives a second maximal-isotropic polarization that excludes it.
+The prior Fourier theorem makes both constant realizations closed, so strict
+`M=0` global operator kernels differ.
+
+The five-field packet still admits only the named minimal common domain. The
+new result selects no preferred nonminimal domain and does not define global
+BV/BRST cohomology, self-adjointness, positivity or physical states.
+
 ## Execution update — constant polarized domains are globally closed
 
 On the named flat half-cylinder, every constant coflip-fixed maximal-isotropic
@@ -17,7 +30,8 @@ from the identity and opposite-component reflection graphs. A controlled
 bounded deformation has different kernel subspaces on those domains.
 
 This stronger existence theorem does not change the fail-closed packet's
-admission grade or select a preferred domain. The strict massless member,
+admission grade or select a preferred domain. The later characteristic-mode
+result closes strict massless operator-kernel extension dependence, while
 Hilbert self-adjointness, positivity and physical/source ownership remain open.
 
 ## Execution update — minimal admission is extension-stable; physical extension is unselected

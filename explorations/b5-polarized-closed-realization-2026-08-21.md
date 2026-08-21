@@ -14,6 +14,20 @@ canon_verdict_change: none
 
 # B5 polarized closed realizations
 
+## Continuation update — strict massless kernel dependence constructed
+
+The bounded deformation is no longer the only global kernel discriminator.
+For the undeformed action-owned massless expression, the positive tangential
+mode `xi=-e0+i e4` is complex-null and coflip-fixed. An exact transverse
+nongauge trace gives the decaying zero mode `exp(-r) exp(i y4) v`. A real Witt
+polarization containing its Green-null trace and a second polarization
+replacing that Witt line define two closed coflip-compatible realizations; the
+mode lies in the first kernel and is excluded from the second domain.
+
+This proves strict `M=0` operator-kernel extension dependence, not BV/BRST
+cohomology or positivity. See
+`explorations/b5-strict-massless-extension-dependence-2026-08-21.md`.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Any result about a
 > standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`

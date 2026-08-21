@@ -42,6 +42,19 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — strict massless operator kernel separates domains 2026-08-21
+
+The action-owned undeformed member now has an exact decaying coflip-real
+characteristic mode at `xi=-e0+i e4`. Its Green-null trace extends to a real
+Witt polarization, while replacing its first Witt line gives a second allowed
+polarization excluding the mode. Both constant realizations are closed by the
+prior Fourier theorem, so their strict massless global operator kernels differ.
+
+This sharpens the packet's extension warning but does not alter its literal
+minimal-domain admission. A folded Hessian domain does not by itself provide
+stage-separated closed domains for `A`, `K` and `A^vee`; BV/BRST cohomology,
+positivity and physical state space remain unearned.
+
 ## Execution update — closed polarized realizations completed 2026-08-21
 
 The pointwise `O(960)` trace family is now globally realized for every constant
@@ -52,8 +65,9 @@ and reflection graphs supply two distinct coflip-compatible domains.
 
 An explicit bounded deformation separates their kernel subspaces, so the
 packet's warning that global data may depend on extension has an exact witness
-inside the bounded-deformation family. The literal five-field admission stays
-at minimal-realization grade; the action-owned massless kernel/cohomology and
+inside the bounded-deformation family. A later exact characteristic-mode
+certificate also separates the action-owned massless operator kernels. The
+literal five-field admission stays at minimal-realization grade; cohomology and
 all positivity or physical-domain claims remain unearned.
 
 ## Execution update — boundary-polarization ownership and stability classified 2026-08-21

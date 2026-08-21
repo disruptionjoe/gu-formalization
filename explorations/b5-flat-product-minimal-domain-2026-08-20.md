@@ -14,6 +14,15 @@ canon_verdict_change: none
 
 # B5 flat-product minimal domain
 
+## Continuation update — strict massless kernel depends on extension
+
+The undeformed action-owned massless expression now has an exact coflip-real
+decaying characteristic mode in one closed Witt-polarized realization and not
+in a second. Thus the minimal realization remains a common extension-stable
+core, but the strict `M=0` global operator kernel is extension-sensitive. The
+bulk action and current source still select no nonminimal polarization, and
+BV/BRST cohomology, positivity and physical state space remain open.
+
 ## Continuation update — closed polarized realizations constructed
 
 Every constant coflip-fixed maximal-isotropic trace graph now promotes to a
@@ -21,8 +30,9 @@ closed global Fourier-modal realization on this same flat half-cylinder. Two
 opposite-component graphs give distinct closed domains, and an explicit
 bounded coflip-compatible deformation has a decaying zero mode in one but not
 the other. The minimal graph closure remains the common extension-stable core;
-the new theorem adds nonminimal closed domains without selecting one. Strict
-massless extension dependence and every physical/positivity claim remain open.
+the new theorem adds nonminimal closed domains without selecting one. The
+later characteristic-mode result closes strict massless operator-kernel
+extension dependence; every physical/positivity claim remains open.
 
 ## Continuation update — regular-boundary polarization verdict
 
