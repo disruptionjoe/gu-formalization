@@ -8,6 +8,18 @@ work_item: B5-INDEPENDENT-RECONSTRUCTION
 
 # B5 native phase/domain packet contract
 
+## Execution update — constant polarized domains are globally closed
+
+On the named flat half-cylinder, every constant coflip-fixed maximal-isotropic
+trace graph now defines a closed global Fourier-modal realization. This removes
+the graph-trace obstruction at that exact grade and produces distinct domains
+from the identity and opposite-component reflection graphs. A controlled
+bounded deformation has different kernel subspaces on those domains.
+
+This stronger existence theorem does not change the fail-closed packet's
+admission grade or select a preferred domain. The strict massless member,
+Hilbert self-adjointness, positivity and physical/source ownership remain open.
+
 ## Execution update — minimal admission is extension-stable; physical extension is unselected
 
 The regular-boundary Green form on the named flat product has inertia

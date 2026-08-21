@@ -42,6 +42,20 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — closed polarized realizations completed 2026-08-21
+
+The pointwise `O(960)` trace family is now globally realized for every constant
+polarization on the named flat half-cylinder. Fixed-mode graph norms are
+equivalent to `H1` because the normal coefficient is invertible, and the
+Hilbert direct sum of the closed trace restrictions is closed. The identity
+and reflection graphs supply two distinct coflip-compatible domains.
+
+An explicit bounded deformation separates their kernel subspaces, so the
+packet's warning that global data may depend on extension has an exact witness
+inside the bounded-deformation family. The literal five-field admission stays
+at minimal-realization grade; the action-owned massless kernel/cohomology and
+all positivity or physical-domain claims remain unearned.
+
 ## Execution update — boundary-polarization ownership and stability classified 2026-08-21
 
 At the regular boundary of the named flat product end, the strict folded Green

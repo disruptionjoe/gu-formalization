@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fbcbf907180703b841d8b6181b7fc25315357ce2
+revision_basis: fb99d0dfc82414665a5e436ffa93ef5c100da8ca
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The strict B5 pointwise boundary polarizations now promote to genuine
+    closed global realizations on the named flat half-cylinder. Tangential
+    Fourier decomposition gives D_k=B_dr d_r+C(k); invertibility of B_dr makes
+    each fixed-mode graph norm equivalent to H1, a constant coflip-fixed
+    maximal-isotropic trace graph is closed under the trace map, and the
+    Hilbert direct sum of the resulting mode operators is closed. Thus every
+    constant U in O(960) defines a closed coflip-compatible realization. The
+    identity graph and a reflection graph in opposite components give
+    distinct domains. For the explicit bounded coflip-compatible deformation
+    M=B_dr P_v, u=exp(-r)v is a zero mode in the first domain and not the
+    second, so global kernel subspaces are extension-sensitive in the bounded-
+    deformation family. This does not compute extension dependence for the
+    action-owned strict massless member M=0, select a source/physical domain,
+    or prove self-adjointness, Fredholmness, positivity or cohomology. Next
+    execute B5-STRICT-MASSLESS-EXTENSION-DEPENDENCE. Joe input is not required.
     The strict B5 regular-boundary extension verdict is now exact at local
     trace-polarization grade. At r=0 on the named flat half-cylinder, the
     complex rank-1920 program-native Green form is nondegenerate and Gamma-
@@ -2090,13 +2105,12 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does any action/source-owned boundary polarization select a maximal-
-  isotropic closed extension of the strict B5 operator on an appropriate
-  non-null end, or are the downstream mirror, exactness and quotient verdicts
-  stable across the admissible extension moduli? Keep the newly admitted
-  minimal graph closure distinct from self-adjoint or physical extensions,
-  and keep the graph-mixing full-nine family on its separate
-  EXTERNAL-VIA-GRAM route.
+  Do two named constant coflip-compatible closed realizations of the
+  action-owned strict massless B5 expression have different global kernel or
+  BV/BRST cohomology, or is the massless member stable even though a controlled
+  bounded deformation is not? Keep closed Fourier-modal domains distinct from
+  Hilbert self-adjoint or physical extensions, and keep the graph-mixing full-
+  nine family on its separate EXTERNAL-VIA-GRAM route.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -2106,17 +2120,18 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   The strict actual-carrier action, curved completion, relative coflip, formal
-  Green trace and one minimal common closed domain are complete at their exact
-  grades. On the flat non-null product end the strict five-field packet is
-  admitted, but the minimal graph closure supplies no boundary polarization,
-  self-adjointness, Fredholm estimate, characteristic quotient or physical
-  state space. Execute B5-BOUNDARY-POLARIZED-EXTENSION-VERDICT next only with
-  one of two exact endpoints: an action/source-owned maximal-isotropic
-  polarization on a named compatible end, or a proof that the downstream
-  verdict is stable across the admissible extension moduli. Preserve the null
-  radical and keep the graph-mixing full-nine family EXTERNAL-VIA-GRAM and
-  fail-closed. Do not infer a source-selected global Met(X) geometry,
-  historical preferred Shiab, particle result or GU verdict.
+  Green trace, minimal graph closure and constant-polarization closed global
+  realizations are complete on the named flat non-null product end. A
+  controlled bounded coflip-compatible deformation has different kernel
+  subspaces on two opposite-component trace graphs, but the action-owned
+  strict massless member remains uncomputed. Execute
+  B5-STRICT-MASSLESS-EXTENSION-DEPENDENCE next by comparing two named closed
+  D_U domains at M=0, with an exact zero/nonzero-mode kernel or cohomology
+  discriminator or a proof of stability. Preserve the null radical and keep
+  the graph-mixing full-nine family EXTERNAL-VIA-GRAM and fail-closed. Do not
+  infer Hilbert self-adjointness, Fredholmness, positivity, a physical state
+  space, source-selected global Met(X) geometry, historical preferred Shiab,
+  particle result or GU verdict.
   Separately, the
   independent classical RSAP is closed at the exact
   minimum 98 and its

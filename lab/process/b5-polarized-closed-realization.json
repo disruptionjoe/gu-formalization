@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-21",
+  "result": "B5-CONSTANT-COFLIP-POLARIZATIONS-DEFINE-CLOSED-FOURIER-MODAL-REALIZATIONS__BOUNDED-DEFORMATION-KERNEL-IS-EXTENSION-SENSITIVE",
+  "grade": "exact closed global operator-domain grade on the repository-constructed flat complexified (9,5) half-cylinder",
+  "probe": {
+    "checks": 85,
+    "status": "pass",
+    "arithmetic": "exact rational split-form, graph, projection and modal-estimate controls"
+  },
+  "realizations": {
+    "family": "constant coflip-fixed maximal-isotropic trace graphs L_U for U in O(960)",
+    "closedness_owner": "fixed-mode graph-norm equivalence plus Hilbert direct sum of closed operators",
+    "positive_component_control": "U=I",
+    "negative_component_control": "U=diag(-1,1,...,1)",
+    "coflip_compatible": true,
+    "ellipticity_used": false
+  },
+  "kernel_discriminator": {
+    "expression": "D+M with M=B P_v",
+    "witness": "u(r,y)=exp(-r)v for v=(e_1,e_1) in L_I minus L_R",
+    "result": "kernel subspaces differ",
+    "scope": "bounded coflip-compatible deformation family only; strict massless M=0 remains open"
+  },
+  "ownership": {
+    "bulk_action": "admits all maximal-isotropic trace graphs and selects none",
+    "source": "SOURCE-SILENT for endpoint, asymptotic and real-Krein selectors"
+  },
+  "next_condition": "B5-STRICT-MASSLESS-EXTENSION-DEPENDENCE",
+  "claim_ceiling": "Closed global realizations exist on the named flat product and a controlled bounded deformation has extension-dependent kernel data. No Hilbert self-adjointness, Fredholmness, strict massless cohomology, positivity, physical state space, source-selected geometry, particle result or GU verdict follows."
+}

@@ -14,6 +14,22 @@ canon_verdict_change: none
 
 # B5 boundary-extension verdict
 
+## Continuation update — constant polarizations have closed global realizations
+
+The graph-trace obstruction is absent on the named constant-coefficient flat
+product. Tangential Fourier decomposition reduces the operator to closed
+one-dimensional normal-mode realizations, and their Hilbert direct sum is
+closed. Every constant coflip-fixed maximal-isotropic graph `L_U`, `U in
+O(960)`, therefore defines a closed global realization. The identity graph
+and a reflection graph in the opposite component give distinct domains.
+
+For one explicitly declared bounded coflip-compatible deformation, a decaying
+zero mode lies in the first domain and not the second, proving that global
+kernel subspaces can depend on the extension. The action-owned strict massless
+member remains open; no source selector, self-adjointness, positivity or
+physical domain is inferred. See
+`explorations/b5-polarized-closed-realization-2026-08-21.md`.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Any result about a
 > standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`

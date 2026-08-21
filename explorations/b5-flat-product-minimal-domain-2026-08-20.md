@@ -14,6 +14,16 @@ canon_verdict_change: none
 
 # B5 flat-product minimal domain
 
+## Continuation update — closed polarized realizations constructed
+
+Every constant coflip-fixed maximal-isotropic trace graph now promotes to a
+closed global Fourier-modal realization on this same flat half-cylinder. Two
+opposite-component graphs give distinct closed domains, and an explicit
+bounded coflip-compatible deformation has a decaying zero mode in one but not
+the other. The minimal graph closure remains the common extension-stable core;
+the new theorem adds nonminimal closed domains without selecting one. Strict
+massless extension dependence and every physical/positivity claim remain open.
+
 ## Continuation update — regular-boundary polarization verdict
 
 The stronger boundary question is now classified at pointwise trace grade in
