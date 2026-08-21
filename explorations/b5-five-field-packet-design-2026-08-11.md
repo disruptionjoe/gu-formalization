@@ -42,6 +42,30 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — strict BV action bridge completed 2026-08-20
+
+The strict coarse complex now has an exact quadratic abelian
+BV/Koszul--Tate owner. With `A=(1,1)^T`,
+`K=(6/7)[[1,-1],[-1,1]]` and terminal map `A^T`, the canonical
+antibracket gives `(S_BV,S_BV)=2 x^T K A c`; the genuine master-equation
+condition is therefore `K A=0`, not Hessian symmetry. The complex is exact,
+its fold has all eight eligible blocks, normalized `q=1`, and is
+`SELF-CANONICAL-COARSE` for the declared stage evaluation.
+
+Adding one gauge-inert `S` Euler spectator yields the full-nine family
+`H(a,t)=[[a,t,-t],[t,6/7,-6/7],[-t,-6/7,6/7]]`, with live `SS=a` and the
+same strict generator `(0,1,1)`. The CME leaves `a` and `t` free. The current
+Stage-B Hessian is not in this family: it closes only for graph-mixing kernel
+`(1,-2,1)`. Thus the strict action branch is nonempty, while the current
+witness belongs to the alternative filtered route at coarse grade.
+
+The five-field packet remains fail-closed. The strict field (iii) result is
+only conditional coarse `SELF`; the native multiplicity Gram and full-20
+formal adjoint remain open, and the current Euler family remains
+`EXTERNAL-VIA-GRAM`. Next lift the strict BV/Hessian relations to the actual
+20-slot carrier through `B5-NATIVE-BV-HESSIAN-LIFT` before coflip or domain
+work.
+
 ## Execution update — strict-eight-block plus Euler separation completed 2026-08-20
 
 The strict route is now typed as a pair rather than one nine-block operator.

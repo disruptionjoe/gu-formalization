@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-20",
+  "result": "B5-STRICT-BV-ACTION-FAMILY-EXISTS-CURRENT-H9-REQUIRES-GRAPH-MIXING",
+  "grade": "exact rational abelian quadratic BV/Koszul-Tate bridge at formal compact-core coarse multiplicity grade",
+  "probe": {
+    "checks": 29,
+    "status": "pass",
+    "arithmetic": "fractions.Fraction only"
+  },
+  "strict_action_complex": {
+    "generator": ["1", "1"],
+    "middle_hessian": [["6/7", "-6/7"], ["-6/7", "6/7"]],
+    "noether_dual": ["1", "1"],
+    "arrow_ranks": [1, 1, 1],
+    "exact": true,
+    "folded_support": ["SI", "SR", "IS", "II", "IR", "RS", "RI", "RR"],
+    "folded_formal_adjoint": "SELF-CANONICAL-COARSE",
+    "normalized_w131_coefficient": "q=1"
+  },
+  "master_equation": {
+    "action": "S_BV=1/2 x^T K x+x*^T A c",
+    "canonical_antibracket": "(S_BV,S_BV)=2 x^T K A c",
+    "condition": "K A=0",
+    "independent_of_hessian_symmetry": true
+  },
+  "strict_compatible_euler_family": {
+    "generator": ["0", "1", "1"],
+    "hessian": "[[a,t,-t],[t,6/7,-6/7],[-t,-6/7,6/7]]",
+    "full_nine_for_generic_nonzero_a_t": true,
+    "ss_dirac_coefficient": "a_free",
+    "cross_coefficient": "t_free",
+    "master_equation": "H(a,t) A_strict=0"
+  },
+  "current_h9": {
+    "strict_generator_compatible": false,
+    "graph_kernel": ["1", "-2", "1"],
+    "graph_kernel_has_s_component": true,
+    "filtered_graph_action_route": "OPEN"
+  },
+  "packet_consequence": {
+    "strict_field_iii": "SELF-CANONICAL-COARSE_ONLY",
+    "native_strict_field_iii": "OPEN",
+    "current_full_nine_euler_field_iii": "EXTERNAL-VIA-GRAM",
+    "native_multiplicity_gram": "UNSELECTED",
+    "packet_admission": "rejected_fail_closed",
+    "next": "B5-NATIVE-BV-HESSIAN-LIFT"
+  },
+  "claim_ceiling": "No actual 128/1792 action complex, native Gram, nonlinear/source BV completion, coflip, Green form, global domain, quotient, source-preferred operator, particle result or GU verdict is selected."
+}
