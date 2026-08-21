@@ -12,6 +12,19 @@ canon_verdict_change: none
 
 # B5 Krein-to-probability positivity discriminator
 
+## Signature-typed owner continuation
+
+The refined physical-owner gate is now decided at current strict-action grade
+in `b5-signature-typed-reduced-phase-space-bvbfv-owner-2026-08-21.md`. The
+fixed-background action supplies a neutral classical linear boundary phase
+precursor and spinor constraint, but its normal multiplier is an odd rank-128
+spinor rather than an even scalar lapse. Direct Jacobson lapse-contour transfer
+is wrong-type; the mathematical half-cylinder supplies no physical ensemble,
+BFV charge algebra, quantum measure or conserved positive pairing. Thus the
+positive-completion nonselection result here is unchanged. Reopening now
+requires dynamical gravity with a scalar Hamiltonian constraint/lapse or a
+separately owned physical boundary BFV packet.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Any result about a
 > standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`

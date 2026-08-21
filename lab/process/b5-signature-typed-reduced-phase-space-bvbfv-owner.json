@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-21",
+  "result": "B5-STRICT-BOUNDARY-PHASE-PRECURSOR-EXISTS-BUT-HAS-NO-BOSONIC-SCALAR-LAPSE",
+  "grade": "exact first-order antisymmetry, held normal-symbol rank/inertia, Spin central-character and current fixed-background action-inventory grade",
+  "probe": {
+    "path": "tests/channel-swings/b5_signature_typed_bvbfv_owner_probe.py",
+    "checks": 64,
+    "status": "pass"
+  },
+  "signature": {
+    "convention": "plus-first",
+    "ambient": [9, 5],
+    "chosen_normal": "positive non-null dr",
+    "boundary": [8, 5],
+    "horn_transfer": "forbidden without a separately proved bridge to (7,7)"
+  },
+  "boundary_phase": {
+    "bulk_field_rank": 1792,
+    "normal_gauge_radical_rank": 128,
+    "kinematic_quotient_rank": 1664,
+    "green_inertia": [832, 832],
+    "status": "classical linear covariant boundary phase/BFV precursor; not a complete quantum BV--BFV theory"
+  },
+  "multiplier": {
+    "field": "psi_n",
+    "representation": "rank-128 spinor",
+    "grassmann_parity": "odd",
+    "constraint": "spinor-valued tangential Rarita--Schwinger constraint",
+    "adm_lapse_comparison": "wrong type: an ADM lapse is even, scalar and rank one",
+    "equivariance_obstruction": "Spin central -1 acts oppositely on spinors and scalars, so Hom_Spin(S,1)=0"
+  },
+  "jacobson_battery": {
+    "constraint_first_linear_reduction": "available",
+    "real_bosonic_lapse_contour": "wrong_type",
+    "physical_boundary_ensemble": "owner_absent",
+    "vacuum_measure_convergence": "owner_absent",
+    "boundary_charge_observable_algebra": "owner_absent",
+    "conserved_positive_pairing": "owner_absent"
+  },
+  "marked_class": {
+    "hit": "survives the held algebraic and reduced linear gauge quotient",
+    "miss": "same section excluded by the domain",
+    "edge_mode": "not established",
+    "physical_probability": "not established"
+  },
+  "next_condition": "B5-DYNAMICAL-GRAVITY-OR-PHYSICAL-BOUNDARY-BFV-REOPENER",
+  "reopen_requirements": [
+    "a source/action-owned dynamical metric or coframe yielding an even scalar Hamiltonian constraint and lapse",
+    "or a named physical causal boundary/ensemble with a BFV charge and observable algebra",
+    "selected closed domain and gauge descent",
+    "quantum measure or convergence object where invoked",
+    "conserved positive pairing on the reduced physical cohomology"
+  ],
+  "claim_ceiling": "The strict fixed-background (9,5) packet has a neutral classical linear boundary phase precursor and an odd spinor multiplier, not a Jacobson/ADM lapse. This does not rule out a lapse after coupling dynamical gravity, construct a complete quantum BV--BFV theory, identify an edge mode, select a positive physical state space, transfer to (7,7), or decide GU."
+}

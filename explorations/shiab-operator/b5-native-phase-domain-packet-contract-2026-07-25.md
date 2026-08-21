@@ -8,6 +8,23 @@ work_item: B5-INDEPENDENT-RECONSTRUCTION
 
 # B5 native phase/domain packet contract
 
+## Execution update — signature-typed boundary phase precursor has no scalar lapse
+
+The strict fixed-background action now carries an exact classical linear
+boundary phase precursor on the positive-normal plus-first `(9,5)`
+half-cylinder. The middle Green radical quotient has rank `1664` and inertia
+`(832,832)`. The normal vector-spinor component has no normal derivative and
+enforces a tangential spinor constraint.
+
+This does not close the physical five-field packet. The multiplier is a
+Grassmann-odd rank-128 spinor; a gravitational lapse is a Grassmann-even
+scalar. Spin central character forbids a nonzero equivariant linear
+spinor-to-scalar map. The strict field inventory therefore contains no
+Jacobson/ADM lapse, physical boundary ensemble, BFV charge algebra, quantum
+measure or conserved positive pairing. Reopening requires action-owned
+dynamical gravity or a separately typed physical boundary BFV packet; the
+source-aligned `(7,7)` horn remains separate.
+
 ## Execution update — positive completions exist but no physical pairing is selected
 
 The exact marked reduced hit class is null for the program-native middle

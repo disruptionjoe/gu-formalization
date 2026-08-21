@@ -42,6 +42,23 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Boundary-phase owner update — neutral precursor, no gravitational lapse
+
+The strict fixed-background packet now has a signature-typed classical linear
+boundary phase precursor. At the positive normal of the plus-first `(9,5)`
+half-cylinder, the rank-128 gauge radical quotient has rank `1664` and neutral
+Green inertia `(832,832)`. Complete antisymmetry makes the normal
+vector-spinor component nondynamical and its variation imposes a tangential
+spinor constraint.
+
+That normal multiplier is Grassmann-odd and spinor-valued, not an even scalar
+ADM lapse. There is no nonzero Spin-equivariant linear `S -> 1` map because
+central `-1` acts with opposite characters. Consequently the Jacobson real
+lapse contour is wrong-type for the current strict action, while physical
+boundary/ensemble, BFV charge algebra, quantum measure and conserved positive
+pairing remain unowned. This neither changes the five-field admission grade nor
+rules out a scalar lapse after adding an action-owned dynamical metric/coframe.
+
 ## Execution update — closed stage domains and marked reduced class 2026-08-21
 
 The strict massless witness now promotes from folded operator kernel to a

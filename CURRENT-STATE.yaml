@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d01d292084f5075208d78ffdb0e16147e2aca086
+revision_basis: c61b6f7b0704260a9532474c099fc91f51ae8d90
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The strict B5 fixed-background action now closes its signature-typed
+    canonical/BV--BFV owner discriminator at classical linear boundary-phase
+    grade. On the positive-normal plus-first (9,5) half-cylinder, complete
+    antisymmetry leaves only tangential vector-spinors in the normal kinetic
+    form. The rank-128 normal gauge radical quotient has rank 1664 and neutral
+    Green inertia (832,832). The normal component psi_n has no normal
+    derivative and enforces a tangential spinor constraint, but it is a
+    Grassmann-odd rank-128 spinor multiplier, not a Grassmann-even scalar ADM
+    lapse. Spin central -1 acts oppositely on spinors and scalars, so no
+    nonzero equivariant linear S->1 map can manufacture a lapse. Therefore
+    constraint-first linear reduction is available while the Jacobson real
+    lapse contour is WRONG_TYPE. The mathematical half-cylinder is not a
+    source-selected physical boundary/ensemble, and no BFV charge/observable
+    algebra, quantum measure/convergence object or conserved positive pairing
+    is owned; the battery selects no extension and the marked class is not an
+    edge mode. This is not a no-lapse theorem after dynamical gravity, a
+    complete quantum BV--BFV theory, a transfer to (7,7), a physical state
+    space, particle result or GU verdict. Reopen only with
+    B5-DYNAMICAL-GRAVITY-OR-PHYSICAL-BOUNDARY-BFV-REOPENER. Joe input is not
+    required.
     A verified five-paper Jacobson/collaborator primary pack now closes the
     repository's 2023--2025 gravitational-entropy source gap, and a twenty-seat
     modeled science/variant council has typed its relevance to the live B5
@@ -2176,16 +2196,14 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the strict B5 marked reduced class be placed in one signature-correct
-  action-derived canonical/BV--BFV phase-space packet with a common closed
-  domain and conserved positive quotient pairing, and does that packet expose
-  a genuine lapse-like constraint whose group averaging, physical
-  boundary/ensemble, short-distance convergence and boundary observable
-  algebra select L_hit, L_miss, a proper extension subclass, none or all? If no
-  such canonical owner or lapse analogue exists in signature (9,5), bank the
-  Jacobson methods on the broader gravity frontier rather than importing a
-  single-time contour. Keep the graph-mixing full-nine family on its separate
-  EXTERNAL-VIA-GRAM route.
+  Can an action/source-owned dynamical metric or coframe extend the strict B5
+  packet with an even scalar Hamiltonian constraint and lapse, or can a named
+  physical causal boundary/ensemble independently supply a BFV charge,
+  observable algebra, selected closed domain, quantum measure and conserved
+  positive reduced pairing? Until one of those owners exists, keep the direct
+  Jacobson lapse contour closed as WRONG_TYPE on the fixed-background (9,5)
+  action, keep the marked class unproved as an edge mode, and keep the
+  graph-mixing full-nine family on its separate EXTERNAL-VIA-GRAM route.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -2194,24 +2212,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute B5-SIGNATURE-TYPED-REDUCED-PHASE-SPACE-BVBFV-OWNER-PACKET next. Start
-  from the action-derived presymplectic current, constraint surface, boundary
-  moment map, quantum BV--BFV charge/measure and reduced phase space on the
-  actual (9,5) carrier. Construct a one-time/Lorentzian reduction or other
-  signature-correct lapse-like constraint that preserves the strict complex,
-  Green form, closed domains and marked class, or prove that no such analogue
-  exists. Only after that ownership gate passes, seal and execute the joint
-  test of constraint projection, both multiplier signs where canonically
-  required, named physical boundary/ensemble, short-distance vacuum and
-  fluctuation convergence, boundary charge/observable algebra, and conserved
-  positive pairing on reduced cohomology across L_hit, L_miss and the relevant
-  extension subclass. Return NO_OWNER_PACKET, NO_LAPSE_ANALOGUE,
-  ALL_EXTENSIONS_SURVIVE, NO_EXTENSION_SURVIVES, PROPER_SUBCLASS_SURVIVES or
-  UNIQUE_CANDIDATE_SURVIVES. Do not identify the marked class as an edge mode,
-  equate entropy or Gaussian convergence with probability positivity, import a
-  single-lapse contour into five-time signature, infer a physical state space,
-  particle result or GU verdict. The graph-mixing full-nine family remains
-  EXTERNAL-VIA-GRAM and fail-closed.
+  Rebuild the broader frontier from
+  B5-DYNAMICAL-GRAVITY-OR-PHYSICAL-BOUNDARY-BFV-REOPENER. Reopen the strict
+  physical-pairing branch only if a typed action/source packet adds a
+  dynamical metric or coframe with an even scalar Hamiltonian constraint and
+  lapse, or if a named physical causal boundary/ensemble supplies a BFV charge
+  and observable algebra independently of a lapse. The packet must preserve
+  or explicitly replace the strict complex, Green form and closed domain,
+  descend through gauge, name any quantum measure/convergence object, and
+  prove a conserved positive pairing on reduced physical cohomology. Then and
+  only then test whether L_hit, L_miss, a proper extension subclass, none or
+  all survive. Otherwise bank the Jacobson constraint-first and
+  boundary/ensemble methods on the broader gravity/entropy frontier. Do not
+  identify the marked class as an edge mode, equate convergence or entropy
+  with probability, transfer the (9,5) result to (7,7), infer a physical state
+  space, particle result or GU verdict. The graph-mixing full-nine family
+  remains EXTERNAL-VIA-GRAM and fail-closed.
   Separately, the
   independent classical RSAP is closed at the exact
   minimum 98 and its

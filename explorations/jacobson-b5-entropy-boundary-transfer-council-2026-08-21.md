@@ -12,6 +12,25 @@ registry: lab/process/jacobson-b5-twenty-seat-priority-sweep-2026-08-21.json
 
 # Jacobson gravitational entropy to B5: twenty-seat transfer council
 
+## Owner-packet continuation resolved
+
+The signature-typed strict-action continuation is now decided in
+`b5-signature-typed-reduced-phase-space-bvbfv-owner-2026-08-21.md`. The
+fixed-background `(9,5)` Rarita--Schwinger action supplies a neutral classical
+linear boundary phase precursor and a spinor-valued constraint. Its normal
+component is a Grassmann-odd rank-128 spinor multiplier, not a Grassmann-even
+scalar ADM lapse; Spin central character also forbids a nonzero equivariant
+linear spinor-to-scalar extraction. The direct real-lapse contour port is
+therefore `WRONG_TYPE` on this packet.
+
+Constraint-first ordering remains banked. The named half-cylinder is not a
+source-selected causal boundary or ensemble, and no BFV charge/observable
+algebra, quantum measure, convergence object or conserved positive pairing is
+owned. The sealed battery therefore selects no extension. Reopen only with a
+dynamical metric/coframe yielding an even scalar Hamiltonian constraint and
+lapse, or with an independently named physical boundary/ensemble and BFV
+charge. The multiple-time, edge-mode and entropy/probability fences survive.
+
 ## Composition and honesty boundary
 
 Joe requested a twenty-vendor sweep including the science council and variant
