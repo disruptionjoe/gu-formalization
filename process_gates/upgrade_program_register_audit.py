@@ -20,6 +20,7 @@ import sys
 from pathlib import Path
 
 import yaml
+from yaml.constructor import ConstructorError
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTER = ROOT / "lab" / "process" / "upgrade-program-register.yaml"
@@ -28,6 +29,33 @@ DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 FAIL: list[str] = []
 N = 0
+
+
+class UniqueKeyLoader(yaml.SafeLoader):
+    """Safe YAML loader that rejects silently overwritten mapping keys."""
+
+
+def construct_unique_mapping(
+    loader: UniqueKeyLoader, node: yaml.MappingNode, deep: bool = False
+) -> dict:
+    mapping = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        if key in mapping:
+            raise ConstructorError(
+                "while constructing a mapping",
+                node.start_mark,
+                f"found duplicate key {key!r}",
+                key_node.start_mark,
+            )
+        mapping[key] = loader.construct_object(value_node, deep=deep)
+    return mapping
+
+
+UniqueKeyLoader.add_constructor(
+    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+    construct_unique_mapping,
+)
 
 
 def check(label: str, ok: bool) -> None:
@@ -41,7 +69,13 @@ def check(label: str, ok: bool) -> None:
 def audit(path: Path) -> int:
     global N, FAIL
     N, FAIL = 0, []
-    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    try:
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
+    except yaml.YAMLError as exc:
+        check("register parses with unique mapping keys", False)
+        print(f"  {exc}")
+        return 1
+    check("register parses with unique mapping keys", True)
     check("register parses to a mapping", isinstance(data, dict))
     vocab = data.get("status_vocabulary", [])
     check("status vocabulary is the closed four-value set",
@@ -79,9 +113,14 @@ def selftest() -> int:
     tmp = REGISTER.parent / "_upgrade_register_mutant.yaml"
     plants = (
         ("status outside vocabulary", "status: ACTIVE", "status: SOMEDAY"),
-        ("owner deleted", "owner: Joe (audio verification), then source owner", "owner: \"\""),
+        ("owner deleted", "owner: Joe", "owner: \"\""),
         ("next_check not a date", 'next_check: "2026-08-19"', 'next_check: "soon"'),
         ("duplicate id", "id: CT-4-DIAGRAM-INVARIANT", "id: CT-1-BASE-CATEGORIES"),
+        (
+            "duplicate mapping key",
+            '    next_check: "2026-08-24"',
+            '    next_check: "2026-08-24"\n    next_check: "2026-08-19"',
+        ),
     )
     ok = True
     for label, old, new in plants:

@@ -32,14 +32,12 @@ items:
     status: QUEUED
     activation: next mint
     next_check: "2026-08-24"
-    next_check: "2026-08-19"
   - id: CT-3-MORPHISM-UPGRADE
     title: FX-1 needs/provides extraction upgraded to typed dom/cod records from CT-1 categories
     origin: CT step 3; v_PSB token-blindness receipt
     owner: joe-directed ct-hardening wave
     status: DONE
     activation: "receipt: ct3 -- 44 typed records, v_PSB acceptance test PASS by lineage-then-discriminator, FX-1 byte-identical, coverage honestly dark (1 of 182 edges decided) rising with FX-2/CT-2 adoption"
-    next_check: "2026-08-19"
     next_check: "2026-08-19"
   - id: CT-4-DIAGRAM-INVARIANT
     title: Dependency-diagram invariant gate (components/cycle rank on declared edges; stable under the 32-to-35 refinement)
@@ -62,7 +60,6 @@ items:
     status: QUEUED
     activation: continuous; ratchet enforcement from 2026-08-21
     next_check: "2026-08-21"
-    next_check: "2026-08-19"
   - id: LEDGER-FULL-ROW-RETYPE
     title: Full (layer, grant, carrier) retype of all v0.259 rows (beyond mint-touched accretion)
     origin: CT step 2 full; deferred as adjudication-heavy
@@ -144,8 +141,8 @@ items:
     title: K-lane's selected-k151 artifact needs its gu-typed-objects block or exemption
     origin: typed-carrier gate first live red; binding memo landed 2026-08-17
     owner: scheduled K-lane (native validation)
-    status: QUEUED
-    activation: K-lane's next validation pass
+    status: DONE
+    activation: "receipt: gu-formalization@324cfc0f added the required gu-typed-objects block to selected-k151-moving-distortion-pairing-adjoint-2026-08-17.md; subsequent typed-carrier audits no longer report K151"
     next_check: "2026-08-19"
   - id: CANON-NULLITY-SCOPE
     title: "canon Krein result 3 over-scopes: totally-null fails at (14,0); governing fact is null iff timelike count odd (both physical horns odd, no physics moves)"
