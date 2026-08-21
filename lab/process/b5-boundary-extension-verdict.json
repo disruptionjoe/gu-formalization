@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-21",
+  "result": "B5-REGULAR-BOUNDARY-COFLIP-POLARIZATIONS-FORM-O960__ACTION-AND-SOURCE-SELECT-NONE",
+  "grade": "exact local regular-boundary trace-polarization and extension-stability grade on the repository-constructed flat complexified (9,5) half-cylinder",
+  "probe": {
+    "checks": 35,
+    "status": "pass",
+    "arithmetic": "exact fractions, Clifford inverse replay and split-form graph classification"
+  },
+  "boundary_form": {
+    "carrier_complex_dimension": 1920,
+    "inertia": [960, 960, 0],
+    "nondegenerate_owner": "exact two-sided inverse for B_n at n=dr",
+    "balance_owner": "Gamma-natural Pin covariance under normal reversal plus B_minus_n=-B_n"
+  },
+  "coflip_fixed_polarizations": {
+    "classification": "O(960)",
+    "real_dimension": 460320,
+    "connected_components": 2,
+    "bulk_action_disposition": "admits every maximal-isotropic trace graph and selects none",
+    "source_disposition": "SOURCE-SILENT for endpoint, asymptotic and real-Krein selectors"
+  },
+  "extension_stable": [
+    "principal symbol and action closure",
+    "formal adjoint sign",
+    "program-native Green coefficient",
+    "relative coflip covariance",
+    "minimal closed realization and bounded-perturbation commonality",
+    "null-conormal radical",
+    "strict packet admission at minimal-realization grade"
+  ],
+  "extension_sensitive": [
+    "global kernel and spectrum",
+    "eta/index and global cohomology",
+    "positivity and physical state space",
+    "Fredholm, Calderon and scattering data"
+  ],
+  "claim_ceiling": "This classifies local regular-boundary trace polarizations. It does not prove that every pointwise polarization defines a closed global ultrahyperbolic realization, and it selects no physical domain, source-selected global Met(X) geometry, particle result or GU verdict."
+}

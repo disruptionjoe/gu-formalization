@@ -8,6 +8,20 @@ work_item: B5-INDEPENDENT-RECONSTRUCTION
 
 # B5 native phase/domain packet contract
 
+## Execution update — minimal admission is extension-stable; physical extension is unselected
+
+The regular-boundary Green form on the named flat product has inertia
+`(960,960,0)`. Its coflip-fixed maximal-isotropic pointwise trace
+polarizations form `O(960)`, of real dimension `460320`. The strict quadratic
+bulk action admits the entire family and selects no member; current primary
+source evidence supplies no endpoint, asymptotic or real/Krein selector.
+
+This leaves the fail-closed packet admission exactly where it belongs: the
+minimal closed realization remains admitted and is stable under any later
+extension choice, but no maximal, self-adjoint or physical domain is admitted
+by inheritance. A pointwise trace polarization is not yet a closed global
+ultrahyperbolic realization.
+
 ## Execution update — strict packet admitted on a named minimal domain
 
 The action-owned strict branch now supplies one complete five-field packet at

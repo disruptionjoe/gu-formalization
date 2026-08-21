@@ -14,6 +14,21 @@ canon_verdict_change: none
 
 # B5 flat-product minimal domain
 
+## Continuation update — regular-boundary polarization verdict
+
+The stronger boundary question is now classified at pointwise trace grade in
+`explorations/b5-boundary-extension-verdict-2026-08-21.md`. The non-null
+rank-1920 Green form has inertia `(960,960,0)`, and its coflip-fixed maximal-
+isotropic trace polarizations form `O(960)`, with real dimension `460320` and
+two components. The quadratic bulk action admits all of them and selects none;
+the filed primary source remains silent.
+
+This does not weaken the minimal realization. Its existence, common graph
+domain and strict five-field admission are extension-stable. It does block any
+upgrade from that minimal grade to a unique physical domain. Promotion of a
+pointwise polarization to a closed global ultrahyperbolic realization is the
+next analytic discriminator.
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Any result about a
 > standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`

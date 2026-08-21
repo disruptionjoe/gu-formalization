@@ -42,6 +42,23 @@ canon_verdict_change: none
 
 # Design packet: reopening the B5 five-field native packet, one field at a time
 
+## Execution update — boundary-polarization ownership and stability classified 2026-08-21
+
+At the regular boundary of the named flat product end, the strict folded Green
+form has exact inertia `(960,960,0)`. Coflip-fixed maximal-isotropic pointwise
+trace polarizations form `O(960)`, of real dimension `460320` with two
+components. The quadratic strict bulk action admits every member and selects
+none, and the filed primary source remains silent on the endpoint/asymptotic
+and real/Krein selector.
+
+The packet's literal minimal-realization admission is stable across every
+later compatible extension choice: its carrier pairing, relative coflip,
+formal sign, Green coefficient and minimal closed domain do not change. Global
+spectrum, cohomology, positivity and physical state space are extension-
+sensitive and remain unearned. The next analytic owner is a closed polarized
+realization or a trace/graph obstruction on the named ultrahyperbolic product;
+do not guess a source-preferred or positive-Hilbert boundary condition.
+
 ## Execution update — named minimal domain and strict packet admission completed 2026-08-20
 
 The exact next domain owner is now constructed on the repository-owned flat

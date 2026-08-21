@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1037c2c1bfbae213791b9a5404a028dba19d63e5
+revision_basis: fbcbf907180703b841d8b6181b7fc25315357ce2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,27 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The strict B5 regular-boundary extension verdict is now exact at local
+    trace-polarization grade. At r=0 on the named flat half-cylinder, the
+    complex rank-1920 program-native Green form is nondegenerate and Gamma-
+    natural normal-reversal covariance forces inertia (960,960,0). The
+    coflip-fixed maximal-isotropic pointwise trace polarizations therefore
+    form O(960), of real dimension 460320 with two connected components. The
+    quadratic bulk action admits every member because its boundary variation
+    vanishes on each maximal isotropic, but selects none; the filed primary
+    source remains silent on endpoint, asymptotic and real/Krein domain
+    selectors. The strict principal/action packet, Green form, relative
+    coflip, minimal closed domain, bounded-perturbation commonality, null
+    radical and five-field minimal-grade admission are extension-stable.
+    Global kernel, spectrum, eta/index, cohomology, positivity, physical state
+    space, Fredholm and Calderon data are not. This classifies local regular-
+    boundary trace polarizations; it does not prove every O(960) point is a
+    closed global ultrahyperbolic realization and does not transfer to a
+    source-selected noncompact fibre without a regular boundary. Next execute
+    B5-POLARIZED-CLOSED-REALIZATION-DISCRIMINATOR on the named flat product by
+    constructing a closed coflip-compatible realization and a contrary
+    realization or proving the graph-trace obstruction. Joe input is not
+    required.
     The action-owned strict B5 branch now has one common closed domain on a
     named geometric model. On the repository-constructed flat half-cylinder
     [0,infinity) x T^(8,5) with positive coflip-fixed normal, the compact-
@@ -23,9 +44,10 @@ current_result:
     Calderon result, a characteristic quotient, a physical state space, or
     the source-selected global Met(X) geometry. The null radical is unchanged.
     The graph-mixing full-nine family remains EXTERNAL-VIA-GRAM and is not
-    admitted. Next decide B5-BOUNDARY-POLARIZED-EXTENSION-VERDICT by either an
-    action/source-owned maximal-isotropic polarization or verdict stability
-    across extension moduli. Joe input is not required.
+    admitted. The stronger B5-BOUNDARY-POLARIZED-EXTENSION-VERDICT now returns
+    a positive-dimensional local polarization moduli, no action/source
+    selector, and the exact stability partition above. Joe input is not
+    required.
     The strict B5 curved branch now has a complete exact formal Green/coflip
     packet on the actual complexified (9,5) carrier. For conormal n, the
     folded BV boundary coefficient is B_n=[[0,A_n^vee],[A_n,K_n]]. It is
