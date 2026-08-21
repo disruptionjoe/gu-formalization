@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 097368f1a91766e1e22b90aceb2afa6dd64ef5b4
+revision_basis: fabd9ba21400c8a3856302f09328b38e3fe5b588
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,24 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    CBRS-1E has now closed the complete real grade-two connection/T restricted
-    first-jet block over the anisotropic point. The two modules each have 1,274
-    directions. Their exact symmetric 2,548 by 2,548 coupled Hessian has rank
-    2,548 and nullity zero. The five matching-cell incidence strata contain
-    182 individually nondegenerate pairs and 1,092 apparently flat connection
-    axes, but the latter are artifacts of deleting cross-incidence terms. The
-    first control B_0 gamma_1 gamma_2 couples to B_1 gamma_0 gamma_2 and
-    B_2 gamma_0 gamma_1 with coefficients -1,+1 and to the corresponding T
-    cells with -13/24,+13/24. A Spin gauge jet moves the grade-one background T
-    in Clifford grade one, so it is not contained in this grade-two/grade-two
-    carrier; paired flatness was never a gauge verdict. No grade-two field
-    kernel or primitive-epsilon quotient class survives. The unique zero jet
-    has zero graph return, leaving the inherited nonzero four-cell MET(X)
-    trace. This is a complete real grade-two restricted result, not an
-    all-grade first-jet or full Clifford Hessian theorem. CBRS-1 remains active
-    at CBRS-1F: extend the coupled Hessian to the complete real-form grade-three
-    T module with all Spin connection equations before any second jet,
-    stabilizer or spectrum work.
+    CBRS-1F has now extended the complete real grade-two connection/T block
+    through all 5,096 real-form grade-three T directions, represented by i
+    times B-self grade-three blades. The B2/iT3 and T2/iT3 Hessian blocks vanish
+    entry by entry, but the iT3 block is not coordinate-diagonal: it has 24,024
+    off-diagonal nonzero entries and six diagonal classes. Its exact symmetric
+    5,096 by 5,096 matrix has rank 5,096 and nullity zero. Together with the
+    retained rank-2,548 grade-two block, the full restricted B2+T2+iT3 carrier
+    has dimension and rank 7,644 with nullity zero. A Spin gauge jet still
+    moves the grade-one background T in Clifford grade one and is outside this
+    restricted carrier. No field kernel or primitive-epsilon quotient class
+    survives. The unique zero jet has zero graph return, leaving the inherited
+    nonzero four-cell MET(X) trace. This is a complete B2+T2+iT3 restricted
+    result, not an all-grade first-jet or full Clifford Hessian theorem.
+    CBRS-1 remains active at CBRS-1G: rebuild the remaining real-form first-jet
+    grade frontier by whole-grade selection rules, identify the next complete
+    carrier including any required grade-one gauge tangent, and admit a second
+    jet only after that carrier decision.
     No ledger verdict, source ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
     CONDITIONAL-BUILD-REVERSE-SCAFFOLD as the active Lane-1 research lead. Work
@@ -2285,12 +2284,14 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. Execute CBRS-1E: classify
-  the symmetry-inequivalent grade-two connection/T incidence orbits, beginning
-  with the exact off-incidence flat connection control left by CBRS-1D. Decide
-  which flat columns are gauge or primitive-epsilon characteristics and whether
-  any surviving quotient class has a nonzero intrinsic metric source-graph
-  image before allowing second jets. Only a fully metric-stationary branch
+  returning to old hardening or the B5 comparator. Execute CBRS-1G: use exact
+  whole-grade Clifford, real-form, variational and gauge selection rules to
+  rebuild the remaining first-jet grade frontier after the complete B2+T2+iT3
+  restricted carrier proved nondegenerate. Identify the cheapest next complete
+  carrier, including whether the grade-one principal gauge tangent must enter
+  with it, and decide its field kernel, primitive-epsilon restriction and
+  intrinsic metric source-graph image before allowing second jets. Only a
+  fully metric-stationary branch
   may advance to the full Hessian, global stabilizer, mu6 descent, J/Higgs
   selection, photon kernel, extra-U1 mass direction and first gravitational
   symbol consequences. A class-wide negative is a valid result. Do not promote

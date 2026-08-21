@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1F_COMPLETE_REAL_B2_T2_IT3_FIRST_JET_HESSIAN_NONDEGENERATE__RESTRICTED_BRANCH_METRIC_KILLED__REMAINING_REAL_FORM_GRADE_FRONTIER_LIVE",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1F",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_MOVING_SHIAB_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPO_DERIVES_AND_KILLS_THIS_FROZEN_B2_T2_IT3_RESTRICTED_FIRST_JET_CLASS__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_carrier": {
+    "point": {"a": "-13/96", "b": "1/48"},
+    "connection_grade2_directions": 1274,
+    "t_grade2_directions": 1274,
+    "t_i_grade3_directions": 5096,
+    "coupled_directions": 7644,
+    "target_blind": true,
+    "all_grade_first_jet": false
+  },
+  "mixed_blocks": {
+    "B2_to_iT3_nnz": 0,
+    "T2_to_iT3_nnz": 0,
+    "iT3_off_diagonal_nnz": 24024,
+    "iT3_diagonal_classes": {
+      "-1": 588,
+      "-31/36": 1400,
+      "-4/9": 560,
+      "1": 504,
+      "31/36": 1460,
+      "4/9": 584
+    }
+  },
+  "complete_coupled_hessian": {
+    "dimension": 7644,
+    "retained_B2_T2_rank": 2548,
+    "iT3_rank": 5096,
+    "rank": 7644,
+    "nullity": 0,
+    "symmetric": true
+  },
+  "gauge": {
+    "pointwise_spin_orbit_of_background_t_clifford_grade": 1,
+    "restricted_t_clifford_grades": [2, 3],
+    "principal_gauge_tangent_contained": false
+  },
+  "primitive_epsilon": {
+    "moving_shiab_support_across_91_generators": 0,
+    "surviving_restricted_field_kernel": 0,
+    "surviving_quotient_class": false
+  },
+  "heldout_metric": {
+    "action_density": "221/55296",
+    "source_graph_adjoint": "ZERO_ON_THE_UNIQUE_ZERO_MIXED_JET",
+    "normalized_metric_row": ["-221/27648", "0", "0", "0", "221/27648", "0", "0", "221/27648", "0", "221/27648"],
+    "stationary": false,
+    "disposition": "KILLED_INTRINSIC_METRIC_TRACE"
+  },
+  "claim_ceiling": "EXACT_COMPLETE_REAL_B2_T2_IT3_FIRST_JET_RESTRICTED_CLASS_KILL__NOT_AN_ALL_GRADE_FIRST_JET_HESSIAN_OR_PHYSICAL_GAUGE_QUOTIENT_THEOREM",
+  "next_gate": "CBRS1G_REBUILD_THE_REMAINING_REAL_FORM_FIRST_JET_GRADE_FRONTIER_BY_WHOLE_GRADE_SELECTION_RULES_AND_ADMIT_SECOND_JETS_ONLY_AFTER_THE_NEXT_COMPLETE_CARRIER_DECISION",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1f_complete_grade3_extension_probe.py",
+  "probe_result": "PASS_37_OF_37"
+}
