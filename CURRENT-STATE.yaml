@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 24c1cb2bb301121b7bc709a13b710a5e266625f5
+revision_basis: d34d200a50161a6ffdb665154a1001abf04ea8da
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1X selects the rank-minimal internally indefinite mirror multiplet
+    before reading a J4 density. Four real first jets are necessary for
+    nonzero rank-four isotropic stress; a typed odd-Clifford owner would begin
+    with at least the 18 live grade-one/three cells and an additional unfixed
+    real pairing. The frozen target-blind action uses four mirror scalars
+    Psi, opposite Lorentz form kappa=-eta, invariant s=kappa(Psi,Psi), and
+    weight s^(-2) on the K77 point action. On the homothetic ray
+    Psi=sqrt(R)Phi, the independent Phi and Psi Euler equations uniquely fix
+    R=2/3 before I_base is evaluated. The weighted momentum is then
+    (9/4)M0, so its primitive divergence vanishes. At rho=1 the full metric
+    row fixes the regular Lorentz metric g=-4eta/(27I_base), and every T,
+    connection, primitive, Phi, Psi and intrinsic MET(X) row vanishes. This
+    exact pointwise formal two-jet does not extend to an open local solution:
+    the inherited unit potential leaves residuals -2(rho-1)Phi and
+    -3(rho-1)Psi. An arbitrary smooth potential closes the homothetic ray
+    only when V'=0, which releases rather than selects the unit orbit. CBRS-1Y
+    must freeze the smallest nonhomothetic sigma-model metric or directly
+    typed odd-Clifford owner preserving unit selection. This is not a no-go
+    for either class and yields no local/global vacuum, spectrum, ledger,
+    canon, source-ownership or public-posture conclusion.
     CBRS-1W proves that the minimal action-owned one-dilaton completion can
     cancel the base-J4 radial primitive divergence but cannot solve its own
     complete Euler system. The frozen target-blind action weights the K77
@@ -2522,7 +2542,17 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1V closes every smooth
+  returning to old hardening or the B5 comparator. CBRS-1X freezes the
+  rank-minimal opposite-signature four-real-field mirror multiplet and proves
+  exact primitive plus complete unit-body stationarity at R=2/3, but the
+  inherited unit-orbit potential obstructs the first open local homothetic
+  lift. Execute CBRS-1Y by freezing the smallest target-blind nonhomothetic
+  sigma-model metric or directly typed odd-Clifford primitive owner that can
+  preserve unit-orbit selection while closing every local Euler row. State
+  its real pairing, action coefficient, grading and stress map before solving;
+  do not fit a potential, multiplier, frame, boundary or sector, and do not
+  compute a spectrum or advance to CBRS-2 before an actual local solution.
+  CBRS-1V closes every smooth
   field-admissible metric-compatible Spin-connection completion near the unit
   base-J4 coframe body. Although the unrestricted contracted connection map
   is rank-78 surjective on its reached receiver and can cancel the radial

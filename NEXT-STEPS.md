@@ -7,6 +7,24 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1X OPENS AND CLOSES THE RANK-MINIMAL HOMOTHETIC
+> INDEFINITE MIRROR MULTIPLET.** Four real first jets are the minimum for a
+> nonzero rank-four isotropic stress, so the selected target-blind owner adds
+> four real mirror scalars with opposite Lorentz form `kappa=-eta`, invariant
+> `s=kappa(Psi,Psi)`, and weight `s^(-2)` on the K77 point action. On
+> `Psi=sqrt(R)Phi`, the two independent multiplet equations fix `R=2/3`
+> before reading `I_base`; the weighted momentum is exactly `(9/4)M0`, and
+> every field, primitive and intrinsic metric row vanishes at `rho=1` with
+> `g=-4eta/(27I_base)`. The displayed pointwise formal two-jet is not an open
+> local solution: the inherited unit potential leaves residuals
+> `-2(rho-1)Phi` and `-3(rho-1)Psi`. General smooth `V` closes this homothetic
+> ray only at `V'=0`, which releases unit-orbit selection. **Continue with
+> CBRS-1Y: freeze the smallest target-blind nonhomothetic sigma-model metric or
+> directly typed odd-Clifford primitive owner that preserves unit selection
+> while closing the complete local Euler system.** Do not fit a potential,
+> multiplier, frame, boundary or sector. See
+> `explorations/conditional-build/selected-k77-cbrs1x-indefinite-mirror-multiplet-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1W CLOSES THE MINIMAL ACTION-OWNED ONE-DILATON
 > PRIMITIVE COMPLETION.** Weighting the K77 point action by `exp(-2 chi)` and
 > giving the real scalar `chi` its fixed positive one-half kinetic term makes
