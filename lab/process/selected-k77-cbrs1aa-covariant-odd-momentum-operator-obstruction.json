@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1AA_RAW_MIXED_BF_ODD_ENDPOINT_MAP_NONZERO_BUT_NONREDUNDANT_TARGET_BLIND_OWNER_QUOTIENT_ZERO",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1AA",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_PRIMITIVE_EPSILON_B_T_AND_SELECTED_ACTION_GRAMMAR__REPOSITORY_DERIVES_THE_EQUIVARIANT_HOM_BF_VARIATION_AND_FIELD_REDEFINITION_OBSTRUCTION__SOURCE_SILENT_ON_THE_AUXILIARY_AND_ITS_COUPLING",
+  "predecessor": {
+    "construction": "CBRS-1Z",
+    "probe_result": "PASS_53_OF_53",
+    "open_gate": "FULL_LAMBDA1_PLUS_LAMBDA3_COVARIANT_ACTION_MAP_INTO_THE_SELECTED_B_T_ENDPOINT_MOMENTUM"
+  },
+  "carriers": {
+    "base_space": "V=R(9,5)",
+    "odd_auxiliary": "W_ODD=Lambda^1(V)_DIRECT_SUM_Lambda^3(V)",
+    "odd_auxiliary_dimension": 378,
+    "existing_even_primitive": "epsilon_IN_Lambda^2(V)",
+    "even_primitive_dimension": 91,
+    "grassmann_parity": "EVEN"
+  },
+  "hom_spaces": {
+    "Hom_Spin_Wodd_to_scalar": 0,
+    "Hom_Spin_Wodd_to_Wodd": 2,
+    "Hom_Spin_VtensorWodd_to_scalar": 1,
+    "Hom_Spin_VtensorWodd_to_Wodd": 0,
+    "Hom_Spin_VtensorWodd_to_Lambda2": 2,
+    "zero_order_symmetric_quadratic_forms": 2,
+    "one_total_derivative_odd_only_bilinear_scalars": 0,
+    "symmetric_quadratic_first_jet_forms": 7
+  },
+  "first_order_basis": [
+    "d_B:Lambda1_TO_Lambda2",
+    "delta_B:Lambda3_TO_Lambda2"
+  ],
+  "bf_action": {
+    "density": "c1*<epsilon,d_B(alpha)>_2+c3*<epsilon,delta_B(beta)>_2",
+    "canonical_dirac_ray": "c1=c3=c",
+    "relative_grade_weight_selected_by_dirac_naturality": true,
+    "overall_coefficient_source_owned": false,
+    "raw_endpoint_variation_map_nonzero": true,
+    "raw_endpoint_variation_dimension": 2,
+    "nonredundant_target_blind_owner_quotient_dimension": 0
+  },
+  "field_equations": {
+    "pure_BF_alpha": "c1*delta_B(epsilon)=0",
+    "pure_BF_beta": "c3*d_B(epsilon)=0",
+    "pure_BF_epsilon": "c1*d_B(alpha)+c3*delta_B(beta)=0",
+    "normalized_alpha": "K1*alpha+c1*delta_B(epsilon)=0",
+    "normalized_beta": "K3*beta+c3*d_B(epsilon)=0"
+  },
+  "hilbert_variation": {
+    "grade_one": "c1*(g_mu_nu*<epsilon,d_B(alpha)>-2*epsilon_(mu|rho|*(d_B(alpha))_nu)^rho)",
+    "grade_three": "c3*(g_mu_nu*<d_B(epsilon),beta>-(d_B(epsilon))_(mu|rho_sigma|*beta_nu)^(rho_sigma))",
+    "trace_grade_one_in_dimension_14": "10*c1*<epsilon,d_B(alpha)>",
+    "trace_grade_three_in_dimension_14": "8*c3*<d_B(epsilon),beta>"
+  },
+  "redundancy": {
+    "pure_BF_horn": "MULTIPLIER_OR_B_T_FIELD_REDEFINITION",
+    "field_redefinition": "T_prime=T+c*P2*D_B(Xi)",
+    "normalized_field_horn": "NEW_UNSUPPLIED_DIMENSIONLESS_COUPLING",
+    "effective_invariants": ["lambda1=c1^2/k1", "lambda3=c3^2/k3"],
+    "canonical_trace_and_dirac_ray_effective_invariant": "ONE_STILL_UNSUPPLIED_OVERALL_c^2",
+    "effective_action": "-(1/2)*<M,lambda*M>",
+    "vanishes_on_old_endpoint_equation": true
+  },
+  "forbidden_shortcuts": [
+    "FIT_c1_OR_c3_TO_THE_EVALUATED_M0",
+    "CALL_THE_CANONICAL_d_PLUS_delta_RELATIVE_RAY_AN_OVERALL_COEFFICIENT_DERIVATION",
+    "DROP_THE_INDUCED_QUADRATIC_TERM_FROM_A_B_T_FIELD_REDEFINITION",
+    "CALL_A_PURE_BF_MULTIPLIER_AN_INDEPENDENT_DYNAMIC_OWNER",
+    "OMIT_THE_NONZERO_HILBERT_VARIATION",
+    "ADD_A_SELECTED_FRAME_BOUNDARY_OR_SECTOR"
+  ],
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_ADMISSION_OBSTRUCTION_TO_THE_SMALLEST_ZERO_FIRST_ORDER_MIXED_BF_ODD_AUXILIARY_CLASS_AT_CURRENT_SOURCE_OWNERSHIP__RAW_ENDPOINT_MAP_NONZERO__NO_NO_GO_FOR_A_SOURCE_NORMALIZED_NON_EULER_ODD_OWNER__NO_LOCAL_OR_GLOBAL_VACUUM_OR_SPECTRUM",
+  "probe": "tests/channel-swings/selected_k77_cbrs1aa_covariant_odd_momentum_operator_obstruction_probe.py",
+  "probe_result": "PASS_57_OF_57",
+  "next_gate": "CBRS1AB_AUDIT_THE_CANONICAL_HODGE_DE_RHAM_BF_RAY_AGAINST_THE_SELECTED_K77_ACTION_FOR_AN_INDEPENDENT_SOURCE_OWNED_NORMALIZATION_AND_PROVE_IT_IS_NOT_A_B_T_FIELD_REDEFINITION_OR_MULTIPLIER__OTHERWISE_CLOSE_THE_ODD_AUXILIARY_ROUTE_UNTIL_NEW_SOURCE_EVIDENCE",
+  "sigma_reopen_condition": "A_SOURCE_OR_INDEPENDENT_PRE_DENSITY_PRINCIPLE_SUPPLIES_A_SECOND_TARGET_INVARIANT_OR_RELATION",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

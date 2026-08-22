@@ -7,6 +7,23 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1AA FINDS A NONZERO MIXED-BF ENDPOINT MAP BUT NO
+> NONREDUNDANT TARGET-BLIND OWNER.** For
+> `W_odd=Lambda1(R(9,5)) direct-sum Lambda3(R(9,5))`, the complete smallest
+> first-order map space into the existing primitive `Lambda2` carrier has
+> basis `d_B alpha` and `delta_B beta`. Pairing these with the even primitive
+> `epsilon` produces a genuine Clifford-odd `B/T` current and a nonzero
+> Hilbert map; the earlier quadratic parity kill does not apply. The canonical
+> Hodge--de Rham ray fixes the relative `d+delta` weight, but not its overall
+> coupling. Pure BF is a multiplier or the cross term of
+> `T'=T+c P2 D_B Xi`; a separately normalized auxiliary leaves a general pair
+> of grade couplings, reduced to one still-free `c` on the canonical ray.
+> **Continue with CBRS-1AB: require the selected K77 action itself to
+> supply an independent normalization and prove the term is not a `B/T` field
+> redefinition or multiplier; otherwise close this auxiliary route until new
+> source evidence.** Do not fit `c` to `M0` or advance to CBRS-2. See
+> `explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1Z CLOSES THE ADVERTISED TWO-FUNCTION-SIGMA / STANDALONE
 > ODD-FIELD FORK AT ADMISSION.** A single `O(1,3)` mirror vector has invariant
 > algebra `R[s]`; its general equivariant metric
