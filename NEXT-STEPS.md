@@ -7,6 +7,22 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1Q CLOSES THE MINIMAL GRASSMANN-ODD BILINEAR
+> REOPENER.** For `S=S_B+psibar D(b) psi` with independent Grassmann-odd
+> barred and unbarred fields, the body of the fermion current, both mixed
+> Hessian blocks and the fermion correction to the even-even Hessian is exactly
+> zero. An exact nonzero odd saddle has nonzero nilpotent backreaction and
+> solves every Euler row, but its bosonic shift has zero body. Hence all four
+> CBRS-1P J4 branches retain only the 40-dimensional diagonal gauge kernel and
+> zero real non-orbit metric body domain. Fermion zero modes remain separate.
+> Commuting-spinor and even-condensate plants can move the body only by changing
+> the field class. **Continue with CBRS-1R: freeze one materially distinct,
+> target-blind even owner—an action-derived condensate, bosonized auxiliary
+> field or another independently specified bosonic action class—and require
+> its own body stationarity and complete metric tangent.** Do not reinterpret
+> either plant as the source fermion, tune J4 or advance to CBRS-2. See
+> `explorations/conditional-build/selected-k77-cbrs1q-grassmann-body-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1P CLOSES THE CONSTANT J4 CLASS AS POINTWISE GAUGE-
 > RIGID.** The `8,192` exact q-mod-J4 components reduce to `140` signed-
 > coordinate transport classes. Complementary split-prime embeddings at

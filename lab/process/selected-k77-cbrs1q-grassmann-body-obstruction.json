@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1Q_MINIMAL_GRASSMANN_ODD_BILINEAR_EXTENSION_CANNOT_REOPEN_REAL_J4_METRIC_BODY_TANGENT",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1Q",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_INDEPENDENT_BARRED_UNBARRED_FERMION_FIELDS_AND_BILINEAR_ACTION_GRAMMAR__REPOSITORY_DERIVES_THE_BODY_OBSTRUCTION__SOURCE_SILENT_ON_A_NONZERO_ODD_SADDLE_CONDENSATE_AND_COMPLETE_K77_OPERATOR",
+  "action_class": {
+    "action": "S_B(b)+psibar_D(b)_psi",
+    "bosonic_fields": "EVEN",
+    "fermion_fields": "INDEPENDENT_BARRED_AND_UNBARRED_GRASSMANN_ODD",
+    "coefficient_algebra": "SUPERCOMMUTATIVE_CHARACTERISTIC_ZERO",
+    "body_map": "QUOTIENT_BY_NILPOTENT_IDEAL"
+  },
+  "body_projection": {
+    "bosonic_current_body": 0,
+    "mixed_hessian_body": 0,
+    "fermion_correction_to_even_even_hessian_body": 0,
+    "even_body_hessian": "EXACTLY_THE_BOSONIC_BODY_HESSIAN",
+    "even_body_kernel_enlargement": 0
+  },
+  "nonzero_odd_saddle": {
+    "exact_fixture_exists": true,
+    "fermion_fields": "NONZERO_ODD",
+    "fermion_euler": "ZERO_BY_EXACT_NILPOTENCE",
+    "bosonic_backreaction": "NONZERO_NILPOTENT_BODY_ZERO",
+    "real_bosonic_body_shift": 0
+  },
+  "j4_branch_consequence": {
+    "predecessor": "lab/process/selected-k77-cbrs1p-j4-component-ranks.json",
+    "bosonic_dimension": 230650,
+    "bosonic_rank": 230610,
+    "bosonic_nullity": 40,
+    "bosonic_kernel": "EXACTLY_THE_40_DIMENSIONAL_BROKEN_DIAGONAL_SPIN_ORBIT",
+    "real_nonorbit_metric_body_dimension": {
+      "normal_J4_sign_-1": 0,
+      "normal_J4_sign_+1": 0,
+      "base_J4_sign_-1": 0,
+      "base_J4_sign_+1": 0
+    }
+  },
+  "contrary_controls": {
+    "commuting_c_number_spinor": "CAN_MOVE_BODY_BUT_CHANGES_FERMION_PARITY_CLASS",
+    "even_condensate_or_bosonized_auxiliary": "CAN_MOVE_BODY_BUT_ADDS_A_NEW_BOSONIC_OWNER",
+    "actual_D_varpi_rank_loss": "MAY_CREATE_FERMION_MODES_BUT_CANNOT_CHANGE_REAL_METRIC_BODY_RANK_INSIDE_THIS_CLASS"
+  },
+  "claim_ceiling": "EXACT_POINTWISE_SUPERALGEBRA_BODY_OBSTRUCTION_FOR_EVEN_BILINEAR_GRASSMANN_ODD_EXTENSION__NO_SOURCE_OPERATOR_BV_GLOBAL_VACUUM_OR_SPECTRUM",
+  "next_gate": "CBRS1R_FREEZE_AN_EVEN_CONDENSATE_BOSONIZED_AUXILIARY_OR_OTHER_MATERIALLY_DISTINCT_ACTION_OWNED_CLASS_BEFORE_ANY_BODY_REOPENING_CLAIM",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1q-grassmann-body-obstruction-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1q_grassmann_body_obstruction_probe.py",
+  "probe_result": "PASS_40_OF_40"
+}

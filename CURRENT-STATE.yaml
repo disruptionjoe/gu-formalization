@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f671e5f838c5c330e63c1296403340a8f29d4ce1
+revision_basis: a17bb1c00c09e31942f14653405c057dfddbad14
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1Q closes the minimal even bilinear Grassmann-odd fermion extension
+    as a route to a real metric tangent on the four J4 bodies. For
+    S=S_B+psibar D(b) psi, the body of psibar(dD/db)psi, both even/odd mixed
+    Hessian blocks, and the fermion correction to the even-even Hessian all
+    vanish identically. An exact nonzero odd saddle has nonzero nilpotent
+    backreaction and solves every coupled Euler row, but its bosonic correction
+    has zero body. Therefore the even body Hessian is exactly the CBRS-1P
+    bosonic Hessian: every branch retains only the 40-dimensional broken
+    diagonal-Spin gauge orbit and has zero real non-orbit metric body domain.
+    A fermion zero mode remains distinct from a real metric tangent. Commuting
+    spinors and even condensates can move the body in planted controls, but
+    they change parity or add a new bosonic owner. CBRS-1R must freeze such a
+    materially distinct target-blind even action class before solving it; do
+    not reinterpret the plants, tune J4, or advance to CBRS-2. No ledger,
+    canon, source-ownership or public-posture conclusion follows.
     CBRS-1P closes all four constant radical J4 branches at the complete
     pointwise tangent. The 8192 q-mod-J4 components reduce to 140 exact
     signed-coordinate transport classes. A two-prime rank sandwich uses
@@ -2390,13 +2405,19 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1P proves by a
+  returning to old hardening or the B5 comparator. CBRS-1Q proves that the
+  minimal even bilinear Grassmann-odd extension of the four closed J4 bodies
+  cannot reopen a real non-orbit metric tangent: nonzero odd backreaction can
+  be nilpotent, but its body current and mixed/body-Hessian corrections vanish.
+  Execute CBRS-1R by freezing one materially distinct target-blind even owner,
+  such as an action-derived condensate or bosonized auxiliary field, together
+  with its potential, body stationarity and complete metric tangent. Do not
+  reinterpret a commuting-spinor control as a fermion vacuum, treat a finite
+  odd kernel as a metric direction, tune J4, or advance to CBRS-2. CBRS-1P proves by a
   two-prime characteristic-zero rank sandwich that all four constant radical
   J4 points have complete Hessian rank 230610 and nullity 40, exactly the
   broken diagonal-Spin orbit. Their primitive, nonorbit metric and first-
-  symbol quotients are zero. Execute CBRS-1Q: freeze a materially distinct
-  target-blind action or coupled-fermion class with a possible non-orbit
-  metric tangent. Do not reuse a rank-bad single-prime reduction, tune the J4
+  symbol quotients are zero. Do not reuse a rank-bad single-prime reduction, tune the J4
   action, add a counterterm, mix the full commutant after the result, or
   advance to CBRS-2. CBRS-1L proves that all four
   CBRS-1K zero-density points are gauge-rigid, and CBRS-1M opened the distinct
