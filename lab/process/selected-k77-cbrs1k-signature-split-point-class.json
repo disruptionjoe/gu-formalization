@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1K_FOUR_NEW_K77_SIGNATURE_SPLIT_ZERO_DENSITY_POINT_CLASSES_PASS_COMPLETE_POINT_FIELD_CONNECTION_PRIMITIVE_AND_METRIC_EQUATIONS",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1K",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_K77_SIGNATURE_SPLIT_POINT_CLASS__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_class": {
+    "formula": "eta_plus: T_i=a gamma_i+b gamma_i Omega; eta_minus: T_i=c gamma_i+d gamma_i Omega",
+    "signature_blocks": {
+      "eta_plus_slots": [0, 4, 5, 6, 7, 8, 9],
+      "eta_minus_slots": [1, 2, 3, 10, 11, 12, 13],
+      "canonicity": "FROZEN_REPOSITORY_COORDINATE_POLARIZATION__NOT_A_CANONICAL_SPIN77_INVARIANT_SPLIT"
+    },
+    "coefficient_field": "Q(sqrt(15))",
+    "target_blind": true,
+    "critical_point_count": 10,
+    "four_new_signature_split_points": {
+      "parameters": "epsilon in {minus1,plus1}; chi in {minus1,plus1}",
+      "a": "(1+epsilon*sqrt(15))/32",
+      "b": "chi*a",
+      "c": "(1-epsilon*sqrt(15))/32",
+      "d": "chi*c"
+    },
+    "pure_vector_control_density": "7/432"
+  },
+  "point_equations": {
+    "branches": 4,
+    "translation_dimension_per_branch": 229376,
+    "translation_support_per_branch": 0,
+    "unrestricted_momentum_support_per_branch": 28,
+    "unrestricted_momentum_grades": [1, 13],
+    "spin_grade_two_support_per_branch": 0,
+    "moving_shiab_generator_count": 91,
+    "moving_shiab_support_per_branch": 0,
+    "action_density_per_branch": "0",
+    "metric_row_support_per_branch": 0,
+    "reduced_hessian_rank_per_branch": 4,
+    "reduced_hessian_determinant_per_branch": 540225
+  },
+  "class_disposition": "FOUR_NEW_EXACT_POINTWISE_METRIC_STATIONARY_CONSTANT_CLASSES_ADMITTED_TO_COMPLETE_TANGENT_GATE",
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_METRIC_STATIONARY_K77_SIGNATURE_SPLIT_CLASS_FOR_THE_SELECTED_FIRST_ACTION__NOT_SOURCE_OWNED_GLOBAL_OBSERVED_OR_PHYSICAL",
+  "next_gate": "CBRS1L_COMPLETE_SPLIT_SYMMETRY_T_PLUS_SPIN_CONNECTION_HESSIAN__POINTWISE_ORBIT_STABILIZER__PRIMITIVE_QUOTIENT__THEN_FIRST_SYMBOL",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1k-signature-split-point-class-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1k_signature_split_point_class_probe.py",
+  "probe_result": "PASS_61_OF_61"
+}

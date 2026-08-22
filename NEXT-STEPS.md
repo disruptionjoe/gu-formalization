@@ -7,6 +7,26 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
+> **2026-08-21 CBRS-1K ADMITS FOUR NEW K77-SIGNATURE-SPLIT POINT CLASSES.**
+> Split the selected vector-plus-volume-dual coefficients only across the
+> frozen `ETA`-coordinate positive and negative seven-planes of K77. This is a
+> repository-selected polarization, not a canonical Spin(7,7)-invariant
+> splitting. The exact four-variable
+> action has ten critical points. Four new points over `Q(sqrt(15))`, the two
+> signature polarities times both Clifford-volume signs, have zero density.
+> At each point all `229,376` real `T` translation directions, the independent
+> Spin-grade-two connection equation, all `91` moving-Shiab primitive returns
+> and the intrinsic ten-cell metric row vanish. Each reduced `4 x 4` Hessian
+> has determinant `540225`; the two pure-vector square-root-15 controls retain
+> density `7/432` and fail the metric gate. These are constant pointwise
+> reconstructions, not spacetime-nonhomogeneous vacua, and the volume signs are
+> not observed chirality. **Continue with CBRS-1L: rebuild the complete all-
+> grade `T/T` plus independent Spin-connection Hessian under the broken split
+> symmetry, then compute orbit/stabilizer, primitive quotient and only then a
+> first symbol. Do not reuse CBRS-1J's full diagonal-Spin rank theorem without
+> re-deriving its intertwiners or advance to spectrum.** See
+> `explorations/conditional-build/selected-k77-cbrs1k-signature-split-point-class-2026-08-21.md`.
+
 > **2026-08-21 CBRS-1J CLOSES BOTH CHIRAL-NULL POINTS AT THE COMPLETE
 > POINTWISE TANGENT.** Exact diagonal-Spin irreducible reduction covers the
 > full `229,376`-direction real `T` carrier plus all `1,274` independent

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9309644f4d7239671a5424170d89d7295dba2344
+revision_basis: 70a30bb15179a071cb9ba29c511fea2f1523a1c4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1K admits four genuinely new K77-signature-split point classes to the
+    complete tangent gate. With independent vector/volume-dual coefficients
+    on the frozen ETA-coordinate positive and negative seven-planes, the exact four-variable action
+    has ten critical points. Four new points over Q(sqrt15), the two signature
+    polarities times both Clifford-volume signs, have zero action density.
+    At every point all 229376 real T translation directions, the independent
+    Spin-grade-two connection equation, all 91 moving-Shiab primitive returns
+    and the ten-cell intrinsic metric row vanish. Each reduced four-variable
+    Hessian has determinant 540225. The two pure-vector square-root-15 controls
+    retain density 7/432 and fail the metric gate. These are exact constant
+    pointwise reconstructions, not spacetime-nonhomogeneous or source-owned
+    physical vacua; the coordinate polarization is not a canonical
+    Spin(7,7)-invariant split, and the volume signs are not observed chirality. CBRS-1L
+    must derive the complete broken-symmetry T plus Spin-connection Hessian,
+    orbit/stabilizer, primitive quotient and only then a first symbol. No
+    ledger verdict, canon, source ownership or public posture changes.
     CBRS-1J closes both CBRS-1I chiral-null points at the complete pointwise
     tangent. On the full 229,376-direction real u(64,64) T carrier plus all
     1,274 independent real Spin-grade-two connection directions, exact
@@ -2286,7 +2302,17 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1J proves that both
+  returning to old hardening or the B5 comparator. CBRS-1K admits four new
+  K77-signature-split zero-density metric-stationary point classes over
+  Q(sqrt15). Their complete 229376-direction point covectors, independent
+  Spin-grade-two connection equations, 91 primitive returns and intrinsic
+  metric rows vanish, while their reduced four-variable Hessians have
+  determinant 540225. Execute CBRS-1L: derive the complete all-grade T/T plus
+  independent Spin-connection Hessian under the broken split symmetry,
+  compute the pointwise orbit/stabilizer and primitive quotient, and evaluate
+  a first symbol only for a surviving kernel. Do not transfer CBRS-1J's full
+  diagonal-Spin rank theorem without rebuilding its intertwiners. CBRS-1J
+  proves that both
   CBRS-1I zero-density metric-stationary points have complete coupled Hessian
   rank 230650 and nullity zero on all real T plus independent Spin-grade-two
   connection directions. Their coefficient-only pointwise Spin orbit has rank
