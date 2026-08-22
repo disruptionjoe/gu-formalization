@@ -7,6 +7,25 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1S CLOSES THE MINIMAL COVARIANT ONE-SCALAR FIRST-
+> JET OWNER.** The target-blind Lorentzian action adds
+> `(1/2)g^{-1}(dphi,dphi)` to the CBRS-1R `phi^2 Q2` coupling and unit double
+> well. Every J4 body has a real pointwise formal two-jet at `phi=1`, nonzero
+> timelike `dphi` and `box(phi)=6I0`. The complete `230,651`-fiber Hessian
+> symbol has scalar Schur term `g^{-1}(xi,xi)+30I0+2`: at zero covector every
+> branch has rank `230,611`, nullity `40` and exactly the inherited broken
+> diagonal-Spin gauge kernel; a real Lorentzian scalar characteristic raises
+> nullity to `41`. That extra direction is scalar, not gauge. Full intrinsic
+> `MET(X)` variation closes the class: with inherited J4 graph momentum zero,
+> `p tensor p-(p^2/4)g` is nonzero for every nonzero four-dimensional
+> covector, so isotropic density and potential terms cannot cancel its
+> trace-free stress. **Continue with CBRS-1T: freeze
+> the smallest target-blind isotropizing even derivative owner before reading
+> a J4 density, deciding the top-form/flux versus internally indefinite
+> coframe-like fork structurally.** Do not tune a flux, internal frame,
+> potential coefficient or sector to a branch, and do not advance to CBRS-2.
+> See `explorations/conditional-build/selected-k77-cbrs1s-scalar-first-jet-metric-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1R CLOSES THE MINIMAL POSITIVE ULTRALOCAL EVEN-
 > CONDENSATE OWNER.** The target-blind action
 > `S_R(T,phi)=C3(T)+phi^2 Q2(T)+(phi^2-1)^2/4` promotes the selected first

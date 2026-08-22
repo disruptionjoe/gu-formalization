@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1S_SINGLE_SCALAR_FIRST_JET_HAS_REAL_FORMAL_BODIES_AND_A_SCALAR_CHARACTERISTIC_BUT_FAILS_FULL_METX_BY_TRACEFREE_STRESS",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1S",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_FREEZES_THE_COVARIANT_EVEN_SCALAR_FIRST_JET_OWNER_AND_DERIVES_THE_OBSTRUCTION__SOURCE_SILENT_ON_THE_SCALAR_AND_CLASS",
+  "frozen_action": {
+    "formula": "C3(T)+phi^2*Q2(T)+(1/2)g_inverse(dphi,dphi)+(phi^2-1)^2/4",
+    "C3_owner": "SELECTED_FIRST_ACTION_CUBIC_PART",
+    "Q2_owner": "SELECTED_FIRST_ACTION_QUADRATIC_PART",
+    "phi": "REAL_GRASSMANN_EVEN_BASE_SCALAR_FIELD",
+    "derivative_owner": "LORENTZIAN_BASE_COVARIANT_SCALAR_KINETIC_TERM",
+    "potential": "UNIT_SYMMETRIC_DOUBLE_WELL",
+    "target_blind": true,
+    "fitted_coefficients": false
+  },
+  "formal_body_stationarity": {
+    "frozen_point_jet": "phi=1__p=dphi_NONZERO_TIMELIKE_WITH_p_squared=-1",
+    "field_body": "T=T0_ON_EACH_OF_THE_FOUR_CBRS1P_J4_BRANCHES",
+    "scalar_euler_completion": "box(phi)=6I0",
+    "normal_j4_box_phi_approx": 0.19889513111291912,
+    "base_j4_box_phi_approx": -1.06228271656038,
+    "real_j4_formal_two_jets": 4,
+    "global_solution_claim": false
+  },
+  "complete_tangent_symbol": {
+    "fiber_dimension": 230651,
+    "inherited_T_connection_dimension": 230650,
+    "scalar_schur_symbol": "g_inverse(xi,xi)+30I0+2",
+    "normal_j4_zero_covector_schur_approx": 2.9944756555645955,
+    "base_j4_zero_covector_schur_approx": -3.311413582801901,
+    "zero_covector_rank_per_branch": 230611,
+    "zero_covector_nullity_per_branch": 40,
+    "zero_covector_kernel": "EXACTLY_THE_40_DIMENSIONAL_BROKEN_DIAGONAL_SPIN_ORBIT",
+    "real_scalar_characteristic_exists_per_branch": true,
+    "characteristic_nullity_per_branch": 41,
+    "characteristic_extra_direction": "SCALAR_NOT_GAUGE"
+  },
+  "metric_variation": {
+    "tracefree_gradient_stress": "p_tensor_p-(p_squared/4)g",
+    "rank_argument": "NONZERO_FOR_EVERY_NONZERO_COVECTOR_IN_DIMENSION_4",
+    "inherited_graph_visible_connection_momentum": 0,
+    "density_and_potential_affect_only_trace": true,
+    "full_metric_stationary_nonzero_gradient_bodies": 0,
+    "scope": "ONE_NEW_SCALAR_GRADIENT_OVER_THE_INHERITED_ZERO_GRAPH_MOMENTUM_J4_BODY"
+  },
+  "contrary_controls": {
+    "field_only_formal_jet": "FALSE_FULL_BACKGROUND_PASS",
+    "trace_only_metric_check": "MISSES_TRACEFREE_GRADIENT_STRESS",
+    "zero_gradient": "COLLAPSES_DERIVATIVE_REOPENER_TO_ULTRALOCAL_CLASS",
+    "box_phi_adjustment": "CLOSES_SCALAR_EULER_ONLY__CANNOT_CHANGE_FIRST_JET_STRESS",
+    "euclidean_base": "WRONG_REAL_FORM_FOR_THE_FROZEN_OWNER"
+  },
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_FORMAL_JET_AND_COMPLETE_SYMBOL_OBSTRUCTION__NO_SOURCE_SCALAR_GLOBAL_VACUUM_OR_SPECTRUM",
+  "next_gate": "CBRS1T_FREEZE_THE_SMALLEST_TARGET_BLIND_ISOTROPIZING_EVEN_DERIVATIVE_OWNER_BEFORE_SOLVING_AND_DO_NOT_SELECT_ITS_FLUX_OR_INTERNAL_FRAME_FROM_A_J4_DENSITY",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1s-scalar-first-jet-metric-obstruction-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1s_scalar_first_jet_metric_obstruction_probe.py",
+  "probe_result": "PASS_53_OF_53"
+}

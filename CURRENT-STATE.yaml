@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 07a93a1c44274b9bd0453a014245d5ca275c129d
+revision_basis: 262481c65928311fce6e8c871918a0dea8ae7701
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1S closes the minimal covariant one-scalar first-jet owner on the four
+    J4 bodies. The target-blind Lorentzian action adds
+    (1/2)g^{-1}(dphi,dphi) to the CBRS-1R phi-squared quadratic coupling and
+    unit double well. Every J4 body has a real pointwise formal two-jet at
+    phi=1, nonzero timelike dphi and box(phi)=6I0. The complete 230651-fiber
+    Hessian symbol has scalar Schur term g^{-1}(xi,xi)+30I0+2: at zero
+    covector every branch has rank 230611, nullity 40 and exactly the inherited
+    broken diagonal-Spin gauge kernel, while a real Lorentzian scalar
+    characteristic raises nullity to 41. The extra direction is a scalar
+    characteristic, not gauge. Full intrinsic MET(X) variation kills every
+    nonzero-gradient body before a global solve: with inherited J4 graph
+    momentum zero, the trace-free tensor p tensor p-(p^2/4)g is nonzero for
+    every nonzero four-dimensional covector, and the isotropic action density
+    and potential cannot cancel it.
+    CBRS-1T must freeze the smallest target-blind isotropizing even derivative
+    owner before reading a J4 density; do not tune a flux, internal frame,
+    potential coefficient or sector to a branch, and do not advance to
+    CBRS-2. No global solution, ledger, canon, source-ownership or public-
+    posture conclusion follows.
     CBRS-1R closes the minimal positive ultralocal even-condensate owner on the
     four J4 rays. The target-blind action
     S_R(T,phi)=C3(T)+phi^2 Q2(T)+(phi^2-1)^2/4 promotes the selected first
@@ -2425,7 +2444,19 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1R proves that the
+  returning to old hardening or the B5 comparator. CBRS-1S proves that the
+  minimal target-blind covariant one-scalar derivative owner has four real
+  pointwise formal J4 two-jets and a genuine scalar characteristic, but every
+  nonzero gradient has nonvanishing trace-free Hilbert stress. Its complete
+  zero-covector 230651-fiber tangent retains exactly the 40-dimensional
+  diagonal gauge kernel; the characteristic nullity 41 adds a scalar mode,
+  not a metric-stationary background. Execute CBRS-1T by freezing the smallest
+  target-blind isotropizing even derivative owner before solving it. Decide
+  the top-form/flux versus internally indefinite coframe-like route
+  structurally before reading any J4 density, and require real body
+  stationarity, complete gauge quotient and full MET(X) variation. Do not tune
+  a continuous flux, internal frame, potential coefficient or sector
+  separately to a J4 branch, and do not advance to CBRS-2. CBRS-1R proves that the
   minimal target-blind positive ultralocal even-condensate owner produces four
   real body-stationary normal-J4 saddles and no real base-J4 saddle, but every
   real complete 230651-dimensional tangent retains exactly the 40-dimensional
