@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fabd9ba21400c8a3856302f09328b38e3fe5b588
+revision_basis: a39cd89f08482edaf5333edfa2e23090d2749e64
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,23 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    CBRS-1F has now extended the complete real grade-two connection/T block
-    through all 5,096 real-form grade-three T directions, represented by i
-    times B-self grade-three blades. The B2/iT3 and T2/iT3 Hessian blocks vanish
-    entry by entry, but the iT3 block is not coordinate-diagonal: it has 24,024
-    off-diagonal nonzero entries and six diagonal classes. Its exact symmetric
-    5,096 by 5,096 matrix has rank 5,096 and nullity zero. Together with the
-    retained rank-2,548 grade-two block, the full restricted B2+T2+iT3 carrier
-    has dimension and rank 7,644 with nullity zero. A Spin gauge jet still
-    moves the grade-one background T in Clifford grade one and is outside this
-    restricted carrier. No field kernel or primitive-epsilon quotient class
-    survives. The unique zero jet has zero graph return, leaving the inherited
-    nonzero four-cell MET(X) trace. This is a complete B2+T2+iT3 restricted
-    result, not an all-grade first-jet or full Clifford Hessian theorem.
-    CBRS-1 remains active at CBRS-1G: rebuild the remaining real-form first-jet
-    grade frontier by whole-grade selection rules, identify the next complete
-    carrier including any required grade-one gauge tangent, and admit a second
-    jet only after that carrier decision.
+    CBRS-1G has now closed the complete all-grade first-jet carrier at intrinsic
+    metric stationarity without claiming a full all-grade Hessian rank. Exact
+    residual-symmetry orbit census over all 229,376 real-form T directions
+    proves that the T/T Hessian is Clifford-grade diagonal from grade zero
+    through fourteen. All 1,274 Spin-grade-two connection directions couple
+    only to T grade two. CBRS-1E's complete B2+T2 block is nondegenerate, so
+    every all-grade first-jet field kernel has zero grade-two momentum and zero
+    fixed-varpi Levi-Civita graph return. The moving-Shiab primitive-epsilon
+    base return also remains zero. The inherited nonzero four-cell MET(X) trace
+    therefore kills every all-grade first jet. The five smallest untouched
+    complete T blocks were certified: grades 0,12,13,14 are nondegenerate, while
+    grade one has rank 183 and a 13-dimensional kernel spanned by
+    e^0 gamma_j+eta_j e^j gamma_0. That kernel meets the rank-91 pointwise Spin
+    orbit trivially, so it is a genuine nongauge field survivor that is killed
+    only at the metric equation. This is an exact all-grade first-jet metric
+    obstruction, not a full rank, second-jet, stabilizer or spectrum theorem.
+    CBRS-1 remains active at CBRS-1H: construct the smallest complete second-jet
+    carrier capable of a nonzero grade-two momentum derivative and solve the
+    field, primitive-epsilon and intrinsic metric equations together.
     No ledger verdict, source ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
     CONDITIONAL-BUILD-REVERSE-SCAFFOLD as the active Lane-1 research lead. Work
@@ -2284,13 +2286,12 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. Execute CBRS-1G: use exact
-  whole-grade Clifford, real-form, variational and gauge selection rules to
-  rebuild the remaining first-jet grade frontier after the complete B2+T2+iT3
-  restricted carrier proved nondegenerate. Identify the cheapest next complete
-  carrier, including whether the grade-one principal gauge tangent must enter
-  with it, and decide its field kernel, primitive-epsilon restriction and
-  intrinsic metric source-graph image before allowing second jets. Only a
+  returning to old hardening or the B5 comparator. Execute CBRS-1H: construct
+  the smallest complete second-jet carrier whose differentiated field momentum
+  can enter the grade-two fixed-varpi Levi-Civita graph after CBRS-1G proved
+  that every all-grade first jet is graph-invisible. Solve the complete field,
+  primitive-epsilon and intrinsic metric equations on that carrier before
+  allowing stabilizer or spectrum work. Only a
   fully metric-stationary branch
   may advance to the full Hessian, global stabilizer, mu6 descent, J/Higgs
   selection, photon kernel, extra-U1 mass direction and first gravitational

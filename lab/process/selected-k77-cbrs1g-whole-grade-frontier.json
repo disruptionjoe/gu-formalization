@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1G_ALL_GRADE_FIRST_JET_METRIC_OBSTRUCTION__SECOND_JET_MOMENTUM_GRAPH_GATE_LIVE",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1G",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_MOVING_SHIAB_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPO_DERIVES_THE_WHOLE_GRADE_FIRST_JET_SELECTION_AND_METRIC_OBSTRUCTION__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_carrier": {
+    "point": {"a": "-13/96", "b": "1/48"},
+    "t_directions": 229376,
+    "t_residual_symmetry_orbits": 500,
+    "connection_grade2_directions": 1274,
+    "connection_residual_symmetry_orbits": 21,
+    "target_blind": true,
+    "second_jet": false
+  },
+  "whole_grade_selection": {
+    "t_hessian": "CLIFFORD_GRADE_DIAGONAL_FOR_GRADES_0_THROUGH_14",
+    "connection_grade2_to_t_nonzero_grades": [2],
+    "real_form": "REAL_B_SKEW_GRADES_PLUS_I_TIMES_B_SELF_GRADES",
+    "consequence": "THE_COMPLETE_NONDEGENERATE_B2_PLUS_T2_BLOCK_IS_THE_ONLY_FIRST_JET_CHANNEL_INTO_THE_FIXED_VARPI_LEVI_CIVITA_GRAPH"
+  },
+  "complete_t_blocks": {
+    "0": {"dimension": 14, "rank": 14, "nullity": 0, "nonzero_entries": 14},
+    "1": {"dimension": 196, "rank": 183, "nullity": 13, "nonzero_entries": 560},
+    "12": {"dimension": 1274, "rank": 1274, "nullity": 0, "nonzero_entries": 5642},
+    "13": {"dimension": 196, "rank": 196, "nullity": 0, "nonzero_entries": 560},
+    "14": {"dimension": 14, "rank": 14, "nullity": 0, "nonzero_entries": 14}
+  },
+  "grade1_kernel": {
+    "dimension": 13,
+    "basis": "e^0 tensor gamma_j + eta_j e^j tensor gamma_0 for j=1..13",
+    "pointwise_spin_orbit_rank": 91,
+    "spin_orbit_intersection_dimension": 0,
+    "classification": "NONGAUGE_FIELD_KERNEL_AT_THIS_RESTRICTED_FIRST_JET_GRADE"
+  },
+  "primitive_epsilon": {
+    "moving_shiab_base_support": 0,
+    "all_grade_first_jet_kernel_return": "ZERO_BY_GRADE_SELECTION_AND_NONDEGENERATE_B2_PLUS_T2_BLOCK"
+  },
+  "heldout_metric": {
+    "action_density": "221/55296",
+    "source_graph_adjoint": "ZERO_ON_EVERY_ALL_GRADE_FIRST_JET_FIELD_KERNEL",
+    "normalized_metric_row": ["-221/27648", "0", "0", "0", "221/27648", "0", "0", "221/27648", "0", "221/27648"],
+    "stationary": false,
+    "disposition": "ALL_GRADE_FIRST_JET_BRANCH_KILLED_AT_INTRINSIC_METRIC_STATIONARITY"
+  },
+  "claim_ceiling": "EXACT_ALL_GRADE_FIRST_JET_METRIC_OBSTRUCTION__NOT_A_FULL_ALL_GRADE_HESSIAN_RANK_OR_SECOND_JET_THEOREM",
+  "next_gate": "CBRS1H_CONSTRUCT_THE_SMALLEST_COMPLETE_SECOND_JET_CARRIER_CAPABLE_OF_NONZERO_GRADE2_MOMENTUM_DERIVATIVE_AND_SOLVE_FIELD_EPSILON_METRIC_EQUATIONS_TOGETHER",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1g-whole-grade-frontier-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1g_whole_grade_frontier_probe.py",
+  "probe_result": "PASS_47_OF_47"
+}

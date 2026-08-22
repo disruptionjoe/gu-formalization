@@ -7,18 +7,20 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
-> **2026-08-21 CBRS-1F COMPLETE REAL `B2 + T2 + iT3` FIRST-JET CARRIER IS
-> RIGID AND METRIC-KILLED.** The two cross-grade Hessian blocks vanish exactly.
-> The pure `iT3` block nevertheless has 24,024 off-diagonal entries, six
-> diagonal classes, rank `5,096`, and nullity zero. With CBRS-1E's retained
-> rank-`2,548` block, the complete restricted carrier has dimension and rank
-> `7,644`. No field or primitive-epsilon kernel survives; the zero graph return
-> leaves the inherited nonzero metric trace. This is not an all-grade Hessian.
-> **Continue with CBRS-1G: derive whole-grade selection rules, rebuild the
-> remaining real-form first-jet frontier, and identify the next complete
-> carrier—including any required grade-one gauge tangent—before any second
-> jet, stabilizer, or spectrum work.** See
-> `explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md`.
+> **2026-08-21 CBRS-1G COMPLETE ALL-GRADE FIRST-JET CARRIER IS
+> METRIC-OBSTRUCTED.** Exact residual-symmetry census over all 229,376 real-form
+> `T` directions proves that `T/T` Hessian support is Clifford-grade diagonal;
+> the 1,274 Spin connection directions couple only to `T2`. The complete
+> `B2+T2` block is nondegenerate, so every all-grade field kernel has zero
+> grade-two momentum, primitive-epsilon return and fixed-`varpi` metric-graph
+> return. The nonzero intrinsic metric trace kills all first jets. This does
+> not claim ranks for grades 4 through 11: grade one supplies a real hostile
+> survivor, with rank `183`, nullity `13`, and zero intersection with the
+> rank-`91` Spin orbit. Grades 0,12,13,14 are nondegenerate. **Continue with
+> CBRS-1H: construct the smallest complete second-jet carrier capable of a
+> nonzero grade-two momentum derivative and solve field, primitive-epsilon and
+> metric equations together before stabilizer or spectrum work.** See
+> `explorations/conditional-build/selected-k77-cbrs1g-whole-grade-frontier-2026-08-21.md`.
 
 > **2026-08-21 CBRS-1B/C1 ONE-AXIS FIRST-JET MODULES THROUGH TRANSVERSE
 > GRADES ZERO AND ONE ARE RIGID AND METRIC-KILLED.**
@@ -45,7 +47,8 @@ updated_at: "2026-08-21"
 > spacetime-inhomogeneous solution, so do not compute or interpret its
 > Hessian, stabilizer or spectrum as a vacuum. Its named first-jet successor
 > is now closed through representative transverse grades zero and one by the
-> block above and through the complete B2+T2+iT3 carrier by CBRS-1F. No
+> block above and through the complete all-grade first-jet metric obstruction
+> by CBRS-1G. No
 > ledger verdict or source-ownership state changes.
 > See
 > `explorations/conditional-build/selected-k77-cbrs1-minimal-anisotropic-action-class-2026-08-21.md`.
