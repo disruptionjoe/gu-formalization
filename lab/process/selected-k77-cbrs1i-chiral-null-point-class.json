@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1I_TWO_NONZERO_CHIRAL_NULL_POINT_CLASSES_PASS_COMPLETE_POINT_FIELD_PRIMITIVE_AND_INTRINSIC_METRIC_STATIONARITY",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1I",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_CHIRAL_NULL_POINT_CLASS__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_class": {
+    "formula": "T_i=a*gamma_i+b*gamma_i*Omega",
+    "real_clifford_grades": [1, 13],
+    "volume_square": 1,
+    "target_blind": true,
+    "reduced_action": "7*(a-b)*(a+b)*(208*a+1)",
+    "quadratic_pairing": "7*(a-b)*(a+b)",
+    "critical_points": [
+      {"a": "0", "b": "0", "density": "0"},
+      {"a": "-1/312", "b": "0", "density": "7/292032"},
+      {"a": "-1/208", "b": "-1/208", "density": "0"},
+      {"a": "-1/208", "b": "1/208", "density": "0"}
+    ]
+  },
+  "branches": {
+    "minus": {
+      "point": {"a": "-1/208", "b": "-1/208"},
+      "translation_directions": 229376,
+      "translation_support": 0,
+      "momentum_support": 28,
+      "momentum_grades": [1, 13],
+      "spin_grade_two_support": 0,
+      "moving_shiab_support_across_91_generators": 0,
+      "action_density": "0",
+      "intrinsic_metric_row": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+      "reduced_hessian": [["-28", "14"], ["14", "0"]],
+      "reduced_hessian_determinant": "-196"
+    },
+    "plus": {
+      "point": {"a": "-1/208", "b": "1/208"},
+      "translation_directions": 229376,
+      "translation_support": 0,
+      "momentum_support": 28,
+      "momentum_grades": [1, 13],
+      "spin_grade_two_support": 0,
+      "moving_shiab_support_across_91_generators": 0,
+      "action_density": "0",
+      "intrinsic_metric_row": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+      "reduced_hessian": [["-28", "-14"], ["-14", "0"]],
+      "reduced_hessian_determinant": "-196"
+    }
+  },
+  "point_class_status": "COMPLETE_POINT_TRANSLATION_SPIN_CONNECTION_PRIMITIVE_EPSILON_AND_INTRINSIC_METRIC_STATIONARITY_PASS",
+  "global_vacuum_status": "OPEN__CONSTANT_POINTWISE_RECONSTRUCTION_IS_NOT_SPACETIME_NONHOMOGENEOUS_OR_GLOBAL",
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_METRIC_STATIONARY_CLASS_OF_THE_SELECTED_FIRST_ACTION__NOT_SOURCE_OWNED_GLOBAL_OBSERVED_OR_PHYSICAL_VACUUM",
+  "next_gate": "CBRS1J_COMPLETE_GRADE_COMPLEMENTARY_T_AND_SPIN_CONNECTION_HESSIAN__POINTWISE_SPIN_ORBIT_STABILIZER__PRIMITIVE_QUOTIENT__THEN_FIRST_SYMBOL",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1i-chiral-null-point-class-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1i_chiral_null_point_class_probe.py",
+  "probe_result": "PASS_47_OF_47"
+}

@@ -7,6 +7,24 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
+> **2026-08-21 CBRS-1I FINDS TWO NONZERO ZERO-DENSITY POINT CLASSES THAT PASS
+> THE COMPLETE POINT FIELD, PRIMITIVE, AND INTRINSIC METRIC EQUATIONS.** With
+> `Omega` the real `Cl(7,7)` volume involution, the smallest Spin-equivariant
+> dual-vector class `T_i=a gamma_i+b gamma_i Omega` has exact action
+> `7(a-b)(a+b)(208a+1)`. Its new critical points are
+> `(-1/208,plus-or-minus 1/208)`; both have zero density. For each sign the
+> complete `14 x 16,384` translation covector vanishes, all `91` moving-Shiab
+> primitive returns vanish, and the residual comparator momentum lives only
+> in Clifford grades one and thirteen, hence restricts to zero on the actual
+> Spin-grade-two connection owner and Levi-Civita metric graph. The intrinsic
+> ten-cell metric row is therefore zero with no fitted trace term. Both reduced
+> Hessians have determinant `-196`. These are exact pointwise reconstruction-
+> grade stationary classes, not spacetime-nonhomogeneous global or source-owned
+> physical vacua. **Continue with CBRS-1J: construct the complete complementary-
+> grade `T` plus Spin-connection Hessian, pointwise Spin orbit/stabilizer, and
+> primitive quotient at both signs before spectrum.** See
+> `explorations/conditional-build/selected-k77-cbrs1i-chiral-null-point-class-2026-08-21.md`.
+
 > **2026-08-21 CBRS-1H CLOSES THE FROZEN ANISOTROPIC POINT/ACTION CLASS FOR
 > EVERY COMPATIBLE FORMAL JET.** The fixed-`varpi` Levi-Civita graph lands in
 > the Spin-grade-two owner, where `p_2=E_B,2-E_T,2`. Every formal prolongation
