@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d34d200a50161a6ffdb665154a1001abf04ea8da
+revision_basis: b0be997eef7e64a2a51f09097acc5cd65159db62
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1Y freezes the smallest nonhomothetic sigma-model deformation before
+    reading a J4 density: one smooth O(1,3)-equivariant radial warp h(rho) of
+    the opposite-signature mirror kinetic form, normalized by h(1)=1, with the
+    CBRS-1X carrier, R=2/3, s^-2 weight and unit potential unchanged. Writing
+    q=1-(2/3)h and U=J rho+(rho-1)^2/4, the full metric row gives
+    g=-(q/U)eta. The independent Phi and Psi equations reduce exactly to
+    q'U(1-2q)=q(J+V')-q^2(3J+V'); the Psi row is then an identity, while the
+    T, connection and primitive rows remain closed. Unit normalization forces
+    q'(1)=0 and q''(1)=1/(3J), equivalently h''(1)=-1/(2J), where
+    J=(9/4)I_base. A density-fitted analytic local metric therefore exists,
+    but the first nonconstant sigma coefficient encodes the selected J4
+    density and is not a target-blind owner. Constant cross mixing also fails:
+    its single kinetic factor must equal both 1 and 3. CBRS-1Z must decide a
+    two-function equivariant sigma metric with an independently fixed
+    pre-density invariant versus a directly typed odd-Clifford primitive
+    owner. This is not a no-go for either larger class and yields no
+    local/global vacuum, spectrum, ledger, canon, source-ownership or
+    public-posture conclusion.
     CBRS-1X selects the rank-minimal internally indefinite mirror multiplet
     before reading a J4 density. Four real first jets are necessary for
     nonzero rank-four isotropic stress; a typed odd-Clifford owner would begin
@@ -2542,7 +2560,17 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1X freezes the
+  returning to old hardening or the B5 comparator. CBRS-1Y rules out the
+  smallest one-function radial sigma metric as a target-blind owner: its
+  complete local Euler ODE fixes h''(1)=-1/(2J), so the unique local rescue
+  encodes the selected base-J4 density. Execute CBRS-1Z by structurally
+  deciding the smallest target-blind two-function equivariant sigma metric
+  versus a directly typed odd-Clifford primitive owner. Admit a second sigma
+  function only with an independent pre-density invariant; otherwise freeze
+  the odd owner's real pairing, action coefficient, grading and Hilbert-stress
+  map before solving. Do not fit a potential, multiplier, frame, boundary or
+  sector, and do not compute a spectrum or advance to CBRS-2 before an actual
+  local solution. CBRS-1X freezes the
   rank-minimal opposite-signature four-real-field mirror multiplet and proves
   exact primitive plus complete unit-body stationarity at R=2/3, but the
   inherited unit-orbit potential obstructs the first open local homothetic

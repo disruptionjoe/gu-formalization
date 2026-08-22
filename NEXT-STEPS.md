@@ -7,6 +7,22 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1Y RULES OUT THE SMALLEST ONE-FUNCTION RADIAL SIGMA
+> COMPLETION AS A TARGET-BLIND OWNER.** Preserve the CBRS-1X carrier, `R=2/3`,
+> `s^-2` primitive weight and unit potential, and warp only the mirror kinetic
+> form by one smooth `h(rho)` with `h(1)=1`. With
+> `q=1-(2/3)h`, the full intrinsic metric and both multiplet equations reduce
+> to `q'U(1-2q)=q(J+V')-q^2(3J+V')`. Unit closure uniquely fixes
+> `q'(1)=0`, `q''(1)=1/(3J)`, or `h''(1)=-1/(2J)`. The corresponding analytic
+> local metric is a genuine positive control, but it reads
+> `J=(9/4)I_base`; it is density-fitted rather than target-blind. Constant
+> cross mixing also cannot help. **Continue with CBRS-1Z: structurally decide
+> a two-function equivariant sigma metric with an independently fixed
+> pre-density invariant versus a directly typed odd-Clifford primitive owner,
+> freezing the real pairing, action coefficient, grading and Hilbert-stress
+> map before solving.** See
+> `explorations/conditional-build/selected-k77-cbrs1y-radial-sigma-metric-target-blindness-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1X OPENS AND CLOSES THE RANK-MINIMAL HOMOTHETIC
 > INDEFINITE MIRROR MULTIPLET.** Four real first jets are the minimum for a
 > nonzero rank-four isotropic stress, so the selected target-blind owner adds

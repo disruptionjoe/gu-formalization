@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1Y_SMALLEST_ONE_FUNCTION_RADIAL_SIGMA_METRIC_CLOSES_ONLY_WITH_A_J4_DENSITY_KEYED_SECOND_JET_AND_IS_NOT_TARGET_BLIND",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1Y",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_ONE_FUNCTION_RADIAL_SIGMA_METRIC_TARGET_BLINDNESS_OBSTRUCTION__SOURCE_SILENT_ON_THE_SIGMA_CLASS_AND_OBSTRUCTION",
+  "frozen_class": {
+    "action": "s^-2*(C3(T)+rho*Q2(T))+(1/2)*g_inverse_eta(dPhi,dPhi)+(rho-1)^2/4+(1/2)*h(rho)*g_inverse_kappa(dPsi,dPsi)",
+    "coframe_multiplet": "four_real_Grassmann_even_Phi_with_eta=(-,+,+,+)",
+    "mirror_multiplet": "four_real_Grassmann_even_Psi_with_kappa=-eta_and_R=2/3",
+    "radial_sigma_warp": "one_smooth_real_h(rho)_with_h(1)=1",
+    "total_pullback_coefficient": "q(rho)=1-(2/3)*h(rho)",
+    "action_weight": "s^-2",
+    "potential": "(rho-1)^2/4_inherited_unchanged",
+    "target_blind_requirement": "h_is_frozen_before_I_base_is_read",
+    "excluded_extensions": [
+      "cross_warp",
+      "second_sigma_function",
+      "multiplier",
+      "changed_potential",
+      "branch_selected_frame_boundary_or_sector"
+    ]
+  },
+  "complete_euler_reduction": {
+    "effective_density": "J=(9/4)*I_base",
+    "primitive_momentum": "(9/4)*M0",
+    "primitive_divergence": "ZERO_ON_THE_R=2/3_MIRROR_RAY",
+    "intrinsic_metric": "g=-(q/U)*eta",
+    "U": "J*rho+(rho-1)^2/4",
+    "coordinate_box": "C=2*(q*U_prime-q_prime*U)/q^2",
+    "radial_warp_ode": "q_prime*U*(1-2*q)=q*(J+V_prime)-q^2*(3*J+V_prime)",
+    "psi_row_after_ode": "IDENTICALLY_ZERO",
+    "all_owners_retained": "T_CONNECTION_PRIMITIVE_PHI_PSI_AND_TEN_INTRINSIC_METX_ROWS"
+  },
+  "target_blindness": {
+    "unit_normalization": "q(1)=1/3",
+    "first_derivative": "q_prime(1)=0",
+    "second_derivative": "q_double_prime(1)=1/(3*J)",
+    "third_derivative": "q_triple_prime(1)=-5/(3*J)",
+    "mirror_second_derivative": "h_double_prime(1)=-1/(2*J)",
+    "two_density_universality": false,
+    "density_fitted_local_solution_exists": true,
+    "target_blind_one_function_owner_selected": false,
+    "reopen_condition": "AN_INDEPENDENT_PRE_DENSITY_PRINCIPLE_FIXES_THE_REQUIRED_WARP_JET"
+  },
+  "constant_cross_control": {
+    "verdict": "NO_CONSTANT_CROSS_COEFFICIENT_CLOSES_THE_NONCONSTANT_UNIT_POTENTIAL",
+    "reason": "THE_SAME_KINETIC_FACTOR_MUST_EQUAL_ONE_FROM_THE_V_PRIME_COEFFICIENT_AND_THREE_FROM_THE_J_COEFFICIENT"
+  },
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_OBSTRUCTION_TO_THE_SMALLEST_TARGET_BLIND_ONE_FUNCTION_RADIAL_SIGMA_METRIC_COMPLETION__NO_NO_GO_FOR_TWO_FUNCTION_SIGMA_METRICS_TYPED_ODD_CLIFFORD_OWNERS_OR_INDEPENDENTLY_MOTIVATED_COINCIDENT_WARPS__NO_SOURCE_FIELD_LOCAL_OR_GLOBAL_VACUUM_OR_SPECTRUM",
+  "probe": "tests/channel-swings/selected_k77_cbrs1y_radial_sigma_metric_target_blindness_obstruction_probe.py",
+  "probe_result": "PASS_56_OF_56",
+  "next_gate": "CBRS1Z_STRUCTURALLY_DECIDE_THE_SMALLEST_TARGET_BLIND_TWO_FUNCTION_EQUIVARIANT_SIGMA_METRIC_VERSUS_A_DIRECTLY_TYPED_ODD_CLIFFORD_PRIMITIVE_OWNER_WITH_REAL_PAIRING_ACTION_COEFFICIENT_GRADING_AND_HILBERT_STRESS_FIXED_BEFORE_SOLVING",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
