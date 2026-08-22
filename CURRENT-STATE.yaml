@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 70a30bb15179a071cb9ba29c511fea2f1523a1c4
+revision_basis: a3b76711cc381f4abbad5fb5ca50c4a4a59f6c31
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1L closes all four CBRS-1K signature-split points at the complete
+    pointwise tangent quotient. Rebuilding the selected-action Hessian under
+    the actual SO(7)-plus times SO(7)-minus residual symmetry gives 40 product-
+    irrep families covering all 229376 real T and 1274 independent Spin-grade-
+    two connection directions. At every signature polarity and volume sign,
+    the 230650-dimensional Hessian has rank 230601 and nullity 49. The unique
+    singular multiplicity axis is one 49-dimensional E1-plus tensor E1-minus
+    copy, exactly the broken diagonal-Spin orbit: the residual stabilizer has
+    dimension 42 and the orbit has dimension 91-42=49. The coefficient-only
+    Spin orbit still has rank 91 and stabilizer zero but is not the Hessian
+    kernel. The complete field kernel is the diagonal gauge orbit, so the
+    primitive quotient and first-symbol domain are zero. These exact constant
+    reconstructions do not advance to a global stabilizer or spectrum. CBRS-1M
+    must freeze a materially distinct target-blind action-owned zero-density
+    or nonfactorizing metric class with a possible non-orbit tangent. No
+    ledger verdict, canon, source ownership or public posture changes.
     CBRS-1K admits four genuinely new K77-signature-split point classes to the
     complete tangent gate. With independent vector/volume-dual coefficients
     on the frozen ETA-coordinate positive and negative seven-planes, the exact four-variable action
@@ -2302,16 +2318,15 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1K admits four new
-  K77-signature-split zero-density metric-stationary point classes over
-  Q(sqrt15). Their complete 229376-direction point covectors, independent
-  Spin-grade-two connection equations, 91 primitive returns and intrinsic
-  metric rows vanish, while their reduced four-variable Hessians have
-  determinant 540225. Execute CBRS-1L: derive the complete all-grade T/T plus
-  independent Spin-connection Hessian under the broken split symmetry,
-  compute the pointwise orbit/stabilizer and primitive quotient, and evaluate
-  a first symbol only for a surviving kernel. Do not transfer CBRS-1J's full
-  diagonal-Spin rank theorem without rebuilding its intertwiners. CBRS-1J
+  returning to old hardening or the B5 comparator. CBRS-1L proves that all
+  four CBRS-1K zero-density metric-stationary points have complete T plus
+  independent Spin-connection Hessian rank 230601 and nullity 49 on 230650
+  directions. The nullity is exactly the broken diagonal-Spin orbit: residual
+  stabilizer dimension 42, orbit dimension 49, primitive quotient zero and
+  first-symbol domain zero. Do not advance the closed constant class to
+  global stabilizer or spectrum. Execute CBRS-1M: freeze a materially distinct
+  target-blind action-owned zero-density or nonfactorizing metric class whose
+  complete tangent can contain a non-orbit direction. CBRS-1J
   proves that both
   CBRS-1I zero-density metric-stationary points have complete coupled Hessian
   rank 230650 and nullity zero on all real T plus independent Spin-grade-two

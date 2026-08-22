@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1L_ALL_FOUR_SIGNATURE_SPLIT_POINTS_ARE_POINTWISE_GAUGE_RIGID_AFTER_COMPLETE_T_PLUS_INDEPENDENT_SPIN_CONNECTION_HESSIAN",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1L",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_SPLIT_SYMMETRY_TANGENT_AND_GAUGE_QUOTIENT__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_class": {
+    "predecessor": "CBRS-1K",
+    "branches": 4,
+    "coefficient_field": "Q(sqrt(15))",
+    "eta_plus_slots": [0, 4, 5, 6, 7, 8, 9],
+    "eta_minus_slots": [1, 2, 3, 10, 11, 12, 13],
+    "residual_group": "SO(7)_ETA_PLUS_x_SO(7)_ETA_MINUS",
+    "canonicity": "FROZEN_REPOSITORY_COORDINATE_POLARIZATION__NOT_A_CANONICAL_SPIN77_INVARIANT_SPLIT"
+  },
+  "complete_hessian": {
+    "t_dimension": 229376,
+    "independent_connection_dimension": 1274,
+    "dimension_per_branch": 230650,
+    "rank_per_branch": 230601,
+    "nullity_per_branch": 49,
+    "residual_product_irrep_family_count": 40,
+    "singular_family": "E1_ETA_PLUS_tensor_E1_ETA_MINUS",
+    "singular_family_representation_dimension": 49,
+    "singular_family_multiplicity": 16,
+    "singular_family_multiplicity_rank": 15,
+    "all_other_multiplicity_blocks_full_rank": true
+  },
+  "orbit_stabilizer": {
+    "spin_algebra_dimension": 91,
+    "coefficient_only_orbit_rank": 91,
+    "coefficient_only_stabilizer_dimension": 0,
+    "residual_diagonal_stabilizer_dimension": 42,
+    "broken_diagonal_orbit_dimension": 49,
+    "complete_kernel_equals_broken_diagonal_orbit": true
+  },
+  "primitive_symbol": {
+    "moving_shiab_base_return_support_per_branch": 0,
+    "primitive_admissible_kernel_dimension_per_branch": 49,
+    "primitive_quotient_dimension_per_branch": 0,
+    "first_symbol_domain_dimension_per_branch": 0,
+    "first_symbol_kernel_dimension_per_branch": 0
+  },
+  "class_disposition": "FOUR_EXACT_POINTWISE_METRIC_STATIONARY_CONSTANT_CLASSES_CLOSED_AS_GAUGE_RIGID_AFTER_THE_COMPLETE_TANGENT_QUOTIENT",
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_COMPLETE_TANGENT_GAUGE_RIGIDITY_FOR_THE_SELECTED_SIGNATURE_SPLIT_ACTION_CLASS__NOT_SOURCE_OWNED_GLOBAL_OBSERVED_OR_PHYSICAL",
+  "next_gate": "CBRS1M_FREEZE_A_MATERIALLY_DISTINCT_TARGET_BLIND_ACTION_OWNED_ZERO_DENSITY_OR_NONFACTORIZING_METRIC_CLASS_WITH_A_POSSIBLE_NON_ORBIT_TANGENT",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1l-broken-symmetry-tangent-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1l_broken_symmetry_tangent_probe.py",
+  "probe_result": "PASS_252_OF_252"
+}

@@ -7,6 +7,24 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
+> **2026-08-21 CBRS-1L CLOSES ALL FOUR SIGNATURE-SPLIT POINTS AS GAUGE-
+> RIGID.** The complete selected-action tangent was rebuilt under the actual
+> residual `SO(7)_+ x SO(7)_-` symmetry rather than imported from CBRS-1J.
+> Forty product-irrep families cover all `229,376` real `T` plus `1,274`
+> independent Spin-grade-two connection directions. At both signature
+> polarities and both volume signs the `230,650`-dimensional Hessian has rank
+> `230,601` and nullity `49`. The unique null copy is the mixed `E1_+ tensor
+> E1_-` representation, exactly the broken diagonal-Spin orbit: stabilizer
+> dimension `42`, orbit dimension `49`. The coefficient-only orbit remains
+> rank `91` but is not the Hessian kernel. Quotienting by the diagonal orbit
+> leaves zero primitive class and zero first-symbol domain. These points are
+> exact constant reconstructions, not physical vacua, and do not advance to
+> spectrum. **Continue with CBRS-1M: freeze a materially distinct target-blind
+> action-owned zero-density or nonfactorizing metric class with a possible
+> non-orbit tangent; do not tune the closed coordinate-polarized class or
+> advance to CBRS-2.** See
+> `explorations/conditional-build/selected-k77-cbrs1l-broken-symmetry-tangent-2026-08-21.md`.
+
 > **2026-08-21 CBRS-1K ADMITS FOUR NEW K77-SIGNATURE-SPLIT POINT CLASSES.**
 > Split the selected vector-plus-volume-dual coefficients only across the
 > frozen `ETA`-coordinate positive and negative seven-planes of K77. This is a
