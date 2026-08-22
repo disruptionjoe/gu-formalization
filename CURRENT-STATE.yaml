@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 348083636828376d873fb2e82bf8e3da534af0ac
+revision_basis: c6fcd80c5209f4da9de24b602ae4e16b20c15afa
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1O rejects the premise that CBRS-1N's 45 coarse exterior/hook
+    dimension families already form invariant residual-Schur blocks in the
+    normalized real Clifford basis. The nominal sixteen-copy E1-base tensor
+    E1-normal representative span has rank 16, but adjoining one explicit
+    nonzero broken-orbit vector raises it to 17. A complementary-Hodge phase
+    transport leaves the rejected 230590/230550 totals unchanged. The actual
+    complete selected Hessian preserves the canonical coordinate key
+    q=coefficient-mask XOR form-slot modulo J4. An exact support-only replay
+    partitions all 230650 directions into 8192 components: 7848 of dimension
+    28, 300 of dimension 31, 30 of dimension 34, 10 of dimension 41 and 4 of
+    dimension 44. All 1274 connection directions are accounted for exactly.
+    The 40 broken generators occupy 40 distinct components and retain rank 40
+    at all four radical branches. Component ranks, the complete kernel,
+    primitive and metric quotients and any symbol remain open. CBRS-1P must
+    evaluate every exact component and match any modular lower bound to a
+    characteristic-zero upper bound before quotient work. No global vacuum,
+    spectrum, ledger, canon, source-ownership or public-posture conclusion
+    follows.
     CBRS-1N rejects the tempting unaligned scalar-Schur complete-rank census
     after freezing the exact 230650-dimensional J4 residual carrier and its
     diagonal-Spin orbit. The native 4+10 class has residual
@@ -2357,13 +2375,16 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1N freezes the exact
-  230650-dimensional J4 residual carrier, residual diagonal stabilizer 51 and
-  broken orbit 40, but rejects the unaligned scalar-Schur rank census because
-  its claimed full normal mixed block contradicts the explicit nonzero orbit
-  kernel. Execute CBRS-1O: build an aligned real/complex 4+10 exterior/hook
-  intertwiner bank, require it to reproduce the 40-dimensional orbit kernel,
-  and then compute the complete four-branch Hessian, primitive quotient and
+  returning to old hardening or the B5 comparator. CBRS-1O proves that the 45
+  coarse CBRS-1N exterior/hook families are dimension accounting, not an
+  invariant residual-Schur decomposition in the normalized real Clifford
+  basis. It freezes the exact q=coefficient-mask XOR form-slot modulo J4
+  support bank: 8192 components accounting for all 230650 directions, with
+  the 40 broken generators in 40 distinct components. Execute CBRS-1P:
+  evaluate every component over the exact radical fields, or use good-prime
+  lower bounds only inside an explicit characteristic-zero rank sandwich;
+  require every affected cross component to reproduce its orbit column, then
+  restrict only the certified kernel by primitive epsilon and the
   nonfactorizing metric graph. Construct a first symbol only if a
   metric-admissible non-orbit quotient survives. Do not use the rejected
   apparent ranks 230590 or 230550, tune the J4 action, add a counterterm, mix

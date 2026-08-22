@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1O_REJECTS_NOMINAL_RESIDUAL_IRREP_BANK__CANONICAL_Q_MOD_J4_COORDINATE_COMPONENT_BANK_FROZEN",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1O",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_J4_COORDINATE_COMPONENT_BANK_AND_ALIGNMENT_OBSTRUCTION__SOURCE_SILENT_ON_THE_CLASS",
+  "nominal_residual_bank": {
+    "status": "REJECTED_NOT_AN_INVARIANT_DECOMPOSITION",
+    "nominal_mixed_occurrences": 16,
+    "nominal_mixed_span_rank": 16,
+    "rank_after_explicit_broken_orbit_column": 17,
+    "cause_ceiling": "NORMALIZED_REAL_CLIFFORD_DIRECTIONS_DO_NOT_OBEY_THE_NAIVE_EXTERIOR_WEDGE_CONTRACTION_REPRESENTATIVE_IDENTIFICATION; COMPLEMENTARY_HODGE_PHASE_TRANSPORT_DOES_NOT_REPAIR_IT"
+  },
+  "coordinate_component_bank": {
+    "component_invariant": "q=coefficient_mask_XOR_form_slot_modulo_J4",
+    "component_count": 8192,
+    "t_directions_per_component": 28,
+    "t_direction_count": 229376,
+    "connection_direction_count": 1274,
+    "complete_dimension": 230650,
+    "component_dimension_histogram": {
+      "28": 7848,
+      "31": 300,
+      "34": 30,
+      "41": 10,
+      "44": 4
+    },
+    "support_closure": "EXACT_OVERAPPROXIMATION_PROVES_TT_BB_AND_BT_CLOSURE_BEFORE_CANCELLATION"
+  },
+  "orbit_stabilizer": {
+    "residual_diagonal_stabilizer_dimension": 51,
+    "broken_diagonal_spin_generator_count": 40,
+    "broken_diagonal_spin_orbit_dimension": 40,
+    "distinct_orbit_component_count": 40,
+    "rank_per_branch": {
+      "normal_J4_sign_-1": 40,
+      "normal_J4_sign_+1": 40,
+      "base_J4_sign_-1": 40,
+      "base_J4_sign_+1": 40
+    }
+  },
+  "complete_hessian": {
+    "status": "OPEN_COMPONENT_RANKS_PENDING",
+    "rank_per_branch": "NOT_YET_CERTIFIED",
+    "kernel_per_branch": "CONTAINS_THE_40_DIMENSIONAL_BROKEN_ORBIT__ADDITIONAL_NONORBIT_CONTENT_OPEN",
+    "rejected_diagnostics": [230590, 230550]
+  },
+  "primitive_metric_symbol": {
+    "point_primitive_return": "ZERO_ON_ALL_FOUR_CBRS1M_BRANCHES",
+    "point_metric_row_support": 4,
+    "primitive_tangent_quotient": "OPEN",
+    "metric_admissible_nonorbit_domain": "OPEN",
+    "first_symbol": "NOT_CONSTRUCTED"
+  },
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_COORDINATE_COMPONENT_ALIGNMENT_AND_ORBIT_LOCATION__NO_COMPLETE_RANK_PRIMITIVE_METRIC_SYMBOL_GLOBAL_OR_PHYSICAL_CLAIM",
+  "next_gate": "CBRS1P_EVALUATE_EVERY_COORDINATE_COMPONENT_OVER_THE_EXACT_RADICAL_FIELDS__MATCH_MODULAR_LOWER_BOUNDS_TO_ORBIT_UPPER_BOUNDS__THEN_PRIMITIVE_METRIC_QUOTIENT_AND_SYMBOL_IF_ANY",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1o-j4-aligned-hessian-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1o_j4_aligned_hessian_probe.py",
+  "probe_result": "PASS_73_OF_73"
+}

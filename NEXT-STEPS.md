@@ -7,6 +7,21 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1O FREEZES THE ACTUAL J4 COMPLETE-HESSIAN COMPONENT
+> BANK.** The 45 CBRS-1N exterior/hook families are dimension accounting, not
+> an invariant residual-Schur decomposition in the normalized real Clifford
+> basis: the nominal sixteen-copy mixed-vector span has rank `16`, while
+> adjoining one explicit broken-orbit vector raises it to `17`. The selected
+> Hessian instead preserves `q = coefficient_mask XOR form_slot` modulo `J4`.
+> This gives `8,192` exact components accounting for all `230,650` directions,
+> with dimension histogram `28:7848, 31:300, 34:30, 41:10, 44:4`. All 40
+> broken generators occupy distinct components and have rank `40` on every
+> radical branch. **Continue with CBRS-1P: rank every exact component over the
+> radical fields, match any modular lower bound to a characteristic-zero upper
+> bound, and only then compute primitive and metric quotients and a symbol if
+> any.** The old `230590/230550` totals remain rejected. See
+> `explorations/conditional-build/selected-k77-cbrs1o-j4-aligned-hessian-2026-08-22.md`.
+
 > **2026-08-22 CBRS-1N REJECTS AN UNALIGNED J4 COMPLETE-TANGENT RANK
 > CENSUS.** The exact pointwise carrier has `229,376` real `T` plus `1,274`
 > independent Spin-connection directions. Under the native 4+10 split the
