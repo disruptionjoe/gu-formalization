@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c6fcd80c5209f4da9de24b602ae4e16b20c15afa
+revision_basis: f671e5f838c5c330e63c1296403340a8f29d4ce1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1P closes all four constant radical J4 branches at the complete
+    pointwise tangent. The 8192 q-mod-J4 components reduce to 140 exact
+    signed-coordinate transport classes. A two-prime rank sandwich uses
+    complementary split embeddings at p=241 and p=181, rejecting individual
+    rank-bad reductions and retaining a modular lower bound only when it
+    matches the independent characteristic-zero upper bound. Every branch has
+    complete Hessian dimension 230650, rank 230610 and nullity 40. The 40
+    explicit broken base-normal diagonal-Spin orbit columns are nonzero and
+    null and exhaust the kernel. The primitive-admissible kernel is the same
+    orbit, so the primitive quotient, metric-admissible non-orbit domain and
+    first-symbol domain are all zero. These four constant points are
+    pointwise gauge-rigid, not nonhomogeneous global vacua or spectra. CBRS-1Q
+    must freeze a materially distinct target-blind action or coupled-fermion
+    class with a possible non-orbit metric tangent; do not tune J4. No ledger,
+    canon, source-ownership or public-posture conclusion follows.
     CBRS-1O rejects the premise that CBRS-1N's 45 coarse exterior/hook
     dimension families already form invariant residual-Schur blocks in the
     normalized real Clifford basis. The nominal sixteen-copy E1-base tensor
@@ -2375,20 +2390,15 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1O proves that the 45
-  coarse CBRS-1N exterior/hook families are dimension accounting, not an
-  invariant residual-Schur decomposition in the normalized real Clifford
-  basis. It freezes the exact q=coefficient-mask XOR form-slot modulo J4
-  support bank: 8192 components accounting for all 230650 directions, with
-  the 40 broken generators in 40 distinct components. Execute CBRS-1P:
-  evaluate every component over the exact radical fields, or use good-prime
-  lower bounds only inside an explicit characteristic-zero rank sandwich;
-  require every affected cross component to reproduce its orbit column, then
-  restrict only the certified kernel by primitive epsilon and the
-  nonfactorizing metric graph. Construct a first symbol only if a
-  metric-admissible non-orbit quotient survives. Do not use the rejected
-  apparent ranks 230590 or 230550, tune the J4 action, add a counterterm, mix
-  the full commutant, or advance to CBRS-2. CBRS-1L proves that all four
+  returning to old hardening or the B5 comparator. CBRS-1P proves by a
+  two-prime characteristic-zero rank sandwich that all four constant radical
+  J4 points have complete Hessian rank 230610 and nullity 40, exactly the
+  broken diagonal-Spin orbit. Their primitive, nonorbit metric and first-
+  symbol quotients are zero. Execute CBRS-1Q: freeze a materially distinct
+  target-blind action or coupled-fermion class with a possible non-orbit
+  metric tangent. Do not reuse a rank-bad single-prime reduction, tune the J4
+  action, add a counterterm, mix the full commutant after the result, or
+  advance to CBRS-2. CBRS-1L proves that all four
   CBRS-1K zero-density points are gauge-rigid, and CBRS-1M opened the distinct
   radical J4 class now under the corrected tangent test. CBRS-1J
   proves that both

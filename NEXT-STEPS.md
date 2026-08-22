@@ -7,6 +7,21 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1P CLOSES THE CONSTANT J4 CLASS AS POINTWISE GAUGE-
+> RIGID.** The `8,192` exact q-mod-J4 components reduce to `140` signed-
+> coordinate transport classes. Complementary split-prime embeddings at
+> `p=241` and `p=181` supply per-class modular lower bounds; individual rank-
+> bad reductions are rejected, and every retained lower bound matches the
+> independent characteristic-zero full-rank or orbit upper bound. At every
+> radical branch the complete `230,650`-dimensional Hessian has rank `230,610`
+> and nullity `40`. The 40 explicit broken diagonal-Spin columns exhaust the
+> kernel, leaving zero primitive quotient, zero metric-admissible non-orbit
+> domain and zero first-symbol domain. **Continue with CBRS-1Q: freeze a
+> materially distinct target-blind action or coupled-fermion class with a
+> possible non-orbit metric tangent. Do not tune J4 or promote pointwise gauge
+> rigidity to a global vacuum or spectrum.** See
+> `explorations/conditional-build/selected-k77-cbrs1p-j4-component-ranks-2026-08-22.md`.
+
 > **2026-08-22 CBRS-1O FREEZES THE ACTUAL J4 COMPLETE-HESSIAN COMPONENT
 > BANK.** The 45 CBRS-1N exterior/hook families are dimension accounting, not
 > an invariant residual-Schur decomposition in the normalized real Clifford

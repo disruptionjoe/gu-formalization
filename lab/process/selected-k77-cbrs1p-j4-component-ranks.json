@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1P_COMPLETE_J4_HESSIAN_KERNEL_EQUALS_BROKEN_DIAGONAL_SPIN_ORBIT__POINTWISE_GAUGE_RIGID",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1P",
+  "transport_class_count": 140,
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_COMPLETE_J4_COMPONENT_RANK_CERTIFICATE__SOURCE_SILENT_ON_THE_CLASS",
+  "coordinate_component_bank": {
+    "component_invariant": "q=coefficient_mask_XOR_form_slot_modulo_J4",
+    "component_count": 8192,
+    "transport_class_count": 140,
+    "complete_dimension": 230650,
+    "transport_owner": "SIGNED_COORDINATE_PERMUTATIONS_WITHIN_SIGNATURE_GROUPS_PLUS_J4_COMPLEMENT"
+  },
+  "prime_certificates": [
+    {
+      "prime": 241,
+      "i_image": 64,
+      "sqrt1366_image": 142,
+      "sqrt_normal_d2_image": 94,
+      "sqrt4177_image": 70,
+      "sqrt_base_b2_image": 110
+    },
+    {
+      "prime": 181,
+      "i_image": 19,
+      "sqrt1366_image": 68,
+      "sqrt_normal_d2_image": 51,
+      "sqrt4177_image": 75,
+      "sqrt_base_b2_image": 52
+    }
+  ],
+  "rank_method": "PER_CLASS_MAXIMUM_OF_TWO_SPLIT_PRIME_LOWER_BOUNDS_MATCHED_TO_INDEPENDENT_CHARACTERISTIC_ZERO_FULL_OR_ORBIT_UPPER_BOUND",
+  "complete_hessian": {
+    "dimension": 230650,
+    "rank_per_branch": {
+      "normal_J4_sign_-1": 230610,
+      "normal_J4_sign_+1": 230610,
+      "base_J4_sign_-1": 230610,
+      "base_J4_sign_+1": 230610
+    },
+    "nullity_per_branch": {
+      "normal_J4_sign_-1": 40,
+      "normal_J4_sign_+1": 40,
+      "base_J4_sign_-1": 40,
+      "base_J4_sign_+1": 40
+    },
+    "kernel": "EXACTLY_THE_40_DIMENSIONAL_BROKEN_DIAGONAL_SPIN_ORBIT"
+  },
+  "orbit_stabilizer": {
+    "residual_diagonal_stabilizer_dimension": 51,
+    "broken_diagonal_spin_orbit_dimension": 40,
+    "orbit_component_count": 40,
+    "explicit_class_branch_kernel_controls": 16
+  },
+  "primitive_metric_symbol": {
+    "primitive_admissible_kernel_dimension": 40,
+    "primitive_quotient_dimension": 0,
+    "metric_admissible_nonorbit_domain_dimension": 0,
+    "first_symbol_domain_dimension": 0,
+    "first_symbol_kernel_dimension": 0
+  },
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_J4_GAUGE_RIGIDITY__NO_NONHOMOGENEOUS_GLOBAL_VACUUM_OR_PHYSICAL_SPECTRUM",
+  "next_gate": "CBRS1Q_FREEZE_A_MATERIALLY_DISTINCT_TARGET_BLIND_ACTION_OR_COUPLED_FERMION_CLASS_WITH_A_POSSIBLE_NONORBIT_METRIC_TANGENT__DO_NOT_TUNE_J4",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1p-j4-component-ranks-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1p_j4_component_ranks_probe.py",
+  "probe_result": "PASS_1181_OF_1181"
+}
