@@ -7,6 +7,23 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1Z CLOSES THE ADVERTISED TWO-FUNCTION-SIGMA / STANDALONE
+> ODD-FIELD FORK AT ADMISSION.** A single `O(1,3)` mirror vector has invariant
+> algebra `R[s]`; its general equivariant metric
+> `a(s)kappa+b(s)Psi-flat tensor Psi-flat` has two tensor coefficients but no
+> second scalar invariant. The free `b` jet is therefore underselected. The
+> odd alternative Spin-saturates from 18 live cells to
+> `Lambda1(R(9,5)) direct-sum Lambda3(R(9,5))`, dimension `378`. The selected
+> Clifford scalar trace fixes a target-blind relative pairing ray, and the
+> standard one-half quadratic field action has a valid Hilbert stress, but its
+> bilinear connection current is Clifford-even rather than the required odd
+> primitive momentum. **Continue with CBRS-1AA: construct the smallest
+> covariant action map from the full odd carrier into the selected `B/T`
+> endpoint momentum and derive its coefficient, field equation and Hilbert
+> variation together.** Do not restrict to the 18 cells, insert `Xi=-M0`, or
+> fit a multiplier, frame, boundary or sector. See
+> `explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1Y RULES OUT THE SMALLEST ONE-FUNCTION RADIAL SIGMA
 > COMPLETION AS A TARGET-BLIND OWNER.** Preserve the CBRS-1X carrier, `R=2/3`,
 > `s^-2` primitive weight and unit potential, and warp only the mirror kinetic
