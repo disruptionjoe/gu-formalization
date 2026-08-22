@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1N_REJECTS_UNALIGNED_SCALAR_SCHUR_COMPLETE_TANGENT_CENSUS__EXACT_4_PLUS_10_CARRIER_AND_BROKEN_ORBIT_FROZEN__ALIGNED_INTERTWINER_BANK_REQUIRED",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1N",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_J4_RESIDUAL_CARRIER_ORBIT_AND_ALIGNMENT_OBSTRUCTION__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_carrier": {
+    "residual_symmetry": "Spin(1,3)_base_x_Spin(6,4)_normal",
+    "base_dimension": 4,
+    "normal_dimension": 10,
+    "t_directions": 229376,
+    "independent_spin_connection_directions": 1274,
+    "complete_pointwise_dimension": 230650,
+    "coarse_product_families": 45
+  },
+  "orbit_stabilizer": {
+    "coefficient_only_spin_orbit_rank": 91,
+    "coefficient_only_stabilizer_dimension": 0,
+    "residual_diagonal_stabilizer_dimension": 51,
+    "broken_diagonal_spin_orbit_dimension": 40,
+    "broken_orbit_hessian_pairing": "ZERO_AGAINST_EVERY_COARSE_E1_TENSOR_E1_REPRESENTATIVE"
+  },
+  "coarse_scalar_diagnostic": {
+    "status": "REJECTED_NOT_A_COMPLETE_HESSIAN_RANK",
+    "rank_normal_pair": 230590,
+    "apparent_nullity_normal_pair": 60,
+    "rank_base_pair": 230550,
+    "apparent_nullity_base_pair": 100,
+    "contradiction": "NORMAL_E1_TENSOR_E1_MULTIPLICITY_MATRIX_REPORTS_FULL_RANK_16_WHILE_A_NONZERO_40_DIMENSIONAL_BROKEN_ORBIT_PAIRS_TO_ZERO_WITH_EVERY_REPRESENTATIVE",
+    "cause_ceiling": "THE_UNALIGNED_ONE_REPRESENTATIVE_PER_REAL_PRODUCT_IRREP_SCALAR_SCHUR_ASSUMPTION_IS_INVALID_FOR_THIS_4_PLUS_10_REAL_FORM; THE_EXACT ALIGNED INTERTWINER CORRECTION REMAINS OPEN"
+  },
+  "complete_hessian": {
+    "status": "OPEN",
+    "rank_per_branch": "NOT_YET_CERTIFIED",
+    "kernel_per_branch": "CONTAINS_THE_40_DIMENSIONAL_BROKEN_ORBIT__ADDITIONAL_NONORBIT_CONTENT_OPEN"
+  },
+  "primitive_metric_symbol": {
+    "point_primitive_return": "ZERO_ON_ALL_FOUR_CBRS1M_BRANCHES",
+    "point_metric_row_support": 4,
+    "primitive_tangent_quotient": "OPEN",
+    "metric_admissible_nonorbit_domain": "OPEN",
+    "first_symbol": "NOT_CONSTRUCTED"
+  },
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_RESIDUAL_CARRIER_ORBIT_AND_REPRESENTATIVE_ALIGNMENT_OBSTRUCTION__NO_COMPLETE_HESSIAN_PRIMITIVE_METRIC_SYMBOL_GLOBAL_OR_PHYSICAL_CLAIM",
+  "next_gate": "CBRS1O_BUILD_ALIGNED_REAL_COMPLEX_4_PLUS_10_INTERTWINER_BANK__RECOMPUTE_COMPLETE_HESSIAN__THEN_PRIMITIVE_METRIC_QUOTIENT_AND_SYMBOL_IF_ANY",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1n-j4-complete-tangent-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1n_j4_complete_tangent_probe.py",
+  "probe_result": "PASS_280_OF_280_COMPOSED_FROM_278_OF_280_FULL_REPLAY_PLUS_TWO_CORRECTED_PROPAGATION_ASSERTIONS_RECHECKED"
+}

@@ -7,6 +7,24 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1N REJECTS AN UNALIGNED J4 COMPLETE-TANGENT RANK
+> CENSUS.** The exact pointwise carrier has `229,376` real `T` plus `1,274`
+> independent Spin-connection directions. Under the native 4+10 split the
+> diagonal stabilizer has dimension `51` and the broken orbit has dimension
+> `40`; all 40 orbit columns are independent. Forty-five coarse product
+> families account for the full carrier, but a one-representative scalar-
+> Schur census is internally inconsistent: it prints apparent ranks `230590`
+> on the normal-J4 pair and `230550` on the base-J4 pair while declaring the
+> normal mixed vector block full rank even though a nonzero broken-orbit
+> vector pairs to zero with every representative of that block. Those values
+> are rejected diagnostics, not Hessian ranks or survivor counts. **Continue
+> with CBRS-1O: build the aligned real/complex 4+10 Hodge-intertwiner bank,
+> reproduce the 40-dimensional orbit kernel, and only then compute the full
+> Hessian, primitive and metric quotient, and a symbol if any.** Do not use the
+> rejected nullities, tune the action, mix the full commutant, or advance to
+> CBRS-2. See
+> `explorations/conditional-build/selected-k77-cbrs1n-j4-complete-tangent-2026-08-22.md`.
+
 > **2026-08-22 CBRS-1M FREEZES FOUR NATIVE J4 FIELD-STATIONARY BRANCHES,
 > ALL CONSTANT-METRIC OBSTRUCTED.** On the existing repository-native 4+10
 > split, the selected real form uses `i gamma_i J4` (grade three) on the four
