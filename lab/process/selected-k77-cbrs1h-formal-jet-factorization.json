@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1H_FROZEN_ANISOTROPIC_POINT_ACTION_CLASS_KILLED_FOR_ALL_COMPATIBLE_FORMAL_JETS",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1H",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_FIELD_GRAPH_FACTORIZATION_AND_CLASS_OBSTRUCTION__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_carrier": {
+    "point": {"a": "-13/96", "b": "1/48"},
+    "translation_directions": 229376,
+    "connection_grade2_directions": 1274,
+    "horizontal_lc_rows": 24,
+    "metric_first_jet_directions": 40,
+    "target_blind": true
+  },
+  "factorization": {
+    "momentum": "p_2=E_B,2-E_T,2",
+    "formal_jet": "J_alpha(p_2)=J_alpha(E_B,2)-J_alpha(E_T,2)",
+    "compatible_field_ideal": "J_alpha(E_B,2)=J_alpha(E_T,2)=0",
+    "constrained_momentum_jet": "ZERO_AT_EVERY_FORMAL_ORDER",
+    "selected_representative_field_matrix": [["0", "-1/24"], ["-1/24", "17/18"]],
+    "selected_representative_determinant": "-1/576",
+    "selected_representative_momentum_row": ["1/24", "-71/72"]
+  },
+  "primitive_epsilon": {
+    "field_momentum_adjoint": "ZERO_ON_THE_COMPATIBLE_FORMAL_CARRIER",
+    "moving_shiab_base_support": 0,
+    "higher_moving_shiab": "SEPARATE_CONSTRAINT_MAY_SHRINK_CARRIER__CANNOT_RESTORE_METRIC_GRAPH_IMAGE"
+  },
+  "fixed_varpi_metric": {
+    "levi_civita_matrix": [24, 40],
+    "levi_civita_rank": 20,
+    "ambient_connection_embedding": [1274, 24],
+    "constrained_graph_rank": 0,
+    "action_density": "221/55296",
+    "normalized_metric_row": ["-221/27648", "0", "0", "0", "221/27648", "0", "0", "221/27648", "0", "221/27648"],
+    "stationary": false,
+    "cokernel_certificate": "IDENTITY_ON_THE_NONZERO_DENSITY_TRACE_RECEIVER"
+  },
+  "class_status": "FROZEN_TARGET_BLIND_ANISOTROPIC_POINT_ACTION_CLASS_CLOSED__DO_NOT_COMPUTE_HESSIAN_STABILIZER_OR_SPECTRUM",
+  "claim_ceiling": "EXACT_FORMAL_JET_METRIC_OBSTRUCTION_OVER_ONE_REPOSITORY_CONSTRUCTED_POINT_ACTION_CLASS__NOT_A_SOURCE_OWNED_OR_GU_WIDE_NO_GO",
+  "next_gate": "CBRS1I_FREEZE_A_MATERIALLY_DISTINCT_ACTION_OWNED_POINT_OR_ACTION_CLASS_WITH_ZERO_DENSITY_OR_A_NONFACTORIZING_METRIC_OWNER_BEFORE_ANY_NEW_JET_TOWER",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1h-formal-jet-factorization-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1h_formal_jet_factorization_probe.py",
+  "probe_result": "PASS_56_OF_56"
+}

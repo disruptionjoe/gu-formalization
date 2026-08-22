@@ -7,20 +7,20 @@ updated_at: "2026-08-21"
 
 # Next Steps For Contributors
 
-> **2026-08-21 CBRS-1G COMPLETE ALL-GRADE FIRST-JET CARRIER IS
-> METRIC-OBSTRUCTED.** Exact residual-symmetry census over all 229,376 real-form
-> `T` directions proves that `T/T` Hessian support is Clifford-grade diagonal;
-> the 1,274 Spin connection directions couple only to `T2`. The complete
-> `B2+T2` block is nondegenerate, so every all-grade field kernel has zero
-> grade-two momentum, primitive-epsilon return and fixed-`varpi` metric-graph
-> return. The nonzero intrinsic metric trace kills all first jets. This does
-> not claim ranks for grades 4 through 11: grade one supplies a real hostile
-> survivor, with rank `183`, nullity `13`, and zero intersection with the
-> rank-`91` Spin orbit. Grades 0,12,13,14 are nondegenerate. **Continue with
-> CBRS-1H: construct the smallest complete second-jet carrier capable of a
-> nonzero grade-two momentum derivative and solve field, primitive-epsilon and
-> metric equations together before stabilizer or spectrum work.** See
-> `explorations/conditional-build/selected-k77-cbrs1g-whole-grade-frontier-2026-08-21.md`.
+> **2026-08-21 CBRS-1H CLOSES THE FROZEN ANISOTROPIC POINT/ACTION CLASS FOR
+> EVERY COMPATIBLE FORMAL JET.** The fixed-`varpi` Levi-Civita graph lands in
+> the Spin-grade-two owner, where `p_2=E_B,2-E_T,2`. Every formal prolongation
+> of that momentum is therefore zero after both prolonged field-owner
+> equations are imposed. The actual horizontal Levi-Civita map is live at
+> rank `20` (`24 x 40`) and embeds in all `1,274` connection coordinates;
+> dropping either field owner fires a planted nonzero momentum control. The
+> constrained graph image is nevertheless zero, leaving the inherited
+> nonzero `221/55296` density and four-cell intrinsic metric trace. Higher
+> moving-Shiab equations can only shrink the carrier. **Do not compute this
+> class's Hessian, stabilizer, or spectrum. Continue with CBRS-1I: freeze a
+> materially distinct point or action class with zero on-shell density or a
+> nonfactorizing metric owner before starting another jet tower.** See
+> `explorations/conditional-build/selected-k77-cbrs1h-formal-jet-factorization-2026-08-21.md`.
 
 > **2026-08-21 CBRS-1B/C1 ONE-AXIS FIRST-JET MODULES THROUGH TRANSVERSE
 > GRADES ZERO AND ONE ARE RIGID AND METRIC-KILLED.**

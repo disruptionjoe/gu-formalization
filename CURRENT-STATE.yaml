@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a39cd89f08482edaf5333edfa2e23090d2749e64
+revision_basis: b32bc6e6f871a37174f6a820abf0cc77b9bb5cc4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,25 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    CBRS-1G has now closed the complete all-grade first-jet carrier at intrinsic
-    metric stationarity without claiming a full all-grade Hessian rank. Exact
-    residual-symmetry orbit census over all 229,376 real-form T directions
-    proves that the T/T Hessian is Clifford-grade diagonal from grade zero
-    through fourteen. All 1,274 Spin-grade-two connection directions couple
-    only to T grade two. CBRS-1E's complete B2+T2 block is nondegenerate, so
-    every all-grade first-jet field kernel has zero grade-two momentum and zero
-    fixed-varpi Levi-Civita graph return. The moving-Shiab primitive-epsilon
-    base return also remains zero. The inherited nonzero four-cell MET(X) trace
-    therefore kills every all-grade first jet. The five smallest untouched
-    complete T blocks were certified: grades 0,12,13,14 are nondegenerate, while
-    grade one has rank 183 and a 13-dimensional kernel spanned by
-    e^0 gamma_j+eta_j e^j gamma_0. That kernel meets the rank-91 pointwise Spin
-    orbit trivially, so it is a genuine nongauge field survivor that is killed
-    only at the metric equation. This is an exact all-grade first-jet metric
-    obstruction, not a full rank, second-jet, stabilizer or spectrum theorem.
-    CBRS-1 remains active at CBRS-1H: construct the smallest complete second-jet
-    carrier capable of a nonzero grade-two momentum derivative and solve the
-    field, primitive-epsilon and intrinsic metric equations together.
+    CBRS-1H has now closed the frozen target-blind anisotropic point/action
+    class for every compatible formal jet. The fixed-varpi Levi-Civita graph
+    lands in the Spin-grade-two connection owner, where the selected-action
+    momentum is p_2=E_B,2-E_T,2. Formal prolongation preserves this difference,
+    so imposing both prolonged field-owner equations forces every graph-visible
+    momentum jet to zero at every order. The actual covariant Levi-Civita map
+    remains live: its horizontal matrix is 24 by 40 with rank 20, and those 24
+    rows embed injectively in all 1,274 Spin-grade-two connection coordinates.
+    Dropping either field owner manufactures a nonzero momentum control, so the
+    zero constrained image is not a dead-map artifact. The primitive-epsilon
+    momentum summand vanishes; any higher moving-Shiab equation can only shrink
+    the carrier. The inherited nonzero density 221/55296 leaves the same
+    four-cell MET(X) trace, which no compatible formal jet can cancel. This is
+    an exact formal-jet metric obstruction over one repository-constructed
+    point/action class, not a source-owned or GU-wide no-go. Do not compute its
+    full Hessian, stabilizer or spectrum. CBRS-1 remains active at CBRS-1I:
+    freeze a materially distinct action-owned point or action class with zero
+    intrinsic density or a nonfactorizing metric owner before a new jet tower.
     No ledger verdict, source ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
     CONDITIONAL-BUILD-REVERSE-SCAFFOLD as the active Lane-1 research lead. Work
@@ -1971,6 +1970,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/selected-k77-cbrs1h-formal-jet-factorization-2026-08-21.md
+    - lab/process/selected-k77-cbrs1h-formal-jet-factorization.json
     - explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md
     - explorations/conditional-build/conditional-physics-ledger-v0.260.md
     - lab/process/conditional-physics-ledger-v0.260.json
@@ -2286,12 +2287,14 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. Execute CBRS-1H: construct
-  the smallest complete second-jet carrier whose differentiated field momentum
-  can enter the grade-two fixed-varpi Levi-Civita graph after CBRS-1G proved
-  that every all-grade first jet is graph-invisible. Solve the complete field,
-  primitive-epsilon and intrinsic metric equations on that carrier before
-  allowing stabilizer or spectrum work. Only a
+  returning to old hardening or the B5 comparator. CBRS-1H closes the frozen
+  anisotropic point/action class for every compatible formal jet because the
+  graph-visible momentum prolongation lies in the two field-owner equations
+  while the intrinsic density trace is nonzero. Do not compute that class's
+  full Hessian, stabilizer or spectrum. Execute CBRS-1I: freeze a materially
+  distinct action-owned point or action class, with the first discriminator
+  requiring zero on-shell intrinsic density or a metric owner that does not
+  factor through the simultaneously imposed field equations. Only a
   fully metric-stationary branch
   may advance to the full Hessian, global stabilizer, mu6 descent, J/Higgs
   selection, photon kernel, extra-U1 mass direction and first gravitational
