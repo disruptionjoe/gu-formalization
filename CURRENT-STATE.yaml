@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6048484a112c919da15b52796192cdf50d690bd8
+revision_basis: 9309644f4d7239671a5424170d89d7295dba2344
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,26 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    CBRS-1I has found the first selected-action class to pass the complete
-    point translation, independent Spin-connection, primitive-epsilon and
-    intrinsic MET(X) equations. For the real Cl(7,7) volume involution Omega,
-    the target-blind Spin-equivariant class
-    T_i(a,b)=a gamma_i+b gamma_i Omega has exact action
-    7(a-b)(a+b)(208a+1). Besides zero and the older homogeneous point, it has
-    two nonzero critical points (-1/208, plus-or-minus 1/208). Both lie on the
-    null lines of the quadratic pairing and have zero action density. The
-    complete 14 by 16,384 real translation covector vanishes for both signs.
-    Their unrestricted comparator momentum has 28 cells in Clifford grades
-    one and thirteen, but its restriction to the actual Spin-grade-two
-    connection owner and fixed-varpi Levi-Civita graph is zero. All 91
-    moving-Shiab primitive returns vanish, so the complete intrinsic metric
-    row is zero without a trace counterterm or deleted field owner. The two
-    reduced Hessians have determinant -196. This is an exact pointwise
-    reconstruction-grade metric-stationary class, not yet a spacetime-
-    nonhomogeneous global or source-owned physical vacuum. CBRS-1 advances to
-    CBRS-1J: build the complete complementary-grade T/connection Hessian,
-    pointwise Spin orbit and stabilizer, and primitive quotient before any
-    spectrum or observed-physics inference. No ledger verdict, source
+    CBRS-1J closes both CBRS-1I chiral-null points at the complete pointwise
+    tangent. On the full 229,376-direction real u(64,64) T carrier plus all
+    1,274 independent real Spin-grade-two connection directions, exact
+    diagonal-Spin irreducible reduction covers all 230,650 coordinates and
+    gives rank 230,650, nullity zero, at both volume signs. Every exterior,
+    hook and middle-form multiplicity matrix is rational, symmetric and full
+    rank. The coefficient-only pointwise Spin orbit has rank 91 and
+    stabilizer zero; it is not a Hessian gauge kernel. The moving-Shiab base
+    returns remain zero, but the complete field kernel, primitive-admissible
+    kernel, primitive quotient and first-symbol carrier are all zero. Thus the
+    two exact zero-density metric-stationary points are isolated constant
+    reconstructions and cannot supply the required spacetime-nonhomogeneous
+    first jet. Do not advance them to global stabilizer or spectrum. CBRS-1
+    advances to CBRS-1K: freeze a materially distinct action-owned zero-density
+    or nonfactorizing class under the agenda kill condition. This is exact
+    reconstruction-grade class closure, not source-owned GU, a global vacuum,
+    observed chirality or physical spectrum. No ledger verdict, source
     ownership, canon or public posture changes.
     Joe's 2026-08-21 priority decision installs
     CONDITIONAL-BUILD-REVERSE-SCAFFOLD as the active Lane-1 research lead. Work
@@ -2289,21 +2286,21 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1I supplies two
-  target-blind Spin-equivariant point classes at
-  (a,b)=(-1/208, plus-or-minus 1/208) with zero density, zero complete
-  translation covector, zero Spin-grade-two connection equation, zero
-  primitive-epsilon return and zero intrinsic metric row. They pass pointwise
-  metric stationarity but remain constant reconstruction-grade points, not
-  spacetime-nonhomogeneous global or source-owned physical vacua. Execute
-  CBRS-1J: freeze and compute the complete complementary-grade T/T and
-  Spin-connection Hessian, pointwise Spin orbit and stabilizer, primitive
-  quotient and first symbol at both signs. Only a branch surviving that
-  complete field tangent may advance to global stabilizer, mu6 descent, J/Higgs
-  selection, photon kernel, extra-U1 mass direction and first gravitational
-  symbol consequences. A class-wide negative is a valid result. Do not promote
-  reconstruction grade to source ownership or fit separate constructions to
-  individual ledger rows. After CBRS-1, follow CBRS-2 through CBRS-5 in order.
+  returning to old hardening or the B5 comparator. CBRS-1J proves that both
+  CBRS-1I zero-density metric-stationary points have complete coupled Hessian
+  rank 230650 and nullity zero on all real T plus independent Spin-grade-two
+  connection directions. Their coefficient-only pointwise Spin orbit has rank
+  91 and stabilizer zero, while the complete field kernel,
+  primitive-admissible kernel, primitive quotient and first-symbol carrier are
+  zero. They are isolated constant pointwise reconstructions and cannot
+  advance to global stabilizer, mu6 descent, J/Higgs selection, photon kernel,
+  extra-U1 mass direction or gravitational-spectrum work. Execute CBRS-1K:
+  apply the agenda kill condition and freeze a materially distinct action-owned
+  point or action class with zero density or a nonfactorizing metric owner.
+  Do not promote reconstruction grade to source ownership, infer observed
+  chirality from the volume signs, or fit separate constructions to individual
+  ledger rows. Only after a CBRS-1 class survives the complete tangent may the
+  sequence advance. After CBRS-1, follow CBRS-2 through CBRS-5 in order.
   For LT-GR8, first type the K77-to-observed-3+1 carrier and boundary map, then
   derive the thermodynamic roles forward from the native action and reserve a
   held-out consequence before comparing with the external benchmark. Do not

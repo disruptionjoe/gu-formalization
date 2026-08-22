@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-21",
+  "status": "CBRS1J_BOTH_CHIRAL_NULL_POINT_CLASSES_HAVE_FULL_RANK_230650_COMPLETE_T_PLUS_SPIN_CONNECTION_HESSIAN__NO_FIELD_KERNEL_PRIMITIVE_QUOTIENT_OR_FIRST_SYMBOL_DOMAIN",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1J",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_COMPLETE_TANGENT_RIGIDITY__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_class": {
+    "formula": "T_i=-(1/208)*gamma_i*(1 plus-or-minus Omega)",
+    "volume_signs": [-1, 1],
+    "target_blind": true,
+    "pointwise_metric_stationary": true,
+    "global_vacuum_status": "OPEN__THE_POINTS_ARE_CONSTANT_AND_NOT_SPACETIME_NONHOMOGENEOUS_OR_SOURCE_OWNED"
+  },
+  "complete_hessian": {
+    "carrier": "Omega1_tensor_complete_real_u6464_T_plus_independent_real_Spin_grade2_connection",
+    "T_dimension": 229376,
+    "connection_dimension": 1274,
+    "dimension": 230650,
+    "minus_sign_rank": 230650,
+    "minus_sign_nullity": 0,
+    "plus_sign_rank": 230650,
+    "plus_sign_nullity": 0,
+    "method": "exact_diagonal_Spin_irreducible_decomposition_and_rational_multiplicity_matrices",
+    "dimension_coverage": 230650
+  },
+  "pointwise_spin": {
+    "coefficient_only_orbit_rank": 91,
+    "coefficient_only_stabilizer_dimension": 0,
+    "diagonal_covariance": "BACKGROUND_FIXED_UNDER_SIMULTANEOUS_FORM_AND_CLIFFORD_ROTATION",
+    "orbit_is_hessian_kernel": false
+  },
+  "primitive_and_symbol": {
+    "moving_shiab_base_support_across_91_generators": 0,
+    "complete_field_kernel_dimension": 0,
+    "primitive_admissible_kernel_dimension": 0,
+    "primitive_quotient_dimension": 0,
+    "first_symbol_domain_dimension": 0,
+    "first_symbol_characteristic_kernel_dimension": 0
+  },
+  "class_disposition": "SELECTED_VECTOR_PLUS_VOLUME_DUAL_FIRST_ACTION_CLASS_CLOSES_AS_TWO_ISOLATED_CONSTANT_POINTWISE_RECONSTRUCTIONS__NO_NONHOMOGENEOUS_FIRST_JET",
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_COMPLETE_TANGENT_RIGIDITY_FOR_THE_SELECTED_FIRST_ACTION_CLASS__NOT_SOURCE_OWNED_GLOBAL_OBSERVED_OR_PHYSICAL",
+  "next_gate": "CBRS1K_FREEZE_A_MATERIALLY_DISTINCT_ACTION_OWNED_ZERO_DENSITY_OR_NONFACTORIZING_POINT_CLASS_BEFORE_CBRS2",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1j-complete-tangent-2026-08-21.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1j_complete_tangent_probe.py",
+  "probe_result": "PASS_62_OF_62"
+}
