@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1V_UNRESTRICTED_SPIN_DIVERGENCE_CANCELLATION_EXISTS_BUT_NO_FIELD_ADMISSIBLE_NON_GAUGE_CONNECTION_COMPLETION_EXISTS",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1V",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_FIELD_ADMISSIBLE_SPIN_CONNECTION_OBSTRUCTION__SOURCE_SILENT_ON_THE_COFRAME_CLASS_AND_OBSTRUCTION",
+  "frozen_class": {
+    "action": "C3(T)+rho*Q2(T)+(1/2)g_inverse_eta(dPhi,dPhi)+(rho-1)^2/4",
+    "background": "T=rho*T0_on_the_two_base_J4_radical_branches",
+    "momentum": "M(rho)=rho^2*M0",
+    "primitive_owner": "D_B_adjoint(M)+(D_epsilon_S)_adjoint*K_S",
+    "connection": "complete_independent_metric_compatible_Spin(7,7)_connection",
+    "target_blind": true
+  },
+  "radial_return": {
+    "unit_body_support": 18,
+    "grades": [1, 3],
+    "unit_spacelike_contracted_support": 2,
+    "contracted_momentum_norm": "(35647003639+449808155*sqrt(4177))/15753835008",
+    "norm_sign": "POSITIVE",
+    "same_for_both_radical_signs": true
+  },
+  "unrestricted_connection_control": {
+    "connection_components": 1274,
+    "contracted_receiver_dimension": 78,
+    "rank": 78,
+    "augmented_rank": 78,
+    "grade_one_rank": 14,
+    "grade_three_rank": 64,
+    "disposition": "ALGEBRAIC_CANCELLATION_EXISTS_IF_THE_SIMULTANEOUS_FIELD_EQUATIONS_ARE_DROPPED"
+  },
+  "field_admissible_completion": {
+    "complete_zero_covector_dimension": 230654,
+    "complete_zero_covector_rank": 230614,
+    "complete_zero_covector_nullity": 40,
+    "kernel": "EXACTLY_THE_40_DIMENSIONAL_BROKEN_DIAGONAL_SPIN_GAUGE_ORBIT",
+    "non_gauge_connection_moduli": 0,
+    "spin_orbit_norm_derivative_for_all_91_generators": "ZERO",
+    "primitive_residual_norm": "NONZERO",
+    "disposition": "GAUGE_ORBIT_CANNOT_TURN_THE_NONZERO_RADIAL_PRIMITIVE_RESIDUAL_INTO_ZERO"
+  },
+  "class_disposition": "EXACT_FORMAL_LOCAL_OBSTRUCTION_TO_EVERY_SMOOTH_FIELD_ADMISSIBLE_METRIC_COMPATIBLE_SPIN_CONNECTION_COMPLETION_NEAR_THE_UNIT_BASE_J4_COFRAME_BODY",
+  "excluded_overclaims": [
+    "UNRESTRICTED_CONNECTION_SURJECTIVITY_IS_NOT_A_SIMULTANEOUS_EULER_SOLUTION",
+    "A_WEYL_OR_DILATION_LINE_IS_NOT_A_METRIC_COMPATIBLE_CLIFFORD_DERIVATION_CONNECTION",
+    "A_NEW_PRIMITIVE_FIELD_IS_A_MATERIALLY_DISTINCT_ACTION_OWNER",
+    "NO_GLOBAL_VACUUM_STABILIZER_SPECTRUM_SOURCE_OR_PHYSICAL_CLAIM"
+  ],
+  "next_gate": "CBRS1W_FREEZE_THE_SMALLEST_TARGET_BLIND_ACTION_OWNED_PRIMITIVE_MOMENTUM_CLASS_WITH_AN_INDEPENDENT_NON_GAUGE_GRADE_ONE_THREE_RETURN__REQUIRE_ITS_COEFFICIENT_SCALE_AND_FIELD_EQUATION_BEFORE_SOLVING__REJECT_A_NAKED_WEYL_LINE_OR_FITTED_LAGRANGE_MULTIPLIER",
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_FORMAL_LOCAL_CONNECTION_COMPLETION_OBSTRUCTION_NEAR_THE_UNIT_BASE_J4_COFRAME_BODY__NOT_A_NO_GO_FOR_MATERIALLY_DISTINCT_ACTION_OWNED_PRIMITIVE_FIELDS",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1v-spin-connection-orbit-obstruction-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1v_spin_connection_orbit_obstruction_probe.py",
+  "probe_result": "PASS_31_OF_31"
+}

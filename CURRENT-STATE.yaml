@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f34e40bfe0b7fa886ad6ae1adc301f3372c596e8
+revision_basis: 9fd9402800287cc973ee9ccf459bf550b08d092b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1V proves that the CBRS-1U primitive obstruction is not repaired by
+    the complete existing metric-compatible Spin connection once every field
+    owner is imposed. The unrestricted contracted 1,274-component connection
+    map is a genuine contrary control: its reached grade-one/grade-three
+    receiver has dimension and rank 78, and the radial return lies in its
+    image. But those cancelling plants drop the simultaneous T and independent
+    connection equations. The complete coframe zero-covector tangent has rank
+    230614, nullity 40 and kernel exactly the broken diagonal-Spin gauge orbit,
+    so no non-gauge connection modulus survives. The active radial momentum
+    row has positive exact invariant norm
+    (35647003639+449808155 sqrt(4177))/15753835008; all 91 Spin orbit
+    directions preserve it and cannot turn the nonzero residual into zero.
+    Thus every smooth field-admissible metric-compatible Spin-connection
+    completion near the unit base-J4 body is obstructed. This is formal-local,
+    not a remote-branch or new-primitive no-go. CBRS-1W must freeze the
+    smallest target-blind action-owned primitive-momentum class with an
+    independent non-gauge grade-one/grade-three return, including its own
+    coefficient, scale and Euler equation. A naked Weyl line or fitted
+    multiplier is not admissible. No local/global vacuum, stabilizer, spectrum,
+    ledger, canon, source-ownership or public-posture conclusion follows.
     CBRS-1U proves that the minimal homothetic conformal-coframe lift of the
     two base-J4 pointwise bodies is obstructed at the primitive-epsilon
     equation. The T, scalar and intrinsic MET(X) subsystem uniquely forces
@@ -2484,7 +2504,18 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1U kills the minimal
+  returning to old hardening or the B5 comparator. CBRS-1V closes every smooth
+  field-admissible metric-compatible Spin-connection completion near the unit
+  base-J4 coframe body. Although the unrestricted contracted connection map
+  is rank-78 surjective on its reached receiver and can cancel the radial
+  return algebraically, the simultaneous point-field equations leave only the
+  40-dimensional broken diagonal-Spin gauge orbit. The positive invariant
+  norm of the radial residual cannot vanish on that orbit. Execute CBRS-1W by
+  freezing the smallest target-blind action-owned primitive-momentum class
+  with an independent non-gauge grade-one/grade-three return; require its own
+  coefficient, scale and field equation before solving. Reject a naked Weyl
+  line, fitted multiplier, branch-selected frame, boundary or sector. Do not
+  compute a stabilizer or spectrum and do not advance to CBRS-2. CBRS-1U kills the minimal
   homothetic conformal-coframe lift at the primitive-epsilon equation. The
   reduced T/scalar/MET(X) subsystem forces T=rho T0 and admits
   g=eta/[-U(rho)], but the action-owned unrestricted momentum scales as

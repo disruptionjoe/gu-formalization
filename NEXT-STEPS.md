@@ -7,6 +7,22 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1V CLOSES THE COMPLETE FIELD-ADMISSIBLE SPIN-CONNECTION
+> RESCUE NEAR THE UNIT COFRAME BODY.** The unrestricted contracted
+> `1,274`-component connection map is a real contrary control: its reached
+> grade-one/three receiver has dimension and rank `78`, and the radial return
+> lies in its image. But those cancelling directions drop the simultaneous
+> `T` and independent-connection equations. The complete coframe zero-covector
+> tangent has rank `230,614`, nullity `40` and kernel exactly the broken
+> diagonal-Spin gauge orbit. The active radial momentum row has positive exact
+> invariant norm, and all `91` Spin generators preserve it, so gauge transport
+> cannot turn the nonzero primitive residual into zero. **Continue with
+> CBRS-1W: freeze the smallest target-blind action-owned primitive-momentum
+> class with an independent non-gauge grade-one/three return, including its
+> coefficient, scale and field equation.** Reject a naked Weyl line or fitted
+> multiplier. See
+> `explorations/conditional-build/selected-k77-cbrs1v-spin-connection-orbit-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1U KILLS THE MINIMAL HOMOTHETIC LOCAL LIFT AT THE
 > PRIMITIVE-EPSILON EQUATION.** The reduced `T`/scalar/`MET(X)` subsystem
 > uniquely forces `T=rho T0` and admits the exact conformal candidate
