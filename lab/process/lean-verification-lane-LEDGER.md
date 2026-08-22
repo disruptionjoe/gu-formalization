@@ -78,7 +78,7 @@ The un-typechecked draft duplicate formerly at
 | A | Achirality: `{K,chi}=0` implies `Re tr(chi Pi_+) = 0` | `canon/ghost-parity-krein-synthesis.md:26` (statement); `explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md` | `LEAN-VERIFIED`; explicit finite complex-matrix premises, trace readout only | complete | fences the chiral-generation reading |
 | B | V7 mod-3 index arithmetic | `explorations/big-swing-2026-07-06/VG-V7-cp2-equivariant-payoff.md` | `LEAN-VERIFIED`; section-independent `ZMod 3` core only | complete | count-import boundary |
 | C | Exact A1 phase boundary `lq = -l4/192` | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` | `LEAN-VERIFIED`; rational reduced-family coefficient boundary only | complete | mirror alignment phase |
-| D | Power-mean reduction | A1b (source document not located in repo — flagged 2026-08-03) | `NUMPY-CERT` | medium | supports C |
+| D | Power-mean reduction | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` §2 and execution-status banner; exact companion `tests/big-swing/as_a1b_reduced_phase_confirm.py` | `LEAN-VERIFIED`; finite inequality, exact 96-cell corollary, and uniform-equality witness only | complete | supports C |
 | E | Chi-parity no-go for orientation selection | `explorations/big-swing-2026-07-07/A2-native-ring-symmetry-nogo.md` | `NUMPY-CERT` | medium | sign-selection boundary |
 | F | Abstract Cartan-involution structural core | `explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md` | `NUMPY-CERT` | medium | quantization seat |
 | G | Involution projector algebra for the mirror map | `explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md` | `NUMPY-CERT` | medium | mirror kinematics |
@@ -102,7 +102,9 @@ The first three items are mandatory integrity work, not a retreat from the North
    including the unit-charge negative control.
 7. `L6 THEOREM C` — **DONE 2026-08-21**: exact rational aligned/equality/mirror-blind boundary at
    `lq = -l4/192`.
-8. `L7 THEOREM D`: formalize the power-mean reduction.
+8. `L7 THEOREM D` — **DONE 2026-08-22**: source-bound finite power-mean inequality,
+   exact 96-cell corollary and constant-magnitude equality witness. Spectral
+   realization and A1 phase interpretation remain explicit prose/Python premises.
 9. `L8 THEOREM E`: formalize trace parity under chi conjugation.
 10. `L9 THEOREMS F AND G`: formalize only the abstract involution and projector cores.
 11. `L10 OLD FILE TRIAGE`: repair or retire older broken library files only when they create certificate

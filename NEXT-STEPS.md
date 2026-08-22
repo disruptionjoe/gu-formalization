@@ -7,6 +7,22 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 THE POST-CBRS FRONTIER IS REBUILT; L7 IS LEAN-VERIFIED AND
+> L8 IS NEXT.** Applying CBRS-1AB's owner-before-evaluation rule to the seven
+> registered reopen horns leaves an empty admissible set. No synthetic
+> `CBRS-1AC` is licensed: sigma lacks an independent invariant; the odd field
+> lacks an independent released owner/normalization; projected torsion is
+> existing `T`; Euler squares have the wrong variational role; continuous flux
+> lacks a selector; Grassmann-odd fermions do not shift the real body; and the
+> unreleased cyclic two-connection mnemonic lacks a complete action. Park
+> `CBRS-1` until a complete new owner packet arrives and keep `CBRS-2` blocked
+> on a local solution. The strongest independent executable gate was L7. Its
+> owner source is A1 Section 2, and Lean now checks the general finite
+> power-mean inequality, the exact 96-cell corollary and constant-magnitude
+> equality witness. **Execute L8 next:** formalize only chi-conjugation trace
+> parity, without importing physical orientation selection into Lean. See
+> `explorations/conditional-build/conditional-build-frontier-and-l7-power-mean-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1AB CLOSES THE ODD-AUXILIARY ROUTE FOR THE RELEASED
 > SELECTED K77 ACTION.** The filed CBRS-1AA auxiliary is real `Spin(9,5)`,
 > while the selected K77 action and its `T` field are real `Spin(7,7)`.
