@@ -7,6 +7,30 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1AB CLOSES THE ODD-AUXILIARY ROUTE FOR THE RELEASED
+> SELECTED K77 ACTION.** The filed CBRS-1AA auxiliary is real `Spin(9,5)`,
+> while the selected K77 action and its `T` field are real `Spin(7,7)`.
+> Their Clifford real forms are not isomorphic; equal dimensions and
+> complexification do not give the required real equivariant action bridge.
+> Repeating the signature-robust exterior calculation natively on `Spin(7,7)`,
+> the exact existing torsion carrier decomposes as
+> `V* tensor Lambda2=Lambda1 direct-sum Lambda3 direct-sum Hook(2,1)`, with
+> dimensions `1274=14+364+896`. The desired 378-dimensional odd carrier is
+> then present only as a component of the already varied `T_77` field;
+> counting it again is a coordinate split already contained in `E_T` and
+> `M=E_B-E_T`. A complete `T'=T+cA Xi` substitution retains the `c^2` and all
+> nonlinear terms and is redundant; an independent norm instead leaves
+> `c^2/k_Xi` free. The source's `Xi_omega=D_omega Upsilon_omega` is an Euler
+> companion, not this field, and `I2B` is residual-squared. `kappa1` normalizes
+> existing `T`, not an absent independent copy. **Do not mint a synthetic
+> CBRS-1AC. Rebuild the substantial Progress frontier and admit another
+> CBRS-1 action class only when a materially distinct pre-density owner,
+> coefficient, complete Euler system and Hilbert map are named before target
+> evaluation.** The odd route reopens on a genuinely new source-normalized
+> non-Euler field/term; sigma reopens on an independent pre-density invariant.
+> `CBRS-2` remains blocked without an actual local solution. See
+> `explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1AA FINDS A NONZERO MIXED-BF ENDPOINT MAP BUT NO
 > NONREDUNDANT TARGET-BLIND OWNER.** For
 > `W_odd=Lambda1(R(9,5)) direct-sum Lambda3(R(9,5))`, the complete smallest

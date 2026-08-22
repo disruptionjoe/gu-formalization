@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f90eea0ae41c38bab34a70a980f5a11abecd0fde
+revision_basis: 9515110bbadddd9386effbd52f29c84ac85be650
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,37 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1AB exhausts released selected-K77 action ownership for the sole
+    canonical mixed-BF ray after correcting its signature scope. CBRS-1AA
+    filed Wodd on real Spin(9,5), while the selected K77 action and T field
+    stand on real Spin(7,7). These Clifford real forms are not isomorphic, so
+    equal dimensions or complexification cannot supply a typed action bridge.
+    The exterior decomposition is signature-robust: repeated natively on
+    Spin(7,7), the existing torsion carrier decomposes as V dual tensor
+    Lambda2(V)=Lambda1(V) direct-sum Lambda3(V) direct-sum Hook(2,1), with
+    dimensions 1274=14+364+896 and contraction plus total alternation of rank
+    378. The horn-native odd carrier is therefore only an irreducible
+    component of already varied T. Identifying Xi77 with that component is a
+    coordinate split already contained in E_T and M=E_B-E_T. Introducing
+    Xi77 independently through T'=T+cA Xi is either a
+    redundant complete field enlargement, with rank-one quadratic block and
+    every c-squared/nonlinear term retained, or a new multiplier/coupling if
+    only the cross term is kept. Adding an independent Xi norm leaves the
+    unsupplied rescaling invariant c^2/k_Xi. The source's identically named
+    Xi_omega=D_omega Upsilon_omega is a top-form adjoint-valued Euler
+    companion, not a Lambda1+Lambda3 configuration field; I2B and other
+    residual squares are Euler-squared deformations whose first variation
+    vanishes on the old Euler shell. Kappa1 normalizes existing T, not an
+    absent independent field. The released-action nonredundant normalization
+    owner quotient therefore has dimension zero: the filed Xi95 is not
+    action-typed, and its native Xi77 repair is not independent. Close the
+    odd-auxiliary route until genuinely new source/action evidence; reopen sigma only on an
+    independent pre-density invariant. The current first-action CBRS-1 class
+    is owner-exhausted without a local solution, so the next Progress run must
+    rebuild the substantial frontier and admit no synthetic CBRS-1AC. This is
+    not a no-go for unreleased or genuinely new source-normalized non-Euler
+    actions and changes no ledger, canon, source ownership, residue,
+    prediction, public posture or CBRS-2 state.
     CBRS-1AA classifies the smallest target-blind zero/first-order covariant
     action maps from the full real
     Lambda1(R(9,5)) direct-sum Lambda3(R(9,5)) Grassmann-even auxiliary into
@@ -2610,7 +2641,25 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1AA finds exactly two
+  returning to old hardening or the B5 comparator. CBRS-1AB proves that the
+  canonical mixed-BF ray has no independent owner in the checked released
+  selected K77 action. The filed Spin(9,5) auxiliary has no real-typed bridge
+  to that Spin(7,7) action. After native Spin(7,7) retyping, Lambda1 plus
+  Lambda3 occurs canonically only as the trace/alternation component of the
+  existing T field; using it again is a
+  coordinate split already contained in E_T. An independent copy is a
+  redundant complete field enlargement or a genuinely new field with free
+  c^2/k_Xi. Source Xi_omega is an Euler companion, not that field, and I2B is
+  residual-squared. Close the odd-auxiliary route until a new source/action
+  record supplies an independent Wodd field, normalization and non-Euler
+  coupling. Reopen sigma only when an independent pre-density invariant
+  selects its second function. The current first-action CBRS-1 class is
+  owner-exhausted without a local solution: rebuild the substantial Progress
+  frontier and admit a materially distinct conditional action class only
+  after its pre-density owner, coefficient, complete Euler system and Hilbert
+  map are frozen before target evaluation. Do not mint a synthetic CBRS-1AC,
+  fit c to M0, add a multiplier, frame, boundary or sector, or advance to
+  CBRS-2. CBRS-1AA finds exactly two
   raw mixed BF maps, d_B on Lambda1 and delta_B on Lambda3, from the full odd
   auxiliary into the existing primitive Lambda2 carrier. Their B/T endpoint
   current and Hilbert variation are nonzero, but the canonical d+delta ray has

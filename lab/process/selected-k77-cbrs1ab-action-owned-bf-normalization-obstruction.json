@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1AB_FILED_SPIN95_AUXILIARY_HAS_NO_TYPED_SELECTED_SPIN77_ACTION_BRIDGE__HORN_NATIVE_RETYPE_HAS_NO_INDEPENDENT_SOURCE_NORMALIZED_NON_EULER_OWNER",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1AB",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_EPSILON_VARPI_T_I1B_I2B_AND_EULER_COMPANION_XI_OMEGA__REPOSITORY_CORRECTS_THE_FILED_SPIN95_AUXILIARY_SCOPE_AGAINST_THE_SELECTED_SPIN77_ACTION_AND_DERIVES_THE_HORN_NATIVE_TORSION_IRREP_AND_VARIATIONAL_OWNER_EXHAUSTION__SOURCE_SILENT_ON_AN_INDEPENDENT_WODD_FIELD_BF_TERM_AND_COUPLING",
+  "predecessor": {
+    "construction": "CBRS-1AA",
+    "probe_result": "PASS_57_OF_57",
+    "open_gate": "AUDIT_CANONICAL_HODGE_DE_RHAM_BF_RAY_AGAINST_SELECTED_K77_ACTION_FOR_INDEPENDENT_NORMALIZATION_AND_NONREDUNDANT_OWNER"
+  },
+  "signature_horn_audit": {
+    "filed_auxiliary_horn": "Spin(9,5)",
+    "selected_action_horn": "Spin(7,7)",
+    "filed_clifford_real_form": "Cl(9,5)=M(64,H)",
+    "selected_clifford_real_form": "Cl(7,7)=M(128,R)",
+    "canonical_real_equivariant_bridge": false,
+    "complexification_is_real_typed_bridge": false,
+    "abstract_exterior_dimensions_are_signature_robust": true,
+    "disposition": "FILED_WODD95_CANNOT_INHERIT_SELECTED_ACTION_OWNERSHIP__REPEAT_NATIVELY_ON_SPIN77_BEFORE_OWNER_TEST"
+  },
+  "torsion_decomposition": {
+    "ambient": "V_77=R(7,7)",
+    "existing_field": "T_77_IN_V_77_DUAL_TENSOR_Lambda2(V_77)",
+    "existing_field_dimension": 1274,
+    "decomposition": "Lambda1(V)_DIRECT_SUM_Lambda3(V)_DIRECT_SUM_HOOK_2_1",
+    "lambda1_dimension": 14,
+    "lambda3_dimension": 364,
+    "hook_dimension": 896,
+    "combined_trace_alternation_rank": 378,
+    "combined_kernel_dimension": 896,
+    "filed_wodd95_is_selected_T77_component": false,
+    "native_retyped_wodd77_is_existing_T77_component": true,
+    "wodd_is_independent_released_field": false
+  },
+  "released_action_inventory": {
+    "configuration_fields": [
+      "epsilon_GROUP_VALUED_WITH_Lambda2_TANGENT",
+      "varpi_AND_DERIVED_T_EQUALS_varpi_MINUS_B_epsilon_IN_V_DUAL_TENSOR_Lambda2",
+      "MET_X_AND_SHIAB",
+      "GRASSMANN_ODD_FERMIONS"
+    ],
+    "bosonic_actions": ["I1B_AUGMENTED_TORSION_FIRST_ACTION", "I2B_BOSONIC_RESIDUAL_NORM_SQUARE"],
+    "existing_torsion_coefficient": "kappa1",
+    "source_xi_omega": "D_omega_Upsilon_omega_TOP_FORM_ADJOINT_EULER_COMPANION",
+    "source_xi_omega_is_configuration_field": false,
+    "source_xi_omega_equals_cbrs_auxiliary": false,
+    "independent_wodd_field": false,
+    "independent_bf_coefficient": false,
+    "additional_released_zero_fermion_bosonic_owner": false
+  },
+  "owner_horns": {
+    "filed_Xi95_against_selected_action": "WRONG_REAL_SIGNATURE_HORN__NO_CANONICAL_SPIN_EQUIVARIANT_ACTION_BRIDGE",
+    "native_Xi77_equals_projected_T77": "EXISTING_FIELD_COORDINATE_SPLIT__ALREADY_INCLUDED_IN_E_T_AND_M_EQUALS_E_B_MINUS_E_T",
+    "independent_Xi_complete_shift": "REDUNDANT_FIELD_COORDINATE_ENLARGEMENT_WITH_ALL_C_SQUARED_AND_NONLINEAR_TERMS_RETAINED",
+    "independent_Xi_cross_term_only": "MULTIPLIER_OR_NEW_UNOWNED_ACTION_TERM",
+    "independent_Xi_with_quadratic_norm": "GENUINELY_NEW_FIELD_WITH_UNSUPPLIED_RESCALING_INVARIANT_c_SQUARED_OVER_k_Xi",
+    "source_Xi_omega": "EULER_COMPANION_WRONG_VARIATIONAL_ROLE_AND_CARRIER",
+    "I2B_or_residual_square": "EULER_SQUARED_DEFORMATION_VANISHING_TO_FIRST_ORDER_ON_OLD_EULER_SHELL"
+  },
+  "field_redefinition_certificate": {
+    "quadratic_form": "kT_OVER_2_TIMES_T_PLUS_c_A_Xi_SQUARED",
+    "cross_coefficient": "kT*c",
+    "induced_quadratic_coefficient": "kT*c^2/2",
+    "two_field_hessian_determinant": 0,
+    "two_field_hessian_rank": 1,
+    "independent_norm_determinant": "kT*kXi",
+    "surviving_rescaling_invariant": "c^2/kXi"
+  },
+  "verdict": {
+    "raw_canonical_bf_map_nonzero": true,
+    "released_action_owned_nonredundant_normalization_quotient_dimension": 0,
+    "odd_auxiliary_route": "CLOSED_UNTIL_GENUINELY_NEW_SOURCE_ACTION_EVIDENCE",
+    "sigma_route": "CLOSED_UNTIL_INDEPENDENT_PRE_DENSITY_INVARIANT",
+    "current_first_action_cbrs1_class": "OWNER_EXHAUSTED_WITHOUT_LOCAL_SOLUTION",
+    "cbrs2_admitted": false
+  },
+  "reopen_conditions": [
+    "RELEASED_OR_AUTHENTICATED_SOURCE_ACTION_TERM_WITH_AN_INDEPENDENT_WODD_FIELD_NORMALIZATION_AND_NON_EULER_COUPLING",
+    "INDEPENDENT_PRE_DENSITY_INVARIANT_SELECTING_THE_SECOND_SIGMA_FUNCTION",
+    "MATERIALLY_DISTINCT_TARGET_BLIND_ACTION_CLASS_WITH_FIELD_CONTENT_COEFFICIENT_COMPLETE_EULER_AND_HILBERT_MAP_FIXED_BEFORE_TARGET_EVALUATION"
+  ],
+  "forbidden_shortcuts": [
+    "TRANSFER_THE_SPIN95_AUXILIARY_INTO_THE_SPIN77_ACTION_BY_EQUAL_DIMENSION_OR_COMPLEXIFICATION",
+    "IDENTIFY_SOURCE_XI_OMEGA_WITH_THE_CBRS_AUXILIARY_BY_NAME",
+    "COUNT_PROJECTED_T_AS_A_SECOND_INDEPENDENT_FIELD_OWNER",
+    "DROP_C_SQUARED_OR_NONLINEAR_TERMS_FROM_THE_COMPLETE_FIELD_SUBSTITUTION",
+    "USE_kappa1_TO_NORMALIZE_AN_ABSENT_INDEPENDENT_FIELD",
+    "FIT_c_TO_M0",
+    "ADD_A_MULTIPLIER_FRAME_BOUNDARY_OR_SECTOR",
+    "ADVANCE_TO_CBRS2_WITHOUT_A_COMPLETE_LOCAL_SOLUTION"
+  ],
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_SIGNATURE_HORN_AND_OWNER_EXHAUSTION_FOR_THE_CANONICAL_MIXED_BF_RAY__FILED_SPIN95_OBJECT_NOT_ACTION_TYPED__NATIVE_SPIN77_RETYPE_NOT_INDEPENDENT__NO_UNIVERSAL_NO_GO_FOR_UNRELEASED_CYCLIC_COMPLETED_FERMION_STRESS_OR_GENUINELY_NEW_SOURCE_NORMALIZED_ODD_FIELD_ACTIONS__NO_LOCAL_OR_GLOBAL_VACUUM_STABILIZER_OR_SPECTRUM",
+  "probe": "tests/channel-swings/selected_k77_cbrs1ab_action_owned_bf_normalization_obstruction_probe.py",
+  "probe_result": "PASS_64_OF_64",
+  "next_gate": "REBUILD_THE_SUBSTANTIAL_PROGRESS_FRONTIER__ADMIT_NO_SYNTHETIC_CBRS1AC__REOPEN_CBRS1_ONLY_ON_A_NAMED_MATERIALLY_DISTINCT_PRE_DENSITY_ACTION_OWNER__KEEP_CBRS2_BLOCKED_UNTIL_A_COMPLETE_LOCAL_SOLUTION",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
