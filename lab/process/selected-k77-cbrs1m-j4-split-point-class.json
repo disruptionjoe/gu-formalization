@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1M_FOUR_NEW_NATIVE_J4_FIELD_STATIONARY_BRANCHES_PASS_COMPLETE_POINT_OWNERS_BUT_FAIL_CONSTANT_GRADE_METRIC_STATIONARITY",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1M",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_DERIVES_THE_J4_SPLIT_FIELD_CLASS__SOURCE_SILENT_ON_THE_CLASS",
+  "frozen_class": {
+    "formula": "base: T_i=a gamma_i+b i gamma_i J4; normal: T_i=c gamma_i+d gamma_i J4",
+    "base_slots": [0, 1, 2, 3],
+    "normal_slots": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "j4_square": "-1",
+    "real_form": "BASE_GRADE3_MULTIPLIED_BY_I__NORMAL_GRADE5_REAL__SELECTED_B_SKEW_CARRIER",
+    "canonicity": "REPOSITORY_NATIVE_4_PLUS_10_SPLIT_PROBE__NOT_OBSERVED_3_PLUS_1_OR_SOURCE_SELECTED_PHYSICAL_COMPLEX_STRUCTURE",
+    "target_blind": true,
+    "critical_point_count": 8,
+    "four_new_j4_branches": {
+      "normal_j4_pair": {
+        "a": "3/28+sqrt(1366)/336",
+        "b": "0",
+        "c": "-43/2016-sqrt(1366)/2016",
+        "d": "plus_or_minus sqrt(367/1354752+5sqrt(1366)/677376)",
+        "density": "(101117+2732sqrt(1366))/6096384"
+      },
+      "base_j4_pair": {
+        "a": "(-293+5sqrt(4177))/2064",
+        "b": "plus_or_minus sqrt(1859/118336+245sqrt(4177)/59168)",
+        "c": "(21-3sqrt(4177))/2064",
+        "d": "0",
+        "density": "5(43687-4177sqrt(4177))/6390144"
+      }
+    }
+  },
+  "point_equations": {
+    "branches": 4,
+    "translation_dimension_per_branch": 229376,
+    "translation_support_per_branch": 0,
+    "normal_j4_unrestricted_momentum_support": 24,
+    "normal_j4_unrestricted_momentum_grades": [1, 5],
+    "base_j4_unrestricted_momentum_support": 18,
+    "base_j4_unrestricted_momentum_grades": [1, 3],
+    "independent_spin_connection_dimension_per_branch": 1274,
+    "spin_grade_two_support_per_branch": 0,
+    "moving_shiab_generator_count": 91,
+    "moving_shiab_support_per_branch": 0,
+    "action_density_per_branch": "NONZERO",
+    "constant_grade_metric_row_support_per_branch": 4,
+    "reduced_hessian_rank_per_branch": 4
+  },
+  "class_disposition": "FOUR_NEW_EXACT_FIELD_STATIONARY_CONSTANT_CLASSES_ADMITTED_TO_COMPLETE_NONFACTORIZING_FIRST_JET_METRIC_GATE__NOT_METRIC_STATIONARY_AT_CONSTANT_GRADE",
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_FIELD_STATIONARY_NATIVE_J4_SPLIT_CLASS__CONSTANT_GRADE_METRIC_OBSTRUCTED__NOT_SOURCE_OWNED_GLOBAL_OBSERVED_OR_PHYSICAL",
+  "next_gate": "CBRS1N_COMPLETE_J4_RESIDUAL_SYMMETRY_T_PLUS_SPIN_TANGENT__NONFACTORIZING_FIRST_JET_METRIC_GRAPH__PRIMITIVE_QUOTIENT__THEN_SYMBOL_IF_ANY",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1m-j4-split-point-class-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1m_j4_split_point_class_probe.py",
+  "probe_result": "PASS_60_OF_60"
+}

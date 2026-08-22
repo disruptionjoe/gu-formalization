@@ -2,10 +2,29 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-21"
+updated_at: "2026-08-22"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-22 CBRS-1M FREEZES FOUR NATIVE J4 FIELD-STATIONARY BRANCHES,
+> ALL CONSTANT-METRIC OBSTRUCTED.** On the existing repository-native 4+10
+> split, the selected real form uses `i gamma_i J4` (grade three) on the four
+> base slots and `gamma_i J4` (grade five) on the ten normal slots. The exact
+> four-variable action has eight real critical points, including two radical
+> branches over `sqrt(1366)` and two over `sqrt(4177)`. At each new branch all
+> `229,376` real `T` translations, all `1,274` independent Spin-grade-two
+> connection cells, and all `91` moving-Shiab primitive returns vanish; the
+> reduced Hessian has rank four. But every new branch has nonzero action
+> density, leaving four nonzero intrinsic metric cells at constant grade.
+> These are field-stationary reconstruction classes, not metric-stationary
+> constants, observed 3+1 data, source-selected vacua, or spectra. **Continue
+> with CBRS-1N: build the complete residual-symmetry `T` plus Spin tangent and
+> the nonfactorizing first-jet metric graph together; quotient orbit and
+> primitive directions, and construct a symbol only if a metric-admissible
+> non-orbit domain survives. Do not add a counterterm, mix the full commutant,
+> or advance to CBRS-2.** See
+> `explorations/conditional-build/selected-k77-cbrs1m-j4-split-point-class-2026-08-22.md`.
 
 > **2026-08-21 CBRS-1L CLOSES ALL FOUR SIGNATURE-SPLIT POINTS AS GAUGE-
 > RIGID.** The complete selected-action tangent was rebuilt under the actual
