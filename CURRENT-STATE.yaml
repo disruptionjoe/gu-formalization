@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 262481c65928311fce6e8c871918a0dea8ae7701
+revision_basis: e53b3e1c6e66a58863beae61c6cb9de8518d0ef4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,28 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1T structurally rejects an unselected continuous top-form flux and
+    freezes the smallest rank-four isotropizing derivative owner: four real
+    Grassmann-even base scalars with one fixed internal Lorentz form,
+    rho=eta_AB Phi^A Phi^B, action
+    C3(T)+rho Q2(T)+(1/2)g^{-1}eta(dPhi,dPhi)+(rho-1)^2/4, and no
+    branch-selected coefficient, frame, signature sector or flux. Fewer than
+    four gradients cannot produce a nonzero rank-four metric pullback. On the
+    base-J4 radical pair, the common negative density gives one real common
+    coframe scale lambda^2=-I_base=0.1770471194... . At rho=1 and
+    box(Phi)=6I_base Phi, both pointwise formal bodies solve every T, scalar
+    and intrinsic MET(X) row. The positive normal-J4 density would require
+    lambda^2<0, so neither normal branch continues without changing the frozen
+    owner. Each licensed complete fixed-metric 230654-fiber has zero-covector
+    rank 230614, nullity 40 and exactly the inherited broken diagonal-Spin
+    gauge kernel. The three transverse symbols are
+    g^{-1}(xi,xi)+6I_base and the radial symbol is
+    g^{-1}(xi,xi)+30I_base+2; their real characteristic nullities are 43 and
+    41, with scalar rather than gauge directions. CBRS-1U must lift the two
+    pointwise coframe bodies to a common local formal or actual solution or
+    prove the integrability obstruction, then derive the full coupled
+    stabilizer and spectrum. No source coframe, local/global vacuum, ledger,
+    canon, source-ownership or public-posture conclusion follows.
     CBRS-1S closes the minimal covariant one-scalar first-jet owner on the four
     J4 bodies. The target-blind Lorentzian action adds
     (1/2)g^{-1}(dphi,dphi) to the CBRS-1R phi-squared quadratic coupling and
@@ -2444,7 +2466,18 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1S proves that the
+  returning to old hardening or the B5 comparator. CBRS-1T freezes the
+  smallest target-blind isotropizing derivative owner as a four-component
+  real even-scalar multiplet with one fixed internal Lorentz form. It produces
+  two exact base-J4 pointwise formal coframe bodies with common
+  lambda^2=-I_base, closes every intrinsic MET(X) row, and leaves only the
+  inherited 40-dimensional gauge kernel at zero covector; the normal-J4 pair
+  has no real same-signature coframe scale. Execute CBRS-1U by lifting the two
+  licensed pointwise bodies to one common local formal or actual solution or
+  proving the exact integrability obstruction, then derive the full coupled
+  stabilizer and spectrum. Do not select a global chart, boundary, flux,
+  internal frame or signature sector after the result, and do not advance to
+  CBRS-2. CBRS-1S proves that the
   minimal target-blind covariant one-scalar derivative owner has four real
   pointwise formal J4 two-jets and a genuine scalar characteristic, but every
   nonzero gradient has nonvanishing trace-free Hilbert stress. Its complete

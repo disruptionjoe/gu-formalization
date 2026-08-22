@@ -7,6 +7,26 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1T OPENS THE MINIMAL FIXED-LORENTZ COFRAME BODY.** A
+> four-dimensional top form has isotropic stress but leaves an unselected
+> conserved continuous flux, so matching it to a J4 density would violate the
+> no-post-target sector rule. The smallest honest alternative has four real
+> even base scalars with fixed internal Lorentz form and action
+> `C3(T)+rho Q2(T)+(1/2)g^{-1}eta(dPhi,dPhi)+(rho-1)^2/4`. Fewer gradients
+> cannot make a rank-four metric pullback. The base-J4 pair has two exact real
+> pointwise formal coframe bodies at the common scale
+> `lambda^2=-I_base=0.1770471194...`; every field and full intrinsic `MET(X)`
+> row vanishes. The positive normal-J4 density admits no real scale in this
+> same-signature owner. Each licensed complete fixed-metric `230,654`-fiber
+> has rank `230,614`, nullity `40` and exactly the inherited gauge kernel; its
+> three transverse and one radial scalar characteristic directions are
+> physical, not gauge. **Continue with CBRS-1U: lift the two pointwise bodies
+> to a common local formal or actual solution or prove the integrability
+> obstruction, then derive the full coupled stabilizer and spectrum.** Do not
+> choose a chart, boundary, flux, internal frame or signature sector after the
+> result, and do not advance to CBRS-2. See
+> `explorations/conditional-build/selected-k77-cbrs1t-minimal-lorentz-coframe-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1S CLOSES THE MINIMAL COVARIANT ONE-SCALAR FIRST-
 > JET OWNER.** The target-blind Lorentzian action adds
 > `(1/2)g^{-1}(dphi,dphi)` to the CBRS-1R `phi^2 Q2` coupling and unit double

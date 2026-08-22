@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1T_MINIMAL_FIXED_LORENTZ_COFRAME_REOPENS_TWO_BASE_J4_POINTWISE_METRIC_STATIONARY_BODIES",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1T",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_FREEZES_THE_MINIMAL_FIXED_LORENTZ_COFRAME_OWNER_AND_DERIVES_THE_POINTWISE_REOPENER__SOURCE_SILENT_ON_THE_MULTIPLET_AND_CLASS",
+  "structural_fork": {
+    "top_form": "REJECTED_AS_TARGET_BLIND_OWNER_WITHOUT_AN_ACTION_OR_QUANTIZATION_SELECTED_FLUX_SECTOR",
+    "top_form_reason": "A_4D_TOP_FORM_HAS_ISOTROPIC_STRESS_BUT_ITS_EULER_EQUATION_LEAVES_A_CONSERVED_CONTINUOUS_FLUX__MATCHING_THAT_FLUX_AFTER_READING_I0_IS_FORBIDDEN_SECTOR_SELECTION",
+    "minimum_scalar_gradients_for_nonzero_isotropic_pullback": 4,
+    "selected_route": "FOUR_COMPONENT_REAL_EVEN_SCALAR_MULTIPLET_WITH_FIXED_INTERNAL_LORENTZ_FORM",
+    "selected_internal_signature": "SAME_FIXED_LORENTZ_INERTIA_AS_BASE",
+    "fitted_flux_frame_coefficient_or_sector": false
+  },
+  "frozen_action": {
+    "formula": "C3(T)+rho*Q2(T)+(1/2)g_inverse_eta(dPhi,dPhi)+(rho-1)^2/4",
+    "rho": "eta_AB*Phi^A*Phi^B",
+    "C3_owner": "SELECTED_FIRST_ACTION_CUBIC_PART",
+    "Q2_owner": "SELECTED_FIRST_ACTION_QUADRATIC_PART",
+    "Phi": "FOUR_REAL_GRASSMANN_EVEN_BASE_SCALARS",
+    "derivative_owner": "FIXED_INTERNAL_LORENTZ_GRAM_OF_FOUR_BASE_COVECTORS",
+    "potential": "UNIT_INTERNAL_LORENTZ_RADIAL_WELL",
+    "target_blind": true,
+    "fitted_coefficients": false
+  },
+  "formal_body_stationarity": {
+    "frozen_value_orbit": "rho=1__UNIT_SPACELIKE_INTERNAL_ORBIT",
+    "coframe_gram": "eta_AB*d_mu_Phi^A*d_nu_Phi^B=lambda_squared*g_mu_nu",
+    "lambda_squared_exact": "-I_base",
+    "lambda_squared_approx": 0.17704711942673002,
+    "scalar_euler_completion": "box(Phi^A)=6I_base*Phi^A",
+    "real_fully_metric_stationary_base_j4_bodies": 2,
+    "real_same_signature_normal_j4_bodies": 0,
+    "normal_obstruction": "I_normal_POSITIVE_IMPLIES_lambda_squared=-I_normal_NEGATIVE",
+    "same_frame_and_scale_across_licensed_pair": true,
+    "local_or_global_solution_claim": false
+  },
+  "complete_tangent_symbol": {
+    "fiber_dimension": 230654,
+    "inherited_T_connection_dimension": 230650,
+    "transverse_symbol": "g_inverse(xi,xi)+6I_base",
+    "transverse_multiplicity": 3,
+    "longitudinal_symbol": "g_inverse(xi,xi)+30I_base+2",
+    "longitudinal_multiplicity": 1,
+    "zero_covector_rank_per_licensed_branch": 230614,
+    "zero_covector_nullity_per_licensed_branch": 40,
+    "zero_covector_kernel": "EXACTLY_THE_40_DIMENSIONAL_BROKEN_DIAGONAL_SPIN_ORBIT",
+    "transverse_characteristic_nullity": 43,
+    "longitudinal_characteristic_nullity": 41,
+    "characteristic_extra_directions": "COFRAME_SCALARS_NOT_GAUGE"
+  },
+  "metric_variation": {
+    "pullback_gram": "B_mu_nu=lambda_squared*g_mu_nu",
+    "kinetic_trace": "4lambda_squared",
+    "full_metric_euler": "B_mu_nu-g_mu_nu*(I0+kinetic_trace/2)=(-I0-lambda_squared)g_mu_nu",
+    "base_solution": "lambda_squared=-I_base",
+    "full_metric_stationary_pointwise_bodies": 2,
+    "scope": "FOUR_NEW_SCALAR_GRADIENTS_OVER_THE_INHERITED_ZERO_GRAPH_MOMENTUM_BASE_J4_BODY"
+  },
+  "contrary_controls": {
+    "fitted_top_form_flux": "FORBIDDEN_CONTINUOUS_SECTOR_SELECTION",
+    "opposite_internal_signature": "DIFFERENT_FROZEN_OWNER",
+    "rank_three_gradient_packet": "CANNOT_REPRODUCE_A_NONZERO_RANK_FOUR_METRIC",
+    "branch_selected_internal_frame": "OUTSIDE_SCOPE",
+    "tracefree_only_metric_check": "MISSES_THE_ISOTROPIC_METRIC_EQUATION",
+    "global_coordinate_interpretation": "EXCEEDS_POINTWISE_FORMAL_JET_CERTIFICATE"
+  },
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_FORMAL_COFRAME_BODY_AND_COMPLETE_FIXED_METRIC_SYMBOL__NO_SOURCE_COFRAME_LOCAL_OR_GLOBAL_VACUUM_OR_SPECTRUM",
+  "next_gate": "CBRS1U_LIFT_THE_TWO_BASE_J4_POINTWISE_COFRAME_BODIES_TO_A_COMMON_LOCAL_FORMAL_OR_ACTUAL_SOLUTION_OR_PROVE_THE_INTEGRABILITY_OBSTRUCTION_THEN_DERIVE_THE_FULL_COUPLED_STABILIZER_AND_SPECTRUM",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1t-minimal-lorentz-coframe-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1t_minimal_lorentz_coframe_probe.py",
+  "probe_result": "PASS_60_OF_60"
+}
