@@ -7,6 +7,23 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1R CLOSES THE MINIMAL POSITIVE ULTRALOCAL EVEN-
+> CONDENSATE OWNER.** The target-blind action
+> `S_R(T,phi)=C3(T)+phi^2 Q2(T)+(phi^2-1)^2/4` promotes the selected first
+> action's existing quadratic owner without fitting any J4 branch. The normal-
+> J4 pair yields four exact real field-plus-condensate saddles; the base-J4
+> discriminant is negative and yields none. Every real complete enlarged
+> tangent has dimension `230,651`, rank `230,611`, nullity `40`, and kernel
+> exactly equal to the broken diagonal-Spin gauge orbit. Its scalar Schur
+> complement is nonzero, its non-orbit quotient is zero, and its positive
+> on-shell density leaves the full intrinsic `MET(X)` row nonzero. **Continue
+> with CBRS-1S: freeze a genuinely nonminimal derivative, indefinite or
+> otherwise intrinsic nonfactorizing even owner before solving it, with its own
+> potential, real body stationarity, complete metric variation and full
+> tangent.** Do not fit a potential coefficient, use an affine shift or action
+> collapse, tune J4, or advance to CBRS-2. See
+> `explorations/conditional-build/selected-k77-cbrs1r-condensate-mass-owner-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1Q CLOSES THE MINIMAL GRASSMANN-ODD BILINEAR
 > REOPENER.** For `S=S_B+psibar D(b) psi` with independent Grassmann-odd
 > barred and unbarred fields, the body of the fermion current, both mixed

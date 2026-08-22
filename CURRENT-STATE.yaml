@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a17bb1c00c09e31942f14653405c057dfddbad14
+revision_basis: 07a93a1c44274b9bd0453a014245d5ca275c129d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1R closes the minimal positive ultralocal even-condensate owner on the
+    four J4 rays. The target-blind action
+    S_R(T,phi)=C3(T)+phi^2 Q2(T)+(phi^2-1)^2/4 promotes the selected first
+    action's existing quadratic owner without fitting a branch. The normal-J4
+    pair has positive exact discriminant and yields four real body-stationary
+    field-plus-condensate saddles, with scale r=0.8547035090... and both signs
+    of phi. The base-J4 discriminant is negative, so neither base branch has a
+    real nonzero continuation. On every real saddle the complete enlarged
+    tangent has dimension 230651, rank 230611 and nullity 40; the exact scalar
+    Schur complement is 2(2-r)>0, so the kernel remains exactly the broken
+    diagonal-Spin gauge orbit and the real non-orbit quotient is zero. The
+    total on-shell density is (1-r)(3-r)/12>0 while graph-visible connection
+    momentum stays zero, so the full intrinsic MET(X) row is nonzero. No J4
+    body becomes fully metric stationary. CBRS-1S must freeze a genuinely
+    nonminimal derivative, indefinite or otherwise intrinsic nonfactorizing
+    even owner before solving it; do not fit a potential coefficient, use an
+    affine shift or action collapse, tune J4, or advance to CBRS-2. No ledger,
+    canon, source-ownership or public-posture conclusion follows.
     CBRS-1Q closes the minimal even bilinear Grassmann-odd fermion extension
     as a route to a real metric tangent on the four J4 bodies. For
     S=S_B+psibar D(b) psi, the body of psibar(dD/db)psi, both even/odd mixed
@@ -2088,6 +2106,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/selected-k77-cbrs1r-condensate-mass-owner-2026-08-22.md
+    - lab/process/selected-k77-cbrs1r-condensate-mass-owner.json
     - explorations/conditional-build/selected-k77-cbrs1h-formal-jet-factorization-2026-08-21.md
     - lab/process/selected-k77-cbrs1h-formal-jet-factorization.json
     - explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md
@@ -2405,13 +2425,20 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1Q proves that the
+  returning to old hardening or the B5 comparator. CBRS-1R proves that the
+  minimal target-blind positive ultralocal even-condensate owner produces four
+  real body-stationary normal-J4 saddles and no real base-J4 saddle, but every
+  real complete 230651-dimensional tangent retains exactly the 40-dimensional
+  diagonal gauge kernel and zero non-orbit quotient. Its nonzero on-shell
+  density leaves the full intrinsic MET(X) row nonzero. Execute CBRS-1S by
+  freezing one genuinely nonminimal derivative, indefinite or otherwise
+  intrinsic nonfactorizing even owner before solving it. Do not fit a potential
+  coefficient, use an affine shift, decoupled scalar, flat multiplier or
+  zero-action prefactor as a reopener, tune J4, or advance to CBRS-2. CBRS-1Q proves that the
   minimal even bilinear Grassmann-odd extension of the four closed J4 bodies
   cannot reopen a real non-orbit metric tangent: nonzero odd backreaction can
   be nilpotent, but its body current and mixed/body-Hessian corrections vanish.
-  Execute CBRS-1R by freezing one materially distinct target-blind even owner,
-  such as an action-derived condensate or bosonized auxiliary field, together
-  with its potential, body stationarity and complete metric tangent. Do not
+  Its required target-blind even-owner successor is now closed at CBRS-1R. Do not
   reinterpret a commuting-spinor control as a fermion vacuum, treat a finite
   odd kernel as a metric direction, tune J4, or advance to CBRS-2. CBRS-1P proves by a
   two-prime characteristic-zero rank sandwich that all four constant radical

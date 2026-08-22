@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_build_registry",
+  "created": "2026-08-22",
+  "status": "CBRS1R_MINIMAL_EVEN_CONDENSATE_QUADRATIC_OWNER_FAILS_FULL_METX_STATIONARITY_AND_ADDS_NO_NONORBIT_TANGENT",
+  "lane_id": "1",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "construction": "CBRS-1R",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_return": "SOURCE_CONFIRMS_ACTION_PRIMITIVE_EPSILON_AND_METX_GRAMMAR__REPOSITORY_FREEZES_THE_EVEN_CONDENSATE_OWNER_AND_DERIVES_THE_OBSTRUCTION__SOURCE_SILENT_ON_THE_CONDENSATE_AND_CLASS",
+  "frozen_action": {
+    "formula": "C3(T)+phi^2*Q2(T)+(phi^2-1)^2/4",
+    "C3_owner": "SELECTED_FIRST_ACTION_CUBIC_PART",
+    "Q2_owner": "SELECTED_FIRST_ACTION_QUADRATIC_PART",
+    "phi": "REAL_BODY_VALUED_Z2_EVEN_SCALAR",
+    "potential": "UNIT_SYMMETRIC_DOUBLE_WELL",
+    "target_blind": true,
+    "fitted_coefficients": false
+  },
+  "body_stationarity": {
+    "ray_equation": "r=phi^2__6I0r^2+r-1=0",
+    "normal_j4_discriminant": "1+24(101117+2732sqrt(1366))/6096384__POSITIVE",
+    "normal_j4_scale": "2/(1+sqrt(1+24I_normal))",
+    "normal_j4_scale_approx": 0.8547035090356916,
+    "normal_j4_real_saddles": 4,
+    "base_j4_discriminant": "1+120(43687-4177sqrt(4177))/6390144__NEGATIVE",
+    "base_j4_discriminant_approx": -3.2491308662415195,
+    "base_j4_real_saddles": 0
+  },
+  "complete_tangent": {
+    "dimension": 230651,
+    "hessian_relation": "COMPLETE_T_CONNECTION_BLOCK_EQUALS_r_TIMES_CBRS1P_HESSIAN_PLUS_ONE_SCALAR_SCHUR_DIRECTION",
+    "scalar_schur": "2(2-r)__STRICTLY_POSITIVE_ON_THE_REAL_NORMAL_J4_SADDLES",
+    "rank_per_real_saddle": {
+      "normal_J4_sign_-1_phi_sign_-1": 230611,
+      "normal_J4_sign_-1_phi_sign_+1": 230611,
+      "normal_J4_sign_+1_phi_sign_-1": 230611,
+      "normal_J4_sign_+1_phi_sign_+1": 230611
+    },
+    "nullity_per_real_saddle": {
+      "normal_J4_sign_-1_phi_sign_-1": 40,
+      "normal_J4_sign_-1_phi_sign_+1": 40,
+      "normal_J4_sign_+1_phi_sign_-1": 40,
+      "normal_J4_sign_+1_phi_sign_+1": 40
+    },
+    "kernel": "EXACTLY_THE_40_DIMENSIONAL_BROKEN_DIAGONAL_SPIN_ORBIT",
+    "real_nonorbit_metric_body_dimension": 0
+  },
+  "metric_variation": {
+    "normal_j4_on_shell_density": "(1-r)(3-r)/12__STRICTLY_POSITIVE",
+    "normal_j4_on_shell_density_approx": 0.02597533768459652,
+    "graph_visible_connection_momentum": 0,
+    "intrinsic_metric_row": "NONZERO",
+    "full_metric_stationary_j4_bodies": 0
+  },
+  "contrary_controls": {
+    "fitted_zero_schur": "REQUIRES_r=2_AND_I0=-1/24__NEITHER_J4_DENSITY",
+    "omit_potential_density": "FALSE_METRIC_PASS",
+    "phi_zero": "QUADRATIC_OWNER_ACTION_COLLAPSE__NOT_A_PHYSICAL_REOPENER",
+    "affine_shift_or_decoupled_scalar": "FIELD_REDEFINITION_OR_NO_METRIC_EFFECT"
+  },
+  "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_MINIMAL_EVEN_CONDENSATE_OWNER_OBSTRUCTION__NO_SOURCE_CONDENSATE_GLOBAL_VACUUM_OR_SPECTRUM",
+  "next_gate": "CBRS1S_FREEZE_A_NONMINIMAL_DERIVATIVE_OR_INDEFINITE_EVEN_OWNER_WITH_AN_INTRINSIC_NONFACTORING_METRIC_COUPLING_BEFORE_SOLVING",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/selected-k77-cbrs1r-condensate-mass-owner-2026-08-22.md",
+  "probe": "tests/channel-swings/selected_k77_cbrs1r_condensate_mass_owner_probe.py",
+  "probe_result": "PASS_42_OF_42"
+}
