@@ -7,6 +7,22 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1W CLOSES THE MINIMAL ACTION-OWNED ONE-DILATON
+> PRIMITIVE COMPLETION.** Weighting the K77 point action by `exp(-2 chi)` and
+> giving the real scalar `chi` its fixed positive one-half kinetic term makes
+> the unrestricted momentum `exp(-2chi)rho^2 M0`. Primitive cancellation
+> therefore forces `chi=log(rho)` at the unit-normalized coframe body. The
+> complete intrinsic `MET(X)` row then uniquely fixes a regular disformal
+> metric, but the exact compensator and active-coframe Euler residuals are
+> `38 I_base/25` and `124 I_base/25`. Allowing arbitrary smooth potential
+> jets cancels both only at `W(0)=-I_base`, which collapses the metric scale to
+> zero. **Continue with CBRS-1X: freeze the smallest target-blind action-owned
+> isotropizing primitive-momentum owner with an independent non-gauge grade-
+> one/three return, deciding the internally indefinite multiplet versus typed
+> odd-Clifford-field fork before reading a J4 density.** Do not fit a scalar
+> potential, multiplier, frame, boundary or sector. See
+> `explorations/conditional-build/selected-k77-cbrs1w-dilaton-momentum-obstruction-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1V CLOSES THE COMPLETE FIELD-ADMISSIBLE SPIN-CONNECTION
 > RESCUE NEAR THE UNIT COFRAME BODY.** The unrestricted contracted
 > `1,274`-component connection map is a real contrary control: its reached

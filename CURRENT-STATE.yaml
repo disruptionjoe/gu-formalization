@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9fd9402800287cc973ee9ccf459bf550b08d092b
+revision_basis: 24c1cb2bb301121b7bc709a13b710a5e266625f5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1W proves that the minimal action-owned one-dilaton completion can
+    cancel the base-J4 radial primitive divergence but cannot solve its own
+    complete Euler system. The frozen target-blind action weights the K77
+    point action by exp(-2 chi), gives chi the positive one-half kinetic term,
+    and fixes chi=0 at rho=1. Since M(rho)=rho^2 M0, primitive cancellation
+    forces chi=log(rho). In invertible coframe coordinates the full intrinsic
+    MET(X) row then uniquely fixes the regular disformal candidate
+    g=-(eta+dchi tensor dchi)/V, with
+    V=I_base rho+(rho-1)^2/4. At the unit body the exact compensator and active
+    coframe residuals are 38 I_base/25 and 124 I_base/25, both nonzero. An
+    arbitrary smooth scalar potential can cancel both only at
+    W(0)=-I_base, W'(0)=14 I_base, which makes the metric scale zero. Thus no
+    regular smooth-potential extension rescues the one-dilaton class. This is
+    formal-local and repository-constructed, not a no-go for an isotropizing
+    multiplet or typed odd-Clifford primitive. CBRS-1X must freeze the
+    smallest such target-blind action owner and solve every Euler row before
+    CBRS-2. No local/global vacuum, stabilizer, spectrum, ledger, canon,
+    source-ownership or public-posture conclusion follows.
     CBRS-1V proves that the CBRS-1U primitive obstruction is not repaired by
     the complete existing metric-compatible Spin connection once every field
     owner is imposed. The unrestricted contracted 1,274-component connection
