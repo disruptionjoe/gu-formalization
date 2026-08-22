@@ -7,6 +7,24 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 CBRS-1U KILLS THE MINIMAL HOMOTHETIC LOCAL LIFT AT THE
+> PRIMITIVE-EPSILON EQUATION.** The reduced `T`/scalar/`MET(X)` subsystem
+> uniquely forces `T=rho T0` and admits the exact conformal candidate
+> `g=eta/[-U(rho)]`, where
+> `U(rho)=I_base rho^3+(rho-1)^2/4` and
+> `rho>rho_star=0.6044897054...`. That is not the complete Euler system. The
+> selected first action also owns `D_B^!(E_B-E_T)`. The base-J4 unrestricted
+> momentum has `18` nonzero grade-one/three cells at the unit body and scales
+> as `M(rho)=rho^2 M0`; in the moving parallel J4 frame its first-jet return is
+> `2 rho d(rho) tensor M0`, nonzero wherever the scalar coframe is invertible.
+> The zero-jet moving-Shiab term cannot cancel it. Therefore no actual local
+> solution, stabilizer or coupled spectrum is established by this class.
+> **Continue with CBRS-1V: freeze the smallest target-blind connection/
+> primitive completion and solve its full first-jet epsilon return together
+> with every other Euler owner.** Reject any completion requiring a fitted
+> coefficient, frame, boundary or sector. See
+> `explorations/conditional-build/selected-k77-cbrs1u-conformal-coframe-local-solution-2026-08-22.md`.
+>
 > **2026-08-22 CBRS-1T OPENS THE MINIMAL FIXED-LORENTZ COFRAME BODY.** A
 > four-dimensional top form has isotropic stress but leaves an unselected
 > conserved continuous flux, so matching it to a J4 density would violate the

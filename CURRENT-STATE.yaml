@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e53b3e1c6e66a58863beae61c6cb9de8518d0ef4
+revision_basis: f34e40bfe0b7fa886ad6ae1adc301f3372c596e8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    CBRS-1U proves that the minimal homothetic conformal-coframe lift of the
+    two base-J4 pointwise bodies is obstructed at the primitive-epsilon
+    equation. The T, scalar and intrinsic MET(X) subsystem uniquely forces
+    T=rho T0 and admits the formal conformal candidate
+    g=eta/[-U(rho)], with U(rho)=I_base rho^3+(rho-1)^2/4 on
+    rho>rho_star=0.6044897054... . But the selected first action also owns
+    D_B^!(E_B-E_T). The unrestricted J4 momentum has 18 nonzero grade-one/
+    grade-three cells at the unit body and scales as M(rho)=rho^2 M0 along
+    the ray. In the moving parallel J4 frame its radial derivative is
+    2 rho d(rho) tensor M0, which is nonzero wherever the scalar coframe is
+    invertible near the unit-spacelike orbit. The zero-jet moving-Shiab return
+    cannot cancel this first-jet term. Thus the candidate solves only the
+    reduced T/scalar/metric subsystem, not the complete Euler system; no
+    actual local solution, stabilizer or coupled spectrum is licensed.
+    CBRS-1V must freeze the smallest target-blind connection/primitive
+    completion and solve its full first-jet epsilon return before CBRS-2. No
+    source coframe, global physical vacuum, ledger, canon, source-ownership or
+    public-posture conclusion follows.
     CBRS-1T structurally rejects an unselected continuous top-form flux and
     freezes the smallest rank-four isotropizing derivative owner: four real
     Grassmann-even base scalars with one fixed internal Lorentz form,
@@ -2466,7 +2484,18 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute CBRS-1 from agenda item CONDITIONAL-BUILD-REVERSE-SCAFFOLD before
-  returning to old hardening or the B5 comparator. CBRS-1T freezes the
+  returning to old hardening or the B5 comparator. CBRS-1U kills the minimal
+  homothetic conformal-coframe lift at the primitive-epsilon equation. The
+  reduced T/scalar/MET(X) subsystem forces T=rho T0 and admits
+  g=eta/[-U(rho)], but the action-owned unrestricted momentum scales as
+  rho^2 M0 and its divergence is nonzero wherever the scalar coframe is
+  invertible. Do not quote the reduced conformal candidate as an actual local
+  solution or compute its stabilizer or spectrum. Execute CBRS-1V by freezing
+  the smallest target-blind connection/primitive completion capable of
+  canceling the 18-cell grade-one/three first-jet return; solve the complete
+  T, connection, primitive-epsilon, scalar and MET(X) equations together.
+  Reject the class if that completion is rigid or requires a fitted
+  coefficient, frame, boundary or sector. CBRS-1T freezes the
   smallest target-blind isotropizing derivative owner as a four-component
   real even-scalar multiplet with one fixed internal Lorentz form. It produces
   two exact base-J4 pointwise formal coframe bodies with common
