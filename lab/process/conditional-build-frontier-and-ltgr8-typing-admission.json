@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "frontier_admissibility_and_delta_admission_registry",
+  "created": "2026-08-22",
+  "status": "REGISTERED_CBRS1_ADMISSIBLE_SET_STILL_EMPTY__LTGR8_TYPING_ARC_ADMITTED_AS_EXECUTABLE",
+  "lane_id": "1",
+  "agenda_items": [
+    "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"
+  ],
+  "target_claim": "internal target FRONTIER-ENUMERATION-COMPLETENESS; verdict the replayed six-arc frontier omitted the ledger-registered LT-GR8 realization obligation whose first typing step is executable now",
+  "registered_cbrs1_admissible_candidate_count": 0,
+  "cbrs1_state": "PARKED_UNTIL_COMPLETE_NEW_OWNER_PACKET",
+  "cbrs2_state": "DEPENDENCY_BLOCKED_UNTIL_COMPLETE_LOCAL_SOLUTION",
+  "ltgr8_admission": {
+    "ledger_row": "LT-GR8",
+    "ledger_version": "lab/process/conditional-physics-ledger-v0.260.json",
+    "external_benchmark_ref": "EXT-J95-SEMI-CLASSICAL-HORIZON",
+    "registered": "2026-08-21",
+    "licensed_first_step": "type the K77-to-observed-3+1 carrier and boundary map (CURRENT-STATE.yaml next_condition)",
+    "missing_dependency": "NONE_FOR_TYPING_STEP",
+    "mechanism_commitment": "NONE",
+    "confirmation_credit": "NONE",
+    "enumeration_defect": "LT-GR8 absent from the replayed six-arc frontier of the T3 and L10 replays; within those six arcs the prior selections were correct"
+  },
+  "source_to_proof_delta": {
+    "template": "primary source claim -> native carrier/action/reduction/observable -> current certificate -> exact missing bridge -> evidence that would reopen it",
+    "primary_source_claim": "observation of the K77 (7,7) observerse yields the observed 3+1 physics with gravity induced rather than added; sharpest registered external anchor on the gravitational leg is LT-GR8/EXT-J95 at mechanism commitment NONE",
+    "native_carrier_action_reduction_observable": "K77 (7,7) chimeric carrier; selected serialized K77 action with no released physical boundary law (K104); observation as section pullback contraction (MD-1); observed-side horizon-thermodynamic observables",
+    "current_certificate": "MD-1 contraction 67/67; CBRS-1 owner-exhaustion at CBRS-1AB with empty admissible set; L7/L8/L9/T3 finite Lean kernels; no stationary nonhomogeneous background; no positive physical state space (K106/K107 conditional)",
+    "exact_missing_bridge": "LT-GR8 distance field: typed map from the (7,7) action and observation reduction to one observed 3+1 Lorentzian system with named causal boundary, action-derived constraints and BFV reduction, entropy and energy-flux functionals with frozen normalization, and an equilibrium or explicitly nonequilibrium law",
+    "evidence_that_would_reopen": "CBRS-1: registered revival trigger (complete new owner packet); LT-GR8 typing step: nothing, executable now",
+    "delta_motion": "L7, L8, L9, T3, L10 did not move this delta and are labeled stable-kernel or maintenance work under this instrument; the selected LT-GR8 typing swing acts on the exact-missing-bridge component"
+  },
+  "maintenance_labeling_rule": "a frontier replay that leaves the source-to-proof delta unchanged labels stable-proof and integrity work maintenance; repeated maintenance with an unmoved delta is the recorded strategic-drift signal",
+  "frontier": [
+    {
+      "id": "LTGR8_TYPING",
+      "disposition": "EXECUTABLE_SELECTED",
+      "scope": "TYPING_GRADE_ONLY__NO_BACKGROUND__NO_CBRS2_ADVANCE__NO_PREDICTION_CREDIT"
+    },
+    {
+      "id": "CBRS1_NEW_ACTION_CLASS",
+      "disposition": "DEPENDENCY_BLOCKED",
+      "missing": "COMPLETE_NEW_OWNER_PACKET"
+    },
+    {
+      "id": "CBRS2_OBSERVED_3_PLUS_1",
+      "disposition": "DEPENDENCY_BLOCKED",
+      "missing": "COMPLETE_LOCAL_CBRS1_SOLUTION"
+    },
+    {
+      "id": "C1_SOURCE_PACKET",
+      "disposition": "PARKED",
+      "missing": "SEVEN_OWNER_GRADE_AXES"
+    },
+    {
+      "id": "B5_PHYSICAL_REOPENER",
+      "disposition": "PARKED",
+      "missing": "METRIC_OR_COFRAME_ACTION_OR_PHYSICAL_BFV_OWNER_PACKET"
+    },
+    {
+      "id": "P_OBS_HELD_OUT",
+      "disposition": "MONITOR_ONLY"
+    },
+    {
+      "id": "L10_OLD_FILE_TRIAGE",
+      "disposition": "CLOSED_2026_08_22__MAINTENANCE_FALLBACK_ONLY",
+      "reopen": "NEW_CONCRETE_CERTIFICATE_CONFUSION_DEFECT"
+    }
+  ],
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

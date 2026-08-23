@@ -931,6 +931,7 @@ consistency workflow.
 ## Directories
 
 - `anchor-council-2026-08-03/` - the anchor-and-triangulate council's seat reports and adjudication.
+- `conditional-evidence-deltas/` - native, versionless evidence deltas against the sequential conditional-physics ledger; see its README and `process_gates/conditional_evidence_delta_gate.py`.
 - `dialectics/` - dialectical method and dialogue records.
 - `hostile-reviews/` - filed hostile field-specialist reviews; their corrections bind the artifacts they review.
 - `hegelian-method/` - Hegelian method material.

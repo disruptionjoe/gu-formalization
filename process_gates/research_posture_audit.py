@@ -23,7 +23,6 @@ CANON = ROOT / "CANON.md"
 STATUS = ROOT / "RESEARCH-STATUS.md"
 NEXT_STEPS = ROOT / "NEXT-STEPS.md"
 CONTRIBUTING = ROOT / "CONTRIBUTING.md"
-RUNBOOK = ROOT / "lab" / "process" / "runbooks" / "five-lane-frontier-run.md"
 
 STALE_ENTRYPOINT_PHRASES = [
     "This repository is a public research map, not a proof of Geometric Unity.",
@@ -124,14 +123,13 @@ class ResearchPostureAudit(unittest.TestCase):
         for phrase in STALE_ENTRYPOINT_PHRASES:
             self.assertNotIn(phrase, entrypoints)
 
-    def test_contributing_and_runbook_follow_new_priority(self) -> None:
+    def test_contributing_follows_new_priority(self) -> None:
+        # The five-lane-frontier runbook was removed with the operational
+        # surfaces in the 2026-08-13 public-boundary migration (43c66e3b);
+        # only the native CONTRIBUTING assertions remain in scope.
         contributing = read(CONTRIBUTING)
-        runbook = read(RUNBOOK)
         self.assertIn("can Geometric Unity be rigorously reconstructed", contributing)
         self.assertIn("Results that are valuable independent of GU are co-equal products", contributing)
-        self.assertIn("truth-seeking posture in `RESEARCH-POSTURE.md`", runbook)
-        self.assertIn("does bare GU force three generations", runbook)
-        self.assertIn("what mathematical object, invariant, category", runbook)
 
 
 if __name__ == "__main__":

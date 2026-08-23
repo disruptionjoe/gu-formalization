@@ -7,6 +7,24 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 THE FRONTIER REPLAY ADMITS THE LT-GR8 TYPING ARC AND ADOPTS
+> THE SOURCE-TO-PROOF DELTA.** The post-L10 replay finds the registered
+> CBRS-1 admissible set still empty (CBRS-1 parked, CBRS-2 blocked, C1/B5
+> parked, P-OBS monitor-only) and corrects the enumeration itself: ledger
+> v0.260's LT-GR8 realization obligation — registered 2026-08-21, with its
+> first step ("type the K77-to-observed-3+1 carrier and boundary map")
+> already licensed in `CURRENT-STATE.yaml` — was absent from the replayed
+> six-arc frontier, so "no newly enabled scientific arc" was true only within
+> an incomplete enumeration. **Execute the LT-GR8 typing swing next**, at
+> typing grade only: no background construction, no CBRS-2 advance, no
+> prediction or confirmation credit; mechanism commitment stays NONE. Every
+> subsequent frontier replay states one source-to-proof delta (primary source
+> claim → native carrier/action/reduction/observable → current certificate →
+> exact missing bridge → reopening evidence); an unmoved delta labels
+> stable-proof and integrity work maintenance — L7, L8, L9, T3, and L10 are
+> so labeled. See
+> `explorations/conditional-build/conditional-build-frontier-and-ltgr8-typing-admission-2026-08-22.md`.
+
 > **2026-08-22 L10 RECONCILES THE LIVE LEAN CERTIFICATE SURFACE.** The
 > post-T3 frontier replay found no newly enabled scientific arc and confirmed
 > an actual maintenance defect: the Lean surface audit referenced a removed

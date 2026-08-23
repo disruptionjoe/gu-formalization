@@ -21,6 +21,7 @@ BACKTICK_PATH = re.compile(r"`([^`]+)`")
 
 EXPECTED_PROCESS_DIRS = {
     "anchor-council-2026-08-03",
+    "conditional-evidence-deltas",
     "dialectics",
     "hegelian-method",
     "hostile-reviews",
