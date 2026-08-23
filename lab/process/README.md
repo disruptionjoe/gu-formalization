@@ -8,14 +8,19 @@ updated_at: "2026-08-23"
 # Process
 
 Current append-only progress surface:
-[`conditional-physics-ledger-v0.261.json`](conditional-physics-ledger-v0.261.json),
+[`conditional-physics-ledger-v0.262.json`](conditional-physics-ledger-v0.262.json),
 summarized in
-`../../explorations/conditional-build/conditional-physics-ledger-v0.261.md`.
-It appends `LT-GR9..LT-GR11` for the accepted strong-field, PPN, and
-rotation-curve targets, and registers the accepted SM and cosmology anchors
-against existing rows without duplicates. All native realizations keep their
-prior grades; the ledger has 88 canonical targets and changes no predecessor
-verdict.
+`../../explorations/conditional-build/conditional-physics-ledger-v0.262.md`.
+It preserves all 88 targets and retypes exactly AC-F3, LT-GR1b and RA-D2 from
+global falsification to bounded route kill, with no movement toward SAME and
+no change to their computations, evidence or reopening conditions. The
+digest-bound CT-2 history-repair registry is
+[`mint-context-history-repairs.json`](mint-context-history-repairs.json).
+
+Current verdict/context integration record:
+[`conditional-ledger-verdict-context-integration.json`](conditional-ledger-verdict-context-integration.json),
+with result narrative at
+`../../explorations/conditional-build/conditional-ledger-verdict-context-integration-2026-08-23.md`.
 
 Current benchmark-delta integration record:
 [`conditional-benchmark-delta-integration.json`](conditional-benchmark-delta-integration.json),

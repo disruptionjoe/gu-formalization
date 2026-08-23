@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "status": "ACTIVE_APPEND_ONLY_HISTORY_REPAIR_REGISTRY",
+  "rule": "A repair excuses one immutable historical mint red only when the complete source-ledger SHA-256, canonical source-row JSON-line SHA-256, successor row id and exact successor context all match. It never edits history, raises CT-2's baseline, or excuses a new touched row.",
+  "repairs": [
+    {
+      "repair_id": "CT2-V0260-AC-B5",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "AC-B5",
+      "source_row_jsonl_sha256": "f336263b3c2daadde347764691e6da539de451b74ff7d868faa486575408ccdc",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": "UNTYPED", "grant": "G0", "carrier": "C4", "note": "The settled mod-2 eta obstruction is unconditional at the row's DERIVED grade (G0), but the ledger does not identify one source-construction layer; the finite obstruction computation is carried as model-grade (C4)."}
+    },
+    {
+      "repair_id": "CT2-V0260-AC-F3",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "AC-F3",
+      "source_row_jsonl_sha256": "79659da67ba95e0730752e919bef2b873713a1542641d2ba1dfe09f5044c4ce1",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": "UNTYPED", "grant": "UNTYPED", "carrier": "C4", "note": "The row tests a conventional anomaly-inflow comparator route, not a source-owned layer or grant. The finite 3-primary carrier computation is model-grade (C4); source-layer and grant slots remain honestly untyped."}
+    },
+    {
+      "repair_id": "CT2-V0260-AC-F4",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "AC-F4",
+      "source_row_jsonl_sha256": "7365ee0d1938c45a61d75655cd184c1d270465497492bb53a182ec835677ad3c",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": "UNTYPED", "grant": "UNTYPED", "carrier": "C4", "note": "The spin-bordism torsion route is a scoped mathematical comparator (C4), not a source-owned construction layer or a named Grant-poset condition."}
+    },
+    {
+      "repair_id": "CT2-V0260-LT-GR1B",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "LT-GR1b",
+      "source_row_jsonl_sha256": "cc3e1992c5c7c2c7d5c37e1906d71aecdfd5c6b4489ed2d8904658345ea20f80",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": ["L1", "L2"], "grant": "UNTYPED", "carrier": ["C1", "C2"], "note": "The killed post-Shiab factorization maps an ambient curvature construction (L1/C1) toward an observed Einstein receiver (L2/C2). Its alternative pre-Shiab Gauss/II owner is open and has no single CT-1 grant node."}
+    },
+    {
+      "repair_id": "CT2-V0260-LT-GR5",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "LT-GR5",
+      "source_row_jsonl_sha256": "19c527da3c57edc2b0965a47ddc69d4e9d6e26b2241e8e70c92627024ee0ce37",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": ["L1", "L2"], "grant": "UNTYPED", "carrier": ["C1", "C2", "C3"], "note": "The row spans the source-printed augmented-torsion owner (C3), its ambient construction (L1/C1), and the still-open observed reduction (L2/C2). Its long conditional chain has no single named CT-1 grant node."}
+    },
+    {
+      "repair_id": "CT2-V0260-LT-GR7",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "LT-GR7",
+      "source_row_jsonl_sha256": "05380f6500c0f3c87c5614a4e68b85227cd71c877e503ff5ce99ca332d83b581",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": "L1", "grant": "UNTYPED", "carrier": "C1", "note": "The scale-orbit obstruction concerns the ambient geometric construction (L1/C1). CT-1 has no named Grant-poset node for an absolute gravitational normalization."}
+    },
+    {
+      "repair_id": "CT2-V0260-RA-D2",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "RA-D2",
+      "source_row_jsonl_sha256": "ba2be5bdcdfa518b6b405f0fe937a0981c252e6468f8c3364252bf6f6ff555b7",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": "L4", "grant": "G6", "carrier": "C2", "note": "The row tests the source-conditional VEV-observed phase (L4/G6) at the post-observation low-energy carrier (C2); its source claim survives while particular mass-splitting realizations are excluded."}
+    },
+    {
+      "repair_id": "CT2-V0260-RA-F3",
+      "source_ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+      "source_ledger_sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b",
+      "row_id": "RA-F3",
+      "source_row_jsonl_sha256": "51cd68401bd588a794b0a6e44a93bbbeee0bee6ca5d3a82ae7a4e85cf6c3cb30",
+      "successor_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+      "context": {"layer": ["L1", "L2"], "grant": "UNTYPED", "carrier": ["C2", "C3"], "note": "The row compares source-declared kinematic blocks (L1/C3) with an observed-generation reading after reduction (L2/C2). No shared Grant-poset node owns this disavowed identification."}
+    }
+  ]
+}

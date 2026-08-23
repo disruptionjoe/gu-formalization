@@ -101,6 +101,7 @@ and exits 1).
 from __future__ import annotations
 
 import glob
+import hashlib
 import json
 import os
 import re
@@ -117,6 +118,9 @@ RULE_REL = "lab/methods/mint-context-projection.md"
 SCHEMA_REL = "lab/process/conditional-physics-ledger-schema-v0.2.json"
 LEDGER_GLOB = os.path.join(ROOT, "lab", "process",
                            "conditional-physics-ledger-v*.json")
+HISTORY_REPAIR_REL = "lab/process/mint-context-history-repairs.json"
+HISTORY_REPAIR_PATH = os.path.join(ROOT, "lab", "process",
+                                   "mint-context-history-repairs.json")
 
 CONTEXT_KEY = "context"
 SLOTS = ("layer", "grant", "carrier")
@@ -278,6 +282,81 @@ def row_content(row):
     return {k: v for k, v in row.items() if k != key}
 
 
+def _sha256_file(path):
+    digest = hashlib.sha256()
+    with open(path, "rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def _row_jsonl_sha256(row):
+    payload = json.dumps(row_content(row), sort_keys=True,
+                         separators=(",", ":")) + "\n"
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def read_history_repairs(path=HISTORY_REPAIR_PATH):
+    """Load exact, append-only exceptions for already-immutable mint history.
+
+    A repair is not a tolerance. It pins the complete historical ledger, the
+    canonical historical row, and an exact context carried by a named
+    successor. Any byte drift or missing successor fails closed.
+    """
+    if not os.path.isfile(path):
+        return {}, []
+    try:
+        payload = json.load(open(path, encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        return {}, ["history repair registry unreadable: %s" % exc]
+    rows = payload.get("repairs") if isinstance(payload, dict) else None
+    if not isinstance(rows, list):
+        return {}, ["history repair registry has no repairs array"]
+    result, errors = {}, []
+    required = ("repair_id", "source_ledger_ref", "source_ledger_sha256",
+                "row_id", "source_row_jsonl_sha256",
+                "successor_ledger_ref", "context")
+    for i, item in enumerate(rows):
+        if not isinstance(item, dict):
+            errors.append("history repair %d is not an object" % i)
+            continue
+        missing = [key for key in required if key not in item]
+        if missing:
+            errors.append("history repair %d missing %s" %
+                          (i, ", ".join(missing)))
+            continue
+        key = (item["source_ledger_ref"], item["row_id"])
+        if key in result:
+            errors.append("duplicate history repair for %s row %s" % key)
+            continue
+        result[key] = item
+    return result, errors
+
+
+def validate_history_repair(source_path, source_rel, row, repair):
+    failures = []
+    try:
+        if _sha256_file(source_path) != repair["source_ledger_sha256"]:
+            failures.append("source ledger SHA-256 drift")
+    except OSError:
+        failures.append("source ledger unreadable")
+    if _row_jsonl_sha256(row) != repair["source_row_jsonl_sha256"]:
+        failures.append("source row canonical JSON-line SHA-256 drift")
+    successor_path = os.path.join(ROOT, repair["successor_ledger_ref"])
+    try:
+        successor = json.load(open(successor_path, encoding="utf-8"))
+        matches = [candidate for candidate in successor.get("rows", [])
+                   if isinstance(candidate, dict) and
+                   candidate.get("id") == row.get("id")]
+        if len(matches) != 1:
+            failures.append("successor does not carry exactly one matching row")
+        elif matches[0].get(CONTEXT_KEY) != repair["context"]:
+            failures.append("successor context differs from repair registry")
+    except (OSError, ValueError, AttributeError):
+        failures.append("successor ledger unreadable")
+    return failures
+
+
 # ======================================================================
 # context validation
 # ======================================================================
@@ -418,6 +497,10 @@ def audit(paths=None, baseline=None, reference=None, verbose=True):
     out_of_scope = [f for f in files if not in_scope(catalogue[f])]
 
     red = []
+    repairs, repair_errors = read_history_repairs() if paths is None else ({}, [])
+    used_repairs = set()
+    for why in repair_errors:
+        red.append((HISTORY_REPAIR_REL, why))
     cod, cod_errors = read_codomains(reference)
     if cod_errors and scoped:
         for why in cod_errors:
@@ -449,6 +532,7 @@ def audit(paths=None, baseline=None, reference=None, verbose=True):
                 "predecessor": (os.path.relpath(pred_path, ROOT)
                                 if pred_path else "UNRESOLVED"),
                 "rows": 0, "touched": 0, "touched_typed": 0,
+                "history_repaired": 0,
                 "untouched_typed": 0, "untyped_slots": 0,
                 "all_untyped_rows": [], "cond_untyped_grant": [],
                 "notes": [], "hist": {s: {} for s in SLOTS}}
@@ -465,6 +549,22 @@ def audit(paths=None, baseline=None, reference=None, verbose=True):
                 stat["touched"] += 1
             has = CONTEXT_KEY in row
             if touched and not has:
+                repair_key = (rel, rid)
+                repair = repairs.get(repair_key)
+                if repair is not None:
+                    failures = validate_history_repair(f, rel, row, repair)
+                    used_repairs.add(repair_key)
+                    if failures:
+                        for why in failures:
+                            red.append((rel, "row %s history repair invalid: %s"
+                                        % (rid, why)))
+                    else:
+                        stat["history_repaired"] += 1
+                        stat["notes"].append((rid, "HISTORY-REPAIRED via %s; "
+                                              "context accreted at %s" %
+                                              (repair["repair_id"],
+                                               repair["successor_ledger_ref"])))
+                    continue
                 red.append((rel, "row %s is touched at v%s and carries no "
                                  "`%s` (rule: %s)"
                             % (rid, stat["version"], CONTEXT_KEY, RULE_REL)))
@@ -496,6 +596,12 @@ def audit(paths=None, baseline=None, reference=None, verbose=True):
                 stat["notes"].append((rid, note.strip()))
         census.append(stat)
 
+    if paths is None:
+        for repair_key in sorted(set(repairs) - used_repairs):
+            red.append((HISTORY_REPAIR_REL,
+                        "unused repair does not match a live touched row: %s row %s"
+                        % repair_key))
+
     for f, why in red:
         say("RED  %s: %s" % (f, why))
     say("mint_context_projection_audit: %d red (baseline %d); %d ledger(s) in "
@@ -522,11 +628,13 @@ def audit(paths=None, baseline=None, reference=None, verbose=True):
             "context coverage is vacuously complete and proves nothing")
     for stat in census:
         say("mint_context_projection_audit[census] %s (v%s, base %s): "
-            "%d rows; touched %d; touched-with-context %d/%d; voluntary "
+            "%d rows; touched %d; touched-with-context %d/%d; historical "
+            "repairs %d; voluntary "
             "accretion on untouched rows %d; UNTYPED slots %d"
             % (stat["ledger"], stat["version"], stat["predecessor"],
                stat["rows"], stat["touched"], stat["touched_typed"],
-               stat["touched"], stat["untouched_typed"],
+               stat["touched"], stat["history_repaired"],
+               stat["untouched_typed"],
                stat["untyped_slots"]))
         for slot in SLOTS:
             hist = stat["hist"][slot]

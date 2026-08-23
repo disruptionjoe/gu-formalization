@@ -111,12 +111,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     reg_fix = data["gate_regression_repaired"]
     check(reg_fix["row"] == "LT-GR8" and "ok at 8" in reg_fix["after"], "registry records the repair")
 
-    # ---- proposals are proposals, not applications -----------------------
+    # ---- proposal artifact stays historical; delta lifecycle advances ----
     check(data["ac_f3_finding"]["disposition"] == "PROPOSED_VIA_EVIDENCE_DELTA__NOT_APPLIED",
           "re-typing is proposed, not applied")
     check(data["ledger_verdict_change"] == "none", "no verdict applied")
-    check(delta["status"] == "pending", "delta pending")
-    check(delta["integration"] is None, "delta not self-integrated")
+    check(delta["status"] == "integrated", "delta integrated by canonical Progress")
+    check(delta["integration"].get("canonical_ledger_ref", "").endswith("v0.262.json"),
+          "delta integration points to v0.262")
     check(set(delta["affected_rows"]) == {"AC-F3", "LT-GR1b", "RA-D2"}, "delta targets the three kill rows")
     check("not applied" in delta["proposed_effect"]["summary"], "delta states proposal grade")
     check("no row moves toward SAME" in delta["claim_ceiling"], "delta carries the no-inflation guard")

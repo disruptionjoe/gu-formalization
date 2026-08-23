@@ -121,10 +121,10 @@ def validate(data: dict, old: dict, *, files: bool = True) -> list[str]:
             if delta.get("status") != "integrated" or integration.get("disposition") != "incorporated" or integration.get("canonical_ledger_ref") != "lab/process/conditional-physics-ledger-v0.261.json":
                 defects.append(f"delta disposition {path.name}")
         index = load(INDEX_PATH)
-        if index.get("integration_cursor") != "GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23":
+        if index.get("integration_cursor") != "GU-LEDGER-KILL-TYPING-2026-08-23":
             defects.append("integration cursor")
         statuses = {item["delta_id"]: item["status"] for item in index.get("deltas", [])}
-        if statuses.get("GU-EXT-GR-BENCH-WIDENING-2026-08-23") != "integrated" or statuses.get("GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23") != "integrated" or statuses.get("GU-LEDGER-KILL-TYPING-2026-08-23") != "pending":
+        if statuses.get("GU-EXT-GR-BENCH-WIDENING-2026-08-23") != "integrated" or statuses.get("GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23") != "integrated" or statuses.get("GU-LEDGER-KILL-TYPING-2026-08-23") != "integrated":
             defects.append("index statuses")
         prose = (RESULT_PATH.read_text(encoding="utf-8") + SUMMARY_PATH.read_text(encoding="utf-8")).lower()
         for phrase in ("gu-comparator-routing", "reverse-only recovery", "zero predecessor verdict changes", "none-not-a-kill"):

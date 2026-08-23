@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-LEDGER-KILL-TYPING-2026-08-23",
-  "status": "pending",
+  "status": "integrated",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
     "ledger_sha256": "da5f222ab48ebbba0ceb50d252ad7cdfcefd0df7ca6be958f1d468f4d6a2b68c"
@@ -31,5 +31,9 @@
     "LEDGER-KILL-TYPING",
     "GENUINE-FALSIFICATION-RECOUNT"
   ],
-  "integration": null
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.262.json",
+    "reason": "Accepted all three bounded verdict-kind corrections after review against live v0.261. AC-F3, LT-GR1b and RA-D2 move from OVER_DETERMINED/GENUINE_FALSIFICATION to DIFFERS/ROUTE_KILLED; no row moves toward SAME and every computation, evidence field, distance, revival trigger and target-claim ceiling is preserved. The target-claim typing portion had already landed before this mint and is carried forward unchanged."
+  }
 }

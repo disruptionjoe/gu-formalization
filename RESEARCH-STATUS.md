@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Ledger verdict-kind and CT-2 history integration 2026-08-23 (v0.262; no
+physics recomputed).** `AC-F3`, `LT-GR1b`, and `RA-D2` move from
+`OVER_DETERMINED / GENUINE_FALSIFICATION` to `DIFFERS / ROUTE_KILLED` because
+their exact mapping grades and named surviving alternatives bound each result
+to a route. Every computation, distance, revival trigger, evidence field,
+mapping grade and target-claim ceiling is preserved; `SC-CHI-51` remains
+explicitly `NOT_KILLED` and no row moves toward `SAME`. The 88 canonical
+targets now read 33 SAME, 22 DIFFERS, 31 NEEDS, and 2 OVER-DETERMINED. The
+eight rows behind immutable v0.260's CT-2 red carry reviewed context in v0.262;
+a digest-bound repair registry pins the full historical ledger, each source
+row and exact successor context without changing v0.260 or the zero baseline.
+See
+`explorations/conditional-build/conditional-ledger-verdict-context-integration-2026-08-23.md`
+and `lab/process/conditional-physics-ledger-v0.262.json`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| AC-F3 / LT-GR1b / RA-D2 | global falsification verdict kind despite bounded route evidence | `DIFFERS / ROUTE_KILLED`; negative computations unchanged | named replacement routes remain open | v0.262 / migrations |
+| source claims | one row engages SC-CHI-51 | SC-CHI-51 explicitly not killed; other targets are comparator or internal routes | native construction owners | target-claim typing preserved |
+| CT-2 history | eight immutable v0.260 touched rows missing context | digest-bound append-only repairs plus v0.262 context; live gate green at baseline zero | correctness remains human review beyond token membership | repair registry / gate |
+
 **Conditional benchmark integration 2026-08-23 (ledger v0.261; target
 registration, not construction progress).** The two earlier cursor-ordered
 conditional evidence deltas are incorporated. `LT-GR9`, `LT-GR10`, and
@@ -18,7 +39,8 @@ results retain their exact ceilings. `EXT-SM-STRUCTURE` and
 notes record the already-frozen OWNER-F and OWNER-C joins. The ledger now has
 88 canonical targets: 33 SAME, 19 DIFFERS, 31 NEEDS, and 5 OVER-DETERMINED.
 No predecessor verdict, mechanism, prediction, confirmation, canon, or public
-posture changes. The later kill-typing proposal remains pending. See
+posture changes at that release. The later kill-typing proposal is incorporated
+by v0.262 above. See
 `explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md`
 and `lab/process/conditional-physics-ledger-v0.261.json`.
 

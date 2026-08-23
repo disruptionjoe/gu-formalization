@@ -7,6 +7,21 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 LEDGER v0.262 CORRECTS THREE GLOBAL FALSIFICATION LABELS TO
+> BOUNDED ROUTE KILLS AND CLOSES THE CT-2 HISTORY RED APPEND-ONLY.** `AC-F3`,
+> `LT-GR1b`, and `RA-D2` are now `DIFFERS / ROUTE_KILLED`: each row's own
+> mapping grade and named survivor bound the result to a realization route,
+> and `SC-CHI-51` remains explicitly `NOT_KILLED`. Every computation,
+> distance, revival trigger, evidence field and target-claim ceiling is
+> preserved; no row moves toward `SAME`. Counts are 88 targets: 33 SAME / 22
+> DIFFERS / 31 NEEDS / 2 OVER-DETERMINED. The eight rows behind immutable
+> v0.260's CT-2 red carry reviewed context in v0.262, with exact historical
+> ledger, row and successor-context pins in the append-only repair registry;
+> v0.260 and the zero baseline are unchanged. Do not re-integrate the delta or
+> weaken a repair pin. The next construction target remains the CBRS-1 N2/N6
+> generic-incompatibility question below. See
+> `explorations/conditional-build/conditional-ledger-verdict-context-integration-2026-08-23.md`.
+
 > **2026-08-23 CBRS-1 IS REPOSED: SIX NECESSARY CONDITIONS, EACH WITNESSED,
 > AND ONE OPEN QUESTION THAT DECIDES THE LANE.** Classifying the twenty-seven
 > recorded CBRS-1 closes yields six jointly necessary conditions on any
@@ -40,8 +55,8 @@ updated_at: "2026-08-23"
 > independent demands do not imply a shared number or joint discharge. Counts
 > are 88 targets: 33 SAME / 19 DIFFERS / 31 NEEDS / 5 OVER-DETERMINED. No
 > predecessor verdict, mechanism, prediction, confirmation, canon, or public
-> posture changes. The later kill-typing proposal remains pending for separate
-> Progress disposition. See
+> posture changes at that release. Its later kill-typing proposal is now
+> incorporated by v0.262 above. See
 > `explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md`.
 
 > **2026-08-23 THE 3-PRIMARY ANOMALY ROW IS PROBABLY MIS-TYPED, AND THE

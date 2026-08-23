@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_ledger_verdict_context_integration",
+  "created": "2026-08-23",
+  "status": "THREE_BOUNDED_ROUTE_KILLS_RETYPED__CT2_HISTORY_REPAIRED_APPEND_ONLY",
+  "predecessor": "lab/process/conditional-physics-ledger-v0.261.json",
+  "successor": "lab/process/conditional-physics-ledger-v0.262.json",
+  "canonical_target_count": 88,
+  "verdict_counts": {"SAME": 33, "DIFFERS": 22, "NEEDS": 31, "OVER_DETERMINED": 2},
+  "retyped_rows": ["AC-F3", "LT-GR1b", "RA-D2"],
+  "preserved_fields": ["summary", "distance", "revival_trigger", "evidence", "mapping_grade", "target_claim", "target_claim_verdict", "target_claim_note"],
+  "movement_ceiling": "DIFFERS/ROUTE_KILLED only; no row moves toward SAME",
+  "history_repair": {
+    "source_ledger": "lab/process/conditional-physics-ledger-v0.260.json",
+    "registry": "lab/process/mint-context-history-repairs.json",
+    "rows": ["AC-B5", "AC-F3", "AC-F4", "LT-GR1b", "LT-GR5", "LT-GR7", "RA-D2", "RA-F3"],
+    "baseline": 0,
+    "source_mutated": false,
+    "fail_closed_pins": ["complete source-ledger SHA-256", "canonical source-row JSON-line SHA-256", "successor row id", "exact successor context"]
+  },
+  "delta": {
+    "delta_id": "GU-LEDGER-KILL-TYPING-2026-08-23",
+    "disposition": "incorporated",
+    "cursor": "GU-LEDGER-KILL-TYPING-2026-08-23"
+  },
+  "source_claim_killed": false,
+  "physics_recomputed": false,
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

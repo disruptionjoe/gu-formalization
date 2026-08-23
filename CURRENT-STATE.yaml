@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 274e529ff80070737ba7ca598e7d1497019053e5
+revision_basis: 294e20a6182ac4adfd67621e9225ce6a31e2581e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Ledger v0.262 corrects the three remaining global-falsification labels to
+    bounded route kills. AC-F3, LT-GR1b and RA-D2 are now DIFFERS /
+    ROUTE_KILLED because their own mapping grades and named survivors bound
+    the negative result to a route; every computation, distance, revival
+    trigger, evidence field and target-claim ceiling is preserved, SC-CHI-51
+    remains explicitly NOT_KILLED, and no row moves toward SAME. The ledger's
+    88 canonical targets now read 33 SAME, 22 DIFFERS, 31 NEEDS and 2
+    OVER_DETERMINED. The same eight rows implicated by the immutable v0.260
+    CT-2 history defect carry reviewed context in v0.262. A digest-bound
+    append-only repair registry pins the full historical ledger, each source
+    row and the exact successor context; v0.260 is unchanged and CT-2's zero
+    baseline remains zero.
+
     The velocity council's A2 is executed and CBRS-1's question is reposed.
     Classifying the twenty-seven recorded CBRS-1 closes yields six jointly
     necessary conditions on any admissible owner packet: point closure, full
@@ -43,10 +56,11 @@ current_result:
     duplicates. Context-only notes record OWNER-F on LT-SM8 at grant union
     G5+G7 and OWNER-C on superseded LT-GR2; independent demand does not imply
     a shared number or joint discharge. The ledger now has 88 canonical
-    targets: 33 SAME, 19 DIFFERS, 31 NEEDS and 5 OVER_DETERMINED. The direct
-    093c5ff6 LT-GR8 non-kill repair is preserved; its later kill-typing delta
-    remains pending. No predecessor verdict, source ownership, mechanism,
-    prediction, confirmation, canon or public posture changes.
+    targets at v0.261: 33 SAME, 19 DIFFERS, 31 NEEDS and 5 OVER_DETERMINED.
+    The direct 093c5ff6 LT-GR8 non-kill repair is preserved; its later
+    kill-typing delta is incorporated in v0.262 at the bounded verdict-kind
+    ceiling. No source ownership, mechanism, prediction, confirmation, canon
+    or public posture changes.
     The ledger's kill typing is audited after Joe asked why the 3-primary
     generation count reads as a falsification given the source's 2+1 imposter
     structure. Four records say it should not: AC-F3's own mapping grade is
@@ -2708,6 +2722,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/conditional-ledger-verdict-context-integration-2026-08-23.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.262.md
+    - lab/process/conditional-ledger-verdict-context-integration.json
+    - lab/process/conditional-physics-ledger-v0.262.json
+    - lab/process/mint-context-history-repairs.json
+    - tests/channel-swings/conditional_ledger_verdict_context_integration_probe.py
     - explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md
     - explorations/conditional-build/conditional-physics-ledger-v0.261.md
     - lab/process/conditional-benchmark-delta-integration.json
@@ -3004,25 +3024,18 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Can the smallest target-blind conditional K77 action class construct a fully
-  stationary nonhomogeneous reduced-curvature plus full-II vacuum on the
-  complete admitted field tangent, and does its full Hessian, global
-  stabilizer and spectrum jointly upgrade RA-A1, RA-A2, RA-A6, RA-A8, RA-E1,
-  RA-E6 and RA-G4 without fitted selectors? If that first packet closes, can
-  the same construction proceed through the observed 3+1 bridge, interacting
-  physical quotient, relative index and held-out comparison sequence? Within
-  that sequence, can source-aligned K77 (7,7) generate an observed 3+1 boundary, area/entropy
-  object, temperature, stress-energy flux and first-law relation without
-  importing Jacobson's mechanism, and can a preregistered held-out consequence
-  distinguish native forward derivation from reverse-fit compatibility? In the
-  separate B5 comparator, can an action/source-owned dynamical metric or coframe extend the strict B5
-  packet with an even scalar Hamiltonian constraint and lapse, or can a named
-  physical causal boundary/ensemble independently supply a BFV charge,
-  observable algebra, selected closed domain, quantum measure and conserved
-  positive reduced pairing? Until one of those owners exists, keep the direct
-  Jacobson lapse contour closed as WRONG_TYPE on the fixed-background (9,5)
-  action, keep the marked class unproved as an edge mode, and keep the
-  graph-mixing full-nine family on its separate EXTERNAL-VIA-GRAM route.
+  In the released material, are N2 (full intrinsic metric stationarity) and N6
+  (target-blind action ownership) generically incompatible, or can a typed
+  action class satisfy both while also clearing N1, N3, N4 and N5? A proof or
+  counterexample must preserve the six witnessed necessities and cannot infer
+  sufficiency from their conjunction. If a compliant owner packet exists, can
+  it then proceed through the observed 3+1 bridge, interacting physical
+  quotient, relative index and held-out comparison sequence, including the
+  scoped Jacobson target without importing its mechanism? In the separate B5
+  comparator, can an action/source-owned dynamical metric or coframe extend
+  the strict packet with an even scalar Hamiltonian constraint and lapse, or
+  can a named physical causal boundary/ensemble supply the missing BFV charge,
+  observable algebra, domain, measure and positive reduced pairing?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -3040,13 +3053,11 @@ next_condition: >-
   open. Scheduled runs follow the A1 selection rule: attempt a delta-moving
   arc, then a ledger-moving arc, and log why each was unavailable before
   selecting maintenance.
-  Ledger v0.261 is current. Do not re-integrate the gravitational benchmark
-  widening or SM/cosmology linking deltas; both are incorporated through the
-  cursor. The later GU-LEDGER-KILL-TYPING delta remains pending and requires
-  its own canonical Progress disposition. The repository-wide CT-2 context
-  gate also exposes eight inherited missing-context rows in immutable v0.260;
-  do not rewrite that predecessor or raise the zero baseline. Repair must use
-  an explicit append-only successor disposition if selected.
+  Ledger v0.262 is current. Do not re-integrate the gravitational benchmark,
+  SM/cosmology linking, or GU-LEDGER-KILL-TYPING deltas; all are incorporated
+  through the cursor. The repository-wide CT-2 history defect is repaired by
+  the digest-bound append-only registry and v0.262 contexts; do not rewrite
+  v0.260, weaken a repair pin, or raise the zero baseline.
   The D6 family set is F0 plus F1/F2 and is closed: F0 (ratified mixed-wedge
   internal zero test) always evaluates in addition to the selected external
   family and never substitutes for it; admitting any further family requires

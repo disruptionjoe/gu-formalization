@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Conditional benchmark delta integration gate
 
+- `channel-swings/conditional_ledger_verdict_context_integration_probe.py`
+  compares v0.262 to v0.261, permits only the three bounded verdict-kind
+  corrections and context accretion, preserves every other row field,
+  recomputes canonical counts, checks migrations/delta/cursor truth, verifies
+  all eight digest-bound CT-2 repairs, catches 10/10 planted integration
+  mutations, and separately rejects 3/3 poisoned repair pins.
+
 - `channel-swings/conditional_benchmark_delta_integration_probe.py` strictly
   compares ledger v0.261 with v0.260, permits exactly three appended target
   rows and context-only accretion on LT-SM8/LT-GR2, recomputes denominators
