@@ -91,7 +91,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(b3["dispositions"]["B3-DE-01"]["status"] ==
           "DISPOSED_NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION",
           "source register carries disposition")
-    check(b3["remaining_entries"] == 3, "remaining B3 count")
+    check(b3["remaining_entries"] == 0, "remaining B3 count")
     check("B3-DE-SCOPE-20260823" in source_result,
           "owning prose acknowledges correction")
     check("nonparametric" in source_result,

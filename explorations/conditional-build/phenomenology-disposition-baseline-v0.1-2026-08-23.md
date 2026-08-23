@@ -75,11 +75,16 @@ background, perturbations and held-out observable evaluation. Treating those
 B3 completions as terminal rows would turn better problem statements into
 fictional constructions.
 
-Three registered B3 subdispositions remain pending: `B3-CC-02`, `B3-CP-04`
-and `B3-NU-05`. They remain citation-time work and cannot be inferred from the
-first-pass filing descriptions. That filing preserves their IDs but not their
-complete primary objects or parent-row assignments, so split-unit parentage is
-also currently false rather than guessed.
+The three formerly pending B3 subdispositions are now citation-time complete.
+`B3-CC-02` binds effective expansion carriers to LT-GR2d without pretending
+they directly measure a microscopic vacuum decomposition. `B3-CP-04` binds the
+neutron EDM to LT-SM7 while preserving the theory-mediated theta map.
+`B3-NU-05` binds four distinct neutrino carriers to RA-B6 and retains RA-G3 as
+the linked Majorana-construction row under one common operator/reality-map
+constraint. All six filed B3 IDs now have parent rows and evidence, so split-
+unit parentage and B3 terminality are true. They remain subdispositions only:
+the five unique parent rows plus linked RA-G3 are still open and the 88-row
+open count does not change.
 
 ## Executable rule
 
@@ -98,8 +103,8 @@ The live v0.1 evaluation is:
 denominator rows                 91
 terminal rows                     3
 open rows                        88
-completed B3 subdispositions      3
-pending B3 subdispositions        3
+completed B3 subdispositions      6
+pending B3 subdispositions        0
 exhausted                     false
 B2 selectable                 false
 ```

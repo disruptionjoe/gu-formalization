@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 95f46a4eb459cd079b4b401881a336975aeada89
+revision_basis: 4b25f3affe43b387105dc5c3fecd147d02d3d513
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The B3 external-tension register is now citation-time complete. B3-CC-02
+    separates effective expansion carriers from an unobserved microscopic
+    vacuum-energy decomposition while retaining LT-GR2d's normalization,
+    units, radiative-response and cosmology burden. B3-CP-04 separates the
+    measured neutron EDM from the theory-mediated QCD-theta map while
+    retaining LT-SM7's complete angle-vector and suppression burden.
+    B3-NU-05 separates oscillation, beta-endpoint, neutrinoless-double-beta
+    and cosmological mass carriers while requiring one common neutral
+    operator, reality/charge map, spectrum and mixing evaluation across
+    RA-B6 and linked RA-G3. All six B3 subdispositions now have current
+    primary-source evidence and exact parent rows; none closes its parent.
+    Ledger v0.263 remains byte-identical, the same 88 construction rows remain
+    open, and exhausted=false / b2_selectable=false. No scientific verdict,
+    source owner, prediction, confirmation, canon or public posture moves.
     The first row-complete phenomenology disposition baseline makes the
     B1/B3/B4 exhaustion rule executable and finds it false. Ledger v0.263 has
     91 rows; only LT-GR9 and LT-GR10 have evidence-backed terminal
@@ -16,9 +30,9 @@ current_result:
     B1/FITTING_CONSTRUCTION. Eighty-eight rows remain open under the active
     method. The 34 SAME rows are not retroactive FC admissions, the remaining
     NEEDS rows are not unnamed B2 dispositions, and DIFFERS/OVER_DETERMINED do
-    not automatically establish B4 or a precise impossibility. B3-J95-03,
-    B3-H0-06 and B3-DE-01 are completed literature subdispositions; they do
-    not terminate their parent LT-GR8 or LT-GR2e construction rows. The live
+    not automatically establish B4 or a precise impossibility. All six B3
+    entries are completed literature subdispositions; they do not terminate
+    LT-GR8, LT-GR2d, LT-GR2e, LT-SM7, RA-B6 or linked RA-G3. The live
     v0.1 register is digest-bound to ledger v0.263, covers every row exactly
     once and derives exhausted=false and b2_selectable=false. No ledger row,
     scientific verdict, source owner, prediction, confirmation, canon or
@@ -34,7 +48,8 @@ current_result:
     action-owned family evaluated against the named current DESI/CMB/supernova
     likelihoods. LT-GR2e v0.263 already requires that construction, held-out
     w(z), fixed initial data and DESI/CMB/BAO predictions, so it remains
-    byte-identical at NEEDS / MISSING_CONSTRUCTION. Three B3 entries remain.
+    byte-identical at NEEDS / MISSING_CONSTRUCTION. The final three B3 entries
+    have since been disposed without ledger movement.
     The second primary-source B3 disposition corrects B3-H0-06 and moves no
     ledger row. H0 is inferred in every route, but the observed carriers and
     inference maps are not interchangeable: SH0ES is a geometrically anchored
@@ -45,8 +60,8 @@ current_result:
     conclusion remains. LT-GR2e v0.263 already requires an action-owned
     cosmological solution with fixed initial data and held-out DESI/CMB/BAO
     predictions, and EXT-COSMO-BACKGROUND already binds the observed expansion
-    history, so no ledger mutation is needed. B3-DE-01 has since been disposed,
-    leaving three B3 entries for citation-time disposition.
+    history, so no ledger mutation is needed. B3-DE-01 and the final three B3
+    entries have since been disposed without ledger movement.
     The first primary-source B3 disposition corrected B3-J95-03 without moving
     a ledger row. Jacobson 1995 remains a conditional theoretical benchmark,
     and Eling-Guedens-Jacobson 2006 genuinely requires entropy production for
@@ -3145,15 +3160,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  All six filed B3 source subdispositions are now citation-time complete and
+  parent-linked. They remain literature dispositions, not fitting
+  constructions or terminal row outcomes. The live register still has only
+  three terminal rows and 88 open rows, so exhausted=false and
+  b2_selectable=false. Rebuild the substantial frontier from the remaining
+  open denominator: audit the strongest SAME row through FC-1 to FC-7, audit
+  the strongest DIFFERS row for a source-native B4 route or typed precise
+  impossibility, and split mixed rows before classification. Do not repeat the
+  six B3 source packets or return to CBRS/source-action work while the derived
+  gate is false.
   Phenomenology exhaustion is now a computed gate, not a prose presumption.
   The v0.1 live register covers all 91 ledger v0.263 rows exactly once, with
   three evidence-backed terminal rows and 88 open rows; exhausted=false and
   b2_selectable=false. Do not infer B1 from SAME, B2 from NEEDS, B4 or precise
   impossibility from DIFFERS, or row closure from a B3 subdisposition. A new
   ledger version invalidates the register until explicit digest rebase. The
-  next work remains actual phenomenology disposition: finish B3-CC-02,
-  B3-CP-04 and B3-NU-05 at citation time, audit SAME rows through FC-1 to
-  FC-7, audit DIFFERS rows for source-native routes or typed impossibilities,
+  next work remains actual phenomenology disposition: audit SAME rows through
+  FC-1 to FC-7, audit DIFFERS rows for source-native routes or typed impossibilities,
   and split the remaining mixed rows before any B2 return. Scheduled priority
   is unchanged; CBRS source-action work remains ineligible while the derived
   gate is false.

@@ -145,6 +145,31 @@ scientific direction.
   out burden, so B3-DE-01 is disposed with no ledger movement. See
   `explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md`.
 
+- **B3-CC-02 (EXT-COSMO-BACKGROUND, LT-GR2d) — citation-time
+  disposition complete.** Supernova, CMB and BAO carriers constrain an
+  effective expansion model. They do not observe a term-by-term microscopic
+  vacuum-energy decomposition or prove radiative stability. GU still owes one
+  normalized action-owned cosmology with units, vacuum-shift response and
+  held-out observables. LT-GR2d already carries that burden, so the entry is
+  disposed with no ledger movement. See
+  `explorations/conditional-build/b3-cc-observation-scope-disposition-2026-08-23.md`.
+- **B3-CP-04 (EXT-SM-STRUCTURE, LT-SM7) — citation-time disposition
+  complete.** The measured carrier is the neutron EDM; a QCD-theta bound is
+  inferred through the physical angle convention and a hadronic calculation.
+  The mapping uncertainty neither erases the EDM limit nor turns its null
+  estimate into a direct theta measurement. LT-SM7 already requires the
+  selected angle vector, coefficients and symmetry mechanism, so the entry is
+  disposed with no ledger movement. See
+  `explorations/conditional-build/b3-cp-observable-scope-disposition-2026-08-23.md`.
+- **B3-NU-05 (EXT-SM-STRUCTURE, RA-B6 linked to RA-G3) — citation-time
+  disposition complete.** Oscillation, beta endpoint, neutrinoless double beta
+  and cosmology constrain different functions of the neutrino spectrum.
+  Neither a forced neutral state nor a located singlet channel supplies a
+  physical mass, mixing or Majorana map without one common operator and
+  reality/charge structure. Both rows remain open and no ledger field moves.
+  See
+  `explorations/conditional-build/b3-nu-carrier-scope-disposition-2026-08-23.md`.
+
 ### Corrections the register applied to itself
 
 Re-checking citations at filing time changed four statements across two
@@ -176,10 +201,10 @@ several, so a tension claim would be special pleading).
 
 No verdict moves and nothing moves toward `SAME`; the grade is barred from it
 and every FC object was refused. The FC wave produces **zero** ledger bearing.
-The still-pending B3 entries propose row-field candidates only — scope notes
-on the LT-GR2 family and LT-SM7, and a framing note plus joint-evaluation
-constraint on RA-G3/RA-B6 — all of which go through ordinary evidence-delta
-process. The proposed LT-GR8 `revival_trigger` narrowing is refused by
+All six B3 entries are now citation-time disposed and remain subdispositions
+only. The LT-GR2 family and LT-SM7 scope notes, and the RA-G3/RA-B6
+joint-evaluation constraint, move no ledger field in this result. The proposed
+LT-GR8 `revival_trigger` narrowing is refused by
 `B3-J95-SCOPE-20260823`; the existing row already carries the source-faithful
 equilibrium-or-entropy-production fork. The proposed H0 measured-versus-derived
 binary is refused by `B3-H0-SCOPE-20260823`; the existing LT-GR2e burden

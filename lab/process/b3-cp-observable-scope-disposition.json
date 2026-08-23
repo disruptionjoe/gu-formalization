@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "b3_primary_source_observable_scope_disposition",
+  "created": "2026-08-23",
+  "b3_id": "B3-CP-04",
+  "ledger_row": "LT-SM7",
+  "external_benchmark": "EXT-SM-STRUCTURE",
+  "status": "DISPOSED_NO_LEDGER_MOVEMENT__OBSERVABLE_TO_THETA_SCOPE",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Neutron-EDM measurement and the theory-dependent map from a QCD theta term to a nucleon EDM; no GU topological term or EDM is calculated.",
+  "primary_sources": [
+    {
+      "id": "PSI-NEUTRON-EDM-2020",
+      "arxiv": "2001.11966",
+      "observable_carrier": "ultracold-neutron Ramsey precession with Hg-199 and cesium magnetometry",
+      "inference_map": "electric-field-correlated spin-precession data and systematic model -> neutron EDM estimate",
+      "licensed_claim": "The measured neutron EDM is consistent with zero at the reported statistical and systematic precision.",
+      "ceiling": "The experiment constrains the neutron EDM; it does not directly measure the QCD theta angle or select a microscopic suppression mechanism."
+    },
+    {
+      "id": "LATTICE-QCD-THETA-NEDM-2021",
+      "arxiv": "2101.07230",
+      "observable_carrier": "lattice-QCD nucleon correlation functions and CP-odd form factors in a small-theta expansion",
+      "inference_map": "theta-term insertion and continuum/chiral/excited-state analysis -> nucleon EDM per unit theta",
+      "licensed_claim": "The calculation exposes a theory map from the theta term to nucleon EDMs and large current excited-state and statistical systematics.",
+      "ceiling": "The authors do not claim a reliable precision conversion from the experimental neutron-EDM limit to theta; hadronic-map uncertainty cannot be erased."
+    }
+  ],
+  "rejected_inferences": [
+    "a null neutron-EDM estimate -> the QCD theta angle is directly measured to be zero",
+    "hadronic-map uncertainty -> the experimental EDM constraint disappears",
+    "the Standard Model leaves strong CP unexplained -> GU may leave its topological angles untyped"
+  ],
+  "precise_relocation": "The external carrier is the neutron EDM and related CP-odd observables. A QCD-theta bound is a theory-mediated inference. GU must select its reduction node, write every surviving degree-4 topological term, type the physical angle combination including fermion mass phases and anomaly identifications, supply a suppression mechanism, and forward-map the result to EDM observables.",
+  "ledger_comparison": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "row": "LT-SM7",
+    "verdict": "NEEDS",
+    "reason_kind": "REAL_PARAMETER",
+    "required_distance_tokens": ["r-torus", "selecting the reduction node", "supply the r angles", "symmetry mechanism"],
+    "required_revival_tokens": ["degree-4 topological term", "descent map for its coefficient"],
+    "movement": "none"
+  },
+  "corrected_evaluation_packet": [
+    "select one reduction node and enumerate its complete physical angle vector",
+    "include fermion mass phases, anomaly shifts and the map to the physical CP-odd combination",
+    "derive the symmetry or dynamics that fixes or suppresses that combination",
+    "evaluate neutron and other EDM carriers with a declared hadronic calculation and uncertainty"
+  ],
+  "remaining_b3_entries": 0,
+  "ledger_verdict_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

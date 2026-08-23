@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "b3_primary_source_observation_scope_disposition",
+  "created": "2026-08-23",
+  "b3_id": "B3-CC-02",
+  "ledger_row": "LT-GR2d",
+  "external_benchmark": "EXT-COSMO-BACKGROUND",
+  "status": "DISPOSED_NO_LEDGER_MOVEMENT__OBSERVATION_VS_VACUUM_SCOPE",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Observed late-time acceleration and inferred cosmological-constant parameters versus microscopic vacuum-energy decomposition and radiative response; no GU cosmology or vacuum-energy calculation is performed.",
+  "primary_sources": [
+    {
+      "id": "RIESS-HIGH-Z-SN-1998",
+      "arxiv": "astro-ph/9805201",
+      "observable_carrier": "Type-Ia-supernova light curves, redshifts and luminosity-distance relations",
+      "inference_map": "calibrated supernova distances and redshifts -> expansion-history likelihood -> acceleration and cosmological parameters within the declared cosmological model",
+      "licensed_claim": "The high-redshift supernova sample provides evidence for an accelerating universe under the stated analysis.",
+      "ceiling": "The supernova data do not measure a microscopic decomposition of vacuum energy or identify a unique stress-energy mechanism."
+    },
+    {
+      "id": "PERLMUTTER-HIGH-Z-SN-1999",
+      "arxiv": "astro-ph/9812133",
+      "observable_carrier": "forty-two high-redshift Type-Ia-supernova light curves, redshifts and fitted luminosity distances",
+      "inference_map": "supernova Hubble diagram -> Omega_M and Omega_Lambda likelihood under the declared FLRW families",
+      "licensed_claim": "The sample favors positive Lambda-like late-time acceleration in the fitted cosmological families.",
+      "ceiling": "A fitted Omega_Lambda is an effective cosmological parameter, not a direct measurement of bare quantum-field vacuum terms."
+    },
+    {
+      "id": "PLANCK-COSMO-PARAMETERS-2018",
+      "arxiv": "1807.06209",
+      "observable_carrier": "CMB temperature, polarization and lensing spectra, including the acoustic angular scale",
+      "inference_map": "CMB spectra and likelihood -> base-Lambda-CDM and extension-conditional parameter posteriors",
+      "licensed_claim": "Planck finds good consistency with base Lambda-CDM and infers its late-time parameters under that model.",
+      "ceiling": "Model-conditional consistency does not determine a microscopic vacuum-energy owner or prove radiative stability."
+    },
+    {
+      "id": "DESI-DR2-II-2025",
+      "arxiv": "2503.14738v3",
+      "observable_carrier": "DESI DR2 BAO distance ratios combined with named CMB and supernova likelihoods",
+      "inference_map": "BAO and companion likelihoods -> flat-Lambda-CDM and time-varying-dark-energy comparisons",
+      "licensed_claim": "Flat Lambda-CDM describes the BAO results, while named combinations prefer a time-varying extension at dataset-dependent significance.",
+      "ceiling": "The comparison distinguishes effective expansion histories; it does not observe individual microscopic vacuum contributions."
+    }
+  ],
+  "rejected_inferences": [
+    "late-time acceleration is observed -> a bare microscopic vacuum energy is measured",
+    "the incumbent cosmological-constant naturalness problem -> GU need not reproduce the observed expansion history",
+    "a fitted effective Lambda -> radiative response and vacuum-shift stability are established"
+  ],
+  "precise_relocation": "Treat supernova, CMB and BAO carriers as constraints on an action-owned expansion and perturbation model. Do not require GU to reproduce an unobserved term-by-term microscopic vacuum decomposition, but do require its selected normalization, units, vacuum-shift response and held-out observables.",
+  "ledger_comparison": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "row": "LT-GR2d",
+    "verdict": "NEEDS",
+    "reason_kind": "MISSING_CONSTRUCTION",
+    "required_distance_tokens": ["Sign", "units", "radiative response", "common domain", "cosmology"],
+    "required_revival_token": "native or explicitly external normalized observer functional",
+    "movement": "none"
+  },
+  "corrected_evaluation_packet": [
+    "derive one action-owned normalized background and perturbation model",
+    "state how microscopic vacuum shifts enter or cancel in the selected action and domain",
+    "predict the observed supernova, CMB and BAO carriers rather than a bare-vacuum decomposition",
+    "separate effective late-time parameters from microscopic naturalness claims"
+  ],
+  "remaining_b3_entries": 0,
+  "ledger_verdict_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

@@ -7,6 +7,19 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 B3 REGISTER COMPLETE: THREE FINAL SOURCE PACKETS CLOSE WITH NO
+> LEDGER MOVEMENT.** `B3-CC-02` separates effective expansion carriers from
+> microscopic vacuum decomposition at LT-GR2d; `B3-CP-04` separates the
+> measured neutron EDM from the theory-mediated theta map at LT-SM7; and
+> `B3-NU-05` separates four neutrino mass carriers while requiring one common
+> RA-B6/RA-G3 operator and reality map. All six B3 entries are now current and
+> parent-linked, but none closes its construction row. Ledger v0.263 stays
+> byte-identical with 88 open rows and `exhausted=false` /
+> `b2_selectable=false`. Next audit the strongest SAME row through FC-1..FC-7
+> or the strongest DIFFERS row through B4-or-precise-impossibility; do not
+> repeat B3 or return to CBRS/source-action work early. See
+> `lab/process/phenomenology-disposition-register-v0.1.json`.
+
 > **2026-08-23 PHENOMENOLOGY DISPOSITION BASELINE: EXHAUSTION IS NOW
 > COMPUTABLE AND FALSE.** The active four-bucket method previously had no
 > canonical denominator or live terminal register. The v0.1 register now
@@ -15,8 +28,8 @@ updated_at: "2026-08-23"
 > LT-GR11 has a terminal B1 `FITTING_CONSTRUCTION`; 88 rows remain open.
 > `SAME` is not retroactive FC admission, `NEEDS` is not unnamed B2, and a
 > completed B3 source adjudication does not close its parent construction row.
-> The derived result is `exhausted=false`, `b2_selectable=false`. Continue the
-> current B3 citation-time work or a genuine B1/B4 disposition; do not return
+> The derived result is `exhausted=false`, `b2_selectable=false`. Continue with
+> the strongest genuine B1/B4 disposition; do not return
 > to CBRS/source-action work on a prose claim of exhaustion. See
 > `explorations/conditional-build/phenomenology-disposition-baseline-v0.1-2026-08-23.md`.
 
@@ -30,9 +43,9 @@ updated_at: "2026-08-23"
 > crossing. GU therefore owes a direct evaluation of one action-owned family
 > against the current named DESI/CMB/supernova likelihoods. LT-GR2e v0.263
 > already carries that held-out burden, so B3-DE-01 is disposed
-> `NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION`. Three B3 entries remain;
-> reconstruct B3-CC-02, B3-CP-04 and B3-NU-05 at citation time, or take the
-> strongest newly surfaced B1/B4 construction. See
+> `NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION`. B3-CC-02, B3-CP-04 and
+> B3-NU-05 have since been disposed without ledger movement; take the strongest
+> newly surfaced B1/B4 construction. See
 > `explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md`.
 
 > **2026-08-23 B3-H0 OBSERVABLE-SCOPE DISPOSITION: THREE INFERENCE MAPS,
@@ -47,8 +60,8 @@ updated_at: "2026-08-23"
 > v0.263 already carries that construction and held-out prediction burden, so
 > B3-H0-06 is disposed
 > `NO_LEDGER_MOVEMENT__OBSERVABLE_SCOPE_CORRECTION`. At that checkpoint four
-> B3 entries remained; B3-DE-01 has since been disposed separately and three
-> entries remain. See
+> B3 entries remained; all four have since been disposed without ledger
+> movement. See
 > `explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md`.
 
 > **2026-08-23 B3-J95 PRIMARY-SOURCE DISPOSITION: THE EQUILIBRIUM BRANCH
@@ -61,9 +74,9 @@ updated_at: "2026-08-23"
 > conditions. `B3-J95-03` is therefore disposed
 > `NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION`. LT-GR8 remains `NEEDS /
 > MISSING_CONSTRUCTION`, with both equilibrium and entropy-production routes
-> open and no mechanism or confirmation credit. B3-H0-06 has since been
-> disposed separately; B3-DE-01 has also been disposed and three B3 entries
-> remain. See
+> open and no mechanism or confirmation credit. B3-H0-06 and B3-DE-01 were
+> disposed next; the final three B3 entries have also been disposed without
+> ledger movement. See
 > `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
 
 > **2026-08-23 FIRST FITTING CONSTRUCTION BANKED; STRONG-FIELD AND PPN
@@ -76,8 +89,8 @@ updated_at: "2026-08-23"
 > imports Schwarzschild and W220 grants the shiab-Einstein reduction, so neither
 > packet can honestly count as a source-action construction. All three rows
 > remain `NEEDS / MISSING_CONSTRUCTION`; no ledger or scientific verdict moves.
-> Next, build a primary-literature-backed B3 external-tension disposition for
-> the strongest eligible row, or take the strongest remaining B1/B4 item. Do
+> The six-entry B3 register is now complete. Next, take the strongest remaining
+> B1/B4 item. Do
 > not return to CBRS source-action work while those buckets remain unexhausted.
 > See
 > `explorations/conditional-build/gravitational-anchor-bucket-disposition-and-first-fitting-construction-2026-08-23.md`.

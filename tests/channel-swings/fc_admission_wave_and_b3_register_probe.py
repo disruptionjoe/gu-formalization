@@ -137,6 +137,16 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(dispositions.get("B3-DE-01", {}).get("status") ==
           "DISPOSED_NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION",
           "LT-GR2e carries the accepted DE likelihood-scope correction")
+    check(dispositions.get("B3-CC-02", {}).get("status") ==
+          "DISPOSED_NO_LEDGER_MOVEMENT__OBSERVATION_VS_VACUUM_SCOPE",
+          "LT-GR2d carries the accepted CC observation-scope correction")
+    check(dispositions.get("B3-CP-04", {}).get("status") ==
+          "DISPOSED_NO_LEDGER_MOVEMENT__OBSERVABLE_TO_THETA_SCOPE",
+          "LT-SM7 carries the accepted CP observable-scope correction")
+    check(dispositions.get("B3-NU-05", {}).get("status") ==
+          "DISPOSED_NO_LEDGER_MOVEMENT__MULTI_CARRIER_SCOPE",
+          "RA-B6/RA-G3 carry the accepted neutrino carrier-scope correction")
+    check(b3.get("remaining_entries") == 0, "all B3 entries are disposed")
     check(data["ledger_verdict_change"] == "none", "no verdict moved")
     check(data["target_claim"] == "NONE-NOT-A-KILL", "artifact types its own kill status")
 

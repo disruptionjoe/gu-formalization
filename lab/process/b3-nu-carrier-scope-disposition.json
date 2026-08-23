@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "b3_primary_source_multi_carrier_disposition",
+  "created": "2026-08-23",
+  "b3_id": "B3-NU-05",
+  "ledger_row": "RA-B6",
+  "linked_row": "RA-G3",
+  "external_benchmark": "EXT-SM-STRUCTURE",
+  "status": "DISPOSED_NO_LEDGER_MOVEMENT__MULTI_CARRIER_SCOPE",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Oscillation, beta-endpoint, neutrinoless-double-beta and cosmological neutrino-mass carriers; no GU spectrum, mixing matrix, reality map or Majorana mechanism is constructed.",
+  "primary_sources": [
+    {
+      "id": "T2K-NOVA-JOINT-2025",
+      "arxiv": "2510.19888v2",
+      "observable_carrier": "joint T2K and NOvA long-baseline appearance and disappearance event spectra",
+      "inference_map": "flux, interaction and detector likelihoods -> mass-squared splitting, mixing and CP-phase posteriors within three-flavor oscillations",
+      "licensed_claim": "The joint analysis sharpens Delta m^2_32 and delta_CP constraints and finds no strong mass-ordering preference.",
+      "ceiling": "Oscillations constrain splittings and mixing; they do not determine the absolute mass scale or whether neutrinos are Dirac or Majorana."
+    },
+    {
+      "id": "KATRIN-259-DAY-2024",
+      "arxiv": "2406.13516",
+      "observable_carrier": "tritium beta-decay endpoint electron spectrum over 259 measurement days",
+      "inference_map": "endpoint spectral likelihood -> effective electron-antineutrino mass squared and upper limit",
+      "licensed_claim": "KATRIN reports a best-fit mass squared consistent with zero and m_beta below 0.45 eV at 90 percent confidence.",
+      "ceiling": "The endpoint carrier constrains m_beta; it does not resolve ordering, mixing phases or Majorana reality."
+    },
+    {
+      "id": "KAMLAND-ZEN-COMPLETE-2024",
+      "arxiv": "2406.11438",
+      "observable_carrier": "the complete KamLAND-Zen 800 xenon-136 neutrinoless-double-beta exposure",
+      "inference_map": "event and background likelihood -> half-life lower limit -> effective Majorana-mass interval under light-Majorana exchange and nuclear-matrix-element inputs",
+      "licensed_claim": "No neutrinoless-double-beta signal is reported; the half-life limit maps to a matrix-element-dependent effective Majorana-mass range.",
+      "ceiling": "A null result does not establish Dirac neutrinos, and the mass interval is conditional on mechanism and nuclear matrix elements."
+    },
+    {
+      "id": "DESI-DR2-II-2025",
+      "arxiv": "2503.14738v3",
+      "observable_carrier": "DESI DR2 BAO ratios with named CMB likelihoods",
+      "inference_map": "cosmological likelihood -> sum-of-neutrino-masses posterior under the selected background and dark-energy model",
+      "licensed_claim": "DESI plus CMB gives a 95 percent upper limit of 0.064 eV in Lambda-CDM and 0.16 eV in w0-wa CDM.",
+      "ceiling": "The factor-of-2.5 model shift is direct evidence that the cosmological mass-sum limit is not a model-independent laboratory measurement."
+    }
+  ],
+  "rejected_inferences": [
+    "oscillation splittings -> the absolute neutrino masses are measured",
+    "a neutrinoless-double-beta null -> neutrinos are Dirac",
+    "a cosmological mass-sum limit -> a model-independent neutrino spectrum",
+    "a forced neutral representation state -> an observed neutrino mass, mixing and Majorana map"
+  ],
+  "precise_relocation": "Keep four evidence maps separate. GU owes one source-native neutral operator and observation map producing absolute masses, splittings, mixing, charge/reality semantics and any Majorana channel, then separate evaluations of oscillation, beta-endpoint, neutrinoless-double-beta and cosmological carriers.",
+  "ledger_comparison": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "parent_row": "RA-B6",
+    "parent_verdict": "DIFFERS",
+    "parent_reason_kind": "PREDICTION",
+    "parent_revival_trigger": "a neutrino-sector mass spectrum and mixing map",
+    "linked_row": "RA-G3",
+    "linked_verdict": "NEEDS",
+    "linked_reason_kind": "MISSING_CONSTRUCTION",
+    "linked_revival_trigger": "a stationary odd-form VEV in the located 126 channel",
+    "movement": "none"
+  },
+  "joint_evaluation_constraint": "RA-B6 and RA-G3 cannot be credited independently: a forced neutral state and a located odd-form singlet channel become physical neutrino evidence only through one common operator, reality/charge map, mass spectrum and mixing evaluation.",
+  "corrected_evaluation_packet": [
+    "construct one source-native neutral mass operator on a declared domain",
+    "derive absolute masses, splittings, mixing and charge/reality semantics",
+    "state whether a Majorana channel exists and which lepton-number-violating operator mediates it",
+    "evaluate each experimental carrier through its own likelihood and assumptions"
+  ],
+  "remaining_b3_entries": 0,
+  "ledger_verdict_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

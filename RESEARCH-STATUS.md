@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**B3 primary-source register complete, 2026-08-23.** The final three source
+packets are disposed without ledger movement. `B3-CC-02` separates observed
+expansion carriers from microscopic vacuum decomposition at LT-GR2d;
+`B3-CP-04` separates the measured neutron EDM from the theory-mediated QCD
+theta map at LT-SM7; and `B3-NU-05` separates oscillation, beta endpoint,
+neutrinoless-double-beta and cosmological mass carriers while requiring one
+common RA-B6/RA-G3 operator and reality map. All six B3 split units are now
+current, terminal and parent-linked. Their parent construction rows remain
+open, ledger v0.263 remains byte-identical, and the derived gates remain
+`exhausted=false` and `b2_selectable=false`. The next substantial packet is
+the strongest genuine B1 fitting construction or B4 precise impossibility.
+See `lab/process/phenomenology-disposition-register-v0.1.json`.
+
 **Phenomenology disposition baseline v0.1, 2026-08-23.** The B1/B3/B4
 exhaustion rule now has a digest-bound canonical denominator and executable
 gate. Ledger v0.263 contributes 91 rows. Evidence supports terminal row
@@ -15,8 +28,9 @@ dispositions only for LT-GR9 and LT-GR10 at `B2_NAMED_REQUIREMENT`, and LT-GR11
 at B1/`FITTING_CONSTRUCTION`; 88 rows remain open. Ledger verdicts are inputs,
 not bucket outcomes: `SAME` does not award FC grade, `NEEDS` does not name a B2
 owner, and `DIFFERS` does not automatically prove B4 or impossibility. The
-three completed B3 source adjudications are subdispositions and leave LT-GR8
-and LT-GR2e open. The derived gate reads `exhausted=false` and
+six completed B3 source adjudications are subdispositions and leave LT-GR8,
+LT-GR2d, LT-GR2e, LT-SM7, RA-B6 and RA-G3 open. The derived gate reads
+`exhausted=false` and
 `b2_selectable=false`; a successor ledger invalidates it until explicit
 rebase. No ledger or scientific verdict moves. See
 `explorations/conditional-build/phenomenology-disposition-baseline-v0.1-2026-08-23.md`.
@@ -31,7 +45,8 @@ result updates the joint high-redshift likelihood but does not itself measure
 the low-redshift crossing. The honest GU target is one action-owned family
 evaluated directly against the named current DESI/CMB/supernova likelihoods.
 LT-GR2e v0.263 already requires that held-out evaluation and remains `NEEDS /
-MISSING_CONSTRUCTION` byte-for-byte. Three B3 entries remain. See
+MISSING_CONSTRUCTION` byte-for-byte. The final three B3 entries have since
+been disposed without ledger movement. See
 `explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md`.
 
 **B3-H0 primary-source observable-scope disposition, 2026-08-23.** The second
@@ -44,8 +59,8 @@ under a cosmological model; DESI reports BAO distance ratios and constrains
 also cannot be dismissed as one undifferentiated model artifact. LT-GR2e
 v0.263 already requires an action-owned cosmological solution with fixed
 initial data and held-out DESI/CMB/BAO predictions, so it remains `NEEDS /
-MISSING_CONSTRUCTION` byte-for-byte. B3-DE-01 has since been disposed and
-three B3 entries remain. See
+MISSING_CONSTRUCTION` byte-for-byte. B3-DE-01 and the final three B3 entries
+have since been disposed without ledger movement. See
 `explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md`.
 
 **B3-J95 primary-source scope disposition, 2026-08-23.** The first B3 row is
@@ -58,8 +73,8 @@ subject to horizon-slice, approximate-Killing and entropy-density integrability
 conditions. The proposed inference that the Weyl/Bach sector presumptively
 closes equilibrium is withdrawn. LT-GR8 v0.263 already preserves the exact
 two-branch obligation and remains `NEEDS / MISSING_CONSTRUCTION`, with
-mechanism and confirmation `NONE`. B3-H0-06 has since been disposed
-separately; B3-DE-01 has also been disposed and three B3 entries remain. See
+mechanism and confirmation `NONE`. B3-H0-06, B3-DE-01 and the final three B3
+entries have since been disposed without ledger movement. See
 `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
 
 | B3 entry | proposed direction | source disposition | ledger effect |
@@ -67,6 +82,9 @@ separately; B3-DE-01 has also been disposed and three B3 entries remain. See
 | B3-J95-03 / LT-GR8 | nonequilibrium-only tightening | refused beyond `f(R)` scope; restricted algebraic-Riemann equilibrium route remains | none |
 | B3-H0-06 / LT-GR2e | all H0 routes reduced to “nothing measured” | three typed carriers: empirical ladder, model-inferred CMB H0, BAO ratios/H0*r_d | none |
 | B3-DE-01 / LT-GR2e | withdraw CPL target and all associated evidence | CPL demoted to model-conditioned compression; direct/nonparametric crossing lean retained; action-owned direct likelihood owed | none |
+| B3-CC-02 / LT-GR2d | observed expansion fixes the microscopic vacuum decomposition | expansion carriers remain empirical; vacuum decomposition remains theory-mediated and action-owned | none |
+| B3-CP-04 / LT-SM7 | neutron-EDM bounds directly measure the QCD theta angle | EDM is measured; theta inference depends on a theory matrix element and systematics-controlled map | none |
+| B3-NU-05 / RA-B6 + RA-G3 | oscillation, endpoint, double-beta and cosmology are one interchangeable mass measurement | four carrier-specific likelihoods retained; one common operator, spectrum and reality map owed | none |
 
 **First fitting construction and gravitational-anchor bucket disposition,
 2026-08-23.** `FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1` is banked at observed R5
@@ -77,8 +95,8 @@ nontriviality, demotion conditions and owner-resolution path. `LT-GR9` and
 W220 grants the shiab-Einstein reduction before target phenomenology is
 computed. All three rows remain `NEEDS / MISSING_CONSTRUCTION`; the packet
 changes no ledger, source, canon, proof, mechanism, prediction, confirmation or
-public-posture verdict. The next substantial packet is a primary-literature-
-backed B3 external-tension disposition, or the strongest remaining B1/B4 item.
+public-posture verdict. The B3 register is complete. The next substantial
+packet is the strongest remaining B1/B4 item.
 
 | anchor | bucket | disposition | ledger effect |
 | --- | --- | --- | --- |
