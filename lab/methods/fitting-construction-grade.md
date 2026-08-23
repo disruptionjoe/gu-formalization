@@ -92,6 +92,16 @@ saying nothing. FC-7 is the criterion that separates a research instrument from
 a laundering channel, and it was added on the day the grade was installed, by
 the process council's seat 5, before anything had been banked at the grade.
 
+### Reviewer rule for FC-3 and FC-4 (added 2026-08-23)
+
+A reviewer who finds an FC-3 or FC-4 search **missing** and supplies it
+themselves records it as **reviewer-supplied** and scores the packet **failed**.
+These two criteria exist so that an unchecked claim is *visibly* unchecked; a
+reviewer who performs the packet's missing search converts an unchecked claim
+into a checked one and erases exactly the signal the criteria carry. This was
+added after the first admission wave, in which one packet named zero `SC-` ids
+and was scored met on a search its reviewer had run.
+
 ## What this grade explicitly does not license
 
 - **Compatibility as derivation.** `RESEARCH-POSTURE.md` lists this among the

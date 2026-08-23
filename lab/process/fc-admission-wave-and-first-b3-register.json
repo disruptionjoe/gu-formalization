@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "fc_admission_review_and_external_tension_register",
+  "created": "2026-08-23",
+  "status": "ZERO_OF_FOUR_ADMITTED__FC7_OVERTURNED_ALL_FOUR_FIRST_PASS_VERDICTS__SIX_B3_ENTRIES_NONE_SOFTENING",
+  "directed_by": "Joe direct chat 2026-08-23",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "reviews admissions against an internal grade and records external tensions; kills no source claim and no route",
+  "fc_admission": {
+    "reviewed": 4,
+    "admitted": 0,
+    "objects": [
+      "vertical density line",
+      "null-null kernel and Clausius direction count",
+      "non-metricity retyping of MD-1",
+      "q_V-orthogonal signature refinement"
+    ],
+    "fc7_first_pass_met": 4,
+    "fc7_overturned_to_not_met": 4,
+    "fc1_failed": 4,
+    "fc2_failed": 4,
+    "headline": "FC-7 was scored MET on first pass in all four packets and overturned in all four; this is the direct evidence the criterion earned its place"
+  },
+  "fc7_refusal_taxonomy": [
+    {
+      "pattern": "CIRCULAR",
+      "shape": "the prohibition restates the construction's own definition; 'it forbids objects that do not satisfy it' is not content"
+    },
+    {
+      "pattern": "INHERITED",
+      "shape": "the prohibition is a property of the carrier, true with or without GU, so the construction adds nothing"
+    },
+    {
+      "pattern": "EMPTY_EXTENSION",
+      "shape": "no possible violator: every candidate anyone has proposed already satisfies it"
+    },
+    {
+      "pattern": "ANALYTIC",
+      "shape": "a rewording no measurement could falsify. The 'perfect fluid is thermodynamically visible iff w != -1' sharpening is exactly T_ab k^a k^b = (rho+p)(u.k)^2 vanishing on all null k iff rho + p = 0, i.e. iff T = -rho g lies in the kernel; the prohibition is the algebra restated, not a claim about the world"
+    },
+    {
+      "pattern": "DOUBLE_COUNTED",
+      "shape": "the same fact booked as the FC-6 demotion condition and again as FC-7 content; a scope boundary cannot also be the content"
+    },
+    {
+      "pattern": "PRIOR_ART_INSTRUMENT",
+      "shape": "the prohibition's witness is already the repository's own standing control"
+    }
+  ],
+  "calibration_reference": {
+    "entry": "FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1",
+    "rung": "R5",
+    "row": "LT-GR11",
+    "anchor": "EXT-GR-ROTATION",
+    "registry": "lab/process/gravitational-anchor-bucket-disposition-and-first-fitting-construction.json",
+    "filed_by": "a concurrent lane, about an hour after the grade was installed",
+    "brief_correction": "the wave brief claimed these would be the program's first entries at the grade; false, the grade already held this one",
+    "decisive_property": "construction_created_before_anchor: true -- construction evidence dated 2026-07-11 against anchor acceptance 2026-08-23, so it was built six weeks before the target it was measured against",
+    "why_decisive": "the grade forbids target fitting; every choice must be frozen before evaluation against a target, and that is not a criterion any later object can satisfy retroactively"
+  },
+  "method_fix_forced": {
+    "irregularity": "one packet's FC-4 was substantively clean but named zero SC- ids; the reviewer supplied the search and scored the criterion met",
+    "why_it_matters": "FC-3 and FC-4 exist so that an unchecked claim is visibly unchecked; a reviewer performing the missing search erases the signal",
+    "rule_added": "a reviewer who supplies a missing FC-3 or FC-4 search records it as reviewer-supplied and scores the packet as FAILED"
+  },
+  "b3_register": {
+    "entries": 6,
+    "net_softening": 0,
+    "direction": {
+      "enlarge": 2,
+      "two_sided": 2,
+      "withdraw_target_keep_failure": 1,
+      "narrow_premise_add_constraint": 1
+    },
+    "ids": [
+      "B3-DE-01",
+      "B3-CC-02",
+      "B3-J95-03",
+      "B3-CP-04",
+      "B3-NU-05",
+      "B3-H0-06"
+    ],
+    "notable": [
+      {
+        "id": "B3-J95-03",
+        "finding": "nothing is measured for the Jacobson benchmark -- no Hawking radiation, no Unruh effect, no measured horizon entropy, no tested first law; the entry ENLARGES the obligation because Eling-Guedens-Jacobson require a nonequilibrium treatment for curvature-corrected entropy while LT-GR3 books a Weyl/Bach sector",
+        "stated_as": "presumptively closed pending an area-exactness demonstration, since an entry that enlarges an obligation must itself be exact"
+      },
+      {
+        "id": "B3-H0-06",
+        "finding": "no published H_0 is measured; every one is derived on both sides. The obligation is the measured angles and ratios plus GU's own sound horizon. The Hubble tension supplies GU NO RELIEF"
+      },
+      {
+        "id": "B3-DE-01",
+        "finding": "withdraws the CPL central pair as target and as credit, and DISCLOSES that this also withdraws the CPL-based argument against GU recorded in the comparative-tensions ledger; undisclosed it would read as one-sided relief"
+      }
+    ],
+    "self_corrections_applied": "re-checking citations at filing time changed four statements across two entries against CORRECTION DARK-ENERGY-07: the +5.7 sigma_A overshoot may not be quoted bare (LCDM overshoots +4.0 on the same metric; the honest mechanism is shape not amplitude), the f_0 bounds are ~3x looser profiled, the claim that GU sits further from every measurement than the disputants sit from each other is false on Omega_m (0.01 sigma from DES-Y5), and the status line must read 'excluded as the DESI dark-energy signal; unconstrained-but-null as a family'",
+    "maintenance_rule": "entries are re-checked AT CITATION TIME, not filing time. The cautionary case is sigma_8/S_8: KiDS-Legacy now agrees with Planck at 0.73 sigma, so a register built a year ago would today be holding S_8 as a live excuse",
+    "refused_with_reasons": [
+      "muon g-2 HVP: no row, and the tension has closed -- the 2025 Theory Initiative lattice-based value agrees with the final Fermilab measurement",
+      "W mass: no row; the CDF outlier is refuted by CMS",
+      "proton radius: resolved",
+      "rotation curves: a row exists but mass-to-light converged to ~0.1 dex against a discrepancy of a factor of several, so a tension claim would be special pleading"
+    ]
+  },
+  "ledger_bearing": "candidates only; the FC wave produces zero bearing, and the B3 entries propose row-field candidates through ordinary evidence-delta process only, including a revival_trigger narrowing on LT-GR8 in the HARDER direction",
+  "independent_confirmation": "the wave ran tests/channel-swings/d4_contraction_rank_j_independence_probe.py and it passed 33/33",
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

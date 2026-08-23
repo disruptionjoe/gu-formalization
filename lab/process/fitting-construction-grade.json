@@ -89,5 +89,7 @@
   "claim_status_change": "none",
   "canon_verdict_change": "none",
   "public_posture_change": "none",
-  "amendment_2026_08_23": "FC-7 added the day the grade was installed, on the process council's seat-5 recommendation, before anything had been banked at the grade. The council recorded this as the single most important change on its list: it decides whether the grade is a research instrument or a laundering channel."
+  "amendment_2026_08_23": "FC-7 added the day the grade was installed, on the process council's seat-5 recommendation, before anything had been banked at the grade. The council recorded this as the single most important change on its list: it decides whether the grade is a research instrument or a laundering channel.",
+  "reviewer_rule_2026_08_23": "a reviewer who supplies a missing FC-3 or FC-4 search records it as reviewer-supplied and scores the packet FAILED; these criteria exist so an unchecked claim is visibly unchecked, and a reviewer performing the missing search erases that signal. Added after the first admission wave, where one packet named zero SC- ids and was scored met on its reviewer's search.",
+  "first_admission_wave_result": "zero of four admitted; FC-7 scored MET on first pass in all four packets and overturned in all four, which is the direct evidence the criterion earned its place. FC-1 and FC-2 also failed 4/4."
 }
