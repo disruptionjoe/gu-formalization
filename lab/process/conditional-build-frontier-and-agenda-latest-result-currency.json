@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-23",
+  "artifact": "explorations/conditional-build/conditional-build-frontier-and-agenda-latest-result-currency-2026-08-23.md",
+  "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "selected_arc": "L10-AGENDA-LATEST-RESULT-CURRENCY",
+  "source_to_proof_delta": {
+    "primary_claim": "The selected GU source action and observation architecture must supply the physical reduction and observable owners used by the conditional build.",
+    "current_certificate": "The proof/integrity fallback sequence through L7, L8, L9, corrected finite T3, both L10 reconciliations and Pin+ T1 agenda repair is complete at its stated ceilings.",
+    "missing_bridge": "A complete CBRS-1/2 construction, seven-axis C1 source packet, B5 physical boundary owner, GU operator/domain/line packet or applicable held-out observational wake.",
+    "reopening_evidence": "A materially distinct complete target-blind owner packet, owner-grade source packet, physical boundary owner, operator/domain/line packet or applicable future release.",
+    "movement": "unchanged"
+  },
+  "reconciliation": {
+    "agenda_updated_at": "2026-08-23",
+    "stale_latest_result": "PROOF-STABLE-KERNELS L7 newly released",
+    "current_latest_result": "L7_L8_L9_T3_AND_L10_FALLBACK_SEQUENCE_COMPLETE",
+    "new_execution_gate": null
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "canon_change": "none",
+    "portfolio_effect": "stale L7 latest-result execution pointer removed",
+    "next_selection": "rebuild substantial frontier"
+  },
+  "probe": "tests/channel-swings/conditional_build_frontier_agenda_latest_result_currency_probe.py"
+}
