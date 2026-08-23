@@ -7,6 +7,28 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE LT-GR8 REVERSE TRACK DESCENDS FROM THE BENCHMARK: R5, R4,
+> R3 ARE FROZEN AND R2/R1 RECEIVE A SIX-DEMAND INTERFACE.** Execution-order
+> correction (Joe direct chat): reverse-track work starts at the
+> known-physics rung and descends — `R6 -> R5 -> R4 -> R3` — instead of
+> running action-side candidate loops under the reverse-scaffold banner.
+> The council's chain is registered as rungs `R6..R1` (R-vocabulary; the
+> `L` names belong to the six-axis legs). Frozen here, all
+> comparator-driven: R5 accounting (one normalization constant, Wald-only
+> corrections, equilibrium-first Clausius); R4 boundary/algebra (local
+> Rindler wedge family only; temperature defined as the wedge KMS
+> parameter; one-sided demand honoring the recorded
+> no-bounded-modular-conjugation wall); R3 constraints/state space (even
+> scalar constraint with lapse; positive or Krein-superselected pairing at
+> the K109 entry gate). The terminal deliverable is the six-demand R2/R1
+> interface (constraint/lapse, boundary law, wedge-KMS state class, stress
+> composition through `s^*`, orientation selection data, reserved held-out
+> consequence), each landing on a named gap; an R1-side result discharging
+> none of them is not reverse-track progress. Demands, not constructions —
+> LT-GR8 stays `NEEDS`. Next descent-side step: demand D4 at typing grade.
+> See
+> `explorations/conditional-build/selected-k77-ltgr8-reverse-track-descent-r6-to-r3-2026-08-23.md`.
+
 > **2026-08-23 THE ROOT CONDITIONAL-BUILD LATEST-RESULT POINTER IS CURRENT.**
 > The owner-authoritative agenda still dated itself August 22 and described L7
 > as the newly released gate even though L8, L9, T3, both L10 reconciliations

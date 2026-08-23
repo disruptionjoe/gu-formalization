@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ltgr8_reverse_track_descent_registry",
+  "created": "2026-08-23",
+  "status": "R5_R4_R3_FROZEN__R2_R1_DEMAND_INTERFACE_TYPED__LTGR8_REMAINS_NEEDS",
+  "lane_id": "1",
+  "agenda_items": [
+    "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"
+  ],
+  "directed_by": "Joe direct chat 2026-08-23: execute the reverse track top-down from the known-physics rung; action-side candidate work no longer stands in for the reverse scaffold",
+  "target_claim": "ledger row LT-GR8 (verdict NEEDS unchanged); the reverse track's target-side rungs are frozen and the R2/R1 demand interface is typed",
+  "ledger_row": "LT-GR8",
+  "ledger_version": "lab/process/conditional-physics-ledger-v0.260.json",
+  "external_benchmark_ref": "EXT-J95-SEMI-CLASSICAL-HORIZON",
+  "mechanism_commitment": "NONE",
+  "confirmation_credit": "NONE",
+  "rung_registry": {
+    "vocabulary_note": "R-rungs, not layers: L1..L7 names the six-axis legs and Layer 0 names semantic alignment",
+    "R6": {"object": "scoped external benchmark phenomena EXT-J95", "status": "FROZEN_2026_08_21_COUNCIL_8_1_1"},
+    "R5": {"object": "entropy and energy-flux accounting", "status": "FROZEN_HERE"},
+    "R4": {"object": "physical causal boundary and observable algebra", "status": "FROZEN_HERE"},
+    "R3": {"object": "canonical constraints and reduced state space", "status": "FROZEN_HERE"},
+    "R2": {"object": "observed 3+1 system and observation map", "status": "TYPED_2026_08_22_METRIC_ONLY__RECEIVES_DEMAND_INTERFACE"},
+    "R1": {"object": "K77 source action and external datum", "status": "CBRS1_LANE__RECEIVES_DEMAND_INTERFACE"}
+  },
+  "execution_order": ["R6", "R5", "R4", "R3"],
+  "gating_correction": "CBRS-1 retains its exact reopening predicate but no longer gates R5-R3 descent work; only instantiation of descent demands on an actual background remains CBRS-blocked",
+  "r5_frozen": {
+    "comparator_driven": true,
+    "entropy_functional": "S = eta * Area at leading order; eta is ONE frozen undetermined normalization constant and NOT a prediction target; higher-curvature corrections only in Wald-Noether charge form, declared before comparison",
+    "energy_flux": "deltaQ = integral_H T_ab chi^a dSigma^b with chi the R4 wedge boost vector (frozen Rindler flux definition)",
+    "equilibrium_law": "leading-order Clausius deltaQ = T deltaS; any entropy-production term is a new declared dependency frozen before use",
+    "comparison_observable": "Einstein-like dynamics at leading order; discriminator is the form of the first higher-curvature correction"
+  },
+  "r4_frozen": {
+    "comparator_driven": true,
+    "boundary_identity": "local Rindler wedge family; NOT cosmological, York, analytic-domain, BV-BFV, or capability (six-way census discipline, 2026-08-22)",
+    "causal_prerequisites": "two-component causal orientation and local boost flow; post-observation-only by the T-4 certificate",
+    "observable_algebra": "isotone boost-covariant wedge algebra assignment; temperature DEFINED as the KMS parameter kappa/2pi of the wedge state class",
+    "kms_demand_type": "ONE_SIDED_PER_STATE__NO_GLOBAL_MODULAR_CONJUGATION_NET_DEMANDED",
+    "imported_wall": "no coherent net of bounded modular conjugations on the W98 Krein tower class (tests/W98, tests/W100_obj2); one-sided per-state structure survives (tests/W109)"
+  },
+  "r3_frozen": {
+    "comparator_driven": true,
+    "constraint_structure": "even scalar Hamiltonian constraint with lapse-type multiplier plus spatial diffeomorphism constraints",
+    "method_ports": [
+      "constraint-reduced state meaning precedes any covariant state count",
+      "a named physical boundary/ensemble precedes any contour, convergence, entropy or sign interpretation"
+    ],
+    "reduced_state_space": "physical pairing positive, or Krein with ghost-parity Z2 superselection and generalized Born rule; candidates must meet the K109 entry gate (selector, pairing, analytic domain typed on the actual carrier); invariant-linear repairs closed by K107",
+    "imported_typed_negatives": [
+      "B5 (9,5) odd spinor normal multiplier is not an ADM lapse (WRONG_TYPE)",
+      "released source supplies no physical boundary law (K104)",
+      "invariant balanced fibre Hamiltonian unbounded with nonelliptic symbol (K106)"
+    ]
+  },
+  "r2_r1_demand_interface": [
+    {
+      "id": "D1_EVEN_SCALAR_CONSTRAINT_AND_LAPSE",
+      "demand": "even scalar Hamiltonian constraint and lapse-type multiplier arising after observation",
+      "lands_on": "B5 WRONG_TYPE gap"
+    },
+    {
+      "id": "D2_PHYSICAL_BOUNDARY_LAW",
+      "demand": "physical boundary law / boundary variational owner",
+      "lands_on": "K104 gap"
+    },
+    {
+      "id": "D3_ONE_SIDED_WEDGE_KMS_STATE_CLASS",
+      "demand": "state class realizing one-sided wedge-KMS structure on a positive or Krein-superselected physical pairing",
+      "lands_on": "K106-K111 gap via the K109 entry gate"
+    },
+    {
+      "id": "D4_STRESS_COMPOSITION_THROUGH_OBSERVATION",
+      "demand": "observed-side composition of the native Hilbert stress through the contraction s^*",
+      "lands_on": "PARTIAL component of the 2026-08-22 packet map"
+    },
+    {
+      "id": "D5_ORIENTATION_SELECTION_DATA",
+      "demand": "post-observation causal-orientation selection data",
+      "lands_on": "T-4 certificate: no ambient default exists"
+    },
+    {
+      "id": "D6_HELD_OUT_CONSEQUENCE_RESERVED",
+      "demand": "one held-out consequence reserved at packet time",
+      "lands_on": "no-retuning rule"
+    }
+  ],
+  "progress_rule": "descent progress is measured against the demand interface: an R1-side result that discharges none of the six demands is not reverse-track progress",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
