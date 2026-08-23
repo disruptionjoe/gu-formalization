@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "claim_grade_and_admission_standard_registry",
+  "created": "2026-08-23",
+  "status": "GRADE_INSTALLED__SIX_ADMISSION_CRITERIA__BARRED_FROM_LEDGER_MOVEMENT_AND_PREDICTION_CREDIT",
+  "directed_by": "Joe direct chat 2026-08-23: the point of conditional-build reverse scaffolding is finding things that would fit and do not conflict, with a clear and plausible pathway; full derivation without the source action is not the bar",
+  "method_doc": "lab/methods/fitting-construction-grade.md",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "installs a claim grade; kills no source claim and no research route",
+  "defect_fixed": {
+    "existing_ladder": ["source-confirmed", "repository-derived", "reconstructed", "conditional", "speculative", "negative", "open"],
+    "gap": "every rung above speculative requires a derivation; 'conditional' means derived-given-grant-G, which is strictly stronger than what reverse scaffolding produces",
+    "observable_consequence": "successfully built rung objects terminate as BLOCKED_WITH_NAMED_GAP or 'waits on the source action' because the only alternative was to overclaim them as derived",
+    "verified": "no fit/no-conflict/pathway grade existed in lab/methods, lab/process, RESEARCH-POSTURE.md or CONTRIBUTING.md before this change"
+  },
+  "grade": {
+    "token": "FITTING_CONSTRUCTION",
+    "definition": "a structure explicitly built at a named descent rung, conflicting with no recorded repository result and no registered source claim, carrying an explicit named pathway to derivation together with the conditions that would falsify that pathway",
+    "sits_below": "conditional",
+    "sits_above": "speculative",
+    "is_not": ["a derivation", "a prediction", "evidence that GU is correct"]
+  },
+  "admission_criteria": [
+    {"id": "FC-1", "name": "built, not gestured", "requirement": "the object is constructed and its structure fingerprint is stated in full: carrier, pairing or form, real structure, grading, signature horn, ambient embedding; PD-STRUCTURE-TRANSPORT binds and a changed fingerprint requires an adapter or returns OBJECT_CHANGED"},
+    {"id": "FC-2", "name": "rung named", "requirement": "the descent rung R6..R1 the construction lives at, what it is conditional on from below and what it supplies above"},
+    {"id": "FC-3", "name": "non-conflicting, checked", "requirement": "checked against the recorded corpus with the search NAMED: the relevant no-gos, kills, path-dependency chains and prior closes; 'no conflict found' without a stated search is not a check"},
+    {"id": "FC-4", "name": "source-compatible, checked", "requirement": "checked against lab/sources/source-claim-register.yaml with polarity respected: violating an ASSERTS claim is a conflict and so is relying on a DISAVOWS reading; the SC- ids checked must be named"},
+    {"id": "FC-5", "name": "pathway named", "requirement": "an explicit route to derivation naming what must be supplied, WHICH OWNER supplies it, and the next executable step; a pathway that reduces to 'the source action must exist' is not a pathway but the blockage this grade exists to stop restating"},
+    {"id": "FC-6", "name": "ceiling and demotion stated", "requirement": "states that the construction is not a derivation and may not be cited as one, and states the demotion condition: if the pathway is shown blocked or a conflict surfaces it drops to speculative or negative rather than silently persisting"}
+  ],
+  "explicitly_not_licensed": [
+    "compatibility as derivation, which RESEARCH-POSTURE.md lists among the forbidden moves and this grade does not relax",
+    "prediction or confirmation credit",
+    "moving a conditional-physics ledger row toward SAME",
+    "any verdict change by itself; ledger effects go through ordinary evidence-delta process",
+    "target fitting; choices freeze before evaluation, inheriting the CBRS owner-before-evaluation discipline"
+  ],
+  "anti_laundering_features": [
+    "FC-1 requires an actual object with a full fingerprint, which is expensive and checkable",
+    "FC-3 and FC-4 require named searches, so an unchecked claim is visibly unchecked",
+    "FC-5 forbids the degenerate pathway that restates the blockage",
+    "FC-6 makes the grade revocable rather than permanent",
+    "the grade is barred from ledger movement and prediction credit, so it cannot inflate the scoreboard"
+  ],
+  "relationship_to_descent": "a FITTING CONSTRUCTION is what a descent rung produces when it succeeds; an accumulated set across rungs whose pathways compose is precisely a clear and plausible pathway for the whole theory, held at honest grade without anyone claiming derivation",
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "work_selection_scheme_registry",
+  "created": "2026-08-23",
+  "status": "FOUR_BUCKETS_INSTALLED__EXHAUSTION_RULE_BINDING_ON_WORK_SELECTION",
+  "directed_by": "Joe direct chat 2026-08-23: we know the phenomenology and we know where current physics is in tension; every ledger entry either fits, or would fit given the source action and external datum (deferred), or sits on a current physics-side tension, or the source derives it differently. Build everything possible without returning to the source action; only then is R1 easier.",
+  "method_doc": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+  "companion": "lab/methods/fitting-construction-grade.md",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "installs a work-selection scheme; kills no source claim and no research route",
+  "buckets": [
+    {
+      "id": "B1",
+      "name": "FITS",
+      "deferred": false,
+      "definition": "the conditional build accommodates it: the construction exists at its rung, conflicts with nothing recorded, and carries a route",
+      "banked_as": "FITTING_CONSTRUCTION",
+      "note": "this bucket is the goal and the work is to grow it"
+    },
+    {
+      "id": "B2",
+      "name": "SOURCE-ACTION-DEFERRED",
+      "deferred": true,
+      "definition": "it does not fit as built and what it would take is the source action or an external datum",
+      "instruction": "do not work these now; log the row and log precisely what would be needed",
+      "note": "the accumulated contents of B2 are the R1 specification, assembled for free as a by-product of working the other three buckets"
+    },
+    {
+      "id": "B3",
+      "name": "PHYSICS-SIDE TENSION",
+      "deferred": false,
+      "definition": "the thing GU is asked to reproduce is itself contested, derived under assumptions GU need not share, or measured through a pipeline whose assumptions are visible",
+      "instruction": "document the external tension precisely at its own grade and restate what GU is actually obliged to reproduce once the contested part is separated out",
+      "note": "not special pleading: it refuses to hold a conjecture to a standard the incumbent theory does not itself meet, and must be sourced to external literature like any other comparator"
+    },
+    {
+      "id": "B4",
+      "name": "SOURCE DERIVES IT DIFFERENTLY",
+      "deferred": false,
+      "definition": "the source material shows a different route to the same phenomenon, so the apparent misfit is an artifact of testing GU against a construction it never proposed",
+      "instruction": "identify the source-native route and build that, not the comparator",
+      "note": "generalizes the four recurring cases already instrumented in lab/methods/source-native-comparator-routing.md"
+    }
+  ],
+  "exhaustion_rule": {
+    "statement": "Do not return to R1 (the source action) or to external-datum construction until B1, B3 and B4 are exhausted. A lane may not select source-action work while any B1, B3 or B4 item remains unattempted.",
+    "definition_of_exhausted": "every such item has been attempted and has either produced a FITTING_CONSTRUCTION, produced a precise impossibility, or been re-disposed into B2 with its requirement named",
+    "reasons": [
+      "B2 gets cheaper by waiting: every B1 construction fixes a rung interface and narrows what the source action must do, so the R1 problem attacked after exhaustion is strictly smaller and arrives with its specification written",
+      "B2 is the only bucket that can absorb unlimited effort with no result: the recorded corpus holds roughly thirty owner-exhausted CBRS-1 closes, and returning to R1 early is the failure mode this rule exists to prevent"
+    ]
+  },
+  "disposition_discipline": [
+    {"bucket": "ALL", "requires": "one bucket per row; a row that seems to be in two is under-analysed and must be split until each part has one bucket"},
+    {"bucket": "B2", "requires": "a named requirement: which owner, which coefficient, which datum. 'Needs the source action' is not a disposition and is the blockage restated, which FC-5 already forbids"},
+    {"bucket": "B3", "requires": "an external citation: a tension asserted without a published source is an excuse, not a tension. Cite it, scope it, and state what GU still owes once the contested part is removed"},
+    {"bucket": "B4", "requires": "the source locus: a registered SC- id or the primary-source passage showing the different route, without which the bucket becomes a way to dismiss any inconvenient comparator"}
+  ],
+  "revisable": true,
+  "revision_rule": "new evidence moves a row between buckets: a B3 tension that resolves against GU moves to B1-or-B2; a B4 route that turns out not to be in the source moves back",
+  "what_this_is_not": [
+    "a way to score the program well: B1 membership earns no prediction credit and moves no ledger row toward SAME",
+    "an excuse: B3 relocates and documents an obligation, it does not remove one",
+    "a dismissal: B4 says a comparator failure bound a model the source did not propose, which is the existing routing discipline"
+  ],
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
