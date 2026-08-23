@@ -40,7 +40,12 @@ REG = "lab/sources/source-claim-register.yaml"
 LEDGER_GLOB = "lab/process/conditional-physics-ledger-v0.*.json"
 # Untyped kill-bearing rows at extension time (2026-08-13). Lower this as
 # rows are typed; never raise it to make a red go green.
-LEDGER_BASELINE = 8
+# 2026-08-23: driven to 0 -- all kill-bearing rows are now typed. Seven of the
+# eight name NONE-NOT-A-KILL because they kill comparator routes, repo-selected
+# candidates, or readings the source disavows; only RA-D2 engages a registered
+# source claim (SC-CHI-51), and there the claim survives a bounded realization
+# exclusion. This is the gate's documented retirement condition.
+LEDGER_BASELINE = 0
 # Reds present when scope was widened from `explorations/` to the whole repo
 # (2026-08-14).  These are pre-existing, owned elsewhere, and enumerated in the
 # control-change record.  Never raise this to make a new red go green.

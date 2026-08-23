@@ -851,7 +851,10 @@
    "distance": "the canonical trace-q source-sign repair cannot retain W alone: bare q leaks rank 64 out of RS and Pin completion exchanges W with mirror. On the forced rank-384 pair both degree-duality primalizers miss the ordinary port with joined rank 256. Supply a genuinely different source-owned Shiab/restricted port or advance the coupled-functional build before BV/domain descent",
    "revival_trigger": "an exact chiral physical carrier not obtained by equivariant mass splitting",
    "evidence": "selected-k77-degree-duality-pair-graph-gate-2026-08-10.md",
-   "mapping_grade": "EXACT_ROUTE_KILL_ON_FIXED_W__CURRENT_Q_REPAIRED_LOWER_OBSTRUCTION__CANONICAL_SOURCE_SIGN_TRACE_Q_DEGREE_DUALITY_UPPER_OBSTRUCTION__REPLACEMENT_SHIAB_OR_FUNCTIONAL_BUILD_OPEN"
+   "mapping_grade": "EXACT_ROUTE_KILL_ON_FIXED_W__CURRENT_Q_REPAIRED_LOWER_OBSTRUCTION__CANONICAL_SOURCE_SIGN_TRACE_Q_DEGREE_DUALITY_UPPER_OBSTRUCTION__REPLACEMENT_SHIAB_OR_FUNCTIONAL_BUILD_OPEN",
+   "target_claim": "SC-CHI-51",
+   "target_claim_verdict": "NOT_KILLED__BOUNDED_REALIZATION_EXCLUSION__REPLACEMENTS_OPEN",
+   "target_claim_note": "This row does engage a registered source claim: SC-CHI-51 asserts GU, though non-chiral, must produce an effectively chiral world via a field VEV sitting in a Dirac-Rarita-Schwinger-like operator. The kill is bounded to specific realizations -- the mapping grade ends REPLACEMENT_SHIAB_OR_FUNCTIONAL_BUILD_OPEN, and the revival trigger asks for an exact chiral physical carrier not obtained by equivariant mass splitting. SC-CHI-51 is therefore not killed; named realizations of it are excluded and replacements remain open."
   },
   {
    "id": "RA-D3",
@@ -1010,7 +1013,9 @@
    "distance": "supply a nonzero chiral index per block; decomposition alone cannot improve",
    "revival_trigger": "a new index-bearing block observable clearing Layer 0",
    "evidence": "cb-a-representation-content-2026-08-05.md:F3",
-   "mapping_grade": "DEAD_ROUTE"
+   "mapping_grade": "DEAD_ROUTE",
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "The killed reading -- three kinematic blocks ARE three observed generations -- is one the source disavows: SC-GEN-01 disavows the repeated-generation belief and SC-GEN-04 states the imposter is explicitly not a true generation. Killing a disavowed reading is not a kill of a source claim."
   },
   {
    "id": "RA-G1",
@@ -1097,7 +1102,9 @@
    "distance": "replace the candidate post-Shiab factorization with an independently action-owned pre-Shiab Gauss/II route, or construct a different Shiab whose complete Riemann kernel retains observed curvature",
    "revival_trigger": "a source-natural full-domain Shiab nonzero on the ambient Ricci-flat observed-rank-ten kernel, or an action theorem owning the independent Gauss route",
    "evidence": "full-domain-shiab-observed-einstein-receiver-2026-08-05.md",
-   "mapping_grade": "T4_SELECTED_POST_SHIAB_FACTOR_ROUTE_KILLED"
+   "mapping_grade": "T4_SELECTED_POST_SHIAB_FACTOR_ROUTE_KILLED",
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "The killed object is a repo-selected candidate: construction_scope records BIANCHI_SELECTED_CANDIDATE_POST_SHIAB_RIEMANN_RESPONSE_FACTORIZATION_ONLY, and the named open alternative is an action-owned pre-Shiab Gauss/II route -- which is the source's own induced-|II|^2 mechanism (GEOMETER-VS-PHYSICS-OBJECTS gravity-functional row: Einstein-Hilbert is INDUCED, not added). The source's route is the survivor, not the casualty."
   },
   {
    "id": "LT-GR2",
@@ -1225,7 +1232,9 @@
    "revival_trigger": "a unique reduced mixed/massive numerator plus a common Green/BV/Fock domain for the complete selected augmented-torsion bank",
    "evidence": "selected-k77-moving-parent-bundle-observation-reduction-2026-08-10.md",
    "frontier_grade": "MOVING_AUGMENTED_TORSION_CARRIER_GLOBAL__REDUCTION_BV_DOMAIN_OPEN",
-   "mapping_grade": "SPIN2_COMPARATOR_EXACT__ACTION_NORMAL_MIXED_HESSIAN_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_FULL40__SINGLE_HOLONOMY_KILL_RETAINED__NO_NEW_DATUM__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__VARPI_DUPSILON_BLOCK_EXACT__PHYSICAL_DSHIAB_DHODGE_OBSERVATION_EPSILON_OPEN__GAMMA_EPSILON_ORBIT_EXACT__TRANSVERSE_PHYSICAL_DSHIAB_DHODGE_OBSERVATION_OPEN__TRANSVERSE_TORSION_RANK6_EXACT__DIRECT_TORSION_ORBIT_CANCELS4__MOVING_DSHIAB_DHODGE_SOURCE_TARGET_RANK3_OPEN__GAMMA_EXTENDED_RANK4_CONDITIONAL__INTERNAL_BIVECTOR_WARD_RANK3_ZERO__MOVING_SHIAB_ALONE_WRONG_CARRIER__PHYSICAL_DIFFEO_DENSITY_HODGE_OBSERVATION_LOCAL_EXACT__NONHOMOGENEOUS_PRIMITIVE_EPSILON_FRECHET_OPEN__PRINCIPAL_TRANSVERSE6_V085_EXACT__LOCAL_K_LOC_NONDEGENERATE_INDEFINITE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN__SOURCE_EULER_TWO_TO_ONE_FAMILY_ONE_AMPLITUDE__V0108_UNIQUENESS_RETRACTED__LOCAL_CONNECTION_T_ONE_JET_POINT_BIANCHI_CONSTANT_DESCENT_EXACT__NONCONSTANT_ATLAS_XI_PROLONGATION_AMPLITUDE_SELECTION_OPEN__NONCONSTANT_AFFINE_CONNECTION_DESCENT_EXACT__XI_FACTORS_THROUGH_UPSILON_NO_RANK_GAIN__TWO_HOMOGENEOUS_OPEN_SET_WITNESSES__NATIVE_MOVING_GEOMETRY_AND_AMPLITUDE_SELECTION_OPEN__BOTH_BRANCHES_LOCAL_SELECTED_SOURCE_EULER_SURVIVE__VARPI1470_ZERO__EPSILON91_BULK_ZERO_ENDPOINT_LIVE__METRIC10_ZERO__TANGENT_COMPLETENESS_OPEN__AUGMENTED_TORSION_MINIMAL_LOCAL_PRINCIPAL_TANGENT915_EXACT__LOWER_ORDER_DOMAIN_BV_OPEN__AUGMENTED_TORSION_NATURAL_TANGENT915__LOWER_ORDER_GLOBAL_REDUCTION_DOMAIN_BV_OPEN__AUGMENTED_TORSION_Y14_FIRST_JET_LOW_GRADE1571__OBSERVED1131_CONDITIONAL__DOMAIN_BV_OPEN__AUGMENTED_TORSION_EULER_CLOSURE_SPIN113893_OR_UNITARY229477__GLOBAL_DOMAIN_BV_OPEN__MOVING_AUGMENTED_TORSION_CARRIER_GLOBAL__REDUCTION_BV_DOMAIN_OPEN"
+   "mapping_grade": "SPIN2_COMPARATOR_EXACT__ACTION_NORMAL_MIXED_HESSIAN_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_FULL40__SINGLE_HOLONOMY_KILL_RETAINED__NO_NEW_DATUM__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__VARPI_DUPSILON_BLOCK_EXACT__PHYSICAL_DSHIAB_DHODGE_OBSERVATION_EPSILON_OPEN__GAMMA_EPSILON_ORBIT_EXACT__TRANSVERSE_PHYSICAL_DSHIAB_DHODGE_OBSERVATION_OPEN__TRANSVERSE_TORSION_RANK6_EXACT__DIRECT_TORSION_ORBIT_CANCELS4__MOVING_DSHIAB_DHODGE_SOURCE_TARGET_RANK3_OPEN__GAMMA_EXTENDED_RANK4_CONDITIONAL__INTERNAL_BIVECTOR_WARD_RANK3_ZERO__MOVING_SHIAB_ALONE_WRONG_CARRIER__PHYSICAL_DIFFEO_DENSITY_HODGE_OBSERVATION_LOCAL_EXACT__NONHOMOGENEOUS_PRIMITIVE_EPSILON_FRECHET_OPEN__PRINCIPAL_TRANSVERSE6_V085_EXACT__LOCAL_K_LOC_NONDEGENERATE_INDEFINITE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN__SOURCE_EULER_TWO_TO_ONE_FAMILY_ONE_AMPLITUDE__V0108_UNIQUENESS_RETRACTED__LOCAL_CONNECTION_T_ONE_JET_POINT_BIANCHI_CONSTANT_DESCENT_EXACT__NONCONSTANT_ATLAS_XI_PROLONGATION_AMPLITUDE_SELECTION_OPEN__NONCONSTANT_AFFINE_CONNECTION_DESCENT_EXACT__XI_FACTORS_THROUGH_UPSILON_NO_RANK_GAIN__TWO_HOMOGENEOUS_OPEN_SET_WITNESSES__NATIVE_MOVING_GEOMETRY_AND_AMPLITUDE_SELECTION_OPEN__BOTH_BRANCHES_LOCAL_SELECTED_SOURCE_EULER_SURVIVE__VARPI1470_ZERO__EPSILON91_BULK_ZERO_ENDPOINT_LIVE__METRIC10_ZERO__TANGENT_COMPLETENESS_OPEN__AUGMENTED_TORSION_MINIMAL_LOCAL_PRINCIPAL_TANGENT915_EXACT__LOWER_ORDER_DOMAIN_BV_OPEN__AUGMENTED_TORSION_NATURAL_TANGENT915__LOWER_ORDER_GLOBAL_REDUCTION_DOMAIN_BV_OPEN__AUGMENTED_TORSION_Y14_FIRST_JET_LOW_GRADE1571__OBSERVED1131_CONDITIONAL__DOMAIN_BV_OPEN__AUGMENTED_TORSION_EULER_CLOSURE_SPIN113893_OR_UNITARY229477__GLOBAL_DOMAIN_BV_OPEN__MOVING_AUGMENTED_TORSION_CARRIER_GLOBAL__REDUCTION_BV_DOMAIN_OPEN",
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "No source claim is killed. The row records a STRUCTURAL_DIFFERENCE from ordinary GR via augmented torsion, which the source asserts (SC-ACT-01 pairs augmented torsion against Shiab-contracted curvature). The kill-language sits in the mapping grade's internal sub-results."
   },
   {
    "id": "LT-GR6",
@@ -1262,7 +1271,9 @@
    "distance": "derive one absolute gravitational normalization",
    "revival_trigger": "a native scale-setting condition not invariant under the scale orbit",
    "evidence": "cb-b-lagrangian-terms-2026-08-05.md:GR-7",
-   "mapping_grade": "SCALE_NO_GO"
+   "mapping_grade": "SCALE_NO_GO",
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "The killed object is the comparator expectation that the geometry fixes Newton's scale. The source's own structure is ratio-only (H24: the scale-covariant geometry fixes only dimensionless ratios, so the overall scale is structurally free), so this SCALE_NO_GO agrees with the source rather than killing a claim of it."
   },
   {
    "id": "LT-GR8",
@@ -1568,7 +1579,9 @@
    "distance": "none on the settled horn's remaining Bott kill",
    "revival_trigger": "a new real-side eta receptacle",
    "evidence": "cb-c-anomaly-conditions-2026-08-05.md:B5",
-   "mapping_grade": "EXACT_SINGLE_KILL"
+   "mapping_grade": "EXACT_SINGLE_KILL",
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "The killed object is a repository-internal obstruction, not a source claim: the row's own verdict is SAME/DERIVED ('mod-2 eta refinement has no surviving obstruction'). Killing an obstruction is a positive internal result."
   },
   {
    "id": "AC-C1",
@@ -1701,7 +1714,9 @@
    "distance": "construct a non-inflow framed/String/boundary bridge or supersede the sole-bridge premise",
    "revival_trigger": "a nonzero 3-primary bridge not sourced by the locally vanishing bulk anomaly",
    "evidence": "cb-c-anomaly-conditions-2026-08-05.md:F3",
-   "mapping_grade": "EXACT_ROUTE_KILL"
+   "mapping_grade": "EXACT_ROUTE_KILL",
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "The killed object is the conventional bulk-anomaly-inflow bridge to a 3-primary count. The source disavows that framing (SC-GEN-01 disavows the repeated-generation belief; SC-GEN-02/SC-GEN-04 assert the 2+1 replacement with a non-generation imposter) and rules out the mechanism (SC-CHI-50: no chirality for the anomaly to attach to). Comparator-routing forks 1 and 4 apply. A DIFFERS/ROUTE_KILLED re-typing is proposed under delta GU-LEDGER-KILL-TYPING-2026-08-23."
   },
   {
    "id": "AC-F4",
@@ -1713,7 +1728,9 @@
    "distance": "change tangential structure; spin cannot improve",
    "revival_trigger": "a framed or String receptacle with a constructed nonzero class",
    "evidence": "cb-c-anomaly-conditions-2026-08-05.md:F4",
-   "mapping_grade": "EXACT_NEGATIVE"
+   "mapping_grade": "EXACT_NEGATIVE",
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "The killed object is the spin-bordism-torsion carrier route for a 3-primary count, a comparator carrier. Same class as AC-F3, and already correctly typed DIFFERS/ROUTE_KILLED."
   },
   {
    "id": "AC-F5",
