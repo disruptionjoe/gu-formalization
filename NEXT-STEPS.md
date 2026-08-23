@@ -7,6 +7,21 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 B3-J95 PRIMARY-SOURCE DISPOSITION: THE EQUILIBRIUM BRANCH
+> REMAINS OPEN; LEDGER v0.263 WAS ALREADY CORRECT.** The initial B3 register
+> correctly typed Jacobson 1995 as a conditional benchmark, but its proposed
+> LT-GR8 tightening overgeneralized Eling--Guedens--Jacobson 2006 beyond the
+> paper's Ricci-scalar scope. Guedens--Jacobson--Sarkar 2012 retains a
+> restricted equilibrium Clausius construction for Lagrangians algebraic in
+> metric and Riemann, subject to horizon, approximate-Killing and integrability
+> conditions. `B3-J95-03` is therefore disposed
+> `NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION`. LT-GR8 remains `NEEDS /
+> MISSING_CONSTRUCTION`, with both equilibrium and entropy-production routes
+> open and no mechanism or confirmation credit. Next, reconstruct the primary
+> objects for the strongest of the five remaining B3 entries at citation time;
+> test B3-H0-06 first only if its observable typing survives. See
+> `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
+
 > **2026-08-23 FIRST FITTING CONSTRUCTION BANKED; STRONG-FIELD AND PPN
 > SOURCE-ACTION ROUTES PRECISELY NON-ADMITTED.** The gravitational-anchor
 > bucket audit assigns `LT-GR11` to B1 and banks

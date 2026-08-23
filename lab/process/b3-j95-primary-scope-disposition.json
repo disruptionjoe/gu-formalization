@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "b3_primary_source_scope_disposition",
+  "created": "2026-08-23",
+  "b3_id": "B3-J95-03",
+  "ledger_row": "LT-GR8",
+  "status": "DISPOSED_NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Observed local-causal-horizon thermodynamic benchmark semantics only; no GU/K77 realization or source mechanism is constructed or selected.",
+  "primary_sources": [
+    {
+      "id": "JACOBSON-1995",
+      "arxiv": "gr-qc/9504004v2",
+      "doi": "10.1103/PhysRevLett.75.1260",
+      "licensed_claim": "Einstein equation follows conditionally from local Rindler causal horizons, area-proportional entropy, Unruh temperature, boost-energy flux and equilibrium Clausius behavior.",
+      "ceiling": "Conditional theoretical derivation, not empirical measurement of the premises or a GU mechanism."
+    },
+    {
+      "id": "ELING-GUEDENS-JACOBSON-2006",
+      "arxiv": "gr-qc/0602001",
+      "doi": "10.1103/PhysRevLett.96.121301",
+      "licensed_claim": "An entropy correction polynomial in the Ricci scalar requires a nonequilibrium entropy-balance law with internal production.",
+      "ceiling": "Does not establish a nonequilibrium requirement for every curvature correction or a GU Weyl/Bach action."
+    },
+    {
+      "id": "GUEDENS-JACOBSON-SARKAR-2012",
+      "arxiv": "1112.6215v2",
+      "doi": "10.1103/PhysRevD.85.064017",
+      "licensed_claim": "A restricted Clausius construction can yield field equations for a Lagrangian algebraic in the metric and Riemann tensor when horizon-slice, approximate-Killing-vector and entropy-density integrability conditions hold.",
+      "ceiling": "Does not instantiate those conditions for GU, prove a Weyl-squared realization, or cover curvature-derivative Lagrangians."
+    }
+  ],
+  "rejected_inference": "curvature correction exists -> the 2006 f(R) theorem applies -> equilibrium is presumptively unavailable",
+  "precise_impossibility": "The proposed single-branch tightening is not licensed at current primary-source grade because the 2006 premise is Ricci-scalar scoped and the 2012 paper retains a restricted algebraic-Riemann equilibrium route.",
+  "ledger_comparison": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "row": "LT-GR8",
+    "distance_required_tokens": ["equilibrium or explicitly nonequilibrium law"],
+    "revival_trigger_required_tokens": ["equilibrium or entropy-production law"],
+    "verdict": "NEEDS",
+    "reason_kind": "MISSING_CONSTRUCTION",
+    "mechanism_commitment": "NONE",
+    "confirmation_credit": "NONE",
+    "movement": "none"
+  },
+  "next_discriminator": "After an observed action and entropy density exist, test the 2012 horizon-slice, approximate-Killing-vector and integrability conditions; route to a source-owned entropy-production law only if that equilibrium route fails.",
+  "propagation": {
+    "corrected_artifact": "explorations/conditional-build/fc-admission-wave-and-first-b3-register-2026-08-23.md",
+    "corrected_registry": "lab/process/fc-admission-wave-and-first-b3-register.json",
+    "correction_id": "B3-J95-SCOPE-20260823"
+  },
+  "ledger_verdict_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

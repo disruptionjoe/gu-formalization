@@ -8,6 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**B3-J95 primary-source scope disposition, 2026-08-23.** The first B3 row is
+disposed with no ledger movement. Jacobson 1995 is a conditional theoretical
+benchmark, not an empirical measurement; Eling--Guedens--Jacobson 2006 proves
+the nonequilibrium requirement for Ricci-scalar entropy corrections, not every
+higher-curvature action. Guedens--Jacobson--Sarkar 2012 retains a restricted
+equilibrium Clausius route for Lagrangians algebraic in metric and Riemann,
+subject to horizon-slice, approximate-Killing and entropy-density integrability
+conditions. The proposed inference that the Weyl/Bach sector presumptively
+closes equilibrium is withdrawn. LT-GR8 v0.263 already preserves the exact
+two-branch obligation and remains `NEEDS / MISSING_CONSTRUCTION`, with
+mechanism and confirmation `NONE`. Five B3 entries remain for citation-time
+source disposition. See
+`explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
+
+| B3 entry | proposed direction | source disposition | ledger effect |
+| --- | --- | --- | --- |
+| B3-J95-03 / LT-GR8 | nonequilibrium-only tightening | refused beyond `f(R)` scope; restricted algebraic-Riemann equilibrium route remains | none |
+
 **First fitting construction and gravitational-anchor bucket disposition,
 2026-08-23.** `FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1` is banked at observed R5
 for `LT-GR11`: the pre-anchor H45/H49 Einstein-Weyl operator and static Green

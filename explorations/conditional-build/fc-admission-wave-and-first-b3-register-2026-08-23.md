@@ -99,18 +99,23 @@ accidentally hit while keeping the one it already fails, one narrows a
 comparator-side premise while adding a joint-evaluation constraint. **Zero are
 net-softening.**
 
-The two that enlarge are worth stating plainly, because they run against the
-direction anyone would expect from a "tension" register:
+The initial register classified two entries as enlarging the obligation. One
+of those first-pass classifications has since been source-corrected; the
+historical count remains useful evidence about the filing pass, not current
+scientific direction.
 
-- **B3-J95-03 (LT-GR8, EXT-J95).** What is measured: **nothing.** No Hawking
-  radiation, no Unruh effect, no measured horizon entropy, no tested first
-  law. Jacobson 1995 is a conditional theorem and each premise is a
-  hypothesis. This changes the *type* of the obligation, not its size — and it
-  **tightens** it, because Eling-Guedens-Jacobson establish that
-  curvature-corrected entropy needs a nonequilibrium treatment, while LT-GR3
-  books a Weyl/Bach sector, so the equilibrium branch is presumptively
-  unavailable. Stated as *presumptively* closed pending an area-exactness
-  demonstration: the entry that enlarges an obligation must itself be exact.
+- **B3-J95-03 (LT-GR8, EXT-J95) — corrected by
+  `B3-J95-SCOPE-20260823`.** What is measured remains **nothing**: Jacobson
+  1995 is a conditional theorem and its premises are hypotheses. The proposed
+  further inference is withdrawn. Eling--Guedens--Jacobson 2006 proves a
+  nonequilibrium requirement for Ricci-scalar entropy corrections, not every
+  curvature correction. Guedens--Jacobson--Sarkar 2012 retains a restricted
+  equilibrium Clausius construction for Lagrangians algebraic in the metric
+  and Riemann tensor, subject to horizon, approximate-Killing and integrability
+  conditions. The equilibrium branch remains open. Ledger v0.263 already
+  states the correct two-branch obligation, so this entry is disposed with no
+  ledger movement. See
+  `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
 - **B3-H0-06 (EXT-COSMO-BACKGROUND, LT-GR2e).** No published `H_0` is
   measured; every one is derived, on both sides. The obligation is therefore
   the measured angles and ratios plus GU's *own* sound horizon — compute
@@ -155,10 +160,12 @@ several, so a tension claim would be special pleading).
 
 No verdict moves and nothing moves toward `SAME`; the grade is barred from it
 and every FC object was refused. The FC wave produces **zero** ledger bearing.
-The B3 entries propose row-field candidates only — a `revival_trigger`
-narrowing on LT-GR8 in the **harder** direction, scope notes on the LT-GR2
-family and LT-SM7, and a framing note plus joint-evaluation constraint on
-RA-G3/RA-B6 — all of which go through ordinary evidence-delta process.
+The still-pending B3 entries propose row-field candidates only — scope notes
+on the LT-GR2 family and LT-SM7, and a framing note plus joint-evaluation
+constraint on RA-G3/RA-B6 — all of which go through ordinary evidence-delta
+process. The proposed LT-GR8 `revival_trigger` narrowing is refused by
+`B3-J95-SCOPE-20260823`; the existing row already carries the source-faithful
+equilibrium-or-entropy-production fork.
 
 One independent confirmation worth recording: the wave ran
 `tests/channel-swings/d4_contraction_rank_j_independence_probe.py` and it

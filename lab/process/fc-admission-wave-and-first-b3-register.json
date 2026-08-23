@@ -66,6 +66,7 @@
   "b3_register": {
     "entries": 6,
     "net_softening": 0,
+    "direction_scope": "historical_first_pass_before_primary_source_disposition",
     "direction": {
       "enlarge": 2,
       "two_sided": 2,
@@ -83,8 +84,8 @@
     "notable": [
       {
         "id": "B3-J95-03",
-        "finding": "nothing is measured for the Jacobson benchmark -- no Hawking radiation, no Unruh effect, no measured horizon entropy, no tested first law; the entry ENLARGES the obligation because Eling-Guedens-Jacobson require a nonequilibrium treatment for curvature-corrected entropy while LT-GR3 books a Weyl/Bach sector",
-        "stated_as": "presumptively closed pending an area-exactness demonstration, since an entry that enlarges an obligation must itself be exact"
+        "finding": "nothing is measured for the Jacobson benchmark, but the proposed nonequilibrium-only tightening is withdrawn: Eling-Guedens-Jacobson 2006 is Ricci-scalar scoped and Guedens-Jacobson-Sarkar 2012 retains a restricted equilibrium route for algebraic metric-and-Riemann Lagrangians",
+        "stated_as": "DISPOSED_NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION; ledger v0.263 already preserves equilibrium or explicitly nonequilibrium branches"
       },
       {
         "id": "B3-H0-06",
@@ -95,7 +96,16 @@
         "finding": "withdraws the CPL central pair as target and as credit, and DISCLOSES that this also withdraws the CPL-based argument against GU recorded in the comparative-tensions ledger; undisclosed it would read as one-sided relief"
       }
     ],
-    "self_corrections_applied": "re-checking citations at filing time changed four statements across two entries against CORRECTION DARK-ENERGY-07: the +5.7 sigma_A overshoot may not be quoted bare (LCDM overshoots +4.0 on the same metric; the honest mechanism is shape not amplitude), the f_0 bounds are ~3x looser profiled, the claim that GU sits further from every measurement than the disputants sit from each other is false on Omega_m (0.01 sigma from DES-Y5), and the status line must read 'excluded as the DESI dark-energy signal; unconstrained-but-null as a family'",
+    "self_corrections_applied": "re-checking citations at filing time changed four statements across two entries against CORRECTION DARK-ENERGY-07. Later primary-source disposition B3-J95-SCOPE-20260823 withdrew the proposed LT-GR8 nonequilibrium-only tightening because the 2006 result is f(R)-scoped and the 2012 algebraic-Riemann construction leaves a restricted equilibrium route open",
+    "dispositions": {
+      "B3-J95-03": {
+        "status": "DISPOSED_NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION",
+        "result_ref": "explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md",
+        "registry_ref": "lab/process/b3-j95-primary-scope-disposition.json",
+        "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+        "reason": "The current LT-GR8 row already preserves the two source-licensed equilibrium and nonequilibrium branches; the proposed single-branch tightening overgeneralized the 2006 f(R) result and omitted the 2012 restricted equilibrium construction."
+      }
+    },
     "maintenance_rule": "entries are re-checked AT CITATION TIME, not filing time. The cautionary case is sigma_8/S_8: KiDS-Legacy now agrees with Planck at 0.73 sigma, so a register built a year ago would today be holding S_8 as a live excuse",
     "refused_with_reasons": [
       "muon g-2 HVP: no row, and the tension has closed -- the 2025 Theory Initiative lattice-based value agrees with the final Fermilab measurement",
@@ -104,7 +114,7 @@
       "rotation curves: a row exists but mass-to-light converged to ~0.1 dex against a discrepancy of a factor of several, so a tension claim would be special pleading"
     ]
   },
-  "ledger_bearing": "candidates only; the FC wave produces zero bearing, and the B3 entries propose row-field candidates through ordinary evidence-delta process only, including a revival_trigger narrowing on LT-GR8 in the HARDER direction",
+  "ledger_bearing": "candidates only; the FC wave produces zero bearing. B3-J95-03 initially proposed a revival_trigger narrowing in the HARDER direction, but is disposed with no ledger movement because v0.263 already preserves both source-licensed branches; the remaining five entries require ordinary citation-time disposition before any evidence delta",
   "independent_confirmation": "the wave ran tests/channel-swings/d4_contraction_rank_j_independence_probe.py and it passed 33/33",
   "ledger_verdict_change": "none",
   "claim_status_change": "none",

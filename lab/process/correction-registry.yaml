@@ -70,6 +70,18 @@ corrections:
     owner: canon/theta-field-flrw-dark-energy-eos.md
     meaning: "Band-wide theta_star-calibrated exclusion; the f0 bound is M^2-dependent."
     enforce: false
+  - id: B3-J95-SCOPE-20260823
+    owner: explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md
+    meaning: >-
+      B3-J95-03 correctly records Jacobson 1995 as a conditional benchmark,
+      but its proposed inference that a Weyl/Bach sector presumptively closes
+      the equilibrium branch overgeneralized Eling-Guedens-Jacobson 2006
+      beyond its Ricci-scalar scope. Guedens-Jacobson-Sarkar 2012 retains a
+      restricted equilibrium Clausius construction for Lagrangians algebraic
+      in metric and Riemann, subject to explicit horizon, approximate-Killing
+      and integrability conditions. Ledger v0.263 already preserves both
+      branches and remains unchanged.
+    enforce: false
   - id: HQ-PHASE-20260812
     owner: explorations/conditional-build/selected-k77-moving-hq-eddy-quartic-retype-2026-08-12.md
     meaning: >-
