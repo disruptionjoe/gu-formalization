@@ -8,7 +8,7 @@ updated_at: "2026-08-23"
 # Process
 
 Current append-only progress surface:
-[`conditional-physics-ledger-v0.262.json`](conditional-physics-ledger-v0.262.json),
+[`conditional-physics-ledger-v0.263.json`](conditional-physics-ledger-v0.263.json),
 summarized in
 `../../explorations/conditional-build/conditional-physics-ledger-v0.262.md`.
 It preserves all 88 targets and retypes exactly AC-F3, LT-GR1b and RA-D2 from

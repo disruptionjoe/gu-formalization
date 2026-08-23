@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1a6a2349a7eefcbca691bc6969a561dd073eded2
+revision_basis: dfe0e56d27914e3e99c138005bd92b58cf263f79
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,28 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Ledger v0.263 is minted from the depth wave's verified plan: eleven rows
+    touched, forty field writes, zero verdict changes, with verdict, reason
+    kind, mapping grade, distance, summary, axis, source row and id
+    byte-identical on all ninety-one rows. The one meaning-bearing change is
+    the AC-D1..AC-D5 revival trigger. The filed trigger was LA-9 mode NR -- it
+    fires without moving the row on LA-3's own recorded witness -- and LA-9's
+    filed replacement fails the same test because the anomaly-free lattice is
+    the intersection of all five channel kernels and sits strictly inside each
+    one. Each row now carries its own recorded anomaly functional, a strict
+    subset verified exhaustively over the integer box with zero containment
+    violations, so the bar to revive rises and nothing moves toward SAME.
+    Evidence is appended on six rows with the prior string preserved verbatim
+    as prefix, wiring artifact families that previously occurred zero times in
+    the ledger into the rows they describe; LT-SM3b gains revival reachability
+    without its trigger being touched; context projections accrete on all
+    eleven touched rows; and six rows whose new text carries kill-language are
+    typed against the audited hatch, which is what holds the kill-target gate
+    at its retirement baseline of zero. Of fifty-two proposals thirteen were
+    verified clean and applied as filed, five were applied only in corrected
+    form, and forty-four are held. The grant wiring is deliberately absent: no
+    GRANT proposal survived verification.
+
     Ledger v0.262 corrects the three remaining global-falsification labels to
     bounded route kills. AC-F3, LT-GR1b and RA-D2 are now DIFFERS /
     ROUTE_KILLED because their own mapping grades and named survivors bound

@@ -21,7 +21,7 @@ a digest-bound repair registry pins the full historical ledger, each source
 row and exact successor context without changing v0.260 or the zero baseline.
 See
 `explorations/conditional-build/conditional-ledger-verdict-context-integration-2026-08-23.md`
-and `lab/process/conditional-physics-ledger-v0.262.json`.
+and `lab/process/conditional-physics-ledger-v0.263.json`.
 
 | claim | prior status | current status | weakest dependency | files updated |
 | --- | --- | --- | --- | --- |

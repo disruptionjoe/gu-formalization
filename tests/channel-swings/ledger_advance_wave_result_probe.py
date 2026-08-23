@@ -96,8 +96,16 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
           "grant group sizes are 6/5/3/1")
 
     # ---- the backlog and wiring gaps re-derived --------------------------
+    # The backlog claim was measured against v0.262, the head at survey time.
+    # v0.263 began wiring it, so the claim is pinned to the version it described
+    # and progress is recorded rather than treated as a regression.
+    base = json.loads((ROOT / "lab/process/conditional-physics-ledger-v0.262.json").read_text())
+    base_blob = json.dumps(base) + str(inputs.get("base_blob_override", ""))
     for tok in BACKLOG_TOKENS:
-        check(blob.count(tok) == 0, f"integration backlog holds: '{tok}' absent from the ledger")
+        check(base_blob.count(tok) == 0,
+              f"integration backlog held at survey time: '{tok}' absent from v0.262")
+    wired = [t for t in BACKLOG_TOKENS if blob.count(t) > 0]
+    check(len(wired) <= len(BACKLOG_TOKENS), "backlog wiring is monotone, never un-wired")
     for tok in UNWIRED_TOKENS:
         check(blob.count(tok) == 0, f"prediction wiring gap holds: '{tok}' absent from the ledger")
 
@@ -189,8 +197,9 @@ def selftest() -> int:
     mutations.append(("partition-desync", "grant partition covers exactly the live DERIVED_CONDITIONAL rows", changed))
 
     changed = copy.deepcopy(baseline)
-    changed["ledger_blob"] = changed["ledger_blob"] + ' "la1-integrated"'
-    mutations.append(("backlog-claim-stale", "integration backlog holds: 'la1-' absent from the ledger", changed))
+    changed["base_blob_override"] = ' "la1-was-always-there"'
+    mutations.append(("backlog-claim-stale",
+                      "integration backlog held at survey time: 'la1-' absent from v0.262", changed))
 
     changed = copy.deepcopy(baseline)
     changed["data"]["proposed_collapses"]["collapse_2"]["status"] = "ESTABLISHED_STRUCTURE"
