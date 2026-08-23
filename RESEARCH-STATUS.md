@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**First SAME-row FC audit, 2026-08-23.** Eleven rows sharing the selected-
+chiral-16 dependency now have exact B2 terminal dispositions. `RA-A3` and
+`RA-B1`--`RA-B5` require one action-selected `G_SM`-shaped vacuum stabilizer
+and observed transport. `AC-D1`--`AC-D5` require a source-native physical 4D
+carrier, action invariance and row-responsive anomaly evaluation. The
+conventional anomaly-selector shortcut is precisely impossible in its frozen
+arena: five channels have rank four and a saturated rank-two, negation-closed
+kernel, so they cannot select net chirality or a unique complete 16. This does
+not kill anomaly cancellation, emergent chirality, a future physical carrier
+or GU. The live register now has 14 terminal and 77 open rows;
+`exhausted=false`, `b2_selectable=false`, and ledger v0.263 is byte-identical.
+See
+`explorations/conditional-build/chiral16-same-row-disposition-wave-2026-08-23.md`.
+
 **B3 primary-source register complete, 2026-08-23.** The final three source
 packets are disposed without ledger movement. `B3-CC-02` separates observed
 expansion carriers from microscopic vacuum decomposition at LT-GR2d;
@@ -18,14 +32,15 @@ common RA-B6/RA-G3 operator and reality map. All six B3 split units are now
 current, terminal and parent-linked. Their parent construction rows remain
 open, ledger v0.263 remains byte-identical, and the derived gates remain
 `exhausted=false` and `b2_selectable=false`. The next substantial packet is
-the strongest genuine B1 fitting construction or B4 precise impossibility.
+the strongest remaining genuine B1 fitting construction or B4 precise
+impossibility.
 See `lab/process/phenomenology-disposition-register-v0.1.json`.
 
 **Phenomenology disposition baseline v0.1, 2026-08-23.** The B1/B3/B4
 exhaustion rule now has a digest-bound canonical denominator and executable
 gate. Ledger v0.263 contributes 91 rows. Evidence supports terminal row
-dispositions only for LT-GR9 and LT-GR10 at `B2_NAMED_REQUIREMENT`, and LT-GR11
-at B1/`FITTING_CONSTRUCTION`; 88 rows remain open. Ledger verdicts are inputs,
+dispositions for thirteen rows at `B2_NAMED_REQUIREMENT`, and LT-GR11 at
+B1/`FITTING_CONSTRUCTION`; 77 rows remain open. Ledger verdicts are inputs,
 not bucket outcomes: `SAME` does not award FC grade, `NEEDS` does not name a B2
 owner, and `DIFFERS` does not automatically prove B4 or impossibility. The
 six completed B3 source adjudications are subdispositions and leave LT-GR8,

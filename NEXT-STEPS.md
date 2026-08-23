@@ -7,6 +7,20 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 FIRST SAME-ROW FC AUDIT: ELEVEN EXACT B2 TERMINALS; ANOMALY-
+> SELECTOR SHORTCUT CLOSED.** `RA-A3` and `RA-B1`--`RA-B5` share one exact
+> unbuilt owner: a stationary source action must select a `G_SM`-shaped
+> maximal-compact-contained vacuum stabilizer and transport it to observed
+> X4. `AC-D1`--`AC-D5` require a source-native physical 4D carrier, action
+> invariance and row-responsive anomaly evaluation. Their conventional
+> five-channel shortcut cannot select chirality: the exact functional matrix
+> has rank four and saturated rank-two, negation-closed kernel. The live
+> register now has 14 terminal rows and 77 open rows; ledger v0.263 remains
+> byte-identical and `exhausted=false` / `b2_selectable=false`. Audit the
+> strongest remaining SAME or DIFFERS row; do not execute the newly named B2
+> requirements early. See
+> `explorations/conditional-build/chiral16-same-row-disposition-wave-2026-08-23.md`.
+
 > **2026-08-23 B3 REGISTER COMPLETE: THREE FINAL SOURCE PACKETS CLOSE WITH NO
 > LEDGER MOVEMENT.** `B3-CC-02` separates effective expansion carriers from
 > microscopic vacuum decomposition at LT-GR2d; `B3-CP-04` separates the
@@ -14,7 +28,7 @@ updated_at: "2026-08-23"
 > `B3-NU-05` separates four neutrino mass carriers while requiring one common
 > RA-B6/RA-G3 operator and reality map. All six B3 entries are now current and
 > parent-linked, but none closes its construction row. Ledger v0.263 stays
-> byte-identical with 88 open rows and `exhausted=false` /
+> byte-identical with 77 open rows and `exhausted=false` /
 > `b2_selectable=false`. Next audit the strongest SAME row through FC-1..FC-7
 > or the strongest DIFFERS row through B4-or-precise-impossibility; do not
 > repeat B3 or return to CBRS/source-action work early. See
@@ -23,9 +37,9 @@ updated_at: "2026-08-23"
 > **2026-08-23 PHENOMENOLOGY DISPOSITION BASELINE: EXHAUSTION IS NOW
 > COMPUTABLE AND FALSE.** The active four-bucket method previously had no
 > canonical denominator or live terminal register. The v0.1 register now
-> covers all 91 rows of ledger v0.263 exactly once. Only LT-GR9 and LT-GR10
-> have evidence-backed terminal B2 named-requirement dispositions, and only
-> LT-GR11 has a terminal B1 `FITTING_CONSTRUCTION`; 88 rows remain open.
+> covers all 91 rows of ledger v0.263 exactly once. Thirteen rows now have
+> evidence-backed terminal B2 named-requirement dispositions, and LT-GR11 has
+> a terminal B1 `FITTING_CONSTRUCTION`; 77 rows remain open.
 > `SAME` is not retroactive FC admission, `NEEDS` is not unnamed B2, and a
 > completed B3 source adjudication does not close its parent construction row.
 > The derived result is `exhausted=false`, `b2_selectable=false`. Continue with

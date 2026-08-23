@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "chiral16_same_row_terminal_disposition_registry",
+  "created": "2026-08-23",
+  "status": "ELEVEN_B2_NAMED_REQUIREMENT_TERMINALS__ANOMALY_SELECTOR_PRECISELY_IMPOSSIBLE_IN_FROZEN_COMPARATOR_ARENA__LEDGER_UNCHANGED",
+  "result_ref": "explorations/conditional-build/chiral16-same-row-disposition-wave-2026-08-23.md",
+  "probe_ref": "tests/channel-swings/chiral16_same_row_disposition_wave_probe.py",
+  "method_refs": [
+    "lab/methods/fitting-construction-grade.md",
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+    "lab/methods/source-native-comparator-routing.md"
+  ],
+  "ledger_basis": {
+    "path": "lab/process/conditional-physics-ledger-v0.263.json",
+    "schema_version": "0.263",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "The bounded impossibility targets an internal comparator-to-selector inference; no source claim, physical carrier or GU theory class is killed.",
+  "layer0": {
+    "comparator_carrier": "complex Spin(10) Weyl 16 on the six-coordinate signed Standard-Model multiplicity lattice",
+    "source_native_carrier": "non-chiral ambient GU fermion carrier with an unbuilt action-owned low-curvature observed projection and decoupling",
+    "relation": "UNTYPED_MISSING_OBSERVATION_ACTION_BRIDGE",
+    "routing_classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+  },
+  "row_groups": [
+    {
+      "id": "G-EMB",
+      "rows": ["RA-A3", "RA-B1", "RA-B2", "RA-B3", "RA-B4", "RA-B5"],
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "shared_condition": "stationary source action selects a G_SM-shaped maximal-compact-contained identity-component vacuum stabilizer with regular su(3)_c",
+      "named_requirements": ["U1-1", "U1-2", "U1-3"],
+      "fc_failures": ["FC-1", "FC-7", "TARGET-BEFORE-EVALUATION"],
+      "source_claims_checked": ["SC-GRP-03", "SC-FER-07", "SC-GEN-55"],
+      "evidence_checked": ["CB-A", "LA-1", "LA-4", "LA-9", "PD-STRUCTURE-TRANSPORT"]
+    },
+    {
+      "id": "G-SHADOW",
+      "rows": ["AC-D1", "AC-D2", "AC-D3", "AC-D4", "AC-D5"],
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "shared_condition": "source-native observed 4D physical carrier is constructed from the non-chiral ambient field and evaluated under the actual action",
+      "named_requirements": ["AD4-1", "AD4-2", "AD4-3"],
+      "fc_failures": ["FC-1", "FC-7", "TARGET-BEFORE-EVALUATION"],
+      "source_claims_checked": ["SC-FER-05", "SC-FER-07", "SC-CHI-01", "SC-CHI-50", "SC-CHI-51", "SC-CHI-54"],
+      "evidence_checked": ["W222", "CB-C", "AC-1", "LA-3", "PHI-1", "PHI-2", "SA-1"]
+    }
+  ],
+  "requirements": {
+    "U1-1": {
+      "owner": "OWNER-A",
+      "object": "stationary source action and selected vacuum"
+    },
+    "U1-2": {
+      "owner": "OWNER-A",
+      "object": "proof that the selected vacuum's identity-component stabilizer is G_SM-shaped and maximal-compact-contained"
+    },
+    "U1-3": {
+      "owner": "OWNER-D",
+      "object": "observation transport preserving the selected stabilizer and normal-bundle-spinor branching fingerprint on observed X4"
+    },
+    "AD4-1": {
+      "owner": "OWNER-A+OWNER-D",
+      "object": "source-native observed 4D physical carrier, observation map and chirality-decoupling mechanism from the non-chiral ambient field"
+    },
+    "AD4-2": {
+      "owner": "OWNER-A",
+      "object": "action-invariance certificate for the selected carrier and reduction including the open soldered-adjoint choice"
+    },
+    "AD4-3": {
+      "owner": "OWNER-B",
+      "object": "separate evaluation of all five anomaly functionals on the constructed carrier with row-responsive triggers and arena-extension controls"
+    }
+  },
+  "bounded_precise_impossibility": {
+    "id": "PI-4D-ANOMALY-SELECTOR-CHIRAL16-1",
+    "target": "using the five conventional 4D Standard-Model anomaly channels to detect net chirality or uniquely select a complete chiral 16",
+    "class": "linear anomaly functionals on the signed multiplicity lattice Z^6 of the 16's six Standard-Model constituents with frozen hypercharges",
+    "assumptions": [
+      "the carrier is restricted to the six conventional constituent directions",
+      "the five anomaly maps are exactly D1 through D5 from LA-3",
+      "hypercharges are the frozen Standard-Model values"
+    ],
+    "certificate": {
+      "rank": 4,
+      "relation": "2 D1 - 27 D2 - 36 D3 - 9 D4 + 9 D5 = 0",
+      "integer_kernel": "Z*(15 of SU(5)) + Z*(nu^c)",
+      "saturated": true,
+      "negation_closed": true,
+      "contains_zero": true,
+      "exhaustive_box": "[-3,3]^6"
+    },
+    "escape": "a constructed source-native physical carrier outside the six-coordinate arena or an additional responsive observable",
+    "resurrection_trigger": "a frozen carrier extension or anomaly observable that breaks negation closure or reduces the common zero set to the intended selected physical content",
+    "claim_ceiling": "kills only the anomaly-selector inference in the frozen comparator arena; does not kill anomaly cancellation, a physical carrier, emergent chirality or GU"
+  },
+  "terminal_rows": [
+    {"row_id": "RA-A3", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["U1-1", "U1-2", "U1-3"]},
+    {"row_id": "RA-B1", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["U1-1", "U1-2", "U1-3"]},
+    {"row_id": "RA-B2", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["U1-1", "U1-2", "U1-3"]},
+    {"row_id": "RA-B3", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["U1-1", "U1-2", "U1-3"]},
+    {"row_id": "RA-B4", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["U1-1", "U1-2", "U1-3"]},
+    {"row_id": "RA-B5", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["U1-1", "U1-2", "U1-3"]},
+    {"row_id": "AC-D1", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["AD4-1", "AD4-2", "AD4-3"]},
+    {"row_id": "AC-D2", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["AD4-1", "AD4-2", "AD4-3"]},
+    {"row_id": "AC-D3", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["AD4-1", "AD4-2", "AD4-3"]},
+    {"row_id": "AC-D4", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["AD4-1", "AD4-2", "AD4-3"]},
+    {"row_id": "AC-D5", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["AD4-1", "AD4-2", "AD4-3"]}
+  ],
+  "bookend_evidence": {
+    "intended_effect": "terminally disposition eleven SAME rows sharing the selected-chiral-16 dependency",
+    "actual_effect": "eleven B2 named-requirement terminals plus one bounded comparator-selector impossibility",
+    "conditions_closed": ["retroactive FC admission for G-EMB", "anomaly cancellation as a chirality selector in the frozen comparator arena"],
+    "conditions_opened": ["U1-1 through U1-3", "AD4-1 through AD4-3"],
+    "physics_mappings_changed": "none; disposition evidence changed, ledger mappings did not",
+    "branches_killed": ["five-channel anomaly cancellation uniquely selects a chiral 16 in the frozen comparator arena"],
+    "branches_preserved": ["source-native emergent-chirality carrier outside the comparator arena", "exact conditional representation and anomaly calculations"],
+    "joe_intervention_required": "none"
+  },
+  "ledger_verdict_change": "none",
+  "ledger_row_field_change": "none",
+  "source_ownership_change": "none",
+  "prediction_or_confirmation_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

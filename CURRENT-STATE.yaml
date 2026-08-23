@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4b25f3affe43b387105dc5c3fecd147d02d3d513
+revision_basis: 74fa1e5a4899b0692cc2393e51c9019914bc3c1e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The first genuine SAME-row FC audit terminally disposes eleven rows sharing
+    the selected-chiral-16 dependency. RA-A3 and RA-B1 through RA-B5 are exact
+    B2 named requirements for one action-selected G_SM-shaped vacuum
+    stabilizer and its observed transport. AC-D1 through AC-D5 are exact B2
+    named requirements for a source-native physical 4D carrier, action
+    invariance and row-responsive anomaly evaluation. The conventional five-
+    channel anomaly shortcut is precisely impossible in its frozen arena: the
+    functional matrix has rank four and saturated rank-two kernel
+    Z*(15 of SU(5)) + Z*(nu^c), so it is negation-closed, contains zero and
+    cannot select net chirality or a unique complete 16. The impossibility
+    binds the comparator inference only; it does not kill anomaly cancellation,
+    emergent chirality, a future physical carrier or GU. The live register now
+    has 14 terminal rows and 77 open rows. Ledger v0.263 remains byte-identical
+    and exhausted=false / b2_selectable=false. No scientific verdict, source
+    owner, prediction, confirmation, canon or public posture moves.
     The B3 external-tension register is now citation-time complete. B3-CC-02
     separates effective expansion carriers from an unobserved microscopic
     vacuum-energy decomposition while retaining LT-GR2d's normalization,
@@ -20,14 +35,14 @@ current_result:
     operator, reality/charge map, spectrum and mixing evaluation across
     RA-B6 and linked RA-G3. All six B3 subdispositions now have current
     primary-source evidence and exact parent rows; none closes its parent.
-    Ledger v0.263 remains byte-identical, the same 88 construction rows remain
+    Ledger v0.263 remains byte-identical. Seventy-seven construction rows remain
     open, and exhausted=false / b2_selectable=false. No scientific verdict,
     source owner, prediction, confirmation, canon or public posture moves.
     The first row-complete phenomenology disposition baseline makes the
     B1/B3/B4 exhaustion rule executable and finds it false. Ledger v0.263 has
-    91 rows; only LT-GR9 and LT-GR10 have evidence-backed terminal
-    B2_NAMED_REQUIREMENT dispositions and only LT-GR11 has an admitted
-    B1/FITTING_CONSTRUCTION. Eighty-eight rows remain open under the active
+    91 rows. Thirteen rows have evidence-backed terminal
+    B2_NAMED_REQUIREMENT dispositions and LT-GR11 has the admitted
+    B1/FITTING_CONSTRUCTION. Seventy-seven rows remain open under the active
     method. The 34 SAME rows are not retroactive FC admissions, the remaining
     NEEDS rows are not unnamed B2 dispositions, and DIFFERS/OVER_DETERMINED do
     not automatically establish B4 or a precise impossibility. All six B3
@@ -3162,17 +3177,20 @@ contribution_path:
 next_condition: >-
   All six filed B3 source subdispositions are now citation-time complete and
   parent-linked. They remain literature dispositions, not fitting
-  constructions or terminal row outcomes. The live register still has only
-  three terminal rows and 88 open rows, so exhausted=false and
+  constructions or terminal row outcomes. The first genuine SAME-row audit
+  has now terminally disposed RA-A3, RA-B1 through RA-B5 and AC-D1 through
+  AC-D5 at exact B2 named requirements, with the anomaly-selector shortcut
+  precisely impossible only in its frozen conventional arena. The live
+  register has 14 terminal rows and 77 open rows, so exhausted=false and
   b2_selectable=false. Rebuild the substantial frontier from the remaining
-  open denominator: audit the strongest SAME row through FC-1 to FC-7, audit
-  the strongest DIFFERS row for a source-native B4 route or typed precise
-  impossibility, and split mixed rows before classification. Do not repeat the
-  six B3 source packets or return to CBRS/source-action work while the derived
-  gate is false.
+  open denominator: audit the strongest remaining SAME row through FC-1 to
+  FC-7, audit the strongest DIFFERS row for a source-native B4 route or typed
+  precise impossibility, and split mixed rows before classification. Do not
+  repeat the eleven disposed SAME rows or six B3 packets, and do not execute
+  their B2 requirements while the derived gate is false.
   Phenomenology exhaustion is now a computed gate, not a prose presumption.
   The v0.1 live register covers all 91 ledger v0.263 rows exactly once, with
-  three evidence-backed terminal rows and 88 open rows; exhausted=false and
+  fourteen evidence-backed terminal rows and 77 open rows; exhausted=false and
   b2_selectable=false. Do not infer B1 from SAME, B2 from NEEDS, B4 or precise
   impossibility from DIFFERS, or row closure from a B3 subdisposition. A new
   ledger version invalidates the register until explicit digest rebase. The
