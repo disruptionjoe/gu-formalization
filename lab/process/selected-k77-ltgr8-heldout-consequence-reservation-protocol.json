@@ -42,7 +42,16 @@
     "confrontation_data": "BAO or BAO-like amplitude-calibration data released after the packet freeze only",
     "already_read_inadmissible": "in-repo DESI DR2 numbers (marginalized A* = 30.8059, own-theta_star A_GU = 31.9715, canonical f_0 = 0.125 shape) are recorded, already read, and inadmissible as held-out data; they may seed the derivation, never the confrontation",
     "standing_exclusion_observable": "a future BAO amplitude calibration confirming the Planck value at sub-percent precision excludes the family (VERIFICATION.md, recorded grade)",
-    "data_wake": "P-OBS monitor lane"
+    "data_wake": "P-OBS monitor lane",
+    "execution_machinery": "bound 2026-08-23: F1 evaluates only through the P-OBS-LEG wake applying the frozen PP1/PP3 kill surfaces without retuning; no second observation mechanism, statistic, or custody regime; a reserved packet consequence is evaluated under the same release alongside, never instead of, the PP1/PP3 surfaces",
+    "binding_ref": "explorations/conditional-build/selected-k77-ltgr8-f1-pobs-pipeline-binding-2026-08-23.md",
+    "release_checklist": [
+      "verify provenance per the P-OBS-LEG standing instruction before any value is read",
+      "record the release identity and date in the confrontation record before computing anything",
+      "apply the frozen PP1/PP3 kill surfaces exactly as recorded, without retuning, reporting per their own frozen grammar",
+      "if and only if a reserved F1 consequence exists, evaluate it under the same release per the D6 protocol's commit-before-read step",
+      "report with the standing grammar: a firing surface kills its scoped family, survival is compatibility, F1 success is at most a prediction candidate pending independent verification"
+    ]
   },
   "family_f2_fallback": {
     "name": "NONEQUILIBRIUM_CORRECTION_FORM",

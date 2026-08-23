@@ -7,6 +7,18 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE DARK-ENERGY CONFRONTATION IS PREREGISTRATION-COMPLETE BY
+> BINDING.** A duplicate-check found the confrontation already substantially
+> frozen (PP1 sign, PP3 curve family, P-OBS-LEG applying their kill surfaces
+> without retuning), so the D6 family F1 is bound to that existing machinery
+> as its sole execution pathway — no second observation mechanism — with a
+> five-step frozen release checklist. A reserved packet consequence, if one
+> exists at release time, is evaluated under the same release alongside,
+> never instead of, the PP1/PP3 surfaces. Scheduled `P-OBS-LEG` behavior is
+> unchanged. Next in Joe's lane: descend the three accepted gravitational
+> anchors R5-R3. See
+> `explorations/conditional-build/selected-k77-ltgr8-f1-pobs-pipeline-binding-2026-08-23.md`.
+
 > **2026-08-23 THE R6 BENCH IS WIDENED: THREE GRAVITATIONAL ANCHORS ACCEPTED
 > AT SCOPED GRADE.** By Joe's direct acceptance (the EXT-J95 authority
 > route; 7-0 council per anchor): **EXT-GR-STRONGFIELD** (Schwarzschild/Kerr

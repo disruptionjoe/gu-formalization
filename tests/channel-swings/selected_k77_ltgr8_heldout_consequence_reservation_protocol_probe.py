@@ -63,6 +63,14 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
           "recorded amplitudes cited at recorded grade")
     check("sub-percent" in f1["standing_exclusion_observable"], "standing exclusion observable")
     check(f1["data_wake"] == "P-OBS monitor lane", "F1 wake is P-OBS")
+    check("no second observation mechanism" in f1.get("execution_machinery", ""),
+          "F1 bound to existing pipeline")
+    check("PP1/PP3" in f1.get("execution_machinery", "") and "without retuning" in f1.get("execution_machinery", ""),
+          "F1 applies frozen surfaces without retuning")
+    checklist = f1.get("release_checklist", [])
+    check(len(checklist) == 5, "five release-checklist steps")
+    check(any("provenance" in step for step in checklist), "checklist verifies provenance first")
+    check(any("commit-before-read" in step for step in checklist), "checklist honors commit-before-read")
 
     f2 = data["family_f2_fallback"]
     check(f2["name"] == "NONEQUILIBRIUM_CORRECTION_FORM", "F2 named")
@@ -231,6 +239,16 @@ def selftest() -> int:
         "GU-COMPARATOR-ROUTING-CLASSIFICATION: REMOVED",
     )
     mutations.append(("routing-regression", "routing class", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["data"]["family_f1_primary"]["execution_machinery"] = (
+        "F1 defines its own confrontation statistic on the next release")
+    mutations.append(("second-mechanism-smuggle", "F1 bound to existing pipeline", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["data"]["family_f1_primary"]["release_checklist"] = (
+        changed["data"]["family_f1_primary"]["release_checklist"][1:])
+    mutations.append(("provenance-step-drop", "five release-checklist steps", changed))
 
     # Planted positive: the forbidden-grammar detector must fire on an injected claim.
     changed = copy.deepcopy(baseline)
