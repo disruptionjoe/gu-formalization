@@ -12,3 +12,4 @@ import GUFormalization.CompactImageObstructionsAxioms
 import GUFormalization.FiniteResearchKernels
 import GUFormalization.FiniteResearchKernelsAxioms
 import GUFormalization.PowerMeanReduction
+import GUFormalization.ChiConjugationTraceParity

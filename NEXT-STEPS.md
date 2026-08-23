@@ -7,6 +7,18 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 L8 CHI-CONJUGATION TRACE PARITY IS LEAN-VERIFIED; L9 IS
+> NEXT.** A fresh frontier replay finds no new complete CBRS-1 owner packet and
+> no second independent executable substantial arc, so CBRS-1 remains parked
+> and CBRS-2 remains blocked on an actual local solution. Lean now proves the
+> finite algebraic core from A2: involutory conjugation preserves ordinary
+> matrix power traces, while a trace weighted by a conjugation-odd matrix
+> changes sign. This does not construct the GU carrier, prove gauge nativeness,
+> select a vacuum, or establish physical orientation selection. **Execute L9
+> next:** formalize only the abstract involution and mirror-projector algebra
+> cores at the same explicit-premise ceiling. See
+> `explorations/conditional-build/conditional-build-frontier-and-l8-chi-parity-2026-08-22.md`.
+>
 > **2026-08-22 THE POST-CBRS FRONTIER IS REBUILT; L7 IS LEAN-VERIFIED AND
 > L8 IS NEXT.** Applying CBRS-1AB's owner-before-evaluation rule to the seven
 > registered reopen horns leaves an empty admissible set. No synthetic

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7c31ab07ab30b44cab0dfc1ac8f4c8185c4465a3
+revision_basis: 1a5d6ce906a78daa47c82279d9997cfe16a33411
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The fresh post-L7 frontier replay finds no new complete owner packet among
+    the seven registered CBRS-1 reopen candidates and no newly executable
+    independent substantial arc. CBRS-1 therefore stays parked at the exact
+    owner-before-evaluation boundary and CBRS-2 stays blocked on an actual
+    complete local solution. The released L8 gate is now Lean-verified at its
+    finite algebraic ceiling: for square matrices over a commutative ring,
+    conjugation by an involution preserves every ordinary power trace, while a
+    trace weighted by a matrix that is odd under the involution changes sign.
+    This formalizes A2's trace-parity core only. The proof does not construct
+    the condensate carrier, identify GU-native operators, prove gauge
+    invariance, establish a vacuum, or select a physical orientation. L9's
+    abstract involution and mirror-projector kernels are the next executable
+    stable proof gates. No ledger verdict, canon, source ownership, prediction
+    or public posture changes.
     The post-CBRS-1AB substantial-frontier rebuild applies the new
     owner-before-evaluation rule to all seven registered CBRS-1 reopen horns.
     The admissible set is empty: the second sigma function lacks an independent
@@ -2665,10 +2679,13 @@ next_condition: >-
   when a materially distinct candidate arrives with its pre-density owner,
   field content, target-blind coefficient, complete Euler system and Hilbert
   map frozen before target evaluation. Keep CBRS-2 blocked until an actual
-  complete local solution exists. Execute PROOF-STABLE-KERNELS L8 next:
-  formalize only the finite trace-parity core under chi conjugation from its
-  current owner artifact, preserving every carrier and physical-interpretation
-  premise outside Lean; do not turn the algebraic trace identity into a
+  complete local solution exists. Execute PROOF-STABLE-KERNELS L9 next:
+  formalize only the abstract Cartan-involution and mirror-projector algebra
+  cores from their current owner artifacts, preserving representation
+  faithfulness, carrier selection, physical quantization and spectral
+  interpretation outside Lean. L8 is complete: A2 is the located internal
+  theorem source and Lean certifies ordinary and conjugation-odd weighted
+  power-trace parity from explicit finite matrix premises; it does not prove a
   physical orientation-selection theorem. L7 is complete: A1 is the located
   internal theorem source and Lean certifies the general finite power-mean
   inequality, the Fin-96 corollary and a constant-magnitude equality witness.

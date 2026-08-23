@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "frontier_admissibility_and_lean_kernel_registry",
+  "created": "2026-08-22",
+  "status": "REGISTERED_CBRS1_ADMISSIBLE_SET_STILL_EMPTY__L8_CHI_TRACE_PARITY_LEAN_VERIFIED",
+  "lane_id": "1",
+  "agenda_items": ["CONDITIONAL-BUILD-REVERSE-SCAFFOLD", "PROOF-STABLE-KERNELS"],
+  "target_claim": "internal target CBRS-1-REGISTERED-CANDIDATE-ADMISSIBILITY-AND-L8-CHI-TRACE-PARITY-KERNEL; verdict current registered CBRS-1 candidate set remains empty and the A2 finite trace-parity core is Lean-verified",
+  "admission_requirements": [
+    "MATERIALLY_DISTINCT_PRE_DENSITY_OWNER",
+    "FIELD_CONTENT_AND_TARGET_BLIND_COEFFICIENT",
+    "COMPLETE_EULER_SYSTEM",
+    "METRIC_OR_HILBERT_VARIATION"
+  ],
+  "candidate_census": [
+    {"id": "SECOND_SIGMA_FUNCTION", "eligible": false, "missing": ["INDEPENDENT_PRE_DENSITY_INVARIANT", "TARGET_BLIND_COEFFICIENT"]},
+    {"id": "INDEPENDENT_WODD_FIELD", "eligible": false, "missing": ["RELEASED_INDEPENDENT_FIELD", "NORMALIZATION", "COMPLETE_NEW_FIELD_EULER"]},
+    {"id": "PROJECTED_T_TRACE_AXIAL_COMPONENT", "eligible": false, "missing": ["MATERIALLY_DISTINCT_OWNER"], "disposition": "DUPLICATE_EXISTING_T_COORDINATE_SPLIT"},
+    {"id": "RESIDUAL_SQUARE_OR_SOURCE_XI_OMEGA", "eligible": false, "missing": ["NON_EULER_OWNER"], "disposition": "WRONG_VARIATIONAL_ROLE"},
+    {"id": "CONTINUOUS_TOP_FORM_FLUX", "eligible": false, "missing": ["ACTION_OR_QUANTIZATION_SELECTOR"]},
+    {"id": "GRASSMANN_ODD_FERMION_SADDLE", "eligible": false, "missing": ["NONZERO_REAL_BOSONIC_BODY_EFFECT"], "disposition": "CBRS1Q_BODY_OBSTRUCTION"},
+    {"id": "UNRELEASED_CYCLIC_TWO_CONNECTION", "eligible": false, "missing": ["REVERSE_ARROW", "ACTION_OWNER", "COEFFICIENT", "COMPLETE_EULER", "HILBERT_MAP"]}
+  ],
+  "admissible_candidate_count": 0,
+  "cbrs1_state": "PARKED_UNTIL_COMPLETE_NEW_OWNER_PACKET",
+  "cbrs2_state": "DEPENDENCY_BLOCKED_UNTIL_COMPLETE_LOCAL_SOLUTION",
+  "l8": {
+    "source": "explorations/big-swing-2026-07-07/A2-native-ring-symmetry-nogo.md",
+    "exact_companion": "tests/big-swing/as_a2b_native_ring_symmetry_nogo.py",
+    "lean_module": "Lean/GUFormalization/ChiConjugationTraceParity.lean",
+    "theorems": [
+      "conjugation_pow",
+      "trace_conjugation_even",
+      "trace_pow_conjugation_even",
+      "weighted_trace_conjugation_odd",
+      "weighted_trace_pow_conjugation_odd"
+    ],
+    "scope": "FINITE_MATRIX_ORDINARY_AND_CONJUGATION_ODD_WEIGHTED_POWER_TRACE_PARITY_ONLY",
+    "status": "LEAN_VERIFIED"
+  },
+  "next_gate": "L9_THEOREMS_F_AND_G_ABSTRACT_INVOLUTION_AND_PROJECTOR_CORES",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

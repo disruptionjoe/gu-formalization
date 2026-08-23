@@ -23,6 +23,7 @@ documents.
 | `GUFormalization/CoflipCore.lean` | Co-flip finite core (CH-REC P1/P2): (1,1) Krein toy rigidity, zero-import diagonal action, split-costs-one, split parity | `explorations/hardening-h2-lean-coflip-2026-07-19.md` |
 | `GUFormalization/CoflipAbstract.lean` | Abstract `(eps,mu)` co-flip sign accounting: zero-import diagonal, exact one-bit split price. The `FiniteSignature` field and the `witnessed` Prop are carried but formally inert — no proof uses them (descoped 2026-08-03) | `explorations/hardening-h1-exhaustiveness-2026-07-19.md`; `explorations/hardening-h4-class-generalization-2026-07-19.md` |
 | `GUFormalization/PowerMeanReduction.lean` | Finite Cauchy--Schwarz/power-mean kernel, exact 96-cell corollary, and constant-magnitude equality witness; no spectral or physics realization is encoded | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md`; `explorations/conditional-build/conditional-build-frontier-and-l7-power-mean-2026-08-22.md` |
+| `GUFormalization/ChiConjugationTraceParity.lean` | Finite matrix proof that ordinary power traces are even and traces weighted by a conjugation-odd matrix are odd under an involution; no carrier, gauge, vacuum, or physical-orientation realization is encoded | `explorations/big-swing-2026-07-07/A2-native-ring-symmetry-nogo.md`; `explorations/conditional-build/conditional-build-frontier-and-l8-chi-parity-2026-08-22.md` |
 
 ## Standalone Lean Certificates
 
