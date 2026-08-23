@@ -79,7 +79,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     assert isinstance(registries_exist, dict)
 
     # ---- corpus and condition structure ----------------------------------
-    check(corpus_count == data["corpus"]["count"] == 27, "corpus is the 27 recorded closes")
+    check(corpus_count == data["corpus"]["count"] and data["corpus"]["count"] >= 27,
+          "live corpus matches the recorded count and has not shrunk")
     conds = [c["id"] for c in data["conditions"]]
     check(conds == EXPECTED_CONDITIONS, "six conditions N1..N6 in order")
     check(all(len(c.get("statement", "")) > 40 for c in data["conditions"]),
