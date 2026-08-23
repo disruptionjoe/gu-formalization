@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f06cc13784eda4808d9ff4ee6553abbf937c3abc
+revision_basis: 28ceb71c9a2f7c384b7185712c626e91cc267c22
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The post-T3 frontier replay finds no newly enabled scientific arc and
+    proves L10's certificate-confusion condition. The Lean certificate audit
+    pointed to a removed runbook, duplicated a stale subset of the default
+    imports, and did not require complete README/ledger coverage; the stable
+    theorem table also still labeled completed F/G kernels as NUMPY-CERT. L10
+    now derives all 16 default-target modules from the actual Lean entrypoint,
+    requires every library module to be imported or explicitly exempted,
+    preserves the manual ResidualSelection axioms receipt outside the default
+    target, and reconciles every certificate map and proof grade. No theorem
+    body, scientific ledger verdict, canon, source ownership, prediction, or
+    public posture changes. Rebuild the substantial frontier next and reopen
+    maintenance only on another concrete certificate-confusion defect.
     The post-L9 frontier replay surfaces the stable queue's remaining T3
     symbolic-only gap before conditional old-file triage. T3 is now
     Lean-verified at its corrected V15-1 ceiling: a supplied complex

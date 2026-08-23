@@ -7,6 +7,20 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 L10 RECONCILES THE LIVE LEAN CERTIFICATE SURFACE.** The
+> post-T3 frontier replay found no newly enabled scientific arc and confirmed
+> an actual maintenance defect: the Lean surface audit referenced a removed
+> runbook, duplicated a stale subset of default imports, and did not enforce
+> complete Lean-map/ledger coverage; F/G also remained mislabeled
+> `NUMPY-CERT` after their Lean integration. The repaired audit derives all 16
+> default-target modules from `Lean/GUFormalization.lean`, requires each
+> library module to be imported or explicitly exempted, and preserves
+> `ResidualSelectionAxioms.lean` as a manual informational receipt outside the
+> default target. No theorem body or scientific verdict changed. Rebuild the
+> substantial frontier next; reopen L10 only on another concrete
+> certificate-confusion defect. See
+> `explorations/conditional-build/conditional-build-frontier-and-l10-lean-certificate-surface-2026-08-22.md`.
+
 > **2026-08-22 T3 ANTILINEAR NULL-IMAGE TRANSVERSALITY IS LEAN-VERIFIED AT
 > ITS CORRECTED FINITE CEILING.** The post-L9 frontier replay found the stable
 > queue's remaining symbolic-only T3 gap before conditional old-file triage.

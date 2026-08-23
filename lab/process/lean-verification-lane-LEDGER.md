@@ -61,7 +61,11 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/CoflipCore.lean` | Concrete Q×Q coflip accounting, Part A derived | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/CoflipAbstract.lean` | Abstract (eps,mu) sign accounting; the `FiniteSignature` field and the `witnessed` Prop are currently formally inert — noted | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/CompactImageObstructions.lean` | W243 extremal-weight annihilation algebraic kernel plus compact-image block identities; carrier faithfulness and compactness remain outside Lean | `LEAN-VERIFIED`; integrated by `b895a49c`, receipt in the good-stable paper verification |
+| `Lean/GUFormalization/CompactImageObstructionsAxioms.lean` | Default-target `#print axioms` commands for the compact-image theorems | `LEAN-VERIFIED`; default-target integrated by `b895a49c`; informational output checked with the proof module |
 | `Lean/GUFormalization/FiniteResearchKernels.lean` | Matrix-trace achirality deduction, section-independent `ZMod 3` arithmetic, and exact rational reduced-potential phase boundary; physical realization remains outside Lean | `LEAN-VERIFIED`; 2026-08-21 targeted serialized build, standard mathlib axioms only |
+| `Lean/GUFormalization/FiniteResearchKernelsAxioms.lean` | Default-target `#print axioms` commands for the finite research kernels | `LEAN-VERIFIED`; 2026-08-21 default-target build; informational output only |
+| `Lean/GUFormalization/PowerMeanReduction.lean` | Finite power-mean inequality, exact 96-cell corollary, and constant-magnitude equality witness; spectral realization remains outside Lean | `LEAN-VERIFIED`; 2026-08-22 targeted and default-target serialized build |
+| `Lean/GUFormalization/ChiConjugationTraceParity.lean` | Finite ordinary/weighted matrix power-trace parity under involutory conjugation; physical orientation remains outside Lean | `LEAN-VERIFIED`; 2026-08-22 targeted and default-target serialized build |
 | `Lean/GUFormalization/InvolutionProjectorKernels.lean` | Inner-involution automorphism and commutator-parity core plus complementary projectors of a linear involution; carrier faithfulness, Cartan positivity, maximal-compact identification, dynamics, spectra and physical interpretation remain outside Lean | `LEAN-VERIFIED`; 2026-08-22 targeted and default-target serialized build |
 | `tests/big-swing/R4_TwoArena.lean` | Stable R4 compatibility entrypoint | imports the default-target proof-bearing module |
 
@@ -81,8 +85,8 @@ The un-typechecked draft duplicate formerly at
 | C | Exact A1 phase boundary `lq = -l4/192` | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` | `LEAN-VERIFIED`; rational reduced-family coefficient boundary only | complete | mirror alignment phase |
 | D | Power-mean reduction | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` §2 and execution-status banner; exact companion `tests/big-swing/as_a1b_reduced_phase_confirm.py` | `LEAN-VERIFIED`; finite inequality, exact 96-cell corollary, and uniform-equality witness only | complete | supports C |
 | E | Chi-parity no-go for orientation selection | `explorations/big-swing-2026-07-07/A2-native-ring-symmetry-nogo.md` | `LEAN-VERIFIED`; finite ordinary/weighted matrix power-trace parity only | complete | sign-selection boundary |
-| F | Abstract Cartan-involution structural core | `explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md` | `NUMPY-CERT` | medium | quantization seat |
-| G | Involution projector algebra for the mirror map | `explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md` | `NUMPY-CERT` | medium | mirror kinematics |
+| F | Abstract Cartan-involution structural core | `explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md` | `LEAN-VERIFIED`; abstract inner-involution and commutator-parity core only | complete | quantization seat |
+| G | Involution projector algebra for the mirror map | `explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md` | `LEAN-VERIFIED`; abstract complementary-projector algebra only | complete | mirror kinematics |
 | H | Extremal-weight stabilizer contains an explicit nonzero nilpotent | W243, GU-002, W244 | `LEAN-VERIFIED` for extremal annihilation and explicit square-zero blocks; stabilizer compactness and carrier lift remain structural premises | complete | compactification no-go |
 
 ## Part C: integrity-first execution order
@@ -124,8 +128,14 @@ negative-norm vector is a formal firing control. No physical-real-form,
 Fredholm, observed-handedness, function-space, or generation-selection theorem
 is claimed.
 
-11. `L10 OLD FILE TRIAGE`: repair or retire older broken library files only when they create certificate
-    confusion or every higher-value stable kernel is blocked.
+11. `L10 OLD FILE TRIAGE` — **DONE 2026-08-22 for the live certificate
+    surface**: the audit no longer points to the removed runbook or maintains a
+    second default-target import list. It derives all 16 imported modules from
+    `Lean/GUFormalization.lean`, requires every library module to be imported or
+    explicitly exempted, and enforces complete README/ledger coverage. The
+    manual `ResidualSelectionAxioms.lean` receipt remains explicitly outside the
+    default target and informational. Future old-file triage reopens only on a
+    new concrete certificate-confusion defect.
 
 ## Part D: lock and progress contract
 

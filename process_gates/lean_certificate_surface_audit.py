@@ -15,22 +15,13 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 
-LEAN_ENTRYPOINTS = [
-    ROOT / "Lean" / "GUFormalization.lean",
-]
+DEFAULT_TARGET_ENTRYPOINT = ROOT / "Lean" / "GUFormalization.lean"
+LOCAL_MODULE_PREFIX = "GUFormalization."
+IMPORT_LINE = re.compile(r"^import\s+([A-Za-z0-9_.]+)\s*$", re.MULTILINE)
 
-LEAN_LIBRARY_CERTIFICATES = [
-    ROOT / "Lean" / "GUFormalization" / "Status.lean",
-    ROOT / "Lean" / "GUFormalization" / "K3IndexArithmetic.lean",
-    ROOT / "Lean" / "GUFormalization" / "W2Polynomial.lean",
-    ROOT / "Lean" / "GUFormalization" / "LocatedNotForcedLegs.lean",
-    ROOT / "Lean" / "GUFormalization" / "LocatedNotForcedFiniteCore.lean",
-    ROOT / "Lean" / "GUFormalization" / "ResidualSelection.lean",
-    ROOT / "Lean" / "GUFormalization" / "R4TwoArena.lean",
-    ROOT / "Lean" / "GUFormalization" / "CoflipCore.lean",
-    ROOT / "Lean" / "GUFormalization" / "CoflipAbstract.lean",
-    # Manual `#print axioms` receipt: not in the default lake target (run via
-    # `lake env lean`), but its source is still in scope for the placeholder scan.
+# Manual `#print axioms` receipt: not in the default lake target (run via
+# `lake env lean`), but its source is still in scope for the placeholder scan.
+MANUAL_NON_DEFAULT_CERTIFICATES = [
     ROOT / "Lean" / "GUFormalization" / "ResidualSelectionAxioms.lean",
 ]
 
@@ -39,11 +30,6 @@ STANDALONE_LEAN_CERTIFICATES = [
 ]
 
 OWNER_REFERENCES = {
-    ROOT / "Lean" / "README.md": [
-        "GUFormalization/LocatedNotForcedLegs.lean",
-        "GUFormalization/R4TwoArena.lean",
-        "tests/big-swing/R4_TwoArena.lean",
-    ],
     ROOT / "canon" / "w2-y14-spin-structure.md": [
         "GUFormalization.W2Polynomial",
         "w2Sym2Rank3_eq_e1_sq_add_e2",
@@ -56,7 +42,7 @@ OWNER_REFERENCES = {
         "GUFormalization.K3IndexArithmetic",
         "brstStyle_is_raw_minus_two_spinor_ghosts",
     ],
-    ROOT / "lab" / "process" / "runbooks" / "claim-status-consistency-quality-workflow.md": [
+    ROOT / "lab" / "methods" / "claim-status-consistency.md": [
         "GUFormalization.Status",
         "AllowedByDeps",
     ],
@@ -68,6 +54,23 @@ OWNER_REFERENCES = {
 }
 
 FORBIDDEN_PROOF_PLACEHOLDER = re.compile(r"\b(?:sorry|axiom)\b")
+
+
+def local_import_modules(entrypoint: Path = DEFAULT_TARGET_ENTRYPOINT) -> list[str]:
+    """Return local modules imported by the default target in source order."""
+    return [
+        module
+        for module in IMPORT_LINE.findall(entrypoint.read_text(encoding="utf-8"))
+        if module.startswith(LOCAL_MODULE_PREFIX)
+    ]
+
+
+def module_source(module: str) -> Path:
+    return ROOT / "Lean" / (module.replace(".", "/") + ".lean")
+
+
+def default_target_certificates() -> list[Path]:
+    return [module_source(module) for module in local_import_modules()]
 
 
 def lean_without_comments_or_strings(text: str) -> str:
@@ -182,30 +185,50 @@ class LeanCertificateSurfaceAudit(unittest.TestCase):
         self.assertIn("mathlib", (ROOT / "lakefile.lean").read_text(encoding="utf-8"))
 
     def test_lean_files_exist_and_are_placeholder_free(self) -> None:
-        for path in LEAN_ENTRYPOINTS + LEAN_LIBRARY_CERTIFICATES + STANDALONE_LEAN_CERTIFICATES:
+        certificate_paths = (
+            [DEFAULT_TARGET_ENTRYPOINT]
+            + default_target_certificates()
+            + MANUAL_NON_DEFAULT_CERTIFICATES
+            + STANDALONE_LEAN_CERTIFICATES
+        )
+        for path in certificate_paths:
             with self.subTest(path=path):
                 self.assertTrue(path.is_file(), f"missing {path}")
                 text = path.read_text(encoding="utf-8")
                 proof_surface = lean_without_comments_or_strings(text)
                 self.assertIsNone(FORBIDDEN_PROOF_PLACEHOLDER.search(proof_surface))
 
-    def test_library_entrypoint_imports_certificates(self) -> None:
-        text = (ROOT / "Lean" / "GUFormalization.lean").read_text(encoding="utf-8")
-        for module in [
-            "GUFormalization.Status",
-            "GUFormalization.K3IndexArithmetic",
-            "GUFormalization.W2Polynomial",
-            "GUFormalization.LocatedNotForcedLegs",
-            "GUFormalization.LocatedNotForcedFiniteCore",
-            "GUFormalization.ResidualSelection",
-            "GUFormalization.R4TwoArena",
-            "GUFormalization.CoflipCore",
-            "GUFormalization.CoflipAbstract",
-            # GUFormalization.ResidualSelectionAxioms is intentionally absent:
-            # it is a manual `#print axioms` receipt outside the default target.
-        ]:
-            with self.subTest(module=module):
-                self.assertIn(f"import {module}", text)
+    def test_library_inventory_is_derived_from_default_entrypoint(self) -> None:
+        modules = local_import_modules()
+        self.assertEqual(len(modules), len(set(modules)), "duplicate local imports")
+
+        imported = set(default_target_certificates())
+        manual = set(MANUAL_NON_DEFAULT_CERTIFICATES)
+        library = set((ROOT / "Lean" / "GUFormalization").glob("*.lean"))
+        self.assertEqual(
+            library,
+            imported | manual,
+            "every library certificate must be imported by the default target or "
+            "declared as a manual non-default certificate",
+        )
+        self.assertFalse(imported & manual, "manual receipts must stay outside the default target")
+
+    def test_default_target_inventory_is_mapped_by_owner_surfaces(self) -> None:
+        readme = (ROOT / "Lean" / "README.md").read_text(encoding="utf-8")
+        ledger = (ROOT / "lab" / "process" / "lean-verification-lane-LEDGER.md").read_text(
+            encoding="utf-8"
+        )
+        for path in default_target_certificates() + MANUAL_NON_DEFAULT_CERTIFICATES:
+            relative = path.relative_to(ROOT).as_posix()
+            readme_relative = path.relative_to(ROOT / "Lean").as_posix()
+            with self.subTest(path=relative):
+                self.assertIn(f"`{readme_relative}`", readme)
+                self.assertIn(f"`{relative}`", ledger)
+
+        for path in STANDALONE_LEAN_CERTIFICATES:
+            relative = path.relative_to(ROOT).as_posix()
+            with self.subTest(path=relative):
+                self.assertIn(f"`{relative}`", readme)
 
     def test_owner_surfaces_reference_certificates(self) -> None:
         for path, required in OWNER_REFERENCES.items():

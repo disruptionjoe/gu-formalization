@@ -968,12 +968,14 @@ covering whatever publishable files the current run actually changed.
 
 ## Lean certificate surface gate
 
-`lean_certificate_surface_audit.py` checks the Lean scaffold, current certificate files,
-standalone Lean certificate pointers, owner-surface references, CI workflow, and local
-Lean check script. It strips Lean comments before scanning for proof placeholders, so
-honest explanatory headers can mention `sorry` or `axiom` while proof bodies remain
-placeholder-free. This is a process gate; `lake build` and targeted `lake env lean ...`
-commands remain the compile checks.
+`lean_certificate_surface_audit.py` derives the default-target certificate set
+from `Lean/GUFormalization.lean`, requires every library module to be imported
+or explicitly declared as a manual non-default certificate, and checks complete
+Lean README/ledger coverage, standalone pointers, owner-surface references, CI,
+the local Lean check script, and proof-body placeholder hygiene. It deliberately
+keeps `ResidualSelectionAxioms.lean` outside the default target as an
+informational manual receipt. This is a process gate; `lake build` and targeted
+`lake env lean ...` commands remain the compile checks.
 
 ## Tests manifest count gate
 
