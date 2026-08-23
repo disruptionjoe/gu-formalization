@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8110d4ef448e7f55e322c9038978799342b3225e
+revision_basis: 95f46a4eb459cd079b4b401881a336975aeada89
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The first row-complete phenomenology disposition baseline makes the
+    B1/B3/B4 exhaustion rule executable and finds it false. Ledger v0.263 has
+    91 rows; only LT-GR9 and LT-GR10 have evidence-backed terminal
+    B2_NAMED_REQUIREMENT dispositions and only LT-GR11 has an admitted
+    B1/FITTING_CONSTRUCTION. Eighty-eight rows remain open under the active
+    method. The 34 SAME rows are not retroactive FC admissions, the remaining
+    NEEDS rows are not unnamed B2 dispositions, and DIFFERS/OVER_DETERMINED do
+    not automatically establish B4 or a precise impossibility. B3-J95-03,
+    B3-H0-06 and B3-DE-01 are completed literature subdispositions; they do
+    not terminate their parent LT-GR8 or LT-GR2e construction rows. The live
+    v0.1 register is digest-bound to ledger v0.263, covers every row exactly
+    once and derives exhausted=false and b2_selectable=false. No ledger row,
+    scientific verdict, source owner, prediction, confirmation, canon or
+    public posture moves.
     The third primary-source B3 disposition corrects B3-DE-01 and moves no
     ledger row. DESI's CPL coordinates are model-conditioned compressed
     evidence, not literal pointwise measurements of w(z), but their demotion
@@ -3131,6 +3145,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Phenomenology exhaustion is now a computed gate, not a prose presumption.
+  The v0.1 live register covers all 91 ledger v0.263 rows exactly once, with
+  three evidence-backed terminal rows and 88 open rows; exhausted=false and
+  b2_selectable=false. Do not infer B1 from SAME, B2 from NEEDS, B4 or precise
+  impossibility from DIFFERS, or row closure from a B3 subdisposition. A new
+  ledger version invalidates the register until explicit digest rebase. The
+  next work remains actual phenomenology disposition: finish B3-CC-02,
+  B3-CP-04 and B3-NU-05 at citation time, audit SAME rows through FC-1 to
+  FC-7, audit DIFFERS rows for source-native routes or typed impossibilities,
+  and split the remaining mixed rows before any B2 return. Scheduled priority
+  is unchanged; CBRS source-action work remains ineligible while the derived
+  gate is false.
   The P3 external-tension register now has three disposed entries with no
   ledger movement. B3-J95-03 preserves the restricted equilibrium and
   explicit nonequilibrium branches already present in LT-GR8. B3-H0-06

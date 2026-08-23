@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Phenomenology disposition baseline v0.1, 2026-08-23.** The B1/B3/B4
+exhaustion rule now has a digest-bound canonical denominator and executable
+gate. Ledger v0.263 contributes 91 rows. Evidence supports terminal row
+dispositions only for LT-GR9 and LT-GR10 at `B2_NAMED_REQUIREMENT`, and LT-GR11
+at B1/`FITTING_CONSTRUCTION`; 88 rows remain open. Ledger verdicts are inputs,
+not bucket outcomes: `SAME` does not award FC grade, `NEEDS` does not name a B2
+owner, and `DIFFERS` does not automatically prove B4 or impossibility. The
+three completed B3 source adjudications are subdispositions and leave LT-GR8
+and LT-GR2e open. The derived gate reads `exhausted=false` and
+`b2_selectable=false`; a successor ledger invalidates it until explicit
+rebase. No ledger or scientific verdict moves. See
+`explorations/conditional-build/phenomenology-disposition-baseline-v0.1-2026-08-23.md`.
+
 **B3-DE primary-source likelihood-scope disposition, 2026-08-23.** The third
 B3 row is disposed with no ledger movement. DESI's CPL pair is a model-
 conditioned compression rather than a literal pointwise measurement of

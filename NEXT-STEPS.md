@@ -7,6 +7,19 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 PHENOMENOLOGY DISPOSITION BASELINE: EXHAUSTION IS NOW
+> COMPUTABLE AND FALSE.** The active four-bucket method previously had no
+> canonical denominator or live terminal register. The v0.1 register now
+> covers all 91 rows of ledger v0.263 exactly once. Only LT-GR9 and LT-GR10
+> have evidence-backed terminal B2 named-requirement dispositions, and only
+> LT-GR11 has a terminal B1 `FITTING_CONSTRUCTION`; 88 rows remain open.
+> `SAME` is not retroactive FC admission, `NEEDS` is not unnamed B2, and a
+> completed B3 source adjudication does not close its parent construction row.
+> The derived result is `exhausted=false`, `b2_selectable=false`. Continue the
+> current B3 citation-time work or a genuine B1/B4 disposition; do not return
+> to CBRS/source-action work on a prose claim of exhaustion. See
+> `explorations/conditional-build/phenomenology-disposition-baseline-v0.1-2026-08-23.md`.
+
 > **2026-08-23 B3-DE LIKELIHOOD-SCOPE DISPOSITION: CPL IS COMPRESSION;
 > CROSSING EVIDENCE SURVIVES; NO LEDGER MOVEMENT.** The proposed absolute
 > withdrawal of the DESI CPL pair is refused. `(w_0,w_a)` are model-conditioned

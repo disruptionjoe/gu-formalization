@@ -5,6 +5,8 @@
   "status": "FOUR_BUCKETS_INSTALLED__EXHAUSTION_RULE_BINDING_ON_WORK_SELECTION",
   "directed_by": "Joe direct chat 2026-08-23: we know the phenomenology and we know where current physics is in tension; every ledger entry either fits, or would fit given the source action and external datum (deferred), or sits on a current physics-side tension, or the source derives it differently. Build everything possible without returning to the source action; only then is R1 easier.",
   "method_doc": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+  "live_disposition_register": "lab/process/phenomenology-disposition-register-v0.1.json",
+  "live_register_probe": "tests/channel-swings/phenomenology_disposition_register_probe.py",
   "companion": "lab/methods/fitting-construction-grade.md",
   "target_claim": "NONE-NOT-A-KILL",
   "target_claim_note": "installs a work-selection scheme; kills no source claim and no research route",
@@ -43,8 +45,28 @@
     }
   ],
   "exhaustion_rule": {
-    "statement": "Do not return to R1 (the source action) or to external-datum construction until B1, B3 and B4 are exhausted. A lane may not select source-action work while any B1, B3 or B4 item remains unattempted.",
-    "definition_of_exhausted": "every such item has been attempted and has either produced a FITTING_CONSTRUCTION, produced a precise impossibility, or been re-disposed into B2 with its requirement named",
+    "statement": "Do not return to R1 (the source action) or to external-datum construction until the current live disposition register proves B1, B3 and B4 exhausted. A lane may not select source-action work from an absent, stale, incomplete or failing register.",
+    "definition_of_exhausted": "exhausted means the live register matches the canonical ledger digest, covers every ledger row exactly once, preserves every required split subclaim under its parent row, and gives every row or all of its subclaims one evidence-backed terminal outcome: FITTING_CONSTRUCTION, PRECISE_IMPOSSIBILITY, or B2_NAMED_REQUIREMENT",
+    "disposition_unit": "one canonical ledger row, split into named parent-linked subclaims whenever one bucket cannot type every claim part",
+    "terminal_outcomes": [
+      "FITTING_CONSTRUCTION",
+      "PRECISE_IMPOSSIBILITY",
+      "B2_NAMED_REQUIREMENT"
+    ],
+    "required_predicates": [
+      "ledger_currency",
+      "exact_row_coverage",
+      "split_unit_parentage",
+      "evidence_backed_terminality",
+      "derived_gate_state"
+    ],
+    "fail_closed_rule": "missing, stale, duplicate, uncovered, unterminated or manually inconsistent register state evaluates to not exhausted and b2_selectable false",
+    "anti_laundering": [
+      "SAME is not automatically B1 or a FITTING_CONSTRUCTION",
+      "NEEDS is not automatically B2 and an unnamed source-action need is not terminal",
+      "DIFFERS is not automatically PRECISE_IMPOSSIBILITY or B4",
+      "a completed B3 literature subdisposition does not close its parent construction row"
+    ],
     "reasons": [
       "B2 gets cheaper by waiting: every B1 construction fixes a rung interface and narrows what the source action must do, so the R1 problem attacked after exhaustion is strictly smaller and arrives with its specification written",
       "B2 is the only bucket that can absorb unlimited effort with no result: the recorded corpus holds roughly thirty owner-exhausted CBRS-1 closes, and returning to R1 early is the failure mode this rule exists to prevent"

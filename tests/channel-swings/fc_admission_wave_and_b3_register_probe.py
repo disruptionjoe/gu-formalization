@@ -116,7 +116,9 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(b3["net_softening"] == 0, "no B3 entry is net-softening")
     d = b3["direction"]
     check(sum(d.values()) == b3["entries"], "the direction breakdown accounts for every entry")
-    check(d["enlarge"] >= 2, "at least two entries enlarge the obligation")
+    check(b3.get("direction_scope") == "historical_first_pass_before_primary_source_disposition",
+          "direction counts are fenced as historical filing evidence")
+    check(d["enlarge"] >= 2, "historical filing records at least two enlarging entries")
     check(bool(b3["maintenance_rule"]) and "citation time" in b3["maintenance_rule"].lower(),
           "the citation-time re-check rule is recorded")
     check("S_8" in b3["maintenance_rule"] or "sigma_8" in b3["maintenance_rule"],
@@ -128,7 +130,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
 
     # ---- ceilings --------------------------------------------------------
     check("candidates only" in data["ledger_bearing"], "ledger bearing is candidates only")
-    check("HARDER" in data["ledger_bearing"], "the LT-GR8 candidate is in the harder direction")
+    dispositions = b3.get("dispositions", {})
+    check(dispositions.get("B3-J95-03", {}).get("status") ==
+          "DISPOSED_NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION",
+          "LT-GR8 carries the accepted J95 source-scope correction")
+    check(dispositions.get("B3-DE-01", {}).get("status") ==
+          "DISPOSED_NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION",
+          "LT-GR2e carries the accepted DE likelihood-scope correction")
     check(data["ledger_verdict_change"] == "none", "no verdict moved")
     check(data["target_claim"] == "NONE-NOT-A-KILL", "artifact types its own kill status")
 
@@ -139,7 +147,10 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("```gu-typed-objects" not in result or True, "typed-objects optional for this doc type")
     check("Zero of four admitted" in flat, "the zero is stated")
     check("supplies GU no relief" in flat, "the Hubble entry's direction is stated")
-    check("cuts both ways" in flat, "the two-sided disclosure is stated")
+    check("restricted equilibrium Clausius construction" in flat,
+          "the corrected J95 equilibrium branch is stated")
+    check("direct and nonparametric crossing" in flat,
+          "the corrected DE evidence ceiling is stated")
     for phrase in FORBIDDEN_SUMMARY_GRAMMAR:
         check(phrase not in flat, f"forbidden grammar absent: {phrase}")
     return checks, failures
@@ -180,7 +191,8 @@ def selftest() -> int:
 
     changed = copy.deepcopy(baseline)
     changed["data"]["b3_register"]["direction"]["enlarge"] = 0
-    mutations.append(("enlargement-dropped", "at least two entries enlarge the obligation", changed))
+    mutations.append(("enlargement-dropped",
+                      "historical filing records at least two enlarging entries", changed))
 
     changed = copy.deepcopy(baseline)
     changed["calib_before_anchor"] = False

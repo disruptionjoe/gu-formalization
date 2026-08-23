@@ -125,6 +125,15 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("exhausted" in rule.get("definition_of_exhausted", "").lower()
           or "attempted" in rule.get("definition_of_exhausted", ""),
           "exhausted is defined")
+    check(disp.get("live_disposition_register") ==
+          "lab/process/phenomenology-disposition-register-v0.1.json",
+          "method registry points to the live disposition register")
+    check(set(rule.get("terminal_outcomes", [])) ==
+          {"FITTING_CONSTRUCTION", "PRECISE_IMPOSSIBILITY", "B2_NAMED_REQUIREMENT"},
+          "exhaustion uses the closed terminal vocabulary")
+    check("stale" in rule.get("fail_closed_rule", "")
+          and "b2_selectable false" in rule.get("fail_closed_rule", ""),
+          "exhaustion fails closed")
 
     # ---- disposition discipline prevents each bucket becoming an excuse --
     disc = {d["bucket"]: d for d in disp["disposition_discipline"]}
@@ -208,6 +217,11 @@ def selftest() -> int:
     changed["disp"]["disposition_discipline"] = [
         {**d, "requires": "nothing"} for d in changed["disp"]["disposition_discipline"]]
     mutations.append(("discipline-gutted", "B2 requires a named requirement", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["disp"]["exhaustion_rule"]["terminal_outcomes"] = ["WHATEVER"]
+    mutations.append(("terminal-vocabulary-gutted",
+                      "exhaustion uses the closed terminal vocabulary", changed))
 
     # Planted positive for the summary-grammar detector.
     changed = copy.deepcopy(baseline)

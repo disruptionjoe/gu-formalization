@@ -5,7 +5,9 @@ doc_type: mandatory_work_selection_scheme
 created: "2026-08-23"
 directed_by: "Joe direct chat, 2026-08-23"
 registry: lab/process/phenomenology-disposition-and-exhaustion-rule.json
+live_disposition_register: lab/process/phenomenology-disposition-register-v0.1.json
 probe: tests/channel-swings/phenomenology_disposition_probe.py
+live_register_probe: tests/channel-swings/phenomenology_disposition_register_probe.py
 companion: lab/methods/fitting-construction-grade.md
 ---
 
@@ -55,15 +57,59 @@ instruments this for four recurring cases in
 The work is to identify the source-native route and build *that*, not the
 comparator.
 
-## The exhaustion rule (binding on work selection)
+## The disposition unit and terminal outcomes
+
+The canonical denominator is every row in the current conditional-physics
+ledger. If one row contains claims that belong in different buckets, the row
+is not disposed by picking the most convenient bucket: split it into named
+subclaims, retain the parent-row pointer, and require every subclaim to close.
+No row disappears from the denominator merely because a subclaim was
+adjudicated.
+
+There are exactly three terminal outcomes for exhaustion:
+
+1. `FITTING_CONSTRUCTION` — a B1 construction admitted under FC-1 through
+   FC-7;
+2. `PRECISE_IMPOSSIBILITY` — a typed impossibility with its class, assumptions,
+   escape and resurrection trigger stated; or
+3. `B2_NAMED_REQUIREMENT` — a re-disposition to B2 that names the exact source
+   owner, coefficient or external datum and carries evidence for that need.
+
+Ledger labels are inputs, not dispositions. `SAME` does not automatically mean
+B1 or satisfy the fitting-construction grade. `NEEDS` does not automatically
+mean B2. `DIFFERS` does not automatically establish a precise impossibility or
+B4. A completed B3 literature adjudication closes that B3 subclaim only; it
+does not close the underlying construction row unless every other row part has
+one of the three terminal outcomes.
+
+The current live denominator, evidence-backed terminals, split units and
+derived gate live in
+`lab/process/phenomenology-disposition-register-v0.1.json`. Every successor
+ledger invalidates that register until it is explicitly rebased and the live
+probe passes.
+
+## The exhaustion rule (binding and executable on work selection)
 
 > **Do not return to R1 (the source action) or to external-datum construction
 > until B1, B3 and B4 are exhausted.**
 
-A lane may not select source-action work while any B1, B3 or B4 item remains
-unattempted. "Exhausted" means every such item has been attempted and has
-either produced a `FITTING_CONSTRUCTION`, produced a precise impossibility, or
-been re-disposed into B2 with its requirement named.
+A lane may select source-action or external-datum work only when the current
+live register passes all four predicates:
+
+1. **currency** — its ledger path and digest match the current canonical
+   ledger;
+2. **coverage** — every ledger row appears exactly once in the denominator and
+   every split unit retains a parent row;
+3. **terminality** — every row, or every subclaim after a required split, has
+   one of the three evidence-backed terminal outcomes above; and
+4. **derivation** — `exhausted` and `b2_selectable` equal the result computed
+   from currency, coverage and terminality rather than a hand-set assertion.
+
+An absent, stale, incomplete or failing register means **not exhausted**. It
+does not prove that an open row belongs to B1, B3 or B4; it proves that the
+required disposition has not been completed. The live mutation-tested probe
+is the selection gate. Prose claims of exhaustion, ledger verdict counts and
+completed B3 subdispositions cannot substitute for it.
 
 Two reasons this ordering is not arbitrary:
 

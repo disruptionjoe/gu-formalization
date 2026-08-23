@@ -1,0 +1,148 @@
+{
+  "schema_version": "0.1",
+  "artifact_type": "phenomenology_disposition_live_register",
+  "created": "2026-08-23",
+  "status": "ROW_COMPLETE_DENOMINATOR__THREE_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
+  "method_ref": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+  "result_ref": "explorations/conditional-build/phenomenology-disposition-baseline-v0.1-2026-08-23.md",
+  "probe_ref": "tests/channel-swings/phenomenology_disposition_register_probe.py",
+  "ledger_basis": {
+    "path": "lab/process/conditional-physics-ledger-v0.263.json",
+    "schema_version": "0.263",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "unit_contract": {
+    "canonical_unit": "one ledger row",
+    "split_rule": "a row containing claims in more than one bucket must be split into named subclaims that retain the parent row; every subclaim must terminate before the row terminates",
+    "terminal_outcomes": [
+      "FITTING_CONSTRUCTION",
+      "PRECISE_IMPOSSIBILITY",
+      "B2_NAMED_REQUIREMENT"
+    ],
+    "nonterminal_inputs": [
+      "ledger verdict",
+      "reason_kind",
+      "mapping_grade",
+      "completed B3 literature subdisposition"
+    ]
+  },
+  "row_denominator_by_ledger_verdict": {
+    "SAME": ["RA-A3", "RA-A7", "RA-B1", "RA-B2", "RA-B3", "RA-B4", "RA-B5", "RA-B7", "RA-B8", "RA-B9", "RA-C1", "RA-D3", "RA-F2", "LT-GR2", "LT-GR2b", "LT-SM5", "AC-A1", "AC-A2", "AC-A3", "AC-A4", "AC-A6", "AC-A7", "AC-B1", "AC-B4", "AC-B5", "AC-C1", "AC-C2", "AC-D1", "AC-D2", "AC-D3", "AC-D4", "AC-D5", "AC-E1", "AC-F2"],
+    "NEEDS": ["RA-A1", "RA-A2", "RA-A6", "RA-A8", "RA-D4", "RA-E1", "RA-E2", "RA-E6", "RA-E7", "RA-F1", "RA-G3", "RA-G4", "LT-GR1", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR6b", "LT-GR7", "LT-GR8", "LT-GR9", "LT-GR10", "LT-GR11", "LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM7", "LT-SM8", "AC-B2", "AC-F1", "AC-F5", "AC-G1a"],
+    "DIFFERS": ["RA-A4", "RA-A5", "RA-B6", "RA-D2", "RA-E3", "RA-E4", "RA-E5", "RA-F3", "RA-G1", "RA-G2", "LT-GR1b", "LT-GR2a", "LT-GR3", "LT-GR5", "LT-GR6", "LT-SM3", "LT-SM4", "LT-SM6", "AC-A5", "AC-F3", "AC-F4", "AC-G2"],
+    "OVER_DETERMINED": ["LT-GR4", "LT-SM3b", "AC-G1"]
+  },
+  "terminal_row_dispositions": [
+    {
+      "row_id": "LT-GR9",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/gravitational-anchor-bucket-disposition-and-first-fitting-construction.json",
+      "named_requirements": ["SF-1", "SF-2", "SF-3", "SF-4", "SF-5"]
+    },
+    {
+      "row_id": "LT-GR10",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/gravitational-anchor-bucket-disposition-and-first-fitting-construction.json",
+      "named_requirements": ["PPN-1", "PPN-2", "PPN-3", "PPN-4"]
+    },
+    {
+      "row_id": "LT-GR11",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/gravitational-anchor-bucket-disposition-and-first-fitting-construction.json",
+      "construction_id": "FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1"
+    }
+  ],
+  "open_row_cohorts": [
+    {
+      "ledger_verdict": "SAME",
+      "row_ids": ["RA-A3", "RA-A7", "RA-B1", "RA-B2", "RA-B3", "RA-B4", "RA-B5", "RA-B7", "RA-B8", "RA-B9", "RA-C1", "RA-D3", "RA-F2", "LT-GR2", "LT-GR2b", "LT-SM5", "AC-A1", "AC-A2", "AC-A3", "AC-A4", "AC-A6", "AC-A7", "AC-B1", "AC-B4", "AC-B5", "AC-C1", "AC-C2", "AC-D1", "AC-D2", "AC-D3", "AC-D4", "AC-D5", "AC-E1", "AC-F2"],
+      "required_next": "B1_FC1_THROUGH_FC7_ADMISSION_OR_EXPLICIT_SPLIT",
+      "warning": "SAME records ledger agreement at its stated grade; it is not retroactive FITTING_CONSTRUCTION admission"
+    },
+    {
+      "ledger_verdict": "NEEDS",
+      "row_ids": ["RA-A1", "RA-A2", "RA-A6", "RA-A8", "RA-D4", "RA-E1", "RA-E2", "RA-E6", "RA-E7", "RA-F1", "RA-G3", "RA-G4", "LT-GR1", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR6b", "LT-GR7", "LT-GR8", "LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM7", "LT-SM8", "AC-B2", "AC-F1", "AC-F5", "AC-G1a"],
+      "required_next": "ONE_BUCKET_OR_PARENT_LINKED_SPLIT_WITH_TERMINAL_EVIDENCE",
+      "warning": "NEEDS does not itself prove a named B2 owner, an available B1 construction, a B3 tension, or a B4 source route"
+    },
+    {
+      "ledger_verdict": "DIFFERS",
+      "row_ids": ["RA-A4", "RA-A5", "RA-B6", "RA-D2", "RA-E3", "RA-E4", "RA-E5", "RA-F3", "RA-G1", "RA-G2", "LT-GR1b", "LT-GR2a", "LT-GR3", "LT-GR5", "LT-GR6", "LT-SM3", "LT-SM4", "LT-SM6", "AC-A5", "AC-F3", "AC-F4", "AC-G2"],
+      "required_next": "B4_SOURCE_ROUTE_OR_PRECISE_IMPOSSIBILITY_AUDIT",
+      "warning": "DIFFERS is a scoped ledger verdict, not an automatic B4 or precise impossibility"
+    },
+    {
+      "ledger_verdict": "OVER_DETERMINED",
+      "row_ids": ["LT-GR4", "LT-SM3b", "AC-G1"],
+      "required_next": "STALE_PREMISE_FORK_OR_PRECISE_IMPOSSIBILITY_DISPOSITION",
+      "warning": "OVER_DETERMINED does not bypass the one-bucket and terminal-evidence rules"
+    }
+  ],
+  "b3_subdispositions": {
+    "basis_ref": "lab/process/fc-admission-wave-and-first-b3-register.json",
+    "completed": [
+      {
+        "id": "B3-J95-03",
+        "parent_row": "LT-GR8",
+        "evidence_ref": "lab/process/b3-j95-primary-scope-disposition.json",
+        "scope_effect": "SUBDISPOSITION_ONLY__PARENT_ROW_REMAINS_OPEN"
+      },
+      {
+        "id": "B3-H0-06",
+        "parent_row": "LT-GR2e",
+        "evidence_ref": "lab/process/b3-h0-observable-scope-disposition.json",
+        "scope_effect": "SUBDISPOSITION_ONLY__PARENT_ROW_REMAINS_OPEN"
+      },
+      {
+        "id": "B3-DE-01",
+        "parent_row": "LT-GR2e",
+        "evidence_ref": "lab/process/b3-de-likelihood-scope-disposition.json",
+        "scope_effect": "SUBDISPOSITION_ONLY__PARENT_ROW_REMAINS_OPEN"
+      }
+    ],
+    "pending": [
+      {"id": "B3-CC-02", "parent_row": null, "state": "PENDING_CITATION_TIME_RECONSTRUCTION"},
+      {"id": "B3-CP-04", "parent_row": null, "state": "PENDING_CITATION_TIME_RECONSTRUCTION"},
+      {"id": "B3-NU-05", "parent_row": null, "state": "PENDING_CITATION_TIME_RECONSTRUCTION"}
+    ]
+  },
+  "exhaustion_evaluation": {
+    "ledger_currency": true,
+    "exact_row_coverage": true,
+    "split_unit_parentage": false,
+    "denominator_rows": 91,
+    "terminal_rows": 3,
+    "open_rows": 88,
+    "completed_b3_subdispositions": 3,
+    "pending_b3_subdispositions": 3,
+    "all_rows_terminal": false,
+    "all_required_split_units_terminal": false,
+    "exhausted": false,
+    "b2_selectable": false,
+    "failed_predicates": [
+      "eighty-eight ledger rows lack terminal disposition evidence",
+      "three registered B3 subdispositions remain pending and lack reconstructed parent-row objects",
+      "completed B3 subdispositions do not terminate LT-GR8 or LT-GR2e"
+    ]
+  },
+  "selection_consequence": {
+    "current_result": "B1/B3/B4 exhaustion is now computable and is false",
+    "next_disposition_frontier": [
+      "finish citation-time adjudication of B3-CC-02, B3-CP-04 and B3-NU-05",
+      "audit SAME rows for genuine FC-1-through-FC-7 B1 admission rather than infer it from verdict",
+      "audit DIFFERS rows for source-native B4 routes or typed precise impossibilities",
+      "split and disposition remaining NEEDS and OVER_DETERMINED rows without defaulting them to B2"
+    ],
+    "scheduled_priority_effect": "unchanged",
+    "source_action_effect": "B2 remains ineligible while exhausted is false"
+  },
+  "ledger_verdict_change": "none",
+  "ledger_row_field_change": "none",
+  "source_ownership_change": "none",
+  "prediction_or_confirmation_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
