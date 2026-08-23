@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "program_velocity_council_registry",
+  "created": "2026-08-23",
+  "status": "EIGHT_LENSES_THREE_EACH__DISSENTS_HELD__PLAN_PRIORITIZED_WITH_EXPLICIT_REFUSALS",
+  "directed_by": "Joe direct chat 2026-08-23: three blockers per lens, do not flatten, prioritize into an action plan, nothing off limits including hourly process",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "adjudicates program process and allocation; kills no source claim and no research route",
+  "method": "each lens states exactly three diagnoses; contradictions between lenses are preserved and marked rather than averaged; the plan prioritizes and refuses rather than merging",
+  "lenses": {
+    "L1_RESEARCH_DIRECTOR": [
+      "the program has been optimizing the map instead of the territory: recent artifacts are about the research rather than being it, and map work produces commits and green gates at the same rate real work would",
+      "'no newly enabled arc' has become a self-fulfilling scheduler state, true only relative to an enumeration nobody was expanding -- disproved on 2026-08-22 when enumerating one more ledger obligation produced an executable arc immediately",
+      "the program has no definition of a good week, so maintenance and physics are indistinguishable at review time and the cheaper one wins by default"
+    ],
+    "L2_OPERATIONS": [
+      "the hourly loop's cheapest legal move is a reconcile, so it reconciles: six maintenance commits and zero new physics in one 24-hour window; the selection rule is the defect, not the loop",
+      "maintenance work creates the maintenance work: six propagation surfaces per swing are six future staleness sites and pointer repair is itself a legal next swing",
+      "concurrency is handled by luck: three write-races in one day, no lease, no lane partition, no declared ownership of shared surfaces"
+    ],
+    "L3_WORKING_PHYSICIST": [
+      "nobody is deriving anything: the last five Lean gates are finite algebra and hygiene, and all five left the source-to-proof delta unchanged",
+      "owner-exhaustion is being treated as a stop rather than a result; the correct response is a necessity theorem converting thirty negative results into one structural statement",
+      "the physics is gated on one object and the program acts as if it has seven: OWNER-B, D, E and F all presuppose OWNER-A"
+    ],
+    "L4_EPISTEMICS": [
+      "the probes check prose, not physics: three probe defect classes surfaced in this session alone (wrapped-prose substring checks, crash-not-detection, a predicate satisfiable by its own negation)",
+      "green gates are being read as evidence of progress; they certify self-consistency and propagation, not that the work mattered",
+      "the strongest negative results were mis-typed for ten days while the gate that detects it reported the problem in its own docstring: a gate nobody acts on converts a known defect into a permanent one with a green-looking process around it"
+    ],
+    "L5_INFORMATION_ARCHITECT": [
+      "surfaces rot because maintenance is manual and per-artifact; the 2026-08-22 derived-inventory fix is the template and has not been generalized",
+      "artifact frontmatter has become unreadable, with title fields running to hundreds of words carrying verdicts and caveats that belong in typed fields",
+      "six propagation surfaces per swing is at least three too many and is the write-amplification tax on every piece of science"
+    ],
+    "L6_PORTFOLIO_ECONOMIST": [
+      "cost per ledger point is not measured, so allocation is vibes",
+      "the cheap column is nearly exhausted and that is good news badly handled: the exhaustion point should be planned for in advance rather than met unprepared",
+      "the scorecard is worth keeping and L3.3 is wrong to disparage it: naming downstream owners is what makes it possible to price a proposal and to say a result discharges nothing"
+    ],
+    "L7_SOURCE_CUSTODIAN": [
+      "the binding constraint is input supply and the program will not say so: every artifact says 'unbuilt' and none says 'unbuildable from what we have', which are different statements the program has evidence for",
+      "the source register is used defensively rather than generatively: it polices kills but is never mined for registered claims with no ledger row",
+      "no decision procedure exists for declaring an import, so every candidate stays open forever at zero cost"
+    ],
+    "L8_ADVERSARY": [
+      "this session is itself the failure mode it keeps diagnosing: twelve artifacts, six audits of artifacts, two audits of audits, and an outside reader could not distinguish the program from a well-run documentation project",
+      "the delta instrument may become the next thing to game, since its probe checks that a delta exists rather than that it moved",
+      "the most likely true state is that GU cannot be advanced further without Weinstein, and the honest terminal move may be to write the exhaustion result"
+    ]
+  },
+  "diagnoses_per_lens": 3,
+  "total_diagnoses": 24,
+  "action_plan": [
+    {"id": "A1", "action": "change the hourly selection rule so maintenance cannot be first-choice: attempt delta-moving arcs, then ledger-moving arcs, and log why each was unavailable before selecting maintenance", "from": ["L2.1", "L1.2"], "supported_by": ["L1.1", "L4.2"]},
+    {"id": "A2", "action": "attempt the CBRS-1 necessity theorem: convert thirty owner-exhaustion results into one structural statement of what any admissible owner must supply", "from": ["L3.2"], "note": "the unattempted middle path between continued candidate grinding and L8.3 terminal exhaustion; designated discriminator"},
+    {"id": "A3", "action": "derive the hand-maintained lists, generalizing the 2026-08-22 Lean-inventory fix, starting with the requirements-spec source set", "from": ["L5.1"]},
+    {"id": "A4", "action": "write the probe-authorship checklist and lint it: normalize whitespace before prose checks, never index possibly-mutated structures without a default, never write a predicate satisfiable by its own negation, assert own contribution plus non-regression rather than global counters", "from": ["L4.1"]},
+    {"id": "A5", "action": "compute the register-minus-ledger difference: 108 registered source claims against the canonical target set", "from": ["L7.2"], "note": "the only plan item that generates work rather than tidying it"},
+    {"id": "A6", "action": "write the import decision procedure with a council trigger; OWNER-G already names four candidates", "from": ["L7.3"]},
+    {"id": "A7", "action": "plan the cheap-column exhaustion point in advance", "from": ["L6.2"]},
+    {"id": "A8", "action": "harden the delta instrument against gaming: require the statement to name which component changed and against which prior delta", "from": ["L8.2"]}
+  ],
+  "explicit_refusals": [
+    {"refused": "reduce the propagation surfaces", "against_lens": "L5.3", "reason": "every one of those surfaces caught a defect this week; the correct fix is derivation (A3), not deletion"},
+    {"refused": "shorten the frontmatter titles as a project", "against_lens": "L5.2", "reason": "correct diagnosis, near-zero velocity effect, high churn across hundreds of artifacts, and it would touch surfaces other lanes are writing; do it opportunistically"},
+    {"refused": "write the terminal exhaustion result now", "against_lens": "L8.3", "reason": "A2 is the test that distinguishes cannot-be-advanced from has-not-been-attacked; publishing exhaustion first would be the premature-closure error the program criticizes in others. If A2 fails, L8.3 becomes the recommendation and should be executed without further delay"}
+  ],
+  "standing_disagreements": [
+    {"between": ["L3.3", "L6.3"], "about": "whether the seven-owner scorecard clarifies or flatters", "resolution": "unresolved by design; the scorecard stays with its dependency structure stated alongside"},
+    {"between": ["L8.3", "L6.2", "L3.2"], "about": "whether the program is already at its terminus", "resolution": "A2 is the designated discriminator"}
+  ],
+  "counterpoint_recorded_2026_08_23": "canonical Progress integrated both bench deltas into v0.261 during this council, appending LT-GR9/LT-GR10/LT-GR11 and registering EXT-SM-STRUCTURE and EXT-COSMO-BACKGROUND against existing rows. L8.1's 'all bookkeeping' charge is therefore partially answered: the benchmark work reached the canonical ledger. The rest of L8.1 stands.",
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
