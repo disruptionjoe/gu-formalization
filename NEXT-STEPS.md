@@ -7,6 +7,22 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 B3-H0 OBSERVABLE-SCOPE DISPOSITION: THREE INFERENCE MAPS,
+> NO RELIEF, NO LEDGER MOVEMENT.** The filing slogan “no published H0 is
+> measured; every one is derived” is withdrawn as too coarse. SH0ES is a
+> geometrically anchored empirical distance ladder through Cepheids, SNe Ia
+> and Hubble-flow redshifts. Planck measures the CMB spectra and acoustic angle
+> and infers H0 under a cosmological model. DESI measures BAO peak positions
+> and distance ratios, constraining H0*r_d rather than H0 alone. GU still owes
+> one action-owned background/perturbation forward model, sound horizons, CMB
+> observables, BAO ratios and low-redshift luminosity-distance relation. LT-GR2e
+> v0.263 already carries that construction and held-out prediction burden, so
+> B3-H0-06 is disposed
+> `NO_LEDGER_MOVEMENT__OBSERVABLE_SCOPE_CORRECTION`. Four B3 entries remain;
+> reconstruct B3-DE-01 next only if its pointwise-versus-CPL source objects and
+> DARK-ENERGY-07 correction chain survive citation-time review. See
+> `explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md`.
+
 > **2026-08-23 B3-J95 PRIMARY-SOURCE DISPOSITION: THE EQUILIBRIUM BRANCH
 > REMAINS OPEN; LEDGER v0.263 WAS ALREADY CORRECT.** The initial B3 register
 > correctly typed Jacobson 1995 as a conditional benchmark, but its proposed
@@ -17,9 +33,8 @@ updated_at: "2026-08-23"
 > conditions. `B3-J95-03` is therefore disposed
 > `NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION`. LT-GR8 remains `NEEDS /
 > MISSING_CONSTRUCTION`, with both equilibrium and entropy-production routes
-> open and no mechanism or confirmation credit. Next, reconstruct the primary
-> objects for the strongest of the five remaining B3 entries at citation time;
-> test B3-H0-06 first only if its observable typing survives. See
+> open and no mechanism or confirmation credit. B3-H0-06 has since been
+> disposed separately; four B3 entries remain. See
 > `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
 
 > **2026-08-23 FIRST FITTING CONSTRUCTION BANKED; STRONG-FIELD AND PPN

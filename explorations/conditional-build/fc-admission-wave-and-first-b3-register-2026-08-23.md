@@ -116,11 +116,21 @@ scientific direction.
   states the correct two-branch obligation, so this entry is disposed with no
   ledger movement. See
   `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
-- **B3-H0-06 (EXT-COSMO-BACKGROUND, LT-GR2e).** No published `H_0` is
-  measured; every one is derived, on both sides. The obligation is therefore
-  the measured angles and ratios plus GU's *own* sound horizon — compute
-  `theta*`, `r_d` and `D(z)/r_d` from an action-owned background. **The Hubble
-  tension supplies GU no relief.**
+- **B3-H0-06 (EXT-COSMO-BACKGROUND, LT-GR2e) — corrected by
+  `B3-H0-SCOPE-20260823`.** `H_0` is an inferred parameter in every route, but
+  “nothing is measured” is too coarse and understates the local ladder's
+  empirical content. SH0ES is a geometrically anchored empirical calibration
+  through Cepheids, SNe Ia and Hubble-flow redshifts. Planck measures the CMB
+  spectra and acoustic angle, then infers `H_0` under a cosmological model.
+  DESI measures BAO peak positions and distance ratios in units of `r_d`; in
+  flat ΛCDM it constrains `H_0 r_d`, not `H_0` alone. The source-faithful GU
+  burden is one action-owned forward model for the background, perturbations,
+  sound horizons, CMB angle/spectra, BAO ratios and low-redshift
+  luminosity-distance relation. LT-GR2e v0.263 already requires the
+  action-owned solution and held-out CMB/BAO predictions, so the entry is
+  disposed with no ledger movement. **The Hubble tension supplies GU no
+  relief.** See
+  `explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md`.
 
 **B3-DE-01 discloses that it cuts both ways**, which is the discipline working.
 Withdrawing the CPL central pair as a target also withdraws the CPL-based
@@ -165,7 +175,11 @@ on the LT-GR2 family and LT-SM7, and a framing note plus joint-evaluation
 constraint on RA-G3/RA-B6 — all of which go through ordinary evidence-delta
 process. The proposed LT-GR8 `revival_trigger` narrowing is refused by
 `B3-J95-SCOPE-20260823`; the existing row already carries the source-faithful
-equilibrium-or-entropy-production fork.
+equilibrium-or-entropy-production fork. The proposed H0 measured-versus-derived
+binary is refused by `B3-H0-SCOPE-20260823`; the existing LT-GR2e burden
+already requires an action-owned cosmological solution with held-out CMB/BAO
+predictions, and the accepted EXT-COSMO-BACKGROUND link covers the observed
+expansion history without a duplicate row.
 
 One independent confirmation worth recording: the wave ran
 `tests/channel-swings/d4_contraction_rank_j_independence_probe.py` and it

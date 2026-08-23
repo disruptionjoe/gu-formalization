@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 283037c0e41ab5d80ca64268185749b2a80d5021
+revision_basis: 4b5936d8c14926e01bafaeb4b1219c28d86482c2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,8 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The first primary-source B3 disposition corrects B3-J95-03 and moves no
-    ledger row. Jacobson 1995 remains a conditional theoretical benchmark,
+    The second primary-source B3 disposition corrects B3-H0-06 and moves no
+    ledger row. H0 is inferred in every route, but the observed carriers and
+    inference maps are not interchangeable: SH0ES is a geometrically anchored
+    empirical distance ladder; Planck measures the CMB spectra and acoustic
+    angle, then infers H0 under a cosmological model; DESI measures BAO peak
+    positions and distance ratios, constraining H0*r_d rather than H0 alone.
+    The initial "nothing is measured" slogan is withdrawn while the no-relief
+    conclusion remains. LT-GR2e v0.263 already requires an action-owned
+    cosmological solution with fixed initial data and held-out DESI/CMB/BAO
+    predictions, and EXT-COSMO-BACKGROUND already binds the observed expansion
+    history, so no ledger mutation is needed. Four B3 entries remain for
+    citation-time disposition.
+    The first primary-source B3 disposition corrected B3-J95-03 without moving
+    a ledger row. Jacobson 1995 remains a conditional theoretical benchmark,
     and Eling-Guedens-Jacobson 2006 genuinely requires entropy production for
     Ricci-scalar entropy corrections. That result does not type every
     higher-curvature action: Guedens-Jacobson-Sarkar 2012 retains a restricted
@@ -20,8 +32,7 @@ current_result:
     Weyl/Bach sector presumptively closes the equilibrium branch is therefore
     withdrawn. LT-GR8 v0.263 already carries the exact equilibrium-or-explicitly-
     nonequilibrium fork and remains NEEDS / MISSING_CONSTRUCTION with mechanism
-    and confirmation NONE. Five B3 entries remain for citation-time primary-
-    source disposition.
+    and confirmation NONE.
     The gravitational-anchor bucket audit banks the repository's first
     FITTING_CONSTRUCTION at observed R5:
     FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1 reproduces the accepted LT-GR11
@@ -3108,16 +3119,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  The P3 external-tension register now exists and B3-J95-03 is disposed with
-  no ledger movement. Do not reapply its proposed nonequilibrium-only
-  tightening: the 2006 result is Ricci-scalar scoped, the 2012 algebraic-
-  Riemann construction leaves a restricted equilibrium route open, and
-  LT-GR8 v0.263 already states the exact two-branch obligation. Five B3
-  entries remain. Rebuild their primary-source objects at citation time and
-  dispose the strongest decision-grade row, with B3-H0-06 the leading
-  candidate only if its CMB, distance-ladder and BAO observable typing
-  survives exact source reconstruction; otherwise take the strongest remaining
-  B1/B4 construction. The three accepted gravitational anchors retain their
+  The P3 external-tension register now has two disposed entries with no ledger
+  movement. B3-J95-03 preserves the restricted equilibrium and explicit
+  nonequilibrium branches already present in LT-GR8. B3-H0-06 now preserves
+  three distinct evidence maps: geometrically anchored local ladder, model-
+  inferred CMB H0, and BAO distance ratios/H0*r_d. Do not restore either
+  refused slogan or treat the Hubble tension as relief. Four B3 entries remain.
+  Reconstruct their primary-source objects at citation time and dispose the
+  strongest decision-grade row; take B3-DE-01 next only if the pointwise-
+  versus-CPL likelihood objects and DARK-ENERGY-07 corrections survive exact
+  reconstruction, otherwise take the strongest remaining B1/B4 construction.
+  The three accepted gravitational anchors retain their
   bucket dispositions: LT-GR11 is banked at B1 as
   FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1, while LT-GR9 and LT-GR10 are precisely
   non-admitted at B2 and may not be retried absent their named owner packets.

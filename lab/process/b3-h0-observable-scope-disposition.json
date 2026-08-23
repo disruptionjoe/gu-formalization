@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "b3_primary_source_observable_scope_disposition",
+  "created": "2026-08-23",
+  "b3_id": "B3-H0-06",
+  "ledger_row": "LT-GR2e",
+  "external_benchmark": "EXT-COSMO-BACKGROUND",
+  "status": "DISPOSED_NO_LEDGER_MOVEMENT__OBSERVABLE_SCOPE_CORRECTION",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Observable and inference-map semantics for the local distance ladder, Planck CMB and DESI DR2 BAO; no GU cosmology or new H0 estimate is constructed.",
+  "primary_sources": [
+    {
+      "id": "SH0ES-2022",
+      "arxiv": "2112.04510v3",
+      "doi": "10.3847/2041-8213/ac5c5b",
+      "measured_inputs": [
+        "geometric anchor distances from parallaxes, NGC 4258 masers and LMC detached eclipsing binaries",
+        "Cepheid periods and fluxes",
+        "Type Ia supernova fluxes",
+        "Hubble-flow redshifts"
+      ],
+      "inference_map": "geometric anchors -> Cepheid calibration -> SN Ia absolute magnitude -> magnitude-redshift fit -> H0",
+      "licensed_claim": "A geometrically anchored empirical distance ladder determines H0 = 73.04 +/- 1.04 km/s/Mpc in its baseline fit, including systematics.",
+      "ceiling": "H0 is fitted through calibration and nuisance assumptions; it is not a raw detector output or an assumption-free quantity, but neither is the ladder 'nothing measured'."
+    },
+    {
+      "id": "PLANCK-2018-VI",
+      "arxiv": "1807.06209v4",
+      "doi": "10.1051/0004-6361/201833910",
+      "measured_inputs": [
+        "CMB temperature and polarization spectra",
+        "CMB lensing information",
+        "angular acoustic scale 100 theta_* = 1.0411 +/- 0.0003"
+      ],
+      "inference_map": "CMB spectra + base-LambdaCDM forward model -> physical densities and sound horizon -> inferred late-Universe H0",
+      "licensed_claim": "The angular acoustic scale is measured to 0.03 percent precision; assuming base LambdaCDM, H0 = 67.4 +/- 0.5 km/s/Mpc is inferred.",
+      "ceiling": "The Planck H0 value cannot be imported after changing the cosmological forward model; GU must predict theta_* or the spectra from its own background and perturbations."
+    },
+    {
+      "id": "DESI-DR2-BAO-2025",
+      "arxiv": "2503.14738v3",
+      "doi": "10.1103/tr6y-kpc6",
+      "measured_inputs": [
+        "BAO feature positions in galaxy, quasar and Lyman-alpha clustering",
+        "BAO scaling parameters alpha_iso and alpha_AP",
+        "distance ratios D_V/r_d, D_M/r_d, D_H/r_d and D_M/D_H"
+      ],
+      "inference_map": "BAO peak fits -> distance ratios; within flat LambdaCDM the joint fit constrains Omega_m and H0*r_d",
+      "licensed_claim": "DESI DR2 reports calibrated distance ratios across redshift and does not measure H0 alone.",
+      "ceiling": "An H0 value requires a sound-horizon calibration or other early-Universe information; a GU test must compute its own r_d and distances."
+    }
+  ],
+  "rejected_inference": "all routes infer H0 -> no published H0 determination contains measured empirical content",
+  "precise_impossibility": "The measured-versus-derived binary cannot carry the B3 disposition because the three routes have different measured carriers, calibration maps and model dependence; it neither excuses GU nor licenses one compressed H0 target as universal.",
+  "ledger_comparison": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "row": "LT-GR2e",
+    "verdict": "NEEDS",
+    "reason_kind": "MISSING_CONSTRUCTION",
+    "required_distance_tokens": [
+      "matter/radiation FLRW perturbations",
+      "held-out w(z)"
+    ],
+    "required_revival_tokens": [
+      "action-owned cosmological solution",
+      "fixed initial data",
+      "held-out DESI/CMB/BAO predictions"
+    ],
+    "movement": "none"
+  },
+  "corrected_evaluation_packet": [
+    "construct an action-owned background, perturbations and fixed initial data",
+    "compute r_s(z_*), theta_*, r_d and DESI distance ratios without importing comparator calibration",
+    "compute the low-redshift luminosity-distance/redshift relation and validate or rerun the local-ladder compression",
+    "evaluate CMB, BAO and local-ladder likelihoods separately through one common forward model"
+  ],
+  "propagation": {
+    "corrected_artifact": "explorations/conditional-build/fc-admission-wave-and-first-b3-register-2026-08-23.md",
+    "corrected_registry": "lab/process/fc-admission-wave-and-first-b3-register.json",
+    "correction_id": "B3-H0-SCOPE-20260823"
+  },
+  "remaining_b3_entries": 4,
+  "ledger_verdict_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

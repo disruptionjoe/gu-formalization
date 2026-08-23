@@ -82,6 +82,26 @@ corrections:
       and integrability conditions. Ledger v0.263 already preserves both
       branches and remains unchanged.
     enforce: false
+  - id: B3-H0-SCOPE-20260823
+    owner: explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md
+    meaning: >-
+      B3-H0-06 correctly refuses to treat the Hubble tension as relief, but
+      its filing slogan "no published H0 is measured; every one is derived"
+      erased three different evidence maps. SH0ES is a geometrically anchored
+      empirical distance-ladder determination; Planck measures the CMB
+      acoustic scale and infers H0 under a cosmological model; DESI measures
+      BAO distance ratios and constrains H0*r_d rather than H0 alone. LT-GR2e
+      already requires an action-owned cosmological solution with held-out
+      DESI/CMB/BAO predictions, so the correction moves no ledger row.
+    canonical_since: "2026-08-23"
+    topic_signature:
+      - B3-H0-06
+      - Hubble tension
+      - distance ladder
+      - theta_star
+      - H0*r_d
+      - EXT-COSMO-BACKGROUND
+    enforce: false
   - id: HQ-PHASE-20260812
     owner: explorations/conditional-build/selected-k77-moving-hq-eddy-quartic-retype-2026-08-12.md
     meaning: >-
