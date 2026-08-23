@@ -7,6 +7,25 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE THREE GRAVITATIONAL ANCHOR DESCENTS ARE FROZEN R5-R3 AND
+> THE R1 DEMAND LEDGER IS CONSOLIDATED TO FIVE OWNERS.** Strong-field, PPN
+> and rotation-curve anchors each receive frozen comparator-driven R5/R4/R3
+> packets and an R2/R1 interface; folding in LT-GR8, the four interfaces
+> triangulate onto five named owners — OWNER-A the branch-fixed source
+> action deriving the shiab-Einstein reduction (the sharpest demand: W220's
+> granted reduction and W225's open `E_s^theta`/`alpha_W` are the same
+> owner), OWNER-B a stationary background (CBRS-1), OWNER-C the
+> normalization/ratio family with the absolute scale typed external (H24),
+> OWNER-D well-posed observed reductions plus the boundary law (K104,
+> PD-ULTRAHYPERBOLIC-DOMAIN), OWNER-E matter coupling/geodesic
+> motion/Ward-conserving stress. Every owner is demanded by at least two
+> independent lanes (machine-checked), and an R1-side result now counts as
+> descent progress only if it discharges or materially narrows an owner.
+> Demands, not constructions; all realizations remain MISSING_CONSTRUCTION;
+> instantiation stays CBRS-blocked. Awareness note: Joe-lane work;
+> scheduled Progress predicates untouched. See
+> `explorations/conditional-build/ext-gr-anchors-reverse-track-descents-r5-to-r3-2026-08-23.md`.
+
 > **2026-08-23 THE UV-GRAVITY CANDIDATE FAILED ITS HARDENING GATE.** Exact
 > disposition: `FAILED_HARDENING_GATE` / `PARKED_REQUIRES_RECONSTRUCTION`.
 > Do not cite the July title or abstract as current repository results and do

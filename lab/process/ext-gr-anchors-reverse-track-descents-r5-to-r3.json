@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ext_gr_anchor_descent_registry",
+  "created": "2026-08-23",
+  "status": "THREE_ANCHOR_DESCENTS_FROZEN_R5_R3__CONSOLIDATED_FIVE_OWNER_R1_LEDGER__ALL_REALIZATIONS_MISSING_CONSTRUCTION",
+  "directed_by": "Joe direct chat 2026-08-23; awareness-note canon path",
+  "bench_registry": "lab/process/ext-gr-benchmark-bench-registry.json",
+  "descent_vocabulary": "lab/process/selected-k77-ltgr8-reverse-track-descent-r6-to-r3.json",
+  "mechanism_commitment": "NONE",
+  "confirmation_credit": "NONE",
+  "descents": {
+    "EXT-GR-STRONGFIELD": {
+      "r5_frozen": {
+        "comparator_driven": true,
+        "solution_family": "two-parameter stationary axisymmetric vacuum family matching Kerr at tested orders; mass and spin only",
+        "motion": "test bodies on geodesics (minimal-coupling demand)",
+        "perturbations": "hyperbolic linear perturbation operator reproducing leading quasinormal-mode structure",
+        "comparison_observable": "leading deviation-from-Kerr coefficient within current orbital/light-bending/shadow bounds; W225's O(M^2/r^4) built residual is the first deviation order to price"
+      },
+      "r4_frozen": {
+        "comparator_driven": true,
+        "asymptotics": "asymptotically flat observed region",
+        "shadow": "photon-sphere/shadow boundary via null geodesics of the observed metric",
+        "horizon": "horizon-bearing members at tested spins; causal-boundary objects post-observation only (T-4 certificate inherited)"
+      },
+      "r3_frozen": {
+        "comparator_driven": true,
+        "evolution": "well-posed hyperbolic initial-value reduction of the observed vacuum sector (demand, not inheritance: ambient is ultrahyperbolic and ill-posed by default)",
+        "stability": "linear mode stability of the stationary family"
+      },
+      "interface": [
+        {"id": "SF-1", "demand": "effective observed vacuum equation reducing to Ricci-flatness at tested orders", "lands_on": "W225 OPEN E_s^theta operator and alpha_W coupling (OQ2-A branch-fixed source action)", "owner": "OWNER-A"},
+        {"id": "SF-2", "demand": "minimal matter-coupling/geodesic-motion owner", "lands_on": "no released owner", "owner": "OWNER-E"},
+        {"id": "SF-3", "demand": "hyperbolic well-posed observed reduction owner", "lands_on": "PD-ULTRAHYPERBOLIC-DOMAIN default ill-posedness", "owner": "OWNER-D"},
+        {"id": "SF-4", "demand": "stationary horizon-bearing background", "lands_on": "CBRS-1 parked; W229 branch-local BOUNDED_NO_GO stands", "owner": "OWNER-B"},
+        {"id": "SF-5", "demand": "second-variation/perturbation operator on that background", "lands_on": "blocked behind SF-4 and the action owner", "owner": "OWNER-B"}
+      ]
+    },
+    "EXT-GR-PPN": {
+      "r5_frozen": {
+        "comparator_driven": true,
+        "expansion": "slow-motion weak-field PPN expansion with perfect-fluid matter at PPN grade, standard orders",
+        "comparison_observable": "the ten PPN parameters at the recorded W220 bounds; no substitute parametrization after a result"
+      },
+      "r4_frozen": {
+        "comparator_driven": true,
+        "newtonian_limit": "asymptotically flat observed system with Poisson leading order and a named G_eff normalization owner",
+        "conservation": "matter stress conservation at PPN grade; recorded partial: matter-shell Ward conservation of the observed Hilbert stress at reconstruction grade"
+      },
+      "r3_frozen": {
+        "comparator_driven": true,
+        "constraints": "even scalar Hamiltonian constraint with lapse (LT-GR8 demand D1 recurs verbatim)",
+        "gauge": "standard PPN gauge fixing available"
+      },
+      "interface": [
+        {"id": "PPN-1", "demand": "derive the granted shiab-Einstein reduction R_mn-(s/2)g_mn=T_mn from the source action after observation", "lands_on": "the single owner W220 names", "owner": "OWNER-A"},
+        {"id": "PPN-2", "demand": "G_eff normalization owner", "lands_on": "normalization-owner family shared with LT-GR8 eta; bound by F1", "owner": "OWNER-C"},
+        {"id": "PPN-3", "demand": "perfect-fluid-compatible matter coupling at PPN grade", "lands_on": "no released owner", "owner": "OWNER-E"},
+        {"id": "PPN-4", "demand": "decoupling of extra long-range fields at 1PN within recorded bounds", "lands_on": "no released owner", "owner": "OWNER-A"}
+      ]
+    },
+    "EXT-GR-ROTATION": {
+      "r5_frozen": {
+        "comparator_driven": true,
+        "potential": "far-field static potential for quasi-static galactic sources",
+        "comparison_observable": "functional form of the static Green function: Newtonian 1/r leading behavior; dominant linear potential at galactic radii is the recorded H49 killer"
+      },
+      "r4_frozen": {
+        "comparator_driven": true,
+        "hierarchy": "induced Einstein term dominates the conformal piece from solar-system through galactic scales",
+        "discriminator": "action-owned coefficient ratio weighting induced Einstein versus conformal; per H24 ratio-only structure the ratio is demanded from the action while the absolute scale is the recorded structurally-free external datum"
+      },
+      "r3_frozen": {
+        "comparator_driven": true,
+        "reduction": "elliptic quasi-static reduction of the observed weak-field equations for bounded sources"
+      },
+      "interface": [
+        {"id": "ROT-1", "demand": "action-owned Einstein-versus-conformal coefficient ratio; absolute scale typed external datum", "lands_on": "H24 ratio-only structure", "owner": "OWNER-C"},
+        {"id": "ROT-2", "demand": "the shiab-Einstein reduction owner", "lands_on": "same owner as PPN-1", "owner": "OWNER-A"},
+        {"id": "ROT-3", "demand": "galactic-source matter coupling", "lands_on": "shared family with PPN-3", "owner": "OWNER-E"}
+      ]
+    }
+  },
+  "consolidated_r1_owner_ledger": {
+    "OWNER-A": {
+      "name": "branch-fixed source action deriving the shiab-Einstein reduction (E_s^theta, alpha_W)",
+      "demanded_by": ["SF-1", "PPN-1", "PPN-4", "ROT-2", "LT-GR8-D1"]
+    },
+    "OWNER-B": {
+      "name": "stationary horizon-bearing background (CBRS-1)",
+      "demanded_by": ["SF-4", "SF-5", "LT-GR8-CAUSAL-BOUNDARY-INSTANTIATION"]
+    },
+    "OWNER-C": {
+      "name": "normalization/ratio family: G_eff, entropy constant eta, Einstein-versus-conformal ratio; absolute scale = external datum (H24)",
+      "demanded_by": ["PPN-2", "ROT-1", "LT-GR8-D3-F1"]
+    },
+    "OWNER-D": {
+      "name": "well-posed observed reductions of the ultrahyperbolic ambient; boundary law",
+      "demanded_by": ["SF-3", "PPN-R3", "ROT-R3", "LT-GR8-D2"]
+    },
+    "OWNER-E": {
+      "name": "matter coupling / geodesic motion / Ward-conserving stress",
+      "demanded_by": ["SF-2", "PPN-3", "ROT-3", "LT-GR8-D4-RESIDUE"]
+    }
+  },
+  "progress_rule": "an R1-side result counts as descent progress only if it discharges or materially narrows at least one consolidated owner",
+  "instantiation": "CBRS-blocked; no background, solution, spectrum, potential or derivation is constructed",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
