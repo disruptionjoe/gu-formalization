@@ -90,6 +90,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(len(r["genericity_audit"]["missing_structures"]) >= 4, "missing genericity structures are explicit")
     check(r["corrected_target"]["minimum_surviving_conjunction"] == ["N2", "N3", "N6"], "minimum surviving conjunction is N2-N3-N6")
     check(r["corrected_target"]["full_packet"] == ["N1", "N2", "N3", "N4", "N5", "N6"], "full necessity packet is preserved")
+    check("FC-1-through-FC-7" in r["corrected_target"]["method_boundary"] and "B1-B4" in r["corrected_target"]["method_boundary"], "corrected target obeys the fitting-construction method")
     check(r["corrected_target"]["necessity_not_sufficiency"] is True, "necessity is not sufficiency")
     check(r["target_claim"] == "NONE-NOT-A-KILL", "internal correction is not a source kill")
     check(all(r[k] == "none" for k in ("ledger_verdict_change", "claim_status_change", "source_ownership_change", "canon_verdict_change", "public_posture_change")), "no scientific status boundary moves")
@@ -109,8 +110,9 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     # (probe_authorship_lint L1).
     item = next((x for x in agenda["work_items"]
                  if x["id"] == "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"), {})
-    check(item.get("priority_sequence", [""])[0].startswith("CBRS-1: decide N2 AND N3 AND N6"),
-          "agenda priority is corrected")
+    check("decide N2 AND N3 AND N6" in item.get("priority_sequence", [""])[0]
+          and "FC-1-through-FC-7" in item.get("priority_sequence", [""])[0],
+          "agenda priority is corrected and method-bounded")
     check("CBRS-1I" in item.get("latest_result", "") and "CBRS-1J" in item.get("latest_result", ""),
           "agenda latest result binds both witnesses")
 

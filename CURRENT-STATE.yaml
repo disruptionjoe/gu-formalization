@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 294e20a6182ac4adfd67621e9225ce6a31e2581e
+revision_basis: 1a6a2349a7eefcbca691bc6969a561dd073eded2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -33,18 +33,28 @@ current_result:
     230650/230610, kernel exactly the forty-dimensional broken diagonal Spin
     orbit), CBRS-1U for momentum closure, CBRS-1I for globalization while
     target-blind and fully point-stationary, and CBRS-1Y plus CBRS-1AA for
-    ownership. The sharpest datum is CBRS-1Y, the one candidate that closed
-    the metric system: it closed only through a density-keyed second jet, so
-    the corpus records a direct tension between metric closure and
-    target-blindness. Whether that tension is generic is OPEN and is now the
-    lane's target, reachable without new source material because it is a
-    question about the released material rather than a request for more of it.
-    Necessity is not sufficiency, nothing here says an admissible packet
-    exists, and the terminal-exhaustion write-up remains refused for the
-    stated reason that its required statement is exactly what is open.
+    ownership. Same-day hostile review refutes the proposed universal N2/N6
+    incompatibility: CBRS-1I is target-blind and has zero intrinsic metric
+    rows on both nonzero point branches. Mathematical genericity was also
+    undefined because no action-class universe, parameter space, topology or
+    measure was declared. CBRS-1Y remains a sharp class-specific tension: its
+    one-function radial metric closes only through a density-keyed second jet.
+    CBRS-1J supplies the next obstruction on the actual counterexample: both
+    complete 230650-dimensional Hessians have rank 230650 and nullity zero, so
+    N3 fails. The smallest surviving target is therefore N2 AND N3 AND N6 in
+    one pre-density class, still embedded in the full N1-N6 packet. Necessity
+    is not sufficiency, nothing here says an admissible packet exists, and the
+    terminal-exhaustion write-up remains refused.
     Separately, council item A1 is installed: maintenance may not be a
     scheduled run's first choice, and a run selecting it must log which
     delta-moving and ledger-moving arcs it tried and why each was unavailable.
+    The later reverse-scaffold process council and FITTING_CONSTRUCTION method
+    now sharpen execution: every selected rung ends in a fitting construction
+    or a precise impossibility, never another demand interface; every fitting
+    construction passes FC-1 through FC-7, including a nontriviality witness;
+    and B1, B3 and B4 are exhausted before B2/source-action work. The corrected
+    N2/N3/N6 target is a CBRS scientific question, not permission to bypass
+    that disposition and admission order.
 
     Ledger v0.261 integrates the two earlier cursor-ordered conditional
     benchmark deltas. Three accepted gravitational targets are appended:
@@ -2722,6 +2732,11 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/cbrs1-n2-n6-counterexample-and-question-correction-2026-08-23.md
+    - lab/process/cbrs1-n2-n6-counterexample-and-question-correction.json
+    - tests/channel-swings/cbrs1_n2_n6_counterexample_and_question_correction_probe.py
+    - explorations/conditional-build/cbrs1-owner-necessity-theorem-2026-08-23.md
+    - lab/process/cbrs1-owner-necessity-theorem.json
     - explorations/conditional-build/conditional-ledger-verdict-context-integration-2026-08-23.md
     - explorations/conditional-build/conditional-physics-ledger-v0.262.md
     - lab/process/conditional-ledger-verdict-context-integration.json
@@ -3024,10 +3039,12 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  In the released material, are N2 (full intrinsic metric stationarity) and N6
-  (target-blind action ownership) generically incompatible, or can a typed
-  action class satisfy both while also clearing N1, N3, N4 and N5? A proof or
-  counterexample must preserve the six witnessed necessities and cannot infer
+  Can one pre-density class simultaneously satisfy N2 (full intrinsic metric
+  stationarity), N3 (a nonzero primitive/metric-admissible non-orbit tangent),
+  and N6 (target-blind action ownership), then clear N1, N4 and N5? Universal
+  N2/N6 incompatibility is refuted by CBRS-1I at exact point scope; CBRS-1J
+  blocks that witness at N3. A proof or counterexample must declare its action-
+  class universe and preserve the six witnessed necessities without inferring
   sufficiency from their conjunction. If a compliant owner packet exists, can
   it then proceed through the observed 3+1 bridge, interacting physical
   quotient, relative index and held-out comparison sequence, including the
@@ -3046,11 +3063,20 @@ contribution_path:
 next_condition: >-
   CBRS-1 is reposed: do not open another candidate class as the lane's primary
   work. Any candidate must now be presented against the six necessary
-  conditions N1-N6 before it is built, and the lane's live target is to prove
-  or refute that N2 and N6 are generically incompatible in the released
-  material. Necessity is not sufficiency; do not read N1-N6 as closing CBRS-1
-  and do not write a terminal exhaustion result while the N2/N6 question is
-  open. Scheduled runs follow the A1 selection rule: attempt a delta-moving
+  conditions N1-N6 before it is built. Universal N2/N6 incompatibility is
+  refuted by CBRS-1I; do not restore that question or infer generic
+  compatibility from one witness. The lane's live target is N2 AND N3 AND N6
+  in one pre-density class: either prove a typed obstruction over an explicitly
+  declared action-class universe or construct a target-blind metric-stationary
+  class with a certified non-orbit tangent, then continue through N1, N4 and
+  N5. Necessity is not sufficiency; do not read N1-N6 as closing CBRS-1 or
+  write a terminal exhaustion result while the corrected conjunction is open.
+  Apply the FITTING_CONSTRUCTION and phenomenology-disposition methods before
+  selecting the concrete packet: classify its bucket, end the rung in a
+  construction or precise impossibility rather than a demand, enforce FC-1
+  through FC-7, and do not return to B2/source-action work while B1, B3 or B4
+  remains unattempted.
+  Scheduled runs follow the A1 selection rule: attempt a delta-moving
   arc, then a ledger-moving arc, and log why each was unavailable before
   selecting maintenance.
   Ledger v0.262 is current. Do not re-integrate the gravitational benchmark,
@@ -3094,8 +3120,9 @@ next_condition: >-
   to the substantial frontier.
   Rebuild the substantial frontier from the reconciled August 23 agenda. Do
   not execute L7, L8, L9, T3 or either L10 reconciliation as a newly released
-  fallback: each is complete at its recorded ceiling. Park CBRS-1 until a
-  materially distinct target-blind owner packet arrives; keep CBRS-2 blocked
+  fallback: each is complete at its recorded ceiling. Do not grind another
+  primary CBRS-1 candidate absent a materially distinct target-blind owner
+  packet with an explicit N3 mechanism; keep CBRS-2 blocked
   on an actual local solution, C1 on its seven-axis source packet, B5 on its
   missing owner, P-OBS on its external or finite-redshift wake, GU class
   realization on OPERATOR-END-PENCIL and anomaly T3 on B5/SRC-COH-1. Reopen

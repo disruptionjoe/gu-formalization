@@ -18,12 +18,12 @@ updated_at: "2026-08-23"
 > v0.260's CT-2 red carry reviewed context in v0.262, with exact historical
 > ledger, row and successor-context pins in the append-only repair registry;
 > v0.260 and the zero baseline are unchanged. Do not re-integrate the delta or
-> weaken a repair pin. The next construction target remains the CBRS-1 N2/N6
-> generic-incompatibility question below. See
+> weaken a repair pin. The next construction target is the corrected CBRS-1
+> N2/N3/N6 conjunction below. See
 > `explorations/conditional-build/conditional-ledger-verdict-context-integration-2026-08-23.md`.
 
-> **2026-08-23 CBRS-1 IS REPOSED: SIX NECESSARY CONDITIONS, EACH WITNESSED,
-> AND ONE OPEN QUESTION THAT DECIDES THE LANE.** Classifying the twenty-seven
+> **2026-08-23 HOSTILE CORRECTION: UNIVERSAL N2/N6 INCOMPATIBILITY IS REFUTED;
+> THE SURVIVING TARGET IS N2 AND N3 AND N6.** Classifying the twenty-seven
 > recorded CBRS-1 closes yields six jointly necessary conditions on any
 > admissible owner packet — **N1** point closure, **N2** full intrinsic
 > `MET(X)` stationarity, **N3** a non-orbit tangent, **N4** primitive momentum
@@ -31,18 +31,28 @@ updated_at: "2026-08-23"
 > individually binding with a recorded witness that passes the conditions
 > upstream of it and fails exactly that one (1M, 1P, 1U, 1I, and 1Y/1AA). A
 > candidate is therefore **prosecutable before it is built**. The sharpest
-> datum is `CBRS-1Y`, the one candidate that *closed* the metric system: it
-> closed **only** through a density-keyed second jet
-> (`two_density_universality: False`), so the corpus records a direct tension
-> between **N2 and N6**. **Whether that tension is generic is OPEN, and it is
-> now the lane's target** — reachable without new source material, because it
-> is a question about the released material rather than a request for more of
-> it. **Necessity is not sufficiency:** nothing here says an admissible packet
-> exists, and the terminal-exhaustion write-up stays refused because its
-> required statement is exactly what is open. Council item **A1** is also
+> datum `CBRS-1Y` remains a class-specific tension: its one-function radial
+> metric closes only through a density-keyed second jet. It is not a generic
+> theorem. `CBRS-1I` is already target-blind and intrinsically metric-
+> stationary on both nonzero point branches, so it exactly refutes universal
+> N2/N6 incompatibility at its reconstruction-grade point ceiling. `CBRS-1J`
+> then gives the real obstruction on that witness: both complete
+> 230650-dimensional Hessians are full rank, so N3 fails. The live target is
+> therefore **N2 AND N3 AND N6 in one pre-density class**, followed by N1, N4
+> and N5. Do not claim generic compatibility: the corpus declares no action-
+> class universe, topology or measure. **Necessity is not sufficiency:**
+> nothing here says an admissible packet exists, and the terminal-exhaustion
+> write-up stays refused. Under the later `FITTING_CONSTRUCTION` and B1-B4
+> methods, a selected rung must end in a fitting construction or a precise
+> impossibility, satisfy FC-1 through FC-7 including a nontriviality witness,
+> and respect the rule that B1/B3/B4 are exhausted before B2/source-action
+> work. The corrected conjunction is a scientific target, not a bypass around
+> that order. Council item **A1** is also
 > installed: maintenance may not be a scheduled run's first choice, and a run
 > selecting it must log which delta-moving and ledger-moving arcs it tried.
 > See
+> `explorations/conditional-build/cbrs1-n2-n6-counterexample-and-question-correction-2026-08-23.md`
+> and the corrected
 > `explorations/conditional-build/cbrs1-owner-necessity-theorem-2026-08-23.md`.
 
 > **2026-08-23 LEDGER v0.261 INTEGRATES THE TWO EARLIER BENCHMARK DELTAS.**

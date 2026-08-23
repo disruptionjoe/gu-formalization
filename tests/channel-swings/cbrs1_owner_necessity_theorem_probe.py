@@ -38,7 +38,7 @@ WITNESS_FACTS = {
     "CBRS-1M": ["FAIL_CONSTANT_GRADE_METRIC_STATIONARITY", "PASS_COMPLETE_POINT_OWNERS"],
     "CBRS-1P": ["230650", "230610", "EXACTLY_THE_40"],
     "CBRS-1U": ["OBSTRUCTED_BY_NONZERO_PRIMITIVE_MOMENTUM_DIVERGENCE"],
-    "CBRS-1I": ["OPEN__CONSTANT_POINTWISE_RECONSTRUCTION", "'target_blind': True"],
+    "CBRS-1I": ["OPEN__CONSTANT_POINTWISE_RECONSTRUCTION", "'target_blind': True", "INTRINSIC_METRIC_STATIONARITY_PASS"],
     "CBRS-1Y": ["'two_density_universality': False", "'density_fitted_local_solution_exists': True"],
     "CBRS-1AA": ["'overall_coefficient_source_owned': False"],
 }
@@ -105,17 +105,24 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         for fact in facts:
             check(fact in blob, f"{name} live registry still records: {fact}")
 
-    # ---- the tension is recorded as open, not as a result ----------------
+    # ---- the same-day N2/N6 correction is carried -------------------------
     tension = data["n2_n6_tension"]
-    check(tension["status"].startswith("OPEN"), "the N2/N6 tension is OPEN")
+    check(tension["status"].startswith("UNIVERSAL_INCOMPATIBILITY_REFUTED"),
+          "universal N2/N6 incompatibility is refuted")
     check(tension["witness"] == "CBRS-1Y", "the tension witness is CBRS-1Y")
-    check("generic" in tension["open_question"], "the open question asks about genericity")
+    check(tension["counterexample"] == "CBRS-1I", "the counterexample is CBRS-1I")
+    check("undefined" in tension["genericity_audit"], "genericity boundary is explicit")
+    check("N3" in tension["open_question"], "the corrected open question includes N3")
     check(len(tension.get("corroboration", [])) >= 2, "corroborating closes recorded")
+    corrected = data["corrected_open_question"]
+    check(corrected["minimum_conjunction"] == ["N2", "N3", "N6"],
+          "minimum surviving conjunction is N2-N3-N6")
 
     # ---- necessity is not sold as sufficiency ----------------------------
     dne = " ".join(data["does_not_establish"])
     check("SUFFICIENCY" in dne or "sufficiency" in dne, "sufficiency explicitly disclaimed")
-    check("cannot supply an owner" in dne, "unsatisfiability explicitly disclaimed")
+    check("Generic compatibility" in dne or "generic compatibility" in dne,
+          "generic compatibility explicitly disclaimed")
     check(bool(data.get("scope_caveat")) and "PD-STRUCTURE-TRANSPORT" in data["scope_caveat"],
           "scope caveat cites the transport discipline")
 
@@ -138,7 +145,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("```gu-typed-objects" in result, "typed objects")
     check("Does not establish" in result, "doc carries the non-establishment section")
     check("necessity is not sufficiency" in result_flat, "doc states necessity is not sufficiency")
-    check("prove or refute" in result_flat, "doc states the reposed target")
+    check("N2 ∧ N3 ∧ N6" in result_flat, "doc states the corrected target")
     for phrase in FORBIDDEN_SUMMARY_GRAMMAR:
         check(phrase not in result_flat, f"forbidden grammar absent: {phrase}")
     return checks, failures
@@ -180,12 +187,16 @@ def selftest() -> int:
     mutations.append(("tension-witness-drift", "CBRS-1Y live registry still records: 'two_density_universality': False", changed))
 
     changed = copy.deepcopy(baseline)
-    changed["data"]["n2_n6_tension"]["status"] = "PROVED_UNSATISFIABLE"
-    mutations.append(("tension-overclaim", "the N2/N6 tension is OPEN", changed))
+    changed["data"]["n2_n6_tension"]["status"] = "OPEN__NOT_ANSWERED_BY_THE_CORPUS"
+    mutations.append(("correction-reverted", "universal N2/N6 incompatibility is refuted", changed))
 
     changed = copy.deepcopy(baseline)
     changed["data"]["does_not_establish"] = ["nothing"]
     mutations.append(("sufficiency-smuggle", "sufficiency explicitly disclaimed", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["data"]["corrected_open_question"]["minimum_conjunction"] = ["N2", "N6"]
+    mutations.append(("old-question-restored", "minimum surviving conjunction is N2-N3-N6", changed))
 
     changed = copy.deepcopy(baseline)
     changed["data"]["council_discriminator_outcome"]["terminal_writeup"] = "NOW_WARRANTED"

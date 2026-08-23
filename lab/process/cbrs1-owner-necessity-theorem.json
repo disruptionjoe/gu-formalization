@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "cbrs1_owner_necessity_classification_registry",
   "created": "2026-08-23",
-  "status": "SIX_JOINTLY_NECESSARY_CONDITIONS_EACH_INDIVIDUALLY_WITNESSED__N2_N6_TENSION_OPEN__NECESSITY_NOT_SUFFICIENCY",
+  "status": "SIX_JOINTLY_NECESSARY_CONDITIONS_EACH_INDIVIDUALLY_WITNESSED__UNIVERSAL_N2_N6_INCOMPATIBILITY_REFUTED__N2_N3_N6_TARGET_OPEN__NECESSITY_NOT_SUFFICIENCY",
   "directed_by": "Joe direct chat 2026-08-23; velocity council item A2, the designated discriminator",
   "target_claim": "NONE-NOT-A-KILL",
   "target_claim_note": "classifies recorded internal obstruction results; kills no source claim and no route",
@@ -42,30 +42,42 @@
   ],
   "bindingness_consequence": "each condition has a witness that satisfies the conditions upstream of it and fails exactly that one, so no condition may be dropped: a demand specification omitting any of the six admits a candidate the corpus has already closed",
   "n2_n6_tension": {
-    "statement": "the corpus records an instance where metric closure was achievable only through a density-keyed second jet, i.e. only by violating target-blindness",
+    "statement": "CBRS-1Y records a class-specific instance where metric closure was achievable only through a density-keyed second jet, i.e. only by violating target-blindness; CBRS-1I independently realizes N2 and N6 together at reconstruction-grade point scope",
     "witness": "CBRS-1Y",
     "corroboration": ["CBRS-1Z failed target-blind primitive owner admission for two further candidates", "CBRS-1AA and CBRS-1AB closed the remaining normalization routes for lack of an owned coefficient"],
-    "open_question": "is the N2 AND N6 tension generic -- is metric closure within the released material achievable only by target-keyed data -- or is CBRS-1Y a feature of its particular one-function radial class?",
-    "status": "OPEN__NOT_ANSWERED_BY_THE_CORPUS"
+    "counterexample": "CBRS-1I",
+    "counterexample_registry": "lab/process/selected-k77-cbrs1i-chiral-null-point-class.json",
+    "counterexample_scope": "target-blind complete point translation, Spin-connection, primitive-epsilon and intrinsic metric stationarity at two constant pointwise branches; not nonhomogeneous, global, observed or physical",
+    "genericity_audit": "universal incompatibility is refuted; open-dense, residual or measure-one genericity is undefined because the corpus declares no action-class universe, parameter space, topology or measure",
+    "open_question": "can N2 metric stationarity, N3 a nonzero primitive/metric-admissible non-orbit tangent, and N6 target-blind action ownership be realized together in one pre-density class, then extended through N1, N4 and N5?",
+    "status": "UNIVERSAL_INCOMPATIBILITY_REFUTED__CLASS_SPECIFIC_CBRS1Y_TENSION_RETAINED__N2_N3_N6_OPEN"
+  },
+  "corrected_open_question": {
+    "minimum_conjunction": ["N2", "N3", "N6"],
+    "reason": "CBRS-1I realizes N2 and N6 together; CBRS-1J proves the same frozen class fails N3 with complete Hessian rank 230650 and nullity zero",
+    "method_boundary": "when bucket-admitted, apply B1-B4 exhaustion and require each rung to end in an FC-1-through-FC-7 FITTING_CONSTRUCTION or a precise impossibility",
+    "full_packet": ["N1", "N2", "N3", "N4", "N5", "N6"],
+    "correction_evidence": "lab/process/cbrs1-n2-n6-counterexample-and-question-correction.json"
   },
   "establishes": [
     "six jointly necessary conditions with named binding witnesses",
     "a demand specification that makes future candidates prosecutable before they are built",
-    "that the twenty-seven closes form a structured obstruction set with one sharp tension at its centre"
+    "that the twenty-seven closes form a structured obstruction set whose smallest surviving conjunction target is N2 AND N3 AND N6"
   ],
   "does_not_establish": [
     "SUFFICIENCY: nothing here says a packet satisfying N1-N6 exists or would be admissible on further grounds",
-    "that the released material cannot supply an owner -- that is the open question, not a result",
+    "generic compatibility of N2 and N6 -- one counterexample proves existence, not genericity",
+    "that the released material can or cannot satisfy N2, N3 and N6 together -- that is the corrected open question",
     "any verdict, canon or claim-status movement"
   ],
   "scope_caveat": "necessity conditions inherit the scope of the witnesses establishing them; each witness carries its own frozen class, branch and signature horn, and a candidate on a materially different carrier or real form may escape a condition by changing the object rather than solving the problem, in which case PD-STRUCTURE-TRANSPORT applies and the escape must be typed",
   "council_discriminator_outcome": {
     "council_item": "A2",
-    "verdict": "PARTIAL__NARROWS_RATHER_THAN_SETTLES",
-    "lens_8_3_terminus": "NOT_YET_VINDICATED -- the corpus shows a tension, not a proof of unsatisfiability, and one class is not a theorem about the released material",
+    "verdict": "PARTIAL__N2_N6_DISCRIMINATOR_REFUTED__N2_N3_N6_TARGET_SURVIVES",
+    "lens_8_3_terminus": "NOT_YET_VINDICATED -- CBRS-1I refutes universal N2-N6 incompatibility, while CBRS-1J blocks that witness at N3; the full packet remains open",
     "lens_3_2_method": "VINDICATED -- the necessity conversion was available, worth doing, and produced a sharper object than another candidate grind",
-    "terminal_writeup": "REMAINS_REFUSED__NOW_FOR_A_STATED_REASON: the exact statement it would need, that N2 AND N6 is unsatisfiable in the released material, is precisely what is open",
-    "lane_reposed": "the next question is no longer 'find another candidate' but 'prove or refute that N2 AND N6 is generically unsatisfiable', which is reachable without new source material because it is a question about the released material rather than a request for more of it"
+    "terminal_writeup": "REMAINS_REFUSED__UNIVERSAL_N2_N6_UNSATISFIABILITY_IS_FALSE_AND_N2_N3_N6_PLUS_THE_FULL_PACKET_REMAIN_OPEN",
+    "lane_reposed": "the next question is no longer 'find another candidate' or 'prove N2-N6 incompatibility' but decide N2 AND N3 AND N6 in a pre-density class, then preserve the full N1-N6 packet"
   },
   "ledger_verdict_change": "none",
   "claim_status_change": "none",

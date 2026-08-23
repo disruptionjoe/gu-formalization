@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "cbrs1_n2_n6_counterexample_and_question_correction_registry",
+  "created": "2026-08-23",
+  "status": "UNIVERSAL_N2_N6_INCOMPATIBILITY_REFUTED_BY_CBRS1I__GENERICITY_UNDEFINED__N2_N3_N6_AND_FULL_PACKET_REMAIN_OPEN",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "corrects a repository-internal proposed theorem; kills no source claim and no scientific route",
+  "logical_result": {
+    "proposed_statement": "no released CBRS-1 class can satisfy N2 full intrinsic metric stationarity and N6 target-blind action ownership together",
+    "verdict": "REFUTED_BY_EXISTING_COUNTEREXAMPLE",
+    "counterexample": "CBRS-1I",
+    "logic": "one valid existential witness refutes universal incompatibility"
+  },
+  "counterexample": {
+    "registry": "lab/process/selected-k77-cbrs1i-chiral-null-point-class.json",
+    "frozen_class": "T_i=-(1/208)*gamma_i*(1 plus-or-minus Omega)",
+    "target_blind": true,
+    "nonzero_branches": 2,
+    "intrinsic_metric_rows_zero": true,
+    "point_class_status": "COMPLETE_POINT_TRANSLATION_SPIN_CONNECTION_PRIMITIVE_EPSILON_AND_INTRINSIC_METRIC_STATIONARITY_PASS",
+    "conditions_realized_at_point_scope": ["N1", "N2", "N4", "N6"],
+    "global_vacuum_status": "OPEN__CONSTANT_POINTWISE_RECONSTRUCTION_IS_NOT_SPACETIME_NONHOMOGENEOUS_OR_GLOBAL",
+    "claim_ceiling": "EXACT_RECONSTRUCTION_GRADE_POINTWISE_METRIC_STATIONARY_CLASS__NOT_SOURCE_OWNED_GLOBAL_OBSERVED_OR_PHYSICAL"
+  },
+  "downstream_obstruction": {
+    "registry": "lab/process/selected-k77-cbrs1j-complete-tangent.json",
+    "same_frozen_class": true,
+    "target_blind": true,
+    "pointwise_metric_stationary": true,
+    "complete_hessian_dimension": 230650,
+    "complete_hessian_rank_each_sign": 230650,
+    "complete_hessian_nullity_each_sign": 0,
+    "primitive_quotient_dimension": 0,
+    "first_symbol_domain_dimension": 0,
+    "condition_failed": "N3",
+    "meaning": "the counterexample realizes N2 and N6 but has no non-orbit tangent and cannot continue as this frozen class"
+  },
+  "genericity_audit": {
+    "universal_reading": "REFUTED",
+    "open_dense_or_measure_one_reading": "UNDEFINED",
+    "missing_structures": [
+      "declared universe of admissible action classes",
+      "parameter space",
+      "topology or algebraic family",
+      "measure or residual/open-dense predicate"
+    ],
+    "frequency_in_selected_corpus_is_not_genericity": true,
+    "cbrs1y_disposition": "CLASS_SPECIFIC_N2_N6_TENSION_RETAINED__NO_TRANSFER_OVER_CBRS1I"
+  },
+  "corrected_target": {
+    "minimum_surviving_conjunction": ["N2", "N3", "N6"],
+    "statement": "decide whether a target-blind action-owned class can be intrinsically metric-stationary while retaining a nonzero primitive/metric-admissible non-orbit tangent",
+    "full_packet": ["N1", "N2", "N3", "N4", "N5", "N6"],
+    "positive_route": "construct one pre-density target-blind metric-stationary class with a certified non-orbit tangent, then continue through N1, N4 and N5",
+    "negative_route": "prove a typed N2-N3-N6 obstruction over an explicitly declared released action-class universe",
+    "method_boundary": "admit a concrete B1-B4 bucket before work; every rung ends in an FC-1-through-FC-7 FITTING_CONSTRUCTION or a precise impossibility, with B1, B3 and B4 exhausted before B2 source-action work",
+    "necessity_not_sufficiency": true
+  },
+  "hostile_review": {
+    "strongest_overclaim": "the witness does not prove generic compatibility or a global physical vacuum",
+    "strongest_contrary_objection": "pointwise evidence does not answer the full nonhomogeneous packet; that adds N5 rather than restoring N2-N6 incompatibility",
+    "strongest_mistyping": "the complete field tangent and intrinsic metric Euler row are different objects; CBRS-1I closes the latter and CBRS-1J kills the former",
+    "weakest_propagation_seam": "the necessity artifact listed CBRS-1I as satisfying N2 and N6 while later asking whether their conjunction was unsatisfiable"
+  },
+  "does_not_establish": [
+    "generic compatibility of N2 and N6",
+    "existence of an N2-N3-N6 witness",
+    "sufficiency of N1-N6",
+    "a nonhomogeneous global observed or physical vacuum",
+    "a source claim or ledger verdict change"
+  ],
+  "owner_necessity_correction": "lab/process/cbrs1-owner-necessity-theorem.json",
+  "evidence": "explorations/conditional-build/cbrs1-n2-n6-counterexample-and-question-correction-2026-08-23.md",
+  "probe": "tests/channel-swings/cbrs1_n2_n6_counterexample_and_question_correction_probe.py",
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

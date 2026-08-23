@@ -9,6 +9,7 @@ probe: tests/channel-swings/cbrs1_owner_necessity_theorem_probe.py
 grade: "EXACT CLASSIFICATION OVER THE RECORDED CBRS-1 CORPUS; NECESSITY ONLY, NOT SUFFICIENCY; NO NEW COMPUTATION, NO ACTION BUILT, NO VERDICT MOVED"
 target_claim: NONE-NOT-A-KILL
 target_claim_note: "This artifact classifies twenty-seven recorded repository obstruction results into necessary conditions. It kills no source claim and no route; it closes no route that was open and reopens none that was closed."
+correction_note: "Same-day hostile follow-up found that CBRS-1I already realizes N2 and N6 together at point scope. Universal N2/N6 incompatibility is refuted, mathematical genericity was undefined, and the live target is corrected to N2 AND N3 AND N6 inside the full N1-N6 packet."
 canon_verdict_change: none
 ---
 
@@ -31,12 +32,12 @@ structure is a demand specification plus one precisely-stated open question.
 
 ```gu-typed-objects
 result: six jointly necessary conditions on any admissible CBRS-1 owner packet, each with a recorded witness proving it is individually binding, plus the N2-N6 tension and the exact question it poses
-carrier: the recorded CBRS-1 corpus (27 registries) LAYER=classification CHIRALITY=N/A
+carrier: the recorded CBRS-1 corpus (27 registries) LAYER=ambient CHIRALITY=N/A
 pairing: each condition paired to the witness that isolates it ON=recorded-registry-fields
 real_structure: N/A; no carrier is interpreted here
 grading: classification/necessity at registry grade; every cited number is quoted from a recorded registry, none is recomputed
-action_owner: none -- no action, coefficient or field content is introduced
-target: the structure of the CBRS-1 obstruction corpus MAP-TYPE=classification
+action_owner: N/A -- no action, coefficient or field content is introduced
+target: the structure of the CBRS-1 obstruction corpus MAP-TYPE=not-a-map
 ```
 
 ## Why this exists
@@ -87,7 +88,7 @@ Because each condition has such a witness, **none may be dropped**: a demand
 specification that omits any one of the six admits a candidate the corpus has
 already closed.
 
-## The corollary that matters — the N2/N6 tension
+## The class-specific N2/N6 tension and its same-day correction
 
 `CBRS-1Y` is the sharpest datum in the corpus, and it is sharp precisely
 because it is the one candidate that *succeeded* at the condition everything
@@ -97,16 +98,26 @@ target. `two_density_universality` is recorded `False`: the closure is not
 universal across densities, it is fitted to one.
 
 So the corpus contains a recorded instance in which **N2 and N6 are in direct
-tension**: the only route to metric closure found in that class ran through a
-violation of target-blindness. `CBRS-1Z` then failed target-blind primitive
-owner admission for two further candidates, and `CBRS-1AA`/`CBRS-1AB` closed
-the remaining normalization routes for lack of an owned coefficient.
+tension within the frozen CBRS-1Y class**: its only route to metric closure ran
+through a violation of target-blindness. `CBRS-1Z` then failed target-blind
+primitive owner admission for two further candidates, and
+`CBRS-1AA`/`CBRS-1AB` closed the remaining normalization routes for lack of an
+owned coefficient.
 
-**The open question, stated exactly:** is the `N2 ∧ N6` tension *generic* —
-is metric closure within the released material achievable only by
-target-keyed data — or is `CBRS-1Y` a feature of its particular one-function
-radial class? Nothing in the corpus answers this, and it is the question whose
-answer decides the lane.
+The first version of this artifact overextended that class-specific fact into
+a proposed generic-incompatibility question. The same artifact already carried
+the counterexample: `CBRS-1I` records `target_blind: true`, complete point
+stationarity, and zero intrinsic metric rows on both nonzero branches. Thus
+**universal N2/N6 incompatibility is refuted** at exact reconstruction-grade
+point scope. Open-dense, residual, or measure-one “genericity” is also
+undefined because the corpus supplies no universe of action classes, parameter
+space, topology, or measure.
+
+`CBRS-1J` identifies the actual next obstruction on the same witness: its
+complete `230650`-dimensional Hessian has rank `230650` and nullity zero for
+both signs, so N3 fails. **The corrected open question is whether
+`N2 ∧ N3 ∧ N6` can be realized in one pre-density class, then carried through
+N1, N4, and N5.**
 
 ## What this does and does not establish
 
@@ -114,13 +125,14 @@ answer decides the lane.
 packet, each with a named binding witness. (ii) A demand specification a future
 candidate must discharge in full, which makes candidates prosecutable before
 they are built rather than after. (iii) That the twenty-seven closes are not a
-scatter of unrelated failures but a structured obstruction set with a single
-sharp tension at its centre.
+scatter of unrelated failures but a structured obstruction set whose smallest
+surviving conjunction target is `N2 ∧ N3 ∧ N6`.
 
 **Does not establish.** (i) **Sufficiency** — nothing here says a packet
-satisfying N1–N6 exists or would be admissible on further grounds. (ii) That
-the released material cannot supply an owner; that is the open question, not a
-result. (iii) Any verdict, canon, or claim-status movement — none occurs.
+satisfying N1–N6 exists or would be admissible on further grounds. (ii) Generic
+compatibility of N2 and N6: one counterexample proves existence at its exact
+scope, not genericity. (iii) Whether `N2 ∧ N3 ∧ N6` is satisfiable in a single
+class. (iv) Any verdict, canon, or claim-status movement — none occurs.
 
 Note also what this does *not* license: the necessity conditions are
 extracted from the recorded corpus and inherit its scope. Each witness carries
@@ -136,23 +148,22 @@ new source material) unresolved against Lens 6.2 and Lens 3.2, and designated
 this work the discriminator. It discriminates **partially**, and the honest
 report is that it narrows rather than settles:
 
-- Lens 8.3 is **not yet** vindicated: the corpus shows a tension, not a
-  proof of unsatisfiability, and one class is not a theorem about the
-  released material.
+- Lens 8.3 is **not yet** vindicated: universal N2/N6 incompatibility is false
+  by CBRS-1I, while CBRS-1J blocks that witness at N3. The full packet remains
+  open.
 - Lens 3.2 is **vindicated on method**: the necessity conversion was
   available, it was worth doing, and it produced a sharper object than another
   candidate grind would have.
-- The terminal-exhaustion write-up remains **refused**, and now for a stated
-  reason rather than a procedural one: the exact statement it would need —
-  that `N2 ∧ N6` is unsatisfiable in the released material — is precisely what
-  is open.
+- The terminal-exhaustion write-up remains **refused**: the proposed N2/N6
+  unsatisfiability statement is false, and the stronger N2/N3/N6 plus full
+  N1–N6 obstruction has not been proved.
 
 **The lane's next question is therefore no longer "find another candidate."
-It is: prove or refute that `N2 ∧ N6` is generically unsatisfiable.** That is
-a materially different and much better-posed target than the one CBRS-1 has
-been carrying, and it is reachable without waiting on new source material,
-because it is a question *about* the released material rather than a request
-for more of it.
+It is: decide whether `N2 ∧ N3 ∧ N6` is realizable in one pre-density class,
+then preserve all six necessary conditions.** That is a materially different
+and better-posed target than another untyped candidate grind, and it is
+reachable without pretending the selected corpus defines mathematical
+genericity.
 
 ## Route selection and hostile review
 
@@ -170,10 +181,11 @@ than that in one specific way: the **individual bindingness** claim is not a
 restatement, because it required finding, for each condition, a witness that
 passed the others — and two of those witnesses (`CBRS-1I` and `CBRS-1Y`) are
 partial *successes* whose value was invisible while the corpus was read as a
-list of kills. The second attack is that the N2/N6 tension is an
-over-reading of one class; that is conceded and is exactly why the tension is
-recorded as an open question rather than a result. The third is that this
-should have applied the conditions to close CBRS-1 outright; it must not,
+list of kills. The second attack is that the N2/N6 tension was over-read from
+one class; that attack succeeds. CBRS-1I is an exact counterexample to the
+universal reading, and no structure defining mathematical genericity was
+present. The third is that this should have applied the conditions to close
+CBRS-1 outright; it must not,
 because necessity is not sufficiency and closing a lane on necessary
 conditions alone would be the inverse of the error this repository polices.
 
