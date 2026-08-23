@@ -7,6 +7,33 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 REQUIREMENT-SURFACE RECONCILIATION: ONE COVERAGE GAP CLOSED,
+> ONE DECISIVE-COMPUTATION POINTER ANNOTATED.** Auditing the new demand
+> ledger against the pre-existing surface found that the consolidated
+> source-action requirements spec had **no row for `alpha_W`** (the gravity
+> `R^Y.B` coefficient) under any of its four recorded aliases — its source
+> set omitted the path4 line — even though that coefficient is one of the
+> two named remaining free scalars, is the single term W225 could not
+> settle, and is demanded independently by the new ledger as `ROT-1`. Row
+> **`SA-G10`** is added at `FIT (gated)`; the spec moves to 28 rows / 11 FIT
+> and its consistency test is updated and passing. **No new freedom is
+> created** — the freedom was already computed elsewhere; the tally was
+> undercounting it. Separately, the constraint-intersection map's closing
+> "single highest-leverage decisive computation" (does dark energy's
+> `theta`-coupling also give the Branch-3 Willmore cancellation?) is
+> bearing-answered twice in the direction that **dissolves** the
+> over-determination it was designed to exploit — its same-day wave-66
+> sibling (distinct operators of the one `theta` ⇒ co-presence, not a shared
+> number) and W236 (`theta = 0` in the `Psi = 0` vacuum, conditional on the
+> W154 posit, conservative IG branch and imported Schwarzschild slice). A
+> `[!CAUTION]` notice now carries both, bounded to the theta sector; the
+> map's gauge-sector over-determination is untouched and no verdict, claim
+> status or canon moves. Today's `OWNER-C` is self-corrected: triangulation
+> counts independent demands, not joint discharge. **Honest yield:** the
+> descents added one coverage item and otherwise re-indexed known
+> constraint — no new physics constraint on the source action. See
+> `explorations/conditional-build/source-action-requirement-surface-reconciliation-2026-08-23.md`.
+
 > **2026-08-23 THE LAST TWO LEGS ARE BENCHED AND DESCENDED; THE OWNER LEDGER
 > REACHES SEVEN.** `EXT-SM-STRUCTURE` (observed gauge structure at tested
 > accuracy — group, representations/hypercharge, anomaly freedom, three

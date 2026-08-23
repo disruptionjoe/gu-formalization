@@ -93,7 +93,9 @@
     },
     "OWNER-C": {
       "name": "normalization/ratio family: G_eff, entropy constant eta, Einstein-versus-conformal ratio, dark-energy amplitude; absolute scale = external datum (H24)",
-      "demanded_by": ["PPN-2", "ROT-1", "LT-GR8-D3-F1", "COS-2"]
+      "demanded_by": ["PPN-2", "ROT-1", "LT-GR8-D3-F1", "COS-2"],
+      "triangulation_caveat_2026_08_23": "triangulation counts INDEPENDENT DEMANDS on a family; it does NOT assert that one datum discharges them jointly. The recorded state is co-presence, not a shared number: the DE-EOS curvature vertex and the gravity-source matter vertex are distinct operators of the one theta and no shared-theta Ward identity pins their relative weight (path4-wave2-alphaW-parameter-free-2026-07-11), and under W236's stated conditions the Psi=0 gravitational vacuum has theta=0, so the gravity leg places no constraint on the theta coupling there. The gravity component of this family is spec row SA-G10, FIT (gated).",
+      "spec_rows": ["SA-G2", "SA-G3", "SA-G4", "SA-G10"]
     },
     "OWNER-D": {
       "name": "well-posed observed reductions of the ultrahyperbolic ambient; boundary law",

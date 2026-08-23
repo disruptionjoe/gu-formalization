@@ -3,7 +3,7 @@ artifact_type: exploration
 status: exploration
 created: 2026-07-13
 hypothesis: H41
-title: "THE SOURCE-ACTION REQUIREMENTS SPEC -- everything the unbuilt source action (H41, the falsifiability keystone) must supply, consolidated from every research leg, each requirement sourced to its repo artifact and test, classified FORCED / DECLARATION / FIT, and checked for mutual consistency. VERDICT of the cross-consistency pass: NO OUTRIGHT CONTRADICTION among the FORCED items (wave35's joint carve already certifies nonemptiness on carrier B with the g=1 cure; this spec adds the sector-disjointness and larger-flavor-symmetry arithmetic checks); FIVE named TENSIONS carried openly. 27 requirement rows: 8 FORCED, 9 DECLARATION, 10 FIT."
+title: "THE SOURCE-ACTION REQUIREMENTS SPEC -- everything the unbuilt source action (H41, the falsifiability keystone) must supply, consolidated from every research leg, each requirement sourced to its repo artifact and test, classified FORCED / DECLARATION / FIT, and checked for mutual consistency. VERDICT of the cross-consistency pass: NO OUTRIGHT CONTRADICTION among the FORCED items (wave35's joint carve already certifies nonemptiness on carrier B with the g=1 cure; this spec adds the sector-disjointness and larger-flavor-symmetry arithmetic checks); FIVE named TENSIONS carried openly. 28 requirement rows: 8 FORCED, 9 DECLARATION, 11 FIT (SA-G10 added 2026-08-23)."
 grade: "CONSOLIDATION. No new physics claims; the only new content is cross-consistency bookkeeping, and every computable piece of it is in tests/spec-consistency/source_action_requirements_consistency.py (33/33 asserts, exit 0, stdlib arithmetic reproducing numbers already computed at higher grade in the cited artifacts). Per the standing E1 rule this spec is a MAP of the requirement surface, not progress by itself. No canon movement, no verdict movement, no count movement; the count stays {1,3}; H41 stays unbuilt; H59 stays OPEN."
 construction: "program-native throughout, per GEOMETER-VS-PHYSICS-OBJECTS.md; each row inherits the construction of its source artifact, and the two rows that ARE construction forks (SA-U2 ghost mass, SA-U5 guardian) are recorded as forks, not resolved."
 depends_on:
@@ -58,7 +58,7 @@ the cross-consistency pass and pins the table's class tallies to this document.
 
 ## 1. Perspective 1 (EFT theorist): the requirements table
 
-27 rows. Every row cites its artifact; where a machine check exists the test is named.
+28 rows (SA-G10 added 2026-08-23). Every row cites its artifact; where a machine check exists the test is named.
 Composite items are split into lettered sub-rows so each row has exactly one class.
 
 ### Yukawa / matter sector (SA-Y)
@@ -88,6 +88,18 @@ Composite items are split into lettered sub-rows so each row has exactly one cla
 | SA-G7 | Resolution of the c_L background-vs-TT normalization band [3/8, 2] (computed value 3/8; band is the O(1) normalization ambiguity). | FIT | track2-conditional-numbers-2026-07-13.md (gap g3); wave31/H51 | tests/track2/T2A_graviton_sector_numbers.py |
 | SA-G8 | Resolution of the m2_eff method band [5/6, 5/4] (normalization-gated, H25). | FIT | track2-conditional-numbers-2026-07-13.md (gap g4); wave7/H25 | tests/track2/T2A_graviton_sector_numbers.py |
 | SA-G9 | A from-scratch GU linearization of the massive spin-2 sector WITH matter sources (beyond the imported Stelle 1978 solution): the action must make the matter coupling derivable, not imported. | FORCED | track2-conditional-numbers-2026-07-13.md (gap g1); wave22/H10 | tests/wave22/H10_ppn_weak_field.py |
+| SA-G10 | `alpha_W`, the gravity ambient-curvature (`R^Y.B`) coefficient, identical to the OQ2-A / `c_W` coefficient and the one term W225 could not settle without the branch-fixed action. It is GATED, not parameter-free: it is welded to `f_0` by leading-order Schwarzschild consistency, but that weld IS the unbuilt `c_W`, carries beta/alpha, and terminates in an action coefficient. No shared-theta Ward identity pins it -- the DE-EOS curvature vertex and the gravity-source matter vertex are distinct operators of the one `theta`, so canonical normalization forces CO-PRESENCE, not a shared number. | FIT (gated) | explorations/source-action-constraint-intersection-2026-07-11.md; explorations/path4-wave2-alphaW-parameter-free-2026-07-11.md; W225 (OQ2-A, named open) | tests/W66_path4_wave2_alphaW.py; tests/one-residual/willmore_el_alpha_w_pin.py; tests/one-residual/willmore_oq2a_functional_selection.py |
+
+> **ADDENDUM 2026-08-23 -- SA-G10 added; why it was missing.** This spec's
+> declared source set contains no path4-line artifact and not the
+> constraint-intersection map, so the gravity leg's one named remaining free
+> scalar had no row while the spec claimed to consolidate every leg's demands.
+> The gap was found by auditing the spec against the 2026-08-23 benchmark
+> demand ledger, where the same coefficient is demanded independently as
+> `ROT-1` (the Einstein-versus-conformal ratio) and reached through `SF-1`.
+> Adding the row changes no verdict and creates no new freedom: it records
+> freedom the repository had already computed and classified elsewhere. See
+> `explorations/conditional-build/source-action-requirement-surface-reconciliation-2026-08-23.md`.
 
 ### Count / field-space sector (SA-C)
 
@@ -242,11 +254,11 @@ must either derive or openly carry):**
   parameter (SA-Y4/SA-Y5): the entire fermion mass hierarchy.
 - The sector-to-flavor assignment (SA-Y6) and spurion values (SA-Y7b).
 - The soldering declaration (SA-G1), the A/B bit (SA-C1), the realized rank (SA-C3).
-- mu_DW, B_i, f0, beta/alpha, alpha, c_L, m2_eff normalizations (SA-G2..G8): every
-  data-facing number.
+- mu_DW, B_i, f0, beta/alpha, alpha, c_L, m2_eff normalizations (SA-G2..G8) and the
+  gated ambient-curvature coefficient alpha_W (SA-G10): every data-facing number.
 - The guardian fork unresolved (SA-U5) and the ghost-mass convention unresolved (SA-U2).
 
-The honest reading: 8 FORCED items give the object a rigid shape; 9 DECLARATIONS + 10 FITs
+The honest reading: 8 FORCED items give the object a rigid shape; 9 DECLARATIONS + 11 FITs
 are the freedom that keeps it, today, a framework rather than a theory
 (predictive-boundary-audit: compression result, not prediction result). The spec's value is
 that the freedom is now FINITE, NAMED, and CLASSIFIED; its danger is that a build could

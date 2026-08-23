@@ -1,5 +1,41 @@
 # Narrowing the source action by the intersection of the legs that need it (not building it -- constraining it)
 
+> [!CAUTION]
+> **STALE TARGETING NOTICE (added 2026-08-23; no verdict, canon or claim
+> status changes).** This map's closing item — "the single highest-leverage,
+> decisive, non-p-hacking computation": *does the theta-coupling fixed by
+> dark energy also produce the Branch-3 Willmore cancellation gravity
+> needs?* — has since been bearing-answered twice, in the direction that
+> **dissolves the over-determination it was designed to exploit**. Read
+> both before pursuing it:
+>
+> 1. **`explorations/path4-wave2-alphaW-parameter-free-2026-07-11.md`**
+>    (same day, wave 66): no shared-theta Ward identity pins the coupling.
+>    The DE-EOS curvature vertex and the gravity-source matter vertex are
+>    **distinct operators of the one `theta`**, so canonical normalization
+>    forces **co-presence, not a shared number**. Its verdict is `GATED`
+>    (qualitative-only), and `alpha_W` terminates in an action coefficient.
+> 2. **`explorations/W236-gravity-theta-sector-residual-built-action-2026-07-15.md`**:
+>    with the W229-built action, `theta` is sourced only by `J = J[Psi]`, a
+>    Krein bilinear in the record field, so in the `Psi = 0` gravitational
+>    vacuum `J = 0` and the screened operator forces `theta = 0`; hence
+>    `E_s^theta = 0` at all orders. This is **conditional** on the W154
+>    posit `theta = J` (only its sign forced, W230), the conservative IG
+>    branch, and the imported exact Schwarzschild slice.
+>
+> Consequence for this map, stated exactly: the sentence above asserting
+> that the gravity leg *needs a nonzero geometric* `theta ~ M/rho^2` *in a
+> `Psi = 0` vacuum* is not what the built action does — under W236's stated
+> conditions the gravitational vacuum has `theta = 0`, so the gravity leg
+> places **no constraint on the theta coupling there**, and the
+> gravity `INTERSECT` dark-energy narrowing cannot be collected at that
+> order. The gauge-sector over-determination in this map is untouched by
+> this notice, and every computation this map cites keeps its own recorded
+> grade. Nothing here is a claim that the map was wrong when written: it is
+> a same-day sibling and a four-day-later result that no surface had
+> reconciled. Audit:
+> `explorations/conditional-build/source-action-requirement-surface-reconciliation-2026-08-23.md`.
+
 2026-07-11. Joe's move: rather than a FREE build of the source action (which p-hacks the residual),
 identify what it MUST look like by requiring every leg that depends on it to work SIMULTANEOUSLY. The
 central finding: the source action is NOT a product of independent freedoms -- several legs constrain the

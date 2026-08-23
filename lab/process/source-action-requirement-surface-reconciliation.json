@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "requirement_surface_reconciliation_registry",
+  "created": "2026-08-23",
+  "status": "COVERAGE_GAP_CLOSED_SA_G10__STALE_TARGET_ANNOTATED__OWNER_C_SELF_CORRECTED",
+  "directed_by": "Joe direct chat 2026-08-23; awareness-note canon path",
+  "target_claim": "internal target SOURCE-ACTION-REQUIREMENT-SURFACE-COMPLETENESS; the consolidated spec omitted the gravity leg's one named remaining free scalar and the constraint-intersection map's decisive-computation pointer was unreconciled with two bearing results",
+  "audited_surfaces": [
+    "explorations/source-action-requirements-spec-2026-07-13.md",
+    "explorations/source-action-constraint-intersection-2026-07-11.md",
+    "lab/process/ext-sm-cosmo-anchors-acceptance-and-descents.json"
+  ],
+  "finding_a_coverage_gap": {
+    "object": "alpha_W, the gravity ambient-curvature (R^Y.B) coefficient",
+    "aliases_swept": ["alpha_W", "c_W", "R^Y", "OQ2", "Willmore"],
+    "gap": "no requirements-spec row under any swept alias before this change",
+    "mechanical_cause": "the spec's declared depends_on set contains no path4-line artifact and not the constraint-intersection map",
+    "why_it_matters": [
+      "constraint-intersection names alpha_W as one of exactly two genuinely-remaining free scalars",
+      "path4-wave2 identifies it with the OQ2-A / c_W coefficient at verdict GATED",
+      "W225 could not settle this one term without the branch-fixed source action",
+      "the 2026-08-23 ledger demands it independently as ROT-1 and reaches it through SF-1"
+    ],
+    "repair": {
+      "row_id": "SA-G10",
+      "class": "FIT (gated)",
+      "tally_before": {"rows": 27, "FORCED": 8, "DECLARATION": 9, "FIT": 10},
+      "tally_after": {"rows": 28, "FORCED": 8, "DECLARATION": 9, "FIT": 11},
+      "test_updated": "tests/spec-consistency/source_action_requirements_consistency.py",
+      "creates_new_freedom": false,
+      "note": "records freedom already computed and classified in the cited July artifacts"
+    }
+  },
+  "finding_b_stale_target": {
+    "map": "explorations/source-action-constraint-intersection-2026-07-11.md",
+    "stale_pointer": "the closing 'single highest-leverage, decisive, non-p-hacking computation': whether the theta-coupling fixed by dark energy also produces the Branch-3 Willmore cancellation",
+    "bearing_results": [
+      {
+        "ref": "explorations/path4-wave2-alphaW-parameter-free-2026-07-11.md",
+        "relation": "SAME_DAY_SIBLING",
+        "content": "no shared-theta Ward identity pins the coupling; the DE-EOS curvature vertex and the gravity-source matter vertex are distinct operators of the one theta, so canonical normalization forces co-presence, not a shared number; verdict GATED"
+      },
+      {
+        "ref": "explorations/W236-gravity-theta-sector-residual-built-action-2026-07-15.md",
+        "relation": "LATER_RESULT",
+        "content": "with the W229-built action theta is sourced only by J=J[Psi], a Krein bilinear in the record field; in the Psi=0 gravitational vacuum J=0 and the screened operator forces theta=0, so E_s^theta=0 at all orders",
+        "conditions": ["W154 posit theta=J (only its sign forced, W230)", "conservative IG branch", "imported exact Schwarzschild slice", "Psi=0 gravitational vacuum"]
+      }
+    ],
+    "consequence": "under W236's stated conditions the gravity leg places no constraint on the theta coupling in that vacuum, so the gravity INTERSECT dark-energy narrowing cannot be collected at that order; the over-determination is dissolved rather than merely unexecuted",
+    "explicitly_untouched": [
+      "the map's gauge-sector fourfold over-determination",
+      "every cited computation's own recorded grade and conditions",
+      "all verdicts, claim statuses, canon and posture"
+    ],
+    "reopening_conditions": ["withdrawal of the W154 posit theta=J", "leaving the conservative IG branch"],
+    "no_misconduct_claim": "the wave-66 sibling is same-day and W236 postdates the map; this is an unreconciled surface, not an error at time of writing",
+    "repair": "[!CAUTION] staleness-targeting notice added at the head of the map, naming both bearing results, their conditions and the exact consequence"
+  },
+  "finding_c_self_correction": {
+    "object": "OWNER-C in the 2026-08-23 seven-owner ledger",
+    "defect": "recording OWNER-C as one triangulated normalization/ratio family invites reading its components as jointly determined by one datum",
+    "correction": "triangulation counts independent demands on a family and does not assert joint discharge; the recorded state is co-presence, not a shared number",
+    "spec_rows_attached": ["SA-G2", "SA-G3", "SA-G4", "SA-G10"]
+  },
+  "descent_yield_accounting": {
+    "added_coverage": 1,
+    "re_described_as_owners": "the demand ledger re-indexes the existing July requirement surface by benchmark rather than by leg; useful for selection, not new constraint",
+    "new_physics_constraint": 0,
+    "note": "recorded deliberately: a scorecard that inflates its own novelty is worse than no scorecard"
+  },
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

@@ -167,6 +167,7 @@ TABLE = [
     ("SA-G1", "DECLARATION"), ("SA-G2", "FIT"), ("SA-G3", "FIT"),
     ("SA-G4", "FIT"), ("SA-G5", "FIT"), ("SA-G6", "FIT"),
     ("SA-G7", "FIT"), ("SA-G8", "FIT"), ("SA-G9", "FORCED"),
+    ("SA-G10", "FIT"),
     ("SA-C1", "DECLARATION"), ("SA-C2", "FORCED"),
     ("SA-C3", "DECLARATION"), ("SA-C4", "FORCED"),
     ("SA-U1", "FORCED"), ("SA-U2", "DECLARATION"), ("SA-U3", "FORCED"),
@@ -175,10 +176,10 @@ TABLE = [
 counts = {}
 for _id, cls in TABLE:
     counts[cls] = counts.get(cls, 0) + 1
-check("G1 27 requirement rows", len(TABLE) == 27)
+check("G1 28 requirement rows", len(TABLE) == 28)
 check("G2 FORCED count = 8", counts.get("FORCED") == 8)
 check("G3 DECLARATION count = 9", counts.get("DECLARATION") == 9)
-check("G4 FIT count = 10", counts.get("FIT") == 10)
+check("G4 FIT count = 11", counts.get("FIT") == 11)
 check("G5 IDs unique", len({i for i, _ in TABLE}) == len(TABLE))
 
 # ----------------------------------------------------------------
