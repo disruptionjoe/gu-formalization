@@ -2,7 +2,7 @@
 title: "Paper Hardening Inventory"
 status: active_research
 doc_type: research_register
-updated_at: "2026-07-15"
+updated_at: "2026-08-23"
 scope: "Internal paper triage only. No publication, promotion, submission, or external action."
 ---
 
@@ -26,7 +26,7 @@ Once a package is ready for external eyes, stop routine polishing. External revi
 |---|---|---|---|
 | `observer-value-selection-theorem` | Local readiness report says `READY FOR ZENODO`; narrow Set-level theorem, Lean core, finite controls, verified bibliography, and reproducible package are present. | Joe decision on external eyes or publication. Reopen internally only for a substantive correction. | `NEEDS_JOE`; no routine polish. |
 | `located-not-forced` | Internally judged arXiv-ready after enumeration and antilinear-bound hardening, while publication remains explicitly deferred pending Joe. External validation would still strengthen journal readiness. | Joe review of the existing gate history and decision on outside eyes. | `NEEDS_JOE`; no routine polish. |
-| `uv-structure-fourth-order-gravity` | Useful gravity survivor and likely standalone mathematical-physics byproduct. It strengthens stationary-vacuum compatibility but is not a distinctive GU prediction. | Run one overlap/novelty gate against Willmore, quadratic-gravity, projected-shadow, and existing Schwarzschild/Kerr literature; then close the sharpest remaining theorem gap. | `PARKED_RESERVE`; activate only after the protected prediction swing or on a new defect. |
+| `uv-structure-fourth-order-gravity` | `FAILED_HARDENING_GATE`: the July title/abstract outrun their evidence. W44 is a conditional power-counting model, projected-RS beta inputs are estimated/guessed, the Gaussian limit does not predict a finite Weyl coupling, and no interacting positive physical quotient or field-theoretic unitarity theorem is constructed. | Reopen only on one packet containing the complete projected-RS action/gauge complex, curved heat-kernel or equivalent divergences, source-verified beta functions and physical domain, interacting physical quotient/pairing, and exact primary-source novelty matrix. | `PARKED_REQUIRES_RECONSTRUCTION`; no prose-only hardening. |
 | `keep-and-grade-loop-cost` | Staged conditional loop-cost result with all-orders metric, tensor-numerator, Euclidean-continuation, and citation gaps still named. | Decide whether one bounded numerator or positivity theorem can materially change referee readiness. | `PARKED_RESERVE`; not a default hourly lane. |
 | `observer-value-selection` | Broader physical interpretation remains conditional on rank-greater-than-one Krein/Tomita-Takesaki structure and novelty verification. | Prior-art and scope gate. Prefer the narrow theorem package when overlap persists. | `PARKED`; merge or narrow before more prose. |
 | `generation-number-boundary-odd-primary` | Staged odd-primary boundary packet at honest internal grade. | External-source and novelty verification, plus overlap check against the lead located-not-forced paper. | `PARKED`; avoid paper multiplication. |

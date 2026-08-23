@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "id": "UV-GRAVITY-CLAIM-GRADE-OVERLAP-2026-08-23",
+  "created": "2026-08-23",
+  "target": "papers/candidates/uv-structure-fourth-order-gravity/uv-structure-fourth-order-gravity-2026-07-11.md",
+  "disposition": "FAILED_HARDENING_GATE",
+  "portfolio_state": "PARKED_REQUIRES_RECONSTRUCTION",
+  "claim_ceiling": "candidate-package rejection only; no opposite field-theory theorem and no GU verdict",
+  "claims": [
+    {
+      "id": "UVG-RS-RENORMALIZABILITY",
+      "advertised": "the projected spin-3/2 sector preserves renormalizability and adds a finite closed counterterm set",
+      "surviving_grade": "CONDITIONAL_POWER_COUNTING_MODEL",
+      "missing": ["complete curved interacting action and gauge complex", "divergent effective action or heat-kernel computation", "derived counterterm closure"],
+      "rejected_phrase": "RENORMALIZABILITY_THEOREM_FOR_ADVERTISED_CLASS"
+    },
+    {
+      "id": "UVG-ASYMPTOTIC-FREEDOM",
+      "advertised": "the dimensionless couplings are asymptotically free",
+      "surviving_grade": "PORTED_C2_BETA_PLUS_SIGNED_CONDITIONAL_RATIO_MODEL",
+      "missing": ["projected-spin-3/2 C2 and R2 heat-kernel coefficients", "physical coupling-domain proof"],
+      "rejected_phrase": "ALL_DIMENSIONLESS_COUPLINGS_ASYMPTOTICALLY_FREE"
+    },
+    {
+      "id": "UVG-PREDICTIVITY",
+      "advertised": "the Gaussian fixed point predicts the Weyl coupling",
+      "surviving_grade": "UV_LIMIT_F2_EQUALS_ZERO_WITH_FREE_RG_SCALE",
+      "missing": ["boundary condition or observable fixing the finite running coupling"],
+      "rejected_phrase": "WEYL_COUPLING_PREDICTED_RATHER_THAN_TUNED"
+    },
+    {
+      "id": "UVG-UNITARITY",
+      "advertised": "the interacting theory is tree/algebraic grade unitary on a positive physical sector",
+      "surviving_grade": "KREIN_PSEUDOUNITARY_AND_FREE_OR_FINITE_MODEL_CONDITIONAL_IDENTITIES",
+      "missing": ["interacting physical quotient and positive pairing", "field-theoretic optical theorem", "locality and domain construction"],
+      "rejected_phrase": "INTERACTING_PHYSICAL_SECTOR_UNITARITY"
+    },
+    {
+      "id": "UVG-SCALARON-SIGN",
+      "advertised": "asymptotic freedom forces a background-independent scalaron tachyon",
+      "surviving_grade": "CONDITIONAL_M0_SQUARED_EQUALS_GAMMA_OVER_6_BETA_IDENTITY",
+      "missing": ["derived negative physical beta on an owned AF completion", "projected-spin-3/2 R2 coefficient"],
+      "rejected_phrase": "AF_FORCES_TACHYON_IN_ADVERTISED_CLASS"
+    }
+  ],
+  "primary_sources": [
+    "https://arxiv.org/abs/1403.4226",
+    "https://arxiv.org/abs/1705.03896",
+    "https://arxiv.org/abs/2109.12743",
+    "https://arxiv.org/abs/2111.04696",
+    "https://arxiv.org/abs/2305.00106"
+  ],
+  "correction_replay": {
+    "CC-02-OBSERVED-POSITIVITY-OPEN": "no direct stale disavowal; unsupported ambient/finite-model to interacting-positive-quotient bridge remains",
+    "CC-09-YUKAWA-REPULSIVE-SIGN": "no direct +1/3 stale text in candidate; no repair required"
+  },
+  "reopen_requires": [
+    "complete projected-RS action gauge fixing ghost complex and domains",
+    "curved heat-kernel or equivalent divergence calculation",
+    "source-verified load-bearing beta functions and physical domain",
+    "interacting physical quotient pairing and unitarity argument",
+    "primary-source novelty matrix for the exact theorem"
+  ],
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

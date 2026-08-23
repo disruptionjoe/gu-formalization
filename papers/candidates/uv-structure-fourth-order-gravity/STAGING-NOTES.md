@@ -2,6 +2,22 @@
 
 **Candidate:** `uv-structure-fourth-order-gravity-2026-07-11.md`
 
+## Current disposition — 2026-08-23
+
+`FAILED_HARDENING_GATE` / `PARKED_REQUIRES_RECONSTRUCTION`.
+
+The July headline and abstract are retained only as fenced historical drafting
+evidence. The current claim matrix is
+`lab/process/uv-gravity-claim-grade-and-overlap-audit.json`; its prose audit is
+`explorations/hardening/uv-gravity-claim-grade-and-overlap-audit-2026-08-23.md`.
+The package does not re-enter paper hardening until one packet supplies the
+complete projected-RS action/gauge complex, a curved heat-kernel or equivalent
+divergence calculation, source-verified load-bearing beta functions and their
+physical domain, an interacting physical quotient/pairing with an appropriate
+unitarity argument, and a primary-source novelty matrix for the exact theorem.
+Passing W44--W80 remains reproduction evidence inside their declared
+assumptions; it is not a substitute for those owners.
+
 ## Scope
 
 GU-independent structural packet for fourth-order (Stelle-type) gravity with a kinematically projected

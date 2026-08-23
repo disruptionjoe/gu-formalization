@@ -1,5 +1,21 @@
 # Renormalizable, Asymptotically Free, and Tree-Grade-Unitary Fourth-Order Gravity -- and the Tachyonic Price of Asymptotic Freedom
 
+> **FAILED_HARDENING_GATE (2026-08-23) —
+> `PARKED_REQUIRES_RECONSTRUCTION`.** The title, abstract and body below are
+> preserved as historical drafting evidence, not as current repository claims
+> and not as a citable theorem package. A current primary-overlap and
+> evidence-to-claim audit found that W44 supplies a conditional power-counting
+> model rather than an interacting projected-Rarita--Schwinger counterterm
+> proof; W45 labels the load-bearing projected-spin-3/2 beta inputs
+> `ESTIMATED`/`GUESS` and itself finds positive `f_0^2` non-asymptotically
+> free; the Gaussian limit does not predict a finite Weyl coupling; and the
+> W48/W53/W54/W79 chain does not construct an interacting positive physical
+> quotient or field-theoretic unitarity theorem. The exact surviving grades
+> and five-part reopening packet are recorded in
+> `explorations/hardening/uv-gravity-claim-grade-and-overlap-audit-2026-08-23.md`.
+> No opposite physical theorem, GU verdict, canon, or public-posture change is
+> inferred.
+
 **Draft, 2026-07-11. GU-INDEPENDENT: the results are about the class of fourth-order (Stelle-type) gravities with
 a kinematically-projected Rarita-Schwinger sector; Geometric Unity is one realization. Every quantitative claim
 ties to a reproducible test in `tests/` (W44-W80, all exit 0). External publication is Joe-gated (no arXiv, no

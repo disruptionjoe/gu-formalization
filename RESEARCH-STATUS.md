@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**UV-gravity candidate hardening 2026-08-23
+(`FAILED_HARDENING_GATE`; no opposite physics theorem).** The staged July
+headline is fenced as historical drafting evidence. W44 proves only a
+conditional flat-projector power-counting model; it does not construct the
+interacting projected-Rarita--Schwinger gauge/ghost complex or divergent
+effective action. W45 labels the projected-RS beta inputs `ESTIMATED` and
+`GUESS` and agrees with the primary agravity literature that positive `f_0^2`
+is not asymptotically free. The Gaussian limit does not fix the finite Weyl
+coupling, and W48/W53/W54/W79 do not supply an interacting positive physical
+quotient or field-theoretic unitarity theorem. The conditional beta algebra,
+free-model metric obstruction and `M_0^2=gamma/(6 beta)` identity survive at
+their exact stated scopes. The package is `PARKED_REQUIRES_RECONSTRUCTION`
+until its five-part owner packet exists. See
+`explorations/hardening/uv-gravity-claim-grade-and-overlap-audit-2026-08-23.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| projected-RS renormalizability | paper-level theorem claim | conditional power-counting model only | complete action/gauge complex and curved divergence calculation | audit / paper fence |
+| asymptotic freedom and predictivity | all dimensionless couplings AF; finite `f_2` predicted | ported `C^2` AF plus signed conditional model; finite coupling not predicted | projected-RS beta functions and physical domain | audit / registry |
+| physical unitarity | tree/algebraic positive physical sector | Krein pseudo-unitarity and free/finite conditional identities only | interacting quotient, pairing, domains and optical theorem | audit / paper fence |
+| scalaron tachyon | AF-forced for the class | conditional quadratic-`f(R)` formula; forced sign unproved | owned physical beta and heat kernel | audit / registry |
+
 **Jacobson/K77 reverse-scaffold benchmark 2026-08-21 (external target
 accepted; mechanism and GU realization unproved).** Ledger v0.260 adds one
 target, `LT-GR8`, for the scoped semiclassical gravitational

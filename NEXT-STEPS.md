@@ -7,6 +7,21 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE UV-GRAVITY CANDIDATE FAILED ITS HARDENING GATE.** Exact
+> disposition: `FAILED_HARDENING_GATE` / `PARKED_REQUIRES_RECONSTRUCTION`.
+> Do not cite the July title or abstract as current repository results and do
+> not polish the prose. W44 is a conditional flat-projector power-counting
+> model, W45's projected-RS beta inputs are `ESTIMATED`/`GUESS`, a Gaussian
+> UV limit does not predict a finite Weyl coupling, and W48/W53/W54/W79 do
+> not construct an interacting positive physical quotient or field-theoretic
+> unitarity theorem. Reopen only on one packet with the complete projected-RS
+> action/gauge/ghost/domain complex, curved heat-kernel or equivalent
+> divergences, source-verified beta functions and physical domain, interacting
+> physical quotient/pairing and exact primary-source novelty matrix. The
+> surviving conditional identities remain usable at their stated grades; no
+> opposite physics theorem or GU verdict follows. See
+> `explorations/hardening/uv-gravity-claim-grade-and-overlap-audit-2026-08-23.md`.
+
 > **2026-08-23 THE DARK-ENERGY CONFRONTATION IS PREREGISTRATION-COMPLETE BY
 > BINDING.** A duplicate-check found the confrontation already substantially
 > frozen (PP1 sign, PP3 curve family, P-OBS-LEG applying their kill surfaces
