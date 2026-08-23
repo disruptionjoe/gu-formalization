@@ -123,10 +123,18 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
 
     # Workspace propagation.
     check("D6" in state and "protocol" in state, "state records D6 protocol")
+    check("D6 is complete at" in state and "must not be selected again" in state,
+          "state forbids duplicate D6 selection")
+    check("Next\n  freeze D6's single held-out consequence" not in state,
+          "stale next-D6 continuation absent")
     check("LT-GR8 D6" in next_steps, "next steps announcement")
     items = {item["id"]: item for item in agenda["work_items"]}
     check("D6" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"],
           "agenda records D6")
+    check("demand D6 is complete" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["latest_result"],
+          "agenda latest result is D6")
+    check("must not be selected again" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["latest_result"],
+          "agenda latest result blocks duplicate D6")
     return checks, failures
 
 
@@ -184,6 +192,15 @@ def selftest() -> int:
     changed = copy.deepcopy(baseline)
     changed["result"] += "\nOn held-out success, GU is confirmed.\n"
     mutations.append(("planted-forbidden-grammar", "forbidden grammar absent: GU is confirmed", changed))
+
+    changed = copy.deepcopy(baseline)
+    items = {item["id"]: item for item in changed["agenda"]["work_items"]}
+    items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["latest_result"] = "LT-GR8 demand D4 is complete"
+    mutations.append(("stale-agenda-latest-result", "agenda latest result is D6", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["state"] += "\nNext\n  freeze D6's single held-out consequence\n"
+    mutations.append(("duplicate-d6-continuation", "stale next-D6 continuation absent", changed))
 
     ok = True
     for name, expected, mutated in mutations:
