@@ -2,7 +2,8 @@
   "schema_version": "1.0",
   "artifact_type": "ltgr8_heldout_consequence_preregistration_registry",
   "created": "2026-08-23",
-  "status": "D6_PROTOCOL_FROZEN__RESERVATION_EXECUTES_AT_PACKET_TIME__LTGR8_REMAINS_NEEDS",
+  "status": "D6_PROTOCOL_FROZEN__F0_MIXED_WEDGE_ADMITTED_BY_RATIFICATION__RESERVATION_EXECUTES_AT_PACKET_TIME__LTGR8_REMAINS_NEEDS",
+  "amendment_2026_08_23": "family F0 admitted through the protocol's own authority clause: Joe direct chat 2026-08-23 ratified re-admission of the concurrent run's withdrawn mixed-wedge held-out zero test as a packet-internal check evaluating in addition to the selected external family; custody, credit grammar and void conditions unchanged",
   "lane_id": "1",
   "agenda_items": [
     "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"
@@ -14,6 +15,27 @@
   "external_benchmark_ref": "EXT-J95-SEMI-CLASSICAL-HORIZON",
   "mechanism_commitment": "NONE",
   "confirmation_credit": "NONE",
+  "family_f0_internal": {
+    "name": "MIXED_WEDGE_HELD_OUT_ZERO_TEST",
+    "kind": "PACKET_INTERNAL_HELD_OUT_CONSISTENCY_CHECK",
+    "ratified": "Joe direct chat 2026-08-23; provenance: authored by a concurrent scheduled run 2026-08-23, withdrawn on freeze collision, re-admitted with frozen content preserved",
+    "always_evaluates": "in addition to the selected external family (F1 or F2), never instead of it",
+    "tetrad_metric_convention": "observed orthonormal tetrad diag(-1,+1,+1,+1), minus-first, declared locally for this observed-side tetrad only",
+    "response_residual": "R_ab = H_ab - C T_ab with H_ab the packet's action-owned entropy/area response, T_ab its action-owned observed stress, and C fixed by the already-frozen entropy normalization and temperature conventions",
+    "seed_bank_directions": [[1, 1, 0, 0], [1, -1, 0, 0], [1, 0, 1, 0], [1, 0, -1, 0], [1, 0, 0, 1], [1, 0, 0, -1]],
+    "seed_implied_constraints": ["R01=R02=R03=0", "R11=R22=R33=-R00"],
+    "free_after_seed": ["R00", "R12", "R13", "R23"],
+    "held_out_direction": [5, 3, 4, 0],
+    "held_out_consequence": "k*.R.k* = 0",
+    "decision_power_witness": "R12=R21=1 satisfies all six seed equations and gives k*.R.k* = 24",
+    "evaluation_rules": [
+      "evaluate only after a future construction supplies the D1-D5 owners defining R_ab on an observed causal wedge, and before reading the corresponding target-facing mixed-wedge result",
+      "exact zero is a passed internal held-out check and at most an input to prediction-candidate status pending independent integration review",
+      "nonzero residual rejects only the scoped LT-GR8 realization packet or its declared equilibrium law, never GU generally without a separate necessity theorem",
+      "undefined R_ab, absent owners, a changed tetrad without joint owned Lorentz transport of seed bank and held-out direction together, a new normalization, or a post-result threshold is NOT EVALUABLE, never a pass",
+      "the held-out direction is projective; rescaling cannot change zero versus nonzero, and choosing a new mixed direction is retuning"
+    ]
+  },
   "family_f1_primary": {
     "name": "CROSS_SECTOR_NORMALIZATION_CONSISTENCY",
     "consequence": "the packet's implied relation between its entropy normalization eta and the action's dark-energy amplitude",
@@ -28,7 +50,7 @@
     "confrontation_data": "entries of the 2022-2025 model-scoped Jacobson-family test library not used in the reverse build",
     "why_held_out": "the R5 packet froze the reverse build to the leading-order equilibrium Clausius law, so the correction was never a build input"
   },
-  "selection_rule": "F1 unless the packet contains a typed derivation that its action leaves the dark-energy amplitude undetermined (a non-coupling proof, not a convenience claim), in which case F2; if neither family is realizable the packet earns compatibility only; any third family requires a new council decision and voids prediction credit for that packet",
+  "selection_rule": "F1 unless the packet contains a typed derivation that its action leaves the dark-energy amplitude undetermined (a non-coupling proof, not a convenience claim), in which case F2; if neither family is realizable the packet earns compatibility only; any further family requires a new council decision and voids prediction credit for that packet. F0, the ratified mixed-wedge internal held-out zero test, always evaluates in addition to the selected external family and never substitutes for it",
   "reservation_protocol": [
     "apply the frozen selection rule and state the consequence with numeric content (value, interval, or explicit functional form) plus the comparison statistic",
     "record it in a dedicated registry file naming the packet commit hash and the base conditional-physics-ledger digest",

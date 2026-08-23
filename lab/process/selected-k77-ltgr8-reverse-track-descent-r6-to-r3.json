@@ -86,8 +86,9 @@
       "id": "D6_HELD_OUT_CONSEQUENCE_RESERVED",
       "demand": "one held-out consequence reserved at packet time",
       "lands_on": "no-retuning rule",
-      "status": "PROTOCOL_FROZEN_2026_08_23__FAMILY_SELECTION_RULE_AND_RESERVATION_PROTOCOL_FIXED__RESERVATION_EXECUTES_AT_PACKET_TIME",
-      "result_ref": "lab/process/selected-k77-ltgr8-heldout-consequence-reservation-protocol.json"
+      "status": "PROTOCOL_FROZEN_2026_08_23__FAMILY_SELECTION_RULE_AND_RESERVATION_PROTOCOL_FIXED__F0_MIXED_WEDGE_RESERVED_AT_PACKET_GRADE_BY_RATIFICATION__RESERVATION_EXECUTES_AT_PACKET_TIME",
+      "result_ref": "lab/process/selected-k77-ltgr8-heldout-consequence-reservation-protocol.json",
+      "f0_amendment_ref": "explorations/conditional-build/selected-k77-ltgr8-f0-mixed-wedge-heldout-readmission-2026-08-23.md"
     }
   ],
   "next_demand": "DESCENT_SIDE_QUEUE_EMPTY__D1_D2_D3_WAIT_ON_R1_SIDE_OWNERS__D5_BLOCKED_ON_NEW_ORIENTATION_OWNER__SELECTION_RETURNS_TO_THE_SUBSTANTIAL_FRONTIER",

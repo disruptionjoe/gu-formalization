@@ -7,6 +7,19 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 LT-GR8 D6 AMENDMENT: THE MIXED-WEDGE HELD-OUT ZERO TEST IS
+> RE-ADMITTED AS FAMILY F0 BY EXPLICIT RATIFICATION.** A concurrent run's
+> withdrawn reservation is restored under the frozen protocol's own
+> authority clause (Joe direct chat 2026-08-23): F0 freezes six axial null
+> seed directions and the held-out null direction `k* = (5,3,4,0)`, whose
+> seed-constrained value is exactly `24*R12` — a component the seed bank
+> provably cannot determine (planted contrary `R12=1` fails the reserve by
+> 24). F0 is packet-internal and always evaluates in addition to the
+> selected external family (F1/F2), never instead of it; custody, credit
+> grammar, and void conditions are unchanged, and the reservation still
+> executes at packet time. The D6 family set is now closed. See
+> `explorations/conditional-build/selected-k77-ltgr8-f0-mixed-wedge-heldout-readmission-2026-08-23.md`.
+
 > **2026-08-23 LT-GR8 D6 IS PROTOCOL-FROZEN: THE HELD-OUT CONSEQUENCE FAMILY,
 > SELECTION RULE AND RESERVATION PROTOCOL ARE FIXED BEFORE ANY PACKET
 > EXISTS.** Family F1 (primary): cross-sector normalization consistency —

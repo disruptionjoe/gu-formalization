@@ -69,6 +69,37 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("not used in the reverse build" in f2["confrontation_data"], "F2 outside build inputs")
     check("equilibrium Clausius" in f2["why_held_out"], "F2 held-out rationale")
 
+    # F0: the ratified mixed-wedge internal held-out zero test, with its
+    # decision-power algebra recomputed exactly rather than trusted.
+    f0 = data.get("family_f0_internal", {})
+    check(f0.get("name") == "MIXED_WEDGE_HELD_OUT_ZERO_TEST", "F0 named")
+    check("Joe direct chat 2026-08-23" in f0.get("ratified", ""), "F0 ratification recorded")
+    check("in addition to" in f0.get("always_evaluates", ""), "F0 additive not substitutive")
+    seeds = f0.get("seed_bank_directions", [])
+    kstar = f0.get("held_out_direction", [])
+    eta_metric = [-1, 1, 1, 1]
+    ok_seed_null = bool(seeds) and all(
+        sum(m * c * c for m, c in zip(eta_metric, k)) == 0 for k in seeds
+    )
+    check(len(seeds) == 6 and ok_seed_null, "F0 six null seed directions")
+    check(len(kstar) == 4 and sum(m * c * c for m, c in zip(eta_metric, kstar)) == 0,
+          "F0 held-out direction is null")
+    if len(kstar) == 4:
+        # Under the seed constraints R01=R02=R03=0, R11=R22=R33=-R00, the
+        # held-out value must reduce to a pure multiple of a seed-free
+        # component: with R00=r, R12=s (others zero) the residual is
+        # (k0^2-k1^2-k2^2-k3^2)*r + 2*k1*k2*s; the r-coefficient must vanish
+        # and the s-coefficient must be nonzero for decision power.
+        k0, k1, k2, k3 = kstar
+        r_coeff = k0 * k0 - k1 * k1 - k2 * k2 - k3 * k3
+        s_coeff = 2 * k1 * k2
+        check(r_coeff == 0, "F0 seed-constrained R00 dependence vanishes")
+        check(s_coeff != 0, "F0 decision power: free component survives")
+        check(str(s_coeff) in f0.get("decision_power_witness", ""), "F0 witness magnitude recorded")
+    check("NOT EVALUABLE" in " ".join(f0.get("evaluation_rules", [])), "F0 not-evaluable clause")
+    check("F0" in data["selection_rule"] and "never substitutes" in data["selection_rule"],
+          "selection rule carries F0 additivity")
+
     rule = data["selection_rule"]
     check("typed derivation" in rule and "non-coupling proof" in rule, "selection escape needs typed proof")
     check("voids prediction credit" in rule, "third-family voiding")
@@ -180,6 +211,19 @@ def selftest() -> int:
         if d["id"] == "D6_HELD_OUT_CONSEQUENCE_RESERVED":
             d["status"] = "DISCHARGED"
     mutations.append(("d6-discharge-smuggle", "descent D6 status updated", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["data"]["family_f0_internal"]["held_out_direction"] = [5, 3, 4, 1]
+    mutations.append(("f0-nullness-corrupt", "F0 held-out direction is null", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["data"]["family_f0_internal"]["held_out_direction"] = [2, 2, 0, 0]
+    mutations.append(("f0-decision-power-loss", "F0 decision power: free component survives", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["data"]["selection_rule"] = changed["data"]["selection_rule"].replace(
+        "never substitutes", "may substitute")
+    mutations.append(("f0-substitution-smuggle", "selection rule carries F0 additivity", changed))
 
     changed = copy.deepcopy(baseline)
     changed["result"] = changed["result"].replace(

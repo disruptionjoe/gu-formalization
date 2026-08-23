@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ad6e05cb4f70f57c6c2bd0141ee699bc7ea4ebdc
+revision_basis: d68c2464114eb9b9fefeaac73eda1add4f49441b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Family F0 is admitted to the frozen D6 preregistration by explicit
+    ratification (Joe direct chat 2026-08-23), through the protocol's own
+    authority clause: the concurrent run's withdrawn mixed-wedge held-out
+    zero test is re-admitted with its frozen content preserved. F0 is a
+    packet-internal held-out consistency check — six axial null seed
+    directions force R01=R02=R03=0 and R11=R22=R33=-R00, and the frozen null
+    direction k*=(5,3,4,0) then reads exactly 24*R12, a component the seed
+    bank provably cannot determine — evaluating always in addition to the
+    selected external family (F1 or F2), never instead of it. Custody,
+    credit grammar and void conditions are unchanged, the reservation still
+    executes at packet time, and LT-GR8 remains NEEDS.
     LT-GR8 demand D6 is executed at protocol grade: the held-out consequence
     family, selection rule, and packet-time reservation protocol are frozen
     before any packet exists. Family F1 (primary) is cross-sector
@@ -2829,6 +2840,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The D6 family set is F0 plus F1/F2 and is closed: F0 (ratified mixed-wedge
+  internal zero test) always evaluates in addition to the selected external
+  family and never substitutes for it; admitting any further family requires
+  a new council decision and voids prediction credit. Do not re-derive,
+  re-freeze, or re-select D6.
   Demand D6 is protocol-frozen: the held-out consequence family (F1
   cross-sector normalization consistency, F2 nonequilibrium correction
   form), its selection rule, and the five-step packet-time reservation
