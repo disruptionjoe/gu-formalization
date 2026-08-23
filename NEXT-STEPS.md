@@ -7,6 +7,22 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 FIRST FITTING CONSTRUCTION BANKED; STRONG-FIELD AND PPN
+> SOURCE-ACTION ROUTES PRECISELY NON-ADMITTED.** The gravitational-anchor
+> bucket audit assigns `LT-GR11` to B1 and banks
+> `FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1` at observed R5: the pre-anchor
+> H45/H49 Einstein-Weyl operator and static Green form reproduce the accepted
+> rotation-functional role without claiming a GU derivation, source ownership,
+> dark-matter fit, or benchmark discharge. `LT-GR9` and `LT-GR10` are B2: W225
+> imports Schwarzschild and W220 grants the shiab-Einstein reduction, so neither
+> packet can honestly count as a source-action construction. All three rows
+> remain `NEEDS / MISSING_CONSTRUCTION`; no ledger or scientific verdict moves.
+> Next, build a primary-literature-backed B3 external-tension disposition for
+> the strongest eligible row, or take the strongest remaining B1/B4 item. Do
+> not return to CBRS source-action work while those buckets remain unexhausted.
+> See
+> `explorations/conditional-build/gravitational-anchor-bucket-disposition-and-first-fitting-construction-2026-08-23.md`.
+
 > **2026-08-23 LEDGER v0.262 CORRECTS THREE GLOBAL FALSIFICATION LABELS TO
 > BOUNDED ROUTE KILLS AND CLOSES THE CT-2 HISTORY RED APPEND-ONLY.** `AC-F3`,
 > `LT-GR1b`, and `RA-D2` are now `DIFFERS / ROUTE_KILLED`: each row's own

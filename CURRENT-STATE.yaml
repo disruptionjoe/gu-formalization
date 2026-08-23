@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dfe0e56d27914e3e99c138005bd92b58cf263f79
+revision_basis: c2c97fac8b9567025f97a56c97e268496cfe1ae7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The gravitational-anchor bucket audit banks the repository's first
+    FITTING_CONSTRUCTION at observed R5:
+    FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1 reproduces the accepted LT-GR11
+    linear Einstein-Weyl rotation-functional form with explicit chronology,
+    demotion conditions and an owner-resolution path. LT-GR9 strong-field and
+    LT-GR10 PPN are precisely non-admitted to source-action work at B2 because
+    their current benchmark packets import the target theory before computing
+    its phenomenology. All three rows remain NEEDS / MISSING_CONSTRUCTION; no
+    ledger, source, canon, proof, mechanism, prediction, confirmation or public
+    posture moves. The next eligible substantial work is a cited B3 external-
+    tension disposition, or the strongest remaining B1/B4 construction, not a
+    return to CBRS source-action work while those buckets remain unexhausted.
     Ledger v0.263 is minted from the depth wave's verified plan: eleven rows
     touched, forty field writes, zero verdict changes, with verdict, reason
     kind, mapping grade, distance, summary, axis, source row and id
@@ -3083,25 +3095,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  CBRS-1 is reposed: do not open another candidate class as the lane's primary
-  work. Any candidate must now be presented against the six necessary
-  conditions N1-N6 before it is built. Universal N2/N6 incompatibility is
-  refuted by CBRS-1I; do not restore that question or infer generic
-  compatibility from one witness. The lane's live target is N2 AND N3 AND N6
-  in one pre-density class: either prove a typed obstruction over an explicitly
-  declared action-class universe or construct a target-blind metric-stationary
-  class with a certified non-orbit tangent, then continue through N1, N4 and
-  N5. Necessity is not sufficiency; do not read N1-N6 as closing CBRS-1 or
-  write a terminal exhaustion result while the corrected conjunction is open.
-  Apply the FITTING_CONSTRUCTION and phenomenology-disposition methods before
-  selecting the concrete packet: classify its bucket, end the rung in a
-  construction or precise impossibility rather than a demand, enforce FC-1
-  through FC-7, and do not return to B2/source-action work while B1, B3 or B4
-  remains unattempted.
+  The three accepted gravitational anchors now have bucket dispositions:
+  LT-GR11 is banked at B1 as FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1, while
+  LT-GR9 and LT-GR10 are precisely non-admitted at B2 and may not be retried
+  absent the named strong-field or PPN owner packets. CBRS-1's corrected
+  N2/N3/N6 conjunction remains scientifically live but is source-action/B2
+  work, so it is not selectable while an eligible B1, B3 or B4 item remains
+  unattempted. The next substantial packet should build the P3 external-
+  tension register and dispose one strongest eligible ledger row at B3 using
+  primary external literature, or take the strongest remaining B1/B4 item
+  after a fresh frontier rebuild. Every packet must end in an FC-1-through-FC-7
+  construction or a precise impossibility, never another demand interface.
   Scheduled runs follow the A1 selection rule: attempt a delta-moving
   arc, then a ledger-moving arc, and log why each was unavailable before
   selecting maintenance.
-  Ledger v0.262 is current. Do not re-integrate the gravitational benchmark,
+  Ledger v0.263 is current. Do not re-integrate the gravitational benchmark,
   SM/cosmology linking, or GU-LEDGER-KILL-TYPING deltas; all are incorporated
   through the cursor. The repository-wide CT-2 history defect is repaired by
   the digest-bound append-only registry and v0.262 contexts; do not rewrite

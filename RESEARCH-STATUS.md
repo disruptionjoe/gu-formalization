@@ -8,6 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**First fitting construction and gravitational-anchor bucket disposition,
+2026-08-23.** `FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1` is banked at observed R5
+for `LT-GR11`: the pre-anchor H45/H49 Einstein-Weyl operator and static Green
+form reproduce the accepted rotation-functional role with explicit chronology,
+nontriviality, demotion conditions and owner-resolution path. `LT-GR9` and
+`LT-GR10` are B2 source-action-deferred because W225 imports Schwarzschild and
+W220 grants the shiab-Einstein reduction before target phenomenology is
+computed. All three rows remain `NEEDS / MISSING_CONSTRUCTION`; the packet
+changes no ledger, source, canon, proof, mechanism, prediction, confirmation or
+public-posture verdict. The next substantial packet is a primary-literature-
+backed B3 external-tension disposition, or the strongest remaining B1/B4 item.
+
+| anchor | bucket | disposition | ledger effect |
+| --- | --- | --- | --- |
+| LT-GR9 strong field | B2 | precise non-admission pending a native strong-field owner packet | none |
+| LT-GR10 PPN | B2 | precise non-admission pending a native PPN owner packet | none |
+| LT-GR11 rotation functional | B1 | `FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1` banked at observed R5 | none |
+
 **Ledger verdict-kind and CT-2 history integration 2026-08-23 (v0.262; no
 physics recomputed).** `AC-F3`, `LT-GR1b`, and `RA-D2` move from
 `OVER_DETERMINED / GENUINE_FALSIFICATION` to `DIFFERS / ROUTE_KILLED` because

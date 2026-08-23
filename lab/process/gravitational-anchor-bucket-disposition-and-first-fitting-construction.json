@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "gravitational_anchor_bucket_disposition_and_fitting_construction_registry",
+  "created": "2026-08-23",
+  "status": "ONE_R5_FITTING_CONSTRUCTION__TWO_PRECISE_B2_NONADMISSIONS__LEDGER_UNCHANGED",
+  "method_refs": [
+    "lab/methods/fitting-construction-grade.md",
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md"
+  ],
+  "ledger_basis": "lab/process/conditional-physics-ledger-v0.263.json",
+  "anchor_basis": "lab/process/ext-gr-benchmark-bench-registry.json",
+  "descent_basis": "lab/process/ext-gr-anchors-reverse-track-descents-r5-to-r3.json",
+  "dispositions": [
+    {
+      "row_id": "LT-GR9",
+      "anchor_id": "EXT-GR-STRONGFIELD",
+      "bucket": "B2",
+      "outcome": "PRECISE_NONADMISSION",
+      "reason": "W225 imports Schwarzschild and leaves the native observed equation, source coupling, reduction, stationary background and perturbation owner unbuilt",
+      "named_requirements": ["SF-1", "SF-2", "SF-3", "SF-4", "SF-5"],
+      "fc_failures": ["FC-1", "FC-3", "TARGET-BEFORE-EVALUATION"],
+      "preserved_evidence": ["W225", "RFAIL-03", "W229"]
+    },
+    {
+      "row_id": "LT-GR10",
+      "anchor_id": "EXT-GR-PPN",
+      "bucket": "B2",
+      "outcome": "PRECISE_NONADMISSION",
+      "reason": "W220 grants the decisive shiab-Einstein reduction and computes target-facing PPN parameters only after that grant",
+      "named_requirements": ["PPN-1", "PPN-2", "PPN-3", "PPN-4"],
+      "fc_failures": ["FC-1", "FC-5"],
+      "preserved_evidence": ["W220"]
+    },
+    {
+      "row_id": "LT-GR11",
+      "anchor_id": "EXT-GR-ROTATION",
+      "bucket": "B1",
+      "outcome": "FITTING_CONSTRUCTION",
+      "construction_id": "FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1"
+    }
+  ],
+  "fitting_constructions": [
+    {
+      "id": "FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1",
+      "grade": "FITTING_CONSTRUCTION",
+      "rung": "R5",
+      "row_id": "LT-GR11",
+      "anchor_id": "EXT-GR-ROTATION",
+      "construction_created_before_anchor": true,
+      "construction_evidence_dates": {
+        "H45": "2026-07-11",
+        "H49": "2026-07-11",
+        "anchor_acceptance": "2026-08-23"
+      },
+      "fingerprint": {
+        "carrier": "real transverse-traceless symmetric two-tensors on observed Lorentzian X4",
+        "pairing_or_form": "quadratic Einstein-Weyl action form",
+        "real_structure": "real Lorentzian",
+        "grading": "spin two; differential orders two and four",
+        "signature_horn": "observed (3,1); ambient K77 adapter explicitly unbuilt",
+        "ambient_embedding": "observed X4 section of Y14=Met(X); K77-to-observed transport remains a pathway requirement",
+        "operator": "a box + b box^2 with a>0 b!=0 and m2^2=a/b>0",
+        "static_green_function": "-(G M/r) [1 + (1/3) exp(-m2 r)]"
+      },
+      "fc_criteria": {
+        "FC-1": "complete observed-side fingerprint and operator/Green function built in H45/H49",
+        "FC-2": "R5 static-potential accounting",
+        "FC-3": "checked against H45 H49 H23 H26 W225 UV-gravity hardening PD-STRUCTURE-TRANSPORT and ledger v0.263; no scoped conflict",
+        "FC-4": "checked against SC-OP-03 SC-ACT-02 SC-ACT-04 SC-ACT-05; source-compatible not source-derived",
+        "FC-5": "OWNER-A P2 norm-transport certificate followed by OWNER-D/OWNER-E observed static reduction and bounded-source coupling",
+        "FC-6": "not derivation prediction fit or discharge; demotes if P2 selects trace-square or the derived observed transport loses the Einstein pole/Green form",
+        "FC-7": "forbids a dominant long-range gamma-r potential and the a=0 pure-conformal branch"
+      },
+      "next_executable_gate": "freeze a source/action-owned P2 transport certificate from I2B norm through H21 theta=II_s to the observed coefficient ratio before rotation comparison",
+      "demotion_conditions": [
+        "P2 resolves to trace-square |H|^2",
+        "K77-to-observed transport cannot produce the observed Einstein term",
+        "derived static reduction does not retain the stated Green-function form"
+      ],
+      "claim_ceiling": "observed-side linear fitting construction only; no GU derivation source ownership dark-matter model rotation fit prediction confirmation or benchmark discharge"
+    }
+  ],
+  "input_currency": {
+    "checked": true,
+    "matching_canonical_source_corrections": [],
+    "separate_acknowledgement": "RFAIL-03 is fenced to the W225 imported-Schwarzschild strong-field route"
+  },
+  "ledger_verdict_change": "none",
+  "ledger_row_field_change": "none",
+  "source_ownership_change": "none",
+  "mechanism_commitment_change": "none",
+  "confirmation_credit_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
