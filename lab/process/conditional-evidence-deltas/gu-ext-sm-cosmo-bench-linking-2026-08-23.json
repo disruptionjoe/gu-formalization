@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+    "ledger_sha256": "8151fd5c48d661d7c9cf8762c813955d672df9900aa2a91930c349fdbd19bee1"
+  },
+  "affected_rows": [
+    "LT-SM1",
+    "LT-SM8",
+    "LT-GR1",
+    "LT-GR2"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/ext-sm-cosmo-anchors-acceptance-and-descents-2026-08-23.md",
+    "lab/process/ext-sm-cosmo-anchors-acceptance-and-descents.json",
+    "tests/channel-swings/ext_sm_cosmo_anchors_acceptance_and_descents_probe.py"
+  ],
+  "source_disposition": "No source claim is attributed and no source-native mechanism is selected. The SM anchor binds observed low-energy structure only and explicitly leaves total-theory chirality to the source's own registered claim surface (non-chiral total theory with emergent 2+1 observed asymmetry, SC-CHI-01/03/50/51, SC-GEN-01/02/04/05); ordinary family-index and net-chirality computations remain non-adjudicating controls per the comparator-routing forks. The cosmology anchor restates no PP1/PP3 content and defers all dark-energy confrontation to the frozen packages and the F1/P-OBS binding.",
+  "claim_ceiling": "Scoped external benchmark acceptance plus frozen demand packets. No gauge sector, breaking mechanism, generation count, background, expansion history, positivity construction or verdict is produced. The generation count is typed as an importable external selection datum consistent with the located-not-forced record, never as a derivation target.",
+  "proposed_effect": {
+    "summary": "Verdict changes: none; all linked rows keep their current verdicts. Proposed additions to the external-benchmark register only: EXT-SM-STRUCTURE and EXT-COSMO-BACKGROUND at scoped grade with mechanism commitment NONE, each linked to its existing realization rows rather than minting new LT rows, plus a context note recording the seven-owner consolidated demand ledger.",
+    "requested_row_changes": [
+      "external_benchmarks: append EXT-SM-STRUCTURE (scoped observed gauge-structure benchmark; linked rows LT-SM1..LT-SM8; observed-side only; total-theory chirality not adjudicated)",
+      "external_benchmarks: append EXT-COSMO-BACKGROUND (scoped observed expansion-history benchmark; linked rows LT-GR1, LT-GR2/2a-2e; dark-energy confrontation deferred to frozen PP1/PP3 via P-OBS)",
+      "LT-SM8.context: note the positivity/state-space owner (OWNER-F) is jointly demanded with LT-GR8 D3",
+      "LT-GR2.context: note the normalization owner (OWNER-C) is jointly demanded with the PPN, rotation and LT-GR8 lanes"
+    ]
+  },
+  "conflict_keys": [
+    "EXT-SM-COSMO-BENCH-LINKING",
+    "OWNER-LEDGER-V2"
+  ],
+  "integration": null
+}

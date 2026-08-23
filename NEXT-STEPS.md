@@ -7,6 +7,29 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE LAST TWO LEGS ARE BENCHED AND DESCENDED; THE OWNER LEDGER
+> REACHES SEVEN.** `EXT-SM-STRUCTURE` (observed gauge structure at tested
+> accuracy — group, representations/hypercharge, anomaly freedom, three
+> observed chiral-looking families with mixing, electroweak breaking,
+> confinement) and `EXT-COSMO-BACKGROUND` (observed expansion history, with
+> late-time deviations confined to the frozen PP1/PP3 families via P-OBS)
+> are accepted at scoped grade and descended R5-R3. Both **link existing
+> realization rows** (LT-SM1..LT-SM8; LT-GR1 and the LT-GR2 family) instead
+> of minting duplicates. Two typing guards are load-bearing: the SM anchor
+> binds observed structure only and does **not** adjudicate total-theory
+> chirality (the source's non-chiral `2+1` claim surface stands, and
+> ordinary index/net-chirality computations remain controls), and the
+> generation count is typed as an importable external selection datum per
+> located-not-forced — accommodation demanded, never derivation. The
+> consolidated ledger becomes v2 with seven owners, adding **OWNER-F**
+> (positivity/state space at the K109 entry gate; LT-GR8 D3 + LT-SM8) and
+> **OWNER-G** (external selection data: generation count, chirality
+> cell-selection, causal-orientation seed, balanced seed). Six descents,
+> seven owners, every owner triangulated by at least two lanes. Demands,
+> not constructions. Awareness note: Joe-lane R6 work; scheduled Progress
+> predicates untouched. See
+> `explorations/conditional-build/ext-sm-cosmo-anchors-acceptance-and-descents-2026-08-23.md`.
+
 > **2026-08-23 THE THREE GRAVITATIONAL ANCHOR DESCENTS ARE FROZEN R5-R3 AND
 > THE R1 DEMAND LEDGER IS CONSOLIDATED TO FIVE OWNERS.** Strong-field, PPN
 > and rotation-curve anchors each receive frozen comparator-driven R5/R4/R3

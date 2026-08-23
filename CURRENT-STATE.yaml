@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8473a62d8b99be7211ac2f6dd17df7e57b7ef5a2
+revision_basis: 67c71c5c6910599d09f8a91042c3ce19366742ba
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,29 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The last two unbenched legs are accepted and descended, completing the R6
+    bench. EXT-SM-STRUCTURE binds the observed low-energy gauge structure
+    (group, representations and hypercharge, anomaly freedom, three observed
+    chiral-looking families with mixing, electroweak breaking, confinement)
+    while explicitly not adjudicating total-theory chirality, which remains
+    the source's registered non-chiral claim surface with its emergent 2+1
+    construction; ordinary family-index and net-chirality computations stay
+    non-adjudicating controls, and the generation count is typed as an
+    importable external selection datum consistent with located-not-forced,
+    never a derivation target. EXT-COSMO-BACKGROUND binds the observed
+    expansion history with late-time deviations confined to the frozen
+    PP1/PP3 families through the existing P-OBS pipeline, restating none of
+    them. Both anchors LINK existing realization rows (LT-SM1..LT-SM8;
+    LT-GR1 and the LT-GR2 family) rather than minting duplicates. Their
+    frozen R5-R3 descents extend the consolidated demand ledger to seven
+    owners (v2, machine-checked superset of v1): the two additions are
+    OWNER-F, the positivity/state-space owner at the K109 entry gate jointly
+    demanded by LT-GR8 D3 and LT-SM8, and OWNER-G, the external selection
+    data surface carrying the generation-count datum, the chirality
+    cell-selection datum, the causal-orientation seed and the balanced seed.
+    Six descents now resolve into seven owners, each triangulated by at
+    least two independent lanes. Demands, not constructions; all linked rows
+    keep their verdicts; instantiation stays CBRS-blocked.
     The three accepted gravitational anchors are descended R5-R3 as frozen
     comparator-driven demand packets, and the four descent interfaces
     (including LT-GR8's) are consolidated into a five-owner R1 demand

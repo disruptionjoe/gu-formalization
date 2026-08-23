@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ext_sm_cosmo_anchor_acceptance_and_descent_registry",
+  "created": "2026-08-23",
+  "status": "TWO_ANCHORS_ACCEPTED_AND_DESCENDED__OWNER_LEDGER_V2_SEVEN_OWNERS__ALL_REALIZATIONS_KEEP_CURRENT_VERDICTS",
+  "directed_by": "Joe direct chat 2026-08-23; awareness-note canon path",
+  "pattern": "EXT-J95-SEMI-CLASSICAL-HORIZON",
+  "mechanism_commitment": "NONE",
+  "confirmation_credit": "NONE",
+  "council_votes": {"EXT-SM-STRUCTURE": "7-0", "EXT-COSMO-BACKGROUND": "7-0"},
+  "anchors": [
+    {
+      "id": "EXT-SM-STRUCTURE",
+      "kind": "EXTERNAL_CONDITIONAL_BENCHMARK",
+      "status": "ACCEPTED_AS_SCOPED_REVERSE_SCAFFOLD_TARGET",
+      "statement": "In the low-energy observed regime, a viable construction reproduces the observed gauge structure at tested accuracy: SU(3) x SU(2) x U(1) with the observed representation and hypercharge content, anomaly freedom, three observed chiral-looking families with mixing, electroweak breaking with massive W/Z and a massless photon, and color confinement. The benchmark binds observed low-energy structure only; total-theory chirality is the source's claim surface (explicitly non-chiral with emergent observed asymmetry, SC-CHI-01/03/50/51, SC-GEN-01/02/04/05) and is not adjudicated here.",
+      "linked_rows": ["LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM3", "LT-SM3b", "LT-SM4", "LT-SM5", "LT-SM6", "LT-SM7", "LT-SM8"],
+      "routing_forks_typed": "ordinary family-index/net-chirality computations are controls (fork 1); the breaking route is connection-curvature (fork 2) composed with observation (fork 3); Majorana/anomaly diagnostics are scoped controls (fork 4)",
+      "gu_realization_status": "PER_LINKED_ROWS_UNCHANGED",
+      "claim_ceiling": "accommodation demanded, not derivation; the generation count enters as an observed datum importable as a typed external selection datum per the located-not-forced record"
+    },
+    {
+      "id": "EXT-COSMO-BACKGROUND",
+      "kind": "EXTERNAL_CONDITIONAL_BENCHMARK",
+      "status": "ACCEPTED_AS_SCOPED_REVERSE_SCAFFOLD_TARGET",
+      "statement": "The observed homogeneous-isotropic expansion history at tested accuracy for standard matter content, with late-time acceleration deviations confined to the already-frozen PP1/PP3 families evaluated only through the existing P-OBS pipeline.",
+      "linked_rows": ["LT-GR1", "LT-GR2", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"],
+      "no_duplication": "PP1/PP3 kill surfaces and the F1/P-OBS binding govern all dark-energy confrontation; this anchor restates none of them",
+      "gu_realization_status": "PER_LINKED_ROWS_UNCHANGED",
+      "claim_ceiling": "no expansion history is computed; deviations beyond the frozen families are out of scope for this anchor"
+    }
+  ],
+  "descents": {
+    "EXT-SM-STRUCTURE": {
+      "r5_frozen": {
+        "comparator_driven": true,
+        "structure": "observed gauge group with representation/hypercharge assignments; anomaly cancellation as frozen consistency conditions; three observed chiral-looking families with mixing at tested accuracy",
+        "routing_note": "ordinary family-index or net-chirality computations are controls only (fork 1)"
+      },
+      "r4_frozen": {
+        "comparator_driven": true,
+        "breaking": "electroweak breaking with massive W/Z, massless photon and observed mixing-angle relations at tested accuracy; color confinement",
+        "route_note": "breaking-owner route is native: connection-curvature (fork 2) composed with observation (fork 3); demands on owners, not mechanism commitments"
+      },
+      "r3_frozen": {
+        "comparator_driven": true,
+        "selection": "reduction selects the observed gauge sector; recorded blocked items map here (mu6 descent, J/Higgs selection, photon kernel, extra-U1 mass direction)",
+        "quotient": "positive or Krein-superselected physical quotient (LT-SM8) meeting the K109 entry gate; invariant-linear repairs closed by K107"
+      },
+      "interface": [
+        {"id": "SM-1", "demand": "observation-composed symmetry-breaking owner", "lands_on": "routing forks 2/3; connection-curvature gates and the composed-reduction method", "owner": "OWNER-A"},
+        {"id": "SM-2", "demand": "emergent 2+1 chirality construction", "lands_on": "CHK-2 't Hooft ledger gate plus the typed cell-selection external datum", "owner": "OWNER-G"},
+        {"id": "SM-3", "demand": "generation-count external datum", "lands_on": "located-not-forced record; Hom(Z/3,Z)=0 bridge obstruction", "owner": "OWNER-G"},
+        {"id": "SM-4", "demand": "photon kernel and extra-U1 mass-direction owners on an actual background", "lands_on": "recorded blocked items behind CBRS-1", "owner": "OWNER-B"},
+        {"id": "SM-5", "demand": "positive physical quotient", "lands_on": "LT-SM8 NEEDS via the K109 entry gate", "owner": "OWNER-F"},
+        {"id": "SM-6", "demand": "SM matter coupling at tested accuracy", "lands_on": "no released owner", "owner": "OWNER-E"}
+      ]
+    },
+    "EXT-COSMO-BACKGROUND": {
+      "r5_frozen": {
+        "comparator_driven": true,
+        "expansion": "homogeneous-isotropic expansion with standard radiation and matter eras at tested accuracy; late-time deviations confined to frozen PP1/PP3 families",
+        "confrontation": "evaluated only through the existing P-OBS pipeline"
+      },
+      "r4_frozen": {
+        "comparator_driven": true,
+        "symmetry": "spatial homogeneity and isotropy as observed-side symmetry demands",
+        "causal": "cosmological causal/horizon structure post-observation only (T-4 inherited)",
+        "recorded_state": "LT-GR2 family: movable equivariant dark-energy distortion with action-owned w(z), cited at grade"
+      },
+      "r3_frozen": {
+        "comparator_driven": true,
+        "reduction": "well-posed constrained homogeneous reduction with even scalar constraint and lapse (demand D1 recurs)"
+      },
+      "interface": [
+        {"id": "COS-1", "demand": "Einstein reduction owner", "lands_on": "same owner as PPN-1/SF-1", "owner": "OWNER-A"},
+        {"id": "COS-2", "demand": "dark-energy amplitude / absolute-scale normalization, F1-bound", "lands_on": "normalization family; H24 ratio-only structure", "owner": "OWNER-C"},
+        {"id": "COS-3", "demand": "standard matter content coupling", "lands_on": "no released owner", "owner": "OWNER-E"},
+        {"id": "COS-4", "demand": "homogeneous non-stationary background family", "lands_on": "CBRS-1; OWNER-B description widened to action-stationary or cosmological backgrounds", "owner": "OWNER-B"},
+        {"id": "COS-5", "demand": "constraint/lapse structure", "lands_on": "B5 WRONG_TYPE gap; D1 recurs", "owner": "OWNER-A"}
+      ]
+    }
+  },
+  "consolidated_r1_owner_ledger_v2": {
+    "supersedes": "the five-owner ledger in lab/process/ext-gr-anchors-reverse-track-descents-r5-to-r3.json, which remains accurate for its own descents; v2 is a machine-checked superset",
+    "OWNER-A": {
+      "name": "branch-fixed source action deriving the shiab-Einstein reduction (E_s^theta, alpha_W) and the observation-composed reduction/breaking structure",
+      "demanded_by": ["SF-1", "PPN-1", "PPN-4", "ROT-2", "LT-GR8-D1", "SM-1", "COS-1", "COS-5"]
+    },
+    "OWNER-B": {
+      "name": "action-stationary or cosmological background solutions, horizon-bearing where demanded (CBRS-1)",
+      "demanded_by": ["SF-4", "SF-5", "LT-GR8-CAUSAL-BOUNDARY-INSTANTIATION", "SM-4", "COS-4"]
+    },
+    "OWNER-C": {
+      "name": "normalization/ratio family: G_eff, entropy constant eta, Einstein-versus-conformal ratio, dark-energy amplitude; absolute scale = external datum (H24)",
+      "demanded_by": ["PPN-2", "ROT-1", "LT-GR8-D3-F1", "COS-2"]
+    },
+    "OWNER-D": {
+      "name": "well-posed observed reductions of the ultrahyperbolic ambient; boundary law",
+      "demanded_by": ["SF-3", "PPN-R3", "ROT-R3", "LT-GR8-D2"]
+    },
+    "OWNER-E": {
+      "name": "matter coupling / geodesic motion / Ward-conserving stress",
+      "demanded_by": ["SF-2", "PPN-3", "ROT-3", "LT-GR8-D4-RESIDUE", "SM-6", "COS-3"]
+    },
+    "OWNER-F": {
+      "name": "positivity/state-space owner: positive or Krein-superselected physical pairing meeting the K109 entry gate (K106-K111 line)",
+      "demanded_by": ["LT-GR8-D3", "SM-5"]
+    },
+    "OWNER-G": {
+      "name": "external selection data: generation-count datum (located-not-forced), chirality cell-selection datum (CHK-2), causal-orientation seed (LT-GR8 D5, T-4-priced), balanced seed R_0",
+      "demanded_by": ["SM-2", "SM-3", "LT-GR8-D5"]
+    }
+  },
+  "progress_rule": "an R1-side result counts as descent progress only if it discharges or materially narrows a consolidated owner",
+  "instantiation": "CBRS-blocked; nothing observed-side or native-side is constructed",
+  "evidence_delta": "lab/process/conditional-evidence-deltas/gu-ext-sm-cosmo-bench-linking-2026-08-23.json",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
