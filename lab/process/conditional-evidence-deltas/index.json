@@ -6,6 +6,11 @@
       "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
       "path": "lab/process/conditional-evidence-deltas/gu-tw-coherence-27-lens-2026-08-14.json",
       "status": "conflicting"
+    },
+    {
+      "delta_id": "GU-LTGR8-BOUNDARY-CARRIER-TYPING-2026-08-22",
+      "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-boundary-carrier-typing-2026-08-22.json",
+      "status": "pending"
     }
   ]
 }

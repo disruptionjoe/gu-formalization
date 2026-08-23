@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ltgr8_carrier_and_boundary_typing_registry",
+  "created": "2026-08-22",
+  "status": "TYPING_STEP_COMPLETE__LTGR8_REMAINS_NEEDS_MISSING_CONSTRUCTION",
+  "lane_id": "1",
+  "agenda_items": [
+    "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"
+  ],
+  "target_claim": "ledger row LT-GR8 (verdict NEEDS unchanged); the missing bridge's carrier and boundary components are typed and the post-observation-only boundary certificate is machine-checked",
+  "ledger_row": "LT-GR8",
+  "ledger_version": "lab/process/conditional-physics-ledger-v0.260.json",
+  "external_benchmark_ref": "EXT-J95-SEMI-CLASSICAL-HORIZON",
+  "mechanism_commitment": "NONE",
+  "confirmation_credit": "NONE",
+  "notation": "plus-first (positives first), author-aligned with eq. (12.19)",
+  "exact_typing_certificate": {
+    "horizontal_signs": [1, -1, -1, -1],
+    "vertical_signs": [1, 1, 1, 1, 1, 1, -1, -1, -1, -1],
+    "expected_total_signature": [7, 7],
+    "t1_restriction": "q restricted to H equals q_H; ambient null cone intersect H equals observed null cone",
+    "t2_lift_witnesses": {
+      "null_conormals_H": [["1", "1", "0", "0"], ["5", "3", "4", "0"], ["13", "3", "4", "12"]],
+      "non_null_conormals_H": [["1", "0", "0", "0"], ["0", "1", "0", "0"], ["2", "1", "1", "1"]]
+    },
+    "t3_cone_dimensions": {
+      "ambient_characteristic_cone_dim": 13,
+      "lifted_observed_null_family_dim": 3,
+      "smooth_point_witness": ["1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+    },
+    "t4_observed_two_components": "for u in H with q_H(u) > 0 the coordinate u0 never vanishes: q_H(0,u1,u2,u3) = -(u1^2+u2^2+u3^2) <= 0",
+    "t4_ambient_path": {
+      "plane": ["e0", "e4"],
+      "segment1": "gamma1(t) = ((1-t^2)/(1+t^2)) e0 + (2t/(1+t^2)) e4, t in [0,1], from e0 to e4",
+      "segment2": "gamma2(t) = (-2t/(1+t^2)) e0 + ((1-t^2)/(1+t^2)) e4, t in [0,1], from e4 to -e0",
+      "sample_ts": ["0", "1/5", "1/2", "3/4", "1"],
+      "invariant": "q(gamma(t)) = 1 exactly at every sample"
+    },
+    "both_signs_witness": {
+      "horizontal_null": ["1", "1", "0", "0"],
+      "positive_vertical_index": 4,
+      "negative_vertical_index": 10,
+      "expected": "q(u + e4) = 1 > 0 and q(u + e10) = -1 < 0"
+    }
+  },
+  "boundary_census": [
+    {
+      "type": "LOCAL_RINDLER_HORIZON",
+      "ambient_status": "CONORMAL_LIFTS__ORIENTATION_DOES_NOT__POST_OBSERVATION_ONLY",
+      "owner_status": "NEEDS_OBSERVED_BACKGROUND__BLOCKED_ON_CBRS1"
+    },
+    {
+      "type": "COSMOLOGICAL_HORIZON",
+      "ambient_status": "POST_OBSERVATION_ONLY_PLUS_GLOBAL_STRUCTURE",
+      "owner_status": "NEEDS_OBSERVED_BACKGROUND__BLOCKED_ON_CBRS1"
+    },
+    {
+      "type": "YORK_QUASILOCAL_ENSEMBLE_BOUNDARY",
+      "ambient_status": "NOT_CAUSAL_NATIVE__IMPOSED_BOUNDARY_IS_A_DIFFERENT_SYSTEM",
+      "owner_status": "MISSING_OWNER__NO_RELEASED_PHYSICAL_BOUNDARY_LAW_K104"
+    },
+    {
+      "type": "ANALYTIC_OPERATOR_DOMAIN_BOUNDARY",
+      "ambient_status": "AMBIENT_NATIVE_NEED__NONLOCAL_CONSTRAINT_CLASS_CODIM_ONE_ONLY",
+      "owner_status": "DISTINCT_FROM_EVERY_CAUSAL_TYPE__DO_NOT_IDENTIFY"
+    },
+    {
+      "type": "BV_BFV_BOUNDARY",
+      "ambient_status": "ACTION_OWNED_DATA__BOUNDARY_LAW_UNOWNED_K103_K104",
+      "owner_status": "MISSING_OWNER"
+    },
+    {
+      "type": "CAPABILITY_MEASUREMENT_BOUNDARY",
+      "ambient_status": "PROPOSED_TYPED_BRIDGE_ONLY_W151_CORRECTION",
+      "owner_status": "UNPROVED_BRIDGE"
+    }
+  ],
+  "packet_component_status": {
+    "causal_boundary": "TYPED_POST_OBSERVATION_ONLY__LIFT_HALF_EXISTS__INSTANTIATION_BLOCKED_ON_CBRS1",
+    "canonical_reduction": "CBRS2_DEPENDENCY_BLOCKED",
+    "entropy_density_frozen_normalization": "MISSING_OWNER_NO_STATE_SPACE_K106_K107",
+    "temperature_or_kms_state": "MISSING_OWNER_NEEDS_STATE_AND_FLOW",
+    "stress_energy_flux": "PARTIAL_NATIVE_HILBERT_STRESS_RECONSTRUCTION_GRADE__OBSERVED_COMPOSITION_UNTYPED",
+    "equilibrium_or_entropy_production_law": "MISSING_OWNER_NO_RELEASED_BOUNDARY_LAW_K104",
+    "held_out_consequence": "RESERVED_AT_PACKET_TIME_NONE_FROZEN"
+  },
+  "evidence_delta": "lab/process/conditional-evidence-deltas/gu-ltgr8-boundary-carrier-typing-2026-08-22.json",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

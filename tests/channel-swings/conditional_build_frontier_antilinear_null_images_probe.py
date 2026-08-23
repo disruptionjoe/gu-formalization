@@ -82,7 +82,10 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     items = {item["id"]: item for item in agenda["work_items"]}
     check("PROOF-STABLE-KERNELS" in items, "proof agenda item")
     next_swing = items["PROOF-STABLE-KERNELS"]["next_swing"]
-    check("T3 corrected finite antilinear null-image kernel are complete" in next_swing, "agenda closes T3")
+    # The L10 close (8e21f52f) extended this list past T3; the check's intent
+    # is only that the agenda records T3 complete and keeps rebuilding the frontier.
+    check("T3 corrected finite antilinear null-image kernel" in next_swing
+          and "are complete" in next_swing, "agenda closes T3")
     check("Rebuild the substantial frontier" in next_swing, "agenda rebuilds frontier")
     check("park" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"].lower(), "agenda keeps CBRS-1 parked")
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8e21f52fd2ff9290a0fe046ff66a22ad81dd7ab3
+revision_basis: 1a6427812807869f976d4e19603522c94e5b50a0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,26 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The admitted LT-GR8 typing step is executed at its exact metric-only
+    ceiling. Over the observed section split H + V with plus-first signatures
+    (1,3) and (6,4), four machine-checked facts type the missing bridge's
+    boundary component: the ambient form restricts to the observed Lorentzian
+    form; an observed null hypersurface's zero-vertical conormal lift is
+    ambient-characteristic exactly when the surface is observed-null; the
+    ambient characteristic cone is 13-dimensional against the 3-dimensional
+    lifted family, so descent needs the observation map; and the observed
+    future/past two-component orientation is not the restriction of any
+    locally constant ambient datum, because the ambient (7,7) positive set is
+    connected by an exact rational unit path. Causal boundaries — Rindler or
+    cosmological horizons, wedges, Clausius signs — are therefore
+    post-observation-only objects under metric-only typing, giving the
+    council's benchmark placement an exact kinematic certificate. The six-way
+    boundary-type census and seven-component packet map record the remaining
+    owners as CBRS-blocked or missing (entropy normalization, temperature/KMS,
+    physical boundary law) with the held-out consequence unreserved. LT-GR8
+    stays NEEDS/MISSING_CONSTRUCTION; a pending conditional evidence delta
+    records the refinement; no background, horizon existence, entropy,
+    temperature, state space, prediction, or GU verdict follows.
     The post-L10 frontier replay finds the registered CBRS-1 admissible set
     still empty and corrects the frontier enumeration itself: ledger v0.260's
     LT-GR8 realization obligation, registered 2026-08-21 with a licensed
@@ -2733,12 +2753,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  The substantial frontier is rebuilt with the LT-GR8 typing arc admitted and
-  selected: execute the K77-to-observed-3+1 carrier and boundary typing swing
-  next, at typing grade only, with no background construction, no CBRS-2
-  advance, and no prediction or confirmation credit. State the source-to-proof
-  delta in every subsequent frontier replay and label stable-proof or
-  integrity work maintenance whenever the delta is unmoved.
+  The LT-GR8 typing step is executed and closed at its metric-only ceiling: do
+  not re-run it, extend it past typing grade, or treat an ambient
+  characteristic surface as a causal boundary. Causal-boundary instantiation
+  remains blocked on an actual CBRS-1 background; entropy normalization,
+  temperature/KMS, and the physical boundary law remain missing owners; the
+  held-out consequence is reserved only at packet time. Rebuild the
+  substantial frontier before selecting more work, state the source-to-proof
+  delta in every frontier replay, and label stable-proof or integrity work
+  maintenance whenever the delta is unmoved.
   PROOF-STABLE-KERNELS T3 is complete at the corrected finite complex Hermitian
   ceiling: Lean types the antilinear input as a star-semilinear map, constructs
   its mapped complex submodules, keeps total isotropy of those images explicit,

@@ -7,6 +7,26 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 LT-GR8 CARRIER AND BOUNDARY TYPING IS EXECUTED AT ITS
+> METRIC-ONLY CEILING.** The forward track's first step is complete: over the
+> observed section split with plus-first signatures `(1,3)+(6,4)`, exact
+> rational certificates establish that the ambient form restricts to the
+> observed Lorentzian form, that observed-null hypersurface conormals lift to
+> ambient-characteristic data (and only they do among zero-vertical lifts),
+> that the 13-dimensional ambient characteristic cone does not descend to the
+> 3-dimensional observed family without the observation map, and that the
+> observed future/past orientation has no ambient counterpart — the `(7,7)`
+> positive set is connected. **Every causal boundary object (Rindler or
+> cosmological horizon, wedge, Clausius sign) is post-observation-only under
+> metric-only typing**, which converts the council's benchmark placement into
+> an exact kinematic certificate. Remaining LT-GR8 packet owners: causal
+> boundary instantiation (blocked on CBRS-1), canonical reduction (CBRS-2),
+> entropy normalization and temperature/KMS (no state space; K106/K107),
+> physical boundary law (K104), held-out consequence (reserved at packet
+> time). LT-GR8 stays `NEEDS`; a pending conditional evidence delta records
+> the refinement. Rebuild the substantial frontier next. See
+> `explorations/conditional-build/selected-k77-ltgr8-observed-boundary-carrier-typing-2026-08-22.md`.
+
 > **2026-08-22 THE FRONTIER REPLAY ADMITS THE LT-GR8 TYPING ARC AND ADOPTS
 > THE SOURCE-TO-PROOF DELTA.** The post-L10 replay finds the registered
 > CBRS-1 admissible set still empty (CBRS-1 parked, CBRS-2 blocked, C1/B5
