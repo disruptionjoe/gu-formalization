@@ -7,6 +7,26 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 LT-GR8 D6 IS PROTOCOL-FROZEN: THE HELD-OUT CONSEQUENCE FAMILY,
+> SELECTION RULE AND RESERVATION PROTOCOL ARE FIXED BEFORE ANY PACKET
+> EXISTS.** Family F1 (primary): cross-sector normalization consistency —
+> the packet's implied relation between its entropy normalization and the
+> action's dark-energy amplitude, confronted only against
+> amplitude-calibration data released after the packet freeze (already-read
+> DESI DR2 numbers are inadmissible; the data wake is the P-OBS lane).
+> Family F2 (fallback): the nonequilibrium correction form the
+> equilibrium-only reverse build never used. The selection rule's only
+> escape (F2 over F1) requires a typed non-coupling derivation inside the
+> packet; a third family requires a new council decision and voids
+> prediction credit. The five-step reservation protocol commits the numeric
+> consequence before any target-facing comparison is read; deviations drop
+> the packet to reverse-only compatibility, and the success ceiling is
+> "prediction candidate pending independent verification." The descent-side
+> executable queue is now empty (D1-D3 wait on R1-side owners, D4 closed,
+> D5 blocked, D6 reservation executes at packet time): rebuild the
+> substantial frontier next. See
+> `explorations/conditional-build/selected-k77-ltgr8-heldout-consequence-reservation-protocol-2026-08-23.md`.
+
 > **2026-08-23 THE LT-GR8 REVERSE TRACK DESCENDS FROM THE BENCHMARK: R5, R4,
 > R3 ARE FROZEN AND R2/R1 RECEIVE A SIX-DEMAND INTERFACE.** Execution-order
 > correction (Joe direct chat): reverse-track work starts at the

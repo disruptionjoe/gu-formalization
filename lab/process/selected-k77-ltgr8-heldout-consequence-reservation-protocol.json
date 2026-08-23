@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ltgr8_heldout_consequence_preregistration_registry",
+  "created": "2026-08-23",
+  "status": "D6_PROTOCOL_FROZEN__RESERVATION_EXECUTES_AT_PACKET_TIME__LTGR8_REMAINS_NEEDS",
+  "lane_id": "1",
+  "agenda_items": [
+    "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"
+  ],
+  "directed_by": "Joe direct chat 2026-08-23: continue the descent; execute the next demand",
+  "target_claim": "LT-GR8 demand D6 at protocol grade; the reservation itself executes only at packet time",
+  "ledger_row": "LT-GR8",
+  "ledger_version": "lab/process/conditional-physics-ledger-v0.260.json",
+  "external_benchmark_ref": "EXT-J95-SEMI-CLASSICAL-HORIZON",
+  "mechanism_commitment": "NONE",
+  "confirmation_credit": "NONE",
+  "family_f1_primary": {
+    "name": "CROSS_SECTOR_NORMALIZATION_CONSISTENCY",
+    "consequence": "the packet's implied relation between its entropy normalization eta and the action's dark-energy amplitude",
+    "confrontation_data": "BAO or BAO-like amplitude-calibration data released after the packet freeze only",
+    "already_read_inadmissible": "in-repo DESI DR2 numbers (marginalized A* = 30.8059, own-theta_star A_GU = 31.9715, canonical f_0 = 0.125 shape) are recorded, already read, and inadmissible as held-out data; they may seed the derivation, never the confrontation",
+    "standing_exclusion_observable": "a future BAO amplitude calibration confirming the Planck value at sub-percent precision excludes the family (VERIFICATION.md, recorded grade)",
+    "data_wake": "P-OBS monitor lane"
+  },
+  "family_f2_fallback": {
+    "name": "NONEQUILIBRIUM_CORRECTION_FORM",
+    "consequence": "the nonequilibrium/entropy-production correction functional form implied by the packet's derived boundary law",
+    "confrontation_data": "entries of the 2022-2025 model-scoped Jacobson-family test library not used in the reverse build",
+    "why_held_out": "the R5 packet froze the reverse build to the leading-order equilibrium Clausius law, so the correction was never a build input"
+  },
+  "selection_rule": "F1 unless the packet contains a typed derivation that its action leaves the dark-energy amplitude undetermined (a non-coupling proof, not a convenience claim), in which case F2; if neither family is realizable the packet earns compatibility only; any third family requires a new council decision and voids prediction credit for that packet",
+  "reservation_protocol": [
+    "apply the frozen selection rule and state the consequence with numeric content (value, interval, or explicit functional form) plus the comparison statistic",
+    "record it in a dedicated registry file naming the packet commit hash and the base conditional-physics-ledger digest",
+    "commit that record; only after the record is committed may any target-facing comparison be read or computed",
+    "the confrontation may use only data released after the freeze commit, or a blind subset pre-registered by name inside the record",
+    "any deviation - retroactive edit, family swap, statistic change, or early reading of target-facing results - voids prediction credit and drops the packet ceiling to reverse-only compatibility"
+  ],
+  "credit_grammar": {
+    "success_ceiling": "prediction candidate pending independent verification; never summarized as GU confirmed",
+    "failure_scope": "kills only the scoped GU-Jacobson thermodynamic-emergence bridge per LT-GR8 kill scope"
+  },
+  "descent_interface_accounting": {
+    "D1_D2_D3": "R1-side demands waiting on source/action owners",
+    "D4": "closed 2026-08-23 as exact type correction (stress already observed; hypothetical ambient route typed, input unowned)",
+    "D5": "blocked on a new orientation owner (T-4 certificate)",
+    "D6": "PROTOCOL_FROZEN_HERE__RESERVATION_AT_PACKET_TIME",
+    "queue": "descent-side executable queue empty; progress now depends on R1-side owners measured against the interface; selection returns to the substantial frontier"
+  },
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

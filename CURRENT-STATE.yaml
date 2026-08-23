@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a0a29a15bf9a7cae6fffe35464063f2cc6664daa
+revision_basis: ded95135727b0f895f7471679bb0116e2d3f030d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    LT-GR8 demand D6 is executed at protocol grade: the held-out consequence
+    family, selection rule, and packet-time reservation protocol are frozen
+    before any packet exists. Family F1 (primary) is cross-sector
+    normalization consistency — the packet's implied relation between its
+    entropy normalization and the action's dark-energy amplitude, confronted
+    only against amplitude-calibration data released after the packet freeze;
+    the already-read DESI DR2 numbers are typed inadmissible as held-out
+    data, and F1's data wake is the P-OBS monitor lane. Family F2 (fallback)
+    is the nonequilibrium correction form the equilibrium-only reverse build
+    never used, and switching to F1 or F2 outside the frozen selection rule —
+    or any retroactive edit, family swap, or early reading of target-facing
+    results — voids prediction credit, with the success ceiling fixed at
+    prediction candidate pending independent verification. The descent-side
+    executable queue is now empty: D1-D3 wait on R1-side owners, D4 closed as
+    an exact type correction, D5 is blocked on a new orientation owner, and
+    D6's reservation executes at packet time. Selection returns to the
+    substantial frontier with progress measured against the interface.
+    LT-GR8 remains NEEDS.
     The LT-GR8 reverse track is now executed in its stated direction for the
     first time. The council's chain is registered as descent rungs R6..R1
     (R-vocabulary to avoid the six-axis L1..L7 and Layer-0 homonyms), and the
@@ -2811,6 +2829,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Demand D6 is protocol-frozen: the held-out consequence family (F1
+  cross-sector normalization consistency, F2 nonequilibrium correction
+  form), its selection rule, and the five-step packet-time reservation
+  protocol are fixed and may not be re-chosen, loosened, or swapped after
+  any packet exists; deviations void prediction credit. Do not reserve a
+  consequence value now — none exists without a packet — and do not read
+  already-recorded DESI DR2 amplitudes as held-out data. The descent-side
+  executable queue is empty; rebuild the substantial frontier and measure
+  any R1-side work against the six-demand interface.
   Reverse-track execution order is corrected (Joe direct chat 2026-08-23):
   descend the registered rungs R6 through R3 and measure progress against the
   frozen six-demand R2/R1 interface; the descent's R5, R4 and R3 packets are
