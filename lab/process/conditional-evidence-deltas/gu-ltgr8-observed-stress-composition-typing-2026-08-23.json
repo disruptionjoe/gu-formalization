@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
+  "status": "deferred",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+    "ledger_sha256": "8151fd5c48d661d7c9cf8762c813955d672df9900aa2a91930c349fdbd19bee1"
+  },
+  "affected_rows": ["LT-GR8"],
+  "result_refs": [
+    "explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
+    "lab/process/selected-k77-ltgr8-observed-stress-composition-typing.json",
+    "tests/channel-swings/selected_k77_ltgr8_observed_stress_composition_typing_probe.py"
+  ],
+  "source_disposition": "Uses registered repository results only: MD-1's observation contraction, the 2026-08-05 action-owned radial-transgression Hilbert Euler map, the 2026-08-22 post-observation causal-orientation certificate, and the 2026-08-23 frozen reverse-track D4 demand. No new Weinstein or Jacobson mechanism claim is attributed.",
+  "claim_ceiling": "Exact codomain check: the 2026-08-05 T_H is already an observed density-dual metric Euler covector and cannot be fed through s^* again. For a hypothetical unowned ambient undensitized tensor only, C_s(T_Y)=D^T T_Y D has rank 10 and kernel dimension 95; ambient density reduction, total section variation and conservation are not inherited. No ambient Hilbert input, causal boundary, flux, entropy, temperature, state, prediction, confirmation or GU verdict is constructed; the existing observed T_H and its matter-shell Ward theorem remain preserved at their recorded scope.",
+  "proposed_effect": {
+    "summary": "Verdict unchanged: LT-GR8 stays NEEDS / MISSING_CONSTRUCTION. Refine D4 from observed composition untyped to a codomain correction: existing T_H is already observed and re-pullback is ill-typed; a hypothetical ambient tensor contraction is exact but unowned, and causal flux remains missing.",
+    "requested_row_changes": [
+      "LT-GR8.distance: record that the existing T_H already lands in the observed metric Euler dual, so a second s^* composition is ill-typed; preserve D^T T_Y D only as the exact conditional map for a future ambient tensor owner",
+      "LT-GR8.context.note: preserve the existing observed matter-shell Ward theorem while keeping hypothetical ambient reduction and physical causal flux separate"
+    ]
+  },
+  "conflict_keys": ["LT-GR8-STRESS-FLUX-TYPING", "LT-GR8-OBSERVATION-COMPOSITION"],
+  "integration": {
+    "disposition": "deferred",
+    "canonical_ledger_ref": null,
+    "reason": "The exact D4 type split is propagated to current owner state and the reverse-track packet while LT-GR8's canonical NEEDS / MISSING_CONSTRUCTION verdict remains unchanged. A new sequential ledger version solely for the row-distance refinement would add churn; retain the delta until LT-GR8 next moves for an independent scientific reason."
+  }
+}

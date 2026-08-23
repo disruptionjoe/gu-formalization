@@ -73,7 +73,9 @@
     {
       "id": "D4_STRESS_COMPOSITION_THROUGH_OBSERVATION",
       "demand": "observed-side composition of the native Hilbert stress through the contraction s^*",
-      "lands_on": "PARTIAL component of the 2026-08-22 packet map"
+      "lands_on": "PARTIAL component of the 2026-08-22 packet map",
+      "status": "TYPING_COMPLETE__EXISTING_T_H_ALREADY_OBSERVED__REPULLBACK_ILL_TYPED__HYPOTHETICAL_AMBIENT_TENSOR_CONTRACTION_EXACT_BUT_INPUT_UNOWNED__CAUSAL_FLUX_MISSING",
+      "result_ref": "lab/process/selected-k77-ltgr8-observed-stress-composition-typing.json"
     },
     {
       "id": "D5_ORIENTATION_SELECTION_DATA",
@@ -86,6 +88,7 @@
       "lands_on": "no-retuning rule"
     }
   ],
+  "next_demand": "D6_HELD_OUT_CONSEQUENCE_RESERVED_AT_PACKET_GRADE__D5_BLOCKED_ON_NEW_ORIENTATION_OWNER",
   "progress_rule": "descent progress is measured against the demand interface: an R1-side result that discharges none of the six demands is not reverse-track progress",
   "ledger_verdict_change": "none",
   "source_ownership_change": "none",

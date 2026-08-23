@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "integration_cursor": "GU-LTGR8-BOUNDARY-CARRIER-TYPING-2026-08-22",
+  "integration_cursor": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
   "deltas": [
     {
       "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
@@ -10,6 +10,11 @@
     {
       "delta_id": "GU-LTGR8-BOUNDARY-CARRIER-TYPING-2026-08-22",
       "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-boundary-carrier-typing-2026-08-22.json",
+      "status": "deferred"
+    },
+    {
+      "delta_id": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
+      "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-observed-stress-composition-typing-2026-08-23.json",
       "status": "deferred"
     }
   ]

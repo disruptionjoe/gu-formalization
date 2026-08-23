@@ -559,6 +559,26 @@ updated_at: "2026-08-23"
 > See
 > `explorations/conditional-build/selected-k77-cbrs1-minimal-anisotropic-action-class-2026-08-21.md`.
 
+> **2026-08-23 LT-GR8 D4 OBSERVED STRESS COMPOSITION IS TYPED, NOT
+> PHYSICALLY PROMOTED.** The 2026-08-05 common-action `T_H` already lands in
+> the observed density-dual metric Euler carrier `B_X^!`; composing it through
+> `s^*` again is ill-typed. For a hypothetical unowned ambient undensitized
+> tensor, the exact contraction is `C_s(T_Y)=D^T T_Y D`; its map
+> `Sym^2(T*Y14)->Sym^2(T*X4)` has rank `10` and kernel dimension `95`, and a
+> nonzero vertical block contributes through `J`, so this is contraction rather
+> than horizontal projection. The ambient route does **not** supply a
+> four-dimensional density, the section-dependent total Hilbert variation, or
+> inherited conservation. The existing observed `T_H` and its matter-shell
+> Ward theorem remain intact at their recorded scope, but neither object owns
+> the oriented Rindler flux. The curved-section
+> control has ambient constant divergence-free `T=diag(0,1)` but observed
+> divergence `8/25`, proving conservation is not inherited automatically.
+> D4 closes at typing grade; LT-GR8 remains `NEEDS / MISSING_CONSTRUCTION`.
+> D5 waits for new source/action-owned post-observation orientation and
+> boundary-flow data. **Next freeze D6's single held-out consequence at packet
+> grade before any target-facing comparison.** See
+> `explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md`.
+
 > **2026-08-21 LANE-1 LEAD: CONDITIONAL-BUILD-REVERSE-SCAFFOLD.** Work
 > backward from ledger v0.260 through shared constructions, not row-specific
 > fits and not an unavailable external source ledger. **CBRS-1 is next:**

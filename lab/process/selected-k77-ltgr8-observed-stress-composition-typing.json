@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ltgr8_observed_stress_composition_typing_registry",
+  "created": "2026-08-23",
+  "status": "D4_TYPING_COMPLETE__EXISTING_T_H_ALREADY_OBSERVED__REPULLBACK_ILL_TYPED__HYPOTHETICAL_AMBIENT_TENSOR_PULLBACK_EXACT__CAUSAL_FLUX_MISSING__LTGR8_REMAINS_NEEDS",
+  "lane_id": "1",
+  "agenda_items": ["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"],
+  "target_claim": "LT-GR8 demand D4 at typing grade; verdict NEEDS / MISSING_CONSTRUCTION unchanged",
+  "ledger_row": "LT-GR8",
+  "ledger_version": "lab/process/conditional-physics-ledger-v0.260.json",
+  "mechanism_commitment": "NONE",
+  "confirmation_credit": "NONE",
+  "existing_stress": {
+    "formula": "T_H(g,psi)=E_g^matter(g,psi) in B_X^!",
+    "owner": "COMMON_ACTION_OBSERVED_METRIC_EULER",
+    "density_pairing": "OWNED_AT_2026_08_05_RECONSTRUCTION_CEILING",
+    "conservation": "OBSERVED_MATTER_SHELL_WARD_EXACT_AT_RECORDED_SCOPE",
+    "ambient_input_to_s_star": false,
+    "repullback_status": "ILL_TYPED_ALREADY_OBSERVED"
+  },
+  "observation_map": {
+    "section": "s_g:X4->Y14, s_g(x)=(x,g_ab(x))",
+    "derivative": "D=ds=[I4;J_10x4]",
+    "one_form_pullback": "(s^* omega)_mu=omega_mu+omega_(ab) partial_mu g_ab",
+    "classification": "CONTRACTION_NOT_PROJECTION"
+  },
+  "type_split": {
+    "hypothetical_ambient_algebraic_symmetric_tensor_pullback": {
+      "formula": "C_s(T)=D^T T D",
+      "domain_dimension": 105,
+      "codomain_dimension": 10,
+      "rank": 10,
+      "kernel_dimension": 95,
+      "status": "EXACT_CONDITIONAL_MAP__AMBIENT_HILBERT_INPUT_UNOWNED"
+    },
+    "hypothetical_ambient_to_observed_stress_density": {
+      "status": "MISSING_OWNER",
+      "reason": "tensor-leg contraction does not map a fourteen-dimensional density line to a four-dimensional density line; D is rectangular and has no determinant",
+      "admissible_owner_classes": ["TRANSVERSE_DENSITY_OR_COAREA", "FIBRE_INTEGRATION", "DELTA_CURRENT", "INDEPENDENT_OBSERVED_ACTION"]
+    },
+    "future_ambient_action_observed_hilbert_euler": {
+      "status": "MISSING_CHAIN",
+      "reason": "s_g varies with g, so total action variation includes D_s S[D_g s(h)] and observed-density variation beyond the bare tensor contraction"
+    },
+    "hypothetical_pullback_conservation": {
+      "status": "NOT_INHERITED",
+      "reason": "ambient Ward conservation does not imply divergence-free pullback without normal/extrinsic terms and a complete observed action shell"
+    },
+    "rindler_energy_flux": {
+      "status": "MISSING_PHYSICAL_DATA",
+      "reason": "requires an instantiated oriented causal boundary, boost flow chi, boundary measure, complete shell and domain; T-4 proves orientation has no metric-only ambient default"
+    }
+  },
+  "exact_certificate": {
+    "section_jet": [
+      [1, 0, 0, 0],
+      [0, 1, 0, 0],
+      [0, 0, 1, 0],
+      [0, 0, 0, 1],
+      [1, 2, 0, 0],
+      [0, 1, 1, 0],
+      [0, 0, 1, 1],
+      [1, 0, 0, 1],
+      [2, -1, 0, 0],
+      [0, 2, -1, 0],
+      [0, 0, 2, -1],
+      [-1, 0, 0, 2],
+      [1, 1, 1, 1],
+      [2, 0, -1, 1]
+    ],
+    "pullback_map_rank": 10,
+    "pullback_map_kernel_dimension": 95,
+    "density_source_dimension": 14,
+    "density_target_dimension": 4,
+    "section_chain_control": {"action": "A(g,s)=g*s", "section": "s(g)=g", "at_g": 1, "direct_derivative": 1, "total_derivative": 2},
+    "conservation_counterexample": {"section": "s(x)=(x,x^2)", "ambient_tensor": "diag(0,1)", "ambient_divergence": 0, "at_x": 1, "induced_metric": 5, "covariant_derivative_x_xx": "8/5", "raised_divergence": "8/25"}
+  },
+  "d4_disposition": "TYPING_COMPLETE__EXISTING_T_H_ALREADY_OBSERVED__REPULLBACK_ILL_TYPED__HYPOTHETICAL_AMBIENT_CONTRACTION_EXACT__CAUSAL_FLUX_MISSING",
+  "next_demand": "D6_HELD_OUT_CONSEQUENCE_RESERVED_AT_PACKET_GRADE__D5_BLOCKED_ON_NEW_ORIENTATION_OWNER",
+  "evidence_delta": "lab/process/conditional-evidence-deltas/gu-ltgr8-observed-stress-composition-typing-2026-08-23.json",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
