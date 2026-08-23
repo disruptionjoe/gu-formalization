@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ledger_advance_wave_result_registry",
+  "created": "2026-08-23",
+  "status": "ZERO_VERIFIED_UPGRADES_OF_38__GRANT_PARTITION_AND_TWO_UNINTEGRATED_COLLAPSES__THREE_STRUCTURAL_BLOCKERS__RANKING_CORRECTED",
+  "directed_by": "Joe direct chat 2026-08-23: orchestrate a big wave that maxes ledger advances",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "surveys and adjudicates repository-internal ledger typing; kills no source claim and no research route",
+  "method": {
+    "agents": 13,
+    "lanes": 6,
+    "rows_surveyed": 35,
+    "design": "every proposed upgrade pipelined into an independent adversarial verifier instructed to refute it, defaulting to rejection under uncertainty",
+    "ledger_head_at_survey": "lab/process/conditional-physics-ledger-v0.261.json",
+    "ledger_head_at_report": "lab/process/conditional-physics-ledger-v0.262.json"
+  },
+  "outcome": {
+    "proposals": 38,
+    "verified_upgrades": 0,
+    "refuted_with_binding_verdict": 19,
+    "unverified_never_run": 14,
+    "unverified_misindexed_assessment": 5,
+    "rows_that_can_move_today": 0,
+    "rows_that_can_receive_annotation": 8,
+    "verdict_counts_changed": false
+  },
+  "author_verified_facts": [
+    {"claim": "ledger head is v0.262 with 91 rows", "verified": true},
+    {"claim": "AC-F3 is now DIFFERS / ROUTE_KILLED", "verified": true, "note": "the kill-typing delta filed earlier today was integrated"},
+    {"claim": "OVER_DETERMINED count is now 2, previously 5", "verified": true},
+    {"claim": "AC-G1 is row_status SUPERSEDED, so the live STALE_PREMISE population is one", "verified": true},
+    {"claim": "la1-, la3-, la4-, la9-, phi1-, phi2-, sa1- each occur 0 times in the ledger", "verified": true},
+    {"claim": "prediction-package, pv2-, CKM each occur 0 times in the ledger", "verified": true},
+    {"claim": "all 91 rows are sourced from CB-A (35), CB-B (25), CB-C (27) or EXT-* (4); zero from a source claim", "verified": true}
+  ],
+  "grant_partition": {
+    "GRANT-U1": {"description": "action-selected, G_SM-shaped, maximal-compact-contained identity-component vacuum stabilizer", "rows": ["RA-A3", "RA-B1", "RA-B2", "RA-B3", "RA-B4", "RA-B5"]},
+    "U4_EMB": {"description": "chiral-16-shadow / observed internal SM content, collapsing to v in L", "rows": ["AC-D1", "AC-D2", "AC-D3", "AC-D4", "AC-D5"]},
+    "GRANT-ACA1-C1": {"description": "draft-literal Sec 9.3 full-slash-S reading, branch C1, x = 0", "rows": ["AC-A1", "AC-A2", "AC-A3"]},
+    "singleton": {"description": "in-row conditional, unnamed", "rows": ["RA-F2"]}
+  },
+  "proposed_collapses": {
+    "collapse_1": {"claim": "G2 and G4 are one condition: given a G_SM-shaped stabilizer the hypercharge line is unique modulo the Spin(10) Weyl group, one physical line, zero bits, so the embedding is not a second selection event", "source": "LA-1, 36/36 with zero floats", "status": "FILED_UNINTEGRATED"},
+    "collapse_2": {"claim": "G3's condition is a function of G2/G4's: the 14-to-4 reduction sends 14D anomaly cancellation to zero bits in the 4D verdict, reducing the criterion to v in L", "source": "PHI-1", "status": "FILED_UNINTEGRATED__HYPOTHESIS_ABOUT_THE_CONDITION_GRAPH"},
+    "combined_effect_if_both_hold": "one discharge moves 12 of the 15 DERIVED_CONDITIONAL rows",
+    "cautions": [
+      "neither collapse is integrated into the ledger",
+      "PHI-1 is fork-1 comparator-classified and self-declares rows_advanced 0",
+      "the two halves are severed today: discharging AC-A1 moves AC-D1..D5 by exactly nothing",
+      "the grant itself is undischarged; RA-A1, RA-A2 and RA-A8 all remain NEEDS / MISSING_CONSTRUCTION"
+    ]
+  },
+  "structural_blockers": [
+    {"id": "BACKLOG", "finding": "eight 2026-08-15/16 artifacts computing the grant partition occur zero times in the ledger; their structural content was never wired to the rows they describe", "work_item": "integrate the backlog: attach the named condition to each row so a future discharge is mechanically known to move six rows"},
+    {"id": "PREDICTION_WIRING", "finding": "every DIFFERS/PREDICTION row still points at the 2026-08-05 CB wave while the 2026-08-14..17 results that sharpen those differences are unlinked", "work_item": "wire the rows to the prediction surface; the wiring is lower cost and higher value than the packaging"},
+    {"id": "INCLUSION_RULE", "finding": "zero of 91 rows are sourced from a source claim; denominator.inclusion_rule admits only CB-A/B/C enumerations plus Joe-accepted external benchmarks", "work_item": "amending inclusion_rule to admit the source register as a second source of targets is Joe's decision, not a channel action"}
+  ],
+  "prediction_readiness_ranking": [
+    {"rank": 1, "row": "RA-A4", "missing": "one number: a mass for the second singlet direction; can otherwise freeze on the PP2 scale-free precedent"},
+    {"rank": 2, "row": "RA-A5", "missing": "the same mass, for nine states"},
+    {"rank": 3, "row": "RA-B6", "missing": "the Dirac/Majorana bit is undefined rather than unmeasured; awaits a reality map on the source-native carrier"},
+    {"rank": 7, "row": "RA-E5", "missing": "PP-INADMISSIBLE: its only quantitative content compares against an already-measured bound, barred by the standing rule without exception"},
+    {"rank": 8, "row": "RA-E3", "missing": "no observable exists; the difference is an internal class exclusion"},
+    {"rank": 9, "row": "AC-A5", "missing": "no observable exists; arguably mis-shelved as an internal lattice theorem"}
+  ],
+  "failure_taxonomy": [
+    {"class": "A", "name": "grant laundering through a non-verdict field", "count": 7, "shape": "verdict stays DERIVED_CONDITIONAL while the distance string stops naming the open grants, so the row reads discharged"},
+    {"class": "B", "name": "comparator transported without a typed bridge", "count": 6, "shape": "includes one proposal citing an artifact with zero entries in the routing registry"},
+    {"class": "C", "name": "false novelty from a substring search", "count": 4, "shape": "searched a token, got zero hits, concluded absence; in each case the object was filed under different words"},
+    {"class": "D", "name": "the cited artifact's own text refuses the use", "count": 5, "shape": "one proposal quoted a source one line above that source's own sentence reading 'Zero rows advance. No ledger edit.'"},
+    {"class": "E", "name": "direction inversion", "count": 2, "shape": "proposed EXTERNAL_DATUM to MISSING_CONSTRUCTION as a move away from dischargeability; the recorded semantics run the other way"}
+  ],
+  "real_defect_found": {
+    "rows": ["AC-D1", "AC-D2", "AC-D3", "AC-D4", "AC-D5"],
+    "finding": "LA-9's replacement revival trigger, endorsed verbatim by four of five corrected proposals, is itself mode NR on all five rows against LA-3's own recorded functional table",
+    "consequence": "the trigger defect on AC-D1..D5 is real and the filed repair does not repair it",
+    "type": "DEFECT_REPORT_NOT_AN_UPGRADE"
+  },
+  "ranking_corrections": [
+    {"item": "rank 2", "was": "nobody has checked whether those conditions are shared, discharged or narrowed", "correction": "they had been checked on 2026-08-15/16 by LA-1, LA-3, LA-4, LA-5, LA-9, PHI-1, PHI-2 and SA-1; the correct item is to integrate the audit that already exists"},
+    {"item": "rank 4", "was": "re-check the 2 OVER_DETERMINED / STALE_PREMISE rows", "correction": "the live population is one: AC-G1 is SUPERSEDED and outside the denominator, repaired and propagated on 2026-08-07"},
+    {"root_cause": "a ranking built by reading the ledger without reading what had already been written about the ledger",
+     "disposition": "corrected in place, not withdrawn: ranks 1, 3 and 5 stand and rank 1 was executed successfully"}
+  ],
+  "method_defect": {
+    "finding": "5 of 38 proposals carry an assessment computed against a different proposal on the same row, so under the wave's own claim-indexed rule they are unverified rather than refuted",
+    "fix_for_next_wave": "key verifier output to a proposal identifier rather than a row identifier, since a row can carry several proposals"
+  },
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

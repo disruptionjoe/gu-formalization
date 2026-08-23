@@ -11,11 +11,26 @@
     "current_typing": "OVER_DETERMINED / GENUINE_FALSIFICATION",
     "proposed_typing": "DIFFERS / ROUTE_KILLED",
     "evidence": [
-      {"kind": "SELF_INCONSISTENT", "detail": "the row's own mapping_grade is EXACT_ROUTE_KILL and its distance and revival_trigger both name a live alternative bridge"},
-      {"kind": "SIBLING_PRECEDENT", "detail": "AC-F4, same axis and same 3-primary target object, is typed DIFFERS / ROUTE_KILLED"},
-      {"kind": "SOURCE_DISAVOWS_TARGET", "detail": "SC-GEN-01 disavows the repeated-generation belief; SC-GEN-02 asserts the 2+1 replacement; SC-GEN-04 states the imposter is not a true generation"},
-      {"kind": "MECHANISM_RULED_OUT_BY_SOURCE", "detail": "SC-CHI-50 records that the theory has no chirality for the anomaly to attach to, so anomaly inflow is not the source's proposed carrier"},
-      {"kind": "CAUSE_ALREADY_RECORDED", "detail": "process_gates/kill_target_claim_audit.py docstring: a 2026-08-13 sweep found 0 of 84 rows naming any register ID, leaving 8 untyped kill-bearing rows including all three GENUINE_FALSIFICATION verdicts, and states verbatim that this is how RA-D2 came to target a claim the source never made"}
+      {
+        "kind": "SELF_INCONSISTENT",
+        "detail": "the row's own mapping_grade is EXACT_ROUTE_KILL and its distance and revival_trigger both name a live alternative bridge"
+      },
+      {
+        "kind": "SIBLING_PRECEDENT",
+        "detail": "AC-F4, same axis and same 3-primary target object, is typed DIFFERS / ROUTE_KILLED"
+      },
+      {
+        "kind": "SOURCE_DISAVOWS_TARGET",
+        "detail": "SC-GEN-01 disavows the repeated-generation belief; SC-GEN-02 asserts the 2+1 replacement; SC-GEN-04 states the imposter is not a true generation"
+      },
+      {
+        "kind": "MECHANISM_RULED_OUT_BY_SOURCE",
+        "detail": "SC-CHI-50 records that the theory has no chirality for the anomaly to attach to, so anomaly inflow is not the source's proposed carrier"
+      },
+      {
+        "kind": "CAUSE_ALREADY_RECORDED",
+        "detail": "process_gates/kill_target_claim_audit.py docstring: a 2026-08-13 sweep found 0 of 84 rows naming any register ID, leaving 8 untyped kill-bearing rows including all three GENUINE_FALSIFICATION verdicts, and states verbatim that this is how RA-D2 came to target a claim the source never made"
+      }
     ],
     "disposition": "PROPOSED_VIA_EVIDENCE_DELTA__NOT_APPLIED",
     "reason": "verdict-kind change is a claim-status change owned by canonical Progress"
@@ -44,7 +59,9 @@
       "movement": "directly moves the genuinely-derived count; SAME splits 15 DERIVED / 15 DERIVED_CONDITIONAL / 3 DERIVED_PARTIAL",
       "level": "R5/R4",
       "rationale": "nobody has checked whether those conditions are shared, discharged or narrowed; two surfaces were found six weeks stale in this session alone",
-      "competes_with_scheduled_lane": false
+      "competes_with_scheduled_lane": false,
+      "correction_2026_08_23": "FALSIFIED BY THE LEDGER ADVANCE WAVE. The rationale asserted 'nobody has checked whether those conditions are shared, discharged or narrowed'. They had been checked on 2026-08-15/16 by LA-1, LA-3, LA-4, LA-5, LA-9, PHI-1, PHI-2 and SA-1, which computed the grant partition, the hypercharge-line uniqueness and the 14-to-4 reduction. The corrected item is to INTEGRATE that audit: all eight artifacts occur zero times in the ledger, so a discharge of GRANT-U1 is not mechanically known to move its six rows. See ledger-advance-wave-result-2026-08-23.md.",
+      "corrected_route": "integrate the existing 2026-08-15/16 grant audit into the rows it describes"
     },
     {
       "rank": 3,
@@ -52,7 +69,17 @@
       "cost": "medium",
       "movement": "converts standing structure into falsifiable content without needing the source action",
       "level": "R6",
-      "rows": ["RA-A4", "RA-A5", "RA-B6", "RA-E3", "RA-E4", "RA-E5", "RA-G1", "RA-G2", "AC-A5"],
+      "rows": [
+        "RA-A4",
+        "RA-A5",
+        "RA-B6",
+        "RA-E3",
+        "RA-E4",
+        "RA-E5",
+        "RA-G1",
+        "RA-G2",
+        "AC-A5"
+      ],
       "competes_with_scheduled_lane": false
     },
     {
@@ -61,7 +88,9 @@
       "cost": "low",
       "movement": "small but the class is named and unaudited; staleness has been this session's most productive defect class",
       "level": "R4",
-      "competes_with_scheduled_lane": false
+      "competes_with_scheduled_lane": false,
+      "correction_2026_08_23": "COUNT FALSIFIED BY THE LEDGER ADVANCE WAVE. The live STALE_PREMISE population is one, not two: AC-G1 carries row_status SUPERSEDED, sits outside the denominator, and its repair was made and propagated on 2026-08-07. Only LT-SM3b remains.",
+      "corrected_route": "re-check the single live STALE_PREMISE row (LT-SM3b)"
     },
     {
       "rank": 5,
@@ -77,5 +106,6 @@
   "ledger_verdict_change": "none",
   "claim_status_change": "none applied; three re-typings proposed via evidence delta",
   "canon_verdict_change": "none",
-  "public_posture_change": "none"
+  "public_posture_change": "none",
+  "ranking_status_2026_08_23": "ranks 1, 3 and 5 stand; rank 1 was executed successfully (kill-typing ratchet driven to zero). Ranks 2 and 4 are corrected in place rather than withdrawn. Root cause of both errors: the ranking was built by reading the ledger without reading what had already been written about the ledger."
 }
