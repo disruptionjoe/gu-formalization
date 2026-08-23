@@ -94,21 +94,28 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(bool(alias_hits(spec)), "spec now carries the coefficient")
     check("| SA-G10 |" in spec, "SA-G10 row present")
     check("FIT (gated)" in spec, "SA-G10 classed FIT (gated)")
-    check("28 rows" in spec, "spec inline row count updated")
-    check("28 requirement rows: 8 FORCED, 9 DECLARATION, 11 FIT" in spec, "spec tallies updated")
+    # Monotonic, not pinned: later swings may legitimately add rows. This probe
+    # owns SA-G10 and asserts its repair has not regressed, nothing more.
+    inline = re.search(r"(\d+) rows \(SA-G10", spec)
+    check(bool(inline) and int(inline.group(1)) >= 28, "spec inline row count at or above the repair")
+    title = re.search(r"(\d+) requirement rows: (\d+) FORCED, (\d+) DECLARATION, (\d+) FIT", spec)
+    check(bool(title) and int(title.group(1)) >= 28 and int(title.group(4)) >= 11,
+          "spec tallies at or above the repair")
     check("ADDENDUM 2026-08-23" in spec, "spec records why the row was missing")
 
     # Independent recomputation of the tallies from the companion test's own
     # table, cross-checked against the spec's stated numbers.
     rows = ROW_RE.findall(spec_test)
     counts = Counter(cls for _, cls in rows)
-    check(len(rows) == 28, "spec test table has 28 rows")
+    check(len(rows) >= 28, "spec test table at or above the repair")
     check(("SA-G10", "FIT") in rows, "spec test table includes SA-G10 as FIT")
-    check(counts["FORCED"] == 8, "recomputed FORCED tally = 8")
-    check(counts["DECLARATION"] == 9, "recomputed DECLARATION tally = 9")
-    check(counts["FIT"] == 11, "recomputed FIT tally = 11")
-    check("len(TABLE) == 28" in spec_test, "spec test row-count assertion updated")
-    check('counts.get("FIT") == 11' in spec_test, "spec test FIT assertion updated")
+    check(counts["FORCED"] >= 8, "recomputed FORCED tally at or above 8")
+    check(counts["DECLARATION"] >= 9, "recomputed DECLARATION tally at or above 9")
+    check(counts["FIT"] >= 11, "recomputed FIT tally at or above 11")
+    m = re.search(r"len\(TABLE\) == (\d+)", spec_test)
+    check(bool(m) and int(m.group(1)) >= 28, "spec test row assertion at or above the repair")
+    mf = re.search(r'counts\.get\("FIT"\) == (\d+)', spec_test)
+    check(bool(mf) and int(mf.group(1)) >= 11, "spec test FIT assertion at or above the repair")
 
     fa = data["finding_a_coverage_gap"]
     before, after = fa["repair"]["tally_before"], fa["repair"]["tally_after"]
@@ -116,8 +123,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(before["FIT"] + 1 == after["FIT"], "registry tally arithmetic: FIT")
     check(before["FORCED"] == after["FORCED"] and before["DECLARATION"] == after["DECLARATION"],
           "registry tally arithmetic: other classes unchanged")
-    check(after["rows"] == len(rows) and after["FIT"] == counts["FIT"],
-          "registry tallies agree with the recomputed table")
+    check(len(rows) >= after["rows"] and counts["FIT"] >= after["FIT"],
+          "live table has not regressed below the recorded repair")
     check(fa["repair"]["creates_new_freedom"] is False, "no new freedom claimed")
     check(set(fa["aliases_swept"]) == set(ALIASES), "swept alias set pinned")
 
@@ -195,7 +202,7 @@ def selftest() -> int:
 
     changed = copy.deepcopy(baseline)
     changed["spec_test"] = changed["spec_test"].replace('("SA-G10", "FIT"),', "")
-    mutations.append(("test-table-desync", "spec test table has 28 rows", changed))
+    mutations.append(("test-table-desync", "spec test table includes SA-G10 as FIT", changed))
 
     changed = copy.deepcopy(baseline)
     changed["data"]["finding_a_coverage_gap"]["repair"]["tally_after"]["FIT"] = 10

@@ -7,6 +7,27 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE REQUIREMENTS SPEC IS CURRENT TO THE MOMENT BEFORE THE BUILD
+> WAVE; SA-G11..SA-G13 RESTORE IT.** The morning's coverage gap was not
+> isolated. The spec was maintained by append-only status notes as each build
+> attempt landed (W125, W131), that discipline stopped on 2026-07-14, and the
+> source-action build wave ran on through **W203 -> W154 -> W229 -> W230 ->
+> W236**. Three named supply items were uncarried and are now added:
+> **`SA-G11`** (`kappa`, the ultralocal mass-kernel normalization, sign
+> forced), **`SA-G12`** (`Z_U`, the induced-YM gradient stiffness,
+> `ell^2 = Z_U kappa`), and **`SA-G13`** (the source-current identification
+> `theta = J[Psi]`, which W230 proved a *required independent assumption*
+> reduced to one sign-forced axiom -- symmetry leaves a full 14-dimensional
+> space of equivariant divergence-free currents). Tallies: 28 -> 31 rows,
+> DECLARATION 9 -> 10, FIT 11 -> 13; consistency test updated and passing.
+> All three are typed **branch-3/W154-conditional**, and W236's `theta = 0`
+> vacuum result inherits `SA-G13`'s conditionality exactly. This does **not**
+> loosen the object -- W229's accounting is two normalization scales and
+> **zero data-fitted coefficients**. The hypothesis that the wave had built
+> H41 was checked and **refuted**: W154, W229 and W230 each carry "H41
+> unbuilt" in their own grade lines. See
+> `explorations/conditional-build/source-action-spec-build-wave-currency-2026-08-23.md`.
+
 > **2026-08-23 REQUIREMENT-SURFACE RECONCILIATION: ONE COVERAGE GAP CLOSED,
 > ONE DECISIVE-COMPUTATION POINTER ANNOTATED.** Auditing the new demand
 > ledger against the pre-existing surface found that the consolidated

@@ -3,7 +3,7 @@ artifact_type: exploration
 status: exploration
 created: 2026-07-13
 hypothesis: H41
-title: "THE SOURCE-ACTION REQUIREMENTS SPEC -- everything the unbuilt source action (H41, the falsifiability keystone) must supply, consolidated from every research leg, each requirement sourced to its repo artifact and test, classified FORCED / DECLARATION / FIT, and checked for mutual consistency. VERDICT of the cross-consistency pass: NO OUTRIGHT CONTRADICTION among the FORCED items (wave35's joint carve already certifies nonemptiness on carrier B with the g=1 cure; this spec adds the sector-disjointness and larger-flavor-symmetry arithmetic checks); FIVE named TENSIONS carried openly. 28 requirement rows: 8 FORCED, 9 DECLARATION, 11 FIT (SA-G10 added 2026-08-23)."
+title: "THE SOURCE-ACTION REQUIREMENTS SPEC -- everything the unbuilt source action (H41, the falsifiability keystone) must supply, consolidated from every research leg, each requirement sourced to its repo artifact and test, classified FORCED / DECLARATION / FIT, and checked for mutual consistency. VERDICT of the cross-consistency pass: NO OUTRIGHT CONTRADICTION among the FORCED items (wave35's joint carve already certifies nonemptiness on carrier B with the g=1 cure; this spec adds the sector-disjointness and larger-flavor-symmetry arithmetic checks); FIVE named TENSIONS carried openly. 31 requirement rows: 8 FORCED, 10 DECLARATION, 13 FIT (SA-G10..SA-G13 added 2026-08-23)."
 grade: "CONSOLIDATION. No new physics claims; the only new content is cross-consistency bookkeeping, and every computable piece of it is in tests/spec-consistency/source_action_requirements_consistency.py (33/33 asserts, exit 0, stdlib arithmetic reproducing numbers already computed at higher grade in the cited artifacts). Per the standing E1 rule this spec is a MAP of the requirement surface, not progress by itself. No canon movement, no verdict movement, no count movement; the count stays {1,3}; H41 stays unbuilt; H59 stays OPEN."
 construction: "program-native throughout, per GEOMETER-VS-PHYSICS-OBJECTS.md; each row inherits the construction of its source artifact, and the two rows that ARE construction forks (SA-U2 ghost mass, SA-U5 guardian) are recorded as forks, not resolved."
 depends_on:
@@ -58,7 +58,7 @@ the cross-consistency pass and pins the table's class tallies to this document.
 
 ## 1. Perspective 1 (EFT theorist): the requirements table
 
-28 rows (SA-G10 added 2026-08-23). Every row cites its artifact; where a machine check exists the test is named.
+31 rows (SA-G10..SA-G13 added 2026-08-23). Every row cites its artifact; where a machine check exists the test is named.
 Composite items are split into lettered sub-rows so each row has exactly one class.
 
 ### Yukawa / matter sector (SA-Y)
@@ -90,6 +90,10 @@ Composite items are split into lettered sub-rows so each row has exactly one cla
 | SA-G9 | A from-scratch GU linearization of the massive spin-2 sector WITH matter sources (beyond the imported Stelle 1978 solution): the action must make the matter coupling derivable, not imported. | FORCED | track2-conditional-numbers-2026-07-13.md (gap g1); wave22/H10 | tests/wave22/H10_ppn_weak_field.py |
 | SA-G10 | `alpha_W`, the gravity ambient-curvature (`R^Y.B`) coefficient, identical to the OQ2-A / `c_W` coefficient and the one term W225 could not settle without the branch-fixed action. It is GATED, not parameter-free: it is welded to `f_0` by leading-order Schwarzschild consistency, but that weld IS the unbuilt `c_W`, carries beta/alpha, and terminates in an action coefficient. No shared-theta Ward identity pins it -- the DE-EOS curvature vertex and the gravity-source matter vertex are distinct operators of the one `theta`, so canonical normalization forces CO-PRESENCE, not a shared number. | FIT (gated) | explorations/source-action-constraint-intersection-2026-07-11.md; explorations/path4-wave2-alphaW-parameter-free-2026-07-11.md; W225 (OQ2-A, named open) | tests/W66_path4_wave2_alphaW.py; tests/one-residual/willmore_el_alpha_w_pin.py; tests/one-residual/willmore_oq2a_functional_selection.py |
 
+| SA-G11 | `kappa`, the ultralocal mass-kernel normalization of the branch-3 source action (`theta* = kappa M^{-1} J`, `S_eff = -(kappa/2)<J, M^{-1} J>`). W203 pins every other coefficient of that action by Krein-equivariance/Schur uniqueness and leaves this ONE normalization, whose SIGN is forced (Krein sign #1). It is an eta-from-gimmel-area normalization, **not** a data-fitted knob. | FIT (normalization; branch-3/W154-conditional; sign forced) | explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md; W180 (the C3 bridge); W151 (the eta-from-gimmel-area bridge) | tests/W203_branch3_source_action_fixed_coefficients.py |
+| SA-G12 | `Z_U`, the induced-Yang-Mills gradient stiffness completing the ultralocal kernel to the screened-Poisson / induced-YM law `(-Z_U D_A* D_A + c_theta eta) theta = J`, with screening length `ell^2 = Z_U * kappa`. W229 forces the fiber pairing and the differential operator (up to an algebraic piece absorbed into the mass sector) and leaves exactly this ONE new magnitude -- the same eta-from-gimmel-area kind of object as `kappa`, undetermined by normalization and explicitly **not** fitted to any data window. The complete branch-3 action therefore carries exactly TWO normalization scales `{kappa, Z_U}` with zero data-fitted coefficients. | FIT (normalization; branch-3/W154-conditional) | explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md | tests/W229_source_action_znu_completion.py (39/39, exit 0) |
+| SA-G13 | The source-current identification `theta = J[Psi]` (the W154 marble/wood posit). W230 proves it is a REQUIRED INDEPENDENT ASSUMPTION and reduces it to ONE named axiom: symmetry cannot force it, because Noether II / equivariance / gauge structure / shiab leave a full 14-dimensional space of equivariant divergence-free currents (rank 14 over a Psi-sweep) with an explicit Psi-independent member non-parallel to `J[Psi]`. Only its sign is forced. Everything downstream that assumes it -- including W236's `theta = 0` in the `Psi = 0` vacuum -- inherits this conditionality. | DECLARATION (reduced to one axiom; sign forced) | explorations/W230-close-a4-derive-w154-2026-07-14.md; explorations/W154-reverse-engineered-source-action-2026-07-14.md | tests/W230_derive_or_replace_w154.py (24/24, exit 0) |
+
 > **ADDENDUM 2026-08-23 -- SA-G10 added; why it was missing.** This spec's
 > declared source set contains no path4-line artifact and not the
 > constraint-intersection map, so the gravity leg's one named remaining free
@@ -100,6 +104,24 @@ Composite items are split into lettered sub-rows so each row has exactly one cla
 > Adding the row changes no verdict and creates no new freedom: it records
 > freedom the repository had already computed and classified elsewhere. See
 > `explorations/conditional-build/source-action-requirement-surface-reconciliation-2026-08-23.md`.
+
+> **ADDENDUM 2026-08-23 (second) -- SA-G11..SA-G13 added; the maintenance
+> lapse that hid them.** This spec was maintained by append-only status notes
+> as each build attempt landed (W125 on 2026-07-13, W131 on 2026-07-14). That
+> discipline then stopped, while the source-action build wave continued
+> through W203, W154, W229, W230 and W236 on 2026-07-14/15 -- so the spec is
+> current to the moment *before* the wave it exists to serve. The wave named
+> three supply items this table did not carry: the branch-3 normalizations
+> `kappa` (SA-G11) and `Z_U` (SA-G12), and the source-current identification
+> `theta = J[Psi]` (SA-G13), which W230 proved is a required independent
+> assumption reducible to one sign-forced axiom. All three are typed
+> **branch-3/W154-conditional**: they are what that route's reconstruction of
+> H41 still needs, not unconditional requirements of H41 itself. Recording
+> them does not loosen the object -- W229's own accounting is that the
+> complete branch-3 action carries exactly two normalization scales and
+> **zero data-fitted coefficients**, which is a tighter statement than this
+> table previously reflected. See
+> `explorations/conditional-build/source-action-spec-build-wave-currency-2026-08-23.md`.
 
 ### Count / field-space sector (SA-C)
 
@@ -256,9 +278,11 @@ must either derive or openly carry):**
 - The soldering declaration (SA-G1), the A/B bit (SA-C1), the realized rank (SA-C3).
 - mu_DW, B_i, f0, beta/alpha, alpha, c_L, m2_eff normalizations (SA-G2..G8) and the
   gated ambient-curvature coefficient alpha_W (SA-G10): every data-facing number.
+  The branch-3 normalizations kappa and Z_U (SA-G11, SA-G12) are NOT data-facing:
+  both are eta-from-gimmel-area normalizations with zero data-fitted content.
 - The guardian fork unresolved (SA-U5) and the ghost-mass convention unresolved (SA-U2).
 
-The honest reading: 8 FORCED items give the object a rigid shape; 9 DECLARATIONS + 11 FITs
+The honest reading: 8 FORCED items give the object a rigid shape; 10 DECLARATIONS + 13 FITs
 are the freedom that keeps it, today, a framework rather than a theory
 (predictive-boundary-audit: compression result, not prediction result). The spec's value is
 that the freedom is now FINITE, NAMED, and CLASSIFIED; its danger is that a build could

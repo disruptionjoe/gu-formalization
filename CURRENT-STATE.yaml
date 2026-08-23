@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2192a1dc9915535846473d6e4644d9c55a60ccd4
+revision_basis: 52ba561811984177ec5749ba73186020c603bd83
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,25 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    A currency audit of the requirements spec finds the first coverage gap was
+    not isolated. The spec was maintained by append-only status notes as each
+    build attempt landed (W125 2026-07-13, W131 2026-07-14), that discipline
+    then stopped, and the source-action build wave continued through W203,
+    W154, W229, W230 and W236 on 2026-07-14/15 -- so the table is current to
+    the moment before the wave it exists to serve. Three named supply items
+    are restored: SA-G11 kappa and SA-G12 Z_U, the two branch-3 normalization
+    scales, and SA-G13 the source-current identification theta = J[Psi], which
+    W230 proved a required independent assumption reducible to one sign-forced
+    axiom because symmetry leaves a full fourteen-dimensional space of
+    equivariant divergence-free currents. Tallies move 28 to 31 rows,
+    DECLARATION 9 to 10, FIT 11 to 13, with the consistency test updated and
+    passing. All three are typed branch-3/W154-conditional rather than
+    unconditional requirements of H41, and W236's theta = 0 vacuum result
+    inherits SA-G13's conditionality exactly. Recording them does not loosen
+    the object: W229's own accounting is two normalization scales and zero
+    data-fitted coefficients. The hypothesis that the wave had built H41 was
+    checked and refuted -- W154, W229 and W230 each carry H41 unbuilt in their
+    own grade lines.
     The new demand ledger is audited against the pre-existing source-action
     requirement surface, with two repairs and one self-correction. The
     consolidated requirements spec carried no row for alpha_W, the gravity

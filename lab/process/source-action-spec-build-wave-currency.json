@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "requirement_surface_currency_registry",
+  "created": "2026-08-23",
+  "status": "THREE_BUILD_WAVE_SUPPLY_ITEMS_RESTORED__H41_REMAINS_UNBUILT",
+  "directed_by": "Joe direct chat 2026-08-23; awareness-note canon path",
+  "target_claim": "internal target SOURCE-ACTION-SPEC-CURRENCY; the spec's append-only maintenance lapsed at the 2026-07-14/15 build wave, leaving three named supply items uncarried",
+  "audited_surface": "explorations/source-action-requirements-spec-2026-07-13.md",
+  "maintenance_history": {
+    "discipline": "append-only status notes as each build attempt landed",
+    "observed_updates": [
+      {"artifact": "W125", "date": "2026-07-13"},
+      {"artifact": "W131", "date": "2026-07-14"}
+    ],
+    "lapse_after": "2026-07-14 (W131)",
+    "wave_that_continued": ["W203", "W154", "W229", "W230", "W236"],
+    "wave_dates": "2026-07-14/15",
+    "consequence": "the spec is current to the moment before the wave it exists to serve"
+  },
+  "rows_added": [
+    {
+      "id": "SA-G11",
+      "item": "kappa, the ultralocal mass-kernel normalization (theta* = kappa M^{-1} J)",
+      "class": "FIT",
+      "qualifier": "normalization; branch-3/W154-conditional; sign forced (Krein sign #1)",
+      "source": "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+      "test": "tests/W203_branch3_source_action_fixed_coefficients.py",
+      "data_fitted": false
+    },
+    {
+      "id": "SA-G12",
+      "item": "Z_U, the induced-Yang-Mills gradient stiffness; screening length ell^2 = Z_U * kappa",
+      "class": "FIT",
+      "qualifier": "normalization; branch-3/W154-conditional",
+      "source": "explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md",
+      "test": "tests/W229_source_action_znu_completion.py",
+      "data_fitted": false
+    },
+    {
+      "id": "SA-G13",
+      "item": "the source-current identification theta = J[Psi] (the W154 marble/wood posit)",
+      "class": "DECLARATION",
+      "qualifier": "reduced to one named axiom; only its sign forced; symmetry leaves a full 14-dimensional space of equivariant divergence-free currents",
+      "source": "explorations/W230-close-a4-derive-w154-2026-07-14.md",
+      "test": "tests/W230_derive_or_replace_w154.py",
+      "data_fitted": false
+    }
+  ],
+  "tallies": {
+    "before": {"rows": 28, "FORCED": 8, "DECLARATION": 9, "FIT": 11},
+    "after": {"rows": 31, "FORCED": 8, "DECLARATION": 10, "FIT": 13}
+  },
+  "does_not_loosen_the_object": "W229's own accounting is that the complete branch-3 action carries exactly two normalization scales and zero data-fitted coefficients with every relative and tensor coefficient forced; a table omitting kappa and Z_U was not describing a tighter object, only an object whose tightness was unwritten. SA-G13 records a narrowing: an assumption reduced to one sign-forced axiom.",
+  "conditionality": "all three items are branch-3/W154-conditional: what that route's reconstruction of H41 still needs, not unconditional requirements of H41. W236's theta = 0 in the Psi = 0 vacuum inherits SA-G13's conditionality exactly; withdrawing the posit reopens both.",
+  "h41_status_checked": {
+    "claim": "H41 remains unbuilt",
+    "refuted_hypothesis": "that the build wave had built H41 and the spec's framing was stale too",
+    "evidence": "W154, W229 and W230 each carry H41 unbuilt in their own grade lines (W229: 'H41 unbuilt (narrowed)')"
+  },
+  "distinct_from_earlier_audit": {
+    "earlier": "lab/process/source-action-requirement-surface-reconciliation.json -- gap caused by an incomplete depends_on source set, found by direction",
+    "this": "gap caused by a lapsed append-only maintenance discipline at a dated boundary, found by asking whether the earlier gap had a systematic sibling"
+  },
+  "provenance_check": "every cited test path verified to exist; one incorrect path (W203) was caught and corrected before shipping",
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
