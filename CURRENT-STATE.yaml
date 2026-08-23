@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 52ba561811984177ec5749ba73186020c603bd83
+revision_basis: e674470fcc4d13ce40339c7f8f849436605a3aa0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,28 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The ledger's kill typing is audited after Joe asked why the 3-primary
+    generation count reads as a falsification given the source's 2+1 imposter
+    structure. Four records say it should not: AC-F3's own mapping grade is
+    EXACT_ROUTE_KILL with a named live alternative bridge; its sibling AC-F4,
+    same axis and same 3-primary target, is already typed DIFFERS/ROUTE_KILLED;
+    SC-GEN-01 disavows the repeated-generation framing while SC-GEN-02 and
+    SC-GEN-04 assert the 2+1 replacement with a non-generation imposter; and
+    SC-CHI-50 records that the theory has no chirality for the anomaly to
+    attach to, so anomaly inflow is not the source's carrier. The cause was
+    already recorded: the kill-target gate's docstring notes a 2026-08-13
+    sweep finding zero of 84 rows naming any register ID, leaving eight
+    untyped kill-bearing rows including all three GENUINE_FALSIFICATION
+    verdicts, and states that this is how the strongest negative verdict came
+    to target a claim the source never made. Re-typings for AC-F3, LT-GR1b and
+    RA-D2 are proposed via evidence delta for canonical Progress rather than
+    applied, with the guard that no evidence changes and no row moves toward
+    SAME. One regression is repaired at source: LT-GR8, added earlier in this
+    session, had pushed the gate RED at nine against baseline eight because
+    its kill_scope field states what a future packet failure would bound
+    rather than a kill it performs; it is now typed NONE-NOT-A-KILL and the
+    gate is ok. Five upgrade routes are ranked for ledger movement per unit
+    effort, all filtered as non-competing with the scheduled CBRS-1 lane.
     A currency audit of the requirements spec finds the first coverage gap was
     not isolated. The spec was maintained by append-only status notes as each
     build attempt landed (W125 2026-07-13, W131 2026-07-14), that discipline

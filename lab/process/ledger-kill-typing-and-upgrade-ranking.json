@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "ledger_typing_audit_and_upgrade_ranking_registry",
+  "created": "2026-08-23",
+  "status": "AC_F3_MISTYPING_EVIDENCED__LTGR8_GATE_REGRESSION_REPAIRED__RETYPINGS_PROPOSED__FIVE_ROUTES_RANKED",
+  "directed_by": "Joe direct chat 2026-08-23; awareness-note canon path",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "adjudicates repository-internal typing consistency; kills no source claim and no route",
+  "ac_f3_finding": {
+    "row": "AC-F3",
+    "current_typing": "OVER_DETERMINED / GENUINE_FALSIFICATION",
+    "proposed_typing": "DIFFERS / ROUTE_KILLED",
+    "evidence": [
+      {"kind": "SELF_INCONSISTENT", "detail": "the row's own mapping_grade is EXACT_ROUTE_KILL and its distance and revival_trigger both name a live alternative bridge"},
+      {"kind": "SIBLING_PRECEDENT", "detail": "AC-F4, same axis and same 3-primary target object, is typed DIFFERS / ROUTE_KILLED"},
+      {"kind": "SOURCE_DISAVOWS_TARGET", "detail": "SC-GEN-01 disavows the repeated-generation belief; SC-GEN-02 asserts the 2+1 replacement; SC-GEN-04 states the imposter is not a true generation"},
+      {"kind": "MECHANISM_RULED_OUT_BY_SOURCE", "detail": "SC-CHI-50 records that the theory has no chirality for the anomaly to attach to, so anomaly inflow is not the source's proposed carrier"},
+      {"kind": "CAUSE_ALREADY_RECORDED", "detail": "process_gates/kill_target_claim_audit.py docstring: a 2026-08-13 sweep found 0 of 84 rows naming any register ID, leaving 8 untyped kill-bearing rows including all three GENUINE_FALSIFICATION verdicts, and states verbatim that this is how RA-D2 came to target a claim the source never made"}
+    ],
+    "disposition": "PROPOSED_VIA_EVIDENCE_DELTA__NOT_APPLIED",
+    "reason": "verdict-kind change is a claim-status change owned by canonical Progress"
+  },
+  "gate_regression_repaired": {
+    "row": "LT-GR8",
+    "before": "kill_target_claim_audit[ledger] RED at 9 untyped kill-bearing rows against baseline 8",
+    "after": "ok at 8",
+    "typing_applied": "NONE-NOT-A-KILL",
+    "justification": "the row is an accepted external benchmark target; its kill_scope states what a future realization-packet failure would bound, not a kill the row performs",
+    "introduced_by": "this session's LT-GR8 addition; repaired at source"
+  },
+  "upgrade_ranking": [
+    {
+      "rank": 1,
+      "route": "finish the kill-typing ratchet (8 remaining rows)",
+      "cost": "low",
+      "movement": "up to three rows out of OVER_DETERMINED; retires a standing gate baseline",
+      "level": "R4 typing",
+      "competes_with_scheduled_lane": false
+    },
+    {
+      "rank": 2,
+      "route": "audit the 15 DERIVED_CONDITIONAL rows for promotable conditions",
+      "cost": "medium",
+      "movement": "directly moves the genuinely-derived count; SAME splits 15 DERIVED / 15 DERIVED_CONDITIONAL / 3 DERIVED_PARTIAL",
+      "level": "R5/R4",
+      "rationale": "nobody has checked whether those conditions are shared, discharged or narrowed; two surfaces were found six weeks stale in this session alone",
+      "competes_with_scheduled_lane": false
+    },
+    {
+      "rank": 3,
+      "route": "preregister the 9 DIFFERS / PREDICTION rows under the PP framework",
+      "cost": "medium",
+      "movement": "converts standing structure into falsifiable content without needing the source action",
+      "level": "R6",
+      "rows": ["RA-A4", "RA-A5", "RA-B6", "RA-E3", "RA-E4", "RA-E5", "RA-G1", "RA-G2", "AC-A5"],
+      "competes_with_scheduled_lane": false
+    },
+    {
+      "rank": 4,
+      "route": "re-check the 2 OVER_DETERMINED / STALE_PREMISE rows",
+      "cost": "low",
+      "movement": "small but the class is named and unaudited; staleness has been this session's most productive defect class",
+      "level": "R4",
+      "competes_with_scheduled_lane": false
+    },
+    {
+      "rank": 5,
+      "route": "sweep the 7 small NEEDS (3 REAL_PARAMETER, 2 EXTERNAL_DATUM, 2 FINITE_CHOICE)",
+      "cost": "low-medium",
+      "movement": "the only NEEDS movement available without OWNER-A; 21 of 28 NEEDS are MISSING_CONSTRUCTION and genuinely wait on the source action",
+      "level": "R5/R4",
+      "competes_with_scheduled_lane": false
+    }
+  ],
+  "explicitly_not_ranked": "anything requiring a background, an action owner or a positivity construction: the 21 MISSING_CONSTRUCTION rows and the seven-owner ledger, where the scheduled lane already works",
+  "no_grade_inflation_guard": "no evidence changes and no row moves toward SAME; a re-typed row keeps its computation, distance and revival trigger and remains a negative result",
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none applied; three re-typings proposed via evidence delta",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

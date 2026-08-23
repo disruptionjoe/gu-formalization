@@ -7,6 +7,30 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE 3-PRIMARY ANOMALY ROW IS PROBABLY MIS-TYPED, AND THE
+> LEDGER'S FASTEST UPGRADES ARE RANKED.** `AC-F3` ("bulk anomaly inflow
+> carries the 3-primary generation count") is typed
+> `OVER_DETERMINED / GENUINE_FALSIFICATION`, but its own mapping grade is
+> `EXACT_ROUTE_KILL` with a live alternative named, its sibling **`AC-F4`**
+> (same axis, same 3-primary target) already carries
+> `DIFFERS / ROUTE_KILLED`, and the target is a framing the source disavows
+> (`SC-GEN-01`) whose mechanism the source rules out (`SC-CHI-50`: no
+> chirality for the anomaly to attach to). The cause is already on record —
+> the kill-target gate's docstring reports a 2026-08-13 sweep finding **0 of
+> 84 rows naming any register ID**, leaving eight untyped kill-bearing rows
+> including all three `GENUINE_FALSIFICATION` verdicts, and says verbatim
+> that this is how the strongest negative verdict "came to target a claim the
+> source never made." Re-typings for `AC-F3`, `LT-GR1b` and `RA-D2` are
+> **proposed via evidence delta**, not applied; no evidence changes and no
+> row moves toward `SAME`. **One regression repaired at source:** `LT-GR8`
+> had pushed the gate RED at 9 vs baseline 8 and is now typed
+> `NONE-NOT-A-KILL`. **Ranked upgrade routes** (all non-competing with the
+> scheduled CBRS-1 lane): finish the kill-typing ratchet; audit the 15
+> `DERIVED_CONDITIONAL` rows for promotable conditions; preregister the 9
+> `DIFFERS / PREDICTION` rows; re-check the 2 `STALE_PREMISE` rows; sweep the
+> 7 small `NEEDS`. See
+> `explorations/conditional-build/ledger-kill-typing-and-upgrade-ranking-2026-08-23.md`.
+
 > **2026-08-23 THE REQUIREMENTS SPEC IS CURRENT TO THE MOMENT BEFORE THE BUILD
 > WAVE; SA-G11..SA-G13 RESTORE IT.** The morning's coverage gap was not
 > isolated. The spec was maintained by append-only status notes as each build

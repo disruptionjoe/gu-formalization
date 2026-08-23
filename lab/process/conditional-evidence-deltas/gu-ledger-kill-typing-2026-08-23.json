@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-LEDGER-KILL-TYPING-2026-08-23",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+    "ledger_sha256": "da5f222ab48ebbba0ceb50d252ad7cdfcefd0df7ca6be958f1d468f4d6a2b68c"
+  },
+  "affected_rows": [
+    "AC-F3",
+    "LT-GR1b",
+    "RA-D2"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/ledger-kill-typing-and-upgrade-ranking-2026-08-23.md",
+    "lab/process/ledger-kill-typing-and-upgrade-ranking.json",
+    "tests/channel-swings/ledger_kill_typing_and_upgrade_ranking_probe.py"
+  ],
+  "source_disposition": "No new source reading is introduced. The proposal rests on already-registered claims: SC-GEN-01 (the draft disavows the belief that nature repeated a generation three times), SC-GEN-02 (the 2+1 replacement with two true families and one effective imposter), SC-GEN-04 (the imposter is explicitly not a true generation), SC-CHI-50 (the theory has no chirality for the anomaly to attach to), and SC-CHI-51 (GU must produce an effectively chiral world via a VEV in a Dirac-Rarita-Schwinger-like operator). The comparator-routing method's forks 1 and 4 govern the anomaly and family-index comparators.",
+  "claim_ceiling": "Verdict-kind re-typing proposal only. No evidence changes, no computation is revisited, no row moves toward SAME, and every affected row keeps its exact distance and revival trigger. A re-typed row remains a negative result; only the column changes, from OVER_DETERMINED to DIFFERS, where the row's own mapping grade already reads ROUTE_KILL. Separately and outside this delta, LT-GR8 was typed NONE-NOT-A-KILL as a regression repair rather than a verdict change: it is an accepted external benchmark target whose kill_scope field states what a future realization-packet failure would bound, not a kill the row performs. It was added in this session and had pushed the kill-target gate RED at 9 against baseline 8; the gate is now ok at 8.",
+  "proposed_effect": {
+    "summary": "Verdict changes proposed, not applied: re-type AC-F3 from OVER_DETERMINED/GENUINE_FALSIFICATION to DIFFERS/ROUTE_KILLED to match its own EXACT_ROUTE_KILL mapping grade and its sibling AC-F4, which carries DIFFERS/ROUTE_KILLED for the same 3-primary target; review LT-GR1b and RA-D2 on the same criterion. Also proposes target_claim typing for the remaining kill-bearing rows so the kill-target gate ratchet can be driven to zero.",
+    "requested_row_changes": [
+      "AC-F3: re-type to DIFFERS / ROUTE_KILLED; add target_claim NONE-NOT-A-KILL with a note that the killed object is the conventional bulk-anomaly-inflow bridge, a framing SC-GEN-01 disavows and SC-CHI-50 rules out as a mechanism; preserve distance and revival_trigger verbatim",
+      "LT-GR1b: review for the same re-typing; its scope is already recorded as BIANCHI_SELECTED_CANDIDATE_POST_SHIAB_RIEMANN_RESPONSE_FACTORIZATION_ONLY with an action-owned pre-Shiab Gauss/II route named as the open alternative, which is the source's own induced-|II|^2 mechanism",
+      "RA-D2: review; this row plausibly does engage SC-CHI-51, but its mapping grade ends REPLACEMENT_SHIAB_OR_FUNCTIONAL_BUILD_OPEN, i.e. a bounded kill of specific realizations with replacements open rather than a kill of the claim; if retained as a falsification, record explicitly which registered claim it falsifies",
+      "AC-B5, AC-F4, LT-GR5, LT-GR7, RA-F3: add target_claim typing (register IDs or the NONE-NOT-A-KILL hatch) so process_gates/kill_target_claim_audit.py LEDGER_BASELINE can be lowered from 8 toward its documented retirement condition of zero"
+    ]
+  },
+  "conflict_keys": [
+    "LEDGER-KILL-TYPING",
+    "GENUINE-FALSIFICATION-RECOUNT"
+  ],
+  "integration": null
+}

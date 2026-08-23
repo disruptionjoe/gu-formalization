@@ -26,6 +26,11 @@
       "delta_id": "GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23",
       "path": "lab/process/conditional-evidence-deltas/gu-ext-sm-cosmo-bench-linking-2026-08-23.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-LEDGER-KILL-TYPING-2026-08-23",
+      "path": "lab/process/conditional-evidence-deltas/gu-ledger-kill-typing-2026-08-23.json",
+      "status": "pending"
     }
   ]
 }

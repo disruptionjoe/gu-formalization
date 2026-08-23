@@ -1285,7 +1285,9 @@
     "grant": "UNTYPED",
     "carrier": "C2",
     "note": "The target lives at the observed 3+1 pullback layer and observed carrier. The current Grant poset has no node for Jacobson's local-horizon, Unruh, area-entropy and Clausius assumptions, so the grant is declared UNTYPED rather than forced into the in-row conditional bucket."
-   }
+   },
+   "target_claim": "NONE-NOT-A-KILL",
+   "target_claim_note": "LT-GR8 is an accepted external benchmark target, not a kill. Its kill_scope field states what a FUTURE realization packet failure would bound, not a kill this row performs. Typed 2026-08-23 to clear the kill-target gate regression introduced when the row was added."
   },
   {
    "id": "LT-SM1",
