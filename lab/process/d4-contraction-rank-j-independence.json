@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "scope_correction_registry",
+  "created": "2026-08-23",
+  "status": "D4_CONTRACTION_CERTIFICATE_PROVED_J_INDEPENDENT__PROPOSED_NONMETRICITY_RETYPING_DOES_NOT_BIND_IT",
+  "directed_by": "Joe direct chat 2026-08-23",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "corrects the scope of a proposed internal retyping; kills no source claim and no route",
+  "proposed_retyping_being_scoped": {
+    "source": "2026-08-23 observed-side construction wave, survived both adversarial passes",
+    "correct_part": "MD-1's J = d_mu g_ab is a coordinate object, removable pointwise in normal coordinates; its invariant content is the non-metricity Q_(mu ab) = nabla^A_mu g_ab, which vanishes identically iff A is metric-compatible; MD-1 should name the connection it differentiates against",
+    "overextended_part": "that EVERY rank/kernel certificate computed with a nonzero rational J, naming the rank-10/kernel-95 D4 result, should be re-typed as computed at nonzero non-metricity, strictly off the Riemannian reduction theta = 0",
+    "invalid_step": "the quantifier: 'J is coordinate-dependent' licenses re-typing certificates that DEPEND on J, not certificates INVARIANT under J; the two were not separated"
+  },
+  "computation": {
+    "map": "C_s : Sym^2(T*Y) -> Sym^2(T*X), T |-> D^T T D, with D = [I_4 ; J] a 14x4 matrix",
+    "arithmetic": "exact rationals, no floats",
+    "results": [
+      {"J": "0 (Riemannian reduction, theta = 0)", "rank": 10, "kernel": 95},
+      {"J": "generic rational", "rank": 10, "kernel": 95},
+      {"J": "structured J_ij = i - j", "rank": 10, "kernel": 95}
+    ],
+    "rank_D_trials": {"cases": "J = 0 plus 200 random rational J", "observed_ranks": [4]}
+  },
+  "structural_proof": "D carries an identity block so rank(D) = 4 for every J; whenever rank(D) = 4 the induced map on symmetric squares is surjective onto Sym^2(R^4)*, since for any S the block-diagonal T = [[S,0],[0,0]] gives D^T T D = S. Hence rank C_s = 10 and ker C_s = 105 - 10 = 95 unconditionally in J.",
+  "why_the_identity_block_is_not_incidental": "the identity block is what makes the observation map a contraction rather than a projection (MD-1, WG-B06), so the very feature making s^* surjective onto T*X is what makes this certificate J-independent",
+  "effect": {
+    "direction": "STRENGTHENS",
+    "detail": "the D4 typing is now known to hold at the Riemannian reduction as well as off it; it was never conditional on non-metricity, and the proposed retyping would have made it look conditional"
+  },
+  "rule_for_future_retyping": "any certificate proposed for the non-metricity retyping must first be tested for J-dependence; a J-independent certificate must not be re-typed",
+  "unaffected": [
+    "the general non-metricity observation, which stands",
+    "the D4 component of the LT-GR8 packet, which remains PARTIAL for the recorded density-conversion and section-chain reasons, neither touched here"
+  ],
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
