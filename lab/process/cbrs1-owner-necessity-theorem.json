@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "cbrs1_owner_necessity_classification_registry",
+  "created": "2026-08-23",
+  "status": "SIX_JOINTLY_NECESSARY_CONDITIONS_EACH_INDIVIDUALLY_WITNESSED__N2_N6_TENSION_OPEN__NECESSITY_NOT_SUFFICIENCY",
+  "directed_by": "Joe direct chat 2026-08-23; velocity council item A2, the designated discriminator",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "classifies recorded internal obstruction results; kills no source claim and no route",
+  "corpus": {
+    "registry_glob": "lab/process/selected-k77-cbrs1*.json",
+    "count": 27,
+    "nature": "recorded CBRS-1 candidate closes; no result is recomputed here"
+  },
+  "conditions": [
+    {"id": "N1", "name": "point closure", "statement": "satisfy the complete point/field system: translation, spin-connection and primitive-epsilon equations"},
+    {"id": "N2", "name": "metric stationarity", "statement": "satisfy the full intrinsic MET(X) variation, not merely the point equations"},
+    {"id": "N3", "name": "non-orbit tangent", "statement": "the complete Hessian kernel must strictly exceed the gauge orbit; a nonzero primitive/metric-admissible non-orbit quotient must exist"},
+    {"id": "N4", "name": "primitive momentum closure", "statement": "the primitive-epsilon momentum divergence must vanish on the admitted field content"},
+    {"id": "N5", "name": "globalization", "statement": "the pointwise/constant reconstruction must lift to a nonhomogeneous spacetime solution"},
+    {"id": "N6", "name": "target-blind action ownership", "statement": "every coefficient owned by the released action and frozen before target evaluation: no density-fitted closure, no unowned normalization"}
+  ],
+  "binding_witnesses": [
+    {"condition": "N2", "witness": "CBRS-1M", "registry": "lab/process/selected-k77-cbrs1m-j4-split-point-class.json",
+     "recorded": "four native J4 field-stationary branches pass complete point owners but fail constant-grade metric stationarity",
+     "isolates": "N1 held, N2 failed"},
+    {"condition": "N3", "witness": "CBRS-1P", "registry": "lab/process/selected-k77-cbrs1p-j4-component-ranks.json",
+     "recorded": "complete Hessian dimension 230650, rank 230610, nullity 40; kernel exactly the 40-dimensional broken diagonal Spin orbit; primitive quotient dimension 0, metric-admissible non-orbit domain 0, first-symbol domain 0",
+     "isolates": "N1 and N2 held at the point, N3 failed",
+     "corroborating_witness": "CBRS-1L"},
+    {"condition": "N4", "witness": "CBRS-1U", "registry": "lab/process/selected-k77-cbrs1u-conformal-coframe-local-solution.json",
+     "recorded": "the reduced T/scalar/MET(X) subsystem closes, but the action-owned unrestricted momentum divergence is nonzero wherever the scalar coframe is invertible",
+     "isolates": "N4 failed alone"},
+    {"condition": "N5", "witness": "CBRS-1I", "registry": "lab/process/selected-k77-cbrs1i-chiral-null-point-class.json",
+     "recorded": "target_blind True; complete point translation, spin-connection, primitive-epsilon and intrinsic metric stationarity all pass; global_vacuum_status OPEN because a constant pointwise reconstruction is not a nonhomogeneous or global solution",
+     "isolates": "N1, N2 and N6 held, N5 failed"},
+    {"condition": "N6", "witness": "CBRS-1Y", "registry": "lab/process/selected-k77-cbrs1y-radial-sigma-metric-target-blindness-obstruction.json",
+     "recorded": "density_fitted_local_solution_exists True, two_density_universality False, no target-blind one-function owner",
+     "isolates": "N2 was CLOSED, N6 failed -- the tension witness"},
+    {"condition": "N6", "witness": "CBRS-1AA", "registry": "lab/process/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction.json",
+     "recorded": "raw endpoint variation map nonzero with dimension 2 while overall_coefficient_source_owned is False and the nonredundant target-blind owner quotient is 0",
+     "isolates": "N6 in the ownership sense: the object exists, the action owns no coefficient for it"}
+  ],
+  "bindingness_consequence": "each condition has a witness that satisfies the conditions upstream of it and fails exactly that one, so no condition may be dropped: a demand specification omitting any of the six admits a candidate the corpus has already closed",
+  "n2_n6_tension": {
+    "statement": "the corpus records an instance where metric closure was achievable only through a density-keyed second jet, i.e. only by violating target-blindness",
+    "witness": "CBRS-1Y",
+    "corroboration": ["CBRS-1Z failed target-blind primitive owner admission for two further candidates", "CBRS-1AA and CBRS-1AB closed the remaining normalization routes for lack of an owned coefficient"],
+    "open_question": "is the N2 AND N6 tension generic -- is metric closure within the released material achievable only by target-keyed data -- or is CBRS-1Y a feature of its particular one-function radial class?",
+    "status": "OPEN__NOT_ANSWERED_BY_THE_CORPUS"
+  },
+  "establishes": [
+    "six jointly necessary conditions with named binding witnesses",
+    "a demand specification that makes future candidates prosecutable before they are built",
+    "that the twenty-seven closes form a structured obstruction set with one sharp tension at its centre"
+  ],
+  "does_not_establish": [
+    "SUFFICIENCY: nothing here says a packet satisfying N1-N6 exists or would be admissible on further grounds",
+    "that the released material cannot supply an owner -- that is the open question, not a result",
+    "any verdict, canon or claim-status movement"
+  ],
+  "scope_caveat": "necessity conditions inherit the scope of the witnesses establishing them; each witness carries its own frozen class, branch and signature horn, and a candidate on a materially different carrier or real form may escape a condition by changing the object rather than solving the problem, in which case PD-STRUCTURE-TRANSPORT applies and the escape must be typed",
+  "council_discriminator_outcome": {
+    "council_item": "A2",
+    "verdict": "PARTIAL__NARROWS_RATHER_THAN_SETTLES",
+    "lens_8_3_terminus": "NOT_YET_VINDICATED -- the corpus shows a tension, not a proof of unsatisfiability, and one class is not a theorem about the released material",
+    "lens_3_2_method": "VINDICATED -- the necessity conversion was available, worth doing, and produced a sharper object than another candidate grind",
+    "terminal_writeup": "REMAINS_REFUSED__NOW_FOR_A_STATED_REASON: the exact statement it would need, that N2 AND N6 is unsatisfiable in the released material, is precisely what is open",
+    "lane_reposed": "the next question is no longer 'find another candidate' but 'prove or refute that N2 AND N6 is generically unsatisfiable', which is reachable without new source material because it is a question about the released material rather than a request for more of it"
+  },
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

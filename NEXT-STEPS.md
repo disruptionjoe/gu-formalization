@@ -7,6 +7,29 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 CBRS-1 IS REPOSED: SIX NECESSARY CONDITIONS, EACH WITNESSED,
+> AND ONE OPEN QUESTION THAT DECIDES THE LANE.** Classifying the twenty-seven
+> recorded CBRS-1 closes yields six jointly necessary conditions on any
+> admissible owner packet — **N1** point closure, **N2** full intrinsic
+> `MET(X)` stationarity, **N3** a non-orbit tangent, **N4** primitive momentum
+> closure, **N5** globalization, **N6** target-blind action ownership — each
+> individually binding with a recorded witness that passes the conditions
+> upstream of it and fails exactly that one (1M, 1P, 1U, 1I, and 1Y/1AA). A
+> candidate is therefore **prosecutable before it is built**. The sharpest
+> datum is `CBRS-1Y`, the one candidate that *closed* the metric system: it
+> closed **only** through a density-keyed second jet
+> (`two_density_universality: False`), so the corpus records a direct tension
+> between **N2 and N6**. **Whether that tension is generic is OPEN, and it is
+> now the lane's target** — reachable without new source material, because it
+> is a question about the released material rather than a request for more of
+> it. **Necessity is not sufficiency:** nothing here says an admissible packet
+> exists, and the terminal-exhaustion write-up stays refused because its
+> required statement is exactly what is open. Council item **A1** is also
+> installed: maintenance may not be a scheduled run's first choice, and a run
+> selecting it must log which delta-moving and ledger-moving arcs it tried.
+> See
+> `explorations/conditional-build/cbrs1-owner-necessity-theorem-2026-08-23.md`.
+
 > **2026-08-23 LEDGER v0.261 INTEGRATES THE TWO EARLIER BENCHMARK DELTAS.**
 > Three accepted gravitational targets are now canonical rows: `LT-GR9`
 > strong-field, `LT-GR10` PPN, and `LT-GR11` rotation-functional consistency.

@@ -99,7 +99,10 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     gate_flat = re.sub(r"\s+", " ", gate)
     check("0 of 84 rows naming any register ID" in gate_flat, "gate records the untyped sweep")
     check("came to target a claim the source never made" in gate_flat, "gate records the consequence")
-    check("LEDGER_BASELINE = 8" in gate, "gate baseline recorded")
+    # Monotonic: the baseline is a ratchet that may be lowered as rows are
+    # typed (it reached 0 on 2026-08-23) but must never be raised.
+    m = re.search(r"LEDGER_BASELINE = (\d+)", gate)
+    check(bool(m) and int(m.group(1)) <= 8, "gate baseline recorded and never raised")
 
     # ---- the repaired regression -----------------------------------------
     ltgr8 = rows.get("LT-GR8", {})
