@@ -7,6 +7,21 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 B3-DE LIKELIHOOD-SCOPE DISPOSITION: CPL IS COMPRESSION;
+> CROSSING EVIDENCE SURVIVES; NO LEDGER MOVEMENT.** The proposed absolute
+> withdrawal of the DESI CPL pair is refused. `(w_0,w_a)` are model-conditioned
+> fit coordinates, not literal pointwise measurements of `w(z)`, but DESI's
+> broader parametric and nonparametric analyses still prefer crossing and
+> explicitly do not rule out noncrossing alternatives. The 2026 Lyman-alpha AP
+> result updates the joint likelihood without directly measuring the low-z
+> crossing. GU therefore owes a direct evaluation of one action-owned family
+> against the current named DESI/CMB/supernova likelihoods. LT-GR2e v0.263
+> already carries that held-out burden, so B3-DE-01 is disposed
+> `NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION`. Three B3 entries remain;
+> reconstruct B3-CC-02, B3-CP-04 and B3-NU-05 at citation time, or take the
+> strongest newly surfaced B1/B4 construction. See
+> `explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md`.
+
 > **2026-08-23 B3-H0 OBSERVABLE-SCOPE DISPOSITION: THREE INFERENCE MAPS,
 > NO RELIEF, NO LEDGER MOVEMENT.** The filing slogan “no published H0 is
 > measured; every one is derived” is withdrawn as too coarse. SH0ES is a
@@ -18,9 +33,9 @@ updated_at: "2026-08-23"
 > observables, BAO ratios and low-redshift luminosity-distance relation. LT-GR2e
 > v0.263 already carries that construction and held-out prediction burden, so
 > B3-H0-06 is disposed
-> `NO_LEDGER_MOVEMENT__OBSERVABLE_SCOPE_CORRECTION`. Four B3 entries remain;
-> reconstruct B3-DE-01 next only if its pointwise-versus-CPL source objects and
-> DARK-ENERGY-07 correction chain survive citation-time review. See
+> `NO_LEDGER_MOVEMENT__OBSERVABLE_SCOPE_CORRECTION`. At that checkpoint four
+> B3 entries remained; B3-DE-01 has since been disposed separately and three
+> entries remain. See
 > `explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md`.
 
 > **2026-08-23 B3-J95 PRIMARY-SOURCE DISPOSITION: THE EQUILIBRIUM BRANCH
@@ -34,7 +49,8 @@ updated_at: "2026-08-23"
 > `NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION`. LT-GR8 remains `NEEDS /
 > MISSING_CONSTRUCTION`, with both equilibrium and entropy-production routes
 > open and no mechanism or confirmation credit. B3-H0-06 has since been
-> disposed separately; four B3 entries remain. See
+> disposed separately; B3-DE-01 has also been disposed and three B3 entries
+> remain. See
 > `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
 
 > **2026-08-23 FIRST FITTING CONSTRUCTION BANKED; STRONG-FIELD AND PPN

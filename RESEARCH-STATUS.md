@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**B3-DE primary-source likelihood-scope disposition, 2026-08-23.** The third
+B3 row is disposed with no ledger movement. DESI's CPL pair is a model-
+conditioned compression rather than a literal pointwise measurement of
+`w(z)`, but the likelihood evidence does not disappear: the extended
+parametric and nonparametric analyses retain a crossing preference while
+explicitly not ruling out noncrossing alternatives. The 2026 Lyman-alpha AP
+result updates the joint high-redshift likelihood but does not itself measure
+the low-redshift crossing. The honest GU target is one action-owned family
+evaluated directly against the named current DESI/CMB/supernova likelihoods.
+LT-GR2e v0.263 already requires that held-out evaluation and remains `NEEDS /
+MISSING_CONSTRUCTION` byte-for-byte. Three B3 entries remain. See
+`explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md`.
+
 **B3-H0 primary-source observable-scope disposition, 2026-08-23.** The second
 B3 row is disposed with no ledger movement. `H_0` is an inferred parameter in
 every route, but the filing slogan “nothing is measured” erased different
@@ -18,7 +31,8 @@ under a cosmological model; DESI reports BAO distance ratios and constrains
 also cannot be dismissed as one undifferentiated model artifact. LT-GR2e
 v0.263 already requires an action-owned cosmological solution with fixed
 initial data and held-out DESI/CMB/BAO predictions, so it remains `NEEDS /
-MISSING_CONSTRUCTION` byte-for-byte. Four B3 entries remain. See
+MISSING_CONSTRUCTION` byte-for-byte. B3-DE-01 has since been disposed and
+three B3 entries remain. See
 `explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md`.
 
 **B3-J95 primary-source scope disposition, 2026-08-23.** The first B3 row is
@@ -32,13 +46,14 @@ conditions. The proposed inference that the Weyl/Bach sector presumptively
 closes equilibrium is withdrawn. LT-GR8 v0.263 already preserves the exact
 two-branch obligation and remains `NEEDS / MISSING_CONSTRUCTION`, with
 mechanism and confirmation `NONE`. B3-H0-06 has since been disposed
-separately; four B3 entries remain for citation-time source disposition. See
+separately; B3-DE-01 has also been disposed and three B3 entries remain. See
 `explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md`.
 
 | B3 entry | proposed direction | source disposition | ledger effect |
 | --- | --- | --- | --- |
 | B3-J95-03 / LT-GR8 | nonequilibrium-only tightening | refused beyond `f(R)` scope; restricted algebraic-Riemann equilibrium route remains | none |
 | B3-H0-06 / LT-GR2e | all H0 routes reduced to “nothing measured” | three typed carriers: empirical ladder, model-inferred CMB H0, BAO ratios/H0*r_d | none |
+| B3-DE-01 / LT-GR2e | withdraw CPL target and all associated evidence | CPL demoted to model-conditioned compression; direct/nonparametric crossing lean retained; action-owned direct likelihood owed | none |
 
 **First fitting construction and gravitational-anchor bucket disposition,
 2026-08-23.** `FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1` is banked at observed R5

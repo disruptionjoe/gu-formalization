@@ -102,6 +102,27 @@ corrections:
       - H0*r_d
       - EXT-COSMO-BACKGROUND
     enforce: false
+  - id: B3-DE-SCOPE-20260823
+    owner: explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md
+    meaning: >-
+      B3-DE-01 correctly demanded a two-sided disposition but proposed an
+      absolute withdrawal that erased evidence along with a parameterization.
+      The CPL pair is model-conditioned compressed evidence rather than a
+      literal pointwise measurement of w(z). DESI's broader parametric and
+      nonparametric analyses retain a crossing preference while explicitly not
+      ruling out noncrossing alternatives. The honest GU target is an action-
+      owned family evaluated against the named DESI/CMB/supernova likelihoods,
+      including the 2026 Lyman-alpha AP update. LT-GR2e already requires that
+      held-out evaluation, so the correction moves no ledger row.
+    canonical_since: "2026-08-23"
+    topic_signature:
+      - B3-DE-01
+      - CPL
+      - w0-wa
+      - phantom crossing
+      - nonparametric dark energy
+      - EXT-COSMO-BACKGROUND
+    enforce: false
   - id: HQ-PHASE-20260812
     owner: explorations/conditional-build/selected-k77-moving-hq-eddy-quartic-retype-2026-08-12.md
     meaning: >-

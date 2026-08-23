@@ -132,12 +132,18 @@ scientific direction.
   relief.** See
   `explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md`.
 
-**B3-DE-01 discloses that it cuts both ways**, which is the discipline working.
-Withdrawing the CPL central pair as a target also withdraws the CPL-based
-argument *against* GU recorded in the comparative-tensions ledger. Undisclosed
-that reads as one-sided relief; disclosed, it is exactly the relocation B3 is
-for — the lean-against moves onto the pointwise object where the recorded kill
-already lives.
+- **B3-DE-01 (EXT-COSMO-BACKGROUND, LT-GR2e) — corrected by
+  `B3-DE-SCOPE-20260823`.** The filing entry correctly demanded a two-sided
+  disposition but proposed too much withdrawal. The CPL pair is a model-
+  conditioned compression, not a literal pointwise measurement of `w(z)`, so
+  it is neither a direct GU target nor credit by itself. DESI's extended
+  parametric and nonparametric analyses nevertheless retain a preference for
+  crossing while stating that noncrossing alternatives cannot be ruled out.
+  The current GU target is therefore one direct likelihood evaluation of an
+  action-owned family against the named DESI/CMB/supernova observations,
+  including the 2026 Lyman-alpha AP update. LT-GR2e already carries that held-
+  out burden, so B3-DE-01 is disposed with no ledger movement. See
+  `explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md`.
 
 ### Corrections the register applied to itself
 
@@ -179,7 +185,11 @@ equilibrium-or-entropy-production fork. The proposed H0 measured-versus-derived
 binary is refused by `B3-H0-SCOPE-20260823`; the existing LT-GR2e burden
 already requires an action-owned cosmological solution with held-out CMB/BAO
 predictions, and the accepted EXT-COSMO-BACKGROUND link covers the observed
-expansion history without a duplicate row.
+expansion history without a duplicate row. The proposed absolute CPL
+withdrawal is refused by `B3-DE-SCOPE-20260823`: CPL coordinates are compressed
+evidence, while DESI's direct and nonparametric crossing preference survives
+without a class-wide exclusion. LT-GR2e already requires the action-owned
+held-out likelihood evaluation, so no row moves.
 
 One independent confirmation worth recording: the wave ran
 `tests/channel-swings/d4_contraction_rank_j_independence_probe.py` and it

@@ -94,10 +94,11 @@
       },
       {
         "id": "B3-DE-01",
-        "finding": "withdraws the CPL central pair as target and as credit, and DISCLOSES that this also withdraws the CPL-based argument against GU recorded in the comparative-tensions ledger; undisclosed it would read as one-sided relief"
+        "finding": "CPL coordinates are model-conditioned compressed evidence rather than literal pointwise measurements, but the DESI extended and nonparametric likelihood evidence for crossing survives; the direct GU target is an action-owned family evaluated against the named likelihoods",
+        "stated_as": "DISPOSED_NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION; LT-GR2e v0.263 already requires the action-owned cosmological solution, held-out w(z), and DESI/CMB/BAO predictions"
       }
     ],
-    "self_corrections_applied": "re-checking citations at filing time changed four statements across two entries against CORRECTION DARK-ENERGY-07. Later primary-source disposition B3-J95-SCOPE-20260823 withdrew the proposed LT-GR8 nonequilibrium-only tightening because the 2006 result is f(R)-scoped and the 2012 algebraic-Riemann construction leaves a restricted equilibrium route open. B3-H0-SCOPE-20260823 replaces the measured-versus-derived binary with three typed empirical and inference maps while preserving the no-relief conclusion",
+    "self_corrections_applied": "re-checking citations at filing time changed four statements across two entries against CORRECTION DARK-ENERGY-07. Later primary-source disposition B3-J95-SCOPE-20260823 withdrew the proposed LT-GR8 nonequilibrium-only tightening because the 2006 result is f(R)-scoped and the 2012 algebraic-Riemann construction leaves a restricted equilibrium route open. B3-H0-SCOPE-20260823 replaces the measured-versus-derived binary with three typed empirical and inference maps while preserving the no-relief conclusion. B3-DE-SCOPE-20260823 rejects the proposed absolute CPL withdrawal: the coordinates are model-conditioned compression, while direct and nonparametric crossing evidence survives without ruling out the noncrossing class",
     "dispositions": {
       "B3-J95-03": {
         "status": "DISPOSED_NO_LEDGER_MOVEMENT__SOURCE_SCOPE_CORRECTION",
@@ -112,9 +113,16 @@
         "registry_ref": "lab/process/b3-h0-observable-scope-disposition.json",
         "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
         "reason": "The initial slogan erased the empirical content of the local distance ladder and the distinct model/calibration burdens of CMB and BAO. LT-GR2e already requires the action-owned cosmological solution and held-out DESI/CMB/BAO predictions, so the source-scope correction needs no row movement."
+      },
+      "B3-DE-01": {
+        "status": "DISPOSED_NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION",
+        "result_ref": "explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md",
+        "registry_ref": "lab/process/b3-de-likelihood-scope-disposition.json",
+        "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+        "reason": "The proposed absolute CPL withdrawal confused fitted coordinates with the evidence they compress. DESI's direct and nonparametric analyses preserve a scoped crossing preference while not ruling out noncrossing alternatives, and LT-GR2e already requires the action-owned held-out likelihood evaluation."
       }
     },
-    "remaining_entries": 4,
+    "remaining_entries": 3,
     "maintenance_rule": "entries are re-checked AT CITATION TIME, not filing time. The cautionary case is sigma_8/S_8: KiDS-Legacy now agrees with Planck at 0.73 sigma, so a register built a year ago would today be holding S_8 as a live excuse",
     "refused_with_reasons": [
       "muon g-2 HVP: no row, and the tension has closed -- the 2025 Theory Initiative lattice-based value agrees with the final Fermilab measurement",
@@ -123,7 +131,7 @@
       "rotation curves: a row exists but mass-to-light converged to ~0.1 dex against a discrepancy of a factor of several, so a tension claim would be special pleading"
     ]
   },
-  "ledger_bearing": "candidates only; the FC wave produces zero bearing. B3-J95-03 initially proposed a revival_trigger narrowing in the HARDER direction, but is disposed with no ledger movement because v0.263 already preserves both source-licensed branches. B3-H0-06 is disposed with no ledger movement because LT-GR2e already carries the action-owned held-out observable burden after the measured-versus-derived slogan is corrected; the remaining four entries require ordinary citation-time disposition before any evidence delta",
+  "ledger_bearing": "candidates only; the FC wave produces zero bearing. B3-J95-03 is disposed with no movement because v0.263 preserves both source-licensed branches. B3-H0-06 is disposed with no movement because LT-GR2e carries the action-owned held-out observable burden after its evidence maps are corrected. B3-DE-01 is disposed with no movement because CPL is model-conditioned compression while the direct and nonparametric crossing lean survives, and LT-GR2e already requires direct held-out evaluation. The remaining three entries require ordinary citation-time disposition before any evidence delta",
   "independent_confirmation": "the wave ran tests/channel-swings/d4_contraction_rank_j_independence_probe.py and it passed 33/33",
   "ledger_verdict_change": "none",
   "claim_status_change": "none",

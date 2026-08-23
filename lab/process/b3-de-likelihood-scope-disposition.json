@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "b3_primary_source_likelihood_scope_disposition",
+  "created": "2026-08-23",
+  "b3_id": "B3-DE-01",
+  "ledger_row": "LT-GR2e",
+  "external_benchmark": "EXT-COSMO-BACKGROUND",
+  "status": "DISPOSED_NO_LEDGER_MOVEMENT__LIKELIHOOD_SCOPE_CORRECTION",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "CPL, nonparametric and newest Lyman-alpha AP likelihood semantics for DESI DR2 dark-energy evidence; no new DESI or GU fit is performed.",
+  "primary_sources": [
+    {
+      "id": "DESI-DR2-II-2025",
+      "arxiv": "2503.14738v3",
+      "observable_carrier": "DESI DR2 BAO distance ratios combined with named CMB and supernova likelihoods",
+      "inference_map": "observables and covariances -> CPL w0-wa posterior -> model comparison against Lambda-CDM",
+      "licensed_claim": "Within the w0-wa extension, DESI+CMB prefers evolving dark energy at 3.1 sigma and DESI+CMB plus different supernova samples gives 2.8--4.2 sigma, with the preferred quadrant w0 > -1 and wa < 0.",
+      "ceiling": "The posterior coordinates are model-conditioned fit parameters and are not literal pointwise measurements of a true w(z)."
+    },
+    {
+      "id": "DESI-DR2-EXTENDED-DE-2025",
+      "arxiv": "2503.14743v2",
+      "observable_carrier": "the same named cosmological likelihoods evaluated through broader parametric and nonparametric dark-energy representations",
+      "inference_map": "likelihood -> parametric and nonparametric reconstructions -> crossing and noncrossing class comparison",
+      "licensed_claim": "Parametric and nonparametric routes both indicate possible phantom-divide crossing near z about 0.5; noncrossing alternatives are disfavored but cannot be ruled out.",
+      "ceiling": "A crossing preference is not a class-wide exclusion, and CPL can approximate distances while failing to represent the underlying pointwise w(z)."
+    },
+    {
+      "id": "DESI-DR2-IV-LYA-AP-2026",
+      "arxiv": "2607.27410v3",
+      "observable_carrier": "Lyman-alpha forest full-shape Alcock--Paczynski and BAO information centered at z=2.33",
+      "inference_map": "high-redshift AP and BAO likelihood -> joint cosmological posterior with CMB and optionally supernovae",
+      "licensed_claim": "The updated w0-wa comparison is 2.7 sigma for DESI+CMB and 3.2 sigma when supernovae are included.",
+      "ceiling": "The high-redshift AP measurement updates the joint likelihood but does not by itself directly measure a low-redshift pointwise crossing."
+    }
+  ],
+  "rejected_inferences": [
+    "CPL is a compression -> all crossing evidence disappears",
+    "the CPL central pair directly measures w(z) -> every noncrossing family is ruled out"
+  ],
+  "precise_relocation": "Treat the CPL posterior as model-conditioned compressed evidence; retain the direct and nonparametric lean toward crossing; evaluate an action-owned GU family against the underlying named likelihood before assigning a quantitative GU verdict.",
+  "dark_energy_07_corrections": [
+    "3.2 sigma is a two-degree-of-freedom Mahalanobis radius; the recorded one-dimensional reading is about 2.7 sigma",
+    "profiled f0 bounds are roughly three times looser than fixed-omega_m-h2 bounds",
+    "the honest discriminator is shape, not the bare +5.7 sigma_A amplitude overshoot; the recorded amplitude-marginalized shape penalty is +19.3 at M2=8 while fitted CPL gains -22.8",
+    "uncalibrated supernovae constrain distance shape and Omega_m, not H0 mechanically; calibrated GU Omega_m about 0.352 lies near the recorded DES-Y5 value",
+    "the theta family is excluded as the DESI dark-energy signal but unconstrained-but-null as a family, with best-f0 Delta AIC +1.9 to +3.2"
+  ],
+  "historical_comparative_ledger": {
+    "ref": "explorations/comparative-tensions-ledger-MASTER-2026-07-21.md",
+    "current_reuse_rule": "Do not reuse its CPL central pair as a literal pointwise target. Preserve only the scoped likelihood lean that crossing models fit the named data combinations better until a GU family is tested directly.",
+    "file_mutation": "none"
+  },
+  "ledger_comparison": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "row": "LT-GR2e",
+    "verdict": "NEEDS",
+    "reason_kind": "MISSING_CONSTRUCTION",
+    "required_distance_tokens": [
+      "matter/radiation FLRW perturbations",
+      "held-out w(z)"
+    ],
+    "required_revival_tokens": [
+      "action-owned cosmological solution",
+      "fixed initial data",
+      "held-out DESI/CMB/BAO predictions"
+    ],
+    "movement": "none"
+  },
+  "corrected_evaluation_packet": [
+    "derive one action-owned GU background, perturbation system and fixed initial data",
+    "derive the GU-family pointwise w(z) property rather than importing the CPL central pair",
+    "evaluate the current DESI DR2 BAO and Lyman-alpha AP, CMB and supernova likelihoods with their covariances and nuisance treatment",
+    "report CPL compression, nonparametric comparison and direct class-constrained likelihood separately"
+  ],
+  "propagation": {
+    "corrected_artifact": "explorations/conditional-build/fc-admission-wave-and-first-b3-register-2026-08-23.md",
+    "corrected_registry": "lab/process/fc-admission-wave-and-first-b3-register.json",
+    "correction_id": "B3-DE-SCOPE-20260823"
+  },
+  "remaining_b3_entries": 3,
+  "ledger_verdict_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

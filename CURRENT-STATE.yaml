@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4b5936d8c14926e01bafaeb4b1219c28d86482c2
+revision_basis: 8110d4ef448e7f55e322c9038978799342b3225e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The third primary-source B3 disposition corrects B3-DE-01 and moves no
+    ledger row. DESI's CPL coordinates are model-conditioned compressed
+    evidence, not literal pointwise measurements of w(z), but their demotion
+    does not erase the underlying likelihood evidence: DESI's broader
+    parametric and nonparametric analyses retain a crossing preference while
+    stating that noncrossing alternatives cannot be ruled out. The 2026
+    Lyman-alpha AP result updates the joint high-redshift likelihood without
+    directly measuring the low-redshift crossing. The honest GU target is one
+    action-owned family evaluated against the named current DESI/CMB/supernova
+    likelihoods. LT-GR2e v0.263 already requires that construction, held-out
+    w(z), fixed initial data and DESI/CMB/BAO predictions, so it remains
+    byte-identical at NEEDS / MISSING_CONSTRUCTION. Three B3 entries remain.
     The second primary-source B3 disposition corrects B3-H0-06 and moves no
     ledger row. H0 is inferred in every route, but the observed carriers and
     inference maps are not interchangeable: SH0ES is a geometrically anchored
@@ -19,8 +31,8 @@ current_result:
     conclusion remains. LT-GR2e v0.263 already requires an action-owned
     cosmological solution with fixed initial data and held-out DESI/CMB/BAO
     predictions, and EXT-COSMO-BACKGROUND already binds the observed expansion
-    history, so no ledger mutation is needed. Four B3 entries remain for
-    citation-time disposition.
+    history, so no ledger mutation is needed. B3-DE-01 has since been disposed,
+    leaving three B3 entries for citation-time disposition.
     The first primary-source B3 disposition corrected B3-J95-03 without moving
     a ledger row. Jacobson 1995 remains a conditional theoretical benchmark,
     and Eling-Guedens-Jacobson 2006 genuinely requires entropy production for
@@ -3119,16 +3131,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  The P3 external-tension register now has two disposed entries with no ledger
-  movement. B3-J95-03 preserves the restricted equilibrium and explicit
-  nonequilibrium branches already present in LT-GR8. B3-H0-06 now preserves
-  three distinct evidence maps: geometrically anchored local ladder, model-
-  inferred CMB H0, and BAO distance ratios/H0*r_d. Do not restore either
-  refused slogan or treat the Hubble tension as relief. Four B3 entries remain.
-  Reconstruct their primary-source objects at citation time and dispose the
-  strongest decision-grade row; take B3-DE-01 next only if the pointwise-
-  versus-CPL likelihood objects and DARK-ENERGY-07 corrections survive exact
-  reconstruction, otherwise take the strongest remaining B1/B4 construction.
+  The P3 external-tension register now has three disposed entries with no
+  ledger movement. B3-J95-03 preserves the restricted equilibrium and
+  explicit nonequilibrium branches already present in LT-GR8. B3-H0-06
+  preserves three distinct evidence maps and supplies no relief. B3-DE-01
+  demotes CPL coordinates to model-conditioned compression while preserving
+  the direct/nonparametric crossing lean and requiring a direct action-owned
+  GU likelihood evaluation. Do not restore any refused slogan, erase the
+  crossing evidence, or claim a noncrossing class-wide exclusion. Three B3
+  entries remain. Reconstruct B3-CC-02, B3-CP-04 and B3-NU-05 from their exact
+  primary-source objects at citation time and dispose the strongest decision-
+  grade row, or take the strongest newly surfaced B1/B4 construction.
   The three accepted gravitational anchors retain their
   bucket dispositions: LT-GR11 is banked at B1 as
   FC-GR-ROTATION-EINSTEIN-WEYL-STATIC-1, while LT-GR9 and LT-GR10 are precisely
