@@ -24,7 +24,7 @@ DISP_REG = ROOT / "lab/process/phenomenology-disposition-and-exhaustion-rule.jso
 DISP_DOC = ROOT / "lab/methods/phenomenology-disposition-and-exhaustion-rule.md"
 POSTURE = ROOT / "RESEARCH-POSTURE.md"
 
-EXPECTED_FC = ["FC-1", "FC-2", "FC-3", "FC-4", "FC-5", "FC-6"]
+EXPECTED_FC = ["FC-1", "FC-2", "FC-3", "FC-4", "FC-5", "FC-6", "FC-7"]
 EXPECTED_BUCKETS = ["B1", "B2", "B3", "B4"]
 
 # Claim-forms only: phrases that cannot occur as a quoted-and-rejected
@@ -78,7 +78,12 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
 
     # ---- all six admission criteria, each with a requirement -------------
     crit = {c["id"]: c for c in grade["admission_criteria"]}
-    check(list(crit) == EXPECTED_FC, "six admission criteria in order")
+    check(list(crit) == EXPECTED_FC, "seven admission criteria in order")
+    check("forbids" in crit.get("FC-7", {}).get("requirement", ""),
+          "FC-7 requires a nontriviality witness")
+    check("contentless" in " ".join(grade["anti_laundering_features"])
+          or "contentful" in crit.get("FC-7", {}).get("requirement", ""),
+          "the consistency-versus-content distinction is recorded")
     for cid in EXPECTED_FC:
         check(len(crit.get(cid, {}).get("requirement", "")) > 60,
               f"{cid} states a substantive requirement")
@@ -185,7 +190,7 @@ def selftest() -> int:
     changed = copy.deepcopy(baseline)
     changed["grade"]["admission_criteria"] = [
         c for c in changed["grade"]["admission_criteria"] if c["id"] != "FC-5"]
-    mutations.append(("pathway-criterion-dropped", "six admission criteria in order", changed))
+    mutations.append(("pathway-criterion-dropped", "seven admission criteria in order", changed))
 
     changed = copy.deepcopy(baseline)
     for c in changed["grade"]["admission_criteria"]:

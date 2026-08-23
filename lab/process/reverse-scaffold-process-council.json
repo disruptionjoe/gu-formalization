@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "process_council_registry",
+  "created": "2026-08-23",
+  "status": "SEVEN_SEATS__P1_APPLIED_SAME_DAY_AS_FC7__P2_TO_P6_QUEUED__THREE_REFUSALS__THREE_STANDING_DISAGREEMENTS",
+  "directed_by": "Joe direct chat 2026-08-23: ask the science council what the best process is for improving the conditional-build reverse scaffolding effort",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "adjudicates method design; kills no source claim and no research route",
+  "state_being_improved": "six frozen R6 anchors; frozen R5/R4/R3 demand packets; R2 typed at metric-only; R1 blocked; a seven-owner demand ledger; and as of today the FITTING_CONSTRUCTION grade with the four-bucket disposition scheme. What it has never produced is a construction: every descent terminated in a demand interface.",
+  "seats": {
+    "S1_METHODOLOGIST": "a rung may not terminate in a demand; it terminates in a FITTING_CONSTRUCTION or a precise impossibility. Freezing what is needed is the cheap half and the program has done only that half, six times",
+    "S2_CONSTRUCTION_ENGINEER": "adopt a minimum-viable-object standard: build the smallest structure satisfying the frozen demand, one background, one wedge, one constraint, and let generality be a later swing. The K-series repeatedly attacked general whole-class questions when a single explicit instance would have been decisive and cheaper",
+    "S3_PHENOMENOLOGY_CUSTODIAN": "build the external-tension register, the mirror of the source-claim register for the physics side: what is measured, what is model-dependent, what is contested. Bucket B3 has never been used and until the register exists 'GU must reproduce X' is an unexamined premise on every row",
+    "S4_COMPOSITION_THEORIST": "mechanize the interface check and do not say pathway until it passes: rung N's output type must equal rung N+1's input type end to end, or what exists is a pile rather than a chain",
+    "S5_ADVERSARY": "every fitting construction must carry a nontriviality witness, something it forbids. FC-1..FC-6 all test consistency and none tests content; a sufficiently weak object passes all six trivially by saying nothing. This decides whether the grade is a research instrument or a laundering channel",
+    "S6_SCHEDULER": "rewrite A1's selection rule in bucket vocabulary and give the loop bounded swings with exit conditions, so the exhaustion rule enforces itself mechanically",
+    "S7_HISTORIAN": "put an expiry on the scheme: the six-axis template, base categories, conditional-physics ledger, demand ledger and owner ledger are all well made and all became filing systems rather than generators. Carry a generation obligation or declare the scheme non-generative and revise it"
+  },
+  "priority_plan": [
+    {
+      "id": "P1",
+      "from": "S5",
+      "action": "FC-7 nontriviality witness: every admitted construction states at least one thing it forbids",
+      "status": "APPLIED_2026_08_23",
+      "note": "landed before anything was banked at the grade, because a laundering channel is far harder to close after it has contents"
+    },
+    {
+      "id": "P2",
+      "from": "S1",
+      "action": "a rung terminates in a construction or a precise impossibility, never a demand",
+      "status": "QUEUED",
+      "note": "the change that converts the scaffold from a specification device into a generator; the direct answer to the question asked"
+    },
+    {
+      "id": "P3",
+      "from": "S3",
+      "action": "build the external-tension register for bucket B3",
+      "status": "QUEUED",
+      "note": "largest untapped work, zero R1 dependency, and the only recommendation that expands what the program can legitimately claim rather than tightening how it claims"
+    },
+    {
+      "id": "P4",
+      "from": "S4",
+      "action": "mechanized interface/composition check",
+      "status": "QUEUED",
+      "note": "required before 'clear and plausible pathway' may be used of the whole build; until then the correct phrase is 'a set of fitting constructions'"
+    },
+    {
+      "id": "P5",
+      "from": "S6",
+      "action": "rewrite A1 in bucket vocabulary with bounded swings",
+      "status": "QUEUED"
+    },
+    {
+      "id": "P6",
+      "from": "S7",
+      "action": "generation obligation with expiry review",
+      "status": "QUEUED"
+    }
+  ],
+  "explicit_refusals": [
+    {
+      "refused": "order the construction queue by size alone",
+      "against_seat": "S2",
+      "reason": "the minimum-viable-object STANDARD is adopted, but ordering the QUEUE by size conflicts with P4: the smallest available object is often the one whose interfaces compose with nothing. Order by interface position, choose minimally within that"
+    },
+    {
+      "refused": "gate P2 on P4",
+      "against_seat": "S4",
+      "reason": "a rung may produce a construction before the composition machinery exists; it simply may not be called a pathway yet. Sequencing the generator behind the checker would reproduce the stall this council was convened to fix"
+    },
+    {
+      "refused": "let B3 relax any obligation before its register entry exists",
+      "against_seat": "S3",
+      "reason": "a tension may only soften an obligation once cited and scoped; refused as a general licence"
+    }
+  ],
+  "standing_disagreements": [
+    {
+      "between": [
+        "S2",
+        "S4"
+      ],
+      "about": "queue ordering, smallest-first versus interface-first",
+      "resolution": "partially resolved by separating the standard from the ordering; the residual disagreement is real and left standing"
+    },
+    {
+      "between": [
+        "S5",
+        "S6"
+      ],
+      "about": "the nontriviality bar raises admission cost against the scheduler's need for volume",
+      "resolution": "resolved for now in favour of S5 on the grounds that an unfalsifiable bank is worth less than a small honest one; S6's objection is recorded and revisited if admissions stall"
+    },
+    {
+      "between": [
+        "S7",
+        "S1"
+      ],
+      "about": "whether the scheme deserves the investment at all",
+      "resolution": "left open; P6's review is the designated test"
+    }
+  ],
+  "ledger_verdict_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

@@ -43,7 +43,7 @@ It sits **below** `conditional` and **above** `speculative`. It is not a
 derivation, not a prediction, and not evidence that GU is correct. It is a
 statement that a specific object is available, consistent, and reachable.
 
-## Admission criteria — all six, or it is not a FITTING CONSTRUCTION
+## Admission criteria — all seven, or it is not a FITTING CONSTRUCTION
 
 **FC-1 BUILT, NOT GESTURED.** The object is actually constructed and its
 structure fingerprint is stated in full: carrier, pairing or form, real
@@ -79,6 +79,19 @@ condition under which it **demotes**: if the pathway is later shown blocked,
 or a conflict surfaces, the construction drops to `speculative` or `negative`
 rather than silently persisting at this grade.
 
+**FC-7 NONTRIVIALITY WITNESS — states something it forbids.** The construction
+must name at least one thing it rules out: an excluded value, an excluded
+structure, or an observable whose measurement would falsify it. A construction
+that forbids nothing constrains nothing and is not admitted.
+
+*Why this criterion exists.* FC-1 through FC-6 all test whether a construction
+is CONSISTENT — built, non-conflicting, source-compatible, routed, ceilinged.
+None of them tests whether it is CONTENTFUL. A sufficiently weak object passes
+all six trivially, precisely because it conflicts with nothing by virtue of
+saying nothing. FC-7 is the criterion that separates a research instrument from
+a laundering channel, and it was added on the day the grade was installed, by
+the process council's seat 5, before anything had been banked at the grade.
+
 ## What this grade explicitly does not license
 
 - **Compatibility as derivation.** `RESEARCH-POSTURE.md` lists this among the
@@ -96,13 +109,14 @@ rather than silently persisting at this grade.
 ## Why this is not a laundering channel
 
 The failure mode to guard is a channel that banks unearned work by calling it
-"fitting." Four features prevent it. FC-1 requires an actual object with a full
+"fitting." Five features prevent it. FC-1 requires an actual object with a full
 fingerprint, which is expensive and checkable. FC-3 and FC-4 require *named*
 searches against the corpus and the source register, so an unchecked claim is
 visibly unchecked. FC-5 forbids the degenerate pathway — the one that says the
 source action must exist — which is exactly the restatement that has been
 passing as an answer. FC-6 makes the grade revocable, so a construction whose
-pathway closes does not sit at grade forever.
+pathway closes does not sit at grade forever. And FC-7 refuses an object that
+is consistent only because it is contentless.
 
 The grade also **cannot inflate the ledger**, because it is barred from moving
 a row toward `SAME` and from earning prediction credit. Its whole value is
