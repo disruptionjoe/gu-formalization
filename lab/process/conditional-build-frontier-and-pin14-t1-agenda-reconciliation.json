@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-23",
+  "artifact": "explorations/conditional-build/conditional-build-frontier-and-pin14-t1-agenda-reconciliation-2026-08-23.md",
+  "agenda_items": [
+    "ANOMALY-DESCENT-HARDENING",
+    "PROOF-STABLE-KERNELS"
+  ],
+  "selected_arc": "L10-PIN14-T1-AGENDA-RECONCILIATION",
+  "source_to_proof_delta": {
+    "primary_claim": "The selected GU source action and observation architecture must supply the physical reduction and observable owners used by the conditional build.",
+    "native_objects": "K77 ambient carrier, selected action, observation and constraint data, physical state and observable maps.",
+    "current_certificate": "The ambient Pin+ degree-14 bordism group is derivation-grade Z/2, but GU class realization and anomaly descent are unbuilt.",
+    "missing_bridge": "A complete CBRS-1/2 construction, source-owned operator/domain/line map for GU class realization, B5/SRC-COH-1 owner, physical boundary law and held-out consequence.",
+    "reopening_evidence": "A new complete target-blind owner packet, operator/domain/line packet, physical boundary owner or applicable future observational release.",
+    "movement": "unchanged"
+  },
+  "frontier": [
+    {"arc": "L10 Pin+ T1 agenda reconciliation", "disposition": "selected", "predicate": "live agenda advertises a 2026-08-03-completed ambient derivation as hourly-eligible and in progress"},
+    {"arc": "CBRS-1 materially distinct action owner", "disposition": "blocked", "predicate": "no complete pre-density owner, field, coefficient, Euler system and Hilbert map"},
+    {"arc": "CBRS-2 observed reduction", "disposition": "blocked", "predicate": "no complete local CBRS-1 solution"},
+    {"arc": "P-LATTICE C1 source packet", "disposition": "blocked", "predicate": "seven owner-grade axes absent"},
+    {"arc": "B5 physical boundary", "disposition": "blocked", "predicate": "no new metric/coframe action or physical BFV owner"},
+    {"arc": "P-OBS confrontation", "disposition": "monitor", "predicate": "no applicable future release or finite-redshift bridge"}
+  ],
+  "reconciliation": {
+    "ambient_t1": "COMPLETE_INTERNAL_DERIVATION_GRADE",
+    "gu_class_realization": "OPEN_OPERATOR_END_PENCIL",
+    "t2": "CLOSED_SIGMA_CIRCULAR",
+    "t3": "BLOCKED_ON_B5_SRC_COH_1",
+    "forced_observable_count": 0
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "canon_change": "none",
+    "portfolio_effect": "obsolete executable T1 pointer removed",
+    "next_selection": "rebuild substantial frontier"
+  },
+  "probe": "tests/channel-swings/conditional_build_frontier_pin14_t1_agenda_reconciliation_probe.py"
+}

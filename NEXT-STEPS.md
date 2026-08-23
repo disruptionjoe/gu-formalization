@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-22"
+updated_at: "2026-08-23"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-23 THE STALE PIN+ T1 AGENDA SHOT IS CLOSED.** The live
+> anomaly-descent item still described the ambient `Omega^{Pin+}_14`
+> reconstruction as hourly-eligible and in progress, but GU canon and the
+> upgraded executable gate completed that Smith/ABP/`ko` derivation on
+> 2026-08-03. Do not rerun it. The result is exactly the ambient group
+> `Z/2` at internal derivation grade; it does not construct GU's proposed
+> class or prove that class nonzero. Class realization remains the separate
+> `OPERATOR-END-PENCIL` gate. Anomaly T2 remains closed as sigma-circular,
+> and T3 remains blocked until `B5-INDEPENDENT-RECONSTRUCTION` discharges
+> `SRC-COH-1`. Rebuild the substantial frontier next; no scientific verdict,
+> canon, source ownership, prediction or public posture changed. See
+> `explorations/conditional-build/conditional-build-frontier-and-pin14-t1-agenda-reconciliation-2026-08-23.md`.
 
 > **2026-08-22 LT-GR8 CARRIER AND BOUNDARY TYPING IS EXECUTED AT ITS
 > METRIC-ONLY CEILING.** The forward track's first step is complete: over the
