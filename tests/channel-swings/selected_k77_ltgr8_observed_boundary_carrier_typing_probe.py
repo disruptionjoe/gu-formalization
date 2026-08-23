@@ -167,9 +167,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         check(phrase not in result, f"forbidden grammar absent: {phrase}")
 
     # Evidence delta shape and linkage.
-    check(delta["status"] == "pending", "delta pending")
+    check(delta["status"] == "deferred", "delta deferred")
     check(delta["affected_rows"] == ["LT-GR8"], "delta targets LT-GR8")
-    check(delta["integration"] is None, "delta not self-integrated")
+    check(delta["integration"]["disposition"] == "deferred", "delta integration deferred")
+    check(delta["integration"]["priority_effect"] == "none", "delta priority unchanged")
+    check(delta["integration"]["cursor_advanced"] is True, "delta cursor advanced")
     check(data["evidence_delta"].endswith("gu-ltgr8-boundary-carrier-typing-2026-08-22.json"), "delta linked")
     check("no verdict change" in delta["proposed_effect"]["summary"].lower()
           or "verdict unchanged" in delta["proposed_effect"]["summary"].lower(), "delta requests no verdict change")
@@ -236,8 +238,8 @@ def selftest() -> int:
     mutations.append(("planted-forbidden-grammar", "forbidden grammar absent: establishes a GU horizon", changed))
 
     changed = copy.deepcopy(baseline)
-    changed["delta"]["status"] = "integrated"
-    mutations.append(("delta-self-integration", "delta pending", changed))
+    changed["delta"]["status"] = "pending"
+    mutations.append(("delta-disposition-regression", "delta deferred", changed))
 
     ok = True
     for name, expected, mutated in mutations:

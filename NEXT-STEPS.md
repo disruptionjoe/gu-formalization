@@ -27,6 +27,20 @@ updated_at: "2026-08-22"
 > the refinement. Rebuild the substantial frontier next. See
 > `explorations/conditional-build/selected-k77-ltgr8-observed-boundary-carrier-typing-2026-08-22.md`.
 
+> **2026-08-22 L10 RECONCILES THE TYPED-CARRIER CERTIFICATE SURFACE.** The
+> post-LT-GR8 frontier has no newly enabled scientific arc and its
+> source-to-proof delta is unchanged. A concrete integrity condition did fire:
+> the newest LT-GR8 block used three values outside the gate's closed
+> vocabularies, and the gate derived its scan set from the caller's working
+> directory. The audit is now rooted at GU, produces the same bounded verdict
+> from GU or CapacityOS, and the LT-GR8 declaration is repaired without
+> guessing its composite map type. Its three new reds clear; three older
+> author-owned missing declarations remain visible. The LT-GR8 evidence delta
+> is deferred with no priority effect and no ledger verdict change. Rebuild the
+> substantial frontier next; reopen maintenance only on another concrete
+> certificate defect. See
+> `explorations/conditional-build/conditional-build-frontier-and-l10-typed-carrier-surface-2026-08-22.md`.
+
 > **2026-08-22 THE FRONTIER REPLAY ADMITS THE LT-GR8 TYPING ARC AND ADOPTS
 > THE SOURCE-TO-PROOF DELTA.** The post-L10 replay finds the registered
 > CBRS-1 admissible set still empty (CBRS-1 parked, CBRS-2 blocked, C1/B5

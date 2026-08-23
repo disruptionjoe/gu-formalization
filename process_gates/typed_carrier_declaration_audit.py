@@ -111,6 +111,7 @@ import os
 import re
 import sys
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CUTOFF = "2026-08-17"
 BASELINE = 0  # nothing existing is in scope; never raise this to green a red
 VENDOR = ("_local/", ".lake/", "node_modules/", "__pycache__/", ".git/")
@@ -229,8 +230,12 @@ def unquote(value):
 
 
 def scan_set():
-    return [f for f in glob.glob("**/*.md", recursive=True)
-            if not any(v in f for v in VENDOR)]
+    files = []
+    for path in glob.glob(os.path.join(ROOT, "**", "*.md"), recursive=True):
+        rel = os.path.relpath(path, ROOT).replace(os.sep, "/")
+        if not any(v in rel for v in VENDOR):
+            files.append(rel)
+    return files
 
 
 def trigger_reasons(fm, fm_raw, body):
@@ -357,10 +362,12 @@ def audit(paths=None, baseline=None):
     baseline = BASELINE if baseline is None else baseline
     red, exemptions, all_untyped_paths = [], [], []
     scope = triggered = blocks_seen = untyped_slots = 0
+    rooted_scan = paths is None
     files = paths if paths is not None else scan_set()
     for f in files:
         try:
-            text = open(f, encoding="utf-8").read()
+            read_path = os.path.join(ROOT, f) if rooted_scan else f
+            text = open(read_path, encoding="utf-8").read()
         except OSError:
             continue
         fm, fm_raw = frontmatter(text)

@@ -34,12 +34,12 @@ author's one-equation display `TY^{7,7} = TX^{1,3} + N^{6,4}`
 
 ```gu-typed-objects
 result: metric-only typing of the observation-side carrier split, the null-hypersurface conormal lift, the characteristic-cone descent asymmetry, the causal-orientation non-lift, and the six-way boundary-type census for the LT-GR8 bridge
-carrier: T_(s(x))Y^14 = H + V with q = q_H + q_V, sig(q_H)=(1,3), sig(q_V)=(6,4), plus-first LAYER=typing CHIRALITY=N/A
+carrier: T_(s(x))Y^14 = H + V with q = q_H + q_V, sig(q_H)=(1,3), sig(q_V)=(6,4), plus-first LAYER=ambient+observed BRIDGE=section-restriction CHIRALITY=N/A
 pairing: the ambient chimeric quadratic form and its dual, block-diagonal over the observed section split ON=finite-tangent-witnesses
 real_structure: real; no spinor, Krein, or complex-structure claim is made here
 grading: none used; all statements are degree-zero finite quadratic-form facts
-action_owner: none -- no action term, boundary law, entropy density, temperature, ensemble or measure is selected or constructed; K104's released-source census (no physical boundary law) is inherited, not modified
-target: LT-GR8's missing typed bridge, carrier and boundary components MAP-TYPE=typing
+action_owner: N/A -- no action term, boundary law, entropy density, temperature, ensemble or measure is selected or constructed; K104's released-source census (no physical boundary law) is inherited, not modified
+target: LT-GR8's composite missing bridge, carrier and boundary components MAP-TYPE=UNTYPED -- the artifact separately types restriction, pullback, conormal lift and a non-lift
 ```
 
 ## Result first

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-22",
+  "artifact": "explorations/conditional-build/conditional-build-frontier-and-l10-typed-carrier-surface-2026-08-22.md",
+  "agenda_items": [
+    "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+    "PROOF-STABLE-KERNELS"
+  ],
+  "selected_arc": "L10-TYPED-CARRIER-CERTIFICATE-SURFACE",
+  "source_to_proof_delta": {
+    "primary_claim": "The selected GU source action and observation architecture must supply the physical reduction and observable owners used by the conditional build.",
+    "native_objects": "K77 ambient carrier, observation section, selected action, reduction/constraint data, state and observable maps.",
+    "current_certificate": "LT-GR8 certifies only the metric restriction, conormal lift, characteristic-dimension asymmetry and causal-orientation non-lift.",
+    "missing_bridge": "A complete local CBRS-1 solution, CBRS-2 reduction, entropy/state normalization, temperature/KMS owner, physical boundary law and held-out consequence.",
+    "reopening_evidence": "A new complete target-blind owner packet, local solution, owner-grade source packet, physical boundary owner or applicable future observational release.",
+    "movement": "unchanged"
+  },
+  "frontier": [
+    {"arc": "L10 typed-carrier certificate surface", "disposition": "selected", "predicate": "newest result artifact adds three invalid closed-vocabulary declarations and the audit is caller-cwd-scoped"},
+    {"arc": "CBRS-1 materially distinct action owner", "disposition": "blocked", "predicate": "no complete pre-density owner, field, coefficient, Euler system and Hilbert map"},
+    {"arc": "CBRS-2 observed reduction", "disposition": "blocked", "predicate": "no complete local CBRS-1 solution"},
+    {"arc": "P-LATTICE C1 source packet", "disposition": "blocked", "predicate": "seven owner-grade axes absent"},
+    {"arc": "B5 physical boundary", "disposition": "blocked", "predicate": "no new metric/coframe action or physical BFV owner"},
+    {"arc": "P-OBS confrontation", "disposition": "monitor", "predicate": "no applicable future release or finite-redshift bridge"}
+  ],
+  "effect": {
+    "scientific_verdict_change": "none",
+    "certificate_effect": "repository-rooted scan plus reconciled LT-GR8 declarations",
+    "inherited_visible_debt": "three author-owned result artifacts still lack declarations",
+    "delta_disposition": "GU-LTGR8-BOUNDARY-CARRIER-TYPING-2026-08-22 deferred with no priority effect"
+  },
+  "probe": "tests/channel-swings/conditional_build_frontier_l10_typed_carrier_surface_probe.py"
+}
