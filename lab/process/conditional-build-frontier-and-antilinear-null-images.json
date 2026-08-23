@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "frontier_admissibility_and_corrected_lean_kernel_registry",
+  "created": "2026-08-22",
+  "status": "REGISTERED_CBRS1_ADMISSIBLE_SET_STILL_EMPTY__T3_ANTILINEAR_NULL_IMAGE_KERNEL_LEAN_VERIFIED",
+  "lane_id": "1",
+  "agenda_items": ["CONDITIONAL-BUILD-REVERSE-SCAFFOLD", "PROOF-STABLE-KERNELS"],
+  "target_claim": "internal target T3-ANTILINEAR-NULL-IMAGE-TRANSVERSALITY; verdict corrected finite star-semilinear image theorem is Lean-verified from explicit positivity and image-isotropy premises",
+  "corrections_applied": ["V15-1", "CARRIER-20260810"],
+  "registered_cbrs1_admissible_candidate_count": 0,
+  "cbrs1_state": "PARKED_UNTIL_COMPLETE_NEW_OWNER_PACKET",
+  "cbrs2_state": "DEPENDENCY_BLOCKED_UNTIL_COMPLETE_LOCAL_SOLUTION",
+  "t3": {
+    "sources": [
+      "canon/core-theorems-symbolic-proof-RESULTS.md",
+      "canon/antilinear-bound-RESULTS.md",
+      "papers/candidates/located-not-forced/zenodo-package-v1.0.0/manuscript-v2.15.md"
+    ],
+    "correction_sources": [
+      "lab/process/correction-registry.yaml#V15-1",
+      "lab/process/correction-registry.yaml#CARRIER-20260810"
+    ],
+    "lean_module": "Lean/GUFormalization/LocatedNotForcedLegs.lean",
+    "theorems": [
+      "imageTotallyIsotropic_iff",
+      "positive_inf_antilinearImage_eq_bot",
+      "antilinearImage_intersectionDifference_eq_zero",
+      "negative_value_not_imageTotallyIsotropic"
+    ],
+    "explicit_premises": [
+      "FINITE_DIMENSIONAL_COMPLEX_MODULE",
+      "NONDEGENERATE_HERMITIAN_SESQUILINEAR_FORM",
+      "STRICT_POSITIVITY_ON_P",
+      "COMPLEX_STAR_SEMILINEAR_MAP",
+      "TOTAL_ISOTROPY_OF_BOTH_MAPPED_IMAGES"
+    ],
+    "scope": "FINITE_COMPLEX_HERMITIAN_INTERSECTION_DIFFERENCE_FOR_EXPLICITLY_NULL_STAR_SEMILINEAR_IMAGES_ONLY",
+    "status": "LEAN_VERIFIED"
+  },
+  "frontier": [
+    {"id": "T3_ANTILINEAR_NULL_IMAGE", "disposition": "CLOSED_HERE"},
+    {"id": "CBRS1_NEW_ACTION_CLASS", "disposition": "DEPENDENCY_BLOCKED", "missing": "COMPLETE_NEW_OWNER_PACKET"},
+    {"id": "CBRS2_OBSERVED_3_PLUS_1", "disposition": "DEPENDENCY_BLOCKED", "missing": "COMPLETE_LOCAL_CBRS1_SOLUTION"},
+    {"id": "P_LATTICE_C1_SOURCE_PACKET", "disposition": "DEPENDENCY_BLOCKED", "missing": "SEVEN_OWNER_GRADE_AXES"},
+    {"id": "B5_PHYSICAL_REOPENER", "disposition": "DEPENDENCY_BLOCKED", "missing": "ACTION_OR_PHYSICAL_BFV_OWNER"},
+    {"id": "P_OBS_HELD_OUT", "disposition": "MONITOR_ONLY", "missing": "NEW_RELEASE_OR_FINITE_REDSHIFT_BRIDGE"}
+  ],
+  "next_gate": "REBUILD_SUBSTANTIAL_FRONTIER__L10_CONDITIONAL_TRIAGE_ONLY_IF_NO_HIGHER_VALUE_ARC_APPEARS",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

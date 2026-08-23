@@ -141,6 +141,78 @@ theorem negative_value_not_totallyIsotropic
   rw [hnull] at hneg
   exact lt_irrefl 0 hneg
 
+/- ===================================================================== -/
+/-  Conjugate-linear null-image transversality                          -/
+/- ===================================================================== -/
+
+/-- The complex subspace obtained by applying a conjugate-linear map to a
+complex subspace. The involutive complex conjugation makes this image closed
+under complex scalar multiplication. -/
+def AntilinearImage (C : V →ₗ⋆[ℂ] V) (W : Submodule ℂ V) : Submodule ℂ V :=
+  W.map C
+
+/-- The exact null-image premise for the delimited antilinear theorem. This is
+an additional Hermitian-form condition; conjugate-linearity alone does not
+imply it. -/
+def ImageTotallyIsotropic
+    (K : FiniteKreinForm V) (C : V →ₗ⋆[ℂ] V) (W : Submodule ℂ V) : Prop :=
+  ∀ x ∈ W, ∀ y ∈ W, K.form (C x) (C y) = 0
+
+/-- Pointwise nullness on the source subspace is exactly total isotropy of the
+mapped complex subspace. -/
+theorem imageTotallyIsotropic_iff
+    (K : FiniteKreinForm V) (C : V →ₗ⋆[ℂ] V) (W : Submodule ℂ V) :
+    ImageTotallyIsotropic K C W ↔ TotallyIsotropic K (AntilinearImage C W) := by
+  constructor
+  · intro h x hx y hy
+    change x ∈ W.map C at hx
+    change y ∈ W.map C at hy
+    rcases hx with ⟨x, hx, rfl⟩
+    rcases hy with ⟨y, hy, rfl⟩
+    exact h x hx y hy
+  · intro h x hx y hy
+    exact h (C x) (by
+      change C x ∈ W.map C
+      exact Submodule.mem_map_of_mem hx) (C y) (by
+      change C y ∈ W.map C
+      exact Submodule.mem_map_of_mem hy)
+
+/-- A positive subspace is transverse to a conjugate-linear image whenever
+that image is explicitly supplied as totally isotropic. -/
+theorem positive_inf_antilinearImage_eq_bot
+    (K : FiniteKreinForm V) (C : V →ₗ⋆[ℂ] V) (P W : Submodule ℂ V)
+    (hP : PositiveOn K P) (hCW : ImageTotallyIsotropic K C W) :
+    P ⊓ AntilinearImage C W = ⊥ :=
+  positive_inf_totallyIsotropic_eq_bot K P (AntilinearImage C W) hP
+    ((imageTotallyIsotropic_iff K C W).mp hCW)
+
+/-- The corrected finite antilinear null-image result. It is an intersection
+dimension statement for two mapped null subspaces, not a Fredholm index or a
+physical handedness count. -/
+theorem antilinearImage_intersectionDifference_eq_zero
+    [FiniteDimensional ℂ V]
+    (K : FiniteKreinForm V) (C : V →ₗ⋆[ℂ] V) (P Wp Wm : Submodule ℂ V)
+    (hP : PositiveOn K P)
+    (hCWp : ImageTotallyIsotropic K C Wp)
+    (hCWm : ImageTotallyIsotropic K C Wm) :
+    intersectionDifference P (AntilinearImage C Wp) (AntilinearImage C Wm) = 0 :=
+  intersectionDifference_eq_zero K P _ _ hP
+    ((imageTotallyIsotropic_iff K C Wp).mp hCWp)
+    ((imageTotallyIsotropic_iff K C Wm).mp hCWm)
+
+/-- Negative control: one mapped vector with strictly negative quadratic value
+is enough to refute the null-image premise. -/
+theorem negative_value_not_imageTotallyIsotropic
+    (K : FiniteKreinForm V) (C : V →ₗ⋆[ℂ] V) (W : Submodule ℂ V)
+    (w : V) (hwW : w ∈ W) (hneg : (K.form (C w) (C w)).re < 0) :
+    ¬ ImageTotallyIsotropic K C W := by
+  intro hCW
+  exact negative_value_not_totallyIsotropic K (AntilinearImage C W) (C w)
+    (by
+      change C w ∈ W.map C
+      exact Submodule.mem_map_of_mem hwW)
+    hneg ((imageTotallyIsotropic_iff K C W).mp hCW)
+
 end KreinTransversality
 
 /- ===================================================================== -/

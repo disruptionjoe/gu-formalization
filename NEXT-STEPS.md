@@ -7,6 +7,23 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 T3 ANTILINEAR NULL-IMAGE TRANSVERSALITY IS LEAN-VERIFIED AT
+> ITS CORRECTED FINITE CEILING.** The post-L9 frontier replay found the stable
+> queue's remaining symbolic-only T3 gap before conditional old-file triage.
+> Lean now types the operator as a complex star-semilinear map, constructs its
+> mapped complex submodules, and proves zero finite `intersectionDifference`
+> against a strictly positive subspace when both images are explicitly totally
+> isotropic. Conjugate-linearity does not supply nullness; a mapped
+> negative-norm vector is a formal contrary control. V15-1 remains binding:
+> this is not a physical-handedness, Fredholm, function-space, K-null
+> Lorentzian-half, generation-selection, or GU-native `2+1` theorem. CBRS-1
+> remains parked, CBRS-2 remains dependency-blocked, and no scientific ledger,
+> canon, source-ownership, prediction, or public-posture state moves. Rebuild
+> the substantial frontier next. L10 is only the existing conditional
+> maintenance fallback when no higher-value arc appears and must repair actual
+> certificate confusion rather than manufacture work. See
+> `explorations/conditional-build/conditional-build-frontier-and-antilinear-null-images-2026-08-22.md`.
+
 > **2026-08-22 L9 ABSTRACT INVOLUTION AND PROJECTOR ALGEBRA IS
 > LEAN-VERIFIED; REBUILD THE FRONTIER NEXT.** A fresh frontier replay finds no
 > new complete CBRS-1 owner packet and no second independent executable

@@ -53,7 +53,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/Status.lean` | Claim-status order and dependency monotonicity | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/K3IndexArithmetic.lean` | Symbolic K3 and RS index arithmetic | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/W2Polynomial.lean` | `F_2` polynomial identities behind corrected `w2(Y14)` | `LEAN-VERIFIED`; 2026-07-22 baseline |
-| `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein transversality (positive-definite subspace meets each totally isotropic subspace trivially; `intersectionDifference = 0`) and 2-primary identities; no antilinear operator content (scope corrected 2026-08-03) | `LEAN-VERIFIED`; authoritative A1 certificate; current receipt is the 2026-07-23 zenodo package `VERIFICATION.md` (see receipt scope note above) |
+| `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein transversality, corrected finite star-semilinear image typing with explicit null-image premises and zero `intersectionDifference`, and 2-primary identities; no physical-real-form, Fredholm, observed-handedness, function-space, or generation-selection theorem | `LEAN-VERIFIED`; authoritative finite located-not-forced certificate, with T3 correction follow-through verified 2026-08-22; prior release receipt remains the 2026-07-23 zenodo package `VERIFICATION.md` |
 | `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` | Finite census encoding for the LNF paper; exhaustiveness/closure by `decide` over the encoded item list; census numerals are imported data, not derivations | `LEAN-VERIFIED`; 2026-07-23 zenodo receipt (`papers/candidates/located-not-forced/zenodo-package-v1.0.0/VERIFICATION.md`) |
 | `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
@@ -75,7 +75,7 @@ The un-typechecked draft duplicate formerly at
 |---|---|---|---|---|---|
 | T1 | No-go is 2-primary; no obstruction is 3-divisible | located-not-forced paper section 4 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
 | T2 | Krein transversality: positive-definite subspace meets each totally isotropic subspace trivially (`intersectionDifference = 0`) | located-not-forced paper section 6 | `LEAN-VERIFIED` at last receipt (retitled 2026-08-03: `papers/candidates/located-not-forced/HARDENING-QUEUE.md:118` bans the former "net chiral index" phrasing) | complete | located-not-forced |
-| T3 | Antilinear null-eigenspace bound | located-not-forced paper section 6 | `SYMPY-DERIVED` (corrected 2026-08-03: no antilinear operator content exists in `Lean/`; the owning canon file `canon/core-theorems-symbolic-proof-RESULTS.md` itself states "a symbolic proof, not a Lean-checked one"; the Krein-transversality Lean lemma covers T2 only) | high | located-not-forced |
+| T3 | Antilinear null-image transversality | located-not-forced paper section 6 | `LEAN-VERIFIED`; corrected finite complex Hermitian image-subspace theorem only: a supplied star-semilinear map, strict positivity, and explicit total isotropy of both mapped images imply zero `intersectionDifference`; V15-1 forbids physical-handedness, Fredholm, or unchanged Lorentzian-half transfer | complete | located-not-forced |
 | A | Achirality: `{K,chi}=0` implies `Re tr(chi Pi_+) = 0` | `canon/ghost-parity-krein-synthesis.md:26` (statement); `explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md` | `LEAN-VERIFIED`; explicit finite complex-matrix premises, trace readout only | complete | fences the chiral-generation reading |
 | B | V7 mod-3 index arithmetic | `explorations/big-swing-2026-07-06/VG-V7-cp2-equivariant-payoff.md` | `LEAN-VERIFIED`; section-independent `ZMod 3` core only | complete | count-import boundary |
 | C | Exact A1 phase boundary `lq = -l4/192` | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` | `LEAN-VERIFIED`; rational reduced-family coefficient boundary only | complete | mirror alignment phase |
@@ -114,6 +114,16 @@ The first three items are mandatory integrity work, not a retreat from the North
     projectors for a linear involution when two is invertible. Representation
     faithfulness, Cartan positivity, maximal-compact identification, physical
     quantization, carrier selection, dynamics and spectra remain prose/Python premises.
+
+**Post-L9 T3 correction follow-through — DONE 2026-08-22.** The prior
+symbolic-only antilinear null-image result is now Lean-verified at its corrected
+V15-1 ceiling. The map is explicitly star-semilinear; its two image subspaces
+are complex `Submodule.map` images; total isotropy is an independent premise;
+and the conclusion is only zero finite `intersectionDifference`. A mapped
+negative-norm vector is a formal firing control. No physical-real-form,
+Fredholm, observed-handedness, function-space, or generation-selection theorem
+is claimed.
+
 11. `L10 OLD FILE TRIAGE`: repair or retire older broken library files only when they create certificate
     confusion or every higher-value stable kernel is blocked.
 
