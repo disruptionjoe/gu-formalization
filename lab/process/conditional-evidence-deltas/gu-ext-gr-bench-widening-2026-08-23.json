@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-EXT-GR-BENCH-WIDENING-2026-08-23",
-  "status": "pending",
+  "status": "integrated",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
     "ledger_sha256": "8151fd5c48d661d7c9cf8762c813955d672df9900aa2a91930c349fdbd19bee1"
@@ -30,5 +30,9 @@
     "EXT-GR-BENCH-WIDENING",
     "LT-GR-TARGET-FAMILY-EXTENSION"
   ],
-  "integration": null
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.261.json",
+    "reason": "Appended exactly LT-GR9, LT-GR10 and LT-GR11 as scoped external benchmark targets. All three native realizations remain NEEDS / MISSING_CONSTRUCTION with mechanism and confirmation credit NONE."
+  }
 }

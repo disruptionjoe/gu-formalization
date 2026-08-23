@@ -2,20 +2,25 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-21"
+updated_at: "2026-08-23"
 ---
 
 # Process
 
 Current append-only progress surface:
-[`conditional-physics-ledger-v0.260.json`](conditional-physics-ledger-v0.260.json),
+[`conditional-physics-ledger-v0.261.json`](conditional-physics-ledger-v0.261.json),
 summarized in
-`../../explorations/conditional-build/conditional-physics-ledger-v0.260.md`.
-It appends `LT-GR8` as an external reverse-scaffold target for scoped
-semiclassical horizon/entropy/first-law behavior while keeping the GU/K77
-realization, Jacobson mechanism and confirmation status separate. K77 `(7,7)`
-is the primary source-aligned route; B5 `(9,5)` remains a comparator. The
-ledger now contains 85 canonical targets and changes no predecessor row.
+`../../explorations/conditional-build/conditional-physics-ledger-v0.261.md`.
+It appends `LT-GR9..LT-GR11` for the accepted strong-field, PPN, and
+rotation-curve targets, and registers the accepted SM and cosmology anchors
+against existing rows without duplicates. All native realizations keep their
+prior grades; the ledger has 88 canonical targets and changes no predecessor
+verdict.
+
+Current benchmark-delta integration record:
+[`conditional-benchmark-delta-integration.json`](conditional-benchmark-delta-integration.json),
+with result narrative at
+`../../explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md`.
 
 Current Jacobson/K77 reverse-scaffold council:
 `../../explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md`.

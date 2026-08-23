@@ -7,6 +7,20 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 LEDGER v0.261 INTEGRATES THE TWO EARLIER BENCHMARK DELTAS.**
+> Three accepted gravitational targets are now canonical rows: `LT-GR9`
+> strong-field, `LT-GR10` PPN, and `LT-GR11` rotation-functional consistency.
+> All remain `NEEDS / MISSING_CONSTRUCTION`; W225, W220, W229, and H49 retain
+> their exact conditional or bounded ceilings. `EXT-SM-STRUCTURE` and
+> `EXT-COSMO-BACKGROUND` link existing rows without duplicates. Context-only
+> notes record OWNER-F on LT-SM8 (`G5 + G7`) and OWNER-C on superseded LT-GR2;
+> independent demands do not imply a shared number or joint discharge. Counts
+> are 88 targets: 33 SAME / 19 DIFFERS / 31 NEEDS / 5 OVER-DETERMINED. No
+> predecessor verdict, mechanism, prediction, confirmation, canon, or public
+> posture changes. The later kill-typing proposal remains pending for separate
+> Progress disposition. See
+> `explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md`.
+
 > **2026-08-23 THE 3-PRIMARY ANOMALY ROW IS PROBABLY MIS-TYPED, AND THE
 > LEDGER'S FASTEST UPGRADES ARE RANKED.** `AC-F3` ("bulk anomaly inflow
 > carries the 3-primary generation count") is typed

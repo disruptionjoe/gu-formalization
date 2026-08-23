@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "integration_cursor": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
+  "integration_cursor": "GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23",
   "deltas": [
     {
       "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
@@ -20,12 +20,12 @@
     {
       "delta_id": "GU-EXT-GR-BENCH-WIDENING-2026-08-23",
       "path": "lab/process/conditional-evidence-deltas/gu-ext-gr-bench-widening-2026-08-23.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23",
       "path": "lab/process/conditional-evidence-deltas/gu-ext-sm-cosmo-bench-linking-2026-08-23.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-LEDGER-KILL-TYPING-2026-08-23",

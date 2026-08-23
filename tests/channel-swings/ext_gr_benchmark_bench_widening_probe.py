@@ -94,9 +94,14 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         check(exists, f"cited record exists: {name}")
     check("H49" in geometer and "|II|^2" in geometer, "geometer table carries H49 survivor row")
 
-    check(delta["status"] == "pending", "delta pending")
+    check(delta["status"] in {"pending", "integrated"}, "delta has a valid lifecycle status")
     check(delta["affected_rows"] == ["LT-GR9", "LT-GR10", "LT-GR11"], "delta rows")
-    check(delta["integration"] is None, "delta not self-integrated")
+    if delta["status"] == "pending":
+        check(delta["integration"] is None, "pending delta has no integration record")
+    else:
+        check(delta["integration"].get("disposition") == "incorporated", "integrated delta is incorporated")
+        check(delta["integration"].get("canonical_ledger_ref") == "lab/process/conditional-physics-ledger-v0.261.json",
+              "integrated delta names canonical successor")
     check("Verdict changes: none" in delta["proposed_effect"]["summary"], "delta requests no verdict change")
 
     check("GU-COMPARATOR-ROUTING" in result, "routing notice")

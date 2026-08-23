@@ -4,6 +4,15 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Conditional benchmark delta integration gate
+
+- `channel-swings/conditional_benchmark_delta_integration_probe.py` strictly
+  compares ledger v0.261 with v0.260, permits exactly three appended target
+  rows and context-only accretion on LT-SM8/LT-GR2, recomputes denominators
+  and verdict counts, checks all six benchmark registrations, both integrated
+  deltas and the cursor, preserves the later kill-typing delta as pending, and
+  catches twelve planted ceiling violations.
+
 ## Jacobson/K77 reverse-scaffold ledger gate
 
 - `source-sweeps/jacobson_k77_reverse_scaffold_ledger_probe.py` strictly

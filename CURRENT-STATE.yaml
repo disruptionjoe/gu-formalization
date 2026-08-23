@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e674470fcc4d13ce40339c7f8f849436605a3aa0
+revision_basis: 0e3650dee343414ed5bda098b3f61c03d6c9e55e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Ledger v0.261 integrates the two earlier cursor-ordered conditional
+    benchmark deltas. Three accepted gravitational targets are appended:
+    LT-GR9 strong-field, LT-GR10 PPN, and LT-GR11 rotation-functional
+    consistency. All remain NEEDS / MISSING_CONSTRUCTION with the exact
+    W225, W220, W229 and H49 ceilings preserved, mechanism commitment NONE,
+    and confirmation credit NONE. EXT-SM-STRUCTURE and
+    EXT-COSMO-BACKGROUND are registered against existing rows without
+    duplicates. Context-only notes record OWNER-F on LT-SM8 at grant union
+    G5+G7 and OWNER-C on superseded LT-GR2; independent demand does not imply
+    a shared number or joint discharge. The ledger now has 88 canonical
+    targets: 33 SAME, 19 DIFFERS, 31 NEEDS and 5 OVER_DETERMINED. The direct
+    093c5ff6 LT-GR8 non-kill repair is preserved; its later kill-typing delta
+    remains pending. No predecessor verdict, source ownership, mechanism,
+    prediction, confirmation, canon or public posture changes.
     The ledger's kill typing is audited after Joe asked why the 3-primary
     generation count reads as a falsification given the source's 2+1 imposter
     structure. Four records say it should not: AC-F3's own mapping grade is
@@ -2670,6 +2684,11 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md
+    - explorations/conditional-build/conditional-physics-ledger-v0.261.md
+    - lab/process/conditional-benchmark-delta-integration.json
+    - lab/process/conditional-physics-ledger-v0.261.json
+    - tests/channel-swings/conditional_benchmark_delta_integration_probe.py
     - explorations/conditional-build/selected-k77-cbrs1r-condensate-mass-owner-2026-08-22.md
     - lab/process/selected-k77-cbrs1r-condensate-mass-owner.json
     - explorations/conditional-build/selected-k77-cbrs1h-formal-jet-factorization-2026-08-21.md
@@ -2988,6 +3007,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Ledger v0.261 is current. Do not re-integrate the gravitational benchmark
+  widening or SM/cosmology linking deltas; both are incorporated through the
+  cursor. The later GU-LEDGER-KILL-TYPING delta remains pending and requires
+  its own canonical Progress disposition. The repository-wide CT-2 context
+  gate also exposes eight inherited missing-context rows in immutable v0.260;
+  do not rewrite that predecessor or raise the zero baseline. Repair must use
+  an explicit append-only successor disposition if selected.
   The D6 family set is F0 plus F1/F2 and is closed: F0 (ratified mixed-wedge
   internal zero test) always evaluates in addition to the selected external
   family and never substitutes for it; admitting any further family requires

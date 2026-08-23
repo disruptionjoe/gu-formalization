@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23",
-  "status": "pending",
+  "status": "integrated",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
     "ledger_sha256": "8151fd5c48d661d7c9cf8762c813955d672df9900aa2a91930c349fdbd19bee1"
@@ -32,5 +32,9 @@
     "EXT-SM-COSMO-BENCH-LINKING",
     "OWNER-LEDGER-V2"
   ],
-  "integration": null
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.261.json",
+    "reason": "Registered EXT-SM-STRUCTURE and EXT-COSMO-BACKGROUND against existing rows without duplicates and added only the requested OWNER-F and OWNER-C context notes. No predecessor verdict changed."
+  }
 }

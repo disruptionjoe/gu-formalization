@@ -2,11 +2,31 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-21"
+updated_at: "2026-08-23"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Conditional benchmark integration 2026-08-23 (ledger v0.261; target
+registration, not construction progress).** The two earlier cursor-ordered
+conditional evidence deltas are incorporated. `LT-GR9`, `LT-GR10`, and
+`LT-GR11` append the accepted strong-field, PPN, and rotation-functional
+targets as `NEEDS / MISSING_CONSTRUCTION`; the cited W225/W220/W229/H49
+results retain their exact ceilings. `EXT-SM-STRUCTURE` and
+`EXT-COSMO-BACKGROUND` link existing rows without duplicates, and context-only
+notes record the already-frozen OWNER-F and OWNER-C joins. The ledger now has
+88 canonical targets: 33 SAME, 19 DIFFERS, 31 NEEDS, and 5 OVER-DETERMINED.
+No predecessor verdict, mechanism, prediction, confirmation, canon, or public
+posture changes. The later kill-typing proposal remains pending. See
+`explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md`
+and `lab/process/conditional-physics-ledger-v0.261.json`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| strong-field / PPN / rotation targets | accepted external bench records; pending ledger delta | three scoped canonical targets; native realizations still missing | OWNER-A through OWNER-E as named by the descents | v0.261 / integration record |
+| SM and cosmology anchors | accepted and descended; pending link delta | registered against existing rows without duplicate targets | existing linked-row realization owners | v0.261 / context notes |
+| scientific verdicts | unchanged | unchanged | separate construction or canonical Progress evidence | none |
 
 **UV-gravity candidate hardening 2026-08-23
 (`FAILED_HARDENING_GATE`; no opposite physics theorem).** The staged July

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "conditional_benchmark_delta_integration",
+  "created": "2026-08-23",
+  "status": "TWO_CURSOR_ORDERED_DELTAS_INTEGRATED__LEDGER_V0_261_CURRENT",
+  "predecessor": {
+    "ref": "lab/process/conditional-physics-ledger-v0.260.json",
+    "sha256": "4886eec94f8aaef02c75f844485ac37a26d760fa4ea927832248efa6abeb1a7b"
+  },
+  "successor": "lab/process/conditional-physics-ledger-v0.261.json",
+  "integrated_deltas": [
+    "GU-EXT-GR-BENCH-WIDENING-2026-08-23",
+    "GU-EXT-SM-COSMO-BENCH-LINKING-2026-08-23"
+  ],
+  "appended_rows": [
+    "LT-GR9",
+    "LT-GR10",
+    "LT-GR11"
+  ],
+  "linked_benchmarks": {
+    "EXT-SM-STRUCTURE": [
+      "LT-SM1",
+      "LT-SM1a",
+      "LT-SM1b",
+      "LT-SM2",
+      "LT-SM3",
+      "LT-SM3b",
+      "LT-SM4",
+      "LT-SM5",
+      "LT-SM6",
+      "LT-SM7",
+      "LT-SM8"
+    ],
+    "EXT-COSMO-BACKGROUND": [
+      "LT-GR1",
+      "LT-GR2",
+      "LT-GR2a",
+      "LT-GR2b",
+      "LT-GR2c",
+      "LT-GR2d",
+      "LT-GR2e"
+    ]
+  },
+  "context_only_accretions": {
+    "LT-SM8": "OWNER-F joint demand recorded; grant union G5+G7; unresolved layer and carrier remain UNTYPED",
+    "LT-GR2": "OWNER-C independent demand join recorded at observed pullback layer; no shared-number or joint-discharge claim"
+  },
+  "counts": {
+    "canonical_targets": 88,
+    "row_records": 91,
+    "external_benchmarks": 6,
+    "verdicts": {
+      "SAME": 33,
+      "DIFFERS": 19,
+      "NEEDS": 31,
+      "OVER_DETERMINED": 5
+    }
+  },
+  "direct_overlap_disposition": "Direct owner packets committed 093c5ff6 and 2ce482d3 before closeout. Their complete kill-target typing ratchet is inherited exactly; the proposed verdict re-typings remain pending. The 0e3650de velocity-council packet is disjoint.",
+  "source_disposition": "No source claim is attributed and no source-native mechanism is selected. External benchmarks bind only their scoped observed-side targets.",
+  "claim_ceiling": "No predecessor verdict, scientific meaning, source ownership, mechanism, prediction, confirmation, canon status or public posture changes. Reverse-only recovery remains compatibility.",
+  "comparator_routing_notice": "Apply source-native comparator routing before interpreting Standard Model, chirality, family-index, Higgs/VEV, PPN, rotation-curve or cosmology comparisons.",
+  "comparator_routing_classification": "EXTERNAL_BENCHMARK_TARGETS",
+  "typed_objects": {
+    "result": "three target rows appended and two external benchmarks linked",
+    "carrier": "append-only conditional-physics ledger",
+    "pairing": "external target to explicitly linked realization rows",
+    "real_structure": "N/A",
+    "grading": "scoped benchmark integration only",
+    "action_owner": "repository-construction; no source action introduced",
+    "target": "ledger target/register consistency; MAP-TYPE=evaluation"
+  },
+  "validation": {
+    "integration_probe": "PASS 12/12 planted mutations caught",
+    "gr_registry_probe": "PASS 52/52",
+    "sm_cosmo_registry_probe": "PASS 80/80",
+    "conditional_delta_gate": "PASS",
+    "ledger_schema_v0_2": "PASS",
+    "context_selftest": "PASS 15/15",
+    "inherited_red": "The live context audit reports eight v0.260 rows touched without context; v0.261 touched-row coverage is 3/3. The immutable predecessor and zero baseline are unchanged."
+  },
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

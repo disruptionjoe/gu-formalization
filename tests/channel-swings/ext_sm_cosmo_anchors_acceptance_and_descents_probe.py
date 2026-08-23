@@ -128,8 +128,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(data["ledger_verdict_change"] == "none", "ledger unchanged")
     check(data["canon_verdict_change"] == "none", "canon unchanged")
 
-    check(delta["status"] == "pending", "delta pending")
-    check(delta["integration"] is None, "delta not self-integrated")
+    check(delta["status"] in {"pending", "integrated"}, "delta has a valid lifecycle status")
+    if delta["status"] == "pending":
+        check(delta["integration"] is None, "pending delta has no integration record")
+    else:
+        check(delta["integration"].get("disposition") == "incorporated", "integrated delta is incorporated")
+        check(delta["integration"].get("canonical_ledger_ref") == "lab/process/conditional-physics-ledger-v0.261.json",
+              "integrated delta names canonical successor")
     check("Verdict changes: none" in delta["proposed_effect"]["summary"], "delta requests no verdict change")
     check(all("append" in c or "context" in c for c in delta["proposed_effect"]["requested_row_changes"]),
           "delta proposes only appends and context notes")
