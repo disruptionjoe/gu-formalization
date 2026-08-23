@@ -7,6 +7,20 @@ updated_at: "2026-08-22"
 
 # Next Steps For Contributors
 
+> **2026-08-22 L9 ABSTRACT INVOLUTION AND PROJECTOR ALGEBRA IS
+> LEAN-VERIFIED; REBUILD THE FRONTIER NEXT.** A fresh frontier replay finds no
+> new complete CBRS-1 owner packet and no second independent executable
+> substantial arc. Lean now proves the abstract F/G cores: involutory inner
+> conjugation is multiplicative and imposes even/odd commutator parity, while
+> the half-sum and half-difference maps of a linear involution are
+> complementary idempotent projectors. This does not establish GU carrier
+> faithfulness, Cartan positivity, a maximal-compact subgroup, physical
+> quantization, sector selection, dynamics or a mirror spectrum. L10 old-file
+> triage is conditional on certificate confusion or blockage of every
+> higher-value stable kernel; it is not automatically the next scientific
+> target. See
+> `explorations/conditional-build/conditional-build-frontier-and-l9-involution-projectors-2026-08-22.md`.
+>
 > **2026-08-22 L8 CHI-CONJUGATION TRACE PARITY IS LEAN-VERIFIED; L9 IS
 > NEXT.** A fresh frontier replay finds no new complete CBRS-1 owner packet and
 > no second independent executable substantial arc, so CBRS-1 remains parked

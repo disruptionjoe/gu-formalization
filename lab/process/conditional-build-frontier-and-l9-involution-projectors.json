@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "frontier_admissibility_and_lean_kernel_registry",
+  "created": "2026-08-22",
+  "status": "REGISTERED_CBRS1_ADMISSIBLE_SET_STILL_EMPTY__L9_INVOLUTION_PROJECTOR_CORES_LEAN_VERIFIED",
+  "lane_id": "1",
+  "agenda_items": ["CONDITIONAL-BUILD-REVERSE-SCAFFOLD", "PROOF-STABLE-KERNELS"],
+  "target_claim": "internal target CBRS-1-REGISTERED-CANDIDATE-ADMISSIBILITY-AND-L9-F-G-ALGEBRA-KERNELS; verdict current registered CBRS-1 candidate set remains empty and the abstract involution/projector cores are Lean-verified",
+  "admission_requirements": [
+    "MATERIALLY_DISTINCT_PRE_DENSITY_OWNER",
+    "FIELD_CONTENT_AND_TARGET_BLIND_COEFFICIENT",
+    "COMPLETE_EULER_SYSTEM",
+    "METRIC_OR_HILBERT_VARIATION"
+  ],
+  "candidate_census": [
+    {"id": "SECOND_SIGMA_FUNCTION", "eligible": false, "missing": ["INDEPENDENT_PRE_DENSITY_INVARIANT", "TARGET_BLIND_COEFFICIENT"]},
+    {"id": "INDEPENDENT_WODD_FIELD", "eligible": false, "missing": ["RELEASED_INDEPENDENT_FIELD", "NORMALIZATION", "COMPLETE_NEW_FIELD_EULER"]},
+    {"id": "PROJECTED_T_TRACE_AXIAL_COMPONENT", "eligible": false, "missing": ["MATERIALLY_DISTINCT_OWNER"], "disposition": "DUPLICATE_EXISTING_T_COORDINATE_SPLIT"},
+    {"id": "RESIDUAL_SQUARE_OR_SOURCE_XI_OMEGA", "eligible": false, "missing": ["NON_EULER_OWNER"], "disposition": "WRONG_VARIATIONAL_ROLE"},
+    {"id": "CONTINUOUS_TOP_FORM_FLUX", "eligible": false, "missing": ["ACTION_OR_QUANTIZATION_SELECTOR"]},
+    {"id": "GRASSMANN_ODD_FERMION_SADDLE", "eligible": false, "missing": ["NONZERO_REAL_BOSONIC_BODY_EFFECT"], "disposition": "CBRS1Q_BODY_OBSTRUCTION"},
+    {"id": "UNRELEASED_CYCLIC_TWO_CONNECTION", "eligible": false, "missing": ["REVERSE_ARROW", "ACTION_OWNER", "COEFFICIENT", "COMPLETE_EULER", "HILBERT_MAP"]}
+  ],
+  "admissible_candidate_count": 0,
+  "cbrs1_state": "PARKED_UNTIL_COMPLETE_NEW_OWNER_PACKET",
+  "cbrs2_state": "DEPENDENCY_BLOCKED_UNTIL_COMPLETE_LOCAL_SOLUTION",
+  "l9": {
+    "sources": [
+      "explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md",
+      "explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md"
+    ],
+    "exact_companions": [
+      "tests/big-swing/vg_v2_fourth_seat_gauge_indefiniteness.py",
+      "tests/big-swing/vg_v8_t5_map_attempt.py"
+    ],
+    "lean_module": "Lean/GUFormalization/InvolutionProjectorKernels.lean",
+    "theorems": [
+      "involutionConjugate_involutive",
+      "involutionConjugate_mul",
+      "involutionConjugate_commutator",
+      "commutator_even_even",
+      "commutator_even_odd",
+      "commutator_odd_odd",
+      "evenProjector_add_oddProjector",
+      "involution_comp_evenProjector",
+      "involution_comp_oddProjector",
+      "evenProjector_idempotent",
+      "oddProjector_idempotent",
+      "evenProjector_comp_oddProjector",
+      "oddProjector_comp_evenProjector"
+    ],
+    "scope": "ABSTRACT_ASSOCIATIVE_INNER_INVOLUTION_COMMUTATOR_PARITY_AND_COMPLEMENTARY_LINEAR_INVOLUTION_PROJECTORS_ONLY",
+    "status": "LEAN_VERIFIED"
+  },
+  "next_gate": "REBUILD_SUBSTANTIAL_FRONTIER__L10_OLD_FILE_TRIAGE_ONLY_ON_CERTIFICATE_CONFUSION_OR_HIGHER_VALUE_BLOCKAGE",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

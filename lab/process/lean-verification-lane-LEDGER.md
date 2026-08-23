@@ -4,7 +4,7 @@ status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
-updated: 2026-08-21
+updated: 2026-08-22
 owner_surface: lab/methods/lean-verification.md
 ---
 
@@ -62,6 +62,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/CoflipAbstract.lean` | Abstract (eps,mu) sign accounting; the `FiniteSignature` field and the `witnessed` Prop are currently formally inert — noted | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/CompactImageObstructions.lean` | W243 extremal-weight annihilation algebraic kernel plus compact-image block identities; carrier faithfulness and compactness remain outside Lean | `LEAN-VERIFIED`; integrated by `b895a49c`, receipt in the good-stable paper verification |
 | `Lean/GUFormalization/FiniteResearchKernels.lean` | Matrix-trace achirality deduction, section-independent `ZMod 3` arithmetic, and exact rational reduced-potential phase boundary; physical realization remains outside Lean | `LEAN-VERIFIED`; 2026-08-21 targeted serialized build, standard mathlib axioms only |
+| `Lean/GUFormalization/InvolutionProjectorKernels.lean` | Inner-involution automorphism and commutator-parity core plus complementary projectors of a linear involution; carrier faithfulness, Cartan positivity, maximal-compact identification, dynamics, spectra and physical interpretation remain outside Lean | `LEAN-VERIFIED`; 2026-08-22 targeted and default-target serialized build |
 | `tests/big-swing/R4_TwoArena.lean` | Stable R4 compatibility entrypoint | imports the default-target proof-bearing module |
 
 The un-typechecked draft duplicate formerly at
@@ -108,7 +109,11 @@ The first three items are mandatory integrity work, not a retreat from the North
 9. `L8 THEOREM E` — **DONE 2026-08-22**: finite matrix power-trace parity
    under involutory conjugation. Carrier faithfulness, gauge nativeness,
    vacuum selection and physical orientation remain explicit prose/Python premises.
-10. `L9 THEOREMS F AND G`: formalize only the abstract involution and projector cores.
+10. `L9 THEOREMS F AND G` — **DONE 2026-08-22**: abstract inner-involution
+    automorphism and even/odd commutator parity, plus complementary idempotent
+    projectors for a linear involution when two is invertible. Representation
+    faithfulness, Cartan positivity, maximal-compact identification, physical
+    quantization, carrier selection, dynamics and spectra remain prose/Python premises.
 11. `L10 OLD FILE TRIAGE`: repair or retire older broken library files only when they create certificate
     confusion or every higher-value stable kernel is blocked.
 

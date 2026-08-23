@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1a5d6ce906a78daa47c82279d9997cfe16a33411
+revision_basis: 7d023d5dd2ce9311da7f2e74431b8ea7831195e4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The fresh post-L8 frontier replay again finds no complete new CBRS-1 owner
+    packet and no second independent executable substantial arc. CBRS-1 stays
+    parked at the owner-before-evaluation boundary and CBRS-2 stays blocked on
+    an actual complete local solution. L9 is now Lean-verified at its abstract
+    algebraic ceiling. For any associative ring, conjugation by an element
+    whose square is one is an involutive multiplicative map and its
+    commutators have the expected even-even, even-odd and odd-odd parity. For
+    any linear involution over a characteristic-zero field, the half-sum and
+    half-difference maps are complementary idempotent projectors, transform
+    with signs plus and minus one, and annihilate one another in both orders.
+    This formalizes only the F/G algebra. It does not prove that a GU carrier
+    realizes the involution, establish Cartan positivity or a maximal-compact
+    subgroup, select a physical sector, construct dynamics, or derive a
+    mirror spectrum. L10's old-file triage is conditional rather than an
+    automatic research target; the next Progress run must rebuild the full
+    frontier. No scientific ledger verdict, canon, source ownership,
+    prediction or public posture changes.
     The fresh post-L7 frontier replay finds no new complete owner packet among
     the seven registered CBRS-1 reopen candidates and no newly executable
     independent substantial arc. CBRS-1 therefore stays parked at the exact
@@ -2679,11 +2696,15 @@ next_condition: >-
   when a materially distinct candidate arrives with its pre-density owner,
   field content, target-blind coefficient, complete Euler system and Hilbert
   map frozen before target evaluation. Keep CBRS-2 blocked until an actual
-  complete local solution exists. Execute PROOF-STABLE-KERNELS L9 next:
-  formalize only the abstract Cartan-involution and mirror-projector algebra
-  cores from their current owner artifacts, preserving representation
-  faithfulness, carrier selection, physical quantization and spectral
-  interpretation outside Lean. L8 is complete: A2 is the located internal
+  complete local solution exists. PROOF-STABLE-KERNELS L9 is complete: Lean
+  now certifies the abstract inner-involution automorphism, commutator parity,
+  and complementary linear-projector algebra from explicit premises. It does
+  not prove representation faithfulness, Cartan positivity, maximal-compact
+  identification, carrier selection, physical quantization, dynamics or a
+  mirror spectrum. L10 old-file triage is eligible only when older broken
+  files create certificate confusion or every higher-value stable kernel is
+  blocked; rebuild the substantial frontier before selecting it. L8 is
+  complete: A2 is the located internal
   theorem source and Lean certifies ordinary and conjugation-odd weighted
   power-trace parity from explicit finite matrix premises; it does not prove a
   physical orientation-selection theorem. L7 is complete: A1 is the located

@@ -13,3 +13,4 @@ import GUFormalization.FiniteResearchKernels
 import GUFormalization.FiniteResearchKernelsAxioms
 import GUFormalization.PowerMeanReduction
 import GUFormalization.ChiConjugationTraceParity
+import GUFormalization.InvolutionProjectorKernels
