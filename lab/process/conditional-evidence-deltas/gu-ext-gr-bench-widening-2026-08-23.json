@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-EXT-GR-BENCH-WIDENING-2026-08-23",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
+    "ledger_sha256": "8151fd5c48d661d7c9cf8762c813955d672df9900aa2a91930c349fdbd19bee1"
+  },
+  "affected_rows": [
+    "LT-GR9",
+    "LT-GR10",
+    "LT-GR11"
+  ],
+  "result_refs": [
+    "explorations/ext-gr-benchmark-bench-widening-council-2026-08-23.md",
+    "lab/process/ext-gr-benchmark-bench-registry.json",
+    "tests/channel-swings/ext_gr_benchmark_bench_widening_probe.py"
+  ],
+  "source_disposition": "No source claim is attributed. The three anchors bind observed phenomenology only, each cited at its recorded in-repo grade: W225 (Schwarzschild GR-shadow cheap half, exact), W220 (conditional PPN survives under the granted shiab-Einstein reduction), and the H49 gravity-functional row of GEOMETER-VS-PHYSICS-OBJECTS.md (induced |II|^2 survives rotation curves; pure conformal |H|^2 dies). W229's branch-local exact-vacuum BOUNDED_NO_GO is cited inside the strong-field anchor and composes with the demand rather than contradicting it.",
+  "claim_ceiling": "Scoped external benchmark acceptance only, mirroring the EXT-J95 pattern with Joe's direct acceptance (2026-08-23) as authority. No GU result, mechanism commitment, recovery claim, prediction, confirmation, or verdict. Every implied GU/K77 realization obligation is MISSING_CONSTRUCTION.",
+  "proposed_effect": {
+    "summary": "Verdict changes: none. Proposed addition of three target-centered NEEDS rows mirroring LT-GR8's shape: LT-GR9 (strong-field Schwarzschild/Kerr phenomenology), LT-GR10 (PPN solar-system signature), LT-GR11 (rotation-curve functional-form consistency), each with reason_kind MISSING_CONSTRUCTION, mechanism commitment NONE, confirmation credit NONE, and kill scope limited to its own scoped bridge.",
+    "requested_row_changes": [
+      "append LT-GR9: strong-field vacuum phenomenology benchmark accepted at scoped grade; GU/K77 realization MISSING_CONSTRUCTION; evidence ext-gr-benchmark-bench-widening-council-2026-08-23.md",
+      "append LT-GR10: PPN solar-system signature benchmark accepted at scoped grade; GU/K77 realization MISSING_CONSTRUCTION; W220 conditional pass recorded as distance context, not discharge",
+      "append LT-GR11: rotation-curve functional-form benchmark accepted at scoped grade; GU/K77 realization MISSING_CONSTRUCTION; H49 recorded survivor noted as distance context"
+    ]
+  },
+  "conflict_keys": [
+    "EXT-GR-BENCH-WIDENING",
+    "LT-GR-TARGET-FAMILY-EXTENSION"
+  ],
+  "integration": null
+}

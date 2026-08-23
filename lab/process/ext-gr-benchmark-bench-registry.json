@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "external_benchmark_bench_registry",
+  "created": "2026-08-23",
+  "status": "THREE_GRAVITATIONAL_R6_ANCHORS_ACCEPTED_AT_SCOPED_GRADE__ALL_REALIZATIONS_MISSING_CONSTRUCTION",
+  "acceptance_authority": "Joe direct chat 2026-08-23; same authority route as EXT-J95",
+  "council_votes": {"EXT-GR-STRONGFIELD": "7-0", "EXT-GR-PPN": "7-0", "EXT-GR-ROTATION": "7-0"},
+  "pattern": "EXT-J95-SEMI-CLASSICAL-HORIZON",
+  "benchmarks": [
+    {
+      "id": "EXT-GR-STRONGFIELD",
+      "kind": "EXTERNAL_CONDITIONAL_BENCHMARK",
+      "status": "ACCEPTED_AS_SCOPED_REVERSE_SCAFFOLD_TARGET",
+      "statement": "In the low-energy observed 3+1 regime, a viable gravitational construction reproduces vacuum strong-field phenomenology consistent with the Schwarzschild/Kerr family at currently tested accuracy: geodesic orbital dynamics, light bending and shadow scale, and leading-order ringdown behavior, under the assumptions of the selected benchmark.",
+      "recorded_state": "W225 cheap half exact (GR-shadow proper zero on imported Schwarzschild; all built linear-in-M section residuals identically zero; leading built residual O(M^2/r^4) reconciled with RFAIL-03); E_s^theta operator and alpha_W coupling OPEN pending branch-fixed source action (OQ2-A); W229 branch-local exact-vacuum recovery BOUNDED_NO_GO",
+      "required_separations": [
+        "imported-metric slice versus native forward derivation",
+        "GR-shadow clearance versus full section-equation residual",
+        "branch-local no-go versus universal no-go",
+        "shadow-scale phenomenology versus photograph-level astrophysics systematics"
+      ],
+      "gu_realization_status": "MISSING_CONSTRUCTION",
+      "mechanism_commitment": "NONE",
+      "confirmation_credit": "NONE",
+      "claim_ceiling": "Reverse-only recovery is compatibility. Failure of a future packet kills only the scoped bridge unless a separately proved necessity theorem widens the kill."
+    },
+    {
+      "id": "EXT-GR-PPN",
+      "kind": "EXTERNAL_CONDITIONAL_BENCHMARK",
+      "status": "ACCEPTED_AS_SCOPED_REVERSE_SCAFFOLD_TARGET",
+      "statement": "The construction's slow-motion weak-field limit with matter carries the GR PPN signature within the recorded solar-system bounds: gamma = beta = 1 and all preferred-frame, preferred-location and conservation parameters zero, within |gamma-1| < 2.3e-5 (Cassini), |beta-1| < 1e-4 (LLR/perihelion), and the remaining recorded bounds (Will 2014 framework as recorded in W220).",
+      "recorded_state": "W220 conditional SURVIVES at exploration grade: granting the shiab-Einstein reduction, all ten PPN parameters equal the GR values, with a firing Brans-Dicke teeth control; the granted reduction is the missing forward derivation",
+      "required_separations": [
+        "granted reduction versus derived reduction",
+        "PPN applicability assumptions versus strong-field claims",
+        "conditional exploration-grade pass versus benchmark discharge"
+      ],
+      "gu_realization_status": "MISSING_CONSTRUCTION",
+      "mechanism_commitment": "NONE",
+      "confirmation_credit": "NONE",
+      "claim_ceiling": "W220's conditional pass does not discharge the benchmark; discharge requires the native forward derivation of the granted reduction."
+    },
+    {
+      "id": "EXT-GR-ROTATION",
+      "kind": "EXTERNAL_CONDITIONAL_BENCHMARK",
+      "status": "ACCEPTED_AS_SCOPED_REVERSE_SCAFFOLD_TARGET",
+      "statement": "The gravitational functional's weak-field behavior is consistent with observed rotation-curve phenomenology at the recorded grade: it must not produce the pure-conformal linear-potential behavior killed by the recorded H49 confrontation; the recorded survivor is the induced |II|^2 functional with its induced Einstein term.",
+      "recorded_state": "GEOMETER-VS-PHYSICS-OBJECTS.md gravity-functional row: pure conformal |H|^2 dies on rotation curves (H49); induced |II|^2 with Einstein term survives",
+      "required_separations": [
+        "functional-form survival versus dark-matter sector modeling; the matter sector is external and no dark-matter claim is made",
+        "rotation-curve consistency versus rotation-curve derivation or fit"
+      ],
+      "gu_realization_status": "MISSING_CONSTRUCTION",
+      "mechanism_commitment": "NONE",
+      "confirmation_credit": "NONE",
+      "claim_ceiling": "Binds the gravitational functional's weak-field behavior only; no dark-matter position, no fit, no derivation credit."
+    }
+  ],
+  "proposed_ledger_rows": ["LT-GR9", "LT-GR10", "LT-GR11"],
+  "evidence_delta": "lab/process/conditional-evidence-deltas/gu-ext-gr-bench-widening-2026-08-23.json",
+  "descent_note": "each accepted anchor is an R6 rung in the registered reverse-track vocabulary and receives its own R5-R3 descent as separate later work",
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

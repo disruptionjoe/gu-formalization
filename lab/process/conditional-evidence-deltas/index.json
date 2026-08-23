@@ -16,6 +16,11 @@
       "delta_id": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
       "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-observed-stress-composition-typing-2026-08-23.json",
       "status": "deferred"
+    },
+    {
+      "delta_id": "GU-EXT-GR-BENCH-WIDENING-2026-08-23",
+      "path": "lab/process/conditional-evidence-deltas/gu-ext-gr-bench-widening-2026-08-23.json",
+      "status": "pending"
     }
   ]
 }

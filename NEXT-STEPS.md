@@ -7,6 +7,23 @@ updated_at: "2026-08-23"
 
 # Next Steps For Contributors
 
+> **2026-08-23 THE R6 BENCH IS WIDENED: THREE GRAVITATIONAL ANCHORS ACCEPTED
+> AT SCOPED GRADE.** By Joe's direct acceptance (the EXT-J95 authority
+> route; 7-0 council per anchor): **EXT-GR-STRONGFIELD** (Schwarzschild/Kerr
+> strong-field phenomenology; the W225 cheap half is already exact and the
+> W229 branch-local exact-vacuum BOUNDED_NO_GO is cited inside the anchor —
+> a demand and a branch-local no-go compose), **EXT-GR-PPN** (the full GR
+> PPN signature within recorded Cassini/LLR bounds; W220's conditional
+> SURVIVES is typed granted-reduction, not discharge), and
+> **EXT-GR-ROTATION** (weak-field rotation-curve consistency at the
+> recorded H49 grade; matter sector external). Mechanism commitment and
+> confirmation credit are NONE everywhere; every GU/K77 realization is
+> MISSING_CONSTRUCTION. A pending conditional evidence delta proposes
+> ledger target rows LT-GR9/LT-GR10/LT-GR11. Next in this lane: preregister
+> the dark-energy data confrontation, then descend each accepted anchor
+> R5-R3. Scheduled Progress work is unaffected. See
+> `explorations/ext-gr-benchmark-bench-widening-council-2026-08-23.md`.
+
 > **2026-08-23 LT-GR8 D6 AMENDMENT: THE MIXED-WEDGE HELD-OUT ZERO TEST IS
 > RE-ADMITTED AS FAMILY F0 BY EXPLICIT RATIFICATION.** A concurrent run's
 > withdrawn reservation is restored under the frozen protocol's own
