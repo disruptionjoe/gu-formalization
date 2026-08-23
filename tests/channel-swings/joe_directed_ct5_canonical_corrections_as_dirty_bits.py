@@ -28,10 +28,11 @@ ANSWER, in four parts, all certified below.
       FENCED, not stale (K2); SCUR-1's declared contrary control CB-E is clean
       (K3); and the packet is dirty for exactly one of the ten corrections (Z6).
 
-  (3) THE HAND WORK IS BANKED, NOT RE-DONE.  35 records transcribed from
-      SCUR-1 and FIX-A clear 13 (file, correction) pairs, and the five FIX-A
-      repairs are load-bearing: removing one flips CB-A back to
-      DIRTY-KNOWN-STALE (K5).
+  (3) THE HAND WORK IS BANKED, NOT RE-DONE.  40 records transcribed from
+      SCUR-1, FIX-A and RW-1 clear 18 (file, correction) pairs.  The six FIX-A
+      records are load-bearing: removing one flips CB-A back to
+      DIRTY-KNOWN-STALE (K5), and the five RW-1 records are pinned to their
+      exact provenance rather than absorbed into a moving count.
 
   (4) THE CEILING IS MEASURED, NOT ASSERTED.  Exactly ONE hand-recorded pair
       that a human thought worth writing down does NOT fire its own signature
@@ -104,16 +105,17 @@ CANON_SINCE = {
 PINNED_DIRTY = {
     "CC-01-MET-X-ARGUMENT": 22, "CC-02-OBSERVED-POSITIVITY-OPEN": 11,
     "CC-03-FOUR-CORNER-NONCHIRAL": 2, "CC-04-NORMAL-BUNDLE-RIGHT-CHAIN": 2,
-    "CC-05-SUBTRACTIVE-TWO-PLUS-ONE": 40, "CC-06-CHIRALITY-VEV-CONDITIONAL": 27,
-    "CC-07-CONTRACTION-NOT-KK": 5, "CC-08-DARK-PARTNER-OBLIGATION": 6,
-    "CC-09-YUKAWA-REPULSIVE-SIGN": 28, "CC-10-UCSD-EDITED-DERIVATIVE": 45,
+    "CC-05-SUBTRACTIVE-TWO-PLUS-ONE": 39, "CC-06-CHIRALITY-VEV-CONDITIONAL": 26,
+    "CC-07-CONTRACTION-NOT-KK": 5, "CC-08-DARK-PARTNER-OBLIGATION": 4,
+    "CC-09-YUKAWA-REPULSIVE-SIGN": 28, "CC-10-UCSD-EDITED-DERIVATIVE": 44,
 }
-PINNED_TOTAL_DIRTY = 188
-PINNED_TOTAL_CLEARED = 13
-PINNED_RECORDS = 35
+PINNED_TOTAL_DIRTY = 183
+PINNED_TOTAL_CLEARED = 18
+PINNED_RECORDS = 40
 PINNED_ALL_REGISTER = 23
 PINNED_STALE_FOUND = 6
 PINNED_FIXA = 6
+PINNED_RW1 = 5
 
 # the ten historical citation-edge corrections; the citation gate must keep
 # seeing exactly these and nothing CT-5 added
@@ -218,6 +220,19 @@ def _fixa_drops() -> tuple:
     return tuple((f, c, "FIX-A") for f, c in _fixa_pairs())
 
 
+def _rw1_pairs() -> tuple:
+    s11 = "lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md"
+    decoupling = "explorations/decoupling-constructibility-packet-2026-08-12.md"
+    source_pack = "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md"
+    return (
+        (s11, "CC-06-CHIRALITY-VEV-CONDITIONAL"),
+        (s11, "CC-08-DARK-PARTNER-OBLIGATION"),
+        (decoupling, "CC-05-SUBTRACTIVE-TWO-PLUS-ONE"),
+        (decoupling, "CC-08-DARK-PARTNER-OBLIGATION"),
+        (source_pack, "CC-10-UCSD-EDITED-DERIVATIVE"),
+    )
+
+
 # --------------------------------------------------------------------------
 
 def run_probe(cfg: dict | None = None) -> dict:
@@ -269,7 +284,7 @@ def run_probe(cfg: dict | None = None) -> dict:
 
     # ---------------------------------------------------------------- S ---
     checks_ = [c for c in res["checks"] if "SELFTEST" not in str(c.get("by", ""))]
-    check("S", "sidecar seed size is SCUR-1's 23 documents + 6 findings + 6 repairs",
+    check("S", "sidecar seed is SCUR-1's 23 documents + 6 findings, 6 FIX-A repairs, and 5 RW-1 clearances",
           len(checks_) == PINNED_RECORDS, len(checks_))
     check("S", "23 ALL-REGISTER records (SCUR-1's per-document verdicts)",
           sum(1 for c in checks_ if c.get("correction_id") == "ALL-REGISTER") == PINNED_ALL_REGISTER,
@@ -286,6 +301,14 @@ def run_probe(cfg: dict | None = None) -> dict:
           len(fixa) == PINNED_FIXA and
           tuple(sorted((str(c["file"]), str(c["correction_id"])) for c in fixa))
           == tuple(sorted(_fixa_pairs())), len(fixa))
+    rw1 = [c for c in checks_ if c.get("by") == "RW-1"]
+    check("S", "5 RW-1 clearances are pinned to the exact artifact-owned pairs",
+          len(rw1) == PINNED_RW1 and
+          tuple(sorted((str(c["file"]), str(c["correction_id"])) for c in rw1))
+          == tuple(sorted(_rw1_pairs())), len(rw1))
+    check("S", "every RW-1 record is an exact CLEARED-CONSISTENT verdict",
+          all(c.get("verdict") == "CLEARED-CONSISTENT"
+              and c.get("correction_id") != "ALL-REGISTER" for c in rw1))
     check("S", "every recorded verdict is inside the closed vocabulary",
           all(c.get("verdict") in G.VERDICTS for c in checks_))
     check("S", "every recorded check names a file that exists",
