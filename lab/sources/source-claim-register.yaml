@@ -993,6 +993,35 @@ claims:
     note: The p.52 non-chiral-split assertion is now quoted on the frontier surface with 'kills must name
       which claim they kill'; adherence is one day old and lives in the INDEX - regresses to PARTIAL if
       the executing wave skips the source-claim column.
+    hedge_watch:
+      armed: '2026-08-24'
+      rule: Adverse-mechanism news on this claim's hedged VEV condition requires a dated SC-CHI-01 pointer,
+        direction and declared conditionality. The relay never changes polarity or adherence.
+      status_effect: NONE. Polarity stays ASSERTS; adherence stays ADHERED; no ledger row moves.
+      source_native_steelman:
+      - path: lab/active-research/joe-directed/majorana-126-neutrino/src1-source-steelman-of-the-vev-2026-08-14.md
+        note: Source mechanism extracted; the three partials below compute on this steelman.
+      adverse_mechanism_partials:
+      - path: lab/active-research/joe-directed/majorana-126-neutrino/src2-mexican-hat-is-automatic-2026-08-14.md
+        date: '2026-08-14'
+        direction: adverse
+        finding: The symmetric point is critical but never a minimum for nonzero background curvature.
+        classification: SOURCE_NATIVE_ROUTE
+        conditionality: conditional on the SG4-undeclared quadratic form
+      - path: lab/active-research/joe-directed/majorana-126-neutrino/src3-potential-unbounded-below-2026-08-14.md
+        date: '2026-08-14'
+        direction: adverse
+        finding: The potential is unbounded below by two independent routes.
+        classification: SOURCE_NATIVE_ROUTE
+        conditionality: conditional on the undeclared Ad-invariant pairing
+      - path: lab/active-research/joe-directed/majorana-126-neutrino/src4-eddy-completion-cannot-rescue-the-potential-2026-08-15.md
+        date: '2026-08-15'
+        direction: adverse
+        finding: The eddy completion does not restore boundedness.
+        classification: SOURCE_NATIVE_ROUTE
+        conditionality: conditional on the sign of an undeclared composite coefficient
+      claim_ceiling: These conditional repository results do not weaken SC-CHI-01, change its adherence,
+        select SG4 bit 2, or adjudicate the source.
 - id: SC-CHI-02
   polarity: ASSERTS
   claim: Sect. 12.9 presents a stylized toy in which coupled Weyl equations decouple where scalar curvature

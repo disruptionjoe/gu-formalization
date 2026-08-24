@@ -77,6 +77,21 @@ The four corners map **bijectively** onto the four known completions:
 | (super-Higgs partial) | massive | -40 | -40 |
 | ABSENT | chiral | **live inconsistency** | (uncured) |
 
+**Consistency addendum (independently verified 2026-08-24; annotation only —
+no corner is selected, the residual stays two-bit, and SG4 stays the sole
+decider).** The frozen four-corner map has only three live carriers because
+`(ABSENT, chiral)` is the live-inconsistency row. Its consistent support is
+therefore not a product set: given the map's consistency judgment,
+`ABSENT => MASSIVE` and `CHIRAL => PRESENT => carrier A`. Both converses fail:
+`PRESENT` permits both phases and `MASSIVE` permits both invariance values.
+This is a one-way price, not a bit verdict or an equivalence. Granting the
+chiral phase also grants the invariance-present corner unless the mass map is
+non-uniform across the fermionic extension, which remains the explicit open
+escape. The underlying collision was already banked in
+`canon/escape-corners-campaign-RESULTS.md` and priced in
+`tests/escape-corners/lega1_flipped_chiral_adjudication.md`; the 2026-08-24
+pass independently recomputed the support from the SHA-pinned `VERTEX` map.
+
 The tie-breaker between these corners is exactly the escape-corners TRIPLE test applied to a BUILT
 quadratic form (invariance-detection + phase reading). That is SG4. The residual is not a gap in the
 analysis -- it is a precise measurement that **the residual IS the source action**.

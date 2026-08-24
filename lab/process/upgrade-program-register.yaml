@@ -230,12 +230,12 @@ items:
     activation: RS-WAVE-SERIES scoping reads the four card tables
     next_check: "2026-08-24"
   - id: B1P1-PROPOSED-DIFFS
-    title: "Apply B1P-1's four proposed diffs: canon SG4 surface price note; RA-D4/RA-D2/AC-F1 annotations; SC-CHI-01 hedge_watch block; claim-status-consistency coupling section"
-    origin: b1p1 artifact, diffs printed verbatim unapplied
-    owner: canon owner / next mint / source register owner / methods owner
+    title: "Carry B1P-1's three status-inert RA-D4/RA-D2/AC-F1 annotations into the next coherent ledger mint"
+    origin: "B1P-1 owner integration hardening applied the independently verified canon annotation, claim-status coupling rule and SC-CHI-01 hedge_watch on 2026-08-24; immutable ledger v0.263 remains byte-identical"
+    owner: next ledger mint owner
     status: QUEUED
-    activation: next mint or steward pass
-    next_check: "2026-08-24"
+    activation: "next coherent ledger mint only; do not create a successor solely for status-inert annotations. Preserve verdict, kind, distance, trigger, mapping grade and target-claim ceiling."
+    next_check: "2026-08-25"
   - id: SOURCE-MECHANISM-TARGET-CLAIM-CONVENTION
     title: "Require source-mechanism gates to carry an SC- id in target_claim (closes the measured CC-06 blindness with no code; 12-line WARN fallback priced)"
     origin: b1p1 measurement -- currency signature 0/4 on the SRC arc anchor family, kill gate misses them too

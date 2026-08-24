@@ -51,6 +51,28 @@ Owner surfaces to check:
 - Prefer exact claim IDs in correction notes, such as `SHIAB-01`, `ANOMALY-01`, or
   `GEN-OPEN-01`.
 
+## Coupling Rule: Adverse-Mechanism News Fires the Hedge-Watch
+
+A source claim can be value-committed and mechanism-open at the same time. In
+`lab/sources/source-claim-register.yaml`, that state is represented by an
+`ASSERTS` row whose notes carry an explicit hedge. When a repository artifact
+resolves adversely, at any grade, against the mechanism such a claim depends
+on, the same coherent change must:
+
+1. name the claim by its `SC-` ID;
+2. add a dated pointer under that claim's `adherence.hedge_watch`, recording
+   the artifact, adverse direction, and the artifact's own conditionality; and
+3. state explicitly that no source-claim polarity or adherence verdict moved.
+
+A hedge-watch is a relay obligation, not a source verdict. It never changes a
+claim row, never weakens `ASSERTS`, never moves a ledger verdict, and cannot be
+cited as evidence that the source is wrong. Weakening still requires a new
+source edition or an explicit adjudication artifact. The initial armed case is
+`SC-CHI-01`: three source-native partials dated 2026-08-14 through 2026-08-15
+ran adversely against its hedged VEV mechanism without reaching its adherence
+block. This rule wires that missing relation while preserving every claim and
+status exactly.
+
 ## Formal Certificate Boundary
 
 ```yaml
