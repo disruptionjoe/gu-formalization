@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "b2_substantial_frontier_selection_registry",
+  "created": "2026-08-24",
+  "status": "SIX_ARC_B2_FRONTIER_REBUILT__ONE_SEQUENTIAL_ROOT__K95_BRANCH3_FIRST_QUALIFICATION_GATE__NO_OWNER_EXECUTED",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_claim_note": "This registry selects and dependencies the first legal B2 owner work; it executes no source, action, vacuum, quotient, anomaly, datum, prediction, confirmation or scientific verdict.",
+  "basis": {
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b",
+    "disposition_register": "lab/process/phenomenology-disposition-register-v0.1.json",
+    "disposition_register_sha256": "759eb1dcad644a7ed28d7b56d1fbbf43e1d2065af7352105cb02ccde0bf2d728",
+    "denominator_rows": 91,
+    "terminal_rows": 91,
+    "b2_rows": 52,
+    "exhausted": true,
+    "b2_selectable": true
+  },
+  "selection_rule": "Rank substantial arcs by counterfactual program effect and present decidability; treat a named requirement as a dependency rather than a solved object; select the earliest owner whose output is consumed by the greatest number of later arcs.",
+  "arcs": [
+    {
+      "rank": 1,
+      "id": "ACTION-VACUUM-STABILIZER-OWNER",
+      "role": "sequential_root",
+      "physics_endpoint": "one target-blind pre-density action class with stationary selected vacuum, global stabilizer, complete Hessian and source-native symmetry-breaking orbit",
+      "rows": ["RA-A3", "RA-B1", "RA-B2", "RA-B3", "RA-B4", "RA-B5", "RA-C1", "RA-A1", "RA-A2", "RA-A6", "RA-A8", "RA-E6", "RA-G4"],
+      "requirement_ids": ["U1-1", "U1-2", "U1-3", "VAC-1", "VAC-2", "VAC-3", "VAC-4", "SMG-1", "SMG-2", "SMG-3"],
+      "depends_on": [],
+      "first_gate": "Qualify the W154/W229 conditional branch-3 action as a materially distinct pre-density K77 candidate before any N2-N3-N6 execution: type its real-signature horn, fields, coefficients, complete Euler/Hilbert map and target-blind freeze, and refuse silent K95-to-K77 transfer.",
+      "positive_continuation": "If a real-typed, coefficient-complete K77 owner survives, execute N2 AND N3 AND N6 on that frozen class, then preserve N1, N4 and N5.",
+      "negative_continuation": "If it fails qualification, bank a precise non-admission for this branch-3 class and reselect; do not synthesize CBRS-1AC or infer a universal action no-go.",
+      "cheapest_decisive_condition": "a canonical real Spin(9,5)-to-Spin(7,7) action bridge or a native K77 restatement with independently owned coefficients and complete variational roles",
+      "claim_ceiling": "candidate qualification only"
+    },
+    {
+      "rank": 2,
+      "id": "OBSERVED-PHYSICAL-QUOTIENT-INDEX",
+      "role": "dependent_spine",
+      "physics_endpoint": "one observed 3+1 carrier, interacting BV/BFV quotient, common Lorentzian positive reduced domain and relative index/count map",
+      "rows": ["AC-D1", "AC-D2", "AC-D3", "AC-D4", "AC-D5", "LT-GR1b", "LT-GR3", "LT-GR6", "RA-G1", "RA-G2", "RA-D4", "RA-F1", "LT-GR1", "LT-GR2c", "LT-GR6b", "LT-SM8", "AC-F1", "AC-G1a", "LT-SM3", "LT-SM4"],
+      "requirement_ids": ["AD4-1", "AD4-2", "AD4-3", "PHQ-1", "PHQ-2", "PHQ-3", "IDX-1", "IDX-2", "GRP-1", "GRP-2", "ANK-1", "MIR-1", "MIR-2", "MIR-3", "RS-1", "RS-2", "RS-3", "QF-1", "QF-2", "QF-3", "EH-1", "EH-2", "EH-3", "WB-1", "WB-2", "WB-3", "FERM-1", "FERM-2", "FERM-3"],
+      "depends_on": ["ACTION-VACUUM-STABILIZER-OWNER"],
+      "first_gate": "Freeze PHQ-1 from a surviving stationary selected background before composing quotient, domain, index, anomaly or observed-count owners.",
+      "positive_continuation": "Build the interacting physical complex and common domain on the same frozen background.",
+      "negative_continuation": "A failed stationary owner returns to arc 1; a quotient failure closes only the frozen quotient route.",
+      "cheapest_decisive_condition": "nontrivial reduced cohomology with a conserved positive pairing on one common Lorentzian domain",
+      "claim_ceiling": "physicalization of one frozen conditional class"
+    },
+    {
+      "rank": 3,
+      "id": "HIGGS-MASS-FERMION-SPECTRUM",
+      "role": "dependent_branch",
+      "physics_endpoint": "source-native composed Higgs orbit, complete mass operators and observed scalar, vector, neutral and constrained-RS spectra",
+      "rows": ["RA-E4", "RA-E5", "LT-SM6", "RA-A4", "RA-A5", "RA-B6", "RA-E1"],
+      "requirement_ids": ["HSM-1", "HSM-2", "HSM-3", "HSM-4", "DTM-1", "DTM-2", "DTM-3", "RSM-1", "RSM-2", "RSM-3", "EXG-1", "EXG-2", "EXG-3", "NU-1", "NU-2", "NU-3", "HPH-1", "HPH-2", "HPH-3", "XU1-1", "XU1-2", "XU1-3"],
+      "depends_on": ["ACTION-VACUUM-STABILIZER-OWNER", "OBSERVED-PHYSICAL-QUOTIENT-INDEX"],
+      "first_gate": "Compose the observation map with the later connection-curvature action on the frozen physical quotient; do not substitute a conventional VEV-only model.",
+      "positive_continuation": "Compute full Hessian/pole data and observed descent without target fitting.",
+      "negative_continuation": "Close only the frozen source-native realization and retain differently typed action or quotient routes.",
+      "cheapest_decisive_condition": "one light observed doublet plus massive or removed forced companions on the common quotient",
+      "claim_ceiling": "conditional spectrum fit, never source derivation or prediction"
+    },
+    {
+      "rank": 4,
+      "id": "GAUGE-NORMALIZATION-GRAVITY",
+      "role": "mixed_dependency_branch",
+      "physics_endpoint": "native Yang--Mills horn and branching with relative normalization/thresholds plus action-owned strong-field and PPN dynamics",
+      "rows": ["LT-GR9", "LT-GR10", "LT-GR7", "LT-SM1a", "LT-SM1b", "LT-SM2"],
+      "requirement_ids": ["ABS-1", "YM-HORN-1", "YM-BRANCH-1", "YM-NORM-1", "YM-THRESH-1", "SF-1", "SF-2", "SF-3", "SF-4", "SF-5", "PPN-1", "PPN-2", "PPN-3", "PPN-4"],
+      "depends_on": ["ACTION-VACUUM-STABILIZER-OWNER", "OBSERVED-PHYSICAL-QUOTIENT-INDEX"],
+      "first_gate": "Separate the external absolute scale from source-owned dimensionless horn, branching and ratio calculations; freeze the branch before observed targets are read.",
+      "positive_continuation": "Run threshold, strong-field and PPN predictions from one action-owned branch.",
+      "negative_continuation": "A missing ABS-1 remains external residue and cannot be replaced by a Ward identity; a failed branch closes only that frozen branch.",
+      "cheapest_decisive_condition": "one frozen K77-to-observed branching with source-computed inverse-squared normalization",
+      "claim_ceiling": "conditional normalized branch with external absolute scale explicit"
+    },
+    {
+      "rank": 5,
+      "id": "THERMODYNAMIC-COSMOLOGY",
+      "role": "terminal_dependency_branch",
+      "physics_endpoint": "one normalized action-owned cosmology and K77-to-observed thermodynamic bridge evaluated against frozen held-out consequences",
+      "rows": ["LT-GR2d", "LT-GR2e", "LT-GR8", "LT-SM7"],
+      "requirement_ids": ["COS-FWD-1", "COS-FWD-2", "COS-FWD-3", "COS-NORM-1", "COS-NORM-2", "COS-NORM-3", "TOP-1", "TOP-2", "TOP-3", "JAC-1", "JAC-2", "JAC-3", "JAC-4", "JAC-5", "JAC-6"],
+      "depends_on": ["ACTION-VACUUM-STABILIZER-OWNER", "OBSERVED-PHYSICAL-QUOTIENT-INDEX", "GAUGE-NORMALIZATION-GRAVITY"],
+      "first_gate": "Freeze one normalized physical system and direct forward model before likelihood or thermodynamic evaluation.",
+      "positive_continuation": "Evaluate the preserved equilibrium/entropy-production fork and preregistered cosmological likelihoods without retuning.",
+      "negative_continuation": "Retain corrected H0, CPL, vacuum-decomposition, neutron-EDM and Jacobson scopes; no literature tension discharges construction.",
+      "cheapest_decisive_condition": "one held-out consequence on a common action-owned domain",
+      "claim_ceiling": "held-out conditional adjudication only"
+    },
+    {
+      "rank": 6,
+      "id": "ANOMALY-BORDISM-EXTERNAL-COUNT",
+      "role": "topological_dependency_branch",
+      "physics_endpoint": "settled-K77 twisted degree-fifteen bordism/eta result and a separately typed nonzero framed or String integer detector paired with external P3",
+      "rows": ["AC-B2", "AC-F5"],
+      "requirement_ids": ["BORD-1", "BORD-2", "CNT-1", "CNT-2", "CNT-3"],
+      "depends_on": ["ACTION-VACUUM-STABILIZER-OWNER", "OBSERVED-PHYSICAL-QUOTIENT-INDEX"],
+      "first_gate": "Freeze the operative K77 boundary gauge group, full fermion content and real twist; do not import the K95 BSp(64) calculation.",
+      "positive_continuation": "Compute the exact twisted bordism/eta class, then separately construct a nonzero corner and integer detector.",
+      "negative_continuation": "A zero or absent class closes only that frozen twist; ordinary Spin torsion is not relabelled as an integer count.",
+      "cheapest_decisive_condition": "a real-typed K77 twist with a nonzero or exactly trivialized degree-fifteen class",
+      "claim_ceiling": "typed topological result; P3 remains external and no count is inferred"
+    }
+  ],
+  "coverage": {
+    "row_assignment": "each of the 52 B2 rows is assigned exactly once to its dominant substantial arc; cross-arc dependencies are recorded in depends_on rather than by duplicating rows",
+    "named_requirement_ids": 95,
+    "all_b2_rows_assigned": true,
+    "all_named_requirements_assigned": true
+  },
+  "selected_first_owner_gate": {
+    "arc": "ACTION-VACUUM-STABILIZER-OWNER",
+    "candidate": "W154/W229-CONDITIONAL-BRANCH3-ACTION",
+    "candidate_refs": [
+      "explorations/W154-reverse-engineered-source-action-2026-07-14.md",
+      "explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md"
+    ],
+    "why_selected": "It is the only named materially distinct conditional action candidate in the current requirement surface and sits upstream of the highest-fanout row set; its K95 signature and H41-unbuilt ceiling make qualification, not assumption, the honest first gate.",
+    "execution_question": "Does the branch-3 action admit a canonical real-typed K77 restatement with source-owned coefficients, complete pre-density Euler/Hilbert roles and a target-blind freeze sufficient to enter N2-N3-N6 testing?",
+    "forbidden_inference": "W154/W229 is not presumed portable, complete, K77-native, source-owned or successful. The first-action CBRS-1 class remains owner-exhausted and no synthetic CBRS-1AC is admitted."
+  },
+  "next_run_scale_receipt": {
+    "recommended_scale": "big_swing",
+    "overall_scale_down_reason": "The first gate is sequential candidate qualification. Every other substantial arc consumes its frozen action/background or physical-quotient output, while ABS-1 and external P3 are explicit external residues rather than independently selectable scheduled constructions.",
+    "excluded_arc_dispositions": [
+      {"arc": "OBSERVED-PHYSICAL-QUOTIENT-INDEX", "limiting_predicate": "dependency", "evidence": "PHQ-1 requires the stationary selected background produced by arc 1."},
+      {"arc": "HIGGS-MASS-FERMION-SPECTRUM", "limiting_predicate": "dependency", "evidence": "HSM/DTM/RSM/EXG/NU owners require the selected action, observation and physical quotient."},
+      {"arc": "GAUGE-NORMALIZATION-GRAVITY", "limiting_predicate": "dependency", "evidence": "native branching and strong-field/PPN dynamics require the selected background and quotient; ABS-1 remains external."},
+      {"arc": "THERMODYNAMIC-COSMOLOGY", "limiting_predicate": "dependency", "evidence": "JAC/COS/TOP evaluation requires one normalized action-owned physical system and forward model."},
+      {"arc": "ANOMALY-BORDISM-EXTERNAL-COUNT", "limiting_predicate": "dependency", "evidence": "BORD-1 first requires the operative K77 boundary group/full fermion content; CNT-3 separately retains external P3."}
+    ]
+  },
+  "ledger_verdict_change": "none",
+  "source_ownership_change": "none",
+  "prediction_or_confirmation_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "evidence": "explorations/conditional-build/b2-substantial-frontier-selection-2026-08-24.md",
+  "probe": "tests/channel-swings/b2_substantial_frontier_selection_probe.py"
+}

@@ -7,6 +7,18 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 B2 FRONTIER REBUILT: SIX ARCS, ONE SEQUENTIAL ROOT.** The 52
+> B2 rows and all 95 named requirements now form six substantial arcs rather
+> than a flat row queue. Every downstream spectrum, physical-quotient,
+> normalization/gravity, thermodynamic/cosmology and K77 bordism/count packet
+> consumes a selected stationary action/background; most also consume the
+> interacting observed quotient. The current first-action CBRS-1 class remains
+> owner-exhausted. Qualify the only named materially distinct candidate,
+> W154/W229 branch 3, for a real-typed coefficient-complete K77 pre-density
+> action before any N2-N3-N6 execution. A failure closes only that candidate;
+> do not synthesize CBRS-1AC or infer a universal no-go. See
+> `explorations/conditional-build/b2-substantial-frontier-selection-2026-08-24.md`.
+
 > **2026-08-24 RESIDUAL DISPOSITION COMPLETE: 91/91 ROWS TERMINAL; B2 IS NOW
 > SELECTABLE.** The final normalization, gauge-coupling, corrected cosmology,
 > theta, thermodynamic, twisted-bordism and external-count rows now carry ten

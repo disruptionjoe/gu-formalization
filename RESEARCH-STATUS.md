@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**B2 substantial-frontier selection, 2026-08-24.** The complete post-
+exhaustion graph has 52 B2 rows and 95 unique named requirements organized
+into six substantial arcs. Dependency typing leaves one sequential root: a
+stationary action/vacuum/stabilizer owner precedes the physical quotient,
+spectrum, normalization/gravity, thermodynamic/cosmology and K77 bordism/count
+branches. The first-action CBRS-1 class remains owner-exhausted and no
+synthetic CBRS-1AC is admitted. The exact next gate qualifies the conditional
+K95 W154/W229 branch-3 action for a real-typed, coefficient-complete,
+target-blind K77 pre-density restatement before any N2-N3-N6 execution. No B2
+owner, ledger row, source attribution, prediction, confirmation, claim status,
+canon or public posture moved. See
+`explorations/conditional-build/b2-substantial-frontier-selection-2026-08-24.md`.
+
 **Residual phenomenology disposition and exhaustion wave, 2026-08-24.** The
 final eleven open rows now have terminal evidence without ledger movement or
 B2 owner execution. Ten rows name exact external-scale, Yang--Mills horn,
