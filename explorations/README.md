@@ -7,6 +7,16 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## MP1 seven-insertion sufficiency gate (2026-08-24)
+
+`generation-sector/mp1-seven-insertion-sufficiency-2026-08-24.md` closes the
+model-to-carrier gap in MP-1's seven-insertion floor. The unique middle-form
+alternating image on `64 + 832` is linear and cross-block-only, so every finite
+sum remains rank at most 128; seven arbitrary rank-128 forms reach 896 only by
+leaving that invariant image. The parity theorem survives, the generic
+sufficiency reading is withdrawn, and the diagonal `Lambda^1/Lambda^5` form-
+rank census is the next exact gapping condition.
+
 ## Jacobson/K77 reverse-scaffold benchmark council (2026-08-21)
 
 `jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md` records the

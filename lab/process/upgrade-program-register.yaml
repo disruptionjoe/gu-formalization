@@ -276,8 +276,8 @@ items:
     title: "Sufficiency at seven: MP-1 proved SEVEN middle-form insertions is a FLOOR for gapping one corner (6x128 = 768 < 896 <= 7x128, generic witnesses 768/896); run the finite Klimyk/rank computation deciding whether seven SUFFICES before the floor is ever quoted as more than a floor"
     origin: "MP-1 blunt paragraph P4 (mp1-composites-inherit-one-horn-never-both-2026-08-17.md)"
     owner: joe-directed channels
-    status: QUEUED
-    activation: next spectral-transport-adjacent wave or idle capacity
+    status: DONE
+    activation: "receipt: mp1-s7 -- RSC-1 103/103 re-run and SHA-pinned; exact unique-cross-block linearity proves every finite middle-form sum has rank <=128 on the 896, so seven does not suffice; the predecessor's arbitrary rank-896 witness is fenced as outside the invariant image; 9 targeted mutations caught"
     next_check: "2026-08-24"
   - id: TR1-COMPOSITE-PARITY
     title: "The composite-parity flank of TR-1's dichotomy: two class-2 insertions compose to class 0, so a multi-insertion constructor meets TB-4/TB-5 as pricing, not prohibition — run this before trusting the dichotomy against a full mechanism; theorem shape = mixed-parity family index theorem (TR-1 section 6)"
