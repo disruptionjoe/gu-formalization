@@ -25,8 +25,8 @@ register:
     sentence polarity verbatim; frame regression under compression is the measured failure mode.'
   - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
     target claim.'
-  adjudication_headline: 'ADHERED 82 / PARTIAL 19 / UNTYPED 9 / IGNORED 0 / CONTRADICTED 0; core: hard-core
-    48 / auxiliary 51 / disavowed-by-source 11 (2026-08-12 portfolio correction; no source claim proven)'
+  adjudication_headline: 'ADHERED 82 / PARTIAL 20 / UNTYPED 9 / IGNORED 0 / CONTRADICTED 0; core: hard-core
+    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-24 SC-GRP-50 registration; no source claim proven)'
 claims:
 - id: SC-GEO-01
   polarity: ASSERTS
@@ -446,6 +446,66 @@ claims:
     date: 2026-08-11
     note: No-internal-symmetry is quoted and load-bearing (it is the VZ-evasion premise GU-VZ); flip if
       any construction quietly reintroduces an internal symmetry group.
+- id: SC-GRP-50
+  polarity: ASSERTS
+  claim: The best-supported reconstruction of the chain is Spin(6,4), then the
+    (3,2)-signature unitary form, then SU(3)xSU(2)xU(1) -- offered as a reading of
+    the replacement for the Spin(10) chain, whose definite Killing form the author
+    says wasted the 1970s work.
+  verbatim: But this is the right chain. Spin six four, spin three comma two, s u three
+    cross s u two cross u one, Brian, in terms of the axis of evil in certain, Lorentz
+    breaking directions in space.
+  locus:
+    source: ucsd-seminar-2025
+    timestamp: 00:45:00
+    extraction: papers/drafts/Transcript into the impossible.md:155
+  grade: transcript-uncertain
+  notes: >-
+    [ASR] TRANSCRIPTION-UNCERTAIN on the middle term, permanently: Joe declined
+    the audio check on 2026-08-17. As transcribed the chain is group-theoretically
+    impossible: dim Spin(3,2) = 10 < 12 = dim SU(3)xSU(2)xU(1), so the second
+    arrow admits no injective homomorphism, and no factorisation rescues it --
+    the largest centraliser of any Spin(3,2) in Spin(6,4) is 10 (exhaustive over
+    so(5,C) module structures on C^10). The middle term is reconstructed as
+    SU(3,2) on four independent grounds: the author says "s u three comma two"
+    twice one clause earlier, attached to its true maximal-compact statement;
+    the same turn contains the provable ASR corruption "spin six comma spin
+    four"; draft-2021 p.29 eq (4.6), registered as SC-GRP-03, prints SU(3,2)/
+    U(3,2); and both subgroup embeddings are constructible fibrewise. These are
+    structure-group reductions of the rank-10 vertical bundle, not symmetry
+    breakings; the global reduction sections are not constructed. The source
+    denies the GUT frame and names maximal-compact reduction along the fibres.
+    Exact certificate: tests/channel-swings/joe_directed_sca_right_chain.py
+    (85/85 at filing). No indefinite-Killing-form mechanism is attributed to
+    the author; he declares that problem open, and "Krein" and "ghost" occur
+    zero times in the source.
+  core: hard-core
+  provenance_caveat: >-
+    The primary_source transcript copy had this sentence deleted and replaced
+    by "So," until 2026-08-15. Restoration follows the drafts transcript because
+    the primary_source copy is an edited derivative, not on independent audio
+    authority. The actual recording will not be checked by Joe's 2026-08-17
+    decision, so transcript-uncertain is permanent posture. This row is evidence
+    about the two text files. If the disputed token was "SU(3,2)", the verbatim
+    transcription is wrong; if it was "Spin(3,2)", the row records a source-side
+    slip. Either outcome leaves the mathematical reconstruction supported by the
+    adjacent sentence and registered 2021 extraction rather than this token.
+  adherence:
+    adherence: PARTIAL
+    evidence:
+    - lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md
+    - lab/active-research/joe-directed/ledger-advancement/la7-lt-sm7-moves-t0-to-t2-and-the-lt-sm1-split-is-banked-2026-08-15.md:288-300
+    - tests/legs/forces_maximal_compact_is_sm.py
+    - explorations/big-swing-2026-07-03/AUDIT-noncompact-compact-reduction-EXTERNAL.md:21-25
+    pinned_at: c0634255460f6db2182c29c8e6b861a0eec21bd6
+    date: '2026-08-24'
+    note: >-
+      PARTIAL for reasons beyond transcription. The subgroup embeddings are
+      constructible and machine-verified, but arrow 1 still needs a global
+      compatible pseudo-Hermitian complex structure plus determinant data, and
+      the noncompact-to-compact reduction that makes step 2 happen is typed
+      REDUCTION_EXTERNAL, not a GU-forced selection. The claim is carried with
+      both datum costs named.
 - id: SC-OP-01
   polarity: ASSERTS
   claim: Shiab operators are gauge-covariant contraction operators built by conjugating a family of invariant

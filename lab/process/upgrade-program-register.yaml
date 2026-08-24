@@ -85,8 +85,8 @@ items:
     title: Register the chain claim SC-GRP-50 (drafted in SC-A) at permanent transcript-uncertain grade
     origin: SC-A; the audio path is closed (AUDIO-CHECK-00-45-00 DECLINED)
     owner: source register owner (steward pass or mint)
-    status: QUEUED
-    activation: "next steward pass or mint: SC-A's entry already carries the provenance caveat for both audio outcomes; with audio permanently unavailable the caveat becomes permanent rather than pending, and registration proceeds at reconstruction grade"
+    status: DONE
+    activation: "receipt: sg4-source-parity-integrity-wave-2026-08-24.md; SC-GRP-50 registered at permanent transcript-uncertain / PARTIAL grade with the verbatim disputed token, both-outcome provenance caveat, exact SC-A certificate and no stronger source attribution"
     next_check: "2026-08-24"
   - id: AUDIO-CHECK-00-45-00
     title: Verify the restored chain sentence against the actual UCSD recording
@@ -134,8 +134,8 @@ items:
     title: Additive EXACT chain step recording the parity cross-check and its armed firing condition (proposed in pcx1 section 6, supersedes SCUR-1 section 7 note-request)
     origin: pcx1 2026-08-17; verified safe against the k134 byte-pin and the row-7 CONDITIONAL pin
     owner: process steward (path-dependencies surface)
-    status: QUEUED
-    activation: next steward pass or next path-dependencies touch
+    status: DONE
+    activation: "receipt: sg4-source-parity-integrity-wave-2026-08-24.md; PCX-1 exact additive step appended after the single CONDITIONAL row and the generated path-dependencies view regenerated without rewording the existing chain"
     next_check: "2026-08-24"
   - id: K151-TYPED-CARRIER-RED
     title: K-lane's selected-k151 artifact needs its gu-typed-objects block or exemption
@@ -191,8 +191,8 @@ items:
     title: "Enter the bit-2 selector in layer0-fork-registry (depth counter reads zero on ten-file fan-out) + REQUIRED_FORK_IDS pin + IV-class settlement bar; general class: non-enrolment invisible to entry-iterating gates"
     origin: ldd card 20 (LIVE-HIGH); sa1 first instance
     owner: fork-registry owner / next mint
-    status: QUEUED
-    activation: next mint or steward pass
+    status: DONE
+    activation: "receipt: sg4-source-parity-integrity-wave-2026-08-24.md; SG4-BIT-2-PHASE entered OPEN, pinned in REQUIRED_FORK_IDS, and protected by a gate-enforced distinct independent review of result and wording before settlement"
     next_check: "2026-08-24"
   - id: DISCHARGE-ORDER-NONMONOTONE
     title: "Grant-discharge order matters: LA-5's own postflight witness (discharging AC-A1 kills AC-F3) contradicts its order-irrelevance claim; type the non-monotonicity"

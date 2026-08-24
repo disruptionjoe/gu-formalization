@@ -23,7 +23,7 @@
 # Speculative pitfalls belong in the improvement register, not here.
 
 version: 1
-updated: 2026-08-14
+updated: 2026-08-24
 generator: process_gates/path_dependency_audit.py
 
 chains:
@@ -64,6 +64,19 @@ chains:
       - fact: "Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it."
         evidence: CONDITIONAL
         receipt: explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md
+      - fact: >-
+          Cross-checked 2026-08-17 (SCUR-1's watch): HE-1/HE-2's subtractive
+          observed-3 = n_g - 1 lives at the +/- package/comparator layer with
+          n_g an INPUT and no chiral input on the four-corner total
+          declaration (CR-B); no receipt identifies the Kramers-constrained
+          ambient carrier index with n_g, and on (9,5) the symplectic
+          doubling is uniform, so the invalidation clause does NOT fire. It
+          fires the day a receipt constructs that identification on the
+          SG4-bit-2 effective half (observed 3 = 4 - 1 then makes the
+          constrained index EVEN and step 7 dissolves), or a constructed
+          foreign mechanism supplies the odd offset outside the sector.
+        evidence: EXACT
+        receipt: tests/channel-swings/joe_directed_pcx1_signature_parity_clause_does_not_fire.py
     check: >-
       State which horn the work stands on. If Cl(9,5), say so and say whether the
       result is horn-robust. Treat equation (12.19) as a named SOURCE resolver,

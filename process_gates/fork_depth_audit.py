@@ -83,6 +83,7 @@ REQUIRED_FORK_IDS = frozenset({
     "IMPOSTER-LABEL-AB",
     "TWO-IN-REPO-2PLUS1",
     "KINEMATIC-VS-PHYSICAL-CARRIER",
+    "SG4-BIT-2-PHASE",
 })
 
 MIN_REASON_CHARS = 12
@@ -204,12 +205,38 @@ def entry_errors(entry: dict) -> list[str]:
                 f"{label}: {message}"
                 for message in path_errors("settled_by", entry["settled_by"])
             )
+        if entry.get("independent_review_required") is True:
+            if entry.get("independent_review_scope") != "result_and_wording":
+                errors.append(
+                    f"{label}: independent review must cover result_and_wording"
+                )
+            review_paths = entry.get("independent_reviewed_by")
+            errors.extend(
+                f"{label}: {message}"
+                for message in path_errors("independent_reviewed_by", review_paths)
+            )
+            if isinstance(review_paths, list) and isinstance(entry.get("settled_by"), list):
+                overlap = sorted(set(review_paths) & set(entry["settled_by"]))
+                if overlap:
+                    errors.append(
+                        f"{label}: independent review paths must be distinct from settled_by: {overlap}"
+                    )
     else:
         for key in SETTLED_ONLY_KEYS:
             if key in entry:
                 errors.append(
                     f"{label}: open fork carries `{key}:` - set status: settled or drop the field"
                 )
+        if "independent_reviewed_by" in entry:
+            errors.append(
+                f"{label}: open fork cannot carry `independent_reviewed_by:`"
+            )
+        if entry.get("independent_review_required") is True and (
+            entry.get("independent_review_scope") != "result_and_wording"
+        ):
+            errors.append(
+                f"{label}: independent review must cover result_and_wording"
+            )
     return errors
 
 
@@ -495,6 +522,31 @@ class ForkDepthAudit(unittest.TestCase):
                 "settled_by": ["GEOMETER-VS-PHYSICS-OBJECTS.md"],
             }),
         )
+        protected = {
+            **good,
+            "independent_review_required": True,
+            "independent_review_scope": "result_and_wording",
+        }
+        self.assertEqual([], entry_errors(protected))
+        half_reviewed = {
+            **protected,
+            "status": "settled",
+            "settled_side": "left",
+            "settled_how": "exact arithmetic in the settling artifact forced it",
+            "settled_at": dt.date(2026, 8, 24),
+            "settled_by": ["GEOMETER-VS-PHYSICS-OBJECTS.md"],
+        }
+        self.assertNotEqual([], entry_errors(half_reviewed))
+        same_reviewer = {
+            **half_reviewed,
+            "independent_reviewed_by": ["GEOMETER-VS-PHYSICS-OBJECTS.md"],
+        }
+        self.assertNotEqual([], entry_errors(same_reviewer))
+        independently_reviewed = {
+            **half_reviewed,
+            "independent_reviewed_by": ["RESEARCH-POSTURE.md"],
+        }
+        self.assertEqual([], entry_errors(independently_reviewed))
 
     def test_threshold_default_and_registry_agree(self) -> None:
         self.assertGreaterEqual(self.state["limit"], 1)

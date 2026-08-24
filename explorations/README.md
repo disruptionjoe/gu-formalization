@@ -7,6 +7,15 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## SG4, source and parity integrity wave (2026-08-24)
+
+`sg4-source-parity-integrity-wave-2026-08-24.md` closes three due owner
+integrations without moving scientific truth. `SG4-BIT-2-PHASE` is now an open,
+pinned Layer-0 fork whose future settlement requires a distinct result-and-
+wording review; `SC-GRP-50` is registered at permanent transcript-uncertain /
+PARTIAL grade; and the exact PCX-1 firing condition is appended to
+`PD-SIGNATURE-PARITY` while its single conditional step remains unchanged.
+
 ## Canon scope independent-verification wave (2026-08-24)
 
 `generation-sector/canon-scope-independent-verification-wave-2026-08-24.md`

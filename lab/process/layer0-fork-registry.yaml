@@ -39,7 +39,7 @@
 # rename a title freely, never an id, because dispositions cite ids.
 
 version: 1
-updated: 2026-08-17
+updated: 2026-08-24
 maintained_by: lab/process/wave-discipline-gates-2026-08-04.md
 
 # Consecutive dispositions that may declare the same still-open horn before an
@@ -49,6 +49,36 @@ maintained_by: lab/process/wave-discipline-gates-2026-08-04.md
 fork_stack_threshold: 3
 
 forks:
+
+  - id: SG4-BIT-2-PHASE
+    title: "Which varpi-VEV phase the unbuilt source action selects"
+    horns:
+      - "chiral / unbroken decreased-VEV phase"
+      - "massive / super-Higgs phase"
+    status: open
+    independent_review_required: true
+    independent_review_scope: result_and_wording
+    fan_out: >-
+      high -- at least ten joe-directed files route to this selector; three
+      ledger rows share its G6 condition family; base-category L4/LA3/N1/N3
+      and the PD-SIGNATURE-PARITY firing condition depend on its exact scope
+    notes: >-
+      This is the SG4 bit-2 selector, not the generation-count codomain and not
+      a presently constructed vacuum. The source asserts an emergent chiral
+      split conditional on varpi not being pulled significantly above zero;
+      repository work has not built the action, vacuum or phase selector that
+      chooses either horn. The row was added after LD-D measured that the fork
+      registry and depth gate were reporting no entry for this load-bearing
+      object. Historical consumers are recorded by LD-D; future dispositions
+      must declare this id through fork_assumed. Settlement additionally
+      requires a distinct independent review of both the result and proposed
+      wording, enforced by fork_depth_audit.py.
+    sources:
+      - lab/active-research/joe-directed/lens-digs/ldd-sg4-bit2-selector-governance-2026-08-17.md
+      - lab/sources/source-claim-register.yaml
+      - lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md
+      - lab/methods/gu-base-categories.md
+      - lab/active-research/joe-directed/parity-crosscheck/pcx1-signature-parity-clause-does-not-fire-2026-08-17.md
 
   - id: CARRIER-SPLIT
     title: "Physical 4+10 carrier split"

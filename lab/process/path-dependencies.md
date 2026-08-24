@@ -24,8 +24,10 @@ graph TD
   PD_SIGNATURE_PARITY_s4 --> PD_SIGNATURE_PARITY_s5
   PD_SIGNATURE_PARITY_s6["CONDITIONAL: Three generations is ODD. So (9,5) structurally forbids the target; (7,7) p..."]
   PD_SIGNATURE_PARITY_s5 --> PD_SIGNATURE_PARITY_s6
+  PD_SIGNATURE_PARITY_s7["EXACT: Cross-checked 2026-08-17 (SCUR-1's watch): HE-1/HE-2's subtractive observed..."]
+  PD_SIGNATURE_PARITY_s6 --> PD_SIGNATURE_PARITY_s7
   PD_SIGNATURE_PARITY_chk{"CHECK: State which horn the work stands on"}
-  PD_SIGNATURE_PARITY_s6 --> PD_SIGNATURE_PARITY_chk
+  PD_SIGNATURE_PARITY_s7 --> PD_SIGNATURE_PARITY_chk
   PD_SIGNATURE_PARITY_t0("TRAP 2026-08-04")
   PD_SIGNATURE_PARITY_chk -.-> PD_SIGNATURE_PARITY_t0
   PD_SIGNATURE_PARITY_t1("TRAP 2026-08-08")
@@ -178,6 +180,7 @@ graph TD
 | 5 | `EXACT` | Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) qualifies. | `tests/majorana_weyl_forces_the_seven_seven_horn.py` |
 | 6 | `THEOREM` | Quaternionic structure forces Kramers doubling, hence EVEN multiplicity. | `canon/no-go-quaternionic-parity-generation-sector.md` |
 | 7 | `CONDITIONAL` | Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it. | `explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md` |
+| 8 | `EXACT` | Cross-checked 2026-08-17 (SCUR-1's watch): HE-1/HE-2's subtractive observed-3 = n_g - 1 lives at the +/- package/comparator layer with n_g an INPUT and no chiral input on the four-corner total declaration (CR-B); no receipt identifies the Kramers-constrained ambient carrier index with n_g, and on (9,5) the symplectic doubling is uniform, so the invalidation clause does NOT fire. It fires the day a receipt constructs that identification on the SG4-bit-2 effective half (observed 3 = 4 - 1 then makes the constrained index EVEN and step 7 dissolves), or a constructed foreign mechanism supplies the odd offset outside the sector. | `tests/channel-swings/joe_directed_pcx1_signature_parity_clause_does_not_fire.py` |
 
 **CHECK.** State which horn the work stands on. If Cl(9,5), say so and say whether the result is horn-robust. Treat equation (12.19) as a named SOURCE resolver, not a mathematical settlement. Do NOT let a (9,5) result silently stand in for the source-aligned reconstruction.
 
