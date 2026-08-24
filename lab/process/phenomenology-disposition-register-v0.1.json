@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "artifact_type": "phenomenology_disposition_live_register",
   "created": "2026-08-23",
-  "status": "ROW_COMPLETE_DENOMINATOR__TWENTY_FIVE_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
+  "status": "ROW_COMPLETE_DENOMINATOR__FORTY_FIVE_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
   "method_ref": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
   "result_ref": "explorations/conditional-build/phenomenology-disposition-baseline-v0.1-2026-08-23.md",
   "probe_ref": "tests/channel-swings/phenomenology_disposition_register_probe.py",
@@ -207,12 +207,152 @@
       "terminal_outcome": "B2_NAMED_REQUIREMENT",
       "evidence_ref": "lab/process/carrier-gravity-row-disposition-wave.json",
       "named_requirements": ["QF-1", "QF-2", "QF-3"]
+    },
+    {
+      "row_id": "AC-A1",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"
+    },
+    {
+      "row_id": "AC-A2",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"
+    },
+    {
+      "row_id": "AC-A3",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"
+    },
+    {
+      "row_id": "AC-A4",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"
+    },
+    {
+      "row_id": "AC-A6",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"
+    },
+    {
+      "row_id": "AC-A7",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"
+    },
+    {
+      "row_id": "AC-B1",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"
+    },
+    {
+      "row_id": "AC-B4",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"
+    },
+    {
+      "row_id": "AC-B5",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"
+    },
+    {
+      "row_id": "AC-C1",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"
+    },
+    {
+      "row_id": "AC-C2",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-OBSERVED-BLOCK-BALANCE-1"
+    },
+    {
+      "row_id": "AC-F2",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-ANOMALY-OBSERVED-BLOCK-BALANCE-1"
+    },
+    {
+      "row_id": "RA-F2",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "construction_id": "FC-REP-TRACEQ-H640-REPLICA-1"
+    },
+    {
+      "row_id": "RA-E3",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "impossibility_id": "PI-RANK2-INTERNAL-HIGGS-SCALAR-1"
+    },
+    {
+      "row_id": "RA-F3",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "impossibility_id": "PI-KINEMATIC-BLOCKS-AS-THREE-GENERATIONS-1"
+    },
+    {
+      "row_id": "RA-E4",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "named_requirements": ["HSM-1", "HSM-2", "HSM-3"]
+    },
+    {
+      "row_id": "RA-E5",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "named_requirements": ["DTM-1", "DTM-2", "DTM-3"]
+    },
+    {
+      "row_id": "LT-SM3",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "named_requirements": ["FERM-1", "FERM-2", "FERM-3"]
+    },
+    {
+      "row_id": "LT-SM4",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "named_requirements": ["RSM-1", "RSM-2", "RSM-3"]
+    },
+    {
+      "row_id": "LT-SM6",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/higgs-anomaly-replication-row-disposition-wave.json",
+      "named_requirements": ["HSM-1", "HSM-2", "HSM-4"]
     }
   ],
   "open_row_cohorts": [
     {
       "ledger_verdict": "SAME",
-      "row_ids": ["RA-F2", "LT-GR2", "LT-GR2b", "LT-SM5", "AC-A1", "AC-A2", "AC-A3", "AC-A4", "AC-A6", "AC-A7", "AC-B1", "AC-B4", "AC-B5", "AC-C1", "AC-C2", "AC-E1", "AC-F2"],
+      "row_ids": ["LT-GR2", "LT-GR2b", "LT-SM5", "AC-E1"],
       "required_next": "B1_FC1_THROUGH_FC7_ADMISSION_OR_EXPLICIT_SPLIT",
       "warning": "SAME records ledger agreement at its stated grade; it is not retroactive FITTING_CONSTRUCTION admission"
     },
@@ -224,7 +364,7 @@
     },
     {
       "ledger_verdict": "DIFFERS",
-      "row_ids": ["RA-A4", "RA-A5", "RA-B6", "RA-D2", "RA-E3", "RA-E4", "RA-E5", "RA-F3", "RA-G1", "RA-G2", "LT-SM3", "LT-SM4", "LT-SM6", "AC-A5", "AC-F3", "AC-F4", "AC-G2"],
+      "row_ids": ["RA-A4", "RA-A5", "RA-B6", "RA-D2", "RA-G1", "RA-G2", "AC-A5", "AC-F3", "AC-F4", "AC-G2"],
       "required_next": "B4_SOURCE_ROUTE_OR_PRECISE_IMPOSSIBILITY_AUDIT",
       "warning": "DIFFERS is a scoped ledger verdict, not an automatic B4 or precise impossibility"
     },
@@ -283,8 +423,8 @@
     "exact_row_coverage": true,
     "split_unit_parentage": true,
     "denominator_rows": 91,
-    "terminal_rows": 25,
-    "open_rows": 66,
+    "terminal_rows": 45,
+    "open_rows": 46,
     "completed_b3_subdispositions": 6,
     "pending_b3_subdispositions": 0,
     "all_rows_terminal": false,
@@ -292,15 +432,15 @@
     "exhausted": false,
     "b2_selectable": false,
     "failed_predicates": [
-      "sixty-six ledger rows lack terminal disposition evidence",
+      "forty-six ledger rows lack terminal disposition evidence",
       "completed B3 subdispositions do not terminate LT-GR8, LT-GR2d, LT-GR2e, LT-SM7, RA-B6 or linked RA-G3"
     ]
   },
   "selection_consequence": {
-    "current_result": "B1/B3/B4 exhaustion is computable and false; twenty-five rows are terminal after banking the carrier and moving augmented-torsion fitting constructions plus two bounded precise impossibilities",
+    "current_result": "B1/B3/B4 exhaustion is computable and false; forty-five rows are terminal after the anomaly, Higgs/mass and replication wave banks four further fitting constructions, two bounded precise impossibilities and five named-requirement terminals",
     "next_disposition_frontier": [
-      "audit SAME rows for genuine FC-1-through-FC-7 B1 admission rather than infer it from verdict",
-      "audit DIFFERS rows for source-native B4 routes or typed precise impossibilities",
+      "independently reconstruct AC-E1's cited Dai-Freed shadow before attempting FC admission",
+      "audit the remaining compact SAME cohort and boundary/anomaly DIFFERS rows at their exact carriers",
       "split and disposition remaining NEEDS and OVER_DETERMINED rows without defaulting them to B2"
     ],
     "scheduled_priority_effect": "unchanged",

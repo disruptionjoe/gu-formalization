@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "higgs_anomaly_replication_terminal_disposition_registry",
+  "created": "2026-08-24",
+  "status": "TWENTY_ROW_TERMINALS__FOUR_FITTING_CONSTRUCTIONS__TWO_PRECISE_IMPOSSIBILITIES__FIVE_B2_NAMED_REQUIREMENTS__LEDGER_UNCHANGED",
+  "result_ref": "explorations/conditional-build/higgs-anomaly-replication-row-disposition-wave-2026-08-24.md",
+  "probe_ref": "tests/channel-swings/higgs_anomaly_replication_row_disposition_wave_probe.py",
+  "method_refs": [
+    "lab/methods/fitting-construction-grade.md",
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+    "lab/methods/source-native-comparator-routing.md"
+  ],
+  "ledger_basis": {
+    "path": "lab/process/conditional-physics-ledger-v0.263.json",
+    "schema_version": "0.263",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "target_claim": "NONE-NOT-A-KILL",
+  "routing_classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "source_claims_checked": [
+    "SC-ACT-03",
+    "SC-FER-05",
+    "SC-FER-07",
+    "SC-CHI-01",
+    "SC-CHI-50",
+    "SC-CHI-51",
+    "SC-GEN-01",
+    "SC-GEN-02",
+    "SC-GEN-04",
+    "SC-GEN-50",
+    "SC-GEN-55",
+    "SC-GEN-56",
+    "SC-MAS-01",
+    "SC-MAS-02",
+    "SC-MAS-03",
+    "SC-GEO-57"
+  ],
+  "fitting_constructions": [
+    {
+      "id": "FC-ANOMALY-LOCAL-C1-KERNEL-1",
+      "rows": ["AC-A1", "AC-A2", "AC-A3", "AC-A4", "AC-A6", "AC-A7"],
+      "rung": "R4",
+      "fingerprint": {
+        "carrier": "source-native C1 full-/S non-chiral signed-multiplicity content at the origin of the rank-10 degree-16 local-anomaly kernel",
+        "pairing": "six slot multiplicities evaluated by the exact gauge and mixed gauge-gravitational anomaly functionals",
+        "real_structure": "non-chiral full-/S content; no observed chiral truncation asserted",
+        "grading": "form-slot and signed chirality grading used by the exact linear system",
+        "signature_horn": "local anomaly polynomial on the declared C1 content; C0 is the planted failing control",
+        "ambient_embedding": "fourteen-dimensional source-native fermion-content lattice before physical observation"
+      },
+      "fc_criteria": {"FC-1": true, "FC-2": true, "FC-3": true, "FC-4": true, "FC-5": true, "FC-6": true, "FC-7": true},
+      "pathway": "OWNER-A freezes the action-selected fermion content and OWNER-B replays the exact local polynomial on any physical projection; OWNER-D supplies the projection map",
+      "demotion": "a selected physical projection changes slot factorization, selects C0 or any content outside the rank-10 kernel",
+      "nontriviality": [
+        "the planted C0 control fails all twelve tested local-anomaly equations",
+        "content outside the rank-10 kernel is excluded at this rung",
+        "slot-dependent gauge factors reopen the mixed terms"
+      ]
+    },
+    {
+      "id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1",
+      "rows": ["AC-B1", "AC-B4", "AC-B5", "AC-C1"],
+      "rung": "R4",
+      "fingerprint": {
+        "carrier": "untwisted degree-15 Spin, KO and KSp anomaly receptacles together with the fourteen-dimensional SU(2) Witten-type receptacle",
+        "pairing": "bordism/eta evaluation in the declared degrees and tangential structures",
+        "real_structure": "the settled real-side Bott slots and mod-2 eta refinement",
+        "grading": "degree-15 generalized-cohomology and SU(2) homotopy grading",
+        "signature_horn": "both declared SU(2) horns and the settled untwisted real receptacles",
+        "ambient_embedding": "global anomaly test space of the current fourteen-dimensional arena"
+      },
+      "fc_criteria": {"FC-1": true, "FC-2": true, "FC-3": true, "FC-4": true, "FC-5": true, "FC-6": true, "FC-7": true},
+      "pathway": "OWNER-A and OWNER-D freeze the physical tangential structure, twist and selected gauge group, then OWNER-B reevaluates the already exact receptacle calculations",
+      "demotion": "a different tangential structure, twist, generalized cohomology theory, degree or selected group supplies a nonzero receptacle",
+      "nontriviality": [
+        "untwisted degree-15 Spin obstruction is absent",
+        "the declared KO/KSp and mod-2 eta slots cannot carry the obstruction",
+        "the current fourteen-dimensional SU(2) Witten-type receptacle is excluded"
+      ]
+    },
+    {
+      "id": "FC-ANOMALY-OBSERVED-BLOCK-BALANCE-1",
+      "rows": ["AC-C2", "AC-F2"],
+      "rung": "R4",
+      "fingerprint": {
+        "carrier": "the observed normal-bundle Weyl 16 and each source-native kinematic Rarita-Schwinger block",
+        "pairing": "SU(2)_L doublet parity and perturbative anomaly balance on each full block",
+        "real_structure": "complex observed Weyl carrier paired with non-chiral full-block balance; physical quotient remains open",
+        "grading": "observed Lorentz/internal grading and full kinematic-block grading",
+        "signature_horn": "the already frozen observed 16 plus uncut balanced native blocks",
+        "ambient_embedding": "observed carrier inside the source-attested pullback and ambient kinematic block decomposition"
+      },
+      "fc_criteria": {"FC-1": true, "FC-2": true, "FC-3": true, "FC-4": true, "FC-5": true, "FC-6": true, "FC-7": true},
+      "pathway": "OWNER-D constructs the physical projection and proves it preserves even SU(2)_L doublet parity and whole-block anomaly balance before OWNER-B reevaluates the projected content",
+      "demotion": "the physical projection removes an odd subset of doublets or cuts across a balanced native block",
+      "nontriviality": [
+        "an odd projected SU(2)_L doublet count is excluded",
+        "a perturbatively unbalanced complete native block is excluded"
+      ]
+    },
+    {
+      "id": "FC-REP-TRACEQ-H640-REPLICA-1",
+      "rows": ["RA-F2"],
+      "rung": "R4",
+      "fingerprint": {
+        "carrier": "observed H640 containing W and mirror with a source-sized full Hermitian geometry split into two 32+32 complex halves",
+        "pairing": "tautological trace-q Hermitian form on the full and two-half carrier",
+        "real_structure": "split-native complex type with conjugate/mirror content; physical replica cohomology remains open",
+        "grading": "W/mirror and two-half Hermitian grading",
+        "signature_horn": "selected K77 split-native horn with no new datum at the carrier rung",
+        "ambient_embedding": "H640 observation carrier inside the source-sized trace-q geometry"
+      },
+      "fc_criteria": {"FC-1": true, "FC-2": true, "FC-3": true, "FC-4": true, "FC-5": true, "FC-6": true, "FC-7": true},
+      "pathway": "OWNER-A derives the trace-q carrier from the operative action parent and OWNER-D constructs physical replica cohomology plus a count observable without changing representation content",
+      "demotion": "the action parent fails to preserve trace-q ownership or physical cohomology changes the W/mirror representation fingerprint",
+      "nontriviality": [
+        "absence of W or mirror from H640 is excluded",
+        "unequal source-sized halves are excluded",
+        "an additional replica datum at this carrier rung is excluded"
+      ]
+    }
+  ],
+  "precise_impossibilities": [
+    {
+      "id": "PI-RANK2-INTERNAL-HIGGS-SCALAR-1",
+      "row": "RA-E3",
+      "target": "hosting the observed Higgs scalar doublet entirely in the frozen rank-two internal tensor class",
+      "class": "the corrected fourteen-dimensional rank-two internal tensor class followed by the source-declared observation contraction, with no separate connection one-form carrier",
+      "certificate": "the corrected exact branching has zero Higgs doublets in the entire rank-two class, and the observation pullback sends an ad-valued one-form to one observed four-dimensional one-form rather than a scalar",
+      "escape": "the source-native connection-curvature one-form route with a separately constructed action owner and observed scalar-typing bridge",
+      "resurrection_trigger": "a typed observation/action map that changes the carrier class or proves an observed scalar doublet image",
+      "claim_ceiling": "excludes only the frozen rank-two internal-tensor host; it does not exclude the source-native one-form Higgs mechanism"
+    },
+    {
+      "id": "PI-KINEMATIC-BLOCKS-AS-THREE-GENERATIONS-1",
+      "row": "RA-F3",
+      "target": "identifying three kinematic blocks with three observed generations by decomposition alone",
+      "class": "unprojected source-native block decomposition with no physical chiral index, observation quotient or count observable",
+      "certificate": "block multiplicity supplies no nonzero chiral index per block, while the source explicitly disavows three identical true generations and distinguishes a 2+1 imposter structure",
+      "escape": "a new index-bearing physical block observable clearing Layer 0 and the source-native 2+1 observation/reduction burden",
+      "resurrection_trigger": "a constructed physical index and observation map that makes the three block values responsive as generations",
+      "claim_ceiling": "kills only block-counting by decomposition; it does not kill the source-native 2+1 mechanism, a future physical carrier or GU"
+    }
+  ],
+  "requirements": {
+    "HSM-1": {"owner": "OWNER-D", "object": "typed observation contraction and physical scalar-doublet carrier"},
+    "HSM-2": {"owner": "OWNER-A", "object": "operative second action, moving principal map and complete action-derived scalar Hessian"},
+    "HSM-3": {"owner": "OWNER-A+OWNER-D", "object": "full scalar mass matrix with exactly one light observed doublet and every other forced doublet heavy"},
+    "HSM-4": {"owner": "OWNER-A+OWNER-D", "object": "source-derived physical BV tangent, preboundary/domain and spectrum for the connection-curvature Higgs route"},
+    "DTM-1": {"owner": "OWNER-A", "object": "action-selected nonhomogeneous residual flag"},
+    "DTM-2": {"owner": "OWNER-A", "object": "lower-order doublet-triplet mass operator on that flag"},
+    "DTM-3": {"owner": "OWNER-D", "object": "observed descent proving triplet separation and the scalar pole assignment"},
+    "FERM-1": {"owner": "OWNER-A", "object": "native residual-zero action background and selected fermion equation"},
+    "FERM-2": {"owner": "OWNER-A+OWNER-D", "object": "proper functional BV/BFV complex and constraint-preserving observed reduction"},
+    "FERM-3": {"owner": "OWNER-D", "object": "common Fredholm/Green domain for the observed fermion operator"},
+    "RSM-1": {"owner": "OWNER-A+OWNER-D", "object": "constrained physical Rarita-Schwinger operator and domain"},
+    "RSM-2": {"owner": "OWNER-B", "object": "complete constrained pole spectrum"},
+    "RSM-3": {"owner": "OWNER-B", "object": "phenomenological evaluation that allows or removes every physical pole"}
+  },
+  "terminal_rows": [
+    {"row_id": "AC-A1", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"},
+    {"row_id": "AC-A2", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"},
+    {"row_id": "AC-A3", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"},
+    {"row_id": "AC-A4", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"},
+    {"row_id": "AC-A6", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"},
+    {"row_id": "AC-A7", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-LOCAL-C1-KERNEL-1"},
+    {"row_id": "AC-B1", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"},
+    {"row_id": "AC-B4", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"},
+    {"row_id": "AC-B5", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"},
+    {"row_id": "AC-C1", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-GLOBAL-RECEPTACLE-1"},
+    {"row_id": "AC-C2", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-OBSERVED-BLOCK-BALANCE-1"},
+    {"row_id": "AC-F2", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-ANOMALY-OBSERVED-BLOCK-BALANCE-1"},
+    {"row_id": "RA-F2", "bucket": "B1", "terminal_outcome": "FITTING_CONSTRUCTION", "construction_id": "FC-REP-TRACEQ-H640-REPLICA-1"},
+    {"row_id": "RA-E3", "bucket": "B4", "terminal_outcome": "PRECISE_IMPOSSIBILITY", "impossibility_id": "PI-RANK2-INTERNAL-HIGGS-SCALAR-1"},
+    {"row_id": "RA-F3", "bucket": "B4", "terminal_outcome": "PRECISE_IMPOSSIBILITY", "impossibility_id": "PI-KINEMATIC-BLOCKS-AS-THREE-GENERATIONS-1"},
+    {"row_id": "RA-E4", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["HSM-1", "HSM-2", "HSM-3"]},
+    {"row_id": "RA-E5", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["DTM-1", "DTM-2", "DTM-3"]},
+    {"row_id": "LT-SM3", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["FERM-1", "FERM-2", "FERM-3"]},
+    {"row_id": "LT-SM4", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["RSM-1", "RSM-2", "RSM-3"]},
+    {"row_id": "LT-SM6", "bucket": "B2", "terminal_outcome": "B2_NAMED_REQUIREMENT", "named_requirements": ["HSM-1", "HSM-2", "HSM-4"]}
+  ],
+  "bookend_evidence": {
+    "intended_effect": "terminally disposition the remaining anomaly/global SAME system, Higgs/mass DIFFERS cluster and mixed RA-F2 replication carrier",
+    "actual_effect": "thirteen B1 rows through four fitting constructions, two bounded precise impossibilities and five exact B2 named-requirement terminals",
+    "conditions_closed": [
+      "local C1 anomaly-kernel construction",
+      "declared global anomaly receptacle construction",
+      "observed doublet-parity and native-block balance construction",
+      "trace-q H640 representation-replication carrier",
+      "rank-two internal tensor as an observed Higgs scalar host",
+      "kinematic block decomposition as a generation count"
+    ],
+    "conditions_opened": ["HSM-1 through HSM-4", "DTM-1 through DTM-3", "FERM-1 through FERM-3", "RSM-1 through RSM-3"],
+    "physics_mappings_changed": "none; disposition evidence changed, ledger mappings did not",
+    "branches_preserved": [
+      "source-native connection-curvature Higgs mechanism",
+      "source-native 2+1 imposter route",
+      "physical projection and replica cohomology",
+      "twisted or differently structured anomaly receptacles"
+    ],
+    "joe_intervention_required": "none"
+  },
+  "ledger_verdict_change": "none",
+  "ledger_row_field_change": "none",
+  "source_ownership_change": "none",
+  "prediction_or_confirmation_change": "none",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

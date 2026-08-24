@@ -7,6 +7,20 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 HIGGS/ANOMALY/REPLICATION DISPOSITION: FOUR FITTING
+> CONSTRUCTIONS, TWO PRECISE IMPOSSIBILITIES, FIVE B2 TERMINALS.** The exact
+> local C1 anomaly kernel, declared global receptacles, observed block balance
+> and trace-q H640 carrier are banked at B1 across thirteen rows. `RA-E3`
+> closes only the frozen rank-two scalar-host class; `RA-F3` closes only
+> decomposition-only generation counting. Five Higgs/mass/fermion rows now
+> name their action, observation, Hessian, BV/domain and pole-spectrum owners.
+> `AC-E1` stays open because its Dai--Freed shadow remains cited-not-rederived.
+> The live register has 45 terminal and 46 open rows; ledger v0.263 is
+> byte-identical and `b2_selectable=false`. Rebuild from the remaining compact
+> SAME cohort, Dai--Freed outlier and boundary/anomaly DIFFERS rows; do not
+> repeat this packet or execute its B2 owners. See
+> `explorations/conditional-build/higgs-anomaly-replication-row-disposition-wave-2026-08-24.md`.
+
 > **2026-08-24 CARRIER/GRAVITY DISPOSITION: TWO FITTING CONSTRUCTIONS, TWO
 > PRECISE IMPOSSIBILITIES, FOUR B2 TERMINALS.** The target-blind observed
 > normal-Weyl carrier and the source-owned moving augmented-torsion carrier are

@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Higgs/anomaly/replication disposition wave, 2026-08-24.** Twenty additional
+rows are terminal without ledger movement. Four R4 fitting constructions bank
+the local C1 anomaly kernel, the declared global anomaly receptacles, observed
+doublet/native-block balance and the trace-q H640 representation-replication
+carrier across thirteen rows. `RA-E3` precisely excludes only the frozen rank-
+two internal-tensor scalar host, and `RA-F3` precisely excludes only counting
+kinematic blocks as generations. `RA-E4`, `RA-E5`, `LT-SM3`, `LT-SM4` and
+`LT-SM6` carry exact B2 requirements for scalar descent/Hessian, doublet-
+triplet separation, fermion BV/domain, constrained poles and the operative
+connection-curvature action. `AC-E1` remains open at cited-not-rederived grade.
+The live register now has 45 terminal and 46 open rows;
+`exhausted=false`, `b2_selectable=false`, and ledger v0.263 is byte-identical.
+See
+`explorations/conditional-build/higgs-anomaly-replication-row-disposition-wave-2026-08-24.md`.
+
 **Carrier/gravity disposition wave, 2026-08-24.** Eleven additional rows are
 terminal without ledger movement. `RA-A7` and `RA-B7`--`RA-B9` bank the exact
 R4 fitting construction `FC-REP-OBSERVED-NORMAL-WEYL16-1`; `LT-GR5` banks the

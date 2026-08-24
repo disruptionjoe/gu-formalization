@@ -17,6 +17,7 @@ METHOD_REG = ROOT / "lab/process/phenomenology-disposition-and-exhaustion-rule.j
 ANCHOR_REG = ROOT / "lab/process/gravitational-anchor-bucket-disposition-and-first-fitting-construction.json"
 CHIRAL16_REG = ROOT / "lab/process/chiral16-same-row-disposition-wave.json"
 CARRIER_GRAVITY_REG = ROOT / "lab/process/carrier-gravity-row-disposition-wave.json"
+HIGGS_ANOMALY_REPLICATION_REG = ROOT / "lab/process/higgs-anomaly-replication-row-disposition-wave.json"
 B3_REG = ROOT / "lab/process/fc-admission-wave-and-first-b3-register.json"
 
 TERMINAL_OUTCOMES = {
@@ -36,6 +37,7 @@ def load_inputs() -> dict[str, object]:
         "anchors": json.loads(ANCHOR_REG.read_text()),
         "chiral16": json.loads(CHIRAL16_REG.read_text()),
         "carrier_gravity": json.loads(CARRIER_GRAVITY_REG.read_text()),
+        "higgs_anomaly_replication": json.loads(HIGGS_ANOMALY_REPLICATION_REG.read_text()),
         "b3": json.loads(B3_REG.read_text()),
     }
 
@@ -56,9 +58,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     anchors = inputs["anchors"]
     chiral16 = inputs["chiral16"]
     carrier_gravity = inputs["carrier_gravity"]
+    higgs_anomaly_replication = inputs["higgs_anomaly_replication"]
     b3 = inputs["b3"]
     assert all(isinstance(value, dict)
-               for value in (ledger, register, method, anchors, chiral16, carrier_gravity, b3))
+               for value in (ledger, register, method, anchors, chiral16, carrier_gravity,
+                             higgs_anomaly_replication, b3))
 
     ledger_ids = [row.get("id") for row in ledger.get("rows", [])]
     denominator_groups = register.get("row_denominator_by_ledger_verdict", {})
@@ -99,15 +103,26 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         for row_id in construction.get("rows", [])
         for row in [construction]
     }
+    higgs_anomaly_replication_rows = {
+        row.get("row_id"): row
+        for row in higgs_anomaly_replication.get("terminal_rows", [])
+    }
+    higgs_anomaly_replication_fc = {
+        row_id: construction
+        for construction in higgs_anomaly_replication.get("fitting_constructions", [])
+        for row_id in construction.get("rows", [])
+    }
     for row in terminal_rows:
         row_id = row.get("row_id")
         evidence_row = (anchor_rows.get(row_id) or chiral_rows.get(row_id)
-                        or carrier_gravity_rows.get(row_id, {}))
+                        or carrier_gravity_rows.get(row_id)
+                        or higgs_anomaly_replication_rows.get(row_id, {}))
         check(bool(evidence_row), f"terminal row evidence resolves: {row_id}")
         check(row.get("bucket") == evidence_row.get("bucket"),
               f"terminal bucket matches evidence: {row_id}")
         if row.get("terminal_outcome") == "FITTING_CONSTRUCTION":
-            evidence_fc = anchor_fc.get(row_id) or carrier_gravity_fc.get(row_id, {})
+            evidence_fc = (anchor_fc.get(row_id) or carrier_gravity_fc.get(row_id)
+                           or higgs_anomaly_replication_fc.get(row_id, {}))
             check(row.get("construction_id") == evidence_fc.get("id"),
                   f"fitting construction matches evidence: {row_id}")
         if row_id in chiral_rows:
@@ -122,6 +137,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
                 if field in evidence_row:
                     check(row.get(field) == evidence_row.get(field),
                           f"carrier/gravity {field} matches evidence: {row_id}")
+        if row_id in higgs_anomaly_replication_rows:
+            check(row.get("terminal_outcome") == evidence_row.get("terminal_outcome"),
+                  f"higgs/anomaly/replication outcome matches evidence: {row_id}")
+            for field in ("construction_id", "named_requirements", "impossibility_id"):
+                if field in evidence_row:
+                    check(row.get(field) == evidence_row.get(field),
+                          f"higgs/anomaly/replication {field} matches evidence: {row_id}")
 
     sub = register.get("b3_subdispositions", {})
     completed = sub.get("completed", [])
