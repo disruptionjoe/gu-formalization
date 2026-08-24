@@ -117,8 +117,11 @@ PINNED_STALE_FOUND = 6
 PINNED_FIXA = 6
 PINNED_RW1 = 5
 
-# the ten historical citation-edge corrections; the citation gate must keep
-# seeing exactly these and nothing CT-5 added
+# The ten citation-edge corrections present when CT-5 shipped.  They stay
+# independently pinned as an ordered, unique historical subsequence; the
+# separately governed citation class may add later corrections without making
+# this canonical-currency certificate stale.  The no-leak check below still
+# forbids every CT-5 canonical-source correction from entering that class.
 CITATION_IDS = (
     "V15-1", "V15-2", "CARRIER-20260810", "W2-01", "SD-01", "RFAIL-03",
     "DARK-ENERGY-06", "HQ-PHASE-20260812", "HQ-CONTACT-20260812",
@@ -274,9 +277,12 @@ def run_probe(cfg: dict | None = None) -> dict:
     check("C", "registry has exactly two top-level keys: the citation class and the new one",
           sorted(raw.keys()) == ["canonical_source_corrections", "corrections"],
           sorted(raw.keys()))
-    check("C", "the citation gate's own list is untouched: exactly its historical ten",
-          tuple(str(e["id"]) for e in raw["corrections"]) == CITATION_IDS,
-          tuple(str(e.get("id")) for e in raw["corrections"]))
+    citation_ids = tuple(str(e.get("id")) for e in raw["corrections"])
+    historical = tuple(cid for cid in citation_ids if cid in set(CITATION_IDS))
+    check("C", "the citation gate retains CT-5's historical ten in order and uniquely",
+          historical == CITATION_IDS
+          and all(citation_ids.count(cid) == 1 for cid in CITATION_IDS),
+          citation_ids)
     check("C", "no canonical entry leaked into the citation gate's list",
           not (set(CANON_IDS) & {str(e.get("id")) for e in raw["corrections"]}))
     check("C", "the citation gate still passes on the extended registry",
@@ -489,7 +495,8 @@ def run_probe(cfg: dict | None = None) -> dict:
 def _citation_gate_passes() -> bool:
     """Run correction_propagation_audit.py in-process against the extended
     registry.  This is the durable form of CT-5's before/after identity claim:
-    the citation gate must keep passing on exactly its own ten entries."""
+    the citation gate must keep passing as its separately governed correction
+    class grows, while CT-5's original ten remain independently pinned."""
     spec = importlib.util.spec_from_file_location(
         "cpa", ROOT / "process_gates" / "correction_propagation_audit.py")
     mod = importlib.util.module_from_spec(spec)
