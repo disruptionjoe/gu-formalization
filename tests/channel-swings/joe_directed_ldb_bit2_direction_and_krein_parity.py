@@ -232,7 +232,7 @@ if MUT == 7:                       # REFERENCE: claim direction does not matter
 # coverage machinery below is required to flag.
 CARDS = {
     "3": "LIVE-MODERATE",
-    "4": "ALREADY-COVERED(canon/ghost-parity-krein-synthesis.md 3)+LIVE-MODERATE(defect)",
+    "4": "ALREADY-COVERED(canon/ghost-parity-krein-synthesis.md 3)+REPAIRED(scope defect)",
     "5": "LIVE-HIGH",
     "8": "ALREADY-COVERED(decoupling-constructibility-packet R4b/CHK-2)+LIVE-MODERATE(unrun)",
     "9": "SPLIT: ALREADY-COVERED(ST-1 4.5(3)) + LIVE-HIGH(R5 unexecuted) + MIS-TARGETED(fork settled A)",
@@ -240,8 +240,9 @@ CARDS = {
 CONTROL_CARD = ("C0", "LIVE-HIGH", "item 4's literal question is uncovered by canon")
 
 QUOTE_PINS = [
-    ("canon/ghost-parity-krein-synthesis.md", "Each chirality half is totally null"),
-    ("canon/ghost-parity-krein-synthesis.md", "in `(9,5)`, `(7,7)`, and `(14,0)`"),
+    ("canon/ghost-parity-krein-synthesis.md", "At the physical horns `(9,5)` and `(7,7)`, each chirality half is totally null"),
+    ("canon/ghost-parity-krein-synthesis.md", "`{K, chi} = 0` iff the timelike count `q` is odd"),
+    ("canon/ghost-parity-krein-synthesis.md", "At the Euclidean control `(14,0)`, the halves are definite"),
     ("canon/ghost-parity-krein-synthesis.md", "{K, chi} = 0 forces Re tr(chi Pi_+) = 0"),
     ("lab/active-research/joe-directed/seesaw-tradeoff/"
      "st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md", "68  = 7 + 2·14 + 33"),
@@ -274,7 +275,7 @@ if MUT == 8:                       # REFERENCE: corrupt the quote corpus
 
 def coverage_detector(text):
     """Flags a corpus that already ANSWERS item 4's literal question."""
-    marker = "Each chirality half is totally null"
+    marker = "`{K, chi} = 0` iff the timelike count `q` is odd"
     if MUT == 9:                   # MACHINERY: blind the detector
         marker = "ZZ-this-string-does-not-occur-ZZ"
     return marker in norm(text)
@@ -335,15 +336,16 @@ def main():
               (d["anti"] < 1e-9) == (q % 2 == 1) and (d["comm"] < 1e-9) == (q % 2 == 0),
               f"anti={d['anti']:.1e} comm={d['comm']:.1e}")
 
-    # ---- C. the canon defect ---------------------------------------------
-    print("\n-- C. NEW: the canon sentence over-generalises to (14,0)")
+    # ---- C. the canon repair ---------------------------------------------
+    print("\n-- C. the canon scope repair is integrated")
     check("at (14,0) the chirality halves are DEFINITE, not null",
           d140["halves"]["+"][1] == (96, 0, 0) and d140["halves"]["-"][1] == (0, 96, 0),
           f"chi+ {d140['halves']['+'][1]}  chi- {d140['halves']['-'][1]}")
-    check("canon states the nullity for a scope that INCLUDES (14,0)",
-          "in `(9,5)`, `(7,7)`, and `(14,0)`" in norm(read("canon/ghost-parity-krein-synthesis.md"))
-          and "Each chirality half is totally null" in norm(read("canon/ghost-parity-krein-synthesis.md")),
-          "both sentences present and adjacent")
+    canon_scope = norm(read("canon/ghost-parity-krein-synthesis.md"))
+    check("canon now states the exact odd-q nullity criterion and q=0 control",
+          "`{K, chi} = 0` iff the timelike count `q` is odd" in canon_scope
+          and "At the Euclidean control `(14,0)`, the halves are definite" in canon_scope,
+          "repaired wording present")
 
     # ---- D. the fence map -------------------------------------------------
     print("\n-- D. NEW: the R3 fence conclusion Re tr(chi.Pi_+)=0 -- where it holds")

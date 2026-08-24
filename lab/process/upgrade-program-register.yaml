@@ -78,8 +78,8 @@ items:
     title: canon/shiab-existence-cl95.md:84 ST-1-informed reword
     origin: SCUR-1 §7 sixth diff (written, unapplied)
     owner: needs independent second verification per repo rule
-    status: QUEUED
-    activation: any independent review pass (IV-class)
+    status: DONE
+    activation: "receipt: canon-scope-independent-verification-wave-2026-08-24.md + exact structural probe; bare Hom-domain absence separated from class-2 inserted availability across all three canon carriers; source-action selection, reality, scale and spectrum remain open"
     next_check: "2026-08-24"
   - id: SC-GRP-50-REGISTRATION
     title: Register the chain claim SC-GRP-50 (drafted in SC-A) at permanent transcript-uncertain grade
@@ -148,8 +148,8 @@ items:
     title: "canon Krein result 3 over-scopes: totally-null fails at (14,0); governing fact is null iff timelike count odd (both physical horns odd, no physics moves)"
     origin: ldb-bit2-direction-and-krein-parity-2026-08-17.md, eight-point sweep
     owner: needs independent second verification (IV-class) per canon rule
-    status: QUEUED
-    activation: any independent review pass
+    status: DONE
+    activation: "receipt: canon-scope-independent-verification-wave-2026-08-24.md + exact structural probe; {K,chi}=0 iff q odd independently derived, both physical horns unchanged, q=0 half-nullity removed on both canon carriers"
     next_check: "2026-08-24"
   - id: UR-BIT2-TRANSPORT
     title: "Spectral-transport fence: the signed count moves 21.8 units with ZERO crossings (gapped throughout) — any future bit-2 counting argument must address transport, not crossings"

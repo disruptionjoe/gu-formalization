@@ -87,11 +87,14 @@ Scripts: `tests/generation-sector/h1_selfdual_family_kill.py`,
    the self-dual `SU(2)+` as `640` singlets `+ 416` doublets `+ 64` TRIPLETS; the `192`-dim triplet sector
    carries the pure `Spin(10)` generation spinor (Casimir `-11.25 = 16/16bar` exactly).
 
-3. **The triplet is a neutral / hyperbolic Krein subspace.** Restricted to the triplet sector, `K` has
-   signature exactly `(+96, -96, 0)` in `(9,5)`, `(7,7)`, and `(14,0)`. Each chirality half is totally
-   null; the form is purely the cross-pairing between a generation and its mirror. So the `96` states
-   organize as `96` hyperbolic (generation, mirror) pairs. (`96 = 3 (SU(2)+ triplet) x 2 (SU(2)-) x 16`
-   per chirality.)
+3. **The triplet is a neutral / hyperbolic Krein subspace on the physical odd-`q` horns.** Restricted to
+   the triplet sector, `K` has total signature exactly `(+96, -96, 0)` in `(9,5)`, `(7,7)`, and `(14,0)`.
+   At the physical horns `(9,5)` and `(7,7)`, each chirality half is totally null and the form is purely
+   the cross-pairing between a generation and its mirror. The governing relation for the spacelike-gamma
+   convention is `{K, chi} = 0` iff the timelike count `q` is odd. At the Euclidean control `(14,0)`, the
+   halves are definite `(+96,0,0)` and `(0,-96,0)`, so neither the half-nullity statement nor the R3
+   cross-chirality fence extends to `q=0`. Thus on both physical horns the `96` states organize as `96`
+   hyperbolic (generation, mirror) pairs. (`96 = 3 (SU(2)+ triplet) x 2 (SU(2)-) x 16` per chirality.)
 
 4. **No algebraic parity chiralizes it on its own** (the H1d result). The net chiral asymmetry of the
    triplet is `0` in every signature, real and quaternionic. A net chiral count is an index, identically

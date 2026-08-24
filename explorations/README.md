@@ -7,6 +7,16 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## Canon scope independent-verification wave (2026-08-24)
+
+`generation-sector/canon-scope-independent-verification-wave-2026-08-24.md`
+independently verifies two due canon narrowings. Chirality-half nullity is an
+odd-timelike-count result that holds at both physical horns but not at the
+`(14,0)` control. The Shiab scalar-Hom vanishing binds the bare zero-insertion
+domain only; class-2 inserted shapes are kinematically available while action
+selection, reality, scale and spectrum remain open. No scientific verdict or
+ledger row moves.
+
 ## DS1 blind-row invariant-form rank (2026-08-24)
 
 `generation-sector/ds1-blindrow-form-rank-2026-08-24.md` closes the exact

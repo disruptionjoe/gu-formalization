@@ -27,8 +27,9 @@ count** and asserts no GU-specific physical premise.
   `Cl(7,7)`, controlled against self-dual `Cl(4,0)/Cl(8,0)`, and cross-checked by exact-integer weight
   combinatorics. **Independently corroborated in canon**: the same object is recorded at
   `canon/shiab-existence-cl95.md` (CORRECTION SHIAB-05: exact rep theory over `Cl(9,5) = M(64,H)`, checksum
-  `16384 = 128^2`, errors `0.00e+00`). Consequence: a same-chirality Majorana scalar-mass channel is absent
-  from the equivariant family and must come from an external source-action spurion.
+  `16384 = 128^2`, errors `0.00e+00`). Consequence: a bare zero-insertion same-chirality scalar-mass
+  channel is absent from this equivariant Hom domain. This does not exclude insertion-dependent pairing
+  shapes; making one operative still requires source-action selection, a reality map and a scale.
 - **(B) CRT two-arena split with 2-primary blindness.** `pi_3^s = Z/24 = Z/8 (+) Z/3` (Chinese Remainder,
   exact; `gcd(8,3) = 1`, arenas meet only at 0), and **every power-of-two obstruction annihilates the
   order-3 arena** (2-primary blindness, exhaustively checked). This is the GU-independent arithmetic spine
