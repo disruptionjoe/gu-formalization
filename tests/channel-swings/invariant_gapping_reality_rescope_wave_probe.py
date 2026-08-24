@@ -119,19 +119,24 @@ def run() -> int:
     if MUT == "agenda_done":
         agenda = agenda.replace('"status": "DONE_KINEMATIC_FORM_GRADE"', '"status": "READY_CANDIDATE"')
 
-    check("result preserves the rank-128 middle ceiling", "rank at most 128" in result)
+    result_flat = " ".join(result.split())
+    register_flat = " ".join(register.split())
+    agenda_flat = " ".join(agenda.split())
+    check("result preserves the rank-128 middle ceiling", "rank at most 128" in result_flat)
     check("result records blind one-direction full rank",
-          "one generic direction lies in the" in result and "nondegenerate complex alternating-form locus" in result)
-    check("result does not select a source reality branch", "neither is selected as source truth" in result)
-    check("result fences R5-K from dynamical credit", "Only R5-D can earn" in result)
+          "one generic direction lies in the" in result_flat
+          and "nondegenerate complex alternating-form locus" in result_flat)
+    check("result does not select a source reality branch", "neither is selected as source truth" in result_flat)
+    check("result fences R5-K from dynamical credit", "Only R5-D can earn" in result_flat)
     check("RSC1-R5-RESCOPE carries the composite receipt",
-          "id: RSC1-R5-RESCOPE" in register and "receipt: invariant-gapping-reality-rescope-wave" in register)
+          "id: RSC1-R5-RESCOPE" in register_flat
+          and "receipt: invariant-gapping-reality-rescope-wave" in register_flat)
     check("hourly candidate is completed at kinematic/form grade",
-          '"status": "DONE_KINEMATIC_FORM_GRADE"' in agenda)
+          '"status": "DONE_KINEMATIC_FORM_GRADE"' in agenda_flat)
     check("artifact carries required comparator classification",
-          "Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`." in result)
-    check("artifact carries a typed-object block", "```gu-typed-objects" in result)
-    check("artifact rejects physical-gap overclaim", "no such physical gap is claimed" in result)
+          "Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`." in result_flat)
+    check("artifact carries a typed-object block", "```gu-typed-objects" in result_flat)
+    check("artifact rejects physical-gap overclaim", "no such physical gap is claimed" in result_flat)
 
     print(f"IG-R5: {CHECKS - len(FAILS)}/{CHECKS} checks pass; "
           f"{len(FAILS)} failures; exit {1 if FAILS else 0}")
