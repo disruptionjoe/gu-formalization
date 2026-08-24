@@ -18,6 +18,7 @@ ANCHOR_REG = ROOT / "lab/process/gravitational-anchor-bucket-disposition-and-fir
 CHIRAL16_REG = ROOT / "lab/process/chiral16-same-row-disposition-wave.json"
 CARRIER_GRAVITY_REG = ROOT / "lab/process/carrier-gravity-row-disposition-wave.json"
 HIGGS_ANOMALY_REPLICATION_REG = ROOT / "lab/process/higgs-anomaly-replication-row-disposition-wave.json"
+DAI_FREED_SAME_COHORT_REG = ROOT / "lab/process/dai-freed-same-cohort-row-disposition-wave.json"
 B3_REG = ROOT / "lab/process/fc-admission-wave-and-first-b3-register.json"
 
 TERMINAL_OUTCOMES = {
@@ -38,6 +39,7 @@ def load_inputs() -> dict[str, object]:
         "chiral16": json.loads(CHIRAL16_REG.read_text()),
         "carrier_gravity": json.loads(CARRIER_GRAVITY_REG.read_text()),
         "higgs_anomaly_replication": json.loads(HIGGS_ANOMALY_REPLICATION_REG.read_text()),
+        "dai_freed_same_cohort": json.loads(DAI_FREED_SAME_COHORT_REG.read_text()),
         "b3": json.loads(B3_REG.read_text()),
     }
 
@@ -59,10 +61,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     chiral16 = inputs["chiral16"]
     carrier_gravity = inputs["carrier_gravity"]
     higgs_anomaly_replication = inputs["higgs_anomaly_replication"]
+    dai_freed_same_cohort = inputs["dai_freed_same_cohort"]
     b3 = inputs["b3"]
     assert all(isinstance(value, dict)
-               for value in (ledger, register, method, anchors, chiral16, carrier_gravity,
-                             higgs_anomaly_replication, b3))
+              for value in (ledger, register, method, anchors, chiral16, carrier_gravity,
+                             higgs_anomaly_replication, dai_freed_same_cohort, b3))
 
     ledger_ids = [row.get("id") for row in ledger.get("rows", [])]
     denominator_groups = register.get("row_denominator_by_ledger_verdict", {})
@@ -112,17 +115,28 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         for construction in higgs_anomaly_replication.get("fitting_constructions", [])
         for row_id in construction.get("rows", [])
     }
+    dai_freed_same_cohort_rows = {
+        row.get("row_id"): row
+        for row in dai_freed_same_cohort.get("terminal_rows", [])
+    }
+    dai_freed_same_cohort_fc = {
+        row_id: construction
+        for construction in dai_freed_same_cohort.get("fitting_constructions", [])
+        for row_id in construction.get("rows", [])
+    }
     for row in terminal_rows:
         row_id = row.get("row_id")
         evidence_row = (anchor_rows.get(row_id) or chiral_rows.get(row_id)
                         or carrier_gravity_rows.get(row_id)
-                        or higgs_anomaly_replication_rows.get(row_id, {}))
+                        or higgs_anomaly_replication_rows.get(row_id)
+                        or dai_freed_same_cohort_rows.get(row_id, {}))
         check(bool(evidence_row), f"terminal row evidence resolves: {row_id}")
         check(row.get("bucket") == evidence_row.get("bucket"),
               f"terminal bucket matches evidence: {row_id}")
         if row.get("terminal_outcome") == "FITTING_CONSTRUCTION":
             evidence_fc = (anchor_fc.get(row_id) or carrier_gravity_fc.get(row_id)
-                           or higgs_anomaly_replication_fc.get(row_id, {}))
+                           or higgs_anomaly_replication_fc.get(row_id)
+                           or dai_freed_same_cohort_fc.get(row_id, {}))
             check(row.get("construction_id") == evidence_fc.get("id"),
                   f"fitting construction matches evidence: {row_id}")
         if row_id in chiral_rows:
@@ -144,6 +158,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
                 if field in evidence_row:
                     check(row.get(field) == evidence_row.get(field),
                           f"higgs/anomaly/replication {field} matches evidence: {row_id}")
+        if row_id in dai_freed_same_cohort_rows:
+            check(row.get("terminal_outcome") == evidence_row.get("terminal_outcome"),
+                  f"Dai-Freed/SAME-cohort outcome matches evidence: {row_id}")
+            for field in ("construction_id", "named_requirements", "impossibility_id"):
+                if field in evidence_row:
+                    check(row.get(field) == evidence_row.get(field),
+                          f"Dai-Freed/SAME-cohort {field} matches evidence: {row_id}")
 
     sub = register.get("b3_subdispositions", {})
     completed = sub.get("completed", [])

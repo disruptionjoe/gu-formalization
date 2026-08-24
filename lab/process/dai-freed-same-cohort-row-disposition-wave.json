@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "dai_freed_same_cohort_row_disposition_wave_registry",
+  "created": "2026-08-24",
+  "status": "THREE_FITTING_CONSTRUCTIONS__ONE_TYPED_AGGREGATE_IMPOSSIBILITY__LEDGER_UNCHANGED",
+  "method_refs": [
+    "lab/methods/fitting-construction-grade.md",
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+    "lab/methods/source-native-comparator-routing.md"
+  ],
+  "ledger_basis": "lab/process/conditional-physics-ledger-v0.263.json",
+  "prior_reconstruction": "explorations/ac-e1-daifreed-shadow-recomputation-2026-08-12.md",
+  "terminal_rows": [
+    {
+      "row_id": "AC-E1",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "construction_id": "FC-ANOMALY-SM-DAI-FREED-SHADOW-1"
+    },
+    {
+      "row_id": "LT-GR2",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "impossibility_id": "PI-LT-GR2-UNSPLIT-AGGREGATE-1"
+    },
+    {
+      "row_id": "LT-GR2b",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "construction_id": "FC-GR-VARIABLE-THETA-RELATIVE-KO-INTERFACE-1"
+    },
+    {
+      "row_id": "LT-SM5",
+      "bucket": "B1",
+      "terminal_outcome": "FITTING_CONSTRUCTION",
+      "construction_id": "FC-SM-AMBIENT-WEYL-HALF-EXCHANGER-1"
+    }
+  ],
+  "fitting_constructions": [
+    {
+      "id": "FC-ANOMALY-SM-DAI-FREED-SHADOW-1",
+      "grade": "FITTING_CONSTRUCTION",
+      "rung": "R4",
+      "rows": ["AC-E1"],
+      "fingerprint": {
+        "carrier": "four-dimensional chiral Standard-Model Weyl content over the four global forms G_SM/Gamma_n, evaluated on five-dimensional Spin mapping-torus bordism classes",
+        "pairing_or_form": "Dai-Freed exponentiated reduced-eta anomaly homomorphism on torsion Spin bordism",
+        "real_structure": "complex Weyl content with Spin tangential structure; the optional Spin-times-Z4 branch is a separately labelled object",
+        "grading": "fermion chirality and degree-five generalized-homology grading",
+        "signature_horn": "observed four-dimensional Spin shadow; independent of the ambient K77/K95 horn",
+        "ambient_embedding": "observed Standard-Model shadow only; no claim that GU selects the global form or physical reduction",
+        "plain_spin_groups": {"1": "Z/2", "2": "0", "3": "Z/2", "6": "0"},
+        "plain_spin_content_evaluation": "zero for every integer number of complete SM generations because each generation has four SU(2)_L doublets",
+        "separate_discrete_branch": "under an additionally assumed anomaly-free Spin-times-Z4 structure, the Z/16 class is saturated by sixteen odd-charged Weyl fermions including a right-handed neutrino; this is not Omega^Spin_5(BG_SM)"
+      },
+      "fc_criteria": {
+        "FC-1": "the degree-five AHSS reduces to E_(4,1), the dual-Sq2 quotient is recomputed for all four global forms, three simple-group controls reproduce Z/2,0,0, and the SM content evaluation is explicit",
+        "FC-2": "R4 global-anomaly compatibility shadow",
+        "FC-3": "checked against AC-E1 history, R2's 3-local ceiling, CB-C E1, W222, the 2026-08-12 pre-deposit derivation and the current disposition register",
+        "FC-4": "the source register is silent on a selected SM global form or discrete Z4 tangential structure; the result imports neither as source-owned",
+        "FC-5": "OWNER-D selects the observed physical content/global form and OWNER-B evaluates the already built bordism homomorphism; the executable next step is a frozen observed reduction packet followed by the same exact parity evaluation",
+        "FC-6": "not a GU anomaly derivation or global-form selection; demotes if physical content is not a union of complete anomaly-balanced blocks, if the tangential structure changes, or if an independently checked differential disagrees",
+        "FC-7": "forbids odd SU(2)_L-doublet content on the n=1 and n=3 plain-Spin forms and forbids identifying their Z/2 receptacle with the separate Z/16 discrete-symmetry object"
+      },
+      "claim_ceiling": "observed-shadow fitting construction and exact bordism/content evaluation only; no GU physical-carrier selection, source ownership, prediction or confirmation"
+    },
+    {
+      "id": "FC-GR-VARIABLE-THETA-RELATIVE-KO-INTERFACE-1",
+      "grade": "FITTING_CONSTRUCTION",
+      "rung": "R4",
+      "rows": ["LT-GR2b"],
+      "fingerprint": {
+        "carrier": "local action-owned olive/varpi distortion amplitude together with a boundary winding map S3 to SU(2)=Sp(1) and the pulled-back real rank-four relative KO class",
+        "pairing_or_form": "real KO clutching class with c2=n, p1_fund=-2n and p1_adj=-4n normalization",
+        "real_structure": "real K77 bundle; the older K95 right-H comparator is fenced and not silently ported",
+        "grading": "relative KO degree zero with integer winding coordinate",
+        "signature_horn": "K77 real carrier plus observed relative boundary; no quaternionic analytic carrier inferred",
+        "ambient_embedding": "typed boundary-to-P3 input-class interface; relative operator/domain/index and count readout remain open"
+      },
+      "fc_criteria": {
+        "FC-1": "the variable distortion carrier and injective boundary-winding to relative-KO class map are explicitly built with normalization",
+        "FC-2": "R4 topological input interface below a future R3 analytic index/count readout",
+        "FC-3": "checked against the K77/K95 Morita correction, relative-boundary construction, path dependencies, P3 distinctions and ledger v0.263",
+        "FC-4": "checked against SC-GRP-01, SC-GRP-02, SC-FER-03, SC-META-57 and SC-GEO-58; source-compatible but source-silent on the relative-KO map and count",
+        "FC-5": "OWNER-B builds the K77 relative operator/Fredholm domain and OWNER-D supplies the physical count readout; next step is the frozen operator-domain-index packet on this exact input class",
+        "FC-6": "not an output equation, VEV selection, Fredholm index, generation count or cosmological magnitude; demotes if the K77 operator cannot consume the class or the relative pullback ceases to be injective",
+        "FC-7": "forbids treating winding, p1 normalization and generation count as interchangeable and forbids a nonzero winding class from collapsing to zero under the built pullback"
+      },
+      "claim_ceiling": "topological input-interface fitting construction only; analytic index, physical count, VEV selection and cosmological dynamics remain open"
+    },
+    {
+      "id": "FC-SM-AMBIENT-WEYL-HALF-EXCHANGER-1",
+      "grade": "FITTING_CONSTRUCTION",
+      "rung": "R4",
+      "rows": ["LT-SM5"],
+      "fingerprint": {
+        "carrier": "real K77 Clifford carrier with two ambient complex Weyl halves and the trace-radial full-unitary varpi cell a_rad=h theta gamma(q)",
+        "pairing_or_form": "two nondegenerate (32,32) half forms and the zero-order Clifford map gamma(q)",
+        "real_structure": "real K77 Clifford module with complex Weyl-half restrictions; no physical C-reality placement inferred",
+        "grading": "ambient Weyl-half exchange and observed four-direction derivative incidence",
+        "signature_horn": "settled K77 horn",
+        "ambient_embedding": "full-unitary connection parent; physical P0/rho(Phi)/Y_K/Y_C/C placement and observed mass map remain open"
+      },
+      "fc_criteria": {
+        "FC-1": "gamma(q)^2=-1, H_q^2=1, rank-64 exchange in each direction, rank-four derivative incidence and zero isolated self-wedge are exactly built",
+        "FC-2": "R4 ambient Yukawa-carrier interface below action selection and observed mass descent",
+        "FC-3": "checked against the radial-half exchange gate, corrected representation packet, D-native 126 machinery, physical-carrier fence, path dependencies and ledger v0.263",
+        "FC-4": "checked against SC-GRP-01, SC-GRP-02, SC-FER-03, SC-META-57 and SC-GEO-58; the source assigns Higgs/Yukawa roles to connection cells and disavows a separately added fundamental Higgs but is silent on this trace-radial realization",
+        "FC-5": "OWNER-A composes and selects the complete moving U(3,2) doublet connection bank, then OWNER-D places P0/rho(Phi)/Y_K/Y_C/C and maps the 14D incidence to observed masses; the next executable step is the frozen full-bank curvature/Hessian packet",
+        "FC-6": "not a Yukawa texture, mass, chirality selection, viable potential or source-derived mechanism; demotes if the full bank fails to preserve half exchange or physical reality placement rejects the cell",
+        "FC-7": "forbids same-half zero-order action by this cell and forbids an isolated radial Mexican-hat potential because its self-wedge vanishes exactly"
+      },
+      "claim_ceiling": "ambient carrier fitting construction only; no physical Yukawa texture, observed chirality, VEV, mass or action selection"
+    }
+  ],
+  "precise_impossibilities": [
+    {
+      "id": "PI-LT-GR2-UNSPLIT-AGGREGATE-1",
+      "row_id": "LT-GR2",
+      "class": "the superseded unsplit aggregate treated as one physical construction",
+      "assumptions": [
+        "ledger v0.263 row identity and its five named successor carriers are fixed",
+        "sign, field carrier, curvature covariation, magnitude/radiative burden and observable cosmology retain their declared types",
+        "compatibility or shared notation cannot substitute for a typed bridge"
+      ],
+      "result": "one sign-exact statement cannot be one construction of five non-identical carrier and quantifier obligations",
+      "escape": "use the already minted LT-GR2a through LT-GR2e successors and disposition each at its own carrier",
+      "resurrection_trigger": "an explicit commuting bridge proving the five successor objects are functorial images of one frozen action-owned construction without fitted identifications",
+      "scope_ceiling": "semantic/type impossibility for the obsolete aggregate only; no physical cosmological-sign or variable-theta route is killed"
+    }
+  ],
+  "dai_freed_recomputation": {
+    "method": "degree-five Spin AHSS with exact GF(2) dual-Sq2 images and quotients",
+    "global_forms": {"1": "Z/2", "2": "0", "3": "Z/2", "6": "0"},
+    "controls": {"BSU(2)": "Z/2", "BU(1)": "0", "BSU(3)": "0"},
+    "sm_content_image": {"1": 0, "2": 0, "3": 0, "6": 0},
+    "published_comparison": [
+      "Davighi-Gripaios-Lohitsiri, arXiv:1910.11277",
+      "Garcia-Etxebarria-Montero, arXiv:1808.00009"
+    ]
+  },
+  "input_currency": {
+    "checked": true,
+    "matching_canonical_source_corrections": [],
+    "fenced_older_inputs": [
+      "the 2026-08-12 AC-E1 pre-deposit is reproduced rather than adopted as authority",
+      "the K95 right-H comparator is fenced from the live K77 real carrier"
+    ]
+  },
+  "ledger_verdict_change": "none",
+  "ledger_row_field_change": "none",
+  "source_ownership_change": "none",
+  "prediction_or_confirmation_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

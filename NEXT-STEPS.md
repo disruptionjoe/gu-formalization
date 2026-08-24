@@ -7,6 +7,20 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 DAI--FREED AND FINAL SAME-COHORT DISPOSITION: THREE FITTING
+> CONSTRUCTIONS; ONE TYPED AGGREGATE IMPOSSIBILITY.** `AC-E1` is now
+> independently recomputed: the four plain-Spin global forms give
+> `Z/2, 0, Z/2, 0`, with complete SM content trivial on both Witten classes;
+> the distinct Spin-times-Z4/Z16 object stays separately conditional.
+> `LT-GR2b` banks the variable-distortion relative-KO input interface and
+> `LT-SM5` the ambient Weyl-half exchanger. Superseded `LT-GR2` closes only as
+> the impossibility of treating five unlike successor obligations as one
+> construction. The live register has 49 terminal and 42 open rows; ledger
+> v0.263 is byte-identical and `b2_selectable=false`. Rebuild from the
+> boundary/anomaly DIFFERS cohort and high-fanout NEEDS rows; do not repeat the
+> SAME cohort or execute B2 owners. See
+> `explorations/conditional-build/dai-freed-same-cohort-row-disposition-wave-2026-08-24.md`.
+
 > **2026-08-24 HIGGS/ANOMALY/REPLICATION DISPOSITION: FOUR FITTING
 > CONSTRUCTIONS, TWO PRECISE IMPOSSIBILITIES, FIVE B2 TERMINALS.** The exact
 > local C1 anomaly kernel, declared global receptacles, observed block balance

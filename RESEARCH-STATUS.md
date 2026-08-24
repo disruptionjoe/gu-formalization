@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Dai--Freed and final SAME-cohort disposition wave, 2026-08-24.** The four
+remaining SAME rows now have terminal evidence without ledger movement.
+`AC-E1` banks `FC-ANOMALY-SM-DAI-FREED-SHADOW-1`: exact GF(2) AHSS replay gives
+`Z/2, 0, Z/2, 0` for the four plain-Spin global forms and zero SM-content
+image on each, while the separate Spin-times-Z4/Z16 saturation object remains
+labelled and conditional. `LT-GR2b` banks the variable-distortion relative-KO
+input interface and `LT-SM5` the ambient Weyl-half exchanger. `LT-GR2` closes
+only as the precise semantic/type impossibility of one unsplit construction
+covering its five non-identical successors. The live register now has 49
+terminal and 42 open rows; `exhausted=false`, `b2_selectable=false`, and ledger
+v0.263 is byte-identical. See
+`explorations/conditional-build/dai-freed-same-cohort-row-disposition-wave-2026-08-24.md`.
+
 **Higgs/anomaly/replication disposition wave, 2026-08-24.** Twenty additional
 rows are terminal without ledger movement. Four R4 fitting constructions bank
 the local C1 anomaly kernel, the declared global anomaly receptacles, observed
