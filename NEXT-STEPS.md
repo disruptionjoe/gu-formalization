@@ -7,6 +7,20 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 W154/W229 K77 OWNER QUALIFICATION: CONDITIONAL K95 COMPOSITE
+> NONADMITTED; NAMED B2 ROOT SET EMPTY.** W229's K95 Schur and Gaussian-parent
+> results remain valid on their filed horn, but the `(9,5)` and `(7,7)` real
+> forms have different invariant inertia and real Clifford-module types; their
+> common complexification is not a real action bridge. The composite also
+> leaves coefficients, cross/boundary/source terms, Euler contributions and
+> the intrinsic `MET(X)` Hilbert variation unowned. W230's zero-stiffness
+> condition for exact pointwise `theta=J` is incompatible with W229's genuine
+> nonzero-`Z_U` completion. No N2-N3-N6 test ran and this is not a universal
+> action no-go. Rebuild the repository-wide Progress frontier and select the
+> strongest disjoint non-B2 native gate; reopen B2 only on a genuinely owned
+> K77 action or real action bridge. See
+> `explorations/conditional-build/w154-w229-k77-action-owner-qualification-2026-08-24.md`.
+
 > **2026-08-24 B2 FRONTIER REBUILT: SIX ARCS, ONE SEQUENTIAL ROOT.** The 52
 > B2 rows and all 95 named requirements now form six substantial arcs rather
 > than a flat row queue. Every downstream spectrum, physical-quotient,
