@@ -226,36 +226,45 @@ items:
     title: Reconcile the exact R(y) zero locus with the strictly-positive bit-2 threshold, or preserve the source-internal tension explicitly
     origin: LD-A card 12, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
     owner: source-claim register owner for SC-CHI-01, SC-CHI-02 and SC-CHI-52
-    status: QUEUED
+    status: DONE
     activation: >-
       Next source-register touch on this three-claim family. This source-reading
       question precedes UR-BIT2-STRATUM: decide whether the source names an exact
       locus or a positive interval, or retain both as an unresolved tension. It
-      resolves no physical phase and selects no SG4 bit.
-    next_check: "2026-08-25"
+      resolves no physical phase and selects no SG4 bit. Receipt:
+      sg4-phase-source-cardinality-reconciliation-2026-08-24.md separates exact
+      algebraic R=0 decoupling from the unquantified effective low-curvature
+      regime; neither source passage supplies a positive threshold.
+    next_check: "2026-08-24"
   - id: UR-BIT2-STRATUM
     title: Type or explicitly exclude the partially decoupled SG4 bit-2 stratum
     origin: LD-A card 1, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
     owner: SG4 / gu-forces declaration owner
-    status: QUEUED
+    status: DONE
     activation: >-
       After UR-BIT2-CRITICAL is resolved or explicitly preserved, decide whether
       the source's "drops sufficiently" wording creates an intermediate stratum.
       If retained, type the two currently absent VERTEX cells; if excluded,
       record the source-grounded reason. This is a typing decision, not a phase
-      diagram or bit verdict.
-    next_check: "2026-08-25"
+      diagram or bit verdict. Receipt:
+      sg4-phase-source-cardinality-reconciliation-2026-08-24.md preserves the
+      continuous effective regime but excludes treating it as a third
+      source-declared discrete phase; no VERTEX cell is invented.
+    next_check: "2026-08-24"
   - id: UR-BIT2-PROVENANCE
     title: Declare the source-imported provenance of the two-value PHASE cardinality
     origin: LD-A card 11, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
     owner: SG4 / gu-forces declaration owner
-    status: QUEUED
+    status: DONE
     activation: >-
       Same coherent declaration touch as UR-BIT2-STRATUM. Mark |PHASE|=2 as
       source-imported rather than measured and correct any relay that attributes
       the cardinality to SG-1. No computed bit, consistency corner or scientific
-      verdict may move.
-    next_check: "2026-08-25"
+      verdict may move. Receipt:
+      sg4-phase-source-cardinality-reconciliation-2026-08-24.md plus the canon
+      scope correction now state that the declaration cardinality is imported
+      and only non-elimination of its two axes is measured.
+    next_check: "2026-08-24"
   - id: UR-INSERTION-DIRECTION-STRATIFICATION
     title: Complete the below-irrep insertion-direction stratification on the declared bosonic slots
     origin: LD-B card 3, 2026-08-17; narrowed against the completed 2026-08-24 invariant-gapping campaign

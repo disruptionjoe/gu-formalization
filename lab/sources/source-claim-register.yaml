@@ -981,6 +981,13 @@ claims:
   grade: extraction-verified
   notes: SEED. Conditioned in the same passage on no VEV 'pulling the various sub-fields of varpi to values
     significantly above zero', and introduced as 'The idea being explored here' - hedged strength.
+  phase_reading_reconciliation:
+    date: 2026-08-24
+    receipt: explorations/sg4-phase-source-cardinality-reconciliation-2026-08-24.md
+    reading: >-
+      The conditioning clause bounds when the asserted emergent split is meant
+      to apply. It supplies neither a numerical positive transition threshold
+      nor a third discrete phase. The stationary phase selector remains unbuilt.
   core: hard-core
   adherence:
     adherence: ADHERED
@@ -1036,6 +1043,13 @@ claims:
   notes: 'Title: ''Chirality Is Merely Effective and Results From Decoupling a Fundamentally Non-Chiral
     Theory'' (p.60). Decoupling at R(y) ~ 0 in (12.15)-(12.17); draft twice flags ''stylized''. Normalized
     in-repo display: weinstein-gu-primary-source-pack-2026-07-30.md:244-249 (WGS-05).'
+  phase_reading_reconciliation:
+    date: 2026-08-24
+    receipt: explorations/sg4-phase-source-cardinality-reconciliation-2026-08-24.md
+    reading: >-
+      In the printed toy coefficient R(y)/4, exact algebraic decoupling occurs
+      at R(y)=0. The source's near-zero and stylized prose permits an effective
+      low-curvature regime but does not locate a physical transition threshold.
   core: auxiliary
   adherence:
     adherence: PARTIAL
@@ -1709,6 +1723,13 @@ claims:
     the scalar curvature that would coax the VEV ... on the augmented torsion out of the vacuum'', where
     the smeared-out curvature term also ''was playing the role of the cosmological constant'' — the same
     mechanism serving the DE story (cf. SC-COS-51).'
+  phase_reading_reconciliation:
+    date: 2026-08-24
+    receipt: explorations/sg4-phase-source-cardinality-reconciliation-2026-08-24.md
+    reading: >-
+      "Drops sufficiently" asserts an effective low-mass regime, not a supplied
+      strictly-positive threshold. It therefore does not by itself create a
+      third source-declared phase or select either SG4 phase horn.
   core: auxiliary
   adherence:
     adherence: PARTIAL

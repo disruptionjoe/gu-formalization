@@ -1,9 +1,9 @@
 ---
-title: "How much does GU force the completion? MEASURED: TILT+RESIDUAL (B-leaning). GU's stated commitments make two real amputations (rule out carrier A's generic 4d-SUGRA form via 'no spacetime SUSY'; rule out the uncured full/minimal/charged RS reading via VZ-consistency) and tilt carrier B via ~6 distinct commitments with ZERO counter-tilts -- but force NO unique carrier. What remains is a measured 2-bit SG4 residual = (invariance-selection: gauge the graded-IG scalar-spinor eps sub-slot?) x (phase: chiral/unbroken vs massive/super-Higgs). Its four corners map bijectively onto {A(-42), B(-38), -40, live-inconsistency}. FORCES is unattainable from GU-as-stated; the honest terminus is TILT+RESIDUAL, and the residual IS SG4."
+title: "How much does GU force the completion? MEASURED: TILT+RESIDUAL (B-leaning). GU's stated commitments make two real amputations (rule out carrier A's generic 4d-SUGRA form via 'no spacetime SUSY'; rule out the uncured full/minimal/charged RS reading via VZ-consistency) and tilt carrier B via ~6 distinct commitments with ZERO counter-tilts -- but force NO unique carrier. What remains is an SG4 residual over a source-imported two-axis declaration = (invariance-selection: gauge the graded-IG scalar-spinor eps sub-slot?) x (phase: chiral/unbroken vs massive/super-Higgs). The enumeration measures that neither imported axis is eliminated; it does not measure either axis's cardinality. Its four declared corners map bijectively onto {A(-42), B(-38), -40, live-inconsistency}. FORCES is unattainable from GU-as-stated; the honest terminus is TILT+RESIDUAL, and the residual IS SG4."
 status: staged
 doc_type: results
 created: 2026-07-10
-grade: "COMPUTED / exact (LEG-A 32/32 asserts exit 0; LEG-B independent enumeration 48/48 exit 0; both re-run in-repo). Adversarially verified: 2 independent forcing-enumerations (A and B, disjoint construction) + hostile referee + completeness critic. Both enumerations AGREE on the residual and its 4-corner map. Referee: refuted=false, p_hacked=false -- and explicitly noted the legs deliberately bent to keep carrier A REACHABLE (answering the council's B-shopping worry). Predeclaration discipline held: every GU commitment encoded as ALLOW=all-cells with ZERO hard eliminations in SECTION 1; 'forces' appears only in scoped prose, never as a coded elimination. Internal tier for the GU-facing corollary; the residual-is-SG4 identification and the two amputations are structural given GU's stated commitments. No claim-ledger row moves; the generation count stays OPEN; SG4 stays the single open decider."
+grade: "COMPUTED / exact (LEG-A 32/32 asserts exit 0; LEG-B independent enumeration 48/48 exit 0; both re-run in-repo). Adversarially verified: 2 independent forcing-enumerations (A and B, disjoint construction) + hostile referee + completeness critic. Both enumerations AGREE on the surviving residual and its 4-corner declared map. The declaration's two-axis cardinality is source-imported, not measured by either enumeration. Referee: refuted=false, p_hacked=false -- and explicitly noted that the legs deliberately bent to keep carrier A REACHABLE (answering the council's B-shopping worry). Predeclaration discipline held: every GU commitment encoded as ALLOW=all-cells with ZERO hard eliminations in SECTION 1; 'forces' appears only in scoped prose, never as a coded elimination. Internal tier for the GU-facing corollary; the residual-is-SG4 identification and the two amputations are structural given GU's stated commitments. No claim-ledger row moves; the generation count stays OPEN; SG4 stays the single open decider."
 depends_on:
   - canon/carrier-bit-decision-campaign-RESULTS.md
   - canon/escape-corners-campaign-RESULTS.md
@@ -35,7 +35,9 @@ constraint (zero hard eliminations coded), asking only what the CONJUNCTION of c
 - **FORCES (a unique carrier) is UNATTAINABLE from GU-as-stated.**
 
 GU's commitments do real work -- two genuine amputations and a strong one-directional tilt -- but they
-do not close to a point. What is left is a **measured 2-bit residual**, and that residual is exactly SG4.
+do not close to a point. What is measured is **survival of both axes in the
+source-imported two-axis declaration**, and that surviving residual is exactly
+SG4. The enumeration does not measure either axis's cardinality.
 
 ## The two real amputations (GU-as-stated genuinely rules these OUT)
 
@@ -59,7 +61,7 @@ algebra favoring the geometric slot. The honest transcript count is **3 clearly-
 ambiguous-A**; NONE lean A. But a tilt is not a force: B's own cure requires unstated non-minimal
 couplings, so B is not forced either.
 
-## The residual (what GU-as-stated leaves genuinely open): a 2-bit SG4 freedom
+## The residual (what GU-as-stated leaves genuinely open): an imported two-axis SG4 freedom
 
 The completion is not narrowed to a point but to a **2-dimensional residual** -- neither bit alone
 forces a unique carrier:
@@ -76,6 +78,19 @@ The four corners map **bijectively** onto the four known completions:
 | ker-Gamma cure | massive | **B** | -38 |
 | (super-Higgs partial) | massive | -40 | -40 |
 | ABSENT | chiral | **live inconsistency** | (uncured) |
+
+**Phase-cardinality scope correction (validated 2026-08-24).** The binary
+`CHIRAL`/`MASSIVE` phase set is a source-informed endpoint declaration frozen
+before the enumeration. LEG-A measures that none of the ten predeclared
+commitments eliminates either value; it does not measure that there are exactly
+two physical phases. In the stylized printed coefficient, exact algebraic
+decoupling occurs at `R(y)=0`; the source's "near zero", "drops sufficiently"
+and "significantly above zero" prose permits an effective continuous
+low-curvature regime but supplies no numerical positive threshold. That regime
+is therefore an unresolved continuum inside the source mechanism, not evidence
+for a third discrete phase or two new `VERTEX` cells. The four-corner map remains
+the exact map of the declared coarse endpoint model; it is not a phase diagram.
+No horn, carrier, bit, claim, ledger row or public verdict changes.
 
 **Consistency addendum (independently verified 2026-08-24; annotation only —
 no corner is selected, the residual stays two-bit, and SG4 stays the sole
@@ -102,7 +117,8 @@ This matches the canon carrier-bit headline verbatim: *"the bit is NOT decided .
 exhaustiveness swing already proved the DECIDER IS UNIQUE (nothing routes around SG4). This swing
 measures HOW MUCH of the decider GU's own commitments pin down without building it: enough to amputate
 two readings and tilt hard toward B, not enough to force. **GU-as-stated cannot force the carrier; it
-narrows to a measured 2-bit residual = SG4, B-leaning.** Pushing past this point requires either
+narrows to a measured residual over the imported two-axis SG4 declaration,
+B-leaning.** Pushing past this point requires either
 BUILDING SG4 (which risks p-hacking the carrier unless the build is itself forced) or a frame-change
 (the records-as-rows reinterpretation, per the campaign historian) -- it cannot be extracted from
 GU-as-stated by any further enumeration.
@@ -122,7 +138,8 @@ GU-as-stated by any further enumeration.
   commitments (internal tier for the GU-facing corollary).
 - **No claim-ledger row moves.** The generation count stays OPEN. SG4 + order-3-class->integer-3
   stays the single open decider.
-- For the located-not-forced paper: this MEASURES the "not forced" -- GU narrows the carrier to a
-  2-bit residual and tilts B, but the count is decided only by the built source action. It is the
+- For the located-not-forced paper: this MEASURES the "not forced" -- within
+  the imported two-axis declaration GU leaves both axes live and tilts B, but
+  the count is decided only by the built source action. It is the
   honest terminus of the GU-as-stated program and the clean handoff point to the records-as-rows
   frame-change.
