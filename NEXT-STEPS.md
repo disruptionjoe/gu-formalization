@@ -7,6 +7,19 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 OVER_DETERMINED AND VACUUM/STABILIZER DISPOSITION: THREE
+> PRECISE IMPOSSIBILITIES; SIX B2 TERMINALS.** The complete stale-fork cohort
+> now closes only the ported-negative-R2-sign, conflated-Shiab-slot and
+> K95-Sp64-on-K77 classes. `AC-G1a` and every native replacement remain open.
+> `RA-A1`, `RA-A2`, `RA-A6`, `RA-A8`, `RA-E6` and `RA-G4` now name their
+> stationary vacuum, global stabilizer/`mu_6`, Hessian/mass, composed Higgs,
+> photon-kernel and observed-spectrum owners without executing them. The live
+> register has 68 terminal and 23 open rows; ledger v0.263 is byte-identical
+> and `b2_selectable=false`. Next audit the shared physical-quotient/domain/
+> index cluster and the corrected Higgs/Yukawa/Majorana owner cluster; do not
+> execute B2. See `explorations/conditional-build/overdetermined-vacuum-
+> stabilizer-row-disposition-wave-2026-08-24.md`.
+
 > **2026-08-24 COMPLETE DIFFERS-COHORT DISPOSITION: FIVE NAMED REQUIREMENTS;
 > FIVE BOUNDED IMPOSSIBILITIES.** `RA-A4`, `RA-A5`, `RA-B6`, `RA-G1` and
 > `RA-G2` now name their exact stabilizer, mass, neutral, RS quotient/domain

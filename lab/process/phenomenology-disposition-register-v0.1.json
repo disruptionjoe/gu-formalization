@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "artifact_type": "phenomenology_disposition_live_register",
   "created": "2026-08-23",
-  "status": "ROW_COMPLETE_DENOMINATOR__FIFTY_NINE_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
+  "status": "ROW_COMPLETE_DENOMINATOR__SIXTY_EIGHT_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
   "method_ref": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
-  "result_ref": "explorations/conditional-build/differs-cohort-row-disposition-wave-2026-08-24.md",
+  "result_ref": "explorations/conditional-build/overdetermined-vacuum-stabilizer-row-disposition-wave-2026-08-24.md",
   "probe_ref": "tests/channel-swings/phenomenology_disposition_register_probe.py",
   "ledger_basis": {
     "path": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -445,12 +445,75 @@
       "terminal_outcome": "PRECISE_IMPOSSIBILITY",
       "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
       "impossibility_id": "PI-GAUGE-OCTIC-PREMISE-NECESSITY-1"
+    },
+    {
+      "row_id": "LT-GR4",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "impossibility_id": "PI-PORTED-NEGATIVE-R2-SIGN-NATIVE-STABILITY-1"
+    },
+    {
+      "row_id": "LT-SM3b",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "impossibility_id": "PI-PURE-CONTRACTION-CONSTRAINT-PRESERVING-SLOT-1"
+    },
+    {
+      "row_id": "AC-G1",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "impossibility_id": "PI-K95-SP64-AS-K77-REPLACEMENT-1"
+    },
+    {
+      "row_id": "RA-A1",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "named_requirements": ["VAC-1", "VAC-2", "VAC-3"]
+    },
+    {
+      "row_id": "RA-A2",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "named_requirements": ["VAC-1", "VAC-2", "VAC-3"]
+    },
+    {
+      "row_id": "RA-A6",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "named_requirements": ["SMG-1", "SMG-2", "SMG-3"]
+    },
+    {
+      "row_id": "RA-A8",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "named_requirements": ["VAC-1", "VAC-2", "VAC-3"]
+    },
+    {
+      "row_id": "RA-E6",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "named_requirements": ["HPH-1", "HPH-2", "HPH-3"]
+    },
+    {
+      "row_id": "RA-G4",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+      "named_requirements": ["VAC-1", "VAC-3", "VAC-4"]
     }
   ],
   "open_row_cohorts": [
     {
       "ledger_verdict": "NEEDS",
-      "row_ids": ["RA-A1", "RA-A2", "RA-A6", "RA-A8", "RA-D4", "RA-E1", "RA-E2", "RA-E6", "RA-E7", "RA-F1", "RA-G3", "RA-G4", "LT-GR1", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR6b", "LT-GR7", "LT-GR8", "LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM7", "LT-SM8", "AC-B2", "AC-F1", "AC-F5", "AC-G1a"],
+      "row_ids": ["RA-D4", "RA-E1", "RA-E2", "RA-E7", "RA-F1", "RA-G3", "LT-GR1", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR6b", "LT-GR7", "LT-GR8", "LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM7", "LT-SM8", "AC-B2", "AC-F1", "AC-F5", "AC-G1a"],
       "required_next": "ONE_BUCKET_OR_PARENT_LINKED_SPLIT_WITH_TERMINAL_EVIDENCE",
       "warning": "NEEDS does not itself prove a named B2 owner, an available B1 construction, a B3 tension, or a B4 source route"
     },
@@ -462,9 +525,9 @@
     },
     {
       "ledger_verdict": "OVER_DETERMINED",
-      "row_ids": ["LT-GR4", "LT-SM3b", "AC-G1"],
-      "required_next": "STALE_PREMISE_FORK_OR_PRECISE_IMPOSSIBILITY_DISPOSITION",
-      "warning": "OVER_DETERMINED does not bypass the one-bucket and terminal-evidence rules"
+      "row_ids": [],
+      "required_next": "COHORT_TERMINAL__PRESERVE_NATIVE_SIGNS_DISTINCT_MAPS_AND_AC_G1A",
+      "warning": "The ledger OVER_DETERMINED labels remain unchanged; terminality comes only from the linked bounded evidence"
     }
   ],
   "b3_subdispositions": {
@@ -515,8 +578,8 @@
     "exact_row_coverage": true,
     "split_unit_parentage": true,
     "denominator_rows": 91,
-    "terminal_rows": 59,
-    "open_rows": 32,
+    "terminal_rows": 68,
+    "open_rows": 23,
     "completed_b3_subdispositions": 6,
     "pending_b3_subdispositions": 0,
     "all_rows_terminal": false,
@@ -524,16 +587,16 @@
     "exhausted": false,
     "b2_selectable": false,
     "failed_predicates": [
-      "thirty-two ledger rows lack terminal disposition evidence",
+      "twenty-three ledger rows lack terminal disposition evidence",
       "completed B3 subdispositions do not terminate LT-GR8, LT-GR2d, LT-GR2e, LT-SM7 or linked RA-G3; RA-B6 closes separately through exact B2 named requirements"
     ]
   },
   "selection_consequence": {
-    "current_result": "B1/B3/B4 exhaustion is computable and false; fifty-nine rows are terminal after the complete DIFFERS cohort banks five exact named-requirement and five bounded precise-impossibility dispositions",
+    "current_result": "B1/B3/B4 exhaustion is computable and false; sixty-eight rows are terminal after the complete OVER_DETERMINED cohort banks three bounded precise impossibilities and the highest-fanout vacuum/stabilizer packet banks six exact named requirements",
     "next_disposition_frontier": [
-      "audit the three OVER_DETERMINED stale-premise forks at their exact correction histories and typed carriers",
-      "prioritize high-fanout NEEDS rows that can reach a fitting construction, precise impossibility or exact named requirement without executing B2",
-      "split and disposition remaining NEEDS rows without defaulting them to B2"
+      "audit the shared physical-quotient, domain, index and positive-cohomology NEEDS cluster without executing its B2 owners",
+      "audit the remaining Higgs, Yukawa and Majorana owner cluster at corrected observation-plus-action scope",
+      "split and disposition the residual normalization, cosmology and anomaly NEEDS rows without defaulting them to B2"
     ],
     "scheduled_priority_effect": "unchanged",
     "source_action_effect": "B2 remains ineligible while exhausted is false"

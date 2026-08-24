@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**OVER_DETERMINED and vacuum/stabilizer disposition wave, 2026-08-24.** The
+complete three-row stale-fork cohort and six highest-fanout U1/U4/U6 rows now
+have terminal evidence without ledger movement. `LT-GR4` excludes only a
+ported negative `R^2` sign as a native stability verdict; `LT-SM3b` excludes
+only identifying the source pure contraction with the constraint-preserving
+spinor vertex; superseded `AC-G1` excludes only transporting K95 `Sp(64)` onto
+K77, while `AC-G1a` remains open. `RA-A1`, `RA-A2`, `RA-A6`, `RA-A8`, `RA-E6`
+and `RA-G4` carry exact requirements for the selected stationary vacuum,
+global stabilizer and `mu_6` descent, Hessian/mass operator, source-native
+composed Higgs orbit, photon kernel and observed neutral-vector spectrum. The
+live register now has 68 terminal and 23 open rows; `exhausted=false`,
+`b2_selectable=false`, and ledger v0.263 is byte-identical. See
+`explorations/conditional-build/overdetermined-vacuum-stabilizer-row-disposition-wave-2026-08-24.md`.
+
 **Complete DIFFERS-cohort disposition wave, 2026-08-24.** All ten open
 DIFFERS rows now have terminal evidence without ledger movement. `RA-A4`,
 `RA-A5`, `RA-B6`, `RA-G1` and `RA-G2` carry exact B2 requirements for the

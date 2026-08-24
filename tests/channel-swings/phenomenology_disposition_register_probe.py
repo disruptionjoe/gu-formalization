@@ -20,6 +20,7 @@ CARRIER_GRAVITY_REG = ROOT / "lab/process/carrier-gravity-row-disposition-wave.j
 HIGGS_ANOMALY_REPLICATION_REG = ROOT / "lab/process/higgs-anomaly-replication-row-disposition-wave.json"
 DAI_FREED_SAME_COHORT_REG = ROOT / "lab/process/dai-freed-same-cohort-row-disposition-wave.json"
 DIFFERS_COHORT_REG = ROOT / "lab/process/differs-cohort-row-disposition-wave.json"
+OVERDETERMINED_VACUUM_REG = ROOT / "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json"
 B3_REG = ROOT / "lab/process/fc-admission-wave-and-first-b3-register.json"
 
 TERMINAL_OUTCOMES = {
@@ -42,6 +43,7 @@ def load_inputs() -> dict[str, object]:
         "higgs_anomaly_replication": json.loads(HIGGS_ANOMALY_REPLICATION_REG.read_text()),
         "dai_freed_same_cohort": json.loads(DAI_FREED_SAME_COHORT_REG.read_text()),
         "differs_cohort": json.loads(DIFFERS_COHORT_REG.read_text()),
+        "overdetermined_vacuum": json.loads(OVERDETERMINED_VACUUM_REG.read_text()),
         "b3": json.loads(B3_REG.read_text()),
     }
 
@@ -65,10 +67,12 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     higgs_anomaly_replication = inputs["higgs_anomaly_replication"]
     dai_freed_same_cohort = inputs["dai_freed_same_cohort"]
     differs_cohort = inputs["differs_cohort"]
+    overdetermined_vacuum = inputs["overdetermined_vacuum"]
     b3 = inputs["b3"]
     assert all(isinstance(value, dict)
               for value in (ledger, register, method, anchors, chiral16, carrier_gravity,
-                             higgs_anomaly_replication, dai_freed_same_cohort, b3))
+                             higgs_anomaly_replication, dai_freed_same_cohort,
+                             overdetermined_vacuum, b3))
     assert isinstance(differs_cohort, dict)
 
     ledger_ids = [row.get("id") for row in ledger.get("rows", [])]
@@ -132,6 +136,10 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         row.get("row_id"): row
         for row in differs_cohort.get("terminal_rows", [])
     }
+    overdetermined_vacuum_rows = {
+        row.get("row_id"): row
+        for row in overdetermined_vacuum.get("terminal_rows", [])
+    }
     for row in terminal_rows:
         row_id = row.get("row_id")
         evidence_row = (anchor_rows.get(row_id) or chiral_rows.get(row_id)
@@ -139,6 +147,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
                         or higgs_anomaly_replication_rows.get(row_id)
                         or dai_freed_same_cohort_rows.get(row_id, {}))
         evidence_row = evidence_row or differs_cohort_rows.get(row_id, {})
+        evidence_row = evidence_row or overdetermined_vacuum_rows.get(row_id, {})
         check(bool(evidence_row), f"terminal row evidence resolves: {row_id}")
         check(row.get("bucket") == evidence_row.get("bucket"),
               f"terminal bucket matches evidence: {row_id}")
@@ -181,6 +190,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
                 if field in evidence_row:
                     check(row.get(field) == evidence_row.get(field),
                           f"DIFFERS-cohort {field} matches evidence: {row_id}")
+        if row_id in overdetermined_vacuum_rows:
+            check(row.get("terminal_outcome") == evidence_row.get("terminal_outcome"),
+                  f"stale-fork/vacuum outcome matches evidence: {row_id}")
+            for field in ("named_requirements", "impossibility_id"):
+                if field in evidence_row:
+                    check(row.get(field) == evidence_row.get(field),
+                          f"stale-fork/vacuum {field} matches evidence: {row_id}")
 
     sub = register.get("b3_subdispositions", {})
     completed = sub.get("completed", [])

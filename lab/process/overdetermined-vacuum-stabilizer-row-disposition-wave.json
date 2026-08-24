@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "overdetermined_vacuum_stabilizer_row_disposition_wave_registry",
+  "created": "2026-08-24",
+  "status": "THREE_PRECISE_IMPOSSIBILITIES__SIX_NAMED_REQUIREMENTS__LEDGER_UNCHANGED",
+  "method_refs": [
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+    "lab/methods/source-native-comparator-routing.md"
+  ],
+  "ledger_basis": {
+    "path": "lab/process/conditional-physics-ledger-v0.263.json",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "source_evidence": {
+    "LT-GR4": [
+      "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md",
+      "explorations/scalaron-normsign-and-vacuum-2026-07-11.md"
+    ],
+    "LT-SM3b": [
+      "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md",
+      "explorations/precontract-wave-0c-typed-identity-theorem-scope-2026-08-05.md",
+      "lab/active-research/joe-directed/ownership-theorem/ot2-lt-sm3b-is-not-an-ownership-row-and-the-cheapest-pair-is-the-terminal-pair-2026-08-15.md"
+    ],
+    "AC-G1": [
+      "explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md",
+      "lab/process/layer0-fork-registry.yaml"
+    ],
+    "RA-A1": [
+      "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "explorations/conditional-build/selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md"
+    ],
+    "RA-A2": [
+      "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "explorations/conditional-build/selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md"
+    ],
+    "RA-A6": [
+      "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "explorations/cycle-gates-and-audits/cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+    ],
+    "RA-A8": [
+      "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "explorations/cycle-gates-and-audits/cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+    ],
+    "RA-E6": [
+      "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "explorations/conditional-build/selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md"
+    ],
+    "RA-G4": [
+      "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "explorations/conditional-build/differs-cohort-row-disposition-wave-2026-08-24.md"
+    ]
+  },
+  "terminal_rows": [
+    {"row_id":"LT-GR4","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-PORTED-NEGATIVE-R2-SIGN-NATIVE-STABILITY-1"},
+    {"row_id":"LT-SM3b","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-PURE-CONTRACTION-CONSTRAINT-PRESERVING-SLOT-1"},
+    {"row_id":"AC-G1","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-K95-SP64-AS-K77-REPLACEMENT-1"},
+    {"row_id":"RA-A1","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["VAC-1","VAC-2","VAC-3"]},
+    {"row_id":"RA-A2","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["VAC-1","VAC-2","VAC-3"]},
+    {"row_id":"RA-A6","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["SMG-1","SMG-2","SMG-3"]},
+    {"row_id":"RA-A8","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["VAC-1","VAC-2","VAC-3"]},
+    {"row_id":"RA-E6","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["HPH-1","HPH-2","HPH-3"]},
+    {"row_id":"RA-G4","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["VAC-1","VAC-3","VAC-4"]}
+  ],
+  "named_requirements": {
+    "VAC-1": "one source-action-stationary nonhomogeneous vacuum selecting a definite reduction J and nonzero symmetry-breaking direction",
+    "VAC-2": "the global identity-component vacuum stabilizer with the selected SU(3)C and SU(2)L embeddings",
+    "VAC-3": "the full vacuum Hessian and gauge-boson mass operator on the frozen conditional carrier",
+    "VAC-4": "a proved massive disposition for the second SM-singlet U(1) direction in the observed BRST spectrum",
+    "SMG-1": "a source-selected rank-one Pati-Salam-breaking orbit with the conditional mu6 kernel applicable",
+    "SMG-2": "descent of the selected J reduction through the central mu6 kernel",
+    "SMG-3": "a global isomorphism from the unbroken stabilizer to (SU(3)xSU(2)xU(1))/mu6 on the observed bundle",
+    "HPH-1": "the source-native observation-plus-later-action Higgs carrier and stationary orbit",
+    "HPH-2": "the electroweak vacuum Hessian with exactly one unbroken U(1)em gauge direction",
+    "HPH-3": "the observed BRST-reduced gauge spectrum containing one massless photon and no extra massless neutral vector"
+  },
+  "precise_impossibilities": [
+    {
+      "id":"PI-PORTED-NEGATIVE-R2-SIGN-NATIVE-STABILITY-1",
+      "rows":["LT-GR4"],
+      "class":"using the ported negative one-loop R2 coefficient as a GU-native scalaron-stability verdict in the pure fourth-order truncation",
+      "assumptions":["gamma is the positive induced Einstein coefficient","f0 squared is imported from the ported negative trajectory","the action is truncated at R plus R squared"],
+      "witness":"M0 squared equals gamma divided by 6 f0 squared and is background-independent in the pure R2 truncation, but the load-bearing negative sign is not natively derived",
+      "escape":"compute the GU-native running sign or include a justified higher-derivative completion with nonconstant f double-prime",
+      "resurrection_trigger":"an exact GU-native R2 running sign opposite to the ported negative horn",
+      "target_claim":"NONE-NOT-A-KILL"
+    },
+    {
+      "id":"PI-PURE-CONTRACTION-CONSTRAINT-PRESERVING-SLOT-1",
+      "rows":["LT-SM3b"],
+      "class":"identifying the source adjoint pure-contraction Shiab with the constraint-preserving gamma-traceless spinor curvature vertex",
+      "assumptions":["the same fixed-frame operator must occupy both typed slots","constraint preservation requires gamma trace zero"],
+      "witness":"the pure contraction has exact gamma trace one, while the unique constraint-preserving terminal pair is proportional to wedge minus six contraction",
+      "escape":"keep the adjoint Shiab and spinor curvature vertex as distinct typed maps, or supply a primary-source/full-domain theorem identifying their slots",
+      "resurrection_trigger":"a primary source or full-domain theorem proving the pure contraction occupies the constraint-preserving spinor slot",
+      "target_claim":"NONE-NOT-A-KILL"
+    },
+    {
+      "id":"PI-K95-SP64-AS-K77-REPLACEMENT-1",
+      "rows":["AC-G1"],
+      "class":"transporting the K95 quaternionic Sp(64) replacement to the settled K77 real Clifford horn",
+      "assumptions":["Cl(9,5)=M64(H) supplies the right-H structure and Sp(64)","the operative horn is Cl(7,7)=M128(R) with the import ban retained"],
+      "witness":"the two real Clifford algebras are not real-isomorphic and the K77 horn has no transported right-H or Sp(64) replacement",
+      "escape":"construct a K77-native replacement group and anomaly calculation; successor AC-G1a remains open",
+      "resurrection_trigger":"an exact settled-real-horn pincer calculation with a valid K77 replacement group",
+      "target_claim":"NONE-NOT-A-KILL"
+    }
+  ],
+  "protected_effects": {
+    "ledger_verdict_change": false,
+    "source_ownership_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false,
+    "b2_owner_execution": false
+  },
+  "result_ref": "explorations/conditional-build/overdetermined-vacuum-stabilizer-row-disposition-wave-2026-08-24.md",
+  "probe_ref": "tests/channel-swings/overdetermined_vacuum_stabilizer_row_disposition_wave_probe.py"
+}
