@@ -2,10 +2,22 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-23"
+updated_at: "2026-08-24"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-24 CARRIER/GRAVITY DISPOSITION: TWO FITTING CONSTRUCTIONS, TWO
+> PRECISE IMPOSSIBILITIES, FOUR B2 TERMINALS.** The target-blind observed
+> normal-Weyl carrier and the source-owned moving augmented-torsion carrier are
+> banked at R4 and R5. Same-chirality scalar degree in D14 and the fixed
+> `Lambda g`/variable-field identification are closed only in their exact
+> classes. `RA-C1`, `LT-GR1b`, `LT-GR3`, and `LT-GR6` now name their missing
+> owners. The live register has 25 terminal and 66 open rows; ledger v0.263 is
+> unchanged and `b2_selectable=false`. Rebuild from the remaining Higgs/mass
+> DIFFERS, anomaly/global SAME, and mixed `RA-F2` fronts; do not repeat this
+> packet or execute its B2 owners. See
+> `explorations/conditional-build/carrier-gravity-row-disposition-wave-2026-08-24.md`.
 
 > **2026-08-23 FIRST SAME-ROW FC AUDIT: ELEVEN EXACT B2 TERMINALS; ANOMALY-
 > SELECTOR SHORTCUT CLOSED.** `RA-A3` and `RA-B1`--`RA-B5` share one exact

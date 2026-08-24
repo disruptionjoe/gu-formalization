@@ -16,6 +16,7 @@ REGISTER = ROOT / "lab/process/phenomenology-disposition-register-v0.1.json"
 METHOD_REG = ROOT / "lab/process/phenomenology-disposition-and-exhaustion-rule.json"
 ANCHOR_REG = ROOT / "lab/process/gravitational-anchor-bucket-disposition-and-first-fitting-construction.json"
 CHIRAL16_REG = ROOT / "lab/process/chiral16-same-row-disposition-wave.json"
+CARRIER_GRAVITY_REG = ROOT / "lab/process/carrier-gravity-row-disposition-wave.json"
 B3_REG = ROOT / "lab/process/fc-admission-wave-and-first-b3-register.json"
 
 TERMINAL_OUTCOMES = {
@@ -34,6 +35,7 @@ def load_inputs() -> dict[str, object]:
         "method": json.loads(METHOD_REG.read_text()),
         "anchors": json.loads(ANCHOR_REG.read_text()),
         "chiral16": json.loads(CHIRAL16_REG.read_text()),
+        "carrier_gravity": json.loads(CARRIER_GRAVITY_REG.read_text()),
         "b3": json.loads(B3_REG.read_text()),
     }
 
@@ -53,9 +55,10 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     method = inputs["method"]
     anchors = inputs["anchors"]
     chiral16 = inputs["chiral16"]
+    carrier_gravity = inputs["carrier_gravity"]
     b3 = inputs["b3"]
     assert all(isinstance(value, dict)
-               for value in (ledger, register, method, anchors, chiral16, b3))
+               for value in (ledger, register, method, anchors, chiral16, carrier_gravity, b3))
 
     ledger_ids = [row.get("id") for row in ledger.get("rows", [])]
     denominator_groups = register.get("row_denominator_by_ledger_verdict", {})
@@ -87,20 +90,38 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     anchor_rows = {row.get("row_id"): row for row in anchors.get("dispositions", [])}
     anchor_fc = {row.get("row_id"): row for row in anchors.get("fitting_constructions", [])}
     chiral_rows = {row.get("row_id"): row for row in chiral16.get("terminal_rows", [])}
+    carrier_gravity_rows = {
+        row.get("row_id"): row for row in carrier_gravity.get("terminal_rows", [])
+    }
+    carrier_gravity_fc = {
+        row_id: row
+        for construction in carrier_gravity.get("fitting_constructions", [])
+        for row_id in construction.get("rows", [])
+        for row in [construction]
+    }
     for row in terminal_rows:
         row_id = row.get("row_id")
-        evidence_row = anchor_rows.get(row_id) or chiral_rows.get(row_id, {})
+        evidence_row = (anchor_rows.get(row_id) or chiral_rows.get(row_id)
+                        or carrier_gravity_rows.get(row_id, {}))
         check(bool(evidence_row), f"terminal row evidence resolves: {row_id}")
         check(row.get("bucket") == evidence_row.get("bucket"),
               f"terminal bucket matches evidence: {row_id}")
         if row.get("terminal_outcome") == "FITTING_CONSTRUCTION":
-            check(row.get("construction_id") == anchor_fc.get(row_id, {}).get("id"),
+            evidence_fc = anchor_fc.get(row_id) or carrier_gravity_fc.get(row_id, {})
+            check(row.get("construction_id") == evidence_fc.get("id"),
                   f"fitting construction matches evidence: {row_id}")
         if row_id in chiral_rows:
             check(row.get("terminal_outcome") == evidence_row.get("terminal_outcome"),
                   f"chiral-16 terminal outcome matches evidence: {row_id}")
             check(row.get("named_requirements") == evidence_row.get("named_requirements"),
                   f"chiral-16 requirements match evidence: {row_id}")
+        if row_id in carrier_gravity_rows:
+            check(row.get("terminal_outcome") == evidence_row.get("terminal_outcome"),
+                  f"carrier/gravity terminal outcome matches evidence: {row_id}")
+            for field in ("construction_id", "named_requirements", "impossibility_id"):
+                if field in evidence_row:
+                    check(row.get(field) == evidence_row.get(field),
+                          f"carrier/gravity {field} matches evidence: {row_id}")
 
     sub = register.get("b3_subdispositions", {})
     completed = sub.get("completed", [])

@@ -2,11 +2,23 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-23"
+updated_at: "2026-08-24"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Carrier/gravity disposition wave, 2026-08-24.** Eleven additional rows are
+terminal without ledger movement. `RA-A7` and `RA-B7`--`RA-B9` bank the exact
+R4 fitting construction `FC-REP-OBSERVED-NORMAL-WEYL16-1`; `LT-GR5` banks the
+source-owned moving augmented-torsion carrier at R5 as
+`FC-GR-MOVING-AUGMENTED-TORSION-1`. `RA-D3` precisely excludes the
+same-chirality scalar channel in total dimension fourteen, while `LT-GR2a`
+precisely excludes only the fixed-`Lambda g`/variable-field identification.
+`RA-C1`, `LT-GR1b`, `LT-GR3` and `LT-GR6` carry exact B2 named requirements.
+The live register now has 25 terminal and 66 open rows;
+`exhausted=false`, `b2_selectable=false`, and ledger v0.263 is byte-identical.
+See `explorations/conditional-build/carrier-gravity-row-disposition-wave-2026-08-24.md`.
 
 **First SAME-row FC audit, 2026-08-23.** Eleven rows sharing the selected-
 chiral-16 dependency now have exact B2 terminal dispositions. `RA-A3` and

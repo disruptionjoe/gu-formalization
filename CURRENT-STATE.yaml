@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 74fa1e5a4899b0692cc2393e51c9019914bc3c1e
+revision_basis: 6bf9f87ac8c7ca185236f6b69911a8901fe6ca1f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The carrier/gravity disposition wave terminally disposes eleven additional
+    rows. RA-A7 and RA-B7 through RA-B9 are banked at B1 as
+    FC-REP-OBSERVED-NORMAL-WEYL16-1; LT-GR5 is banked at B1 as
+    FC-GR-MOVING-AUGMENTED-TORSION-1. RA-D3 precisely excludes only a
+    same-chirality scalar bilinear in total dimension fourteen, and LT-GR2a
+    precisely excludes identifying a fixed literal Lambda-g comparator with
+    the source's variable connection-distortion field. RA-C1, LT-GR1b,
+    LT-GR3 and LT-GR6 now carry exact B2 named requirements for their still-
+    missing stabilizer, induced-gravity, boundary and Hilbert/domain owners.
+    The live register has 25 terminal and 66 open rows; ledger v0.263 remains
+    byte-identical and exhausted=false / b2_selectable=false. No scientific
+    verdict, source owner, prediction, confirmation, canon or public posture
+    moves.
     The first genuine SAME-row FC audit terminally disposes eleven rows sharing
     the selected-chiral-16 dependency. RA-A3 and RA-B1 through RA-B5 are exact
     B2 named requirements for one action-selected G_SM-shaped vacuum
@@ -2846,6 +2859,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/carrier-gravity-row-disposition-wave-2026-08-24.md
+    - lab/process/carrier-gravity-row-disposition-wave.json
+    - tests/channel-swings/carrier_gravity_row_disposition_wave_probe.py
     - explorations/conditional-build/cbrs1-n2-n6-counterexample-and-question-correction-2026-08-23.md
     - lab/process/cbrs1-n2-n6-counterexample-and-question-correction.json
     - tests/channel-swings/cbrs1_n2_n6_counterexample_and_question_correction_probe.py
@@ -3175,22 +3191,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  All six filed B3 source subdispositions are now citation-time complete and
-  parent-linked. They remain literature dispositions, not fitting
-  constructions or terminal row outcomes. The first genuine SAME-row audit
-  has now terminally disposed RA-A3, RA-B1 through RA-B5 and AC-D1 through
-  AC-D5 at exact B2 named requirements, with the anomaly-selector shortcut
-  precisely impossible only in its frozen conventional arena. The live
-  register has 14 terminal rows and 77 open rows, so exhausted=false and
-  b2_selectable=false. Rebuild the substantial frontier from the remaining
-  open denominator: audit the strongest remaining SAME row through FC-1 to
-  FC-7, audit the strongest DIFFERS row for a source-native B4 route or typed
-  precise impossibility, and split mixed rows before classification. Do not
-  repeat the eleven disposed SAME rows or six B3 packets, and do not execute
-  their B2 requirements while the derived gate is false.
+  The carrier/gravity wave banks two fitting constructions and two bounded
+  precise impossibilities while naming the missing owners on four other rows.
+  Together with prior dispositions, the live register has 25 terminal rows
+  and 66 open rows; exhausted=false and b2_selectable=false. Rebuild the
+  substantial frontier from the remaining denominator. The strongest live
+  candidates are the source-native-versus-comparator Higgs/mass DIFFERS class,
+  the remaining anomaly/global SAME class, and mixed RA-F2 generation-
+  replication scope. Audit each through FC-1--FC-7, a typed precise
+  impossibility, or a parent-linked split. Do not repeat the carrier, gravity,
+  chiral-16 or B3 packets, and do not execute any named B2 owner while the
+  derived gate is false.
   Phenomenology exhaustion is now a computed gate, not a prose presumption.
   The v0.1 live register covers all 91 ledger v0.263 rows exactly once, with
-  fourteen evidence-backed terminal rows and 77 open rows; exhausted=false and
+  twenty-five evidence-backed terminal rows and 66 open rows; exhausted=false and
   b2_selectable=false. Do not infer B1 from SAME, B2 from NEEDS, B4 or precise
   impossibility from DIFFERS, or row closure from a B3 subdisposition. A new
   ledger version invalidates the register until explicit digest rebase. The
