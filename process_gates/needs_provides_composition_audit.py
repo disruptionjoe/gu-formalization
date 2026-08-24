@@ -156,12 +156,15 @@ INFRA_STOP = {
 # Status/verdict vocabulary in CAPS-hyphen shape.  These type statements;
 # they do not name objects.  Explicit, printable, extendable only here.
 STOP_K3 = {
-    "AUTHOR-STATED", "CURRENT-STATE", "DONE-ELSEWHERE", "GU-COMPARATOR-ROUTING",
+    "AUTHOR-STATED", "CLEARED-CONSISTENT", "CURRENT-STATE", "DONE-ELSEWHERE",
+    "GU-COMPARATOR-ROUTING", "HALF-SAME",
     "LIVE-CHECK", "LIVE-GAP", "LIVE-HYGIENE", "NEVER-BUILT", "NEXT-STEPS",
-    "NONE-NOT-A-KILL", "NOT-DETERMINED", "OUT-OF-SCOPE", "PATH-DRIFT",
+    "LIVE-HIGH", "NATIVE-VACUUM", "NONE-NOT-A-KILL", "NOT-DETERMINED",
+    "OUT-OF-SCOPE", "PATH-DRIFT",
     "README", "REQUIRES-UNKNOWN", "ROUTE-KILLED", "SOURCE-CONFIRMED",
     "SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-DENIES", "SOURCE-EXACT",
-    "SOURCE-OPEN", "SOURCE-SILENT", "TYPE-MISSING", "UNDER-DETERMINED",
+    "SECTOR-SUPPLIED", "SOURCE-OPEN", "SOURCE-SILENT", "TYPE-MISSING",
+    "UNDER-DETERMINED",
     "UTF-8", "WRONG-TYPE",
 }
 # Status vocabulary is CAPS WORDS joined by underscores (MISSING_CONSTRUCTION,
@@ -428,7 +431,7 @@ UNTYPED = "UNTYPED"
 ADJUDICATED: dict[str, tuple[str, str]] = {
     # ================= TIER 1 (35 pairs) =================
     "ART:lab/active-research/joe-directed/baryon-number-and-proton-decay/bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md::SU(3,2)": (
-        LIVE_CANDIDATE,
+        ALREADY_COMPOSED,
         "CP-1 2026-08-17 adjudication (supersedes the FX-1 introduction note; "
         "dated-note mechanism per this file's header): CONSISTENT, no "
         "amendment owed on either side.  The presupposition sits in CI-X04 "
@@ -444,11 +447,11 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         "k/p partition): composition/cp1-three-live-pairs-adjudicated-"
         "2026-08-17.md section 5.  BD-1 (08-14) is frozen and predates SC-A "
         "(08-15); the ledger has no surface for this pair, so NO DELTA IS "
-        "OWED ANYWHERE.  Type stays LIVE_CANDIDATE only because the FX-1 "
-        "probe's C6 pins the introduction counts/set by equality and is not "
-        "CP-1's to edit; the FX-1 owner should flip this entry to "
-        "ALREADY_COMPOSED (composed-by-adjudication) at the next C6 refresh "
-        "and preserve this note.",
+        "OWED ANYWHERE.  Historical lifecycle note: the type stayed "
+        "LIVE_CANDIDATE only because the old FX-1 probe pinned the introduction "
+        "counts/set by equality; CP-1 instructed the FX-1 owner to flip it to "
+        "ALREADY_COMPOSED (composed-by-adjudication); this 2026-08-24 C6 "
+        "refresh applies that instruction and preserves the note.",
     ),
     "ART:lab/active-research/joe-directed/high-energy-two-plus-one/cb4-h210-fixed-versus-comoving-ps-typing-2026-08-16.md::V_10": (
         UNTYPED,
@@ -587,18 +590,6 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         ALREADY_COMPOSED,
         "SA-1 explicitly declines to decide this fork (its NOT list); "
         "Spin(1,3) is the shared observation-chain token",
-    ),
-    "LEDGER:LT-SM1::zeta_F": (
-        SUPERSEDED,
-        "IM-1 2026-08-17: LT-SM1 is row_status SUPERSEDED in v0.259 (LA-7's "
-        "split executed at the mint: successors LT-SM1a/LT-SM1b), so this "
-        "pair no longer derives; superseded per this file's header rule, row "
-        "kept.  Successor pair LEDGER:LT-SM1a::zeta_F is adjudicated below.  "
-        "Original note (2026-08-16, preserved): LT-SM7 exists in v0.258, "
-        "i.e. LA-7's banked split WAS executed; the current row is the "
-        "post-split row even though its evidence string still cites cb-b "
-        "rather than LA-7 — that reading conflated the SM7 grade move with "
-        "the SM1 split; the split actually landed at v0.259.",
     ),
     "LEDGER:LT-SM1a::zeta_F": (
         ALREADY_COMPOSED,
@@ -854,6 +845,78 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         UNTYPED,
         "program-wide token (23 providers); the row's photon-kernel need is "
         "not what the lines supply",
+    ),
+    # ================= 2026-08-24 LIFECYCLE REFRESH (20 pairs) =============
+    "ART:lab/active-research/joe-directed/bit1-price/bp2-nonuniform-corner-decoupling-owner-census-2026-08-20.md::M_3": (
+        UNTYPED,
+        "M_3 is a program-wide carrier token with eleven provider files; the "
+        "sample does not identify the corner-decoupling owner BP-2 requires.",
+    ),
+    "ART:lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md::I_N": (
+        UNTYPED,
+        "the matched provider uses I_N in a different derivation context; no "
+        "typed bridge to GB-1's missing arrow is recorded.",
+    ),
+    "ART:lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md::beta_S": (
+        UNTYPED,
+        "beta_S is non-discriminating across nine provider files and none is "
+        "typed as GB-1's missing grading bridge.",
+    ),
+    "ART:lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md::eta_V": (
+        UNTYPED,
+        "eta_V has several unrelated providers; token equality does not type "
+        "the bridge arrow GB-1 asks for.",
+    ),
+    "ART:lab/active-research/joe-directed/lens-digs/lda-sg4-bit2-type-and-transport-2026-08-17.md::R(y)": (
+        UNTYPED,
+        "R(y) occurs in distinct selection and control constructions; no "
+        "receipted object identity joins them.",
+    ),
+    "ART:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md::Cl(14)": (
+        ALREADY_COMPOSED,
+        "CT-3 R2 activation resolves both TR-1 and its MP-1 provider to the "
+        "same model-grade C4 carrier. This is carrier-level composition only; "
+        "it does not promote the selection/transport parity result.",
+    ),
+    "ART:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md::Cl(9,5)": (
+        ALREADY_COMPOSED,
+        "VZ-5 cites the settled Cl(9,5) carrier lineage; this is composition "
+        "evidence only and does not discharge its subprincipal gate.",
+    ),
+    "ART:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md::II_s": (
+        ALREADY_COMPOSED,
+        "VZ-5 cites the II_s lineage it consumes; composed-by-citation does "
+        "not promote the still-scoped subprincipal result.",
+    ),
+    "LEDGER:AC-D1::SU(3)": (UNTYPED, "conventional-comparator context with UNTYPED layer/carrier; generic SU(3) providers are not source-native supply."),
+    "LEDGER:AC-D2::SU(2)": (UNTYPED, "conventional-comparator context; generic SU(2) token matches do not discharge the anomaly row."),
+    "LEDGER:AC-D2::U(1)": (UNTYPED, "conventional-comparator context; U(1) is non-discriminating program-wide vocabulary."),
+    "LEDGER:AC-D2::n_L": (UNTYPED, "the row context leaves carrier UNTYPED; a cited n_L occurrence is not a typed supplier."),
+    "LEDGER:AC-D3::SU(3)": (UNTYPED, "the SU(3)^2 U(1) comparator is not joined to source-native supply by group-token equality."),
+    "LEDGER:AC-D3::U(1)": (UNTYPED, "the conventional comparator context leaves the U(1) token without a typed supplier identity."),
+    "LEDGER:AC-D4::U(1)": (UNTYPED, "the conventional U(1)^3 comparator is not supplied by a generic U(1) occurrence."),
+    "LEDGER:AC-D4::n_L": (UNTYPED, "the row context leaves carrier UNTYPED; n_L token coincidence is insufficient."),
+    "LEDGER:AC-D5::U(1)": (UNTYPED, "the mixed-anomaly comparator is not source-native supply; group-token coincidence is insufficient."),
+    "LEDGER:AC-D5::n_L": (UNTYPED, "the row context leaves carrier UNTYPED; n_L token coincidence is insufficient."),
+    "LEDGER:LT-GR9::E_s^theta": (
+        ALREADY_COMPOSED,
+        "LT-GR9 cites W225/W236 lineage carrying E_s^theta; the citation "
+        "supplies benchmark machinery only and leaves NEEDS intact.",
+    ),
+    "LEDGER:LT-GR9::alpha_W": (
+        ALREADY_COMPOSED,
+        "LT-GR9 cites W225 and the alpha_W route; composition is evidence "
+        "availability, not a selected observed-gravity construction.",
+    ),
+}
+
+# Historical adjudications whose need sites have been superseded stay as
+# lifecycle evidence without polluting the live exact-key partition.
+RETIRED_ADJUDICATIONS: dict[str, tuple[str, str]] = {
+    "LEDGER:LT-SM1::zeta_F": (
+        SUPERSEDED,
+        "Retired 2026-08-24: LT-SM1 has row_status SUPERSEDED since v0.259; "
+        "the live successor LEDGER:LT-SM1a::zeta_F remains above.",
     ),
 }
 

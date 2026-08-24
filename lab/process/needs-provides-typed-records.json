@@ -42,9 +42,9 @@
       "measured_at_mint": "22 blocks across 15 files when the extraction was first measured; 28 across 20 at close of build the same day (the frontier moves as sibling channels adopt the FX-2 block)"
     },
     "R2_ledger_context": {
-      "available": false,
-      "description": "CT-2's per-row `context` projection. CT-2 landed its schema on the same day (lab/process/conditional-physics-ledger-schema-v0.2.json, $defs.context: the required (layer, grant, carrier) triple, whose codomains are CT-1's own object ids -- L* for the Source-Layer axis, G* for the Grant poset, C* for the Carrier axis) and scoped the obligation to ledger version v0.260 ONWARD, deliberately not retro-filling existing ledgers. So this source is specified and still empty: the latest ledger lab/process/conditional-physics-ledger-v0.259.json carries no `context` key on any of its 87 rows. The gate re-measures that every run and reds if rows gain the field while this flag still reads false, which is the signal to re-mint these records against the new axis. The carrier slot's codomain is identical to this file's `dom` codomain, so no adapter is needed when it arrives.",
-      "measured_at_mint": "0 of 87 rows in v0.259; schema for v0.260+ present as of CT-2, 2026-08-17"
+      "available": true,
+      "description": "CT-2's per-row `context` projection is live. For each non-superseded row, FX-1 still derives the exact need keys from distance plus revival_trigger; CT-3 maps a single Carrier-axis C* object to dom. Mixed carrier lists, absent carriers and markers remain UNTYPED because CT-1 defines no product carrier. The rule never creates a key and therefore cannot manufacture a join.",
+      "measured_at_mint": "25 of 91 rows in ledger v0.263 carry context at the 2026-08-24 R2 activation; exact need-record coverage is re-derived and checked on every run"
     },
     "R3_prose_tokens": {
       "available": true,
@@ -110,6 +110,54 @@
   "dom_aliases": [],
   "records": [
     {
+      "key": "ARROW-DIES",
+      "dom": "C3",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target:         the register item's five-way fork (ARROW-PAID / ARROW-DIES"
+      }
+    },
+    {
+      "key": "ARROW-PAID",
+      "dom": "C3",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target:         the register item's five-way fork (ARROW-PAID / ARROW-DIES"
+      }
+    },
+    {
+      "key": "A_hit",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/b5-krein-probability-positivity-discriminator-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/b5-krein-probability-positivity-discriminator-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: marked line C[u] inside ker K_hit over closure im A_hit, controlled by the real Witt plane span(v,w) in the U1 boundary quotient LAYER=ambient CHIRALITY=S-FULL-DIRAC"
+      }
+    },
+    {
+      "key": "C^(32,32)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:RA-E3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"RA-E3\""
+      }
+    },
+    {
       "key": "C_x",
       "dom": "C8",
       "cod": "UNTYPED",
@@ -119,6 +167,30 @@
         "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
         "rule": "fx2-block-named-carrier-carrier",
         "quote": "carrier: so(1,3)_endo and so(1,3)_H, both subalgebras of so(7,7) = Lambda^2 C_x"
+      }
+    },
+    {
+      "key": "Cl(14)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        (i) explicit Cl(14) gammas on C^128 (Pauli Kronecker"
+      }
+    },
+    {
+      "key": "Cl(14)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "contrast witnessed on the carrier's own Cl(14) fiber algebra"
       }
     },
     {
@@ -134,6 +206,138 @@
       }
     },
     {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "homomorphism",
+      "source_file": "explorations/conditional-build/selected-k151-moving-distortion-pairing-adjoint-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k151-moving-distortion-pairing-adjoint-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: LAYER=ambient CHIRALITY=N/A Omega1(Cl(7,7)) selected 56-packet"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "homomorphism",
+      "source_file": "explorations/conditional-build/selected-k152-curved-metric-bridge-2026-08-20.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k152-curved-metric-bridge-2026-08-20.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: LAYER=ambient CHIRALITY=N/A real symmetric horizontal metric 10-packet to Omega1(Cl(7,7)) 112-packet"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "homomorphism",
+      "source_file": "explorations/conditional-build/selected-k153-null-fivefold-first-lower-2026-08-20.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k153-null-fivefold-first-lower-2026-08-20.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: LAYER=ambient CHIRALITY=N/A metric 10-packet through a closed Omega1(Cl(7,7)) 448-packet"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "homomorphism",
+      "source_file": "explorations/conditional-build/selected-k154-null-fivefold-second-lower-2026-08-20.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k154-null-fivefold-second-lower-2026-08-20.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: LAYER=ambient CHIRALITY=N/A metric 10-packet through a closed Omega1(Cl(7,7)) 448-packet"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "homomorphism",
+      "source_file": "explorations/conditional-build/selected-k155-null-fivefold-third-lower-2026-08-20.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k155-null-fivefold-third-lower-2026-08-20.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: LAYER=ambient CHIRALITY=N/A metric 10-packet through a closed Omega1(Cl(7,7)) 448-packet"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1l-broken-symmetry-tangent-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1l-broken-symmetry-tangent-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: all real Omega1-valued Cl(7,7) T coefficients plus independent Spin-grade-two connection coefficients at four Q(sqrt15) points LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1n-j4-complete-tangent-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1n-j4-complete-tangent-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: all real Omega1-valued Cl(7,7) T coefficients plus independent Spin-grade-two connection coefficients at four radical J4 points LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1o-j4-aligned-hessian-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1o-j4-aligned-hessian-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: all real Omega1-valued Cl(7,7) T coefficients plus independent Spin-grade-two connection coefficients at four radical J4 points LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1p-j4-component-ranks-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1p-j4-component-ranks-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: all real Omega1-valued Cl(7,7) T coefficients plus independent Spin-grade-two connection coefficients at four radical J4 points LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "homomorphism",
+      "source_file": "lab/process/hostile-reviews/2026-08-20-selected-k154-null-fivefold-second-lower-review.md",
+      "receipt": {
+        "site": "FILE:lab/process/hostile-reviews/2026-08-20-selected-k154-null-fivefold-second-lower-review.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: LAYER=ambient CHIRALITY=N/A metric 10-packet through a closed Omega1(Cl(7,7)) 448-packet"
+      }
+    },
+    {
+      "key": "Cl(7,7)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "homomorphism",
+      "source_file": "lab/process/hostile-reviews/2026-08-20-selected-k155-null-fivefold-third-lower-review.md",
+      "receipt": {
+        "site": "FILE:lab/process/hostile-reviews/2026-08-20-selected-k155-null-fivefold-third-lower-review.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: LAYER=ambient CHIRALITY=N/A metric 10-packet through a closed Omega1(Cl(7,7)) 448-packet"
+      }
+    },
+    {
       "key": "D(m)",
       "dom": "C4",
       "cod": "UNTYPED",
@@ -146,6 +350,54 @@
       }
     },
     {
+      "key": "D(m)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        (i) D(m) = sigma_1 (x) P + m M (x) I on C^2 (x) C^24, the"
+      }
+    },
+    {
+      "key": "DIRECTION-SUPPLY",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target:         GB1-SIGMA2-DIRECTION-SUPPLY (register:270-276): does the"
+      }
+    },
+    {
+      "key": "D_2",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "carrier:        the branched corner under D_7 > D_2 x D_5 (Spin(1,3) x"
+      }
+    },
+    {
+      "key": "D_5",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "carrier:        the branched corner under D_7 > D_2 x D_5 (Spin(1,3) x"
+      }
+    },
+    {
       "key": "D_7",
       "dom": "UNTYPED",
       "cod": "UNTYPED",
@@ -155,6 +407,138 @@
         "site": "FILE:lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md",
         "rule": "fx2-block-conflict",
         "quote": "carrier: the 192-dim self-dual SU(2)+ top-Casimir stratum of ker(Gamma) inside V (x) S at D_7 (LAYER=ambient, CHIRALITY=S-FULL-DIRAC)"
+      }
+    },
+    {
+      "key": "D_7",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "carrier:        the branched corner under D_7 > D_2 x D_5 (Spin(1,3) x"
+      }
+    },
+    {
+      "key": "D_7",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "Omega^1(S_±) at complexified D_7 with zeta_± = S_∓(64) (+)"
+      }
+    },
+    {
+      "key": "D_7",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "Omega^1(S_±) at complexified D_7, with zeta_± = S_∓(64) (+)"
+      }
+    },
+    {
+      "key": "D_A",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:LT-SM8",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"LT-SM8\""
+      }
+    },
+    {
+      "key": "D_U",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/b5-strict-massless-extension-dependence-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/b5-strict-massless-extension-dependence-2026-08-21.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: comparison of global operator kernels for two closed D_U domains at M=0 MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "E_act",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:RA-E3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"RA-E3\""
+      }
+    },
+    {
+      "key": "E_s^theta",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:LT-GR9",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"LT-GR9\""
+      }
+    },
+    {
+      "key": "End(Delta)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14 is the source's"
+      }
+    },
+    {
+      "key": "End(Delta)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14 content, operator"
+      }
+    },
+    {
+      "key": "End(Delta)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14"
+      }
+    },
+    {
+      "key": "End(Delta)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = 2(Lambda^0 (+) ... (+) Lambda^6) (+)"
       }
     },
     {
@@ -194,6 +578,162 @@
       }
     },
     {
+      "key": "I_4",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/d4-contraction-rank-is-j-independent-2026-08-23.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/d4-contraction-rank-is-j-independent-2026-08-23.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: D = [I_4 ; J] as a 14x4 real matrix and the induced map on Sym^2 LAYER=typing CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "J_x",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "contraction",
+      "source_file": "explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
+        "rule": "fx2-block-mixed-layer-carrier",
+        "quote": "carrier: s:X4->Y14 with ds_x:T_xX->T_s(x)Y and J_x=d(g_ab)_x; D=[I4;J] has rank four LAYER=ambient+observed BRIDGE=section-contraction CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "K77_positive7_plus_negative7_split_span{gamma_i",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1k-signature-split-point-class-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1k-signature-split-point-class-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: K77_positive7_plus_negative7_split_span{gamma_i,gamma_i_Omega} inside real u(64,64) point coefficients LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "K_hit",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/b5-krein-probability-positivity-discriminator-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/b5-krein-probability-positivity-discriminator-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: marked line C[u] inside ker K_hit over closure im A_hit, controlled by the real Witt plane span(v,w) in the U1 boundary quotient LAYER=ambient CHIRALITY=S-FULL-DIRAC"
+      }
+    },
+    {
+      "key": "L^2(R)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        D = sigma_1 (x) p + m(y) M(phi) on C^2 (x) L^2(R), the"
+      }
+    },
+    {
+      "key": "L^2(R)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        D = sigma_1 (x) p + M (x) m(y) on C^2 (x) L^2(R), the"
+      }
+    },
+    {
+      "key": "L^2(R)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/wall-bill/wb1-crossing-is-a-sector-datum-r-cannot-supply-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/wall-bill/wb1-crossing-is-a-sector-datum-r-cannot-supply-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "sigma_3 m(y) on C^2 (x) L^2(R) with m = y_Yuk phi (chain 2)"
+      }
+    },
+    {
+      "key": "Lambda1(V)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: real Spin(9,5) W_odd=Lambda1(V) direct-sum Lambda3(V), V=R(9,5), together with the existing primitive bivector epsilon in Lambda2(V) LAYER=toy CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Lambda1(V)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: CBRS-1X four real Grassmann-even coframe and mirror scalars plus the alternative Spin-saturated real Clifford-odd Lambda1(V) direct-sum Lambda3(V) carrier over V=R(9,5) LAYER=toy CHIRALITY=N/"
+      }
+    },
+    {
+      "key": "Lambda2(V)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: real Spin(9,5) W_odd=Lambda1(V) direct-sum Lambda3(V), V=R(9,5), together with the existing primitive bivector epsilon in Lambda2(V) LAYER=toy CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Lambda3(V)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: real Spin(9,5) W_odd=Lambda1(V) direct-sum Lambda3(V), V=R(9,5), together with the existing primitive bivector epsilon in Lambda2(V) LAYER=toy CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Lambda3(V)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: CBRS-1X four real Grassmann-even coframe and mirror scalars plus the alternative Spin-saturated real Clifford-odd Lambda1(V) direct-sum Lambda3(V) carrier over V=R(9,5) LAYER=toy CHIRALITY=N/"
+      }
+    },
+    {
+      "key": "M(phi)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "mass direction M(phi) = cos(phi) sigma_3 + sin(phi) sigma_2,"
+      }
+    },
+    {
       "key": "M(xi)",
       "dom": "C4",
       "cod": "UNTYPED",
@@ -203,6 +743,126 @@
         "site": "FILE:lab/active-research/joe-directed/vz-repair/vz5-ii-s-subprincipal-2026-08-17.md",
         "rule": "fx2-block-layer-carrier",
         "quote": "carrier:        det(M(xi)+K), a scalar polynomial on T*X^4; M(xi)=xi_mu"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1r-condensate-mass-owner-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1r-condensate-mass-owner-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: body stationarity complete field-plus-condensate Hessian and intrinsic MET(X) row MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1s-scalar-first-jet-metric-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1s-scalar-first-jet-metric-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: real formal two-jet body stationarity complete Hessian symbol and full intrinsic MET(X) tensor MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1t-minimal-lorentz-coframe-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1t-minimal-lorentz-coframe-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: real pointwise formal two-jet body stationarity complete fixed-metric Hessian symbol gauge quotient and full intrinsic MET(X) tensor MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1v-spin-connection-orbit-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1v-spin-connection-orbit-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: simultaneous T connection primitive-epsilon scalar and intrinsic MET(X) local Euler completion MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1w-dilaton-momentum-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1w-dilaton-momentum-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: simultaneous T connection primitive-epsilon coframe compensator and intrinsic MET(X) local Euler completion MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1x-indefinite-mirror-multiplet-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1x-indefinite-mirror-multiplet-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: simultaneous T connection primitive-epsilon coframe mirror-multiplet and intrinsic MET(X) unit-body plus local homothetic Euler completion MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1y-radial-sigma-metric-target-blindness-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1y-radial-sigma-metric-target-blindness-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: simultaneous T connection primitive-epsilon Phi Psi and intrinsic MET(X) local Euler completion with a pre-density sigma metric MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "MET(X)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "target: target-blind admission of a complete local primitive and intrinsic MET(X) owner before solving MAP-TYPE=evaluation"
+      }
+    },
+    {
+      "key": "M_2",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "rebuilt; (iii) M_2(C) with Gamma = sigma_3 (GB-1's wall-circle"
+      }
+    },
+    {
+      "key": "M_plus",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "inclusion",
+      "source_file": "explorations/b5-flat-product-minimal-domain-2026-08-20.md",
+      "receipt": {
+        "site": "FILE:explorations/b5-flat-product-minimal-domain-2026-08-20.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: L2 sections of U0 plus U1 with fibre ranks 128 plus 1792 over M_plus=[0,infinity) times T13 LAYER=ambient CHIRALITY=S-FULL-DIRAC"
       }
     },
     {
@@ -230,6 +890,90 @@
       }
     },
     {
+      "key": "Omega1_base_tensor_span{B_s_gamma01",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1d-coupled-grade2-connection-jet-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1d-coupled-grade2-connection-jet-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor_span{B_s_gamma01,T_s_gamma01} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega1_base_tensor_span{d_a",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1-one-axis-first-jet-rigidity-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1-one-axis-first-jet-rigidity-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor_span{d_a,d_b,i1,gamma1_offdiag} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega1_base_tensor{Spin_grade2_connection",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1e-complete-grade2-incidence-census-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1e-complete-grade2-incidence-census-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{Spin_grade2_connection plus real_Cl77_grade2_T} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega1_base_tensor{Spin_grade2_connection",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{Spin_grade2_connection plus real_Cl77_grade2_T plus i_real_Cl77_grade3_T} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega1_base_tensor{Spin_grade2_connection",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1g-whole-grade-frontier-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1g-whole-grade-frontier-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{Spin_grade2_connection plus real_u6464_T_all_Clifford_grades} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega1_base_tensor{real_u6464_T_all_Clifford_grades",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1j-complete-tangent-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1j-complete-tangent-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{real_u6464_T_all_Clifford_grades plus independent_real_Spin_grade2_connection} at both CBRS1I null points LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega^0(adP)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "result:         the parity dichotomy at the four-corner declared total: every"
+      }
+    },
+    {
       "key": "Omega^1(S)",
       "dom": "C1",
       "cod": "UNTYPED",
@@ -239,6 +983,30 @@
         "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
         "rule": "prose-token",
         "quote": "carrier: Omega^1(S) LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Omega^1(adP)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "result:         the parity dichotomy at the four-corner declared total: every"
+      }
+    },
+    {
+      "key": "Omega^1(adP)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "result:         pi_0 of the native varpi vacuum set is trivial in every live"
       }
     },
     {
@@ -278,6 +1046,102 @@
       }
     },
     {
+      "key": "Q(192)",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "restriction",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "Spin(6,4) complexified): zeta_+ = Q(192) (+) 2F(2x64) (+) Z(576),"
+      }
+    },
+    {
+      "key": "Q(sqrt15)",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1l-broken-symmetry-tangent-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1l-broken-symmetry-tangent-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: all real Omega1-valued Cl(7,7) T coefficients plus independent Spin-grade-two connection coefficients at four Q(sqrt15) points LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Q_B",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:RA-E3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"RA-E3\""
+      }
+    },
+    {
+      "key": "Q_u",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:RA-E3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"RA-E3\""
+      }
+    },
+    {
+      "key": "Q_{3",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-mixed-layer-carrier",
+        "quote": "(iii) Q_{3/2}, the 4d spin-3/2 sector, dim 192, whose internal"
+      }
+    },
+    {
+      "key": "R(9,5)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: real Spin(9,5) W_odd=Lambda1(V) direct-sum Lambda3(V), V=R(9,5), together with the existing primitive bivector epsilon in Lambda2(V) LAYER=toy CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "R(9,5)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1z-equivariant-sigma-odd-owner-admission-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: CBRS-1X four real Grassmann-even coframe and mirror scalars plus the alternative Spin-saturated real Clifford-odd Lambda1(V) direct-sum Lambda3(V) carrier over V=R(9,5) LAYER=toy CHIRALITY=N/"
+      }
+    },
+    {
+      "key": "R(y)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "target:         whether the R(y) transition locus can host the"
+      }
+    },
+    {
       "key": "S(nu)",
       "dom": "C1",
       "cod": "UNTYPED",
@@ -287,6 +1151,18 @@
         "site": "FILE:lab/active-research/joe-directed/z3-receptacle/z3r1-nu-trivial-w-untwisted-2026-08-17.md",
         "rule": "fx2-block-layer-target",
         "quote": "induced branch selector for the mod-3 homology of S(nu)"
+      }
+    },
+    {
+      "key": "SIGNATURE-AMBIENT",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "halves on both SIGNATURE-AMBIENT horns; plus the su(2)"
       }
     },
     {
@@ -314,6 +1190,42 @@
       }
     },
     {
+      "key": "SU(2)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D2",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D2\""
+      }
+    },
+    {
+      "key": "SU(3)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D1",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D1\""
+      }
+    },
+    {
+      "key": "SU(3)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D3\""
+      }
+    },
+    {
       "key": "SU(4)",
       "dom": "C1",
       "cod": "UNTYPED",
@@ -338,6 +1250,102 @@
       }
     },
     {
+      "key": "Spin(1,3)",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/carrier-gravity-row-disposition-wave-2026-08-24.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/carrier-gravity-row-disposition-wave-2026-08-24.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: observed Spin(1,3) x Spin(6,4) image with one complex normal-bundle Weyl 16; moving K77 augmented-torsion carrier; literal Lambda-g and post-Shiab controls LAYER=observed CHIRALITY=S-CHIRALIT"
+      }
+    },
+    {
+      "key": "Spin(1,3)",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "restriction",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        the branched corner under D_7 > D_2 x D_5 (Spin(1,3) x"
+      }
+    },
+    {
+      "key": "Spin(10)",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/chiral16-same-row-disposition-wave-2026-08-23.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/chiral16-same-row-disposition-wave-2026-08-23.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: complex Spin(10) Weyl 16 and its six signed Standard-Model constituent multiplicities LAYER=observed CHIRALITY=S-CHIRALITY-UNTYPED"
+      }
+    },
+    {
+      "key": "Spin(6,4)",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/carrier-gravity-row-disposition-wave-2026-08-24.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/carrier-gravity-row-disposition-wave-2026-08-24.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: observed Spin(1,3) x Spin(6,4) image with one complex normal-bundle Weyl 16; moving K77 augmented-torsion carrier; literal Lambda-g and post-Shiab controls LAYER=observed CHIRALITY=S-CHIRALIT"
+      }
+    },
+    {
+      "key": "Spin(6,4)",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "restriction",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "Spin(6,4) complexified): zeta_+ = Q(192) (+) 2F(2x64) (+) Z(576),"
+      }
+    },
+    {
+      "key": "Spin(7,7)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: filed real Spin(9,5) W_odd=Lambda1(V_95) direct-sum Lambda3(V_95) versus the selected real Spin(7,7) distortion T_77 in V_77 dual tensor Lambda2(V_77); horn-native control W_odd_77=Lambda1(V_"
+      }
+    },
+    {
+      "key": "Spin(9,5)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: real Spin(9,5) W_odd=Lambda1(V) direct-sum Lambda3(V), V=R(9,5), together with the existing primitive bivector epsilon in Lambda2(V) LAYER=toy CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Spin(9,5)",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: filed real Spin(9,5) W_odd=Lambda1(V_95) direct-sum Lambda3(V_95) versus the selected real Spin(7,7) distortion T_77 in V_77 dual tensor Lambda2(V_77); horn-native control W_odd_77=Lambda1(V_"
+      }
+    },
+    {
       "key": "Spin_0",
       "dom": "C10",
       "cod": "C10",
@@ -347,6 +1355,54 @@
         "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
         "rule": "fx2-block-named-carrier-target",
         "quote": "target: ad(P_H)_{u(64,64)} as a Spin_0(1,3)-associated bundle via r~_C MAP-TYPE=homomorphism"
+      }
+    },
+    {
+      "key": "Spin_equivariant_span{gamma_i",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1i-chiral-null-point-class-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1i-chiral-null-point-class-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Spin_equivariant_span{gamma_i,gamma_i_Omega} inside real u(64,64) point coefficients with volume sign not observed chirality LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "Sum_k",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14 is the source's"
+      }
+    },
+    {
+      "key": "Sum_k",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14 content, operator"
+      }
+    },
+    {
+      "key": "Sum_k",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14"
       }
     },
     {
@@ -386,6 +1442,114 @@
       }
     },
     {
+      "key": "TYPED-TARGET-VEV-ORIENTATION-WALL",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+        "rule": "fx2-block-layer-target",
+        "quote": "TYPED-TARGET-VEV-ORIENTATION-WALL-R-STEERED"
+      }
+    },
+    {
+      "key": "T_77",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: filed real Spin(9,5) W_odd=Lambda1(V_95) direct-sum Lambda3(V_95) versus the selected real Spin(7,7) distortion T_77 in V_77 dual tensor Lambda2(V_77); horn-native control W_odd_77=Lambda1(V_"
+      }
+    },
+    {
+      "key": "T_s",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "contraction",
+      "source_file": "explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
+        "rule": "fx2-block-mixed-layer-carrier",
+        "quote": "carrier: s:X4->Y14 with ds_x:T_xX->T_s(x)Y and J_x=d(g_ab)_x; D=[I4;J] has rank four LAYER=ambient+observed BRIDGE=section-contraction CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "T_s_gamma01}",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1d-coupled-grade2-connection-jet-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1d-coupled-grade2-connection-jet-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor_span{B_s_gamma01,T_s_gamma01} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "T_xX",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "contraction",
+      "source_file": "explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
+        "rule": "fx2-block-mixed-layer-carrier",
+        "quote": "carrier: s:X4->Y14 with ds_x:T_xX->T_s(x)Y and J_x=d(g_ab)_x; D=[I4;J] has rank four LAYER=ambient+observed BRIDGE=section-contraction CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "U(1)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D2",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D2\""
+      }
+    },
+    {
+      "key": "U(1)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D3\""
+      }
+    },
+    {
+      "key": "U(1)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D4",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D4\""
+      }
+    },
+    {
+      "key": "U(1)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D5",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D5\""
+      }
+    },
+    {
       "key": "U(3)",
       "dom": "C1",
       "cod": "UNTYPED",
@@ -395,6 +1559,18 @@
         "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
         "rule": "fx2-block-layer-target",
         "quote": "target: S(U(3)xU(2)) as successive structure-group reductions of the one rank-10 bundle,"
+      }
+    },
+    {
+      "key": "U(64,64)",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:RA-E3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"RA-E3\""
       }
     },
     {
@@ -410,6 +1586,102 @@
       }
     },
     {
+      "key": "V_10",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "target:         the so(10) `120` = Lambda^3(V_10), the unique Lorentz-scalar"
+      }
+    },
+    {
+      "key": "V_10*",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/wall-bill/pv1-pi0-trivial-in-every-live-typing-w1-kill-fires-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "Lambda^5, V_10* (x) Lambda^1), and the ambient Lambda^7"
+      }
+    },
+    {
+      "key": "V_14",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier:        the Clifford fiber algebra of V_14 acting on Delta = C^128"
+      }
+    },
+    {
+      "key": "V_14",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-conflict",
+        "quote": "carrier:        zeta_+- = Omega^1(S_+-) = V_14 (x) S_+- , dim 896, REDUCIBLE as"
+      }
+    },
+    {
+      "key": "V_14",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/mp1-composites-inherit-one-horn-never-both-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14 content, operator"
+      }
+    },
+    {
+      "key": "V_14",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/spectral-transport/tr1-transport-and-selection-are-opposite-parities-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "ad P = End(Delta) = Sum_k Lambda^k V_14"
+      }
+    },
+    {
+      "key": "V_77",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: filed real Spin(9,5) W_odd=Lambda1(V_95) direct-sum Lambda3(V_95) versus the selected real Spin(7,7) distortion T_77 in V_77 dual tensor Lambda2(V_77); horn-native control W_odd_77=Lambda1(V_"
+      }
+    },
+    {
+      "key": "V_95",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: filed real Spin(9,5) W_odd=Lambda1(V_95) direct-sum Lambda3(V_95) versus the selected real Spin(7,7) distortion T_77 in V_77 dual tensor Lambda2(V_77); horn-native control W_odd_77=Lambda1(V_"
+      }
+    },
+    {
       "key": "V_PSB",
       "dom": "C1",
       "cod": "UNTYPED",
@@ -419,6 +1691,42 @@
         "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
         "rule": "fx2-block-layer-carrier",
         "quote": "carrier: V_PSB = (10bar,1,3) = Sym^2(A^*) tensor Sym^2(C) under G_PS = SU(4) x SU(2)_L x"
+      }
+    },
+    {
+      "key": "W_odd",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1aa-covariant-odd-momentum-operator-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: real Spin(9,5) W_odd=Lambda1(V) direct-sum Lambda3(V), V=R(9,5), together with the existing primitive bivector epsilon in Lambda2(V) LAYER=toy CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "W_odd",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: filed real Spin(9,5) W_odd=Lambda1(V_95) direct-sum Lambda3(V_95) versus the selected real Spin(7,7) distortion T_77 in V_77 dual tensor Lambda2(V_77); horn-native control W_odd_77=Lambda1(V_"
+      }
+    },
+    {
+      "key": "W_odd_77",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1ab-action-owned-bf-normalization-obstruction-2026-08-22.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: filed real Spin(9,5) W_odd=Lambda1(V_95) direct-sum Lambda3(V_95) versus the selected real Spin(7,7) distortion T_77 in V_77 dual tensor Lambda2(V_77); horn-native control W_odd_77=Lambda1(V_"
       }
     },
     {
@@ -446,6 +1754,42 @@
       }
     },
     {
+      "key": "Z(576)",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "restriction",
+      "source_file": "lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/rs-corner/rsc1-unique-channel-lives-on-the-gamma-trace-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "Spin(6,4) complexified): zeta_+ = Q(192) (+) 2F(2x64) (+) Z(576),"
+      }
+    },
+    {
+      "key": "alpha_W",
+      "dom": "C2",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:LT-GR9",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"LT-GR9\""
+      }
+    },
+    {
+      "key": "beta_S",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "LD-B's Krein word beta_S = product of the spacelike gammas"
+      }
+    },
+    {
       "key": "g_A^{",
       "dom": "C3",
       "cod": "UNTYPED",
@@ -458,6 +1802,150 @@
       }
     },
     {
+      "key": "gamma_i_Omega}",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1i-chiral-null-point-class-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1i-chiral-null-point-class-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Spin_equivariant_span{gamma_i,gamma_i_Omega} inside real u(64,64) point coefficients with volume sign not observed chirality LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "gamma_i_Omega}",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1k-signature-split-point-class-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1k-signature-split-point-class-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: K77_positive7_plus_negative7_split_span{gamma_i,gamma_i_Omega} inside real u(64,64) point coefficients LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "i_real_Cl77_grade3_T}",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{Spin_grade2_connection plus real_Cl77_grade2_T plus i_real_Cl77_grade3_T} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "independent_real_Spin_grade2_connection}",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1j-complete-tangent-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1j-complete-tangent-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{real_u6464_T_all_Clifford_grades plus independent_real_Spin_grade2_connection} at both CBRS1I null points LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "n_L",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D2",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D2\""
+      }
+    },
+    {
+      "key": "n_L",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D4",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D4\""
+      }
+    },
+    {
+      "key": "n_L",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D5",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D5\""
+      }
+    },
+    {
+      "key": "n_Q",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D1",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D1\""
+      }
+    },
+    {
+      "key": "n_Q",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D2",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D2\""
+      }
+    },
+    {
+      "key": "n_Q",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D3",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D3\""
+      }
+    },
+    {
+      "key": "n_Q",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D4",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D4\""
+      }
+    },
+    {
+      "key": "n_Q",
+      "dom": "UNTYPED",
+      "cod": "UNTYPED",
+      "map_type": "UNTYPED",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
+      "receipt": {
+        "site": "LEDGER:AC-D5",
+        "rule": "ledger-context-carrier",
+        "quote": "\"id\": \"AC-D5\""
+      }
+    },
+    {
       "key": "pi_PSB",
       "dom": "C1",
       "cod": "UNTYPED",
@@ -467,6 +1955,42 @@
         "site": "FILE:lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md",
         "rule": "fx2-block-layer-target",
         "quote": "unsupplied source projection pi_PSB MAP-TYPE=UNTYPED"
+      }
+    },
+    {
+      "key": "real_Cl77_grade2_T",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1f-complete-grade3-extension-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{Spin_grade2_connection plus real_Cl77_grade2_T plus i_real_Cl77_grade3_T} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "real_Cl77_grade2_T}",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1e-complete-grade2-incidence-census-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1e-complete-grade2-incidence-census-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{Spin_grade2_connection plus real_Cl77_grade2_T} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
+      }
+    },
+    {
+      "key": "real_u6464_T_all_Clifford_grades}",
+      "dom": "C1",
+      "cod": "UNTYPED",
+      "map_type": "evaluation",
+      "source_file": "explorations/conditional-build/selected-k77-cbrs1g-whole-grade-frontier-2026-08-21.md",
+      "receipt": {
+        "site": "FILE:explorations/conditional-build/selected-k77-cbrs1g-whole-grade-frontier-2026-08-21.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "carrier: Omega1_base_tensor{Spin_grade2_connection plus real_u6464_T_all_Clifford_grades} at the K77 anisotropic point LAYER=ambient CHIRALITY=N/A"
       }
     },
     {
@@ -618,7 +2142,7 @@
       "dom": "HOM:v_PSB#1",
       "cod": "UNTYPED",
       "map_type": "UNTYPED",
-      "source_file": "lab/process/conditional-physics-ledger-v0.259.json",
+      "source_file": "lab/process/conditional-physics-ledger-v0.263.json",
       "receipt": {
         "site": "LEDGER:RA-A6",
         "rule": "homonym-sense-by-owning-file",
@@ -635,6 +2159,18 @@
         "site": "FILE:lab/active-research/joe-directed/carrier-decl/fx2-typed-carrier-declaration-2026-08-16.md",
         "rule": "fx2-block-named-carrier-carrier",
         "quote": "carrier: ad(P_H)_{u(64,64)}, with P_H = P_Fr~(C^{7,7}) x_{rho_D} H over Y = Met(X)"
+      }
+    },
+    {
+      "key": "y_Yuk",
+      "dom": "C4",
+      "cod": "UNTYPED",
+      "map_type": "not-a-map",
+      "source_file": "lab/active-research/joe-directed/wall-bill/wb1-crossing-is-a-sector-datum-r-cannot-supply-2026-08-17.md",
+      "receipt": {
+        "site": "FILE:lab/active-research/joe-directed/wall-bill/wb1-crossing-is-a-sector-datum-r-cannot-supply-2026-08-17.md",
+        "rule": "fx2-block-layer-carrier",
+        "quote": "sigma_3 m(y) on C^2 (x) L^2(R) with m = y_Yuk phi (chain 2)"
       }
     }
   ]

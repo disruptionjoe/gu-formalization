@@ -99,6 +99,9 @@ def main(selftest: bool = False) -> int:
     check("C2 SOLDERED-AD accepted", gate.tokens_of("the SOLDERED-AD fork"), {"SOLDERED-AD"})
     check("C2 status vocabulary rejected",
           gate.tokens_of("typed MISSING_CONSTRUCTION and BLOCKED_NEEDS_SPEC"), set())
+    check("C2 post-mint status/control vocabulary rejected",
+          gate.tokens_of("HALF-SAME NATIVE-VACUUM LIVE-HIGH "
+                         "CLEARED-CONSISTENT SECTOR-SUPPLIED"), set())
     check("C2 register/work-item IDs rejected",
           gate.tokens_of("see SC-GEO-07, LA-11 and M-H17"), set())
     check("C2 YAML field names rejected",
@@ -209,29 +212,27 @@ def main(selftest: bool = False) -> int:
         counts[typ] += 1
         if not note.strip():
             FAIL.append("C6 adjudication with empty note")
-    # C6 REFRESH, IM-1 2026-08-17 (introduction pins 63/4/42/17/0 fired by
-    # design at the v0.259 mint): +LEDGER:LT-SM1a::zeta_F (split successor,
-    # ALREADY_COMPOSED) and +sn4::X_R (sibling channel, UNTYPED) = 65;
-    # Y_C/Y_K/v_PSB re-typed ALREADY_COMPOSED per their own lifecycle notes;
-    # LT-SM1::zeta_F SUPERSEDED (row superseded in v0.259).  BD-1::SU(3,2)
-    # deliberately KEPT LIVE_CANDIDATE: its flip instruction belongs to this
-    # C6 refresh only together with its note's preservation, and no red of
-    # its own fired at the mint — the FX-1 owner may still flip it.
-    check("C6 adjudicated pairs after the v0.259 mint refresh", len(adjudicated), 65)
-    check("C6 LIVE_CANDIDATE count", counts["LIVE_CANDIDATE"], 1)
-    check("C6 ALREADY_COMPOSED count", counts["ALREADY_COMPOSED"], 45)
-    check("C6 UNTYPED count", counts["UNTYPED"], 18)
-    check("C6 SUPERSEDED count", counts["SUPERSEDED"], 1)
+    # C6 REFRESH, 2026-08-24: the post-v0.263 corpus has 84 live candidate
+    # pairs. Six status/control tokens are excluded by explicit grammar; the
+    # 20 remaining new scientific-token pairs are adjudicated from file facts.
+    # CP-1's instructed BD-1 flip is applied, and the superseded LT-SM1 pair
+    # moves to RETIRED_ADJUDICATIONS rather than remaining a stale live key.
+    check("C6 adjudicated live pairs after the v0.263 lifecycle refresh",
+          len(adjudicated), 84)
+    check("C6 LIVE_CANDIDATE count", counts["LIVE_CANDIDATE"], 0)
+    check("C6 ALREADY_COMPOSED count", counts["ALREADY_COMPOSED"], 51)
+    check("C6 UNTYPED count", counts["UNTYPED"], 33)
+    check("C6 SUPERSEDED live count", counts["SUPERSEDED"], 0)
+    check("C6 retired LT-SM1 lifecycle row preserved",
+          sorted(gate.RETIRED_ADJUDICATIONS), ["LEDGER:LT-SM1::zeta_F"])
     check("C6 ratchet baseline is zero and may only go down",
           gate.UNADJUDICATED_BASELINE, 0)
     gate_src = read("process_gates/needs_provides_composition_audit.py")
     check("C6 gate states the never-raise rule", "Never raise the baseline" in gate_src, True)
     live_ids = sorted(pid for pid, (typ, _) in adjudicated.items()
                       if typ == "LIVE_CANDIDATE")
-    check("C6 the remaining LIVE pair is exactly the un-flipped BD-1 entry",
-          live_ids,
-          ["ART:lab/active-research/joe-directed/baryon-number-and-proton-decay/"
-           "bd1-b-violation-lives-only-in-the-removed-coset-2026-08-14.md::SU(3,2)"])
+    check("C6 no live pair remains after exact lifecycle adjudication",
+          live_ids, [])
 
     print("== C7  register partition (the typing authority; if it moves, re-type) ==")
     reg = read("lab/sources/source-claim-register.yaml")

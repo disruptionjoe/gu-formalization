@@ -75,10 +75,11 @@ THE RULES (checked, in precedence order; most specific wins):
       gate will not invent one (the thirteenth-object rule).  A key typed by
       two blocks of one file with conflicting doms is UNTYPED
       (fx2-block-conflict) -- declared, not adjudicated.
-  R2  ledger-context -- RESERVED and CURRENTLY EMPTY.  CT-2 has not landed;
-      lab/process/conditional-physics-ledger-v0.259.json rows carry no
-      `context` field (87 rows, checked every run).  Stated rather than
-      implied, per the FX-2/CT-1 house rule about unpopulated vocabulary.
+  R2  ledger-context -- latest-ledger rows carrying CT-2's required context
+      triple.  The Carrier-axis slot is this gate's need-side `dom`: one C*
+      object is copied exactly; a mixed carrier list or marker remains
+      UNTYPED because CT-1 defines no product carrier.  Keys still derive
+      from FX-1's exact need text, so context cannot manufacture a join.
   R3  prose-token -- explicit `LAYER=` / `MAP-TYPE=` tokens in prose outside
       any fenced block.
 
@@ -478,6 +479,27 @@ def extract_records(sidecar: dict, ref: dict) -> list[dict]:
     # law: a bare registered token FAILS to name an object.  Marker M4.
     unresolved_homonyms = {t for t in register_tokens if t not in discs}
 
+    # ---- R2: ledger context carrier ---------------------------------------
+    # CT-2's context triple is now populated in the latest ledger.  The
+    # Carrier-axis object is the typed join's need-side domain.  Lists remain
+    # UNTYPED because CT-1 deliberately defines no product carrier object.
+    if MUTATE != "ledger-context-blind":
+        for row in ledger["rows"]:
+            if row.get("row_status") == "SUPERSEDED" or "context" not in row:
+                continue
+            need_text = (f"{row.get('distance') or ''} ; "
+                         f"{row.get('revival_trigger') or ''}")
+            carrier = row["context"].get("carrier", "UNTYPED")
+            dom = carrier if isinstance(carrier, str) else "UNTYPED"
+            if dom not in ref["object_ids"]:
+                dom = "UNTYPED"
+            for key in sorted(FX1.tokens_of(need_text)):
+                kdom = ("HOMONYM-AMBIGUOUS"
+                        if key in unresolved_homonyms else dom)
+                add(key, kdom, "UNTYPED", "UNTYPED", ledger_rel,
+                    f"LEDGER:{row['id']}", "ledger-context-carrier",
+                    f'"id": "{row["id"]}"')
+
     # ---- R1: FX-2 typed-object blocks -------------------------------------
     for rel, text in md.items():
         parsed = blocks_of(text)
@@ -671,8 +693,9 @@ def vpsb_acceptance(records: list[dict], sidecar: dict) -> dict:
 # Audit
 # ---------------------------------------------------------------------------
 REQUIRED_RECORD_KEYS = {"key", "dom", "cod", "map_type", "source_file", "receipt"}
-RECORD_FLOOR = 20          # measured at mint: 33; never raise to go green
-TYPED_PAIR_FLOOR = 1       # the v_PSB verified pair; never lower to go green
+RECORD_FLOOR = 172         # R2 activation mint; never lower to go green
+TYPED_PAIR_FLOOR = 2       # v_PSB plus the R2-backed Cl(14) join
+TYPED_NEED_FLOOR = 4       # need-side domains made exact at R2 activation
 
 
 def run_audit() -> tuple[list[str], list[str]]:
@@ -834,16 +857,29 @@ def run_audit() -> tuple[list[str], list[str]]:
             if not path.is_file() or receipt["must_contain"] not in read(path):
                 fail(f"dom_alias {entry.get('class')}: receipt not live")
 
-    # --- G. R2 is declared empty, and that is CHECKED ----------------------
+    # --- G. R2 ledger-context coverage -------------------------------------
     ledger_rel = FX1.latest_ledger_path()
     ledger = json.loads(read(ROOT / ledger_rel))
     with_context = [r["id"] for r in ledger["rows"] if "context" in r]
     r2 = sidecar.get("sources", {}).get("R2_ledger_context", {})
-    if with_context and not r2.get("available", True):
-        fail(f"R2 declared unavailable but {len(with_context)} ledger rows now "
-             f"carry `context` ({ledger_rel}) -- re-extract and re-mint")
+    if with_context and not r2.get("available", False):
+        fail(f"R2 remains unavailable although {len(with_context)} ledger rows "
+             f"carry `context` ({ledger_rel})")
+    expected_r2: set[tuple[str, str]] = set()
+    for row in ledger["rows"]:
+        if row.get("row_status") == "SUPERSEDED" or "context" not in row:
+            continue
+        need_text = (f"{row.get('distance') or ''} ; "
+                     f"{row.get('revival_trigger') or ''}")
+        for key in FX1.tokens_of(need_text):
+            expected_r2.add((f"LEDGER:{row['id']}", key))
+    missing_r2 = sorted(expected_r2 - set(live_index))
+    if missing_r2:
+        fail(f"R2 failed to derive {len(missing_r2)} context-bearing need "
+             f"record(s), first: {missing_r2[:3]}")
     report.append(f"  R2 ledger-context: {len(with_context)} of "
-                  f"{len(ledger['rows'])} rows carry `context` in {ledger_rel}")
+                  f"{len(ledger['rows'])} rows carry `context`; "
+                  f"{len(expected_r2)} exact need records covered in {ledger_rel}")
 
     # --- H. the typed join, run on the live corpus ------------------------
     joined = typed_join(records, sidecar)
@@ -872,6 +908,9 @@ def run_audit() -> tuple[list[str], list[str]]:
     if v + rj < TYPED_PAIR_FLOOR:
         fail(f"typed join decided {v + rj} edges, below the mint floor "
              f"{TYPED_PAIR_FLOOR}: the typed layer has gone inert")
+    if joined["need_typed"] < TYPED_NEED_FLOOR:
+        fail(f"typed join carries {joined['need_typed']} typed need sides, "
+             f"below the R2 activation floor {TYPED_NEED_FLOOR}")
 
     # --- I. THE ACCEPTANCE TEST -------------------------------------------
     acc = vpsb_acceptance(records, sidecar)
@@ -952,7 +991,7 @@ MUTATIONS = (
     "ref-gone", "ref-layer-drift", "ref-object-row-blind", "register-gone",
     "sidecar-forged-dom", "sidecar-forged-alias", "sidecar-quote-drift",
     "discriminator-not-disjoint", "sense-collapse", "block-fence-blind",
-    "maptype-blind", "fx1-consumption",
+    "maptype-blind", "ledger-context-blind", "fx1-consumption",
 )
 
 
