@@ -222,12 +222,139 @@ items:
     status: DONE
     activation: "receipt: b1p1 -- direction corrected with dated marker, old string quoted not deleted; CT-1 probe 99/99 with zero pin refreshes by construction"
     next_check: "2026-08-24"
+  - id: UR-BIT2-CRITICAL
+    title: Reconcile the exact R(y) zero locus with the strictly-positive bit-2 threshold, or preserve the source-internal tension explicitly
+    origin: LD-A card 12, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: source-claim register owner for SC-CHI-01, SC-CHI-02 and SC-CHI-52
+    status: QUEUED
+    activation: >-
+      Next source-register touch on this three-claim family. This source-reading
+      question precedes UR-BIT2-STRATUM: decide whether the source names an exact
+      locus or a positive interval, or retain both as an unresolved tension. It
+      resolves no physical phase and selects no SG4 bit.
+    next_check: "2026-08-25"
+  - id: UR-BIT2-STRATUM
+    title: Type or explicitly exclude the partially decoupled SG4 bit-2 stratum
+    origin: LD-A card 1, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: SG4 / gu-forces declaration owner
+    status: QUEUED
+    activation: >-
+      After UR-BIT2-CRITICAL is resolved or explicitly preserved, decide whether
+      the source's "drops sufficiently" wording creates an intermediate stratum.
+      If retained, type the two currently absent VERTEX cells; if excluded,
+      record the source-grounded reason. This is a typing decision, not a phase
+      diagram or bit verdict.
+    next_check: "2026-08-25"
+  - id: UR-BIT2-PROVENANCE
+    title: Declare the source-imported provenance of the two-value PHASE cardinality
+    origin: LD-A card 11, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: SG4 / gu-forces declaration owner
+    status: QUEUED
+    activation: >-
+      Same coherent declaration touch as UR-BIT2-STRATUM. Mark |PHASE|=2 as
+      source-imported rather than measured and correct any relay that attributes
+      the cardinality to SG-1. No computed bit, consistency corner or scientific
+      verdict may move.
+    next_check: "2026-08-25"
+  - id: UR-INSERTION-DIRECTION-STRATIFICATION
+    title: Complete the below-irrep insertion-direction stratification on the declared bosonic slots
+    origin: LD-B card 3, 2026-08-17; narrowed against the completed 2026-08-24 invariant-gapping campaign
+    owner: Lane-1 conditional-build owner jointly with the ad-P shrinkage-fork owner
+    status: QUEUED
+    activation: >-
+      Reopen only on a new real-structure, action, component, domain or
+      gauge-orbit input. The completed invariant-gapping wave settles
+      complexified form rank for the named blind and pure-cross families; it
+      does not classify the full below-irrep rank strata or decide whether they
+      are gauge-distinguishable. No ledger row is attached.
+    next_check: "2026-08-31"
+  - id: BD-D-FERMIONIC-DISANALOGY
+    title: Record why the BD-D one-factor no-go does not transport to the gamma-traceless V tensor S carrier
+    origin: LD-B card 4 separate proposal, 2026-08-17; canon nullity half completed independently
+    owner: BD-D boundary owner jointly with the fermionic Krein-sector owner
+    status: QUEUED
+    activation: >-
+      Next citation or reuse of BD-D against the fermionic sector. Record that
+      Spin acts diagonally on V tensor S and ker(Gamma) is not U tensor S, so
+      the one-tensor-factor hypothesis is absent. This is a scope fence and
+      does not establish positivity, chirality selection or a physical sector.
+    next_check: "2026-08-31"
+  - id: CHK2-SETTLED-HORN-MATCHING
+    title: Execute settled-horn 't Hooft matching across the decoupling, or expose the retired-horn ceiling
+    origin: LD-B card 8, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: decoupling-packet owner
+    status: QUEUED
+    activation: >-
+      When an action-owned settled-horn UV/IR carrier and decoupling map exist,
+      run the packet's named CHK-2. Until then, every matching summary must state
+      that W224 is horn-stale and granted dynamical sufficiency. The vectorlike
+      UV fact does not supply the missing IR construction.
+    next_check: "2026-08-31"
+  - id: SG4-BUILT-ACTION-SELF-CONSISTENCY
+    title: Type the SG4 phase as a self-consistency solution at built-action grade
+    origin: LD-C card 10, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: Lane-1 conditional-build owner jointly with the SG4 declaration owner
+    status: QUEUED
+    activation: >-
+      Any admitted action containing the printed varpi-linear fermion cells must
+      include the fermion-sourced varpi Euler equation and solve phase selection
+      self-consistently. C5's free-modulus posture remains scoped to GU-as-stated
+      grade. BD-2 is comparator-adjacent evidence only; BD-1's condensation
+      criterion remains untyped.
+    next_check: "2026-08-31"
+  - id: SG4-OBSERVED-EPOCH-BINNING
+    title: Declare how the small-nonzero observed regime maps, or does not map, to the binary bit-2 axis
+    origin: LD-C card 17 residue, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: SG4 declaration owner jointly with the observed-layer routing owner
+    status: QUEUED
+    activation: >-
+      Fork-shaped independent review before the next observed-epoch bit-2
+      statement. Either define the CHIRAL bin to include the decreased/small-
+      nonzero regime conditionally on the unconstructed identification, or rule
+      the binary inadmissible as an observed-value carrier and use the continuous
+      modulus. Reconcile ST-1 section 6 with SCUR-1 row 6; this register row does
+      not choose the fork.
+    next_check: "2026-08-31"
+  - id: SG4-BIT-2-RECONCILIATION
+    title: Enroll SG4 bit 2 in the existing over-determined reconciliation protocol
+    origin: LD-D card 15, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: SG4 axis owner, referred to the integration owner
+    status: QUEUED
+    activation: >-
+      Before any artifact claims bit 2 resolved, preserve the two distinct
+      questions: Lane 1 selects a stationary phase, while SC-CHI-01 states a
+      condition on that phase. Conflict means only an action-owned stationary
+      vacuum with varpi VEV significantly above zero. On that event file an
+      over_determined_escalations entry under the standing four dispositions;
+      prose disagreement or hedge strength alone is not conflict.
+    next_check: "2026-08-25"
+  - id: SG4-BIT-2-SOURCE-SILENCE-FALLBACK
+    title: Retype the three G6 rows only after permanent source silence and construction blockage are both proved
+    origin: LD-D card 19, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
+    owner: integration owner on referral from the SG4 axis
+    status: QUEUED
+    activation: >-
+      Requires receipts proving both that the source declines phase selection
+      and that the named construction route is register-tracked as blocked.
+      Only then may LT-GR2d, RA-G3 and AC-F1 retype to
+      SOURCE_DECLARED_OPEN__NO_MECHANISM_SUPPLIED with mandatory debt notes.
+      EXTERNAL_DATUM is forbidden because it would invent a discharge route.
+    next_check: "2026-08-31"
   - id: LENS-DIG-REMAINING-PROPOSALS
     title: "The LIVE-MODERATE proposals across all four dig artifacts (stratum, provenance, critical-location tension, opposite-binning convention, CHK-2 scheduling, R5 obligation, OVER_DETERMINED entry, grade-boundary typing) — each carded in its artifact section (v)"
     origin: lda/ldb/ldc/ldd 2026-08-17, per-card tables
-    owner: joe-directed channels; adjudicated cards are the detailed home
-    status: QUEUED
-    activation: RS-WAVE-SERIES scoping reads the four card tables
+    owner: upgrade-register integration owner; detailed rows retain their native owners
+    status: DONE
+    activation: >-
+      receipt: lens-dig-proposal-integration-2026-08-24.md. The complete census
+      found nineteen distinct proposal residues: ten surviving proposals are
+      now first-class rows above, and nine later-completed proposals resolve
+      through UR-BIT2-TRANSPORT, UR-BIT2-BASE, CANON-NULLITY-SCOPE,
+      DISCHARGE-ORDER-NONMONOTONE, RSC1-R5-RESCOPE,
+      SRC-SCCHI-COUPLING-RULE, B1P1-PROPOSED-DIFFS / its 2026-08-24 owner
+      integration, BIT1-PRICE-PRINT and SG4-BIT2-FORK-ENTRY. This closes only
+      dropped-commitment registration; none of the ten queued questions is
+      scientifically adjudicated.
     next_check: "2026-08-24"
   - id: B1P1-PROPOSED-DIFFS
     title: "Carry B1P-1's three status-inert RA-D4/RA-D2/AC-F1 annotations into the next coherent ledger mint"
