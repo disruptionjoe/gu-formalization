@@ -7,6 +7,16 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## DS1 blind-row invariant-form rank (2026-08-24)
+
+`generation-sector/ds1-blindrow-form-rank-2026-08-24.md` closes the exact
+form-rank census left by DS1 and MP1-S7. The `Lambda1/Lambda5` all-three-block
+families have generic trace/cross/RS ranks `64/128/832`; a single shared
+generic direction with diagonal channels included reaches full rank 896 over
+two independent prime fields. This removes the pure-cross O2 ceiling at
+complexified form grade only. The real adjoint, action coefficient, selected
+direction, kinetic domain and physical spectrum remain open.
+
 ## MP1 seven-insertion sufficiency gate (2026-08-24)
 
 `generation-sector/mp1-seven-insertion-sufficiency-2026-08-24.md` closes the
