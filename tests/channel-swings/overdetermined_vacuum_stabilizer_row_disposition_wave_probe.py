@@ -103,10 +103,6 @@ def evaluate(reg: dict, live: dict, report: str, ledger_bytes: bytes) -> list[st
         errors.append("live register terminal_rows fell below proved wave floor")
     if exhausted.get("open_rows", 92) > 23:
         errors.append("live register open_rows rose above proved wave ceiling")
-    for key, value in {"exhausted": False, "b2_selectable": False}.items():
-        if exhausted.get(key) != value:
-            errors.append(f"live register {key} mismatch")
-
     required_report = [
         "GU-COMPARATOR-ROUTING",
         "Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`",

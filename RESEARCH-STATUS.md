@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Residual phenomenology disposition and exhaustion wave, 2026-08-24.** The
+final eleven open rows now have terminal evidence without ledger movement or
+B2 owner execution. Ten rows name exact external-scale, Yang--Mills horn,
+branching/normalization, forward-cosmology, QCD-topological, Jacobson bridge,
+settled-K77 twisted-bordism and framed/String count-detector owners.
+Superseded `LT-SM1` precisely excludes only treating its discrete horn and
+real branching-dependent normalization as one finite-choice object. The live
+register now has 91 terminal and 0 open rows and derives `exhausted=true`,
+`b2_selectable=true`; ledger v0.263 remains byte-identical. This gate movement
+permits a later B2 construction Run but proves no B2 requirement. See
+`explorations/conditional-build/residual-phenomenology-disposition-exhaustion-wave-2026-08-24.md`.
+
 **Physical-quotient and corrected Higgs-owner disposition wave, 2026-08-24.**
 Twelve additional NEEDS rows now have terminal evidence without ledger
 movement. Nine rows name one shared stationary K77 background, interacting

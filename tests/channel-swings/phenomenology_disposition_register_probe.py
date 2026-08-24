@@ -22,6 +22,7 @@ DAI_FREED_SAME_COHORT_REG = ROOT / "lab/process/dai-freed-same-cohort-row-dispos
 DIFFERS_COHORT_REG = ROOT / "lab/process/differs-cohort-row-disposition-wave.json"
 OVERDETERMINED_VACUUM_REG = ROOT / "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json"
 PHYSICAL_QUOTIENT_HIGGS_REG = ROOT / "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json"
+RESIDUAL_EXHAUSTION_REG = ROOT / "lab/process/residual-phenomenology-disposition-exhaustion-wave.json"
 B3_REG = ROOT / "lab/process/fc-admission-wave-and-first-b3-register.json"
 
 TERMINAL_OUTCOMES = {
@@ -46,6 +47,7 @@ def load_inputs() -> dict[str, object]:
         "differs_cohort": json.loads(DIFFERS_COHORT_REG.read_text()),
         "overdetermined_vacuum": json.loads(OVERDETERMINED_VACUUM_REG.read_text()),
         "physical_quotient_higgs": json.loads(PHYSICAL_QUOTIENT_HIGGS_REG.read_text()),
+        "residual_exhaustion": json.loads(RESIDUAL_EXHAUSTION_REG.read_text()),
         "b3": json.loads(B3_REG.read_text()),
     }
 
@@ -71,11 +73,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     differs_cohort = inputs["differs_cohort"]
     overdetermined_vacuum = inputs["overdetermined_vacuum"]
     physical_quotient_higgs = inputs["physical_quotient_higgs"]
+    residual_exhaustion = inputs["residual_exhaustion"]
     b3 = inputs["b3"]
     assert all(isinstance(value, dict)
               for value in (ledger, register, method, anchors, chiral16, carrier_gravity,
                              higgs_anomaly_replication, dai_freed_same_cohort,
-                             overdetermined_vacuum, physical_quotient_higgs, b3))
+                             overdetermined_vacuum, physical_quotient_higgs,
+                             residual_exhaustion, b3))
     assert isinstance(differs_cohort, dict)
 
     ledger_ids = [row.get("id") for row in ledger.get("rows", [])]
@@ -147,6 +151,10 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         row.get("row_id"): row
         for row in physical_quotient_higgs.get("terminal_rows", [])
     }
+    residual_exhaustion_rows = {
+        row.get("row_id"): row
+        for row in residual_exhaustion.get("terminal_rows", [])
+    }
     for row in terminal_rows:
         row_id = row.get("row_id")
         evidence_row = (anchor_rows.get(row_id) or chiral_rows.get(row_id)
@@ -156,6 +164,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         evidence_row = evidence_row or differs_cohort_rows.get(row_id, {})
         evidence_row = evidence_row or overdetermined_vacuum_rows.get(row_id, {})
         evidence_row = evidence_row or physical_quotient_higgs_rows.get(row_id, {})
+        evidence_row = evidence_row or residual_exhaustion_rows.get(row_id, {})
         check(bool(evidence_row), f"terminal row evidence resolves: {row_id}")
         check(row.get("bucket") == evidence_row.get("bucket"),
               f"terminal bucket matches evidence: {row_id}")
@@ -212,6 +221,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
                 if field in evidence_row:
                     check(row.get(field) == evidence_row.get(field),
                           f"quotient/Higgs-owner {field} matches evidence: {row_id}")
+        if row_id in residual_exhaustion_rows:
+            check(row.get("terminal_outcome") == evidence_row.get("terminal_outcome"),
+                  f"residual/exhaustion outcome matches evidence: {row_id}")
+            for field in ("named_requirements", "impossibility_id"):
+                if field in evidence_row:
+                    check(row.get(field) == evidence_row.get(field),
+                          f"residual/exhaustion {field} matches evidence: {row_id}")
 
     sub = register.get("b3_subdispositions", {})
     completed = sub.get("completed", [])
@@ -317,8 +333,8 @@ def selftest() -> int:
     mutations.append(("ledger-stale", "ledger digest is current", changed))
 
     changed = copy.deepcopy(baseline)
-    changed["register"]["exhaustion_evaluation"]["exhausted"] = True
-    mutations.append(("false-exhaustion", "exhaustion state is derived", changed))
+    changed["register"]["exhaustion_evaluation"]["exhausted"] = False
+    mutations.append(("gate-inversion", "exhaustion state is derived", changed))
 
     changed = copy.deepcopy(baseline)
     changed["register"]["b3_subdispositions"]["completed"][0]["scope_effect"] = "ROW_TERMINAL"

@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "residual_phenomenology_disposition_exhaustion_wave_registry",
+  "created": "2026-08-24",
+  "status": "TEN_NAMED_REQUIREMENTS__ONE_PRECISE_IMPOSSIBILITY__REGISTER_EXHAUSTED_TRUE",
+  "method_refs": [
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+    "lab/methods/source-native-comparator-routing.md"
+  ],
+  "ledger_basis": {
+    "path": "lab/process/conditional-physics-ledger-v0.263.json",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "source_evidence": {
+    "LT-GR2d": ["explorations/conditional-build/selected-k77-relative-boundary-p3-ko-interface-2026-08-10.md", "explorations/conditional-build/b3-cc-observation-scope-disposition-2026-08-23.md"],
+    "LT-GR2e": ["explorations/conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md", "explorations/conditional-build/b3-h0-observable-scope-disposition-2026-08-23.md", "explorations/conditional-build/b3-de-likelihood-scope-disposition-2026-08-23.md"],
+    "LT-GR7": ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"],
+    "LT-GR8": ["explorations/jacobson-k77-reverse-scaffold-benchmark-council-2026-08-21.md", "lab/sources/jacobson-gravitational-entropy-primary-pack-2026-08-21.md", "explorations/conditional-build/b3-j95-primary-scope-disposition-2026-08-23.md"],
+    "LT-SM1": ["explorations/lt-sm1-horn-surplus-attempt-2026-08-12.md", "lab/active-research/joe-directed/ledger-advancement/la7-lt-sm7-moves-t0-to-t2-and-the-lt-sm1-split-is-banked-2026-08-15.md", "lab/active-research/joe-directed/integration-mint/im1-two-movers-four-debts-and-three-adjudications-2026-08-17.md"],
+    "LT-SM1a": ["explorations/lt-sm1-horn-surplus-attempt-2026-08-12.md", "lab/active-research/joe-directed/ledger-advancement/la7-lt-sm7-moves-t0-to-t2-and-the-lt-sm1-split-is-banked-2026-08-15.md"],
+    "LT-SM1b": ["explorations/lt-sm1-horn-surplus-attempt-2026-08-12.md", "lab/active-research/joe-directed/integration-mint/im1-two-movers-four-debts-and-three-adjudications-2026-08-17.md"],
+    "LT-SM2": ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md"],
+    "LT-SM7": ["explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md", "lab/active-research/joe-directed/ledger-advancement/la7-lt-sm7-moves-t0-to-t2-and-the-lt-sm1-split-is-banked-2026-08-15.md", "explorations/conditional-build/b3-cp-observable-scope-disposition-2026-08-23.md"],
+    "AC-B2": ["explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md"],
+    "AC-F5": ["explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md", "explorations/framing-composite-mod3-2026-08-03.md"]
+  },
+  "terminal_rows": [
+    {"row_id":"LT-GR2d","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["COS-NORM-1","COS-NORM-2","COS-NORM-3"]},
+    {"row_id":"LT-GR2e","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["COS-FWD-1","COS-FWD-2","COS-FWD-3"]},
+    {"row_id":"LT-GR7","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["ABS-1"]},
+    {"row_id":"LT-GR8","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["JAC-1","JAC-2","JAC-3","JAC-4","JAC-5","JAC-6"]},
+    {"row_id":"LT-SM1","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-SUPERSEDED-SM1-UNSPLIT-1"},
+    {"row_id":"LT-SM1a","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["YM-HORN-1"]},
+    {"row_id":"LT-SM1b","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["YM-BRANCH-1","YM-NORM-1"]},
+    {"row_id":"LT-SM2","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["YM-BRANCH-1","YM-NORM-1","YM-THRESH-1"]},
+    {"row_id":"LT-SM7","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["TOP-1","TOP-2","TOP-3"]},
+    {"row_id":"AC-B2","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["BORD-1","BORD-2"]},
+    {"row_id":"AC-F5","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["CNT-1","CNT-2","CNT-3"]}
+  ],
+  "named_requirements": {
+    "ABS-1": {"owner":"EXTERNAL-SCALE+OWNER-A","object":"one declared external absolute scale and its dimensionally correct relation to the normalized source action, with no invariant, Ward or symmetry condition relabelled as its supplier"},
+    "YM-HORN-1": {"owner":"OWNER-A","object":"a source-action declaration and completeness proof selecting fundamental zeta_F=1, induced zeta_F=0, or a genuinely distinct third horn"},
+    "YM-BRANCH-1": {"owner":"OWNER-A+OWNER-D","object":"the operative K77-to-observed one-to-three gauge branching with representation, reality and normalization maps"},
+    "YM-NORM-1": {"owner":"OWNER-A","object":"the source-action-computed inverse-squared gauge normalization on the frozen branching"},
+    "YM-THRESH-1": {"owner":"OWNER-A+OWNER-D","object":"symmetry-breaking and threshold running from the frozen branching to the observed coupling triple"},
+    "COS-NORM-1": {"owner":"OWNER-A+EXTERNAL-SCALE","object":"a native or explicitly external normalized observer functional inserted into the selected action with fixed units"},
+    "COS-NORM-2": {"owner":"OWNER-A+OWNER-D","object":"the exact zero-mode Ward or constraint and vacuum-shift response on one common physical domain"},
+    "COS-NORM-3": {"owner":"OWNER-A+OWNER-D","object":"a radiatively stable magnitude map with sign and normalization propagated to observables"},
+    "COS-FWD-1": {"owner":"OWNER-A+OWNER-D","object":"an action-owned matter and radiation background plus perturbation solution with fixed initial data"},
+    "COS-FWD-2": {"owner":"OWNER-D","object":"sound horizon, CMB spectra and angle, BAO ratios and luminosity-distance observables derived from the same solution"},
+    "COS-FWD-3": {"owner":"OWNER-D+EXT-COSMO-BACKGROUND","object":"preregistered held-out evaluation against the named DESI, CMB, BAO and supernova likelihoods without retuning"},
+    "TOP-1": {"owner":"OWNER-D","object":"the operative reduction node and its physical degree-four topological basis"},
+    "TOP-2": {"owner":"OWNER-A","object":"the complete periodic angle vector and source-action coefficients on that node"},
+    "TOP-3": {"owner":"OWNER-A+OWNER-D+EXT-SM-STRUCTURE","object":"a descent or symmetry mechanism and hadronic observable map that fixes or suppresses the physical QCD angle"},
+    "JAC-1": {"owner":"OWNER-A+OWNER-D","object":"the typed K77 action and observation map to one observed 3+1 Lorentzian physical system"},
+    "JAC-2": {"owner":"OWNER-D","object":"a named causal boundary or local horizon and observable algebra"},
+    "JAC-3": {"owner":"OWNER-A+OWNER-D","object":"action-derived constraints, canonical or BFV reduction and physical state space"},
+    "JAC-4": {"owner":"OWNER-A+OWNER-D","object":"frozen entropy density, temperature or KMS state and stress-energy flux normalization"},
+    "JAC-5": {"owner":"OWNER-A+OWNER-D","object":"an equilibrium Clausius or explicit entropy-production law with resulting field equation and higher-curvature terms"},
+    "JAC-6": {"owner":"OWNER-D+EXT-J95","object":"one independently frozen held-out consequence evaluated without retuning"},
+    "BORD-1": {"owner":"OWNER-B+OWNER-D","object":"the operative settled-K77 boundary gauge group, full fermion content and corresponding real twist"},
+    "BORD-2": {"owner":"OWNER-B","object":"the exact reduced degree-fifteen Spin-bordism or eta calculation on that twist, with trivialization or nonzero obstruction stated"},
+    "CNT-1": {"owner":"EXTERNAL-P3+OWNER-D","object":"an actual nonzero framed or String corner or end object on the target geometry rather than an empty stable-homotopy slot"},
+    "CNT-2": {"owner":"EXTERNAL-P3+OWNER-D","object":"a typed nonzero f-invariant or other count detector with all framing and tangential-structure conventions fixed"},
+    "CNT-3": {"owner":"EXTERNAL-P3+OWNER-D","object":"a bridge from the detector output to an observed integer count paired with external P3, without identifying a torsion input class with the output integer"}
+  },
+  "precise_impossibilities": [
+    {
+      "id":"PI-SUPERSEDED-SM1-UNSPLIT-1",
+      "rows":["LT-SM1"],
+      "class":"treating the fundamental-versus-induced Yang--Mills horn and the unbuilt branching-dependent relative normalization as one finite-choice object",
+      "assumptions":["the horn variable zeta_F is discrete while the inverse-squared normalization is a real coefficient on a constructed one-to-three branching","the successor split LT-SM1a and LT-SM1b is retained"],
+      "witness":"horn cardinality and normalization have different types, different owners and different revival triggers; one finite-choice verdict cannot discharge both",
+      "escape":"use LT-SM1a for horn selection and LT-SM1b for branching plus relative normalization",
+      "resurrection_trigger":"a source theorem proving horn selection and relative normalization are the same typed datum on a built branching",
+      "target_claim":"NONE-NOT-A-KILL"
+    }
+  ],
+  "protected_effects": {
+    "ledger_verdict_change": false,
+    "source_ownership_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false,
+    "b2_owner_execution": false
+  },
+  "derived_gate_effect": {
+    "terminal_rows": 91,
+    "open_rows": 0,
+    "exhausted": true,
+    "b2_selectable": true,
+    "meaning": "all non-B2 disposition work is terminal; a later Run may select B2 construction after rebuilding the substantial frontier"
+  },
+  "result_ref": "explorations/conditional-build/residual-phenomenology-disposition-exhaustion-wave-2026-08-24.md",
+  "probe_ref": "tests/channel-swings/residual_phenomenology_disposition_exhaustion_wave_probe.py"
+}

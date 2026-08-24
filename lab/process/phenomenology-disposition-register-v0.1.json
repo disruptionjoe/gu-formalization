@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "artifact_type": "phenomenology_disposition_live_register",
   "created": "2026-08-23",
-  "status": "ROW_COMPLETE_DENOMINATOR__EIGHTY_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
+  "status": "ROW_COMPLETE_DENOMINATOR__NINETY_ONE_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_TRUE__B2_SELECTABLE_TRUE",
   "method_ref": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
-  "result_ref": "explorations/conditional-build/physical-quotient-higgs-owner-row-disposition-wave-2026-08-24.md",
+  "result_ref": "explorations/conditional-build/residual-phenomenology-disposition-exhaustion-wave-2026-08-24.md",
   "probe_ref": "tests/channel-swings/phenomenology_disposition_register_probe.py",
   "ledger_basis": {
     "path": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -592,14 +592,91 @@
       "terminal_outcome": "PRECISE_IMPOSSIBILITY",
       "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
       "impossibility_id": "PI-126-SINGLET-VEV-AS-NATIVE-MAJORANA-OWNER-1"
+    },
+    {
+      "row_id": "LT-GR2d",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["COS-NORM-1", "COS-NORM-2", "COS-NORM-3"]
+    },
+    {
+      "row_id": "LT-GR2e",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["COS-FWD-1", "COS-FWD-2", "COS-FWD-3"]
+    },
+    {
+      "row_id": "LT-GR7",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["ABS-1"]
+    },
+    {
+      "row_id": "LT-GR8",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["JAC-1", "JAC-2", "JAC-3", "JAC-4", "JAC-5", "JAC-6"]
+    },
+    {
+      "row_id": "LT-SM1",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "impossibility_id": "PI-SUPERSEDED-SM1-UNSPLIT-1"
+    },
+    {
+      "row_id": "LT-SM1a",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["YM-HORN-1"]
+    },
+    {
+      "row_id": "LT-SM1b",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["YM-BRANCH-1", "YM-NORM-1"]
+    },
+    {
+      "row_id": "LT-SM2",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["YM-BRANCH-1", "YM-NORM-1", "YM-THRESH-1"]
+    },
+    {
+      "row_id": "LT-SM7",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["TOP-1", "TOP-2", "TOP-3"]
+    },
+    {
+      "row_id": "AC-B2",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["BORD-1", "BORD-2"]
+    },
+    {
+      "row_id": "AC-F5",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/residual-phenomenology-disposition-exhaustion-wave.json",
+      "named_requirements": ["CNT-1", "CNT-2", "CNT-3"]
     }
   ],
   "open_row_cohorts": [
     {
       "ledger_verdict": "NEEDS",
-      "row_ids": ["LT-GR2d", "LT-GR2e", "LT-GR7", "LT-GR8", "LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM7", "AC-B2", "AC-F5"],
-      "required_next": "ONE_BUCKET_OR_PARENT_LINKED_SPLIT_WITH_TERMINAL_EVIDENCE",
-      "warning": "NEEDS does not itself prove a named B2 owner, an available B1 construction, a B3 tension, or a B4 source route"
+      "row_ids": [],
+      "required_next": "COHORT_TERMINAL__B2_REQUIREMENTS_NAMED__SUPERSEDED_PARENT_TYPED",
+      "warning": "The ledger NEEDS labels remain unchanged; terminality comes only from linked exact requirements and bounded evidence"
     },
     {
       "ledger_verdict": "DIFFERS",
@@ -662,28 +739,25 @@
     "exact_row_coverage": true,
     "split_unit_parentage": true,
     "denominator_rows": 91,
-    "terminal_rows": 80,
-    "open_rows": 11,
+    "terminal_rows": 91,
+    "open_rows": 0,
     "completed_b3_subdispositions": 6,
     "pending_b3_subdispositions": 0,
-    "all_rows_terminal": false,
+    "all_rows_terminal": true,
     "all_required_split_units_terminal": true,
-    "exhausted": false,
-    "b2_selectable": false,
-    "failed_predicates": [
-      "eleven ledger rows lack terminal disposition evidence",
-      "completed B3 subdispositions do not terminate LT-GR8, LT-GR2d, LT-GR2e or LT-SM7; RA-B6 and linked RA-G3 close separately through their own exact terminal evidence"
-    ]
+    "exhausted": true,
+    "b2_selectable": true,
+    "failed_predicates": []
   },
   "selection_consequence": {
-    "current_result": "B1/B3/B4 exhaustion is computable and false; eighty rows are terminal after the shared physical-quotient/domain/index packet banks nine exact named requirements and the corrected Higgs/Yukawa/Majorana packet banks three bounded precise impossibilities",
+    "current_result": "B1/B3/B4 exhaustion is computable and true; all ninety-one rows are terminal after the residual normalization, corrected cosmology, theta, thermodynamic, twisted-bordism and external-count packet banks ten exact named requirements and one bounded precise impossibility",
     "next_disposition_frontier": [
-      "split and disposition the residual normalization and gauge-coupling cohort without defaulting every row to B2",
-      "audit the remaining cosmology and theta rows at their already corrected external-evidence scope",
-      "audit the twisted-bordism and external-count receptacle rows without importing the K95 horn or treating input classes as output counts"
+      "rebuild the substantial B2 frontier from the complete named-requirement graph rather than inheriting the pre-exhaustion ranking",
+      "select the highest-fanout coherent owner packet and preserve every exact external datum and comparator fence",
+      "end each B2 construction attempt in fitting evidence, a bounded impossibility, or an exact next owner without reopening disposed non-B2 work"
     ],
     "scheduled_priority_effect": "unchanged",
-    "source_action_effect": "B2 remains ineligible while exhausted is false"
+    "source_action_effect": "B2 becomes selectable for a later Run because the derived gate is true; this Run executed no B2 owner"
   },
   "ledger_verdict_change": "none",
   "ledger_row_field_change": "none",

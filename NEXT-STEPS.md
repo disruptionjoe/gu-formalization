@@ -7,6 +7,19 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 RESIDUAL DISPOSITION COMPLETE: 91/91 ROWS TERMINAL; B2 IS NOW
+> SELECTABLE.** The final normalization, gauge-coupling, corrected cosmology,
+> theta, thermodynamic, twisted-bordism and external-count rows now carry ten
+> exact named-requirement dispositions and one bounded impossibility for the
+> superseded unsplit `LT-SM1` parent. Ledger v0.263 is byte-identical and no
+> B2 owner was executed. The live register derives `exhausted=true` and
+> `b2_selectable=true` from currency, coverage, parentage and terminality.
+> Rebuild the substantial B2 frontier from the full named-requirement graph;
+> prefer one shared high-fanout action/vacuum/physicalization packet, preserve
+> every external datum and comparator fence, and do not repeat completed
+> disposition waves. See `explorations/conditional-build/residual-
+> phenomenology-disposition-exhaustion-wave-2026-08-24.md`.
+
 > **2026-08-24 PHYSICAL-QUOTIENT AND CORRECTED HIGGS-OWNER DISPOSITION: NINE
 > NAMED REQUIREMENTS; THREE BOUNDED IMPOSSIBILITIES.** `RA-D4`, `RA-F1`,
 > `LT-GR1`, `LT-GR2c`, `LT-GR6b`, `LT-SM8`, `AC-F1`, `AC-G1a` and `RA-E1`
