@@ -154,11 +154,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         result = packet["result"]
         assert isinstance(result, str)
         flat = re.sub(r"\s+", " ", result)
-        check("GU-COMPARATOR-ROUTING — scope before inference." in result,
+        check("GU-COMPARATOR-ROUTING — scope before inference." in flat,
               f"routing notice in {key}")
-        check("Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`" in result,
+        check("Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`" in flat,
               f"routing classification in {key}")
-        check("```gu-typed-objects" in result, f"typed-object block in {key}")
+        check("```gu-typed-objects" in flat, f"typed-object block in {key}")
         check("No laundering" in flat, f"claim ceiling in {key}")
         check(packet["registry"]["target_claim"] == "NONE-NOT-A-KILL",
               f"not-a-kill typing in {key}")

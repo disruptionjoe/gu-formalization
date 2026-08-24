@@ -129,10 +129,12 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
           "every ranked route is non-competing")
     check(all(r.get("cost") and r.get("movement") and r.get("level") for r in ranking),
           "each route carries cost, movement and level")
-    pred = next(r for r in ranking if "preregister" in r["route"])
-    check(len(pred["rows"]) == 9, "the nine PREDICTION rows enumerated")
+    pred = next((r for r in ranking if "preregister" in r["route"]), None)
+    check(pred is not None, "a preregistration route is ranked")
+    pred_rows = pred.get("rows", []) if pred is not None else []
+    check(len(pred_rows) == 9, "the nine PREDICTION rows enumerated")
     live_pred = {rid for rid, r in rows.items() if r.get("reason_kind") == "PREDICTION"}
-    check(set(pred["rows"]) == live_pred, "enumerated PREDICTION rows match the live ledger")
+    check(set(pred_rows) == live_pred, "enumerated PREDICTION rows match the live ledger")
     check("MISSING_CONSTRUCTION" in data["explicitly_not_ranked"], "the competing lane is excluded explicitly")
 
     # ---- document propagation --------------------------------------------

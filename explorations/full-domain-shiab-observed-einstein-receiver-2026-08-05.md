@@ -8,7 +8,7 @@ gate_before: SELECTED_AMBIENT_SHIAB_KNOWN__OBSERVED_EQUATION_RECEIVER_OPEN
 gate_after: SELECTED_POST_SHIAB_FACTOR_ROUTE_KILLED__PRE_SHIAB_GAUSS_RECEIVER_CONSTRUCTED_LOCALLY__ACTION_OWNERSHIP_OPEN
 route_disposition: KILL_SELECTED_POST_SHIAB_RECEIVER__ADVANCE_PRE_SHIAB_GAUSS_ACTION_OWNER
 source_collision: SOURCE_CONFIRMS_INGREDIENTS__SOURCE_SILENT_ON_RECEIVER
-fork_assumed: SIGNATURE_AMBIENT_K77
+fork_assumed: SIGNATURE-AMBIENT
 fork_stack_acknowledged: "Lorentz (1,3) horizontal plus trace-reversed Frobenius (6,4) vertical gives the active (7,7) horn; no K95 result is imported."
 search_space_dim: "complete 10-dimensional observed Sym2 target inside the Bianchi-selected candidate's complete Riemann kernel; zero fitted coefficients"
 free_object_delta: 0

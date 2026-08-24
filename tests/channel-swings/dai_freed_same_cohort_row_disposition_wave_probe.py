@@ -6,6 +6,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -96,6 +97,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     ledger = inputs["ledger"]
     result = inputs["result"]
     assert isinstance(registry, dict) and isinstance(ledger, dict) and isinstance(result, str)
+    result_flat = re.sub(r"\s+", " ", result)
 
     computed_groups, computed_controls = recompute_spin_groups()
     recomputation = registry.get("dai_freed_recomputation", {})
@@ -158,11 +160,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
                   "prediction_or_confirmation_change", "canon_verdict_change", "public_posture_change"):
         check(registry.get(field) == "none", f"protected movement remains none: {field}")
 
-    check("GU-COMPARATOR-ROUTING — scope before inference" in result, "routing notice is present")
-    check("Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`" in result, "routing classification is explicit")
-    check("```gu-typed-objects" in result, "typed-object block is present")
-    check("Z/2, 0, Z/2, 0" in result, "computed four-form sequence is reported")
-    check("49 terminal and 42 open" in result, "derived post-wave denominator is reported")
+    check("GU-COMPARATOR-ROUTING — scope before inference" in result_flat, "routing notice is present")
+    check("Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`" in result_flat, "routing classification is explicit")
+    check("```gu-typed-objects" in result_flat, "typed-object block is present")
+    check("Z/2, 0, Z/2, 0" in result_flat, "computed four-form sequence is reported")
+    check("49 terminal and 42 open" in result_flat, "derived post-wave denominator is reported")
     return checks, failures
 
 
