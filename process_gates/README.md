@@ -604,6 +604,22 @@ This filename inventory is intentionally mechanical: it lets `process_gate_readm
 detect when a new gate exists without a public process-map entry. Detailed meaning stays in the
 selected notes below and in each script header.
 
+The following cross-cutting gates joined the executable surface after the
+original inventory was assembled. Their scope is deliberately stated at the
+same ceiling as the scripts themselves:
+
+| gate | public map role and ceiling |
+| --- | --- |
+| `canonical_currency_audit.py` | Detects unreviewed pre-correction documents through topic-signature consumption edges; the dirty set is warn-only, while registry/sidecar well-formedness and the aged non-growth ratchet are enforceable. |
+| `dependency_diagram_invariant_audit.py` | Recomputes declared ledger dependency-diagram invariants and refinement certificates; scientific graph totals are report-only and only reproducibility/accounting structure can fail. |
+| `homonym_register_audit.py` | Enforces a receipt-backed homonym/transcription register and its synchronization with `NAMES.md`; occurrence sensing remains a warn-only floor rather than a semantic verdict. |
+| `mint_context_projection_audit.py` | Requires ledger rows touched from v0.260 onward to carry an in-codomain Layer/Grant/Carrier projection that does not contradict the row; it certifies declaration and agreement, not projection correctness. |
+| `needs_provides_composition_audit.py` | Joins declared NEEDS with claimed SUPPLY, ratchets unadjudicated candidates, and preserves disavowal fences; a hit is a composition candidate and never an automatic physics verdict. |
+| `needs_provides_typed_join_audit.py` | Adds domain/codomain and registered-homonym sense typing to NEEDS/SUPPLY joins so token matches can be verified, rejected, or left explicitly untyped without guessing. |
+| `probe_authorship_lint.py` | Ratchets four recurrent probe-authoring defects: crash-not-detection, stale global pins, negation-satisfiable predicates, and raw wrapped-prose searches; it does not certify the probes' scientific claims. |
+| `typed_carrier_declaration_audit.py` | Requires result-bearing dated artifacts in its derived scope to declare carrier, pairing, real structure, grading, action owner and target, while preserving explicit `UNTYPED` and audited prose-only outcomes. |
+| `upgrade_program_register_audit.py` | Enforces that the upgrade-program register remains uniquely keyed, owned, status-typed and date-routed; it does not judge or activate the registered ideas. |
+
 - `absorbed_readme_surface_map_audit.py`
 - `antilinear_bound_readme_inventory_audit.py`
 - `anchored_leads_readme_inventory_audit.py`
