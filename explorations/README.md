@@ -7,6 +7,17 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## Invariant-gapping, reality-intersection and R5 rescope wave (2026-08-24)
+
+`generation-sector/invariant-gapping-reality-rescope-wave-2026-08-24.md`
+closes the hourly campaign at complexified kinematic/form grade. The blind
+`Lambda1/Lambda5` families and Hodge partners admit generic rank-896 forms from
+one direction per corner, while every finite sum in the middle/pure-cross
+image remains rank at most 128. Both formal adjoint signs retain the same
+bounded kinematic opportunity without selecting the source reality map. R5-K
+is now explicitly separate from unexecuted R5-D, so no dynamical mass or
+ledger credit moved.
+
 ## Control-semantics integrity wave (2026-08-24)
 
 `control-semantics-integrity-wave-2026-08-24.md` closes three due integrity
