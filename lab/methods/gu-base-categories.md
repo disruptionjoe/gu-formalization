@@ -236,6 +236,26 @@ No recorded arrow relates G3 (chiral-16-shadow selection) to G6 (the VEV
 phase): the two are adjacent in prose (CR-B §9, ST-1 §5) but unidentified in
 the ledger, and this file does not identify them (§4 D4).
 
+### 2.4 Discharge is order-sensitive unless a recorded migration proves otherwise
+
+**ORDER-SENSITIVE (typed 2026-08-24).** The Grant poset orders assumption
+sets; it does not make the effect of discharging them monotone or commuting.
+LA-5 supplies the concrete witness: discharging `AC-A1` is what kills
+`AC-F3`, so the grant-to-row map is explicitly *not monotone* and the order of
+discharge can change a downstream disposition. Accordingly, no Layer arrow —
+including grant-indexed LA3 at G6 — is presumed to commute with grant
+discharge. Commutation exists only when a dated owner migration records the
+square and its evidence; otherwise order sensitivity remains explicit.
+
+This statement does not identify G3 with G6, construct a functor `L -> G`, or
+move either row. It propagates the already-recorded LA-5 witness into the
+reference whose readers would otherwise infer order-independence from the
+poset alone. Receipt:
+`lab/active-research/joe-directed/ledger-advancement/la5-anomaly-axis-is-seven-handles-not-twenty-six-2026-08-15.md`
+§7 postflight (`AC-A1`/`AC-F3`), independently surfaced by
+`lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md`
+card 5.
+
 ---
 
 ## 3. The Carrier category **C**

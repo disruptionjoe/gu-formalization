@@ -1179,7 +1179,9 @@ entries:
         same token: the trace-hq family computes a DIFFERENT v_psb in (4,1,2)
         with the same 12-dim stabilizer, indistinguishable by the one numeric a
         reader would check; DELTA-2 had to name the excluded object explicitly
-        inside the revival trigger
+        inside the revival trigger. Kind adjudicated 2026-08-24: this remains
+        homonym because the hazard is one token with two unrelated referents;
+        the register reserves near_collision for two spellings one token apart.
       paid_by: ["lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:33", "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md:244"]
       quote: "rank-one v_PSB in (4,1,2), same 12-dim stabilizer, handed to the homonym"
       quote_at: "lab/active-research/joe-directed/composition/cp1-three-live-pairs-adjudicated-2026-08-17.md"

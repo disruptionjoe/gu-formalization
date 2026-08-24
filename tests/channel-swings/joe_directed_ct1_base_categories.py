@@ -387,6 +387,12 @@ check("P11 LA3 is VEV-conditional and LA1 carries NOT injective",
       and "NOT injective" in arrow_by_id.get("LA1", ("",) * 6)[4])
 check("P12 named non-arrows N1..N3 present",
       len([n for n in nonarrows if n[0] in ("N1", "N2", "N3")]) == 3)
+check("P12a Grant discharge is explicitly order-sensitive at the LA-5 "
+      "AC-A1/AC-F3 witness without identifying G3 and G6",
+      "**ORDER-SENSITIVE (typed 2026-08-24).**" in ref_text
+      and "discharging `AC-A1` is what kills" in ref_text
+      and "`AC-F3`" in ref_text
+      and "does not identify G3 with G6" in ref_text)
 codomain = parse_codomain(ref_text)
 check("P13 codomain block present with both token lines",
       codomain is not None and "layer-tokens" in codomain

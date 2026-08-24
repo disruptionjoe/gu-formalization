@@ -106,8 +106,8 @@ items:
     title: Decide whether v_PSB register entry kind should be near_collision (touches FX-3 pins)
     origin: IM-1 mint report; CP-1 vs register kind mismatch
     owner: homonym register owner (FX-3 lineage)
-    status: QUEUED
-    activation: next homonym register touch
+    status: DONE
+    activation: "receipt: control-semantics-integrity-wave-2026-08-24.md; adjudicated homonym under the register's existing one-token/two-referent rule, with near_collision reserved for two spellings one token apart; FX-3 pins the decision"
     next_check: "2026-08-24"
   - id: MINT-RESIDUE-AC-ROWS
     title: AC-A5 trigger, AC-A7 addendum, ITC D5, the 14 declared-condition edits, eight legacy kill rows
@@ -198,8 +198,8 @@ items:
     title: "Grant-discharge order matters: LA-5's own postflight witness (discharging AC-A1 kills AC-F3) contradicts its order-irrelevance claim; type the non-monotonicity"
     origin: ldb card 5 (LIVE-HIGH)
     owner: integration owner / next mint
-    status: QUEUED
-    activation: next mint
+    status: DONE
+    activation: "receipt: control-semantics-integrity-wave-2026-08-24.md; CT-1 now states Grant discharge is order-sensitive at LA-5's AC-A1/AC-F3 witness, without identifying G3/G6 or constructing a functor"
     next_check: "2026-08-24"
   - id: SRC-SCCHI-COUPLING-RULE
     title: "Adverse-mechanism news must fire SC-CHI-01's hedge-watch: three dated misses (SRC-2/3/4 produced zero adherence pings); stability routes INTO the selector"
@@ -240,8 +240,8 @@ items:
     title: "Require source-mechanism gates to carry an SC- id in target_claim (closes the measured CC-06 blindness with no code; 12-line WARN fallback priced)"
     origin: b1p1 measurement -- currency signature 0/4 on the SRC arc anchor family, kill gate misses them too
     owner: gate/method owner
-    status: QUEUED
-    activation: next steward pass
+    status: DONE
+    activation: "receipt: control-semantics-integrity-wave-2026-08-24.md; warn-only bears_on claim-affinity coverage landed with known/unknown-ID controls, preserving kill-gate red/green semantics and avoiding retrospective target attribution"
     next_check: "2026-08-24"
   - id: RS-WAVE-SERIES
     title: The ledger-driven conditional-build reverse-scaffold wave series

@@ -33,8 +33,15 @@ kill-bearing count at extension time, the audit RED-fails if the count
 rises above it, and the baseline is lowered as rows are typed. Rows name
 their target by adding a `target_claim` field (register IDs, or the same
 NONE-NOT-A-KILL hatch). Retirement condition: baseline reaches 0.
+
+CLAIM-AFFINITY EXTENSION (2026-08-24). Source-mechanism results can bear on a
+registered claim without using kill vocabulary, so the red/green trigger above
+cannot see them. A dated artifact may declare `bears_on: SC-AREA-NN`; this
+gate prints known claim links and WARNs on missing or unknown IDs. Affinity is
+deliberately warn-only: it improves adherence routing and never turns a work
+queue into a kill-gate failure.
 """
-import re, sys, glob, os, datetime, json
+import re, sys, glob, os, datetime, json, io, contextlib
 
 REG = "lab/sources/source-claim-register.yaml"
 LEDGER_GLOB = "lab/process/conditional-physics-ledger-v0.*.json"
@@ -121,6 +128,7 @@ def audit(paths=None, baseline=None):
         print("RED kill_target_claim_audit: register missing at " + REG)
         return 1, 0
     red, hatch_uses, internal_targets = [], 0, 0
+    affinities, affinity_warn = [], []
     for f in paths or scan_set():
         try:
             text = open(f, encoding="utf-8").read()
@@ -130,6 +138,18 @@ def audit(paths=None, baseline=None):
         created = fm.get("created", "")
         if not created or created < CUTOFF:
             continue
+        bears_on = fm.get("bears_on", "")
+        if bears_on:
+            named_affinity = set(CLAIM_ID.findall(bears_on))
+            unknown_affinity = named_affinity - ids
+            if not named_affinity:
+                affinity_warn.append((f, "bears_on carries no SC- claim id"))
+            elif unknown_affinity:
+                affinity_warn.append((
+                    f, "bears_on names unknown claim ids: "
+                    + ",".join(sorted(unknown_affinity))))
+            for claim_id in sorted(named_affinity & ids):
+                affinities.append((f, claim_id))
         head = " ".join(fm.get(k, "") for k in ("title", "result", "status", "doc_type"))
         if not TRIGGER.search(head):
             continue
@@ -165,6 +185,8 @@ def audit(paths=None, baseline=None):
             red.append((f, "source quotes without register locus"))
     for f, why in red:
         print(f"RED  {f}: {why}")
+    for f, why in affinity_warn:
+        print(f"WARN {f}: {why}")
     cov = coverage()
     print(f"kill_target_claim_audit: {len(red)} red "
           f"(scope baseline {baseline}), escape-hatch uses this scan: {hatch_uses}, "
@@ -172,6 +194,10 @@ def audit(paths=None, baseline=None):
     print(f"kill_target_claim_audit[coverage]: {cov} disavowed-by-source rows in register; "
           f"{len(paths or scan_set())} markdown files in derived scope. "
           f"A green scan bounds only the REGISTERED class.")
+    claims = sorted({claim_id for _f, claim_id in affinities})
+    print(f"kill_target_claim_audit[affinity]: {len(affinities)} typed links "
+          f"across {len(claims)} registered claims; {len(affinity_warn)} "
+          f"warn-only defects. claims={','.join(claims) if claims else 'none'}")
     return (1 if len(red) > baseline else 0), hatch_uses
 
 def latest_ledger(pattern=None):
@@ -247,6 +273,15 @@ def self_test():
                 "fail_internal_noverdict.md": ("---\ntitle: route killed\n"
                                      "created: 2026-09-01\n"
                                      "target_claim: CHANNEL-HEADLINE-X\n---\nbody"),
+                "pass_affinity.md": ("---\ntitle: source mechanism result\n"
+                                     "created: 2026-09-01\n"
+                                     "bears_on: SC-TEST-01\n---\nbody"),
+                "warn_affinity_unknown.md": ("---\ntitle: source mechanism result\n"
+                                     "created: 2026-09-01\n"
+                                     "bears_on: SC-FAKE-99\n---\nbody"),
+                "warn_affinity_untyped.md": ("---\ntitle: source mechanism result\n"
+                                     "created: 2026-09-01\n"
+                                     "bears_on: source mechanism\n---\nbody"),
             }
             for name, content in cases.items():
                 open(os.path.join("explorations", name), "w").write(content)
@@ -256,10 +291,19 @@ def self_test():
             _c, _h = audit(baseline=2)
             ok = ok and (_c == 1)   # the no-verdict internal kill IS caught
             out = []
-            code2, _ = audit(baseline=0, paths=[os.path.join("explorations", "pass_typed.md"),
-                             os.path.join("explorations", "pass_hatch.md"),
-                             os.path.join("explorations", "pass_old.md")])
+            affinity_out = io.StringIO()
+            with contextlib.redirect_stdout(affinity_out):
+                code2, _ = audit(baseline=0, paths=[
+                    os.path.join("explorations", "pass_typed.md"),
+                    os.path.join("explorations", "pass_hatch.md"),
+                    os.path.join("explorations", "pass_old.md"),
+                    os.path.join("explorations", "pass_affinity.md"),
+                    os.path.join("explorations", "warn_affinity_unknown.md"),
+                    os.path.join("explorations", "warn_affinity_untyped.md")])
+            affinity_text = affinity_out.getvalue()
             ok = ok and (code2 == 0)
+            ok = ok and "1 typed links across 1 registered claims" in affinity_text
+            ok = ok and affinity_text.count("WARN ") == 2
 
             # ---- ledger-extension controls
             os.makedirs(os.path.join("lab", "process"), exist_ok=True)

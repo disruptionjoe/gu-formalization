@@ -7,6 +7,16 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## Control-semantics integrity wave (2026-08-24)
+
+`control-semantics-integrity-wave-2026-08-24.md` closes three due integrity
+packets without moving scientific truth. Grant discharge is now explicitly
+order-sensitive at LA-5's `AC-A1`/`AC-F3` witness; the kill-target gate emits
+warn-only registered-claim affinity from `bears_on` without changing its
+red/green semantics; and `v_PSB` remains a registered homonym under the
+declared one-token/two-referent rule rather than the two-spellings
+`near_collision` class.
+
 ## SG4, source and parity integrity wave (2026-08-24)
 
 `sg4-source-parity-integrity-wave-2026-08-24.md` closes three due owner

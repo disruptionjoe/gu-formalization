@@ -197,6 +197,14 @@ def leg2_register_and_gate() -> None:
           f"5 transcription_variant (found {kinds})",
           kinds == {"homonym": 32, "near_collision": 1,
                     "prefix_collision": 2, "transcription_variant": 5})
+    vpsb = next((e for e in entries if e.get("token") == "v_PSB"), {})
+    check("v_PSB stays homonym: same token/two referents, not the "
+          "two-spellings near_collision kind",
+          vpsb.get("kind") == "homonym"
+          and "one token with two unrelated referents" in
+          vpsb.get("receipt", {}).get("incident", "")
+          and "two spellings one token apart" in
+          vpsb.get("receipt", {}).get("incident", ""))
     check("receipts: 40/40 entries carry incident + paid_by",
           sum(1 for e in entries
               if e.get("receipt", {}).get("incident")
