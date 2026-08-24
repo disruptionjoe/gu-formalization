@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact and mutation-tested checks for the stale-fork/vacuum disposition wave."""
+"""Exact and mutation-tested checks for quotient/Higgs-owner dispositions."""
 
 from __future__ import annotations
 
@@ -10,24 +10,27 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-REG_PATH = ROOT / "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json"
+REG_PATH = ROOT / "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json"
 LIVE_PATH = ROOT / "lab/process/phenomenology-disposition-register-v0.1.json"
 LEDGER_PATH = ROOT / "lab/process/conditional-physics-ledger-v0.263.json"
-REPORT_PATH = ROOT / "explorations/conditional-build/overdetermined-vacuum-stabilizer-row-disposition-wave-2026-08-24.md"
+REPORT_PATH = ROOT / "explorations/conditional-build/physical-quotient-higgs-owner-row-disposition-wave-2026-08-24.md"
 
-ROWS = ["LT-GR4", "LT-SM3b", "AC-G1", "RA-A1", "RA-A2", "RA-A6", "RA-A8", "RA-E6", "RA-G4"]
+ROWS = ["RA-D4", "RA-F1", "LT-GR1", "LT-GR2c", "LT-GR6b", "LT-SM8", "AC-F1", "AC-G1a", "RA-E1", "RA-E2", "RA-E7", "RA-G3"]
 B2 = {
-    "RA-A1": ["VAC-1", "VAC-2", "VAC-3"],
-    "RA-A2": ["VAC-1", "VAC-2", "VAC-3"],
-    "RA-A6": ["SMG-1", "SMG-2", "SMG-3"],
-    "RA-A8": ["VAC-1", "VAC-2", "VAC-3"],
-    "RA-E6": ["HPH-1", "HPH-2", "HPH-3"],
-    "RA-G4": ["VAC-1", "VAC-3", "VAC-4"],
+    "RA-D4": ["PHQ-1", "PHQ-2", "PHQ-3"],
+    "RA-F1": ["IDX-1", "IDX-2"],
+    "LT-GR1": ["IDX-1", "IDX-2", "GRP-1", "GRP-2"],
+    "LT-GR2c": ["IDX-1", "IDX-2", "GRP-2"],
+    "LT-GR6b": ["PHQ-1", "PHQ-2", "PHQ-3", "GRP-2"],
+    "LT-SM8": ["PHQ-1", "PHQ-2", "PHQ-3"],
+    "AC-F1": ["PHQ-1", "PHQ-2", "PHQ-3", "IDX-2"],
+    "AC-G1a": ["PHQ-1", "PHQ-2", "PHQ-3", "ANK-1"],
+    "RA-E1": ["HSM-1", "HSM-2", "HSM-3"],
 }
 PIS = {
-    "LT-GR4": "PI-PORTED-NEGATIVE-R2-SIGN-NATIVE-STABILITY-1",
-    "LT-SM3b": "PI-PURE-CONTRACTION-CONSTRAINT-PRESERVING-SLOT-1",
-    "AC-G1": "PI-K95-SP64-AS-K77-REPLACEMENT-1",
+    "RA-E2": "PI-OBSERVATION-CONTRACTION-AS-VERTICAL-SCALAR-1",
+    "RA-E7": "PI-SEPARATE-10-126-YUKAWA-AS-NATIVE-OWNER-1",
+    "RA-G3": "PI-126-SINGLET-VEV-AS-NATIVE-MAJORANA-OWNER-1",
 }
 LEDGER_SHA = "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
 
@@ -40,7 +43,7 @@ def evaluate(reg: dict, live: dict, report: str, ledger_bytes: bytes) -> list[st
     errors: list[str] = []
     terminal = reg.get("terminal_rows", [])
     by_row = {x.get("row_id"): x for x in terminal}
-    if list(by_row) != ROWS or len(terminal) != 9 or len(by_row) != 9:
+    if list(by_row) != ROWS or len(terminal) != 12 or len(by_row) != 12:
         errors.append("terminal row order/coverage mismatch")
 
     source_evidence = reg.get("source_evidence", {})
@@ -65,8 +68,11 @@ def evaluate(reg: dict, live: dict, report: str, ledger_bytes: bytes) -> list[st
 
     requirement_defs = reg.get("named_requirements", {})
     expected_reqs = {r for reqs in B2.values() for r in reqs}
-    if set(requirement_defs) != expected_reqs or any(not requirement_defs[x].strip() for x in expected_reqs):
+    if set(requirement_defs) != expected_reqs:
         errors.append("named requirement definitions incomplete")
+    for req, item in requirement_defs.items():
+        if not item.get("owner") or not item.get("object"):
+            errors.append(f"{req} lacks exact owner/object")
 
     impossibilities = reg.get("precise_impossibilities", [])
     by_pi = {x.get("id"): x for x in impossibilities}
@@ -78,9 +84,6 @@ def evaluate(reg: dict, live: dict, report: str, ledger_bytes: bytes) -> list[st
                 errors.append(f"{pi_id} missing {field}")
         if len(item.get("assumptions", [])) < 2:
             errors.append(f"{pi_id} needs at least two typed assumptions")
-    acg1 = by_pi.get(PIS["AC-G1"], {})
-    if "AC-G1a" not in str(acg1.get("escape", "")):
-        errors.append("AC-G1 must preserve successor AC-G1a")
 
     effects = reg.get("protected_effects", {})
     if not effects or any(value is not False for value in effects.values()):
@@ -93,17 +96,8 @@ def evaluate(reg: dict, live: dict, report: str, ledger_bytes: bytes) -> list[st
     for row in ROWS:
         if row not in live_terminal:
             errors.append(f"live register missing {row}")
-    for cohort in live.get("open_row_cohorts", []):
-        if cohort.get("ledger_verdict") == "OVER_DETERMINED" and cohort.get("row_ids"):
-            errors.append("OVER_DETERMINED cohort must be empty after complete wave")
     exhausted = live.get("exhaustion_evaluation", {})
-    if exhausted.get("denominator_rows") != 91:
-        errors.append("live register denominator_rows mismatch")
-    if exhausted.get("terminal_rows", 0) < 68:
-        errors.append("live register terminal_rows fell below proved wave floor")
-    if exhausted.get("open_rows", 92) > 23:
-        errors.append("live register open_rows rose above proved wave ceiling")
-    for key, value in {"exhausted": False, "b2_selectable": False}.items():
+    for key, value in {"denominator_rows": 91, "terminal_rows": 80, "open_rows": 11, "exhausted": False, "b2_selectable": False}.items():
         if exhausted.get(key) != value:
             errors.append(f"live register {key} mismatch")
 
@@ -111,9 +105,9 @@ def evaluate(reg: dict, live: dict, report: str, ledger_bytes: bytes) -> list[st
         "GU-COMPARATOR-ROUTING",
         "Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`",
         "```gu-typed-objects",
-        "Successor `AC-G1a` remains open",
-        "68 terminal and 23 open rows",
-        "No impossibility is a GU verdict",
+        "80 terminal and 11 open rows",
+        "No impossibility\nis a GU verdict",
+        "all source-native owners remain open",
     ]
     for token in required_report:
         if token not in report:
@@ -128,14 +122,15 @@ def baseline() -> tuple[dict, dict, str, bytes]:
 def selftest(reg: dict, live: dict, report: str, ledger: bytes) -> list[str]:
     mutations = []
     m = copy.deepcopy(reg); m["terminal_rows"].pop(); mutations.append((m, live, report, ledger, "row coverage"))
-    m = copy.deepcopy(reg); m["source_evidence"]["RA-A1"] = ["missing.md"]; mutations.append((m, live, report, ledger, "source resolution"))
-    m = copy.deepcopy(reg); m["terminal_rows"][3]["named_requirements"] = ["VAC-1"]; mutations.append((m, live, report, ledger, "requirements"))
+    m = copy.deepcopy(reg); m["source_evidence"]["RA-D4"] = ["missing.md"]; mutations.append((m, live, report, ledger, "source resolution"))
+    m = copy.deepcopy(reg); m["terminal_rows"][0]["named_requirements"] = ["PHQ-1"]; mutations.append((m, live, report, ledger, "requirements"))
+    m = copy.deepcopy(reg); m["named_requirements"]["PHQ-1"]["owner"] = ""; mutations.append((m, live, report, ledger, "owner"))
     m = copy.deepcopy(reg); m["precise_impossibilities"][0]["escape"] = ""; mutations.append((m, live, report, ledger, "escape"))
-    m = copy.deepcopy(reg); m["precise_impossibilities"][2]["escape"] = "replacement open"; mutations.append((m, live, report, ledger, "successor"))
     m = copy.deepcopy(reg); m["protected_effects"]["ledger_verdict_change"] = True; mutations.append((m, live, report, ledger, "protected effect"))
-    m = copy.deepcopy(live); m["exhaustion_evaluation"]["terminal_rows"] = 67; mutations.append((reg, m, report, ledger, "counts"))
-    m = copy.deepcopy(live); m["open_row_cohorts"][2]["row_ids"] = ["AC-G1"]; mutations.append((reg, m, report, ledger, "open overdetermined"))
-    mutations.append((reg, live, report.replace("No impossibility is a GU verdict", ""), ledger, "report ceiling"))
+    m = copy.deepcopy(live); m["exhaustion_evaluation"]["terminal_rows"] = 79; mutations.append((reg, m, report, ledger, "counts"))
+    m = copy.deepcopy(live); m["terminal_row_dispositions"] = [x for x in m["terminal_row_dispositions"] if x["row_id"] != "RA-G3"]; mutations.append((reg, m, report, ledger, "live row"))
+    mutations.append((reg, live, report.replace("No impossibility\nis a GU verdict", ""), ledger, "report ceiling"))
+    mutations.append((reg, live, report, ledger + b"x", "ledger identity"))
     missed = [name for r, l, p, b, name in mutations if not evaluate(r, l, p, b)]
     return missed
 
@@ -151,13 +146,13 @@ def main() -> int:
         for error in errors:
             print(f"- {error}")
         return 1
-    print("PASS: stale-fork and vacuum/stabilizer disposition wave")
+    print("PASS: physical quotient and corrected Higgs-owner disposition wave")
     if args.selftest:
         missed = selftest(reg, live, report, ledger)
         if missed:
             print("FAIL selftest: " + ", ".join(missed))
             return 1
-        print("PASS selftest: 9/9 mutations caught")
+        print("PASS selftest: 10/10 mutations caught")
     return 0
 
 

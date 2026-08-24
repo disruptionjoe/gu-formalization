@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "artifact_type": "phenomenology_disposition_live_register",
   "created": "2026-08-23",
-  "status": "ROW_COMPLETE_DENOMINATOR__SIXTY_EIGHT_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
+  "status": "ROW_COMPLETE_DENOMINATOR__EIGHTY_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
   "method_ref": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
-  "result_ref": "explorations/conditional-build/overdetermined-vacuum-stabilizer-row-disposition-wave-2026-08-24.md",
+  "result_ref": "explorations/conditional-build/physical-quotient-higgs-owner-row-disposition-wave-2026-08-24.md",
   "probe_ref": "tests/channel-swings/phenomenology_disposition_register_probe.py",
   "ledger_basis": {
     "path": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -508,12 +508,96 @@
       "terminal_outcome": "B2_NAMED_REQUIREMENT",
       "evidence_ref": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
       "named_requirements": ["VAC-1", "VAC-3", "VAC-4"]
+    },
+    {
+      "row_id": "RA-D4",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["PHQ-1", "PHQ-2", "PHQ-3"]
+    },
+    {
+      "row_id": "RA-F1",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["IDX-1", "IDX-2"]
+    },
+    {
+      "row_id": "LT-GR1",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["IDX-1", "IDX-2", "GRP-1", "GRP-2"]
+    },
+    {
+      "row_id": "LT-GR2c",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["IDX-1", "IDX-2", "GRP-2"]
+    },
+    {
+      "row_id": "LT-GR6b",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["PHQ-1", "PHQ-2", "PHQ-3", "GRP-2"]
+    },
+    {
+      "row_id": "LT-SM8",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["PHQ-1", "PHQ-2", "PHQ-3"]
+    },
+    {
+      "row_id": "AC-F1",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["PHQ-1", "PHQ-2", "PHQ-3", "IDX-2"]
+    },
+    {
+      "row_id": "AC-G1a",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["PHQ-1", "PHQ-2", "PHQ-3", "ANK-1"]
+    },
+    {
+      "row_id": "RA-E1",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "named_requirements": ["HSM-1", "HSM-2", "HSM-3"]
+    },
+    {
+      "row_id": "RA-E2",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "impossibility_id": "PI-OBSERVATION-CONTRACTION-AS-VERTICAL-SCALAR-1"
+    },
+    {
+      "row_id": "RA-E7",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "impossibility_id": "PI-SEPARATE-10-126-YUKAWA-AS-NATIVE-OWNER-1"
+    },
+    {
+      "row_id": "RA-G3",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/physical-quotient-higgs-owner-row-disposition-wave.json",
+      "impossibility_id": "PI-126-SINGLET-VEV-AS-NATIVE-MAJORANA-OWNER-1"
     }
   ],
   "open_row_cohorts": [
     {
       "ledger_verdict": "NEEDS",
-      "row_ids": ["RA-D4", "RA-E1", "RA-E2", "RA-E7", "RA-F1", "RA-G3", "LT-GR1", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR6b", "LT-GR7", "LT-GR8", "LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM7", "LT-SM8", "AC-B2", "AC-F1", "AC-F5", "AC-G1a"],
+      "row_ids": ["LT-GR2d", "LT-GR2e", "LT-GR7", "LT-GR8", "LT-SM1", "LT-SM1a", "LT-SM1b", "LT-SM2", "LT-SM7", "AC-B2", "AC-F5"],
       "required_next": "ONE_BUCKET_OR_PARENT_LINKED_SPLIT_WITH_TERMINAL_EVIDENCE",
       "warning": "NEEDS does not itself prove a named B2 owner, an available B1 construction, a B3 tension, or a B4 source route"
     },
@@ -578,8 +662,8 @@
     "exact_row_coverage": true,
     "split_unit_parentage": true,
     "denominator_rows": 91,
-    "terminal_rows": 68,
-    "open_rows": 23,
+    "terminal_rows": 80,
+    "open_rows": 11,
     "completed_b3_subdispositions": 6,
     "pending_b3_subdispositions": 0,
     "all_rows_terminal": false,
@@ -587,16 +671,16 @@
     "exhausted": false,
     "b2_selectable": false,
     "failed_predicates": [
-      "twenty-three ledger rows lack terminal disposition evidence",
-      "completed B3 subdispositions do not terminate LT-GR8, LT-GR2d, LT-GR2e, LT-SM7 or linked RA-G3; RA-B6 closes separately through exact B2 named requirements"
+      "eleven ledger rows lack terminal disposition evidence",
+      "completed B3 subdispositions do not terminate LT-GR8, LT-GR2d, LT-GR2e or LT-SM7; RA-B6 and linked RA-G3 close separately through their own exact terminal evidence"
     ]
   },
   "selection_consequence": {
-    "current_result": "B1/B3/B4 exhaustion is computable and false; sixty-eight rows are terminal after the complete OVER_DETERMINED cohort banks three bounded precise impossibilities and the highest-fanout vacuum/stabilizer packet banks six exact named requirements",
+    "current_result": "B1/B3/B4 exhaustion is computable and false; eighty rows are terminal after the shared physical-quotient/domain/index packet banks nine exact named requirements and the corrected Higgs/Yukawa/Majorana packet banks three bounded precise impossibilities",
     "next_disposition_frontier": [
-      "audit the shared physical-quotient, domain, index and positive-cohomology NEEDS cluster without executing its B2 owners",
-      "audit the remaining Higgs, Yukawa and Majorana owner cluster at corrected observation-plus-action scope",
-      "split and disposition the residual normalization, cosmology and anomaly NEEDS rows without defaulting them to B2"
+      "split and disposition the residual normalization and gauge-coupling cohort without defaulting every row to B2",
+      "audit the remaining cosmology and theta rows at their already corrected external-evidence scope",
+      "audit the twisted-bordism and external-count receptacle rows without importing the K95 horn or treating input classes as output counts"
     ],
     "scheduled_priority_effect": "unchanged",
     "source_action_effect": "B2 remains ineligible while exhausted is false"

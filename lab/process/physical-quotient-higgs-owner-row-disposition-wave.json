@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "physical_quotient_higgs_owner_row_disposition_wave_registry",
+  "created": "2026-08-24",
+  "status": "NINE_NAMED_REQUIREMENTS__THREE_PRECISE_IMPOSSIBILITIES__LEDGER_UNCHANGED",
+  "method_refs": [
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+    "lab/methods/source-native-comparator-routing.md"
+  ],
+  "ledger_basis": {
+    "path": "lab/process/conditional-physics-ledger-v0.263.json",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "source_evidence": {
+    "RA-D4": [
+      "explorations/conditional-build/selected-k77-action-concomitant-residual-flag-gate-2026-08-12.md",
+      "explorations/conditional-build/selected-k77-action-stabilizer-connection-flag-reconciliation-2026-08-12.md"
+    ],
+    "RA-F1": [
+      "explorations/conditional-build/selected-k77-relative-boundary-p3-ko-interface-2026-08-10.md"
+    ],
+    "LT-GR1": [
+      "explorations/conditional-build/selected-k77-relative-boundary-p3-ko-interface-2026-08-10.md"
+    ],
+    "LT-GR2c": [
+      "explorations/conditional-build/selected-k77-relative-boundary-p3-ko-interface-2026-08-10.md"
+    ],
+    "LT-GR6b": [
+      "lab/active-research/joe-directed/base-duality/bd-disposition-packet-2026-08-15.md",
+      "lab/active-research/joe-directed/integration-mint/im1-two-movers-four-debts-and-three-adjudications-2026-08-17.md"
+    ],
+    "LT-SM8": [
+      "explorations/conditional-build/selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md"
+    ],
+    "AC-F1": [
+      "explorations/conditional-build/selected-k77-opposite-edge-dependent-selector-obstruction-2026-08-14.md"
+    ],
+    "AC-G1a": [
+      "explorations/conditional-build/selected-k77-opposite-edge-dependent-selector-obstruction-2026-08-14.md"
+    ],
+    "RA-E1": [
+      "explorations/conditional-build/selected-k77-i2b-action-euler-principal-owner-comparison-2026-08-13.md",
+      "lab/process/higgs-anomaly-replication-row-disposition-wave.json"
+    ],
+    "RA-E2": [
+      "lab/methods/source-native-comparator-routing.md",
+      "lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md"
+    ],
+    "RA-E7": [
+      "lab/active-research/joe-directed/majorana-126-neutrino/src1-source-steelman-of-the-vev-2026-08-14.md",
+      "lab/active-research/joe-directed/majorana-126-neutrino/src2-mexican-hat-is-automatic-2026-08-14.md"
+    ],
+    "RA-G3": [
+      "lab/active-research/joe-directed/majorana-126-neutrino/src1-source-steelman-of-the-vev-2026-08-14.md",
+      "lab/process/b3-nu-carrier-scope-disposition.json"
+    ]
+  },
+  "terminal_rows": [
+    {"row_id":"RA-D4","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["PHQ-1","PHQ-2","PHQ-3"]},
+    {"row_id":"RA-F1","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["IDX-1","IDX-2"]},
+    {"row_id":"LT-GR1","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["IDX-1","IDX-2","GRP-1","GRP-2"]},
+    {"row_id":"LT-GR2c","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["IDX-1","IDX-2","GRP-2"]},
+    {"row_id":"LT-GR6b","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["PHQ-1","PHQ-2","PHQ-3","GRP-2"]},
+    {"row_id":"LT-SM8","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["PHQ-1","PHQ-2","PHQ-3"]},
+    {"row_id":"AC-F1","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["PHQ-1","PHQ-2","PHQ-3","IDX-2"]},
+    {"row_id":"AC-G1a","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["PHQ-1","PHQ-2","PHQ-3","ANK-1"]},
+    {"row_id":"RA-E1","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["HSM-1","HSM-2","HSM-3"]},
+    {"row_id":"RA-E2","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-OBSERVATION-CONTRACTION-AS-VERTICAL-SCALAR-1"},
+    {"row_id":"RA-E7","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-SEPARATE-10-126-YUKAWA-AS-NATIVE-OWNER-1"},
+    {"row_id":"RA-G3","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-126-SINGLET-VEV-AS-NATIVE-MAJORANA-OWNER-1"}
+  ],
+  "named_requirements": {
+    "PHQ-1": {"owner":"OWNER-A+OWNER-D","object":"one source-action-stationary nonhomogeneous K77 background selecting the residual flag/reduction and the operative observed carrier"},
+    "PHQ-2": {"owner":"OWNER-A+OWNER-D","object":"the action-derived interacting Gauss, BRST/BV/BFV or KT complex and its reduced physical quotient on that frozen background"},
+    "PHQ-3": {"owner":"OWNER-D","object":"one common Lorentzian closed Fredholm/Green domain with a conserved positive reduced pairing and nontrivial physical cohomology"},
+    "IDX-1": {"owner":"OWNER-A+OWNER-D","object":"a K77-native nonzero-fermion physical operator on a closed relative domain carrying the already frozen relative-KO twist"},
+    "IDX-2": {"owner":"OWNER-D+EXTERNAL-P3","object":"the operator's relative index and a typed observed count/chirality map pairing that output with P3 without identifying winding or input twist with the count"},
+    "GRP-1": {"owner":"OWNER-A+OWNER-D","object":"a constrained characteristic gravitational quotient with the massless helicity-two pair, the correctly typed massive spin content and no unwanted physical representations"},
+    "GRP-2": {"owner":"OWNER-A+OWNER-D","object":"an action-owned normalized global functional, Euler/Bianchi system, observation descent and Hilbert stress on the same physical domain"},
+    "ANK-1": {"owner":"OWNER-B+OWNER-D","object":"the operative K77 boundary gauge group and full fermion content followed by its exact twisted global-anomaly receptacle calculation"},
+    "HSM-1": {"owner":"OWNER-D","object":"the typed source-native observation contraction and physical Higgs carrier"},
+    "HSM-2": {"owner":"OWNER-A","object":"the operative completed second action, moving principal map and full action-derived scalar Hessian"},
+    "HSM-3": {"owner":"OWNER-A+OWNER-D","object":"the observed scalar mass operator with exactly one light Higgs doublet and every forced competitor heavy"}
+  },
+  "precise_impossibilities": [
+    {
+      "id":"PI-OBSERVATION-CONTRACTION-AS-VERTICAL-SCALAR-1",
+      "rows":["RA-E2"],
+      "class":"obtaining the four-dimensional Higgs scalar by treating the source observation contraction as a Kaluza--Klein projection of vertical connection components",
+      "assumptions":["the operative source observation map is the registered pullback/contraction rather than an extra-dimensional projection","the target is an ordinary observed Lorentz scalar doublet and no separate carrier-changing action map is supplied"],
+      "witness":"the source-aligned observation contraction maps an ad-valued one-form to one observed one-form; the audited inert and soldered horns contain zero scalar doublets, so the vertical-scalar inference does not type-check",
+      "escape":"construct the source-native connection-curvature Higgs through an explicit observation-plus-action carrier-changing bridge or a distinct composite operator",
+      "resurrection_trigger":"a source-owned typed map whose actual image is an observed scalar doublet on the physical quotient",
+      "target_claim":"NONE-NOT-A-KILL"
+    },
+    {
+      "id":"PI-SEPARATE-10-126-YUKAWA-AS-NATIVE-OWNER-1",
+      "rows":["RA-E7"],
+      "class":"requiring a separately hosted conventional 10/126 Higgs channel and independent Yukawa coefficient as the necessary source-native fermion-mass owner",
+      "assumptions":["the conventional 16 times 16 times H trilinear is treated as the operative GU mechanism","minimal connection coupling and the Yukawa owner are assumed distinct"],
+      "witness":"the source explicitly identifies minimal coupling with Yukawa coupling and assigns the Higgs role to the connection-curvature action; locating a 10/126 channel neither selects it nor supplies a separate coefficient",
+      "escape":"build the operative second action and its observed fermion bilinear, or prove a typed bridge from that action to a conventional 10/126 coefficient",
+      "resurrection_trigger":"a source passage or action theorem selecting a separate 10/126 trilinear coefficient as the operative mass owner",
+      "target_claim":"NONE-NOT-A-KILL"
+    },
+    {
+      "id":"PI-126-SINGLET-VEV-AS-NATIVE-MAJORANA-OWNER-1",
+      "rows":["RA-G3"],
+      "class":"requiring a stationary Lambda5/126 singlet VEV and conventional SO(10) coupling as the necessary source-native Majorana-scale owner",
+      "assumptions":["the conventional 126-VEV seesaw is identified with Weinstein's native mechanism","the rolled-operator zero-block proposal is ignored or treated as the same object"],
+      "witness":"the source disavows a separate 126 Higgs-VEV owner and instead locates the seesaw in the rolled operator's zero southeast block; the prior 126 arc therefore binds only the conventional route",
+      "escape":"construct the rolled physical neutral operator, its common domain and mass spectrum, or prove an explicit source/action bridge selecting the 126 route",
+      "resurrection_trigger":"a source-owned stationary 126 singlet and coupling theorem on the operative physical carrier",
+      "target_claim":"NONE-NOT-A-KILL"
+    }
+  ],
+  "protected_effects": {
+    "ledger_verdict_change": false,
+    "source_ownership_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false,
+    "b2_owner_execution": false
+  },
+  "result_ref": "explorations/conditional-build/physical-quotient-higgs-owner-row-disposition-wave-2026-08-24.md",
+  "probe_ref": "tests/channel-swings/physical_quotient_higgs_owner_row_disposition_wave_probe.py"
+}

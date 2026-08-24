@@ -7,6 +7,20 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 PHYSICAL-QUOTIENT AND CORRECTED HIGGS-OWNER DISPOSITION: NINE
+> NAMED REQUIREMENTS; THREE BOUNDED IMPOSSIBILITIES.** `RA-D4`, `RA-F1`,
+> `LT-GR1`, `LT-GR2c`, `LT-GR6b`, `LT-SM8`, `AC-F1`, `AC-G1a` and `RA-E1`
+> now name the exact stationary-background, interacting-quotient, Lorentzian-
+> domain, relative-index/count, gravitational-Euler, K77-anomaly and Higgs-
+> action owners they require. `RA-E2`, `RA-E7` and `RA-G3` close only the
+> vertical-projection, separate-10/126-Yukawa and conventional-126-VEV-as-
+> necessary-owner classes. Every source-native replacement remains open. The
+> live register has 80 terminal and 11 open rows; ledger v0.263 is byte-
+> identical and `b2_selectable=false`. Next split the residual normalization,
+> cosmology, theta, twisted-bordism and external-count cohort; do not execute
+> B2. See `explorations/conditional-build/physical-quotient-higgs-owner-row-
+> disposition-wave-2026-08-24.md`.
+
 > **2026-08-24 OVER_DETERMINED AND VACUUM/STABILIZER DISPOSITION: THREE
 > PRECISE IMPOSSIBILITIES; SIX B2 TERMINALS.** The complete stale-fork cohort
 > now closes only the ported-negative-R2-sign, conflated-Shiab-slot and

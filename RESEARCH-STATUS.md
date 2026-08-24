@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Physical-quotient and corrected Higgs-owner disposition wave, 2026-08-24.**
+Twelve additional NEEDS rows now have terminal evidence without ledger
+movement. Nine rows name one shared stationary K77 background, interacting
+physical quotient, Lorentzian positive domain, relative index/count,
+gravitational Euler/Hilbert system, K77 anomaly receptacle and source-native
+Higgs action in row-specific combinations. `RA-E2` precisely excludes only
+treating the source observation contraction as a vertical scalar projection;
+`RA-E7` excludes only requiring a separate conventional 10/126 Yukawa
+coefficient as the native mass owner; and `RA-G3` excludes only requiring a
+conventional 126 singlet VEV as the native Majorana owner. Every source-native
+connection/action, physical-cohomology and rolled-operator route remains open.
+The live register now has 80 terminal and 11 open rows; `exhausted=false`,
+`b2_selectable=false`, and ledger v0.263 is byte-identical. See
+`explorations/conditional-build/physical-quotient-higgs-owner-row-disposition-wave-2026-08-24.md`.
+
 **OVER_DETERMINED and vacuum/stabilizer disposition wave, 2026-08-24.** The
 complete three-row stale-fork cohort and six highest-fanout U1/U4/U6 rows now
 have terminal evidence without ledger movement. `LT-GR4` excludes only a
