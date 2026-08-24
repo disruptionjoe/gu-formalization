@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "artifact_type": "phenomenology_disposition_live_register",
   "created": "2026-08-23",
-  "status": "ROW_COMPLETE_DENOMINATOR__FORTY_FIVE_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
+  "status": "ROW_COMPLETE_DENOMINATOR__FIFTY_NINE_OF_NINETY_ONE_ROWS_TERMINAL__EXHAUSTION_FALSE",
   "method_ref": "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
-  "result_ref": "explorations/conditional-build/phenomenology-disposition-baseline-v0.1-2026-08-23.md",
+  "result_ref": "explorations/conditional-build/differs-cohort-row-disposition-wave-2026-08-24.md",
   "probe_ref": "tests/channel-swings/phenomenology_disposition_register_probe.py",
   "ledger_basis": {
     "path": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -375,6 +375,76 @@
       "terminal_outcome": "FITTING_CONSTRUCTION",
       "evidence_ref": "lab/process/dai-freed-same-cohort-row-disposition-wave.json",
       "construction_id": "FC-SM-AMBIENT-WEYL-HALF-EXCHANGER-1"
+    },
+    {
+      "row_id": "RA-A4",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "named_requirements": ["XU1-1", "XU1-2", "XU1-3"]
+    },
+    {
+      "row_id": "RA-A5",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "named_requirements": ["EXG-1", "EXG-2", "EXG-3"]
+    },
+    {
+      "row_id": "RA-B6",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "named_requirements": ["NU-1", "NU-2", "NU-3"]
+    },
+    {
+      "row_id": "RA-D2",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "impossibility_id": "PI-EQUIVARIANT-MASS-SPLIT-CHIRALITY-1"
+    },
+    {
+      "row_id": "RA-G1",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "named_requirements": ["RS-1", "RS-2", "RS-3"]
+    },
+    {
+      "row_id": "RA-G2",
+      "bucket": "B2",
+      "terminal_outcome": "B2_NAMED_REQUIREMENT",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "named_requirements": ["MIR-1", "MIR-2", "MIR-3"]
+    },
+    {
+      "row_id": "AC-A5",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "impossibility_id": "PI-NET-CHIRALITY-ALONE-LOCAL-ANOMALY-1"
+    },
+    {
+      "row_id": "AC-F3",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "impossibility_id": "PI-LOCAL-ZERO-ANOMALY-INFLOW-Z3-BRIDGE-1"
+    },
+    {
+      "row_id": "AC-F4",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "impossibility_id": "PI-SPIN-BORDISM-3PRIMARY-COUNT-1"
+    },
+    {
+      "row_id": "AC-G2",
+      "bucket": "B4",
+      "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+      "evidence_ref": "lab/process/differs-cohort-row-disposition-wave.json",
+      "impossibility_id": "PI-GAUGE-OCTIC-PREMISE-NECESSITY-1"
     }
   ],
   "open_row_cohorts": [
@@ -386,9 +456,9 @@
     },
     {
       "ledger_verdict": "DIFFERS",
-      "row_ids": ["RA-A4", "RA-A5", "RA-B6", "RA-D2", "RA-G1", "RA-G2", "AC-A5", "AC-F3", "AC-F4", "AC-G2"],
-      "required_next": "B4_SOURCE_ROUTE_OR_PRECISE_IMPOSSIBILITY_AUDIT",
-      "warning": "DIFFERS is a scoped ledger verdict, not an automatic B4 or precise impossibility"
+      "row_ids": [],
+      "required_next": "COHORT_TERMINAL__PRESERVE_TYPED_ESCAPES_AND_NAMED_B2_OWNERS",
+      "warning": "The ledger DIFFERS labels remain unchanged; terminality comes only from the linked evidence-backed dispositions"
     },
     {
       "ledger_verdict": "OVER_DETERMINED",
@@ -445,8 +515,8 @@
     "exact_row_coverage": true,
     "split_unit_parentage": true,
     "denominator_rows": 91,
-    "terminal_rows": 49,
-    "open_rows": 42,
+    "terminal_rows": 59,
+    "open_rows": 32,
     "completed_b3_subdispositions": 6,
     "pending_b3_subdispositions": 0,
     "all_rows_terminal": false,
@@ -454,16 +524,16 @@
     "exhausted": false,
     "b2_selectable": false,
     "failed_predicates": [
-      "forty-two ledger rows lack terminal disposition evidence",
-      "completed B3 subdispositions do not terminate LT-GR8, LT-GR2d, LT-GR2e, LT-SM7, RA-B6 or linked RA-G3"
+      "thirty-two ledger rows lack terminal disposition evidence",
+      "completed B3 subdispositions do not terminate LT-GR8, LT-GR2d, LT-GR2e, LT-SM7 or linked RA-G3; RA-B6 closes separately through exact B2 named requirements"
     ]
   },
   "selection_consequence": {
-    "current_result": "B1/B3/B4 exhaustion is computable and false; forty-nine rows are terminal after the Dai-Freed and compact SAME-cohort wave banks three fitting constructions and one typed aggregate impossibility",
+    "current_result": "B1/B3/B4 exhaustion is computable and false; fifty-nine rows are terminal after the complete DIFFERS cohort banks five exact named-requirement and five bounded precise-impossibility dispositions",
     "next_disposition_frontier": [
-      "audit the boundary/anomaly DIFFERS rows at their exact source loci and typed carriers",
+      "audit the three OVER_DETERMINED stale-premise forks at their exact correction histories and typed carriers",
       "prioritize high-fanout NEEDS rows that can reach a fitting construction, precise impossibility or exact named requirement without executing B2",
-      "split and disposition remaining NEEDS and OVER_DETERMINED rows without defaulting them to B2"
+      "split and disposition remaining NEEDS rows without defaulting them to B2"
     ],
     "scheduled_priority_effect": "unchanged",
     "source_action_effect": "B2 remains ineligible while exhausted is false"

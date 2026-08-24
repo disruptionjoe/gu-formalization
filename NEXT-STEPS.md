@@ -7,6 +7,19 @@ updated_at: "2026-08-24"
 
 # Next Steps For Contributors
 
+> **2026-08-24 COMPLETE DIFFERS-COHORT DISPOSITION: FIVE NAMED REQUIREMENTS;
+> FIVE BOUNDED IMPOSSIBILITIES.** `RA-A4`, `RA-A5`, `RA-B6`, `RA-G1` and
+> `RA-G2` now name their exact stabilizer, mass, neutral, RS quotient/domain
+> and mirror-free physical-cohomology owners. `RA-D2` closes only the fixed
+> equivariant mass-splitting realization, preserving `SC-CHI-51` and its
+> replacement routes. `AC-A5`, `AC-F3`, `AC-F4` and `AC-G2` close only the
+> net-chirality-alone, zero-anomaly inflow, ordinary-Spin 3-primary and stale
+> gauge-octic-premise classes. The live register has 59 terminal and 32 open
+> rows; ledger v0.263 is byte-identical and `b2_selectable=false`. Rebuild from
+> the three OVER_DETERMINED stale-premise forks and high-fanout NEEDS rows; do
+> not execute named B2 owners. See
+> `explorations/conditional-build/differs-cohort-row-disposition-wave-2026-08-24.md`.
+
 > **2026-08-24 DAI--FREED AND FINAL SAME-COHORT DISPOSITION: THREE FITTING
 > CONSTRUCTIONS; ONE TYPED AGGREGATE IMPOSSIBILITY.** `AC-E1` is now
 > independently recomputed: the four plain-Spin global forms give

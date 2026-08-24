@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "differs_cohort_row_disposition_wave_registry",
+  "created": "2026-08-24",
+  "status": "FIVE_NAMED_REQUIREMENTS__FIVE_PRECISE_IMPOSSIBILITIES__LEDGER_UNCHANGED",
+  "method_refs": [
+    "lab/methods/phenomenology-disposition-and-exhaustion-rule.md",
+    "lab/methods/source-native-comparator-routing.md"
+  ],
+  "ledger_basis": {
+    "path": "lab/process/conditional-physics-ledger-v0.263.json",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "source_evidence": {
+    "RA-A4": ["explorations/conditional-build/cb-a-representation-content-2026-08-05.md"],
+    "RA-A5": ["explorations/conditional-build/cb-a-representation-content-2026-08-05.md"],
+    "RA-B6": ["explorations/conditional-build/cb-a-representation-content-2026-08-05.md", "lab/process/b3-nu-carrier-scope-disposition.json", "lab/active-research/joe-directed/majorana-126-neutrino/sn1-observed-neutrino-mass-pencil-2026-08-16.md"],
+    "RA-D2": ["explorations/conditional-build/selected-k77-degree-duality-pair-graph-gate-2026-08-10.md", "lab/sources/source-claim-register.yaml"],
+    "RA-G1": ["explorations/conditional-build/cb-a-representation-content-2026-08-05.md", "lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md", "lab/active-research/joe-directed/anomaly-cancellation/ac1-rs-content-cannot-obstruct-and-anomalies-cannot-select-2026-08-14.md"],
+    "RA-G2": ["explorations/conditional-build/selected-k77-opposite-edge-dependent-selector-obstruction-2026-08-14.md", "lab/active-research/joe-directed/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md", "lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md"],
+    "AC-A5": ["explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md"],
+    "AC-F3": ["explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md", "explorations/conditional-build/ledger-kill-typing-and-upgrade-ranking-2026-08-23.md"],
+    "AC-F4": ["explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md", "explorations/global-anomaly-leg-2026-07-20.md"],
+    "AC-G2": ["explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md"]
+  },
+  "terminal_rows": [
+    {"row_id":"RA-A4","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["XU1-1","XU1-2","XU1-3"]},
+    {"row_id":"RA-A5","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["EXG-1","EXG-2","EXG-3"]},
+    {"row_id":"RA-B6","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["NU-1","NU-2","NU-3"]},
+    {"row_id":"RA-D2","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-EQUIVARIANT-MASS-SPLIT-CHIRALITY-1"},
+    {"row_id":"RA-G1","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["RS-1","RS-2","RS-3"]},
+    {"row_id":"RA-G2","bucket":"B2","terminal_outcome":"B2_NAMED_REQUIREMENT","named_requirements":["MIR-1","MIR-2","MIR-3"]},
+    {"row_id":"AC-A5","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-NET-CHIRALITY-ALONE-LOCAL-ANOMALY-1"},
+    {"row_id":"AC-F3","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-LOCAL-ZERO-ANOMALY-INFLOW-Z3-BRIDGE-1"},
+    {"row_id":"AC-F4","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-SPIN-BORDISM-3PRIMARY-COUNT-1"},
+    {"row_id":"AC-G2","bucket":"B4","terminal_outcome":"PRECISE_IMPOSSIBILITY","impossibility_id":"PI-GAUGE-OCTIC-PREMISE-NECESSITY-1"}
+  ],
+  "named_requirements": {
+    "XU1-1":"an action-selected post-Higgs stabilizer on the frozen conditional carrier",
+    "XU1-2":"the complete extra-U(1) gauge-boson mass operator",
+    "XU1-3":"the observed BRST-reduced gauge spectrum",
+    "EXG-1":"a mass operator on all 33 internal and 73 ambient non-SM directions",
+    "EXG-2":"the complete gauge/BFV quotient removing unphysical directions",
+    "EXG-3":"the observed exotic-vector spectrum",
+    "NU-1":"one common neutral operator with an explicit reality and charge map",
+    "NU-2":"the resulting neutral mass spectrum",
+    "NU-3":"the mixing and decoupling map across the four observed neutrino carriers",
+    "RS-1":"the source-native Witten/BRST exit or equivalent physical quotient",
+    "RS-2":"one common closed domain for the reduced spin-3/2 system",
+    "RS-3":"the physical quotient spectrum and heavy-or-absent disposition",
+    "MIR-1":"a source/action owner for the SG4-bit-2 decoupling selector",
+    "MIR-2":"the proper interacting BFV complex and physical domain",
+    "MIR-3":"positive physical cohomology with the mirror sector absent or decoupled"
+  },
+  "precise_impossibilities": [
+    {
+      "id":"PI-EQUIVARIANT-MASS-SPLIT-CHIRALITY-1",
+      "rows":["RA-D2"],
+      "class":"fixed equivariant mass-splitting realizations on the settled K77 balanced carrier",
+      "assumptions":["bare q or either degree-duality primalizer is the ordinary chiral port","Pin completion and the rank-384 paired carrier are retained"],
+      "witness":"q leaks rank 64 outside RS; Pin completion exchanges W with mirror; both primalizers miss the ordinary port with joined rank 256",
+      "escape":"a genuinely different source-owned Shiab or restricted port, or the coupled-functional build before BV/domain descent",
+      "resurrection_trigger":"an exact chiral physical carrier not obtained by equivariant mass splitting",
+      "target_claim":"SC-CHI-51",
+      "target_claim_verdict":"NOT_KILLED__BOUNDED_REALIZATION_EXCLUSION__REPLACEMENTS_OPEN"
+    },
+    {
+      "id":"PI-NET-CHIRALITY-ALONE-LOCAL-ANOMALY-1",
+      "rows":["AC-A5"],
+      "class":"integer content vectors in the 15-slot conditional C1 local-anomaly arena",
+      "assumptions":["the fixed degree-16 anomaly functionals and C1 weights","net chirality W=0 is offered as the sole condition"],
+      "witness":"the exact system has rank five and kernel rank ten; W=0 supplies one row and a witness violates four independent remaining rows",
+      "escape":"select content in the full rank-ten kernel",
+      "resurrection_trigger":"a selected content vector in the full rank-10 kernel",
+      "target_claim":"NONE-NOT-A-KILL"
+    },
+    {
+      "id":"PI-LOCAL-ZERO-ANOMALY-INFLOW-Z3-BRIDGE-1",
+      "rows":["AC-F3"],
+      "class":"free bulk-anomaly inflow from a locally consistent conditional GU content vector",
+      "assumptions":["local anomaly cancellation makes I16 identically zero","the generation count requires a nonzero 3-primary image"],
+      "witness":"the free inflow polynomial is zero on every locally consistent bulk",
+      "escape":"a non-inflow framed, String or boundary bridge",
+      "resurrection_trigger":"a nonzero 3-primary bridge not sourced by the locally vanishing bulk anomaly",
+      "target_claim":"NONE-NOT-A-KILL"
+    },
+    {
+      "id":"PI-SPIN-BORDISM-3PRIMARY-COUNT-1",
+      "rows":["AC-F4"],
+      "class":"ordinary Spin-bordism torsion as a carrier of a 3-primary count",
+      "assumptions":["ordinary Spin tangential structure","additive homomorphism from the Z/3 count arena"],
+      "witness":"Spin torsion is 2-primary and Hom(Z/3, 2-primary)=0",
+      "escape":"change tangential structure and construct a nonzero framed or String class",
+      "resurrection_trigger":"a framed or String receptacle with a constructed nonzero class",
+      "target_claim":"NONE-NOT-A-KILL"
+    },
+    {
+      "id":"PI-GAUGE-OCTIC-PREMISE-NECESSITY-1",
+      "rows":["AC-G2"],
+      "class":"necessity of the old K95 right-H gauge-octic premise for the local anomaly conclusion",
+      "assumptions":["the K95-specific premise is treated as transferable to K77","no independent local-rank route is allowed"],
+      "witness":"the premise has no K77 counterpart while the A2/A3 local rank theorem rescues the conclusion fork-independently",
+      "escape":"retain the conclusion through the fork-independent theorem without the stale premise",
+      "resurrection_trigger":"a source or action change that makes gauge weights slot-dependent",
+      "target_claim":"NONE-NOT-A-KILL"
+    }
+  ],
+  "protected_effects": {
+    "ledger_verdict_change": false,
+    "source_ownership_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false,
+    "b2_owner_execution": false
+  },
+  "result_ref": "explorations/conditional-build/differs-cohort-row-disposition-wave-2026-08-24.md",
+  "probe_ref": "tests/channel-swings/differs_cohort_row_disposition_wave_probe.py"
+}

@@ -19,6 +19,7 @@ CHIRAL16_REG = ROOT / "lab/process/chiral16-same-row-disposition-wave.json"
 CARRIER_GRAVITY_REG = ROOT / "lab/process/carrier-gravity-row-disposition-wave.json"
 HIGGS_ANOMALY_REPLICATION_REG = ROOT / "lab/process/higgs-anomaly-replication-row-disposition-wave.json"
 DAI_FREED_SAME_COHORT_REG = ROOT / "lab/process/dai-freed-same-cohort-row-disposition-wave.json"
+DIFFERS_COHORT_REG = ROOT / "lab/process/differs-cohort-row-disposition-wave.json"
 B3_REG = ROOT / "lab/process/fc-admission-wave-and-first-b3-register.json"
 
 TERMINAL_OUTCOMES = {
@@ -40,6 +41,7 @@ def load_inputs() -> dict[str, object]:
         "carrier_gravity": json.loads(CARRIER_GRAVITY_REG.read_text()),
         "higgs_anomaly_replication": json.loads(HIGGS_ANOMALY_REPLICATION_REG.read_text()),
         "dai_freed_same_cohort": json.loads(DAI_FREED_SAME_COHORT_REG.read_text()),
+        "differs_cohort": json.loads(DIFFERS_COHORT_REG.read_text()),
         "b3": json.loads(B3_REG.read_text()),
     }
 
@@ -62,10 +64,12 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     carrier_gravity = inputs["carrier_gravity"]
     higgs_anomaly_replication = inputs["higgs_anomaly_replication"]
     dai_freed_same_cohort = inputs["dai_freed_same_cohort"]
+    differs_cohort = inputs["differs_cohort"]
     b3 = inputs["b3"]
     assert all(isinstance(value, dict)
               for value in (ledger, register, method, anchors, chiral16, carrier_gravity,
                              higgs_anomaly_replication, dai_freed_same_cohort, b3))
+    assert isinstance(differs_cohort, dict)
 
     ledger_ids = [row.get("id") for row in ledger.get("rows", [])]
     denominator_groups = register.get("row_denominator_by_ledger_verdict", {})
@@ -124,12 +128,17 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         for construction in dai_freed_same_cohort.get("fitting_constructions", [])
         for row_id in construction.get("rows", [])
     }
+    differs_cohort_rows = {
+        row.get("row_id"): row
+        for row in differs_cohort.get("terminal_rows", [])
+    }
     for row in terminal_rows:
         row_id = row.get("row_id")
         evidence_row = (anchor_rows.get(row_id) or chiral_rows.get(row_id)
                         or carrier_gravity_rows.get(row_id)
                         or higgs_anomaly_replication_rows.get(row_id)
                         or dai_freed_same_cohort_rows.get(row_id, {}))
+        evidence_row = evidence_row or differs_cohort_rows.get(row_id, {})
         check(bool(evidence_row), f"terminal row evidence resolves: {row_id}")
         check(row.get("bucket") == evidence_row.get("bucket"),
               f"terminal bucket matches evidence: {row_id}")
@@ -165,6 +174,13 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
                 if field in evidence_row:
                     check(row.get(field) == evidence_row.get(field),
                           f"Dai-Freed/SAME-cohort {field} matches evidence: {row_id}")
+        if row_id in differs_cohort_rows:
+            check(row.get("terminal_outcome") == evidence_row.get("terminal_outcome"),
+                  f"DIFFERS-cohort outcome matches evidence: {row_id}")
+            for field in ("named_requirements", "impossibility_id"):
+                if field in evidence_row:
+                    check(row.get(field) == evidence_row.get(field),
+                          f"DIFFERS-cohort {field} matches evidence: {row_id}")
 
     sub = register.get("b3_subdispositions", {})
     completed = sub.get("completed", [])
@@ -181,8 +197,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     pending_parentage_complete = all(row.get("parent_row") in ledger_ids for row in pending)
     check(all(row.get("scope_effect") == "SUBDISPOSITION_ONLY__PARENT_ROW_REMAINS_OPEN"
               for row in completed), "B3 subdispositions do not launder row terminals")
-    check(all(row.get("parent_row") not in terminal_ids for row in completed),
-          "completed B3 parent rows remain nonterminal")
+    b3_evidence_refs = {row.get("evidence_ref") for row in completed}
+    check(all(row.get("row_id") not in {item.get("parent_row") for item in completed}
+              or row.get("evidence_ref") not in b3_evidence_refs
+              for row in terminal_rows),
+          "B3 subdispositions do not themselves terminate parent rows")
 
     open_ids = set(ledger_ids) - set(terminal_ids)
     open_cohort_ids = {

@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Complete DIFFERS-cohort disposition wave, 2026-08-24.** All ten open
+DIFFERS rows now have terminal evidence without ledger movement. `RA-A4`,
+`RA-A5`, `RA-B6`, `RA-G1` and `RA-G2` carry exact B2 requirements for the
+post-Higgs stabilizer and mass/physical spectrum, common neutral
+operator/reality/mixing map, RS quotient/domain/spectrum and SG4-bit-2 plus
+mirror-free positive cohomology. `RA-D2` precisely excludes only the fixed
+equivariant mass-splitting class and preserves `SC-CHI-51` plus replacement
+routes. `AC-A5`, `AC-F3`, `AC-F4` and `AC-G2` precisely exclude only net
+chirality zero as a sufficient local-anomaly condition, locally zero anomaly
+as a nonzero 3-primary inflow carrier, ordinary Spin torsion as a 3-primary
+count carrier, and the stale K95 gauge-octic premise as necessary for the
+fork-independent conclusion. The live register now has 59 terminal and 32
+open rows; `exhausted=false`, `b2_selectable=false`, and ledger v0.263 is
+byte-identical. See
+`explorations/conditional-build/differs-cohort-row-disposition-wave-2026-08-24.md`.
+
 **Dai--Freed and final SAME-cohort disposition wave, 2026-08-24.** The four
 remaining SAME rows now have terminal evidence without ledger movement.
 `AC-E1` banks `FC-ANOMALY-SM-DAI-FREED-SHADOW-1`: exact GF(2) AHSS replay gives
