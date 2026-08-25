@@ -315,14 +315,16 @@ items:
     title: Declare how the small-nonzero observed regime maps, or does not map, to the binary bit-2 axis
     origin: LD-C card 17 residue, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
     owner: SG4 declaration owner jointly with the observed-layer routing owner
-    status: QUEUED
+    status: DONE
     activation: >-
-      Fork-shaped independent review before the next observed-epoch bit-2
-      statement. Either define the CHIRAL bin to include the decreased/small-
-      nonzero regime conditionally on the unconstructed identification, or rule
-      the binary inadmissible as an observed-value carrier and use the continuous
-      modulus. Reconcile ST-1 section 6 with SCUR-1 row 6; this register row does
-      not choose the fork.
+      receipt: sg4-observed-epoch-binning-independent-review-2026-08-24.md.
+      Fork-shaped independent review rules the binary inadmissible as an
+      observed-value carrier at current grade and requires continuous-modulus
+      language for the decreased/small-nonzero regime. ST-1 section 6 and
+      SCUR-1 row 6 retain their distinct mass-shape and source-attribution
+      results under correction addenda. Reopen only on a source-authenticated
+      or action-derived typed binning map with an identification plus threshold
+      or equivalence class; SG4-BIT-2-PHASE remains open.
     next_check: "2026-08-31"
   - id: SG4-BIT-2-RECONCILIATION
     title: Enroll SG4 bit 2 in the existing over-determined reconciliation protocol

@@ -92,6 +92,18 @@ for a third discrete phase or two new `VERTEX` cells. The four-corner map remain
 the exact map of the declared coarse endpoint model; it is not a phase diagram.
 No horn, carrier, bit, claim, ledger row or public verdict changes.
 
+**Observed-epoch routing scope correction (independently reviewed
+2026-08-24).** The source's decreased/small-nonzero `varpi` regime is not
+assigned to either binary endpoint at current grade. The repository has no
+source-authenticated or action-derived threshold, equivalence class or
+coarse-graining map that would place that continuous regime in `CHIRAL` or
+`MASSIVE`, and observed handedness is not the phase label `CHIRAL`. Observed-
+epoch statements therefore use the continuous modulus and state the source's
+emergent-chirality assertion separately. The binary remains the exact coarse
+endpoint declaration used by the four-corner map; it is inadmissible only as
+an observed-value carrier. A future typed binning map may reopen this routing
+decision. The action-owned `SG4-BIT-2-PHASE` fork remains open.
+
 **Consistency addendum (independently verified 2026-08-24; annotation only —
 no corner is selected, the residual stays two-bit, and SG4 stays the sole
 decider).** The frozen four-corner map has only three live carriers because

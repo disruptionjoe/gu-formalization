@@ -368,6 +368,16 @@ or v0.259 row was read row-by-row or raced by this audit.)
 
 ## 7. Proposed diffs (NOT applied; owners named)
 
+> **Observed-epoch routing correction (independently reviewed 2026-08-24).**
+> Section 3 V1 and the register-row-6 inheritance remain correct that the
+> source claims decreased-VEV decoupling rather than the comparator's mirror-
+> lifting mechanism. The phrase “the m→0 branch IS the source's claimed phase”
+> is not an observed assignment to the exact binary `CHIRAL` endpoint: the
+> source's own observed regime is decreased/small-nonzero and no typed binning
+> threshold exists. Preserve the source assertion separately and use the
+> continuous modulus for observed-layer routing. See
+> `explorations/sg4-observed-epoch-binning-independent-review-2026-08-24.md`.
+
 - `explorations/conditional-build/cb-a-representation-content-2026-08-05.md`
   (owner: conditional-build lane): append a dated CORRECTION block — D2/G2
   re-scoped per V1 ("the exclusion binds a G_SM-preserving mass mechanism on

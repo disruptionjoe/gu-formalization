@@ -519,6 +519,15 @@ observed-layer quote already conditions on. No new condition enters the
 
 ## 7. Comparator routing — which route does this bind?
 
+> **Observed-epoch routing correction (independently reviewed 2026-08-24).**
+> Section 6 remains correct about its own mass-shape object: observed massive
+> states require the insertion-on side of the table. It does not assign the
+> observed epoch to the coarse `MASSIVE` bit endpoint. The source places that
+> epoch in a decreased/small-nonzero `varpi` regime for which no typed binary
+> threshold exists. Use the continuous modulus for observed-layer statements;
+> `SG4-BIT-2-PHASE` remains action-owned and open. See
+> `explorations/sg4-observed-epoch-binning-independent-review-2026-08-24.md`.
+
 **Source-native half — this BINDS.** The mass-shape table, the spinor-square
 split, the odd-count rule, the saturation fact, the cell geography of
 eq (9.16) and the selectivity table are representation theory of `D_7`

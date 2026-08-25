@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**SG4 observed-epoch binning independent review, 2026-08-24.** The source's
+decreased/small-nonzero `varpi` regime may not be assigned to either binary
+bit-2 endpoint at current grade. No source/action object supplies the required
+identification, threshold, equivalence class or coarse-graining map, and
+observed handedness is not the phase label `CHIRAL`. ST-1's insertion-on mass-
+shape result and SCUR-1's source-attribution correction both survive under
+additive routing notes: observed-epoch statements use the continuous modulus,
+while `CHIRAL`/`MASSIVE` remains the coarse endpoint declaration. The action-
+owned `SG4-BIT-2-PHASE` fork remains open. No source claim, ledger row,
+prediction, confirmation, paper, priority or public posture moves. See
+`explorations/sg4-observed-epoch-binning-independent-review-2026-08-24.md`.
+
 **B2 substantial-frontier selection, 2026-08-24.** The complete post-
 exhaustion graph has 52 B2 rows and 95 unique named requirements organized
 into six substantial arcs. Dependency typing leaves one sequential root: a
