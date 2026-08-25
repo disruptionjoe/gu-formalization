@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Source-meta philosophy and process adherence wave, 2026-08-25.** The two
+remaining author-voiced meta rows now have exact source-handling verdicts.
+`SC-META-02` moves `UNTYPED -> PARTIAL`: the repository directly engages the
+natural unifying-arena gambit through refutation survival and comparative
+abduction, but does not accept natural emergence or resemblance as proof of
+likely correctness. `SC-META-51` moves `UNTYPED -> ADHERED`: the on-tape
+generation-language fumble is preserved beside the later J5 label resolution,
+and correction/process discipline remains method evidence rather than physics
+evidence. `SC-SIG-55` stays the sole `UNTYPED` row because it is an expositor's
+belief about the author's state of mind. The register is now `ADHERED 86 /
+PARTIAL 24 / UNTYPED 1`; the coupled certificate catches 6/6 hostile
+mutations. No source polarity, scientific verdict, action owner, ledger row,
+SG4 phase, prediction, confirmation, paper, canon verdict, release readiness
+or public posture moves. See
+`explorations/sc-meta-philosophy-and-process-adherence-2026-08-25.md`.
+
 **Probe-authorship lookup hardening wave, 2026-08-25.** Fifteen concrete
 crash-not-detection defects are repaired across ledger-migration custody, live
 source/action propagation and v0.258 ledger-hygiene evidence lookup. Missing

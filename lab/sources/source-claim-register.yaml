@@ -25,8 +25,8 @@ register:
     sentence polarity verbatim; frame regression under compression is the measured failure mode.'
   - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
     target claim.'
-  adjudication_headline: 'ADHERED 85 / PARTIAL 23 / UNTYPED 3 / IGNORED 0 / CONTRADICTED 0; core: hard-core
-    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-24 residual source-claim typing wave; no source claim proven)'
+  adjudication_headline: 'ADHERED 86 / PARTIAL 24 / UNTYPED 1 / IGNORED 0 / CONTRADICTED 0; core: hard-core
+    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-25 source-meta adherence wave; no source claim proven)'
 claims:
 - id: SC-GEO-01
   polarity: ASSERTS
@@ -1532,13 +1532,20 @@ claims:
     terms, SM groups, Q = C^16 family quantum numbers, three families, and CKM.'
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: PARTIAL
     evidence:
-    - CANON.md:17-24
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: The gambit (naturalness => likely correct, admittedly unprovable) is quoted nowhere; the repo's
-      posture is an independent adversarial stance, not an engagement of it. No custody before this run.
+    - README.md#purpose-charter-sharpened-2026-07-21
+    - RESEARCH-POSTURE.md#north-star-find-the-truth-using-a-bold-conjecture-as-the-engine
+    - explorations/sc-meta-philosophy-and-process-adherence-2026-08-25.md
+    pinned_at: 3a6d6a3641778a4830e33d02f3ed37e0795c47dc
+    date: 2026-08-25
+    note: >-
+      PARTIAL as a source-philosophy boundary. The repository explicitly
+      engages the natural-unifying-arena gambit through refutation survival
+      and comparative abduction, but it does not accept natural emergence or
+      resemblance as proof of likely correctness. The source's own
+      unprovability caveat is therefore preserved while the stronger
+      evidence-bearing standard remains authoritative.
 - id: SC-META-03
   polarity: ASSERTS
   claim: The draft warns that reconstruction problems spanning nearly 40 years occur throughout the document
@@ -2862,13 +2869,20 @@ claims:
     I''m wrong'' (toe:422, 01:36:35; WG-B06).'
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: ADHERED
     evidence:
-    - lab/process/improvement-register-2026-08-03.md:1896-1903
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: The we're-fumbling process framing has no row; the repo's own correction discipline parallels
-      it. No cost.
+    - README.md#how-this-repository-is-produced
+    - explorations/sc-generation-language-caveat-audit-2026-08-24.md
+    - lab/process/correction-registry.yaml
+    - explorations/sc-meta-philosophy-and-process-adherence-2026-08-25.md
+    pinned_at: 3a6d6a3641778a4830e33d02f3ed37e0795c47dc
+    date: 2026-08-25
+    note: >-
+      ADHERED as process custody, not physics evidence. The repository
+      preserves the exact generation-language confusion beside the later J5
+      label resolution, carries corrections rather than laundering them, and
+      explicitly describes its production as internally adversarial and
+      self-correcting. The ASR fragment is not used to claim flawlessness.
 - id: SC-META-52
   polarity: UNCERTAIN
   claim: The author does not know how to deal with ultrahyperbolic equations; upstairs on the 14-manifold

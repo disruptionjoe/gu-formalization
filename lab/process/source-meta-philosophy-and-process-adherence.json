@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "source_meta_philosophy_and_process_adherence_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "register_before": {
+    "ADHERED": 85,
+    "PARTIAL": 23,
+    "UNTYPED": 3
+  },
+  "register_after": {
+    "ADHERED": 86,
+    "PARTIAL": 24,
+    "UNTYPED": 1
+  },
+  "dispositions": [
+    {
+      "id": "SC-META-02",
+      "from": "UNTYPED",
+      "to": "PARTIAL",
+      "ceiling": "repository engages the natural unifying-arena gambit but rejects naturalness or resemblance as proof of likely correctness"
+    },
+    {
+      "id": "SC-META-51",
+      "from": "UNTYPED",
+      "to": "ADHERED",
+      "ceiling": "repository preserves source confusion and corrections as process custody, never as physics evidence"
+    },
+    {
+      "id": "SC-SIG-55",
+      "from": "UNTYPED",
+      "to": "UNTYPED",
+      "ceiling": "expositor belief about author state of mind cannot be promoted"
+    }
+  ],
+  "hostile_controls": {
+    "count": 6,
+    "caught": 6,
+    "classes": [
+      "meta02_overpromotion",
+      "meta02_falsifiability_fence_loss",
+      "meta51_demotion",
+      "meta51_physics_overclaim",
+      "sig55_expositor_promotion",
+      "register_count_drift"
+    ]
+  },
+  "effect": {
+    "source_polarity_change": "none",
+    "scientific_verdict_change": "none",
+    "action_owner_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide frontier after attempting a ledger-moving arc; keep SC-SIG-55 UNTYPED unless an authorial source appears."
+}

@@ -59,9 +59,9 @@ def evaluate(data: dict, rows: dict[str, dict], artifacts: dict[str, str]) -> li
                if row["adherence"]["adherence"] == "UNTYPED"}
     checks = [
         ("register contains 111 unique claims", len(rows) == len(data["claims"]) == 111),
-        ("adherence counts are 85/23/3", adherences == {"ADHERED": 85, "PARTIAL": 23, "UNTYPED": 3}),
-        ("headline prints 85/23/3", "ADHERED 85 / PARTIAL 23 / UNTYPED 3" in data["register"]["adjudication_headline"]),
-        ("intentional UNTYPED residual is exact", untyped == {"SC-META-02", "SC-SIG-55", "SC-META-51"}),
+        ("current adherence counts are 86/24/1", adherences == {"ADHERED": 86, "PARTIAL": 24, "UNTYPED": 1}),
+        ("headline prints 86/24/1", "ADHERED 86 / PARTIAL 24 / UNTYPED 1" in data["register"]["adjudication_headline"]),
+        ("current intentional UNTYPED residual is exact", untyped == {"SC-SIG-55"}),
         ("SC-SIG-53 polarity remains UNCERTAIN", rows["SC-SIG-53"]["polarity"] == "UNCERTAIN"),
         ("SC-SIG-53 is ADHERED", rows["SC-SIG-53"]["adherence"]["adherence"] == "ADHERED"),
         ("SC-META-05 is ADHERED", rows["SC-META-05"]["adherence"]["adherence"] == "ADHERED"),
@@ -98,7 +98,7 @@ def mutate(data: dict, rows: dict[str, dict], artifacts: dict[str, str], name: s
     elif name == "residual_shrink":
         rows["SC-SIG-55"]["adherence"]["adherence"] = "ADHERED"
     elif name == "count_drift":
-        data["register"]["adjudication_headline"] = data["register"]["adjudication_headline"].replace("ADHERED 85", "ADHERED 86")
+        data["register"]["adjudication_headline"] = data["register"]["adjudication_headline"].replace("ADHERED 86", "ADHERED 87")
 
 
 def run() -> int:
