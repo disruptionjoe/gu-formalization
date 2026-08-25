@@ -8,6 +8,21 @@ verdict: CONDITIONALLY_RESOLVED
 
 # PC5 — Higgs Emergence from Inner Fluctuations of the Distortion Tensor theta
 
+> [!CAUTION]
+> **Canonical-currency correction CC-07 (2026-08-25).** This 2026-06-23
+> exploration is preserved as a historical Connes--Chamseddine comparator and
+> branching specification, but its GU reduction reading is superseded. The
+> source-declared observation map is a contraction, not a Kaluza--Klein mode
+> split: an `ad`-valued one-form on `Y^14` descends to one four-dimensional
+> one-form, and no vertical form component becomes a four-dimensional scalar.
+> See
+> `lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md`
+> and `lab/active-research/joe-directed/vz-repair/vz4-pullback-is-a-contraction-2026-08-15.md`.
+> The exact representation decompositions below remain historical evidence;
+> they do not construct a GU Higgs scalar. A current scalar route must instead
+> supply an independently typed zero-form or an explicit reduction
+> intertwiner with its source/action ownership and physical-domain data.
+
 ## 1. Problem Statement
 
 **What is being computed.** Lay out the first bounded specification for how a Higgs-like

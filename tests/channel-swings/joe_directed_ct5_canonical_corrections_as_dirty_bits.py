@@ -31,10 +31,12 @@ ANSWER, in four parts, all certified below.
       extend the registry without weakening these historical pins.
 
   (3) THE HAND WORK IS BANKED, NOT RE-DONE.  40 records transcribed from
-      SCUR-1, FIX-A and RW-1 clear 18 (file, correction) pairs.  The six FIX-A
-      records are load-bearing: removing one flips CB-A back to
-      DIRTY-KNOWN-STALE (K5), and the five RW-1 records are pinned to their
-      exact provenance rather than absorbed into a moving count.
+      SCUR-1, FIX-A and RW-1 clear 18 (file, correction) pairs.  That historical
+      seed is reconstructed from exact author provenance rather than confused
+      with later live sidecar extensions.  The six FIX-A records are
+      load-bearing: removing one flips CB-A back to DIRTY-KNOWN-STALE (K5), and
+      the five RW-1 records are pinned to their exact provenance rather than
+      absorbed into a moving count.
 
   (4) THE CEILING IS MEASURED, NOT ASSERTED.  Exactly ONE hand-recorded pair
       that a human thought worth writing down does NOT fire its own signature
@@ -118,6 +120,7 @@ PINNED_ALL_REGISTER = 23
 PINNED_STALE_FOUND = 6
 PINNED_FIXA = 6
 PINNED_RW1 = 5
+SEED_AUTHORS = frozenset({"SCUR-1", "FIX-A", "RW-1"})
 
 # The ten citation-edge corrections present when CT-5 shipped.  They stay
 # independently pinned as an ordered, unique historical subsequence; the
@@ -297,9 +300,7 @@ def run_probe(cfg: dict | None = None) -> dict:
 
     # ---------------------------------------------------------------- S ---
     checks_ = [c for c in res["checks"] if "SELFTEST" not in str(c.get("by", ""))]
-    historical_checks = [c for c in checks_
-                         if c.get("correction_id") == "ALL-REGISTER"
-                         or c.get("correction_id") in set(CANON_IDS)]
+    historical_checks = [c for c in checks_ if c.get("by") in SEED_AUTHORS]
     check("S", "sidecar seed is SCUR-1's 23 documents + 6 findings, 6 FIX-A repairs, and 5 RW-1 clearances",
           len(historical_checks) == PINNED_RECORDS, len(historical_checks))
     check("S", "23 ALL-REGISTER records (SCUR-1's per-document verdicts)",
@@ -339,31 +340,51 @@ def run_probe(cfg: dict | None = None) -> dict:
     rt = G.ratchet_failures(res)
     check("W", "live ratchet is intact", rt == [], rt[:3])
 
+    # Reconstruct CT-5's historical view from its exact seed provenance.  The
+    # live sidecar is intentionally append-only, so deriving these pins from
+    # every current record would make legitimate later adjudication look like
+    # corruption of the historical certificate.
+    extension_drops = tuple(
+        (str(c.get("file")), str(c.get("correction_id")), str(c.get("by")))
+        for c in checks_
+        if c.get("by") not in SEED_AUTHORS
+        and (c.get("correction_id") == "ALL-REGISTER"
+             or c.get("correction_id") in set(CANON_IDS))
+    )
+    historical_cfg = copy.deepcopy(cfg)
+    historical_cfg["drop_check_ids"] = tuple(
+        historical_cfg.get("drop_check_ids") or ()) + extension_drops
+    historical_res = G.compute(historical_cfg)
+    historical_per = historical_res["per"]
+
     # ---------------------------------------------------------------- D ---
     for cid in CANON_IDS:
-        p = per.get(cid)
+        p = historical_per.get(cid)
         check("D", f"dirty count pinned for {cid}",
               p is not None and p["dirty"] == PINNED_DIRTY[cid],
               None if p is None else p["dirty"])
-    total = sum(per[c]["dirty"] for c in CANON_IDS if c in per)
+    total = sum(historical_per[c]["dirty"] for c in CANON_IDS if c in historical_per)
     check("D", "total dirty (file, correction) pairs",
           total == PINNED_TOTAL_DIRTY, total)
-    cleared_total = sum(len(per[c]["cleared"]) + len(per[c]["fenced"]) + len(per[c]["repaired"])
-                        for c in CANON_IDS if c in per)
+    cleared_total = sum(
+        len(historical_per[c]["cleared"]) + len(historical_per[c]["fenced"])
+        + len(historical_per[c]["repaired"])
+        for c in CANON_IDS if c in historical_per)
     check("D", "total pairs cleared by the seeded records",
           cleared_total == PINNED_TOTAL_CLEARED, cleared_total)
-    missed = [(cid, rel) for cid in CANON_IDS if cid in per
-              for rel, _v in per[cid]["signature_missed"]]
+    missed = [(cid, rel) for cid in CANON_IDS if cid in historical_per
+              for rel, _v in historical_per[cid]["signature_missed"]]
     check("D", "measured signature blindness is exactly one pair, and it is CB-B under CC-08",
           missed == [("CC-08-DARK-PARTNER-OBLIGATION", CBB)], missed)
     check("D", "every correction's topic_reach is >= its dirty count (conjunction only narrows)",
-          all(per[c]["topic_reach"] >= per[c]["dirty"] for c in CANON_IDS if c in per))
-    leaked = sorted({d["rel"].split("/", 1)[0] for d in res["corpus"]}
+          all(historical_per[c]["topic_reach"] >= historical_per[c]["dirty"]
+              for c in CANON_IDS if c in historical_per))
+    leaked = sorted({d["rel"].split("/", 1)[0] for d in historical_res["corpus"]}
                     & {"absorbed", "papers", "_local", ".git"})
     check("D", "audited scope excludes absorbed/, papers/, _local/ -- nothing leaks in",
           leaked == [], leaked)
     surfaces_seen = sorted({d["rel"].split("/", 1)[0] if "/" in d["rel"] else "<root>"
-                            for d in res["corpus"]})
+                            for d in historical_res["corpus"]})
     check("D", "audited scope is exactly the five live surfaces plus root markdown",
           surfaces_seen == ["<root>", "canon", "docs", "explorations", "lab", "packets"],
           surfaces_seen)

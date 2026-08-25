@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Canonical-currency aged-cohort route-switch wave
+
+The complete nine-document aged CC-03, CC-04 and CC-07 dirty cohort is now
+adjudicated in three independent packets. Both total-fermionic documents
+preserve the full-Dirac/four-corner distinction; both right-chain documents
+preserve a structure-group reduction of one rank-10 normal bundle rather than
+a grand-unification gauge tower; and four of five contraction/KK documents
+already carry an explicit comparator or reduction-map fence.
+
+The remaining PC5 exploration genuinely consumed the superseded reading by
+presenting a normal-bundle/internal scalar mode as the GU Higgs mechanism. A
+prominent canonical-currency caution now preserves its exact historical
+branching work while making clear that observation contracts an `ad`-valued
+one-form to one four-dimensional one-form, not to vertical scalars. Any current
+scalar route must supply an independent zero-form or an explicit reduction
+intertwiner with owner and domain data. The correction sidecar retains both
+the stale finding and its repair. CC-03/CC-04/CC-07 dirty counts fall from
+`2/2/5` to `0/0/0`. The CT-5 certificate now reconstructs its original
+40-record seed from SCUR-1/FIX-A/RW-1 provenance instead of confusing later
+live sidecar extensions with historical corruption; it passes `70/70` and
+catches `13/13` machinery mutations. No source claim, action owner, ledger
+row, SG4 phase, prediction, confirmation, canon verdict, paper, release
+readiness or public posture moves.
+
 ## 2026-08-25 — Probe-authorship semantic-cardinality hardening wave
 
 Nine fresh L1 seams are repaired across six probes in three independent
