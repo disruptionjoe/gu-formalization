@@ -202,9 +202,12 @@ def basis_rep(owner: str, slot: int, mask: int, coefficient=Fraction(1)):
 def bilinear(left, right):
     left_owners = {key[0] for key in left}
     right_owners = {key[0] for key in right}
-    assert len(left_owners) == len(right_owners) == 1
-    left_owner = next(iter(left_owners))
-    right_owner = next(iter(right_owners))
+    if len(left_owners) != 1 or len(right_owners) != 1:
+        raise ValueError(
+            f"bilinear requires singleton owner sets, got {left_owners} and {right_owners}"
+        )
+    left_owner = tuple(left_owners)[0]
+    right_owner = tuple(right_owners)[0]
     if left_owner == "T" and right_owner == "B":
         return bilinear(right, left)
     total = sp.Integer(0)

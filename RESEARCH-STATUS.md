@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Probe-authorship semantic-cardinality hardening wave
+
+Nine fresh L1 seams are repaired across six probes in three independent
+packets. One exact inverse now names a singular pivot column; two moving-Shiab
+consumers require exactly one codimension-one complement; and target-mask plus
+K77 bilinear consumers require exact singleton bit or owner sets before
+extraction. Successful mathematics and scientific assertions are unchanged.
+
+The repository-wide authorship ratchet falls from 98 reports across 984 probes
+to 89 across 985. The coupled certificate passes its complete control suite and
+catches all nine hostile semantic-cardinality classes. This second consecutive
+distance-reduction wave is structurally justified only by the exact continuing
+authority/dependency blocks on source-to-proof, ledger-moving B2 and
+prediction/SG4 work; repeated survival adds no scientific confidence. Source
+claims, all 91 v0.263 ledger dispositions, action ownership, SG4, predictions,
+confirmations, papers, canon, release readiness and public posture remain
+unchanged. See
+`explorations/probe-authorship-semantic-cardinality-wave-2026-08-25.md`.
+
 ## 2026-08-25 — Probe-authorship domain-precondition hardening wave
 
 Nine fresh L1 seams are repaired across eight probes in three independent

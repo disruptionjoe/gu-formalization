@@ -117,9 +117,16 @@ check("control", "actual target exterior transport is nonzero", r_form13.rank() 
 def target_matrix(form):
     out = sp.zeros(14, 14)
     for (form_mask, cliff_mask), coefficient in flatten(form).items():
-        assert coefficient[1] == 0 and form_mask.bit_count() == 13 and cliff_mask.bit_count() == 1
-        missing = next(i for i in range(14) if not form_mask & (1 << i))
-        cliff = next(i for i in range(14) if cliff_mask & (1 << i))
+        missing_indices = [i for i in range(14) if not form_mask & (1 << i)]
+        cliff_indices = [i for i in range(14) if cliff_mask & (1 << i)]
+        if coefficient[1] != 0 or len(missing_indices) != 1 or len(cliff_indices) != 1:
+            raise AssertionError(
+                "target transport requires one missing form bit, one Clifford bit, "
+                f"and zero imaginary coefficient; got {missing_indices}, "
+                f"{cliff_indices}, {coefficient[1]}"
+            )
+        missing = missing_indices[0]
+        cliff = cliff_indices[0]
         # combinations(range(14),13) are ordered by the missing index in reverse.
         row = 13 - missing
         out[row, cliff] = sp.Rational(coefficient[0].numerator, coefficient[0].denominator)

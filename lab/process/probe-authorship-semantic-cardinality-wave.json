@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_semantic_cardinality_wave_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 98,
+    "probe_corpus": 984,
+    "baseline": 98
+  },
+  "after": {
+    "violations": 89,
+    "probe_corpus": 985,
+    "baseline": 89,
+    "repaired_violations": 9
+  },
+  "repair_packets": [
+    {
+      "id": "EXACT_INVERSE_SINGULARITY_DOMAIN",
+      "result": "HARDENED",
+      "repaired_violations": 1,
+      "paths": [
+        "tests/channel-swings/eric_curt_wave3b_cech_domain_quotient_probe.py"
+      ]
+    },
+    {
+      "id": "CODIMENSION_ONE_COMPLEMENT_DOMAIN",
+      "result": "HARDENED",
+      "repaired_violations": 2,
+      "paths": [
+        "tests/channel-swings/eric_curt_wave3d_b2c15m_moving_shiab_exact_g2_weighted_euler_probe.py",
+        "tests/channel-swings/pw2fr2b2b2a_native_coefficient_action_split_probe.py"
+      ]
+    },
+    {
+      "id": "SINGLETON_OWNER_AND_TARGET_MASK_DOMAIN",
+      "result": "HARDENED",
+      "repaired_violations": 6,
+      "paths": [
+        "tests/channel-swings/selected_invariant_constituent_operator_naturality_probe.py",
+        "tests/channel-swings/selected_k77_cbrs1l_broken_symmetry_tangent_probe.py",
+        "tests/channel-swings/selected_k77_cbrs1n_j4_complete_tangent_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 9,
+    "caught": 9,
+    "classes": [
+      "singular_exact_matrix",
+      "missing_exterior_complement",
+      "duplicate_exterior_complement",
+      "missing_target_form_bit",
+      "duplicate_target_form_bit",
+      "missing_target_clifford_bit",
+      "duplicate_target_clifford_bit",
+      "empty_owner_set",
+      "mixed_owner_set"
+    ]
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; repair residual L1/L2 debt only through another semantically reviewed nonoverlapping cohort, and route-switch after this second consecutive distance-reduction wave unless exact scientific blockers still justify continuation."
+}

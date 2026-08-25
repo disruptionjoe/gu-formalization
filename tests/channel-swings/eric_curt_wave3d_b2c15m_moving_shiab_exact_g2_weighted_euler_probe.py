@@ -707,7 +707,12 @@ def dm_checks() -> None:
                 for key, internal in moving.items():
                     if len(key) != N - 1:
                         continue
-                    missing = next(index for index in range(N) if index not in key)
+                    missing_indices = [index for index in range(N) if index not in key]
+                    if len(missing_indices) != 1:
+                        raise AssertionError(
+                            f"expected one codimension-one complement, got {missing_indices}"
+                        )
+                    missing = missing_indices[0]
                     for output_mask in internal:
                         x_form: SForm = {(missing,): {output_mask: sp.Integer(1)}}
                         dm_value, compact_value = differentiated_cubic(

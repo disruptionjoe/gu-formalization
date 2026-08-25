@@ -44,7 +44,12 @@ def inverse(value):
     assert size == len(value[0])
     augmented = [list(value[row]) + list(identity(size)[row]) for row in range(size)]
     for column in range(size):
-        pivot = next(row for row in range(column, size) if augmented[row][column] != 0)
+        pivot = next(
+            (row for row in range(column, size) if augmented[row][column] != 0),
+            None,
+        )
+        if pivot is None:
+            raise AssertionError(f"matrix is singular at pivot column {column}")
         augmented[column], augmented[pivot] = augmented[pivot], augmented[column]
         divisor = augmented[column][column]
         augmented[column] = [entry / divisor for entry in augmented[column]]

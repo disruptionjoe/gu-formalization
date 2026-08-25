@@ -168,7 +168,12 @@ def active_moving_coefficient() -> dict[str, object]:
         for (key, mask), coefficient in sorted(M.flatten_form(response).items()):
             if len(key) != M.N - 1 or coefficient == 0:
                 continue
-            missing = next(index for index in range(M.N) if index not in key)
+            missing_indices = [index for index in range(M.N) if index not in key]
+            if len(missing_indices) != 1:
+                raise AssertionError(
+                    f"expected one codimension-one complement, got {missing_indices}"
+                )
+            missing = missing_indices[0]
             one: M.SForm = {(missing,): {mask: sp.Integer(1)}}
             derivative = top_scalar(one, response)
             if derivative != 0:
