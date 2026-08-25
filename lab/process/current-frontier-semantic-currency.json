@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "current_frontier_semantic_currency_registry",
+  "created": "2026-08-25",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED",
+  "target_claim": "NONE-NOT-A-KILL",
+  "basis": {
+    "research_agenda": {
+      "path": "lab/process/RESEARCH-AGENDA.json",
+      "sha256": "c76352f496edc5ddc49949c8961403289f78ea9512f392de9cb19f3388b83650"
+    },
+    "phenomenology_disposition_register": {
+      "path": "lab/process/phenomenology-disposition-register-v0.1.json",
+      "sha256": "759eb1dcad644a7ed28d7b56d1fbbf43e1d2065af7352105cb02ccde0bf2d728",
+      "terminal_rows": 91,
+      "open_rows": 0,
+      "exhausted": true,
+      "b2_selectable": true
+    },
+    "b2_frontier": {
+      "path": "lab/process/b2-substantial-frontier-selection.json",
+      "sha256": "cbb471e1903860862fa84ce1164c8830b08477986018ae9d9cad0ec88f995616"
+    },
+    "w154_w229_qualification": {
+      "path": "lab/process/w154-w229-k77-action-owner-qualification.json",
+      "sha256": "48b2c8ead73eb4cb390c9b511e274759058cadd63c9454d99d0c3001f4ca262d",
+      "candidate_admitted": false,
+      "root_candidate_state": "EMPTY_AT_CURRENT_SOURCE_AND_ACTION_OWNERSHIP"
+    }
+  },
+  "live_frontier": {
+    "current_question_contains": "strongest disjoint non-B2 native Progress gate",
+    "selected_condition": "REBUILD_REPOSITORY_WIDE_FRONTIER__SELECT_STRONGEST_DISJOINT_NON_B2_GATE",
+    "b2_root": "EMPTY_NAMED_OWNER_SET",
+    "reopeners": [
+      "source-authenticated or owner-native coefficient-complete K77 pre-density action",
+      "genuine real Spin-equivariant action bridge",
+      "materially distinct K77 action class with independent normalization and complete variational ownership"
+    ],
+    "forbidden_repeats": [
+      "synthetic CBRS-1AC",
+      "W154/W229 qualification",
+      "HE-1",
+      "invariant-gapping campaign"
+    ],
+    "selection_order": [
+      "source-to-proof delta",
+      "ledger-moving arc",
+      "concrete result-hardening defect"
+    ]
+  },
+  "surface_contract": {
+    "live_key": "next_condition",
+    "history_key": "prior_conditions",
+    "history_is_instruction": false,
+    "history_preserved": true,
+    "stale_live_markers_forbidden": [
+      "25 terminal and 66 open",
+      "b2_selectable=false",
+      "Next audit the shared physical-quotient",
+      "Qualify the only named materially distinct candidate"
+    ]
+  },
+  "protected_effects": {
+    "ledger_verdict_change": false,
+    "source_ownership_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "result_ref": "explorations/current-frontier-semantic-currency-hardening-2026-08-25.md",
+  "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
+}

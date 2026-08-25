@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current-frontier semantic-currency hardening, 2026-08-25.** The branch-
+relative orientation surface now separates its single operative
+`next_condition` from preserved `prior_conditions`. The live condition keeps
+the named B2 action root empty after CBRS-1AB owner exhaustion and W154/W229
+nonadmission, requires a fresh repository-wide selection of the strongest
+disjoint non-B2 gate, and retains the exact K77 action/bridge reopeners. The
+older 25/66 and `b2_selectable=false` instructions remain available as history
+but can no longer be parsed as current work. A fail-closed certificate pins the
+91/91 terminal disposition truth, empty root-candidate set, live question,
+protected no-movement fields and history/live split. No source, ledger, SG4,
+prediction, confirmation, claim, canon, release or public posture moves. See
+`explorations/current-frontier-semantic-currency-hardening-2026-08-25.md`.
+
 **SC-GEN-53 prediction-seed currency reconciliation, 2026-08-25.** The
 owner-authoritative prediction agenda no longer asks future work to repeat
 HE-1's completed complex `16`/`144` restriction. HE-1 already supplies the
