@@ -143,13 +143,13 @@ def verify_source_packet() -> None:
     cores = {key: sum(c["core"] == key for c in claims) for key in ("hard-core", "auxiliary", "disavowed-by-source")}
     headline = data["register"]["adjudication_headline"]
     check("source-register population is unique 111", len(claims) == len({c["id"] for c in claims}) == 111, len(claims))
-    # PIN BUMPED 2026-08-24: SC-SIG-51 and SC-GRP-04 moved UNTYPED ->
-    # PARTIAL under their dedicated object-typing certificates. The SG4,
+    # PIN BUMPED 2026-08-24: the object-typing and residual source-typing
+    # waves moved six rows while preserving every polarity. The SG4,
     # SC-GRP-50 and parity facts certified by this historical wave are
     # unchanged; this check intentionally follows the live register headline.
-    check("source-register adherence counts are current", adherence == {"ADHERED": 82, "PARTIAL": 22, "UNTYPED": 7}, adherence)
+    check("source-register adherence counts are current", adherence == {"ADHERED": 85, "PARTIAL": 23, "UNTYPED": 3}, adherence)
     check("source-register core counts are current", cores == {"hard-core": 49, "auxiliary": 51, "disavowed-by-source": 11}, cores)
-    check("headline prints new PARTIAL and hard-core counts", "PARTIAL 22" in headline and "hard-core 49" in headline)
+    check("headline prints new adherence and hard-core counts", "ADHERED 85 / PARTIAL 23 / UNTYPED 3" in headline and "hard-core 49" in headline)
 
 
 def verify_parity_packet() -> None:

@@ -25,8 +25,8 @@ register:
     sentence polarity verbatim; frame regression under compression is the measured failure mode.'
   - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
     target claim.'
-  adjudication_headline: 'ADHERED 82 / PARTIAL 22 / UNTYPED 7 / IGNORED 0 / CONTRADICTED 0; core: hard-core
-    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-24 SC-SIG-51 and SC-GRP-04 object typing; no source claim proven)'
+  adjudication_headline: 'ADHERED 85 / PARTIAL 23 / UNTYPED 3 / IGNORED 0 / CONTRADICTED 0; core: hard-core
+    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-24 residual source-claim typing wave; no source claim proven)'
 claims:
 - id: SC-GEO-01
   polarity: ASSERTS
@@ -1604,13 +1604,18 @@ claims:
     reading of the 2+1 claims.
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: ADHERED
     evidence:
     - lab/process/CURRENT-RESEARCH-CONTEXT.md:529-531
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: Footnote 13 (mass vs flavor eigenstates spoken of loosely) appears nowhere; nothing currently
-      violates it (the panel's 2+1 claims avoid mass-ordering), but typing it is cheap insurance.
+    - explorations/sc-generation-language-caveat-audit-2026-08-24.md
+    - tests/channel-swings/source_claim_residual_typing_wave_probe.py
+    pinned_at: 9d109814b8fcd8c27d4afa23b0fc5763fa7ddccd
+    date: 2026-08-24
+    note: >-
+      ADHERED. Footnote 13 is now an explicit inference fence: no 2+1,
+      imposter-label, mass-shape or future spectrum statement may identify
+      mass and flavor eigenstates without an independently constructed mixing
+      map. The caveat changes no generation carrier, label or physics verdict.
 - id: SC-META-06
   polarity: DISAVOWS
   claim: The phrase 'identical in form to a true generation' occurs nowhere in the draft; the only 'true
@@ -1876,13 +1881,19 @@ claims:
     bit of a discrepancy between you and me''). See SC-META-51 for the author''s process framing of it.'
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: ADHERED
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:30
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: The on-tape gamma-trace-vs-traceless fumble has no repo row; its question is settled in substance
-      by (A)'s gamma-trace assignment, so typing it is optional provenance hygiene only.
+    - explorations/sc-generation-language-caveat-audit-2026-08-24.md
+    - tests/channel-swings/source_claim_residual_typing_wave_probe.py
+    pinned_at: 9d109814b8fcd8c27d4afa23b0fc5763fa7ddccd
+    date: 2026-08-24
+    note: >-
+      ADHERED as source uncertainty. The exchange's gamma-trace versus
+      gamma-traceless language fumble is preserved separately from J5's
+      RESOLVED(A) imposter-third label. The later contraction/kernel wording
+      does not construct a physical second family, choose a mass ordering or
+      identify mass and flavor eigenstates.
 - id: SC-GEN-53
   polarity: ASSERTS
   claim: As the energy scale increases, two of the three generations will stay identical up to mass and
@@ -2174,13 +2185,19 @@ claims:
     signature uncertainty, 2020.'
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: ADHERED
     evidence:
     - NEXT-STEPS.md:162-175
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: The author's own 2020 'off by a sign somewhere, or I could be mistaken' is uncited even by the
-      relative-sign-bit resolver packet it directly supports - a one-line strengthening.
+    - explorations/signature-ambient-relative-sign-resolver-design-packet-2026-08-11.md
+    - explorations/sc-sig53-source-sign-uncertainty-audit-2026-08-24.md
+    - tests/channel-swings/source_claim_residual_typing_wave_probe.py
+    pinned_at: 9d109814b8fcd8c27d4afa23b0fc5763fa7ddccd
+    date: 2026-08-24
+    note: >-
+      ADHERED as explicit source uncertainty. It licenses the need for a
+      relative-sign resolver and forbids presenting the Euclidean-to-Minkowski
+      continuation as source-settled. It does not locate the sign, select K77
+      or K95, resolve SIGNATURE-AMBIENT, or alter REAL-CLIFFORD-FORM.
 - id: SC-SIG-54
   polarity: CURT-ATTRIBUTES-TO-AUTHOR
   claim: Curt states that the trace contributes (1,0) or (0,1) by free choice and that Eric chooses (4,6)
@@ -2491,14 +2508,21 @@ claims:
     only.
   core: disavowed-by-source
   adherence:
-    adherence: UNTYPED
+    adherence: PARTIAL
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:22
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: 'Never-see-LHC-superpartners (custody: WG-SG6/row 10, flagged retrodiction-flavored) is on no
-      treatment surface; the adjacent spacetime-SUSY guardian rejection is typed. Cheap tripwire against
-      SUSY-shaped imports if typed.'
+    - explorations/misc/super-ig-algebra-construction-2026-06-23.md:286-296
+    - explorations/sc-pre50-lhc-superpartner-prediction-typing-2026-08-24.md
+    - tests/channel-swings/source_claim_residual_typing_wave_probe.py
+    pinned_at: 9d109814b8fcd8c27d4afa23b0fc5763fa7ddccd
+    date: 2026-08-24
+    note: >-
+      PARTIAL. The source's disavowal of spacetime-SUSY superpartners and the
+      distinct super-IG construction are now typed. The empirical target is
+      still SOURCE-UNDERDEFINED: no exact model, mass range, cross-section,
+      decay signature, dataset, exclusion map or predeclared threshold is
+      supplied. Existing collider nulls are not counted as confirmation and
+      no prediction packet is opened.
 - id: SC-PRE-51
   polarity: ASSERTS
   claim: GU predicts spin-3/2 matter coupled to a 16-dimensional vector space resembling the standard-model

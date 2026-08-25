@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Residual source-claim typing wave, 2026-08-24.** `SC-SIG-53`, `SC-META-05`
+and `SC-GEN-52` move from `UNTYPED` to `ADHERED`; `SC-PRE-50` moves from
+`UNTYPED` to `PARTIAL`. The register now reads `ADHERED 85 / PARTIAL 23 /
+UNTYPED 3`, with the exact intentional residual `SC-META-02`, `SC-SIG-55` and
+`SC-META-51`. The source's uncertain Euclidean-to-Minkowski sign has zero
+signature-horn-selection power. Its gamma-language and mass/flavor caveats
+now explicitly fence the resolved J5 label from physical-family inference.
+Its categorical LHC superpartner disavowal supplies no exact conventional
+model, search rule or failure map, so current collider nulls are not counted
+as confirmation and no prediction packet opens. No polarity, physics verdict,
+action owner, ledger row, SG4 phase, prediction, confirmation, paper, priority,
+canon or public posture moves. See
+`explorations/sc-sig53-source-sign-uncertainty-audit-2026-08-24.md`,
+`explorations/sc-generation-language-caveat-audit-2026-08-24.md`, and
+`explorations/sc-pre50-lhc-superpartner-prediction-typing-2026-08-24.md`.
+
 **Source-claim object-typing wave, 2026-08-24.** `SC-SIG-51` and `SC-GRP-04`
 move from `UNTYPED` to `PARTIAL` without polarity changes. The four normalized
 trace/traceless sign forms are exact, with inertias `(7,3)`, `(6,4)`, `(4,6)`
