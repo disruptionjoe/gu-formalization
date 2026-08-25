@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_witness_wave_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 136,
+    "probe_corpus": 980,
+    "baseline": 136
+  },
+  "after": {
+    "violations": 114,
+    "probe_corpus": 981,
+    "baseline": 114,
+    "repaired_violations": 22
+  },
+  "repair_packets": [
+    {
+      "id": "ERIC_CURT_WITNESS_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 7,
+      "paths": [
+        "tests/channel-swings/eric_curt_wave3d_b2c14_active_y14_shiab_graph_conormal_probe.py",
+        "tests/channel-swings/eric_curt_wave3d_b2c15p_source_epsilon_tangent_zorro_dewitt_probe.py",
+        "tests/channel-swings/eric_curt_wave3d_b2c15q_distortion_substitution_native_zorro_shiab_owner_return_probe.py",
+        "tests/channel-swings/eric_curt_wave3d_b2c15r3_same_bundle_native_variation_observation_support_probe.py",
+        "tests/channel-swings/eric_curt_wave3d_b2c15r_reductive_return_rank_strata_probe.py"
+      ]
+    },
+    {
+      "id": "SOURCE_PORT_AND_RESIDUAL_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 8,
+      "paths": [
+        "tests/channel-swings/pw2e_finite_native_shiab_descent_probe.py",
+        "tests/channel-swings/pw2fr2b2a_second_frechet_c4_graph_probe.py",
+        "tests/channel-swings/pw2fr2b2b2b_source_residual_leading_symbol_probe.py",
+        "tests/channel-swings/resolver_wave_f_source_port_action_ownership_probe.py",
+        "tests/channel-swings/resolver_wave_k77b2_shiab_family_curvature_selector_transgression_probe.py"
+      ]
+    },
+    {
+      "id": "K77_CARRIER_AND_BASIS_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 7,
+      "paths": [
+        "tests/channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_probe.py",
+        "tests/channel-swings/selected_k77_i2b_real_curvature_euler_image_probe.py",
+        "tests/channel-swings/selected_k77_observation_stabilizer_subbundle_probe.py",
+        "tests/channel-swings/selected_k77_p3_native_characteristic_pairing_probe.py",
+        "tests/channel-swings/selected_k77_p3_selfdual_source_reduction_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 8,
+    "caught": 8,
+    "classes": [
+      "empty_degree_witness",
+      "missing_exterior_complement",
+      "missing_live_leg",
+      "empty_projector_coefficient",
+      "missing_residual_coordinate",
+      "empty_curvature_bank",
+      "missing_dependency_key",
+      "missing_basis_pivot"
+    ]
+  },
+  "validation": {
+    "compiled_touched_probe_count": 15,
+    "green_fast_probe_checks": [62, 101, 63, 63],
+    "inherited_only_failure": "selected_k77_observation_stabilizer_subbundle_probe.py: stale tangent-bank dependency before touched check",
+    "measured_resource_limit": "NumPy-backed full replay stopped after the first heavy probe exceeded five minutes without a result",
+    "selected_residual_l1": 0
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; repair residual L1/L2 debt only through another semantically reviewed nonoverlapping cohort."
+}

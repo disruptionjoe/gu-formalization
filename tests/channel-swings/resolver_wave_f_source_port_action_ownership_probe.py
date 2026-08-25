@@ -347,10 +347,16 @@ check(
     "Pext^0=J5 (1/9) pi_V5 delta is the rank-252 projector after grade-six typing",
     canonical_projector_ok and full_coefficients == {Fraction(9)},
 )
+full_coefficient = next(iter(full_coefficients), None)
+check(
+    "exact",
+    "the full grade-six projector coefficient bank is nonempty",
+    full_coefficient is not None,
+)
 check(
     "planted",
     "the observer-first vertical normalization 1/5 fails on the full grade-six exterior carrier",
-    Fraction(1, 5) * next(iter(full_coefficients)) != 1,
+    full_coefficient is not None and Fraction(1, 5) * full_coefficient != 1,
 )
 
 vertical_support = set(j_q_basis(forms5_v[0], Fraction(1), Fraction(0)))
@@ -552,9 +558,12 @@ def x_on_form(form: tuple[int, ...]) -> dict[tuple[int, ...], Fraction]:
     return {key: value for key, value in out.items() if value != 0}
 
 
-x_phi = x_on_form(next(iter(phi_mix_seed)))
+check("exact", "the mixed five-form seed is nonempty", bool(phi_mix_seed))
+x_phi = x_on_form(next(iter(phi_mix_seed), forms5_v[0]))
 p_x_phi = p_v5(x_phi, V0)
-x_p_phi = x_on_form(next(iter(p_v5(phi_mix_seed, V0))))
+p_phi_seed = p_v5(phi_mix_seed, V0)
+check("exact", "the projected mixed five-form seed is nonempty", bool(p_phi_seed))
+x_p_phi = x_on_form(next(iter(p_phi_seed), forms5_v[0]))
 d_p_phi = add_dict(x_p_phi, scale_dict(Fraction(-1), p_x_phi))
 check(
     "exact",

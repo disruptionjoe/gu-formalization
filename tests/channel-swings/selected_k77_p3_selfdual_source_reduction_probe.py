@@ -45,7 +45,9 @@ def exterior_sign(indices):
 
 
 def four_volume_coefficient(curvature):
-    answer = sp.zeros(next(iter(curvature.values())).rows)
+    values = list(curvature.values())
+    check("custody", "the curvature factor supplies a matrix-size witness", bool(values))
+    answer = sp.zeros(values[0].rows if values else 0)
     for a, A in curvature.items():
         for b, B in curvature.items():
             sign = exterior_sign(a + b)
@@ -107,7 +109,9 @@ check("factor", "anti-self-dual source component is nonzero", any(value != sp.ze
 
 t = sp.symbols("t", real=True)
 scaled_minus = {key: sp.simplify(t**2 * value / 3) for key, value in F_minus.items()}
-nonzero_entry = next(entry for value in scaled_minus.values() for entry in value if entry != 0)
+nonzero_entry = next((entry for value in scaled_minus.values() for entry in value if entry != 0), None)
+check("custody", "the scaled anti-self-dual factor retains a nonzero witness", nonzero_entry is not None)
+nonzero_entry = nonzero_entry if nonzero_entry is not None else sp.Integer(0)
 check("factor", "pure SU2+ membership forces t=0", sp.solve(sp.Eq(nonzero_entry, 0), t) == [0])
 check("factor", "declared nonzero branch is not SU2+ valued", any(value.subs(t, sp.Rational(1, 104)) != sp.zeros(4) for value in scaled_minus.values()))
 check("planted", "PLANT split preservation is weaker than one-factor selection", all(value * chi - chi * value == sp.zeros(4) for value in F.values()) and any(value != sp.zeros(4) for value in F_minus.values()))

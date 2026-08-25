@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Probe-authorship witness-custody hardening wave
+
+Twenty-two semantically reviewed crash-not-detection seams are repaired across
+three independent packets: seven Eric/Curt witness paths, eight source-port and
+residual paths, and seven K77 carrier/basis paths. Missing exterior complements,
+live Clifford legs, residual coordinates, projector coefficients, curvature
+fixtures, dependency keys and pivots now reach controlled checks or safe
+sentinels before use, while successful scientific values are unchanged.
+
+The repository-wide authorship ratchet falls from 136 reports across 980 probes
+to 114 across 981. Four directly executable touched probes pass 62/62, 101/101,
+63/63 and 63/63; all fifteen touched probes compile; the coupled certificate
+catches eight hostile missing-witness controls. One observation probe retains
+its inherited stale tangent-bank dependency, and a NumPy-backed full replay hit
+the measured five-minute focused-validation limit at its first heavy probe.
+This is mechanical certificate hardening only: source claims, all 91 v0.263
+ledger dispositions, action ownership, the open SG4 phase, predictions,
+confirmations, papers, canon, release readiness and public posture remain
+unchanged. See
+`explorations/conditional-build/probe-authorship-witness-wave-2026-08-25.md`.
+
 ## 2026-08-25 — Canonical-currency stale-consumer repair wave
 
 All seven known stale consumers exposed by the CC-11--CC-13 currency sweep

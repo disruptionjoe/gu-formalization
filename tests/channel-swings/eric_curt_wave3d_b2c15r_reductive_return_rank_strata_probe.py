@@ -553,7 +553,8 @@ def optional_channel_checks() -> None:
     metric_norms = [
         norm for norm, grade in zip(metric_norms_all, metric_grades) if grade == 2
     ]
-    live10 = next(value for value in r10.values() if value)
+    live10 = next((value for value in r10.values() if value), {})
+    exact("the optional r10 return retains a live coefficient witness", bool(live10))
     optional_cross: dict[str, list[sp.Expr]] = {}
     for name, value in (("r10", live10), ("r14", r14[0])):
         rows, norms = h_coefficient_rows(xi, value)

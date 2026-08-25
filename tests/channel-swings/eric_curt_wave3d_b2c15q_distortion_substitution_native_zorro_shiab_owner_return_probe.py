@@ -347,9 +347,16 @@ def actual_shiab_checks(witnesses: dict[int, tuple[int, int, F]]) -> None:
         for key, cliff in source.items()
         for mask, coefficient in cliff.items()
     ]
-    missing_indices = {
-        next(index for index in range(N) if index not in key)
+    missing_by_key = {
+        key: [index for index in range(N) if index not in key]
         for key in source
+    }
+    exact(
+        "every native trace-adapted Shiab leg has exactly one exterior complement",
+        all(len(indices) == 1 for indices in missing_by_key.values()),
+    )
+    missing_indices = {
+        indices[0] for indices in missing_by_key.values() if indices
     }
     exact(
         "the actual 71-leg Zorro spin curvature yields a 13-leg native trace-adapted Shiab coefficient",
@@ -370,7 +377,13 @@ def actual_shiab_checks(witnesses: dict[int, tuple[int, int, F]]) -> None:
     q_base = {}
     witness_count = 0
     for key, mask, _coefficient in flattened:
-        missing = next(index for index in range(N) if index not in key)
+        missing = next((index for index in range(N) if index not in key), None)
+        exact(
+            f"native Shiab leg {key} retains an exterior complement witness",
+            missing is not None,
+        )
+        if missing is None:
+            continue
         if mask in witnesses:
             witness_count += 1
         q_base[(missing,)] = {mask: F(1)}
@@ -565,7 +578,7 @@ def nonlinear_opportunity_checks() -> None:
     exact(
         "degree-two through degree-four Clifford concomitants provide explicit witnesses in all missing quotient grades",
         all(outputs.values())
-        and {name: next(iter(value)).bit_count() for name, value in outputs.items()}
+        and {name: next(iter(value), 0).bit_count() for name, value in outputs.items()}
         == {"Q10": 10, "Q14": 14, "Q7a": 7, "Q7b": 7, "Q6a": 6, "Q6b": 6},
         str({name: len(value) for name, value in outputs.items()}),
     )

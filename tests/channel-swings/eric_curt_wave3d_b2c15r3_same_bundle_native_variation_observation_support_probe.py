@@ -242,7 +242,9 @@ def same_bundle_checks() -> None:
     exact("the structural induced inclusion preserves the Lie bracket", matrix_equal(sp4_lie_embed(comm(X, Y)), comm(sp4_lie_embed(X), sp4_lie_embed(Y))))
     lam = sp.symbols("lambda")
     scale_defect = sp.simplify(comm(lam * sp4_lie_embed(X), lam * sp4_lie_embed(Y)) - lam * sp4_lie_embed(comm(X, Y)))
-    nonzero_scale_entry = next(entry for entry in scale_defect if entry != 0)
+    nonzero_scale_entry = next((entry for entry in scale_defect if entry != 0), None)
+    exact("the nonabelian scale defect retains a nonzero witness", nonzero_scale_entry is not None)
+    nonzero_scale_entry = nonzero_scale_entry if nonzero_scale_entry is not None else sp.Integer(0)
     exact("a rescaled nonabelian inclusion is a Lie map only at scale zero or one", sp.solve(nonzero_scale_entry, lam) == [0, 1])
 
     J = sp.Matrix([[0, 1], [-1, 0]])

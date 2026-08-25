@@ -143,9 +143,16 @@ with tempfile.TemporaryDirectory() as temporary:
           rejected("mutated.json", lambda p: p["tangent"]["vectors"][0]["entries"][0].__setitem__(1, 7)))
     check("planted", "PLANT a self-consistent wrong rank is rejected by the schema gate",
           rejected("wrong-rank.json", lambda p: p["tangent"].__setitem__("rank", 593), rehash=True))
+    check("custody", "the tangent bank records at least one dependency digest",
+          bool(tangent.payload["dependency_hashes"]))
+
+    def stale_dependency(payload):
+        dependency = next(iter(payload["dependency_hashes"]), None)
+        if dependency is not None:
+            payload["dependency_hashes"][dependency] = "0" * 64
+
     check("planted", "PLANT a self-consistent stale dependency is rejected",
-          rejected("stale.json", lambda p: p["dependency_hashes"].__setitem__(
-              next(iter(p["dependency_hashes"])), "0" * 64), rehash=True))
+          rejected("stale.json", stale_dependency, rehash=True))
 
 
 def bits(mask):

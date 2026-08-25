@@ -514,7 +514,9 @@ def decode_amplitude(output: Form, sector: str) -> sp.Expr:
     if sector == "L":
         return sp.simplify(coefficient.get(1 << 0, 0))
     reference = emul(blade(0), VOLUME)
-    mask, unit = next(iter(reference.items()))
+    reference_items = list(reference.items())
+    check("exact", "the right-sector volume reference has one live coefficient", len(reference_items) == 1)
+    mask, unit = reference_items[0] if reference_items else (0, F(1))
     return sp.simplify(coefficient.get(mask, 0) / unit)
 
 

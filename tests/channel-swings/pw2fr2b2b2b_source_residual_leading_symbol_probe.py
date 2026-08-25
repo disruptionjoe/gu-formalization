@@ -342,7 +342,9 @@ def residual_pairing_checks() -> dict[str, object]:
         form_equal(lower_primal(primalize_residual(residual)), residual),
     )
 
-    first_coordinate = next(iter(coordinates))
+    first_coordinate = next(iter(coordinates), None)
+    exact("the full residual carrier retains a coordinate witness", first_coordinate is not None)
+    first_coordinate = first_coordinate if first_coordinate is not None else (0, 0)
     mu, mask = first_coordinate
     complement = tuple(index for index in range(14) if index != mu)
     single: M.SForm = {complement: {mask: sp.Integer(1)}}

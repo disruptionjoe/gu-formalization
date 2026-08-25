@@ -277,8 +277,9 @@ def finite_operator_checks(curvature: M.SForm, u: M.SCliff) -> None:
     moved_actual = invariant_projector = 0
     projector_commutation_failures = 0
     tangent_cases = 0
-    fixture_key = next(iter(curvature))
-    sparse_fixture = {fixture_key: curvature[fixture_key]}
+    fixture_key = next(iter(curvature), None)
+    exact("the native curvature bank supplies a finite-mover fixture", fixture_key is not None)
+    sparse_fixture = {fixture_key: curvature[fixture_key]} if fixture_key is not None else {}
     for panel_index, (left, right, scalar, bridge) in enumerate(panel):
         uv = M.sclean({mask: sp.simplify(value.subs({c3: left, c11: right})) for mask, value in u.items()})
         delta = sp.simplify(left**2 - right**2)
@@ -430,8 +431,9 @@ def three_patch_checks(curvature: M.SForm, source_t: M.SForm, u: M.SCliff) -> No
     }
     local_h = local_h_symbolic
     local_hinv = local_hinv_symbolic
-    fixture_key = next(iter(curvature))
-    sparse_fixture = {fixture_key: curvature[fixture_key]}
+    fixture_key = next(iter(curvature), None)
+    exact("the native curvature bank supplies an overlap fixture", fixture_key is not None)
+    sparse_fixture = {fixture_key: curvature[fixture_key]} if fixture_key is not None else {}
     local_f = tuple(fconj(inverses[i], sparse_fixture, frames[i]) for i in range(3))
 
     def local_operator(i: int, value: M.SForm) -> M.SForm:

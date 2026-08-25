@@ -39,7 +39,9 @@ def exterior_sign(indices):
 
 
 def four_volume_coefficient(curvature):
-    size = next(iter(curvature.values())).rows
+    values = list(curvature.values())
+    check("custody", "the curvature bank supplies a matrix-size witness", bool(values))
+    size = values[0].rows if values else 0
     answer = sp.zeros(size)
     for a, A in curvature.items():
         for b, B in curvature.items():

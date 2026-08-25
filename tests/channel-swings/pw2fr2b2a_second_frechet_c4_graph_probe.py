@@ -459,7 +459,9 @@ def helmholtz_green_checks(result: dict[str, object]) -> None:
         "the assembled even-order owner coefficient bank is symmetric by construction",
         all(matrix == matrix.T for matrix in coefficients),
     )
-    chosen = next(matrix for matrix in coefficients if not is_zero(matrix))[:3, :3]
+    live_coefficients = [matrix for matrix in coefficients if not is_zero(matrix)]
+    exact("the even-order owner coefficient bank retains a live Green witness", bool(live_coefficients))
+    chosen = (live_coefficients[0] if live_coefficients else sp.zeros(3))[:3, :3]
     u = [list(sp.symbols(f"u{owner}_0:6")) for owner in range(3)]
     v = [list(sp.symbols(f"v{owner}_0:6")) for owner in range(3)]
     u0 = sp.Matrix([row[0] for row in u])

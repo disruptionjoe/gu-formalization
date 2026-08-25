@@ -78,10 +78,12 @@ primitive = P["P"]
 linear_combination = primitive["linear_combination"]
 grade2 = [u for u, grade in zip(C["directions"], C["direction_grades"]) if grade == 2]
 horizontal_basis = primitive["horizontal_basis"]
-horizontal_keys = {next(iter(M["flatten"](u))) for u in horizontal_basis}
+horizontal_key_list = [next(iter(M["flatten"](u)), None) for u in horizontal_basis]
+check("custody", "every horizontal basis vector has a live flattened coordinate", all(key is not None for key in horizontal_key_list))
+horizontal_keys = {key for key in horizontal_key_list if key is not None}
 horizontal_rows = {
     row for row, u in enumerate(grade2)
-    if next(iter(M["flatten"](u))) in horizontal_keys
+    if next(iter(M["flatten"](u)), None) in horizontal_keys
 }
 offslice_rows = set(range(len(grade2))) - horizontal_rows
 check("exact", "complete equation dual splits as horizontal 24 plus off-slice 1250",

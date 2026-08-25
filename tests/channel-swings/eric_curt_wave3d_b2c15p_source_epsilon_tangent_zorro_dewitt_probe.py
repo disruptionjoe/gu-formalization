@@ -916,7 +916,7 @@ def geometry_checks() -> None:
         "all 71 nonzero reconstructed spin-curvature legs satisfy the exact active right-H, Krein-skew, and C-plus word identities",
         len(SPIN_CURVATURE) == 71 and not INCOMPATIBLE_SPIN_LEGS,
     )
-    selected_spin_leg = next(iter(SPIN_CURVATURE.values()))
+    selected_spin_leg = next(iter(SPIN_CURVATURE.values()), {})
     reject(
         "preserve the native spin-curvature reality identities after corrupting the right-H word",
         B15O.word_compatible_variant(

@@ -111,7 +111,8 @@ check("control", "the unrestricted complex image contains the same target", not 
 
 print("\nC. RECOVER THE EXACT REAL CURVATURE IMAGE BASIS")
 augmented_basis = V202["real_basis"]
-target_pivot = next(reversed(augmented_basis))
+target_pivot = next(reversed(augmented_basis), None)
+check("custody", "the augmented real-curvature basis retains a terminal target pivot", target_pivot is not None)
 image_basis = {pivot: vector for pivot, vector in augmented_basis.items() if pivot != target_pivot}
 check("exact", "v0.202 appended exactly one independent target pivot", len(augmented_basis) == 365 and len(image_basis) == 364)
 

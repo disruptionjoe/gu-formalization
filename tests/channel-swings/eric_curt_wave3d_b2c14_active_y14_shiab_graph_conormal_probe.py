@@ -310,7 +310,7 @@ def form_degree(value: Form) -> int:
     degrees = {len(key) for key in value}
     if len(degrees) != 1:
         raise ValueError(f"inhomogeneous or empty form: {degrees}")
-    return next(iter(degrees))
+    return next(iter(degrees), -1)
 
 
 def top_pair(one_form: Form, density: Form) -> F:
