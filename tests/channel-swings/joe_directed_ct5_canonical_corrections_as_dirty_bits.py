@@ -26,7 +26,9 @@ ANSWER, in four parts, all certified below.
   (2) IT IS SPECIFIC, NOT INDISCRIMINATE.  A post-correction file that matches
       the same signature is NOT dirty (K1); a fenced comparator resolves
       FENCED, not stale (K2); SCUR-1's declared contrary control CB-E is clean
-      (K3); and the packet is dirty for exactly one of the ten corrections (Z6).
+      (K3); and the packet is dirty for exactly one of CT-5's original ten
+      corrections (Z6). Later independently governed canonical corrections may
+      extend the registry without weakening these historical pins.
 
   (3) THE HAND WORK IS BANKED, NOT RE-DONE.  40 records transcribed from
       SCUR-1, FIX-A and RW-1 clear 18 (file, correction) pairs.  The six FIX-A
@@ -249,16 +251,20 @@ def run_probe(cfg: dict | None = None) -> dict:
     # ---------------------------------------------------------------- R ---
     entries = res["entries"]
     live = [e for e in entries if str(e.get("id")).startswith("CC-") and "SELFTEST" not in str(e.get("id"))]
-    check("R", "registry carries exactly ten canonical corrections",
-          len(live) == 10, len(live))
-    check("R", "the ten canonical ids are exactly SCUR-1's ten register items",
-          tuple(sorted(str(e["id"]) for e in live)) == tuple(sorted(CANON_IDS)),
-          sorted(str(e.get("id")) for e in live))
+    historical_ids = tuple(str(e["id"]) for e in live if str(e.get("id")) in set(CANON_IDS))
+    check("R", "registry retains CT-5's original ten as an ordered unique historical subsequence",
+          historical_ids == CANON_IDS
+          and all(sum(1 for e in live if str(e.get("id")) == cid) == 1 for cid in CANON_IDS),
+          historical_ids)
+    historical = [e for e in live if str(e.get("id")) in set(CANON_IDS)]
+    check("R", "the historical canonical ids are exactly SCUR-1's ten register items",
+          tuple(sorted(str(e["id"]) for e in historical)) == tuple(sorted(CANON_IDS)),
+          sorted(str(e.get("id")) for e in historical))
     check("R", "every canonical entry declares entry_class canonical_source_correction",
           all(e.get("entry_class") == "canonical_source_correction" for e in live))
     check("R", "canonical_since dates match SCUR-1's owner artifacts",
-          {str(e["id"]): str(e["canonical_since"]) for e in live} == CANON_SINCE,
-          {str(e["id"]): str(e["canonical_since"]) for e in live})
+          {str(e["id"]): str(e["canonical_since"]) for e in historical} == CANON_SINCE,
+          {str(e["id"]): str(e["canonical_since"]) for e in historical})
     check("R", "every signature has >= 1 family and every family >= 1 nonempty token",
           all(G.families_of(e) and all(any(str(t).strip() for t in f) for f in G.families_of(e))
               for e in live))
@@ -284,18 +290,22 @@ def run_probe(cfg: dict | None = None) -> dict:
           and all(citation_ids.count(cid) == 1 for cid in CITATION_IDS),
           citation_ids)
     check("C", "no canonical entry leaked into the citation gate's list",
-          not (set(CANON_IDS) & {str(e.get("id")) for e in raw["corrections"]}))
+          not ({str(e.get("id")) for e in live}
+               & {str(e.get("id")) for e in raw["corrections"]}))
     check("C", "the citation gate still passes on the extended registry",
           _citation_gate_passes(), "correction_propagation_audit exit status")
 
     # ---------------------------------------------------------------- S ---
     checks_ = [c for c in res["checks"] if "SELFTEST" not in str(c.get("by", ""))]
+    historical_checks = [c for c in checks_
+                         if c.get("correction_id") == "ALL-REGISTER"
+                         or c.get("correction_id") in set(CANON_IDS)]
     check("S", "sidecar seed is SCUR-1's 23 documents + 6 findings, 6 FIX-A repairs, and 5 RW-1 clearances",
-          len(checks_) == PINNED_RECORDS, len(checks_))
+          len(historical_checks) == PINNED_RECORDS, len(historical_checks))
     check("S", "23 ALL-REGISTER records (SCUR-1's per-document verdicts)",
-          sum(1 for c in checks_ if c.get("correction_id") == "ALL-REGISTER") == PINNED_ALL_REGISTER,
-          sum(1 for c in checks_ if c.get("correction_id") == "ALL-REGISTER"))
-    stale = [c for c in checks_ if c.get("verdict") == "STALE-FOUND"]
+          sum(1 for c in historical_checks if c.get("correction_id") == "ALL-REGISTER") == PINNED_ALL_REGISTER,
+          sum(1 for c in historical_checks if c.get("correction_id") == "ALL-REGISTER"))
+    stale = [c for c in historical_checks if c.get("verdict") == "STALE-FOUND"]
     check("S", "6 STALE-FOUND records = SCUR-1's five findings over six pairs",
           len(stale) == PINNED_STALE_FOUND, len(stale))
     check("S", "every STALE-FOUND record carries a pointer to where the finding lives",

@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Canonical-currency and B2 steering reconciliation, 2026-08-25.** Five
+corrections canonicalized on 2026-08-24 are now registered in CT-5 and every
+one of their 52 exact pre-correction signature hits is adjudicated. Forty-five
+are cleared; seven remain explicit known-stale owner repairs: one odd-q Krein
+half-nullity overreach, three bare-zero-insertion SHIAB overreaches and three
+claims that the SG4 axis cardinality was measured. The observed-epoch binning
+and one-way three-corner consistency-price signatures have no stale consumers.
+The new ratchet baselines are `1/3/3/0/0`, and CT-5 remains green. Separately,
+the agenda and `RS-WAVE-SERIES` now agree with the already-published empty B2
+action root: CBRS1--1AB is exhausted, W154/W229 is nonadmitted, fresh disjoint
+non-B2 selection is current, and `RS-WAVE-SERIES` remains `ACTIVE` only as a
+steering guard rather than execution authority. A qualified K77 action/bridge
+requires a new activation decision. No source claim, scientific verdict,
+ledger row, SG4 phase, canon or public posture moves. See
+`explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md`.
+
 **Probe-authorship wrapped-prose closure, 2026-08-25.** All 28 remaining
 wrapped-prose false-negative seams are repaired across four historical-ledger
 and twelve live scientific/control probes. The repository-wide lint now finds

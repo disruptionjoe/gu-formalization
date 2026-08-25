@@ -486,3 +486,126 @@ canonical_source_corrections:
            generic-prose noise"
         - "'verbatim' / 'quote' -- rejected: they are the repo's standard evidence
            vocabulary and fire nearly everywhere"
+  - id: CC-11-ODD-Q-KREIN-HALF-NULLITY
+    entry_class: canonical_source_correction
+    register_item: 11
+    canonical_since: '2026-08-24'
+    owner: canon/ghost-parity-krein-synthesis.md
+    co_owners:
+      - canon/six-axis-candidate-krein-positivity-dg.md
+    superseded_reading: >-
+      That each chirality half of the triplet Krein sector is totally null and
+      purely cross-paired in all three tested signatures. The total signature
+      remains (+96,-96,0) in (9,5), (7,7) and (14,0), but half-nullity follows
+      from {K,chi}=0 only when the timelike count q is odd. The Euclidean
+      (14,0) control has definite opposite chirality halves instead.
+    signature:
+      match: all_families
+      token_families:
+        - ["chirality half", "chiral half", "each half"]
+        - ["totally null", "cross-pairing", "cross pairing", "hyperbolic pair"]
+      blindness: >-
+        A document may assert the superseded all-signature scope by listing
+        half-signatures numerically without using a half/null/pairing phrase;
+        that coordinate-only form is invisible to this signature.
+      known_synonyms_outside_signature:
+        - "'isotropic' / 'lagrangian half' -- excluded because they occur in unrelated symplectic and representation-theory contexts"
+        - "'(+96,-96)' bare -- excluded because it states the still-correct total signature rather than the corrected half restriction"
+  - id: CC-12-SHIAB-ZERO-INSERTION-SCOPE
+    entry_class: canonical_source_correction
+    register_item: 12
+    canonical_since: '2026-08-24'
+    owner: canon/shiab-existence-cl95.md
+    co_owners:
+      - CANON.md
+      - canon/two-arena-rep-theory-core-RESULTS.md
+    superseded_reading: >-
+      That dim Hom_{Spin(9,5)}(S+ tensor S+, Lambda0)=0 excludes every
+      same-chirality Majorana pairing channel and forces any such block to come
+      from an external spurion. The exact computation binds only the bare
+      zero-insertion Hom domain; a class-2 insertion can admit nonzero pairing
+      shapes, while action selection, reality map, scale, domain and spectrum
+      remain open.
+    signature:
+      match: all_families
+      token_families:
+        - ["same-chirality", "same chirality", "majorana scalar"]
+        - ["absent", "no invariant", "external source-action spurion", "outside the equivariant family"]
+      blindness: >-
+        A document that repeats only the Hom formula or says "diagonal block
+        vanishes" without the same-chirality/Majorana vocabulary is invisible.
+      known_synonyms_outside_signature:
+        - "'majorana' bare -- excluded because comparator and neutrino documents use it without consuming SHIAB-05"
+        - "'mass channel' bare -- excluded because it spans unrelated Higgs, Yukawa and spectral calculations"
+  - id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY
+    entry_class: canonical_source_correction
+    register_item: 13
+    canonical_since: '2026-08-24'
+    owner: canon/gu-forces-field-space-declaration-RESULTS.md
+    superseded_reading: >-
+      That the forcing enumeration measured a two-bit SG4 residual or proved
+      either axis has cardinality two. The two-axis declaration is
+      source-imported; the enumeration measures only that neither declared
+      axis is eliminated. The effective low-curvature regime supplies no
+      third discrete phase and the four-corner map remains a coarse endpoint
+      model rather than a measured phase diagram.
+    signature:
+      match: all_families
+      token_families:
+        - ["measured 2-bit", "measured two-bit", "measured 2 dimensional", "measured 2-dimensional"]
+        - ["sg4", "residual", "phase"]
+      blindness: >-
+        A document that presents the two binary axes as self-evident or uses
+        only symbolic cardinality notation can consume the superseded reading
+        without any "measured 2-bit" phrase.
+      known_synonyms_outside_signature:
+        - "'two-bit' bare -- excluded because many files correctly describe the imported declaration without claiming it was measured"
+        - "'four corners' -- excluded because the four-corner map survives the correction"
+  - id: CC-14-SG4-OBSERVED-EPOCH-BINNING
+    entry_class: canonical_source_correction
+    register_item: 14
+    canonical_since: '2026-08-24'
+    owner: canon/gu-forces-field-space-declaration-RESULTS.md
+    owner_locus: observed-epoch routing scope correction
+    superseded_reading: >-
+      That the observed decreased or small-nonzero varpi regime may be binned
+      directly into the CHIRAL or MASSIVE endpoint. No source-authenticated or
+      action-derived threshold, equivalence class or coarse-graining map exists
+      at current grade; observed statements use the continuous modulus and
+      keep the binary only as the source-informed coarse endpoint declaration.
+    signature:
+      match: all_families
+      token_families:
+        - ["small-nonzero", "small nonzero", "observed-epoch", "observed epoch"]
+        - ["chiral", "massive", "binary endpoint", "phase"]
+      blindness: >-
+        A document can silently bin a numerical varpi value by using only an
+        inequality or a corner label, with none of the observed/small-nonzero
+        phrases in the first family.
+      known_synonyms_outside_signature:
+        - "'near zero' -- excluded because it is common in algebraic limiting arguments unrelated to observed binning"
+        - "'low curvature' -- excluded because it describes the continuous source regime correctly in many files"
+  - id: CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE
+    entry_class: canonical_source_correction
+    register_item: 15
+    canonical_since: '2026-08-24'
+    owner: canon/gu-forces-field-space-declaration-RESULTS.md
+    owner_locus: independently verified consistency addendum
+    superseded_reading: >-
+      That the frozen four-corner SG4 support is a full product or that its
+      implications are equivalences. The live-inconsistency corner makes the
+      support three-cornered: ABSENT implies MASSIVE and CHIRAL implies PRESENT
+      under the existing consistency judgment, while both converses fail and
+      a non-uniform mass map remains the explicit escape.
+    signature:
+      match: all_families
+      token_families:
+        - ["(absent, chiral)", "absent, chiral", "absent/chiral", "absent x chiral"]
+        - ["live inconsistency", "four corners", "product set", "independent bits"]
+      blindness: >-
+        A document can encode the superseded product support as a table or
+        symbolic pair set with a different delimiter or only describe the
+        incorrect converse implications; those forms remain invisible.
+      known_synonyms_outside_signature:
+        - "'four corners' bare -- excluded because it also names the unchanged frozen declaration map"
+        - "'invariance-selection' -- excluded because it is legitimate axis vocabulary and does not itself assert product support"

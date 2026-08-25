@@ -442,6 +442,75 @@ checks:
       confirmation still owed, transcript-verified grade only. Pointer:
       pack :236-291; CC-10 owner banner.
 
+  # -----------------------------------------------------------------------
+  # D. GU Formalization Stewardship's complete per-signature adjudication of
+  #    the five corrections canonicalized on 2026-08-24. Candidate membership
+  #    and the exact 45-cleared / 7-known-stale split are pinned by the coupled
+  #    reconciliation probe and recorded in its evidence note.
+  # -----------------------------------------------------------------------
+
+  # CC-11: 10/10 signature hits adjudicated; one known stale.
+  - {file: explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/c3prime-split-commutant-certificates-2026-08-12.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/hardening-h3-triplet-lift-2026-07-19.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/judge-corrected-claims-addendum-2026-08-10.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/monodromy-two-z2s-same-or-different-2026-08-09.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/nguyen-c1c2-real-form-certificates-2026-08-12.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/twentyfive-lens-what-is-a-generation-2026-08-09.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: STALE-FOUND, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25, pointer: explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md}
+  - {file: lab/active-research/joe-directed/grading-bridge/gb1-the-bridge-is-one-angle-and-one-missing-arrow-2026-08-17.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/lens-digs/ldb-bit2-direction-and-krein-parity-2026-08-17.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+
+  # CC-12: 29/29 signature hits adjudicated; three known stale.
+  - {file: explorations/big-swing-2026-07-03/BIG-SWING-1-source-action-definite-vertical-dirac-BLOCKED.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/big-swing-2026-07-03/BIG-SWING-C07-quaternionic-kramers-wall-THEOREM.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/big-swing-2026-07-03/R5-issuance-bridge-chiral-tie-nogo.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/conditional-build/cb-a-representation-content-2026-08-05.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: STALE-FOUND, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25, pointer: explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md}
+  - {file: explorations/conditional-build/cb-d-parameterizing-the-unknown-2026-08-05.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/judge-corrected-claims-addendum-2026-08-10.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/misc/fr4-cadence-delta-second-example-2026-06-23.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/nguyen-c1c2-real-form-certificates-2026-08-12.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/nguyen-pincer-real-form-design-packet-2026-08-11.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/over-determined-rows-review-considerations-2026-08-07.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/research-cycles/hourly-20260625-1702-cycle2-ig-finite-transcript-admission-matrix.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/research-cycles/hourly-20260625-1802-cycle1-ig-raw-formal-d7-branching-transcript.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/research-cycles/hourly-20260625-1802-cycle2-ig-product-b-first-admission-gate.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/research-cycles/hourly-cycle2-actual-dgu-operator-certificate-schema-2026-06-25.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/signature-independent-scalar-vanishing-lemma-2026-08-03.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/source-action-requirements-spec-2026-07-13.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: STALE-FOUND, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25, pointer: explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md}
+  - {file: explorations/su4c-seesaw-retrodiction-2026-08-03.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/unified-source-datum-packet-v0-2026-07-30.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/wave8/H23-source-action-construction-2026-07-11.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: STALE-FOUND, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25, pointer: explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md}
+  - {file: explorations/yukawa-scoping-2026-07-13.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/carrier/crb-carrier-is-four-corners-not-one-weyl-2026-08-15.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/high-energy-two-plus-one/he2-real-form-does-not-pair-144-with-144bar-2026-08-15.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/majorana-126-neutrino/mj1-exact-126-majorana-block-2026-08-14.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: FENCED-COMPARATOR, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/source-currency/scur1-source-currency-audit-2026-08-17.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/process/anchor-council-2026-08-03/seat3-particle-flavor.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/process/eleven-lens-audit-2026-08-03.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/process/improvement-register-2026-08-03.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+
+  # CC-13: 4/4 signature hits adjudicated; three known stale.
+  - {file: explorations/W177-build-connection-curvature-c2-2026-07-14.md, correction_id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY, verdict: STALE-FOUND, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25, pointer: explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md}
+  - {file: lab/active-research/joe-directed/anomaly-cancellation/ac1-rs-content-cannot-obstruct-and-anomalies-cannot-select-2026-08-14.md, correction_id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY, verdict: STALE-FOUND, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25, pointer: explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md}
+  - {file: lab/active-research/joe-directed/lens-digs/lda-sg4-bit2-type-and-transport-2026-08-17.md, correction_id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/majorana-126-neutrino/mj2-no-native-126-carrier-2026-08-14.md, correction_id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY, verdict: STALE-FOUND, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25, pointer: explorations/canonical-currency-and-steering-reconciliation-2026-08-25.md}
+
+  # CC-14: 6/6 signature hits adjudicated; no stale consumers.
+  - {file: explorations/W141-steelman-sweep-observational-2026-07-14.md, correction_id: CC-14-SG4-OBSERVED-EPOCH-BINNING, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: explorations/conditional-build/selected-k78-rsap-a3-nonsemisimple-transition-atlas-2026-08-15.md, correction_id: CC-14-SG4-OBSERVED-EPOCH-BINNING, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/lens-digs/ldc-vev-selector-adjudication-2026-08-17.md, correction_id: CC-14-SG4-OBSERVED-EPOCH-BINNING, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/majorana-126-neutrino/sn2-neutral-pencil-valuation-classifier-2026-08-16.md, correction_id: CC-14-SG4-OBSERVED-EPOCH-BINNING, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md, correction_id: CC-14-SG4-OBSERVED-EPOCH-BINNING, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/source-currency/scur1-source-currency-audit-2026-08-17.md, correction_id: CC-14-SG4-OBSERVED-EPOCH-BINNING, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+
+  # CC-15: 3/3 signature hits adjudicated; no stale consumers.
+  - {file: lab/active-research/joe-directed/bit1-price/b1p1-three-corner-support-prices-the-chiral-grant-2026-08-17.md, correction_id: CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/active-research/joe-directed/lens-digs/ldc-vev-selector-adjudication-2026-08-17.md, correction_id: CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+  - {file: lab/methods/gu-base-categories.md, correction_id: CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
+
 # -------------------------------------------------------------------------
 # RATCHET BASELINE.  Per correction: the dirty count measured when the
 # correction's 7-day grace period is armed.  The gate is RED if the dirty count
@@ -458,6 +527,7 @@ checks:
 ratchet:
   grace_days: 7
   baseline_measured_on: '2026-08-17'
+  extension_measured_on: '2026-08-25'
   baseline:
     CC-01-MET-X-ARGUMENT: 22
     CC-02-OBSERVED-POSITIVITY-OPEN: 11
@@ -469,3 +539,8 @@ ratchet:
     CC-08-DARK-PARTNER-OBLIGATION: 6
     CC-09-YUKAWA-REPULSIVE-SIGN: 28
     CC-10-UCSD-EDITED-DERIVATIVE: 45
+    CC-11-ODD-Q-KREIN-HALF-NULLITY: 1
+    CC-12-SHIAB-ZERO-INSERTION-SCOPE: 3
+    CC-13-SG4-IMPORTED-AXIS-CARDINALITY: 3
+    CC-14-SG4-OBSERVED-EPOCH-BINNING: 0
+    CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE: 0
